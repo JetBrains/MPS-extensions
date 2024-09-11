@@ -73,13 +73,13 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="1094247804558289146" name="jetbrains.mps.lang.text.structure.BulletLine" flags="ng" index="2DRihI" />
-      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ng" index="2RT3b8">
+      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ngI" index="2RT3b8">
         <property id="5106752179536586491" name="indentation" index="2RT3bR" />
       </concept>
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -224,6 +224,70 @@
         </node>
         <node concept="3oM_SD" id="1$KnWE8iTo8" role="1PaTwD">
           <property role="3oM_SC" value="month." />
+        </node>
+      </node>
+    </node>
+    <node concept="15bmVD" id="2IcGFIaJNN3" role="15bmVC">
+      <node concept="15ShDW" id="2IcGFIaJNN0" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgB0/September" />
+        <property role="15ShDw" value="2024" />
+      </node>
+      <node concept="15bAme" id="2IcGFIaJNN1" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOE/added" />
+        <node concept="2DRihI" id="2IcGFIaJNN2" role="15bAlk">
+          <node concept="3oM_SD" id="2IcGFIaJNP4" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNP_" role="1PaTwD">
+            <property role="3oM_SC" value="module" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNQ6" role="1PaTwD">
+            <property role="3oM_SC" value="stub" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNQB" role="1PaTwD">
+            <property role="3oM_SC" value="solution" />
+          </node>
+          <node concept="15Ami3" id="2IcGFIaJNS9" role="1PaTwD">
+            <node concept="37shsh" id="2IcGFIaJNSb" role="15Aodc">
+              <node concept="1dCxOk" id="2IcGFIaJNSL" role="37shsm">
+                <property role="1XweGW" value="47198eff-d292-4dcd-85af-227f983426b5" />
+                <property role="1XxBO9" value="MPS.Kotlin" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNUQ" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNUR" role="1PaTwD">
+            <property role="3oM_SC" value="added" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNVo" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNVT" role="1PaTwD">
+            <property role="3oM_SC" value="support" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNWU" role="1PaTwD">
+            <property role="3oM_SC" value="referencing" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNYr" role="1PaTwD">
+            <property role="3oM_SC" value="Kotlin" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJNZW" role="1PaTwD">
+            <property role="3oM_SC" value="classes" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJO0t" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJO0Y" role="1PaTwD">
+            <property role="3oM_SC" value="libraries" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJO3v" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="3oM_SD" id="2IcGFIaJO40" role="1PaTwD">
+            <property role="3oM_SC" value="MPS.ThirdParty." />
+          </node>
         </node>
       </node>
     </node>

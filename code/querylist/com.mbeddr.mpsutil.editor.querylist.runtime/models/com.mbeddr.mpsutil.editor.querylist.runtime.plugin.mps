@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:5f74240b-ce7f-4ae5-99bc-bf1a210bda6d(com.mbeddr.mpsutil.editor.querylist.runtime.plugin)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
@@ -647,6 +648,25 @@
         </node>
         <node concept="3clFbH" id="ercpuKTou1" role="3cqZAp" />
         <node concept="3clFbJ" id="ercpuKPoIL" role="3cqZAp">
+          <node concept="3clFbS" id="7zv1GjAJRiR" role="3clFbx">
+            <node concept="3cpWs6" id="7zv1GjAJSTt" role="3cqZAp">
+              <node concept="2ShNRf" id="7zv1GjAJSTu" role="3cqZAk">
+                <node concept="1pGfFk" id="7zv1GjAJSTv" role="2ShVmc">
+                  <ref role="37wK5l" to="n70j:~UpdateResult$Completed.&lt;init&gt;(boolean,java.util.Collection)" resolve="UpdateResult.Completed" />
+                  <node concept="3clFbT" id="7zv1GjAJSTw" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                  <node concept="2YIFZM" id="7zv1GjAK0uC" role="37wK5m">
+                    <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
+                    <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                    <node concept="3uibUv" id="7zv1GjAK59I" role="3PaCim">
+                      <ref role="3uigEE" to="exr9:~EditorMessage" resolve="EditorMessage" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3fqX7Q" id="7zv1GjAJRiv" role="3clFbw">
             <node concept="1eOMI4" id="7zv1GjAJRiE" role="3fr31v">
               <node concept="1Wc70l" id="7zv1GjAJRiw" role="1eOMHV">
@@ -672,25 +692,6 @@
                     </node>
                     <node concept="3clFbT" id="7zv1GjAJRiD" role="37wK5m">
                       <property role="3clFbU" value="true" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="7zv1GjAJRiR" role="3clFbx">
-            <node concept="3cpWs6" id="7zv1GjAJSTt" role="3cqZAp">
-              <node concept="2ShNRf" id="7zv1GjAJSTu" role="3cqZAk">
-                <node concept="1pGfFk" id="7zv1GjAJSTv" role="2ShVmc">
-                  <ref role="37wK5l" to="n70j:~UpdateResult$Completed.&lt;init&gt;(boolean,java.util.Collection)" resolve="Completed" />
-                  <node concept="3clFbT" id="7zv1GjAJSTw" role="37wK5m">
-                    <property role="3clFbU" value="true" />
-                  </node>
-                  <node concept="2YIFZM" id="7zv1GjAK0uC" role="37wK5m">
-                    <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
-                    <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-                    <node concept="3uibUv" id="7zv1GjAK59I" role="3PaCim">
-                      <ref role="3uigEE" to="exr9:~EditorMessage" resolve="EditorMessage" />
                     </node>
                   </node>
                 </node>
@@ -827,7 +828,7 @@
                       <property role="2bfB8j" value="true" />
                       <property role="373rjd" value="true" />
                       <ref role="1Y3XeK" to="5zyv:~Callable" resolve="Callable" />
-                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                       <node concept="3Tm1VV" id="7zv1GjAQP8L" role="1B3o_S" />
                       <node concept="3clFb_" id="7zv1GjAQP8Y" role="jymVt">
                         <property role="TrG5h" value="call" />
@@ -899,7 +900,7 @@
                           </node>
                         </node>
                         <node concept="2AHcQZ" id="7zv1GjAQP95" role="2AJF6D">
-                          <ref role="2AI5Lk" to="wyt6:~Override" />
+                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                         </node>
                       </node>
                       <node concept="3uibUv" id="7zv1GjAQP96" role="2Ghqu4">
@@ -1381,7 +1382,7 @@
         <node concept="3cpWs6" id="2v0ve8x$poW" role="3cqZAp">
           <node concept="2ShNRf" id="2v0ve8x$poX" role="3cqZAk">
             <node concept="1pGfFk" id="2v0ve8x$poY" role="2ShVmc">
-              <ref role="37wK5l" to="n70j:~UpdateResult$Completed.&lt;init&gt;(boolean,java.util.Collection)" resolve="Completed" />
+              <ref role="37wK5l" to="n70j:~UpdateResult$Completed.&lt;init&gt;(boolean,java.util.Collection)" resolve="UpdateResult.Completed" />
               <node concept="3clFbT" id="4iy$lDSrtFT" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1572,7 +1573,7 @@
               <node concept="2ShNRf" id="T_6DrlXBRK" role="37wK5m">
                 <node concept="1pGfFk" id="7zv1GjAMOzL" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="37wK5l" node="7zv1GjAMrmF" resolve="CancellableEmptyProgessMonitor" />
+                  <ref role="37wK5l" node="7zv1GjAMrmF" resolve="QueryListChecker.CancellableEmptyProgessMonitor" />
                   <node concept="37vLTw" id="7zv1GjAMQjx" role="37wK5m">
                     <ref role="3cqZAo" node="7zv1GjALmKC" resolve="cancellable" />
                   </node>
@@ -1622,18 +1623,18 @@
           <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
         </node>
       </node>
-      <node concept="37vLTG" id="7zv1GjALmKC" role="3clF46">
-        <property role="TrG5h" value="cancellable" />
-        <node concept="3uibUv" id="7zv1GjALpGJ" role="1tU5fm">
-          <ref role="3uigEE" to="18ew:~Cancellable" resolve="Cancellable" />
-        </node>
-      </node>
       <node concept="3Tm1VV" id="T_6DrlXBRX" role="1B3o_S" />
       <node concept="P$JXv" id="T_6DrlXBS4" role="lGtFl">
         <node concept="TZ5HA" id="T_6DrlXBS5" role="TZ5H$">
           <node concept="1dT_AC" id="T_6DrlXBS6" role="1dT_Ay">
             <property role="1dT_AB" value="based on NodeCheckerUtil#checkForNodeMessages" />
           </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7zv1GjALmKC" role="3clF46">
+        <property role="TrG5h" value="cancellable" />
+        <node concept="3uibUv" id="7zv1GjALpGJ" role="1tU5fm">
+          <ref role="3uigEE" to="18ew:~Cancellable" resolve="Cancellable" />
         </node>
       </node>
     </node>
@@ -1800,7 +1801,7 @@
               <node concept="2OqwBi" id="7zv1GjAMsWh" role="37vLTJ">
                 <node concept="Xjq3P" id="7zv1GjAMt5q" role="2Oq$k0" />
                 <node concept="2OwXpG" id="7zv1GjAMsWk" role="2OqNvi">
-                  <ref role="2Oxat5" node="7zv1GjAMspd" resolve="myCancellable" />
+                  <ref role="2Oxat5" node="7zv1GjAMspd" resolve="cancellable" />
                 </node>
               </node>
               <node concept="37vLTw" id="7zv1GjAMspn" role="37vLTx">
@@ -2013,6 +2014,7 @@
       <node concept="3Tm1VV" id="13pedfataCB" role="1B3o_S" />
       <node concept="10Oyi0" id="13pedfataBL" role="3clF45" />
     </node>
+    <node concept="3Tm1VV" id="13pedfat8oP" role="1B3o_S" />
     <node concept="3clFb_" id="7zv1GjAJsAV" role="jymVt">
       <property role="TrG5h" value="getTimeout" />
       <node concept="3clFbS" id="7zv1GjAJsAY" role="3clF47">
@@ -2032,7 +2034,6 @@
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
-    <node concept="3Tm1VV" id="13pedfat8oP" role="1B3o_S" />
   </node>
   <node concept="sE7Ow" id="ercpuKTQR3">
     <property role="TrG5h" value="DisableModelcheck" />
@@ -2165,7 +2166,7 @@
               <node concept="2OqwBi" id="obyZJhYdVA" role="37wK5m">
                 <node concept="2YIFZM" id="obyZJhYdVB" role="2Oq$k0">
                   <ref role="37wK5l" to="1ka:~TypecheckingSession$Flags.forRoot(org.jetbrains.mps.openapi.model.SNode)" resolve="forRoot" />
-                  <ref role="1Pybhc" to="1ka:~TypecheckingSession$Flags" resolve="Flags" />
+                  <ref role="1Pybhc" to="1ka:~TypecheckingSession$Flags" resolve="TypecheckingSession.Flags" />
                   <node concept="37vLTw" id="obyZJhYdVC" role="37wK5m">
                     <ref role="3cqZAo" node="mDYNhtw$46" resolve="root" />
                   </node>
@@ -2410,7 +2411,7 @@
                               <ref role="37wK5l" to="u78q:~TypeCheckingContext.setNonTypesystemComputationMode(jetbrains.mps.typesystem.inference.TypeCheckingContext$NonTypesystemComputationMode)" resolve="setNonTypesystemComputationMode" />
                               <node concept="Rm8GO" id="4VpcCIwXVON" role="37wK5m">
                                 <ref role="Rm8GQ" to="u78q:~TypeCheckingContext$NonTypesystemComputationMode.NORMAL" resolve="NORMAL" />
-                                <ref role="1Px2BO" to="u78q:~TypeCheckingContext$NonTypesystemComputationMode" resolve="NonTypesystemComputationMode" />
+                                <ref role="1Px2BO" to="u78q:~TypeCheckingContext$NonTypesystemComputationMode" resolve="TypeCheckingContext.NonTypesystemComputationMode" />
                               </node>
                             </node>
                           </node>
@@ -2457,7 +2458,7 @@
                               <ref role="37wK5l" to="u78q:~TypeCheckingContext.setNonTypesystemComputationMode(jetbrains.mps.typesystem.inference.TypeCheckingContext$NonTypesystemComputationMode)" resolve="setNonTypesystemComputationMode" />
                               <node concept="Rm8GO" id="4VpcCIwXYKa" role="37wK5m">
                                 <ref role="Rm8GQ" to="u78q:~TypeCheckingContext$NonTypesystemComputationMode.OFF" resolve="OFF" />
-                                <ref role="1Px2BO" to="u78q:~TypeCheckingContext$NonTypesystemComputationMode" resolve="NonTypesystemComputationMode" />
+                                <ref role="1Px2BO" to="u78q:~TypeCheckingContext$NonTypesystemComputationMode" resolve="TypeCheckingContext.NonTypesystemComputationMode" />
                               </node>
                             </node>
                           </node>

@@ -149,7 +149,7 @@
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
@@ -191,7 +191,7 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
         <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
@@ -260,7 +260,7 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -279,7 +279,7 @@
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
@@ -550,7 +550,7 @@
         <property id="3662141892374567264" name="nodeSpacing" index="36KDf5" />
         <child id="3662141892374568027" name="padding" index="36KDrY" />
       </concept>
-      <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ng" index="36TQxy">
+      <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ngI" index="36TQxy">
         <property id="3662141892371757000" name="topdownHierarchicalNodeAspectRatio" index="31dVPH" />
         <property id="3662141892371761113" name="topdownScaleFactor" index="31dWPW" />
         <property id="3662141892374569619" name="topdownHierarchicalNodeWidth" index="36KEwQ" />
@@ -627,7 +627,7 @@
       <concept id="1172073500303" name="jetbrains.mps.baseLanguage.unitTest.structure.Message" flags="ng" index="3_1$Yv">
         <child id="1172073511101" name="message" index="3_1BAH" />
       </concept>
-      <concept id="1172075514136" name="jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder" flags="ng" index="3_9gw8">
+      <concept id="1172075514136" name="jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder" flags="ngI" index="3_9gw8">
         <child id="1172075534298" name="message" index="3_9lra" />
       </concept>
     </language>
@@ -648,7 +648,7 @@
       <concept id="6747382324549521158" name="de.itemis.mps.editor.diagram.demo.elk.structure.BoxTest" flags="ng" index="379oHZ" />
       <concept id="6747382324546318490" name="de.itemis.mps.editor.diagram.demo.elk.structure.TreeTest" flags="ng" index="37XFjz" />
       <concept id="6747382324546254300" name="de.itemis.mps.editor.diagram.demo.elk.structure.ForceTest" flags="ng" index="37XV6_" />
-      <concept id="3601881183937328129" name="de.itemis.mps.editor.diagram.demo.elk.structure.IBaseGraphTest" flags="ng" index="1qgKvr">
+      <concept id="3601881183937328129" name="de.itemis.mps.editor.diagram.demo.elk.structure.IBaseGraphTest" flags="ngI" index="1qgKvr">
         <child id="5574140559873342040" name="nodes" index="i0U$m" />
         <child id="5574140559873342588" name="edges" index="i0UWM" />
         <child id="477607467887417862" name="config" index="J81tK" />
@@ -705,7 +705,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
@@ -3327,8 +3327,8 @@
                   <node concept="1Y3b0j" id="1laJE2$mTlK" role="YeSDq">
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
-                    <ref role="1Y3XeK" to="18t6:~mxEventSource$mxIEventListener" resolve="mxIEventListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="1Y3XeK" to="18t6:~mxEventSource$mxIEventListener" resolve="mxEventSource.mxIEventListener" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="1laJE2$mTlL" role="1B3o_S" />
                     <node concept="3clFb_" id="1laJE2$mTlM" role="jymVt">
                       <property role="TrG5h" value="invoke" />
@@ -3362,7 +3362,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="1laJE2$mTlZ" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>
@@ -13371,7 +13371,7 @@
           </node>
         </node>
         <node concept="37vLTw" id="1mqidcvpvrC" role="3tpDZB">
-          <ref role="3cqZAo" node="1mqidcvpvqu" resolve="expectedSize" />
+          <ref role="3cqZAo" node="1mqidcvpvqu" resolve="expectedSize1" />
         </node>
       </node>
       <node concept="3vlDli" id="1mqidcvsD6F" role="3cqZAp">
@@ -14620,7 +14620,7 @@
                             <node concept="2pJPED" id="1mqidcvQObB" role="28nt2d">
                               <ref role="2pJxaS" to="7nxb:24zrZPPz$8d" resolve="TextBoxContent" />
                               <node concept="2pJxcG" id="1mqidcvQOlZ" role="2pJxcM">
-                                <ref role="2pJxcJ" to="7nxb:24zrZPPz$8l" resolve="value" />
+                                <ref role="2pJxcJ" to="7nxb:24zrZPPz$8l" resolve="value1" />
                                 <node concept="WxPPo" id="1mqidcvQOwD" role="28ntcv">
                                   <node concept="Xl_RD" id="1mqidcvQOwC" role="WxPPp">
                                     <property role="Xl_RC" value="text" />
@@ -24922,7 +24922,7 @@
       </node>
       <node concept="3vlDli" id="2PdRDsXEsQU" role="3cqZAp">
         <node concept="37vLTw" id="2PdRDsXEHxj" role="3tpDZB">
-          <ref role="3cqZAo" node="2PdRDsXEHxe" resolve="d" />
+          <ref role="3cqZAo" node="2PdRDsXEHxe" resolve="originalBox1Bounds" />
         </node>
         <node concept="2OqwBi" id="2PdRDsXEtFu" role="3tpDZA">
           <node concept="37vLTw" id="2PdRDsXEt4v" role="2Oq$k0">
@@ -24979,11 +24979,11 @@
       </node>
       <node concept="3vlDli" id="2PdRDsXEC26" role="3cqZAp">
         <node concept="37vLTw" id="2PdRDsXEI7J" role="3tpDZB">
-          <ref role="3cqZAo" node="2PdRDsXEI7E" resolve="d" />
+          <ref role="3cqZAo" node="2PdRDsXEI7E" resolve="originalBox2Bounds" />
         </node>
         <node concept="2OqwBi" id="2PdRDsXEC2b" role="3tpDZA">
           <node concept="37vLTw" id="2PdRDsXEC2c" role="2Oq$k0">
-            <ref role="3cqZAo" node="2PdRDsXEC1Y" resolve="box1" />
+            <ref role="3cqZAo" node="2PdRDsXEC1Y" resolve="box2" />
           </node>
           <node concept="AQDAd" id="2PdRDsXEC2d" role="2OqNvi">
             <ref role="37wK5l" to="r3rm:1mqidcvpTcD" resolve="getSize" />
@@ -25036,11 +25036,11 @@
       </node>
       <node concept="3vlDli" id="2PdRDsXEDCc" role="3cqZAp">
         <node concept="37vLTw" id="2PdRDsXEJ7U" role="3tpDZB">
-          <ref role="3cqZAo" node="2PdRDsXEJ7P" resolve="d" />
+          <ref role="3cqZAo" node="2PdRDsXEJ7P" resolve="originalBox3Bounds" />
         </node>
         <node concept="2OqwBi" id="2PdRDsXEDCh" role="3tpDZA">
           <node concept="37vLTw" id="2PdRDsXEDCi" role="2Oq$k0">
-            <ref role="3cqZAo" node="2PdRDsXEDC4" resolve="box1" />
+            <ref role="3cqZAo" node="2PdRDsXEDC4" resolve="box3" />
           </node>
           <node concept="AQDAd" id="2PdRDsXEDCj" role="2OqNvi">
             <ref role="37wK5l" to="r3rm:1mqidcvpTcD" resolve="getSize" />
@@ -25093,11 +25093,11 @@
       </node>
       <node concept="3vlDli" id="2PdRDsXEDXF" role="3cqZAp">
         <node concept="37vLTw" id="2PdRDsXEJDH" role="3tpDZB">
-          <ref role="3cqZAo" node="2PdRDsXEJDC" resolve="d" />
+          <ref role="3cqZAo" node="2PdRDsXEJDC" resolve="originalBox4Bounds" />
         </node>
         <node concept="2OqwBi" id="2PdRDsXEDXK" role="3tpDZA">
           <node concept="37vLTw" id="2PdRDsXEDXL" role="2Oq$k0">
-            <ref role="3cqZAo" node="2PdRDsXEDXz" resolve="box1" />
+            <ref role="3cqZAo" node="2PdRDsXEDXz" resolve="box4" />
           </node>
           <node concept="AQDAd" id="2PdRDsXEDXM" role="2OqNvi">
             <ref role="37wK5l" to="r3rm:1mqidcvpTcD" resolve="getSize" />

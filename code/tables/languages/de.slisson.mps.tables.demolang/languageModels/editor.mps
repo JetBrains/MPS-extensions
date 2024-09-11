@@ -103,7 +103,7 @@
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
@@ -229,7 +229,7 @@
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -244,7 +244,7 @@
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
@@ -314,7 +314,7 @@
         <reference id="1397920687864997201" name="linkDeclaration" index="2reCK$" />
         <child id="2199447184406843652" name="columnHeaders" index="2YiT2b" />
       </concept>
-      <concept id="1397920687864865353" name="de.slisson.mps.tables.structure.ITableNode" flags="ng" index="2rf8GW">
+      <concept id="1397920687864865353" name="de.slisson.mps.tables.structure.ITableNode" flags="ngI" index="2rf8GW">
         <child id="5861024100072578575" name="addHints" index="3xwHhj" />
       </concept>
       <concept id="1397920687864864270" name="de.slisson.mps.tables.structure.StaticHeader" flags="ng" index="2rfbtV">
@@ -343,7 +343,7 @@
       <concept id="4032373061957737357" name="de.slisson.mps.tables.structure.Parameter_Index" flags="ng" index="10bopy" />
       <concept id="4032373061957735279" name="de.slisson.mps.tables.structure.HeaderQuery_InsertNew" flags="ig" index="10boU0" />
       <concept id="4032373061970539014" name="de.slisson.mps.tables.structure.QueryParameter_EditorContext" flags="ng" index="1frAZD" />
-      <concept id="5662204344885760731" name="de.slisson.mps.tables.structure.IStylable" flags="ng" index="1g0I81">
+      <concept id="5662204344885760731" name="de.slisson.mps.tables.structure.IStylable" flags="ngI" index="1g0I81">
         <child id="5662204344887343006" name="style" index="1geGt4" />
       </concept>
       <concept id="5662204344885763446" name="de.slisson.mps.tables.structure.TableStyle" flags="ng" index="1g0IQG">
@@ -443,7 +443,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -861,7 +861,6 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="l2Vlx" id="1dAqnm8sVjH" role="2iSdaV" />
       <node concept="3F0ifn" id="quM1lvTLdX" role="3EZMnx">
         <property role="3F0ifm" value="Long content for sticky header testing" />
         <node concept="ljvvj" id="quM1lvTLdY" role="3F10Kt">
@@ -1120,6 +1119,7 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="l2Vlx" id="1dAqnm8sVjH" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="1dAqnm8oYA0">
@@ -1422,7 +1422,7 @@
                 </node>
               </node>
               <node concept="3tD6jV" id="quM1lwJjW9" role="3F10Kt">
-                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                 <node concept="3sjG9q" id="quM1lwJjWb" role="3tD6jU">
                   <node concept="3clFbS" id="quM1lwJjWd" role="2VODD2">
                     <node concept="3clFbF" id="quM1lwLWHg" role="3cqZAp">
@@ -1586,7 +1586,7 @@
                     <property role="3cmrfH" value="0" />
                   </node>
                   <node concept="1Z6Ecs" id="quM1lwMOU2" role="37wK5m">
-                    <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                    <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                   </node>
                   <node concept="3clFbT" id="quM1lwMQJp" role="37wK5m">
                     <property role="3clFbU" value="true" />
@@ -1701,7 +1701,7 @@
                         <property role="3cmrfH" value="1" />
                       </node>
                       <node concept="1Z6Ecs" id="quM1lwSSS9" role="37wK5m">
-                        <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                        <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                       </node>
                       <node concept="3clFbT" id="quM1lwSSWZ" role="37wK5m">
                         <property role="3clFbU" value="true" />
@@ -1870,7 +1870,7 @@
                 <property role="Qq2$K" value="3NocqOaFOpk/CENTER" />
               </node>
               <node concept="3tD6jV" id="quM1lwSRmw" role="3F10Kt">
-                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                 <node concept="3sjG9q" id="quM1lwSRmy" role="3tD6jU">
                   <node concept="3clFbS" id="quM1lwSRm$" role="2VODD2">
                     <node concept="3clFbF" id="quM1lwSRnl" role="3cqZAp">
@@ -1917,7 +1917,7 @@
                 <property role="Qq2$K" value="3NocqOaFOpk/CENTER" />
               </node>
               <node concept="3tD6jV" id="quM1lwSRnR" role="3F10Kt">
-                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                 <node concept="3sjG9q" id="quM1lwSRnS" role="3tD6jU">
                   <node concept="3clFbS" id="quM1lwSRnT" role="2VODD2">
                     <node concept="3clFbF" id="quM1lwSRnU" role="3cqZAp">
@@ -2802,12 +2802,6 @@
                 </node>
               </node>
               <node concept="1g0IQG" id="7AHcygnQNC1" role="1geGt4">
-                <node concept="3hWdWw" id="7AHcygnQNM9" role="3hTmz4">
-                  <property role="Vb097" value="fLJRk5A/lightGray" />
-                  <node concept="3hZEK$" id="7AHcygnU6zk" role="3hZOwg">
-                    <property role="3hZETZ" value="aaaaff" />
-                  </node>
-                </node>
                 <node concept="3tD6jV" id="3IadBSLoB21" role="3F10Kt">
                   <ref role="3tD7wE" to="reoo:7$DZq89TvVX" resolve="horizontal-sticky-cell" />
                   <node concept="3sjG9q" id="3IadBSLoB23" role="3tD6jU">
@@ -2821,6 +2815,12 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                </node>
+                <node concept="3hWdWw" id="7AHcygnQNM9" role="3hTmz4">
+                  <property role="Vb097" value="fLJRk5A/lightGray" />
+                  <node concept="3hZEK$" id="7AHcygnU6zk" role="3hZOwg">
+                    <property role="3hZETZ" value="aaaaff" />
                   </node>
                 </node>
               </node>
@@ -2870,7 +2870,7 @@
                 </node>
               </node>
               <node concept="3tD6jV" id="quM1lwA_lu" role="3F10Kt">
-                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                 <node concept="3sjG9q" id="quM1lwA_lv" role="3tD6jU">
                   <node concept="3clFbS" id="quM1lwA_lw" role="2VODD2">
                     <node concept="3clFbF" id="quM1lwA_qI" role="3cqZAp">
@@ -3643,7 +3643,7 @@
           </node>
           <node concept="1g0IQG" id="quM1lwzJhe" role="1geGt4">
             <node concept="3tD6jV" id="quM1lwzKWW" role="3F10Kt">
-              <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+              <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
               <node concept="3sjG9q" id="quM1lwzKWX" role="3tD6jU">
                 <node concept="3clFbS" id="quM1lwzKWY" role="2VODD2">
                   <node concept="3clFbF" id="quM1lwzL2c" role="3cqZAp">
@@ -4428,7 +4428,7 @@
           </node>
           <node concept="1g0IQG" id="quM1lvHDcq" role="1geGt4">
             <node concept="3tD6jV" id="quM1lvHEAc" role="3F10Kt">
-              <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+              <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
               <node concept="3sjG9q" id="quM1lvHEAd" role="3tD6jU">
                 <node concept="3clFbS" id="quM1lvHEAe" role="2VODD2">
                   <node concept="3clFbF" id="quM1lvHEFr" role="3cqZAp">

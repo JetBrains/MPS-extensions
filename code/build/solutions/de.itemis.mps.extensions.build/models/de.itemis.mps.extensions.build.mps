@@ -183,7 +183,7 @@
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="2105528055260548241" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_FolderWithSources" flags="ng" index="1bldCd" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
-        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
+        <property id="2928402740576877067" name="javaCode" index="3vZFNd" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
@@ -932,8 +932,8 @@
       <node concept="1E1JtA" id="3$A0JaN5bpX" role="2G$12L">
         <property role="TrG5h" value="MPS.ThirdParty" />
         <property role="3LESm3" value="39983771-4e9b-401b-a1a9-1da6c777c843" />
-        <property role="2GAjPV" value="true" />
         <property role="BnDLt" value="true" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="3$A0JaN5bwY" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3$A0JaN5chM" role="iGT6I">
@@ -1060,8 +1060,8 @@
       <node concept="1E1JtA" id="5z3whG1oBTp" role="2G$12L">
         <property role="TrG5h" value="MPS.Kotlin" />
         <property role="3LESm3" value="47198eff-d292-4dcd-85af-227f983426b5" />
-        <property role="2GAjPV" value="true" />
         <property role="BnDLt" value="true" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="5z3whG1oBTq" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="5z3whG1oBTr" role="iGT6I">
@@ -13137,8 +13137,8 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.input" />
         <property role="3LESm3" value="f65cad6f-55b3-4700-8f71-5f4c15c50e34" />
-        <property role="2GAjPV" value="true" />
         <property role="aoJFB" value="77WRb6jODAF/none" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="1RCZH7X6v0z" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="1RCZH7X6v0C" role="iGT6I">
@@ -23240,3 +23240,4 @@
     </node>
   </node>
 </model>
+

@@ -372,7 +372,7 @@
       </concept>
       <concept id="2387875361826161165" name="test.de.itemis.mps.editor.diagram.lang.structure.TextBoxContent" flags="ng" index="1kFiRK">
         <property id="3264510046068681567" name="value2" index="gOZn8" />
-        <property id="2387875361826161173" name="value" index="1kFiRC" />
+        <property id="2387875361826161173" name="value1" index="1kFiRC" />
       </concept>
       <concept id="2387875361826064830" name="test.de.itemis.mps.editor.diagram.lang.structure.Port" flags="ng" index="1kFUp3">
         <child id="2387875361826064887" name="positionX" index="1kFUoa" />
@@ -11549,7 +11549,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcwbGPi" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcwbGPj" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxYC1Y" role="lGtFl">
           <property role="LIFWa" value="3" />
           <property role="OXtK3" value="true" />
@@ -11773,7 +11773,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcvVk_l" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcvVk_m" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxVTNX" role="lGtFl">
           <property role="LIFWa" value="3" />
           <property role="OXtK3" value="true" />
@@ -12073,7 +12073,7 @@
     </node>
     <node concept="1qefOq" id="4DlUnPCyLEX" role="25YQCW">
       <node concept="yRWHJ" id="4DlUnPCyLTE" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxWZBf" role="lGtFl">
           <property role="LIFWa" value="2" />
           <property role="OXtK3" value="true" />
@@ -12515,7 +12515,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcwe9f0" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcwe9f1" role="1qenE9">
-        <ref role="yRWHI" node="1mqidcwddWa" />
+        <ref role="yRWHI" node="1mqidcwddWa" resolve="Auto layout on changes" />
         <node concept="LIFWc" id="1mqidcxXpyb" role="lGtFl">
           <property role="LIFWa" value="3" />
           <property role="OXtK3" value="true" />
@@ -12699,7 +12699,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcvt3g5" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcvt3g6" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxUOlS" role="lGtFl">
           <property role="LIFWa" value="4" />
           <property role="OXtK3" value="true" />
@@ -12862,7 +12862,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcvAH_V" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcvAH_W" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxWBSH" role="lGtFl">
           <property role="LIFWa" value="2" />
           <property role="OXtK3" value="true" />
@@ -13024,7 +13024,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcvCvth" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcvCvti" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxWBM$" role="lGtFl">
           <property role="LIFWa" value="3" />
           <property role="OXtK3" value="true" />
@@ -13403,7 +13403,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcvpvrE" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcvpvrF" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxX06H" role="lGtFl">
           <property role="LIFWa" value="4" />
           <property role="OXtK3" value="true" />
@@ -13657,7 +13657,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcy7zUd" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcy7zUe" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcy7zUf" role="lGtFl">
           <property role="LIFWa" value="3" />
           <property role="OXtK3" value="true" />
@@ -13844,7 +13844,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcyel0L" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcyel0M" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcyel0N" role="lGtFl">
           <property role="LIFWa" value="3" />
           <property role="OXtK3" value="true" />
@@ -14143,7 +14143,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcvwWK9" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcvwWKa" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxUsO6" role="lGtFl">
           <property role="LIFWa" value="2" />
           <property role="OXtK3" value="true" />
@@ -14478,7 +14478,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcwmQ8o" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcwmQ8p" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxXqSQ" role="lGtFl">
           <property role="LIFWa" value="3" />
           <property role="OXtK3" value="true" />
@@ -14692,7 +14692,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcvPRZ$" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcvPRZ_" role="1qenE9">
-        <ref role="yRWHI" node="1mqidcvQmo3" />
+        <ref role="yRWHI" node="1mqidcvQmo3" resolve="No change synchronization" />
         <node concept="LIFWc" id="1mqidcxVbmu" role="lGtFl">
           <property role="LIFWa" value="5" />
           <property role="OXtK3" value="true" />
@@ -15301,7 +15301,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcvEELw" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcvEELx" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxYgay" role="lGtFl">
           <property role="LIFWa" value="3" />
           <property role="OXtK3" value="true" />
@@ -17211,7 +17211,7 @@
     </node>
     <node concept="1qefOq" id="3yqOawDWoUO" role="25YQCW">
       <node concept="yRWHJ" id="3yqOawDWoUP" role="1qenE9">
-        <ref role="yRWHI" node="6actlYifUvJ" />
+        <ref role="yRWHI" node="6actlYifUvJ" resolve="Subdiagrams" />
         <node concept="LIFWc" id="3yqOawDWoUQ" role="lGtFl">
           <property role="LIFWa" value="5" />
           <property role="OXtK3" value="true" />
@@ -19131,7 +19131,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcxMbBw" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcxMbBx" role="1qenE9">
-        <ref role="yRWHI" node="1$TETcoeezx" />
+        <ref role="yRWHI" node="1$TETcoeezx" resolve="3Boxes + Ports" />
         <node concept="LIFWc" id="1mqidcxXtLz" role="lGtFl">
           <property role="LIFWa" value="3" />
           <property role="OXtK3" value="true" />
@@ -26201,7 +26201,7 @@
     </node>
     <node concept="1qefOq" id="2PdRDsXE5RE" role="25YQCW">
       <node concept="yRWHJ" id="2PdRDsXE5RF" role="1qenE9">
-        <ref role="yRWHI" node="2PdRDsX$nLS" />
+        <ref role="yRWHI" node="2PdRDsX$nLS" resolve="Boxes smaller than required size" />
         <node concept="LIFWc" id="2PdRDsXE5RG" role="lGtFl">
           <property role="LIFWa" value="5" />
           <property role="OXtK3" value="true" />

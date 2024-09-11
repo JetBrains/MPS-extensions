@@ -11,14 +11,12 @@
   <facets>
     <facet compile="ext" classes="provided" ext="no" type="java">
       <classes generated="true" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-builtins.jar" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-ide.jar" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-1.9.0.jar" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-common-1.9.0.jar" />
     </facet>
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-builtins.jar" />
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-ide.jar" />
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-1.9.0.jar" />
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-common-1.9.0.jar" />
-  </stubModelEntries>
   <dependencies>
     <dependency reexport="true">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
   </dependencies>

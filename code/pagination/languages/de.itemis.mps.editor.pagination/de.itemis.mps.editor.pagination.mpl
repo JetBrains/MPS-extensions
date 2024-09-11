@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="de.itemis.mps.editor.pagination" uuid="232ef711-abb3-4b52-a3f2-e7987a748232" languageVersion="0" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
@@ -14,7 +14,7 @@
   <generators>
     <generator alias="main" namespace="de.itemis.mps.editor.pagination.generator" uuid="037732ac-3a3f-400a-8c94-3dc0161526dd">
       <models>
-        <modelRoot type="default" contentPath="${module}/generator">
+        <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
         </modelRoot>
       </models>

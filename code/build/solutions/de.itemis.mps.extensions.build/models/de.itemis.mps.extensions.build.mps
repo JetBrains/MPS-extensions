@@ -893,9 +893,6 @@
       <node concept="m$_yC" id="3$A0JaN5ijM" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
-      <node concept="m$_yC" id="2IcGFIb0y8T" role="m$_yJ">
-        <ref role="m$_y1" node="2IcGFIaJU8j" resolve="MPS.Kotlin" />
-      </node>
       <node concept="3_J27D" id="3$A0JaN5ezr" role="m$_yQ">
         <node concept="3Mxwew" id="3$A0JaN5gnC" role="3MwsjC">
           <property role="3MwjfP" value="Stubs for the third party libraries in MPS" />
@@ -922,6 +919,9 @@
       <node concept="2iUeEo" id="3$A0JaN5j9p" role="2iVFfd">
         <property role="2iUeEu" value="https://www.itemis.com/en/it-services/methods-and-tools/mps" />
         <property role="2iUeEt" value="itemis AG" />
+      </node>
+      <node concept="m$_yC" id="2IcGFIb0y8T" role="m$_yJ">
+        <ref role="m$_y1" node="2IcGFIaJU8j" resolve="MPS.Kotlin" />
       </node>
     </node>
     <node concept="2G$12M" id="3$A0JaN5ae8" role="3989C9">
@@ -1011,9 +1011,6 @@
       <node concept="m$_yC" id="2IcGFIaJU8l" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
-      <node concept="m$_yC" id="2IcGFIb0yI0" role="m$_yJ">
-        <ref role="m$_y1" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
-      </node>
       <node concept="3_J27D" id="2IcGFIaJU8m" role="m$_yQ">
         <node concept="3Mxwew" id="2IcGFIaJU8n" role="3MwsjC">
           <property role="3MwjfP" value="Stubs for the Kotlin libraries in MPS" />
@@ -1081,12 +1078,6 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2IcGFIaJUND" role="3bR37C">
-          <node concept="3bR9La" id="2IcGFIaJUNE" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="3$A0JaN5bpX" resolve="MPS.ThirdParty" />
           </node>
         </node>
         <node concept="1SiIV0" id="2PSVZXMBj4h" role="3bR37C">
@@ -1175,6 +1166,12 @@
             <node concept="3yrxFa" id="2PSVZXMBkou" role="2gdwQb">
               <ref role="3yrxFb" to="ffeo:2I9TXtJz75K" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2VwBI6iTzXI" role="3bR37C">
+          <node concept="3bR9La" id="2VwBI6iTzXJ" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
       </node>
@@ -16551,6 +16548,11 @@
         <node concept="1SiIV0" id="2PSVZXMynSg" role="3bR37C">
           <node concept="3bR9La" id="2PSVZXMynSh" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2VwBI6iTHh0" role="3bR37C">
+          <node concept="3bR9La" id="2VwBI6iTHh1" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
       </node>

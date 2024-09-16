@@ -216,6 +216,30 @@
       <property role="20kJfa" value="allowElementsBelowRequiredSize" />
       <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
+    <node concept="1TJgyj" id="4sEIQIBvZeg" role="1TKVEi">
+      <property role="IQ2ns" value="5128117196760806288" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="showGrid" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
+    <node concept="1TJgyj" id="6nZQGuFIbxV" role="1TKVEi">
+      <property role="IQ2ns" value="7349833668006295675" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="gridSize" />
+      <ref role="20lvS9" to="tpc2:hLcFafI" resolve="QueryFunction_Integer" />
+    </node>
+    <node concept="1TJgyj" id="2WP$sH$Lbu5" role="1TKVEi">
+      <property role="IQ2ns" value="3401785396303280005" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="gridColor" />
+      <ref role="20lvS9" to="tpc2:h7ZlJ1A" resolve="QueryFunction_Color" />
+    </node>
+    <node concept="1TJgyj" id="4sEIQIBvZeh" role="1TKVEi">
+      <property role="IQ2ns" value="5128117196760806289" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="useGridSnapping" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="contentQuery" />
@@ -2192,6 +2216,16 @@
     <node concept="1TJgyi" id="2ZU2kH0jAMG" role="1TKVEl">
       <property role="IQ2nx" value="3457085882766355628" />
       <property role="TrG5h" value="hasTranslateToOriginButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4sEIQIBNARD" role="1TKVEl">
+      <property role="IQ2nx" value="5128117196765949417" />
+      <property role="TrG5h" value="hasShowGridButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4sEIQIBNAVE" role="1TKVEl">
+      <property role="IQ2nx" value="5128117196765949674" />
+      <property role="TrG5h" value="hasUseGridSnappingButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="2ZU2kH0jB7A" role="1TKVEl">

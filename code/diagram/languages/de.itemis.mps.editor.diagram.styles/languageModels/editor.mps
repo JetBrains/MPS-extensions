@@ -469,6 +469,20 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
+    <node concept="3t5Usi" id="4sEIQIBKTSa" role="V601i">
+      <property role="TrG5h" value="__show-grid-button" />
+      <node concept="10P_77" id="4sEIQIBKTSb" role="3t5Oan" />
+      <node concept="3clFbT" id="4sEIQIBKTSc" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4sEIQIBKU2v" role="V601i">
+      <property role="TrG5h" value="__use_grid-snapping-button" />
+      <node concept="10P_77" id="4sEIQIBKU2w" role="3t5Oan" />
+      <node concept="3clFbT" id="4sEIQIBKU2x" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
     <node concept="3t5Usi" id="74e51JhIQfJ" role="V601i">
       <property role="TrG5h" value="__root-button-creator" />
       <node concept="1ajhzC" id="74e51JhIQiK" role="3t5Oan">

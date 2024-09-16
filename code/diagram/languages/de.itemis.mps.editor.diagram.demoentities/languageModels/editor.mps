@@ -14,6 +14,7 @@
     <import index="tc27" ref="r:92d28f3c-6acc-431a-94ba-30cd184d2da4(de.itemis.mps.editor.diagram.runtime.substitute)" />
     <import index="wo6c" ref="r:de91083f-90a8-4dd4-83b1-8a92d65ab81d(de.itemis.mps.editor.diagram.shapes)" />
     <import index="vgho" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.math(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -58,6 +59,7 @@
       </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
+      <concept id="1221057094638" name="jetbrains.mps.lang.editor.structure.QueryFunction_Integer" flags="in" index="1cFabM" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -93,6 +95,7 @@
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
+      <concept id="1176809959526" name="jetbrains.mps.lang.editor.structure.QueryFunction_Color" flags="in" index="3ZlJ5R" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
@@ -123,6 +126,9 @@
       </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -161,6 +167,9 @@
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
@@ -219,6 +228,10 @@
         <child id="1742468285817538342" name="disableNodeEditing" index="2gDVEa" />
         <child id="53713348769907228" name="autoLayoutOnChange" index="2hB_ot" />
         <child id="2060885462441433843" name="allowElementsBelowRequiredSize" index="2F3Mqr" />
+        <child id="3401785396303280005" name="gridColor" index="1bWipe" />
+        <child id="7349833668006295675" name="gridSize" index="3ehQaW" />
+        <child id="5128117196760806289" name="useGridSnapping" index="3wlkzU" />
+        <child id="5128117196760806288" name="showGrid" index="3wlkzV" />
         <child id="8637411062076630380" name="connectionTypes" index="1xLlFP" />
         <child id="7858611447550199305" name="syncWithModelOnlyOnOpening" index="3y0MdK" />
         <child id="8637411062062914773" name="paletteFolder" index="1y_2dc" />
@@ -876,6 +889,43 @@
           <node concept="3clFbF" id="1MpJ6ySoyON" role="3cqZAp">
             <node concept="3clFbT" id="1MpJ6ySoyOM" role="3clFbG">
               <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1cFabM" id="6nZQGuFTYEq" role="3ehQaW">
+        <node concept="3clFbS" id="6nZQGuFTYEr" role="2VODD2">
+          <node concept="3clFbF" id="6nZQGuFTZ5W" role="3cqZAp">
+            <node concept="3cmrfG" id="6nZQGuFTZBR" role="3clFbG">
+              <property role="3cmrfH" value="5" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="pkWqt" id="6nZQGuG5umb" role="3wlkzV">
+        <node concept="3clFbS" id="6nZQGuG5umc" role="2VODD2">
+          <node concept="3clFbF" id="6nZQGuG5uzJ" role="3cqZAp">
+            <node concept="3clFbT" id="6nZQGuG5uzI" role="3clFbG">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="pkWqt" id="6nZQGuG5Fj1" role="3wlkzU">
+        <node concept="3clFbS" id="6nZQGuG5Fj2" role="2VODD2">
+          <node concept="3clFbF" id="6nZQGuG5F$_" role="3cqZAp">
+            <node concept="3clFbT" id="6nZQGuG5F$$" role="3clFbG">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3ZlJ5R" id="2WP$sH_3F$E" role="1bWipe">
+        <node concept="3clFbS" id="2WP$sH_3F$F" role="2VODD2">
+          <node concept="3clFbF" id="2WP$sH_3Ght" role="3cqZAp">
+            <node concept="10M0yZ" id="2WP$sH_3GlE" role="3clFbG">
+              <ref role="3cqZAo" to="z60i:~Color.BLUE" resolve="BLUE" />
+              <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
             </node>
           </node>
         </node>

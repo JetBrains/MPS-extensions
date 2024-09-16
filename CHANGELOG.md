@@ -8,6 +8,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
+- *de.itemis.mps.editor.diagram*: Diagrams can now show a grid that is used for snapping elements to it. It can be configured (visibility, grid snapping, grid color/size) in the editor definition of the diagram itself.
 - A module stub solution *MPS.Kotlin* was added to support referencing Kotlin classes and libraries from MPS.ThirdParty.
 
 ## August 2024

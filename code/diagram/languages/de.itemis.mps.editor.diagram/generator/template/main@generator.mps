@@ -6899,7 +6899,7 @@
                                                     <node concept="3clFbF" id="2WP$sH$LDME" role="3cqZAp">
                                                       <node concept="37vLTI" id="2WP$sH$LDMF" role="3clFbG">
                                                         <node concept="37vLTw" id="2WP$sH$LDMR" role="37vLTJ">
-                                                          <ref role="3cqZAo" node="2WP$sH$LDMB" resolve="size" />
+                                                          <ref role="3cqZAo" node="2WP$sH$LDMB" resolve="color" />
                                                         </node>
                                                         <node concept="1rXfSq" id="2WP$sH$M9xS" role="37vLTx">
                                                           <ref role="37wK5l" node="2WP$sH$LjQX" resolve="getTheGridColor" />
@@ -6947,7 +6947,7 @@
                                                     </node>
                                                     <node concept="3cpWs6" id="2WP$sH$LDN1" role="3cqZAp">
                                                       <node concept="37vLTw" id="2WP$sH$LDN2" role="3cqZAk">
-                                                        <ref role="3cqZAo" node="2WP$sH$LDMB" resolve="size" />
+                                                        <ref role="3cqZAo" node="2WP$sH$LDMB" resolve="color" />
                                                       </node>
                                                     </node>
                                                   </node>

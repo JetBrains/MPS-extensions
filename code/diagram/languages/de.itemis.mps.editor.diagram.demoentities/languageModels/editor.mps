@@ -224,6 +224,7 @@
       </concept>
       <concept id="6554619382999975769" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_OuterNode" flags="ng" index="23r2z0" />
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
+        <property id="1259410080007702445" name="gridStyle" index="2s7plA" />
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
         <child id="1742468285817538342" name="disableNodeEditing" index="2gDVEa" />
         <child id="53713348769907228" name="autoLayoutOnChange" index="2hB_ot" />
@@ -490,6 +491,7 @@
     <property role="3GE5qa" value="diagram" />
     <ref role="1XX52x" to="g93z:4_qW8fWLMYX" resolve="EntityDiagram" />
     <node concept="27vDVx" id="4_qW8fWLOPi" role="2wV5jI">
+      <property role="2s7plA" value="15UkGIdpWfA/GRID_STYLE_LINE" />
       <node concept="ahg9e" id="30bR1EZsvUl" role="aCds2">
         <node concept="238au4" id="30bR1EZsvUn" role="23bJyd">
           <node concept="3EZMnI" id="30bR1EZs_2z" role="2wV5jI">
@@ -896,8 +898,8 @@
       <node concept="1cFabM" id="6nZQGuFTYEq" role="3ehQaW">
         <node concept="3clFbS" id="6nZQGuFTYEr" role="2VODD2">
           <node concept="3clFbF" id="6nZQGuFTZ5W" role="3cqZAp">
-            <node concept="3cmrfG" id="6nZQGuFTZBR" role="3clFbG">
-              <property role="3cmrfH" value="5" />
+            <node concept="3cmrfG" id="15UkGIdCPvn" role="3clFbG">
+              <property role="3cmrfH" value="20" />
             </node>
           </node>
         </node>

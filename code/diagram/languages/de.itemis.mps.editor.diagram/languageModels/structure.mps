@@ -124,6 +124,11 @@
       <property role="TrG5h" value="connectBoxesWithoutDummyPort" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="15UkGIdpWuH" role="1TKVEl">
+      <property role="IQ2nx" value="1259410080007702445" />
+      <property role="TrG5h" value="gridStyle" />
+      <ref role="AX2Wp" node="15UkGIdpWax" resolve="GridStyle" />
+    </node>
     <node concept="1TJgyj" id="6actlYi6UMa" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="diagramID" />
@@ -214,6 +219,30 @@
       <property role="IQ2ns" value="2060885462441433843" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="allowElementsBelowRequiredSize" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
+    <node concept="1TJgyj" id="4sEIQIBvZeg" role="1TKVEi">
+      <property role="IQ2ns" value="5128117196760806288" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="showGrid" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
+    <node concept="1TJgyj" id="6nZQGuFIbxV" role="1TKVEi">
+      <property role="IQ2ns" value="7349833668006295675" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="gridSize" />
+      <ref role="20lvS9" to="tpc2:hLcFafI" resolve="QueryFunction_Integer" />
+    </node>
+    <node concept="1TJgyj" id="2WP$sH$Lbu5" role="1TKVEi">
+      <property role="IQ2ns" value="3401785396303280005" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="gridColor" />
+      <ref role="20lvS9" to="tpc2:h7ZlJ1A" resolve="QueryFunction_Color" />
+    </node>
+    <node concept="1TJgyj" id="4sEIQIBvZeh" role="1TKVEi">
+      <property role="IQ2ns" value="5128117196760806289" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="useGridSnapping" />
       <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
@@ -2192,6 +2221,16 @@
     <node concept="1TJgyi" id="2ZU2kH0jAMG" role="1TKVEl">
       <property role="IQ2nx" value="3457085882766355628" />
       <property role="TrG5h" value="hasTranslateToOriginButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4sEIQIBNARD" role="1TKVEl">
+      <property role="IQ2nx" value="5128117196765949417" />
+      <property role="TrG5h" value="hasShowGridButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4sEIQIBNAVE" role="1TKVEl">
+      <property role="IQ2nx" value="5128117196765949674" />
+      <property role="TrG5h" value="hasUseGridSnappingButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="2ZU2kH0jB7A" role="1TKVEl">
@@ -5060,6 +5099,31 @@
     <property role="TrG5h" value="Function_GetNode" />
     <property role="EcuMT" value="6237710625716701263" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="25R3W" id="15UkGIdpWax">
+    <property role="3F6X1D" value="1259410080007701153" />
+    <property role="TrG5h" value="GridStyle" />
+    <ref role="1H5jkz" node="15UkGIdpWay" resolve="GRID_STYLE_DOT" />
+    <node concept="25R33" id="15UkGIdpWay" role="25R1y">
+      <property role="3tVfz5" value="1259410080007701154" />
+      <property role="TrG5h" value="GRID_STYLE_DOT" />
+      <property role="1L1pqM" value="dot" />
+    </node>
+    <node concept="25R33" id="15UkGIdpWe4" role="25R1y">
+      <property role="3tVfz5" value="1259410080007701380" />
+      <property role="TrG5h" value="GRID_STYLE_CROSS" />
+      <property role="1L1pqM" value="cross" />
+    </node>
+    <node concept="25R33" id="15UkGIdpWfA" role="25R1y">
+      <property role="3tVfz5" value="1259410080007701478" />
+      <property role="TrG5h" value="GRID_STYLE_LINE" />
+      <property role="1L1pqM" value="line" />
+    </node>
+    <node concept="25R33" id="15UkGIdpWiD" role="25R1y">
+      <property role="3tVfz5" value="1259410080007701673" />
+      <property role="TrG5h" value="GRID_STYLE_DASHED" />
+      <property role="1L1pqM" value="dashed" />
+    </node>
   </node>
 </model>
 

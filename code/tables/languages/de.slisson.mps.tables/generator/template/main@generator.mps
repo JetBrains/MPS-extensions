@@ -144,6 +144,9 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
+      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -519,6 +522,7 @@
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
       <concept id="1176923520476" name="jetbrains.mps.baseLanguage.collections.structure.ExcludeOperation" flags="nn" index="66VNe" />
+      <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
@@ -1900,7 +1904,7 @@
                                                       <node concept="34oBXx" id="6eBFmDF0dH1" role="2OqNvi" />
                                                       <node concept="2OqwBi" id="6eBFmDF0dH2" role="2Oq$k0">
                                                         <node concept="3Tsc0h" id="6eBFmDF0dH3" role="2OqNvi">
-                                                          <ref role="3TtcxE" to="bnk3:1dAqnm8mHZm" resolve="columnHeaders" />
+                                                          <ref role="3TtcxE" to="bnk3:1dAqnm8mIel" resolve="rowHeaders" />
                                                         </node>
                                                         <node concept="30H73N" id="6eBFmDF0dH4" role="2Oq$k0" />
                                                       </node>
@@ -2864,7 +2868,65 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="28GSY8aqO3d" role="3cqZAp" />
+          <node concept="3clFbF" id="dzDMr0FT0R" role="3cqZAp">
+            <node concept="2OqwBi" id="dzDMr0FUaA" role="3clFbG">
+              <node concept="2es0OD" id="dzDMr0FVsd" role="2OqNvi">
+                <node concept="1bVj0M" id="dzDMr0FVsf" role="23t8la">
+                  <node concept="3clFbS" id="dzDMr0FVsg" role="1bW5cS">
+                    <node concept="3clFbJ" id="dzDMr0_W5m" role="3cqZAp">
+                      <node concept="3clFbS" id="dzDMr0_W5o" role="3clFbx">
+                        <node concept="3clFbF" id="dzDMr0sj2w" role="3cqZAp">
+                          <node concept="2OqwBi" id="dzDMr0su5S" role="3clFbG">
+                            <node concept="37vLTw" id="dzDMr0_Uqh" role="2Oq$k0">
+                              <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
+                            </node>
+                            <node concept="liA8E" id="dzDMr0szJZ" role="2OqNvi">
+                              <ref role="37wK5l" to="6dpw:dzDMr0rBjq" resolve="setRowInsertHandler" />
+                              <node concept="2ShNRf" id="dzDMr0sAnV" role="37wK5m">
+                                <node concept="1pGfFk" id="dzDMr0sIp8" role="2ShVmc">
+                                  <property role="373rjd" value="true" />
+                                  <ref role="37wK5l" to="6dpw:28GSY8argx7" resolve="HeaderNodeInsertAction" />
+                                  <node concept="3cmrfG" id="dzDMr0sJOk" role="37wK5m">
+                                    <property role="3cmrfH" value="0" />
+                                  </node>
+                                  <node concept="37vLTw" id="dzDMr0sLxb" role="37wK5m">
+                                    <ref role="3cqZAo" node="66vYtX1MAUW" resolve="insertAction" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3y3z36" id="dzDMr0_Xfw" role="3clFbw">
+                        <node concept="10Nm6u" id="dzDMr0_Xnp" role="3uHU7w" />
+                        <node concept="37vLTw" id="dzDMr0_WFg" role="3uHU7B">
+                          <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="dzDMr0FVsh" role="1bW2Oz">
+                    <property role="TrG5h" value="header" />
+                    <node concept="2jxLKc" id="dzDMr0FVsi" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="dzDMr0FSmI" role="2Oq$k0">
+                <node concept="liA8E" id="dzDMr0FSmK" role="2OqNvi">
+                  <ref role="37wK5l" to="6dpw:2c3czgm_PPT" resolve="getHeaders" />
+                </node>
+                <node concept="2OqwBi" id="dzDMr0_AmQ" role="2Oq$k0">
+                  <node concept="37vLTw" id="dzDMr0_AmR" role="2Oq$k0">
+                    <ref role="3cqZAo" node="28GSY8aqJJK" resolve="grid" />
+                  </node>
+                  <node concept="liA8E" id="dzDMr0_AmS" role="2OqNvi">
+                    <ref role="37wK5l" to="6dpw:3olMEllxHJh" resolve="getHeaderStore" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3cpWs6" id="1dAqnm8X$dh" role="3cqZAp">
             <node concept="37vLTw" id="28GSY8arGAY" role="3cqZAk">
               <ref role="3cqZAo" node="28GSY8aqJJK" resolve="grid" />

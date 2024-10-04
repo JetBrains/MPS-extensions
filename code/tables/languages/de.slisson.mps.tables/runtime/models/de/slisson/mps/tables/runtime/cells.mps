@@ -28174,6 +28174,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="63uETA6RL3b" role="3cqZAp">
+          <node concept="3nyPlj" id="63uETA6RL3c" role="3clFbG">
+            <ref role="37wK5l" to="g51k:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
+            <node concept="Rm8GO" id="63uETA6RLV8" role="37wK5m">
+              <ref role="Rm8GQ" to="f4zo:~CellActionType.BACKSPACE" resolve="BACKSPACE" />
+              <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+            </node>
+            <node concept="2ShNRf" id="63uETA6RL3e" role="37wK5m">
+              <node concept="1pGfFk" id="63uETA6RL3f" role="2ShVmc">
+                <ref role="37wK5l" node="7IUya7ciSfI" resolve="DeleteRowAction" />
+                <node concept="Xjq3P" id="63uETA6RL3g" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5AW5JoZbd7i" role="3cqZAp">
           <node concept="3nyPlj" id="5AW5JoZbd7g" role="3clFbG">
             <ref role="37wK5l" to="g51k:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />

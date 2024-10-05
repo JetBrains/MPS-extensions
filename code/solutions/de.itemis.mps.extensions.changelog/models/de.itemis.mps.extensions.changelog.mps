@@ -5,6 +5,8 @@
     <use id="638c9345-2613-49dc-b2ae-8ceadef24141" name="de.itemis.mps.changelog" version="0" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
+    <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
+    <use id="82194f31-b6f9-4f39-bf3d-bad4ce201c4e" name="de.itemis.mps.spellcheck" version="0" />
   </languages>
   <imports>
     <import index="hba4" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
@@ -224,6 +226,117 @@
         </node>
         <node concept="3oM_SD" id="1$KnWE8iTo8" role="1PaTwD">
           <property role="3oM_SC" value="month." />
+        </node>
+      </node>
+    </node>
+    <node concept="15bmVD" id="Guk09KF0Pc" role="15bmVC">
+      <node concept="15ShDW" id="Guk09KF0P9" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgBa/October" />
+        <property role="15ShDw" value="2024" />
+      </node>
+      <node concept="15bAme" id="Guk09KF0Pa" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOE/added" />
+        <node concept="2DRihI" id="Guk09KF0Pb" role="15bAlk">
+          <node concept="2hgSXJ" id="Guk09KF0Pp" role="1PaTwD">
+            <node concept="1PaTwC" id="Guk09KF0Pq" role="2hiFM$">
+              <node concept="15Ami3" id="Guk09KF0Pr" role="1PaTwD">
+                <node concept="37shsh" id="Guk09KF0Ps" role="15Aodc">
+                  <node concept="1dCxOk" id="Guk09KF0Pt" role="37shsm">
+                    <property role="1XweGW" value="82194f31-b6f9-4f39-bf3d-bad4ce201c4e" />
+                    <property role="1XxBO9" value="de.itemis.mps.spellcheck" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="Guk09KF0Pu" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0P$" role="1PaTwD">
+            <property role="3oM_SC" value="This" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0P_" role="1PaTwD">
+            <property role="3oM_SC" value="new" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PA" role="1PaTwD">
+            <property role="3oM_SC" value="language" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PB" role="1PaTwD">
+            <property role="3oM_SC" value="enhances" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PC" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PD" role="1PaTwD">
+            <property role="3oM_SC" value="MPS" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PE" role="1PaTwD">
+            <property role="3oM_SC" value="spell" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PF" role="1PaTwD">
+            <property role="3oM_SC" value="checker" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PG" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PH" role="1PaTwD">
+            <property role="3oM_SC" value="support" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PI" role="1PaTwD">
+            <property role="3oM_SC" value="custom" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PJ" role="1PaTwD">
+            <property role="3oM_SC" value="dictionaries" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PK" role="1PaTwD">
+            <property role="3oM_SC" value="declared" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PL" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PM" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PN" role="1PaTwD">
+            <property role="3oM_SC" value="language" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PO" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PP" role="1PaTwD">
+            <property role="3oM_SC" value="also" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PQ" role="1PaTwD">
+            <property role="3oM_SC" value="adds" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PS" role="1PaTwD">
+            <property role="3oM_SC" value="some" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PU" role="1PaTwD">
+            <property role="3oM_SC" value="dictionary-related" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PV" role="1PaTwD">
+            <property role="3oM_SC" value="intentions" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PW" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PX" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PY" role="1PaTwD">
+            <property role="3oM_SC" value="new" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0PZ" role="1PaTwD">
+            <property role="3oM_SC" value="intention" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0Q0" role="1PaTwD">
+            <property role="3oM_SC" value="group" />
+          </node>
+          <node concept="3oM_SD" id="Guk09KF0Q1" role="1PaTwD">
+            <property role="3oM_SC" value="Dictionary." />
+            <property role="1X82VY" value="true" />
+          </node>
         </node>
       </node>
     </node>

@@ -44,7 +44,6 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
-    <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
     <import index="zddv" ref="r:1b71c6d7-41ff-44a2-a61c-39c2a9779c34(com.mbeddr.mpsutil.intentions.editor)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
     <import index="tegv" ref="r:b91d2412-f094-4e55-8db6-3c782d7edc40(com.mbeddr.mpsutil.intentions.structure)" />
@@ -1895,17 +1894,16 @@
                 </node>
               </node>
               <node concept="3clFbS" id="3pwG8PSkQNb" role="2LFqv$">
-                <node concept="3clFbF" id="3pwG8PSkQNc" role="3cqZAp">
-                  <node concept="1rXfSq" id="3pwG8PSkQNd" role="3clFbG">
-                    <ref role="37wK5l" node="3pwG8PSkQMU" resolve="collectActionsAsIntentions" />
-                    <node concept="37vLTw" id="3pwG8PSkQNe" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQNh" resolve="child" />
-                    </node>
-                    <node concept="37vLTw" id="3pwG8PSkQNf" role="37wK5m">
+                <node concept="3clFbF" id="29wDeGI8z3F" role="3cqZAp">
+                  <node concept="2OqwBi" id="29wDeGI8AU1" role="3clFbG">
+                    <node concept="37vLTw" id="29wDeGI8z3D" role="2Oq$k0">
                       <ref role="3cqZAo" node="3pwG8PSkQMX" resolve="actions" />
                     </node>
-                    <node concept="37vLTw" id="3pwG8PSkQNg" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQN0" resolve="dataContext" />
+                    <node concept="liA8E" id="29wDeGI8EAn" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
+                      <node concept="37vLTw" id="29wDeGI8J3U" role="37wK5m">
+                        <ref role="3cqZAo" node="3pwG8PSkQNh" resolve="child" />
+                      </node>
                     </node>
                   </node>
                 </node>

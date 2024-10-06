@@ -58,6 +58,7 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -238,6 +239,9 @@
             <node concept="Tc6Ow" id="5oklODadYw5" role="2ShVmc">
               <node concept="35c_gC" id="1zqEQG3WoH4" role="HW$Y0">
                 <ref role="35c_gD" to="tpc2:gCpncv5" resolve="ConceptFunctionParameter_node" />
+              </node>
+              <node concept="35c_gC" id="3YRpSuyxXFY" role="HW$Y0">
+                <ref role="35c_gD" to="bbp5:3YRpSuyxXqU" resolve="Parameter_Index" />
               </node>
               <node concept="35c_gC" id="1zqEQG3WoH5" role="HW$Y0">
                 <ref role="35c_gD" to="tpc2:gTQ80DJ" resolve="ConceptFunctionParameter_editorContext" />
@@ -1538,6 +1542,29 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3YRpSuyxXtP">
+    <ref role="13h7C2" to="bbp5:3YRpSuyxXqU" resolve="Parameter_Index" />
+    <node concept="13i0hz" id="3YRpSuyxXu8" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="3YRpSuyxXu9" role="1B3o_S" />
+      <node concept="3clFbS" id="3YRpSuyxXua" role="3clF47">
+        <node concept="3clFbF" id="3YRpSuyxXub" role="3cqZAp">
+          <node concept="2c44tf" id="3YRpSuyxXuc" role="3clFbG">
+            <node concept="10Oyi0" id="3YRpSuyxXzl" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="3YRpSuyxXue" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="3YRpSuyxXtQ" role="13h7CW">
+      <node concept="3clFbS" id="3YRpSuyxXtR" role="2VODD2" />
     </node>
   </node>
 </model>

@@ -10473,6 +10473,64 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbF" id="4sEIQIBNL$4" role="3cqZAp">
+                  <node concept="2OqwBi" id="4sEIQIBNL$5" role="3clFbG">
+                    <node concept="37vLTw" id="4sEIQIBNL$6" role="2Oq$k0">
+                      <ref role="3cqZAo" node="74e51Ji6bH0" resolve="buttons" />
+                    </node>
+                    <node concept="TSZUe" id="4sEIQIBNL$7" role="2OqNvi">
+                      <node concept="2ShNRf" id="4sEIQIBNL$8" role="25WWJ7">
+                        <node concept="1pGfFk" id="4sEIQIBNL$9" role="2ShVmc">
+                          <property role="373rjd" value="true" />
+                          <ref role="37wK5l" to="r3rm:4sEIQIBu97K" resolve="ToggleGridDiagramButton" />
+                          <node concept="10M0yZ" id="4sEIQIBNL$c" role="37wK5m">
+                            <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+                            <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
+                          </node>
+                          <node concept="37vLTw" id="4sEIQIBNL$e" role="37wK5m">
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
+                            <node concept="2c44te" id="4sEIQIBNL$f" role="lGtFl">
+                              <node concept="2pJPEk" id="4sEIQIBNL$g" role="2c44t1">
+                                <node concept="2pJPED" id="4sEIQIBNL$h" role="2pJPEn">
+                                  <ref role="2pJxaS" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4sEIQIBNLF8" role="3cqZAp">
+                  <node concept="2OqwBi" id="4sEIQIBNLF9" role="3clFbG">
+                    <node concept="37vLTw" id="4sEIQIBNLFa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="74e51Ji6bH0" resolve="buttons" />
+                    </node>
+                    <node concept="TSZUe" id="4sEIQIBNLFb" role="2OqNvi">
+                      <node concept="2ShNRf" id="4sEIQIBNLFc" role="25WWJ7">
+                        <node concept="1pGfFk" id="4sEIQIBNLFd" role="2ShVmc">
+                          <property role="373rjd" value="true" />
+                          <ref role="37wK5l" to="r3rm:4sEIQIBMnTa" resolve="ToggleGridSnappingDiagramButton" />
+                          <node concept="10M0yZ" id="4sEIQIBNLFg" role="37wK5m">
+                            <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+                            <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
+                          </node>
+                          <node concept="37vLTw" id="4sEIQIBNLFi" role="37wK5m">
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
+                            <node concept="2c44te" id="4sEIQIBNLFj" role="lGtFl">
+                              <node concept="2pJPEk" id="4sEIQIBNLFk" role="2c44t1">
+                                <node concept="2pJPED" id="4sEIQIBNLFl" role="2pJPEn">
+                                  <ref role="2pJxaS" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="74e51Ji6nNI" role="3cqZAp">
                   <node concept="2OqwBi" id="74e51Ji6nNJ" role="3clFbG">
                     <node concept="37vLTw" id="74e51Ji6nNK" role="2Oq$k0">

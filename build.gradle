@@ -528,6 +528,7 @@ def usedPluginRoots = [
         new File(mpsHomeDir, 'plugins/mps-git4idea'),
         new File(mpsHomeDir, 'plugins/mps-httpsupport'),
         new File(mpsHomeDir, 'plugins/mps-testing'),
+        new File(mpsHomeDir, 'plugins/mps-spellcheck')
 ]
 
 tasks.register('migrate', MpsMigrate) {

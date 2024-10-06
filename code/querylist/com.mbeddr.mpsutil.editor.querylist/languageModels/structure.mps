@@ -21,6 +21,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -118,6 +119,11 @@
     <node concept="1TJgyi" id="5qrsiYWrGSx" role="1TKVEl">
       <property role="TrG5h" value="collapseByDefault" />
       <property role="IQ2nx" value="6240706158490734113" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="T_6DrmCUS2" role="1TKVEl">
+      <property role="IQ2nx" value="1037264524327235074" />
+      <property role="TrG5h" value="disableModelChecking" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyj" id="5oklODae9g3" role="1TKVEi">
@@ -221,11 +227,6 @@
     </node>
     <node concept="PrWs8" id="57wonSM2T_V" role="PzmwI">
       <ref role="PrY4T" to="tpc2:itlittTD3X" resolve="LayoutContainer" />
-    </node>
-    <node concept="1TJgyi" id="T_6DrmCUS2" role="1TKVEl">
-      <property role="IQ2nx" value="1037264524327235074" />
-      <property role="TrG5h" value="disableModelChecking" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="5oklODadpyz">
@@ -509,8 +510,9 @@
   </node>
   <node concept="1TIwiD" id="1WjrBsNJ4Il">
     <property role="TrG5h" value="QueryListNodeExpression" />
-    <property role="34LRSv" value="queryListNode" />
+    <property role="34LRSv" value="node" />
     <property role="EcuMT" value="2239254897981410197" />
+    <property role="R4oN_" value="the current queried node" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="57wonSM3yKg">
@@ -522,6 +524,19 @@
     <property role="EcuMT" value="5899822706488913135" />
     <property role="TrG5h" value="StubCellModel_DefaultEditor" />
     <ref role="1TJDcQ" to="tpc2:CzpafHMSVi" resolve="StubEditorCellModel" />
+  </node>
+  <node concept="1TIwiD" id="3YRpSuyxXqU">
+    <property role="TrG5h" value="Parameter_Index" />
+    <property role="34LRSv" value="index" />
+    <property role="EcuMT" value="4591252177372567226" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3YRpSuyOe2M">
+    <property role="TrG5h" value="QueryListIndexExpression" />
+    <property role="EcuMT" value="4591252177377353906" />
+    <property role="R4oN_" value="the index of the current queried node" />
+    <property role="34LRSv" value="index" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>
 

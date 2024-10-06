@@ -16,7 +16,7 @@ import java.time.LocalDateTime
 apply plugin: 'download-jbr'
 
 downloadJbr {
-    jbrVersion = '17.0.6-b469.82'
+    jbrVersion = '17.0.6-b653.34'
 }
 
 // detect if we are in a CI build
@@ -41,9 +41,9 @@ logger.info 'Repository username: {}', project.nexusUsername
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2022.2'
+ext.mpsMajor = '2022.3'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = '3'
+ext.mpsMinor = '2'
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 
@@ -234,7 +234,7 @@ ext.extensions_home = '-Dextensions.home=' + rootDir
 
 // ___________________ utilities ___________________
 File scriptFile(String relativePath) {
-    new File("$rootDir/build/generated/$relativePath")
+    new File("$rootDir/build/patched/$relativePath")
 }
 
 def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
@@ -277,13 +277,28 @@ task resolved_diagram_dependencies(type: Copy) {
     }
 }
 
-task build_allScripts(type: BuildLanguages, dependsOn: [
-        'downloadJbr',
-		resolveMps,
-        resolved_diagram_dependencies,
-        copyModelApi,
-]) {
+def build_allScripts_unpatched = tasks.register('build_allScripts_unpatched', BuildLanguages) {
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies
     script "$rootDir/scripts/build.xml"
+}
+
+// Patch JNA path in generated build scripts until https://github.com/JetBrains/MPS/pull/71 is fixed
+def patch_allScripts = tasks.register('patch_allScripts', Copy) {
+    dependsOn build_allScripts_unpatched
+    from 'build/generated'
+    into 'build/patched'
+
+    def isAarch64 = System.getProperty('os.arch') == 'aarch64'
+    def jnaArch = isAarch64 ? 'aarch64' : 'amd64'
+
+    filter {
+        it.replace('"-Djna.boot.library.path=${artifacts.mps}/lib/jna"',
+                   '"-Djna.boot.library.path=${artifacts.mps}/lib/jna/' + jnaArch + '"')
+    }
+}
+
+task build_allScripts {
+    dependsOn patch_allScripts
 }
 
 task copyChangelog(type: Copy) {
@@ -292,7 +307,7 @@ task copyChangelog(type: Copy) {
     include "*.md"
 }
 
-task build_languages(type: BuildLanguages, dependsOn: [build_allScripts, copyChangelog]) {
+task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]) {
     script scriptFile('languages/build.xml')
 }
 

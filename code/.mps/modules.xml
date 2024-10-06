@@ -24,7 +24,6 @@
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.slisson.mps.editor.celllayout.runtime/de.itemis.mps.editor.celllayout.runtime.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/test.de.itemis.mps.editor.celllayout.runtime/test.de.itemis.mps.editor.celllayout.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog.sandbox/de.itemis.mps.changelog.sandbox.msd" folder="changelog" />
-      <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog.tests/de.itemis.mps.changelog.tests.msd" folder="changelog" />
       <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog/de.itemis.mps.changelog.mpl" folder="changelog" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/de.slisson.mps.conditionalEditor.demolang.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.hints/de.slisson.mps.conditionalEditor.hints.mpl" folder="conditional-editor" />
@@ -184,7 +183,6 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.modelcheck.runtime/de.q60.mps.shadowmodels.modelcheck.runtime.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.runtime/de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.virtualinterfaces.genplan/de.q60.mps.virtualinterfaces.genplan.msd" folder="shadowmodels.virtualinterfaces" />
-      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.virtualinterfaces.sandbox/de.q60.mps.virtualinterfaces.sandbox.msd" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.incremental.runtime/test.de.q60.mps.incremental.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
@@ -194,6 +192,9 @@
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test.integration/de.itemis.model.merge.test.integration.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.extensions.changelog/de.itemis.mps.extensions.changelog.msd" folder="build" />
+      <modulePath path="$PROJECT_DIR$/spellcheck/languages/de.itemis.mps.spellcheck/de.itemis.mps.spellcheck.mpl" folder="spellcheck" />
+      <modulePath path="$PROJECT_DIR$/spellcheck/solutions/de.itemis.mps.spellcheck.demo/de.itemis.mps.spellcheck.demo.msd" folder="spellcheck" />
+      <modulePath path="$PROJECT_DIR$/spellcheck/solutions/de.itemis.mps.spellcheck.runtime/de.itemis.mps.spellcheck.runtime.msd" folder="spellcheck" />
       <modulePath path="$PROJECT_DIR$/statistics/de.itemis.mps.statistics.mpl" folder="statistics" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.itemis.mps.structurecheck/de.itemis.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.itemis.mps.structurecheck.runtime/de.itemis.mps.structurecheck.runtime.msd" folder="structurecheck" />

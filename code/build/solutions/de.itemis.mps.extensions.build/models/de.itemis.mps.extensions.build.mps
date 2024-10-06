@@ -13893,6 +13893,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="3YRpSuyY2bs" role="3bR37C">
+          <node concept="3bR9La" id="3YRpSuyY2bt" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="TAJODzUQvo" role="3989C9">

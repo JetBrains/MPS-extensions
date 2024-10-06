@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:c2a03117-d7bb-4287-be70-b5591cc02c98(de.itemis.mps.extensions.changelog)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="638c9345-2613-49dc-b2ae-8ceadef24141" name="de.itemis.mps.changelog" version="0" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
+    <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
+    <use id="82194f31-b6f9-4f39-bf3d-bad4ce201c4e" name="de.itemis.mps.spellcheck" version="0" />
   </languages>
   <imports>
     <import index="hba4" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
@@ -329,6 +332,109 @@
           </node>
           <node concept="3oM_SD" id="3YRpSuyWH0n" role="1PaTwD">
             <property role="3oM_SC" value="node." />
+          </node>
+        </node>
+        <node concept="2DRihI" id="44uNHnyTlxi" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="2hgSXJ" id="44uNHnyTlym" role="1PaTwD">
+            <node concept="1PaTwC" id="44uNHnyTlyn" role="2hiFM$">
+              <node concept="15Ami3" id="44uNHnyTlyo" role="1PaTwD">
+                <node concept="37shsh" id="44uNHnyTlyp" role="15Aodc">
+                  <node concept="1dCxOk" id="44uNHnyTlyq" role="37shsm">
+                    <property role="1XweGW" value="82194f31-b6f9-4f39-bf3d-bad4ce201c4e" />
+                    <property role="1XxBO9" value="de.itemis.mps.spellcheck" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="44uNHnyTlyr" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlys" role="1PaTwD">
+            <property role="3oM_SC" value="This" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyt" role="1PaTwD">
+            <property role="3oM_SC" value="new" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyu" role="1PaTwD">
+            <property role="3oM_SC" value="language" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyv" role="1PaTwD">
+            <property role="3oM_SC" value="enhances" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyw" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyx" role="1PaTwD">
+            <property role="3oM_SC" value="MPS" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyy" role="1PaTwD">
+            <property role="3oM_SC" value="spell" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyz" role="1PaTwD">
+            <property role="3oM_SC" value="checker" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTly$" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTly_" role="1PaTwD">
+            <property role="3oM_SC" value="support" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyA" role="1PaTwD">
+            <property role="3oM_SC" value="custom" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyB" role="1PaTwD">
+            <property role="3oM_SC" value="dictionaries" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyC" role="1PaTwD">
+            <property role="3oM_SC" value="declared" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyD" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyE" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyF" role="1PaTwD">
+            <property role="3oM_SC" value="language" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyG" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyH" role="1PaTwD">
+            <property role="3oM_SC" value="also" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyI" role="1PaTwD">
+            <property role="3oM_SC" value="adds" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyJ" role="1PaTwD">
+            <property role="3oM_SC" value="some" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyK" role="1PaTwD">
+            <property role="3oM_SC" value="dictionary-related" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyL" role="1PaTwD">
+            <property role="3oM_SC" value="intentions" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyM" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyN" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyO" role="1PaTwD">
+            <property role="3oM_SC" value="new" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyP" role="1PaTwD">
+            <property role="3oM_SC" value="intention" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyQ" role="1PaTwD">
+            <property role="3oM_SC" value="group" />
+          </node>
+          <node concept="3oM_SD" id="44uNHnyTlyR" role="1PaTwD">
+            <property role="3oM_SC" value="Dictionary." />
+            <property role="1X82VY" value="true" />
           </node>
         </node>
       </node>

@@ -2007,29 +2007,40 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5PYr1ZdR3uk" role="3cqZAp">
-          <node concept="2OqwBi" id="5PYr1ZdRu3c" role="3clFbG">
-            <node concept="2ShNRf" id="5PYr1ZdR3ug" role="2Oq$k0">
-              <node concept="1pGfFk" id="5PYr1ZdRsNB" role="2ShVmc">
+        <node concept="3cpWs8" id="WOxe9P_LWU" role="3cqZAp">
+          <node concept="3cpWsn" id="WOxe9P_LWV" role="3cpWs9">
+            <property role="TrG5h" value="finalizer" />
+            <node concept="3uibUv" id="WOxe9P_uS2" role="1tU5fm">
+              <ref role="3uigEE" to="6dpw:RywcYwuy3f" resolve="GridFinalizer" />
+            </node>
+            <node concept="2ShNRf" id="WOxe9P_LWW" role="33vP2m">
+              <node concept="1pGfFk" id="WOxe9P_LWX" role="2ShVmc">
                 <ref role="37wK5l" to="6dpw:RywcYwuy3n" resolve="GridFinalizer" />
-                <node concept="37vLTw" id="1cFYsK399Jm" role="37wK5m">
+                <node concept="37vLTw" id="WOxe9P_LWY" role="37wK5m">
                   <ref role="3cqZAo" node="7Nzu1Mc$SGa" resolve="myGrid" />
                 </node>
-                <node concept="2ShNRf" id="5PYr1ZdRsPG" role="37wK5m">
-                  <node concept="1pGfFk" id="5PYr1ZdRtXN" role="2ShVmc">
+                <node concept="2ShNRf" id="WOxe9P_LWZ" role="37wK5m">
+                  <node concept="1pGfFk" id="WOxe9P_LX0" role="2ShVmc">
                     <ref role="37wK5l" to="6dpw:RywcYwuxY7" resolve="EditorCellFactory" />
-                    <node concept="1rXfSq" id="1MCPN0ioPPd" role="37wK5m">
+                    <node concept="1rXfSq" id="WOxe9P_LX1" role="37wK5m">
                       <ref role="37wK5l" to="g51k:~EditorCell_Basic.getContext()" resolve="getContext" />
                     </node>
-                    <node concept="1rXfSq" id="1MCPN0ioQ2t" role="37wK5m">
+                    <node concept="1rXfSq" id="WOxe9P_LX2" role="37wK5m">
                       <ref role="37wK5l" to="g51k:~EditorCell_Basic.getSNode()" resolve="getSNode" />
                     </node>
-                    <node concept="37vLTw" id="2c3czgq38bP" role="37wK5m">
+                    <node concept="37vLTw" id="WOxe9P_LX3" role="37wK5m">
                       <ref role="3cqZAo" node="7Nzu1Mc$SGa" resolve="myGrid" />
                     </node>
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5PYr1ZdR3uk" role="3cqZAp">
+          <node concept="2OqwBi" id="5PYr1ZdRu3c" role="3clFbG">
+            <node concept="37vLTw" id="WOxe9P_LX4" role="2Oq$k0">
+              <ref role="3cqZAo" node="WOxe9P_LWV" resolve="finalizer" />
             </node>
             <node concept="liA8E" id="5PYr1ZdRuW2" role="2OqNvi">
               <ref role="37wK5l" to="6dpw:RywcYwuy3C" resolve="finalizeGrid" />
@@ -2082,6 +2093,17 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="WOxe9PAtvP" role="3cqZAp">
+              <node concept="2OqwBi" id="WOxe9PAvOy" role="3clFbG">
+                <node concept="37vLTw" id="WOxe9PAtvN" role="2Oq$k0">
+                  <ref role="3cqZAo" node="WOxe9P_LWV" resolve="finalizer" />
+                </node>
+                <node concept="liA8E" id="WOxe9PA$Ht" role="2OqNvi">
+                  <ref role="37wK5l" to="6dpw:3GKqtdr6d3H" resolve="finalizeEditorCellLeafs" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="WOxe9PA0dC" role="3cqZAp" />
             <node concept="1Dw8fO" id="5ivXze3hCeN" role="3cqZAp">
               <node concept="3clFbS" id="5ivXze3hCeO" role="2LFqv$">
                 <node concept="1Dw8fO" id="5ivXze3hCeP" role="3cqZAp">

@@ -9,6 +9,7 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -565,6 +566,17 @@
       <node concept="3Tm1VV" id="m_yL2MPm$d" role="1B3o_S" />
       <node concept="3clFbS" id="m_yL2MPm$e" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="WOxe9PrWFB" role="jymVt">
+      <property role="TrG5h" value="getDeleteAction" />
+      <node concept="3uibUv" id="WOxe9PrWFC" role="3clF45">
+        <ref role="3uigEE" node="7C0FR5AJF$W" resolve="PriorizedValue" />
+        <node concept="3uibUv" id="WOxe9PrWFD" role="11_B2D">
+          <ref role="3uigEE" to="f4zo:~CellAction" resolve="CellAction" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="WOxe9PrWFE" role="1B3o_S" />
+      <node concept="3clFbS" id="WOxe9PrWFF" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="3GKqtdqRN0B" role="jymVt">
       <property role="TrG5h" value="setInsertAction" />
       <node concept="3cqZAl" id="3GKqtdqRN0C" role="3clF45" />
@@ -647,6 +659,22 @@
       <node concept="37vLTG" id="m_yL2MPqJQ" role="3clF46">
         <property role="TrG5h" value="priority" />
         <node concept="10Oyi0" id="m_yL2MPqJR" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="WOxe9PtF7I" role="jymVt">
+      <property role="TrG5h" value="setDeleteAction" />
+      <node concept="3cqZAl" id="WOxe9PtF7J" role="3clF45" />
+      <node concept="3Tm1VV" id="WOxe9PtF7K" role="1B3o_S" />
+      <node concept="3clFbS" id="WOxe9PtF7L" role="3clF47" />
+      <node concept="37vLTG" id="WOxe9PtF7M" role="3clF46">
+        <property role="TrG5h" value="action" />
+        <node concept="3uibUv" id="WOxe9PtF7N" role="1tU5fm">
+          <ref role="3uigEE" to="f4zo:~CellAction" resolve="CellAction" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="WOxe9PtF7O" role="3clF46">
+        <property role="TrG5h" value="priority" />
+        <node concept="10Oyi0" id="WOxe9PtF7P" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="3GKqtdqRMeA" role="jymVt" />
@@ -8811,6 +8839,16 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="WOxe9Ps7s5" role="jymVt">
+      <property role="TrG5h" value="myDeleteAction" />
+      <node concept="3Tm6S6" id="WOxe9Ps7s6" role="1B3o_S" />
+      <node concept="3uibUv" id="WOxe9Ps7s7" role="1tU5fm">
+        <ref role="3uigEE" node="7C0FR5AJF$W" resolve="PriorizedValue" />
+        <node concept="3uibUv" id="WOxe9Ps7s8" role="11_B2D">
+          <ref role="3uigEE" to="f4zo:~CellAction" resolve="CellAction" />
+        </node>
+      </node>
+    </node>
     <node concept="312cEg" id="5TY7OGKEp$Z" role="jymVt">
       <property role="TrG5h" value="mySubstituteInfo" />
       <node concept="3Tm6S6" id="5TY7OGKEp_0" role="1B3o_S" />
@@ -9430,6 +9468,29 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="WOxe9Psgcb" role="3cqZAp">
+          <node concept="37vLTI" id="WOxe9Psgcc" role="3clFbG">
+            <node concept="2YIFZM" id="WOxe9Psgcd" role="37vLTx">
+              <ref role="37wK5l" node="7C0FR5AK8yg" resolve="getHigher" />
+              <ref role="1Pybhc" node="7C0FR5AJF$W" resolve="PriorizedValue" />
+              <node concept="37vLTw" id="WOxe9Psgce" role="37wK5m">
+                <ref role="3cqZAo" node="WOxe9Ps7s5" resolve="myDeleteAction" />
+              </node>
+              <node concept="2OqwBi" id="WOxe9Psgcf" role="37wK5m">
+                <node concept="37vLTw" id="WOxe9Psgcg" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7C0FR5AJQgE" resolve="parent" />
+                </node>
+                <node concept="liA8E" id="WOxe9Psgch" role="2OqNvi">
+                  <ref role="37wK5l" node="WOxe9PrWFB" resolve="getDeleteAction" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="WOxe9Psgci" role="37vLTJ">
+              <ref role="3cqZAo" node="WOxe9Ps7s5" resolve="myDeleteAction" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="WOxe9PseWK" role="3cqZAp" />
         <node concept="3clFbF" id="5TY7OGKEtpq" role="3cqZAp">
           <node concept="37vLTI" id="5TY7OGKEtpr" role="3clFbG">
             <node concept="2YIFZM" id="5TY7OGKEtps" role="37vLTx">
@@ -9841,6 +9902,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="WOxe9PsY_v" role="jymVt" />
     <node concept="3clFb_" id="3GKqtdqRYY8" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setInsertBeforeAction" />
@@ -9869,6 +9931,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="WOxe9Pt50f" role="jymVt" />
     <node concept="3clFb_" id="m_yL2MSw6a" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setPasteAction" />
@@ -9883,7 +9946,7 @@
       <node concept="3clFbS" id="m_yL2MSw6f" role="3clF47">
         <node concept="3clFbF" id="m_yL2MSw6g" role="3cqZAp">
           <node concept="1rXfSq" id="m_yL2MSw6h" role="3clFbG">
-            <ref role="37wK5l" node="m_yL2MPzXT" resolve="setPasteAction" />
+            <ref role="37wK5l" node="WOxe9PtRs5" resolve="setPasteAction" />
             <node concept="37vLTw" id="m_yL2MSw6i" role="37wK5m">
               <ref role="3cqZAo" node="m_yL2MSw6d" resolve="action" />
             </node>
@@ -9897,6 +9960,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="WOxe9Ptc04" role="jymVt" />
     <node concept="3clFb_" id="3GKqtdqRYYi" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getInsertAction" />
@@ -9918,6 +9982,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="WOxe9Ptlsb" role="jymVt" />
     <node concept="3clFb_" id="3GKqtdqRYYq" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getInsertBeforeAction" />
@@ -9939,6 +10004,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="WOxe9PtrR2" role="jymVt" />
     <node concept="3clFb_" id="m_yL2MPtpl" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getPasteAction" />
@@ -9960,6 +10026,29 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="WOxe9PttOD" role="jymVt" />
+    <node concept="3clFb_" id="WOxe9PsKYl" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getDeleteAction" />
+      <node concept="3uibUv" id="WOxe9PsKYm" role="3clF45">
+        <ref role="3uigEE" node="7C0FR5AJF$W" resolve="PriorizedValue" />
+        <node concept="3uibUv" id="WOxe9PsKYn" role="11_B2D">
+          <ref role="3uigEE" to="f4zo:~CellAction" resolve="CellAction" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="WOxe9PsKYo" role="1B3o_S" />
+      <node concept="3clFbS" id="WOxe9PsKYp" role="3clF47">
+        <node concept="3clFbF" id="WOxe9PsKYq" role="3cqZAp">
+          <node concept="37vLTw" id="WOxe9PsKYr" role="3clFbG">
+            <ref role="3cqZAo" node="WOxe9Ps7s5" resolve="myDeleteAction" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="WOxe9PsKYs" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="WOxe9Pt$f$" role="jymVt" />
     <node concept="3clFb_" id="3GKqtdqRYYy" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setInsertAction" />
@@ -10153,6 +10242,70 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3GKqtdqRXb4" role="jymVt" />
+    <node concept="3clFb_" id="WOxe9PtRs5" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setDeleteAction" />
+      <node concept="3cqZAl" id="WOxe9PtRs6" role="3clF45" />
+      <node concept="3Tm1VV" id="WOxe9PtRs7" role="1B3o_S" />
+      <node concept="37vLTG" id="WOxe9PtRs8" role="3clF46">
+        <property role="TrG5h" value="action" />
+        <node concept="3uibUv" id="WOxe9PtRs9" role="1tU5fm">
+          <ref role="3uigEE" to="f4zo:~CellAction" resolve="CellAction" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="WOxe9PtRsa" role="3clF46">
+        <property role="TrG5h" value="priority" />
+        <node concept="10Oyi0" id="WOxe9PtRsb" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="WOxe9PtRsc" role="3clF47">
+        <node concept="3clFbJ" id="WOxe9PtRsd" role="3cqZAp">
+          <node concept="3clFbS" id="WOxe9PtRse" role="3clFbx">
+            <node concept="3clFbF" id="WOxe9PtRsf" role="3cqZAp">
+              <node concept="37vLTI" id="WOxe9PtRsg" role="3clFbG">
+                <node concept="10Nm6u" id="WOxe9PtRsh" role="37vLTx" />
+                <node concept="37vLTw" id="WOxe9PtRsi" role="37vLTJ">
+                  <ref role="3cqZAo" node="WOxe9Ps7s5" resolve="myDeleteAction" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="WOxe9PtRsj" role="3clFbw">
+            <node concept="10Nm6u" id="WOxe9PtRsk" role="3uHU7w" />
+            <node concept="37vLTw" id="WOxe9PtRsl" role="3uHU7B">
+              <ref role="3cqZAo" node="WOxe9PtRs8" resolve="action" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="WOxe9PtRsm" role="9aQIa">
+            <node concept="3clFbS" id="WOxe9PtRsn" role="9aQI4">
+              <node concept="3clFbF" id="WOxe9PtRso" role="3cqZAp">
+                <node concept="37vLTI" id="WOxe9PtRsp" role="3clFbG">
+                  <node concept="37vLTw" id="WOxe9PtRsq" role="37vLTJ">
+                    <ref role="3cqZAo" node="WOxe9Ps7s5" resolve="myDeleteAction" />
+                  </node>
+                  <node concept="2ShNRf" id="WOxe9PtRsr" role="37vLTx">
+                    <node concept="1pGfFk" id="WOxe9PtRss" role="2ShVmc">
+                      <ref role="37wK5l" node="7C0FR5AJFBN" resolve="PriorizedValue" />
+                      <node concept="3uibUv" id="WOxe9PtRst" role="1pMfVU">
+                        <ref role="3uigEE" to="f4zo:~CellAction" resolve="CellAction" />
+                      </node>
+                      <node concept="37vLTw" id="WOxe9PtRsu" role="37wK5m">
+                        <ref role="3cqZAo" node="WOxe9PtRs8" resolve="action" />
+                      </node>
+                      <node concept="37vLTw" id="WOxe9PtRsv" role="37wK5m">
+                        <ref role="3cqZAo" node="WOxe9PtRsa" resolve="priority" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="WOxe9PtRsw" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7C0FR5AJPqH" role="jymVt" />
     <node concept="3clFb_" id="7C0FR5AEf5A" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -24231,7 +24384,7 @@
     <node concept="3clFb_" id="3GKqtdr6d3H" role="jymVt">
       <property role="TrG5h" value="finalizeEditorCellLeafs" />
       <node concept="3cqZAl" id="3GKqtdr6d3J" role="3clF45" />
-      <node concept="3Tm6S6" id="3GKqtdr6hiU" role="1B3o_S" />
+      <node concept="3Tm1VV" id="WOxe9P_T19" role="1B3o_S" />
       <node concept="3clFbS" id="3GKqtdr6d3L" role="3clF47">
         <node concept="1Dw8fO" id="3GKqtdr6w10" role="3cqZAp">
           <node concept="3clFbS" id="3GKqtdr6w11" role="2LFqv$">
@@ -24608,6 +24761,116 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="WOxe9Psoqx" role="3cqZAp" />
+                    <node concept="3SKdUt" id="WOxe9PsoAL" role="3cqZAp">
+                      <node concept="1PaTwC" id="WOxe9PsoAM" role="1aUNEU">
+                        <node concept="3oM_SD" id="WOxe9PsoAN" role="1PaTwD">
+                          <property role="3oM_SC" value="insert" />
+                        </node>
+                        <node concept="3oM_SD" id="WOxe9PsoAO" role="1PaTwD">
+                          <property role="3oM_SC" value="after" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cpWs8" id="WOxe9PsoAP" role="3cqZAp">
+                      <node concept="3cpWsn" id="WOxe9PsoAQ" role="3cpWs9">
+                        <property role="TrG5h" value="deleteAction" />
+                        <node concept="3uibUv" id="WOxe9PsoAR" role="1tU5fm">
+                          <ref role="3uigEE" node="7C0FR5AJF$W" resolve="PriorizedValue" />
+                          <node concept="3uibUv" id="WOxe9PsoAS" role="11_B2D">
+                            <ref role="3uigEE" to="f4zo:~CellAction" resolve="CellAction" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="WOxe9PsoAT" role="33vP2m">
+                          <node concept="37vLTw" id="WOxe9PsoAU" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3GKqtdr6x3_" resolve="element" />
+                          </node>
+                          <node concept="liA8E" id="WOxe9PsoAV" role="2OqNvi">
+                            <ref role="37wK5l" node="WOxe9PrWFB" resolve="getDeleteAction" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="WOxe9PsoAW" role="3cqZAp">
+                      <node concept="3clFbS" id="WOxe9PsoAX" role="3clFbx">
+                        <node concept="3clFbJ" id="WOxe9PsoAY" role="3cqZAp">
+                          <node concept="3clFbS" id="WOxe9PsoAZ" role="3clFbx">
+                            <node concept="3clFbF" id="WOxe9PsoB0" role="3cqZAp">
+                              <node concept="2OqwBi" id="WOxe9PsoB1" role="3clFbG">
+                                <node concept="37vLTw" id="WOxe9PsoB2" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3GKqtdr6zaw" resolve="cell" />
+                                </node>
+                                <node concept="liA8E" id="WOxe9PsoB3" role="2OqNvi">
+                                  <ref role="37wK5l" to="f4zo:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
+                                  <node concept="Rm8GO" id="WOxe9PsBn7" role="37wK5m">
+                                    <ref role="Rm8GQ" to="f4zo:~CellActionType.DELETE" resolve="DELETE" />
+                                    <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                                  </node>
+                                  <node concept="2OqwBi" id="WOxe9PsoB5" role="37wK5m">
+                                    <node concept="37vLTw" id="WOxe9PsoB6" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="insertAction" />
+                                    </node>
+                                    <node concept="liA8E" id="WOxe9PsoB7" role="2OqNvi">
+                                      <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="22lmx$" id="WOxe9PsoB8" role="3clFbw">
+                            <node concept="2d3UOw" id="WOxe9PsoB9" role="3uHU7w">
+                              <node concept="3cmrfG" id="WOxe9PsoBa" role="3uHU7w">
+                                <property role="3cmrfH" value="0" />
+                              </node>
+                              <node concept="2OqwBi" id="WOxe9PsoBb" role="3uHU7B">
+                                <node concept="37vLTw" id="WOxe9PsoBc" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="insertAction" />
+                                </node>
+                                <node concept="liA8E" id="WOxe9PsoBd" role="2OqNvi">
+                                  <ref role="37wK5l" node="7C0FR5Bcbrf" resolve="getPriority" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbC" id="WOxe9PsoBe" role="3uHU7B">
+                              <node concept="2OqwBi" id="WOxe9PsoBf" role="3uHU7B">
+                                <node concept="37vLTw" id="WOxe9PsoBg" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3GKqtdr6zaw" resolve="cell" />
+                                </node>
+                                <node concept="liA8E" id="WOxe9PsoBh" role="2OqNvi">
+                                  <ref role="37wK5l" to="f4zo:~EditorCell.getAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="getAction" />
+                                  <node concept="Rm8GO" id="WOxe9Psz8S" role="37wK5m">
+                                    <ref role="Rm8GQ" to="f4zo:~CellActionType.DELETE" resolve="DELETE" />
+                                    <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="10Nm6u" id="WOxe9PsoBj" role="3uHU7w" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="1Wc70l" id="WOxe9PsoBk" role="3clFbw">
+                        <node concept="3y3z36" id="WOxe9PsoBl" role="3uHU7w">
+                          <node concept="10Nm6u" id="WOxe9PsoBm" role="3uHU7w" />
+                          <node concept="2OqwBi" id="WOxe9PsoBn" role="3uHU7B">
+                            <node concept="37vLTw" id="WOxe9PsoBo" role="2Oq$k0">
+                              <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="insertAction" />
+                            </node>
+                            <node concept="liA8E" id="WOxe9PsoBp" role="2OqNvi">
+                              <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3y3z36" id="WOxe9PsoBq" role="3uHU7B">
+                          <node concept="37vLTw" id="WOxe9PsoBr" role="3uHU7B">
+                            <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="insertAction" />
+                          </node>
+                          <node concept="10Nm6u" id="WOxe9PsoBs" role="3uHU7w" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="WOxe9PsowC" role="3cqZAp" />
                     <node concept="3clFbH" id="7t31QeZCO1T" role="3cqZAp" />
                     <node concept="3SKdUt" id="7t31QeZCOMU" role="3cqZAp">
                       <node concept="1PaTwC" id="7WTFIQIcYnO" role="1aUNEU">

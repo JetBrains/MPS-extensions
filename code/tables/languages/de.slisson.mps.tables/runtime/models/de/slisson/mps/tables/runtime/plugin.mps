@@ -91,6 +91,10 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -632,6 +636,11 @@
                 <node concept="3clFbT" id="63uETA6sKLl" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>
+                <node concept="Rm8GO" id="74LepNU8tah" role="37wK5m">
+                  <ref role="Rm8GQ" to="hm5v:74LepNTVASM" resolve="DELETE" />
+                  <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="DeleteType" />
+                </node>
+                <node concept="3clFbT" id="74LepNU8thk" role="37wK5m" />
               </node>
             </node>
             <node concept="liA8E" id="7IUya7cjmzY" role="2OqNvi">
@@ -674,6 +683,11 @@
                 <node concept="3clFbT" id="63uETA6sKub" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>
+                <node concept="Rm8GO" id="74LepNU8sZR" role="37wK5m">
+                  <ref role="Rm8GQ" to="hm5v:74LepNTVASM" resolve="DELETE" />
+                  <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="DeleteType" />
+                </node>
+                <node concept="3clFbT" id="74LepNU8t63" role="37wK5m" />
               </node>
             </node>
             <node concept="liA8E" id="7IUya7cja2q" role="2OqNvi">

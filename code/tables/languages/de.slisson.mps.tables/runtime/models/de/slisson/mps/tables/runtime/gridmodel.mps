@@ -8838,9 +8838,17 @@
                 <node concept="3clFbF" id="74LepNSQSoh" role="3cqZAp">
                   <node concept="2ShNRf" id="74LepNSCD$k" role="3clFbG">
                     <node concept="1pGfFk" id="74LepNSCD$l" role="2ShVmc">
-                      <ref role="37wK5l" to="hm5v:7IUya7ciSfI" resolve="DeleteRowAction" />
+                      <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="DeleteRowAction" />
                       <node concept="37vLTw" id="74LepNSR4g0" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSPqhq" resolve="cell" />
+                      </node>
+                      <node concept="3clFbT" id="74LepNU0vmE" role="37wK5m" />
+                      <node concept="Rm8GO" id="74LepNU1wdz" role="37wK5m">
+                        <ref role="Rm8GQ" to="hm5v:74LepNTVASM" resolve="DELETE" />
+                        <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="DeleteType" />
+                      </node>
+                      <node concept="37vLTw" id="74LepNU1MNa" role="37wK5m">
+                        <ref role="3cqZAo" node="74LepNSPqhs" resolve="isLeft" />
                       </node>
                     </node>
                   </node>
@@ -8875,9 +8883,17 @@
                 <node concept="3clFbF" id="74LepNSRtzD" role="3cqZAp">
                   <node concept="2ShNRf" id="74LepNSCD$q" role="3clFbG">
                     <node concept="1pGfFk" id="74LepNSCD$r" role="2ShVmc">
-                      <ref role="37wK5l" to="hm5v:7IUya7ciSfI" resolve="DeleteRowAction" />
+                      <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="DeleteRowAction" />
                       <node concept="37vLTw" id="74LepNSRDrB" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSPvOx" resolve="cell" />
+                      </node>
+                      <node concept="3clFbT" id="74LepNU2eid" role="37wK5m" />
+                      <node concept="Rm8GO" id="74LepNU2pCW" role="37wK5m">
+                        <ref role="Rm8GQ" to="hm5v:74LepNTV_TU" resolve="BACKSPACE" />
+                        <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="DeleteType" />
+                      </node>
+                      <node concept="37vLTw" id="74LepNU2CAC" role="37wK5m">
+                        <ref role="3cqZAo" node="74LepNSPvOz" resolve="isLeft" />
                       </node>
                     </node>
                   </node>

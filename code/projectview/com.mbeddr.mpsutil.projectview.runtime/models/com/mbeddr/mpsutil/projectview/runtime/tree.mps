@@ -3477,22 +3477,15 @@
           <node concept="3clFbS" id="hwfPVmg07R" role="3clFbx">
             <node concept="3clFbF" id="hwfPVmgd7Y" role="3cqZAp">
               <node concept="2OqwBi" id="hwfPVmgezu" role="3clFbG">
-                <node concept="2OqwBi" id="hwfPVmgd80" role="2Oq$k0">
-                  <node concept="1rXfSq" id="hwfPVmgd81" role="2Oq$k0">
-                    <ref role="37wK5l" to="rvbb:~BaseLogicalViewProjectPane.getProject()" resolve="getProject" />
-                  </node>
-                  <node concept="liA8E" id="hwfPVmgd82" role="2OqNvi">
-                    <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
-                    <node concept="3VsKOn" id="hwfPVmgd83" role="37wK5m">
-                      <ref role="3VsUkX" to="2r90:~ReloadManagerComponent" resolve="ReloadManagerComponent" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="liA8E" id="hwfPVmggQG" role="2OqNvi">
-                  <ref role="37wK5l" to="2r90:~ReloadManagerComponent.removeReloadListener(jetbrains.mps.ide.platform.watching.ReloadListener)" resolve="removeReloadListener" />
+                  <ref role="37wK5l" to="2r90:~ReloadManager.removeReloadListener(jetbrains.mps.ide.platform.watching.ReloadListener)" resolve="removeReloadListener" />
                   <node concept="37vLTw" id="hwfPVmgi_r" role="37wK5m">
                     <ref role="3cqZAo" node="hwfPVmff52" resolve="myReloadListener" />
                   </node>
+                </node>
+                <node concept="2YIFZM" id="2LF$HIuD1ku" role="2Oq$k0">
+                  <ref role="37wK5l" to="2r90:~ReloadManager.getInstance()" resolve="getInstance" />
+                  <ref role="1Pybhc" to="2r90:~ReloadManager" resolve="ReloadManager" />
                 </node>
               </node>
             </node>
@@ -3755,18 +3748,11 @@
           <node concept="3cpWsn" id="hwfPVmfGGc" role="3cpWs9">
             <property role="TrG5h" value="reloadManager" />
             <node concept="3uibUv" id="hwfPVmfGG8" role="1tU5fm">
-              <ref role="3uigEE" to="2r90:~ReloadManagerComponent" resolve="ReloadManagerComponent" />
+              <ref role="3uigEE" to="2r90:~ReloadManager" resolve="ReloadManager" />
             </node>
-            <node concept="2OqwBi" id="hwfPVmfGGd" role="33vP2m">
-              <node concept="1rXfSq" id="hwfPVmfGGe" role="2Oq$k0">
-                <ref role="37wK5l" to="rvbb:~BaseLogicalViewProjectPane.getProject()" resolve="getProject" />
-              </node>
-              <node concept="liA8E" id="hwfPVmfGGf" role="2OqNvi">
-                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
-                <node concept="3VsKOn" id="hwfPVmfGGg" role="37wK5m">
-                  <ref role="3VsUkX" to="2r90:~ReloadManagerComponent" resolve="ReloadManagerComponent" />
-                </node>
-              </node>
+            <node concept="2YIFZM" id="2LF$HIuF4XD" role="33vP2m">
+              <ref role="37wK5l" to="2r90:~ReloadManager.getInstance()" resolve="getInstance" />
+              <ref role="1Pybhc" to="2r90:~ReloadManager" resolve="ReloadManager" />
             </node>
           </node>
         </node>
@@ -3825,7 +3811,7 @@
                   <ref role="3cqZAo" node="hwfPVmfGGc" resolve="reloadManager" />
                 </node>
                 <node concept="liA8E" id="4gq8yQBZ6OS" role="2OqNvi">
-                  <ref role="37wK5l" to="2r90:~ReloadManagerComponent.addReloadListener(jetbrains.mps.ide.platform.watching.ReloadListener)" resolve="addReloadListener" />
+                  <ref role="37wK5l" to="2r90:~ReloadManager.addReloadListener(jetbrains.mps.ide.platform.watching.ReloadListener)" resolve="addReloadListener" />
                   <node concept="37vLTw" id="hwfPVmfXuv" role="37wK5m">
                     <ref role="3cqZAo" node="hwfPVmff52" resolve="myReloadListener" />
                   </node>

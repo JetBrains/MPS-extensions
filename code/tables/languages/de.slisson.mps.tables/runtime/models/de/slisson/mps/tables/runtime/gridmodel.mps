@@ -11103,6 +11103,14 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="74LepNRZ$zy" role="jymVt" />
+    <node concept="312cEg" id="74LepNRZ$5j" role="jymVt">
+      <property role="TrG5h" value="rowInsertBeforeHandler" />
+      <node concept="3Tm6S6" id="74LepNRZ$5k" role="1B3o_S" />
+      <node concept="3uibUv" id="74LepNRZ$5l" role="1tU5fm">
+        <ref role="3uigEE" node="7C0FR5AJOLF" resolve="IRowCreateHandler" />
+      </node>
+    </node>
     <node concept="312cEg" id="dzDMr0rw9b" role="jymVt">
       <property role="TrG5h" value="rowInsertHandler" />
       <node concept="3Tm6S6" id="dzDMr0rucs" role="1B3o_S" />
@@ -11136,6 +11144,34 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="74LepNRZ$N0" role="jymVt" />
+    <node concept="3clFb_" id="74LepNRZ_mF" role="jymVt">
+      <property role="TrG5h" value="setRowInsertBeforeHandler" />
+      <node concept="3clFbS" id="74LepNRZ_mG" role="3clF47">
+        <node concept="3clFbF" id="74LepNRZ_mH" role="3cqZAp">
+          <node concept="37vLTI" id="74LepNRZ_mI" role="3clFbG">
+            <node concept="37vLTw" id="74LepNRZ_mJ" role="37vLTx">
+              <ref role="3cqZAo" node="74LepNRZ_mP" resolve="handler" />
+            </node>
+            <node concept="2OqwBi" id="74LepNRZ_mK" role="37vLTJ">
+              <node concept="Xjq3P" id="74LepNRZ_mL" role="2Oq$k0" />
+              <node concept="2OwXpG" id="74LepNRZ_mM" role="2OqNvi">
+                <ref role="2Oxat5" node="74LepNRZ$5j" resolve="rowInsertBeforeHandler" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="74LepNRZ_mN" role="1B3o_S" />
+      <node concept="3cqZAl" id="74LepNRZ_mO" role="3clF45" />
+      <node concept="37vLTG" id="74LepNRZ_mP" role="3clF46">
+        <property role="TrG5h" value="handler" />
+        <node concept="3uibUv" id="74LepNRZ_mQ" role="1tU5fm">
+          <ref role="3uigEE" node="7C0FR5AJOLF" resolve="IRowCreateHandler" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="74LepNRZ_7u" role="jymVt" />
     <node concept="3clFb_" id="dzDMr0rBjq" role="jymVt">
       <property role="TrG5h" value="setRowInsertHandler" />
       <node concept="3clFbS" id="dzDMr0rBjt" role="3clF47">
@@ -11163,6 +11199,24 @@
       </node>
     </node>
     <node concept="2tJIrI" id="dzDMr0tvFw" role="jymVt" />
+    <node concept="3clFb_" id="74LepNRZACI" role="jymVt">
+      <property role="TrG5h" value="getRowInsertBeforeHandler" />
+      <node concept="3clFbS" id="74LepNRZACJ" role="3clF47">
+        <node concept="3clFbF" id="74LepNRZACK" role="3cqZAp">
+          <node concept="2OqwBi" id="74LepNRZACL" role="3clFbG">
+            <node concept="Xjq3P" id="74LepNRZACM" role="2Oq$k0" />
+            <node concept="2OwXpG" id="74LepNRZACN" role="2OqNvi">
+              <ref role="2Oxat5" node="74LepNRZ$5j" resolve="rowInsertBeforeHandler" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="74LepNRZACO" role="1B3o_S" />
+      <node concept="3uibUv" id="74LepNRZACP" role="3clF45">
+        <ref role="3uigEE" node="7C0FR5AJOLF" resolve="IRowCreateHandler" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="74LepNRZAom" role="jymVt" />
     <node concept="3clFb_" id="dzDMr0twlY" role="jymVt">
       <property role="TrG5h" value="getRowInsertHandler" />
       <node concept="3clFbS" id="dzDMr0twm1" role="3clF47">
@@ -26118,6 +26172,46 @@
               </node>
             </node>
             <node concept="3clFbH" id="dzDMr0uPCa" role="3cqZAp" />
+            <node concept="3cpWs8" id="74LepNS08dR" role="3cqZAp">
+              <node concept="3cpWsn" id="74LepNS08dS" role="3cpWs9">
+                <property role="TrG5h" value="rowInsertBeforeHandler" />
+                <node concept="3uibUv" id="74LepNS08dT" role="1tU5fm">
+                  <ref role="3uigEE" node="7C0FR5AJOLF" resolve="IRowCreateHandler" />
+                </node>
+                <node concept="2OqwBi" id="74LepNS08dU" role="33vP2m">
+                  <node concept="37vLTw" id="74LepNS08dV" role="2Oq$k0">
+                    <ref role="3cqZAo" node="RywcYwuy6M" resolve="header" />
+                  </node>
+                  <node concept="liA8E" id="74LepNS08dW" role="2OqNvi">
+                    <ref role="37wK5l" node="74LepNRZACI" resolve="getRowInsertBeforeHandler" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="74LepNS08dX" role="3cqZAp">
+              <node concept="3clFbS" id="74LepNS08dY" role="3clFbx">
+                <node concept="3clFbF" id="74LepNS08dZ" role="3cqZAp">
+                  <node concept="2OqwBi" id="74LepNS08e0" role="3clFbG">
+                    <node concept="37vLTw" id="74LepNS08e1" role="2Oq$k0">
+                      <ref role="3cqZAo" node="RywcYwuy6H" resolve="element" />
+                    </node>
+                    <node concept="liA8E" id="74LepNS08e2" role="2OqNvi">
+                      <ref role="37wK5l" node="7C0FR5Beni9" resolve="setLeftRowCreateHandler" />
+                      <node concept="37vLTw" id="74LepNS08e3" role="37wK5m">
+                        <ref role="3cqZAo" node="74LepNS08dS" resolve="rowInsertBeforeHandler" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="74LepNS08e4" role="3clFbw">
+                <node concept="10Nm6u" id="74LepNS08e5" role="3uHU7w" />
+                <node concept="37vLTw" id="74LepNS08e6" role="3uHU7B">
+                  <ref role="3cqZAo" node="74LepNS08dS" resolve="rowInsertBeforeHandler" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="74LepNS0k1P" role="3cqZAp" />
             <node concept="3cpWs8" id="dzDMr0tEQC" role="3cqZAp">
               <node concept="3cpWsn" id="dzDMr0tEQD" role="3cpWs9">
                 <property role="TrG5h" value="rowInsertHandler" />
@@ -26136,19 +26230,6 @@
             </node>
             <node concept="3clFbJ" id="dzDMr0tJkJ" role="3cqZAp">
               <node concept="3clFbS" id="dzDMr0tJkL" role="3clFbx">
-                <node concept="3clFbF" id="dzDMr0q9Hl" role="3cqZAp">
-                  <node concept="2OqwBi" id="dzDMr0qc21" role="3clFbG">
-                    <node concept="37vLTw" id="dzDMr0q9Hj" role="2Oq$k0">
-                      <ref role="3cqZAo" node="RywcYwuy6H" resolve="element" />
-                    </node>
-                    <node concept="liA8E" id="dzDMr0qeO$" role="2OqNvi">
-                      <ref role="37wK5l" node="7C0FR5Beni9" resolve="setLeftRowCreateHandler" />
-                      <node concept="37vLTw" id="dzDMr0tEQH" role="37wK5m">
-                        <ref role="3cqZAo" node="dzDMr0tEQD" resolve="rowInsertHandler" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
                 <node concept="3clFbF" id="dzDMr0IoLN" role="3cqZAp">
                   <node concept="2OqwBi" id="dzDMr0IoLO" role="3clFbG">
                     <node concept="37vLTw" id="dzDMr0IoLP" role="2Oq$k0">
@@ -26170,6 +26251,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="74LepNS071t" role="3cqZAp" />
           </node>
           <node concept="3y3z36" id="RywcYwuy73" role="3clFbw">
             <node concept="10Nm6u" id="RywcYwuy74" role="3uHU7w" />

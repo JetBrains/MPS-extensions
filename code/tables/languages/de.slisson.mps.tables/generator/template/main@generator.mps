@@ -3024,7 +3024,7 @@
                               <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
                             </node>
                             <node concept="liA8E" id="dzDMr0szJZ" role="2OqNvi">
-                              <ref role="37wK5l" to="6dpw:dzDMr0rBjq" resolve="setRowInsertHandler" />
+                              <ref role="37wK5l" to="6dpw:74LepNRZ_mF" resolve="setRowInsertBeforeHandler" />
                               <node concept="2ShNRf" id="dzDMr0sAnV" role="37wK5m">
                                 <node concept="1pGfFk" id="dzDMr0sIp8" role="2ShVmc">
                                   <property role="373rjd" value="true" />
@@ -3033,6 +3033,33 @@
                                     <ref role="3cqZAo" node="63uETA64fBG" resolve="index" />
                                   </node>
                                   <node concept="37vLTw" id="dzDMr0sLxb" role="37wK5m">
+                                    <ref role="3cqZAo" node="66vYtX1MAUW" resolve="insertAction" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbF" id="74LepNS0IfQ" role="3cqZAp">
+                          <node concept="2OqwBi" id="74LepNS0IfR" role="3clFbG">
+                            <node concept="37vLTw" id="74LepNS0IfS" role="2Oq$k0">
+                              <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
+                            </node>
+                            <node concept="liA8E" id="74LepNS0IfT" role="2OqNvi">
+                              <ref role="37wK5l" to="6dpw:dzDMr0rBjq" resolve="setRowInsertHandler" />
+                              <node concept="2ShNRf" id="74LepNS0IfU" role="37wK5m">
+                                <node concept="1pGfFk" id="74LepNS0IfV" role="2ShVmc">
+                                  <property role="373rjd" value="true" />
+                                  <ref role="37wK5l" to="6dpw:28GSY8argx7" resolve="HeaderNodeInsertAction" />
+                                  <node concept="3cpWs3" id="74LepNS0KIq" role="37wK5m">
+                                    <node concept="3cmrfG" id="74LepNS0KK5" role="3uHU7w">
+                                      <property role="3cmrfH" value="1" />
+                                    </node>
+                                    <node concept="37vLTw" id="74LepNS0IfW" role="3uHU7B">
+                                      <ref role="3cqZAo" node="63uETA64fBG" resolve="index" />
+                                    </node>
+                                  </node>
+                                  <node concept="37vLTw" id="74LepNS0IfX" role="37wK5m">
                                     <ref role="3cqZAo" node="66vYtX1MAUW" resolve="insertAction" />
                                   </node>
                                 </node>

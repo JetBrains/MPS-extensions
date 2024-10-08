@@ -26684,26 +26684,52 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbF" id="2c3czgqpIyX" role="3cqZAp">
-                      <node concept="2OqwBi" id="2c3czgqpIN2" role="3clFbG">
-                        <node concept="37vLTw" id="2c3czgqpIyW" role="2Oq$k0">
+                  </node>
+                  <node concept="3y3z36" id="3GoYdkxce1G" role="3clFbw">
+                    <node concept="10Nm6u" id="3GoYdkxce2b" role="3uHU7w" />
+                    <node concept="37vLTw" id="3GoYdkxcdcP" role="3uHU7B">
+                      <ref role="3cqZAo" node="2c3czgqpspe" resolve="leftCreateHandler" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="74LepNS4PaH" role="3cqZAp">
+                  <node concept="3cpWsn" id="74LepNS4PaI" role="3cpWs9">
+                    <property role="TrG5h" value="rightCreateHandler" />
+                    <property role="3TUv4t" value="true" />
+                    <node concept="3uibUv" id="74LepNS4PaJ" role="1tU5fm">
+                      <ref role="3uigEE" node="7C0FR5AJOLF" resolve="IRowCreateHandler" />
+                    </node>
+                    <node concept="2OqwBi" id="74LepNS4PaK" role="33vP2m">
+                      <node concept="37vLTw" id="74LepNS4PaL" role="2Oq$k0">
+                        <ref role="3cqZAo" node="RywcYwuy3g" resolve="myGrid" />
+                      </node>
+                      <node concept="liA8E" id="74LepNS4PaM" role="2OqNvi">
+                        <ref role="37wK5l" node="7C0FR5BbGAX" resolve="getRightRowCreateHandler" />
+                        <node concept="37vLTw" id="74LepNS4PaN" role="37wK5m">
+                          <ref role="3cqZAo" node="2c3czgqoThh" resolve="y" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="74LepNS4V8z" role="3cqZAp">
+                  <node concept="3clFbS" id="74LepNS4V8_" role="3clFbx">
+                    <node concept="3clFbF" id="74LepNS57Ju" role="3cqZAp">
+                      <node concept="2OqwBi" id="74LepNS57Jv" role="3clFbG">
+                        <node concept="37vLTw" id="74LepNS57Jw" role="2Oq$k0">
                           <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
                         </node>
-                        <node concept="liA8E" id="2c3czgqpJQP" role="2OqNvi">
+                        <node concept="liA8E" id="74LepNS57Jx" role="2OqNvi">
                           <ref role="37wK5l" to="g51k:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
-                          <node concept="Rm8GO" id="2c3czgqpJW1" role="37wK5m">
+                          <node concept="Rm8GO" id="74LepNS5v95" role="37wK5m">
                             <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
                             <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
                           </node>
-                          <node concept="2OqwBi" id="2c3czgqpKjg" role="37wK5m">
-                            <node concept="37vLTw" id="2c3czgqpK8S" role="2Oq$k0">
-                              <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
-                            </node>
-                            <node concept="liA8E" id="2c3czgqpKON" role="2OqNvi">
-                              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="getAction" />
-                              <node concept="Rm8GO" id="2c3czgqpLbb" role="37wK5m">
-                                <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT" resolve="INSERT" />
-                                <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                          <node concept="2ShNRf" id="74LepNS57Jz" role="37wK5m">
+                            <node concept="1pGfFk" id="74LepNS57J$" role="2ShVmc">
+                              <ref role="37wK5l" node="2c3czgqpwdy" resolve="RowCreateHandlerAdapter" />
+                              <node concept="37vLTw" id="74LepNS57J_" role="37wK5m">
+                                <ref role="3cqZAo" node="74LepNS4PaI" resolve="rightCreateHandler" />
                               </node>
                             </node>
                           </node>
@@ -26711,10 +26737,40 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3y3z36" id="3GoYdkxce1G" role="3clFbw">
-                    <node concept="10Nm6u" id="3GoYdkxce2b" role="3uHU7w" />
-                    <node concept="37vLTw" id="3GoYdkxcdcP" role="3uHU7B">
-                      <ref role="3cqZAo" node="2c3czgqpspe" resolve="leftCreateHandler" />
+                  <node concept="3y3z36" id="74LepNS53Aq" role="3clFbw">
+                    <node concept="10Nm6u" id="74LepNS55NZ" role="3uHU7w" />
+                    <node concept="37vLTw" id="74LepNS50zD" role="3uHU7B">
+                      <ref role="3cqZAo" node="74LepNS4PaI" resolve="rightCreateHandler" />
+                    </node>
+                  </node>
+                  <node concept="9aQIb" id="74LepNS4X5Z" role="9aQIa">
+                    <node concept="3clFbS" id="74LepNS4X60" role="9aQI4">
+                      <node concept="3clFbF" id="2c3czgqpIyX" role="3cqZAp">
+                        <node concept="2OqwBi" id="2c3czgqpIN2" role="3clFbG">
+                          <node concept="37vLTw" id="2c3czgqpIyW" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
+                          </node>
+                          <node concept="liA8E" id="2c3czgqpJQP" role="2OqNvi">
+                            <ref role="37wK5l" to="g51k:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
+                            <node concept="Rm8GO" id="2c3czgqpJW1" role="37wK5m">
+                              <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
+                              <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                            </node>
+                            <node concept="2OqwBi" id="2c3czgqpKjg" role="37wK5m">
+                              <node concept="37vLTw" id="2c3czgqpK8S" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2c3czgqoYHR" resolve="left" />
+                              </node>
+                              <node concept="liA8E" id="2c3czgqpKON" role="2OqNvi">
+                                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="getAction" />
+                                <node concept="Rm8GO" id="2c3czgqpLbb" role="37wK5m">
+                                  <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT" resolve="INSERT" />
+                                  <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -26818,6 +26874,37 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                  <node concept="3y3z36" id="3GoYdkxcsEw" role="3clFbw">
+                    <node concept="10Nm6u" id="3GoYdkxcsEZ" role="3uHU7w" />
+                    <node concept="37vLTw" id="3GoYdkxcsDf" role="3uHU7B">
+                      <ref role="3cqZAo" node="2c3czgqpuOi" resolve="rightCreateHandler" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="2c3czgqpLmw" role="3cqZAp" />
+                <node concept="3cpWs8" id="74LepNS5k4P" role="3cqZAp">
+                  <node concept="3cpWsn" id="74LepNS5k4Q" role="3cpWs9">
+                    <property role="TrG5h" value="leftCreateHandler" />
+                    <property role="3TUv4t" value="true" />
+                    <node concept="3uibUv" id="74LepNS5k4R" role="1tU5fm">
+                      <ref role="3uigEE" node="7C0FR5AJOLF" resolve="IRowCreateHandler" />
+                    </node>
+                    <node concept="2OqwBi" id="74LepNS5k4S" role="33vP2m">
+                      <node concept="37vLTw" id="74LepNS5k4T" role="2Oq$k0">
+                        <ref role="3cqZAo" node="RywcYwuy3g" resolve="myGrid" />
+                      </node>
+                      <node concept="liA8E" id="74LepNS5k4U" role="2OqNvi">
+                        <ref role="37wK5l" node="7C0FR5BdJ_q" resolve="getLeftRowCreateHandler" />
+                        <node concept="37vLTw" id="74LepNS5k4V" role="37wK5m">
+                          <ref role="3cqZAo" node="2c3czgqoThh" resolve="y" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="74LepNS5k4W" role="3cqZAp">
+                  <node concept="3clFbS" id="74LepNS5k4X" role="3clFbx">
                     <node concept="3clFbF" id="2c3czgqpLWX" role="3cqZAp">
                       <node concept="2OqwBi" id="2c3czgqpLWY" role="3clFbG">
                         <node concept="37vLTw" id="2c3czgqpMWa" role="2Oq$k0">
@@ -26829,15 +26916,11 @@
                             <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
                             <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
                           </node>
-                          <node concept="2OqwBi" id="2c3czgqpLX2" role="37wK5m">
-                            <node concept="37vLTw" id="m_yL2MFRrI" role="2Oq$k0">
-                              <ref role="3cqZAo" node="2c3czgqp3ci" resolve="right" />
-                            </node>
-                            <node concept="liA8E" id="2c3czgqpLX4" role="2OqNvi">
-                              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="getAction" />
-                              <node concept="Rm8GO" id="2c3czgqpLX5" role="37wK5m">
-                                <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
-                                <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT" resolve="INSERT" />
+                          <node concept="2ShNRf" id="74LepNS7lbx" role="37wK5m">
+                            <node concept="1pGfFk" id="74LepNS7lby" role="2ShVmc">
+                              <ref role="37wK5l" node="2c3czgqpwdy" resolve="RowCreateHandlerAdapter" />
+                              <node concept="37vLTw" id="74LepNS7lbz" role="37wK5m">
+                                <ref role="3cqZAo" node="74LepNS5k4Q" resolve="leftCreateHandler" />
                               </node>
                             </node>
                           </node>
@@ -26845,14 +26928,44 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3y3z36" id="3GoYdkxcsEw" role="3clFbw">
-                    <node concept="10Nm6u" id="3GoYdkxcsEZ" role="3uHU7w" />
-                    <node concept="37vLTw" id="3GoYdkxcsDf" role="3uHU7B">
-                      <ref role="3cqZAo" node="2c3czgqpuOi" resolve="rightCreateHandler" />
+                  <node concept="3y3z36" id="74LepNS5k56" role="3clFbw">
+                    <node concept="10Nm6u" id="74LepNS5k57" role="3uHU7w" />
+                    <node concept="37vLTw" id="74LepNS5k58" role="3uHU7B">
+                      <ref role="3cqZAo" node="74LepNS5k4Q" resolve="rightCreateHandler" />
+                    </node>
+                  </node>
+                  <node concept="9aQIb" id="74LepNS5_S2" role="9aQIa">
+                    <node concept="3clFbS" id="74LepNS5_S3" role="9aQI4">
+                      <node concept="3clFbF" id="74LepNS5DUY" role="3cqZAp">
+                        <node concept="2OqwBi" id="74LepNS5DUZ" role="3clFbG">
+                          <node concept="37vLTw" id="74LepNS5DV0" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2c3czgqp3ci" resolve="right" />
+                          </node>
+                          <node concept="liA8E" id="74LepNS5DV1" role="2OqNvi">
+                            <ref role="37wK5l" to="g51k:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
+                            <node concept="Rm8GO" id="74LepNS5DV2" role="37wK5m">
+                              <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
+                              <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                            </node>
+                            <node concept="2OqwBi" id="74LepNS5DV3" role="37wK5m">
+                              <node concept="37vLTw" id="74LepNS5DV4" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2c3czgqp3ci" resolve="right" />
+                              </node>
+                              <node concept="liA8E" id="74LepNS5DV5" role="2OqNvi">
+                                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="getAction" />
+                                <node concept="Rm8GO" id="74LepNS5DV6" role="37wK5m">
+                                  <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT" resolve="INSERT" />
+                                  <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="2c3czgqpLmw" role="3cqZAp" />
+                <node concept="3clFbH" id="74LepNS5fCc" role="3cqZAp" />
               </node>
               <node concept="37vLTw" id="m_yL2MFPXM" role="3clFbw">
                 <ref role="3cqZAo" node="m_yL2MF_eO" resolve="rightEnabled" />

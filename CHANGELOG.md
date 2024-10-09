@@ -6,6 +6,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## October 2024
 
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: *IDragPaletteEntry* and *IPaletteEntry* are not mutually exclusive anymore and can be implement by one class.
+
 ### Added
 
 - *com.mbeddr.mpsutil.editor.querylist*: The expression *queryListNode* was renamed to node and a new expression *index* can now be used to refer to the index of the current queried node.
@@ -34,7 +38,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Changed
 
 - *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.
-- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less  aggressively.
+- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less agressively.
 
 ## July 2024
 

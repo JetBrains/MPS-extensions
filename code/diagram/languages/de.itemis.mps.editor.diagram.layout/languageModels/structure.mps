@@ -46,7 +46,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -89,11 +89,6 @@
     <property role="TrG5h" value="Layout_Connection" />
     <property role="EcuMT" value="2319506556913310852" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="1TJgyi" id="YGA9S7ILHE" role="1TKVEl">
-      <property role="IQ2nx" value="1129445411065109354" />
-      <property role="TrG5h" value="isHidden" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyj" id="20KyIMr0tPX" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="anchors" />
@@ -123,6 +118,11 @@
       <node concept="tn0Fv" id="20KyIMr0tMb" role="HhnKV">
         <property role="tnX3d" value="false" />
       </node>
+    </node>
+    <node concept="1TJgyi" id="YGA9S7ILHE" role="1TKVEl">
+      <property role="IQ2nx" value="1129445411065109354" />
+      <property role="TrG5h" value="isHidden" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="5P3ZJ9da_0I">

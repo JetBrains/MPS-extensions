@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/apache-commons/solutions/org.apache.commons/org.apache.commons.msd" folder="apache-commons" />
+      <modulePath path="$PROJECT_DIR$/batik/solutions/de.itemis.stubs.batik.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/blutil/languages/com.mbeddr.mpsutil.blutil.genutil/com.mbeddr.mpsutil.blutil.genutil.mpl" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/languages/com.mbeddr.mpsutil.blutil/blutil.mpl" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/languages/com.mbeddr.mpsutil.blutil/solutions/com.mbeddr.mpsutil.blutil.rt.msd" folder="blutil" />

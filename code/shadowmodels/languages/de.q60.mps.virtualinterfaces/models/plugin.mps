@@ -26,7 +26,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -37,8 +37,8 @@
       <property role="2V$B1T" value="2b95e175-4fca-48d9-982b-58c954a32b02" />
       <property role="2V$B1Q" value="de.q60.mps.virtualinterfaces" />
     </node>
-    <node concept="1QGGSu" id="2BsQ8RDZvdE" role="3vqPLo">
-      <property role="1iqoE4" value="${mps_home}/lib/mps-icons.jar!/nodes/model.png" />
+    <node concept="1QGGSu" id="1yLcVM11IJk" role="3vqPLo">
+      <property role="1iqoE4" value="${module}/icons/model.png" />
     </node>
   </node>
 </model>

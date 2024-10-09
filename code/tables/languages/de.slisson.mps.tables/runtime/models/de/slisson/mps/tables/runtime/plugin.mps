@@ -626,7 +626,7 @@
             <node concept="2ShNRf" id="7IUya7cjmzT" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cjmzU" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="DeleteRowAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="TableActions.DeleteRowAction" />
                 <node concept="2OqwBi" id="7IUya7cjmzV" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cjmzW" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cjmzX" role="2OqNvi">
@@ -638,7 +638,7 @@
                 </node>
                 <node concept="Rm8GO" id="74LepNU8tah" role="37wK5m">
                   <ref role="Rm8GQ" to="hm5v:74LepNTVASM" resolve="DELETE" />
-                  <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="DeleteType" />
+                  <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="TableActions.DeleteRowAction.DeleteType" />
                 </node>
                 <node concept="3clFbT" id="74LepNU8thk" role="37wK5m" />
               </node>
@@ -673,7 +673,7 @@
             <node concept="2ShNRf" id="7IUya7cj8SK" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cj94f" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="DeleteRowAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="TableActions.DeleteRowAction" />
                 <node concept="2OqwBi" id="7IUya7cj99U" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cj99X" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cj99Z" role="2OqNvi">
@@ -685,7 +685,7 @@
                 </node>
                 <node concept="Rm8GO" id="74LepNU8sZR" role="37wK5m">
                   <ref role="Rm8GQ" to="hm5v:74LepNTVASM" resolve="DELETE" />
-                  <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="DeleteType" />
+                  <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="TableActions.DeleteRowAction.DeleteType" />
                 </node>
                 <node concept="3clFbT" id="74LepNU8t63" role="37wK5m" />
               </node>
@@ -769,7 +769,7 @@
             <node concept="2ShNRf" id="7IUya7cjq3c" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cjq3d" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6pMka" resolve="InsertRowAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6pMka" resolve="TableActions.InsertRowAction" />
                 <node concept="2OqwBi" id="7IUya7cjq3e" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cjq3f" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cjq3g" role="2OqNvi">
@@ -814,7 +814,7 @@
             <node concept="2ShNRf" id="7IUya7cjo98" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cjon5" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6pMka" resolve="InsertRowAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6pMka" resolve="TableActions.InsertRowAction" />
                 <node concept="2OqwBi" id="7IUya7cjoA_" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cjoAC" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cjoAE" role="2OqNvi">
@@ -858,7 +858,7 @@
             <node concept="2ShNRf" id="7IUya7cjqna" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cjqnb" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6pMka" resolve="InsertRowAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6pMka" resolve="TableActions.InsertRowAction" />
                 <node concept="2OqwBi" id="7IUya7cjqnc" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cjqnd" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cjqne" role="2OqNvi">
@@ -901,7 +901,7 @@
             <node concept="2ShNRf" id="7IUya7cjqns" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cjqnt" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6pMka" resolve="InsertRowAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6pMka" resolve="TableActions.InsertRowAction" />
                 <node concept="2OqwBi" id="7IUya7cjqnu" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cjqnv" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cjqnw" role="2OqNvi">
@@ -943,7 +943,7 @@
             <node concept="2ShNRf" id="6R0q0mZqoFx" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZqoFy" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6pydb" resolve="InsertColumnAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6pydb" resolve="TableActions.InsertColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZqoFz" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZqoF$" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZqoF_" role="2OqNvi">
@@ -986,7 +986,7 @@
             <node concept="2ShNRf" id="6R0q0mZqnWg" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZqnWh" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6pydb" resolve="InsertColumnAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6pydb" resolve="TableActions.InsertColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZqnWi" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZqnWj" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZqnWk" role="2OqNvi">
@@ -1028,7 +1028,7 @@
             <node concept="2ShNRf" id="6R0q0mZqnw4" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZqnw5" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6pydb" resolve="InsertColumnAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6pydb" resolve="TableActions.InsertColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZqnw6" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZqnw7" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZqnw8" role="2OqNvi">
@@ -1073,7 +1073,7 @@
             <node concept="2ShNRf" id="6R0q0mZqmnL" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZqmR9" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6pydb" resolve="InsertColumnAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6pydb" resolve="TableActions.InsertColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZqn0H" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZqn0K" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZqn0M" role="2OqNvi">
@@ -1117,7 +1117,7 @@
             <node concept="2ShNRf" id="6R0q0mZS8fb" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZS8fc" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6q$_u" resolve="DeleteColumnAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6q$_u" resolve="TableActions.DeleteColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZS8fd" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZS8fe" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZS8ff" role="2OqNvi">
@@ -1159,7 +1159,7 @@
             <node concept="2ShNRf" id="6R0q0mZS75M" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZS7gf" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:63uETA6q$_u" resolve="DeleteColumnAction" />
+                <ref role="37wK5l" to="hm5v:63uETA6q$_u" resolve="TableActions.DeleteColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZS7no" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZS7nr" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZS7nt" role="2OqNvi">

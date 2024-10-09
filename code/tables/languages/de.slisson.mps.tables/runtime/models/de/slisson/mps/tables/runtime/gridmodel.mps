@@ -1202,7 +1202,7 @@
         </node>
         <node concept="3clFbF" id="74LepNSCA1O" role="3cqZAp">
           <node concept="1rXfSq" id="74LepNSCA1M" role="3clFbG">
-            <ref role="37wK5l" node="74LepNS$D7J" resolve="initializeLeftEndCellActions" />
+            <ref role="37wK5l" node="74LepNS$D7J" resolve="initializeEndCellActions" />
           </node>
         </node>
       </node>
@@ -2710,7 +2710,7 @@
       <node concept="3clFbS" id="25cxNQTm4s7" role="3clF47">
         <node concept="3clFbF" id="25cxNQTm4s8" role="3cqZAp">
           <node concept="1rXfSq" id="25cxNQTm4s9" role="3clFbG">
-            <ref role="37wK5l" node="25cxNQTm4qX" resolve="getRowCreateHandler" />
+            <ref role="37wK5l" node="25cxNQTm4qX" resolve="getRowDeleteHandler" />
             <node concept="37vLTw" id="25cxNQTm4sa" role="37wK5m">
               <ref role="3cqZAo" node="25cxNQTm4s5" resolve="y" />
             </node>
@@ -2739,7 +2739,7 @@
       <node concept="3clFbS" id="25cxNQTm4sj" role="3clF47">
         <node concept="3clFbF" id="25cxNQTm4sk" role="3cqZAp">
           <node concept="1rXfSq" id="25cxNQTm4sl" role="3clFbG">
-            <ref role="37wK5l" node="25cxNQTm4qX" resolve="getRowCreateHandler" />
+            <ref role="37wK5l" node="25cxNQTm4qX" resolve="getRowDeleteHandler" />
             <node concept="37vLTw" id="25cxNQTm4sm" role="37wK5m">
               <ref role="3cqZAo" node="25cxNQTm4sh" resolve="y" />
             </node>
@@ -9067,7 +9067,7 @@
                 <node concept="3clFbF" id="74LepNSNQ6i" role="3cqZAp">
                   <node concept="2ShNRf" id="74LepNSCD$8" role="3clFbG">
                     <node concept="1pGfFk" id="74LepNSCD$9" role="2ShVmc">
-                      <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="InsertRowAction" />
+                      <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="TableActions.InsertRowAction" />
                       <node concept="37vLTw" id="74LepNSO2aW" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSNk35" resolve="cell" />
                       </node>
@@ -9148,14 +9148,14 @@
                 <node concept="3clFbF" id="74LepNSQSoh" role="3cqZAp">
                   <node concept="2ShNRf" id="74LepNSCD$k" role="3clFbG">
                     <node concept="1pGfFk" id="74LepNSCD$l" role="2ShVmc">
-                      <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="DeleteRowAction" />
+                      <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="TableActions.DeleteRowAction" />
                       <node concept="37vLTw" id="74LepNSR4g0" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSPqhq" resolve="cell" />
                       </node>
                       <node concept="3clFbT" id="74LepNU0vmE" role="37wK5m" />
                       <node concept="Rm8GO" id="74LepNU1wdz" role="37wK5m">
                         <ref role="Rm8GQ" to="hm5v:74LepNTVASM" resolve="DELETE" />
-                        <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="DeleteType" />
+                        <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="TableActions.DeleteRowAction.DeleteType" />
                       </node>
                       <node concept="37vLTw" id="74LepNU1MNa" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSPqhs" resolve="isLeft" />
@@ -9193,14 +9193,14 @@
                 <node concept="3clFbF" id="74LepNSRtzD" role="3cqZAp">
                   <node concept="2ShNRf" id="74LepNSCD$q" role="3clFbG">
                     <node concept="1pGfFk" id="74LepNSCD$r" role="2ShVmc">
-                      <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="DeleteRowAction" />
+                      <ref role="37wK5l" to="hm5v:63uETA6qqIK" resolve="TableActions.DeleteRowAction" />
                       <node concept="37vLTw" id="74LepNSRDrB" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSPvOx" resolve="cell" />
                       </node>
                       <node concept="3clFbT" id="74LepNU2eid" role="37wK5m" />
                       <node concept="Rm8GO" id="74LepNU2pCW" role="37wK5m">
                         <ref role="Rm8GQ" to="hm5v:74LepNTV_TU" resolve="BACKSPACE" />
-                        <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="DeleteType" />
+                        <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="TableActions.DeleteRowAction.DeleteType" />
                       </node>
                       <node concept="37vLTw" id="74LepNU2CAC" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSPvOz" resolve="isLeft" />
@@ -9238,7 +9238,7 @@
                 <node concept="3clFbF" id="74LepNSS04a" role="3cqZAp">
                   <node concept="2ShNRf" id="74LepNSCD$w" role="3clFbG">
                     <node concept="1pGfFk" id="74LepNSCD$x" role="2ShVmc">
-                      <ref role="37wK5l" to="hm5v:7IUya7ciXQl" resolve="SelectRowNodeAction" />
+                      <ref role="37wK5l" to="hm5v:7IUya7ciXQl" resolve="TableActions.SelectRowNodeAction" />
                       <node concept="37vLTw" id="74LepNSSbWd" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSP_m6" resolve="cell" />
                       </node>
@@ -9275,7 +9275,7 @@
                 <node concept="3clFbF" id="74LepNSSySR" role="3cqZAp">
                   <node concept="2ShNRf" id="74LepNSCD$A" role="3clFbG">
                     <node concept="1pGfFk" id="74LepNSCD$B" role="2ShVmc">
-                      <ref role="37wK5l" to="hm5v:7IUya7ciXQl" resolve="SelectRowNodeAction" />
+                      <ref role="37wK5l" to="hm5v:7IUya7ciXQl" resolve="TableActions.SelectRowNodeAction" />
                       <node concept="37vLTw" id="74LepNSSQ5K" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSPEZg" resolve="cell" />
                       </node>
@@ -9312,7 +9312,7 @@
                 <node concept="3clFbF" id="74LepNST949" role="3cqZAp">
                   <node concept="2ShNRf" id="74LepNSCD$G" role="3clFbG">
                     <node concept="1pGfFk" id="74LepNSCD$H" role="2ShVmc">
-                      <ref role="37wK5l" to="hm5v:7IUya7cix5V" resolve="PasteAction" />
+                      <ref role="37wK5l" to="hm5v:7IUya7cix5V" resolve="TableActions.PasteAction" />
                       <node concept="37vLTw" id="74LepNSUk8$" role="37wK5m">
                         <ref role="3cqZAo" node="74LepNSPMRG" resolve="cell" />
                       </node>
@@ -10997,7 +10997,7 @@
       <node concept="3clFbS" id="m_yL2MSw6f" role="3clF47">
         <node concept="3clFbF" id="m_yL2MSw6g" role="3cqZAp">
           <node concept="1rXfSq" id="m_yL2MSw6h" role="3clFbG">
-            <ref role="37wK5l" node="WOxe9PtRs5" resolve="setPasteAction" />
+            <ref role="37wK5l" node="WOxe9PtRs5" resolve="setDeleteAction" />
             <node concept="37vLTw" id="m_yL2MSw6i" role="37wK5m">
               <ref role="3cqZAo" node="m_yL2MSw6d" resolve="action" />
             </node>
@@ -13429,7 +13429,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="7bbwKxst88B" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
@@ -20107,7 +20107,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="7bbwKxstfrG" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
@@ -22512,12 +22512,12 @@
                   </node>
                 </node>
                 <node concept="37vLTw" id="7bbwKxsDCQD" role="3uHU7B">
-                  <ref role="3cqZAo" node="7bbwKxsDCQx" resolve="x" />
+                  <ref role="3cqZAo" node="7bbwKxsDCQx" resolve="y" />
                 </node>
               </node>
               <node concept="3uNrnE" id="7bbwKxsDCQE" role="1Dwrff">
                 <node concept="37vLTw" id="7bbwKxsDCQF" role="2$L3a6">
-                  <ref role="3cqZAo" node="7bbwKxsDCQx" resolve="x" />
+                  <ref role="3cqZAo" node="7bbwKxsDCQx" resolve="y" />
                 </node>
               </node>
             </node>
@@ -26155,7 +26155,7 @@
                                   </node>
                                   <node concept="2OqwBi" id="WOxe9PsoB5" role="37wK5m">
                                     <node concept="37vLTw" id="WOxe9PsoB6" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="insertAction" />
+                                      <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="deleteAction" />
                                     </node>
                                     <node concept="liA8E" id="WOxe9PsoB7" role="2OqNvi">
                                       <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
@@ -26172,7 +26172,7 @@
                               </node>
                               <node concept="2OqwBi" id="WOxe9PsoBb" role="3uHU7B">
                                 <node concept="37vLTw" id="WOxe9PsoBc" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="insertAction" />
+                                  <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="deleteAction" />
                                 </node>
                                 <node concept="liA8E" id="WOxe9PsoBd" role="2OqNvi">
                                   <ref role="37wK5l" node="7C0FR5Bcbrf" resolve="getPriority" />
@@ -26202,7 +26202,7 @@
                           <node concept="10Nm6u" id="WOxe9PsoBm" role="3uHU7w" />
                           <node concept="2OqwBi" id="WOxe9PsoBn" role="3uHU7B">
                             <node concept="37vLTw" id="WOxe9PsoBo" role="2Oq$k0">
-                              <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="insertAction" />
+                              <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="deleteAction" />
                             </node>
                             <node concept="liA8E" id="WOxe9PsoBp" role="2OqNvi">
                               <ref role="37wK5l" node="7C0FR5Bc9AB" resolve="getValue" />
@@ -26211,7 +26211,7 @@
                         </node>
                         <node concept="3y3z36" id="WOxe9PsoBq" role="3uHU7B">
                           <node concept="37vLTw" id="WOxe9PsoBr" role="3uHU7B">
-                            <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="insertAction" />
+                            <ref role="3cqZAo" node="WOxe9PsoAQ" resolve="deleteAction" />
                           </node>
                           <node concept="10Nm6u" id="WOxe9PsoBs" role="3uHU7w" />
                         </node>
@@ -27511,7 +27511,7 @@
                     <node concept="liA8E" id="25cxNQTkIa8" role="2OqNvi">
                       <ref role="37wK5l" node="25cxNQTslAg" resolve="setLeftRowDeleteHandler" />
                       <node concept="37vLTw" id="25cxNQTkIa9" role="37wK5m">
-                        <ref role="3cqZAo" node="25cxNQTkI9Y" resolve="rowInsertHandler" />
+                        <ref role="3cqZAo" node="25cxNQTkI9Y" resolve="rowDeleteHandler" />
                       </node>
                       <node concept="3cmrfG" id="25cxNQTkZs6" role="37wK5m">
                         <property role="3cmrfH" value="0" />
@@ -27539,7 +27539,7 @@
               <node concept="3y3z36" id="25cxNQTkIaa" role="3clFbw">
                 <node concept="10Nm6u" id="25cxNQTkIab" role="3uHU7w" />
                 <node concept="37vLTw" id="25cxNQTkIac" role="3uHU7B">
-                  <ref role="3cqZAo" node="25cxNQTkI9Y" resolve="rowInsertHandler" />
+                  <ref role="3cqZAo" node="25cxNQTkI9Y" resolve="rowDeleteHandler" />
                 </node>
               </node>
             </node>
@@ -27970,7 +27970,7 @@
                             <node concept="1pGfFk" id="25cxNQTnuGu" role="2ShVmc">
                               <ref role="37wK5l" node="25cxNQTnLqR" resolve="RowDeleteHandlerAdapter" />
                               <node concept="37vLTw" id="25cxNQTnuGv" role="37wK5m">
-                                <ref role="3cqZAo" node="25cxNQTnuGg" resolve="leftCreateHandler" />
+                                <ref role="3cqZAo" node="25cxNQTnuGg" resolve="leftDeleteHandler" />
                               </node>
                             </node>
                           </node>
@@ -27992,7 +27992,7 @@
                             <node concept="1pGfFk" id="25cxNQTMPBn" role="2ShVmc">
                               <ref role="37wK5l" node="25cxNQTnLqR" resolve="RowDeleteHandlerAdapter" />
                               <node concept="37vLTw" id="25cxNQTMPBo" role="37wK5m">
-                                <ref role="3cqZAo" node="25cxNQTnuGg" resolve="leftCreateHandler" />
+                                <ref role="3cqZAo" node="25cxNQTnuGg" resolve="leftDeleteHandler" />
                               </node>
                             </node>
                           </node>
@@ -28003,7 +28003,7 @@
                   <node concept="3y3z36" id="25cxNQTnuGw" role="3clFbw">
                     <node concept="10Nm6u" id="25cxNQTnuGx" role="3uHU7w" />
                     <node concept="37vLTw" id="25cxNQTnuGy" role="3uHU7B">
-                      <ref role="3cqZAo" node="25cxNQTnuGg" resolve="leftCreateHandler" />
+                      <ref role="3cqZAo" node="25cxNQTnuGg" resolve="leftDeleteHandler" />
                     </node>
                   </node>
                 </node>
@@ -28236,7 +28236,7 @@
                             <node concept="1pGfFk" id="25cxNQTOC5U" role="2ShVmc">
                               <ref role="37wK5l" node="25cxNQTnLqR" resolve="RowDeleteHandlerAdapter" />
                               <node concept="37vLTw" id="25cxNQTOC5V" role="37wK5m">
-                                <ref role="3cqZAo" node="25cxNQTOC5G" resolve="leftDeleteHandler" />
+                                <ref role="3cqZAo" node="25cxNQTOC5G" resolve="rightDeleteHandler" />
                               </node>
                             </node>
                           </node>
@@ -28258,7 +28258,7 @@
                             <node concept="1pGfFk" id="25cxNQTOC62" role="2ShVmc">
                               <ref role="37wK5l" node="25cxNQTnLqR" resolve="RowDeleteHandlerAdapter" />
                               <node concept="37vLTw" id="25cxNQTOC63" role="37wK5m">
-                                <ref role="3cqZAo" node="25cxNQTOC5G" resolve="leftDeleteHandler" />
+                                <ref role="3cqZAo" node="25cxNQTOC5G" resolve="rightDeleteHandler" />
                               </node>
                             </node>
                           </node>
@@ -28269,7 +28269,7 @@
                   <node concept="3y3z36" id="25cxNQTOC64" role="3clFbw">
                     <node concept="10Nm6u" id="25cxNQTOC65" role="3uHU7w" />
                     <node concept="37vLTw" id="25cxNQTOC66" role="3uHU7B">
-                      <ref role="3cqZAo" node="25cxNQTOC5G" resolve="leftDeleteHandler" />
+                      <ref role="3cqZAo" node="25cxNQTOC5G" resolve="rightDeleteHandler" />
                     </node>
                   </node>
                 </node>
@@ -28375,7 +28375,7 @@
                   <node concept="3y3z36" id="74LepNS5k56" role="3clFbw">
                     <node concept="10Nm6u" id="74LepNS5k57" role="3uHU7w" />
                     <node concept="37vLTw" id="74LepNS5k58" role="3uHU7B">
-                      <ref role="3cqZAo" node="74LepNS5k4Q" resolve="rightCreateHandler" />
+                      <ref role="3cqZAo" node="74LepNS5k4Q" resolve="leftCreateHandler" />
                     </node>
                   </node>
                   <node concept="9aQIb" id="74LepNS5_S2" role="9aQIa">
@@ -34515,7 +34515,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="25cxNQTk8s2" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
@@ -35180,7 +35180,7 @@
                     <ref role="37wK5l" node="25cxNQTnhzL" resolve="setLeftRowDeleteHandler" />
                     <node concept="2ShNRf" id="25cxNQTNBZD" role="37wK5m">
                       <node concept="1pGfFk" id="25cxNQTNBZE" role="2ShVmc">
-                        <ref role="37wK5l" node="25cxNQTNE5k" resolve="ActionToRowDeleteeAdapter" />
+                        <ref role="37wK5l" node="25cxNQTNE5k" resolve="ActionToRowDeleteAdapter" />
                         <node concept="37vLTw" id="25cxNQTNBZF" role="37wK5m">
                           <ref role="3cqZAo" node="3t1pVywiedp" resolve="action" />
                         </node>
@@ -35229,7 +35229,7 @@
                     <ref role="37wK5l" node="25cxNQTnhzT" resolve="setRightRowDeleteHandler" />
                     <node concept="2ShNRf" id="25cxNQTNG9X" role="37wK5m">
                       <node concept="1pGfFk" id="25cxNQTNG9Y" role="2ShVmc">
-                        <ref role="37wK5l" node="25cxNQTNE5k" resolve="ActionToRowDeleteeAdapter" />
+                        <ref role="37wK5l" node="25cxNQTNE5k" resolve="ActionToRowDeleteAdapter" />
                         <node concept="37vLTw" id="25cxNQTNG9Z" role="37wK5m">
                           <ref role="3cqZAo" node="3t1pVywiedp" resolve="action" />
                         </node>

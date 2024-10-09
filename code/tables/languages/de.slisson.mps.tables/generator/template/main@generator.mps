@@ -3067,6 +3067,28 @@
                             </node>
                           </node>
                         </node>
+                        <node concept="3clFbF" id="25cxNQTkbyf" role="3cqZAp">
+                          <node concept="2OqwBi" id="25cxNQTkbyg" role="3clFbG">
+                            <node concept="37vLTw" id="25cxNQTkbyh" role="2Oq$k0">
+                              <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
+                            </node>
+                            <node concept="liA8E" id="25cxNQTkbyi" role="2OqNvi">
+                              <ref role="37wK5l" to="6dpw:25cxNQTjAuB" resolve="setRowDeleteHandler" />
+                              <node concept="2ShNRf" id="25cxNQTkbyj" role="37wK5m">
+                                <node concept="1pGfFk" id="25cxNQTkbyk" role="2ShVmc">
+                                  <property role="373rjd" value="true" />
+                                  <ref role="37wK5l" to="6dpw:28GSY8are1j" resolve="HeaderNodeDeleteAction" />
+                                  <node concept="37vLTw" id="25cxNQTkbyl" role="37wK5m">
+                                    <ref role="3cqZAo" node="63uETA64fBG" resolve="index" />
+                                  </node>
+                                  <node concept="37vLTw" id="25cxNQTkbym" role="37wK5m">
+                                    <ref role="3cqZAo" node="1k7j3NOhXAQ" resolve="deleteAction" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                       <node concept="3y3z36" id="dzDMr0_Xfw" role="3clFbw">
                         <node concept="10Nm6u" id="dzDMr0_Xnp" role="3uHU7w" />

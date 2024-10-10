@@ -4,12 +4,6 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
-## October 2024
-
-### Fixed
-
-- *de.slisson.mps.tables*: Various fixes to table end cells in combination with insert and deletion handlers were made.
-
 ## August 2024
 
 ### Fixed

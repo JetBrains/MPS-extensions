@@ -3,7 +3,7 @@ plugins {
     id "com.github.breadmoirai.github-release" version "2.5.2"
     id 'maven-publish'
     id 'base'
-    id 'de.itemis.mps.gradle.launcher' version '2.4.2.+'
+    id 'de.itemis.mps.gradle.launcher' version '2.5.2.+'
 }
 
 import de.itemis.mps.gradle.*
@@ -42,9 +42,9 @@ logger.info 'Repository username: {}', project.nexusUsername
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2023.2'
+ext.mpsMajor = '9999.9'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = '1'
+ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 
@@ -60,8 +60,7 @@ if (ciBuild) {
     if (branch.matches(/(maintenance|mps)[\/-](mps)?\d+(\.\d+)*/)) {
         version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
-        def isSnapshot = !(branch.equals("master"))
-        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + (isSnapshot ? "-SNAPSHOT" : "")
+        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + "-SNAPSHOT"
     }
 
     println "##teamcity[buildNumber '${version}']"
@@ -94,7 +93,9 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:$mpsVersion"
+    // For published releases adjust ext.mpsMajor and ext.mpsMinor above and use this dependency:
+    // mps "com.jetbrains:mps:$mpsVersion"
+    mps "com.jetbrains.mps:mps-prerelease:241.19072.10467"
 }
 
 repositories {
@@ -178,7 +179,7 @@ configurations {
 }
 
 dependencies {
-    ant_lib "org.apache.ant:ant-junit:1.10.14"
+    ant_lib "org.apache.ant:ant-junit:1.10.15"
 
     def elkVersion = "0.9.1"
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion")
@@ -192,9 +193,9 @@ dependencies {
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.31.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.37.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0")
 
     batik ("org.apache.xmlgraphics:batik-svggen:1.17")
     batik ("org.apache.xmlgraphics:batik-dom:1.17")
@@ -365,10 +366,10 @@ configurations {
 }
 dependencies {
     junitAnt 'junit:junit:4.13.2'
-    junitAnt('org.apache.ant:ant-junit:1.10.14') {
+    junitAnt('org.apache.ant:ant-junit:1.10.15') {
         transitive = false
     }
-    junitAnt('org.apache.ant:ant-junit4:1.10.14') {
+    junitAnt('org.apache.ant:ant-junit4:1.10.15') {
         transitive = false
     }
 }
@@ -526,6 +527,7 @@ def usedPluginRoots = [
         new File(mpsHomeDir, 'plugins/mps-vcs'),
         new File(mpsHomeDir, 'plugins/mps-git4idea'),
         new File(mpsHomeDir, 'plugins/mps-httpsupport'),
+        new File(mpsHomeDir, 'plugins/mps-testing'),
         new File(mpsHomeDir, 'plugins/mps-spellcheck')
 ]
 

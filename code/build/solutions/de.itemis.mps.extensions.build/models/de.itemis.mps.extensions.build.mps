@@ -9712,9 +9712,6 @@
           <property role="3MwjfP" value="Enhancements for the MPS spell checker" />
         </node>
       </node>
-      <node concept="m$_yC" id="5Jv8_iJO2NL" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4O0hKJpjIV3" resolve="jetbrains.mps.ide.devkit" />
-      </node>
       <node concept="m$_yC" id="5Jv8_iJO3bn" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:3SKb_4Jujh$" resolve="jetbrains.mps.editor.spellcheck" />
       </node>

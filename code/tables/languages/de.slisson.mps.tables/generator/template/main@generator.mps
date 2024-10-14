@@ -551,7 +551,6 @@
         <child id="1235573175711" name="elementType" index="2HTBi0" />
         <child id="1235573187520" name="singletonValue" index="2HTEbv" />
       </concept>
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
@@ -2901,7 +2900,7 @@
                       <node concept="3clFbC" id="3zknox6GXpk" role="3clFbw">
                         <node concept="10Nm6u" id="3zknox6GYfX" role="3uHU7w" />
                         <node concept="37vLTw" id="3zknox6GWJE" role="3uHU7B">
-                          <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
+                          <ref role="3cqZAo" node="G4dTmIwy4U" resolve="header" />
                         </node>
                       </node>
                     </node>
@@ -2919,7 +2918,7 @@
                           <node concept="liA8E" id="63uETA64d6Y" role="2OqNvi">
                             <ref role="37wK5l" to="6dpw:7bbwKxsCPjE" resolve="findIndex" />
                             <node concept="37vLTw" id="63uETA64d6Z" role="37wK5m">
-                              <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
+                              <ref role="3cqZAo" node="G4dTmIwy4U" resolve="header" />
                             </node>
                           </node>
                         </node>
@@ -3033,7 +3032,7 @@
                         <node concept="3clFbF" id="dzDMr0sj2w" role="3cqZAp">
                           <node concept="2OqwBi" id="dzDMr0su5S" role="3clFbG">
                             <node concept="37vLTw" id="dzDMr0_Uqh" role="2Oq$k0">
-                              <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
+                              <ref role="3cqZAo" node="G4dTmIwy4U" resolve="header" />
                             </node>
                             <node concept="liA8E" id="dzDMr0szJZ" role="2OqNvi">
                               <ref role="37wK5l" to="6dpw:74LepNRZ_mF" resolve="setRowInsertBeforeHandler" />
@@ -3055,7 +3054,7 @@
                         <node concept="3clFbF" id="74LepNS0IfQ" role="3cqZAp">
                           <node concept="2OqwBi" id="74LepNS0IfR" role="3clFbG">
                             <node concept="37vLTw" id="74LepNS0IfS" role="2Oq$k0">
-                              <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
+                              <ref role="3cqZAo" node="G4dTmIwy4U" resolve="header" />
                             </node>
                             <node concept="liA8E" id="74LepNS0IfT" role="2OqNvi">
                               <ref role="37wK5l" to="6dpw:dzDMr0rBjq" resolve="setRowInsertHandler" />
@@ -3092,7 +3091,7 @@
                         <node concept="3clFbF" id="25cxNQTkbyf" role="3cqZAp">
                           <node concept="2OqwBi" id="25cxNQTkbyg" role="3clFbG">
                             <node concept="37vLTw" id="25cxNQTkbyh" role="2Oq$k0">
-                              <ref role="3cqZAo" node="dzDMr0FVsh" resolve="header" />
+                              <ref role="3cqZAo" node="G4dTmIwy4U" resolve="header" />
                             </node>
                             <node concept="liA8E" id="25cxNQTkbyi" role="2OqNvi">
                               <ref role="37wK5l" to="6dpw:25cxNQTjAuB" resolve="setRowDeleteHandler" />
@@ -3120,9 +3119,9 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="Rh6nW" id="dzDMr0FVsh" role="1bW2Oz">
+                  <node concept="gl6BB" id="G4dTmIwy4U" role="1bW2Oz">
                     <property role="TrG5h" value="header" />
-                    <node concept="2jxLKc" id="dzDMr0FVsi" role="1tU5fm" />
+                    <node concept="2jxLKc" id="G4dTmIwy4V" role="1tU5fm" />
                   </node>
                 </node>
               </node>

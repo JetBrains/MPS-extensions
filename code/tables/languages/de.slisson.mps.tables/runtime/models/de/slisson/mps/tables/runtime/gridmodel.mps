@@ -171,6 +171,7 @@
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -13389,16 +13390,39 @@
       <node concept="17QB3L" id="1cFYsK3mC0T" role="3clF45" />
       <node concept="3Tm1VV" id="1cFYsK3mC0U" role="1B3o_S" />
       <node concept="3clFbS" id="1cFYsK3mC0W" role="3clF47">
-        <node concept="3clFbF" id="1cFYsK3mCKS" role="3cqZAp">
-          <node concept="3cpWs3" id="1cFYsK3mCR3" role="3clFbG">
-            <node concept="2OqwBi" id="2obP5Y846Fk" role="3uHU7w">
-              <node concept="37vLTw" id="1cFYsK3mCRz" role="2Oq$k0">
+        <node concept="3cpWs8" id="3zknox6HBxm" role="3cqZAp">
+          <node concept="3cpWsn" id="3zknox6HBxp" role="3cpWs9">
+            <property role="TrG5h" value="presentation" />
+            <node concept="17QB3L" id="3zknox6HBxk" role="1tU5fm" />
+            <node concept="2OqwBi" id="3zknox6HDnd" role="33vP2m">
+              <node concept="37vLTw" id="3zknox6HCCt" role="2Oq$k0">
                 <ref role="3cqZAo" node="7C0FR5AJwUb" resolve="myNode" />
               </node>
-              <node concept="2Iv5rx" id="2obP5Y846Fl" role="2OqNvi" />
+              <node concept="2Iv5rx" id="3zknox6HDVF" role="2OqNvi" />
             </node>
-            <node concept="Xl_RD" id="1cFYsK3mCKR" role="3uHU7B">
-              <property role="Xl_RC" value="" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3zknox6HFTq" role="3cqZAp">
+          <node concept="3clFbS" id="3zknox6HFTs" role="3clFbx">
+            <node concept="3cpWs6" id="3zknox6HJNX" role="3cqZAp">
+              <node concept="37vLTw" id="3zknox6HLsH" role="3cqZAk">
+                <ref role="3cqZAo" node="3zknox6HBxp" resolve="presentation" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3zknox6HInY" role="3clFbw">
+            <node concept="37vLTw" id="3zknox6HGtx" role="2Oq$k0">
+              <ref role="3cqZAo" node="3zknox6HBxp" resolve="presentation" />
+            </node>
+            <node concept="17RvpY" id="3zknox6HJ7a" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="3zknox6HLZe" role="9aQIa">
+            <node concept="3clFbS" id="3zknox6HLZf" role="9aQI4">
+              <node concept="3cpWs6" id="3zknox6HMFJ" role="3cqZAp">
+                <node concept="1rXfSq" id="3zknox6HNh_" role="3cqZAk">
+                  <ref role="37wK5l" node="7bbwKxst88y" resolve="getValue" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -35210,7 +35234,7 @@
                     <ref role="3cqZAo" node="3t1pVywiesE" resolve="myGridElement" />
                   </node>
                   <node concept="liA8E" id="25cxNQTNC06" role="2OqNvi">
-                    <ref role="37wK5l" node="3GKqtdqRN0N" resolve="setInsertAction" />
+                    <ref role="37wK5l" node="WOxe9PtF7I" resolve="setDeleteAction" />
                     <node concept="37vLTw" id="25cxNQTNC07" role="37wK5m">
                       <ref role="3cqZAo" node="3t1pVywiedp" resolve="action" />
                     </node>

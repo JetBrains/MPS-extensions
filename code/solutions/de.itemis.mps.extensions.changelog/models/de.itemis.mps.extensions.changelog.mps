@@ -7,7 +7,7 @@
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="82194f31-b6f9-4f39-bf3d-bad4ce201c4e" name="de.itemis.mps.spellcheck" version="0" />
+    <use id="82194f31-b6f9-4f39-bf3d-bad4ce201c4e" name="de.itemis.mps.spellcheck" version="-1" />
   </languages>
   <imports>
     <import index="hba4" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
@@ -499,6 +499,70 @@
           </node>
           <node concept="3oM_SD" id="18DnuGEwDDC" role="1PaTwD">
             <property role="3oM_SC" value="scope." />
+          </node>
+        </node>
+      </node>
+      <node concept="15bAme" id="3EttCnc6$0u" role="15bAlL">
+        <node concept="2DRihI" id="1ieETfbmCxp" role="15bAlk">
+          <node concept="2hgSXJ" id="1ieETfbmCXZ" role="1PaTwD">
+            <node concept="1PaTwC" id="1ieETfbmCY0" role="2hiFM$">
+              <node concept="15Ami3" id="1ieETfbmCY1" role="1PaTwD">
+                <node concept="37shsh" id="1ieETfbmCY2" role="15Aodc">
+                  <node concept="1dCxOk" id="1ieETfbmCY3" role="37shsm">
+                    <property role="1XweGW" value="7e450f4e-1ac3-41ef-a851-4598161bdb94" />
+                    <property role="1XxBO9" value="de.slisson.mps.tables" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="1ieETfbmCY4" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmCZs" role="1PaTwD">
+            <property role="3oM_SC" value="Various" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmD20" role="1PaTwD">
+            <property role="3oM_SC" value="fixes" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmD3n" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmD4J" role="1PaTwD">
+            <property role="3oM_SC" value="table" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmD9n" role="1PaTwD">
+            <property role="3oM_SC" value="end" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDan" role="1PaTwD">
+            <property role="3oM_SC" value="cells" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDd3" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDe5" role="1PaTwD">
+            <property role="3oM_SC" value="combination" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDf8" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDgc" role="1PaTwD">
+            <property role="3oM_SC" value="insert" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDhh" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDin" role="1PaTwD">
+            <property role="3oM_SC" value="deletion" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDki" role="1PaTwD">
+            <property role="3oM_SC" value="handlers" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDlq" role="1PaTwD">
+            <property role="3oM_SC" value="were" />
+          </node>
+          <node concept="3oM_SD" id="1ieETfbmDmz" role="1PaTwD">
+            <property role="3oM_SC" value="made." />
           </node>
         </node>
       </node>

@@ -368,7 +368,7 @@
                 <node concept="liA8E" id="651tS80xwp$" role="2OqNvi">
                   <ref role="37wK5l" to="6dpw:4UkcdCtMnDB" resolve="getElement" />
                   <node concept="3cmrfG" id="651tS80xwSO" role="37wK5m">
-                    <property role="3cmrfH" value="1" />
+                    <property role="3cmrfH" value="2" />
                   </node>
                   <node concept="3cmrfG" id="651tS80xyfr" role="37wK5m">
                     <property role="3cmrfH" value="2" />
@@ -435,12 +435,12 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="x3GzfZaj87" role="3cqZAp">
-        <node concept="2YIFZM" id="x3GzfZajHm" role="3clFbG">
+      <node concept="3clFbF" id="51mbhuBmLhX" role="3cqZAp">
+        <node concept="2YIFZM" id="51mbhuBmLDH" role="3clFbG">
           <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
           <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
-          <node concept="1bVj0M" id="x3GzfZajLb" role="37wK5m">
-            <node concept="3clFbS" id="x3GzfZajLc" role="1bW5cS">
+          <node concept="1bVj0M" id="51mbhuBmLIx" role="37wK5m">
+            <node concept="3clFbS" id="51mbhuBmLIy" role="1bW5cS">
               <node concept="3clFbF" id="651tS80xJ7t" role="3cqZAp">
                 <node concept="2OqwBi" id="651tS80xJku" role="3clFbG">
                   <node concept="37vLTw" id="651tS80xJ7s" role="2Oq$k0">
@@ -531,7 +531,7 @@
                 <node concept="liA8E" id="651tS80xYVt" role="2OqNvi">
                   <ref role="37wK5l" to="6dpw:4UkcdCtMnDB" resolve="getElement" />
                   <node concept="3cmrfG" id="651tS80xYVu" role="37wK5m">
-                    <property role="3cmrfH" value="1" />
+                    <property role="3cmrfH" value="2" />
                   </node>
                   <node concept="3cmrfG" id="651tS80xYVv" role="37wK5m">
                     <property role="3cmrfH" value="2" />
@@ -758,12 +758,12 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="x3GzfZaml0" role="3cqZAp">
-        <node concept="2YIFZM" id="x3GzfZamtP" role="3clFbG">
+      <node concept="3clFbF" id="51mbhuBm$_m" role="3cqZAp">
+        <node concept="2YIFZM" id="51mbhuBm$QS" role="3clFbG">
           <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
           <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
-          <node concept="1bVj0M" id="x3GzfZamwz" role="37wK5m">
-            <node concept="3clFbS" id="x3GzfZamw$" role="1bW5cS">
+          <node concept="1bVj0M" id="51mbhuBm$Yh" role="37wK5m">
+            <node concept="3clFbS" id="51mbhuBm$Yi" role="1bW5cS">
               <node concept="3clFbF" id="4XQ7xxoUyqh" role="3cqZAp">
                 <node concept="2OqwBi" id="4XQ7xxoUyqi" role="3clFbG">
                   <node concept="37vLTw" id="4XQ7xxoUyqj" role="2Oq$k0">
@@ -1045,23 +1045,23 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="x3GzfZanG3" role="3cqZAp">
-        <node concept="2YIFZM" id="x3GzfZanXd" role="3clFbG">
+      <node concept="3clFbF" id="51mbhuBmDuU" role="3cqZAp">
+        <node concept="2YIFZM" id="51mbhuBmDuV" role="3clFbG">
           <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
           <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
-          <node concept="1bVj0M" id="x3GzfZao51" role="37wK5m">
-            <node concept="3clFbS" id="x3GzfZao52" role="1bW5cS">
-              <node concept="3clFbF" id="4XQ7xxoWGui" role="3cqZAp">
-                <node concept="2OqwBi" id="4XQ7xxoWGuj" role="3clFbG">
-                  <node concept="37vLTw" id="4XQ7xxoWGuk" role="2Oq$k0">
+          <node concept="1bVj0M" id="51mbhuBmDuW" role="37wK5m">
+            <node concept="3clFbS" id="51mbhuBmDuX" role="1bW5cS">
+              <node concept="3clFbF" id="51mbhuBmDuY" role="3cqZAp">
+                <node concept="2OqwBi" id="51mbhuBmDuZ" role="3clFbG">
+                  <node concept="37vLTw" id="51mbhuBmDv0" role="2Oq$k0">
                     <ref role="3cqZAo" node="4XQ7xxoWGud" resolve="selectionManager" />
                   </node>
-                  <node concept="liA8E" id="4XQ7xxoWGul" role="2OqNvi">
+                  <node concept="liA8E" id="51mbhuBmDv1" role="2OqNvi">
                     <ref role="37wK5l" to="lwvz:~SelectionManager.setSelection(jetbrains.mps.openapi.editor.cells.EditorCell_Label,int)" resolve="setSelection" />
-                    <node concept="37vLTw" id="4XQ7xxoWGum" role="37wK5m">
+                    <node concept="37vLTw" id="51mbhuBmDv2" role="37wK5m">
                       <ref role="3cqZAo" node="4XQ7xxoWGtR" resolve="rowEndCell" />
                     </node>
-                    <node concept="3cmrfG" id="4XQ7xxoWGun" role="37wK5m">
+                    <node concept="3cmrfG" id="51mbhuBmDv3" role="37wK5m">
                       <property role="3cmrfH" value="0" />
                     </node>
                   </node>
@@ -1535,12 +1535,12 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="x3GzfZap8d" role="3cqZAp">
-        <node concept="2YIFZM" id="x3GzfZapj7" role="3clFbG">
+      <node concept="3clFbF" id="51mbhuBmNr4" role="3cqZAp">
+        <node concept="2YIFZM" id="51mbhuBmNBC" role="3clFbG">
           <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
           <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
-          <node concept="1bVj0M" id="x3GzfZapof" role="37wK5m">
-            <node concept="3clFbS" id="x3GzfZapog" role="1bW5cS">
+          <node concept="1bVj0M" id="51mbhuBmNGL" role="37wK5m">
+            <node concept="3clFbS" id="51mbhuBmNGM" role="1bW5cS">
               <node concept="3clFbF" id="6_jcnh_qxxK" role="3cqZAp">
                 <node concept="2OqwBi" id="6_jcnh_qxxL" role="3clFbG">
                   <node concept="37vLTw" id="6_jcnh_qxxM" role="2Oq$k0">
@@ -1829,12 +1829,12 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="x3GzfZaqqM" role="3cqZAp">
-        <node concept="2YIFZM" id="x3GzfZaq_G" role="3clFbG">
+      <node concept="3clFbF" id="51mbhuBmPpU" role="3cqZAp">
+        <node concept="2YIFZM" id="51mbhuBmPAu" role="3clFbG">
           <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
           <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
-          <node concept="1bVj0M" id="x3GzfZaqEO" role="37wK5m">
-            <node concept="3clFbS" id="x3GzfZaqEP" role="1bW5cS">
+          <node concept="1bVj0M" id="51mbhuBmPFB" role="37wK5m">
+            <node concept="3clFbS" id="51mbhuBmPFC" role="1bW5cS">
               <node concept="3clFbF" id="6_jcnh_rkn6" role="3cqZAp">
                 <node concept="2OqwBi" id="6_jcnh_rkn7" role="3clFbG">
                   <node concept="37vLTw" id="6_jcnh_rkn8" role="2Oq$k0">

@@ -7683,6 +7683,17 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="4WzSqRID1aE" role="3bR37C">
+          <node concept="3bR9La" id="4WzSqRID1aF" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4WzSqRID1aG" role="3bR37C">
+          <node concept="3bR9La" id="4WzSqRID1aH" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2NyZxKpUQhZ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -9744,9 +9755,6 @@
         <node concept="3Mxwew" id="5Jv8_iJNYPl" role="3MwsjC">
           <property role="3MwjfP" value="Enhancements for the MPS spell checker" />
         </node>
-      </node>
-      <node concept="m$_yC" id="5Jv8_iJO2NL" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4O0hKJpjIV3" resolve="jetbrains.mps.ide.devkit" />
       </node>
       <node concept="m$_yC" id="5Jv8_iJO3bn" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:3SKb_4Jujh$" resolve="jetbrains.mps.editor.spellcheck" />

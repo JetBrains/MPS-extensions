@@ -92,7 +92,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -123,11 +123,6 @@
       <property role="IQ2nx" value="1526659674582244782" />
       <property role="TrG5h" value="connectBoxesWithoutDummyPort" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="15UkGIdpWuH" role="1TKVEl">
-      <property role="IQ2nx" value="1259410080007702445" />
-      <property role="TrG5h" value="gridStyle" />
-      <ref role="AX2Wp" node="15UkGIdpWax" resolve="GridStyle" />
     </node>
     <node concept="1TJgyj" id="6actlYi6UMa" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -282,6 +277,11 @@
     </node>
     <node concept="PrWs8" id="4EOrrTBazxe" role="PzmwI">
       <ref role="PrY4T" node="4EOrrTBazwV" resolve="IDiagramElementsProvider" />
+    </node>
+    <node concept="1TJgyi" id="15UkGIdpWuH" role="1TKVEl">
+      <property role="IQ2nx" value="1259410080007702445" />
+      <property role="TrG5h" value="gridStyle" />
+      <ref role="AX2Wp" node="15UkGIdpWax" resolve="GridStyle" />
     </node>
   </node>
   <node concept="1TIwiD" id="5qgNcfDk8GC">

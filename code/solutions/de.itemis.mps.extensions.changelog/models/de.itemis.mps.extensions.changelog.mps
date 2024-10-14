@@ -76,13 +76,13 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="1094247804558289146" name="jetbrains.mps.lang.text.structure.BulletLine" flags="ng" index="2DRihI" />
-      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ng" index="2RT3b8">
+      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ngI" index="2RT3b8">
         <property id="5106752179536586491" name="indentation" index="2RT3bR" />
       </concept>
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -234,6 +234,72 @@
       <node concept="15ShDW" id="3YRpSuyWDXr" role="15bq2Y">
         <property role="15ShDY" value="Po4Z58IgBa/October" />
         <property role="15ShDw" value="2024" />
+      </node>
+      <node concept="15bAme" id="23hO2UA61k_" role="15bAlL">
+        <node concept="2DRihI" id="23hO2UA61kA" role="15bAlk">
+          <node concept="2hgSXJ" id="23hO2UA61sQ" role="1PaTwD">
+            <node concept="1PaTwC" id="23hO2UA61sR" role="2hiFM$">
+              <node concept="15Ami3" id="23hO2UA61sS" role="1PaTwD">
+                <node concept="37shsh" id="23hO2UA61sT" role="15Aodc">
+                  <node concept="1dCxOk" id="23hO2UA61sU" role="37shsm">
+                    <property role="1XweGW" value="fa13cc63-c476-4d46-9c96-d53670abe7bc" />
+                    <property role="1XxBO9" value="de.itemis.mps.editor.diagram" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="23hO2UA61sV" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61u3" role="1PaTwD">
+            <property role="3oM_SC" value="IDragPaletteEntry" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61u4" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61u5" role="1PaTwD">
+            <property role="3oM_SC" value="IPaletteEntry" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61JK" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61LB" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61MD" role="1PaTwD">
+            <property role="3oM_SC" value="mutually" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61NG" role="1PaTwD">
+            <property role="3oM_SC" value="exclusive" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61SY" role="1PaTwD">
+            <property role="3oM_SC" value="anymore" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61U3" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61V9" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61Wg" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61Wy" role="1PaTwD">
+            <property role="3oM_SC" value="implement" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61XF" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61XZ" role="1PaTwD">
+            <property role="3oM_SC" value="one" />
+          </node>
+          <node concept="3oM_SD" id="23hO2UA61Za" role="1PaTwD">
+            <property role="3oM_SC" value="class." />
+          </node>
+        </node>
       </node>
       <node concept="15bAme" id="3YRpSuyWDXs" role="15bAlL">
         <property role="15bAli" value="Po4Z58tnOE/added" />
@@ -1176,11 +1242,8 @@
           <node concept="3oM_SD" id="3E4xQE1Emcw" role="1PaTwD">
             <property role="3oM_SC" value="less" />
           </node>
-          <node concept="3oM_SD" id="2IcGFIaJTFc" role="1PaTwD">
-            <property role="3oM_SC" value="" />
-          </node>
-          <node concept="3oM_SD" id="2IcGFIaJTFd" role="1PaTwD">
-            <property role="3oM_SC" value="aggressively." />
+          <node concept="3oM_SD" id="3E4xQE1Emi6" role="1PaTwD">
+            <property role="3oM_SC" value="agressively." />
           </node>
         </node>
       </node>

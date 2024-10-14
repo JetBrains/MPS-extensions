@@ -77,7 +77,7 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -114,6 +114,7 @@
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -154,7 +155,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -163,7 +164,6 @@
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1225711141656" name="jetbrains.mps.baseLanguage.collections.structure.ListElementAccessExpression" flags="nn" index="1y4W85">
         <child id="1225711182005" name="list" index="1y566C" />
         <child id="1225711191269" name="index" index="1y58nS" />
@@ -246,16 +246,16 @@
                   </node>
                   <node concept="3zZkjj" id="5KX1OsDSYAp" role="2OqNvi">
                     <node concept="1bVj0M" id="5KX1OsDSYAq" role="23t8la">
-                      <node concept="Rh6nW" id="5KX1OsDSYAr" role="1bW2Oz">
+                      <node concept="gl6BB" id="7Z$RfkF7ILP" role="1bW2Oz">
                         <property role="TrG5h" value="it" />
-                        <node concept="2jxLKc" id="5KX1OsDSYAs" role="1tU5fm" />
+                        <node concept="2jxLKc" id="7Z$RfkF7ILQ" role="1tU5fm" />
                       </node>
                       <node concept="3clFbS" id="5KX1OsDSYAt" role="1bW5cS">
                         <node concept="3clFbF" id="5KX1OsDSYAu" role="3cqZAp">
                           <node concept="3fqX7Q" id="5KX1OsDSYAv" role="3clFbG">
                             <node concept="2OqwBi" id="5KX1OsDSYAw" role="3fr31v">
                               <node concept="37vLTw" id="5KX1OsDSYAx" role="2Oq$k0">
-                                <ref role="3cqZAo" node="5KX1OsDSYAr" resolve="it" />
+                                <ref role="3cqZAo" node="7Z$RfkF7ILP" resolve="it" />
                               </node>
                               <node concept="2qgKlT" id="5KX1OsDSYAy" role="2OqNvi">
                                 <ref role="37wK5l" to="tpcn:hEwIfAt" resolve="isSingular" />

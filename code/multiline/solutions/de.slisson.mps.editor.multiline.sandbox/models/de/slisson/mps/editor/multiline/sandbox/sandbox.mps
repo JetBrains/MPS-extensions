@@ -34,6 +34,7 @@
         <property id="6400175585350646855" name="text2" index="1g8w6e" />
         <child id="6400175585350646858" name="cls" index="1g8w63" />
       </concept>
+      <concept id="2197626119621228086" name="de.slisson.mps.editor.multiline.demolang.structure.Constant" flags="ng" index="3JmNXT" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -62,5 +63,6 @@
       <node concept="3Tm1VV" id="5zhZs$8X7Rt" role="1B3o_S" />
     </node>
   </node>
+  <node concept="3JmNXT" id="1TZykZLa_fS" />
 </model>
 

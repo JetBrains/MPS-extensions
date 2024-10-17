@@ -198,7 +198,7 @@ dependencies {
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0")
 
     batik ("org.apache.xmlgraphics:batik-svggen:1.18")
-    batik ("org.apache.xmlgraphics:batik-dom:1.17")
+    batik ("org.apache.xmlgraphics:batik-dom:1.18")
 }
 
 

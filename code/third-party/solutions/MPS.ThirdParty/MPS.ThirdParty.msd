@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="MPS.ThirdParty" uuid="39983771-4e9b-401b-a1a9-1da6c777c843" moduleVersion="0">
   <models>
-    <modelRoot type="java_classes" contentPath="${platform_lib}">
+    <modelRoot contentPath="${platform_lib}" type="java_classes">
       <sourceRoot location="app.jar" />
       <sourceRoot location="lib.jar" />
     </modelRoot>

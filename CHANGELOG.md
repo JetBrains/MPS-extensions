@@ -6,15 +6,20 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## October 2024
 
-### Fixed
+### Removed
 
-- *de.itemis.mps.editor.diagram*: *IDragPaletteEntry* and *IPaletteEntry* are not mutually exclusive anymore and can be implement by one class.
+- *de.itemis.mps.utils.serializer.xml*: The jdom2 and jaxen stubs were removed. Please use the corresponding stubs from MPS itself.
 
 ### Added
 
 - *com.mbeddr.mpsutil.editor.querylist*: The expression *queryListNode* was renamed to node and a new expression *index* can now be used to refer to the index of the current queried node.
 - *de.itemis.mps.spellcheck*: This new language enhances the MPS spell checker to support custom dictionaries declared in a language and also adds some dictionary-related intentions to a new intention group *Dictionary.*
 - *com.mbeddr.mpsutil.blutil.rt*: Provide useful scope class *UniqueElementScope* which ensures that there are no duplicates in the scope.
+
+### Fixed
+
+- *de.slisson.mps.tables*: Various fixes to table end cells in combination with insert and deletion handlers were made.
+- *de.itemis.mps.editor.diagram*: *IDragPaletteEntry* and *IPaletteEntry* are not mutually exclusive anymore and can be implement by one class.
 
 ## September 2024
 

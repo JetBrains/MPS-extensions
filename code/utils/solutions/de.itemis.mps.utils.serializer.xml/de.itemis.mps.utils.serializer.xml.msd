@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.mps.utils.serializer.xml" uuid="5454dbfd-2075-4de0-b85e-fa645eb6957e" moduleVersion="0">
   <models>
-    <modelRoot contentPath="${module}" type="default">
+    <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/lib" type="java_classes">
-      <sourceRoot location="jdom2-2.0.6.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/lib/lib" type="java_classes">
-      <sourceRoot location="jaxen-1.1.6.jar" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
-      <library location="${module}/lib/lib/jaxen-1.1.6.jar" />
-      <library location="${module}/lib/jdom2-2.0.6.jar" />
     </facet>
   </facets>
   <dependencies>
@@ -23,6 +15,7 @@
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
     <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
+    <dependency reexport="false">f647e48e-4568-4f4c-b48a-1546492c6a2e(org.jdom)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -68,6 +61,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
+    <module reference="f647e48e-4568-4f4c-b48a-1546492c6a2e(org.jdom)" version="0" />
   </dependencyVersions>
 </solution>
 

@@ -566,6 +566,88 @@
             <property role="3oM_SC" value="scope." />
           </node>
         </node>
+        <node concept="2DRihI" id="45$ooctvIe_" role="15bAlk">
+          <node concept="2hgSXJ" id="45$ooctvIeM" role="1PaTwD">
+            <node concept="1PaTwC" id="45$ooctvIeN" role="2hiFM$">
+              <node concept="15Ami3" id="45$ooctvIeO" role="1PaTwD">
+                <node concept="37shsh" id="45$ooctvIeP" role="15Aodc">
+                  <node concept="1dCxOk" id="45$ooctvIeQ" role="37shsm">
+                    <property role="1XweGW" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+                    <property role="1XxBO9" value="com.mbeddr.mpsutil.blutil" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="45$ooctvIeR" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIeV" role="1PaTwD">
+            <property role="3oM_SC" value="Extensions" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIeW" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIeX" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIeY" role="1PaTwD">
+            <property role="3oM_SC" value="language" />
+          </node>
+          <node concept="15Ami3" id="45$ooctvIf0" role="1PaTwD">
+            <node concept="37shsh" id="45$ooctvIf2" role="15Aodc">
+              <node concept="1dCxOk" id="45$ooctvIf8" role="37shsm">
+                <property role="1XweGW" value="daafa647-f1f7-4b0b-b096-69cd7c8408c0" />
+                <property role="1XxBO9" value="jetbrains.mps.baseLanguage.regexp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfd" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfe" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIff" role="1PaTwD">
+            <property role="3oM_SC" value="provided" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfg" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfh" role="1PaTwD">
+            <property role="3oM_SC" value="support" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfi" role="1PaTwD">
+            <property role="3oM_SC" value="most" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfj" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfk" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfl" role="1PaTwD">
+            <property role="3oM_SC" value="missing" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfm" role="1PaTwD">
+            <property role="3oM_SC" value="features" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfn" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfo" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfp" role="1PaTwD">
+            <property role="3oM_SC" value="Java" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfq" role="1PaTwD">
+            <property role="3oM_SC" value="regex" />
+          </node>
+          <node concept="3oM_SD" id="45$ooctvIfr" role="1PaTwD">
+            <property role="3oM_SC" value="language." />
+          </node>
+        </node>
       </node>
       <node concept="15bAme" id="3EttCnc6$0u" role="15bAlL">
         <node concept="2DRihI" id="1ieETfbmCxp" role="15bAlk">

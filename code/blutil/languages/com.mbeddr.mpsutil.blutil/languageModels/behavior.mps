@@ -19,6 +19,8 @@
     <import index="tp3r" ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="tpem" ref="r:00000000-0000-4000-0000-011c895902c2(jetbrains.mps.baseLanguage.dataFlow)" />
+    <import index="tpfs" ref="r:00000000-0000-4000-0000-011c89590514(jetbrains.mps.baseLanguage.regexp.behavior)" />
+    <import index="tpfo" ref="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -2507,6 +2509,337 @@
       <node concept="3Tqbb2" id="7zYevsNzT3O" role="3clF45">
         <ref role="ehGHo" to="tp25:1Cyzq4Pv$D9" resolve="IfInstanceOfVariable" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="58ackBphXow">
+    <property role="3GE5qa" value="regexp" />
+    <ref role="13h7C2" to="hba4:58ackBphWSb" resolve="OctalRegex" />
+    <node concept="13i0hz" id="hMuFYN0" role="13h7CS">
+      <property role="TrG5h" value="getString" />
+      <property role="13i0it" value="true" />
+      <ref role="13i0hy" to="tpfs:hMuDF1A" resolve="getString" />
+      <node concept="3clFbS" id="hMuFYN3" role="3clF47">
+        <node concept="3cpWs6" id="hMuG42j" role="3cqZAp">
+          <node concept="3cpWs3" id="hMuGdHg" role="3cqZAk">
+            <node concept="2OqwBi" id="hMuGf5d" role="3uHU7w">
+              <node concept="13iPFW" id="hMuGeUt" role="2Oq$k0" />
+              <node concept="3TrcHB" id="hMuGfXE" role="2OqNvi">
+                <ref role="3TsBF5" to="hba4:58ackBphWZx" resolve="value" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="hMuG6dZ" role="3uHU7B">
+              <property role="Xl_RC" value="\\0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="hMSxu4_" role="3clF46">
+        <property role="TrG5h" value="vars" />
+        <node concept="2I9FWS" id="hMSxu4A" role="1tU5fm">
+          <ref role="2I9WkF" to="tpfo:h5Tukr7" resolve="MatchParensRegexp" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="4fkVwtho0Pm" role="3clF45" />
+      <node concept="3Tm1VV" id="hMSW0KV" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="58ackBphXox" role="13h7CW">
+      <node concept="3clFbS" id="58ackBphXoy" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="58ackBplh94">
+    <property role="3GE5qa" value="regexp" />
+    <ref role="13h7C2" to="hba4:58ackBplgNG" resolve="HexadecimalRegex" />
+    <node concept="13hLZK" id="58ackBplh95" role="13h7CW">
+      <node concept="3clFbS" id="58ackBplh96" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="45$ooctjyiD" role="13h7CS">
+      <property role="TrG5h" value="getString" />
+      <ref role="13i0hy" to="tpfs:hMuDF1A" resolve="getString" />
+      <node concept="3Tm1VV" id="45$ooctjyiG" role="1B3o_S" />
+      <node concept="3clFbS" id="45$ooctjyiP" role="3clF47">
+        <node concept="3clFbF" id="7NPLlCCtrxp" role="3cqZAp">
+          <node concept="3cpWs3" id="58ackBplh9q" role="3clFbG">
+            <node concept="2OqwBi" id="58ackBplh9r" role="3uHU7w">
+              <node concept="13iPFW" id="58ackBplh9s" role="2Oq$k0" />
+              <node concept="3TrcHB" id="58ackBplh9t" role="2OqNvi">
+                <ref role="3TsBF5" to="hba4:58ackBplgNH" resolve="value" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="58ackBplh9u" role="3uHU7B">
+              <property role="Xl_RC" value="\\x" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="45$ooctjyiQ" role="3clF46">
+        <property role="TrG5h" value="vars" />
+        <node concept="2I9FWS" id="45$ooctjyiR" role="1tU5fm">
+          <ref role="2I9WkF" to="tpfo:h5Tukr7" resolve="MatchParensRegexp" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="45$ooctjyiS" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="58ackBpoihL">
+    <property role="3GE5qa" value="regexp" />
+    <ref role="13h7C2" to="hba4:58ackBpohUd" resolve="ControlCharacterRegex" />
+    <node concept="13hLZK" id="58ackBpoihM" role="13h7CW">
+      <node concept="3clFbS" id="58ackBpoihN" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="45$ooctjyBq" role="13h7CS">
+      <property role="TrG5h" value="getString" />
+      <ref role="13i0hy" to="tpfs:hMuDF1A" resolve="getString" />
+      <node concept="3Tm1VV" id="45$ooctjyBt" role="1B3o_S" />
+      <node concept="3clFbS" id="45$ooctjyBA" role="3clF47">
+        <node concept="3clFbF" id="7NPLlCCtrR5" role="3cqZAp">
+          <node concept="3cpWs3" id="58ackBpoii7" role="3clFbG">
+            <node concept="2OqwBi" id="58ackBpoii8" role="3uHU7w">
+              <node concept="13iPFW" id="58ackBpoii9" role="2Oq$k0" />
+              <node concept="3TrcHB" id="58ackBpoiia" role="2OqNvi">
+                <ref role="3TsBF5" to="hba4:58ackBpohUe" resolve="value" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="58ackBpoiib" role="3uHU7B">
+              <property role="Xl_RC" value="\\c" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="45$ooctjyBB" role="3clF46">
+        <property role="TrG5h" value="vars" />
+        <node concept="2I9FWS" id="45$ooctjyBC" role="1tU5fm">
+          <ref role="2I9WkF" to="tpfo:h5Tukr7" resolve="MatchParensRegexp" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="45$ooctjyBD" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7NPLlCCM4uv">
+    <property role="3GE5qa" value="regexp" />
+    <ref role="13h7C2" to="hba4:7NPLlCCM4be" resolve="UnicodeByNameRegex" />
+    <node concept="13hLZK" id="7NPLlCCM4uw" role="13h7CW">
+      <node concept="3clFbS" id="7NPLlCCM4ux" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="45$ooctjxbk" role="13h7CS">
+      <property role="TrG5h" value="getString" />
+      <ref role="13i0hy" to="tpfs:hMuDF1A" resolve="getString" />
+      <node concept="3Tm1VV" id="45$ooctjxbn" role="1B3o_S" />
+      <node concept="3clFbS" id="45$ooctjxbw" role="3clF47">
+        <node concept="3clFbF" id="7NPLlCCM4uP" role="3cqZAp">
+          <node concept="3cpWs3" id="7NPLlCCM6Kr" role="3clFbG">
+            <node concept="Xl_RD" id="7NPLlCCM6Ku" role="3uHU7w">
+              <property role="Xl_RC" value="}" />
+            </node>
+            <node concept="3cpWs3" id="7NPLlCCM4uQ" role="3uHU7B">
+              <node concept="Xl_RD" id="7NPLlCCM4uU" role="3uHU7B">
+                <property role="Xl_RC" value="\\N{" />
+              </node>
+              <node concept="2OqwBi" id="7NPLlCCM4uR" role="3uHU7w">
+                <node concept="13iPFW" id="7NPLlCCM4uS" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7NPLlCCM4uT" role="2OqNvi">
+                  <ref role="3TsBF5" to="hba4:7NPLlCCM4bf" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="45$ooctjxbx" role="3clF46">
+        <property role="TrG5h" value="vars" />
+        <node concept="2I9FWS" id="45$ooctjxby" role="1tU5fm">
+          <ref role="2I9WkF" to="tpfo:h5Tukr7" resolve="MatchParensRegexp" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="45$ooctjxbz" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="45$ooctlW7S">
+    <property role="3GE5qa" value="regexp" />
+    <ref role="13h7C2" to="hba4:45$ooctlVOQ" resolve="BackReferenceRegexp" />
+    <node concept="13i0hz" id="45$ooctlW8b" role="13h7CS">
+      <property role="TrG5h" value="getString" />
+      <property role="13i0it" value="true" />
+      <ref role="13i0hy" to="tpfs:hMuDF1A" resolve="getString" />
+      <node concept="3clFbS" id="45$ooctlW8c" role="3clF47">
+        <node concept="3cpWs6" id="45$ooctlW8d" role="3cqZAp">
+          <node concept="3cpWs3" id="45$ooctlW8e" role="3cqZAk">
+            <node concept="2OqwBi" id="45$ooctlW8f" role="3uHU7w">
+              <node concept="13iPFW" id="45$ooctlW8g" role="2Oq$k0" />
+              <node concept="3TrcHB" id="45$ooctlX9K" role="2OqNvi">
+                <ref role="3TsBF5" to="hba4:45$ooctlVOT" resolve="index" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="45$ooctlW8i" role="3uHU7B">
+              <property role="Xl_RC" value="\\" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="45$ooctlW8j" role="3clF46">
+        <property role="TrG5h" value="vars" />
+        <node concept="2I9FWS" id="45$ooctlW8k" role="1tU5fm">
+          <ref role="2I9WkF" to="tpfo:h5Tukr7" resolve="MatchParensRegexp" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="45$ooctlW8l" role="3clF45" />
+      <node concept="3Tm1VV" id="45$ooctlW8m" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="45$ooctlW7T" role="13h7CW">
+      <node concept="3clFbS" id="45$ooctlW7U" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="45$ooctqnYC">
+    <property role="3GE5qa" value="regexp" />
+    <ref role="13h7C2" to="hba4:h5P8g6K" resolve="GroupRegexp" />
+    <node concept="13i0hz" id="hMuN2Cf" role="13h7CS">
+      <property role="TrG5h" value="getString" />
+      <property role="13i0it" value="true" />
+      <ref role="13i0hy" to="tpfs:hMuDF1A" resolve="getString" />
+      <node concept="3clFbS" id="hMuN2Ci" role="3clF47">
+        <node concept="3cpWs6" id="hMuO18p" role="3cqZAp">
+          <node concept="3cpWs3" id="hMuIYDg" role="3cqZAk">
+            <node concept="Xl_RD" id="hMuIZ6A" role="3uHU7w">
+              <property role="Xl_RC" value=")" />
+            </node>
+            <node concept="3cpWs3" id="hMuIXp7" role="3uHU7B">
+              <node concept="Xl_RD" id="hMuIVID" role="3uHU7B">
+                <property role="Xl_RC" value="(" />
+              </node>
+              <node concept="2OqwBi" id="hMRUu_c" role="3uHU7w">
+                <node concept="2OqwBi" id="hMRUtXJ" role="2Oq$k0">
+                  <node concept="13iPFW" id="hMRUt$W" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="hMRUupi" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpfo:h5P8htV" resolve="expr" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="hMRUv4t" role="2OqNvi">
+                  <ref role="37wK5l" to="tpfs:hMuDF1A" resolve="getString" />
+                  <node concept="37vLTw" id="2BHiRxgmoRj" role="37wK5m">
+                    <ref role="3cqZAo" node="hMSxk58" resolve="vars" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="hMSxk58" role="3clF46">
+        <property role="TrG5h" value="vars" />
+        <node concept="2I9FWS" id="hMSxk59" role="1tU5fm">
+          <ref role="2I9WkF" to="tpfo:h5Tukr7" resolve="MatchParensRegexp" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="4fkVwtho0OO" role="3clF45" />
+      <node concept="3Tm1VV" id="hMSVV4h" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="45$ooctqnYD" role="13h7CW">
+      <node concept="3clFbS" id="45$ooctqnYE" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="45$ooctt7jx">
+    <property role="3GE5qa" value="regexp" />
+    <ref role="13h7C2" to="hba4:45$ooctt21m" resolve="NamedBackReferenceRegexp" />
+    <node concept="13i0hz" id="45$ooctt7k8" role="13h7CS">
+      <property role="TrG5h" value="getString" />
+      <property role="13i0it" value="true" />
+      <ref role="13i0hy" to="tpfs:hMuDF1A" resolve="getString" />
+      <node concept="3clFbS" id="45$ooctt7k9" role="3clF47">
+        <node concept="3cpWs6" id="45$ooctt7ka" role="3cqZAp">
+          <node concept="3cpWs3" id="46RgPUMrLT5" role="3cqZAk">
+            <node concept="Xl_RD" id="46RgPUMrLT8" role="3uHU7w">
+              <property role="Xl_RC" value="&gt;" />
+            </node>
+            <node concept="3cpWs3" id="45$ooctt7kb" role="3uHU7B">
+              <node concept="Xl_RD" id="45$ooctt7kf" role="3uHU7B">
+                <property role="Xl_RC" value="\\k&lt;" />
+              </node>
+              <node concept="2OqwBi" id="45$ooctt8ei" role="3uHU7w">
+                <node concept="2OqwBi" id="45$ooctt7kc" role="2Oq$k0">
+                  <node concept="13iPFW" id="45$ooctt7kd" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="45$ooctt82F" role="2OqNvi">
+                    <ref role="3Tt5mk" to="hba4:45$ooctt21r" resolve="group" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="46RgPUMrKCG" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="45$ooctt7kg" role="3clF46">
+        <property role="TrG5h" value="vars" />
+        <node concept="2I9FWS" id="45$ooctt7kh" role="1tU5fm">
+          <ref role="2I9WkF" to="tpfo:h5Tukr7" resolve="MatchParensRegexp" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="45$ooctt7ki" role="3clF45" />
+      <node concept="3Tm1VV" id="45$ooctt7kj" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="45$ooctt7jy" role="13h7CW">
+      <node concept="3clFbS" id="45$ooctt7jz" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="46RgPUMtyr9">
+    <property role="3GE5qa" value="regexp" />
+    <ref role="13h7C2" to="hba4:46RgPUMrFAF" resolve="NamedGroupRegexp" />
+    <node concept="13hLZK" id="46RgPUMtyra" role="13h7CW">
+      <node concept="3clFbS" id="46RgPUMtyrb" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="46RgPUMtzre" role="13h7CS">
+      <property role="TrG5h" value="getString" />
+      <property role="13i0it" value="true" />
+      <ref role="13i0hy" to="tpfs:hMuDF1A" resolve="getString" />
+      <node concept="3clFbS" id="46RgPUMtzrf" role="3clF47">
+        <node concept="3cpWs6" id="46RgPUMtzrg" role="3cqZAp">
+          <node concept="3cpWs3" id="46RgPUMtzrh" role="3cqZAk">
+            <node concept="Xl_RD" id="46RgPUMtzri" role="3uHU7w">
+              <property role="Xl_RC" value=")" />
+            </node>
+            <node concept="3cpWs3" id="46RgPUMt$Qi" role="3uHU7B">
+              <node concept="3cpWs3" id="46RgPUMtBGH" role="3uHU7B">
+                <node concept="Xl_RD" id="46RgPUMtBGK" role="3uHU7w">
+                  <property role="Xl_RC" value="&gt;" />
+                </node>
+                <node concept="3cpWs3" id="46RgPUMtBbi" role="3uHU7B">
+                  <node concept="Xl_RD" id="46RgPUMtzrk" role="3uHU7B">
+                    <property role="Xl_RC" value="(?&lt;" />
+                  </node>
+                  <node concept="2OqwBi" id="46RgPUMtBnV" role="3uHU7w">
+                    <node concept="13iPFW" id="46RgPUMtBcl" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="46RgPUMtBEz" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="46RgPUMtzrl" role="3uHU7w">
+                <node concept="2OqwBi" id="46RgPUMtzrm" role="2Oq$k0">
+                  <node concept="13iPFW" id="46RgPUMtzrn" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="46RgPUMtzro" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpfo:h5P8htV" resolve="expr" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="46RgPUMtzrp" role="2OqNvi">
+                  <ref role="37wK5l" to="tpfs:hMuDF1A" resolve="getString" />
+                  <node concept="37vLTw" id="46RgPUMtzrq" role="37wK5m">
+                    <ref role="3cqZAo" node="46RgPUMtzrr" resolve="vars" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="46RgPUMtzrr" role="3clF46">
+        <property role="TrG5h" value="vars" />
+        <node concept="2I9FWS" id="46RgPUMtzrs" role="1tU5fm">
+          <ref role="2I9WkF" to="tpfo:h5Tukr7" resolve="MatchParensRegexp" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="46RgPUMtzrt" role="3clF45" />
+      <node concept="3Tm1VV" id="46RgPUMtzru" role="1B3o_S" />
     </node>
   </node>
 </model>

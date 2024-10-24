@@ -1183,7 +1183,7 @@
       <property role="IQ2ns" value="4711998325899141211" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="20kJfa" value="group" />
-      <ref role="20lvS9" to="tpfo:h5Tukr7" resolve="MatchParensRegexp" />
+      <ref role="20lvS9" node="46RgPUMrFAF" resolve="NamedGroupRegexp" />
     </node>
   </node>
   <node concept="1TIwiD" id="45$ooctvlkR">
@@ -1193,6 +1193,19 @@
     <property role="R4oN_" value="independent, non-capturing group" />
     <property role="34LRSv" value="(?&gt;" />
     <ref role="1TJDcQ" to="tpfo:h6dSM65" resolve="LookRegexp" />
+  </node>
+  <node concept="1TIwiD" id="46RgPUMrFAF">
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="R4oN_" value="named group" />
+    <property role="TrG5h" value="NamedGroupRegexp" />
+    <property role="3GE5qa" value="regexp" />
+    <property role="34LRSv" value="(?&lt;" />
+    <property role="EcuMT" value="4735327607202953643" />
+    <ref role="1TJDcQ" to="tpfo:h5P8g6K" resolve="ParensRegexp" />
+    <node concept="PrWs8" id="46RgPUMrIWU" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 

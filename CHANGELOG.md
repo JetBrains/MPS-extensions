@@ -6,9 +6,9 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## October 2024
 
-### Removed
+### Fixed
 
-- *de.itemis.mps.utils.serializer.xml*: The jdom2 and jaxen stubs were removed. Please use the corresponding stubs from MPS itself.
+- *de.itemis.mps.editor.diagram*: *IDragPaletteEntry* and *IPaletteEntry* are not mutually exclusive anymore and can be implement by one class.
 
 ### Added
 
@@ -16,11 +16,6 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.spellcheck*: This new language enhances the MPS spell checker to support custom dictionaries declared in a language and also adds some dictionary-related intentions to a new intention group *Dictionary.*
 - *com.mbeddr.mpsutil.blutil.rt*: Provide useful scope class *UniqueElementScope* which ensures that there are no duplicates in the scope.
 - *com.mbeddr.mpsutil.blutil*: Extensions to the language *jetbrains.mps.baseLanguage.regexp* are now provided to support most of the missing features of the Java regex language.
-
-### Fixed
-
-- *de.slisson.mps.tables*: Various fixes to table end cells in combination with insert and deletion handlers were made.
-- *de.itemis.mps.editor.diagram*: *IDragPaletteEntry* and *IPaletteEntry* are not mutually exclusive anymore and can be implement by one class.
 
 ## September 2024
 

@@ -17,7 +17,7 @@ import java.time.LocalDateTime
 apply plugin: 'download-jbr'
 
 downloadJbr {
-    jbrVersion = '17.0.8.1-b1000.32'
+    jbrVersion = '21.0.5-b631.8'
 }
 
 // detect if we are in a CI build

@@ -8067,9 +8067,51 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="nnzoijD28J" role="3bR37C">
-          <node concept="3bR9La" id="nnzoijD28K" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:HHlBn9$wJ2" resolve="org.jdom" />
+        <node concept="1SiIV0" id="6860Y5A04yg" role="3bR37C">
+          <node concept="1BurEX" id="6860Y5A04yh" role="1SiIV1">
+            <node concept="398BVA" id="6860Y5A04y1" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6860Y5A04y2" role="iGT6I">
+                <property role="2Ry0Am" value="utils" />
+                <node concept="2Ry0Ak" id="6860Y5A04y3" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6860Y5A04y4" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml" />
+                    <node concept="2Ry0Ak" id="6860Y5A04y5" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6860Y5A04y6" role="2Ry0An">
+                        <property role="2Ry0Am" value="lib" />
+                        <node concept="2Ry0Ak" id="6860Y5A04y7" role="2Ry0An">
+                          <property role="2Ry0Am" value="jaxen-1.1.6.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6860Y5A04yv" role="3bR37C">
+          <node concept="1BurEX" id="6860Y5A04yw" role="1SiIV1">
+            <node concept="398BVA" id="6860Y5A04yi" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6860Y5A04yj" role="iGT6I">
+                <property role="2Ry0Am" value="utils" />
+                <node concept="2Ry0Ak" id="6860Y5A04yk" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6860Y5A04yl" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml" />
+                    <node concept="2Ry0Ak" id="6860Y5A04ym" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6860Y5A04yn" role="2Ry0An">
+                        <property role="2Ry0Am" value="jdom2-2.0.6.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -16648,6 +16690,30 @@
       <node concept="m$_wl" id="6860Y5A0_cI" role="39821P">
         <ref role="m_rDy" node="6860Y5_ZW8e" resolve="de.itemis.mps.utils" />
         <node concept="pUk6x" id="3D0nl1ssJJV" role="pUk7w" />
+        <node concept="398223" id="6860Y5A0_J4" role="39821P">
+          <node concept="3_J27D" id="6860Y5A0_J5" role="Nbhlr">
+            <node concept="3Mxwew" id="6860Y5A0_J8" role="3MwsjC">
+              <property role="3MwjfP" value="lib" />
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="6860Y5A0_Ja" role="39821P">
+            <node concept="398BVA" id="6860Y5A0_Je" role="2HvfZ0">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6860Y5A0_ZV" role="iGT6I">
+                <property role="2Ry0Am" value="utils" />
+                <node concept="2Ry0Ak" id="6860Y5A0A00" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6860Y5A0A05" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml" />
+                    <node concept="2Ry0Ak" id="6860Y5A0A0a" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="m$_wl" id="4hvHh3QWqH0" role="39821P">
         <ref role="m_rDy" node="4hvHh3QW$Eh" resolve="de.itemis.mps.extensions.build" />

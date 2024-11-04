@@ -5306,6 +5306,9 @@
       <node concept="m$_yC" id="6bkzxtWPKB0" role="m$_yJ">
         <ref role="m$_y1" node="6bkzxtWP$OT" resolve="de.itemis.stubs.batik" />
       </node>
+      <node concept="m$_yC" id="4wBLq3XRMhu" role="m$_yJ">
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
+      </node>
     </node>
     <node concept="2G$12M" id="4be$WTb1AxY" role="3989C9">
       <property role="TrG5h" value="de.itemis.mps.editor.diagram" />
@@ -5811,6 +5814,11 @@
         <node concept="1SiIV0" id="6bkzxtWPUa_" role="3bR37C">
           <node concept="3bR9La" id="6bkzxtWPUaA" role="1SiIV1">
             <ref role="3bR37D" node="6bkzxtWPDx1" resolve="de.itemis.stubs.batik" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4wBLq3XRLHG" role="3bR37C">
+          <node concept="3bR9La" id="4wBLq3XRLHH" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
       </node>
@@ -11746,6 +11754,11 @@
             <ref role="3bR37D" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4wBLq3XRLW5" role="3bR37C">
+          <node concept="3bR9La" id="4wBLq3XRLW6" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5Hs" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -14136,6 +14149,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4wBLq3XRM3_" role="3bR37C">
+          <node concept="3bR9La" id="4wBLq3XRM3A" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
       </node>

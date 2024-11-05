@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.mps.utils.serializer.xml" uuid="5454dbfd-2075-4de0-b85e-fa645eb6957e" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot type="java_classes" contentPath="${module}/lib">
+    <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="jdom2-2.0.6.jar" />
     </modelRoot>
-    <modelRoot type="java_classes" contentPath="${module}/lib/lib">
+    <modelRoot contentPath="${module}/lib/lib" type="java_classes">
       <sourceRoot location="jaxen-1.1.6.jar" />
     </modelRoot>
   </models>

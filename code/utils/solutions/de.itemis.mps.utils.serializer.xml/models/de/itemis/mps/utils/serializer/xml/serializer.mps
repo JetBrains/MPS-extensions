@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="5454dbfd-2075-4de0-b85e-fa645eb6957e/r:5bc020f2-590a-4818-ae68-fa483b92486f(de.itemis.mps.utils.serializer.xml/de.itemis.mps.utils.serializer.xml.serializer)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
@@ -17,12 +18,12 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="i51s" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="n2xr" ref="5454dbfd-2075-4de0-b85e-fa645eb6957e/java:org.jdom2.output(de.itemis.mps.utils.serializer.xml/)" />
-    <import index="gphs" ref="5454dbfd-2075-4de0-b85e-fa645eb6957e/java:org.jdom2(de.itemis.mps.utils.serializer.xml/)" />
-    <import index="qq98" ref="5454dbfd-2075-4de0-b85e-fa645eb6957e/java:org.jdom2.input(de.itemis.mps.utils.serializer.xml/)" />
     <import index="e8bb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
     <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
+    <import index="n2xr" ref="5454dbfd-2075-4de0-b85e-fa645eb6957e/java:org.jdom2.output(de.itemis.mps.utils.serializer.xml/)" />
+    <import index="gphs" ref="5454dbfd-2075-4de0-b85e-fa645eb6957e/java:org.jdom2(de.itemis.mps.utils.serializer.xml/)" />
+    <import index="qq98" ref="5454dbfd-2075-4de0-b85e-fa645eb6957e/java:org.jdom2.input(de.itemis.mps.utils.serializer.xml/)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -4135,8 +4136,8 @@
       <node concept="3Tm1VV" id="3BoyKeConlA" role="1B3o_S" />
       <node concept="17QB3L" id="3BoyKeConlB" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="5u_UbmyaeL" role="jymVt" />
     <node concept="3Tm1VV" id="5u_Ubmy4fd" role="1B3o_S" />
+    <node concept="2tJIrI" id="5u_UbmyaeL" role="jymVt" />
   </node>
   <node concept="312cEu" id="78QQ3NsHha3">
     <property role="TrG5h" value="XMLStorage" />
@@ -4422,8 +4423,8 @@
         <ref role="3uigEE" to="gphs:~JDOMException" resolve="JDOMException" />
       </node>
     </node>
-    <node concept="2tJIrI" id="78QQ3NsHDuP" role="jymVt" />
     <node concept="3Tm1VV" id="78QQ3NsHha4" role="1B3o_S" />
+    <node concept="2tJIrI" id="78QQ3NsHDuP" role="jymVt" />
   </node>
   <node concept="312cEu" id="4Wn4fzjFtOm">
     <property role="TrG5h" value="SyncHelper" />

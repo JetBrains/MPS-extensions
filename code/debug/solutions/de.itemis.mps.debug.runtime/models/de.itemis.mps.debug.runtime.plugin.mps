@@ -21,10 +21,8 @@
     <import index="y93e" ref="r:64204879-20e9-45e0-aa9c-21e16ba032f2(de.itemis.mps.debug.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="dp1x" ref="r:84719e1a-99f6-4297-90ba-8ad2a947fa4a(jetbrains.mps.ide.datatransfer)" />
-    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
-    <import index="rdi9" ref="r:c30772cf-6faa-4379-900e-6719e180568e(de.itemis.mps.editor.celllayout.runtime.plugin)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
-    <import index="ksba" ref="r:12d1fcfd-d198-4520-8b28-436d7e8a8ae6(jetbrains.mps.console.plugin)" />
+    <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -66,9 +64,6 @@
         <reference id="6193305307616734326" name="action" index="1bYAoF" />
       </concept>
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
-      <concept id="1208528650020" name="jetbrains.mps.lang.plugin.structure.ToolType" flags="in" index="1xUVSX">
-        <reference id="1208529537963" name="tool" index="1xYkEM" />
-      </concept>
       <concept id="1217252042208" name="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration" flags="ng" index="1DS2jV">
         <reference id="1217252646389" name="key" index="1DUlNI" />
       </concept>
@@ -79,9 +74,6 @@
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
       <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
-      <concept id="681855071694758165" name="jetbrains.mps.lang.plugin.standalone.structure.GetToolInProjectOperation" flags="nn" index="LR4U6">
-        <reference id="681855071694758166" name="tool" index="LR4U5" />
-      </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
@@ -153,7 +145,6 @@
       <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ngI" index="2WEnae">
         <reference id="1205756909548" name="member" index="2WH_rO" />
       </concept>
-      <concept id="1205769149993" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation" flags="nn" index="2XshWL" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
@@ -255,9 +246,6 @@
         <node concept="3cpWs8" id="7_uCKm_nUfo" role="3cqZAp">
           <node concept="3cpWsn" id="7_uCKm_nUfp" role="3cpWs9">
             <property role="TrG5h" value="ct" />
-            <node concept="1xUVSX" id="4qohHcBHtVW" role="1tU5fm">
-              <ref role="1xYkEM" to="ksba:2$nlLZbVXWa" resolve="ConsoleTool" />
-            </node>
             <node concept="2OqwBi" id="4qohHcBHr1y" role="33vP2m">
               <node concept="2YIFZM" id="4qohHcBHp8W" role="2Oq$k0">
                 <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
@@ -269,9 +257,15 @@
                   </node>
                 </node>
               </node>
-              <node concept="LR4U6" id="4qohHcBHrW0" role="2OqNvi">
-                <ref role="LR4U5" to="ksba:2$nlLZbVXWa" resolve="ConsoleTool" />
+              <node concept="liA8E" id="V_BJyw1cJZ" role="2OqNvi">
+                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
+                <node concept="3VsKOn" id="V_BJyw1dWX" role="37wK5m">
+                  <ref role="3VsUkX" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
+                </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="V_BJyw1aUQ" role="1tU5fm">
+              <ref role="3uigEE" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
             </node>
           </node>
         </node>
@@ -285,8 +279,8 @@
               <node concept="37vLTw" id="7_uCKm_nUf_" role="2Oq$k0">
                 <ref role="3cqZAo" node="7_uCKm_nUfp" resolve="ct" />
               </node>
-              <node concept="2XshWL" id="4qohHcBHv2y" role="2OqNvi">
-                <ref role="2WH_rO" to="ksba:2$nlLZc0tw7" resolve="getCurrentEditableTab" />
+              <node concept="liA8E" id="V_BJyw1g3C" role="2OqNvi">
+                <ref role="37wK5l" to="qgo0:5VzHAnbXFEZ" resolve="getCurrentEditableTab" />
               </node>
             </node>
           </node>
@@ -475,25 +469,28 @@
           </node>
         </node>
         <node concept="3cpWs8" id="4qohHcBHxhI" role="3cqZAp">
-          <node concept="3cpWsn" id="4qohHcBHxhJ" role="3cpWs9">
+          <node concept="3cpWsn" id="V_BJyw1gOQ" role="3cpWs9">
             <property role="TrG5h" value="ct" />
-            <node concept="1xUVSX" id="4qohHcBHxhK" role="1tU5fm">
-              <ref role="1xYkEM" to="ksba:2$nlLZbVXWa" resolve="ConsoleTool" />
-            </node>
-            <node concept="2OqwBi" id="4qohHcBHxhL" role="33vP2m">
-              <node concept="2YIFZM" id="4qohHcBHxhM" role="2Oq$k0">
+            <node concept="2OqwBi" id="V_BJyw1gOR" role="33vP2m">
+              <node concept="2YIFZM" id="V_BJyw1gOS" role="2Oq$k0">
                 <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
                 <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                <node concept="2OqwBi" id="4qohHcBHxhN" role="37wK5m">
-                  <node concept="2WthIp" id="4qohHcBHxhO" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="4qohHcBHxhP" role="2OqNvi">
+                <node concept="2OqwBi" id="V_BJyw1gOT" role="37wK5m">
+                  <node concept="2WthIp" id="V_BJyw1gOU" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="V_BJyw1gOV" role="2OqNvi">
                     <ref role="2WH_rO" node="7_uCKm_iqTJ" resolve="mpsProject" />
                   </node>
                 </node>
               </node>
-              <node concept="LR4U6" id="4qohHcBHxhQ" role="2OqNvi">
-                <ref role="LR4U5" to="ksba:2$nlLZbVXWa" resolve="ConsoleTool" />
+              <node concept="liA8E" id="V_BJyw1gOW" role="2OqNvi">
+                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
+                <node concept="3VsKOn" id="V_BJyw1gOX" role="37wK5m">
+                  <ref role="3VsUkX" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
+                </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="V_BJyw1gOY" role="1tU5fm">
+              <ref role="3uigEE" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
             </node>
           </node>
         </node>
@@ -505,10 +502,10 @@
             </node>
             <node concept="2OqwBi" id="7_uCKm_izgr" role="33vP2m">
               <node concept="37vLTw" id="7_uCKm_izgs" role="2Oq$k0">
-                <ref role="3cqZAo" node="4qohHcBHxhJ" resolve="ct" />
+                <ref role="3cqZAo" node="V_BJyw1gOQ" resolve="ct" />
               </node>
-              <node concept="2XshWL" id="4qohHcBH$6z" role="2OqNvi">
-                <ref role="2WH_rO" to="ksba:2$nlLZc0tw7" resolve="getCurrentEditableTab" />
+              <node concept="liA8E" id="V_BJyw1iAQ" role="2OqNvi">
+                <ref role="37wK5l" to="qgo0:5VzHAnbXFEZ" resolve="getCurrentEditableTab" />
               </node>
             </node>
           </node>

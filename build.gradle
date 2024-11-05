@@ -95,7 +95,7 @@ configurations {
 dependencies {
     // For published releases adjust ext.mpsMajor and ext.mpsMinor above and use this dependency:
     // mps "com.jetbrains:mps:$mpsVersion"
-    mps "com.jetbrains.mps:mps-prerelease:241.19072.10175"
+    mps "com.jetbrains.mps:mps-prerelease:241.19072.10583"
 }
 
 repositories {
@@ -179,7 +179,7 @@ configurations {
 }
 
 dependencies {
-    ant_lib "org.apache.ant:ant-junit:1.10.14"
+    ant_lib "org.apache.ant:ant-junit:1.10.15"
 
     def elkVersion = "0.9.1"
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion")
@@ -193,12 +193,12 @@ dependencies {
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.31.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.37.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0")
 
-    batik ("org.apache.xmlgraphics:batik-svggen:1.17")
-    batik ("org.apache.xmlgraphics:batik-dom:1.17")
+    batik ("org.apache.xmlgraphics:batik-svggen:1.18")
+    batik ("org.apache.xmlgraphics:batik-dom:1.18")
 }
 
 
@@ -366,10 +366,10 @@ configurations {
 }
 dependencies {
     junitAnt 'junit:junit:4.13.2'
-    junitAnt('org.apache.ant:ant-junit:1.10.14') {
+    junitAnt('org.apache.ant:ant-junit:1.10.15') {
         transitive = false
     }
-    junitAnt('org.apache.ant:ant-junit4:1.10.14') {
+    junitAnt('org.apache.ant:ant-junit4:1.10.15') {
         transitive = false
     }
 }
@@ -527,6 +527,8 @@ def usedPluginRoots = [
         new File(mpsHomeDir, 'plugins/mps-vcs'),
         new File(mpsHomeDir, 'plugins/mps-git4idea'),
         new File(mpsHomeDir, 'plugins/mps-httpsupport'),
+        new File(mpsHomeDir, 'plugins/mps-testing'),
+        new File(mpsHomeDir, 'plugins/mps-spellcheck')
 ]
 
 tasks.register('migrate', MpsMigrate) {

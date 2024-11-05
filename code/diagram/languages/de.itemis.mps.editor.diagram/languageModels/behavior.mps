@@ -132,7 +132,7 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
         <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
@@ -193,7 +193,7 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -211,7 +211,7 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
@@ -257,7 +257,7 @@
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ng" index="2c44t0">
+      <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ngI" index="2c44t0">
         <child id="1196350785111" name="expression" index="2c44t1" />
       </concept>
       <concept id="1196350785117" name="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" flags="ng" index="2c44tb" />
@@ -384,7 +384,7 @@
         <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
@@ -10249,51 +10249,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="74e51Ji6cHy" role="3cqZAp">
-                  <node concept="2OqwBi" id="74e51Ji6duY" role="3clFbG">
-                    <node concept="37vLTw" id="74e51Ji6cHw" role="2Oq$k0">
-                      <ref role="3cqZAo" node="74e51Ji6bH0" resolve="buttons" />
-                    </node>
-                    <node concept="TSZUe" id="74e51Ji6egN" role="2OqNvi">
-                      <node concept="2ShNRf" id="74e51Ji6eKA" role="25WWJ7">
-                        <node concept="1pGfFk" id="74e51Ji6eKB" role="2ShVmc">
-                          <ref role="37wK5l" to="r3rm:4bryhcrFn2E" resolve="MoveToViewerButton" />
-                          <node concept="2OqwBi" id="74e51Ji6eKC" role="37wK5m">
-                            <node concept="37vLTw" id="74e51Ji6eKD" role="2Oq$k0">
-                              <ref role="3cqZAo" to="r3rm:2ZU2kH0_fvO" resolve="editorContext" />
-                              <node concept="2c44te" id="74e51Ji6PvX" role="lGtFl">
-                                <node concept="2ShNRf" id="74e51Ji6PBU" role="2c44t1">
-                                  <node concept="3zrR0B" id="74e51Ji6Q5s" role="2ShVmc">
-                                    <node concept="3Tqbb2" id="74e51Ji6Q5u" role="3zrR0E">
-                                      <ref role="ehGHo" to="tpc2:gTQ80DJ" resolve="ConceptFunctionParameter_editorContext" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="liA8E" id="74e51Ji6eKE" role="2OqNvi">
-                              <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
-                            </node>
-                          </node>
-                          <node concept="10M0yZ" id="74e51Ji6eKF" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
-                            <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
-                          </node>
-                          <node concept="37vLTw" id="74e51Ji6eKG" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
-                            <node concept="2c44te" id="74e51Ji7g2u" role="lGtFl">
-                              <node concept="2pJPEk" id="74e51Jj5ymK" role="2c44t1">
-                                <node concept="2pJPED" id="74e51Jj5ymM" role="2pJPEn">
-                                  <ref role="2pJxaS" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
                 <node concept="3clFbF" id="74e51Ji6la9" role="3cqZAp">
                   <node concept="2OqwBi" id="74e51Ji6m0N" role="3clFbG">
                     <node concept="37vLTw" id="74e51Ji6la7" role="2Oq$k0">
@@ -10508,6 +10463,64 @@
                             <node concept="2c44te" id="74e51Jj5zCo" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5zCp" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5zCq" role="2pJPEn">
+                                  <ref role="2pJxaS" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4sEIQIBNL$4" role="3cqZAp">
+                  <node concept="2OqwBi" id="4sEIQIBNL$5" role="3clFbG">
+                    <node concept="37vLTw" id="4sEIQIBNL$6" role="2Oq$k0">
+                      <ref role="3cqZAo" node="74e51Ji6bH0" resolve="buttons" />
+                    </node>
+                    <node concept="TSZUe" id="4sEIQIBNL$7" role="2OqNvi">
+                      <node concept="2ShNRf" id="4sEIQIBNL$8" role="25WWJ7">
+                        <node concept="1pGfFk" id="4sEIQIBNL$9" role="2ShVmc">
+                          <property role="373rjd" value="true" />
+                          <ref role="37wK5l" to="r3rm:4sEIQIBu97K" resolve="ToggleGridDiagramButton" />
+                          <node concept="10M0yZ" id="4sEIQIBNL$c" role="37wK5m">
+                            <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+                            <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
+                          </node>
+                          <node concept="37vLTw" id="4sEIQIBNL$e" role="37wK5m">
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
+                            <node concept="2c44te" id="4sEIQIBNL$f" role="lGtFl">
+                              <node concept="2pJPEk" id="4sEIQIBNL$g" role="2c44t1">
+                                <node concept="2pJPED" id="4sEIQIBNL$h" role="2pJPEn">
+                                  <ref role="2pJxaS" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4sEIQIBNLF8" role="3cqZAp">
+                  <node concept="2OqwBi" id="4sEIQIBNLF9" role="3clFbG">
+                    <node concept="37vLTw" id="4sEIQIBNLFa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="74e51Ji6bH0" resolve="buttons" />
+                    </node>
+                    <node concept="TSZUe" id="4sEIQIBNLFb" role="2OqNvi">
+                      <node concept="2ShNRf" id="4sEIQIBNLFc" role="25WWJ7">
+                        <node concept="1pGfFk" id="4sEIQIBNLFd" role="2ShVmc">
+                          <property role="373rjd" value="true" />
+                          <ref role="37wK5l" to="r3rm:4sEIQIBMnTa" resolve="ToggleGridSnappingDiagramButton" />
+                          <node concept="10M0yZ" id="4sEIQIBNLFg" role="37wK5m">
+                            <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+                            <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
+                          </node>
+                          <node concept="37vLTw" id="4sEIQIBNLFi" role="37wK5m">
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
+                            <node concept="2c44te" id="4sEIQIBNLFj" role="lGtFl">
+                              <node concept="2pJPEk" id="4sEIQIBNLFk" role="2c44t1">
+                                <node concept="2pJPED" id="4sEIQIBNLFl" role="2pJPEn">
                                   <ref role="2pJxaS" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
                                 </node>
                               </node>

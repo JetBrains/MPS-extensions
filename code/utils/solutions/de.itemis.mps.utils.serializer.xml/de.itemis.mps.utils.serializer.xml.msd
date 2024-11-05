@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.mps.utils.serializer.xml" uuid="5454dbfd-2075-4de0-b85e-fa645eb6957e" moduleVersion="0">
   <models>
-    <modelRoot contentPath="${module}" type="default">
+    <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${module}/lib" type="java_classes">
+    <modelRoot type="java_classes" contentPath="${module}/lib">
       <sourceRoot location="jdom2-2.0.6.jar" />
     </modelRoot>
-    <modelRoot contentPath="${module}/lib/lib" type="java_classes">
+    <modelRoot type="java_classes" contentPath="${module}/lib/lib">
       <sourceRoot location="jaxen-1.1.6.jar" />
     </modelRoot>
   </models>
@@ -48,7 +48,7 @@
     <language slang="l:d4615e3b-d671-4ba9-af01-2b78369b0ba7:jetbrains.mps.lang.pattern" version="2" />
     <language slang="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" version="5" />
     <language slang="l:3ecd7c84-cde3-45de-886c-135ecc69b742:jetbrains.mps.lang.refactoring" version="0" />
-    <language slang="l:982eb8df-2c96-4bd7-9963-11712ea622e5:jetbrains.mps.lang.resources" version="2" />
+    <language slang="l:982eb8df-2c96-4bd7-9963-11712ea622e5:jetbrains.mps.lang.resources" version="3" />
     <language slang="l:0eddeefa-c2d6-4437-bc2c-de50fd4ce470:jetbrains.mps.lang.script" version="1" />
     <language slang="l:13744753-c81f-424a-9c1b-cf8943bf4e86:jetbrains.mps.lang.sharedConcepts" version="0" />
     <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="19" />

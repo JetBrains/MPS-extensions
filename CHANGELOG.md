@@ -4,10 +4,37 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## October 2024
+
+### Added
+
+- *com.mbeddr.mpsutil.editor.querylist*: The expression *queryListNode* was renamed to node and a new expression *index* can now be used to refer to the index of the current queried node.
+- *de.itemis.mps.spellcheck*: This new language enhances the MPS spell checker to support custom dictionaries declared in a language and also adds some dictionary-related intentions to a new intention group *Dictionary.*
+- *com.mbeddr.mpsutil.blutil.rt*: Provide useful scope class *UniqueElementScope* which ensures that there are no duplicates in the scope.
+- *com.mbeddr.mpsutil.blutil*: Extensions to the language *jetbrains.mps.baseLanguage.regexp* are now provided to support most of the missing features of the Java regex language.
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: *IDragPaletteEntry* and *IPaletteEntry* are not mutually exclusive anymore and can be implement by one class.
+- *de.slisson.mps.tables*: Various fixes to table end cells in combination with insert and deletion handlers were made.
+
+### Changed
+
+- *de.itemis.mps.editor.celllayout*: The maximum number of layout operations in *LayoutWatchdog#DEFAULT_MAX_LAYOUTING_OPERATIONS* can now be set e.g. by setting the constant in an application plugin.
+
+## September 2024
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: Diagrams can now show a grid that is used for snapping elements to it. It can be configured (visibility, grid snapping, grid color/size) in the editor definition of the diagram itself.
+- A module stub solution *MPS.Kotlin* was added to support referencing Kotlin classes and libraries from MPS.ThirdParty.
+
 ## August 2024
 
 ### Added
 
+- *de.itemis.mps.editor.diagram*: A new option for diagrams was added to allow boxes to set a new required minimum size.
+- *de.slisson.mps.tables*: Sticky table cells were added. Add the style sheet item *horizontal-sticky-cell* or *vertical-sticky-cell* *to* *a* *table* *cell* *to* *activate* *the* *feature.*
 - *de.slisson.mps.editor.multiline*: A new cell *constant multi-line* can be used to create dynamic read-only text that spans multiple lines.
 
 ### Fixed
@@ -18,6 +45,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Changed
 
 - *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.
+- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less agressively.
 
 ## July 2024
 

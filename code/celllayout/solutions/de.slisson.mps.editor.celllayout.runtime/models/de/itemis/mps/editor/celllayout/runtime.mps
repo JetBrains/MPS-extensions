@@ -28,7 +28,6 @@
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="hhnx" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime(MPS.Editor/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
   <registry>
@@ -223,7 +222,6 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
-      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
@@ -3259,7 +3257,7 @@
             <ref role="37wK5l" node="1rb1605ZW7n" resolve="enter" />
             <ref role="1Pybhc" node="7ndnMNtaNgY" resolve="LayoutWatchdog" />
             <node concept="10M0yZ" id="7MHoS6exkvs" role="37wK5m">
-              <ref role="3cqZAo" node="4_lXtZPi$ck" resolve="DEFAULT_TIMEOUT" />
+              <ref role="3cqZAo" node="4_lXtZPi$ck" resolve="DEFAULT_MAX_LAYOUTING_OPERATIONS" />
               <ref role="1PxDUh" node="7ndnMNtaNgY" resolve="LayoutWatchdog" />
             </node>
             <node concept="1bVj0M" id="7MHoS6exkvt" role="37wK5m">
@@ -3434,7 +3432,7 @@
             <ref role="1Pybhc" node="7ndnMNtaNgY" resolve="LayoutWatchdog" />
             <node concept="10M0yZ" id="3bNiYZ6Pn30" role="37wK5m">
               <ref role="1PxDUh" node="7ndnMNtaNgY" resolve="LayoutWatchdog" />
-              <ref role="3cqZAo" node="4_lXtZPi$ck" resolve="DEFAULT_TIMEOUT" />
+              <ref role="3cqZAo" node="4_lXtZPi$ck" resolve="DEFAULT_MAX_LAYOUTING_OPERATIONS" />
             </node>
             <node concept="1bVj0M" id="3bNiYZ6Pn31" role="37wK5m">
               <node concept="3clFbS" id="3bNiYZ6Pn32" role="1bW5cS">
@@ -15135,8 +15133,7 @@
   <node concept="312cEu" id="7ndnMNtaNgY">
     <property role="TrG5h" value="LayoutWatchdog" />
     <node concept="Wx3nA" id="4_lXtZPi$ck" role="jymVt">
-      <property role="TrG5h" value="DEFAULT_TIMEOUT" />
-      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="DEFAULT_MAX_LAYOUTING_OPERATIONS" />
       <node concept="10Oyi0" id="4_lXtZPi$9m" role="1tU5fm" />
       <node concept="3Tm1VV" id="4_lXtZPi$ua" role="1B3o_S" />
       <node concept="3cmrfG" id="4_lXtZPi$bt" role="33vP2m">
@@ -15145,7 +15142,7 @@
     </node>
     <node concept="2tJIrI" id="4_lXtZPizZk" role="jymVt" />
     <node concept="Wx3nA" id="7ndnMNtaNzD" role="jymVt">
-      <property role="TrG5h" value="myTimeout" />
+      <property role="TrG5h" value="myLayoutingCountdown" />
       <property role="3TUv4t" value="false" />
       <node concept="10Oyi0" id="7ndnMNtaNkv" role="1tU5fm" />
       <node concept="3Tm1VV" id="1voHHAbHxdz" role="1B3o_S" />
@@ -15164,25 +15161,7 @@
             <property role="TrG5h" value="prevTimeout" />
             <node concept="10Oyi0" id="1rb1605ZTmR" role="1tU5fm" />
             <node concept="37vLTw" id="1rb1605ZTph" role="33vP2m">
-              <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myTimeout" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="3IzYpDNCNy2" role="3cqZAp">
-          <node concept="3cpWsn" id="3IzYpDNCNy5" role="3cpWs9">
-            <property role="TrG5h" value="startTime" />
-            <node concept="3cpWsb" id="3IzYpDNCNEu" role="1tU5fm" />
-            <node concept="3cmrfG" id="3IzYpDNCNDv" role="33vP2m">
-              <property role="3cmrfH" value="0" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="3IzYpDNCNF1" role="3cqZAp">
-          <node concept="3cpWsn" id="3IzYpDNCNF2" role="3cpWs9">
-            <property role="TrG5h" value="endTime" />
-            <node concept="3cpWsb" id="3IzYpDNCNF3" role="1tU5fm" />
-            <node concept="3cmrfG" id="3IzYpDNCNF4" role="33vP2m">
-              <property role="3cmrfH" value="0" />
+              <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myLayoutingCountdown" />
             </node>
           </node>
         </node>
@@ -15194,22 +15173,7 @@
                   <ref role="3cqZAo" node="1rb1605ZThT" resolve="timeoutValue" />
                 </node>
                 <node concept="37vLTw" id="1rb1605ZTsu" role="37vLTJ">
-                  <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myTimeout" />
-                </node>
-              </node>
-            </node>
-            <node concept="1X3_iC" id="2hEgJWEvr2W" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="3IzYpDNCNQq" role="8Wnug">
-                <node concept="37vLTI" id="3IzYpDNCNXb" role="3clFbG">
-                  <node concept="2YIFZM" id="3IzYpDNCO4j" role="37vLTx">
-                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
-                    <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                  </node>
-                  <node concept="37vLTw" id="3IzYpDNCNQo" role="37vLTJ">
-                    <ref role="3cqZAo" node="3IzYpDNCNy5" resolve="startTime" />
-                  </node>
+                  <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myLayoutingCountdown" />
                 </node>
               </node>
             </node>
@@ -15226,61 +15190,13 @@
           </node>
           <node concept="1wplmZ" id="6xWWuhBwRe6" role="1zxBo6">
             <node concept="3clFbS" id="1rb1605ZV0C" role="1wplMD">
-              <node concept="1X3_iC" id="2hEgJWEvr49" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="3clFbF" id="4U82Y3z2xow" role="8Wnug">
-                  <node concept="2OqwBi" id="4U82Y3z2xot" role="3clFbG">
-                    <node concept="10M0yZ" id="4U82Y3z2xou" role="2Oq$k0">
-                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                      <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                    </node>
-                    <node concept="liA8E" id="4U82Y3z2xov" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                      <node concept="3cpWs3" id="3IzYpDNCPof" role="37wK5m">
-                        <node concept="1eOMI4" id="3IzYpDNCP_o" role="3uHU7w">
-                          <node concept="3cpWsd" id="3IzYpDNCPNE" role="1eOMHV">
-                            <node concept="37vLTw" id="3IzYpDNCPTi" role="3uHU7w">
-                              <ref role="3cqZAo" node="3IzYpDNCNy5" resolve="startTime" />
-                            </node>
-                            <node concept="2YIFZM" id="3ISeRDV87CW" role="3uHU7B">
-                              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                              <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="3cpWs3" id="3IzYpDNCOS8" role="3uHU7B">
-                          <node concept="3cpWs3" id="4U82Y3z2xyO" role="3uHU7B">
-                            <node concept="Xl_RD" id="4U82Y3z2xr6" role="3uHU7B">
-                              <property role="Xl_RC" value="Watchdog: " />
-                            </node>
-                            <node concept="1eOMI4" id="4U82Y3z2xGj" role="3uHU7w">
-                              <node concept="3cpWsd" id="4U82Y3z2xJN" role="1eOMHV">
-                                <node concept="37vLTw" id="4U82Y3z2xOe" role="3uHU7B">
-                                  <ref role="3cqZAo" node="4_lXtZPi$ck" resolve="DEFAULT_TIMEOUT" />
-                                </node>
-                                <node concept="37vLTw" id="4U82Y3z2xGk" role="3uHU7w">
-                                  <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myTimeout" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Xl_RD" id="3IzYpDNCOTM" role="3uHU7w">
-                            <property role="Xl_RC" value="        " />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="3clFbF" id="1rb1605ZVnF" role="3cqZAp">
                 <node concept="37vLTI" id="1rb1605ZVuH" role="3clFbG">
                   <node concept="37vLTw" id="1rb1605ZVzz" role="37vLTx">
                     <ref role="3cqZAo" node="1rb1605ZTmV" resolve="prevTimeout" />
                   </node>
                   <node concept="37vLTw" id="1rb1605ZVnE" role="37vLTJ">
-                    <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myTimeout" />
+                    <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myLayoutingCountdown" />
                   </node>
                 </node>
               </node>
@@ -15347,7 +15263,7 @@
               <property role="3cmrfH" value="0" />
             </node>
             <node concept="37vLTw" id="4_lXtZPiynX" role="3uHU7B">
-              <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myTimeout" />
+              <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myLayoutingCountdown" />
             </node>
           </node>
         </node>
@@ -15384,7 +15300,7 @@
           </node>
           <node concept="3clFbC" id="7HQUZCSGsTb" role="3clFbw">
             <node concept="37vLTw" id="7ndnMNtaNM7" role="3uHU7B">
-              <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myTimeout" />
+              <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myLayoutingCountdown" />
             </node>
             <node concept="3cmrfG" id="7ndnMNtaNTt" role="3uHU7w">
               <property role="3cmrfH" value="0" />
@@ -15398,7 +15314,7 @@
             <node concept="3clFbF" id="7ndnMNtaNBS" role="3cqZAp">
               <node concept="3uO5VW" id="7ndnMNtaNI$" role="3clFbG">
                 <node concept="37vLTw" id="7ndnMNtaNIA" role="2$L3a6">
-                  <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myTimeout" />
+                  <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myLayoutingCountdown" />
                 </node>
               </node>
             </node>
@@ -15408,7 +15324,7 @@
               <property role="3cmrfH" value="0" />
             </node>
             <node concept="37vLTw" id="7HQUZCSGt0i" role="3uHU7B">
-              <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myTimeout" />
+              <ref role="3cqZAo" node="7ndnMNtaNzD" resolve="myLayoutingCountdown" />
             </node>
           </node>
         </node>
@@ -17472,7 +17388,7 @@
             <ref role="1Pybhc" node="7ndnMNtaNgY" resolve="LayoutWatchdog" />
             <node concept="10M0yZ" id="4_lXtZPi_jy" role="37wK5m">
               <ref role="1PxDUh" node="7ndnMNtaNgY" resolve="LayoutWatchdog" />
-              <ref role="3cqZAo" node="4_lXtZPi$ck" resolve="DEFAULT_TIMEOUT" />
+              <ref role="3cqZAo" node="4_lXtZPi$ck" resolve="DEFAULT_MAX_LAYOUTING_OPERATIONS" />
             </node>
             <node concept="1bVj0M" id="4_lXtZPi_ns" role="37wK5m">
               <property role="3yWfEV" value="true" />

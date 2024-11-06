@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="9kut" ref="r:c515cf95-0439-4376-8bc5-13a56baa0293(de.itemis.model.simple.demo.children.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -28,6 +29,7 @@
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
+      <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
@@ -41,6 +43,16 @@
     <ref role="1XX52x" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
     <node concept="3EZMnI" id="3pc485Wdv$7" role="2wV5jI">
       <node concept="2iRkQZ" id="3pc485Wdv$8" role="2iSdaV" />
+      <node concept="3EZMnI" id="7wzAiypMRKZ" role="3EZMnx">
+        <node concept="VPM3Z" id="7wzAiypMRL1" role="3F10Kt" />
+        <node concept="3F0ifn" id="7wzAiypMRL5" role="3EZMnx">
+          <property role="3F0ifm" value="Name: " />
+        </node>
+        <node concept="3F0A7n" id="7wzAiypMRLa" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="7wzAiypMRL4" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="3pc485Vr3CA" role="3EZMnx">
         <node concept="3F0ifn" id="3pc485Vr3CH" role="3EZMnx">
           <property role="3F0ifm" value="Singleton:" />

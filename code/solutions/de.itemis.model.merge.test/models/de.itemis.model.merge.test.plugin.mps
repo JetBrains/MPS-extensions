@@ -137,6 +137,7 @@
       </concept>
       <concept id="1912777765298266446" name="de.itemis.model.merge.structure.EmptyMergeItem" flags="ng" index="1oluLK" />
       <concept id="1912777765298163335" name="de.itemis.model.merge.structure.ModelMerge" flags="ng" index="1olOeT">
+        <property id="3110765452006840876" name="partialPolicy" index="1phRau" />
         <child id="1912777765298260982" name="items" index="1olsr8" />
         <child id="2222162468665533253" name="lang" index="3WPhuS" />
       </concept>
@@ -685,6 +686,7 @@
   </node>
   <node concept="1olOeT" id="3xLnOvEDNj_">
     <property role="TrG5h" value="CollectionChildDiamondMerge" />
+    <property role="1phRau" value="true" />
     <node concept="1oluLK" id="3xLnOvEDNjA" role="1olsr8" />
     <node concept="1olsrb" id="3xLnOvEDNjO" role="1olsr8">
       <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />

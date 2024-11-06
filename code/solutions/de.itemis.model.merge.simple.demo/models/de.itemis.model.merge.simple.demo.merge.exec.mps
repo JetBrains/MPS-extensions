@@ -289,5 +289,33 @@
       </node>
     </node>
   </node>
+  <node concept="poArf" id="7wzAiyq8OUx">
+    <property role="TrG5h" value="ModelMergeWithDefaultActionsExec" />
+    <ref role="pot50" to="2y6h:7wzAiyq8GF4" resolve="ModelMergeWithDefaultActions" />
+    <node concept="1Xw6AR" id="7wzAiyq8OUy" role="ppIIL">
+      <node concept="1dCxOl" id="7wzAiyq8Phd" role="1XwpL7">
+        <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
+        <node concept="1j_P7g" id="7wzAiyq8Phe" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftSingltonChild" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="7wzAiyq8OU$" role="ppbcs">
+      <node concept="1dCxOl" id="7wzAiyq8Phi" role="1XwpL7">
+        <property role="1XweGQ" value="r:e0e8921e-c4c0-4e4c-a825-af1f615827e5" />
+        <node concept="1j_P7g" id="7wzAiyq8Phj" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightSingltonChild" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="7wzAiyq8Phn" role="2JagXQ">
+      <node concept="1dCxOl" id="7wzAiyq8Phs" role="1XwpL7">
+        <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
+        <node concept="1j_P7g" id="7wzAiyq8Pht" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

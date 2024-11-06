@@ -4028,7 +4028,7 @@
           </node>
           <node concept="3_1$Yv" id="6QnTwqHg_xo" role="3_9lra">
             <node concept="Xl_RD" id="6QnTwqHgA8L" role="3_1BAH">
-              <property role="Xl_RC" value="Inport A does not occur as first item in merged inport list" />
+              <property role="Xl_RC" value="InPort A does not occur as first item in merged inPort list" />
             </node>
           </node>
         </node>
@@ -4044,7 +4044,7 @@
           </node>
           <node concept="3_1$Yv" id="6QnTwqHgD3F" role="3_9lra">
             <node concept="Xl_RD" id="6QnTwqHgDF4" role="3_1BAH">
-              <property role="Xl_RC" value="Inport B does not occur as second item in merged inport list" />
+              <property role="Xl_RC" value="InPort B does not occur as second item in merged inPort list" />
             </node>
           </node>
         </node>
@@ -4060,7 +4060,7 @@
           </node>
           <node concept="3_1$Yv" id="6QnTwqHlbaW" role="3_9lra">
             <node concept="Xl_RD" id="6QnTwqHlbaX" role="3_1BAH">
-              <property role="Xl_RC" value="Inport C does not occur as third item in merged inport list" />
+              <property role="Xl_RC" value="InPort C does not occur as third item in merged inPort list" />
             </node>
           </node>
         </node>
@@ -4076,7 +4076,7 @@
           </node>
           <node concept="3_1$Yv" id="6QnTwqHgDFl" role="3_9lra">
             <node concept="Xl_RD" id="6QnTwqHgE90" role="3_1BAH">
-              <property role="Xl_RC" value="Inport D does not occur as fourth item in merged inport list" />
+              <property role="Xl_RC" value="InPort D does not occur as fourth item in merged inPort list" />
             </node>
           </node>
         </node>
@@ -4092,7 +4092,7 @@
           </node>
           <node concept="3_1$Yv" id="6QnTwqHlbJs" role="3_9lra">
             <node concept="Xl_RD" id="6QnTwqHlbJt" role="3_1BAH">
-              <property role="Xl_RC" value="Inport E does not occur as fifth item in merged inport list" />
+              <property role="Xl_RC" value="InPort E does not occur as fifth item in merged inPort list" />
             </node>
           </node>
         </node>

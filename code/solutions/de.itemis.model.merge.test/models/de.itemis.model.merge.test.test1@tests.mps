@@ -180,6 +180,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
+      </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
       <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ig" index="230_S" />
@@ -433,6 +437,14 @@
       </node>
     </node>
     <node concept="1qefOq" id="3EHNiwz2jtW" role="1SKRRt">
+      <node concept="15s5l7" id="kewvTAGoId" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
+        <property role="huDt6" value="Error: multi-child policy not completely defined" />
+      </node>
+      <node concept="15s5l7" id="kewvTAGoHJ" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
+        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
+      </node>
       <node concept="1olOeT" id="3EHNiwz2jtX" role="1qenE9">
         <property role="TrG5h" value="CheckForMissingMergePolicyForProperty" />
         <node concept="1oluLK" id="3EHNiwz2jtY" role="1olsr8" />
@@ -1629,106 +1641,6 @@
   <node concept="1lH9Xt" id="1trrptaBsHT">
     <property role="TrG5h" value="DiamondChildTest" />
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <node concept="1qefOq" id="1trrptaE8Aa" role="1SKRRt">
-      <node concept="1olOeT" id="1trrptaE8Bd" role="1qenE9">
-        <property role="TrG5h" value="DiamondMerge" />
-        <node concept="1oluLK" id="1trrptaE8Be" role="1olsr8" />
-        <node concept="1oluLK" id="1trrptaE8Bf" role="1olsr8" />
-        <node concept="1olsrb" id="1trrptaE8Bg" role="1olsr8">
-          <ref role="24zOxU" to="14sb:7TOowlgsaNJ" resolve="Interface1" />
-          <node concept="3JNno8" id="1trrptaE8BU" role="3JN1Yi">
-            <ref role="3Ze0ni" to="14sb:1trrptaBsmP" resolve="children" />
-            <node concept="3Z5p37" id="1trrptaE8BW" role="3JNnoR">
-              <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
-              <node concept="3JHL42" id="4S51TVFkvzf" role="3Z4xbE" />
-            </node>
-          </node>
-          <node concept="230_S" id="3PLTv5jEff8" role="21DrV">
-            <node concept="3clFbS" id="3PLTv5jEff9" role="2VODD2">
-              <node concept="3clFbF" id="3PLTv5jEfjD" role="3cqZAp">
-                <node concept="Xl_RD" id="3PLTv5jEfjC" role="3clFbG">
-                  <property role="Xl_RC" value="ç" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1oluLK" id="1trrptaE8Bj" role="1olsr8" />
-        <node concept="1olsrb" id="1trrptaE8Bk" role="1olsr8">
-          <ref role="24zOxU" to="14sb:7TOowlgsaNK" resolve="Interface2" />
-          <node concept="3JNno8" id="1trrptaE8C3" role="3JN1Yi">
-            <ref role="3Ze0ni" to="14sb:1trrptaBsmP" resolve="children" />
-            <node concept="3Z5p37" id="1trrptaFThx" role="3JNnoR">
-              <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
-              <node concept="3JN9zx" id="1trrptaFUWv" role="3Z4xbE" />
-            </node>
-          </node>
-          <node concept="230_S" id="3PLTv5jEfsQ" role="21DrV">
-            <node concept="3clFbS" id="3PLTv5jEfsR" role="2VODD2">
-              <node concept="3clFbF" id="3PLTv5jEfsS" role="3cqZAp">
-                <node concept="Xl_RD" id="3PLTv5jEfsT" role="3clFbG">
-                  <property role="Xl_RC" value="ç" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1oluLK" id="1trrptaE8Bn" role="1olsr8" />
-        <node concept="1oluLK" id="1trrptaE8Bo" role="1olsr8" />
-        <node concept="1olsrb" id="1trrptaE8Bp" role="1olsr8">
-          <ref role="24zOxU" to="14sb:7TOowlgsdak" resolve="Bottom" />
-          <node concept="7CXmI" id="1trrptaE8Bq" role="lGtFl">
-            <node concept="1TM$A" id="1trrptaE8Br" role="7EUXB">
-              <node concept="2PYRI3" id="582YV7z6RWk" role="3lydEf">
-                <ref role="39XzEq" to="sz2a:7TOowlgVJ6e" />
-              </node>
-            </node>
-          </node>
-          <node concept="230_S" id="3PLTv5jEfxz" role="21DrV">
-            <node concept="3clFbS" id="3PLTv5jEfx$" role="2VODD2">
-              <node concept="3clFbF" id="3PLTv5jEfx_" role="3cqZAp">
-                <node concept="Xl_RD" id="3PLTv5jEfxA" role="3clFbG">
-                  <property role="Xl_RC" value="ç" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="pHN19" id="1trrptaE8Bt" role="3WPhuS">
-          <node concept="2V$Bhx" id="1trrptaE8Bu" role="2V$M_3">
-            <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
-            <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
-          </node>
-        </node>
-        <node concept="1olsrb" id="6CwG2k81n_T" role="1olsr8">
-          <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />
-        </node>
-        <node concept="1olsrb" id="6CwG2k81n_U" role="1olsr8">
-          <ref role="24zOxU" to="14sb:57$6ALrLfRh" resolve="OtherData" />
-        </node>
-        <node concept="1olsrb" id="6CwG2k81n_V" role="1olsr8">
-          <ref role="24zOxU" to="14sb:jF$CuWiLYJ" resolve="Payload2" />
-        </node>
-        <node concept="1olsrb" id="6CwG2k81n_W" role="1olsr8">
-          <ref role="24zOxU" to="14sb:jF$CuWiLEs" resolve="Payload" />
-        </node>
-        <node concept="1olsrb" id="6CwG2k81n_X" role="1olsr8">
-          <ref role="24zOxU" to="14sb:7Q5WRnfZ$gs" resolve="Statement" />
-        </node>
-        <node concept="1olsrb" id="6CwG2k81n_Y" role="1olsr8">
-          <ref role="24zOxU" to="14sb:7Q5WRnfZJ8c" resolve="EmptyStatement" />
-        </node>
-        <node concept="1olsrb" id="6CwG2k81n_Z" role="1olsr8">
-          <ref role="24zOxU" to="14sb:7Q5WRnfZe3K" resolve="Diamonds" />
-        </node>
-        <node concept="1olsrb" id="6CwG2k81nA0" role="1olsr8">
-          <ref role="24zOxU" to="14sb:jF$CuWiLVm" resolve="Payload1" />
-        </node>
-        <node concept="1olsrb" id="6CwG2k81nA1" role="1olsr8">
-          <ref role="24zOxU" to="14sb:7TOowlgscST" resolve="Top" />
-        </node>
-      </node>
-    </node>
     <node concept="1qefOq" id="1trrptaE6WZ" role="1SKRRt">
       <node concept="1olOeT" id="1trrptaE6XG" role="1qenE9">
         <property role="TrG5h" value="DiamondMerge" />
@@ -2008,6 +1920,14 @@
       </node>
     </node>
     <node concept="1qefOq" id="1trrptaG5Lz" role="1SKRRt">
+      <node concept="15s5l7" id="kewvTAGdjS" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
+        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
+      </node>
+      <node concept="15s5l7" id="kewvTAGdgA" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
+        <property role="huDt6" value="Error: multi-child policy not completely defined" />
+      </node>
       <node concept="1olOeT" id="1trrptaG5Ng" role="1qenE9">
         <property role="TrG5h" value="IntermediateOverride" />
         <node concept="1oluLK" id="1trrptaG5Nh" role="1olsr8" />

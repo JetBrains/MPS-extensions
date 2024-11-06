@@ -59,10 +59,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
-        <child id="1081256993305" name="classType" index="2ZW6by" />
-        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
-      </concept>
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -133,6 +129,9 @@
       </concept>
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
+      </concept>
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
       <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
         <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
@@ -208,13 +207,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="hG_e7_dlJr" role="3cqZAp">
-          <node concept="2ZW3vV" id="hG_e7_dlJs" role="1gVkn0">
-            <node concept="3Tqbb2" id="hG_e7_dlJt" role="2ZW6by">
-              <ref role="ehGHo" to="7e3e:W4mNzjZ9yL" resolve="Annotatable" />
-            </node>
-            <node concept="37vLTw" id="hG_e7_dlJu" role="2ZW6bz">
+        <node concept="1gVbGN" id="6Ltuup4wZy6" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTA1IVT" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTA1IbR" role="2Oq$k0">
               <ref role="3cqZAo" node="hG_e7_dlJn" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTA1J9T" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTA1Kdn" role="37wK5m">
+                <ref role="35c_gD" to="7e3e:W4mNzjZ9yL" resolve="Annotatable" />
+              </node>
             </node>
           </node>
         </node>
@@ -421,13 +423,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="4LLXBGbTodM" role="3cqZAp">
-          <node concept="2ZW3vV" id="4LLXBGbTodN" role="1gVkn0">
-            <node concept="3Tqbb2" id="4LLXBGbTodO" role="2ZW6by">
-              <ref role="ehGHo" to="7e3e:W4mNzjZ9yL" resolve="Annotatable" />
-            </node>
-            <node concept="37vLTw" id="4LLXBGbTodP" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTAGq$L" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTAGq$M" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTAGq$N" role="2Oq$k0">
               <ref role="3cqZAo" node="4LLXBGbTodI" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTAGq$O" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTAGq$P" role="37wK5m">
+                <ref role="35c_gD" to="7e3e:W4mNzjZ9yL" resolve="Annotatable" />
+              </node>
             </node>
           </node>
         </node>

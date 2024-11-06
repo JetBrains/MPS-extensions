@@ -12,6 +12,11 @@
         <property id="3499368519007574817" name="data" index="2pctC1" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
     <language id="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" name="de.itemis.model.simple.demo.children">
       <concept id="3912520324585631286" name="de.itemis.model.simple.demo.children.structure.ChildKeeper" flags="ng" index="1d83UR">
         <child id="3912520324598248753" name="optionalChild" index="1aoamK" />
@@ -20,6 +25,7 @@
     </language>
   </registry>
   <node concept="1d83UR" id="3pc485Vw3Jr">
+    <property role="TrG5h" value="ChildKeeperleft" />
     <node concept="2pctC0" id="78fCHIEYtBX" role="1d83UQ">
       <property role="2pctC1" value="lala" />
     </node>

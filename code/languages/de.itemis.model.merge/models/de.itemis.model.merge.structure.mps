@@ -66,12 +66,15 @@
     <property role="EcuMT" value="1912777765298163335" />
     <property role="TrG5h" value="ModelMerge" />
     <property role="19KtqR" value="true" />
-    <node concept="1TJgyj" id="1EbzjT2R$JQ" role="1TKVEi">
-      <property role="IQ2ns" value="1912777765298260982" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="items" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1EbzjT2R$JU" resolve="ModelMergeItem" />
+    <node concept="1TJgyi" id="2GFEb9MrdCG" role="1TKVEl">
+      <property role="IQ2nx" value="3110765452006840876" />
+      <property role="TrG5h" value="partialPolicy" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5Ql4oYC0__d" role="1TKVEl">
+      <property role="IQ2nx" value="6743315325753907533" />
+      <property role="TrG5h" value="useDefaults" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyj" id="1VmHfRy0Ud5" role="1TKVEi">
       <property role="IQ2ns" value="2222162468665533253" />
@@ -87,6 +90,19 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="tp25:3TEgbCBRn3N" resolve="LanguageRefExpression" />
     </node>
+    <node concept="1TJgyj" id="kewvT_SiLF" role="1TKVEi">
+      <property role="IQ2ns" value="364371549494520939" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="defaultAction" />
+      <ref role="20lvS9" node="3P8JlgmMYnQ" resolve="MergerDefaultAction" />
+    </node>
+    <node concept="1TJgyj" id="1EbzjT2R$JQ" role="1TKVEi">
+      <property role="IQ2ns" value="1912777765298260982" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1EbzjT2R$JU" resolve="ModelMergeItem" />
+    </node>
     <node concept="PrWs8" id="4mbxYkJdXnB" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -94,6 +110,9 @@
   <node concept="1TIwiD" id="1EbzjT2R$JP">
     <property role="EcuMT" value="1912777765298260981" />
     <property role="TrG5h" value="MergePolicy" />
+    <node concept="PrWs8" id="1EbzjT2R$JV" role="PzmwI">
+      <ref role="PrY4T" node="1EbzjT2R$JU" resolve="ModelMergeItem" />
+    </node>
     <node concept="1TJgyj" id="3BP4DuXu_FH" role="1TKVEi">
       <property role="IQ2ns" value="4176264672384277229" />
       <property role="20kJfa" value="conceptRef" />
@@ -127,8 +146,10 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3PLTv5jwPx8" resolve="ReferencePolicy" />
     </node>
-    <node concept="PrWs8" id="1EbzjT2R$JV" role="PzmwI">
-      <ref role="PrY4T" node="1EbzjT2R$JU" resolve="ModelMergeItem" />
+    <node concept="1TJgyi" id="5xmpdH7cpzi" role="1TKVEl">
+      <property role="IQ2nx" value="6365386016289822930" />
+      <property role="TrG5h" value="useDefaults" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="PlHQZ" id="1EbzjT2R$JU">
@@ -513,6 +534,67 @@
     <property role="3GE5qa" value="parameters" />
     <property role="R4oN_" value="Right Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3P8JlgmMYnQ">
+    <property role="EcuMT" value="4415987603494135286" />
+    <property role="TrG5h" value="MergerDefaultAction" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="zgvH9CGvYJ" role="1TKVEi">
+      <property role="IQ2ns" value="635146989623967663" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="propertyAction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+    </node>
+    <node concept="1TJgyj" id="zgvH9CGxS0" role="1TKVEi">
+      <property role="IQ2ns" value="635146989623975424" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="singleChildAction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+    </node>
+    <node concept="1TJgyj" id="zgvH9CGyNu" role="1TKVEi">
+      <property role="IQ2ns" value="635146989623979230" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="optionalChildAction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+    </node>
+    <node concept="1TJgyj" id="zgvH9CGzp5" role="1TKVEi">
+      <property role="IQ2ns" value="635146989623981637" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="existsOnlyOnRightAction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+    </node>
+    <node concept="1TJgyj" id="zgvH9CZ$22" role="1TKVEi">
+      <property role="IQ2ns" value="635146989628964994" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="existsOnlyOnLeftAction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+    </node>
+    <node concept="1TJgyj" id="zgvH9CZ$2a" role="1TKVEi">
+      <property role="IQ2ns" value="635146989628965002" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elementOnBothAction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+    </node>
+    <node concept="1TJgyj" id="zgvH9CGX3U" role="1TKVEi">
+      <property role="IQ2ns" value="635146989624086778" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="singleRefAction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+    </node>
+    <node concept="1TJgyj" id="zgvH9CH6fk" role="1TKVEi">
+      <property role="IQ2ns" value="635146989624124372" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="optionalRefAction" />
+      <ref role="20lvS9" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+    </node>
   </node>
 </model>
 

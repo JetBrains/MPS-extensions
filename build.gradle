@@ -171,7 +171,6 @@ configurations {
         attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
     }
     batik {
-        exclude(group: 'xml-apis')
         exclude(group: 'commons-io')
         exclude(group: 'commons-logging')
     }
@@ -196,8 +195,7 @@ dependencies {
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.37.0")
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0")
 
-    batik ("org.apache.xmlgraphics:batik-svggen:1.18")
-    batik ("org.apache.xmlgraphics:batik-dom:1.18")
+    batik ("org.apache.xmlgraphics:batik-all:1.18")
 }
 
 

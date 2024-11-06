@@ -84,10 +84,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
-        <child id="1081256993305" name="classType" index="2ZW6by" />
-        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
-      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -246,6 +242,9 @@
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -329,13 +328,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="6Ltuup4wyH9" role="3cqZAp">
-          <node concept="2ZW3vV" id="6Ltuup4wAam" role="1gVkn0">
-            <node concept="3Tqbb2" id="6Ltuup4wAHa" role="2ZW6by">
-              <ref role="ehGHo" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
-            </node>
-            <node concept="37vLTw" id="6Ltuup4wzhn" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTA1VeG" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTA1VeH" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTA1VeI" role="2Oq$k0">
               <ref role="3cqZAo" node="6Ltuup4wtxo" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTA1VeJ" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTA1VeK" role="37wK5m">
+                <ref role="35c_gD" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+              </node>
             </node>
           </node>
         </node>
@@ -506,13 +508,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="6Ltuup4wOSt" role="3cqZAp">
-          <node concept="2ZW3vV" id="6Ltuup4wPv0" role="1gVkn0">
-            <node concept="3Tqbb2" id="6Ltuup4wPLF" role="2ZW6by">
-              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
-            </node>
-            <node concept="37vLTw" id="6Ltuup4wPaP" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTA1TiR" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTA1TiS" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTA1TiT" role="2Oq$k0">
               <ref role="3cqZAo" node="6Ltuup4wNZq" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTA1TiU" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTA1TiV" role="37wK5m">
+                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+              </node>
             </node>
           </node>
         </node>
@@ -608,12 +613,15 @@
           </node>
         </node>
         <node concept="1gVbGN" id="6Ltuup4wZy6" role="3cqZAp">
-          <node concept="2ZW3vV" id="6Ltuup4wZy7" role="1gVkn0">
-            <node concept="3Tqbb2" id="6Ltuup4wZy8" role="2ZW6by">
-              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
-            </node>
-            <node concept="37vLTw" id="6Ltuup4wZy9" role="2ZW6bz">
+          <node concept="2OqwBi" id="kewvTA1IVT" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTA1IbR" role="2Oq$k0">
               <ref role="3cqZAo" node="6Ltuup4wZy0" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTA1J9T" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTA1Kdn" role="37wK5m">
+                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+              </node>
             </node>
           </node>
         </node>
@@ -913,13 +921,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="77Ot_5af$7$" role="3cqZAp">
-          <node concept="2ZW3vV" id="77Ot_5af$7_" role="1gVkn0">
-            <node concept="3Tqbb2" id="77Ot_5af$7A" role="2ZW6by">
-              <ref role="ehGHo" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
-            </node>
-            <node concept="37vLTw" id="77Ot_5af$7B" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTAvpd9" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTAvpda" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTAvpdb" role="2Oq$k0">
               <ref role="3cqZAo" node="77Ot_5af$7u" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTAvpdc" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTAvpdd" role="37wK5m">
+                <ref role="35c_gD" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
+              </node>
             </node>
           </node>
         </node>
@@ -971,13 +982,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="77Ot_5ah_O7" role="3cqZAp">
-          <node concept="2ZW3vV" id="77Ot_5ah_O8" role="1gVkn0">
-            <node concept="3Tqbb2" id="77Ot_5ah_O9" role="2ZW6by">
-              <ref role="ehGHo" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
-            </node>
-            <node concept="37vLTw" id="77Ot_5ah_Oa" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTAvpsX" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTAvpsY" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTAvpsZ" role="2Oq$k0">
               <ref role="3cqZAo" node="77Ot_5ah_O1" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTAvpt0" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTAvpt1" role="37wK5m">
+                <ref role="35c_gD" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
+              </node>
             </node>
           </node>
         </node>
@@ -1029,13 +1043,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="77Ot_5ap$1T" role="3cqZAp">
-          <node concept="2ZW3vV" id="77Ot_5ap$1U" role="1gVkn0">
-            <node concept="3Tqbb2" id="77Ot_5ap$1V" role="2ZW6by">
-              <ref role="ehGHo" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
-            </node>
-            <node concept="37vLTw" id="77Ot_5ap$1W" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTAvpyL" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTAvpyM" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTAvpyN" role="2Oq$k0">
               <ref role="3cqZAo" node="77Ot_5ap$1N" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTAvpyO" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTAvpyP" role="37wK5m">
+                <ref role="35c_gD" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
+              </node>
             </node>
           </node>
         </node>
@@ -1087,13 +1104,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="77Ot_5arzVH" role="3cqZAp">
-          <node concept="2ZW3vV" id="77Ot_5arzVI" role="1gVkn0">
-            <node concept="3Tqbb2" id="77Ot_5arzVJ" role="2ZW6by">
-              <ref role="ehGHo" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
-            </node>
-            <node concept="37vLTw" id="77Ot_5arzVK" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTAvpBe" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTAvpBf" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTAvpBg" role="2Oq$k0">
               <ref role="3cqZAo" node="77Ot_5arzVB" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTAvpBh" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTAvpBi" role="37wK5m">
+                <ref role="35c_gD" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
+              </node>
             </node>
           </node>
         </node>
@@ -1145,13 +1165,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="1IpxBNKeUDp" role="3cqZAp">
-          <node concept="2ZW3vV" id="1IpxBNKeUDq" role="1gVkn0">
-            <node concept="3Tqbb2" id="1IpxBNKeUDr" role="2ZW6by">
-              <ref role="ehGHo" to="z7ot:5CYFCJDOmka" resolve="KeeperOfCollection" />
-            </node>
-            <node concept="37vLTw" id="1IpxBNKeUDs" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTAvpFW" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTAvpFX" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTAvpFY" role="2Oq$k0">
               <ref role="3cqZAo" node="1IpxBNKeUDl" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTAvpFZ" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTAvpG0" role="37wK5m">
+                <ref role="35c_gD" to="z7ot:5CYFCJDOmka" resolve="KeeperOfCollection" />
+              </node>
             </node>
           </node>
         </node>
@@ -1203,13 +1226,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="30FY4ILVPNw" role="3cqZAp">
-          <node concept="2ZW3vV" id="30FY4ILVPNx" role="1gVkn0">
-            <node concept="3Tqbb2" id="30FY4ILVPNy" role="2ZW6by">
-              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
-            </node>
-            <node concept="37vLTw" id="30FY4ILVPNz" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTAvpOY" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTAvpOZ" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTAvpP0" role="2Oq$k0">
               <ref role="3cqZAo" node="30FY4ILVPNs" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTAvpP1" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTAvpP2" role="37wK5m">
+                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+              </node>
             </node>
           </node>
         </node>
@@ -1260,13 +1286,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="30FY4IMda1y" role="3cqZAp">
-          <node concept="2ZW3vV" id="30FY4IMda1z" role="1gVkn0">
-            <node concept="3Tqbb2" id="30FY4IMda1$" role="2ZW6by">
-              <ref role="ehGHo" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
-            </node>
-            <node concept="37vLTw" id="30FY4IMda1_" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTAvqcw" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTAvqcx" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTAvqcy" role="2Oq$k0">
               <ref role="3cqZAo" node="30FY4IMda1u" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTAvqcz" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTAvqc$" role="37wK5m">
+                <ref role="35c_gD" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
+              </node>
             </node>
           </node>
         </node>
@@ -2034,13 +2063,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="4LLXBGbv8iX" role="3cqZAp">
-          <node concept="2ZW3vV" id="4LLXBGbv8iY" role="1gVkn0">
-            <node concept="3Tqbb2" id="4LLXBGbv8iZ" role="2ZW6by">
-              <ref role="ehGHo" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
-            </node>
-            <node concept="37vLTw" id="4LLXBGbv8j0" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTA200E" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTA200F" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTA200G" role="2Oq$k0">
               <ref role="3cqZAo" node="4LLXBGbv8iT" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTA200H" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTA200I" role="37wK5m">
+                <ref role="35c_gD" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+              </node>
             </node>
           </node>
         </node>
@@ -2208,13 +2240,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gVbGN" id="4LLXBGbHXwz" role="3cqZAp">
-          <node concept="2ZW3vV" id="4LLXBGbHXw$" role="1gVkn0">
-            <node concept="3Tqbb2" id="4LLXBGbHXw_" role="2ZW6by">
-              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
-            </node>
-            <node concept="37vLTw" id="4LLXBGbHXwA" role="2ZW6bz">
+        <node concept="1gVbGN" id="kewvTA1RxX" role="3cqZAp">
+          <node concept="2OqwBi" id="kewvTA1RxY" role="1gVkn0">
+            <node concept="37vLTw" id="kewvTA1RxZ" role="2Oq$k0">
               <ref role="3cqZAo" node="4LLXBGbHXwv" resolve="observedRoot" />
+            </node>
+            <node concept="liA8E" id="kewvTA1Ry0" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="kewvTA1Ry1" role="37wK5m">
+                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+              </node>
             </node>
           </node>
         </node>

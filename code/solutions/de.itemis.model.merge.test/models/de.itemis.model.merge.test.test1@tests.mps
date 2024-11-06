@@ -180,6 +180,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
+      </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
       <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ig" index="230_S" />
@@ -433,6 +437,14 @@
       </node>
     </node>
     <node concept="1qefOq" id="3EHNiwz2jtW" role="1SKRRt">
+      <node concept="15s5l7" id="kewvTAGoId" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
+        <property role="huDt6" value="Error: multi-child policy not completely defined" />
+      </node>
+      <node concept="15s5l7" id="kewvTAGoHJ" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
+        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
+      </node>
       <node concept="1olOeT" id="3EHNiwz2jtX" role="1qenE9">
         <property role="TrG5h" value="CheckForMissingMergePolicyForProperty" />
         <node concept="1oluLK" id="3EHNiwz2jtY" role="1olsr8" />
@@ -1630,6 +1642,14 @@
     <property role="TrG5h" value="DiamondChildTest" />
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="1trrptaE8Aa" role="1SKRRt">
+      <node concept="15s5l7" id="kewvTAGds5" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
+        <property role="huDt6" value="Error: multi-child policy not completely defined" />
+      </node>
+      <node concept="15s5l7" id="kewvTAGdqr" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
+        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
+      </node>
       <node concept="1olOeT" id="1trrptaE8Bd" role="1qenE9">
         <property role="TrG5h" value="DiamondMerge" />
         <node concept="1oluLK" id="1trrptaE8Be" role="1olsr8" />
@@ -2008,6 +2028,14 @@
       </node>
     </node>
     <node concept="1qefOq" id="1trrptaG5Lz" role="1SKRRt">
+      <node concept="15s5l7" id="kewvTAGdjS" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
+        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
+      </node>
+      <node concept="15s5l7" id="kewvTAGdgA" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
+        <property role="huDt6" value="Error: multi-child policy not completely defined" />
+      </node>
       <node concept="1olOeT" id="1trrptaG5Ng" role="1qenE9">
         <property role="TrG5h" value="IntermediateOverride" />
         <node concept="1oluLK" id="1trrptaG5Nh" role="1olsr8" />

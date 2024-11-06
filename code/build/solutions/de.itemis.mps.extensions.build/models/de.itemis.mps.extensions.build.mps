@@ -727,6 +727,19 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5ziaHPEuD0d" role="3bR37C">
+          <node concept="1BurEX" id="5ziaHPEuD0e" role="1SiIV1">
+            <node concept="398BVA" id="5ziaHPEuD0f" role="1BurEY">
+              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+              <node concept="2Ry0Ak" id="5ziaHPEuD0g" role="iGT6I">
+                <property role="2Ry0Am" value="util.jar" />
+              </node>
+            </node>
+            <node concept="3yrxFa" id="5ziaHPEuD0h" role="2gdwQb">
+              <ref role="3yrxFb" to="ffeo:5DAo_J9amU0" />
+            </node>
+          </node>
+        </node>
         <node concept="1SiIV0" id="5z3whG1oAum" role="3bR37C">
           <node concept="3bR9La" id="5z3whG1oAun" role="1SiIV1">
             <property role="3bR36h" value="true" />
@@ -16284,6 +16297,15 @@
             <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
             <node concept="2Ry0Ak" id="7_iF8sOJA89" role="iGT6I">
               <property role="2Ry0Am" value="lib.jar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3yLZsm" id="5ziaHPEv3Mp" role="3yL2VB">
+          <property role="3yLZsk" value="${platform_lib}/util.jar" />
+          <node concept="398BVA" id="5ziaHPEv3Mq" role="3yLZsn">
+            <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+            <node concept="2Ry0Ak" id="5ziaHPEv3Mr" role="iGT6I">
+              <property role="2Ry0Am" value="util.jar" />
             </node>
           </node>
         </node>

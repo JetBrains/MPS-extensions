@@ -173,6 +173,10 @@ configurations {
         exclude(group: 'com.google.guava')
         attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
     }
+    xml_lib {
+        exclude(group: 'system')
+        exclude(module: 'xml-apis')
+    }
     batik {
         exclude(group: 'commons-io')
         exclude(group: 'commons-logging')
@@ -210,6 +214,8 @@ dependencies {
 
     batik ("org.apache.xmlgraphics:batik-all:1.12")
 
+    xml_lib("xerces:xercesImpl:2.12.2")
+    xml_lib("xml-apis:xml-apis-ext:1.3.04")
     commons("org.apache.commons:commons-csv:1.0")
     commons("commons-io:commons-io:2.4")
     commons("org.apache.commons:commons-lang3:3.3.2")
@@ -269,6 +275,39 @@ afterEvaluate {
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
+task resolved_diagram_dependencies(type: Copy) {
+    from configurations.diagram_lib
+    into file('code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
+
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.diagram_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
+
+task resolved_batik_dependencies(type: Sync) {
+    from configurations.batik
+    into file('code/batik/solutions/lib')
+
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.batik.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
 def createResolveTask(taskName, configurationName, outputDir) {
     tasks.register(taskName, Sync) {
         from configurations."${configurationName}"
@@ -287,13 +326,28 @@ def createResolveTask(taskName, configurationName, outputDir) {
     }
 }
 
-createResolveTask('resolveDiagram', 'diagram_lib', 'code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
-createResolveTask('resolveBatik', 'batik', 'code/batik/solutions/lib')
 createResolveTask('resolveCommons', 'commons', 'code/apache-commons/solutions/org.apache.commons/lib')
 createResolveTask('resolveCollections', 'collections', 'code/shadowmodels/solutions/de.q60.mps.collections.libs/lib')
 
+task resolved_xml_dependencies(type: Sync) {
+    from configurations.xml_lib
+    into file('code/xml/solutions/lib')
+
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.xml_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
+
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, 'resolveDiagram', 'resolveBatik', 'resolveCommons', 'resolveCollections'
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, 'resolved_diagram_dependencies', 'resolved_batik_dependencies', 'resolved_xml_dependencies', 'resolveCommons', 'resolveCollections'
     script "$rootDir/scripts/build.xml"
 }
 

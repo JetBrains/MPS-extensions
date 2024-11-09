@@ -42,9 +42,9 @@ logger.info 'Repository username: {}', project.nexusUsername
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '9999.9'
+ext.mpsMajor = '2024.1'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = ''
+ext.mpsMinor = '1'
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 

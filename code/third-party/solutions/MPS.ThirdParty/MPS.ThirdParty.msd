@@ -4,6 +4,7 @@
     <modelRoot contentPath="${platform_lib}" type="java_classes">
       <sourceRoot location="app.jar" />
       <sourceRoot location="lib.jar" />
+      <sourceRoot location="util.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -11,6 +12,7 @@
       <classes generated="true" />
       <library location="${platform_lib}/app.jar" />
       <library location="${platform_lib}/lib.jar" />
+      <library location="${platform_lib}/util.jar" />
     </facet>
   </facets>
   <dependencies>

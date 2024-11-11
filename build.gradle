@@ -170,8 +170,11 @@ configurations {
         exclude(group: 'com.google.guava')
         attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
     }
+    xml_lib {
+        exclude(group: 'system')
+        exclude(module: 'xml-apis')
+    }
     batik {
-        exclude(group: 'xml-apis')
         exclude(group: 'commons-io')
         exclude(group: 'commons-logging')
     }
@@ -196,8 +199,10 @@ dependencies {
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.37.0")
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0")
 
-    batik ("org.apache.xmlgraphics:batik-svggen:1.18")
-    batik ("org.apache.xmlgraphics:batik-dom:1.18")
+    xml_lib("xerces:xercesImpl:2.12.2")
+    xml_lib("xml-apis:xml-apis-ext:1.3.04")
+
+    batik ("org.apache.xmlgraphics:batik-all:1.18")
 }
 
 
@@ -278,8 +283,25 @@ task resolved_batik_dependencies(type: Sync) {
     }
 }
 
+task resolved_xml_dependencies(type: Sync) {
+    from configurations.xml_lib
+    into file('code/xml/solutions/lib')
+
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.xml_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
+
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies, resolved_xml_dependencies
     script "$rootDir/scripts/build.xml"
 }
 

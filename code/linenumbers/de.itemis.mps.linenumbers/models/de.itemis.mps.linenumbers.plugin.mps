@@ -36,6 +36,8 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
+    <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
+    <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
   <registry>
@@ -1966,14 +1968,10 @@
         </node>
         <node concept="3clFbF" id="EMOkVNiDmy" role="3cqZAp">
           <node concept="2EnYce" id="2CeCNUcewaa" role="3clFbG">
-            <node concept="2EnYce" id="2CeCNUcevVN" role="2Oq$k0">
-              <node concept="2YIFZM" id="2CeCNUcevpQ" role="2Oq$k0">
-                <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
-                <node concept="1KvdUw" id="2CeCNUcevpR" role="37wK5m" />
-              </node>
+            <node concept="2OqwBi" id="2P9sdrBJP1y" role="2Oq$k0">
+              <node concept="1KvdUw" id="2P9sdrBJOU9" role="2Oq$k0" />
               <node concept="liA8E" id="2CeCNUced9W" role="2OqNvi">
-                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="2CeCNUcedtX" role="37wK5m">
                   <ref role="3VsUkX" to="wvnl:~EditorExtensionRegistry" resolve="EditorExtensionRegistry" />
                 </node>
@@ -2007,14 +2005,10 @@
         </node>
         <node concept="3clFbF" id="EMOkVNiFdM" role="3cqZAp">
           <node concept="2EnYce" id="EMOkVNiFdO" role="3clFbG">
-            <node concept="2EnYce" id="EMOkVNiFdP" role="2Oq$k0">
-              <node concept="2YIFZM" id="EMOkVNiFdQ" role="2Oq$k0">
-                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
-                <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                <node concept="1KvdUw" id="EMOkVNiFdR" role="37wK5m" />
-              </node>
+            <node concept="2OqwBi" id="2P9sdrBJPhB" role="2Oq$k0">
+              <node concept="1KvdUw" id="2P9sdrBJPav" role="2Oq$k0" />
               <node concept="liA8E" id="EMOkVNiFdS" role="2OqNvi">
-                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="EMOkVNiFdT" role="37wK5m">
                   <ref role="3VsUkX" to="wvnl:~EditorExtensionRegistry" resolve="EditorExtensionRegistry" />
                 </node>
@@ -2581,6 +2575,30 @@
     <node concept="3clFb_" id="3PNI8k1JrAf" role="jymVt">
       <property role="TrG5h" value="install" />
       <node concept="3clFbS" id="3PNI8k1JrAi" role="3clF47">
+        <node concept="3clFbJ" id="1yVxl$KFM2h" role="3cqZAp">
+          <node concept="3clFbS" id="1yVxl$KFM2j" role="3clFbx">
+            <node concept="3cpWs6" id="1yVxl$KFXf6" role="3cqZAp" />
+          </node>
+          <node concept="22lmx$" id="1yVxl$KGwX5" role="3clFbw">
+            <node concept="2OqwBi" id="1yVxl$KFQuu" role="3uHU7w">
+              <node concept="1rXfSq" id="1yVxl$KFN6m" role="2Oq$k0">
+                <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+              </node>
+              <node concept="liA8E" id="1yVxl$KFTH_" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.isDisposed()" resolve="isDisposed" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1yVxl$KGjcW" role="3uHU7B">
+              <node concept="2YIFZM" id="1yVxl$KGi8E" role="2Oq$k0">
+                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+              </node>
+              <node concept="liA8E" id="1yVxl$KGm6l" role="2OqNvi">
+                <ref role="37wK5l" to="1m72:~ComponentManager.isDisposed()" resolve="isDisposed" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="7iWvyfFsBdo" role="3cqZAp">
           <node concept="3cpWsn" id="7iWvyfFsBdp" role="3cpWs9">
             <property role="TrG5h" value="project" />

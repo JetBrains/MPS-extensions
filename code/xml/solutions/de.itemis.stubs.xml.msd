@@ -4,7 +4,6 @@
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/xml-apis-ext.jar" />
       <sourceRoot location="lib/xercesImpl.jar" />
-      <sourceRoot location="lib/xml-resolver.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -12,7 +11,6 @@
       <classes generated="true" />
       <library location="${module}/lib/xercesImpl.jar" />
       <library location="${module}/lib/xml-apis-ext.jar" />
-      <library location="${module}/lib/xml-resolver.jar" />
     </facet>
   </facets>
   <dependencies>

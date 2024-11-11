@@ -6,7 +6,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="off" classes="off" ext="yes">
+    <facet type="java" compile="mps" classes="mps" ext="yes" languageLevel="JAVA_10">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>

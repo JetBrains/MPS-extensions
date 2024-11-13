@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.stubs.batik" uuid="563a0770-eb88-4f4f-83ed-f708776fc2fe" moduleVersion="0">
   <models>
-    <modelRoot contentPath="${module}/lib" type="java_classes">
-      <sourceRoot location="." />
-      <excluded path="${module}/lib/xml-apis-ext.jar" />
-      <excluded path="${module}/lib/xml-apis.jar" />
+    <modelRoot contentPath="${module}" type="java_classes">
+      <sourceRoot location="lib/xmlgraphics-commons.jar" />
+      <sourceRoot location="lib/batik-all.jar" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="mps" classes="mps" ext="yes">
-      <classes generated="true" path="${module}/classes_gen" />
+    <facet type="java" compile="off" classes="mps" ext="yes">
+      <classes generated="true" />
       <library location="${module}/lib/xmlgraphics-commons.jar" />
       <library location="${module}/lib/batik-all.jar" />
     </facet>

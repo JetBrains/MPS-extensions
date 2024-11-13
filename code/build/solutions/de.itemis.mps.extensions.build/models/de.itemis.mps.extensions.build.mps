@@ -16520,15 +16520,35 @@
               <property role="3MwjfP" value="lib" />
             </node>
           </node>
-          <node concept="2HvfSZ" id="6bkzxtWPMLp" role="39821P">
-            <node concept="398BVA" id="6bkzxtWPMLq" role="2HvfZ0">
+          <node concept="28jJK3" id="5dlzUTkPMqo" role="39821P">
+            <node concept="398BVA" id="5dlzUTkPMzc" role="28jJRO">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6bkzxtWPMLr" role="iGT6I">
+              <node concept="2Ry0Ak" id="5dlzUTkPMHK" role="iGT6I">
                 <property role="2Ry0Am" value="batik" />
-                <node concept="2Ry0Ak" id="6bkzxtWPMLs" role="2Ry0An">
+                <node concept="2Ry0Ak" id="5dlzUTkPMI1" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6bkzxtWPMLt" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="5dlzUTkPMIw" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5dlzUTkPMIZ" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-all.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="5dlzUTkQlYS" role="39821P">
+            <node concept="398BVA" id="5dlzUTkQlYT" role="28jJRO">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5dlzUTkQlYU" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="5dlzUTkQlYV" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="5dlzUTkQlYW" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5dlzUTkQm7W" role="2Ry0An">
+                      <property role="2Ry0Am" value="xmlgraphics-commons.jar" />
+                    </node>
                   </node>
                 </node>
               </node>

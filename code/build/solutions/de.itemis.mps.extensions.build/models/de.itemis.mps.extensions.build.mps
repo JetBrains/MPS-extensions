@@ -8124,9 +8124,9 @@
         </node>
       </node>
       <node concept="1E1JtA" id="5zr7Q_1BD5a" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.model.merge.runtime" />
         <property role="3LESm3" value="aa8cbd62-5e1f-4d0b-a6e2-189711774c91" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="5zr7Q_1BDfe" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="5RxOLvL3$92" role="iGT6I">
@@ -8230,6 +8230,11 @@
         <node concept="1SiIV0" id="64IPVRJ1Bo5" role="3bR37C">
           <node concept="3bR9La" id="64IPVRJ1Bo6" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:rD7wKO6k$" resolve="MPS.Generator" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="29H$Uu5tuHc" role="3bR37C">
+          <node concept="3bR9La" id="29H$Uu5tuHd" role="1SiIV1">
+            <ref role="3bR37D" node="6860Y5A00Lp" resolve="de.itemis.mps.utils.serializer.xml" />
           </node>
         </node>
       </node>

@@ -1349,9 +1349,6 @@
           <node concept="312cEu" id="4zNr0$NNuUD" role="1DvOYf">
             <property role="TrG5h" value="dummy" />
             <node concept="3Tm1VV" id="4zNr0$NNuUE" role="1B3o_S" />
-            <node concept="3xLA65" id="4zNr0$NNuUF" role="lGtFl">
-              <property role="TrG5h" value="changed" />
-            </node>
           </node>
         </node>
       </node>
@@ -1387,9 +1384,6 @@
               <node concept="17QB3L" id="4zNr0$NOqBs" role="1tU5fm" />
             </node>
             <node concept="3Tm1VV" id="4zNr0$NOqBt" role="1B3o_S" />
-            <node concept="3xLA65" id="4zNr0$NOqBu" role="lGtFl">
-              <property role="TrG5h" value="dependencyAdded" />
-            </node>
           </node>
         </node>
       </node>
@@ -1425,9 +1419,6 @@
               </node>
             </node>
             <node concept="3Tm1VV" id="7XTah2uduMl" role="1B3o_S" />
-            <node concept="3xLA65" id="7XTah2uduMm" role="lGtFl">
-              <property role="TrG5h" value="dependencyRemoved" />
-            </node>
           </node>
           <node concept="1DvOYd" id="7XTah2uduMo" role="1PYGOF">
             <ref role="1PYGO_" node="7XTah2udeM1" />
@@ -1487,9 +1478,6 @@
               </node>
             </node>
             <node concept="3Tm1VV" id="7XTah2uf88V" role="1B3o_S" />
-            <node concept="3xLA65" id="7XTah2uf88W" role="lGtFl">
-              <property role="TrG5h" value="dependencyWithNewerVersion" />
-            </node>
           </node>
           <node concept="1DvOYd" id="7XTah2uf88Y" role="1PYGOF">
             <ref role="1PYGO_" node="7XTah2ueYci" />
@@ -1530,9 +1518,6 @@
               </node>
             </node>
             <node concept="3Tm1VV" id="7XTah2ueCwV" role="1B3o_S" />
-            <node concept="3xLA65" id="7XTah2ueCwW" role="lGtFl">
-              <property role="TrG5h" value="dependencyWithChanges" />
-            </node>
           </node>
           <node concept="1DvOYd" id="7XTah2ueCwY" role="1PYGOF">
             <ref role="1PYGO_" node="7XTah2uetel" />

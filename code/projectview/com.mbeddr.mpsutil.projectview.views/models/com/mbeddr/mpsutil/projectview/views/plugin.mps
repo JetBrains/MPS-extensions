@@ -1383,7 +1383,7 @@
             </node>
             <node concept="3EllGN" id="5XTXBpQFI9l" role="37vLTJ">
               <node concept="3VsKOn" id="5XTXBpQFI9m" role="3ElVtu">
-                <ref role="3VsUkX" to="z1c5:~IProject" resolve="IProject" />
+                <ref role="3VsUkX" to="z1c5:~Project" resolve="Project" />
               </node>
               <node concept="10M0yZ" id="5XTXBpQFI9n" role="3ElQJh">
                 <ref role="3cqZAo" node="75_oBQVwQpr" resolve="actionGroupsIds" />
@@ -1661,14 +1661,14 @@
             <node concept="2EnYce" id="4GrfODAR5xi" role="33vP2m">
               <node concept="0kSF2" id="4GrfODAR5xj" role="2Oq$k0">
                 <node concept="3uibUv" id="4GrfODAR5xk" role="0kSFW">
-                  <ref role="3uigEE" to="z1c3:~StandaloneMPSProject" resolve="StandaloneMPSProject" />
+                  <ref role="3uigEE" to="z1c4:~MPSProject" resolve="MPSProject" />
                 </node>
                 <node concept="37vLTw" id="4GrfODARDPB" role="0kSFX">
                   <ref role="3cqZAo" node="4GrfODAR0cY" resolve="project" />
                 </node>
               </node>
               <node concept="liA8E" id="4GrfODAR5xm" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~StandaloneMPSProject.getFolderFor(org.jetbrains.mps.openapi.module.SModule)" resolve="getFolderFor" />
+                <ref role="37wK5l" to="z1c5:~ProjectBase.getVirtualFolder(org.jetbrains.mps.openapi.module.SModule)" resolve="getVirtualFolder" />
                 <node concept="37vLTw" id="4GrfODAR5xn" role="37wK5m">
                   <ref role="3cqZAo" node="4GrfODAR0cd" resolve="module" />
                 </node>

@@ -9331,7 +9331,7 @@
             </node>
             <node concept="10M0yZ" id="7F7y$3JyDSf" role="37vLTJ">
               <ref role="1PxDUh" node="18W7Z4VeRuj" resolve="MergeResolverFromModelMerge" />
-              <ref role="3cqZAo" node="7F7y$3JxWSP" resolve="modelMerge" />
+              <ref role="3cqZAo" node="7F7y$3JxWSP" resolve="currentModelMerge" />
             </node>
           </node>
         </node>
@@ -11162,8 +11162,8 @@
         <node concept="3clFbF" id="7F7y$3LnjPN" role="3cqZAp">
           <node concept="2OqwBi" id="7F7y$3LnjPK" role="3clFbG">
             <node concept="10M0yZ" id="7F7y$3LnjPL" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="7F7y$3LnjPM" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
@@ -17246,7 +17246,7 @@
                 <ref role="1Pybhc" node="7F7y$3JJe2j" resolve="DefaultPolicyBuilder" />
                 <ref role="37wK5l" node="7F7y$3JJe3y" resolve="properties" />
                 <node concept="37vLTw" id="5xmpdH75dKM" role="37wK5m">
-                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="defaultPolicy" />
+                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="policy" />
                 </node>
                 <node concept="37vLTw" id="5xmpdH75dKY" role="37wK5m">
                   <ref role="3cqZAo" node="5xmpdH75dKJ" resolve="defaultAction" />
@@ -17257,7 +17257,7 @@
           <node concept="2OqwBi" id="5xmpdH75dK3" role="3clFbw">
             <node concept="2OqwBi" id="5xmpdH75dK4" role="2Oq$k0">
               <node concept="37vLTw" id="5xmpdH75dKU" role="2Oq$k0">
-                <ref role="3cqZAo" node="5xmpdH75dKH" resolve="defaultPolicy" />
+                <ref role="3cqZAo" node="5xmpdH75dKH" resolve="policy" />
               </node>
               <node concept="2qgKlT" id="5xmpdH75dK6" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:5zr7Q_1V6SF" resolve="allHierarchyProperties" />
@@ -17274,7 +17274,7 @@
                 <ref role="1Pybhc" node="7F7y$3JJe2j" resolve="DefaultPolicyBuilder" />
                 <ref role="37wK5l" node="7F7y$3JJe41" resolve="singletonChildren" />
                 <node concept="37vLTw" id="5xmpdH75dKW" role="37wK5m">
-                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="defaultPolicy" />
+                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="policy" />
                 </node>
                 <node concept="37vLTw" id="5xmpdH75dKZ" role="37wK5m">
                   <ref role="3cqZAo" node="5xmpdH75dKJ" resolve="defaultAction" />
@@ -17286,7 +17286,7 @@
                 <ref role="1Pybhc" node="7F7y$3JJe2j" resolve="DefaultPolicyBuilder" />
                 <ref role="37wK5l" node="7F7y$3JJe4w" resolve="OptionalChildren" />
                 <node concept="37vLTw" id="5xmpdH75dKR" role="37wK5m">
-                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="defaultPolicy" />
+                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="policy" />
                 </node>
                 <node concept="37vLTw" id="5xmpdH75dKP" role="37wK5m">
                   <ref role="3cqZAo" node="5xmpdH75dKJ" resolve="defaultAction" />
@@ -17298,7 +17298,7 @@
                 <ref role="1Pybhc" node="7F7y$3JJe2j" resolve="DefaultPolicyBuilder" />
                 <ref role="37wK5l" node="7F7y$3JJe4Z" resolve="multiChildren" />
                 <node concept="37vLTw" id="5xmpdH75dKS" role="37wK5m">
-                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="defaultPolicy" />
+                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="policy" />
                 </node>
                 <node concept="37vLTw" id="5xmpdH75dKL" role="37wK5m">
                   <ref role="3cqZAo" node="5xmpdH75dKJ" resolve="defaultAction" />
@@ -17310,7 +17310,7 @@
           <node concept="2OqwBi" id="5xmpdH75dKo" role="3clFbw">
             <node concept="2OqwBi" id="5xmpdH75dKp" role="2Oq$k0">
               <node concept="37vLTw" id="5xmpdH75dKT" role="2Oq$k0">
-                <ref role="3cqZAo" node="5xmpdH75dKH" resolve="defaultPolicy" />
+                <ref role="3cqZAo" node="5xmpdH75dKH" resolve="policy" />
               </node>
               <node concept="2qgKlT" id="5xmpdH75dKr" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:5zr7Q_1WLCS" resolve="allHierarchyChildren" />
@@ -17327,7 +17327,7 @@
                 <ref role="1Pybhc" node="7F7y$3JJe2j" resolve="DefaultPolicyBuilder" />
                 <ref role="37wK5l" node="7F7y$3JJe6o" resolve="singletonRef" />
                 <node concept="37vLTw" id="5xmpdH75dKX" role="37wK5m">
-                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="defaultPolicy" />
+                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="policy" />
                 </node>
                 <node concept="37vLTw" id="5xmpdH75dKV" role="37wK5m">
                   <ref role="3cqZAo" node="5xmpdH75dKJ" resolve="defaultAction" />
@@ -17339,7 +17339,7 @@
                 <ref role="1Pybhc" node="7F7y$3JJe2j" resolve="DefaultPolicyBuilder" />
                 <ref role="37wK5l" node="7F7y$3JJe5T" resolve="buildOptionalRef" />
                 <node concept="37vLTw" id="5xmpdH75dKN" role="37wK5m">
-                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="defaultPolicy" />
+                  <ref role="3cqZAo" node="5xmpdH75dKH" resolve="policy" />
                 </node>
                 <node concept="37vLTw" id="5xmpdH75dKO" role="37wK5m">
                   <ref role="3cqZAo" node="5xmpdH75dKJ" resolve="defaultAction" />
@@ -17350,7 +17350,7 @@
           <node concept="2OqwBi" id="5xmpdH75dKC" role="3clFbw">
             <node concept="2OqwBi" id="5xmpdH75dKD" role="2Oq$k0">
               <node concept="37vLTw" id="5xmpdH75dKQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="5xmpdH75dKH" resolve="defaultPolicy" />
+                <ref role="3cqZAo" node="5xmpdH75dKH" resolve="policy" />
               </node>
               <node concept="2qgKlT" id="5xmpdH75dKF" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:3PLTv5jznVy" resolve="allHierarchyReferences" />
@@ -17369,7 +17369,7 @@
       <node concept="37vLTG" id="7F7y$3JJe3_" role="3clF46">
         <property role="TrG5h" value="defaultPolicy" />
         <node concept="3Tqbb2" id="7F7y$3JJe3A" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="UserMergePolicy" />
+          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
         </node>
       </node>
       <node concept="37vLTG" id="7F7y$3JJe3B" role="3clF46">
@@ -17444,7 +17444,7 @@
       <node concept="37vLTG" id="7F7y$3JJe44" role="3clF46">
         <property role="TrG5h" value="defaultPolicy" />
         <node concept="3Tqbb2" id="7F7y$3JJe45" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="UserMergePolicy" />
+          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
         </node>
       </node>
       <node concept="37vLTG" id="7F7y$3JJe46" role="3clF46">
@@ -17519,7 +17519,7 @@
       <node concept="37vLTG" id="7F7y$3JJe4z" role="3clF46">
         <property role="TrG5h" value="defaultPolicy" />
         <node concept="3Tqbb2" id="7F7y$3JJe4$" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="UserMergePolicy" />
+          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
         </node>
       </node>
       <node concept="37vLTG" id="7F7y$3JJe4_" role="3clF46">
@@ -17594,7 +17594,7 @@
       <node concept="37vLTG" id="7F7y$3JJe52" role="3clF46">
         <property role="TrG5h" value="defaultPolicy" />
         <node concept="3Tqbb2" id="7F7y$3JJe53" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="UserMergePolicy" />
+          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
         </node>
       </node>
       <node concept="37vLTG" id="7F7y$3JJe54" role="3clF46">
@@ -17638,12 +17638,14 @@
                             <ref role="2pJxaS" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
                             <node concept="2pJxcG" id="7F7y$3JJe5o" role="2pJxcM">
                               <ref role="2pJxcJ" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
-                              <node concept="2OqwBi" id="7F7y$3JJe5p" role="28ntcv">
-                                <node concept="1XH99k" id="7F7y$3JJe5q" role="2Oq$k0">
-                                  <ref role="1XH99l" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
-                                </node>
-                                <node concept="2ViDtV" id="7F7y$3JJe5r" role="2OqNvi">
-                                  <ref role="2ViDtZ" to="mopj:1VmHfRxJErv" resolve="NewOnRight" />
+                              <node concept="WxPPo" id="3OyZRpiA4aJ" role="28ntcv">
+                                <node concept="2OqwBi" id="7F7y$3JJe5p" role="WxPPp">
+                                  <node concept="1XH99k" id="7F7y$3JJe5q" role="2Oq$k0">
+                                    <ref role="1XH99l" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
+                                  </node>
+                                  <node concept="2ViDtV" id="7F7y$3JJe5r" role="2OqNvi">
+                                    <ref role="2ViDtZ" to="mopj:1VmHfRxJErv" resolve="NewOnRight" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -17665,12 +17667,14 @@
                             <ref role="2pJxaS" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
                             <node concept="2pJxcG" id="7F7y$3JJe5y" role="2pJxcM">
                               <ref role="2pJxcJ" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
-                              <node concept="2OqwBi" id="7F7y$3JJe5z" role="28ntcv">
-                                <node concept="1XH99k" id="7F7y$3JJe5$" role="2Oq$k0">
-                                  <ref role="1XH99l" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
-                                </node>
-                                <node concept="2ViDtV" id="7F7y$3JJe5_" role="2OqNvi">
-                                  <ref role="2ViDtZ" to="mopj:1VmHfRxJErw" resolve="ExistsOnLeft" />
+                              <node concept="WxPPo" id="3OyZRpiA4aK" role="28ntcv">
+                                <node concept="2OqwBi" id="7F7y$3JJe5z" role="WxPPp">
+                                  <node concept="1XH99k" id="7F7y$3JJe5$" role="2Oq$k0">
+                                    <ref role="1XH99l" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
+                                  </node>
+                                  <node concept="2ViDtV" id="7F7y$3JJe5_" role="2OqNvi">
+                                    <ref role="2ViDtZ" to="mopj:1VmHfRxJErw" resolve="ExistsOnLeft" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -17692,12 +17696,14 @@
                             <ref role="2pJxaS" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
                             <node concept="2pJxcG" id="7F7y$3JJe5G" role="2pJxcM">
                               <ref role="2pJxcJ" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
-                              <node concept="2OqwBi" id="7F7y$3JJe5H" role="28ntcv">
-                                <node concept="1XH99k" id="7F7y$3JJe5I" role="2Oq$k0">
-                                  <ref role="1XH99l" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
-                                </node>
-                                <node concept="2ViDtV" id="7F7y$3JJe5J" role="2OqNvi">
-                                  <ref role="2ViDtZ" to="mopj:1VmHfRxJErz" resolve="ElementOnBoth" />
+                              <node concept="WxPPo" id="3OyZRpiA4aL" role="28ntcv">
+                                <node concept="2OqwBi" id="7F7y$3JJe5H" role="WxPPp">
+                                  <node concept="1XH99k" id="7F7y$3JJe5I" role="2Oq$k0">
+                                    <ref role="1XH99l" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
+                                  </node>
+                                  <node concept="2ViDtV" id="7F7y$3JJe5J" role="2OqNvi">
+                                    <ref role="2ViDtZ" to="mopj:1VmHfRxJErz" resolve="ElementOnBoth" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -17742,7 +17748,7 @@
       <node concept="37vLTG" id="7F7y$3JJe5W" role="3clF46">
         <property role="TrG5h" value="defaultPolicy" />
         <node concept="3Tqbb2" id="7F7y$3JJe5X" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="UserMergePolicy" />
+          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
         </node>
       </node>
       <node concept="37vLTG" id="7F7y$3JJe5Y" role="3clF46">
@@ -17817,7 +17823,7 @@
       <node concept="37vLTG" id="7F7y$3JJe6r" role="3clF46">
         <property role="TrG5h" value="defaultPolicy" />
         <node concept="3Tqbb2" id="7F7y$3JJe6s" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="UserMergePolicy" />
+          <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
         </node>
       </node>
       <node concept="37vLTG" id="7F7y$3JJe6t" role="3clF46">
@@ -18107,7 +18113,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="7F7y$3Lx5Ha" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
@@ -18238,7 +18244,7 @@
         <node concept="Jncv_" id="49zGylU9N2t" role="3cqZAp">
           <ref role="JncvD" to="mopj:3PLTv5k2w4J" resolve="SingletonChildPolicy" />
           <node concept="37vLTw" id="49zGylU9Qh5" role="JncvB">
-            <ref role="3cqZAo" node="49zGylU9FWu" resolve="policy" />
+            <ref role="3cqZAo" node="49zGylU9FWu" resolve="childPolicy" />
           </node>
           <node concept="3clFbS" id="49zGylU9N2v" role="Jncv$">
             <node concept="3cpWs6" id="49zGylU9ZsX" role="3cqZAp">
@@ -18956,7 +18962,7 @@
                 <ref role="3uigEE" node="5lvG0vITZsP" resolve="PropertyMerger" />
               </node>
               <node concept="1rXfSq" id="49zGylU3yYo" role="37wK5m">
-                <ref role="37wK5l" node="49zGylU4uGD" resolve="propertyPolicy" />
+                <ref role="37wK5l" node="49zGylU4uGD" resolve="propertyMerger" />
                 <node concept="37vLTw" id="49zGylU3$VR" role="37wK5m">
                   <ref role="3cqZAo" node="49zGylU1S6M" resolve="itemPolicy" />
                 </node>
@@ -19097,7 +19103,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="49zGylU1S6I" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="49zGylU21u5" role="jymVt" />

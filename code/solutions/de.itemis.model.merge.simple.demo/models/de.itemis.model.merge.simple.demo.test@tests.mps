@@ -2664,7 +2664,7 @@
     <node concept="1qefOq" id="7wzAiyprmaG" role="1SKRRt">
       <node concept="poArf" id="7wzAiyprmaH" role="1qenE9">
         <property role="TrG5h" value="ChildMergeAutoExec" />
-        <ref role="pot50" node="7wzAiyprmaY" />
+        <ref role="pot50" node="7wzAiyprmaY" resolve="ModelMergeWithMissingPolicies" />
         <node concept="1Xw6AR" id="7wzAiyprmaI" role="ppIIL">
           <node concept="1dCxOl" id="7wzAiyprmaJ" role="1XwpL7">
             <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
@@ -2769,7 +2769,7 @@
     <node concept="1qefOq" id="7wzAiypP$Us" role="1SKRRt">
       <node concept="poArf" id="7wzAiypP$Ut" role="1qenE9">
         <property role="TrG5h" value="ChildMergeAutoExec" />
-        <ref role="pot50" node="7wzAiypP$UC" />
+        <ref role="pot50" node="7wzAiypP$UC" resolve="ModelMergeWithMissingPolicies" />
         <node concept="1Xw6AR" id="7wzAiypP$Uu" role="ppIIL">
           <node concept="1dCxOl" id="7wzAiypP$Uv" role="1XwpL7">
             <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />

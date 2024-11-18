@@ -2759,7 +2759,7 @@
             <node concept="2OqwBi" id="2GFEb9MWXLw" role="2Oq$k0">
               <node concept="2OqwBi" id="2GFEb9MVuo_" role="2Oq$k0">
                 <node concept="37vLTw" id="2GFEb9MVufp" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2GFEb9MWnoA" resolve="rightModel" />
+                  <ref role="3cqZAo" node="2GFEb9MWnoA" resolve="usedModel" />
                 </node>
                 <node concept="2SmgA7" id="2GFEb9MWVbQ" role="2OqNvi" />
               </node>

@@ -1053,7 +1053,7 @@
             <ref role="3cqZAo" node="2GFEb9NgdMU" resolve="checker" />
           </node>
           <node concept="liA8E" id="2GFEb9Ni63$" role="2OqNvi">
-            <ref role="37wK5l" node="2GFEb9Nhs8U" resolve="areRightModelCoveredByPolicies" />
+            <ref role="37wK5l" node="2GFEb9Nhs8U" resolve="areAllModelConceptsCoveredByPolicies" />
             <node concept="2OqwBi" id="2GFEb9NjpRP" role="37wK5m">
               <node concept="1YBJjd" id="2GFEb9NjpRQ" role="2Oq$k0">
                 <ref role="1YBMHb" node="5zr7Q_1Kho0" resolve="mergeModelExecution" />
@@ -1105,7 +1105,7 @@
             <ref role="3cqZAo" node="2GFEb9NgdMU" resolve="checker" />
           </node>
           <node concept="liA8E" id="2GFEb9Njry$" role="2OqNvi">
-            <ref role="37wK5l" node="2GFEb9Nhs8U" resolve="areModelCoveredByPolicies" />
+            <ref role="37wK5l" node="2GFEb9Nhs8U" resolve="areAllModelConceptsCoveredByPolicies" />
             <node concept="2OqwBi" id="2GFEb9Njry_" role="37wK5m">
               <node concept="1YBJjd" id="2GFEb9NjryA" role="2Oq$k0">
                 <ref role="1YBMHb" node="5zr7Q_1Kho0" resolve="mergeModelExecution" />
@@ -3904,7 +3904,7 @@
                 <ref role="3cqZAo" node="2GFEb9Ndlfo" resolve="execution" />
               </node>
               <node concept="2qgKlT" id="2GFEb9NhN9v" role="2OqNvi">
-                <ref role="37wK5l" to="rnx3:2GFEb9MTMsl" resolve="usedConceptsInModel" />
+                <ref role="37wK5l" to="rnx3:2GFEb9MTMsl" resolve="conceptsUsedInModel" />
                 <node concept="37vLTw" id="2GFEb9NjlXM" role="37wK5m">
                   <ref role="3cqZAo" node="2GFEb9MZlei" resolve="modelExp" />
                 </node>

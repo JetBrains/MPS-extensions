@@ -414,7 +414,7 @@
       </node>
       <node concept="3F0ifn" id="5Ql4oYCeVe4" role="3EZMnx" />
       <node concept="3F2HdR" id="1EbzjT2RA56" role="3EZMnx">
-        <ref role="1NtTu8" to="mopj:1EbzjT2R$JQ" resolve="userPolicies" />
+        <ref role="1NtTu8" to="mopj:1EbzjT2R$JQ" resolve="items" />
         <node concept="2iRkQZ" id="1EbzjT2RA58" role="2czzBx" />
         <node concept="4$FPG" id="1EbzjT2RGFW" role="4_6I_">
           <node concept="3clFbS" id="1EbzjT2RGFX" role="2VODD2">
@@ -2145,7 +2145,7 @@
           <property role="3F0ifm" value="Single child: " />
         </node>
         <node concept="3F1sOY" id="zgvH9DUzcA" role="3EZMnx">
-          <ref role="1NtTu8" to="mopj:zgvH9CGxS0" resolve="singleﬁChildAction" />
+          <ref role="1NtTu8" to="mopj:zgvH9CGxS0" resolve="singleChildAction" />
         </node>
       </node>
       <node concept="3EZMnI" id="zgvH9CZver" role="3EZMnx">

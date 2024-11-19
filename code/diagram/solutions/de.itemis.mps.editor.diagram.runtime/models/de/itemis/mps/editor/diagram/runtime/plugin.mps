@@ -3090,18 +3090,18 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1JJYOwUtd$a" role="3cqZAp">
-          <node concept="2OqwBi" id="1JJYOwUtehv" role="3clFbG">
-            <node concept="2OqwBi" id="1JJYOwUtd$4" role="2Oq$k0">
-              <node concept="2WthIp" id="1JJYOwUtd$7" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="1JJYOwUtd$9" role="2OqNvi">
-                <ref role="2WH_rO" node="17W1KUH8Thl" resolve="editorComponent" />
+            <node concept="3clFbF" id="1JJYOwUtd$a" role="3cqZAp">
+              <node concept="2OqwBi" id="1JJYOwUtehv" role="3clFbG">
+                <node concept="2OqwBi" id="1JJYOwUtd$4" role="2Oq$k0">
+                  <node concept="2WthIp" id="1JJYOwUtd$7" role="2Oq$k0" />
+                  <node concept="2BZ7hE" id="1JJYOwUtd$9" role="2OqNvi">
+                    <ref role="2WH_rO" node="17W1KUH8Thl" resolve="editorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1JJYOwUtfiS" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.dispose()" resolve="dispose" />
+                </node>
               </node>
-            </node>
-            <node concept="liA8E" id="1JJYOwUtfiS" role="2OqNvi">
-              <ref role="37wK5l" to="exr9:~EditorComponent.dispose()" resolve="dispose" />
             </node>
           </node>
         </node>

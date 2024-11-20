@@ -6492,7 +6492,7 @@
                 <node concept="3clFbF" id="763TrXRCrPy" role="3cqZAp">
                   <node concept="37vLTI" id="763TrXRCsRg" role="3clFbG">
                     <node concept="2YIFZM" id="763TrXRCtDf" role="37vLTx">
-                      <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                      <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                       <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                     </node>
                     <node concept="37vLTw" id="763TrXRCrPw" role="37vLTJ">
@@ -6763,7 +6763,7 @@
           <node concept="2OqwBi" id="7pvOHdLq_sM" role="3clFbG">
             <node concept="Xjq3P" id="D$OtjtXdXd" role="2Oq$k0" />
             <node concept="liA8E" id="7pvOHdLqBEO" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Thread.start():void" resolve="start" />
+              <ref role="37wK5l" to="wyt6:~Thread.start()" resolve="start" />
             </node>
           </node>
         </node>
@@ -7128,7 +7128,7 @@
             <node concept="3cpWsd" id="763TrXRDIL4" role="3uHU7B">
               <node concept="2YIFZM" id="763TrXRDIL5" role="3uHU7B">
                 <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
               </node>
               <node concept="37vLTw" id="763TrXRDIL6" role="3uHU7w">
                 <ref role="3cqZAo" node="763TrXRCmG5" resolve="lastClassChange" />
@@ -7166,7 +7166,7 @@
             </node>
             <node concept="3cpWsd" id="763TrXRDGx0" role="3uHU7B">
               <node concept="2YIFZM" id="763TrXRDGx1" role="3uHU7B">
-                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                 <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
               </node>
               <node concept="37vLTw" id="763TrXRDGx2" role="3uHU7w">
@@ -7267,7 +7267,7 @@
             <node concept="3cpWsd" id="763TrXRDL2E" role="3uHU7B">
               <node concept="2YIFZM" id="763TrXRDL2F" role="3uHU7B">
                 <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
               </node>
               <node concept="37vLTw" id="763TrXRDL2G" role="3uHU7w">
                 <ref role="3cqZAo" node="763TrXRCmG5" resolve="lastClassChange" />
@@ -7372,7 +7372,7 @@
             </node>
             <node concept="3cpWsd" id="763TrXRDQh5" role="3uHU7B">
               <node concept="2YIFZM" id="763TrXRDQh6" role="3uHU7B">
-                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
                 <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
               </node>
               <node concept="37vLTw" id="763TrXRDQh7" role="3uHU7w">
@@ -7389,7 +7389,7 @@
                 <property role="TrG5h" value="transformStart" />
                 <node concept="3cpWsb" id="QurUgik3Sy" role="1tU5fm" />
                 <node concept="2YIFZM" id="5G4qAEn9EvD" role="33vP2m">
-                  <ref role="37wK5l" to="wyt6:~System.nanoTime():long" resolve="nanoTime" />
+                  <ref role="37wK5l" to="wyt6:~System.nanoTime()" resolve="nanoTime" />
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                 </node>
               </node>
@@ -7453,7 +7453,7 @@
                 <property role="TrG5h" value="transformEnd" />
                 <node concept="3cpWsb" id="D$OtjtYC$B" role="1tU5fm" />
                 <node concept="2YIFZM" id="D$OtjtYC$C" role="33vP2m">
-                  <ref role="37wK5l" to="wyt6:~System.nanoTime():long" resolve="nanoTime" />
+                  <ref role="37wK5l" to="wyt6:~System.nanoTime()" resolve="nanoTime" />
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                 </node>
               </node>
@@ -8042,11 +8042,11 @@
                     <ref role="3cqZAo" node="D$OtjtYuuS" resolve="repository" />
                   </node>
                   <node concept="liA8E" id="2BYLcdbZUJl" role="2OqNvi">
-                    <ref role="37wK5l" to="lui2:~SRepository.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
+                    <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2BYLcdbZVJ2" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~ModelAccess.canRead():boolean" resolve="canRead" />
+                  <ref role="37wK5l" to="lui2:~ModelAccess.canRead()" resolve="canRead" />
                 </node>
               </node>
             </node>
@@ -8163,10 +8163,10 @@
             <node concept="10QFUN" id="D$OtjtVFb6" role="33vP2m">
               <node concept="2OqwBi" id="D$OtjtVFb7" role="10QFUP">
                 <node concept="1rXfSq" id="D$OtjtVHS9" role="2Oq$k0">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
                 <node concept="liA8E" id="D$OtjtVFb9" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                  <ref role="37wK5l" to="wyt6:~Class.getClassLoader()" resolve="getClassLoader" />
                 </node>
               </node>
               <node concept="3uibUv" id="D$OtjtVFba" role="10QFUM">
@@ -8181,7 +8181,7 @@
               <ref role="3cqZAo" node="D$OtjtVFb4" resolve="cl" />
             </node>
             <node concept="liA8E" id="D$OtjtVFbe" role="2OqNvi">
-              <ref role="37wK5l" to="3qmy:~ModuleClassLoader.isDisposed():boolean" resolve="isDisposed" />
+              <ref role="37wK5l" to="3qmy:~ModuleClassLoader.isDisposed()" resolve="isDisposed" />
             </node>
           </node>
         </node>

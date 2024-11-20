@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="8ca79d43-eb45-4791-bdd4-0d6130ff895b" name="de.itemis.mps.editor.diagram.layout" version="-1" />
     <use id="5a82b7b8-2303-45be-b960-4e3ff16e82ce" name="de.itemis.mps.editor.diagram.demo.activity" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
@@ -393,7 +393,7 @@
         <property id="6720495385597071502" name="bounds_y" index="gqqTW" />
         <property id="6720495385597071503" name="bounds_width" index="gqqTX" />
         <property id="6720495385597071501" name="bounds_x" index="gqqTZ" />
-        <property id="4583510071007917016" name="transform" index="TgtnS" />
+        <property id="4583510071007917016" name="portTransform" index="TgtnS" />
       </concept>
       <concept id="2319506556913310852" name="de.itemis.mps.editor.diagram.layout.structure.Layout_Connection" flags="ng" index="2VclpC">
         <child id="2319506556913311101" name="anchors" index="2Vcluh" />

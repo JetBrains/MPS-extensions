@@ -25,6 +25,7 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -51,6 +52,7 @@
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
+      <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -110,14 +112,19 @@
         </node>
         <node concept="3F0ifn" id="h7YH7Ww" role="3EZMnx">
           <property role="3F0ifm" value="custom factory cell" />
+          <node concept="Vb9p2" id="1be6WiHaCCw" role="3F10Kt" />
         </node>
         <node concept="PMmxH" id="h7TN$Ex" role="3EZMnx">
           <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
         </node>
         <node concept="2iRfu4" id="i2IxuT6" role="2iSdaV" />
       </node>
-      <node concept="3F1sOY" id="2af7$rtteQX" role="3EZMnx">
-        <ref role="1NtTu8" to="myud:fBEZMko" resolve="childCellModel" />
+      <node concept="3EZMnI" id="1be6WiHaCUu" role="3EZMnx">
+        <node concept="2iRfu4" id="1be6WiHaCUv" role="2iSdaV" />
+        <node concept="3XFhqQ" id="1be6WiHaCSj" role="3EZMnx" />
+        <node concept="3F1sOY" id="2af7$rtteQX" role="3EZMnx">
+          <ref role="1NtTu8" to="myud:fBEZMko" resolve="childCellModel" />
+        </node>
       </node>
       <node concept="2iRkQZ" id="2af7$rtteQv" role="2iSdaV" />
     </node>

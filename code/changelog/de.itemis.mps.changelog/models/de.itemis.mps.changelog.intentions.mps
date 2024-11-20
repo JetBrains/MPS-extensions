@@ -703,7 +703,7 @@
           <node concept="2OqwBi" id="1$KnWE8t37w" role="3clFbG">
             <node concept="2OqwBi" id="1$KnWE8t37x" role="2Oq$k0">
               <node concept="37vLTw" id="1$KnWE8t37y" role="2Oq$k0">
-                <ref role="3cqZAo" node="1$KnWE8t36Q" resolve="selectedWords" />
+                <ref role="3cqZAo" node="1$KnWE8t36Q" resolve="selectedElements" />
               </node>
               <node concept="1uHKPH" id="1$KnWE8t37z" role="2OqNvi" />
             </node>
@@ -718,7 +718,7 @@
           <node concept="2OqwBi" id="1$KnWE8t37B" role="3clFbG">
             <node concept="2OqwBi" id="1$KnWE8t37C" role="2Oq$k0">
               <node concept="37vLTw" id="1$KnWE8t37D" role="2Oq$k0">
-                <ref role="3cqZAo" node="1$KnWE8t36Q" resolve="selectedWords" />
+                <ref role="3cqZAo" node="1$KnWE8t36Q" resolve="selectedElements" />
               </node>
               <node concept="7r0gD" id="1$KnWE8t37E" role="2OqNvi">
                 <node concept="3cmrfG" id="1$KnWE8t37F" role="7T0AP">

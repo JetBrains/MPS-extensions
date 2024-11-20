@@ -19,7 +19,7 @@
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" version="0" />
+    <language slang="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" version="1" />
     <language slang="l:21063c66-85ba-4e98-839b-036445b17ae2:de.itemis.mps.editor.layout" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -74,6 +74,8 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="aff569ad-098d-414a-aa23-96963959392c(test.de.itemis.mps.editor.diagram.lang)" version="0" />
   </dependencyVersions>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</extendedLanguage>
+  </extendedLanguages>
 </language>
 

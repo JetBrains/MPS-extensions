@@ -961,7 +961,7 @@
                 <property role="3clFbU" value="true" />
               </node>
               <node concept="37vLTw" id="3GWIMuJax2P" role="37wK5m">
-                <ref role="3cqZAo" node="3GWIMuJa3EU" resolve="allMessages" />
+                <ref role="3cqZAo" node="3GWIMuJa3EU" resolve="messages" />
               </node>
             </node>
           </node>
@@ -1018,7 +1018,7 @@
               <ref role="37wK5l" to="wsw7:4SGXHKgYYAZ" resolve="check" />
               <node concept="2YIFZM" id="T_6DrlXBR8" role="37wK5m">
                 <ref role="37wK5l" to="wsw7:fM_JX6ud1s" resolve="forSingleModel" />
-                <ref role="1Pybhc" to="wsw7:4QJbmJH1Aa8" resolve="ItemsToCheck" />
+                <ref role="1Pybhc" to="wsw7:4QJbmJH1Aa8" resolve="ModelCheckerBuilder.ItemsToCheck" />
                 <node concept="37vLTw" id="ercpuKQI_6" role="37wK5m">
                   <ref role="3cqZAo" node="GVgWr3Pvck" resolve="model" />
                 </node>
@@ -1277,13 +1277,13 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="GVgWr3MOEO" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
   <node concept="1lYeZD" id="13pedfat8au">
     <property role="TrG5h" value="DefaultQueryListConfig" />
-    <ref role="1lYe$Y" node="13pedfat8oK" resolve="QueryListExtension" />
+    <ref role="1lYe$Y" node="13pedfat8oK" resolve="queryListExtPoint" />
     <node concept="3Tm1VV" id="13pedfat8av" role="1B3o_S" />
     <node concept="2tJIrI" id="13pedfat8aw" role="jymVt" />
     <node concept="3tTeZs" id="13pedfat8ax" role="jymVt">
@@ -1307,7 +1307,7 @@
                 <property role="2bfB8j" value="true" />
                 <property role="373rjd" value="true" />
                 <ref role="1Y3XeK" node="13pedfat8oO" resolve="QueryListConfig" />
-                <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                 <node concept="3Tm1VV" id="13pedfatf3D" role="1B3o_S" />
                 <node concept="3clFb_" id="13pedfatf3R" role="jymVt">
                   <property role="TrG5h" value="disableModelChecking" />
@@ -1319,7 +1319,7 @@
                     </node>
                   </node>
                   <node concept="2AHcQZ" id="13pedfatf3X" role="2AJF6D">
-                    <ref role="2AI5Lk" to="wyt6:~Override" />
+                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                   </node>
                 </node>
                 <node concept="2tJIrI" id="13pedfatf3Y" role="jymVt" />
@@ -1335,7 +1335,7 @@
                     </node>
                   </node>
                   <node concept="2AHcQZ" id="13pedfatf45" role="2AJF6D">
-                    <ref role="2AI5Lk" to="wyt6:~Override" />
+                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                   </node>
                 </node>
               </node>

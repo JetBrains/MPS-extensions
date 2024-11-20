@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:0e2d0780-27a1-4dda-a429-65b192261fcc(com.mbeddr.mpsutil.grammarcells.generator.template.main@generator)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="2" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
@@ -13,6 +14,7 @@
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="1a8554c4-eb84-43ba-8c34-6f0d90c6e75a" name="jetbrains.mps.lang.smodel.query" version="3" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -547,7 +549,7 @@
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
       <concept id="7272510943426055326" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell_Factory" flags="ig" index="2kS2EP" />
       <concept id="7272510943426093121" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_SideTransformActionsBuilderContext" flags="ng" index="2kS8pE" />
-      <concept id="7272510943425988699" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell" flags="ng" index="2kSiTK">
+      <concept id="7272510943425988699" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationFromFactoryCell" flags="ng" index="2kSiTK">
         <property id="7272510943425988883" name="side" index="2kSiWS" />
         <child id="7272510943426097631" name="factory" index="2kS9vO" />
         <child id="7272510943425989076" name="wrapped" index="2kSiZZ" />
@@ -564,7 +566,7 @@
       <concept id="745148820870387403" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationHolderProcessor" flags="ng" index="2u$9CG">
         <child id="745148820870387404" name="wrappedCell" index="2u$9CF" />
       </concept>
-      <concept id="745148820867185554" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell4" flags="ng" index="2uKrtP">
+      <concept id="745148820867185554" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationSectionCell" flags="ng" index="2uKrtP">
         <property id="745148820908747612" name="description" index="2thAuV" />
         <child id="745148820874363426" name="section" index="2vkWV5" />
       </concept>
@@ -593,14 +595,14 @@
       <concept id="848437706375087728" name="com.mbeddr.mpsutil.grammarcells.structure.ICanHaveDescriptionText" flags="ng" index="1djCvD">
         <child id="848437706375087729" name="descriptionText" index="1djCvC" />
       </concept>
-      <concept id="4874944647490522665" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_IsApplicable" flags="ig" index="1eYwpX" />
-      <concept id="4874944647490524676" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_Execute" flags="ig" index="1eYxTg" />
-      <concept id="4874944647490471126" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2" flags="ng" index="1eYWM2">
+      <concept id="4874944647490522665" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell_IsApplicable" flags="ig" index="1eYwpX" />
+      <concept id="4874944647490524676" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell_Execute" flags="ig" index="1eYxTg" />
+      <concept id="4874944647490471126" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell" flags="ng" index="1eYWM2">
         <child id="4874944647490523335" name="matchingText" index="1eYxyj" />
         <child id="4874944647490523330" name="isApplicable" index="1eYxym" />
         <child id="4874944647490524677" name="execute" index="1eYxTh" />
       </concept>
-      <concept id="4874944647490471525" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_MatchingText" flags="ig" index="1eYWSL" />
+      <concept id="4874944647490471525" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell_MatchingText" flags="ig" index="1eYWSL" />
     </language>
     <language id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell">
       <concept id="1161622981231" name="de.slisson.mps.richtext.customcell.structure.ConceptFunctionParameter_cell" flags="nn" index="1Q80Hy" />
@@ -4880,6 +4882,7 @@
       <ref role="30HIoZ" to="teg0:4qdNcHzYfBo" resolve="OptionalCell" />
       <node concept="1Koe21" id="3KoBPk18Phg" role="1lVwrX">
         <node concept="3EZMnI" id="3KoBPk18Phh" role="1Koe22">
+          <node concept="2iRkQZ" id="3KoBPk18Pl6" role="2iSdaV" />
           <node concept="1eYWM2" id="3KoBPk18Phi" role="3EZMnx">
             <node concept="1eYxTg" id="3KoBPk18Phj" role="1eYxTh">
               <node concept="3clFbS" id="3KoBPk18Phk" role="2VODD2">
@@ -5694,7 +5697,6 @@
               </node>
             </node>
           </node>
-          <node concept="2iRkQZ" id="3KoBPk18Pl6" role="2iSdaV" />
         </node>
       </node>
       <node concept="30G5F_" id="3KoBPk18Pl7" role="30HLyM">

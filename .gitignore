@@ -33,4 +33,5 @@ code/model-api/org.modelix.model.api/lib
 code/dependencies.txt
 .idea/
 *.iml
-TESTS-TestSuites.xml
+
+TEST*.xml

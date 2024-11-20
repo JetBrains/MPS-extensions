@@ -510,7 +510,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="4LkNbu$3TqU" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell_Collection.getCellsCount():int" resolve="getCellsCount" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell_Collection.getCellsCount()" resolve="getCellsCount" />
                 </node>
               </node>
             </node>

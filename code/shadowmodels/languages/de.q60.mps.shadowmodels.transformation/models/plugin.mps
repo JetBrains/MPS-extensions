@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:9386410a-9bfc-4734-bd77-6b4623a0ab93(de.q60.mps.shadowmodels.transformation.plugin)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f159adf4-3c93-40f9-9c5a-1f245a8697af" name="jetbrains.mps.lang.aspect" version="2" />
     <use id="696c1165-4a59-463b-bc5d-902caab85dd0" name="jetbrains.mps.make.facet" version="0" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="c9d137c4-3259-44f8-80ff-33ab2b506ee4" name="jetbrains.mps.lang.util.order" version="0" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports />
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
       <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
     </language>
@@ -18,6 +24,7 @@
       <concept id="3433054418424672374" name="jetbrains.mps.lang.aspect.structure.SimpleLanguageAspectDescriptor" flags="ng" index="3vrhyV">
         <child id="6106419185511570295" name="mainLanguages" index="QG$2i" />
         <child id="8222125370833980146" name="devkit" index="TkT64" />
+        <child id="3433054418425083029" name="icon" index="3vqPLo" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -45,6 +52,9 @@
     <node concept="T9mpH" id="q2F95_HSEz" role="TkT64">
       <property role="T9mpF" value="a2812d5e-a72e-4739-ab3f-d01ec647c5de" />
       <property role="T9mpE" value="de.q60.mps.shadowmodel.devkit" />
+    </node>
+    <node concept="1QGGSu" id="1yLcVM11IJk" role="3vqPLo">
+      <property role="1iqoE4" value="${module}/icons/model.png" />
     </node>
   </node>
   <node concept="2DaZZR" id="6ndA7L_L2I5" />

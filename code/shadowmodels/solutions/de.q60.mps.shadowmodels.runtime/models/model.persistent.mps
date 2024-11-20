@@ -7905,7 +7905,7 @@
                         <ref role="3VsUkX" to="qvpu:~ContextArea" resolve="ContextArea" />
                       </node>
                       <node concept="liA8E" id="1KLm$Di9lkO" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~Class.getSimpleName():java.lang.String" resolve="getSimpleName" />
+                        <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
                       </node>
                     </node>
                     <node concept="Xl_RD" id="1KLm$Di9hCb" role="3uHU7w">

@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="e0fad6e1-a8d0-4af5-9a40-01cc391c0908" name="test.de.itemis.mps.editor.celllayout.lang" version="-1" />
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
@@ -3070,14 +3070,14 @@
           <property role="TrG5h" value="longCellLength" />
         </node>
         <node concept="37vLTw" id="3QbjcQ60Q4h" role="2GsD0m">
-          <ref role="3cqZAo" node="3QbjcQ60KOE" resolve="longCellWidthValues" />
+          <ref role="3cqZAo" node="3QbjcQ60KOE" resolve="longCellLengthValues" />
         </node>
         <node concept="3clFbS" id="3QbjcQ60P2W" role="2LFqv$">
           <node concept="3clFbF" id="3QbjcQ61k6_" role="3cqZAp">
             <node concept="2OqwBi" id="3QbjcQ61k6y" role="3clFbG">
               <node concept="10M0yZ" id="3QbjcQ61k6z" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" />
-                <ref role="3cqZAo" to="wyt6:~System.out" />
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="3QbjcQ61k6$" role="2OqNvi">
                 <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />

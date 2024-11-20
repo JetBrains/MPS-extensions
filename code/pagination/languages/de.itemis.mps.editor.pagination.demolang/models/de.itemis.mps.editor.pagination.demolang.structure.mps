@@ -2,7 +2,7 @@
 <model ref="r:113e4461-2e6e-434f-919f-6f28fd5e4021(de.itemis.mps.editor.pagination.demolang.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -112,6 +112,9 @@
       <property role="IQ2ns" value="1571013049655790763" />
       <property role="20kJfa" value="r" />
       <ref role="20lvS9" node="2iSRtQtDrgE" resolve="ChildTest" />
+    </node>
+    <node concept="PrWs8" id="1wtMaDEfeb" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

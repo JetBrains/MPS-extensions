@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
-    <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="0" />
+    <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="1" />
     <use id="3bdedd09-792a-4e15-a4db-83970df3ee86" name="de.itemis.mps.editor.collapsible" version="0" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -98,7 +98,9 @@
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
-      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR">
+        <child id="7279578193766667846" name="addHints" index="78xua" />
+      </concept>
       <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
         <child id="1225898971709" name="getter" index="1Hhtcw" />
       </concept>
@@ -260,9 +262,6 @@
       </concept>
     </language>
     <language id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram">
-      <concept id="8433227566816385664" name="de.itemis.mps.editor.diagram.structure.ILayoutAlgorithm" flags="ng" index="35SPa">
-        <child id="2064429317493348220" name="config" index="3pGojU" />
-      </concept>
       <concept id="6554619383003875357" name="de.itemis.mps.editor.diagram.structure.InlineEditorComponent" flags="ig" index="238au4" />
       <concept id="8433227566817223068" name="de.itemis.mps.editor.diagram.structure.LayeredLayoutAlgorithm" flags="ng" index="39fpm">
         <property id="7623784619795245948" name="direction" index="1NdBj4" />
@@ -330,9 +329,8 @@
       <concept id="6237710625713964946" name="de.itemis.mps.editor.diagram.structure.Parameter_Node" flags="ng" index="2ZN8Hh" />
       <concept id="8963411245957652387" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_Query" flags="ig" index="37q72E" />
       <concept id="8963411245958754161" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject" flags="ng" index="37u81S" />
-      <concept id="2064429317493348219" name="de.itemis.mps.editor.diagram.structure.DiagramLayoutConfig" flags="ng" index="3pGojX" />
       <concept id="6910723851735106293" name="de.itemis.mps.editor.diagram.structure.DiagramButtonConfig" flags="ng" index="3sA_1f">
-        <property id="2773448605512242576" name="hasShowPortsLabels" index="3g8l5v" />
+        <property id="2773448605512242576" name="hasShowPortsLabelsButton" index="3g8l5v" />
         <property id="6910723851735128113" name="hasResetViewButton" index="3sAwEb" />
         <property id="6910723851735128104" name="hasLayoutDiagramButton" index="3sAwEi" />
         <property id="6910723851735128109" name="hasMaximizeDiagramButton" index="3sAwEn" />
@@ -491,6 +489,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="2w$q5c" id="7MiULvSlzmm" role="78xua">
+          <node concept="2aJ2om" id="7MiULvSlzmn" role="2w$qW5">
+            <ref role="2$4xQ3" node="4XPshStfMm3" resolve="ActivityAsDiagram" />
           </node>
         </node>
       </node>
@@ -1634,9 +1637,7 @@
             <property role="3sAwEi" value="true" />
             <property role="3g8l5v" value="false" />
           </node>
-          <node concept="3fe8g" id="1MAkSr4BiCN" role="35U2g">
-            <node concept="3pGojX" id="awq4$rgWNg" role="3pGojU" />
-          </node>
+          <node concept="3fe8g" id="1MAkSr4BiCN" role="35U2g" />
         </node>
         <node concept="2w$q5c" id="5kFTseQTjoA" role="2whIAn">
           <node concept="2aJ2om" id="5kFTseQTjoB" role="2w$qW5">

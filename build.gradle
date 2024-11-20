@@ -446,3 +446,7 @@ githubRelease {
 tasks.named('githubRelease').configure {
     dependsOn packageExtensions
 }
+
+// No-op tasks so that the project can be built on TeamCity. The real implementation is in later maintenance branches.
+tasks.register('migrate')
+tasks.register('remigrate')

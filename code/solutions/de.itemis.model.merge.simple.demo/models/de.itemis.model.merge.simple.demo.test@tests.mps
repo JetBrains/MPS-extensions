@@ -19,7 +19,7 @@
     <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)" />
     <import index="tqvn" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.tempmodel(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="hsq" ref="r:fc82e0c0-6be8-4ecf-9fa1-3d5bc168484e(de.itemis.model.simple.demo.reference.structure)" />
     <import index="u132" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:junit.framework(JUnit/)" />
@@ -724,7 +724,7 @@
         </node>
         <node concept="3clFbF" id="4LLXBGanLhs" role="3cqZAp">
           <node concept="2YIFZM" id="4LLXBGanMc$" role="3clFbG">
-            <ref role="1Pybhc" to="gunp:2cYlIwY_fxg" resolve="ModelMergeExecutionRunner" />
+            <ref role="1Pybhc" to="gunp:2cYlIwY_fxg" resolve="ModelMergingRunner" />
             <ref role="37wK5l" to="gunp:2cYlIwYBdd4" resolve="run" />
             <node concept="37vLTw" id="4LLXBGanNVd" role="37wK5m">
               <ref role="3cqZAo" node="6Ltuup4xdCM" resolve="model" />
@@ -767,7 +767,7 @@
       <node concept="37vLTG" id="6Ltuup4xdCG" role="3clF46">
         <property role="TrG5h" value="me" />
         <node concept="3Tqbb2" id="6Ltuup4xdCH" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:5zr7Q_1InAA" resolve="ModelMergeExecution" />
+          <ref role="ehGHo" to="mopj:5zr7Q_1InAA" resolve="ModelMergingConfiguration" />
         </node>
       </node>
       <node concept="3Tm1VV" id="6Ltuup4xdCJ" role="1B3o_S" />
@@ -803,7 +803,7 @@
       <node concept="37vLTG" id="6Ltuup4xhzI" role="3clF46">
         <property role="TrG5h" value="me" />
         <node concept="3Tqbb2" id="6Ltuup4xhzJ" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:5zr7Q_1InAA" resolve="ModelMergeExecution" />
+          <ref role="ehGHo" to="mopj:5zr7Q_1InAA" resolve="ModelMergingConfiguration" />
         </node>
       </node>
       <node concept="3Tm1VV" id="6Ltuup4xhzM" role="1B3o_S" />
@@ -891,7 +891,7 @@
       <node concept="37vLTG" id="77Ot_5atFj_" role="3clF46">
         <property role="TrG5h" value="me" />
         <node concept="3Tqbb2" id="77Ot_5atFjA" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:5zr7Q_1InAA" resolve="ModelMergeExecution" />
+          <ref role="ehGHo" to="mopj:5zr7Q_1InAA" resolve="ModelMergingConfiguration" />
         </node>
       </node>
       <node concept="3Tm1VV" id="77Ot_5atFjT" role="1B3o_S" />

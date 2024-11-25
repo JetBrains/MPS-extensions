@@ -55,7 +55,7 @@
   </registry>
   <node concept="2S6QgY" id="5zr7Q_1L8CO">
     <property role="TrG5h" value="RunMerge" />
-    <ref role="2ZfgGC" to="mopj:5zr7Q_1InAA" resolve="ModelMergeExecution" />
+    <ref role="2ZfgGC" to="mopj:5zr7Q_1InAA" resolve="ModelMergingConfiguration" />
     <node concept="2S6ZIM" id="5zr7Q_1L8CP" role="2ZfVej">
       <node concept="3clFbS" id="5zr7Q_1L8CQ" role="2VODD2">
         <node concept="3clFbF" id="5zr7Q_1L8O5" role="3cqZAp">

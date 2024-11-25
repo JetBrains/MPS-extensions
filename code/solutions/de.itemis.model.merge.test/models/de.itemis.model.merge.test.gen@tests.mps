@@ -4325,7 +4325,7 @@
           <node concept="3cpWsn" id="5hEfjVobgxW" role="3cpWs9">
             <property role="TrG5h" value="modelMerge" />
             <node concept="3Tqbb2" id="5hEfjVobgxX" role="1tU5fm">
-              <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+              <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
             </node>
             <node concept="2OqwBi" id="5hEfjVobgxY" role="33vP2m">
               <node concept="37vLTw" id="5hEfjVobgxZ" role="2Oq$k0">
@@ -4351,12 +4351,12 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="5hEfjVobgxE" role="3clF45">
-        <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+        <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
       </node>
       <node concept="37vLTG" id="5hEfjVobgxC" role="3clF46">
         <property role="TrG5h" value="nodePtr" />
         <node concept="2sp9CU" id="5hEfjVobgxD" role="1tU5fm">
-          <ref role="2sp9C9" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+          <ref role="2sp9C9" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5hEfjVobgy6" role="1B3o_S" />

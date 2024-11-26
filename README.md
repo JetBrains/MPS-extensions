@@ -1,7 +1,7 @@
 # MPS Extensions
 
 <a href="https://mps.builds.itemis.cloud/project.html?projectId=Mbeddr2_Mbeddr_Gradle_MpsExtensions&tab=projectOverview"><img src="https://mps.builds.itemis.cloud/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
-![JetBrains MPS 2023.2](https://img.shields.io/badge/JetBrains%20MPS-2023.2-orange)
+![JetBrains MPS 2024.1](https://img.shields.io/badge/JetBrains%20MPS-2024.1-orange)
 
 [![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 

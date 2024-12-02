@@ -42,6 +42,7 @@
   <node concept="1TIwiD" id="Pogn2S65r1">
     <property role="EcuMT" value="961590472824346305" />
     <property role="TrG5h" value="MappingConfigStep" />
+    <property role="34LRSv" value="mapping configurations" />
     <ref role="1TJDcQ" to="bjdw:1_4co2y1Lw2" resolve="Transform" />
     <node concept="1TJgyj" id="6KgrWUnhWLD" role="1TKVEi">
       <property role="IQ2ns" value="7786846688815598697" />

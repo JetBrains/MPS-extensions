@@ -1033,7 +1033,7 @@
     </node>
     <node concept="2tJIrI" id="115Xaa3ZiV5" role="jymVt" />
     <node concept="3clFb_" id="115Xaa3Zj8M" role="jymVt">
-      <property role="TrG5h" value="init" />
+      <property role="TrG5h" value="addExtension" />
       <node concept="3cqZAl" id="115Xaa3Zj8O" role="3clF45" />
       <node concept="3Tm1VV" id="115Xaa3Zj8P" role="1B3o_S" />
       <node concept="3clFbS" id="115Xaa3Zj8Q" role="3clF47">
@@ -1091,6 +1091,61 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2tJIrI" id="5DETiuQw2cg" role="jymVt" />
+    <node concept="3clFb_" id="5DETiuQw8Sh" role="jymVt">
+      <property role="TrG5h" value="removeExtension" />
+      <node concept="3clFbS" id="5DETiuQw8Sk" role="3clF47">
+        <node concept="3cpWs8" id="5DETiuQwc1W" role="3cqZAp">
+          <node concept="3cpWsn" id="5DETiuQwc1X" role="3cpWs9">
+            <property role="TrG5h" value="ideaProject" />
+            <node concept="3uibUv" id="5DETiuQwc1Y" role="1tU5fm">
+              <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+            </node>
+            <node concept="1rXfSq" id="5DETiuQwc1Z" role="33vP2m">
+              <ref role="37wK5l" node="5rSmnqx0OJK" resolve="getIdeaProject" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5DETiuQwc20" role="3cqZAp">
+          <node concept="3cpWsn" id="5DETiuQwc21" role="3cpWs9">
+            <property role="TrG5h" value="epoint" />
+            <node concept="3uibUv" id="5DETiuQwc22" role="1tU5fm">
+              <ref role="3uigEE" to="9ti4:~ExtensionPoint" resolve="ExtensionPoint" />
+              <node concept="3uibUv" id="5DETiuQwc23" role="11_B2D">
+                <ref role="3uigEE" to="bnjk:~TreeStructureProvider" resolve="TreeStructureProvider" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5DETiuQwc24" role="33vP2m">
+              <node concept="10M0yZ" id="5DETiuQwc25" role="2Oq$k0">
+                <ref role="3cqZAo" to="bnjk:~TreeStructureProvider.EP" resolve="EP" />
+                <ref role="1PxDUh" to="bnjk:~TreeStructureProvider" resolve="TreeStructureProvider" />
+              </node>
+              <node concept="liA8E" id="5DETiuQwc26" role="2OqNvi">
+                <ref role="37wK5l" to="9ti4:~ProjectExtensionPointName.getPoint(com.intellij.openapi.extensions.AreaInstance)" resolve="getPoint" />
+                <node concept="37vLTw" id="5DETiuQwc27" role="37wK5m">
+                  <ref role="3cqZAo" node="5DETiuQwc1X" resolve="ideaProject" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5DETiuQwc2a" role="3cqZAp">
+          <node concept="2OqwBi" id="5DETiuQwc2b" role="3clFbG">
+            <node concept="37vLTw" id="5DETiuQwc2c" role="2Oq$k0">
+              <ref role="3cqZAo" node="5DETiuQwc21" resolve="epoint" />
+            </node>
+            <node concept="liA8E" id="5DETiuQwc2d" role="2OqNvi">
+              <ref role="37wK5l" to="9ti4:~ExtensionPoint.unregisterExtension(java.lang.Class)" resolve="unregisterExtension" />
+              <node concept="3VsKOn" id="5DETiuQwYhx" role="37wK5m">
+                <ref role="3VsUkX" node="2nMt2skySM5" resolve="ProjectViewExtension.ShadowRootTreeStructure1Provider" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5DETiuQw2K6" role="1B3o_S" />
+      <node concept="3cqZAl" id="5DETiuQw35$" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="2nMt2skyJFD" role="jymVt" />
     <node concept="3clFb_" id="5rSmnqx0OJK" role="jymVt">
@@ -1685,8 +1740,8 @@
     </node>
     <node concept="2tJIrI" id="5rSmnqwtPi_" role="jymVt" />
     <node concept="312cEu" id="2nMt2skySM5" role="jymVt">
-      <property role="2bfB8j" value="true" />
       <property role="TrG5h" value="ShadowRootTreeStructure1Provider" />
+      <property role="2bfB8j" value="true" />
       <node concept="3Tm1VV" id="2nMt2skySM6" role="1B3o_S" />
       <node concept="3uibUv" id="2nMt2skyZla" role="EKbjA">
         <ref role="3uigEE" to="bnjk:~TreeStructureProvider" resolve="TreeStructureProvider" />
@@ -1902,15 +1957,28 @@
     <property role="TrG5h" value="ProjectPlugin" />
     <node concept="2uRRBT" id="115Xaa3ZjO5" role="2uRRB$">
       <node concept="3clFbS" id="115Xaa3ZjO6" role="2VODD2">
-        <node concept="3clFbF" id="115Xaa3ZjUM" role="3cqZAp">
-          <node concept="2OqwBi" id="115Xaa3Zmcd" role="3clFbG">
-            <node concept="2YIFZM" id="115Xaa3ZlVe" role="2Oq$k0">
-              <ref role="1Pybhc" node="115Xaa3Z2Jb" resolve="ProjectViewExtension" />
-              <ref role="37wK5l" node="4S3q4YkONiE" resolve="getInstance" />
-              <node concept="1KvdUw" id="115Xaa3ZlVJ" role="37wK5m" />
+        <node concept="3clFbJ" id="5DETiuQu0U2" role="3cqZAp">
+          <node concept="3clFbS" id="5DETiuQu0U4" role="3clFbx">
+            <node concept="3clFbF" id="115Xaa3ZjUM" role="3cqZAp">
+              <node concept="2OqwBi" id="115Xaa3Zmcd" role="3clFbG">
+                <node concept="2YIFZM" id="115Xaa3ZlVe" role="2Oq$k0">
+                  <ref role="1Pybhc" node="115Xaa3Z2Jb" resolve="ProjectViewExtension" />
+                  <ref role="37wK5l" node="4S3q4YkONiE" resolve="getInstance" />
+                  <node concept="1KvdUw" id="115Xaa3ZlVJ" role="37wK5m" />
+                </node>
+                <node concept="liA8E" id="115Xaa3ZmtM" role="2OqNvi">
+                  <ref role="37wK5l" node="115Xaa3Zj8M" resolve="addExtension" />
+                </node>
+              </node>
             </node>
-            <node concept="liA8E" id="115Xaa3ZmtM" role="2OqNvi">
-              <ref role="37wK5l" node="115Xaa3Zj8M" resolve="init" />
+          </node>
+          <node concept="2OqwBi" id="5DETiuQu1gS" role="3clFbw">
+            <node concept="10M0yZ" id="5DETiuQu1gT" role="2Oq$k0">
+              <ref role="1PxDUh" node="5wHEIYKKFXe" resolve="OptionalPlugin_ShadowRepository" />
+              <ref role="3cqZAo" node="5wHEIYKKN4h" resolve="INSTANCE" />
+            </node>
+            <node concept="liA8E" id="5DETiuQu1gU" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKNq2x" resolve="isEnabled" />
             </node>
           </node>
         </node>
@@ -3070,6 +3138,11 @@
     <property role="TrG5h" value="ActivateShadowRepository" />
     <property role="2uzpH1" value="Activate Shadow Repository" />
     <property role="1rBW0U" value="true" />
+    <node concept="1DS2jV" id="5DETiuQvtvM" role="1NuT2Z">
+      <property role="TrG5h" value="project" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="5DETiuQvtvN" role="1oa70y" />
+    </node>
     <node concept="tnohg" id="7zI2priSBZ5" role="tncku">
       <node concept="3clFbS" id="7zI2priSBZ6" role="2VODD2">
         <node concept="3clFbF" id="5wHEIYKKXGm" role="3cqZAp">
@@ -3083,6 +3156,23 @@
               <node concept="3clFbT" id="5wHEIYKKY1c" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5DETiuQuQtA" role="3cqZAp">
+          <node concept="2OqwBi" id="5DETiuQuQtB" role="3clFbG">
+            <node concept="2YIFZM" id="5DETiuQuQtC" role="2Oq$k0">
+              <ref role="1Pybhc" node="115Xaa3Z2Jb" resolve="ProjectViewExtension" />
+              <ref role="37wK5l" node="4S3q4YkONiE" resolve="getInstance" />
+              <node concept="2OqwBi" id="5DETiuQvtK0" role="37wK5m">
+                <node concept="2WthIp" id="5DETiuQvtK3" role="2Oq$k0" />
+                <node concept="1DTwFV" id="5DETiuQvtK5" role="2OqNvi">
+                  <ref role="2WH_rO" node="5DETiuQvtvM" resolve="project" />
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="5DETiuQuQtE" role="2OqNvi">
+              <ref role="37wK5l" node="115Xaa3Zj8M" resolve="addExtension" />
             </node>
           </node>
         </node>
@@ -3110,6 +3200,11 @@
     <property role="TrG5h" value="DeactivateShadowRepository" />
     <property role="2uzpH1" value="Deactivate Shadow Repository" />
     <property role="1rBW0U" value="true" />
+    <node concept="1DS2jV" id="5DETiuQxCN4" role="1NuT2Z">
+      <property role="TrG5h" value="project" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="5DETiuQxCN5" role="1oa70y" />
+    </node>
     <node concept="tnohg" id="7zI2priSETR" role="tncku">
       <node concept="3clFbS" id="7zI2priSETS" role="2VODD2">
         <node concept="3clFbF" id="5wHEIYKKZi6" role="3cqZAp">
@@ -3124,6 +3219,24 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5DETiuQxAq3" role="3cqZAp">
+          <node concept="2OqwBi" id="5DETiuQxAq4" role="3clFbG">
+            <node concept="2YIFZM" id="5DETiuQxAq5" role="2Oq$k0">
+              <ref role="1Pybhc" node="115Xaa3Z2Jb" resolve="ProjectViewExtension" />
+              <ref role="37wK5l" node="4S3q4YkONiE" resolve="getInstance" />
+              <node concept="2OqwBi" id="5DETiuQxFdp" role="37wK5m">
+                <node concept="2WthIp" id="5DETiuQxFds" role="2Oq$k0" />
+                <node concept="1DTwFV" id="5DETiuQxFdu" role="2OqNvi">
+                  <ref role="2WH_rO" node="5DETiuQxCN4" resolve="project" />
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="5DETiuQxAq9" role="2OqNvi">
+              <ref role="37wK5l" node="5DETiuQw8Sh" resolve="removeExtension" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5DETiuQxAq1" role="3cqZAp" />
       </node>
     </node>
     <node concept="2ScWuX" id="7zI2priSETW" role="tmbBb">

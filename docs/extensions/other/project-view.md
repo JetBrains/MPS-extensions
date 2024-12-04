@@ -10,7 +10,7 @@ The platform contains a DSL to describe the structure of arbitrary alternative t
 already provides a drop-down menu to select from various views, and the DSL can contribute additional ones.
 
 The DSL supports the definition of arbitrary structures, labels, icons and actions and also lets you add additional nodes
-that are useful for structuring the tree. To see how this DSL works, checkout the custom views defined in `com.mbeddr.mpsutil.projectview.views` solution as well as the mbeddr favourites view in the com.mbeddr.mpsutil.favourites.plugin plugin solution.
+that are useful for structuring the tree. To see how this DSL works, checkout the custom views defined in `com.mbeddr.mpsutil.projectview.views` solution as well as the mbeddr favourites view in the `com.mbeddr.mpsutil.favourites.plugin` plugin solution.
 Below is a screenshot of that favourites view.
 
 <img alt="favourites view" src="../../img/favourites.png" />

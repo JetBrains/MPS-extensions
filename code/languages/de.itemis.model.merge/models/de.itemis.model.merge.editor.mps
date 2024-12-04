@@ -364,6 +364,16 @@
           <node concept="2iRkQZ" id="78fCHIExZbM" role="2czzBx" />
         </node>
       </node>
+      <node concept="3EZMnI" id="5HyGTP182kd" role="3EZMnx">
+        <node concept="VPM3Z" id="5HyGTP182kf" role="3F10Kt" />
+        <node concept="3F0ifn" id="5HyGTP182yV" role="3EZMnx">
+          <property role="3F0ifm" value="Partial policy: " />
+        </node>
+        <node concept="3F0A7n" id="5HyGTP182Ag" role="3EZMnx">
+          <ref role="1NtTu8" to="mopj:5HbTgGuQTJM" resolve="partialPolicy" />
+        </node>
+        <node concept="2iRfu4" id="5HyGTP182ki" role="2iSdaV" />
+      </node>
       <node concept="3F2HdR" id="1EbzjT2RA56" role="3EZMnx">
         <ref role="1NtTu8" to="mopj:1EbzjT2R$JQ" resolve="policies" />
         <node concept="2iRkQZ" id="1EbzjT2RA58" role="2czzBx" />

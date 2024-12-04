@@ -1396,7 +1396,7 @@
         </node>
         <node concept="3cpWs8" id="1yAYHyQ78$O" role="3cqZAp">
           <node concept="3cpWsn" id="1yAYHyQ78$P" role="3cpWs9">
-            <property role="TrG5h" value="modelmerge" />
+            <property role="TrG5h" value="mergingPolicy" />
             <node concept="3Tqbb2" id="1yAYHyQ78uC" role="1tU5fm">
               <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
             </node>
@@ -1414,7 +1414,7 @@
         </node>
         <node concept="3cpWs8" id="1yAYHyQ7lxb" role="3cqZAp">
           <node concept="3cpWsn" id="1yAYHyQ7lxc" role="3cpWs9">
-            <property role="TrG5h" value="mergePolicyChild" />
+            <property role="TrG5h" value="childPolicy" />
             <node concept="3Tqbb2" id="1yAYHyQ7lu1" role="1tU5fm">
               <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
             </node>

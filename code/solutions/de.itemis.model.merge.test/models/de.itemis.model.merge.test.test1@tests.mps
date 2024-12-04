@@ -189,15 +189,15 @@
       <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ig" index="230_S" />
       <concept id="7137735640371849272" name="de.itemis.model.merge.structure.IdFunctionParam" flags="ng" index="233M7" />
       <concept id="7555554651740524246" name="de.itemis.model.merge.structure.Right" flags="ng" index="3iOvoU" />
-      <concept id="1912777765298260981" name="de.itemis.model.merge.structure.MergePolicy" flags="ng" index="1olsrb">
+      <concept id="1912777765298260981" name="de.itemis.model.merge.structure.ConceptMergingPolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
         <child id="7137735640372265540" name="idFunction" index="21DrV" />
         <child id="1912777765298654333" name="propertyPolicies" index="1orW53" />
         <child id="8422540920006574021" name="childPolicies" index="3JN1Yi" />
       </concept>
-      <concept id="1912777765298266446" name="de.itemis.model.merge.structure.EmptyMergeItem" flags="ng" index="1oluLK" />
-      <concept id="1912777765298163335" name="de.itemis.model.merge.structure.ModelMerge" flags="ng" index="1olOeT">
-        <child id="1912777765298260982" name="items" index="1olsr8" />
+      <concept id="1912777765298266446" name="de.itemis.model.merge.structure.EmptyMergingPolicy" flags="ng" index="1oluLK" />
+      <concept id="1912777765298163335" name="de.itemis.model.merge.structure.ModelMergingPolicy" flags="ng" index="1olOeT">
+        <child id="1912777765298260982" name="policies" index="1olsr8" />
         <child id="2222162468665533253" name="lang" index="3WPhuS" />
       </concept>
       <concept id="1912777765298654154" name="de.itemis.model.merge.structure.Left" flags="ng" index="1orWrO" />

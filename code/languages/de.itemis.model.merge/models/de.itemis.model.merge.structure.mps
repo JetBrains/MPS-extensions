@@ -90,6 +90,11 @@
     <node concept="PrWs8" id="4mbxYkJdXnB" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyi" id="5HbTgGuQTJM" role="1TKVEl">
+      <property role="IQ2nx" value="6578603516629851122" />
+      <property role="TrG5h" value="partialPolicy" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1EbzjT2R$JP">
     <property role="EcuMT" value="1912777765298260981" />

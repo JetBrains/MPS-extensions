@@ -15373,21 +15373,6 @@
             <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3jVbLyZD$VD" role="3bR37C">
-          <node concept="3bR9La" id="3jVbLyZD$VE" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3jVbLyZD$VF" role="3bR37C">
-          <node concept="3bR9La" id="3jVbLyZD$VG" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3jVbLyZD$VH" role="3bR37C">
-          <node concept="3bR9La" id="3jVbLyZD$VI" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3jVbLyZD$VJ" role="3bR37C">
           <node concept="3bR9La" id="3jVbLyZD$VK" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />

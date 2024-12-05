@@ -15336,6 +15336,86 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="3jVbLyZDuHs" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.projectview.views" />
+        <property role="3LESm3" value="5c67d0a6-96e9-4056-be57-e594d54526b0" />
+        <node concept="3rtmxn" id="3xFG3bj5cMH" role="3bR31x">
+          <node concept="3LXTmp" id="3xFG3bj5cMI" role="3rtmxm">
+            <node concept="3qWCbU" id="3xFG3bj5cMJ" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="3xFG3bj5cMK" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="3xFG3bj5cML" role="iGT6I">
+                <property role="2Ry0Am" value="projectview" />
+                <node concept="2Ry0Ak" id="3xFG3bj5cMM" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.projectview.views" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="398BVA" id="3jVbLyZDwm6" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="3jVbLyZDxDY" role="iGT6I">
+            <property role="2Ry0Am" value="projectview" />
+            <node concept="2Ry0Ak" id="3jVbLyZDyXP" role="2Ry0An">
+              <property role="2Ry0Am" value="com.mbeddr.mpsutil.projectview.views" />
+              <node concept="2Ry0Ak" id="3jVbLyZD$hG" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.projectview.views.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3jVbLyZD$VB" role="3bR37C">
+          <node concept="3bR9La" id="3jVbLyZD$VC" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3jVbLyZD$VJ" role="3bR37C">
+          <node concept="3bR9La" id="3jVbLyZD$VK" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3jVbLyZD$VL" role="3bR37C">
+          <node concept="3bR9La" id="3jVbLyZD$VM" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3jVbLyZD$VP" role="3bR37C">
+          <node concept="3bR9La" id="3jVbLyZD$VQ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2avgMTl5svn" role="3bR37C">
+          <node concept="3bR9La" id="2avgMTl5svo" role="1SiIV1">
+            <ref role="3bR37D" node="PE3B26QCrP" resolve="org.apache.commons" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="4PRpvcZJNMx" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="4PRpvcZJNMy" role="1HemKq">
+            <node concept="398BVA" id="4PRpvcZJNMm" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4PRpvcZJNMn" role="iGT6I">
+                <property role="2Ry0Am" value="projectview" />
+                <node concept="2Ry0Ak" id="4PRpvcZJNMo" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.projectview.views" />
+                  <node concept="2Ry0Ak" id="4PRpvcZJNMp" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="4PRpvcZJNMz" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="m$_wf" id="24ObHxTzV4S" role="3989C9">
       <property role="m$_wk" value="com.mbeddr.mpsutil.projectview.vcs" />

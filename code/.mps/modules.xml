@@ -129,6 +129,7 @@
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.nestedlist.sandbox/com.dslfoundry.plaintextgen.example.nestedlist.sandbox.msd" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.plaintextflow/com.dslfoundry.plaintextgen.example.plaintextflow.msd" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.testlang.sandbox/com.dslfoundry.plaintextgen.example.testlang.sandbox.msd" folder="plaintextgen" />
+      <modulePath path="$PROJECT_DIR$/projectview/com.mbeddr.mpsutil.projectview.demo/com.mbeddr.mpsutil.projectview.demo.msd" folder="projectview" />
       <modulePath path="$PROJECT_DIR$/projectview/com.mbeddr.mpsutil.projectview.runtime/com.mbeddr.mpsutil.projectview.runtime.msd" folder="projectview" />
       <modulePath path="$PROJECT_DIR$/projectview/com.mbeddr.mpsutil.projectview.vcs/com.mbeddr.mpsutil.projectview.vcs.msd" folder="projectview" />
       <modulePath path="$PROJECT_DIR$/projectview/com.mbeddr.mpsutil.projectview.views/com.mbeddr.mpsutil.projectview.views.msd" folder="projectview" />

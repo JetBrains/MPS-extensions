@@ -29,8 +29,8 @@
       </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
-      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.ModelMergeExecution" flags="ng" index="poArf">
-        <reference id="6402745832172080681" name="modelMerge" index="pot50" />
+      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.ModelMergingConfiguration" flags="ng" index="poArf">
+        <reference id="6402745832172080681" name="mergingPolicy" index="pot50" />
         <child id="6402745832172399733" name="right" index="ppbcs" />
         <child id="6402745832172287192" name="left" index="ppIIL" />
         <child id="3370123198533999175" name="result" index="2JagXQ" />
@@ -284,6 +284,34 @@
       <node concept="1dCxOl" id="1Tugx_8FCL" role="1XwpL7">
         <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
         <node concept="1j_P7g" id="1Tugx_8FCM" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="poArf" id="38FdiWsmxTE">
+    <property role="TrG5h" value="ConceptWithEnumExec" />
+    <ref role="pot50" to="2y6h:38FdiWsmiLf" resolve="ConceptWithEnum" />
+    <node concept="1Xw6AR" id="38FdiWsmxTF" role="ppIIL">
+      <node concept="1dCxOl" id="38FdiWsmylu" role="1XwpL7">
+        <property role="1XweGQ" value="r:91ea9791-daad-455e-bc56-6603fc63e28c" />
+        <node concept="1j_P7g" id="38FdiWsmylv" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.enumLeft" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="38FdiWsmxTH" role="ppbcs">
+      <node concept="1dCxOl" id="38FdiWsmyqr" role="1XwpL7">
+        <property role="1XweGQ" value="r:d6171117-57e2-4a57-90db-2aab60257cc0" />
+        <node concept="1j_P7g" id="38FdiWsmyqs" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.enumRight" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="38FdiWsmyx0" role="2JagXQ">
+      <node concept="1dCxOl" id="38FdiWsmy_X" role="1XwpL7">
+        <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
+        <node concept="1j_P7g" id="38FdiWsmy_Y" role="1j$8Uc">
           <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
         </node>
       </node>

@@ -67,7 +67,7 @@
     <property role="EcuMT" value="3615041602350286780" />
     <property role="TrG5h" value="ConceptWithEnum" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="38FdiWsmgEl" role="1TKVEl">
       <property role="IQ2nx" value="3615041602350287509" />
       <property role="TrG5h" value="data" />

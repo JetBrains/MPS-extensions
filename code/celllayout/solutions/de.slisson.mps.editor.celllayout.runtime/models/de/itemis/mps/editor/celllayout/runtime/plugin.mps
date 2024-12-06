@@ -9,13 +9,15 @@
   <imports>
     <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
     <import index="qxi4" ref="r:45c19b6d-dd9a-4f15-973f-0267c5e76303(de.itemis.mps.editor.celllayout.runtime)" />
-    <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
+    <import index="wvnl" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.extensions(MPS.Editor/)" />
+    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -53,6 +55,7 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
@@ -79,11 +82,21 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
+        <child id="1081256993305" name="classType" index="2ZW6by" />
+        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
+      </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -138,6 +151,9 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
+        <reference id="1116615189566" name="classifier" index="3VsUkX" />
+      </concept>
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
@@ -202,10 +218,10 @@
   <node concept="2uRRBy" id="3Osd_yxgjRl">
     <property role="TrG5h" value="ProjectPlugin" />
     <node concept="2BZ0e9" id="3Osd_yxgk0e" role="2uRRBA">
-      <property role="TrG5h" value="myEditorComponentCreationListener" />
+      <property role="TrG5h" value="myEditorComponentExtension" />
       <node concept="3Tm6S6" id="3Osd_yxgk0f" role="1B3o_S" />
       <node concept="3uibUv" id="3Osd_yxgk6i" role="1tU5fm">
-        <ref role="3uigEE" to="kvq8:2WlJ6VKPQcy" resolve="EditorComponentCreationListener" />
+        <ref role="3uigEE" to="wvnl:~EditorExtension" resolve="EditorExtension" />
       </node>
     </node>
     <node concept="2BZ0e9" id="3Osd_yxgsW8" role="2uRRBA">
@@ -330,26 +346,75 @@
               <node concept="YeOm9" id="3Osd_yxgp5B" role="2ShVmc">
                 <node concept="1Y3b0j" id="3Osd_yxgp5E" role="YeSDq">
                   <property role="2bfB8j" value="true" />
-                  <ref role="1Y3XeK" to="kvq8:2WlJ6VKPQcy" resolve="EditorComponentCreationListener" />
-                  <ref role="37wK5l" to="kvq8:3pwG8PSjV93" resolve="EditorComponentCreationListener" />
+                  <ref role="1Y3XeK" to="wvnl:~EditorExtension" resolve="EditorExtension" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  <node concept="2tJIrI" id="DrREDhoOkU" role="jymVt" />
                   <node concept="3Tm1VV" id="3Osd_yxgp5F" role="1B3o_S" />
-                  <node concept="3clFb_" id="3Osd_yxgp5G" role="jymVt">
-                    <property role="TrG5h" value="editorComponentCreate" />
-                    <property role="1EzhhJ" value="false" />
-                    <node concept="37vLTG" id="3Osd_yxgp5H" role="3clF46">
-                      <property role="TrG5h" value="editorComponent" />
-                      <node concept="3uibUv" id="3Osd_yxgp5I" role="1tU5fm">
-                        <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                  <node concept="3clFb_" id="DrREDhoPlv" role="jymVt">
+                    <property role="TrG5h" value="isApplicable" />
+                    <node concept="3Tm1VV" id="DrREDhoPlw" role="1B3o_S" />
+                    <node concept="10P_77" id="DrREDhoPly" role="3clF45" />
+                    <node concept="37vLTG" id="DrREDhoPlz" role="3clF46">
+                      <property role="TrG5h" value="component" />
+                      <node concept="3uibUv" id="DrREDhoPl$" role="1tU5fm">
+                        <ref role="3uigEE" to="cj4x:~EditorComponent" resolve="EditorComponent" />
+                      </node>
+                      <node concept="2AHcQZ" id="DrREDhoPl_" role="2AJF6D">
+                        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
                       </node>
                     </node>
-                    <node concept="3cqZAl" id="3Osd_yxgp5J" role="3clF45" />
-                    <node concept="3Tm1VV" id="3Osd_yxgp5K" role="1B3o_S" />
-                    <node concept="3clFbS" id="3Osd_yxgp5M" role="3clF47">
+                    <node concept="3clFbS" id="DrREDhoPlB" role="3clF47">
+                      <node concept="3clFbF" id="DrREDhpYbJ" role="3cqZAp">
+                        <node concept="2ZW3vV" id="DrREDhpYT5" role="3clFbG">
+                          <node concept="3uibUv" id="DrREDhq0fk" role="2ZW6by">
+                            <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                          </node>
+                          <node concept="37vLTw" id="DrREDhpYbG" role="2ZW6bz">
+                            <ref role="3cqZAo" node="DrREDhoPlz" resolve="component" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2AHcQZ" id="DrREDhoPlC" role="2AJF6D">
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                    </node>
+                  </node>
+                  <node concept="3clFb_" id="DrREDhoPlF" role="jymVt">
+                    <property role="TrG5h" value="install" />
+                    <node concept="3Tm1VV" id="DrREDhoPlG" role="1B3o_S" />
+                    <node concept="3cqZAl" id="DrREDhoPlI" role="3clF45" />
+                    <node concept="37vLTG" id="DrREDhoPlJ" role="3clF46">
+                      <property role="TrG5h" value="component" />
+                      <node concept="3uibUv" id="DrREDhoPlK" role="1tU5fm">
+                        <ref role="3uigEE" to="cj4x:~EditorComponent" resolve="EditorComponent" />
+                      </node>
+                      <node concept="2AHcQZ" id="DrREDhoPlL" role="2AJF6D">
+                        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="DrREDhoPlN" role="3clF47">
+                      <node concept="3cpWs8" id="DrREDhpexR" role="3cqZAp">
+                        <node concept="3cpWsn" id="DrREDhpexS" role="3cpWs9">
+                          <property role="TrG5h" value="editorComponent" />
+                          <property role="3TUv4t" value="true" />
+                          <node concept="3uibUv" id="DrREDhpexT" role="1tU5fm">
+                            <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                          </node>
+                          <node concept="10QFUN" id="DrREDhpexU" role="33vP2m">
+                            <node concept="3uibUv" id="DrREDhpexV" role="10QFUM">
+                              <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                            </node>
+                            <node concept="37vLTw" id="DrREDhpexW" role="10QFUP">
+                              <ref role="3cqZAo" node="DrREDhoPlJ" resolve="component" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="3Osd_yxgqD4" role="3cqZAp">
                         <node concept="2OqwBi" id="3Osd_yxgrY9" role="3clFbG">
                           <node concept="2OqwBi" id="3Osd_yxgqI6" role="2Oq$k0">
                             <node concept="37vLTw" id="3Osd_yxgqD3" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
+                              <ref role="3cqZAo" node="DrREDhpexS" resolve="editorComponent" />
                             </node>
                             <node concept="liA8E" id="3Osd_yxgrUt" role="2OqNvi">
                               <ref role="37wK5l" to="exr9:~EditorComponent.getUpdater()" resolve="getUpdater" />
@@ -382,14 +447,14 @@
                             </node>
                           </node>
                           <node concept="37vLTw" id="6IJAP0oQhwN" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
+                            <ref role="3cqZAo" node="DrREDhpexS" resolve="editorComponent" />
                           </node>
                         </node>
                       </node>
                       <node concept="3clFbF" id="6SVXTgIaykH" role="3cqZAp">
                         <node concept="2OqwBi" id="6SVXTgIaykI" role="3clFbG">
                           <node concept="37vLTw" id="6SVXTgIaykJ" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
+                            <ref role="3cqZAo" node="DrREDhpexS" resolve="editorComponent" />
                           </node>
                           <node concept="liA8E" id="6SVXTgIaykK" role="2OqNvi">
                             <ref role="37wK5l" to="exr9:~EditorComponent.addAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter)" resolve="addAdditionalPainter" />
@@ -412,7 +477,7 @@
                             <ref role="37wK5l" to="qxi4:3ATi8gIzat4" resolve="installWhereRequired" />
                             <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
                             <node concept="37vLTw" id="3ATi8gI_7KY" role="37wK5m">
-                              <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
+                              <ref role="3cqZAo" node="DrREDhpexS" resolve="editorComponent" />
                             </node>
                           </node>
                         </node>
@@ -425,7 +490,7 @@
                               <ref role="37wK5l" to="qxi4:2hEgJWEwRPU" resolve="invalidateAllCells" />
                               <node concept="2OqwBi" id="2hEgJWEwT5t" role="37wK5m">
                                 <node concept="37vLTw" id="2hEgJWEx7O5" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
+                                  <ref role="3cqZAo" node="DrREDhpexS" resolve="editorComponent" />
                                 </node>
                                 <node concept="liA8E" id="2hEgJWEwT5v" role="2OqNvi">
                                   <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
@@ -439,7 +504,7 @@
                                 <ref role="37wK5l" to="exr9:~EditorComponent.relayout()" resolve="relayout" />
                               </node>
                               <node concept="37vLTw" id="2hEgJWExc8z" role="2Oq$k0">
-                                <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
+                                <ref role="3cqZAo" node="DrREDhpexS" resolve="editorComponent" />
                               </node>
                             </node>
                           </node>
@@ -449,23 +514,45 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="2AHcQZ" id="DrREDhoPlO" role="2AJF6D">
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                    </node>
                   </node>
-                  <node concept="3clFb_" id="3Osd_yxgp5O" role="jymVt">
-                    <property role="TrG5h" value="editorComponentDisposed" />
-                    <property role="1EzhhJ" value="false" />
-                    <node concept="37vLTG" id="3Osd_yxgp5P" role="3clF46">
-                      <property role="TrG5h" value="editorComponent" />
-                      <node concept="3uibUv" id="3Osd_yxgp5Q" role="1tU5fm">
-                        <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                  <node concept="3clFb_" id="DrREDhoPlP" role="jymVt">
+                    <property role="TrG5h" value="uninstall" />
+                    <node concept="3Tm1VV" id="DrREDhoPlQ" role="1B3o_S" />
+                    <node concept="3cqZAl" id="DrREDhoPlS" role="3clF45" />
+                    <node concept="37vLTG" id="DrREDhoPlT" role="3clF46">
+                      <property role="TrG5h" value="component" />
+                      <node concept="3uibUv" id="DrREDhoPlU" role="1tU5fm">
+                        <ref role="3uigEE" to="cj4x:~EditorComponent" resolve="EditorComponent" />
+                      </node>
+                      <node concept="2AHcQZ" id="DrREDhoPlV" role="2AJF6D">
+                        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
                       </node>
                     </node>
-                    <node concept="3cqZAl" id="3Osd_yxgp5R" role="3clF45" />
-                    <node concept="3Tm1VV" id="3Osd_yxgp5S" role="1B3o_S" />
-                    <node concept="3clFbS" id="3Osd_yxgp5U" role="3clF47">
+                    <node concept="3clFbS" id="DrREDhoPlX" role="3clF47">
+                      <node concept="3cpWs8" id="DrREDhp0Ek" role="3cqZAp">
+                        <node concept="3cpWsn" id="DrREDhp0El" role="3cpWs9">
+                          <property role="TrG5h" value="editorComponent" />
+                          <property role="3TUv4t" value="true" />
+                          <node concept="3uibUv" id="DrREDhp0Em" role="1tU5fm">
+                            <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                          </node>
+                          <node concept="10QFUN" id="DrREDhp6iU" role="33vP2m">
+                            <node concept="3uibUv" id="DrREDhp7sa" role="10QFUM">
+                              <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                            </node>
+                            <node concept="37vLTw" id="DrREDhp58I" role="10QFUP">
+                              <ref role="3cqZAo" node="DrREDhoPlT" resolve="component" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="6SVXTgIayr8" role="3cqZAp">
                         <node concept="2OqwBi" id="6SVXTgIayr9" role="3clFbG">
                           <node concept="37vLTw" id="6SVXTgIayra" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3Osd_yxgp5P" resolve="editorComponent" />
+                            <ref role="3cqZAo" node="DrREDhp0El" resolve="editorComponent" />
                           </node>
                           <node concept="liA8E" id="6SVXTgIayrb" role="2OqNvi">
                             <ref role="37wK5l" to="exr9:~EditorComponent.removeAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter)" resolve="removeAdditionalPainter" />
@@ -483,7 +570,7 @@
                       <node concept="3clFbF" id="6IJAP0oQk0j" role="3cqZAp">
                         <node concept="2OqwBi" id="6IJAP0oQk8d" role="3clFbG">
                           <node concept="37vLTw" id="6IJAP0oQk0h" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3Osd_yxgp5P" resolve="editorComponent" />
+                            <ref role="3cqZAo" node="DrREDhp0El" resolve="editorComponent" />
                           </node>
                           <node concept="liA8E" id="6IJAP0oQlVI" role="2OqNvi">
                             <ref role="37wK5l" to="exr9:~EditorComponent.removeAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter)" resolve="removeAdditionalPainter" />
@@ -502,7 +589,7 @@
                         <node concept="2OqwBi" id="3Osd_yxgtA5" role="3clFbG">
                           <node concept="2OqwBi" id="3Osd_yxgtA6" role="2Oq$k0">
                             <node concept="37vLTw" id="3Osd_yxgtA7" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3Osd_yxgp5P" resolve="editorComponent" />
+                              <ref role="3cqZAo" node="DrREDhp0El" resolve="editorComponent" />
                             </node>
                             <node concept="liA8E" id="3Osd_yxgtA8" role="2OqNvi">
                               <ref role="37wK5l" to="exr9:~EditorComponent.getUpdater()" resolve="getUpdater" />
@@ -526,36 +613,44 @@
                           <ref role="37wK5l" to="qxi4:3oUU9KDF3kp" resolve="uninstall" />
                           <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
                           <node concept="37vLTw" id="3oUU9KDF3BD" role="37wK5m">
-                            <ref role="3cqZAo" node="3Osd_yxgp5P" resolve="editorComponent" />
+                            <ref role="3cqZAo" node="DrREDhp0El" resolve="editorComponent" />
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="2AHcQZ" id="DrREDhoPlY" role="2AJF6D">
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                    </node>
                   </node>
-                  <node concept="1KvdUw" id="3Osd_yxgqlh" role="37wK5m" />
                 </node>
               </node>
             </node>
             <node concept="2OqwBi" id="3Osd_yxgkcw" role="37vLTJ">
               <node concept="2WthIp" id="3Osd_yxgkcz" role="2Oq$k0" />
               <node concept="2BZ7hE" id="3Osd_yxgkc_" role="2OqNvi">
-                <ref role="2WH_rO" node="3Osd_yxgk0e" resolve="myEditorComponentCreationListener" />
+                <ref role="2WH_rO" node="3Osd_yxgk0e" resolve="myEditorComponentExtension" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3Osd_yxgq38" role="3cqZAp">
-          <node concept="2OqwBi" id="3Osd_yxgq78" role="3clFbG">
-            <node concept="2OqwBi" id="3Osd_yxgq32" role="2Oq$k0">
-              <node concept="2WthIp" id="3Osd_yxgq35" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="3Osd_yxgq37" role="2OqNvi">
-                <ref role="2WH_rO" node="3Osd_yxgk0e" resolve="myEditorComponentCreationListener" />
+        <node concept="3clFbF" id="2BYLcdcOEca" role="3cqZAp">
+          <node concept="2OqwBi" id="2BYLcdcOFbX" role="3clFbG">
+            <node concept="2OqwBi" id="2BYLcdcOEvN" role="2Oq$k0">
+              <node concept="liA8E" id="2BYLcdcOEIo" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
+                <node concept="3VsKOn" id="2BYLcdcOF5v" role="37wK5m">
+                  <ref role="3VsUkX" to="wvnl:~EditorExtensionRegistry" resolve="EditorExtensionRegistry" />
+                </node>
               </node>
+              <node concept="1KvdUw" id="DrREDhoKSp" role="2Oq$k0" />
             </node>
-            <node concept="liA8E" id="3Osd_yxgq9Y" role="2OqNvi">
-              <ref role="37wK5l" to="kvq8:2WlJ6VKQR6W" resolve="start" />
-              <node concept="3clFbT" id="3Osd_yxgqbj" role="37wK5m">
-                <property role="3clFbU" value="true" />
+            <node concept="liA8E" id="2BYLcdcOFk_" role="2OqNvi">
+              <ref role="37wK5l" to="wvnl:~EditorExtensionRegistry.registerExtension(jetbrains.mps.openapi.editor.extensions.EditorExtension)" resolve="registerExtension" />
+              <node concept="2OqwBi" id="DrREDhoL2P" role="37wK5m">
+                <node concept="2WthIp" id="DrREDhoL2S" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="DrREDhoL2U" role="2OqNvi">
+                  <ref role="2WH_rO" node="3Osd_yxgk0e" resolve="myEditorComponentExtension" />
+                </node>
               </node>
             </node>
           </node>
@@ -564,16 +659,36 @@
     </node>
     <node concept="2uRRBN" id="3Osd_yxgpHW" role="2uRRB_">
       <node concept="3clFbS" id="3Osd_yxgpHX" role="2VODD2">
-        <node concept="3clFbF" id="3Osd_yxgpPZ" role="3cqZAp">
-          <node concept="2OqwBi" id="3Osd_yxgpRX" role="3clFbG">
-            <node concept="2OqwBi" id="3Osd_yxgpPT" role="2Oq$k0">
-              <node concept="2WthIp" id="3Osd_yxgpPW" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="3Osd_yxgpPY" role="2OqNvi">
-                <ref role="2WH_rO" node="3Osd_yxgk0e" resolve="myEditorComponentCreationListener" />
+        <node concept="3clFbF" id="DrREDhoL8f" role="3cqZAp">
+          <node concept="2OqwBi" id="DrREDhoL8g" role="3clFbG">
+            <node concept="2OqwBi" id="DrREDhoL8h" role="2Oq$k0">
+              <node concept="liA8E" id="DrREDhoL8i" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
+                <node concept="3VsKOn" id="DrREDhoL8j" role="37wK5m">
+                  <ref role="3VsUkX" to="wvnl:~EditorExtensionRegistry" resolve="EditorExtensionRegistry" />
+                </node>
+              </node>
+              <node concept="1KvdUw" id="DrREDhoL8k" role="2Oq$k0" />
+            </node>
+            <node concept="liA8E" id="DrREDhoL8l" role="2OqNvi">
+              <ref role="37wK5l" to="wvnl:~EditorExtensionRegistry.unregisterExtension(jetbrains.mps.openapi.editor.extensions.EditorExtension)" resolve="unregisterExtension" />
+              <node concept="2OqwBi" id="DrREDhoL8m" role="37wK5m">
+                <node concept="2WthIp" id="DrREDhoL8n" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="DrREDhoL8o" role="2OqNvi">
+                  <ref role="2WH_rO" node="3Osd_yxgk0e" resolve="myEditorComponentExtension" />
+                </node>
               </node>
             </node>
-            <node concept="liA8E" id="3Osd_yxgpTA" role="2OqNvi">
-              <ref role="37wK5l" to="kvq8:2WlJ6VKQRx4" resolve="stop" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3Osd_yxgpPZ" role="3cqZAp">
+          <node concept="37vLTI" id="DrREDhoLXp" role="3clFbG">
+            <node concept="10Nm6u" id="DrREDhoM4V" role="37vLTx" />
+            <node concept="2OqwBi" id="3Osd_yxgpPT" role="37vLTJ">
+              <node concept="2WthIp" id="3Osd_yxgpPW" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="3Osd_yxgpPY" role="2OqNvi">
+                <ref role="2WH_rO" node="3Osd_yxgk0e" resolve="myEditorComponentExtension" />
+              </node>
             </node>
           </node>
         </node>

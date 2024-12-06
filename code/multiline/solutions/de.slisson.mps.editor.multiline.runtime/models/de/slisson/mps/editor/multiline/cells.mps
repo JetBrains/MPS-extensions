@@ -10,6 +10,8 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
+    <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
   </languages>
   <imports>
     <import index="mywg" ref="r:f19691e5-cdba-471c-b59a-00d5ff7aea1c(de.slisson.mps.editor.multiline.runtime)" />
@@ -48,8 +50,8 @@
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="hdhb" ref="r:07568eb8-30c0-4bb3-9dcb-50ee4b8de59a(jetbrains.mps.vcs.diff.ui.common)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
+    <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -4269,35 +4271,296 @@
           </node>
         </node>
         <node concept="3clFbH" id="3PRvLzCPxLN" role="3cqZAp" />
-        <node concept="3clFbF" id="2TbqVtHlxXl" role="3cqZAp">
-          <node concept="1rXfSq" id="2TbqVtHlxXj" role="3clFbG">
-            <ref role="37wK5l" to="g51k:~EditorCell_Basic.paintSelectionIfRequired(java.awt.Graphics,jetbrains.mps.nodeEditor.cells.ParentSettings)" resolve="paintSelectionIfRequired" />
-            <node concept="37vLTw" id="2TbqVtHlGv4" role="37wK5m">
-              <ref role="3cqZAo" node="3PRvLzCPliS" resolve="g" />
+        <node concept="3cpWs8" id="4eDpbiFquyM" role="3cqZAp">
+          <node concept="3cpWsn" id="4eDpbiFquyL" role="3cpWs9">
+            <property role="TrG5h" value="settings" />
+            <node concept="3uibUv" id="4eDpbiFquyN" role="1tU5fm">
+              <ref role="3uigEE" to="g51k:~ParentSettings" resolve="ParentSettings" />
             </node>
-            <node concept="37vLTw" id="2TbqVtHlIzg" role="37wK5m">
-              <ref role="3cqZAo" node="3PRvLzCPliU" resolve="parentSettings" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2TbqVtHlli9" role="3cqZAp" />
-        <node concept="3cpWs6" id="3PRvLzCPluB" role="3cqZAp">
-          <node concept="2OqwBi" id="3PRvLzCPluC" role="3cqZAk">
-            <node concept="2YIFZM" id="3PRvLzCPluD" role="2Oq$k0">
-              <ref role="1Pybhc" to="g51k:~ParentSettings" resolve="ParentSettings" />
-              <ref role="37wK5l" to="g51k:~ParentSettings.createBackgroundlessSetting(boolean)" resolve="createBackgroundlessSetting" />
-              <node concept="37vLTw" id="1rfeXz7xsAO" role="37wK5m">
-                <ref role="3cqZAo" node="3PRvLzCPlu7" resolve="hasMessages" />
-              </node>
-            </node>
-            <node concept="liA8E" id="3PRvLzCPluF" role="2OqNvi">
-              <ref role="37wK5l" to="g51k:~ParentSettings.combineWith(jetbrains.mps.nodeEditor.cells.ParentSettings)" resolve="combineWith" />
-              <node concept="37vLTw" id="1rfeXz7xt8U" role="37wK5m">
+            <node concept="1rXfSq" id="4eDpbiFquyO" role="33vP2m">
+              <ref role="37wK5l" to="g51k:~EditorCell_Basic.isSelectionPaintedOnAncestor(jetbrains.mps.nodeEditor.cells.ParentSettings)" resolve="isSelectionPaintedOnAncestor" />
+              <node concept="37vLTw" id="4eDpbiFquyP" role="37wK5m">
                 <ref role="3cqZAo" node="3PRvLzCPliU" resolve="parentSettings" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="4eDpbiFquyQ" role="3cqZAp">
+          <node concept="3fqX7Q" id="4eDpbiFquyR" role="3clFbw">
+            <node concept="2OqwBi" id="4eDpbiFrjuH" role="3fr31v">
+              <node concept="37vLTw" id="4eDpbiFqAH0" role="2Oq$k0">
+                <ref role="3cqZAo" node="4eDpbiFquyL" resolve="settings" />
+              </node>
+              <node concept="liA8E" id="4eDpbiFrjuI" role="2OqNvi">
+                <ref role="37wK5l" to="g51k:~ParentSettings.isSelectionPainted()" resolve="isSelectionPainted" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="4eDpbiFquyU" role="3clFbx">
+            <node concept="3clFbJ" id="4eDpbiFquyV" role="3cqZAp">
+              <node concept="1Wc70l" id="4eDpbiFquyW" role="3clFbw">
+                <node concept="3fqX7Q" id="4eDpbiFquyX" role="3uHU7B">
+                  <node concept="2OqwBi" id="4eDpbiFraV3" role="3fr31v">
+                    <node concept="37vLTw" id="4eDpbiFqLvF" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3PRvLzCPliU" resolve="parentSettings" />
+                    </node>
+                    <node concept="liA8E" id="4eDpbiFraV4" role="2OqNvi">
+                      <ref role="37wK5l" to="g51k:~ParentSettings.isSkipBackground()" resolve="isSkipBackground" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4eDpbiFqHeN" role="3uHU7w">
+                  <node concept="1rXfSq" id="4eDpbiFquz0" role="2Oq$k0">
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle()" resolve="getStyle" />
+                  </node>
+                  <node concept="liA8E" id="4eDpbiFqHeO" role="2OqNvi">
+                    <ref role="37wK5l" to="hox0:~Style.isSpecified(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="isSpecified" />
+                    <node concept="10M0yZ" id="4eDpbiFqHeP" role="37wK5m">
+                      <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
+                      <ref role="3cqZAo" to="5ueo:~StyleAttributes.BACKGROUND_COLOR" resolve="BACKGROUND_COLOR" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="4eDpbiFquz3" role="3clFbx">
+                <node concept="3SKdUt" id="4eDpbiFqu$4" role="3cqZAp">
+                  <node concept="1PaTwC" id="4eDpbiFqu$5" role="1aUNEU">
+                    <node concept="3oM_SD" id="4eDpbiFqu$6" role="1PaTwD">
+                      <property role="3oM_SC" value="BACKGROUND_COLOR" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$7" role="1PaTwD">
+                      <property role="3oM_SC" value="is" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$8" role="1PaTwD">
+                      <property role="3oM_SC" value="always" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$9" role="1PaTwD">
+                      <property role="3oM_SC" value="present" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$a" role="1PaTwD">
+                      <property role="3oM_SC" value="as" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$b" role="1PaTwD">
+                      <property role="3oM_SC" value="it's" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$c" role="1PaTwD">
+                      <property role="3oM_SC" value="inherited" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$d" role="1PaTwD">
+                      <property role="3oM_SC" value="from" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$e" role="1PaTwD">
+                      <property role="3oM_SC" value="EC" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$f" role="1PaTwD">
+                      <property role="3oM_SC" value="defaults;" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$g" role="1PaTwD">
+                      <property role="3oM_SC" value="here" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$h" role="1PaTwD">
+                      <property role="3oM_SC" value="we" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$i" role="1PaTwD">
+                      <property role="3oM_SC" value="need" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$j" role="1PaTwD">
+                      <property role="3oM_SC" value="to" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$k" role="1PaTwD">
+                      <property role="3oM_SC" value="paint" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$l" role="1PaTwD">
+                      <property role="3oM_SC" value="cell" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$m" role="1PaTwD">
+                      <property role="3oM_SC" value="background" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="4eDpbiFqu$n" role="3cqZAp">
+                  <node concept="1PaTwC" id="4eDpbiFqu$o" role="1aUNEU">
+                    <node concept="3oM_SD" id="4eDpbiFqu$p" role="1PaTwD">
+                      <property role="3oM_SC" value="only" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$q" role="1PaTwD">
+                      <property role="3oM_SC" value="in" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$r" role="1PaTwD">
+                      <property role="3oM_SC" value="case" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$s" role="1PaTwD">
+                      <property role="3oM_SC" value="it" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$t" role="1PaTwD">
+                      <property role="3oM_SC" value="was" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$u" role="1PaTwD">
+                      <property role="3oM_SC" value="explicitly" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$v" role="1PaTwD">
+                      <property role="3oM_SC" value="specified" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$w" role="1PaTwD">
+                      <property role="3oM_SC" value="in" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$x" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$y" role="1PaTwD">
+                      <property role="3oM_SC" value="cell" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$z" role="1PaTwD">
+                      <property role="3oM_SC" value="settings." />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="4eDpbiFqu$$" role="3cqZAp">
+                  <node concept="1PaTwC" id="4eDpbiFqu$_" role="1aUNEU">
+                    <node concept="3oM_SD" id="4eDpbiFqu$A" role="1PaTwD">
+                      <property role="3oM_SC" value="PS.isSkipBackground" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$B" role="1PaTwD">
+                      <property role="3oM_SC" value="seems" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$C" role="1PaTwD">
+                      <property role="3oM_SC" value="to" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$D" role="1PaTwD">
+                      <property role="3oM_SC" value="still" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$E" role="1PaTwD">
+                      <property role="3oM_SC" value="make" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$F" role="1PaTwD">
+                      <property role="3oM_SC" value="sense" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$G" role="1PaTwD">
+                      <property role="3oM_SC" value="as" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$H" role="1PaTwD">
+                      <property role="3oM_SC" value="it" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$I" role="1PaTwD">
+                      <property role="3oM_SC" value="reflects" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$J" role="1PaTwD">
+                      <property role="3oM_SC" value="EditorMessage" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$K" role="1PaTwD">
+                      <property role="3oM_SC" value="aspect" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$L" role="1PaTwD">
+                      <property role="3oM_SC" value="rather" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$M" role="1PaTwD">
+                      <property role="3oM_SC" value="than" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$N" role="1PaTwD">
+                      <property role="3oM_SC" value="BG" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$O" role="1PaTwD">
+                      <property role="3oM_SC" value="inheritable" />
+                    </node>
+                    <node concept="3oM_SD" id="4eDpbiFqu$P" role="1PaTwD">
+                      <property role="3oM_SC" value="defaults." />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="4eDpbiFquz5" role="3cqZAp">
+                  <node concept="3cpWsn" id="4eDpbiFquz4" role="3cpWs9">
+                    <property role="TrG5h" value="backgroundColor" />
+                    <node concept="3uibUv" id="4eDpbiFquz6" role="1tU5fm">
+                      <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+                    </node>
+                    <node concept="2OqwBi" id="4eDpbiFqLuj" role="33vP2m">
+                      <node concept="1rXfSq" id="4eDpbiFquz8" role="2Oq$k0">
+                        <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle()" resolve="getStyle" />
+                      </node>
+                      <node concept="liA8E" id="4eDpbiFqLuk" role="2OqNvi">
+                        <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
+                        <node concept="10M0yZ" id="4eDpbiFqTQf" role="37wK5m">
+                          <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
+                          <ref role="3cqZAo" to="5ueo:~StyleAttributes.BACKGROUND_COLOR" resolve="BACKGROUND_COLOR" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="4eDpbiFquza" role="3cqZAp">
+                  <node concept="3y3z36" id="4eDpbiFquzb" role="3clFbw">
+                    <node concept="37vLTw" id="4eDpbiFquzc" role="3uHU7B">
+                      <ref role="3cqZAo" node="4eDpbiFquz4" resolve="backgroundColor" />
+                    </node>
+                    <node concept="10Nm6u" id="4eDpbiFquzd" role="3uHU7w" />
+                  </node>
+                  <node concept="3clFbS" id="4eDpbiFquzf" role="3clFbx">
+                    <node concept="3clFbF" id="4eDpbiFquzg" role="3cqZAp">
+                      <node concept="2OqwBi" id="4eDpbiFrfcJ" role="3clFbG">
+                        <node concept="37vLTw" id="4eDpbiFqAFA" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3PRvLzCPliS" resolve="g" />
+                        </node>
+                        <node concept="liA8E" id="4eDpbiFrfcK" role="2OqNvi">
+                          <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
+                          <node concept="37vLTw" id="4eDpbiFrfcL" role="37wK5m">
+                            <ref role="3cqZAo" node="4eDpbiFquz4" resolve="backgroundColor" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="4eDpbiFquzj" role="3cqZAp">
+                      <node concept="1rXfSq" id="4eDpbiFquzk" role="3clFbG">
+                        <ref role="37wK5l" to="g51k:~EditorCell_Collection.paintBackground(java.awt.Graphics)" resolve="paintBackground" />
+                        <node concept="37vLTw" id="4eDpbiFquzl" role="37wK5m">
+                          <ref role="3cqZAo" node="3PRvLzCPliS" resolve="g" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4eDpbiFquzR" role="3cqZAp">
+              <node concept="37vLTI" id="4eDpbiFquzS" role="3clFbG">
+                <node concept="37vLTw" id="4eDpbiFquzT" role="37vLTJ">
+                  <ref role="3cqZAo" node="4eDpbiFquyL" resolve="settings" />
+                </node>
+                <node concept="2OqwBi" id="4eDpbiFqTPI" role="37vLTx">
+                  <node concept="2YIFZM" id="4eDpbiFqLw7" role="2Oq$k0">
+                    <ref role="1Pybhc" to="g51k:~ParentSettings" resolve="ParentSettings" />
+                    <ref role="37wK5l" to="g51k:~ParentSettings.createBackgroundlessSetting(boolean)" resolve="createBackgroundlessSetting" />
+                    <node concept="37vLTw" id="4eDpbiFqLw8" role="37wK5m">
+                      <ref role="3cqZAo" node="3PRvLzCPlu7" resolve="hasMessages" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="4eDpbiFqTPJ" role="2OqNvi">
+                    <ref role="37wK5l" to="g51k:~ParentSettings.combineWith(jetbrains.mps.nodeEditor.cells.ParentSettings)" resolve="combineWith" />
+                    <node concept="37vLTw" id="4eDpbiFqTPK" role="37wK5m">
+                      <ref role="3cqZAo" node="3PRvLzCPliU" resolve="parentSettings" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4eDpbiFquzY" role="3cqZAp">
+          <node concept="1rXfSq" id="4eDpbiFquzZ" role="3clFbG">
+            <ref role="37wK5l" to="g51k:~EditorCell_Basic.paintSelectionIfRequired(java.awt.Graphics,jetbrains.mps.nodeEditor.cells.ParentSettings)" resolve="paintSelectionIfRequired" />
+            <node concept="37vLTw" id="4eDpbiFqu$0" role="37wK5m">
+              <ref role="3cqZAo" node="3PRvLzCPliS" resolve="g" />
+            </node>
+            <node concept="37vLTw" id="4eDpbiFqu$1" role="37wK5m">
+              <ref role="3cqZAo" node="3PRvLzCPliU" resolve="parentSettings" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4eDpbiFqu$2" role="3cqZAp">
+          <node concept="37vLTw" id="4eDpbiFqu$3" role="3cqZAk">
+            <ref role="3cqZAo" node="4eDpbiFquyL" resolve="settings" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4eDpbiFqmAS" role="3cqZAp" />
       </node>
       <node concept="2AHcQZ" id="3PRvLzCPliX" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />

@@ -1923,5 +1923,42 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="1byEXNPPq9">
+    <ref role="1XX52x" to="uin2:1byEXNPCKA" resolve="CompactTreeNode" />
+    <node concept="2SWKgc" id="1byEXNQ0r9" role="2wV5jI">
+      <node concept="3F0A7n" id="1byEXNQ0re" role="2SWKFN">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F2HdR" id="1byEXNQeqq" role="2SWKFX">
+        <ref role="1NtTu8" to="uin2:1byEXNQ0rg" resolve="subnodes" />
+      </node>
+      <node concept="3tD6jV" id="1byEXNQDbp" role="3F10Kt">
+        <ref role="3tD7wE" to="5un2:7uOgiTdwyO" resolve="tree-left-to-right" />
+        <node concept="3sjG9q" id="1byEXNQDbq" role="3tD6jU">
+          <node concept="3clFbS" id="1byEXNQDbr" role="2VODD2">
+            <node concept="3clFbF" id="1byEXNQDoA" role="3cqZAp">
+              <node concept="3clFbT" id="1byEXNQDo_" role="3clFbG">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3tD6jV" id="1byEXNQDoS" role="3F10Kt">
+        <ref role="3tD7wE" to="5un2:7dj$mdOQ2D$" resolve="tree-layout" />
+        <node concept="3sjG9q" id="1byEXNQDoU" role="3tD6jU">
+          <node concept="3clFbS" id="1byEXNQDoW" role="2VODD2">
+            <node concept="3clFbF" id="1byEXNQPWq" role="3cqZAp">
+              <node concept="10M0yZ" id="1byEXNQPYZ" role="3clFbG">
+                <ref role="3cqZAo" to="4hco:7dj$mdOQ3uQ" resolve="COMPACT" />
+                <ref role="1PxDUh" to="4hco:7dj$mdOQ2La" resolve="TreeLayoutTypes" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1VmSv7" id="1byEXNR64X" role="1Vhs_Z" />
+    </node>
+  </node>
 </model>
 

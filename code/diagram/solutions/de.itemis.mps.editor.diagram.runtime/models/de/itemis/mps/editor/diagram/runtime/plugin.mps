@@ -51,11 +51,17 @@
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="ujg5" ref="563a0770-eb88-4f4f-83ed-f708776fc2fe/java:org.apache.batik.dom(de.itemis.stubs.batik/)" />
     <import index="nxzt" ref="563a0770-eb88-4f4f-83ed-f708776fc2fe/java:org.apache.batik.svggen(de.itemis.stubs.batik/)" />
+    <import index="1wbl" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.idea(MPS.IDEA/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
       <concept id="1204908117386" name="jetbrains.mps.lang.plugin.structure.Separator" flags="ng" index="2a7GMi" />
       <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
@@ -104,6 +110,7 @@
         <child id="8096638938275469614" name="toolInitBlock" index="uR5cp" />
         <child id="6547237850567462848" name="methodDeclaration" index="2XNbBy" />
         <child id="6547237850567462849" name="fieldDeclaration" index="2XNbBz" />
+        <child id="6791676465872004185" name="toolIcon" index="1nVCmq" />
       </concept>
       <concept id="1562714432501166198" name="jetbrains.mps.lang.plugin.structure.SimpleShortcutChange" flags="lg" index="Zd509">
         <child id="1562714432501166206" name="keystroke" index="Zd501" />
@@ -678,6 +685,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="1QGGSu" id="16bAI4pbS7t" role="1nVCmq">
+      <property role="1iqoE4" value="${module}/icons/erDiagram.svg" />
     </node>
   </node>
   <node concept="sE7Ow" id="6XHx0At$rH9">
@@ -3090,18 +3100,18 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1JJYOwUtd$a" role="3cqZAp">
-          <node concept="2OqwBi" id="1JJYOwUtehv" role="3clFbG">
-            <node concept="2OqwBi" id="1JJYOwUtd$4" role="2Oq$k0">
-              <node concept="2WthIp" id="1JJYOwUtd$7" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="1JJYOwUtd$9" role="2OqNvi">
-                <ref role="2WH_rO" node="17W1KUH8Thl" resolve="editorComponent" />
+            <node concept="3clFbF" id="1JJYOwUtd$a" role="3cqZAp">
+              <node concept="2OqwBi" id="1JJYOwUtehv" role="3clFbG">
+                <node concept="2OqwBi" id="1JJYOwUtd$4" role="2Oq$k0">
+                  <node concept="2WthIp" id="1JJYOwUtd$7" role="2Oq$k0" />
+                  <node concept="2BZ7hE" id="1JJYOwUtd$9" role="2OqNvi">
+                    <ref role="2WH_rO" node="17W1KUH8Thl" resolve="editorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1JJYOwUtfiS" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.dispose()" resolve="dispose" />
+                </node>
               </node>
-            </node>
-            <node concept="liA8E" id="1JJYOwUtfiS" role="2OqNvi">
-              <ref role="37wK5l" to="exr9:~EditorComponent.dispose()" resolve="dispose" />
             </node>
           </node>
         </node>
@@ -3118,6 +3128,15 @@
                 <ref role="2WH_rO" node="1JJYOwUu4ql" resolve="ideaProject" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3SKw7pWVDhK" role="3cqZAp">
+          <node concept="3clFbS" id="3SKw7pWVDhM" role="3clFbx">
+            <node concept="3cpWs6" id="3SKw7pWVJER" role="3cqZAp" />
+          </node>
+          <node concept="2YIFZM" id="3SKw7pWVJ07" role="3clFbw">
+            <ref role="37wK5l" to="1wbl:~AppMode.isHeadless()" resolve="isHeadless" />
+            <ref role="1Pybhc" to="1wbl:~AppMode" resolve="AppMode" />
           </node>
         </node>
         <node concept="3clFbF" id="17W1KUH8U8Z" role="3cqZAp">

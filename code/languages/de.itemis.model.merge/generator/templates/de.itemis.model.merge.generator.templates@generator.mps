@@ -700,7 +700,7 @@
                         <node concept="2OqwBi" id="3Wln5KITvoU" role="2Oq$k0">
                           <node concept="30H73N" id="3Wln5KITuNK" role="2Oq$k0" />
                           <node concept="3Tsc0h" id="3Wln5KITvDQ" role="2OqNvi">
-                            <ref role="3TtcxE" to="mopj:1EbzjT2R$JQ" resolve="items" />
+                            <ref role="3TtcxE" to="mopj:1EbzjT2R$JQ" resolve="policies" />
                           </node>
                         </node>
                         <node concept="v3k3i" id="3Wln5KITyZ4" role="2OqNvi">

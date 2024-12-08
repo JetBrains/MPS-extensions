@@ -2279,7 +2279,7 @@
             <property role="TrG5h" value="mmp" />
             <node concept="nSUau" id="6CwG2k7Ofrg" role="1tU5fm">
               <node concept="3uibUv" id="6CwG2k7OgYo" role="nSUat">
-                <ref role="3uigEE" to="gunp:6CwG2k7NbpD" resolve="MissingMergePolicies" />
+                <ref role="3uigEE" to="gunp:6CwG2k7NbpD" resolve="MissingMergingPolicies" />
               </node>
             </node>
           </node>
@@ -2380,7 +2380,7 @@
               <property role="TrG5h" value="mp" />
               <node concept="nSUau" id="6CwG2k7RWQK" role="1tU5fm">
                 <node concept="3uibUv" id="6CwG2k7RZyj" role="nSUat">
-                  <ref role="3uigEE" to="gunp:6CwG2k7NbpD" resolve="MissingMergePolicies" />
+                  <ref role="3uigEE" to="gunp:6CwG2k7NbpD" resolve="MissingMergingPolicies" />
                 </node>
               </node>
             </node>

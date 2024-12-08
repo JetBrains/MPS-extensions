@@ -10,7 +10,7 @@
     <language id="bf491fd2-a197-456a-8354-b3b225d4e871" name="de.itemis.model.simple.demo.enums">
       <concept id="3615041602350286780" name="de.itemis.model.simple.demo.enums.structure.ConceptWithEnum" flags="ng" index="Iszaj">
         <property id="3615041602350287509" name="data" index="IszYU" />
-        <child id="3615041602350295310" name="id" index="IsxKx" />
+        <child id="3615041602350295310" name="idProperty" index="IsxKx" />
       </concept>
     </language>
     <language id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property">

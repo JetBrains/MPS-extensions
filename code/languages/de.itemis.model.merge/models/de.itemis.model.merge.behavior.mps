@@ -1419,7 +1419,7 @@
               <node concept="2OqwBi" id="1yAYHyQ7lxe" role="2Oq$k0">
                 <node concept="2OqwBi" id="1yAYHyQ7lxf" role="2Oq$k0">
                   <node concept="37vLTw" id="1yAYHyQ7lxg" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1yAYHyQ78$P" resolve="modelmerge" />
+                    <ref role="3cqZAo" node="1yAYHyQ78$P" resolve="mergingPolicy" />
                   </node>
                   <node concept="3Tsc0h" id="1yAYHyQ7lxh" role="2OqNvi">
                     <ref role="3TtcxE" to="mopj:1EbzjT2R$JQ" resolve="policies" />
@@ -1472,7 +1472,7 @@
               <ref role="37wK5l" to="33ny:~Optional.ofNullable(java.lang.Object)" resolve="ofNullable" />
               <ref role="1Pybhc" to="33ny:~Optional" resolve="Optional" />
               <node concept="37vLTw" id="6CwG2k87w2x" role="37wK5m">
-                <ref role="3cqZAo" node="1yAYHyQ7lxc" resolve="mergePolicyChild" />
+                <ref role="3cqZAo" node="1yAYHyQ7lxc" resolve="childPolicy" />
               </node>
             </node>
             <node concept="liA8E" id="6CwG2k87w2y" role="2OqNvi">

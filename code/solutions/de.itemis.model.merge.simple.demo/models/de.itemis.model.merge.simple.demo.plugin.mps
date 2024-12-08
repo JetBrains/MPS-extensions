@@ -1620,7 +1620,7 @@
               <node concept="2OqwBi" id="38FdiWsmurk" role="2Oq$k0">
                 <node concept="233M7" id="38FdiWsmugD" role="2Oq$k0" />
                 <node concept="3TrEf2" id="38FdiWsmuJI" role="2OqNvi">
-                  <ref role="3Tt5mk" to="7y8w:38FdiWsmi$e" resolve="id" />
+                  <ref role="3Tt5mk" to="7y8w:38FdiWsmi$e" resolve="idProperty" />
                 </node>
               </node>
               <node concept="3TrcHB" id="38FdiWsmvDg" role="2OqNvi">

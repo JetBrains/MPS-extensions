@@ -291,7 +291,7 @@
   </node>
   <node concept="poArf" id="38FdiWsmxTE">
     <property role="TrG5h" value="ConceptWithEnumExec" />
-    <ref role="pot50" to="2y6h:38FdiWsmiLf" resolve="ConceptWithEnum" />
+    <ref role="pot50" to="2y6h:38FdiWsmiLf" resolve="MergeConceptWithEnum" />
     <node concept="1Xw6AR" id="38FdiWsmxTF" role="ppIIL">
       <node concept="1dCxOl" id="38FdiWsmylu" role="1XwpL7">
         <property role="1XweGQ" value="r:91ea9791-daad-455e-bc56-6603fc63e28c" />

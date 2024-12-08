@@ -270,8 +270,8 @@
       </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
-      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.ModelMergeExecution" flags="ng" index="poArf">
-        <reference id="6402745832172080681" name="modelMerge" index="pot50" />
+      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.ModelMergingConfiguration" flags="ng" index="poArf">
+        <reference id="6402745832172080681" name="mergingPolicy" index="pot50" />
         <child id="6402745832172399733" name="right" index="ppbcs" />
         <child id="6402745832172287192" name="left" index="ppIIL" />
         <child id="3370123198533999175" name="result" index="2JagXQ" />
@@ -734,7 +734,7 @@
                 <ref role="3cqZAo" node="6Ltuup4xdCG" resolve="me" />
               </node>
               <node concept="3TrEf2" id="4LLXBGanQ1G" role="2OqNvi">
-                <ref role="3Tt5mk" to="mopj:5zr7Q_1IGSD" resolve="modelMerge" />
+                <ref role="3Tt5mk" to="mopj:5zr7Q_1IGSD" resolve="mergingPolicy" />
               </node>
             </node>
             <node concept="2OqwBi" id="4LLXBGanSyd" role="37wK5m">

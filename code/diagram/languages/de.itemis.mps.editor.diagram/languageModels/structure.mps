@@ -464,6 +464,12 @@
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
       <node concept="asaX9" id="7sHDEc2Si7c" role="lGtFl" />
     </node>
+    <node concept="1TJgyj" id="7f8dMG51zry" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="edgeID" />
+      <property role="IQ2ns" value="8342978967611258594" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="5qgNcfDnW48" role="PzmwI">
       <ref role="PrY4T" node="5qgNcfDnW3k" resolve="IDiagramCell" />
     </node>

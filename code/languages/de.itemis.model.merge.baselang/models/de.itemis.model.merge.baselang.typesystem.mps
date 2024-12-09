@@ -100,7 +100,7 @@
               <node concept="2pIpSj" id="5anw8kxL67F" role="2pJxcM">
                 <ref role="2pIpSl" to="tp25:g$ehGDh" resolve="concept" />
                 <node concept="36bGnv" id="2cYlIwYKxU9" role="28nt2d">
-                  <ref role="36bGnp" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+                  <ref role="36bGnp" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
                 </node>
               </node>
             </node>

@@ -204,7 +204,7 @@
           <node concept="3cpWsn" id="6QQNrZxI98" role="3cpWs9">
             <property role="TrG5h" value="modelMerge" />
             <node concept="3Tqbb2" id="6QQNrZxI99" role="1tU5fm">
-              <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+              <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
             </node>
             <node concept="2OqwBi" id="6QQNrZxJJu" role="33vP2m">
               <node concept="2tJFMh" id="6QQNrZxJyQ" role="2Oq$k0">

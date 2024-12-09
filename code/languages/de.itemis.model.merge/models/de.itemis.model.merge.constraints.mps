@@ -237,7 +237,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="1EbzjT2SHHS">
-    <ref role="1M2myG" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+    <ref role="1M2myG" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
     <node concept="1N5Pfh" id="3BP4DuXwMl4" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:3BP4DuXu_FH" resolve="conceptRef" />
       <node concept="3dgokm" id="3BP4DuXwMAs" role="1N6uqs">
@@ -246,14 +246,14 @@
             <node concept="3cpWsn" id="3xJ_LYXlqAN" role="3cpWs9">
               <property role="TrG5h" value="modelmerge" />
               <node concept="3Tqbb2" id="3xJ_LYXlnww" role="1tU5fm">
-                <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+                <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
               </node>
               <node concept="2OqwBi" id="3xJ_LYXlqAO" role="33vP2m">
                 <node concept="2rP1CM" id="3xJ_LYXlqAP" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="3xJ_LYXlqAQ" role="2OqNvi">
                   <node concept="1xMEDy" id="3xJ_LYXlqAR" role="1xVPHs">
                     <node concept="chp4Y" id="3xJ_LYXlqAS" role="ri$Ld">
-                      <ref role="cht4Q" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+                      <ref role="cht4Q" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
                     </node>
                   </node>
                   <node concept="1xIGOp" id="7TOowlgqSwH" role="1xVPHs" />
@@ -280,7 +280,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1NgLzfPd_tj">
-    <property role="3GE5qa" value="elementpolicies" />
+    <property role="3GE5qa" value="declarationPolicies" />
     <ref role="1M2myG" to="mopj:1EbzjT2T4oC" resolve="PropertyPolicy" />
     <node concept="1N5Pfh" id="7jyS5urcz$x" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:6zqIeMU2u$T" resolve="property" />
@@ -290,14 +290,14 @@
             <node concept="3cpWsn" id="7jyS5urdij6" role="3cpWs9">
               <property role="TrG5h" value="mergePol" />
               <node concept="3Tqbb2" id="7jyS5urdhX6" role="1tU5fm">
-                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
               </node>
               <node concept="2OqwBi" id="7jyS5urdij7" role="33vP2m">
                 <node concept="3kakTB" id="7jyS5urdij8" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="7jyS5urdij9" role="2OqNvi">
                   <node concept="1xMEDy" id="7jyS5urdija" role="1xVPHs">
                     <node concept="chp4Y" id="7jyS5urdijb" role="ri$Ld">
-                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                     </node>
                   </node>
                   <node concept="1xIGOp" id="7jyS5urdmIq" role="1xVPHs" />
@@ -313,7 +313,7 @@
                   <node concept="2Xjw5R" id="7jyS5ure98Q" role="2OqNvi">
                     <node concept="1xMEDy" id="7jyS5ure98S" role="1xVPHs">
                       <node concept="chp4Y" id="7jyS5ure9dd" role="ri$Ld">
-                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="7jyS5ure9s1" role="1xVPHs" />
@@ -464,7 +464,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7jyS5urktDV">
-    <property role="3GE5qa" value="elementpolicies" />
+    <property role="3GE5qa" value="declarationPolicies" />
     <ref role="1M2myG" to="mopj:7jyS5urbFgb" resolve="OptionalPolicy" />
     <node concept="9SLcT" id="7jyS5urn0tZ" role="9SGkU">
       <node concept="3clFbS" id="7jyS5urn0u0" role="2VODD2">
@@ -588,7 +588,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7jyS5urkN7L">
-    <property role="3GE5qa" value="elementpolicies" />
+    <property role="3GE5qa" value="declarationPolicies" />
     <ref role="1M2myG" to="mopj:7jyS5urbTpb" resolve="SingletonPolicy" />
     <node concept="9SLcT" id="7jyS5urmeeO" role="9SGkU">
       <node concept="3clFbS" id="7jyS5urmeeP" role="2VODD2">
@@ -708,7 +708,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7jyS5urkOuN">
-    <property role="3GE5qa" value="elementpolicies" />
+    <property role="3GE5qa" value="declarationPolicies" />
     <ref role="1M2myG" to="mopj:7jyS5urbTpv" resolve="MultiChildPolicy" />
     <node concept="1N5Pfh" id="7jyS5urkOuO" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -718,14 +718,14 @@
             <node concept="3cpWsn" id="7jyS5urkO$7" role="3cpWs9">
               <property role="TrG5h" value="mergePol" />
               <node concept="3Tqbb2" id="7jyS5urkO$8" role="1tU5fm">
-                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
               </node>
               <node concept="2OqwBi" id="7jyS5urkO$9" role="33vP2m">
                 <node concept="3kakTB" id="7jyS5urkO$a" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="7jyS5urkO$b" role="2OqNvi">
                   <node concept="1xMEDy" id="7jyS5urkO$c" role="1xVPHs">
                     <node concept="chp4Y" id="7jyS5urkO$d" role="ri$Ld">
-                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                     </node>
                   </node>
                   <node concept="1xIGOp" id="7jyS5urkO$e" role="1xVPHs" />
@@ -741,7 +741,7 @@
                   <node concept="2Xjw5R" id="7jyS5urkO$k" role="2OqNvi">
                     <node concept="1xMEDy" id="7jyS5urkO$l" role="1xVPHs">
                       <node concept="chp4Y" id="7jyS5urkO$m" role="ri$Ld">
-                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="7jyS5urkO$n" role="1xVPHs" />
@@ -781,7 +781,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1VmHfRxQ5sl">
-    <property role="3GE5qa" value="elementpolicies.subpolicy" />
+    <property role="3GE5qa" value="declarationPolicies.subpolicy" />
     <ref role="1M2myG" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
     <node concept="EnEH3" id="1VmHfRxQ5sm" role="1MhHOB">
       <ref role="EomxK" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
@@ -978,7 +978,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Av7Chms28S">
-    <property role="3GE5qa" value="elementpolicies" />
+    <property role="3GE5qa" value="declarationPolicies" />
     <ref role="1M2myG" to="mopj:3PLTv5k2w4J" resolve="SingletonChildPolicy" />
     <node concept="1N5Pfh" id="1Av7Chms2eU" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -988,14 +988,14 @@
             <node concept="3cpWsn" id="1Av7Chms2t9" role="3cpWs9">
               <property role="TrG5h" value="mergePol" />
               <node concept="3Tqbb2" id="1Av7Chms2ta" role="1tU5fm">
-                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
               </node>
               <node concept="2OqwBi" id="1Av7Chms2tb" role="33vP2m">
                 <node concept="3kakTB" id="1Av7Chms2tc" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="1Av7Chms2td" role="2OqNvi">
                   <node concept="1xMEDy" id="1Av7Chms2te" role="1xVPHs">
                     <node concept="chp4Y" id="1Av7Chms2tf" role="ri$Ld">
-                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                     </node>
                   </node>
                   <node concept="1xIGOp" id="1Av7Chms2tg" role="1xVPHs" />
@@ -1011,7 +1011,7 @@
                   <node concept="2Xjw5R" id="1Av7Chms2tm" role="2OqNvi">
                     <node concept="1xMEDy" id="1Av7Chms2tn" role="1xVPHs">
                       <node concept="chp4Y" id="1Av7Chms2to" role="ri$Ld">
-                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="1Av7Chms2tp" role="1xVPHs" />
@@ -1051,7 +1051,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Av7Chms2En">
-    <property role="3GE5qa" value="elementpolicies" />
+    <property role="3GE5qa" value="declarationPolicies" />
     <ref role="1M2myG" to="mopj:3PLTv5k2w4R" resolve="SingeltonRefPolicy" />
     <node concept="1N5Pfh" id="1Av7Chms2Eo" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -1061,14 +1061,14 @@
             <node concept="3cpWsn" id="1Av7Chms2LC" role="3cpWs9">
               <property role="TrG5h" value="mergePol" />
               <node concept="3Tqbb2" id="1Av7Chms2LD" role="1tU5fm">
-                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
               </node>
               <node concept="2OqwBi" id="1Av7Chms2LE" role="33vP2m">
                 <node concept="3kakTB" id="1Av7Chms2LF" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="1Av7Chms2LG" role="2OqNvi">
                   <node concept="1xMEDy" id="1Av7Chms2LH" role="1xVPHs">
                     <node concept="chp4Y" id="1Av7Chms2LI" role="ri$Ld">
-                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                     </node>
                   </node>
                   <node concept="1xIGOp" id="1Av7Chms2LJ" role="1xVPHs" />
@@ -1084,7 +1084,7 @@
                   <node concept="2Xjw5R" id="1Av7Chms2LP" role="2OqNvi">
                     <node concept="1xMEDy" id="1Av7Chms2LQ" role="1xVPHs">
                       <node concept="chp4Y" id="1Av7Chms2LR" role="ri$Ld">
-                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="1Av7Chms2LS" role="1xVPHs" />
@@ -1124,7 +1124,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Av7ChmtLFo">
-    <property role="3GE5qa" value="elementpolicies" />
+    <property role="3GE5qa" value="declarationPolicies" />
     <ref role="1M2myG" to="mopj:3PLTv5k2w4M" resolve="OptionalChildPolicy" />
     <node concept="1N5Pfh" id="1Av7ChmtLFp" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -1134,14 +1134,14 @@
             <node concept="3cpWsn" id="1Av7ChmtPnr" role="3cpWs9">
               <property role="TrG5h" value="mergePol" />
               <node concept="3Tqbb2" id="1Av7ChmtPns" role="1tU5fm">
-                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
               </node>
               <node concept="2OqwBi" id="1Av7ChmtPnt" role="33vP2m">
                 <node concept="3kakTB" id="1Av7ChmtPnu" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="1Av7ChmtPnv" role="2OqNvi">
                   <node concept="1xMEDy" id="1Av7ChmtPnw" role="1xVPHs">
                     <node concept="chp4Y" id="1Av7ChmtPnx" role="ri$Ld">
-                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                     </node>
                   </node>
                   <node concept="1xIGOp" id="1Av7ChmtPny" role="1xVPHs" />
@@ -1157,7 +1157,7 @@
                   <node concept="2Xjw5R" id="1Av7ChmtPnC" role="2OqNvi">
                     <node concept="1xMEDy" id="1Av7ChmtPnD" role="1xVPHs">
                       <node concept="chp4Y" id="1Av7ChmtPnE" role="ri$Ld">
-                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="1Av7ChmtPnF" role="1xVPHs" />
@@ -1197,7 +1197,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Av7ChmtPBG">
-    <property role="3GE5qa" value="elementpolicies" />
+    <property role="3GE5qa" value="declarationPolicies" />
     <ref role="1M2myG" to="mopj:3PLTv5k2w4U" resolve="OptionalRefPolicy" />
     <node concept="1N5Pfh" id="1Av7ChmtPBH" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -1207,14 +1207,14 @@
             <node concept="3cpWsn" id="1Av7ChmtPGB" role="3cpWs9">
               <property role="TrG5h" value="mergePol" />
               <node concept="3Tqbb2" id="1Av7ChmtPGC" role="1tU5fm">
-                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
               </node>
               <node concept="2OqwBi" id="1Av7ChmtPGD" role="33vP2m">
                 <node concept="3kakTB" id="1Av7ChmtPGE" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="1Av7ChmtPGF" role="2OqNvi">
                   <node concept="1xMEDy" id="1Av7ChmtPGG" role="1xVPHs">
                     <node concept="chp4Y" id="1Av7ChmtPGH" role="ri$Ld">
-                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                     </node>
                   </node>
                   <node concept="1xIGOp" id="1Av7ChmtPGI" role="1xVPHs" />
@@ -1230,7 +1230,7 @@
                   <node concept="2Xjw5R" id="1Av7ChmtPGO" role="2OqNvi">
                     <node concept="1xMEDy" id="1Av7ChmtPGP" role="1xVPHs">
                       <node concept="chp4Y" id="1Av7ChmtPGQ" role="ri$Ld">
-                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                        <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="1Av7ChmtPGR" role="1xVPHs" />

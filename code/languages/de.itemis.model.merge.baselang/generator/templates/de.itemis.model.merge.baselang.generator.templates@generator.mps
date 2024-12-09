@@ -75,7 +75,7 @@
       <node concept="gft3U" id="5anw8kxNuEs" role="1lVwrX">
         <node concept="2YIFZM" id="2cYlIwYGnFW" role="gfFT$">
           <ref role="37wK5l" to="gunp:2cYlIwYEMiU" resolve="run" />
-          <ref role="1Pybhc" to="gunp:2cYlIwY_fxg" resolve="ModelMergeExecutionRunner" />
+          <ref role="1Pybhc" to="gunp:2cYlIwY_fxg" resolve="ModelMergingRunner" />
           <node concept="10Nm6u" id="2cYlIwYEMMV" role="37wK5m">
             <node concept="29HgVG" id="2cYlIwYKCiG" role="lGtFl">
               <node concept="3NFfHV" id="2cYlIwYKCiH" role="3NFExx">

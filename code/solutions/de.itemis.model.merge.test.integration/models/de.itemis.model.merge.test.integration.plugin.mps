@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="7e3e" ref="r:ab430aa7-ae71-487c-8661-09a68deffd67(de.itemis.model.merge.simple.demo.annotated.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -78,6 +79,10 @@
     <node concept="1oluLK" id="W4mNzjZLeh" role="1olsr8" />
     <node concept="1olsrb" id="6UXOtKw4XX7" role="1olsr8">
       <ref role="24zOxU" to="7e3e:W4mNzjZf0h" resolve="Annotation" />
+      <node concept="1orWGm" id="4buG3rRBv2o" role="1orW53">
+        <ref role="3iOP7l" to="tpck:hnGE5uv" resolve="virtualPackage" />
+        <node concept="1orWrO" id="4buG3rRBv8V" role="1orWrN" />
+      </node>
       <node concept="1orWGm" id="6UXOtKw4YmR" role="1orW53">
         <ref role="3iOP7l" to="7e3e:W4mNzjZfqa" resolve="id" />
         <node concept="1orWrO" id="6UXOtKw4YmV" role="1orWrN" />
@@ -126,6 +131,10 @@
     </node>
     <node concept="1olsrb" id="W4mNzk1a$j" role="1olsr8">
       <ref role="24zOxU" to="7e3e:W4mNzjZ9yL" resolve="Annotatable" />
+      <node concept="1orWGm" id="4buG3rRBva_" role="1orW53">
+        <ref role="3iOP7l" to="tpck:hnGE5uv" resolve="virtualPackage" />
+        <node concept="1orWrO" id="4buG3rRBvh$" role="1orWrN" />
+      </node>
       <node concept="1orWGm" id="W4mNzk1f2d" role="1orW53">
         <ref role="3iOP7l" to="7e3e:W4mNzjZ9yO" resolve="value" />
         <node concept="3DZp98" id="W4mNzkuYhP" role="1orWrN">

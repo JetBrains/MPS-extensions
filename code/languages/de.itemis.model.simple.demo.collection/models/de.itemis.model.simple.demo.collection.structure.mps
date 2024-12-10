@@ -39,7 +39,7 @@
   </registry>
   <node concept="1TIwiD" id="6Ltuup4C5JZ">
     <property role="EcuMT" value="7808531358831107071" />
-    <property role="TrG5h" value="CollectionKeeper" />
+    <property role="TrG5h" value="ConceptWithListOfChildren" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6Ltuup4C662" role="1TKVEl">

@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -63,6 +64,7 @@
         <child id="1912777765298260982" name="policies" index="1olsr8" />
         <child id="2222162468665533253" name="lang" index="3WPhuS" />
       </concept>
+      <concept id="1912777765298654154" name="de.itemis.model.merge.structure.Left" flags="ng" index="1orWrO" />
       <concept id="1912777765298652712" name="de.itemis.model.merge.structure.PropertyPolicy" flags="ng" index="1orWGm">
         <reference id="7555554651740432697" name="property" index="3iOP7l" />
         <child id="1912777765298654157" name="action" index="1orWrN" />
@@ -117,6 +119,10 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="1orWGm" id="5Fr38_sLSBF" role="1orW53">
+        <ref role="3iOP7l" to="tpck:hnGE5uv" resolve="virtualPackage" />
+        <node concept="1orWrO" id="5Fr38_sLUps" role="1orWrN" />
       </node>
     </node>
     <node concept="pHN19" id="3xLnOvEDNjF" role="3WPhuS">

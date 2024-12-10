@@ -20,7 +20,7 @@
     <import index="xlb7" ref="r:cf42fd0a-68d2-493b-8b77-961658617704(jetbrains.mps.lang.modelapi.behavior)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="1xlh" ref="r:83d91843-991e-414a-ada7-28ed0de69bb1(de.itemis.model.merge.test.integration.plugin)" />
+    <import index="1xlh" ref="r:83d91843-991e-414a-ada7-28ed0de69bb1(de.itemis.model.test.integration.plugin)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -90,7 +90,7 @@
       <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
         <child id="1160998896846" name="condition" index="1gVkn0" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -155,7 +155,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -195,8 +195,8 @@
               <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
             </node>
             <node concept="2YIFZM" id="hG_e7_dlJp" role="33vP2m">
-              <ref role="37wK5l" to="cp9f:77Ot_5atFjz" resolve="rootOf" />
-              <ref role="1Pybhc" to="cp9f:6Ltuup4xcSI" resolve="TestUtil" />
+              <ref role="37wK5l" to="cp9f:S2tk9RipRT" resolve="rootOf" />
+              <ref role="1Pybhc" to="cp9f:6npTJ7huP0j" resolve="TestingMerger" />
               <node concept="3xONca" id="hG_e7_dlJq" role="37wK5m">
                 <ref role="3xOPvv" node="hG_e7_dlKt" resolve="me" />
               </node>
@@ -408,8 +408,8 @@
               <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
             </node>
             <node concept="2YIFZM" id="4LLXBGbTodK" role="33vP2m">
-              <ref role="37wK5l" to="cp9f:77Ot_5atFjz" resolve="rootOf" />
-              <ref role="1Pybhc" to="cp9f:6Ltuup4xcSI" resolve="TestUtil" />
+              <ref role="37wK5l" to="cp9f:S2tk9RipRT" resolve="rootOf" />
+              <ref role="1Pybhc" to="cp9f:6npTJ7huP0j" resolve="TestingMerger" />
               <node concept="3xONca" id="4LLXBGbTodL" role="37wK5m">
                 <ref role="3xOPvv" node="4LLXBGbTof3" resolve="me" />
               </node>

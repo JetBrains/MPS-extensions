@@ -34,9 +34,7 @@
         <child id="1211979305365" name="before" index="JA92f" />
         <child id="1211979322383" name="after" index="JAdkl" />
       </concept>
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
+      <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1216993439383" name="methods" index="1qtyYc" />
@@ -127,7 +125,7 @@
         <child id="1160998896846" name="condition" index="1gVkn0" />
         <child id="1160998916832" name="message" index="1gVpfI" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -141,7 +139,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
@@ -155,7 +153,7 @@
         <property id="5900870464460619218" name="something" index="a8euY" />
       </concept>
       <concept id="9112015721041276140" name="de.itemis.model.merge.diamond.structure.Bottom" flags="ng" index="I1cVD" />
-      <concept id="9112015721041276139" name="de.itemis.model.merge.diamond.structure.Top" flags="ngI" index="I1cVI">
+      <concept id="9112015721041276139" name="de.itemis.model.merge.diamond.structure.Top" flags="ng" index="I1cVI">
         <property id="9112015721041703530" name="nada" index="I0P1J" />
         <property id="9112015721041276141" name="dummy" index="I1cVC" />
         <child id="1683059382312355250" name="optChild" index="1tLEw_" />
@@ -182,7 +180,7 @@
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
       <concept id="1205752633985" name="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" flags="nn" index="2WthIp" />
-      <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ngI" index="2WEnae">
+      <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ng" index="2WEnae">
         <reference id="1205756909548" name="member" index="2WH_rO" />
       </concept>
       <concept id="1205769003971" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" flags="ng" index="2XrIbr" />
@@ -218,7 +216,7 @@
       <concept id="1172073500303" name="jetbrains.mps.baseLanguage.unitTest.structure.Message" flags="ng" index="3_1$Yv">
         <child id="1172073511101" name="message" index="3_1BAH" />
       </concept>
-      <concept id="1172075514136" name="jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder" flags="ngI" index="3_9gw8">
+      <concept id="1172075514136" name="jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder" flags="ng" index="3_9gw8">
         <child id="1172075534298" name="message" index="3_9lra" />
       </concept>
     </language>
@@ -283,7 +281,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -320,9 +318,6 @@
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
     </language>
   </registry>
-  <node concept="2XOHcx" id="2C9csoi8JyE">
-    <property role="2XOHcw" value="${extensions.home}/code" />
-  </node>
   <node concept="1lH9Xt" id="2C9csoi8JyF">
     <property role="TrG5h" value="genTestsForPropertyMergers" />
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
@@ -2597,6 +2592,7 @@
               <node concept="2YIFZM" id="5hEfjVobKeP" role="1NkWSp">
                 <ref role="1Pybhc" node="5hEfjVnBcMg" resolve="TestUtil" />
                 <ref role="37wK5l" node="5hEfjVobgxA" resolve="modelMergeFrom" />
+                <node concept="1jxXqW" id="3SKw7pWM375" role="37wK5m" />
                 <node concept="2tJFMh" id="5hEfjVobKeQ" role="37wK5m">
                   <node concept="ZC_QK" id="5hEfjVobKeR" role="2tJFKM">
                     <ref role="2aWVGs" to="rkwz:2IQ1P8Sk2GM" resolve="ModelmergerTestLangPolicy" />
@@ -2829,6 +2825,7 @@
               <node concept="2YIFZM" id="5hEfjVobhmk" role="1NkWSp">
                 <ref role="37wK5l" node="5hEfjVobgxA" resolve="modelMergeFrom" />
                 <ref role="1Pybhc" node="5hEfjVnBcMg" resolve="TestUtil" />
+                <node concept="1jxXqW" id="3SKw7pWM4qH" role="37wK5m" />
                 <node concept="2tJFMh" id="5hEfjVob5j1" role="37wK5m">
                   <node concept="ZC_QK" id="5hEfjVob5j2" role="2tJFKM">
                     <ref role="2aWVGs" to="rkwz:4JVExmLIpdI" resolve="ModelmergerTestLangPolicy2" />
@@ -3120,6 +3117,7 @@
               <node concept="2YIFZM" id="5hEfjVobJHf" role="1NkWSp">
                 <ref role="1Pybhc" node="5hEfjVnBcMg" resolve="TestUtil" />
                 <ref role="37wK5l" node="5hEfjVobgxA" resolve="modelMergeFrom" />
+                <node concept="1jxXqW" id="3SKw7pWM3z1" role="37wK5m" />
                 <node concept="2tJFMh" id="5hEfjVobJHg" role="37wK5m">
                   <node concept="ZC_QK" id="5hEfjVobJHh" role="2tJFKM">
                     <ref role="2aWVGs" to="rkwz:4JVExmLIpdI" resolve="ModelmergerTestLangPolicy2" />
@@ -3374,6 +3372,7 @@
               <node concept="2YIFZM" id="3O6HwxRT2us" role="1NkWSp">
                 <ref role="37wK5l" node="5hEfjVobgxA" resolve="modelMergeFrom" />
                 <ref role="1Pybhc" node="5hEfjVnBcMg" resolve="TestUtil" />
+                <node concept="1jxXqW" id="3SKw7pWM4ON" role="37wK5m" />
                 <node concept="2tJFMh" id="3O6HwxRT2ut" role="37wK5m">
                   <node concept="ZC_QK" id="3O6HwxRT2uu" role="2tJFKM">
                     <ref role="2aWVGs" to="rkwz:4JVExmLIpdI" resolve="ModelmergerTestLangPolicy2" />
@@ -3652,6 +3651,7 @@
               <node concept="2YIFZM" id="5hEfjVobL6W" role="1NkWSp">
                 <ref role="1Pybhc" node="5hEfjVnBcMg" resolve="TestUtil" />
                 <ref role="37wK5l" node="5hEfjVobgxA" resolve="modelMergeFrom" />
+                <node concept="1jxXqW" id="3SKw7pWM18W" role="37wK5m" />
                 <node concept="2tJFMh" id="5hEfjVobL6X" role="37wK5m">
                   <node concept="ZC_QK" id="5hEfjVobL6Y" role="2tJFKM">
                     <ref role="2aWVGs" to="rkwz:2IQ1P8Sk2GM" resolve="ModelmergerTestLangPolicy" />
@@ -4282,44 +4282,6 @@
     <node concept="2YIFZL" id="5hEfjVobgxA" role="jymVt">
       <property role="TrG5h" value="modelMergeFrom" />
       <node concept="3clFbS" id="5hEfjVobgxF" role="3clF47">
-        <node concept="3cpWs8" id="5hEfjVobgxG" role="3cqZAp">
-          <node concept="3cpWsn" id="5hEfjVobgxH" role="3cpWs9">
-            <property role="TrG5h" value="repository" />
-            <node concept="3uibUv" id="5hEfjVobgxI" role="1tU5fm">
-              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
-            </node>
-            <node concept="2OqwBi" id="5hEfjVobgxJ" role="33vP2m">
-              <node concept="2OqwBi" id="5hEfjVobgxK" role="2Oq$k0">
-                <node concept="2OqwBi" id="5hEfjVobgxL" role="2Oq$k0">
-                  <node concept="2OqwBi" id="5hEfjVobgxM" role="2Oq$k0">
-                    <node concept="2YIFZM" id="5hEfjVobgxN" role="2Oq$k0">
-                      <ref role="37wK5l" to="z1c3:~ProjectManager.getInstance()" resolve="getInstance" />
-                      <ref role="1Pybhc" to="z1c3:~ProjectManager" resolve="ProjectManager" />
-                    </node>
-                    <node concept="liA8E" id="5hEfjVobgxO" role="2OqNvi">
-                      <ref role="37wK5l" to="z1c3:~ProjectManager.getOpenedProjects()" resolve="getOpenedProjects" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="5hEfjVobgxP" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~List.iterator()" resolve="iterator" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="5hEfjVobgxQ" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
-                </node>
-              </node>
-              <node concept="liA8E" id="5hEfjVobgxR" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2Hmddi" id="5hEfjVobgxS" role="3cqZAp">
-          <node concept="37vLTw" id="5hEfjVobgxT" role="2Hmdds">
-            <ref role="3cqZAo" node="5hEfjVobgxH" resolve="repository" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="5hEfjVobgxU" role="3cqZAp" />
         <node concept="3cpWs8" id="5hEfjVobgxV" role="3cqZAp">
           <node concept="3cpWsn" id="5hEfjVobgxW" role="3cpWs9">
             <property role="TrG5h" value="modelMerge" />
@@ -4331,8 +4293,13 @@
                 <ref role="3cqZAo" node="5hEfjVobgxC" resolve="nodePtr" />
               </node>
               <node concept="Vyspw" id="5hEfjVobgy0" role="2OqNvi">
-                <node concept="37vLTw" id="5hEfjVobgy1" role="Vysub">
-                  <ref role="3cqZAo" node="5hEfjVobgxH" resolve="repository" />
+                <node concept="2OqwBi" id="3SKw7pWM2cF" role="Vysub">
+                  <node concept="37vLTw" id="5hEfjVobgy1" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3SKw7pWLZOL" resolve="project" />
+                  </node>
+                  <node concept="liA8E" id="3SKw7pWM2Fn" role="2OqNvi">
+                    <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -4351,6 +4318,12 @@
       </node>
       <node concept="3Tqbb2" id="5hEfjVobgxE" role="3clF45">
         <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
+      </node>
+      <node concept="37vLTG" id="3SKw7pWLZOL" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="3SKw7pWM00r" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
       </node>
       <node concept="37vLTG" id="5hEfjVobgxC" role="3clF46">
         <property role="TrG5h" value="nodePtr" />
@@ -4444,6 +4417,7 @@
               <node concept="2YIFZM" id="5hEfjVobJ9a" role="1NkWSp">
                 <ref role="1Pybhc" node="5hEfjVnBcMg" resolve="TestUtil" />
                 <ref role="37wK5l" node="5hEfjVobgxA" resolve="modelMergeFrom" />
+                <node concept="1jxXqW" id="3SKw7pWM3V6" role="37wK5m" />
                 <node concept="2tJFMh" id="5hEfjVobJ9b" role="37wK5m">
                   <node concept="ZC_QK" id="5hEfjVobJ9c" role="2tJFKM">
                     <ref role="2aWVGs" to="rkwz:4JVExmLIpdI" resolve="ModelmergerTestLangPolicy2" />

@@ -31,14 +31,11 @@
       <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh">
         <property id="3743352646565420194" name="includeSelf" index="GvXf4" />
       </concept>
-      <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ngI" index="2u4UPC">
+      <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
       <concept id="4531408400486526326" name="jetbrains.mps.lang.test.structure.WarningStatementReference" flags="ng" index="2PQEqo" />
       <concept id="4531408400484511853" name="jetbrains.mps.lang.test.structure.ReportErrorStatementReference" flags="ng" index="2PYRI3" />
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1216993439383" name="methods" index="1qtyYc" />
@@ -112,7 +109,7 @@
       <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
         <child id="1160998896846" name="condition" index="1gVkn0" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -120,14 +117,14 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
       <concept id="1205752633985" name="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" flags="nn" index="2WthIp" />
-      <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ngI" index="2WEnae">
+      <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ng" index="2WEnae">
         <reference id="1205756909548" name="member" index="2WH_rO" />
       </concept>
       <concept id="1205769003971" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" flags="ng" index="2XrIbr" />
@@ -176,7 +173,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
@@ -436,14 +433,6 @@
       </node>
     </node>
     <node concept="1qefOq" id="3EHNiwz2jtW" role="1SKRRt">
-      <node concept="15s5l7" id="kewvTAGoId" role="lGtFl">
-        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
-        <property role="huDt6" value="Error: multi-child policy not completely defined" />
-      </node>
-      <node concept="15s5l7" id="kewvTAGoHJ" role="lGtFl">
-        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
-        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
-      </node>
       <node concept="1olOeT" id="3EHNiwz2jtX" role="1qenE9">
         <property role="TrG5h" value="CheckForMissingMergePolicyForProperty" />
         <node concept="1oluLK" id="3EHNiwz2jtY" role="1olsr8" />
@@ -540,10 +529,15 @@
           <ref role="24zOxU" to="14sb:jF$CuWiLVm" resolve="Payload1" />
         </node>
       </node>
+      <node concept="15s5l7" id="kewvTAGoId" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
+        <property role="huDt6" value="Error: multi-child policy not completely defined" />
+      </node>
+      <node concept="15s5l7" id="kewvTAGoHJ" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
+        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
+      </node>
     </node>
-  </node>
-  <node concept="2XOHcx" id="65E6xpGUrwD">
-    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="1lH9Xt" id="2QNuyuiO36x">
     <property role="TrG5h" value="OtherPropertyTests" />
@@ -1641,14 +1635,6 @@
     <property role="TrG5h" value="DiamondChildTest" />
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="1trrptaE8Aa" role="1SKRRt">
-      <node concept="15s5l7" id="kewvTAGds5" role="lGtFl">
-        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
-        <property role="huDt6" value="Error: multi-child policy not completely defined" />
-      </node>
-      <node concept="15s5l7" id="kewvTAGdqr" role="lGtFl">
-        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
-        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
-      </node>
       <node concept="1olOeT" id="1trrptaE8Bd" role="1qenE9">
         <property role="TrG5h" value="DiamondMerge" />
         <node concept="1oluLK" id="1trrptaE8Be" role="1olsr8" />
@@ -1746,6 +1732,14 @@
         <node concept="1olsrb" id="6CwG2k81nA1" role="1olsr8">
           <ref role="24zOxU" to="14sb:7TOowlgscST" resolve="Top" />
         </node>
+      </node>
+      <node concept="15s5l7" id="kewvTAGds5" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
+        <property role="huDt6" value="Error: multi-child policy not completely defined" />
+      </node>
+      <node concept="15s5l7" id="kewvTAGdqr" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
+        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
       </node>
     </node>
     <node concept="1qefOq" id="1trrptaE6WZ" role="1SKRRt">
@@ -2027,14 +2021,6 @@
       </node>
     </node>
     <node concept="1qefOq" id="1trrptaG5Lz" role="1SKRRt">
-      <node concept="15s5l7" id="kewvTAGdjS" role="lGtFl">
-        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
-        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
-      </node>
-      <node concept="15s5l7" id="kewvTAGdgA" role="lGtFl">
-        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
-        <property role="huDt6" value="Error: multi-child policy not completely defined" />
-      </node>
       <node concept="1olOeT" id="1trrptaG5Ng" role="1qenE9">
         <property role="TrG5h" value="IntermediateOverride" />
         <node concept="1oluLK" id="1trrptaG5Nh" role="1olsr8" />
@@ -2128,6 +2114,14 @@
         <node concept="1olsrb" id="6CwG2k81nH3" role="1olsr8">
           <ref role="24zOxU" to="14sb:jF$CuWiLVm" resolve="Payload1" />
         </node>
+      </node>
+      <node concept="15s5l7" id="kewvTAGdjS" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: merge policy for concept Data does not define ID function&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840371712554]&quot;;" />
+        <property role="huDt6" value="Error: merge policy for concept Data does not define ID function" />
+      </node>
+      <node concept="15s5l7" id="kewvTAGdgA" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: multi-child policy not completely defined&quot;;FLAVOUR_RULE_ID=&quot;[r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)/7647305840372727207]&quot;;" />
+        <property role="huDt6" value="Error: multi-child policy not completely defined" />
       </node>
     </node>
     <node concept="1qefOq" id="582YV7z7UN3" role="1SKRRt">

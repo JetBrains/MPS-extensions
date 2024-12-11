@@ -10,6 +10,17 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.editor.diagram*: Edges now support custom IDs.
 
+## November 2024
+
+### Changed
+
+- The project was migrated to 2024.1. 
+
+### Removed
+
+- *de.itemis.mps.nativelibs* : This unmaintained language was removed.
+- *de.itemis.mps.hacks.xmodelgen* : This unmaintained (and broken) language was removed.
+
 ## October 2024
 
 ### Added

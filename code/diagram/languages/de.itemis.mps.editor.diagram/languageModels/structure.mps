@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -92,7 +92,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -464,12 +464,6 @@
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
       <node concept="asaX9" id="7sHDEc2Si7c" role="lGtFl" />
     </node>
-    <node concept="1TJgyj" id="7f8dMG51zry" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="edgeID" />
-      <property role="IQ2ns" value="8342978967611258594" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
     <node concept="PrWs8" id="5qgNcfDnW48" role="PzmwI">
       <ref role="PrY4T" node="5qgNcfDnW3k" resolve="IDiagramCell" />
     </node>
@@ -478,6 +472,12 @@
     </node>
     <node concept="PrWs8" id="7RbR7LCxiuA" role="PzmwI">
       <ref role="PrY4T" node="7RbR7LCxiqz" resolve="IEdgeEditor" />
+    </node>
+    <node concept="1TJgyj" id="7f8dMG51zry" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="edgeID" />
+      <property role="IQ2ns" value="8342978967611258594" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="5qgNcfDmYRM">

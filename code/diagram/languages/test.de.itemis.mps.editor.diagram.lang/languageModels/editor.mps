@@ -137,6 +137,9 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -406,7 +409,9 @@
         <child id="1566844231766602492" name="ports2" index="3DrZTU" />
         <child id="6160055369549989399" name="allowScaling" index="3RJMYJ" />
       </concept>
-      <concept id="6237710625713831199" name="de.itemis.mps.editor.diagram.structure.CellModel_DiagramConnector" flags="ng" index="2ZMJ7s" />
+      <concept id="6237710625713831199" name="de.itemis.mps.editor.diagram.structure.CellModel_DiagramConnector" flags="ng" index="2ZMJ7s">
+        <child id="8342978967611258594" name="edgeID" index="1QNw79" />
+      </concept>
       <concept id="6237710625713942002" name="de.itemis.mps.editor.diagram.structure.Content_BLQuery" flags="ig" index="2ZMM4L" />
       <concept id="6237710625713964946" name="de.itemis.mps.editor.diagram.structure.Parameter_Node" flags="ng" index="2ZN8Hh" />
       <concept id="5468226901223973329" name="de.itemis.mps.editor.diagram.structure.PortObject" flags="ng" index="15kUEO" />
@@ -857,6 +862,16 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="2OqwBi" id="7f8dMG5h3NJ" role="1QNw79">
+        <node concept="2YIFZM" id="5FQFTBpMRtG" role="2Oq$k0">
+          <ref role="37wK5l" to="nkm5:5BPceOK74em" resolve="createAccessorKeyForSNode" />
+          <ref role="1Pybhc" to="nkm5:2JYLxR6CE8o" resolve="EndpointUtil" />
+          <node concept="1Pxb5l" id="7f8dMG5h3tD" role="37wK5m" />
+        </node>
+        <node concept="liA8E" id="7f8dMG5h4aS" role="2OqNvi">
+          <ref role="37wK5l" to="nkm5:7L$rKAVbO88" resolve="serialize" />
         </node>
       </node>
     </node>

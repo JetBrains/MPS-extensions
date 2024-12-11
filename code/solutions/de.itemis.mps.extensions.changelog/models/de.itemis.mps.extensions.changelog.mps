@@ -383,12 +383,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="15bmVD" id="7f8dMG5jNin" role="15bmVC">
-      <node concept="15ShDW" id="7f8dMG5jNik" role="15bq2Y">
-        <property role="15ShDY" value="Po4Z58IgBx/December" />
-        <property role="15ShDw" value="2024" />
-      </node>
       <node concept="15bAme" id="7f8dMG5jNil" role="15bAlL">
         <property role="15bAli" value="Po4Z58tnOE/added" />
         <node concept="2DRihI" id="7f8dMG5jNim" role="15bAlk">
@@ -1534,7 +1528,7 @@
           </node>
           <node concept="3oM_SD" id="1TZykZLaQqf" role="1PaTwD">
             <property role="3oM_SC" value="#904" />
-            <property role="1X82VU" value="(https://github.com/JetBrains/MPS-extensions/issues/904" />
+            <property role="1X82VU" value="https://github.com/JetBrains/MPS-extensions/issues/904" />
           </node>
           <node concept="3oM_SD" id="1TZykZLaQqg" role="1PaTwD">
             <property role="3oM_SC" value="," />
@@ -1676,7 +1670,10 @@
             </node>
           </node>
           <node concept="3oM_SD" id="3E4xQE1Em8l" role="1PaTwD">
-            <property role="3oM_SC" value="Querylist" />
+            <property role="3oM_SC" value="Query" />
+          </node>
+          <node concept="3oM_SD" id="5WgERX4WHid" role="1PaTwD">
+            <property role="3oM_SC" value="list" />
           </node>
           <node concept="3oM_SD" id="3E4xQE1Ema7" role="1PaTwD">
             <property role="3oM_SC" value="calls" />
@@ -1699,8 +1696,11 @@
           <node concept="3oM_SD" id="3E4xQE1Emcw" role="1PaTwD">
             <property role="3oM_SC" value="less" />
           </node>
-          <node concept="3oM_SD" id="3E4xQE1Emi6" role="1PaTwD">
-            <property role="3oM_SC" value="agressively." />
+          <node concept="3oM_SD" id="5WgERX4WHd7" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+          <node concept="3oM_SD" id="5WgERX4WHd8" role="1PaTwD">
+            <property role="3oM_SC" value="aggressively." />
           </node>
         </node>
       </node>

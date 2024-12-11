@@ -27,7 +27,6 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="mopj" ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)" />
     <import index="k6li" ref="r:7c40b043-67ab-4fff-a68c-bb3e633629e4(test.de.itemis.mps.modelmerger.testlanguage.structure)" />
-    <import index="da0s" ref="r:c5ef02fd-fc0b-460a-bea5-97c4d7c6c4cf(de.itemis.model.merge.baselang.sandbox)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -4287,7 +4286,7 @@
           <node concept="3cpWsn" id="5hEfjVobgxW" role="3cpWs9">
             <property role="TrG5h" value="modelMerge" />
             <node concept="3Tqbb2" id="5hEfjVobgxX" role="1tU5fm">
-              <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+              <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
             </node>
             <node concept="2OqwBi" id="5hEfjVobgxY" role="33vP2m">
               <node concept="37vLTw" id="5hEfjVobgxZ" role="2Oq$k0">
@@ -4318,7 +4317,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="5hEfjVobgxE" role="3clF45">
-        <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+        <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
       </node>
       <node concept="37vLTG" id="3SKw7pWLZOL" role="3clF46">
         <property role="TrG5h" value="project" />
@@ -4329,7 +4328,7 @@
       <node concept="37vLTG" id="5hEfjVobgxC" role="3clF46">
         <property role="TrG5h" value="nodePtr" />
         <node concept="2sp9CU" id="5hEfjVobgxD" role="1tU5fm">
-          <ref role="2sp9C9" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+          <ref role="2sp9C9" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5hEfjVobgy6" role="1B3o_S" />

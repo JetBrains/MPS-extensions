@@ -1242,6 +1242,35 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbF" id="7vDkgomVfmM" role="3cqZAp">
+                    <node concept="2OqwBi" id="7vDkgomViaV" role="3clFbG">
+                      <node concept="37vLTw" id="7vDkgomVfmK" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1WjrBsNI_nG" resolve="editorCell" />
+                      </node>
+                      <node concept="liA8E" id="7vDkgomVqJ1" role="2OqNvi">
+                        <ref role="37wK5l" to="d2zl:7vDkgomUY9j" resolve="setTargeConcept" />
+                        <node concept="35c_gC" id="7vDkgomWFe8" role="37wK5m">
+                          <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
+                          <node concept="1ZhdrF" id="7vDkgomWJov" role="lGtFl">
+                            <property role="2qtEX8" value="conceptDeclaration" />
+                            <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/2644386474300074836/2644386474300074837" />
+                            <node concept="3$xsQk" id="7vDkgomWJow" role="3$ytzL">
+                              <node concept="3clFbS" id="7vDkgomWJox" role="2VODD2">
+                                <node concept="3clFbF" id="7vDkgomWLHP" role="3cqZAp">
+                                  <node concept="2OqwBi" id="7vDkgomWNq2" role="3clFbG">
+                                    <node concept="30H73N" id="7vDkgomWLHO" role="2Oq$k0" />
+                                    <node concept="3TrEf2" id="7vDkgomWOZ7" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="bbp5:C$q8A2yeI6" resolve="elementsConcept" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3cpWs8" id="1WjrBsNI_pV" role="3cqZAp">
                     <node concept="5jKBG" id="76N1O$KguuA" role="lGtFl">
                       <ref role="v9R2y" to="tpc3:4v1iCryNDHi" resolve="template_cellSetupBlock" />

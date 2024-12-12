@@ -384,6 +384,12 @@
       <node concept="10P_77" id="T_6DrmD7d7" role="1tU5fm" />
       <node concept="3clFbT" id="T_6DrmD8Fh" role="33vP2m" />
     </node>
+    <node concept="312cEg" id="7vDkgomUWu3" role="jymVt">
+      <property role="TrG5h" value="targetConcept" />
+      <node concept="3Tm6S6" id="7vDkgomUVu8" role="1B3o_S" />
+      <node concept="3bZ5Sz" id="7vDkgomUX7l" role="1tU5fm" />
+      <node concept="10Nm6u" id="7vDkgomV3yM" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="T_6DrmD699" role="jymVt" />
     <node concept="3clFbW" id="5oklODahdFh" role="jymVt">
       <node concept="3cqZAl" id="5oklODahdFj" role="3clF45" />
@@ -485,11 +491,9 @@
                       <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
                     </node>
                     <node concept="3clFbS" id="1GpxVmA6URZ" role="3clF47">
-                      <node concept="YS8fn" id="3kkgokhwfpC" role="3cqZAp">
-                        <node concept="2ShNRf" id="3kkgokhwfpD" role="YScLw">
-                          <node concept="1pGfFk" id="3kkgokhwfpE" role="2ShVmc">
-                            <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
-                          </node>
+                      <node concept="3clFbF" id="7vDkgomV9Cn" role="3cqZAp">
+                        <node concept="37vLTw" id="7vDkgomV9Cm" role="3clFbG">
+                          <ref role="3cqZAo" node="7vDkgomUWu3" resolve="targetConcept" />
                         </node>
                       </node>
                     </node>
@@ -497,6 +501,7 @@
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
+                  <node concept="2tJIrI" id="7vDkgomV4a7" role="jymVt" />
                   <node concept="3clFb_" id="1GpxVmA6US3" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="getName" />
@@ -518,6 +523,7 @@
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
+                  <node concept="2tJIrI" id="7vDkgomV4Js" role="jymVt" />
                   <node concept="3clFb_" id="1GpxVmA6USg" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="isValid" />
@@ -538,6 +544,7 @@
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
+                  <node concept="2tJIrI" id="7vDkgomV5kL" role="jymVt" />
                   <node concept="3clFb_" id="1GpxVmA6USr" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="getRole" />
@@ -559,6 +566,7 @@
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
+                  <node concept="2tJIrI" id="7vDkgomV5U6" role="jymVt" />
                   <node concept="3clFb_" id="1GpxVmA6USD" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="isOptional" />
@@ -577,6 +585,7 @@
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
+                  <node concept="2tJIrI" id="7vDkgomV6vr" role="jymVt" />
                   <node concept="3clFb_" id="1GpxVmA6USN" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="getOwner" />
@@ -602,6 +611,7 @@
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
+                  <node concept="2tJIrI" id="7vDkgomV74K" role="jymVt" />
                   <node concept="3clFb_" id="1GpxVmA6USZ" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="isReference" />
@@ -646,6 +656,7 @@
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
+                  <node concept="2tJIrI" id="7vDkgomV7E5" role="jymVt" />
                   <node concept="3clFb_" id="3kkgokhvYxm" role="jymVt">
                     <property role="TrG5h" value="getRoleName" />
                     <node concept="3Tm1VV" id="3kkgokhvYxn" role="1B3o_S" />
@@ -664,6 +675,7 @@
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
+                  <node concept="2tJIrI" id="7vDkgomV8fq" role="jymVt" />
                   <node concept="3clFb_" id="3kkgokhvYxz" role="jymVt">
                     <property role="TrG5h" value="isUnordered" />
                     <node concept="3Tm1VV" id="3kkgokhvYx$" role="1B3o_S" />
@@ -744,6 +756,28 @@
       </node>
       <node concept="3Tm1VV" id="T_6DrmDg8K" role="1B3o_S" />
       <node concept="10P_77" id="T_6DrmDh4R" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7vDkgomUXdq" role="jymVt" />
+    <node concept="3clFb_" id="7vDkgomUY9j" role="jymVt">
+      <property role="TrG5h" value="setTargeConcept" />
+      <node concept="3clFbS" id="7vDkgomUY9m" role="3clF47">
+        <node concept="3clFbF" id="7vDkgomUZHe" role="3cqZAp">
+          <node concept="37vLTI" id="7vDkgomV15y" role="3clFbG">
+            <node concept="37vLTw" id="7vDkgomV1SJ" role="37vLTx">
+              <ref role="3cqZAo" node="7vDkgomUZ1n" resolve="concept" />
+            </node>
+            <node concept="37vLTw" id="7vDkgomUZHd" role="37vLTJ">
+              <ref role="3cqZAo" node="7vDkgomUWu3" resolve="targetConcept" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7vDkgomUXpO" role="1B3o_S" />
+      <node concept="3cqZAl" id="7vDkgomUXy7" role="3clF45" />
+      <node concept="37vLTG" id="7vDkgomUZ1n" role="3clF46">
+        <property role="TrG5h" value="concept" />
+        <node concept="3bZ5Sz" id="7vDkgomUZ1m" role="1tU5fm" />
+      </node>
     </node>
     <node concept="3Tm1VV" id="5oklODahdyR" role="1B3o_S" />
     <node concept="3uibUv" id="5oklODahe60" role="1zkMxy">

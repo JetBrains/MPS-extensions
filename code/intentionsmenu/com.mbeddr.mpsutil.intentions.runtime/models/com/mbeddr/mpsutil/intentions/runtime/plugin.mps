@@ -22,7 +22,6 @@
         <child id="481983775135178837" name="disposeBlock" index="2uRRB_" />
         <child id="481983775135178838" name="fieldDeclaration" index="2uRRBA" />
       </concept>
-      <concept id="481983775135178840" name="jetbrains.mps.lang.plugin.standalone.structure.ApplicationPluginDeclaration" flags="ng" index="2uRRBC" />
       <concept id="481983775135178819" name="jetbrains.mps.lang.plugin.standalone.structure.ProjectPluginDisposeBlock" flags="in" index="2uRRBN" />
       <concept id="481983775135178825" name="jetbrains.mps.lang.plugin.standalone.structure.ProjectPluginInitBlock" flags="in" index="2uRRBT" />
       <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
@@ -45,6 +44,9 @@
       </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -108,9 +110,6 @@
     </language>
   </registry>
   <node concept="2DaZZR" id="4Rxhc8j6pW2" />
-  <node concept="2uRRBC" id="4Rxhc8j6pXy">
-    <property role="TrG5h" value="IntentionsApplicationPlugin" />
-  </node>
   <node concept="2uRRBy" id="3pwG8PSiG1M">
     <property role="TrG5h" value="IntentionsProjectPlugin" />
     <node concept="2BZ0e9" id="3pwG8PSiG3k" role="2uRRBA">
@@ -143,12 +142,21 @@
                     <node concept="3cqZAl" id="3pwG8PSjTLM" role="3clF45" />
                     <node concept="3Tm1VV" id="3pwG8PSjTLN" role="1B3o_S" />
                     <node concept="3clFbS" id="3pwG8PSjTLP" role="3clF47">
-                      <node concept="3clFbF" id="3pwG8PSoLCS" role="3cqZAp">
-                        <node concept="2ShNRf" id="3pwG8PSoLCQ" role="3clFbG">
-                          <node concept="1pGfFk" id="3pwG8PSoVr5" role="2ShVmc">
-                            <ref role="37wK5l" to="ih8q:3pwG8PSoC4u" resolve="IntentionsMenuWithGroups" />
-                            <node concept="37vLTw" id="3pwG8PSoXa9" role="37wK5m">
-                              <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                      <node concept="3clFbF" id="2jDew64H8Xv" role="3cqZAp">
+                        <node concept="2OqwBi" id="2jDew64HaXY" role="3clFbG">
+                          <node concept="37vLTw" id="2jDew64H8Xt" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                          </node>
+                          <node concept="liA8E" id="2jDew64Hd5G" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.setIntentionMenuProducer(jetbrains.mps.editor.intentions.IntentionMenuProducer)" resolve="setIntentionMenuProducer" />
+                            <node concept="2ShNRf" id="2jDew64L6Ki" role="37wK5m">
+                              <node concept="1pGfFk" id="2jDew64L7EE" role="2ShVmc">
+                                <property role="373rjd" value="true" />
+                                <ref role="37wK5l" to="ih8q:2jDew64KaGG" resolve="MyIntentionMenuProducer" />
+                                <node concept="37vLTw" id="2jDew64OYEu" role="37wK5m">
+                                  <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>

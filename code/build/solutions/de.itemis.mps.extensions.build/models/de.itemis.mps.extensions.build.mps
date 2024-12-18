@@ -9913,7 +9913,7 @@
         <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
       </node>
       <node concept="m$_yC" id="494a_O9Mc4K" role="m$_yJ">
-        <ref role="m$_y1" node="2NyZxKpUXYJ" />
+        <ref role="m$_y1" node="2NyZxKpUXYJ" resolve="de.itemis.mps.blutil" />
       </node>
     </node>
     <node concept="m$_wf" id="2OJNL7ElZsF" role="3989C9">

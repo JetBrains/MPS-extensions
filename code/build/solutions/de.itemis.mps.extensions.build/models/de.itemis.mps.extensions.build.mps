@@ -9912,6 +9912,9 @@
       <node concept="m$_yC" id="5U8hsWC7jgn" role="m$_yJ">
         <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
       </node>
+      <node concept="m$_yC" id="494a_O9Mc4K" role="m$_yJ">
+        <ref role="m$_y1" node="2NyZxKpUXYJ" resolve="de.itemis.mps.blutil" />
+      </node>
     </node>
     <node concept="m$_wf" id="2OJNL7ElZsF" role="3989C9">
       <property role="m$_wk" value="de.q60.mps.collections.libs" />
@@ -14329,6 +14332,26 @@
         <node concept="1SiIV0" id="frLjuw1roZ" role="3bR37C">
           <node concept="3bR9La" id="frLjuw1rp0" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L7y" resolve="jetbrains.mps.lang.intentions" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2jDew6504Tc" role="3bR37C">
+          <node concept="3bR9La" id="2jDew6504Td" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2jDew6504Te" role="3bR37C">
+          <node concept="3bR9La" id="2jDew6504Tf" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2jDew6504Tg" role="3bR37C">
+          <node concept="3bR9La" id="2jDew6504Th" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2jDew6504Ti" role="3bR37C">
+          <node concept="3bR9La" id="2jDew6504Tj" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>

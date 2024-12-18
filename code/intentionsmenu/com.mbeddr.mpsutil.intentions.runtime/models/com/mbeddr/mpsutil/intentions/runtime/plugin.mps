@@ -5,6 +5,7 @@
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
+    <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -13,6 +14,9 @@
     <import index="ih8q" ref="r:990d360b-3ac3-45fa-8ed3-0bbf017bba84(com.mbeddr.mpsutil.intentions.runtime)" />
   </imports>
   <registry>
+    <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
+      <concept id="8473566765277240526" name="de.slisson.mps.reflection.structure.ReflectionMethodCall" flags="ng" index="1PvZjq" />
+    </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
       <concept id="1204478074808" name="jetbrains.mps.lang.plugin.structure.ConceptFunctionParameter_MPSProject" flags="nn" index="1KvdUw" />
     </language>
@@ -66,6 +70,10 @@
       </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -142,22 +150,34 @@
                     <node concept="3cqZAl" id="3pwG8PSjTLM" role="3clF45" />
                     <node concept="3Tm1VV" id="3pwG8PSjTLN" role="1B3o_S" />
                     <node concept="3clFbS" id="3pwG8PSjTLP" role="3clF47">
-                      <node concept="3clFbF" id="2jDew64H8Xv" role="3cqZAp">
-                        <node concept="2OqwBi" id="2jDew64HaXY" role="3clFbG">
-                          <node concept="37vLTw" id="2jDew64H8Xt" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
-                          </node>
-                          <node concept="liA8E" id="2jDew64Hd5G" role="2OqNvi">
-                            <ref role="37wK5l" to="exr9:~EditorComponent.setIntentionMenuProducer(jetbrains.mps.editor.intentions.IntentionMenuProducer)" resolve="setIntentionMenuProducer" />
-                            <node concept="2ShNRf" id="2jDew64L6Ki" role="37wK5m">
-                              <node concept="1pGfFk" id="2jDew64L7EE" role="2ShVmc">
-                                <property role="373rjd" value="true" />
-                                <ref role="37wK5l" to="ih8q:2jDew64KaGG" resolve="MyIntentionMenuProducer" />
-                                <node concept="37vLTw" id="2jDew64OYEu" role="37wK5m">
-                                  <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                      <node concept="3clFbJ" id="6E9H6NYX$7F" role="3cqZAp">
+                        <node concept="3clFbS" id="6E9H6NYX$7H" role="3clFbx">
+                          <node concept="3clFbF" id="2jDew64H8Xv" role="3cqZAp">
+                            <node concept="2OqwBi" id="2jDew64HaXY" role="3clFbG">
+                              <node concept="37vLTw" id="2jDew64H8Xt" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                              </node>
+                              <node concept="liA8E" id="2jDew64Hd5G" role="2OqNvi">
+                                <ref role="37wK5l" to="exr9:~EditorComponent.setIntentionMenuProducer(jetbrains.mps.editor.intentions.IntentionMenuProducer)" resolve="setIntentionMenuProducer" />
+                                <node concept="2ShNRf" id="2jDew64L6Ki" role="37wK5m">
+                                  <node concept="1pGfFk" id="2jDew64L7EE" role="2ShVmc">
+                                    <property role="373rjd" value="true" />
+                                    <ref role="37wK5l" to="ih8q:2jDew64KaGG" resolve="MyIntentionMenuProducer" />
+                                    <node concept="37vLTw" id="2jDew64OYEu" role="37wK5m">
+                                      <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="6E9H6NYXx6d" role="3clFbw">
+                          <node concept="37vLTw" id="6E9H6NYXvkQ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                          </node>
+                          <node concept="1PvZjq" id="6E9H6NYXzv7" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.hasUI()" resolve="hasUI" />
                           </node>
                         </node>
                       </node>

@@ -21,7 +21,7 @@
     <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="gxwn" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.primitives(de.q60.mps.libs/)" />
+    <import index="gxwn" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.primitives(de.q60.mps.collections.libs/)" />
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
@@ -34,9 +34,6 @@
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
@@ -2236,9 +2233,6 @@
       <node concept="3Tm1VV" id="5QP6xyjZy7y" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="5QP6xyjZy6J" role="1B3o_S" />
-  </node>
-  <node concept="2XOHcx" id="5QP6xyk1fAL">
-    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="1lH9Xt" id="5QP6xyk3iQG">
     <property role="TrG5h" value="dummy" />

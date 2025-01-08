@@ -314,6 +314,9 @@
         <child id="1218047638032" name="baseName" index="2piZGb" />
         <child id="1218049772449" name="contextNode" index="2pr8EU" />
       </concept>
+      <concept id="1229477454423" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOriginalCopiedInputByOutput" flags="nn" index="12$id9">
+        <child id="1229477520175" name="outputNode" index="12$y8L" />
+      </concept>
       <concept id="1216860049627" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" flags="nn" index="1iwH70">
         <reference id="1216860049628" name="label" index="1iwH77" />
         <child id="1216860049632" name="inputNode" index="1iwH7V" />
@@ -405,9 +408,6 @@
         <child id="1235573187520" name="singletonValue" index="2HTEbv" />
       </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
-      <concept id="1228228912534" name="jetbrains.mps.baseLanguage.collections.structure.DowncastExpression" flags="nn" index="3S9uib">
-        <child id="1228228959951" name="expression" index="3S9DZi" />
-      </concept>
     </language>
   </registry>
   <node concept="bUwia" id="5oklODadofm">
@@ -3630,11 +3630,16 @@
                                                     <node concept="Xl_RD" id="7zLXdpwpnFi" role="3uHU7B">
                                                       <property role="Xl_RC" value="querylist" />
                                                     </node>
-                                                    <node concept="2OqwBi" id="7zLXdpwpnFj" role="3uHU7w">
-                                                      <node concept="3S9uib" id="7zLXdpwpnFk" role="2Oq$k0">
-                                                        <node concept="30H73N" id="7zLXdpwpnFl" role="3S9DZi" />
+                                                    <node concept="2OqwBi" id="68kqmlqx6Gm" role="3uHU7w">
+                                                      <node concept="2JrnkZ" id="68kqmlqx4Ad" role="2Oq$k0">
+                                                        <node concept="2OqwBi" id="68kqmlqwIyN" role="2JrQYb">
+                                                          <node concept="1iwH7S" id="68kqmlqwFDo" role="2Oq$k0" />
+                                                          <node concept="12$id9" id="68kqmlqwOMg" role="2OqNvi">
+                                                            <node concept="30H73N" id="68kqmlqwRaV" role="12$y8L" />
+                                                          </node>
+                                                        </node>
                                                       </node>
-                                                      <node concept="liA8E" id="7zLXdpwpnFm" role="2OqNvi">
+                                                      <node concept="liA8E" id="68kqmlqx8eM" role="2OqNvi">
                                                         <ref role="37wK5l" to="mhbf:~SNode.getNodeId()" resolve="getNodeId" />
                                                       </node>
                                                     </node>

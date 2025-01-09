@@ -4466,12 +4466,21 @@
               <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
             </node>
             <node concept="2OqwBi" id="5CBfeKkID_D" role="33vP2m">
-              <node concept="2YIFZM" id="5CBfeKkICS5" role="2Oq$k0">
-                <ref role="37wK5l" to="hox0:~StyleRegistry.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="hox0:~StyleRegistry" resolve="StyleRegistry" />
-              </node>
               <node concept="liA8E" id="5CBfeKkIEHk" role="2OqNvi">
                 <ref role="37wK5l" to="hox0:~StyleRegistry.getEditorBackground()" resolve="getEditorBackground" />
+              </node>
+              <node concept="2OqwBi" id="6SqTcxhYYFX" role="2Oq$k0">
+                <node concept="2OqwBi" id="6SqTcxhYTbv" role="2Oq$k0">
+                  <node concept="37vLTw" id="6SqTcxhYRnd" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5CBfeKl7WTx" resolve="cell" />
+                  </node>
+                  <node concept="liA8E" id="6SqTcxhYX2n" role="2OqNvi">
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6SqTcxhZ2Bs" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getStyleRegistry()" resolve="getStyleRegistry" />
+                </node>
               </node>
             </node>
           </node>

@@ -37393,22 +37393,9 @@
               <node concept="3uibUv" id="5AW5JoZGEjy" role="1tU5fm">
                 <ref role="3uigEE" to="qzxn:~PasteNodeData" resolve="PasteNodeData" />
               </node>
-              <node concept="2YIFZM" id="5AW5JoZGEjz" role="33vP2m">
-                <ref role="37wK5l" to="dp1x:5tGs5KqKiKf" resolve="getPasteNodeDataFromClipboard" />
+              <node concept="2YIFZM" id="1vOy3QN8ZfA" role="33vP2m">
+                <ref role="37wK5l" to="dp1x:oR0qGlKAkB" resolve="getPasteNodeData" />
                 <ref role="1Pybhc" to="dp1x:5tGs5KqKfGH" resolve="CopyPasteUtil" />
-                <node concept="2OqwBi" id="7IUya7citgP" role="37wK5m">
-                  <node concept="2OqwBi" id="7IUya7ciqIy" role="2Oq$k0">
-                    <node concept="1rXfSq" id="7IUya7cipik" role="2Oq$k0">
-                      <ref role="37wK5l" node="7IUya7ci41k" resolve="getEditorCell" />
-                    </node>
-                    <node concept="liA8E" id="7IUya7cis_d" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell.getSNode()" resolve="getSNode" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7IUya7ciuLH" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-                  </node>
-                </node>
               </node>
             </node>
           </node>
@@ -37537,22 +37524,9 @@
               <node concept="3uibUv" id="5AW5JoZDmP5" role="1tU5fm">
                 <ref role="3uigEE" to="qzxn:~PasteNodeData" resolve="PasteNodeData" />
               </node>
-              <node concept="2YIFZM" id="5AW5JoZDAXv" role="33vP2m">
+              <node concept="2YIFZM" id="1vOy3QN92pl" role="33vP2m">
+                <ref role="37wK5l" to="dp1x:oR0qGlKAkB" resolve="getPasteNodeData" />
                 <ref role="1Pybhc" to="dp1x:5tGs5KqKfGH" resolve="CopyPasteUtil" />
-                <ref role="37wK5l" to="dp1x:5tGs5KqKiKf" resolve="getPasteNodeDataFromClipboard" />
-                <node concept="2OqwBi" id="7IUya7ciJ6A" role="37wK5m">
-                  <node concept="2OqwBi" id="7IUya7ciJ6B" role="2Oq$k0">
-                    <node concept="1rXfSq" id="7IUya7ciJ6C" role="2Oq$k0">
-                      <ref role="37wK5l" node="7IUya7ci41k" resolve="getEditorCell" />
-                    </node>
-                    <node concept="liA8E" id="7IUya7ciJ6D" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell.getSNode()" resolve="getSNode" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7IUya7ciJ6E" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-                  </node>
-                </node>
               </node>
             </node>
           </node>

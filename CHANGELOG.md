@@ -4,7 +4,17 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## January 2025
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: An issue was fixed where diagrams with sub-diagrams had ports at the wrong position when the diagram was first opened
+
 ## December 2024
+
+### Changed
+
+- combine multiple elements without spaces  Reduced from Errors to Warning checks that force policies for all concepts in a language. In this way one can prototype with small set of merge policies. Use Partial police flag in your MergingPolicy to deactivate runtime checks as well.
 
 ### Added
 

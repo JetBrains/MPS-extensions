@@ -25,9 +25,6 @@
       </concept>
     </language>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
@@ -1349,9 +1346,6 @@
           <node concept="312cEu" id="4zNr0$NNuUD" role="1DvOYf">
             <property role="TrG5h" value="dummy" />
             <node concept="3Tm1VV" id="4zNr0$NNuUE" role="1B3o_S" />
-            <node concept="3xLA65" id="4zNr0$NNuUF" role="lGtFl">
-              <property role="TrG5h" value="changed" />
-            </node>
           </node>
         </node>
       </node>
@@ -1387,9 +1381,6 @@
               <node concept="17QB3L" id="4zNr0$NOqBs" role="1tU5fm" />
             </node>
             <node concept="3Tm1VV" id="4zNr0$NOqBt" role="1B3o_S" />
-            <node concept="3xLA65" id="4zNr0$NOqBu" role="lGtFl">
-              <property role="TrG5h" value="dependencyAdded" />
-            </node>
           </node>
         </node>
       </node>
@@ -1425,9 +1416,6 @@
               </node>
             </node>
             <node concept="3Tm1VV" id="7XTah2uduMl" role="1B3o_S" />
-            <node concept="3xLA65" id="7XTah2uduMm" role="lGtFl">
-              <property role="TrG5h" value="dependencyRemoved" />
-            </node>
           </node>
           <node concept="1DvOYd" id="7XTah2uduMo" role="1PYGOF">
             <ref role="1PYGO_" node="7XTah2udeM1" />
@@ -1487,9 +1475,6 @@
               </node>
             </node>
             <node concept="3Tm1VV" id="7XTah2uf88V" role="1B3o_S" />
-            <node concept="3xLA65" id="7XTah2uf88W" role="lGtFl">
-              <property role="TrG5h" value="dependencyWithNewerVersion" />
-            </node>
           </node>
           <node concept="1DvOYd" id="7XTah2uf88Y" role="1PYGOF">
             <ref role="1PYGO_" node="7XTah2ueYci" />
@@ -1530,9 +1515,6 @@
               </node>
             </node>
             <node concept="3Tm1VV" id="7XTah2ueCwV" role="1B3o_S" />
-            <node concept="3xLA65" id="7XTah2ueCwW" role="lGtFl">
-              <property role="TrG5h" value="dependencyWithChanges" />
-            </node>
           </node>
           <node concept="1DvOYd" id="7XTah2ueCwY" role="1PYGOF">
             <ref role="1PYGO_" node="7XTah2uetel" />
@@ -1595,9 +1577,6 @@
         <node concept="3Tm1VV" id="7XTah2udeM0" role="1B3o_S" />
       </node>
     </node>
-  </node>
-  <node concept="2XOHcx" id="7XTah2uah95">
-    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="312cEu" id="7XTah2uctse">
     <property role="TrG5h" value="HasNoVersion" />

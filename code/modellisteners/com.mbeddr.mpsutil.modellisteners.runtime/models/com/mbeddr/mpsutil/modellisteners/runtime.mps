@@ -22,6 +22,7 @@
     <import index="yg2w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util.containers(MPS.Core/)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" />
     <import index="yyf4" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.util(MPS.OpenAPI/)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1568,6 +1569,20 @@
                     <ref role="3uigEE" node="52ZF9D37UKv" resolve="IChildListener" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="63s_Ska0rPJ" role="3cqZAp">
+          <node concept="2YIFZM" id="63s_Ska0HZp" role="3clFbG">
+            <ref role="37wK5l" to="w1kc:~FastNodeFinderManager.dispose(org.jetbrains.mps.openapi.model.SModel)" resolve="dispose" />
+            <ref role="1Pybhc" to="w1kc:~FastNodeFinderManager" resolve="FastNodeFinderManager" />
+            <node concept="2OqwBi" id="63s_Ska0NLy" role="37wK5m">
+              <node concept="37vLTw" id="63s_Ska0L9W" role="2Oq$k0">
+                <ref role="3cqZAo" node="52ZF9D37MIO" resolve="event" />
+              </node>
+              <node concept="liA8E" id="63s_Ska0R4P" role="2OqNvi">
+                <ref role="37wK5l" to="j9co:~SModelEvent.getModel()" resolve="getModel" />
               </node>
             </node>
           </node>

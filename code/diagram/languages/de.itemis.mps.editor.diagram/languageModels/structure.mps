@@ -234,6 +234,36 @@
       <property role="20kJfa" value="gridColor" />
       <ref role="20lvS9" to="tpc2:h7ZlJ1A" resolve="QueryFunction_Color" />
     </node>
+    <node concept="1TJgyj" id="7OochqQ3OfW" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543036" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arrowKeyMoveAmount" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ol7" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543367" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arrowKeyMoveAmountSlow" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ol8" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543368" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="panAmount" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ol9" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543369" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="panAmountSlow" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ola" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543370" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="minimumScale" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
     <node concept="1TJgyj" id="4sEIQIBvZeh" role="1TKVEi">
       <property role="IQ2ns" value="5128117196760806289" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

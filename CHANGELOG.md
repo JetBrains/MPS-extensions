@@ -10,6 +10,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.editor.diagram*: An issue was fixed where diagrams with sub-diagrams had ports at the wrong position when the diagram was first opened
 
+### Added
+
+- *de.itemis.mps.editor.diagram*: Some more options of the diagram component like the pan amount and minimum scaling can now be customized in the diagram editor
+
 ## December 2024
 
 ### Changed

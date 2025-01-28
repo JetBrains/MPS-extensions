@@ -107,6 +107,9 @@
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
         <child id="8118189177080264854" name="alternative" index="nSUat" />
       </concept>
+      <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
+        <property id="5279705229678483899" name="value" index="2$xPTl" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -229,6 +232,11 @@
         <child id="1742468285817538342" name="disableNodeEditing" index="2gDVEa" />
         <child id="53713348769907228" name="autoLayoutOnChange" index="2hB_ot" />
         <child id="2060885462441433843" name="allowElementsBelowRequiredSize" index="2F3Mqr" />
+        <child id="9014008627795543036" name="arrowKeyMoveAmount" index="3b5RbE" />
+        <child id="9014008627795543367" name="arrowKeyMoveAmountSlow" index="3b5Rhh" />
+        <child id="9014008627795543370" name="minimumScale" index="3b5Rhs" />
+        <child id="9014008627795543368" name="panAmount" index="3b5Rhu" />
+        <child id="9014008627795543369" name="panAmountSlow" index="3b5Rhv" />
         <child id="3401785396303280005" name="gridColor" index="1bWipe" />
         <child id="7349833668006295675" name="gridSize" index="3ehQaW" />
         <child id="5128117196760806289" name="useGridSnapping" index="3wlkzU" />
@@ -268,6 +276,7 @@
       <concept id="6237710625713964946" name="de.itemis.mps.editor.diagram.structure.Parameter_Node" flags="ng" index="2ZN8Hh" />
       <concept id="8963411245957652387" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_Query" flags="ig" index="37q72E" />
       <concept id="8963411245958754161" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject" flags="ng" index="37u81S" />
+      <concept id="7899485855304485736" name="de.itemis.mps.editor.diagram.structure.QueryFunction_Float" flags="ig" index="1k1hvw" />
       <concept id="8637411062076624999" name="de.itemis.mps.editor.diagram.structure.Function_ConnectionTypes" flags="ig" index="1xLmZY" />
       <concept id="8637411062062623445" name="de.itemis.mps.editor.diagram.structure.Parameter_PaletteFolder_Concept" flags="ng" index="1yATlc" />
       <concept id="8637411062062430894" name="de.itemis.mps.editor.diagram.structure.Function_PaletteFolder" flags="ig" index="1yB8kR" />
@@ -928,6 +937,51 @@
           <node concept="3clFbF" id="6nZQGuG5uzJ" role="3cqZAp">
             <node concept="3clFbT" id="6nZQGuG5uzI" role="3clFbG">
               <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1k1hvw" id="7OochqQvfTn" role="3b5RbE">
+        <node concept="3clFbS" id="7OochqQvfTo" role="2VODD2">
+          <node concept="3clFbF" id="7OochqQvgdB" role="3cqZAp">
+            <node concept="3cmrfG" id="7OochqQvgdA" role="3clFbG">
+              <property role="3cmrfH" value="10" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1k1hvw" id="7OochqQvgf$" role="3b5Rhh">
+        <node concept="3clFbS" id="7OochqQvgf_" role="2VODD2">
+          <node concept="3clFbF" id="7OochqQvgfH" role="3cqZAp">
+            <node concept="3cmrfG" id="7OochqQvgfG" role="3clFbG">
+              <property role="3cmrfH" value="20" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1k1hvw" id="7OochqQvgX4" role="3b5Rhs">
+        <node concept="3clFbS" id="7OochqQvgX5" role="2VODD2">
+          <node concept="3clFbF" id="7OochqQvhhp" role="3cqZAp">
+            <node concept="2$xPTn" id="7OochqQvhyq" role="3clFbG">
+              <property role="2$xPTl" value="0.0f" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1k1hvw" id="7OochqQvCS7" role="3b5Rhu">
+        <node concept="3clFbS" id="7OochqQvCS8" role="2VODD2">
+          <node concept="3clFbF" id="7OochqQvDW0" role="3cqZAp">
+            <node concept="3cmrfG" id="7OochqQvDVZ" role="3clFbG">
+              <property role="3cmrfH" value="10" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1k1hvw" id="7OochqQvDZ3" role="3b5Rhv">
+        <node concept="3clFbS" id="7OochqQvDZ4" role="2VODD2">
+          <node concept="3clFbF" id="7OochqQvDZf" role="3cqZAp">
+            <node concept="3cmrfG" id="7OochqQvDZe" role="3clFbG">
+              <property role="3cmrfH" value="20" />
             </node>
           </node>
         </node>

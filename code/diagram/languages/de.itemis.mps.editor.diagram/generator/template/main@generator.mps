@@ -7927,13 +7927,36 @@
                                                     </node>
                                                   </node>
                                                 </node>
+                                                <node concept="3clFbF" id="UK77emyQL1" role="3cqZAp">
+                                                  <node concept="2OqwBi" id="UK77emyT$r" role="3clFbG">
+                                                    <node concept="37vLTw" id="UK77emyQKZ" role="2Oq$k0">
+                                                      <ref role="3cqZAo" node="5ukiniKHoTQ" resolve="alternativeCell" />
+                                                    </node>
+                                                    <node concept="liA8E" id="UK77emyZhG" role="2OqNvi">
+                                                      <ref role="37wK5l" to="f4zo:~EditorCell.setBig(boolean)" resolve="setBig" />
+                                                      <node concept="3clFbT" id="UK77emz41A" role="37wK5m">
+                                                        <property role="3clFbU" value="true" />
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
                                                 <node concept="3cpWs6" id="5ukiniKIHuW" role="3cqZAp" />
                                               </node>
-                                              <node concept="2OqwBi" id="5ukiniKH_yo" role="3clFbw">
-                                                <node concept="37vLTw" id="5ukiniKHzbs" role="2Oq$k0">
-                                                  <ref role="3cqZAo" node="YGA9S6HD5t" resolve="rootCell" />
+                                              <node concept="2OqwBi" id="3sXSpJ3B3rs" role="3clFbw">
+                                                <node concept="2OqwBi" id="3sXSpJ3ASF9" role="2Oq$k0">
+                                                  <node concept="2OqwBi" id="3sXSpJ3AFwq" role="2Oq$k0">
+                                                    <node concept="37vLTw" id="3sXSpJ3A$nr" role="2Oq$k0">
+                                                      <ref role="3cqZAo" node="YGA9S6HD5t" resolve="rootCell" />
+                                                    </node>
+                                                    <node concept="liA8E" id="3sXSpJ3AOs1" role="2OqNvi">
+                                                      <ref role="37wK5l" to="r3rm:4dus55SGE6v" resolve="getGraph" />
+                                                    </node>
+                                                  </node>
+                                                  <node concept="liA8E" id="3sXSpJ48oMc" role="2OqNvi">
+                                                    <ref role="37wK5l" to="r3rm:5YRJpe$ygQu" resolve="getView" />
+                                                  </node>
                                                 </node>
-                                                <node concept="liA8E" id="5ukiniKHCTw" role="2OqNvi">
+                                                <node concept="liA8E" id="3sXSpJ3BdCB" role="2OqNvi">
                                                   <ref role="37wK5l" to="r3rm:5a$opPOt9N1" resolve="showInViewer" />
                                                 </node>
                                               </node>
@@ -17631,6 +17654,39 @@
           </node>
         </node>
         <node concept="raruj" id="5ZBOFE3$IkG" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="5hklg_vA1ZE" role="3cqZAp">
+        <node concept="2OqwBi" id="5hklg_vA1ZF" role="3clFbG">
+          <node concept="37vLTw" id="5hklg_vA1ZG" role="2Oq$k0">
+            <ref role="3cqZAo" node="5ZBOFE3$Ijz" resolve="styleDiagram" />
+          </node>
+          <node concept="liA8E" id="5hklg_vA1ZH" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="5hklg_vA1ZI" role="37wK5m">
+              <ref role="1Z6EpT" to="swi3:4bryhcrFmRC" resolve="__move-to-diagram-viewer-button" />
+            </node>
+            <node concept="3clFbT" id="5hklg_vA1ZJ" role="37wK5m">
+              <property role="3clFbU" value="true" />
+              <node concept="17Uvod" id="5hklg_vA1ZK" role="lGtFl">
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <property role="2qtEX9" value="value" />
+                <node concept="3zFVjK" id="5hklg_vA1ZL" role="3zH0cK">
+                  <node concept="3clFbS" id="5hklg_vA1ZM" role="2VODD2">
+                    <node concept="3clFbF" id="5hklg_vA1ZN" role="3cqZAp">
+                      <node concept="2OqwBi" id="5hklg_vA1ZO" role="3clFbG">
+                        <node concept="30H73N" id="5hklg_vA1ZP" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="5hklg_vA1ZQ" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:1Va40GQyvqR" resolve="hasClearLayoutInfoButton" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="5hklg_vA1ZR" role="lGtFl" />
       </node>
       <node concept="3clFbF" id="5ZBOFE3$IkH" role="3cqZAp">
         <node concept="2OqwBi" id="5ZBOFE3$IkI" role="3clFbG">

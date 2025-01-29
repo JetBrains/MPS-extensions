@@ -69,6 +69,7 @@
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="p8va" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.swing(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="3it5" ref="r:663468b2-7f77-448a-afd3-b1669ce5b4a7(de.itemis.mps.editor.diagram.runtime.plugin)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" implicit="true" />
   </imports>
@@ -7891,6 +7892,15 @@
                                                                       <node concept="liA8E" id="56H44TyAkf3" role="2OqNvi">
                                                                         <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
                                                                       </node>
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                                <node concept="3clFbF" id="2GSfLFNU6ai" role="3cqZAp">
+                                                                  <node concept="2YIFZM" id="2GSfLFNUa1f" role="3clFbG">
+                                                                    <ref role="37wK5l" to="r3rm:2GSfLFNQwys" resolve="closeViewer" />
+                                                                    <ref role="1Pybhc" to="r3rm:YGA9S4Rvy7" resolve="DiagramActionsUtil" />
+                                                                    <node concept="37vLTw" id="2GSfLFNUe6h" role="37wK5m">
+                                                                      <ref role="3cqZAo" node="4bryhcrGmKz" resolve="ideaProject" />
                                                                     </node>
                                                                   </node>
                                                                 </node>

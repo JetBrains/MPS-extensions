@@ -7042,40 +7042,16 @@
             <ref role="3cqZAo" node="UK77em$Er2" resolve="repository" />
           </node>
           <node concept="2OqwBi" id="UK77em_I3t" role="37wK5m">
-            <node concept="2OqwBi" id="UK77em_Ee5" role="2Oq$k0">
-              <node concept="2OqwBi" id="UK77em_AQS" role="2Oq$k0">
-                <node concept="2OqwBi" id="UK77em_zL3" role="2Oq$k0">
-                  <node concept="2OqwBi" id="UK77em_vjQ" role="2Oq$k0">
-                    <node concept="2ShNRf" id="UK77em_5e9" role="2Oq$k0">
-                      <node concept="1pGfFk" id="UK77em_7sv" role="2ShVmc">
-                        <property role="373rjd" value="true" />
-                        <ref role="37wK5l" to="7oz1:~EditorConfigurationBuilder.&lt;init&gt;()" resolve="EditorConfigurationBuilder" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="UK77em_voE" role="2OqNvi">
-                      <ref role="37wK5l" to="7oz1:~EditorConfigurationBuilder.hasContextMenu(boolean)" resolve="hasContextMenu" />
-                      <node concept="3clFbT" id="UK77em_zFW" role="37wK5m">
-                        <property role="3clFbU" value="true" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="UK77em_zRk" role="2OqNvi">
-                    <ref role="37wK5l" to="7oz1:~EditorConfigurationBuilder.notifies(boolean)" resolve="notifies" />
-                    <node concept="3clFbT" id="UK77em_ALl" role="37wK5m">
-                      <property role="3clFbU" value="true" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="liA8E" id="UK77em_B70" role="2OqNvi">
-                  <ref role="37wK5l" to="7oz1:~EditorConfigurationBuilder.readOnly(boolean)" resolve="readOnly" />
-                  <node concept="3clFbT" id="UK77em_E2b" role="37wK5m">
-                    <property role="3clFbU" value="true" />
-                  </node>
+            <node concept="2OqwBi" id="UK77em_zL3" role="2Oq$k0">
+              <node concept="2ShNRf" id="UK77em_5e9" role="2Oq$k0">
+                <node concept="1pGfFk" id="UK77em_7sv" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="7oz1:~EditorConfigurationBuilder.&lt;init&gt;()" resolve="EditorConfigurationBuilder" />
                 </node>
               </node>
-              <node concept="liA8E" id="UK77em_EnZ" role="2OqNvi">
-                <ref role="37wK5l" to="7oz1:~EditorConfigurationBuilder.withUI(boolean)" resolve="withUI" />
-                <node concept="3clFbT" id="UK77em_Hku" role="37wK5m">
+              <node concept="liA8E" id="UK77em_zRk" role="2OqNvi">
+                <ref role="37wK5l" to="7oz1:~EditorConfigurationBuilder.notifies(boolean)" resolve="notifies" />
+                <node concept="3clFbT" id="UK77em_ALl" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>

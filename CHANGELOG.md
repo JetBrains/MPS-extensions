@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.editor.diagram*: An issue was fixed where diagrams with sub-diagrams had ports at the wrong position when the diagram was first opened
+- *de.itemis.mps.editor.diagram*: A new diagram viewer is available than can move diagrams to a separate tool for viewing. The option can be activated in the diagram through the button that looks like a "V". To open the diagram again in the editor click the button "open diagram in editor" in the editor. 
 
 ### Added
 

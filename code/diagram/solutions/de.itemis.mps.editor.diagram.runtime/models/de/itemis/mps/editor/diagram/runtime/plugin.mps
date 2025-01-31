@@ -121,7 +121,7 @@
       <concept id="1562714432501166197" name="jetbrains.mps.lang.plugin.structure.KeymapChangesDeclaration" flags="ng" index="Zd50a">
         <child id="1562714432501166199" name="shortcutChange" index="Zd508" />
       </concept>
-      <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="ng" index="1bYyw_">
+      <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="ngI" index="1bYyw_">
         <reference id="6193305307616734326" name="action" index="1bYAoF" />
       </concept>
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
@@ -129,7 +129,7 @@
         <reference id="1217252646389" name="key" index="1DUlNI" />
       </concept>
       <concept id="1217252428768" name="jetbrains.mps.lang.plugin.structure.ActionDataParameterReferenceOperation" flags="nn" index="1DTwFV" />
-      <concept id="1217413147516" name="jetbrains.mps.lang.plugin.structure.ActionParameter" flags="ng" index="1NuADB">
+      <concept id="1217413147516" name="jetbrains.mps.lang.plugin.structure.ActionParameter" flags="ngI" index="1NuADB">
         <child id="5538333046911298738" name="condition" index="1oa70y" />
       </concept>
     </language>
@@ -183,7 +183,7 @@
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
@@ -254,7 +254,7 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
         <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
@@ -321,7 +321,7 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -362,7 +362,7 @@
       <concept id="1184952934362" name="jetbrains.mps.baseLanguage.structure.DimensionExpression" flags="nn" index="3$GHV9">
         <child id="1184953288404" name="expression" index="3$I4v7" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
@@ -439,7 +439,7 @@
       <concept id="1205752633985" name="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" flags="nn" index="2WthIp">
         <reference id="1218736638915" name="classifier" index="32nkFo" />
       </concept>
-      <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ng" index="2WEnae">
+      <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ngI" index="2WEnae">
         <reference id="1205756909548" name="member" index="2WH_rO" />
       </concept>
       <concept id="1205769003971" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" flags="ng" index="2XrIbr" />
@@ -469,7 +469,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -2542,7 +2542,7 @@
             <node concept="2OqwBi" id="3gbezROyLzc" role="3uHU7B">
               <node concept="2WthIp" id="3gbezROyLiy" role="2Oq$k0" />
               <node concept="2BZ7hE" id="3gbezROyLL4" role="2OqNvi">
-                <ref role="2WH_rO" node="1nz4aPsPt$b" resolve="editorCell" />
+                <ref role="2WH_rO" node="1nz4aPsPt$b" resolve="diagramCell" />
               </node>
             </node>
           </node>
@@ -2586,7 +2586,7 @@
             <node concept="2OqwBi" id="3gbezROyPFK" role="37vLTJ">
               <node concept="2WthIp" id="3gbezROyPFL" role="2Oq$k0" />
               <node concept="2BZ7hE" id="3gbezROyPFM" role="2OqNvi">
-                <ref role="2WH_rO" node="1nz4aPsPt$b" resolve="editorCell" />
+                <ref role="2WH_rO" node="1nz4aPsPt$b" resolve="diagramCell" />
               </node>
             </node>
           </node>
@@ -2683,7 +2683,7 @@
           <node concept="37vLTI" id="52Fy5ax4Wbk" role="3clFbG">
             <node concept="2OqwBi" id="52Fy5ax4Yxa" role="37vLTx">
               <node concept="37vLTw" id="52Fy5ax4WM1" role="2Oq$k0">
-                <ref role="3cqZAo" node="3gbezROz2fs" resolve="newDiagramCell" />
+                <ref role="3cqZAo" node="3gbezROz2fs" resolve="diagramCell" />
               </node>
               <node concept="liA8E" id="52Fy5ax52yb" role="2OqNvi">
                 <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditorComponent()" resolve="getEditorComponent" />
@@ -2797,7 +2797,7 @@
                                     <ref role="37wK5l" to="g51k:~EditorCell_Basic.getCellId()" resolve="getCellId" />
                                   </node>
                                   <node concept="37vLTw" id="_Yf11m5PN3" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="3gbezROz2fs" resolve="newDiagramCell" />
+                                    <ref role="3cqZAo" node="3gbezROz2fs" resolve="diagramCell" />
                                   </node>
                                 </node>
                                 <node concept="2OqwBi" id="al1sS5wd4M" role="3uHU7B">
@@ -2941,7 +2941,7 @@
           <node concept="2OqwBi" id="3gbezROzxt9" role="3clFbG">
             <node concept="2WthIp" id="3gbezROzxtc" role="2Oq$k0" />
             <node concept="2XshWL" id="3gbezROzxte" role="2OqNvi">
-              <ref role="2WH_rO" node="3gbezROyNxC" resolve="clearActivateDiagram" />
+              <ref role="2WH_rO" node="3gbezROyNxC" resolve="clearActiveDiagram" />
             </node>
           </node>
         </node>
@@ -2989,7 +2989,7 @@
           <node concept="2OqwBi" id="3gbezROyVQa" role="3clFbG">
             <node concept="2WthIp" id="3gbezROyVQd" role="2Oq$k0" />
             <node concept="2XshWL" id="3gbezROyVQf" role="2OqNvi">
-              <ref role="2WH_rO" node="3gbezROyNxC" resolve="clearActivateDiagram" />
+              <ref role="2WH_rO" node="3gbezROyNxC" resolve="clearActiveDiagram" />
             </node>
           </node>
         </node>
@@ -3319,7 +3319,7 @@
     <node concept="1QGGSu" id="2GSfLFN$WSZ" role="1nVCmq">
       <node concept="10M0yZ" id="2GSfLFN_lPD" role="3xaMm5">
         <ref role="3cqZAo" to="z2i8:~AllIcons$FileTypes.Diagram" resolve="Diagram" />
-        <ref role="1PxDUh" to="z2i8:~AllIcons$FileTypes" resolve="FileTypes" />
+        <ref role="1PxDUh" to="z2i8:~AllIcons$FileTypes" resolve="AllIcons.FileTypes" />
       </node>
     </node>
   </node>

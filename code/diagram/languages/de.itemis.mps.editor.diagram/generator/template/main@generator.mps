@@ -5237,7 +5237,7 @@
               <node concept="3clFbF" id="308lJa6VzhG" role="3cqZAp">
                 <node concept="2OqwBi" id="308lJa6VzhH" role="3clFbG">
                   <node concept="37vLTw" id="308lJa6VzhI" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6Wncjf6Y9a" resolve="alternativeCell" />
+                    <ref role="3cqZAo" node="6Wncjf6Y9a" resolve="editorCell" />
                   </node>
                   <node concept="liA8E" id="308lJa6VzhJ" role="2OqNvi">
                     <ref role="37wK5l" to="f4zo:~EditorCell.setBig(boolean)" resolve="setBig" />
@@ -5252,7 +5252,7 @@
               </node>
               <node concept="3cpWs6" id="5ukiniKIHuW" role="3cqZAp">
                 <node concept="37vLTw" id="6Wncjf7rmY" role="3cqZAk">
-                  <ref role="3cqZAo" node="6Wncjf6Y9a" resolve="alternativeCell" />
+                  <ref role="3cqZAo" node="6Wncjf6Y9a" resolve="editorCell" />
                 </node>
               </node>
             </node>

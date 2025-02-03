@@ -1235,6 +1235,76 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
+          <node concept="3EZMnI" id="7OochqQ3PQS" role="3EZMnx">
+            <node concept="2iRfu4" id="7OochqQ3PQT" role="2iSdaV" />
+            <node concept="3F0ifn" id="7OochqQ3RRy" role="3EZMnx">
+              <property role="3F0ifm" value="arrow key move" />
+            </node>
+            <node concept="3F1sOY" id="7OochqQ3Qni" role="3EZMnx">
+              <property role="1$x2rV" value="default" />
+              <ref role="1NtTu8" to="2qld:7OochqQ3OfW" resolve="arrowKeyMoveAmount" />
+            </node>
+            <node concept="VPM3Z" id="7OochqQ3PQW" role="3F10Kt" />
+            <node concept="VPXOz" id="7OochqQ3PQX" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3EZMnI" id="7OochqQ3Qy8" role="3EZMnx">
+            <node concept="2iRfu4" id="7OochqQ3Qy9" role="2iSdaV" />
+            <node concept="3F0ifn" id="7OochqQ3Qya" role="3EZMnx">
+              <property role="3F0ifm" value="arrow key move amount (slow)" />
+            </node>
+            <node concept="3F1sOY" id="7OochqQ3Qyb" role="3EZMnx">
+              <property role="1$x2rV" value="default" />
+              <ref role="1NtTu8" to="2qld:7OochqQ3Ol7" resolve="arrowKeyMoveAmountSlow" />
+            </node>
+            <node concept="VPM3Z" id="7OochqQ3Qyc" role="3F10Kt" />
+            <node concept="VPXOz" id="7OochqQ3Qyd" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3EZMnI" id="7OochqQ3QGV" role="3EZMnx">
+            <node concept="2iRfu4" id="7OochqQ3QGW" role="2iSdaV" />
+            <node concept="3F0ifn" id="7OochqQ3QGX" role="3EZMnx">
+              <property role="3F0ifm" value="arrow key pan amount" />
+            </node>
+            <node concept="3F1sOY" id="7OochqQ3QGY" role="3EZMnx">
+              <property role="1$x2rV" value="default" />
+              <ref role="1NtTu8" to="2qld:7OochqQ3Ol8" resolve="panAmount" />
+            </node>
+            <node concept="VPM3Z" id="7OochqQ3QGZ" role="3F10Kt" />
+            <node concept="VPXOz" id="7OochqQ3QH0" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3EZMnI" id="7OochqQ3Ry2" role="3EZMnx">
+            <node concept="2iRfu4" id="7OochqQ3Ry3" role="2iSdaV" />
+            <node concept="3F0ifn" id="7OochqQ3Ry4" role="3EZMnx">
+              <property role="3F0ifm" value="arrow key pan amount (slow)" />
+            </node>
+            <node concept="3F1sOY" id="7OochqQ3Ry5" role="3EZMnx">
+              <property role="1$x2rV" value="default" />
+              <ref role="1NtTu8" to="2qld:7OochqQ3Ol9" resolve="panAmountSlow" />
+            </node>
+            <node concept="VPM3Z" id="7OochqQ3Ry6" role="3F10Kt" />
+            <node concept="VPXOz" id="7OochqQ3Ry7" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3EZMnI" id="7OochqQ3SnL" role="3EZMnx">
+            <node concept="2iRfu4" id="7OochqQ3SnM" role="2iSdaV" />
+            <node concept="3F0ifn" id="7OochqQ3SnN" role="3EZMnx">
+              <property role="3F0ifm" value="minimum scale" />
+            </node>
+            <node concept="3F1sOY" id="7OochqQ3TnA" role="3EZMnx">
+              <property role="1$x2rV" value="default" />
+              <ref role="1NtTu8" to="2qld:7OochqQ3Ola" resolve="minimumScale" />
+            </node>
+            <node concept="VPM3Z" id="7OochqQ3SnP" role="3F10Kt" />
+            <node concept="VPXOz" id="7OochqQ3SnQ" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
           <node concept="3EZMnI" id="4sEIQIBw07n" role="3EZMnx">
             <node concept="2iRfu4" id="4sEIQIBw07o" role="2iSdaV" />
             <node concept="3F0ifn" id="4sEIQIBw07p" role="3EZMnx">

@@ -2232,10 +2232,6 @@
         <node concept="3clFbF" id="YGA9S64RJH" role="3cqZAp">
           <node concept="1Wc70l" id="7c8nz5HfdPU" role="3clFbG">
             <node concept="3eOSWO" id="7c8nz5HfkC3" role="3uHU7w">
-              <node concept="10M0yZ" id="7c8nz5Hfl8d" role="3uHU7w">
-                <ref role="3cqZAo" to="r3rm:7c8nz5Ham6C" resolve="MINIMUM_SCALE" />
-                <ref role="1PxDUh" to="r3rm:190K99KyNov" resolve="MyGraphComponent" />
-              </node>
               <node concept="2OqwBi" id="7c8nz5Hfj_L" role="3uHU7B">
                 <node concept="2OqwBi" id="7c8nz5HfghI" role="2Oq$k0">
                   <node concept="2OqwBi" id="7c8nz5HfeS5" role="2Oq$k0">
@@ -2252,6 +2248,24 @@
                 </node>
                 <node concept="liA8E" id="7c8nz5Hfk05" role="2OqNvi">
                   <ref role="37wK5l" to="1njx:~mxGraphView.getScale()" resolve="getScale" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7OochqQ1XCV" role="3uHU7w">
+                <node concept="2OqwBi" id="7OochqQ1XaA" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7OochqQ1UI8" role="2Oq$k0">
+                    <node concept="37vLTw" id="7OochqQ1Syp" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7c8nz5HfdEn" resolve="activeDiagram" />
+                    </node>
+                    <node concept="liA8E" id="7OochqQ1WYG" role="2OqNvi">
+                      <ref role="37wK5l" to="r3rm:5S8_I2GeiUe" resolve="getDiagramModel" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7OochqQ1Xrp" role="2OqNvi">
+                    <ref role="37wK5l" to="nkm5:lNQZNowrwP" resolve="getDiagramAccessor" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7OochqQ1XYy" role="2OqNvi">
+                  <ref role="37wK5l" to="nkm5:7OochqPNm6X" resolve="getMinimumScale" />
                 </node>
               </node>
             </node>

@@ -189,6 +189,92 @@
           </node>
         </node>
       </node>
+      <node concept="15bAme" id="7OochqQbTKH" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOE/added" />
+        <node concept="2DRihI" id="7OochqQbTKI" role="15bAlk">
+          <node concept="2hgSXJ" id="7OochqQbTKV" role="1PaTwD">
+            <node concept="1PaTwC" id="7OochqQbTKW" role="2hiFM$">
+              <node concept="15Ami3" id="7OochqQbTKX" role="1PaTwD">
+                <node concept="37shsh" id="7OochqQbTKY" role="15Aodc">
+                  <node concept="1dCxOk" id="7OochqQbTKZ" role="37shsm">
+                    <property role="1XweGW" value="fa13cc63-c476-4d46-9c96-d53670abe7bc" />
+                    <property role="1XxBO9" value="de.itemis.mps.editor.diagram" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="7OochqQbTL0" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTL4" role="1PaTwD">
+            <property role="3oM_SC" value="Some" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTL5" role="1PaTwD">
+            <property role="3oM_SC" value="more" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTL6" role="1PaTwD">
+            <property role="3oM_SC" value="options" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLe" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLf" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLg" role="1PaTwD">
+            <property role="3oM_SC" value="diagram" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLh" role="1PaTwD">
+            <property role="3oM_SC" value="component" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLn" role="1PaTwD">
+            <property role="3oM_SC" value="like" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLs" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLt" role="1PaTwD">
+            <property role="3oM_SC" value="pan" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLu" role="1PaTwD">
+            <property role="3oM_SC" value="amount" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLv" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLw" role="1PaTwD">
+            <property role="3oM_SC" value="minimum" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLx" role="1PaTwD">
+            <property role="3oM_SC" value="scaling" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLi" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLj" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLk" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLl" role="1PaTwD">
+            <property role="3oM_SC" value="customized" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLm" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLy" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTLz" role="1PaTwD">
+            <property role="3oM_SC" value="diagram" />
+          </node>
+          <node concept="3oM_SD" id="7OochqQbTL$" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="15bmVD" id="75IoIgYnSqu" role="15bmVC">
       <node concept="15ShDW" id="75IoIgYnSqr" role="15bq2Y">

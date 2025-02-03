@@ -94,8 +94,15 @@
       <concept id="6718020819487620873" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Named" flags="ng" index="A1WHu">
         <reference id="6718020819487620874" name="menu" index="A1WHt" />
       </concept>
+      <concept id="5944657839000868711" name="jetbrains.mps.lang.editor.structure.ConceptEditorContextHints" flags="ig" index="2ABfQD">
+        <child id="5944657839000877563" name="hints" index="2ABdcP" />
+      </concept>
       <concept id="3547227755871693971" name="jetbrains.mps.lang.editor.structure.PredefinedSelector" flags="ng" index="2B6iha">
         <property id="2162403111523065396" name="cellId" index="1lyBwo" />
+      </concept>
+      <concept id="5944657839003601246" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclaration" flags="ig" index="2BsEeg">
+        <property id="168363875802087287" name="showInUI" index="2gpH_U" />
+        <property id="5944657839012629576" name="presentation" index="2BUmq6" />
       </concept>
       <concept id="3473224453637651916" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform_PlaceInCellHolder" flags="ng" index="CtIbL">
         <property id="3473224453637651917" name="placeInCell" index="CtIbK" />
@@ -4238,6 +4245,14 @@
         <ref role="1k5W1q" to="tpfu:4uWsyBq9toC" resolve="RightRegexpBrace" />
       </node>
       <node concept="l2Vlx" id="i0MCu6Q" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="2ABfQD" id="4ji0xD6WAsy">
+    <property role="TrG5h" value="EditorHints" />
+    <node concept="2BsEeg" id="4ji0xD6WAsz" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="performance" />
+      <property role="2BUmq6" value="performance" />
     </node>
   </node>
 </model>

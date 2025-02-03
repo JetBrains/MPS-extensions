@@ -51,6 +51,7 @@
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="ujg5" ref="563a0770-eb88-4f4f-83ed-f708776fc2fe/java:org.apache.batik.dom(de.itemis.stubs.batik/)" />
     <import index="nxzt" ref="563a0770-eb88-4f4f-83ed-f708776fc2fe/java:org.apache.batik.svggen(de.itemis.stubs.batik/)" />
+    <import index="1wbl" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.idea(MPS.IDEA/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
@@ -3113,18 +3114,18 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1JJYOwUtd$a" role="3cqZAp">
-          <node concept="2OqwBi" id="1JJYOwUtehv" role="3clFbG">
-            <node concept="2OqwBi" id="1JJYOwUtd$4" role="2Oq$k0">
-              <node concept="2WthIp" id="1JJYOwUtd$7" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="1JJYOwUtd$9" role="2OqNvi">
-                <ref role="2WH_rO" node="17W1KUH8Thl" resolve="editorComponent" />
+            <node concept="3clFbF" id="1JJYOwUtd$a" role="3cqZAp">
+              <node concept="2OqwBi" id="1JJYOwUtehv" role="3clFbG">
+                <node concept="2OqwBi" id="1JJYOwUtd$4" role="2Oq$k0">
+                  <node concept="2WthIp" id="1JJYOwUtd$7" role="2Oq$k0" />
+                  <node concept="2BZ7hE" id="1JJYOwUtd$9" role="2OqNvi">
+                    <ref role="2WH_rO" node="17W1KUH8Thl" resolve="editorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1JJYOwUtfiS" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.dispose()" resolve="dispose" />
+                </node>
               </node>
-            </node>
-            <node concept="liA8E" id="1JJYOwUtfiS" role="2OqNvi">
-              <ref role="37wK5l" to="exr9:~EditorComponent.dispose()" resolve="dispose" />
             </node>
           </node>
         </node>
@@ -3141,6 +3142,15 @@
                 <ref role="2WH_rO" node="1JJYOwUu4ql" resolve="ideaProject" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3SKw7pWVDhK" role="3cqZAp">
+          <node concept="3clFbS" id="3SKw7pWVDhM" role="3clFbx">
+            <node concept="3cpWs6" id="3SKw7pWVJER" role="3cqZAp" />
+          </node>
+          <node concept="2YIFZM" id="3SKw7pWVJ07" role="3clFbw">
+            <ref role="37wK5l" to="1wbl:~AppMode.isHeadless()" resolve="isHeadless" />
+            <ref role="1Pybhc" to="1wbl:~AppMode" resolve="AppMode" />
           </node>
         </node>
         <node concept="3clFbF" id="17W1KUH8U8Z" role="3cqZAp">

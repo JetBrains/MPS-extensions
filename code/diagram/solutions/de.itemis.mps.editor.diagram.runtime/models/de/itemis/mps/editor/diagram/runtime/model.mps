@@ -17602,6 +17602,37 @@
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
       </node>
     </node>
+    <node concept="2tJIrI" id="7OochqPMno3" role="jymVt" />
+    <node concept="3clFb_" id="7OochqPN0Lp" role="jymVt">
+      <property role="TrG5h" value="getArrowKeyMoveAmount" />
+      <node concept="3clFbS" id="7OochqPN0Ls" role="3clF47" />
+      <node concept="3Tm1VV" id="7OochqPN0Lt" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPMGnZ" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="7OochqPN4Ov" role="jymVt">
+      <property role="TrG5h" value="getArrowKeyMoveAmountSlow" />
+      <node concept="3clFbS" id="7OochqPN4Oy" role="3clF47" />
+      <node concept="3Tm1VV" id="7OochqPN4Oz" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPN36O" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="7OochqPNaHM" role="jymVt">
+      <property role="TrG5h" value="getPanAmount" />
+      <node concept="3clFbS" id="7OochqPNaHP" role="3clF47" />
+      <node concept="3Tm1VV" id="7OochqPNaHQ" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPN92M" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="7OochqPNgxA" role="jymVt">
+      <property role="TrG5h" value="getPanAmountSlow" />
+      <node concept="3clFbS" id="7OochqPNgxD" role="3clF47" />
+      <node concept="3Tm1VV" id="7OochqPNgxE" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPNeRj" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="7OochqPNm6X" role="jymVt">
+      <property role="TrG5h" value="getMinimumScale" />
+      <node concept="3clFbS" id="7OochqPNm70" role="3clF47" />
+      <node concept="3Tm1VV" id="7OochqPNm71" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPNkrL" role="3clF45" />
+    </node>
   </node>
   <node concept="3HP615" id="4teJTSBx0$0">
     <property role="3GE5qa" value="accessor" />
@@ -29540,6 +29571,91 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="2WP$sH$KLcE" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7OochqPNqgv" role="jymVt" />
+    <node concept="3clFb_" id="7OochqPNr76" role="jymVt">
+      <property role="TrG5h" value="getArrowKeyMoveAmount" />
+      <node concept="3Tm1VV" id="7OochqPNr78" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPNr79" role="3clF45" />
+      <node concept="3clFbS" id="7OochqPNr7a" role="3clF47">
+        <node concept="3clFbF" id="7OochqPNKfP" role="3cqZAp">
+          <node concept="10M0yZ" id="7OochqPNLX7" role="3clFbG">
+            <ref role="3cqZAo" to="r3rm:5cml0P9q3Hw" resolve="DEFAULT_ARROW_KEY_MOVE_AMOUNT" />
+            <ref role="1PxDUh" to="r3rm:190K99KyNov" resolve="MyGraphComponent" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7OochqPNr7b" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7OochqPNsmP" role="jymVt" />
+    <node concept="3clFb_" id="7OochqPNr7e" role="jymVt">
+      <property role="TrG5h" value="getArrowKeyMoveAmountSlow" />
+      <node concept="3Tm1VV" id="7OochqPNr7g" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPNr7h" role="3clF45" />
+      <node concept="3clFbS" id="7OochqPNr7i" role="3clF47">
+        <node concept="3clFbF" id="7OochqPNNwM" role="3cqZAp">
+          <node concept="10M0yZ" id="7OochqPNPhE" role="3clFbG">
+            <ref role="3cqZAo" to="r3rm:6zKSYRPaYAF" resolve="DEFAULT_ARROW_KEY_MOVE_AMOUNT_SLOW" />
+            <ref role="1PxDUh" to="r3rm:190K99KyNov" resolve="MyGraphComponent" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7OochqPNr7j" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7OochqPNt7V" role="jymVt" />
+    <node concept="3clFb_" id="7OochqPNr7m" role="jymVt">
+      <property role="TrG5h" value="getPanAmount" />
+      <node concept="3Tm1VV" id="7OochqPNr7o" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPNr7p" role="3clF45" />
+      <node concept="3clFbS" id="7OochqPNr7q" role="3clF47">
+        <node concept="3clFbF" id="7OochqPNQNY" role="3cqZAp">
+          <node concept="10M0yZ" id="7OochqPNSys" role="3clFbG">
+            <ref role="3cqZAo" to="r3rm:3uxs2v8zjM3" resolve="DEFAULT_PAN_AMOUNT" />
+            <ref role="1PxDUh" to="r3rm:190K99KyNov" resolve="MyGraphComponent" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7OochqPNr7r" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7OochqPNtT1" role="jymVt" />
+    <node concept="3clFb_" id="7OochqPNr7u" role="jymVt">
+      <property role="TrG5h" value="getPanAmountSlow" />
+      <node concept="3Tm1VV" id="7OochqPNr7w" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPNr7x" role="3clF45" />
+      <node concept="3clFbS" id="7OochqPNr7y" role="3clF47">
+        <node concept="3clFbF" id="7OochqPNU5m" role="3cqZAp">
+          <node concept="10M0yZ" id="7OochqPNVSj" role="3clFbG">
+            <ref role="3cqZAo" to="r3rm:7u_6SsWY_sX" resolve="DEFAULT_PAN_AMOUNT_SLOW" />
+            <ref role="1PxDUh" to="r3rm:190K99KyNov" resolve="MyGraphComponent" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7OochqPNr7z" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7OochqPNuE7" role="jymVt" />
+    <node concept="3clFb_" id="7OochqPNr7A" role="jymVt">
+      <property role="TrG5h" value="getMinimumScale" />
+      <node concept="3Tm1VV" id="7OochqPNr7C" role="1B3o_S" />
+      <node concept="10P55v" id="7OochqPNr7D" role="3clF45" />
+      <node concept="3clFbS" id="7OochqPNr7E" role="3clF47">
+        <node concept="3clFbF" id="7OochqPNXrN" role="3cqZAp">
+          <node concept="10M0yZ" id="7OochqPNZmK" role="3clFbG">
+            <ref role="3cqZAo" to="r3rm:7c8nz5Ham6C" resolve="DEFAULT_MINIMUM_SCALE" />
+            <ref role="1PxDUh" to="r3rm:190K99KyNov" resolve="MyGraphComponent" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7OochqPNr7F" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

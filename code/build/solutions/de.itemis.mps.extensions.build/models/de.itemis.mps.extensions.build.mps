@@ -16528,6 +16528,11 @@
         <property role="2iUeEt" value="itemis AG" />
         <property role="2iUeEu" value="https://www.itemis.com/en/it-services/methods-and-tools/mps" />
       </node>
+      <node concept="3_J27D" id="1GcfINOr8Ue" role="3s6cr7">
+        <node concept="3Mxwew" id="1GcfINOr9nA" role="3MwsjC">
+          <property role="3MwjfP" value="This plugin allows you to compare two nodes programmatically. The comparison can be configured and some features of nodes can be ignored." />
+        </node>
+      </node>
     </node>
     <node concept="2G$12M" id="77YfcvOKyvQ" role="3989C9">
       <property role="TrG5h" value="de.itemis.mps.compare" />

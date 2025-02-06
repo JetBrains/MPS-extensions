@@ -7,7 +7,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="off" classes="mps" ext="yes">
+    <facet type="java" compile="ext" classes="mps" ext="no">
       <classes generated="true" />
       <library location="${module}/lib/xercesImpl.jar" />
       <library location="${module}/lib/xml-apis-ext.jar" />

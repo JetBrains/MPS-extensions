@@ -9,7 +9,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="mps" classes="mps" ext="no">
+    <facet type="java" compile="ext" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/lib/trove4j-3.0.3.jar" />
       <library location="${module}/lib/vavr-0.9.3.jar" />

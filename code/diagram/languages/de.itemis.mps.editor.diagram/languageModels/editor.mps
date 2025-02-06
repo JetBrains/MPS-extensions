@@ -1830,6 +1830,25 @@
           <node concept="VPM3Z" id="6clvLV1rLls" role="3F10Kt">
             <property role="VOm3f" value="false" />
           </node>
+          <node concept="3EZMnI" id="7f8dMG51$vw" role="3EZMnx">
+            <node concept="VPM3Z" id="7f8dMG51$vx" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPXOz" id="7f8dMG51$vy" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="3F0ifn" id="7f8dMG51$vz" role="3EZMnx">
+              <property role="3F0ifm" value="id" />
+            </node>
+            <node concept="3F1sOY" id="7f8dMG51$v$" role="3EZMnx">
+              <property role="1$x2rV" value="derived from node" />
+              <ref role="1NtTu8" to="2qld:7f8dMG51zry" resolve="edgeID" />
+              <node concept="VPXOz" id="7f8dMG51$v_" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="2iRfu4" id="7f8dMG51$vA" role="2iSdaV" />
+          </node>
           <node concept="PMmxH" id="6clvLV1rNtO" role="3EZMnx">
             <ref role="PMmxG" node="6clvLV1rFa$" resolve="EdgeEditor" />
           </node>
@@ -4732,25 +4751,6 @@
     <property role="3GE5qa" value="edgeEditor" />
     <ref role="1XX52x" to="2qld:7RbR7LCxiqz" resolve="IEdgeEditor" />
     <node concept="3EZMnI" id="6clvLV1rFOL" role="2wV5jI">
-      <node concept="3EZMnI" id="7f8dMG51$vw" role="3EZMnx">
-        <node concept="VPM3Z" id="7f8dMG51$vx" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="VPXOz" id="7f8dMG51$vy" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3F0ifn" id="7f8dMG51$vz" role="3EZMnx">
-          <property role="3F0ifm" value="id" />
-        </node>
-        <node concept="3F1sOY" id="7f8dMG51$v$" role="3EZMnx">
-          <property role="1$x2rV" value="derived from node" />
-          <ref role="1NtTu8" to="2qld:7f8dMG51zry" resolve="edgeID" />
-          <node concept="VPXOz" id="7f8dMG51$v_" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="2iRfu4" id="7f8dMG51$vA" role="2iSdaV" />
-      </node>
       <node concept="VPM3Z" id="6clvLV1rFOM" role="3F10Kt">
         <property role="VOm3f" value="false" />
       </node>

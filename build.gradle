@@ -1,5 +1,5 @@
 plugins {
-    id 'de.itemis.mps.gradle.common' version '1.29.0.+'
+    id 'de.itemis.mps.gradle.common' version '1.29.1.+'
     id "com.github.breadmoirai.github-release" version "2.5.2"
     id 'maven-publish'
     id 'base'

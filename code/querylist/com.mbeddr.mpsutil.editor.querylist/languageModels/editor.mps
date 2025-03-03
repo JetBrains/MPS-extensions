@@ -399,11 +399,11 @@
                   <node concept="2ShNRf" id="4EGFz66E2Gc" role="3clFbG">
                     <node concept="1pGfFk" id="4EGFz66E2Gd" role="2ShVmc">
                       <property role="373rjd" value="true" />
-                      <ref role="37wK5l" node="4EGFz66CYq0" />
+                      <ref role="37wK5l" node="4EGFz66CYq0" resolve="IconCell" />
                       <node concept="pncrf" id="4EGFz66E2Ge" role="37wK5m" />
                       <node concept="10M0yZ" id="4EGFz66uAoo" role="37wK5m">
                         <ref role="3cqZAo" to="z2i8:~AllIcons$General.ContextHelp" resolve="ContextHelp" />
-                        <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="General" />
+                        <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
                       </node>
                       <node concept="3cmrfG" id="4EGFz66E2Gg" role="37wK5m">
                         <property role="3cmrfH" value="5" />

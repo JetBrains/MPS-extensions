@@ -216,7 +216,7 @@
                       </node>
                       <node concept="359W_D" id="1ji15RhfQ9v" role="3uHU7w">
                         <ref role="359W_E" to="bbp5:5oklODadopi" resolve="CellModel_QueryList" />
-                        <ref role="359W_F" to="bbp5:6hPjX46YZPG" />
+                        <ref role="359W_F" to="bbp5:6hPjX46YZPG" resolve="editorComponent" />
                       </node>
                     </node>
                   </node>

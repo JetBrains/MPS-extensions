@@ -3382,13 +3382,13 @@
                             <ref role="3cqZAo" node="4EGFz66CW2L" resolve="icon" />
                           </node>
                           <node concept="liA8E" id="4EGFz66AcSf" role="2OqNvi">
-                            <ref role="37wK5l" to="dxuu:~Icon.getIconWidth()" resolve="getIconWidth" />
+                            <ref role="37wK5l" to="dxuu:~Icon.getIconHeight()" resolve="getIconHeight" />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="4EGFz66AcSg" role="37vLTJ">
                           <node concept="Xjq3P" id="4EGFz66AcSh" role="2Oq$k0" />
                           <node concept="2OwXpG" id="4EGFz66AcSi" role="2OqNvi">
-                            <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myWidth" resolve="myWidth" />
+                            <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
                           </node>
                         </node>
                       </node>

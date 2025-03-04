@@ -105,6 +105,104 @@
     <property role="TrG5h" value="Changelog" />
     <property role="15SkSo" value="Po4Z58IlRA/monthYear" />
     <property role="2hl1$G" value="md" />
+    <node concept="15bmVD" id="6plDSSS$zdO" role="15bmVC">
+      <node concept="15ShDW" id="6plDSSS$zdL" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgAp/March" />
+        <property role="15ShDw" value="2025" />
+      </node>
+      <node concept="15bAme" id="6plDSSS$zdM" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOE/added" />
+        <node concept="2DRihI" id="6plDSSS$zdN" role="15bAlk">
+          <node concept="2hgSXJ" id="6plDSSS$zz$" role="1PaTwD">
+            <node concept="1PaTwC" id="6plDSSS$zz_" role="2hiFM$">
+              <node concept="15Ami3" id="6plDSSS$zzA" role="1PaTwD">
+                <node concept="37shsh" id="6plDSSS$zzB" role="15Aodc">
+                  <node concept="1dCxOk" id="6plDSSS$zzC" role="37shsm">
+                    <property role="1XweGW" value="fa13cc63-c476-4d46-9c96-d53670abe7bc" />
+                    <property role="1XxBO9" value="de.itemis.mps.editor.diagram" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="6plDSSS$zzD" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zzl" role="1PaTwD">
+            <property role="3oM_SC" value="Connectable" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zyV" role="1PaTwD">
+            <property role="3oM_SC" value="ports" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zyW" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zyX" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zyY" role="1PaTwD">
+            <property role="3oM_SC" value="highlighted" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zyZ" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz0" role="1PaTwD">
+            <property role="3oM_SC" value="green" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz1" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz2" role="1PaTwD">
+            <property role="3oM_SC" value="non-connectable" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz3" role="1PaTwD">
+            <property role="3oM_SC" value="ports" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz4" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz5" role="1PaTwD">
+            <property role="3oM_SC" value="highlighted" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz6" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz7" role="1PaTwD">
+            <property role="3oM_SC" value="red" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz8" role="1PaTwD">
+            <property role="3oM_SC" value="when" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zz9" role="1PaTwD">
+            <property role="3oM_SC" value="you" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zza" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zzb" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zzc" role="1PaTwD">
+            <property role="3oM_SC" value="create" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zzd" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zze" role="1PaTwD">
+            <property role="3oM_SC" value="connection" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zzf" role="1PaTwD">
+            <property role="3oM_SC" value="between" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zzg" role="1PaTwD">
+            <property role="3oM_SC" value="2" />
+          </node>
+          <node concept="3oM_SD" id="6plDSSS$zzh" role="1PaTwD">
+            <property role="3oM_SC" value="ports." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="15bmVD" id="1HjGWYxfrII" role="15bmVC">
       <node concept="15ShDW" id="1HjGWYxfrIF" role="15bq2Y">
         <property role="15ShDY" value="Po4Z58IgAl/January" />

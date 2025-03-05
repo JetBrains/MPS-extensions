@@ -3,11 +3,16 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -16,6 +21,7 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -23,6 +29,13 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
+        <property id="1071599776563" name="role" index="20kJfa" />
+        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
+        <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -33,8 +46,8 @@
   </registry>
   <node concept="1TIwiD" id="6Wsm6VK0e7v">
     <property role="TrG5h" value="CellModel_Multiline" />
-    <property role="34LRSv" value="multiline" />
-    <property role="R4oN_" value="multiline {&lt;{propertyDeclaration}&gt;}" />
+    <property role="34LRSv" value="multi-line" />
+    <property role="R4oN_" value="multi-line {&lt;{propertyDeclaration}&gt;}" />
     <property role="EcuMT" value="8006371471054135775" />
     <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
   </node>
@@ -45,6 +58,35 @@
     <node concept="PrWs8" id="7wXnfGDY5lq" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1TZykZL8TNr">
+    <property role="TrG5h" value="CellModel_Multiline_Constant" />
+    <property role="34LRSv" value="constant multi-line" />
+    <property role="R4oN_" value="a multi-line constant text" />
+    <property role="EcuMT" value="2197626119621156059" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="7XmAYSGThxX" role="1TKVEi">
+      <property role="IQ2ns" value="9175692738071697533" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contentProvider" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7XmAYSGTgVv" resolve="QueryFunction_Content" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1TZykZL8TNs">
+    <property role="TrG5h" value="StubCellModel_Multiline_Constant" />
+    <property role="EcuMT" value="2197626119621156060" />
+    <ref role="1TJDcQ" node="1TZykZL8TNr" resolve="CellModel_Multiline_Constant" />
+    <node concept="PrWs8" id="1TZykZL8TNu" role="PzmwI">
+      <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7XmAYSGTgVv">
+    <property role="EcuMT" value="9175692738071695071" />
+    <property role="TrG5h" value="QueryFunction_Content" />
+    <property role="34LRSv" value="content" />
+    <property role="R4oN_" value="embedded block of code" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

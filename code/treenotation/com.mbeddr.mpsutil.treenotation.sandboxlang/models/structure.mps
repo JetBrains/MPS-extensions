@@ -2,7 +2,7 @@
 <model ref="r:74912edc-30f3-44ff-8b9f-c9c8b1fb4035(com.mbeddr.mpsutil.treenotation.sandboxlang.structure)">
   <persistence version="9" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -152,6 +152,22 @@
           <property role="3PKj8l" value="ff8080" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1byEXNPCKA">
+    <property role="EcuMT" value="21263109420649510" />
+    <property role="TrG5h" value="CompactTreeNode" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1byEXNQ0rd" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="1byEXNQ0rg" role="1TKVEi">
+      <property role="IQ2ns" value="21263109420746448" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="subnodes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1byEXNPCKA" resolve="CompactTreeNode" />
     </node>
   </node>
 </model>

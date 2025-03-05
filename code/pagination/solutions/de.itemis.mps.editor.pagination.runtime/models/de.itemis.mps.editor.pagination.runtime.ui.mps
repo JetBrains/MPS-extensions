@@ -1445,12 +1445,21 @@
                             <ref role="37wK5l" to="lzb2:~ColorUtil.mix(java.awt.Color,java.awt.Color,double)" resolve="mix" />
                             <ref role="1Pybhc" to="lzb2:~ColorUtil" resolve="ColorUtil" />
                             <node concept="2OqwBi" id="2mFBf1FJbuC" role="37wK5m">
-                              <node concept="2YIFZM" id="2mFBf1FJall" role="2Oq$k0">
-                                <ref role="37wK5l" to="hox0:~StyleRegistry.getInstance()" resolve="getInstance" />
-                                <ref role="1Pybhc" to="hox0:~StyleRegistry" resolve="StyleRegistry" />
-                              </node>
                               <node concept="liA8E" id="2mFBf1FJcDr" role="2OqNvi">
                                 <ref role="37wK5l" to="hox0:~StyleRegistry.getEditorBackground()" resolve="getEditorBackground" />
+                              </node>
+                              <node concept="2OqwBi" id="6SqTcxhZAkL" role="2Oq$k0">
+                                <node concept="2OqwBi" id="6SqTcxhZzBF" role="2Oq$k0">
+                                  <node concept="37vLTw" id="6SqTcxhZy$d" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="1wtMaD$hD8" resolve="myContext" />
+                                  </node>
+                                  <node concept="liA8E" id="6SqTcxhZ_zC" role="2OqNvi">
+                                    <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="6SqTcxhZBHZ" role="2OqNvi">
+                                  <ref role="37wK5l" to="cj4x:~EditorComponent.getStyleRegistry()" resolve="getStyleRegistry" />
+                                </node>
                               </node>
                             </node>
                             <node concept="10M0yZ" id="2mFBf1FJgg2" role="37wK5m">

@@ -2332,34 +2332,6 @@
             </node>
           </node>
         </node>
-        <node concept="3tD6jV" id="vVBnaNT7Qe" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
-          <node concept="3sjG9q" id="vVBnaNT7Qf" role="3tD6jU">
-            <node concept="3clFbS" id="vVBnaNT7Qg" role="2VODD2">
-              <node concept="3clFbF" id="vVBnaNT7Qh" role="3cqZAp">
-                <node concept="unr1b" id="vVBnaNT7Qi" role="3clFbG">
-                  <ref role="un$jP" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
-                  <node concept="2OqwBi" id="vVBnaNT7Qj" role="unwt0">
-                    <node concept="2OqwBi" id="vVBnaNT7Qk" role="2Oq$k0">
-                      <node concept="2OqwBi" id="vVBnaNT7Ql" role="2Oq$k0">
-                        <node concept="pncrf" id="vVBnaNT7Qm" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="vVBnaNT7Qn" role="2OqNvi">
-                          <ref role="3Tt5mk" to="xaff:2nNmQB_HYH7" resolve="config" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="vVBnaNT7Qo" role="2OqNvi">
-                        <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="vVBnaNT7Qp" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3tD6jV" id="2nNmQB_HTIL" role="3F10Kt">
           <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="diagram-layout-topdown-scale-factor" />
           <node concept="3sjG9q" id="2nNmQB_HTIN" role="3tD6jU">
@@ -4551,34 +4523,6 @@
             </node>
           </node>
         </node>
-        <node concept="3tD6jV" id="3biyEnO0UqJ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
-          <node concept="3sjG9q" id="3biyEnO0UqL" role="3tD6jU">
-            <node concept="3clFbS" id="3biyEnO0UqN" role="2VODD2">
-              <node concept="3clFbF" id="3biyEnO16Uw" role="3cqZAp">
-                <node concept="unr1b" id="3biyEnO1798" role="3clFbG">
-                  <ref role="un$jP" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
-                  <node concept="2OqwBi" id="3biyEnO17Nm" role="unwt0">
-                    <node concept="2OqwBi" id="3biyEnO17yA" role="2Oq$k0">
-                      <node concept="2OqwBi" id="3biyEnO17tD" role="2Oq$k0">
-                        <node concept="pncrf" id="3biyEnO17nc" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="3biyEnO17wF" role="2OqNvi">
-                          <ref role="3Tt5mk" to="xaff:3biyEnO0R88" resolve="config" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="3biyEnO17DY" role="2OqNvi">
-                        <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="3biyEnO180P" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3tD6jV" id="3biyEnO0UAR" role="3F10Kt">
           <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="diagram-layout-topdown-scale-factor" />
           <node concept="3sjG9q" id="3biyEnO0UAT" role="3tD6jU">
@@ -5055,34 +4999,6 @@
                   </node>
                   <node concept="3TrcHB" id="vVBnaNOutw" role="2OqNvi">
                     <ref role="3TsBF5" to="2qld:3biyEnO42oe" resolve="topdownLayout" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3tD6jV" id="vVBnaNOutx" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
-          <node concept="3sjG9q" id="vVBnaNOuty" role="3tD6jU">
-            <node concept="3clFbS" id="vVBnaNOutz" role="2VODD2">
-              <node concept="3clFbF" id="vVBnaNOut$" role="3cqZAp">
-                <node concept="unr1b" id="vVBnaNOut_" role="3clFbG">
-                  <ref role="un$jP" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
-                  <node concept="2OqwBi" id="vVBnaNOutA" role="unwt0">
-                    <node concept="2OqwBi" id="vVBnaNOutB" role="2Oq$k0">
-                      <node concept="2OqwBi" id="vVBnaNOutC" role="2Oq$k0">
-                        <node concept="pncrf" id="vVBnaNOutD" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="vVBnaNOutE" role="2OqNvi">
-                          <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="vVBnaNOutF" role="2OqNvi">
-                        <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="vVBnaNOutG" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
-                    </node>
                   </node>
                 </node>
               </node>
@@ -6991,26 +6907,6 @@
             </node>
           </node>
         </node>
-        <node concept="3tD6jV" id="3biyEnNSN0u" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNNMAG" resolve="diagram-layout-stress-fixed-position" />
-          <node concept="3sjG9q" id="3biyEnNSN0w" role="3tD6jU">
-            <node concept="3clFbS" id="3biyEnNSN0y" role="2VODD2">
-              <node concept="3clFbF" id="3biyEnNSPLF" role="3cqZAp">
-                <node concept="2OqwBi" id="3biyEnNSQ0t" role="3clFbG">
-                  <node concept="2OqwBi" id="3biyEnNSPSK" role="2Oq$k0">
-                    <node concept="pncrf" id="3biyEnNSPLE" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="3biyEnNSPWs" role="2OqNvi">
-                      <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="3biyEnNSQ3D" role="2OqNvi">
-                    <ref role="3TsBF5" to="2qld:3biyEnNNler" resolve="fixedPosition" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3tD6jV" id="3biyEnNSNan" role="3F10Kt">
           <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
           <node concept="3sjG9q" id="3biyEnNSNap" role="3tD6jU">
@@ -7287,34 +7183,6 @@
                   </node>
                   <node concept="3TrcHB" id="3biyEnOd5Ta" role="2OqNvi">
                     <ref role="3TsBF5" to="2qld:3biyEnO42oe" resolve="topdownLayout" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3tD6jV" id="3biyEnOcXSW" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
-          <node concept="3sjG9q" id="3biyEnOcXSY" role="3tD6jU">
-            <node concept="3clFbS" id="3biyEnOcXT0" role="2VODD2">
-              <node concept="3clFbF" id="3biyEnOd5YQ" role="3cqZAp">
-                <node concept="unr1b" id="3biyEnOd6f6" role="3clFbG">
-                  <ref role="un$jP" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
-                  <node concept="2OqwBi" id="3biyEnOd7jR" role="unwt0">
-                    <node concept="2OqwBi" id="3biyEnOd6$h" role="2Oq$k0">
-                      <node concept="2OqwBi" id="3biyEnOd6tR" role="2Oq$k0">
-                        <node concept="pncrf" id="3biyEnOd6nq" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="3biyEnOd6wT" role="2OqNvi">
-                          <ref role="3Tt5mk" to="xaff:3biyEnOc77C" resolve="config" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="3biyEnOd6Jw" role="2OqNvi">
-                        <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="3biyEnOd7FQ" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
-                    </node>
                   </node>
                 </node>
               </node>

@@ -121,7 +121,7 @@
                 <node concept="2Xjw5R" id="6celbXx1A0L" role="2OqNvi">
                   <node concept="1xMEDy" id="6celbXx1A0M" role="1xVPHs">
                     <node concept="chp4Y" id="6celbXx1A0N" role="ri$Ld">
-                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                     </node>
                   </node>
                 </node>

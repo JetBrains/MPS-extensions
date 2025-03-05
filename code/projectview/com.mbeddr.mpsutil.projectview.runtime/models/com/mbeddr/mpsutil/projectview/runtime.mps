@@ -6468,19 +6468,9 @@
             </node>
             <node concept="3clFbJ" id="4jHuzb0CHB_" role="3cqZAp">
               <node concept="3clFbS" id="4jHuzb0CHBB" role="3clFbx">
-                <node concept="3clFbF" id="Mi95F9j2fq" role="3cqZAp">
-                  <node concept="2YIFZM" id="Mi95F9j53T" role="3clFbG">
-                    <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadNoWait(java.lang.Runnable)" resolve="runInUIThreadNoWait" />
-                    <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
-                    <node concept="1bVj0M" id="Mi95F9j7Hv" role="37wK5m">
-                      <node concept="3clFbS" id="Mi95F9j7Hw" role="1bW5cS">
-                        <node concept="3clFbF" id="Mi95F9jaIA" role="3cqZAp">
-                          <node concept="1rXfSq" id="Mi95F9jaI_" role="3clFbG">
-                            <ref role="37wK5l" node="VPgi8egh6x" resolve="dispose" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
+                <node concept="3clFbF" id="28Tw7wfqwXO" role="3cqZAp">
+                  <node concept="1rXfSq" id="28Tw7wfqwXM" role="3clFbG">
+                    <ref role="37wK5l" node="VPgi8egh6x" resolve="dispose" />
                   </node>
                 </node>
                 <node concept="3cpWs6" id="4jHuzb0Dm$g" role="3cqZAp" />
@@ -6491,7 +6481,7 @@
                     <ref role="2Gs0qQ" node="VPgi8egj9f" resolve="module" />
                   </node>
                   <node concept="liA8E" id="4jHuzb0CKm$" role="2OqNvi">
-                    <ref role="37wK5l" to="lui2:~SModule.getModuleReference()" resolve="getModuleReference" />
+                    <ref role="37wK5l" to="j8aq:~ReloadableModule.getModuleReference()" resolve="getModuleReference" />
                   </node>
                 </node>
                 <node concept="37shsh" id="4jHuzb0CKHK" role="3uHU7w">
@@ -7709,9 +7699,6 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="VPgi8efWmt" role="1B3o_S" />
-    <node concept="3uibUv" id="7JEoLgTCGFK" role="EKbjA">
-      <ref role="3uigEE" to="3qmy:~DeployListener" resolve="DeployListener" />
-    </node>
     <node concept="2tJIrI" id="VPgi8egi6k" role="jymVt" />
     <node concept="3clFb_" id="VPgi8egic3" role="jymVt">
       <property role="TrG5h" value="loadModule" />
@@ -8055,6 +8042,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3uibUv" id="7JEoLgTCGFK" role="EKbjA">
+      <ref role="3uigEE" to="3qmy:~DeployListener" resolve="DeployListener" />
     </node>
   </node>
   <node concept="312cEu" id="nR2eIyDftY">

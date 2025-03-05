@@ -17,9 +17,6 @@
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
       <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <property id="2616911529524314943" name="accessMode" index="3DII0k" />
@@ -204,7 +201,7 @@
           <node concept="3cpWsn" id="6QQNrZxI98" role="3cpWs9">
             <property role="TrG5h" value="modelMerge" />
             <node concept="3Tqbb2" id="6QQNrZxI99" role="1tU5fm">
-              <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+              <ref role="ehGHo" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
             </node>
             <node concept="2OqwBi" id="6QQNrZxJJu" role="33vP2m">
               <node concept="2tJFMh" id="6QQNrZxJyQ" role="2Oq$k0">
@@ -305,9 +302,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="2XOHcx" id="65E6xpGUrwD">
-    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
 </model>
 

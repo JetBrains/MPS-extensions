@@ -6067,6 +6067,11 @@
               <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
             </node>
           </node>
+          <node concept="1SiIV0" id="5fEltjVMmsK" role="3bR37C">
+            <node concept="3bR9La" id="5fEltjVMmsL" role="1SiIV1">
+              <ref role="3bR37D" node="2nutuZsJlmn" resolve="de.itemis.mps.editor.celllayout#2728748097294103221" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="3xFG3bj5Mmn" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5Mmo" role="3rtmxm">

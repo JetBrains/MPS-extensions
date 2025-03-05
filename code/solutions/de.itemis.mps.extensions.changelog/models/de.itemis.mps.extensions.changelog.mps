@@ -182,6 +182,42 @@
             <property role="3oM_SC" value="opened" />
           </node>
         </node>
+        <node concept="2DRihI" id="j5ilhq0L2l" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="2hgSXJ" id="j5ilhq0L3m" role="1PaTwD">
+            <node concept="1PaTwC" id="j5ilhq0L3n" role="2hiFM$">
+              <node concept="15Ami3" id="j5ilhq0L3o" role="1PaTwD">
+                <node concept="37shsh" id="j5ilhq0L3p" role="15Aodc">
+                  <node concept="1dCxOk" id="j5ilhq0L3q" role="37shsm">
+                    <property role="1XweGW" value="fa13cc63-c476-4d46-9c96-d53670abe7bc" />
+                    <property role="1XxBO9" value="de.itemis.mps.editor.diagram" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="j5ilhq0L3r" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="j5ilhq0L3w" role="1PaTwD">
+            <property role="3oM_SC" value="Diagram" />
+          </node>
+          <node concept="3oM_SD" id="j5ilhq0L3x" role="1PaTwD">
+            <property role="3oM_SC" value="boxes" />
+          </node>
+          <node concept="3oM_SD" id="j5ilhq0L3y" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="j5ilhq0L3z" role="1PaTwD">
+            <property role="3oM_SC" value="properly" />
+          </node>
+          <node concept="3oM_SD" id="j5ilhq0L3$" role="1PaTwD">
+            <property role="3oM_SC" value="support" />
+          </node>
+          <node concept="3oM_SD" id="j5ilhq0L3_" role="1PaTwD">
+            <property role="3oM_SC" value="borders." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="1HjGWYxfrII" role="15bmVC">

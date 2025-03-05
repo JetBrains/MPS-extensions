@@ -173,6 +173,11 @@
         <ref role="3cqZAo" to="lzb2:~JBColor.LIGHT_GRAY" resolve="LIGHT_GRAY" />
       </node>
     </node>
+    <node concept="3t5Usi" id="1LTeG_mKfof" role="V601i">
+      <property role="TrG5h" value="-custom-border-painting" />
+      <node concept="10P_77" id="1LTeG_mKfoT" role="3t5Oan" />
+      <node concept="3clFbT" id="1LTeG_mKfpg" role="3t49C2" />
+    </node>
     <node concept="3t5Usi" id="2FAXvauFoRY" role="V601i">
       <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-left-color" />

@@ -6,6 +6,11 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## March 2025
 
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: An issue was fixed where edges of sub-diagrams where not correctly displayed when the diagram was first opened
+- *de.itemis.mps.editor.diagram*: Diagram boxes not properly support borders.
+
 ### Added
 
 - *de.itemis.mps.editor.diagram*: Connectable ports are now highlighted in green and non-connectable ports are highlighted in red when you try to create a connection between 2 ports.

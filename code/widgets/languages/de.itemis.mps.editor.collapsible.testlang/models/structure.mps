@@ -73,12 +73,14 @@
   </node>
   <node concept="1TIwiD" id="62nlqxEmnHA">
     <property role="EcuMT" value="6960125930951506790" />
-    <property role="TrG5h" value="CollapsibleGouped" />
+    <property role="TrG5h" value="CollapsibleGrouped" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="62nlqxEmuXg">
     <property role="EcuMT" value="6960125930951536464" />
     <property role="TrG5h" value="CollapsibleUngrouped" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>

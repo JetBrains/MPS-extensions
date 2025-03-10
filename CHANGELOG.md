@@ -15,6 +15,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.editor.diagram*: Connectable ports are now highlighted in green and non-connectable ports are highlighted in red when you try to create a connection between 2 ports.
 
+### Removed
+
+- *de.slisson.mps.editor.multiline* The feature to insert words with the "*" completion menu entry was removed.
+
 ## January 2025
 
 ### Fixed
@@ -52,6 +56,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Changed
 
 - *de.itemis.mps.editor.celllayout*: The maximum number of layout operations in *LayoutWatchdog#DEFAULT_MAX_LAYOUTING_OPERATIONS* can now be set e.g. by setting the constant in an application plugin.
+
+### Fixed
+
+- *de.slisson.mps.tables*: Various fixes to table end cells in combination with insert and deletion handlers were made.
 
 ## September 2024
 

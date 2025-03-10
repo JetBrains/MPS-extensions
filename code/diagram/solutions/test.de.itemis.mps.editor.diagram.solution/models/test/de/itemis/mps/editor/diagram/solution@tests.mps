@@ -246,6 +246,7 @@
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -13567,6 +13568,21 @@
     <property role="TrG5h" value="FitSize" />
     <property role="3GE5qa" value="actions" />
     <node concept="3clFbS" id="1mqidcvpvpY" role="LjaKd">
+      <node concept="3clFbJ" id="7y5YhgKvL6F" role="3cqZAp">
+        <node concept="3clFbS" id="7y5YhgKvL6H" role="3clFbx">
+          <node concept="3cpWs6" id="7y5YhgKvUcr" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="7y5YhgKvS$x" role="3clFbw">
+          <node concept="2YIFZM" id="7y5YhgKvNEg" role="2Oq$k0">
+            <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+            <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+          </node>
+          <node concept="liA8E" id="7y5YhgKvTZp" role="2OqNvi">
+            <ref role="37wK5l" to="bd8o:~Application.isHeadlessEnvironment()" resolve="isHeadlessEnvironment" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="3MtSaY7D$EK" role="3cqZAp" />
       <node concept="3cpWs8" id="1mqidcvpvpZ" role="3cqZAp">
         <node concept="3cpWsn" id="1mqidcvpvq0" role="3cpWs9">
           <property role="TrG5h" value="diagramECell" />

@@ -129,7 +129,7 @@ configurations {
 }
 
 dependencies {
-    def modelixCoreVersion = "2.1.9"
+    def modelixCoreVersion = "2022.0.0"
     modelApi("org.modelix:model-api:$modelixCoreVersion")
 }
 

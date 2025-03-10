@@ -6,9 +6,38 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## March 2025
 
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: An issue was fixed where edges of sub-diagrams where not correctly displayed when the diagram was first opened
+- *de.itemis.mps.editor.diagram*: Diagram boxes not properly support borders.
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: Connectable ports are now highlighted in green and non-connectable ports are highlighted in red when you try to create a connection between 2 ports.
+
 ### Removed
 
 - *de.slisson.mps.editor.multiline* The feature to insert words with the "*" completion menu entry was removed.
+
+## January 2025
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: An issue was fixed where diagrams with sub-diagrams had ports at the wrong position when the diagram was first opened
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: Some more options of the diagram component like the pan amount and minimum scaling can now be customized in the diagram editor
+
+## December 2024
+
+### Changed
+
+- combine multiple elements without spaces  Reduced from Errors to Warning checks that force policies for all concepts in a language. In this way one can prototype with small set of merge policies. Use Partial police flag in your MergingPolicy to deactivate runtime checks as well.
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: Edges now support custom IDs.
 
 ## October 2024
 
@@ -17,6 +46,16 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *com.mbeddr.mpsutil.editor.querylist*: The expression *queryListNode* was renamed to node and a new expression *index* can now be used to refer to the index of the current queried node.
 - *de.itemis.mps.spellcheck*: This new language enhances the MPS spell checker to support custom dictionaries declared in a language and also adds some dictionary-related intentions to a new intention group *Dictionary.*
 - *com.mbeddr.mpsutil.blutil.rt*: Provide useful scope class *UniqueElementScope* which ensures that there are no duplicates in the scope.
+- *com.mbeddr.mpsutil.blutil*: Extensions to the language *jetbrains.mps.baseLanguage.regexp* are now provided to support most of the missing features of the Java regex language.
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: *IDragPaletteEntry* and *IPaletteEntry* are not mutually exclusive anymore and can be implement by one class.
+- *de.slisson.mps.tables*: Various fixes to table end cells in combination with insert and deletion handlers were made.
+
+### Changed
+
+- *de.itemis.mps.editor.celllayout*: The maximum number of layout operations in *LayoutWatchdog#DEFAULT_MAX_LAYOUTING_OPERATIONS* can now be set e.g. by setting the constant in an application plugin.
 
 ### Fixed
 
@@ -45,7 +84,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Changed
 
 - *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.
-- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less  aggressively.
+- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less agressively.
 
 ## July 2024
 

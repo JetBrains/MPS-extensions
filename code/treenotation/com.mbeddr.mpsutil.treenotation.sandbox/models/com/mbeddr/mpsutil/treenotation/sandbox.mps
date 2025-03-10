@@ -19,9 +19,12 @@
         <child id="134774857085152597" name="tree" index="2SU3Lh" />
         <child id="857420770335041366" name="tree2" index="3teCNN" />
       </concept>
+      <concept id="21263109420649510" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.CompactTreeNode" flags="ng" index="1NBgq9">
+        <child id="21263109420746448" name="subnodes" index="1N$SLZ" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -130,6 +133,21 @@
         <node concept="Lwk7Q" id="7fqbBL2pArM" role="Lwk7G">
           <property role="TrG5h" value="c3y" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1NBgq9" id="16ju2KvUlSf">
+    <property role="TrG5h" value="CompactTest" />
+    <node concept="1NBgq9" id="16ju2KvUm0G" role="1N$SLZ">
+      <property role="TrG5h" value="Level1" />
+      <node concept="1NBgq9" id="16ju2KvUm3f" role="1N$SLZ">
+        <property role="TrG5h" value="Level2-1" />
+        <node concept="1NBgq9" id="16ju2KvUmbG" role="1N$SLZ">
+          <property role="TrG5h" value="Level3-1" />
+        </node>
+      </node>
+      <node concept="1NBgq9" id="16ju2KvUmit" role="1N$SLZ">
+        <property role="TrG5h" value="Level2-2" />
       </node>
     </node>
   </node>

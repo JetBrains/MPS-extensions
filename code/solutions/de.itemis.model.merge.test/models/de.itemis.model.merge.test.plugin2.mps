@@ -28,13 +28,13 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
-      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.ModelMergeExecution" flags="ng" index="poArf">
-        <reference id="6402745832172080681" name="modelMerge" index="pot50" />
+      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.ModelMergingConfiguration" flags="ng" index="poArf">
+        <reference id="6402745832172080681" name="mergingPolicy" index="pot50" />
         <child id="6402745832172399733" name="right" index="ppbcs" />
         <child id="6402745832172287192" name="left" index="ppIIL" />
       </concept>

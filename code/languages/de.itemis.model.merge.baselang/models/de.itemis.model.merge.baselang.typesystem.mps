@@ -68,7 +68,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -100,7 +100,7 @@
               <node concept="2pIpSj" id="5anw8kxL67F" role="2pJxcM">
                 <ref role="2pIpSl" to="tp25:g$ehGDh" resolve="concept" />
                 <node concept="36bGnv" id="2cYlIwYKxU9" role="28nt2d">
-                  <ref role="36bGnp" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+                  <ref role="36bGnp" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
                 </node>
               </node>
             </node>

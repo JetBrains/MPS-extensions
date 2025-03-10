@@ -29,7 +29,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
     </language>
@@ -48,14 +48,14 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
   <node concept="2S6QgY" id="5zr7Q_1L8CO">
     <property role="TrG5h" value="RunMerge" />
-    <ref role="2ZfgGC" to="mopj:5zr7Q_1InAA" resolve="ModelMergeExecution" />
+    <ref role="2ZfgGC" to="mopj:5zr7Q_1InAA" resolve="ModelMergingConfiguration" />
     <node concept="2S6ZIM" id="5zr7Q_1L8CP" role="2ZfVej">
       <node concept="3clFbS" id="5zr7Q_1L8CQ" role="2VODD2">
         <node concept="3clFbF" id="5zr7Q_1L8O5" role="3cqZAp">

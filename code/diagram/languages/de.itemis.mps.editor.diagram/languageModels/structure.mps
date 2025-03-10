@@ -92,7 +92,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -123,11 +123,6 @@
       <property role="IQ2nx" value="1526659674582244782" />
       <property role="TrG5h" value="connectBoxesWithoutDummyPort" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="15UkGIdpWuH" role="1TKVEl">
-      <property role="IQ2nx" value="1259410080007702445" />
-      <property role="TrG5h" value="gridStyle" />
-      <ref role="AX2Wp" node="15UkGIdpWax" resolve="GridStyle" />
     </node>
     <node concept="1TJgyj" id="6actlYi6UMa" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -239,6 +234,36 @@
       <property role="20kJfa" value="gridColor" />
       <ref role="20lvS9" to="tpc2:h7ZlJ1A" resolve="QueryFunction_Color" />
     </node>
+    <node concept="1TJgyj" id="7OochqQ3OfW" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543036" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arrowKeyMoveAmount" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ol7" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543367" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arrowKeyMoveAmountSlow" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ol8" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543368" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="panAmount" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ol9" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543369" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="panAmountSlow" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ola" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543370" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="minimumScale" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
     <node concept="1TJgyj" id="4sEIQIBvZeh" role="1TKVEi">
       <property role="IQ2ns" value="5128117196760806289" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -282,6 +307,11 @@
     </node>
     <node concept="PrWs8" id="4EOrrTBazxe" role="PzmwI">
       <ref role="PrY4T" node="4EOrrTBazwV" resolve="IDiagramElementsProvider" />
+    </node>
+    <node concept="1TJgyi" id="15UkGIdpWuH" role="1TKVEl">
+      <property role="IQ2nx" value="1259410080007702445" />
+      <property role="TrG5h" value="gridStyle" />
+      <ref role="AX2Wp" node="15UkGIdpWax" resolve="GridStyle" />
     </node>
   </node>
   <node concept="1TIwiD" id="5qgNcfDk8GC">
@@ -463,6 +493,12 @@
       <property role="IQ2ns" value="2044706694575467613" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
       <node concept="asaX9" id="7sHDEc2Si7c" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="7f8dMG51zry" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="edgeID" />
+      <property role="IQ2ns" value="8342978967611258594" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="5qgNcfDnW48" role="PzmwI">
       <ref role="PrY4T" node="5qgNcfDnW3k" resolve="IDiagramCell" />

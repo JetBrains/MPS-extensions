@@ -51,7 +51,7 @@
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
-      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1165424453110" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item" flags="ng" index="1oHujT">
@@ -75,7 +75,7 @@
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
@@ -699,6 +699,7 @@
   <node concept="24kQdi" id="3ATi8gIrB_2">
     <ref role="1XX52x" to="pvux:3ATi8gIrB$_" resolve="TopDownLayoutCell" />
     <node concept="3EZMnI" id="3ATi8gIrB_4" role="2wV5jI">
+      <node concept="2iRkQZ" id="3ATi8gIrB_7" role="2iSdaV" />
       <node concept="3EZMnI" id="2peXSsL72c0" role="3EZMnx">
         <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
         <node concept="PMmxH" id="i0vcES5" role="3EZMnx">
@@ -722,7 +723,6 @@
           <ref role="1NtTu8" to="pvux:3ATi8gIrB$A" resolve="childCell" />
         </node>
       </node>
-      <node concept="2iRkQZ" id="3ATi8gIrB_7" role="2iSdaV" />
     </node>
   </node>
 </model>

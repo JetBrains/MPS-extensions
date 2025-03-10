@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="MPS.ThirdParty" uuid="39983771-4e9b-401b-a1a9-1da6c777c843" moduleVersion="0" compileInMPS="false">
+<solution name="MPS.ThirdParty" uuid="39983771-4e9b-401b-a1a9-1da6c777c843" moduleVersion="0">
   <models>
     <modelRoot type="java_classes" contentPath="${platform_lib}">
       <sourceRoot location="app.jar" />
+      <sourceRoot location="lib.jar" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java" compile="ext" classes="provided" ext="no">
       <classes generated="true" />
+      <library location="${platform_lib}/app.jar" />
+      <library location="${platform_lib}/lib.jar" />
     </facet>
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${platform_lib}/app.jar" />
-  </stubModelEntries>
-  <sourcePath />
   <dependencies>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="true">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>

@@ -2,7 +2,7 @@
 <model ref="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:ea4f2df6-5e5c-49de-8679-6112ec7dd9c3(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.structure)">
   <persistence version="9" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -22,6 +22,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -509,11 +510,12 @@
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1WjrBsNJ4Il">
-    <property role="TrG5h" value="QueryListNodeExpression" />
-    <property role="34LRSv" value="node" />
+    <property role="TrG5h" value="QueryListInputExpression" />
+    <property role="34LRSv" value="queryListInput" />
     <property role="EcuMT" value="2239254897981410197" />
-    <property role="R4oN_" value="the current queried node" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <property role="R4oN_" value="input node of the query list" />
+    <property role="3GE5qa" value="expressions" />
+    <ref role="1TJDcQ" node="4EGFz66rZ5j" resolve="AbstractQueryListInlineEditorExpression" />
   </node>
   <node concept="1TIwiD" id="57wonSM3yKg">
     <property role="EcuMT" value="5899822706488912912" />
@@ -534,8 +536,16 @@
   <node concept="1TIwiD" id="3YRpSuyOe2M">
     <property role="TrG5h" value="QueryListIndexExpression" />
     <property role="EcuMT" value="4591252177377353906" />
-    <property role="R4oN_" value="the index of the current queried node" />
-    <property role="34LRSv" value="index" />
+    <property role="R4oN_" value="index of the current node in the query list" />
+    <property role="34LRSv" value="queryListIndex" />
+    <property role="3GE5qa" value="expressions" />
+    <ref role="1TJDcQ" node="4EGFz66rZ5j" resolve="AbstractQueryListInlineEditorExpression" />
+  </node>
+  <node concept="1TIwiD" id="4EGFz66rZ5j">
+    <property role="EcuMT" value="5380867182533013843" />
+    <property role="TrG5h" value="AbstractQueryListInlineEditorExpression" />
+    <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="expressions" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>

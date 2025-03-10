@@ -12,7 +12,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="mps" classes="mps" ext="yes">
+    <facet type="java" compile="ext" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/lib/commons-math3-3.3/commons-math3-3.3.jar" />
       <library location="${module}/lib/commons-csv-1.0/commons-csv-1.0.jar" />

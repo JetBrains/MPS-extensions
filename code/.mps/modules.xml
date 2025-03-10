@@ -23,7 +23,6 @@
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.slisson.mps.editor.celllayout.runtime/de.itemis.mps.editor.celllayout.runtime.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/test.de.itemis.mps.editor.celllayout.runtime/test.de.itemis.mps.editor.celllayout.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog.sandbox/de.itemis.mps.changelog.sandbox.msd" folder="changelog" />
-      <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog.tests/de.itemis.mps.changelog.tests.msd" folder="changelog" />
       <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog/de.itemis.mps.changelog.mpl" folder="changelog" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/de.slisson.mps.conditionalEditor.demolang.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.hints/de.slisson.mps.conditionalEditor.hints.mpl" folder="conditional-editor" />
@@ -69,6 +68,8 @@
       <modulePath path="$PROJECT_DIR$/htmlcell/solutions/de.itemis.mps.editor.htmlcell.runtime/de.itemis.mps.editor.htmlcell.runtime.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions.runtime/com.mbeddr.mpsutil.intentions.runtime.msd" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions/com.mbeddr.mpsutil.intentions.mpl" folder="intentionsmenu" />
+      <modulePath path="$PROJECT_DIR$/kotlin/solutions/MPS.Kotlin/MPS.Kotlin.msd" folder="kotlin" />
+      <modulePath path="$PROJECT_DIR$/kotlin/solutions/kotlin.usage.test/kotlin.usage.test.msd" folder="kotlin" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.intentions.sandboxlang/com.mbeddr.mpsutil.intentions.sandboxlang.mpl" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.baselang/de.itemis.model.merge.baselang.mpl" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.baselang/sandbox/de.itemis.model.merge.baselang.sandbox.msd" folder="modelmerger2" />
@@ -181,7 +182,6 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.modelcheck.runtime/de.q60.mps.shadowmodels.modelcheck.runtime.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.runtime/de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.virtualinterfaces.genplan/de.q60.mps.virtualinterfaces.genplan.msd" folder="shadowmodels.virtualinterfaces" />
-      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.virtualinterfaces.sandbox/de.q60.mps.virtualinterfaces.sandbox.msd" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.incremental.runtime/test.de.q60.mps.incremental.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
@@ -191,6 +191,9 @@
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test.integration/de.itemis.model.merge.test.integration.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.extensions.changelog/de.itemis.mps.extensions.changelog.msd" folder="build" />
+      <modulePath path="$PROJECT_DIR$/spellcheck/languages/de.itemis.mps.spellcheck/de.itemis.mps.spellcheck.mpl" folder="spellcheck" />
+      <modulePath path="$PROJECT_DIR$/spellcheck/solutions/de.itemis.mps.spellcheck.demo/de.itemis.mps.spellcheck.demo.msd" folder="spellcheck" />
+      <modulePath path="$PROJECT_DIR$/spellcheck/solutions/de.itemis.mps.spellcheck.runtime/de.itemis.mps.spellcheck.runtime.msd" folder="spellcheck" />
       <modulePath path="$PROJECT_DIR$/statistics/de.itemis.mps.statistics.mpl" folder="statistics" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.itemis.mps.structurecheck/de.itemis.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.itemis.mps.structurecheck.runtime/de.itemis.mps.structurecheck.runtime.msd" folder="structurecheck" />
@@ -202,7 +205,7 @@
       <modulePath path="$PROJECT_DIR$/tables/solutions/de.slisson.mps.testutils/de.slisson.mps.testutils.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables/test.de.slisson.mps.tables.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/MPS.ThirdParty/MPS.ThirdParty.msd" folder="3rd-party" />
-      <modulePath path="$PROJECT_DIR$/third-party/solutions/third.party.usage.test/third.party.usage.test.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/third-party/solutions/third.party.usage.test/third.party.usage.test.msd" folder="3rd-party" />
       <modulePath path="$PROJECT_DIR$/tooltips/solutions/de.itemis.mps.tooltips.runtime/de.itemis.mps.tooltips.runtime.msd" folder="tooltips" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.runtime/com.mbeddr.mpsutil.treenotation.runtime.msd" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.sandbox/com.mbeddr.mpsutil.treenotation.sandbox.msd" folder="treenotation" />

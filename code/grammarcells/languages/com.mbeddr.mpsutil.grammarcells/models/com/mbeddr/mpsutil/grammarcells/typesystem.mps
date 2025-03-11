@@ -17,6 +17,7 @@
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="karh" ref="r:780bbc81-d170-48ec-b42e-89f51d5b0ee5(com.mbeddr.mpsutil.grammarcells.behavior)" implicit="true" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -42,6 +43,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -51,13 +53,16 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -65,6 +70,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -132,6 +138,13 @@
         <property id="1863527487546097500" name="moduleId" index="1XweGW" />
         <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
       </concept>
+      <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
+        <property id="1863527487546097494" name="modelId" index="1XweGQ" />
+        <child id="679099339649067980" name="name" index="1j$8Uc" />
+      </concept>
+      <concept id="679099339649053840" name="jetbrains.mps.lang.modelapi.structure.ModelName" flags="ng" index="1j_P7g">
+        <property id="679099339649053841" name="value" index="1j_P7h" />
+      </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1207055528241" name="jetbrains.mps.lang.typesystem.structure.WarningStatement" flags="nn" index="a7r0C">
@@ -195,8 +208,15 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="4065387505485742666" name="jetbrains.mps.lang.smodel.structure.ModelPointer_ResolveOperation" flags="ng" index="2yCiCJ" />
+      <concept id="4065387505485742749" name="jetbrains.mps.lang.smodel.structure.AbstractPointerResolveOperation" flags="ng" index="2yCiFS">
+        <child id="3648723375513868575" name="repositoryArg" index="Vysub" />
+      </concept>
       <concept id="1173122760281" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorsOperation" flags="nn" index="z$bX8" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1678062499342629858" name="jetbrains.mps.lang.smodel.structure.ModuleRefExpression" flags="ng" index="37shsh">
         <child id="1678062499342629861" name="moduleId" index="37shsm" />
@@ -222,6 +242,9 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
+        <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -799,6 +822,75 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="5$hufwY_g_w">
+    <property role="TrG5h" value="check_GrammarCellsTransformationMenuPart" />
+    <node concept="3clFbS" id="5$hufwY_g_x" role="18ibNy">
+      <node concept="3clFbJ" id="5$hufwY_lKC" role="3cqZAp">
+        <node concept="3clFbS" id="5$hufwY_lKE" role="3clFbx">
+          <node concept="3cpWs6" id="5$hufwY_lTF" role="3cqZAp" />
+        </node>
+        <node concept="3clFbC" id="5$hufwY_lR6" role="3clFbw">
+          <node concept="10Nm6u" id="5$hufwY_lR9" role="3uHU7w" />
+          <node concept="2OqwBi" id="5$hufwY_lLQ" role="3uHU7B">
+            <node concept="1YBJjd" id="5$hufwY_lLR" role="2Oq$k0">
+              <ref role="1YBMHb" node="5$hufwY_g_z" resolve="grammarCellsTransformationMenuPart" />
+            </node>
+            <node concept="I4A8Y" id="5$hufwY_lLS" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="5$hufwY_lIZ" role="3cqZAp" />
+      <node concept="3clFbJ" id="5$hufwY_jvM" role="3cqZAp">
+        <node concept="3clFbS" id="5$hufwY_jvO" role="3clFbx">
+          <node concept="a7r0C" id="5$hufwY_gEW" role="3cqZAp">
+            <node concept="Xl_RD" id="5$hufwY_gF5" role="a7wSD">
+              <property role="Xl_RC" value="This concept is not supposed to be instantiated and only for internal use. Please remove it as usage will be disallowed in the future" />
+            </node>
+            <node concept="1YBJjd" id="5$hufwY_gJA" role="1urrMF">
+              <ref role="1YBMHb" node="5$hufwY_g_z" resolve="grammarCellsTransformationMenuPart" />
+            </node>
+          </node>
+        </node>
+        <node concept="17QLQc" id="5$hufwY_kim" role="3clFbw">
+          <node concept="2OqwBi" id="5$hufwY_kzZ" role="3uHU7w">
+            <node concept="1Xw6AR" id="5$hufwY_kiT" role="2Oq$k0">
+              <node concept="1dCxOl" id="5$hufwY_ksq" role="1XwpL7">
+                <property role="1XweGQ" value="r:0e2d0780-27a1-4dda-a429-65b192261fcc" />
+                <node concept="1j_P7g" id="5$hufwY_ksr" role="1j$8Uc">
+                  <property role="1j_P7h" value="com.mbeddr.mpsutil.grammarcells.generator.template.main@generator" />
+                </node>
+              </node>
+            </node>
+            <node concept="2yCiCJ" id="5$hufwY_kEN" role="2OqNvi">
+              <node concept="2OqwBi" id="5$hufwY_l_0" role="Vysub">
+                <node concept="2JrnkZ" id="5$hufwY_ltG" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5$hufwY_kQB" role="2JrQYb">
+                    <node concept="1YBJjd" id="5$hufwY_kFj" role="2Oq$k0">
+                      <ref role="1YBMHb" node="5$hufwY_g_z" resolve="grammarCellsTransformationMenuPart" />
+                    </node>
+                    <node concept="I4A8Y" id="5$hufwY_l4x" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5$hufwY_lHT" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5$hufwY_jEX" role="3uHU7B">
+            <node concept="1YBJjd" id="5$hufwY_jvX" role="2Oq$k0">
+              <ref role="1YBMHb" node="5$hufwY_g_z" resolve="grammarCellsTransformationMenuPart" />
+            </node>
+            <node concept="I4A8Y" id="5$hufwY_jSv" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5$hufwY_g_z" role="1YuTPh">
+      <property role="TrG5h" value="grammarCellsTransformationMenuPart" />
+      <ref role="1YaFvo" to="teg0:1YKLYyyFscL" resolve="GrammarCellsTransformationMenuPart" />
     </node>
   </node>
 </model>

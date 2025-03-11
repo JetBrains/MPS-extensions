@@ -2992,7 +2992,7 @@
                         </node>
                         <node concept="3CFZ6_" id="frLjuvY9Sb" role="2OqNvi">
                           <node concept="3CFYIy" id="frLjuvY9Sc" role="3CFYIz">
-                            <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+                            <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadOnlyCell" />
                           </node>
                         </node>
                       </node>

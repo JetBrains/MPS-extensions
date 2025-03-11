@@ -10,6 +10,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.editor.diagram*: An issue was fixed where edges of sub-diagrams where not correctly displayed when the diagram was first opened
 - *de.itemis.mps.editor.diagram*: Diagram boxes not properly support borders.
+- *com.mbeddr.mpsutil.grammarcells*: Cells with multiple transformation texts (mainly optional cells) now match the pattern independent of the order of the elements.
 
 ### Added
 
@@ -67,10 +68,6 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Changed
 
 - *de.itemis.mps.editor.celllayout*: The maximum number of layout operations in *LayoutWatchdog#DEFAULT_MAX_LAYOUTING_OPERATIONS* can now be set e.g. by setting the constant in an application plugin.
-
-### Fixed
-
-- *de.slisson.mps.tables*: Various fixes to table end cells in combination with insert and deletion handlers were made.
 
 ## September 2024
 

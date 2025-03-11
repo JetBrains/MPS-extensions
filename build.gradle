@@ -95,7 +95,7 @@ configurations {
 dependencies {
     // For published releases adjust ext.mpsMajor and ext.mpsMinor above and use this dependency:
     // mps "com.jetbrains:mps:$mpsVersion"
-    mps "com.jetbrains.mps:mps-prerelease:243.24978.10405"
+    mps "com.jetbrains.mps:mps-prerelease:243.24978.10424"
 }
 
 repositories {

@@ -400,6 +400,7 @@
         <property role="3LESm3" value="b0f8641f-bd77-4421-8425-30d9088a82f7" />
         <property role="TrG5h" value="org.apache.commons" />
         <property role="aoJFB" value="eYcmk9QOli/sources" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="PE3B26QCyu" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="PE3B26QCyv" role="iGT6I">
@@ -9357,6 +9358,16 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="2N2TN8SNN7o" role="3bR37C">
+          <node concept="3bR9La" id="2N2TN8SNN7p" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2N2TN8SNN7q" role="3bR37C">
+          <node concept="3bR9La" id="2N2TN8SNN7r" role="1SiIV1">
+            <ref role="3bR37D" node="6lSuB9eYMIU" resolve="de.itemis.mps.editor.pagination" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="5Jv8_iJNYP8" role="3989C9">
@@ -12701,6 +12712,7 @@
       <node concept="1E1JtA" id="6fQhGuklQWU" role="2G$12L">
         <property role="TrG5h" value="de.q60.mps.collections.libs" />
         <property role="3LESm3" value="ecfb9949-7433-4db5-85de-0f84d172e4ce" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="6fQhGuklR81" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="42yR2aTbyNG" role="iGT6I">
@@ -12835,6 +12847,7 @@
       <node concept="1E1JtA" id="6bkzxtWPDx1" role="2G$12L">
         <property role="TrG5h" value="de.itemis.stubs.batik" />
         <property role="3LESm3" value="563a0770-eb88-4f4f-83ed-f708776fc2fe" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="6bkzxtWPDx2" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="6bkzxtWPDx3" role="iGT6I">
@@ -12918,7 +12931,7 @@
       <node concept="1E1JtA" id="2sSK94l$Dwp" role="2G$12L">
         <property role="TrG5h" value="de.itemis.stubs.xml" />
         <property role="3LESm3" value="124d077c-270f-42ca-8bf8-bee488dc96dc" />
-        <property role="3vZFNd" value="3kCd1ud3JDF/none" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="2sSK94l$Dwq" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="2sSK94l$Dwr" role="iGT6I">
@@ -13423,6 +13436,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.modelix.model.api" />
         <property role="3LESm3" value="cc99dce1-49f3-4392-8dbf-e22ca47bd0af" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="5U8hsWC70GO" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="5U8hsWC71b5" role="iGT6I">
@@ -21187,6 +21201,61 @@
             </node>
             <node concept="3qWCbU" id="7q24334ZKLP" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="2ufyQPx44O3" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.editor.collapsible.sandbox" />
+        <property role="3LESm3" value="b4090340-60e4-4e6b-8e18-33aab25128a3" />
+        <node concept="398BVA" id="2ufyQPx44Ow" role="3LF7KH">
+          <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
+          <node concept="2Ry0Ak" id="2ufyQPx44Pm" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="2ufyQPx44Qb" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.mps.editor.collapsible.sandbox" />
+              <node concept="2Ry0Ak" id="2ufyQPx44QB" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.editor.collapsible.sandbox.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="2ufyQPx455s" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2ufyQPx455t" role="1HemKq">
+            <node concept="398BVA" id="2ufyQPx4557" role="3LXTmr">
+              <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
+              <node concept="2Ry0Ak" id="2ufyQPx4558" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2ufyQPx4559" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.collapsible.sandbox" />
+                  <node concept="2Ry0Ak" id="2ufyQPx455a" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2ufyQPx455u" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="mvU38s5JOp" role="3bR31x">
+          <node concept="3LXTmp" id="mvU38s5JOq" role="3rtmxm">
+            <node concept="3qWCbU" id="mvU38s5JOr" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="mvU38s5JOs" role="3LXTmr">
+              <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
+              <node concept="2Ry0Ak" id="mvU38s5JOt" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="mvU38s5JOu" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.collapsible.sandbox" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

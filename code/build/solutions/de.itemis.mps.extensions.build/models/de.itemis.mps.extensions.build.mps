@@ -21243,6 +21243,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="mvU38s5JOp" role="3bR31x">
+          <node concept="3LXTmp" id="mvU38s5JOq" role="3rtmxm">
+            <node concept="3qWCbU" id="mvU38s5JOr" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="mvU38s5JOs" role="3LXTmr">
+              <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
+              <node concept="2Ry0Ak" id="mvU38s5JOt" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="mvU38s5JOu" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.collapsible.sandbox" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="7qi8mU1OyZm" role="3989C9">

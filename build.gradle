@@ -472,7 +472,7 @@ publishing {
 
 task pipInstall(type: Exec) {
     inputs.file("requirements.txt")
-    commandLine "python3", "-m", "pip", "install", "-r", "requirements.txt"
+    commandLine "python3", "-m", "pip", "install", "--break-system-packages", "-r", "requirements.txt"
 }
 
 task previewDocs(type: Exec, dependsOn: pipInstall) {

@@ -19,6 +19,7 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="31cb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.module(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="z1c5" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -318,7 +319,7 @@
             </node>
             <node concept="3EllGN" id="5XTXBpQFI9l" role="37vLTJ">
               <node concept="3VsKOn" id="5XTXBpQFI9m" role="3ElVtu">
-                <ref role="3VsUkX" to="z1c4:~IProject" resolve="IProject" />
+                <ref role="3VsUkX" to="z1c4:~Project" resolve="Project" />
               </node>
               <node concept="10M0yZ" id="5XTXBpQFI9n" role="3ElQJh">
                 <ref role="3cqZAo" node="75_oBQVwQpr" resolve="actionGroupsIds" />
@@ -596,14 +597,14 @@
             <node concept="2EnYce" id="4GrfODAR5xi" role="33vP2m">
               <node concept="0kSF2" id="4GrfODAR5xj" role="2Oq$k0">
                 <node concept="3uibUv" id="4GrfODAR5xk" role="0kSFW">
-                  <ref role="3uigEE" to="z1c3:~StandaloneMPSProject" resolve="StandaloneMPSProject" />
+                  <ref role="3uigEE" to="z1c5:~MPSProject" resolve="MPSProject" />
                 </node>
                 <node concept="37vLTw" id="4GrfODARDPB" role="0kSFX">
                   <ref role="3cqZAo" node="4GrfODAR0cY" resolve="project" />
                 </node>
               </node>
               <node concept="liA8E" id="4GrfODAR5xm" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~StandaloneMPSProject.getFolderFor(org.jetbrains.mps.openapi.module.SModule)" resolve="getFolderFor" />
+                <ref role="37wK5l" to="z1c4:~ProjectBase.getVirtualFolder(org.jetbrains.mps.openapi.module.SModule)" resolve="getVirtualFolder" />
                 <node concept="37vLTw" id="4GrfODAR5xn" role="37wK5m">
                   <ref role="3cqZAo" node="4GrfODAR0cd" resolve="module" />
                 </node>

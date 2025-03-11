@@ -68,10 +68,7 @@
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.runtime/com.mbeddr.mpsutil.grammarcells.runtime.msd" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.sandbox/com.mbeddr.mpsutil.grammarcells.sandbox.msd" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.tests/com.mbeddr.mpsutil.grammarcells.tests.msd" folder="grammarcells" />
-      <modulePath path="$PROJECT_DIR$/hacks/languages/de.itemis.mps.hacks.xmodelgen/de.itemis.mps.hacks.xmodelgen.mpl" folder="hacks" />
-      <modulePath path="$PROJECT_DIR$/hacks/languages/de.itemis.mps.nativelibs/de.itemis.mps.nativelibs.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/languages/de.slisson.mps.reflection/de.slisson.mps.reflection.mpl" folder="hacks" />
-      <modulePath path="$PROJECT_DIR$/hacks/solutions/de.itemis.mps.nativelibs.loader/de.itemis.mps.nativelibs.loader.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.hacks.editor/de.slisson.mps.hacks.editor.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/htmlcell/languages/de.itemis.mps.editor.htmlcell.demolang/de.itemis.mps.editor.htmlcell.demolang.mpl" folder="widgets" />
@@ -216,7 +213,6 @@
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/de.slisson.mps.tables.mpl" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/runtime/de.slisson.mps.tables.runtime.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" folder="tables" />
-      <modulePath path="$PROJECT_DIR$/tables/solutions/de.slisson.mps.testutils/de.slisson.mps.testutils.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables/test.de.slisson.mps.tables.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/MPS.ThirdParty/MPS.ThirdParty.msd" folder="3rd-party" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/third.party.usage.test/third.party.usage.test.msd" folder="3rd-party" />
@@ -241,9 +237,11 @@
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.bool.runtime/de.itemis.mps.editor.bool.runtime.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.bool.sandbox/de.itemis.mps.editor.bool.sandbox.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.collapsible.runtime/de.itemis.mps.editor.collapsible.runtime.msd" folder="widgets" />
+      <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.collapsible.sandbox/de.itemis.mps.editor.collapsible.sandbox.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.dropdown.runtime/de.itemis.mps.editor.dropdown.runtime.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.dropdown.sandbox/de.itemis.mps.editor.dropdown.sandbox.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.mouselistener.runtime/de.itemis.mps.mouselistener.runtime.msd" folder="widgets" />
+      <modulePath path="$PROJECT_DIR$/xml/solutions/de.itemis.stubs.xml.msd" folder="" />
     </projectModules>
   </component>
 </project>

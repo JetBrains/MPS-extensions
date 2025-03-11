@@ -39,6 +39,17 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.editor.diagram*: Edges now support custom IDs.
 
+## November 2024
+
+### Changed
+
+- The project was migrated to 2024.1. 
+
+### Removed
+
+- *de.itemis.mps.nativelibs* : This unmaintained language was removed.
+- *de.itemis.mps.hacks.xmodelgen* : This unmaintained (and broken) language was removed.
+
 ## October 2024
 
 ### Added
@@ -78,13 +89,13 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- *com.mbeddr.mpsutil.projectview.runtime*: Fixed several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904]((https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
+- *com.mbeddr.mpsutil.projectview.runtime*: Fixed several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904](https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
 - *de.itemis.mps.editor.diagram*: Some issues related to ELK styles and custom IDs were fixed.
 
 ### Changed
 
 - *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.
-- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less agressively.
+- *com.mbeddr.mpsutil.editor.querylist.runtime*: Query list calls model checks of target nodes less  aggressively.
 
 ## July 2024
 

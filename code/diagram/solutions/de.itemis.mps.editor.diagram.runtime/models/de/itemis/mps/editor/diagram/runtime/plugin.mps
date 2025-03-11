@@ -1105,6 +1105,7 @@
   <node concept="sE7Ow" id="2THfnm7nq5w">
     <property role="TrG5h" value="Diagram_FlipPortsSideHorizontally" />
     <property role="2uzpH1" value="Diagram: Flip All Port's Side Horizontally" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="tnohg" id="2THfnm7nq5x" role="tncku">
       <node concept="3clFbS" id="2THfnm7nq5y" role="2VODD2">
         <node concept="3cpWs8" id="2THfnm7nq5z" role="3cqZAp">
@@ -1325,7 +1326,7 @@
   <node concept="sE7Ow" id="5IQEFjDErcz">
     <property role="TrG5h" value="Diagram_FitSizeAll" />
     <property role="2uzpH1" value="Diagram: Fit Size on Selected Boxes" />
-    <property role="2YLI8m" value="6u2MFnph2wS/none" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <property role="1rBW0U" value="true" />
     <node concept="tnohg" id="5IQEFjDErc$" role="tncku">
       <node concept="3clFbS" id="5IQEFjDErc_" role="2VODD2">
@@ -1374,8 +1375,7 @@
   <node concept="sE7Ow" id="5IQEFjDGFIZ">
     <property role="TrG5h" value="Diagram_Autolayout" />
     <property role="2uzpH1" value="Diagram: Auto Layout Diagram" />
-    <property role="2YLI8m" value="6u2MFnph2wS/none" />
-    <property role="1rBW0U" value="true" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="tnohg" id="5IQEFjDGFJ0" role="tncku">
       <node concept="3clFbS" id="5IQEFjDGFJ1" role="2VODD2">
         <node concept="3clFbF" id="YGA9S5V9kG" role="3cqZAp">
@@ -2080,7 +2080,7 @@
   <node concept="sE7Ow" id="5IQEFjDH2SU">
     <property role="TrG5h" value="Diagram_FitSizeAndAutolayout" />
     <property role="2uzpH1" value="Diagram: Fit Size on Selected Boxes and Run Layouter" />
-    <property role="2YLI8m" value="6u2MFnph2wS/none" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <property role="1rBW0U" value="true" />
     <node concept="tnohg" id="5IQEFjDH2SV" role="tncku">
       <node concept="3clFbS" id="5IQEFjDH2SW" role="2VODD2">
@@ -2141,7 +2141,7 @@
   <node concept="sE7Ow" id="5q$QTTw90T$">
     <property role="TrG5h" value="Diagram_ZoomIn" />
     <property role="2uzpH1" value="Diagram: Zoom In" />
-    <property role="1rBW0U" value="true" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="1DS2jV" id="5q$QTTw90UX" role="1NuT2Z">
       <property role="TrG5h" value="editorContext" />
       <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CONTEXT" resolve="EDITOR_CONTEXT" />
@@ -2186,7 +2186,7 @@
   <node concept="sE7Ow" id="7tfNqqCmxXm">
     <property role="TrG5h" value="Diagram_ZoomOut" />
     <property role="2uzpH1" value="Diagram: Zoom Out" />
-    <property role="1rBW0U" value="true" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="1DS2jV" id="7tfNqqCmxXL" role="1NuT2Z">
       <property role="TrG5h" value="editorContext" />
       <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CONTEXT" resolve="EDITOR_CONTEXT" />
@@ -2231,10 +2231,6 @@
         <node concept="3clFbF" id="YGA9S64RJH" role="3cqZAp">
           <node concept="1Wc70l" id="7c8nz5HfdPU" role="3clFbG">
             <node concept="3eOSWO" id="7c8nz5HfkC3" role="3uHU7w">
-              <node concept="10M0yZ" id="7c8nz5Hfl8d" role="3uHU7w">
-                <ref role="3cqZAo" to="r3rm:7c8nz5Ham6C" resolve="MINIMUM_SCALE" />
-                <ref role="1PxDUh" to="r3rm:190K99KyNov" resolve="MyGraphComponent" />
-              </node>
               <node concept="2OqwBi" id="7c8nz5Hfj_L" role="3uHU7B">
                 <node concept="2OqwBi" id="7c8nz5HfghI" role="2Oq$k0">
                   <node concept="2OqwBi" id="7c8nz5HfeS5" role="2Oq$k0">
@@ -2251,6 +2247,24 @@
                 </node>
                 <node concept="liA8E" id="7c8nz5Hfk05" role="2OqNvi">
                   <ref role="37wK5l" to="1njx:~mxGraphView.getScale()" resolve="getScale" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7OochqQ1XCV" role="3uHU7w">
+                <node concept="2OqwBi" id="7OochqQ1XaA" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7OochqQ1UI8" role="2Oq$k0">
+                    <node concept="37vLTw" id="7OochqQ1Syp" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7c8nz5HfdEn" resolve="activeDiagram" />
+                    </node>
+                    <node concept="liA8E" id="7OochqQ1WYG" role="2OqNvi">
+                      <ref role="37wK5l" to="r3rm:5S8_I2GeiUe" resolve="getDiagramModel" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7OochqQ1Xrp" role="2OqNvi">
+                    <ref role="37wK5l" to="nkm5:lNQZNowrwP" resolve="getDiagramAccessor" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7OochqQ1XYy" role="2OqNvi">
+                  <ref role="37wK5l" to="nkm5:7OochqPNm6X" resolve="getMinimumScale" />
                 </node>
               </node>
             </node>
@@ -2283,7 +2297,7 @@
   <node concept="sE7Ow" id="1VCXHWuhkT$">
     <property role="TrG5h" value="Diagram_SelectAll" />
     <property role="2uzpH1" value="Diagram: Select All" />
-    <property role="2YLI8m" value="6u2MFnph2wS/none" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="1DS2jV" id="1VCXHWuhvDd" role="1NuT2Z">
       <property role="TrG5h" value="editorContext" />
       <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CONTEXT" resolve="EDITOR_CONTEXT" />
@@ -2328,6 +2342,7 @@
   <node concept="sE7Ow" id="YGA9S6m0pQ">
     <property role="TrG5h" value="Diagram_FlipPortsSideVertically" />
     <property role="2uzpH1" value="Diagram: Flip All Port's Side Vertically" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="tnohg" id="YGA9S6m0pR" role="tncku">
       <node concept="3clFbS" id="YGA9S6m0pS" role="2VODD2">
         <node concept="3cpWs8" id="YGA9S6m0pT" role="3cqZAp">

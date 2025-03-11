@@ -646,17 +646,41 @@
           </node>
         </node>
         <node concept="3clFbH" id="ercpuKTou1" role="3cqZAp" />
+        <node concept="3cpWs8" id="7CTYA5Zta8d" role="3cqZAp">
+          <node concept="3cpWsn" id="7CTYA5Zta8e" role="3cpWs9">
+            <property role="TrG5h" value="rootCell" />
+            <node concept="3uibUv" id="7CTYA5Zta8f" role="1tU5fm">
+              <ref role="3uigEE" to="g51k:~EditorCell" resolve="EditorCell" />
+            </node>
+            <node concept="2OqwBi" id="7CTYA5ZtnuI" role="33vP2m">
+              <node concept="37vLTw" id="7CTYA5Ztknn" role="2Oq$k0">
+                <ref role="3cqZAo" node="3GWIMuIxySI" resolve="editorComponent" />
+              </node>
+              <node concept="liA8E" id="7CTYA5ZtsyR" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="ercpuKPoIL" role="3cqZAp">
           <node concept="3fqX7Q" id="7zv1GjAJRiv" role="3clFbw">
             <node concept="1eOMI4" id="7zv1GjAJRiE" role="3fr31v">
               <node concept="1Wc70l" id="7zv1GjAJRiw" role="1eOMHV">
-                <node concept="3fqX7Q" id="7zv1GjAJRix" role="3uHU7B">
-                  <node concept="2OqwBi" id="7zv1GjAJRiy" role="3fr31v">
-                    <node concept="37vLTw" id="7zv1GjAJRiz" role="2Oq$k0">
-                      <ref role="3cqZAo" node="13pedfatXbq" resolve="config" />
+                <node concept="1Wc70l" id="2N2TN8SJG2K" role="3uHU7B">
+                  <node concept="3y3z36" id="2N2TN8SJLFi" role="3uHU7B">
+                    <node concept="10Nm6u" id="2N2TN8SJLW9" role="3uHU7w" />
+                    <node concept="37vLTw" id="2N2TN8SJJhp" role="3uHU7B">
+                      <ref role="3cqZAo" node="7CTYA5Zta8e" resolve="rootCell" />
                     </node>
-                    <node concept="liA8E" id="7zv1GjAJRi$" role="2OqNvi">
-                      <ref role="37wK5l" node="13pedfataql" resolve="disableModelChecking" />
+                  </node>
+                  <node concept="3fqX7Q" id="7zv1GjAJRix" role="3uHU7w">
+                    <node concept="2OqwBi" id="7zv1GjAJRiy" role="3fr31v">
+                      <node concept="37vLTw" id="7zv1GjAJRiz" role="2Oq$k0">
+                        <ref role="3cqZAo" node="13pedfatXbq" resolve="config" />
+                      </node>
+                      <node concept="liA8E" id="7zv1GjAJRi$" role="2OqNvi">
+                        <ref role="37wK5l" node="13pedfataql" resolve="disableModelChecking" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -707,13 +731,8 @@
             </node>
             <node concept="1rXfSq" id="7zv1GjAJ$2I" role="33vP2m">
               <ref role="37wK5l" node="7zv1GjAJ$2D" resolve="collectNodesToCheck" />
-              <node concept="2OqwBi" id="7zv1GjAJJss" role="37wK5m">
-                <node concept="37vLTw" id="7zv1GjAJJst" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3GWIMuIxySI" resolve="editorComponent" />
-                </node>
-                <node concept="liA8E" id="7zv1GjAJJsu" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
-                </node>
+              <node concept="37vLTw" id="7CTYA5ZuvPE" role="37wK5m">
+                <ref role="3cqZAo" node="7CTYA5Zta8e" resolve="rootCell" />
               </node>
             </node>
           </node>
@@ -1068,6 +1087,9 @@
         <property role="TrG5h" value="rootCell" />
         <node concept="3uibUv" id="7zv1GjAJ$2y" role="1tU5fm">
           <ref role="3uigEE" to="g51k:~EditorCell" resolve="EditorCell" />
+        </node>
+        <node concept="2AHcQZ" id="7CTYA5ZsjWq" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
       <node concept="3clFbS" id="7zv1GjAJ$1z" role="3clF47">

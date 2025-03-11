@@ -352,7 +352,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="frLjuvYWqn">
-    <property role="TrG5h" value="addShowIntentionInReadyOnlyCellAnnotation" />
+    <property role="TrG5h" value="addShowIntentionInReadOnlyCellAnnotation" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="tp3j:2c3oNEsfcpP" resolve="BaseIntentionDeclaration" />
     <node concept="2Sbjvc" id="frLjuvYWqo" role="2ZfgGD">
@@ -365,14 +365,14 @@
                   <node concept="2Sf5sV" id="frLjuw0cXy" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="frLjuw0dpC" role="2OqNvi">
                     <node concept="3CFYIy" id="frLjuw0dq8" role="3CFYIz">
-                      <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+                      <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadOnlyCell" />
                     </node>
                   </node>
                 </node>
                 <node concept="2oxUTD" id="frLjuw0dP$" role="2OqNvi">
                   <node concept="2pJPEk" id="frLjuw0dUN" role="2oxUTC">
                     <node concept="2pJPED" id="frLjuw0dUP" role="2pJPEn">
-                      <ref role="2pJxaS" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+                      <ref role="2pJxaS" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadOnlyCell" />
                       <node concept="2pJxcG" id="frLjuw0e7u" role="2pJxcM">
                         <ref role="2pJxcJ" to="tegv:frLjuvPGIB" resolve="flag" />
                         <node concept="WxPPo" id="frLjuw0eaF" role="28ntcv">
@@ -392,7 +392,7 @@
               <node concept="2Sf5sV" id="frLjuvYWr_" role="2Oq$k0" />
               <node concept="3CFZ6_" id="frLjuvYWrA" role="2OqNvi">
                 <node concept="3CFYIy" id="frLjuvYWrB" role="3CFYIz">
-                  <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+                  <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadOnlyCell" />
                 </node>
               </node>
             </node>
@@ -406,7 +406,7 @@
                     <node concept="2Sf5sV" id="frLjuvYWrI" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="frLjuvYWrJ" role="2OqNvi">
                       <node concept="3CFYIy" id="frLjuvYWrK" role="3CFYIz">
-                        <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+                        <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadOnlyCell" />
                       </node>
                     </node>
                   </node>

@@ -109,6 +109,8 @@ nav:
     - Tables: extensions/editor/tables.md
     - Tree Notation: extensions/editor/tree-notation.md
     - Widgets: extensions/editor/widgets.md
+    - Line Numbers: extensions/editor/linenumbers.md
+    - Pagination: extensions/editor/pagination.md
 - Other extensions:
   - Base Language Extensions:
       - Structure Check: extensions/bl-extensions/structure-check.md
@@ -120,11 +122,15 @@ nav:
       - Language Visualizer: extensions/other/langvis.md
       - Project View: extensions/other/project-view.md
       - Shadow Models: extensions/other/shadow-models.md
+      - Changelog: extensions/other/changelog.md
   - Stubs: extensions/stubs.md
   - Utilities:
       - Intentions Menu: extensions/utils/intentions-menu.md
       - Model Listener: extensions/utils/model-listener.md
       - Hacks: extensions/utils/hacks.md
+      - Debug: extensions/utils/debug.md
+      - Spell Check: extensions/utils/spellcheck.md
+      - Statistics: extensions/utils/statistics.md
       - Model Merger: extensions/utils/model-merger.md
       - Node Versioning: extensions/utils/node-versioning.md
       - Serializer: extensions/utils/serializer.md

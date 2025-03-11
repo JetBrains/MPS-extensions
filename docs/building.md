@@ -5,8 +5,13 @@ hide:
 
 # Building
 
-The MPS extensions are built using [Gradle](https://docs.gradle.org/current/userguide/getting_started.html). To build the source code, all you need on the machine is a Java JDK.
-Starting from MPS-extensions 2022.2, JDK 17 is required. For older versions you need JDK 11. For ancient maintenance versions you only need JDK 8. 
+The MPS extensions are built using [Gradle](https://docs.gradle.org/current/userguide/getting_started.html). To build the source code, all you need on the machine is a Java JDK. You need the following JDK versions depending on the MPS version:
+
+- 2024.1 and higher: JDK 21
+- 2022.2 and higher: JDK 17
+- older versions: JDK 11
+- ancient versions: JDK 8
+
 If you want to contribute to MPS-extensions, you need MPS. The current used MPS version can be found in the [build.gradle](https://github.com/JetBrains/MPS-extensions/blob/master/build.gradle) file under the value `ext.mpsMajor`.
 
 To build the project, run:

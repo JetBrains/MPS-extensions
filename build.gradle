@@ -184,7 +184,7 @@ configurations {
 dependencies {
     ant_lib "org.apache.ant:ant-junit:1.10.15"
 
-    def elkVersion = "0.9.1"
+    def elkVersion = "0.10.0"
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion")

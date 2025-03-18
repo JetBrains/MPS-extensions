@@ -89,5 +89,13 @@
       <ref role="PrY4T" node="5qf1oe_GcsF" resolve="IChild" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5tbhT6Otj9R">
+    <property role="EcuMT" value="6290199995676439159" />
+    <property role="TrG5h" value="ReadOnlyQuery" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="5tbhT6OtPp7" role="PzmwI">
+      <ref role="PrY4T" node="5qf1oe_GcsF" resolve="IChild" />
+    </node>
+  </node>
 </model>
 

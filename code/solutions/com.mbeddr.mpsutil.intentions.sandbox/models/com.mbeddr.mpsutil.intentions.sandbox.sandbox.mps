@@ -13,6 +13,7 @@
     </language>
     <language id="4972ae94-72e7-499b-8766-0d6acffdb4f2" name="com.mbeddr.mpsutil.intentions.sandboxlang">
       <concept id="1317247883695247581" name="com.mbeddr.mpsutil.intentions.sandboxlang.structure.DemoNodeWithIntentions" flags="ng" index="2ezpO_" />
+      <concept id="6290199995676439159" name="com.mbeddr.mpsutil.intentions.sandboxlang.structure.ReadOnlyQuery" flags="ng" index="3zfBnA" />
       <concept id="6237210071910106919" name="com.mbeddr.mpsutil.intentions.sandboxlang.structure.ReadOnlyChild" flags="ng" index="3NfWa$" />
       <concept id="6237210071910106918" name="com.mbeddr.mpsutil.intentions.sandboxlang.structure.Root" flags="ng" index="3NfWa_">
         <child id="6237210071910106920" name="children" index="3NfWaF" />
@@ -24,6 +25,7 @@
   <node concept="2ezpO_" id="197NvysMAlM" />
   <node concept="3NfWa_" id="5qf1oe_Gzny">
     <property role="TrG5h" value="Root" />
+    <node concept="3zfBnA" id="7jLTju83f47" role="3NfWaF" />
     <node concept="3NfWaD" id="5qf1oe_Gznz" role="3NfWaF" />
     <node concept="3NfXyg" id="5qf1oe_GznI" role="3NfWaF" />
     <node concept="3NfWa$" id="5qf1oe_G_us" role="3NfWaF" />

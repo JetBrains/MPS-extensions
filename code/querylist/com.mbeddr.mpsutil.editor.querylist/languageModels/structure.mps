@@ -244,12 +244,14 @@
     <property role="TrG5h" value="Parameter_AnchorNode" />
     <property role="34LRSv" value="anchorNode" />
     <property role="EcuMT" value="5820306262933734929" />
+    <property role="R4oN_" value="the node for which the insert action was invoked (can be null)" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="535SrlQade6">
     <property role="TrG5h" value="Paramter_insertBefore" />
     <property role="34LRSv" value="insertBefore" />
     <property role="EcuMT" value="5820306262933951366" />
+    <property role="R4oN_" value="should the node be inserted before the curent node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="535SrlQaP0B">
@@ -261,12 +263,14 @@
     <property role="TrG5h" value="Parameter_ChildNode" />
     <property role="34LRSv" value="childNode" />
     <property role="EcuMT" value="459067182341460208" />
+    <property role="R4oN_" value="the current child node in the collection" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="puVMIbwgYa">
     <property role="TrG5h" value="Parameter_NodeToDelete" />
     <property role="34LRSv" value="nodeToDelete" />
     <property role="EcuMT" value="459067182341492618" />
+    <property role="R4oN_" value="the node that should be deleted" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="lPJxik6yHd">
@@ -278,6 +282,7 @@
     <property role="TrG5h" value="Parameter_SubstituteInfoFactory" />
     <property role="34LRSv" value="factory" />
     <property role="EcuMT" value="393429538058833026" />
+    <property role="R4oN_" value="a variable to access the SubstituteInfoFactory helper class " />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6hPjX46YnED">
@@ -326,6 +331,7 @@
     <property role="34LRSv" value="queryLinkData" />
     <property role="3GE5qa" value="link" />
     <property role="EcuMT" value="943947710603632321" />
+    <property role="R4oN_" value="information about the queryLink" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6QZo_pQbn1D">
@@ -479,6 +485,7 @@
     <property role="34LRSv" value="queryData" />
     <property role="3GE5qa" value="linklist" />
     <property role="EcuMT" value="147976780035556419" />
+    <property role="R4oN_" value="information about the queryLinkList" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3IFXLmit$MS">
@@ -507,6 +514,7 @@
     <property role="TrG5h" value="Parameter_QueryPropertyData" />
     <property role="34LRSv" value="queryPropertyData" />
     <property role="EcuMT" value="4299801941278883994" />
+    <property role="R4oN_" value="information about the queryProperty" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1WjrBsNJ4Il">
@@ -531,6 +539,7 @@
     <property role="TrG5h" value="Parameter_Index" />
     <property role="34LRSv" value="index" />
     <property role="EcuMT" value="4591252177372567226" />
+    <property role="R4oN_" value="the index of the current node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3YRpSuyOe2M">

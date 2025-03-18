@@ -213,7 +213,7 @@
     <property role="TrG5h" value="ActionFunctionLeftParam" />
     <property role="34LRSv" value="left" />
     <property role="3GE5qa" value="parameters" />
-    <property role="R4oN_" value="Left Version" />
+    <property role="R4oN_" value="left version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1NgLzfPc0Pz">
@@ -221,7 +221,7 @@
     <property role="TrG5h" value="ActionFunctionRightParam" />
     <property role="34LRSv" value="right" />
     <property role="3GE5qa" value="parameters" />
-    <property role="R4oN_" value="Right Version" />
+    <property role="R4oN_" value="right version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7jyS5urbByQ">
@@ -402,7 +402,7 @@
     <property role="TrG5h" value="IdFunctionParam" />
     <property role="34LRSv" value="instance" />
     <property role="3GE5qa" value="parameters" />
-    <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
+    <property role="R4oN_" value="keep left and omit right version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="PlHQZ" id="3PLTv5jwPx8">
@@ -473,7 +473,7 @@
     <property role="TrG5h" value="ActionCollectionFunctionLeftParam" />
     <property role="34LRSv" value="left" />
     <property role="3GE5qa" value="parameters" />
-    <property role="R4oN_" value="Keep Left" />
+    <property role="R4oN_" value="left version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1PFYlaN8uRe">
@@ -481,7 +481,7 @@
     <property role="TrG5h" value="ActionCollectionFunctionRightParam" />
     <property role="34LRSv" value="right" />
     <property role="3GE5qa" value="parameters" />
-    <property role="R4oN_" value="Right Version" />
+    <property role="R4oN_" value="right version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="30FY4ILzHX1">
@@ -489,7 +489,7 @@
     <property role="TrG5h" value="ActionFunctionAutoParam" />
     <property role="3GE5qa" value="parameters" />
     <property role="34LRSv" value="auto" />
-    <property role="R4oN_" value="Apply Auto-Merge on Parameters" />
+    <property role="R4oN_" value="apply auto merge on parameters" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1Tugx$Dsa1">
@@ -508,7 +508,7 @@
     <property role="TrG5h" value="ActionFunctionRefLeftParam" />
     <property role="34LRSv" value="left" />
     <property role="3GE5qa" value="parameters" />
-    <property role="R4oN_" value="Left Version" />
+    <property role="R4oN_" value="left version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1Tugx_4mRv">
@@ -516,7 +516,7 @@
     <property role="TrG5h" value="ActionFunctionRefRightParam" />
     <property role="34LRSv" value="right" />
     <property role="3GE5qa" value="parameters" />
-    <property role="R4oN_" value="Right Version" />
+    <property role="R4oN_" value="right version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>

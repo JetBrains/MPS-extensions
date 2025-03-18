@@ -3,16 +3,14 @@
   <models>
     <modelRoot contentPath="${mps_home}/plugins/mps-kotlin/lib" type="java_classes">
       <sourceRoot location="kotlin-builtins.jar" />
-      <sourceRoot location="kotlin-stdlib-1.9.20.jar" />
-      <sourceRoot location="kotlin-stdlib-common-1.9.20.jar" />
+      <sourceRoot path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-2.1.0.jar" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java" compile="ext" classes="provided" ext="no">
       <classes generated="true" />
       <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-builtins.jar" />
-      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-1.9.20.jar" />
-      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-common-1.9.20.jar" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-2.1.0.jar" />
     </facet>
   </facets>
   <dependencies>

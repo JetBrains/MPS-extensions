@@ -575,7 +575,9 @@ tasks.register('remigrate', Remigrate) {
 
 tasks.register('checkProject', MpsCheck) {
     mpsHome = mpsHomeDir
-    projectLocation = projectDir
+    projectLocation = file("$projectDir/code")
+    folderMacros.put('extensions.home', project.layout.projectDirectory.dir("code"))
+    pluginRoots = usedPluginRoots.collect { project.layout.projectDirectory.dir(it.path) }.toSet()
     parallel = true
     excludeModules = ["com.mbeddr.mpsutil.editor.querylist.sandbox"]
 }

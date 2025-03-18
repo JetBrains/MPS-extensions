@@ -838,13 +838,6 @@
       <property role="TrG5h" value="color" />
       <property role="IQ2nx" value="1186403713874" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BF5v" resolve="_Colors_Enum" />
-      <node concept="3l_iC" id="7WTFIQIcYwQ" role="lGtFl">
-        <node concept="1TJgyi" id="hgVb0di" role="3l_iP">
-          <property role="TrG5h" value="color" />
-          <property role="IQ2nx" value="1186403713874" />
-          <ref role="AX2Wp" to="tpc2:fLwANPl" resolve="_Colors_Enum" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyj" id="3iamoN_th6s" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />

@@ -15,6 +15,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -117,18 +118,21 @@
     <property role="TrG5h" value="Parameter_ChildCells" />
     <property role="34LRSv" value="childCells" />
     <property role="EcuMT" value="175930839491984549" />
+    <property role="R4oN_" value="the child cells" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="9L22EoXFdE">
     <property role="TrG5h" value="Parameter_ThisLayoutableCell" />
     <property role="34LRSv" value="cell" />
     <property role="EcuMT" value="175930839492113258" />
+    <property role="R4oN_" value="the MathLayoutableCell instance" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="9L22Ep23lK">
     <property role="TrG5h" value="Parameter_Graphics" />
     <property role="34LRSv" value="g" />
     <property role="EcuMT" value="175930839493260656" />
+    <property role="R4oN_" value="the Graphics2D object" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="19RCnNmEwGZ">
@@ -198,6 +202,7 @@
     <property role="TrG5h" value="Parameter_Bounds" />
     <property role="34LRSv" value="bounds" />
     <property role="EcuMT" value="9120555111506485003" />
+    <property role="R4oN_" value="the boundaries of the symbol" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7UiI8OnMkHk">
@@ -246,6 +251,7 @@
     <property role="TrG5h" value="Parameter_Dimension" />
     <property role="34LRSv" value="dimension" />
     <property role="EcuMT" value="9120555111512624407" />
+    <property role="R4oN_" value="the width and height" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7UiI8Oo8WIm">
@@ -321,6 +327,7 @@
     <property role="TrG5h" value="Parameter_Symbols" />
     <property role="34LRSv" value="symbols" />
     <property role="EcuMT" value="2540335204174298417" />
+    <property role="R4oN_" value="the list of IMathSymbol symbols" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7sJd_4rZNOZ">

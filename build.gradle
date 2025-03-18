@@ -1,5 +1,5 @@
 plugins {
-    id 'de.itemis.mps.gradle.common' version '1.28.0.+'
+    id 'de.itemis.mps.gradle.common' version '1.29.1.+'
     id "com.github.breadmoirai.github-release" version "2.5.2"
     id 'maven-publish'
     id 'base'
@@ -13,6 +13,8 @@ import de.itemis.mps.gradle.downloadJBR.DownloadJbrForPlatform
 import groovy.xml.XmlSlurper
 
 import java.time.LocalDateTime
+
+import de.itemis.mps.gradle.tasks.MpsCheck
 
 apply plugin: 'download-jbr'
 
@@ -91,10 +93,12 @@ ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRe
 
 configurations {
     mps
+    languageLibs
 }
 
 dependencies {
     mps "com.jetbrains:mps:$mpsVersion"
+    languageLibs "org.mpsqa:all-in-one:$mpsMajor+"
 }
 
 repositories {
@@ -119,6 +123,13 @@ if (project.skipResolveMps) {
         }
         into mpsHomeDir
     }
+}
+
+task resolveLanguageLibs(type: Sync) {
+    from {
+        configurations.languageLibs.resolve().collect { zipTree(it) }
+    }
+    into "$buildDir/dependencies"
 }
 
 // -------- Model API ----------------------
@@ -279,7 +290,7 @@ task resolved_batik_dependencies(type: Sync) {
 }
 
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies
+    dependsOn 'downloadJbr', resolveMps, resolveLanguageLibs, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies
     script "$rootDir/scripts/build.xml"
 }
 
@@ -560,4 +571,11 @@ tasks.register('remigrate', Remigrate) {
 
     // diagram migration from version 0 is currently not rerunnable, although it claims to be
     excludeModuleMigration("de.itemis.mps.editor.diagram", 0)
+}
+
+tasks.register('checkProject', MpsCheck) {
+    mpsHome = mpsHomeDir
+    projectLocation = projectDir
+    parallel = true
+    excludeModules = ["com.mbeddr.mpsutil.editor.querylist.sandbox"]
 }

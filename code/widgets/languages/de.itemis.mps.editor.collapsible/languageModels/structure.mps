@@ -14,6 +14,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -118,24 +119,28 @@
     <property role="EcuMT" value="7087532378458388696" />
     <property role="TrG5h" value="ConceptFunctionParameter_Graphics2D" />
     <property role="34LRSv" value="graphics" />
+    <property role="R4oN_" value="the Graphics2D object" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="69rYimo65Uo">
     <property role="EcuMT" value="7087532378458447512" />
     <property role="TrG5h" value="ConceptFunctionParameter_Highlighted" />
     <property role="34LRSv" value="highlighted" />
+    <property role="R4oN_" value="is the cell highlighted at the moment" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="69rYimpipxQ">
     <property role="EcuMT" value="7087532378478450806" />
     <property role="TrG5h" value="ConceptFunctionParameter_Bounds" />
     <property role="34LRSv" value="bounds" />
+    <property role="R4oN_" value="the boundaries of the shape" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3SbGHEnRva6">
     <property role="EcuMT" value="4470863707015869062" />
     <property role="TrG5h" value="ConceptFunctionParameter_Expanded" />
     <property role="34LRSv" value="expanded" />
+    <property role="R4oN_" value="is the cell expanded at the moment" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5pN$eUp1Ruy">
@@ -148,6 +153,7 @@
     <property role="EcuMT" value="6229482064027550252" />
     <property role="TrG5h" value="ConceptFunctionParameter_ParentBounds" />
     <property role="34LRSv" value="parentBounds" />
+    <property role="R4oN_" value="the boundaries of the parent" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5pN$eUp1SMn">

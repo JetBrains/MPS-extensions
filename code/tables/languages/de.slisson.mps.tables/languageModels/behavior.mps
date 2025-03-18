@@ -83,10 +83,6 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
-      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
-        <child id="1070534934091" name="type" index="10QFUM" />
-        <child id="1070534934092" name="expression" index="10QFUP" />
-      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -2104,16 +2100,11 @@
                   <node concept="1bVj0M" id="44e9JOQEj5R" role="23t8la">
                     <node concept="3clFbS" id="44e9JOQEj5S" role="1bW5cS">
                       <node concept="3clFbF" id="44e9JOQEjOV" role="3cqZAp">
-                        <node concept="10QFUN" id="44e9JOQEzlV" role="3clFbG">
-                          <node concept="2OqwBi" id="44e9JOQEzlS" role="10QFUP">
-                            <node concept="37vLTw" id="44e9JOQEzlT" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7Z$RfkF7ILN" resolve="it" />
-                            </node>
-                            <node concept="1rGIog" id="44e9JOQEzlU" role="2OqNvi" />
+                        <node concept="2OqwBi" id="44e9JOQEzlS" role="3clFbG">
+                          <node concept="37vLTw" id="44e9JOQEzlT" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7Z$RfkF7ILN" resolve="it" />
                           </node>
-                          <node concept="3uibUv" id="44e9JOQEBye" role="10QFUM">
-                            <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-                          </node>
+                          <node concept="1rGIog" id="44e9JOQEzlU" role="2OqNvi" />
                         </node>
                       </node>
                     </node>

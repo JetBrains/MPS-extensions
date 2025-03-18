@@ -38,6 +38,7 @@
     <import index="zce0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.smodel.action(MPS.Editor/)" />
     <import index="sn11" ref="r:836426ab-a6f4-4fa3-9a9c-34c02ed6ab5d(jetbrains.mps.ide.icons)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
+    <import index="qbve" ref="r:35e808a0-0758-4b03-9053-4675a7ced44c(jetbrains.mps.baseLanguage.closures.runtime)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -249,6 +250,7 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -5476,15 +5478,12 @@
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="TREE_BUTTON_OPACITY" />
       <node concept="3Tm6S6" id="3fc1D1mzjYn" role="1B3o_S" />
-      <node concept="3uibUv" id="3fc1D1mzjYo" role="1tU5fm">
-        <ref role="3uigEE" to="hox0:~StyleAttribute" resolve="StyleAttribute" />
-        <node concept="1ajhzC" id="3fc1D1mzpFw" role="11_B2D">
-          <node concept="10P55v" id="3fc1D1mzq6K" role="1ajw0F" />
-          <node concept="10P55v" id="3fc1D1mzqmq" role="1ajl9A" />
-        </node>
-      </node>
       <node concept="1Z6Ecs" id="3fc1D1mzjYp" role="33vP2m">
         <ref role="1Z6EpT" to="5un2:3fc1D1myqBF" resolve="tree-button-opacity" />
+      </node>
+      <node concept="3uibUv" id="4pRRhPsEUB_" role="1tU5fm">
+        <ref role="3uigEE" to="hox0:~StyleAttribute" resolve="StyleAttribute" />
+        <node concept="3qTvmN" id="4pRRhPsEWOU" role="11_B2D" />
       </node>
     </node>
     <node concept="2tJIrI" id="7GMtHW6rImG" role="jymVt" />

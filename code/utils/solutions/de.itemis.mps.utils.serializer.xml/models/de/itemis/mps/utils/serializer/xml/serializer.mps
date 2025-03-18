@@ -2065,27 +2065,6 @@
             <property role="TrG5h" value="referenceLink" />
           </node>
           <node concept="3clFbS" id="W7R2SkhRQw" role="2LFqv$">
-            <node concept="3clFbJ" id="W7R2SkiFzT" role="3cqZAp">
-              <node concept="3clFbS" id="W7R2SkiFzU" role="3clFbx">
-                <node concept="3N13vt" id="W7R2SkiFzV" role="3cqZAp" />
-              </node>
-              <node concept="1Wc70l" id="W7R2SkiFzW" role="3clFbw">
-                <node concept="37vLTw" id="W7R2SkiFzX" role="3uHU7w">
-                  <ref role="3cqZAo" node="4G$IdycmTCG" resolve="ignoreAnnotations" />
-                </node>
-                <node concept="1eOMI4" id="W7R2SkiFzY" role="3uHU7B">
-                  <node concept="17R0WA" id="W7R2SkiFzZ" role="1eOMHV">
-                    <node concept="359W_D" id="W7R2SkiF$0" role="3uHU7w">
-                      <ref role="359W_E" to="tpck:gw2VY9q" resolve="BaseConcept" />
-                      <ref role="359W_F" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
-                    </node>
-                    <node concept="2GrUjf" id="W7R2SkiFKC" role="3uHU7B">
-                      <ref role="2Gs0qQ" node="W7R2SkhRQv" resolve="referenceLink" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="W7R2SkhRQX" role="3cqZAp">
               <node concept="3cpWsn" id="W7R2SkhRQY" role="3cpWs9">
                 <property role="TrG5h" value="refElement" />

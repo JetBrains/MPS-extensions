@@ -19899,12 +19899,17 @@
                           </node>
                           <node concept="2Zo12i" id="5$jJV5eGnKk" role="2OqNvi">
                             <node concept="25Kdxt" id="5$jJV5eGnLh" role="2Zo12j">
-                              <node concept="2OqwBi" id="5$jJV5eGnNb" role="25KhWn">
-                                <node concept="37vLTw" id="5$jJV5eGnMg" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="4qdNcH$47TU" resolve="_context" />
+                              <node concept="2OqwBi" id="4pRRhPsCKa3" role="25KhWn">
+                                <node concept="2OqwBi" id="5$jJV5eGnNb" role="2Oq$k0">
+                                  <node concept="37vLTw" id="5$jJV5eGnMg" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4qdNcH$47TU" resolve="_context" />
+                                  </node>
+                                  <node concept="liA8E" id="5$jJV5eGnPn" role="2OqNvi">
+                                    <ref role="37wK5l" to="zce0:~NodeSubstituteActionsFactoryContext.getChildConcept()" resolve="getChildConcept" />
+                                  </node>
                                 </node>
-                                <node concept="liA8E" id="5$jJV5eGnPn" role="2OqNvi">
-                                  <ref role="37wK5l" to="zce0:~NodeSubstituteActionsFactoryContext.getChildConcept()" resolve="getChildConcept" />
+                                <node concept="liA8E" id="4pRRhPsCMn$" role="2OqNvi">
+                                  <ref role="37wK5l" to="mhbf:~SNode.getConcept()" resolve="getConcept" />
                                 </node>
                               </node>
                             </node>

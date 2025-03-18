@@ -101,6 +101,30 @@
         </node>
       </node>
     </node>
+    <node concept="2VgMA2" id="4pRRhPsLNQu" role="2VgMA7">
+      <node concept="2Qf6Nf" id="4pRRhPsLNQv" role="2Qf7GQ">
+        <node concept="2V$Bhx" id="4pRRhPsLNQx" role="2Qf6Ng">
+          <property role="2V$B1T" value="c7fb639f-be78-4307-89b0-b5959c3fa8c8" />
+          <property role="2V$B1Q" value="jetbrains.mps.lang.text" />
+        </node>
+      </node>
+    </node>
+    <node concept="2VgMA2" id="4pRRhPuO3HQ" role="2VgMA7">
+      <node concept="2Qf6Nf" id="4pRRhPuO3HR" role="2Qf7GQ">
+        <node concept="2V$Bhx" id="4pRRhPuO3HT" role="2Qf6Ng">
+          <property role="2V$B1T" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
+          <property role="2V$B1Q" value="jetbrains.mps.lang.core" />
+        </node>
+      </node>
+    </node>
+    <node concept="2VgMA2" id="4pRRhPvaItv" role="2VgMA7">
+      <node concept="2Qf6Nf" id="4pRRhPvaItw" role="2Qf7GQ">
+        <node concept="2V$Bhx" id="4pRRhPvaIty" role="2Qf6Ng">
+          <property role="2V$B1T" value="7a5dda62-9140-4668-ab76-d5ed1746f2b2" />
+          <property role="2V$B1Q" value="jetbrains.mps.lang.typesystem" />
+        </node>
+      </node>
+    </node>
     <node concept="2VgMA2" id="7YhLqbpjaet" role="2VgMA7">
       <node concept="2Qf6Nf" id="7Z$RfkF7I_C" role="2Qf7GQ">
         <node concept="2V$Bhx" id="7YhLqbpjaex" role="2Qf6Ng">

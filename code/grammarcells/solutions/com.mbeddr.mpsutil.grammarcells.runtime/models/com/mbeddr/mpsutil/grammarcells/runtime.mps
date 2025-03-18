@@ -11458,9 +11458,7 @@
       <property role="TrG5h" value="commonAncestor" />
       <node concept="37vLTG" id="2TSIj8m0U4p" role="3clF46">
         <property role="TrG5h" value="nodes" />
-        <node concept="_YKpA" id="2TSIj8m0U4H" role="1tU5fm">
-          <node concept="3Tqbb2" id="2TSIj8m0U4Y" role="_ZDj9" />
-        </node>
+        <node concept="2I9FWS" id="4pRRhPsDhBK" role="1tU5fm" />
       </node>
       <node concept="3Tqbb2" id="2TSIj8m100B" role="3clF45" />
       <node concept="3Tmbuc" id="2TSIj8m13Cz" role="1B3o_S" />

@@ -13,7 +13,7 @@
     <import index="cttk" ref="r:5ff047e0-2953-4750-806a-bdc16824aa89(jetbrains.mps.smodel)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="karh" ref="r:780bbc81-d170-48ec-b42e-89f51d5b0ee5(com.mbeddr.mpsutil.grammarcells.behavior)" implicit="true" />
@@ -803,7 +803,7 @@
                   </node>
                   <node concept="2pIpSj" id="6TEPcwQMWh1" role="2pJxcM">
                     <ref role="2pIpSl" to="tpc2:gXXX56I" resolve="conceptDeclaration" />
-                    <node concept="36bGnv" id="6TEPcwQMWlu" role="28nt2d">
+                    <node concept="36bGnv" id="4pRRhPsCsm5" role="28nt2d">
                       <ref role="36bGnp" to="tpck:gw2VY9q" resolve="BaseConcept" />
                     </node>
                   </node>

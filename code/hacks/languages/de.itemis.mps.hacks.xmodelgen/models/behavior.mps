@@ -27,7 +27,7 @@
     <import index="28nf" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator.impl.query(MPS.Generator/)" />
     <import index="r99j" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator.runtime(MPS.Core/)" />
     <import index="r99k" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator.runtime(MPS.Generator/)" />
-    <import index="gxwz" ref="r:d1800018-44fb-4b2e-b3ae-2afea554d27b(de.itemis.mps.hacks.xmodelgen.structure)" implicit="true" />
+    <import index="gxwz" ref="r:d1800018-44fb-4b2e-b3ae-2afea554d27b(de.itemis.mps.hacks.xmodelgen.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpf8" ref="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" implicit="true" />
     <import index="bjdw" ref="r:4a23ef0d-9c2f-48a6-8597-fbdd5b11f792(jetbrains.mps.lang.generator.plan.structure)" implicit="true" />
@@ -675,6 +675,19 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="4pRRhPsFfgC" role="13h7CS">
+      <property role="TrG5h" value="setLanguage" />
+      <ref role="13i0hy" to="tpeu:5e7X3XCKW4J" resolve="setLanguage" />
+      <node concept="3Tm1VV" id="4pRRhPsFfgD" role="1B3o_S" />
+      <node concept="3clFbS" id="4pRRhPsFfgI" role="3clF47" />
+      <node concept="37vLTG" id="4pRRhPsFfgJ" role="3clF46">
+        <property role="TrG5h" value="language" />
+        <node concept="3uibUv" id="4pRRhPsFfgK" role="1tU5fm">
+          <ref role="3uigEE" to="w1kc:~Language" resolve="Language" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4pRRhPsFfgL" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="Pogn2S6dEP">

@@ -137,6 +137,10 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1173122760281" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorsOperation" flags="nn" index="z$bX8" />
+      <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
+        <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
+      </concept>
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
@@ -147,6 +151,9 @@
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <property id="1238684351431" name="asCast" index="1BlNFB" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -597,8 +604,14 @@
               </node>
               <node concept="33vP2l" id="U7sbC7OkQF" role="1ajl9A">
                 <node concept="2c44te" id="U7sbC7OkUf" role="lGtFl">
-                  <node concept="37vLTw" id="U7sbC7TJiW" role="2c44t1">
-                    <ref role="3cqZAo" node="hTgUC0T" resolve="resultType" />
+                  <node concept="1PxgMI" id="4pRRhPsI8hN" role="2c44t1">
+                    <property role="1BlNFB" value="true" />
+                    <node concept="chp4Y" id="4pRRhPsI8iW" role="3oSUPX">
+                      <ref role="cht4Q" to="tpee:fz3vP1H" resolve="Type" />
+                    </node>
+                    <node concept="37vLTw" id="U7sbC7TJiW" role="1m5AlR">
+                      <ref role="3cqZAo" node="hTgUC0T" resolve="resultType" />
+                    </node>
                   </node>
                 </node>
               </node>

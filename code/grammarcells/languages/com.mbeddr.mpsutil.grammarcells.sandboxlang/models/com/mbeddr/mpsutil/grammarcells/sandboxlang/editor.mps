@@ -1698,29 +1698,6 @@
         <node concept="3F1sOY" id="5ycts4RUtC3" role="_tjki">
           <ref role="1NtTu8" to="ibwz:5ycts4RUtB8" resolve="child" />
         </node>
-        <node concept="315t4" id="6gjbwaaGgMP" role="vWNKz">
-          <node concept="3clFbS" id="6gjbwaaGgMQ" role="2VODD2">
-            <node concept="2xdQw9" id="6gjbwaaGgMR" role="3cqZAp">
-              <node concept="3cpWs3" id="6gjbwaaGgMS" role="9lYJi">
-                <node concept="Xl_RD" id="6gjbwaaGgMU" role="3uHU7B">
-                  <property role="Xl_RC" value="Node:" />
-                </node>
-                <node concept="2OqwBi" id="7LJ_vJOlkMN" role="3uHU7w">
-                  <node concept="313q4" id="6gjbwaaGgMT" role="2Oq$k0" />
-                  <node concept="2Iv5rx" id="7LJ_vJOlkMO" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-            <node concept="2xdQw9" id="6gjbwaaGgMV" role="3cqZAp">
-              <node concept="3cpWs3" id="6gjbwaaGgMW" role="9lYJi">
-                <node concept="Xl_RD" id="6gjbwaaGgMX" role="3uHU7B">
-                  <property role="Xl_RC" value="EditorContext:" />
-                </node>
-                <node concept="2MNBq7" id="6gjbwaaGgMY" role="3uHU7w" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="uPpia" id="6gjbwab2icL" role="1djCvC">
           <node concept="3clFbS" id="6gjbwab2icM" role="2VODD2">
             <node concept="2xdQw9" id="6gjbwab2ihL" role="3cqZAp">

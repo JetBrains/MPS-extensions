@@ -2155,13 +2155,6 @@
       <property role="TrG5h" value="align" />
       <property role="IQ2nx" value="4920147624470412440" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BFdY" resolve="AlignEnum" />
-      <node concept="3l_iC" id="7WTFIQIcYvu" role="lGtFl">
-        <node concept="1TJgyi" id="4h7S3972BMo" role="3l_iP">
-          <property role="IQ2nx" value="4920147624470412440" />
-          <property role="TrG5h" value="align" />
-          <ref role="AX2Wp" to="tpc2:hZ7kHEa" resolve="AlignEnum" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyi" id="4h7S3972BMq" role="1TKVEl">
       <property role="IQ2nx" value="4920147624470412442" />

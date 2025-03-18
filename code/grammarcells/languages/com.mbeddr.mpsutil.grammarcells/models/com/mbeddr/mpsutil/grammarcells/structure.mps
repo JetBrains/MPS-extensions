@@ -446,13 +446,6 @@
       <property role="TrG5h" value="actionId" />
       <property role="IQ2nx" value="1139535298778" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BFaB" resolve="CellActionId" />
-      <node concept="3l_iC" id="7WTFIQIcYwd" role="lGtFl">
-        <node concept="1TJgyi" id="g_hAc3q" role="3l_iP">
-          <property role="TrG5h" value="actionId" />
-          <property role="IQ2nx" value="1139535298778" />
-          <ref role="AX2Wp" to="tpc2:g_hAjpB" resolve="CellActionId" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyj" id="5WBKiSs9$Zt" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />

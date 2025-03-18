@@ -21,6 +21,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -690,6 +691,7 @@
     <property role="3GE5qa" value="builder" />
     <property role="TrG5h" value="PropertyWriteHandler_value" />
     <property role="34LRSv" value="value" />
+    <property role="R4oN_" value="the property value" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="4FwMpYIttwr">
@@ -735,6 +737,7 @@
     <property role="3GE5qa" value="builder" />
     <property role="TrG5h" value="ChildCreateHandler_concept" />
     <property role="34LRSv" value="concept" />
+    <property role="R4oN_" value="the concept the new child" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="35N923AuHK$">
@@ -742,6 +745,7 @@
     <property role="3GE5qa" value="builder" />
     <property role="TrG5h" value="ChildCreateHandler_index" />
     <property role="34LRSv" value="index" />
+    <property role="R4oN_" value="the index of the new node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="_UxhR7cOUp">
@@ -940,6 +944,7 @@
     <property role="3GE5qa" value="builder" />
     <property role="TrG5h" value="ReferenceWriteHandler_target" />
     <property role="34LRSv" value="target" />
+    <property role="R4oN_" value="the target of the reference" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3zTK92KVSgm">

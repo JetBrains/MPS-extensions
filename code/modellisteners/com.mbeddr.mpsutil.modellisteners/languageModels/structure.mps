@@ -14,6 +14,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -99,12 +100,14 @@
     <property role="TrG5h" value="Parameter_instance" />
     <property role="34LRSv" value="instance" />
     <property role="EcuMT" value="5818559022137760597" />
+    <property role="R4oN_" value="the listener's node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="52ZF9D3aASe">
     <property role="TrG5h" value="Parameter_child" />
     <property role="34LRSv" value="child" />
     <property role="EcuMT" value="5818559022137765390" />
+    <property role="R4oN_" value="the child node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5iW7uqbEky9">
@@ -142,18 +145,21 @@
     <property role="TrG5h" value="Parameter_reference" />
     <property role="34LRSv" value="reference" />
     <property role="EcuMT" value="6105788070831244601" />
+    <property role="R4oN_" value="access to the SReference instance" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5iW7uqbMDkJ">
     <property role="TrG5h" value="Parameter_target" />
     <property role="34LRSv" value="target" />
     <property role="EcuMT" value="6105788070832543023" />
+    <property role="R4oN_" value="the target of the reference" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5iW7uqbMEDa">
     <property role="TrG5h" value="Parameter_referenceRole" />
     <property role="34LRSv" value="role" />
     <property role="EcuMT" value="6105788070832548426" />
+    <property role="R4oN_" value="the SReferenceLink declaration" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5iW7uqbP_TN">
@@ -171,18 +177,21 @@
     <property role="TrG5h" value="Parameter_oldPropertyValue" />
     <property role="34LRSv" value="oldValue" />
     <property role="EcuMT" value="6105788070833319826" />
+    <property role="R4oN_" value="the old property value (string)" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5iW7uqbPB8x">
     <property role="TrG5h" value="Parameter_newPropertyValue" />
     <property role="34LRSv" value="newValue" />
     <property role="EcuMT" value="6105788070833320481" />
+    <property role="R4oN_" value="the new property value (string)" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5iW7uqbPBgG">
     <property role="TrG5h" value="Parameter_propertyName" />
     <property role="34LRSv" value="propertyName" />
     <property role="EcuMT" value="6105788070833321004" />
+    <property role="R4oN_" value="the name of the property" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5iW7uqbPHHE">
@@ -224,6 +233,7 @@
     <property role="TrG5h" value="Parameter_model" />
     <property role="34LRSv" value="model" />
     <property role="EcuMT" value="6105788070835124550" />
+    <property role="R4oN_" value="the affected model" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>

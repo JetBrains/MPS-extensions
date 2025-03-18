@@ -2693,7 +2693,7 @@
                 <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
               </node>
               <node concept="35c_gC" id="44e9JOQDY26" role="HW$Y0">
-                <ref role="35c_gD" to="2qld:3HrJbrHNcg6" resolve="SNodeConncetionType_fromNode" />
+                <ref role="35c_gD" to="2qld:3HrJbrHNcg6" resolve="SNodeConnectionType_fromNode" />
               </node>
               <node concept="35c_gC" id="44e9JOQDY27" role="HW$Y0">
                 <ref role="35c_gD" to="2qld:3HrJbrHNcgK" resolve="SNodeConncetionType_toNode" />
@@ -2735,7 +2735,7 @@
                 <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
               </node>
               <node concept="35c_gC" id="44e9JOQDY1Z" role="HW$Y0">
-                <ref role="35c_gD" to="2qld:3HrJbrHNcg6" resolve="SNodeConncetionType_fromNode" />
+                <ref role="35c_gD" to="2qld:3HrJbrHNcg6" resolve="SNodeConnectionType_fromNode" />
               </node>
               <node concept="35c_gC" id="44e9JOQDY20" role="HW$Y0">
                 <ref role="35c_gD" to="2qld:3HrJbrHNcgK" resolve="SNodeConncetionType_toNode" />
@@ -2778,7 +2778,7 @@
   </node>
   <node concept="13h7C7" id="1VJN2HU5jtH">
     <property role="3GE5qa" value="connectionType" />
-    <ref role="13h7C2" to="2qld:3HrJbrHNcg6" resolve="SNodeConncetionType_fromNode" />
+    <ref role="13h7C2" to="2qld:3HrJbrHNcg6" resolve="SNodeConnectionType_fromNode" />
     <node concept="13hLZK" id="1VJN2HU5jtI" role="13h7CW">
       <node concept="3clFbS" id="1VJN2HU5jtJ" role="2VODD2" />
     </node>
@@ -3042,7 +3042,7 @@
                 <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
               </node>
               <node concept="35c_gC" id="44e9JOQDY2i" role="HW$Y0">
-                <ref role="35c_gD" to="2qld:3HrJbrHNcg6" resolve="SNodeConncetionType_fromNode" />
+                <ref role="35c_gD" to="2qld:3HrJbrHNcg6" resolve="SNodeConnectionType_fromNode" />
               </node>
               <node concept="35c_gC" id="44e9JOQDY2j" role="HW$Y0">
                 <ref role="35c_gD" to="2qld:1VJN2HU5AzU" resolve="SNodeConnectionType_fromPort" />

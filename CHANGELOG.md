@@ -11,6 +11,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.editor.diagram*: An issue was fixed where edges of sub-diagrams where not correctly displayed when the diagram was first opened
 - *de.itemis.mps.editor.diagram*: Diagram boxes not properly support borders.
 - *com.mbeddr.mpsutil.grammarcells*: Cells with multiple transformation texts (mainly optional cells) now match the pattern independent of the order of the elements.
+- *de.slisson.mps.editor.multiline*: a StringIndexOutOfBoundsException was fixed that happened when trying to delete the last character of the multiline cell
 
 ### Added
 

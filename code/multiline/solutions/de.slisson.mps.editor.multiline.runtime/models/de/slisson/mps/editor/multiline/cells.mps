@@ -14794,6 +14794,20 @@
       <node concept="3cqZAl" id="3x42ltMQCJ5" role="3clF45" />
       <node concept="3Tm1VV" id="3x42ltMQCJ6" role="1B3o_S" />
       <node concept="3clFbS" id="3x42ltMQCJ7" role="3clF47">
+        <node concept="3cpWs8" id="3x42ltMQCKZ" role="3cqZAp">
+          <node concept="3cpWsn" id="3x42ltMQCL0" role="3cpWs9">
+            <property role="TrG5h" value="text" />
+            <node concept="17QB3L" id="3x42ltMQCL1" role="1tU5fm" />
+            <node concept="2OqwBi" id="3x42ltMQCLo" role="33vP2m">
+              <node concept="37vLTw" id="1rfeXz7xs0d" role="2Oq$k0">
+                <ref role="3cqZAo" node="4iNMa1cpr8f" resolve="myMultilineCell" />
+              </node>
+              <node concept="liA8E" id="3x42ltMQCLu" role="2OqNvi">
+                <ref role="37wK5l" node="1laD9eY9cPh" resolve="getText" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="4eM$0ePZek3" role="3cqZAp">
           <node concept="3cpWsn" id="4eM$0ePZek4" role="3cpWs9">
             <property role="TrG5h" value="first" />
@@ -14814,28 +14828,26 @@
           <node concept="3cpWsn" id="4eM$0ePZeka" role="3cpWs9">
             <property role="TrG5h" value="last" />
             <node concept="10Oyi0" id="4eM$0ePZekb" role="1tU5fm" />
-            <node concept="2YIFZM" id="4eM$0ePZekc" role="33vP2m">
+            <node concept="2YIFZM" id="5hdfqlZmzO2" role="33vP2m">
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-              <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
-              <node concept="37vLTw" id="1rfeXz7xrZ3" role="37wK5m">
-                <ref role="3cqZAo" node="4iNMa1cpr8j" resolve="mySelectionStart" />
+              <node concept="2YIFZM" id="4eM$0ePZekc" role="37wK5m">
+                <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
+                <node concept="37vLTw" id="1rfeXz7xrZ3" role="37wK5m">
+                  <ref role="3cqZAo" node="4iNMa1cpr8j" resolve="mySelectionStart" />
+                </node>
+                <node concept="37vLTw" id="1rfeXz7xrWm" role="37wK5m">
+                  <ref role="3cqZAo" node="4iNMa1cpr8p" resolve="mySelectionEnd" />
+                </node>
               </node>
-              <node concept="37vLTw" id="1rfeXz7xrWm" role="37wK5m">
-                <ref role="3cqZAo" node="4iNMa1cpr8p" resolve="mySelectionEnd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="3x42ltMQCKZ" role="3cqZAp">
-          <node concept="3cpWsn" id="3x42ltMQCL0" role="3cpWs9">
-            <property role="TrG5h" value="text" />
-            <node concept="17QB3L" id="3x42ltMQCL1" role="1tU5fm" />
-            <node concept="2OqwBi" id="3x42ltMQCLo" role="33vP2m">
-              <node concept="37vLTw" id="1rfeXz7xs0d" role="2Oq$k0">
-                <ref role="3cqZAo" node="4iNMa1cpr8f" resolve="myMultilineCell" />
-              </node>
-              <node concept="liA8E" id="3x42ltMQCLu" role="2OqNvi">
-                <ref role="37wK5l" node="1laD9eY9cPh" resolve="getText" />
+              <node concept="2OqwBi" id="5hdfqlZmH4j" role="37wK5m">
+                <node concept="37vLTw" id="5hdfqlZmDrI" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3x42ltMQCL0" resolve="text" />
+                </node>
+                <node concept="liA8E" id="5hdfqlZmICl" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
+                </node>
               </node>
             </node>
           </node>

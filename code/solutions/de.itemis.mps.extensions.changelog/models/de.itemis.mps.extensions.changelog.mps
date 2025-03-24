@@ -420,6 +420,75 @@
             <property role="3oM_SC" value="elements." />
           </node>
         </node>
+        <node concept="2DRihI" id="5hdfqlZoaMy" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="2hgSXJ" id="5hdfqlZoaN_" role="1PaTwD">
+            <node concept="1PaTwC" id="5hdfqlZoaNA" role="2hiFM$">
+              <node concept="15Ami3" id="5hdfqlZoaNB" role="1PaTwD">
+                <node concept="37shsh" id="5hdfqlZoaNC" role="15Aodc">
+                  <node concept="1dCxOk" id="5hdfqlZoaND" role="37shsm">
+                    <property role="1XweGW" value="31c91def-a131-41a1-9018-102874f49a12" />
+                    <property role="1XxBO9" value="de.slisson.mps.editor.multiline" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="5hdfqlZoaNE" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNJ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNK" role="1PaTwD">
+            <property role="3oM_SC" value="StringIndexOutOfBoundsException" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNV" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNW" role="1PaTwD">
+            <property role="3oM_SC" value="fixed" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNX" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNY" role="1PaTwD">
+            <property role="3oM_SC" value="happened" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNL" role="1PaTwD">
+            <property role="3oM_SC" value="when" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNM" role="1PaTwD">
+            <property role="3oM_SC" value="trying" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNN" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNO" role="1PaTwD">
+            <property role="3oM_SC" value="delete" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNP" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNZ" role="1PaTwD">
+            <property role="3oM_SC" value="last" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNQ" role="1PaTwD">
+            <property role="3oM_SC" value="character" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNR" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNS" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNT" role="1PaTwD">
+            <property role="3oM_SC" value="multiline" />
+          </node>
+          <node concept="3oM_SD" id="5hdfqlZoaNU" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+        </node>
       </node>
       <node concept="15bAme" id="6plDSSS$zdM" role="15bAlL">
         <property role="15bAli" value="Po4Z58tnOE/added" />

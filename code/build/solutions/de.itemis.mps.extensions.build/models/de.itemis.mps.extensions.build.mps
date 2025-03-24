@@ -16273,17 +16273,17 @@
           </node>
           <node concept="1SiIV0" id="77YfcvOLV3S" role="3bR37C">
             <node concept="3bR9La" id="77YfcvOLV3T" role="1SiIV1">
-              <ref role="3bR37D" node="77YfcvOLBqQ" resolve="com.mbeddr.mpsutil.comparator" />
+              <ref role="3bR37D" node="77YfcvOLBqQ" resolve="de.itemis.mps.comparator" />
             </node>
           </node>
         </node>
         <node concept="1SiIV0" id="77YfcvOLV3E" role="3bR37C">
           <node concept="3bR9La" id="77YfcvOLV3F" role="1SiIV1">
-            <ref role="3bR37D" node="77YfcvOLBqQ" resolve="com.mbeddr.mpsutil.comparator" />
+            <ref role="3bR37D" node="77YfcvOLBqQ" resolve="de.itemis.mps.comparator" />
           </node>
         </node>
         <node concept="1E0d5M" id="77YfcvOLV3R" role="1E1XAP">
-          <ref role="1E0d5P" node="77YfcvOLBqQ" resolve="com.mbeddr.mpsutil.comparator" />
+          <ref role="1E0d5P" node="77YfcvOLBqQ" resolve="de.itemis.mps.comparator" />
         </node>
         <node concept="3rtmxn" id="1U3IXI9cX1D" role="3bR31x">
           <node concept="3LXTmp" id="1U3IXI9cX1E" role="3rtmxm">
@@ -16429,11 +16429,11 @@
         <node concept="1SiIV0" id="77YfcvON5Yu" role="3bR37C">
           <node concept="3bR9La" id="77YfcvON5Yv" role="1SiIV1">
             <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="77YfcvOLWO0" resolve="com.mbeddr.mpsutil.compare.pattern.runtime" />
+            <ref role="3bR37D" node="77YfcvOLWO0" resolve="de.itemis.mps.compare.pattern.runtime" />
           </node>
         </node>
         <node concept="1E0d5M" id="77YfcvON5YF" role="1E1XAP">
-          <ref role="1E0d5P" node="77YfcvOLWO0" resolve="com.mbeddr.mpsutil.compare.pattern.runtime" />
+          <ref role="1E0d5P" node="77YfcvOLWO0" resolve="de.itemis.mps.compare.pattern.runtime" />
         </node>
         <node concept="3rtmxn" id="1U3IXI9cWSZ" role="3bR31x">
           <node concept="3LXTmp" id="1U3IXI9cWT0" role="3rtmxm">
@@ -16486,7 +16486,7 @@
         </node>
         <node concept="1SiIV0" id="77YfcvOLoIc" role="3bR37C">
           <node concept="3bR9La" id="77YfcvOLoId" role="1SiIV1">
-            <ref role="3bR37D" node="77YfcvOKU$A" resolve="com.mbeddr.mpsutil.compare.pattern" />
+            <ref role="3bR37D" node="77YfcvOKU$A" resolve="de.itemis.mps.compare.pattern" />
           </node>
         </node>
         <node concept="1SiIV0" id="77YfcvOLoIe" role="3bR37C">
@@ -16534,7 +16534,7 @@
           <property role="3LESm3" value="ece2f1c9-4525-4f65-8f41-378fad118eea" />
           <node concept="1SiIV0" id="77YfcvOLoIz" role="3bR37C">
             <node concept="3bR9La" id="77YfcvOLoI$" role="1SiIV1">
-              <ref role="3bR37D" node="77YfcvOKU$A" resolve="com.mbeddr.mpsutil.compare.pattern" />
+              <ref role="3bR37D" node="77YfcvOKU$A" resolve="de.itemis.mps.compare.pattern" />
             </node>
           </node>
           <node concept="1SiIV0" id="77YfcvOLoI_" role="3bR37C">
@@ -16573,11 +16573,11 @@
         </node>
         <node concept="1SiIV0" id="77YfcvON5YT" role="3bR37C">
           <node concept="3bR9La" id="77YfcvON5YU" role="1SiIV1">
-            <ref role="3bR37D" node="77YfcvOLWO0" resolve="com.mbeddr.mpsutil.compare.pattern.runtime" />
+            <ref role="3bR37D" node="77YfcvOLWO0" resolve="de.itemis.mps.compare.pattern.runtime" />
           </node>
         </node>
         <node concept="1E0d5M" id="77YfcvON5Z6" role="1E1XAP">
-          <ref role="1E0d5P" node="77YfcvOLWO0" resolve="com.mbeddr.mpsutil.compare.pattern.runtime" />
+          <ref role="1E0d5P" node="77YfcvOLWO0" resolve="de.itemis.mps.compare.pattern.runtime" />
         </node>
         <node concept="3rtmxn" id="1U3IXI9cXaj" role="3bR31x">
           <node concept="3LXTmp" id="1U3IXI9cXak" role="3rtmxm">
@@ -16635,7 +16635,7 @@
         </node>
         <node concept="1SiIV0" id="77YfcvOL$JN" role="3bR37C">
           <node concept="3bR9La" id="77YfcvOL$JO" role="1SiIV1">
-            <ref role="3bR37D" node="77YfcvOKU$A" resolve="com.mbeddr.mpsutil.compare.pattern" />
+            <ref role="3bR37D" node="77YfcvOKU$A" resolve="de.itemis.mps.compare.pattern" />
           </node>
         </node>
         <node concept="1SiIV0" id="77YfcvOL$JP" role="3bR37C">
@@ -16688,7 +16688,7 @@
           </node>
           <node concept="1SiIV0" id="77YfcvOL$Kc" role="3bR37C">
             <node concept="3bR9La" id="77YfcvOL$Kd" role="1SiIV1">
-              <ref role="3bR37D" node="77YfcvOKU$A" resolve="com.mbeddr.mpsutil.compare.pattern" />
+              <ref role="3bR37D" node="77YfcvOKU$A" resolve="de.itemis.mps.compare.pattern" />
             </node>
           </node>
           <node concept="1BupzO" id="77YfcvOL$Kr" role="3bR31x">
@@ -16721,26 +16721,26 @@
           </node>
           <node concept="1SiIV0" id="77YfcvOL$Kv" role="3bR37C">
             <node concept="3bR9La" id="77YfcvOL$Ku" role="1SiIV1">
-              <ref role="3bR37D" node="77YfcvOLaZ1" resolve="com.mbeddr.mpsutil.compare.pattern#3560698633098117280" />
+              <ref role="3bR37D" node="77YfcvOLaZ1" resolve="de.itemis.mps.compare.pattern#3560698633098117280" />
             </node>
           </node>
           <node concept="1SiIV0" id="77YfcvOM60W" role="3bR37C">
             <node concept="3bR9La" id="77YfcvOM60X" role="1SiIV1">
-              <ref role="3bR37D" node="77YfcvOLMEk" resolve="com.mbeddr.mpsutil.compare.pattern.generator.runtime" />
+              <ref role="3bR37D" node="77YfcvOLMEk" resolve="de.itemis.mps.compare.pattern.generator.runtime" />
             </node>
           </node>
         </node>
         <node concept="1SiIV0" id="77YfcvOM60I" role="3bR37C">
           <node concept="3bR9La" id="77YfcvOM60J" role="1SiIV1">
             <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="77YfcvOLMEk" resolve="com.mbeddr.mpsutil.compare.pattern.generator.runtime" />
+            <ref role="3bR37D" node="77YfcvOLMEk" resolve="de.itemis.mps.compare.pattern.generator.runtime" />
           </node>
         </node>
         <node concept="1E0d5M" id="77YfcvOM60V" role="1E1XAP">
-          <ref role="1E0d5P" node="77YfcvOLMEk" resolve="com.mbeddr.mpsutil.compare.pattern.generator.runtime" />
+          <ref role="1E0d5P" node="77YfcvOLMEk" resolve="de.itemis.mps.compare.pattern.generator.runtime" />
         </node>
         <node concept="1E0d5M" id="77YfcvON5Zv" role="1E1XAP">
-          <ref role="1E0d5P" node="77YfcvOLWO0" resolve="com.mbeddr.mpsutil.compare.pattern.runtime" />
+          <ref role="1E0d5P" node="77YfcvOLWO0" resolve="de.itemis.mps.compare.pattern.runtime" />
         </node>
         <node concept="3rtmxn" id="1U3IXI9cWKl" role="3bR31x">
           <node concept="3LXTmp" id="1U3IXI9cWKm" role="3rtmxm">
@@ -16813,7 +16813,7 @@
         </node>
         <node concept="1SiIV0" id="77YfcvOLLHY" role="3bR37C">
           <node concept="3bR9La" id="77YfcvOLLHZ" role="1SiIV1">
-            <ref role="3bR37D" node="77YfcvOKCUm" resolve="com.mbeddr.mpsutil.compare" />
+            <ref role="3bR37D" node="77YfcvOKCUm" resolve="de.itemis.mps.compare" />
           </node>
         </node>
         <node concept="1SiIV0" id="77YfcvOLLI0" role="3bR37C">
@@ -16848,6 +16848,25 @@
             </node>
             <node concept="3qWCbU" id="77YfcvOLLIh" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="6qAfiag8LMp" role="3bR31x">
+          <node concept="3LXTmp" id="6qAfiag8LMq" role="3rtmxm">
+            <node concept="3qWCbU" id="6qAfiag8LMr" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="6qAfiag8LMs" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6qAfiag8LMt" role="iGT6I">
+                <property role="2Ry0Am" value="compare" />
+                <node concept="2Ry0Ak" id="6qAfiag8LMu" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6qAfiag8LMv" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.comparator" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -16908,7 +16927,26 @@
         </node>
         <node concept="1SiIV0" id="77YfcvON5ZS" role="3bR37C">
           <node concept="3bR9La" id="77YfcvON5ZT" role="1SiIV1">
-            <ref role="3bR37D" node="77YfcvOLWO0" resolve="com.mbeddr.mpsutil.compare.pattern.runtime" />
+            <ref role="3bR37D" node="77YfcvOLWO0" resolve="de.itemis.mps.compare.pattern.runtime" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="6qAfiag8LMx" role="3bR31x">
+          <node concept="3LXTmp" id="6qAfiag8LMy" role="3rtmxm">
+            <node concept="3qWCbU" id="6qAfiag8LMz" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="6qAfiag8LM$" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6qAfiag8LM_" role="iGT6I">
+                <property role="2Ry0Am" value="compare" />
+                <node concept="2Ry0Ak" id="6qAfiag8LMA" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6qAfiag8LMB" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.compare.pattern.generator.runtime" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -16973,6 +17011,25 @@
             </node>
             <node concept="3qWCbU" id="77YfcvOM61Q" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="6qAfiag8LMD" role="3bR31x">
+          <node concept="3LXTmp" id="6qAfiag8LME" role="3rtmxm">
+            <node concept="3qWCbU" id="6qAfiag8LMF" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="6qAfiag8LMG" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6qAfiag8LMH" role="iGT6I">
+                <property role="2Ry0Am" value="compare" />
+                <node concept="2Ry0Ak" id="6qAfiag8LMI" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6qAfiag8LMJ" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.compare.pattern.runtime" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -23241,7 +23298,7 @@
         </node>
         <node concept="1SiIV0" id="77YfcvOU203" role="3bR37C">
           <node concept="3bR9La" id="77YfcvOU204" role="1SiIV1">
-            <ref role="3bR37D" node="77YfcvOLBqQ" resolve="com.mbeddr.mpsutil.comparator" />
+            <ref role="3bR37D" node="77YfcvOLBqQ" resolve="de.itemis.mps.comparator" />
           </node>
         </node>
         <node concept="1BupzO" id="77YfcvOU20m" role="3bR31x">
@@ -23271,7 +23328,26 @@
         </node>
         <node concept="1SiIV0" id="77YfcvOUPmm" role="3bR37C">
           <node concept="3bR9La" id="77YfcvOUPmn" role="1SiIV1">
-            <ref role="3bR37D" node="77YfcvOU3BS" resolve="test.com.mbeddr.mpsutil.compare.testlang" />
+            <ref role="3bR37D" node="77YfcvOU3BS" resolve="test.de.itemis.mps.compare.testlang" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="6qAfiag8LML" role="3bR31x">
+          <node concept="3LXTmp" id="6qAfiag8LMM" role="3rtmxm">
+            <node concept="3qWCbU" id="6qAfiag8LMN" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="6qAfiag8LMO" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6qAfiag8LMP" role="iGT6I">
+                <property role="2Ry0Am" value="compare" />
+                <node concept="2Ry0Ak" id="6qAfiag8LMQ" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6qAfiag8LMR" role="2Ry0An">
+                    <property role="2Ry0Am" value="test.de.itemis.mps.compare" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -23327,6 +23403,25 @@
             </node>
             <node concept="3qWCbU" id="7a4Pg1WAZuR" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="6qAfiag8LMT" role="3bR31x">
+          <node concept="3LXTmp" id="6qAfiag8LMU" role="3rtmxm">
+            <node concept="3qWCbU" id="6qAfiag8LMV" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="6qAfiag8LMW" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6qAfiag8LMX" role="iGT6I">
+                <property role="2Ry0Am" value="compare" />
+                <node concept="2Ry0Ak" id="6qAfiag8LMY" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6qAfiag8LMZ" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.compare.pattern.test" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -24176,13 +24271,13 @@
         <ref role="L2wRA" node="4zIvKyx$aSl" resolve="com.mbeddr.mpsutil.modellisteners.sandboxlang" />
       </node>
       <node concept="L2wRC" id="7a4Pg1WB0GM" role="39821P">
-        <ref role="L2wRA" node="7a4Pg1WAXVT" resolve="com.mbeddr.mpsutil.compare.pattern.test" />
+        <ref role="L2wRA" node="7a4Pg1WAXVT" resolve="de.itemis.mps.compare.pattern.test" />
       </node>
       <node concept="L2wRC" id="77YfcvOUrL6" role="39821P">
-        <ref role="L2wRA" node="77YfcvOTUs4" resolve="test.com.mbeddr.mpsutil.compare" />
+        <ref role="L2wRA" node="77YfcvOTUs4" resolve="test.de.itemis.mps.compare" />
       </node>
       <node concept="L2wRC" id="77YfcvOUwvO" role="39821P">
-        <ref role="L2wRA" node="77YfcvOU3BS" resolve="test.com.mbeddr.mpsutil.compare.testlang" />
+        <ref role="L2wRA" node="77YfcvOU3BS" resolve="test.de.itemis.mps.compare.testlang" />
       </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
@@ -24266,13 +24361,13 @@
         <ref role="22LTRN" node="7NiuBZ$i0jE" resolve="de.itemis.mps.editor.pagination.test" />
       </node>
       <node concept="22LTRM" id="77YfcvOUL17" role="22LTRK">
-        <ref role="22LTRN" node="77YfcvOTUs4" resolve="test.com.mbeddr.mpsutil.compare" />
+        <ref role="22LTRN" node="77YfcvOTUs4" resolve="test.de.itemis.mps.compare" />
       </node>
       <node concept="22LTRM" id="651rV1vE1UE" role="22LTRK">
-        <ref role="22LTRN" node="7a4Pg1WAXVT" resolve="com.mbeddr.mpsutil.compare.pattern.test" />
+        <ref role="22LTRN" node="7a4Pg1WAXVT" resolve="de.itemis.mps.compare.pattern.test" />
       </node>
       <node concept="22LTRM" id="651rV1vE1Yd" role="22LTRK">
-        <ref role="22LTRN" node="77YfcvOTUs4" resolve="test.com.mbeddr.mpsutil.compare" />
+        <ref role="22LTRN" node="77YfcvOTUs4" resolve="test.de.itemis.mps.compare" />
       </node>
     </node>
   </node>

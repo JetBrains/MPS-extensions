@@ -130,6 +130,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -289,8 +290,8 @@
                 <ref role="1PxDUh" to="6t7w:~DateTimeFormatter" resolve="DateTimeFormatter" />
               </node>
             </node>
-            <node concept="BsUDl" id="6aVQm8WgqLy" role="2Oq$k0">
-              <ref role="37wK5l" node="6aVQm8WgoJy" resolve="getDate" />
+            <node concept="37vLTw" id="3qr5kw3sk$8" role="2Oq$k0">
+              <ref role="3cqZAo" node="7$hS453SKZR" resolve="date" />
             </node>
           </node>
         </node>
@@ -447,14 +448,22 @@
               </node>
             </node>
             <node concept="3cpWs6" id="6aVQm8WgrlF" role="3cqZAp">
-              <node concept="2OqwBi" id="6aVQm8WgrRL" role="3cqZAk">
-                <node concept="37vLTw" id="7$hS453T0DK" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7$hS453T0DI" resolve="date" />
-                </node>
-                <node concept="liA8E" id="6aVQm8Wgsjn" role="2OqNvi">
-                  <ref role="37wK5l" to="28m1:~LocalDate.isAfter(java.time.chrono.ChronoLocalDate)" resolve="isAfter" />
-                  <node concept="37vLTw" id="7$hS453Th0V" role="37wK5m">
+              <node concept="1Wc70l" id="3qr5kw3sz2k" role="3cqZAk">
+                <node concept="3y3z36" id="3qr5kw3sz0y" role="3uHU7B">
+                  <node concept="37vLTw" id="3qr5kw3stkb" role="3uHU7B">
                     <ref role="3cqZAo" node="7$hS453Tgms" resolve="otherDate" />
+                  </node>
+                  <node concept="10Nm6u" id="3qr5kw3suNg" role="3uHU7w" />
+                </node>
+                <node concept="2OqwBi" id="6aVQm8WgrRL" role="3uHU7w">
+                  <node concept="liA8E" id="6aVQm8Wgsjn" role="2OqNvi">
+                    <ref role="37wK5l" to="28m1:~LocalDate.isAfter(java.time.chrono.ChronoLocalDate)" resolve="isAfter" />
+                    <node concept="37vLTw" id="7$hS453Th0V" role="37wK5m">
+                      <ref role="3cqZAo" node="7$hS453Tgms" resolve="otherDate" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="7$hS453T0DK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7$hS453T0DI" resolve="date" />
                   </node>
                 </node>
               </node>

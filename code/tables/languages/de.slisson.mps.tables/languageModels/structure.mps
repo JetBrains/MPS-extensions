@@ -455,6 +455,7 @@
     <property role="TrG5h" value="QueryParameter_Node" />
     <property role="34LRSv" value="node" />
     <property role="EcuMT" value="1397920687866011705" />
+    <property role="R4oN_" value="the node itself" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1dAqnm8u_$D">
@@ -594,6 +595,7 @@
     <property role="TrG5h" value="QueryParameter_ColumnIndex" />
     <property role="34LRSv" value="columnIndex" />
     <property role="EcuMT" value="1397920687867564204" />
+    <property role="R4oN_" value="the index of the column in the grid" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1dAqnm8xRRA">
@@ -617,6 +619,7 @@
     <property role="TrG5h" value="Parameter_Index" />
     <property role="34LRSv" value="index" />
     <property role="EcuMT" value="4032373061957737357" />
+    <property role="R4oN_" value="the currently affected index" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3vPRuXSzOLy">
@@ -630,6 +633,7 @@
     <property role="TrG5h" value="QueryParameter_EditorContext" />
     <property role="34LRSv" value="editorContext" />
     <property role="EcuMT" value="4032373061970539014" />
+    <property role="R4oN_" value="the editor context obtained from the editor component" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="PlHQZ" id="4UkcdCu_Hbr">
@@ -671,6 +675,7 @@
     <property role="TrG5h" value="Parameter_Style" />
     <property role="34LRSv" value="style" />
     <property role="EcuMT" value="5662204344885774100" />
+    <property role="R4oN_" value="the Style instance" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6T7OHMQ7YYK">
@@ -833,13 +838,6 @@
       <property role="TrG5h" value="color" />
       <property role="IQ2nx" value="1186403713874" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BF5v" resolve="_Colors_Enum" />
-      <node concept="3l_iC" id="7WTFIQIcYwQ" role="lGtFl">
-        <node concept="1TJgyi" id="hgVb0di" role="3l_iP">
-          <property role="TrG5h" value="color" />
-          <property role="IQ2nx" value="1186403713874" />
-          <ref role="AX2Wp" to="tpc2:fLwANPl" resolve="_Colors_Enum" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyj" id="3iamoN_th6s" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1014,6 +1012,7 @@
     <property role="TrG5h" value="HeaderStyleQueryParameter_Index" />
     <property role="34LRSv" value="columnIndex" />
     <property role="EcuMT" value="3208761769266637711" />
+    <property role="R4oN_" value="the index of the column in the grid" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="XrIi9v5Lq0">
@@ -1021,6 +1020,7 @@
     <property role="TrG5h" value="QueryParameter_ListIndex" />
     <property role="34LRSv" value="listIndex" />
     <property role="EcuMT" value="1106681690724963968" />
+    <property role="R4oN_" value="the index in the list" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1k7j3NO6TK$">
@@ -1129,6 +1129,7 @@
     <property role="TrG5h" value="QueryParameter_Grid" />
     <property role="34LRSv" value="grid" />
     <property role="EcuMT" value="1450914667648882274" />
+    <property role="R4oN_" value="the ITableGrid instance" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="74JgR$Tqu6Z">
@@ -1205,6 +1206,7 @@
     <property role="TrG5h" value="FilterParameter_element" />
     <property role="34LRSv" value="element" />
     <property role="EcuMT" value="5415748826124224454" />
+    <property role="R4oN_" value="the child element to filter" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3t1pVyvZ48U">

@@ -13,15 +13,13 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
-        <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
-      </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
         <property id="1225118933224" name="comment" index="YLQ7P" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -80,13 +78,6 @@
       <property role="TrG5h" value="separatorLayoutConstraint" />
       <property role="IQ2nx" value="1156252885376" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BF9A" resolve="_Layout_Constraints_Enum" />
-      <node concept="3l_iC" id="17qUVvSZm9b" role="lGtFl">
-        <node concept="1TJgyi" id="gOQ2I60" role="3l_iP">
-          <property role="TrG5h" value="separatorLayoutConstraint" />
-          <property role="IQ2nx" value="1156252885376" />
-          <ref role="AX2Wp" to="tpc2:g$1Qttv" resolve="_Layout_Constraints_Enum" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyi" id="g_$x2vM" role="1TKVEl">
       <property role="TrG5h" value="noTargetText" />
@@ -243,12 +234,14 @@
     <property role="TrG5h" value="Parameter_AnchorNode" />
     <property role="34LRSv" value="anchorNode" />
     <property role="EcuMT" value="5820306262933734929" />
+    <property role="R4oN_" value="the node for which the insert action was invoked (can be null)" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="535SrlQade6">
     <property role="TrG5h" value="Paramter_insertBefore" />
     <property role="34LRSv" value="insertBefore" />
     <property role="EcuMT" value="5820306262933951366" />
+    <property role="R4oN_" value="should the node be inserted before the curent node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="535SrlQaP0B">
@@ -260,12 +253,14 @@
     <property role="TrG5h" value="Parameter_ChildNode" />
     <property role="34LRSv" value="childNode" />
     <property role="EcuMT" value="459067182341460208" />
+    <property role="R4oN_" value="the current child node in the collection" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="puVMIbwgYa">
     <property role="TrG5h" value="Parameter_NodeToDelete" />
     <property role="34LRSv" value="nodeToDelete" />
     <property role="EcuMT" value="459067182341492618" />
+    <property role="R4oN_" value="the node that should be deleted" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="lPJxik6yHd">
@@ -277,6 +272,7 @@
     <property role="TrG5h" value="Parameter_SubstituteInfoFactory" />
     <property role="34LRSv" value="factory" />
     <property role="EcuMT" value="393429538058833026" />
+    <property role="R4oN_" value="a variable to access the SubstituteInfoFactory helper class " />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6hPjX46YnED">
@@ -325,6 +321,7 @@
     <property role="34LRSv" value="queryLinkData" />
     <property role="3GE5qa" value="link" />
     <property role="EcuMT" value="943947710603632321" />
+    <property role="R4oN_" value="information about the queryLink" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6QZo_pQbn1D">
@@ -352,13 +349,6 @@
       <property role="TrG5h" value="separatorLayoutConstraint" />
       <property role="IQ2nx" value="147976780035763509" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BF9A" resolve="_Layout_Constraints_Enum" />
-      <node concept="3l_iC" id="17qUVvSZm9d" role="lGtFl">
-        <node concept="1TJgyi" id="8dI1zL2qOP" role="3l_iP">
-          <property role="TrG5h" value="separatorLayoutConstraint" />
-          <property role="IQ2nx" value="147976780035763509" />
-          <ref role="AX2Wp" to="tpc2:g$1Qttv" resolve="_Layout_Constraints_Enum" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyi" id="8dI1zL2ebE" role="1TKVEl">
       <property role="TrG5h" value="separatorText" />
@@ -478,6 +468,7 @@
     <property role="34LRSv" value="queryData" />
     <property role="3GE5qa" value="linklist" />
     <property role="EcuMT" value="147976780035556419" />
+    <property role="R4oN_" value="information about the queryLinkList" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3IFXLmit$MS">
@@ -506,14 +497,16 @@
     <property role="TrG5h" value="Parameter_QueryPropertyData" />
     <property role="34LRSv" value="queryPropertyData" />
     <property role="EcuMT" value="4299801941278883994" />
+    <property role="R4oN_" value="information about the queryProperty" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1WjrBsNJ4Il">
-    <property role="TrG5h" value="QueryListNodeExpression" />
-    <property role="34LRSv" value="node" />
+    <property role="TrG5h" value="QueryListInputExpression" />
+    <property role="34LRSv" value="queryListInput" />
     <property role="EcuMT" value="2239254897981410197" />
-    <property role="R4oN_" value="the current queried node" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <property role="R4oN_" value="input node of the query list" />
+    <property role="3GE5qa" value="expressions" />
+    <ref role="1TJDcQ" node="4EGFz66rZ5j" resolve="AbstractQueryListInlineEditorExpression" />
   </node>
   <node concept="1TIwiD" id="57wonSM3yKg">
     <property role="EcuMT" value="5899822706488912912" />
@@ -529,13 +522,22 @@
     <property role="TrG5h" value="Parameter_Index" />
     <property role="34LRSv" value="index" />
     <property role="EcuMT" value="4591252177372567226" />
+    <property role="R4oN_" value="the index of the current node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3YRpSuyOe2M">
     <property role="TrG5h" value="QueryListIndexExpression" />
     <property role="EcuMT" value="4591252177377353906" />
-    <property role="R4oN_" value="the index of the current queried node" />
-    <property role="34LRSv" value="index" />
+    <property role="R4oN_" value="index of the current node in the query list" />
+    <property role="34LRSv" value="queryListIndex" />
+    <property role="3GE5qa" value="expressions" />
+    <ref role="1TJDcQ" node="4EGFz66rZ5j" resolve="AbstractQueryListInlineEditorExpression" />
+  </node>
+  <node concept="1TIwiD" id="4EGFz66rZ5j">
+    <property role="EcuMT" value="5380867182533013843" />
+    <property role="TrG5h" value="AbstractQueryListInlineEditorExpression" />
+    <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="expressions" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>

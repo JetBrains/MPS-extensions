@@ -4,6 +4,43 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## March 2025
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: An issue was fixed where edges of sub-diagrams where not correctly displayed when the diagram was first opened
+- *de.itemis.mps.editor.diagram*: Diagram boxes not properly support borders.
+- *com.mbeddr.mpsutil.grammarcells*: Cells with multiple transformation texts (mainly optional cells) now match the pattern independent of the order of the elements.
+- *de.slisson.mps.editor.multiline*: a StringIndexOutOfBoundsException was fixed that happened when trying to delete the last character of the multiline cell
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: Connectable ports are now highlighted in green and non-connectable ports are highlighted in red when you try to create a connection between 2 ports.
+
+### Removed
+
+- *de.slisson.mps.editor.multiline* The feature to insert words with the "*" completion menu entry was removed.
+
+## January 2025
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: An issue was fixed where diagrams with sub-diagrams had ports at the wrong position when the diagram was first opened
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: Some more options of the diagram component like the pan amount and minimum scaling can now be customized in the diagram editor
+
+## December 2024
+
+### Changed
+
+- combine multiple elements without spaces  Reduced from Errors to Warning checks that force policies for all concepts in a language. In this way one can prototype with small set of merge policies. Use Partial police flag in your MergingPolicy to deactivate runtime checks as well.
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: Edges now support custom IDs.
+
 ## November 2024
 
 ### Changed
@@ -50,13 +87,13 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- *com.mbeddr.mpsutil.projectview.runtime*: Fixed several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904]((https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
+- *com.mbeddr.mpsutil.projectview.runtime*: Fixed several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904](https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
 - *de.itemis.mps.editor.diagram*: Some issues related to ELK styles and custom IDs were fixed.
 
 ### Changed
 
 - *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.
-- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less agressively.
+- *com.mbeddr.mpsutil.editor.querylist.runtime*: Query list calls model checks of target nodes less  aggressively.
 
 ## July 2024
 

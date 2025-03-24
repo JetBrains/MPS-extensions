@@ -30,6 +30,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -370,6 +371,7 @@
     <property role="TrG5h" value="Parameter_SubConcept" />
     <property role="34LRSv" value="subconcept" />
     <property role="EcuMT" value="2862331529394480355" />
+    <property role="R4oN_" value="concept of the node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="PlHQZ" id="2uT2PLmXqYk">
@@ -405,6 +407,7 @@
     <property role="TrG5h" value="WrapperCell_Condition_wrappedNode" />
     <property role="34LRSv" value="wrappedNode" />
     <property role="EcuMT" value="1984422498402709328" />
+    <property role="R4oN_" value="the node that the wrapper cells wraps" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1Ia5rYlGwDa">
@@ -446,13 +449,6 @@
       <property role="TrG5h" value="actionId" />
       <property role="IQ2nx" value="1139535298778" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BFaB" resolve="CellActionId" />
-      <node concept="3l_iC" id="7WTFIQIcYwd" role="lGtFl">
-        <node concept="1TJgyi" id="g_hAc3q" role="3l_iP">
-          <property role="TrG5h" value="actionId" />
-          <property role="IQ2nx" value="1139535298778" />
-          <ref role="AX2Wp" to="tpc2:g_hAjpB" resolve="CellActionId" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyj" id="5WBKiSs9$Zt" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -485,6 +481,7 @@
     <property role="TrG5h" value="InlineActionMapItem_Param_node" />
     <property role="34LRSv" value="node" />
     <property role="EcuMT" value="6856661361479784881" />
+    <property role="R4oN_" value="the node of the abstract component" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="77A3HzrGsvf">
@@ -638,6 +635,7 @@
     <property role="TrG5h" value="Parameter_SideTransformActionsBuilderContext" />
     <property role="34LRSv" value="_context" />
     <property role="EcuMT" value="7272510943426093121" />
+    <property role="R4oN_" value="the transformation menu context" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6jH9yJK3qwj">
@@ -645,6 +643,7 @@
     <property role="TrG5h" value="Parameter_OperationContext" />
     <property role="34LRSv" value="operationContext" />
     <property role="EcuMT" value="7272510943426095123" />
+    <property role="R4oN_" value="IOperationContext is deprecated, please don't use this parameter" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6jH9yJK5us3">
@@ -685,6 +684,7 @@
     <property role="TrG5h" value="Parameter_NodeSubstituteActionsFactoryContext" />
     <property role="34LRSv" value="_context" />
     <property role="EcuMT" value="7272510943426635595" />
+    <property role="R4oN_" value="the substitute menu context" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="4eBi5gdn8jm">
@@ -819,6 +819,7 @@
     <property role="TrG5h" value="WrapperCell_SubstituteCondition_expectedConcept" />
     <property role="34LRSv" value="expectedConcept" />
     <property role="EcuMT" value="7408935449007508559" />
+    <property role="R4oN_" value="the expected concept to substitute" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7K_2cV$JzCl">
@@ -899,12 +900,14 @@
     <property role="TrG5h" value="TokenizerFunction_textBeforeCaret" />
     <property role="34LRSv" value="textBeforeCaret" />
     <property role="EcuMT" value="3921456275305508258" />
+    <property role="R4oN_" value="the text before the cursor" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3pFNVizNUTR">
     <property role="TrG5h" value="TokenizerFunction_textAfterCaret" />
     <property role="34LRSv" value="textAfterCaret" />
     <property role="EcuMT" value="3921456275305508471" />
+    <property role="R4oN_" value="the text after the cursor" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1cHKpSoP6tZ">
@@ -936,6 +939,7 @@
     <property role="TrG5h" value="FlagCell_SubstituteCondition_substitutedNode" />
     <property role="34LRSv" value="substitutedNode" />
     <property role="EcuMT" value="484443907672900465" />
+    <property role="R4oN_" value="the node to be substituted" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="20mebiUzEPg">
@@ -970,6 +974,7 @@
     <property role="TrG5h" value="Parameter_wrappedConcept" />
     <property role="34LRSv" value="wrappedConcept" />
     <property role="EcuMT" value="6349233906483558394" />
+    <property role="R4oN_" value="the concept wrapped through the wrapper cell" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1YKLYyyFscL">
@@ -1001,6 +1006,7 @@
     <property role="TrG5h" value="Parameter_editorContext" />
     <property role="34LRSv" value="editorContext" />
     <property role="EcuMT" value="2489050352088028316" />
+    <property role="R4oN_" value="access to the editor context through the editor component" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6uixmKZ2zuG">
@@ -1017,6 +1023,7 @@
     <property role="TrG5h" value="Parameter_OriginalText" />
     <property role="34LRSv" value="originalText" />
     <property role="EcuMT" value="7463174232466930070" />
+    <property role="R4oN_" value="the original description text" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="2c4RKQNz44w">
@@ -1024,12 +1031,14 @@
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="FlagCell_SubstituteCondition_parentNode" />
     <property role="34LRSv" value="parentNode" />
+    <property role="R4oN_" value="the parent node of the substituted node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="2q0cFwEBOkL">
     <property role="EcuMT" value="2774273137030677809" />
     <property role="TrG5h" value="Parameter_smartReferent" />
     <property role="34LRSv" value="smartReferent" />
+    <property role="R4oN_" value="the concept of the smart referent" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
     <node concept="1TJgyj" id="2q0cFwF9Zg$" role="1TKVEi">
       <property role="IQ2ns" value="2774273137039635492" />
@@ -1041,6 +1050,7 @@
     <property role="EcuMT" value="904978958140335648" />
     <property role="TrG5h" value="Parameter_parentNode" />
     <property role="34LRSv" value="parentNode" />
+    <property role="R4oN_" value="the parent of the current node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1_3xoKEN8C6">
@@ -1138,6 +1148,7 @@
     <property role="EcuMT" value="7416540197334827182" />
     <property role="TrG5h" value="LowLevelMenuPart_parameter" />
     <property role="34LRSv" value="ctx" />
+    <property role="R4oN_" value="the transformation menu context" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1ISNm4ViY99">
@@ -1204,6 +1215,7 @@
     <property role="TrG5h" value="WrapperCell_Condition_wrappedConcept" />
     <property role="34LRSv" value="wrappedConcept" />
     <property role="EcuMT" value="2293941288997642241" />
+    <property role="R4oN_" value="the concept that the wrapper cells wraps" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>

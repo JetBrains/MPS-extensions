@@ -3,9 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
-    <use id="17566462-d837-4552-874c-64e45c10778a" name="com.mbeddr.mpsutil.compare.pattern" version="-1" />
+    <use id="17566462-d837-4552-874c-64e45c10778a" name="de.itemis.mps.compare.pattern" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
-    <use id="36590f48-d68b-4c16-bfba-c769260bbac0" name="com.mbeddr.mpsutil.compare.pattern.baselang" version="-1" />
+    <use id="36590f48-d68b-4c16-bfba-c769260bbac0" name="de.itemis.mps.compare.pattern.baselang" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
@@ -183,40 +183,40 @@
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
-    <language id="17566462-d837-4552-874c-64e45c10778a" name="com.mbeddr.mpsutil.compare.pattern">
-      <concept id="665537614208925411" name="com.mbeddr.mpsutil.compare.pattern.structure.MemberAnnotation" flags="ng" index="uEgwc" />
-      <concept id="3935692745220220029" name="com.mbeddr.mpsutil.compare.pattern.structure.GetConceptOperation" flags="ng" index="xs8ve" />
-      <concept id="3560698633098300404" name="com.mbeddr.mpsutil.compare.pattern.structure.IInitPart" flags="ngI" index="2FoiXY">
+    <language id="17566462-d837-4552-874c-64e45c10778a" name="de.itemis.mps.compare.pattern">
+      <concept id="665537614208925411" name="de.itemis.mps.compare.pattern.structure.MemberAnnotation" flags="ng" index="uEgwc" />
+      <concept id="3935692745220220029" name="de.itemis.mps.compare.pattern.structure.GetConceptOperation" flags="ng" index="xs8ve" />
+      <concept id="3560698633098300404" name="de.itemis.mps.compare.pattern.structure.IInitPart" flags="ngI" index="2FoiXY">
         <child id="5455284157993911094" name="expression" index="2pJxcZ" />
         <child id="665537614208925694" name="annotation" index="uEg$h" />
       </concept>
-      <concept id="3560698633098301854" name="com.mbeddr.mpsutil.compare.pattern.structure.ParentMember" flags="ng" index="2Fojkk" />
-      <concept id="3560698633098301852" name="com.mbeddr.mpsutil.compare.pattern.structure.TypeMember" flags="ng" index="2Fojkm" />
-      <concept id="3560698633098314023" name="com.mbeddr.mpsutil.compare.pattern.structure.Pattern" flags="ng" index="2FommH">
+      <concept id="3560698633098301854" name="de.itemis.mps.compare.pattern.structure.ParentMember" flags="ng" index="2Fojkk" />
+      <concept id="3560698633098301852" name="de.itemis.mps.compare.pattern.structure.TypeMember" flags="ng" index="2Fojkm" />
+      <concept id="3560698633098314023" name="de.itemis.mps.compare.pattern.structure.Pattern" flags="ng" index="2FommH">
         <child id="5455284157993863838" name="builderNode" index="2pJPEn" />
       </concept>
-      <concept id="3560698633098558194" name="com.mbeddr.mpsutil.compare.pattern.structure.LinkMember" flags="ng" index="2FpdTS">
+      <concept id="3560698633098558194" name="de.itemis.mps.compare.pattern.structure.LinkMember" flags="ng" index="2FpdTS">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
       </concept>
-      <concept id="3560698633098558199" name="com.mbeddr.mpsutil.compare.pattern.structure.PropertyMember" flags="ng" index="2FpdTX">
+      <concept id="3560698633098558199" name="de.itemis.mps.compare.pattern.structure.PropertyMember" flags="ng" index="2FpdTX">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
       </concept>
-      <concept id="3560698633098601006" name="com.mbeddr.mpsutil.compare.pattern.structure.PatternBuilderNode" flags="ng" index="2Fpoq$">
+      <concept id="3560698633098601006" name="de.itemis.mps.compare.pattern.structure.PatternBuilderNode" flags="ng" index="2Fpoq$">
         <property id="6279983981656118839" name="exact" index="32TQCv" />
         <reference id="91081616816648150" name="concept" index="1QFNBD" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
       </concept>
-      <concept id="5017685253022109676" name="com.mbeddr.mpsutil.compare.pattern.structure.NotNullLiteral" flags="ng" index="1oIMBb" />
-      <concept id="5017685253022109672" name="com.mbeddr.mpsutil.compare.pattern.structure.NullLiteral" flags="ng" index="1oIMBf" />
-      <concept id="579990121611203729" name="com.mbeddr.mpsutil.compare.pattern.structure.NegationAttribute" flags="ng" index="1rOTPw" />
-      <concept id="91081616816033662" name="com.mbeddr.mpsutil.compare.pattern.structure.PatternBuilderList" flags="ng" index="1QCd_1">
+      <concept id="5017685253022109676" name="de.itemis.mps.compare.pattern.structure.NotNullLiteral" flags="ng" index="1oIMBb" />
+      <concept id="5017685253022109672" name="de.itemis.mps.compare.pattern.structure.NullLiteral" flags="ng" index="1oIMBf" />
+      <concept id="579990121611203729" name="de.itemis.mps.compare.pattern.structure.NegationAttribute" flags="ng" index="1rOTPw" />
+      <concept id="91081616816033662" name="de.itemis.mps.compare.pattern.structure.PatternBuilderList" flags="ng" index="1QCd_1">
         <property id="5058472606515323932" name="kind" index="2BkaCk" />
         <child id="8182547171709738803" name="nodes" index="36be1Z" />
       </concept>
-      <concept id="91081616816046016" name="com.mbeddr.mpsutil.compare.pattern.structure.PatternRefExpression" flags="ng" index="1QCeBZ">
+      <concept id="91081616816046016" name="de.itemis.mps.compare.pattern.structure.PatternRefExpression" flags="ng" index="1QCeBZ">
         <child id="91081616816046017" name="expression" index="1QCeBY" />
       </concept>
-      <concept id="91081616816150757" name="com.mbeddr.mpsutil.compare.pattern.structure.PatternType" flags="ig" index="1QDCVq">
+      <concept id="91081616816150757" name="de.itemis.mps.compare.pattern.structure.PatternType" flags="ig" index="1QDCVq">
         <reference id="91081616816150758" name="concept" index="1QDCVp" />
       </concept>
     </language>
@@ -293,26 +293,26 @@
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
     </language>
-    <language id="36590f48-d68b-4c16-bfba-c769260bbac0" name="com.mbeddr.mpsutil.compare.pattern.baselang">
-      <concept id="665537614209771411" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.PatternHint" flags="ng" index="uBx5W">
+    <language id="36590f48-d68b-4c16-bfba-c769260bbac0" name="de.itemis.mps.compare.pattern.baselang">
+      <concept id="665537614209771411" name="de.itemis.mps.compare.pattern.baselang.structure.PatternHint" flags="ng" index="uBx5W">
         <reference id="665537614209771460" name="pattern" index="uBx4F" />
         <child id="665537614210671828" name="expression" index="uz58V" />
       </concept>
-      <concept id="665537614208854349" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.MatchResultType" flags="ig" index="uE1Yy">
+      <concept id="665537614208854349" name="de.itemis.mps.compare.pattern.baselang.structure.MatchResultType" flags="ig" index="uE1Yy">
         <reference id="665537614209425697" name="pattern" index="uClve" />
       </concept>
-      <concept id="665537614208925379" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.NamedGetTarget" flags="ng" index="uEgwG" />
-      <concept id="665537614208925361" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.GetOperation" flags="ng" index="uEgxu">
+      <concept id="665537614208925379" name="de.itemis.mps.compare.pattern.baselang.structure.NamedGetTarget" flags="ng" index="uEgwG" />
+      <concept id="665537614208925361" name="de.itemis.mps.compare.pattern.baselang.structure.GetOperation" flags="ng" index="uEgxu">
         <child id="665537614209029384" name="target" index="uEQfB" />
       </concept>
-      <concept id="665537614208899015" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.IsMatchOperation" flags="ng" index="uEm4C" />
-      <concept id="665537614209060996" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.AnnotationTarget" flags="ng" index="uEYpF">
+      <concept id="665537614208899015" name="de.itemis.mps.compare.pattern.baselang.structure.IsMatchOperation" flags="ng" index="uEm4C" />
+      <concept id="665537614209060996" name="de.itemis.mps.compare.pattern.baselang.structure.AnnotationTarget" flags="ng" index="uEYpF">
         <reference id="665537614209061000" name="annotation" index="uEYpB" />
       </concept>
-      <concept id="1760230020812819719" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.MatchOperation" flags="ng" index="2xUPFB">
+      <concept id="1760230020812819719" name="de.itemis.mps.compare.pattern.baselang.structure.MatchOperation" flags="ng" index="2xUPFB">
         <child id="1760230020812819720" name="expression" index="2xUPFC" />
       </concept>
-      <concept id="6627678268389763089" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.InitPartAccessorOperation" flags="ng" index="1N29pk">
+      <concept id="6627678268389763089" name="de.itemis.mps.compare.pattern.baselang.structure.InitPartAccessorOperation" flags="ng" index="1N29pk">
         <reference id="6627678268389764993" name="part" index="1N2974" />
       </concept>
     </language>

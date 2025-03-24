@@ -25,17 +25,17 @@
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/test.de.itemis.mps.editor.celllayout.runtime/test.de.itemis.mps.editor.celllayout.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog.sandbox/de.itemis.mps.changelog.sandbox.msd" folder="changelog" />
       <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog/de.itemis.mps.changelog.mpl" folder="changelog" />
-      <modulePath path="$PROJECT_DIR$/compare/languages/com.mbeddr.mpsutil.compare.pattern.baselang/com.mbeddr.mpsutil.compare.pattern.baselang.mpl" folder="compare" />
-      <modulePath path="$PROJECT_DIR$/compare/languages/com.mbeddr.mpsutil.compare.pattern.generator/com.mbeddr.mpsutil.compare.pattern.generator.mpl" folder="compare" />
-      <modulePath path="$PROJECT_DIR$/compare/languages/com.mbeddr.mpsutil.compare.pattern/com.mbeddr.mpsutil.compare.pattern.mpl" folder="compare" />
-      <modulePath path="$PROJECT_DIR$/compare/languages/com.mbeddr.mpsutil.compare/compare.mpl" folder="compare" />
-      <modulePath path="$PROJECT_DIR$/compare/languages/test.com.mbeddr.mpsutil.compare.testlang/test.com.mbeddr.mpsutil.compare.testlang.mpl" folder="compare.tests" />
-      <modulePath path="$PROJECT_DIR$/compare/solutions/com.mbeddr.mpsutil.comparator.diff.demo.tests/com.mbeddr.mpsutil.comparator.diff.demo.tests.msd" folder="compare.demo" />
-      <modulePath path="$PROJECT_DIR$/compare/solutions/com.mbeddr.mpsutil.comparator/comparator.msd" folder="compare" />
-      <modulePath path="$PROJECT_DIR$/compare/solutions/com.mbeddr.mpsutil.compare.pattern.generator.runtime/com.mbeddr.mpsutil.compare.pattern.generator.runtime.msd" folder="compare" />
-      <modulePath path="$PROJECT_DIR$/compare/solutions/com.mbeddr.mpsutil.compare.pattern.runtime/com.mbeddr.mpsutil.compare.pattern.runtime.msd" folder="compare" />
-      <modulePath path="$PROJECT_DIR$/compare/solutions/com.mbeddr.mpsutil.compare.pattern.test/com.mbeddr.mpsutil.compare.pattern.test.msd" folder="compare.tests" />
-      <modulePath path="$PROJECT_DIR$/compare/solutions/test.com.mbeddr.mpsutil.compare/test.com.mbeddr.mpsutil.compare.msd" folder="compare.tests" />
+      <modulePath path="$PROJECT_DIR$/compare/languages/de.itemis.mps.compare.pattern.baselang/de.itemis.mps.compare.pattern.baselang.mpl" folder="compare" />
+      <modulePath path="$PROJECT_DIR$/compare/languages/de.itemis.mps.compare.pattern.generator/de.itemis.mps.compare.pattern.generator.mpl" folder="compare" />
+      <modulePath path="$PROJECT_DIR$/compare/languages/de.itemis.mps.compare.pattern/de.itemis.mps.compare.pattern.mpl" folder="compare" />
+      <modulePath path="$PROJECT_DIR$/compare/languages/de.itemis.mps.compare/compare.mpl" folder="compare" />
+      <modulePath path="$PROJECT_DIR$/compare/languages/test.de.itemis.mps.compare.testlang/test.de.itemis.mps.compare.testlang.mpl" folder="compare.tests" />
+      <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.comparator.diff.demo.tests/de.itemis.mps.comparator.diff.demo.tests.msd" folder="compare.demo" />
+      <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.comparator/comparator.msd" folder="compare" />
+      <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.generator.runtime/de.itemis.mps.compare.pattern.generator.runtime.msd" folder="compare" />
+      <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.runtime/de.itemis.mps.compare.pattern.runtime.msd" folder="compare" />
+      <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.test/de.itemis.mps.compare.pattern.test.msd" folder="compare.tests" />
+      <modulePath path="$PROJECT_DIR$/compare/solutions/test.de.itemis.mps.compare/test.de.itemis.mps.compare.msd" folder="compare.tests" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/de.slisson.mps.conditionalEditor.demolang.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.hints/de.slisson.mps.conditionalEditor.hints.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor/de.slisson.mps.conditionalEditor.mpl" folder="conditional-editor" />

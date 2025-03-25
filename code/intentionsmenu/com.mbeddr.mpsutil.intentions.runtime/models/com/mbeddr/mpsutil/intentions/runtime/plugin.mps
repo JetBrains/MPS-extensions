@@ -15,6 +15,9 @@
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
+      <concept id="8473566765275063380" name="de.slisson.mps.reflection.structure.ReflectionFieldAccess" flags="ng" index="1PnCL0">
+        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
+      </concept>
       <concept id="8473566765277240526" name="de.slisson.mps.reflection.structure.ReflectionMethodCall" flags="ng" index="1PvZjq" />
     </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -152,6 +155,27 @@
                     <node concept="3clFbS" id="3pwG8PSjTLP" role="3clF47">
                       <node concept="3clFbJ" id="6E9H6NYX$7F" role="3cqZAp">
                         <node concept="3clFbS" id="6E9H6NYX$7H" role="3clFbx">
+                          <node concept="3clFbF" id="3DQAigeSu2Z" role="3cqZAp">
+                            <node concept="37vLTI" id="3DQAigeS$d5" role="3clFbG">
+                              <node concept="2ShNRf" id="3DQAigeS$me" role="37vLTx">
+                                <node concept="1pGfFk" id="3DQAigeS$DH" role="2ShVmc">
+                                  <property role="373rjd" value="true" />
+                                  <ref role="37wK5l" to="ih8q:4hHbxs9xq$1" resolve="MyIntentionsSupport" />
+                                  <node concept="37vLTw" id="3DQAigeS$M9" role="37wK5m">
+                                    <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="2OqwBi" id="3DQAigeSvJx" role="37vLTJ">
+                                <node concept="37vLTw" id="3DQAigeSu2X" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                                </node>
+                                <node concept="1PnCL0" id="3DQAigeSxWl" role="2OqNvi">
+                                  <ref role="2Oxat5" to="exr9:~EditorComponent.myIntentionsSupport" resolve="myIntentionsSupport" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
                           <node concept="3clFbF" id="2jDew64H8Xv" role="3cqZAp">
                             <node concept="2OqwBi" id="2jDew64HaXY" role="3clFbG">
                               <node concept="37vLTw" id="2jDew64H8Xt" role="2Oq$k0">

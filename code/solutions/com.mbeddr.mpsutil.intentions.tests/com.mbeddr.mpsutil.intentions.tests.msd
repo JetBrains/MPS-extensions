@@ -9,6 +9,7 @@
     <facet compile="mps" classes="mps" ext="no" type="java">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
+    <facet type="tests" />
   </facets>
   <dependencies>
     <dependency reexport="false">4972ae94-72e7-499b-8766-0d6acffdb4f2(com.mbeddr.mpsutil.intentions.sandboxlang)</dependency>

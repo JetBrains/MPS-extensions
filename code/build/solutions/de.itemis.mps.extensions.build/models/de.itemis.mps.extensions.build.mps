@@ -23781,6 +23781,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="LlzPqMOM6f" role="3bR31x">
+          <node concept="3LXTmp" id="LlzPqMOM6g" role="3rtmxm">
+            <node concept="3qWCbU" id="LlzPqMOM6h" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="LlzPqMOM6i" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="LlzPqMOM6j" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="LlzPqMOM6k" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions.tests" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="77YfcvOSSnB" role="3989C9">

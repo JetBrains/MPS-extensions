@@ -3185,7 +3185,7 @@
       <node concept="3uibUv" id="4hHbxs9xqLU" role="1tU5fm">
         <ref role="3uigEE" to="i5cy:~AtomicReference" resolve="AtomicReference" />
         <node concept="3uibUv" id="4hHbxs9xqLV" role="11_B2D">
-          <ref role="3uigEE" node="4hHbxs9xqXT" resolve="IntentionsThread" />
+          <ref role="3uigEE" node="4hHbxs9xqXT" resolve="MyIntentionsSupport.MyIntentionsThread" />
         </node>
       </node>
       <node concept="2ShNRf" id="4hHbxs9xqOL" role="33vP2m">
@@ -3784,15 +3784,15 @@
             <property role="3TUv4t" value="true" />
             <property role="TrG5h" value="disposeListener" />
             <node concept="3uibUv" id="3DQAigeNDxE" role="1tU5fm">
-              <ref role="3uigEE" to="exr9:~EditorComponent$EditorDisposeListener" resolve="EditorDisposeListener" />
+              <ref role="3uigEE" to="exr9:~EditorComponent$EditorDisposeListener" resolve="EditorComponent.EditorDisposeListener" />
             </node>
             <node concept="2ShNRf" id="3DQAigeNGCg" role="33vP2m">
               <node concept="YeOm9" id="3DQAigeNPvy" role="2ShVmc">
                 <node concept="1Y3b0j" id="3DQAigeNPv_" role="YeSDq">
                   <property role="2bfB8j" value="true" />
                   <property role="373rjd" value="true" />
-                  <ref role="1Y3XeK" to="exr9:~EditorComponent$EditorDisposeListener" resolve="EditorDisposeListener" />
-                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                  <ref role="1Y3XeK" to="exr9:~EditorComponent$EditorDisposeListener" resolve="EditorComponent.EditorDisposeListener" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                   <node concept="3Tm1VV" id="3DQAigeNPvA" role="1B3o_S" />
                   <node concept="3clFb_" id="3DQAigeNPvQ" role="jymVt">
                     <property role="TrG5h" value="editorWillBeDisposed" />
@@ -3857,7 +3857,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="3DQAigeNPvZ" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                 </node>
@@ -4252,7 +4252,7 @@
                               <node concept="22lmx$" id="4hHbxs9xV8B" role="3clFbw">
                                 <node concept="22lmx$" id="4hHbxs9xV8C" role="3uHU7B">
                                   <node concept="1rXfSq" id="3DQAigePpKt" role="3uHU7w">
-                                    <ref role="37wK5l" node="3DQAigePfof" resolve="areIntentionsSupported" />
+                                    <ref role="37wK5l" node="3DQAigePfof" resolve="areIntentionsNotSupported" />
                                   </node>
                                   <node concept="2OqwBi" id="4hHbxs9A2Nj" role="3uHU7B">
                                     <node concept="1rXfSq" id="4hHbxs9A2Nk" role="2Oq$k0">
@@ -4414,14 +4414,14 @@
       <node concept="37vLTG" id="4hHbxs9xM34" role="3clF46">
         <property role="TrG5h" value="thread" />
         <node concept="3uibUv" id="4hHbxs9xM35" role="1tU5fm">
-          <ref role="3uigEE" node="4hHbxs9xqXT" resolve="IntentionsThread" />
+          <ref role="3uigEE" node="4hHbxs9xqXT" resolve="MyIntentionsSupport.MyIntentionsThread" />
         </node>
       </node>
       <node concept="3clFbS" id="4hHbxs9xM36" role="3clF47">
         <node concept="3clFbF" id="4hHbxs9xM37" role="3cqZAp">
           <node concept="2OqwBi" id="4hHbxs9xNMs" role="3clFbG">
             <node concept="37vLTw" id="4hHbxs9xMs4" role="2Oq$k0">
-              <ref role="3cqZAo" node="4hHbxs9xqLS" resolve="myShowIntentionsThread" />
+              <ref role="3cqZAo" node="4hHbxs9xqLS" resolve="myShowIntentionsThreadOverwritten" />
             </node>
             <node concept="liA8E" id="4hHbxs9xNMt" role="2OqNvi">
               <ref role="37wK5l" to="i5cy:~AtomicReference.compareAndSet(java.lang.Object,java.lang.Object)" resolve="compareAndSet" />
@@ -4484,7 +4484,7 @@
               <ref role="37wK5l" to="i5cy:~AtomicReference.set(java.lang.Object)" resolve="set" />
               <node concept="2ShNRf" id="4hHbxs9Aq3K" role="37wK5m">
                 <node concept="1pGfFk" id="4hHbxs9Aq3L" role="2ShVmc">
-                  <ref role="37wK5l" node="4hHbxs9xqY0" resolve="MyIntentionsThread" />
+                  <ref role="37wK5l" node="4hHbxs9xqY0" resolve="MyIntentionsSupport.MyIntentionsThread" />
                 </node>
               </node>
             </node>
@@ -4517,7 +4517,7 @@
           <node concept="3cpWsn" id="3DQAigeOL4H" role="3cpWs9">
             <property role="TrG5h" value="thread" />
             <node concept="3uibUv" id="3DQAigeOL4J" role="1tU5fm">
-              <ref role="3uigEE" node="4hHbxs9xqXT" resolve="IntentionsThread" />
+              <ref role="3uigEE" node="4hHbxs9xqXT" resolve="MyIntentionsSupport.MyIntentionsThread" />
             </node>
             <node concept="2OqwBi" id="3DQAigeOR_N" role="33vP2m">
               <node concept="37vLTw" id="3DQAigeOMnC" role="2Oq$k0">

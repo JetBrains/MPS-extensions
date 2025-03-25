@@ -16,6 +16,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Added
 
 - *de.itemis.mps.editor.diagram*: Connectable ports are now highlighted in green and non-connectable ports are highlighted in red when you try to create a connection between 2 ports.
+- @module: Moved compare and comparetor language and solutions from embeddr to mps-extension.
 
 ### Removed
 

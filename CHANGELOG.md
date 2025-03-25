@@ -8,6 +8,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
+- *com.mbeddr.mpsutil.intentions.runtime*: An issue was fixed where the intentions menu was no longer available on read only editor cells
 - *de.itemis.mps.editor.diagram*: An issue was fixed where edges of sub-diagrams where not correctly displayed when the diagram was first opened
 - *de.itemis.mps.editor.diagram*: Diagram boxes not properly support borders.
 - *com.mbeddr.mpsutil.grammarcells*: Cells with multiple transformation texts (mainly optional cells) now match the pattern independent of the order of the elements.

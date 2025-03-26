@@ -20,6 +20,9 @@
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
+      <concept id="8473566765275063380" name="de.slisson.mps.reflection.structure.ReflectionFieldAccess" flags="ng" index="1PnCL0">
+        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
+      </concept>
       <concept id="8473566765277240526" name="de.slisson.mps.reflection.structure.ReflectionMethodCall" flags="ng" index="1PvZjq" />
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -34,6 +37,10 @@
       <concept id="3418954410726344423" name="jetbrains.mps.lang.plugin.standalone.structure.PlatformAccessExpression" flags="ng" index="XUXob" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
@@ -74,6 +81,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -234,6 +242,27 @@
                 </node>
                 <node concept="3clFbJ" id="1BWCx_niwYq" role="3cqZAp">
                   <node concept="3clFbS" id="1BWCx_niwYr" role="3clFbx">
+                    <node concept="3clFbF" id="3DQAigeSu2Z" role="3cqZAp">
+                      <node concept="37vLTI" id="3DQAigeS$d5" role="3clFbG">
+                        <node concept="2ShNRf" id="3DQAigeS$me" role="37vLTx">
+                          <node concept="1pGfFk" id="3DQAigeS$DH" role="2ShVmc">
+                            <property role="373rjd" value="true" />
+                            <ref role="37wK5l" to="ih8q:4hHbxs9xq$1" resolve="IntentionsSupport" />
+                            <node concept="37vLTw" id="3DQAigeS$M9" role="37wK5m">
+                              <ref role="3cqZAo" node="1BWCx_njhVL" resolve="nodeEditorComponent" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="3DQAigeSvJx" role="37vLTJ">
+                          <node concept="37vLTw" id="3DQAigeSu2X" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1BWCx_njhVL" resolve="nodeEditorComponent" />
+                          </node>
+                          <node concept="1PnCL0" id="3DQAigeSxWl" role="2OqNvi">
+                            <ref role="2Oxat5" to="exr9:~EditorComponent.myIntentionsSupport" resolve="myIntentionsSupport" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                     <node concept="3clFbF" id="1BWCx_niwYs" role="3cqZAp">
                       <node concept="2OqwBi" id="1BWCx_niwYt" role="3clFbG">
                         <node concept="37vLTw" id="1BWCx_niwYu" role="2Oq$k0">

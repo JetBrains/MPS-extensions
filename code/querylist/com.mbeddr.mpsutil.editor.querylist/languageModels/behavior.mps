@@ -1503,7 +1503,8 @@
     </node>
   </node>
   <node concept="13h7C7" id="1WjrBsNJ6aV">
-    <ref role="13h7C2" to="bbp5:1WjrBsNJ4Il" resolve="QueryListNodeExpression" />
+    <property role="3GE5qa" value="expressions" />
+    <ref role="13h7C2" to="bbp5:1WjrBsNJ4Il" resolve="QueryListInputExpression" />
     <node concept="13hLZK" id="1WjrBsNJ6aW" role="13h7CW">
       <node concept="3clFbS" id="1WjrBsNJ6aX" role="2VODD2" />
     </node>
@@ -1518,12 +1519,8 @@
               <node concept="2OqwBi" id="1WjrBsNJ5tz" role="2Oq$k0">
                 <node concept="2OqwBi" id="1WjrBsNJ5t$" role="2Oq$k0">
                   <node concept="13iPFW" id="1WjrBsNJ6dK" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="1WjrBsNJ5tA" role="2OqNvi">
-                    <node concept="1xMEDy" id="1WjrBsNJ5tB" role="1xVPHs">
-                      <node concept="chp4Y" id="1WjrBsNJ5tC" role="ri$Ld">
-                        <ref role="cht4Q" to="bbp5:5oklODadopi" resolve="CellModel_QueryList" />
-                      </node>
-                    </node>
+                  <node concept="2qgKlT" id="4EGFz671u8k" role="2OqNvi">
+                    <ref role="37wK5l" node="4EGFz671r3O" resolve="getOwningQueryList" />
                   </node>
                 </node>
                 <node concept="2Xjw5R" id="1WjrBsNJ5tD" role="2OqNvi">
@@ -1565,6 +1562,42 @@
     </node>
     <node concept="13hLZK" id="3YRpSuyxXtQ" role="13h7CW">
       <node concept="3clFbS" id="3YRpSuyxXtR" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="4EGFz671r3x">
+    <property role="3GE5qa" value="expressions" />
+    <ref role="13h7C2" to="bbp5:4EGFz66rZ5j" resolve="AbstractQueryListInlineEditorExpression" />
+    <node concept="13i0hz" id="4EGFz671r3O" role="13h7CS">
+      <property role="TrG5h" value="getOwningQueryList" />
+      <node concept="3Tm1VV" id="4EGFz671r3P" role="1B3o_S" />
+      <node concept="3Tqbb2" id="4EGFz671r48" role="3clF45">
+        <ref role="ehGHo" to="bbp5:5oklODadopi" resolve="CellModel_QueryList" />
+      </node>
+      <node concept="3clFbS" id="4EGFz671r3R" role="3clF47">
+        <node concept="3clFbF" id="4EGFz671r6b" role="3cqZAp">
+          <node concept="1PxgMI" id="4EGFz671tjV" role="3clFbG">
+            <node concept="chp4Y" id="4EGFz671tm4" role="3oSUPX">
+              <ref role="cht4Q" to="bbp5:5oklODadopi" resolve="CellModel_QueryList" />
+            </node>
+            <node concept="2OqwBi" id="4EGFz671s99" role="1m5AlR">
+              <node concept="2OqwBi" id="4EGFz671rjk" role="2Oq$k0">
+                <node concept="13iPFW" id="4EGFz671r6a" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="4EGFz671rMJ" role="2OqNvi">
+                  <node concept="1xMEDy" id="4EGFz671rML" role="1xVPHs">
+                    <node concept="chp4Y" id="4EGFz671rQ1" role="ri$Ld">
+                      <ref role="cht4Q" to="bbp5:6hPjX46YnED" resolve="QueryListInlineEditorComponent" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1mfA1w" id="4EGFz671t2z" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="4EGFz671r3y" role="13h7CW">
+      <node concept="3clFbS" id="4EGFz671r3z" role="2VODD2" />
     </node>
   </node>
 </model>

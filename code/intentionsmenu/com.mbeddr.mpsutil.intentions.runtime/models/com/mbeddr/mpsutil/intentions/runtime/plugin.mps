@@ -247,7 +247,7 @@
                         <node concept="2ShNRf" id="3DQAigeS$me" role="37vLTx">
                           <node concept="1pGfFk" id="3DQAigeS$DH" role="2ShVmc">
                             <property role="373rjd" value="true" />
-                            <ref role="37wK5l" to="ih8q:4hHbxs9xq$1" resolve="IntentionsSupport" />
+                            <ref role="37wK5l" to="ih8q:4hHbxs9xq$1" resolve="MyIntentionsSupport" />
                             <node concept="37vLTw" id="3DQAigeS$M9" role="37wK5m">
                               <ref role="3cqZAo" node="1BWCx_njhVL" resolve="nodeEditorComponent" />
                             </node>

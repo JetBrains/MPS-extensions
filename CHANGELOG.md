@@ -6,6 +6,11 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## April 2025
 
+### Changed
+
+- *de.itemis.mps.editor.diagram* : The version of the ELK layouter was changed to 0.10.0
+
+
 ### Added
 
 - *de.itemis.mps.editor.diagram*: Debug information can be accessed by adding  *de.itemis.mps.editor.diagram.runtime.jgraph* to Help->Diagnostic Tools->Debug Log Settings. The general log file will then contain a message that points to the log file: "A debug log for the diagram language is available at x". In the same folder are also debug files from the ELK layouter itself.

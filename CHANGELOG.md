@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## April 2025
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: Debug information can be accessed by adding  *de.itemis.mps.editor.diagram.runtime.jgraph* to Help->Diagnostic Tools->Debug Log Settings. The general log file will then contain a message that points to the log file: "A debug log for the diagram language is available at x". In the same folder are also debug files from the ELK layouter itself.
+
 ## March 2025
 
 ### Fixed

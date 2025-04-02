@@ -4,6 +4,7 @@ plugins {
     id 'maven-publish'
     id 'base'
     id 'de.itemis.mps.gradle.launcher' version '2.5.2.+'
+    id 'org.cyclonedx.bom' version '2.2.0'
 }
 
 import de.itemis.mps.gradle.*
@@ -88,6 +89,7 @@ ext.releaseRepository = 'https://artifacts.itemis.cloud/repository/maven-mps-rel
 ext.snapshotRepository = 'https://artifacts.itemis.cloud/repository/maven-mps-snapshots/'
 ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRepository : releaseRepository
 
+group = 'de.itemis.mps'
 
 configurations {
     mps
@@ -183,7 +185,10 @@ configurations {
 dependencies {
     ant_lib "org.apache.ant:ant-junit:1.10.15"
 
-    def elkVersion = "0.9.1"
+    def elkVersion = "0.10.0"
+
+    diagram_lib("de.itemis.mps:jgraphx:1.0.0")
+
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion")
@@ -211,7 +216,7 @@ ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
 })
 
 def artifactsDir = new File(rootDir, 'artifacts')
-
+def reportsDir = new File("$buildDir/reports")
 
 ext.mps_home = '-Dmps.home=' + mpsHomeDir.getAbsolutePath()
 ext.build_dir = '-Dbuild.dir=' + file(rootProject.projectDir.absolutePath).getAbsolutePath()
@@ -401,16 +406,29 @@ task packageAllScripts(type: Zip, dependsOn: run_tests) {
     include 'de.itemis.mps.extensions.allScripts/**'
 }
 
-task packageExtensions(type: Zip, dependsOn: run_tests) {
+task packageExtensions(type: Zip, dependsOn: [run_tests, cyclonedxBom]) {
     archiveBaseName = 'de.itemis.mps.extensions'
-    from artifactsDir
-    include 'de.itemis.mps.extensions/**'
-    //remove workaround which is required for mbeddr.platform build
-    exclude 'de.itemis.mps.extensions/MPS.ThirdParty.jar'
+    from(artifactsDir) {
+        include 'de.itemis.mps.extensions/**'
+        //remove workaround which is required for mbeddr.platform build
+        exclude 'de.itemis.mps.extensions/MPS.ThirdParty.jar'
+    }
+    from(reportsDir) {
+        include 'sbom.json'
+    }
 }
 
 task cleanMps(type: Delete) {
     delete fileTree(dir: projectDir, include: ["**/classes_gen/**", "**/source_gen/**", "**/source_gen.caches/**", "tmp/**", "artifacts/**"])
+}
+
+cyclonedxBom {
+    destination = reportsDir
+    outputName = "sbom"
+    outputFormat = "json"
+    includeLicenseText = false
+    schemaVersion = "1.5"
+    includeConfigs = ["diagram_lib","batik","xml_lib"]
 }
 
 clean.dependsOn cleanMps
@@ -465,16 +483,20 @@ publishing {
             groupId 'de.itemis.mps'
             artifactId 'extensions'
             artifact packageExtensions
-            //Pom.withProvidedDep pom, configurations.mps
+
             pom.withXml {
                 def dependenciesNode = asNode().appendNode('dependencies')
-                configurations.mps.resolvedConfiguration.firstLevelModuleDependencies.each {
-                    def dependencyNode = dependenciesNode.appendNode('dependency')
-                    dependencyNode.appendNode('groupId', it.moduleGroup)
-                    dependencyNode.appendNode('artifactId', it.moduleName)
-                    dependencyNode.appendNode('version', it.moduleVersion)
-                    dependencyNode.appendNode('type', it.moduleArtifacts[0].type)
-                    dependencyNode.appendNode('scope', 'provided')
+                def languageLibs = ['diagram_lib','batik','xml_lib','mps']
+                languageLibs.each { configName ->
+                    def configuration = configurations.findByName(configName)
+                    configuration.resolvedConfiguration.firstLevelModuleDependencies.each {
+                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                        dependencyNode.appendNode('groupId', it.moduleGroup)
+                        dependencyNode.appendNode('artifactId', it.moduleName)
+                        dependencyNode.appendNode('version', it.moduleVersion)
+                        dependencyNode.appendNode('type', it.moduleArtifacts[0].type)
+                        dependencyNode.appendNode('scope', 'provided')
+                    }
                 }
             }
             pom additionalPomInfo

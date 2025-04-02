@@ -182,7 +182,7 @@ configurations {
 dependencies {
     ant_lib "org.apache.ant:ant-junit:1.10.14"
 
-    def elkVersion = "0.9.1"
+    def elkVersion = "0.10.0"
 
     diagram_lib("de.itemis.mps:jgraphx:1.0.0")
 

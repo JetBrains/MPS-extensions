@@ -6,6 +6,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
   </languages>
   <imports>
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
@@ -31,8 +32,8 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
-    <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
-    <import index="w827" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs.openapi(MPS.Core/)" implicit="true" />
+    <import index="w827" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs.openapi(MPS.Core/)" />
+    <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -222,6 +223,9 @@
         <child id="8276990574886367509" name="finallyClause" index="1zxBo6" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
@@ -254,6 +258,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -2977,6 +2989,136 @@
                 <node concept="37vLTw" id="7bBLNlFJKz0" role="37wK5m">
                   <ref role="3cqZAo" node="7bBLNlFJBbS" resolve="fileName" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2dyk275XwSt" role="3cqZAp">
+          <node concept="3clFbS" id="2dyk275XwSv" role="3clFbx">
+            <node concept="3SKdUt" id="2dyk275Xvxf" role="3cqZAp">
+              <node concept="1PaTwC" id="2dyk275Xvxg" role="1aUNEU">
+                <node concept="3oM_SD" id="2dyk275Xvxh" role="1PaTwD">
+                  <property role="3oM_SC" value="hotfix:" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275Xw3s" role="1PaTwD">
+                  <property role="3oM_SC" value="in" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGtz" role="1PaTwD">
+                  <property role="3oM_SC" value="case" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGtW" role="1PaTwD">
+                  <property role="3oM_SC" value="of" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGul" role="1PaTwD">
+                  <property role="3oM_SC" value="attempt" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275Xw4Y" role="1PaTwD">
+                  <property role="3oM_SC" value="to" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275Xw5n" role="1PaTwD">
+                  <property role="3oM_SC" value="load" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275Xw68" role="1PaTwD">
+                  <property role="3oM_SC" value="image" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275Xw6x" role="1PaTwD">
+                  <property role="3oM_SC" value="from" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275Xw7i" role="1PaTwD">
+                  <property role="3oM_SC" value="src" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275Xw83" role="1PaTwD">
+                  <property role="3oM_SC" value="jar," />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGv6" role="1PaTwD">
+                  <property role="3oM_SC" value="change" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGvv" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGvw" role="1PaTwD">
+                  <property role="3oM_SC" value="path" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275Xw8s" role="1PaTwD">
+                  <property role="3oM_SC" value="to" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGwF" role="1PaTwD">
+                  <property role="3oM_SC" value="bin" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XwaJ" role="1PaTwD">
+                  <property role="3oM_SC" value="jar" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGyc" role="1PaTwD">
+                  <property role="3oM_SC" value="instead" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGyX" role="1PaTwD">
+                  <property role="3oM_SC" value="(previous" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XG$6" role="1PaTwD">
+                  <property role="3oM_SC" value="MPS" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XG_h" role="1PaTwD">
+                  <property role="3oM_SC" value="behaviour," />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XG_E" role="1PaTwD">
+                  <property role="3oM_SC" value="since" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGA3" role="1PaTwD">
+                  <property role="3oM_SC" value="resources" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGAs" role="1PaTwD">
+                  <property role="3oM_SC" value="are" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGBd" role="1PaTwD">
+                  <property role="3oM_SC" value="still" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGBY" role="1PaTwD">
+                  <property role="3oM_SC" value="packaged" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGBZ" role="1PaTwD">
+                  <property role="3oM_SC" value="in" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGCM" role="1PaTwD">
+                  <property role="3oM_SC" value="bin" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGDb" role="1PaTwD">
+                  <property role="3oM_SC" value="jars" />
+                </node>
+                <node concept="3oM_SD" id="2dyk275XGEk" role="1PaTwD">
+                  <property role="3oM_SC" value="only)" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2dyk275XBtz" role="3cqZAp">
+              <node concept="37vLTI" id="2dyk275XD3i" role="3clFbG">
+                <node concept="37vLTw" id="2dyk275XBtx" role="37vLTJ">
+                  <ref role="3cqZAo" node="7bBLNlFJBbS" resolve="fileName" />
+                </node>
+                <node concept="2OqwBi" id="2dyk275XtJa" role="37vLTx">
+                  <node concept="37vLTw" id="2dyk275XtJb" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7bBLNlFJBbS" resolve="fileName" />
+                  </node>
+                  <node concept="liA8E" id="2dyk275XtJc" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+                    <node concept="Xl_RD" id="2dyk275XtJd" role="37wK5m">
+                      <property role="Xl_RC" value="-src.jar!/module" />
+                    </node>
+                    <node concept="Xl_RD" id="2dyk275XtJe" role="37wK5m">
+                      <property role="Xl_RC" value=".jar!" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2dyk275Xy_$" role="3clFbw">
+            <node concept="37vLTw" id="2dyk275XxkX" role="2Oq$k0">
+              <ref role="3cqZAo" node="7bBLNlFJBbS" resolve="fileName" />
+            </node>
+            <node concept="liA8E" id="2dyk275X$rq" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+              <node concept="Xl_RD" id="2dyk275X$H4" role="37wK5m">
+                <property role="Xl_RC" value="-src.jar!/module" />
               </node>
             </node>
           </node>

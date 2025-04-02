@@ -3,7 +3,7 @@ plugins {
     id "com.github.breadmoirai.github-release" version "2.5.2"
     id 'maven-publish'
     id 'base'
-    id 'de.itemis.mps.gradle.launcher' version '2.4.2.+'
+    id 'de.itemis.mps.gradle.launcher' version '2.5.2.+'
     id 'org.cyclonedx.bom' version '2.2.0'
 }
 
@@ -18,7 +18,8 @@ import java.time.LocalDateTime
 apply plugin: 'download-jbr'
 
 downloadJbr {
-    jbrVersion = '17.0.8.1-b1000.32'
+    jbrVersion = '17.0.11-b1207.30'
+
 }
 
 // detect if we are in a CI build
@@ -43,7 +44,7 @@ logger.info 'Repository username: {}', project.nexusUsername
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2023.2'
+ext.mpsMajor = '2024.1'
 // optional minor/bugfix number (not added to the final build version)
 ext.mpsMinor = '1'
 // e.g. Beta, EAP, RC
@@ -61,8 +62,7 @@ if (ciBuild) {
     if (branch.matches(/(maintenance|mps)[\/-](mps)?\d+(\.\d+)*/)) {
         version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
-        def isSnapshot = !(branch.equals("master"))
-        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + (isSnapshot ? "-SNAPSHOT" : "")
+        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + "-SNAPSHOT"
     }
 
     println "##teamcity[buildNumber '${version}']"
@@ -172,15 +172,18 @@ configurations {
         exclude(group: 'com.google.guava')
         attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
     }
+    xml_lib {
+        exclude(group: 'system')
+        exclude(module: 'xml-apis')
+    }
     batik {
-        exclude(group: 'xml-apis')
         exclude(group: 'commons-io')
         exclude(group: 'commons-logging')
     }
 }
 
 dependencies {
-    ant_lib "org.apache.ant:ant-junit:1.10.14"
+    ant_lib "org.apache.ant:ant-junit:1.10.15"
 
     def elkVersion = "0.10.0"
 
@@ -197,12 +200,14 @@ dependencies {
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.31.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.37.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0")
 
-    batik ("org.apache.xmlgraphics:batik-svggen:1.17")
-    batik ("org.apache.xmlgraphics:batik-dom:1.17")
+    xml_lib("xerces:xercesImpl:2.12.2")
+    xml_lib("xml-apis:xml-apis-ext:1.3.04")
+
+    batik ("org.apache.xmlgraphics:batik-all:1.18")
 }
 
 
@@ -283,8 +288,25 @@ task resolved_batik_dependencies(type: Sync) {
     }
 }
 
+task resolved_xml_dependencies(type: Sync) {
+    from configurations.xml_lib
+    into file('code/xml/solutions/lib')
+
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.xml_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
+
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies, resolved_xml_dependencies
     script "$rootDir/scripts/build.xml"
 }
 
@@ -370,10 +392,10 @@ configurations {
 }
 dependencies {
     junitAnt 'junit:junit:4.13.2'
-    junitAnt('org.apache.ant:ant-junit:1.10.14') {
+    junitAnt('org.apache.ant:ant-junit:1.10.15') {
         transitive = false
     }
-    junitAnt('org.apache.ant:ant-junit4:1.10.14') {
+    junitAnt('org.apache.ant:ant-junit4:1.10.15') {
         transitive = false
     }
 }
@@ -400,13 +422,13 @@ task cleanMps(type: Delete) {
     delete fileTree(dir: projectDir, include: ["**/classes_gen/**", "**/source_gen/**", "**/source_gen.caches/**", "tmp/**", "artifacts/**"])
 }
 
-cyclonedxBom { 
+cyclonedxBom {
     destination = reportsDir
     outputName = "sbom"
     outputFormat = "json"
     includeLicenseText = false
     schemaVersion = "1.5"
-    includeConfigs = ["diagram_lib","batik"]
+    includeConfigs = ["diagram_lib","batik","xml_lib"]
 }
 
 clean.dependsOn cleanMps
@@ -464,7 +486,7 @@ publishing {
 
             pom.withXml {
                 def dependenciesNode = asNode().appendNode('dependencies')
-                def languageLibs = ['diagram_lib','batik','mps']
+                def languageLibs = ['diagram_lib','batik','xml_lib','mps']
                 languageLibs.each { configName ->
                     def configuration = configurations.findByName(configName)
                     configuration.resolvedConfiguration.firstLevelModuleDependencies.each {
@@ -548,6 +570,7 @@ def usedPluginRoots = [
         new File(mpsHomeDir, 'plugins/mps-vcs'),
         new File(mpsHomeDir, 'plugins/mps-git4idea'),
         new File(mpsHomeDir, 'plugins/mps-httpsupport'),
+        new File(mpsHomeDir, 'plugins/mps-testing'),
         new File(mpsHomeDir, 'plugins/mps-spellcheck')
 ]
 

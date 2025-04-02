@@ -4732,6 +4732,9 @@
     <property role="3GE5qa" value="edgeEditor" />
     <ref role="1XX52x" to="2qld:7RbR7LCxiqz" resolve="IEdgeEditor" />
     <node concept="3EZMnI" id="6clvLV1rFOL" role="2wV5jI">
+      <node concept="VPM3Z" id="6clvLV1rFOM" role="3F10Kt">
+        <property role="VOm3f" value="false" />
+      </node>
       <node concept="3EZMnI" id="7f8dMG51$vw" role="3EZMnx">
         <node concept="VPM3Z" id="7f8dMG51$vx" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -4750,9 +4753,6 @@
           </node>
         </node>
         <node concept="2iRfu4" id="7f8dMG51$vA" role="2iSdaV" />
-      </node>
-      <node concept="VPM3Z" id="6clvLV1rFOM" role="3F10Kt">
-        <property role="VOm3f" value="false" />
       </node>
       <node concept="3EZMnI" id="6clvLV1rFRt" role="3EZMnx">
         <node concept="VPM3Z" id="6clvLV1rFRu" role="3F10Kt">

@@ -101,6 +101,7 @@ dependencies {
 
 repositories {
     maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
+    mavenCentral()
 }
 
 ext.skipResolveMps = project.hasProperty('mpsHomeDir')
@@ -177,6 +178,13 @@ configurations {
         exclude(group: 'commons-io')
         exclude(group: 'commons-logging')
     }
+    commons {
+        transitive = false
+    }
+
+    collections {
+        transitive = false
+    }
 }
 
 dependencies {
@@ -186,23 +194,37 @@ dependencies {
 
     diagram_lib("de.itemis.mps:jgraphx:1.0.0")
 
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.radial:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.force:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.disco:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.rectpacking:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.spore:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.radial:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.force:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.disco:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.rectpacking:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.spore:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
+    diagram_lib("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
 
     batik ("org.apache.xmlgraphics:batik-svggen:1.17")
     batik ("org.apache.xmlgraphics:batik-dom:1.17")
+
+    commons("org.apache.commons:commons-csv:1.0")
+    commons("commons-io:commons-io:2.4")
+    commons("org.apache.commons:commons-lang3:3.3.2")
+    commons("org.apache.commons:commons-math3:3.3")
+    commons("org.apache.commons:commons-csv:1.0")
+    commons("commons-primitives:commons-primitives:1.0")
+    commons("com.miglayout:miglayout-core:4.1")
+    commons("com.miglayout:miglayout-swing:4.1")
+
+    collections("org.apache.commons:commons-collections4:4.4")
+    collections("com.google.guava:guava:27.1-jre")
+    collections("net.sf.trove4j:trove4j:3.0.3")
+    collections("io.vavr:vavr:0.9.3")
 }
 
 
@@ -249,42 +271,31 @@ afterEvaluate {
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
-task resolved_diagram_dependencies(type: Copy) {
-    from configurations.diagram_lib
-    into file('code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
-
-    // Strip version numbers from file names
-    rename { filename ->
-        def ra = configurations.diagram_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
-        String finalName
-        if (ra.classifier != null) {
-            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
-        } else {
-            finalName = "${ra.name}.${ra.extension}"
+def createResolveTask(taskName, configurationName, outputDir) {
+    tasks.register(taskName, Sync) {
+        from configurations."${configurationName}"
+        into file(outputDir)
+        // Strip version numbers from file names
+        rename { filename ->
+            def ra = configurations."${configurationName}".resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+            String finalName
+            if (ra.classifier != null) {
+                finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+            } else {
+                finalName = "${ra.name}.${ra.extension}"
+            }
+            return finalName
         }
-        return finalName
     }
 }
 
-task resolved_batik_dependencies(type: Sync) {
-    from configurations.batik
-    into file('code/batik/solutions/lib')
-
-    // Strip version numbers from file names
-    rename { filename ->
-        def ra = configurations.batik.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
-        String finalName
-        if (ra.classifier != null) {
-            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
-        } else {
-            finalName = "${ra.name}.${ra.extension}"
-        }
-        return finalName
-    }
-}
+createResolveTask('resolveDiagram', 'diagram_lib', 'code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
+createResolveTask('resolveBatik', 'batik', 'code/batik/solutions/lib')
+createResolveTask('resolveCommons', 'commons', 'code/apache-commons/solutions/org.apache.commons/lib')
+createResolveTask('resolveCollections', 'collections', 'code/shadowmodels/solutions/de.q60.mps.collections.libs/lib')
 
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, 'resolveDiagram', 'resolveBatik', 'resolveCommons', 'resolveCollections'
     script "$rootDir/scripts/build.xml"
 }
 
@@ -362,9 +373,7 @@ task install(dependsOn: install_nativelibs) {
 //
 
 // Ant <junit> task support
-repositories {
-    mavenCentral()
-}
+
 configurations {
     junitAnt
 }
@@ -406,7 +415,7 @@ cyclonedxBom {
     outputFormat = "json"
     includeLicenseText = false
     schemaVersion = "1.5"
-    includeConfigs = ["diagram_lib","batik"]
+    includeConfigs = ["diagram_lib","batik","commons","collections"]
 }
 
 clean.dependsOn cleanMps
@@ -464,7 +473,7 @@ publishing {
 
             pom.withXml {
                 def dependenciesNode = asNode().appendNode('dependencies')
-                def languageLibs = ['diagram_lib','batik','mps']
+                def languageLibs = ['diagram_lib','batik','commons','collections', 'modelApi','mps']
                 languageLibs.each { configName ->
                     def configuration = configurations.findByName(configName)
                     configuration.resolvedConfiguration.firstLevelModuleDependencies.each {
@@ -472,7 +481,9 @@ publishing {
                         dependencyNode.appendNode('groupId', it.moduleGroup)
                         dependencyNode.appendNode('artifactId', it.moduleName)
                         dependencyNode.appendNode('version', it.moduleVersion)
-                        dependencyNode.appendNode('type', it.moduleArtifacts[0].type)
+                        if(it.moduleArtifacts[0] != null) {
+                            dependencyNode.appendNode('type', it.moduleArtifacts[0].type)
+                        }
                         dependencyNode.appendNode('scope', 'provided')
                     }
                 }

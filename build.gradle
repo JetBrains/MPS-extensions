@@ -225,7 +225,7 @@ dependencies {
     commons("org.apache.commons:commons-csv:1.0")
     commons("commons-primitives:commons-primitives:1.0")
     commons("com.miglayout:miglayout-core:4.2")
-    commons("com.miglayout:miglayout-swing:4.1")
+    commons("com.miglayout:miglayout-swing:4.2")
 
     collections("org.apache.commons:commons-collections4:4.4")
     collections("com.google.guava:guava:27.1-jre")

@@ -6,9 +6,9 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
-    <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
-    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="-1" />
     <use id="acfc188d-d5d6-4598-b370-6f4a983f05b2" name="jetbrains.mps.baseLanguage.methodReferences" version="0" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -43,10 +43,10 @@
     <import index="uxaq" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.intentions(MPS.Editor/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
-    <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
-    <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
-    <import index="ev0w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typechecking.backend(MPS.Core/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
+    <import index="ev0w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typechecking.backend(MPS.Core/)" />
+    <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
+    <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
     <import index="7oz1" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.configuration(MPS.Editor/)" />
   </imports>
   <registry>
@@ -2617,7 +2617,7 @@
                         </node>
                         <node concept="3CFZ6_" id="frLjuvY9Sb" role="2OqNvi">
                           <node concept="3CFYIy" id="frLjuvY9Sc" role="3CFYIz">
-                            <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+                            <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadOnlyCell" />
                           </node>
                         </node>
                       </node>
@@ -3100,31 +3100,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="2tJIrI" id="2jDew64QLbS" role="jymVt" />
-    <node concept="3clFb_" id="2jDew64QLbT" role="jymVt">
-      <property role="TrG5h" value="canBePerformed" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="2AHcQZ" id="2jDew64QLbU" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-      <node concept="37vLTG" id="2jDew64QLbV" role="3clF46">
-        <property role="TrG5h" value="c" />
-        <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="2jDew64QLbW" role="1tU5fm">
-          <ref role="3uigEE" to="qkt:~DataContext" resolve="DataContext" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="2jDew64QLbX" role="3clF47">
-        <node concept="3cpWs6" id="2jDew64QLbY" role="3cqZAp">
-          <node concept="3clFbT" id="2jDew64QLbZ" role="3cqZAk">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="2jDew64QLc0" role="1B3o_S" />
-      <node concept="10P_77" id="2jDew64QLc1" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="2jDew64QLc2" role="jymVt" />
     <node concept="3clFb_" id="2jDew64QLc3" role="jymVt">

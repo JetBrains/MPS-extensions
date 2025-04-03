@@ -44,9 +44,6 @@
       <concept id="1227182079811" name="jetbrains.mps.lang.test.structure.TypeKeyStatement" flags="nn" index="2TK7Tu">
         <property id="1227184461946" name="keys" index="2TTd_B" />
       </concept>
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
       <concept id="5773579205429866751" name="jetbrains.mps.lang.test.structure.EditorComponentExpression" flags="nn" index="369mXd" />
       <concept id="4239542196496927193" name="jetbrains.mps.lang.test.structure.MPSActionReference" flags="ng" index="1iFQzN">
         <reference id="4239542196496929559" name="action" index="1iFR8X" />
@@ -255,9 +252,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="2XOHcx" id="651tS80wVkO">
-    <property role="2XOHcw" value="${extensions.home}/code" />
-  </node>
   <node concept="LiM7Y" id="651tS80wVqy">
     <property role="TrG5h" value="Statemachine_CreateTransition" />
     <node concept="3clFbS" id="651tS80wVsv" role="LjaKd">

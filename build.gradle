@@ -230,7 +230,7 @@ dependencies {
     collections("org.apache.commons:commons-collections4:4.4")
     collections("com.google.guava:guava:27.1-jre")
     collections("net.sf.trove4j:trove4j:3.0.3")
-    collections("io.vavr:vavr:0.9.3")
+    collections("io.vavr:vavr:0.10.6")
 }
 
 

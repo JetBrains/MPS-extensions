@@ -2,25 +2,34 @@
 <solution name="org.apache.commons" uuid="b0f8641f-bd77-4421-8425-30d9088a82f7" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="lib/commons-csv-1.0/commons-csv-1.0.jar" />
-      <sourceRoot location="lib/commons-io-2.4/commons-io-2.4.jar" />
-      <sourceRoot location="lib/commons-lang3-3.3.2/commons-lang3-3.3.2.jar" />
-      <sourceRoot location="lib/commons-math3-3.3/commons-math3-3.3.jar" />
-      <sourceRoot location="lib/commons-primitives-1.0/commons-primitives-1.0.jar" />
-      <sourceRoot location="lib/miglayout/miglayout-4.0.jar" />
-      <sourceRoot location="lib/miglayout/miglayout-4.0-swing.jar" />
+      <sourceRoot path="${module}/lib/commons-csv.jar" />
+      <sourceRoot path="${module}/lib/commons-io.jar" />
+      <sourceRoot path="${module}/lib/commons-lang3.jar" />
+      <sourceRoot path="${module}/lib/commons-math3.jar" />
+      <sourceRoot path="${module}/lib/commons-primitives.jar" />
+      <sourceRoot path="${module}/lib/miglayout-core.jar" />
+      <sourceRoot path="${module}/lib/miglayout-swing.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/lib" type="java_classes">
+      <sourceRoot location="commons-csv.jar" />
+      <sourceRoot location="commons-io.jar" />
+      <sourceRoot location="commons-lang3.jar" />
+      <sourceRoot location="commons-math3.jar" />
+      <sourceRoot location="commons-primitives.jar" />
+      <sourceRoot location="miglayout-core.jar" />
+      <sourceRoot location="miglayout-swing.jar" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
-      <library location="${module}/lib/commons-math3-3.3/commons-math3-3.3.jar" />
-      <library location="${module}/lib/commons-csv-1.0/commons-csv-1.0.jar" />
-      <library location="${module}/lib/commons-io-2.4/commons-io-2.4.jar" />
-      <library location="${module}/lib/commons-lang3-3.3.2/commons-lang3-3.3.2.jar" />
-      <library location="${module}/lib/commons-primitives-1.0/commons-primitives-1.0.jar" />
-      <library location="${module}/lib/miglayout/miglayout-4.0-swing.jar" />
-      <library location="${module}/lib/miglayout/miglayout-4.0.jar" />
+      <library location="${module}/lib/commons-csv.jar" />
+      <library location="${module}/lib/commons-io.jar" />
+      <library location="${module}/lib/commons-lang3.jar" />
+      <library location="${module}/lib/commons-math3.jar" />
+      <library location="${module}/lib/commons-primitives.jar" />
+      <library location="${module}/lib/miglayout-core.jar" />
+      <library location="${module}/lib/miglayout-swing.jar" />
     </facet>
   </facets>
   <dependencies>

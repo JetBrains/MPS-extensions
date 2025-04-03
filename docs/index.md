@@ -28,7 +28,7 @@ To get started, grab a release from our release page on [GitHub](https://github.
 
 See the documentation regarding the individual extensions above. Documentation-related contributions are always welcome!
 
-### Artefacts on the nexus server
+### Artefacts on the Nexus server
 
 We also provide the artefacts as a maven repository. Where you can fetch them during your CI build to set up your local development environment.
 
@@ -62,7 +62,7 @@ We also provide the artefacts as a maven repository. Where you can fetch them du
     }
 
     dependencies {
-        mpsExtensions "de.itemis.mps:extensions:2023.2.+"
+        mpsExtensions "de.itemis.mps:extensions:2024.1.+"
     }
 ```
 
@@ -76,19 +76,6 @@ used instead of the Nexus server.
 
 The version number reflects the MPS version the extensions are compatible with. For instance `2021.3.X` is compatible with MPS 2021.3.2, `2021.1.X` is compatible with MPS 2021.1.4. We only maintain compatibility with the latest minor release for each major version. While, for example, a `2021.1.x` version of the extension might work with an on older version than MPS 2021.1.4 we only test it against the latest.
 
-### Current Versions
-
-These following MPS versions are supported:
-
-| MPS Version | State |
-|:--|:--|
-| 2023.2 | development |
-| 2022.3 | maintenance+ development |
-| 2022.2 | maintenance+ development |
-| 2021.3 | maintenance + development |
-| 2021.2 |  maintenance |
-| 2021.1 |  maintenance + development |
-| <= 2020.3 | *not maintained* |
 
 A version in maintenance will not get actively new features and is only maintained with bugfixes. We are happy to accept pull request for versions in maintenance with bugfixes but active feature development only happens for the latest MPS version.
 

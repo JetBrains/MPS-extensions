@@ -7,7 +7,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
@@ -37393,22 +37393,9 @@
               <node concept="3uibUv" id="5AW5JoZGEjy" role="1tU5fm">
                 <ref role="3uigEE" to="qzxn:~PasteNodeData" resolve="PasteNodeData" />
               </node>
-              <node concept="2YIFZM" id="5AW5JoZGEjz" role="33vP2m">
-                <ref role="37wK5l" to="dp1x:5tGs5KqKiKf" resolve="getPasteNodeDataFromClipboard" />
+              <node concept="2YIFZM" id="1vOy3QN8ZfA" role="33vP2m">
+                <ref role="37wK5l" to="dp1x:oR0qGlKAkB" resolve="getPasteNodeData" />
                 <ref role="1Pybhc" to="dp1x:5tGs5KqKfGH" resolve="CopyPasteUtil" />
-                <node concept="2OqwBi" id="7IUya7citgP" role="37wK5m">
-                  <node concept="2OqwBi" id="7IUya7ciqIy" role="2Oq$k0">
-                    <node concept="1rXfSq" id="7IUya7cipik" role="2Oq$k0">
-                      <ref role="37wK5l" node="7IUya7ci41k" resolve="getEditorCell" />
-                    </node>
-                    <node concept="liA8E" id="7IUya7cis_d" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell.getSNode()" resolve="getSNode" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7IUya7ciuLH" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-                  </node>
-                </node>
               </node>
             </node>
           </node>
@@ -37537,22 +37524,9 @@
               <node concept="3uibUv" id="5AW5JoZDmP5" role="1tU5fm">
                 <ref role="3uigEE" to="qzxn:~PasteNodeData" resolve="PasteNodeData" />
               </node>
-              <node concept="2YIFZM" id="5AW5JoZDAXv" role="33vP2m">
+              <node concept="2YIFZM" id="1vOy3QN92pl" role="33vP2m">
+                <ref role="37wK5l" to="dp1x:oR0qGlKAkB" resolve="getPasteNodeData" />
                 <ref role="1Pybhc" to="dp1x:5tGs5KqKfGH" resolve="CopyPasteUtil" />
-                <ref role="37wK5l" to="dp1x:5tGs5KqKiKf" resolve="getPasteNodeDataFromClipboard" />
-                <node concept="2OqwBi" id="7IUya7ciJ6A" role="37wK5m">
-                  <node concept="2OqwBi" id="7IUya7ciJ6B" role="2Oq$k0">
-                    <node concept="1rXfSq" id="7IUya7ciJ6C" role="2Oq$k0">
-                      <ref role="37wK5l" node="7IUya7ci41k" resolve="getEditorCell" />
-                    </node>
-                    <node concept="liA8E" id="7IUya7ciJ6D" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell.getSNode()" resolve="getSNode" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7IUya7ciJ6E" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-                  </node>
-                </node>
               </node>
             </node>
           </node>

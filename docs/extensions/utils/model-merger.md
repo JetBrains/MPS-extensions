@@ -9,13 +9,22 @@ Two model merger languages exist. `de.itemis.model.merge` is the new one and is 
 language is deprecated.
 
 This language allows merging models based on merging policies. In the following explanations the term *left* refers to
- one aspect of the first model that should be merged, the term *right* to the same aspect in a second model. Create a new root node of concept [ModelMerge](http://127.0.0.1:63320/node?ref=r%3A58892eeb-9059-4684-af0a-e0f5f7f9800d%28de.itemis.model.merge.structure%29%2F1912777765298163335). The main language 
-has to be defined. If there are additional languages involved, they can be specified as well. Now, merge policies can be defined
+ one aspect of the first model that should be merged, the term *right* to the same aspect in a second model.
+
+To get started:
+
+- In your solution, create a model named **plugin**
+- Add `de.itemis.model.merge` to the used languages of this model.
+- Right click the solution containing the plugin model > select **Module properties**
+- Open the **Java** tab and unfold the section  **Regular MPS module contributing extensions to MPS**
+- Set **Contributes to MPS extension** to `Yes`
+
+Create a new root node of concept [ModelMerge](http://127.0.0.1:63320/node?ref=r%3A58892eeb-9059-4684-af0a-e0f5f7f9800d%28de.itemis.model.merge.structure%29%2F1912777765298163335) inside the **plugin** model. The main language has to be defined. If there are additional languages involved, they can be specified as well. Now, merge policies can be defined
 for different concepts. The concepts need to be identifiable by a unique ID, for example, by an ID property. The scope
 of the uniqueness property depends on the context where the model merger is used. Normally, it's the project scope but
 there are cases where the ID needs to be globally unique.
 
-The model merge can be executed by creating a [ModelMergeExecution](http://127.0.0.1:63320/node?ref=r%3A58892eeb-9059-4684-af0a-e0f5f7f9800d%28de.itemis.model.merge.structure%29%2F6402745832171993510) node and using the intention `Run Model Merge` or call the `execute` method 
+The model merge can be executed by creating a [ModelMergingConfiguration](http://127.0.0.1:63320/node?ref=r%3A58892eeb-9059-4684-af0a-e0f5f7f9800d%28de.itemis.model.merge.structure%29%2F6402745832171993510) node in the **plugin** model and using the intention `Run Model Merge` or call the `execute` method 
 programmatically.
 
 - **Left**: a model pointer to the first model

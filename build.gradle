@@ -224,7 +224,7 @@ dependencies {
     commons("org.apache.commons:commons-math3:3.3")
     commons("org.apache.commons:commons-csv:1.0")
     commons("commons-primitives:commons-primitives:1.0")
-    commons("com.miglayout:miglayout-core:4.1")
+    commons("com.miglayout:miglayout-core:4.2")
     commons("com.miglayout:miglayout-swing:4.2")
 
     collections("org.apache.commons:commons-collections4:4.4")

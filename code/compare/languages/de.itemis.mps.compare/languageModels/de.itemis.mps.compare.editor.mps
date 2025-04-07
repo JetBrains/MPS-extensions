@@ -777,5 +777,99 @@
       <node concept="2iRfu4" id="1_DWnhqnL_9" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6MWuQFM2y_O">
+    <ref role="1XX52x" to="8do3:6MWuQFM2umD" resolve="AssertFloatEquals" />
+    <node concept="3EZMnI" id="6MWuQFM2y_Q" role="2wV5jI">
+      <node concept="3F0ifn" id="6MWuQFM2y_R" role="3EZMnx">
+        <property role="3F0ifm" value="assert" />
+        <node concept="VechU" id="6MWuQFM2y_S" role="3F10Kt">
+          <property role="Vb096" value="fLwANPu/blue" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6MWuQFM2y_T" role="3EZMnx">
+        <property role="1$x2rV" value="expected node" />
+        <ref role="1NtTu8" to="tpe3:7jPoEeD$ZP4" resolve="expected" />
+      </node>
+      <node concept="3F0ifn" id="6MWuQFM2y_U" role="3EZMnx">
+        <property role="3F0ifm" value="equals" />
+        <node concept="VechU" id="6MWuQFM2y_V" role="3F10Kt">
+          <property role="Vb096" value="fLwANPu/blue" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6MWuQFM2y_W" role="3EZMnx">
+        <property role="1$x2rV" value="actual node" />
+        <ref role="1NtTu8" to="tpe3:7jPoEeD$ZP5" resolve="actual" />
+      </node>
+      <node concept="3F0ifn" id="6MWuQFM3WpX" role="3EZMnx">
+        <property role="3F0ifm" value="with tolerance" />
+        <node concept="VechU" id="6MWuQFM3WpY" role="3F10Kt">
+          <property role="Vb096" value="fLwANPu/blue" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6MWuQFM3Wq0" role="3EZMnx">
+        <ref role="1NtTu8" to="8do3:7jPoEeD$ZP4" resolve="tolerance" />
+      </node>
+      <node concept="PMmxH" id="6MWuQFM2y_X" role="3EZMnx">
+        <ref role="PMmxG" to="tpe0:4uU5oUYY2Mi" resolve="MessageComponent" />
+        <node concept="VPM3Z" id="6MWuQFM2y_Y" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6MWuQFM2y_Z" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="6MWuQFM2yA0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="6MWuQFM2yBB" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6MWuQFM4oUK">
+    <ref role="1XX52x" to="8do3:6MWuQFM4oUI" resolve="AssertFloatNotEquals" />
+    <node concept="3EZMnI" id="6MWuQFM4oUL" role="2wV5jI">
+      <node concept="3F0ifn" id="6MWuQFM4oUM" role="3EZMnx">
+        <property role="3F0ifm" value="assert" />
+        <node concept="VechU" id="6MWuQFM4oUN" role="3F10Kt">
+          <property role="Vb096" value="fLwANPu/blue" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6MWuQFM4oUO" role="3EZMnx">
+        <property role="1$x2rV" value="expected node" />
+        <ref role="1NtTu8" to="tpe3:7jPoEeD$ZP4" resolve="expected" />
+      </node>
+      <node concept="3F0ifn" id="6MWuQFM4oUP" role="3EZMnx">
+        <property role="3F0ifm" value="not equals" />
+        <node concept="VechU" id="6MWuQFM4oUQ" role="3F10Kt">
+          <property role="Vb096" value="fLwANPu/blue" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6MWuQFM4oUR" role="3EZMnx">
+        <property role="1$x2rV" value="actual node" />
+        <ref role="1NtTu8" to="tpe3:7jPoEeD$ZP5" resolve="actual" />
+      </node>
+      <node concept="3F0ifn" id="6MWuQFM4oUS" role="3EZMnx">
+        <property role="3F0ifm" value="with tolerance" />
+        <node concept="VechU" id="6MWuQFM4oUT" role="3F10Kt">
+          <property role="Vb096" value="fLwANPu/blue" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6MWuQFM4oUU" role="3EZMnx">
+        <ref role="1NtTu8" to="8do3:7jPoEeD$ZP4" resolve="tolerance" />
+      </node>
+      <node concept="PMmxH" id="6MWuQFM4oUV" role="3EZMnx">
+        <ref role="PMmxG" to="tpe0:4uU5oUYY2Mi" resolve="MessageComponent" />
+        <node concept="VPM3Z" id="6MWuQFM4oUW" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6MWuQFM4oUX" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="6MWuQFM4oUY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="6MWuQFM4oUZ" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

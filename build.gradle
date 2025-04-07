@@ -188,6 +188,7 @@ configurations {
 
     collections {
         transitive = false
+        attributes.attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, objects.named(TargetJvmEnvironment.class, TargetJvmEnvironment.STANDARD_JVM)) 
     }
 }
 

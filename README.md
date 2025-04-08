@@ -57,6 +57,7 @@ gradlew.bat previewDocs # Windows
 
 ## Creating a PR
 
+Please add your change to the changelog located at `de.itemis.mps.extensions.changelog`. To update it, rebuild the solution and run `./gradlew copyChangelog` or `gradlew.bat copyChangelog` to regenerate the `CHANGELOG.md` file. Commit the changes in the MPS model and in the text file.
 When you open a PR, the build on TeamCity needs to be approved by a colleague at itemis, and a PR review is necessary. If this doesn't happen, please ask in the Slack channel. Often, builds fail at the following step: Check for dirty files.
 If that happens, some migrations were not executed in the project. Run `./gradlew migrate remigrate` or `gradlew.bat migrate remigrate` on the command line to execute them and commit the changes. You can also copy the diff from the build log and apply it with `git apply` as a patch. You need to strip the line numbers, though: 
 - Mac: `pbpaste | sed 's/^.\{13\}//' | git apply`

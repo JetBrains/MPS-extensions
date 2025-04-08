@@ -463,6 +463,97 @@
             <property role="3oM_SC" value="itself." />
           </node>
         </node>
+        <node concept="2DRihI" id="6MWuQFM91xE" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="2hgSXJ" id="6MWuQFM95UO" role="1PaTwD">
+            <node concept="1PaTwC" id="6MWuQFM95UP" role="2hiFM$">
+              <node concept="15Ami3" id="6MWuQFM95UQ" role="1PaTwD">
+                <node concept="37shsh" id="6MWuQFM95UR" role="15Aodc">
+                  <node concept="1dCxOk" id="6MWuQFM95US" role="37shsm">
+                    <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
+                    <property role="1XxBO9" value="de.itemis.mps.compare" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="6MWuQFM95UT" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Ad" role="1PaTwD">
+            <property role="3oM_SC" value="Two" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Aw" role="1PaTwD">
+            <property role="3oM_SC" value="new" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Ax" role="1PaTwD">
+            <property role="3oM_SC" value="concepts" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Bp" role="1PaTwD">
+            <property role="3oM_SC" value="assert" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Bq" role="1PaTwD">
+            <property role="3oM_SC" value="float" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Br" role="1PaTwD">
+            <property role="3oM_SC" value="equals" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Ga" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91H2" role="1PaTwD">
+            <property role="3oM_SC" value="assert" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91H3" role="1PaTwD">
+            <property role="3oM_SC" value="float" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91H4" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91HV" role="1PaTwD">
+            <property role="3oM_SC" value="equals" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Mm" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Nd" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Ne" role="1PaTwD">
+            <property role="3oM_SC" value="used" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Nf" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Ny" role="1PaTwD">
+            <property role="3oM_SC" value="compare" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Nz" role="1PaTwD">
+            <property role="3oM_SC" value="floating" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91NQ" role="1PaTwD">
+            <property role="3oM_SC" value="point" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91O9" role="1PaTwD">
+            <property role="3oM_SC" value="numbers" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91Os" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91OJ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="6MWuQFM91OK" role="1PaTwD">
+            <property role="3oM_SC" value="delta." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="7Px_cmus87G" role="15bmVC">

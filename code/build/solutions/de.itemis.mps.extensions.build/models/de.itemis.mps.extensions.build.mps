@@ -16235,6 +16235,16 @@
               <ref role="3bR37D" node="77YfcvOLBqQ" resolve="de.itemis.mps.comparator" />
             </node>
           </node>
+          <node concept="1SiIV0" id="7QsrqBVSY84" role="3bR37C">
+            <node concept="3bR9La" id="7QsrqBVSY85" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7YI57w6KsiT" resolve="jetbrains.mps.baseLanguage.unitTest#1171932017138" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7QsrqBVSY86" role="3bR37C">
+            <node concept="3bR9La" id="7QsrqBVSY87" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="77YfcvOLV3E" role="3bR37C">
           <node concept="3bR9La" id="77YfcvOLV3F" role="1SiIV1">

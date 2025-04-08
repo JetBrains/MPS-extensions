@@ -20,6 +20,7 @@
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -470,6 +471,72 @@
     <node concept="1YaCAy" id="1_DWnhqnLJ$" role="1YuTPh">
       <property role="TrG5h" value="areEqualExpression" />
       <ref role="1YaFvo" to="8do3:1_DWnhqnL9Y" resolve="AreEqualExpression" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6MWuQFM2_Gi">
+    <property role="TrG5h" value="typeof_AssertFloatEquals" />
+    <node concept="3clFbS" id="6MWuQFM2_Gj" role="18ibNy">
+      <node concept="1ZobV4" id="6MWuQFM2P76" role="3cqZAp">
+        <node concept="mw_s8" id="6MWuQFM2P77" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6MWuQFM2P78" role="mwGJk">
+            <node concept="2OqwBi" id="6MWuQFM2P79" role="1Z2MuG">
+              <node concept="1YBJjd" id="6MWuQFM2P7a" role="2Oq$k0">
+                <ref role="1YBMHb" node="6MWuQFM2_Gl" resolve="assertFloatEquals" />
+              </node>
+              <node concept="3TrEf2" id="6MWuQFM2P7b" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpe3:7jPoEeD$ZP5" resolve="actual" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6MWuQFM2P7c" role="1ZfhKB">
+          <node concept="2c44tf" id="6MWuQFM2P7d" role="mwGJk">
+            <node concept="10P55v" id="6MWuQFM2P7e" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="1ZobV4" id="6MWuQFM2Pbe" role="3cqZAp">
+        <node concept="mw_s8" id="6MWuQFM2Pbf" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6MWuQFM2Pbg" role="mwGJk">
+            <node concept="2OqwBi" id="6MWuQFM2Pbh" role="1Z2MuG">
+              <node concept="1YBJjd" id="6MWuQFM2Pbi" role="2Oq$k0">
+                <ref role="1YBMHb" node="6MWuQFM2_Gl" resolve="assertFloatEquals" />
+              </node>
+              <node concept="3TrEf2" id="6MWuQFM2Pbj" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpe3:7jPoEeD$ZP4" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6MWuQFM2Pbk" role="1ZfhKB">
+          <node concept="2c44tf" id="6MWuQFM2Pbl" role="mwGJk">
+            <node concept="10P55v" id="6MWuQFM2Pbm" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="1ZobV4" id="6MWuQFM2_QI" role="3cqZAp">
+        <node concept="mw_s8" id="6MWuQFM2_QJ" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6MWuQFM2_QK" role="mwGJk">
+            <node concept="2OqwBi" id="6MWuQFM2_QL" role="1Z2MuG">
+              <node concept="1YBJjd" id="6MWuQFM2_QM" role="2Oq$k0">
+                <ref role="1YBMHb" node="6MWuQFM2_Gl" resolve="assertFloatEquals" />
+              </node>
+              <node concept="3TrEf2" id="6MWuQFM2Chn" role="2OqNvi">
+                <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="tolerance" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6MWuQFM2_QO" role="1ZfhKB">
+          <node concept="2c44tf" id="6MWuQFM2_QP" role="mwGJk">
+            <node concept="10P55v" id="6MWuQFM2Cwo" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6MWuQFM2_Gl" role="1YuTPh">
+      <property role="TrG5h" value="assertFloatEquals" />
+      <ref role="1YaFvo" to="8do3:6MWuQFM2umD" resolve="AssertFloatEquals" />
     </node>
   </node>
 </model>

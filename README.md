@@ -35,7 +35,7 @@ Run the following commands to build the project:
 gradlew.bat # Windows
 ```
 
-This will download the required MPS version, so you need to be online when executing the build for the first time (later on, the downloaded artifacts will be cached).
+This will download the required MPS version, so you need to be online when executing the build for the first time (later on, the downloaded artifacts will be cached). To refresh the dependencies, you can add the `--refresh-dependencies` flag. After this step, you can also click `Build->Rebuild Project` from the main menu of the MPS project. When you open the project, make sure to select the `code` folder and not the root folder of the repository.
 
 The default task does not run the tests as part of the build. Execute the following command to run the tests:
 
@@ -48,9 +48,20 @@ See the [building](https://jetbrains.github.io/MPS-extensions/building/) page of
 
 ## Documentation
 
-If you would like more information on the individual extensions, please see our [documentation](https://jetbrains.github.io/MPS-extensions). The documentation's source is located in this repository's `docs` folder if you would like to contribute to it. To preview the documentation, run the following command:
+If you want more information on the individual extensions, please see our [documentation](https://jetbrains.github.io/MPS-extensions). The documentation's source is in this repository's `docs` folder if you would like to contribute. To preview the documentation, run the following command:
 
 ```bash
 ./gradlew previewDocs # Mac and Linux
 gradlew.bat previewDocs # Windows
 ```
+
+## Creating a PR
+
+When you open a PR, the build on TeamCity needs to be approved by a colleague at itemis, and a PR review is necessary. If this doesn't happen, please ask in the Slack channel. Often, builds fail at the following step: Check for dirty files.
+If that happens, some migrations were not executed in the project. Run `./gradlew migrate remigrate` or `gradlew.bat migrate remigrate` on the command line to execute them and commit the changes. You can also copy the diff from the build log and apply it with `git apply` as a patch. You need to strip the line numbers, though: 
+- Mac: `pbpaste | sed 's/^.\{13\}//' | git apply`
+- Windows Powershell: `Get-Clipboard | ForEach-Object { $_ -replace '^.{13}', '' } | git apply`
+- Linux solution 1: `xclip -o | sed 's/^.\{13\}//' | git apply`
+- Linux solution 2: `xsel --clipboard --output | sed 's/^.\{13\}//' | git apply`
+
+Please select the correct target branch for the PR. The master branch builds against the MPS master and is most likely not the branch you want to contribute to. After the PR is merged, a bot will automatically open a PR to merge the changes into the next maintenance branch. You don't have to do anything at the last step.

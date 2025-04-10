@@ -6,6 +6,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## April 2025
 
+### Fixed
+
+- *com.mbeddr.mpsutil.treenotation*: Tree cells now don't show insert/delete buttons when they are read-only.
+
 ### Changed
 
 - *de.itemis.mps.editor.diagram* : The version of the ELK layouter was changed to 0.10.0

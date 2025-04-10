@@ -45,6 +45,8 @@
     <import index="w0gx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.structure.modules(MPS.Core/)" />
     <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" />
     <import index="pjrh" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter(MPS.Core/)" />
+    <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
+    <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" implicit="true" />
     <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" implicit="true" />
   </imports>
@@ -13894,13 +13896,26 @@
                         <ref role="3uigEE" to="z1c4:~Project" resolve="Project" />
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="3DfUugBVc89" role="33vP2m">
-                      <node concept="2YIFZM" id="3DfUugBVc8a" role="2Oq$k0">
-                        <ref role="37wK5l" to="z1c4:~ProjectManager.getInstance()" resolve="getInstance" />
-                        <ref role="1Pybhc" to="z1c4:~ProjectManager" resolve="ProjectManager" />
-                      </node>
-                      <node concept="liA8E" id="3DfUugBVc8b" role="2OqNvi">
+                    <node concept="2OqwBi" id="378Fdx2QePx" role="33vP2m">
+                      <node concept="liA8E" id="378Fdx2QePy" role="2OqNvi">
                         <ref role="37wK5l" to="z1c4:~ProjectManager.getOpenedProjects()" resolve="getOpenedProjects" />
+                      </node>
+                      <node concept="2OqwBi" id="378Fdx2QePz" role="2Oq$k0">
+                        <node concept="2OqwBi" id="378Fdx2QeP$" role="2Oq$k0">
+                          <node concept="2YIFZM" id="378Fdx2QeP_" role="2Oq$k0">
+                            <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                            <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                          </node>
+                          <node concept="liA8E" id="378Fdx2QePA" role="2OqNvi">
+                            <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="378Fdx2QePB" role="2OqNvi">
+                          <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                          <node concept="3VsKOn" id="378Fdx2QePC" role="37wK5m">
+                            <ref role="3VsUkX" to="z1c4:~ProjectManager" resolve="ProjectManager" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -14586,13 +14601,26 @@
                         <ref role="3uigEE" to="z1c4:~Project" resolve="Project" />
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="60ny1C0dzoH" role="33vP2m">
-                      <node concept="2YIFZM" id="60ny1C0dzoI" role="2Oq$k0">
-                        <ref role="37wK5l" to="z1c4:~ProjectManager.getInstance()" resolve="getInstance" />
-                        <ref role="1Pybhc" to="z1c4:~ProjectManager" resolve="ProjectManager" />
-                      </node>
-                      <node concept="liA8E" id="60ny1C0dzoJ" role="2OqNvi">
+                    <node concept="2OqwBi" id="378Fdx2PZIb" role="33vP2m">
+                      <node concept="liA8E" id="378Fdx2PZIc" role="2OqNvi">
                         <ref role="37wK5l" to="z1c4:~ProjectManager.getOpenedProjects()" resolve="getOpenedProjects" />
+                      </node>
+                      <node concept="2OqwBi" id="378Fdx2PZId" role="2Oq$k0">
+                        <node concept="2OqwBi" id="378Fdx2PZIe" role="2Oq$k0">
+                          <node concept="2YIFZM" id="378Fdx2PZIf" role="2Oq$k0">
+                            <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                            <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                          </node>
+                          <node concept="liA8E" id="378Fdx2PZIg" role="2OqNvi">
+                            <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="378Fdx2PZIh" role="2OqNvi">
+                          <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                          <node concept="3VsKOn" id="378Fdx2PZIi" role="37wK5m">
+                            <ref role="3VsUkX" to="z1c4:~ProjectManager" resolve="ProjectManager" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -30196,13 +30224,26 @@
                   <ref role="3uigEE" to="z1c4:~Project" resolve="Project" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="3DfUugBVYsU" role="33vP2m">
-                <node concept="2YIFZM" id="3DfUugBVYsV" role="2Oq$k0">
-                  <ref role="37wK5l" to="z1c4:~ProjectManager.getInstance()" resolve="getInstance" />
-                  <ref role="1Pybhc" to="z1c4:~ProjectManager" resolve="ProjectManager" />
-                </node>
-                <node concept="liA8E" id="3DfUugBVYsW" role="2OqNvi">
+              <node concept="2OqwBi" id="6HiBqPCpGBq" role="33vP2m">
+                <node concept="liA8E" id="6HiBqPCpGBs" role="2OqNvi">
                   <ref role="37wK5l" to="z1c4:~ProjectManager.getOpenedProjects()" resolve="getOpenedProjects" />
+                </node>
+                <node concept="2OqwBi" id="378Fdx2PHE5" role="2Oq$k0">
+                  <node concept="2OqwBi" id="378Fdx2PGVt" role="2Oq$k0">
+                    <node concept="2YIFZM" id="378Fdx2PGwd" role="2Oq$k0">
+                      <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                    </node>
+                    <node concept="liA8E" id="378Fdx2PHdP" role="2OqNvi">
+                      <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="378Fdx2PHQK" role="2OqNvi">
+                    <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                    <node concept="3VsKOn" id="378Fdx2PI$7" role="37wK5m">
+                      <ref role="3VsUkX" to="z1c4:~ProjectManager" resolve="ProjectManager" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

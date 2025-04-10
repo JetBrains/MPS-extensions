@@ -107,6 +107,9 @@
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -237,6 +240,7 @@
         <child id="6046489571270834038" name="foldedCellModel" index="3EmGlc" />
         <child id="6240706158490734121" name="collapseByDefaultCondition" index="3EXrW6" />
       </concept>
+      <concept id="4591252177377353906" name="com.mbeddr.mpsutil.editor.querylist.structure.QueryListIndexExpression" flags="ng" index="2tpSsP" />
       <concept id="5820306262933110156" name="com.mbeddr.mpsutil.editor.querylist.structure.Function_InsertNewNode" flags="ig" index="ARxKT" />
       <concept id="5820306262933734929" name="com.mbeddr.mpsutil.editor.querylist.structure.Parameter_AnchorNode" flags="ng" index="AS6u$" />
       <concept id="5820306262933951366" name="com.mbeddr.mpsutil.editor.querylist.structure.Paramter_insertBefore" flags="ng" index="AVj8N" />
@@ -1625,6 +1629,32 @@
             </node>
           </node>
         </node>
+        <node concept="1yz3lS" id="3YRpSuyPQgJ" role="1yzFaX">
+          <node concept="3EZMnI" id="3YRpSuyPR5H" role="2wV5jI">
+            <node concept="1HlG4h" id="3YRpSuyPR5K" role="3EZMnx">
+              <node concept="1HfYo3" id="3YRpSuyPR5M" role="1HlULh">
+                <node concept="3TQlhw" id="3YRpSuyPR5O" role="1Hhtcw">
+                  <node concept="3clFbS" id="3YRpSuyPR5Q" role="2VODD2">
+                    <node concept="3clFbF" id="3YRpSuyV2CX" role="3cqZAp">
+                      <node concept="3cpWs3" id="3YRpSuyV46D" role="3clFbG">
+                        <node concept="Xl_RD" id="3YRpSuyV46H" role="3uHU7w">
+                          <property role="Xl_RC" value=":" />
+                        </node>
+                        <node concept="2YIFZM" id="3YRpSuyPRdg" role="3uHU7B">
+                          <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                          <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                          <node concept="2tpSsP" id="3YRpSuyPRr$" role="37wK5m" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2iRfu4" id="3YRpSuyPR5I" role="2iSdaV" />
+            <node concept="r$x8Z" id="3YRpSuyPR5F" role="3EZMnx" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="3jHPIDnh_UX" role="3EZMnx">
         <node concept="ljvvj" id="3jHPIDnh_UY" role="3F10Kt">
@@ -1746,6 +1776,32 @@
         </node>
         <node concept="xShMh" id="T_6DrkZpyE" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="1yz3lS" id="3YRpSuyW0XT" role="1yzFaX">
+          <node concept="3EZMnI" id="3YRpSuyW7ZR" role="2wV5jI">
+            <node concept="1HlG4h" id="3YRpSuyWivq" role="3EZMnx">
+              <node concept="1HfYo3" id="3YRpSuyWivr" role="1HlULh">
+                <node concept="3TQlhw" id="3YRpSuyWivs" role="1Hhtcw">
+                  <node concept="3clFbS" id="3YRpSuyWivt" role="2VODD2">
+                    <node concept="3clFbF" id="3YRpSuyWivu" role="3cqZAp">
+                      <node concept="3cpWs3" id="3YRpSuyWivv" role="3clFbG">
+                        <node concept="Xl_RD" id="3YRpSuyWivw" role="3uHU7w">
+                          <property role="Xl_RC" value=":" />
+                        </node>
+                        <node concept="2YIFZM" id="3YRpSuyWivx" role="3uHU7B">
+                          <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                          <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                          <node concept="2tpSsP" id="3YRpSuyWivy" role="37wK5m" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2iRfu4" id="3YRpSuyW7ZS" role="2iSdaV" />
+            <node concept="r$x8Z" id="3YRpSuyW4ue" role="3EZMnx" />
+          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="lPJxikeccu" role="3EZMnx">

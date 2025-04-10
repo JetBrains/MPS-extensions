@@ -10,6 +10,7 @@
   </languages>
   <imports>
     <import index="kyaz" ref="r:711fe6f5-9341-4fad-8566-f7d70e151a24(de.slisson.mps.editor.multiline.demolang.structure)" />
+    <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -101,6 +102,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -121,6 +125,10 @@
     </language>
     <language id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline">
       <concept id="8006371471054135775" name="de.slisson.mps.editor.multiline.structure.CellModel_Multiline" flags="sg" stub="8664183491941389655" index="2v7bAL" />
+      <concept id="9175692738071695071" name="de.slisson.mps.editor.multiline.structure.QueryFunction_Content" flags="ig" index="1jGTkL" />
+      <concept id="2197626119621156059" name="de.slisson.mps.editor.multiline.structure.CellModel_Multiline_Constant" flags="ng" index="3Jn1mk">
+        <child id="9175692738071697533" name="contentProvider" index="1jGSej" />
+      </concept>
     </language>
   </registry>
   <node concept="24kQdi" id="6Wsm6VK0frj">
@@ -350,6 +358,20 @@
       </node>
       <node concept="2v7bAL" id="2JjwJOLQq3r" role="3EZMnx">
         <ref role="1NtTu8" to="kyaz:2JjwJOLQpTw" resolve="text" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1TZykZL9boR">
+    <ref role="1XX52x" to="kyaz:1TZykZL9boQ" resolve="Constant" />
+    <node concept="3Jn1mk" id="1TZykZLanea" role="2wV5jI">
+      <node concept="1jGTkL" id="1TZykZLaneb" role="1jGSej">
+        <node concept="3clFbS" id="1TZykZLanec" role="2VODD2">
+          <node concept="3clFbF" id="1TZykZLaotd" role="3cqZAp">
+            <node concept="Xl_RD" id="1TZykZLaotc" role="3clFbG">
+              <property role="Xl_RC" value="Multi-line\ntext" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

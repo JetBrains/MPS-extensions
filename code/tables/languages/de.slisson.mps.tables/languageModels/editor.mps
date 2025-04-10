@@ -3315,6 +3315,18 @@
       <node concept="10P_77" id="m_yL2MFbPt" role="3t5Oan" />
       <node concept="3clFbT" id="m_yL2MFbPu" role="3t49C2" />
     </node>
+    <node concept="3t5Usi" id="7$DZq89TvVX" role="V601i">
+      <property role="TrG5h" value="horizontal-sticky-cell" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
+      <node concept="10P_77" id="7$DZq89TvVY" role="3t5Oan" />
+      <node concept="3clFbT" id="7$DZq89TvVZ" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="2fUANpqfeyN" role="V601i">
+      <property role="TrG5h" value="vertical-sticky-cell" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
+      <node concept="10P_77" id="2fUANpqfeyO" role="3t5Oan" />
+      <node concept="3clFbT" id="2fUANpqfeyP" role="3t49C2" />
+    </node>
   </node>
   <node concept="24kQdi" id="3t1pVyvZ9YZ">
     <ref role="1XX52x" to="bnk3:3t1pVyvZ48U" resolve="CellCreateOperation" />

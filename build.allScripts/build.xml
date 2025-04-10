@@ -157,6 +157,7 @@
       <jvmargs>
         <arg value="-Xmx2024m" />
         <arg value="-XX:MaxPermSize=1000m" />
+        <arg value="--add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED" />
       </jvmargs>
       <macro name="mps.home" path="${mps.home}" />
       <macro name="extensions.code" path="${extensions.code}" />

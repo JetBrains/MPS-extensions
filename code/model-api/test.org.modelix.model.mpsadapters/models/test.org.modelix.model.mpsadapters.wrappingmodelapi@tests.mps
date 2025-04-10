@@ -1343,7 +1343,7 @@
               </node>
               <node concept="3vlDli" id="7LiskgSxc_2" role="3cqZAp">
                 <node concept="3cmrfG" id="7LiskgSxcFh" role="3tpDZB">
-                  <property role="3cmrfH" value="23" />
+                  <property role="3cmrfH" value="22" />
                 </node>
                 <node concept="2OqwBi" id="7LiskgSxdmu" role="3tpDZA">
                   <node concept="37vLTw" id="7LiskgSxcKG" role="2Oq$k0">

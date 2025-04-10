@@ -39,6 +39,7 @@
     <import index="sn11" ref="r:836426ab-a6f4-4fa3-9a9c-34c02ed6ab5d(jetbrains.mps.ide.icons)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
+    <import index="3ahc" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.cells(MPS.Editor/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -3825,6 +3826,7 @@
   </node>
   <node concept="312cEu" id="7uOgiTbve2">
     <property role="TrG5h" value="TreeCellLayout" />
+    <property role="3GE5qa" value="layout" />
     <node concept="2tJIrI" id="7GMtHW6zwzt" role="jymVt" />
     <node concept="3Tm1VV" id="7uOgiTbve3" role="1B3o_S" />
     <node concept="3uibUv" id="3a$gLzvFN1N" role="1zkMxy">
@@ -4067,6 +4069,7 @@
   </node>
   <node concept="3HP615" id="7uOgiTcFuK">
     <property role="TrG5h" value="IBounds" />
+    <property role="3GE5qa" value="bounds" />
     <node concept="3clFb_" id="7uOgiTcFv_" role="jymVt">
       <property role="TrG5h" value="getX" />
       <node concept="10Oyi0" id="7uOgiTcFws" role="3clF45" />
@@ -4160,6 +4163,7 @@
   </node>
   <node concept="312cEu" id="7uOgiTcFEM">
     <property role="TrG5h" value="EditorCellBounds" />
+    <property role="3GE5qa" value="bounds" />
     <node concept="312cEg" id="7uOgiTcFFP" role="jymVt">
       <property role="TrG5h" value="myCell" />
       <node concept="3Tm6S6" id="7uOgiTcFFQ" role="1B3o_S" />
@@ -4416,6 +4420,7 @@
   </node>
   <node concept="312cEu" id="7uOgiTcHWY">
     <property role="TrG5h" value="TransposedBounds" />
+    <property role="3GE5qa" value="bounds" />
     <node concept="2tJIrI" id="7uOgiTcHXI" role="jymVt" />
     <node concept="312cEg" id="7uOgiTcHYU" role="jymVt">
       <property role="TrG5h" value="myBounds" />
@@ -4748,6 +4753,7 @@
   </node>
   <node concept="312cEu" id="7GMtHW6rH5Q">
     <property role="TrG5h" value="Button" />
+    <property role="3GE5qa" value="buttons" />
     <node concept="2tJIrI" id="7GMtHW6scGb" role="jymVt" />
     <node concept="Wx3nA" id="1QtoRzH9jr6" role="jymVt">
       <property role="TrG5h" value="BUTTON_SIZE" />
@@ -4849,6 +4855,17 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibYmUvT" role="jymVt" />
+    <node concept="3clFb_" id="64nUibYn1LC" role="jymVt">
+      <property role="TrG5h" value="drawWhenReadonly" />
+      <node concept="3clFbS" id="64nUibYn1LF" role="3clF47">
+        <node concept="3clFbF" id="64nUibYn3ZC" role="3cqZAp">
+          <node concept="3clFbT" id="64nUibYn3ZB" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="10P_77" id="64nUibYmYS3" role="3clF45" />
+      <node concept="3Tmbuc" id="64nUibYn4zN" role="1B3o_S" />
+    </node>
     <node concept="2tJIrI" id="7GMtHW6shWX" role="jymVt" />
     <node concept="3Tm1VV" id="7GMtHW6rH5R" role="1B3o_S" />
     <node concept="3uibUv" id="7GMtHW6rH7f" role="1zkMxy">
@@ -4874,6 +4891,24 @@
         </node>
       </node>
       <node concept="3clFbS" id="7GMtHW6rH9$" role="3clF47">
+        <node concept="3clFbJ" id="64nUibYmqDx" role="3cqZAp">
+          <node concept="3clFbS" id="64nUibYmqDy" role="3clFbx">
+            <node concept="3cpWs6" id="64nUibYmqDz" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="64nUibYn696" role="3clFbw">
+            <node concept="3fqX7Q" id="64nUibYn7xi" role="3uHU7w">
+              <node concept="1rXfSq" id="64nUibYn8n1" role="3fr31v">
+                <ref role="37wK5l" node="64nUibYn1LC" resolve="drawWhenReadonly" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="64nUibYmqD$" role="3uHU7B">
+              <ref role="37wK5l" to="3ahc:~ReadOnlyUtil.isCellReadOnly(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="isCellReadOnly" />
+              <ref role="1Pybhc" to="3ahc:~ReadOnlyUtil" resolve="ReadOnlyUtil" />
+              <node concept="Xjq3P" id="64nUibYmqD_" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="64nUibYmsdb" role="3cqZAp" />
         <node concept="3cpWs8" id="3a$gLzvLvUa" role="3cqZAp">
           <node concept="3cpWsn" id="3a$gLzvLvUb" role="3cpWs9">
             <property role="TrG5h" value="opacity" />
@@ -6536,6 +6571,7 @@
   </node>
   <node concept="3HP615" id="7GMtHW6y0oe">
     <property role="TrG5h" value="IDeleteHandler" />
+    <property role="3GE5qa" value="handlers" />
     <node concept="3clFb_" id="7GMtHW6y0q6" role="jymVt">
       <property role="TrG5h" value="delete" />
       <node concept="3cqZAl" id="7GMtHW6y0q8" role="3clF45" />
@@ -6556,6 +6592,7 @@
   </node>
   <node concept="3HP615" id="7GMtHW6y0BZ">
     <property role="TrG5h" value="IInsertHandler" />
+    <property role="3GE5qa" value="handlers" />
     <node concept="3clFb_" id="7GMtHW6y0DR" role="jymVt">
       <property role="TrG5h" value="insert" />
       <node concept="37vLTG" id="7GMtHW6y0En" role="3clF46">
@@ -6594,6 +6631,7 @@
   </node>
   <node concept="KRBjq" id="7GMtHW6$cne">
     <property role="TrG5h" value="BoundsExtensions" />
+    <property role="3GE5qa" value="bounds" />
     <node concept="ATzpf" id="7GMtHW6$cnn" role="a7sos">
       <property role="TrG5h" value="getCenterX" />
       <node concept="3Tm1VV" id="7GMtHW6$cno" role="1B3o_S" />
@@ -6834,6 +6872,7 @@
   </node>
   <node concept="312cEu" id="JAaUnmQa2J">
     <property role="TrG5h" value="DeleteButton" />
+    <property role="3GE5qa" value="buttons" />
     <node concept="2tJIrI" id="JAaUnmQa8K" role="jymVt" />
     <node concept="312cEg" id="JAaUnmVsak" role="jymVt">
       <property role="TrG5h" value="myCellToDelete" />
@@ -6900,6 +6939,17 @@
       <node concept="3cqZAl" id="JAaUnmQanX" role="3clF45" />
       <node concept="3Tm1VV" id="JAaUnmQanY" role="1B3o_S" />
       <node concept="3clFbS" id="JAaUnmQanZ" role="3clF47">
+        <node concept="3clFbJ" id="64nUibYl2_Q" role="3cqZAp">
+          <node concept="3clFbS" id="64nUibYl2_R" role="3clFbx">
+            <node concept="3cpWs6" id="64nUibYl2_S" role="3cqZAp" />
+          </node>
+          <node concept="2YIFZM" id="64nUibYl2_T" role="3clFbw">
+            <ref role="37wK5l" to="3ahc:~ReadOnlyUtil.isCellReadOnly(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="isCellReadOnly" />
+            <ref role="1Pybhc" to="3ahc:~ReadOnlyUtil" resolve="ReadOnlyUtil" />
+            <node concept="Xjq3P" id="64nUibYl2_U" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="64nUibYl2_P" role="3cqZAp" />
         <node concept="1QHqEO" id="JAaUnmQao0" role="3cqZAp">
           <node concept="1QHqEC" id="JAaUnmQao1" role="1QHqEI">
             <node concept="3clFbS" id="JAaUnmQao2" role="1bW5cS">
@@ -7257,6 +7307,17 @@
       <node concept="3cqZAl" id="JAaUnmQaoh" role="3clF45" />
       <node concept="3Tmbuc" id="JAaUnmQaoi" role="1B3o_S" />
       <node concept="3clFbS" id="JAaUnmQaoj" role="3clF47">
+        <node concept="3clFbJ" id="64nUibYlaKi" role="3cqZAp">
+          <node concept="3clFbS" id="64nUibYlaKj" role="3clFbx">
+            <node concept="3cpWs6" id="64nUibYlaKk" role="3cqZAp" />
+          </node>
+          <node concept="2YIFZM" id="64nUibYlaKl" role="3clFbw">
+            <ref role="37wK5l" to="3ahc:~ReadOnlyUtil.isCellReadOnly(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="isCellReadOnly" />
+            <ref role="1Pybhc" to="3ahc:~ReadOnlyUtil" resolve="ReadOnlyUtil" />
+            <node concept="Xjq3P" id="64nUibYlaKm" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="64nUibYlaKh" role="3cqZAp" />
         <node concept="3cpWs8" id="JAaUnmQaok" role="3cqZAp">
           <node concept="3cpWsn" id="JAaUnmQaol" role="3cpWs9">
             <property role="TrG5h" value="width" />
@@ -7435,6 +7496,7 @@
   </node>
   <node concept="312cEu" id="JAaUnmQw6j">
     <property role="TrG5h" value="InsertButton" />
+    <property role="3GE5qa" value="buttons" />
     <node concept="2tJIrI" id="JAaUnmQx9g" role="jymVt" />
     <node concept="312cEg" id="JAaUnmQwUm" role="jymVt">
       <property role="TrG5h" value="myInsertHandlers" />
@@ -7547,6 +7609,17 @@
       <node concept="3cqZAl" id="JAaUnmQwtv" role="3clF45" />
       <node concept="3Tm1VV" id="JAaUnmQwtw" role="1B3o_S" />
       <node concept="3clFbS" id="JAaUnmQwtx" role="3clF47">
+        <node concept="3clFbJ" id="64nUibYkaMh" role="3cqZAp">
+          <node concept="3clFbS" id="64nUibYkaMj" role="3clFbx">
+            <node concept="3cpWs6" id="64nUibYkryF" role="3cqZAp" />
+          </node>
+          <node concept="2YIFZM" id="64nUibYgdzM" role="3clFbw">
+            <ref role="37wK5l" to="3ahc:~ReadOnlyUtil.isCellReadOnly(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="isCellReadOnly" />
+            <ref role="1Pybhc" to="3ahc:~ReadOnlyUtil" resolve="ReadOnlyUtil" />
+            <node concept="Xjq3P" id="64nUibYgdzN" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="64nUibYk8cb" role="3cqZAp" />
         <node concept="3clFbJ" id="4Q9g1gQH1dE" role="3cqZAp">
           <node concept="3clFbS" id="4Q9g1gQH1dG" role="3clFbx">
             <node concept="3clFbH" id="4Q9g1gQH1dF" role="3cqZAp" />
@@ -7827,6 +7900,17 @@
       <node concept="3cqZAl" id="JAaUnmQwtO" role="3clF45" />
       <node concept="3Tmbuc" id="JAaUnmQwtP" role="1B3o_S" />
       <node concept="3clFbS" id="JAaUnmQwtQ" role="3clF47">
+        <node concept="3clFbJ" id="64nUibYl8GW" role="3cqZAp">
+          <node concept="3clFbS" id="64nUibYl8GX" role="3clFbx">
+            <node concept="3cpWs6" id="64nUibYl8GY" role="3cqZAp" />
+          </node>
+          <node concept="2YIFZM" id="64nUibYl8GZ" role="3clFbw">
+            <ref role="37wK5l" to="3ahc:~ReadOnlyUtil.isCellReadOnly(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="isCellReadOnly" />
+            <ref role="1Pybhc" to="3ahc:~ReadOnlyUtil" resolve="ReadOnlyUtil" />
+            <node concept="Xjq3P" id="64nUibYl8H0" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="64nUibYl3Zn" role="3cqZAp" />
         <node concept="3cpWs8" id="JAaUnmQwtR" role="3cqZAp">
           <node concept="3cpWsn" id="JAaUnmQwtS" role="3cpWs9">
             <property role="TrG5h" value="width" />
@@ -8956,6 +9040,7 @@
   </node>
   <node concept="312cEu" id="JAaUnmWSU9">
     <property role="TrG5h" value="FoldButton" />
+    <property role="3GE5qa" value="buttons" />
     <node concept="312cEg" id="JAaUnmWT65" role="jymVt">
       <property role="TrG5h" value="myCellToFold" />
       <node concept="3Tm6S6" id="JAaUnmWT66" role="1B3o_S" />
@@ -9321,14 +9406,31 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibYnf8R" role="jymVt" />
     <node concept="3Tm1VV" id="JAaUnmWSUa" role="1B3o_S" />
     <node concept="3uibUv" id="JAaUnmWSXZ" role="1zkMxy">
       <ref role="3uigEE" node="7GMtHW6rH5Q" resolve="Button" />
+    </node>
+    <node concept="3clFb_" id="64nUibYnfHA" role="jymVt">
+      <property role="TrG5h" value="drawWhenReadonly" />
+      <node concept="10P_77" id="64nUibYnfHE" role="3clF45" />
+      <node concept="3Tmbuc" id="64nUibYnfHF" role="1B3o_S" />
+      <node concept="3clFbS" id="64nUibYnfHG" role="3clF47">
+        <node concept="3clFbF" id="64nUibYnm0d" role="3cqZAp">
+          <node concept="3clFbT" id="64nUibYnm0c" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="64nUibYnfHH" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="4Q9g1gQNj1I">
     <property role="TrG5h" value="AbstractInsertHandler" />
     <property role="1sVAO0" value="true" />
+    <property role="3GE5qa" value="handlers" />
     <node concept="3Tm1VV" id="4Q9g1gQNj1J" role="1B3o_S" />
     <node concept="3uibUv" id="4Q9g1gQNj2x" role="EKbjA">
       <ref role="3uigEE" node="7GMtHW6y0BZ" resolve="IInsertHandler" />
@@ -17402,6 +17504,7 @@
   </node>
   <node concept="312cEu" id="148yUDVm1Jc">
     <property role="TrG5h" value="InvisibleButton" />
+    <property role="3GE5qa" value="buttons" />
     <node concept="2tJIrI" id="148yUDVm1Jd" role="jymVt" />
     <node concept="2tJIrI" id="148yUDVmJLL" role="jymVt" />
     <node concept="2tJIrI" id="148yUDVm1Jh" role="jymVt" />
@@ -17494,7 +17597,7 @@
     <node concept="2tJIrI" id="148yUDVm1Mp" role="jymVt" />
   </node>
   <node concept="312cEu" id="7fqbBL2vauY">
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="handlers" />
     <property role="TrG5h" value="DefaultInsertHandler" />
     <node concept="312cEg" id="7fqbBL2vcFz" role="jymVt">
       <property role="TrG5h" value="koncept" />
@@ -17848,6 +17951,7 @@
   </node>
   <node concept="312cEu" id="1QtoRzIu$3p">
     <property role="TrG5h" value="BoundsWithMargin" />
+    <property role="3GE5qa" value="bounds" />
     <node concept="312cEg" id="1QtoRzIu$nj" role="jymVt">
       <property role="TrG5h" value="bounds" />
       <node concept="3Tm6S6" id="1QtoRzIu$nk" role="1B3o_S" />
@@ -17999,6 +18103,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibY3qJX" role="jymVt" />
     <node concept="3clFb_" id="1QtoRzIu_58" role="jymVt">
       <property role="TrG5h" value="getY" />
       <node concept="10Oyi0" id="1QtoRzIu_59" role="3clF45" />
@@ -18024,6 +18129,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibY3r8n" role="jymVt" />
     <node concept="3clFb_" id="1QtoRzIu_5g" role="jymVt">
       <property role="TrG5h" value="getWidth" />
       <node concept="10Oyi0" id="1QtoRzIu_5h" role="3clF45" />
@@ -18054,6 +18160,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibY3rwL" role="jymVt" />
     <node concept="3clFb_" id="1QtoRzIu_5o" role="jymVt">
       <property role="TrG5h" value="getHeight" />
       <node concept="10Oyi0" id="1QtoRzIu_5p" role="3clF45" />
@@ -18084,6 +18191,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibY3rTb" role="jymVt" />
     <node concept="3clFb_" id="1QtoRzIu_5w" role="jymVt">
       <property role="TrG5h" value="setX" />
       <node concept="37vLTG" id="1QtoRzIu_5x" role="3clF46">
@@ -18116,6 +18224,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibY3sh_" role="jymVt" />
     <node concept="3clFb_" id="1QtoRzIu_5C" role="jymVt">
       <property role="TrG5h" value="setY" />
       <node concept="37vLTG" id="1QtoRzIu_5D" role="3clF46">
@@ -18148,6 +18257,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibY3sDZ" role="jymVt" />
     <node concept="3clFb_" id="1QtoRzIu_5K" role="jymVt">
       <property role="TrG5h" value="setWidth" />
       <node concept="37vLTG" id="1QtoRzIu_5L" role="3clF46">
@@ -18185,6 +18295,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibY3t2p" role="jymVt" />
     <node concept="3clFb_" id="1QtoRzIu_5S" role="jymVt">
       <property role="TrG5h" value="setHeight" />
       <node concept="37vLTG" id="1QtoRzIu_5T" role="3clF46">
@@ -18222,6 +18333,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="64nUibY3tqN" role="jymVt" />
     <node concept="3clFb_" id="1QtoRzIu_60" role="jymVt">
       <property role="TrG5h" value="moveTo" />
       <node concept="37vLTG" id="1QtoRzIu_61" role="3clF46">

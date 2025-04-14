@@ -22286,6 +22286,16 @@
             <ref role="3bR37D" node="6SVXTgIel8z" resolve="de.itemis.mps.editor.celllayout.styles" />
           </node>
         </node>
+        <node concept="1SiIV0" id="3_x89bRtD4y" role="3bR37C">
+          <node concept="3bR9La" id="3_x89bRtD4z" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3_x89bRtD4$" role="3bR37C">
+          <node concept="3bR9La" id="3_x89bRtD4_" role="1SiIV1">
+            <ref role="3bR37D" node="6SVXTgIejl1" resolve="de.itemis.mps.editor.celllayout.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7qi8mU1OzZB" role="2G$12L">
         <property role="BnDLt" value="true" />

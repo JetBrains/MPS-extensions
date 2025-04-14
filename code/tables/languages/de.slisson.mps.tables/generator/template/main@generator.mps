@@ -1422,7 +1422,7 @@
                     <ref role="3cqZAo" node="1rJc_ytgKUx" resolve="grid" />
                   </node>
                   <node concept="liA8E" id="3olMEllxiCS" role="2OqNvi">
-                    <ref role="37wK5l" to="6dpw:3olMEllwclW" resolve="setStyle" />
+                    <ref role="37wK5l" to="6dpw:S1tcgxMc9D" resolve="setOrAddStyle" />
                     <node concept="37vLTw" id="3olMEllxiH2" role="37wK5m">
                       <ref role="3cqZAo" node="5ryePYd8Jfp" resolve="style" />
                     </node>
@@ -2219,6 +2219,51 @@
                                 </node>
                                 <node concept="5jKBG" id="6hpM9fmFEbe" role="lGtFl">
                                   <ref role="v9R2y" to="tpc3:4v1iCryNDHi" resolve="template_cellSetupBlock" />
+                                </node>
+                              </node>
+                              <node concept="3cpWs8" id="25DLT7wc7XP" role="3cqZAp">
+                                <node concept="3cpWsn" id="25DLT7wc7XQ" role="3cpWs9">
+                                  <property role="TrG5h" value="factory" />
+                                  <node concept="3uibUv" id="25DLT7wc7XR" role="1tU5fm">
+                                    <ref role="3uigEE" to="oghc:7AHcygoqpzC" resolve="ITableStyleFactory" />
+                                  </node>
+                                  <node concept="2ShNRf" id="25DLT7wkdrW" role="33vP2m">
+                                    <node concept="HV5vD" id="25DLT7wkdrX" role="2ShVmc">
+                                      <ref role="HV5vE" to="oghc:7AHcygoswPK" resolve="TableStyleFactoryDummy" />
+                                    </node>
+                                    <node concept="5jKBG" id="25DLT7wkdrY" role="lGtFl">
+                                      <ref role="v9R2y" node="4UkcdCuFKlk" resolve="reduce_IStylable" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbF" id="25DLT7w7RLT" role="3cqZAp">
+                                <node concept="2OqwBi" id="25DLT7w81xA" role="3clFbG">
+                                  <node concept="2OqwBi" id="25DLT7w7Vlz" role="2Oq$k0">
+                                    <node concept="37vLTw" id="25DLT7w7RLR" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="1dAqnm8$DVo" resolve="editorCell" />
+                                    </node>
+                                    <node concept="liA8E" id="25DLT7w7ZqS" role="2OqNvi">
+                                      <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle()" resolve="getStyle" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="25DLT7w857t" role="2OqNvi">
+                                    <ref role="37wK5l" to="hox0:~Style.putAll(jetbrains.mps.openapi.editor.style.Style)" resolve="putAll" />
+                                    <node concept="2OqwBi" id="25DLT7wcmGC" role="37wK5m">
+                                      <node concept="37vLTw" id="25DLT7wclD8" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="25DLT7wc7XQ" resolve="factory" />
+                                      </node>
+                                      <node concept="liA8E" id="25DLT7wcnSu" role="2OqNvi">
+                                        <ref role="37wK5l" to="oghc:7AHcygoqpVD" resolve="createStyle" />
+                                        <node concept="3cmrfG" id="25DLT7wcoMk" role="37wK5m">
+                                          <property role="3cmrfH" value="0" />
+                                        </node>
+                                        <node concept="3cmrfG" id="25DLT7wctfu" role="37wK5m">
+                                          <property role="3cmrfH" value="0" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                               <node concept="3clFbF" id="1dAqnm8tX5_" role="3cqZAp">
@@ -7868,7 +7913,7 @@
                         <ref role="3cqZAo" node="1U60oYvtFg2" resolve="gridElement" />
                       </node>
                       <node concept="liA8E" id="7CiSlGyl0Ea" role="2OqNvi">
-                        <ref role="37wK5l" to="6dpw:3olMEllwadv" resolve="setStyle" />
+                        <ref role="37wK5l" to="6dpw:S1tcgxN1bb" resolve="setOrAddStyle" />
                         <node concept="2OqwBi" id="7CiSlGyl1jc" role="37wK5m">
                           <node concept="2ShNRf" id="7CiSlGyl1jd" role="2Oq$k0">
                             <node concept="HV5vD" id="7CiSlGyl1je" role="2ShVmc">
@@ -9079,7 +9124,7 @@
                 <ref role="3cqZAo" node="3olMEllzLUq" resolve="grid" />
               </node>
               <node concept="liA8E" id="3olMEll$n$q" role="2OqNvi">
-                <ref role="37wK5l" to="6dpw:3olMEllwclW" resolve="setStyle" />
+                <ref role="37wK5l" to="6dpw:S1tcgxMc9D" resolve="setOrAddStyle" />
                 <node concept="37vLTw" id="3olMEll$nAt" role="37wK5m">
                   <ref role="3cqZAo" node="5ryePYcSAnC" resolve="style" />
                 </node>
@@ -9623,7 +9668,7 @@
                 <ref role="3cqZAo" node="3olMEll$wgs" resolve="grid" />
               </node>
               <node concept="liA8E" id="3olMEll$wi6" role="2OqNvi">
-                <ref role="37wK5l" to="6dpw:3olMEllwclW" resolve="setStyle" />
+                <ref role="37wK5l" to="6dpw:S1tcgxMc9D" resolve="setOrAddStyle" />
                 <node concept="37vLTw" id="3olMEll$wi7" role="37wK5m">
                   <ref role="3cqZAo" node="3olMEll$whU" resolve="style" />
                 </node>

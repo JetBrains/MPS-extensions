@@ -234,12 +234,12 @@
     </node>
   </node>
   <node concept="24kQdi" id="frLjuvPGID">
-    <ref role="1XX52x" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+    <ref role="1XX52x" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadOnlyCell" />
     <node concept="3EZMnI" id="frLjuvPGIE" role="2wV5jI">
       <node concept="2iRkQZ" id="frLjuvPGIF" role="2iSdaV" />
       <node concept="3EZMnI" id="frLjuvPGIG" role="3EZMnx">
         <node concept="3F0ifn" id="frLjuvPHyu" role="3EZMnx">
-          <property role="3F0ifm" value="show intention in ready-only cell:" />
+          <property role="3F0ifm" value="show intention in read-only cell:" />
         </node>
         <node concept="3F0A7n" id="frLjuvPGII" role="3EZMnx">
           <ref role="1NtTu8" to="tegv:frLjuvPGIB" resolve="flag" />

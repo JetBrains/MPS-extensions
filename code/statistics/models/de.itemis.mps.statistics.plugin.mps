@@ -222,7 +222,7 @@
   </registry>
   <node concept="sE7Ow" id="5Mtf2XriAiR">
     <property role="TrG5h" value="GatherUsedLanguages" />
-    <property role="2uzpH1" value="Collect used languages" />
+    <property role="2uzpH1" value="Collect Used Languages" />
     <property role="1rBW0U" value="true" />
     <node concept="tnohg" id="5Mtf2XriAiS" role="tncku">
       <node concept="3clFbS" id="5Mtf2XriAiT" role="2VODD2">

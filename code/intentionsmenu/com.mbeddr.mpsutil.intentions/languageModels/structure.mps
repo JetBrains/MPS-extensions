@@ -2,7 +2,7 @@
 <model ref="r:b91d2412-f094-4e55-8db6-3c782d7edc40(com.mbeddr.mpsutil.intentions.structure)">
   <persistence version="9" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -56,7 +56,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="frLjuvP$7P">
-    <property role="TrG5h" value="ShowIntentionInReadyOnlyCell" />
+    <property role="TrG5h" value="ShowIntentionInReadOnlyCell" />
     <property role="EcuMT" value="278032644708909557" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyi" id="frLjuvPGIB" role="1TKVEl">
@@ -65,7 +65,7 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="M6xJ_" id="frLjuvP$7Q" role="lGtFl">
-      <property role="Hh88m" value="showIntentionInReadyOnlyCell" />
+      <property role="Hh88m" value="showIntentionInReadOnlyCell" />
       <node concept="trNpa" id="frLjuvP$7R" role="EQaZv">
         <ref role="trN6q" to="tp3j:2c3oNEsfcpP" resolve="BaseIntentionDeclaration" />
       </node>

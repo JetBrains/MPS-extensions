@@ -1,7 +1,7 @@
 # MPS Extensions
 
 <a href="https://mps.builds.itemis.cloud/project.html?projectId=Mbeddr2_Mbeddr_Gradle_MpsExtensions&tab=projectOverview"><img src="https://mps.builds.itemis.cloud/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
-![JetBrains MPS 2024.1](https://img.shields.io/badge/JetBrains%20MPS-2024.1-orange)
+![JetBrains MPS Master](https://img.shields.io/badge/JetBrains%20MPS-Master-orange)
 
 [![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
@@ -66,3 +66,7 @@ If that happens, some migrations were not executed in the project. Run `./gradle
 - Linux solution 2: `xsel --clipboard --output | sed 's/^.\{13\}//' | git apply`
 
 Please select the correct target branch for the PR. The master branch builds against the MPS master and is most likely not the branch you want to contribute to. After the PR is merged, a bot will automatically open a PR to merge the changes into the next maintenance branch. You don't have to do anything at the last step.
+
+## Automatic Updating Of Dependencies
+
+The [Renovate](https://docs.renovatebot.com/) bot updates the dependencies automatically for the master branch or optionally other branches and creates PRs for those changes. The configuration can be found at [renovate.json5](https://github.com/JetBrains/MPS-extensions/blob/master/.github/renovate.json5). The documentation for the configuration can be found at https://docs.renovatebot.com/configuration-options/.

@@ -72,6 +72,7 @@
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <property id="6461604478897396236" name="updateInBackground" index="22ra45" />
         <property id="1204991940915" name="caption" index="2f7twF" />
         <property id="1213283637680" name="isPopup" index="1XlLyE" />
         <child id="1204991552650" name="modifier" index="2f5YQi" />
@@ -4061,6 +4062,7 @@
     <property role="TrG5h" value="ShadowGroup" />
     <property role="1XlLyE" value="true" />
     <property role="2f7twF" value="Shadow Models" />
+    <property role="22ra45" value="true" />
     <node concept="ftmFs" id="43OnoQB0wr1" role="ftER_">
       <node concept="2a7GMi" id="7zI2priTJ1J" role="ftvYc" />
       <node concept="tCFHf" id="7zI2priTCpN" role="ftvYc">

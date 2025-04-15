@@ -149,7 +149,7 @@
       </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
-      <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ig" index="230_S" />
+      <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ng" index="230_S" />
       <concept id="1912777765298260981" name="de.itemis.model.merge.structure.ConceptMergingPolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
         <child id="7137735640372265540" name="idFunction" index="21DrV" />

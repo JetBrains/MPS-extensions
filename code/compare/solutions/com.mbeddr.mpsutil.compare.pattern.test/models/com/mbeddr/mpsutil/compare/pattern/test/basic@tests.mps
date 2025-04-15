@@ -186,7 +186,7 @@
     <language id="17566462-d837-4552-874c-64e45c10778a" name="com.mbeddr.mpsutil.compare.pattern">
       <concept id="665537614208925411" name="com.mbeddr.mpsutil.compare.pattern.structure.MemberAnnotation" flags="ng" index="uEgwc" />
       <concept id="3935692745220220029" name="com.mbeddr.mpsutil.compare.pattern.structure.GetConceptOperation" flags="ng" index="xs8ve" />
-      <concept id="3560698633098300404" name="com.mbeddr.mpsutil.compare.pattern.structure.IInitPart" flags="ngI" index="2FoiXY">
+      <concept id="3560698633098300404" name="com.mbeddr.mpsutil.compare.pattern.structure.IInitPart" flags="ng" index="2FoiXY">
         <child id="5455284157993911094" name="expression" index="2pJxcZ" />
         <child id="665537614208925694" name="annotation" index="uEg$h" />
       </concept>
@@ -216,7 +216,7 @@
       <concept id="91081616816046016" name="com.mbeddr.mpsutil.compare.pattern.structure.PatternRefExpression" flags="ng" index="1QCeBZ">
         <child id="91081616816046017" name="expression" index="1QCeBY" />
       </concept>
-      <concept id="91081616816150757" name="com.mbeddr.mpsutil.compare.pattern.structure.PatternType" flags="ig" index="1QDCVq">
+      <concept id="91081616816150757" name="com.mbeddr.mpsutil.compare.pattern.structure.PatternType" flags="ng" index="1QDCVq">
         <reference id="91081616816150758" name="concept" index="1QDCVp" />
       </concept>
     </language>
@@ -298,7 +298,7 @@
         <reference id="665537614209771460" name="pattern" index="uBx4F" />
         <child id="665537614210671828" name="expression" index="uz58V" />
       </concept>
-      <concept id="665537614208854349" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.MatchResultType" flags="ig" index="uE1Yy">
+      <concept id="665537614208854349" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.MatchResultType" flags="ng" index="uE1Yy">
         <reference id="665537614209425697" name="pattern" index="uClve" />
       </concept>
       <concept id="665537614208925379" name="com.mbeddr.mpsutil.compare.pattern.baselang.structure.NamedGetTarget" flags="ng" index="uEgwG" />

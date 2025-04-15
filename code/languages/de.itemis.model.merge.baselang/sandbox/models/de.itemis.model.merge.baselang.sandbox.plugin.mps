@@ -51,7 +51,7 @@
       </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
-      <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ig" index="230_S" />
+      <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ng" index="230_S" />
       <concept id="7137735640371849272" name="de.itemis.model.merge.structure.IdFunctionParam" flags="ng" index="233M7" />
       <concept id="1912777765298260981" name="de.itemis.model.merge.structure.ConceptMergingPolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
@@ -68,7 +68,7 @@
         <child id="1912777765298654157" name="action" index="1orWrN" />
       </concept>
       <concept id="2076377354676997475" name="de.itemis.model.merge.structure.ActionFunctionRightParam" flags="ng" index="3DScHg" />
-      <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
+      <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ng" index="3DZp98" />
       <concept id="2076377354676914333" name="de.itemis.model.merge.structure.ActionFunctionLeftParam" flags="ng" index="3DZwUI" />
     </language>
   </registry>

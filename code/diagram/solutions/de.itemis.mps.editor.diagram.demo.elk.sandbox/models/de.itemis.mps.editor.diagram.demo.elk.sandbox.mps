@@ -105,7 +105,7 @@
         <property id="3662141892374567264" name="nodeSpacing" index="36KDf5" />
         <child id="3662141892374568027" name="padding" index="36KDrY" />
       </concept>
-      <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ngI" index="36TQxy">
+      <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ng" index="36TQxy">
         <property id="3662141892371757000" name="topdownHierarchicalNodeAspectRatio" index="31dVPH" />
         <property id="3662141892371761113" name="topdownScaleFactor" index="31dWPW" />
         <property id="3662141892374569619" name="topdownHierarchicalNodeWidth" index="36KEwQ" />
@@ -180,7 +180,7 @@
       <concept id="6747382324549521158" name="de.itemis.mps.editor.diagram.demo.elk.structure.BoxTest" flags="ng" index="379oHZ" />
       <concept id="6747382324546318490" name="de.itemis.mps.editor.diagram.demo.elk.structure.TreeTest" flags="ng" index="37XFjz" />
       <concept id="6747382324546254300" name="de.itemis.mps.editor.diagram.demo.elk.structure.ForceTest" flags="ng" index="37XV6_" />
-      <concept id="3601881183937328129" name="de.itemis.mps.editor.diagram.demo.elk.structure.IBaseGraphTest" flags="ngI" index="1qgKvr">
+      <concept id="3601881183937328129" name="de.itemis.mps.editor.diagram.demo.elk.structure.IBaseGraphTest" flags="ng" index="1qgKvr">
         <property id="5080030193841777929" name="applyEdgeStyles" index="2mjkA2" />
         <property id="5080030193841778556" name="applyLabelStyles" index="2mjkJR" />
         <property id="5080030193841777355" name="applyNodeStyles" index="2mjkT0" />

@@ -268,7 +268,7 @@
       <concept id="7363578995839169063" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StringLiteral" flags="ng" index="1kHs8M">
         <property id="7363578995839169078" name="value" index="1kHs8z" />
       </concept>
-      <concept id="7363578995839169062" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.IExpression" flags="ngI" index="1kHs8N" />
+      <concept id="7363578995839169062" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.IExpression" flags="ng" index="1kHs8N" />
       <concept id="2392588809326078475" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_SetOptionalNextToChild" flags="ng" index="1og8jj">
         <child id="2392588809326079109" name="expr2" index="1og89t" />
         <child id="2392588809326078680" name="expr1" index="1og8g0" />

@@ -26,20 +26,20 @@
       <concept id="6733065834258977599" name="de.slisson.mps.conditionalEditor.structure.EditorComponentParameterReference" flags="ng" index="2D8Zic">
         <reference id="6733065834258977600" name="parameter" index="2D8ZjN" />
       </concept>
-      <concept id="6733065834259135109" name="de.slisson.mps.conditionalEditor.structure.CellModel_ComponentWithParameters" flags="sg" stub="6733065834259138549" index="2D9hOQ">
+      <concept id="6733065834259135109" name="de.slisson.mps.conditionalEditor.structure.CellModel_ComponentWithParameters" flags="ng" index="2D9hOQ">
         <child id="6733065834259138558" name="arguments" index="2D9m1d" />
       </concept>
-      <concept id="6733065834252958387" name="de.slisson.mps.conditionalEditor.structure.EditorComponentDeclarationWithParameters" flags="ig" index="2IxXO0">
+      <concept id="6733065834252958387" name="de.slisson.mps.conditionalEditor.structure.EditorComponentDeclarationWithParameters" flags="ng" index="2IxXO0">
         <child id="6733065834252994198" name="parameters" index="2Iya4_" />
       </concept>
       <concept id="2877762237607058140" name="de.slisson.mps.conditionalEditor.structure.NextEditor" flags="ng" index="Rtstu" />
-      <concept id="2877762237606985499" name="de.slisson.mps.conditionalEditor.structure.EditorCondition" flags="ig" index="RtMap" />
-      <concept id="2877762237606934069" name="de.slisson.mps.conditionalEditor.structure.ConditionalConceptEditorDeclaration" flags="ig" index="RtYIR">
+      <concept id="2877762237606985499" name="de.slisson.mps.conditionalEditor.structure.EditorCondition" flags="ng" index="RtMap" />
+      <concept id="2877762237606934069" name="de.slisson.mps.conditionalEditor.structure.ConditionalConceptEditorDeclaration" flags="ng" index="RtYIR">
         <property id="2877762237607078183" name="priority" index="Rtri_" />
         <property id="8436908933892732653" name="uniqueName" index="3NULOk" />
         <child id="2877762237607015161" name="condition" index="RtEXV" />
       </concept>
-      <concept id="1452226863088593034" name="de.slisson.mps.conditionalEditor.structure.ComponentArgument" flags="ig" index="1nyV0D">
+      <concept id="1452226863088593034" name="de.slisson.mps.conditionalEditor.structure.ComponentArgument" flags="ng" index="1nyV0D">
         <reference id="1452226863088593886" name="variable" index="1nyVdX" />
       </concept>
     </language>

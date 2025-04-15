@@ -4,21 +4,6 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
-## April 2025
-
-### Fixed
-
-- *com.mbeddr.mpsutil.treenotation*: Tree cells now don't show insert/delete buttons when they are read-only.
-- *de.slisson.mps.tables*: Styles on tables, vertical, horizontal, vertical%, partial table and query should not also be applied. A known issue is that the most specified style is not always applied.
-
-### Changed
-
-- *de.itemis.mps.editor.diagram* : The version of the ELK layouter was changed to 0.10.0
-
-### Added
-
-- *de.itemis.mps.editor.diagram*: Debug information can be accessed by adding  *de.itemis.mps.editor.diagram.runtime.jgraph* to Help->Diagnostic Tools->Debug Log Settings. The general log file will then contain a message that points to the log file: "A debug log for the diagram language is available at x". In the same folder are also debug files from the ELK layouter itself.
-
 ## March 2025
 
 ### Fixed
@@ -28,7 +13,6 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.editor.diagram*: Diagram boxes not properly support borders.
 - *com.mbeddr.mpsutil.grammarcells*: Cells with multiple transformation texts (mainly optional cells) now match the pattern independent of the order of the elements.
 - *de.slisson.mps.editor.multiline*: a StringIndexOutOfBoundsException was fixed that happened when trying to delete the last character of the multiline cell
-- *com.mbeddr.mpsutil.treenotation*: The delete button now also work for leaf cells correctly.
 
 ### Added
 

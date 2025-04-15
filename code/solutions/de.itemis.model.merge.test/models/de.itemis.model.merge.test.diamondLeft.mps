@@ -12,7 +12,7 @@
         <property id="5900870464460619218" name="something" index="a8euY" />
       </concept>
       <concept id="9112015721041276140" name="de.itemis.model.merge.diamond.structure.Bottom" flags="ng" index="I1cVD" />
-      <concept id="9112015721041276139" name="de.itemis.model.merge.diamond.structure.Top" flags="ng" index="I1cVI">
+      <concept id="9112015721041276139" name="de.itemis.model.merge.diamond.structure.Top" flags="ngI" index="I1cVI">
         <property id="9112015721041703530" name="nada" index="I0P1J" />
         <property id="9112015721041276141" name="dummy" index="I1cVC" />
         <child id="1683059382312355164" name="singleChild" index="1tLEzb" />

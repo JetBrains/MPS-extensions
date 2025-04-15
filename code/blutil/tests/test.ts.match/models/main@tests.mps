@@ -125,7 +125,7 @@
       <concept id="3154253959808812804" name="com.mbeddr.mpsutil.blutil.structure.MatchExpression" flags="ng" index="2u02T7">
         <child id="3154253959808812805" name="body" index="2u02T6" />
       </concept>
-      <concept id="3154253959808746620" name="com.mbeddr.mpsutil.blutil.structure.IMatcher" flags="ng" index="2u0MOZ">
+      <concept id="3154253959808746620" name="com.mbeddr.mpsutil.blutil.structure.IMatcher" flags="ngI" index="2u0MOZ">
         <child id="3154253959808754590" name="clauses" index="2u0KFt" />
         <child id="3154253959808754589" name="candidate" index="2u0KFu" />
       </concept>

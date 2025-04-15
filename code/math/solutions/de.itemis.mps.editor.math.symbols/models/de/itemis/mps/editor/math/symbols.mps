@@ -110,13 +110,13 @@
     </language>
     <language id="766348f7-6a67-4b85-9323-384840132299" name="de.itemis.mps.editor.math">
       <concept id="175930839493260656" name="de.itemis.mps.editor.math.structure.Parameter_Graphics" flags="ng" index="2rujPq" />
-      <concept id="9120555111512623985" name="de.itemis.mps.editor.math.structure.UpdateDimensionFunction" flags="ng" index="1AxZfW" />
+      <concept id="9120555111512623985" name="de.itemis.mps.editor.math.structure.UpdateDimensionFunction" flags="ig" index="1AxZfW" />
       <concept id="9120555111512624407" name="de.itemis.mps.editor.math.structure.Parameter_Dimension" flags="ng" index="1AxZmq" />
       <concept id="9120555111506484308" name="de.itemis.mps.editor.math.structure.PredefinedMathSymbol" flags="ng" index="1D9ijp">
         <child id="9120555111512650991" name="updateDimensionFunction" index="1AxKLy" />
         <child id="9120555111506958622" name="paintFunction" index="1Db66j" />
       </concept>
-      <concept id="9120555111506484690" name="de.itemis.mps.editor.math.structure.SymbolPaintFunction" flags="ng" index="1D9ilv" />
+      <concept id="9120555111506484690" name="de.itemis.mps.editor.math.structure.SymbolPaintFunction" flags="ig" index="1D9ilv" />
       <concept id="9120555111506485003" name="de.itemis.mps.editor.math.structure.Parameter_Bounds" flags="ng" index="1D9iu6" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">

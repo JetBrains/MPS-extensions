@@ -124,8 +124,8 @@
       </concept>
     </language>
     <language id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline">
-      <concept id="8006371471054135775" name="de.slisson.mps.editor.multiline.structure.CellModel_Multiline" flags="ng" index="2v7bAL" />
-      <concept id="9175692738071695071" name="de.slisson.mps.editor.multiline.structure.QueryFunction_Content" flags="ng" index="1jGTkL" />
+      <concept id="8006371471054135775" name="de.slisson.mps.editor.multiline.structure.CellModel_Multiline" flags="sg" stub="8664183491941389655" index="2v7bAL" />
+      <concept id="9175692738071695071" name="de.slisson.mps.editor.multiline.structure.QueryFunction_Content" flags="ig" index="1jGTkL" />
       <concept id="2197626119621156059" name="de.slisson.mps.editor.multiline.structure.CellModel_Multiline_Constant" flags="ng" index="3Jn1mk">
         <child id="9175692738071697533" name="contentProvider" index="1jGSej" />
       </concept>

@@ -87,7 +87,7 @@
         <reference id="934534792594006923" name="variable" index="1adK7U" />
         <child id="934534792594006925" name="value" index="1adK7W" />
       </concept>
-      <concept id="477038604670626401" name="de.slisson.mps.tables.demolang.structure.ICanHaveStickyHeaders" flags="ng" index="1p5a9O">
+      <concept id="477038604670626401" name="de.slisson.mps.tables.demolang.structure.ICanHaveStickyHeaders" flags="ngI" index="1p5a9O">
         <property id="477038604670636722" name="stickyHeaders" index="1p55EB" />
       </concept>
       <concept id="4618647476138240641" name="de.slisson.mps.tables.demolang.structure.DecisionTableResult" flags="ng" index="3HSt7D">

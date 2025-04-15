@@ -44,13 +44,13 @@
       </concept>
     </language>
     <language id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool">
-      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="ng" index="27S6Sx">
+      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" stub="416014060004381438" index="27S6Sx">
         <property id="1160488491229" name="iconPathTrue" index="MwhBj" />
         <property id="2320610800095784425" name="iconPathFalse" index="1x$9Fj" />
         <property id="2320610800103694400" name="iconScaleTrue" index="1yattU" />
         <property id="2320610800103694404" name="iconScaleFalse" index="1yattY" />
       </concept>
-      <concept id="7122083600695857782" name="de.itemis.mps.editor.bool.structure.CellModel_BooleanText" flags="ng" index="2aMyGU">
+      <concept id="7122083600695857782" name="de.itemis.mps.editor.bool.structure.CellModel_BooleanText" flags="sg" stub="416014060004530854" index="2aMyGU">
         <property id="7122083600696909496" name="falseText" index="2aYyvO" />
         <property id="7122083600696906118" name="trueText" index="2aYyza" />
       </concept>

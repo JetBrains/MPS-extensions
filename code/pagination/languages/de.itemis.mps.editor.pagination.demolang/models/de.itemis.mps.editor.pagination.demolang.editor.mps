@@ -96,7 +96,7 @@
         <child id="2646108724982387168" name="collectionToPaginate" index="2T6WKX" />
         <child id="3596385240284637673" name="pageSize" index="1ztOiV" />
       </concept>
-      <concept id="3596385240284619805" name="de.itemis.mps.editor.pagination.structure.QueryFunction_NodeInt" flags="ng" index="1ztS_f" />
+      <concept id="3596385240284619805" name="de.itemis.mps.editor.pagination.structure.QueryFunction_NodeInt" flags="ig" index="1ztS_f" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">

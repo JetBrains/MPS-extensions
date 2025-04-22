@@ -4670,9 +4670,7 @@
       <property role="TrG5h" value="debug" />
       <node concept="3Tm6S6" id="68fAZXx3IFB" role="1B3o_S" />
       <node concept="10P_77" id="68fAZXx49h5" role="1tU5fm" />
-      <node concept="3clFbT" id="68fAZXx4jJ$" role="33vP2m">
-        <property role="3clFbU" value="true" />
-      </node>
+      <node concept="3clFbT" id="68fAZXx4jJ$" role="33vP2m" />
     </node>
     <node concept="312cEg" id="MlKEQL6HyH" role="jymVt">
       <property role="TrG5h" value="cleanPolicy" />

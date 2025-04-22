@@ -51,7 +51,7 @@
       <property role="IQ2ns" value="4728270771317647750" />
       <property role="20kJfa" value="propertyRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+      <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
     </node>
   </node>
 </model>

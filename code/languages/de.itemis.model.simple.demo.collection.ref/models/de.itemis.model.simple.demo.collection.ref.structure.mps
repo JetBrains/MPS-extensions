@@ -42,7 +42,7 @@
     <property role="EcuMT" value="3137718304200740002" />
     <property role="TrG5h" value="ConceptWithCollectionOfRef" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2IbqyLv84Mz" role="1TKVEi">
       <property role="IQ2ns" value="3137718304200740003" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -59,7 +59,7 @@
   <node concept="1TIwiD" id="uhx_u9OUFE">
     <property role="EcuMT" value="545364740421167850" />
     <property role="TrG5h" value="NoRootReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="46ucjseg2A6" role="1TKVEi">
       <property role="IQ2ns" value="4728270771317647750" />
       <property role="20kJfa" value="propertyRef" />

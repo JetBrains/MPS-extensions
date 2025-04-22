@@ -52,7 +52,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="collectionChild" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+      <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
     </node>
   </node>
 </model>

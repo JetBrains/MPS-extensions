@@ -79,7 +79,7 @@
     <node concept="1oluLK" id="6_mEBr3QEAD" role="1olsr8" />
     <node concept="1oluLK" id="6_mEBr3QEPQ" role="1olsr8" />
     <node concept="1olsrb" id="32ggi2DCs9A" role="1olsr8">
-      <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+      <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
       <node concept="230_S" id="32ggi2DCsgc" role="21DrV">
         <node concept="3clFbS" id="32ggi2DCsgd" role="2VODD2">
           <node concept="3clFbF" id="7VpkmRQdojp" role="3cqZAp">

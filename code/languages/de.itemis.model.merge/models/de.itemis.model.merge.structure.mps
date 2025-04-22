@@ -57,7 +57,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -538,7 +538,7 @@
     <property role="EcuMT" value="8296503505635699426" />
     <property role="3GE5qa" value="policies" />
     <property role="TrG5h" value="RootMergingPolicy" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7bQf9VFlR$a" role="1TKVEi">
       <property role="IQ2ns" value="8283875217845483786" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

@@ -408,8 +408,8 @@
         <node concept="3clFbF" id="2BHsX06MEky" role="3cqZAp">
           <node concept="2OqwBi" id="2BHsX06MEkv" role="3clFbG">
             <node concept="10M0yZ" id="2BHsX06MEkw" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="2BHsX06MEkx" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
@@ -469,8 +469,8 @@
             <node concept="3clFbF" id="2BHsX06MtoH" role="3cqZAp">
               <node concept="2OqwBi" id="2BHsX06MtoE" role="3clFbG">
                 <node concept="10M0yZ" id="2BHsX06MtoF" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" />
-                  <ref role="3cqZAo" to="wyt6:~System.out" />
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="2BHsX06MtoG" role="2OqNvi">
                   <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
@@ -529,19 +529,19 @@
         <node concept="3clFbF" id="2BHsX07dpkA" role="3cqZAp">
           <node concept="2OqwBi" id="2BHsX07dpkz" role="3clFbG">
             <node concept="10M0yZ" id="2BHsX07dpk$" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="2BHsX07dpk_" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println()" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println()" resolve="println" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="2BHsX06Mg$A" role="3cqZAp">
           <node concept="2OqwBi" id="2BHsX06Mg$z" role="3clFbG">
             <node concept="10M0yZ" id="2BHsX06Mg$$" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="2BHsX06Mg$_" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />

@@ -112,7 +112,7 @@
       <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
         <property id="8654221991637384184" name="pattern" index="3qWCbO" />
       </concept>
-      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
+      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ngI" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="5610619299014309452" name="jetbrains.mps.build.structure.BuildSource_JavaExternalJarRef" flags="ng" index="3yrxFa">
@@ -131,7 +131,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -184,7 +184,6 @@
       <concept id="2105528055260548241" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_FolderWithSources" flags="ng" index="1bldCd" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
         <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
-        <property id="2928402740576877067" name="javaCode" index="3vZFNd" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
@@ -913,7 +912,6 @@
         <property role="TrG5h" value="MPS.ThirdParty" />
         <property role="3LESm3" value="39983771-4e9b-401b-a1a9-1da6c777c843" />
         <property role="BnDLt" value="true" />
-        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="3$A0JaN5bwY" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3$A0JaN5chM" role="iGT6I">
@@ -977,6 +975,19 @@
             </node>
             <node concept="3yrxFa" id="7_iF8sOIXKE" role="2gdwQb">
               <ref role="3yrxFb" to="ffeo:4SADOBb5p5j" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5ziaHPEuD0d" role="3bR37C">
+          <node concept="1BurEX" id="5ziaHPEuD0e" role="1SiIV1">
+            <node concept="398BVA" id="5ziaHPEuD0f" role="1BurEY">
+              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+              <node concept="2Ry0Ak" id="5ziaHPEuD0g" role="iGT6I">
+                <property role="2Ry0Am" value="util.jar" />
+              </node>
+            </node>
+            <node concept="3yrxFa" id="5ziaHPEuD0h" role="2gdwQb">
+              <ref role="3yrxFb" to="ffeo:5DAo_J9amU0" />
             </node>
           </node>
         </node>
@@ -13208,6 +13219,7 @@
       <node concept="1E1JtA" id="6bkzxtWPDx1" role="2G$12L">
         <property role="TrG5h" value="de.itemis.stubs.batik" />
         <property role="3LESm3" value="563a0770-eb88-4f4f-83ed-f708776fc2fe" />
+        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="6bkzxtWPDx2" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="6bkzxtWPDx3" role="iGT6I">
@@ -13291,7 +13303,7 @@
       <node concept="1E1JtA" id="2sSK94l$Dwp" role="2G$12L">
         <property role="TrG5h" value="de.itemis.stubs.xml" />
         <property role="3LESm3" value="124d077c-270f-42ca-8bf8-bee488dc96dc" />
-        <property role="3vZFNd" value="3kCd1ud3JDF/none" />
+        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="2sSK94l$Dwq" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="2sSK94l$Dwr" role="iGT6I">
@@ -17555,6 +17567,15 @@
             <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
             <node concept="2Ry0Ak" id="7_iF8sOJA89" role="iGT6I">
               <property role="2Ry0Am" value="lib.jar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3yLZsm" id="5ziaHPEv3Mp" role="3yL2VB">
+          <property role="3yLZsk" value="${platform_lib}/util.jar" />
+          <node concept="398BVA" id="5ziaHPEv3Mq" role="3yLZsn">
+            <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+            <node concept="2Ry0Ak" id="5ziaHPEv3Mr" role="iGT6I">
+              <property role="2Ry0Am" value="util.jar" />
             </node>
           </node>
         </node>

@@ -467,7 +467,7 @@ cyclonedxBom {
     outputName = "sbom"
     outputFormat = "json"
     includeLicenseText = false
-    includeConfigs = ["diagram_lib","batik","commons","collections"]
+    includeConfigs = ["diagram_lib","batik","commons","collections","xml_lib"]
 }
 
 clean.dependsOn cleanMps

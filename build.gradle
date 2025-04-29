@@ -275,39 +275,6 @@ afterEvaluate {
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
-task resolved_diagram_dependencies(type: Copy) {
-    from configurations.diagram_lib
-    into file('code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
-
-    // Strip version numbers from file names
-    rename { filename ->
-        def ra = configurations.diagram_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
-        String finalName
-        if (ra.classifier != null) {
-            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
-        } else {
-            finalName = "${ra.name}.${ra.extension}"
-        }
-        return finalName
-    }
-}
-
-task resolved_batik_dependencies(type: Sync) {
-    from configurations.batik
-    into file('code/batik/solutions/lib')
-
-    // Strip version numbers from file names
-    rename { filename ->
-        def ra = configurations.batik.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
-        String finalName
-        if (ra.classifier != null) {
-            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
-        } else {
-            finalName = "${ra.name}.${ra.extension}"
-        }
-        return finalName
-    }
-}
 def createResolveTask(taskName, configurationName, outputDir) {
     tasks.register(taskName, Sync) {
         from configurations."${configurationName}"
@@ -326,28 +293,14 @@ def createResolveTask(taskName, configurationName, outputDir) {
     }
 }
 
+createResolveTask('resolveXml_lib', 'xml_lib', 'code/xml/solutions/lib')
+createResolveTask('resolveDiagram_lib', 'diagram_lib', 'code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
+createResolveTask('resolveBatik', 'batik', 'code/batik/solutions/lib')
 createResolveTask('resolveCommons', 'commons', 'code/apache-commons/solutions/org.apache.commons/lib')
 createResolveTask('resolveCollections', 'collections', 'code/shadowmodels/solutions/de.q60.mps.collections.libs/lib')
 
-task resolved_xml_dependencies(type: Sync) {
-    from configurations.xml_lib
-    into file('code/xml/solutions/lib')
-
-    // Strip version numbers from file names
-    rename { filename ->
-        def ra = configurations.xml_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
-        String finalName
-        if (ra.classifier != null) {
-            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
-        } else {
-            finalName = "${ra.name}.${ra.extension}"
-        }
-        return finalName
-    }
-}
-
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, 'resolved_diagram_dependencies', 'resolved_batik_dependencies', 'resolved_xml_dependencies', 'resolveCommons', 'resolveCollections'
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, 'resolveDiagram_lib', 'resolveBatik', 'resolveXml_lib', 'resolveCommons', 'resolveCollections'
     script "$rootDir/scripts/build.xml"
 }
 

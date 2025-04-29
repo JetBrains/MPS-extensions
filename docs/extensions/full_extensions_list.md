@@ -11,7 +11,7 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 
 | Name                                | Description                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------|
-| *de.itemis.mps.structurecheck*     | adds a statement to baselanguage that allows to check the structure of a node |
+| *de.itemis.mps.structurecheck*      | adds a statement to baselanguage that allows to check the structure of a node |
 | *com.mbeddr.mpsutil.blutil*         | utilities for baselanguage                                                    |
 | *com.mbeddr.mpsutil.blutil.genutil* | baselanguage generator utilities                                              |
 
@@ -27,16 +27,15 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 | *de.itemis.mps.editor.dropdown*               | additional editor cells for displaying a dropdown menu                                                                                                                                                                                                                                                                                        |
 | *de.itemis.mps.editor.enumeration*            | additional editor cells for displaying a group of checkboxes as an enum                                                                                                                                                                                                                                                                       |
 | *de.itemis.mps.editor.math*                   | mathematical notation for MPS Editors                                                                                                                                                                                                                                                                                                         |
-| *de.itemis.mps.tooltips* (deprecated/removed) | MPS editor extension to show tooltips at certain parts in the editor                                                                                                                                                                                                                                                                          |
 | *de.itemis.mps.celllayout*                    | celllayout extensions                                                                                                                                                                                                                                                                                                                         |
 | *de.itemis.mps.grammarcells*                  | A grammar-like abstraction for writing editors for textual patterns such as flags, operations, parentheses, etc. Specifying a grammar cell is compact but has enough semantic richness to automatically generate actions (wrappers, side-transforms, substitutions, and delete actions) for the pattern you specified in the grammar cell.    |
 | *de.slisson.mps.conditionalEditor*            | A conditional editor is almost like an aspect. It can be applied "around" existing editor, and whether it applies or not is determined by a condition and the applicable concept (similar to a pointcut in AO). Using this approach, it is now possible to essentially decorate any editor with any decoration based on arbitrary conditions. |
 | *de.slisson.mps.editor.multiline*             | an editor component for properties that supports wrapping of long lines and new lines by pressing ENTER                                                                                                                                                                                                                                       |
 | *de.slisson.mps.richtext*                     | an editor component for mixing plain text and MPS nodes                                                                                                                                                                                                                                                                                       |
 | *de.slisson.mps.tables*                       | tabular notation for MPS editors                                                                                                                                                                                                                                                                                                              |
-| *de.itemis.mps.linenumbers.plugin*            | line numbers for the editor                                                                                                                                                                                                                                                                                                                   |
+| *de.itemis.mps.linenumbers*                   | line numbers for the editor                                                                                                                                                                                                                                                                                                                   |
 | *de.itemis.mps.editor.htmlcell*               | HTML-based editor cells                                                                                                                                                                                                                                                                                                                       |
-
+| *de.itemis.mps.editor.pagination*             | An editor cell for paginating collections of nodes                                                                                                                                                                                                                                                                                            |
 
 **Generator**
 
@@ -51,13 +50,17 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 |---------------------------|--------------------------------------------------------------------------------------------------------|
 | *de.q60.mps.shadowmodels* | a shadow model is a non-editable model derived from existing models by model-to-model transformations. |
 | *org.modelix.model*       | alternative model API with better support for persistent data structures                               |
+| *de.itemis.mps.changelog* | a language for creating changelogs and exporting them to markdown                                      |
 
 **Stubs**
 
-| Name                 | Description                                                                                           |
-|----------------------|-------------------------------------------------------------------------------------------------------|
-| *MPS.ThirdParty*     | jars and stubs used by MPS (it includes the previous standalone Jackson stubs for json serialization) |
-| *org.apache.commons* | jars and their stubs to use Apache Commons Library in MPS                                             |
+| Name                    | Description                                                                                           |
+|-------------------------|-------------------------------------------------------------------------------------------------------|
+| *MPS.ThirdParty*        | jars and stubs used by MPS (it includes the previous standalone Jackson stubs for json serialization) |
+| *MPS.Kotlin*            | jars and stubs for the Kotlin standard library                                                        |
+| *org.apache.commons*    | jars and their stubs to use Apache Commons Library in MPS                                             |
+| *de.itemis.stubs.xml*   | jars and their stubs to use the Apache Xerces library in MPS                                          |
+| *de.itemis.stubs.batik* | jars and their stubs to use the Apache Batik library in MPS                                           |
 
 **Tools, Views and other Plugins**
 
@@ -73,9 +76,9 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 | *com.mbeddr.mpsutil.intentions*          | enables the grouping of different intentions under one label                                                                                                                                                          |
 | *com.mbeddr.mpsutil.modellisteners*      | Mechanism for installing callbacks that listen to changes in specific parts of models. Use only when you have no other MPS mechanism for achieving what you need, because many listeners can quickly eat performance. |
 | *com.mbeddr.mpsutil.serializer*          | helper classes that can serialize nodes to xml and deserialize them from xml                                                                                                                                          |
-| *de.slisson.mps.hacks* (deprecated)      | various small extensions: editor utilities, generation plan extensions for better cross-model generation, reflection language                                                                                         |
 | *de.itemis.mps.modelmerger* (deprecated) | extension that allows to merge models                                                                                                                                                                                 |
 | *de.itemis.model.merge*                  | extension that allows to merge models                                                                                                                                                                                 |
 | *de.itemis.mps.nodeversioning*           | The node versioning extension gives support for storing different states/versions of a node inside of the model                                                                                                       |
-
-
+| *de.itemis.mps.debug*                    | A language for debugging editors                                                                                                                                                                                      |
+| *de.itemis.mps.spellcheck*               | A language for customizing spell checking in the editor                                                                                                                                                               |
+| *de.itemis.mps.statistics*               | A language for collecting usage statistics of languages                                                                                                                                                               |

@@ -173,8 +173,11 @@ configurations {
         exclude(group: 'com.google.guava')
         attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
     }
+    xml_lib {
+        exclude(group: 'system')
+        exclude(module: 'xml-apis')
+    }
     batik {
-        exclude(group: 'xml-apis')
         exclude(group: 'commons-io')
         exclude(group: 'commons-logging')
     }
@@ -209,9 +212,10 @@ dependencies {
     diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
     diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
 
-    batik ("org.apache.xmlgraphics:batik-svggen:1.17")
-    batik ("org.apache.xmlgraphics:batik-dom:1.17")
+    batik ("org.apache.xmlgraphics:batik-all:1.12")
 
+    xml_lib("xerces:xercesImpl:2.12.2")
+    xml_lib("xml-apis:xml-apis-ext:1.3.04")
     commons("org.apache.commons:commons-csv:1.0")
     commons("commons-io:commons-io:2.4")
     commons("org.apache.commons:commons-lang3:3.3.2")
@@ -289,13 +293,14 @@ def createResolveTask(taskName, configurationName, outputDir) {
     }
 }
 
-createResolveTask('resolveDiagram', 'diagram_lib', 'code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
+createResolveTask('resolveXml_lib', 'xml_lib', 'code/xml/solutions/lib')
+createResolveTask('resolveDiagram_lib', 'diagram_lib', 'code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
 createResolveTask('resolveBatik', 'batik', 'code/batik/solutions/lib')
 createResolveTask('resolveCommons', 'commons', 'code/apache-commons/solutions/org.apache.commons/lib')
 createResolveTask('resolveCollections', 'collections', 'code/shadowmodels/solutions/de.q60.mps.collections.libs/lib')
 
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, 'resolveDiagram', 'resolveBatik', 'resolveCommons', 'resolveCollections'
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, 'resolveDiagram_lib', 'resolveBatik', 'resolveXml_lib', 'resolveCommons', 'resolveCollections'
     script "$rootDir/scripts/build.xml"
 }
 
@@ -410,12 +415,12 @@ task cleanMps(type: Delete) {
     delete fileTree(dir: projectDir, include: ["**/classes_gen/**", "**/source_gen/**", "**/source_gen.caches/**", "tmp/**", "artifacts/**"])
 }
 
-cyclonedxBom { 
+cyclonedxBom {
     destination = reportsDir
     outputName = "sbom"
     outputFormat = "json"
     includeLicenseText = false
-    includeConfigs = ["diagram_lib","batik","commons","collections"]
+    includeConfigs = ["diagram_lib","batik","commons","collections","xml_lib"]
 }
 
 clean.dependsOn cleanMps

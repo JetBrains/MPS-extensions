@@ -18226,6 +18226,72 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="2f7xPXzHwm6" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.de.slisson.mps.tables.runtime" />
+        <property role="3LESm3" value="49592127-72ac-4bd8-85ec-afb542cd18d5" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="398BVA" id="2f7xPXzHwm7" role="3LF7KH">
+          <ref role="398BVh" node="5mH$9t6e_IG" resolve="tables.home" />
+          <node concept="2Ry0Ak" id="2f7xPXzHwm8" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="2f7xPXzHwm9" role="2Ry0An">
+              <property role="2Ry0Am" value="test.de.slisson.mps.tables.runtime" />
+              <node concept="2Ry0Ak" id="2f7xPXzHwnH" role="2Ry0An">
+                <property role="2Ry0Am" value="test.de.slisson.mps.tables.runtime.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="2f7xPXzHwmd" role="3bR31x">
+          <node concept="3LXTmp" id="2f7xPXzHwme" role="3rtmxm">
+            <node concept="3qWCbU" id="2f7xPXzHwmf" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="2f7xPXzHwmg" role="3LXTmr">
+              <ref role="398BVh" node="5mH$9t6e_IG" resolve="tables.home" />
+              <node concept="2Ry0Ak" id="2f7xPXzHwmh" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2f7xPXzHwQ1" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.slisson.mps.tables.runtime" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2f7xPXzHwmj" role="3bR37C">
+          <node concept="3bR9La" id="2f7xPXzHwmk" role="1SiIV1">
+            <ref role="3bR37D" node="29so9Vb$6T5" resolve="de.slisson.mps.tables.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2f7xPXzHwmp" role="3bR37C">
+          <node concept="3bR9La" id="2f7xPXzHwmq" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="2f7xPXzHwmr" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2f7xPXzHwr5" role="1HemKq">
+            <node concept="398BVA" id="2f7xPXzHwqK" role="3LXTmr">
+              <ref role="398BVh" node="5mH$9t6e_IG" resolve="tables.home" />
+              <node concept="2Ry0Ak" id="2f7xPXzHwqL" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2f7xPXzHwqM" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.slisson.mps.tables.runtime" />
+                  <node concept="2Ry0Ak" id="2f7xPXzHwqN" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2f7xPXzHwr6" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtD" id="5mH$9t6eA1O" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.slisson.mps.tables.demolang" />
@@ -24379,6 +24445,9 @@
       <node concept="L2wRC" id="5mH$9t6eCBc" role="39821P">
         <ref role="L2wRA" node="5mH$9t6e_Fl" resolve="test.de.slisson.mps.tables" />
       </node>
+      <node concept="L2wRC" id="2f7xPXzHwTX" role="39821P">
+        <ref role="L2wRA" node="2f7xPXzHwm6" resolve="test.de.slisson.mps.tables.runtime" />
+      </node>
       <node concept="L2wRC" id="5mH$9t6eE6L" role="39821P">
         <ref role="L2wRA" node="5mH$9t6eA1O" resolve="de.slisson.mps.tables.demolang" />
       </node>
@@ -24527,9 +24596,6 @@
       </node>
       <node concept="22LTRM" id="7qi8mU1OzVQ" role="22LTRK">
         <ref role="22LTRN" node="6$6tsX_CJdr" resolve="test.de.itemis.mps.editor.diagram.solution" />
-      </node>
-      <node concept="22LTRM" id="5mH$9t6eAr5" role="22LTRK">
-        <ref role="22LTRN" node="5mH$9t6e_Fl" resolve="test.de.slisson.mps.tables" />
       </node>
       <node concept="22LTRM" id="7i5Cc6Lw3P$" role="22LTRK">
         <ref role="22LTRN" node="5mH$9t6eAsB" resolve="test.de.itemis.mps.editor.celllayout" />

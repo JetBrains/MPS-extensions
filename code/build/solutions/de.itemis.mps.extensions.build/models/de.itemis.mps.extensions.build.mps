@@ -3503,9 +3503,6 @@
       <node concept="m$_yC" id="5QhEsDNAXgZ" role="m$_yJ">
         <ref role="m$_y1" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
       </node>
-      <node concept="m$_yC" id="61MeLv2qI11" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:ymnOULATpW" />
-      </node>
       <node concept="3_J27D" id="29so9Vb$6Tq" role="m_cZH">
         <node concept="3Mxwew" id="29so9Vb$6Tr" role="3MwsjC">
           <property role="3MwjfP" value="mps-tables" />
@@ -3872,7 +3869,7 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="61MeLv2qHeX" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
       <node concept="3_J27D" id="6Y0V2RJk3uD" role="m_cZH">
         <node concept="3Mxwew" id="6Y0V2RJk3uE" role="3MwsjC">
@@ -6018,7 +6015,7 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="61MeLv2vKoK" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
       <node concept="2iUeEo" id="6Fx0OSkEsI8" role="2iVFfd">
         <property role="2iUeEt" value="itemis AG" />
@@ -6829,7 +6826,7 @@
         <ref role="m$_y1" to="ffeo:RJsmGEieyQ" resolve="jetbrains.mps.vcs" />
       </node>
       <node concept="m$_yC" id="61MeLv2PTWm" role="m$_yJ">
-        <ref role="m$_y1" node="F1NWDqr5lJ" />
+        <ref role="m$_y1" node="F1NWDqr5lJ" resolve="de.itemis.mps.grammarcells" />
       </node>
     </node>
     <node concept="2G$12M" id="2NyZxKpUBtX" role="3989C9">
@@ -7437,7 +7434,7 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="61MeLv3a2r_" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbLe59" />
+        <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
       </node>
       <node concept="2iUeEo" id="2QgPOUCDft6" role="2iVFfd">
         <property role="2iUeEt" value="itemis AG" />
@@ -14135,7 +14132,7 @@
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
       <node concept="m$_yC" id="61MeLv2PUTc" role="m$_yJ">
-        <ref role="m$_y1" node="6hpTCZQdXQX" />
+        <ref role="m$_y1" node="6hpTCZQdXQX" resolve="com.mbeddr.mpsutil.editor.querylist" />
       </node>
       <node concept="3_J27D" id="TAJODzUQvv" role="m_cZH">
         <node concept="3Mxwew" id="TAJODzUQvw" role="3MwsjC">
@@ -15911,7 +15908,7 @@
         <ref role="m$_y1" to="ffeo:5xhjlkpPhJu" resolve="jetbrains.mps.ide.httpsupport" />
       </node>
       <node concept="m$_yC" id="61MeLv2UWRC" role="m$_yJ">
-        <ref role="m$_y1" node="F1NWDqr5lJ" />
+        <ref role="m$_y1" node="F1NWDqr5lJ" resolve="de.itemis.mps.grammarcells" />
       </node>
     </node>
     <node concept="2G$12M" id="1$KnWE8eXEC" role="3989C9">

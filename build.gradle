@@ -397,6 +397,7 @@ task packageExtensions(type: Zip, dependsOn: [run_tests, cyclonedxBom]) {
     }
     from(reportsDir) {
         include 'sbom.json'
+        into 'de.itemis.mps.extensions'
     }
 }
 

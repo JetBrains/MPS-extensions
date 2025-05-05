@@ -54,6 +54,11 @@
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
       <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ig" index="230_S" />
       <concept id="7137735640371849272" name="de.itemis.model.merge.structure.IdFunctionParam" flags="ng" index="233M7" />
+      <concept id="8296503505635699426" name="de.itemis.model.merge.structure.RootMergingPolicy" flags="ng" index="S4vcp">
+        <child id="8283875217851759211" name="existingOnlyLeft" index="2pggrP" />
+        <child id="8283875217851768860" name="existingOnlyRight" index="2pglM2" />
+        <child id="8283875217845483786" name="existingInBothSides" index="2pCkmk" />
+      </concept>
       <concept id="1912777765298260981" name="de.itemis.model.merge.structure.ConceptMergingPolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
         <child id="7137735640372265540" name="idFunction" index="21DrV" />
@@ -61,6 +66,7 @@
       </concept>
       <concept id="1912777765298266446" name="de.itemis.model.merge.structure.EmptyMergingPolicy" flags="ng" index="1oluLK" />
       <concept id="1912777765298163335" name="de.itemis.model.merge.structure.ModelMergingPolicy" flags="ng" index="1olOeT">
+        <child id="8296503505624958651" name="rootPolicies" index="TF1X0" />
         <child id="1912777765298260982" name="policies" index="1olsr8" />
         <child id="2222162468665533253" name="lang" index="3WPhuS" />
       </concept>
@@ -72,6 +78,13 @@
       <concept id="2076377354676997475" name="de.itemis.model.merge.structure.ActionFunctionRightParam" flags="ng" index="3DScHg" />
       <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
       <concept id="2076377354676914333" name="de.itemis.model.merge.structure.ActionFunctionLeftParam" flags="ng" index="3DZwUI" />
+      <concept id="8422540920009055851" name="de.itemis.model.merge.structure.Add" flags="ng" index="3JHzSW" />
+      <concept id="8422540920006539447" name="de.itemis.model.merge.structure.Auto" flags="ng" index="3JN9zw" />
+      <concept id="8422540920006539446" name="de.itemis.model.merge.structure.Drop" flags="ng" index="3JN9zx" />
+      <concept id="2222162468661306426" name="de.itemis.model.merge.structure.SubPolicyContainer" flags="ng" index="3Z5p37">
+        <property id="2222162468661306427" name="subPolicy" index="3Z5p36" />
+        <child id="2222162468661405207" name="action" index="3Z4xbE" />
+      </concept>
     </language>
   </registry>
   <node concept="1olOeT" id="3xLnOvEDNj_">
@@ -129,6 +142,20 @@
       <node concept="2V$Bhx" id="6_mEBr3QEC7" role="2V$M_3">
         <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ca2b" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.property" />
+      </node>
+    </node>
+    <node concept="S4vcp" id="$OThFCr7C9" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCr7Ca" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCr7Cd" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCr7Cb" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCr7Ce" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCr7Cc" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCr7Cf" role="3Z4xbE" />
       </node>
     </node>
   </node>

@@ -426,6 +426,20 @@
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.children" />
       </node>
     </node>
+    <node concept="S4vcp" id="$OThFCraLd" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCraLe" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCraLh" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCraLf" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCraLi" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCraLg" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCraLj" role="3Z4xbE" />
+      </node>
+    </node>
   </node>
   <node concept="1olOeT" id="3pc485VUmUI">
     <property role="TrG5h" value="ChildMergerAuto" />
@@ -515,6 +529,20 @@
       <node concept="2V$Bhx" id="6_mEBr3QEVw" role="2V$M_3">
         <property role="2V$B1T" value="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.children" />
+      </node>
+    </node>
+    <node concept="S4vcp" id="$OThFCraPR" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCraPS" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCraPV" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCraPT" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCraPW" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCraPU" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCraPX" role="3Z4xbE" />
       </node>
     </node>
   </node>
@@ -614,6 +642,20 @@
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection" />
       </node>
     </node>
+    <node concept="S4vcp" id="$OThFCrb7I" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrb7J" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrb7M" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrb7K" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrb7N" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrb7L" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrb7O" role="3Z4xbE" />
+      </node>
+    </node>
   </node>
   <node concept="1olOeT" id="77Ot_5ah$Cn">
     <property role="TrG5h" value="CollectionChildMergerDropL" />
@@ -711,6 +753,20 @@
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection" />
       </node>
     </node>
+    <node concept="S4vcp" id="$OThFCrchm" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrchn" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrchq" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrcho" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrchr" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrchp" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrchs" role="3Z4xbE" />
+      </node>
+    </node>
   </node>
   <node concept="1olOeT" id="77Ot_5aj$1b">
     <property role="TrG5h" value="CollectionChildMergerDropR" />
@@ -806,6 +862,20 @@
       <node concept="2V$Bhx" id="77Ot_5aj$1O" role="2V$M_3">
         <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ce8b" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection" />
+      </node>
+    </node>
+    <node concept="S4vcp" id="$OThFCrcni" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrcnj" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrcnm" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrcnk" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrcnn" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrcnl" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrcno" role="3Z4xbE" />
       </node>
     </node>
   </node>
@@ -937,6 +1007,20 @@
       <node concept="2V$Bhx" id="77Ot_5alyVi" role="2V$M_3">
         <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ce8b" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection" />
+      </node>
+    </node>
+    <node concept="S4vcp" id="$OThFCrbdD" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrbdE" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrbdH" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrbdF" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrbdI" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrbdG" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrbdJ" role="3Z4xbE" />
       </node>
     </node>
   </node>
@@ -1090,6 +1174,20 @@
         </node>
       </node>
     </node>
+    <node concept="S4vcp" id="$OThFCrcbm" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrcbn" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrcbq" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrcbo" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrcbr" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrcbp" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrcbs" role="3Z4xbE" />
+      </node>
+    </node>
   </node>
   <node concept="1olOeT" id="30FY4ILQVHn">
     <property role="TrG5h" value="ChildMergerAutoAndManualAuto" />
@@ -1239,6 +1337,20 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="S4vcp" id="$OThFCrb1K" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrb1L" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrb1O" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrb1M" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrb1P" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrb1N" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrb1Q" role="3Z4xbE" />
       </node>
     </node>
   </node>
@@ -1393,6 +1505,20 @@
       <node concept="2V$Bhx" id="30FY4IM3W2Z" role="2V$M_3">
         <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ce8b" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection" />
+      </node>
+    </node>
+    <node concept="S4vcp" id="$OThFCraVO" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCraVP" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCraVS" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCraVQ" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCraVT" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCraVR" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCraVU" role="3Z4xbE" />
       </node>
     </node>
   </node>
@@ -1798,6 +1924,20 @@
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.enums" />
       </node>
     </node>
+    <node concept="S4vcp" id="$OThFCrcIB" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrcIC" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrcIF" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrcID" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrcIG" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrcIE" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrcIH" role="3Z4xbE" />
+      </node>
+    </node>
   </node>
   <node concept="1olOeT" id="2PSagEnH49t">
     <property role="TrG5h" value="MergeConceptWithEnumLeft" />
@@ -1838,6 +1978,20 @@
       <node concept="2V$Bhx" id="2PSagEnH49H" role="2V$M_3">
         <property role="2V$B1T" value="bf491fd2-a197-456a-8354-b3b225d4e871" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.enums" />
+      </node>
+    </node>
+    <node concept="S4vcp" id="$OThFCrcN5" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrcN6" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrcN9" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrcN7" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrcNa" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrcN8" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrcNb" role="3Z4xbE" />
       </node>
     </node>
   </node>

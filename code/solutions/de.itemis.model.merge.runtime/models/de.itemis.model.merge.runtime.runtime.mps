@@ -4672,12 +4672,6 @@
       <node concept="10P_77" id="68fAZXx49h5" role="1tU5fm" />
       <node concept="3clFbT" id="68fAZXx4jJ$" role="33vP2m" />
     </node>
-    <node concept="312cEg" id="MlKEQL6HyH" role="jymVt">
-      <property role="TrG5h" value="cleanPolicy" />
-      <node concept="3Tm6S6" id="MlKEQL5PN1" role="1B3o_S" />
-      <node concept="10P_77" id="MlKEQL6wCJ" role="1tU5fm" />
-      <node concept="3clFbT" id="MlKEQL7mG5" role="33vP2m" />
-    </node>
     <node concept="312cEg" id="68fAZXx9BRN" role="jymVt">
       <property role="TrG5h" value="indent" />
       <node concept="3Tm6S6" id="68fAZXx9axo" role="1B3o_S" />
@@ -4784,6 +4778,27 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="$OThFClE1T" role="3cqZAp">
+          <node concept="3clFbS" id="$OThFClE1U" role="3clFbx">
+            <node concept="3clFbF" id="$OThFClE1V" role="3cqZAp">
+              <node concept="1rXfSq" id="$OThFClE1W" role="3clFbG">
+                <ref role="37wK5l" node="39BQPFIiZGZ" resolve="setupDefaultRootPolicies" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="$OThFClE21" role="3clFbw">
+            <node concept="10Nm6u" id="$OThFClE22" role="3uHU7w" />
+            <node concept="2OqwBi" id="$OThFClE23" role="3uHU7B">
+              <node concept="37vLTw" id="$OThFClE24" role="2Oq$k0">
+                <ref role="3cqZAo" node="7bQf9VFyvPs" resolve="policy" />
+              </node>
+              <node concept="3TrEf2" id="$OThFClE25" role="2OqNvi">
+                <ref role="3Tt5mk" to="mopj:7cz6vHazKqV" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="$OThFClq$R" role="3cqZAp" />
         <node concept="3clFbF" id="3a5mjFgYz5U" role="3cqZAp">
           <node concept="37vLTI" id="3a5mjFgY_zy" role="3clFbG">
             <node concept="37vLTw" id="3a5mjFgYBzJ" role="37vLTx">
@@ -4988,37 +5003,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7bQf9VGNc3u" role="3cqZAp" />
-        <node concept="3clFbJ" id="6BRHf224VN_" role="3cqZAp">
-          <node concept="3clFbS" id="6BRHf224VNB" role="3clFbx">
-            <node concept="3clFbF" id="39BQPFImHWV" role="3cqZAp">
-              <node concept="1rXfSq" id="39BQPFIiZH2" role="3clFbG">
-                <ref role="37wK5l" node="39BQPFIiZGZ" resolve="setupDefaultRootPolicies" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="39BQPFIlRJO" role="3cqZAp">
-              <node concept="37vLTI" id="39BQPFIiZGS" role="3clFbG">
-                <node concept="3clFbT" id="39BQPFIiZGT" role="37vLTx">
-                  <property role="3clFbU" value="true" />
-                </node>
-                <node concept="37vLTw" id="39BQPFIiZGU" role="37vLTJ">
-                  <ref role="3cqZAo" node="MlKEQL6HyH" resolve="cleanPolicy" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="6BRHf225GbC" role="3clFbw">
-            <node concept="10Nm6u" id="6BRHf225Hfp" role="3uHU7w" />
-            <node concept="2OqwBi" id="6BRHf225jMP" role="3uHU7B">
-              <node concept="37vLTw" id="6BRHf2258CB" role="2Oq$k0">
-                <ref role="3cqZAo" node="7bQf9VFyvPs" resolve="policy" />
-              </node>
-              <node concept="3TrEf2" id="6BRHf225w3E" role="2OqNvi">
-                <ref role="3Tt5mk" to="mopj:7cz6vHazKqV" resolve="rootPolicies" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="7bQf9VKjXSw" role="3cqZAp" />
         <node concept="3cpWs8" id="$OThFBuLVr" role="3cqZAp">
           <node concept="3cpWsn" id="$OThFBuLVs" role="3cpWs9">
@@ -5100,7 +5084,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="$OThFByxOD" role="3cqZAp" />
+        <node concept="3clFbH" id="$OThFCta71" role="3cqZAp" />
         <node concept="3cpWs8" id="$OThFBy1Vo" role="3cqZAp">
           <node concept="3cpWsn" id="$OThFBy1Vp" role="3cpWs9">
             <property role="TrG5h" value="leftRootsInBothSides" />
@@ -5312,40 +5296,6 @@
             <node concept="3cmrfG" id="7bQf9VGfGZ7" role="37wK5m">
               <property role="3cmrfH" value="-2" />
             </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="MlKEQLajLx" role="3cqZAp" />
-        <node concept="3clFbJ" id="MlKEQLaFFa" role="3cqZAp">
-          <node concept="3clFbS" id="MlKEQLaFFc" role="3clFbx">
-            <node concept="3clFbF" id="MlKEQL92I9" role="3cqZAp">
-              <node concept="2OqwBi" id="MlKEQL9vG2" role="3clFbG">
-                <node concept="2OqwBi" id="MlKEQL92Ib" role="2Oq$k0">
-                  <node concept="37vLTw" id="MlKEQL92Ic" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7bQf9VFyvPs" resolve="policy" />
-                  </node>
-                  <node concept="3TrEf2" id="MlKEQL92Id" role="2OqNvi">
-                    <ref role="3Tt5mk" to="mopj:7cz6vHazKqV" resolve="rootPolicies" />
-                  </node>
-                </node>
-                <node concept="3YRAZt" id="MlKEQL9SNt" role="2OqNvi" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="MlKEQLgqjE" role="3cqZAp">
-              <node concept="37vLTI" id="MlKEQLgOXr" role="3clFbG">
-                <node concept="10Nm6u" id="MlKEQLhfUt" role="37vLTx" />
-                <node concept="2OqwBi" id="MlKEQLgqjG" role="37vLTJ">
-                  <node concept="37vLTw" id="MlKEQLgqjH" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7bQf9VFyvPs" resolve="policy" />
-                  </node>
-                  <node concept="3TrEf2" id="MlKEQLgqjI" role="2OqNvi">
-                    <ref role="3Tt5mk" to="mopj:7cz6vHazKqV" resolve="rootPolicies" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="37vLTw" id="MlKEQLb5pL" role="3clFbw">
-            <ref role="3cqZAo" node="MlKEQL6HyH" resolve="cleanPolicy" />
           </node>
         </node>
         <node concept="3clFbH" id="MlKEQL8URf" role="3cqZAp" />

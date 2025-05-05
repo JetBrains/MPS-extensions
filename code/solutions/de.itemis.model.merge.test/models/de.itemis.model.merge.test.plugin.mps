@@ -127,6 +127,11 @@
       <concept id="2120062183195930062" name="de.itemis.model.merge.structure.ActionCollectionFunctionRightParam" flags="ng" index="2Iixis" />
       <concept id="2120062183195394475" name="de.itemis.model.merge.structure.ActionCollectionFunctionLeftParam" flags="ng" index="2IszzT" />
       <concept id="2120062183195260387" name="de.itemis.model.merge.structure.ManualCollectionAction" flags="ig" index="2Iv4ML" />
+      <concept id="8296503505635699426" name="de.itemis.model.merge.structure.RootMergingPolicy" flags="ng" index="S4vcp">
+        <child id="8283875217851759211" name="existingOnlyLeft" index="2pggrP" />
+        <child id="8283875217851768860" name="existingOnlyRight" index="2pglM2" />
+        <child id="8283875217845483786" name="existingInBothSides" index="2pCkmk" />
+      </concept>
       <concept id="7555554651740524246" name="de.itemis.model.merge.structure.Right" flags="ng" index="3iOvoU" />
       <concept id="1912777765298260981" name="de.itemis.model.merge.structure.ConceptMergingPolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
@@ -137,6 +142,7 @@
       </concept>
       <concept id="1912777765298266446" name="de.itemis.model.merge.structure.EmptyMergingPolicy" flags="ng" index="1oluLK" />
       <concept id="1912777765298163335" name="de.itemis.model.merge.structure.ModelMergingPolicy" flags="ng" index="1olOeT">
+        <child id="8296503505624958651" name="rootPolicies" index="TF1X0" />
         <child id="1912777765298260982" name="policies" index="1olsr8" />
         <child id="2222162468665533253" name="lang" index="3WPhuS" />
       </concept>
@@ -1164,6 +1170,20 @@
         </node>
       </node>
     </node>
+    <node concept="S4vcp" id="$OThFCrfsX" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrfsY" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrft1" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrfsZ" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrft2" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrft0" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrft3" role="3Z4xbE" />
+      </node>
+    </node>
   </node>
   <node concept="1olOeT" id="4JVExmLIpdI">
     <property role="TrG5h" value="ModelmergerTestLangPolicy2" />
@@ -1409,6 +1429,20 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="S4vcp" id="$OThFCrfuy" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCrfuz" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCrfuA" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrfu$" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JN9zx" id="$OThFCrfuB" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCrfu_" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCrfuC" role="3Z4xbE" />
       </node>
     </node>
   </node>

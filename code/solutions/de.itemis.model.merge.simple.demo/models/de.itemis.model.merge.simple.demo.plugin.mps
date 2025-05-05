@@ -1537,6 +1537,20 @@
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection" />
       </node>
     </node>
+    <node concept="S4vcp" id="$OThFCg3JR" role="TF1X0">
+      <node concept="3Z5p37" id="$OThFCg3JS" role="2pCkmk">
+        <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+        <node concept="3JN9zw" id="$OThFCg4iv" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCg3JT" role="2pggrP">
+        <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+        <node concept="3JHL42" id="$OThFCg4iw" role="3Z4xbE" />
+      </node>
+      <node concept="3Z5p37" id="$OThFCg3JU" role="2pglM2">
+        <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+        <node concept="3JHzSW" id="$OThFCg4ix" role="3Z4xbE" />
+      </node>
+    </node>
   </node>
   <node concept="1olOeT" id="1Tugx$DriK">
     <property role="TrG5h" value="RefMergeManual" />

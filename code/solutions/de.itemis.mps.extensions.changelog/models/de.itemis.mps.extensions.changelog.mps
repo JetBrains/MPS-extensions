@@ -233,6 +233,48 @@
         </node>
       </node>
     </node>
+    <node concept="15bmVD" id="5i$JLes82u9" role="15bmVC">
+      <node concept="15ShDW" id="5i$JLes82u6" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgAy/May" />
+        <property role="15ShDw" value="2025" />
+      </node>
+      <node concept="15bAme" id="5i$JLes82u7" role="15bAlL">
+        <node concept="2DRihI" id="5i$JLes82u8" role="15bAlk">
+          <node concept="15Ami3" id="5i$JLes82ue" role="1PaTwD">
+            <node concept="37shsh" id="5i$JLes82uf" role="15Aodc">
+              <node concept="1dCxOk" id="5i$JLes82xG" role="37shsm">
+                <property role="1XweGW" value="92d2ea16-5a42-4fdf-a676-c7604efe3504" />
+                <property role="1XxBO9" value="de.slisson.mps.richtext" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="5i$JLes82Dc" role="1PaTwD">
+            <property role="3oM_SC" value="RichTextUtil.createTextFromSingleString()" />
+          </node>
+          <node concept="3oM_SD" id="5i$JLes82D5" role="1PaTwD">
+            <property role="3oM_SC" value="creates" />
+          </node>
+          <node concept="3oM_SD" id="5i$JLes82D6" role="1PaTwD">
+            <property role="3oM_SC" value="`Text`" />
+          </node>
+          <node concept="3oM_SD" id="5i$JLes82D7" role="1PaTwD">
+            <property role="3oM_SC" value="instance" />
+          </node>
+          <node concept="3oM_SD" id="5i$JLes82D8" role="1PaTwD">
+            <property role="3oM_SC" value="without" />
+          </node>
+          <node concept="3oM_SD" id="5i$JLes82D9" role="1PaTwD">
+            <property role="3oM_SC" value="unexpected" />
+          </node>
+          <node concept="3oM_SD" id="5i$JLes82Da" role="1PaTwD">
+            <property role="3oM_SC" value="prepended" />
+          </node>
+          <node concept="3oM_SD" id="5i$JLes82Db" role="1PaTwD">
+            <property role="3oM_SC" value="space." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="15bmVD" id="7qYSchhSpfu" role="15bmVC">
       <node concept="15ShDW" id="7qYSchhSpfr" role="15bq2Y">
         <property role="15ShDY" value="Po4Z58IgAt/April" />

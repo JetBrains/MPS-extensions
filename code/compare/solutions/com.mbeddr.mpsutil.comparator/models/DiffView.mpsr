@@ -253,7 +253,7 @@
       <node concept="37vLTG" id="5oR1gCFT86U" role="3clF46">
         <property role="TrG5h" value="input" />
         <node concept="3Tqbb2" id="5oR1gCFT86V" role="1tU5fm">
-          <ref role="ehGHo" to="8do3:DYlgnAyXkO" resolve="AssertNodeEquals" />
+          <ref role="ehGHo" to="8do3:t0OlD0Ulrx" resolve="IDiffable" />
         </node>
       </node>
       <node concept="37vLTG" id="5oR1gCFT86W" role="3clF46">
@@ -554,7 +554,7 @@
       <node concept="37vLTG" id="6Od11GY9ip0" role="3clF46">
         <property role="TrG5h" value="input" />
         <node concept="3Tqbb2" id="6Od11GY98Ba" role="1tU5fm">
-          <ref role="ehGHo" to="8do3:DYlgnAyXkO" resolve="AssertNodeEquals" />
+          <ref role="ehGHo" to="8do3:t0OlD0Ulrx" resolve="IDiffable" />
         </node>
       </node>
       <node concept="37vLTG" id="3zBhpJM5Jws" role="3clF46">

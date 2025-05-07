@@ -2,6 +2,7 @@
 <model ref="r:3154421c-68b6-458f-9d35-c7dcc90643cd(com.mbeddr.mpsutil.compare.dataFlow)">
   <persistence version="9" />
   <languages>
+    <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="1" />
     <devkit ref="00000000-0000-4000-0000-443879f56b80(jetbrains.mps.devkit.aspect.dataflow)" />
   </languages>
   <imports>
@@ -55,6 +56,69 @@
             <node concept="3__QtB" id="h$bePX4" role="2Oq$k0" />
             <node concept="3TrEf2" id="7jPoEeD_jQ4" role="2OqNvi">
               <ref role="3Tt5mk" to="tpe3:7jPoEeD$ZP5" resolve="actual" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="t0OlD0TRJl" role="3cqZAp">
+          <node concept="2OqwBi" id="t0OlD0TRJm" role="3Ah4Yx">
+            <node concept="3__QtB" id="t0OlD0TRJn" role="2Oq$k0" />
+            <node concept="3TrEf2" id="t0OlD0TRJo" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:2lpUxXMduaL" resolve="ignoredProperties" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="t0OlD0TRNS" role="3cqZAp">
+          <node concept="2OqwBi" id="t0OlD0TRNT" role="3Ah4Yx">
+            <node concept="3__QtB" id="t0OlD0TRNU" role="2Oq$k0" />
+            <node concept="3TrEf2" id="t0OlD0TRNV" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:3qPjHtYqU7z" resolve="ignoredReferences" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3_zdsH" id="t0OlD0TQqp">
+    <ref role="3_znuS" to="8do3:5v943APOt_R" resolve="AssertGeneratedModelEquals" />
+    <node concept="3__wT9" id="t0OlD0TQqq" role="3_A6iZ">
+      <node concept="3clFbS" id="t0OlD0TQqr" role="2VODD2">
+        <node concept="3AgYrR" id="t0OlD0TQqs" role="3cqZAp">
+          <node concept="2OqwBi" id="t0OlD0TQqt" role="3Ah4Yx">
+            <node concept="3__QtB" id="t0OlD0TQqu" role="2Oq$k0" />
+            <node concept="3TrEf2" id="t0OlD0TQqv" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="t0OlD0TQqw" role="3cqZAp">
+          <node concept="2OqwBi" id="t0OlD0TQqx" role="3Ah4Yx">
+            <node concept="3__QtB" id="t0OlD0TQqy" role="2Oq$k0" />
+            <node concept="3TrEf2" id="t0OlD0TQqz" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:t0OlD0RjwM" resolve="model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="t0OlD0TTjS" role="3cqZAp">
+          <node concept="2OqwBi" id="t0OlD0TTwG" role="3Ah4Yx">
+            <node concept="3__QtB" id="t0OlD0TTkH" role="2Oq$k0" />
+            <node concept="3TrEf2" id="t0OlD0TTyJ" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:5v943APPGca" resolve="generationPlan" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="t0OlD0TT$s" role="3cqZAp">
+          <node concept="2OqwBi" id="t0OlD0TT$t" role="3Ah4Yx">
+            <node concept="3__QtB" id="t0OlD0TT$u" role="2Oq$k0" />
+            <node concept="3TrEf2" id="t0OlD0TT$v" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:5v943APOt_S" resolve="ignoredProperties" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="t0OlD0TT$w" role="3cqZAp">
+          <node concept="2OqwBi" id="t0OlD0TT$x" role="3Ah4Yx">
+            <node concept="3__QtB" id="t0OlD0TT$y" role="2Oq$k0" />
+            <node concept="3TrEf2" id="t0OlD0TT$z" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:5v943APOt_T" resolve="ignoredReferences" />
             </node>
           </node>
         </node>

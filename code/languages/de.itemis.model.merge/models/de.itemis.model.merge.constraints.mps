@@ -237,6 +237,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="1EbzjT2SHHS">
+    <property role="3GE5qa" value="policies" />
     <ref role="1M2myG" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
     <node concept="1N5Pfh" id="3BP4DuXwMl4" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:3BP4DuXu_FH" resolve="conceptRef" />
@@ -280,7 +281,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1NgLzfPd_tj">
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1M2myG" to="mopj:1EbzjT2T4oC" resolve="PropertyPolicy" />
     <node concept="1N5Pfh" id="7jyS5urcz$x" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:6zqIeMU2u$T" resolve="property" />
@@ -464,7 +465,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7jyS5urktDV">
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1M2myG" to="mopj:7jyS5urbFgb" resolve="OptionalPolicy" />
     <node concept="9SLcT" id="7jyS5urn0tZ" role="9SGkU">
       <node concept="3clFbS" id="7jyS5urn0u0" role="2VODD2">
@@ -588,7 +589,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7jyS5urkN7L">
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1M2myG" to="mopj:7jyS5urbTpb" resolve="SingletonPolicy" />
     <node concept="9SLcT" id="7jyS5urmeeO" role="9SGkU">
       <node concept="3clFbS" id="7jyS5urmeeP" role="2VODD2">
@@ -708,7 +709,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7jyS5urkOuN">
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1M2myG" to="mopj:7jyS5urbTpv" resolve="MultiChildPolicy" />
     <node concept="1N5Pfh" id="7jyS5urkOuO" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -781,7 +782,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1VmHfRxQ5sl">
-    <property role="3GE5qa" value="declarationPolicies.subpolicy" />
+    <property role="3GE5qa" value="policies.declarationPolicies.subpolicy" />
     <ref role="1M2myG" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
     <node concept="EnEH3" id="1VmHfRxQ5sm" role="1MhHOB">
       <ref role="EomxK" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
@@ -978,7 +979,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Av7Chms28S">
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1M2myG" to="mopj:3PLTv5k2w4J" resolve="SingletonChildPolicy" />
     <node concept="1N5Pfh" id="1Av7Chms2eU" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -1051,7 +1052,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Av7Chms2En">
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1M2myG" to="mopj:3PLTv5k2w4R" resolve="SingeltonRefPolicy" />
     <node concept="1N5Pfh" id="1Av7Chms2Eo" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -1124,7 +1125,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Av7ChmtLFo">
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1M2myG" to="mopj:3PLTv5k2w4M" resolve="OptionalChildPolicy" />
     <node concept="1N5Pfh" id="1Av7ChmtLFp" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -1197,7 +1198,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Av7ChmtPBG">
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1M2myG" to="mopj:3PLTv5k2w4U" resolve="OptionalRefPolicy" />
     <node concept="1N5Pfh" id="1Av7ChmtPBH" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />

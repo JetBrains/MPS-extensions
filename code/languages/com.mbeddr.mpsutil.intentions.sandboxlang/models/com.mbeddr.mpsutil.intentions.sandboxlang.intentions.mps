@@ -43,7 +43,7 @@
       </concept>
     </language>
     <language id="b92f861d-0184-446d-b88b-6dcf0e070241" name="com.mbeddr.mpsutil.intentions">
-      <concept id="278032644708909557" name="com.mbeddr.mpsutil.intentions.structure.ShowIntentionInReadyOnlyCell" flags="ng" index="2s3oj2">
+      <concept id="278032644708909557" name="com.mbeddr.mpsutil.intentions.structure.ShowIntentionInReadOnlyCell" flags="ng" index="2s3oj2">
         <property id="278032644708944807" name="flag" index="2s3gUg" />
       </concept>
       <concept id="5846558918537398687" name="com.mbeddr.mpsutil.intentions.structure.IntentionGroupAnnotation" flags="ng" index="1SWQZ3">
@@ -294,7 +294,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="54O0Dxcsaou">
-    <property role="TrG5h" value="ChildIntentionNeverVisibleInReadyOnly" />
+    <property role="TrG5h" value="ChildIntentionNeverVisibleInReadOnly" />
     <ref role="2ZfgGC" to="iikq:5qf1oe_GcsF" resolve="IChild" />
     <node concept="2S6ZIM" id="54O0Dxcsaov" role="2ZfVej">
       <node concept="3clFbS" id="54O0Dxcsaow" role="2VODD2">

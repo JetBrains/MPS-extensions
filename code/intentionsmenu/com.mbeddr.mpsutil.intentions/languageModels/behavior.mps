@@ -47,7 +47,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="54O0Dxcsiiz">
-    <ref role="13h7C2" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+    <ref role="13h7C2" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadOnlyCell" />
     <node concept="13hLZK" id="54O0Dxcsii$" role="13h7CW">
       <node concept="3clFbS" id="54O0Dxcsii_" role="2VODD2">
         <node concept="3clFbF" id="54O0DxcsiiJ" role="3cqZAp">

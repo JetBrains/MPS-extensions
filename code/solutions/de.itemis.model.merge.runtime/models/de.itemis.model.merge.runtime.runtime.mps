@@ -4783,7 +4783,7 @@
             <node concept="3clFbF" id="$OThFCOFJ_" role="3cqZAp">
               <node concept="37vLTI" id="$OThFCQjtR" role="3clFbG">
                 <node concept="1rXfSq" id="$OThFCQKWZ" role="37vLTx">
-                  <ref role="37wK5l" node="39BQPFIiZGZ" resolve="setupDefaultRootPolicies" />
+                  <ref role="37wK5l" node="39BQPFIiZGZ" resolve="defaultRootPolicies" />
                 </node>
                 <node concept="2OqwBi" id="$OThFCPouR" role="37vLTJ">
                   <node concept="2OqwBi" id="$OThFCOUmv" role="2Oq$k0">
@@ -4806,7 +4806,7 @@
                 <ref role="3cqZAo" node="7bQf9VFyvPs" resolve="policy" />
               </node>
               <node concept="3TrEf2" id="$OThFClE25" role="2OqNvi">
-                <ref role="3Tt5mk" to="mopj:7cz6vHazKqV" />
+                <ref role="3Tt5mk" to="mopj:7cz6vHazKqV" resolve="rootPolicies" />
               </node>
             </node>
           </node>
@@ -5483,9 +5483,9 @@
         </node>
         <node concept="3cpWs6" id="4TjLPNCVdSL" role="3cqZAp">
           <node concept="1rXfSq" id="4TjLPNCVdSK" role="3cqZAk">
-            <ref role="37wK5l" node="4TjLPNCVdSE" resolve="mergo" />
+            <ref role="37wK5l" node="4TjLPNCVdSE" resolve="mergeRoots" />
             <node concept="37vLTw" id="4TjLPNCVdSI" role="37wK5m">
-              <ref role="3cqZAo" node="$OThFBEktO" resolve="roots" />
+              <ref role="3cqZAo" node="$OThFBEktO" resolve="rootsLeft" />
             </node>
             <node concept="37vLTw" id="4TjLPNCVdSJ" role="37wK5m">
               <ref role="3cqZAo" node="4TjLPNCLyvx" resolve="action" />
@@ -5763,9 +5763,9 @@
         </node>
         <node concept="3cpWs6" id="4TjLPNCVWWQ" role="3cqZAp">
           <node concept="1rXfSq" id="4TjLPNCVWWP" role="3cqZAk">
-            <ref role="37wK5l" node="4TjLPNCVdSE" resolve="mergo" />
+            <ref role="37wK5l" node="4TjLPNCVdSE" resolve="mergeRoots" />
             <node concept="37vLTw" id="4TjLPNCVWWN" role="37wK5m">
-              <ref role="3cqZAo" node="$OThFBJDiW" resolve="roots" />
+              <ref role="3cqZAo" node="$OThFBJDiW" resolve="rootsRight" />
             </node>
             <node concept="37vLTw" id="4TjLPNCVWWO" role="37wK5m">
               <ref role="3cqZAo" node="4TjLPNCMIwy" resolve="action" />

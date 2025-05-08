@@ -180,11 +180,6 @@
     <property role="TrG5h" value="AssertGeneratedModelEquals" />
     <property role="34LRSv" value="assert generated model equals" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyi" id="t0OlD10Ez_" role="1TKVEl">
-      <property role="IQ2nx" value="522647742342932709" />
-      <property role="TrG5h" value="textGen" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyj" id="5v943APPGca" role="1TKVEi">
       <property role="IQ2ns" value="6325604991668503306" />
       <property role="20kJfa" value="generationPlan" />
@@ -290,6 +285,12 @@
     <property role="34LRSv" value="provider" />
     <property role="EcuMT" value="1142886811589" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="4I2abZbPva4">
+    <property role="EcuMT" value="5440956104040641156" />
+    <property role="TrG5h" value="AssertGeneratedTextModelEquals" />
+    <property role="34LRSv" value="assert generated text equals" />
+    <ref role="1TJDcQ" node="5v943APOt_R" resolve="AssertGeneratedModelEquals" />
   </node>
 </model>
 

@@ -18,8 +18,7 @@ import java.time.LocalDateTime
 apply plugin: 'download-jbr'
 
 downloadJbr {
-    jbrVersion = '17.0.11-b1207.30'
-
+    jbrVersion = '21.0.5-b631.8'
 }
 
 // detect if we are in a CI build
@@ -44,11 +43,11 @@ logger.info 'Repository username: {}', project.nexusUsername
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2024.1'
+ext.mpsMajor = '2024.3'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = '1'
+ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
-ext.mpsReleaseType = ''
+ext.mpsReleaseType = 'EAP1'
 
 def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
@@ -208,8 +207,8 @@ dependencies {
     diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
     diagram_lib("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
     diagram_lib("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    diagram_lib("org.eclipse.emf:org.eclipse.emf.common:2.31.0")
-    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore:2.37.0")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.common:2.40.0")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore:2.38.0")
     diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0")
 
     xml_lib("xerces:xercesImpl:2.12.2")
@@ -257,19 +256,6 @@ def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.
 
 afterEvaluate {
     project.ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.getByName('downloadJbr').javaExecutable
-    def jdk_home = null
-    if (ext.has('java17_home')) {
-        jdk_home = ext.get('java17_home')
-    } else if (System.getenv('JB_JAVA17_HOME') != null) {
-        jdk_home = System.getenv('JB_JAVA17_HOME')
-    }
-    if(jdk_home != null) {
-        if (!new File(jdk_home, "lib").exists()) {
-            throw new GradleException("Unable to locate JDK home folder. Detected folder is: $jdk_home")
-        } else {
-        ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
-        }
-    }
 }
 
 // enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults

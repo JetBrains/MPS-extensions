@@ -9378,12 +9378,16 @@
                         <node concept="liA8E" id="1oWwpQE9jla" role="2OqNvi">
                           <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
                           <node concept="2OqwBi" id="2fUANpqbWX0" role="37wK5m">
-                            <node concept="2YIFZM" id="2fUANpqbUXE" role="2Oq$k0">
-                              <ref role="37wK5l" to="hox0:~StyleRegistry.getInstance()" resolve="getInstance" />
-                              <ref role="1Pybhc" to="hox0:~StyleRegistry" resolve="StyleRegistry" />
-                            </node>
                             <node concept="liA8E" id="2fUANpqc2Yr" role="2OqNvi">
                               <ref role="37wK5l" to="hox0:~StyleRegistry.getEditorBackground()" resolve="getEditorBackground" />
+                            </node>
+                            <node concept="2OqwBi" id="6SqTcxhWFkj" role="2Oq$k0">
+                              <node concept="37vLTw" id="6SqTcxhWtkz" role="2Oq$k0">
+                                <ref role="3cqZAo" node="5prQSJ52grS" resolve="comp" />
+                              </node>
+                              <node concept="liA8E" id="6SqTcxhWMkP" role="2OqNvi">
+                                <ref role="37wK5l" to="exr9:~EditorComponent.getStyleRegistry()" resolve="getStyleRegistry" />
+                              </node>
                             </node>
                           </node>
                         </node>

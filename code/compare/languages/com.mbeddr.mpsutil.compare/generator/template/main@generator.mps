@@ -40,6 +40,7 @@
     <import index="f4a4" ref="r:1d4f7f55-4fae-4dcb-9cb8-5924426f75d6(jetbrains.mps.tests@genplan)" implicit="true" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" implicit="true" />
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -373,6 +374,13 @@
       </concept>
       <concept id="3648723375513868532" name="jetbrains.mps.lang.smodel.structure.NodePointer_ResolveOperation" flags="ng" index="Vyspw" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474302386080" name="jetbrains.mps.lang.smodel.structure.PropertyIdRefExpression" flags="nn" index="355D3s">
+        <reference id="2644386474302386081" name="conceptDeclaration" index="355D3t" />
+        <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
+      </concept>
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -1104,6 +1112,12 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="7xgxWxJ2Ymi" role="3acgRq">
+      <ref role="30HIoZ" to="8do3:7xgxWxIP73_" resolve="IgnoredProperty" />
+      <node concept="j$656" id="7xgxWxJ2YwO" role="1lVwrX">
+        <ref role="v9R2y" node="7xgxWxJ2YwM" resolve="reduce_IgnoredProperty" />
       </node>
     </node>
   </node>
@@ -3646,6 +3660,72 @@
           <node concept="raruj" id="4I2abZbQi5$" role="lGtFl" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="7xgxWxJ2YwM">
+    <property role="TrG5h" value="reduce_IgnoredProperty" />
+    <ref role="3gUMe" to="8do3:7xgxWxIP73_" resolve="IgnoredProperty" />
+    <node concept="2ShNRf" id="7xgxWxJ2ZAW" role="13RCb5">
+      <node concept="1pGfFk" id="7xgxWxJ3550" role="2ShVmc">
+        <property role="373rjd" value="true" />
+        <ref role="37wK5l" to="mqum:E9Bg756o2F" resolve="IgnoredProperty" />
+        <node concept="35c_gC" id="7xgxWxJ3558" role="37wK5m">
+          <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
+          <node concept="1ZhdrF" id="7xgxWxJ35w$" role="lGtFl">
+            <property role="2qtEX8" value="conceptDeclaration" />
+            <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/2644386474300074836/2644386474300074837" />
+            <node concept="3$xsQk" id="7xgxWxJ35w_" role="3$ytzL">
+              <node concept="3clFbS" id="7xgxWxJ35wA" role="2VODD2">
+                <node concept="3clFbF" id="7xgxWxJ35xP" role="3cqZAp">
+                  <node concept="2OqwBi" id="7xgxWxJ35Nw" role="3clFbG">
+                    <node concept="30H73N" id="7xgxWxJ35xO" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7xgxWxJ363r" role="2OqNvi">
+                      <ref role="3Tt5mk" to="8do3:2iMJRNxD2Yx" resolve="conceptDeclaration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="355D3s" id="7xgxWxJ35cb" role="37wK5m">
+          <ref role="355D3t" to="tpck:gw2VY9q" resolve="BaseConcept" />
+          <ref role="355D3u" to="tpck:hnGE5uv" resolve="virtualPackage" />
+          <node concept="1ZhdrF" id="7xgxWxJ36kR" role="lGtFl">
+            <property role="2qtEX8" value="conceptDeclaration" />
+            <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/2644386474302386080/2644386474302386081" />
+            <node concept="3$xsQk" id="7xgxWxJ36kS" role="3$ytzL">
+              <node concept="3clFbS" id="7xgxWxJ36kT" role="2VODD2">
+                <node concept="3clFbF" id="7xgxWxJ36nh" role="3cqZAp">
+                  <node concept="2OqwBi" id="7xgxWxJ36AW" role="3clFbG">
+                    <node concept="30H73N" id="7xgxWxJ36ng" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7xgxWxJ36QR" role="2OqNvi">
+                      <ref role="3Tt5mk" to="8do3:2iMJRNxD2Yx" resolve="conceptDeclaration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1ZhdrF" id="7xgxWxJ36S8" role="lGtFl">
+            <property role="2qtEX8" value="propertyDeclaration" />
+            <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/2644386474302386080/2644386474302386082" />
+            <node concept="3$xsQk" id="7xgxWxJ36S9" role="3$ytzL">
+              <node concept="3clFbS" id="7xgxWxJ36Sa" role="2VODD2">
+                <node concept="3clFbF" id="7xgxWxJ36VF" role="3cqZAp">
+                  <node concept="2OqwBi" id="7xgxWxJ372$" role="3clFbG">
+                    <node concept="30H73N" id="7xgxWxJ36VE" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7xgxWxJ3746" role="2OqNvi">
+                      <ref role="3Tt5mk" to="8do3:2iMJRNxD2Yy" resolve="propertyDeclaration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="raruj" id="7xgxWxJ35vX" role="lGtFl" />
     </node>
   </node>
 </model>

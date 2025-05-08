@@ -73,9 +73,6 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -116,7 +113,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -157,6 +153,10 @@
     </language>
     <language id="f47b95d4-5e73-4c04-9204-18076950153b" name="com.mbeddr.mpsutil.compare">
       <concept id="1954385921685784800" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_PostProcess" flags="ig" index="315t4" />
+      <concept id="8669578577610830053" name="com.mbeddr.mpsutil.compare.structure.IgnoredProperty" flags="ng" index="mxfsH">
+        <reference id="2644386474302386081" name="conceptDeclaration" index="355D3t" />
+        <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
+      </concept>
       <concept id="6325604991668181367" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedModelEquals" flags="ng" index="3y6c_e">
         <child id="522647742340479026" name="model" index="17Bu_C" />
         <child id="6473715840826349302" name="postprocess" index="1k$liO" />
@@ -179,13 +179,6 @@
       </concept>
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
-      </concept>
-      <concept id="2644386474302386080" name="jetbrains.mps.lang.smodel.structure.PropertyIdRefExpression" flags="nn" index="355D3s">
-        <reference id="2644386474302386081" name="conceptDeclaration" index="355D3t" />
-        <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
-      </concept>
-      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
-        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -533,18 +526,9 @@
           </node>
           <node concept="2ShNRf" id="7M6MyorEt7h" role="3y6c_1">
             <node concept="Tc6Ow" id="7M6MyorEtAw" role="2ShVmc">
-              <node concept="2ShNRf" id="7M6MyorErTG" role="HW$Y0">
-                <node concept="1pGfFk" id="7M6MyorEsJ7" role="2ShVmc">
-                  <property role="373rjd" value="true" />
-                  <ref role="37wK5l" to="mqum:E9Bg756o2F" resolve="IgnoredProperty" />
-                  <node concept="35c_gC" id="7M6MyorEsLu" role="37wK5m">
-                    <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
-                  </node>
-                  <node concept="355D3s" id="7M6MyorEsV3" role="37wK5m">
-                    <ref role="355D3t" to="tpck:h0TrEE$" resolve="INamedConcept" />
-                    <ref role="355D3u" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
+              <node concept="mxfsH" id="7xgxWxJ3yQi" role="HW$Y0">
+                <ref role="355D3t" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                <ref role="355D3u" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>

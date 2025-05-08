@@ -7,9 +7,10 @@
   <imports>
     <import index="8do3" ref="r:cea04c4b-adba-417e-a192-34c7a8799ac1(com.mbeddr.mpsutil.compare.structure)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
+    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
-    <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -95,6 +96,9 @@
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
@@ -284,6 +288,33 @@
   </node>
   <node concept="1M2fIO" id="5uUCR4LBvMm">
     <ref role="1M2myG" to="8do3:5uUCR4L$q0N" resolve="IgnorePropertiesAnnotation" />
+  </node>
+  <node concept="1M2fIO" id="7xgxWxJ2W7Q">
+    <ref role="1M2myG" to="8do3:7xgxWxIP73_" resolve="IgnoredProperty" />
+    <node concept="1N5Pfh" id="7xgxWxJ2WbC" role="1Mr941">
+      <ref role="1N5Vy1" to="8do3:2iMJRNxD2Yy" resolve="propertyDeclaration" />
+      <node concept="3dgokm" id="7xgxWxJ2WjE" role="1N6uqs">
+        <node concept="3clFbS" id="7xgxWxJ2WjF" role="2VODD2">
+          <node concept="3clFbF" id="5Vvmn_QkRAz" role="3cqZAp">
+            <node concept="2YIFZM" id="5Vvmn_QkRB0" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="5Vvmn_QkRB1" role="37wK5m">
+                <node concept="2OqwBi" id="5Vvmn_QkRB2" role="2Oq$k0">
+                  <node concept="3kakTB" id="5Vvmn_QkRB3" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="5Vvmn_QkRB4" role="2OqNvi">
+                    <ref role="3Tt5mk" to="8do3:2iMJRNxD2Yx" resolve="conceptDeclaration" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="5Vvmn_QkRB5" role="2OqNvi">
+                  <ref role="37wK5l" to="tpcn:hEwILLM" resolve="getPropertyDeclarations" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

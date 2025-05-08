@@ -8,6 +8,7 @@
     <import index="tpe3" ref="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="bjdw" ref="r:4a23ef0d-9c2f-48a6-8597-fbdd5b11f792(jetbrains.mps.lang.generator.plan.structure)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -302,6 +303,25 @@
     <property role="EcuMT" value="1161622665029" />
     <property role="3GE5qa" value="queryFunction" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="7xgxWxIP73_">
+    <property role="EcuMT" value="8669578577610830053" />
+    <property role="TrG5h" value="IgnoredProperty" />
+    <property role="34LRSv" value="ignoredProperty" />
+    <property role="R4oN_" value="a property that should be ignored" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="2iMJRNxD2Yx" role="1TKVEi">
+      <property role="20kJfa" value="conceptDeclaration" />
+      <property role="20lbJX" value="fLJekj4" />
+      <property role="IQ2ns" value="2644386474302386081" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="2iMJRNxD2Yy" role="1TKVEi">
+      <property role="20kJfa" value="propertyDeclaration" />
+      <property role="20lbJX" value="fLJekj4" />
+      <property role="IQ2ns" value="2644386474302386082" />
+      <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+    </node>
   </node>
 </model>
 

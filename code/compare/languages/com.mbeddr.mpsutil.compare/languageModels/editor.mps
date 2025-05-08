@@ -18,6 +18,7 @@
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="qqrq" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui.components(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="tpd3" ref="r:00000000-0000-4000-0000-011c895902bb(jetbrains.mps.lang.sharedConcepts.editor)" />
     <import index="qjvf" ref="r:82cadfba-0fcc-402e-8eaa-37395d383fb6(com.mbeddr.mpsutil.compare.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -89,6 +90,10 @@
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="1215007762405" name="jetbrains.mps.lang.editor.structure.FloatStyleClassItem" flags="ln" index="3$6MrZ">
+        <property id="1215007802031" name="value" index="3$6WeP" />
+      </concept>
+      <concept id="1215007897487" name="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" flags="ln" index="3$7jql" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
@@ -1442,6 +1447,67 @@
     <property role="3GE5qa" value="queryFunction" />
     <ref role="aqKnT" to="8do3:gTQ6Nt5" resolve="ConceptFunctionParameter_OutputModel" />
     <node concept="22hDWj" id="7xgxWxIv2W_" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="7xgxWxJ2V8R">
+    <ref role="1XX52x" to="8do3:7xgxWxIP73_" resolve="IgnoredProperty" />
+    <node concept="3EZMnI" id="2iMJRNxD34t" role="2wV5jI">
+      <node concept="3F0ifn" id="2iMJRNxD34u" role="3EZMnx">
+        <property role="3F0ifm" value="ignored property" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F0ifn" id="2iMJRNxD34w" role="3EZMnx">
+        <property role="3F0ifm" value="/" />
+        <ref role="1k5W1q" to="tpen:hY9fg1G" resolve="LeftParenAfterName" />
+      </node>
+      <node concept="1iCGBv" id="2iMJRNxD34x" role="3EZMnx">
+        <property role="1$x2rV" value="concept" />
+        <ref role="1NtTu8" to="8do3:2iMJRNxD2Yx" resolve="conceptDeclaration" />
+        <node concept="3$7jql" id="2iMJRNxD34y" role="3F10Kt">
+          <property role="3$6WeP" value="0.0" />
+        </node>
+        <node concept="1sVBvm" id="2iMJRNxD34z" role="1sWHZn">
+          <node concept="3F0A7n" id="2iMJRNxD34$" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1k5W1q" to="tpd3:hwSE21y" resolve="ReferenceOnConcept" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="3$7jql" id="2iMJRNxD34_" role="3F10Kt">
+              <property role="3$6WeP" value="0.0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2iMJRNxD34A" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="VechU" id="2iMJRNxD34B" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt" />
+        </node>
+        <node concept="3$7jql" id="2iMJRNxD34C" role="3F10Kt">
+          <property role="3$6WeP" value="0.0" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="2iMJRNxD34D" role="3EZMnx">
+        <property role="1$x2rV" value="link" />
+        <ref role="1NtTu8" to="8do3:2iMJRNxD2Yy" resolve="propertyDeclaration" />
+        <node concept="1sVBvm" id="2iMJRNxD34E" role="1sWHZn">
+          <node concept="3F0A7n" id="2iMJRNxD34F" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1k5W1q" to="tpd3:hLjqlx3" resolve="ReferenceOnConceptualFeature" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="3$7jql" id="2iMJRNxD34G" role="3F10Kt">
+              <property role="3$6WeP" value="0.0" />
+            </node>
+          </node>
+        </node>
+        <node concept="3$7jql" id="2iMJRNxD34H" role="3F10Kt">
+          <property role="3$6WeP" value="0.0" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2iMJRNxD34I" role="3EZMnx">
+        <property role="3F0ifm" value="/" />
+        <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
+      </node>
+      <node concept="l2Vlx" id="2iMJRNxD34J" role="2iSdaV" />
+    </node>
   </node>
 </model>
 

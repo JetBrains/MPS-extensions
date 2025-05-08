@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:3014a312-a1f1-41c3-9ecc-5491810305c3(de.q60.mps.shadowmodels.runtime.plugin)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
@@ -77,6 +78,7 @@
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <property id="6461604478897396236" name="updateInBackground" index="22ra45" />
         <property id="1204991940915" name="caption" index="2f7twF" />
         <property id="1213283637680" name="isPopup" index="1XlLyE" />
         <child id="1204991552650" name="modifier" index="2f5YQi" />
@@ -612,6 +614,13 @@
         </node>
         <node concept="3clFbF" id="1Tx15Ze5LT" role="3cqZAp">
           <node concept="2OqwBi" id="1Tx15Ze84M" role="3clFbG">
+            <node concept="liA8E" id="1Tx15Ze8xS" role="2OqNvi">
+              <ref role="37wK5l" to="pa15:~PersistenceRegistry.addFindUsagesParticipant(org.jetbrains.mps.openapi.persistence.FindUsagesParticipant)" resolve="addFindUsagesParticipant" />
+              <node concept="10M0yZ" id="1Tx15Ze8I6" role="37wK5m">
+                <ref role="3cqZAo" node="TC$M5wTTeK" resolve="INSTANCE" />
+                <ref role="1PxDUh" node="TC$M5wTwai" resolve="ShadowModelFindUsagesParticipant" />
+              </node>
+            </node>
             <node concept="2OqwBi" id="1Tx15Ze74O" role="2Oq$k0">
               <node concept="2OqwBi" id="1Tx15Ze6ge" role="2Oq$k0">
                 <node concept="2YIFZM" id="1Tx15Ze5Sb" role="2Oq$k0">
@@ -627,13 +636,6 @@
                 <node concept="3VsKOn" id="1Tx15Ze7FQ" role="37wK5m">
                   <ref role="3VsUkX" to="pa15:~PersistenceRegistry" resolve="PersistenceRegistry" />
                 </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="1Tx15Ze8xS" role="2OqNvi">
-              <ref role="37wK5l" to="pa15:~PersistenceRegistry.addFindUsagesParticipant(org.jetbrains.mps.openapi.persistence.FindUsagesParticipant)" resolve="addFindUsagesParticipant" />
-              <node concept="10M0yZ" id="1Tx15Ze8I6" role="37wK5m">
-                <ref role="3cqZAo" node="TC$M5wTTeK" resolve="INSTANCE" />
-                <ref role="1PxDUh" node="TC$M5wTwai" resolve="ShadowModelFindUsagesParticipant" />
               </node>
             </node>
           </node>
@@ -2552,6 +2554,7 @@
     <property role="TrG5h" value="ShadowGroup" />
     <property role="1XlLyE" value="true" />
     <property role="2f7twF" value="Shadow Models" />
+    <property role="22ra45" value="true" />
     <node concept="ftmFs" id="43OnoQB0wr1" role="ftER_">
       <node concept="2a7GMi" id="7zI2priTJ1J" role="ftvYc" />
       <node concept="tCFHf" id="7zI2priTCpN" role="ftvYc">
@@ -3138,11 +3141,6 @@
     <property role="TrG5h" value="ActivateShadowRepository" />
     <property role="2uzpH1" value="Activate Shadow Repository" />
     <property role="1rBW0U" value="true" />
-    <node concept="1DS2jV" id="5DETiuQvtvM" role="1NuT2Z">
-      <property role="TrG5h" value="project" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
-      <node concept="1oajcY" id="5DETiuQvtvN" role="1oa70y" />
-    </node>
     <node concept="tnohg" id="7zI2priSBZ5" role="tncku">
       <node concept="3clFbS" id="7zI2priSBZ6" role="2VODD2">
         <node concept="3clFbF" id="5wHEIYKKXGm" role="3cqZAp">
@@ -3195,16 +3193,16 @@
         </node>
       </node>
     </node>
+    <node concept="1DS2jV" id="5DETiuQvtvM" role="1NuT2Z">
+      <property role="TrG5h" value="project" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="5DETiuQvtvN" role="1oa70y" />
+    </node>
   </node>
   <node concept="sE7Ow" id="7zI2priSETQ">
     <property role="TrG5h" value="DeactivateShadowRepository" />
     <property role="2uzpH1" value="Deactivate Shadow Repository" />
     <property role="1rBW0U" value="true" />
-    <node concept="1DS2jV" id="5DETiuQxCN4" role="1NuT2Z">
-      <property role="TrG5h" value="project" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
-      <node concept="1oajcY" id="5DETiuQxCN5" role="1oa70y" />
-    </node>
     <node concept="tnohg" id="7zI2priSETR" role="tncku">
       <node concept="3clFbS" id="7zI2priSETS" role="2VODD2">
         <node concept="3clFbF" id="5wHEIYKKZi6" role="3cqZAp">
@@ -3253,6 +3251,11 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="1DS2jV" id="5DETiuQxCN4" role="1NuT2Z">
+      <property role="TrG5h" value="project" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="5DETiuQxCN5" role="1oa70y" />
     </node>
   </node>
   <node concept="312cEu" id="5b2TV0Xu91w">

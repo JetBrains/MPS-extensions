@@ -41,6 +41,7 @@
       <concept id="1203082903663" name="jetbrains.mps.lang.plugin.structure.ConceptFunctionParameter_AnActionEvent" flags="nn" index="tl45R" />
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <property id="6461604478897396236" name="updateInBackground" index="22ra45" />
         <property id="1204991940915" name="caption" index="2f7twF" />
         <property id="1213283637680" name="isPopup" index="1XlLyE" />
         <child id="1204991552650" name="modifier" index="2f5YQi" />
@@ -249,6 +250,7 @@
   </registry>
   <node concept="tC5Ba" id="mQZQCk9tGh">
     <property role="TrG5h" value="WordsToDictionaryIntention" />
+    <property role="22ra45" value="true" />
     <node concept="tT9cl" id="mQZQCk9tGj" role="2f5YQi">
       <ref role="tU$_T" node="29wDeGIb4Uh" resolve="DictionaryGroup" />
     </node>
@@ -760,6 +762,7 @@
     <property role="TrG5h" value="DictionaryGroup" />
     <property role="2f7twF" value="Dictionary" />
     <property role="1XlLyE" value="true" />
+    <property role="22ra45" value="true" />
     <node concept="tT9cl" id="29wDeGIb4Uj" role="2f5YQi">
       <ref role="tU$_T" to="ekwn:5YEoTZrFokU" resolve="ActionsAsIntentions" />
     </node>
@@ -767,6 +770,7 @@
   </node>
   <node concept="tC5Ba" id="29wDeGIdPnf">
     <property role="TrG5h" value="WordsSpelling" />
+    <property role="22ra45" value="true" />
     <node concept="tT9cl" id="29wDeGIdPng" role="2f5YQi">
       <ref role="tU$_T" node="29wDeGIb4Uh" resolve="DictionaryGroup" />
     </node>

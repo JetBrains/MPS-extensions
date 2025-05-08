@@ -26,16 +26,19 @@
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
     <dependency reexport="false">446c26eb-2b7b-4bf0-9b35-f83fa582753e(jetbrains.mps.lang.modelapi)</dependency>
     <dependency reexport="false">bf491fd2-a197-456a-8354-b3b225d4e871(de.itemis.model.simple.demo.enums)</dependency>
+    <dependency reexport="false">d0e6daec-7e7f-4efa-a313-20c4b0dac308(de.itemis.model.simple.demo.collection.ref)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:539e8939-08ef-497c-a5fd-25dd10137a55:de.itemis.model.merge" version="0" />
     <language slang="l:8688ed72-e0ba-44cb-9688-5c8397cb5bbb:de.itemis.model.simple.demo.children" version="0" />
     <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ce8b:de.itemis.model.simple.demo.collection" version="0" />
     <language slang="l:36ead753-43ea-471e-bcb9-d4fb1e637bbc:de.itemis.model.simple.demo.collection.keeper" version="0" />
+    <language slang="l:d0e6daec-7e7f-4efa-a313-20c4b0dac308:de.itemis.model.simple.demo.collection.ref" version="0" />
     <language slang="l:bf491fd2-a197-456a-8354-b3b225d4e871:de.itemis.model.simple.demo.enums" version="0" />
     <language slang="l:81362899-970b-421b-9fe3-2b64b343f769:de.itemis.model.simple.demo.property" version="0" />
     <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ca2b:de.itemis.model.simple.demo.property" version="0" />
     <language slang="l:6001215c-aa6e-4f9f-bfc2-f22e3c7250b2:de.itemis.model.simple.demo.reference" version="0" />
+    <language slang="l:f47b95d4-5e73-4c04-9204-18076950153b:de.itemis.mps.compare" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -61,6 +64,7 @@
     <module reference="8688ed72-e0ba-44cb-9688-5c8397cb5bbb(de.itemis.model.simple.demo.children)" version="0" />
     <module reference="e50b0500-6fd7-4c7f-a730-9d841358ce8b(de.itemis.model.simple.demo.collection)" version="0" />
     <module reference="36ead753-43ea-471e-bcb9-d4fb1e637bbc(de.itemis.model.simple.demo.collection.keeper)" version="0" />
+    <module reference="d0e6daec-7e7f-4efa-a313-20c4b0dac308(de.itemis.model.simple.demo.collection.ref)" version="0" />
     <module reference="bf491fd2-a197-456a-8354-b3b225d4e871(de.itemis.model.simple.demo.enums)" version="0" />
     <module reference="81362899-970b-421b-9fe3-2b64b343f769(de.itemis.model.simple.demo.property)" version="0" />
     <module reference="e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)" version="0" />

@@ -65,6 +65,7 @@
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <property id="6461604478897396236" name="updateInBackground" index="22ra45" />
         <child id="1204991552650" name="modifier" index="2f5YQi" />
         <child id="1207145245948" name="contents" index="ftER_" />
       </concept>
@@ -894,6 +895,7 @@
   </node>
   <node concept="tC5Ba" id="5wnrAmUkXSl">
     <property role="TrG5h" value="ShadowModelsDebugGroup" />
+    <property role="22ra45" value="true" />
     <node concept="ftmFs" id="5wnrAmUkXSp" role="ftER_">
       <node concept="2a7GMi" id="5wnrAmUkZli" role="ftvYc" />
       <node concept="tCFHf" id="5wnrAmUkXSs" role="ftvYc">
@@ -965,6 +967,7 @@
   </node>
   <node concept="tC5Ba" id="21SKqk9W$ed">
     <property role="TrG5h" value="DebugViewToolsMenuAdditions" />
+    <property role="22ra45" value="true" />
     <node concept="ftmFs" id="21SKqk9W$ee" role="ftER_">
       <node concept="tCFHf" id="21SKqk9W$eT" role="ftvYc">
         <ref role="tCJdB" node="55FR5sargmZ" resolve="LoadShadowExplorer" />

@@ -480,6 +480,82 @@
           </node>
         </node>
       </node>
+      <node concept="15bAme" id="71WBVjguB4P" role="15bAlL">
+        <node concept="2DRihI" id="71WBVjguB4Q" role="15bAlk">
+          <node concept="15Ami3" id="71WBVjguB5l" role="1PaTwD">
+            <node concept="37shsh" id="71WBVjguB5m" role="15Aodc">
+              <node concept="1dCxOk" id="71WBVjguB9R" role="37shsm">
+                <property role="1XweGW" value="1144260c-e9a5-49a2-9add-39a1a1a7077e" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.diagram.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="15Ami3" id="71WBVjguBhZ" role="1PaTwD">
+            <node concept="37shsh" id="71WBVjguBi0" role="15Aodc">
+              <node concept="1dCxOk" id="71WBVjguBmi" role="37shsm">
+                <property role="1XweGW" value="da21218f-a674-474d-8b4e-d59e33007003" />
+                <property role="1XxBO9" value="de.slisson.mps.tables.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="15Ami3" id="71WBVjguBmm" role="1PaTwD">
+            <node concept="37shsh" id="71WBVjguBmn" role="15Aodc">
+              <node concept="1dCxOk" id="71WBVjguBmZ" role="37shsm">
+                <property role="1XweGW" value="2af4e160-40bc-45d5-9078-9e2dabc7e7c0" />
+                <property role="1XxBO9" value="com.dslfoundry.langvis.plugin" />
+              </node>
+            </node>
+          </node>
+          <node concept="15Ami3" id="71WBVjguBnA" role="1PaTwD">
+            <node concept="37shsh" id="71WBVjguBnB" role="15Aodc">
+              <node concept="1dCxOk" id="71WBVjguBo8" role="37shsm">
+                <property role="1XweGW" value="883c431a-2ba7-415a-a318-5eb9b7eb3672" />
+                <property role="1XxBO9" value="de.q60.mps.shadowmodels.debugview" />
+              </node>
+            </node>
+          </node>
+          <node concept="15Ami3" id="71WBVjguBoj" role="1PaTwD">
+            <node concept="37shsh" id="71WBVjguBok" role="15Aodc">
+              <node concept="1dCxOk" id="71WBVjguBoI" role="37shsm">
+                <property role="1XweGW" value="e52a4835-844d-46a1-99f8-c06129db796f" />
+                <property role="1XxBO9" value="de.q60.mps.shadowmodels.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="15Ami3" id="71WBVjguBp0" role="1PaTwD">
+            <node concept="37shsh" id="71WBVjguBp1" role="15Aodc">
+              <node concept="1dCxOk" id="71WBVjguBpr" role="37shsm">
+                <property role="1XweGW" value="00725c5b-2d9a-48dc-8a5a-4d4d567a16c9" />
+                <property role="1XxBO9" value="de.itemis.mps.spellcheck.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="15Ami3" id="71WBVjguBpv" role="1PaTwD">
+            <node concept="37shsh" id="71WBVjguBpw" role="15Aodc">
+              <node concept="1dCxOk" id="71WBVjguBq1" role="37shsm">
+                <property role="1XweGW" value="72570c50-58ae-43ff-a0b7-71d2b3908271" />
+                <property role="1XxBO9" value="de.itemis.mps.statistics" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="71WBVjguB5o" role="1PaTwD">
+            <property role="3oM_SC" value=":" />
+          </node>
+          <node concept="3oM_SD" id="71WBVjguBaG" role="1PaTwD">
+            <property role="3oM_SC" value="Set" />
+          </node>
+          <node concept="3oM_SD" id="71WBVjguBaO" role="1PaTwD">
+            <property role="3oM_SC" value="groups" />
+          </node>
+          <node concept="3oM_SD" id="71WBVjguBee" role="1PaTwD">
+            <property role="3oM_SC" value="into" />
+          </node>
+          <node concept="3oM_SD" id="71WBVjguBef" role="1PaTwD">
+            <property role="3oM_SC" value="BGT" />
+          </node>
+          <node concept="3oM_SD" id="71WBVjguB5y" role="1PaTwD" />
+        </node>
+      </node>
       <node concept="15bAme" id="6X$$LVPOEp6" role="15bAlL">
         <property role="15bAli" value="Po4Z58tnOE/added" />
         <node concept="2DRihI" id="6X$$LVPOEp7" role="15bAlk">

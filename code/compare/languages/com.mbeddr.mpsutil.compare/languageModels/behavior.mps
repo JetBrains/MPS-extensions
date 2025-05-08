@@ -128,6 +128,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -307,7 +308,7 @@
                 <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
               </node>
               <node concept="35c_gC" id="1L96m4u4nK3" role="HW$Y0">
-                <ref role="35c_gD" to="tpc2:6$Nf2sMl38E" resolve="ConceptFunctionParameter_model" />
+                <ref role="35c_gD" to="8do3:gTQ6Nt5" resolve="ConceptFunctionParameter_OutputModel" />
               </node>
             </node>
           </node>
@@ -487,6 +488,30 @@
     </node>
     <node concept="13hLZK" id="5Bng$8dKf$C" role="13h7CW">
       <node concept="3clFbS" id="5Bng$8dKf$D" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7xgxWxIv2WA">
+    <property role="3GE5qa" value="queryFunction" />
+    <ref role="13h7C2" to="8do3:gTQ6Nt5" resolve="ConceptFunctionParameter_OutputModel" />
+    <node concept="13i0hz" id="4IGpg_YjLFD" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="4IGpg_YjLFE" role="1B3o_S" />
+      <node concept="3clFbS" id="4IGpg_YjLFF" role="3clF47">
+        <node concept="3cpWs6" id="4IGpg_YjLFG" role="3cqZAp">
+          <node concept="2c44tf" id="4IGpg_YjLFC" role="3cqZAk">
+            <node concept="H_c77" id="gTQ6Nt7" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4IGpg_YjLFH" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="7xgxWxIv2WB" role="13h7CW">
+      <node concept="3clFbS" id="7xgxWxIv2WC" role="2VODD2" />
     </node>
   </node>
 </model>

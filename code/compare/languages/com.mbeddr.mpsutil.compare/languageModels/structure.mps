@@ -292,5 +292,16 @@
     <property role="34LRSv" value="assert generated text equals" />
     <ref role="1TJDcQ" node="5v943APOt_R" resolve="AssertGeneratedModelEquals" />
   </node>
+  <node concept="1TIwiD" id="gTQ6Nt5">
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="R4oN_" value="model of the reference node" />
+    <property role="TrG5h" value="ConceptFunctionParameter_OutputModel" />
+    <property role="2_RsDV" value="4G1g3fIR8JG/none" />
+    <property role="34LRSv" value="outputModel" />
+    <property role="EcuMT" value="1161622665029" />
+    <property role="3GE5qa" value="queryFunction" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 

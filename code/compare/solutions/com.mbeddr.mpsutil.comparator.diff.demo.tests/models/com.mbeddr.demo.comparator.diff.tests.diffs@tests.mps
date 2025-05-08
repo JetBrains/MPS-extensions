@@ -51,7 +51,6 @@
     </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
-      <concept id="7580468736840446506" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_model" flags="nn" index="1rpKSd" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
@@ -269,6 +268,7 @@
         <child id="6325604991668181368" name="ignoredProperties" index="3y6c_1" />
       </concept>
       <concept id="756135271275943220" name="com.mbeddr.mpsutil.compare.structure.AssertNodeEquals" flags="ng" index="3GXo0L" />
+      <concept id="1161622665029" name="com.mbeddr.mpsutil.compare.structure.ConceptFunctionParameter_OutputModel" flags="nn" index="1Q6Npb" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
@@ -1494,7 +1494,7 @@
               <node concept="3clFbF" id="5Bng$8dj6Xo" role="3cqZAp">
                 <node concept="2OqwBi" id="5Bng$8dj8PI" role="3clFbG">
                   <node concept="2OqwBi" id="5Bng$8dj7dC" role="2Oq$k0">
-                    <node concept="1rpKSd" id="5Bng$8dj6Xn" role="2Oq$k0" />
+                    <node concept="1Q6Npb" id="7xgxWxIzIJU" role="2Oq$k0" />
                     <node concept="2RRcyG" id="5Bng$8dj7eH" role="2OqNvi" />
                   </node>
                   <node concept="2es0OD" id="5Bng$8djaz1" role="2OqNvi">
@@ -1503,7 +1503,7 @@
                         <node concept="3clFbF" id="5Bng$8djaAd" role="3cqZAp">
                           <node concept="2OqwBi" id="5Bng$8djbLf" role="3clFbG">
                             <node concept="2JrnkZ" id="5Bng$8djbB0" role="2Oq$k0">
-                              <node concept="1rpKSd" id="5Bng$8djaAc" role="2JrQYb" />
+                              <node concept="1Q6Npb" id="7xgxWxIzIOo" role="2JrQYb" />
                             </node>
                             <node concept="liA8E" id="5Bng$8djbY7" role="2OqNvi">
                               <ref role="37wK5l" to="mhbf:~SModel.removeRootNode(org.jetbrains.mps.openapi.model.SNode)" resolve="removeRootNode" />
@@ -1925,7 +1925,7 @@
               <node concept="3clFbF" id="5Bng$8djW5h" role="3cqZAp">
                 <node concept="2OqwBi" id="5Bng$8djW5i" role="3clFbG">
                   <node concept="2OqwBi" id="5Bng$8djW5j" role="2Oq$k0">
-                    <node concept="1rpKSd" id="5Bng$8djW5k" role="2Oq$k0" />
+                    <node concept="1Q6Npb" id="7xgxWxILbr7" role="2Oq$k0" />
                     <node concept="2RRcyG" id="5Bng$8djW5l" role="2OqNvi" />
                   </node>
                   <node concept="2es0OD" id="5Bng$8djW5m" role="2OqNvi">
@@ -1934,7 +1934,7 @@
                         <node concept="3clFbF" id="5Bng$8djW5p" role="3cqZAp">
                           <node concept="2OqwBi" id="5Bng$8djW5q" role="3clFbG">
                             <node concept="2JrnkZ" id="5Bng$8djW5r" role="2Oq$k0">
-                              <node concept="1rpKSd" id="5Bng$8djW5s" role="2JrQYb" />
+                              <node concept="1Q6Npb" id="7xgxWxILbtU" role="2JrQYb" />
                             </node>
                             <node concept="liA8E" id="5Bng$8djW5t" role="2OqNvi">
                               <ref role="37wK5l" to="mhbf:~SModel.removeRootNode(org.jetbrains.mps.openapi.model.SNode)" resolve="removeRootNode" />

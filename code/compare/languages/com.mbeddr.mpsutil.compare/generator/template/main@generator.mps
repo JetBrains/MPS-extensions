@@ -2329,7 +2329,7 @@
                     </node>
                   </node>
                   <node concept="37vLTG" id="4I2abZbQhWh" role="1bW2Oz">
-                    <property role="TrG5h" value="model" />
+                    <property role="TrG5h" value="outputModel" />
                     <node concept="H_c77" id="4I2abZbQhWi" role="1tU5fm" />
                   </node>
                 </node>

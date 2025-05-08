@@ -1438,5 +1438,10 @@
       <node concept="2EHx9g" id="4I2abZbPWpA" role="2iSdaV" />
     </node>
   </node>
+  <node concept="22mcaB" id="7xgxWxIv2W$">
+    <property role="3GE5qa" value="queryFunction" />
+    <ref role="aqKnT" to="8do3:gTQ6Nt5" resolve="ConceptFunctionParameter_OutputModel" />
+    <node concept="22hDWj" id="7xgxWxIv2W_" role="22hAXT" />
+  </node>
 </model>
 

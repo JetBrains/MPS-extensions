@@ -16458,6 +16458,9 @@
       <node concept="m$_yC" id="77YfcvOMZ_x" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:RJsmGEieyQ" resolve="jetbrains.mps.vcs" />
       </node>
+      <node concept="m$_yC" id="7xgxWxItROc" role="m$_yJ">
+        <ref role="m$_y1" node="1sO539bGQvt" resolve="de.slisson.mps.richtext" />
+      </node>
       <node concept="3_J27D" id="77YfcvOMg44" role="m$_yQ">
         <node concept="3Mxwew" id="77YfcvOMubk" role="3MwsjC">
           <property role="3MwjfP" value="de.itemis.mps.compare" />

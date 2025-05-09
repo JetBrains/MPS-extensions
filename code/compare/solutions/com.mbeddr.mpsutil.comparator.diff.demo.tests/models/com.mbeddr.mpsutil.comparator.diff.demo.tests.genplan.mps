@@ -68,5 +68,19 @@
       <ref role="NozSM" to="7j7i:2fM90Pxfljd" resolve="BaseLanguageWithExtensions" />
     </node>
   </node>
+  <node concept="2VgMpV" id="63ii4UvZ8BX">
+    <property role="TrG5h" value="CustomPlan2" />
+    <node concept="2VgMA2" id="63ii4UvZ8C4" role="2VgMA7">
+      <node concept="2Qf6Nf" id="63ii4UvZ8C5" role="2Qf7GQ">
+        <node concept="2V$Bhx" id="63ii4UvZ8C6" role="2Qf6Ng">
+          <property role="2V$B1T" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1" />
+          <property role="2V$B1Q" value="jetbrains.mps.lang.smodel" />
+        </node>
+      </node>
+    </node>
+    <node concept="NozSJ" id="63ii4UvZ8C7" role="2VgMA7">
+      <ref role="NozSM" to="7j7i:2fM90Pxfljd" resolve="BaseLanguageWithExtensions" />
+    </node>
+  </node>
 </model>
 

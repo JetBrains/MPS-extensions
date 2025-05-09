@@ -2612,7 +2612,7 @@
               <node concept="3cpWsn" id="4I2abZbQhYj" role="3cpWs9">
                 <property role="TrG5h" value="generationOptions" />
                 <node concept="3uibUv" id="4I2abZbQhYk" role="1tU5fm">
-                  <ref role="3uigEE" to="ap4t:~GenerationOptions$OptionsBuilder" resolve="OptionsBuilder" />
+                  <ref role="3uigEE" to="ap4t:~GenerationOptions$OptionsBuilder" resolve="GenerationOptions.OptionsBuilder" />
                 </node>
                 <node concept="2Sg_IR" id="4I2abZbQhYl" role="33vP2m">
                   <node concept="1bVj0M" id="4I2abZbQhYm" role="2SgG2M">

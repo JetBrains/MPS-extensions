@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="6anwpj4wuvg7v2xh19c6e4ukqa1hkja">
+  <files names="BLDocSame_Test.java:BLDoc_ClassifierToJavaDoc_Test.java:BLDoc_FieldToJavaDoc_Test.java:BLDoc_StaticFieldToJavaDoc_Test.java:MethodLineDoc_FieldToJavaDoc.java:MethodLineDoc_MethodToJavaDoc.java:MethodLineDoc_StaticFieldToJavaDoc.java:MethodLine_EnumConstantDeclarationToBLDoc.java:methodLineDocToJavaDoc_Test.java" />
+</product>
+

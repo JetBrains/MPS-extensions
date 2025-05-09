@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/3485901779945923173">
+    <file name="CeilingLeft.java">
+      <node id="3485901779945923176" at="17,58,18,46" concept="1" />
+      <node id="3485901779945923183" at="18,46,19,43" concept="4" />
+      <node id="3485901779945923188" at="19,43,20,58" concept="1" />
+      <node id="3485901779945923200" at="20,58,21,58" concept="1" />
+      <node id="3485901779945923212" at="21,58,22,58" concept="1" />
+      <node id="3485901779945923224" at="22,58,23,0" concept="5" />
+      <node id="3485901779945923225" at="23,0,24,19" concept="1" />
+      <node id="3485901779945923173" at="14,0,16,0" concept="0" trace="CeilingLeft#()V" />
+      <node id="3485901779945923173" at="26,0,28,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="3485901779945923173" at="17,0,26,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="3485901779945923173" at="14,24,14,24" />
+      <scope id="3485901779945923173" at="26,63,26,63" />
+      <scope id="3485901779945923173" at="14,0,16,0" />
+      <scope id="3485901779945923173" at="26,0,28,0">
+        <var name="dimension" id="3485901779945923173" />
+      </scope>
+      <scope id="3485901779945923173" at="17,58,24,19">
+        <var name="symbol" id="3485901779945923184" />
+      </scope>
+      <scope id="3485901779945923173" at="17,0,26,0">
+        <var name="bounds" id="3485901779945923173" />
+        <var name="g" id="3485901779945923173" />
+      </scope>
+      <unit id="3485901779945923173" at="12,0,29,0" name="de.itemis.mps.editor.math.symbols.CeilingLeft" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/3485901779945925020">
+    <file name="CeilingRight.java">
+      <node id="3485901779945925023" at="17,58,18,46" concept="1" />
+      <node id="3485901779945925030" at="18,46,19,43" concept="4" />
+      <node id="3485901779946709777" at="19,43,20,58" concept="1" />
+      <node id="3485901779945925047" at="20,58,21,58" concept="1" />
+      <node id="3485901779945925059" at="21,58,22,58" concept="1" />
+      <node id="3485901779945925071" at="22,58,23,0" concept="5" />
+      <node id="3485901779945925072" at="23,0,24,19" concept="1" />
+      <node id="3485901779945925020" at="14,0,16,0" concept="0" trace="CeilingRight#()V" />
+      <node id="3485901779945925020" at="26,0,28,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="3485901779945925020" at="17,0,26,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="3485901779945925020" at="14,25,14,25" />
+      <scope id="3485901779945925020" at="26,63,26,63" />
+      <scope id="3485901779945925020" at="14,0,16,0" />
+      <scope id="3485901779945925020" at="26,0,28,0">
+        <var name="dimension" id="3485901779945925020" />
+      </scope>
+      <scope id="3485901779945925020" at="17,58,24,19">
+        <var name="symbol" id="3485901779945925031" />
+      </scope>
+      <scope id="3485901779945925020" at="17,0,26,0">
+        <var name="bounds" id="3485901779945925020" />
+        <var name="g" id="3485901779945925020" />
+      </scope>
+      <unit id="3485901779945925020" at="12,0,29,0" name="de.itemis.mps.editor.math.symbols.CeilingRight" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236588777">
+    <file name="EmptySymbol.java">
+      <node id="4222583594236588782" at="17,63,18,24" concept="1" />
+      <node id="4222583594236588777" at="12,0,14,0" concept="0" trace="EmptySymbol#()V" />
+      <node id="4222583594236588777" at="15,0,17,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <node id="4222583594236588777" at="17,0,20,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <scope id="4222583594236588777" at="12,24,12,24" />
+      <scope id="4222583594236588777" at="15,58,15,58" />
+      <scope id="4222583594236588777" at="17,63,18,24" />
+      <scope id="4222583594236588777" at="12,0,14,0" />
+      <scope id="4222583594236588777" at="15,0,17,0">
+        <var name="bounds" id="4222583594236588777" />
+        <var name="g" id="4222583594236588777" />
+      </scope>
+      <scope id="4222583594236588777" at="17,0,20,0">
+        <var name="dimension" id="4222583594236588777" />
+      </scope>
+      <unit id="4222583594236588777" at="10,0,21,0" name="de.itemis.mps.editor.math.symbols.EmptySymbol" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236588788">
+    <file name="EulerE.java">
+      <node id="4222583594236588791" at="17,58,18,43" concept="4" />
+      <node id="4222583594236588796" at="18,43,19,40" concept="1" />
+      <node id="4222583594236588802" at="19,40,20,83" concept="1" />
+      <node id="4222583594236588812" at="20,83,21,82" concept="1" />
+      <node id="4222583594236588822" at="21,82,22,80" concept="1" />
+      <node id="4222583594236588832" at="22,80,23,82" concept="1" />
+      <node id="4222583594236588842" at="23,82,24,82" concept="1" />
+      <node id="4222583594236588852" at="24,82,25,81" concept="1" />
+      <node id="4222583594236588862" at="25,81,26,38" concept="1" />
+      <node id="4222583594236588868" at="26,38,27,82" concept="1" />
+      <node id="4222583594236588878" at="27,82,28,82" concept="1" />
+      <node id="4222583594236588888" at="28,82,29,79" concept="1" />
+      <node id="4222583594236588898" at="29,79,30,79" concept="1" />
+      <node id="4222583594236588908" at="30,79,31,81" concept="1" />
+      <node id="4222583594236588918" at="31,81,32,82" concept="1" />
+      <node id="4222583594236588928" at="32,82,33,84" concept="1" />
+      <node id="4222583594236588938" at="33,84,34,83" concept="1" />
+      <node id="4222583594236588948" at="34,83,35,83" concept="1" />
+      <node id="4222583594236588958" at="35,83,36,82" concept="1" />
+      <node id="4222583594236588968" at="36,82,37,84" concept="1" />
+      <node id="4222583594236588978" at="37,84,38,23" concept="1" />
+      <node id="4222583594236588982" at="38,23,39,40" concept="1" />
+      <node id="4222583594236588988" at="39,40,40,84" concept="1" />
+      <node id="4222583594236588998" at="40,84,41,84" concept="1" />
+      <node id="4222583594236589008" at="41,84,42,83" concept="1" />
+      <node id="4222583594236589018" at="42,83,43,84" concept="1" />
+      <node id="4222583594236589028" at="43,84,44,84" concept="1" />
+      <node id="4222583594236589038" at="44,84,45,79" concept="1" />
+      <node id="4222583594236589048" at="45,79,46,82" concept="1" />
+      <node id="4222583594236589058" at="46,82,47,74" concept="1" />
+      <node id="4222583594236589068" at="47,74,48,23" concept="1" />
+      <node id="4222583594236589073" at="48,23,49,54" concept="1" />
+      <node id="58369940424871432" at="51,63,52,65" concept="1" />
+      <node id="4222583594236588788" at="14,0,16,0" concept="0" trace="EulerE#()V" />
+      <node id="4222583594236588788" at="51,0,54,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="4222583594236588788" at="17,0,51,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="4222583594236588788" at="14,19,14,19" />
+      <scope id="4222583594236588788" at="51,63,52,65" />
+      <scope id="4222583594236588788" at="14,0,16,0" />
+      <scope id="4222583594236588788" at="51,0,54,0">
+        <var name="dimension" id="4222583594236588788" />
+      </scope>
+      <scope id="4222583594236588788" at="17,58,49,54">
+        <var name="symbol" id="4222583594236588792" />
+      </scope>
+      <scope id="4222583594236588788" at="17,0,51,0">
+        <var name="bounds" id="4222583594236588788" />
+        <var name="g" id="4222583594236588788" />
+      </scope>
+      <unit id="4222583594236588788" at="12,0,55,0" name="de.itemis.mps.editor.math.symbols.EulerE" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236589080">
+    <file name="FloorLeft.java">
+      <node id="4222583594236589083" at="17,58,18,46" concept="1" />
+      <node id="4222583594236589090" at="18,46,19,43" concept="4" />
+      <node id="4222583594236589095" at="19,43,20,58" concept="1" />
+      <node id="4222583594236589107" at="20,58,21,58" concept="1" />
+      <node id="4222583594236589119" at="21,58,22,58" concept="1" />
+      <node id="4222583594236589131" at="22,58,23,0" concept="5" />
+      <node id="4222583594236589132" at="23,0,24,19" concept="1" />
+      <node id="4222583594236589080" at="14,0,16,0" concept="0" trace="FloorLeft#()V" />
+      <node id="4222583594236589080" at="26,0,28,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="4222583594236589080" at="17,0,26,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="4222583594236589080" at="14,22,14,22" />
+      <scope id="4222583594236589080" at="26,63,26,63" />
+      <scope id="4222583594236589080" at="14,0,16,0" />
+      <scope id="4222583594236589080" at="26,0,28,0">
+        <var name="dimension" id="4222583594236589080" />
+      </scope>
+      <scope id="4222583594236589080" at="17,58,24,19">
+        <var name="symbol" id="4222583594236589091" />
+      </scope>
+      <scope id="4222583594236589080" at="17,0,26,0">
+        <var name="bounds" id="4222583594236589080" />
+        <var name="g" id="4222583594236589080" />
+      </scope>
+      <unit id="4222583594236589080" at="12,0,29,0" name="de.itemis.mps.editor.math.symbols.FloorLeft" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236589137">
+    <file name="FloorRight.java">
+      <node id="4222583594236589140" at="17,58,18,46" concept="1" />
+      <node id="4222583594236589147" at="18,46,19,43" concept="4" />
+      <node id="4222583594236589152" at="19,43,20,58" concept="1" />
+      <node id="4222583594236589164" at="20,58,21,58" concept="1" />
+      <node id="4222583594236589176" at="21,58,22,58" concept="1" />
+      <node id="4222583594236589188" at="22,58,23,0" concept="5" />
+      <node id="4222583594236589189" at="23,0,24,19" concept="1" />
+      <node id="4222583594236589137" at="14,0,16,0" concept="0" trace="FloorRight#()V" />
+      <node id="4222583594236589137" at="26,0,28,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="4222583594236589137" at="17,0,26,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="4222583594236589137" at="14,23,14,23" />
+      <scope id="4222583594236589137" at="26,63,26,63" />
+      <scope id="4222583594236589137" at="14,0,16,0" />
+      <scope id="4222583594236589137" at="26,0,28,0">
+        <var name="dimension" id="4222583594236589137" />
+      </scope>
+      <scope id="4222583594236589137" at="17,58,24,19">
+        <var name="symbol" id="4222583594236589148" />
+      </scope>
+      <scope id="4222583594236589137" at="17,0,26,0">
+        <var name="bounds" id="4222583594236589137" />
+        <var name="g" id="4222583594236589137" />
+      </scope>
+      <unit id="4222583594236589137" at="12,0,29,0" name="de.itemis.mps.editor.math.symbols.FloorRight" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236589194">
+    <file name="LeftCurlyBrace.java">
+      <node id="4222583594236589197" at="17,58,18,43" concept="4" />
+      <node id="4222583594236589202" at="18,43,19,39" concept="1" />
+      <node id="4222583594236589208" at="19,39,20,84" concept="1" />
+      <node id="4222583594236589218" at="20,84,21,80" concept="1" />
+      <node id="4222583594236589228" at="21,80,22,36" concept="1" />
+      <node id="4222583594236589234" at="22,36,23,80" concept="1" />
+      <node id="4222583594236589244" at="23,80,24,77" concept="1" />
+      <node id="4222583594236589254" at="24,77,25,36" concept="1" />
+      <node id="4222583594236589260" at="25,36,26,38" concept="1" />
+      <node id="4222583594236589266" at="26,38,27,36" concept="1" />
+      <node id="4222583594236589272" at="27,36,28,82" concept="1" />
+      <node id="4222583594236589282" at="28,82,29,80" concept="1" />
+      <node id="4222583594236589292" at="29,80,30,36" concept="1" />
+      <node id="4222583594236589298" at="30,36,31,81" concept="1" />
+      <node id="4222583594236589308" at="31,81,32,83" concept="1" />
+      <node id="4222583594236589318" at="32,83,33,40" concept="1" />
+      <node id="4222583594236589324" at="33,40,34,40" concept="1" />
+      <node id="4222583594236589330" at="34,40,35,36" concept="1" />
+      <node id="4222583594236589336" at="35,36,36,79" concept="1" />
+      <node id="4222583594236589346" at="36,79,37,82" concept="1" />
+      <node id="4222583594236589356" at="37,82,38,38" concept="1" />
+      <node id="4222583594236589362" at="38,38,39,82" concept="1" />
+      <node id="4222583594236589372" at="39,82,40,83" concept="1" />
+      <node id="4222583594236589382" at="40,83,41,81" concept="1" />
+      <node id="4222583594236589392" at="41,81,42,78" concept="1" />
+      <node id="4222583594236589402" at="42,78,43,80" concept="1" />
+      <node id="4222583594236589412" at="43,80,44,79" concept="1" />
+      <node id="4222583594236589422" at="44,79,45,79" concept="1" />
+      <node id="4222583594236589432" at="45,79,46,37" concept="1" />
+      <node id="4222583594236589438" at="46,37,47,82" concept="1" />
+      <node id="4222583594236589448" at="47,82,48,80" concept="1" />
+      <node id="4222583594236589458" at="48,80,49,39" concept="1" />
+      <node id="4222583594236589464" at="49,39,50,40" concept="1" />
+      <node id="4222583594236589470" at="50,40,51,40" concept="1" />
+      <node id="4222583594236589476" at="51,40,52,23" concept="1" />
+      <node id="4222583594236589480" at="52,23,53,0" concept="5" />
+      <node id="4222583594236589481" at="53,0,54,54" concept="1" />
+      <node id="4222583594236589490" at="56,63,57,47" concept="1" />
+      <node id="4222583594236589194" at="14,0,16,0" concept="0" trace="LeftCurlyBrace#()V" />
+      <node id="4222583594236589194" at="56,0,59,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="4222583594236589194" at="17,0,56,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="4222583594236589194" at="14,27,14,27" />
+      <scope id="4222583594236589194" at="56,63,57,47" />
+      <scope id="4222583594236589194" at="14,0,16,0" />
+      <scope id="4222583594236589194" at="56,0,59,0">
+        <var name="dimension" id="4222583594236589194" />
+      </scope>
+      <scope id="4222583594236589194" at="17,58,54,54">
+        <var name="symbol" id="4222583594236589198" />
+      </scope>
+      <scope id="4222583594236589194" at="17,0,56,0">
+        <var name="bounds" id="4222583594236589194" />
+        <var name="g" id="4222583594236589194" />
+      </scope>
+      <unit id="4222583594236589194" at="12,0,60,0" name="de.itemis.mps.editor.math.symbols.LeftCurlyBrace" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236589501">
+    <file name="LeftParenthesisThick.java">
+      <node id="4222583594236589504" at="17,58,18,43" concept="4" />
+      <node id="4222583594236589509" at="18,43,19,35" concept="1" />
+      <node id="4222583594236589515" at="19,35,20,83" concept="1" />
+      <node id="4222583594236589525" at="20,83,21,82" concept="1" />
+      <node id="4222583594236589535" at="21,82,22,84" concept="1" />
+      <node id="4222583594236589545" at="22,84,23,81" concept="1" />
+      <node id="4222583594236589555" at="23,81,24,39" concept="1" />
+      <node id="4222583594236589561" at="24,39,25,84" concept="1" />
+      <node id="4222583594236589571" at="25,84,26,83" concept="1" />
+      <node id="4222583594236589581" at="26,83,27,83" concept="1" />
+      <node id="4222583594236589591" at="27,83,28,84" concept="1" />
+      <node id="4222583594236589601" at="28,84,29,83" concept="1" />
+      <node id="4222583594236589611" at="29,83,30,36" concept="1" />
+      <node id="4222583594236589617" at="30,36,31,23" concept="1" />
+      <node id="4222583594236589621" at="31,23,32,0" concept="5" />
+      <node id="4222583594236589622" at="32,0,33,54" concept="1" />
+      <node id="4222583594236589631" at="35,63,36,43" concept="1" />
+      <node id="4222583594236589501" at="14,0,16,0" concept="0" trace="LeftParenthesisThick#()V" />
+      <node id="4222583594236589501" at="35,0,38,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="4222583594236589501" at="17,0,35,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="4222583594236589501" at="14,33,14,33" />
+      <scope id="4222583594236589501" at="35,63,36,43" />
+      <scope id="4222583594236589501" at="14,0,16,0" />
+      <scope id="4222583594236589501" at="35,0,38,0">
+        <var name="dimension" id="4222583594236589501" />
+      </scope>
+      <scope id="4222583594236589501" at="17,58,33,54">
+        <var name="symbol" id="4222583594236589505" />
+      </scope>
+      <scope id="4222583594236589501" at="17,0,35,0">
+        <var name="bounds" id="4222583594236589501" />
+        <var name="g" id="4222583594236589501" />
+      </scope>
+      <unit id="4222583594236589501" at="12,0,39,0" name="de.itemis.mps.editor.math.symbols.LeftParenthesisThick" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236589641">
+    <file name="LeftSquareBracket.java">
+      <node id="4222583594236589644" at="17,58,18,46" concept="1" />
+      <node id="4222583594236589651" at="18,46,19,43" concept="4" />
+      <node id="4222583594236589656" at="19,43,20,58" concept="1" />
+      <node id="4222583594236589668" at="20,58,21,58" concept="1" />
+      <node id="4222583594236589680" at="21,58,22,58" concept="1" />
+      <node id="4222583594236589692" at="22,58,23,58" concept="1" />
+      <node id="4222583594236589704" at="23,58,24,0" concept="5" />
+      <node id="4222583594236589705" at="24,0,25,19" concept="1" />
+      <node id="4222583594236589641" at="14,0,16,0" concept="0" trace="LeftSquareBracket#()V" />
+      <node id="4222583594236589641" at="27,0,29,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="4222583594236589641" at="17,0,27,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="4222583594236589641" at="14,30,14,30" />
+      <scope id="4222583594236589641" at="27,63,27,63" />
+      <scope id="4222583594236589641" at="14,0,16,0" />
+      <scope id="4222583594236589641" at="27,0,29,0">
+        <var name="dimension" id="4222583594236589641" />
+      </scope>
+      <scope id="4222583594236589641" at="17,58,25,19">
+        <var name="symbol" id="4222583594236589652" />
+      </scope>
+      <scope id="4222583594236589641" at="17,0,27,0">
+        <var name="bounds" id="4222583594236589641" />
+        <var name="g" id="4222583594236589641" />
+      </scope>
+      <unit id="4222583594236589641" at="12,0,30,0" name="de.itemis.mps.editor.math.symbols.LeftSquareBracket" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236589710">
+    <file name="NaturalLogarithm.java">
+      <node id="4222583594236589713" at="17,58,18,43" concept="4" />
+      <node id="4222583594236589718" at="18,43,19,35" concept="1" />
+      <node id="4222583594236589724" at="19,35,20,35" concept="1" />
+      <node id="4222583594236589730" at="20,35,21,70" concept="1" />
+      <node id="4222583594236589740" at="21,70,22,70" concept="1" />
+      <node id="4222583594236589750" at="22,70,23,35" concept="1" />
+      <node id="4222583594236589756" at="23,35,24,70" concept="1" />
+      <node id="4222583594236589766" at="24,70,25,70" concept="1" />
+      <node id="4222583594236589776" at="25,70,26,70" concept="1" />
+      <node id="4222583594236589786" at="26,70,27,70" concept="1" />
+      <node id="4222583594236589796" at="27,70,28,35" concept="1" />
+      <node id="4222583594236589802" at="28,35,29,70" concept="1" />
+      <node id="4222583594236589812" at="29,70,30,70" concept="1" />
+      <node id="4222583594236589822" at="30,70,31,70" concept="1" />
+      <node id="4222583594236589832" at="31,70,32,35" concept="1" />
+      <node id="4222583594236589838" at="32,35,33,70" concept="1" />
+      <node id="4222583594236589848" at="33,70,34,70" concept="1" />
+      <node id="4222583594236589858" at="34,70,35,35" concept="1" />
+      <node id="4222583594236589864" at="35,35,36,35" concept="1" />
+      <node id="4222583594236589870" at="36,35,37,23" concept="1" />
+      <node id="4222583594236589874" at="37,23,38,0" concept="5" />
+      <node id="4222583594236589875" at="38,0,39,35" concept="1" />
+      <node id="4222583594236589881" at="39,35,40,35" concept="1" />
+      <node id="4222583594236589887" at="40,35,41,70" concept="1" />
+      <node id="4222583594236589897" at="41,70,42,70" concept="1" />
+      <node id="4222583594236589907" at="42,70,43,35" concept="1" />
+      <node id="4222583594236589913" at="43,35,44,70" concept="1" />
+      <node id="4222583594236589923" at="44,70,45,70" concept="1" />
+      <node id="4222583594236589933" at="45,70,46,70" concept="1" />
+      <node id="4222583594236589943" at="46,70,47,70" concept="1" />
+      <node id="4222583594236589953" at="47,70,48,35" concept="1" />
+      <node id="4222583594236589959" at="48,35,49,70" concept="1" />
+      <node id="4222583594236589969" at="49,70,50,35" concept="1" />
+      <node id="4222583594236589975" at="50,35,51,70" concept="1" />
+      <node id="4222583594236589985" at="51,70,52,70" concept="1" />
+      <node id="4222583594236589995" at="52,70,53,35" concept="1" />
+      <node id="4222583594236590001" at="53,35,54,70" concept="1" />
+      <node id="4222583594236590011" at="54,70,55,70" concept="1" />
+      <node id="4222583594236590021" at="55,70,56,70" concept="1" />
+      <node id="4222583594236590031" at="56,70,57,70" concept="1" />
+      <node id="4222583594236590041" at="57,70,58,35" concept="1" />
+      <node id="4222583594236590047" at="58,35,59,70" concept="1" />
+      <node id="4222583594236590057" at="59,70,60,70" concept="1" />
+      <node id="4222583594236590067" at="60,70,61,35" concept="1" />
+      <node id="4222583594236590073" at="61,35,62,35" concept="1" />
+      <node id="4222583594236590079" at="62,35,63,35" concept="1" />
+      <node id="4222583594236590085" at="63,35,64,70" concept="1" />
+      <node id="4222583594236590095" at="64,70,65,70" concept="1" />
+      <node id="4222583594236590105" at="65,70,66,35" concept="1" />
+      <node id="4222583594236590111" at="66,35,67,70" concept="1" />
+      <node id="4222583594236590121" at="67,70,68,70" concept="1" />
+      <node id="4222583594236590131" at="68,70,69,70" concept="1" />
+      <node id="4222583594236590141" at="69,70,70,70" concept="1" />
+      <node id="4222583594236590151" at="70,70,71,35" concept="1" />
+      <node id="4222583594236590157" at="71,35,72,70" concept="1" />
+      <node id="4222583594236590167" at="72,70,73,70" concept="1" />
+      <node id="4222583594236590177" at="73,70,74,35" concept="1" />
+      <node id="4222583594236590183" at="74,35,75,35" concept="1" />
+      <node id="4222583594236590189" at="75,35,76,23" concept="1" />
+      <node id="4222583594236590193" at="76,23,77,35" concept="1" />
+      <node id="4222583594236590199" at="77,35,78,35" concept="1" />
+      <node id="4222583594236590205" at="78,35,79,23" concept="1" />
+      <node id="4222583594236590209" at="79,23,80,0" concept="5" />
+      <node id="4222583594236590210" at="80,0,81,54" concept="1" />
+      <node id="4222583594236589710" at="14,0,16,0" concept="0" trace="NaturalLogarithm#()V" />
+      <node id="4222583594236589710" at="83,0,85,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="4222583594236589710" at="17,0,83,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="4222583594236589710" at="14,29,14,29" />
+      <scope id="4222583594236589710" at="83,63,83,63" />
+      <scope id="4222583594236589710" at="14,0,16,0" />
+      <scope id="4222583594236589710" at="83,0,85,0">
+        <var name="dimension" id="4222583594236589710" />
+      </scope>
+      <scope id="4222583594236589710" at="17,58,81,54">
+        <var name="symbol" id="4222583594236589714" />
+      </scope>
+      <scope id="4222583594236589710" at="17,0,83,0">
+        <var name="bounds" id="4222583594236589710" />
+        <var name="g" id="4222583594236589710" />
+      </scope>
+      <unit id="4222583594236589710" at="12,0,86,0" name="de.itemis.mps.editor.math.symbols.NaturalLogarithm" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236590217">
+    <file name="RightParenthesisThick.java">
+      <node id="4222583594236590220" at="17,58,18,43" concept="4" />
+      <node id="4222583594236590225" at="18,43,19,40" concept="1" />
+      <node id="4222583594236590231" at="19,40,20,82" concept="1" />
+      <node id="4222583594236590241" at="20,82,21,82" concept="1" />
+      <node id="4222583594236590251" at="21,82,22,82" concept="1" />
+      <node id="4222583594236590261" at="22,82,23,84" concept="1" />
+      <node id="4222583594236590271" at="23,84,24,85" concept="1" />
+      <node id="4222583594236590281" at="24,85,25,39" concept="1" />
+      <node id="4222583594236590287" at="25,39,26,82" concept="1" />
+      <node id="4222583594236590297" at="26,82,27,78" concept="1" />
+      <node id="4222583594236590307" at="27,78,28,83" concept="1" />
+      <node id="4222583594236590317" at="28,83,29,85" concept="1" />
+      <node id="4222583594236590327" at="29,85,30,40" concept="1" />
+      <node id="4222583594236590333" at="30,40,31,23" concept="1" />
+      <node id="4222583594236590337" at="31,23,32,0" concept="5" />
+      <node id="4222583594236590338" at="32,0,33,54" concept="1" />
+      <node id="4222583594236590347" at="35,63,36,43" concept="1" />
+      <node id="4222583594236590217" at="14,0,16,0" concept="0" trace="RightParenthesisThick#()V" />
+      <node id="4222583594236590217" at="35,0,38,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="4222583594236590217" at="17,0,35,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="4222583594236590217" at="14,34,14,34" />
+      <scope id="4222583594236590217" at="35,63,36,43" />
+      <scope id="4222583594236590217" at="14,0,16,0" />
+      <scope id="4222583594236590217" at="35,0,38,0">
+        <var name="dimension" id="4222583594236590217" />
+      </scope>
+      <scope id="4222583594236590217" at="17,58,33,54">
+        <var name="symbol" id="4222583594236590221" />
+      </scope>
+      <scope id="4222583594236590217" at="17,0,35,0">
+        <var name="bounds" id="4222583594236590217" />
+        <var name="g" id="4222583594236590217" />
+      </scope>
+      <unit id="4222583594236590217" at="12,0,39,0" name="de.itemis.mps.editor.math.symbols.RightParenthesisThick" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236590357">
+    <file name="RightSquareBracket.java">
+      <node id="4222583594236590360" at="17,58,18,46" concept="1" />
+      <node id="4222583594236590367" at="18,46,19,43" concept="4" />
+      <node id="4222583594236590372" at="19,43,20,58" concept="1" />
+      <node id="4222583594236590384" at="20,58,21,58" concept="1" />
+      <node id="4222583594236590396" at="21,58,22,58" concept="1" />
+      <node id="4222583594236590408" at="22,58,23,58" concept="1" />
+      <node id="4222583594236590420" at="23,58,24,0" concept="5" />
+      <node id="4222583594236590421" at="24,0,25,19" concept="1" />
+      <node id="4222583594236590357" at="14,0,16,0" concept="0" trace="RightSquareBracket#()V" />
+      <node id="4222583594236590357" at="27,0,29,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="4222583594236590357" at="17,0,27,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="4222583594236590357" at="14,31,14,31" />
+      <scope id="4222583594236590357" at="27,63,27,63" />
+      <scope id="4222583594236590357" at="14,0,16,0" />
+      <scope id="4222583594236590357" at="27,0,29,0">
+        <var name="dimension" id="4222583594236590357" />
+      </scope>
+      <scope id="4222583594236590357" at="17,58,25,19">
+        <var name="symbol" id="4222583594236590368" />
+      </scope>
+      <scope id="4222583594236590357" at="17,0,27,0">
+        <var name="bounds" id="4222583594236590357" />
+        <var name="g" id="4222583594236590357" />
+      </scope>
+      <unit id="4222583594236590357" at="12,0,30,0" name="de.itemis.mps.editor.math.symbols.RightSquareBracket" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/4222583594236590426">
+    <file name="VerticalLine.java">
+      <node id="4222583594236590429" at="16,58,17,108" concept="1" />
+      <node id="4222583594236590449" at="19,63,20,24" concept="1" />
+      <node id="4222583594236590426" at="13,0,15,0" concept="0" trace="VerticalLine#()V" />
+      <node id="4222583594236590426" at="16,0,19,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <node id="4222583594236590426" at="19,0,22,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <scope id="4222583594236590426" at="13,25,13,25" />
+      <scope id="4222583594236590426" at="16,58,17,108" />
+      <scope id="4222583594236590426" at="19,63,20,24" />
+      <scope id="4222583594236590426" at="13,0,15,0" />
+      <scope id="4222583594236590426" at="16,0,19,0">
+        <var name="bounds" id="4222583594236590426" />
+        <var name="g" id="4222583594236590426" />
+      </scope>
+      <scope id="4222583594236590426" at="19,0,22,0">
+        <var name="dimension" id="4222583594236590426" />
+      </scope>
+      <unit id="4222583594236590426" at="11,0,23,0" name="de.itemis.mps.editor.math.symbols.VerticalLine" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/5098456557384320163">
+    <file name="UglySumSymbol.java">
+      <node id="1330709772454291860" at="19,58,20,44" concept="4" />
+      <node id="1330709772460029188" at="20,44,21,33" concept="4" />
+      <node id="1330709772460026112" at="21,33,22,0" concept="5" />
+      <node id="7493076186644749467" at="22,0,23,142" concept="4" />
+      <node id="7493076186644786053" at="23,142,24,143" concept="4" />
+      <node id="1330709772455583897" at="24,143,25,0" concept="5" />
+      <node id="1330709772455611012" at="25,0,26,49" concept="4" />
+      <node id="1330709772455661422" at="26,49,27,96" concept="1" />
+      <node id="1330709772455768478" at="27,96,28,86" concept="1" />
+      <node id="1330709772455876260" at="28,86,29,92" concept="1" />
+      <node id="1330709772455878012" at="29,92,30,107" concept="1" />
+      <node id="1330709772458384744" at="30,107,31,0" concept="5" />
+      <node id="7493076186644769684" at="31,0,32,50" concept="4" />
+      <node id="7493076186645094473" at="32,50,33,88" concept="1" />
+      <node id="7493076186645096603" at="33,88,34,109" concept="1" />
+      <node id="7493076186644767726" at="34,109,35,0" concept="5" />
+      <node id="7493076186644767852" at="35,0,36,0" concept="5" />
+      <node id="1330709772458411521" at="36,0,37,99" concept="4" />
+      <node id="1330709772458541783" at="37,99,38,59" concept="1" />
+      <node id="7493076186644764252" at="38,59,39,0" concept="5" />
+      <node id="7493076186644789581" at="39,0,40,29" concept="1" />
+      <node id="7493076186644789586" at="40,29,41,56" concept="1" />
+      <node id="7493076186644791847" at="41,56,42,30" concept="1" />
+      <node id="7493076186644791839" at="42,30,43,57" concept="1" />
+      <node id="7493076186644765961" at="43,57,44,0" concept="5" />
+      <node id="1330709772454557882" at="44,0,45,17" concept="1" />
+      <node id="5098456557384320163" at="16,0,18,0" concept="0" trace="UglySumSymbol#()V" />
+      <node id="5098456557384320163" at="47,0,49,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="5098456557384320163" at="19,0,47,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="5098456557384320163" at="16,26,16,26" />
+      <scope id="5098456557384320163" at="47,63,47,63" />
+      <scope id="5098456557384320163" at="16,0,18,0" />
+      <scope id="5098456557384320163" at="47,0,49,0">
+        <var name="dimension" id="5098456557384320163" />
+      </scope>
+      <scope id="5098456557384320163" at="19,58,45,17">
+        <var name="g2" id="1330709772454291861" />
+        <var name="lineHalfWidth" id="1330709772460029191" />
+        <var name="thickPath" id="7493076186644769685" />
+        <var name="thickStroke" id="7493076186644786054" />
+        <var name="thinPath" id="1330709772455611013" />
+        <var name="thinStroke" id="7493076186644749468" />
+        <var name="transform" id="1330709772458411522" />
+      </scope>
+      <scope id="5098456557384320163" at="19,0,47,0">
+        <var name="bounds" id="5098456557384320163" />
+        <var name="g" id="5098456557384320163" />
+      </scope>
+      <unit id="5098456557384320163" at="14,0,50,0" name="de.itemis.mps.editor.math.symbols.UglySumSymbol" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/5098456557384372464">
+    <file name="BeautifulSumSymbol.java">
+      <node id="5098456557384404491" at="17,58,18,0" concept="5" />
+      <node id="5098456557384372910" at="18,0,19,43" concept="4" />
+      <node id="5098456557384372913" at="19,43,20,35" concept="1" />
+      <node id="5098456557384372917" at="20,35,21,35" concept="1" />
+      <node id="5098456557384372921" at="21,35,22,37" concept="1" />
+      <node id="5098456557384372925" at="22,37,23,39" concept="1" />
+      <node id="5098456557384372929" at="23,39,24,39" concept="1" />
+      <node id="5098456557384372933" at="24,39,25,38" concept="1" />
+      <node id="5098456557384372937" at="25,38,26,37" concept="1" />
+      <node id="5098456557384372941" at="26,37,27,38" concept="1" />
+      <node id="5098456557384372945" at="27,38,28,38" concept="1" />
+      <node id="5098456557384372949" at="28,38,29,39" concept="1" />
+      <node id="5098456557384372953" at="29,39,30,38" concept="1" />
+      <node id="5098456557384372957" at="30,38,31,38" concept="1" />
+      <node id="5098456557384372961" at="31,38,32,23" concept="1" />
+      <node id="5098456557384402641" at="32,23,33,0" concept="5" />
+      <node id="5098456557384462223" at="33,0,34,52" concept="4" />
+      <node id="5098456557384454330" at="34,52,35,129" concept="4" />
+      <node id="5098456557384861395" at="35,129,36,69" concept="1" />
+      <node id="5098456557384454350" at="36,69,37,33" concept="1" />
+      <node id="5098456557384451981" at="37,33,38,0" concept="5" />
+      <node id="5098456557384426927" at="38,0,39,98" concept="4" />
+      <node id="5098456557384426937" at="39,98,40,58" concept="1" />
+      <node id="5098456557384438742" at="40,58,41,31" concept="1" />
+      <node id="5098456557384445745" at="41,31,42,0" concept="5" />
+      <node id="5098456557384447950" at="42,0,43,0" concept="5" />
+      <node id="5098456557384393471" at="43,0,44,44" concept="4" />
+      <node id="5098456557384384795" at="44,44,45,20" concept="1" />
+      <node id="5098456557384398962" at="45,20,46,17" concept="1" />
+      <node id="5098456557387607121" at="46,17,47,0" concept="5" />
+      <node id="5098456557385062905" at="49,63,50,45" concept="1" />
+      <node id="5098456557384372464" at="14,0,16,0" concept="0" trace="BeautifulSumSymbol#()V" />
+      <node id="5098456557384372464" at="49,0,52,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="5098456557384372464" at="17,0,49,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="5098456557384372464" at="14,31,14,31" />
+      <scope id="5098456557384372464" at="49,63,50,45" />
+      <scope id="5098456557384372464" at="14,0,16,0" />
+      <scope id="5098456557384372464" at="49,0,52,0">
+        <var name="dimension" id="5098456557384372464" />
+      </scope>
+      <scope id="5098456557384372464" at="17,58,47,0">
+        <var name="g2" id="5098456557384393472" />
+        <var name="symbol" id="5098456557384372909" />
+        <var name="symbolBounds" id="5098456557384462224" />
+        <var name="toRelative" id="5098456557384454331" />
+        <var name="toTarget" id="5098456557384426928" />
+      </scope>
+      <scope id="5098456557384372464" at="17,0,49,0">
+        <var name="bounds" id="5098456557384372464" />
+        <var name="g" id="5098456557384372464" />
+      </scope>
+      <unit id="5098456557384372464" at="12,0,53,0" name="de.itemis.mps.editor.math.symbols.BeautifulSumSymbol" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/5098456557384915854">
+    <file name="BeautifulIntegralSymbol.java">
+      <node id="5098456557384915858" at="17,58,18,43" concept="4" />
+      <node id="5098456557385641561" at="18,43,19,32" concept="1" />
+      <node id="5098456557385641565" at="19,32,20,61" concept="1" />
+      <node id="5098456557385641573" at="20,61,21,61" concept="1" />
+      <node id="5098456557385641581" at="21,61,22,61" concept="1" />
+      <node id="5098456557385641589" at="22,61,23,61" concept="1" />
+      <node id="5098456557385641597" at="23,61,24,61" concept="1" />
+      <node id="5098456557385641605" at="24,61,25,32" concept="1" />
+      <node id="5098456557385641609" at="25,32,26,62" concept="1" />
+      <node id="5098456557385641619" at="26,62,27,64" concept="1" />
+      <node id="5098456557385641630" at="27,64,28,62" concept="1" />
+      <node id="5098456557385641641" at="28,62,29,61" concept="1" />
+      <node id="5098456557385641652" at="29,61,30,64" concept="1" />
+      <node id="5098456557385641663" at="30,64,31,64" concept="1" />
+      <node id="5098456557385641674" at="31,64,32,64" concept="1" />
+      <node id="5098456557385641685" at="32,64,33,63" concept="1" />
+      <node id="5098456557385641696" at="33,63,34,32" concept="1" />
+      <node id="5098456557385641700" at="34,32,35,61" concept="1" />
+      <node id="5098456557385641708" at="35,61,36,61" concept="1" />
+      <node id="5098456557385641716" at="36,61,37,61" concept="1" />
+      <node id="5098456557384915935" at="37,61,38,23" concept="1" />
+      <node id="5098456557384915939" at="38,23,39,0" concept="5" />
+      <node id="5098456557384915940" at="39,0,40,52" concept="4" />
+      <node id="5098456557384915946" at="40,52,41,129" concept="4" />
+      <node id="5098456557384915960" at="41,129,42,69" concept="1" />
+      <node id="5098456557385839052" at="42,69,43,28" concept="1" />
+      <node id="5098456557386018242" at="43,28,44,54" concept="1" />
+      <node id="5098456557384915972" at="44,54,45,33" concept="1" />
+      <node id="5098456557384915977" at="45,33,46,0" concept="5" />
+      <node id="5098456557384915978" at="46,0,47,98" concept="4" />
+      <node id="5098456557384915988" at="47,98,48,58" concept="1" />
+      <node id="5098456557384915998" at="48,58,49,31" concept="1" />
+      <node id="5098456557384916003" at="49,31,50,0" concept="5" />
+      <node id="5098456557384916004" at="50,0,51,0" concept="5" />
+      <node id="5098456557384916005" at="51,0,52,44" concept="4" />
+      <node id="5098456557384916013" at="52,44,53,20" concept="1" />
+      <node id="5098456557384916018" at="53,20,54,17" concept="1" />
+      <node id="5098456557385458880" at="56,63,57,45" concept="1" />
+      <node id="5098456557384915854" at="14,0,16,0" concept="0" trace="BeautifulIntegralSymbol#()V" />
+      <node id="5098456557384915854" at="56,0,59,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="5098456557384915854" at="17,0,56,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="5098456557384915854" at="14,36,14,36" />
+      <scope id="5098456557384915854" at="56,63,57,45" />
+      <scope id="5098456557384915854" at="14,0,16,0" />
+      <scope id="5098456557384915854" at="56,0,59,0">
+        <var name="dimension" id="5098456557384915854" />
+      </scope>
+      <scope id="5098456557384915854" at="17,58,54,17">
+        <var name="g2" id="5098456557384916006" />
+        <var name="shape2" id="5098456557384915859" />
+        <var name="symbolBounds" id="5098456557384915941" />
+        <var name="toRelative" id="5098456557384915947" />
+        <var name="toTarget" id="5098456557384915979" />
+      </scope>
+      <scope id="5098456557384915854" at="17,0,56,0">
+        <var name="bounds" id="5098456557384915854" />
+        <var name="g" id="5098456557384915854" />
+      </scope>
+      <unit id="5098456557384915854" at="12,0,60,0" name="de.itemis.mps.editor.math.symbols.BeautifulIntegralSymbol" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/5098456557384994608">
+    <file name="FontIntegralSymbol.java">
+      <node id="8658283006829578415" at="16,58,17,44" concept="1" />
+      <node id="9120555111528606610" at="19,63,20,54" concept="1" />
+      <node id="5098456557384994608" at="13,0,15,0" concept="0" trace="FontIntegralSymbol#()V" />
+      <node id="5098456557384994608" at="16,0,19,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <node id="5098456557384994608" at="19,0,22,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <scope id="5098456557384994608" at="13,31,13,31" />
+      <scope id="5098456557384994608" at="16,58,17,44" />
+      <scope id="5098456557384994608" at="19,63,20,54" />
+      <scope id="5098456557384994608" at="13,0,15,0" />
+      <scope id="5098456557384994608" at="16,0,19,0">
+        <var name="bounds" id="5098456557384994608" />
+        <var name="g" id="5098456557384994608" />
+      </scope>
+      <scope id="5098456557384994608" at="19,0,22,0">
+        <var name="dimension" id="5098456557384994608" />
+      </scope>
+      <unit id="5098456557384994608" at="11,0,23,0" name="de.itemis.mps.editor.math.symbols.FontIntegralSymbol" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/5098456557386142439">
+    <file name="BeautifulSumSymbol2.java">
+      <node id="5098456557386142442" at="17,58,18,0" concept="5" />
+      <node id="5098456557386142443" at="18,0,19,43" concept="4" />
+      <node id="5098456557386151888" at="19,43,20,38" concept="1" />
+      <node id="5098456557386151892" at="20,38,21,36" concept="1" />
+      <node id="5098456557386151896" at="21,36,22,39" concept="1" />
+      <node id="5098456557386151900" at="22,39,23,37" concept="1" />
+      <node id="5098456557386151904" at="23,37,24,40" concept="1" />
+      <node id="5098456557386151908" at="24,40,25,41" concept="1" />
+      <node id="5098456557386151912" at="25,41,26,38" concept="1" />
+      <node id="5098456557386151916" at="26,38,27,37" concept="1" />
+      <node id="5098456557386151920" at="27,37,28,39" concept="1" />
+      <node id="5098456557386151924" at="28,39,29,36" concept="1" />
+      <node id="5098456557386151928" at="29,36,30,37" concept="1" />
+      <node id="5098456557386151932" at="30,37,31,40" concept="1" />
+      <node id="5098456557386142520" at="31,40,32,23" concept="1" />
+      <node id="5098456557386142524" at="32,23,33,0" concept="5" />
+      <node id="5098456557386142525" at="33,0,34,52" concept="4" />
+      <node id="5098456557386142531" at="34,52,35,129" concept="4" />
+      <node id="5098456557386142545" at="35,129,36,69" concept="1" />
+      <node id="5098456557386142557" at="36,69,37,33" concept="1" />
+      <node id="5098456557386142562" at="37,33,38,0" concept="5" />
+      <node id="5098456557386142563" at="38,0,39,98" concept="4" />
+      <node id="5098456557386142573" at="39,98,40,58" concept="1" />
+      <node id="5098456557386142583" at="40,58,41,31" concept="1" />
+      <node id="5098456557386142588" at="41,31,42,0" concept="5" />
+      <node id="5098456557386142589" at="42,0,43,0" concept="5" />
+      <node id="5098456557386142590" at="43,0,44,44" concept="4" />
+      <node id="5098456557386142598" at="44,44,45,20" concept="1" />
+      <node id="5098456557386142603" at="45,20,46,17" concept="1" />
+      <node id="5098456557386142609" at="48,63,49,48" concept="1" />
+      <node id="5098456557386142439" at="14,0,16,0" concept="0" trace="BeautifulSumSymbol2#()V" />
+      <node id="5098456557386142439" at="48,0,51,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="5098456557386142439" at="17,0,48,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="5098456557386142439" at="14,32,14,32" />
+      <scope id="5098456557386142439" at="48,63,49,48" />
+      <scope id="5098456557386142439" at="14,0,16,0" />
+      <scope id="5098456557386142439" at="48,0,51,0">
+        <var name="dimension" id="5098456557386142439" />
+      </scope>
+      <scope id="5098456557386142439" at="17,58,46,17">
+        <var name="g2" id="5098456557386142591" />
+        <var name="symbol" id="5098456557386142444" />
+        <var name="symbolBounds" id="5098456557386142526" />
+        <var name="toRelative" id="5098456557386142532" />
+        <var name="toTarget" id="5098456557386142564" />
+      </scope>
+      <scope id="5098456557386142439" at="17,0,48,0">
+        <var name="bounds" id="5098456557386142439" />
+        <var name="g" id="5098456557386142439" />
+      </scope>
+      <unit id="5098456557386142439" at="12,0,52,0" name="de.itemis.mps.editor.math.symbols.BeautifulSumSymbol2" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/5098456557386888717">
+    <file name="BeautifulSumSymbol3.java">
+      <node id="5098456557386888720" at="17,58,18,0" concept="5" />
+      <node id="5098456557386888721" at="18,0,19,43" concept="4" />
+      <node id="5098456557386895339" at="19,43,20,38" concept="1" />
+      <node id="5098456557386895343" at="20,38,21,36" concept="1" />
+      <node id="5098456557386895347" at="21,36,22,39" concept="1" />
+      <node id="5098456557386895351" at="22,39,23,37" concept="1" />
+      <node id="5098456557386895355" at="23,37,24,40" concept="1" />
+      <node id="5098456557386895359" at="24,40,25,41" concept="1" />
+      <node id="5098456557386895363" at="25,41,26,38" concept="1" />
+      <node id="5098456557386895367" at="26,38,27,37" concept="1" />
+      <node id="5098456557386895371" at="27,37,28,39" concept="1" />
+      <node id="5098456557386895375" at="28,39,29,36" concept="1" />
+      <node id="5098456557386895379" at="29,36,30,37" concept="1" />
+      <node id="5098456557386895383" at="30,37,31,40" concept="1" />
+      <node id="5098456557386888798" at="31,40,32,23" concept="1" />
+      <node id="5098456557386888802" at="32,23,33,0" concept="5" />
+      <node id="5098456557386888803" at="33,0,34,52" concept="4" />
+      <node id="5098456557386888809" at="34,52,35,129" concept="4" />
+      <node id="5098456557386888823" at="35,129,36,69" concept="1" />
+      <node id="5098456557386888835" at="36,69,37,33" concept="1" />
+      <node id="5098456557386888840" at="37,33,38,0" concept="5" />
+      <node id="5098456557386888841" at="38,0,39,98" concept="4" />
+      <node id="5098456557386888851" at="39,98,40,58" concept="1" />
+      <node id="5098456557386888861" at="40,58,41,31" concept="1" />
+      <node id="5098456557386888866" at="41,31,42,0" concept="5" />
+      <node id="5098456557386888867" at="42,0,43,0" concept="5" />
+      <node id="5098456557386888868" at="43,0,44,44" concept="4" />
+      <node id="5098456557386888876" at="44,44,45,20" concept="1" />
+      <node id="5098456557386888881" at="45,20,46,17" concept="1" />
+      <node id="5098456557386888887" at="48,63,49,48" concept="1" />
+      <node id="5098456557386888717" at="14,0,16,0" concept="0" trace="BeautifulSumSymbol3#()V" />
+      <node id="5098456557386888717" at="48,0,51,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="5098456557386888717" at="17,0,48,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="5098456557386888717" at="14,32,14,32" />
+      <scope id="5098456557386888717" at="48,63,49,48" />
+      <scope id="5098456557386888717" at="14,0,16,0" />
+      <scope id="5098456557386888717" at="48,0,51,0">
+        <var name="dimension" id="5098456557386888717" />
+      </scope>
+      <scope id="5098456557386888717" at="17,58,46,17">
+        <var name="g2" id="5098456557386888869" />
+        <var name="symbol" id="5098456557386888722" />
+        <var name="symbolBounds" id="5098456557386888804" />
+        <var name="toRelative" id="5098456557386888810" />
+        <var name="toTarget" id="5098456557386888842" />
+      </scope>
+      <scope id="5098456557386888717" at="17,0,48,0">
+        <var name="bounds" id="5098456557386888717" />
+        <var name="g" id="5098456557386888717" />
+      </scope>
+      <unit id="5098456557386888717" at="12,0,52,0" name="de.itemis.mps.editor.math.symbols.BeautifulSumSymbol3" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/5098456557388724257">
+    <file name="ProductSymbol.java">
+      <node id="5098456557388731863" at="16,58,17,44" concept="4" />
+      <node id="7493076186645882078" at="17,44,18,44" concept="1" />
+      <node id="2843041276593736855" at="18,44,19,0" concept="5" />
+      <node id="5098456557388734074" at="19,0,20,66" concept="1" />
+      <node id="5098456557388735670" at="20,66,21,67" concept="1" />
+      <node id="5098456557388738807" at="21,67,22,45" concept="1" />
+      <node id="5098456557388742212" at="22,45,23,29" concept="1" />
+      <node id="9120555111532499552" at="25,63,26,54" concept="1" />
+      <node id="5098456557388724257" at="13,0,15,0" concept="0" trace="ProductSymbol#()V" />
+      <node id="5098456557388724257" at="25,0,28,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="5098456557388724257" at="16,0,25,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="5098456557388724257" at="13,26,13,26" />
+      <scope id="5098456557388724257" at="25,63,26,54" />
+      <scope id="5098456557388724257" at="13,0,15,0" />
+      <scope id="5098456557388724257" at="25,0,28,0">
+        <var name="dimension" id="5098456557388724257" />
+      </scope>
+      <scope id="5098456557388724257" at="16,58,23,29">
+        <var name="util" id="5098456557388731864" />
+      </scope>
+      <scope id="5098456557388724257" at="16,0,25,0">
+        <var name="bounds" id="5098456557388724257" />
+        <var name="g" id="5098456557388724257" />
+      </scope>
+      <unit id="5098456557388724257" at="11,0,29,0" name="de.itemis.mps.editor.math.symbols.ProductSymbol" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/6730500395164522725">
+    <file name="SumSymbolSerif.java">
+      <node id="6730500395164522729" at="17,58,18,43" concept="4" />
+      <node id="6730500395164531073" at="18,43,19,34" concept="1" />
+      <node id="6730500395164531077" at="19,34,20,34" concept="1" />
+      <node id="6730500395164531081" at="20,34,21,32" concept="1" />
+      <node id="6730500395164531085" at="21,32,22,32" concept="1" />
+      <node id="6730500395164531089" at="22,32,23,36" concept="1" />
+      <node id="6730500395164531093" at="23,36,24,37" concept="1" />
+      <node id="6730500395164531097" at="24,37,25,36" concept="1" />
+      <node id="6730500395164531101" at="25,36,26,75" concept="1" />
+      <node id="6730500395164531109" at="26,75,27,80" concept="1" />
+      <node id="6730500395164531117" at="27,80,28,37" concept="1" />
+      <node id="6730500395164531121" at="28,37,29,35" concept="1" />
+      <node id="6730500395164531125" at="29,35,30,79" concept="1" />
+      <node id="6730500395164531133" at="30,79,31,80" concept="1" />
+      <node id="6730500395164531141" at="31,80,32,79" concept="1" />
+      <node id="6730500395164531149" at="32,79,33,76" concept="1" />
+      <node id="6730500395164531157" at="33,76,34,78" concept="1" />
+      <node id="6730500395164531165" at="34,78,35,34" concept="1" />
+      <node id="6730500395164531169" at="35,34,36,81" concept="1" />
+      <node id="6730500395164531177" at="36,81,37,78" concept="1" />
+      <node id="6730500395164531185" at="37,78,38,36" concept="1" />
+      <node id="6730500395164531189" at="38,36,39,38" concept="1" />
+      <node id="6730500395164522806" at="39,38,40,23" concept="1" />
+      <node id="6730500395164522875" at="40,23,41,0" concept="5" />
+      <node id="6730500395164522884" at="41,0,42,54" concept="1" />
+      <node id="6730500395164522895" at="44,63,45,48" concept="1" />
+      <node id="6730500395164522725" at="14,0,16,0" concept="0" trace="SumSymbolSerif#()V" />
+      <node id="6730500395164522725" at="44,0,47,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="6730500395164522725" at="17,0,44,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="6730500395164522725" at="14,27,14,27" />
+      <scope id="6730500395164522725" at="44,63,45,48" />
+      <scope id="6730500395164522725" at="14,0,16,0" />
+      <scope id="6730500395164522725" at="44,0,47,0">
+        <var name="dimension" id="6730500395164522725" />
+      </scope>
+      <scope id="6730500395164522725" at="17,58,42,54">
+        <var name="symbol" id="6730500395164522730" />
+      </scope>
+      <scope id="6730500395164522725" at="17,0,44,0">
+        <var name="bounds" id="6730500395164522725" />
+        <var name="g" id="6730500395164522725" />
+      </scope>
+      <unit id="6730500395164522725" at="12,0,48,0" name="de.itemis.mps.editor.math.symbols.SumSymbolSerif" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/7492471990419526731">
+    <file name="ArrowLeft.java">
+      <node id="7492471990419526734" at="17,58,18,50" concept="4" />
+      <node id="7492471990419526742" at="18,50,19,67" concept="1" />
+      <node id="7492471990419526752" at="19,67,20,0" concept="5" />
+      <node id="7492471990419526753" at="20,0,21,124" concept="1" />
+      <node id="7492471990419526773" at="21,124,22,0" concept="5" />
+      <node id="7492471990419526774" at="22,0,23,49" concept="4" />
+      <node id="7492471990419526779" at="23,49,24,59" concept="1" />
+      <node id="7492471990419526789" at="24,59,25,72" concept="1" />
+      <node id="7492471990419526801" at="25,72,26,72" concept="1" />
+      <node id="7492471990419526813" at="26,72,27,21" concept="1" />
+      <node id="7492471990419526820" at="29,63,30,54" concept="1" />
+      <node id="7492471990419526830" at="30,54,31,53" concept="1" />
+      <node id="7492471990419526731" at="14,0,16,0" concept="0" trace="ArrowLeft#()V" />
+      <node id="7492471990419526731" at="29,0,33,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="7492471990419526731" at="17,0,29,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="7492471990419526731" at="14,22,14,22" />
+      <scope id="7492471990419526731" at="14,0,16,0" />
+      <scope id="7492471990419526731" at="29,63,31,53" />
+      <scope id="7492471990419526731" at="29,0,33,0">
+        <var name="dimension" id="7492471990419526731" />
+      </scope>
+      <scope id="7492471990419526731" at="17,58,27,21">
+        <var name="triangle" id="7492471990419526775" />
+        <var name="triangleWidth" id="7492471990419526735" />
+      </scope>
+      <scope id="7492471990419526731" at="17,0,29,0">
+        <var name="bounds" id="7492471990419526731" />
+        <var name="g" id="7492471990419526731" />
+      </scope>
+      <unit id="7492471990419526731" at="12,0,34,0" name="de.itemis.mps.editor.math.symbols.ArrowLeft" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/7492471990419526840">
+    <file name="HorizontalLine.java">
+      <node id="7492471990419526843" at="16,58,17,108" concept="1" />
+      <node id="7492471990419526863" at="19,63,20,24" concept="1" />
+      <node id="7492471990419526840" at="13,0,15,0" concept="0" trace="HorizontalLine#()V" />
+      <node id="7492471990419526840" at="16,0,19,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <node id="7492471990419526840" at="19,0,22,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <scope id="7492471990419526840" at="13,27,13,27" />
+      <scope id="7492471990419526840" at="16,58,17,108" />
+      <scope id="7492471990419526840" at="19,63,20,24" />
+      <scope id="7492471990419526840" at="13,0,15,0" />
+      <scope id="7492471990419526840" at="16,0,19,0">
+        <var name="bounds" id="7492471990419526840" />
+        <var name="g" id="7492471990419526840" />
+      </scope>
+      <scope id="7492471990419526840" at="19,0,22,0">
+        <var name="dimension" id="7492471990419526840" />
+      </scope>
+      <unit id="7492471990419526840" at="11,0,23,0" name="de.itemis.mps.editor.math.symbols.HorizontalLine" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/7492471990419526869">
+    <file name="LeftParenthesis.java">
+      <node id="7492471990419526872" at="16,58,17,52" concept="1" />
+      <node id="7492471990419526881" at="19,63,20,43" concept="1" />
+      <node id="7492471990419526893" at="21,30,22,26" concept="1" />
+      <node id="7492471990419526869" at="13,0,15,0" concept="0" trace="LeftParenthesis#()V" />
+      <node id="7492471990419526869" at="16,0,19,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <node id="7492471990419526891" at="20,43,23,5" concept="2" />
+      <node id="7492471990419526869" at="19,0,25,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <scope id="7492471990419526869" at="13,28,13,28" />
+      <scope id="7492471990419526869" at="16,58,17,52" />
+      <scope id="7492471990419526892" at="21,30,22,26" />
+      <scope id="7492471990419526869" at="13,0,15,0" />
+      <scope id="7492471990419526869" at="16,0,19,0">
+        <var name="bounds" id="7492471990419526869" />
+        <var name="g" id="7492471990419526869" />
+      </scope>
+      <scope id="7492471990419526869" at="19,63,23,5" />
+      <scope id="7492471990419526869" at="19,0,25,0">
+        <var name="dimension" id="7492471990419526869" />
+      </scope>
+      <unit id="7492471990419526869" at="11,0,26,0" name="de.itemis.mps.editor.math.symbols.LeftParenthesis" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/7492471990419526904">
+    <file name="RightParenthesis.java">
+      <node id="7492471990419526907" at="16,58,17,53" concept="1" />
+      <node id="7492471990419526916" at="19,63,20,43" concept="1" />
+      <node id="7492471990419526928" at="21,30,22,26" concept="1" />
+      <node id="7492471990419526904" at="13,0,15,0" concept="0" trace="RightParenthesis#()V" />
+      <node id="7492471990419526904" at="16,0,19,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <node id="7492471990419526926" at="20,43,23,5" concept="2" />
+      <node id="7492471990419526904" at="19,0,25,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <scope id="7492471990419526904" at="13,29,13,29" />
+      <scope id="7492471990419526904" at="16,58,17,53" />
+      <scope id="7492471990419526927" at="21,30,22,26" />
+      <scope id="7492471990419526904" at="13,0,15,0" />
+      <scope id="7492471990419526904" at="16,0,19,0">
+        <var name="bounds" id="7492471990419526904" />
+        <var name="g" id="7492471990419526904" />
+      </scope>
+      <scope id="7492471990419526904" at="19,63,23,5" />
+      <scope id="7492471990419526904" at="19,0,25,0">
+        <var name="dimension" id="7492471990419526904" />
+      </scope>
+      <unit id="7492471990419526904" at="11,0,26,0" name="de.itemis.mps.editor.math.symbols.RightParenthesis" />
+    </file>
+  </root>
+  <root nodeRef="r:bd4abf95-b43c-45fd-92b4-452c4b7daf58(de.itemis.mps.editor.math.symbols)/7492471990419526939">
+    <file name="SumSymbol.java">
+      <node id="5098456557387971382" at="19,58,20,44" concept="4" />
+      <node id="5098456557387971389" at="20,44,21,33" concept="4" />
+      <node id="5098456557387971393" at="21,33,22,0" concept="5" />
+      <node id="1330709772455224509" at="22,0,23,83" concept="1" />
+      <node id="5098456557387971394" at="23,83,24,0" concept="5" />
+      <node id="5098456557387971395" at="24,0,25,45" concept="4" />
+      <node id="5098456557387971399" at="25,45,26,92" concept="1" />
+      <node id="5098456557387971410" at="26,92,27,82" concept="1" />
+      <node id="5098456557387971421" at="27,82,28,88" concept="1" />
+      <node id="5098456557387971434" at="28,88,29,103" concept="1" />
+      <node id="5098456557387971449" at="29,103,30,0" concept="5" />
+      <node id="5098456557387971450" at="30,0,31,99" concept="4" />
+      <node id="5098456557387971458" at="31,99,32,59" concept="1" />
+      <node id="1330709772454492491" at="32,59,33,52" concept="1" />
+      <node id="5098456557387971466" at="33,52,34,17" concept="1" />
+      <node id="7492471990419526951" at="36,63,37,54" concept="1" />
+      <node id="7492471990419526939" at="16,0,18,0" concept="0" trace="SumSymbol#()V" />
+      <node id="7492471990419526939" at="36,0,39,0" concept="3" trace="updateDimension#(Lde/itemis/mps/editor/math/runtime/Dimension2DDouble;)V" />
+      <node id="7492471990419526939" at="19,0,36,0" concept="3" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
+      <scope id="7492471990419526939" at="16,22,16,22" />
+      <scope id="7492471990419526939" at="36,63,37,54" />
+      <scope id="7492471990419526939" at="16,0,18,0" />
+      <scope id="7492471990419526939" at="36,0,39,0">
+        <var name="dimension" id="7492471990419526939" />
+      </scope>
+      <scope id="7492471990419526939" at="19,58,34,17">
+        <var name="g2" id="5098456557387971383" />
+        <var name="lineHalfWidth" id="5098456557387971390" />
+        <var name="path" id="5098456557387971396" />
+        <var name="transform" id="5098456557387971451" />
+      </scope>
+      <scope id="7492471990419526939" at="19,0,36,0">
+        <var name="bounds" id="7492471990419526939" />
+        <var name="g" id="7492471990419526939" />
+      </scope>
+      <unit id="7492471990419526939" at="14,0,40,0" name="de.itemis.mps.editor.math.symbols.SumSymbol" />
+    </file>
+  </root>
+</debug-info>
+

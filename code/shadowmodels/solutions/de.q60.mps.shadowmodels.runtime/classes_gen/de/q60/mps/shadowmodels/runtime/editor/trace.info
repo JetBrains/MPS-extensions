@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:63445f22-b51b-4da1-becb-083f08f3fc90(de.q60.mps.shadowmodels.runtime.editor)/8992130853521813938">
+    <file name="TransformationEngineForEditor.java">
+      <node id="8992130853521944971" at="30,0,31,0" concept="7" trace="instances" />
+      <node id="8992130853521947043" at="32,79,33,118" concept="5" />
+      <node id="6393752169612699430" at="37,60,38,178" concept="5" />
+      <node id="6393752169612710877" at="40,58,41,61" concept="6" />
+      <node id="8992130853522048589" at="45,11,46,89" concept="1" />
+      <node id="8992130853521945489" at="47,5,48,20" concept="6" />
+      <node id="6590526180832771949" at="53,59,54,21" concept="1" />
+      <node id="6590526180832780467" at="56,7,57,21" concept="1" />
+      <node id="8992130853522071857" at="60,0,61,0" concept="2" trace="editor" />
+      <node id="8992130853522066187" at="62,100,63,35" concept="9" />
+      <node id="8992130853522072577" at="63,35,64,25" concept="1" />
+      <node id="6590526180832744536" at="66,93,67,52" concept="1" />
+      <node id="8992130853522128716" at="67,52,68,18" concept="1" />
+      <node id="8992130853522138717" at="73,25,74,53" concept="1" />
+      <node id="8992130853522136970" at="74,53,75,18" concept="1" />
+      <node id="6393752169612710467" at="40,0,43,0" concept="4" trace="select#(Lorg/jetbrains/mps/openapi/language/SLanguage;)Ljetbrains/mps/module/ReloadableModule;" />
+      <node id="6590526180832771580" at="53,0,56,0" concept="4" trace="visit#(Lde/q60/mps/shadowmodels/runtime/editor/TransformationEngineForEditor;)V" />
+      <node id="8992130853522123723" at="66,0,70,0" concept="4" trace="editorWillBeDisposed#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="8992130853522126901" at="73,0,77,0" concept="4" trace="dispose#()V" />
+      <node id="6393752169612696952" at="38,178,43,13" concept="6" />
+      <node id="6590526180832764343" at="51,35,56,7" concept="1" />
+      <node id="8992130853522116113" at="64,25,70,7" concept="1" />
+      <node id="6590526180832762142" at="51,0,59,0" concept="8" trace="disposeAll#()V" />
+      <node id="6393752169612691381" at="36,0,45,0" concept="4" trace="getSModules#()Ljava/lang/Iterable;" />
+      <node id="8992130853522066181" at="62,0,72,0" concept="0" trace="TransformationEngineForEditor#(Ljetbrains/mps/openapi/editor/EditorComponent;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)V" />
+      <node id="8992130853521947954" at="34,27,45,11" concept="1" />
+      <node id="8992130853521947277" at="33,118,47,5" concept="3" />
+      <node id="8992130853521947173" at="32,0,50,0" concept="8" trace="getUpdater#(Ljetbrains/mps/openapi/editor/EditorComponent;)Lde/q60/mps/shadowmodels/runtime/engine/TransformationEngine;" />
+      <scope id="6393752169612710468" at="40,58,41,61" />
+      <scope id="6590526180832771581" at="53,59,54,21" />
+      <scope id="8992130853522123730" at="66,93,68,18" />
+      <scope id="8992130853522126905" at="73,25,75,18" />
+      <scope id="6393752169612710467" at="40,0,43,0">
+        <var name="it" id="6393752169612710467" />
+      </scope>
+      <scope id="6590526180832771580" at="53,0,56,0">
+        <var name="it" id="6590526180832771580" />
+      </scope>
+      <scope id="8992130853522123723" at="66,0,70,0">
+        <var name="e" id="8992130853522123727" />
+      </scope>
+      <scope id="8992130853522126901" at="73,0,77,0" />
+      <scope id="6393752169612691387" at="37,60,43,13">
+        <var name="languages" id="6393752169612699431" />
+      </scope>
+      <scope id="6590526180832758329" at="51,35,57,21" />
+      <scope id="6590526180832762142" at="51,0,59,0" />
+      <scope id="8992130853522066185" at="62,100,70,7" />
+      <scope id="6393752169612691381" at="36,0,45,0" />
+      <scope id="8992130853522066181" at="62,0,72,0">
+        <var name="editor" id="8992130853522070734" />
+        <var name="transformationFunctions" id="8992130853522066188" />
+      </scope>
+      <scope id="8992130853521947279" at="34,27,46,89" />
+      <scope id="8992130853521813983" at="32,79,48,20">
+        <var name="instance" id="8992130853521947044" />
+      </scope>
+      <scope id="8992130853521947173" at="32,0,50,0">
+        <var name="editor" id="8992130853521814033" />
+      </scope>
+      <unit id="6393752169612710467" at="39,59,43,11" name="de.q60.mps.shadowmodels.runtime.editor.TransformationEngineForEditor$1$1" />
+      <unit id="6590526180832771580" at="52,80,56,5" name="de.q60.mps.shadowmodels.runtime.editor.TransformationEngineForEditor$2" />
+      <unit id="8992130853522123721" at="65,79,70,5" name="de.q60.mps.shadowmodels.runtime.editor.TransformationEngineForEditor$3" />
+      <unit id="6393752169612690741" at="35,156,45,7" name="de.q60.mps.shadowmodels.runtime.editor.TransformationEngineForEditor$1" />
+      <unit id="8992130853521813938" at="28,0,78,0" name="de.q60.mps.shadowmodels.runtime.editor.TransformationEngineForEditor" />
+    </file>
+  </root>
+</debug-info>
+

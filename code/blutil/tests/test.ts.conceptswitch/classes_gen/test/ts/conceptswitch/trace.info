@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:9d6352d1-fb42-4998-93dc-433cd940dfa1(test.ts.conceptswitch@tests)/2039445978466870772">
+    <file name="ConceptSwitchDataFlow_Test.java">
+      <node id="2039445978466870772" at="26,39,27,25" concept="6" />
+      <node id="2039445978466912238" at="31,77,32,68" concept="1" />
+      <node id="2039445978466931142" at="35,77,36,68" concept="1" />
+      <node id="2039445978467004016" at="39,102,40,93" concept="1" />
+      <node id="2039445978466870772" at="45,52,46,19" concept="6" />
+      <node id="2039445978466912238" at="49,79,50,0" concept="4" />
+      <node id="2039445978466912238" at="51,30,52,67" concept="3" />
+      <node id="2039445978466912238" at="52,67,53,65" concept="3" />
+      <node id="2039445978466912238" at="53,65,54,209" concept="1" />
+      <node id="2039445978466931142" at="57,79,58,0" concept="4" />
+      <node id="2039445978466931142" at="59,30,60,67" concept="3" />
+      <node id="2039445978466931142" at="60,67,61,65" concept="3" />
+      <node id="2039445978466931142" at="61,65,62,209" concept="1" />
+      <node id="2039445978467004016" at="65,104,66,0" concept="4" />
+      <node id="2039445978467004016" at="67,30,68,67" concept="3" />
+      <node id="2039445978467004016" at="68,67,69,65" concept="3" />
+      <node id="2039445978467004016" at="69,65,70,308" concept="1" />
+      <node id="2039445978466870772" at="23,0,25,0" concept="5" trace="ourParamCache" />
+      <node id="2039445978466870772" at="26,0,29,0" concept="0" trace="ConceptSwitchDataFlow_Test#()V" />
+      <node id="2039445978466870772" at="45,0,48,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2039445978466912238" at="30,0,34,0" concept="2" trace="test_ErrorMessagesCheck2039445978466912238#()V" />
+      <node id="2039445978466931142" at="34,0,38,0" concept="2" trace="test_ErrorMessagesCheck2039445978466931142#()V" />
+      <node id="2039445978467004016" at="38,0,42,0" concept="2" trace="test_NodeVariableHasNotBeenInitializedErrorCheck2039445978467004016#()V" />
+      <node id="2039445978466912238" at="50,0,55,9" concept="1" />
+      <node id="2039445978466931142" at="58,0,63,9" concept="1" />
+      <node id="2039445978467004016" at="66,0,71,9" concept="1" />
+      <node id="2039445978466912238" at="49,0,57,0" concept="2" trace="test_ErrorMessagesCheck2039445978466912238#()V" />
+      <node id="2039445978466931142" at="57,0,65,0" concept="2" trace="test_ErrorMessagesCheck2039445978466931142#()V" />
+      <node id="2039445978467004016" at="65,0,73,0" concept="2" trace="test_NodeVariableHasNotBeenInitializedErrorCheck2039445978467004016#()V" />
+      <scope id="2039445978466870772" at="26,39,27,25" />
+      <scope id="2039445978466912238" at="31,77,32,68" />
+      <scope id="2039445978466931142" at="35,77,36,68" />
+      <scope id="2039445978467004016" at="39,102,40,93" />
+      <scope id="2039445978466870772" at="45,52,46,19" />
+      <scope id="2039445978466870772" at="26,0,29,0" />
+      <scope id="2039445978466870772" at="45,0,48,0">
+        <var name="owner" id="2039445978466870772" />
+      </scope>
+      <scope id="2039445978466912238" at="51,30,54,209">
+        <var name="nodeToCheck" id="2039445978466912238" />
+        <var name="operation" id="2039445978466912238" />
+      </scope>
+      <scope id="2039445978466931142" at="59,30,62,209">
+        <var name="nodeToCheck" id="2039445978466931142" />
+        <var name="operation" id="2039445978466931142" />
+      </scope>
+      <scope id="2039445978467004016" at="67,30,70,308">
+        <var name="nodeToCheck" id="2039445978467004016" />
+        <var name="operation" id="2039445978467004016" />
+      </scope>
+      <scope id="2039445978466912238" at="30,0,34,0" />
+      <scope id="2039445978466931142" at="34,0,38,0" />
+      <scope id="2039445978467004016" at="38,0,42,0" />
+      <scope id="2039445978466912238" at="49,79,55,9" />
+      <scope id="2039445978466931142" at="57,79,63,9" />
+      <scope id="2039445978467004016" at="65,104,71,9" />
+      <scope id="2039445978466912238" at="49,0,57,0" />
+      <scope id="2039445978466931142" at="57,0,65,0" />
+      <scope id="2039445978467004016" at="65,0,73,0" />
+      <unit id="2039445978466870772" at="43,0,75,0" name="test.ts.conceptswitch.ConceptSwitchDataFlow_Test$TestBody" />
+      <unit id="2039445978466870772" at="21,0,76,0" name="test.ts.conceptswitch.ConceptSwitchDataFlow_Test" />
+    </file>
+  </root>
+</debug-info>
+

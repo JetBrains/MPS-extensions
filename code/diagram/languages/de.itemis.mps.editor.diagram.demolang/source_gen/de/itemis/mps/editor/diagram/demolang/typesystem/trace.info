@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="9,0,25,0" name="de.itemis.mps.editor.diagram.demolang.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd84401f-cd0e-49f8-9cba-254f4da8c308(de.itemis.mps.editor.diagram.demolang.typesystem)/6160055369523874363">
+    <file name="TypesystemDescriptor.java">
+      <node id="6160055369523874363" at="11,5,12,82" concept="4" />
+      <node id="6160055369523874363" at="12,82,13,47" concept="2" />
+      <node id="6160055369523874363" at="10,33,14,5" concept="0" />
+      <scope id="6160055369523874363" at="11,5,13,47">
+        <var name="inferenceRule" id="6160055369523874363" />
+      </scope>
+    </file>
+    <file name="typeof_Connection_InferenceRule.java">
+      <node id="6160055369523874363" at="19,50,20,34" concept="5" />
+      <node id="6160055369523874363" at="22,68,23,102" concept="5" />
+      <node id="6160055369523874363" at="25,30,26,17" concept="5" />
+      <node id="6160055369523874363" at="30,0,31,0" concept="6" trace="Connection$He" />
+      <node id="6160055369523874363" at="15,0,17,0" concept="1" trace="typeof_Connection_InferenceRule#()V" />
+      <node id="6160055369523874363" at="17,0,19,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="6160055369523874363" at="19,0,22,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6160055369523874363" at="22,0,25,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6160055369523874363" at="25,0,28,0" concept="3" trace="overrides#()Z" />
+      <scope id="6160055369523874363" at="15,44,15,44" />
+      <scope id="6160055369523874364" at="17,123,17,123" />
+      <scope id="6160055369523874363" at="19,50,20,34" />
+      <scope id="6160055369523874363" at="22,68,23,102" />
+      <scope id="6160055369523874363" at="25,30,26,17" />
+      <scope id="6160055369523874363" at="15,0,17,0" />
+      <scope id="6160055369523874363" at="17,0,19,0">
+        <var name="connection" id="6160055369523874363" />
+        <var name="status" id="6160055369523874363" />
+        <var name="typeCheckingContext" id="6160055369523874363" />
+      </scope>
+      <scope id="6160055369523874363" at="19,0,22,0" />
+      <scope id="6160055369523874363" at="22,0,25,0">
+        <var name="argument" id="6160055369523874363" />
+      </scope>
+      <scope id="6160055369523874363" at="25,0,28,0" />
+      <unit id="6160055369523874363" at="29,0,32,0" name="de.itemis.mps.editor.diagram.demolang.typesystem.typeof_Connection_InferenceRule$CONCEPTS" />
+      <unit id="6160055369523874363" at="14,0,33,0" name="de.itemis.mps.editor.diagram.demolang.typesystem.typeof_Connection_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:fd84401f-cd0e-49f8-9cba-254f4da8c308(de.itemis.mps.editor.diagram.demolang.typesystem)/6160055369523874405">
+    <file name="TypesystemDescriptor.java">
+      <node id="6160055369523874405" at="19,5,20,93" concept="4" />
+      <node id="6160055369523874405" at="20,93,21,55" concept="2" />
+      <node id="6160055369523874405" at="18,5,22,5" concept="0" />
+      <scope id="6160055369523874405" at="19,5,21,55">
+        <var name="nonTypesystemRule" id="6160055369523874405" />
+      </scope>
+    </file>
+    <file name="check_Connection_NonTypesystemRule.java">
+      <node id="6160055369543573580" at="21,5,22,64" concept="4" />
+      <node id="6160055369543573580" at="22,64,23,240" concept="4" />
+      <node id="6160055369545146174" at="25,5,26,64" concept="4" />
+      <node id="6160055369545146174" at="26,64,27,234" concept="4" />
+      <node id="6160055369523874405" at="30,50,31,34" concept="5" />
+      <node id="6160055369523874405" at="33,68,34,102" concept="5" />
+      <node id="6160055369523874405" at="36,30,37,17" concept="5" />
+      <node id="6160055369523874405" at="41,0,42,0" concept="6" trace="Connection$He" />
+      <node id="6160055369523874405" at="18,0,20,0" concept="1" trace="check_Connection_NonTypesystemRule#()V" />
+      <node id="6160055369523874405" at="30,0,33,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6160055369523874405" at="33,0,36,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6160055369523874405" at="36,0,39,0" concept="3" trace="overrides#()Z" />
+      <node id="6160055369543573580" at="20,123,24,5" concept="0" />
+      <node id="6160055369545146174" at="24,5,28,5" concept="0" />
+      <node id="6160055369523874405" at="20,0,30,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6160055369523874405" at="18,47,18,47" />
+      <scope id="6160055369523874405" at="30,50,31,34" />
+      <scope id="6160055369523874405" at="33,68,34,102" />
+      <scope id="6160055369523874405" at="36,30,37,17" />
+      <scope id="6160055369523874405" at="18,0,20,0" />
+      <scope id="6160055369543573580" at="21,5,23,240">
+        <var name="_reporter_2309309498" id="6160055369543573580" />
+        <var name="errorTarget" id="6160055369543573580" />
+      </scope>
+      <scope id="6160055369545146174" at="25,5,27,234">
+        <var name="_reporter_2309309498" id="6160055369545146174" />
+        <var name="errorTarget" id="6160055369545146174" />
+      </scope>
+      <scope id="6160055369523874405" at="30,0,33,0" />
+      <scope id="6160055369523874405" at="33,0,36,0">
+        <var name="argument" id="6160055369523874405" />
+      </scope>
+      <scope id="6160055369523874405" at="36,0,39,0" />
+      <scope id="6160055369523874406" at="20,123,28,5" />
+      <scope id="6160055369523874405" at="20,0,30,0">
+        <var name="connection" id="6160055369523874405" />
+        <var name="status" id="6160055369523874405" />
+        <var name="typeCheckingContext" id="6160055369523874405" />
+      </scope>
+      <unit id="6160055369523874405" at="40,0,43,0" name="de.itemis.mps.editor.diagram.demolang.typesystem.check_Connection_NonTypesystemRule$CONCEPTS" />
+      <unit id="6160055369523874405" at="17,0,44,0" name="de.itemis.mps.editor.diagram.demolang.typesystem.check_Connection_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:fd84401f-cd0e-49f8-9cba-254f4da8c308(de.itemis.mps.editor.diagram.demolang.typesystem)/7557392908928684807">
+    <file name="TypesystemDescriptor.java">
+      <node id="7557392908928684807" at="15,5,16,92" concept="4" />
+      <node id="7557392908928684807" at="16,92,17,55" concept="2" />
+      <node id="7557392908928684807" at="14,5,18,5" concept="0" />
+      <scope id="7557392908928684807" at="15,5,17,55">
+        <var name="nonTypesystemRule" id="7557392908928684807" />
+      </scope>
+    </file>
+    <file name="check_Component_NonTypesystemRule.java">
+      <node id="7557392908928684807" at="19,50,20,33" concept="5" />
+      <node id="7557392908928684807" at="22,68,23,102" concept="5" />
+      <node id="7557392908928684807" at="25,30,26,17" concept="5" />
+      <node id="7557392908928684807" at="30,0,31,0" concept="6" trace="Component$eD" />
+      <node id="7557392908928684807" at="15,0,17,0" concept="1" trace="check_Component_NonTypesystemRule#()V" />
+      <node id="7557392908928684807" at="17,0,19,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="7557392908928684807" at="19,0,22,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7557392908928684807" at="22,0,25,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7557392908928684807" at="25,0,28,0" concept="3" trace="overrides#()Z" />
+      <scope id="7557392908928684807" at="15,46,15,46" />
+      <scope id="7557392908928684808" at="17,117,17,117" />
+      <scope id="7557392908928684807" at="19,50,20,33" />
+      <scope id="7557392908928684807" at="22,68,23,102" />
+      <scope id="7557392908928684807" at="25,30,26,17" />
+      <scope id="7557392908928684807" at="15,0,17,0" />
+      <scope id="7557392908928684807" at="17,0,19,0">
+        <var name="node" id="7557392908928684807" />
+        <var name="status" id="7557392908928684807" />
+        <var name="typeCheckingContext" id="7557392908928684807" />
+      </scope>
+      <scope id="7557392908928684807" at="19,0,22,0" />
+      <scope id="7557392908928684807" at="22,0,25,0">
+        <var name="argument" id="7557392908928684807" />
+      </scope>
+      <scope id="7557392908928684807" at="25,0,28,0" />
+      <unit id="7557392908928684807" at="29,0,32,0" name="de.itemis.mps.editor.diagram.demolang.typesystem.check_Component_NonTypesystemRule$CONCEPTS" />
+      <unit id="7557392908928684807" at="14,0,33,0" name="de.itemis.mps.editor.diagram.demolang.typesystem.check_Component_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+

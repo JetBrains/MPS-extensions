@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,64,0" name="de.itemis.mps.editor.bool.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,36,0" name="de.itemis.mps.editor.bool.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="18,0,130,0" name="de.itemis.mps.editor.bool.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ff3199af-19b4-4b1a-8045-000a02c06e38(de.itemis.mps.editor.bool.structure)/416014060004381438">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="416014060004381438" at="16,0,17,0" concept="1" trace="props_StubCellModel_Checkbox" />
+      <node id="416014060004381438" at="54,51,55,76" concept="3" />
+      <node id="416014060004381438" at="55,76,56,56" concept="0" />
+      <node id="416014060004381438" at="56,56,57,54" concept="0" />
+      <node id="416014060004381438" at="58,9,59,44" concept="4" />
+      <node id="416014060004381438" at="53,56,58,9" concept="2" />
+      <scope id="416014060004381438" at="54,51,57,54">
+        <var name="cpb" id="416014060004381438" />
+      </scope>
+      <scope id="416014060004381438" at="53,56,59,44" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="416014060004381438" at="16,0,17,0" concept="6" trace="StubCellModel_Checkbox" />
+      <node id="416014060004381438" at="23,63,24,60" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="416014060004381438" at="23,0,24,0" concept="1" trace="myConceptStubCellModel_Checkbox" />
+      <node id="416014060004381438" at="54,56,55,47" concept="4" />
+      <node id="416014060004381438" at="118,80,119,181" concept="3" />
+      <node id="416014060004381438" at="119,181,120,34" concept="0" />
+      <node id="416014060004381438" at="120,34,121,70" concept="5" />
+      <node id="416014060004381438" at="121,70,122,76" concept="0" />
+      <node id="416014060004381438" at="122,76,123,75" concept="0" />
+      <node id="416014060004381438" at="123,75,124,111" concept="0" />
+      <node id="416014060004381438" at="124,111,125,17" concept="0" />
+      <node id="416014060004381438" at="125,17,126,54" concept="0" />
+      <node id="416014060004381438" at="126,54,127,22" concept="4" />
+      <node id="416014060004381438" at="118,0,129,0" concept="7" trace="createDescriptorForStubCellModel_Checkbox#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="416014060004381438" at="54,56,55,47" />
+      <scope id="416014060004381438" at="118,80,127,22">
+        <var name="b" id="416014060004381438" />
+      </scope>
+      <scope id="416014060004381438" at="118,0,129,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ff3199af-19b4-4b1a-8045-000a02c06e38(de.itemis.mps.editor.bool.structure)/416014060004530854">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="416014060004530854" at="15,0,16,0" concept="1" trace="props_StubCellModel_BooleanText" />
+      <node id="416014060004530854" at="47,54,48,76" concept="3" />
+      <node id="416014060004530854" at="48,76,49,59" concept="0" />
+      <node id="416014060004530854" at="49,59,50,57" concept="0" />
+      <node id="416014060004530854" at="51,9,52,47" concept="4" />
+      <node id="416014060004530854" at="46,59,51,9" concept="2" />
+      <scope id="416014060004530854" at="47,54,50,57">
+        <var name="cpb" id="416014060004530854" />
+      </scope>
+      <scope id="416014060004530854" at="46,59,52,47" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="416014060004530854" at="15,0,16,0" concept="6" trace="StubCellModel_BooleanText" />
+      <node id="416014060004530854" at="22,59,23,63" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="416014060004530854" at="22,0,23,0" concept="1" trace="myConceptStubCellModel_BooleanText" />
+      <node id="416014060004530854" at="52,59,53,50" concept="4" />
+      <node id="416014060004530854" at="107,83,108,184" concept="3" />
+      <node id="416014060004530854" at="108,184,109,34" concept="0" />
+      <node id="416014060004530854" at="109,34,110,73" concept="5" />
+      <node id="416014060004530854" at="110,73,111,76" concept="0" />
+      <node id="416014060004530854" at="111,76,112,75" concept="0" />
+      <node id="416014060004530854" at="112,75,113,111" concept="0" />
+      <node id="416014060004530854" at="113,111,114,17" concept="0" />
+      <node id="416014060004530854" at="114,17,115,54" concept="0" />
+      <node id="416014060004530854" at="115,54,116,22" concept="4" />
+      <node id="416014060004530854" at="107,0,118,0" concept="7" trace="createDescriptorForStubCellModel_BooleanText#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="416014060004530854" at="52,59,53,50" />
+      <scope id="416014060004530854" at="107,83,116,22">
+        <var name="b" id="416014060004530854" />
+      </scope>
+      <scope id="416014060004530854" at="107,0,118,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ff3199af-19b4-4b1a-8045-000a02c06e38(de.itemis.mps.editor.bool.structure)/4900677560559655527">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4900677560559655527" at="13,0,14,0" concept="1" trace="props_CellModel_Checkbox" />
+      <node id="4900677560559655527" at="32,47,33,76" concept="3" />
+      <node id="4900677560559655527" at="33,76,34,61" concept="0" />
+      <node id="4900677560559655527" at="34,61,35,42" concept="0" />
+      <node id="4900677560559655527" at="35,42,36,50" concept="0" />
+      <node id="4900677560559655527" at="37,9,38,40" concept="4" />
+      <node id="4900677560559655527" at="31,52,37,9" concept="2" />
+      <scope id="4900677560559655527" at="32,47,36,50">
+        <var name="cpb" id="4900677560559655527" />
+      </scope>
+      <scope id="4900677560559655527" at="31,52,38,40" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4900677560559655527" at="13,0,14,0" concept="6" trace="CellModel_Checkbox" />
+      <node id="4900677560559655527" at="20,60,21,57" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4900677560559655527" at="20,0,21,0" concept="1" trace="myConceptCellModel_Checkbox" />
+      <node id="4900677560559655527" at="48,52,49,43" concept="4" />
+      <node id="4900677560559655527" at="80,76,81,178" concept="3" />
+      <node id="4900677560559655527" at="81,178,82,34" concept="0" />
+      <node id="4900677560559655527" at="82,34,83,70" concept="5" />
+      <node id="4900677560559655527" at="83,70,84,70" concept="0" />
+      <node id="4900677560559655527" at="84,70,85,112" concept="0" />
+      <node id="4900677560559655527" at="85,112,86,17" concept="0" />
+      <node id="4900677560559655527" at="86,17,87,31" concept="0" />
+      <node id="1160488491229" at="87,31,88,107" concept="0" />
+      <node id="2320610800095784425" at="88,107,89,119" concept="0" />
+      <node id="2320610800103694400" at="89,119,90,179" concept="0" />
+      <node id="2320610800103694404" at="90,179,91,180" concept="0" />
+      <node id="4900677560559655527" at="91,180,92,69" concept="0" />
+      <node id="4900677560559655527" at="92,69,93,24" concept="0" />
+      <node id="4900677560559655527" at="93,24,94,22" concept="4" />
+      <node id="4900677560559655527" at="80,0,96,0" concept="7" trace="createDescriptorForCellModel_Checkbox#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4900677560559655527" at="48,52,49,43" />
+      <scope id="4900677560559655527" at="80,76,94,22">
+        <var name="b" id="4900677560559655527" />
+      </scope>
+      <scope id="4900677560559655527" at="80,0,96,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ff3199af-19b4-4b1a-8045-000a02c06e38(de.itemis.mps.editor.bool.structure)/5474165673714391176">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5474165673714391176" at="14,0,15,0" concept="1" trace="props_CheckboxDefaultIcons" />
+      <node id="5474165673714391176" at="40,49,41,76" concept="3" />
+      <node id="5474165673714391176" at="41,76,42,54" concept="0" />
+      <node id="5474165673714391176" at="42,54,43,52" concept="0" />
+      <node id="5474165673714391176" at="44,9,45,42" concept="4" />
+      <node id="5474165673714391176" at="39,54,44,9" concept="2" />
+      <scope id="5474165673714391176" at="40,49,43,52">
+        <var name="cpb" id="5474165673714391176" />
+      </scope>
+      <scope id="5474165673714391176" at="39,54,45,42" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5474165673714391176" at="14,0,15,0" concept="6" trace="CheckboxDefaultIcons" />
+      <node id="5474165673714391176" at="21,57,22,59" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5474165673714391176" at="21,0,22,0" concept="1" trace="myConceptCheckboxDefaultIcons" />
+      <node id="5474165673714391176" at="50,54,51,45" concept="4" />
+      <node id="5474165673714391176" at="96,78,97,180" concept="3" />
+      <node id="5474165673714391176" at="97,180,98,33" concept="0" />
+      <node id="5474165673714391176" at="98,33,99,112" concept="0" />
+      <node id="5474165673714391176" at="99,112,100,17" concept="0" />
+      <node id="5474165673714469010" at="100,17,101,118" concept="0" />
+      <node id="5474165673714469011" at="101,118,102,119" concept="0" />
+      <node id="5474165673714750964" at="102,119,103,179" concept="0" />
+      <node id="5474165673714750965" at="103,179,104,180" concept="0" />
+      <node id="5474165673714391176" at="104,180,105,22" concept="4" />
+      <node id="5474165673714391176" at="96,0,107,0" concept="7" trace="createDescriptorForCheckboxDefaultIcons#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5474165673714391176" at="50,54,51,45" />
+      <scope id="5474165673714391176" at="96,78,105,22">
+        <var name="b" id="5474165673714391176" />
+      </scope>
+      <scope id="5474165673714391176" at="96,0,107,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ff3199af-19b4-4b1a-8045-000a02c06e38(de.itemis.mps.editor.bool.structure)/7122083600695857782">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="7122083600695857782" at="12,0,13,0" concept="1" trace="props_CellModel_BooleanText" />
+      <node id="7122083600695857782" at="24,50,25,76" concept="3" />
+      <node id="7122083600695857782" at="25,76,26,57" concept="0" />
+      <node id="7122083600695857782" at="26,57,27,38" concept="0" />
+      <node id="7122083600695857782" at="27,38,28,53" concept="0" />
+      <node id="7122083600695857782" at="29,9,30,43" concept="4" />
+      <node id="7122083600695857782" at="23,55,29,9" concept="2" />
+      <scope id="7122083600695857782" at="24,50,28,53">
+        <var name="cpb" id="7122083600695857782" />
+      </scope>
+      <scope id="7122083600695857782" at="23,55,30,43" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="7122083600695857782" at="12,0,13,0" concept="6" trace="CellModel_BooleanText" />
+      <node id="7122083600695857782" at="19,116,20,60" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="7122083600695857782" at="19,0,20,0" concept="1" trace="myConceptCellModel_BooleanText" />
+      <node id="7122083600695857782" at="46,55,47,46" concept="4" />
+      <node id="7122083600695857782" at="66,79,67,181" concept="3" />
+      <node id="7122083600695857782" at="67,181,68,34" concept="0" />
+      <node id="7122083600695857782" at="68,34,69,70" concept="5" />
+      <node id="7122083600695857782" at="69,70,70,70" concept="0" />
+      <node id="7122083600695857782" at="70,70,71,112" concept="0" />
+      <node id="7122083600695857782" at="71,112,72,17" concept="0" />
+      <node id="7122083600695857782" at="72,17,73,31" concept="0" />
+      <node id="7122083600696906118" at="73,31,74,114" concept="0" />
+      <node id="7122083600696909496" at="74,114,75,115" concept="0" />
+      <node id="7122083600695857782" at="75,115,76,69" concept="0" />
+      <node id="7122083600695857782" at="76,69,77,20" concept="0" />
+      <node id="7122083600695857782" at="77,20,78,22" concept="4" />
+      <node id="7122083600695857782" at="66,0,80,0" concept="7" trace="createDescriptorForCellModel_BooleanText#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7122083600695857782" at="46,55,47,46" />
+      <scope id="7122083600695857782" at="66,79,78,22">
+        <var name="b" id="7122083600695857782" />
+      </scope>
+      <scope id="7122083600695857782" at="66,0,80,0" />
+    </file>
+  </root>
+</debug-info>
+

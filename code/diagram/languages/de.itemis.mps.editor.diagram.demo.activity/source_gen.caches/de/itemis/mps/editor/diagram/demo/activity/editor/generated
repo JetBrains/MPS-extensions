@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="ao243yvyrhcfvcg8nq3w1uo6c5seaxe">
+  <files names="ActivityModule_Editor.java:ActivityModule_EditorBuilder_a.java:Activity_ActivityAsDiagram_Editor.java:Activity_ActivityAsDiagram_EditorBuilder_a.java:Activity_Editor.java:Activity_EditorBuilder_a.java:Bar.java:BranchStatement_ActivityAsDiagram_Editor.java:BranchStatement_ActivityAsDiagram_EditorBuilder_a.java:BranchStatement_Editor.java:BranchStatement_EditorBuilder_a.java:DoWhileStatement_InsideActivityDiagram_Editor.java:DoWhileStatement_InsideActivityDiagram_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:EmptyActivityModuleContent_Editor.java:EmptyActivityModuleContent_EditorBuilder_a.java:EmptyActivityModuleContent_SubstituteMenu.java:EndState.java:ForStatement_InsideActivityDiagram_Editor.java:ForStatement_InsideActivityDiagram_EditorBuilder_a.java:StartState.java:_Adapters.java" />
+</product>
+

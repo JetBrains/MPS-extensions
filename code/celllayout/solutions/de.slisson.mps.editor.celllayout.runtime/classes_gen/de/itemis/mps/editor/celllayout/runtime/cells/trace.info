@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:02240f59-d215-4642-b459-56f9f2ccb58d(de.itemis.mps.editor.celllayout.runtime.cells)/4504148519581216388">
+    <file name="EditorListenerCellProvider.java">
+      <node id="2345901609508163434" at="12,49,13,16" concept="8" />
+      <node id="4504148519582245864" at="16,26,17,22" concept="5" />
+      <node id="4504148519581274777" at="21,61,22,49" concept="5" />
+      <node id="4504148519581354703" at="25,0,26,0" concept="3" trace="onEditorLoaded#()V" />
+      <node id="1920632727396723829" at="27,0,28,0" concept="3" trace="onEditorUnloaded#()V" />
+      <node id="4504148519581345456" at="12,0,15,0" concept="0" trace="EditorListenerCellProvider#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4504148519582245404" at="16,0,19,0" concept="3" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4504148519581265332" at="20,0,24,0" concept="3" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+      <scope id="4504148519581345460" at="12,49,13,16" />
+      <scope id="4504148519582245407" at="16,26,17,22" />
+      <scope id="4504148519581265338" at="21,61,22,49" />
+      <scope id="4504148519581354703" at="25,0,26,0" />
+      <scope id="1920632727396723829" at="27,0,28,0" />
+      <scope id="4504148519581345456" at="12,0,15,0">
+        <var name="node" id="4504148519581345565" />
+      </scope>
+      <scope id="4504148519582245404" at="16,0,19,0" />
+      <scope id="4504148519581265332" at="20,0,24,0">
+        <var name="context" id="4504148519581265336" />
+      </scope>
+      <unit id="4504148519581216388" at="10,0,30,0" name="de.itemis.mps.editor.celllayout.runtime.cells.EditorListenerCellProvider" />
+    </file>
+  </root>
+  <root nodeRef="r:02240f59-d215-4642-b459-56f9f2ccb58d(de.itemis.mps.editor.celllayout.runtime.cells)/4504148519581269051">
+    <file name="EditorListenerCell.java">
+      <node id="4504148519582235888" at="15,0,16,0" concept="2" trace="_provider" />
+      <node id="4504148519581268086" at="17,104,18,46" concept="8" />
+      <node id="4504148519582254098" at="18,46,19,25" concept="1" />
+      <node id="4504148519581268099" at="19,25,20,25" concept="1" />
+      <node id="1920632727396595991" at="24,50,25,31" concept="1" />
+      <node id="1920632727396725807" at="29,52,30,33" concept="1" />
+      <node id="4504148519582268285" at="38,75,39,42" concept="6" />
+      <node id="1920632727396936929" at="44,23,45,18" concept="1" />
+      <node id="1920632727396562770" at="45,18,46,42" concept="1" />
+      <node id="1920632727396969664" at="50,26,51,45" concept="1" />
+      <node id="1920632727396883087" at="51,45,52,21" concept="1" />
+      <node id="1920632727396591614" at="33,0,36,0" concept="3" trace="ancestorMoved#(Ljavax/swing/event/AncestorEvent;)V" />
+      <node id="1920632727396591590" at="23,0,27,0" concept="3" trace="ancestorAdded#(Ljavax/swing/event/AncestorEvent;)V" />
+      <node id="1920632727396591602" at="28,0,32,0" concept="3" trace="ancestorRemoved#(Ljavax/swing/event/AncestorEvent;)V" />
+      <node id="4504148519581272810" at="37,0,41,0" concept="3" trace="paintContent#(Ljava/awt/Graphics;Ljetbrains/mps/nodeEditor/cells/ParentSettings;)V" />
+      <node id="4504148519581268082" at="17,0,22,0" concept="0" trace="EditorListenerCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lde/itemis/mps/editor/celllayout/runtime/cells/EditorListenerCellProvider;)V" />
+      <node id="1920632727396936922" at="43,0,48,0" concept="3" trace="onAdd#()V" />
+      <node id="1920632727396883080" at="49,0,54,0" concept="3" trace="onRemove#()V" />
+      <scope id="1920632727396591624" at="34,50,34,50" />
+      <scope id="1920632727396591600" at="24,50,25,31" />
+      <scope id="1920632727396591612" at="29,52,30,33" />
+      <scope id="4504148519581272818" at="38,75,39,42" />
+      <scope id="1920632727396936926" at="44,23,46,42" />
+      <scope id="1920632727396883084" at="50,26,52,21" />
+      <scope id="4504148519581268085" at="17,104,20,25" />
+      <scope id="1920632727396591614" at="33,0,36,0">
+        <var name="event" id="1920632727396591618" />
+      </scope>
+      <scope id="1920632727396591590" at="23,0,27,0">
+        <var name="event" id="1920632727396591594" />
+      </scope>
+      <scope id="1920632727396591602" at="28,0,32,0">
+        <var name="event" id="1920632727396591606" />
+      </scope>
+      <scope id="4504148519581272810" at="37,0,41,0">
+        <var name="graphics" id="4504148519581272814" />
+        <var name="settings" id="4504148519581272816" />
+      </scope>
+      <scope id="4504148519581268082" at="17,0,22,0">
+        <var name="editorContext" id="4504148519581268102" />
+        <var name="provider" id="4504148519581268105" />
+      </scope>
+      <scope id="1920632727396936922" at="43,0,48,0" />
+      <scope id="1920632727396883080" at="49,0,54,0" />
+      <unit id="4504148519581269051" at="13,0,55,0" name="de.itemis.mps.editor.celllayout.runtime.cells.EditorListenerCell" />
+    </file>
+  </root>
+  <root nodeRef="r:02240f59-d215-4642-b459-56f9f2ccb58d(de.itemis.mps.editor.celllayout.runtime.cells)/5658785992299944469">
+    <file name="HorizontalLineCell.java">
+      <node id="2648070105042195675" at="18,0,19,0" concept="7" trace="MARGIN_TOP" />
+      <node id="2648070105042197177" at="19,0,20,0" concept="7" trace="MARGIN_BOTTOM" />
+      <node id="2648070105042198699" at="20,0,21,0" concept="7" trace="HORIZONTAL_LINE_WIDTH" />
+      <node id="2648070105042200235" at="21,0,22,0" concept="7" trace="HORIZONTAL_LINE_COLOR" />
+      <node id="2648070105042201801" at="22,0,23,0" concept="7" trace="GROW_X" />
+      <node id="2648070105042203409" at="23,0,24,0" concept="7" trace="PUSH_X" />
+      <node id="5658785992299950096" at="25,80,26,32" concept="8" />
+      <node id="5658785992299985605" at="26,32,27,33" concept="1" />
+      <node id="5658785992299990699" at="27,33,28,33" concept="1" />
+      <node id="5658785992300013428" at="28,33,29,25" concept="1" />
+      <node id="4682418030828836761" at="32,37,33,49" concept="1" />
+      <node id="4682418030828840065" at="36,43,37,53" concept="1" />
+      <node id="5658785992300179601" at="40,40,41,39" concept="1" />
+      <node id="5658785992300180873" at="44,43,45,42" concept="1" />
+      <node id="5658785992299964739" at="48,69,49,29" concept="4" />
+      <node id="5658785992299967642" at="50,9,51,56" concept="1" />
+      <node id="5658785992299957243" at="51,56,52,58" concept="1" />
+      <node id="5658785992299966474" at="53,15,54,18" concept="1" />
+      <node id="3556751990745240666" at="59,33,60,17" concept="1" />
+      <node id="5658785992299961126" at="60,17,61,53" concept="1" />
+      <node id="2785305699881924210" at="65,35,66,65" concept="5" />
+      <node id="5658785992299977887" at="32,0,35,0" concept="3" trace="setColor#(Ljava/awt/Color;)V" />
+      <node id="5658785992299981525" at="36,0,39,0" concept="3" trace="setLineWidth#(I)V" />
+      <node id="5658785992300175504" at="40,0,43,0" concept="3" trace="setMarginTop#(I)V" />
+      <node id="5658785992300180867" at="44,0,47,0" concept="3" trace="setMarginBottom#(I)V" />
+      <node id="2785305699881915042" at="64,0,68,0" concept="3" trace="renderText#()Ljetbrains/mps/openapi/editor/TextBuilder;" />
+      <node id="5658785992299959289" at="58,0,63,0" concept="3" trace="relayoutImpl#()V" />
+      <node id="5658785992299950090" at="25,0,31,0" concept="0" trace="HorizontalLineCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5658785992299966060" at="49,29,55,5" concept="9" />
+      <node id="5658785992299955010" at="48,0,57,0" concept="3" trace="paintContent#(Ljava/awt/Graphics;Ljetbrains/mps/nodeEditor/cells/ParentSettings;)V" />
+      <scope id="5658785992299977891" at="32,37,33,49" />
+      <scope id="5658785992299981529" at="36,43,37,53" />
+      <scope id="5658785992300175508" at="40,40,41,39" />
+      <scope id="5658785992300180872" at="44,43,45,42" />
+      <scope id="5658785992299966063" at="53,15,54,18" />
+      <scope id="2785305699881915046" at="65,35,66,65" />
+      <scope id="5658785992299966062" at="50,9,52,58" />
+      <scope id="5658785992299959293" at="59,33,61,53" />
+      <scope id="5658785992299977887" at="32,0,35,0">
+        <var name="color" id="5658785992299979192" />
+      </scope>
+      <scope id="5658785992299981525" at="36,0,39,0">
+        <var name="lineWidth" id="5658785992299982007" />
+      </scope>
+      <scope id="5658785992300175504" at="40,0,43,0">
+        <var name="margin" id="5658785992300178346" />
+      </scope>
+      <scope id="5658785992300180867" at="44,0,47,0">
+        <var name="margin" id="5658785992300180868" />
+      </scope>
+      <scope id="5658785992299950094" at="25,80,29,25" />
+      <scope id="2785305699881915042" at="64,0,68,0" />
+      <scope id="5658785992299959289" at="58,0,63,0" />
+      <scope id="5658785992299950090" at="25,0,31,0">
+        <var name="editorContext" id="5658785992299950097" />
+        <var name="snode" id="5658785992299950102" />
+      </scope>
+      <scope id="5658785992299955018" at="48,69,55,5">
+        <var name="g" id="5658785992299964740" />
+      </scope>
+      <scope id="5658785992299955010" at="48,0,57,0">
+        <var name="g_" id="5658785992299955014" />
+        <var name="settings" id="5658785992299955016" />
+      </scope>
+      <unit id="5658785992299944469" at="17,0,69,0" name="de.itemis.mps.editor.celllayout.runtime.cells.HorizontalLineCell" />
+    </file>
+  </root>
+  <root nodeRef="r:02240f59-d215-4642-b459-56f9f2ccb58d(de.itemis.mps.editor.celllayout.runtime.cells)/8304752469786115430">
+    <file name="VerticalLineCell.java">
+      <node id="8304752469786115431" at="19,0,20,0" concept="7" trace="MARGIN_LEFT" />
+      <node id="8304752469786115436" at="20,0,21,0" concept="7" trace="MARGIN_RIGHT" />
+      <node id="8304752469786115441" at="21,0,22,0" concept="7" trace="VERTICAL_LINE_WIDTH" />
+      <node id="8304752469786115446" at="22,0,23,0" concept="7" trace="VERTICAL_LINE_COLOR" />
+      <node id="8304752469786115451" at="23,0,24,0" concept="7" trace="GROW_Y" />
+      <node id="8304752469786115456" at="24,0,25,0" concept="7" trace="PUSH_Y" />
+      <node id="8304752469786115468" at="26,78,27,32" concept="8" />
+      <node id="8304752469786115471" at="27,32,28,33" concept="1" />
+      <node id="8304752469786115476" at="28,33,29,33" concept="1" />
+      <node id="8304752469786115481" at="29,33,30,25" concept="1" />
+      <node id="8304752469786115496" at="33,37,34,47" concept="1" />
+      <node id="8304752469786115508" at="37,43,38,51" concept="1" />
+      <node id="8304752469786115520" at="41,41,42,40" concept="1" />
+      <node id="8304752469786115532" at="45,42,46,41" concept="1" />
+      <node id="8304752469786115546" at="49,69,50,29" concept="4" />
+      <node id="4678297852274152978" at="50,29,51,56" concept="4" />
+      <node id="8304752469787139070" at="52,9,53,49" concept="4" />
+      <node id="8304752469786115554" at="53,49,54,54" concept="1" />
+      <node id="8304752469786115561" at="54,54,55,71" concept="1" />
+      <node id="8304752469786115570" at="56,15,57,18" concept="1" />
+      <node id="8304752469786115582" at="62,33,63,50" concept="1" />
+      <node id="8304752469786115593" at="67,35,68,36" concept="5" />
+      <node id="8304752469786115490" at="33,0,36,0" concept="3" trace="setColor#(Ljava/awt/Color;)V" />
+      <node id="8304752469786115502" at="37,0,40,0" concept="3" trace="setLineWidth#(I)V" />
+      <node id="8304752469786115514" at="41,0,44,0" concept="3" trace="setMarginLeft#(I)V" />
+      <node id="8304752469786115526" at="45,0,48,0" concept="3" trace="setMarginRight#(I)V" />
+      <node id="8304752469786115575" at="61,0,65,0" concept="3" trace="relayoutImpl#()V" />
+      <node id="8304752469786115589" at="66,0,70,0" concept="3" trace="renderText#()Ljetbrains/mps/openapi/editor/TextBuilder;" />
+      <node id="8304752469786115464" at="26,0,32,0" concept="0" trace="VerticalLineCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8304752469786115552" at="51,56,58,5" concept="9" />
+      <node id="8304752469786115538" at="49,0,60,0" concept="3" trace="paintContent#(Ljava/awt/Graphics;Ljetbrains/mps/nodeEditor/cells/ParentSettings;)V" />
+      <scope id="8304752469786115495" at="33,37,34,47" />
+      <scope id="8304752469786115507" at="37,43,38,51" />
+      <scope id="8304752469786115519" at="41,41,42,40" />
+      <scope id="8304752469786115531" at="45,42,46,41" />
+      <scope id="8304752469786115569" at="56,15,57,18" />
+      <scope id="8304752469786115578" at="62,33,63,50" />
+      <scope id="8304752469786115592" at="67,35,68,36" />
+      <scope id="8304752469786115490" at="33,0,36,0">
+        <var name="color" id="8304752469786115491" />
+      </scope>
+      <scope id="8304752469786115502" at="37,0,40,0">
+        <var name="lineWidth" id="8304752469786115503" />
+      </scope>
+      <scope id="8304752469786115514" at="41,0,44,0">
+        <var name="margin" id="8304752469786115515" />
+      </scope>
+      <scope id="8304752469786115526" at="45,0,48,0">
+        <var name="margin" id="8304752469786115527" />
+      </scope>
+      <scope id="8304752469786115553" at="52,9,55,71">
+        <var name="parent" id="8304752469787139071" />
+      </scope>
+      <scope id="8304752469786115467" at="26,78,30,25" />
+      <scope id="8304752469786115575" at="61,0,65,0" />
+      <scope id="8304752469786115589" at="66,0,70,0" />
+      <scope id="8304752469786115464" at="26,0,32,0">
+        <var name="editorContext" id="8304752469786115484" />
+        <var name="snode" id="8304752469786115487" />
+      </scope>
+      <scope id="8304752469786115545" at="49,69,58,5">
+        <var name="g" id="8304752469786115547" />
+        <var name="lineWidth" id="4678297852274152981" />
+      </scope>
+      <scope id="8304752469786115538" at="49,0,60,0">
+        <var name="g_" id="8304752469786115541" />
+        <var name="settings" id="8304752469786115543" />
+      </scope>
+      <unit id="8304752469786115430" at="18,0,71,0" name="de.itemis.mps.editor.celllayout.runtime.cells.VerticalLineCell" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:700a66b5-00d0-4738-9d24-e492913007fc(de.slisson.mps.hacks.editor.editorregistry)/2312097807576942998">
+    <file name="ConceptEditorRegistry.java">
+      <node id="2312097807576995314" at="15,0,16,0" concept="11" trace="LOG" />
+      <node id="2312097807576943040" at="17,57,18,23" concept="13" />
+      <node id="2312097807577008659" at="20,34,21,42" concept="13" />
+      <node id="5767160640965989133" at="24,117,25,48" concept="10" />
+      <node id="2312097807576943003" at="17,0,20,0" concept="2" trace="ConceptEditorRegistry#(Ljava/util/Set;)V" />
+      <node id="2312097807577008656" at="20,0,23,0" concept="2" trace="ConceptEditorRegistry#()V" />
+      <node id="2312097807576943010" at="23,0,27,0" concept="8" trace="getEditors#(Ljetbrains/mps/openapi/editor/descriptor/EditorAspectDescriptor;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/Collection;" />
+      <scope id="2312097807576943005" at="17,57,18,23" />
+      <scope id="2312097807577008658" at="20,34,21,42" />
+      <scope id="2312097807576943016" at="24,117,25,48" />
+      <scope id="2312097807576943003" at="17,0,20,0">
+        <var name="activeHints" id="2312097807576992823" />
+      </scope>
+      <scope id="2312097807577008656" at="20,0,23,0" />
+      <scope id="2312097807576943010" at="23,0,27,0">
+        <var name="aspectDescriptor" id="2312097807576943012" />
+        <var name="concept" id="2312097807576943014" />
+      </scope>
+      <unit id="2312097807576942998" at="14,0,28,0" name="de.slisson.mps.hacks.editor.editorregistry.ConceptEditorRegistry" />
+    </file>
+  </root>
+  <root nodeRef="r:700a66b5-00d0-4738-9d24-e492913007fc(de.slisson.mps.hacks.editor.editorregistry)/5767160640965892501">
+    <file name="AbstractEditorRegistry.java">
+      <node id="5767160640965892505" at="28,0,29,0" concept="11" trace="LOG" />
+      <node id="5767160640965892516" at="29,0,30,0" concept="11" trace="myEditorComparator" />
+      <node id="5767160640965892520" at="30,0,31,0" concept="11" trace="myAncestorEditorComparator" />
+      <node id="5767160640965936356" at="31,0,32,0" concept="5" trace="myHints" />
+      <node id="5767160640965936366" at="32,58,33,26" concept="4" />
+      <node id="5767160640965892538" at="35,48,36,81" concept="10" />
+      <node id="5767160640965892557" at="38,121,39,78" concept="9" />
+      <node id="5767160640965892563" at="39,78,40,101" concept="9" />
+      <node id="5767160640965892568" at="40,101,41,44" concept="9" />
+      <node id="5767160640965892581" at="43,45,44,17" concept="3" />
+      <node id="5767160640965892583" at="45,7,46,67" concept="9" />
+      <node id="5767160640965892599" at="48,55,49,31" concept="10" />
+      <node id="5767160640965892603" at="50,16,51,40" concept="4" />
+      <node id="5767160640965892606" at="53,7,54,34" concept="4" />
+      <node id="5767160640965892617" at="56,31,57,18" concept="10" />
+      <node id="5767160640965892619" at="58,5,59,64" concept="4" />
+      <node id="5767160640965892623" at="59,64,60,29" concept="10" />
+      <node id="5767160640965892638" at="62,132,63,63" concept="9" />
+      <node id="5767160640965892647" at="64,35,65,18" concept="10" />
+      <node id="5767160640965892649" at="66,5,67,60" concept="4" />
+      <node id="5767160640965892654" at="67,60,68,20" concept="9" />
+      <node id="5767160640965892672" at="71,68,72,33" concept="4" />
+      <node id="5767160640965892686" at="75,86,76,58" concept="4" />
+      <node id="5767160640965892693" at="77,14,78,14" concept="1" />
+      <node id="5767160640965892698" at="80,5,81,18" concept="10" />
+      <node id="5767160640965892707" at="83,70,84,40" concept="9" />
+      <node id="5767160640965892713" at="84,40,85,104" concept="9" />
+      <node id="5767160640965892725" at="86,34,87,120" concept="4" />
+      <node id="5767160640965892732" at="87,120,88,20" concept="10" />
+      <node id="5767160640965892735" at="89,5,90,51" concept="9" />
+      <node id="5767160640965892740" at="91,9,92,81" concept="4" />
+      <node id="5767160640965892751" at="93,42,94,98" concept="4" />
+      <node id="5767160640965892773" at="98,58,99,36" concept="4" />
+      <node id="5767160640965892782" at="102,5,103,18" concept="10" />
+      <node id="5767160640965892802" at="107,55,108,21" concept="10" />
+      <node id="5767160640965892810" at="110,5,111,16" concept="10" />
+      <node id="5767160640965892829" at="115,59,116,21" concept="10" />
+      <node id="5767160640965892835" at="118,5,119,16" concept="10" />
+      <node id="5767160640965892846" at="121,68,122,24" concept="9" />
+      <node id="5767160640965892857" at="124,33,125,24" concept="4" />
+      <node id="5767160640965892861" at="126,7,127,29" concept="4" />
+      <node id="5767160640965892871" at="128,5,129,183" concept="10" />
+      <node id="5767160640965892919" at="136,85,137,88" concept="10" />
+      <node id="5767160640965892928" at="138,11,139,85" concept="10" />
+      <node id="5767160640965892939" at="142,5,143,30" concept="10" />
+      <node id="5767160640965892966" at="149,82,150,85" concept="10" />
+      <node id="5767160640965892977" at="153,5,154,38" concept="10" />
+      <node id="5767160640965892982" at="156,0,157,0" concept="8" trace="getEditors#(Ljetbrains/mps/openapi/editor/descriptor/EditorAspectDescriptor;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/Collection;" />
+      <node id="5767160640965892601" at="50,14,52,9" concept="0" />
+      <node id="5767160640965892691" at="77,12,79,7" concept="0" />
+      <node id="5767160640965936360" at="32,0,35,0" concept="2" trace="AbstractEditorRegistry#(Ljava/util/Set;)V" />
+      <node id="5767160640965892534" at="35,0,38,0" concept="8" trace="getEditor#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)null" />
+      <node id="5767160640965892576" at="42,53,45,7" concept="7" />
+      <node id="5767160640965892613" at="55,5,58,5" concept="7" />
+      <node id="5767160640965892643" at="63,63,66,5" concept="7" />
+      <node id="5767160640965892666" at="70,27,73,9" concept="7" />
+      <node id="5767160640965892768" at="97,69,100,9" concept="7" />
+      <node id="5767160640965892794" at="106,33,109,7" concept="7" />
+      <node id="5767160640965892821" at="114,50,117,7" concept="7" />
+      <node id="5767160640965892852" at="123,40,126,7" concept="7" />
+      <node id="5767160640965892909" at="135,82,138,11" concept="7" />
+      <node id="5767160640965892719" at="85,104,89,5" concept="7" />
+      <node id="5767160640965892959" at="148,0,152,0" concept="8" trace="compare#(Ljetbrains/mps/openapi/editor/descriptor/BaseConceptEditor;Ljetbrains/mps/openapi/editor/descriptor/BaseConceptEditor;)I" />
+      <node id="5767160640965892594" at="47,34,52,9" concept="7" />
+      <node id="5767160640965892676" at="74,12,79,7" concept="7" />
+      <node id="5767160640965892757" at="90,51,95,5" concept="14" />
+      <node id="5767160640965892765" at="96,35,101,7" concept="6" />
+      <node id="5767160640965892791" at="105,71,110,5" concept="6" />
+      <node id="5767160640965892818" at="113,74,118,5" concept="6" />
+      <node id="5767160640965892849" at="122,24,128,5" concept="6" />
+      <node id="5767160640965892952" at="146,45,152,8" concept="4" />
+      <node id="5767160640965892588" at="46,67,53,7" concept="7" />
+      <node id="5767160640965892759" at="95,5,102,5" concept="7" />
+      <node id="5767160640965892902" at="134,0,141,0" concept="8" trace="compare#(Ljetbrains/mps/openapi/editor/descriptor/BaseConceptEditor;Ljetbrains/mps/openapi/editor/descriptor/BaseConceptEditor;)I" />
+      <node id="5767160640965892787" at="105,0,113,0" concept="8" trace="isEnoughForCurrentContext#(Ljetbrains/mps/openapi/editor/descriptor/BaseConceptEditor;)Z" />
+      <node id="5767160640965892814" at="113,0,121,0" concept="8" trace="isApplicableInCurrentContext#(Ljetbrains/mps/openapi/editor/descriptor/BaseConceptEditor;)Z" />
+      <node id="5767160640965892946" at="145,78,153,5" concept="7" />
+      <node id="5767160640965892895" at="132,37,141,8" concept="4" />
+      <node id="5767160640965892660" at="69,44,79,7" concept="7" />
+      <node id="5767160640965892839" at="121,0,131,0" concept="8" trace="getErrorMessage#(nullnull)Ljava/lang/String;" />
+      <node id="5767160640965892889" at="131,70,142,5" concept="7" />
+      <node id="5767160640965892944" at="145,0,156,0" concept="12" trace="getAncestorEditorComparator#()Ljava/util/Comparator;" />
+      <node id="5767160640965892657" at="68,20,80,5" concept="6" />
+      <node id="5767160640965892573" at="41,44,55,5" concept="6" />
+      <node id="5767160640965892887" at="131,0,145,0" concept="12" trace="getEditorComparator#()Ljava/util/Comparator;" />
+      <node id="5767160640965892627" at="62,0,83,0" concept="8" trace="getEditorForConcept#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljava/util/Collection;)null" />
+      <node id="5767160640965892702" at="83,0,105,0" concept="8" trace="collectApplicableEditors#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
+      <node id="5767160640965892546" at="38,0,62,0" concept="8" trace="getEditor#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljava/util/Collection;)null" />
+      <scope id="5767160640965936365" at="32,58,33,26" />
+      <scope id="5767160640965892537" at="35,48,36,81" />
+      <scope id="5767160640965892580" at="43,45,44,17" />
+      <scope id="5767160640965892598" at="48,55,49,31" />
+      <scope id="5767160640965892602" at="50,16,51,40" />
+      <scope id="5767160640965892616" at="56,31,57,18" />
+      <scope id="5767160640965892646" at="64,35,65,18" />
+      <scope id="5767160640965892671" at="71,68,72,33" />
+      <scope id="5767160640965892685" at="75,86,76,58" />
+      <scope id="5767160640965892692" at="77,14,78,14" />
+      <scope id="5767160640965892739" at="91,9,92,81" />
+      <scope id="5767160640965892750" at="93,42,94,98" />
+      <scope id="5767160640965892772" at="98,58,99,36" />
+      <scope id="5767160640965892801" at="107,55,108,21" />
+      <scope id="5767160640965892828" at="115,59,116,21" />
+      <scope id="5767160640965892856" at="124,33,125,24" />
+      <scope id="5767160640965892918" at="136,85,137,88" />
+      <scope id="5767160640965892965" at="149,82,150,85" />
+      <scope id="5767160640965892982" at="156,0,157,0">
+        <var name="aspectDescriptor" id="5767160640965892983" />
+        <var name="concept" id="5767160640965892985" />
+      </scope>
+      <scope id="5767160640965892724" at="86,34,88,20" />
+      <scope id="5767160640965892758" at="93,5,95,5">
+        <var name="error" id="5767160640965892746" />
+      </scope>
+      <scope id="5767160640965936360" at="32,0,35,0">
+        <var name="activeHints" id="5767160640965936361" />
+      </scope>
+      <scope id="5767160640965892534" at="35,0,38,0">
+        <var name="concept" id="5767160640965892535" />
+      </scope>
+      <scope id="5767160640965892665" at="70,27,73,9" />
+      <scope id="5767160640965892767" at="97,69,100,9" />
+      <scope id="5767160640965892793" at="106,33,109,7" />
+      <scope id="5767160640965892820" at="114,50,117,7" />
+      <scope id="5767160640965892851" at="123,40,127,29" />
+      <scope id="5767160640965892908" at="135,82,139,85" />
+      <scope id="5767160640965892959" at="148,0,152,0">
+        <var name="editor1" id="5767160640965892961" />
+        <var name="editor2" id="5767160640965892963" />
+      </scope>
+      <scope id="5767160640965892593" at="47,34,52,9" />
+      <scope id="5767160640965892764" at="96,35,101,7" />
+      <scope id="5767160640965892765" at="96,35,101,7">
+        <var name="conceptEditor" id="5767160640965892776" />
+      </scope>
+      <scope id="5767160640965892791" at="105,71,110,5">
+        <var name="hint" id="5767160640965892804" />
+      </scope>
+      <scope id="5767160640965892818" at="113,74,118,5">
+        <var name="hint" id="5767160640965892831" />
+      </scope>
+      <scope id="5767160640965892790" at="105,71,111,16" />
+      <scope id="5767160640965892817" at="113,74,119,16" />
+      <scope id="5767160640965892849" at="122,24,128,5">
+        <var name="contextHint" id="5767160640965892865" />
+      </scope>
+      <scope id="5767160640965892951" at="146,45,152,8" />
+      <scope id="5767160640965892902" at="134,0,141,0">
+        <var name="editor1" id="5767160640965892904" />
+        <var name="editor2" id="5767160640965892906" />
+      </scope>
+      <scope id="5767160640965892787" at="105,0,113,0">
+        <var name="editor" id="5767160640965892788" />
+      </scope>
+      <scope id="5767160640965892814" at="113,0,121,0">
+        <var name="editor" id="5767160640965892815" />
+      </scope>
+      <scope id="5767160640965892844" at="121,68,129,183">
+        <var name="context" id="5767160640965892845" />
+      </scope>
+      <scope id="5767160640965892894" at="132,37,141,8" />
+      <scope id="5767160640965892945" at="145,78,154,38" />
+      <scope id="5767160640965892659" at="69,44,79,7" />
+      <scope id="5767160640965892839" at="121,0,131,0">
+        <var name="additionalEditor" id="5767160640965892840" />
+        <var name="mainEditor" id="5767160640965892842" />
+      </scope>
+      <scope id="5767160640965892944" at="145,0,156,0" />
+      <scope id="5767160640965892575" at="42,53,54,34">
+        <var name="conceptEditor" id="5767160640965892582" />
+      </scope>
+      <scope id="5767160640965892657" at="68,20,80,5">
+        <var name="conceptEditor" id="5767160640965892694" />
+      </scope>
+      <scope id="5767160640965892888" at="131,70,143,30" />
+      <scope id="5767160640965892573" at="41,44,55,5">
+        <var name="next" id="5767160640965892609" />
+      </scope>
+      <scope id="5767160640965892887" at="131,0,145,0" />
+      <scope id="5767160640965892636" at="62,132,81,18">
+        <var name="conceptEditors" id="5767160640965892637" />
+        <var name="result" id="5767160640965892653" />
+      </scope>
+      <scope id="5767160640965892705" at="83,70,103,18">
+        <var name="aspectDescriptor" id="5767160640965892734" />
+        <var name="languageRuntime" id="5767160640965892712" />
+        <var name="result" id="5767160640965892706" />
+      </scope>
+      <scope id="5767160640965892627" at="62,0,83,0">
+        <var name="concept" id="5767160640965892628" />
+        <var name="excludedEditors" id="5767160640965892630" />
+      </scope>
+      <scope id="5767160640965892555" at="38,121,60,29">
+        <var name="ancestorsIterable" id="5767160640965892562" />
+        <var name="processedConcepts" id="5767160640965892556" />
+        <var name="resultList" id="5767160640965892567" />
+      </scope>
+      <scope id="5767160640965892702" at="83,0,105,0">
+        <var name="concept" id="5767160640965892703" />
+      </scope>
+      <scope id="5767160640965892546" at="38,0,62,0">
+        <var name="concept" id="5767160640965892547" />
+        <var name="excludedEditors" id="5767160640965892549" />
+      </scope>
+      <unit id="5767160640965892957" at="147,39,152,7" name="de.slisson.mps.hacks.editor.editorregistry.AbstractEditorRegistry$2" />
+      <unit id="5767160640965892900" at="133,31,141,7" name="de.slisson.mps.hacks.editor.editorregistry.AbstractEditorRegistry$1" />
+      <unit id="5767160640965892501" at="27,0,158,0" name="de.slisson.mps.hacks.editor.editorregistry.AbstractEditorRegistry" />
+    </file>
+  </root>
+</debug-info>
+

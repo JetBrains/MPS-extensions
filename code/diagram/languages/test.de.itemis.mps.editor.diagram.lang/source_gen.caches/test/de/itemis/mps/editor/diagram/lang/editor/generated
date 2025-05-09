@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-3c1vi0cpwzv43yzu0o2dc7ic4mwhdhc">
+  <files names="Box_Editor.java:Box_EditorBuilder_a.java:Box_asDiagram_Editor.java:Box_asDiagram_EditorBuilder_a.java:DiagramModule_Editor.java:DiagramModule_EditorBuilder_a.java:DiagramWithoutLayoutStore_Editor.java:DiagramWithoutLayoutStore_EditorBuilder_a.java:DiagramWithoutLayoutStore_asDiagram_Editor.java:DiagramWithoutLayoutStore_asDiagram_EditorBuilder_a.java:Diagram_Editor.java:Diagram_EditorBuilder_a.java:Diagram_asDiagram_Editor.java:Diagram_asDiagram_EditorBuilder_a.java:Edge_Editor.java:Edge_EditorBuilder_a.java:Edge_asDiagram_Editor.java:Edge_asDiagram_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:EndpointReference_SubstituteMenu.java:ForceHint_Editor.java:ForceHint_EditorBuilder_a.java:Port_Editor.java:Port_EditorBuilder_a.java:TextBoxContent_Editor.java:TextBoxContent_EditorBuilder_a.java:TitledBoxContent_Editor.java:TitledBoxContent_EditorBuilder_a.java" />
+</product>
+

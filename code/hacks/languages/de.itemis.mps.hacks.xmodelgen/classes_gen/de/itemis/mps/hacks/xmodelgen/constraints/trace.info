@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="de.itemis.mps.hacks.xmodelgen.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:1ae1e07f-8690-476b-bc24-a038eaa24331(de.itemis.mps.hacks.xmodelgen.constraints)/5984054725148987807">
+    <file name="MappingConfigurationReference_Constraints.java">
+      <node id="5984054725148987807" at="30,54,31,53" concept="6" />
+      <node id="5984054725148987808" at="42,63,43,144" concept="4" />
+      <node id="6646476627295592365" at="48,47,49,36" concept="4" />
+      <node id="5984054725148987807" at="55,6,56,131" concept="3" />
+      <node id="5984054725148987808" at="56,131,57,42" concept="1" />
+      <node id="5984054725148987807" at="57,42,58,22" concept="4" />
+      <node id="5984054725148987807" at="62,0,63,0" concept="5" trace="MappingConfigurationReference$LB" />
+      <node id="5984054725148987807" at="63,0,64,0" concept="5" trace="MappingConfiguration$7j" />
+      <node id="5984054725148987807" at="67,0,68,0" concept="5" trace="mc$nJQU" />
+      <node id="5984054725148987807" at="30,0,33,0" concept="0" trace="MappingConfigurationReference_Constraints#()V" />
+      <node id="6646476627295592363" at="48,0,51,0" concept="2" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="5984054725148987808" at="41,0,45,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6646476627295592055" at="46,80,51,17" concept="4" />
+      <node id="5984054725148987808" at="45,0,53,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="5984054725148987808" at="39,56,53,10" concept="4" />
+      <node id="5984054725148987808" at="37,0,55,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="5984054725148987808" at="35,90,55,6" concept="3" />
+      <node id="5984054725148987807" at="34,0,60,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="5984054725148987807" at="30,54,31,53" />
+      <scope id="5984054725148987808" at="42,63,43,144" />
+      <scope id="6646476627295592364" at="48,47,49,36" />
+      <scope id="5984054725148987807" at="30,0,33,0" />
+      <scope id="6646476627295592363" at="48,0,51,0">
+        <var name="it" id="6646476627295592363" />
+      </scope>
+      <scope id="5984054725148987808" at="41,0,45,0" />
+      <scope id="5984054725148987808" at="46,80,51,17" />
+      <scope id="5984054725148987808" at="45,0,53,0">
+        <var name="_context" id="5984054725148987808" />
+      </scope>
+      <scope id="5984054725148987808" at="39,56,53,10" />
+      <scope id="5984054725148987808" at="37,0,55,0" />
+      <scope id="5984054725148987807" at="35,90,58,22">
+        <var name="d0" id="5984054725148987808" />
+        <var name="references" id="5984054725148987807" />
+      </scope>
+      <scope id="5984054725148987807" at="34,0,60,0" />
+      <unit id="5984054725148987807" at="66,0,69,0" name="de.itemis.mps.hacks.xmodelgen.constraints.MappingConfigurationReference_Constraints$LINKS" />
+      <unit id="6646476627295592363" at="47,337,51,13" name="de.itemis.mps.hacks.xmodelgen.constraints.MappingConfigurationReference_Constraints$1$1$1" />
+      <unit id="5984054725148987807" at="61,0,65,0" name="de.itemis.mps.hacks.xmodelgen.constraints.MappingConfigurationReference_Constraints$CONCEPTS" />
+      <unit id="5984054725148987808" at="40,19,53,9" name="de.itemis.mps.hacks.xmodelgen.constraints.MappingConfigurationReference_Constraints$1$1" />
+      <unit id="5984054725148987808" at="36,48,55,5" name="de.itemis.mps.hacks.xmodelgen.constraints.MappingConfigurationReference_Constraints$1" />
+      <unit id="5984054725148987807" at="29,0,70,0" name="de.itemis.mps.hacks.xmodelgen.constraints.MappingConfigurationReference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

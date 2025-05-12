@@ -386,6 +386,83 @@
             <property role="3oM_SC" value="inspector." />
           </node>
         </node>
+        <node concept="2DRihI" id="$kD7tOLc98" role="15bAlk">
+          <node concept="15Ami3" id="$kD7tOLccK" role="1PaTwD">
+            <node concept="37shsh" id="$kD7tOLccL" role="15Aodc">
+              <node concept="1dCxOk" id="$kD7tOLccQ" role="37shsm">
+                <property role="1XweGW" value="b92f861d-0184-446d-b88b-6dcf0e070241" />
+                <property role="1XxBO9" value="com.mbeddr.mpsutil.intentions" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLccV" role="1PaTwD">
+            <property role="3oM_SC" value="Group" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcrS" role="1PaTwD">
+            <property role="3oM_SC" value="annotations" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLccW" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLccX" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcgC" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcgD" role="1PaTwD">
+            <property role="3oM_SC" value="also" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcgE" role="1PaTwD">
+            <property role="3oM_SC" value="added" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcgF" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcgG" role="1PaTwD">
+            <property role="3oM_SC" value="action" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLckn" role="1PaTwD">
+            <property role="3oM_SC" value="declarations" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcko" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLckp" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLckq" role="1PaTwD">
+            <property role="3oM_SC" value="active" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLckr" role="1PaTwD">
+            <property role="3oM_SC" value="when" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcks" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLckt" role="1PaTwD">
+            <property role="3oM_SC" value="actions" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLco8" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLco9" role="1PaTwD">
+            <property role="3oM_SC" value="added" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcoa" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcob" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcoc" role="1PaTwD">
+            <property role="3oM_SC" value="ActionsAsIntentions" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="$kD7tOLcod" role="1PaTwD">
+            <property role="3oM_SC" value="group." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="7qYSchhSpfu" role="15bmVC">

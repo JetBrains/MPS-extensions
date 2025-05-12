@@ -46,7 +46,7 @@
       <concept id="278032644708909557" name="com.mbeddr.mpsutil.intentions.structure.ShowIntentionInReadyOnlyCell" flags="ng" index="2s3oj2">
         <property id="278032644708944807" name="flag" index="2s3gUg" />
       </concept>
-      <concept id="5846558918537398687" name="com.mbeddr.mpsutil.intentions.structure.IntentionGroupAnnotation" flags="ng" index="1SWQZ3">
+      <concept id="5846558918537398687" name="com.mbeddr.mpsutil.intentions.structure.GroupAnnotation" flags="ng" index="1SWQZ3">
         <property id="5846558918537400330" name="label" index="1SWRpm" />
       </concept>
     </language>
@@ -98,36 +98,18 @@
     <ref role="2ZfgGC" to="iikq:197NvysM_3t" resolve="DemoNodeWithIntentions" />
     <node concept="2S6ZIM" id="197NvysM_J4" role="2ZfVej">
       <node concept="3clFbS" id="197NvysM_J5" role="2VODD2">
-        <node concept="3SKdUt" id="5KWvuz1wniW" role="3cqZAp">
-          <node concept="1PaTwC" id="5KWvuz1wniX" role="1aUNEU">
-            <node concept="3oM_SD" id="5KWvuz1wnjM" role="1PaTwD">
-              <property role="3oM_SC" value="With" />
-            </node>
-            <node concept="3oM_SD" id="5KWvuz1wnjS" role="1PaTwD">
-              <property role="3oM_SC" value="whitespace" />
-            </node>
-            <node concept="3oM_SD" id="5KWvuz1wnk8" role="1PaTwD">
-              <property role="3oM_SC" value="to" />
-            </node>
-            <node concept="3oM_SD" id="5KWvuz1wnkf" role="1PaTwD">
-              <property role="3oM_SC" value="trim" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="197NvysM_La" role="3cqZAp">
-          <node concept="3cpWs3" id="197NvysM_Lc" role="3clFbG">
-            <node concept="Xl_RD" id="197NvysM_Ld" role="3uHU7w">
-              <property role="Xl_RC" value=" Demo Intention 1" />
-            </node>
-            <node concept="Xl_RD" id="197NvysM_Le" role="3uHU7B">
-              <property role="Xl_RC" value="Some Group:" />
-            </node>
+        <node concept="3clFbF" id="7b8v2ss9fi6" role="3cqZAp">
+          <node concept="Xl_RD" id="197NvysM_Ld" role="3clFbG">
+            <property role="Xl_RC" value=" Demo Intention 1" />
           </node>
         </node>
       </node>
     </node>
     <node concept="2Sbjvc" id="197NvysM_J6" role="2ZfgGD">
       <node concept="3clFbS" id="197NvysM_J7" role="2VODD2" />
+    </node>
+    <node concept="1SWQZ3" id="7b8v2ss1Adx" role="lGtFl">
+      <property role="1SWRpm" value="Some Group" />
     </node>
   </node>
   <node concept="2S6QgY" id="3pZvzolkwO8">

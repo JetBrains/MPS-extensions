@@ -21,7 +21,9 @@
       <concept id="6237210071910112531" name="com.mbeddr.mpsutil.intentions.sandboxlang.structure.ReadOnlyChildAllowed" flags="ng" index="3NfXyg" />
     </language>
   </registry>
-  <node concept="2ezpO_" id="197NvysMAlM" />
+  <node concept="2ezpO_" id="197NvysMAlM">
+    <property role="TrG5h" value="Demo Node With Intentions" />
+  </node>
   <node concept="3NfWa_" id="5qf1oe_Gzny">
     <property role="TrG5h" value="Root" />
     <node concept="3NfWaD" id="5qf1oe_Gznz" role="3NfWaF" />

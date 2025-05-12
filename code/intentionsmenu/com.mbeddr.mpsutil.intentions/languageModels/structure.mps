@@ -6,6 +6,7 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="tp4k" ref="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tp3j" ref="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" implicit="true" />
   </imports>
@@ -40,13 +41,16 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="54z9_KDO4Av">
-    <property role="TrG5h" value="IntentionGroupAnnotation" />
+    <property role="TrG5h" value="GroupAnnotation" />
     <property role="EcuMT" value="5846558918537398687" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="54z9_KDO4JX" role="lGtFl">
       <property role="Hh88m" value="group" />
       <node concept="trNpa" id="54z9_KDOLSQ" role="EQaZv">
         <ref role="trN6q" to="tp3j:2c3oNEsfcpP" resolve="BaseIntentionDeclaration" />
+      </node>
+      <node concept="trNpa" id="2oNrKyBcF$K" role="EQaZv">
+        <ref role="trN6q" to="tp4k:hwsE7KS" resolve="ActionDeclaration" />
       </node>
     </node>
     <node concept="1TJgyi" id="54z9_KDO50a" role="1TKVEl">

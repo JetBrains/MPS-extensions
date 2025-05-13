@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-cqb5503fn0865k2h5bwif6j9jvitij9">
+  <files names="AbstractDragSelectionHandler.java:CommonParentSelectionHandler.java:DragSelectionMouseListener.java:IDragSelectionHandler.java:LabelSelectionHandler.java:NodeRangeSelectionHandler.java" />
+</product>
+

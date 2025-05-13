@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:8098c403-cec5-4660-ade2-ae13ea8b4d5c(test.org.modelix.model.mpsadapters.wrappingmodelapi@tests)/8360281570502316946">
+    <file name="JavaModuleFacetAsNode_Test.java">
+      <node id="8360281570502316946" at="25,39,26,25" concept="8" />
+      <node id="8360281570502325289" at="30,49,31,40" concept="1" />
+      <node id="8360281570502316946" at="36,52,37,19" concept="8" />
+      <node id="8360281570502325289" at="40,51,41,187" concept="1" />
+      <node id="8360281570502321164" at="44,38,45,57" concept="4" />
+      <node id="8360281570502317244" at="46,31,47,42" concept="9" />
+      <node id="8360281570502317250" at="48,7,49,173" concept="4" />
+      <node id="8360281570502317258" at="49,173,50,110" concept="4" />
+      <node id="8360281570503939963" at="51,36,52,42" concept="9" />
+      <node id="8360281570502322918" at="53,7,54,56" concept="5" />
+      <node id="8360281570502316946" at="22,0,24,0" concept="7" trace="ourParamCache" />
+      <node id="8360281570502316946" at="25,0,28,0" concept="0" trace="JavaModuleFacetAsNode_Test#()V" />
+      <node id="8360281570502316946" at="36,0,39,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8360281570502325289" at="40,0,43,0" concept="3" trace="test_generated#()V" />
+      <node id="8360281570502317242" at="45,57,48,7" concept="2" />
+      <node id="8360281570503937690" at="50,110,53,7" concept="2" />
+      <node id="8360281570502325289" at="29,0,33,0" concept="3" trace="test_generated#()V" />
+      <node id="8360281570502322776" at="44,0,56,0" concept="3" trace="getJavaFacetINode#()Lorg/modelix/model/api/INode;" />
+      <scope id="8360281570502316946" at="25,39,26,25" />
+      <scope id="8360281570502325289" at="30,49,31,40" />
+      <scope id="8360281570502316946" at="36,52,37,19" />
+      <scope id="8360281570502325289" at="40,51,41,187" />
+      <scope id="8360281570502317243" at="46,31,47,42" />
+      <scope id="8360281570503937692" at="51,36,52,42" />
+      <scope id="8360281570502316946" at="25,0,28,0" />
+      <scope id="8360281570502316946" at="36,0,39,0">
+        <var name="owner" id="8360281570502316946" />
+      </scope>
+      <scope id="8360281570502325289" at="40,0,43,0" />
+      <scope id="8360281570502325289" at="29,0,33,0" />
+      <scope id="8360281570502322776" at="44,38,54,56">
+        <var name="javaModuleFacet" id="8360281570502317259" />
+        <var name="module" id="8360281570502317251" />
+        <var name="repository" id="8360281570502321165" />
+      </scope>
+      <scope id="8360281570502322776" at="44,0,56,0" />
+      <unit id="8360281570502316946" at="34,0,57,0" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.JavaModuleFacetAsNode_Test$TestBody" />
+      <unit id="8360281570502316946" at="20,0,58,0" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.JavaModuleFacetAsNode_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:8098c403-cec5-4660-ade2-ae13ea8b4d5c(test.org.modelix.model.mpsadapters.wrappingmodelapi@tests)/8360281570502405040">
+    <file name="LanguageDependencyAsNode_Test.java">
+      <node id="8360281570502405040" at="26,42,27,25" concept="8" />
+      <node id="8360281570502405041" at="31,56,32,47" concept="1" />
+      <node id="8360281570502432138" at="35,56,36,47" concept="1" />
+      <node id="8360281570502432516" at="39,59,40,50" concept="1" />
+      <node id="8360281570502748635" at="43,55,44,46" concept="1" />
+      <node id="8360281570502748652" at="47,55,48,46" concept="1" />
+      <node id="8360281570502748669" at="51,58,52,49" concept="1" />
+      <node id="8360281570502405040" at="57,52,58,19" concept="8" />
+      <node id="8360281570502405041" at="61,58,62,224" concept="1" />
+      <node id="8360281570502432138" at="64,58,65,211" concept="1" />
+      <node id="8360281570502432516" at="67,61,68,192" concept="1" />
+      <node id="8360281570502748635" at="70,57,71,223" concept="1" />
+      <node id="8360281570502748652" at="73,57,74,210" concept="1" />
+      <node id="8360281570502748669" at="76,60,77,191" concept="1" />
+      <node id="8360281570502405078" at="80,73,81,57" concept="4" />
+      <node id="8360281570502405086" at="82,31,83,42" concept="9" />
+      <node id="8360281570502405092" at="84,7,85,173" concept="4" />
+      <node id="8360281570502408628" at="85,173,86,187" concept="5" />
+      <node id="8360281570502740687" at="88,72,89,57" concept="4" />
+      <node id="8360281570502740695" at="90,31,91,42" concept="9" />
+      <node id="8360281570502743523" at="92,7,93,220" concept="4" />
+      <node id="8360281570502740709" at="93,220,94,186" concept="5" />
+      <node id="8360281570502405040" at="23,0,25,0" concept="7" trace="ourParamCache" />
+      <node id="8360281570502405040" at="26,0,29,0" concept="0" trace="LanguageDependencyAsNode_Test#()V" />
+      <node id="8360281570502405040" at="57,0,60,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8360281570502405041" at="61,0,64,0" concept="3" trace="test_uuid_from_module#()V" />
+      <node id="8360281570502432138" at="64,0,67,0" concept="3" trace="test_name_from_module#()V" />
+      <node id="8360281570502432516" at="67,0,70,0" concept="3" trace="test_version_from_module#()V" />
+      <node id="8360281570502748635" at="70,0,73,0" concept="3" trace="test_uuid_from_model#()V" />
+      <node id="8360281570502748652" at="73,0,76,0" concept="3" trace="test_name_from_model#()V" />
+      <node id="8360281570502748669" at="76,0,79,0" concept="3" trace="test_version_from_model#()V" />
+      <node id="8360281570502405084" at="81,57,84,7" concept="2" />
+      <node id="8360281570502740693" at="89,57,92,7" concept="2" />
+      <node id="8360281570502405041" at="30,0,34,0" concept="3" trace="test_uuid_from_module#()V" />
+      <node id="8360281570502432138" at="34,0,38,0" concept="3" trace="test_name_from_module#()V" />
+      <node id="8360281570502432516" at="38,0,42,0" concept="3" trace="test_version_from_module#()V" />
+      <node id="8360281570502748635" at="42,0,46,0" concept="3" trace="test_uuid_from_model#()V" />
+      <node id="8360281570502748652" at="46,0,50,0" concept="3" trace="test_name_from_model#()V" />
+      <node id="8360281570502748669" at="50,0,54,0" concept="3" trace="test_version_from_model#()V" />
+      <node id="8360281570502405075" at="80,0,88,0" concept="3" trace="getModuleLanguageDependency#()Lorg/modelix/model/mpsadapters/mps/SingleLanguageDependencyAsNode;" />
+      <node id="8360281570502740685" at="88,0,96,0" concept="3" trace="getModelLanguageDependency#()Lorg/modelix/model/mpsadapters/mps/SingleLanguageDependencyAsNode;" />
+      <scope id="8360281570502405040" at="26,42,27,25" />
+      <scope id="8360281570502405041" at="31,56,32,47" />
+      <scope id="8360281570502432138" at="35,56,36,47" />
+      <scope id="8360281570502432516" at="39,59,40,50" />
+      <scope id="8360281570502748635" at="43,55,44,46" />
+      <scope id="8360281570502748652" at="47,55,48,46" />
+      <scope id="8360281570502748669" at="51,58,52,49" />
+      <scope id="8360281570502405040" at="57,52,58,19" />
+      <scope id="8360281570502405041" at="61,58,62,224" />
+      <scope id="8360281570502432138" at="64,58,65,211" />
+      <scope id="8360281570502432516" at="67,61,68,192" />
+      <scope id="8360281570502748635" at="70,57,71,223" />
+      <scope id="8360281570502748652" at="73,57,74,210" />
+      <scope id="8360281570502748669" at="76,60,77,191" />
+      <scope id="8360281570502405085" at="82,31,83,42" />
+      <scope id="8360281570502740694" at="90,31,91,42" />
+      <scope id="8360281570502405040" at="26,0,29,0" />
+      <scope id="8360281570502405040" at="57,0,60,0">
+        <var name="owner" id="8360281570502405040" />
+      </scope>
+      <scope id="8360281570502405041" at="61,0,64,0" />
+      <scope id="8360281570502432138" at="64,0,67,0" />
+      <scope id="8360281570502432516" at="67,0,70,0" />
+      <scope id="8360281570502748635" at="70,0,73,0" />
+      <scope id="8360281570502748652" at="73,0,76,0" />
+      <scope id="8360281570502748669" at="76,0,79,0" />
+      <scope id="8360281570502405041" at="30,0,34,0" />
+      <scope id="8360281570502432138" at="34,0,38,0" />
+      <scope id="8360281570502432516" at="38,0,42,0" />
+      <scope id="8360281570502748635" at="42,0,46,0" />
+      <scope id="8360281570502748652" at="46,0,50,0" />
+      <scope id="8360281570502748669" at="50,0,54,0" />
+      <scope id="8360281570502405075" at="80,73,86,187">
+        <var name="module" id="8360281570502405093" />
+        <var name="repository" id="8360281570502405079" />
+      </scope>
+      <scope id="8360281570502740685" at="88,72,94,186">
+        <var name="model" id="8360281570502743524" />
+        <var name="repository" id="8360281570502740688" />
+      </scope>
+      <scope id="8360281570502405075" at="80,0,88,0" />
+      <scope id="8360281570502740685" at="88,0,96,0" />
+      <unit id="8360281570502405040" at="55,0,97,0" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.LanguageDependencyAsNode_Test$TestBody" />
+      <unit id="8360281570502405040" at="21,0,98,0" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.LanguageDependencyAsNode_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:8098c403-cec5-4660-ade2-ae13ea8b4d5c(test.org.modelix.model.mpsadapters.wrappingmodelapi@tests)/8360281570502753969">
+    <file name="SModuleAsNode_Test.java">
+      <node id="8360281570502753969" at="30,31,31,25" concept="8" />
+      <node id="8360281570502753970" at="35,44,36,35" concept="1" />
+      <node id="8360281570502753987" at="39,42,40,33" concept="1" />
+      <node id="8360281570502762666" at="43,53,44,44" concept="1" />
+      <node id="8360281570502763128" at="47,52,48,43" concept="1" />
+      <node id="8360281570504221205" at="51,51,52,42" concept="1" />
+      <node id="8360281570504221222" at="55,49,56,40" concept="1" />
+      <node id="8360281570504221239" at="59,60,60,51" concept="1" />
+      <node id="8360281570504221256" at="63,59,64,50" concept="1" />
+      <node id="8958347146612702159" at="67,67,68,58" concept="1" />
+      <node id="6231876011353525338" at="71,59,72,50" concept="1" />
+      <node id="8360281570502753969" at="77,52,78,19" concept="8" />
+      <node id="8360281570502753970" at="81,46,82,211" concept="1" />
+      <node id="8360281570502753987" at="84,44,85,211" concept="1" />
+      <node id="8360281570502762666" at="87,55,88,187" concept="1" />
+      <node id="8360281570502763128" at="90,54,91,189" concept="1" />
+      <node id="8360281570504221205" at="93,53,94,212" concept="1" />
+      <node id="8360281570504221222" at="96,51,97,210" concept="1" />
+      <node id="8360281570504221239" at="99,62,100,186" concept="1" />
+      <node id="8360281570504221256" at="102,61,103,189" concept="1" />
+      <node id="8958347146612719602" at="107,72,108,111" concept="4" />
+      <node id="8958347146612725341" at="108,111,109,80" concept="4" />
+      <node id="8958347146612730756" at="110,32,111,66" concept="1" />
+      <node id="8958347146613279042" at="112,11,113,75" concept="1" />
+      <node id="8958347146615623749" at="113,75,114,0" concept="6" />
+      <node id="8958347146612755510" at="116,45,117,94" concept="5" />
+      <node id="8958347146612763292" at="119,13,120,39" concept="1" />
+      <node id="8958347146612764316" at="120,39,121,71" concept="1" />
+      <node id="8958347146612770078" at="121,71,122,103" concept="1" />
+      <node id="8958347146615624130" at="122,103,123,0" concept="6" />
+      <node id="8958347146615624642" at="125,45,126,94" concept="5" />
+      <node id="8958347146615624651" at="128,13,129,39" concept="1" />
+      <node id="8958347146615624653" at="129,39,130,72" concept="1" />
+      <node id="8958347146615624659" at="130,72,131,103" concept="1" />
+      <node id="8958347146615624200" at="131,103,132,0" concept="6" />
+      <node id="6231876011353525344" at="138,72,139,103" concept="4" />
+      <node id="6231876011353525356" at="139,103,140,80" concept="4" />
+      <node id="6231876011353525365" at="141,32,142,66" concept="1" />
+      <node id="1996828906386690937" at="143,11,144,0" concept="6" />
+      <node id="6231876011353612575" at="146,45,147,77" concept="5" />
+      <node id="6231876011353619248" at="151,45,152,78" concept="5" />
+      <node id="6231876011353525380" at="154,22,155,0" concept="6" />
+      <node id="6231876011353525389" at="157,45,158,72" concept="5" />
+      <node id="6231876011353525398" at="160,13,161,36" concept="1" />
+      <node id="6231876011353525400" at="161,36,162,73" concept="1" />
+      <node id="6231876011353525406" at="162,73,163,100" concept="1" />
+      <node id="6231876011353594762" at="163,100,164,72" concept="1" />
+      <node id="6231876011353599046" at="164,72,165,68" concept="1" />
+      <node id="8438396892799764213" at="165,68,166,72" concept="1" />
+      <node id="6231876011353525412" at="166,72,167,0" concept="6" />
+      <node id="6231876011353624091" at="169,45,170,80" concept="5" />
+      <node id="6231876011353624100" at="172,13,173,44" concept="1" />
+      <node id="6231876011353624102" at="173,44,174,81" concept="1" />
+      <node id="6231876011353624108" at="174,81,175,108" concept="1" />
+      <node id="6231876011353624114" at="175,108,176,81" concept="1" />
+      <node id="6231876011353624120" at="176,81,177,76" concept="1" />
+      <node id="8438396892799765175" at="177,76,178,72" concept="1" />
+      <node id="8360281570502754007" at="183,45,184,57" concept="4" />
+      <node id="8360281570502754015" at="185,31,186,42" concept="9" />
+      <node id="8360281570502754021" at="187,7,188,173" concept="4" />
+      <node id="8360281570502757204" at="188,173,189,39" concept="5" />
+      <node id="8360281570504219760" at="191,44,192,57" concept="4" />
+      <node id="8360281570504219768" at="193,31,194,42" concept="9" />
+      <node id="8360281570504220514" at="195,7,196,0" concept="6" />
+      <node id="8360281570504219774" at="196,0,197,175" concept="4" />
+      <node id="8360281570504219782" at="197,175,198,39" concept="5" />
+      <node id="8360281570502753969" at="27,0,29,0" concept="7" trace="ourParamCache" />
+      <node id="8360281570502753969" at="30,0,33,0" concept="0" trace="SModuleAsNode_Test#()V" />
+      <node id="8360281570502753969" at="77,0,80,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8360281570502753970" at="81,0,84,0" concept="3" trace="test_name#()V" />
+      <node id="8360281570502753987" at="84,0,87,0" concept="3" trace="test_id#()V" />
+      <node id="8360281570502762666" at="87,0,90,0" concept="3" trace="test_moduleVersion#()V" />
+      <node id="8360281570502763128" at="90,0,93,0" concept="3" trace="test_compileInMPS#()V" />
+      <node id="8360281570504221205" at="93,0,96,0" concept="3" trace="test_name_devkit#()V" />
+      <node id="8360281570504221222" at="96,0,99,0" concept="3" trace="test_id_devkit#()V" />
+      <node id="8360281570504221239" at="99,0,102,0" concept="3" trace="test_moduleVersion_devkit#()V" />
+      <node id="8360281570504221256" at="102,0,105,0" concept="3" trace="test_compileInMPS_devkit#()V" />
+      <node id="8958347146612723117" at="109,80,112,11" concept="10" />
+      <node id="8958347146612754998" at="116,0,119,0" concept="3" trace="accept#(Lorg/modelix/model/api/INode;)Z" />
+      <node id="8958347146615624640" at="125,0,128,0" concept="3" trace="accept#(Lorg/modelix/model/api/INode;)Z" />
+      <node id="6231876011353525363" at="140,80,143,11" concept="10" />
+      <node id="6231876011353611834" at="146,0,149,0" concept="3" trace="accept#(Lorg/modelix/model/api/INode;)Z" />
+      <node id="6231876011353619246" at="151,0,154,0" concept="3" trace="accept#(Lorg/modelix/model/api/INode;)Z" />
+      <node id="6231876011353525387" at="157,0,160,0" concept="3" trace="accept#(Lorg/modelix/model/api/INode;)Z" />
+      <node id="6231876011353624089" at="169,0,172,0" concept="3" trace="accept#(Lorg/modelix/model/api/INode;)Z" />
+      <node id="8360281570502754013" at="184,57,187,7" concept="2" />
+      <node id="8360281570504219766" at="192,57,195,7" concept="2" />
+      <node id="8360281570502753970" at="34,0,38,0" concept="3" trace="test_name#()V" />
+      <node id="8360281570502753987" at="38,0,42,0" concept="3" trace="test_id#()V" />
+      <node id="8360281570502762666" at="42,0,46,0" concept="3" trace="test_moduleVersion#()V" />
+      <node id="8360281570502763128" at="46,0,50,0" concept="3" trace="test_compileInMPS#()V" />
+      <node id="8360281570504221205" at="50,0,54,0" concept="3" trace="test_name_devkit#()V" />
+      <node id="8360281570504221222" at="54,0,58,0" concept="3" trace="test_id_devkit#()V" />
+      <node id="8360281570504221239" at="58,0,62,0" concept="3" trace="test_moduleVersion_devkit#()V" />
+      <node id="8360281570504221256" at="62,0,66,0" concept="3" trace="test_compileInMPS_devkit#()V" />
+      <node id="8958347146612702159" at="66,0,70,0" concept="3" trace="test_languageDependencies_module#()V" />
+      <node id="6231876011353525338" at="70,0,74,0" concept="3" trace="test_dependencies_module#()V" />
+      <node id="8958347146612749189" at="114,0,119,13" concept="4" />
+      <node id="8958347146615624634" at="123,0,128,13" concept="4" />
+      <node id="6231876011353603778" at="144,0,149,22" concept="1" />
+      <node id="6231876011353619242" at="149,22,154,22" concept="1" />
+      <node id="6231876011353525381" at="155,0,160,13" concept="4" />
+      <node id="6231876011353624083" at="167,0,172,13" concept="4" />
+      <node id="8360281570502754004" at="183,0,191,0" concept="3" trace="getSModuleAsNode#()Lorg/modelix/model/mpsadapters/mps/SModuleAsNode;" />
+      <node id="8360281570504219757" at="191,0,200,0" concept="3" trace="getDevKitAsNode#()Lorg/modelix/model/mpsadapters/mps/SModuleAsNode;" />
+      <node id="8958347146612702162" at="106,30,133,11" concept="1" />
+      <node id="8958347146612702159" at="105,69,134,9" concept="1" />
+      <node id="8958347146612702159" at="105,0,136,0" concept="3" trace="test_languageDependencies_module#()V" />
+      <node id="6231876011353525341" at="137,30,179,11" concept="1" />
+      <node id="6231876011353525338" at="136,61,180,9" concept="1" />
+      <node id="6231876011353525338" at="136,0,182,0" concept="3" trace="test_dependencies_module#()V" />
+      <scope id="8360281570502753969" at="30,31,31,25" />
+      <scope id="8360281570502753970" at="35,44,36,35" />
+      <scope id="8360281570502753987" at="39,42,40,33" />
+      <scope id="8360281570502762666" at="43,53,44,44" />
+      <scope id="8360281570502763128" at="47,52,48,43" />
+      <scope id="8360281570504221205" at="51,51,52,42" />
+      <scope id="8360281570504221222" at="55,49,56,40" />
+      <scope id="8360281570504221239" at="59,60,60,51" />
+      <scope id="8360281570504221256" at="63,59,64,50" />
+      <scope id="8958347146612702159" at="67,67,68,58" />
+      <scope id="6231876011353525338" at="71,59,72,50" />
+      <scope id="8360281570502753969" at="77,52,78,19" />
+      <scope id="8360281570502753970" at="81,46,82,211" />
+      <scope id="8360281570502753987" at="84,44,85,211" />
+      <scope id="8360281570502762666" at="87,55,88,187" />
+      <scope id="8360281570502763128" at="90,54,91,189" />
+      <scope id="8360281570504221205" at="93,53,94,212" />
+      <scope id="8360281570504221222" at="96,51,97,210" />
+      <scope id="8360281570504221239" at="99,62,100,186" />
+      <scope id="8360281570504221256" at="102,61,103,189" />
+      <scope id="8958347146612723119" at="110,32,111,66" />
+      <scope id="8958347146612754999" at="116,45,117,94" />
+      <scope id="8958347146615624641" at="125,45,126,94" />
+      <scope id="6231876011353525364" at="141,32,142,66" />
+      <scope id="6231876011353611835" at="146,45,147,77" />
+      <scope id="6231876011353619247" at="151,45,152,78" />
+      <scope id="6231876011353525388" at="157,45,158,72" />
+      <scope id="6231876011353624090" at="169,45,170,80" />
+      <scope id="8360281570502754014" at="185,31,186,42" />
+      <scope id="8360281570504219767" at="193,31,194,42" />
+      <scope id="8360281570502753969" at="30,0,33,0" />
+      <scope id="8360281570502753969" at="77,0,80,0">
+        <var name="owner" id="8360281570502753969" />
+      </scope>
+      <scope id="8360281570502753970" at="81,0,84,0" />
+      <scope id="8360281570502753987" at="84,0,87,0" />
+      <scope id="8360281570502762666" at="87,0,90,0" />
+      <scope id="8360281570502763128" at="90,0,93,0" />
+      <scope id="8360281570504221205" at="93,0,96,0" />
+      <scope id="8360281570504221222" at="96,0,99,0" />
+      <scope id="8360281570504221239" at="99,0,102,0" />
+      <scope id="8360281570504221256" at="102,0,105,0" />
+      <scope id="8958347146612754998" at="116,0,119,0">
+        <var name="it" id="8958347146612754998" />
+      </scope>
+      <scope id="8958347146615624640" at="125,0,128,0">
+        <var name="it" id="8958347146615624640" />
+      </scope>
+      <scope id="6231876011353611834" at="146,0,149,0">
+        <var name="it" id="6231876011353611834" />
+      </scope>
+      <scope id="6231876011353619246" at="151,0,154,0">
+        <var name="it" id="6231876011353619246" />
+      </scope>
+      <scope id="6231876011353525387" at="157,0,160,0">
+        <var name="it" id="6231876011353525387" />
+      </scope>
+      <scope id="6231876011353624089" at="169,0,172,0">
+        <var name="it" id="6231876011353624089" />
+      </scope>
+      <scope id="8360281570502753970" at="34,0,38,0" />
+      <scope id="8360281570502753987" at="38,0,42,0" />
+      <scope id="8360281570502762666" at="42,0,46,0" />
+      <scope id="8360281570502763128" at="46,0,50,0" />
+      <scope id="8360281570504221205" at="50,0,54,0" />
+      <scope id="8360281570504221222" at="54,0,58,0" />
+      <scope id="8360281570504221239" at="58,0,62,0" />
+      <scope id="8360281570504221256" at="62,0,66,0" />
+      <scope id="8958347146612702159" at="66,0,70,0" />
+      <scope id="6231876011353525338" at="70,0,74,0" />
+      <scope id="8360281570502754004" at="183,45,189,39">
+        <var name="module" id="8360281570502754022" />
+        <var name="repository" id="8360281570502754008" />
+      </scope>
+      <scope id="8360281570504219757" at="191,44,198,39">
+        <var name="module" id="8360281570504219775" />
+        <var name="repository" id="8360281570504219761" />
+      </scope>
+      <scope id="8360281570502754004" at="183,0,191,0" />
+      <scope id="8360281570504219757" at="191,0,200,0" />
+      <scope id="8958347146612702164" at="107,72,132,0">
+        <var name="access" id="8958347146612749190" />
+        <var name="children" id="8958347146612725344" />
+        <var name="it" id="8958347146612719603" />
+        <var name="smodel" id="8958347146615624635" />
+      </scope>
+      <scope id="8958347146612702159" at="106,30,133,11" />
+      <scope id="8958347146612702159" at="105,69,134,9" />
+      <scope id="8958347146612702159" at="105,0,136,0" />
+      <scope id="6231876011353525343" at="138,72,178,72">
+        <var name="annotations" id="6231876011353624084" />
+        <var name="children" id="6231876011353525357" />
+        <var name="it" id="6231876011353525345" />
+        <var name="jdk" id="6231876011353525382" />
+      </scope>
+      <scope id="6231876011353525338" at="137,30,179,11" />
+      <scope id="6231876011353525338" at="136,61,180,9" />
+      <scope id="6231876011353525338" at="136,0,182,0" />
+      <unit id="8958347146612754998" at="115,71,119,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$1" />
+      <unit id="8958347146615624640" at="124,71,128,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$2" />
+      <unit id="6231876011353611834" at="145,75,149,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$3" />
+      <unit id="6231876011353619246" at="150,75,154,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$4" />
+      <unit id="6231876011353525387" at="156,68,160,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$5" />
+      <unit id="6231876011353624089" at="168,76,172,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$6" />
+      <unit id="8360281570502753969" at="75,0,201,0" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody" />
+      <unit id="8360281570502753969" at="25,0,202,0" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:8098c403-cec5-4660-ade2-ae13ea8b4d5c(test.org.modelix.model.mpsadapters.wrappingmodelapi@tests)/8958347146613252645">
+    <file name="SModelAsNode_Test.java">
+      <node id="8958347146613252645" at="31,30,32,25" concept="8" />
+      <node id="8958347146613252883" at="36,59,37,50" concept="1" />
+      <node id="8958347146613252645" at="42,52,43,19" concept="8" />
+      <node id="8958347146613252889" at="48,72,49,103" concept="4" />
+      <node id="8958347146613252901" at="49,103,50,80" concept="4" />
+      <node id="8958347146613252910" at="51,32,52,66" concept="1" />
+      <node id="8958347146613252920" at="53,11,54,0" concept="6" />
+      <node id="8958347146613317543" at="54,0,55,74" concept="1" />
+      <node id="8958347146613317118" at="55,74,56,0" concept="6" />
+      <node id="8958347146613252929" at="58,45,59,92" concept="5" />
+      <node id="8958347146613252938" at="61,13,62,41" concept="1" />
+      <node id="8958347146613252940" at="62,41,63,73" concept="1" />
+      <node id="8958347146613252946" at="63,73,64,105" concept="1" />
+      <node id="8958347146613252952" at="64,105,65,0" concept="6" />
+      <node id="8958347146613252961" at="67,45,68,99" concept="5" />
+      <node id="8958347146613252970" at="70,13,71,39" concept="1" />
+      <node id="8958347146613252972" at="71,39,72,103" concept="1" />
+      <node id="8958347146613252649" at="77,43,78,57" concept="4" />
+      <node id="8958347146613252657" at="79,31,80,42" concept="9" />
+      <node id="8958347146613252663" at="81,7,82,220" concept="4" />
+      <node id="8958347146613252672" at="82,220,83,37" concept="5" />
+      <node id="8958347146613252645" at="28,0,30,0" concept="7" trace="ourParamCache" />
+      <node id="8958347146613252645" at="31,0,34,0" concept="0" trace="SModelAsNode_Test#()V" />
+      <node id="8958347146613252645" at="42,0,45,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8958347146613252908" at="50,80,53,11" concept="10" />
+      <node id="8958347146613252927" at="58,0,61,0" concept="3" trace="accept#(Lorg/modelix/model/api/INode;)Z" />
+      <node id="8958347146613252959" at="67,0,70,0" concept="3" trace="accept#(Lorg/modelix/model/api/INode;)Z" />
+      <node id="8958347146613252655" at="78,57,81,7" concept="2" />
+      <node id="8958347146613252883" at="35,0,39,0" concept="3" trace="test_usedLanguages_model#()V" />
+      <node id="8958347146613252921" at="56,0,61,13" concept="4" />
+      <node id="8958347146613252953" at="65,0,70,13" concept="4" />
+      <node id="8958347146613252646" at="77,0,85,0" concept="3" trace="getSModelAsNode#()Lorg/modelix/model/mpsadapters/mps/SModelAsNode;" />
+      <node id="8958347146613252886" at="47,30,73,11" concept="1" />
+      <node id="8958347146613252883" at="46,61,74,9" concept="1" />
+      <node id="8958347146613252883" at="46,0,76,0" concept="3" trace="test_usedLanguages_model#()V" />
+      <scope id="8958347146613252645" at="31,30,32,25" />
+      <scope id="8958347146613252883" at="36,59,37,50" />
+      <scope id="8958347146613252645" at="42,52,43,19" />
+      <scope id="8958347146613252909" at="51,32,52,66" />
+      <scope id="8958347146613252928" at="58,45,59,92" />
+      <scope id="8958347146613252960" at="67,45,68,99" />
+      <scope id="8958347146613252656" at="79,31,80,42" />
+      <scope id="8958347146613252645" at="31,0,34,0" />
+      <scope id="8958347146613252645" at="42,0,45,0">
+        <var name="owner" id="8958347146613252645" />
+      </scope>
+      <scope id="8958347146613252927" at="58,0,61,0">
+        <var name="it" id="8958347146613252927" />
+      </scope>
+      <scope id="8958347146613252959" at="67,0,70,0">
+        <var name="it" id="8958347146613252959" />
+      </scope>
+      <scope id="8958347146613252883" at="35,0,39,0" />
+      <scope id="8958347146613252646" at="77,43,83,37">
+        <var name="model" id="8958347146613252664" />
+        <var name="repository" id="8958347146613252650" />
+      </scope>
+      <scope id="8958347146613252646" at="77,0,85,0" />
+      <scope id="8958347146613252888" at="48,72,72,103">
+        <var name="children" id="8958347146613252902" />
+        <var name="devkit" id="8958347146613252954" />
+        <var name="it" id="8958347146613252890" />
+        <var name="langTest" id="8958347146613252922" />
+      </scope>
+      <scope id="8958347146613252883" at="47,30,73,11" />
+      <scope id="8958347146613252883" at="46,61,74,9" />
+      <scope id="8958347146613252883" at="46,0,76,0" />
+      <unit id="8958347146613252927" at="57,73,61,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModelAsNode_Test$TestBody$1" />
+      <unit id="8958347146613252959" at="66,71,70,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModelAsNode_Test$TestBody$2" />
+      <unit id="8958347146613252645" at="40,0,86,0" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModelAsNode_Test$TestBody" />
+      <unit id="8958347146613252645" at="26,0,87,0" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModelAsNode_Test" />
+    </file>
+  </root>
+</debug-info>
+

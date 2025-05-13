@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="8wr0i0opmajuk2xkdgl8rehu5wldcr4">
+  <files names="AbstractChecker.java:CompositeChecker.java:DummyChecker.java:Element.java:ElementChecker.java:IElement.java:IElementChecker.java:Message.java:SequenceChecker.java:SequenceCheckerType.java:StructureCheckerException.java:TypeChecker.java" />
+</product>
+

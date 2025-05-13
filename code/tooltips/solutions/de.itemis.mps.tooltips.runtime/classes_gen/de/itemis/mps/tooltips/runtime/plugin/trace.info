@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root nodeRef="r:61b03960-04c3-48f0-a2c2-a612bc4477e2(de.itemis.mps.tooltips.runtime.plugin)/2877762237606545486">
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="2877762237606545486" at="10,0,12,0" concept="0" trace="Runtime_ProjectPlugin#()V" />
+      <node id="2877762237606545486" at="12,0,15,0" concept="3" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="2877762237606545486" at="10,34,10,34" />
+      <scope id="2877762237606545486" at="12,62,13,53" />
+      <scope id="2877762237606545486" at="10,0,12,0" />
+      <scope id="2877762237606545486" at="12,0,15,0">
+        <var name="parts" id="2877762237606545486" />
+      </scope>
+      <unit id="2877762237606545486" at="9,0,16,0" name="de.itemis.mps.tooltips.runtime.plugin.Runtime_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:61b03960-04c3-48f0-a2c2-a612bc4477e2(de.itemis.mps.tooltips.runtime.plugin)/2877762237606545487">
+    <file name="ProjectPlugin_ProjectPluginPart.java">
+      <node id="2877762237606545488" at="15,0,16,0" concept="2" trace="myConnection" />
+      <node id="6843388714518455287" at="16,0,17,0" concept="2" trace="myCreateListener" />
+      <node id="2877762237606545493" at="20,40,21,63" concept="4" />
+      <node id="6843388714518412667" at="21,63,22,0" concept="6" />
+      <node id="6430309498760674686" at="24,74,25,72" concept="5" />
+      <node id="6430309498760666808" at="25,72,26,52" concept="1" />
+      <node id="6843388714518534352" at="28,76,29,56" concept="1" />
+      <node id="6843388714518461535" at="31,6,32,70" concept="1" />
+      <node id="6843388714518460188" at="35,43,36,65" concept="1" />
+      <node id="2877762237606545487" at="17,0,19,0" concept="0" trace="ProjectPlugin_ProjectPluginPart#()V" />
+      <node id="6843388714518458735" at="28,0,31,0" concept="3" trace="editorComponentDisposed#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="6843388714518458729" at="24,0,28,0" concept="3" trace="editorComponentCreate#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="2877762237606545487" at="34,0,38,0" concept="3" trace="dispose#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="6843388714518457874" at="22,0,31,6" concept="1" />
+      <node id="2877762237606545487" at="19,0,34,0" concept="3" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <scope id="2877762237606545487" at="17,44,17,44" />
+      <scope id="6843388714518458740" at="28,76,29,56" />
+      <scope id="2877762237606545537" at="35,43,36,65" />
+      <scope id="2877762237606545487" at="17,0,19,0" />
+      <scope id="6843388714518458734" at="24,74,26,52" />
+      <scope id="6843388714518458735" at="28,0,31,0">
+        <var name="editorComponent" id="6843388714518458736" />
+      </scope>
+      <scope id="6843388714518458729" at="24,0,28,0">
+        <var name="editorComponent" id="6843388714518458730" />
+      </scope>
+      <scope id="2877762237606545487" at="34,0,38,0">
+        <var name="project" id="2877762237606545487" />
+      </scope>
+      <scope id="2877762237606545492" at="20,40,32,70">
+        <var name="ideaProject" id="2877762237606545494" />
+      </scope>
+      <scope id="2877762237606545487" at="19,0,34,0">
+        <var name="project" id="2877762237606545487" />
+      </scope>
+      <unit id="6843388714518458727" at="23,64,31,5" name="de.itemis.mps.tooltips.runtime.plugin.ProjectPlugin_ProjectPluginPart$1" />
+      <unit id="2877762237606545487" at="14,0,39,0" name="de.itemis.mps.tooltips.runtime.plugin.ProjectPlugin_ProjectPluginPart" />
+    </file>
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="2877762237606545487" at="12,62,13,53" concept="1" />
+    </file>
+  </root>
+</debug-info>
+

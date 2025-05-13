@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="DataFlowAspectDescriptorImpl.java">
+      <unit at="15,0,40,0" name="de.itemis.mps.structurecheck.dataFlow.DataFlowAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:27f0c215-2464-4710-bd45-9ed2f87eff3c(de.itemis.mps.structurecheck.dataFlow)/544720822883760377">
+    <file name="CheckStructureStatement_DataFlow.java">
+      <node id="544720822883760423" at="13,60,14,111" concept="0" />
+      <node id="544720822883763121" at="14,111,15,108" concept="0" />
+      <node id="544720822883760377" at="19,0,20,0" concept="3" trace="rootElement$ZA2o" />
+      <node id="544720822883760377" at="20,0,21,0" concept="3" trace="checkers$3VK3" />
+      <node id="544720822883760377" at="13,0,17,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="544720822883760379" at="13,60,15,108" />
+      <scope id="544720822883760377" at="13,0,17,0">
+        <var name="_context" id="544720822883760377" />
+      </scope>
+      <unit id="544720822883760377" at="18,0,22,0" name="de.itemis.mps.structurecheck.dataFlow.CheckStructureStatement_DataFlow$LINKS" />
+      <unit id="544720822883760377" at="12,0,23,0" name="de.itemis.mps.structurecheck.dataFlow.CheckStructureStatement_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:27f0c215-2464-4710-bd45-9ed2f87eff3c(de.itemis.mps.structurecheck.dataFlow)/544720822883763467">
+    <file name="CompositeChecker_DataFlow.java">
+      <node id="544720822883777498" at="17,35,18,48" concept="0" />
+      <node id="544720822883763467" at="24,0,25,0" concept="3" trace="checkers$CeG$" />
+      <node id="544720822883776171" at="17,0,20,0" concept="1" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="544720822883763514" at="15,60,20,7" concept="0" />
+      <node id="544720822883763467" at="15,0,22,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="544720822883776172" at="17,35,18,48" />
+      <scope id="544720822883776171" at="17,0,20,0">
+        <var name="it" id="544720822883776171" />
+      </scope>
+      <scope id="544720822883763469" at="15,60,20,7" />
+      <scope id="544720822883763467" at="15,0,22,0">
+        <var name="_context" id="544720822883763467" />
+      </scope>
+      <unit id="544720822883763467" at="23,0,26,0" name="de.itemis.mps.structurecheck.dataFlow.CompositeChecker_DataFlow$LINKS" />
+      <unit id="544720822883776171" at="16,109,20,5" name="de.itemis.mps.structurecheck.dataFlow.CompositeChecker_DataFlow$1" />
+      <unit id="544720822883763467" at="14,0,27,0" name="de.itemis.mps.structurecheck.dataFlow.CompositeChecker_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:27f0c215-2464-4710-bd45-9ed2f87eff3c(de.itemis.mps.structurecheck.dataFlow)/544720822883778032">
+    <file name="ConditionChecker_DataFlow.java">
+      <node id="544720822883778078" at="13,60,14,109" concept="0" />
+      <node id="544720822883778032" at="18,0,19,0" concept="3" trace="condition$vcux" />
+      <node id="544720822883778032" at="13,0,16,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="544720822883778034" at="13,60,14,109" />
+      <scope id="544720822883778032" at="13,0,16,0">
+        <var name="_context" id="544720822883778032" />
+      </scope>
+      <unit id="544720822883778032" at="17,0,20,0" name="de.itemis.mps.structurecheck.dataFlow.ConditionChecker_DataFlow$LINKS" />
+      <unit id="544720822883778032" at="12,0,21,0" name="de.itemis.mps.structurecheck.dataFlow.ConditionChecker_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:27f0c215-2464-4710-bd45-9ed2f87eff3c(de.itemis.mps.structurecheck.dataFlow)/544720822883779946">
+    <file name="PropertyChecker_DataFlow.java">
+      <node id="544720822883782771" at="13,60,14,108" concept="0" />
+      <node id="544720822883780927" at="14,108,15,106" concept="0" />
+      <node id="544720822883779946" at="19,0,20,0" concept="3" trace="expected$nAYP" />
+      <node id="544720822883779946" at="20,0,21,0" concept="3" trace="actual$nBFS" />
+      <node id="544720822883779946" at="13,0,17,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="544720822883779948" at="13,60,15,106" />
+      <scope id="544720822883779946" at="13,0,17,0">
+        <var name="_context" id="544720822883779946" />
+      </scope>
+      <unit id="544720822883779946" at="18,0,22,0" name="de.itemis.mps.structurecheck.dataFlow.PropertyChecker_DataFlow$LINKS" />
+      <unit id="544720822883779946" at="12,0,23,0" name="de.itemis.mps.structurecheck.dataFlow.PropertyChecker_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:27f0c215-2464-4710-bd45-9ed2f87eff3c(de.itemis.mps.structurecheck.dataFlow)/544720822884005440">
+    <file name="Element_DataFlow.java">
+      <node id="544720822884005459" at="13,60,14,110" concept="0" />
+      <node id="544720822884007728" at="14,110,15,107" concept="0" />
+      <node id="544720822884007949" at="15,107,16,108" concept="0" />
+      <node id="544720822884005440" at="20,0,21,0" concept="3" trace="multiplier$w_D1" />
+      <node id="544720822884005440" at="21,0,22,0" concept="3" trace="subtype$BKk$" />
+      <node id="544720822884005440" at="22,0,23,0" concept="3" trace="checkers$YykB" />
+      <node id="544720822884005440" at="13,0,18,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="544720822884005442" at="13,60,16,108" />
+      <scope id="544720822884005440" at="13,0,18,0">
+        <var name="_context" id="544720822884005440" />
+      </scope>
+      <unit id="544720822884005440" at="19,0,24,0" name="de.itemis.mps.structurecheck.dataFlow.Element_DataFlow$LINKS" />
+      <unit id="544720822884005440" at="12,0,25,0" name="de.itemis.mps.structurecheck.dataFlow.Element_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:27f0c215-2464-4710-bd45-9ed2f87eff3c(de.itemis.mps.structurecheck.dataFlow)/544720822884013900">
+    <file name="SequenceChecker_DataFlow.java">
+      <node id="544720822884013919" at="15,60,16,108" concept="0" />
+      <node id="544720822884040968" at="18,35,19,48" concept="0" />
+      <node id="544720822884017585" at="21,7,22,0" concept="2" />
+      <node id="544720822884013900" at="26,0,27,0" concept="3" trace="sequence$Dj37" />
+      <node id="544720822884013900" at="27,0,28,0" concept="3" trace="elements$tiP5" />
+      <node id="544720822884040590" at="18,0,21,0" concept="1" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="544720822884017592" at="16,108,21,7" concept="0" />
+      <node id="544720822884013900" at="15,0,24,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="544720822884040591" at="18,35,19,48" />
+      <scope id="544720822884040590" at="18,0,21,0">
+        <var name="it" id="544720822884040590" />
+      </scope>
+      <scope id="544720822884013902" at="15,60,22,0" />
+      <scope id="544720822884013900" at="15,0,24,0">
+        <var name="_context" id="544720822884013900" />
+      </scope>
+      <unit id="544720822884040590" at="17,109,21,5" name="de.itemis.mps.structurecheck.dataFlow.SequenceChecker_DataFlow$1" />
+      <unit id="544720822884013900" at="25,0,29,0" name="de.itemis.mps.structurecheck.dataFlow.SequenceChecker_DataFlow$LINKS" />
+      <unit id="544720822884013900" at="14,0,30,0" name="de.itemis.mps.structurecheck.dataFlow.SequenceChecker_DataFlow" />
+    </file>
+  </root>
+</debug-info>
+

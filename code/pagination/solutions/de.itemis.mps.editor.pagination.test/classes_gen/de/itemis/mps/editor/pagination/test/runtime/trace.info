@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:c1d86077-abd7-4d43-878d-c2c86e8fa24e(de.itemis.mps.editor.pagination.test.runtime@tests)/88315915625426585">
+    <file name="PageTest_Test.java">
+      <node id="88315915625426585" at="20,26,21,25" concept="9" />
+      <node id="88315915625426600" at="25,55,26,46" concept="1" />
+      <node id="88315915625452126" at="29,51,30,42" concept="1" />
+      <node id="88315915625452770" at="33,48,34,39" concept="1" />
+      <node id="88315915625426585" at="39,52,40,19" concept="9" />
+      <node id="88315915625426688" at="45,13,46,23" concept="1" />
+      <node id="88315915625426661" at="46,23,47,24" concept="1" />
+      <node id="88315915625426661" at="48,46,49,31" concept="5" />
+      <node id="88315915625451613" at="50,9,51,42" concept="1" />
+      <node id="88315915625451617" at="51,42,52,43" concept="1" />
+      <node id="88315915625451580" at="52,43,53,0" concept="6" />
+      <node id="88315915625452335" at="57,30,58,51" concept="1" />
+      <node id="88315915625452342" at="58,51,59,54" concept="1" />
+      <node id="88315915625452770" at="62,50,63,96" concept="1" />
+      <node id="88315915625426585" at="17,0,19,0" concept="7" trace="ourParamCache" />
+      <node id="88315915625426585" at="20,0,23,0" concept="0" trace="PageTest_Test#()V" />
+      <node id="88315915625426585" at="39,0,42,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="88315915625452770" at="62,0,65,0" concept="2" trace="test_toString#()V" />
+      <node id="88315915625426600" at="24,0,28,0" concept="2" trace="test_invalidCreation#()V" />
+      <node id="88315915625452126" at="28,0,32,0" concept="2" trace="test_indexInPage#()V" />
+      <node id="88315915625452770" at="32,0,36,0" concept="2" trace="test_toString#()V" />
+      <node id="88315915625452126" at="56,53,60,9" concept="1" />
+      <node id="88315915625426661" at="44,30,50,9" concept="10" />
+      <node id="88315915625452126" at="56,0,62,0" concept="2" trace="test_indexInPage#()V" />
+      <node id="88315915625426600" at="43,57,54,9" concept="1" />
+      <node id="88315915625426600" at="43,0,56,0" concept="2" trace="test_invalidCreation#()V" />
+      <scope id="88315915625426585" at="20,26,21,25" />
+      <scope id="88315915625426600" at="25,55,26,46" />
+      <scope id="88315915625452126" at="29,51,30,42" />
+      <scope id="88315915625452770" at="33,48,34,39" />
+      <scope id="88315915625426585" at="39,52,40,19" />
+      <scope id="88315915625426661" at="48,46,49,31" />
+      <scope id="88315915625452770" at="62,50,63,96" />
+      <scope id="88315915625426661" at="45,13,47,24" />
+      <scope id="88315915625426661" at="48,9,50,9">
+        <var name="e" id="88315915625426661" />
+      </scope>
+      <scope id="88315915625452126" at="57,30,59,54" />
+      <scope id="88315915625426585" at="20,0,23,0" />
+      <scope id="88315915625426585" at="39,0,42,0">
+        <var name="owner" id="88315915625426585" />
+      </scope>
+      <scope id="88315915625452770" at="62,0,65,0" />
+      <scope id="88315915625426600" at="24,0,28,0" />
+      <scope id="88315915625452126" at="28,0,32,0" />
+      <scope id="88315915625452770" at="32,0,36,0" />
+      <scope id="88315915625452126" at="56,53,60,9" />
+      <scope id="88315915625452126" at="56,0,62,0" />
+      <scope id="88315915625426600" at="44,30,53,0" />
+      <scope id="88315915625426600" at="43,57,54,9" />
+      <scope id="88315915625426600" at="43,0,56,0" />
+      <unit id="88315915625426585" at="37,0,67,0" name="de.itemis.mps.editor.pagination.test.runtime.PageTest_Test$TestBody" />
+      <unit id="88315915625426585" at="15,0,68,0" name="de.itemis.mps.editor.pagination.test.runtime.PageTest_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c1d86077-abd7-4d43-878d-c2c86e8fa24e(de.itemis.mps.editor.pagination.test.runtime@tests)/88315915625458884">
+    <file name="PageNumber_Test.java">
+      <node id="88315915625458884" at="20,28,21,25" concept="9" />
+      <node id="88315915625458939" at="25,44,26,35" concept="1" />
+      <node id="88315915625459167" at="29,48,30,39" concept="1" />
+      <node id="88315915625459492" at="33,55,34,46" concept="1" />
+      <node id="88315915625459950" at="37,55,38,46" concept="1" />
+      <node id="88315915625460817" at="41,48,42,39" concept="1" />
+      <node id="88315915625458884" at="47,52,48,19" concept="9" />
+      <node id="88315915625458939" at="51,46,52,95" concept="1" />
+      <node id="88315915625459167" at="54,50,55,99" concept="1" />
+      <node id="88315915625459492" at="57,57,58,99" concept="1" />
+      <node id="88315915625460130" at="62,13,63,28" concept="1" />
+      <node id="88315915625460129" at="63,28,64,24" concept="1" />
+      <node id="88315915625460129" at="65,46,66,31" concept="5" />
+      <node id="88315915625460136" at="68,13,69,29" concept="1" />
+      <node id="88315915625460135" at="69,29,70,24" concept="1" />
+      <node id="88315915625460135" at="71,46,72,31" concept="5" />
+      <node id="88315915625460141" at="73,9,74,48" concept="1" />
+      <node id="88315915625460817" at="77,50,78,84" concept="1" />
+      <node id="88315915625458884" at="17,0,19,0" concept="7" trace="ourParamCache" />
+      <node id="88315915625458884" at="20,0,23,0" concept="0" trace="PageNumber_Test#()V" />
+      <node id="88315915625458884" at="47,0,50,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="88315915625458939" at="51,0,54,0" concept="2" trace="test_next#()V" />
+      <node id="88315915625459167" at="54,0,57,0" concept="2" trace="test_previous#()V" />
+      <node id="88315915625459492" at="57,0,60,0" concept="2" trace="test_previousOnFirst#()V" />
+      <node id="88315915625460817" at="77,0,80,0" concept="2" trace="test_toString#()V" />
+      <node id="88315915625458939" at="24,0,28,0" concept="2" trace="test_next#()V" />
+      <node id="88315915625459167" at="28,0,32,0" concept="2" trace="test_previous#()V" />
+      <node id="88315915625459492" at="32,0,36,0" concept="2" trace="test_previousOnFirst#()V" />
+      <node id="88315915625459950" at="36,0,40,0" concept="2" trace="test_invalidCreation#()V" />
+      <node id="88315915625460817" at="40,0,44,0" concept="2" trace="test_toString#()V" />
+      <node id="88315915625460129" at="61,30,67,9" concept="10" />
+      <node id="88315915625460135" at="67,9,73,9" concept="10" />
+      <node id="88315915625459950" at="60,57,75,9" concept="1" />
+      <node id="88315915625459950" at="60,0,77,0" concept="2" trace="test_invalidCreation#()V" />
+      <scope id="88315915625458884" at="20,28,21,25" />
+      <scope id="88315915625458939" at="25,44,26,35" />
+      <scope id="88315915625459167" at="29,48,30,39" />
+      <scope id="88315915625459492" at="33,55,34,46" />
+      <scope id="88315915625459950" at="37,55,38,46" />
+      <scope id="88315915625460817" at="41,48,42,39" />
+      <scope id="88315915625458884" at="47,52,48,19" />
+      <scope id="88315915625458939" at="51,46,52,95" />
+      <scope id="88315915625459167" at="54,50,55,99" />
+      <scope id="88315915625459492" at="57,57,58,99" />
+      <scope id="88315915625460129" at="65,46,66,31" />
+      <scope id="88315915625460135" at="71,46,72,31" />
+      <scope id="88315915625460817" at="77,50,78,84" />
+      <scope id="88315915625460129" at="62,13,64,24" />
+      <scope id="88315915625460129" at="65,9,67,9">
+        <var name="e" id="88315915625460129" />
+      </scope>
+      <scope id="88315915625460135" at="68,13,70,24" />
+      <scope id="88315915625460135" at="71,9,73,9">
+        <var name="e" id="88315915625460135" />
+      </scope>
+      <scope id="88315915625458884" at="20,0,23,0" />
+      <scope id="88315915625458884" at="47,0,50,0">
+        <var name="owner" id="88315915625458884" />
+      </scope>
+      <scope id="88315915625458939" at="51,0,54,0" />
+      <scope id="88315915625459167" at="54,0,57,0" />
+      <scope id="88315915625459492" at="57,0,60,0" />
+      <scope id="88315915625460817" at="77,0,80,0" />
+      <scope id="88315915625458939" at="24,0,28,0" />
+      <scope id="88315915625459167" at="28,0,32,0" />
+      <scope id="88315915625459492" at="32,0,36,0" />
+      <scope id="88315915625459950" at="36,0,40,0" />
+      <scope id="88315915625460817" at="40,0,44,0" />
+      <scope id="88315915625459950" at="61,30,74,48" />
+      <scope id="88315915625459950" at="60,57,75,9" />
+      <scope id="88315915625459950" at="60,0,77,0" />
+      <unit id="88315915625458884" at="45,0,82,0" name="de.itemis.mps.editor.pagination.test.runtime.PageNumber_Test$TestBody" />
+      <unit id="88315915625458884" at="15,0,83,0" name="de.itemis.mps.editor.pagination.test.runtime.PageNumber_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c1d86077-abd7-4d43-878d-c2c86e8fa24e(de.itemis.mps.editor.pagination.test.runtime@tests)/88315915625461128">
+    <file name="Pages_Test.java">
+      <node id="88315915625461128" at="28,23,29,25" concept="9" />
+      <node id="88315915625891533" at="33,48,34,39" concept="1" />
+      <node id="88315915625891578" at="37,77,38,68" concept="1" />
+      <node id="88315915625891609" at="41,71,42,62" concept="1" />
+      <node id="88315915625461128" at="47,52,48,19" concept="9" />
+      <node id="88315915625891508" at="52,30,53,47" concept="3" />
+      <node id="88315915625891518" at="53,47,54,98" concept="3" />
+      <node id="88315915625891528" at="54,98,55,56" concept="1" />
+      <node id="88315915625891536" at="59,30,60,178" concept="3" />
+      <node id="88315915625891552" at="60,178,61,51" concept="3" />
+      <node id="88315915625891559" at="61,51,62,48" concept="1" />
+      <node id="88315915625891564" at="62,48,63,98" concept="1" />
+      <node id="88315915625891573" at="63,98,64,48" concept="1" />
+      <node id="88315915625891581" at="68,30,69,178" concept="3" />
+      <node id="88315915625891597" at="69,178,70,51" concept="3" />
+      <node id="88315915625891604" at="70,51,71,48" concept="1" />
+      <node id="88315915625891541" at="75,70,76,77" concept="3" />
+      <node id="88315915625891541" at="76,77,77,49" concept="1" />
+      <node id="88315915625891541" at="77,49,78,28" concept="4" />
+      <node id="88315915625891546" at="80,70,81,77" concept="3" />
+      <node id="88315915625891546" at="81,77,82,49" concept="1" />
+      <node id="88315915625891546" at="82,49,83,28" concept="4" />
+      <node id="88315915625891568" at="85,69,86,77" concept="3" />
+      <node id="88315915625891568" at="86,77,87,49" concept="1" />
+      <node id="88315915625891568" at="87,49,88,28" concept="4" />
+      <node id="88315915625891586" at="90,70,91,77" concept="3" />
+      <node id="88315915625891586" at="91,77,92,49" concept="1" />
+      <node id="88315915625891586" at="92,49,93,28" concept="4" />
+      <node id="88315915625891591" at="95,70,96,77" concept="3" />
+      <node id="88315915625891591" at="96,77,97,49" concept="1" />
+      <node id="88315915625891591" at="97,49,98,28" concept="4" />
+      <node id="88315915625461128" at="103,0,104,0" concept="7" trace="IntegerConstant$Na" />
+      <node id="88315915625461128" at="107,0,108,0" concept="7" trace="value$jgCM" />
+      <node id="88315915625461128" at="25,0,27,0" concept="7" trace="ourParamCache" />
+      <node id="88315915625461128" at="28,0,31,0" concept="0" trace="Pages_Test#()V" />
+      <node id="88315915625461128" at="47,0,50,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="88315915625891533" at="32,0,36,0" concept="2" trace="test_toString#()V" />
+      <node id="88315915625891578" at="36,0,40,0" concept="2" trace="test_addingElementsChangesTheNumberOfPages#()V" />
+      <node id="88315915625891609" at="40,0,44,0" concept="2" trace="test_numberOfPagesWhenPageSizeIsZero#()V" />
+      <node id="88315915625891533" at="51,50,56,9" concept="1" />
+      <node id="88315915625891609" at="67,73,72,9" concept="1" />
+      <node id="88315915625891541" at="75,0,80,0" concept="8" trace="createIntegerConstant_yj9xdi_a0a0a0a0a0e8#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625891546" at="80,0,85,0" concept="8" trace="createIntegerConstant_yj9xdi_b0a0a0a0a0e8#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625891568" at="85,0,90,0" concept="8" trace="createIntegerConstant_yj9xdi_a0a3a0a0a4i#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625891586" at="90,0,95,0" concept="8" trace="createIntegerConstant_yj9xdi_a0a0a0a0a0f8#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625891591" at="95,0,100,0" concept="8" trace="createIntegerConstant_yj9xdi_b0a0a0a0a0f8#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625891533" at="51,0,58,0" concept="2" trace="test_toString#()V" />
+      <node id="88315915625891578" at="58,79,65,9" concept="1" />
+      <node id="88315915625891609" at="67,0,74,0" concept="2" trace="test_numberOfPagesWhenPageSizeIsZero#()V" />
+      <node id="88315915625891578" at="58,0,67,0" concept="2" trace="test_addingElementsChangesTheNumberOfPages#()V" />
+      <scope id="88315915625461128" at="28,23,29,25" />
+      <scope id="88315915625891533" at="33,48,34,39" />
+      <scope id="88315915625891578" at="37,77,38,68" />
+      <scope id="88315915625891609" at="41,71,42,62" />
+      <scope id="88315915625461128" at="47,52,48,19" />
+      <scope id="88315915625461128" at="28,0,31,0" />
+      <scope id="88315915625461128" at="47,0,50,0">
+        <var name="owner" id="88315915625461128" />
+      </scope>
+      <scope id="88315915625891533" at="52,30,55,56">
+        <var name="expected" id="88315915625891519" />
+        <var name="pages" id="88315915625891509" />
+      </scope>
+      <scope id="88315915625891609" at="68,30,71,48">
+        <var name="listOfNodes" id="88315915625891582" />
+        <var name="sutPages" id="88315915625891598" />
+      </scope>
+      <scope id="88315915625891541" at="75,70,78,28">
+        <var name="n0" id="88315915625891541" />
+      </scope>
+      <scope id="88315915625891546" at="80,70,83,28">
+        <var name="n0" id="88315915625891546" />
+      </scope>
+      <scope id="88315915625891568" at="85,69,88,28">
+        <var name="n0" id="88315915625891568" />
+      </scope>
+      <scope id="88315915625891586" at="90,70,93,28">
+        <var name="n0" id="88315915625891586" />
+      </scope>
+      <scope id="88315915625891591" at="95,70,98,28">
+        <var name="n0" id="88315915625891591" />
+      </scope>
+      <scope id="88315915625891533" at="32,0,36,0" />
+      <scope id="88315915625891578" at="36,0,40,0" />
+      <scope id="88315915625891609" at="40,0,44,0" />
+      <scope id="88315915625891533" at="51,50,56,9" />
+      <scope id="88315915625891578" at="59,30,64,48">
+        <var name="listOfNodes" id="88315915625891537" />
+        <var name="sutPages" id="88315915625891553" />
+      </scope>
+      <scope id="88315915625891609" at="67,73,72,9" />
+      <scope id="88315915625891541" at="75,0,80,0" />
+      <scope id="88315915625891546" at="80,0,85,0" />
+      <scope id="88315915625891568" at="85,0,90,0" />
+      <scope id="88315915625891586" at="90,0,95,0" />
+      <scope id="88315915625891591" at="95,0,100,0" />
+      <scope id="88315915625891533" at="51,0,58,0" />
+      <scope id="88315915625891578" at="58,79,65,9" />
+      <scope id="88315915625891609" at="67,0,74,0" />
+      <scope id="88315915625891578" at="58,0,67,0" />
+      <unit id="88315915625461128" at="102,0,105,0" name="de.itemis.mps.editor.pagination.test.runtime.Pages_Test$CONCEPTS" />
+      <unit id="88315915625461128" at="106,0,109,0" name="de.itemis.mps.editor.pagination.test.runtime.Pages_Test$PROPS" />
+      <unit id="88315915625461128" at="45,0,101,0" name="de.itemis.mps.editor.pagination.test.runtime.Pages_Test$TestBody" />
+      <unit id="88315915625461128" at="23,0,110,0" name="de.itemis.mps.editor.pagination.test.runtime.Pages_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c1d86077-abd7-4d43-878d-c2c86e8fa24e(de.itemis.mps.editor.pagination.test.runtime@tests)/88315915625908201">
+    <file name="PagesUserObject_Test.java">
+      <node id="88315915625908201" at="27,33,28,25" concept="9" />
+      <node id="88315915625943738" at="32,52,33,43" concept="1" />
+      <node id="88315915625943769" at="36,55,37,46" concept="1" />
+      <node id="88315915625943793" at="40,58,41,49" concept="1" />
+      <node id="88315915625943824" at="44,61,45,52" concept="1" />
+      <node id="88315915625943900" at="48,88,49,79" concept="1" />
+      <node id="88315915625908201" at="54,52,55,19" concept="9" />
+      <node id="88315915625943704" at="59,30,60,64" concept="3" />
+      <node id="88315915625943712" at="60,64,61,59" concept="3" />
+      <node id="88315915625943716" at="61,59,62,25" concept="3" />
+      <node id="88315915625943720" at="62,25,63,64" concept="1" />
+      <node id="88315915625943733" at="63,64,64,62" concept="1" />
+      <node id="88315915625943741" at="68,30,69,64" concept="3" />
+      <node id="88315915625943749" at="69,64,70,59" concept="3" />
+      <node id="88315915625943753" at="70,59,71,25" concept="3" />
+      <node id="88315915625943757" at="71,25,72,36" concept="1" />
+      <node id="88315915625943764" at="72,36,73,59" concept="1" />
+      <node id="88315915625943772" at="77,30,78,64" concept="3" />
+      <node id="88315915625943780" at="78,64,79,59" concept="3" />
+      <node id="88315915625943784" at="79,59,80,25" concept="3" />
+      <node id="88315915625943788" at="80,25,81,80" concept="1" />
+      <node id="88315915625943796" at="85,30,86,64" concept="3" />
+      <node id="88315915625943804" at="86,64,87,59" concept="3" />
+      <node id="88315915625943808" at="87,59,88,25" concept="3" />
+      <node id="88315915625943812" at="88,25,89,36" concept="1" />
+      <node id="88315915625943819" at="89,36,90,80" concept="1" />
+      <node id="88315915625943827" at="94,30,95,64" concept="3" />
+      <node id="88315915625943835" at="95,64,96,59" concept="3" />
+      <node id="88315915625943839" at="96,59,97,26" concept="3" />
+      <node id="88315915625943843" at="97,26,98,83" concept="3" />
+      <node id="88315915625943851" at="98,83,99,68" concept="1" />
+      <node id="88315915625943856" at="99,68,100,96" concept="1" />
+      <node id="88315915625943865" at="100,96,101,61" concept="5" />
+      <node id="88315915625943874" at="101,61,102,26" concept="3" />
+      <node id="88315915625943878" at="102,26,103,83" concept="3" />
+      <node id="88315915625943886" at="103,83,104,68" concept="1" />
+      <node id="88315915625943891" at="104,68,105,96" concept="1" />
+      <node id="88315915625943707" at="109,69,110,77" concept="3" />
+      <node id="88315915625943707" at="110,77,111,49" concept="1" />
+      <node id="88315915625943707" at="111,49,112,28" concept="4" />
+      <node id="88315915625943744" at="114,69,115,77" concept="3" />
+      <node id="88315915625943744" at="115,77,116,49" concept="1" />
+      <node id="88315915625943744" at="116,49,117,28" concept="4" />
+      <node id="88315915625943775" at="119,69,120,77" concept="3" />
+      <node id="88315915625943775" at="120,77,121,49" concept="1" />
+      <node id="88315915625943775" at="121,49,122,28" concept="4" />
+      <node id="88315915625943799" at="124,69,125,77" concept="3" />
+      <node id="88315915625943799" at="125,77,126,49" concept="1" />
+      <node id="88315915625943799" at="126,49,127,28" concept="4" />
+      <node id="88315915625943830" at="129,69,130,77" concept="3" />
+      <node id="88315915625943830" at="130,77,131,49" concept="1" />
+      <node id="88315915625943830" at="131,49,132,28" concept="4" />
+      <node id="88315915625908201" at="137,0,138,0" concept="7" trace="smodelAttribute$KJ43" />
+      <node id="88315915625908201" at="141,0,142,0" concept="7" trace="IntegerConstant$Na" />
+      <node id="88315915625908201" at="145,0,146,0" concept="7" trace="value$jgCM" />
+      <node id="88315915625908201" at="24,0,26,0" concept="7" trace="ourParamCache" />
+      <node id="88315915625908201" at="27,0,30,0" concept="0" trace="PagesUserObject_Test#()V" />
+      <node id="88315915625908201" at="54,0,57,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="88315915625943738" at="31,0,35,0" concept="2" trace="test_getWithPages#()V" />
+      <node id="88315915625943769" at="35,0,39,0" concept="2" trace="test_getWithNotPages#()V" />
+      <node id="88315915625943793" at="39,0,43,0" concept="2" trace="test_getOrCreateOnEmpty#()V" />
+      <node id="88315915625943824" at="43,0,47,0" concept="2" trace="test_getOrCreateOnNotPages#()V" />
+      <node id="88315915625943900" at="47,0,51,0" concept="2" trace="test_whenChangingPageSizeTheUserObjectShouldBeChanged#()V" />
+      <node id="88315915625943707" at="109,0,114,0" concept="8" trace="createIntegerConstant_grr1ox_a0a0a0a0d01#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625943744" at="114,0,119,0" concept="8" trace="createIntegerConstant_grr1ox_a0a0a0a0e01#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625943775" at="119,0,124,0" concept="8" trace="createIntegerConstant_grr1ox_a0a0a0a0f01#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625943799" at="124,0,129,0" concept="8" trace="createIntegerConstant_grr1ox_a0a0a0a0g01#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625943830" at="129,0,134,0" concept="8" trace="createIntegerConstant_grr1ox_a0a0a0a0h01#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="88315915625943793" at="76,60,82,9" concept="1" />
+      <node id="88315915625943738" at="58,54,65,9" concept="1" />
+      <node id="88315915625943769" at="67,57,74,9" concept="1" />
+      <node id="88315915625943824" at="84,63,91,9" concept="1" />
+      <node id="88315915625943793" at="76,0,84,0" concept="2" trace="test_getOrCreateOnEmpty#()V" />
+      <node id="88315915625943738" at="58,0,67,0" concept="2" trace="test_getWithPages#()V" />
+      <node id="88315915625943769" at="67,0,76,0" concept="2" trace="test_getWithNotPages#()V" />
+      <node id="88315915625943824" at="84,0,93,0" concept="2" trace="test_getOrCreateOnNotPages#()V" />
+      <node id="88315915625943900" at="93,90,106,9" concept="1" />
+      <node id="88315915625943900" at="93,0,108,0" concept="2" trace="test_whenChangingPageSizeTheUserObjectShouldBeChanged#()V" />
+      <scope id="88315915625908201" at="27,33,28,25" />
+      <scope id="88315915625943738" at="32,52,33,43" />
+      <scope id="88315915625943769" at="36,55,37,46" />
+      <scope id="88315915625943793" at="40,58,41,49" />
+      <scope id="88315915625943824" at="44,61,45,52" />
+      <scope id="88315915625943900" at="48,88,49,79" />
+      <scope id="88315915625908201" at="54,52,55,19" />
+      <scope id="88315915625908201" at="27,0,30,0" />
+      <scope id="88315915625908201" at="54,0,57,0">
+        <var name="owner" id="88315915625908201" />
+      </scope>
+      <scope id="88315915625943707" at="109,69,112,28">
+        <var name="n0" id="88315915625943707" />
+      </scope>
+      <scope id="88315915625943744" at="114,69,117,28">
+        <var name="n0" id="88315915625943744" />
+      </scope>
+      <scope id="88315915625943775" at="119,69,122,28">
+        <var name="n0" id="88315915625943775" />
+      </scope>
+      <scope id="88315915625943799" at="124,69,127,28">
+        <var name="n0" id="88315915625943799" />
+      </scope>
+      <scope id="88315915625943830" at="129,69,132,28">
+        <var name="n0" id="88315915625943830" />
+      </scope>
+      <scope id="88315915625943738" at="31,0,35,0" />
+      <scope id="88315915625943769" at="35,0,39,0" />
+      <scope id="88315915625943793" at="39,0,43,0" />
+      <scope id="88315915625943824" at="43,0,47,0" />
+      <scope id="88315915625943900" at="47,0,51,0" />
+      <scope id="88315915625943793" at="77,30,81,80">
+        <var name="link" id="88315915625943781" />
+        <var name="node" id="88315915625943773" />
+        <var name="pageSize" id="88315915625943785" />
+      </scope>
+      <scope id="88315915625943738" at="59,30,64,62">
+        <var name="link" id="88315915625943713" />
+        <var name="node" id="88315915625943705" />
+        <var name="pageSize" id="88315915625943717" />
+      </scope>
+      <scope id="88315915625943769" at="68,30,73,59">
+        <var name="link" id="88315915625943750" />
+        <var name="node" id="88315915625943742" />
+        <var name="pageSize" id="88315915625943754" />
+      </scope>
+      <scope id="88315915625943824" at="85,30,90,80">
+        <var name="link" id="88315915625943805" />
+        <var name="node" id="88315915625943797" />
+        <var name="pageSize" id="88315915625943809" />
+      </scope>
+      <scope id="88315915625943707" at="109,0,114,0" />
+      <scope id="88315915625943744" at="114,0,119,0" />
+      <scope id="88315915625943775" at="119,0,124,0" />
+      <scope id="88315915625943799" at="124,0,129,0" />
+      <scope id="88315915625943830" at="129,0,134,0" />
+      <scope id="88315915625943793" at="76,60,82,9" />
+      <scope id="88315915625943738" at="58,54,65,9" />
+      <scope id="88315915625943769" at="67,57,74,9" />
+      <scope id="88315915625943824" at="84,63,91,9" />
+      <scope id="88315915625943793" at="76,0,84,0" />
+      <scope id="88315915625943738" at="58,0,67,0" />
+      <scope id="88315915625943769" at="67,0,76,0" />
+      <scope id="88315915625943824" at="84,0,93,0" />
+      <scope id="88315915625943900" at="94,30,105,96">
+        <var name="link" id="88315915625943836" />
+        <var name="node" id="88315915625943828" />
+        <var name="pageSize1" id="88315915625943840" />
+        <var name="pageSize2" id="88315915625943875" />
+        <var name="pagesUserObj1" id="88315915625943844" />
+        <var name="pagesUserObj2" id="88315915625943879" />
+      </scope>
+      <scope id="88315915625943900" at="93,90,106,9" />
+      <scope id="88315915625943900" at="93,0,108,0" />
+      <unit id="88315915625908201" at="136,0,139,0" name="de.itemis.mps.editor.pagination.test.runtime.PagesUserObject_Test$LINKS" />
+      <unit id="88315915625908201" at="140,0,143,0" name="de.itemis.mps.editor.pagination.test.runtime.PagesUserObject_Test$CONCEPTS" />
+      <unit id="88315915625908201" at="144,0,147,0" name="de.itemis.mps.editor.pagination.test.runtime.PagesUserObject_Test$PROPS" />
+      <unit id="88315915625908201" at="52,0,135,0" name="de.itemis.mps.editor.pagination.test.runtime.PagesUserObject_Test$TestBody" />
+      <unit id="88315915625908201" at="22,0,148,0" name="de.itemis.mps.editor.pagination.test.runtime.PagesUserObject_Test" />
+    </file>
+  </root>
+</debug-info>
+

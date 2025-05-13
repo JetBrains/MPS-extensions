@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="1sawksyr8s5mph2megfr413dfe4z71p">
+  <files names="TypesystemDescriptor.java:typeof_Abs_InferenceRule.java:typeof_CurlyBrackets_InferenceRule.java:typeof_Division_InferenceRule.java:typeof_Integral2_InferenceRule.java:typeof_Integral3_InferenceRule.java:typeof_Integral4_InferenceRule.java:typeof_Integral_InferenceRule.java:typeof_NRoot_InferenceRule.java:typeof_Parentheses_InferenceRule.java:typeof_Power_InferenceRule.java:typeof_Product_InferenceRule.java:typeof_Sqrt_InferenceRule.java:typeof_SquareBrackets_InferenceRule.java:typeof_Sum_InferenceRule.java:typeof_Vector_InferenceRule.java" />
+</product>
+

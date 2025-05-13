@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root>
+    <file name="CK_Basic_UsingLangExt_Test_test_caching_f.java">
+      <unit at="8,0,46,0" name="test.de.q60.mps.incremental.runtime.CK_Basic_UsingLangExt_Test_test_caching_f" />
+    </file>
+    <file name="CK_Basic_UsingLangExt_Test_test_invalidation_f.java">
+      <unit at="8,0,46,0" name="test.de.q60.mps.incremental.runtime.CK_Basic_UsingLangExt_Test_test_invalidation_f" />
+    </file>
+    <file name="CK_Basic_UsingLangExt_Test_test_trackableValue_f.java">
+      <unit at="8,0,46,0" name="test.de.q60.mps.incremental.runtime.CK_Basic_UsingLangExt_Test_test_trackableValue_f" />
+    </file>
+    <file name="CK_Basic_UsingLangExt_Test_test_transitive_f1.java">
+      <unit at="8,0,46,0" name="test.de.q60.mps.incremental.runtime.CK_Basic_UsingLangExt_Test_test_transitive_f1" />
+    </file>
+    <file name="CK_Basic_UsingLangExt_Test_test_transitive_f2.java">
+      <unit at="8,0,46,0" name="test.de.q60.mps.incremental.runtime.CK_Basic_UsingLangExt_Test_test_transitive_f2" />
+    </file>
+  </root>
+  <root nodeRef="r:b7d99dd6-7f8b-45bb-9f8e-b17e38b829b5(test.de.q60.mps.incremental.runtime@tests)/5053250164213979374">
+    <file name="SimpleDependencyKey.java">
+      <node id="5053250164213979465" at="8,0,9,0" concept="2" trace="value" />
+      <node id="5053250164213981782" at="10,44,11,23" concept="1" />
+      <node id="5053250164213985251" at="14,28,15,17" concept="6" />
+      <node id="5053250164213979530" at="20,20,21,18" concept="6" />
+      <node id="5053250164213979536" at="23,55,24,19" concept="6" />
+      <node id="5053250164213979549" at="25,5,26,0" concept="7" />
+      <node id="5053250164213979550" at="26,0,27,55" concept="5" />
+      <node id="5053250164213979568" at="28,77,29,19" concept="6" />
+      <node id="5053250164213979581" at="30,5,31,0" concept="7" />
+      <node id="5053250164213979582" at="31,0,32,16" concept="6" />
+      <node id="5120005649203223509" at="36,25,37,63" concept="6" />
+      <node id="5053250164213981774" at="10,0,13,0" concept="0" trace="SimpleDependencyKey#(Ljava/lang/Object;)V" />
+      <node id="5053250164213985247" at="14,0,17,0" concept="4" trace="getValue#()Ljava/lang/Object;" />
+      <node id="5053250164213979528" at="19,35,22,5" concept="3" />
+      <node id="5053250164213979534" at="22,5,25,5" concept="3" />
+      <node id="5053250164213979566" at="27,55,30,5" concept="3" />
+      <node id="5053250164213979584" at="35,0,39,0" concept="4" trace="hashCode#()I" />
+      <node id="5053250164213979524" at="18,0,34,0" concept="4" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="5053250164213981778" at="10,44,11,23" />
+      <scope id="5053250164213985250" at="14,28,15,17" />
+      <scope id="5053250164213979529" at="20,20,21,18" />
+      <scope id="5053250164213979535" at="23,55,24,19" />
+      <scope id="5053250164213979567" at="28,77,29,19" />
+      <scope id="5053250164213979587" at="36,25,37,63" />
+      <scope id="5053250164213981774" at="10,0,13,0">
+        <var name="value" id="5053250164213981781" />
+      </scope>
+      <scope id="5053250164213985247" at="14,0,17,0" />
+      <scope id="5053250164213979584" at="35,0,39,0" />
+      <scope id="5053250164213979527" at="19,35,32,16">
+        <var name="that" id="5053250164213979551" />
+      </scope>
+      <scope id="5053250164213979524" at="18,0,34,0">
+        <var name="o" id="5053250164213979556" />
+      </scope>
+      <unit id="5053250164213979374" at="7,0,40,0" name="test.de.q60.mps.incremental.runtime.SimpleDependencyKey" />
+    </file>
+  </root>
+  <root nodeRef="r:b7d99dd6-7f8b-45bb-9f8e-b17e38b829b5(test.de.q60.mps.incremental.runtime@tests)/8398936923999955992">
+    <file name="Basic_Test.java">
+      <node id="5053250164213911337" at="17,47,18,57" concept="5" />
+      <node id="5053250164213904224" at="18,57,19,55" concept="5" />
+      <node id="5053250164213935295" at="20,63,21,24" concept="1" />
+      <node id="5053250164213935298" at="21,24,22,16" concept="6" />
+      <node id="5053250164213938973" at="23,6,24,39" concept="5" />
+      <node id="5053250164213949392" at="24,39,25,36" concept="1" />
+      <node id="5053250164213954939" at="25,36,26,44" concept="1" />
+      <node id="5053250164213945197" at="26,44,27,35" concept="1" />
+      <node id="5053250164213951894" at="27,35,28,36" concept="1" />
+      <node id="5053250164213955687" at="28,36,29,44" concept="1" />
+      <node id="5053250164213964088" at="32,52,33,57" concept="5" />
+      <node id="5053250164213964092" at="33,57,34,55" concept="5" />
+      <node id="5053250164213964103" at="35,63,36,24" concept="1" />
+      <node id="5053250164213971051" at="36,24,37,86" concept="1" />
+      <node id="5053250164213964106" at="37,86,38,16" concept="6" />
+      <node id="5053250164213964108" at="39,6,40,39" concept="5" />
+      <node id="5053250164213964116" at="40,39,41,36" concept="1" />
+      <node id="5053250164213964119" at="41,36,42,44" concept="1" />
+      <node id="5053250164213964122" at="42,44,43,35" concept="1" />
+      <node id="5053250164213964130" at="43,35,44,36" concept="1" />
+      <node id="5053250164213964133" at="44,36,45,44" concept="1" />
+      <node id="5053250164213998184" at="45,44,46,0" concept="7" />
+      <node id="5053250164214001500" at="46,0,47,120" concept="1" />
+      <node id="5053250164214026473" at="47,120,48,0" concept="7" />
+      <node id="5053250164214022910" at="48,0,49,35" concept="1" />
+      <node id="5053250164214022907" at="49,35,50,36" concept="1" />
+      <node id="5053250164214022904" at="50,36,51,44" concept="1" />
+      <node id="5053250164214037557" at="54,54,55,74" concept="5" />
+      <node id="5053250164214053663" at="55,74,56,57" concept="5" />
+      <node id="5053250164214041872" at="56,57,57,0" concept="7" />
+      <node id="5053250164214039824" at="57,0,58,55" concept="5" />
+      <node id="5053250164214039835" at="59,63,60,24" concept="1" />
+      <node id="5053250164214039845" at="60,24,61,29" concept="6" />
+      <node id="5053250164214039849" at="62,6,63,39" concept="5" />
+      <node id="5053250164214039857" at="63,39,64,36" concept="1" />
+      <node id="5053250164214039860" at="64,36,65,44" concept="1" />
+      <node id="5053250164214039863" at="65,44,66,35" concept="1" />
+      <node id="5053250164214039871" at="66,35,67,36" concept="1" />
+      <node id="5053250164214039874" at="67,36,68,44" concept="1" />
+      <node id="5053250164214039877" at="68,44,69,0" concept="7" />
+      <node id="5053250164214097783" at="69,0,70,17" concept="1" />
+      <node id="5053250164214039890" at="70,17,71,0" concept="7" />
+      <node id="5053250164214039891" at="71,0,72,35" concept="1" />
+      <node id="5053250164214039899" at="72,35,73,36" concept="1" />
+      <node id="5053250164214039902" at="73,36,74,44" concept="1" />
+      <node id="5053250164214126244" at="77,50,78,74" concept="5" />
+      <node id="5053250164214200057" at="78,74,79,74" concept="5" />
+      <node id="5053250164214126252" at="79,74,80,58" concept="5" />
+      <node id="5053250164214185433" at="80,58,81,58" concept="5" />
+      <node id="5053250164214126256" at="81,58,82,0" concept="7" />
+      <node id="5053250164214126257" at="82,0,83,61" concept="5" />
+      <node id="5053250164214126268" at="84,70,85,25" concept="1" />
+      <node id="5053250164214126271" at="85,25,86,30" concept="6" />
+      <node id="5053250164214128737" at="88,64,89,25" concept="1" />
+      <node id="5053250164214128740" at="89,25,90,55" concept="6" />
+      <node id="5053250164214126277" at="91,6,92,40" concept="5" />
+      <node id="5053250164214126285" at="92,40,93,47" concept="1" />
+      <node id="5053250164214126288" at="93,47,94,45" concept="1" />
+      <node id="5053250164214197537" at="94,45,95,45" concept="1" />
+      <node id="5053250164214126291" at="95,45,96,36" concept="1" />
+      <node id="5053250164214126299" at="96,36,97,47" concept="1" />
+      <node id="5053250164214126302" at="97,47,98,45" concept="1" />
+      <node id="5053250164214243045" at="98,45,99,45" concept="1" />
+      <node id="5053250164214126305" at="99,45,100,0" concept="7" />
+      <node id="5053250164214126306" at="100,0,101,19" concept="1" />
+      <node id="5053250164214126312" at="101,19,102,36" concept="1" />
+      <node id="5053250164214126320" at="102,36,103,48" concept="1" />
+      <node id="5053250164214126323" at="103,48,104,45" concept="1" />
+      <node id="5053250164214258000" at="104,45,105,45" concept="1" />
+      <node id="5053250164214126326" at="105,45,106,0" concept="7" />
+      <node id="5053250164214260052" at="106,0,107,19" concept="1" />
+      <node id="5053250164214260044" at="107,19,108,36" concept="1" />
+      <node id="5053250164214260035" at="108,36,109,49" concept="1" />
+      <node id="5053250164214260032" at="109,49,110,45" concept="1" />
+      <node id="5053250164214260029" at="110,45,111,45" concept="1" />
+      <node id="5053250164213935291" at="19,55,23,6" concept="5" />
+      <node id="5053250164214039829" at="58,55,62,6" concept="5" />
+      <node id="5053250164214126262" at="83,61,87,6" concept="5" />
+      <node id="5053250164214128731" at="87,6,91,6" concept="5" />
+      <node id="5053250164213964097" at="34,55,39,6" concept="5" />
+      <node id="5053250164213859936" at="16,0,31,0" concept="4" trace="test_caching#()V" />
+      <node id="5053250164213964084" at="31,0,53,0" concept="4" trace="test_invalidation#()V" />
+      <node id="5053250164214033227" at="53,0,76,0" concept="4" trace="test_trackableValue#()V" />
+      <node id="5053250164214126240" at="76,0,113,0" concept="4" trace="test_transitive#()V" />
+      <scope id="5053250164213935294" at="20,63,22,16" />
+      <scope id="5053250164214039834" at="59,63,61,29" />
+      <scope id="5053250164214126267" at="84,70,86,30" />
+      <scope id="5053250164214128736" at="88,64,90,55" />
+      <scope id="5053250164213964102" at="35,63,38,16" />
+      <scope id="5053250164213859939" at="17,47,29,44">
+        <var name="engine" id="5053250164213904225" />
+        <var name="evalCount" id="5053250164213911340" />
+        <var name="f" id="5053250164213935292" />
+        <var name="result" id="5053250164213938974" />
+      </scope>
+      <scope id="5053250164213859936" at="16,0,31,0" />
+      <scope id="5053250164213964087" at="32,52,51,44">
+        <var name="engine" id="5053250164213964093" />
+        <var name="evalCount" id="5053250164213964089" />
+        <var name="f" id="5053250164213964098" />
+        <var name="result" id="5053250164213964109" />
+      </scope>
+      <scope id="5053250164214033230" at="54,54,74,44">
+        <var name="engine" id="5053250164214039825" />
+        <var name="evalCount" id="5053250164214053664" />
+        <var name="f" id="5053250164214039830" />
+        <var name="result" id="5053250164214039850" />
+        <var name="value" id="5053250164214037558" />
+      </scope>
+      <scope id="5053250164213964084" at="31,0,53,0" />
+      <scope id="5053250164214033227" at="53,0,76,0" />
+      <scope id="5053250164214126243" at="77,50,111,45">
+        <var name="engine" id="5053250164214126258" />
+        <var name="evalCount1" id="5053250164214126253" />
+        <var name="evalCount2" id="5053250164214185434" />
+        <var name="f1" id="5053250164214126263" />
+        <var name="f2" id="5053250164214128732" />
+        <var name="result" id="5053250164214126278" />
+        <var name="value1" id="5053250164214126245" />
+        <var name="value2" id="5053250164214200058" />
+      </scope>
+      <scope id="5053250164214126240" at="76,0,113,0" />
+      <unit id="8398936923999955992" at="15,0,114,0" name="test.de.q60.mps.incremental.runtime.Basic_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:b7d99dd6-7f8b-45bb-9f8e-b17e38b829b5(test.de.q60.mps.incremental.runtime@tests)/8551406714922999738">
+    <file name="Basic_UsingLangExt_Test.java">
+      <node id="8551406714922999745" at="18,77,19,59" concept="5" />
+      <node id="8551406714925261777" at="20,200,21,26" concept="1" />
+      <node id="8551406714923514409" at="21,26,22,18" concept="6" />
+      <node id="8551406714922999765" at="23,9,24,31" concept="5" />
+      <node id="8551406714922999773" at="24,31,25,38" concept="1" />
+      <node id="8551406714922999776" at="25,38,26,46" concept="1" />
+      <node id="8551406714922999779" at="26,46,27,27" concept="1" />
+      <node id="8551406714922999787" at="27,27,28,38" concept="1" />
+      <node id="8551406714922999790" at="28,38,29,46" concept="1" />
+      <node id="8551406714922999797" at="33,52,34,57" concept="5" />
+      <node id="8551406714922999812" at="36,205,37,26" concept="1" />
+      <node id="8551406714922999815" at="37,26,38,88" concept="1" />
+      <node id="8551406714922999822" at="38,88,39,18" concept="6" />
+      <node id="8551406714922999824" at="40,9,41,31" concept="5" />
+      <node id="8551406714922999832" at="41,31,42,38" concept="1" />
+      <node id="8551406714922999835" at="42,38,43,46" concept="1" />
+      <node id="8551406714922999838" at="43,46,44,27" concept="1" />
+      <node id="8551406714922999846" at="44,27,45,38" concept="1" />
+      <node id="8551406714922999849" at="45,38,46,46" concept="1" />
+      <node id="8551406714922999852" at="46,46,47,0" concept="7" />
+      <node id="8551406714922999853" at="47,0,48,122" concept="1" />
+      <node id="8551406714922999863" at="48,122,49,0" concept="7" />
+      <node id="8551406714922999864" at="49,0,50,27" concept="1" />
+      <node id="8551406714922999872" at="50,27,51,38" concept="1" />
+      <node id="8551406714922999875" at="51,38,52,46" concept="1" />
+      <node id="8551406714922999882" at="57,77,58,76" concept="5" />
+      <node id="8551406714922999890" at="58,76,59,59" concept="5" />
+      <node id="8551406714922999906" at="60,207,61,26" concept="1" />
+      <node id="8551406714922999909" at="61,26,62,31" concept="6" />
+      <node id="8551406714922999915" at="63,9,64,31" concept="5" />
+      <node id="8551406714922999923" at="64,31,65,38" concept="1" />
+      <node id="8551406714922999926" at="65,38,66,46" concept="1" />
+      <node id="8551406714922999929" at="66,46,67,27" concept="1" />
+      <node id="8551406714922999937" at="67,27,68,38" concept="1" />
+      <node id="8551406714922999940" at="68,38,69,46" concept="1" />
+      <node id="8551406714922999943" at="69,46,70,0" concept="7" />
+      <node id="8551406714922999944" at="70,0,71,19" concept="1" />
+      <node id="8551406714922999949" at="71,19,72,0" concept="7" />
+      <node id="8551406714922999950" at="72,0,73,27" concept="1" />
+      <node id="8551406714922999958" at="73,27,74,38" concept="1" />
+      <node id="8551406714922999961" at="74,38,75,46" concept="1" />
+      <node id="8551406714922999968" at="80,77,81,76" concept="5" />
+      <node id="8551406714922999976" at="81,76,82,76" concept="5" />
+      <node id="8551406714922999984" at="82,76,83,60" concept="5" />
+      <node id="8551406714922999988" at="83,60,84,60" concept="5" />
+      <node id="8551406714922999992" at="84,60,85,0" concept="7" />
+      <node id="8551406714923000004" at="86,211,87,27" concept="1" />
+      <node id="8551406714923000007" at="87,27,88,32" concept="6" />
+      <node id="8551406714923000019" at="90,205,91,27" concept="1" />
+      <node id="8551406714923000022" at="91,27,92,47" concept="6" />
+      <node id="8551406714923000034" at="93,9,94,32" concept="5" />
+      <node id="8551406714923000042" at="94,32,95,49" concept="1" />
+      <node id="8551406714923000051" at="95,49,96,47" concept="1" />
+      <node id="8551406714923000054" at="96,47,97,47" concept="1" />
+      <node id="8551406714923000057" at="97,47,98,28" concept="1" />
+      <node id="8551406714923000065" at="98,28,99,49" concept="1" />
+      <node id="8551406714923000074" at="99,49,100,47" concept="1" />
+      <node id="8551406714923000077" at="100,47,101,47" concept="1" />
+      <node id="8551406714923000080" at="101,47,102,0" concept="7" />
+      <node id="8551406714923000081" at="102,0,103,21" concept="1" />
+      <node id="8551406714923000086" at="103,21,104,28" concept="1" />
+      <node id="8551406714923000094" at="104,28,105,50" concept="1" />
+      <node id="8551406714923000103" at="105,50,106,47" concept="1" />
+      <node id="8551406714923000106" at="106,47,107,47" concept="1" />
+      <node id="8551406714923000109" at="107,47,108,0" concept="7" />
+      <node id="8551406714923000110" at="108,0,109,21" concept="1" />
+      <node id="8551406714923000115" at="109,21,110,28" concept="1" />
+      <node id="8551406714923000123" at="110,28,111,51" concept="1" />
+      <node id="8551406714923000132" at="111,51,112,47" concept="1" />
+      <node id="8551406714923000135" at="112,47,113,47" concept="1" />
+      <node id="8551406714923298991" at="19,59,23,9" concept="5" />
+      <node id="8551406714922999900" at="59,59,63,9" concept="5" />
+      <node id="8551406714922999998" at="85,0,89,9" concept="5" />
+      <node id="8551406714923000013" at="89,9,93,9" concept="5" />
+      <node id="8551406714922999806" at="35,77,40,9" concept="5" />
+      <node id="8551406714924858729" at="17,47,30,7" concept="1" />
+      <node id="8551406714922999741" at="16,0,32,0" concept="4" trace="test_caching#()V" />
+      <node id="8551406714925300716" at="34,57,53,7" concept="1" />
+      <node id="8551406714925459391" at="56,54,76,7" concept="1" />
+      <node id="8551406714922999793" at="32,0,55,0" concept="4" trace="test_invalidation#()V" />
+      <node id="8551406714922999878" at="55,0,78,0" concept="4" trace="test_trackableValue#()V" />
+      <node id="8551406714926063360" at="79,50,114,7" concept="1" />
+      <node id="8551406714922999964" at="78,0,116,0" concept="4" trace="test_transitive#()V" />
+      <scope id="8551406714923298993" at="20,200,22,18" />
+      <scope id="8551406714925448864" at="60,207,62,31" />
+      <scope id="8551406714925784376" at="86,211,88,32" />
+      <scope id="8551406714925795103" at="90,205,92,47" />
+      <scope id="8551406714925323867" at="36,205,39,18" />
+      <scope id="8551406714924858729" at="18,77,29,46">
+        <var name="evalCount" id="8551406714922999746" />
+        <var name="f" id="8551406714923298992" />
+        <var name="result" id="8551406714922999766" />
+      </scope>
+      <scope id="8551406714922999744" at="17,47,30,7" />
+      <scope id="8551406714922999741" at="16,0,32,0" />
+      <scope id="8551406714925300716" at="35,77,52,46">
+        <var name="f" id="8551406714922999807" />
+        <var name="result" id="8551406714922999825" />
+      </scope>
+      <scope id="8551406714925459391" at="57,77,75,46">
+        <var name="evalCount" id="8551406714922999891" />
+        <var name="f" id="8551406714922999901" />
+        <var name="result" id="8551406714922999916" />
+        <var name="value" id="8551406714922999883" />
+      </scope>
+      <scope id="8551406714922999796" at="33,52,53,7">
+        <var name="evalCount" id="8551406714922999798" />
+      </scope>
+      <scope id="8551406714922999881" at="56,54,76,7" />
+      <scope id="8551406714922999793" at="32,0,55,0" />
+      <scope id="8551406714922999878" at="55,0,78,0" />
+      <scope id="8551406714926063360" at="80,77,113,47">
+        <var name="evalCount1" id="8551406714922999985" />
+        <var name="evalCount2" id="8551406714922999989" />
+        <var name="f1" id="8551406714922999999" />
+        <var name="f2" id="8551406714923000014" />
+        <var name="result" id="8551406714923000035" />
+        <var name="value1" id="8551406714922999969" />
+        <var name="value2" id="8551406714922999977" />
+      </scope>
+      <scope id="8551406714922999967" at="79,50,114,7" />
+      <scope id="8551406714922999964" at="78,0,116,0" />
+      <unit id="8551406714922999738" at="15,0,117,0" name="test.de.q60.mps.incremental.runtime.Basic_UsingLangExt_Test" />
+    </file>
+    <file name="CK_Basic_UsingLangExt_Test_test_caching_f.java">
+      <node id="8551406714923298994" at="9,0,10,0" concept="2" trace="k0" />
+      <node id="8551406714923298994" at="10,60,11,17" concept="1" />
+      <node id="8551406714923298994" at="23,41,24,19" concept="6" />
+      <node id="8551406714923298994" at="31,19,32,48" concept="1" />
+      <node id="8551406714923298994" at="38,19,39,18" concept="1" />
+      <node id="8551406714923298994" at="22,99,25,5" concept="3" />
+      <scope id="8551406714923298994" at="23,41,24,19" />
+    </file>
+    <file name="CK_Basic_UsingLangExt_Test_test_invalidation_f.java">
+      <node id="8551406714925325531" at="9,0,10,0" concept="2" trace="k0" />
+      <node id="8551406714925325531" at="10,65,11,17" concept="1" />
+      <node id="8551406714925325531" at="23,41,24,19" concept="6" />
+      <node id="8551406714925325531" at="31,19,32,48" concept="1" />
+      <node id="8551406714925325531" at="38,19,39,18" concept="1" />
+      <node id="8551406714925325531" at="22,109,25,5" concept="3" />
+      <scope id="8551406714925325531" at="23,41,24,19" />
+    </file>
+    <file name="CK_Basic_UsingLangExt_Test_test_trackableValue_f.java">
+      <node id="8551406714925450152" at="9,0,10,0" concept="2" trace="k0" />
+      <node id="8551406714925450152" at="10,67,11,17" concept="1" />
+      <node id="8551406714925450152" at="23,41,24,19" concept="6" />
+      <node id="8551406714925450152" at="31,19,32,48" concept="1" />
+      <node id="8551406714925450152" at="38,19,39,18" concept="1" />
+      <node id="8551406714925450152" at="22,113,25,5" concept="3" />
+      <scope id="8551406714925450152" at="23,41,24,19" />
+    </file>
+    <file name="CK_Basic_UsingLangExt_Test_test_transitive_f1.java">
+      <node id="8551406714925789354" at="9,0,10,0" concept="2" trace="k0" />
+      <node id="8551406714925789354" at="10,64,11,17" concept="1" />
+      <node id="8551406714925789354" at="23,41,24,19" concept="6" />
+      <node id="8551406714925789354" at="31,19,32,48" concept="1" />
+      <node id="8551406714925789354" at="38,19,39,18" concept="1" />
+      <node id="8551406714925789354" at="22,107,25,5" concept="3" />
+      <scope id="8551406714925789354" at="23,41,24,19" />
+    </file>
+    <file name="CK_Basic_UsingLangExt_Test_test_transitive_f2.java">
+      <node id="8551406714925799983" at="9,0,10,0" concept="2" trace="k0" />
+      <node id="8551406714925799983" at="10,64,11,17" concept="1" />
+      <node id="8551406714925799983" at="23,41,24,19" concept="6" />
+      <node id="8551406714925799983" at="31,19,32,48" concept="1" />
+      <node id="8551406714925799983" at="38,19,39,18" concept="1" />
+      <node id="8551406714925799983" at="22,107,25,5" concept="3" />
+      <scope id="8551406714925799983" at="23,41,24,19" />
+    </file>
+  </root>
+</debug-info>
+

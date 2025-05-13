@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="12,0,29,0" name="de.slisson.mps.javadoc.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:3c68656a-3adc-4c17-8171-f7cde2584994(de.slisson.mps.javadoc.textGen)/5272591907648649547">
+    <file name="HtmlTag_TextGen.java">
+      <node id="5272591907648649547" at="16,54,17,55" concept="2" />
+      <node id="5272591907648649552" at="17,55,18,20" concept="0" />
+      <node id="5272591907648649556" at="18,20,19,155" concept="0" />
+      <node id="5272591907648649554" at="19,155,20,20" concept="0" />
+      <node id="5272591907648649587" at="20,20,21,86" concept="0" />
+      <node id="5272591907648649618" at="21,86,22,21" concept="0" />
+      <node id="5272591907648649620" at="22,21,23,155" concept="0" />
+      <node id="5272591907648649650" at="23,155,24,20" concept="0" />
+      <node id="5272591907648649547" at="28,0,29,0" concept="4" trace="text$9d0D" />
+      <node id="5272591907648649547" at="15,0,26,0" concept="1" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5272591907648649547" at="16,54,24,20">
+        <var name="tgs" id="5272591907648649547" />
+      </scope>
+      <scope id="5272591907648649547" at="15,0,26,0">
+        <var name="ctx" id="5272591907648649547" />
+      </scope>
+      <unit id="5272591907648649547" at="27,0,30,0" name="de.slisson.mps.javadoc.textGen.HtmlTag_TextGen$LINKS" />
+      <unit id="5272591907648649547" at="14,0,31,0" name="de.slisson.mps.javadoc.textGen.HtmlTag_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5272591907648649547" at="22,41,23,37" concept="3" />
+      <scope id="5272591907648649547" at="22,41,23,37" />
+    </file>
+  </root>
+</debug-info>
+

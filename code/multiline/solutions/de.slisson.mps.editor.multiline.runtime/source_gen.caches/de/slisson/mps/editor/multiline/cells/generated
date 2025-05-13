@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-2xsagvfkbfsf4auu0p72cuiuz3j5ybc">
+  <files names="EditorCell_Multiline.java:EditorCell_Word.java:IntRange.java:MultilineCellBackgroundPainter.java:MultilineLayout.java:MultilineSelection.java:MultilineText.java:NewLineAction.java:SelectLeftRightAction.java:SelectUpDownAction.java:SelectionUtil.java:TabAction.java:WordCellInitializer.java:WordModelAccessor.java:WordPasteAction.java" />
+</product>
+

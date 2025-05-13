@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="de.slisson.mps.richtext.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:5b028395-a4f4-4893-9069-339be8fc01aa(de.slisson.mps.richtext.typesystem)/842294157794126808">
+    <file name="TypesystemDescriptor.java">
+      <node id="842294157794126808" at="10,5,11,98" concept="5" />
+      <node id="842294157794126808" at="11,98,12,55" concept="2" />
+      <node id="842294157794126808" at="9,33,13,5" concept="0" />
+      <scope id="842294157794126808" at="10,5,12,55">
+        <var name="nonTypesystemRule" id="842294157794126808" />
+      </scope>
+    </file>
+    <file name="check_Text_Normalized_NonTypesystemRule.java">
+      <node id="5032163920768653445" at="25,7,26,66" concept="5" />
+      <node id="5032163920768653445" at="26,66,27,330" concept="5" />
+      <node id="5032163920768653449" at="28,9,29,171" concept="5" />
+      <node id="5032163920768653449" at="29,171,30,71" concept="2" />
+      <node id="842294157794126808" at="35,50,36,28" concept="6" />
+      <node id="842294157794126808" at="38,68,39,102" concept="6" />
+      <node id="842294157794126808" at="41,30,42,17" concept="6" />
+      <node id="842294157794126808" at="46,0,47,0" concept="7" trace="Text$bD" />
+      <node id="842294157794126808" at="21,0,23,0" concept="1" trace="check_Text_Normalized_NonTypesystemRule#()V" />
+      <node id="842294157794126808" at="35,0,38,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="842294157794126808" at="38,0,41,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="842294157794126808" at="41,0,44,0" concept="4" trace="overrides#()Z" />
+      <node id="5032163920768653449" at="27,330,31,9" concept="0" />
+      <node id="5032163920768653445" at="24,87,32,7" concept="0" />
+      <node id="842294157794126840" at="23,117,33,5" concept="3" />
+      <node id="842294157794126808" at="23,0,35,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="842294157794126808" at="21,52,21,52" />
+      <scope id="842294157794126808" at="35,50,36,28" />
+      <scope id="842294157794126808" at="38,68,39,102" />
+      <scope id="842294157794126808" at="41,30,42,17" />
+      <scope id="842294157794126808" at="21,0,23,0" />
+      <scope id="5032163920768653449" at="28,9,30,71">
+        <var name="intentionProvider" id="5032163920768653449" />
+      </scope>
+      <scope id="842294157794126808" at="35,0,38,0" />
+      <scope id="842294157794126808" at="38,0,41,0">
+        <var name="argument" id="842294157794126808" />
+      </scope>
+      <scope id="842294157794126808" at="41,0,44,0" />
+      <scope id="5032163920768653445" at="25,7,31,9">
+        <var name="_reporter_2309309498" id="5032163920768653445" />
+        <var name="errorTarget" id="5032163920768653445" />
+      </scope>
+      <scope id="842294157794126842" at="24,87,32,7" />
+      <scope id="842294157794126809" at="23,117,33,5" />
+      <scope id="842294157794126808" at="23,0,35,0">
+        <var name="node" id="842294157794126808" />
+        <var name="status" id="842294157794126808" />
+        <var name="typeCheckingContext" id="842294157794126808" />
+      </scope>
+      <unit id="842294157794126808" at="45,0,48,0" name="de.slisson.mps.richtext.typesystem.check_Text_Normalized_NonTypesystemRule$CONCEPTS" />
+      <unit id="842294157794126808" at="20,0,49,0" name="de.slisson.mps.richtext.typesystem.check_Text_Normalized_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:5b028395-a4f4-4893-9069-339be8fc01aa(de.slisson.mps.richtext.typesystem)/842294157794126884">
+    <file name="fix_Text_normalize_QuickFix.java">
+      <node id="842294157794126884" at="14,40,15,128" concept="8" />
+      <node id="3868187941957806866" at="17,44,18,38" concept="6" />
+      <node id="842294157794126916" at="20,35,21,137" concept="2" />
+      <node id="842294157794126884" at="25,0,26,0" concept="7" trace="Text$bD" />
+      <node id="842294157794126884" at="14,0,17,0" concept="1" trace="fix_Text_normalize_QuickFix#()V" />
+      <node id="842294157794126884" at="17,0,20,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="842294157794126884" at="20,0,23,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="842294157794126884" at="14,40,15,128" />
+      <scope id="3868187941957806865" at="17,44,18,38" />
+      <scope id="842294157794126886" at="20,35,21,137" />
+      <scope id="842294157794126884" at="14,0,17,0" />
+      <scope id="842294157794126884" at="17,0,20,0">
+        <var name="node" id="842294157794126884" />
+      </scope>
+      <scope id="842294157794126884" at="20,0,23,0">
+        <var name="node" id="842294157794126884" />
+      </scope>
+      <unit id="842294157794126884" at="24,0,27,0" name="de.slisson.mps.richtext.typesystem.fix_Text_normalize_QuickFix$CONCEPTS" />
+      <unit id="842294157794126884" at="13,0,28,0" name="de.slisson.mps.richtext.typesystem.fix_Text_normalize_QuickFix" />
+    </file>
+  </root>
+</debug-info>
+

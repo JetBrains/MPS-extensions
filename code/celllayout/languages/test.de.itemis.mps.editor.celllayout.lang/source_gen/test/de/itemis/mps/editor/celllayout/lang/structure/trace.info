@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,70,0" name="test.de.itemis.mps.editor.celllayout.lang.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,38,0" name="test.de.itemis.mps.editor.celllayout.lang.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="15,0,111,0" name="test.de.itemis.mps.editor.celllayout.lang.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:d920fa26-26f3-4ab9-a52b-e3cb56a079d3(test.de.itemis.mps.editor.celllayout.lang.structure)/1609776727060595387">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1609776727060595387" at="17,0,18,0" concept="1" trace="props_TestCase_ShrinkHorizontalLine" />
+      <node id="1609776727060595387" at="60,58,61,76" concept="3" />
+      <node id="1609776727060595387" at="61,76,62,63" concept="0" />
+      <node id="1609776727060595387" at="62,63,63,61" concept="0" />
+      <node id="1609776727060595387" at="64,9,65,51" concept="4" />
+      <node id="1609776727060595387" at="59,63,64,9" concept="2" />
+      <scope id="1609776727060595387" at="60,58,63,61">
+        <var name="cpb" id="1609776727060595387" />
+      </scope>
+      <scope id="1609776727060595387" at="59,63,65,51" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1609776727060595387" at="17,0,18,0" concept="5" trace="TestCase_ShrinkHorizontalLine" />
+      <node id="1609776727060595387" at="25,70,26,68" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1609776727060595387" at="21,0,22,0" concept="1" trace="myConceptTestCase_ShrinkHorizontalLine" />
+      <node id="1609776727060595387" at="54,63,55,54" concept="4" />
+      <node id="1609776727060595387" at="102,87,103,205" concept="3" />
+      <node id="1609776727060595387" at="103,205,104,34" concept="0" />
+      <node id="1609776727060595387" at="104,34,105,128" concept="0" />
+      <node id="1609776727060595387" at="105,128,106,17" concept="0" />
+      <node id="1609776727060595420" at="106,17,107,115" concept="0" />
+      <node id="1609776727060595387" at="107,115,108,22" concept="4" />
+      <node id="1609776727060595387" at="102,0,110,0" concept="6" trace="createDescriptorForTestCase_ShrinkHorizontalLine#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1609776727060595387" at="54,63,55,54" />
+      <scope id="1609776727060595387" at="102,87,108,22">
+        <var name="b" id="1609776727060595387" />
+      </scope>
+      <scope id="1609776727060595387" at="102,0,110,0" />
+    </file>
+  </root>
+  <root nodeRef="r:d920fa26-26f3-4ab9-a52b-e3cb56a079d3(test.de.itemis.mps.editor.celllayout.lang.structure)/2397858322422944047">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="2397858322422944047" at="15,0,16,0" concept="1" trace="props_TestCase_GridLayoutFlatten" />
+      <node id="2397858322422944047" at="46,55,47,76" concept="3" />
+      <node id="2397858322422944047" at="47,76,48,60" concept="0" />
+      <node id="2397858322422944047" at="48,60,49,58" concept="0" />
+      <node id="2397858322422944047" at="50,9,51,48" concept="4" />
+      <node id="2397858322422944047" at="45,60,50,9" concept="2" />
+      <scope id="2397858322422944047" at="46,55,49,58">
+        <var name="cpb" id="2397858322422944047" />
+      </scope>
+      <scope id="2397858322422944047" at="45,60,51,48" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="2397858322422944047" at="15,0,16,0" concept="5" trace="TestCase_GridLayoutFlatten" />
+      <node id="2397858322422944047" at="23,72,24,65" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2397858322422944047" at="19,0,20,0" concept="1" trace="myConceptTestCase_GridLayoutFlatten" />
+      <node id="2397858322422944047" at="50,60,51,51" concept="4" />
+      <node id="2397858322422944047" at="88,84,89,202" concept="3" />
+      <node id="2397858322422944047" at="89,202,90,34" concept="0" />
+      <node id="2397858322422944047" at="90,34,91,128" concept="0" />
+      <node id="2397858322422944047" at="91,128,92,17" concept="0" />
+      <node id="2397858322422944047" at="92,17,93,22" concept="4" />
+      <node id="2397858322422944047" at="88,0,95,0" concept="6" trace="createDescriptorForTestCase_GridLayoutFlatten#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2397858322422944047" at="50,60,51,51" />
+      <scope id="2397858322422944047" at="88,84,93,22">
+        <var name="b" id="2397858322422944047" />
+      </scope>
+      <scope id="2397858322422944047" at="88,0,95,0" />
+    </file>
+  </root>
+  <root nodeRef="r:d920fa26-26f3-4ab9-a52b-e3cb56a079d3(test.de.itemis.mps.editor.celllayout.lang.structure)/4434722703675265042">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4434722703675265042" at="16,0,17,0" concept="1" trace="props_TestCase_MixedVerticalAndIndent" />
+      <node id="4434722703675265042" at="53,60,54,76" concept="3" />
+      <node id="4434722703675265042" at="54,76,55,65" concept="0" />
+      <node id="4434722703675265042" at="55,65,56,63" concept="0" />
+      <node id="4434722703675265042" at="57,9,58,53" concept="4" />
+      <node id="4434722703675265042" at="52,65,57,9" concept="2" />
+      <scope id="4434722703675265042" at="53,60,56,63">
+        <var name="cpb" id="4434722703675265042" />
+      </scope>
+      <scope id="4434722703675265042" at="52,65,58,53" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4434722703675265042" at="16,0,17,0" concept="5" trace="TestCase_MixedVerticalAndIndent" />
+      <node id="4434722703675265042" at="24,65,25,70" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4434722703675265042" at="20,0,21,0" concept="1" trace="myConceptTestCase_MixedVerticalAndIndent" />
+      <node id="4434722703675265042" at="52,65,53,56" concept="4" />
+      <node id="4434722703675265042" at="95,89,96,207" concept="3" />
+      <node id="4434722703675265042" at="96,207,97,33" concept="0" />
+      <node id="4434722703675265042" at="97,33,98,128" concept="0" />
+      <node id="4434722703675265042" at="98,128,99,17" concept="0" />
+      <node id="4434722703675265042" at="99,17,100,22" concept="4" />
+      <node id="4434722703675265042" at="95,0,102,0" concept="6" trace="createDescriptorForTestCase_MixedVerticalAndIndent#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4434722703675265042" at="52,65,53,56" />
+      <scope id="4434722703675265042" at="95,89,100,22">
+        <var name="b" id="4434722703675265042" />
+      </scope>
+      <scope id="4434722703675265042" at="95,0,102,0" />
+    </file>
+  </root>
+  <root nodeRef="r:d920fa26-26f3-4ab9-a52b-e3cb56a079d3(test.de.itemis.mps.editor.celllayout.lang.structure)/492440529733466364">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="492440529733466364" at="14,0,15,0" concept="1" trace="props_TestCase_DoNotGrow_orizontalInGrid" />
+      <node id="492440529733466364" at="39,63,40,76" concept="3" />
+      <node id="492440529733466364" at="40,76,41,68" concept="0" />
+      <node id="492440529733466364" at="41,68,42,66" concept="0" />
+      <node id="492440529733466364" at="43,9,44,56" concept="4" />
+      <node id="492440529733466364" at="38,68,43,9" concept="2" />
+      <scope id="492440529733466364" at="39,63,42,66">
+        <var name="cpb" id="492440529733466364" />
+      </scope>
+      <scope id="492440529733466364" at="38,68,44,56" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="492440529733466364" at="14,0,15,0" concept="5" trace="TestCase_DoNotGrow_orizontalInGrid" />
+      <node id="492440529733466364" at="22,60,23,72" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="492440529733466364" at="18,0,19,0" concept="1" trace="myConceptTestCase_DoNotGrow_orizontalInGrid" />
+      <node id="492440529733466364" at="48,68,49,59" concept="4" />
+      <node id="492440529733466364" at="81,92,82,209" concept="3" />
+      <node id="492440529733466364" at="82,209,83,34" concept="0" />
+      <node id="492440529733466364" at="83,34,84,127" concept="0" />
+      <node id="492440529733466364" at="84,127,85,17" concept="0" />
+      <node id="492440529733466364" at="85,17,86,22" concept="4" />
+      <node id="492440529733466364" at="81,0,88,0" concept="6" trace="createDescriptorForTestCase_DoNotGrow_orizontalInGrid#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="492440529733466364" at="48,68,49,59" />
+      <scope id="492440529733466364" at="81,92,86,22">
+        <var name="b" id="492440529733466364" />
+      </scope>
+      <scope id="492440529733466364" at="81,0,88,0" />
+    </file>
+  </root>
+  <root nodeRef="r:d920fa26-26f3-4ab9-a52b-e3cb56a079d3(test.de.itemis.mps.editor.celllayout.lang.structure)/492440529734872534">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="492440529734872534" at="13,0,14,0" concept="1" trace="props_TestCase_BordersInGrid" />
+      <node id="492440529734872534" at="32,51,33,76" concept="3" />
+      <node id="492440529734872534" at="33,76,34,56" concept="0" />
+      <node id="492440529734872534" at="34,56,35,54" concept="0" />
+      <node id="492440529734872534" at="36,9,37,44" concept="4" />
+      <node id="492440529734872534" at="31,56,36,9" concept="2" />
+      <scope id="492440529734872534" at="32,51,35,54">
+        <var name="cpb" id="492440529734872534" />
+      </scope>
+      <scope id="492440529734872534" at="31,56,37,44" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="492440529734872534" at="13,0,14,0" concept="5" trace="TestCase_BordersInGrid" />
+      <node id="492440529734872534" at="21,55,22,60" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="492440529734872534" at="17,0,18,0" concept="1" trace="myConceptTestCase_BordersInGrid" />
+      <node id="492440529734872534" at="46,56,47,47" concept="4" />
+      <node id="492440529734872534" at="74,80,75,197" concept="3" />
+      <node id="492440529734872534" at="75,197,76,34" concept="0" />
+      <node id="492440529734872534" at="76,34,77,127" concept="0" />
+      <node id="492440529734872534" at="77,127,78,17" concept="0" />
+      <node id="492440529734872534" at="78,17,79,22" concept="4" />
+      <node id="492440529734872534" at="74,0,81,0" concept="6" trace="createDescriptorForTestCase_BordersInGrid#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="492440529734872534" at="46,56,47,47" />
+      <scope id="492440529734872534" at="74,80,79,22">
+        <var name="b" id="492440529734872534" />
+      </scope>
+      <scope id="492440529734872534" at="74,0,81,0" />
+    </file>
+  </root>
+  <root nodeRef="r:d920fa26-26f3-4ab9-a52b-e3cb56a079d3(test.de.itemis.mps.editor.celllayout.lang.structure)/492440529738339434">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="492440529738339434" at="12,0,13,0" concept="1" trace="props_HorizontalWrapper" />
+      <node id="492440529738339434" at="25,46,26,76" concept="3" />
+      <node id="492440529738339434" at="26,76,27,51" concept="0" />
+      <node id="492440529738339434" at="27,51,28,49" concept="0" />
+      <node id="492440529738339434" at="29,9,30,39" concept="4" />
+      <node id="492440529738339434" at="24,51,29,9" concept="2" />
+      <scope id="492440529738339434" at="25,46,28,49">
+        <var name="cpb" id="492440529738339434" />
+      </scope>
+      <scope id="492440529738339434" at="24,51,30,39" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="492440529738339434" at="12,0,13,0" concept="5" trace="HorizontalWrapper" />
+      <node id="492440529738339434" at="20,116,21,55" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="492440529738339434" at="16,0,17,0" concept="1" trace="myConceptHorizontalWrapper" />
+      <node id="492440529738339434" at="44,51,45,42" concept="4" />
+      <node id="492440529738339434" at="66,75,67,192" concept="3" />
+      <node id="492440529738339434" at="67,192,68,34" concept="0" />
+      <node id="492440529738339434" at="68,34,69,127" concept="0" />
+      <node id="492440529738339434" at="69,127,70,17" concept="0" />
+      <node id="492440529738339435" at="70,17,71,191" concept="0" />
+      <node id="492440529738339434" at="71,191,72,22" concept="4" />
+      <node id="492440529738339434" at="66,0,74,0" concept="6" trace="createDescriptorForHorizontalWrapper#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="492440529738339434" at="44,51,45,42" />
+      <scope id="492440529738339434" at="66,75,72,22">
+        <var name="b" id="492440529738339434" />
+      </scope>
+      <scope id="492440529738339434" at="66,0,74,0" />
+    </file>
+  </root>
+</debug-info>
+

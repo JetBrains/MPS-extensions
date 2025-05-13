@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
@@ -31,8 +32,9 @@
   </registry>
   <node concept="1TIwiD" id="32ggi2DCpGw">
     <property role="EcuMT" value="3499368519007574816" />
-    <property role="TrG5h" value="PropertyDummy" />
+    <property role="TrG5h" value="ConceptWithProperty" />
     <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="property" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="32ggi2DCpGx" role="1TKVEl">
       <property role="IQ2nx" value="3499368519007574817" />

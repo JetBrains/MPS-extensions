@@ -333,6 +333,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -1134,6 +1135,7 @@
   </node>
   <node concept="312cEu" id="3Wln5KIGW6S">
     <property role="TrG5h" value="map_MergePolicy" />
+    <property role="3GE5qa" value="policies" />
     <node concept="2tJIrI" id="3Wln5KIGZy7" role="jymVt" />
     <node concept="3clFbW" id="3Wln5KIGZy8" role="jymVt">
       <node concept="3cqZAl" id="3Wln5KIGZy9" role="3clF45" />
@@ -2224,6 +2226,7 @@
   </node>
   <node concept="13MO4I" id="368jN$KhtZu">
     <property role="TrG5h" value="leftChild" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="368jN$KkbX7" role="1s_3oS">
       <property role="TrG5h" value="child" />
@@ -2295,6 +2298,7 @@
   </node>
   <node concept="13MO4I" id="368jN$KiQBx">
     <property role="TrG5h" value="rightChild" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="368jN$Kk9j0" role="1s_3oS">
       <property role="TrG5h" value="child" />
@@ -2366,6 +2370,7 @@
   </node>
   <node concept="13MO4I" id="368jN$KiRfe">
     <property role="TrG5h" value="manualChildToConceptChildMerger" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="368jN$Kluqh" role="1s_3oS">
       <property role="TrG5h" value="child" />
@@ -2571,6 +2576,7 @@
   </node>
   <node concept="13MO4I" id="57NTRpQ5LUy">
     <property role="TrG5h" value="dropChild" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="57NTRpQ5LUz" role="1s_3oS">
       <property role="TrG5h" value="child" />
@@ -2891,6 +2897,7 @@
   </node>
   <node concept="13MO4I" id="4WBgwWtgcD4">
     <property role="TrG5h" value="leftRef" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="4WBgwWtgcD5" role="1s_3oS">
       <property role="TrG5h" value="child" />
@@ -2962,6 +2969,7 @@
   </node>
   <node concept="13MO4I" id="3xLnOvEATsM">
     <property role="TrG5h" value="rightRef" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="3xLnOvEATsN" role="1s_3oS">
       <property role="TrG5h" value="child" />
@@ -3033,6 +3041,7 @@
   </node>
   <node concept="13MO4I" id="3xLnOvECZkh">
     <property role="TrG5h" value="dropRef" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="3xLnOvECZki" role="1s_3oS">
       <property role="TrG5h" value="child" />
@@ -3104,6 +3113,7 @@
   </node>
   <node concept="13MO4I" id="3xLnOvEDgFP">
     <property role="TrG5h" value="manualRef" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="3xLnOvEDgFQ" role="1s_3oS">
       <property role="TrG5h" value="child" />
@@ -3662,6 +3672,7 @@
   </node>
   <node concept="13MO4I" id="6W0eXuddmnA">
     <property role="TrG5h" value="manualChildToCollectionElementMerger" />
+    <property role="3GE5qa" value="policies.declarationPolicies.subpolicy" />
     <ref role="3gUMe" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
     <node concept="1N15co" id="6W0eXuddmnD" role="1s_3oS">
       <property role="TrG5h" value="action" />

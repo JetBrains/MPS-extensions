@@ -245,7 +245,7 @@
           <node concept="3cpWsn" id="6QQNrZxM5p" role="3cpWs9">
             <property role="TrG5h" value="nodes" />
             <node concept="2I9FWS" id="6QQNrZxLQo" role="1tU5fm">
-              <ref role="2I9WkF" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+              <ref role="2I9WkF" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
             </node>
             <node concept="2OqwBi" id="6QQNrZxM5q" role="33vP2m">
               <node concept="37vLTw" id="6QQNrZxM5r" role="2Oq$k0">
@@ -253,7 +253,7 @@
               </node>
               <node concept="2SmgA7" id="6QQNrZxM5s" role="2OqNvi">
                 <node concept="chp4Y" id="6QQNrZxM5t" role="1dBWTz">
-                  <ref role="cht4Q" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+                  <ref role="cht4Q" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
                 </node>
               </node>
             </node>
@@ -276,7 +276,7 @@
           <node concept="3cpWsn" id="6QQNrZxYaO" role="3cpWs9">
             <property role="TrG5h" value="node" />
             <node concept="3Tqbb2" id="6QQNrZxYab" role="1tU5fm">
-              <ref role="ehGHo" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+              <ref role="ehGHo" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
             </node>
             <node concept="2OqwBi" id="6QQNrZxYaP" role="33vP2m">
               <node concept="37vLTw" id="6QQNrZxYaQ" role="2Oq$k0">

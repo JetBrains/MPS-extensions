@@ -42,7 +42,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="6Ltuup4C8pd">
-    <ref role="1XX52x" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
+    <ref role="1XX52x" to="lmxm:6Ltuup4C5JZ" resolve="ConceptWithListOfChildren" />
     <node concept="3EZMnI" id="6Ltuup4CcLK" role="2wV5jI">
       <node concept="3EZMnI" id="6Ltuup4CcLR" role="3EZMnx">
         <node concept="VPM3Z" id="6Ltuup4CcLT" role="3F10Kt" />

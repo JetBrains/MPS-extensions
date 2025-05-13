@@ -39,7 +39,7 @@
   </registry>
   <node concept="1TIwiD" id="3pc485Vr2SQ">
     <property role="EcuMT" value="3912520324585631286" />
-    <property role="TrG5h" value="PropertyDummyRef" />
+    <property role="TrG5h" value="ConceptWithRef" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="46ucjsetlhx" role="1TKVEl">
@@ -49,9 +49,9 @@
     </node>
     <node concept="1TJgyj" id="46ucjseg2A6" role="1TKVEi">
       <property role="IQ2ns" value="4728270771317647750" />
-      <property role="20kJfa" value="propertyDummyRef" />
+      <property role="20kJfa" value="propertyRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+      <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
     </node>
   </node>
 </model>

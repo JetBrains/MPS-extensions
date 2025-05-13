@@ -53,7 +53,7 @@
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
-      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1165424453110" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item" flags="ng" index="1oHujT">
@@ -77,7 +77,7 @@
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
@@ -136,7 +136,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -169,6 +169,7 @@
   <node concept="24kQdi" id="7wCpClFoTIX">
     <ref role="1XX52x" to="diuo:7wCpClFnJFN" resolve="NRootEditor" />
     <node concept="3EZMnI" id="7wCpClFoTP9" role="2wV5jI">
+      <node concept="2iRfu4" id="7wCpClFoTPc" role="2iSdaV" />
       <node concept="3EZMnI" id="1be6WiHaz8q" role="3EZMnx">
         <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
         <node concept="PMmxH" id="1be6WiHaz8r" role="3EZMnx">
@@ -190,7 +191,6 @@
         </node>
         <node concept="2iRfu4" id="1be6WiHaz8v" role="2iSdaV" />
       </node>
-      <node concept="2iRfu4" id="7wCpClFoTPc" role="2iSdaV" />
     </node>
     <node concept="PMmxH" id="3p9Oysa57xG" role="6VMZX">
       <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
@@ -761,11 +761,11 @@
       <node concept="3F1sOY" id="4r1mNB_oACb" role="3EZMnx">
         <ref role="1NtTu8" to="diuo:4r1mNB_oAwf" resolve="subscript" />
       </node>
+      <node concept="2iRfu4" id="4r1mNB_oA_f" role="2iSdaV" />
       <node concept="PMmxH" id="1be6WiHaAVc" role="3EZMnx">
         <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
         <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
       </node>
-      <node concept="2iRfu4" id="4r1mNB_oA_f" role="2iSdaV" />
     </node>
     <node concept="PMmxH" id="3p9Oysa57xV" role="6VMZX">
       <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />

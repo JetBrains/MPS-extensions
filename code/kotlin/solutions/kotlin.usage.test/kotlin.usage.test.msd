@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="kotlin.usage.test" uuid="4105d28f-d96e-442e-9491-3eaac1128b0c" moduleVersion="0" compileInMPS="true">
+<solution name="kotlin.usage.test" uuid="4105d28f-d96e-442e-9491-3eaac1128b0c" moduleVersion="0">
   <models>
     <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">47198eff-d292-4dcd-85af-227f983426b5(MPS.Kotlin)</dependency>

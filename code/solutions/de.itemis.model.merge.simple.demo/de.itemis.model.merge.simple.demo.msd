@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.model.merge.simple.demo" uuid="3bfac093-0c90-42c7-87af-7dbe19b8f3e0" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="de.itemis.model.merge.simple.demo" uuid="3bfac093-0c90-42c7-87af-7dbe19b8f3e0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -11,7 +11,6 @@
     </facet>
     <facet type="tests" />
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">539e8939-08ef-497c-a5fd-25dd10137a55(de.itemis.model.merge)</dependency>
     <dependency reexport="false">ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)</dependency>
@@ -26,19 +25,21 @@
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
     <dependency reexport="false">446c26eb-2b7b-4bf0-9b35-f83fa582753e(jetbrains.mps.lang.modelapi)</dependency>
+    <dependency reexport="false">bf491fd2-a197-456a-8354-b3b225d4e871(de.itemis.model.simple.demo.enums)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:539e8939-08ef-497c-a5fd-25dd10137a55:de.itemis.model.merge" version="0" />
     <language slang="l:8688ed72-e0ba-44cb-9688-5c8397cb5bbb:de.itemis.model.simple.demo.children" version="0" />
     <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ce8b:de.itemis.model.simple.demo.collection" version="0" />
     <language slang="l:36ead753-43ea-471e-bcb9-d4fb1e637bbc:de.itemis.model.simple.demo.collection.keeper" version="0" />
+    <language slang="l:bf491fd2-a197-456a-8354-b3b225d4e871:de.itemis.model.simple.demo.enums" version="0" />
     <language slang="l:81362899-970b-421b-9fe3-2b64b343f769:de.itemis.model.simple.demo.property" version="0" />
     <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ca2b:de.itemis.model.simple.demo.property" version="0" />
     <language slang="l:6001215c-aa6e-4f9f-bfc2-f22e3c7250b2:de.itemis.model.simple.demo.reference" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
-    <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="1" />
+    <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="2" />
     <language slang="l:f61473f9-130f-42f6-b98d-6c438812c2f6:jetbrains.mps.baseLanguage.unitTest" version="1" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
@@ -60,6 +61,7 @@
     <module reference="8688ed72-e0ba-44cb-9688-5c8397cb5bbb(de.itemis.model.simple.demo.children)" version="0" />
     <module reference="e50b0500-6fd7-4c7f-a730-9d841358ce8b(de.itemis.model.simple.demo.collection)" version="0" />
     <module reference="36ead753-43ea-471e-bcb9-d4fb1e637bbc(de.itemis.model.simple.demo.collection.keeper)" version="0" />
+    <module reference="bf491fd2-a197-456a-8354-b3b225d4e871(de.itemis.model.simple.demo.enums)" version="0" />
     <module reference="81362899-970b-421b-9fe3-2b64b343f769(de.itemis.model.simple.demo.property)" version="0" />
     <module reference="e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)" version="0" />
     <module reference="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2(de.itemis.model.simple.demo.reference)" version="0" />

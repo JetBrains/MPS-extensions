@@ -1,16 +1,30 @@
 # MPS Extensions
 
-<a href="https://mps.builds.itemis.cloud/project/Mbeddr2_Mbeddr_Gradle_MpsExtensions?projectTab=overview&mode=builds"><img src="https://mps.builds.itemis.cloud/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
-![JetBrains MPS 2022.3.1](https://img.shields.io/badge/JetBrains%20MPS-2022.3.1-orange)
+<a href="https://mps.builds.itemis.cloud/project.html?projectId=Mbeddr2_Mbeddr_Gradle_MpsExtensions&tab=projectOverview"><img src="https://mps.builds.itemis.cloud/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
+![JetBrains MPS 2023.2](https://img.shields.io/badge/JetBrains%20MPS-2023.2-orange)
+
 [![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
-The MPS extensions aim to ease language development within MPS. They are maintained by itemis, JetBrains, and the open source community, and its development is closely aligned with the development of MPS.
+The MPS extensions aim to ease language development within MPS. They are maintained by itemis, JetBrains, and the open source community, and the development is closely aligned with the development of MPS.
 
-Join the discussion on [Slack](https://slack-mps.jetbrains.com) in the #mps-extensions room.
+Join the discussion on [Slack](https://slack-mps.jetbrains.com) in the [#mps-extensions](https://jetbrains-mps.slack.com/archives/C99H1FR42) room.
+
+## Maven Dependencies
+
+To use MPS Extensions in your project, add one of the following dependencies to your Maven or Gradle build script:
+
+[![MPS-Extensions](https://img.shields.io/badge/Github%20pages-MPS--Extensions-success)](https://github.com/orgs/JetBrains/packages?tab=packages&q=de.itemis.mps.extensions)
+
+| MPS version | nexus status | 
+| --------------- | --------------- |
+| 2023.2 | [![artifacts.itemis.cloud](https://img.shields.io/badge/dynamic/xml?url=https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/maven-metadata.xml&label=artifacts.itemis.cloud&color=success&query=.//versioning/latest)](https://artifacts.itemis.cloud/#browse/browse:maven-mps:de%2Fitemis%2Fmps%2Fextensions) | 
+| 2022.3 | [![artifacts.itemis.cloud](https://img.shields.io/badge/dynamic/xml?url=https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/maven-metadata.xml&label=artifacts.itemis.cloud&color=success&query=.//versioning/versions/version[starts-with(text(),'2022.3')][last()])](https://artifacts.itemis.cloud/#browse/browse:maven-mps:de%2Fitemis%2Fmps%2Fextensions) | 
+| 2022.2 | [![artifacts.itemis.cloud](https://img.shields.io/badge/dynamic/xml?url=https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/maven-metadata.xml&label=artifacts.itemis.cloud&color=success&query=.//versioning/versions/version[starts-with(text(),'2022.2')][last()])](https://artifacts.itemis.cloud/#browse/browse:maven-mps:de%2Fitemis%2Fmps%2Fextensions) | 
+| 2021.3 | [![artifacts.itemis.cloud](https://img.shields.io/badge/dynamic/xml?url=https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/maven-metadata.xml&label=artifacts.itemis.cloud&color=success&query=.//versioning/versions/version[starts-with(text(),'2021.3')][last()])](https://artifacts.itemis.cloud/#browse/browse:maven-mps:de%2Fitemis%2Fmps%2Fextensions) | 
+| 2021.2 | [![artifacts.itemis.cloud](https://img.shields.io/badge/dynamic/xml?url=https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/maven-metadata.xml&label=artifacts.itemis.cloud&color=success&query=.//versioning/versions/version[starts-with(text(),'2021.2')][last()])](https://artifacts.itemis.cloud/#browse/browse:maven-mps:de%2Fitemis%2Fmps%2Fextensions) | 
+| 2021.1 | [![artifacts.itemis.cloud](https://img.shields.io/badge/dynamic/xml?url=https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/maven-metadata.xml&label=artifacts.itemis.cloud&color=success&query=.//versioning/versions/version[starts-with(text(),'2021.1')][last()])](https://artifacts.itemis.cloud/#browse/browse:maven-mps:de%2Fitemis%2Fmps%2Fextensions) | 
 
 ## Building
-
-The MPS extensions can be built with gradle. To build the source code, all you need is a Java 11 JDK. Of course, if you want to hack on the MPS extensions, you need MPS. The MPS version that is used is in the [build.gradle](https://github.com/JetBrains/MPS-extensions/blob/master/build.gradle#L61) file.
 
 Run the following commands to build the project:
 
@@ -32,13 +46,9 @@ See the [building](https://jetbrains.github.io/MPS-extensions/building/) page of
 
 ## Documentation
 
-For more information on the individual extensions, see our [documentation](https://jetbrains.github.io/MPS-extensions). The source of the documentation is located in the `docs` folder of this repository, if you would like to contribute to it. To preview the documentation run:
+If you would like more information on the individual extensions, please see our [documentation](https://jetbrains.github.io/MPS-extensions). The documentation's source is located in this repository's `docs` folder if you would like to contribute to it. To preview the documentation, run the following command:
 
 ```bash
 ./gradlew previewDocs # Mac and Linux
 gradlew.bat previewDocs # Windows
 ```
-
-## Contributing
-
-See our contribution guide [here](https://jetbrains.github.io/MPS-extensions/contributing/).

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="third.party.usage.test" uuid="0cca457a-289f-4811-b49b-c3b096dbf72a" moduleVersion="0" compileInMPS="true">
+<solution name="third.party.usage.test" uuid="0cca457a-289f-4811-b49b-c3b096dbf72a" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">39983771-4e9b-401b-a1a9-1da6c777c843(MPS.ThirdParty)</dependency>
   </dependencies>

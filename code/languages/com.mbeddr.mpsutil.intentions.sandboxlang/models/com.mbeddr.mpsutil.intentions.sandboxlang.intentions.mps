@@ -80,7 +80,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -252,13 +252,13 @@
     </node>
   </node>
   <node concept="2S6QgY" id="frLjuvPz1B">
-    <property role="TrG5h" value="ChildIntentionNotVisible" />
+    <property role="TrG5h" value="ChildIntentionVisibleAltoughReadOnly" />
     <ref role="2ZfgGC" to="iikq:5qf1oe_GcsF" resolve="IChild" />
     <node concept="2S6ZIM" id="frLjuvPz1C" role="2ZfVej">
       <node concept="3clFbS" id="frLjuvPz1D" role="2VODD2">
         <node concept="3clFbF" id="frLjuvPz1E" role="3cqZAp">
           <node concept="Xl_RD" id="frLjuvPz1F" role="3clFbG">
-            <property role="Xl_RC" value="Not Visible In Ready-Only Cell" />
+            <property role="Xl_RC" value="Visible In Ready-Only Cell" />
           </node>
         </node>
       </node>

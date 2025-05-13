@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="MPS.Kotlin" uuid="47198eff-d292-4dcd-85af-227f983426b5" moduleVersion="0" compileInMPS="true">
+<solution name="MPS.Kotlin" uuid="47198eff-d292-4dcd-85af-227f983426b5" moduleVersion="0">
   <models>
     <modelRoot type="java_classes" contentPath="${mps_home}/plugins/mps-kotlin/lib">
       <sourceRoot location="kotlin-builtins.jar" />
       <sourceRoot location="kotlin-ide.jar" />
-      <sourceRoot location="kotlin-stdlib-1.7.0.jar" />
-      <sourceRoot location="kotlin-stdlib-common-1.7.0.jar" />
+      <sourceRoot location="kotlin-stdlib-1.9.0.jar" />
+      <sourceRoot location="kotlin-stdlib-common-1.9.0.jar" />
     </modelRoot>
   </models>
   <facets>
     <facet compile="ext" classes="provided" ext="no" type="java">
       <classes generated="true" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-builtins.jar" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-ide.jar" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-1.9.0.jar" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-common-1.9.0.jar" />
     </facet>
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-builtins.jar" />
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-ide.jar" />
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-1.7.0.jar" />
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-common-1.7.0.jar" />
-  </stubModelEntries>
-  <sourcePath />
   <dependencies>
     <dependency reexport="true">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
   </dependencies>

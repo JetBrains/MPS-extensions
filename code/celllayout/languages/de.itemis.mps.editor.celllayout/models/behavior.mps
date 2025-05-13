@@ -65,7 +65,7 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -87,7 +87,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -926,6 +926,38 @@
       <node concept="3clFbS" id="7d0q5VHb7R8" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="1be6WiH906Y">
+    <ref role="13h7C2" to="pvux:3ATi8gIrB$_" resolve="TopDownLayoutCell" />
+    <node concept="13hLZK" id="1be6WiH906Z" role="13h7CW">
+      <node concept="3clFbS" id="1be6WiH9070" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1be6WiH90dg" role="13h7CS">
+      <property role="TrG5h" value="getOpeningText" />
+      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
+      <node concept="3Tm1VV" id="1be6WiH90dh" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiH90dm" role="3clF47">
+        <node concept="3clFbF" id="1be6WiH90fG" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiH90fF" role="3clFbG">
+            <property role="Xl_RC" value="[" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiH90dn" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1be6WiH9tG4" role="13h7CS">
+      <property role="TrG5h" value="getClosingText" />
+      <ref role="13i0hy" to="tpcb:hKxUEwj" resolve="getClosingText" />
+      <node concept="3Tm1VV" id="1be6WiH9tG5" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiH9tGa" role="3clF47">
+        <node concept="3clFbF" id="1be6WiH9tIA" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiH9tI_" role="3clFbG">
+            <property role="Xl_RC" value="]" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiH9tGb" role="3clF45" />
+    </node>
+  </node>
   <node concept="13h7C7" id="6W5Xfjf4TxP">
     <ref role="13h7C2" to="pvux:6W5Xfjf4T8A" resolve="FullWidthRootStyle" />
     <node concept="13i0hz" id="6W5Xfjf4U7P" role="13h7CS">
@@ -975,38 +1007,6 @@
     </node>
     <node concept="13hLZK" id="6W5Xfjf4TxQ" role="13h7CW">
       <node concept="3clFbS" id="6W5Xfjf4TxR" role="2VODD2" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="1be6WiH906Y">
-    <ref role="13h7C2" to="pvux:3ATi8gIrB$_" resolve="TopDownLayoutCell" />
-    <node concept="13hLZK" id="1be6WiH906Z" role="13h7CW">
-      <node concept="3clFbS" id="1be6WiH9070" role="2VODD2" />
-    </node>
-    <node concept="13i0hz" id="1be6WiH90dg" role="13h7CS">
-      <property role="TrG5h" value="getOpeningText" />
-      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
-      <node concept="3Tm1VV" id="1be6WiH90dh" role="1B3o_S" />
-      <node concept="3clFbS" id="1be6WiH90dm" role="3clF47">
-        <node concept="3clFbF" id="1be6WiH90fG" role="3cqZAp">
-          <node concept="Xl_RD" id="1be6WiH90fF" role="3clFbG">
-            <property role="Xl_RC" value="[" />
-          </node>
-        </node>
-      </node>
-      <node concept="17QB3L" id="1be6WiH90dn" role="3clF45" />
-    </node>
-    <node concept="13i0hz" id="1be6WiH9tG4" role="13h7CS">
-      <property role="TrG5h" value="getClosingText" />
-      <ref role="13i0hy" to="tpcb:hKxUEwj" resolve="getClosingText" />
-      <node concept="3Tm1VV" id="1be6WiH9tG5" role="1B3o_S" />
-      <node concept="3clFbS" id="1be6WiH9tGa" role="3clF47">
-        <node concept="3clFbF" id="1be6WiH9tIA" role="3cqZAp">
-          <node concept="Xl_RD" id="1be6WiH9tI_" role="3clFbG">
-            <property role="Xl_RC" value="]" />
-          </node>
-        </node>
-      </node>
-      <node concept="17QB3L" id="1be6WiH9tGb" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="1be6WiHa7Kr">

@@ -45,7 +45,7 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -54,9 +54,6 @@
     <language id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil">
       <concept id="3693790620639876318" name="com.mbeddr.mpsutil.blutil.structure.BLDoc" flags="ng" index="2aEySx">
         <child id="3693790620639876319" name="text" index="2aEySw" />
-      </concept>
-      <concept id="6451706574539345403" name="com.mbeddr.mpsutil.blutil.structure.MethodLineDoc" flags="ng" index="NWlO9">
-        <property id="6451706574539345425" name="text" index="NWlVz" />
       </concept>
     </language>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
@@ -85,7 +82,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
@@ -105,8 +102,12 @@
         <node concept="3clFbS" id="1LCsd5knOpS" role="3clF47" />
         <node concept="3cqZAl" id="1LCsd5knOpQ" role="3clF45" />
         <node concept="3Tm1VV" id="1LCsd5knOpR" role="1B3o_S" />
-        <node concept="NWlO9" id="1LCsd5knOpV" role="lGtFl">
-          <property role="NWlVz" value="test text" />
+        <node concept="P$JXv" id="FzH79A30a$" role="lGtFl">
+          <node concept="TZ5HA" id="FzH79A30ay" role="TZ5H$">
+            <node concept="1dT_AC" id="FzH79A30az" role="1dT_Ay">
+              <property role="1dT_AB" value="test text" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -139,8 +140,12 @@
         <property role="TrG5h" value="field" />
         <node concept="3Tm6S6" id="1LCsd5kqhVU" role="1B3o_S" />
         <node concept="17QB3L" id="1LCsd5kqiiu" role="1tU5fm" />
-        <node concept="NWlO9" id="1LCsd5kqkkT" role="lGtFl">
-          <property role="NWlVz" value="test text" />
+        <node concept="z59LJ" id="FzH79A30aB" role="lGtFl">
+          <node concept="TZ5HA" id="FzH79A30a_" role="TZ5H$">
+            <node concept="1dT_AC" id="FzH79A30aA" role="1dT_Ay">
+              <property role="1dT_AB" value="test text" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -183,8 +188,12 @@
         <property role="TrG5h" value="field" />
         <node concept="3Tm6S6" id="1LCsd5kql2t" role="1B3o_S" />
         <node concept="17QB3L" id="1LCsd5kqlp2" role="1tU5fm" />
-        <node concept="NWlO9" id="1LCsd5kqnwe" role="lGtFl">
-          <property role="NWlVz" value="test text" />
+        <node concept="z59LJ" id="FzH79A30aE" role="lGtFl">
+          <node concept="TZ5HA" id="FzH79A30aC" role="TZ5H$">
+            <node concept="1dT_AC" id="FzH79A30aD" role="1dT_Ay">
+              <property role="1dT_AB" value="test text" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -289,8 +298,12 @@
           <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;constraints (cannot be child)&quot;;FLAVOUR_MESSAGE=&quot;Node 'test' cannot be child of node '(instance of TestNode)'&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)/1227128029536558389]&quot;;" />
           <property role="huDt6" value="Node 'test' cannot be child of node '(instance of TestNode)'" />
         </node>
-        <node concept="NWlO9" id="1LCsd5ks2Ry" role="lGtFl">
-          <property role="NWlVz" value="test text" />
+        <node concept="2aEySx" id="FzH79A30aF" role="lGtFl">
+          <node concept="19SGf9" id="FzH79A30aG" role="2aEySw">
+            <node concept="19SUe$" id="FzH79A30aH" role="19SJt6">
+              <property role="19SUeA" value="test text" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -405,8 +418,12 @@
       <node concept="312cEu" id="1LCsd5ksC9X" role="1qenE9">
         <property role="TrG5h" value="Test" />
         <node concept="3Tm1VV" id="1LCsd5ksC9Y" role="1B3o_S" />
-        <node concept="NWlO9" id="1LCsd5ksCaB" role="lGtFl">
-          <property role="NWlVz" value="test text" />
+        <node concept="3UR2Jj" id="FzH79A30aK" role="lGtFl">
+          <node concept="TZ5HA" id="FzH79A30aI" role="TZ5H$">
+            <node concept="1dT_AC" id="FzH79A30aJ" role="1dT_Ay">
+              <property role="1dT_AB" value="test text" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

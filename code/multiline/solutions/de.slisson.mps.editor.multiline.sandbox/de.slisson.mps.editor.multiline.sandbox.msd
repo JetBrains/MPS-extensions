@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.slisson.mps.editor.multiline.sandbox" uuid="12db307d-5ea6-49b9-a36a-cb1cde091436" moduleVersion="0" compileInMPS="true">
+<solution name="de.slisson.mps.editor.multiline.sandbox" uuid="12db307d-5ea6-49b9-a36a-cb1cde091436" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}/models" type="default">
       <sourceRoot location="." />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <languageVersions>
     <language slang="l:26a9201d-e70b-4755-acd6-40baf7a63b3a:de.slisson.mps.editor.multiline.demolang" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />

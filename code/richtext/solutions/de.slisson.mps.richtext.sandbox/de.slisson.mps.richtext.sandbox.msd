@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.slisson.mps.richtext.sandbox" uuid="fdae84e9-f8df-4c2f-8de3-b45a7b6af77e" moduleVersion="0" compileInMPS="true">
+<solution name="de.slisson.mps.richtext.sandbox" uuid="fdae84e9-f8df-4c2f-8de3-b45a7b6af77e" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>

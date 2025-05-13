@@ -56,6 +56,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -92,7 +93,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -123,11 +124,6 @@
       <property role="IQ2nx" value="1526659674582244782" />
       <property role="TrG5h" value="connectBoxesWithoutDummyPort" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="15UkGIdpWuH" role="1TKVEl">
-      <property role="IQ2nx" value="1259410080007702445" />
-      <property role="TrG5h" value="gridStyle" />
-      <ref role="AX2Wp" node="15UkGIdpWax" resolve="GridStyle" />
     </node>
     <node concept="1TJgyj" id="6actlYi6UMa" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -239,6 +235,36 @@
       <property role="20kJfa" value="gridColor" />
       <ref role="20lvS9" to="tpc2:h7ZlJ1A" resolve="QueryFunction_Color" />
     </node>
+    <node concept="1TJgyj" id="7OochqQ3OfW" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543036" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arrowKeyMoveAmount" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ol7" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543367" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arrowKeyMoveAmountSlow" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ol8" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543368" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="panAmount" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ol9" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543369" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="panAmountSlow" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
+    <node concept="1TJgyj" id="7OochqQ3Ola" role="1TKVEi">
+      <property role="IQ2ns" value="9014008627795543370" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="minimumScale" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
     <node concept="1TJgyj" id="4sEIQIBvZeh" role="1TKVEi">
       <property role="IQ2ns" value="5128117196760806289" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -282,6 +308,11 @@
     </node>
     <node concept="PrWs8" id="4EOrrTBazxe" role="PzmwI">
       <ref role="PrY4T" node="4EOrrTBazwV" resolve="IDiagramElementsProvider" />
+    </node>
+    <node concept="1TJgyi" id="15UkGIdpWuH" role="1TKVEl">
+      <property role="IQ2nx" value="1259410080007702445" />
+      <property role="TrG5h" value="gridStyle" />
+      <ref role="AX2Wp" node="15UkGIdpWax" resolve="GridStyle" />
     </node>
   </node>
   <node concept="1TIwiD" id="5qgNcfDk8GC">
@@ -464,6 +495,12 @@
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
       <node concept="asaX9" id="7sHDEc2Si7c" role="lGtFl" />
     </node>
+    <node concept="1TJgyj" id="7f8dMG51zry" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="edgeID" />
+      <property role="IQ2ns" value="8342978967611258594" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="5qgNcfDnW48" role="PzmwI">
       <ref role="PrY4T" node="5qgNcfDnW3k" resolve="IDiagramCell" />
     </node>
@@ -493,6 +530,7 @@
     <property role="TrG5h" value="Parameter_Node" />
     <property role="34LRSv" value="node" />
     <property role="EcuMT" value="6237710625713964946" />
+    <property role="R4oN_" value="the node itself" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="PlHQZ" id="5qgNcfDnW3k">
@@ -508,6 +546,7 @@
     <property role="TrG5h" value="Parameter_TargetNode" />
     <property role="34LRSv" value="targetNode" />
     <property role="EcuMT" value="5712445629353395770" />
+    <property role="R4oN_" value="the target node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="27djZ8AsONh">
@@ -529,6 +568,7 @@
     <property role="TrG5h" value="Parameter_SubstituteInfoFactory" />
     <property role="34LRSv" value="factory" />
     <property role="EcuMT" value="5490129062795632136" />
+    <property role="R4oN_" value="access to the SubstituteInfoFactory helper class" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="4KKQOHJ7L1b">
@@ -540,6 +580,7 @@
     <property role="TrG5h" value="Parameter_Label" />
     <property role="34LRSv" value="label" />
     <property role="EcuMT" value="5490129062797973100" />
+    <property role="R4oN_" value="a description of an diagram element" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="4KKQOHJ7Lx9">
@@ -551,6 +592,7 @@
     <property role="TrG5h" value="Parameter_Port" />
     <property role="34LRSv" value="port" />
     <property role="EcuMT" value="1933649609528302759" />
+    <property role="R4oN_" value="the port name" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1FlH1cK7saA">
@@ -609,6 +651,7 @@
     <property role="34LRSv" value="bounds" />
     <property role="3GE5qa" value="shape" />
     <property role="EcuMT" value="7464726264117281947" />
+    <property role="R4oN_" value="the boundaries" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6uo2fN6fIlW">
@@ -616,6 +659,7 @@
     <property role="TrG5h" value="Parameter_Graphics2D" />
     <property role="34LRSv" value="graphics" />
     <property role="EcuMT" value="7464726264117388668" />
+    <property role="R4oN_" value="the Graphics2D instance" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6uo2fN6fzUX">
@@ -690,6 +734,7 @@
     <property role="TrG5h" value="Parameter_ShapeStyle" />
     <property role="34LRSv" value="style" />
     <property role="EcuMT" value="7464726264122315337" />
+    <property role="R4oN_" value="the internal shape style" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5P3ZJ9cKuug">
@@ -703,6 +748,7 @@
     <property role="34LRSv" value="fromNode" />
     <property role="3GE5qa" value="validateConnection" />
     <property role="EcuMT" value="6720495385590278796" />
+    <property role="R4oN_" value="the source node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5P3ZJ9cKEEP">
@@ -710,6 +756,7 @@
     <property role="34LRSv" value="toNode" />
     <property role="3GE5qa" value="validateConnection" />
     <property role="EcuMT" value="6720495385590278837" />
+    <property role="R4oN_" value="the target node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5P3ZJ9cKEFu">
@@ -717,6 +764,7 @@
     <property role="34LRSv" value="fromPort" />
     <property role="3GE5qa" value="validateConnection" />
     <property role="EcuMT" value="6720495385590278878" />
+    <property role="R4oN_" value="the source port name" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5P3ZJ9cKEG7">
@@ -724,6 +772,7 @@
     <property role="34LRSv" value="toPort" />
     <property role="3GE5qa" value="validateConnection" />
     <property role="EcuMT" value="6720495385590278919" />
+    <property role="R4oN_" value="the target port name" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5P3ZJ9cQk5c">
@@ -731,6 +780,7 @@
     <property role="34LRSv" value="reasons" />
     <property role="3GE5qa" value="validateConnection" />
     <property role="EcuMT" value="6720495385591759180" />
+    <property role="R4oN_" value="the validation reasons" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7vufT$lgFEI">
@@ -744,6 +794,7 @@
     <property role="34LRSv" value="concept" />
     <property role="3GE5qa" value="paletteFolder" />
     <property role="EcuMT" value="8637411062062623445" />
+    <property role="R4oN_" value="the concept of a palette folder" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7vufT$m6P1B">
@@ -846,6 +897,7 @@
     <property role="TrG5h" value="Parameter_PaletteFolder_TargetNode" />
     <property role="34LRSv" value="targetNode" />
     <property role="EcuMT" value="4254343767721607990" />
+    <property role="R4oN_" value="the target node of a palette folder" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3FRjz$v4Kan">
@@ -939,6 +991,7 @@
     <property role="TrG5h" value="Parameter_TargetDiagramNode" />
     <property role="34LRSv" value="targetDNode" />
     <property role="EcuMT" value="7962205455894009575" />
+    <property role="R4oN_" value="the target box diagram node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="PlHQZ" id="2J9gLgxqr14">
@@ -1687,6 +1740,7 @@
     <property role="TrG5h" value="EdgeEditor_CanCreate_fromEndpoint" />
     <property role="34LRSv" value="fromEndpoint" />
     <property role="EcuMT" value="7139752554344387289" />
+    <property role="R4oN_" value="the IConnectionEndpoint instance of the source" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6clvLV1SDgc">
@@ -1694,6 +1748,7 @@
     <property role="TrG5h" value="EdgeEditor_CanCreate_toEndpoint" />
     <property role="34LRSv" value="toEndpoint" />
     <property role="EcuMT" value="7139752554344387596" />
+    <property role="R4oN_" value="the IConnectionEndpoint instance of the target" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="ywgKCSgtCP">
@@ -1707,6 +1762,7 @@
     <property role="TrG5h" value="EdgeEditor_SplitHandler_boxToInsert" />
     <property role="34LRSv" value="boxToInsert" />
     <property role="EcuMT" value="621570459749711418" />
+    <property role="R4oN_" value="the IConnectionEndpoint to insert" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="ywgKCSlsNr">
@@ -1720,6 +1776,7 @@
     <property role="TrG5h" value="EdgeEditor_CanSplit_concept" />
     <property role="34LRSv" value="concept" />
     <property role="EcuMT" value="621570459751009530" />
+    <property role="R4oN_" value="the concept of the splitting node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5RIhRmzOVFe">
@@ -1790,6 +1847,7 @@
     <property role="TrG5h" value="Parameter_IPaletteEntry" />
     <property role="34LRSv" value="paletteEntry" />
     <property role="EcuMT" value="8377729485192422732" />
+    <property role="R4oN_" value="an IPaletteEntry of the palette " />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="PlHQZ" id="2uX18sve1VE">
@@ -1866,6 +1924,7 @@
     <property role="TrG5h" value="Parameter_EndpointFrom" />
     <property role="34LRSv" value="from" />
     <property role="EcuMT" value="2863449916475514559" />
+    <property role="R4oN_" value="a source IConnectionEndpoint" />
     <ref role="1TJDcQ" node="2uX18svDiaG" resolve="Parameter_Endpoint" />
   </node>
   <node concept="1TIwiD" id="2uX18svDia4">
@@ -1873,6 +1932,7 @@
     <property role="TrG5h" value="Parameter_EndpointTo" />
     <property role="34LRSv" value="to" />
     <property role="EcuMT" value="2863449916475515524" />
+    <property role="R4oN_" value="a target IConnectionEndpoint" />
     <ref role="1TJDcQ" node="2uX18svDiaG" resolve="Parameter_Endpoint" />
   </node>
   <node concept="1TIwiD" id="2uX18svDiaG">
@@ -1955,9 +2015,10 @@
   </node>
   <node concept="1TIwiD" id="3HrJbrHNcg6">
     <property role="3GE5qa" value="connectionType" />
-    <property role="TrG5h" value="SNodeConncetionType_fromNode" />
+    <property role="TrG5h" value="SNodeConnectionType_fromNode" />
     <property role="34LRSv" value="fromNode" />
     <property role="EcuMT" value="4277219764978107398" />
+    <property role="R4oN_" value="the source node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3HrJbrHNcgK">
@@ -1965,6 +2026,7 @@
     <property role="TrG5h" value="SNodeConncetionType_toNode" />
     <property role="34LRSv" value="toNode" />
     <property role="EcuMT" value="4277219764978107440" />
+    <property role="R4oN_" value="the target node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1VJN2HU5AzU">
@@ -1972,6 +2034,7 @@
     <property role="TrG5h" value="SNodeConnectionType_fromPort" />
     <property role="34LRSv" value="fromPort" />
     <property role="EcuMT" value="2229224827675633914" />
+    <property role="R4oN_" value="the source port name" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1VJN2HU5BwS">
@@ -1979,6 +2042,7 @@
     <property role="TrG5h" value="SNodeConnectionType_toPort" />
     <property role="34LRSv" value="toPort" />
     <property role="EcuMT" value="2229224827675637816" />
+    <property role="R4oN_" value="the target port name" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="PlHQZ" id="S$ha3H7Eqt">
@@ -2048,6 +2112,7 @@
     <property role="TrG5h" value="Parameter_Style" />
     <property role="34LRSv" value="style" />
     <property role="EcuMT" value="5051221038162451038" />
+    <property role="R4oN_" value="the shape style" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="4opyGmeaulF">
@@ -2066,6 +2131,7 @@
     <property role="TrG5h" value="Parameter_AnnotationNode" />
     <property role="34LRSv" value="annotationNode" />
     <property role="EcuMT" value="7859343581441233262" />
+    <property role="R4oN_" value="the annotation node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7tKD69sA99S">
@@ -2077,6 +2143,7 @@
     <property role="TrG5h" value="Parameter_dropData" />
     <property role="34LRSv" value="data" />
     <property role="EcuMT" value="8606559630272271107" />
+    <property role="R4oN_" value="the drop data object" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7tKD69sAa9e">
@@ -2394,6 +2461,7 @@
     <property role="3GE5qa" value="layoutAlgorithm" />
     <property role="TrG5h" value="ContextNodeParameter" />
     <property role="34LRSv" value="contextNode" />
+    <property role="R4oN_" value="the context node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="3YGiJOY1y6Y">
@@ -2464,6 +2532,7 @@
     <property role="3GE5qa" value="parentChangeHandler" />
     <property role="TrG5h" value="Parameter_changeOwner_elementNode" />
     <property role="34LRSv" value="elementNode" />
+    <property role="R4oN_" value="the element node" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="5wo2$Nn8NJp">
@@ -2471,6 +2540,7 @@
     <property role="3GE5qa" value="parentChangeHandler" />
     <property role="TrG5h" value="Parameter_changeOwner_elementId" />
     <property role="34LRSv" value="elementId" />
+    <property role="R4oN_" value="the element identifier" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="25R3W" id="64PP31wF2qp">
@@ -5088,6 +5158,7 @@
     <property role="3GE5qa" value="config" />
     <property role="34LRSv" value="state" />
     <property role="EcuMT" value="1161622981231" />
+    <property role="R4oN_" value="the mxCellState instance" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="PlHQZ" id="2ZU2kH0xQFQ">

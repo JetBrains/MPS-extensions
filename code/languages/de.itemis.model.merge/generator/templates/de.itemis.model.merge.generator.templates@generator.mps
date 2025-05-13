@@ -34,7 +34,7 @@
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
@@ -101,7 +101,7 @@
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
         <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
@@ -118,7 +118,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -165,7 +165,7 @@
       <concept id="5005282049925926521" name="jetbrains.mps.lang.generator.structure.TemplateArgumentParameterExpression" flags="nn" index="v3LJS">
         <reference id="5005282049925926522" name="parameter" index="v3LJV" />
       </concept>
-      <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
+      <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ngI" index="v9R3L">
         <reference id="1722980698497626483" name="template" index="v9R2y" />
         <child id="1722980698497626405" name="actualArgument" index="v9R3O" />
       </concept>
@@ -200,7 +200,7 @@
       <concept id="1048903277984099198" name="jetbrains.mps.lang.generator.structure.VarMacro2" flags="lg" index="1ps_y7">
         <child id="1048903277984099213" name="variables" index="1ps_xO" />
       </concept>
-      <concept id="982871510064032177" name="jetbrains.mps.lang.generator.structure.IParameterizedTemplate" flags="ng" index="1s_3nv">
+      <concept id="982871510064032177" name="jetbrains.mps.lang.generator.structure.IParameterizedTemplate" flags="ngI" index="1s_3nv">
         <child id="982871510064032342" name="parameter" index="1s_3oS" />
       </concept>
       <concept id="982871510068000147" name="jetbrains.mps.lang.generator.structure.TemplateSwitchMacro" flags="lg" index="1sPUBX" />
@@ -226,6 +226,7 @@
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
         <child id="1199542457201" name="resultType" index="1ajl9A" />
         <child id="1199542501692" name="parameterType" index="1ajw0F" />
@@ -342,7 +343,7 @@
         <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -356,7 +357,6 @@
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
@@ -370,33 +370,33 @@
     <property role="TrG5h" value="main" />
     <node concept="2rT7sh" id="5BXbi3$BKCe" role="2rTMjI">
       <property role="TrG5h" value="ModelMergeClazz" />
-      <ref role="2rTdP9" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+      <ref role="2rTdP9" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
       <ref role="2rZz_L" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
     <node concept="2rT7sh" id="1U34SqlnOL7" role="2rTMjI">
       <property role="TrG5h" value="ModelMergeExtension" />
-      <ref role="2rTdP9" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+      <ref role="2rTdP9" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
       <ref role="2rZz_L" to="v54s:7335HkeYeM" resolve="Extension" />
     </node>
     <node concept="2rT7sh" id="3Wln5KIFxhH" role="2rTMjI">
       <property role="TrG5h" value="MergePolClazz" />
-      <ref role="2rTdP9" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+      <ref role="2rTdP9" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
       <ref role="2rZz_L" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
     <node concept="3lhOvk" id="5BXbi3$BI2V" role="3lj3bC">
       <property role="36QftV" value="true" />
       <property role="13Pg2o" value="h94ayQF/true_" />
-      <ref role="30HIoZ" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+      <ref role="30HIoZ" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
       <ref role="3lhOvi" node="5BXbi3$BI9g" resolve="map_ModelMerge_Extension" />
       <ref role="2sgKRv" node="1U34SqlnOL7" resolve="ModelMergeExtension" />
     </node>
     <node concept="3lhOvk" id="5BXbi3$BIgB" role="3lj3bC">
-      <ref role="30HIoZ" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+      <ref role="30HIoZ" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
       <ref role="3lhOvi" node="5BXbi3$BIgE" resolve="map_ModelMerge" />
       <ref role="2sgKRv" node="5BXbi3$BKCe" resolve="ModelMergeClazz" />
     </node>
     <node concept="3lhOvk" id="3Wln5KIGW6N" role="3lj3bC">
-      <ref role="30HIoZ" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+      <ref role="30HIoZ" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
       <ref role="3lhOvi" node="3Wln5KIGW6S" resolve="map_MergePolicy" />
       <ref role="2sgKRv" node="3Wln5KIFxhH" resolve="MergePolClazz" />
     </node>
@@ -555,7 +555,7 @@
       </node>
     </node>
     <node concept="n94m4" id="5BXbi3$BI9s" role="lGtFl">
-      <ref role="n9lRv" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+      <ref role="n9lRv" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
     </node>
     <node concept="17Uvod" id="1GS$5Jo7hje" role="lGtFl">
       <property role="2qtEX9" value="name" />
@@ -583,7 +583,7 @@
     <property role="TrG5h" value="map_ModelMerge" />
     <node concept="3Tm1VV" id="5BXbi3$BIgF" role="1B3o_S" />
     <node concept="n94m4" id="5BXbi3$BIgG" role="lGtFl">
-      <ref role="n9lRv" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
+      <ref role="n9lRv" to="mopj:1EbzjT2RcU7" resolve="ModelMergingPolicy" />
     </node>
     <node concept="17Uvod" id="5BXbi3$BIh9" role="lGtFl">
       <property role="2qtEX9" value="name" />
@@ -700,12 +700,12 @@
                         <node concept="2OqwBi" id="3Wln5KITvoU" role="2Oq$k0">
                           <node concept="30H73N" id="3Wln5KITuNK" role="2Oq$k0" />
                           <node concept="3Tsc0h" id="3Wln5KITvDQ" role="2OqNvi">
-                            <ref role="3TtcxE" to="mopj:1EbzjT2R$JQ" resolve="items" />
+                            <ref role="3TtcxE" to="mopj:1EbzjT2R$JQ" resolve="policies" />
                           </node>
                         </node>
                         <node concept="v3k3i" id="3Wln5KITyZ4" role="2OqNvi">
                           <node concept="chp4Y" id="3Wln5KITzAj" role="v3oSu">
-                            <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                            <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                           </node>
                         </node>
                       </node>
@@ -772,7 +772,7 @@
                                 <node concept="2Xjw5R" id="3Wln5KI_yoF" role="2OqNvi">
                                   <node concept="1xMEDy" id="3Wln5KI_yoG" role="1xVPHs">
                                     <node concept="chp4Y" id="3Wln5KI_yoH" role="ri$Ld">
-                                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                                     </node>
                                   </node>
                                 </node>
@@ -882,7 +882,7 @@
                                 <node concept="2Xjw5R" id="3Wln5KI_$1c" role="2OqNvi">
                                   <node concept="1xMEDy" id="3Wln5KI_$1d" role="1xVPHs">
                                     <node concept="chp4Y" id="3Wln5KI_$1e" role="ri$Ld">
-                                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                                     </node>
                                   </node>
                                 </node>
@@ -1004,7 +1004,7 @@
                                         <node concept="2Xjw5R" id="3Dxwj9kIJzz" role="2OqNvi">
                                           <node concept="1xMEDy" id="3Dxwj9kIJz$" role="1xVPHs">
                                             <node concept="chp4Y" id="3Dxwj9kIJz_" role="ri$Ld">
-                                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                                             </node>
                                           </node>
                                         </node>
@@ -1384,7 +1384,7 @@
     <node concept="2tJIrI" id="3Wln5KIGYea" role="jymVt" />
     <node concept="3Tm1VV" id="3Wln5KIGW6T" role="1B3o_S" />
     <node concept="n94m4" id="3Wln5KIGW6U" role="lGtFl">
-      <ref role="n9lRv" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+      <ref role="n9lRv" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
     </node>
     <node concept="17Uvod" id="3Wln5KIGWxJ" role="lGtFl">
       <property role="2qtEX9" value="name" />
@@ -1805,7 +1805,7 @@
                                   </node>
                                   <node concept="2OqwBi" id="6IgrZARLoEw" role="3uHU7B">
                                     <node concept="37vLTw" id="6IgrZARLosf" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="6IgrZARLohi" resolve="it" />
+                                      <ref role="3cqZAo" node="7Z$RfkF7IGG" resolve="it" />
                                     </node>
                                     <node concept="3TrcHB" id="6IgrZARLpB6" role="2OqNvi">
                                       <ref role="3TsBF5" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
@@ -1814,9 +1814,9 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="Rh6nW" id="6IgrZARLohi" role="1bW2Oz">
+                            <node concept="gl6BB" id="7Z$RfkF7IGG" role="1bW2Oz">
                               <property role="TrG5h" value="it" />
-                              <node concept="2jxLKc" id="6IgrZARLohj" role="1tU5fm" />
+                              <node concept="2jxLKc" id="7Z$RfkF7IGH" role="1tU5fm" />
                             </node>
                           </node>
                         </node>
@@ -1869,7 +1869,7 @@
                                   </node>
                                   <node concept="2OqwBi" id="6IgrZARNpkl" role="3uHU7B">
                                     <node concept="37vLTw" id="6IgrZARNpkm" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="6IgrZARNpko" resolve="it" />
+                                      <ref role="3cqZAo" node="7Z$RfkF7IGI" resolve="it" />
                                     </node>
                                     <node concept="3TrcHB" id="6IgrZARNpkn" role="2OqNvi">
                                       <ref role="3TsBF5" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
@@ -1878,9 +1878,9 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="Rh6nW" id="6IgrZARNpko" role="1bW2Oz">
+                            <node concept="gl6BB" id="7Z$RfkF7IGI" role="1bW2Oz">
                               <property role="TrG5h" value="it" />
-                              <node concept="2jxLKc" id="6IgrZARNpkp" role="1tU5fm" />
+                              <node concept="2jxLKc" id="7Z$RfkF7IGJ" role="1tU5fm" />
                             </node>
                           </node>
                         </node>
@@ -1933,7 +1933,7 @@
                                   </node>
                                   <node concept="2OqwBi" id="6IgrZARNqe9" role="3uHU7B">
                                     <node concept="37vLTw" id="6IgrZARNqea" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="6IgrZARNqec" resolve="it" />
+                                      <ref role="3cqZAo" node="7Z$RfkF7IGK" resolve="it" />
                                     </node>
                                     <node concept="3TrcHB" id="6IgrZARNqeb" role="2OqNvi">
                                       <ref role="3TsBF5" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
@@ -1942,9 +1942,9 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="Rh6nW" id="6IgrZARNqec" role="1bW2Oz">
+                            <node concept="gl6BB" id="7Z$RfkF7IGK" role="1bW2Oz">
                               <property role="TrG5h" value="it" />
-                              <node concept="2jxLKc" id="6IgrZARNqed" role="1tU5fm" />
+                              <node concept="2jxLKc" id="7Z$RfkF7IGL" role="1tU5fm" />
                             </node>
                           </node>
                         </node>
@@ -1970,7 +1970,7 @@
                             <node concept="2Xjw5R" id="6IgrZARFI_m" role="2OqNvi">
                               <node concept="1xMEDy" id="6IgrZARFI_n" role="1xVPHs">
                                 <node concept="chp4Y" id="6IgrZARFI_o" role="ri$Ld">
-                                  <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                                  <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                                 </node>
                               </node>
                             </node>
@@ -2070,7 +2070,7 @@
                             <node concept="2Xjw5R" id="3pc485W5wCJ" role="2OqNvi">
                               <node concept="1xMEDy" id="3pc485W5wCK" role="1xVPHs">
                                 <node concept="chp4Y" id="3pc485W5wCL" role="ri$Ld">
-                                  <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                                  <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                                 </node>
                               </node>
                             </node>
@@ -2157,7 +2157,7 @@
                             <node concept="2Xjw5R" id="3pc485W5vK6" role="2OqNvi">
                               <node concept="1xMEDy" id="3pc485W5vK7" role="1xVPHs">
                                 <node concept="chp4Y" id="3pc485W5vK8" role="ri$Ld">
-                                  <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                                  <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                                 </node>
                               </node>
                             </node>
@@ -2250,7 +2250,7 @@
                         <node concept="2Xjw5R" id="368jN$JYfc9" role="2OqNvi">
                           <node concept="1xMEDy" id="368jN$JYfca" role="1xVPHs">
                             <node concept="chp4Y" id="368jN$JYfcb" role="ri$Ld">
-                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                             </node>
                           </node>
                         </node>
@@ -2321,7 +2321,7 @@
                         <node concept="2Xjw5R" id="368jN$K80ZO" role="2OqNvi">
                           <node concept="1xMEDy" id="368jN$K80ZP" role="1xVPHs">
                             <node concept="chp4Y" id="368jN$K80ZQ" role="ri$Ld">
-                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                             </node>
                           </node>
                         </node>
@@ -2410,7 +2410,7 @@
                                 <node concept="2Xjw5R" id="368jN$K9uaT" role="2OqNvi">
                                   <node concept="1xMEDy" id="368jN$K9uaU" role="1xVPHs">
                                     <node concept="chp4Y" id="368jN$K9uaV" role="ri$Ld">
-                                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                                     </node>
                                   </node>
                                 </node>
@@ -2597,7 +2597,7 @@
                         <node concept="2Xjw5R" id="57NTRpQ5LUL" role="2OqNvi">
                           <node concept="1xMEDy" id="57NTRpQ5LUM" role="1xVPHs">
                             <node concept="chp4Y" id="57NTRpQ5LUN" role="ri$Ld">
-                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                             </node>
                           </node>
                         </node>
@@ -2917,7 +2917,7 @@
                         <node concept="2Xjw5R" id="4WBgwWtgcDj" role="2OqNvi">
                           <node concept="1xMEDy" id="4WBgwWtgcDk" role="1xVPHs">
                             <node concept="chp4Y" id="4WBgwWtgcDl" role="ri$Ld">
-                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                             </node>
                           </node>
                         </node>
@@ -2988,7 +2988,7 @@
                         <node concept="2Xjw5R" id="3xLnOvEATt1" role="2OqNvi">
                           <node concept="1xMEDy" id="3xLnOvEATt2" role="1xVPHs">
                             <node concept="chp4Y" id="3xLnOvEATt3" role="ri$Ld">
-                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                             </node>
                           </node>
                         </node>
@@ -3059,7 +3059,7 @@
                         <node concept="2Xjw5R" id="3xLnOvECZkw" role="2OqNvi">
                           <node concept="1xMEDy" id="3xLnOvECZkx" role="1xVPHs">
                             <node concept="chp4Y" id="3xLnOvECZky" role="ri$Ld">
-                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                              <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                             </node>
                           </node>
                         </node>
@@ -3235,7 +3235,7 @@
                                 <node concept="2Xjw5R" id="3xLnOvEDkQY" role="2OqNvi">
                                   <node concept="1xMEDy" id="3xLnOvEDkQZ" role="1xVPHs">
                                     <node concept="chp4Y" id="3xLnOvEDkR0" role="ri$Ld">
-                                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                                      <ref role="cht4Q" to="mopj:1EbzjT2R$JP" resolve="ConceptMergingPolicy" />
                                     </node>
                                   </node>
                                 </node>

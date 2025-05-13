@@ -6,8 +6,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet pluginId="de.itemis.mps.nativelibs.loader" type="ideaPlugin" />
-    <facet type="java">
+    <facet type="java" compile="mps" classes="provided" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>

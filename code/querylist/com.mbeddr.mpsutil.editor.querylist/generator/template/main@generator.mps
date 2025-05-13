@@ -769,6 +769,20 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="3YRpSuyPEcv" role="3acgRq">
+      <ref role="30HIoZ" to="bbp5:3YRpSuyOe2M" resolve="QueryListIndexExpression" />
+      <node concept="gft3U" id="3YRpSuyPEcw" role="1lVwrX">
+        <node concept="2OqwBi" id="3YRpSuyPEcy" role="gfFT$">
+          <node concept="2YIFZM" id="3YRpSuyPEcz" role="2Oq$k0">
+            <ref role="37wK5l" to="d2zl:1WjrBsNI5cO" resolve="getCurrentContext" />
+            <ref role="1Pybhc" to="d2zl:1WjrBsNHO$4" resolve="QueryListContext" />
+          </node>
+          <node concept="liA8E" id="3YRpSuyPEtr" role="2OqNvi">
+            <ref role="37wK5l" to="d2zl:3YRpSuyOFjn" resolve="getIndex" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="fYh_sBt">
     <property role="TrG5h" value="reduce_CellModel_QueryList" />
@@ -847,7 +861,6 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="1WjrBsNI_nE" role="3cqZAp" />
                   <node concept="3cpWs8" id="1WjrBsNI_nF" role="3cqZAp">
                     <node concept="3cpWsn" id="1WjrBsNI_nG" role="3cpWs9">
                       <property role="TrG5h" value="editorCell" />

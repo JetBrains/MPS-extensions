@@ -66,6 +66,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -91,6 +94,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="7024111702304501420" name="jetbrains.mps.baseLanguage.structure.XorAssignmentExpression" flags="nn" index="3vZ8rc" />
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
         <child id="1163668914799" name="condition" index="3K4Cdx" />
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
@@ -965,6 +969,37 @@
                 <node concept="liA8E" id="630t2b8e3AO" role="2OqNvi">
                   <ref role="37wK5l" to="9p8b:630t2b85S9G" resolve="getStartColumn" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="quM1lvyDaN">
+    <property role="TrG5h" value="ToggleStickyHeaders" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="nnej:quM1lvyADx" resolve="ICanHaveStickyHeaders" />
+    <node concept="2S6ZIM" id="quM1lvyDaO" role="2ZfVej">
+      <node concept="3clFbS" id="quM1lvyDaP" role="2VODD2">
+        <node concept="3clFbF" id="quM1lvyDhI" role="3cqZAp">
+          <node concept="Xl_RD" id="quM1lvyDhH" role="3clFbG">
+            <property role="Xl_RC" value="Toggle Sticky Headers" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="quM1lvyDaQ" role="2ZfgGD">
+      <node concept="3clFbS" id="quM1lvyDaR" role="2VODD2">
+        <node concept="3clFbF" id="quM1lvyDll" role="3cqZAp">
+          <node concept="3vZ8rc" id="quM1lvyKz3" role="3clFbG">
+            <node concept="3clFbT" id="quM1lvyKzE" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="quM1lvyDv0" role="37vLTJ">
+              <node concept="2Sf5sV" id="quM1lvyDlk" role="2Oq$k0" />
+              <node concept="3TrcHB" id="quM1lvyDDr" role="2OqNvi">
+                <ref role="3TsBF5" to="nnej:quM1lvyDaM" resolve="stickyHeaders" />
               </node>
             </node>
           </node>

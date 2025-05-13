@@ -12,6 +12,7 @@
     <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="ih8q" ref="r:990d360b-3ac3-45fa-8ed3-0bbf017bba84(com.mbeddr.mpsutil.intentions.runtime)" />
+    <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" implicit="true" />
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
@@ -109,7 +110,9 @@
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
       <concept id="1213999088275" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldDeclaration" flags="ig" index="2BZ0e9" />
       <concept id="1213999117680" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldAccessOperation" flags="nn" index="2BZ7hE" />
-      <concept id="1205752633985" name="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" flags="nn" index="2WthIp" />
+      <concept id="1205752633985" name="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" flags="nn" index="2WthIp">
+        <reference id="1218736638915" name="classifier" index="32nkFo" />
+      </concept>
       <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ngI" index="2WEnae">
         <reference id="1205756909548" name="member" index="2WH_rO" />
       </concept>
@@ -128,6 +131,13 @@
       <node concept="3Tm6S6" id="3pwG8PSiG3l" role="1B3o_S" />
       <node concept="3uibUv" id="3pwG8PSjPUz" role="1tU5fm">
         <ref role="3uigEE" to="kvq8:2WlJ6VKPQcy" resolve="EditorComponentCreationListener" />
+      </node>
+    </node>
+    <node concept="2BZ0e9" id="3$Ib8kTSdKs" role="2uRRBA">
+      <property role="TrG5h" value="producer" />
+      <node concept="3Tm6S6" id="3$Ib8kTSdKt" role="1B3o_S" />
+      <node concept="3uibUv" id="3$Ib8kTSekI" role="1tU5fm">
+        <ref role="3uigEE" to="ih8q:2jDew64JcPx" resolve="ActionIntentionMenuProducer" />
       </node>
     </node>
     <node concept="2uRRBT" id="3pwG8PSjRMg" role="2uRRB$">
@@ -176,6 +186,27 @@
                               </node>
                             </node>
                           </node>
+                          <node concept="3clFbF" id="3$Ib8kTSf64" role="3cqZAp">
+                            <node concept="37vLTI" id="3$Ib8kTSfH0" role="3clFbG">
+                              <node concept="2OqwBi" id="3$Ib8kTSf5Y" role="37vLTJ">
+                                <node concept="2WthIp" id="3$Ib8kTSf61" role="2Oq$k0">
+                                  <ref role="32nkFo" node="3pwG8PSiG1M" resolve="IntentionsProjectPlugin" />
+                                </node>
+                                <node concept="2BZ7hE" id="3$Ib8kTSf63" role="2OqNvi">
+                                  <ref role="2WH_rO" node="3$Ib8kTSdKs" resolve="producer" />
+                                </node>
+                              </node>
+                              <node concept="2ShNRf" id="3$Ib8kTSd$L" role="37vLTx">
+                                <node concept="1pGfFk" id="3$Ib8kTSd$M" role="2ShVmc">
+                                  <property role="373rjd" value="true" />
+                                  <ref role="37wK5l" to="ih8q:2jDew64KaGG" resolve="ActionIntentionMenuProducer" />
+                                  <node concept="37vLTw" id="3$Ib8kTSd$N" role="37wK5m">
+                                    <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
                           <node concept="3clFbF" id="2jDew64H8Xv" role="3cqZAp">
                             <node concept="2OqwBi" id="2jDew64HaXY" role="3clFbG">
                               <node concept="37vLTw" id="2jDew64H8Xt" role="2Oq$k0">
@@ -183,13 +214,12 @@
                               </node>
                               <node concept="liA8E" id="2jDew64Hd5G" role="2OqNvi">
                                 <ref role="37wK5l" to="exr9:~EditorComponent.setIntentionMenuProducer(jetbrains.mps.editor.intentions.IntentionMenuProducer)" resolve="setIntentionMenuProducer" />
-                                <node concept="2ShNRf" id="2jDew64L6Ki" role="37wK5m">
-                                  <node concept="1pGfFk" id="2jDew64L7EE" role="2ShVmc">
-                                    <property role="373rjd" value="true" />
-                                    <ref role="37wK5l" to="ih8q:2jDew64KaGG" resolve="MyIntentionMenuProducer" />
-                                    <node concept="37vLTw" id="2jDew64OYEu" role="37wK5m">
-                                      <ref role="3cqZAo" node="3pwG8PSjTLK" resolve="editorComponent" />
-                                    </node>
+                                <node concept="2OqwBi" id="3$Ib8kTSglQ" role="37wK5m">
+                                  <node concept="2WthIp" id="3$Ib8kTSglT" role="2Oq$k0">
+                                    <ref role="32nkFo" node="3pwG8PSiG1M" resolve="IntentionsProjectPlugin" />
+                                  </node>
+                                  <node concept="2BZ7hE" id="3$Ib8kTSglV" role="2OqNvi">
+                                    <ref role="2WH_rO" node="3$Ib8kTSdKs" resolve="producer" />
                                   </node>
                                 </node>
                               </node>
@@ -218,7 +248,28 @@
                     </node>
                     <node concept="3cqZAl" id="3pwG8PSjTLU" role="3clF45" />
                     <node concept="3Tm1VV" id="3pwG8PSjTLV" role="1B3o_S" />
-                    <node concept="3clFbS" id="3pwG8PSjTLX" role="3clF47" />
+                    <node concept="3clFbS" id="3pwG8PSjTLX" role="3clF47">
+                      <node concept="3clFbF" id="3$Ib8kTSg_I" role="3cqZAp">
+                        <node concept="2OqwBi" id="3$Ib8kTShuh" role="3clFbG">
+                          <node concept="2OqwBi" id="3$Ib8kTSgH8" role="2Oq$k0">
+                            <node concept="2OqwBi" id="3$Ib8kTSg_C" role="2Oq$k0">
+                              <node concept="2WthIp" id="3$Ib8kTSg_F" role="2Oq$k0">
+                                <ref role="32nkFo" node="3pwG8PSiG1M" resolve="IntentionsProjectPlugin" />
+                              </node>
+                              <node concept="2BZ7hE" id="3$Ib8kTSg_H" role="2OqNvi">
+                                <ref role="2WH_rO" node="3$Ib8kTSdKs" resolve="producer" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="3$Ib8kTSh8t" role="2OqNvi">
+                              <ref role="37wK5l" to="ih8q:6ob0HsML7OT" resolve="getCache" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3$Ib8kTSjND" role="2OqNvi">
+                            <ref role="37wK5l" to="3o3z:~Multimap.clear()" resolve="clear" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                   <node concept="1KvdUw" id="3pwG8PSkN7p" role="37wK5m" />
                 </node>

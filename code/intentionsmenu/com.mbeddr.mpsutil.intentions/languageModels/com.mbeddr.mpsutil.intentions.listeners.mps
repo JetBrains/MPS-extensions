@@ -19,14 +19,10 @@
     <import index="7bx7" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.workbench.action(MPS.Platform/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="tp4k" ref="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" implicit="true" />
+    <import index="3o3z" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.google.common.collect(MPS.ThirdParty/)" implicit="true" />
     <import index="tp4s" ref="r:00000000-0000-4000-0000-011c89590360(jetbrains.mps.lang.plugin.behavior)" implicit="true" />
   </imports>
   <registry>
-    <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
-      <concept id="8473566765275063380" name="de.slisson.mps.reflection.structure.ReflectionFieldAccess" flags="ng" index="1PnCL0">
-        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1224071154655" name="jetbrains.mps.baseLanguage.structure.AsExpression" flags="nn" index="0kSF2">
         <child id="1224071154657" name="classifierType" index="0kSFW" />
@@ -40,7 +36,6 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="3870108946630849399" name="jetbrains.mps.baseLanguage.structure.StaticFieldReferenceOperation" flags="ng" index="SiP3y" />
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
@@ -149,10 +144,6 @@
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
       <concept id="1167380149909" name="jetbrains.mps.baseLanguage.collections.structure.RemoveElementOperation" flags="nn" index="3dhRuq" />
-      <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
-        <child id="1197932505799" name="map" index="3ElQJh" />
-        <child id="1197932525128" name="key" index="3ElVtu" />
-      </concept>
     </language>
   </registry>
   <node concept="jA7cl" id="1_0AJInZoLD">
@@ -325,23 +316,17 @@
                               <node concept="3cpWsn" id="7Sc8bwtQ_oO" role="3cpWs9">
                                 <property role="TrG5h" value="producer" />
                                 <node concept="3uibUv" id="7Sc8bwtQ$Wy" role="1tU5fm">
-                                  <ref role="3uigEE" to="ih8q:2jDew64JcPx" resolve="MyIntentionMenuProducer" />
+                                  <ref role="3uigEE" to="ih8q:2jDew64JcPx" resolve="ActionIntentionMenuProducer" />
                                 </node>
-                                <node concept="0kSF2" id="7Sc8bwtQ_oP" role="33vP2m">
-                                  <node concept="3uibUv" id="7Sc8bwtQ_oQ" role="0kSFW">
-                                    <ref role="3uigEE" to="ih8q:2jDew64JcPx" resolve="MyIntentionMenuProducer" />
+                                <node concept="0kSF2" id="38Yx6hD7vAV" role="33vP2m">
+                                  <node concept="3uibUv" id="38Yx6hD7vAY" role="0kSFW">
+                                    <ref role="3uigEE" to="ih8q:2jDew64JcPx" resolve="ActionIntentionMenuProducer" />
                                   </node>
-                                  <node concept="2OqwBi" id="7Sc8bwtQ_oR" role="0kSFX">
-                                    <node concept="2OqwBi" id="7Sc8bwtQ_oS" role="2Oq$k0">
-                                      <node concept="37vLTw" id="7Sc8bwtQ_oT" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="1_0AJInZwkW" resolve="ec" />
-                                      </node>
-                                      <node concept="1PnCL0" id="7Sc8bwtQ_oU" role="2OqNvi">
-                                        <ref role="2Oxat5" to="exr9:~EditorComponent.myIntentionsSupport" resolve="myIntentionsSupport" />
-                                      </node>
-                                    </node>
-                                    <node concept="1PnCL0" id="7Sc8bwtQ_oV" role="2OqNvi">
-                                      <ref role="2Oxat5" to="exr9:~IntentionsSupport.myMenuProducer" resolve="myMenuProducer" />
+                                  <node concept="2YIFZM" id="38Yx6hD7iT$" role="0kSFX">
+                                    <ref role="37wK5l" to="ih8q:38Yx6hD6zfT" resolve="getIntentionMenuProducer" />
+                                    <ref role="1Pybhc" to="ih8q:4hHbxs9xqxD" resolve="MyIntentionsSupport" />
+                                    <node concept="37vLTw" id="38Yx6hD7jvW" role="37wK5m">
+                                      <ref role="3cqZAo" node="1_0AJInZwkW" resolve="ec" />
                                     </node>
                                   </node>
                                 </node>
@@ -355,21 +340,24 @@
                                     <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
                                   </node>
                                 </node>
-                                <node concept="3EllGN" id="7Sc8bwtQBCF" role="33vP2m">
-                                  <node concept="2OqwBi" id="1_0AJIo090w" role="3ElVtu">
-                                    <node concept="37vLTw" id="1WeG0zuAWg2" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="1WeG0zuAO7S" resolve="groupAnnotation" />
-                                    </node>
-                                    <node concept="3TrcHB" id="1_0AJIo09yW" role="2OqNvi">
-                                      <ref role="3TsBF5" to="tegv:54z9_KDO50a" resolve="label" />
-                                    </node>
-                                  </node>
-                                  <node concept="2OqwBi" id="7Sc8bwtQBCH" role="3ElQJh">
+                                <node concept="2OqwBi" id="4rzEAhzorjp" role="33vP2m">
+                                  <node concept="2OqwBi" id="7Sc8bwtQBCH" role="2Oq$k0">
                                     <node concept="37vLTw" id="7Sc8bwtQBCI" role="2Oq$k0">
                                       <ref role="3cqZAo" node="7Sc8bwtQ_oO" resolve="producer" />
                                     </node>
-                                    <node concept="SiP3y" id="7Sc8bwtQBCJ" role="2OqNvi">
-                                      <ref role="3cqZAo" to="ih8q:5Rdndlpp80A" resolve="groupedActionsCache" />
+                                    <node concept="liA8E" id="6ob0HsMLT5w" role="2OqNvi">
+                                      <ref role="37wK5l" to="ih8q:6ob0HsML7OT" resolve="getCache" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="4rzEAhzos85" role="2OqNvi">
+                                    <ref role="37wK5l" to="3o3z:~SetMultimap.get(java.lang.Object)" resolve="get" />
+                                    <node concept="2OqwBi" id="4rzEAhzovE$" role="37wK5m">
+                                      <node concept="37vLTw" id="4rzEAhzouDd" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="1WeG0zuAO7S" resolve="groupAnnotation" />
+                                      </node>
+                                      <node concept="3TrcHB" id="4rzEAhzowul" role="2OqNvi">
+                                        <ref role="3TsBF5" to="tegv:54z9_KDO50a" resolve="label" />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>

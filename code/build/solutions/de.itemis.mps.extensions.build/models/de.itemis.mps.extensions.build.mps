@@ -24095,6 +24095,21 @@
             <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="38Yx6hD5qf_" role="3bR37C">
+          <node concept="3bR9La" id="38Yx6hD5qfA" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8K" resolve="jetbrains.mps.lang.plugin" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="38Yx6hD5qfB" role="3bR37C">
+          <node concept="3bR9La" id="38Yx6hD5qfC" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L7y" resolve="jetbrains.mps.lang.intentions" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="38Yx6hD5qfD" role="3bR37C">
+          <node concept="3bR9La" id="38Yx6hD5qfE" role="1SiIV1">
+            <ref role="3bR37D" node="54z9_KDR0Ol" resolve="com.mbeddr.mpsutil.intentions" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="77YfcvOSSnB" role="3989C9">

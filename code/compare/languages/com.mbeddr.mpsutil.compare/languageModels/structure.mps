@@ -240,7 +240,7 @@
       <property role="IQ2ns" value="6473715840826349302" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="postprocess" />
-      <ref role="20lvS9" node="1GvnUgo6Kzw" resolve="QueryFunction_PostProcess" />
+      <ref role="20lvS9" node="1GvnUgo6Kzw" resolve="QueryFunction_IgnoreHiddenFiles" />
     </node>
     <node concept="PrWs8" id="t0OlD0NI07" role="PzmwI">
       <ref role="PrY4T" to="tpe3:h3_9g$o" resolve="MessageHolder" />
@@ -322,6 +322,36 @@
       <property role="IQ2ns" value="2644386474302386082" />
       <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5gDLJkKHrWc">
+    <property role="EcuMT" value="6064597129617587980" />
+    <property role="TrG5h" value="AssertGeneratedTextModelEqualsFolder" />
+    <property role="34LRSv" value="assert generated text equals folder" />
+    <ref role="1TJDcQ" node="5v943APOt_R" resolve="AssertGeneratedModelEquals" />
+    <node concept="1TJgyj" id="2cqAxliUPKG" role="1TKVEi">
+      <property role="IQ2ns" value="2529503557098101804" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoreHiddenFiles" />
+      <ref role="20lvS9" node="2cqAxliUIf_" resolve="QueryFunction_IgnoreHiddenFiles" />
+    </node>
+    <node concept="1TJgyj" id="2cqAxliUS_i" role="1TKVEi">
+      <property role="IQ2ns" value="2529503557098113362" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoreCase" />
+      <ref role="20lvS9" node="2cqAxliUS_j" resolve="QueryFunction_IgnoreCase" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2cqAxliUIf_">
+    <property role="TrG5h" value="QueryFunction_IgnoreHiddenFiles" />
+    <property role="EcuMT" value="2529503557098071013" />
+    <property role="3GE5qa" value="queryFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2cqAxliUS_j">
+    <property role="TrG5h" value="QueryFunction_IgnoreCase" />
+    <property role="EcuMT" value="2529503557098113363" />
+    <property role="3GE5qa" value="queryFunction" />
+    <ref role="1TJDcQ" node="2cqAxliUIf_" resolve="QueryFunction_IgnoreHiddenFiles" />
   </node>
 </model>
 

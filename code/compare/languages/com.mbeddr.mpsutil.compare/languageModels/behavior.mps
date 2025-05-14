@@ -53,13 +53,11 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -98,9 +96,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
-        <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
-      </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -117,9 +112,6 @@
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
-      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
-        <reference id="1116615189566" name="classifier" index="3VsUkX" />
-      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
@@ -170,38 +162,6 @@
     <node concept="13hLZK" id="6Od11GY7saB" role="13h7CW">
       <node concept="3clFbS" id="6Od11GY7saC" role="2VODD2" />
     </node>
-  </node>
-  <node concept="312cEu" id="t0OlD0QCBC">
-    <property role="TrG5h" value="RepositoryHelper" />
-    <node concept="2YIFZL" id="t0OlD0QDMt" role="jymVt">
-      <property role="TrG5h" value="getRepository" />
-      <node concept="3clFbS" id="t0OlD0QDMv" role="3clF47">
-        <node concept="3clFbF" id="t0OlD0QDMW" role="3cqZAp">
-          <node concept="2OqwBi" id="t0OlD0QDMY" role="3clFbG">
-            <node concept="2OqwBi" id="t0OlD0QDMZ" role="2Oq$k0">
-              <node concept="2YIFZM" id="t0OlD0QDN0" role="2Oq$k0">
-                <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
-              </node>
-              <node concept="liA8E" id="t0OlD0QDN1" role="2OqNvi">
-                <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
-              </node>
-            </node>
-            <node concept="liA8E" id="t0OlD0QDN2" role="2OqNvi">
-              <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
-              <node concept="3VsKOn" id="t0OlD0QDN3" role="37wK5m">
-                <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3uibUv" id="t0OlD0QDMw" role="3clF45">
-        <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
-      </node>
-      <node concept="3Tm1VV" id="t0OlD0QDMx" role="1B3o_S" />
-    </node>
-    <node concept="3Tm1VV" id="t0OlD0QCBD" role="1B3o_S" />
   </node>
   <node concept="13h7C7" id="t0OlD0UlBC">
     <ref role="13h7C2" to="8do3:t0OlD0Ulrx" resolve="IDiffable" />

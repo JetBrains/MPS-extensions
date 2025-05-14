@@ -24085,29 +24085,19 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="24lzbKW1X7S" role="3bR37C">
-          <node concept="3bR9La" id="24lzbKW1X7T" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="24lzbKW1X7U" role="3bR37C">
           <node concept="3bR9La" id="24lzbKW1X7V" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
           </node>
         </node>
-        <node concept="1SiIV0" id="38Yx6hD5qf_" role="3bR37C">
-          <node concept="3bR9La" id="38Yx6hD5qfA" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8K" resolve="jetbrains.mps.lang.plugin" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="38Yx6hD5qfB" role="3bR37C">
-          <node concept="3bR9La" id="38Yx6hD5qfC" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L7y" resolve="jetbrains.mps.lang.intentions" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="38Yx6hD5qfD" role="3bR37C">
           <node concept="3bR9La" id="38Yx6hD5qfE" role="1SiIV1">
             <ref role="3bR37D" node="54z9_KDR0Ol" resolve="com.mbeddr.mpsutil.intentions" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5gDLJkL8X6j" role="3bR37C">
+          <node concept="3bR9La" id="5gDLJkL8X6k" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>
@@ -24696,6 +24686,11 @@
             <node concept="3qWCbU" id="4zIvKyx$dr9" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5gDLJkL8X8O" role="3bR37C">
+          <node concept="3bR9La" id="5gDLJkL8X8P" role="1SiIV1">
+            <ref role="3bR37D" node="1sO539bGQvB" resolve="de.slisson.mps.richtext" />
           </node>
         </node>
       </node>

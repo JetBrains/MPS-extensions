@@ -10,6 +10,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -4480,12 +4481,21 @@
               <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
             </node>
             <node concept="2OqwBi" id="5CBfeKkID_D" role="33vP2m">
-              <node concept="2YIFZM" id="5CBfeKkICS5" role="2Oq$k0">
-                <ref role="37wK5l" to="hox0:~StyleRegistry.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="hox0:~StyleRegistry" resolve="StyleRegistry" />
-              </node>
               <node concept="liA8E" id="5CBfeKkIEHk" role="2OqNvi">
                 <ref role="37wK5l" to="hox0:~StyleRegistry.getEditorBackground()" resolve="getEditorBackground" />
+              </node>
+              <node concept="2OqwBi" id="6SqTcxhYYFX" role="2Oq$k0">
+                <node concept="2OqwBi" id="6SqTcxhYTbv" role="2Oq$k0">
+                  <node concept="37vLTw" id="6SqTcxhYRnd" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5CBfeKl7WTx" resolve="cell" />
+                  </node>
+                  <node concept="liA8E" id="6SqTcxhYX2n" role="2OqNvi">
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6SqTcxhZ2Bs" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getStyleRegistry()" resolve="getStyleRegistry" />
+                </node>
               </node>
             </node>
           </node>

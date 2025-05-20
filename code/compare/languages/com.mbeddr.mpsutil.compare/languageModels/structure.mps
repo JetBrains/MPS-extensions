@@ -337,7 +337,13 @@
     <node concept="1TJgyj" id="2cqAxliUS_i" role="1TKVEi">
       <property role="IQ2ns" value="2529503557098113362" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="ignoreCase" />
+      <property role="20kJfa" value="ignoreFileCase" />
+      <ref role="20lvS9" node="2cqAxliUS_j" resolve="QueryFunction_IgnoreCase" />
+    </node>
+    <node concept="1TJgyj" id="2qPu2xnkj2P" role="1TKVEi">
+      <property role="IQ2ns" value="2789267658884853941" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoreContentCase" />
       <ref role="20lvS9" node="2cqAxliUS_j" resolve="QueryFunction_IgnoreCase" />
     </node>
   </node>

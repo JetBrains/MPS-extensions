@@ -257,7 +257,7 @@
   </node>
   <node concept="13h7C7" id="5Bng$8dhuRh">
     <property role="3GE5qa" value="queryFunction" />
-    <ref role="13h7C2" to="8do3:1GvnUgo6Kzw" resolve="QueryFunction_IgnoreHiddenFiles" />
+    <ref role="13h7C2" to="8do3:1GvnUgo6Kzw" resolve="QueryFunction_PostProcess" />
     <node concept="13hLZK" id="5Bng$8dhuRi" role="13h7CW">
       <node concept="3clFbS" id="5Bng$8dhuRj" role="2VODD2" />
     </node>
@@ -562,7 +562,7 @@
         <node concept="3cpWs6" id="2qPu2xnFQ21" role="3cqZAp">
           <node concept="2c44tf" id="2qPu2xnFQ22" role="3cqZAk">
             <node concept="3uibUv" id="2qPu2xnFQ9B" role="2c44tc">
-              <ref role="3uigEE" to="mqum:2qPu2xnE$u6" resolve="WhiteSpaceHandling" />
+              <ref role="3uigEE" to="mqum:2qPu2xnE$u6" resolve="WhitespaceHandling" />
             </node>
           </node>
         </node>

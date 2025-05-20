@@ -552,7 +552,7 @@
               <node concept="1Z2H0r" id="t0OlD0YGFg" role="mwGJk">
                 <node concept="2OqwBi" id="t0OlD0YGFy" role="1Z2MuG">
                   <node concept="1YBJjd" id="t0OlD0YGFz" role="2Oq$k0">
-                    <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+                    <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
                   </node>
                   <node concept="3TrEf2" id="t0OlD0YGF$" role="2OqNvi">
                     <ref role="3Tt5mk" to="8do3:5v943APOt_S" resolve="ignoredProperties" />
@@ -574,7 +574,7 @@
         <node concept="2OqwBi" id="5v943APPmBu" role="3clFbw">
           <node concept="2OqwBi" id="5v943APPmBv" role="2Oq$k0">
             <node concept="1YBJjd" id="5v943APPmBw" role="2Oq$k0">
-              <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+              <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
             </node>
             <node concept="3TrEf2" id="5v943APPmBx" role="2OqNvi">
               <ref role="3Tt5mk" to="8do3:5v943APOt_S" resolve="ignoredProperties" />
@@ -592,7 +592,7 @@
               <node concept="1Z2H0r" id="t0OlD0YGSm" role="mwGJk">
                 <node concept="2OqwBi" id="t0OlD0YGSn" role="1Z2MuG">
                   <node concept="1YBJjd" id="t0OlD0YGSo" role="2Oq$k0">
-                    <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+                    <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
                   </node>
                   <node concept="3TrEf2" id="t0OlD0YGSp" role="2OqNvi">
                     <ref role="3Tt5mk" to="8do3:5v943APOt_T" resolve="ignoredReferences" />
@@ -614,7 +614,7 @@
         <node concept="2OqwBi" id="5v943APPmBK" role="3clFbw">
           <node concept="2OqwBi" id="5v943APPmBL" role="2Oq$k0">
             <node concept="1YBJjd" id="5v943APPmBM" role="2Oq$k0">
-              <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+              <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
             </node>
             <node concept="3TrEf2" id="5v943APPmBN" role="2OqNvi">
               <ref role="3Tt5mk" to="8do3:5v943APOt_T" resolve="ignoredReferences" />
@@ -632,7 +632,7 @@
               <node concept="1Z2H0r" id="5Bng$8dIiqI" role="mwGJk">
                 <node concept="2OqwBi" id="5Bng$8dIiqJ" role="1Z2MuG">
                   <node concept="1YBJjd" id="5Bng$8dIiqK" role="2Oq$k0">
-                    <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+                    <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
                   </node>
                   <node concept="3TrEf2" id="5Bng$8dIiqL" role="2OqNvi">
                     <ref role="3Tt5mk" to="8do3:5Bng$8dIe0p" resolve="generationParametersProvider" />
@@ -652,7 +652,7 @@
         <node concept="2OqwBi" id="5Bng$8dIiqP" role="3clFbw">
           <node concept="2OqwBi" id="5Bng$8dIiqQ" role="2Oq$k0">
             <node concept="1YBJjd" id="5Bng$8dIiqR" role="2Oq$k0">
-              <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+              <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
             </node>
             <node concept="3TrEf2" id="5Bng$8dIiqS" role="2OqNvi">
               <ref role="3Tt5mk" to="8do3:5Bng$8dIe0p" resolve="generationParametersProvider" />
@@ -670,7 +670,7 @@
               <node concept="1Z2H0r" id="5Bng$8dsZJX" role="mwGJk">
                 <node concept="2OqwBi" id="5Bng$8dsZJY" role="1Z2MuG">
                   <node concept="1YBJjd" id="5Bng$8dsZJZ" role="2Oq$k0">
-                    <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+                    <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
                   </node>
                   <node concept="3TrEf2" id="5Bng$8dsZK0" role="2OqNvi">
                     <ref role="3Tt5mk" to="8do3:5Bng$8dsWb9" resolve="generationOptions" />
@@ -690,7 +690,7 @@
         <node concept="2OqwBi" id="5Bng$8dsZK5" role="3clFbw">
           <node concept="2OqwBi" id="5Bng$8dsZK6" role="2Oq$k0">
             <node concept="1YBJjd" id="5Bng$8dsZK7" role="2Oq$k0">
-              <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+              <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
             </node>
             <node concept="3TrEf2" id="5Bng$8dsZK8" role="2OqNvi">
               <ref role="3Tt5mk" to="8do3:5Bng$8dsWb9" resolve="generationOptions" />
@@ -708,7 +708,7 @@
               <node concept="1Z2H0r" id="g4RruTUJ3K" role="mwGJk">
                 <node concept="2OqwBi" id="g4RruTUJ3L" role="1Z2MuG">
                   <node concept="1YBJjd" id="g4RruTUJ3M" role="2Oq$k0">
-                    <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+                    <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
                   </node>
                   <node concept="3TrEf2" id="g4RruTUJ3N" role="2OqNvi">
                     <ref role="3Tt5mk" to="8do3:g4RruTUISY" resolve="customOrdering" />
@@ -729,7 +729,7 @@
         <node concept="2OqwBi" id="g4RruTUJ3S" role="3clFbw">
           <node concept="2OqwBi" id="g4RruTUJ3T" role="2Oq$k0">
             <node concept="1YBJjd" id="g4RruTUJ3U" role="2Oq$k0">
-              <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+              <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
             </node>
             <node concept="3TrEf2" id="g4RruTUJ3V" role="2OqNvi">
               <ref role="3Tt5mk" to="8do3:g4RruTUISY" resolve="customOrdering" />
@@ -745,7 +745,7 @@
           <node concept="1Z2H0r" id="5v943APPmC1" role="mwGJk">
             <node concept="2OqwBi" id="5v943APPmC2" role="1Z2MuG">
               <node concept="1YBJjd" id="5v943APPmC3" role="2Oq$k0">
-                <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+                <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
               </node>
               <node concept="3TrEf2" id="5v943APPmC4" role="2OqNvi">
                 <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
@@ -767,7 +767,7 @@
         </node>
         <node concept="2OqwBi" id="4I2abZbVZlG" role="1ZmcU8">
           <node concept="1YBJjd" id="5v943APPmC8" role="2Oq$k0">
-            <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+            <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
           </node>
           <node concept="3TrEf2" id="4I2abZbVZY5" role="2OqNvi">
             <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
@@ -781,7 +781,7 @@
           <node concept="1Z2H0r" id="t0OlD0RjLE" role="mwGJk">
             <node concept="2OqwBi" id="t0OlD0RjLF" role="1Z2MuG">
               <node concept="1YBJjd" id="t0OlD0RjLG" role="2Oq$k0">
-                <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+                <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
               </node>
               <node concept="3TrEf2" id="t0OlD0RjLH" role="2OqNvi">
                 <ref role="3Tt5mk" to="8do3:t0OlD0RjwM" resolve="model" />
@@ -799,7 +799,7 @@
         </node>
         <node concept="2OqwBi" id="4I2abZbVZYm" role="1ZmcU8">
           <node concept="1YBJjd" id="t0OlD0RjLL" role="2Oq$k0">
-            <ref role="1YBMHb" node="5v943APPmC9" resolve="assertGeneratedNodeEquals" />
+            <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
           </node>
           <node concept="3TrEf2" id="4I2abZbW02n" role="2OqNvi">
             <ref role="3Tt5mk" to="8do3:t0OlD0RjwM" resolve="model" />
@@ -821,7 +821,7 @@
           <node concept="1Z2H0r" id="4I2abZbQRB_" role="mwGJk">
             <node concept="2OqwBi" id="4I2abZbQRBA" role="1Z2MuG">
               <node concept="1YBJjd" id="4I2abZbQRBB" role="2Oq$k0">
-                <ref role="1YBMHb" node="4I2abZbQRkh" resolve="assertGeneratedTextModelEquals" />
+                <ref role="1YBMHb" node="4I2abZbQRkh" resolve="node" />
               </node>
               <node concept="3TrEf2" id="4I2abZbQRBC" role="2OqNvi">
                 <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
@@ -830,7 +830,7 @@
           </node>
         </node>
         <node concept="1YBJjd" id="4I2abZbQRBD" role="1ZmcU8">
-          <ref role="1YBMHb" node="4I2abZbQRkh" resolve="assertGeneratedTextModelEquals" />
+          <ref role="1YBMHb" node="4I2abZbQRkh" resolve="node" />
         </node>
         <node concept="mw_s8" id="4I2abZbQRBE" role="1ZfhKB">
           <node concept="2c44tf" id="4I2abZbQRBF" role="mwGJk">
@@ -890,7 +890,7 @@
               <node concept="1Z2H0r" id="2cqAxliAgzh" role="mwGJk">
                 <node concept="2OqwBi" id="2cqAxliAgzi" role="1Z2MuG">
                   <node concept="1YBJjd" id="2cqAxliAgzj" role="2Oq$k0">
-                    <ref role="1YBMHb" node="2cqAxldl96S" resolve="assertGeneratedTextModelEqualsFolder" />
+                    <ref role="1YBMHb" node="2cqAxldl96S" resolve="node" />
                   </node>
                   <node concept="3TrEf2" id="2cqAxliAgzk" role="2OqNvi">
                     <ref role="3Tt5mk" to="8do3:5v943APOt_S" resolve="ignoredProperties" />
@@ -912,7 +912,7 @@
         <node concept="2OqwBi" id="2cqAxliAgzp" role="3clFbw">
           <node concept="2OqwBi" id="2cqAxliAgzq" role="2Oq$k0">
             <node concept="1YBJjd" id="2cqAxliAgzr" role="2Oq$k0">
-              <ref role="1YBMHb" node="2cqAxldl96S" resolve="assertGeneratedTextModelEqualsFolder" />
+              <ref role="1YBMHb" node="2cqAxldl96S" resolve="node" />
             </node>
             <node concept="3TrEf2" id="2cqAxliAgzs" role="2OqNvi">
               <ref role="3Tt5mk" to="8do3:5v943APOt_S" resolve="ignoredProperties" />
@@ -930,7 +930,7 @@
               <node concept="1Z2H0r" id="2cqAxliAgzz" role="mwGJk">
                 <node concept="2OqwBi" id="2cqAxliAgz$" role="1Z2MuG">
                   <node concept="1YBJjd" id="2cqAxliAgz_" role="2Oq$k0">
-                    <ref role="1YBMHb" node="2cqAxldl96S" resolve="assertGeneratedTextModelEqualsFolder" />
+                    <ref role="1YBMHb" node="2cqAxldl96S" resolve="node" />
                   </node>
                   <node concept="3TrEf2" id="2cqAxliAgzA" role="2OqNvi">
                     <ref role="3Tt5mk" to="8do3:5v943APOt_T" resolve="ignoredReferences" />
@@ -970,7 +970,7 @@
               <node concept="1Z2H0r" id="2cqAxliAgzP" role="mwGJk">
                 <node concept="2OqwBi" id="2cqAxliAgzQ" role="1Z2MuG">
                   <node concept="1YBJjd" id="2cqAxliAgzR" role="2Oq$k0">
-                    <ref role="1YBMHb" node="2cqAxldl96S" resolve="assertGeneratedTextModelEqualsFolder" />
+                    <ref role="1YBMHb" node="2cqAxldl96S" resolve="node" />
                   </node>
                   <node concept="3TrEf2" id="2cqAxliAgzS" role="2OqNvi">
                     <ref role="3Tt5mk" to="8do3:5Bng$8dIe0p" resolve="generationParametersProvider" />
@@ -1019,7 +1019,7 @@
             <node concept="mw_s8" id="2cqAxliAg$a" role="1ZfhKB">
               <node concept="2c44tf" id="2cqAxliAg$b" role="mwGJk">
                 <node concept="3uibUv" id="2cqAxliAg$c" role="2c44tc">
-                  <ref role="3uigEE" to="ap4t:~GenerationOptions$OptionsBuilder" resolve="OptionsBuilder" />
+                  <ref role="3uigEE" to="ap4t:~GenerationOptions$OptionsBuilder" resolve="GenerationOptions.OptionsBuilder" />
                 </node>
               </node>
             </node>

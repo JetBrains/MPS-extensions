@@ -240,7 +240,7 @@
       <property role="IQ2ns" value="6473715840826349302" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="postprocess" />
-      <ref role="20lvS9" node="1GvnUgo6Kzw" resolve="QueryFunction_IgnoreHiddenFiles" />
+      <ref role="20lvS9" node="1GvnUgo6Kzw" resolve="QueryFunction_PostProcess" />
     </node>
     <node concept="PrWs8" id="t0OlD0NI07" role="PzmwI">
       <ref role="PrY4T" to="tpe3:h3_9g$o" resolve="MessageHolder" />

@@ -28,23 +28,23 @@
     <property role="TrG5h" value="WhitespaceHandling" />
     <node concept="QsSxf" id="2qPu2xnHRVN" role="Qtgdg">
       <property role="TrG5h" value="KEEP" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="QsSxf" id="2qPu2xnE$wO" role="Qtgdg">
       <property role="TrG5h" value="TRIM_LEADING" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="QsSxf" id="2qPu2xnFKrm" role="Qtgdg">
       <property role="TrG5h" value="TRIM_TRAILING" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="QsSxf" id="2qPu2xnFKzm" role="Qtgdg">
       <property role="TrG5h" value="TRIM_BOTH" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="QsSxf" id="2qPu2xnFKGJ" role="Qtgdg">
       <property role="TrG5h" value="IGNORE_COMPLETELY" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="3Tm1VV" id="2qPu2xnE$u7" role="1B3o_S" />
   </node>

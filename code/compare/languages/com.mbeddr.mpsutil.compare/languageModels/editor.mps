@@ -2036,12 +2036,46 @@
         </node>
         <node concept="2iRfu4" id="2cqAxlj5Ghj" role="2iSdaV" />
         <node concept="3F0ifn" id="2cqAxlj5Ghk" role="3EZMnx">
-          <property role="3F0ifm" value="ignore case of generated files" />
+          <property role="3F0ifm" value="ignore case of generated file names" />
           <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
         </node>
         <node concept="3F1sOY" id="2cqAxlj5Ka6" role="3EZMnx">
           <property role="1$x2rV" value="true" />
-          <ref role="1NtTu8" to="8do3:2cqAxliUS_i" resolve="ignoreCase" />
+          <ref role="1NtTu8" to="8do3:2cqAxliUS_i" resolve="ignoreFileCase" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2qPu2xnkoFe" role="3EZMnx">
+        <node concept="VPM3Z" id="2qPu2xnkoFf" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="VPXOz" id="2qPu2xnkoFg" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="2iRfu4" id="2qPu2xnkoFh" role="2iSdaV" />
+        <node concept="3F0ifn" id="2qPu2xnkoFi" role="3EZMnx">
+          <property role="3F0ifm" value="ingore case when diffing the file contents" />
+          <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+        </node>
+        <node concept="3F1sOY" id="2qPu2xnkoFj" role="3EZMnx">
+          <property role="1$x2rV" value="false" />
+          <ref role="1NtTu8" to="8do3:2qPu2xnkj2P" resolve="ignoreContentCase" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2qPu2xnFTwl" role="3EZMnx">
+        <node concept="VPM3Z" id="2qPu2xnFTwm" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="VPXOz" id="2qPu2xnFTwn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="2iRfu4" id="2qPu2xnFTwo" role="2iSdaV" />
+        <node concept="3F0ifn" id="2qPu2xnFTwp" role="3EZMnx">
+          <property role="3F0ifm" value="whitespace handling" />
+          <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+        </node>
+        <node concept="3F1sOY" id="2qPu2xnFTwq" role="3EZMnx">
+          <property role="1$x2rV" value="false" />
+          <ref role="1NtTu8" to="8do3:2qPu2xnFQc3" resolve="whitespaceHandling" />
         </node>
       </node>
       <node concept="3EZMnI" id="2cqAxliGiCY" role="3EZMnx">

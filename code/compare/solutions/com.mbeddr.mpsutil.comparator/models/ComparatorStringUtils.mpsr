@@ -55,7 +55,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="DYlgnAAVf1">
-    <property role="TrG5h" value="StringUtils" />
+    <property role="TrG5h" value="ComparatorStringUtils" />
     <node concept="2tJIrI" id="DYlgnAAVhd" role="jymVt" />
     <node concept="2YIFZL" id="DYlgnAAVkz" role="jymVt">
       <property role="TrG5h" value="indent" />

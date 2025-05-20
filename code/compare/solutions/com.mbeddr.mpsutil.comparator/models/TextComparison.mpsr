@@ -85,7 +85,6 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
@@ -1168,11 +1167,11 @@
             <node concept="37vLTw" id="2cqAxljN0dq" role="37wK5m">
               <ref role="3cqZAo" node="2cqAxljMRp5" resolve="filterCondition" />
             </node>
-            <node concept="3clFbT" id="2cqAxlh4YuG" role="37wK5m">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="3clFbT" id="2cqAxlh50op" role="37wK5m">
-              <property role="3clFbU" value="true" />
+            <node concept="2ShNRf" id="2qPu2xo8G5l" role="37wK5m">
+              <node concept="1pGfFk" id="2qPu2xo8IlC" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" node="2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+              </node>
             </node>
           </node>
         </node>
@@ -1408,10 +1407,7 @@
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" node="2cqAxlf_EcW" resolve="PatchGenerator" />
                 <node concept="37vLTw" id="2cqAxlh4KSw" role="37wK5m">
-                  <ref role="3cqZAo" node="2cqAxlh4vqI" resolve="ignoreHiddenFiles" />
-                </node>
-                <node concept="37vLTw" id="2cqAxlh4NY3" role="37wK5m">
-                  <ref role="3cqZAo" node="2cqAxlh4J5A" resolve="ignoreCase" />
+                  <ref role="3cqZAo" node="2qPu2xo7K2E" resolve="patchGeneratorOptions" />
                 </node>
               </node>
             </node>
@@ -1489,13 +1485,11 @@
           <node concept="3Tqbb2" id="2cqAxljVdd$" role="11_B2D" />
         </node>
       </node>
-      <node concept="37vLTG" id="2cqAxlh4vqI" role="3clF46">
-        <property role="TrG5h" value="ignoreHiddenFiles" />
-        <node concept="10P_77" id="2cqAxlh4x1V" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="2cqAxlh4J5A" role="3clF46">
-        <property role="TrG5h" value="ignoreCase" />
-        <node concept="10P_77" id="2cqAxlh4J5B" role="1tU5fm" />
+      <node concept="37vLTG" id="2qPu2xo7K2E" role="3clF46">
+        <property role="TrG5h" value="patchGeneratorOptions" />
+        <node concept="3uibUv" id="2qPu2xo7MVA" role="1tU5fm">
+          <ref role="3uigEE" node="2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+        </node>
       </node>
       <node concept="3Tm1VV" id="2cqAxldnhos" role="1B3o_S" />
       <node concept="3uibUv" id="2cqAxliHudk" role="3clF45">

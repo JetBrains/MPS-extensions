@@ -2,13 +2,13 @@
 <solution name="org.apache.commons" uuid="b0f8641f-bd77-4421-8425-30d9088a82f7" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot path="${module}/lib/commons-csv.jar" />
-      <sourceRoot path="${module}/lib/commons-io.jar" />
-      <sourceRoot path="${module}/lib/commons-lang3.jar" />
-      <sourceRoot path="${module}/lib/commons-math3.jar" />
-      <sourceRoot path="${module}/lib/commons-primitives.jar" />
-      <sourceRoot path="${module}/lib/miglayout-core.jar" />
-      <sourceRoot path="${module}/lib/miglayout-swing.jar" />
+      <sourceRoot location="lib/commons-csv.jar" />
+      <sourceRoot location="lib/commons-io.jar" />
+      <sourceRoot location="lib/commons-lang3.jar" />
+      <sourceRoot location="lib/commons-math3.jar" />
+      <sourceRoot location="lib/commons-primitives.jar" />
+      <sourceRoot location="lib/miglayout-core.jar" />
+      <sourceRoot location="lib/miglayout-swing.jar" />
     </modelRoot>
   </models>
   <facets>

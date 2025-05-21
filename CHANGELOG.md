@@ -11,21 +11,26 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *com.mbeddr.mpsutil.compare* The language has a new assert statement *assert generated model* to generate models or single nodes and compare them in tests. TextGen is also supported. Referenced nodes must be instances of richtext Words when the latter option is used. More option can be set in the inspector.
 - *com.mbeddr.mpsutil.intentions* Group annotations can now be also added to action declarations and are active when the actions are added to the *ActionsAsIntentions* group.
 
+### Fixed
+
+- *de.slisson.mps.richtext* RichTextUtil.createTextFromSingleString() creates `Text` instance without unexpected prepended space.
+
 ## April 2025
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram.runtime* *de.slisson.mps.tables.runtime* *com.dslfoundry.langvis.plugin* *de.q60.mps.shadowmodels.debugview* *de.q60.mps.shadowmodels.runtime* *de.itemis.mps.spellcheck.runtime* *de.itemis.mps.statistics* : Set groups into BGT
+- *com.mbeddr.mpsutil.treenotation*: Tree cells now don't show insert/delete buttons when they are read-only.
+- *de.slisson.mps.tables*: Styles on tables, vertical, horizontal, vertical%, partial table and query should not also be applied. A known issue is that the most specified style is not always applied.
 
 ### Changed
 
 - *de.itemis.mps.editor.diagram* : The version of the ELK layouter was changed to 0.10.0
 
-### Fixed
-
-- *de.itemis.mps.editor.diagram.runtime* *de.slisson.mps.tables.runtime* *com.dslfoundry.langvis.plugin* *de.q60.mps.shadowmodels.debugview* *de.q60.mps.shadowmodels.runtime* *de.itemis.mps.spellcheck.runtime* *de.itemis.mps.statistics* : Set groups into BGT 
-- *com.mbeddr.mpsutil.treenotation*: Tree cells now don't show insert/delete buttons when they are read-only.
-- *de.slisson.mps.tables*: Styles on tables, vertical, horizontal, vertical%, partial table and query should not also be applied. A known issue is that the most specified style is not always applied.
-
 ### Added
 
 - *de.itemis.mps.editor.diagram*: Debug information can be accessed by adding  *de.itemis.mps.editor.diagram.runtime.jgraph* to Help->Diagnostic Tools->Debug Log Settings. The general log file will then contain a message that points to the log file: "A debug log for the diagram language is available at x". In the same folder are also debug files from the ELK layouter itself.
+- *de.itemis.mps.compare*: Two new concepts *assert* *float* *equals* and *assert* *float* *not* *equals* can be used to compare floating point numbers with a delta.
 
 ## March 2025
 
@@ -36,7 +41,6 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.editor.diagram*: Diagram boxes not properly support borders.
 - *com.mbeddr.mpsutil.grammarcells*: Cells with multiple transformation texts (mainly optional cells) now match the pattern independent of the order of the elements.
 - *de.slisson.mps.editor.multiline*: a StringIndexOutOfBoundsException was fixed that happened when trying to delete the last character of the multiline cell
-- *com.mbeddr.mpsutil.treenotation*: The delete button now also work for leaf cells correctly.
 
 ### Added
 

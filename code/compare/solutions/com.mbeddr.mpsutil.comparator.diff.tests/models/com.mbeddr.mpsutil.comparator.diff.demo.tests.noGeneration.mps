@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:dd3cd7fe-d2f7-44c9-939f-bbcaa9d1677e(com.mbeddr.mpsutil.comparator.diff.demo.tests.noGeneration)">
+<model ref="r:dd3cd7fe-d2f7-44c9-939f-bbcaa9d1677e(com.mbeddr.mpsutil.comparator.diff.tests.noGeneration)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="true" />
   <languages>

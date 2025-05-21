@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.mbeddr.mpsutil.comparator.diff.demo.tests" uuid="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23" moduleVersion="0">
+<solution name="com.mbeddr.mpsutil.comparator.diff.tests" uuid="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23" moduleVersion="0">
   <models>
     <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
@@ -70,7 +70,7 @@
     <module reference="7124e466-fc92-4803-a656-d7a6b7eb3910(MPS.TextGen)" version="0" />
     <module reference="c6420b75-4569-420d-aaf7-9bc590ad7b2a(com.mbeddr.mpsutil.comparator)" version="0" />
     <module reference="a83addf6-6ea9-4504-83d6-0211dab89b0f(com.mbeddr.mpsutil.comparator.diff.demo.genplan)" version="0" />
-    <module reference="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23(com.mbeddr.mpsutil.comparator.diff.demo.tests)" version="0" />
+    <module reference="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23(com.mbeddr.mpsutil.comparator.diff.tests)" version="0" />
     <module reference="f47b95d4-5e73-4c04-9204-18076950153b(com.mbeddr.mpsutil.compare)" version="0" />
     <module reference="848ef45d-e560-4e35-853c-f35a64cc135c(de.itemis.mps.editor.celllayout.runtime)" version="0" />
     <module reference="24c96a96-b7a1-4f30-82da-0f8e279a2661(de.itemis.mps.editor.celllayout.styles)" version="0" />

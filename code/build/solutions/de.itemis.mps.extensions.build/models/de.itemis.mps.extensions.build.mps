@@ -24121,7 +24121,7 @@
       <property role="TrG5h" value="compare" />
       <node concept="1E1JtA" id="2cqAxlknq_h" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="com.mbeddr.mpsutil.comparator.diff.demo.tests" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.comparator.diff.tests" />
         <property role="3LESm3" value="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="2cqAxlknq_I" role="3LF7KH">
@@ -24131,9 +24131,9 @@
             <node concept="2Ry0Ak" id="2cqAxlknqBp" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="2cqAxlknqCe" role="2Ry0An">
-                <property role="2Ry0Am" value="com.mbeddr.mpsutil.comparator.diff.demo.tests" />
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.comparator.diff.tests" />
                 <node concept="2Ry0Ak" id="2cqAxlknqD3" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.comparator.diff.demo.tests.msd" />
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.comparator.diff.tests.msd" />
                 </node>
               </node>
             </node>
@@ -24231,7 +24231,7 @@
                 <node concept="2Ry0Ak" id="2cqAxlknr3H" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="2cqAxlknr3I" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.comparator.diff.demo.tests" />
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.comparator.diff.tests" />
                     <node concept="2Ry0Ak" id="2cqAxlknr3J" role="2Ry0An">
                       <property role="2Ry0Am" value="models" />
                     </node>
@@ -24253,7 +24253,7 @@
                 <node concept="2Ry0Ak" id="2cqAxlknr9N" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="2cqAxlknr9O" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.comparator.diff.demo.tests" />
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.comparator.diff.tests" />
                   </node>
                 </node>
               </node>
@@ -25287,7 +25287,7 @@
         <ref role="L2wRA" node="77YfcvOU3BS" resolve="test.com.mbeddr.mpsutil.compare.testlang" />
       </node>
       <node concept="L2wRC" id="2cqAxlkHiqI" role="39821P">
-        <ref role="L2wRA" node="2cqAxlknq_h" resolve="com.mbeddr.mpsutil.comparator.diff.demo.tests" />
+        <ref role="L2wRA" node="2cqAxlknq_h" resolve="com.mbeddr.mpsutil.comparator.diff.tests" />
       </node>
     </node>
     <node concept="2igEWh" id="H43MYuxQDj" role="1hWBAP">
@@ -25383,7 +25383,7 @@
         <ref role="22LTRN" node="7a4Pg1WAXVT" resolve="com.mbeddr.mpsutil.compare.pattern.test" />
       </node>
       <node concept="22LTRM" id="2cqAxlkX47m" role="22LTRK">
-        <ref role="22LTRN" node="2cqAxlknq_h" resolve="com.mbeddr.mpsutil.comparator.diff.demo.tests" />
+        <ref role="22LTRN" node="2cqAxlknq_h" resolve="com.mbeddr.mpsutil.comparator.diff.tests" />
       </node>
     </node>
   </node>

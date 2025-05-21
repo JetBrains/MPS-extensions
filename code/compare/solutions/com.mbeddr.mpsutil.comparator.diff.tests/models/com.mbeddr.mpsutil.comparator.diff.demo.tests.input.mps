@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6e108bd8-b69c-4b65-8a99-34379776b4bd(com.mbeddr.mpsutil.comparator.diff.demo.tests.input)">
+<model ref="r:6e108bd8-b69c-4b65-8a99-34379776b4bd(com.mbeddr.mpsutil.comparator.diff.tests.input)">
   <persistence version="9" />
   <languages>
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />

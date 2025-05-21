@@ -5,7 +5,7 @@
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="h34v" ref="r:008c5d7f-9462-49ec-82f5-b10b03307887(test.com.mbeddr.mpsutil.compare.testlang.structure)" />
+    <import index="h34v" ref="r:008c5d7f-9462-49ec-82f5-b10b03307887(test.de.itemis.mps.compare.testlang.structure)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">

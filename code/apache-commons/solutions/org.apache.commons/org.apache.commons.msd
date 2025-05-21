@@ -10,15 +10,6 @@
       <sourceRoot path="${module}/lib/miglayout-core.jar" />
       <sourceRoot path="${module}/lib/miglayout-swing.jar" />
     </modelRoot>
-    <modelRoot contentPath="${module}/lib" type="java_classes">
-      <sourceRoot location="commons-csv.jar" />
-      <sourceRoot location="commons-io.jar" />
-      <sourceRoot location="commons-lang3.jar" />
-      <sourceRoot location="commons-math3.jar" />
-      <sourceRoot location="commons-primitives.jar" />
-      <sourceRoot location="miglayout-core.jar" />
-      <sourceRoot location="miglayout-swing.jar" />
-    </modelRoot>
   </models>
   <facets>
     <facet type="java" compile="mps" classes="mps" ext="yes">

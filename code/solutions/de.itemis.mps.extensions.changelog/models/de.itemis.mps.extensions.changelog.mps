@@ -241,7 +241,7 @@
             <node concept="37shsh" id="Ov8NH9d5KU" role="15Aodc">
               <node concept="1dCxOk" id="Ov8NH9d5KZ" role="37shsm">
                 <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
-                <property role="1XxBO9" value="com.mbeddr.mpsutil.compare" />
+                <property role="1XxBO9" value="de.itemis.mps.compare" />
               </node>
             </node>
           </node>

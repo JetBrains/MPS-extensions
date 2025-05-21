@@ -109,6 +109,9 @@
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -204,6 +207,7 @@
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -218,11 +222,13 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -3178,7 +3184,7 @@
                   <node concept="2PDubS" id="2qPu2xqTGMo" role="2OqNvi">
                     <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
                     <node concept="37vLTw" id="2qPu2xqU1hc" role="37wK5m">
-                      <ref role="3cqZAo" node="2qPu2xqU1h9" resolve="instance" />
+                      <ref role="3cqZAo" node="2qPu2xqU1h9" resolve="dummyFS" />
                     </node>
                     <node concept="37vLTw" id="2qPu2xqTGMq" role="37wK5m">
                       <ref role="3cqZAo" node="2qPu2xqTYxQ" resolve="root" />
@@ -5098,225 +5104,39 @@
   <node concept="312cEu" id="H43MYuBRF5">
     <property role="TrG5h" value="FolderDiffHelper" />
     <property role="3GE5qa" value="folderComparison" />
+    <node concept="2tJIrI" id="4JQ6_GQX_ty" role="jymVt" />
+    <node concept="Wx3nA" id="4JQ6_GQXE7S" role="jymVt">
+      <property role="TrG5h" value="BASE_PATH" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="4JQ6_GQXE7V" role="1tU5fm" />
+      <node concept="Xl_RD" id="4JQ6_GQXE7W" role="33vP2m">
+        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/directoryCompare/mockResults/" />
+      </node>
+      <node concept="3Tm6S6" id="4JQ6_GQXE7U" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="4JQ6_GQX_tz" role="jymVt" />
     <node concept="2YIFZL" id="H43MYuBS$z" role="jymVt">
       <property role="TrG5h" value="assertFoldersNotEquals" />
       <node concept="3clFbS" id="H43MYuBS$E" role="3clF47">
-        <node concept="3cpWs8" id="H43MYuBS$F" role="3cqZAp">
-          <node concept="3cpWsn" id="H43MYuBS$G" role="3cpWs9">
-            <property role="TrG5h" value="basePath" />
-            <node concept="17QB3L" id="H43MYuBS$H" role="1tU5fm" />
-            <node concept="Xl_RD" id="H43MYuBS$I" role="33vP2m">
-              <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/directoryCompare/mockResults/" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="H43MYuBS$J" role="3cqZAp">
-          <node concept="3cpWsn" id="H43MYuBS$K" role="3cpWs9">
-            <property role="TrG5h" value="firstFolderPath" />
-            <node concept="17QB3L" id="H43MYuBS$L" role="1tU5fm" />
-            <node concept="2OqwBi" id="H43MYuBS$M" role="33vP2m">
-              <node concept="2YIFZM" id="H43MYuBS$N" role="2Oq$k0">
-                <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
+        <node concept="3cpWs8" id="4JQ6_GQCJDL" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GQCJDM" role="3cpWs9">
+            <property role="TrG5h" value="result" />
+            <node concept="17QB3L" id="4JQ6_GQCJB5" role="1tU5fm" />
+            <node concept="1rXfSq" id="4JQ6_GQCJDN" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQCDVA" resolve="assertFolderEqualsInternal" />
+              <node concept="37vLTw" id="4JQ6_GQCJDO" role="37wK5m">
+                <ref role="3cqZAo" node="H43MYuBS$_" resolve="firstFolder" />
               </node>
-              <node concept="liA8E" id="H43MYuBS$O" role="2OqNvi">
-                <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
-                <node concept="3cpWs3" id="H43MYuBS$P" role="37wK5m">
-                  <node concept="37vLTw" id="H43MYuBS$Q" role="3uHU7w">
-                    <ref role="3cqZAo" node="H43MYuBS$_" resolve="firstFolder" />
-                  </node>
-                  <node concept="37vLTw" id="H43MYuBS$R" role="3uHU7B">
-                    <ref role="3cqZAo" node="H43MYuBS$G" resolve="basePath" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="H43MYuBS$S" role="3cqZAp">
-          <node concept="3cpWsn" id="H43MYuBS$T" role="3cpWs9">
-            <property role="TrG5h" value="firstFolderFile" />
-            <node concept="3uibUv" id="H43MYuBS$U" role="1tU5fm">
-              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
-            </node>
-            <node concept="2OqwBi" id="H43MYuBS$V" role="33vP2m">
-              <node concept="2YIFZM" id="H43MYuBS$W" role="2Oq$k0">
-                <ref role="37wK5l" to="jlff:~LocalFileSystem.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="jlff:~LocalFileSystem" resolve="LocalFileSystem" />
-              </node>
-              <node concept="liA8E" id="H43MYuBS$X" role="2OqNvi">
-                <ref role="37wK5l" to="jlff:~VirtualFileSystem.findFileByPath(java.lang.String)" resolve="findFileByPath" />
-                <node concept="37vLTw" id="H43MYuBS$Y" role="37wK5m">
-                  <ref role="3cqZAo" node="H43MYuBS$K" resolve="firstFolderPath" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="H43MYuBS$Z" role="3cqZAp">
-          <node concept="3cpWsn" id="H43MYuBS_0" role="3cpWs9">
-            <property role="TrG5h" value="secondFolderPath" />
-            <node concept="17QB3L" id="H43MYuBS_1" role="1tU5fm" />
-            <node concept="2OqwBi" id="H43MYuBS_2" role="33vP2m">
-              <node concept="2YIFZM" id="H43MYuBS_3" role="2Oq$k0">
-                <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
-              </node>
-              <node concept="liA8E" id="H43MYuBS_4" role="2OqNvi">
-                <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
-                <node concept="3cpWs3" id="H43MYuBS_5" role="37wK5m">
-                  <node concept="37vLTw" id="H43MYuBS_6" role="3uHU7w">
-                    <ref role="3cqZAo" node="H43MYuBS$B" resolve="secondFolder" />
-                  </node>
-                  <node concept="37vLTw" id="H43MYuBS_7" role="3uHU7B">
-                    <ref role="3cqZAo" node="H43MYuBS$G" resolve="basePath" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="H43MYuBS_8" role="3cqZAp">
-          <node concept="3cpWsn" id="H43MYuBS_9" role="3cpWs9">
-            <property role="TrG5h" value="secondFolderFile" />
-            <node concept="3uibUv" id="H43MYuBS_a" role="1tU5fm">
-              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
-            </node>
-            <node concept="2OqwBi" id="H43MYuBS_b" role="33vP2m">
-              <node concept="2YIFZM" id="H43MYuBS_c" role="2Oq$k0">
-                <ref role="37wK5l" to="jlff:~LocalFileSystem.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="jlff:~LocalFileSystem" resolve="LocalFileSystem" />
-              </node>
-              <node concept="liA8E" id="H43MYuBS_d" role="2OqNvi">
-                <ref role="37wK5l" to="jlff:~VirtualFileSystem.findFileByPath(java.lang.String)" resolve="findFileByPath" />
-                <node concept="37vLTw" id="H43MYuBS_e" role="37wK5m">
-                  <ref role="3cqZAo" node="H43MYuBS_0" resolve="secondFolderPath" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="H43MYuBS_f" role="3cqZAp">
-          <node concept="3cpWsn" id="H43MYuBS_g" role="3cpWs9">
-            <property role="TrG5h" value="writer" />
-            <node concept="3uibUv" id="H43MYuBS_h" role="1tU5fm">
-              <ref role="3uigEE" to="guwi:~StringWriter" resolve="StringWriter" />
-            </node>
-            <node concept="2ShNRf" id="H43MYuBS_i" role="33vP2m">
-              <node concept="1pGfFk" id="H43MYuBS_j" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="guwi:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="H43MYuIt3t" role="3cqZAp" />
-        <node concept="3vlDli" id="H43MYuH4q4" role="3cqZAp">
-          <node concept="3clFbT" id="H43MYuH5ts" role="3tpDZC">
-            <property role="3clFbU" value="true" />
-          </node>
-          <node concept="1Wc70l" id="H43MYuKXTP" role="3tpDZA">
-            <node concept="3y3z36" id="H43MYuL0zG" role="3uHU7B">
-              <node concept="10Nm6u" id="H43MYuL1mX" role="3uHU7w" />
-              <node concept="37vLTw" id="H43MYuKYTw" role="3uHU7B">
-                <ref role="3cqZAo" node="H43MYuBS$T" resolve="firstFolderFile" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="H43MYuHbpk" role="3uHU7w">
-              <node concept="37vLTw" id="H43MYuHayI" role="2Oq$k0">
-                <ref role="3cqZAo" node="H43MYuBS$T" resolve="firstFolderFile" />
-              </node>
-              <node concept="liA8E" id="H43MYuHcTn" role="2OqNvi">
-                <ref role="37wK5l" to="jlff:~VirtualFile.exists()" resolve="exists" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3vlDli" id="H43MYuHd_a" role="3cqZAp">
-          <node concept="3clFbT" id="H43MYuHd_b" role="3tpDZC">
-            <property role="3clFbU" value="true" />
-          </node>
-          <node concept="1Wc70l" id="H43MYuL2mO" role="3tpDZA">
-            <node concept="3y3z36" id="H43MYuL4uz" role="3uHU7B">
-              <node concept="10Nm6u" id="H43MYuL5i8" role="3uHU7w" />
-              <node concept="37vLTw" id="H43MYuL2O3" role="3uHU7B">
-                <ref role="3cqZAo" node="H43MYuBS_9" resolve="secondFolderFile" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="H43MYuHd_c" role="3uHU7w">
-              <node concept="37vLTw" id="H43MYuHd_d" role="2Oq$k0">
-                <ref role="3cqZAo" node="H43MYuBS_9" resolve="secondFolderFile" />
-              </node>
-              <node concept="liA8E" id="H43MYuHd_e" role="2OqNvi">
-                <ref role="37wK5l" to="jlff:~VirtualFile.exists()" resolve="exists" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="H43MYuBS_k" role="3cqZAp" />
-        <node concept="3J1_TO" id="H43MYuBS_l" role="3cqZAp">
-          <node concept="3uVAMA" id="H43MYuBS_m" role="1zxBo5">
-            <node concept="XOnhg" id="H43MYuBS_n" role="1zc67B">
-              <property role="TrG5h" value="e" />
-              <node concept="nSUau" id="H43MYuBS_o" role="1tU5fm">
-                <node concept="3uibUv" id="H43MYuBS_p" role="nSUat">
-                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbS" id="H43MYuBS_q" role="1zc67A">
-              <node concept="3xETmq" id="H43MYuBS_r" role="3cqZAp">
-                <node concept="3_1$Yv" id="H43MYuBS_s" role="3_9lra">
-                  <node concept="2OqwBi" id="H43MYuBS_t" role="3_1BAH">
-                    <node concept="37vLTw" id="H43MYuBS_u" role="2Oq$k0">
-                      <ref role="3cqZAo" node="H43MYuBS_n" resolve="e" />
-                    </node>
-                    <node concept="liA8E" id="H43MYuBS_v" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Throwable.toString()" resolve="toString" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="H43MYuBS_w" role="1zxBo7">
-            <node concept="3clFbF" id="H43MYuBS_x" role="3cqZAp">
-              <node concept="2OqwBi" id="H43MYuBS_y" role="3clFbG">
-                <node concept="2ShNRf" id="H43MYuBS_z" role="2Oq$k0">
-                  <node concept="1pGfFk" id="H43MYuBS_$" role="2ShVmc">
-                    <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
-                    <node concept="2YIFZM" id="H43MYuBS__" role="37wK5m">
-                      <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="liA8E" id="H43MYuBS_A" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2cqAxlf_Edg" resolve="generateDiff" />
-                  <node concept="37vLTw" id="H43MYuBS_B" role="37wK5m">
-                    <ref role="3cqZAo" node="H43MYuBS$T" resolve="firstFolderFile" />
-                  </node>
-                  <node concept="37vLTw" id="H43MYuBS_C" role="37wK5m">
-                    <ref role="3cqZAo" node="H43MYuBS_9" resolve="secondFolderFile" />
-                  </node>
-                  <node concept="37vLTw" id="H43MYuBS_D" role="37wK5m">
-                    <ref role="3cqZAo" node="H43MYuBS_g" resolve="writer" />
-                  </node>
-                </node>
+              <node concept="37vLTw" id="4JQ6_GQCJDP" role="37wK5m">
+                <ref role="3cqZAo" node="H43MYuBS$B" resolve="secondFolder" />
               </node>
             </node>
           </node>
         </node>
         <node concept="3vwNmj" id="H43MYuBS_F" role="3cqZAp">
           <node concept="2OqwBi" id="H43MYuBS_G" role="3vwVQn">
-            <node concept="2OqwBi" id="H43MYuBS_H" role="2Oq$k0">
-              <node concept="37vLTw" id="H43MYuBS_I" role="2Oq$k0">
-                <ref role="3cqZAo" node="H43MYuBS_g" resolve="writer" />
-              </node>
-              <node concept="liA8E" id="H43MYuBS_J" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~StringWriter.toString()" resolve="toString" />
-              </node>
+            <node concept="37vLTw" id="4JQ6_GQCJUu" role="2Oq$k0">
+              <ref role="3cqZAo" node="4JQ6_GQCJDM" resolve="result" />
             </node>
             <node concept="17RvpY" id="H43MYuBS_K" role="2OqNvi" />
           </node>
@@ -5340,12 +5160,371 @@
       <node concept="3Tm1VV" id="H43MYuBS_L" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="H43MYuBRPk" role="jymVt" />
+    <node concept="2YIFZL" id="4JQ6_GQC_E9" role="jymVt">
+      <property role="TrG5h" value="assertFoldersEquals" />
+      <node concept="3clFbS" id="4JQ6_GQC_Ea" role="3clF47">
+        <node concept="3cpWs8" id="4JQ6_GQCK1E" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GQCK1F" role="3cpWs9">
+            <property role="TrG5h" value="result" />
+            <node concept="17QB3L" id="4JQ6_GQCK1G" role="1tU5fm" />
+            <node concept="1rXfSq" id="4JQ6_GQCK1H" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQCDVA" resolve="assertFolderEqualsInternal" />
+              <node concept="37vLTw" id="4JQ6_GQCK1I" role="37wK5m">
+                <ref role="3cqZAo" node="4JQ6_GQC_F$" resolve="firstFolder" />
+              </node>
+              <node concept="37vLTw" id="4JQ6_GQCK1J" role="37wK5m">
+                <ref role="3cqZAo" node="4JQ6_GQC_FB" resolve="secondFolder" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="4JQ6_GQCK1K" role="3cqZAp">
+          <node concept="2OqwBi" id="4JQ6_GQCK1L" role="3vwVQn">
+            <node concept="37vLTw" id="4JQ6_GQCK1M" role="2Oq$k0">
+              <ref role="3cqZAo" node="4JQ6_GQCK1F" resolve="result" />
+            </node>
+            <node concept="17RlXB" id="4JQ6_GQCLhh" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4JQ6_GQC_Fz" role="3clF45" />
+      <node concept="37vLTG" id="4JQ6_GQC_F$" role="3clF46">
+        <property role="TrG5h" value="firstFolder" />
+        <node concept="17QB3L" id="4JQ6_GQC_F_" role="1tU5fm" />
+        <node concept="2AHcQZ" id="4JQ6_GQC_FA" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4JQ6_GQC_FB" role="3clF46">
+        <property role="TrG5h" value="secondFolder" />
+        <node concept="17QB3L" id="4JQ6_GQC_FC" role="1tU5fm" />
+        <node concept="2AHcQZ" id="4JQ6_GQC_FD" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4JQ6_GQC_FE" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="4JQ6_GQXzin" role="jymVt" />
+    <node concept="2YIFZL" id="4JQ6_GQX_c7" role="jymVt">
+      <property role="TrG5h" value="loadOrCreatePath" />
+      <node concept="3clFbS" id="4JQ6_GQX_ca" role="3clF47">
+        <node concept="3cpWs8" id="4JQ6_GQXCob" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GQXCoc" role="3cpWs9">
+            <property role="TrG5h" value="folderPath" />
+            <node concept="17QB3L" id="4JQ6_GQXCod" role="1tU5fm" />
+            <node concept="2OqwBi" id="4JQ6_GQXCoe" role="33vP2m">
+              <node concept="2YIFZM" id="4JQ6_GQXCof" role="2Oq$k0">
+                <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
+              </node>
+              <node concept="liA8E" id="4JQ6_GQXCog" role="2OqNvi">
+                <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
+                <node concept="3cpWs3" id="4JQ6_GQXCoh" role="37wK5m">
+                  <node concept="37vLTw" id="4JQ6_GQXCoi" role="3uHU7w">
+                    <ref role="3cqZAo" node="4JQ6_GQXD4R" resolve="relativePath" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GQXCoj" role="3uHU7B">
+                    <ref role="3cqZAo" node="4JQ6_GQXE7S" resolve="BASE_PATH" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4JQ6_GQXCok" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GQXCol" role="3cpWs9">
+            <property role="TrG5h" value="folderFile" />
+            <node concept="3uibUv" id="4JQ6_GQXCom" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="2OqwBi" id="4JQ6_GQXCon" role="33vP2m">
+              <node concept="2YIFZM" id="4JQ6_GQXCoo" role="2Oq$k0">
+                <ref role="37wK5l" to="jlff:~LocalFileSystem.getInstance()" resolve="getInstance" />
+                <ref role="1Pybhc" to="jlff:~LocalFileSystem" resolve="LocalFileSystem" />
+              </node>
+              <node concept="liA8E" id="4JQ6_GQXCop" role="2OqNvi">
+                <ref role="37wK5l" to="jlff:~VirtualFileSystem.findFileByPath(java.lang.String)" resolve="findFileByPath" />
+                <node concept="37vLTw" id="4JQ6_GQXCoq" role="37wK5m">
+                  <ref role="3cqZAo" node="4JQ6_GQXCoc" resolve="folderPath" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4JQ6_GQXCor" role="3cqZAp">
+          <node concept="3clFbS" id="4JQ6_GQXCos" role="3clFbx">
+            <node concept="3cpWs8" id="4JQ6_GQXCot" role="3cqZAp">
+              <node concept="3cpWsn" id="4JQ6_GQXCou" role="3cpWs9">
+                <property role="TrG5h" value="fs" />
+                <node concept="3uibUv" id="4JQ6_GQXCov" role="1tU5fm">
+                  <ref role="3uigEE" to="4jk:~DummyFileSystem" resolve="DummyFileSystem" />
+                </node>
+                <node concept="2YIFZM" id="4JQ6_GQXCow" role="33vP2m">
+                  <ref role="37wK5l" to="4jk:~DummyFileSystem.getInstance()" resolve="getInstance" />
+                  <ref role="1Pybhc" to="4jk:~DummyFileSystem" resolve="DummyFileSystem" />
+                </node>
+              </node>
+            </node>
+            <node concept="3J1_TO" id="4JQ6_GQXCox" role="3cqZAp">
+              <node concept="3clFbS" id="4JQ6_GQXCoy" role="1zxBo7">
+                <node concept="3cpWs6" id="4JQ6_GQXHRF" role="3cqZAp">
+                  <node concept="2OqwBi" id="4JQ6_GQXCo_" role="3cqZAk">
+                    <node concept="2ShNRf" id="4JQ6_GQXFuM" role="2Oq$k0">
+                      <node concept="HV5vD" id="4JQ6_GQXG$k" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4JQ6_GQXCoB" role="2OqNvi">
+                      <ref role="37wK5l" to="mqum:4JQ6_GQQ7AX" resolve="createDirectories" />
+                      <node concept="2OqwBi" id="4JQ6_GQXCoC" role="37wK5m">
+                        <node concept="37vLTw" id="4JQ6_GQXCoD" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4JQ6_GQXCou" resolve="fs" />
+                        </node>
+                        <node concept="liA8E" id="4JQ6_GQXCoE" role="2OqNvi">
+                          <ref role="37wK5l" to="4jk:~DummyFileSystem.createRoot(java.lang.String)" resolve="createRoot" />
+                          <node concept="Xl_RD" id="4JQ6_GQXCoF" role="37wK5m">
+                            <property role="Xl_RC" value="" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="4JQ6_GQXCoG" role="37wK5m">
+                        <ref role="3cqZAo" node="4JQ6_GQXCoc" resolve="folderPath" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3uVAMA" id="4JQ6_GQXCoI" role="1zxBo5">
+                <node concept="3clFbS" id="4JQ6_GQXCoJ" role="1zc67A">
+                  <node concept="YS8fn" id="4JQ6_GQXCoK" role="3cqZAp">
+                    <node concept="2ShNRf" id="4JQ6_GQXCoL" role="YScLw">
+                      <node concept="1pGfFk" id="4JQ6_GQXCoM" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                        <node concept="37vLTw" id="4JQ6_GQXCoN" role="37wK5m">
+                          <ref role="3cqZAo" node="4JQ6_GQXCoO" resolve="e" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="XOnhg" id="4JQ6_GQXCoO" role="1zc67B">
+                  <property role="TrG5h" value="e" />
+                  <node concept="nSUau" id="4JQ6_GQXCoP" role="1tU5fm">
+                    <node concept="3uibUv" id="4JQ6_GQXCoQ" role="nSUat">
+                      <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="4JQ6_GQXCoR" role="3clFbw">
+            <node concept="10Nm6u" id="4JQ6_GQXCoS" role="3uHU7w" />
+            <node concept="37vLTw" id="4JQ6_GQXCoT" role="3uHU7B">
+              <ref role="3cqZAo" node="4JQ6_GQXCol" resolve="folderFile" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="4JQ6_GQXLtl" role="9aQIa">
+            <node concept="3clFbS" id="4JQ6_GQXLtm" role="9aQI4">
+              <node concept="3cpWs6" id="4JQ6_GQXLYN" role="3cqZAp">
+                <node concept="37vLTw" id="4JQ6_GQXM8f" role="3cqZAk">
+                  <ref role="3cqZAo" node="4JQ6_GQXCol" resolve="folderFile" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4JQ6_GQXSjl" role="1B3o_S" />
+      <node concept="37vLTG" id="4JQ6_GQXD4R" role="3clF46">
+        <property role="TrG5h" value="relativePath" />
+        <node concept="17QB3L" id="4JQ6_GQXD4Q" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="4JQ6_GQXJRu" role="3clF45">
+        <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4JQ6_GQC_wT" role="jymVt" />
+    <node concept="2YIFZL" id="4JQ6_GQCDVA" role="jymVt">
+      <property role="TrG5h" value="assertFolderEqualsInternal" />
+      <node concept="37vLTG" id="4JQ6_GQCEeF" role="3clF46">
+        <property role="TrG5h" value="firstFolder" />
+        <node concept="17QB3L" id="4JQ6_GQCEeG" role="1tU5fm" />
+        <node concept="2AHcQZ" id="4JQ6_GQCEeH" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4JQ6_GQCEkQ" role="3clF46">
+        <property role="TrG5h" value="secondFolder" />
+        <node concept="17QB3L" id="4JQ6_GQCEkR" role="1tU5fm" />
+        <node concept="2AHcQZ" id="4JQ6_GQCEkS" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4JQ6_GQCDVD" role="3clF47">
+        <node concept="3cpWs8" id="4JQ6_GQCErb" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GQCErc" role="3cpWs9">
+            <property role="TrG5h" value="firstFolderFile" />
+            <node concept="3uibUv" id="4JQ6_GQCErd" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="1rXfSq" id="4JQ6_GQXNDt" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <node concept="37vLTw" id="4JQ6_GQXO6l" role="37wK5m">
+                <ref role="3cqZAo" node="4JQ6_GQCEeF" resolve="firstFolder" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4JQ6_GQCErr" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GQCErs" role="3cpWs9">
+            <property role="TrG5h" value="secondFolderFile" />
+            <node concept="3uibUv" id="4JQ6_GQCErt" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="1rXfSq" id="4JQ6_GQXQ0S" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <node concept="37vLTw" id="4JQ6_GQXQic" role="37wK5m">
+                <ref role="3cqZAo" node="4JQ6_GQCEkQ" resolve="secondFolder" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4JQ6_GQTl3W" role="3cqZAp" />
+        <node concept="3cpWs8" id="4JQ6_GQCEry" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GQCErz" role="3cpWs9">
+            <property role="TrG5h" value="writer" />
+            <node concept="3uibUv" id="4JQ6_GQCEr$" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~StringWriter" resolve="StringWriter" />
+            </node>
+            <node concept="2ShNRf" id="4JQ6_GQCEr_" role="33vP2m">
+              <node concept="1pGfFk" id="4JQ6_GQCErA" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="guwi:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4JQ6_GQCErB" role="3cqZAp" />
+        <node concept="3vlDli" id="4JQ6_GQCErC" role="3cqZAp">
+          <node concept="3clFbT" id="4JQ6_GQCErD" role="3tpDZC">
+            <property role="3clFbU" value="true" />
+          </node>
+          <node concept="1Wc70l" id="4JQ6_GQCErE" role="3tpDZA">
+            <node concept="3y3z36" id="4JQ6_GQCErF" role="3uHU7B">
+              <node concept="10Nm6u" id="4JQ6_GQCErG" role="3uHU7w" />
+              <node concept="37vLTw" id="4JQ6_GQCErH" role="3uHU7B">
+                <ref role="3cqZAo" node="4JQ6_GQCErc" resolve="firstFolderFile" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4JQ6_GQCErI" role="3uHU7w">
+              <node concept="37vLTw" id="4JQ6_GQCErJ" role="2Oq$k0">
+                <ref role="3cqZAo" node="4JQ6_GQCErc" resolve="firstFolderFile" />
+              </node>
+              <node concept="liA8E" id="4JQ6_GQCErK" role="2OqNvi">
+                <ref role="37wK5l" to="jlff:~VirtualFile.exists()" resolve="exists" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="4JQ6_GQCErL" role="3cqZAp">
+          <node concept="3clFbT" id="4JQ6_GQCErM" role="3tpDZC">
+            <property role="3clFbU" value="true" />
+          </node>
+          <node concept="1Wc70l" id="4JQ6_GQCErN" role="3tpDZA">
+            <node concept="3y3z36" id="4JQ6_GQCErO" role="3uHU7B">
+              <node concept="10Nm6u" id="4JQ6_GQCErP" role="3uHU7w" />
+              <node concept="37vLTw" id="4JQ6_GQCErQ" role="3uHU7B">
+                <ref role="3cqZAo" node="4JQ6_GQCErs" resolve="secondFolderFile" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4JQ6_GQCErR" role="3uHU7w">
+              <node concept="37vLTw" id="4JQ6_GQCErS" role="2Oq$k0">
+                <ref role="3cqZAo" node="4JQ6_GQCErs" resolve="secondFolderFile" />
+              </node>
+              <node concept="liA8E" id="4JQ6_GQCErT" role="2OqNvi">
+                <ref role="37wK5l" to="jlff:~VirtualFile.exists()" resolve="exists" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4JQ6_GQCErU" role="3cqZAp" />
+        <node concept="3J1_TO" id="4JQ6_GQCErV" role="3cqZAp">
+          <node concept="3uVAMA" id="4JQ6_GQCErW" role="1zxBo5">
+            <node concept="XOnhg" id="4JQ6_GQCErX" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="4JQ6_GQCErY" role="1tU5fm">
+                <node concept="3uibUv" id="4JQ6_GQCErZ" role="nSUat">
+                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="4JQ6_GQCEs0" role="1zc67A">
+              <node concept="3xETmq" id="4JQ6_GQCEs1" role="3cqZAp">
+                <node concept="3_1$Yv" id="4JQ6_GQCEs2" role="3_9lra">
+                  <node concept="2OqwBi" id="4JQ6_GQCEs3" role="3_1BAH">
+                    <node concept="37vLTw" id="4JQ6_GQCEs4" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4JQ6_GQCErX" resolve="e" />
+                    </node>
+                    <node concept="liA8E" id="4JQ6_GQCEs5" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Throwable.toString()" resolve="toString" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="4JQ6_GQCEs6" role="1zxBo7">
+            <node concept="3clFbF" id="4JQ6_GQCEs7" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GQCEs8" role="3clFbG">
+                <node concept="2ShNRf" id="4JQ6_GQCEs9" role="2Oq$k0">
+                  <node concept="1pGfFk" id="4JQ6_GQCEsa" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
+                    <node concept="2YIFZM" id="4JQ6_GQCEsb" role="37wK5m">
+                      <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="4JQ6_GQCEsc" role="2OqNvi">
+                  <ref role="37wK5l" to="mqum:2cqAxlf_Edg" resolve="generateDiff" />
+                  <node concept="37vLTw" id="4JQ6_GQCEsd" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GQCErc" resolve="firstFolderFile" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GQCEse" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GQCErs" resolve="secondFolderFile" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GQCEsf" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GQCErz" resolve="writer" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4JQ6_GQCFPZ" role="3cqZAp">
+          <node concept="2OqwBi" id="4JQ6_GQCHbi" role="3cqZAk">
+            <node concept="37vLTw" id="4JQ6_GQCGgO" role="2Oq$k0">
+              <ref role="3cqZAo" node="4JQ6_GQCErz" resolve="writer" />
+            </node>
+            <node concept="liA8E" id="4JQ6_GQCI9u" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~StringWriter.toString()" resolve="toString" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="4JQ6_GQCBhA" role="1B3o_S" />
+      <node concept="17QB3L" id="4JQ6_GQCDTv" role="3clF45" />
+    </node>
     <node concept="3Tm1VV" id="H43MYuBRF6" role="1B3o_S" />
   </node>
   <node concept="1lH9Xt" id="H43MYuBST1">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <property role="TrG5h" value="ActualMultipleFilesTest" />
-    <property role="3GE5qa" value="folderComparison" />
+    <property role="TrG5h" value="ActualMultipleFiles" />
+    <property role="3GE5qa" value="folderComparison.actual" />
     <node concept="1LZb2c" id="H43MYuBWM8" role="1SL9yI">
       <property role="TrG5h" value="oneLess" />
       <node concept="3cqZAl" id="H43MYuBWM9" role="3clF45" />
@@ -5475,8 +5654,8 @@
   </node>
   <node concept="1lH9Xt" id="H43MYuNyZz">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <property role="3GE5qa" value="folderComparison" />
-    <property role="TrG5h" value="ActualNameTests" />
+    <property role="3GE5qa" value="folderComparison.actual" />
+    <property role="TrG5h" value="ActualName" />
     <node concept="1LZb2c" id="H43MYuNyZ$" role="1SL9yI">
       <property role="TrG5h" value="fileNameMismatch" />
       <node concept="3cqZAl" id="H43MYuNyZ_" role="3clF45" />
@@ -5534,8 +5713,8 @@
   </node>
   <node concept="1lH9Xt" id="H43MYuOKlk">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <property role="3GE5qa" value="folderComparison" />
-    <property role="TrG5h" value="ActualStructureTests" />
+    <property role="3GE5qa" value="folderComparison.actual" />
+    <property role="TrG5h" value="ActualStructure" />
     <node concept="1LZb2c" id="H43MYuOY_F" role="1SL9yI">
       <property role="TrG5h" value="fileMissing" />
       <node concept="3cqZAl" id="H43MYuOY_G" role="3clF45" />
@@ -5567,6 +5746,288 @@
             </node>
             <node concept="Xl_RD" id="H43MYuSJv_" role="37wK5m">
               <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GRfAjR" role="1SL9yI">
+      <property role="TrG5h" value="dirMissing" />
+      <node concept="3cqZAl" id="4JQ6_GRfAjS" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GRfAjW" role="3clF47">
+        <node concept="3cpWs8" id="4JQ6_GRfAUV" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GRfAUW" role="3cpWs9">
+            <property role="TrG5h" value="expectedPath" />
+            <node concept="3uibUv" id="4JQ6_GRfAUX" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="2YIFZM" id="4JQ6_GRfAUY" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+              <node concept="Xl_RD" id="4JQ6_GRfAUZ" role="37wK5m">
+                <property role="Xl_RC" value="empty" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4JQ6_GRfAV0" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GRfAV1" role="3cpWs9">
+            <property role="TrG5h" value="actualPath" />
+            <node concept="3uibUv" id="4JQ6_GRfAV2" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="2YIFZM" id="4JQ6_GRfAV3" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+              <node concept="Xl_RD" id="4JQ6_GRfAV4" role="37wK5m">
+                <property role="Xl_RC" value="emptyResults/emptyDir" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4JQ6_GRfAV5" role="3cqZAp" />
+        <node concept="3J1_TO" id="4JQ6_GRfAV6" role="3cqZAp">
+          <node concept="3clFbS" id="4JQ6_GRfAV7" role="1zxBo7">
+            <node concept="3clFbF" id="4JQ6_GRfAV8" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GRfAV9" role="3clFbG">
+                <node concept="37vLTw" id="4JQ6_GRfAVa" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4JQ6_GRfAV1" resolve="actualPath" />
+                </node>
+                <node concept="liA8E" id="4JQ6_GRfAVb" role="2OqNvi">
+                  <ref role="37wK5l" to="jlff:~VirtualFile.createChildDirectory(java.lang.Object,java.lang.String)" resolve="createChildDirectory" />
+                  <node concept="10Nm6u" id="4JQ6_GRfAVc" role="37wK5m" />
+                  <node concept="Xl_RD" id="4JQ6_GRfAVd" role="37wK5m">
+                    <property role="Xl_RC" value="sub" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="4JQ6_GRfAVe" role="3cqZAp">
+              <node concept="3cpWsn" id="4JQ6_GRfAVf" role="3cpWs9">
+                <property role="TrG5h" value="writer" />
+                <node concept="3uibUv" id="4JQ6_GRfAVg" role="1tU5fm">
+                  <ref role="3uigEE" to="guwi:~StringWriter" resolve="StringWriter" />
+                </node>
+                <node concept="2ShNRf" id="4JQ6_GRfAVh" role="33vP2m">
+                  <node concept="1pGfFk" id="4JQ6_GRfAVi" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="guwi:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4JQ6_GRfAVj" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GRfAVk" role="3clFbG">
+                <node concept="2ShNRf" id="4JQ6_GRfAVl" role="2Oq$k0">
+                  <node concept="1pGfFk" id="4JQ6_GRfAVm" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
+                    <node concept="2YIFZM" id="4JQ6_GRfAVn" role="37wK5m">
+                      <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="4JQ6_GRfAVo" role="2OqNvi">
+                  <ref role="37wK5l" to="mqum:2cqAxlf_Edg" resolve="generateDiff" />
+                  <node concept="37vLTw" id="4JQ6_GRfAVp" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GRfAUW" resolve="expectedPath" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GRfAVq" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GRfAV1" resolve="actualPath" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GRfAVr" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GRfAVf" resolve="writer" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3vlDli" id="4JQ6_GRfAVs" role="3cqZAp">
+              <node concept="3clFbT" id="4JQ6_GRfAVt" role="3tpDZC">
+                <property role="3clFbU" value="true" />
+              </node>
+              <node concept="2OqwBi" id="4JQ6_GRfAVu" role="3tpDZA">
+                <node concept="2OqwBi" id="4JQ6_GRfAVv" role="2Oq$k0">
+                  <node concept="37vLTw" id="4JQ6_GRfAVw" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4JQ6_GRfAVf" resolve="writer" />
+                  </node>
+                  <node concept="liA8E" id="4JQ6_GRfAVx" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~StringWriter.toString()" resolve="toString" />
+                  </node>
+                </node>
+                <node concept="17RvpY" id="4JQ6_GRfAVy" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="4JQ6_GRfAVz" role="1zxBo5">
+            <node concept="3clFbS" id="4JQ6_GRfAV$" role="1zc67A">
+              <node concept="YS8fn" id="4JQ6_GRfAV_" role="3cqZAp">
+                <node concept="2ShNRf" id="4JQ6_GRfAVA" role="YScLw">
+                  <node concept="1pGfFk" id="4JQ6_GRfAVB" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="4JQ6_GRfAVC" role="37wK5m">
+                      <ref role="3cqZAo" node="4JQ6_GRfAVD" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="XOnhg" id="4JQ6_GRfAVD" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="4JQ6_GRfAVE" role="1tU5fm">
+                <node concept="3uibUv" id="4JQ6_GRfAVF" role="nSUat">
+                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GRfAl4" role="1SL9yI">
+      <property role="TrG5h" value="dirsMissing" />
+      <node concept="3cqZAl" id="4JQ6_GRfAl5" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GRfAl6" role="3clF47">
+        <node concept="3cpWs8" id="4JQ6_GRfBye" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GRfByf" role="3cpWs9">
+            <property role="TrG5h" value="expectedPath" />
+            <node concept="3uibUv" id="4JQ6_GRfByg" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="2YIFZM" id="4JQ6_GRfByh" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+              <node concept="Xl_RD" id="4JQ6_GRfByi" role="37wK5m">
+                <property role="Xl_RC" value="empty" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4JQ6_GRfByj" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GRfByk" role="3cpWs9">
+            <property role="TrG5h" value="actualPath" />
+            <node concept="3uibUv" id="4JQ6_GRfByl" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="2YIFZM" id="4JQ6_GRfBym" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+              <node concept="Xl_RD" id="4JQ6_GRfByn" role="37wK5m">
+                <property role="Xl_RC" value="emptyResults/emptyDirs" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4JQ6_GRfByo" role="3cqZAp" />
+        <node concept="3J1_TO" id="4JQ6_GRfByp" role="3cqZAp">
+          <node concept="3clFbS" id="4JQ6_GRfByq" role="1zxBo7">
+            <node concept="3clFbF" id="4JQ6_GRfByr" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GRfBys" role="3clFbG">
+                <node concept="37vLTw" id="4JQ6_GRfByt" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4JQ6_GRfByk" resolve="actualPath" />
+                </node>
+                <node concept="liA8E" id="4JQ6_GRfByu" role="2OqNvi">
+                  <ref role="37wK5l" to="jlff:~VirtualFile.createChildDirectory(java.lang.Object,java.lang.String)" resolve="createChildDirectory" />
+                  <node concept="10Nm6u" id="4JQ6_GRfByv" role="37wK5m" />
+                  <node concept="Xl_RD" id="4JQ6_GRfByw" role="37wK5m">
+                    <property role="Xl_RC" value="dir1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4JQ6_GRfByx" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GRfByy" role="3clFbG">
+                <node concept="37vLTw" id="4JQ6_GRfByz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4JQ6_GRfByk" resolve="actualPath" />
+                </node>
+                <node concept="liA8E" id="4JQ6_GRfBy$" role="2OqNvi">
+                  <ref role="37wK5l" to="jlff:~VirtualFile.createChildDirectory(java.lang.Object,java.lang.String)" resolve="createChildDirectory" />
+                  <node concept="10Nm6u" id="4JQ6_GRfBy_" role="37wK5m" />
+                  <node concept="Xl_RD" id="4JQ6_GRfByA" role="37wK5m">
+                    <property role="Xl_RC" value="dir2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="4JQ6_GRfByB" role="3cqZAp">
+              <node concept="3cpWsn" id="4JQ6_GRfByC" role="3cpWs9">
+                <property role="TrG5h" value="writer" />
+                <node concept="3uibUv" id="4JQ6_GRfByD" role="1tU5fm">
+                  <ref role="3uigEE" to="guwi:~StringWriter" resolve="StringWriter" />
+                </node>
+                <node concept="2ShNRf" id="4JQ6_GRfByE" role="33vP2m">
+                  <node concept="1pGfFk" id="4JQ6_GRfByF" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="guwi:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4JQ6_GRfByG" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GRfByH" role="3clFbG">
+                <node concept="2ShNRf" id="4JQ6_GRfByI" role="2Oq$k0">
+                  <node concept="1pGfFk" id="4JQ6_GRfByJ" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
+                    <node concept="2YIFZM" id="4JQ6_GRfByK" role="37wK5m">
+                      <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="4JQ6_GRfByL" role="2OqNvi">
+                  <ref role="37wK5l" to="mqum:2cqAxlf_Edg" resolve="generateDiff" />
+                  <node concept="37vLTw" id="4JQ6_GRfByM" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GRfByf" resolve="expectedPath" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GRfByN" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GRfByk" resolve="actualPath" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GRfByO" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GRfByC" resolve="writer" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3vlDli" id="4JQ6_GRfByP" role="3cqZAp">
+              <node concept="3clFbT" id="4JQ6_GRfByQ" role="3tpDZC">
+                <property role="3clFbU" value="true" />
+              </node>
+              <node concept="2OqwBi" id="4JQ6_GRfByR" role="3tpDZA">
+                <node concept="2OqwBi" id="4JQ6_GRfByS" role="2Oq$k0">
+                  <node concept="37vLTw" id="4JQ6_GRfByT" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4JQ6_GRfByC" resolve="writer" />
+                  </node>
+                  <node concept="liA8E" id="4JQ6_GRfByU" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~StringWriter.toString()" resolve="toString" />
+                  </node>
+                </node>
+                <node concept="17RvpY" id="4JQ6_GRfByV" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="4JQ6_GRfByW" role="1zxBo5">
+            <node concept="3clFbS" id="4JQ6_GRfByX" role="1zc67A">
+              <node concept="YS8fn" id="4JQ6_GRfByY" role="3cqZAp">
+                <node concept="2ShNRf" id="4JQ6_GRfByZ" role="YScLw">
+                  <node concept="1pGfFk" id="4JQ6_GRfBz0" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="4JQ6_GRfBz1" role="37wK5m">
+                      <ref role="3cqZAo" node="4JQ6_GRfBz2" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="XOnhg" id="4JQ6_GRfBz2" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="4JQ6_GRfBz3" role="1tU5fm">
+                <node concept="3uibUv" id="4JQ6_GRfBz4" role="nSUat">
+                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -6992,7 +7453,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xofQEZ" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -7234,7 +7695,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xpfDQJ" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -7512,7 +7973,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xofRH1" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -7751,7 +8212,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xoSArG" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -7990,7 +8451,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xoWBJD" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -8270,7 +8731,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xofUtL" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -8505,12 +8966,12 @@
               <node concept="3cpWsn" id="2qPu2xofVB$" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xofVB_" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xofWh5" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xofWUa" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -8800,12 +9261,12 @@
               <node concept="3cpWsn" id="2qPu2xogb9G" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xogb9H" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xogb9I" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xogb9J" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -9093,12 +9554,12 @@
               <node concept="3cpWsn" id="2qPu2xogedW" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xogedX" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xogedY" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xogedZ" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -9388,12 +9849,12 @@
               <node concept="3cpWsn" id="2qPu2xogigb" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xogigc" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xogigd" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xogige" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -9704,12 +10165,12 @@
               <node concept="3cpWsn" id="2qPu2xogl0U" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xogl0V" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xogl0W" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xogl0X" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -10019,12 +10480,12 @@
               <node concept="3cpWsn" id="2qPu2xogo_0" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xogo_1" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xogo_2" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xogo_3" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -10334,12 +10795,12 @@
               <node concept="3cpWsn" id="2qPu2xogwzN" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xogwzO" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xogwzP" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xogwzQ" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -10608,7 +11069,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xogCNT" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -10847,7 +11308,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xogFZi" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -11370,7 +11831,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xogI65" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -11605,12 +12066,12 @@
               <node concept="3cpWsn" id="2qPu2xok$hT" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xok$hU" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xok$hV" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xok$hW" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -11874,12 +12335,12 @@
               <node concept="3cpWsn" id="2qPu2xonlIl" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xonlIm" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xonlIn" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xonlIo" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -12143,12 +12604,12 @@
               <node concept="3cpWsn" id="2qPu2xoxIEq" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xoxIEr" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xoxIEs" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xoxIEt" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -12412,12 +12873,12 @@
               <node concept="3cpWsn" id="2qPu2xo$mZH" role="3cpWs9">
                 <property role="TrG5h" value="options" />
                 <node concept="3uibUv" id="2qPu2xo$mZI" role="1tU5fm">
-                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                  <ref role="3uigEE" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                 </node>
                 <node concept="2ShNRf" id="2qPu2xo$mZJ" role="33vP2m">
                   <node concept="1pGfFk" id="2qPu2xo$mZK" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGeneratorOptions" />
+                    <ref role="37wK5l" to="mqum:2qPu2xnYUst" resolve="PatchGenerator.PatchGeneratorOptions" />
                   </node>
                 </node>
               </node>
@@ -12656,7 +13117,7 @@
                     <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
                     <node concept="2YIFZM" id="2qPu2xpB3j8" role="37wK5m">
                       <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
-                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGeneratorOptions" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
                     </node>
                   </node>
                 </node>
@@ -12717,6 +13178,1418 @@
           <node concept="3_1$Yv" id="2qPu2xpEh0$" role="3_9lra">
             <node concept="Xl_RD" id="2qPu2xpEmKX" role="3_1BAH">
               <property role="Xl_RC" value="IOException not thrown" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQtRZe">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison.actual" />
+    <property role="TrG5h" value="ActualSubDirsFileName" />
+    <node concept="1LZb2c" id="4JQ6_GQtRZy" role="1SL9yI">
+      <property role="TrG5h" value="fileNameMismatch" />
+      <node concept="3cqZAl" id="4JQ6_GQtRZz" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQtRZB" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQu6gL" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQu6i8" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQu6qI" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQu6s$" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFileNameWrong" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQtRZV" role="1SL9yI">
+      <property role="TrG5h" value="filesNamesMismatch" />
+      <node concept="3cqZAl" id="4JQ6_GQtRZW" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQtRZX" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQu6iA" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQu6iB" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQu6tJ" role="37wK5m">
+              <property role="Xl_RC" value="subResults/files" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQu6vx" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesNamesWrong" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQtS0e" role="1SL9yI">
+      <property role="TrG5h" value="filesContainFile" />
+      <node concept="3cqZAl" id="4JQ6_GQtS0f" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQtS0g" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQu6jt" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQu6ju" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQu6x8" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQu6$t" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQtS0x" role="1SL9yI">
+      <property role="TrG5h" value="filesDoNotContainFile" />
+      <node concept="3cqZAl" id="4JQ6_GQtS0y" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQtS0z" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQu6kC" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQu6kD" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQu6_5" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQu6Ad" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesOneLess" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQvoRC">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison.actual" />
+    <property role="TrG5h" value="ActualSubDirsMultipleFiles" />
+    <node concept="1LZb2c" id="4JQ6_GQvp0l" role="1SL9yI">
+      <property role="TrG5h" value="oneLess" />
+      <node concept="3cqZAl" id="4JQ6_GQvp0m" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQvp0n" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQvp9L" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQvpaD" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQvpb7" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQvpcL" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesOneLess" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQvp0C" role="1SL9yI">
+      <property role="TrG5h" value="severalLess" />
+      <node concept="3cqZAl" id="4JQ6_GQvp0D" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQvp0E" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQvph4" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQvpi4" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQvpwc" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQvpCL" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesLess" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQvp0V" role="1SL9yI">
+      <property role="TrG5h" value="oneNameDoesNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQvp0W" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQvp0X" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQvpiQ" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQvpiR" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQvpHR" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQvpJV" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesNameWrong" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQvp1e" role="1SL9yI">
+      <property role="TrG5h" value="severalNamesDoNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQvp1f" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQvp1g" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQvpk1" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQvpk2" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQvpLu" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQvpMY" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesNamesWrong" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQvp1x" role="1SL9yI">
+      <property role="TrG5h" value="oneLessOneNameDoesNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQvp1y" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQvp1z" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQvplw" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQvplx" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQvpO9" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQvpTx" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesOneLessNameWrong" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQvp1O" role="1SL9yI">
+      <property role="TrG5h" value="severalLessOneNameDoesNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQvp1P" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQvp1Q" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQvpnj" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQvpnk" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQvpUG" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQvpWf" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesLessNameWrong" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQvp1R" role="1SL9yI">
+      <property role="TrG5h" value="severalLessMultipleNamesDoNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQvp1S" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQvp1T" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQvppq" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQvppr" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQvpYi" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQvpZS" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesNamesWrong" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQwNoK">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison.expected" />
+    <property role="TrG5h" value="ExpectedMultipleFiles" />
+    <node concept="1LZb2c" id="4JQ6_GQwNZp" role="1SL9yI">
+      <property role="TrG5h" value="oneLess" />
+      <node concept="3cqZAl" id="4JQ6_GQwNZq" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQwNZr" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQwO9N" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQwOar" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQwOxO" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/oneLess" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQwOzq" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQwNZG" role="1SL9yI">
+      <property role="TrG5h" value="severalLess" />
+      <node concept="3cqZAl" id="4JQ6_GQwNZH" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQwNZI" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQwOfg" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQwOfh" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQwOCi" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/severalLess" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQwOGo" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQwNZZ" role="1SL9yI">
+      <property role="TrG5h" value="oneNameDoesNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQwO00" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQwO01" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQwOg7" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQwOg8" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQwOIr" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/nameWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQwOJA" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQwO0i" role="1SL9yI">
+      <property role="TrG5h" value="severalNamesDoNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQwO0j" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQwO0k" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQwOhi" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQwOhj" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQwOOQ" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/namesWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQwOQs" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQwO0_" role="1SL9yI">
+      <property role="TrG5h" value="oneLessOneNameDoesNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQwO0A" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQwO0B" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQwOiL" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQwOiM" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQwOSv" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/oneLessNameWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQwOUt" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQwO0S" role="1SL9yI">
+      <property role="TrG5h" value="severalLessOneNameDoesNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQwO0T" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQwO0U" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQwOk$" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQwOk_" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQwOW4" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/severalLessNameWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQwOXE" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQwO1b" role="1SL9yI">
+      <property role="TrG5h" value="severalLessNamesDoNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQwO1c" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQwO1d" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQwOr2" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQwOr3" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQwP3o" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/severalLessNamesWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQwP4Y" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQy69k">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison.expected" />
+    <property role="TrG5h" value="ExpectedName" />
+    <node concept="1LZb2c" id="4JQ6_GQy69l" role="1SL9yI">
+      <property role="TrG5h" value="fileNameMismatch" />
+      <node concept="3cqZAl" id="4JQ6_GQy69m" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQy69n" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQy6e4" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQy6eW" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQy6fq" role="37wK5m">
+              <property role="Xl_RC" value="oneFileNameWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQy6g7" role="37wK5m">
+              <property role="Xl_RC" value="oneFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQy69C" role="1SL9yI">
+      <property role="TrG5h" value="filesNamesMismatch" />
+      <node concept="3cqZAl" id="4JQ6_GQy69D" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQy69E" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQy6ks" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQy6ls" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQy6rW" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/namesWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQy6tE" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQy69V" role="1SL9yI">
+      <property role="TrG5h" value="filesContainOneFile" />
+      <node concept="3cqZAl" id="4JQ6_GQy69W" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQy69X" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQy6me" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQy6mf" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQy6v1" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/namesWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQy6vU" role="37wK5m">
+              <property role="Xl_RC" value="oneFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQzny$">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison.expected" />
+    <property role="TrG5h" value="ExpectedStructure" />
+    <node concept="1LZb2c" id="4JQ6_GQzny_" role="1SL9yI">
+      <property role="TrG5h" value="fileMissing" />
+      <node concept="3cqZAl" id="4JQ6_GQznyA" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQznyB" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQznDx" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQznE9" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQznEB" role="37wK5m">
+              <property role="Xl_RC" value="oneFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQznGd" role="37wK5m">
+              <property role="Xl_RC" value="empty" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQzn$Q" role="1SL9yI">
+      <property role="TrG5h" value="filesMissing" />
+      <node concept="3cqZAl" id="4JQ6_GQzn$R" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQzn$V" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQznH9" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQznHa" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQznHb" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQznHc" role="37wK5m">
+              <property role="Xl_RC" value="empty" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQzn_f" role="1SL9yI">
+      <property role="TrG5h" value="dirMissing" />
+      <node concept="3cqZAl" id="4JQ6_GQzn_g" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQzn_k" role="3clF47">
+        <node concept="3cpWs8" id="4JQ6_GQXTGs" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GQXTGt" role="3cpWs9">
+            <property role="TrG5h" value="expectedPath" />
+            <node concept="3uibUv" id="4JQ6_GQXTER" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="2YIFZM" id="4JQ6_GQXTGu" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+              <node concept="Xl_RD" id="4JQ6_GQXTGv" role="37wK5m">
+                <property role="Xl_RC" value="emptyResults/emptyDir" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4JQ6_GQYwYd" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GQYwYe" role="3cpWs9">
+            <property role="TrG5h" value="actualPath" />
+            <node concept="3uibUv" id="4JQ6_GQYwYf" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="2YIFZM" id="4JQ6_GQYwYg" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+              <node concept="Xl_RD" id="4JQ6_GQYwYh" role="37wK5m">
+                <property role="Xl_RC" value="empty" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4JQ6_GQYxxU" role="3cqZAp" />
+        <node concept="3J1_TO" id="4JQ6_GQYq2_" role="3cqZAp">
+          <node concept="3clFbS" id="4JQ6_GQYq2A" role="1zxBo7">
+            <node concept="3clFbF" id="4JQ6_GQYnYO" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GQYoDj" role="3clFbG">
+                <node concept="37vLTw" id="4JQ6_GQYnYM" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4JQ6_GQXTGt" resolve="expectedPath" />
+                </node>
+                <node concept="liA8E" id="4JQ6_GQYpwx" role="2OqNvi">
+                  <ref role="37wK5l" to="jlff:~VirtualFile.createChildDirectory(java.lang.Object,java.lang.String)" resolve="createChildDirectory" />
+                  <node concept="10Nm6u" id="4JQ6_GQYpE3" role="37wK5m" />
+                  <node concept="Xl_RD" id="4JQ6_GQYpIh" role="37wK5m">
+                    <property role="Xl_RC" value="sub" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="4JQ6_GQYvLf" role="3cqZAp">
+              <node concept="3cpWsn" id="4JQ6_GQYvLg" role="3cpWs9">
+                <property role="TrG5h" value="writer" />
+                <node concept="3uibUv" id="4JQ6_GQYvLh" role="1tU5fm">
+                  <ref role="3uigEE" to="guwi:~StringWriter" resolve="StringWriter" />
+                </node>
+                <node concept="2ShNRf" id="4JQ6_GQYvU5" role="33vP2m">
+                  <node concept="1pGfFk" id="4JQ6_GQYwv1" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="guwi:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4JQ6_GQYwzg" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GQYwzi" role="3clFbG">
+                <node concept="2ShNRf" id="4JQ6_GQYwzj" role="2Oq$k0">
+                  <node concept="1pGfFk" id="4JQ6_GQYwzk" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
+                    <node concept="2YIFZM" id="4JQ6_GQYwzl" role="37wK5m">
+                      <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="4JQ6_GQYwzm" role="2OqNvi">
+                  <ref role="37wK5l" to="mqum:2cqAxlf_Edg" resolve="generateDiff" />
+                  <node concept="37vLTw" id="4JQ6_GQYwzn" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GQXTGt" resolve="expectedPath" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GQYwzo" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GQYwYe" resolve="actualPath" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GQYwzp" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GQYvLg" resolve="writer" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3vlDli" id="4JQ6_GQYyBs" role="3cqZAp">
+              <node concept="3clFbT" id="4JQ6_GQYyMn" role="3tpDZC">
+                <property role="3clFbU" value="true" />
+              </node>
+              <node concept="2OqwBi" id="4JQ6_GQY$oG" role="3tpDZA">
+                <node concept="2OqwBi" id="4JQ6_GQYzdY" role="2Oq$k0">
+                  <node concept="37vLTw" id="4JQ6_GQYyT8" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4JQ6_GQYvLg" resolve="writer" />
+                  </node>
+                  <node concept="liA8E" id="4JQ6_GQYzKh" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~StringWriter.toString()" resolve="toString" />
+                  </node>
+                </node>
+                <node concept="17RvpY" id="4JQ6_GQY_pS" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="4JQ6_GQYq2C" role="1zxBo5">
+            <node concept="3clFbS" id="4JQ6_GQYq2D" role="1zc67A">
+              <node concept="YS8fn" id="4JQ6_GQYqcG" role="3cqZAp">
+                <node concept="2ShNRf" id="4JQ6_GQYqhe" role="YScLw">
+                  <node concept="1pGfFk" id="4JQ6_GQYuw2" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="4JQ6_GQYuBo" role="37wK5m">
+                      <ref role="3cqZAo" node="4JQ6_GQYq2E" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="XOnhg" id="4JQ6_GQYq2E" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="4JQ6_GQYq2F" role="1tU5fm">
+                <node concept="3uibUv" id="4JQ6_GQYq2B" role="nSUat">
+                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQzn_C" role="1SL9yI">
+      <property role="TrG5h" value="dirsMissing" />
+      <node concept="3cqZAl" id="4JQ6_GQzn_D" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQzn_H" role="3clF47">
+        <node concept="3cpWs8" id="4JQ6_GRe2RO" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GRe2RP" role="3cpWs9">
+            <property role="TrG5h" value="expectedPath" />
+            <node concept="3uibUv" id="4JQ6_GRe2RQ" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="2YIFZM" id="4JQ6_GRe2RR" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+              <node concept="Xl_RD" id="4JQ6_GRe2RS" role="37wK5m">
+                <property role="Xl_RC" value="emptyResults/emptyDirs" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4JQ6_GRe2RT" role="3cqZAp">
+          <node concept="3cpWsn" id="4JQ6_GRe2RU" role="3cpWs9">
+            <property role="TrG5h" value="actualPath" />
+            <node concept="3uibUv" id="4JQ6_GRe2RV" role="1tU5fm">
+              <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+            </node>
+            <node concept="2YIFZM" id="4JQ6_GRe2RW" role="33vP2m">
+              <ref role="37wK5l" node="4JQ6_GQX_c7" resolve="loadOrCreatePath" />
+              <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+              <node concept="Xl_RD" id="4JQ6_GRe2RX" role="37wK5m">
+                <property role="Xl_RC" value="empty" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4JQ6_GRe2RY" role="3cqZAp" />
+        <node concept="3J1_TO" id="4JQ6_GRe2RZ" role="3cqZAp">
+          <node concept="3clFbS" id="4JQ6_GRe2S0" role="1zxBo7">
+            <node concept="3clFbF" id="4JQ6_GRe2S1" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GRe2S2" role="3clFbG">
+                <node concept="37vLTw" id="4JQ6_GRe2S3" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4JQ6_GRe2RP" resolve="expectedPath" />
+                </node>
+                <node concept="liA8E" id="4JQ6_GRe2S4" role="2OqNvi">
+                  <ref role="37wK5l" to="jlff:~VirtualFile.createChildDirectory(java.lang.Object,java.lang.String)" resolve="createChildDirectory" />
+                  <node concept="10Nm6u" id="4JQ6_GRe2S5" role="37wK5m" />
+                  <node concept="Xl_RD" id="4JQ6_GRe2S6" role="37wK5m">
+                    <property role="Xl_RC" value="dir1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4JQ6_GRe3$v" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GRe3$w" role="3clFbG">
+                <node concept="37vLTw" id="4JQ6_GRe3$x" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4JQ6_GRe2RP" resolve="expectedPath" />
+                </node>
+                <node concept="liA8E" id="4JQ6_GRe3$y" role="2OqNvi">
+                  <ref role="37wK5l" to="jlff:~VirtualFile.createChildDirectory(java.lang.Object,java.lang.String)" resolve="createChildDirectory" />
+                  <node concept="10Nm6u" id="4JQ6_GRe3$z" role="37wK5m" />
+                  <node concept="Xl_RD" id="4JQ6_GRe3$$" role="37wK5m">
+                    <property role="Xl_RC" value="dir2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="4JQ6_GRe2S7" role="3cqZAp">
+              <node concept="3cpWsn" id="4JQ6_GRe2S8" role="3cpWs9">
+                <property role="TrG5h" value="writer" />
+                <node concept="3uibUv" id="4JQ6_GRe2S9" role="1tU5fm">
+                  <ref role="3uigEE" to="guwi:~StringWriter" resolve="StringWriter" />
+                </node>
+                <node concept="2ShNRf" id="4JQ6_GRe2Sa" role="33vP2m">
+                  <node concept="1pGfFk" id="4JQ6_GRe2Sb" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="guwi:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4JQ6_GRe2Sc" role="3cqZAp">
+              <node concept="2OqwBi" id="4JQ6_GRe2Sd" role="3clFbG">
+                <node concept="2ShNRf" id="4JQ6_GRe2Se" role="2Oq$k0">
+                  <node concept="1pGfFk" id="4JQ6_GRe2Sf" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="mqum:2cqAxlf_EcW" resolve="PatchGenerator" />
+                    <node concept="2YIFZM" id="4JQ6_GRe2Sg" role="37wK5m">
+                      <ref role="37wK5l" to="mqum:2qPu2xoeryq" resolve="ignoreNothing" />
+                      <ref role="1Pybhc" to="mqum:2qPu2xnXKAV" resolve="PatchGenerator.PatchGeneratorOptions" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="4JQ6_GRe2Sh" role="2OqNvi">
+                  <ref role="37wK5l" to="mqum:2cqAxlf_Edg" resolve="generateDiff" />
+                  <node concept="37vLTw" id="4JQ6_GRe2Si" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GRe2RP" resolve="expectedPath" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GRe2Sj" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GRe2RU" resolve="actualPath" />
+                  </node>
+                  <node concept="37vLTw" id="4JQ6_GRe2Sk" role="37wK5m">
+                    <ref role="3cqZAo" node="4JQ6_GRe2S8" resolve="writer" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3vlDli" id="4JQ6_GRe2Sl" role="3cqZAp">
+              <node concept="3clFbT" id="4JQ6_GRe2Sm" role="3tpDZC">
+                <property role="3clFbU" value="true" />
+              </node>
+              <node concept="2OqwBi" id="4JQ6_GRe2Sn" role="3tpDZA">
+                <node concept="2OqwBi" id="4JQ6_GRe2So" role="2Oq$k0">
+                  <node concept="37vLTw" id="4JQ6_GRe2Sp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4JQ6_GRe2S8" resolve="writer" />
+                  </node>
+                  <node concept="liA8E" id="4JQ6_GRe2Sq" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~StringWriter.toString()" resolve="toString" />
+                  </node>
+                </node>
+                <node concept="17RvpY" id="4JQ6_GRe2Sr" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="4JQ6_GRe2Ss" role="1zxBo5">
+            <node concept="3clFbS" id="4JQ6_GRe2St" role="1zc67A">
+              <node concept="YS8fn" id="4JQ6_GRe2Su" role="3cqZAp">
+                <node concept="2ShNRf" id="4JQ6_GRe2Sv" role="YScLw">
+                  <node concept="1pGfFk" id="4JQ6_GRe2Sw" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="4JQ6_GRe2Sx" role="37wK5m">
+                      <ref role="3cqZAo" node="4JQ6_GRe2Sy" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="XOnhg" id="4JQ6_GRe2Sy" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="4JQ6_GRe2Sz" role="1tU5fm">
+                <node concept="3uibUv" id="4JQ6_GRe2S$" role="nSUat">
+                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQznA1" role="1SL9yI">
+      <property role="TrG5h" value="severalFilesActualOneFile" />
+      <node concept="3cqZAl" id="4JQ6_GQznA2" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQznA6" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQzoNK" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQzoNL" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQzoNM" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQzoNN" role="37wK5m">
+              <property role="Xl_RC" value="oneFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQzpiK" role="1SL9yI">
+      <property role="TrG5h" value="fileIsDir" />
+      <node concept="3cqZAl" id="4JQ6_GQzpiL" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQzpiM" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQzpiN" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQzpiO" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQzpiP" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQzpiQ" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/fileIsDir" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQ$EvH">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison.expected" />
+    <property role="TrG5h" value="ExpectedSubDirsFileName" />
+    <node concept="1LZb2c" id="4JQ6_GQ$ECz" role="1SL9yI">
+      <property role="TrG5h" value="fileNameMismatch" />
+      <node concept="3cqZAl" id="4JQ6_GQ$EC$" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ$ECC" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ$EId" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ$EJ5" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ$EJz" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFileNameWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ$Fye" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQ$ECW" role="1SL9yI">
+      <property role="TrG5h" value="filesNamesMismatch" />
+      <node concept="3cqZAl" id="4JQ6_GQ$ECX" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ$ECY" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ$FA_" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ$FB_" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ$FJM" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesNamesWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ$FLo" role="37wK5m">
+              <property role="Xl_RC" value="subResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQ$EDv" role="1SL9yI">
+      <property role="TrG5h" value="filesContainFile" />
+      <node concept="3cqZAl" id="4JQ6_GQ$EDw" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ$EDx" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ$FPN" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ$FQV" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ$FS1" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ$FTJ" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQ$EDM" role="1SL9yI">
+      <property role="TrG5h" value="filesDoNotContainFile" />
+      <node concept="3cqZAl" id="4JQ6_GQ$EDN" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ$EDO" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ$FYe" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ$FZu" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ$G0S" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesNamesWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ$I1b" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQ_Z7o">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison.expected" />
+    <property role="TrG5h" value="ExpectedSubDirsMultipleFilesTests" />
+    <node concept="1LZb2c" id="4JQ6_GQ_Z7p" role="1SL9yI">
+      <property role="TrG5h" value="oneLess" />
+      <node concept="3cqZAl" id="4JQ6_GQ_Z7q" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ_Z7r" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ_Zg7" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ_ZgZ" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ_Zw6" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesOneLess" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ_ZxG" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQ_Z7G" role="1SL9yI">
+      <property role="TrG5h" value="severalLess" />
+      <node concept="3cqZAl" id="4JQ6_GQ_Z7H" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ_Z7I" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ_Zht" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ_Zhu" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ_Zzj" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesLess" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ_Z$T" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQ_Z7Z" role="1SL9yI">
+      <property role="TrG5h" value="oneNameDoesNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQ_Z80" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ_Z81" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ_Zik" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ_Zil" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ_ZAW" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesNameWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ_ZCy" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQ_Z8i" role="1SL9yI">
+      <property role="TrG5h" value="severalNamesDoNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQ_Z8j" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ_Z8k" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ_Zjv" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ_Zjw" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ_ZE_" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesNamesWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ_ZGb" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQ_Z8_" role="1SL9yI">
+      <property role="TrG5h" value="oneLessOneNameDoesNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQ_Z8A" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ_Z8B" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ_ZkY" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ_ZkZ" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ_ZHI" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesOneLessNameWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ_ZIT" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQ_Z8S" role="1SL9yI">
+      <property role="TrG5h" value="severalLessOneNameDoesNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQ_Z8T" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ_Z8U" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ_ZmL" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ_ZmM" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ_ZKS" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesLessNameWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ_ZMu" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQ_Z8V" role="1SL9yI">
+      <property role="TrG5h" value="severalLessMultipleNamesDoNotMatch" />
+      <node concept="3cqZAl" id="4JQ6_GQ_Z8W" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQ_Z8X" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQ_ZoS" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQ_ZoT" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQ_ZO1" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFilesLessNamesWrong" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQ_ZP9" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQBhtZ">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison.expected" />
+    <property role="TrG5h" value="ExpectedSubDirStructureTests" />
+    <node concept="1LZb2c" id="4JQ6_GQBhu0" role="1SL9yI">
+      <property role="TrG5h" value="fileMissing" />
+      <node concept="3cqZAl" id="4JQ6_GQBhu1" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQBhu2" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQBh_W" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQBifO" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQBigi" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQBihS" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptyDir" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQBhuj" role="1SL9yI">
+      <property role="TrG5h" value="filesMissing" />
+      <node concept="3cqZAl" id="4JQ6_GQBhuk" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQBhul" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQBimh" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQBimX" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQBiz2" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQBi$W" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptyDir" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQBhuA" role="1SL9yI">
+      <property role="TrG5h" value="dirsFileMissing" />
+      <node concept="3cqZAl" id="4JQ6_GQBhuB" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQBhuC" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQBinJ" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQBinK" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQBiAv" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalSubDirsFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQBiC2" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptySubDirs" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQBhuT" role="1SL9yI">
+      <property role="TrG5h" value="dirsFilesMissing" />
+      <node concept="3cqZAl" id="4JQ6_GQBhuU" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQBhuV" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQBioU" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQBioV" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQBiD_" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalSubDirsFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQBiFv" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptySubDirs" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQBhvc" role="1SL9yI">
+      <property role="TrG5h" value="severalFilesActualOneFile" />
+      <node concept="3cqZAl" id="4JQ6_GQBhvd" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQBhve" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQBiqp" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQBiqq" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQBiH2" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQBiIW" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQBhvv" role="1SL9yI">
+      <property role="TrG5h" value="deepStructureFileMissing" />
+      <node concept="3cqZAl" id="4JQ6_GQBhvw" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQBhvx" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQBisc" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQBisd" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQBiL2" role="37wK5m">
+              <property role="Xl_RC" value="subResults/deepStructure" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQBiN0" role="37wK5m">
+              <property role="Xl_RC" value="subResults/deepStructureFileMissing" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQC$RQ">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison" />
+    <property role="TrG5h" value="FileContentsTests" />
+    <node concept="1LZb2c" id="4JQ6_GQC$Sf" role="1SL9yI">
+      <property role="TrG5h" value="contentsEqual" />
+      <node concept="3cqZAl" id="4JQ6_GQC$Sg" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQC$Sh" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQCLp$" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQCLWC" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQCLWD" role="37wK5m">
+              <property role="Xl_RC" value="contents/equal" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQCLWE" role="37wK5m">
+              <property role="Xl_RC" value="contents/equal" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQCLjX" role="1SL9yI">
+      <property role="TrG5h" value="contentsWrong" />
+      <node concept="3cqZAl" id="4JQ6_GQCLjY" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQCLjZ" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQCLrm" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQCLrn" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQCLFy" role="37wK5m">
+              <property role="Xl_RC" value="contents/equal" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQCLH1" role="37wK5m">
+              <property role="Xl_RC" value="contents/notEqual" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQCLkg" role="1SL9yI">
+      <property role="TrG5h" value="filesContentsWrong" />
+      <node concept="3cqZAl" id="4JQ6_GQCLkh" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQCLki" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQCLst" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQCLsu" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQCLJw" role="37wK5m">
+              <property role="Xl_RC" value="contents/severalFiles/files" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQCLLy" role="37wK5m">
+              <property role="Xl_RC" value="contents/severalFiles/oneContentWrong" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQCLkz" role="1SL9yI">
+      <property role="TrG5h" value="filesMissingContentsWrong" />
+      <node concept="3cqZAl" id="4JQ6_GQCLk$" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQCLk_" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQCLtW" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQCLtX" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQCLO9" role="37wK5m">
+              <property role="Xl_RC" value="contents/severalFiles/oneLess" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQCLPC" role="37wK5m">
+              <property role="Xl_RC" value="contents/severalFiles/oneLessContentWrong" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQCLkQ" role="1SL9yI">
+      <property role="TrG5h" value="complexDeepestFileFailsFirst" />
+      <node concept="3cqZAl" id="4JQ6_GQCLkR" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQCLkS" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQCLvN" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQCLvO" role="3clFbG">
+            <ref role="37wK5l" node="H43MYuBS$z" resolve="assertFoldersNotEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQCLSf" role="37wK5m">
+              <property role="Xl_RC" value="contents/severalFiles/complexLeft" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQCLUh" role="37wK5m">
+              <property role="Xl_RC" value="contents/severalFiles/complexRight" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4JQ6_GQE3YF">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="3GE5qa" value="folderComparison" />
+    <property role="TrG5h" value="MatchingDirContents" />
+    <node concept="1LZb2c" id="4JQ6_GQE42n" role="1SL9yI">
+      <property role="TrG5h" value="empty" />
+      <node concept="3cqZAl" id="4JQ6_GQE42o" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE42p" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4gq" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQFAwS" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQFAwT" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/noFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQFAwU" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/noFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE43a" role="1SL9yI">
+      <property role="TrG5h" value="emptyDir" />
+      <node concept="3cqZAl" id="4JQ6_GQE43b" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE43c" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4lo" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQFACI" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQFACJ" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptyDir" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQFACK" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptyDir" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE43t" role="1SL9yI">
+      <property role="TrG5h" value="emptyDirs" />
+      <node concept="3cqZAl" id="4JQ6_GQE43u" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE43v" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4mv" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQFAJy" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQFAJz" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptyDirs" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQFAJ$" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptyDirs" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE43K" role="1SL9yI">
+      <property role="TrG5h" value="emptySubDir" />
+      <node concept="3cqZAl" id="4JQ6_GQE43L" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE43M" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4nY" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQFAQm" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQFAQn" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptySubDir" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQFAQo" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptySubDir" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE443" role="1SL9yI">
+      <property role="TrG5h" value="emptySubDirs" />
+      <node concept="3cqZAl" id="4JQ6_GQE444" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE445" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4pP" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQFAXa" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQFAXb" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptySubDirs" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQFAXc" role="37wK5m">
+              <property role="Xl_RC" value="emptyResults/emptySubDirs" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE44m" role="1SL9yI">
+      <property role="TrG5h" value="file" />
+      <node concept="3cqZAl" id="4JQ6_GQE44n" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE44o" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4s4" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQFB50" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQFB51" role="37wK5m">
+              <property role="Xl_RC" value="oneFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQFB52" role="37wK5m">
+              <property role="Xl_RC" value="oneFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE44D" role="1SL9yI">
+      <property role="TrG5h" value="files" />
+      <node concept="3cqZAl" id="4JQ6_GQE44E" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE44F" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4uF" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQW5iP" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQW5iQ" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQW5iR" role="37wK5m">
+              <property role="Xl_RC" value="severalFilesResults/files" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE44W" role="1SL9yI">
+      <property role="TrG5h" value="subFile" />
+      <node concept="3cqZAl" id="4JQ6_GQE44X" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE44Y" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4xE" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQW5oB" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQW5oC" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQW5oD" role="37wK5m">
+              <property role="Xl_RC" value="subResults/oneFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE45f" role="1SL9yI">
+      <property role="TrG5h" value="subFiles" />
+      <node concept="3cqZAl" id="4JQ6_GQE45g" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE45h" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4Do" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQW5up" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQW5uq" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQW5ur" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE45y" role="1SL9yI">
+      <property role="TrG5h" value="subDirsFile" />
+      <node concept="3cqZAl" id="4JQ6_GQE45z" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE45$" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4IJ" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQW5$b" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQW5$c" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalSubDirsFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQW5$d" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalSubDirsFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE45_" role="1SL9yI">
+      <property role="TrG5h" value="subDirsFiles" />
+      <node concept="3cqZAl" id="4JQ6_GQE45A" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE45B" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4MQ" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQW5DX" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQW5DY" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalSubDirsFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQW5DZ" role="37wK5m">
+              <property role="Xl_RC" value="subResults/severalSubDirsFiles" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE468" role="1SL9yI">
+      <property role="TrG5h" value="multiDirsFile" />
+      <node concept="3cqZAl" id="4JQ6_GQE469" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE46a" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE4Rl" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQW5JJ" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQW5JK" role="37wK5m">
+              <property role="Xl_RC" value="multiDirResults/multiDirFile" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQW5JL" role="37wK5m">
+              <property role="Xl_RC" value="multiDirResults/multiDirFile" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4JQ6_GQE46r" role="1SL9yI">
+      <property role="TrG5h" value="multiDirsFiles" />
+      <node concept="3cqZAl" id="4JQ6_GQE46s" role="3clF45" />
+      <node concept="3clFbS" id="4JQ6_GQE46t" role="3clF47">
+        <node concept="3clFbF" id="4JQ6_GQE5WX" role="3cqZAp">
+          <node concept="2YIFZM" id="4JQ6_GQW5Px" role="3clFbG">
+            <ref role="37wK5l" node="4JQ6_GQC_E9" resolve="assertFoldersEquals" />
+            <ref role="1Pybhc" node="H43MYuBRF5" resolve="FolderDiffHelper" />
+            <node concept="Xl_RD" id="4JQ6_GQW5Py" role="37wK5m">
+              <property role="Xl_RC" value="multiDirResults/multiDirFiles" />
+            </node>
+            <node concept="Xl_RD" id="4JQ6_GQW5Pz" role="37wK5m">
+              <property role="Xl_RC" value="multiDirResults/multiDirFiles" />
             </node>
           </node>
         </node>

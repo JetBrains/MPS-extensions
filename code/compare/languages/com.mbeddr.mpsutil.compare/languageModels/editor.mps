@@ -908,7 +908,7 @@
       </node>
       <node concept="3F0ifn" id="Ov8NH9a089" role="3EZMnx" />
       <node concept="PMmxH" id="H43MYuUcsj" role="3EZMnx">
-        <ref role="PMmxG" node="H43MYuU7Dq" resolve="GeneratorNodeProcessing" />
+        <ref role="PMmxG" node="H43MYuU7Dq" resolve="GeneratorNodeProcessingOptions" />
       </node>
       <node concept="3F0ifn" id="Ov8NH99Zqo" role="3EZMnx" />
       <node concept="3F0ifn" id="Ov8NH99ZPQ" role="3EZMnx">
@@ -1052,7 +1052,7 @@
       </node>
       <node concept="3F0ifn" id="4I2abZbPWnI" role="3EZMnx" />
       <node concept="PMmxH" id="H43MYuUeFo" role="3EZMnx">
-        <ref role="PMmxG" node="H43MYuU7Dq" resolve="GeneratorNodeProcessing" />
+        <ref role="PMmxG" node="H43MYuU7Dq" resolve="GeneratorNodeProcessingOptions" />
       </node>
       <node concept="2EHx9g" id="4I2abZbPWpA" role="2iSdaV" />
     </node>
@@ -1467,7 +1467,7 @@
       </node>
       <node concept="3F0ifn" id="H43MYuUm8t" role="3EZMnx" />
       <node concept="PMmxH" id="H43MYuUa4L" role="3EZMnx">
-        <ref role="PMmxG" node="H43MYuU7Dq" resolve="GeneratorNodeProcessing" />
+        <ref role="PMmxG" node="H43MYuU7Dq" resolve="GeneratorNodeProcessingOptions" />
       </node>
       <node concept="3F0ifn" id="2cqAxliGiCx" role="3EZMnx" />
       <node concept="3F0ifn" id="2cqAxliGiCy" role="3EZMnx">

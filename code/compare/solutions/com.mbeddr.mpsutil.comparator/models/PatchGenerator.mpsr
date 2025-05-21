@@ -950,32 +950,77 @@
                         </node>
                       </node>
                       <node concept="3clFbS" id="2cqAxlf_Eer" role="3clFbx">
-                        <node concept="3clFbF" id="2cqAxlf_Ees" role="3cqZAp">
-                          <node concept="1rXfSq" id="2cqAxlf_Eet" role="3clFbG">
-                            <ref role="37wK5l" node="2cqAxlf_Edx" resolve="generateDiff" />
-                            <node concept="37vLTw" id="2cqAxlf_Eeu" role="37wK5m">
-                              <ref role="3cqZAo" node="2cqAxlf_Eej" resolve="expChild" />
-                            </node>
-                            <node concept="10Nm6u" id="2cqAxlf_Eev" role="37wK5m" />
-                            <node concept="37vLTw" id="2cqAxlf_Eew" role="37wK5m">
-                              <ref role="3cqZAo" node="2cqAxlf_EdA" resolve="output" />
-                            </node>
-                            <node concept="3cpWs3" id="2cqAxlf_Eex" role="37wK5m">
-                              <node concept="3cpWs3" id="2cqAxlf_Eey" role="3uHU7B">
-                                <node concept="37vLTw" id="2cqAxlf_Eez" role="3uHU7B">
-                                  <ref role="3cqZAo" node="2cqAxlf_EdC" resolve="pathPrefix" />
+                        <node concept="3clFbJ" id="4JQ6_GR63AK" role="3cqZAp">
+                          <node concept="3clFbS" id="4JQ6_GR63AM" role="3clFbx">
+                            <node concept="3clFbF" id="4JQ6_GR6uY2" role="3cqZAp">
+                              <node concept="2OqwBi" id="4JQ6_GR6$Dg" role="3clFbG">
+                                <node concept="37vLTw" id="4JQ6_GR6uY0" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2cqAxlf_EdA" resolve="output" />
                                 </node>
-                                <node concept="2OqwBi" id="2cqAxlfFkgU" role="3uHU7w">
-                                  <node concept="37vLTw" id="2cqAxlfA8al" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="2cqAxlf_Eej" resolve="expChild" />
-                                  </node>
-                                  <node concept="liA8E" id="2cqAxlfFkgV" role="2OqNvi">
-                                    <ref role="37wK5l" to="jlff:~VirtualFile.getName()" resolve="getName" />
+                                <node concept="liA8E" id="4JQ6_GR6HcD" role="2OqNvi">
+                                  <ref role="37wK5l" to="guwi:~Writer.write(java.lang.String)" resolve="write" />
+                                  <node concept="2YIFZM" id="4JQ6_GR700F" role="37wK5m">
+                                    <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
+                                    <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                                    <node concept="Xl_RD" id="4JQ6_GR79JW" role="37wK5m">
+                                      <property role="Xl_RC" value="%s %s%s (empty directory deleted)\n" />
+                                    </node>
+                                    <node concept="37vLTw" id="4JQ6_GR7_ha" role="37wK5m">
+                                      <ref role="3cqZAo" node="2cqAxlh_dzm" resolve="REMOVAL_MARKER" />
+                                    </node>
+                                    <node concept="37vLTw" id="4JQ6_GR7F0Y" role="37wK5m">
+                                      <ref role="3cqZAo" node="2cqAxlf_EdC" resolve="pathPrefix" />
+                                    </node>
+                                    <node concept="2OqwBi" id="4JQ6_GR80e6" role="37wK5m">
+                                      <node concept="37vLTw" id="4JQ6_GR7Uj8" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="2cqAxlf_Eej" resolve="expChild" />
+                                      </node>
+                                      <node concept="liA8E" id="4JQ6_GR87YU" role="2OqNvi">
+                                        <ref role="37wK5l" to="jlff:~VirtualFile.getName()" resolve="getName" />
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                               </node>
-                              <node concept="37vLTw" id="2cqAxlhy2pd" role="3uHU7w">
-                                <ref role="3cqZAo" node="2cqAxlhxUa$" resolve="PATH_SEPARATOR" />
+                            </node>
+                          </node>
+                          <node concept="1rXfSq" id="4JQ6_GR6aLr" role="3clFbw">
+                            <ref role="37wK5l" node="4JQ6_GR4iOw" resolve="isEmptyDirectory" />
+                            <node concept="37vLTw" id="4JQ6_GR6kw4" role="37wK5m">
+                              <ref role="3cqZAo" node="2cqAxlf_Eej" resolve="expChild" />
+                            </node>
+                          </node>
+                          <node concept="9aQIb" id="4JQ6_GR8FIA" role="9aQIa">
+                            <node concept="3clFbS" id="4JQ6_GR8FIB" role="9aQI4">
+                              <node concept="3clFbF" id="2cqAxlf_Ees" role="3cqZAp">
+                                <node concept="1rXfSq" id="2cqAxlf_Eet" role="3clFbG">
+                                  <ref role="37wK5l" node="2cqAxlf_Edx" resolve="generateDiff" />
+                                  <node concept="37vLTw" id="2cqAxlf_Eeu" role="37wK5m">
+                                    <ref role="3cqZAo" node="2cqAxlf_Eej" resolve="expChild" />
+                                  </node>
+                                  <node concept="10Nm6u" id="2cqAxlf_Eev" role="37wK5m" />
+                                  <node concept="37vLTw" id="2cqAxlf_Eew" role="37wK5m">
+                                    <ref role="3cqZAo" node="2cqAxlf_EdA" resolve="output" />
+                                  </node>
+                                  <node concept="3cpWs3" id="2cqAxlf_Eex" role="37wK5m">
+                                    <node concept="3cpWs3" id="2cqAxlf_Eey" role="3uHU7B">
+                                      <node concept="37vLTw" id="2cqAxlf_Eez" role="3uHU7B">
+                                        <ref role="3cqZAo" node="2cqAxlf_EdC" resolve="pathPrefix" />
+                                      </node>
+                                      <node concept="2OqwBi" id="2cqAxlfFkgU" role="3uHU7w">
+                                        <node concept="37vLTw" id="2cqAxlfA8al" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="2cqAxlf_Eej" resolve="expChild" />
+                                        </node>
+                                        <node concept="liA8E" id="2cqAxlfFkgV" role="2OqNvi">
+                                          <ref role="37wK5l" to="jlff:~VirtualFile.getName()" resolve="getName" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="37vLTw" id="4JQ6_GR8WBw" role="3uHU7w">
+                                      <ref role="3cqZAo" node="2cqAxlhxUa$" resolve="PATH_SEPARATOR" />
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -1087,32 +1132,77 @@
                         </node>
                       </node>
                       <node concept="3clFbS" id="2cqAxlf_Ef6" role="3clFbx">
-                        <node concept="3clFbF" id="2cqAxlf_Ef7" role="3cqZAp">
-                          <node concept="1rXfSq" id="2cqAxlf_Ef8" role="3clFbG">
-                            <ref role="37wK5l" node="2cqAxlf_Edx" resolve="generateDiff" />
-                            <node concept="10Nm6u" id="2cqAxlf_Ef9" role="37wK5m" />
-                            <node concept="37vLTw" id="2cqAxlf_Efa" role="37wK5m">
-                              <ref role="3cqZAo" node="2cqAxlf_EeY" resolve="actChild" />
-                            </node>
-                            <node concept="37vLTw" id="2cqAxlf_Efb" role="37wK5m">
-                              <ref role="3cqZAo" node="2cqAxlf_EdA" resolve="output" />
-                            </node>
-                            <node concept="3cpWs3" id="2cqAxlf_Efc" role="37wK5m">
-                              <node concept="3cpWs3" id="2cqAxlf_Efd" role="3uHU7B">
-                                <node concept="37vLTw" id="2cqAxlf_Efe" role="3uHU7B">
-                                  <ref role="3cqZAo" node="2cqAxlf_EdC" resolve="pathPrefix" />
+                        <node concept="3clFbJ" id="4JQ6_GR8ouO" role="3cqZAp">
+                          <node concept="3clFbS" id="4JQ6_GR8ouQ" role="3clFbx">
+                            <node concept="3clFbF" id="4JQ6_GR9_o$" role="3cqZAp">
+                              <node concept="2OqwBi" id="4JQ6_GR9F5c" role="3clFbG">
+                                <node concept="37vLTw" id="4JQ6_GR9_oy" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2cqAxlf_EdA" resolve="output" />
                                 </node>
-                                <node concept="2OqwBi" id="2cqAxlfGOdY" role="3uHU7w">
-                                  <node concept="37vLTw" id="2cqAxlfA7Ho" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="2cqAxlf_EeY" resolve="actChild" />
-                                  </node>
-                                  <node concept="liA8E" id="2cqAxlfGOdZ" role="2OqNvi">
-                                    <ref role="37wK5l" to="jlff:~VirtualFile.getName()" resolve="getName" />
+                                <node concept="liA8E" id="4JQ6_GR9NdH" role="2OqNvi">
+                                  <ref role="37wK5l" to="guwi:~Writer.write(java.lang.String)" resolve="write" />
+                                  <node concept="2YIFZM" id="4JQ6_GRa3HZ" role="37wK5m">
+                                    <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
+                                    <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                                    <node concept="Xl_RD" id="4JQ6_GRacZB" role="37wK5m">
+                                      <property role="Xl_RC" value="%s %s%s (empty directory added)\n" />
+                                    </node>
+                                    <node concept="37vLTw" id="4JQ6_GRa$$E" role="37wK5m">
+                                      <ref role="3cqZAo" node="2cqAxlh_5le" resolve="ADDITION_MARKER" />
+                                    </node>
+                                    <node concept="37vLTw" id="4JQ6_GRaIFw" role="37wK5m">
+                                      <ref role="3cqZAo" node="2cqAxlf_EdC" resolve="pathPrefix" />
+                                    </node>
+                                    <node concept="2OqwBi" id="4JQ6_GRb3YE" role="37wK5m">
+                                      <node concept="37vLTw" id="4JQ6_GRaY2m" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="2cqAxlf_EeY" resolve="actChild" />
+                                      </node>
+                                      <node concept="liA8E" id="4JQ6_GRbcBT" role="2OqNvi">
+                                        <ref role="37wK5l" to="jlff:~VirtualFile.getName()" resolve="getName" />
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                               </node>
-                              <node concept="37vLTw" id="2cqAxlhycxm" role="3uHU7w">
-                                <ref role="3cqZAo" node="2cqAxlhxUa$" resolve="PATH_SEPARATOR" />
+                            </node>
+                          </node>
+                          <node concept="1rXfSq" id="4JQ6_GR8ym$" role="3clFbw">
+                            <ref role="37wK5l" node="4JQ6_GR4iOw" resolve="isEmptyDirectory" />
+                            <node concept="37vLTw" id="4JQ6_GR95QN" role="37wK5m">
+                              <ref role="3cqZAo" node="2cqAxlf_EeY" resolve="actChild" />
+                            </node>
+                          </node>
+                          <node concept="9aQIb" id="4JQ6_GR9fAs" role="9aQIa">
+                            <node concept="3clFbS" id="4JQ6_GR9fAt" role="9aQI4">
+                              <node concept="3clFbF" id="2cqAxlf_Ef7" role="3cqZAp">
+                                <node concept="1rXfSq" id="2cqAxlf_Ef8" role="3clFbG">
+                                  <ref role="37wK5l" node="2cqAxlf_Edx" resolve="generateDiff" />
+                                  <node concept="10Nm6u" id="2cqAxlf_Ef9" role="37wK5m" />
+                                  <node concept="37vLTw" id="2cqAxlf_Efa" role="37wK5m">
+                                    <ref role="3cqZAo" node="2cqAxlf_EeY" resolve="actChild" />
+                                  </node>
+                                  <node concept="37vLTw" id="2cqAxlf_Efb" role="37wK5m">
+                                    <ref role="3cqZAo" node="2cqAxlf_EdA" resolve="output" />
+                                  </node>
+                                  <node concept="3cpWs3" id="2cqAxlf_Efc" role="37wK5m">
+                                    <node concept="3cpWs3" id="2cqAxlf_Efd" role="3uHU7B">
+                                      <node concept="37vLTw" id="2cqAxlf_Efe" role="3uHU7B">
+                                        <ref role="3cqZAo" node="2cqAxlf_EdC" resolve="pathPrefix" />
+                                      </node>
+                                      <node concept="2OqwBi" id="2cqAxlfGOdY" role="3uHU7w">
+                                        <node concept="37vLTw" id="2cqAxlfA7Ho" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="2cqAxlf_EeY" resolve="actChild" />
+                                        </node>
+                                        <node concept="liA8E" id="2cqAxlfGOdZ" role="2OqNvi">
+                                          <ref role="37wK5l" to="jlff:~VirtualFile.getName()" resolve="getName" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="37vLTw" id="4JQ6_GR9tNl" role="3uHU7w">
+                                      <ref role="3cqZAo" node="2cqAxlhxUa$" resolve="PATH_SEPARATOR" />
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -3277,6 +3367,53 @@
         <node concept="17QB3L" id="2cqAxlhvh46" role="_ZDj9" />
       </node>
     </node>
+    <node concept="2tJIrI" id="4JQ6_GR481r" role="jymVt" />
+    <node concept="3clFb_" id="4JQ6_GR4iOw" role="jymVt">
+      <property role="TrG5h" value="isEmptyDirectory" />
+      <node concept="37vLTG" id="4JQ6_GR4iOx" role="3clF46">
+        <property role="TrG5h" value="dir" />
+        <node concept="2AHcQZ" id="4JQ6_GR4iOy" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+        <node concept="3uibUv" id="4JQ6_GR4iOz" role="1tU5fm">
+          <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4JQ6_GR4iO$" role="3clF47">
+        <node concept="3cpWs6" id="4JQ6_GR4iO_" role="3cqZAp">
+          <node concept="1Wc70l" id="4JQ6_GR4iOA" role="3cqZAk">
+            <node concept="1Wc70l" id="4JQ6_GR4iOB" role="3uHU7B">
+              <node concept="3y3z36" id="4JQ6_GR4iOC" role="3uHU7B">
+                <node concept="37vLTw" id="4JQ6_GR4iOD" role="3uHU7B">
+                  <ref role="3cqZAo" node="4JQ6_GR4iOx" resolve="dir" />
+                </node>
+                <node concept="10Nm6u" id="4JQ6_GR4iOE" role="3uHU7w" />
+              </node>
+              <node concept="2OqwBi" id="4JQ6_GR4zmV" role="3uHU7w">
+                <node concept="37vLTw" id="4JQ6_GR4r4l" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4JQ6_GR4iOx" resolve="dir" />
+                </node>
+                <node concept="liA8E" id="4JQ6_GR4zmW" role="2OqNvi">
+                  <ref role="37wK5l" to="jlff:~VirtualFile.isDirectory()" resolve="isDirectory" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4JQ6_GR5dVF" role="3uHU7w">
+              <node concept="1rXfSq" id="4JQ6_GR53JO" role="2Oq$k0">
+                <ref role="37wK5l" node="2cqAxlf_Eh9" resolve="getChildrenMap" />
+                <node concept="37vLTw" id="4JQ6_GR5w5I" role="37wK5m">
+                  <ref role="3cqZAo" node="4JQ6_GR4iOx" resolve="dir" />
+                </node>
+              </node>
+              <node concept="1v1jN8" id="4JQ6_GR5nf3" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="4JQ6_GR4iOJ" role="1B3o_S" />
+      <node concept="10P_77" id="4JQ6_GR4iOK" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="4JQ6_GR481s" role="jymVt" />
   </node>
 </model>
 

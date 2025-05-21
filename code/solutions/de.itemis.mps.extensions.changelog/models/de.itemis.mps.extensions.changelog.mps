@@ -1517,19 +1517,14 @@
         </node>
         <node concept="2DRihI" id="6gc5GilNbZR" role="15bAlk">
           <node concept="2hgSXJ" id="6gc5GilNbZS" role="1PaTwD">
-            <node concept="1PaTwC" id="6gc5GilNbZT" role="2hiFM$">
-              <node concept="tu5oc" id="6gc5GilNc0p" role="1PaTwD">
-                <node concept="15Ami3" id="6gc5GilNc0q" role="tu5of">
-                  <node concept="37shsh" id="6gc5GilNc0r" role="15Aodc">
-                    <node concept="1dCxOk" id="6gc5GilNc0s" role="37shsm">
-                      <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
-                      <property role="1XxBO9" value="de.itemis.mps.compare" />
-                    </node>
+            <node concept="1PaTwC" id="6EBrv8csaSC" role="2hiFM$">
+              <node concept="15Ami3" id="6EBrv8csaX4" role="1PaTwD">
+                <node concept="37shsh" id="6EBrv8csaX6" role="15Aodc">
+                  <node concept="1dCxOk" id="6EBrv8csaXE" role="37shsm">
+                    <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
+                    <property role="1XxBO9" value="de.itemis.mps.compare" />
                   </node>
                 </node>
-              </node>
-              <node concept="3oM_SD" id="6gc5GilNbZX" role="1PaTwD">
-                <property role="3oM_SC" value=":" />
               </node>
             </node>
           </node>
@@ -1543,7 +1538,7 @@
             <property role="3oM_SC" value="and" />
           </node>
           <node concept="3oM_SD" id="6gc5GilNc12" role="1PaTwD">
-            <property role="3oM_SC" value="comparetor" />
+            <property role="3oM_SC" value="comparator" />
           </node>
           <node concept="3oM_SD" id="6gc5GilNc0T" role="1PaTwD">
             <property role="3oM_SC" value="language" />
@@ -1558,13 +1553,13 @@
             <property role="3oM_SC" value="from" />
           </node>
           <node concept="3oM_SD" id="6gc5GilNc0Y" role="1PaTwD">
-            <property role="3oM_SC" value="embeddr" />
+            <property role="3oM_SC" value="mbeddr" />
           </node>
           <node concept="3oM_SD" id="6gc5GilNc0Z" role="1PaTwD">
             <property role="3oM_SC" value="to" />
           </node>
           <node concept="3oM_SD" id="6gc5GilNc10" role="1PaTwD">
-            <property role="3oM_SC" value="mps-extension." />
+            <property role="3oM_SC" value="MPS-extensions." />
           </node>
         </node>
       </node>

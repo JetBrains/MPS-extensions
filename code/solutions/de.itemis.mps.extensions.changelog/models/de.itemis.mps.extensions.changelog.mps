@@ -479,6 +479,84 @@
           <node concept="3oM_SD" id="2qPu2xpL7wf" role="1PaTwD">
             <property role="3oM_SC" value="disk." />
           </node>
+          <node concept="3oM_SD" id="4JQ6_GRpU6T" role="1PaTwD">
+            <property role="3oM_SC" value="To" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpU7W" role="1PaTwD">
+            <property role="3oM_SC" value="make" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpU7X" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpU7Y" role="1PaTwD">
+            <property role="3oM_SC" value="tests" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpU91" role="1PaTwD">
+            <property role="3oM_SC" value="work" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpU92" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpU93" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpU94" role="1PaTwD">
+            <property role="3oM_SC" value="CI," />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUa7" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUbb" role="1PaTwD">
+            <property role="3oM_SC" value="resources" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUbc" role="1PaTwD">
+            <property role="3oM_SC" value="files" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUft" role="1PaTwD">
+            <property role="3oM_SC" value="entry" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUfu" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUhz" role="1PaTwD">
+            <property role="3oM_SC" value="those" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUh$" role="1PaTwD">
+            <property role="3oM_SC" value="directories" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUiB" role="1PaTwD">
+            <property role="3oM_SC" value="must" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUiC" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUiD" role="1PaTwD">
+            <property role="3oM_SC" value="added" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUjG" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUkJ" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUkK" role="1PaTwD">
+            <property role="3oM_SC" value="containing" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUmP" role="1PaTwD">
+            <property role="3oM_SC" value="solution" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUmQ" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUmR" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUmS" role="1PaTwD">
+            <property role="3oM_SC" value="build" />
+          </node>
+          <node concept="3oM_SD" id="4JQ6_GRpUnV" role="1PaTwD">
+            <property role="3oM_SC" value="script." />
+          </node>
         </node>
         <node concept="2DRihI" id="$kD7tOLc98" role="15bAlk">
           <node concept="15Ami3" id="$kD7tOLccK" role="1PaTwD">

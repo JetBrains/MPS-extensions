@@ -550,7 +550,7 @@
   </node>
   <node concept="13h7C7" id="2qPu2xnFQ1E">
     <property role="3GE5qa" value="queryFunction" />
-    <ref role="13h7C2" to="8do3:2qPu2xnFPVu" resolve="QueryFunction_WhiteSpacehandling" />
+    <ref role="13h7C2" to="8do3:2qPu2xnFPVu" resolve="QueryFunction_WhiteSpaceHandling" />
     <node concept="13i0hz" id="2qPu2xnFQ1X" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />

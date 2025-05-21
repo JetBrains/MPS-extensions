@@ -1505,24 +1505,40 @@
                   </node>
                 </node>
                 <node concept="3clFbJ" id="2cqAxlf_Ehy" role="3cqZAp">
-                  <node concept="1Wc70l" id="2cqAxlf_Ehz" role="3clFbw">
-                    <node concept="2OqwBi" id="2cqAxlfG0Li" role="3uHU7w">
-                      <node concept="37vLTw" id="2cqAxlfA88X" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2cqAxlf_Ehu" resolve="name" />
+                  <node concept="22lmx$" id="4JQ6_GQrnP5" role="3clFbw">
+                    <node concept="1Wc70l" id="2cqAxlf_Ehz" role="3uHU7B">
+                      <node concept="2OqwBi" id="2qPu2xo2sVl" role="3uHU7B">
+                        <node concept="37vLTw" id="2qPu2xo2nCq" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2qPu2xnYwGs" resolve="options" />
+                        </node>
+                        <node concept="2S8uIT" id="2qPu2xo2AkM" role="2OqNvi">
+                          <ref role="2S8YL0" node="2qPu2xo0hYw" resolve="ignoreHiddenFiles" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="2cqAxlfG0Lj" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
-                        <node concept="37vLTw" id="2cqAxlimX7n" role="37wK5m">
-                          <ref role="3cqZAo" node="2cqAxlhRU1p" resolve="HIDDEN_FILES_PREFIX" />
+                      <node concept="1eOMI4" id="4JQ6_GQrgrx" role="3uHU7w">
+                        <node concept="2OqwBi" id="2cqAxlfG0Li" role="1eOMHV">
+                          <node concept="37vLTw" id="2cqAxlfA88X" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2cqAxlf_Ehu" resolve="name" />
+                          </node>
+                          <node concept="liA8E" id="2cqAxlfG0Lj" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
+                            <node concept="37vLTw" id="2cqAxlimX7n" role="37wK5m">
+                              <ref role="3cqZAo" node="2cqAxlhRU1p" resolve="HIDDEN_FILES_PREFIX" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="2qPu2xo2sVl" role="3uHU7B">
-                      <node concept="37vLTw" id="2qPu2xo2nCq" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2qPu2xnYwGs" resolve="options" />
+                    <node concept="2OqwBi" id="4JQ6_GQrsOx" role="3uHU7w">
+                      <node concept="liA8E" id="4JQ6_GQjxGJ" role="2OqNvi">
+                        <ref role="37wK5l" to="jlff:~VirtualFile.is(com.intellij.openapi.vfs.VFileProperty)" resolve="is" />
+                        <node concept="Rm8GO" id="4JQ6_GQjKdy" role="37wK5m">
+                          <ref role="Rm8GQ" to="jlff:~VFileProperty.HIDDEN" resolve="HIDDEN" />
+                          <ref role="1Px2BO" to="jlff:~VFileProperty" resolve="VFileProperty" />
+                        </node>
                       </node>
-                      <node concept="2S8uIT" id="2qPu2xo2AkM" role="2OqNvi">
-                        <ref role="2S8YL0" node="2qPu2xo0hYw" resolve="ignoreHiddenFiles" />
+                      <node concept="37vLTw" id="4JQ6_GQrsOy" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2cqAxlf_EhP" resolve="child" />
                       </node>
                     </node>
                   </node>

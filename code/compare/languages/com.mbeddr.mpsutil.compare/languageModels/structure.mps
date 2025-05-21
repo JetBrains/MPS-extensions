@@ -274,6 +274,8 @@
     <property role="TrG5h" value="QueryFunction_GeneratorOptions" />
     <property role="EcuMT" value="6473715840833912944" />
     <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize the generator options" />
+    <property role="34LRSv" value="generator options" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="gCpncv5">
@@ -350,25 +352,31 @@
       <property role="IQ2ns" value="2789267658891027203" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="whitespaceHandling" />
-      <ref role="20lvS9" node="2qPu2xnFPVu" resolve="QueryFunction_WhiteSpacehandling" />
+      <ref role="20lvS9" node="2qPu2xnFPVu" resolve="QueryFunction_WhiteSpaceHandling" />
     </node>
   </node>
   <node concept="1TIwiD" id="2cqAxliUIf_">
     <property role="TrG5h" value="QueryFunction_IgnoreHiddenFiles" />
     <property role="EcuMT" value="2529503557098071013" />
     <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize if hidden files are compared" />
+    <property role="34LRSv" value="ignore hidden files" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="2cqAxliUS_j">
     <property role="TrG5h" value="QueryFunction_IgnoreCase" />
     <property role="EcuMT" value="2529503557098113363" />
     <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize if the case of files should be ignored" />
+    <property role="34LRSv" value="ignore case" />
     <ref role="1TJDcQ" node="2cqAxliUIf_" resolve="QueryFunction_IgnoreHiddenFiles" />
   </node>
   <node concept="1TIwiD" id="2qPu2xnFPVu">
-    <property role="TrG5h" value="QueryFunction_WhiteSpacehandling" />
+    <property role="TrG5h" value="QueryFunction_WhiteSpaceHandling" />
     <property role="EcuMT" value="2789267658891026142" />
     <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize how whitespace is handled when diffing two files" />
+    <property role="34LRSv" value="whitespace handling" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>

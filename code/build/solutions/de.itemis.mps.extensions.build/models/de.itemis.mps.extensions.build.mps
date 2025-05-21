@@ -24259,7 +24259,7 @@
               </node>
             </node>
             <node concept="3qWCbU" id="2cqAxlknr9Q" role="3LXTna">
-              <property role="3qWCbO" value="test_content/**, test_content_lower_case/**, test_content_only_one_file/**, test_content_wrong/**, test_content_without_spaces/**" />
+              <property role="3qWCbO" value="test_content/**, test_content_lower_case/**, test_content_only_one_file/**, test_content_wrong/**, test_content_without_spaces/**, directoryCompare/**" />
             </node>
           </node>
         </node>

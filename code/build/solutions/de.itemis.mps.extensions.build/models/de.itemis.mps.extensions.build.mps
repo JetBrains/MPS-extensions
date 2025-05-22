@@ -14130,6 +14130,9 @@
       <node concept="m$_yC" id="61MeLv2PUTc" role="m$_yJ">
         <ref role="m$_y1" node="6hpTCZQdXQX" resolve="com.mbeddr.mpsutil.editor.querylist" />
       </node>
+      <node concept="m$_yC" id="4TTyUQxowCT" role="m$_yJ">
+        <ref role="m$_y1" node="hCVXosGNJH" resolve="com.mbeddr.mpsutil.modellisteners" />
+      </node>
       <node concept="3_J27D" id="TAJODzUQvv" role="m_cZH">
         <node concept="3Mxwew" id="TAJODzUQvw" role="3MwsjC">
           <property role="3MwjfP" value="com.mbeddr.mpsutil.intentions" />
@@ -16139,6 +16142,15 @@
       </node>
       <node concept="m$_yC" id="7xgxWxItROc" role="m$_yJ">
         <ref role="m$_y1" node="1sO539bGQvt" resolve="de.slisson.mps.richtext" />
+      </node>
+      <node concept="m$_yC" id="2$OhZnbv7vA" role="m$_yJ">
+        <ref role="m$_y1" node="F1NWDqr5lJ" resolve="de.itemis.mps.grammarcells" />
+      </node>
+      <node concept="m$_yC" id="2$OhZnbvdMf" role="m$_yJ">
+        <ref role="m$_y1" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
+      </node>
+      <node concept="m$_yC" id="2$OhZnbve2I" role="m$_yJ">
+        <ref role="m$_y1" node="2IcGFIaJU8j" resolve="MPS.Kotlin" />
       </node>
     </node>
     <node concept="2G$12M" id="77YfcvOKyvQ" role="3989C9">

@@ -33,7 +33,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="2V55j61UUXq">
-    <ref role="1XX52x" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+    <ref role="1XX52x" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
     <node concept="3EZMnI" id="2V55j61UUXs" role="2wV5jI">
       <node concept="3F0ifn" id="2V55j61UUXz" role="3EZMnx">
         <property role="3F0ifm" value="data:" />

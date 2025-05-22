@@ -25386,6 +25386,9 @@
         <ref role="22LTRN" node="2cqAxlknq_h" resolve="com.mbeddr.mpsutil.comparator.diff.tests" />
       </node>
     </node>
+    <node concept="2igEWh" id="1OMGwhrtizD" role="1hWBAP">
+      <property role="3UIfUI" value="1024" />
+    </node>
   </node>
 </model>
 

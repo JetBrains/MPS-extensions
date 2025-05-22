@@ -25,7 +25,6 @@
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
       <concept id="1216380990741" name="jetbrains.mps.lang.editor.structure.CellModel_TransactionalProperty" flags="sg" stub="8104358048506729358" index="PXfge">
-        <reference id="1216381219207" name="property" index="PY72s" />
         <child id="1216381211800" name="handlerBlock" index="PY5m3" />
       </concept>
       <concept id="1216381054717" name="jetbrains.mps.lang.editor.structure.TransactionalPropertyHandler" flags="in" index="PXuZA" />
@@ -105,7 +104,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="PXfge" id="7Sc8bwtPvfD" role="3EZMnx">
-          <ref role="PY72s" to="tegv:54z9_KDO50a" resolve="label" />
+          <ref role="1NtTu8" to="tegv:54z9_KDO50a" resolve="label" />
           <node concept="PXuZA" id="7Sc8bwtPvfF" role="PY5m3">
             <node concept="3clFbS" id="7Sc8bwtPvfH" role="2VODD2">
               <node concept="3clFbF" id="$kD7tOMT$T" role="3cqZAp">

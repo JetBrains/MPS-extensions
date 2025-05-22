@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="de.itemis.mps.compare" uuid="f47b95d4-5e73-4c04-9204-18076950153b" languageVersion="0" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
     </modelRoot>
   </models>
@@ -15,7 +15,7 @@
   <generators>
     <generator alias="" namespace="de.itemis.mps.compare#756135271275941091" uuid="3b21f776-9e24-4e37-9639-70bded433068">
       <models>
-        <modelRoot type="default" contentPath="${module}">
+        <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
         </modelRoot>
       </models>

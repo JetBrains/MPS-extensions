@@ -3220,7 +3220,7 @@
                   <ref role="3cqZAo" node="2qPu2xqTGMl" resolve="file" />
                 </node>
                 <node concept="liA8E" id="2qPu2xqTNqp" role="2OqNvi">
-                  <ref role="37wK5l" to="jlff:~VirtualFile.getPath()" resolve="getPath" />
+                  <ref role="37wK5l" to="jlff:~VirtualFile.getCanonicalPath()" resolve="getCanonicalPath" />
                 </node>
               </node>
             </node>
@@ -4431,6 +4431,34 @@
                 </node>
               </node>
             </node>
+            <node concept="3SKdUt" id="5kU1jhAzEum" role="3cqZAp">
+              <node concept="1PaTwC" id="5kU1jhAzEun" role="1aUNEU">
+                <node concept="3oM_SD" id="5kU1jhAzEOd" role="1PaTwD">
+                  <property role="3oM_SC" value="can't" />
+                </node>
+                <node concept="3oM_SD" id="5kU1jhAzGaF" role="1PaTwD">
+                  <property role="3oM_SC" value="relativize" />
+                </node>
+                <node concept="3oM_SD" id="5kU1jhAzGcL" role="1PaTwD">
+                  <property role="3oM_SC" value="because" />
+                </node>
+                <node concept="3oM_SD" id="5kU1jhAzGeR" role="1PaTwD">
+                  <property role="3oM_SC" value="there" />
+                </node>
+                <node concept="3oM_SD" id="5kU1jhAzGE2" role="1PaTwD">
+                  <property role="3oM_SC" value="is" />
+                </node>
+                <node concept="3oM_SD" id="5kU1jhAzGG8" role="1PaTwD">
+                  <property role="3oM_SC" value="no" />
+                </node>
+                <node concept="3oM_SD" id="5kU1jhAzGIe" role="1PaTwD">
+                  <property role="3oM_SC" value="reference" />
+                </node>
+                <node concept="3oM_SD" id="5kU1jhAzGIf" role="1PaTwD">
+                  <property role="3oM_SC" value="path" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="2qPu2xqXfW4" role="3cqZAp">
               <node concept="2OqwBi" id="2qPu2xqXfW5" role="3clFbG">
                 <node concept="2WthIp" id="2qPu2xqXfW6" role="2Oq$k0" />
@@ -4440,7 +4468,7 @@
                     <property role="Xl_RC" value="../file.txt" />
                   </node>
                   <node concept="Xl_RD" id="2qPu2xqXVM4" role="2XxRq1">
-                    <property role="Xl_RC" value="/file.txt" />
+                    <property role="Xl_RC" value="/../file.txt" />
                   </node>
                 </node>
               </node>

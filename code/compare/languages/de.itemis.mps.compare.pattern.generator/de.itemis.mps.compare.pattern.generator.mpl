@@ -81,13 +81,13 @@
           <greater-priority-mapping>
             <generator generatorUID="061ef218-57ee-4790-80b3-7fbdddd73f64(de.itemis.mps.compare.pattern.generator#8339258394654012058)" />
             <external-mapping>
-              <mapping-node modelUID="r:85ad44c5-a152-4f14-9818-b030f7043027(com.mbeddr.mpsutil.compare.pattern.generator.generator.template.main@generator)" nodeID="8339258394654012059" />
+              <mapping-node modelUID="r:85ad44c5-a152-4f14-9818-b030f7043027(de.itemis.mps.compare.pattern.generator.generator.template.main@generator)" nodeID="8339258394654012059" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="9bd710ee-b327-4b50-8552-ecd3829a9d2b(de.itemis.mps.compare.pattern#3560698633098117280)" />
             <external-mapping>
-              <mapping-node modelUID="r:77a1f13f-8b60-493a-85be-0cd342d922f6(com.mbeddr.mpsutil.compare.pattern.generator.template.main@generator)" nodeID="3560698633098117281" />
+              <mapping-node modelUID="r:77a1f13f-8b60-493a-85be-0cd342d922f6(de.itemis.mps.compare.pattern.generator.template.main@generator)" nodeID="3560698633098117281" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>

@@ -1705,7 +1705,12 @@
                                 <node concept="2OqwBi" id="FWwRLn6D$f" role="2Oq$k0">
                                   <node concept="liA8E" id="FWwRLn6D$j" role="2OqNvi">
                                     <ref role="37wK5l" to="qkt:~DefaultActionGroup.getChildren(com.intellij.openapi.actionSystem.AnActionEvent)" resolve="getChildren" />
-                                    <node concept="10Nm6u" id="FWwRLn6D$h" role="37wK5m" />
+                                    <node concept="10QFUN" id="2$OhZnb_JL1" role="37wK5m">
+                                      <node concept="10Nm6u" id="2$OhZnb_JL0" role="10QFUP" />
+                                      <node concept="3uibUv" id="2$OhZnb_JKX" role="10QFUM">
+                                        <ref role="3uigEE" to="qkt:~AnActionEvent" resolve="AnActionEvent" />
+                                      </node>
+                                    </node>
                                   </node>
                                   <node concept="37vLTw" id="2A8KNgIJqDO" role="2Oq$k0">
                                     <ref role="3cqZAo" node="2A8KNgIIBIs" resolve="group" />

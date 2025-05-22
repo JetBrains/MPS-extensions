@@ -273,7 +273,7 @@
                           <node concept="2ShNRf" id="1BWCx_niwYw" role="37wK5m">
                             <node concept="1pGfFk" id="1BWCx_niwYx" role="2ShVmc">
                               <property role="373rjd" value="true" />
-                              <ref role="37wK5l" to="ih8q:2jDew64KaGG" resolve="MyIntentionMenuProducer" />
+                              <ref role="37wK5l" to="ih8q:2jDew64KaGG" resolve="ActionIntentionMenuProducer" />
                               <node concept="37vLTw" id="1BWCx_niwYy" role="37wK5m">
                                 <ref role="3cqZAo" node="1BWCx_njhVL" resolve="nodeEditorComponent" />
                               </node>

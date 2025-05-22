@@ -69,7 +69,7 @@
           <greater-priority-mapping>
             <generator generatorUID="9bd710ee-b327-4b50-8552-ecd3829a9d2b(de.itemis.mps.compare.pattern#3560698633098117280)" />
             <external-mapping>
-              <mapping-node modelUID="r:77a1f13f-8b60-493a-85be-0cd342d922f6(com.mbeddr.mpsutil.compare.pattern.generator.template.main@generator)" nodeID="3560698633098117281" />
+              <mapping-node modelUID="r:77a1f13f-8b60-493a-85be-0cd342d922f6(de.itemis.mps.compare.pattern.generator.template.main@generator)" nodeID="3560698633098117281" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>

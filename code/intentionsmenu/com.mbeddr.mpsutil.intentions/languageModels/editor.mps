@@ -2,16 +2,16 @@
 <model ref="r:1b71c6d7-41ff-44a2-a61c-39c2a9779c34(com.mbeddr.mpsutil.intentions.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
-    <import index="ih8q" ref="r:990d360b-3ac3-45fa-8ed3-0bbf017bba84(com.mbeddr.mpsutil.intentions.runtime)" />
-    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="7bx7" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.workbench.action(MPS.Platform/)" />
+    <import index="ih8q" ref="r:990d360b-3ac3-45fa-8ed3-0bbf017bba84(com.mbeddr.mpsutil.intentions.runtime)" />
     <import index="tegv" ref="r:b91d2412-f094-4e55-8db6-3c782d7edc40(com.mbeddr.mpsutil.intentions.structure)" implicit="true" />
     <import index="9j2l" ref="r:acd2b506-390d-4e84-8c47-cd8fb8c9e0c0(com.mbeddr.mpsutil.intentions.behavior)" implicit="true" />
   </imports>
@@ -100,6 +100,10 @@
         <node concept="3F0ifn" id="54z9_KDO5SK" role="3EZMnx">
           <property role="3F0ifm" value="group:" />
         </node>
+        <node concept="2iRfu4" id="54z9_KDO5SG" role="2iSdaV" />
+        <node concept="3vyZuw" id="54z9_KDO752" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
         <node concept="PXfge" id="7Sc8bwtPvfD" role="3EZMnx">
           <ref role="PY72s" to="tegv:54z9_KDO50a" resolve="label" />
           <node concept="PXuZA" id="7Sc8bwtPvfF" role="PY5m3">
@@ -117,10 +121,6 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="2iRfu4" id="54z9_KDO5SG" role="2iSdaV" />
-        <node concept="3vyZuw" id="54z9_KDO752" role="3F10Kt">
-          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="2SsqMj" id="54z9_KDO5Tc" role="3EZMnx" />

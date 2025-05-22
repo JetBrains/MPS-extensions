@@ -3180,27 +3180,20 @@
                 <node concept="3uibUv" id="2qPu2xqTFCv" role="1tU5fm">
                   <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
                 </node>
-                <node concept="2OqwBi" id="2qPu2xqTGMm" role="33vP2m">
-                  <node concept="2PDubS" id="2qPu2xqTGMo" role="2OqNvi">
-                    <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                    <node concept="37vLTw" id="2qPu2xqU1hc" role="37wK5m">
-                      <ref role="3cqZAo" node="2qPu2xqU1h9" resolve="dummyFS" />
-                    </node>
-                    <node concept="37vLTw" id="2qPu2xqTGMq" role="37wK5m">
-                      <ref role="3cqZAo" node="2qPu2xqTYxQ" resolve="root" />
-                    </node>
-                    <node concept="37vLTw" id="2qPu2xqTGMr" role="37wK5m">
-                      <ref role="3cqZAo" node="2qPu2xqTrG4" resolve="path" />
-                    </node>
-                    <node concept="Xl_RD" id="2qPu2xqTGMs" role="37wK5m">
-                      <property role="Xl_RC" value="some content" />
-                    </node>
+                <node concept="2YIFZM" id="7gByDwHbjg8" role="33vP2m">
+                  <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                  <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                  <node concept="37vLTw" id="2qPu2xqU1hc" role="37wK5m">
+                    <ref role="3cqZAo" node="2qPu2xqU1h9" resolve="dummyFS" />
                   </node>
-                  <node concept="2ShNRf" id="2qPu2xqUhKX" role="2Oq$k0">
-                    <node concept="HV5vD" id="2qPu2xqUhKY" role="2ShVmc">
-                      <property role="373rjd" value="true" />
-                      <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-                    </node>
+                  <node concept="37vLTw" id="2qPu2xqTGMq" role="37wK5m">
+                    <ref role="3cqZAo" node="2qPu2xqTYxQ" resolve="root" />
+                  </node>
+                  <node concept="37vLTw" id="2qPu2xqTGMr" role="37wK5m">
+                    <ref role="3cqZAo" node="2qPu2xqTrG4" resolve="path" />
+                  </node>
+                  <node concept="Xl_RD" id="2qPu2xqTGMs" role="37wK5m">
+                    <property role="Xl_RC" value="some content" />
                   </node>
                 </node>
               </node>
@@ -4122,20 +4115,6 @@
       <property role="TrG5h" value="virtualFileCreation" />
       <node concept="3cqZAl" id="2cqAxlebUi4" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlebUi5" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlebUi6" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlebUi7" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlebUi8" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlebUi9" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlebUia" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="2cqAxldnhnt" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxldnhnu" role="3cpWs9">
             <property role="TrG5h" value="dummyFS" />
@@ -4206,24 +4185,20 @@
                 <node concept="3uibUv" id="2cqAxleckxg" role="1tU5fm">
                   <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
                 </node>
-                <node concept="2OqwBi" id="2cqAxleckzE" role="33vP2m">
-                  <node concept="37vLTw" id="2cqAxleckzF" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2cqAxlebUi7" resolve="comparison" />
+                <node concept="2YIFZM" id="7gByDwHbjTW" role="33vP2m">
+                  <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                  <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                  <node concept="37vLTw" id="2qPu2xp$I6G" role="37wK5m">
+                    <ref role="3cqZAo" node="2cqAxldnhnu" resolve="dummyFS" />
                   </node>
-                  <node concept="2PDubS" id="2cqAxleckzG" role="2OqNvi">
-                    <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                    <node concept="37vLTw" id="2qPu2xp$I6G" role="37wK5m">
-                      <ref role="3cqZAo" node="2cqAxldnhnu" resolve="dummyFS" />
-                    </node>
-                    <node concept="37vLTw" id="2cqAxleckzH" role="37wK5m">
-                      <ref role="3cqZAo" node="2cqAxldnhny" resolve="root" />
-                    </node>
-                    <node concept="Xl_RD" id="2cqAxledCbx" role="37wK5m">
-                      <property role="Xl_RC" value="x/y" />
-                    </node>
-                    <node concept="37vLTw" id="2cqAxlecoAu" role="37wK5m">
-                      <ref role="3cqZAo" node="2cqAxleconI" resolve="expectedContent" />
-                    </node>
+                  <node concept="37vLTw" id="2cqAxleckzH" role="37wK5m">
+                    <ref role="3cqZAo" node="2cqAxldnhny" resolve="root" />
+                  </node>
+                  <node concept="Xl_RD" id="2cqAxledCbx" role="37wK5m">
+                    <property role="Xl_RC" value="x/y" />
+                  </node>
+                  <node concept="37vLTw" id="2cqAxlecoAu" role="37wK5m">
+                    <ref role="3cqZAo" node="2cqAxleconI" resolve="expectedContent" />
                   </node>
                 </node>
               </node>
@@ -4568,6 +4543,322 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="7gByDwHM$DH" role="3cqZAp" />
+            <node concept="3SKdUt" id="7gByDwHM_aY" role="3cqZAp">
+              <node concept="1PaTwC" id="7gByDwHM_aZ" role="1aUNEU">
+                <node concept="3oM_SD" id="7gByDwHM_b0" role="1PaTwD">
+                  <property role="3oM_SC" value="Standard" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_b1" role="1PaTwD">
+                  <property role="3oM_SC" value="Windows" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_b2" role="1PaTwD">
+                  <property role="3oM_SC" value="path" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_b3" role="1PaTwD">
+                  <property role="3oM_SC" value="with" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_b4" role="1PaTwD">
+                  <property role="3oM_SC" value="backslashes" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHMABL" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHMB1z" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHMABJ" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHMBgZ" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHMBv1" role="2XxRq1">
+                    <property role="Xl_RC" value="C:\\Users\\test\\file.txt" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHMBRR" role="2XxRq1">
+                    <property role="Xl_RC" value="/C:/Users/test/file.txt" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7gByDwHM_b5" role="3cqZAp">
+              <node concept="1PaTwC" id="7gByDwHM_b6" role="1aUNEU">
+                <node concept="3oM_SD" id="7gByDwHM_b7" role="1PaTwD">
+                  <property role="3oM_SC" value="Path" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_b8" role="1PaTwD">
+                  <property role="3oM_SC" value="with" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_b9" role="1PaTwD">
+                  <property role="3oM_SC" value="mixed" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_ba" role="1PaTwD">
+                  <property role="3oM_SC" value="slashes" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHMD1n" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHMD1o" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHMD1p" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHMD1q" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHMD1r" role="2XxRq1">
+                    <property role="Xl_RC" value="C:/Users\\test\\file.txt" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHMD1s" role="2XxRq1">
+                    <property role="Xl_RC" value="/C:/Users/test/file.txt" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7gByDwHM_bb" role="3cqZAp">
+              <node concept="1PaTwC" id="7gByDwHM_bc" role="1aUNEU">
+                <node concept="3oM_SD" id="7gByDwHM_bd" role="1PaTwD">
+                  <property role="3oM_SC" value="UNC" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_be" role="1PaTwD">
+                  <property role="3oM_SC" value="path" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bf" role="1PaTwD">
+                  <property role="3oM_SC" value="(network" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bg" role="1PaTwD">
+                  <property role="3oM_SC" value="share)" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHMEab" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHMEac" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHMEad" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHMEae" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHMEaf" role="2XxRq1">
+                    <property role="Xl_RC" value="\\\\server\\share\\folder\\file.txt" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHMEag" role="2XxRq1">
+                    <property role="Xl_RC" value="/server/share/folder/file.txt" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7gByDwHM_bh" role="3cqZAp">
+              <node concept="1PaTwC" id="7gByDwHM_bi" role="1aUNEU">
+                <node concept="3oM_SD" id="7gByDwHM_bj" role="1PaTwD">
+                  <property role="3oM_SC" value="Path" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bk" role="1PaTwD">
+                  <property role="3oM_SC" value="with" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bl" role="1PaTwD">
+                  <property role="3oM_SC" value="drive" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bm" role="1PaTwD">
+                  <property role="3oM_SC" value="letter" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bn" role="1PaTwD">
+                  <property role="3oM_SC" value="and" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bo" role="1PaTwD">
+                  <property role="3oM_SC" value="trailing" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bp" role="1PaTwD">
+                  <property role="3oM_SC" value="backslash" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHMFjn" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHMFjo" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHMFjp" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHMFjq" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHMFjr" role="2XxRq1">
+                    <property role="Xl_RC" value="D:\\folder\\subfolder\\" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHMFjs" role="2XxRq1">
+                    <property role="Xl_RC" value="/D:/folder/subfolder" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7gByDwHM_bq" role="3cqZAp">
+              <node concept="1PaTwC" id="7gByDwHM_br" role="1aUNEU">
+                <node concept="3oM_SD" id="7gByDwHM_bs" role="1PaTwD">
+                  <property role="3oM_SC" value="Path" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bt" role="1PaTwD">
+                  <property role="3oM_SC" value="with" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bu" role="1PaTwD">
+                  <property role="3oM_SC" value="spaces" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bv" role="1PaTwD">
+                  <property role="3oM_SC" value="and" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bw" role="1PaTwD">
+                  <property role="3oM_SC" value="special" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bx" role="1PaTwD">
+                  <property role="3oM_SC" value="characters" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHMGsV" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHMGsW" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHMGsX" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHMGsY" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHMGsZ" role="2XxRq1">
+                    <property role="Xl_RC" value="C:\\Program Files\\Test Folder\\file.txt" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHMGt0" role="2XxRq1">
+                    <property role="Xl_RC" value="/C:/Program Files/Test Folder/file.txt" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7gByDwHM_by" role="3cqZAp">
+              <node concept="1PaTwC" id="7gByDwHM_bz" role="1aUNEU">
+                <node concept="3oM_SD" id="7gByDwHM_b$" role="1PaTwD">
+                  <property role="3oM_SC" value="Root" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_b_" role="1PaTwD">
+                  <property role="3oM_SC" value="of" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bA" role="1PaTwD">
+                  <property role="3oM_SC" value="a" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bB" role="1PaTwD">
+                  <property role="3oM_SC" value="drive" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHMHqN" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHMHqO" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHMHqP" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHMHqQ" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHMHqR" role="2XxRq1">
+                    <property role="Xl_RC" value="E:\\" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHMHqS" role="2XxRq1">
+                    <property role="Xl_RC" value="/E:" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7gByDwHM_bC" role="3cqZAp">
+              <node concept="1PaTwC" id="7gByDwHM_bD" role="1aUNEU">
+                <node concept="3oM_SD" id="7gByDwHM_bE" role="1PaTwD">
+                  <property role="3oM_SC" value="File" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bF" role="1PaTwD">
+                  <property role="3oM_SC" value="at" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bG" role="1PaTwD">
+                  <property role="3oM_SC" value="root" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bH" role="1PaTwD">
+                  <property role="3oM_SC" value="of" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bI" role="1PaTwD">
+                  <property role="3oM_SC" value="drive" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHMIEn" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHMIEo" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHMIEp" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHMIEq" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHMIEr" role="2XxRq1">
+                    <property role="Xl_RC" value="F:\\file.txt" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHMIEs" role="2XxRq1">
+                    <property role="Xl_RC" value="/F:/file.txt" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7gByDwHM_bJ" role="3cqZAp">
+              <node concept="1PaTwC" id="7gByDwHM_bK" role="1aUNEU">
+                <node concept="3oM_SD" id="7gByDwHM_bL" role="1PaTwD">
+                  <property role="3oM_SC" value="Path" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bM" role="1PaTwD">
+                  <property role="3oM_SC" value="with" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bN" role="1PaTwD">
+                  <property role="3oM_SC" value="redundant" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bO" role="1PaTwD">
+                  <property role="3oM_SC" value="backslashes" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHMJSx" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHMJSy" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHMJSz" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHMJS$" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHMJS_" role="2XxRq1">
+                    <property role="Xl_RC" value="G:\\\\folder\\\\file.txt" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHMJSA" role="2XxRq1">
+                    <property role="Xl_RC" value="/G:/folder/file.txt" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7gByDwHM_bP" role="3cqZAp">
+              <node concept="1PaTwC" id="7gByDwHM_bQ" role="1aUNEU">
+                <node concept="3oM_SD" id="7gByDwHM_bR" role="1PaTwD">
+                  <property role="3oM_SC" value="Path" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bS" role="1PaTwD">
+                  <property role="3oM_SC" value="with" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bT" role="1PaTwD">
+                  <property role="3oM_SC" value="dot" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bU" role="1PaTwD">
+                  <property role="3oM_SC" value="and" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bV" role="1PaTwD">
+                  <property role="3oM_SC" value="double" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bW" role="1PaTwD">
+                  <property role="3oM_SC" value="dot" />
+                </node>
+                <node concept="3oM_SD" id="7gByDwHM_bX" role="1PaTwD">
+                  <property role="3oM_SC" value="navigation" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHML7W" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHML7X" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHML7Y" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHML7Z" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHML80" role="2XxRq1">
+                    <property role="Xl_RC" value="C:\\folder\\.\\file.txt" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHML81" role="2XxRq1">
+                    <property role="Xl_RC" value="/C:/folder/file.txt" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7gByDwHMMjo" role="3cqZAp">
+              <node concept="2OqwBi" id="7gByDwHMMjp" role="3clFbG">
+                <node concept="2WthIp" id="7gByDwHMMjq" role="2Oq$k0" />
+                <node concept="2XshWL" id="7gByDwHMMjr" role="2OqNvi">
+                  <ref role="2WH_rO" node="2qPu2xqTlwH" resolve="createFileAndAssert" />
+                  <node concept="Xl_RD" id="7gByDwHMMjs" role="2XxRq1">
+                    <property role="Xl_RC" value="C:\\folder\\..\\file.txt" />
+                  </node>
+                  <node concept="Xl_RD" id="7gByDwHMMjt" role="2XxRq1">
+                    <property role="Xl_RC" value="/C:/file.txt" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7gByDwHM$J3" role="3cqZAp" />
           </node>
         </node>
       </node>
@@ -5268,30 +5559,27 @@
             <node concept="3J1_TO" id="4JQ6_GQXCox" role="3cqZAp">
               <node concept="3clFbS" id="4JQ6_GQXCoy" role="1zxBo7">
                 <node concept="3cpWs6" id="4JQ6_GQXHRF" role="3cqZAp">
-                  <node concept="2OqwBi" id="4JQ6_GQXCo_" role="3cqZAk">
-                    <node concept="2ShNRf" id="4JQ6_GQXFuM" role="2Oq$k0">
-                      <node concept="HV5vD" id="4JQ6_GQXG$k" role="2ShVmc">
-                        <property role="373rjd" value="true" />
-                        <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-                      </node>
+                  <node concept="2YIFZM" id="7gByDwHb1nK" role="3cqZAk">
+                    <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                    <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                    <node concept="37vLTw" id="7gByDwHb20r" role="37wK5m">
+                      <ref role="3cqZAo" node="4JQ6_GQXCou" resolve="fs" />
                     </node>
-                    <node concept="liA8E" id="4JQ6_GQXCoB" role="2OqNvi">
-                      <ref role="37wK5l" to="mqum:4JQ6_GQQ7AX" resolve="createDirectories" />
-                      <node concept="2OqwBi" id="4JQ6_GQXCoC" role="37wK5m">
-                        <node concept="37vLTw" id="4JQ6_GQXCoD" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4JQ6_GQXCou" resolve="fs" />
-                        </node>
-                        <node concept="liA8E" id="4JQ6_GQXCoE" role="2OqNvi">
-                          <ref role="37wK5l" to="4jk:~DummyFileSystem.createRoot(java.lang.String)" resolve="createRoot" />
-                          <node concept="Xl_RD" id="4JQ6_GQXCoF" role="37wK5m">
-                            <property role="Xl_RC" value="" />
-                          </node>
+                    <node concept="2OqwBi" id="7gByDwHb2ip" role="37wK5m">
+                      <node concept="37vLTw" id="7gByDwHb2iq" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4JQ6_GQXCou" resolve="fs" />
+                      </node>
+                      <node concept="liA8E" id="7gByDwHb2ir" role="2OqNvi">
+                        <ref role="37wK5l" to="4jk:~DummyFileSystem.createRoot(java.lang.String)" resolve="createRoot" />
+                        <node concept="Xl_RD" id="7gByDwHb2is" role="37wK5m">
+                          <property role="Xl_RC" value="" />
                         </node>
                       </node>
-                      <node concept="37vLTw" id="4JQ6_GQXCoG" role="37wK5m">
-                        <ref role="3cqZAo" node="4JQ6_GQXCoc" resolve="folderPath" />
-                      </node>
                     </node>
+                    <node concept="37vLTw" id="7gByDwHb2QZ" role="37wK5m">
+                      <ref role="3cqZAo" node="4JQ6_GQXCoc" resolve="folderPath" />
+                    </node>
+                    <node concept="10Nm6u" id="7gByDwHb3ji" role="37wK5m" />
                   </node>
                 </node>
               </node>
@@ -5313,7 +5601,7 @@
                   <property role="TrG5h" value="e" />
                   <node concept="nSUau" id="4JQ6_GQXCoP" role="1tU5fm">
                     <node concept="3uibUv" id="4JQ6_GQXCoQ" role="nSUat">
-                      <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                      <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
                     </node>
                   </node>
                 </node>
@@ -7218,21 +7506,6 @@
       <property role="TrG5h" value="textualDiffOnlyVirtual" />
       <node concept="3cqZAl" id="2cqAxlfysrr" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlfysrs" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlfysrt" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlfysru" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlfysrv" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlfysrw" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlfysrx" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxlfysry" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxlfysrz" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxlfysr$" role="3cpWs9">
             <property role="TrG5h" value="writer" />
@@ -7312,135 +7585,111 @@
         <node concept="3J1_TO" id="2cqAxlfyss2" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxlfyss3" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxlfyss4" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlfyss5" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlfyss6" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlfysru" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbnra" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$IFS" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrE" resolve="expectedFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlfyss7" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$IFS" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrE" resolve="expectedFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlfyss8" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrI" resolve="expectedRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyss9" role="37wK5m">
-                    <property role="Xl_RC" value="a.b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssa" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlfyss8" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrI" resolve="expectedRoot" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyss9" role="37wK5m">
+                  <property role="Xl_RC" value="a.b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssa" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlfyssb" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlfyssc" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlfyssd" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlfysru" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHboZ8" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$JhB" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrE" resolve="expectedFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlfysse" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$JhB" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrE" resolve="expectedFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlfyssf" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrI" resolve="expectedRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssg" role="37wK5m">
-                    <property role="Xl_RC" value="c.d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssh" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlfyssf" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrI" resolve="expectedRoot" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssg" role="37wK5m">
+                  <property role="Xl_RC" value="c.d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssh" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlfyssi" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlfyssj" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlfyssk" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlfysru" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbqy5" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$K93" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrE" resolve="expectedFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlfyssl" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$K93" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrE" resolve="expectedFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlfyssm" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrI" resolve="expectedRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssn" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfysso" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlfyssm" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrI" resolve="expectedRoot" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssn" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfysso" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbH" id="2cqAxlfyssp" role="3cqZAp" />
             <node concept="3clFbF" id="2cqAxlfyssq" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlfyssr" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlfysss" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlfysru" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbs4g" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$KJA" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrQ" resolve="actualFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlfysst" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$KJA" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrQ" resolve="actualFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlfyssu" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrU" resolve="actualRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssv" role="37wK5m">
-                    <property role="Xl_RC" value="a.b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssw" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlfyssu" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrU" resolve="actualRoot" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssv" role="37wK5m">
+                  <property role="Xl_RC" value="a.b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssw" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlfyssx" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlfyssy" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlfyssz" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlfysru" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbwN8" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$Lmz" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrQ" resolve="actualFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlfyss$" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$Lmz" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrQ" resolve="actualFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlfyss_" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrU" resolve="actualRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssA" role="37wK5m">
-                    <property role="Xl_RC" value="c.d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssB" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlfyss_" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrU" resolve="actualRoot" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssA" role="37wK5m">
+                  <property role="Xl_RC" value="c.d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssB" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlfyssC" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlfyssD" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlfyssE" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlfysru" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbyo8" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$LWt" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrQ" resolve="actualFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlfyssF" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$LWt" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrQ" resolve="actualFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlfyssG" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlfysrU" resolve="actualRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssH" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlfyssI" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlfyssG" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlfysrU" resolve="actualRoot" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssH" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlfyssI" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -7615,7 +7864,7 @@
                   <ref role="3cqZAo" node="2qPu2xpfDPp" resolve="comparison" />
                 </node>
                 <node concept="2PDubS" id="2qPu2xpfDQo" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2cqAxlc5Rtc" resolve="createFileWithDirs" />
+                  <ref role="37wK5l" to="mqum:7gByDwH7ys9" resolve="createPath" />
                   <node concept="37vLTw" id="2qPu2xp$Mwt" role="37wK5m">
                     <ref role="3cqZAo" node="2qPu2xpfDP_" resolve="expectedFS" />
                   </node>
@@ -7663,7 +7912,7 @@
                   <ref role="3cqZAo" node="2qPu2xpfDPp" resolve="comparison" />
                 </node>
                 <node concept="2PDubS" id="2qPu2xpfDQ2" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2cqAxlc5Rtc" resolve="createFileWithDirs" />
+                  <ref role="37wK5l" to="mqum:7gByDwH7ys9" resolve="createPath" />
                   <node concept="37vLTw" id="2qPu2xp$N0y" role="37wK5m">
                     <ref role="3cqZAo" node="2qPu2xpfDPL" resolve="actualFS" />
                   </node>
@@ -7758,21 +8007,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFiles" />
       <node concept="3cqZAl" id="2cqAxleWQSz" role="3clF45" />
       <node concept="3clFbS" id="2cqAxleWQS$" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxleWQS_" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxleWQSA" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxleWQSB" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxleWQSC" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxleWQSD" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxleWQSE" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxleWQSF" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxleWQSG" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -7899,68 +8133,56 @@
         <node concept="3J1_TO" id="2cqAxleWQTb" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxleWQTc" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxleWQTd" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxleWQTe" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxleWQTf" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxleWQSA" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHb_3r" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$SX2" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxleWQST" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxleWQTg" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$SX2" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxleWQST" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxleWQTh" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxleWQSX" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxleWQTi" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxleWQTj" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxleWQTh" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxleWQSX" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxleWQTi" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxleWQTj" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxleWQTk" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxleWQTl" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxleWQTm" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxleWQSA" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbAzN" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$TIe" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxleWQST" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxleWQTn" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$TIe" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxleWQST" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxleWQTo" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxleWQSX" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxleWQTp" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxleWQTq" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxleWQTo" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxleWQSX" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxleWQTp" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxleWQTq" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxleWQTr" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxleWQTs" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxleWQTt" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxleWQSA" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbC4r" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$UJJ" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxleWQST" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxleWQTu" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$UJJ" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxleWQST" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxleWQTv" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxleWQSX" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxleWQTw" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxleWQTx" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxleWQTv" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxleWQSX" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxleWQTw" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxleWQTx" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -8036,21 +8258,6 @@
       <property role="TrG5h" value="textualDiffLeadingNewLine" />
       <node concept="3cqZAl" id="2qPu2xoSAqr" role="3clF45" />
       <node concept="3clFbS" id="2qPu2xoSAqs" role="3clF47">
-        <node concept="3cpWs8" id="2qPu2xoSAqt" role="3cqZAp">
-          <node concept="3cpWsn" id="2qPu2xoSAqu" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2qPu2xoSAqv" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2qPu2xoSAqw" role="33vP2m">
-              <node concept="HV5vD" id="2qPu2xoSAqx" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2qPu2xoSAqy" role="3cqZAp" />
         <node concept="3cpWs8" id="2qPu2xoSAqz" role="3cqZAp">
           <node concept="3cpWsn" id="2qPu2xoSAq$" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -8138,68 +8345,56 @@
         <node concept="3J1_TO" id="2qPu2xoSArg" role="3cqZAp">
           <node concept="3clFbS" id="2qPu2xoSArh" role="1zxBo7">
             <node concept="3clFbF" id="2qPu2xoSAri" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xoSArj" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xoSArk" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xoSAqu" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbEDE" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$VfL" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoSAqK" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xoSArl" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$VfL" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoSAqK" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xoSArm" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoSAqO" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoSArn" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoSAro" role="37wK5m">
-                    <property role="Xl_RC" value="\npackage a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xoSArm" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoSAqO" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoSArn" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoSAro" role="37wK5m">
+                  <property role="Xl_RC" value="\npackage a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xoSArp" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xoSArq" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xoSArr" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xoSAqu" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbGbJ" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$VL7" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoSAqK" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xoSArs" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$VL7" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoSAqK" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xoSArt" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoSAqO" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoSAru" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoSArv" role="37wK5m">
-                    <property role="Xl_RC" value="\npackage c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xoSArt" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoSAqO" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoSAru" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoSArv" role="37wK5m">
+                  <property role="Xl_RC" value="\npackage c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xoSArw" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xoSArx" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xoSAry" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xoSAqu" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbHIp" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$WiR" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoSAqK" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xoSArz" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$WiR" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoSAqK" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xoSAr$" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoSAqO" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoSAr_" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoSArA" role="37wK5m">
-                    <property role="Xl_RC" value="\npackage z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xoSAr$" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoSAqO" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoSAr_" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoSArA" role="37wK5m">
+                  <property role="Xl_RC" value="\npackage z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -8275,21 +8470,6 @@
       <property role="TrG5h" value="textualDiffTrailingNewLine" />
       <node concept="3cqZAl" id="2qPu2xoWBIA" role="3clF45" />
       <node concept="3clFbS" id="2qPu2xoWBIB" role="3clF47">
-        <node concept="3cpWs8" id="2qPu2xoWBIC" role="3cqZAp">
-          <node concept="3cpWsn" id="2qPu2xoWBID" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2qPu2xoWBIE" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2qPu2xoWBIF" role="33vP2m">
-              <node concept="HV5vD" id="2qPu2xoWBIG" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2qPu2xoWBIH" role="3cqZAp" />
         <node concept="3cpWs8" id="2qPu2xoWBII" role="3cqZAp">
           <node concept="3cpWsn" id="2qPu2xoWBIJ" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -8377,68 +8557,56 @@
         <node concept="3J1_TO" id="2qPu2xoWBJd" role="3cqZAp">
           <node concept="3clFbS" id="2qPu2xoWBJe" role="1zxBo7">
             <node concept="3clFbF" id="2qPu2xoWBJf" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xoWBJg" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xoWBJh" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xoWBID" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbJQ$" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$WOq" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoWBIV" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xoWBJi" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$WOq" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoWBIV" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xoWBJj" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoWBIZ" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoWBJk" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoWBJl" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xoWBJj" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoWBIZ" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoWBJk" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoWBJl" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xoWBJm" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xoWBJn" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xoWBJo" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xoWBID" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbLsn" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$XlK" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoWBIV" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xoWBJp" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$XlK" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoWBIV" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xoWBJq" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoWBIZ" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoWBJr" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoWBJs" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xoWBJq" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoWBIZ" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoWBJr" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoWBJs" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xoWBJt" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xoWBJu" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xoWBJv" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xoWBID" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbN0l" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp$XRw" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoWBIV" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xoWBJw" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp$XRw" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoWBIV" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xoWBJx" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoWBIZ" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoWBJy" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoWBJz" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xoWBJx" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoWBIZ" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoWBJy" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoWBJz" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n\n" />
                 </node>
               </node>
             </node>
@@ -8514,21 +8682,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesFolderInsteadOfFile" />
       <node concept="3cqZAl" id="2cqAxliu84Q" role="3clF45" />
       <node concept="3clFbS" id="2cqAxliu84R" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxliu84S" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxliu84T" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxliu84U" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxliu84V" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxliu84W" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxliu84X" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxliu84Y" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxliu84Z" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -8621,24 +8774,20 @@
                 <node concept="3uibUv" id="2cqAxlivCfx" role="1tU5fm">
                   <ref role="3uigEE" to="jlff:~VirtualFile" resolve="VirtualFile" />
                 </node>
-                <node concept="2OqwBi" id="2cqAxlivD92" role="33vP2m">
-                  <node concept="37vLTw" id="2cqAxlivD93" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2cqAxliu84T" resolve="comparison" />
+                <node concept="2YIFZM" id="7gByDwHbTf0" role="33vP2m">
+                  <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                  <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                  <node concept="37vLTw" id="2qPu2xp$YrK" role="37wK5m">
+                    <ref role="3cqZAo" node="2cqAxliu85b" resolve="dummyFS" />
                   </node>
-                  <node concept="2PDubS" id="2cqAxlivD94" role="2OqNvi">
-                    <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                    <node concept="37vLTw" id="2qPu2xp$YrK" role="37wK5m">
-                      <ref role="3cqZAo" node="2cqAxliu85b" resolve="dummyFS" />
-                    </node>
-                    <node concept="37vLTw" id="2cqAxlivD95" role="37wK5m">
-                      <ref role="3cqZAo" node="2cqAxliu85f" resolve="root" />
-                    </node>
-                    <node concept="Xl_RD" id="2cqAxlivD96" role="37wK5m">
-                      <property role="Xl_RC" value="a/b/AB.java" />
-                    </node>
-                    <node concept="Xl_RD" id="2cqAxlivD97" role="37wK5m">
-                      <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                    </node>
+                  <node concept="37vLTw" id="2cqAxlivD95" role="37wK5m">
+                    <ref role="3cqZAo" node="2cqAxliu85f" resolve="root" />
+                  </node>
+                  <node concept="Xl_RD" id="2cqAxlivD96" role="37wK5m">
+                    <property role="Xl_RC" value="a/b/AB.java" />
+                  </node>
+                  <node concept="Xl_RD" id="2cqAxlivD97" role="37wK5m">
+                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                   </node>
                 </node>
               </node>
@@ -8679,46 +8828,38 @@
             </node>
             <node concept="3clFbH" id="2cqAxlivQ4Y" role="3cqZAp" />
             <node concept="3clFbF" id="2cqAxliu85A" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxliu85B" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxliu85C" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxliu84T" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbPeh" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_4Qm" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxliu85b" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxliu85D" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_4Qm" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxliu85b" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxliu85E" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxliu85f" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxliu85F" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxliu85G" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxliu85E" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxliu85f" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxliu85F" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxliu85G" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxliu85H" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxliu85I" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxliu85J" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxliu84T" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbQSh" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_5tz" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxliu85b" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxliu85K" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_5tz" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxliu85b" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxliu85L" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxliu85f" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxliu85M" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxliu85N" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxliu85L" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxliu85f" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxliu85M" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxliu85N" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -8794,21 +8935,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesIgnoreFileCaseAllowed" />
       <node concept="3cqZAl" id="2cqAxlh5u7J" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlh5u7K" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlh5u7L" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlh5u7M" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlh5u7N" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlh5u7O" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlh5u7P" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxlh5u7Q" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxlh5u7R" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxlh5u7S" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -8896,68 +9022,56 @@
         <node concept="3J1_TO" id="2cqAxlh5u8m" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxlh5u8n" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxlh5u8o" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlh5u8p" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlh5u8q" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlh5u7M" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbUSo" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_62u" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh5u84" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlh5u8r" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_62u" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh5u84" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlh5u8s" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh5u88" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh5u8t" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/ab.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh5u8u" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlh5u8s" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh5u88" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh5u8t" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/ab.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh5u8u" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlh5u8v" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlh5u8w" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlh5u8x" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlh5u7M" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbWtY" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_6_2" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh5u84" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlh5u8y" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_6_2" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh5u84" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlh5u8z" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh5u88" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh5u8$" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh5u8_" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlh5u8z" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh5u88" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh5u8$" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh5u8_" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlh5u8A" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlh5u8B" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlh5u8C" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlh5u7M" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHbY4Q" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_79G" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh5u84" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlh5u8D" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_79G" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh5u84" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlh5u8E" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh5u88" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh5u8F" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh5u8G" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlh5u8E" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh5u88" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh5u8F" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh5u8G" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -9089,21 +9203,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesIgnoreFileCaseNotAllowed" />
       <node concept="3cqZAl" id="2cqAxlh80D4" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlh80D5" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlh80D6" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlh80D7" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlh80D8" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlh80D9" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlh80Da" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxlh80Db" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxlh80Dc" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxlh80Dd" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -9191,68 +9290,56 @@
         <node concept="3J1_TO" id="2cqAxlh80DF" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxlh80DG" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxlh80DH" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlh80DI" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlh80DJ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlh80D7" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHc0mr" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_7EL" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh80Dp" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlh80DK" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_7EL" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh80Dp" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlh80DL" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh80Dt" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh80DM" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/ab.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh80DN" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlh80DL" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh80Dt" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh80DM" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/ab.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh80DN" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlh80DO" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlh80DP" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlh80DQ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlh80D7" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHc1Y2" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_8dl" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh80Dp" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlh80DR" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_8dl" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh80Dp" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlh80DS" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh80Dt" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh80DT" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh80DU" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlh80DS" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh80Dt" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh80DT" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh80DU" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlh80DV" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlh80DW" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlh80DX" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlh80D7" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHc3Ae" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_8Kj" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh80Dp" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlh80DY" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_8Kj" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh80Dp" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlh80DZ" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlh80Dt" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh80E0" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlh80E1" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlh80DZ" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlh80Dt" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh80E0" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlh80E1" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -9382,21 +9469,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesIgnoreContentCaseAllowed" />
       <node concept="3cqZAl" id="2qPu2xnmDNl" role="3clF45" />
       <node concept="3clFbS" id="2qPu2xnmDNm" role="3clF47">
-        <node concept="3cpWs8" id="2qPu2xnmDNn" role="3cqZAp">
-          <node concept="3cpWsn" id="2qPu2xnmDNo" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2qPu2xnmDNp" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2qPu2xnmDNq" role="33vP2m">
-              <node concept="HV5vD" id="2qPu2xnmDNr" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2qPu2xnmDNs" role="3cqZAp" />
         <node concept="3cpWs8" id="2qPu2xnmDNt" role="3cqZAp">
           <node concept="3cpWsn" id="2qPu2xnmDNu" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -9484,68 +9556,56 @@
         <node concept="3J1_TO" id="2qPu2xnmDNW" role="3cqZAp">
           <node concept="3clFbS" id="2qPu2xnmDNX" role="1zxBo7">
             <node concept="3clFbF" id="2qPu2xnmDNY" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xnmDNZ" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xnmDO0" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xnmDNo" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHc5Sy" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_9j4" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmDNE" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xnmDO1" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_9j4" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmDNE" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xnmDO2" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmDNI" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmDO3" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmDO4" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class ab {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xnmDO2" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmDNI" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmDO3" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmDO4" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class ab {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xnmDO5" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xnmDO6" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xnmDO7" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xnmDNo" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHc7xu" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_9PC" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmDNE" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xnmDO8" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_9PC" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmDNE" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xnmDO9" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmDNI" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmDOa" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmDOb" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class cd {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xnmDO9" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmDNI" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmDOa" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmDOb" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class cd {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xnmDOc" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xnmDOd" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xnmDOe" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xnmDNo" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHc9dn" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_aoA" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmDNE" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xnmDOf" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_aoA" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmDNE" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xnmDOg" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmDNI" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmDOh" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmDOi" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xnmDOg" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmDNI" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmDOh" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmDOi" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -9677,21 +9737,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesIgnoreContentCaseNotAllowed" />
       <node concept="3cqZAl" id="2qPu2xnmRl4" role="3clF45" />
       <node concept="3clFbS" id="2qPu2xnmRl5" role="3clF47">
-        <node concept="3cpWs8" id="2qPu2xnmRl6" role="3cqZAp">
-          <node concept="3cpWsn" id="2qPu2xnmRl7" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2qPu2xnmRl8" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2qPu2xnmRl9" role="33vP2m">
-              <node concept="HV5vD" id="2qPu2xnmRla" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2qPu2xnmRlb" role="3cqZAp" />
         <node concept="3cpWs8" id="2qPu2xnmRlc" role="3cqZAp">
           <node concept="3cpWsn" id="2qPu2xnmRld" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -9779,68 +9824,56 @@
         <node concept="3J1_TO" id="2qPu2xnmRlF" role="3cqZAp">
           <node concept="3clFbS" id="2qPu2xnmRlG" role="1zxBo7">
             <node concept="3clFbF" id="2qPu2xnmRlH" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xnmRlI" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xnmRlJ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xnmRl7" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcbwK" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_aVn" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmRlp" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xnmRlK" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_aVn" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmRlp" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xnmRlL" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmRlt" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmRlM" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmRlN" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class abc {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xnmRlL" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmRlt" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmRlM" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmRlN" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class abc {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xnmRlO" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xnmRlP" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xnmRlQ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xnmRl7" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcdai" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_btV" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmRlp" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xnmRlR" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_btV" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmRlp" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xnmRlS" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmRlt" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmRlT" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmRlU" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xnmRlS" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmRlt" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmRlT" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmRlU" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xnmRlV" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xnmRlW" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xnmRlX" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xnmRl7" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHceP6" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_c0T" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmRlp" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xnmRlY" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_c0T" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmRlp" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xnmRlZ" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xnmRlt" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmRm0" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xnmRm1" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xnmRlZ" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xnmRlt" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmRm0" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xnmRm1" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -9971,21 +10004,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesIgnoreHiddenFiles" />
       <node concept="3cqZAl" id="2cqAxlhaVdV" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlhaVdW" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlhaVdX" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlhaVdY" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlhaVdZ" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlhaVe0" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlhaVe1" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxlhaVe2" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxlhaVe3" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxlhaVe4" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -10073,90 +10091,74 @@
         <node concept="3J1_TO" id="2cqAxlhaVey" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxlhaVez" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxlhaYuW" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlhaYuX" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlhaYuY" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlhaVdY" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcheR" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_c$r" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhaVeg" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlhaYuZ" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_c$r" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhaVeg" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlhaYv0" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhaVek" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhaYv1" role="37wK5m">
-                    <property role="Xl_RC" value="a/.hidden" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhaYv2" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlhaYv0" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhaVek" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhaYv1" role="37wK5m">
+                  <property role="Xl_RC" value="a/.hidden" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhaYv2" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlhaVe$" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlhaVe_" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlhaVeA" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlhaVdY" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHciVK" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_d8x" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhaVeg" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlhaVeB" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_d8x" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhaVeg" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlhaVeC" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhaVek" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhaVeD" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhaVeE" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlhaVeC" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhaVek" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhaVeD" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhaVeE" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlhaVeF" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlhaVeG" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlhaVeH" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlhaVdY" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHckCc" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_dH1" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhaVeg" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlhaVeI" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_dH1" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhaVeg" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlhaVeJ" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhaVek" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhaVeK" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhaVeL" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlhaVeJ" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhaVek" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhaVeK" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhaVeL" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlhaVeM" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlhaVeN" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlhaVeO" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlhaVdY" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcmkS" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_ehV" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhaVeg" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlhaVeP" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_ehV" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhaVeg" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlhaVeQ" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhaVek" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhaVeR" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhaVeS" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlhaVeQ" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhaVek" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhaVeR" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhaVeS" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -10286,21 +10288,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesIgnoreHiddenFilesNotAllowed" />
       <node concept="3cqZAl" id="2cqAxlhdhOP" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlhdhOQ" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlhdhOR" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlhdhOS" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlhdhOT" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlhdhOU" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlhdhOV" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxlhdhOW" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxlhdhOX" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxlhdhOY" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -10388,90 +10375,74 @@
         <node concept="3J1_TO" id="2cqAxlhdhPs" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxlhdhPt" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxlhdhPu" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlhdhPv" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlhdhPw" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlhdhOS" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcoNf" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_eQr" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhdhPa" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlhdhPx" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_eQr" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhdhPa" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlhdhPy" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhdhPe" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhdhPz" role="37wK5m">
-                    <property role="Xl_RC" value="a/.hidden" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhdhP$" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlhdhPy" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhdhPe" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhdhPz" role="37wK5m">
+                  <property role="Xl_RC" value="a/.hidden" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhdhP$" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlhdhP_" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlhdhPA" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlhdhPB" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlhdhOS" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcqyU" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_fqx" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhdhPa" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlhdhPC" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_fqx" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhdhPa" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlhdhPD" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhdhPe" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhdhPE" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhdhPF" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlhdhPD" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhdhPe" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhdhPE" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhdhPF" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlhdhPG" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlhdhPH" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlhdhPI" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlhdhOS" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcsh6" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_luz" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhdhPa" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlhdhPJ" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_luz" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhdhPa" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlhdhPK" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhdhPe" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhdhPL" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhdhPM" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlhdhPK" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhdhPe" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhdhPL" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhdhPM" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlhdhPN" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlhdhPO" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlhdhPP" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlhdhOS" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHctZy" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_m59" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhdhPa" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlhdhPQ" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_m59" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhdhPa" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlhdhPR" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlhdhPe" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhdhPS" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlhdhPT" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlhdhPR" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlhdhPe" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhdhPS" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlhdhPT" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -10601,21 +10572,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesAdditionalFile" />
       <node concept="3cqZAl" id="2cqAxlgRAfk" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlgRAfl" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlgRAfm" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlgRAfn" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlgRAfo" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlgRAfp" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlgRAfq" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxlgRAfr" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxlgRAfs" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxlgRAft" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -10703,90 +10659,74 @@
         <node concept="3J1_TO" id="2cqAxlgRAg0" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxlgRAg1" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxlgRAg2" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlgRAg3" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlgRAg4" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlgRAfn" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcwtZ" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_mDD" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgRAfI" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlgRAg5" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_mDD" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgRAfI" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlgRAg6" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgRAfM" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgRAg7" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgRAg8" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlgRAg6" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgRAfM" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgRAg7" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgRAg8" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlgREfk" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlgREfl" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlgREfm" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlgRAfn" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcyf2" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_ndJ" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgRAfI" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlgREfn" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_ndJ" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgRAfI" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlgREfo" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgRAfM" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgREfp" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/ABX.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgREfq" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class ABX {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlgREfo" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgRAfM" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgREfp" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/ABX.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgREfq" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class ABX {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlgRAg9" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlgRAga" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlgRAgb" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlgRAfn" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHc$00" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_nMf" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgRAfI" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlgRAgc" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_nMf" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgRAfI" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlgRAgd" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgRAfM" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgRAge" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgRAgf" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlgRAgd" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgRAfM" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgRAge" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgRAgf" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlgRAgg" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlgRAgh" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlgRAgi" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlgRAfn" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHc_Kc" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_o5K" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgRAfI" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlgRAgj" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_o5K" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgRAfI" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlgRAgk" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgRAfM" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgRAgl" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgRAgm" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlgRAgk" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgRAfM" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgRAgl" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgRAgm" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -10915,21 +10855,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesMissingABFile" />
       <node concept="3cqZAl" id="2cqAxlgH4b4" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlgH4b5" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlgH4b6" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlgH4b7" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlgH4b8" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlgH4b9" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlgH4ba" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxlgH4bb" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxlgH4bc" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxlgH4bd" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -11017,46 +10942,38 @@
         <node concept="3J1_TO" id="2cqAxlgH4bK" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxlgH4bL" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxlgH4bT" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlgH4bU" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlgH4bV" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlgH4b7" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcCep" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_oDN" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgH4bu" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlgH4bW" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_oDN" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgH4bu" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlgH4bX" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgH4by" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgH4bY" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgH4bZ" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlgH4bX" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgH4by" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgH4bY" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgH4bZ" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlgH4c0" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlgH4c1" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlgH4c2" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlgH4b7" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcDWR" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_oSB" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgH4bu" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlgH4c3" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_oSB" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgH4bu" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlgH4c4" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgH4by" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgH4c5" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgH4c6" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlgH4c4" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgH4by" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgH4c5" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgH4c6" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -11132,21 +11049,6 @@
       <property role="TrG5h" value="textualDiffRealFolderAndVirtualFilesWrongABContent" />
       <node concept="3cqZAl" id="2cqAxlgPb_P" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlgPb_Q" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlgPb_R" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlgPb_S" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlgPb_T" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlgPb_U" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlgPb_V" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxlgPb_W" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxlgPb_X" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxlgPb_Y" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -11234,68 +11136,56 @@
         <node concept="3J1_TO" id="2cqAxlgPbAx" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxlgPbAy" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxlgPbAz" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlgPbA$" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlgPbA_" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlgPb_S" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcGst" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_ppc" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgPbAf" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlgPbAA" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_ppc" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgPbAf" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlgPbAB" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgPbAj" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgPbAC" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgPbAD" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class ABX {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlgPbAB" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgPbAj" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgPbAC" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgPbAD" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class ABX {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlgPbAE" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlgPbAF" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlgPbAG" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlgPb_S" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcId9" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_pUy" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgPbAf" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlgPbAH" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_pUy" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgPbAf" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlgPbAI" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgPbAj" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgPbAJ" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgPbAK" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlgPbAI" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgPbAj" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgPbAJ" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgPbAK" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;\n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2cqAxlgPbAL" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlgPbAM" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlgPbAN" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlgPb_S" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcN1P" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_qc_" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgPbAf" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlgPbAO" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_qc_" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgPbAf" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlgPbAP" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlgPbAj" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgPbAQ" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlgPbAR" role="37wK5m">
-                    <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlgPbAP" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlgPbAj" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgPbAQ" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlgPbAR" role="37wK5m">
+                  <property role="Xl_RC" value="package z;\n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -11684,21 +11574,6 @@
       <property role="TrG5h" value="textualDiffCompareLinuxAndWindowLineEndings" />
       <node concept="3cqZAl" id="2cqAxlkeUda" role="3clF45" />
       <node concept="3clFbS" id="2cqAxlkeUdb" role="3clF47">
-        <node concept="3cpWs8" id="2cqAxlkeUdc" role="3cqZAp">
-          <node concept="3cpWsn" id="2cqAxlkeUdd" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2cqAxlkeUde" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2cqAxlkeUdf" role="33vP2m">
-              <node concept="HV5vD" id="2cqAxlkeUdg" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2cqAxlkeUdh" role="3cqZAp" />
         <node concept="3cpWs8" id="2cqAxlkeUdi" role="3cqZAp">
           <node concept="3cpWsn" id="2cqAxlkeUdj" role="3cpWs9">
             <property role="TrG5h" value="writer" />
@@ -11778,47 +11653,39 @@
         <node concept="3J1_TO" id="2cqAxlkeUdL" role="3cqZAp">
           <node concept="3clFbS" id="2cqAxlkeUdM" role="1zxBo7">
             <node concept="3clFbF" id="2cqAxlkeUdN" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlkeUdO" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlkeUdP" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlkeUdd" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcPac" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_qEa" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlkeUdp" resolve="expectedFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlkeUdQ" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_qEa" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlkeUdp" resolve="expectedFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlkeUdR" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlkeUdt" resolve="expectedRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlkeUdS" role="37wK5m">
-                    <property role="Xl_RC" value="a.b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlkeUdT" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\r\n\r\n/*Generated by MPS */\r\n\r\n\r\npublic class AB {\r\n}\r\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlkeUdR" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlkeUdt" resolve="expectedRoot" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlkeUdS" role="37wK5m">
+                  <property role="Xl_RC" value="a.b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlkeUdT" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\r\n\r\n/*Generated by MPS */\r\n\r\n\r\npublic class AB {\r\n}\r\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbH" id="2cqAxlkf0_m" role="3cqZAp" />
             <node concept="3clFbF" id="2cqAxlkeZw_" role="3cqZAp">
-              <node concept="2OqwBi" id="2cqAxlkeZwA" role="3clFbG">
-                <node concept="37vLTw" id="2cqAxlkeZwB" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxlkeUdd" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcQLL" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_r94" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlkeUd_" resolve="actualFS" />
                 </node>
-                <node concept="2PDubS" id="2cqAxlkeZwC" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_r94" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlkeUd_" resolve="actualFS" />
-                  </node>
-                  <node concept="37vLTw" id="2cqAxlkeZwD" role="37wK5m">
-                    <ref role="3cqZAo" node="2cqAxlkeUdD" resolve="actualRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlkeZwE" role="37wK5m">
-                    <property role="Xl_RC" value="a.b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2cqAxlkeZwF" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2cqAxlkeZwD" role="37wK5m">
+                  <ref role="3cqZAo" node="2cqAxlkeUdD" resolve="actualRoot" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlkeZwE" role="37wK5m">
+                  <property role="Xl_RC" value="a.b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2cqAxlkeZwF" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
@@ -11894,21 +11761,6 @@
       <property role="TrG5h" value="textualDiffWhitespaceTrimLeading" />
       <node concept="3cqZAl" id="2qPu2xok$gT" role="3clF45" />
       <node concept="3clFbS" id="2qPu2xok$gU" role="3clF47">
-        <node concept="3cpWs8" id="2qPu2xok$gV" role="3cqZAp">
-          <node concept="3cpWsn" id="2qPu2xok$gW" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2qPu2xok$gX" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2qPu2xok$gY" role="33vP2m">
-              <node concept="HV5vD" id="2qPu2xok$gZ" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2qPu2xok$h0" role="3cqZAp" />
         <node concept="3cpWs8" id="2qPu2xok$h1" role="3cqZAp">
           <node concept="3cpWsn" id="2qPu2xok$h2" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -11996,68 +11848,56 @@
         <node concept="3J1_TO" id="2qPu2xok$hw" role="3cqZAp">
           <node concept="3clFbS" id="2qPu2xok$hx" role="1zxBo7">
             <node concept="3clFbF" id="2qPu2xok$hy" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xok$hz" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xok$h$" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xok$gW" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcSUA" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_rD$" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xok$he" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xok$h_" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_rD$" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xok$he" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xok$hA" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xok$hi" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xok$hB" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/ab.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xok$hC" role="37wK5m">
-                    <property role="Xl_RC" value="     package a.b;\n\n /*Generated by MPS */\n\n\n public class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xok$hA" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xok$hi" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xok$hB" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/ab.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xok$hC" role="37wK5m">
+                  <property role="Xl_RC" value="     package a.b;\n\n /*Generated by MPS */\n\n\n public class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xok$hD" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xok$hE" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xok$hF" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xok$gW" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcUz0" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_sb$" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xok$he" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xok$hG" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_sb$" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xok$he" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xok$hH" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xok$hi" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xok$hI" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xok$hJ" role="37wK5m">
-                    <property role="Xl_RC" value="     package c.d;\n\n /*Generated by MPS */\n\n\n public class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xok$hH" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xok$hi" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xok$hI" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xok$hJ" role="37wK5m">
+                  <property role="Xl_RC" value="     package c.d;\n\n /*Generated by MPS */\n\n\n public class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xok$hK" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xok$hL" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xok$hM" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xok$gW" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcWaC" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_sHY" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xok$he" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xok$hN" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_sHY" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xok$he" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xok$hO" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xok$hi" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xok$hP" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xok$hQ" role="37wK5m">
-                    <property role="Xl_RC" value="        package z;\n\n /*Generated by MPS */\n\n\n public class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xok$hO" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xok$hi" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xok$hP" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xok$hQ" role="37wK5m">
+                  <property role="Xl_RC" value="        package z;\n\n /*Generated by MPS */\n\n\n public class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -12163,21 +12003,6 @@
       <property role="TrG5h" value="textualDiffWhitespaceTrimTrailing" />
       <node concept="3cqZAl" id="2qPu2xonlHl" role="3clF45" />
       <node concept="3clFbS" id="2qPu2xonlHm" role="3clF47">
-        <node concept="3cpWs8" id="2qPu2xonlHn" role="3cqZAp">
-          <node concept="3cpWsn" id="2qPu2xonlHo" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2qPu2xonlHp" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2qPu2xonlHq" role="33vP2m">
-              <node concept="HV5vD" id="2qPu2xonlHr" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2qPu2xonlHs" role="3cqZAp" />
         <node concept="3cpWs8" id="2qPu2xonlHt" role="3cqZAp">
           <node concept="3cpWsn" id="2qPu2xonlHu" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -12265,68 +12090,56 @@
         <node concept="3J1_TO" id="2qPu2xonlHW" role="3cqZAp">
           <node concept="3clFbS" id="2qPu2xonlHX" role="1zxBo7">
             <node concept="3clFbF" id="2qPu2xonlHY" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xonlHZ" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xonlI0" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xonlHo" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHcYpM" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_yRY" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xonlHE" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xonlI1" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_yRY" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xonlHE" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xonlI2" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xonlHI" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xonlI3" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/ab.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xonlI4" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;     \n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xonlI2" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xonlHI" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xonlI3" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/ab.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xonlI4" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;     \n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xonlI5" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xonlI6" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xonlI7" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xonlHo" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHd04d" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_zpY" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xonlHE" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xonlI8" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_zpY" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xonlHE" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xonlI9" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xonlHI" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xonlIa" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xonlIb" role="37wK5m">
-                    <property role="Xl_RC" value="package c.d;     \n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xonlI9" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xonlHI" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xonlIa" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xonlIb" role="37wK5m">
+                  <property role="Xl_RC" value="package c.d;     \n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xonlIc" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xonlId" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xonlIe" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xonlHo" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHd1Ib" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_zGF" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xonlHE" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xonlIf" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_zGF" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xonlHE" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xonlIg" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xonlHI" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xonlIh" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xonlIi" role="37wK5m">
-                    <property role="Xl_RC" value="package z;          \n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xonlIg" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xonlHI" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xonlIh" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xonlIi" role="37wK5m">
+                  <property role="Xl_RC" value="package z;          \n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -12432,21 +12245,6 @@
       <property role="TrG5h" value="textualDiffWhitespaceTrimBoth" />
       <node concept="3cqZAl" id="2qPu2xoxIDq" role="3clF45" />
       <node concept="3clFbS" id="2qPu2xoxIDr" role="3clF47">
-        <node concept="3cpWs8" id="2qPu2xoxIDs" role="3cqZAp">
-          <node concept="3cpWsn" id="2qPu2xoxIDt" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2qPu2xoxIDu" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2qPu2xoxIDv" role="33vP2m">
-              <node concept="HV5vD" id="2qPu2xoxIDw" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2qPu2xoxIDx" role="3cqZAp" />
         <node concept="3cpWs8" id="2qPu2xoxIDy" role="3cqZAp">
           <node concept="3cpWsn" id="2qPu2xoxIDz" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -12534,68 +12332,56 @@
         <node concept="3J1_TO" id="2qPu2xoxIE1" role="3cqZAp">
           <node concept="3clFbS" id="2qPu2xoxIE2" role="1zxBo7">
             <node concept="3clFbF" id="2qPu2xoxIE3" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xoxIE4" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xoxIE5" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xoxIDt" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHd3XK" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_$eS" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoxIDJ" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xoxIE6" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_$eS" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoxIDJ" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xoxIE7" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoxIDN" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoxIE8" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/ab.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoxIE9" role="37wK5m">
-                    <property role="Xl_RC" value="     package a.b;     \n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xoxIE7" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoxIDN" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoxIE8" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/ab.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoxIE9" role="37wK5m">
+                  <property role="Xl_RC" value="     package a.b;     \n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xoxIEa" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xoxIEb" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xoxIEc" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xoxIDt" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHd5BK" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_$vv" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoxIDJ" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xoxIEd" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_$vv" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoxIDJ" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xoxIEe" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoxIDN" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoxIEf" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoxIEg" role="37wK5m">
-                    <property role="Xl_RC" value="     package c.d;     \n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xoxIEe" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoxIDN" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoxIEf" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoxIEg" role="37wK5m">
+                  <property role="Xl_RC" value="     package c.d;     \n\n/*Generated by MPS */\n\n\npublic class CD {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xoxIEh" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xoxIEi" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xoxIEj" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xoxIDt" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHd7kI" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp__1T" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoxIDJ" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xoxIEk" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp__1T" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoxIDJ" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xoxIEl" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xoxIDN" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoxIEm" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xoxIEn" role="37wK5m">
-                    <property role="Xl_RC" value="        package z;          \n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xoxIEl" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xoxIDN" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoxIEm" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xoxIEn" role="37wK5m">
+                  <property role="Xl_RC" value="        package z;          \n\n/*Generated by MPS */\n\n\npublic class Z {\n}\n" />
                 </node>
               </node>
             </node>
@@ -12701,21 +12487,6 @@
       <property role="TrG5h" value="textualDiffWhitespaceIgnoreCompletely" />
       <node concept="3cqZAl" id="2qPu2xo$mYH" role="3clF45" />
       <node concept="3clFbS" id="2qPu2xo$mYI" role="3clF47">
-        <node concept="3cpWs8" id="2qPu2xo$mYJ" role="3cqZAp">
-          <node concept="3cpWsn" id="2qPu2xo$mYK" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2qPu2xo$mYL" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2qPu2xo$mYM" role="33vP2m">
-              <node concept="HV5vD" id="2qPu2xo$mYN" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2qPu2xo$mYO" role="3cqZAp" />
         <node concept="3cpWs8" id="2qPu2xo$mYP" role="3cqZAp">
           <node concept="3cpWsn" id="2qPu2xo$mYQ" role="3cpWs9">
             <property role="TrG5h" value="testFolder" />
@@ -12803,68 +12574,56 @@
         <node concept="3J1_TO" id="2qPu2xo$mZk" role="3cqZAp">
           <node concept="3clFbS" id="2qPu2xo$mZl" role="1zxBo7">
             <node concept="3clFbF" id="2qPu2xo$mZm" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xo$mZn" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xo$mZo" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xo$mYK" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHd9B7" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp___M" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xo$mZ2" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xo$mZp" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp___M" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xo$mZ2" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xo$mZq" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xo$mZ6" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xo$mZr" role="37wK5m">
-                    <property role="Xl_RC" value="a/b/ab.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xo$mZs" role="37wK5m">
-                    <property role="Xl_RC" value="packagea.b;\n\n/*GeneratedbyMPS*/\n\n\npublicclassAB{\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xo$mZq" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xo$mZ6" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xo$mZr" role="37wK5m">
+                  <property role="Xl_RC" value="a/b/ab.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xo$mZs" role="37wK5m">
+                  <property role="Xl_RC" value="packagea.b;\n\n/*GeneratedbyMPS*/\n\n\npublicclassAB{\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xo$mZt" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xo$mZu" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xo$mZv" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xo$mYK" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHdbjt" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp__Qp" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xo$mZ2" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xo$mZw" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp__Qp" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xo$mZ2" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xo$mZx" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xo$mZ6" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xo$mZy" role="37wK5m">
-                    <property role="Xl_RC" value="c/d/CD.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xo$mZz" role="37wK5m">
-                    <property role="Xl_RC" value="packagec.d;\n\n/*GeneratedbyMPS*/\n\n\npublicclassCD{\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xo$mZx" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xo$mZ6" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xo$mZy" role="37wK5m">
+                  <property role="Xl_RC" value="c/d/CD.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xo$mZz" role="37wK5m">
+                  <property role="Xl_RC" value="packagec.d;\n\n/*GeneratedbyMPS*/\n\n\npublicclassCD{\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xo$mZ$" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xo$mZ_" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xo$mZA" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xo$mYK" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHdcZ1" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xp_AoN" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xo$mZ2" resolve="dummyFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xo$mZB" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xp_AoN" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xo$mZ2" resolve="dummyFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xo$mZC" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xo$mZ6" resolve="root" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xo$mZD" role="37wK5m">
-                    <property role="Xl_RC" value="z/Z.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xo$mZE" role="37wK5m">
-                    <property role="Xl_RC" value="packagez;\n\n/*GeneratedbyMPS*/\n\n\npublicclassZ{\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xo$mZC" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xo$mZ6" resolve="root" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xo$mZD" role="37wK5m">
+                  <property role="Xl_RC" value="z/Z.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xo$mZE" role="37wK5m">
+                  <property role="Xl_RC" value="packagez;\n\n/*GeneratedbyMPS*/\n\n\npublicclassZ{\n}\n" />
                 </node>
               </node>
             </node>
@@ -12970,21 +12729,6 @@
       <property role="TrG5h" value="textualDiffFileCantBeOpened" />
       <node concept="3cqZAl" id="2qPu2xpppv2" role="3clF45" />
       <node concept="3clFbS" id="2qPu2xpppv3" role="3clF47">
-        <node concept="3cpWs8" id="2qPu2xpppv4" role="3cqZAp">
-          <node concept="3cpWsn" id="2qPu2xpppv5" role="3cpWs9">
-            <property role="TrG5h" value="comparison" />
-            <node concept="3uibUv" id="2qPu2xpppv6" role="1tU5fm">
-              <ref role="3uigEE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-            </node>
-            <node concept="2ShNRf" id="2qPu2xpppv7" role="33vP2m">
-              <node concept="HV5vD" id="2qPu2xpppv8" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="HV5vE" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2qPu2xpppv9" role="3cqZAp" />
         <node concept="3cpWs8" id="2qPu2xpppva" role="3cqZAp">
           <node concept="3cpWsn" id="2qPu2xpppvb" role="3cpWs9">
             <property role="TrG5h" value="writer" />
@@ -13066,46 +12810,38 @@
         <node concept="3J1_TO" id="2qPu2xpppvD" role="3cqZAp">
           <node concept="3clFbS" id="2qPu2xpppvE" role="1zxBo7">
             <node concept="3clFbF" id="2qPu2xpppvF" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xpppvG" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xpppvH" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xpppv5" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHb77b" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xpxk59" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xpppvh" resolve="expectedFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xpppvI" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xpxk59" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xpppvh" resolve="expectedFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xpppvJ" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xpppvl" resolve="expectedRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xpppvK" role="37wK5m">
-                    <property role="Xl_RC" value="a.b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xpppvL" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xpppvJ" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xpppvl" resolve="expectedRoot" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xpppvK" role="37wK5m">
+                  <property role="Xl_RC" value="a.b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xpppvL" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2qPu2xpppw1" role="3cqZAp">
-              <node concept="2OqwBi" id="2qPu2xpppw2" role="3clFbG">
-                <node concept="37vLTw" id="2qPu2xpppw3" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2qPu2xpppv5" resolve="comparison" />
+              <node concept="2YIFZM" id="7gByDwHb8$S" role="3clFbG">
+                <ref role="1Pybhc" to="mqum:1f1xsR60WN7" resolve="TextComparison" />
+                <ref role="37wK5l" to="mqum:7gByDwH7pTm" resolve="createPath" />
+                <node concept="37vLTw" id="2qPu2xpxkzB" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xpppvt" resolve="actualFS" />
                 </node>
-                <node concept="2PDubS" id="2qPu2xpppw4" role="2OqNvi">
-                  <ref role="37wK5l" to="mqum:2qPu2xpazOD" resolve="createFileWithDirs" />
-                  <node concept="37vLTw" id="2qPu2xpxkzB" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xpppvt" resolve="actualFS" />
-                  </node>
-                  <node concept="37vLTw" id="2qPu2xpppw5" role="37wK5m">
-                    <ref role="3cqZAo" node="2qPu2xpppvx" resolve="actualRoot" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xpppw6" role="37wK5m">
-                    <property role="Xl_RC" value="a.b/AB.java" />
-                  </node>
-                  <node concept="Xl_RD" id="2qPu2xpppw7" role="37wK5m">
-                    <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
-                  </node>
+                <node concept="37vLTw" id="2qPu2xpppw5" role="37wK5m">
+                  <ref role="3cqZAo" node="2qPu2xpppvx" resolve="actualRoot" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xpppw6" role="37wK5m">
+                  <property role="Xl_RC" value="a.b/AB.java" />
+                </node>
+                <node concept="Xl_RD" id="2qPu2xpppw7" role="37wK5m">
+                  <property role="Xl_RC" value="package a.b;\n\n/*Generated by MPS */\n\n\npublic class AB {\n}\n" />
                 </node>
               </node>
             </node>

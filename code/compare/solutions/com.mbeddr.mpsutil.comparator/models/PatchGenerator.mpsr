@@ -206,7 +206,6 @@
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="1163670490218" name="jetbrains.mps.baseLanguage.structure.SwitchStatement" flags="nn" index="3KaCP$">
-        <child id="1163670592366" name="defaultBlock" index="3Kb1Dw" />
         <child id="1163670766145" name="expression" index="3KbGdf" />
         <child id="1163670772911" name="case" index="3KbHQx" />
       </concept>
@@ -2173,13 +2172,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbS" id="2qPu2xnOLLi" role="3Kb1Dw">
-            <node concept="3cpWs6" id="2qPu2xnOSfK" role="3cqZAp">
-              <node concept="37vLTw" id="2qPu2xnPwPi" role="3cqZAk">
-                <ref role="3cqZAo" node="2qPu2xnIK5p" resolve="line" />
-              </node>
-            </node>
-          </node>
           <node concept="2OqwBi" id="2qPu2xo41vF" role="3KbGdf">
             <node concept="37vLTw" id="2qPu2xo41vG" role="2Oq$k0">
               <ref role="3cqZAo" node="2qPu2xnYwGs" resolve="options" />
@@ -2188,6 +2180,23 @@
               <ref role="2S8YL0" node="2qPu2xo0gvy" resolve="whitespaceHandling" />
             </node>
           </node>
+          <node concept="3KbdKl" id="7gByDwHeXBK" role="3KbHQx">
+            <node concept="Rm8GO" id="7gByDwHfeA6" role="3Kbmr1">
+              <ref role="Rm8GQ" node="2qPu2xnHRVN" resolve="KEEP" />
+              <ref role="1Px2BO" node="2qPu2xnE$u6" resolve="WhitespaceHandling" />
+            </node>
+            <node concept="3clFbS" id="7gByDwHft1e" role="3Kbo56">
+              <node concept="3cpWs6" id="7gByDwHfxC_" role="3cqZAp">
+                <node concept="37vLTw" id="7gByDwHfKFJ" role="3cqZAk">
+                  <ref role="3cqZAo" node="2qPu2xnIK5p" resolve="line" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7gByDwHg3va" role="3cqZAp" />
+        <node concept="3cpWs6" id="7gByDwHgdvK" role="3cqZAp">
+          <node concept="10Nm6u" id="7gByDwHgqoM" role="3cqZAk" />
         </node>
       </node>
       <node concept="3Tm6S6" id="2qPu2xnGz5Q" role="1B3o_S" />

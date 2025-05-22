@@ -16789,6 +16789,11 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7gByDwIacif" role="3bR37C">
+          <node concept="Rbm2T" id="7gByDwIacig" role="1SiIV1">
+            <ref role="1E1Vl2" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="77YfcvOKU$A" role="2G$12L">
         <property role="BnDLt" value="true" />

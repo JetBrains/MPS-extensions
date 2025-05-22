@@ -45,7 +45,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="3pc485Vr3C$">
-    <ref role="1XX52x" to="hsq:3pc485Vr2SQ" resolve="PropertyDummyRef" />
+    <ref role="1XX52x" to="hsq:3pc485Vr2SQ" resolve="ConceptWithRef" />
     <node concept="3EZMnI" id="46ucjsetlpd" role="2wV5jI">
       <node concept="3EZMnI" id="46ucjsetlu_" role="3EZMnx">
         <node concept="VPM3Z" id="46ucjsetluB" role="3F10Kt" />
@@ -60,11 +60,11 @@
       <node concept="2iRkQZ" id="46ucjsetlpe" role="2iSdaV" />
       <node concept="3EZMnI" id="46ucjseg2Ad" role="3EZMnx">
         <node concept="3F0ifn" id="46ucjseg2Af" role="3EZMnx">
-          <property role="3F0ifm" value="PropDummyRef:" />
+          <property role="3F0ifm" value="Ref: " />
         </node>
         <node concept="2iRfu4" id="46ucjseg2Ag" role="2iSdaV" />
         <node concept="1iCGBv" id="46ucjseg3TD" role="3EZMnx">
-          <ref role="1NtTu8" to="hsq:46ucjseg2A6" resolve="propertyDummyRef" />
+          <ref role="1NtTu8" to="hsq:46ucjseg2A6" resolve="propertyRef" />
           <node concept="1sVBvm" id="46ucjseg3TF" role="1sWHZn">
             <node concept="3F0A7n" id="46ucjseg3TN" role="2wV5jI">
               <property role="1Intyy" value="true" />

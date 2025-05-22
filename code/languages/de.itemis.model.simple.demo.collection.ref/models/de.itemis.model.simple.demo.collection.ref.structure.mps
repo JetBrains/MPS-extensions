@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3a3f4bbf-6c2b-49f6-8189-f83260cd20d6(de.itemis.model.simple.demo.collection.keeper.structure)">
+<model ref="r:e1aa6475-fe24-400d-bd51-5432578127d9(de.itemis.model.simple.demo.collection.ref.structure)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
   <languages>
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="hsq" ref="r:fc82e0c0-6be8-4ecf-9fa1-3d5bc168484e(de.itemis.model.simple.demo.reference.structure)" />
+    <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="lmxm" ref="r:a3686f62-e70f-468d-94f6-43bd46b56f08(de.itemis.model.simple.demo.collection.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -38,22 +38,38 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="5CYFCJDOmka">
-    <property role="EcuMT" value="6502826827916076298" />
-    <property role="TrG5h" value="ConceptWithNestedCollections" />
+  <node concept="1TIwiD" id="2IbqyLv84My">
+    <property role="EcuMT" value="3137718304200740002" />
+    <property role="TrG5h" value="ConceptWithCollectionOfRef" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5CYFCJDOGGO" role="1TKVEl">
-      <property role="IQ2nx" value="6502826827916167988" />
-      <property role="TrG5h" value="id" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyj" id="5CYFCJDOo$m" role="1TKVEi">
-      <property role="IQ2ns" value="6502826827916085526" />
+    <node concept="1TJgyj" id="2IbqyLv84Mz" role="1TKVEi">
+      <property role="IQ2ns" value="3137718304200740003" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="collection" />
+      <property role="20kJfa" value="collectionRef" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="lmxm:6Ltuup4C5JZ" resolve="ConceptWithListOfChildren" />
+      <ref role="20lvS9" node="uhx_u9OUFE" resolve="NoRootReference" />
+    </node>
+    <node concept="1TJgyi" id="2IbqyLvc0lK" role="1TKVEl">
+      <property role="IQ2nx" value="3137718304201770352" />
+      <property role="TrG5h" value="id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="uhx_u9OUFE">
+    <property role="EcuMT" value="545364740421167850" />
+    <property role="TrG5h" value="NoRootReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="46ucjseg2A6" role="1TKVEi">
+      <property role="IQ2ns" value="4728270771317647750" />
+      <property role="20kJfa" value="propertyRef" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2IbqyLv84My" resolve="ConceptWithCollectionOfRef" />
+    </node>
+    <node concept="1TJgyi" id="uhx_u9Q3Ir" role="1TKVEl">
+      <property role="IQ2nx" value="545364740421467035" />
+      <property role="TrG5h" value="id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

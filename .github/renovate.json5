@@ -14,5 +14,9 @@
       "matchPackageNames": ["org.eclipse*"],
       "groupName": "eclipse"
     },
+    {
+      "matchPackageNames": [ "com.google.guava:guava" ],
+      "allowedVersions": "/^.*-jre$/"
+    },
   ]
 }

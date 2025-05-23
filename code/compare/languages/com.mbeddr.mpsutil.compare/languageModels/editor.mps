@@ -912,7 +912,7 @@
       </node>
       <node concept="3F0ifn" id="Ov8NH99Zqo" role="3EZMnx" />
       <node concept="3F0ifn" id="Ov8NH99ZPQ" role="3EZMnx">
-        <property role="3F0ifm" value="Diffing" />
+        <property role="3F0ifm" value="Comparison" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3F0ifn" id="Ov8NH99ZGG" role="3EZMnx" />
@@ -1471,7 +1471,7 @@
       </node>
       <node concept="3F0ifn" id="2cqAxliGiCx" role="3EZMnx" />
       <node concept="3F0ifn" id="2cqAxliGiCy" role="3EZMnx">
-        <property role="3F0ifm" value="Diffing" />
+        <property role="3F0ifm" value="Comparison" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3F0ifn" id="2cqAxliGiCz" role="3EZMnx" />
@@ -1519,7 +1519,7 @@
         </node>
         <node concept="2iRfu4" id="2qPu2xnkoFh" role="2iSdaV" />
         <node concept="3F0ifn" id="2qPu2xnkoFi" role="3EZMnx">
-          <property role="3F0ifm" value="ingore case when diffing the file contents" />
+          <property role="3F0ifm" value="ignore case when comparing file contents" />
           <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
         </node>
         <node concept="3F1sOY" id="2qPu2xnkoFj" role="3EZMnx">

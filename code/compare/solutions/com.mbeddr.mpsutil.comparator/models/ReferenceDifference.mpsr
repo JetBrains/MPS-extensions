@@ -314,7 +314,7 @@
             <node concept="liA8E" id="E9Bg74uaU2" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
               <node concept="2YIFZM" id="E9Bg74ub4z" role="37wK5m">
-                <ref role="1Pybhc" node="DYlgnAAVf1" resolve="StringUtils" />
+                <ref role="1Pybhc" node="DYlgnAAVf1" resolve="ComparatorStringUtils" />
                 <ref role="37wK5l" node="DYlgnAAVkz" resolve="indent" />
                 <node concept="2OqwBi" id="E9Bg74ub4$" role="37wK5m">
                   <node concept="37vLTw" id="E9Bg74ub4_" role="2Oq$k0">

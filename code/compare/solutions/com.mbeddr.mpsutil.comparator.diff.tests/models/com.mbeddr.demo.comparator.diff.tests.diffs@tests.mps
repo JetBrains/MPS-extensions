@@ -369,7 +369,7 @@
       </concept>
     </language>
     <language id="f47b95d4-5e73-4c04-9204-18076950153b" name="com.mbeddr.mpsutil.compare">
-      <concept id="5440956104040641156" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedTextModelEquals" flags="ng" index="20lXCV">
+      <concept id="5440956104040641156" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedModelTextEquals" flags="ng" index="20lXCV">
         <child id="7763313513273247164" name="lineEndingHandler" index="15694Y" />
       </concept>
       <concept id="1954385921685784800" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_PostProcess" flags="ig" index="315t4" />
@@ -2710,10 +2710,12 @@
                     </node>
                     <node concept="15794w" id="6IWP88J5z92" role="15694Y">
                       <node concept="3clFbS" id="6IWP88J5z93" role="2VODD2">
-                        <node concept="3clFbF" id="6IWP88J5z94" role="3cqZAp">
-                          <node concept="Rm8GO" id="6IWP88J5z$k" role="3clFbG">
-                            <ref role="Rm8GQ" to="mqum:6IWP88IC4s$" resolve="USE_LF" />
-                            <ref role="1Px2BO" to="mqum:6IWP88IC4m$" resolve="LineEndingHandler" />
+                        <node concept="3clFbF" id="6jitR6OH_E0" role="3cqZAp">
+                          <node concept="2ShNRf" id="6jitR6OH_DW" role="3clFbG">
+                            <node concept="HV5vD" id="6jitR6OHBXI" role="2ShVmc">
+                              <property role="373rjd" value="true" />
+                              <ref role="HV5vE" to="mqum:6jitR6OGsXB" resolve="LFLineEndingHandler" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -2770,10 +2772,12 @@
                     </node>
                     <node concept="15794w" id="6IWP88JaGf1" role="15694Y">
                       <node concept="3clFbS" id="6IWP88JaGf2" role="2VODD2">
-                        <node concept="3clFbF" id="6IWP88JaGf3" role="3cqZAp">
-                          <node concept="Rm8GO" id="6jitR6NYfsH" role="3clFbG">
-                            <ref role="Rm8GQ" to="mqum:6IWP88IC4yZ" resolve="USE_CR" />
-                            <ref role="1Px2BO" to="mqum:6IWP88IC4m$" resolve="LineEndingHandler" />
+                        <node concept="3clFbF" id="6jitR6OHCIU" role="3cqZAp">
+                          <node concept="2ShNRf" id="6jitR6OHCIQ" role="3clFbG">
+                            <node concept="HV5vD" id="6jitR6OHD6y" role="2ShVmc">
+                              <property role="373rjd" value="true" />
+                              <ref role="HV5vE" to="mqum:6jitR6OGwhE" resolve="CRLineEndingHandler" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -2830,10 +2834,12 @@
                     </node>
                     <node concept="15794w" id="6IWP88JgamJ" role="15694Y">
                       <node concept="3clFbS" id="6IWP88JgamK" role="2VODD2">
-                        <node concept="3clFbF" id="6IWP88JgamL" role="3cqZAp">
-                          <node concept="Rm8GO" id="6jitR6OjSaY" role="3clFbG">
-                            <ref role="Rm8GQ" to="mqum:6IWP88IC4Go" resolve="USE_CRLF" />
-                            <ref role="1Px2BO" to="mqum:6IWP88IC4m$" resolve="LineEndingHandler" />
+                        <node concept="3clFbF" id="6jitR6OHJbe" role="3cqZAp">
+                          <node concept="2ShNRf" id="6jitR6OHJba" role="3clFbG">
+                            <node concept="HV5vD" id="6jitR6OHJyQ" role="2ShVmc">
+                              <property role="373rjd" value="true" />
+                              <ref role="HV5vE" to="mqum:6jitR6OGwlD" resolve="CRLFLineEndingHandler" />
+                            </node>
                           </node>
                         </node>
                       </node>

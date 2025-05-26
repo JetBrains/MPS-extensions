@@ -993,7 +993,7 @@
     <node concept="22hDWj" id="5Bng$8dKfzn" role="22hAXT" />
   </node>
   <node concept="24kQdi" id="4I2abZbPIbZ">
-    <ref role="1XX52x" to="8do3:4I2abZbPva4" resolve="AssertGeneratedTextModelEquals" />
+    <ref role="1XX52x" to="8do3:4I2abZbPva4" resolve="AssertGeneratedModelTextEquals" />
     <node concept="3EZMnI" id="4I2abZbPIc1" role="2wV5jI">
       <node concept="3F0ifn" id="4I2abZbPIc2" role="3EZMnx">
         <property role="3F0ifm" value="assert generated text model" />

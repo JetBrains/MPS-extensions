@@ -851,7 +851,7 @@
     </node>
     <node concept="1YaCAy" id="4I2abZbQRkh" role="1YuTPh">
       <property role="TrG5h" value="node" />
-      <ref role="1YaFvo" to="8do3:4I2abZbPva4" resolve="AssertGeneratedTextModelEquals" />
+      <ref role="1YaFvo" to="8do3:4I2abZbPva4" resolve="AssertGeneratedModelTextEquals" />
     </node>
   </node>
   <node concept="1YbPZF" id="7xgxWxIP73A">

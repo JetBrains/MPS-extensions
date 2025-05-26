@@ -291,7 +291,7 @@
   </node>
   <node concept="1TIwiD" id="4I2abZbPva4">
     <property role="EcuMT" value="5440956104040641156" />
-    <property role="TrG5h" value="AssertGeneratedTextModelEquals" />
+    <property role="TrG5h" value="AssertGeneratedModelTextEquals" />
     <property role="34LRSv" value="assert generated text equals" />
     <ref role="1TJDcQ" node="5v943APOt_R" resolve="AssertGeneratedModelEquals" />
     <node concept="1TJgyj" id="6IWP88ID4mW" role="1TKVEi">

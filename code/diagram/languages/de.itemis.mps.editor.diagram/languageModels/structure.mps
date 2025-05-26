@@ -22,14 +22,10 @@
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
         <property id="672037151186491528" name="presentation" index="1L1pqM" />
-        <reference id="899069222106091871" name="oldMember" index="2wpffI" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
-      </concept>
-      <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
-        <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
         <property id="1225118933224" name="comment" index="YLQ7P" />
@@ -37,22 +33,8 @@
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
-      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration_Old" flags="ng" index="AxPO7">
-        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
-        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
-        <child id="1083172003582" name="member" index="M5hS2" />
-      </concept>
       <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
         <property id="1083066089218" name="constraint" index="FLfZY" />
-      </concept>
-      <concept id="1588368162884797030" name="jetbrains.mps.lang.structure.structure.EnumMigrationInfo" flags="ng" index="2JgGob">
-        <property id="6491077959634662372" name="valueOpMigration" index="3scbB" />
-        <property id="6491077959634650670" name="nameOpMigration" index="3sfsH" />
-        <child id="6491077959632451996" name="oldEnum" index="3lCyv" />
-      </concept>
-      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration_Old" flags="ig" index="M4N5e">
-        <property id="1083923523172" name="externalValue" index="1uS6qo" />
-        <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -708,13 +690,6 @@
       <property role="TrG5h" value="shape" />
       <property role="IQ2nx" value="7464726264117682321" />
       <ref role="AX2Wp" node="7WTFIQIcYq4" resolve="StandardShapes" />
-      <node concept="3l_iC" id="7WTFIQIcYvo" role="lGtFl">
-        <node concept="1TJgyi" id="6uo2fN6gQ2h" role="3l_iP">
-          <property role="TrG5h" value="shape" />
-          <property role="IQ2nx" value="7464726264117682321" />
-          <ref role="AX2Wp" node="6uo2fN6gPY$" resolve="StandardShapes" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="6uo2fN6xziV">
@@ -953,13 +928,6 @@
       <property role="TrG5h" value="value" />
       <property role="IQ2nx" value="6987730699889504313" />
       <ref role="AX2Wp" node="7WTFIQIcYq9" resolve="LineStyleValues" />
-      <node concept="3l_iC" id="7WTFIQIcYvq" role="lGtFl">
-        <node concept="1TJgyi" id="63Tq0M90n0T" role="3l_iP">
-          <property role="TrG5h" value="value" />
-          <property role="IQ2nx" value="6987730699889504313" />
-          <ref role="AX2Wp" node="63Tq0M90n0O" resolve="LineStyleValues" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="63Tq0M8Y_QV">
@@ -1601,13 +1569,6 @@
       <property role="TrG5h" value="direction" />
       <property role="IQ2nx" value="7623784619795245948" />
       <ref role="AX2Wp" node="7WTFIQIcYqd" resolve="Direction" />
-      <node concept="3l_iC" id="7WTFIQIcYvs" role="lGtFl">
-        <node concept="1TJgyi" id="6Bd7VwqYQHW" role="3l_iP">
-          <property role="TrG5h" value="direction" />
-          <property role="IQ2nx" value="7623784619795245948" />
-          <ref role="AX2Wp" node="6Bd7VwqYQAS" resolve="LayoutDirection" />
-        </node>
-      </node>
     </node>
     <node concept="1sEMCm" id="1FUCB8ocYka" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/algorithms/org-eclipse-elk-layered.html" />
@@ -2317,45 +2278,20 @@
     <property role="3GE5qa" value="shape" />
     <property role="3F6X1D" value="7464726264117682084" />
     <ref role="1H5jkz" node="7WTFIQIcYq6" resolve="RECTANGLE" />
-    <node concept="2JgGob" id="7WTFIQIcYq5" role="lGtFl">
-      <property role="3scbB" value="5CkWgdpp3eY/string_name" />
-      <property role="3sfsH" value="5CkWgdpp0p2/by_presentation" />
-      <node concept="AxPO7" id="6uo2fN6gPY$" role="3lCyv">
-        <property role="3GE5qa" value="shape" />
-        <property role="TrG5h" value="StandardShapes" />
-        <property role="3F6X1D" value="7464726264117682084" />
-        <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-        <node concept="M4N5e" id="6uo2fN6gPY_" role="M5hS2">
-          <property role="1uS6qv" value="RECTANGLE" />
-          <property role="1uS6qo" value="rectangle" />
-        </node>
-        <node concept="M4N5e" id="6uo2fN6gQ6w" role="M5hS2">
-          <property role="1uS6qv" value="TRIANGLE" />
-          <property role="1uS6qo" value="triangle" />
-        </node>
-        <node concept="M4N5e" id="6uo2fN6gQ8h" role="M5hS2">
-          <property role="1uS6qv" value="ELLIPSE" />
-          <property role="1uS6qo" value="ellipse" />
-        </node>
-      </node>
-    </node>
     <node concept="25R33" id="7WTFIQIcYq6" role="25R1y">
       <property role="TrG5h" value="RECTANGLE" />
       <property role="1L1pqM" value="rectangle" />
       <property role="3tVfz5" value="7464726264117682085" />
-      <ref role="2wpffI" node="6uo2fN6gPY_" />
     </node>
     <node concept="25R33" id="7WTFIQIcYq7" role="25R1y">
       <property role="TrG5h" value="TRIANGLE" />
       <property role="1L1pqM" value="triangle" />
       <property role="3tVfz5" value="7464726264117682592" />
-      <ref role="2wpffI" node="6uo2fN6gQ6w" />
     </node>
     <node concept="25R33" id="7WTFIQIcYq8" role="25R1y">
       <property role="TrG5h" value="ELLIPSE" />
       <property role="1L1pqM" value="ellipse" />
       <property role="3tVfz5" value="7464726264117682705" />
-      <ref role="2wpffI" node="6uo2fN6gQ8h" />
     </node>
   </node>
   <node concept="25R3W" id="7WTFIQIcYqd">
@@ -2363,32 +2299,6 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.layered" />
     <property role="3F6X1D" value="7623784619795245496" />
     <ref role="1H5jkz" node="2C8x_a2Qx7V" resolve="UNDEFINED" />
-    <node concept="2JgGob" id="7WTFIQIcYqe" role="lGtFl">
-      <property role="3scbB" value="5CkWgdpp3eY/string_name" />
-      <property role="3sfsH" value="5CkWgdpp0p1/by_name" />
-      <node concept="AxPO7" id="6Bd7VwqYQAS" role="3lCyv">
-        <property role="3GE5qa" value="layoutAlgorithm" />
-        <property role="TrG5h" value="LayoutDirection" />
-        <property role="3F6X1D" value="7623784619795245496" />
-        <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-        <node concept="M4N5e" id="6Bd7VwqYQAT" role="M5hS2">
-          <property role="1uS6qo" value="RIGHT" />
-          <property role="1uS6qv" value="RIGHT" />
-        </node>
-        <node concept="M4N5e" id="6Bd7VwqYQBH" role="M5hS2">
-          <property role="1uS6qo" value="LEFT" />
-          <property role="1uS6qv" value="LEFT" />
-        </node>
-        <node concept="M4N5e" id="6Bd7VwqYQBO" role="M5hS2">
-          <property role="1uS6qo" value="UP" />
-          <property role="1uS6qv" value="UP" />
-        </node>
-        <node concept="M4N5e" id="6Bd7VwqYQBY" role="M5hS2">
-          <property role="1uS6qo" value="DOWN" />
-          <property role="1uS6qv" value="DOWN" />
-        </node>
-      </node>
-    </node>
     <node concept="25R33" id="2C8x_a2Qx7V" role="25R1y">
       <property role="3tVfz5" value="3028818438347428347" />
       <property role="TrG5h" value="UNDEFINED" />
@@ -2396,22 +2306,18 @@
     <node concept="25R33" id="7WTFIQIcYqf" role="25R1y">
       <property role="TrG5h" value="RIGHT" />
       <property role="3tVfz5" value="7623784619795245497" />
-      <ref role="2wpffI" node="6Bd7VwqYQAT" />
     </node>
     <node concept="25R33" id="7WTFIQIcYqg" role="25R1y">
       <property role="TrG5h" value="LEFT" />
       <property role="3tVfz5" value="7623784619795245549" />
-      <ref role="2wpffI" node="6Bd7VwqYQBH" />
     </node>
     <node concept="25R33" id="7WTFIQIcYqh" role="25R1y">
       <property role="TrG5h" value="UP" />
       <property role="3tVfz5" value="7623784619795245556" />
-      <ref role="2wpffI" node="6Bd7VwqYQBO" />
     </node>
     <node concept="25R33" id="7WTFIQIcYqi" role="25R1y">
       <property role="TrG5h" value="DOWN" />
       <property role="3tVfz5" value="7623784619795245566" />
-      <ref role="2wpffI" node="6Bd7VwqYQBY" />
     </node>
   </node>
   <node concept="25R3W" id="7WTFIQIcYq9">
@@ -2419,34 +2325,13 @@
     <property role="3GE5qa" value="style" />
     <property role="3F6X1D" value="6987730699889504308" />
     <ref role="1H5jkz" node="7WTFIQIcYqb" resolve="SOLID" />
-    <node concept="2JgGob" id="7WTFIQIcYqa" role="lGtFl">
-      <property role="3scbB" value="5CkWgdpp3eY/string_name" />
-      <property role="3sfsH" value="5CkWgdpp0p1/by_name" />
-      <node concept="AxPO7" id="63Tq0M90n0O" role="3lCyv">
-        <property role="3GE5qa" value="style" />
-        <property role="TrG5h" value="LineStyleValues" />
-        <property role="3lZH7k" value="hrlZj6Q/derive_from_internal_value" />
-        <property role="3F6X1D" value="6987730699889504308" />
-        <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-        <node concept="M4N5e" id="63Tq0M90n0P" role="M5hS2">
-          <property role="1uS6qo" value="SOLID" />
-          <property role="1uS6qv" value="SOLID" />
-        </node>
-        <node concept="M4N5e" id="63Tq0M90n0Q" role="M5hS2">
-          <property role="1uS6qo" value="DASHED" />
-          <property role="1uS6qv" value="DASHED" />
-        </node>
-      </node>
-    </node>
     <node concept="25R33" id="7WTFIQIcYqb" role="25R1y">
       <property role="TrG5h" value="SOLID" />
       <property role="3tVfz5" value="6987730699889504309" />
-      <ref role="2wpffI" node="63Tq0M90n0P" />
     </node>
     <node concept="25R33" id="7WTFIQIcYqc" role="25R1y">
       <property role="TrG5h" value="DASHED" />
       <property role="3tVfz5" value="6987730699889504310" />
-      <ref role="2wpffI" node="63Tq0M90n0Q" />
     </node>
   </node>
   <node concept="1TIwiD" id="3YGiJOY24vX">

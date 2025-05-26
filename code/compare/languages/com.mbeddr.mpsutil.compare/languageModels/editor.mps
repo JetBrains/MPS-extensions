@@ -1054,6 +1054,32 @@
       <node concept="PMmxH" id="H43MYuUeFo" role="3EZMnx">
         <ref role="PMmxG" node="H43MYuU7Dq" resolve="GeneratorNodeProcessingOptions" />
       </node>
+      <node concept="3F0ifn" id="6IWP88ID4mX" role="3EZMnx" />
+      <node concept="3EZMnI" id="6IWP88ID4mZ" role="3EZMnx">
+        <node concept="3F0ifn" id="6IWP88ID4n0" role="3EZMnx">
+          <property role="3F0ifm" value="Other" />
+          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3F0ifn" id="6IWP88ID4n1" role="3EZMnx" />
+        <node concept="3EZMnI" id="6IWP88ID4n2" role="3EZMnx">
+          <node concept="VPM3Z" id="6IWP88ID4n3" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+          <node concept="VPXOz" id="6IWP88ID4n4" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F0ifn" id="6IWP88ID4nl" role="3EZMnx">
+            <property role="3F0ifm" value="line ending handling" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F1sOY" id="6IWP88ID4no" role="3EZMnx">
+            <property role="1$x2rV" value="use LF" />
+            <ref role="1NtTu8" to="8do3:6IWP88ID4mW" resolve="lineEndingHandler" />
+          </node>
+          <node concept="2iRfu4" id="6IWP88ID4n7" role="2iSdaV" />
+        </node>
+        <node concept="2iRkQZ" id="6IWP88ID4nk" role="2iSdaV" />
+      </node>
       <node concept="2EHx9g" id="4I2abZbPWpA" role="2iSdaV" />
     </node>
   </node>

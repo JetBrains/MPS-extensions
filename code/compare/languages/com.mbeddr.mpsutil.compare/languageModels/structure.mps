@@ -294,6 +294,12 @@
     <property role="TrG5h" value="AssertGeneratedTextModelEquals" />
     <property role="34LRSv" value="assert generated text equals" />
     <ref role="1TJDcQ" node="5v943APOt_R" resolve="AssertGeneratedModelEquals" />
+    <node concept="1TJgyj" id="6IWP88ID4mW" role="1TKVEi">
+      <property role="IQ2ns" value="7763313513273247164" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lineEndingHandler" />
+      <ref role="20lvS9" node="6IWP88IC4my" resolve="QueryFunction_LineEndingHandler" />
+    </node>
   </node>
   <node concept="1TIwiD" id="gTQ6Nt5">
     <property role="R5$K7" value="false" />
@@ -377,6 +383,14 @@
     <property role="3GE5qa" value="queryFunction" />
     <property role="R4oN_" value="customize how whitespace is handled when diffing two files" />
     <property role="34LRSv" value="whitespace handling" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="6IWP88IC4my">
+    <property role="TrG5h" value="QueryFunction_LineEndingHandler" />
+    <property role="EcuMT" value="7763313513272984994" />
+    <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize how line endings are treated" />
+    <property role="34LRSv" value="line ending handler" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>

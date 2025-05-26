@@ -24154,11 +24154,6 @@
             <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2cqAxlknr3f" role="3bR37C">
-          <node concept="3bR9La" id="2cqAxlknr3g" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:39HJr_hyEzS" resolve="jetbrains.mps.ide.vcs.platform" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="2cqAxlknr3h" role="3bR37C">
           <node concept="3bR9La" id="2cqAxlknr3i" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
@@ -24219,11 +24214,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2cqAxlknr3D" role="3bR37C">
-          <node concept="3bR9La" id="2cqAxlknr3E" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:65IE4qV8XHw" resolve="DiffUtils" />
-          </node>
-        </node>
         <node concept="1BupzO" id="2cqAxlknr3W" role="3bR31x">
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
@@ -24266,6 +24256,11 @@
             <node concept="3qWCbU" id="2cqAxlknr9Q" role="3LXTna">
               <property role="3qWCbO" value="test_content/**, test_content_lower_case/**, test_content_only_one_file/**, test_content_wrong/**, test_content_without_spaces/**, directoryCompare/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6jitR6OmUxb" role="3bR37C">
+          <node concept="3bR9La" id="6jitR6OmUxc" role="1SiIV1">
+            <ref role="3bR37D" node="2Xjt3l57hht" resolve="de.slisson.mps.reflection.runtime" />
           </node>
         </node>
       </node>

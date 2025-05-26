@@ -408,7 +408,7 @@
             <node concept="liA8E" id="E9Bg759gJD" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
               <node concept="2YIFZM" id="E9Bg759h0f" role="37wK5m">
-                <ref role="1Pybhc" node="DYlgnAAVf1" resolve="StringUtils" />
+                <ref role="1Pybhc" node="DYlgnAAVf1" resolve="ComparatorStringUtils" />
                 <ref role="37wK5l" node="DYlgnAAVkz" resolve="indent" />
                 <node concept="2OqwBi" id="E9Bg759h0g" role="37wK5m">
                   <node concept="37vLTw" id="E9Bg759h0h" role="2Oq$k0">

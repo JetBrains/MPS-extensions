@@ -274,6 +274,8 @@
     <property role="TrG5h" value="QueryFunction_GeneratorOptions" />
     <property role="EcuMT" value="6473715840833912944" />
     <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize the generator options" />
+    <property role="34LRSv" value="generator options" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="gCpncv5">
@@ -289,9 +291,15 @@
   </node>
   <node concept="1TIwiD" id="4I2abZbPva4">
     <property role="EcuMT" value="5440956104040641156" />
-    <property role="TrG5h" value="AssertGeneratedTextModelEquals" />
+    <property role="TrG5h" value="AssertGeneratedModelTextEquals" />
     <property role="34LRSv" value="assert generated text equals" />
     <ref role="1TJDcQ" node="5v943APOt_R" resolve="AssertGeneratedModelEquals" />
+    <node concept="1TJgyj" id="6IWP88ID4mW" role="1TKVEi">
+      <property role="IQ2ns" value="7763313513273247164" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lineEndingHandler" />
+      <ref role="20lvS9" node="6IWP88IC4my" resolve="QueryFunction_LineEndingHandler" />
+    </node>
   </node>
   <node concept="1TIwiD" id="gTQ6Nt5">
     <property role="R5$K7" value="false" />
@@ -322,6 +330,68 @@
       <property role="IQ2ns" value="2644386474302386082" />
       <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5gDLJkKHrWc">
+    <property role="EcuMT" value="6064597129617587980" />
+    <property role="TrG5h" value="AssertGeneratedTextModelEqualsFolder" />
+    <property role="34LRSv" value="assert generated text equals folder" />
+    <ref role="1TJDcQ" node="5v943APOt_R" resolve="AssertGeneratedModelEquals" />
+    <node concept="1TJgyj" id="2cqAxliUPKG" role="1TKVEi">
+      <property role="IQ2ns" value="2529503557098101804" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoreHiddenFiles" />
+      <ref role="20lvS9" node="2cqAxliUIf_" resolve="QueryFunction_IgnoreHiddenFiles" />
+    </node>
+    <node concept="1TJgyj" id="2cqAxliUS_i" role="1TKVEi">
+      <property role="IQ2ns" value="2529503557098113362" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoreFileCase" />
+      <ref role="20lvS9" node="2cqAxliUS_j" resolve="QueryFunction_IgnoreCase" />
+    </node>
+    <node concept="1TJgyj" id="2qPu2xnkj2P" role="1TKVEi">
+      <property role="IQ2ns" value="2789267658884853941" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoreContentCase" />
+      <ref role="20lvS9" node="2cqAxliUS_j" resolve="QueryFunction_IgnoreCase" />
+    </node>
+    <node concept="1TJgyj" id="2qPu2xnFQc3" role="1TKVEi">
+      <property role="IQ2ns" value="2789267658891027203" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="whitespaceHandling" />
+      <ref role="20lvS9" node="2qPu2xnFPVu" resolve="QueryFunction_WhiteSpaceHandling" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2cqAxliUIf_">
+    <property role="TrG5h" value="QueryFunction_IgnoreHiddenFiles" />
+    <property role="EcuMT" value="2529503557098071013" />
+    <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize if hidden files are compared" />
+    <property role="34LRSv" value="ignore hidden files" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2cqAxliUS_j">
+    <property role="TrG5h" value="QueryFunction_IgnoreCase" />
+    <property role="EcuMT" value="2529503557098113363" />
+    <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize if the case of files should be ignored" />
+    <property role="34LRSv" value="ignore case" />
+    <ref role="1TJDcQ" node="2cqAxliUIf_" resolve="QueryFunction_IgnoreHiddenFiles" />
+  </node>
+  <node concept="1TIwiD" id="2qPu2xnFPVu">
+    <property role="TrG5h" value="QueryFunction_WhiteSpaceHandling" />
+    <property role="EcuMT" value="2789267658891026142" />
+    <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize how whitespace is handled when diffing two files" />
+    <property role="34LRSv" value="whitespace handling" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="6IWP88IC4my">
+    <property role="TrG5h" value="QueryFunction_LineEndingHandler" />
+    <property role="EcuMT" value="7763313513272984994" />
+    <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize how line endings are treated" />
+    <property role="34LRSv" value="line ending handler" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

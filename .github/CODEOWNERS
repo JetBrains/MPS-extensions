@@ -1,0 +1,5 @@
+# code/ needs a review before merging, everything else does not
+code/ @sergej-koscejev @wsafonov
+
+# CODEOWNERS should be protected by code owners
+.github/CODEOWNERS @sergej-koscejev @wsafonov

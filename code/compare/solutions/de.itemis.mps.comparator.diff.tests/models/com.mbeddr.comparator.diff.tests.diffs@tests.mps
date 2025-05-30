@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.demo.comparator.diff.tests.diffs@tests)">
+<model ref="r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.comparator.diff.tests.diffs@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
@@ -403,10 +403,6 @@
       <concept id="1161622665029" name="de.itemis.mps.compare.structure.ConceptFunctionParameter_OutputModel" flags="nn" index="1Q6Npb" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
-      <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
-        <property id="1863527487546097500" name="moduleId" index="1XweGW" />
-        <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
-      </concept>
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
         <property id="1863527487546097494" name="modelId" index="1XweGQ" />
         <child id="679099339649067980" name="name" index="1j$8Uc" />
@@ -458,9 +454,6 @@
       </concept>
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
-      </concept>
-      <concept id="1678062499342629858" name="jetbrains.mps.lang.smodel.structure.ModuleRefExpression" flags="ng" index="37shsh">
-        <child id="1678062499342629861" name="moduleId" index="37shsm" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <property id="1238684351431" name="asCast" index="1BlNFB" />
@@ -919,63 +912,6 @@
   <node concept="1lH9Xt" id="12RzKZkAF$F">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="GeneratorTest" />
-    <node concept="2XrIbr" id="OPHXk6JTAO" role="1qtyYc">
-      <property role="TrG5h" value="getExpectedFolderPath" />
-      <node concept="17QB3L" id="OPHXk6JVGk" role="3clF45" />
-      <node concept="3clFbS" id="OPHXk6JTAQ" role="3clF47">
-        <node concept="3cpWs8" id="OPHXk6JW5l" role="3cqZAp">
-          <node concept="3cpWsn" id="OPHXk6JW5m" role="3cpWs9">
-            <property role="TrG5h" value="module" />
-            <node concept="3uibUv" id="OPHXk6JW5n" role="1tU5fm">
-              <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
-            </node>
-            <node concept="2OqwBi" id="OPHXk6JW5o" role="33vP2m">
-              <node concept="37shsh" id="OPHXk6JW5p" role="2Oq$k0">
-                <node concept="1dCxOk" id="OPHXk6JW5q" role="37shsm">
-                  <property role="1XweGW" value="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23" />
-                  <property role="1XxBO9" value="de.itemis.mps.comparator.diff.tests" />
-                </node>
-              </node>
-              <node concept="liA8E" id="OPHXk6JW5r" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModuleReference.resolve(org.jetbrains.mps.openapi.module.SRepository)" resolve="resolve" />
-                <node concept="2OqwBi" id="OPHXk6JW5s" role="37wK5m">
-                  <node concept="1jxXqW" id="OPHXk6JW5t" role="2Oq$k0" />
-                  <node concept="liA8E" id="OPHXk6JW5u" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="OPHXk6JX1P" role="3cqZAp">
-          <node concept="2OqwBi" id="OPHXk6JW5z" role="3clFbG">
-            <node concept="2YIFZM" id="OPHXk6JW5$" role="2Oq$k0">
-              <ref role="37wK5l" to="18ew:~MacrosFactory.forModule(org.jetbrains.mps.openapi.module.SModule)" resolve="forModule" />
-              <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-              <node concept="37vLTw" id="OPHXk6JW5_" role="37wK5m">
-                <ref role="3cqZAo" node="OPHXk6JW5m" resolve="module" />
-              </node>
-            </node>
-            <node concept="liA8E" id="OPHXk6JW5A" role="2OqNvi">
-              <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
-              <node concept="3cpWs3" id="OPHXk6JYnE" role="37wK5m">
-                <node concept="37vLTw" id="OPHXk6JYq1" role="3uHU7w">
-                  <ref role="3cqZAo" node="OPHXk6JW3r" resolve="path" />
-                </node>
-                <node concept="Xl_RD" id="OPHXk6JW5B" role="3uHU7B">
-                  <property role="Xl_RC" value="${module}/" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="OPHXk6JW3r" role="3clF46">
-        <property role="TrG5h" value="path" />
-        <node concept="17QB3L" id="OPHXk6JW3q" role="1tU5fm" />
-      </node>
-    </node>
     <node concept="2XrIbr" id="6IWP88J4vku" role="1qtyYc">
       <property role="TrG5h" value="getLF" />
       <node concept="17QB3L" id="6IWP88J4BMN" role="3clF45" />
@@ -3088,7 +3024,7 @@
       </node>
     </node>
     <node concept="1LZb2c" id="OPHXk6MFVM" role="1SL9yI">
-      <property role="TrG5h" value="textGenFolderCompareFolde" />
+      <property role="TrG5h" value="textGenFolderCompareFolder" />
       <node concept="3cqZAl" id="OPHXk6MFVN" role="3clF45" />
       <node concept="3clFbS" id="OPHXk6MFVO" role="3clF47">
         <node concept="1$B7BT" id="OPHXk6MFVP" role="3cqZAp">
@@ -3100,14 +3036,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6Lh5D" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6Lh5G" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6Lh5I" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6Lh6M" role="2XxRq1">
-                <property role="Xl_RC" value="test_content" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGEZEA" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
           </node>
         </node>
       </node>
@@ -3135,14 +3065,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MO5l" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MO5m" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MO5n" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MO5o" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_lower_case" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGEZFd" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
           </node>
         </node>
       </node>
@@ -3184,14 +3108,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MP9f" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MP9g" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MP9h" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MP9i" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_lower_case" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGEZGq" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
           </node>
         </node>
       </node>
@@ -3267,14 +3185,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MPl3" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MPl4" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MPl5" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MPl6" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_lower_case" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGEZJf" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
           </node>
         </node>
       </node>
@@ -3332,14 +3244,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MPSQ" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MPSR" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MPSS" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MPST" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_only_one_file" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGF0aU" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_only_one_file" />
           </node>
         </node>
       </node>
@@ -3399,14 +3305,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MQi7" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MQi8" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MQi9" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MQia" role="2XxRq1">
-                <property role="Xl_RC" value="test_content" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGF0Ob" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
           </node>
         </node>
       </node>
@@ -3434,14 +3334,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MQTm" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MQTn" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MQTo" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MQTp" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_without_spaces" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGF0WC" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_without_spaces" />
           </node>
         </node>
       </node>
@@ -3470,14 +3364,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MQXT" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MQXU" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MQXV" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MQXW" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_without_spaces" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGF6A7" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_without_spaces" />
           </node>
         </node>
       </node>

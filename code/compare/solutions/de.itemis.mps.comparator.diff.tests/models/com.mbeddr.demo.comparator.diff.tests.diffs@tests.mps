@@ -5,7 +5,7 @@
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
-    <use id="f47b95d4-5e73-4c04-9204-18076950153b" name="com.mbeddr.mpsutil.compare" version="0" />
+    <use id="f47b95d4-5e73-4c04-9204-18076950153b" name="de.itemis.mps.compare" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -33,9 +33,9 @@
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="mqum" ref="r:ec874b45-e888-42e6-995a-a298cefdff55(com.mbeddr.mpsutil.comparator.code)" />
+    <import index="mqum" ref="r:ec874b45-e888-42e6-995a-a298cefdff55(de.itemis.mps.comparator.code)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="cduv" ref="r:57a8e0f3-0113-45ee-931b-1dc409b3d2fe(com.mbeddr.mpsutil.comparator.diff.tests.genplan)" />
+    <import index="cduv" ref="r:57a8e0f3-0113-45ee-931b-1dc409b3d2fe(de.itemis.mps.comparator.diff.tests.genplan)" />
     <import index="tft2" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator.impl.plan(MPS.Generator/)" />
     <import index="ao3" ref="7124e466-fc92-4803-a656-d7a6b7eb3910/java:jetbrains.mps.text(MPS.TextGen/)" />
     <import index="2o8p" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.diff.contents(MPS.IDEA/)" />
@@ -48,12 +48,13 @@
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
-    <import index="sotg" ref="r:f7b641c7-0327-4513-80ee-fa0921b93a79(com.mbeddr.mpsutil.compare.typesystem)" />
+    <import index="sotg" ref="r:f7b641c7-0327-4513-80ee-fa0921b93a79(de.itemis.mps.compare.typesystem)" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="s9o5" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.editor(MPS.IDEA/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="ycmz" ref="r:af3e1a90-527b-4262-8066-857208a4f4fb(de.slisson.mps.reflection.runtime)" />
     <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
+    <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -368,19 +369,19 @@
         <child id="6985522012210254363" name="expression" index="WxPPp" />
       </concept>
     </language>
-    <language id="f47b95d4-5e73-4c04-9204-18076950153b" name="com.mbeddr.mpsutil.compare">
-      <concept id="5440956104040641156" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedModelTextEquals" flags="ng" index="20lXCV">
+    <language id="f47b95d4-5e73-4c04-9204-18076950153b" name="de.itemis.mps.compare">
+      <concept id="5440956104040641156" name="de.itemis.mps.compare.structure.AssertGeneratedModelTextEquals" flags="ng" index="20lXCV">
         <child id="7763313513273247164" name="lineEndingHandler" index="15694Y" />
       </concept>
-      <concept id="1954385921685784800" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_PostProcess" flags="ig" index="315t4" />
-      <concept id="8669578577610830053" name="com.mbeddr.mpsutil.compare.structure.IgnoredProperty" flags="ng" index="mxfsH">
+      <concept id="1954385921685784800" name="de.itemis.mps.compare.structure.QueryFunction_PostProcess" flags="ig" index="315t4" />
+      <concept id="8669578577610830053" name="de.itemis.mps.compare.structure.IgnoredProperty" flags="ng" index="mxfsH">
         <reference id="2644386474302386081" name="conceptDeclaration" index="355D3t" />
         <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
       </concept>
-      <concept id="1142886221719" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_OutputFilter" flags="in" index="pkWqt" />
-      <concept id="7763313513272984994" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_LineEndingHandler" flags="ig" index="15794w" />
-      <concept id="6473715840833912944" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_GeneratorOptions" flags="ig" index="1krG8M" />
-      <concept id="6325604991668181367" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedModelEquals" flags="ng" index="3y6c_e">
+      <concept id="1142886221719" name="de.itemis.mps.compare.structure.QueryFunction_OutputFilter" flags="in" index="pkWqt" />
+      <concept id="7763313513272984994" name="de.itemis.mps.compare.structure.QueryFunction_LineEndingHandler" flags="ig" index="15794w" />
+      <concept id="6473715840833912944" name="de.itemis.mps.compare.structure.QueryFunction_GeneratorOptions" flags="ig" index="1krG8M" />
+      <concept id="6325604991668181367" name="de.itemis.mps.compare.structure.AssertGeneratedModelEquals" flags="ng" index="3y6c_e">
         <reference id="6325604991668503306" name="generationPlan" index="3y7XcN" />
         <child id="289600057226489406" name="customOrdering" index="2XVze9" />
         <child id="522647742340479026" name="model" index="17Bu_C" />
@@ -391,15 +392,15 @@
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
         <child id="6325604991668181368" name="ignoredProperties" index="3y6c_1" />
       </concept>
-      <concept id="6064597129617587980" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedTextModelEqualsFolder" flags="ng" index="1$B7BT">
+      <concept id="6064597129617587980" name="de.itemis.mps.compare.structure.AssertGeneratedTextModelEqualsFolder" flags="ng" index="1$B7BT">
         <child id="2789267658891027203" name="whitespaceHandling" index="1L6xGF" />
         <child id="2789267658884853941" name="ignoreContentCase" index="1LT4yt" />
         <child id="2529503557098113362" name="ignoreFileCase" index="1LWhd7" />
       </concept>
-      <concept id="756135271275943220" name="com.mbeddr.mpsutil.compare.structure.AssertNodeEquals" flags="ng" index="3GXo0L" />
-      <concept id="2789267658891026142" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_WhiteSpaceHandling" flags="ig" index="1L6yrQ" />
-      <concept id="2529503557098113363" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_IgnoreCase" flags="ig" index="1LWhd6" />
-      <concept id="1161622665029" name="com.mbeddr.mpsutil.compare.structure.ConceptFunctionParameter_OutputModel" flags="nn" index="1Q6Npb" />
+      <concept id="756135271275943220" name="de.itemis.mps.compare.structure.AssertNodeEquals" flags="ng" index="3GXo0L" />
+      <concept id="2789267658891026142" name="de.itemis.mps.compare.structure.QueryFunction_WhiteSpaceHandling" flags="ig" index="1L6yrQ" />
+      <concept id="2529503557098113363" name="de.itemis.mps.compare.structure.QueryFunction_IgnoreCase" flags="ig" index="1LWhd6" />
+      <concept id="1161622665029" name="de.itemis.mps.compare.structure.ConceptFunctionParameter_OutputModel" flags="nn" index="1Q6Npb" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
@@ -932,7 +933,7 @@
               <node concept="37shsh" id="OPHXk6JW5p" role="2Oq$k0">
                 <node concept="1dCxOk" id="OPHXk6JW5q" role="37shsm">
                   <property role="1XweGW" value="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23" />
-                  <property role="1XxBO9" value="com.mbeddr.mpsutil.comparator.diff.tests" />
+                  <property role="1XxBO9" value="de.itemis.mps.comparator.diff.tests" />
                 </node>
               </node>
               <node concept="liA8E" id="OPHXk6JW5r" role="2OqNvi">
@@ -1778,7 +1779,7 @@
           <node concept="1dCxOl" id="2cqAxljlg$8" role="1XwpL7">
             <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
             <node concept="1j_P7g" id="2cqAxljlg$9" role="1j$8Uc">
-              <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+              <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
             </node>
           </node>
         </node>
@@ -1816,7 +1817,7 @@
             <node concept="1dCxOl" id="t0OlD0RGaA" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="t0OlD0RGaB" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -1858,7 +1859,7 @@
             <node concept="1dCxOl" id="63ii4UvZdqd" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="63ii4UvZdqe" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -1877,7 +1878,7 @@
             <node concept="1dCxOl" id="63ii4UvXSHj" role="1XwpL7">
               <property role="1XweGQ" value="r:94b15c8d-d2eb-45f8-a928-dfbc7edfd944" />
               <node concept="1j_P7g" id="63ii4UvXSHk" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.singleRoot" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.singleRoot" />
               </node>
             </node>
           </node>
@@ -1897,7 +1898,7 @@
             <node concept="1dCxOl" id="5Bng$8dB1u_" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="5Bng$8dB1uA" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -1912,7 +1913,7 @@
                       <node concept="1dCxOl" id="63ii4Uw3UQW" role="1XwpL7">
                         <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
                         <node concept="1j_P7g" id="63ii4Uw3UQX" role="1j$8Uc">
-                          <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                          <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
                         </node>
                       </node>
                     </node>
@@ -2002,7 +2003,7 @@
             <node concept="1dCxOl" id="Ov8NH98pzv" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="Ov8NH98pzw" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2051,7 +2052,7 @@
               <node concept="1dCxOl" id="5Bng$8dmsob" role="1XwpL7">
                 <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
                 <node concept="1j_P7g" id="5Bng$8dmsoc" role="1j$8Uc">
-                  <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                  <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
                 </node>
               </node>
             </node>
@@ -2092,7 +2093,7 @@
             <node concept="1dCxOl" id="t0OlD0ZXu0" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="t0OlD0ZXu1" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2123,7 +2124,7 @@
             <node concept="1dCxOl" id="t0OlD0Yb3e" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="t0OlD0Yb3f" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2167,7 +2168,7 @@
             <node concept="1dCxOl" id="63ii4UvXVaX" role="1XwpL7">
               <property role="1XweGQ" value="r:94b15c8d-d2eb-45f8-a928-dfbc7edfd944" />
               <node concept="1j_P7g" id="63ii4UvXVaY" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.singleRoot" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.singleRoot" />
               </node>
             </node>
           </node>
@@ -2195,7 +2196,7 @@
             <node concept="1dCxOl" id="5Bng$8dcsTN" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="5Bng$8dcsTO" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2246,7 +2247,7 @@
             <node concept="1dCxOl" id="4I2abZc4KPr" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="4I2abZc4KPs" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2289,7 +2290,7 @@
             <node concept="1dCxOl" id="5Bng$8dj4Yj" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="5Bng$8dj4Yk" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2450,7 +2451,7 @@
             <node concept="1dCxOl" id="63ii4UvY1Dz" role="1XwpL7">
               <property role="1XweGQ" value="r:94b15c8d-d2eb-45f8-a928-dfbc7edfd944" />
               <node concept="1j_P7g" id="63ii4UvY1D$" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.singleRoot" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.singleRoot" />
               </node>
             </node>
           </node>
@@ -2467,7 +2468,7 @@
             <node concept="1dCxOl" id="g4RruTX1Zp" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="g4RruTX1Zq" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2582,7 +2583,7 @@
             <node concept="1dCxOl" id="5Bng$8d21G$" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="5Bng$8d21G_" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2590,7 +2591,7 @@
             <node concept="1dCxOl" id="5Bng$8d24OA" role="1XwpL7">
               <property role="1XweGQ" value="r:4a7fb26c-4f82-4577-a6af-3c215b3b7f66" />
               <node concept="1j_P7g" id="5Bng$8d24OB" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.output" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.output" />
               </node>
             </node>
           </node>
@@ -2607,7 +2608,7 @@
             <node concept="1dCxOl" id="5Bng$8dpcg$" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="5Bng$8dpcg_" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2616,7 +2617,7 @@
               <node concept="1dCxOl" id="5Bng$8dpcgC" role="1XwpL7">
                 <property role="1XweGQ" value="r:4a7fb26c-4f82-4577-a6af-3c215b3b7f66" />
                 <node concept="1j_P7g" id="5Bng$8dpcgD" role="1j$8Uc">
-                  <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.output" />
+                  <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.output" />
                 </node>
               </node>
             </node>
@@ -2643,7 +2644,7 @@
             <node concept="1dCxOl" id="t0OlD12hoe" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="t0OlD12hof" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2688,7 +2689,7 @@
                       <node concept="1dCxOl" id="6IWP88J5z8T" role="1XwpL7">
                         <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
                         <node concept="1j_P7g" id="6IWP88J5z8U" role="1j$8Uc">
-                          <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                          <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
                         </node>
                       </node>
                     </node>
@@ -2750,7 +2751,7 @@
                       <node concept="1dCxOl" id="6IWP88JaGeS" role="1XwpL7">
                         <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
                         <node concept="1j_P7g" id="6IWP88JaGeT" role="1j$8Uc">
-                          <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                          <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
                         </node>
                       </node>
                     </node>
@@ -2812,7 +2813,7 @@
                       <node concept="1dCxOl" id="6IWP88JgamA" role="1XwpL7">
                         <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
                         <node concept="1j_P7g" id="6IWP88JgamB" role="1j$8Uc">
-                          <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                          <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
                         </node>
                       </node>
                     </node>
@@ -2861,7 +2862,7 @@
             <node concept="1dCxOl" id="5Bng$8d9EaV" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="5Bng$8d9EaW" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -2963,7 +2964,7 @@
             <node concept="1dCxOl" id="5Bng$8dgEA1" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="5Bng$8dgEA2" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -3015,7 +3016,7 @@
             <node concept="1dCxOl" id="5Bng$8djTi4" role="1XwpL7">
               <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
               <node concept="1j_P7g" id="5Bng$8djTi5" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input" />
               </node>
             </node>
           </node>
@@ -3076,12 +3077,12 @@
             <node concept="1dCxOl" id="2cqAxldjbX3" role="1XwpL7">
               <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
               <node concept="1j_P7g" id="2cqAxldjbX4" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
               </node>
             </node>
           </node>
           <node concept="Xl_RD" id="2cqAxliDPnX" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
           </node>
         </node>
       </node>
@@ -3095,7 +3096,7 @@
             <node concept="1dCxOl" id="OPHXk6MFVR" role="1XwpL7">
               <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
               <node concept="1j_P7g" id="OPHXk6MFVS" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
               </node>
             </node>
           </node>
@@ -3121,7 +3122,7 @@
             <node concept="1dCxOl" id="2cqAxliXVDE" role="1XwpL7">
               <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
               <node concept="1j_P7g" id="2cqAxliXVDF" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
               </node>
             </node>
           </node>
@@ -3155,7 +3156,7 @@
             <node concept="1dCxOl" id="2cqAxljmxr8" role="1XwpL7">
               <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
               <node concept="1j_P7g" id="2cqAxljmxr9" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
               </node>
             </node>
           </node>
@@ -3204,7 +3205,7 @@
             <node concept="1dCxOl" id="2cqAxljqc4U" role="1XwpL7">
               <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
               <node concept="1j_P7g" id="2cqAxljqc4V" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
               </node>
             </node>
           </node>
@@ -3287,7 +3288,7 @@
             <node concept="1dCxOl" id="2cqAxljGUTS" role="1XwpL7">
               <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
               <node concept="1j_P7g" id="2cqAxljGUTT" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
               </node>
             </node>
           </node>
@@ -3352,7 +3353,7 @@
             <node concept="1dCxOl" id="2cqAxlk4Dn7" role="1XwpL7">
               <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
               <node concept="1j_P7g" id="2cqAxlk4Dn8" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
               </node>
             </node>
           </node>
@@ -3419,7 +3420,7 @@
             <node concept="1dCxOl" id="2qPu2xoG$LI" role="1XwpL7">
               <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
               <node concept="1j_P7g" id="2qPu2xoG$LJ" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
               </node>
             </node>
           </node>
@@ -3455,7 +3456,7 @@
             <node concept="1dCxOl" id="2qPu2xq3V_2" role="1XwpL7">
               <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
               <node concept="1j_P7g" id="2qPu2xq3V_3" role="1j$8Uc">
-                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
               </node>
             </node>
           </node>
@@ -3496,7 +3497,7 @@
               <node concept="1dCxOl" id="2cqAxldBw1E" role="1XwpL7">
                 <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
                 <node concept="1j_P7g" id="2cqAxldBw1F" role="1j$8Uc">
-                  <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                  <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
                 </node>
               </node>
             </node>
@@ -4358,6 +4359,7 @@
                   <node concept="1jxXqW" id="2cqAxle2t4Q" role="2XxRq1" />
                 </node>
               </node>
+              <node concept="1jxXqW" id="45YjfmMTAFv" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxle2t4R" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxljx_45" role="37wK5m" />
             </node>
@@ -4519,7 +4521,7 @@
                   <node concept="1dCxOl" id="2cqAxleaNon" role="1XwpL7">
                     <property role="1XweGQ" value="r:57a8e0f3-0113-45ee-931b-1dc409b3d2fe" />
                     <node concept="1j_P7g" id="2cqAxleaNoo" role="1j$8Uc">
-                      <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.genplan" />
+                      <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.genplan" />
                     </node>
                   </node>
                 </node>
@@ -4532,6 +4534,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="1jxXqW" id="45YjfmMTE8S" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxle8sKt" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxljx_bF" role="37wK5m" />
             </node>
@@ -6144,6 +6147,9 @@
             <node concept="37vLTw" id="2qPu2xqbnKI" role="37wK5m">
               <ref role="3cqZAo" node="2qPu2xqb8EF" resolve="model" />
             </node>
+            <node concept="37vLTw" id="45YjfmMTzO6" role="37wK5m">
+              <ref role="3cqZAo" node="3uYKUiUsYBG" resolve="project" />
+            </node>
             <node concept="37vLTw" id="2qPu2xqbnMY" role="37wK5m">
               <ref role="3cqZAo" node="2qPu2xqb8EI" resolve="comparator" />
             </node>
@@ -6164,6 +6170,15 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="H_c77" id="2qPu2xqb8EH" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3uYKUiUsYBG" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="3uYKUiUsYBH" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
+        <node concept="2AHcQZ" id="3uYKUiUsYBI" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="37vLTG" id="2qPu2xqb8EI" role="3clF46">
         <property role="TrG5h" value="comparator" />
@@ -6250,7 +6265,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="4JQ6_GQXE7V" role="1tU5fm" />
       <node concept="Xl_RD" id="4JQ6_GQXE7W" role="33vP2m">
-        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/directoryCompare/mockResults/" />
+        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/directoryCompare/mockResults/" />
       </node>
       <node concept="3Tm6S6" id="4JQ6_GQXE7U" role="1B3o_S" />
     </node>
@@ -7185,7 +7200,7 @@
               <node concept="1dCxOl" id="OPHXk6OENE" role="1XwpL7">
                 <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
                 <node concept="1j_P7g" id="OPHXk6OENF" role="1j$8Uc">
-                  <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                  <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
                 </node>
               </node>
             </node>
@@ -7248,6 +7263,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbrHY" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZH4O" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbrWO" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbs3c" role="37wK5m" />
               </node>
@@ -7479,6 +7495,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbsyD" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZGEa" role="37wK5m" />
                 <node concept="37vLTw" id="2qPu2xqbtin" role="37wK5m">
                   <ref role="3cqZAo" node="2cqAxld_XeP" resolve="comparator" />
                 </node>
@@ -7599,6 +7616,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbF_e" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZFyB" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbFR6" role="37wK5m" />
                 <node concept="1bVj0M" id="2qPu2xqbG3A" role="37wK5m">
                   <node concept="gl6BB" id="2qPu2xqbG3B" role="1bW2Oz">
@@ -7715,6 +7733,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbR1_" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZEt1" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbRcE" role="37wK5m" />
                 <node concept="1bVj0M" id="2qPu2xqbX6H" role="37wK5m">
                   <node concept="gl6BB" id="2qPu2xqbX6I" role="1bW2Oz">
@@ -7783,6 +7802,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbQ6s" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZHgi" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbQbp" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbQcW" role="37wK5m" />
               </node>
@@ -7817,7 +7837,7 @@
               <node concept="1dCxOl" id="OPHXk6OVgm" role="1XwpL7">
                 <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
                 <node concept="1j_P7g" id="OPHXk6OVgn" role="1j$8Uc">
-                  <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                  <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
                 </node>
               </node>
             </node>
@@ -7873,6 +7893,7 @@
                   <node concept="1jxXqW" id="2cqAxldBzkt" role="2XxRq1" />
                 </node>
               </node>
+              <node concept="1jxXqW" id="45YjfmMZQid" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxldBzoi" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxljxxlu" role="37wK5m" />
             </node>
@@ -8049,6 +8070,7 @@
                   <node concept="1jxXqW" id="2cqAxldU52i" role="2XxRq1" />
                 </node>
               </node>
+              <node concept="1jxXqW" id="45YjfmMZPqS" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxldU52j" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxljx$A7" role="37wK5m" />
             </node>
@@ -8327,7 +8349,7 @@
               <node concept="1dCxOl" id="OPHXk6P$sv" role="1XwpL7">
                 <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
                 <node concept="1j_P7g" id="OPHXk6P$sw" role="1j$8Uc">
-                  <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                  <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
                 </node>
               </node>
             </node>
@@ -8868,7 +8890,7 @@
               <node concept="liA8E" id="2cqAxleWQSK" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxleWQSL" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -9119,7 +9141,7 @@
               <node concept="liA8E" id="2qPu2xoSAqC" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xoSAqD" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -9331,7 +9353,7 @@
               <node concept="liA8E" id="2qPu2xoWBIN" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xoWBIO" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -9543,7 +9565,7 @@
               <node concept="liA8E" id="2cqAxliu853" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxliu854" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -9796,7 +9818,7 @@
               <node concept="liA8E" id="2cqAxlh5u7W" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlh5u7X" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -10064,7 +10086,7 @@
               <node concept="liA8E" id="2cqAxlh80Dh" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlh80Di" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -10330,7 +10352,7 @@
               <node concept="liA8E" id="2qPu2xnmDNy" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xnmDNz" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -10598,7 +10620,7 @@
               <node concept="liA8E" id="2qPu2xnmRlh" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xnmRli" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -10865,7 +10887,7 @@
               <node concept="liA8E" id="2cqAxlhaVe8" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlhaVe9" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -11149,7 +11171,7 @@
               <node concept="liA8E" id="2cqAxlhdhP2" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlhdhP3" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -11433,7 +11455,7 @@
               <node concept="liA8E" id="2cqAxlgRAfx" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlgRAfy" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -11716,7 +11738,7 @@
               <node concept="liA8E" id="2cqAxlgH4bh" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlgH4bi" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -11910,7 +11932,7 @@
               <node concept="liA8E" id="2cqAxlgPbA2" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlgPbA3" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -12137,8 +12159,9 @@
                     </node>
                     <node concept="liA8E" id="2cqAxlejIdy" role="2OqNvi">
                       <ref role="37wK5l" to="mqum:2cqAxlh4rk$" resolve="textualDiff" />
+                      <node concept="1jxXqW" id="45YjfmMTS7n" role="37wK5m" />
                       <node concept="Xl_RD" id="2cqAxlejNzy" role="37wK5m">
-                        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                       </node>
                       <node concept="2OqwBi" id="2cqAxlejId$" role="37wK5m">
                         <node concept="2WthIp" id="2cqAxlejId_" role="2Oq$k0" />
@@ -12224,8 +12247,9 @@
                     </node>
                     <node concept="liA8E" id="2cqAxlekZsB" role="2OqNvi">
                       <ref role="37wK5l" to="mqum:2cqAxlh4rk$" resolve="textualDiff" />
+                      <node concept="1jxXqW" id="45YjfmMTWii" role="37wK5m" />
                       <node concept="Xl_RD" id="2cqAxlekZsC" role="37wK5m">
-                        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content_wrong" />
+                        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_wrong" />
                       </node>
                       <node concept="2OqwBi" id="2cqAxlekZsD" role="37wK5m">
                         <node concept="2WthIp" id="2cqAxlekZsE" role="2Oq$k0" />
@@ -12354,15 +12378,16 @@
                     </node>
                     <node concept="liA8E" id="2cqAxlgVkKO" role="2OqNvi">
                       <ref role="37wK5l" to="mqum:2cqAxlh4rk$" resolve="textualDiff" />
+                      <node concept="1jxXqW" id="45YjfmMZNof" role="37wK5m" />
                       <node concept="Xl_RD" id="2cqAxlgVkKP" role="37wK5m">
-                        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                       </node>
                       <node concept="2OqwBi" id="2cqAxlgVo0z" role="37wK5m">
                         <node concept="1Xw6AR" id="2cqAxlgVo0$" role="2Oq$k0">
                           <node concept="1dCxOl" id="2cqAxlgVo0_" role="1XwpL7">
                             <property role="1XweGQ" value="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e" />
                             <node concept="1j_P7g" id="2cqAxlgVo0A" role="1j$8Uc">
-                              <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input2" />
+                              <property role="1j_P7h" value="de.itemis.mps.comparator.diff.tests.input2" />
                             </node>
                           </node>
                         </node>
@@ -12622,7 +12647,7 @@
               <node concept="liA8E" id="2qPu2xok$h6" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xok$h7" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -12864,7 +12889,7 @@
               <node concept="liA8E" id="2qPu2xonlHy" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xonlHz" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -13106,7 +13131,7 @@
               <node concept="liA8E" id="2qPu2xoxIDB" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xoxIDC" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -13348,7 +13373,7 @@
               <node concept="liA8E" id="2qPu2xo$mYU" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xo$mYV" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/com.mbeddr.mpsutil.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>

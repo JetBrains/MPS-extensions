@@ -4,6 +4,9 @@
     "config:best-practices"
   ],
 
+  // Renovate master and recent maintenance branches
+  "baseBranches": ["master", "/^maintenance/mps202[4-9][0-9]/"],
+
   "packageRules": [
     {
       "matchPackageNames": ["download-jbr:download-jbr.gradle.plugin", "de.itemis.mps.gradle.common:de.itemis.mps.gradle.common.gradle.plugin"],
@@ -17,6 +20,34 @@
     {
       "matchPackageNames": [ "com.google.guava:guava" ],
       "allowedVersions": "/^.*-jre$/"
+    },
+
+    {
+      // MPS: separate minor and patch updates in order to disable minor but leave patch updates enabled
+      "matchPackageNames": ["com.jetbrains:mps"],
+      "separateMinorPatch": true,
+    },
+
+    {
+      // MPS: disable major and minor updates, only enable patch updates
+      "matchPackageNames": ["com.jetbrains:mps"],
+      "matchUpdateTypes": ["major", "minor"],
+      "enabled": false
+    },
+
+    {
+      // MPS: merge PRs on Wednesday morning
+      "matchPackageNames": ["com.jetbrains:mps"],
+      "automerge": true,
+      "platformAutomerge": false,
+      "automergeSchedule": "* 4-6 * * 3"
+    },
+
+    {
+      // Disable JBR updates on maintenance branches
+      "matchPackageNames": ["com.jetbrains.jdk:*"],
+      "matchBaseBranches": ["!/^master$/"],
+      "enabled": false
     },
   ]
 }

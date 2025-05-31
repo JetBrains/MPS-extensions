@@ -409,7 +409,7 @@
                     <node concept="liA8E" id="DYlgnAAwjt" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String)" resolve="append" />
                       <node concept="2YIFZM" id="DYlgnAAwju" role="37wK5m">
-                        <ref role="1Pybhc" node="DYlgnAAVf1" resolve="StringUtils" />
+                        <ref role="1Pybhc" node="DYlgnAAVf1" resolve="ComparatorStringUtils" />
                         <ref role="37wK5l" node="DYlgnAAVkz" resolve="indent" />
                         <node concept="2OqwBi" id="DYlgnAAwjv" role="37wK5m">
                           <node concept="3M$PaV" id="DYlgnAAwjw" role="2Oq$k0">

@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Added
 
 - *de.itemis.mps.compare* The language has a new assert statement *assert generated model* to generate models or single nodes and compare them in tests. TextGen is also supported. Referenced nodes must be instances of richtext Words when the latter option is used. More option can be set in the inspector.
+- *de.itemis.mps.compare* The language has a new assert statement *assert* *generated* *text* *model* *equals* folder to compare the TextGen output to an existing folder on the hard disk. To make the tests work on the CI, a resources files entry for those directories must be added to the containing solution in the build script.
 - *com.mbeddr.mpsutil.intentions* Group annotations can now be also added to action declarations and are active when the actions are added to the *ActionsAsIntentions* group.
 
 ### Fixed

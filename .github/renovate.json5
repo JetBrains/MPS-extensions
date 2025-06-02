@@ -24,6 +24,10 @@
       "groupName": "eclipse"
     },
     {
+      "matchPackageNames": ["com.miglayout*"],
+      "groupName": "miglayout"
+    },
+    {
       "matchPackageNames": [ "com.google.guava:guava" ],
       "allowedVersions": "/^.*-jre$/"
     },

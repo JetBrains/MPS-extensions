@@ -9,6 +9,12 @@
 
   "packageRules": [
     {
+      // Only update Python dependencies on master
+      "matchManagers": "pip_requirements",
+      "matchBaseBranches": ["!/^master$/"],
+      "enabled": false,
+    },
+    {
       "matchPackageNames": ["download-jbr:download-jbr.gradle.plugin", "de.itemis.mps.gradle.common:de.itemis.mps.gradle.common.gradle.plugin"],
       "groupName": "mps-gradle-plugin",
       "allowedVersions": "< 2.0"
@@ -16,6 +22,10 @@
     {
       "matchPackageNames": ["org.eclipse*"],
       "groupName": "eclipse"
+    },
+    {
+      "matchPackageNames": ["com.miglayout*"],
+      "groupName": "miglayout"
     },
     {
       "matchPackageNames": [ "com.google.guava:guava" ],

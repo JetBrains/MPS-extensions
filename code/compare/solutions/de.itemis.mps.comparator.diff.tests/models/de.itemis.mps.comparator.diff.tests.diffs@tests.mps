@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.comparator.diff.tests.diffs@tests)">
+<model ref="r:7e1cdbc4-24e4-458b-b337-9e688e689139(de.itemis.mps.comparator.diff.tests.diffs@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />

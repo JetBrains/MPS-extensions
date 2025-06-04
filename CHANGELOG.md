@@ -4,11 +4,18 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## June 2025
+
+### Fixed
+
+- *com.mbeddr.mpsutil.compare* Fixed duplicated code generation for `assert node equals`
+
 ## May 2025
 
 ### Added
 
 - *de.itemis.mps.compare* The language has a new assert statement *assert generated model* to generate models or single nodes and compare them in tests. TextGen is also supported. Referenced nodes must be instances of richtext Words when the latter option is used. More option can be set in the inspector.
+- *de.itemis.mps.compare* The language has a new assert statement *assert* *generated* *text* *model* *equals* folder to compare the TextGen output to an existing folder on the hard disk. To make the tests work on the CI, a resources files entry for those directories must be added to the containing solution in the build script.
 - *com.mbeddr.mpsutil.intentions* Group annotations can now be also added to action declarations and are active when the actions are added to the *ActionsAsIntentions* group.
 
 ### Fixed
@@ -23,7 +30,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- *de.itemis.mps.editor.diagram.runtime* *de.slisson.mps.tables.runtime* *com.dslfoundry.langvis.plugin* *de.q60.mps.shadowmodels.debugview* *de.q60.mps.shadowmodels.runtime* *de.itemis.mps.spellcheck.runtime* *de.itemis.mps.statistics* : Set groups into BGT 
+- *de.itemis.mps.editor.diagram.runtime* *de.slisson.mps.tables.runtime* *com.dslfoundry.langvis.plugin* *de.q60.mps.shadowmodels.debugview* *de.q60.mps.shadowmodels.runtime* *de.itemis.mps.spellcheck.runtime* *de.itemis.mps.statistics* : Set groups into BGT
 - *com.mbeddr.mpsutil.treenotation*: Tree cells now don't show insert/delete buttons when they are read-only.
 - *de.slisson.mps.tables*: Styles on tables, vertical, horizontal, vertical%, partial table and query should not also be applied. A known issue is that the most specified style is not always applied.
 

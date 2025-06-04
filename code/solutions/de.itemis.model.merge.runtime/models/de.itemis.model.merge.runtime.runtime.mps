@@ -37,8 +37,8 @@
     <import index="80j5" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator.impl(MPS.Generator/)" />
     <import index="i8bi" ref="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <import index="tp3r" ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
-    <import index="xlb7" ref="r:cf42fd0a-68d2-493b-8b77-961658617704(jetbrains.mps.lang.modelapi.behavior)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="xlb7" ref="r:cf42fd0a-68d2-493b-8b77-961658617704(jetbrains.mps.lang.modelapi.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -5737,7 +5737,6 @@
     <node concept="3clFb_" id="3sC53y2yAPf" role="jymVt">
       <property role="TrG5h" value="mergeReferences" />
       <node concept="3Tm6S6" id="3sC53y2yAPg" role="1B3o_S" />
-      <node concept="3cqZAl" id="1qKM5IaOgDK" role="3clF45" />
       <node concept="37vLTG" id="3sC53y2yAOV" role="3clF46">
         <property role="TrG5h" value="idToLeftNodes" />
         <node concept="3uibUv" id="3sC53y2yAOW" role="1tU5fm">
@@ -5760,12 +5759,6 @@
           <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
           <node concept="17QB3L" id="3sC53y2yAP7" role="11_B2D" />
           <node concept="3Tqbb2" id="3sC53y2yAP8" role="11_B2D" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="1qKM5IaIujV" role="3clF46">
-        <property role="TrG5h" value="idOfMergedNodes" />
-        <node concept="2hMVRd" id="1qKM5IaILK4" role="1tU5fm">
-          <node concept="17QB3L" id="1qKM5IaQs$L" role="2hN53Y" />
         </node>
       </node>
       <node concept="3clFbS" id="3sC53y2yAN9" role="3clF47">
@@ -6221,6 +6214,13 @@
           </node>
         </node>
       </node>
+      <node concept="37vLTG" id="1qKM5IaIujV" role="3clF46">
+        <property role="TrG5h" value="idOfMergedNodes" />
+        <node concept="2hMVRd" id="1qKM5IaILK4" role="1tU5fm">
+          <node concept="17QB3L" id="1qKM5IaQs$L" role="2hN53Y" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1qKM5IaOgDK" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="3E8cqYv15wE" role="jymVt" />
     <node concept="3clFb_" id="1qKM5I8i0E9" role="jymVt">
@@ -6838,9 +6838,6 @@
             <node concept="3cpWs6" id="55FVUihzbhu" role="3cqZAp">
               <node concept="2OqwBi" id="7c8Xn_H2QSa" role="3cqZAk">
                 <node concept="2OqwBi" id="7c8Xn_H1cd4" role="2Oq$k0">
-                  <node concept="37vLTw" id="7c8Xn_H0PYu" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3a5mjFgYTJW" resolve="conceptToIdFunction" />
-                  </node>
                   <node concept="liA8E" id="7c8Xn_H1DvP" role="2OqNvi">
                     <ref role="37wK5l" to="3o3z:~ImmutableMap.get(java.lang.Object)" resolve="get" />
                     <node concept="2OqwBi" id="7c8Xn_H28sT" role="37wK5m">
@@ -6849,6 +6846,9 @@
                       </node>
                       <node concept="2yIwOk" id="7c8Xn_H2wte" role="2OqNvi" />
                     </node>
+                  </node>
+                  <node concept="37vLTw" id="7c8Xn_H0PYu" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3a5mjFgYTJW" resolve="conceptToIdFunction" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7c8Xn_H3fGR" role="2OqNvi">

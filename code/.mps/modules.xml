@@ -30,7 +30,7 @@
       <modulePath path="$PROJECT_DIR$/compare/languages/de.itemis.mps.compare.pattern/de.itemis.mps.compare.pattern.mpl" folder="compare" />
       <modulePath path="$PROJECT_DIR$/compare/languages/de.itemis.mps.compare/compare.mpl" folder="compare" />
       <modulePath path="$PROJECT_DIR$/compare/languages/test.de.itemis.mps.compare.testlang/test.de.itemis.mps.compare.testlang.mpl" folder="compare.tests" />
-      <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.comparator.diff.demo.tests/de.itemis.mps.comparator.diff.demo.tests.msd" folder="compare.demo" />
+      <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.comparator.diff.tests/de.itemis.mps.comparator.diff.tests.msd" folder="compare.tests" />
       <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.comparator/comparator.msd" folder="compare" />
       <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.generator.runtime/de.itemis.mps.compare.pattern.generator.runtime.msd" folder="compare" />
       <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.runtime/de.itemis.mps.compare.pattern.runtime.msd" folder="compare" />

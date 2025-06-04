@@ -187,6 +187,7 @@ configurations {
 
     collections {
         transitive = false
+        attributes.attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, objects.named(TargetJvmEnvironment.class, TargetJvmEnvironment.STANDARD_JVM)) 
     }
 }
 
@@ -227,7 +228,7 @@ dependencies {
     commons("com.miglayout:miglayout-swing:11.4.2")
 
     collections("org.apache.commons:commons-collections4:4.5.0")
-    collections("com.google.guava:guava:27.1-jre")
+    collections("com.google.guava:guava:33.4.8-jre")
     collections("net.sf.trove4j:trove4j:3.0.3")
     collections("io.vavr:vavr:0.10.6")
 }

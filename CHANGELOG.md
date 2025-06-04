@@ -14,9 +14,13 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
-- *com.mbeddr.mpsutil.compare* The language has a new assert statement *assert generated model* to generate models or single nodes and compare them in tests. TextGen is also supported. Referenced nodes must be instances of richtext Words when the latter option is used. More option can be set in the inspector.
-- *com.mbeddr.mpsutil.compare* The language has a new assert statement *assert* *generated* *text* *model* *equals* folder to compare the TextGen output to an existing folder on the hard disk. To make the tests work on the CI, a resources files entry for those directories must be added to the containing solution in the build script.
+- *de.itemis.mps.compare* The language has a new assert statement *assert generated model* to generate models or single nodes and compare them in tests. TextGen is also supported. Referenced nodes must be instances of richtext Words when the latter option is used. More option can be set in the inspector.
+- *de.itemis.mps.compare* The language has a new assert statement *assert* *generated* *text* *model* *equals* folder to compare the TextGen output to an existing folder on the hard disk. To make the tests work on the CI, a resources files entry for those directories must be added to the containing solution in the build script.
 - *com.mbeddr.mpsutil.intentions* Group annotations can now be also added to action declarations and are active when the actions are added to the *ActionsAsIntentions* group.
+
+### Fixed
+
+- *de.slisson.mps.richtext* RichTextUtil.createTextFromSingleString() creates `Text` instance without unexpected prepended space.
 
 ## April 2025
 
@@ -33,6 +37,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Added
 
 - *de.itemis.mps.editor.diagram*: Debug information can be accessed by adding  *de.itemis.mps.editor.diagram.runtime.jgraph* to Help->Diagnostic Tools->Debug Log Settings. The general log file will then contain a message that points to the log file: "A debug log for the diagram language is available at x". In the same folder are also debug files from the ELK layouter itself.
+- *de.itemis.mps.compare*: Two new concepts *assert* *float* *equals* and *assert* *float* *not* *equals* can be used to compare floating point numbers with a delta.
 
 ## March 2025
 
@@ -48,6 +53,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Added
 
 - *de.itemis.mps.editor.diagram*: Connectable ports are now highlighted in green and non-connectable ports are highlighted in red when you try to create a connection between 2 ports.
+- *de.itemis.mps.compare* Moved compare and comparator language and solutions from mbeddr to MPS-extensions.
 
 ### Removed
 
@@ -72,6 +78,17 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Added
 
 - *de.itemis.mps.editor.diagram*: Edges now support custom IDs.
+
+## November 2024
+
+### Changed
+
+- The project was migrated to 2024.1. 
+
+### Removed
+
+- *de.itemis.mps.nativelibs* : This unmaintained language was removed.
+- *de.itemis.mps.hacks.xmodelgen* : This unmaintained (and broken) language was removed.
 
 ## October 2024
 
@@ -108,13 +125,13 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- *com.mbeddr.mpsutil.projectview.runtime*: Fixed several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904]((https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
+- *com.mbeddr.mpsutil.projectview.runtime*: Fixed several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904](https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
 - *de.itemis.mps.editor.diagram*: Some issues related to ELK styles and custom IDs were fixed.
 
 ### Changed
 
 - *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.
-- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less agressively.
+- *com.mbeddr.mpsutil.editor.querylist.runtime*: Query list calls model checks of target nodes less  aggressively.
 
 ## July 2024
 

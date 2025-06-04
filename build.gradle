@@ -1,10 +1,10 @@
 plugins {
-    id 'de.itemis.mps.gradle.common' version '1.28.0.+'
+    id 'de.itemis.mps.gradle.common' version '1.29.1.+'
     id "com.github.breadmoirai.github-release" version "2.5.2"
     id 'maven-publish'
     id 'base'
-    id 'de.itemis.mps.gradle.launcher' version '2.4.2.+'
-    id 'org.cyclonedx.bom' version '2.2.0'
+    id 'de.itemis.mps.gradle.launcher' version '2.6.1.+'
+    id 'org.cyclonedx.bom' version '2.3.1'
 }
 
 import de.itemis.mps.gradle.*
@@ -18,7 +18,8 @@ import java.time.LocalDateTime
 apply plugin: 'download-jbr'
 
 downloadJbr {
-    jbrVersion = '17.0.8.1-b1000.32'
+    jbrVersion = '17.0.11-b1207.30'
+
 }
 
 // detect if we are in a CI build
@@ -43,9 +44,9 @@ logger.info 'Repository username: {}', project.nexusUsername
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2023.2'
+ext.mpsMajor = '2024.1'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = '1'
+ext.mpsMinor = '4'
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 
@@ -61,8 +62,7 @@ if (ciBuild) {
     if (branch.matches(/(maintenance|mps)[\/-](mps)?\d+(\.\d+)*/)) {
         version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
-        def isSnapshot = !(branch.equals("master"))
-        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + (isSnapshot ? "-SNAPSHOT" : "")
+        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + "-SNAPSHOT"
     }
 
     println "##teamcity[buildNumber '${version}']"
@@ -191,7 +191,7 @@ configurations {
 }
 
 dependencies {
-    ant_lib "org.apache.ant:ant-junit:1.10.14"
+    ant_lib "org.apache.ant:ant-junit:1.10.15"
 
     def elkVersion = "0.10.0"
 
@@ -208,27 +208,28 @@ dependencies {
     diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
     diagram_lib("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
     diagram_lib("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    diagram_lib("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
-    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
-    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
-
-    batik ("org.apache.xmlgraphics:batik-all:1.12")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.common:2.31.0")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore:2.37.0")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0")
 
     xml_lib("xerces:xercesImpl:2.12.2")
     xml_lib("xml-apis:xml-apis-ext:1.3.04")
+
+    batik ("org.apache.xmlgraphics:batik-all:1.18")
+
     commons("org.apache.commons:commons-csv:1.0")
-    commons("commons-io:commons-io:2.4")
+    commons("commons-io:commons-io:2.19.0")
     commons("org.apache.commons:commons-lang3:3.3.2")
     commons("org.apache.commons:commons-math3:3.3")
     commons("org.apache.commons:commons-csv:1.0")
     commons("commons-primitives:commons-primitives:1.0")
-    commons("com.miglayout:miglayout-core:4.1")
-    commons("com.miglayout:miglayout-swing:4.1")
+    commons("com.miglayout:miglayout-core:4.2")
+    commons("com.miglayout:miglayout-swing:4.2")
 
     collections("org.apache.commons:commons-collections4:4.4")
     collections("com.google.guava:guava:27.1-jre")
     collections("net.sf.trove4j:trove4j:3.0.3")
-    collections("io.vavr:vavr:0.9.3")
+    collections("io.vavr:vavr:0.10.6")
 }
 
 
@@ -293,14 +294,14 @@ def createResolveTask(taskName, configurationName, outputDir) {
     }
 }
 
-createResolveTask('resolveXml_lib', 'xml_lib', 'code/xml/solutions/lib')
-createResolveTask('resolveDiagram_lib', 'diagram_lib', 'code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
+createResolveTask('resolveDiagram', 'diagram_lib', 'code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
 createResolveTask('resolveBatik', 'batik', 'code/batik/solutions/lib')
 createResolveTask('resolveCommons', 'commons', 'code/apache-commons/solutions/org.apache.commons/lib')
 createResolveTask('resolveCollections', 'collections', 'code/shadowmodels/solutions/de.q60.mps.collections.libs/lib')
+createResolveTask('resolveXML', 'xml_lib', 'code/xml/solutions/lib')
 
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, 'resolveDiagram_lib', 'resolveBatik', 'resolveXml_lib', 'resolveCommons', 'resolveCollections'
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, 'resolveDiagram', 'resolveBatik', 'resolveCommons', 'resolveCollections', 'resolveXML'
     script "$rootDir/scripts/build.xml"
 }
 
@@ -384,10 +385,10 @@ configurations {
 }
 dependencies {
     junitAnt 'junit:junit:4.13.2'
-    junitAnt('org.apache.ant:ant-junit:1.10.14') {
+    junitAnt('org.apache.ant:ant-junit:1.10.15') {
         transitive = false
     }
-    junitAnt('org.apache.ant:ant-junit4:1.10.14') {
+    junitAnt('org.apache.ant:ant-junit4:1.10.15') {
         transitive = false
     }
 }
@@ -420,7 +421,7 @@ cyclonedxBom {
     outputName = "sbom"
     outputFormat = "json"
     includeLicenseText = false
-    includeConfigs = ["diagram_lib","batik","commons","collections","xml_lib"]
+    includeConfigs = ["diagram_lib","batik","commons","collections"]
 }
 
 clean.dependsOn cleanMps
@@ -478,7 +479,7 @@ publishing {
 
             pom.withXml {
                 def dependenciesNode = asNode().appendNode('dependencies')
-                def languageLibs = ['diagram_lib','batik','commons','collections', 'modelApi','mps']
+                def languageLibs = ['diagram_lib','batik','commons','collections', 'modelApi','xml_lib','mps']
                 languageLibs.each { configName ->
                     def configuration = configurations.findByName(configName)
                     configuration.resolvedConfiguration.firstLevelModuleDependencies.each {
@@ -564,6 +565,7 @@ def usedPluginRoots = [
         new File(mpsHomeDir, 'plugins/mps-vcs'),
         new File(mpsHomeDir, 'plugins/mps-git4idea'),
         new File(mpsHomeDir, 'plugins/mps-httpsupport'),
+        new File(mpsHomeDir, 'plugins/mps-testing'),
         new File(mpsHomeDir, 'plugins/mps-spellcheck')
 ]
 

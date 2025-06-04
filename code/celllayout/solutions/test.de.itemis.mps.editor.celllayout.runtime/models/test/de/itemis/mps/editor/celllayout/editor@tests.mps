@@ -39,9 +39,6 @@
         <property id="1932269937152561478" name="useLabelSelection" index="OXtK3" />
         <property id="1229432188737" name="isLastPosition" index="ZRATv" />
       </concept>
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
       <concept id="5773579205429866751" name="jetbrains.mps.lang.test.structure.EditorComponentExpression" flags="nn" index="369mXd" />
       <concept id="4239542196496927193" name="jetbrains.mps.lang.test.structure.MPSActionReference" flags="ng" index="1iFQzN">
         <reference id="4239542196496929559" name="action" index="1iFR8X" />
@@ -846,9 +843,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="2XOHcx" id="rlw0PZL9m8">
-    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="LiM7Y" id="1pn4Qu08Y1A">
     <property role="TrG5h" value="Incremental_ShrinkHorizontalLineWidth" />

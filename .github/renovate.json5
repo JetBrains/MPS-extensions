@@ -9,24 +9,19 @@
 
   "packageRules": [
     {
-      // Only update Python dependencies on master
-      "matchManagers": "pip_requirements",
-      "matchBaseBranches": ["!/^master$/"],
-      "enabled": false,
-    },
-    {
       "matchPackageNames": ["download-jbr:download-jbr.gradle.plugin", "de.itemis.mps.gradle.common:de.itemis.mps.gradle.common.gradle.plugin"],
       "groupName": "mps-gradle-plugin",
       "allowedVersions": "< 2.0"
     },
+
     {
-      "matchPackageNames": ["org.eclipse*"],
-      "groupName": "eclipse"
+      // Group all third-party dependencies together
+      "matchManagers": ["gradle"],
+      "matchDepTypes": ["dependencies"], // Exclude plugins
+      "matchPackageNames": ["!com.jetbrains*"], // Exclude MPS and JBR
+      "groupName": "third-party"
     },
-    {
-      "matchPackageNames": ["com.miglayout*"],
-      "groupName": "miglayout"
-    },
+
     {
       "matchPackageNames": [ "com.google.guava:guava" ],
       "allowedVersions": "/^.*-jre$/"
@@ -59,5 +54,12 @@
       "matchBaseBranches": ["!/^master$/"],
       "enabled": false
     },
+
+    {
+      // Disable Python updates on maintenance branches
+      "matchManagers": "pip_requirements",
+      "matchBaseBranches": ["!/^master$/"],
+      "enabled": false,
+    }
   ]
 }

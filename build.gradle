@@ -208,14 +208,14 @@ dependencies {
     diagram_lib("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
     diagram_lib("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
     diagram_lib("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    diagram_lib("org.eclipse.emf:org.eclipse.emf.common:2.41.0")
-    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore:2.38.0")
-    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.common:2.42.0")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore:2.39.0")
+    diagram_lib("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.39.0")
 
     xml_lib("xerces:xercesImpl:2.12.2")
     xml_lib("xml-apis:xml-apis-ext:1.3.04")
 
-    batik ("org.apache.xmlgraphics:batik-all:1.18")
+    batik ("org.apache.xmlgraphics:batik-all:1.19")
 
     commons("org.apache.commons:commons-csv:1.14.0")
     commons("commons-io:commons-io:2.19.0")
@@ -226,8 +226,8 @@ dependencies {
     commons("com.miglayout:miglayout-core:11.4.2")
     commons("com.miglayout:miglayout-swing:11.4.2")
 
-    collections("org.apache.commons:commons-collections4:4.4")
-    collections("com.google.guava:guava:33.4.7-jre")
+    collections("org.apache.commons:commons-collections4:4.5.0")
+    collections("com.google.guava:guava:33.4.8-jre")
     collections("net.sf.trove4j:trove4j:3.0.3")
     collections("io.vavr:vavr:0.10.6")
 }

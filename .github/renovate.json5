@@ -60,6 +60,12 @@
       "matchManagers": "pip_requirements",
       "matchBaseBranches": ["!/^master$/"],
       "enabled": false,
+    },
+
+    {
+      // Disable modelix model-api upgrades (until we get rid of the dependency)
+      "matchPackageNames": ["org.modelix:model-api"],
+      "enabled": false
     }
   ]
 }

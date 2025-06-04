@@ -15,14 +15,6 @@
     },
 
     {
-      // Group all third-party dependencies together
-      "matchManagers": ["gradle"],
-      "matchDepTypes": ["dependencies"], // Exclude plugins
-      "matchPackageNames": ["!com.jetbrains*"], // Exclude MPS and JBR
-      "groupName": "third-party"
-    },
-
-    {
       "matchPackageNames": [ "com.google.guava:guava" ],
       "allowedVersions": "/^.*-jre$/"
     },
@@ -66,6 +58,24 @@
       // Disable modelix model-api upgrades (until we get rid of the dependency)
       "matchPackageNames": ["org.modelix:model-api"],
       "enabled": false
+    },
+
+    {
+      "matchPackageNames": ["org.eclipse*"],
+      "groupName": "eclipse"
+    },
+    {
+      "matchPackageNames": ["com.miglayout*"],
+      "groupName": "miglayout"
+    },
+
+    {
+      // Group all minor/patch third-party dependencies together (overrides the grouping above for minor and patch updates)
+      "matchManagers": ["gradle"],
+      "matchDepTypes": ["dependencies"], // Exclude plugins
+      "matchPackageNames": ["!com.jetbrains*"], // Exclude MPS and JBR
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "third-party-minor"
     }
   ]
 }

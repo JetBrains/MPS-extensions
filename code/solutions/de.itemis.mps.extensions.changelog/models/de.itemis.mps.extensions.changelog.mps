@@ -233,6 +233,42 @@
         </node>
       </node>
     </node>
+    <node concept="15bmVD" id="7qF8EPz$J5$" role="15bmVC">
+      <node concept="15ShDW" id="7qF8EPz$J5x" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgAC/June" />
+        <property role="15ShDw" value="2025" />
+      </node>
+      <node concept="15bAme" id="7qF8EPz$J5y" role="15bAlL">
+        <node concept="2DRihI" id="7qF8EPz$J5z" role="15bAlk">
+          <node concept="15Ami3" id="7qF8EPz$JgI" role="1PaTwD">
+            <node concept="37shsh" id="7qF8EPz$JgJ" role="15Aodc">
+              <node concept="1dCxOk" id="7qF8EPz$JgO" role="37shsm">
+                <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
+                <property role="1XxBO9" value="com.mbeddr.mpsutil.compare" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="7qF8EPz$JgT" role="1PaTwD">
+            <property role="3oM_SC" value="Fixed" />
+          </node>
+          <node concept="3oM_SD" id="7qF8EPz$JgU" role="1PaTwD">
+            <property role="3oM_SC" value="duplicated" />
+          </node>
+          <node concept="3oM_SD" id="7qF8EPz$JgV" role="1PaTwD">
+            <property role="3oM_SC" value="code" />
+          </node>
+          <node concept="3oM_SD" id="7qF8EPz$JgW" role="1PaTwD">
+            <property role="3oM_SC" value="generation" />
+          </node>
+          <node concept="3oM_SD" id="7qF8EPz$JgX" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="1RqHR4" id="7qF8EPz$YQf" role="1PaTwD">
+            <property role="3oM_SC" value="assert node equals" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="15bmVD" id="5i$JLes82u9" role="15bmVC">
       <node concept="15bAme" id="Ov8NH9d5KQ" role="15bAlL">
         <property role="15bAli" value="Po4Z58tnOE/added" />

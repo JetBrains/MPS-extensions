@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## June 2025
+
+### Fixed
+
+- *com.mbeddr.mpsutil.compare* Fixed duplicated code generation for `assert node equals`
+
 ## May 2025
 
 ### Added
@@ -24,7 +30,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- *de.itemis.mps.editor.diagram.runtime* *de.slisson.mps.tables.runtime* *com.dslfoundry.langvis.plugin* *de.q60.mps.shadowmodels.debugview* *de.q60.mps.shadowmodels.runtime* *de.itemis.mps.spellcheck.runtime* *de.itemis.mps.statistics* : Set groups into BGT 
+- *de.itemis.mps.editor.diagram.runtime* *de.slisson.mps.tables.runtime* *com.dslfoundry.langvis.plugin* *de.q60.mps.shadowmodels.debugview* *de.q60.mps.shadowmodels.runtime* *de.itemis.mps.spellcheck.runtime* *de.itemis.mps.statistics* : Set groups into BGT
 - *com.mbeddr.mpsutil.treenotation*: Tree cells now don't show insert/delete buttons when they are read-only.
 - *de.slisson.mps.tables*: Styles on tables, vertical, horizontal, vertical%, partial table and query should not also be applied. A known issue is that the most specified style is not always applied.
 

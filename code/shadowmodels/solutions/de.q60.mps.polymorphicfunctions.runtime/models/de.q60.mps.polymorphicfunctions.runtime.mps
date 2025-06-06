@@ -1085,9 +1085,6 @@
               <property role="3TUv4t" value="false" />
               <property role="TrG5h" value="e" />
               <node concept="nSUau" id="aTUh7k$6bm1" role="1tU5fm">
-                <node concept="3uibUv" id="3jJoUQ6ZZB$" role="nSUat">
-                  <ref role="3uigEE" to="3qmy:~ModuleClassNotFoundException" resolve="ModuleClassNotFoundException" />
-                </node>
                 <node concept="3uibUv" id="4e238oV8eB$" role="nSUat">
                   <ref role="3uigEE" to="wyt6:~ClassNotFoundException" resolve="ClassNotFoundException" />
                 </node>

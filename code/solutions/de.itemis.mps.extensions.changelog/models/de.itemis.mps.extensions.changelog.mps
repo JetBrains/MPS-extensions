@@ -306,6 +306,35 @@
             <property role="3oM_SC" value="warnings" />
           </node>
         </node>
+        <node concept="2DRihI" id="3xul4PUNr4n" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="3xul4PUNr4O" role="1PaTwD">
+            <node concept="37shsh" id="3xul4PUNr4Q" role="15Aodc">
+              <node concept="1dCxOk" id="3xul4PUNr4W" role="37shsm">
+                <property role="1XweGW" value="278dc825-2faf-4320-b29f-78b1e6994ed4" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.bool.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="3xul4PUNr5j" role="1PaTwD">
+            <property role="3oM_SC" value="Fix" />
+          </node>
+          <node concept="3oM_SD" id="3xul4PUNr5k" role="1PaTwD">
+            <property role="3oM_SC" value="image" />
+          </node>
+          <node concept="3oM_SD" id="3xul4PUNr5l" role="1PaTwD">
+            <property role="3oM_SC" value="loading" />
+          </node>
+          <node concept="3oM_SD" id="3xul4PUNr5m" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="3xul4PUNr5n" role="1PaTwD">
+            <property role="3oM_SC" value="check" />
+          </node>
+          <node concept="3oM_SD" id="3xul4PUNr5o" role="1PaTwD">
+            <property role="3oM_SC" value="boxes." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="5i$JLes82u9" role="15bmVC">

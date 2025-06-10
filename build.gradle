@@ -550,7 +550,7 @@ configurations {
 }
 
 dependencies {
-    rerunMigrationsBackend("de.itemis.mps.build-backends:rerun-migrations:0.0.3.+")
+    rerunMigrationsBackend("de.itemis.mps.build-backends:remigrate:0.3.0.+")
 }
 
 def usedPluginRoots = [

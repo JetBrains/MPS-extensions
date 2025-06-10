@@ -230,8 +230,8 @@
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation/com.mbeddr.mpsutil.treenotation.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.utils.serializer.xml/de.itemis.mps.utils.serializer.xml.msd" folder="utils" />
-      <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool.demolang/de.itemis.mps.editor.bool.demolang.mpl" folder="widgets" />
-      <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool/de.itemis.mps.editor.bool.mpl" folder="widgets" />
+      <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool.demolang/de.itemis.mps.editor.bool.demolang.mpl" folder="widgets.bool" />
+      <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool/de.itemis.mps.editor.bool.mpl" folder="widgets.bool" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.collapsible.testlang/de.itemis.mps.editor.collapsible.testlang.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.collapsible/de.itemis.mps.editor.collapsible.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.dropdown.demolang/de.itemis.mps.editor.dropdown.demolang.mpl" folder="widgets" />
@@ -240,13 +240,14 @@
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.enumeration/de.itemis.mps.editor.enumeration.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.enumeration/runtime/de.itemis.mps.editor.enumeration.runtime.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.enumeration/sandbox/de.itemis.mps.editor.enumeration.sandbox.msd" folder="widgets" />
-      <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.bool.runtime/de.itemis.mps.editor.bool.runtime.msd" folder="widgets" />
-      <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.bool.sandbox/de.itemis.mps.editor.bool.sandbox.msd" folder="widgets" />
+      <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.bool.runtime/de.itemis.mps.editor.bool.runtime.msd" folder="widgets.bool" />
+      <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.bool.sandbox/de.itemis.mps.editor.bool.sandbox.msd" folder="widgets.bool" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.collapsible.runtime/de.itemis.mps.editor.collapsible.runtime.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.collapsible.sandbox/de.itemis.mps.editor.collapsible.sandbox.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.dropdown.runtime/de.itemis.mps.editor.dropdown.runtime.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.dropdown.sandbox/de.itemis.mps.editor.dropdown.sandbox.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.mouselistener.runtime/de.itemis.mps.mouselistener.runtime.msd" folder="widgets" />
+      <modulePath path="$PROJECT_DIR$/widgets/tests/test.de.itemis.mps.editor.bool.runtime.msd" folder="widgets.bool" />
       <modulePath path="$PROJECT_DIR$/xml/solutions/de.itemis.stubs.xml.msd" folder="" />
     </projectModules>
   </component>

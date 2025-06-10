@@ -42,16 +42,10 @@ if (!project.hasProperty('nexusUsername')) {
 logger.info 'Repository username: {}', project.nexusUsername
 
 // Dependency versions
+ext.mpsVersion = libs.versions.mps.get()
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2024.1'
-// optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = '4'
-// e.g. Beta, EAP, RC
-ext.mpsReleaseType = ''
-
-def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
-ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
+ext.mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
 
 if (ciBuild) {
     String branch = GitBasedVersioning.gitBranch
@@ -67,7 +61,7 @@ if (ciBuild) {
 
     println "##teamcity[buildNumber '${version}']"
 } else {
-    version = ext.mpsMajor + appendOpt(ext.mpsMinor , '.') + "-SNAPSHOT"
+    version = ext.mpsVersion + "-SNAPSHOT"
     println "Local build detected, version will be $version"
 }
 
@@ -187,7 +181,7 @@ configurations {
 
     collections {
         transitive = false
-        attributes.attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, objects.named(TargetJvmEnvironment.class, TargetJvmEnvironment.STANDARD_JVM)) 
+        attributes.attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, objects.named(TargetJvmEnvironment.class, TargetJvmEnvironment.STANDARD_JVM))
     }
 }
 

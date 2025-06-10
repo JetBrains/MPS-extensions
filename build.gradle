@@ -545,14 +545,6 @@ tasks.named('githubRelease').configure {
     dependsOn packageExtensions
 }
 
-configurations {
-    rerunMigrationsBackend
-}
-
-dependencies {
-    rerunMigrationsBackend("de.itemis.mps.build-backends:remigrate:0.3.0.+")
-}
-
 def usedPluginRoots = [
         new File(mpsHomeDir, 'plugins/mps-build'),
         new File(mpsHomeDir, 'plugins/mps-console'),

@@ -21579,6 +21579,58 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="3xul4PUMwfU" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.de.itemis.mps.editor.bool.runtime" />
+        <property role="3LESm3" value="6b46e316-54e4-45af-ba8d-19b5c7a642e4" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="398BVA" id="3xul4PUMwgl" role="3LF7KH">
+          <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
+          <node concept="2Ry0Ak" id="3xul4PUMwhb" role="iGT6I">
+            <property role="2Ry0Am" value="tests" />
+            <node concept="2Ry0Ak" id="3xul4PUMwhB" role="2Ry0An">
+              <property role="2Ry0Am" value="test.de.itemis.mps.editor.bool.runtime.msd" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3xul4PUMwHb" role="3bR37C">
+          <node concept="3bR9La" id="3xul4PUMwHc" role="1SiIV1">
+            <ref role="3bR37D" node="3IBdWhDPhzb" resolve="de.itemis.mps.editor.bool.runtime" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="3xul4PUMwHu" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="3xul4PUMwHv" role="1HemKq">
+            <node concept="398BVA" id="3xul4PUMwHd" role="3LXTmr">
+              <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
+              <node concept="2Ry0Ak" id="3xul4PUMwHe" role="iGT6I">
+                <property role="2Ry0Am" value="tests" />
+                <node concept="2Ry0Ak" id="3xul4PUMwHf" role="2Ry0An">
+                  <property role="2Ry0Am" value="models" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3xul4PUMwHw" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7luEF1hKdWi" role="3bR31x">
+          <node concept="3LXTmp" id="7luEF1hKdWj" role="3rtmxm">
+            <node concept="3qWCbU" id="7luEF1hKdWk" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7luEF1hKdWl" role="3LXTmr">
+              <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
+              <node concept="2Ry0Ak" id="7luEF1hKdWm" role="iGT6I">
+                <property role="2Ry0Am" value="tests" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2G$12M" id="7qi8mU1OyZm" role="3989C9">
       <property role="TrG5h" value="richtext" />
@@ -25036,6 +25088,9 @@
       <node concept="L2wRC" id="2cqAxlkHiqI" role="39821P">
         <ref role="L2wRA" node="2cqAxlknq_h" resolve="de.itemis.mps.comparator.diff.tests" />
       </node>
+      <node concept="L2wRC" id="3xul4PUMxdC" role="39821P">
+        <ref role="L2wRA" node="3xul4PUMwfU" resolve="test.de.itemis.mps.editor.bool.runtime" />
+      </node>
     </node>
     <node concept="2igEWh" id="H43MYuxQDj" role="1hWBAP">
       <property role="3UIfUI" value="2024" />
@@ -25128,6 +25183,9 @@
       </node>
       <node concept="22LTRM" id="2cqAxlkX47m" role="22LTRK">
         <ref role="22LTRN" node="2cqAxlknq_h" resolve="de.itemis.mps.comparator.diff.tests" />
+      </node>
+      <node concept="22LTRM" id="3xul4PUMxcN" role="22LTRK">
+        <ref role="22LTRN" node="3xul4PUMwfU" resolve="test.de.itemis.mps.editor.bool.runtime" />
       </node>
     </node>
     <node concept="2igEWh" id="1OMGwhrtizD" role="1hWBAP">

@@ -297,7 +297,7 @@ tasks.register<BuildLanguages>("build_languages") {
 
 tasks.register<BuildLanguages>("build_tests") {
     dependsOn("build_languages")
-    description = "Will execute all tests from command line"
+    description = "Will build all tests without executing them."
     script = scriptFile("tests/build.xml")
 }
 

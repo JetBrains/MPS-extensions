@@ -323,7 +323,11 @@ tasks.register<TestLanguages>("run_tests") {
     description = "Will execute all tests from command line"
     script = scriptFile("tests/build.xml")
     targets = listOf("check")
+
+    finalizedBy("failOnTestError")
+
     doLast {
+        val reportDir = layout.buildDirectory.dir("junitreport").get()
         ant.withGroovyBuilder {
             "taskdef"(
                 "name" to "junitreport",
@@ -332,16 +336,13 @@ tasks.register<TestLanguages>("run_tests") {
             )
             "junitreport" {
                 "fileset"("dir" to "$buildDir", "includes" to "**/TEST*.xml")
-                "report"("format" to "frames", "todir" to "$buildDir/junitreport")
+                "report"("format" to "frames", "todir" to reportDir)
             }
-            "echo"("JUnit report placed into $buildDir/junitreport/index.html")
         }
+        println("JUnit report placed into file://$reportDir/index.html")
     }
 }
 
-tasks.named("run_tests") {
-    finalizedBy("failOnTestError")
-}
 tasks.check {
     dependsOn("run_tests")
 }

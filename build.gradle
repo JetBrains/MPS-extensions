@@ -50,10 +50,11 @@ ext.mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
 if (ciBuild) {
     String branch = GitBasedVersioning.gitBranch
 
-    def buildMajor = mpsMajor.split("\\.").first()
-    def buildMinor = mpsMajor.split("\\.").last()
-    def buildNumber = System.env.BUILD_NUMBER.toInteger()
-    if (branch.matches(/(maintenance|mps)[\/-](mps)?\d+(\.\d+)*/)) {
+    String buildMajor = mpsMajor.split("\\.").first()
+    String buildMinor = mpsMajor.split("\\.").last()
+    int buildNumber = System.getenv('BUILD_NUMBER').toInteger()
+
+    if (branch.startsWith('maintenance/mps')) {
         version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
         version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + "-SNAPSHOT"

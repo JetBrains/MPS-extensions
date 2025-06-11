@@ -3,7 +3,11 @@ import de.itemis.mps.gradle.tasks.MpsMigrate
 import de.itemis.mps.gradle.tasks.Remigrate
 import de.itemis.mps.gradle.downloadJBR.DownloadJbrForPlatform
 import groovy.xml.XmlSlurper
+import groovy.xml.slurpersupport.GPathResult
+import java.nio.file.Files
+import java.nio.file.Path
 import java.time.LocalDateTime
+import java.util.Date
 
 plugins {
     id("de.itemis.mps.gradle.common") version "1.29.2.+"
@@ -134,9 +138,9 @@ tasks.register("copyModelApi") {
                 continue
             }
 
-            val sourceFile = java.nio.file.Path.of(artifact.file.absolutePath)
-            val targetFile = java.nio.file.Path.of(libFolder.absolutePath).resolve(artifact.moduleVersion.id.name + "." + artifact.extension)
-            java.nio.file.Files.copy(sourceFile, targetFile)
+            val sourceFile = Path.of(artifact.file.absolutePath)
+            val targetFile = Path.of(libFolder.absolutePath).resolve(artifact.moduleVersion.id.name + "." + artifact.extension)
+            Files.copy(sourceFile, targetFile)
             versionsFile.appendText(artifact.file.name + "\n")
         }
     }
@@ -218,7 +222,7 @@ val mps_home = "-Dmps.home=" + mpsHomeDir.absolutePath
 val build_dir = "-Dbuild.dir=" + File(rootProject.projectDir.absolutePath).absolutePath
 val artifacts_dir = "-Dartifacts.root=" + artifactsDir
 val pluginVersion = "-DversionNumber=" + version
-val buildDate = "-DbuildDate=" + java.util.Date().toString()
+val buildDate = "-DbuildDate=" + Date()
 val extensions_home = "-Dextensions.home=" + rootDir
 
 // ___________________ utilities ___________________
@@ -303,8 +307,8 @@ tasks.register("failOnTestError") {
         val juniXml = file("TESTS-TestSuites.xml")
         if (juniXml.exists()) {
             val junitResult = XmlSlurper().parse(juniXml)
-            val failures = junitResult.depthFirst().asSequence().filter { (it as groovy.xml.slurpersupport.GPathResult).name() == "failure" }
-            val errors = junitResult.depthFirst().asSequence().filter { (it as groovy.xml.slurpersupport.GPathResult).name() == "error" }
+            val failures = junitResult.depthFirst().asSequence().filter { (it as GPathResult).name() == "failure" }
+            val errors = junitResult.depthFirst().asSequence().filter { (it as GPathResult).name() == "error" }
 
             if (failures.any() || errors.any()) {
                 val amount = (failures + errors).count()
@@ -446,7 +450,7 @@ allprojects {
     }
 }
 
-fun additionalPomInfo(pom: org.gradle.api.publish.maven.MavenPom) {
+fun additionalPomInfo(pom: MavenPom) {
     pom.licenses {
         // official SPDX identifier
         // see https://spdx.org/licenses/ for list

@@ -84,7 +84,7 @@ repositories {
 }
 
 val skipResolveMps = project.hasProperty("mpsHomeDir")
-val mpsHomeDir: File by extra(rootProject.file(project.findProperty("mpsHomeDir")?.toString() ?: "$buildDir/mps"))
+val mpsHomeDir = rootProject.file(project.findProperty("mpsHomeDir")?.toString() ?: "$buildDir/mps")
 
 if (skipResolveMps) {
     tasks.register("resolveMps") {

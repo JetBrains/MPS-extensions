@@ -1,3 +1,10 @@
+import de.itemis.mps.gradle.*
+import de.itemis.mps.gradle.tasks.MpsMigrate
+import de.itemis.mps.gradle.tasks.Remigrate
+import de.itemis.mps.gradle.downloadJBR.DownloadJbrForPlatform
+import groovy.xml.XmlSlurper
+import java.time.LocalDateTime
+
 plugins {
     id("de.itemis.mps.gradle.common") version "1.29.2.+"
     id("com.github.breadmoirai.github-release") version "2.5.2"
@@ -8,37 +15,22 @@ plugins {
     id("download-jbr") version "1.29.2.+"
 }
 
-import de.itemis.mps.gradle.*
-import de.itemis.mps.gradle.tasks.MpsMigrate
-import de.itemis.mps.gradle.tasks.Remigrate
-import de.itemis.mps.gradle.downloadJBR.DownloadJbrForPlatform
-import groovy.xml.XmlSlurper
-import java.time.LocalDateTime
-
 // Configure downloadJbr
 downloadJbr {
     jbrVersion = "17.0.11-b1207.30"
 }
 
-// detect if we are in a CI build
-val ciBuild: Boolean by extra {
-    if (project.hasProperty("forceCI")) {
-        true
-    } else {
-        //on teamcity we are in a CI build
-        if (project.hasProperty("teamcity") && !project.hasProperty("mpsHomeDir")) {
-            true
-        } else {
-            false
-        }
-    }
-}
+// Detect if we are in a CI build
+val ciBuild = project.hasProperty("forceCI") ||
+    // On TeamCity we are in a CI build, except if mpsHomeDir is set (used on JetBrains TeamCity to test MPS-extensions
+    // against unreleased MPS versions)
+    project.hasProperty("teamcity") && !project.hasProperty("mpsHomeDir")
 
 // Dependency versions
-val mpsVersion: String by extra(libs.versions.mps.get())
+val mpsVersion = libs.versions.mps.get()
 
 // major version, e.g. '2021.1', '2021.2'
-val mpsMajor: String by extra(mpsVersion.substring(0, 6)) // 2024.1.x-RCy -> 2024.1
+val mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
 
 if (ciBuild) {
     val branch = GitBasedVersioning.getGitBranch()
@@ -66,17 +58,15 @@ val mpsPluginsDirPattern: String = if (System.getProperty("os.name").lowercase()
     "$userHome/.%s/config/plugins"
 }
 
-val mpsPluginsDir: String by extra {
-    if (project.hasProperty("MPS_PATHS_SELECTOR")) {
-        String.format(mpsPluginsDirPattern, project.property("MPS_PATHS_SELECTOR"))
-    } else {
-        String.format(mpsPluginsDirPattern, "MPS$mpsMajor")
-    }
+val mpsPluginsDir: String = if (project.hasProperty("MPS_PATHS_SELECTOR")) {
+    String.format(mpsPluginsDirPattern, project.property("MPS_PATHS_SELECTOR"))
+} else {
+    String.format(mpsPluginsDirPattern, "MPS$mpsMajor")
 }
 
-val releaseRepository: String by extra("https://artifacts.itemis.cloud/repository/maven-mps-releases/")
-val snapshotRepository: String by extra("https://artifacts.itemis.cloud/repository/maven-mps-snapshots/")
-val publishingRepository: String by extra(if (version.toString().endsWith("-SNAPSHOT")) snapshotRepository else releaseRepository)
+val releaseRepository = "https://artifacts.itemis.cloud/repository/maven-mps-releases/"
+val snapshotRepository = "https://artifacts.itemis.cloud/repository/maven-mps-snapshots/"
+val publishingRepository = if (version.toString().endsWith("-SNAPSHOT")) snapshotRepository else releaseRepository
 
 group = "de.itemis.mps"
 
@@ -93,7 +83,7 @@ repositories {
     mavenCentral()
 }
 
-val skipResolveMps: Boolean by extra(project.hasProperty("mpsHomeDir"))
+val skipResolveMps = project.hasProperty("mpsHomeDir")
 val mpsHomeDir: File by extra(rootProject.file(project.findProperty("mpsHomeDir")?.toString() ?: "$buildDir/mps"))
 
 if (skipResolveMps) {
@@ -224,12 +214,12 @@ val buildScriptClasspath by extra(project.configurations["ant_lib"])
 val artifactsDir = File(rootDir, "artifacts")
 val reportsDir = File("$buildDir/reports")
 
-val mps_home by extra("-Dmps.home=" + mpsHomeDir.absolutePath)
-val build_dir by extra("-Dbuild.dir=" + File(rootProject.projectDir.absolutePath).absolutePath)
-val artifacts_dir by extra("-Dartifacts.root=" + artifactsDir)
-val pluginVersion by extra("-DversionNumber=" + version)
-val buildDate by extra("-DbuildDate=" + java.util.Date().toString())
-val extensions_home by extra("-Dextensions.home=" + rootDir)
+val mps_home = "-Dmps.home=" + mpsHomeDir.absolutePath
+val build_dir = "-Dbuild.dir=" + File(rootProject.projectDir.absolutePath).absolutePath
+val artifacts_dir = "-Dartifacts.root=" + artifactsDir
+val pluginVersion = "-DversionNumber=" + version
+val buildDate = "-DbuildDate=" + java.util.Date().toString()
+val extensions_home = "-Dextensions.home=" + rootDir
 
 // ___________________ utilities ___________________
 fun scriptFile(relativePath: String): File {
@@ -435,7 +425,7 @@ allprojects {
             if (rootProject.hasProperty("artifacts.itemis.cloud.user") && rootProject.hasProperty("artifacts.itemis.cloud.pw")) {
                 maven {
                     name = "itemisCloud"
-                    url = uri(project.extra["publishingRepository"] as String)
+                    url = uri(publishingRepository)
                     credentials {
                         username = rootProject.findProperty("artifacts.itemis.cloud.user") as String?
                         password = rootProject.findProperty("artifacts.itemis.cloud.pw") as String?

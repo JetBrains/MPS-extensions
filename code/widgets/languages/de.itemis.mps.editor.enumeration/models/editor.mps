@@ -279,7 +279,7 @@
     <ref role="1XX52x" to="t51k:1QyV25GKFIu" resolve="CellModel_EnumCheckbox" />
     <node concept="3EZMnI" id="1QyV25GKGaB" role="2wV5jI">
       <node concept="3F0ifn" id="1QyV25GKIKa" role="3EZMnx">
-        <property role="3F0ifm" value="checkbox" />
+        <property role="3F0ifm" value="enum_checkbox" />
       </node>
       <node concept="PMmxH" id="1QyV25GKIKp" role="3EZMnx">
         <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />

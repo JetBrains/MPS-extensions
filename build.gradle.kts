@@ -342,6 +342,9 @@ tasks.register<TestLanguages>("run_tests") {
 tasks.named("run_tests") {
     finalizedBy("failOnTestError")
 }
+tasks.check {
+    dependsOn("run_tests")
+}
 
 tasks.register<Copy>("install_nativelibs") {
     dependsOn("build_languages")
@@ -380,7 +383,7 @@ dependencies {
 }
 
 tasks.register<Zip>("packageExtensions") {
-    dependsOn("run_tests", "cyclonedxBom")
+    dependsOn("build_languages", "cyclonedxBom")
     archiveBaseName.set("de.itemis.mps.extensions")
     from(artifactsDir) {
         include("de.itemis.mps.extensions/**")

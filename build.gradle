@@ -34,13 +34,6 @@ if (project.hasProperty("forceCI")) {
     }
 }
 
-// Default repository credentials
-if (!project.hasProperty('nexusUsername')) {
-    ext.nexusUsername = ''
-    ext.nexusPassword = ''
-}
-logger.info 'Repository username: {}', project.nexusUsername
-
 // Dependency versions
 ext.mpsVersion = libs.versions.mps.get()
 

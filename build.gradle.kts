@@ -379,13 +379,6 @@ dependencies {
     }
 }
 
-tasks.register<Zip>("packageAllScripts") {
-    dependsOn("run_tests")
-    archiveBaseName.set("de.itemis.mps.extensions.allScripts")
-    from(artifactsDir)
-    include("de.itemis.mps.extensions.allScripts/**")
-}
-
 tasks.register<Zip>("packageExtensions") {
     dependsOn("run_tests", "cyclonedxBom")
     archiveBaseName.set("de.itemis.mps.extensions")

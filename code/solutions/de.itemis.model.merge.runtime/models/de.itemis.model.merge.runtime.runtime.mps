@@ -6466,7 +6466,7 @@
                 <node concept="1rXfSq" id="2h_Qpbjj83f" role="37wK5m">
                   <ref role="37wK5l" node="4KE_ovq9Cat" resolve="idOf" />
                   <node concept="37vLTw" id="2h_Qpbjj83D" role="37wK5m">
-                    <ref role="3cqZAo" node="2h_Qpbjj81H" resolve="newInstance" />
+                    <ref role="3cqZAo" node="2h_Qpbjj83w" resolve="leftNode" />
                   </node>
                 </node>
               </node>
@@ -7031,6 +7031,29 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="7L127H0c$$Y" role="3cqZAp">
+              <node concept="2OqwBi" id="7L127H0c$$Z" role="3clFbG">
+                <node concept="2JrnkZ" id="7L127H0c$_0" role="2Oq$k0">
+                  <node concept="37vLTw" id="7L127H0c$_1" role="2JrQYb">
+                    <ref role="3cqZAo" node="7L127H0c$zS" resolve="newInstance" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7L127H0c$_2" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.addChild(org.jetbrains.mps.openapi.language.SContainmentLink,org.jetbrains.mps.openapi.model.SNode)" resolve="addChild" />
+                  <node concept="2OqwBi" id="7L127H0c$_3" role="37wK5m">
+                    <node concept="37vLTw" id="7L127H0c$_4" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7L127H0c$zW" resolve="childMerger" />
+                    </node>
+                    <node concept="liA8E" id="7L127H0c$_5" role="2OqNvi">
+                      <ref role="37wK5l" node="5lvG0vIUaXG" resolve="link" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="6zagWCtv8td" role="37wK5m">
+                    <ref role="3cqZAo" node="6zagWCtnc4A" resolve="newChildInstance" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="6zagWCtJ741" role="3cqZAp">
               <node concept="3cpWsn" id="6zagWCtJ744" role="3cpWs9">
                 <property role="TrG5h" value="mergedNode" />
@@ -7048,14 +7071,14 @@
                     </node>
                     <node concept="1rXfSq" id="6zagWCtJ74c" role="37wK5m">
                       <ref role="37wK5l" node="4KE_ovq9Cat" resolve="idOf" />
-                      <node concept="2GrUjf" id="6zagWCtPgP7" role="37wK5m">
-                        <ref role="2Gs0qQ" node="7L127H0c$$V" resolve="mergedChild" />
+                      <node concept="37vLTw" id="545DBteuEk_" role="37wK5m">
+                        <ref role="3cqZAo" node="6zagWCtnc4A" resolve="newChildInstance" />
                       </node>
                     </node>
                     <node concept="1rXfSq" id="6zagWCua8H1" role="37wK5m">
                       <ref role="37wK5l" node="4KE_ovq9Cat" resolve="idOf" />
-                      <node concept="2GrUjf" id="6zagWCua8H2" role="37wK5m">
-                        <ref role="2Gs0qQ" node="7L127H0c$$V" resolve="mergedChild" />
+                      <node concept="37vLTw" id="545DBtevlbQ" role="37wK5m">
+                        <ref role="3cqZAo" node="6zagWCtnc4A" resolve="newChildInstance" />
                       </node>
                     </node>
                   </node>
@@ -7079,29 +7102,6 @@
                   </node>
                   <node concept="37vLTw" id="6zagWCtIJ2H" role="37wK5m">
                     <ref role="3cqZAo" node="6zagWCtJ744" resolve="mergedNode" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7L127H0c$$Y" role="3cqZAp">
-              <node concept="2OqwBi" id="7L127H0c$$Z" role="3clFbG">
-                <node concept="2JrnkZ" id="7L127H0c$_0" role="2Oq$k0">
-                  <node concept="37vLTw" id="7L127H0c$_1" role="2JrQYb">
-                    <ref role="3cqZAo" node="7L127H0c$zS" resolve="newInstance" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="7L127H0c$_2" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SNode.addChild(org.jetbrains.mps.openapi.language.SContainmentLink,org.jetbrains.mps.openapi.model.SNode)" resolve="addChild" />
-                  <node concept="2OqwBi" id="7L127H0c$_3" role="37wK5m">
-                    <node concept="37vLTw" id="7L127H0c$_4" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7L127H0c$zW" resolve="childMerger" />
-                    </node>
-                    <node concept="liA8E" id="7L127H0c$_5" role="2OqNvi">
-                      <ref role="37wK5l" node="5lvG0vIUaXG" resolve="link" />
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="6zagWCtv8td" role="37wK5m">
-                    <ref role="3cqZAo" node="6zagWCtnc4A" resolve="newChildInstance" />
                   </node>
                 </node>
               </node>

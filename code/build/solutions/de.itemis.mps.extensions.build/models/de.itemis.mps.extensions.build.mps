@@ -1436,6 +1436,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4e238oUV03N" role="3bR37C">
+          <node concept="3bR9La" id="4e238oUV03O" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4j" resolve="jetbrains.mps.lang.actions" />
+          </node>
+        </node>
         <node concept="1E0d5M" id="1sO539bGQw6" role="1E1XAP">
           <ref role="1E0d5P" node="4p3FRivDLPL" resolve="de.slisson.mps.editor.multiline.runtime" />
         </node>
@@ -24315,6 +24320,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4e238oV9_nN" role="3bR37C">
+          <node concept="3bR9La" id="4e238oV9_og" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
         <node concept="1BupzO" id="4zIvKyxqTEW" role="3bR31x">

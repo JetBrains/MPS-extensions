@@ -18008,23 +18008,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="1COuKcXvmvz" role="3cqZAp">
-              <node concept="2OqwBi" id="1COuKcXvmvw" role="3clFbG">
-                <node concept="10M0yZ" id="1COuKcXvmvx" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" />
-                  <ref role="3cqZAo" to="wyt6:~System.out" />
-                </node>
-                <node concept="liA8E" id="1COuKcXvmvy" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="2OqwBi" id="1COuKcXvrZY" role="37wK5m">
-                    <node concept="37vLTw" id="1COuKcXvqtT" role="2Oq$k0">
-                      <ref role="3cqZAo" node="pCYaxs7Z4H" resolve="newInstanceOfChild" />
-                    </node>
-                    <node concept="2Iv5rx" id="1COuKcXvtka" role="2OqNvi" />
-                  </node>
-                </node>
-              </node>
-            </node>
           </node>
         </node>
         <node concept="3clFbF" id="pCYaxs8sqJ" role="3cqZAp">

@@ -684,10 +684,10 @@
           <property role="TrG5h" value="expected" />
         </node>
         <node concept="2pctC0" id="1zxgaynEnOB" role="1d83UQ">
-          <property role="2pctC1" value="lala#@#lala" />
+          <property role="2pctC1" value="lala_childSingleton_lala" />
         </node>
         <node concept="2pctC0" id="1zxgaynEnPB" role="1aoamK">
-          <property role="2pctC1" value="lala*******lala" />
+          <property role="2pctC1" value="lala_optionalChild_lala" />
         </node>
       </node>
     </node>
@@ -2502,10 +2502,10 @@
           </node>
         </node>
         <node concept="1Xw6AR" id="4LLXBGbHXwS" role="ppbcs">
-          <node concept="1dCxOl" id="4LLXBGbHXwT" role="1XwpL7">
+          <node concept="1dCxOl" id="1COuKcVeNbQ" role="1XwpL7">
             <property role="1XweGQ" value="r:e0e8921e-c4c0-4e4c-a825-af1f615827e5" />
-            <node concept="1j_P7g" id="4LLXBGbHXwU" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightSingltonChild" />
+            <node concept="1j_P7g" id="1COuKcVeNbR" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.singeltonChildRight" />
             </node>
           </node>
         </node>

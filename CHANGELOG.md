@@ -10,6 +10,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *com.mbeddr.mpsutil.compare* Fixed duplicated code generation for `assert node equals`
 - *com.mbeddr.mpsutil.blutil* Use `COPY_SRCL` in [IfInstanceOfElseIfClause](http://127.0.0.1:63320/node?ref=63e0e566-5131-447e-90e3-12ea330e1a00%2Fr%3Af5bd2ad9-cd54-4408-b815-07f9f306f074%28com.mbeddr.mpsutil.blutil%2Fcom.mbeddr.mpsutil.blutil.structure%29%2F8718469662507237778) to avoid build warnings
+- *com.mbeddr.mpsutil.intentions.runtime* An issue with multiplying intentions in the intentions menu was fixed when the default intention actions provider is unregisted through *IntentionActionsProvider.EP_NAME.*
 
 ## May 2025
 

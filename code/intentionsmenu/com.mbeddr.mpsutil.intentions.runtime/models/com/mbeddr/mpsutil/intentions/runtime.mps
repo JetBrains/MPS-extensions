@@ -2659,157 +2659,80 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="3pwG8PSkQJZ" role="3cqZAp">
-          <node concept="2OqwBi" id="3pwG8PSkU2O" role="3clFbw">
-            <node concept="37vLTw" id="3pwG8PSkU2N" role="2Oq$k0">
-              <ref role="3cqZAo" node="3pwG8PSkQJB" resolve="intentionActions" />
+        <node concept="3clFbH" id="4tqcjem7lH0" role="3cqZAp" />
+        <node concept="3cpWs8" id="3pwG8PSkQKt" role="3cqZAp">
+          <node concept="3cpWsn" id="3pwG8PSkQKs" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="intentionActionGroup" />
+            <node concept="3uibUv" id="3pwG8PSkQKu" role="1tU5fm">
+              <ref role="3uigEE" to="qkt:~DefaultActionGroup" resolve="DefaultActionGroup" />
             </node>
-            <node concept="liA8E" id="3pwG8PSkU2P" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
-            </node>
-          </node>
-          <node concept="9aQIb" id="3pwG8PSkQKq" role="9aQIa">
-            <node concept="3clFbS" id="3pwG8PSkQKr" role="9aQI4">
-              <node concept="3cpWs8" id="3pwG8PSkQKt" role="3cqZAp">
-                <node concept="3cpWsn" id="3pwG8PSkQKs" role="3cpWs9">
-                  <property role="3TUv4t" value="false" />
-                  <property role="TrG5h" value="intentionActionGroup" />
-                  <node concept="3uibUv" id="3pwG8PSkQKu" role="1tU5fm">
-                    <ref role="3uigEE" to="qkt:~DefaultActionGroup" resolve="DefaultActionGroup" />
-                  </node>
-                  <node concept="1rXfSq" id="2xgTENkWs2P" role="33vP2m">
-                    <ref role="37wK5l" node="2xgTENkWs2J" resolve="createIntentionActionGroup" />
-                    <node concept="37vLTw" id="2xgTENkWs2M" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQJm" resolve="node" />
-                    </node>
-                    <node concept="37vLTw" id="2xgTENkWs2N" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQJk" resolve="intention" />
-                    </node>
-                    <node concept="37vLTw" id="2xgTENkWs2O" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQJx" resolve="text" />
-                    </node>
-                  </node>
-                </node>
+            <node concept="1rXfSq" id="2xgTENkWs2P" role="33vP2m">
+              <ref role="37wK5l" node="2xgTENkWs2J" resolve="createIntentionActionGroup" />
+              <node concept="37vLTw" id="2xgTENkWs2M" role="37wK5m">
+                <ref role="3cqZAo" node="3pwG8PSkQJm" resolve="node" />
               </node>
-              <node concept="3clFbF" id="WznLMVAI9e" role="3cqZAp">
-                <node concept="2OqwBi" id="WznLMVB0IN" role="3clFbG">
-                  <node concept="2OqwBi" id="WznLMVAMUi" role="2Oq$k0">
-                    <node concept="37vLTw" id="WznLMVAI9c" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
-                    </node>
-                    <node concept="liA8E" id="WznLMVAWzG" role="2OqNvi">
-                      <ref role="37wK5l" to="qkt:~AnAction.getTemplatePresentation()" resolve="getTemplatePresentation" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="WznLMVB5do" role="2OqNvi">
-                    <ref role="37wK5l" to="qkt:~Presentation.setPerformGroup(boolean)" resolve="setPerformGroup" />
-                    <node concept="3clFbT" id="WznLMVB7UB" role="37wK5m">
-                      <property role="3clFbU" value="true" />
-                    </node>
-                  </node>
-                </node>
+              <node concept="37vLTw" id="2xgTENkWs2N" role="37wK5m">
+                <ref role="3cqZAo" node="3pwG8PSkQJk" resolve="intention" />
               </node>
-              <node concept="3clFbF" id="3pwG8PSkQKT" role="3cqZAp">
-                <node concept="2OqwBi" id="3pwG8PSkU2T" role="3clFbG">
-                  <node concept="37vLTw" id="3pwG8PSkU2S" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
-                  </node>
-                  <node concept="liA8E" id="3pwG8PSkU2U" role="2OqNvi">
-                    <ref role="37wK5l" to="qkt:~DefaultActionGroup.addAll(java.util.Collection)" resolve="addAll" />
-                    <node concept="37vLTw" id="3pwG8PSkQKV" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQJB" resolve="intentionActions" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="3pwG8PSkQKW" role="3cqZAp">
-                <node concept="2OqwBi" id="3pwG8PSkQKX" role="3clFbG">
-                  <node concept="2OqwBi" id="3pwG8PSkU2Y" role="2Oq$k0">
-                    <node concept="37vLTw" id="3pwG8PSkU2X" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
-                    </node>
-                    <node concept="liA8E" id="3pwG8PSkU2Z" role="2OqNvi">
-                      <ref role="37wK5l" to="qkt:~AnAction.getTemplatePresentation()" resolve="getTemplatePresentation" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="3pwG8PSkQKZ" role="2OqNvi">
-                    <ref role="37wK5l" to="qkt:~Presentation.setIcon(javax.swing.Icon)" resolve="setIcon" />
-                    <node concept="37vLTw" id="3pwG8PSkQL0" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQJp" resolve="icon" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3cpWs6" id="3pwG8PSkQL1" role="3cqZAp">
-                <node concept="37vLTw" id="3pwG8PSkQL2" role="3cqZAk">
-                  <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
-                </node>
+              <node concept="37vLTw" id="2xgTENkWs2O" role="37wK5m">
+                <ref role="3cqZAo" node="3pwG8PSkQJx" resolve="text" />
               </node>
             </node>
           </node>
-          <node concept="3clFbS" id="3pwG8PSkQK2" role="3clFbx">
-            <node concept="3cpWs6" id="3pwG8PSkQK3" role="3cqZAp">
-              <node concept="2ShNRf" id="3pwG8PSkQK4" role="3cqZAk">
-                <node concept="YeOm9" id="3pwG8PSkQK5" role="2ShVmc">
-                  <node concept="1Y3b0j" id="3pwG8PSkQK6" role="YeSDq">
-                    <property role="2bfB8j" value="true" />
-                    <property role="1sVAO0" value="false" />
-                    <property role="1EXbeo" value="false" />
-                    <ref role="1Y3XeK" to="7bx7:~BaseAction" resolve="BaseAction" />
-                    <ref role="37wK5l" to="7bx7:~BaseAction.&lt;init&gt;(java.lang.String,java.lang.String,javax.swing.Icon)" resolve="BaseAction" />
-                    <node concept="3Tm1VV" id="3pwG8PSkQK7" role="1B3o_S" />
-                    <node concept="3clFb_" id="3pwG8PSkQK8" role="jymVt">
-                      <property role="TrG5h" value="doExecute" />
-                      <property role="DiZV1" value="false" />
-                      <property role="od$2w" value="false" />
-                      <node concept="2AHcQZ" id="3pwG8PSkQK9" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                      </node>
-                      <node concept="37vLTG" id="3pwG8PSkQKa" role="3clF46">
-                        <property role="TrG5h" value="e" />
-                        <property role="3TUv4t" value="false" />
-                        <node concept="3uibUv" id="3pwG8PSkQKb" role="1tU5fm">
-                          <ref role="3uigEE" to="qkt:~AnActionEvent" resolve="AnActionEvent" />
-                        </node>
-                      </node>
-                      <node concept="37vLTG" id="3pwG8PSkQKc" role="3clF46">
-                        <property role="TrG5h" value="params" />
-                        <property role="3TUv4t" value="false" />
-                        <node concept="3uibUv" id="3pwG8PSkQKd" role="1tU5fm">
-                          <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
-                          <node concept="17QB3L" id="4gYVSgE4zVR" role="11_B2D" />
-                          <node concept="3uibUv" id="3pwG8PSkQKf" role="11_B2D">
-                            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3clFbS" id="3pwG8PSkQKg" role="3clF47">
-                        <node concept="3clFbF" id="3pwG8PSkQKh" role="3cqZAp">
-                          <node concept="1rXfSq" id="3pwG8PSkQKi" role="3clFbG">
-                            <ref role="37wK5l" node="2jDew64RVuQ" resolve="executeIntention" />
-                            <node concept="37vLTw" id="3pwG8PSkQKj" role="37wK5m">
-                              <ref role="3cqZAo" node="3pwG8PSkQJk" resolve="intention" />
-                            </node>
-                            <node concept="37vLTw" id="3pwG8PSkQKk" role="37wK5m">
-                              <ref role="3cqZAo" node="3pwG8PSkQJm" resolve="node" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3Tmbuc" id="3pwG8PSkQKl" role="1B3o_S" />
-                      <node concept="3cqZAl" id="3pwG8PSkQKm" role="3clF45" />
-                    </node>
-                    <node concept="37vLTw" id="3pwG8PSkQKn" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQJx" resolve="text" />
-                    </node>
-                    <node concept="10Nm6u" id="3pwG8PSkQKo" role="37wK5m" />
-                    <node concept="37vLTw" id="3pwG8PSkQKp" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQJp" resolve="icon" />
-                    </node>
-                  </node>
-                </node>
+        </node>
+        <node concept="3clFbF" id="WznLMVAI9e" role="3cqZAp">
+          <node concept="2OqwBi" id="WznLMVB0IN" role="3clFbG">
+            <node concept="2OqwBi" id="WznLMVAMUi" role="2Oq$k0">
+              <node concept="37vLTw" id="WznLMVAI9c" role="2Oq$k0">
+                <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
+              </node>
+              <node concept="liA8E" id="WznLMVAWzG" role="2OqNvi">
+                <ref role="37wK5l" to="qkt:~AnAction.getTemplatePresentation()" resolve="getTemplatePresentation" />
               </node>
             </node>
+            <node concept="liA8E" id="WznLMVB5do" role="2OqNvi">
+              <ref role="37wK5l" to="qkt:~Presentation.setPerformGroup(boolean)" resolve="setPerformGroup" />
+              <node concept="3clFbT" id="4tqcjem7KEJ" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3pwG8PSkQKT" role="3cqZAp">
+          <node concept="2OqwBi" id="3pwG8PSkU2T" role="3clFbG">
+            <node concept="37vLTw" id="3pwG8PSkU2S" role="2Oq$k0">
+              <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
+            </node>
+            <node concept="liA8E" id="3pwG8PSkU2U" role="2OqNvi">
+              <ref role="37wK5l" to="qkt:~DefaultActionGroup.addAll(java.util.Collection)" resolve="addAll" />
+              <node concept="37vLTw" id="3pwG8PSkQKV" role="37wK5m">
+                <ref role="3cqZAo" node="3pwG8PSkQJB" resolve="intentionActions" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3pwG8PSkQKW" role="3cqZAp">
+          <node concept="2OqwBi" id="3pwG8PSkQKX" role="3clFbG">
+            <node concept="2OqwBi" id="3pwG8PSkU2Y" role="2Oq$k0">
+              <node concept="37vLTw" id="3pwG8PSkU2X" role="2Oq$k0">
+                <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
+              </node>
+              <node concept="liA8E" id="3pwG8PSkU2Z" role="2OqNvi">
+                <ref role="37wK5l" to="qkt:~AnAction.getTemplatePresentation()" resolve="getTemplatePresentation" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3pwG8PSkQKZ" role="2OqNvi">
+              <ref role="37wK5l" to="qkt:~Presentation.setIcon(javax.swing.Icon)" resolve="setIcon" />
+              <node concept="37vLTw" id="3pwG8PSkQL0" role="37wK5m">
+                <ref role="3cqZAo" node="3pwG8PSkQJp" resolve="icon" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3pwG8PSkQL1" role="3cqZAp">
+          <node concept="37vLTw" id="3pwG8PSkQL2" role="3cqZAk">
+            <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
           </node>
         </node>
       </node>

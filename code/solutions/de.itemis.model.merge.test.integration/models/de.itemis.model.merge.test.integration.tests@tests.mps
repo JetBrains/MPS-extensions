@@ -409,7 +409,7 @@
             </node>
             <node concept="2YIFZM" id="4LLXBGbTodK" role="33vP2m">
               <ref role="37wK5l" to="cp9f:S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" to="cp9f:6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" to="cp9f:6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="4LLXBGbTodL" role="37wK5m">
                 <ref role="3xOPvv" node="4LLXBGbTof3" resolve="me" />
               </node>

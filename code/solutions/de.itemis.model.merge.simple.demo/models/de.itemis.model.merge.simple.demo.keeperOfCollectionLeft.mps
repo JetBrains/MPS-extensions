@@ -16,6 +16,7 @@
     </language>
     <language id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property">
       <concept id="3499368519007574816" name="de.itemis.model.simple.demo.property.structure.ConceptWithProperty" flags="ng" index="2pctC0">
+        <property id="8799385891892731474" name="id" index="2dL2Ma" />
         <property id="3499368519007574817" name="data" index="2pctC1" />
       </concept>
     </language>
@@ -32,15 +33,18 @@
       <property role="CZhx$" value="2" />
       <node concept="2pctC0" id="78fCHIEYAnP" role="CZinA">
         <property role="2pctC1" value="dummy4" />
+        <property role="2dL2Ma" value="dummy4" />
       </node>
     </node>
     <node concept="CZi8p" id="5CYFCJDOEf$" role="2NVMut">
       <property role="CZhx$" value="1" />
       <node concept="2pctC0" id="78fCHIEYAnS" role="CZinA">
         <property role="2pctC1" value="dummy1" />
+        <property role="2dL2Ma" value="dummy1" />
       </node>
       <node concept="2pctC0" id="78fCHIEYAoi" role="CZinA">
         <property role="2pctC1" value="dummy2" />
+        <property role="2dL2Ma" value="dummy2" />
       </node>
     </node>
   </node>

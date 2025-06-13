@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="test.de.itemis.model.merge" uuid="4c006be6-93cc-4448-914f-0dddf03a2111" moduleVersion="0">
+<solution name="test.de.itemis.model.merge" uuid="cdb00dd4-a029-4032-9fb2-aa715759c876" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot path="${module}/models" />
@@ -9,20 +9,19 @@
     <facet type="java" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
-    <facet type="tests" />
   </facets>
   <dependencies>
-    <dependency reexport="false">aa8cbd62-5e1f-4d0b-a6e2-189711774c91(de.itemis.model.merge.runtime)</dependency>
     <dependency reexport="false">e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
+    <dependency reexport="false">3bfac093-0c90-42c7-87af-7dbe19b8f3e0(de.itemis.model.merge.simple.demo)</dependency>
     <dependency reexport="false">539e8939-08ef-497c-a5fd-25dd10137a55(de.itemis.model.merge)</dependency>
     <dependency reexport="false">ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)</dependency>
-    <dependency reexport="false">3bfac093-0c90-42c7-87af-7dbe19b8f3e0(de.itemis.model.merge.simple.demo)</dependency>
-    <dependency reexport="false">d0e6daec-7e7f-4efa-a313-20c4b0dac308(de.itemis.model.simple.demo.collection.ref)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">8688ed72-e0ba-44cb-9688-5c8397cb5bbb(de.itemis.model.simple.demo.children)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:539e8939-08ef-497c-a5fd-25dd10137a55:de.itemis.model.merge" version="0" />
+    <language slang="l:8688ed72-e0ba-44cb-9688-5c8397cb5bbb:de.itemis.model.simple.demo.children" version="0" />
     <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ca2b:de.itemis.model.simple.demo.property" version="0" />
     <language slang="l:f47b95d4-5e73-4c04-9204-18076950153b:de.itemis.mps.compare" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -44,7 +43,7 @@
     <module reference="539e8939-08ef-497c-a5fd-25dd10137a55(de.itemis.model.merge)" version="0" />
     <module reference="aa8cbd62-5e1f-4d0b-a6e2-189711774c91(de.itemis.model.merge.runtime)" version="0" />
     <module reference="3bfac093-0c90-42c7-87af-7dbe19b8f3e0(de.itemis.model.merge.simple.demo)" version="0" />
-    <module reference="d0e6daec-7e7f-4efa-a313-20c4b0dac308(de.itemis.model.simple.demo.collection.ref)" version="0" />
+    <module reference="8688ed72-e0ba-44cb-9688-5c8397cb5bbb(de.itemis.model.simple.demo.children)" version="0" />
     <module reference="e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)" version="0" />
     <module reference="ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
@@ -52,7 +51,7 @@
     <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
-    <module reference="4c006be6-93cc-4448-914f-0dddf03a2111(test.de.itemis.model.merge)" version="0" />
+    <module reference="cdb00dd4-a029-4032-9fb2-aa715759c876(test.de.itemis.model.merge)" version="0" />
   </dependencyVersions>
 </solution>
 

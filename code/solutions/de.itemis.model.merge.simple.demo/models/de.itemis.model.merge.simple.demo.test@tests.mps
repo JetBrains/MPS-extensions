@@ -223,6 +223,7 @@
     </language>
     <language id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property">
       <concept id="3499368519007574816" name="de.itemis.model.simple.demo.property.structure.ConceptWithProperty" flags="ng" index="2pctC0">
+        <property id="8799385891892731474" name="mergeid" index="2dL2Ma" />
         <property id="3499368519007574817" name="data" index="2pctC1" />
       </concept>
     </language>
@@ -453,6 +454,7 @@
     <node concept="1qefOq" id="uhx_ua3fXR" role="1SKRRt">
       <node concept="2pctC0" id="uhx_ua3g1E" role="1qenE9">
         <property role="2pctC1" value="demo1" />
+        <property role="2dL2Ma" value="demo1" />
         <node concept="3xLA65" id="uhx_ua3gcC" role="lGtFl">
           <property role="TrG5h" value="left" />
         </node>
@@ -461,6 +463,7 @@
     <node concept="1qefOq" id="uhx_ua3g1F" role="1SKRRt">
       <node concept="2pctC0" id="uhx_ua3g1G" role="1qenE9">
         <property role="2pctC1" value="demo1" />
+        <property role="2dL2Ma" value="demo1" />
         <node concept="3xLA65" id="uhx_ua3gvL" role="lGtFl">
           <property role="TrG5h" value="right" />
         </node>
@@ -469,6 +472,7 @@
     <node concept="1qefOq" id="6Ltuup4wj4J" role="1SKRRt">
       <node concept="2pctC0" id="1zxgaynEnV3" role="1qenE9">
         <property role="2pctC1" value="demo1#demo1" />
+        <property role="2dL2Ma" value="demo1" />
         <node concept="3xLA65" id="1zxgaynEnV5" role="lGtFl">
           <property role="TrG5h" value="expected" />
         </node>
@@ -685,9 +689,11 @@
         </node>
         <node concept="2pctC0" id="1zxgaynEnOB" role="1d83UQ">
           <property role="2pctC1" value="lala_childSingleton_lala" />
+          <property role="2dL2Ma" value="lala" />
         </node>
         <node concept="2pctC0" id="1zxgaynEnPB" role="1aoamK">
           <property role="2pctC1" value="lala_optionalChild_lala" />
+          <property role="2dL2Ma" value="lala" />
         </node>
       </node>
     </node>
@@ -790,9 +796,11 @@
         </node>
         <node concept="2pctC0" id="1zxgaynEnKg" role="1d83UQ">
           <property role="2pctC1" value="lala&lt;---&gt;lala" />
+          <property role="2dL2Ma" value="lala" />
         </node>
         <node concept="2pctC0" id="1zxgaynEnL6" role="1aoamK">
           <property role="2pctC1" value="haha&lt;---&gt;haha" />
+          <property role="2dL2Ma" value="haha" />
         </node>
       </node>
     </node>
@@ -1259,6 +1267,7 @@
         </node>
         <node concept="2pctC0" id="1zxgaynEn$$" role="CZinA">
           <property role="2pctC1" value="dummy2&lt;:-:&gt;dummy2" />
+          <property role="2dL2Ma" value="dummy2" />
         </node>
       </node>
     </node>
@@ -1292,9 +1301,11 @@
         <property role="CZhx$" value="collection1" />
         <node concept="2pctC0" id="1zxgaynEn_r" role="CZinA">
           <property role="2pctC1" value="dummy2&lt;:-:&gt;dummy2" />
+          <property role="2dL2Ma" value="dummy2" />
         </node>
         <node concept="2pctC0" id="1zxgaynEnA9" role="CZinA">
           <property role="2pctC1" value="dummy3" />
+          <property role="2dL2Ma" value="dummy3" />
         </node>
         <node concept="3xLA65" id="77Ot_5af_tr" role="lGtFl">
           <property role="TrG5h" value="expected2" />
@@ -1331,9 +1342,11 @@
         <property role="CZhx$" value="collection1" />
         <node concept="2pctC0" id="1zxgaynEnB1" role="CZinA">
           <property role="2pctC1" value="dummy1" />
+          <property role="2dL2Ma" value="dummy1" />
         </node>
         <node concept="2pctC0" id="1zxgaynEnBJ" role="CZinA">
           <property role="2pctC1" value="dummy2&lt;:-:&gt;dummy2" />
+          <property role="2dL2Ma" value="dummy2" />
         </node>
         <node concept="3xLA65" id="77Ot_5aj$UY" role="lGtFl">
           <property role="TrG5h" value="expected3" />
@@ -1373,6 +1386,7 @@
         </node>
         <node concept="2pctC0" id="1zxgaynEnCA" role="CZinA">
           <property role="2pctC1" value="dummy2/dummy2" />
+          <property role="2dL2Ma" value="dummy2" />
         </node>
       </node>
     </node>
@@ -1408,12 +1422,14 @@
           <property role="CZhx$" value="2" />
           <node concept="2pctC0" id="1zxgaynEnCX" role="CZinA">
             <property role="2pctC1" value="dummy4" />
+            <property role="2dL2Ma" value="dummy4" />
           </node>
         </node>
         <node concept="CZi8p" id="5CYFCJDZ7pp" role="2NVMut">
           <property role="CZhx$" value="1" />
           <node concept="2pctC0" id="1zxgaynEnCZ" role="CZinA">
             <property role="2pctC1" value="&lt;dummy2/dummy2&gt;" />
+            <property role="2dL2Ma" value="dummy2" />
           </node>
         </node>
         <node concept="3xLA65" id="1IpxBNKeUDf" role="lGtFl">
@@ -1454,9 +1470,11 @@
         </node>
         <node concept="2pctC0" id="1zxgaynEnEJ" role="1d83UQ">
           <property role="2pctC1" value="lala&lt;---&gt;lala" />
+          <property role="2dL2Ma" value="lala" />
         </node>
         <node concept="2pctC0" id="1zxgaynEnFJ" role="1aoamK">
           <property role="2pctC1" value="haha&lt;---&gt;haha$$$$" />
+          <property role="2dL2Ma" value="haha" />
         </node>
       </node>
     </node>
@@ -1493,6 +1511,7 @@
         </node>
         <node concept="2pctC0" id="1zxgaynEnG_" role="CZinA">
           <property role="2pctC1" value="%dummy2&lt;:-:&gt;dummy2%" />
+          <property role="2dL2Ma" value="dummy2" />
         </node>
       </node>
     </node>
@@ -1920,6 +1939,7 @@
     <node concept="1qefOq" id="6qrKgEr5YMf" role="1SKRRt">
       <node concept="2pctC0" id="1zxgaynEoZx" role="1qenE9">
         <property role="2pctC1" value="dummy500" />
+        <property role="2dL2Ma" value="dummy500" />
         <node concept="3xLA65" id="1zxgaynEoZz" role="lGtFl">
           <property role="TrG5h" value="data500" />
         </node>
@@ -1928,6 +1948,7 @@
     <node concept="1qefOq" id="1Tugx$wUWi" role="1SKRRt">
       <node concept="2pctC0" id="1zxgaynEqCF" role="1qenE9">
         <property role="2pctC1" value="&lt;dummy2dummy2&gt;" />
+        <property role="2dL2Ma" value="dummy2" />
         <node concept="3xLA65" id="1zxgaynEqCH" role="lGtFl">
           <property role="TrG5h" value="data11" />
         </node>
@@ -1978,6 +1999,7 @@
     <node concept="1qefOq" id="1Tugx_rRZY" role="1SKRRt">
       <node concept="2pctC0" id="1zxgaynEsAQ" role="1qenE9">
         <property role="2pctC1" value="&lt;dummy2dummy2&gt;-L-&lt;dummy2dummy2&gt;-R" />
+        <property role="2dL2Ma" value="&lt;dummy2dummy2&gt;-L-&lt;dummy2dummy2&gt;-R" />
         <node concept="3xLA65" id="1zxgaynEsAS" role="lGtFl">
           <property role="TrG5h" value="mergedDataL-R" />
         </node>
@@ -2237,6 +2259,7 @@
     <node concept="1qefOq" id="4LLXBGbv8jO" role="1SKRRt">
       <node concept="2pctC0" id="4LLXBGbv8jP" role="1qenE9">
         <property role="2pctC1" value="demo1" />
+        <property role="2dL2Ma" value="demo1" />
         <node concept="3xLA65" id="4LLXBGbv8jQ" role="lGtFl">
           <property role="TrG5h" value="expected" />
         </node>
@@ -2522,9 +2545,11 @@
         </node>
         <node concept="2pctC0" id="4LLXBGbHXwZ" role="1d83UQ">
           <property role="2pctC1" value="lala" />
+          <property role="2dL2Ma" value="lala" />
         </node>
         <node concept="2pctC0" id="4LLXBGbHXx0" role="1aoamK">
           <property role="2pctC1" value="haha" />
+          <property role="2dL2Ma" value="haha" />
         </node>
       </node>
     </node>
@@ -2817,7 +2842,7 @@
   </node>
   <node concept="312cEu" id="6npTJ7huP0j">
     <property role="3GE5qa" value="" />
-    <property role="TrG5h" value="TestingMerger" />
+    <property role="TrG5h" value="TestingMergingRunner" />
     <node concept="312cEg" id="uhx_ua7CFb" role="jymVt">
       <property role="TrG5h" value="policy" />
       <node concept="3Tm6S6" id="uhx_ua7CFc" role="1B3o_S" />
@@ -3354,6 +3379,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="7CtGHzUiVoo" role="3cqZAp" />
             <node concept="3GXo0L" id="uhx_uaaOFB" role="3cqZAp">
               <node concept="2GrUjf" id="uhx_uaaPUU" role="3tpDZB">
                 <ref role="2Gs0qQ" node="uhx_uaaFNp" resolve="expectedNode" />
@@ -4600,6 +4626,7 @@
     <node concept="1qefOq" id="4SYg$jBvz7I" role="1SKRRt">
       <node concept="2pctC0" id="4SYg$jBw59D" role="1qenE9">
         <property role="2pctC1" value="SomeData" />
+        <property role="2dL2Ma" value="1" />
         <node concept="3xLA65" id="4SYg$jBw7G1" role="lGtFl">
           <property role="TrG5h" value="left_SomeData" />
         </node>
@@ -4608,6 +4635,7 @@
     <node concept="1qefOq" id="4SYg$jBz4uH" role="1SKRRt">
       <node concept="2pctC0" id="4SYg$jBz4uI" role="1qenE9">
         <property role="2pctC1" value="SomeData" />
+        <property role="2dL2Ma" value="1" />
         <node concept="3xLA65" id="4SYg$jBz4uJ" role="lGtFl">
           <property role="TrG5h" value="right_SomeData" />
         </node>
@@ -4616,6 +4644,7 @@
     <node concept="1qefOq" id="4SYg$jBw59E" role="1SKRRt">
       <node concept="2pctC0" id="4SYg$jBw59G" role="1qenE9">
         <property role="2pctC1" value="AnotherData" />
+        <property role="2dL2Ma" value="2" />
         <node concept="3xLA65" id="4SYg$jBw7G2" role="lGtFl">
           <property role="TrG5h" value="right_AnotherData" />
         </node>

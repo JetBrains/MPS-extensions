@@ -39,7 +39,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="3pc485Vr3C$">
-    <ref role="1XX52x" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+    <ref role="1XX52x" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
     <node concept="3EZMnI" id="3pc485Wdv$7" role="2wV5jI">
       <node concept="2iRkQZ" id="3pc485Wdv$8" role="2iSdaV" />
       <node concept="3EZMnI" id="3pc485Vr3CA" role="3EZMnx">
@@ -47,7 +47,7 @@
           <property role="3F0ifm" value="id:" />
         </node>
         <node concept="3F0A7n" id="2tt7Qfrk9k4" role="3EZMnx">
-          <ref role="1NtTu8" to="9kut:2tt7QfrjGKL" resolve="id" />
+          <ref role="1NtTu8" to="9kut:2tt7QfrjGKL" resolve="mergeid" />
         </node>
         <node concept="2iRfu4" id="3pc485Vr3CD" role="2iSdaV" />
       </node>

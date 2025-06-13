@@ -4666,13 +4666,6 @@
         </node>
       </node>
     </node>
-    <node concept="312cEg" id="3vY722p$Svt" role="jymVt">
-      <property role="TrG5h" value="dropNodes" />
-      <node concept="3Tm6S6" id="3vY722p$lP3" role="1B3o_S" />
-      <node concept="_YKpA" id="3vY722p$lTQ" role="1tU5fm">
-        <node concept="17QB3L" id="3vY722p$NKm" role="_ZDj9" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="pCYaxsxOT0" role="jymVt" />
     <node concept="2YIFZL" id="3a5mjFh18tR" role="jymVt">
       <property role="TrG5h" value="create" />
@@ -5107,18 +5100,6 @@
             </node>
             <node concept="37vLTw" id="pCYaxs$YLg" role="37vLTJ">
               <ref role="3cqZAo" node="pCYaxsyiU2" resolve="idToMergedNodes" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3vY722pBN4f" role="3cqZAp">
-          <node concept="37vLTI" id="3vY722pBWdm" role="3clFbG">
-            <node concept="2ShNRf" id="3vY722pCk$V" role="37vLTx">
-              <node concept="2Jqq0_" id="3vY722pCkpA" role="2ShVmc">
-                <node concept="17QB3L" id="3vY722pCkpB" role="HW$YZ" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="3vY722pBN4d" role="37vLTJ">
-              <ref role="3cqZAo" node="3vY722p$Svt" resolve="dropNodes" />
             </node>
           </node>
         </node>
@@ -6336,25 +6317,6 @@
                   <node concept="1mIQ4w" id="7bQf9VIXPcZ" role="2OqNvi">
                     <node concept="chp4Y" id="7bQf9VIXPd0" role="cj9EA">
                       <ref role="cht4Q" to="mopj:7jyS5urbByQ" resolve="Drop" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="9aQIb" id="3vY722pHvU7" role="9aQIa">
-                <node concept="3clFbS" id="3vY722pHvU8" role="9aQI4">
-                  <node concept="3clFbF" id="3vY722pHTIT" role="3cqZAp">
-                    <node concept="2OqwBi" id="3vY722pI2Nk" role="3clFbG">
-                      <node concept="37vLTw" id="3vY722pHTIS" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3vY722p$Svt" resolve="dropNodes" />
-                      </node>
-                      <node concept="TSZUe" id="3vY722pIsqF" role="2OqNvi">
-                        <node concept="1rXfSq" id="3vY722pINFW" role="25WWJ7">
-                          <ref role="37wK5l" node="4KE_ovq9Cat" resolve="idOf" />
-                          <node concept="2GrUjf" id="3vY722pJbQ9" role="37wK5m">
-                            <ref role="2Gs0qQ" node="7bQf9VICruq" resolve="element" />
-                          </node>
-                        </node>
-                      </node>
                     </node>
                   </node>
                 </node>

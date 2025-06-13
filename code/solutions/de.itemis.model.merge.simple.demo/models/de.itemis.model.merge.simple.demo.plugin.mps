@@ -305,7 +305,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="3pc485Vw6FQ" role="3uHU7w">
-                      <property role="Xl_RC" value="#@#" />
+                      <property role="Xl_RC" value="_childSingleton_" />
                     </node>
                   </node>
                 </node>
@@ -362,7 +362,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="3pc485WrQay" role="3uHU7w">
-                      <property role="Xl_RC" value="*******" />
+                      <property role="Xl_RC" value="_optionalChild_" />
                     </node>
                   </node>
                 </node>

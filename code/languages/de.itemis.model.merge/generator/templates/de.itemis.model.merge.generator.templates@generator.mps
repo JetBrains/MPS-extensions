@@ -111,6 +111,7 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -300,6 +301,9 @@
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
+      </concept>
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
       <concept id="1171310072040" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" flags="nn" index="2Rxl7S" />
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
@@ -2505,6 +2509,44 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="1COuKcY33A7" role="3cqZAp">
+                <node concept="2OqwBi" id="1COuKcY3ahM" role="3clFbG">
+                  <node concept="liA8E" id="1COuKcY3c9$" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
+                    <node concept="Xl_RD" id="1COuKcY3jlr" role="37wK5m">
+                      <property role="Xl_RC" value="ORIGINAL" />
+                    </node>
+                    <node concept="2OqwBi" id="1COuKd01LWx" role="37wK5m">
+                      <node concept="2OqwBi" id="1COuKd01IT3" role="2Oq$k0">
+                        <node concept="2OqwBi" id="5lvG0vIUe$y" role="2Oq$k0">
+                          <node concept="liA8E" id="5lvG0vIUe$z" role="2OqNvi">
+                            <ref role="37wK5l" to="mhbf:~SNode.getChildren(org.jetbrains.mps.openapi.language.SContainmentLink)" resolve="getChildren" />
+                            <node concept="1rXfSq" id="5lvG0vIUe$$" role="37wK5m">
+                              <ref role="37wK5l" node="368jN$K9tM_" resolve="link" />
+                            </node>
+                          </node>
+                          <node concept="2JrnkZ" id="5lvG0vIUe$_" role="2Oq$k0">
+                            <node concept="37vLTw" id="5lvG0vIUe$A" role="2JrQYb">
+                              <ref role="3cqZAo" node="30FY4ILPraB" resolve="left" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1COuKd01KAJ" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Iterable.iterator()" resolve="iterator" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1COuKd01O7U" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2JrnkZ" id="1COuKcY3ahR" role="2Oq$k0">
+                    <node concept="37vLTw" id="1COuKcY33A5" role="2JrQYb">
+                      <ref role="3cqZAo" node="3pc485VQ6ni" resolve="innerMerge" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="5NUO5YlnNcM" role="3cqZAp">
                 <node concept="2YIFZM" id="5NUO5YlnNg0" role="3clFbG">
                   <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
@@ -3168,6 +3210,24 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="1COuKcZ3giU" role="3cqZAp">
+                <node concept="2OqwBi" id="1COuKcZ3giW" role="3clFbG">
+                  <node concept="liA8E" id="1COuKcZ3giX" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
+                    <node concept="Xl_RD" id="1COuKcZ3giY" role="37wK5m">
+                      <property role="Xl_RC" value="ORIGINAL" />
+                    </node>
+                    <node concept="37vLTw" id="1COuKcZ3giZ" role="37wK5m">
+                      <ref role="3cqZAo" node="3xLnOvEDgGw" resolve="left" />
+                    </node>
+                  </node>
+                  <node concept="2JrnkZ" id="1COuKcZ3gj0" role="2Oq$k0">
+                    <node concept="37vLTw" id="1COuKcZ3gj1" role="2JrQYb">
+                      <ref role="3cqZAo" node="3du1uQ$JiQs" resolve="node" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="3du1uQ$Jj2X" role="3cqZAp">
                 <node concept="37vLTw" id="3du1uQ$Jj2V" role="3clFbG">
                   <ref role="3cqZAo" node="3du1uQ$JiQs" resolve="node" />
@@ -3746,6 +3806,24 @@
                       <node concept="37vLTw" id="30FY4ILZHaP" role="37wK5m">
                         <ref role="3cqZAo" node="50eR6VkTFnN" resolve="autoMergeOperation" />
                       </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="1COuKcZ2ML6" role="3cqZAp">
+                <node concept="2OqwBi" id="1COuKcZ2ML8" role="3clFbG">
+                  <node concept="liA8E" id="1COuKcZ2ML9" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
+                    <node concept="Xl_RD" id="1COuKcZ2MLa" role="37wK5m">
+                      <property role="Xl_RC" value="ORIGINAL" />
+                    </node>
+                    <node concept="37vLTw" id="1COuKcZ2MLb" role="37wK5m">
+                      <ref role="3cqZAo" node="6W0eXuddqUT" resolve="elementLeft" />
+                    </node>
+                  </node>
+                  <node concept="2JrnkZ" id="1COuKcZ2MLc" role="2Oq$k0">
+                    <node concept="37vLTw" id="1COuKcZ2MLd" role="2JrQYb">
+                      <ref role="3cqZAo" node="1PFYlaN3A3M" resolve="innerMerge" />
                     </node>
                   </node>
                 </node>

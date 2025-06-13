@@ -370,7 +370,7 @@
                 <ref role="3cqZAo" node="2GsoEenoBUy" resolve="merger" />
               </node>
               <node concept="2OwXpG" id="2GsoEenoJHC" role="2OqNvi">
-                <ref role="2Oxat5" to="gunp:pCYaxslzan" resolve="result" />
+                <ref role="2Oxat5" to="gunp:pCYaxslzan" resolve="outputModel" />
               </node>
             </node>
           </node>

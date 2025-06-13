@@ -326,6 +326,7 @@
     </language>
     <language id="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" name="de.itemis.model.simple.demo.children">
       <concept id="3912520324585631286" name="de.itemis.model.simple.demo.children.structure.ChildKeeper" flags="ng" index="1d83US">
+        <property id="2836457854054878257" name="id" index="3W4Xdi" />
         <child id="3912520324598248753" name="optionalChild" index="1aoamK" />
         <child id="3912520324585631287" name="childSingleton" index="1d83UQ" />
       </concept>
@@ -656,18 +657,18 @@
         <property role="TrG5h" value="ManualChildMergeExec" />
         <ref role="pot50" to="2y6h:3pc485VtLVe" resolve="ManualChildMerger" />
         <node concept="1Xw6AR" id="3pc485Vw7QI" role="ppIIL">
-          <node concept="1dCxOl" id="3pc485Vw7QS" role="1XwpL7">
+          <node concept="1dCxOl" id="6zagWCuEYe$" role="1XwpL7">
             <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
-            <node concept="1j_P7g" id="3pc485Vw7QT" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftSingltonChild" />
+            <node concept="1j_P7g" id="6zagWCuEYe_" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.singeltonChildLeft" />
             </node>
           </node>
         </node>
         <node concept="1Xw6AR" id="3pc485Vw7QK" role="ppbcs">
-          <node concept="1dCxOl" id="3pc485Vw7QZ" role="1XwpL7">
+          <node concept="1dCxOl" id="6zagWCuEY7n" role="1XwpL7">
             <property role="1XweGQ" value="r:e0e8921e-c4c0-4e4c-a825-af1f615827e5" />
-            <node concept="1j_P7g" id="3pc485Vw7R0" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightSingltonChild" />
+            <node concept="1j_P7g" id="6zagWCuEY7o" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.singeltonChildRight" />
             </node>
           </node>
         </node>
@@ -678,14 +679,15 @@
     </node>
     <node concept="1qefOq" id="6Ltuup4wOLO" role="1SKRRt">
       <node concept="1d83US" id="6Ltuup4wOEW" role="1qenE9">
+        <property role="3W4Xdi" value="1" />
         <node concept="3xLA65" id="6Ltuup4wQrC" role="lGtFl">
           <property role="TrG5h" value="expected" />
         </node>
         <node concept="2pctC0" id="1zxgaynEnOB" role="1d83UQ">
-          <property role="2pctC1" value="lala#@#lala" />
+          <property role="2pctC1" value="lala_childSingleton_lala" />
         </node>
         <node concept="2pctC0" id="1zxgaynEnPB" role="1aoamK">
-          <property role="2pctC1" value="lala*******lala" />
+          <property role="2pctC1" value="lala_optionalChild_lala" />
         </node>
       </node>
     </node>
@@ -760,18 +762,18 @@
         <property role="TrG5h" value="ChildMergeAutoExec" />
         <ref role="pot50" to="2y6h:3pc485VUmUI" resolve="ChildMergerAuto" />
         <node concept="1Xw6AR" id="3pc485VUmP$" role="ppIIL">
-          <node concept="1dCxOl" id="3pc485VUmP_" role="1XwpL7">
+          <node concept="1dCxOl" id="3VtEs$rkMRs" role="1XwpL7">
             <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
-            <node concept="1j_P7g" id="3pc485VUmPA" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftSingltonChild" />
+            <node concept="1j_P7g" id="3VtEs$rkMRt" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.singeltonChildLeft" />
             </node>
           </node>
         </node>
         <node concept="1Xw6AR" id="3pc485VUmPB" role="ppbcs">
-          <node concept="1dCxOl" id="3pc485VUmPC" role="1XwpL7">
+          <node concept="1dCxOl" id="3VtEs$rkQmD" role="1XwpL7">
             <property role="1XweGQ" value="r:e0e8921e-c4c0-4e4c-a825-af1f615827e5" />
-            <node concept="1j_P7g" id="3pc485VUmPD" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightSingltonChild" />
+            <node concept="1j_P7g" id="3VtEs$rkQmE" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.singeltonChildRight" />
             </node>
           </node>
         </node>
@@ -782,6 +784,7 @@
     </node>
     <node concept="1qefOq" id="6Ltuup4x0dC" role="1SKRRt">
       <node concept="1d83US" id="6Ltuup4wZYd" role="1qenE9">
+        <property role="3W4Xdi" value="1" />
         <node concept="3xLA65" id="6Ltuup4x0kc" role="lGtFl">
           <property role="TrG5h" value="expected" />
         </node>
@@ -1228,18 +1231,18 @@
         <property role="TrG5h" value="ChildMergeAutoExec1" />
         <ref role="pot50" to="2y6h:6Ltuup4JpkP" resolve="CollectionChildMerger" />
         <node concept="1Xw6AR" id="77Ot_5af$7P" role="ppIIL">
-          <node concept="1dCxOl" id="77Ot_5af$u3" role="1XwpL7">
+          <node concept="1dCxOl" id="7nvZ1TQ0_mQ" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
-            <node concept="1j_P7g" id="77Ot_5af$u4" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftCollection" />
+            <node concept="1j_P7g" id="7nvZ1TQ0_mR" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionLeft" />
             </node>
           </node>
         </node>
         <node concept="1Xw6AR" id="77Ot_5af$7S" role="ppbcs">
-          <node concept="1dCxOl" id="77Ot_5af$ua" role="1XwpL7">
+          <node concept="1dCxOl" id="7nvZ1TQ0DTH" role="1XwpL7">
             <property role="1XweGQ" value="r:64adeb98-b48d-4897-996c-61093731db10" />
-            <node concept="1j_P7g" id="77Ot_5af$ub" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightCollection" />
+            <node concept="1j_P7g" id="7nvZ1TQ0DTI" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionRight" />
             </node>
           </node>
         </node>
@@ -1267,7 +1270,7 @@
           <node concept="1dCxOl" id="77Ot_5aj$sx" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
             <node concept="1j_P7g" id="77Ot_5aj$sy" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftCollection" />
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionLeft" />
             </node>
           </node>
         </node>
@@ -1275,7 +1278,7 @@
           <node concept="1dCxOl" id="77Ot_5aj$s$" role="1XwpL7">
             <property role="1XweGQ" value="r:64adeb98-b48d-4897-996c-61093731db10" />
             <node concept="1j_P7g" id="77Ot_5aj$s_" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightCollection" />
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionRight" />
             </node>
           </node>
         </node>
@@ -1306,7 +1309,7 @@
           <node concept="1dCxOl" id="77Ot_5ah$pY" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
             <node concept="1j_P7g" id="77Ot_5ah$pZ" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftCollection" />
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionLeft" />
             </node>
           </node>
         </node>
@@ -1314,7 +1317,7 @@
           <node concept="1dCxOl" id="77Ot_5ah$q1" role="1XwpL7">
             <property role="1XweGQ" value="r:64adeb98-b48d-4897-996c-61093731db10" />
             <node concept="1j_P7g" id="77Ot_5ah$q2" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightCollection" />
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionRight" />
             </node>
           </node>
         </node>
@@ -1345,7 +1348,7 @@
           <node concept="1dCxOl" id="77Ot_5an$Bp" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
             <node concept="1j_P7g" id="77Ot_5an$Bq" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftCollection" />
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionLeft" />
             </node>
           </node>
         </node>
@@ -1353,7 +1356,7 @@
           <node concept="1dCxOl" id="77Ot_5an$Bs" role="1XwpL7">
             <property role="1XweGQ" value="r:64adeb98-b48d-4897-996c-61093731db10" />
             <node concept="1j_P7g" id="77Ot_5an$Bt" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightCollection" />
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionRight" />
             </node>
           </node>
         </node>
@@ -1423,18 +1426,18 @@
         <property role="TrG5h" value="ChildMergeAutoManualAutoExec" />
         <ref role="pot50" to="2y6h:30FY4ILQVHn" resolve="ChildMergerAutoAndManualAuto" />
         <node concept="1Xw6AR" id="30FY4ILR2Zj" role="ppIIL">
-          <node concept="1dCxOl" id="30FY4ILR2Zk" role="1XwpL7">
+          <node concept="1dCxOl" id="3VtEs$ro6NO" role="1XwpL7">
             <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
-            <node concept="1j_P7g" id="30FY4ILR2Zl" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftSingltonChild" />
+            <node concept="1j_P7g" id="3VtEs$ro6NP" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.singeltonChildLeft" />
             </node>
           </node>
         </node>
         <node concept="1Xw6AR" id="30FY4ILR2Zm" role="ppbcs">
-          <node concept="1dCxOl" id="30FY4ILR2Zn" role="1XwpL7">
+          <node concept="1dCxOl" id="3VtEs$ro8zt" role="1XwpL7">
             <property role="1XweGQ" value="r:e0e8921e-c4c0-4e4c-a825-af1f615827e5" />
-            <node concept="1j_P7g" id="30FY4ILR2Zo" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightSingltonChild" />
+            <node concept="1j_P7g" id="3VtEs$ro8zu" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.singeltonChildRight" />
             </node>
           </node>
         </node>
@@ -1445,6 +1448,7 @@
     </node>
     <node concept="1qefOq" id="30FY4ILVPI4" role="1SKRRt">
       <node concept="1d83US" id="30FY4ILVOSw" role="1qenE9">
+        <property role="3W4Xdi" value="1" />
         <node concept="3xLA65" id="30FY4ILVPJq" role="lGtFl">
           <property role="TrG5h" value="expected6" />
         </node>
@@ -1461,18 +1465,18 @@
         <property role="TrG5h" value="CollectionAutoManualExecution" />
         <ref role="pot50" to="2y6h:30FY4IM3W2N" resolve="CollectionChildMergerAuto" />
         <node concept="1Xw6AR" id="30FY4IMaPhI" role="ppIIL">
-          <node concept="1dCxOl" id="30FY4IMaPhJ" role="1XwpL7">
+          <node concept="1dCxOl" id="3VtEs$rojSG" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
-            <node concept="1j_P7g" id="30FY4IMaPhK" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftCollection" />
+            <node concept="1j_P7g" id="3VtEs$rojSH" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionLeft" />
             </node>
           </node>
         </node>
         <node concept="1Xw6AR" id="30FY4IMaPhL" role="ppbcs">
-          <node concept="1dCxOl" id="30FY4IMaPhM" role="1XwpL7">
+          <node concept="1dCxOl" id="3VtEs$romw7" role="1XwpL7">
             <property role="1XweGQ" value="r:64adeb98-b48d-4897-996c-61093731db10" />
-            <node concept="1j_P7g" id="30FY4IMaPhN" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightCollection" />
+            <node concept="1j_P7g" id="3VtEs$romw8" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo._01_collectionRight" />
             </node>
           </node>
         </node>
@@ -2498,10 +2502,10 @@
           </node>
         </node>
         <node concept="1Xw6AR" id="4LLXBGbHXwS" role="ppbcs">
-          <node concept="1dCxOl" id="4LLXBGbHXwT" role="1XwpL7">
+          <node concept="1dCxOl" id="1COuKcVeNbQ" role="1XwpL7">
             <property role="1XweGQ" value="r:e0e8921e-c4c0-4e4c-a825-af1f615827e5" />
-            <node concept="1j_P7g" id="4LLXBGbHXwU" role="1j$8Uc">
-              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightSingltonChild" />
+            <node concept="1j_P7g" id="1COuKcVeNbR" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.singeltonChildRight" />
             </node>
           </node>
         </node>
@@ -2512,6 +2516,7 @@
     </node>
     <node concept="1qefOq" id="4LLXBGbHXwW" role="1SKRRt">
       <node concept="1d83US" id="4LLXBGbHXwX" role="1qenE9">
+        <property role="3W4Xdi" value="1" />
         <node concept="3xLA65" id="4LLXBGbHXwY" role="lGtFl">
           <property role="TrG5h" value="expected" />
         </node>
@@ -3711,6 +3716,9 @@
               <ref role="37wK5l" node="3s1k8nW2i3l" resolve="addToLeft" />
               <node concept="3xONca" id="7aQcTqE$4$w" role="37wK5m">
                 <ref role="3xOPvv" node="7aQcTqEzNjo" resolve="addedReference" />
+              </node>
+              <node concept="3xONca" id="3VtEs$rrAtG" role="37wK5m">
+                <ref role="3xOPvv" node="uhx_u9Qazh" resolve="SomeReferenciedData" />
               </node>
             </node>
           </node>

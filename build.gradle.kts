@@ -56,17 +56,6 @@ if (ciBuild) {
 }
 
 val userHome = System.getProperty("user.home")
-val mpsPluginsDirPattern: String = if (System.getProperty("os.name").lowercase().contains("mac")) {
-    "$userHome/Library/Application Support/%s"
-} else {
-    "$userHome/.%s/config/plugins"
-}
-
-val mpsPluginsDir: String = if (project.hasProperty("MPS_PATHS_SELECTOR")) {
-    String.format(mpsPluginsDirPattern, project.property("MPS_PATHS_SELECTOR"))
-} else {
-    String.format(mpsPluginsDirPattern, "MPS$mpsMajor")
-}
 
 val releaseRepository = "https://artifacts.itemis.cloud/repository/maven-mps-releases/"
 val snapshotRepository = "https://artifacts.itemis.cloud/repository/maven-mps-snapshots/"
@@ -345,27 +334,6 @@ tasks.register<TestLanguages>("run_tests") {
 
 tasks.check {
     dependsOn("run_tests")
-}
-
-tasks.register<Copy>("install_nativelibs") {
-    dependsOn("build_languages")
-    from("$rootDir/artifacts/de.itemis.mps.extensions/")
-    include("de.itemis.mps.nativelibs.loader/")
-    into("$mpsPluginsDir")
-}
-
-tasks.register("install") {
-    dependsOn("install_nativelibs")
-    description = "Install the required plugins into the MPS plugin repository"
-    group = "Build Setup"
-    doFirst {
-        // check parent gradle file for definition of the variables
-        println("Installing required mbeddr plugins to '$mpsPluginsDir'")
-        if (!project.hasProperty("MPS_PATHS_SELECTOR")) {
-            println("To change 'MPS<>' part, pass MPS_PATHS_SELECTOR property to gradle with -PMPS_PATHS_SELECTOR=<custom path selector>")
-            println("The path selector only contains the the actual selector for instance \"MPS2017.3\" not the full qualifies path to the user plugin directory.")
-        }
-    }
 }
 
 // Ant <junit> task support

@@ -5,6 +5,7 @@ test_gen/
 test_gen.caches/
 
 **/.mps/workspace.xml
+**/.mps/dictionaries/
 
 /artifacts/
 /tmp/

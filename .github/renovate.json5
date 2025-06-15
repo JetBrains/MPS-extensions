@@ -4,15 +4,78 @@
     "config:best-practices"
   ],
 
+  // Renovate master and recent maintenance branches
+  "baseBranches": ["master", "/^maintenance/mps202[4-9][0-9]/"],
+
   "packageRules": [
     {
       "matchPackageNames": ["download-jbr:download-jbr.gradle.plugin", "de.itemis.mps.gradle.common:de.itemis.mps.gradle.common.gradle.plugin"],
       "groupName": "mps-gradle-plugin",
       "allowedVersions": "< 2.0"
     },
+
+    {
+      "matchPackageNames": [ "com.google.guava:guava" ],
+      "allowedVersions": "/^.*-jre$/"
+    },
+
+    {
+      // MPS: separate minor and patch updates in order to disable minor but leave patch updates enabled
+      "matchPackageNames": ["com.jetbrains:mps"],
+      "separateMinorPatch": true,
+    },
+
+    {
+      // MPS: disable major and minor updates, only enable patch updates
+      "matchPackageNames": ["com.jetbrains:mps"],
+      "matchUpdateTypes": ["major", "minor"],
+      "enabled": false
+    },
+
+    {
+      // MPS: merge PRs on Wednesday morning
+      "matchPackageNames": ["com.jetbrains:mps"],
+      "automerge": true,
+      "platformAutomerge": false,
+      "automergeSchedule": "* 4-6 * * 3"
+    },
+
+    {
+      // Disable JBR updates on maintenance branches
+      "matchPackageNames": ["com.jetbrains.jdk:*"],
+      "matchBaseBranches": ["!/^master$/"],
+      "enabled": false
+    },
+
+    {
+      // Disable Python updates on maintenance branches
+      "matchManagers": "pip_requirements",
+      "matchBaseBranches": ["!/^master$/"],
+      "enabled": false,
+    },
+
+    {
+      // Disable modelix model-api upgrades (until we get rid of the dependency)
+      "matchPackageNames": ["org.modelix:model-api"],
+      "enabled": false
+    },
+
     {
       "matchPackageNames": ["org.eclipse*"],
       "groupName": "eclipse"
     },
+    {
+      "matchPackageNames": ["com.miglayout*"],
+      "groupName": "miglayout"
+    },
+
+    {
+      // Group all minor/patch third-party dependencies together (overrides the grouping above for minor and patch updates)
+      "matchManagers": ["gradle"],
+      "matchDepTypes": ["dependencies"], // Exclude plugins
+      "matchPackageNames": ["!com.jetbrains*"], // Exclude MPS and JBR
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "third-party-minor"
+    }
   ]
 }

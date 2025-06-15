@@ -34,7 +34,7 @@ val ciBuild = project.hasProperty("forceCI") ||
 val mpsVersion = libs.versions.mps.get()
 
 // major version, e.g. '2021.1', '2021.2'
-val mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
+val mpsMajor = "9999.9"
 
 if (ciBuild) {
     val branch = GitBasedVersioning.getGitBranch()
@@ -68,7 +68,9 @@ configurations {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:$mpsVersion")
+    // For published releases adjust ext.mpsMajor and ext.mpsMinor above and use this dependency:
+    //"mps"("com.jetbrains:mps:$mpsVersion")
+    "mps"("com.jetbrains.mps:mps-prerelease:$mpsVersion")
 }
 
 repositories {

@@ -21,7 +21,7 @@ plugins {
 
 // Configure downloadJbr
 downloadJbr {
-    jbrVersion = "17.0.11-b1207.30"
+    jbrVersion = "21.0.6-b895.109"
 }
 
 // Detect if we are in a CI build

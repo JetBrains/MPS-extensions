@@ -232,7 +232,7 @@
       </concept>
     </language>
     <language id="b92f861d-0184-446d-b88b-6dcf0e070241" name="com.mbeddr.mpsutil.intentions">
-      <concept id="5846558918537398687" name="com.mbeddr.mpsutil.intentions.structure.GroupAnnotation" flags="ng" index="1SWQZ3">
+      <concept id="5846558918537398687" name="com.mbeddr.mpsutil.intentions.structure.SectionAnnotation" flags="ng" index="1SWQZ3">
         <property id="5846558918537400330" name="label" index="1SWRpm" />
       </concept>
     </language>
@@ -446,7 +446,7 @@
                     <ref role="3cqZAo" node="1NzaUygEqcy" resolve="producer" />
                   </node>
                   <node concept="liA8E" id="4CvP1bwpdaw" role="2OqNvi">
-                    <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getGroupName" />
+                    <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getSection" />
                     <node concept="37vLTw" id="4CvP1bwpdax" role="37wK5m">
                       <ref role="3cqZAo" node="1NzaUygEqc$" resolve="action" />
                     </node>
@@ -535,7 +535,7 @@
                       <ref role="3cqZAo" node="1NzaUygEqcy" resolve="producer" />
                     </node>
                     <node concept="liA8E" id="1NzaUygEqdv" role="2OqNvi">
-                      <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getGroupName" />
+                      <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getSection" />
                       <node concept="37vLTw" id="1NzaUygEqdw" role="37wK5m">
                         <ref role="3cqZAo" node="1NzaUygEqc$" resolve="action" />
                       </node>
@@ -998,7 +998,7 @@
                       </node>
                       <node concept="2OqwBi" id="5gDLJkL8RFe" role="3uHU7w">
                         <node concept="35c_gC" id="5gDLJkL8Lw2" role="2Oq$k0">
-                          <ref role="35c_gD" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                          <ref role="35c_gD" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                         </node>
                         <node concept="2qgKlT" id="5gDLJkL8UeT" role="2OqNvi">
                           <ref role="37wK5l" to="9j2l:24lzbKWhznQ" resolve="getSeparator" />
@@ -1810,7 +1810,7 @@
               <ref role="3cqZAo" node="7b8v2ssnHRZ" resolve="producer" />
             </node>
             <node concept="liA8E" id="7b8v2ssnErN" role="2OqNvi">
-              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getGroupName" />
+              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getSection" />
               <node concept="2OqwBi" id="7b8v2ssnIgE" role="37wK5m">
                 <node concept="2WthIp" id="7b8v2ssnIgH" role="2Oq$k0" />
                 <node concept="2XshWL" id="7b8v2ssnIgJ" role="2OqNvi">
@@ -1838,7 +1838,7 @@
               <ref role="3cqZAo" node="7b8v2ssnHRZ" resolve="producer" />
             </node>
             <node concept="liA8E" id="7b8v2ssnJaA" role="2OqNvi">
-              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getGroupName" />
+              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getSection" />
               <node concept="2OqwBi" id="7b8v2ssnJaB" role="37wK5m">
                 <node concept="2WthIp" id="7b8v2ssnJaC" role="2Oq$k0" />
                 <node concept="2XshWL" id="7b8v2ssnJaD" role="2OqNvi">
@@ -1863,7 +1863,7 @@
               <ref role="3cqZAo" node="7b8v2ssnHRZ" resolve="producer" />
             </node>
             <node concept="liA8E" id="7b8v2ssnJFH" role="2OqNvi">
-              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getGroupName" />
+              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getSection" />
               <node concept="2OqwBi" id="7b8v2ssnJFI" role="37wK5m">
                 <node concept="2WthIp" id="7b8v2ssnJFJ" role="2Oq$k0" />
                 <node concept="2XshWL" id="7b8v2ssnJFK" role="2OqNvi">
@@ -1894,7 +1894,7 @@
               <ref role="3cqZAo" node="7b8v2ssnHRZ" resolve="producer" />
             </node>
             <node concept="liA8E" id="7b8v2ssnKsZ" role="2OqNvi">
-              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getGroupName" />
+              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getSection" />
               <node concept="2OqwBi" id="7b8v2ssnKt0" role="37wK5m">
                 <node concept="2WthIp" id="7b8v2ssnKt1" role="2Oq$k0" />
                 <node concept="2XshWL" id="7b8v2ssnKt2" role="2OqNvi">
@@ -1920,7 +1920,7 @@
               <ref role="3cqZAo" node="7b8v2ssnHRZ" resolve="producer" />
             </node>
             <node concept="liA8E" id="5gDLJkLa3FJ" role="2OqNvi">
-              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getGroupName" />
+              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getSection" />
               <node concept="2OqwBi" id="5gDLJkLa3FK" role="37wK5m">
                 <node concept="2WthIp" id="5gDLJkLa3FL" role="2Oq$k0" />
                 <node concept="2XshWL" id="5gDLJkLa3FM" role="2OqNvi">
@@ -1948,7 +1948,7 @@
               <ref role="3cqZAo" node="7b8v2ssnHRZ" resolve="producer" />
             </node>
             <node concept="liA8E" id="5gDLJkLakso" role="2OqNvi">
-              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getGroupName" />
+              <ref role="37wK5l" to="ih8q:3pwG8PSpGSr" resolve="getSection" />
               <node concept="2OqwBi" id="5gDLJkLaksp" role="37wK5m">
                 <node concept="2WthIp" id="5gDLJkLaksq" role="2Oq$k0" />
                 <node concept="2XshWL" id="5gDLJkLaksr" role="2OqNvi">
@@ -3154,7 +3154,7 @@
       <node concept="3clFbS" id="7b8v2ssFpTi" role="3clF47">
         <node concept="3clFbF" id="6ob0HsMTLcS" role="3cqZAp">
           <node concept="1rXfSq" id="6ob0HsMTLcR" role="3clFbG">
-            <ref role="37wK5l" to="ih8q:7b8v2ssFpTf" resolve="trimGroupNameFromActionText" />
+            <ref role="37wK5l" to="ih8q:7b8v2ssFpTf" resolve="trimSectionFromActionText" />
             <node concept="37vLTw" id="6ob0HsMTLK$" role="37wK5m">
               <ref role="3cqZAo" node="7b8v2ssFF26" resolve="action" />
             </node>

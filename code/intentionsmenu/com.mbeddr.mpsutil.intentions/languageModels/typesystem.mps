@@ -74,20 +74,20 @@
     </language>
   </registry>
   <node concept="18kY7G" id="6ob0HsMUrAL">
-    <property role="TrG5h" value="check_GroupAnnotation" />
+    <property role="TrG5h" value="check_SectionAnnotation" />
     <node concept="3clFbS" id="6ob0HsMUrAM" role="18ibNy">
       <node concept="Jncv_" id="6ob0HsMUsl2" role="3cqZAp">
         <ref role="JncvD" to="tp4k:hwsE7KS" resolve="ActionDeclaration" />
         <node concept="2OqwBi" id="6ob0HsMUslI" role="JncvB">
           <node concept="1YBJjd" id="6ob0HsMUsli" role="2Oq$k0">
-            <ref role="1YBMHb" node="6ob0HsMUrAO" resolve="groupAnnotation" />
+            <ref role="1YBMHb" node="6ob0HsMUrAO" resolve="sectionAnnotation" />
           </node>
           <node concept="1mfA1w" id="6ob0HsMUsmL" role="2OqNvi" />
         </node>
         <node concept="3clFbS" id="6ob0HsMUsl4" role="Jncv$">
           <node concept="a7r0C" id="6ob0HsMUsnK" role="3cqZAp">
             <node concept="Xl_RD" id="6ob0HsMUsnT" role="a7wSD">
-              <property role="Xl_RC" value="The applicable condition will be ignored when the group annotation is used" />
+              <property role="Xl_RC" value="The applicable condition will be ignored when the section annotation is used" />
             </node>
             <node concept="2OqwBi" id="6ob0HsMUV8o" role="1urrMF">
               <node concept="Jnkvi" id="6ob0HsMUsoB" role="2Oq$k0">
@@ -98,7 +98,7 @@
               </node>
             </node>
             <node concept="AMVWa" id="5gDLJkKOttp" role="lGtFl">
-              <property role="TrG5h" value="groupAnnotationCondition" />
+              <property role="TrG5h" value="sectionAnnotationCondition" />
             </node>
           </node>
         </node>
@@ -109,8 +109,8 @@
       </node>
     </node>
     <node concept="1YaCAy" id="6ob0HsMUrAO" role="1YuTPh">
-      <property role="TrG5h" value="groupAnnotation" />
-      <ref role="1YaFvo" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+      <property role="TrG5h" value="sectionAnnotation" />
+      <ref role="1YaFvo" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
     </node>
   </node>
 </model>

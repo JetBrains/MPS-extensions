@@ -93,7 +93,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="54z9_KDO50z">
-    <ref role="1XX52x" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+    <ref role="1XX52x" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
     <node concept="3EZMnI" id="54z9_KDO5SU" role="2wV5jI">
       <node concept="2iRkQZ" id="54z9_KDO5SV" role="2iSdaV" />
       <node concept="3EZMnI" id="54z9_KDO5SD" role="3EZMnx">

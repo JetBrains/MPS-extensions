@@ -247,7 +247,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="$kD7tOMQMx">
-    <ref role="13h7C2" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+    <ref role="13h7C2" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
     <node concept="13i0hz" id="$kD7tOMQXO" role="13h7CS">
       <property role="TrG5h" value="update" />
       <node concept="3Tm1VV" id="$kD7tOMQXP" role="1B3o_S" />
@@ -338,7 +338,7 @@
         </node>
         <node concept="3cpWs8" id="7Sc8bwtQBCD" role="3cqZAp">
           <node concept="3cpWsn" id="7Sc8bwtQBCE" role="3cpWs9">
-            <property role="TrG5h" value="oldGroupEntries" />
+            <property role="TrG5h" value="oldSectionEntries" />
             <node concept="2hMVRd" id="7Sc8bwtQBrb" role="1tU5fm">
               <node concept="3uibUv" id="7Sc8bwtQBre" role="2hN53Y">
                 <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
@@ -367,7 +367,7 @@
             <property role="TrG5h" value="entry" />
           </node>
           <node concept="37vLTw" id="7Sc8bwtQTNd" role="2GsD0m">
-            <ref role="3cqZAo" node="7Sc8bwtQBCE" resolve="oldGroupEntries" />
+            <ref role="3cqZAo" node="7Sc8bwtQBCE" resolve="oldSectionEntries" />
           </node>
           <node concept="3clFbS" id="7Sc8bwtQTGZ" role="2LFqv$">
             <node concept="3clFbJ" id="7Sc8bwtQTOQ" role="3cqZAp">
@@ -398,7 +398,7 @@
                 <node concept="3clFbF" id="7Sc8bwtR2rE" role="3cqZAp">
                   <node concept="2OqwBi" id="7Sc8bwtR3$0" role="3clFbG">
                     <node concept="37vLTw" id="7Sc8bwtR2rD" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7Sc8bwtQBCE" resolve="oldGroupEntries" />
+                      <ref role="3cqZAo" node="7Sc8bwtQBCE" resolve="oldSectionEntries" />
                     </node>
                     <node concept="3dhRuq" id="7Sc8bwtR4E4" role="2OqNvi">
                       <node concept="2GrUjf" id="7Sc8bwtR4GJ" role="25WWJ7">
@@ -442,7 +442,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="24lzbKWiSKe" role="13h7CS">
-      <property role="TrG5h" value="generateGroupedCaption" />
+      <property role="TrG5h" value="generateCaptionWithSectionPrefix" />
       <node concept="3Tm1VV" id="24lzbKWiSKf" role="1B3o_S" />
       <node concept="17QB3L" id="24lzbKWiSOj" role="3clF45" />
       <node concept="3clFbS" id="24lzbKWiSKh" role="3clF47">
@@ -551,12 +551,12 @@
                 </node>
                 <node concept="3CFZ6_" id="24lzbKWj2XP" role="2OqNvi">
                   <node concept="3CFYIy" id="24lzbKWj3iP" role="3CFYIz">
-                    <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                    <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                   </node>
                 </node>
               </node>
               <node concept="2qgKlT" id="24lzbKWj3La" role="2OqNvi">
-                <ref role="37wK5l" node="24lzbKWiSKe" resolve="generateGroupedCaption" />
+                <ref role="37wK5l" node="24lzbKWiSKe" resolve="generateCaptionWithSectionPrefix" />
                 <node concept="Xl_RD" id="24lzbKWj3QE" role="37wK5m">
                   <property role="Xl_RC" value="" />
                 </node>
@@ -731,7 +731,7 @@
               </node>
               <node concept="3CFZ6_" id="24lzbKWhSTv" role="2OqNvi">
                 <node concept="3CFYIy" id="24lzbKWhSTw" role="3CFYIz">
-                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                 </node>
               </node>
             </node>
@@ -800,12 +800,12 @@
                 </node>
                 <node concept="3CFZ6_" id="24lzbKWk9mN" role="2OqNvi">
                   <node concept="3CFYIy" id="24lzbKWk9mO" role="3CFYIz">
-                    <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                    <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                   </node>
                 </node>
               </node>
               <node concept="2qgKlT" id="24lzbKWk9mP" role="2OqNvi">
-                <ref role="37wK5l" node="24lzbKWiSKe" resolve="generateGroupedCaption" />
+                <ref role="37wK5l" node="24lzbKWiSKe" resolve="generateCaptionWithSectionPrefix" />
                 <node concept="37vLTw" id="24lzbKWj6uP" role="37wK5m">
                   <ref role="3cqZAo" node="2oNrKyBcLIz" resolve="caption" />
                 </node>
@@ -836,7 +836,7 @@
               </node>
               <node concept="3CFZ6_" id="2oNrKyBcHsF" role="2OqNvi">
                 <node concept="3CFYIy" id="2oNrKyBcHsG" role="3CFYIz">
-                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                 </node>
               </node>
             </node>

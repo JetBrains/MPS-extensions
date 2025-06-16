@@ -573,7 +573,7 @@
     <property role="TrG5h" value="ActionIntentionMenuProducer" />
     <node concept="2tJIrI" id="2jDew64KOaE" role="jymVt" />
     <node concept="Wx3nA" id="6Kw22eW7L03" role="jymVt">
-      <property role="TrG5h" value="GROUPNAME_KEY" />
+      <property role="TrG5h" value="SECTION_KEY" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm1VV" id="6Kw22eW7pcO" role="1B3o_S" />
       <node concept="3uibUv" id="6Kw22eW7wxo" role="1tU5fm">
@@ -585,13 +585,13 @@
           <property role="373rjd" value="true" />
           <ref role="37wK5l" to="zn9m:~Key.&lt;init&gt;(java.lang.String)" resolve="Key" />
           <node concept="Xl_RD" id="6Kw22eW7X6Q" role="37wK5m">
-            <property role="Xl_RC" value="groupName" />
+            <property role="Xl_RC" value="section" />
           </node>
         </node>
       </node>
     </node>
     <node concept="Wx3nA" id="5Rdndlpp80A" role="jymVt">
-      <property role="TrG5h" value="groupedActionsCache" />
+      <property role="TrG5h" value="actionsBySectionCache" />
       <node concept="3Tm6S6" id="6ob0HsMKAMj" role="1B3o_S" />
       <node concept="3uibUv" id="4rzEAhzpOGu" role="1tU5fm">
         <ref role="3uigEE" to="3o3z:~SetMultimap" resolve="SetMultimap" />
@@ -866,10 +866,10 @@
           <node concept="3clFbS" id="2A8KNgIv5Ub" role="2LFqv$">
             <node concept="3cpWs8" id="2A8KNgIu5dq" role="3cqZAp">
               <node concept="3cpWsn" id="2A8KNgIu5dr" role="3cpWs9">
-                <property role="TrG5h" value="groupName" />
+                <property role="TrG5h" value="section" />
                 <node concept="17QB3L" id="2A8KNgIu5ds" role="1tU5fm" />
                 <node concept="1rXfSq" id="2A8KNgIu5dt" role="33vP2m">
-                  <ref role="37wK5l" node="3pwG8PSpGSr" resolve="getGroupName" />
+                  <ref role="37wK5l" node="3pwG8PSpGSr" resolve="getSection" />
                   <node concept="2GrUjf" id="2A8KNgIwcwK" role="37wK5m">
                     <ref role="2Gs0qQ" node="2A8KNgIv5U7" resolve="action" />
                   </node>
@@ -878,12 +878,12 @@
             </node>
             <node concept="3clFbF" id="2fCwEDfHkrh" role="3cqZAp">
               <node concept="1rXfSq" id="2fCwEDfHkrf" role="3clFbG">
-                <ref role="37wK5l" node="3pZvzolpwf_" resolve="trimGroupNameFromActionTextAndUpdate" />
+                <ref role="37wK5l" node="3pZvzolpwf_" resolve="trimSectionFromActionTextAndUpdate" />
                 <node concept="2GrUjf" id="2fCwEDfHqg4" role="37wK5m">
                   <ref role="2Gs0qQ" node="2A8KNgIv5U7" resolve="action" />
                 </node>
                 <node concept="37vLTw" id="2fCwEDfHB2N" role="37wK5m">
-                  <ref role="3cqZAo" node="2A8KNgIu5dr" resolve="groupName" />
+                  <ref role="3cqZAo" node="2A8KNgIu5dr" resolve="section" />
                 </node>
               </node>
             </node>
@@ -895,7 +895,7 @@
                 <node concept="liA8E" id="2H0U9ns7drW" role="2OqNvi">
                   <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
                   <node concept="37vLTw" id="2H0U9ns7jC1" role="37wK5m">
-                    <ref role="3cqZAo" node="2A8KNgIu5dr" resolve="groupName" />
+                    <ref role="3cqZAo" node="2A8KNgIu5dr" resolve="section" />
                   </node>
                   <node concept="2GrUjf" id="2H0U9ns7GWF" role="37wK5m">
                     <ref role="2Gs0qQ" node="2A8KNgIv5U7" resolve="action" />
@@ -923,7 +923,7 @@
               <node concept="3clFbS" id="3DeU_KsjZSe" role="2LFqv$">
                 <node concept="3cpWs8" id="3DeU_KsltHr" role="3cqZAp">
                   <node concept="3cpWsn" id="3DeU_KsltHs" role="3cpWs9">
-                    <property role="TrG5h" value="groupName" />
+                    <property role="TrG5h" value="section" />
                     <node concept="17QB3L" id="3DeU_Kslo6I" role="1tU5fm" />
                     <node concept="2OqwBi" id="3DeU_KsltHt" role="33vP2m">
                       <node concept="2GrUjf" id="3DeU_KsltHu" role="2Oq$k0">
@@ -941,7 +941,7 @@
                     <node concept="liA8E" id="6ob0HsN069c" role="2OqNvi">
                       <ref role="37wK5l" to="3o3z:~Multimap.putAll(java.lang.Object,java.lang.Iterable)" resolve="putAll" />
                       <node concept="37vLTw" id="6ob0HsN0Stv" role="37wK5m">
-                        <ref role="3cqZAo" node="3DeU_KsltHs" resolve="groupName" />
+                        <ref role="3cqZAo" node="3DeU_KsltHs" resolve="section" />
                       </node>
                       <node concept="2OqwBi" id="6ob0HsN0c5E" role="37wK5m">
                         <node concept="2GrUjf" id="6ob0HsN09YN" role="2Oq$k0">
@@ -1010,7 +1010,7 @@
     </node>
     <node concept="2tJIrI" id="2H0U9nsgtGV" role="jymVt" />
     <node concept="3clFb_" id="2H0U9nsj9du" role="jymVt">
-      <property role="TrG5h" value="findGroupNameForActionInCache" />
+      <property role="TrG5h" value="findSectionForActionInCache" />
       <node concept="3clFbS" id="2H0U9nsj9d$" role="3clF47">
         <node concept="1DcWWT" id="2H0U9nsj9d_" role="3cqZAp">
           <node concept="2OqwBi" id="2H0U9nsj9dA" role="1DdaDG">
@@ -1088,7 +1088,7 @@
     <node concept="2tJIrI" id="2H0U9nsgtGW" role="jymVt" />
     <node concept="2tJIrI" id="2H0U9ns2urk" role="jymVt" />
     <node concept="3clFb_" id="3pwG8PSpGSr" role="jymVt">
-      <property role="TrG5h" value="getGroupName" />
+      <property role="TrG5h" value="getSection" />
       <node concept="37vLTG" id="3pwG8PSpHHh" role="3clF46">
         <property role="TrG5h" value="action" />
         <node concept="3uibUv" id="3pwG8PSpHTA" role="1tU5fm">
@@ -1102,7 +1102,7 @@
       <node concept="3clFbS" id="3pwG8PSpGSv" role="3clF47">
         <node concept="3cpWs8" id="3pwG8PSsz1H" role="3cqZAp">
           <node concept="3cpWsn" id="3pwG8PSsz1K" role="3cpWs9">
-            <property role="TrG5h" value="groupName" />
+            <property role="TrG5h" value="section" />
             <node concept="17QB3L" id="3pwG8PSsz1F" role="1tU5fm" />
             <node concept="2OqwBi" id="6Kw22eWaqPv" role="33vP2m">
               <node concept="2OqwBi" id="6Kw22eWadXy" role="2Oq$k0">
@@ -1116,7 +1116,7 @@
               <node concept="liA8E" id="6Kw22eWavqG" role="2OqNvi">
                 <ref role="37wK5l" to="qkt:~Presentation.getClientProperty(com.intellij.openapi.util.Key)" resolve="getClientProperty" />
                 <node concept="37vLTw" id="2VOpD3139MX" role="37wK5m">
-                  <ref role="3cqZAo" node="6Kw22eW7L03" resolve="GROUPNAME_KEY" />
+                  <ref role="3cqZAo" node="6Kw22eW7L03" resolve="SECTION_KEY" />
                 </node>
               </node>
             </node>
@@ -1126,13 +1126,13 @@
           <node concept="3clFbS" id="2VOpD313Esr" role="3clFbx">
             <node concept="3cpWs6" id="2VOpD3146s2" role="3cqZAp">
               <node concept="37vLTw" id="2VOpD314eLY" role="3cqZAk">
-                <ref role="3cqZAo" node="3pwG8PSsz1K" resolve="groupName" />
+                <ref role="3cqZAo" node="3pwG8PSsz1K" resolve="section" />
               </node>
             </node>
           </node>
           <node concept="2OqwBi" id="2VOpD313TPJ" role="3clFbw">
             <node concept="37vLTw" id="2VOpD313J2H" role="2Oq$k0">
-              <ref role="3cqZAo" node="3pwG8PSsz1K" resolve="groupName" />
+              <ref role="3cqZAo" node="3pwG8PSsz1K" resolve="section" />
             </node>
             <node concept="17RvpY" id="2VOpD3141HS" role="2OqNvi" />
           </node>
@@ -1143,7 +1143,7 @@
             <property role="TrG5h" value="key" />
             <node concept="17QB3L" id="2H0U9nshUh$" role="1tU5fm" />
             <node concept="1rXfSq" id="2H0U9nsgWiO" role="33vP2m">
-              <ref role="37wK5l" node="2H0U9nsj9du" resolve="findGroupNameForActionInCache" />
+              <ref role="37wK5l" node="2H0U9nsj9du" resolve="findSectionForActionInCache" />
               <node concept="37vLTw" id="2H0U9nshe_z" role="37wK5m">
                 <ref role="3cqZAo" node="3pwG8PSpHHh" resolve="action" />
               </node>
@@ -1181,7 +1181,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2xgTENkV9CR" role="2OqNvi">
-                  <ref role="37wK5l" node="2jDew64QLcf" resolve="getGroupName" />
+                  <ref role="37wK5l" node="2jDew64QLcf" resolve="getSection" />
                 </node>
               </node>
             </node>
@@ -1195,6 +1195,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="4mzPpe0Y2D7" role="3cqZAp" />
         <node concept="3cpWs8" id="3pwG8PSsoLy" role="3cqZAp">
           <node concept="3cpWsn" id="3pwG8PSsoLz" role="3cpWs9">
             <property role="TrG5h" value="text" />
@@ -1242,7 +1243,7 @@
                 <ref role="37wK5l" to="wyt6:~String.indexOf(java.lang.String)" resolve="indexOf" />
                 <node concept="2OqwBi" id="5gDLJkKSTFi" role="37wK5m">
                   <node concept="35c_gC" id="5gDLJkKSFtZ" role="2Oq$k0">
-                    <ref role="35c_gD" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                    <ref role="35c_gD" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                   </node>
                   <node concept="2qgKlT" id="5gDLJkKT0XL" role="2OqNvi">
                     <ref role="37wK5l" to="9j2l:24lzbKWhznQ" resolve="getSeparator" />
@@ -1285,14 +1286,14 @@
               </node>
             </node>
             <node concept="37vLTw" id="2VOpD312DcZ" role="37vLTJ">
-              <ref role="3cqZAo" node="3pwG8PSsz1K" resolve="groupName" />
+              <ref role="3cqZAo" node="3pwG8PSsz1K" resolve="section" />
             </node>
           </node>
         </node>
         <node concept="3clFbH" id="6Kw22eW9sg7" role="3cqZAp" />
         <node concept="3cpWs6" id="3pwG8PSs_F8" role="3cqZAp">
           <node concept="37vLTw" id="3pwG8PSsAzu" role="3cqZAk">
-            <ref role="3cqZAo" node="3pwG8PSsz1K" resolve="groupName" />
+            <ref role="3cqZAo" node="3pwG8PSsz1K" resolve="section" />
           </node>
         </node>
       </node>
@@ -1307,7 +1308,7 @@
       <node concept="3clFbS" id="6ob0HsML7OW" role="3clF47">
         <node concept="3clFbF" id="6ob0HsMLHeC" role="3cqZAp">
           <node concept="37vLTw" id="6ob0HsMLHeB" role="3clFbG">
-            <ref role="3cqZAo" node="5Rdndlpp80A" resolve="groupedActionsCache" />
+            <ref role="3cqZAo" node="5Rdndlpp80A" resolve="actionsBySectionCache" />
           </node>
         </node>
       </node>
@@ -1413,7 +1414,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="4yZHsKxNOS$" role="3clF46">
-        <property role="TrG5h" value="groups" />
+        <property role="TrG5h" value="actionsBySection" />
         <node concept="3uibUv" id="4yZHsKxNX6I" role="1tU5fm">
           <ref role="3uigEE" to="3o3z:~Multimap" resolve="Multimap" />
           <node concept="17QB3L" id="4yZHsKxNX6J" role="11_B2D" />
@@ -1433,7 +1434,7 @@
           <node concept="3clFbS" id="2A8KNgIu5eQ" role="2LFqv$">
             <node concept="3cpWs8" id="2A8KNgIu5eR" role="3cqZAp">
               <node concept="3cpWsn" id="2A8KNgIu5eS" role="3cpWs9">
-                <property role="TrG5h" value="groupName" />
+                <property role="TrG5h" value="section" />
                 <node concept="17QB3L" id="2A8KNgIu5eT" role="1tU5fm" />
                 <node concept="2OqwBi" id="2A8KNgIu5eU" role="33vP2m">
                   <node concept="2GrUjf" id="2A8KNgIu5eV" role="2Oq$k0">
@@ -1459,7 +1460,7 @@
               <node concept="3clFbC" id="2A8KNgIu5f3" role="3clFbw">
                 <node concept="10Nm6u" id="2A8KNgIu5f4" role="3uHU7w" />
                 <node concept="37vLTw" id="2A8KNgIu5f5" role="3uHU7B">
-                  <ref role="3cqZAo" node="2A8KNgIu5eS" resolve="groupName" />
+                  <ref role="3cqZAo" node="2A8KNgIu5eS" resolve="section" />
                 </node>
               </node>
               <node concept="9aQIb" id="2A8KNgIu5f6" role="9aQIa">
@@ -1472,7 +1473,7 @@
                       <node concept="liA8E" id="2A8KNgIu5fb" role="2OqNvi">
                         <ref role="37wK5l" to="qkt:~DefaultActionGroup.addSeparator(java.lang.String)" resolve="addSeparator" />
                         <node concept="37vLTw" id="2A8KNgIu5fc" role="37wK5m">
-                          <ref role="3cqZAo" node="2A8KNgIu5eS" resolve="groupName" />
+                          <ref role="3cqZAo" node="2A8KNgIu5eS" resolve="section" />
                         </node>
                       </node>
                     </node>
@@ -1536,7 +1537,7 @@
           </node>
           <node concept="2OqwBi" id="2A8KNgIu5fy" role="2GsD0m">
             <node concept="37vLTw" id="2A8KNgIu5f$" role="2Oq$k0">
-              <ref role="3cqZAo" node="4yZHsKxNOS$" resolve="groups" />
+              <ref role="3cqZAo" node="4yZHsKxNOS$" resolve="actionsBySection" />
             </node>
             <node concept="liA8E" id="2H0U9nskGCX" role="2OqNvi">
               <ref role="37wK5l" to="3o3z:~Multimap.asMap()" resolve="asMap" />
@@ -1604,7 +1605,7 @@
         <node concept="3clFbH" id="4lECbAxge4I" role="3cqZAp" />
         <node concept="3cpWs8" id="4yZHsKxPnS$" role="3cqZAp">
           <node concept="3cpWsn" id="4yZHsKxPnSB" role="3cpWs9">
-            <property role="TrG5h" value="groups" />
+            <property role="TrG5h" value="actionsBySection" />
             <node concept="3uibUv" id="4yZHsKxPnSC" role="1tU5fm">
               <ref role="3uigEE" to="3o3z:~Multimap" resolve="Multimap" />
               <node concept="17QB3L" id="4yZHsKxPnSD" role="11_B2D" />
@@ -1688,7 +1689,7 @@
                     <node concept="3clFbF" id="4yZHsKxPKRh" role="3cqZAp">
                       <node concept="2OqwBi" id="4yZHsKxPSF3" role="3clFbG">
                         <node concept="37vLTw" id="4yZHsKxPKRf" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4yZHsKxPnSB" resolve="groups" />
+                          <ref role="3cqZAo" node="4yZHsKxPnSB" resolve="actionsBySection" />
                         </node>
                         <node concept="liA8E" id="4yZHsKxQ5zU" role="2OqNvi">
                           <ref role="37wK5l" to="3o3z:~Multimap.putAll(com.google.common.collect.Multimap)" resolve="putAll" />
@@ -1794,7 +1795,7 @@
         <node concept="3clFbF" id="4yZHsKxQ$FF" role="3cqZAp">
           <node concept="2OqwBi" id="4yZHsKxQHUi" role="3clFbG">
             <node concept="37vLTw" id="4yZHsKxQ$FD" role="2Oq$k0">
-              <ref role="3cqZAo" node="4yZHsKxPnSB" resolve="groups" />
+              <ref role="3cqZAo" node="4yZHsKxPnSB" resolve="actionsBySection" />
             </node>
             <node concept="liA8E" id="4yZHsKxQQHf" role="2OqNvi">
               <ref role="37wK5l" to="3o3z:~Multimap.putAll(com.google.common.collect.Multimap)" resolve="putAll" />
@@ -1822,7 +1823,7 @@
               <ref role="3cqZAo" node="3pwG8PSpFW8" resolve="mainGroup" />
             </node>
             <node concept="37vLTw" id="4yZHsKxRAfC" role="37wK5m">
-              <ref role="3cqZAo" node="4yZHsKxPnSB" resolve="groups" />
+              <ref role="3cqZAo" node="4yZHsKxPnSB" resolve="actionsBySection" />
             </node>
           </node>
         </node>
@@ -1862,10 +1863,10 @@
           <node concept="3clFbS" id="34IQvDnCjLL" role="2LFqv$">
             <node concept="3cpWs8" id="lMPJvi7im9" role="3cqZAp">
               <node concept="3cpWsn" id="lMPJvi7ima" role="3cpWs9">
-                <property role="TrG5h" value="groupName" />
+                <property role="TrG5h" value="section" />
                 <node concept="17QB3L" id="lMPJvi79q6" role="1tU5fm" />
                 <node concept="1rXfSq" id="lMPJvi7imb" role="33vP2m">
-                  <ref role="37wK5l" node="3pwG8PSpGSr" resolve="getGroupName" />
+                  <ref role="37wK5l" node="3pwG8PSpGSr" resolve="getSection" />
                   <node concept="2GrUjf" id="lMPJvi7imc" role="37wK5m">
                     <ref role="2Gs0qQ" node="34IQvDnCjLH" resolve="childAction" />
                   </node>
@@ -1884,7 +1885,7 @@
                       <ref role="2Gs0qQ" node="34IQvDnCjLH" resolve="childAction" />
                     </node>
                     <node concept="37vLTw" id="4uJx3VrHXrd" role="37wK5m">
-                      <ref role="3cqZAo" node="lMPJvi7ima" resolve="groupName" />
+                      <ref role="3cqZAo" node="lMPJvi7ima" resolve="section" />
                     </node>
                   </node>
                 </node>
@@ -1904,7 +1905,7 @@
                 </node>
                 <node concept="2OqwBi" id="7rKJ8ltOMyb" role="3uHU7B">
                   <node concept="37vLTw" id="lMPJvi7imd" role="2Oq$k0">
-                    <ref role="3cqZAo" node="lMPJvi7ima" resolve="groupName" />
+                    <ref role="3cqZAo" node="lMPJvi7ima" resolve="section" />
                   </node>
                   <node concept="17RvpY" id="7rKJ8ltOV3T" role="2OqNvi" />
                 </node>
@@ -2186,7 +2187,7 @@
             <node concept="liA8E" id="2H0U9nrWe4M" role="2OqNvi">
               <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="37vLTw" id="2H0U9nrWCn5" role="37wK5m">
-                <ref role="3cqZAo" node="lMPJviaN1m" resolve="groupName" />
+                <ref role="3cqZAo" node="lMPJviaN1m" resolve="section" />
               </node>
               <node concept="37vLTw" id="2H0U9nrWJmC" role="37wK5m">
                 <ref role="3cqZAo" node="lMPJvi8JyR" resolve="oldAction" />
@@ -2218,7 +2219,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="lMPJviaN1m" role="3clF46">
-        <property role="TrG5h" value="groupName" />
+        <property role="TrG5h" value="section" />
         <node concept="17QB3L" id="lMPJviaN1C" role="1tU5fm" />
         <node concept="2AHcQZ" id="7b8v2ss3H7l" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
@@ -2227,7 +2228,7 @@
     </node>
     <node concept="2tJIrI" id="2jDew64Qmgc" role="jymVt" />
     <node concept="3clFb_" id="3pZvzolpwf_" role="jymVt">
-      <property role="TrG5h" value="trimGroupNameFromActionTextAndUpdate" />
+      <property role="TrG5h" value="trimSectionFromActionTextAndUpdate" />
       <node concept="3clFbS" id="3pZvzolpwfC" role="3clF47">
         <node concept="3clFbJ" id="5qkmDQk7tlt" role="3cqZAp">
           <node concept="3clFbS" id="5qkmDQk7tlv" role="3clFbx">
@@ -2236,12 +2237,12 @@
                 <property role="TrG5h" value="text" />
                 <node concept="17QB3L" id="3pZvzolqck3" role="1tU5fm" />
                 <node concept="1rXfSq" id="7b8v2ssIYyv" role="33vP2m">
-                  <ref role="37wK5l" node="7b8v2ssFpTf" resolve="trimGroupNameFromActionText" />
+                  <ref role="37wK5l" node="7b8v2ssFpTf" resolve="trimSectionFromActionText" />
                   <node concept="37vLTw" id="7b8v2ssJprQ" role="37wK5m">
                     <ref role="3cqZAo" node="3pZvzolpzLz" resolve="action" />
                   </node>
                   <node concept="37vLTw" id="7b8v2ssJECE" role="37wK5m">
-                    <ref role="3cqZAo" node="3pZvzolpBeb" resolve="groupName" />
+                    <ref role="3cqZAo" node="3pZvzolpBeb" resolve="section" />
                   </node>
                 </node>
               </node>
@@ -2277,10 +2278,10 @@
                 <node concept="liA8E" id="1NzaUygG$Jq" role="2OqNvi">
                   <ref role="37wK5l" to="qkt:~Presentation.putClientProperty(com.intellij.openapi.util.Key,java.lang.Object)" resolve="putClientProperty" />
                   <node concept="37vLTw" id="1NzaUygG$JW" role="37wK5m">
-                    <ref role="3cqZAo" node="6Kw22eW7L03" resolve="GROUPNAME_KEY" />
+                    <ref role="3cqZAo" node="6Kw22eW7L03" resolve="SECTION_KEY" />
                   </node>
                   <node concept="37vLTw" id="1NzaUygG$Jr" role="37wK5m">
-                    <ref role="3cqZAo" node="3pZvzolpBeb" resolve="groupName" />
+                    <ref role="3cqZAo" node="3pZvzolpBeb" resolve="section" />
                   </node>
                 </node>
               </node>
@@ -2309,7 +2310,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="3pZvzolpBeb" role="3clF46">
-        <property role="TrG5h" value="groupName" />
+        <property role="TrG5h" value="section" />
         <node concept="17QB3L" id="3pZvzolpE5e" role="1tU5fm" />
         <node concept="2AHcQZ" id="7b8v2ss49UX" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
@@ -2331,7 +2332,7 @@
     </node>
     <node concept="2tJIrI" id="7b8v2ssEwpv" role="jymVt" />
     <node concept="3clFb_" id="7b8v2ssFpTf" role="jymVt">
-      <property role="TrG5h" value="trimGroupNameFromActionText" />
+      <property role="TrG5h" value="trimSectionFromActionText" />
       <node concept="37vLTG" id="7b8v2ssFF26" role="3clF46">
         <property role="TrG5h" value="action" />
         <node concept="3uibUv" id="7b8v2ssFF27" role="1tU5fm">
@@ -2342,7 +2343,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="7b8v2ssFT5B" role="3clF46">
-        <property role="TrG5h" value="groupName" />
+        <property role="TrG5h" value="section" />
         <node concept="17QB3L" id="7b8v2ssFT5C" role="1tU5fm" />
         <node concept="2AHcQZ" id="7b8v2ssFT5D" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
@@ -2351,7 +2352,7 @@
       <node concept="3clFbS" id="7b8v2ssFpTi" role="3clF47">
         <node concept="3clFbF" id="7b8v2ssRVQX" role="3cqZAp">
           <node concept="1rXfSq" id="7b8v2ssRVQV" role="3clFbG">
-            <ref role="37wK5l" node="7b8v2ssPXom" resolve="trimGroupNameFromActionText" />
+            <ref role="37wK5l" node="7b8v2ssPXom" resolve="trimSectionFromActionText" />
             <node concept="2OqwBi" id="7b8v2ssS4LS" role="37wK5m">
               <node concept="2OqwBi" id="7b8v2ssS4LT" role="2Oq$k0">
                 <node concept="37vLTw" id="7b8v2ssS4LU" role="2Oq$k0">
@@ -2366,7 +2367,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="7b8v2ssShVr" role="37wK5m">
-              <ref role="3cqZAo" node="7b8v2ssFT5B" resolve="groupName" />
+              <ref role="3cqZAo" node="7b8v2ssFT5B" resolve="section" />
             </node>
           </node>
         </node>
@@ -2376,7 +2377,7 @@
     </node>
     <node concept="2tJIrI" id="7b8v2ssPSeP" role="jymVt" />
     <node concept="3clFb_" id="7b8v2ssPXom" role="jymVt">
-      <property role="TrG5h" value="trimGroupNameFromActionText" />
+      <property role="TrG5h" value="trimSectionFromActionText" />
       <node concept="37vLTG" id="7b8v2ssTkkT" role="3clF46">
         <property role="TrG5h" value="text" />
         <node concept="17QB3L" id="7b8v2ssTkkU" role="1tU5fm" />
@@ -2385,7 +2386,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="7b8v2ssPXoq" role="3clF46">
-        <property role="TrG5h" value="groupName" />
+        <property role="TrG5h" value="section" />
         <node concept="17QB3L" id="7b8v2ssPXor" role="1tU5fm" />
         <node concept="2AHcQZ" id="7b8v2ssPXos" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
@@ -2430,7 +2431,10 @@
                   <property role="3oM_SC" value="the" />
                 </node>
                 <node concept="3oM_SD" id="7b8v2ssPXoP" role="1PaTwD">
-                  <property role="3oM_SC" value="groupName" />
+                  <property role="3oM_SC" value="section" />
+                </node>
+                <node concept="3oM_SD" id="4mzPpe128ZL" role="1PaTwD">
+                  <property role="3oM_SC" value="name" />
                 </node>
               </node>
             </node>
@@ -2448,7 +2452,7 @@
                       </node>
                       <node concept="2OqwBi" id="7b8v2ssPXoX" role="3uHU7B">
                         <node concept="37vLTw" id="7b8v2ssPXoY" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7b8v2ssPXoq" resolve="groupName" />
+                          <ref role="3cqZAo" node="7b8v2ssPXoq" resolve="section" />
                         </node>
                         <node concept="liA8E" id="7b8v2ssPXoZ" role="2OqNvi">
                           <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
@@ -2469,7 +2473,7 @@
               <node concept="liA8E" id="7b8v2ssPXp4" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
                 <node concept="37vLTw" id="7b8v2ssPXp5" role="37wK5m">
-                  <ref role="3cqZAo" node="7b8v2ssPXoq" resolve="groupName" />
+                  <ref role="3cqZAo" node="7b8v2ssPXoq" resolve="section" />
                 </node>
               </node>
             </node>
@@ -2482,7 +2486,7 @@
               </node>
               <node concept="2OqwBi" id="4fJ7VbKm9d$" role="3uHU7w">
                 <node concept="37vLTw" id="4fJ7VbK8fSt" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7b8v2ssPXoq" resolve="groupName" />
+                  <ref role="3cqZAo" node="7b8v2ssPXoq" resolve="section" />
                 </node>
                 <node concept="17RvpY" id="4fJ7VbKmhGd" role="2OqNvi" />
               </node>
@@ -2855,7 +2859,7 @@
       <node concept="3clFbS" id="2xgTENkWrX_" role="3clF47">
         <node concept="3cpWs8" id="2xgTENkX278" role="3cqZAp">
           <node concept="3cpWsn" id="2xgTENkX279" role="3cpWs9">
-            <property role="TrG5h" value="groupText" />
+            <property role="TrG5h" value="section" />
             <node concept="17QB3L" id="2xgTENkX27a" role="1tU5fm" />
             <node concept="Xl_RD" id="2xgTENkX27b" role="33vP2m">
               <property role="Xl_RC" value="" />
@@ -2874,7 +2878,7 @@
                 <ref role="37wK5l" to="wyt6:~String.indexOf(java.lang.String)" resolve="indexOf" />
                 <node concept="2OqwBi" id="5gDLJkL8uyJ" role="37wK5m">
                   <node concept="35c_gC" id="5gDLJkL8gJ7" role="2Oq$k0">
-                    <ref role="35c_gD" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                    <ref role="35c_gD" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                   </node>
                   <node concept="2qgKlT" id="5gDLJkL8$VF" role="2OqNvi">
                     <ref role="37wK5l" to="9j2l:24lzbKWhznQ" resolve="getSeparator" />
@@ -2903,7 +2907,7 @@
                   </node>
                 </node>
                 <node concept="37vLTw" id="2xgTENkX27s" role="37vLTJ">
-                  <ref role="3cqZAo" node="2xgTENkX279" resolve="groupText" />
+                  <ref role="3cqZAo" node="2xgTENkX279" resolve="section" />
                 </node>
               </node>
             </node>
@@ -2958,7 +2962,7 @@
                   <ref role="3cqZAo" node="2xgTENkWs0n" resolve="text" />
                 </node>
                 <node concept="37vLTw" id="2xgTENkWQDO" role="37wK5m">
-                  <ref role="3cqZAo" node="2xgTENkX279" resolve="groupText" />
+                  <ref role="3cqZAo" node="2xgTENkX279" resolve="section" />
                 </node>
                 <node concept="3clFbT" id="2xgTENkWQDP" role="37wK5m">
                   <property role="3clFbU" value="true" />
@@ -3684,7 +3688,7 @@
       <node concept="3Tqbb2" id="2jDew64QLb6" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="2jDew64QLb7" role="jymVt">
-      <property role="TrG5h" value="myGroupName" />
+      <property role="TrG5h" value="mySection" />
       <node concept="3Tmbuc" id="2jDew64QLb8" role="1B3o_S" />
       <node concept="17QB3L" id="2jDew64QLb9" role="1tU5fm" />
     </node>
@@ -3739,10 +3743,10 @@
         <node concept="3clFbF" id="2jDew64QLbs" role="3cqZAp">
           <node concept="37vLTI" id="2jDew64QLbt" role="3clFbG">
             <node concept="37vLTw" id="2jDew64QLbu" role="37vLTx">
-              <ref role="3cqZAo" node="2jDew64QLby" resolve="groupName" />
+              <ref role="3cqZAo" node="2jDew64QLby" resolve="section" />
             </node>
             <node concept="37vLTw" id="2jDew64QLbv" role="37vLTJ">
-              <ref role="3cqZAo" node="2jDew64QLb7" resolve="myGroupName" />
+              <ref role="3cqZAo" node="2jDew64QLb7" resolve="mySection" />
             </node>
           </node>
         </node>
@@ -3758,7 +3762,7 @@
         <node concept="17QB3L" id="2jDew64QLbx" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="2jDew64QLby" role="3clF46">
-        <property role="TrG5h" value="groupName" />
+        <property role="TrG5h" value="section" />
         <node concept="17QB3L" id="2jDew64QLbz" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="2jDew64QLb$" role="3clF46">
@@ -3867,13 +3871,13 @@
     </node>
     <node concept="2tJIrI" id="2jDew64QLce" role="jymVt" />
     <node concept="3clFb_" id="2jDew64QLcf" role="jymVt">
-      <property role="TrG5h" value="getGroupName" />
+      <property role="TrG5h" value="getSection" />
       <node concept="17QB3L" id="2jDew64QLcg" role="3clF45" />
       <node concept="3Tm1VV" id="2jDew64QLch" role="1B3o_S" />
       <node concept="3clFbS" id="2jDew64QLci" role="3clF47">
         <node concept="3clFbF" id="2jDew64QLcj" role="3cqZAp">
           <node concept="37vLTw" id="2jDew64QLck" role="3clFbG">
-            <ref role="3cqZAo" node="2jDew64QLb7" resolve="myGroupName" />
+            <ref role="3cqZAo" node="2jDew64QLb7" resolve="mySection" />
           </node>
         </node>
       </node>

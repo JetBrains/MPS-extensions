@@ -103,7 +103,7 @@
     </language>
   </registry>
   <node concept="2S6QgY" id="54z9_KDPbf$">
-    <property role="TrG5h" value="addGroupAnnotationToIntention" />
+    <property role="TrG5h" value="addSectionAnnotationToIntention" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="tp3j:2c3oNEsfcpP" resolve="BaseIntentionDeclaration" />
     <node concept="2Sbjvc" id="54z9_KDPbf_" role="2ZfgGD">
@@ -116,7 +116,7 @@
                   <node concept="2Sf5sV" id="1rEu0HvmZ7A" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="1rEu0HvmZ7B" role="2OqNvi">
                     <node concept="3CFYIy" id="1rEu0HvmZ7C" role="3CFYIz">
-                      <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                      <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                     </node>
                   </node>
                 </node>
@@ -129,7 +129,7 @@
               <node concept="2Sf5sV" id="54z9_KDPcay" role="2Oq$k0" />
               <node concept="3CFZ6_" id="54z9_KDPcGz" role="2OqNvi">
                 <node concept="3CFYIy" id="54z9_KDPcHw" role="3CFYIz">
-                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                 </node>
               </node>
             </node>
@@ -143,7 +143,7 @@
                     <node concept="2Sf5sV" id="54z9_KDPdFt" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="54z9_KDPdWu" role="2OqNvi">
                       <node concept="3CFYIy" id="54z9_KDPdX7" role="3CFYIz">
-                        <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                        <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                       </node>
                     </node>
                   </node>
@@ -159,7 +159,7 @@
       <node concept="3clFbS" id="54z9_KDPbfC" role="2VODD2">
         <node concept="3clFbF" id="54z9_KDPbup" role="3cqZAp">
           <node concept="Xl_RD" id="54z9_KDPbuo" role="3clFbG">
-            <property role="Xl_RC" value="Toggle Group Annotation" />
+            <property role="Xl_RC" value="Toggle Section Annotation" />
           </node>
         </node>
       </node>
@@ -243,7 +243,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="2oNrKyBdtmp">
-    <property role="TrG5h" value="addGroupAnnotationToAction" />
+    <property role="TrG5h" value="addSectionAnnotationToAction" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="tp4k:hwsE7KS" resolve="ActionDeclaration" />
     <node concept="2Sbjvc" id="2oNrKyBdtmq" role="2ZfgGD">
@@ -256,7 +256,7 @@
                   <node concept="2Sf5sV" id="2oNrKyBdtmz" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="2oNrKyBdtm$" role="2OqNvi">
                     <node concept="3CFYIy" id="2oNrKyBdtm_" role="3CFYIz">
-                      <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                      <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                     </node>
                   </node>
                 </node>
@@ -269,7 +269,7 @@
               <node concept="2Sf5sV" id="2oNrKyBdtnB" role="2Oq$k0" />
               <node concept="3CFZ6_" id="2oNrKyBdtnC" role="2OqNvi">
                 <node concept="3CFYIy" id="2oNrKyBdtnD" role="3CFYIz">
-                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                 </node>
               </node>
             </node>
@@ -283,7 +283,7 @@
                     <node concept="2Sf5sV" id="$kD7tONanV" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="$kD7tONayw" role="2OqNvi">
                       <node concept="3CFYIy" id="$kD7tONaX7" role="3CFYIz">
-                        <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                        <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                       </node>
                     </node>
                   </node>
@@ -295,7 +295,7 @@
                         <node concept="2Sf5sV" id="$kD7tONcxQ" role="2Oq$k0" />
                         <node concept="3CFZ6_" id="$kD7tONdco" role="2OqNvi">
                           <node concept="3CFYIy" id="$kD7tONdf3" role="3CFYIz">
-                            <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                            <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                           </node>
                         </node>
                       </node>
@@ -313,7 +313,7 @@
                     <node concept="2Sf5sV" id="2oNrKyBdtnK" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="2oNrKyBdtnL" role="2OqNvi">
                       <node concept="3CFYIy" id="2oNrKyBdtnM" role="3CFYIz">
-                        <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                        <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                       </node>
                     </node>
                   </node>
@@ -329,7 +329,7 @@
       <node concept="3clFbS" id="2oNrKyBdtnP" role="2VODD2">
         <node concept="3clFbF" id="2oNrKyBdtnQ" role="3cqZAp">
           <node concept="Xl_RD" id="2oNrKyBdtnR" role="3clFbG">
-            <property role="Xl_RC" value="Toggle Group Annotation" />
+            <property role="Xl_RC" value="Toggle Section Annotation" />
           </node>
         </node>
       </node>

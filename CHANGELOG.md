@@ -6,6 +6,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## June 2025
 
+### Changed
+
+- *com.mbeddr.mpsutil.intentions* To avoid confusion with action groups, intention groups are now called intention sections. The [SectionAnnotation](http://127.0.0.1:63320/node?ref=r%3Ab91d2412-f094-4e55-8db6-3c782d7edc40%28com.mbeddr.mpsutil.intentions.structure%29%2F5846558918537398687) was renamed accordingly.
+
 ### Fixed
 
 - *com.mbeddr.mpsutil.compare* Fixed duplicated code generation for `assert node equals`

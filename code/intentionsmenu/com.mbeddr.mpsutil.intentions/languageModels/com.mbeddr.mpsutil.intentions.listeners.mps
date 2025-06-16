@@ -205,13 +205,13 @@
           <node concept="3cpWsn" id="1WeG0zuAO7S" role="3cpWs9">
             <property role="TrG5h" value="groupAnnotation" />
             <node concept="3Tqbb2" id="1WeG0zuAO7$" role="1tU5fm">
-              <ref role="ehGHo" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+              <ref role="ehGHo" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
             </node>
             <node concept="2OqwBi" id="1WeG0zuAO7T" role="33vP2m">
               <node concept="j_vvf" id="1WeG0zuAO7U" role="2Oq$k0" />
               <node concept="3CFZ6_" id="1WeG0zuAO7V" role="2OqNvi">
                 <node concept="3CFYIy" id="1WeG0zuAO7W" role="3CFYIz">
-                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                  <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                 </node>
               </node>
             </node>

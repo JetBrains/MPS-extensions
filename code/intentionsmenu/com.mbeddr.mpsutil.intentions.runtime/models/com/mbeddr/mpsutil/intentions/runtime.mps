@@ -4100,12 +4100,17 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="2OqwBi" id="3DQAigeSVeC" role="ukAjM">
-                          <node concept="1rXfSq" id="3DQAigeST9U" role="2Oq$k0">
-                            <ref role="37wK5l" node="4hHbxs9ygNI" resolve="getEditor" />
+                        <node concept="2OqwBi" id="4mzPpe13PF5" role="ukAjM">
+                          <node concept="2OqwBi" id="4mzPpe13JLM" role="2Oq$k0">
+                            <node concept="1rXfSq" id="3DQAigeST9U" role="2Oq$k0">
+                              <ref role="37wK5l" node="4hHbxs9ygNI" resolve="getEditor" />
+                            </node>
+                            <node concept="liA8E" id="4mzPpe13O_Y" role="2OqNvi">
+                              <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                            </node>
                           </node>
-                          <node concept="1PvZjq" id="3DQAigeSXPj" role="2OqNvi">
-                            <ref role="37wK5l" to="exr9:~EditorComponent.getRepository()" resolve="getRepository" />
+                          <node concept="liA8E" id="4mzPpe13R1a" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
                           </node>
                         </node>
                       </node>

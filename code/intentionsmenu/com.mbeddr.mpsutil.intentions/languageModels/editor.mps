@@ -135,7 +135,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="frLjuvPGID">
-    <ref role="1XX52x" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+    <ref role="1XX52x" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadOnlyCell" />
     <node concept="3EZMnI" id="frLjuvPGIE" role="2wV5jI">
       <node concept="2iRkQZ" id="frLjuvPGIF" role="2iSdaV" />
       <node concept="3EZMnI" id="frLjuvPGIG" role="3EZMnx">

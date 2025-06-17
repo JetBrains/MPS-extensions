@@ -142,6 +142,7 @@
   </node>
   <node concept="1olOeT" id="7CtGHzUAnit">
     <property role="TrG5h" value="ConceptWithChildren_RightPriority" />
+    <node concept="1oluLK" id="7CtGHzWmCbz" role="1olsr8" />
     <node concept="1olsrb" id="7CtGHzUAniJ" role="1olsr8">
       <ref role="24zOxU" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
       <node concept="1DuYju" id="7CtGHzUApt_" role="3JN1Yi">
@@ -175,6 +176,10 @@
     </node>
     <node concept="1olsrb" id="7CtGHzUCPH_" role="1olsr8">
       <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
+      <node concept="1orWGm" id="7CtGHzWmCj$" role="1orW53">
+        <ref role="3iOP7l" to="yeyq:7CtGHzRQpTi" resolve="mergeid" />
+        <node concept="3iOvoU" id="7CtGHzWmD4e" role="1orWrN" />
+      </node>
       <node concept="230_S" id="7CtGHzUCPHB" role="21DrV">
         <node concept="3clFbS" id="7CtGHzUCPHC" role="2VODD2">
           <node concept="3clFbF" id="7CtGHzUCPXM" role="3cqZAp">

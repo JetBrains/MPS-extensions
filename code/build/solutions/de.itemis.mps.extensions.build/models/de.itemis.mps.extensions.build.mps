@@ -20341,6 +20341,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="2UQw7_yJId1" role="3bR31x">
+          <node concept="3LXTmp" id="2UQw7_yJId2" role="3rtmxm">
+            <node concept="3qWCbU" id="2UQw7_yJId3" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="2UQw7_yJId4" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="2UQw7_yJId5" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2UQw7_yJId6" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.itemis.model.merge" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="T8sXq9o52B" role="3989C9">

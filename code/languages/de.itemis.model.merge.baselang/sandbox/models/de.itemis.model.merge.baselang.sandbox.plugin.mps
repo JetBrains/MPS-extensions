@@ -95,7 +95,7 @@
     <node concept="1olsrb" id="32ggi2DCs9A" role="1olsr8">
       <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
       <node concept="1orWGm" id="7CtGHzRQVIr" role="1orW53">
-        <ref role="3iOP7l" to="yeyq:7CtGHzRQpTi" resolve="id" />
+        <ref role="3iOP7l" to="yeyq:7CtGHzRQpTi" resolve="mergeid" />
         <node concept="3iOvoU" id="7CtGHzRQWvl" role="1orWrN" />
       </node>
       <node concept="230_S" id="32ggi2DCsgc" role="21DrV">

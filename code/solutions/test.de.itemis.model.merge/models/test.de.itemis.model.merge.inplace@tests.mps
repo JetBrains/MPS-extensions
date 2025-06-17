@@ -267,8 +267,8 @@
       <node concept="3clFbS" id="7CtGHzSef$e" role="3clF47">
         <node concept="3clFbF" id="7CtGHzSef$f" role="3cqZAp">
           <node concept="2YIFZM" id="7CtGHzSef$g" role="3clFbG">
-            <ref role="37wK5l" node="4TjLPNDh8FL" />
-            <ref role="1Pybhc" node="4TjLPNDh8jZ" />
+            <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
+            <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />
             <node concept="37vLTw" id="7CtGHzSef$h" role="37wK5m">
               <ref role="3cqZAo" node="7CtGHzSef$l" resolve="policyName" />
             </node>
@@ -368,11 +368,11 @@
           <node concept="3cpWsn" id="7CtGHzSe7tc" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="7CtGHzSe7td" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
             </node>
             <node concept="2ShNRf" id="7CtGHzSe7te" role="33vP2m">
               <node concept="1pGfFk" id="7CtGHzSe7tf" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
                 <node concept="2OqwBi" id="7CtGHzSe7tg" role="37wK5m">
                   <node concept="2WthIp" id="7CtGHzSe7th" role="2Oq$k0" />
                   <node concept="2XshWL" id="7CtGHzSe7ti" role="2OqNvi">
@@ -392,7 +392,7 @@
               <ref role="3cqZAo" node="7CtGHzSe7tc" resolve="merger" />
             </node>
             <node concept="liA8E" id="7CtGHzSe7ts" role="2OqNvi">
-              <ref role="37wK5l" node="3s1k8nW2m9O" />
+              <ref role="37wK5l" node="3s1k8nW2m9O" resolve="addToRight" />
               <node concept="3xONca" id="7CtGHzSe7tt" role="37wK5m">
                 <ref role="3xOPvv" node="7CtGHzSe78C" resolve="newRoot" />
               </node>
@@ -406,7 +406,7 @@
               <ref role="3cqZAo" node="7CtGHzSe7tc" resolve="merger" />
             </node>
             <node concept="liA8E" id="7CtGHzSegJW" role="2OqNvi">
-              <ref role="37wK5l" node="6npTJ7hyfK7" />
+              <ref role="37wK5l" node="6npTJ7hyfK7" resolve="mergeInplace" />
             </node>
           </node>
         </node>
@@ -417,7 +417,7 @@
               <ref role="3cqZAo" node="7CtGHzSe7tc" resolve="merger" />
             </node>
             <node concept="liA8E" id="7CtGHzSegK1" role="2OqNvi">
-              <ref role="37wK5l" node="uhx_ua8Uep" />
+              <ref role="37wK5l" node="uhx_ua8Uep" resolve="assertEquals" />
               <node concept="3xONca" id="7CtGHzSegK2" role="37wK5m">
                 <ref role="3xOPvv" node="7CtGHzSe78C" resolve="newRoot" />
               </node>
@@ -434,11 +434,11 @@
           <node concept="3cpWsn" id="7CtGHzTqQ0C" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="7CtGHzTqQ0D" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
             </node>
             <node concept="2ShNRf" id="7CtGHzTqQ0E" role="33vP2m">
               <node concept="1pGfFk" id="7CtGHzTqQ0F" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
                 <node concept="2OqwBi" id="7CtGHzTqQ0G" role="37wK5m">
                   <node concept="2WthIp" id="7CtGHzTqQ0H" role="2Oq$k0" />
                   <node concept="2XshWL" id="7CtGHzTqQ0I" role="2OqNvi">
@@ -458,7 +458,7 @@
               <ref role="3cqZAo" node="7CtGHzTqQ0C" resolve="merger" />
             </node>
             <node concept="liA8E" id="7CtGHzTqQ0N" role="2OqNvi">
-              <ref role="37wK5l" node="3s1k8nW2i3l" />
+              <ref role="37wK5l" node="3s1k8nW2i3l" resolve="addToLeft" />
               <node concept="3xONca" id="7CtGHzTqQ0O" role="37wK5m">
                 <ref role="3xOPvv" node="7CtGHzTqPv5" resolve="existOnlyLeft" />
               </node>
@@ -471,7 +471,7 @@
               <ref role="3cqZAo" node="7CtGHzTqQ0C" resolve="merger" />
             </node>
             <node concept="liA8E" id="7CtGHzTqSbO" role="2OqNvi">
-              <ref role="37wK5l" node="3s1k8nW2m9O" />
+              <ref role="37wK5l" node="3s1k8nW2m9O" resolve="addToRight" />
               <node concept="3xONca" id="7CtGHzTqSbP" role="37wK5m">
                 <ref role="3xOPvv" node="7CtGHzSe78C" resolve="newRoot" />
               </node>
@@ -485,7 +485,7 @@
               <ref role="3cqZAo" node="7CtGHzTqQ0C" resolve="merger" />
             </node>
             <node concept="liA8E" id="7CtGHzTqQ0S" role="2OqNvi">
-              <ref role="37wK5l" node="6npTJ7hyfK7" />
+              <ref role="37wK5l" node="6npTJ7hyfK7" resolve="mergeInplace" />
             </node>
           </node>
         </node>
@@ -496,7 +496,7 @@
               <ref role="3cqZAo" node="7CtGHzTqQ0C" resolve="merger" />
             </node>
             <node concept="liA8E" id="7CtGHzTqQ0X" role="2OqNvi">
-              <ref role="37wK5l" node="uhx_ua8Uep" />
+              <ref role="37wK5l" node="uhx_ua8Uep" resolve="assertEquals" />
               <node concept="3xONca" id="7CtGHzTqQ0Y" role="37wK5m">
                 <ref role="3xOPvv" node="7CtGHzSe78C" resolve="newRoot" />
               </node>
@@ -509,7 +509,7 @@
               <ref role="3cqZAo" node="7CtGHzTqQ0C" resolve="merger" />
             </node>
             <node concept="liA8E" id="7CtGHzTrLv7" role="2OqNvi">
-              <ref role="37wK5l" node="7CtGHzTqZo4" />
+              <ref role="37wK5l" node="7CtGHzTqZo4" resolve="resultModelSizeIs" />
               <node concept="3cmrfG" id="7CtGHzTrLBd" role="37wK5m">
                 <property role="3cmrfH" value="1" />
               </node>

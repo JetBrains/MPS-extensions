@@ -326,8 +326,8 @@
       </concept>
     </language>
     <language id="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" name="de.itemis.model.simple.demo.children">
-      <concept id="3912520324585631286" name="de.itemis.model.simple.demo.children.structure.ChildKeeper" flags="ng" index="1d83US">
-        <property id="2836457854054878257" name="id" index="3W4Xdi" />
+      <concept id="3912520324585631286" name="de.itemis.model.simple.demo.children.structure.ConceptWithChildren" flags="ng" index="1d83US">
+        <property id="2836457854054878257" name="mergeid" index="3W4Xdi" />
         <child id="3912520324598248753" name="optionalChild" index="1aoamK" />
         <child id="3912520324585631287" name="childSingleton" index="1d83UQ" />
       </concept>
@@ -380,11 +380,11 @@
           <node concept="3cpWsn" id="uhx_ua3ikn" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="uhx_ua3iko" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="uhx_ua3ikp" role="33vP2m">
               <node concept="1pGfFk" id="uhx_ua3ikq" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2OqwBi" id="uhx_ua7M1g" role="37wK5m">
                   <node concept="2WthIp" id="uhx_ua7M1h" role="2Oq$k0" />
                   <node concept="2XshWL" id="uhx_ua7M1f" role="2OqNvi">
@@ -606,7 +606,7 @@
             </node>
             <node concept="2YIFZM" id="77Ot_5atGqi" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="77Ot_5atGqj" role="37wK5m">
                 <ref role="3xOPvv" node="6Ltuup4wNS8" resolve="me" />
               </node>
@@ -621,7 +621,7 @@
             <node concept="liA8E" id="kewvTA1TiU" role="2OqNvi">
               <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
               <node concept="35c_gC" id="kewvTA1TiV" role="37wK5m">
-                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
               </node>
             </node>
           </node>
@@ -630,12 +630,12 @@
           <node concept="3cpWsn" id="6Ltuup4wQ6m" role="3cpWs9">
             <property role="TrG5h" value="observed" />
             <node concept="3Tqbb2" id="6Ltuup4wQ6h" role="1tU5fm">
-              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
             </node>
             <node concept="1eOMI4" id="6Ltuup4wQm1" role="33vP2m">
               <node concept="10QFUN" id="6Ltuup4wQlY" role="1eOMHV">
                 <node concept="3Tqbb2" id="6Ltuup4wQqJ" role="10QFUM">
-                  <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+                  <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
                 </node>
                 <node concept="37vLTw" id="6Ltuup4wQhq" role="10QFUP">
                   <ref role="3cqZAo" node="6Ltuup4wNZq" resolve="observedRoot" />
@@ -713,7 +713,7 @@
             </node>
             <node concept="2YIFZM" id="77Ot_5atGbp" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="77Ot_5atGbq" role="37wK5m">
                 <ref role="3xOPvv" node="6Ltuup4wZqI" resolve="me" />
               </node>
@@ -728,7 +728,7 @@
             <node concept="liA8E" id="kewvTA1J9T" role="2OqNvi">
               <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
               <node concept="35c_gC" id="kewvTA1Kdn" role="37wK5m">
-                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
               </node>
             </node>
           </node>
@@ -737,12 +737,12 @@
           <node concept="3cpWsn" id="6Ltuup4wZyb" role="3cpWs9">
             <property role="TrG5h" value="observed" />
             <node concept="3Tqbb2" id="6Ltuup4wZyc" role="1tU5fm">
-              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
             </node>
             <node concept="1eOMI4" id="6Ltuup4wZyd" role="33vP2m">
               <node concept="10QFUN" id="6Ltuup4wZye" role="1eOMHV">
                 <node concept="3Tqbb2" id="6Ltuup4wZyf" role="10QFUM">
-                  <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+                  <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
                 </node>
                 <node concept="37vLTw" id="6Ltuup4wZyg" role="10QFUP">
                   <ref role="3cqZAo" node="6Ltuup4wZy0" resolve="observedRoot" />
@@ -820,7 +820,7 @@
             </node>
             <node concept="2YIFZM" id="77Ot_5atFFQ" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="77Ot_5atFWP" role="37wK5m">
                 <ref role="3xOPvv" node="77Ot_5af$7V" resolve="me" />
               </node>
@@ -881,7 +881,7 @@
             </node>
             <node concept="2YIFZM" id="77Ot_5atFG4" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="5CYFCJDhKP4" role="37wK5m">
                 <ref role="3xOPvv" node="77Ot_5aj$sA" resolve="me2" />
               </node>
@@ -942,7 +942,7 @@
             </node>
             <node concept="2YIFZM" id="77Ot_5atFGi" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="5CYFCJDhKSs" role="37wK5m">
                 <ref role="3xOPvv" node="77Ot_5ah$q3" resolve="me3" />
               </node>
@@ -1003,7 +1003,7 @@
             </node>
             <node concept="2YIFZM" id="77Ot_5atFGw" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="5CYFCJDhKT$" role="37wK5m">
                 <ref role="3xOPvv" node="77Ot_5an$Bu" resolve="me4" />
               </node>
@@ -1063,7 +1063,7 @@
               <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
             </node>
             <node concept="2YIFZM" id="1IpxBNKeUDn" role="33vP2m">
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
               <node concept="3xONca" id="1IpxBNKeUSF" role="37wK5m">
                 <ref role="3xOPvv" node="1IpxBNKeUDd" resolve="me5" />
@@ -1125,7 +1125,7 @@
             </node>
             <node concept="2YIFZM" id="30FY4ILVPNu" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="30FY4ILVQ9c" role="37wK5m">
                 <ref role="3xOPvv" node="30FY4ILVPHD" resolve="me6" />
               </node>
@@ -1140,7 +1140,7 @@
             <node concept="liA8E" id="kewvTAvpP1" role="2OqNvi">
               <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
               <node concept="35c_gC" id="kewvTAvpP2" role="37wK5m">
-                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
               </node>
             </node>
           </node>
@@ -1149,12 +1149,12 @@
           <node concept="3cpWsn" id="30FY4ILVPN_" role="3cpWs9">
             <property role="TrG5h" value="observed" />
             <node concept="3Tqbb2" id="30FY4ILVPNA" role="1tU5fm">
-              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
             </node>
             <node concept="1eOMI4" id="30FY4ILVPNB" role="33vP2m">
               <node concept="10QFUN" id="30FY4ILVPNC" role="1eOMHV">
                 <node concept="3Tqbb2" id="30FY4ILVPND" role="10QFUM">
-                  <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+                  <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
                 </node>
                 <node concept="37vLTw" id="30FY4ILVPNE" role="10QFUP">
                   <ref role="3cqZAo" node="30FY4ILVPNs" resolve="observedRoot" />
@@ -1185,7 +1185,7 @@
             </node>
             <node concept="2YIFZM" id="30FY4IMda1w" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="30FY4IMdae_" role="37wK5m">
                 <ref role="3xOPvv" node="30FY4IMda0S" resolve="me7" />
               </node>
@@ -1585,7 +1585,7 @@
             <node concept="H_c77" id="4gOnBGH79hl" role="1tU5fm" />
             <node concept="2YIFZM" id="4gOnBGH7Baa" role="33vP2m">
               <ref role="37wK5l" node="S2tk9Rin94" resolve="mergedModel" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="4gOnBGH7BfX" role="37wK5m">
                 <ref role="3xOPvv" node="1Tugx$wUUs" resolve="me" />
               </node>
@@ -1823,7 +1823,7 @@
             </node>
             <node concept="2YIFZM" id="1Tugx_rY7H" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RiooX" resolve="rootsOfMergedModel" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="1Tugx_rYco" role="37wK5m">
                 <ref role="3xOPvv" node="1Tugx_rRYB" resolve="me2" />
               </node>
@@ -2128,7 +2128,7 @@
             </node>
             <node concept="2YIFZM" id="4LLXBGbv8iV" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="4LLXBGbv8iW" role="37wK5m">
                 <ref role="3xOPvv" node="4LLXBGbv8jZ" resolve="me" />
               </node>
@@ -2306,7 +2306,7 @@
             </node>
             <node concept="2YIFZM" id="4LLXBGbHXwx" role="33vP2m">
               <ref role="37wK5l" node="S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="4LLXBGbHXwy" role="37wK5m">
                 <ref role="3xOPvv" node="4LLXBGbHXwV" resolve="me" />
               </node>
@@ -2321,7 +2321,7 @@
             <node concept="liA8E" id="kewvTA1Ry0" role="2OqNvi">
               <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
               <node concept="35c_gC" id="kewvTA1Ry1" role="37wK5m">
-                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+                <ref role="35c_gD" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
               </node>
             </node>
           </node>
@@ -2330,12 +2330,12 @@
           <node concept="3cpWsn" id="4LLXBGbHXwC" role="3cpWs9">
             <property role="TrG5h" value="observed" />
             <node concept="3Tqbb2" id="4LLXBGbHXwD" role="1tU5fm">
-              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
             </node>
             <node concept="1eOMI4" id="4LLXBGbHXwE" role="33vP2m">
               <node concept="10QFUN" id="4LLXBGbHXwF" role="1eOMHV">
                 <node concept="3Tqbb2" id="4LLXBGbHXwG" role="10QFUM">
-                  <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+                  <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
                 </node>
                 <node concept="37vLTw" id="4LLXBGbHXwH" role="10QFUP">
                   <ref role="3cqZAo" node="4LLXBGbHXwv" resolve="observedRoot" />
@@ -2394,7 +2394,7 @@
           <node concept="3cpWsn" id="4LLXBGbS_dS" role="3cpWs9">
             <property role="TrG5h" value="childKeeper" />
             <node concept="3Tqbb2" id="4LLXBGbSq9q" role="1tU5fm">
-              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+              <ref role="ehGHo" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
             </node>
             <node concept="2OqwBi" id="4LLXBGbS_dT" role="33vP2m">
               <node concept="2OqwBi" id="4LLXBGbS_dU" role="2Oq$k0">
@@ -2403,7 +2403,7 @@
                 </node>
                 <node concept="2SmgA7" id="4LLXBGbS_dW" role="2OqNvi">
                   <node concept="chp4Y" id="4LLXBGbS_dX" role="1dBWTz">
-                    <ref role="cht4Q" to="9kut:3pc485Vr2SQ" resolve="ChildKeeper" />
+                    <ref role="cht4Q" to="9kut:3pc485Vr2SQ" resolve="ConceptWithChildren" />
                   </node>
                 </node>
               </node>
@@ -2565,11 +2565,11 @@
           <node concept="3cpWsn" id="75IoIgYpXgu" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="75IoIgYpXgv" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="uhx_uacdwV" role="33vP2m">
               <node concept="1pGfFk" id="uhx_uacdwW" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2YIFZM" id="4TjLPNDhdu_" role="37wK5m">
                   <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
                   <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />
@@ -2696,11 +2696,11 @@
           <node concept="3cpWsn" id="2PSagEnIClb" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="2PSagEnIClc" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="uhx_uacfjF" role="33vP2m">
               <node concept="1pGfFk" id="uhx_uacfjG" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2YIFZM" id="4TjLPNDhduM" role="37wK5m">
                   <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
                   <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />
@@ -3186,7 +3186,7 @@
         <node concept="3clFbF" id="6npTJ7hyfKO" role="3cqZAp">
           <node concept="2YIFZM" id="6npTJ7hyfKP" role="3clFbG">
             <ref role="1Pybhc" to="gunp:2cYlIwY_fxg" resolve="ModelMergingRunner" />
-            <ref role="37wK5l" to="gunp:6BRHf22A5mQ" resolve="run" />
+            <ref role="37wK5l" to="gunp:6BRHf22A5mQ" resolve="run_" />
             <node concept="37vLTw" id="6npTJ7hyfKQ" role="37wK5m">
               <ref role="3cqZAo" node="6npTJ7hyfKa" resolve="leftModel" />
             </node>
@@ -3267,7 +3267,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="3s1k8nW2hKI" role="3clF45">
-        <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+        <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
       </node>
       <node concept="37vLTG" id="3s1k8nW2ikf" role="3clF46">
         <property role="TrG5h" value="contents" />
@@ -3307,7 +3307,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="3s1k8nW2m9X" role="3clF45">
-        <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+        <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
       </node>
       <node concept="37vLTG" id="3s1k8nW2m9Y" role="3clF46">
         <property role="TrG5h" value="contents" />
@@ -3488,11 +3488,11 @@
           <node concept="3cpWsn" id="4KE_ovqLo9f" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="4KE_ovqLo9g" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="4KE_ovqLo9h" role="33vP2m">
               <node concept="1pGfFk" id="4KE_ovqLo9i" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2YIFZM" id="4TjLPNDiz8A" role="37wK5m">
                   <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
                   <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />
@@ -3711,11 +3711,11 @@
           <node concept="3cpWsn" id="7aQcTqEzUQ8" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="7aQcTqEzUQ9" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="uhx_ua8QSV" role="33vP2m">
               <node concept="1pGfFk" id="uhx_ua8QSW" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2YIFZM" id="4TjLPNDiz8N" role="37wK5m">
                   <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
                   <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />
@@ -3856,11 +3856,11 @@
           <node concept="3cpWsn" id="4SYg$jBw7mi" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="4SYg$jBw7mj" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="uhx_uacjcS" role="33vP2m">
               <node concept="1pGfFk" id="uhx_uacjcT" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2YIFZM" id="4TjLPNDhTA6" role="37wK5m">
                   <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
                   <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />
@@ -4017,11 +4017,11 @@
           <node concept="3cpWsn" id="4SYg$jBz45k" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="4SYg$jBz45l" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="uhx_uacm_v" role="33vP2m">
               <node concept="1pGfFk" id="uhx_uacm_w" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2YIFZM" id="4TjLPNDhTAj" role="37wK5m">
                   <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
                   <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />
@@ -4178,11 +4178,11 @@
           <node concept="3cpWsn" id="4SYg$jBEtue" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="4SYg$jBEtuf" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="uhx_uacmWP" role="33vP2m">
               <node concept="1pGfFk" id="uhx_uacmWQ" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2YIFZM" id="4TjLPNDhTAw" role="37wK5m">
                   <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
                   <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />
@@ -4339,11 +4339,11 @@
           <node concept="3cpWsn" id="4SYg$jBE5rB" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="4SYg$jBE5rC" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="uhx_uacnhS" role="33vP2m">
               <node concept="1pGfFk" id="uhx_uacnhT" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2YIFZM" id="4TjLPNDhTAH" role="37wK5m">
                   <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
                   <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />
@@ -4500,11 +4500,11 @@
           <node concept="3cpWsn" id="3IF6JG9LXGU" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="3IF6JG9LXGV" role="1tU5fm">
-              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="3uigEE" node="6npTJ7huP0j" resolve="TestingMergingRunner" />
             </node>
             <node concept="2ShNRf" id="uhx_uacnwz" role="33vP2m">
               <node concept="1pGfFk" id="uhx_uacnw$" role="2ShVmc">
-                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMerger" />
+                <ref role="37wK5l" node="uhx_ua7AFQ" resolve="TestingMergingRunner" />
                 <node concept="2YIFZM" id="4TjLPNDhTAU" role="37wK5m">
                   <ref role="37wK5l" node="4TjLPNDh8FL" resolve="getPolicy" />
                   <ref role="1Pybhc" node="4TjLPNDh8jZ" resolve="TestUtil" />

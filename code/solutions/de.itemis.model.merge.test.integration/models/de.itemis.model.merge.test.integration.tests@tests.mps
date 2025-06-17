@@ -196,7 +196,7 @@
             </node>
             <node concept="2YIFZM" id="hG_e7_dlJp" role="33vP2m">
               <ref role="37wK5l" to="cp9f:S2tk9RipRT" resolve="rootOf" />
-              <ref role="1Pybhc" to="cp9f:6npTJ7huP0j" resolve="TestingMerger" />
+              <ref role="1Pybhc" to="cp9f:6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="hG_e7_dlJq" role="37wK5m">
                 <ref role="3xOPvv" node="hG_e7_dlKt" resolve="me" />
               </node>

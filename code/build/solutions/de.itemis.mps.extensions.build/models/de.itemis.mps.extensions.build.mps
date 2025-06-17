@@ -24105,11 +24105,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="24lzbKW1X7U" role="3bR37C">
-          <node concept="3bR9La" id="24lzbKW1X7V" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="38Yx6hD5qfD" role="3bR37C">
           <node concept="3bR9La" id="38Yx6hD5qfE" role="1SiIV1">
             <ref role="3bR37D" node="54z9_KDR0Ol" resolve="com.mbeddr.mpsutil.intentions" />
@@ -24118,6 +24113,11 @@
         <node concept="1SiIV0" id="5gDLJkL8X6j" role="3bR37C">
           <node concept="3bR9La" id="5gDLJkL8X6k" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Cnj$E64cm9" role="3bR37C">
+          <node concept="3bR9La" id="1Cnj$E64cma" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ULLXZL0gZG" resolve="org.junit.junit5" />
           </node>
         </node>
       </node>
@@ -25319,6 +25319,18 @@
       <node concept="22LTRM" id="2$4DgwiOpIY" role="22LTRK">
         <ref role="22LTRN" node="2$4DgwiN5eu" resolve="com.mbeddr.mpsutil.intentions.tests" />
       </node>
+      <node concept="24cAiW" id="6hpM9fmFEj0" role="24cAkG">
+        <node concept="NbPM2" id="Ja0pNCPCdu" role="XX84c">
+          <node concept="3Mxwew" id="Ja0pNCPCdt" role="3MwsjC">
+            <property role="3MwjfP" value="true" />
+          </node>
+        </node>
+        <node concept="NbPM2" id="4rjYge50oSR" role="24c_eh">
+          <node concept="3Mxwew" id="4rjYge50oSU" role="3MwsjC">
+            <property role="3MwjfP" value="true" />
+          </node>
+        </node>
+      </node>
       <node concept="22LTRM" id="2NyZxKpXdDc" role="22LTRK">
         <ref role="22LTRN" node="2NyZxKpX96P" resolve="test.ts.conceptswitch" />
       </node>
@@ -25333,18 +25345,6 @@
       </node>
       <node concept="22LTRM" id="4JmkJs3Gsci" role="22LTRK">
         <ref role="22LTRN" node="4JmkJs3Gs4u" resolve="test.de.q60.mps.shadowmodels.examples" />
-      </node>
-      <node concept="24cAiW" id="6hpM9fmFEj0" role="24cAkG">
-        <node concept="NbPM2" id="Ja0pNCPCdu" role="XX84c">
-          <node concept="3Mxwew" id="Ja0pNCPCdt" role="3MwsjC">
-            <property role="3MwjfP" value="true" />
-          </node>
-        </node>
-        <node concept="NbPM2" id="4rjYge50oSR" role="24c_eh">
-          <node concept="3Mxwew" id="4rjYge50oSU" role="3MwsjC">
-            <property role="3MwjfP" value="true" />
-          </node>
-        </node>
       </node>
       <node concept="22LTRM" id="5QP6xyk3oDX" role="22LTRK">
         <ref role="22LTRN" node="5QP6xyk3oCB" resolve="test.de.q60.mps.shadowmodels.runtime" />

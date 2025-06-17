@@ -13,6 +13,7 @@
     <import index="hba4" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="teg0" ref="r:96165ed2-ef22-48c7-bfe5-8fce083cbabb(com.mbeddr.mpsutil.grammarcells.structure)" />
+    <import index="tegv" ref="r:b91d2412-f094-4e55-8db6-3c782d7edc40(com.mbeddr.mpsutil.intentions.structure)" />
   </imports>
   <registry>
     <language id="638c9345-2613-49dc-b2ae-8ceadef24141" name="de.itemis.mps.changelog">
@@ -238,6 +239,77 @@
         <property role="15ShDY" value="Po4Z58IgAC/June" />
         <property role="15ShDw" value="2025" />
       </node>
+      <node concept="15bAme" id="3F8dS3YkUPF" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOF/changed" />
+        <node concept="2DRihI" id="3F8dS3YkUPG" role="15bAlk">
+          <node concept="15Ami3" id="3F8dS3YkUPH" role="1PaTwD">
+            <node concept="37shsh" id="3F8dS3YkUPI" role="15Aodc">
+              <node concept="1dCxOk" id="3F8dS3YkUPN" role="37shsm">
+                <property role="1XweGW" value="b92f861d-0184-446d-b88b-6dcf0e070241" />
+                <property role="1XxBO9" value="com.mbeddr.mpsutil.intentions" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUPS" role="1PaTwD">
+            <property role="3oM_SC" value="To" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUPT" role="1PaTwD">
+            <property role="3oM_SC" value="avoid" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUPU" role="1PaTwD">
+            <property role="3oM_SC" value="confusion" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUPV" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUPW" role="1PaTwD">
+            <property role="3oM_SC" value="action" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUTW" role="1PaTwD">
+            <property role="3oM_SC" value="groups," />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUTX" role="1PaTwD">
+            <property role="3oM_SC" value="intention" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUTY" role="1PaTwD">
+            <property role="3oM_SC" value="groups" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUTZ" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUU0" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUU1" role="1PaTwD">
+            <property role="3oM_SC" value="called" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUU2" role="1PaTwD">
+            <property role="3oM_SC" value="intention" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUU3" role="1PaTwD">
+            <property role="3oM_SC" value="sections." />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkUU4" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="15BRQy" id="3F8dS3YkUY5" role="1PaTwD">
+            <node concept="2tJFMh" id="3F8dS3YkUY7" role="15BRQ_">
+              <node concept="ZC_QK" id="3F8dS3YkUYd" role="2tJFKM">
+                <ref role="2aWVGs" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkV2h" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkV2i" role="1PaTwD">
+            <property role="3oM_SC" value="renamed" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkV2j" role="1PaTwD">
+            <property role="3oM_SC" value="accordingly." />
+          </node>
+        </node>
+      </node>
       <node concept="15bAme" id="7qF8EPz$J5y" role="15bAlL">
         <node concept="2DRihI" id="7qF8EPz$J5z" role="15bAlk">
           <node concept="15Ami3" id="7qF8EPz$JgI" role="1PaTwD">
@@ -333,6 +405,91 @@
           </node>
           <node concept="3oM_SD" id="3xul4PUNr5o" role="1PaTwD">
             <property role="3oM_SC" value="boxes." />
+          </node>
+        </node>
+        <node concept="2DRihI" id="3F8dS3YkQda" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="3F8dS3YkQdB" role="1PaTwD">
+            <node concept="37shsh" id="3F8dS3YkQdD" role="15Aodc">
+              <node concept="1dCxOk" id="3F8dS3YkQdJ" role="37shsm">
+                <property role="1XweGW" value="b92f861d-0184-446d-b88b-6dcf0e070241" />
+                <property role="1XxBO9" value="com.mbeddr.mpsutil.intentions" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQdU" role="1PaTwD">
+            <property role="3oM_SC" value="Intentions" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQdV" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQdW" role="1PaTwD">
+            <property role="3oM_SC" value="no" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQdX" role="1PaTwD">
+            <property role="3oM_SC" value="longer" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQdY" role="1PaTwD">
+            <property role="3oM_SC" value="duplicated" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQdZ" role="1PaTwD">
+            <property role="3oM_SC" value="every" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQe0" role="1PaTwD">
+            <property role="3oM_SC" value="time" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQe1" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQe2" role="1PaTwD">
+            <property role="3oM_SC" value="intentions" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQe5" role="1PaTwD">
+            <property role="3oM_SC" value="menu" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQe3" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQe4" role="1PaTwD">
+            <property role="3oM_SC" value="displayed" />
+          </node>
+        </node>
+        <node concept="2DRihI" id="3F8dS3YkQe7" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="3F8dS3YkQeC" role="1PaTwD">
+            <node concept="37shsh" id="3F8dS3YkQeE" role="15Aodc">
+              <node concept="1dCxOk" id="3F8dS3YkQeK" role="37shsm">
+                <property role="1XweGW" value="b92f861d-0184-446d-b88b-6dcf0e070241" />
+                <property role="1XxBO9" value="com.mbeddr.mpsutil.intentions" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQeP" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQj1" role="1PaTwD">
+            <property role="3oM_SC" value="custom" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQj2" role="1PaTwD">
+            <property role="3oM_SC" value="intentions" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQj3" role="1PaTwD">
+            <property role="3oM_SC" value="menu" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQja" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQjb" role="1PaTwD">
+            <property role="3oM_SC" value="only" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQjc" role="1PaTwD">
+            <property role="3oM_SC" value="displays" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQjd" role="1PaTwD">
+            <property role="3oM_SC" value="applicable" />
+          </node>
+          <node concept="3oM_SD" id="3F8dS3YkQjh" role="1PaTwD">
+            <property role="3oM_SC" value="actions-as-intentions." />
           </node>
         </node>
       </node>

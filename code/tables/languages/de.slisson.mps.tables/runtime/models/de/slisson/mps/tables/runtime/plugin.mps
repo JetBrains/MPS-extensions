@@ -641,7 +641,9 @@
                   <ref role="Rm8GQ" to="hm5v:74LepNTVASM" resolve="DELETE" />
                   <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="TableActions.DeleteRowAction.DeleteType" />
                 </node>
-                <node concept="3clFbT" id="74LepNU8thk" role="37wK5m" />
+                <node concept="3clFbT" id="58VhZjv57JZ" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
               </node>
             </node>
             <node concept="liA8E" id="7IUya7cjmzY" role="2OqNvi">
@@ -688,7 +690,9 @@
                   <ref role="Rm8GQ" to="hm5v:74LepNTVASM" resolve="DELETE" />
                   <ref role="1Px2BO" to="hm5v:74LepNTV$5n" resolve="TableActions.DeleteRowAction.DeleteType" />
                 </node>
-                <node concept="3clFbT" id="74LepNU8t63" role="37wK5m" />
+                <node concept="3clFbT" id="74LepNU8t63" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
               </node>
             </node>
             <node concept="liA8E" id="7IUya7cja2q" role="2OqNvi">

@@ -463,6 +463,56 @@
             <property role="3oM_SC" value="actions-as-intentions." />
           </node>
         </node>
+        <node concept="2DRihI" id="2WnHFkAztf" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="2u$v3Jv$kMG" role="1PaTwD">
+            <node concept="37shsh" id="2u$v3Jv$kMI" role="15Aodc">
+              <node concept="1dCxOk" id="2u$v3Jv$kTW" role="37shsm">
+                <property role="1XweGW" value="da21218f-a674-474d-8b4e-d59e33007003" />
+                <property role="1XxBO9" value="de.slisson.mps.tables.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymr2" role="1PaTwD">
+            <property role="3oM_SC" value="Fixed" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymr3" role="1PaTwD">
+            <property role="3oM_SC" value="bug" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymr4" role="1PaTwD">
+            <property role="3oM_SC" value="where" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymr6" role="1PaTwD">
+            <property role="3oM_SC" value="DeleteTableRow" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymr7" role="1PaTwD">
+            <property role="3oM_SC" value="action" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymr8" role="1PaTwD">
+            <property role="3oM_SC" value="would" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymrf" role="1PaTwD">
+            <property role="3oM_SC" value="delete" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymr9" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;next&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymrg" role="1PaTwD">
+            <property role="3oM_SC" value="row" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymra" role="1PaTwD">
+            <property role="3oM_SC" value="instead" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymrb" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymrc" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;current&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1uBh5lUymrh" role="1PaTwD">
+            <property role="3oM_SC" value="one" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="Ov8NH9d5KS" role="15bmVC">

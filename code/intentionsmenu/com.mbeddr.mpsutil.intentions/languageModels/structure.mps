@@ -12,6 +12,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
         <reference id="6054523464627965081" name="concept" index="trN6q" />
       </concept>
@@ -41,11 +44,11 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="54z9_KDO4Av">
-    <property role="TrG5h" value="GroupAnnotation" />
+    <property role="TrG5h" value="SectionAnnotation" />
     <property role="EcuMT" value="5846558918537398687" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="54z9_KDO4JX" role="lGtFl">
-      <property role="Hh88m" value="group" />
+      <property role="Hh88m" value="section" />
       <node concept="trNpa" id="54z9_KDOLSQ" role="EQaZv">
         <ref role="trN6q" to="tp3j:2c3oNEsfcpP" resolve="BaseIntentionDeclaration" />
       </node>
@@ -58,9 +61,12 @@
       <property role="IQ2nx" value="5846558918537400330" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="t5JxF" id="4mzPpe0Yad2" role="lGtFl">
+      <property role="t5JxN" value="Specifies the section in the intentions menu under which an intention or an action-as-intention should appear." />
+    </node>
   </node>
   <node concept="1TIwiD" id="frLjuvP$7P">
-    <property role="TrG5h" value="ShowIntentionInReadyOnlyCell" />
+    <property role="TrG5h" value="ShowIntentionInReadOnlyCell" />
     <property role="EcuMT" value="278032644708909557" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyi" id="frLjuvPGIB" role="1TKVEl">
@@ -69,7 +75,7 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="M6xJ_" id="frLjuvP$7Q" role="lGtFl">
-      <property role="Hh88m" value="showIntentionInReadyOnlyCell" />
+      <property role="Hh88m" value="showIntentionInReadOnlyCell" />
       <node concept="trNpa" id="frLjuvP$7R" role="EQaZv">
         <ref role="trN6q" to="tp3j:2c3oNEsfcpP" resolve="BaseIntentionDeclaration" />
       </node>

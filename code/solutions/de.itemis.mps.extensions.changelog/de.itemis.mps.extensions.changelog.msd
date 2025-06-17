@@ -13,6 +13,7 @@
   <dependencies>
     <dependency reexport="false">63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</dependency>
     <dependency reexport="false">9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells)</dependency>
+    <dependency reexport="false">b92f861d-0184-446d-b88b-6dcf0e070241(com.mbeddr.mpsutil.intentions)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:638c9345-2613-49dc-b2ae-8ceadef24141:de.itemis.mps.changelog" version="0" />
@@ -39,6 +40,7 @@
     <module reference="9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells)" version="0" />
     <module reference="7ac49bcb-77fb-4f0f-9036-e31b86b854b2(com.mbeddr.mpsutil.grammarcells.runtime)" version="0" />
     <module reference="b4f35ed8-45af-4efa-abe4-00ac26956e69(com.mbeddr.mpsutil.grammarcells.runtimelang)" version="0" />
+    <module reference="b92f861d-0184-446d-b88b-6dcf0e070241(com.mbeddr.mpsutil.intentions)" version="0" />
     <module reference="12cc529a-5bc1-40a0-b44a-d814ba237eae(de.itemis.mps.extensions.changelog)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" version="0" />

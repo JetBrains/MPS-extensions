@@ -165,7 +165,7 @@
                           </node>
                           <node concept="3CFZ6_" id="54z9_KDOSXr" role="2OqNvi">
                             <node concept="3CFYIy" id="54z9_KDOSXs" role="3CFYIz">
-                              <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                              <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                             </node>
                           </node>
                         </node>
@@ -238,7 +238,7 @@
                           </node>
                           <node concept="3CFZ6_" id="2oNrKyBcHr6" role="2OqNvi">
                             <node concept="3CFYIy" id="2oNrKyBcHr7" role="3CFYIz">
-                              <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="GroupAnnotation" />
+                              <ref role="3CFYIx" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                             </node>
                           </node>
                         </node>

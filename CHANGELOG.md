@@ -17,6 +17,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.editor.bool.runtime* Fix image loading for check boxes.
 - *com.mbeddr.mpsutil.intentions* Intentions are no longer duplicated every time the intentions menu is displayed
 - *com.mbeddr.mpsutil.intentions* The custom intentions menu now only displays applicable actions-as-intentions.
+- *de.slisson.mps.tables.runtime* Fixed bug where DeleteTableRow action would delete "next" row instead of "current" one
 
 ## May 2025
 

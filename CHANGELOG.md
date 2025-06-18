@@ -6,11 +6,17 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## June 2025
 
+### Changed
+
+- *com.mbeddr.mpsutil.intentions* To avoid confusion with action groups, intention groups are now called intention sections. The [SectionAnnotation](http://127.0.0.1:63320/node?ref=r%3Ab91d2412-f094-4e55-8db6-3c782d7edc40%28com.mbeddr.mpsutil.intentions.structure%29%2F5846558918537398687) was renamed accordingly.
+
 ### Fixed
 
 - *com.mbeddr.mpsutil.compare* Fixed duplicated code generation for `assert node equals`
 - *com.mbeddr.mpsutil.blutil* Use `COPY_SRCL` in [IfInstanceOfElseIfClause](http://127.0.0.1:63320/node?ref=63e0e566-5131-447e-90e3-12ea330e1a00%2Fr%3Af5bd2ad9-cd54-4408-b815-07f9f306f074%28com.mbeddr.mpsutil.blutil%2Fcom.mbeddr.mpsutil.blutil.structure%29%2F8718469662507237778) to avoid build warnings
 - *de.itemis.mps.editor.bool.runtime* Fix image loading for check boxes.
+- *com.mbeddr.mpsutil.intentions* Intentions are no longer duplicated every time the intentions menu is displayed
+- *com.mbeddr.mpsutil.intentions* The custom intentions menu now only displays applicable actions-as-intentions.
 
 ## May 2025
 

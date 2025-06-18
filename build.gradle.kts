@@ -43,7 +43,8 @@ if (ciBuild) {
     val buildMinor = mpsMajor.split(".").last()
     val buildNumber = System.getenv("BUILD_NUMBER").toInt()
 
-    if (branch.startsWith("maintenance/mps")) {
+    // GitBasedVersioning returns branch with '/' replaced by '-'
+    if (branch.startsWith("maintenance-mps")) {
         version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.getGitShortCommitHash()}"
     } else {
         version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + "-SNAPSHOT"

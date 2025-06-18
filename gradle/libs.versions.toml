@@ -1,2 +1,4 @@
-[versions]
-mps = "251.23774.10099"
+[libraries]
+# For published releases adjust mpsMajor in build.gradle.kts and use this dependency:
+# mps = "com.jetbrains:mps:202x.y"
+mps = "com.jetbrains.mps:mps-prerelease:251.23774.10099"

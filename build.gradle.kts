@@ -31,7 +31,7 @@ val ciBuild = project.hasProperty("forceCI") ||
     project.hasProperty("teamcity") && !project.hasProperty("mpsHomeDir")
 
 // Dependency versions
-val mpsVersion = libs.versions.mps.get()
+val mpsVersion = libs.mps.get().version!!
 
 // major version, e.g. '2021.1', '2021.2'
 val mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
@@ -43,7 +43,8 @@ if (ciBuild) {
     val buildMinor = mpsMajor.split(".").last()
     val buildNumber = System.getenv("BUILD_NUMBER").toInt()
 
-    if (branch.startsWith("maintenance/mps")) {
+    // GitBasedVersioning returns branch with '/' replaced by '-'
+    if (branch.startsWith("maintenance-mps")) {
         version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.getGitShortCommitHash()}"
     } else {
         version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + "-SNAPSHOT"
@@ -68,7 +69,7 @@ configurations {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:$mpsVersion")
+    "mps"(libs.mps)
 }
 
 repositories {

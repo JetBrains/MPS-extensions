@@ -22,6 +22,7 @@
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
+    <import index="3bri" ref="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -237,6 +238,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -2612,6 +2614,198 @@
           <ref role="3HSt7G" node="6eakByReRQs" />
           <node concept="3cmrfG" id="6eakByReRRq" role="3HSt7J">
             <property role="3cmrfH" value="5" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="2WnHFkwvOE">
+    <property role="TrG5h" value="TableAction_DeleteRow" />
+    <property role="3GE5qa" value="tableActions" />
+    <node concept="3clFbS" id="2WnHFkwvOF" role="LjaKd">
+      <node concept="2HxZob" id="2WnHFkwvPK" role="3cqZAp">
+        <node concept="1iFQzN" id="2WnHFkwvPL" role="3iKnsn">
+          <ref role="1iFR8X" to="3bri:7IUya7c4kr_" resolve="DeleteTableRow" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2WnHFkwvPO" role="25YQCW">
+      <node concept="2r114T" id="2WnHFkwvPP" role="1qenE9">
+        <node concept="2r114E" id="2WnHFkwvPQ" role="2r1ock">
+          <property role="2r114l" value="R1" />
+          <node concept="1UFI08" id="2WnHFkwvPR" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwvPS" role="1UFh5U">
+              <property role="1UFh5$" value="Abcd" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwvPT" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwvPQ" />
+            <node concept="LIFWc" id="2WnHFkwU1B" role="lGtFl">
+              <property role="LIFWa" value="0" />
+              <property role="LIFWd" value="Collection_cvtybw_a" />
+            </node>
+          </node>
+        </node>
+        <node concept="2r114E" id="2WnHFkwxcu" role="2r1ock">
+          <property role="2r114l" value="R2" />
+          <node concept="1UFI08" id="2WnHFkwxcv" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwxcw" role="1UFh5U">
+              <property role="1UFh5$" value="soHardToUse" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwxcx" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwxcu" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2WnHFkwvPV" role="25YQFr">
+      <node concept="2r114T" id="2WnHFkwRih" role="1qenE9">
+        <node concept="2r114E" id="2WnHFkwRin" role="2r1ock">
+          <property role="2r114l" value="R2" />
+          <node concept="1UFI08" id="2WnHFkwRio" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwRip" role="1UFh5U">
+              <property role="1UFh5$" value="soHardToUse" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwRiq" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwRin" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="2WnHFkwWPc">
+    <property role="TrG5h" value="TableAction_InsertRowAfter" />
+    <property role="3GE5qa" value="tableActions" />
+    <node concept="3clFbS" id="2WnHFkwWPd" role="LjaKd">
+      <node concept="2HxZob" id="2WnHFkwWPe" role="3cqZAp">
+        <node concept="1iFQzN" id="2WnHFkwWPf" role="3iKnsn">
+          <ref role="1iFR8X" to="3bri:7IUya7cjqn5" resolve="InsertTableRowAfter" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2WnHFkwWPg" role="25YQCW">
+      <node concept="2r114T" id="2WnHFkwWPh" role="1qenE9">
+        <node concept="2r114E" id="2WnHFkwWPi" role="2r1ock">
+          <property role="2r114l" value="R1" />
+          <node concept="1UFI08" id="2WnHFkwWPj" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwWPk" role="1UFh5U">
+              <property role="1UFh5$" value="Abcd" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwWPl" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwWPi" />
+            <node concept="LIFWc" id="2WnHFkwWPm" role="lGtFl">
+              <property role="LIFWa" value="0" />
+              <property role="LIFWd" value="Collection_cvtybw_a" />
+            </node>
+          </node>
+        </node>
+        <node concept="2r114E" id="2WnHFkwWPn" role="2r1ock">
+          <property role="2r114l" value="R2" />
+          <node concept="1UFI08" id="2WnHFkwWPo" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwWPp" role="1UFh5U">
+              <property role="1UFh5$" value="soHardToUse" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwWPq" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwWPn" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2WnHFkwWPr" role="25YQFr">
+      <node concept="2r114T" id="2WnHFkwWVi" role="1qenE9">
+        <node concept="2r114E" id="2WnHFkwWVj" role="2r1ock">
+          <property role="2r114l" value="R1" />
+          <node concept="1UFI08" id="2WnHFkwWVk" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwWVl" role="1UFh5U">
+              <property role="1UFh5$" value="Abcd" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwWVm" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwWVj" />
+          </node>
+        </node>
+        <node concept="2r114E" id="2WnHFkwWYf" role="2r1ock" />
+        <node concept="2r114E" id="2WnHFkwWVo" role="2r1ock">
+          <property role="2r114l" value="R2" />
+          <node concept="1UFI08" id="2WnHFkwWVp" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwWVq" role="1UFh5U">
+              <property role="1UFh5$" value="soHardToUse" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwWVr" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwWVo" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="2WnHFkwZiu">
+    <property role="TrG5h" value="TableAction_InsertRowBefore" />
+    <property role="3GE5qa" value="tableActions" />
+    <node concept="3clFbS" id="2WnHFkwZiv" role="LjaKd">
+      <node concept="2HxZob" id="2WnHFkwZiw" role="3cqZAp">
+        <node concept="1iFQzN" id="2WnHFkwZix" role="3iKnsn">
+          <ref role="1iFR8X" to="3bri:7IUya7cfBRk" resolve="InsertTableRowBefore" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2WnHFkwZiy" role="25YQCW">
+      <node concept="2r114T" id="2WnHFkwZiz" role="1qenE9">
+        <node concept="2r114E" id="2WnHFkwZi$" role="2r1ock">
+          <property role="2r114l" value="R1" />
+          <node concept="1UFI08" id="2WnHFkwZi_" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwZiA" role="1UFh5U">
+              <property role="1UFh5$" value="Abcd" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwZiB" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwZi$" />
+            <node concept="LIFWc" id="2WnHFkwZiC" role="lGtFl">
+              <property role="LIFWa" value="0" />
+              <property role="LIFWd" value="Collection_cvtybw_a" />
+            </node>
+          </node>
+        </node>
+        <node concept="2r114E" id="2WnHFkwZiD" role="2r1ock">
+          <property role="2r114l" value="R2" />
+          <node concept="1UFI08" id="2WnHFkwZiE" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwZiF" role="1UFh5U">
+              <property role="1UFh5$" value="soHardToUse" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwZiG" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwZiD" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2WnHFkwZiH" role="25YQFr">
+      <node concept="2r114T" id="2WnHFkwZiI" role="1qenE9">
+        <node concept="2r114E" id="2WnHFkwZiN" role="2r1ock" />
+        <node concept="2r114E" id="2WnHFkwZiJ" role="2r1ock">
+          <property role="2r114l" value="R1" />
+          <node concept="1UFI08" id="2WnHFkwZiK" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwZiL" role="1UFh5U">
+              <property role="1UFh5$" value="Abcd" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwZiM" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwZiJ" />
+          </node>
+        </node>
+        <node concept="2r114E" id="2WnHFkwZiO" role="2r1ock">
+          <property role="2r114l" value="R2" />
+          <node concept="1UFI08" id="2WnHFkwZiP" role="1UFgUr">
+            <node concept="1UFh5B" id="2WnHFkwZiQ" role="1UFh5U">
+              <property role="1UFh5$" value="soHardToUse" />
+            </node>
+          </node>
+          <node concept="2r1o01" id="2WnHFkwZiR" role="2r1o1s">
+            <ref role="2r1o0d" node="2WnHFkwZiO" />
           </node>
         </node>
       </node>

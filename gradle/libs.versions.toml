@@ -1,2 +1,2 @@
-[versions]
-mps = "2025.1"
+[libraries]
+mps = "com.jetbrains:mps:2025.1"

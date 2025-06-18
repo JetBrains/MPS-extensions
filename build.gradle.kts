@@ -31,7 +31,7 @@ val ciBuild = project.hasProperty("forceCI") ||
     project.hasProperty("teamcity") && !project.hasProperty("mpsHomeDir")
 
 // Dependency versions
-val mpsVersion = libs.versions.mps.get()
+val mpsVersion = libs.mps.get().version!!
 
 // major version, e.g. '2021.1', '2021.2'
 val mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
@@ -69,7 +69,7 @@ configurations {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:$mpsVersion")
+    "mps"(libs.mps)
 }
 
 repositories {

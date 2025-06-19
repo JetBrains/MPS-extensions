@@ -2,12 +2,6 @@
 <solution name="de.q60.mps.collections.libs" uuid="ecfb9949-7433-4db5-85de-0f84d172e4ce" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}/lib" type="java_classes">
-      <sourceRoot path="${module}/lib/commons-collections4.jar" />
-      <sourceRoot path="${module}/lib/guava.jar" />
-      <sourceRoot path="${module}/lib/trove4j.jar" />
-      <sourceRoot path="${module}/lib/vavr.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="commons-collections4.jar" />
       <sourceRoot location="guava.jar" />
       <sourceRoot location="trove4j.jar" />

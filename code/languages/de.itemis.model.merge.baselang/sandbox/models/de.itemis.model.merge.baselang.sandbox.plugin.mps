@@ -59,6 +59,7 @@
         <child id="8283875217851768860" name="existingOnlyRight" index="2pglM2" />
         <child id="8283875217845483786" name="existingInBothSides" index="2pCkmk" />
       </concept>
+      <concept id="7555554651740524246" name="de.itemis.model.merge.structure.Right" flags="ng" index="3iOvoU" />
       <concept id="1912777765298260981" name="de.itemis.model.merge.structure.ConceptMergingPolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
         <child id="7137735640372265540" name="idFunction" index="21DrV" />
@@ -93,6 +94,10 @@
     <node concept="1oluLK" id="6_mEBr3QEPQ" role="1olsr8" />
     <node concept="1olsrb" id="32ggi2DCs9A" role="1olsr8">
       <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
+      <node concept="1orWGm" id="7CtGHzRQVIr" role="1orW53">
+        <ref role="3iOP7l" to="yeyq:7CtGHzRQpTi" resolve="mergeid" />
+        <node concept="3iOvoU" id="7CtGHzRQWvl" role="1orWrN" />
+      </node>
       <node concept="230_S" id="32ggi2DCsgc" role="21DrV">
         <node concept="3clFbS" id="32ggi2DCsgd" role="2VODD2">
           <node concept="3clFbF" id="7VpkmRQdojp" role="3cqZAp">

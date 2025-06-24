@@ -61,6 +61,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
@@ -2513,8 +2516,9 @@
                 <node concept="2OqwBi" id="1COuKcY3ahM" role="3clFbG">
                   <node concept="liA8E" id="1COuKcY3c9$" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
-                    <node concept="Xl_RD" id="1COuKcY3jlr" role="37wK5m">
-                      <property role="Xl_RC" value="ORIGINAL" />
+                    <node concept="10M0yZ" id="myjR3ugfK6" role="37wK5m">
+                      <ref role="3cqZAo" to="gunp:JCkmj2Gweb" resolve="ORIGINAL_KEY" />
+                      <ref role="1PxDUh" to="gunp:2V55j61W8Fq" resolve="ModelMerger" />
                     </node>
                     <node concept="2OqwBi" id="1COuKd01LWx" role="37wK5m">
                       <node concept="2OqwBi" id="1COuKd01IT3" role="2Oq$k0">
@@ -3214,8 +3218,9 @@
                 <node concept="2OqwBi" id="1COuKcZ3giW" role="3clFbG">
                   <node concept="liA8E" id="1COuKcZ3giX" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
-                    <node concept="Xl_RD" id="1COuKcZ3giY" role="37wK5m">
-                      <property role="Xl_RC" value="ORIGINAL" />
+                    <node concept="10M0yZ" id="myjR3ugfPb" role="37wK5m">
+                      <ref role="3cqZAo" to="gunp:JCkmj2Gweb" resolve="ORIGINAL_KEY" />
+                      <ref role="1PxDUh" to="gunp:2V55j61W8Fq" resolve="ModelMerger" />
                     </node>
                     <node concept="37vLTw" id="1COuKcZ3giZ" role="37wK5m">
                       <ref role="3cqZAo" node="3xLnOvEDgGw" resolve="left" />
@@ -3814,8 +3819,9 @@
                 <node concept="2OqwBi" id="1COuKcZ2ML8" role="3clFbG">
                   <node concept="liA8E" id="1COuKcZ2ML9" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
-                    <node concept="Xl_RD" id="1COuKcZ2MLa" role="37wK5m">
-                      <property role="Xl_RC" value="ORIGINAL" />
+                    <node concept="10M0yZ" id="myjR3ugeEv" role="37wK5m">
+                      <ref role="3cqZAo" to="gunp:JCkmj2Gweb" resolve="ORIGINAL_KEY" />
+                      <ref role="1PxDUh" to="gunp:2V55j61W8Fq" resolve="ModelMerger" />
                     </node>
                     <node concept="37vLTw" id="1COuKcZ2MLb" role="37wK5m">
                       <ref role="3cqZAo" node="6W0eXuddqUT" resolve="elementLeft" />

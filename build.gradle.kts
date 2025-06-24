@@ -34,7 +34,7 @@ val ciBuild = project.hasProperty("forceCI") ||
 val mpsVersion = libs.mps.get().version!!
 
 // major version, e.g. '2021.1', '2021.2'
-val mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
+val mpsMajor = "9999.9"
 
 if (ciBuild) {
     val branch = GitBasedVersioning.getGitBranch()

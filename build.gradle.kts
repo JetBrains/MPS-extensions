@@ -21,7 +21,7 @@ plugins {
 
 // Configure downloadJbr
 downloadJbr {
-    jbrVersion = "17.0.11-b1207.30"
+    jbrVersion = "21.0.6-b895.109"
 }
 
 // Detect if we are in a CI build
@@ -227,19 +227,6 @@ val defaultScriptArgs = listOf(
 
 afterEvaluate {
     project.extra["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.getByName("downloadJbr").property("javaExecutable")
-    var jdk_home: String? = null
-    if (extra.has("java17_home")) {
-        jdk_home = extra.get("java17_home") as String
-    } else if (System.getenv("JB_JAVA17_HOME") != null) {
-        jdk_home = System.getenv("JB_JAVA17_HOME")
-    }
-    if (jdk_home != null) {
-        if (!File(jdk_home, "lib").exists()) {
-            throw GradleException("Unable to locate JDK home folder. Detected folder is: $jdk_home")
-        } else {
-            extra["itemis.mps.gradle.ant.defaultJavaExecutable"] = File(jdk_home, "bin/java")
-        }
-    }
 }
 
 // enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults

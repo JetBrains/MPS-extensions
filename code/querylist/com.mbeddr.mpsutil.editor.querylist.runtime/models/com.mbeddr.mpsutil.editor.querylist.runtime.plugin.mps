@@ -1070,8 +1070,28 @@
         <node concept="3uibUv" id="7zv1GjAJ$2y" role="1tU5fm">
           <ref role="3uigEE" to="g51k:~EditorCell" resolve="EditorCell" />
         </node>
+        <node concept="2AHcQZ" id="7TVB4chaW9L" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
       </node>
       <node concept="3clFbS" id="7zv1GjAJ$1z" role="3clF47">
+        <node concept="3clFbJ" id="7TVB4chbc15" role="3cqZAp">
+          <node concept="3clFbS" id="7TVB4chbc17" role="3clFbx">
+            <node concept="3cpWs6" id="7TVB4chbCb2" role="3cqZAp">
+              <node concept="2ShNRf" id="7TVB4chbGRI" role="3cqZAk">
+                <node concept="2i4dXS" id="7TVB4chceBe" role="2ShVmc">
+                  <node concept="3Tqbb2" id="7TVB4chcja9" role="HW$YZ" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="7TVB4chbx0R" role="3clFbw">
+            <node concept="10Nm6u" id="7TVB4chb$lU" role="3uHU7w" />
+            <node concept="37vLTw" id="7TVB4chbf6T" role="3uHU7B">
+              <ref role="3cqZAo" node="7zv1GjAJ$2x" resolve="rootCell" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="7zv1GjAJ$1A" role="3cqZAp">
           <node concept="3cpWsn" id="7zv1GjAJ$1B" role="3cpWs9">
             <property role="TrG5h" value="allCells" />

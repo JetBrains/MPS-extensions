@@ -390,6 +390,7 @@
         <child id="1237731803878" name="copyFrom" index="I$8f6" />
       </concept>
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
@@ -432,6 +433,7 @@
   </node>
   <node concept="18kY7G" id="1VmHfRxDtD3">
     <property role="TrG5h" value="check_MergePolicy" />
+    <property role="3GE5qa" value="policies" />
     <node concept="3clFbS" id="1VmHfRxDtD4" role="18ibNy">
       <node concept="3cpWs8" id="1VmHfRxDx31" role="3cqZAp">
         <node concept="3cpWsn" id="1VmHfRxDx32" role="3cpWs9">
@@ -623,7 +625,7 @@
   </node>
   <node concept="18kY7G" id="1VmHfRxTFH9">
     <property role="TrG5h" value="check_MultiChildPolicy" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <node concept="3clFbS" id="1VmHfRxTFHa" role="18ibNy">
       <node concept="3clFbJ" id="6CwG2k882Pd" role="3cqZAp">
         <node concept="3clFbS" id="6CwG2k882Pf" role="3clFbx">
@@ -830,7 +832,7 @@
   </node>
   <node concept="18kY7G" id="2dyrZ3FogZg">
     <property role="TrG5h" value="check_SubPolicyContainer" />
-    <property role="3GE5qa" value="declarationPolicies.subpolicy" />
+    <property role="3GE5qa" value="policies.declarationPolicies.subpolicy" />
     <node concept="3clFbS" id="2dyrZ3FogZh" role="18ibNy">
       <node concept="3clFbH" id="2dyrZ3FohjL" role="3cqZAp" />
       <node concept="3cpWs8" id="2dyrZ3Fomd5" role="3cqZAp">
@@ -1120,6 +1122,23 @@
                           <node concept="3vKaQO" id="582YV7z0eIE" role="1tU5fm">
                             <node concept="3uibUv" id="582YV7z0eIF" role="3O5elw">
                               <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7JR4vRoGxtj" role="3cqZAp">
+                        <node concept="2OqwBi" id="7JR4vRoGC4W" role="3clFbG">
+                          <node concept="37vLTw" id="7JR4vRoGxth" role="2Oq$k0">
+                            <ref role="3cqZAo" node="582YV7z0eIA" resolve="forbiddenProperties" />
+                          </node>
+                          <node concept="X8dFx" id="7JR4vRoHgQk" role="2OqNvi">
+                            <node concept="2OqwBi" id="7JR4vRoHgQm" role="25WWJ7">
+                              <node concept="35c_gC" id="7JR4vRoHgQn" role="2Oq$k0">
+                                <ref role="35c_gD" to="tpck:hqLv6T6" resolve="IResolveInfo" />
+                              </node>
+                              <node concept="liA8E" id="7JR4vRoHgQo" role="2OqNvi">
+                                <ref role="37wK5l" to="c17a:~SAbstractConcept.getProperties()" resolve="getProperties" />
+                              </node>
                             </node>
                           </node>
                         </node>

@@ -73,6 +73,12 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1EbzjT2R$JU" resolve="MergingPolicy" />
     </node>
+    <node concept="1TJgyj" id="7cz6vHazKqV" role="1TKVEi">
+      <property role="IQ2ns" value="8296503505624958651" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rootPolicies" />
+      <ref role="20lvS9" node="7cz6vHbcIFy" resolve="RootMergingPolicy" />
+    </node>
     <node concept="1TJgyj" id="1VmHfRy0Ud5" role="1TKVEi">
       <property role="IQ2ns" value="2222162468665533253" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -99,6 +105,7 @@
   <node concept="1TIwiD" id="1EbzjT2R$JP">
     <property role="EcuMT" value="1912777765298260981" />
     <property role="TrG5h" value="ConceptMergingPolicy" />
+    <property role="3GE5qa" value="policies" />
     <node concept="1TJgyj" id="3BP4DuXu_FH" role="1TKVEi">
       <property role="IQ2ns" value="4176264672384277229" />
       <property role="20kJfa" value="conceptRef" />
@@ -139,10 +146,12 @@
   <node concept="PlHQZ" id="1EbzjT2R$JU">
     <property role="EcuMT" value="1912777765298260986" />
     <property role="TrG5h" value="MergingPolicy" />
+    <property role="3GE5qa" value="policies" />
   </node>
   <node concept="1TIwiD" id="1EbzjT2RA5e">
     <property role="EcuMT" value="1912777765298266446" />
     <property role="TrG5h" value="EmptyMergingPolicy" />
+    <property role="3GE5qa" value="policies" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1EbzjT2RA5f" role="PzmwI">
       <ref role="PrY4T" node="1EbzjT2R$JU" resolve="MergingPolicy" />
@@ -151,7 +160,7 @@
   <node concept="1TIwiD" id="1EbzjT2T4oC">
     <property role="EcuMT" value="1912777765298652712" />
     <property role="TrG5h" value="PropertyPolicy" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1EbzjT2T4Jd" role="1TKVEi">
       <property role="IQ2ns" value="1912777765298654157" />
@@ -171,20 +180,20 @@
     <property role="EcuMT" value="1912777765298654154" />
     <property role="TrG5h" value="Left" />
     <property role="34LRSv" value="Left" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
     <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
   <node concept="PlHQZ" id="6zqIeMU2OVl">
     <property role="EcuMT" value="7555554651740524245" />
     <property role="TrG5h" value="MergeAction" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
   </node>
   <node concept="1TIwiD" id="6zqIeMU2OVm">
     <property role="EcuMT" value="7555554651740524246" />
     <property role="TrG5h" value="Right" />
     <property role="34LRSv" value="Right" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
     <property role="R4oN_" value="Keep Right Version, Omit Left Version" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
@@ -192,6 +201,7 @@
     <property role="EcuMT" value="7555554651740536632" />
     <property role="TrG5h" value="AbstractMergeAction" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="policies.action" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6zqIeMU2RXn" role="PzmwI">
       <ref role="PrY4T" node="6zqIeMU2OVl" resolve="MergeAction" />
@@ -200,7 +210,7 @@
   <node concept="1TIwiD" id="1NgLzfPblhV">
     <property role="EcuMT" value="2076377354676819067" />
     <property role="TrG5h" value="ManualAction" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
     <property role="34LRSv" value="Manual" />
     <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
@@ -227,7 +237,7 @@
   <node concept="1TIwiD" id="7jyS5urbByQ">
     <property role="EcuMT" value="8422540920006539446" />
     <property role="TrG5h" value="Drop" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
     <property role="34LRSv" value="Drop" />
     <property role="R4oN_" value="Drops Item" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
@@ -235,14 +245,14 @@
   <node concept="1TIwiD" id="7jyS5urbByR">
     <property role="EcuMT" value="8422540920006539447" />
     <property role="TrG5h" value="Auto" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
     <property role="34LRSv" value="Auto" />
     <property role="R4oN_" value="Apply Merge Actions Of Children" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
   <node concept="1TIwiD" id="7jyS5urbFgb">
     <property role="EcuMT" value="8422540920006554635" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="OptionalPolicy" />
     <ref role="1TJDcQ" node="1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1TJgyj" id="7jyS5urbFnA" role="1TKVEi">
@@ -255,12 +265,12 @@
   </node>
   <node concept="PlHQZ" id="7jyS5urbJZ2">
     <property role="EcuMT" value="8422540920006574018" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="DeclarationPolicy" />
   </node>
   <node concept="1TIwiD" id="7jyS5urbTpb">
     <property role="EcuMT" value="8422540920006612555" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="SingletonPolicy" />
     <ref role="1TJDcQ" node="1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1TJgyj" id="7jyS5urbTpc" role="1TKVEi">
@@ -273,7 +283,7 @@
   </node>
   <node concept="1TIwiD" id="7jyS5urbTpv">
     <property role="EcuMT" value="8422540920006612575" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="MultiChildPolicy" />
     <ref role="1TJDcQ" node="1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1TJgyj" id="7jyS5urbTpw" role="1TKVEi">
@@ -291,7 +301,7 @@
     <property role="EcuMT" value="8422540920009055851" />
     <property role="TrG5h" value="Add" />
     <property role="34LRSv" value="Add" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
     <property role="R4oN_" value="Add New Element" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
@@ -299,13 +309,13 @@
     <property role="EcuMT" value="8422540920009126229" />
     <property role="TrG5h" value="Keep" />
     <property role="34LRSv" value="Keep" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
     <property role="R4oN_" value="Keep Element" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
   <node concept="25R3W" id="1VmHfRxJEru">
     <property role="3F6X1D" value="2222162468661012190" />
-    <property role="3GE5qa" value="declarationPolicies.subpolicy" />
+    <property role="3GE5qa" value="policies.declarationPolicies.subpolicy" />
     <property role="TrG5h" value="SubPolicy" />
     <node concept="25R33" id="1VmHfRxJErv" role="25R1y">
       <property role="3tVfz5" value="2222162468661012191" />
@@ -325,7 +335,7 @@
   </node>
   <node concept="1TIwiD" id="1VmHfRxKMgU">
     <property role="EcuMT" value="2222162468661306426" />
-    <property role="3GE5qa" value="declarationPolicies.subpolicy" />
+    <property role="3GE5qa" value="policies.declarationPolicies.subpolicy" />
     <property role="TrG5h" value="SubPolicyContainer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1VmHfRxLaon" role="1TKVEi">
@@ -343,7 +353,7 @@
   </node>
   <node concept="1TIwiD" id="1VmHfRxVF4G">
     <property role="EcuMT" value="2222162468664160556" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="AbstractPolicy" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -396,6 +406,11 @@
     <property role="EcuMT" value="7137735640371846599" />
     <property role="TrG5h" value="IdFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="1TJgyi" id="4Bkj6EJhkkj" role="1TKVEl">
+      <property role="IQ2nx" value="5319961080922195219" />
+      <property role="TrG5h" value="inherited" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6celbXx0AwS">
     <property role="EcuMT" value="7137735640371849272" />
@@ -407,7 +422,7 @@
   </node>
   <node concept="PlHQZ" id="3PLTv5jwPx8">
     <property role="EcuMT" value="4427572733332904008" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="ReferencePolicy" />
     <node concept="PrWs8" id="3PLTv5jRo70" role="PrDN$">
       <ref role="PrY4T" node="7jyS5urbJZ2" resolve="DeclarationPolicy" />
@@ -415,7 +430,7 @@
   </node>
   <node concept="PlHQZ" id="3PLTv5jRo6X">
     <property role="EcuMT" value="4427572733338812861" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="ChildPolicy" />
     <node concept="PrWs8" id="3PLTv5jRo6Y" role="PrDN$">
       <ref role="PrY4T" node="7jyS5urbJZ2" resolve="DeclarationPolicy" />
@@ -424,7 +439,7 @@
   <node concept="1TIwiD" id="3PLTv5k2w4J">
     <property role="EcuMT" value="4427572733341729071" />
     <property role="TrG5h" value="SingletonChildPolicy" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <ref role="1TJDcQ" node="7jyS5urbTpb" resolve="SingletonPolicy" />
     <node concept="PrWs8" id="3PLTv5k2w4K" role="PzmwI">
       <ref role="PrY4T" node="3PLTv5jRo6X" resolve="ChildPolicy" />
@@ -432,7 +447,7 @@
   </node>
   <node concept="1TIwiD" id="3PLTv5k2w4M">
     <property role="EcuMT" value="4427572733341729074" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="OptionalChildPolicy" />
     <ref role="1TJDcQ" node="7jyS5urbFgb" resolve="OptionalPolicy" />
     <node concept="PrWs8" id="3PLTv5k2w4N" role="PzmwI">
@@ -441,7 +456,7 @@
   </node>
   <node concept="1TIwiD" id="3PLTv5k2w4R">
     <property role="EcuMT" value="4427572733341729079" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="SingeltonRefPolicy" />
     <ref role="1TJDcQ" node="7jyS5urbTpb" resolve="SingletonPolicy" />
     <node concept="PrWs8" id="3PLTv5k2w4S" role="PzmwI">
@@ -450,7 +465,7 @@
   </node>
   <node concept="1TIwiD" id="3PLTv5k2w4U">
     <property role="EcuMT" value="4427572733341729082" />
-    <property role="3GE5qa" value="declarationPolicies" />
+    <property role="3GE5qa" value="policies.declarationPolicies" />
     <property role="TrG5h" value="OptionalRefPolicy" />
     <ref role="1TJDcQ" node="7jyS5urbFgb" resolve="OptionalPolicy" />
     <node concept="PrWs8" id="3PLTv5k2w4V" role="PzmwI">
@@ -460,7 +475,7 @@
   <node concept="1TIwiD" id="1PFYlaN5Vnz">
     <property role="EcuMT" value="2120062183195260387" />
     <property role="TrG5h" value="ManualCollectionAction" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
     <property role="34LRSv" value="ManualColl" />
     <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
@@ -495,7 +510,7 @@
   <node concept="1TIwiD" id="1Tugx$Dsa1">
     <property role="EcuMT" value="34191549137273473" />
     <property role="TrG5h" value="ManualRefAction" />
-    <property role="3GE5qa" value="action" />
+    <property role="3GE5qa" value="policies.action" />
     <property role="34LRSv" value="ManualRef" />
     <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
@@ -518,6 +533,36 @@
     <property role="3GE5qa" value="parameters" />
     <property role="R4oN_" value="right version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="7cz6vHbcIFy">
+    <property role="EcuMT" value="8296503505635699426" />
+    <property role="3GE5qa" value="policies" />
+    <property role="TrG5h" value="RootMergingPolicy" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7bQf9VFlR$a" role="1TKVEi">
+      <property role="IQ2ns" value="8283875217845483786" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="existingInBothSides" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1VmHfRxKMgU" resolve="SubPolicyContainer" />
+    </node>
+    <node concept="1TJgyj" id="7bQf9VFHNDF" role="1TKVEi">
+      <property role="IQ2ns" value="8283875217851759211" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="existingOnlyLeft" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1VmHfRxKMgU" resolve="SubPolicyContainer" />
+    </node>
+    <node concept="1TJgyj" id="7bQf9VFHQ0s" role="1TKVEi">
+      <property role="IQ2ns" value="8283875217851768860" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="existingOnlyRight" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1VmHfRxKMgU" resolve="SubPolicyContainer" />
+    </node>
+    <node concept="PrWs8" id="7cz6vHbd0dR" role="PzmwI">
+      <ref role="PrY4T" node="1EbzjT2R$JU" resolve="MergingPolicy" />
+    </node>
   </node>
 </model>
 

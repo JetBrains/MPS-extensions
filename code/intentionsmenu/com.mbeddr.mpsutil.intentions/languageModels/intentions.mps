@@ -179,7 +179,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="frLjuvYWqn">
-    <property role="TrG5h" value="addShowIntentionInReadyOnlyCellAnnotation" />
+    <property role="TrG5h" value="addShowIntentionInReadOnlyCellAnnotation" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="tp3j:2c3oNEsfcpP" resolve="BaseIntentionDeclaration" />
     <node concept="2Sbjvc" id="frLjuvYWqo" role="2ZfgGD">

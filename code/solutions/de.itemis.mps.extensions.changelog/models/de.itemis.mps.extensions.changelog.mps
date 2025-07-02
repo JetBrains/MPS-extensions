@@ -234,6 +234,54 @@
         </node>
       </node>
     </node>
+    <node concept="15bmVD" id="7TVB4chcCo0" role="15bmVC">
+      <node concept="15ShDW" id="7TVB4chcCnX" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgAJ/July" />
+        <property role="15ShDw" value="2025" />
+      </node>
+      <node concept="15bAme" id="7TVB4chcCnY" role="15bAlL">
+        <node concept="2DRihI" id="7TVB4chcCnZ" role="15bAlk">
+          <node concept="15Ami3" id="7TVB4chcCpO" role="1PaTwD">
+            <node concept="37shsh" id="7TVB4chcCpQ" role="15Aodc">
+              <node concept="1dCxOk" id="7TVB4chcCEY" role="37shsm">
+                <property role="1XweGW" value="1a8554c4-eb84-43ba-8c34-6f0d90c6e75a" />
+                <property role="1XxBO9" value="jetbrains.mps.lang.smodel.query" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCF3" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCFE" role="1PaTwD">
+            <property role="3oM_SC" value="NullPointerException" />
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCID" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCIE" role="1PaTwD">
+            <property role="3oM_SC" value="fixed" />
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCJh" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCJi" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCJT" role="1PaTwD">
+            <property role="3oM_SC" value="query" />
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCKw" role="1PaTwD">
+            <property role="3oM_SC" value="list" />
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCL7" role="1PaTwD">
+            <property role="3oM_SC" value="typesystem" />
+          </node>
+          <node concept="3oM_SD" id="7TVB4chcCMk" role="1PaTwD">
+            <property role="3oM_SC" value="checker." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="15bmVD" id="7qF8EPz$J5$" role="15bmVC">
       <node concept="15ShDW" id="7qF8EPz$J5x" role="15bq2Y">
         <property role="15ShDY" value="Po4Z58IgAC/June" />

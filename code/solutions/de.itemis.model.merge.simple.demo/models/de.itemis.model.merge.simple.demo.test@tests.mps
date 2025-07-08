@@ -4310,15 +4310,20 @@
           </node>
         </node>
         <node concept="3clFbH" id="3hhKUUEQ5lS" role="3cqZAp" />
-        <node concept="2bPJtM" id="3hhKUUEQ5lT" role="3cqZAp">
-          <node concept="37vLTw" id="3hhKUUEQ5lU" role="2bOFYX">
-            <ref role="3cqZAo" node="3hhKUUEQ5lB" resolve="mergedNodesMain" />
-          </node>
-          <node concept="3cmrfG" id="3hhKUUEQ5lV" role="2bOFYZ">
+        <node concept="3vlDli" id="3plzVR8Vsp0" role="3cqZAp">
+          <node concept="3cmrfG" id="3plzVR8Vvj3" role="3tpDZB">
             <property role="3cmrfH" value="1" />
           </node>
+          <node concept="37vLTw" id="3plzVR8Vtn3" role="3tpDZA">
+            <ref role="3cqZAo" node="3hhKUUEQ5lB" resolve="mergedNodesMain" />
+          </node>
+          <node concept="3_1$Yv" id="3plzVR8VzHA" role="3_9lra">
+            <node concept="Xl_RD" id="3plzVR8V$Ft" role="3_1BAH">
+              <property role="Xl_RC" value="More than one Node named 'Main' was merged" />
+            </node>
+          </node>
         </node>
-        <node concept="3clFbH" id="3hhKUUEQ5lW" role="3cqZAp" />
+        <node concept="3clFbH" id="3plzVR8VxeU" role="3cqZAp" />
         <node concept="3cpWs8" id="3hhKUUEQ5lX" role="3cqZAp">
           <node concept="3cpWsn" id="3hhKUUEQ5lY" role="3cpWs9">
             <property role="TrG5h" value="mergedNode" />
@@ -4348,6 +4353,11 @@
               </node>
             </node>
             <node concept="34oBXx" id="3hhKUUEQ5ma" role="2OqNvi" />
+          </node>
+          <node concept="3_1$Yv" id="3plzVR8VMFt" role="3_9lra">
+            <node concept="Xl_RD" id="3plzVR8VPZe" role="3_1BAH">
+              <property role="Xl_RC" value="Not exactly one 'CollectionRef'" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="3hhKUUEQ5mb" role="3cqZAp" />
@@ -4383,6 +4393,11 @@
               <ref role="3TsBF5" to="szgz:uhx_u9Q3Ir" resolve="id" />
             </node>
           </node>
+          <node concept="3_1$Yv" id="3plzVR8W2BH" role="3_9lra">
+            <node concept="Xl_RD" id="3plzVR8W3_$" role="3_1BAH">
+              <property role="Xl_RC" value="Named of mergedRef false" />
+            </node>
+          </node>
         </node>
         <node concept="3clFbH" id="3hhKUUEQ5mq" role="3cqZAp" />
         <node concept="3ykFI1" id="3hhKUUEQ5mr" role="3cqZAp">
@@ -4392,6 +4407,11 @@
             </node>
             <node concept="3TrEf2" id="3hhKUUEQ5mu" role="2OqNvi">
               <ref role="3Tt5mk" to="szgz:46ucjseg2A6" resolve="propertyRef" />
+            </node>
+          </node>
+          <node concept="3_1$Yv" id="3plzVR8Weok" role="3_9lra">
+            <node concept="Xl_RD" id="3plzVR8Wfmb" role="3_1BAH">
+              <property role="Xl_RC" value="Reference is not null" />
             </node>
           </node>
         </node>

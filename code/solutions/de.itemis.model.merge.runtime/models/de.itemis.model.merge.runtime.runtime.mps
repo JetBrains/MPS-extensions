@@ -9606,7 +9606,7 @@
                     </node>
                   </node>
                   <node concept="3TrcHB" id="4VFforyk686" role="2OqNvi">
-                    <ref role="3TsBF5" to="mopj:4VFforygbyx" resolve="partialIDFunctionsDefined" />
+                    <ref role="3TsBF5" to="mopj:4VFforygbyx" resolve="partialIDFunctions" />
                   </node>
                 </node>
               </node>
@@ -9860,7 +9860,7 @@
                           </node>
                         </node>
                         <node concept="3TrcHB" id="3pH5Lej4iQm" role="2OqNvi">
-                          <ref role="3TsBF5" to="mopj:4VFforygbyx" resolve="partialIDFunctionsDefined" />
+                          <ref role="3TsBF5" to="mopj:4VFforygbyx" resolve="partialIDFunctions" />
                         </node>
                       </node>
                     </node>
@@ -9944,7 +9944,7 @@
         <node concept="3cpWs6" id="JCkmj2zM3I" role="3cqZAp">
           <node concept="2OqwBi" id="JCkmj2zM3J" role="3cqZAk">
             <node concept="37vLTw" id="4VFforywfpU" role="2Oq$k0">
-              <ref role="3cqZAo" node="4VFforywfpN" resolve="" />
+              <ref role="3cqZAo" node="4VFforywfpN" resolve="idFunction" />
             </node>
             <node concept="liA8E" id="JCkmj2zM3Q" role="2OqNvi">
               <ref role="37wK5l" node="1yAYHyQ2xOL" resolve="get" />

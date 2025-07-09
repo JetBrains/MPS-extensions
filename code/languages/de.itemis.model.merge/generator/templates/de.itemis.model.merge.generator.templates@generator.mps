@@ -2084,7 +2084,7 @@
                         </node>
                         <node concept="2OqwBi" id="6CwG2k87$zz" role="33vP2m">
                           <node concept="37vLTw" id="35K6dbyVUI7" role="2Oq$k0">
-                            <ref role="3cqZAo" node="35K6dbyVUI3" resolve="childIdFunction" />
+                            <ref role="3cqZAo" node="35K6dbyVUI3" resolve="childIdFunctionMaybe" />
                           </node>
                           <node concept="liA8E" id="6CwG2k87_mJ" role="2OqNvi">
                             <ref role="37wK5l" to="33ny:~Optional.get()" resolve="get" />

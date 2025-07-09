@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *jetbrains.mps.lang.smodel.query* A NullPointerException was fixed in the query list typesystem checker.
+- *com.mbeddr.mpsutil.comparator* Custom generation plans of generation options builders are not overwritten anymore
 
 ## June 2025
 

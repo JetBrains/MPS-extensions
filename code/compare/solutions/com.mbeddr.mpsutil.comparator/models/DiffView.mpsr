@@ -730,7 +730,7 @@
                                   <ref role="3cqZAo" node="5oR1gCFGfvw" resolve="expectedCleaned" />
                                 </node>
                                 <node concept="37vLTw" id="2u2KgtdlfvS" role="37wK5m">
-                                  <ref role="3cqZAo" node="7IJcaFQCiDj" resolve="actualClean" />
+                                  <ref role="3cqZAo" node="7IJcaFQCiDj" resolve="actualCleaned" />
                                 </node>
                                 <node concept="37vLTw" id="2u2KgtdlfvT" role="37wK5m">
                                   <ref role="3cqZAo" node="6Qumy0DWNrJ" resolve="leftCaption" />

@@ -372,11 +372,11 @@ tasks.register<Delete>("cleanMps") {
 }
 
 tasks.cyclonedxBom {
-    destination.set(reportsDir)
-    outputName.set("sbom")
-    outputFormat.set("json")
-    includeLicenseText.set(false)
-    includeConfigs.set(listOf("diagram_lib", "batik", "commons", "collections", "xml_lib"))
+    destination = reportsDir
+    outputName = "sbom"
+    outputFormat = "json"
+    includeLicenseText = false
+    includeConfigs = listOf("diagram_lib", "batik", "commons", "collections", "xml_lib")
 }
 
 tasks.named("clean") {
@@ -506,15 +506,15 @@ if (rootProject.hasProperty("nightly_build")) {
 }
 
 githubRelease {
-    owner.set("jetbrains")
-    repo.set("MPS-extensions")
+    owner = "jetbrains"
+    repo = "MPS-extensions"
     token(rootProject.findProperty("github.token")?.toString() ?: "empty")
-    tagName.set(releaseTagName)
-    targetCommitish.set(GitBasedVersioning.getGitCommitHash())
-    body.set(releaseNotes)
-    prerelease.set(rootProject.hasProperty("nightly_build"))
+    tagName = releaseTagName
+    targetCommitish = GitBasedVersioning.getGitCommitHash()
+    body = releaseNotes
+    prerelease = rootProject.hasProperty("nightly_build")
     releaseAssets.setFrom(tasks.named<Zip>("packageExtensions").get().outputs.files)
-    dryRun.set(false)
+    dryRun = false
 }
 
 tasks.named("githubRelease") {
@@ -544,7 +544,7 @@ tasks.register<MpsMigrate>("migrate") {
 
     pluginRoots.from(usedPluginRoots)
 
-    maxHeapSize.set("4G")
+    maxHeapSize = "4G"
 }
 
 tasks.register<Remigrate>("remigrate") {

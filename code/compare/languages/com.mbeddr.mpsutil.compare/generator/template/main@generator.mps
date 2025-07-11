@@ -14,8 +14,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="mqum" ref="r:ec874b45-e888-42e6-995a-a298cefdff55(de.itemis.mps.comparator.code)" />
-    <import index="8do3" ref="r:cea04c4b-adba-417e-a192-34c7a8799ac1(de.itemis.mps.compare.structure)" />
+    <import index="mqum" ref="r:ec874b45-e888-42e6-995a-a298cefdff55(com.mbeddr.mpsutil.comparator.code)" />
+    <import index="8do3" ref="r:cea04c4b-adba-417e-a192-34c7a8799ac1(com.mbeddr.mpsutil.compare.structure)" />
     <import index="tpe3" ref="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
@@ -30,7 +30,7 @@
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="57ty" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.messages(MPS.Platform/)" />
     <import index="ap4t" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator(MPS.Generator/)" />
-    <import index="qjvf" ref="r:82cadfba-0fcc-402e-8eaa-37395d383fb6(de.itemis.mps.compare.behavior)" />
+    <import index="qjvf" ref="r:82cadfba-0fcc-402e-8eaa-37395d383fb6(com.mbeddr.mpsutil.compare.behavior)" />
     <import index="ao3" ref="7124e466-fc92-4803-a656-d7a6b7eb3910/java:jetbrains.mps.text(MPS.TextGen/)" />
     <import index="2o8p" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.intellij.diff.contents(MPS.ThirdParty/)" />
     <import index="phib" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.intellij.diff.requests(MPS.ThirdParty/)" />
@@ -672,7 +672,7 @@
                     </node>
                     <node concept="2YIFZM" id="6Qumy0DZmAw" role="33vP2m">
                       <ref role="1Pybhc" to="mqum:3n2rqT9UxKL" resolve="MPSNodeComparator" />
-                      <ref role="37wK5l" to="mqum:6fymoI4RKZK" resolve="compare" />
+                      <ref role="37wK5l" to="mqum:7IJcaFRgkSN" resolve="compare" />
                       <node concept="37vLTw" id="5XOgqJR2cYQ" role="37wK5m">
                         <ref role="3cqZAo" node="6Qumy0DZm_X" resolve="expectedNode" />
                       </node>
@@ -796,6 +796,9 @@
                             </node>
                           </node>
                         </node>
+                      </node>
+                      <node concept="3clFbT" id="19nR$g5lrDJ" role="37wK5m">
+                        <property role="3clFbU" value="true" />
                       </node>
                       <node concept="3clFbT" id="6Qumy0DZmB_" role="37wK5m">
                         <property role="3clFbU" value="true" />
@@ -1016,7 +1019,7 @@
               <node concept="2OqwBi" id="6fymoI4YgTL" role="3clFbG">
                 <node concept="2YIFZM" id="6fymoI4Yffb" role="2Oq$k0">
                   <ref role="1Pybhc" to="mqum:3n2rqT9UxKL" resolve="MPSNodeComparator" />
-                  <ref role="37wK5l" to="mqum:6fymoI4RKZK" resolve="compare" />
+                  <ref role="37wK5l" to="mqum:7IJcaFRgkSN" resolve="compare" />
                   <node concept="37vLTw" id="6fymoI4YfgO" role="37wK5m">
                     <ref role="3cqZAo" node="1_DWnhqnPCs" resolve="expectedNode" />
                     <node concept="29HgVG" id="6fymoI4YfgP" role="lGtFl">
@@ -1211,6 +1214,9 @@
                     </node>
                   </node>
                   <node concept="3clFbT" id="6fymoI4Ygnl" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                  <node concept="3clFbT" id="7IJcaFRksxj" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
                   <node concept="3clFbT" id="6fymoI4YgL3" role="37wK5m">

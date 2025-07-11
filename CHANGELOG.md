@@ -9,7 +9,8 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *jetbrains.mps.lang.smodel.query* A NullPointerException was fixed in the query list typesystem checker.
-- *com.mbeddr.mpsutil.comparator* Custom generation plans of generation options builders are not overwritten anymore
+- *com.mbeddr.mpsutil.comparator* Custom generation plans of generation options builders are not overwritten anymore.
+- *com.mbeddr.mpsutil.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
 
 ## June 2025
 

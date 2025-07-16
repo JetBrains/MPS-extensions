@@ -12,6 +12,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *com.mbeddr.mpsutil.comparator* Custom generation plans of generation options builders are not overwritten anymore.
 - *com.mbeddr.mpsutil.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
 
+### Added
+
+- *com.mbeddr.mpsutil.compare* A new option was added to *assert* *generated* *text* *model* and *assert* *generated* *model* to select the output model to compare. The post-process and filter function now also have a generation status parameter.
+
 ## June 2025
 
 ### Changed

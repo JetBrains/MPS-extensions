@@ -384,11 +384,14 @@
         <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
       </concept>
       <concept id="1142886221719" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_OutputFilter" flags="in" index="pkWqt" />
+      <concept id="2813561072153809330" name="com.mbeddr.mpsutil.compare.structure.ConceptFunctionParameter_GenerationStatus" flags="nn" index="14$Tth" />
+      <concept id="2813561072153802614" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_OutputModel" flags="ig" index="14$Z6l" />
       <concept id="7763313513272984994" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_LineEndingHandler" flags="ig" index="15794w" />
       <concept id="6473715840833912944" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_GeneratorOptions" flags="ig" index="1krG8M" />
       <concept id="6325604991668181367" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedModelEquals" flags="ng" index="3y6c_e">
         <reference id="6325604991668503306" name="generationPlan" index="3y7XcN" />
         <child id="289600057226489406" name="customOrdering" index="2XVze9" />
+        <child id="2813561072153798632" name="outputModel" index="14$Y4b" />
         <child id="522647742340479026" name="model" index="17Bu_C" />
         <child id="6473715840833871897" name="generationParametersProvider" index="1krU9r" />
         <child id="6473715840826349302" name="postprocess" index="1k$liO" />
@@ -438,6 +441,11 @@
       </concept>
       <concept id="1172075514136" name="jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder" flags="ngI" index="3_9gw8">
         <child id="1172075534298" name="message" index="3_9lra" />
+      </concept>
+    </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1961,6 +1969,70 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="2sbLIdzF1VH" role="1SL9yI">
+      <property role="TrG5h" value="generatorCustomOutputModelSelector" />
+      <node concept="3cqZAl" id="2sbLIdzF1VI" role="3clF45" />
+      <node concept="3clFbS" id="2sbLIdzF1VJ" role="3clF47">
+        <node concept="3cpWs8" id="2sbLIdzF1VK" role="3cqZAp">
+          <node concept="3cpWsn" id="2sbLIdzF1VL" role="3cpWs9">
+            <property role="TrG5h" value="expectedNodes" />
+            <node concept="A3Dl8" id="2sbLIdzF1VM" role="1tU5fm">
+              <node concept="3Tqbb2" id="2sbLIdzF1VN" role="A3Ik2" />
+            </node>
+            <node concept="2OqwBi" id="2sbLIdzF1VO" role="33vP2m">
+              <node concept="2ShNRf" id="2sbLIdzF1VP" role="2Oq$k0">
+                <node concept="3g6Rrh" id="2sbLIdzF1VQ" role="2ShVmc">
+                  <node concept="3Tqbb2" id="2sbLIdzF1VR" role="3g7fb8" />
+                  <node concept="3xONca" id="2sbLIdzF1VS" role="3g7hyw">
+                    <ref role="3xOPvv" node="12RzKZkCbZH" resolve="expectedClass" />
+                  </node>
+                  <node concept="3xONca" id="2sbLIdzF1VT" role="3g7hyw">
+                    <ref role="3xOPvv" node="t0OlD0XSrI" resolve="expectedClass2" />
+                  </node>
+                </node>
+              </node>
+              <node concept="39bAoz" id="2sbLIdzF1VU" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3y6c_e" id="2sbLIdzF1VV" role="3cqZAp">
+          <ref role="3y7XcN" to="cduv:7vE1jcMYKos" resolve="CustomPlan" />
+          <node concept="1Xw6AR" id="2sbLIdzF1VW" role="17Bu_C">
+            <node concept="1dCxOl" id="2sbLIdzF1VX" role="1XwpL7">
+              <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
+              <node concept="1j_P7g" id="2sbLIdzF1VY" role="1j$8Uc">
+                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="2sbLIdzF1VZ" role="3tpDZB">
+            <ref role="3cqZAo" node="2sbLIdzF1VL" resolve="expectedNodes" />
+          </node>
+          <node concept="14$Z6l" id="2sbLIdzF4E0" role="14$Y4b">
+            <node concept="3clFbS" id="2sbLIdzF4E1" role="2VODD2">
+              <node concept="3clFbF" id="2sbLIdzF50b" role="3cqZAp">
+                <node concept="2OqwBi" id="2sbLIdzF7Ul" role="3clFbG">
+                  <node concept="2OqwBi" id="2sbLIdzF6Mb" role="2Oq$k0">
+                    <node concept="2OqwBi" id="2sbLIdzF5x9" role="2Oq$k0">
+                      <node concept="14$Tth" id="2sbLIdzF50a" role="2Oq$k0" />
+                      <node concept="liA8E" id="2sbLIdzF5UF" role="2OqNvi">
+                        <ref role="37wK5l" to="ap4t:~GenerationStatus.getOutputModels()" resolve="getOutputModels" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="2sbLIdzF7GA" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~Collection.iterator()" resolve="iterator" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2sbLIdzF8eM" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1LZb2c" id="63ii4UvZdpX" role="1SL9yI">
       <property role="TrG5h" value="generatorNoTransformation" />
       <node concept="3cqZAl" id="63ii4UvZdpY" role="3clF45" />
@@ -2336,6 +2408,24 @@
           </node>
           <node concept="pkWqt" id="5Bng$8dj3WR" role="1kWgwS">
             <node concept="3clFbS" id="5Bng$8dj3WS" role="2VODD2">
+              <node concept="2xdQw9" id="4pQ0tRV_bk9" role="3cqZAp">
+                <node concept="3cpWs3" id="4pQ0tRV_cnM" role="9lYJi">
+                  <node concept="2OqwBi" id="4pQ0tRV_fod" role="3uHU7w">
+                    <node concept="2OqwBi" id="4pQ0tRV_d09" role="2Oq$k0">
+                      <node concept="14$Tth" id="4pQ0tRV_cwi" role="2Oq$k0" />
+                      <node concept="liA8E" id="4pQ0tRV_f2b" role="2OqNvi">
+                        <ref role="37wK5l" to="ap4t:~GenerationStatus.getOutputModel()" resolve="getOutputModel" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4pQ0tRV_fy5" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4pQ0tRV_bkb" role="3uHU7B">
+                    <property role="Xl_RC" value="Model:" />
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="5Bng$8dcxBT" role="3cqZAp">
                 <node concept="17R0WA" id="5Bng$8dcEAk" role="3clFbG">
                   <node concept="Xl_RD" id="5Bng$8dcEVJ" role="3uHU7w">
@@ -2430,6 +2520,24 @@
           </node>
           <node concept="315t4" id="5Bng$8dj6Uf" role="1k$liO">
             <node concept="3clFbS" id="5Bng$8dj6Ug" role="2VODD2">
+              <node concept="2xdQw9" id="4pQ0tRV_JIB" role="3cqZAp">
+                <node concept="3cpWs3" id="4pQ0tRV_JIC" role="9lYJi">
+                  <node concept="2OqwBi" id="4pQ0tRV_JID" role="3uHU7w">
+                    <node concept="2OqwBi" id="4pQ0tRV_JIE" role="2Oq$k0">
+                      <node concept="14$Tth" id="4pQ0tRV_JIF" role="2Oq$k0" />
+                      <node concept="liA8E" id="4pQ0tRV_JIG" role="2OqNvi">
+                        <ref role="37wK5l" to="ap4t:~GenerationStatus.getOutputModel()" resolve="getOutputModel" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4pQ0tRV_JIH" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4pQ0tRV_JII" role="3uHU7B">
+                    <property role="Xl_RC" value="Model:" />
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="5Bng$8dj6Xo" role="3cqZAp">
                 <node concept="2OqwBi" id="5Bng$8dj8PI" role="3clFbG">
                   <node concept="2OqwBi" id="5Bng$8dj7dC" role="2Oq$k0">
@@ -2801,6 +2909,60 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="2sbLIdzHnwJ" role="1SL9yI">
+      <property role="TrG5h" value="textGenCustomOuputModelSelector" />
+      <node concept="3cqZAl" id="2sbLIdzHnwK" role="3clF45" />
+      <node concept="3clFbS" id="2sbLIdzHnwL" role="3clF47">
+        <node concept="20lXCV" id="2sbLIdzHnwM" role="3cqZAp">
+          <node concept="1Xw6AR" id="2sbLIdzHnwN" role="17Bu_C">
+            <node concept="1dCxOl" id="2sbLIdzHnwO" role="1XwpL7">
+              <property role="1XweGQ" value="r:6e108bd8-b69c-4b65-8a99-34379776b4bd" />
+              <node concept="1j_P7g" id="2sbLIdzHnwP" role="1j$8Uc">
+                <property role="1j_P7h" value="com.mbeddr.mpsutil.comparator.diff.tests.input" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2sbLIdzHnwQ" role="3tpDZB">
+            <node concept="2ShNRf" id="2sbLIdzHnwR" role="2Oq$k0">
+              <node concept="3g6Rrh" id="2sbLIdzHnwS" role="2ShVmc">
+                <node concept="3Tqbb2" id="2sbLIdzHnwT" role="3g7fb8">
+                  <ref role="ehGHo" to="87nw:2dWzqxEBMSc" resolve="Word" />
+                </node>
+                <node concept="3xONca" id="2sbLIdzHnwU" role="3g7hyw">
+                  <ref role="3xOPvv" node="2eT4QFIo8op" resolve="expectedText" />
+                </node>
+                <node concept="3xONca" id="2sbLIdzHnwV" role="3g7hyw">
+                  <ref role="3xOPvv" node="t0OlD12kjl" resolve="expectedText2" />
+                </node>
+              </node>
+            </node>
+            <node concept="39bAoz" id="2sbLIdzHnwW" role="2OqNvi" />
+          </node>
+          <node concept="14$Z6l" id="2sbLIdzHoXW" role="14$Y4b">
+            <node concept="3clFbS" id="2sbLIdzHoXX" role="2VODD2">
+              <node concept="3clFbF" id="2sbLIdzHp0K" role="3cqZAp">
+                <node concept="2OqwBi" id="2sbLIdzHp0M" role="3clFbG">
+                  <node concept="2OqwBi" id="2sbLIdzHp0N" role="2Oq$k0">
+                    <node concept="2OqwBi" id="2sbLIdzHp0O" role="2Oq$k0">
+                      <node concept="14$Tth" id="2sbLIdzHp0P" role="2Oq$k0" />
+                      <node concept="liA8E" id="2sbLIdzHp0Q" role="2OqNvi">
+                        <ref role="37wK5l" to="ap4t:~GenerationStatus.getOutputModels()" resolve="getOutputModels" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="2sbLIdzHp0R" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~Collection.iterator()" resolve="iterator" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2sbLIdzHp0S" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1LZb2c" id="6IWP88J4j_X" role="1SL9yI">
       <property role="TrG5h" value="textGenLF" />
       <node concept="3cqZAl" id="6IWP88J4j_Y" role="3clF45" />
@@ -3104,6 +3266,24 @@
           </node>
           <node concept="pkWqt" id="5Bng$8dj29J" role="1kWgwS">
             <node concept="3clFbS" id="5Bng$8dj29K" role="2VODD2">
+              <node concept="2xdQw9" id="4pQ0tRV_Izk" role="3cqZAp">
+                <node concept="3cpWs3" id="4pQ0tRV_Izl" role="9lYJi">
+                  <node concept="2OqwBi" id="4pQ0tRV_Izm" role="3uHU7w">
+                    <node concept="2OqwBi" id="4pQ0tRV_Izn" role="2Oq$k0">
+                      <node concept="14$Tth" id="4pQ0tRV_Izo" role="2Oq$k0" />
+                      <node concept="liA8E" id="4pQ0tRV_Izp" role="2OqNvi">
+                        <ref role="37wK5l" to="ap4t:~GenerationStatus.getOutputModel()" resolve="getOutputModel" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4pQ0tRV_Izq" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4pQ0tRV_Izr" role="3uHU7B">
+                    <property role="Xl_RC" value="Model:" />
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="5Bng$8dgIJb" role="3cqZAp">
                 <node concept="17R0WA" id="5Bng$8dgIJc" role="3clFbG">
                   <node concept="Xl_RD" id="5Bng$8dgIJd" role="3uHU7w">
@@ -3156,6 +3336,24 @@
           </node>
           <node concept="315t4" id="5Bng$8djWoZ" role="1k$liO">
             <node concept="3clFbS" id="5Bng$8djWp0" role="2VODD2">
+              <node concept="2xdQw9" id="4pQ0tRV_J6g" role="3cqZAp">
+                <node concept="3cpWs3" id="4pQ0tRV_J6h" role="9lYJi">
+                  <node concept="2OqwBi" id="4pQ0tRV_J6i" role="3uHU7w">
+                    <node concept="2OqwBi" id="4pQ0tRV_J6j" role="2Oq$k0">
+                      <node concept="14$Tth" id="4pQ0tRV_J6k" role="2Oq$k0" />
+                      <node concept="liA8E" id="4pQ0tRV_J6l" role="2OqNvi">
+                        <ref role="37wK5l" to="ap4t:~GenerationStatus.getOutputModel()" resolve="getOutputModel" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4pQ0tRV_J6m" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4pQ0tRV_J6n" role="3uHU7B">
+                    <property role="Xl_RC" value="Model:" />
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="5Bng$8djW5h" role="3cqZAp">
                 <node concept="2OqwBi" id="5Bng$8djW5i" role="3clFbG">
                   <node concept="2OqwBi" id="5Bng$8djW5j" role="2Oq$k0">

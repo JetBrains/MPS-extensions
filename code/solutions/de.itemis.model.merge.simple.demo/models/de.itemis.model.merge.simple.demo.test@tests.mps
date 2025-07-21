@@ -4006,7 +4006,7 @@
             <node concept="liA8E" id="3hhKUUEEOno" role="2OqNvi">
               <ref role="37wK5l" node="3s1k8nW2m9O" resolve="addToRight" />
               <node concept="3xONca" id="3hhKUUEEOnp" role="37wK5m">
-                <ref role="3xOPvv" node="3hhKUUEF$Sm" resolve="refDeleted" />
+                <ref role="3xOPvv" node="3hhKUUEF$Sm" resolve="deletedReference" />
               </node>
               <node concept="3xONca" id="3hhKUUEIq1f" role="37wK5m">
                 <ref role="3xOPvv" node="uhx_u9Qazh" resolve="SomeReferenciedData" />
@@ -4121,7 +4121,7 @@
             <node concept="liA8E" id="3hhKUUEOngW" role="2OqNvi">
               <ref role="37wK5l" node="3s1k8nW2m9O" resolve="addToRight" />
               <node concept="3xONca" id="3hhKUUEOngX" role="37wK5m">
-                <ref role="3xOPvv" node="3hhKUUEF$Sm" resolve="refDeleted" />
+                <ref role="3xOPvv" node="3hhKUUEF$Sm" resolve="deletedReference" />
               </node>
             </node>
           </node>

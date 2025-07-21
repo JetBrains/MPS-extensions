@@ -765,11 +765,11 @@
                   <ref role="3cqZAo" node="52ZF9D3fSoF" resolve="descriptor" />
                 </node>
                 <node concept="3EllGN" id="52ZF9D3fSoO" role="37vLTJ">
-                  <node concept="37vLTw" id="52ZF9D3fUnM" role="3ElVtu">
-                    <ref role="3cqZAo" node="52ZF9D3fRhV" resolve="module" />
-                  </node>
                   <node concept="37vLTw" id="52ZF9D3fSoQ" role="3ElQJh">
                     <ref role="3cqZAo" node="52ZF9D38Ccg" resolve="myDescriptors" />
+                  </node>
+                  <node concept="37vLTw" id="52ZF9D3fUnM" role="3ElVtu">
+                    <ref role="3cqZAo" node="52ZF9D3fRhV" resolve="module" />
                   </node>
                 </node>
               </node>
@@ -875,15 +875,15 @@
                 <ref role="1PxDUh" node="52ZF9D380er" resolve="IModelListenersDescriptor" />
               </node>
               <node concept="3cpWs3" id="52ZF9D398uR" role="3uHU7B">
+                <node concept="Xl_RD" id="52ZF9D3fx1c" role="3uHU7w">
+                  <property role="Xl_RC" value="." />
+                </node>
                 <node concept="2YIFZM" id="9$iJr8XmLP" role="3uHU7B">
                   <ref role="37wK5l" node="9$iJr8X0RE" resolve="getName" />
                   <ref role="1Pybhc" node="9$iJr8WJ9Q" resolve="ListenersAspect" />
                   <node concept="37vLTw" id="9$iJr8Xq2c" role="37wK5m">
                     <ref role="3cqZAo" node="52ZF9D39qjs" resolve="module" />
                   </node>
-                </node>
-                <node concept="Xl_RD" id="52ZF9D3fx1c" role="3uHU7w">
-                  <property role="Xl_RC" value="." />
                 </node>
               </node>
             </node>
@@ -1617,20 +1617,15 @@
                   <ref role="3cqZAo" node="52ZF9D3o7vg" resolve="event" />
                 </node>
                 <node concept="liA8E" id="52ZF9D3o69A" role="2OqNvi">
-                  <ref role="37wK5l" to="j9co:~SModelChildEvent.getChildRole()" resolve="getChildRole" />
+                  <ref role="37wK5l" to="j9co:~SModelChildEvent.getAggregationLink()" resolve="getAggregationLink" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="52ZF9D3o69B" role="3uHU7B">
-                <node concept="2OqwBi" id="52ZF9D3o69C" role="2Oq$k0">
-                  <node concept="37vLTw" id="52ZF9D3o69D" role="2Oq$k0">
-                    <ref role="3cqZAo" node="52ZF9D3o6dU" resolve="listener" />
-                  </node>
-                  <node concept="liA8E" id="52ZF9D3o69E" role="2OqNvi">
-                    <ref role="37wK5l" node="52ZF9D37Vn2" resolve="getRole" />
-                  </node>
+              <node concept="2OqwBi" id="52ZF9D3o69C" role="3uHU7B">
+                <node concept="37vLTw" id="52ZF9D3o69D" role="2Oq$k0">
+                  <ref role="3cqZAo" node="52ZF9D3o6dU" resolve="listener" />
                 </node>
-                <node concept="liA8E" id="52ZF9D3o69F" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SContainmentLink.getRoleName()" resolve="getRoleName" />
+                <node concept="liA8E" id="52ZF9D3o69E" role="2OqNvi">
+                  <ref role="37wK5l" node="52ZF9D37Vn2" resolve="getRole" />
                 </node>
               </node>
             </node>
@@ -2655,11 +2650,11 @@
     <node concept="3uibUv" id="52ZF9D37Med" role="EKbjA">
       <ref role="3uigEE" to="j9co:~SModelListener" resolve="SModelListener" />
     </node>
-    <node concept="3uibUv" id="5m02zYhHvxp" role="EKbjA">
-      <ref role="3uigEE" to="3qmy:~DeployListener" resolve="DeployListener" />
-    </node>
     <node concept="3uibUv" id="5m02zYhGhqn" role="1zkMxy">
       <ref role="3uigEE" node="ncHX0ORFPi" resolve="GlobalModelListener" />
+    </node>
+    <node concept="3uibUv" id="5m02zYhHvxp" role="EKbjA">
+      <ref role="3uigEE" to="3qmy:~DeployListener" resolve="DeployListener" />
     </node>
   </node>
   <node concept="3HP615" id="52ZF9D37UKv">
@@ -3731,8 +3726,8 @@
         <node concept="YeOm9" id="ncHX0OT6hx" role="2ShVmc">
           <node concept="1Y3b0j" id="ncHX0OT6h$" role="YeSDq">
             <property role="2bfB8j" value="true" />
-            <ref role="37wK5l" to="lui2:~SRepositoryListenerBase.&lt;init&gt;()" resolve="SRepositoryListenerBase" />
-            <ref role="1Y3XeK" to="lui2:~SRepositoryListenerBase" resolve="SRepositoryListenerBase" />
+            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+            <ref role="1Y3XeK" to="lui2:~SRepositoryListener" resolve="SRepositoryListener" />
             <node concept="3Tm1VV" id="ncHX0OT6h_" role="1B3o_S" />
             <node concept="3clFb_" id="ncHX0OT6hA" role="jymVt">
               <property role="1EzhhJ" value="false" />
@@ -3802,8 +3797,8 @@
         <node concept="YeOm9" id="ncHX0OSHeU" role="2ShVmc">
           <node concept="1Y3b0j" id="ncHX0OSHeX" role="YeSDq">
             <property role="2bfB8j" value="true" />
-            <ref role="1Y3XeK" to="lui2:~SModuleListenerBase" resolve="SModuleListenerBase" />
-            <ref role="37wK5l" to="lui2:~SModuleListenerBase.&lt;init&gt;()" resolve="SModuleListenerBase" />
+            <ref role="1Y3XeK" to="lui2:~SModuleListener" resolve="SModuleListener" />
+            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
             <node concept="3Tm1VV" id="ncHX0OSHeY" role="1B3o_S" />
             <node concept="3clFb_" id="ncHX0OSHeZ" role="jymVt">
               <property role="1EzhhJ" value="false" />

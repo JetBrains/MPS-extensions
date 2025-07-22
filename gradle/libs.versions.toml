@@ -1,0 +1,2 @@
+[libraries]
+mps = "com.jetbrains:mps:2024.1.4"

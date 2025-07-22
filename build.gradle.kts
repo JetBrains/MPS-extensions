@@ -189,7 +189,7 @@ dependencies {
     "batik"("org.apache.xmlgraphics:batik-all:1.19")
 
     "commons"("org.apache.commons:commons-csv:1.14.0")
-    "commons"("commons-io:commons-io:2.19.0")
+    "commons"("commons-io:commons-io:2.20.0")
     "commons"("org.apache.commons:commons-lang3:3.18.0")
     "commons"("org.apache.commons:commons-math3:3.6.1")
     "commons"("org.apache.commons:commons-csv:1.14.0")
@@ -200,7 +200,7 @@ dependencies {
     "collections"("org.apache.commons:commons-collections4:4.5.0")
     "collections"("com.google.guava:guava:33.4.8-jre")
     "collections"("net.sf.trove4j:trove4j:3.0.3")
-    "collections"("io.vavr:vavr:0.10.6")
+    "collections"("io.vavr:vavr:0.10.7")
 }
 
 val buildScriptClasspath by extra(project.configurations["ant_lib"])

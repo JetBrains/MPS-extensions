@@ -10,11 +10,11 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *jetbrains.mps.lang.smodel.query* A NullPointerException was fixed in the query list typesystem checker.
 - *com.mbeddr.mpsutil.comparator* Custom generation plans of generation options builders are not overwritten anymore.
-- *com.mbeddr.mpsutil.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
+- *de.itemis.mps.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
 
 ### Added
 
-- *com.mbeddr.mpsutil.compare* A new option was added to *assert* *generated* *text* *model* and *assert* *generated* *model* to select the output model to compare. The post-process and filter function now also have a generation status parameter.
+- *de.itemis.mps.compare* A new option was added to *assert* *generated* *text* *model* and *assert* *generated* *model* to select the output model to compare. The post-process and filter function now also have a generation status parameter.
 
 ## June 2025
 
@@ -25,7 +25,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- *com.mbeddr.mpsutil.compare* Fixed duplicated code generation for `assert node equals`
+- *de.itemis.mps.compare* Fixed duplicated code generation for `assert node equals`
 - *com.mbeddr.mpsutil.blutil* Use `COPY_SRCL` in [IfInstanceOfElseIfClause](http://127.0.0.1:63320/node?ref=63e0e566-5131-447e-90e3-12ea330e1a00%2Fr%3Af5bd2ad9-cd54-4408-b815-07f9f306f074%28com.mbeddr.mpsutil.blutil%2Fcom.mbeddr.mpsutil.blutil.structure%29%2F8718469662507237778) to avoid build warnings
 - *de.itemis.mps.editor.bool.runtime* Fix image loading for check boxes.
 - *com.mbeddr.mpsutil.intentions* Intentions are no longer duplicated every time the intentions menu is displayed

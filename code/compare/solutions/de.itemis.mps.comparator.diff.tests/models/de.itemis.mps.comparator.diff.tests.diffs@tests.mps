@@ -5,7 +5,7 @@
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
-    <use id="f47b95d4-5e73-4c04-9204-18076950153b" name="com.mbeddr.mpsutil.compare" version="0" />
+    <use id="f47b95d4-5e73-4c04-9204-18076950153b" name="de.itemis.mps.compare" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -33,9 +33,9 @@
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="mqum" ref="r:ec874b45-e888-42e6-995a-a298cefdff55(com.mbeddr.mpsutil.comparator.code)" />
+    <import index="mqum" ref="r:ec874b45-e888-42e6-995a-a298cefdff55(de.itemis.mps.comparator.code)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="cduv" ref="r:57a8e0f3-0113-45ee-931b-1dc409b3d2fe(com.mbeddr.mpsutil.comparator.diff.tests.genplan)" />
+    <import index="cduv" ref="r:57a8e0f3-0113-45ee-931b-1dc409b3d2fe(de.itemis.mps.comparator.diff.tests.genplan)" />
     <import index="tft2" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator.impl.plan(MPS.Generator/)" />
     <import index="ao3" ref="7124e466-fc92-4803-a656-d7a6b7eb3910/java:jetbrains.mps.text(MPS.TextGen/)" />
     <import index="2o8p" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.diff.contents(MPS.IDEA/)" />
@@ -48,7 +48,7 @@
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
-    <import index="sotg" ref="r:f7b641c7-0327-4513-80ee-fa0921b93a79(com.mbeddr.mpsutil.compare.typesystem)" />
+    <import index="sotg" ref="r:f7b641c7-0327-4513-80ee-fa0921b93a79(de.itemis.mps.compare.typesystem)" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="s9o5" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.editor(MPS.IDEA/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
@@ -375,21 +375,21 @@
         <reference id="8182547171709614741" name="target" index="36bGnp" />
       </concept>
     </language>
-    <language id="f47b95d4-5e73-4c04-9204-18076950153b" name="com.mbeddr.mpsutil.compare">
-      <concept id="5440956104040641156" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedModelTextEquals" flags="ng" index="20lXCV">
+    <language id="f47b95d4-5e73-4c04-9204-18076950153b" name="de.itemis.mps.compare">
+      <concept id="5440956104040641156" name="de.itemis.mps.compare.structure.AssertGeneratedModelTextEquals" flags="ng" index="20lXCV">
         <child id="7763313513273247164" name="lineEndingHandler" index="15694Y" />
       </concept>
-      <concept id="1954385921685784800" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_PostProcess" flags="ig" index="315t4" />
-      <concept id="8669578577610830053" name="com.mbeddr.mpsutil.compare.structure.IgnoredProperty" flags="ng" index="mxfsH">
+      <concept id="1954385921685784800" name="de.itemis.mps.compare.structure.QueryFunction_PostProcess" flags="ng" index="315t4" />
+      <concept id="8669578577610830053" name="de.itemis.mps.compare.structure.IgnoredProperty" flags="ng" index="mxfsH">
         <reference id="2644386474302386081" name="conceptDeclaration" index="355D3t" />
         <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
       </concept>
-      <concept id="1142886221719" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_OutputFilter" flags="in" index="pkWqt" />
-      <concept id="2813561072153809330" name="com.mbeddr.mpsutil.compare.structure.ConceptFunctionParameter_GenerationStatus" flags="nn" index="14$Tth" />
-      <concept id="2813561072153802614" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_OutputModel" flags="ig" index="14$Z6l" />
-      <concept id="7763313513272984994" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_LineEndingHandler" flags="ig" index="15794w" />
-      <concept id="6473715840833912944" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_GeneratorOptions" flags="ig" index="1krG8M" />
-      <concept id="6325604991668181367" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedModelEquals" flags="ng" index="3y6c_e">
+      <concept id="1142886221719" name="de.itemis.mps.compare.structure.QueryFunction_OutputFilter" flags="ng" index="pkWqt" />
+      <concept id="2813561072153809330" name="de.itemis.mps.compare.structure.ConceptFunctionParameter_GenerationStatus" flags="ng" index="14$Tth" />
+      <concept id="2813561072153802614" name="de.itemis.mps.compare.structure.QueryFunction_OutputModel" flags="ng" index="14$Z6l" />
+      <concept id="7763313513272984994" name="de.itemis.mps.compare.structure.QueryFunction_LineEndingHandler" flags="ng" index="15794w" />
+      <concept id="6473715840833912944" name="de.itemis.mps.compare.structure.QueryFunction_GeneratorOptions" flags="ng" index="1krG8M" />
+      <concept id="6325604991668181367" name="de.itemis.mps.compare.structure.AssertGeneratedModelEquals" flags="ng" index="3y6c_e">
         <reference id="6325604991668503306" name="generationPlan" index="3y7XcN" />
         <child id="289600057226489406" name="customOrdering" index="2XVze9" />
         <child id="2813561072153798632" name="outputModel" index="14$Y4b" />
@@ -401,18 +401,18 @@
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
         <child id="6325604991668181368" name="ignoredProperties" index="3y6c_1" />
       </concept>
-      <concept id="6064597129617587980" name="com.mbeddr.mpsutil.compare.structure.AssertGeneratedTextModelEqualsFolder" flags="ng" index="1$B7BT">
+      <concept id="6064597129617587980" name="de.itemis.mps.compare.structure.AssertGeneratedTextModelEqualsFolder" flags="ng" index="1$B7BT">
         <child id="2789267658891027203" name="whitespaceHandling" index="1L6xGF" />
         <child id="2789267658884853941" name="ignoreContentCase" index="1LT4yt" />
         <child id="2529503557098113362" name="ignoreFileCase" index="1LWhd7" />
       </concept>
-      <concept id="756135271275943220" name="com.mbeddr.mpsutil.compare.structure.AssertNodeEquals" flags="ng" index="3GXo0L">
+      <concept id="756135271275943220" name="de.itemis.mps.compare.structure.AssertNodeEquals" flags="ng" index="3GXo0L">
         <child id="3942143736278655459" name="ignoredReferences" index="18RIWO" />
         <child id="2691439673111601841" name="ignoredProperties" index="1nr0yI" />
       </concept>
-      <concept id="2789267658891026142" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_WhiteSpaceHandling" flags="ig" index="1L6yrQ" />
-      <concept id="2529503557098113363" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_IgnoreCase" flags="ig" index="1LWhd6" />
-      <concept id="1161622665029" name="com.mbeddr.mpsutil.compare.structure.ConceptFunctionParameter_OutputModel" flags="nn" index="1Q6Npb" />
+      <concept id="2789267658891026142" name="de.itemis.mps.compare.structure.QueryFunction_WhiteSpaceHandling" flags="ng" index="1L6yrQ" />
+      <concept id="2529503557098113363" name="de.itemis.mps.compare.structure.QueryFunction_IgnoreCase" flags="ng" index="1LWhd6" />
+      <concept id="1161622665029" name="de.itemis.mps.compare.structure.ConceptFunctionParameter_OutputModel" flags="ng" index="1Q6Npb" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">

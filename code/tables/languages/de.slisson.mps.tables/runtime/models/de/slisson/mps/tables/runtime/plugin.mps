@@ -7,6 +7,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -22,19 +23,22 @@
     <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
     <import index="fnpx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.notification(MPS.IDEA/)" />
     <import index="z2i8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.icons(MPS.IDEA/)" />
+    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="90d" ref="r:421d64ed-8024-497f-aeab-8bddeb389dd2(jetbrains.mps.lang.extension.methods)" implicit="true" />
-    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="7927811850890310904" name="jetbrains.mps.lang.resources.structure.ConstantFieldIcon" flags="ng" index="1GtWCo">
+        <child id="7927811850890311914" name="field" index="1GtWoa" />
+      </concept>
       <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
         <property id="2756621024541341363" name="file" index="1iqoE4" />
-        <child id="6976585500156684809" name="iconExpression" index="3xaMm5" />
       </concept>
     </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
       <concept id="1204908117386" name="jetbrains.mps.lang.plugin.structure.Separator" flags="ng" index="2a7GMi" />
+      <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs" />
       <concept id="1207145360364" name="jetbrains.mps.lang.plugin.structure.BuildGroupBlock" flags="in" index="fu6FP" />
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
@@ -65,6 +69,9 @@
         <reference id="1217252646389" name="key" index="1DUlNI" />
       </concept>
       <concept id="1217252428768" name="jetbrains.mps.lang.plugin.structure.ActionDataParameterReferenceOperation" flags="nn" index="1DTwFV" />
+      <concept id="1204383956737" name="jetbrains.mps.lang.plugin.structure.InterfaceGroup" flags="ng" index="1ESbSp">
+        <child id="1206193920040" name="groupID" index="3mKD$K" />
+      </concept>
       <concept id="1217413147516" name="jetbrains.mps.lang.plugin.structure.ActionParameter" flags="ngI" index="1NuADB">
         <child id="5538333046911298738" name="condition" index="1oa70y" />
       </concept>
@@ -708,8 +715,8 @@
         </node>
       </node>
     </node>
-    <node concept="1QGGSu" id="506gpRRkycw" role="3Uehp1">
-      <node concept="10M0yZ" id="506gpRRl6rv" role="3xaMm5">
+    <node concept="1GtWCo" id="2aYMjo5BpdX" role="3Uehp1">
+      <node concept="10M0yZ" id="506gpRRl6rv" role="1GtWoa">
         <ref role="3cqZAo" to="z2i8:~AllIcons$Vcs.Remove" resolve="Remove" />
         <ref role="1PxDUh" to="z2i8:~AllIcons$Vcs" resolve="AllIcons.Vcs" />
       </node>
@@ -720,7 +727,7 @@
     <property role="3GE5qa" value="actions" />
     <property role="22ra45" value="true" />
     <node concept="tT9cl" id="7IUya7cdgY6" role="2f5YQi">
-      <ref role="tU$_T" to="tprs:WmrxDqdZv8" resolve="MPSToolBarRun" />
+      <ref role="tU$_T" node="1NwsJMVJ99k" resolve="MainToolbarCenter" />
     </node>
     <node concept="fu6FP" id="F5PM1gbEUw" role="ftER_">
       <node concept="3clFbS" id="F5PM1gbEUy" role="2VODD2">
@@ -1190,12 +1197,21 @@
         </node>
       </node>
     </node>
-    <node concept="1QGGSu" id="6R0q0mZQKWL" role="3Uehp1">
-      <node concept="10M0yZ" id="6R0q0mZSZL2" role="3xaMm5">
+    <node concept="1GtWCo" id="2aYMjo5BpdY" role="3Uehp1">
+      <node concept="10M0yZ" id="6R0q0mZSZL2" role="1GtWoa">
         <ref role="3cqZAo" to="z2i8:~AllIcons$General.Remove" resolve="Remove" />
         <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
       </node>
     </node>
+  </node>
+  <node concept="1ESbSp" id="1NwsJMVJ99k">
+    <property role="3GE5qa" value="actions" />
+    <property role="TrG5h" value="MainToolbarCenter" />
+    <node concept="10M0yZ" id="1NwsJMVK74H" role="3mKD$K">
+      <ref role="3cqZAo" to="qkt:~IdeActions.GROUP_MAIN_TOOLBAR_CENTER" resolve="GROUP_MAIN_TOOLBAR_CENTER" />
+      <ref role="1PxDUh" to="qkt:~IdeActions" resolve="IdeActions" />
+    </node>
+    <node concept="ftmFs" id="1NwsJMVJ9zE" role="ftER_" />
   </node>
 </model>
 

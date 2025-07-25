@@ -200,6 +200,12 @@
                     <node concept="2ShNRf" id="3jJoUQ7bKGs" role="HW$Y0">
                       <node concept="1pGfFk" id="3jJoUQ7bKGt" role="2ShVmc">
                         <ref role="37wK5l" to="od2j:3jJoUQ705xU" resolve="ImplementationsFromFunctionModule" />
+                        <node concept="2OqwBi" id="4e238oV7oEF" role="37wK5m">
+                          <node concept="1jxXqW" id="4e238oV7oj9" role="2Oq$k0" />
+                          <node concept="liA8E" id="4e238oV7p1E" role="2OqNvi">
+                            <ref role="37wK5l" to="z1c3:~Project.getPlatform()" resolve="getPlatform" />
+                          </node>
+                        </node>
                         <node concept="2OqwBi" id="3jJoUQ7bKGu" role="37wK5m">
                           <node concept="2tJFMh" id="3jJoUQ7bKGv" role="2Oq$k0">
                             <node concept="ZC_QK" id="3jJoUQ7bKGw" role="2tJFKM">
@@ -376,6 +382,12 @@
                     <node concept="2ShNRf" id="1sd2boLoOKP" role="HW$Y0">
                       <node concept="1pGfFk" id="1sd2boLoOKQ" role="2ShVmc">
                         <ref role="37wK5l" to="od2j:3jJoUQ705xU" resolve="ImplementationsFromFunctionModule" />
+                        <node concept="2OqwBi" id="4e238oV7qtN" role="37wK5m">
+                          <node concept="1jxXqW" id="4e238oV7q9L" role="2Oq$k0" />
+                          <node concept="liA8E" id="4e238oV7qOU" role="2OqNvi">
+                            <ref role="37wK5l" to="z1c3:~Project.getPlatform()" resolve="getPlatform" />
+                          </node>
+                        </node>
                         <node concept="2OqwBi" id="1sd2boLoOKR" role="37wK5m">
                           <node concept="2tJFMh" id="1sd2boLoOKS" role="2Oq$k0">
                             <node concept="ZC_QK" id="1sd2boLoOKT" role="2tJFKM">

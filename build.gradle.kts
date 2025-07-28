@@ -7,8 +7,7 @@ import de.itemis.mps.gradle.tasks.MpsMigrate
 import de.itemis.mps.gradle.tasks.Remigrate
 import groovy.xml.XmlSlurper
 import groovy.xml.slurpersupport.GPathResult
-import java.time.LocalDateTime
-import java.util.Date
+import java.util.*
 
 plugins {
     id("de.itemis.mps.gradle.common") version "1.29.2.+"
@@ -381,7 +380,7 @@ var releaseTagName: String? = null
 if (rootProject.hasProperty("nightly_build")) {
     releaseName = "Nightly Build $version"
     releaseTagName = "nightly-$version"
-    releaseNotes = """Automated Nightly build from ${LocalDateTime.now()}."""
+    releaseNotes = """Automated Nightly build from ${buildDate}."""
 } else {
     releaseNotes = rootProject.findProperty("releaseNotes") as String?
     releaseTagName = "release-$version"

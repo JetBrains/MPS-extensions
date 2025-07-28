@@ -25002,9 +25002,12 @@
       <node concept="398BVA" id="2fo8bJECJBq" role="2JcizS">
         <ref role="398BVh" node="1QLFoGON23s" resolve="extensions.home" />
         <node concept="2Ry0Ak" id="2fo8bJECJDk" role="iGT6I">
-          <property role="2Ry0Am" value="artifacts" />
-          <node concept="2Ry0Ak" id="2fo8bJECJDp" role="2Ry0An">
-            <property role="2Ry0Am" value="de.itemis.mps.extensions" />
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="_QB087ANwk" role="2Ry0An">
+            <property role="2Ry0Am" value="artifacts" />
+            <node concept="2Ry0Ak" id="_QB087ANwl" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.mps.extensions" />
+            </node>
           </node>
         </node>
       </node>

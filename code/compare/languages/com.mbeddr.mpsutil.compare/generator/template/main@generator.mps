@@ -1330,10 +1330,10 @@
                                             <ref role="cht4Q" to="tp5g:hBxON8j" resolve="TestNodeReference" />
                                           </node>
                                           <node concept="2OqwBi" id="2RIzFJ7GTQq" role="1m5AlR">
-                                            <node concept="30H73N" id="2RIzFJ7GTQr" role="2Oq$k0" />
                                             <node concept="3TrEf2" id="t0OlD0QJaQ" role="2OqNvi">
                                               <ref role="3Tt5mk" to="tpe3:7jPoEeD$ZP4" resolve="expected" />
                                             </node>
+                                            <node concept="30H73N" id="2RIzFJ7GTQr" role="2Oq$k0" />
                                           </node>
                                         </node>
                                         <node concept="3TrEf2" id="2RIzFJ7GTQt" role="2OqNvi">

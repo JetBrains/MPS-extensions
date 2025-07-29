@@ -8,6 +8,7 @@
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="y93e" ref="r:64204879-20e9-45e0-aa9c-21e16ba032f2(de.itemis.mps.debug.structure)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -108,6 +109,32 @@
     <node concept="1YaCAy" id="7_uCKm_nenz" role="1YuTPh">
       <property role="TrG5h" value="editorComponentReference" />
       <ref role="1YaFvo" to="y93e:7_uCKm_ncp6" resolve="EditorComponentReference" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2$zHkrOt_qJ">
+    <property role="TrG5h" value="typeof_Editor" />
+    <property role="3GE5qa" value="debug" />
+    <node concept="3clFbS" id="2$zHkrOt_qK" role="18ibNy">
+      <node concept="1Z5TYs" id="50vRVamfU0w" role="3cqZAp">
+        <node concept="mw_s8" id="50vRVamfU0x" role="1ZfhKB">
+          <node concept="2c44tf" id="50vRVamfU0y" role="mwGJk">
+            <node concept="3uibUv" id="50vRVamfUL$" role="2c44tc">
+              <ref role="3uigEE" to="k3nr:~MPSFileNodeEditor" resolve="MPSFileNodeEditor" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="50vRVamfU0$" role="1ZfhK$">
+          <node concept="1Z2H0r" id="50vRVamfU0_" role="mwGJk">
+            <node concept="1YBJjd" id="2$zHkrOt_$A" role="1Z2MuG">
+              <ref role="1YBMHb" node="2$zHkrOt_qM" resolve="editor" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2$zHkrOt_qM" role="1YuTPh">
+      <property role="TrG5h" value="editor" />
+      <ref role="1YaFvo" to="y93e:2$zHkrOt$DN" resolve="EditorExpression" />
     </node>
   </node>
 </model>

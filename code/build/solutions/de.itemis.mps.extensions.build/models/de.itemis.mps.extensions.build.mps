@@ -7038,6 +7038,16 @@
               </node>
             </node>
           </node>
+          <node concept="1SiIV0" id="2$zHkrOtDL$" role="3bR37C">
+            <node concept="3bR9La" id="2$zHkrOtDL_" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:ymnOULAU1u" resolve="jetbrains.mps.lang.test.runtime" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="GsdFj4Cam0" role="3bR37C">
+            <node concept="3bR9La" id="GsdFj4Cam1" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="VbQeBOyhXT" role="3bR37C">
           <node concept="3bR9La" id="VbQeBOyhXU" role="1SiIV1">

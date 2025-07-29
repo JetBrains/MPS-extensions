@@ -46,7 +46,7 @@
   </node>
   <node concept="2SWNta" id="7uOgiTcjs4">
     <node concept="2SU3KN" id="7uOgiTdJuK" role="2SU3Lh">
-      <property role="TrG5h" value="Abc" />
+      <property role="TrG5h" value=" Abc" />
       <node concept="2SU3KN" id="7uOgiTdJuM" role="2SU3KW">
         <property role="TrG5h" value="def" />
         <node concept="2SU3KN" id="7uOgiTdJuQ" role="2SU3KW">

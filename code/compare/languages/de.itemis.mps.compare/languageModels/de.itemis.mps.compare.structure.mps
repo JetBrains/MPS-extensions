@@ -224,6 +224,12 @@
       <property role="20kJfa" value="generationParametersProvider" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="2sbLIdzA2vC" role="1TKVEi">
+      <property role="IQ2ns" value="2813561072153798632" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="outputModel" />
+      <ref role="20lvS9" node="2sbLIdzA3tQ" resolve="QueryFunction_OutputModel" />
+    </node>
     <node concept="1TJgyj" id="5Bng$8dsWb9" role="1TKVEi">
       <property role="IQ2ns" value="6473715840829342409" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -331,14 +337,6 @@
       <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2cqAxliUIf_">
-    <property role="TrG5h" value="QueryFunction_IgnoreHiddenFiles" />
-    <property role="EcuMT" value="2529503557098071013" />
-    <property role="3GE5qa" value="queryFunction" />
-    <property role="R4oN_" value="customize if hidden files are compared" />
-    <property role="34LRSv" value="ignore hidden files" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-  </node>
   <node concept="1TIwiD" id="5gDLJkKHrWc">
     <property role="EcuMT" value="6064597129617587980" />
     <property role="TrG5h" value="AssertGeneratedTextModelEqualsFolder" />
@@ -369,12 +367,12 @@
       <ref role="20lvS9" node="2qPu2xnFPVu" resolve="QueryFunction_WhiteSpaceHandling" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2qPu2xnFPVu">
-    <property role="TrG5h" value="QueryFunction_WhiteSpaceHandling" />
-    <property role="EcuMT" value="2789267658891026142" />
+  <node concept="1TIwiD" id="2cqAxliUIf_">
+    <property role="TrG5h" value="QueryFunction_IgnoreHiddenFiles" />
+    <property role="EcuMT" value="2529503557098071013" />
     <property role="3GE5qa" value="queryFunction" />
-    <property role="R4oN_" value="customize how whitespace is handled when diffing two files" />
-    <property role="34LRSv" value="whitespace handling" />
+    <property role="R4oN_" value="customize if hidden files are compared" />
+    <property role="34LRSv" value="ignore hidden files" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="2cqAxliUS_j">
@@ -385,12 +383,37 @@
     <property role="34LRSv" value="ignore case" />
     <ref role="1TJDcQ" node="2cqAxliUIf_" resolve="QueryFunction_IgnoreHiddenFiles" />
   </node>
+  <node concept="1TIwiD" id="2qPu2xnFPVu">
+    <property role="TrG5h" value="QueryFunction_WhiteSpaceHandling" />
+    <property role="EcuMT" value="2789267658891026142" />
+    <property role="3GE5qa" value="queryFunction" />
+    <property role="R4oN_" value="customize how whitespace is handled when diffing two files" />
+    <property role="34LRSv" value="whitespace handling" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
   <node concept="1TIwiD" id="6IWP88IC4my">
     <property role="TrG5h" value="QueryFunction_LineEndingHandler" />
     <property role="EcuMT" value="7763313513272984994" />
     <property role="3GE5qa" value="queryFunction" />
     <property role="R4oN_" value="customize how line endings are treated" />
     <property role="34LRSv" value="line ending handler" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2sbLIdzA56M">
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="ConceptFunctionParameter_GenerationStatus" />
+    <property role="2_RsDV" value="4G1g3fIR8JG/none" />
+    <property role="3GE5qa" value="queryFunction" />
+    <property role="EcuMT" value="2813561072153809330" />
+    <property role="34LRSv" value="status" />
+    <property role="R4oN_" value="the status object of the generation" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="2sbLIdzA3tQ">
+    <property role="TrG5h" value="QueryFunction_OutputModel" />
+    <property role="EcuMT" value="2813561072153802614" />
+    <property role="3GE5qa" value="queryFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="6MWuQFM4oUI">

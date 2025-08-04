@@ -6,9 +6,15 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## August 2025
 
+### Added
+
+- *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
+
 ### Fixed
 
 - *com.mbeddr.mpsutil.grammarcells* The default transformation text for optional cells was improved.
+- *de.itemis.mps.linenumbers* Line numbers should show again on first editor opening. They were disabled for VCS editor components.
+- *de.itemis.mps.linenumbers* Line numbers are now rendered center-aligned in the left column.
 
 ## July 2025
 

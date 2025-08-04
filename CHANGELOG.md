@@ -6,6 +6,11 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## August 2025
 
+### Added
+
+- *com.mbeddr.mpsutil.comparator* Added support for ignoring references.
+- *com.mbeddr.mpsutil.compare* Added support for ignoring references.
+
 ### Fixed
 
 - *com.mbeddr.mpsutil.grammarcells* The default transformation text for optional cells was improved.

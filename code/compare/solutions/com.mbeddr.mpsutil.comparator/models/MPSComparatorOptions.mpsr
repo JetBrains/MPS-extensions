@@ -61,6 +61,22 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="iyWIxrTNNO" role="jymVt">
+      <property role="TrG5h" value="ignoredChildren" />
+      <node concept="_YKpA" id="iyWIxrTNNP" role="1tU5fm">
+        <node concept="3uibUv" id="iyWIxrTNNQ" role="_ZDj9">
+          <ref role="3uigEE" node="iyWIxrTIlz" resolve="IgnoredChild" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="iyWIxrTNNR" role="1B3o_S" />
+      <node concept="2ShNRf" id="iyWIxrTNNS" role="33vP2m">
+        <node concept="2Jqq0_" id="iyWIxrTNNT" role="2ShVmc">
+          <node concept="3uibUv" id="iyWIxrTNNU" role="HW$YZ">
+            <ref role="3uigEE" node="iyWIxrTIlz" resolve="IgnoredChild" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="312cEg" id="E9Bg74H7$G" role="jymVt">
       <property role="TrG5h" value="ignoredReferences" />
       <node concept="_YKpA" id="E9Bg74H7y1" role="1tU5fm">

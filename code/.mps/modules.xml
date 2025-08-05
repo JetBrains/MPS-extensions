@@ -35,6 +35,8 @@
       <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.generator.runtime/de.itemis.mps.compare.pattern.generator.runtime.msd" folder="compare" />
       <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.runtime/de.itemis.mps.compare.pattern.runtime.msd" folder="compare" />
       <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.test/de.itemis.mps.compare.pattern.test.msd" folder="compare.tests" />
+      <modulePath path="$PROJECT_DIR$/compare/solutions/nl.f1re.mpsutil.hasher.tests/nl.f1re.mpsutil.hasher.tests.msd" folder="compare.tests" />
+      <modulePath path="$PROJECT_DIR$/compare/solutions/nl.f1re.mpsutil.hasher/nl.f1re.mpsutil.hasher.msd" folder="compare" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/de.slisson.mps.conditionalEditor.demolang.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.hints/de.slisson.mps.conditionalEditor.hints.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor/de.slisson.mps.conditionalEditor.mpl" folder="conditional-editor" />
@@ -208,8 +210,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test.integration/de.itemis.model.merge.test.integration.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.extensions.changelog/de.itemis.mps.extensions.changelog.msd" folder="build" />
-      <modulePath path="$PROJECT_DIR$/solutions/nl.f1re.mpsutil.hasher.tests/nl.f1re.mpsutil.hasher.tests.msd" folder="compare.tests" />
-      <modulePath path="$PROJECT_DIR$/solutions/nl.f1re.mpsutil.hasher/nl.f1re.mpsutil.hasher.msd" folder="compare" />
       <modulePath path="$PROJECT_DIR$/spellcheck/languages/de.itemis.mps.spellcheck/de.itemis.mps.spellcheck.mpl" folder="spellcheck" />
       <modulePath path="$PROJECT_DIR$/spellcheck/solutions/de.itemis.mps.spellcheck.demo/de.itemis.mps.spellcheck.demo.msd" folder="spellcheck" />
       <modulePath path="$PROJECT_DIR$/spellcheck/solutions/de.itemis.mps.spellcheck.runtime/de.itemis.mps.spellcheck.runtime.msd" folder="spellcheck" />

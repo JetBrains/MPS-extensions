@@ -8,6 +8,8 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
+- *com.mbeddr.mpsutil.comparator* Added support for ignoring references.
+- *com.mbeddr.mpsutil.compare* Added support for ignoring references.
 - *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
 
 ### Fixed

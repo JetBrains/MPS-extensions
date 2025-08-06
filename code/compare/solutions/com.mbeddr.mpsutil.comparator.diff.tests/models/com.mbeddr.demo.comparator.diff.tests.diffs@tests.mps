@@ -384,8 +384,8 @@
         <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
       </concept>
       <concept id="1142886221719" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_OutputFilter" flags="in" index="pkWqt" />
-      <concept id="2813561072153809330" name="com.mbeddr.mpsutil.compare.structure.ConceptFunctionParameter_GenerationStatus" flags="nn" index="14$Tth" />
-      <concept id="2813561072153802614" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_OutputModel" flags="ig" index="14$Z6l" />
+      <concept id="2813561072153809330" name="com.mbeddr.mpsutil.compare.structure.ConceptFunctionParameter_GenerationStatus" flags="ng" index="14$Tth" />
+      <concept id="2813561072153802614" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_OutputModel" flags="ng" index="14$Z6l" />
       <concept id="7763313513272984994" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_LineEndingHandler" flags="ig" index="15794w" />
       <concept id="6473715840833912944" name="com.mbeddr.mpsutil.compare.structure.QueryFunction_GeneratorOptions" flags="ig" index="1krG8M" />
       <concept id="334096402184554752" name="com.mbeddr.mpsutil.compare.structure.IgnoredReference" flags="ng" index="1okbJC">

@@ -1143,7 +1143,7 @@
               <node concept="2ShNRf" id="3s41kb39Cr3" role="23t8la">
                 <node concept="HV5vD" id="3s41kb39EgT" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="HV5vE" node="36NsNggQrvp" resolve="PropertyComparator" />
+                  <ref role="HV5vE" node="36NsNggQrvp" resolve="NodeHasher.PropertyComparator" />
                 </node>
               </node>
             </node>
@@ -1223,7 +1223,7 @@
               <node concept="2ShNRf" id="3s41kb3cYXF" role="23t8la">
                 <node concept="HV5vD" id="3s41kb3d30v" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="HV5vE" node="36NsNggQrw6" resolve="ReferenceComparator" />
+                  <ref role="HV5vE" node="36NsNggQrw6" resolve="NodeHasher.ReferenceComparator" />
                 </node>
               </node>
             </node>
@@ -1300,7 +1300,7 @@
               <node concept="2ShNRf" id="3s41kb3ehXY" role="23t8la">
                 <node concept="HV5vD" id="3s41kb3ekt9" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="HV5vE" node="36NsNggQrwV" resolve="ContainmentComparator" />
+                  <ref role="HV5vE" node="36NsNggQrwV" resolve="NodeHasher.ContainmentComparator" />
                 </node>
               </node>
             </node>
@@ -2315,7 +2315,7 @@
               <ref role="3cqZAo" node="36NsNggQrEu" resolve="nodeId" />
             </node>
             <node concept="3uibUv" id="36NsNggQrEz" role="2ZW6by">
-              <ref role="3uigEE" to="w1kc:~SNodeId$Regular" resolve="Regular" />
+              <ref role="3uigEE" to="w1kc:~SNodeId$Regular" resolve="SNodeId.Regular" />
             </node>
           </node>
           <node concept="9aQIb" id="36NsNggQrEI" role="9aQIa">
@@ -2346,7 +2346,7 @@
                         <ref role="3cqZAo" node="36NsNggQrEu" resolve="nodeId" />
                       </node>
                       <node concept="3uibUv" id="36NsNggQI9H" role="10QFUM">
-                        <ref role="3uigEE" to="w1kc:~SNodeId$Regular" resolve="Regular" />
+                        <ref role="3uigEE" to="w1kc:~SNodeId$Regular" resolve="SNodeId.Regular" />
                       </node>
                     </node>
                   </node>
@@ -2697,7 +2697,7 @@
       <property role="TrG5h" value="PropertyComparator" />
       <node concept="3Tm6S6" id="36NsNggQrvq" role="1B3o_S" />
       <node concept="3uibUv" id="36NsNggQrvr" role="1zkMxy">
-        <ref role="3uigEE" node="36NsNggQrud" resolve="FeatureComparator" />
+        <ref role="3uigEE" node="36NsNggQrud" resolve="NodeHasher.FeatureComparator" />
         <node concept="3uibUv" id="36NsNggQrvs" role="11_B2D">
           <ref role="3uigEE" to="e8bb:~SPropertyId" resolve="SPropertyId" />
         </node>
@@ -2816,7 +2816,7 @@
       <property role="TrG5h" value="ReferenceComparator" />
       <node concept="3Tm6S6" id="36NsNggQrw7" role="1B3o_S" />
       <node concept="3uibUv" id="36NsNggQrw8" role="1zkMxy">
-        <ref role="3uigEE" node="36NsNggQrud" resolve="FeatureComparator" />
+        <ref role="3uigEE" node="36NsNggQrud" resolve="NodeHasher.FeatureComparator" />
         <node concept="3uibUv" id="36NsNggQrw9" role="11_B2D">
           <ref role="3uigEE" to="e8bb:~SReferenceLinkId" resolve="SReferenceLinkId" />
         </node>
@@ -2967,7 +2967,7 @@
       <property role="TrG5h" value="ContainmentComparator" />
       <node concept="3Tm6S6" id="36NsNggQrwW" role="1B3o_S" />
       <node concept="3uibUv" id="36NsNggQrwX" role="1zkMxy">
-        <ref role="3uigEE" node="36NsNggQrud" resolve="FeatureComparator" />
+        <ref role="3uigEE" node="36NsNggQrud" resolve="NodeHasher.FeatureComparator" />
         <node concept="3uibUv" id="36NsNggQrwY" role="11_B2D">
           <ref role="3uigEE" to="e8bb:~SContainmentLinkId" resolve="SContainmentLinkId" />
         </node>

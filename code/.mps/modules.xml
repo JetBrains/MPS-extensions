@@ -35,8 +35,6 @@
       <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.generator.runtime/de.itemis.mps.compare.pattern.generator.runtime.msd" folder="compare" />
       <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.runtime/de.itemis.mps.compare.pattern.runtime.msd" folder="compare" />
       <modulePath path="$PROJECT_DIR$/compare/solutions/de.itemis.mps.compare.pattern.test/de.itemis.mps.compare.pattern.test.msd" folder="compare.tests" />
-      <modulePath path="$PROJECT_DIR$/compare/solutions/nl.f1re.mpsutil.hasher.tests/nl.f1re.mpsutil.hasher.tests.msd" folder="compare.tests" />
-      <modulePath path="$PROJECT_DIR$/compare/solutions/nl.f1re.mpsutil.hasher/nl.f1re.mpsutil.hasher.msd" folder="compare" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/de.slisson.mps.conditionalEditor.demolang.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.hints/de.slisson.mps.conditionalEditor.hints.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor/de.slisson.mps.conditionalEditor.mpl" folder="conditional-editor" />
@@ -77,6 +75,8 @@
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.itemis.mps.nativelibs.loader/de.itemis.mps.nativelibs.loader.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.hacks.editor/de.slisson.mps.hacks.editor.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
+      <modulePath path="$PROJECT_DIR$/hasher/nl.f1re.mpsutil.hasher.tests/nl.f1re.mpsutil.hasher.tests.msd" folder="hasher" />
+      <modulePath path="$PROJECT_DIR$/hasher/nl.f1re.mpsutil.hasher/nl.f1re.mpsutil.hasher.msd" folder="hasher" />
       <modulePath path="$PROJECT_DIR$/htmlcell/languages/de.itemis.mps.editor.htmlcell.demolang/de.itemis.mps.editor.htmlcell.demolang.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/htmlcell/languages/de.itemis.mps.editor.htmlcell/de.itemis.mps.editor.htmlcell.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/htmlcell/languages/de.itemis.mps.editor.htmlcell/sandbox/de.itemis.mps.editor.htmlcell.sandbox.msd" folder="widgets" />

@@ -17552,6 +17552,45 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="m$_wf" id="3s41kb3HotE" role="3989C9">
+      <property role="m$_wk" value="nl.f1re.mpsutil.hasher" />
+      <node concept="3_J27D" id="3s41kb3HotL" role="m$_yQ">
+        <node concept="3Mxwew" id="3s41kb3HotM" role="3MwsjC">
+          <property role="3MwjfP" value="nl.f1re.mpsutil.hasher" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="3s41kb3HotN" role="m_cZH">
+        <node concept="3Mxwew" id="3s41kb3HotO" role="3MwsjC">
+          <property role="3MwjfP" value="nl.f1re.mpsutil.hasher" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="3s41kb3HotP" role="m$_w8">
+        <node concept="3Mxwey" id="3s41kb3HotQ" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="3s41kb3HotR" role="m$_yh">
+        <ref role="m$f5T" node="3s41kb3HmKw" resolve="nl.f1re.mpsutil.hasher" />
+      </node>
+      <node concept="2iUeEo" id="3s41kb3HotS" role="2iVFfd">
+        <property role="2iUeEt" value="F1RE B.V." />
+        <property role="2iUeEu" value="https://f1re.nl" />
+      </node>
+      <node concept="3_J27D" id="3s41kb3HotT" role="3s6cr7">
+        <node concept="3Mxwew" id="3s41kb3HotU" role="3MwsjC">
+          <property role="3MwjfP" value="This plugin allows you to efficiently calculate a hash of a subtree. The comparison can be configured and some features of nodes can be ignored." />
+        </node>
+      </node>
+      <node concept="m$_yC" id="3s41kb3HpDs" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="3s41kb3HpLQ" role="m$_yJ">
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="3s41kb3HmKw" role="3989C9">
+      <property role="TrG5h" value="nl.f1re.mpsutil.hasher" />
       <node concept="1E1JtA" id="3s41kb3BSJm" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="nl.f1re.mpsutil.hasher" />
@@ -17559,12 +17598,12 @@
         <node concept="398BVA" id="3s41kb3BSRN" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3s41kb3BTxO" role="iGT6I">
-            <property role="2Ry0Am" value="compare" />
+            <property role="2Ry0Am" value="hasher" />
             <node concept="2Ry0Ak" id="3s41kb3BTEg" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="3s41kb3BU3u" role="2Ry0An">
                 <property role="2Ry0Am" value="nl.f1re.mpsutil.hasher" />
-                <node concept="2Ry0Ak" id="3s41kb3BUkj" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3s41kb3HocQ" role="2Ry0An">
                   <property role="2Ry0Am" value="nl.f1re.mpsutil.hasher.msd" />
                 </node>
               </node>
@@ -17600,23 +17639,23 @@
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="3s41kb3BV2V" role="1HemKq">
-            <node concept="398BVA" id="3s41kb3BV2J" role="3LXTmr">
+          <node concept="3LXTmp" id="3s41kb3Hr1T" role="1HemKq">
+            <node concept="398BVA" id="3s41kb3Hr1I" role="3LXTmr">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3s41kb3BV2K" role="iGT6I">
-                <property role="2Ry0Am" value="compare" />
-                <node concept="2Ry0Ak" id="3s41kb3BV2L" role="2Ry0An">
+              <node concept="2Ry0Ak" id="3s41kb3Hr1J" role="iGT6I">
+                <property role="2Ry0Am" value="hasher" />
+                <node concept="2Ry0Ak" id="3s41kb3Hr1K" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3s41kb3BV2M" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="3s41kb3Hr1L" role="2Ry0An">
                     <property role="2Ry0Am" value="nl.f1re.mpsutil.hasher" />
-                    <node concept="2Ry0Ak" id="3s41kb3BV2N" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="3s41kb3Hr1M" role="2Ry0An">
                       <property role="2Ry0Am" value="models" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="3s41kb3BV2W" role="3LXTna">
+            <node concept="3qWCbU" id="3s41kb3Hr1U" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -18302,6 +18341,10 @@
       <node concept="m$_wl" id="77YfcvONpu4" role="39821P">
         <ref role="m_rDy" node="77YfcvOMg42" resolve="de.itemis.mps.compare" />
         <node concept="pUk6x" id="77YfcvONvhs" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="3s41kb3Hqb2" role="39821P">
+        <ref role="m_rDy" node="3s41kb3HotE" resolve="nl.f1re.mpsutil.hasher" />
+        <node concept="pUk6x" id="3s41kb3Hqb3" role="pUk7w" />
       </node>
     </node>
     <node concept="13uUGR" id="6aQMI6nH4L1" role="1l3spa">
@@ -24650,6 +24693,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2G$12M" id="3s41kb3Hrby" role="3989C9">
+      <property role="TrG5h" value="hasher" />
       <node concept="1E1JtA" id="3s41kb3BVkF" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="nl.f1re.mpsutil.hasher.tests" />
@@ -24658,7 +24704,7 @@
         <node concept="398BVA" id="3s41kb3BVl8" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3s41kb3BVmn" role="iGT6I">
-            <property role="2Ry0Am" value="compare" />
+            <property role="2Ry0Am" value="hasher" />
             <node concept="2Ry0Ak" id="3s41kb3BVmN" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="3s41kb3BVnC" role="2Ry0An">

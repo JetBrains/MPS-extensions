@@ -292,6 +292,61 @@
             <property role="3oM_SC" value="references." />
           </node>
         </node>
+        <node concept="2DRihI" id="GVyvA98QUe" role="15bAlk">
+          <node concept="15Ami3" id="GVyvA98QUh" role="1PaTwD">
+            <node concept="37shsh" id="GVyvA98QUi" role="15Aodc">
+              <node concept="1dCxOk" id="GVyvA98QUj" role="37shsm">
+                <property role="1XweGW" value="dc309acc-7f3e-4ca9-bee5-a61c7c599f59" />
+                <property role="1XxBO9" value="de.itemis.mps.linenumbers" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUk" role="1PaTwD">
+            <property role="3oM_SC" value="When" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUl" role="1PaTwD">
+            <property role="3oM_SC" value="clicking" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUm" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUn" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUo" role="1PaTwD">
+            <property role="3oM_SC" value="line" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUp" role="1PaTwD">
+            <property role="3oM_SC" value="number," />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUq" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUr" role="1PaTwD">
+            <property role="3oM_SC" value="first" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUs" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUt" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUu" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUv" role="1PaTwD">
+            <property role="3oM_SC" value="line" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUw" role="1PaTwD">
+            <property role="3oM_SC" value="gets" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUx" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA98QUy" role="1PaTwD">
+            <property role="3oM_SC" value="focus." />
+          </node>
+        </node>
       </node>
       <node concept="15bAme" id="iyWIxrRh41" role="15bAlL">
         <node concept="2DRihI" id="iyWIxrRh42" role="15bAlk">
@@ -329,6 +384,106 @@
           </node>
           <node concept="3oM_SD" id="iyWIxrRh4n" role="1PaTwD">
             <property role="3oM_SC" value="improved." />
+          </node>
+        </node>
+        <node concept="2DRihI" id="GVyvA97BRP" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="GVyvA97BSg" role="1PaTwD">
+            <node concept="37shsh" id="GVyvA97BSi" role="15Aodc">
+              <node concept="1dCxOk" id="GVyvA97BSo" role="37shsm">
+                <property role="1XweGW" value="dc309acc-7f3e-4ca9-bee5-a61c7c599f59" />
+                <property role="1XxBO9" value="de.itemis.mps.linenumbers" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="GVyvA97BSt" role="1PaTwD">
+            <property role="3oM_SC" value="Line" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97BSu" role="1PaTwD">
+            <property role="3oM_SC" value="numbers" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97BWT" role="1PaTwD">
+            <property role="3oM_SC" value="should" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97BWU" role="1PaTwD">
+            <property role="3oM_SC" value="show" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97BWV" role="1PaTwD">
+            <property role="3oM_SC" value="again" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97BWW" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97BWX" role="1PaTwD">
+            <property role="3oM_SC" value="first" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97BWY" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97BWZ" role="1PaTwD">
+            <property role="3oM_SC" value="opening." />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CjS" role="1PaTwD">
+            <property role="3oM_SC" value="They" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CjT" role="1PaTwD">
+            <property role="3oM_SC" value="were" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97Coq" role="1PaTwD">
+            <property role="3oM_SC" value="disabled" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97Cor" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CsY" role="1PaTwD">
+            <property role="3oM_SC" value="VCS" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CsZ" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97Cxw" role="1PaTwD">
+            <property role="3oM_SC" value="components." />
+          </node>
+        </node>
+        <node concept="2DRihI" id="GVyvA97Caw" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="GVyvA97Cax" role="1PaTwD">
+            <node concept="37shsh" id="GVyvA97Cay" role="15Aodc">
+              <node concept="1dCxOk" id="GVyvA97Caz" role="37shsm">
+                <property role="1XweGW" value="dc309acc-7f3e-4ca9-bee5-a61c7c599f59" />
+                <property role="1XxBO9" value="de.itemis.mps.linenumbers" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="GVyvA97Ca$" role="1PaTwD">
+            <property role="3oM_SC" value="Line" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97Ca_" role="1PaTwD">
+            <property role="3oM_SC" value="numbers" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97Cfl" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97Cfm" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CjR" role="1PaTwD">
+            <property role="3oM_SC" value="rendered" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CA1" role="1PaTwD">
+            <property role="3oM_SC" value="center-aligned" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CA2" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CA3" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CA4" role="1PaTwD">
+            <property role="3oM_SC" value="left" />
+          </node>
+          <node concept="3oM_SD" id="GVyvA97CE_" role="1PaTwD">
+            <property role="3oM_SC" value="column." />
           </node>
         </node>
       </node>

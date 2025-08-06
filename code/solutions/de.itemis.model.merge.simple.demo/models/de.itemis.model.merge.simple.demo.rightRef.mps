@@ -9,14 +9,14 @@
   <imports />
   <registry>
     <language id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property">
-      <concept id="3499368519007574816" name="de.itemis.model.simple.demo.property.structure.ConceptWithProperty" flags="ng" index="2pctC0">
+      <concept id="3499368519007574816" name="de.itemis.model.simple.demo.property.structure.PropertyDummy" flags="ng" index="2pctC0">
         <property id="3499368519007574817" name="data" index="2pctC1" />
       </concept>
     </language>
     <language id="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2" name="de.itemis.model.simple.demo.reference">
-      <concept id="3912520324585631286" name="de.itemis.model.simple.demo.reference.structure.ConceptWithRef" flags="ng" index="1d83UR">
+      <concept id="3912520324585631286" name="de.itemis.model.simple.demo.reference.structure.PropertyDummyRef" flags="ng" index="1d83UR">
         <property id="4728270771321132129" name="id" index="1fUQlm" />
-        <reference id="4728270771317647750" name="propertyRef" index="1fRxyL" />
+        <reference id="4728270771317647750" name="propertyDummyRef" index="1fRxyL" />
       </concept>
     </language>
   </registry>

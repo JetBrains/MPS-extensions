@@ -173,13 +173,13 @@
       </concept>
     </language>
     <language id="e50b0500-6fd7-4c7f-a730-9d841358ce8b" name="de.itemis.model.simple.demo.collection">
-      <concept id="7808531358831107071" name="de.itemis.model.simple.demo.collection.structure.ConceptWithListOfChildren" flags="ng" index="CZi8p">
+      <concept id="7808531358831107071" name="de.itemis.model.simple.demo.collection.structure.CollectionKeeper" flags="ng" index="CZi8p">
         <property id="7808531358831108482" name="id" index="CZhx$" />
         <child id="7808531358831107072" name="collectionChild" index="CZinA" />
       </concept>
     </language>
     <language id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property">
-      <concept id="3499368519007574816" name="de.itemis.model.simple.demo.property.structure.ConceptWithProperty" flags="ng" index="2pctC0">
+      <concept id="3499368519007574816" name="de.itemis.model.simple.demo.property.structure.PropertyDummy" flags="ng" index="2pctC0">
         <property id="3499368519007574817" name="data" index="2pctC1" />
       </concept>
     </language>
@@ -194,9 +194,9 @@
       </concept>
     </language>
     <language id="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2" name="de.itemis.model.simple.demo.reference">
-      <concept id="3912520324585631286" name="de.itemis.model.simple.demo.reference.structure.ConceptWithRef" flags="ng" index="1d83UR">
+      <concept id="3912520324585631286" name="de.itemis.model.simple.demo.reference.structure.PropertyDummyRef" flags="ng" index="1d83UR">
         <property id="4728270771321132129" name="id" index="1fUQlm" />
-        <reference id="4728270771317647750" name="propertyRef" index="1fRxyL" />
+        <reference id="4728270771317647750" name="propertyDummyRef" index="1fRxyL" />
       </concept>
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
@@ -222,7 +222,7 @@
       </concept>
     </language>
     <language id="36ead753-43ea-471e-bcb9-d4fb1e637bbc" name="de.itemis.model.simple.demo.collection.keeper">
-      <concept id="6502826827916076298" name="de.itemis.model.simple.demo.collection.keeper.structure.ConceptWithNestedCollections" flags="ng" index="2NVWI1">
+      <concept id="6502826827916076298" name="de.itemis.model.simple.demo.collection.keeper.structure.KeeperOfCollection" flags="ng" index="2NVWI1">
         <property id="6502826827916167988" name="id" index="2NV6mZ" />
         <child id="6502826827916085526" name="collection" index="2NVMut" />
       </concept>
@@ -264,7 +264,7 @@
       </concept>
     </language>
     <language id="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" name="de.itemis.model.simple.demo.children">
-      <concept id="3912520324585631286" name="de.itemis.model.simple.demo.children.structure.ConceptWithChildren" flags="ng" index="1d83US">
+      <concept id="3912520324585631286" name="de.itemis.model.simple.demo.children.structure.ChildKeeper" flags="ng" index="1d83US">
         <child id="3912520324598248753" name="optionalChild" index="1aoamK" />
         <child id="3912520324585631287" name="childSingleton" index="1d83UQ" />
       </concept>

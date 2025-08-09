@@ -379,16 +379,16 @@
       <concept id="5440956104040641156" name="de.itemis.mps.compare.structure.AssertGeneratedModelTextEquals" flags="ng" index="20lXCV">
         <child id="7763313513273247164" name="lineEndingHandler" index="15694Y" />
       </concept>
-      <concept id="1954385921685784800" name="de.itemis.mps.compare.structure.QueryFunction_PostProcess" flags="ng" index="315t4" />
+      <concept id="1954385921685784800" name="de.itemis.mps.compare.structure.QueryFunction_PostProcess" flags="ig" index="315t4" />
       <concept id="8669578577610830053" name="de.itemis.mps.compare.structure.IgnoredProperty" flags="ng" index="mxfsH">
         <reference id="2644386474302386081" name="conceptDeclaration" index="355D3t" />
         <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
       </concept>
-      <concept id="1142886221719" name="de.itemis.mps.compare.structure.QueryFunction_OutputFilter" flags="ng" index="pkWqt" />
-      <concept id="2813561072153809330" name="de.itemis.mps.compare.structure.ConceptFunctionParameter_GenerationStatus" flags="ng" index="14$Tth" />
-      <concept id="2813561072153802614" name="de.itemis.mps.compare.structure.QueryFunction_OutputModel" flags="ng" index="14$Z6l" />
-      <concept id="7763313513272984994" name="de.itemis.mps.compare.structure.QueryFunction_LineEndingHandler" flags="ng" index="15794w" />
-      <concept id="6473715840833912944" name="de.itemis.mps.compare.structure.QueryFunction_GeneratorOptions" flags="ng" index="1krG8M" />
+      <concept id="1142886221719" name="de.itemis.mps.compare.structure.QueryFunction_OutputFilter" flags="in" index="pkWqt" />
+      <concept id="2813561072153809330" name="de.itemis.mps.compare.structure.ConceptFunctionParameter_GenerationStatus" flags="nn" index="14$Tth" />
+      <concept id="2813561072153802614" name="de.itemis.mps.compare.structure.QueryFunction_OutputModel" flags="ig" index="14$Z6l" />
+      <concept id="7763313513272984994" name="de.itemis.mps.compare.structure.QueryFunction_LineEndingHandler" flags="ig" index="15794w" />
+      <concept id="6473715840833912944" name="de.itemis.mps.compare.structure.QueryFunction_GeneratorOptions" flags="ig" index="1krG8M" />
       <concept id="6325604991668181367" name="de.itemis.mps.compare.structure.AssertGeneratedModelEquals" flags="ng" index="3y6c_e">
         <reference id="6325604991668503306" name="generationPlan" index="3y7XcN" />
         <child id="289600057226489406" name="customOrdering" index="2XVze9" />
@@ -410,9 +410,9 @@
         <child id="3942143736278655459" name="ignoredReferences" index="18RIWO" />
         <child id="2691439673111601841" name="ignoredProperties" index="1nr0yI" />
       </concept>
-      <concept id="2789267658891026142" name="de.itemis.mps.compare.structure.QueryFunction_WhiteSpaceHandling" flags="ng" index="1L6yrQ" />
-      <concept id="2529503557098113363" name="de.itemis.mps.compare.structure.QueryFunction_IgnoreCase" flags="ng" index="1LWhd6" />
-      <concept id="1161622665029" name="de.itemis.mps.compare.structure.ConceptFunctionParameter_OutputModel" flags="ng" index="1Q6Npb" />
+      <concept id="2789267658891026142" name="de.itemis.mps.compare.structure.QueryFunction_WhiteSpaceHandling" flags="ig" index="1L6yrQ" />
+      <concept id="2529503557098113363" name="de.itemis.mps.compare.structure.QueryFunction_IgnoreCase" flags="ig" index="1LWhd6" />
+      <concept id="1161622665029" name="de.itemis.mps.compare.structure.ConceptFunctionParameter_OutputModel" flags="nn" index="1Q6Npb" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">

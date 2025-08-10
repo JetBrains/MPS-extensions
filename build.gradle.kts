@@ -188,11 +188,11 @@ dependencies {
 
     "batik"("org.apache.xmlgraphics:batik-all:1.19")
 
-    "commons"("org.apache.commons:commons-csv:1.14.0")
+    "commons"("org.apache.commons:commons-csv:1.14.1")
     "commons"("commons-io:commons-io:2.20.0")
     "commons"("org.apache.commons:commons-lang3:3.18.0")
     "commons"("org.apache.commons:commons-math3:3.6.1")
-    "commons"("org.apache.commons:commons-csv:1.14.0")
+    "commons"("org.apache.commons:commons-csv:1.14.1")
     "commons"("commons-primitives:commons-primitives:1.0")
     "commons"("com.miglayout:miglayout-core:11.4.2")
     "commons"("com.miglayout:miglayout-swing:11.4.2")

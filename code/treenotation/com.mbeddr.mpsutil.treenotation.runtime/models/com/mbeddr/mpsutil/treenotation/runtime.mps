@@ -3823,6 +3823,112 @@
       </node>
       <node concept="3Tm1VV" id="2rPTijxmmVE" role="1B3o_S" />
     </node>
+    <node concept="3clFb_" id="10diQy004nu" role="jymVt">
+      <property role="TrG5h" value="renderText" />
+      <node concept="3Tm1VV" id="10diQy004nv" role="1B3o_S" />
+      <node concept="3uibUv" id="10diQy004nx" role="3clF45">
+        <ref role="3uigEE" to="cj4x:~TextBuilder" resolve="TextBuilder" />
+      </node>
+      <node concept="3clFbS" id="10diQy004ny" role="3clF47">
+        <node concept="3cpWs8" id="10diQy00Ay1" role="3cqZAp">
+          <node concept="3cpWsn" id="10diQy00Ay2" role="3cpWs9">
+            <property role="TrG5h" value="builder" />
+            <node concept="3uibUv" id="10diQy00Ay3" role="1tU5fm">
+              <ref role="3uigEE" to="cj4x:~TextBuilder" resolve="TextBuilder" />
+            </node>
+            <node concept="2ShNRf" id="10diQy00HY_" role="33vP2m">
+              <node concept="1pGfFk" id="10diQy00P_3" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;()" resolve="TextBuilderImpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="10diQy0hsaa" role="3cqZAp">
+          <node concept="3clFbS" id="10diQy0hsac" role="3clFbx">
+            <node concept="3clFbF" id="10diQy012Mw" role="3cqZAp">
+              <node concept="2OqwBi" id="10diQy017KT" role="3clFbG">
+                <node concept="37vLTw" id="10diQy012Mu" role="2Oq$k0">
+                  <ref role="3cqZAo" node="10diQy00Ay2" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="10diQy01dMy" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~TextBuilder.appendToTheBottom(jetbrains.mps.openapi.editor.TextBuilder)" resolve="appendToTheBottom" />
+                  <node concept="2OqwBi" id="10diQy029Hf" role="37wK5m">
+                    <node concept="37vLTw" id="10diQy01Mwa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7GMtHW6$AKZ" resolve="myTreeRootCell" />
+                    </node>
+                    <node concept="liA8E" id="10diQy02fd1" role="2OqNvi">
+                      <ref role="37wK5l" to="f4zo:~EditorCell.renderText()" resolve="renderText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="10diQy020lD" role="3cqZAp">
+              <node concept="2OqwBi" id="10diQy024jv" role="3clFbG">
+                <node concept="37vLTw" id="10diQy020lB" role="2Oq$k0">
+                  <ref role="3cqZAo" node="10diQy00Ay2" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="10diQy02mZd" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~TextBuilder.appendToTheBottom(jetbrains.mps.openapi.editor.TextBuilder)" resolve="appendToTheBottom" />
+                  <node concept="2ShNRf" id="10diQy02tnu" role="37wK5m">
+                    <node concept="1pGfFk" id="10diQy02$aL" role="2ShVmc">
+                      <property role="373rjd" value="true" />
+                      <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+                      <node concept="Xl_RD" id="10diQy02BT4" role="37wK5m">
+                        <property role="Xl_RC" value="↓" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="10diQy0hPlU" role="3clFbw">
+            <node concept="10Nm6u" id="10diQy0hUVO" role="3uHU7w" />
+            <node concept="37vLTw" id="10diQy0hyAw" role="3uHU7B">
+              <ref role="3cqZAo" node="7GMtHW6$AKZ" resolve="myTreeRootCell" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="10diQy0ildy" role="3cqZAp">
+          <node concept="3clFbS" id="10diQy0ild$" role="3clFbx">
+            <node concept="3clFbF" id="10diQy03a4E" role="3cqZAp">
+              <node concept="2OqwBi" id="10diQy03f3w" role="3clFbG">
+                <node concept="37vLTw" id="10diQy03a4C" role="2Oq$k0">
+                  <ref role="3cqZAo" node="10diQy00Ay2" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="10diQy03l8u" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~TextBuilder.appendToTheBottom(jetbrains.mps.openapi.editor.TextBuilder)" resolve="appendToTheBottom" />
+                  <node concept="2OqwBi" id="10diQy03zv$" role="37wK5m">
+                    <node concept="37vLTw" id="10diQy03utM" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7GMtHW6$C4H" resolve="myTreeChildrenCell" />
+                    </node>
+                    <node concept="liA8E" id="10diQy03Dnj" role="2OqNvi">
+                      <ref role="37wK5l" to="f4zo:~EditorCell.renderText()" resolve="renderText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="10diQy0iwVR" role="3clFbw">
+            <node concept="10Nm6u" id="10diQy0iyty" role="3uHU7w" />
+            <node concept="37vLTw" id="10diQy0ir2P" role="3uHU7B">
+              <ref role="3cqZAo" node="7GMtHW6$C4H" resolve="myTreeChildrenCell" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="10diQy03PJ4" role="3cqZAp">
+          <node concept="37vLTw" id="10diQy03PJ2" role="3clFbG">
+            <ref role="3cqZAo" node="10diQy00Ay2" resolve="builder" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="10diQy004nz" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7uOgiTbve2">
     <property role="TrG5h" value="TreeCellLayout" />

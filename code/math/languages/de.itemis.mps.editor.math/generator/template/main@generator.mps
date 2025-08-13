@@ -1593,7 +1593,7 @@
                             <node concept="2ShNRf" id="inTShhi7Cf" role="33vP2m">
                               <node concept="1pGfFk" id="inTShhicKB" role="2ShVmc">
                                 <property role="373rjd" value="true" />
-                                <ref role="37wK5l" to="fbzs:~Rectangle2D$Float.&lt;init&gt;(float,float,float,float)" resolve="Float" />
+                                <ref role="37wK5l" to="fbzs:~Rectangle2D$Float.&lt;init&gt;(float,float,float,float)" resolve="Rectangle2D.Float" />
                                 <node concept="2OqwBi" id="inTShhimU4" role="37wK5m">
                                   <node concept="Xjq3P" id="inTShhiiML" role="2Oq$k0" />
                                   <node concept="liA8E" id="inTShhiriH" role="2OqNvi">
@@ -1682,7 +1682,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="inTShgZLyF" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                       <node concept="1W57fq" id="inTShh0vGW" role="lGtFl">
                         <node concept="3IZrLx" id="inTShh0vGX" role="3IZSJc">
@@ -2248,7 +2248,7 @@
                       <node concept="2OqwBi" id="inTShgYCLY" role="2Oq$k0">
                         <node concept="30H73N" id="inTShgYBS1" role="2Oq$k0" />
                         <node concept="3TrEf2" id="inTShgYEmT" role="2OqNvi">
-                          <ref role="3Tt5mk" to="x4fh:inTShgXvMi" resolve="textFunction" />
+                          <ref role="3Tt5mk" to="x4fh:inTShgXvMi" resolve="renderTextFunction" />
                         </node>
                       </node>
                       <node concept="3TrEf2" id="inTShgYG6$" role="2OqNvi">
@@ -2266,7 +2266,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="inTShgYxqg" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="1W57fq" id="inTShgYzTv" role="lGtFl">
         <node concept="3IZrLx" id="inTShgYzTw" role="3IZSJc">
@@ -2276,7 +2276,7 @@
                 <node concept="2OqwBi" id="inTShgY$XK" role="2Oq$k0">
                   <node concept="30H73N" id="inTShgY$zo" role="2Oq$k0" />
                   <node concept="3TrEf2" id="inTShgY_c4" role="2OqNvi">
-                    <ref role="3Tt5mk" to="x4fh:inTShgXvMi" resolve="textFunction" />
+                    <ref role="3Tt5mk" to="x4fh:inTShgXvMi" resolve="renderTextFunction" />
                   </node>
                 </node>
                 <node concept="3x8VRR" id="inTShgYAtd" role="2OqNvi" />
@@ -2436,7 +2436,7 @@
               </node>
             </node>
             <node concept="2AHcQZ" id="inTShhdmM4" role="2AJF6D">
-              <ref role="2AI5Lk" to="wyt6:~Override" />
+              <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
             </node>
             <node concept="1W57fq" id="inTShhdtT5" role="lGtFl">
               <node concept="3IZrLx" id="inTShhdtT6" role="3IZSJc">

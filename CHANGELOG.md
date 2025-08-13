@@ -17,6 +17,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *com.mbeddr.mpsutil.grammarcells* The default transformation text for optional cells was improved.
 - *de.itemis.mps.linenumbers* Line numbers should show again on first editor opening. They were disabled for VCS editor components.
 - *de.itemis.mps.linenumbers* Line numbers are now rendered center-aligned in the left column.
+- Copying of custom cells and editors with custom swing components to plain text was improved.
 
 ## July 2025
 

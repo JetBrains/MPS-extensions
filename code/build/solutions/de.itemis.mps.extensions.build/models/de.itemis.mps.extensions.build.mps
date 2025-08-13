@@ -22411,7 +22411,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="34tM7SkU508" role="3989C9">
-      <property role="TrG5h" value="math-demo" />
+      <property role="TrG5h" value="math" />
       <node concept="1E1JtD" id="34tM7SkU5c3" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.editor.math.demolang" />
@@ -22666,6 +22666,66 @@
             <node concept="3qWCbU" id="7q24334ZKQx" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="inTShjy1w6" role="2G$12L">
+        <property role="TrG5h" value="de.itemis.mps.editor.math.tests" />
+        <property role="3LESm3" value="7b2e838c-d468-46fd-a3fd-e816e68d5f39" />
+        <property role="BnDLt" value="true" />
+        <node concept="398BVA" id="inTShjy1w7" role="3LF7KH">
+          <ref role="398BVh" node="7qi8mU1Ozyi" resolve="math.home" />
+          <node concept="2Ry0Ak" id="inTShjy1w8" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="inTShjy1w9" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.mps.editor.math.tests" />
+              <node concept="2Ry0Ak" id="inTShjy1xM" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.editor.math.tests.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="inTShjy1wd" role="3bR31x">
+          <node concept="3LXTmp" id="inTShjy1we" role="3rtmxm">
+            <node concept="3qWCbU" id="inTShjy1wf" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="inTShjy1wg" role="3LXTmr">
+              <ref role="398BVh" node="7qi8mU1Ozyi" resolve="math.home" />
+              <node concept="2Ry0Ak" id="inTShjy1wh" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="inTShjy1wi" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.math.sandbox" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="inTShjy1wj" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="inTShjy1R8" role="1HemKq">
+            <node concept="398BVA" id="inTShjy1QN" role="3LXTmr">
+              <ref role="398BVh" node="7qi8mU1Ozyi" resolve="math.home" />
+              <node concept="2Ry0Ak" id="inTShjy1QO" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="inTShjy1QP" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.math.tests" />
+                  <node concept="2Ry0Ak" id="inTShjy1QQ" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="inTShjy1R9" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="inTShjy1QL" role="3bR37C">
+          <node concept="3bR9La" id="inTShjy1QM" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
           </node>
         </node>
       </node>
@@ -25298,6 +25358,9 @@
       </node>
       <node concept="L2wRC" id="2cqAxlkHiqI" role="39821P">
         <ref role="L2wRA" node="2cqAxlknq_h" resolve="com.mbeddr.mpsutil.comparator.diff.tests" />
+      </node>
+      <node concept="L2wRC" id="inTShjy23t" role="39821P">
+        <ref role="L2wRA" node="inTShjy1w6" resolve="de.itemis.mps.editor.math.tests" />
       </node>
     </node>
     <node concept="2igEWh" id="H43MYuxQDj" role="1hWBAP">

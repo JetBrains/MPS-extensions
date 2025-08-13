@@ -400,7 +400,7 @@
         <ref role="1NtTu8" to="96v7:73f6OzXxOZS" resolve="body" />
       </node>
       <node concept="1AGncr" id="4XhobVUfyBf" role="2dIXc_">
-        <ref role="1AGmCo" to="zva4:6vUATgmxhhb" resolve="ArrowLeft" />
+        <ref role="1AGmCo" to="zva4:6vUATgmxhhb" resolve="ArrowRight" />
       </node>
     </node>
   </node>

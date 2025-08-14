@@ -31,6 +31,7 @@
     <import index="qjvf" ref="r:82cadfba-0fcc-402e-8eaa-37395d383fb6(com.mbeddr.mpsutil.compare.behavior)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -227,7 +228,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -243,6 +243,11 @@
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -484,8 +489,39 @@
                         <ref role="3uigEE" to="qqrq:~JBCheckBox" resolve="JBCheckBox" />
                       </node>
                       <node concept="2ShNRf" id="6Od11GY5Tpi" role="33vP2m">
-                        <node concept="1pGfFk" id="6Od11GY5Tph" role="2ShVmc">
-                          <ref role="37wK5l" to="qqrq:~JBCheckBox.&lt;init&gt;()" resolve="JBCheckBox" />
+                        <node concept="YeOm9" id="inTShirt1e" role="2ShVmc">
+                          <node concept="1Y3b0j" id="inTShirt1h" role="YeSDq">
+                            <property role="2bfB8j" value="true" />
+                            <property role="373rjd" value="true" />
+                            <ref role="37wK5l" to="qqrq:~JBCheckBox.&lt;init&gt;()" resolve="JBCheckBox" />
+                            <ref role="1Y3XeK" to="qqrq:~JBCheckBox" resolve="JBCheckBox" />
+                            <node concept="3Tm1VV" id="inTShirt1i" role="1B3o_S" />
+                            <node concept="3clFb_" id="inTShirt96" role="jymVt">
+                              <property role="TrG5h" value="toString" />
+                              <node concept="3Tm1VV" id="inTShirt97" role="1B3o_S" />
+                              <node concept="3uibUv" id="inTShirt99" role="3clF45">
+                                <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+                              </node>
+                              <node concept="3clFbS" id="inTShirt9o" role="3clF47">
+                                <node concept="3clFbF" id="inTShirB9b" role="3cqZAp">
+                                  <node concept="3K4zz7" id="inTShirB9c" role="3clFbG">
+                                    <node concept="Xl_RD" id="inTShirB9d" role="3K4E3e">
+                                      <property role="Xl_RC" value="☒" />
+                                    </node>
+                                    <node concept="Xl_RD" id="inTShirB9e" role="3K4GZi">
+                                      <property role="Xl_RC" value="☐" />
+                                    </node>
+                                    <node concept="1rXfSq" id="inTShirB9f" role="3K4Cdx">
+                                      <ref role="37wK5l" to="dxuu:~AbstractButton.isSelected()" resolve="isSelected" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="2AHcQZ" id="inTShirt9p" role="2AJF6D">
+                                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                              </node>
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -1254,11 +1290,33 @@
                               <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
                             </node>
                             <node concept="2ShNRf" id="5gDLJkKJbYs" role="33vP2m">
-                              <node concept="1pGfFk" id="5gDLJkKJbYt" role="2ShVmc">
-                                <property role="373rjd" value="true" />
-                                <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(java.lang.String)" resolve="JButton" />
-                                <node concept="Xl_RD" id="5gDLJkKJbYu" role="37wK5m">
-                                  <property role="Xl_RC" value="..." />
+                              <node concept="YeOm9" id="inTShipeXm" role="2ShVmc">
+                                <node concept="1Y3b0j" id="inTShipeXp" role="YeSDq">
+                                  <property role="2bfB8j" value="true" />
+                                  <property role="373rjd" value="true" />
+                                  <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(java.lang.String)" resolve="JButton" />
+                                  <ref role="1Y3XeK" to="dxuu:~JButton" resolve="JButton" />
+                                  <node concept="3Tm1VV" id="inTShipeXq" role="1B3o_S" />
+                                  <node concept="Xl_RD" id="5gDLJkKJbYu" role="37wK5m">
+                                    <property role="Xl_RC" value="..." />
+                                  </node>
+                                  <node concept="3clFb_" id="inTShipgtN" role="jymVt">
+                                    <property role="TrG5h" value="toString" />
+                                    <node concept="3Tm1VV" id="inTShipgtO" role="1B3o_S" />
+                                    <node concept="3uibUv" id="inTShipgtQ" role="3clF45">
+                                      <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+                                    </node>
+                                    <node concept="3clFbS" id="inTShipgu1" role="3clF47">
+                                      <node concept="3clFbF" id="inTShipkd8" role="3cqZAp">
+                                        <node concept="Xl_RD" id="inTShipkd7" role="3clFbG">
+                                          <property role="Xl_RC" value="path chooser" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2AHcQZ" id="inTShipgu2" role="2AJF6D">
+                                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -1763,8 +1821,39 @@
                   <ref role="3uigEE" to="qqrq:~JBCheckBox" resolve="JBCheckBox" />
                 </node>
                 <node concept="2ShNRf" id="H43MYuWsRg" role="33vP2m">
-                  <node concept="1pGfFk" id="H43MYuWsRh" role="2ShVmc">
-                    <ref role="37wK5l" to="qqrq:~JBCheckBox.&lt;init&gt;()" resolve="JBCheckBox" />
+                  <node concept="YeOm9" id="inTShimTNc" role="2ShVmc">
+                    <node concept="1Y3b0j" id="inTShimTNf" role="YeSDq">
+                      <property role="2bfB8j" value="true" />
+                      <property role="373rjd" value="true" />
+                      <ref role="37wK5l" to="qqrq:~JBCheckBox.&lt;init&gt;()" resolve="JBCheckBox" />
+                      <ref role="1Y3XeK" to="qqrq:~JBCheckBox" resolve="JBCheckBox" />
+                      <node concept="3Tm1VV" id="inTShimTNg" role="1B3o_S" />
+                      <node concept="3clFb_" id="inTShimTV4" role="jymVt">
+                        <property role="TrG5h" value="toString" />
+                        <node concept="3Tm1VV" id="inTShimTV5" role="1B3o_S" />
+                        <node concept="3uibUv" id="inTShimTV7" role="3clF45">
+                          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+                        </node>
+                        <node concept="3clFbS" id="inTShimTVm" role="3clF47">
+                          <node concept="3clFbF" id="inTShinabz" role="3cqZAp">
+                            <node concept="3K4zz7" id="inTShinnFu" role="3clFbG">
+                              <node concept="Xl_RD" id="inTShinouV" role="3K4E3e">
+                                <property role="Xl_RC" value="☒" />
+                              </node>
+                              <node concept="Xl_RD" id="inTShinwLr" role="3K4GZi">
+                                <property role="Xl_RC" value="☐" />
+                              </node>
+                              <node concept="1rXfSq" id="inTShioCJs" role="3K4Cdx">
+                                <ref role="37wK5l" to="dxuu:~AbstractButton.isSelected()" resolve="isSelected" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2AHcQZ" id="inTShimTVn" role="2AJF6D">
+                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

@@ -534,6 +534,41 @@
             <property role="3oM_SC" value="improved." />
           </node>
         </node>
+        <node concept="2DRihI" id="inTShjJceS" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="inTShjJcj5" role="1PaTwD">
+            <node concept="37shsh" id="inTShjJcj7" role="15Aodc">
+              <node concept="1dCxOk" id="inTShjJcjv" role="37shsm">
+                <property role="1XweGW" value="766348f7-6a67-4b85-9323-384840132299" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.math" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="inTShjJcjZ" role="1PaTwD">
+            <property role="3oM_SC" value="Wrong" />
+          </node>
+          <node concept="3oM_SD" id="inTShjJck9" role="1PaTwD">
+            <property role="3oM_SC" value="layouting" />
+          </node>
+          <node concept="3oM_SD" id="inTShjJckI" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="inTShjJckJ" role="1PaTwD">
+            <property role="3oM_SC" value="some" />
+          </node>
+          <node concept="3oM_SD" id="inTShjJckK" role="1PaTwD">
+            <property role="3oM_SC" value="math" />
+          </node>
+          <node concept="3oM_SD" id="inTShjJckU" role="1PaTwD">
+            <property role="3oM_SC" value="cells" />
+          </node>
+          <node concept="3oM_SD" id="inTShjJckV" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="inTShjJckW" role="1PaTwD">
+            <property role="3oM_SC" value="fixed." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="7TVB4chcCo0" role="15bmVC">

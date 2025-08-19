@@ -470,12 +470,12 @@ tasks.register<Exec>("pipInstall") {
 
 tasks.register<Exec>("previewDocs") {
     dependsOn("pipInstall")
-    commandLine("mkdocs", "serve")
+    commandLine("python3", "-m", "mkdocs", "serve")
 }
 
 tasks.register<Exec>("deployDocs") {
     dependsOn("pipInstall")
-    commandLine("mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force")
+    commandLine("python3", "-", "mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force")
 }
 
 defaultTasks("build_languages")

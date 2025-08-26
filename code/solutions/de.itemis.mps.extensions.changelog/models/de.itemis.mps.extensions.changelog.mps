@@ -246,7 +246,7 @@
             <node concept="37shsh" id="iyWIxtkUSK" role="15Aodc">
               <node concept="1dCxOk" id="iyWIxtkUSP" role="37shsm">
                 <property role="1XweGW" value="c6420b75-4569-420d-aaf7-9bc590ad7b2a" />
-                <property role="1XxBO9" value="com.mbeddr.mpsutil.comparator" />
+                <property role="1XxBO9" value="de.itemis.mps.comparator" />
               </node>
             </node>
           </node>
@@ -272,7 +272,7 @@
             <node concept="37shsh" id="iyWIxtkUXJ" role="15Aodc">
               <node concept="1dCxOk" id="iyWIxtkUXT" role="37shsm">
                 <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
-                <property role="1XxBO9" value="com.mbeddr.mpsutil.compare" />
+                <property role="1XxBO9" value="de.itemis.mps.compare" />
               </node>
             </node>
           </node>
@@ -588,7 +588,7 @@
             <node concept="37shsh" id="68gYn1Nlba$" role="15Aodc">
               <node concept="1dCxOk" id="68gYn1Nlbip" role="37shsm">
                 <property role="1XweGW" value="c6420b75-4569-420d-aaf7-9bc590ad7b2a" />
-                <property role="1XxBO9" value="com.mbeddr.mpsutil.comparator" />
+                <property role="1XxBO9" value="de.itemis.mps.comparator" />
               </node>
             </node>
           </node>
@@ -632,7 +632,7 @@
             <node concept="37shsh" id="7IJcaFS9GJt" role="15Aodc">
               <node concept="1dCxOk" id="7IJcaFS9GJz" role="37shsm">
                 <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
-                <property role="1XxBO9" value="com.mbeddr.mpsutil.compare" />
+                <property role="1XxBO9" value="de.itemis.mps.compare" />
               </node>
             </node>
           </node>
@@ -717,7 +717,7 @@
             <node concept="37shsh" id="2sbLIdzJ_hv" role="15Aodc">
               <node concept="1dCxOk" id="2sbLIdzJ_QE" role="37shsm">
                 <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
-                <property role="1XxBO9" value="com.mbeddr.mpsutil.compare" />
+                <property role="1XxBO9" value="de.itemis.mps.compare" />
               </node>
             </node>
           </node>
@@ -1003,7 +1003,7 @@
             <node concept="37shsh" id="7qF8EPz$JgJ" role="15Aodc">
               <node concept="1dCxOk" id="7qF8EPz$JgO" role="37shsm">
                 <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
-                <property role="1XxBO9" value="com.mbeddr.mpsutil.compare" />
+                <property role="1XxBO9" value="de.itemis.mps.compare" />
               </node>
             </node>
           </node>
@@ -1214,7 +1214,7 @@
             <node concept="37shsh" id="Ov8NH9d5KU" role="15Aodc">
               <node concept="1dCxOk" id="Ov8NH9d5KZ" role="37shsm">
                 <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
-                <property role="1XxBO9" value="com.mbeddr.mpsutil.compare" />
+                <property role="1XxBO9" value="de.itemis.mps.compare" />
               </node>
             </node>
           </node>
@@ -1361,7 +1361,7 @@
             <node concept="37shsh" id="2qPu2xpL4Xx" role="15Aodc">
               <node concept="1dCxOk" id="2qPu2xpL4XB" role="37shsm">
                 <property role="1XweGW" value="f47b95d4-5e73-4c04-9204-18076950153b" />
-                <property role="1XxBO9" value="com.mbeddr.mpsutil.compare" />
+                <property role="1XxBO9" value="de.itemis.mps.compare" />
               </node>
             </node>
           </node>

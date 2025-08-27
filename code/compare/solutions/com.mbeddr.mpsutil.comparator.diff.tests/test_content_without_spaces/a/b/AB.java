@@ -1,7 +1,0 @@
-packagea.b;
-
-/*GeneratedbyMPS*/
-
-
-publicclassAB{
-}

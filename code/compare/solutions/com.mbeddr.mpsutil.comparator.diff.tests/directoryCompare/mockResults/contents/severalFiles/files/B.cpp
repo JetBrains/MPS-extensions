@@ -1,1 +1,0 @@
-cout << "Hello world" << endl;

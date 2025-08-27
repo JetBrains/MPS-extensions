@@ -2987,6 +2987,9 @@
       <node concept="m$_yC" id="2Xjt3l57cLB" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
+      <node concept="m$_yC" id="j4kCkj5CTn" role="m$_yJ">
+        <ref role="m$_y1" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
+      </node>
       <node concept="3_J27D" id="2Xjt3l57cLC" role="m_cZH">
         <node concept="3Mxwew" id="2Xjt3l57cLD" role="3MwsjC">
           <property role="3MwjfP" value="mps-math-editor" />

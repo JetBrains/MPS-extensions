@@ -101,6 +101,12 @@
     <node concept="PrWs8" id="19RCnNmEWth" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="1TJgyj" id="inTShgZDDx" role="1TKVEi">
+      <property role="IQ2ns" value="330987653115583073" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="renderTextFunction" />
+      <ref role="20lvS9" node="inTShgXxuv" resolve="TextBuilderFunction" />
+    </node>
   </node>
   <node concept="1TIwiD" id="9L22EoWidN">
     <property role="TrG5h" value="LayoutFunction" />
@@ -191,6 +197,12 @@
     </node>
     <node concept="PrWs8" id="7UiI8OnJHQt" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="inTShgXvMi" role="1TKVEi">
+      <property role="IQ2ns" value="330987653115018386" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="renderTextFunction" />
+      <ref role="20lvS9" node="inTShgXxuv" resolve="TextBuilderFunction" />
     </node>
   </node>
   <node concept="1TIwiD" id="7UiI8OnHTRi">
@@ -322,6 +334,12 @@
     <node concept="PrWs8" id="7UiI8Op0Lx9" role="PzmwI">
       <ref role="PrY4T" node="7UiI8Oo8WZA" resolve="IMathSymbol" />
     </node>
+    <node concept="1TJgyj" id="inTShhdm4F" role="1TKVEi">
+      <property role="IQ2ns" value="330987653119172907" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="renderTextFunction" />
+      <ref role="20lvS9" node="inTShgXxuv" resolve="TextBuilderFunction" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2d15myJeBOL">
     <property role="TrG5h" value="Parameter_Symbols" />
@@ -338,6 +356,11 @@
   <node concept="1TIwiD" id="7sJd_4s1VjR">
     <property role="TrG5h" value="InitFunction" />
     <property role="EcuMT" value="8588142736409343223" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="inTShgXxuv">
+    <property role="TrG5h" value="TextBuilderFunction" />
+    <property role="EcuMT" value="330987653115025311" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>

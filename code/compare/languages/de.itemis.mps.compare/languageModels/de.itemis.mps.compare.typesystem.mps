@@ -208,6 +208,45 @@
           <node concept="3x8VRR" id="5ktnDmVWupE" role="2OqNvi" />
         </node>
       </node>
+      <node concept="3clFbJ" id="iyWIxs9f31" role="3cqZAp">
+        <node concept="3clFbS" id="iyWIxs9f32" role="3clFbx">
+          <node concept="1ZobV4" id="iyWIxs9f33" role="3cqZAp">
+            <property role="3wDh2S" value="true" />
+            <node concept="mw_s8" id="iyWIxs9f34" role="1ZfhK$">
+              <node concept="1Z2H0r" id="iyWIxs9f35" role="mwGJk">
+                <node concept="2OqwBi" id="iyWIxs9f36" role="1Z2MuG">
+                  <node concept="1YBJjd" id="iyWIxs9f37" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2lpUxXMeGs5" resolve="assertNodeEquals" />
+                  </node>
+                  <node concept="3TrEf2" id="iyWIxs9f38" role="2OqNvi">
+                    <ref role="3Tt5mk" to="8do3:iyWIxs9bN3" resolve="ignoredChildren" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="mw_s8" id="iyWIxs9f39" role="1ZfhKB">
+              <node concept="2c44tf" id="iyWIxs9f3a" role="mwGJk">
+                <node concept="_YKpA" id="iyWIxs9f3b" role="2c44tc">
+                  <node concept="3uibUv" id="iyWIxs9f3c" role="_ZDj9">
+                    <ref role="3uigEE" to="mqum:iyWIxrTIlz" resolve="IgnoredChild" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="iyWIxs9f3d" role="3clFbw">
+          <node concept="2OqwBi" id="iyWIxs9f3e" role="2Oq$k0">
+            <node concept="1YBJjd" id="iyWIxs9f3f" role="2Oq$k0">
+              <ref role="1YBMHb" node="2lpUxXMeGs5" resolve="assertNodeEquals" />
+            </node>
+            <node concept="3TrEf2" id="iyWIxs9f3g" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:iyWIxs9bN3" resolve="ignoredChildren" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="iyWIxs9f3h" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="3clFbJ" id="5ktnDmVWuwJ" role="3cqZAp">
         <node concept="3clFbS" id="5ktnDmVWuwL" role="3clFbx">
           <node concept="1ZobV4" id="t0OlD0YHDr" role="3cqZAp">
@@ -398,6 +437,47 @@
           <node concept="3x8VRR" id="5ktnDmVWWtL" role="2OqNvi" />
         </node>
       </node>
+      <node concept="3clFbJ" id="iyWIxs65yY" role="3cqZAp">
+        <node concept="3clFbS" id="iyWIxs65yZ" role="3clFbx">
+          <node concept="1Z5TYs" id="iyWIxs65z0" role="3cqZAp">
+            <node concept="mw_s8" id="iyWIxs65z1" role="1ZfhKB">
+              <node concept="2c44tf" id="iyWIxs65z2" role="mwGJk">
+                <node concept="_YKpA" id="iyWIxs65z3" role="2c44tc">
+                  <node concept="3uibUv" id="iyWIxs65z4" role="_ZDj9">
+                    <ref role="3uigEE" to="mqum:iyWIxrTIlz" resolve="IgnoredChild" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="mw_s8" id="iyWIxs65z5" role="1ZfhK$">
+              <node concept="1Z2H0r" id="iyWIxs65z6" role="mwGJk">
+                <node concept="2OqwBi" id="iyWIxs65z7" role="1Z2MuG">
+                  <node concept="1YBJjd" id="iyWIxs65z8" role="2Oq$k0">
+                    <ref role="1YBMHb" node="1_DWnhqnLJ$" resolve="areEqualExpression" />
+                  </node>
+                  <node concept="3TrEf2" id="iyWIxs65z9" role="2OqNvi">
+                    <ref role="3Tt5mk" to="8do3:iyWIxs65gJ" resolve="ignoredChildren" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1YBJjd" id="iyWIxs65za" role="1ZmcU8">
+              <ref role="1YBMHb" node="1_DWnhqnLJ$" resolve="areEqualExpression" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="iyWIxs65zb" role="3clFbw">
+          <node concept="2OqwBi" id="iyWIxs65zc" role="2Oq$k0">
+            <node concept="1YBJjd" id="iyWIxs65zd" role="2Oq$k0">
+              <ref role="1YBMHb" node="1_DWnhqnLJ$" resolve="areEqualExpression" />
+            </node>
+            <node concept="3TrEf2" id="iyWIxs65ze" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:iyWIxs65gJ" resolve="ignoredChildren" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="iyWIxs65zf" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="3clFbJ" id="5ktnDmVWW$G" role="3cqZAp">
         <node concept="3clFbS" id="5ktnDmVWW$I" role="3clFbx">
           <node concept="1Z5TYs" id="3qPjHtY$at_" role="3cqZAp">
@@ -585,6 +665,46 @@
         </node>
       </node>
       <node concept="3clFbH" id="5Bng$8dIiqC" role="3cqZAp" />
+      <node concept="3clFbJ" id="iyWIxs7s5J" role="3cqZAp">
+        <node concept="3clFbS" id="iyWIxs7s5K" role="3clFbx">
+          <node concept="1ZobV4" id="iyWIxs7s5L" role="3cqZAp">
+            <property role="3wDh2S" value="true" />
+            <node concept="mw_s8" id="iyWIxs7s5M" role="1ZfhK$">
+              <node concept="1Z2H0r" id="iyWIxs7s5N" role="mwGJk">
+                <node concept="2OqwBi" id="iyWIxs7s5O" role="1Z2MuG">
+                  <node concept="1YBJjd" id="iyWIxs7s5P" role="2Oq$k0">
+                    <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
+                  </node>
+                  <node concept="3TrEf2" id="iyWIxs7s5Q" role="2OqNvi">
+                    <ref role="3Tt5mk" to="8do3:iyWIxs7q$c" resolve="ignoredChildren" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="mw_s8" id="iyWIxs7s5R" role="1ZfhKB">
+              <node concept="2c44tf" id="iyWIxs7s5S" role="mwGJk">
+                <node concept="_YKpA" id="iyWIxs7s5T" role="2c44tc">
+                  <node concept="3uibUv" id="iyWIxs7s5U" role="_ZDj9">
+                    <ref role="3uigEE" to="mqum:iyWIxrTIlz" resolve="IgnoredChild" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="iyWIxs7s5V" role="3clFbw">
+          <node concept="2OqwBi" id="iyWIxs7s5W" role="2Oq$k0">
+            <node concept="1YBJjd" id="iyWIxs7s5X" role="2Oq$k0">
+              <ref role="1YBMHb" node="5v943APPmC9" resolve="node" />
+            </node>
+            <node concept="3TrEf2" id="iyWIxs7s5Y" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:iyWIxs7q$c" resolve="ignoredChildren" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="iyWIxs7s5Z" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="iyWIxs7s5I" role="3cqZAp" />
       <node concept="3clFbJ" id="5v943APPmBz" role="3cqZAp">
         <node concept="3clFbS" id="5v943APPmB$" role="3clFbx">
           <node concept="1ZobV4" id="t0OlD0YGSk" role="3cqZAp">
@@ -880,106 +1000,6 @@
       <ref role="1YaFvo" to="8do3:7xgxWxIP73_" resolve="IgnoredProperty" />
     </node>
   </node>
-  <node concept="18kY7G" id="2cqAxljjver">
-    <property role="TrG5h" value="check_AssertGeneratedTextModelEqualsFolder" />
-    <node concept="3clFbS" id="2cqAxljjves" role="18ibNy">
-      <node concept="3clFbJ" id="2cqAxljjCON" role="3cqZAp">
-        <node concept="2OqwBi" id="2cqAxljjDI_" role="3clFbw">
-          <node concept="2OqwBi" id="2cqAxljjD64" role="2Oq$k0">
-            <node concept="1YBJjd" id="2cqAxljjCP4" role="2Oq$k0">
-              <ref role="1YBMHb" node="2cqAxljjveu" resolve="assertGeneratedTextModelEqualsFolder" />
-            </node>
-            <node concept="3TrEf2" id="2cqAxljjDwJ" role="2OqNvi">
-              <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
-            </node>
-          </node>
-          <node concept="2qgKlT" id="2cqAxljjDVy" role="2OqNvi">
-            <ref role="37wK5l" to="tpek:i1LOPRp" resolve="isCompileTimeConstant" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="2cqAxljjCOP" role="3clFbx">
-          <node concept="3cpWs8" id="2cqAxljjE1m" role="3cqZAp">
-            <node concept="3cpWsn" id="2cqAxljjE1p" role="3cpWs9">
-              <property role="TrG5h" value="value" />
-              <node concept="17QB3L" id="2cqAxljjE1l" role="1tU5fm" />
-              <node concept="2OqwBi" id="2cqAxljl2Hx" role="33vP2m">
-                <node concept="2YIFZM" id="2cqAxljl2lq" role="2Oq$k0">
-                  <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
-                  <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                </node>
-                <node concept="liA8E" id="2cqAxljl32C" role="2OqNvi">
-                  <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
-                  <node concept="0kSF2" id="2cqAxljjFbF" role="37wK5m">
-                    <node concept="3uibUv" id="2cqAxljjFbH" role="0kSFW">
-                      <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-                    </node>
-                    <node concept="2OqwBi" id="2cqAxljjELb" role="0kSFX">
-                      <node concept="2OqwBi" id="2cqAxljjE8T" role="2Oq$k0">
-                        <node concept="1YBJjd" id="2cqAxljjE8U" role="2Oq$k0">
-                          <ref role="1YBMHb" node="2cqAxljjveu" resolve="assertGeneratedTextModelEqualsFolder" />
-                        </node>
-                        <node concept="3TrEf2" id="2cqAxljjE8V" role="2OqNvi">
-                          <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
-                        </node>
-                      </node>
-                      <node concept="2qgKlT" id="2cqAxljjEYs" role="2OqNvi">
-                        <ref role="37wK5l" to="tpek:i1LP2xI" resolve="getCompileTimeConstantValue" />
-                        <node concept="10Nm6u" id="2cqAxljjF0n" role="37wK5m" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbJ" id="2cqAxljjFf$" role="3cqZAp">
-            <node concept="3clFbS" id="2cqAxljjFfA" role="3clFbx">
-              <node concept="a7r0C" id="2cqAxljjLQF" role="3cqZAp">
-                <node concept="Xl_RD" id="2cqAxljjLQO" role="a7wSD">
-                  <property role="Xl_RC" value="The path might not be available" />
-                </node>
-                <node concept="2OqwBi" id="2cqAxljjM5P" role="1urrMF">
-                  <node concept="1YBJjd" id="2cqAxljjLRy" role="2Oq$k0">
-                    <ref role="1YBMHb" node="2cqAxljjveu" resolve="assertGeneratedTextModelEqualsFolder" />
-                  </node>
-                  <node concept="3TrEf2" id="2cqAxljjMDY" role="2OqNvi">
-                    <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1Wc70l" id="2cqAxljjJel" role="3clFbw">
-              <node concept="2OqwBi" id="2cqAxljjGtj" role="3uHU7B">
-                <node concept="37vLTw" id="2cqAxljjFfD" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cqAxljjE1p" resolve="value" />
-                </node>
-                <node concept="17RvpY" id="2cqAxljjHkr" role="2OqNvi" />
-              </node>
-              <node concept="3clFbC" id="2cqAxljjLvO" role="3uHU7w">
-                <node concept="10Nm6u" id="2cqAxljjLPr" role="3uHU7w" />
-                <node concept="2OqwBi" id="2cqAxljjJYq" role="3uHU7B">
-                  <node concept="2YIFZM" id="2cqAxljjJpW" role="2Oq$k0">
-                    <ref role="37wK5l" to="jlff:~LocalFileSystem.getInstance()" resolve="getInstance" />
-                    <ref role="1Pybhc" to="jlff:~LocalFileSystem" resolve="LocalFileSystem" />
-                  </node>
-                  <node concept="liA8E" id="2cqAxljjKvm" role="2OqNvi">
-                    <ref role="37wK5l" to="jlff:~VirtualFileSystem.findFileByPath(java.lang.String)" resolve="findFileByPath" />
-                    <node concept="37vLTw" id="2cqAxljjKEB" role="37wK5m">
-                      <ref role="3cqZAo" node="2cqAxljjE1p" resolve="value" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="2cqAxljjveu" role="1YuTPh">
-      <property role="TrG5h" value="assertGeneratedTextModelEqualsFolder" />
-      <ref role="1YaFvo" to="8do3:5gDLJkKHrWc" resolve="AssertGeneratedTextModelEqualsFolder" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="2cqAxldl96P">
     <property role="TrG5h" value="typeof_AssertGeneratedTextModelEqualsFolder" />
     <node concept="3clFbS" id="2cqAxldl96Q" role="18ibNy">
@@ -1020,6 +1040,46 @@
             </node>
           </node>
           <node concept="3x8VRR" id="2cqAxliAgzt" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="iyWIxs7trk" role="3cqZAp" />
+      <node concept="3clFbJ" id="iyWIxs7trm" role="3cqZAp">
+        <node concept="3clFbS" id="iyWIxs7trn" role="3clFbx">
+          <node concept="1ZobV4" id="iyWIxs7tro" role="3cqZAp">
+            <property role="3wDh2S" value="true" />
+            <node concept="mw_s8" id="iyWIxs7trp" role="1ZfhK$">
+              <node concept="1Z2H0r" id="iyWIxs7trq" role="mwGJk">
+                <node concept="2OqwBi" id="iyWIxs7trr" role="1Z2MuG">
+                  <node concept="1YBJjd" id="iyWIxs7trs" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2cqAxldl96S" resolve="node" />
+                  </node>
+                  <node concept="3TrEf2" id="iyWIxs7trt" role="2OqNvi">
+                    <ref role="3Tt5mk" to="8do3:iyWIxs7q$c" resolve="ignoredChildren" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="mw_s8" id="iyWIxs7tru" role="1ZfhKB">
+              <node concept="2c44tf" id="iyWIxs7trv" role="mwGJk">
+                <node concept="_YKpA" id="iyWIxs7trw" role="2c44tc">
+                  <node concept="3uibUv" id="iyWIxs7trx" role="_ZDj9">
+                    <ref role="3uigEE" to="mqum:iyWIxrTIlz" resolve="IgnoredChild" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="iyWIxs7try" role="3clFbw">
+          <node concept="2OqwBi" id="iyWIxs7trz" role="2Oq$k0">
+            <node concept="1YBJjd" id="iyWIxs7tr$" role="2Oq$k0">
+              <ref role="1YBMHb" node="2cqAxldl96S" resolve="node" />
+            </node>
+            <node concept="3TrEf2" id="iyWIxs7tr_" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:5v943APOt_S" resolve="ignoredProperties" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="iyWIxs7trA" role="2OqNvi" />
         </node>
       </node>
       <node concept="3clFbH" id="2cqAxliAgzu" role="3cqZAp" />
@@ -1253,6 +1313,106 @@
       </node>
     </node>
   </node>
+  <node concept="18kY7G" id="2cqAxljjver">
+    <property role="TrG5h" value="check_AssertGeneratedTextModelEqualsFolder" />
+    <node concept="3clFbS" id="2cqAxljjves" role="18ibNy">
+      <node concept="3clFbJ" id="2cqAxljjCON" role="3cqZAp">
+        <node concept="2OqwBi" id="2cqAxljjDI_" role="3clFbw">
+          <node concept="2OqwBi" id="2cqAxljjD64" role="2Oq$k0">
+            <node concept="1YBJjd" id="2cqAxljjCP4" role="2Oq$k0">
+              <ref role="1YBMHb" node="2cqAxljjveu" resolve="assertGeneratedTextModelEqualsFolder" />
+            </node>
+            <node concept="3TrEf2" id="2cqAxljjDwJ" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
+            </node>
+          </node>
+          <node concept="2qgKlT" id="2cqAxljjDVy" role="2OqNvi">
+            <ref role="37wK5l" to="tpek:i1LOPRp" resolve="isCompileTimeConstant" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="2cqAxljjCOP" role="3clFbx">
+          <node concept="3cpWs8" id="2cqAxljjE1m" role="3cqZAp">
+            <node concept="3cpWsn" id="2cqAxljjE1p" role="3cpWs9">
+              <property role="TrG5h" value="value" />
+              <node concept="17QB3L" id="2cqAxljjE1l" role="1tU5fm" />
+              <node concept="2OqwBi" id="2cqAxljl2Hx" role="33vP2m">
+                <node concept="2YIFZM" id="2cqAxljl2lq" role="2Oq$k0">
+                  <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
+                  <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                </node>
+                <node concept="liA8E" id="2cqAxljl32C" role="2OqNvi">
+                  <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
+                  <node concept="0kSF2" id="2cqAxljjFbF" role="37wK5m">
+                    <node concept="3uibUv" id="2cqAxljjFbH" role="0kSFW">
+                      <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+                    </node>
+                    <node concept="2OqwBi" id="2cqAxljjELb" role="0kSFX">
+                      <node concept="2OqwBi" id="2cqAxljjE8T" role="2Oq$k0">
+                        <node concept="1YBJjd" id="2cqAxljjE8U" role="2Oq$k0">
+                          <ref role="1YBMHb" node="2cqAxljjveu" resolve="assertGeneratedTextModelEqualsFolder" />
+                        </node>
+                        <node concept="3TrEf2" id="2cqAxljjE8V" role="2OqNvi">
+                          <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="2cqAxljjEYs" role="2OqNvi">
+                        <ref role="37wK5l" to="tpek:i1LP2xI" resolve="getCompileTimeConstantValue" />
+                        <node concept="10Nm6u" id="2cqAxljjF0n" role="37wK5m" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="2cqAxljjFf$" role="3cqZAp">
+            <node concept="3clFbS" id="2cqAxljjFfA" role="3clFbx">
+              <node concept="a7r0C" id="2cqAxljjLQF" role="3cqZAp">
+                <node concept="Xl_RD" id="2cqAxljjLQO" role="a7wSD">
+                  <property role="Xl_RC" value="The path might not be available" />
+                </node>
+                <node concept="2OqwBi" id="2cqAxljjM5P" role="1urrMF">
+                  <node concept="1YBJjd" id="2cqAxljjLRy" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2cqAxljjveu" resolve="assertGeneratedTextModelEqualsFolder" />
+                  </node>
+                  <node concept="3TrEf2" id="2cqAxljjMDY" role="2OqNvi">
+                    <ref role="3Tt5mk" to="8do3:7jPoEeD$ZP4" resolve="expected" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="2cqAxljjJel" role="3clFbw">
+              <node concept="2OqwBi" id="2cqAxljjGtj" role="3uHU7B">
+                <node concept="37vLTw" id="2cqAxljjFfD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2cqAxljjE1p" resolve="value" />
+                </node>
+                <node concept="17RvpY" id="2cqAxljjHkr" role="2OqNvi" />
+              </node>
+              <node concept="3clFbC" id="2cqAxljjLvO" role="3uHU7w">
+                <node concept="10Nm6u" id="2cqAxljjLPr" role="3uHU7w" />
+                <node concept="2OqwBi" id="2cqAxljjJYq" role="3uHU7B">
+                  <node concept="2YIFZM" id="2cqAxljjJpW" role="2Oq$k0">
+                    <ref role="37wK5l" to="jlff:~LocalFileSystem.getInstance()" resolve="getInstance" />
+                    <ref role="1Pybhc" to="jlff:~LocalFileSystem" resolve="LocalFileSystem" />
+                  </node>
+                  <node concept="liA8E" id="2cqAxljjKvm" role="2OqNvi">
+                    <ref role="37wK5l" to="jlff:~VirtualFileSystem.findFileByPath(java.lang.String)" resolve="findFileByPath" />
+                    <node concept="37vLTw" id="2cqAxljjKEB" role="37wK5m">
+                      <ref role="3cqZAo" node="2cqAxljjE1p" resolve="value" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2cqAxljjveu" role="1YuTPh">
+      <property role="TrG5h" value="assertGeneratedTextModelEqualsFolder" />
+      <ref role="1YaFvo" to="8do3:5gDLJkKHrWc" resolve="AssertGeneratedTextModelEqualsFolder" />
+    </node>
+  </node>
   <node concept="1YbPZF" id="6MWuQFM2_Gi">
     <property role="TrG5h" value="typeof_AssertFloatEquals" />
     <node concept="3clFbS" id="6MWuQFM2_Gj" role="18ibNy">
@@ -1298,6 +1458,56 @@
     <node concept="1YaCAy" id="6MWuQFM2_Gl" role="1YuTPh">
       <property role="TrG5h" value="assertFloatEquals" />
       <ref role="1YaFvo" to="8do3:6MWuQFM2umD" resolve="AssertFloatEquals" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="iyWIxt7jnp">
+    <property role="TrG5h" value="typeof_IgnoredChild" />
+    <node concept="3clFbS" id="iyWIxt7jnq" role="18ibNy">
+      <node concept="1Z5TYs" id="iyWIxt7jnr" role="3cqZAp">
+        <node concept="mw_s8" id="iyWIxt7jns" role="1ZfhKB">
+          <node concept="2c44tf" id="iyWIxt7jnt" role="mwGJk">
+            <node concept="3uibUv" id="iyWIxt7jnu" role="2c44tc">
+              <ref role="3uigEE" to="mqum:iyWIxrTIlz" resolve="IgnoredChild" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="iyWIxt7jnv" role="1ZfhK$">
+          <node concept="1Z2H0r" id="iyWIxt7jnw" role="mwGJk">
+            <node concept="1YBJjd" id="iyWIxt7jnx" role="1Z2MuG">
+              <ref role="1YBMHb" node="iyWIxt7jny" resolve="ignoredChild" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="iyWIxt7jny" role="1YuTPh">
+      <property role="TrG5h" value="ignoredChild" />
+      <ref role="1YaFvo" to="8do3:iyWIxscoKT" resolve="IgnoredChild" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="iyWIxt7jr9">
+    <property role="TrG5h" value="typeof_IgnoredReference" />
+    <node concept="3clFbS" id="iyWIxt7jra" role="18ibNy">
+      <node concept="1Z5TYs" id="iyWIxt7jrb" role="3cqZAp">
+        <node concept="mw_s8" id="iyWIxt7jrc" role="1ZfhKB">
+          <node concept="2c44tf" id="iyWIxt7jrd" role="mwGJk">
+            <node concept="3uibUv" id="iyWIxt7jre" role="2c44tc">
+              <ref role="3uigEE" to="mqum:2mzdNw3ouFX" resolve="IgnoredReference" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="iyWIxt7jrf" role="1ZfhK$">
+          <node concept="1Z2H0r" id="iyWIxt7jrg" role="mwGJk">
+            <node concept="1YBJjd" id="iyWIxt7jrh" role="1Z2MuG">
+              <ref role="1YBMHb" node="iyWIxt7jri" resolve="ignoredReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="iyWIxt7jri" role="1YuTPh">
+      <property role="TrG5h" value="ignoredReference" />
+      <ref role="1YaFvo" to="8do3:iyWIxsW$$0" resolve="IgnoredReference" />
     </node>
   </node>
 </model>

@@ -937,9 +937,28 @@
         <ref role="3uigEE" to="hyam:~ActionListener" resolve="ActionListener" />
       </node>
     </node>
+    <node concept="2tJIrI" id="inTShidRm3" role="jymVt" />
+    <node concept="2tJIrI" id="inTShidRm4" role="jymVt" />
     <node concept="3Tm1VV" id="5K4KrT2v0$2" role="1B3o_S" />
     <node concept="3uibUv" id="5K4KrT2v0Bf" role="1zkMxy">
       <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
+    </node>
+    <node concept="3clFb_" id="inTShidRvo" role="jymVt">
+      <property role="TrG5h" value="toString" />
+      <node concept="3Tm1VV" id="inTShidRvp" role="1B3o_S" />
+      <node concept="3uibUv" id="inTShidRvr" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+      <node concept="3clFbS" id="inTShidRv_" role="3clF47">
+        <node concept="3clFbF" id="inTShidXhv" role="3cqZAp">
+          <node concept="1rXfSq" id="inTShidXhq" role="3clFbG">
+            <ref role="37wK5l" to="dxuu:~JComponent.getToolTipText()" resolve="getToolTipText" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="inTShidRvA" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="5BoAwgtOr7c">
@@ -3014,6 +3033,24 @@
       <node concept="3Tm1VV" id="7WXxMD90X8R" role="1B3o_S" />
       <node concept="3uibUv" id="7WXxMD911s2" role="3clF45">
         <ref role="3uigEE" node="7WXxMD8XJH0" resolve="PaginationSearchPanel.SearchOptionState" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="inTShidoGJ" role="jymVt" />
+    <node concept="3clFb_" id="inTShidhU8" role="jymVt">
+      <property role="TrG5h" value="toString" />
+      <node concept="3Tm1VV" id="inTShidhU9" role="1B3o_S" />
+      <node concept="3uibUv" id="inTShidhUa" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+      <node concept="3clFbS" id="inTShidhUb" role="3clF47">
+        <node concept="3clFbF" id="inTShidhUv" role="3cqZAp">
+          <node concept="Xl_RD" id="inTShidhUw" role="3clFbG">
+            <property role="Xl_RC" value="search panel" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="inTShidhUx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3Tm1VV" id="ZyH4gwmyfD" role="1B3o_S" />

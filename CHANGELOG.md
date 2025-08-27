@@ -4,12 +4,27 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## August 2025
+
+### Added
+
+- *de.itemis.mps.comparator* Added support for ignoring references.
+- *de.itemis.mps.compare* Added support for ignoring references.
+- *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
+
+### Fixed
+
+- *com.mbeddr.mpsutil.grammarcells* The default transformation text for optional cells was improved.
+- *de.itemis.mps.linenumbers* Line numbers should show again on first editor opening. They were disabled for VCS editor components.
+- *de.itemis.mps.linenumbers* Line numbers are now rendered center-aligned in the left column.
+- Copying of custom cells and editors with custom swing components to plain text was improved.
+
 ## July 2025
 
 ### Fixed
 
 - *jetbrains.mps.lang.smodel.query* A NullPointerException was fixed in the query list typesystem checker.
-- *com.mbeddr.mpsutil.comparator* Custom generation plans of generation options builders are not overwritten anymore.
+- *de.itemis.mps.comparator* Custom generation plans of generation options builders are not overwritten anymore.
 - *de.itemis.mps.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
 
 ### Added

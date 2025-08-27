@@ -453,7 +453,8 @@ publishing {
                         if (it.moduleArtifacts.isNotEmpty()) {
                             dependencyNode.appendNode("type", it.moduleArtifacts.first().type)
                         }
-                        dependencyNode.appendNode("scope", "provided")
+                        dependencyNode.appendNode("scope", "runtime")
+                        dependencyNode.appendNode("optional", "true")
                     }
                 }
             }

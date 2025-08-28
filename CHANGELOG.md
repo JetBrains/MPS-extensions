@@ -11,6 +11,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.comparator* Added support for ignoring references.
 - *de.itemis.mps.compare* Added support for ignoring references.
 - *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
+- *nl.f1re.mpsutil.hasher* Added efficient, configurable hashing of subtrees.
 
 ### Fixed
 

@@ -22,7 +22,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Changed
 
-- *nl.f1re.mps.editor.swing* The experimental stylesheet `IntelliJStyleSheet` was moved to this language. It emulates the style of the IntelliJ UI.
+- *nl.f1re.mps.editor.intellij* The experimental stylesheet `IntelliJStyleSheet` was moved to this language. It emulates the style of the IntelliJ UI.
 
 ## July 2025
 

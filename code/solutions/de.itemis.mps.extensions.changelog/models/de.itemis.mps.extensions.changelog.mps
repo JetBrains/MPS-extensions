@@ -77,7 +77,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -86,7 +86,7 @@
         <child id="3133179214568824810" name="node" index="tu5of" />
       </concept>
       <concept id="1094247804558289146" name="jetbrains.mps.lang.text.structure.BulletLine" flags="ng" index="2DRihI" />
-      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ng" index="2RT3b8">
+      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ngI" index="2RT3b8">
         <property id="5106752179536586491" name="indentation" index="2RT3bR" />
       </concept>
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -575,9 +575,9 @@
         <node concept="2DRihI" id="7wH7VDSCZqw" role="15bAlk">
           <node concept="15Ami3" id="7wH7VDSCZqx" role="1PaTwD">
             <node concept="37shsh" id="7wH7VDSCZqy" role="15Aodc">
-              <node concept="1dCxOk" id="7wH7VDSCZqB" role="37shsm">
-                <property role="1XweGW" value="62971cbe-fd2f-4135-b001-ee6cb7a74436" />
-                <property role="1XxBO9" value="nl.f1re.mps.editor.swing" />
+              <node concept="1dCxOk" id="5vhcTL28s8I" role="37shsm">
+                <property role="1XweGW" value="c673b2ff-1903-4d16-bee8-38f4c343fed5" />
+                <property role="1XxBO9" value="nl.f1re.mps.editor.intellij" />
               </node>
             </node>
           </node>

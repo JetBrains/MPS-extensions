@@ -41,6 +41,7 @@
     <import index="l5y2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui.scale(MPS.IDEA/)" />
     <import index="hhnx" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime(MPS.Editor/)" />
     <import index="9z78" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.border(JDK/)" />
+    <import index="xx1s" ref="r:c79badf9-a5c7-44df-bf4e-4f0ba47cc7bd(nl.f1re.mps.editor.intellij.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -68,7 +69,7 @@
       <concept id="1103016434866" name="jetbrains.mps.lang.editor.structure.CellModel_JComponent" flags="sg" stub="8104358048506731196" index="3gTLQM">
         <child id="1176475119347" name="componentProvider" index="3FoqZy" />
       </concept>
-      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="9122903797312246523" name="jetbrains.mps.lang.editor.structure.StyleReference" flags="ng" index="1wgc9g">
@@ -90,7 +91,7 @@
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1176474535556" name="jetbrains.mps.lang.editor.structure.QueryFunction_JComponent" flags="in" index="3Fmcul" />
@@ -115,7 +116,7 @@
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
@@ -165,7 +166,7 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
         <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
@@ -213,7 +214,7 @@
         <child id="1154542793668" name="componentType" index="3g7fb8" />
         <child id="1154542803372" name="initValue" index="3g7hyw" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -232,7 +233,7 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
@@ -244,9 +245,9 @@
       </concept>
     </language>
     <language id="62971cbe-fd2f-4135-b001-ee6cb7a74436" name="nl.f1re.mps.editor.swing">
-      <concept id="8659612544244102551" name="nl.f1re.mps.editor.swing.structure.QueryFunction_Style" flags="ig" index="00ECH" />
+      <concept id="8659612544244102551" name="nl.f1re.mps.editor.swing.structure.QueryFunction_Font" flags="ig" index="00ECH" />
       <concept id="8659612544238797919" name="nl.f1re.mps.editor.swing.structure.CellModel_CustomJComponent" flags="sg" stub="8659612544238937882" index="fWXJ_">
-        <child id="8659612544244095634" name="styleFunction" index="00CkC" />
+        <child id="8659612544244095634" name="fontFunction" index="00CkC" />
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -286,7 +287,7 @@
       <concept id="3648723375513868532" name="jetbrains.mps.lang.smodel.structure.NodePointer_ResolveOperation" flags="ng" index="Vyspw" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -308,10 +309,10 @@
     <node concept="3EZMnI" id="15bv03kWIhw" role="2wV5jI">
       <node concept="3F0ifn" id="15bv03kWIpo" role="3EZMnx">
         <property role="3F0ifm" value="Button" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="15bv03kWPZO" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="3EZMnI" id="5YyBAPlAbJ4" role="3EZMnx">
         <node concept="fWXJ_" id="7wH7VDRYp6S" role="3EZMnx">
@@ -393,17 +394,17 @@
       </node>
       <node concept="3F0ifn" id="5YyBAPlFN0V" role="3EZMnx">
         <property role="3F0ifm" value="When to use" />
-        <ref role="1k5W1q" to="qw18:36fFDy13Xde" resolve="H1Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13Xde" resolve="H1Bold" />
       </node>
       <node concept="3EZMnI" id="5YyBAPlIaOp" role="3EZMnx">
         <node concept="2iRfu4" id="5YyBAPlIaOq" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPlIby4" role="3EZMnx">
           <property role="3F0ifm" value="01" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPlFNk6" role="3EZMnx">
           <property role="3F0ifm" value="Use a button to invoke an immediate action." />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3F0ifn" id="5YyBAPmb9S3" role="3EZMnx" />
@@ -413,11 +414,11 @@
           <node concept="2iRfu4" id="5YyBAPlIr0B" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPlIr0C" role="3EZMnx">
             <property role="3F0ifm" value="02" />
-            <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+            <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
           </node>
           <node concept="3F0ifn" id="5YyBAPlK6S4" role="3EZMnx">
             <property role="3F0ifm" value="Use a" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
             <node concept="3$7fVu" id="5YyBAPlK6S5" role="3F10Kt">
               <property role="3$6WeP" value="0.5" />
             </node>
@@ -446,7 +447,7 @@
           </node>
           <node concept="3F0ifn" id="5YyBAPlK7oP" role="3EZMnx">
             <property role="3F0ifm" value="instead if:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
             <node concept="3$7fVu" id="5YyBAPlK7oQ" role="3F10Kt">
               <property role="3$6WeP" value="0.5" />
             </node>
@@ -464,14 +465,14 @@
               <node concept="3EZMnI" id="5YyBAPlKCIA" role="3EZMnx">
                 <node concept="3F0ifn" id="5YyBAPlKCII" role="3EZMnx">
                   <property role="3F0ifm" value="-" />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
                 </node>
                 <node concept="2iRfu4" id="5YyBAPlKCIB" role="2iSdaV" />
                 <node concept="3EZMnI" id="5YyBAPlMkS3" role="3EZMnx">
                   <node concept="2iRkQZ" id="5YyBAPlMkS4" role="2iSdaV" />
                   <node concept="3F0ifn" id="5YyBAPlJBjA" role="3EZMnx">
                     <property role="3F0ifm" value="The action takes the user to another page of the same dialog or an external source like documentation:" />
-                    <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                    <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                   </node>
                   <node concept="3EZMnI" id="5YyBAPlKC8T" role="3EZMnx">
                     <node concept="3XFhqQ" id="5YyBAPlKDG7" role="3EZMnx" />
@@ -482,7 +483,7 @@
                         <node concept="2iRfu4" id="5YyBAPlLQRt" role="2iSdaV" />
                         <node concept="3F0ifn" id="5YyBAPlKBK6" role="3EZMnx">
                           <property role="3F0ifm" value="Filter Update Project information by scope" />
-                          <ref role="1k5W1q" to="qw18:36fFDy13ZfY" resolve="Small" />
+                          <ref role="1k5W1q" to="xx1s:36fFDy13ZfY" resolve="Small" />
                         </node>
                         <node concept="fWXJ_" id="7wH7VDScMpn" role="3EZMnx">
                           <node concept="3Fmcul" id="7wH7VDScMpp" role="3FoqZy">
@@ -544,7 +545,7 @@
                       </node>
                       <node concept="3F0ifn" id="5YyBAPlLSnJ" role="3EZMnx">
                         <property role="3F0ifm" value="The Manage scope link takes to another page of the Settings dialog" />
-                        <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                        <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
                       </node>
                     </node>
                   </node>
@@ -552,11 +553,11 @@
                     <node concept="2iRfu4" id="5YyBAPlMxBT" role="2iSdaV" />
                     <node concept="3F0ifn" id="5YyBAPlMxIe" role="3EZMnx">
                       <property role="3F0ifm" value="Exception:" />
-                      <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+                      <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
                     </node>
                     <node concept="3F0ifn" id="5YyBAPlMkSk" role="3EZMnx">
                       <property role="3F0ifm" value="Next and Previous buttons in wizard navigation." />
-                      <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                      <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                     </node>
                   </node>
                 </node>
@@ -564,14 +565,14 @@
               <node concept="3EZMnI" id="5YyBAPlMJum" role="3EZMnx">
                 <node concept="3F0ifn" id="5YyBAPlMJun" role="3EZMnx">
                   <property role="3F0ifm" value="-" />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
                 </node>
                 <node concept="2iRfu4" id="5YyBAPlMJuo" role="2iSdaV" />
                 <node concept="3EZMnI" id="5YyBAPlMJup" role="3EZMnx">
                   <node concept="2iRkQZ" id="5YyBAPlMJuq" role="2iSdaV" />
                   <node concept="3F0ifn" id="5YyBAPlMJur" role="3EZMnx">
                     <property role="3F0ifm" value="The command is a secondary action that is not related to the primary purpose of the window and the space is constrained." />
-                    <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                    <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                   </node>
                   <node concept="3F0ifn" id="5YyBAPm9M$N" role="3EZMnx" />
                   <node concept="3EZMnI" id="5YyBAPlMJus" role="3EZMnx">
@@ -583,10 +584,10 @@
                         <node concept="2iRfu4" id="5YyBAPlMJuy" role="2iSdaV" />
                         <node concept="3F0ifn" id="5YyBAPlMJuz" role="3EZMnx">
                           <property role="3F0ifm" value="Incorrect" />
-                          <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+                          <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
                           <node concept="3Xmtl4" id="5YyBAPlMLcR" role="3F10Kt">
                             <node concept="1wgc9g" id="5YyBAPlMLcS" role="3XvnJa">
-                              <ref role="1wgcnl" to="qw18:5YyBAPlML8z" resolve="Incorrect" />
+                              <ref role="1wgcnl" to="xx1s:5YyBAPlML8z" resolve="Incorrect" />
                             </node>
                           </node>
                         </node>
@@ -616,7 +617,7 @@
                           </node>
                           <node concept="3F0ifn" id="5YyBAPlTsY2" role="3EZMnx">
                             <property role="3F0ifm" value="Show code len on scrollbar hover " />
-                            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                             <node concept="3$7fVu" id="3R$uTsAdmVr" role="3F10Kt">
                               <property role="3$6WeP" value="-1" />
                             </node>
@@ -645,7 +646,7 @@
                           </node>
                           <node concept="3F0ifn" id="5YyBAPlTuBg" role="3EZMnx">
                             <property role="3F0ifm" value="Show parameter name hints" />
-                            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                             <node concept="3$7fVu" id="3R$uTsAdoPZ" role="3F10Kt">
                               <property role="3$6WeP" value="-1" />
                             </node>
@@ -690,7 +691,7 @@
                           <node concept="2iRfu4" id="5YyBAPlTtxv" role="2iSdaV" />
                           <node concept="3F0ifn" id="5YyBAPlTtxU" role="3EZMnx">
                             <property role="3F0ifm" value="Show CSS color preview as background" />
-                            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                             <node concept="3$7fVu" id="3R$uTsAdoR0" role="3F10Kt">
                               <property role="3$6WeP" value="-1" />
                             </node>
@@ -701,10 +702,10 @@
                         <node concept="2iRfu4" id="5YyBAPlNLZD" role="2iSdaV" />
                         <node concept="3F0ifn" id="5YyBAPlNLZE" role="3EZMnx">
                           <property role="3F0ifm" value="Correct" />
-                          <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+                          <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
                           <node concept="3Xmtl4" id="5YyBAPlNLZF" role="3F10Kt">
                             <node concept="1wgc9g" id="5YyBAPlNLZG" role="3XvnJa">
-                              <ref role="1wgcnl" to="qw18:5YyBAPlML1m" resolve="Correct" />
+                              <ref role="1wgcnl" to="xx1s:5YyBAPlML1m" resolve="Correct" />
                             </node>
                           </node>
                         </node>
@@ -734,7 +735,7 @@
                           <node concept="2iRfu4" id="5YyBAPlO1Ts" role="2iSdaV" />
                           <node concept="3F0ifn" id="5YyBAPlO2si" role="3EZMnx">
                             <property role="3F0ifm" value="Show code len on scrollbar hover " />
-                            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                             <node concept="3$7fVu" id="3R$uTsAdoS1" role="3F10Kt">
                               <property role="3$6WeP" value="-1" />
                             </node>
@@ -763,7 +764,7 @@
                           </node>
                           <node concept="3F0ifn" id="5YyBAPlTeEa" role="3EZMnx">
                             <property role="3F0ifm" value="Show parameter name hints" />
-                            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                             <node concept="3$7fVu" id="3R$uTsAdoT2" role="3F10Kt">
                               <property role="3$6WeP" value="-1" />
                             </node>
@@ -808,7 +809,7 @@
                           </node>
                           <node concept="3F0ifn" id="5YyBAPlTfpz" role="3EZMnx">
                             <property role="3F0ifm" value="Show CSS color preview as background" />
-                            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                             <node concept="3$7fVu" id="3R$uTsAdoU3" role="3F10Kt">
                               <property role="3$6WeP" value="-1" />
                             </node>
@@ -833,11 +834,11 @@
         <node concept="2iRfu4" id="5YyBAPlTI3Z" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPlTI40" role="3EZMnx">
           <property role="3F0ifm" value="03" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPlTI41" role="3EZMnx">
           <property role="3F0ifm" value="Use toolbar buttons instead if there are several buttons related to a table or list:" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3F0ifn" id="5YyBAPmbqA5" role="3EZMnx" />
@@ -847,11 +848,11 @@
           <node concept="2iRfu4" id="5YyBAPlTVG2" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPlTVG3" role="3EZMnx">
             <property role="3F0ifm" value="04" />
-            <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+            <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
           </node>
           <node concept="3F0ifn" id="5YyBAPlTVG4" role="3EZMnx">
             <property role="3F0ifm" value="Use a" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="fWXJ_" id="7wH7VDSeO$K" role="3EZMnx">
             <node concept="3Fmcul" id="7wH7VDSeO$M" role="3FoqZy">
@@ -874,7 +875,7 @@
           </node>
           <node concept="3F0ifn" id="5YyBAPlTXIa" role="3EZMnx">
             <property role="3F0ifm" value="instead if:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3EZMnI" id="5YyBAPlTYux" role="3EZMnx">
@@ -884,28 +885,28 @@
             <node concept="3EZMnI" id="5YyBAPlTYu_" role="3EZMnx">
               <node concept="3F0ifn" id="5YyBAPlTYuA" role="3EZMnx">
                 <property role="3F0ifm" value="-" />
-                <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
               </node>
               <node concept="2iRfu4" id="5YyBAPlTYuB" role="2iSdaV" />
               <node concept="3EZMnI" id="5YyBAPlTYuC" role="3EZMnx">
                 <node concept="2iRkQZ" id="5YyBAPlTYuD" role="2iSdaV" />
                 <node concept="3F0ifn" id="5YyBAPlTYuE" role="3EZMnx">
                   <property role="3F0ifm" value="There are several related actions (more than 2) but the space is limited and/or packed." />
-                  <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                  <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                 </node>
               </node>
             </node>
             <node concept="3EZMnI" id="5YyBAPlTYvQ" role="3EZMnx">
               <node concept="3F0ifn" id="5YyBAPlTYvR" role="3EZMnx">
                 <property role="3F0ifm" value="-" />
-                <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
               </node>
               <node concept="2iRfu4" id="5YyBAPlTYvS" role="2iSdaV" />
               <node concept="3EZMnI" id="5YyBAPlTYvT" role="3EZMnx">
                 <node concept="2iRkQZ" id="5YyBAPlTYvU" role="2iSdaV" />
                 <node concept="3F0ifn" id="5YyBAPlTYvV" role="3EZMnx">
                   <property role="3F0ifm" value="The action is not common and is dangerous, for example, can destroy user data and cannot be easily undone." />
-                  <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                  <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                 </node>
               </node>
             </node>
@@ -921,11 +922,11 @@
         <node concept="2iRfu4" id="5YyBAPlU1ZB" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPlU1ZC" role="3EZMnx">
           <property role="3F0ifm" value="05" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPlU1ZD" role="3EZMnx">
           <property role="3F0ifm" value="Use a" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
         <node concept="fWXJ_" id="7wH7VDSeRrc" role="3EZMnx">
           <node concept="3Fmcul" id="7wH7VDSeRre" role="3FoqZy">
@@ -948,28 +949,28 @@
         </node>
         <node concept="3F0ifn" id="5YyBAPlU205" role="3EZMnx">
           <property role="3F0ifm" value="instead if it’s related to an input field, combo box, search field." />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3F0ifn" id="5YyBAPma0fu" role="3EZMnx" />
       <node concept="3F0ifn" id="5YyBAPm4gB1" role="3EZMnx">
         <property role="3F0ifm" value="How to use" />
-        <ref role="1k5W1q" to="qw18:36fFDy13Xde" resolve="H1Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13Xde" resolve="H1Bold" />
       </node>
       <node concept="3F0ifn" id="5YyBAPm4R$8" role="3EZMnx" />
       <node concept="3F0ifn" id="5YyBAPm4ip5" role="3EZMnx">
         <property role="3F0ifm" value="Label" />
-        <ref role="1k5W1q" to="qw18:36fFDy13YpV" resolve="H2_Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13YpV" resolve="H2_Bold" />
       </node>
       <node concept="3EZMnI" id="5YyBAPm4kcZ" role="3EZMnx">
         <node concept="2iRfu4" id="5YyBAPm4kd0" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPm4kd1" role="3EZMnx">
           <property role="3F0ifm" value="06" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPm4kd2" role="3EZMnx">
           <property role="3F0ifm" value="The label displays the action the button performs." />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3F0ifn" id="5YyBAPmbs_3" role="3EZMnx" />
@@ -977,23 +978,23 @@
         <node concept="2iRfu4" id="5YyBAPm4mv2" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPm4mv3" role="3EZMnx">
           <property role="3F0ifm" value="07" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3EZMnI" id="5YyBAPm4oua" role="3EZMnx">
           <node concept="2iRkQZ" id="5YyBAPm4oub" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPm4mv4" role="3EZMnx">
             <property role="3F0ifm" value="Write the label as an imperative verb, e.g. Save, Print, Cancel. Use title capitalization." />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3EZMnI" id="5YyBAPm4ouk" role="3EZMnx">
             <node concept="2iRfu4" id="5YyBAPm4oul" role="2iSdaV" />
             <node concept="3F0ifn" id="5YyBAPm4ouh" role="3EZMnx">
               <property role="3F0ifm" value="Exceptions:" />
-              <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+              <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
             </node>
             <node concept="3F0ifn" id="5YyBAPm4ouu" role="3EZMnx">
               <property role="3F0ifm" value="standard buttons like OK, Back/Forward, Previous/Next, Yes/No, Agree, Options, Settings, Details." />
-              <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+              <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
             </node>
           </node>
         </node>
@@ -1003,13 +1004,13 @@
         <node concept="2iRfu4" id="5YyBAPm4ov7" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPm4ov8" role="3EZMnx">
           <property role="3F0ifm" value="08" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3EZMnI" id="5YyBAPm4pE5" role="3EZMnx">
           <node concept="2iRkQZ" id="5YyBAPm4pE6" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPm4ov9" role="3EZMnx">
             <property role="3F0ifm" value="The button should answer the question in the title, so the user can skip the description. Prefer specific labels over generic ones:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5YyBAPm4EbP" role="3EZMnx" />
           <node concept="3EZMnI" id="5YyBAPm4pEt" role="3EZMnx">
@@ -1021,10 +1022,10 @@
                 <node concept="2iRkQZ" id="5YyBAPm4pET" role="2iSdaV" />
                 <node concept="3F0ifn" id="5YyBAPm4sMa" role="3EZMnx">
                   <property role="3F0ifm" value="Incorrect" />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
                   <node concept="3Xmtl4" id="5YyBAPm4sMb" role="3F10Kt">
                     <node concept="1wgc9g" id="5YyBAPm4sMc" role="3XvnJa">
-                      <ref role="1wgcnl" to="qw18:5YyBAPlML8z" resolve="Incorrect" />
+                      <ref role="1wgcnl" to="xx1s:5YyBAPlML8z" resolve="Incorrect" />
                     </node>
                   </node>
                 </node>
@@ -1046,17 +1047,17 @@
                 </node>
                 <node concept="3F0ifn" id="5YyBAPm4sJ2" role="3EZMnx">
                   <property role="3F0ifm" value="Unclear what happens on the click." />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
                 </node>
               </node>
               <node concept="3EZMnI" id="5YyBAPm4pFf" role="3EZMnx">
                 <node concept="2iRkQZ" id="5YyBAPm4pFg" role="2iSdaV" />
                 <node concept="3F0ifn" id="5YyBAPm4sPi" role="3EZMnx">
                   <property role="3F0ifm" value="Correct" />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
                   <node concept="3Xmtl4" id="5YyBAPm4sPj" role="3F10Kt">
                     <node concept="1wgc9g" id="5YyBAPm4sPk" role="3XvnJa">
-                      <ref role="1wgcnl" to="qw18:5YyBAPlML1m" resolve="Correct" />
+                      <ref role="1wgcnl" to="xx1s:5YyBAPlML1m" resolve="Correct" />
                     </node>
                   </node>
                 </node>
@@ -1078,7 +1079,7 @@
                 </node>
                 <node concept="3F0ifn" id="5YyBAPm4s6S" role="3EZMnx">
                   <property role="3F0ifm" value="The label indicates what happens on the click." />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
                 </node>
               </node>
             </node>
@@ -1091,20 +1092,20 @@
         <node concept="2iRfu4" id="5YyBAPm55WM" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPm55WN" role="3EZMnx">
           <property role="3F0ifm" value="09" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPm57Sh" role="3EZMnx">
           <property role="3F0ifm" value="Exceptions:" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
         </node>
         <node concept="3F0ifn" id="5YyBAPm57So" role="3EZMnx">
           <property role="3F0ifm" value="the Cancel button if it is clear what action is being canceled. For example:" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3F0ifn" id="5YyBAPm4oEn" role="3EZMnx">
         <property role="3F0ifm" value="Use the Cancel button, not the Don’t Create button." />
-        <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+        <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
       </node>
       <node concept="3F0ifn" id="5YyBAPmbuZh" role="3EZMnx" />
       <node concept="3EZMnI" id="5YyBAPm9eh0" role="3EZMnx">
@@ -1113,11 +1114,11 @@
           <node concept="2iRfu4" id="5YyBAPm9b9F" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPm9b9G" role="3EZMnx">
             <property role="3F0ifm" value="10" />
-            <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+            <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
           </node>
           <node concept="3F0ifn" id="5YyBAPm9b9I" role="3EZMnx">
             <property role="3F0ifm" value="The label should be short, not more than 5 words. If it’s not obvious what element the button is related to, add more words to make it clear. Prefer clear labels to short:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3F0ifn" id="5YyBAPm9Mxz" role="3EZMnx" />
@@ -1130,10 +1131,10 @@
               <node concept="2iRkQZ" id="5YyBAPm9bIx" role="2iSdaV" />
               <node concept="3F0ifn" id="5YyBAPm9bIy" role="3EZMnx">
                 <property role="3F0ifm" value="Acceptable" />
-                <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+                <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
                 <node concept="3Xmtl4" id="5YyBAPm9bIz" role="3F10Kt">
                   <node concept="1wgc9g" id="5YyBAPm9bI$" role="3XvnJa">
-                    <ref role="1wgcnl" to="qw18:5YyBAPlML8z" resolve="Incorrect" />
+                    <ref role="1wgcnl" to="xx1s:5YyBAPlML8z" resolve="Incorrect" />
                   </node>
                 </node>
               </node>
@@ -1158,10 +1159,10 @@
               <node concept="2iRkQZ" id="5YyBAPm9bIV" role="2iSdaV" />
               <node concept="3F0ifn" id="5YyBAPm9bIW" role="3EZMnx">
                 <property role="3F0ifm" value="Better" />
-                <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+                <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
                 <node concept="3Xmtl4" id="5YyBAPm9bIX" role="3F10Kt">
                   <node concept="1wgc9g" id="5YyBAPm9bIY" role="3XvnJa">
-                    <ref role="1wgcnl" to="qw18:5YyBAPlML1m" resolve="Correct" />
+                    <ref role="1wgcnl" to="xx1s:5YyBAPlML1m" resolve="Correct" />
                   </node>
                 </node>
               </node>
@@ -1193,11 +1194,11 @@
           <node concept="2iRfu4" id="5YyBAPm9ddC" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPm9ddD" role="3EZMnx">
             <property role="3F0ifm" value="11" />
-            <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+            <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
           </node>
           <node concept="3F0ifn" id="5YyBAPm9ddE" role="3EZMnx">
             <property role="3F0ifm" value="Add an ellipsis if additional actions such as adding more info or confirming the action are required:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3F0ifn" id="5YyBAPmbIs4" role="3EZMnx" />
@@ -1261,15 +1262,15 @@
           <node concept="2iRfu4" id="5YyBAPm9lLh" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPm9lQf" role="3EZMnx">
             <property role="3F0ifm" value="Do" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5YyBAPm9lQn" role="3EZMnx">
             <property role="3F0ifm" value="not" />
-            <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+            <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
           </node>
           <node concept="3F0ifn" id="5YyBAPm9lwe" role="3EZMnx">
             <property role="3F0ifm" value="add ellipsis if another window is opened, but no more input from the user is required. For example, About, Details." />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
       </node>
@@ -1280,19 +1281,19 @@
           <node concept="2iRfu4" id="5YyBAPm9mXo" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPm9mXy" role="3EZMnx">
             <property role="3F0ifm" value="12" />
-            <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+            <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
           </node>
           <node concept="3F0ifn" id="5YyBAPm9mXp" role="3EZMnx">
             <property role="3F0ifm" value="Do" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5YyBAPm9mXq" role="3EZMnx">
             <property role="3F0ifm" value="not" />
-            <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+            <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
           </node>
           <node concept="3F0ifn" id="5YyBAPm9mXr" role="3EZMnx">
             <property role="3F0ifm" value="add an icon to the button. The main purpose of an icon is to quickly find a familiar action in a packed toolbar or menu. Usually, no more than 3 buttons are placed nearby, their labels can be scanned quickly and icons are not required." />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3F0ifn" id="5YyBAPmcjyx" role="3EZMnx" />
@@ -1304,10 +1305,10 @@
               <node concept="2iRkQZ" id="5YyBAPmatyW" role="2iSdaV" />
               <node concept="3F0ifn" id="5YyBAPmatyX" role="3EZMnx">
                 <property role="3F0ifm" value="Incorrect" />
-                <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+                <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
                 <node concept="3Xmtl4" id="5YyBAPmatyY" role="3F10Kt">
                   <node concept="1wgc9g" id="5YyBAPmatyZ" role="3XvnJa">
-                    <ref role="1wgcnl" to="qw18:5YyBAPlML8z" resolve="Incorrect" />
+                    <ref role="1wgcnl" to="xx1s:5YyBAPlML8z" resolve="Incorrect" />
                   </node>
                 </node>
               </node>
@@ -1333,7 +1334,7 @@
                 </node>
                 <node concept="3F0ifn" id="5YyBAPmauu3" role="3EZMnx">
                   <property role="3F0ifm" value="Automatically check for updates" />
-                  <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                  <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                   <node concept="3$7fVu" id="3R$uTsAdpt2" role="3F10Kt">
                     <property role="3$6WeP" value="-1" />
                   </node>
@@ -1361,10 +1362,10 @@
               <node concept="2iRkQZ" id="5YyBAPmatzm" role="2iSdaV" />
               <node concept="3F0ifn" id="5YyBAPmatzn" role="3EZMnx">
                 <property role="3F0ifm" value="Correct" />
-                <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+                <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
                 <node concept="3Xmtl4" id="5YyBAPmatzo" role="3F10Kt">
                   <node concept="1wgc9g" id="5YyBAPmatzp" role="3XvnJa">
-                    <ref role="1wgcnl" to="qw18:5YyBAPlML1m" resolve="Correct" />
+                    <ref role="1wgcnl" to="xx1s:5YyBAPlML1m" resolve="Correct" />
                   </node>
                 </node>
               </node>
@@ -1390,7 +1391,7 @@
                 </node>
                 <node concept="3F0ifn" id="5YyBAPmauAL" role="3EZMnx">
                   <property role="3F0ifm" value="Automatically check for updates" />
-                  <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                  <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                   <node concept="3$7fVu" id="3R$uTsAdpyU" role="3F10Kt">
                     <property role="3$6WeP" value="-1" />
                   </node>
@@ -1423,47 +1424,47 @@
         <node concept="2iRfu4" id="5YyBAPmbWL2" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPmbWL3" role="3EZMnx">
           <property role="3F0ifm" value="13" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPmbWL4" role="3EZMnx">
           <property role="3F0ifm" value="Use the Close label only if nothing can be changed in the dialog and there is no confirmation button, for example in the Productivity Guide dialog. In all other cases, use the Cancel button." />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3EZMnI" id="5YyBAPmbXKX" role="3EZMnx">
         <node concept="2iRfu4" id="5YyBAPmbXKY" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPmbXKZ" role="3EZMnx">
           <property role="3F0ifm" value="14" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPmbXL0" role="3EZMnx">
           <property role="3F0ifm" value="Do" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
         <node concept="3F0ifn" id="5YyBAPmbXL1" role="3EZMnx">
           <property role="3F0ifm" value="not" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
         </node>
         <node concept="3F0ifn" id="5YyBAPmbXL2" role="3EZMnx">
           <property role="3F0ifm" value="add an icon to the button. The main purpose of an icon is to quickly find a familiar action in a packed toolbar or menu. Usually, no more than 3 buttons are placed nearby, their labels can be scanned quickly and icons are not required." />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3F0ifn" id="5YyBAPmbW$o" role="3EZMnx" />
       <node concept="3F0ifn" id="5YyBAPm9n8k" role="3EZMnx">
         <property role="3F0ifm" value="Hover" />
-        <ref role="1k5W1q" to="qw18:36fFDy13YpV" resolve="H2_Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13YpV" resolve="H2_Bold" />
       </node>
       <node concept="3F0ifn" id="5YyBAPm9mXB" role="3EZMnx" />
       <node concept="3EZMnI" id="5YyBAPmasQ_" role="3EZMnx">
         <node concept="2iRfu4" id="5YyBAPmasQA" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPmasQB" role="3EZMnx">
           <property role="3F0ifm" value="15" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPmasQC" role="3EZMnx">
           <property role="3F0ifm" value="On hovering over a button, show a tooltip with the shortcut and the action name if it can be clarified. For more details see" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
         <node concept="fWXJ_" id="7wH7VDSf8ng" role="3EZMnx">
           <node concept="3Fmcul" id="7wH7VDSf8ni" role="3FoqZy">
@@ -1528,10 +1529,10 @@
     <node concept="3EZMnI" id="15bv03kRAHf" role="2wV5jI">
       <node concept="3F0ifn" id="15bv03kS7T6" role="3EZMnx">
         <property role="3F0ifm" value="CheckBox" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$FG3" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="2iRkQZ" id="15bv03kRAHg" role="2iSdaV" />
       <node concept="fWXJ_" id="7wH7VDSf97p" role="3EZMnx">
@@ -1576,16 +1577,16 @@
     <node concept="3EZMnI" id="15bv03kQpa9" role="2wV5jI">
       <node concept="3F0ifn" id="5YyBAPl$lo1" role="3EZMnx">
         <property role="3F0ifm" value="ComboBox" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$G92" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="2iRkQZ" id="15bv03kQpaa" role="2iSdaV" />
       <node concept="3EZMnI" id="15bv03kLjSp" role="3EZMnx">
         <node concept="3F0ifn" id="15bv03kLjSS" role="3EZMnx">
           <property role="3F0ifm" value="Theme:" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
         <node concept="fWXJ_" id="7wH7VDSfesl" role="3EZMnx">
           <node concept="3Fmcul" id="7wH7VDSfesn" role="3FoqZy">
@@ -1626,14 +1627,14 @@
       <node concept="2iRkQZ" id="5mZR6OHhaQd" role="2iSdaV" />
       <node concept="3F0ifn" id="5YyBAPl$lrd" role="3EZMnx">
         <property role="3F0ifm" value="DateFormat" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$Gcd" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="3F0ifn" id="5mZR6OHhaQi" role="3EZMnx">
         <property role="3F0ifm" value="Numbers" />
-        <ref role="1k5W1q" to="qw18:36fFDy13Xde" resolve="H1Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13Xde" resolve="H1Bold" />
       </node>
       <node concept="3EZMnI" id="5mZR6OHhaQp" role="3EZMnx">
         <node concept="3EZMnI" id="5mZR6OHhaQO" role="3EZMnx">
@@ -1661,15 +1662,15 @@
           <node concept="2iRfu4" id="5mZR6OHhaQA" role="2iSdaV" />
           <node concept="3F0ifn" id="5mZR6OHhaQr" role="3EZMnx">
             <property role="3F0ifm" value="Numbers" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="7IX5dv7MNJ2" role="3EZMnx">
             <property role="3F0ifm" value="4,255,165.00" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaRm" role="3EZMnx">
             <property role="3F0ifm" value="Space is not limited, e.g. Settings dialog" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3EZMnI" id="5mZR6OHhq7U" role="3EZMnx">
@@ -1687,15 +1688,15 @@
           <node concept="2iRfu4" id="5mZR6OHhaRS" role="2iSdaV" />
           <node concept="3F0ifn" id="5mZR6OHhaRT" role="3EZMnx">
             <property role="3F0ifm" value="Numbers short" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaRU" role="3EZMnx">
             <property role="3F0ifm" value="10.5k, 3.3M" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaRV" role="3EZMnx">
             <property role="3F0ifm" value="Space is limited, e.g. in table or lists" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3EZMnI" id="5mZR6OHhq8K" role="3EZMnx">
@@ -1713,14 +1714,14 @@
           <node concept="2iRfu4" id="5mZR6OHhaSd" role="2iSdaV" />
           <node concept="3F0ifn" id="5mZR6OHhaSe" role="3EZMnx">
             <property role="3F0ifm" value="Percentage" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaSf" role="3EZMnx">
             <property role="3F0ifm" value="13%" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaSg" role="3EZMnx">
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3EZMnI" id="5mZR6OHhq9B" role="3EZMnx">
@@ -1738,14 +1739,14 @@
           <node concept="2iRfu4" id="5mZR6OHhaSB" role="2iSdaV" />
           <node concept="3F0ifn" id="5mZR6OHhaSC" role="3EZMnx">
             <property role="3F0ifm" value="Ratios" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaSD" role="3EZMnx">
             <property role="3F0ifm" value="3 of 10" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaSE" role="3EZMnx">
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3EZMnI" id="5mZR6OHhqax" role="3EZMnx">
@@ -1763,15 +1764,15 @@
           <node concept="2iRfu4" id="5mZR6OHhaT6" role="2iSdaV" />
           <node concept="3F0ifn" id="5mZR6OHhaT7" role="3EZMnx">
             <property role="3F0ifm" value="Ratios short" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaT8" role="3EZMnx">
             <property role="3F0ifm" value="3/10" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaT9" role="3EZMnx">
             <property role="3F0ifm" value="Space is limited, e.g. in table or lists" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3EZMnI" id="5mZR6OHhqbt" role="3EZMnx">
@@ -1789,14 +1790,14 @@
           <node concept="2iRfu4" id="5mZR6OHhaTE" role="2iSdaV" />
           <node concept="3F0ifn" id="5mZR6OHhaTF" role="3EZMnx">
             <property role="3F0ifm" value="Currency" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaTG" role="3EZMnx">
             <property role="3F0ifm" value="$10" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5mZR6OHhaTH" role="3EZMnx">
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="2EHx9g" id="5mZR6OHhaQy" role="2iSdaV" />
@@ -1808,10 +1809,10 @@
     <node concept="3EZMnI" id="5mZR6OHjuU5" role="2wV5jI">
       <node concept="3F0ifn" id="5YyBAPl$lsl" role="3EZMnx">
         <property role="3F0ifm" value="GridLayout" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$Gdk" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="2iRkQZ" id="5mZR6OHjuU6" role="2iSdaV" />
       <node concept="3EZMnI" id="5mZR6OHjfkJ" role="3EZMnx">
@@ -2013,42 +2014,42 @@
       <node concept="2iRkQZ" id="7IX5dv7MyKM" role="2iSdaV" />
       <node concept="3F0ifn" id="5YyBAPl$ltG" role="3EZMnx">
         <property role="3F0ifm" value="Header" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$Gex" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="3F0ifn" id="7IX5dv7MyKU" role="3EZMnx">
         <property role="3F0ifm" value="H0 bold" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="3F0ifn" id="7IX5dv7MyKY" role="3EZMnx">
         <property role="3F0ifm" value="H1 bold" />
-        <ref role="1k5W1q" to="qw18:36fFDy13Xde" resolve="H1Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13Xde" resolve="H1Bold" />
       </node>
       <node concept="3F0ifn" id="7IX5dv7MyL3" role="3EZMnx">
         <property role="3F0ifm" value="H2" />
-        <ref role="1k5W1q" to="qw18:36fFDy13X$W" resolve="H2" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13X$W" resolve="H2" />
       </node>
       <node concept="3F0ifn" id="7IX5dv7MyL9" role="3EZMnx">
         <property role="3F0ifm" value="H3" />
-        <ref role="1k5W1q" to="qw18:36fFDy13YvE" resolve="H3" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13YvE" resolve="H3" />
       </node>
       <node concept="3F0ifn" id="7IX5dv7MyLg" role="3EZMnx">
         <property role="3F0ifm" value="Emphasize" />
-        <ref role="1k5W1q" to="qw18:5YyBAPlMx3f" resolve="Emphasize" />
+        <ref role="1k5W1q" to="xx1s:5YyBAPlMx3f" resolve="Emphasize" />
       </node>
       <node concept="3F0ifn" id="7IX5dv7MyLo" role="3EZMnx">
         <property role="3F0ifm" value="Default" />
-        <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
       </node>
       <node concept="3F0ifn" id="7IX5dv7MyLx" role="3EZMnx">
         <property role="3F0ifm" value="Medium" />
-        <ref role="1k5W1q" to="qw18:36fFDy13ZfY" resolve="Small" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13ZfY" resolve="Small" />
       </node>
       <node concept="3F0ifn" id="7IX5dv7MyLF" role="3EZMnx">
         <property role="3F0ifm" value="Small" />
-        <ref role="1k5W1q" to="qw18:36fFDy1403J" resolve="VerySmall" />
+        <ref role="1k5W1q" to="xx1s:36fFDy1403J" resolve="VerySmall" />
       </node>
     </node>
   </node>
@@ -2057,10 +2058,10 @@
     <node concept="3EZMnI" id="5YyBAPlrG9B" role="2wV5jI">
       <node concept="3F0ifn" id="5YyBAPl$lGn" role="3EZMnx">
         <property role="3F0ifm" value="InputField" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$Gm9" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="3EZMnI" id="7wH7VDShvUF" role="3EZMnx">
         <node concept="VPM3Z" id="7wH7VDShvUH" role="3F10Kt" />
@@ -2068,7 +2069,7 @@
           <node concept="2iRfu4" id="15bv03kT6GB" role="2iSdaV" />
           <node concept="3F0ifn" id="15bv03kT6Nn" role="3EZMnx">
             <property role="3F0ifm" value="File name:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="fWXJ_" id="7wH7VDSfgvA" role="3EZMnx">
             <node concept="3Fmcul" id="7wH7VDSfgvC" role="3FoqZy">
@@ -2115,7 +2116,7 @@
           <node concept="2iRfu4" id="5YyBAPlFBFx" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPlFBvh" role="3EZMnx">
             <property role="3F0ifm" value="Password:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="fWXJ_" id="7wH7VDSfh0W" role="3EZMnx">
             <node concept="3Fmcul" id="7wH7VDSfh0Y" role="3FoqZy">
@@ -2166,26 +2167,26 @@
       <node concept="2iRkQZ" id="5YyBAPmduec" role="2iSdaV" />
       <node concept="3F0ifn" id="5YyBAPmdueh" role="3EZMnx">
         <property role="3F0ifm" value="Layout" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPmduei" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="3EZMnI" id="5YyBAPmduqh" role="3EZMnx">
         <node concept="2iRfu4" id="5YyBAPmduqi" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPmduqj" role="3EZMnx">
           <property role="3F0ifm" value="01" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3EZMnI" id="5YyBAPmduqF" role="3EZMnx">
           <node concept="2iRkQZ" id="5YyBAPmduqG" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPmduqk" role="3EZMnx">
             <property role="3F0ifm" value="Arrange UI controls in dialogs according to the rules below to help people locate the necessary settings faster and understand how they are related." />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3F0ifn" id="5YyBAPmdur3" role="3EZMnx">
             <property role="3F0ifm" value="Independent controls:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="3EZMnI" id="5YyBAPmdurx" role="3EZMnx">
             <node concept="2iRfu4" id="5YyBAPmdury" role="2iSdaV" />
@@ -2196,7 +2197,7 @@
                 <node concept="2iRfu4" id="5YyBAPmdvlY" role="2iSdaV" />
                 <node concept="3F0ifn" id="5YyBAPmdvko" role="3EZMnx">
                   <property role="3F0ifm" value="-" />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
                 </node>
                 <node concept="fWXJ_" id="7wH7VDSfkOn" role="3EZMnx">
                   <node concept="3Fmcul" id="7wH7VDSfkOp" role="3FoqZy">
@@ -2219,14 +2220,14 @@
                 </node>
                 <node concept="3F0ifn" id="5YyBAPmdvYN" role="3EZMnx">
                   <property role="3F0ifm" value="fields, combo boxes, text areas, etc." />
-                  <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                  <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
                 </node>
               </node>
               <node concept="3EZMnI" id="5YyBAPmdvxu" role="3EZMnx">
                 <node concept="2iRfu4" id="5YyBAPmdvxv" role="2iSdaV" />
                 <node concept="3F0ifn" id="5YyBAPmdvxw" role="3EZMnx">
                   <property role="3F0ifm" value="-" />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
                 </node>
                 <node concept="fWXJ_" id="7wH7VDSfl73" role="3EZMnx">
                   <node concept="3Fmcul" id="7wH7VDSfl75" role="3FoqZy">
@@ -2252,7 +2253,7 @@
                 <node concept="2iRfu4" id="5YyBAPmdv_i" role="2iSdaV" />
                 <node concept="3F0ifn" id="5YyBAPmdv_j" role="3EZMnx">
                   <property role="3F0ifm" value="-" />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
                 </node>
                 <node concept="fWXJ_" id="7wH7VDSflbu" role="3EZMnx">
                   <node concept="3Fmcul" id="7wH7VDSflbw" role="3FoqZy">
@@ -2278,7 +2279,7 @@
                 <node concept="2iRfu4" id="5YyBAPmdvEE" role="2iSdaV" />
                 <node concept="3F0ifn" id="5YyBAPmdvEF" role="3EZMnx">
                   <property role="3F0ifm" value="-" />
-                  <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+                  <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
                 </node>
                 <node concept="fWXJ_" id="7wH7VDSflfT" role="3EZMnx">
                   <node concept="3Fmcul" id="7wH7VDSflfV" role="3FoqZy">
@@ -2358,7 +2359,7 @@
             </node>
             <node concept="3F0ifn" id="5YyBAPmdwDo" role="3EZMnx">
               <property role="3F0ifm" value="— controls that depend on a parent control." />
-              <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+              <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
             </node>
           </node>
         </node>
@@ -2368,11 +2369,11 @@
         <node concept="2iRfu4" id="5YyBAPmdwY2" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPmdwY3" role="3EZMnx">
           <property role="3F0ifm" value="02" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPmdxjd" role="3EZMnx">
           <property role="3F0ifm" value="Organize controls into easily readable groups with" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
         <node concept="gc7cB" id="5YyBAPmdxji" role="3EZMnx">
           <node concept="3VJUX4" id="5YyBAPmdxjj" role="3YsKMw">
@@ -2428,7 +2429,7 @@
         </node>
         <node concept="3F0ifn" id="5YyBAPmdxvg" role="3EZMnx">
           <property role="3F0ifm" value="." />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3F0ifn" id="5YyBAPmd$yn" role="3EZMnx" />
@@ -2436,11 +2437,11 @@
         <node concept="2iRfu4" id="5YyBAPmdxyc" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPmdxyd" role="3EZMnx">
           <property role="3F0ifm" value="03" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPmdxye" role="3EZMnx">
           <property role="3F0ifm" value="See" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
         <node concept="fWXJ_" id="7wH7VDSfloe" role="3EZMnx">
           <node concept="3Fmcul" id="7wH7VDSflog" role="3FoqZy">
@@ -2463,29 +2464,29 @@
         </node>
         <node concept="3F0ifn" id="5YyBAPmdxyt" role="3EZMnx">
           <property role="3F0ifm" value="for buttons and other controls at the bottom of a dialog." />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3F0ifn" id="5YyBAPmdxWb" role="3EZMnx" />
       <node concept="3F0ifn" id="5YyBAPmdyln" role="3EZMnx">
         <property role="3F0ifm" value="Independent controls" />
-        <ref role="1k5W1q" to="qw18:36fFDy13Xde" resolve="H1Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13Xde" resolve="H1Bold" />
       </node>
       <node concept="3F0ifn" id="5YyBAPmdy9Y" role="3EZMnx" />
       <node concept="3F0ifn" id="5YyBAPmdyGc" role="3EZMnx">
         <property role="3F0ifm" value="Labeled input controls" />
-        <ref role="1k5W1q" to="qw18:36fFDy13YpV" resolve="H2_Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13YpV" resolve="H2_Bold" />
       </node>
       <node concept="3F0ifn" id="5YyBAPmdyDX" role="3EZMnx" />
       <node concept="3EZMnI" id="5YyBAPmdzch" role="3EZMnx">
         <node concept="2iRfu4" id="5YyBAPmdzci" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPmdzcj" role="3EZMnx">
           <property role="3F0ifm" value="04" />
-          <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+          <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
         </node>
         <node concept="3F0ifn" id="5YyBAPmdzck" role="3EZMnx">
           <property role="3F0ifm" value="Labeled input controls are:" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
         <node concept="fWXJ_" id="7wH7VDSflyt" role="3EZMnx">
           <node concept="3Fmcul" id="7wH7VDSflyv" role="3FoqZy">
@@ -2574,7 +2575,7 @@
         </node>
         <node concept="3F0ifn" id="5YyBAPmdzcz" role="3EZMnx">
           <property role="3F0ifm" value=" and spinner." />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
       </node>
       <node concept="3F0ifn" id="5YyBAPmd_rD" role="3EZMnx" />
@@ -2584,11 +2585,11 @@
           <node concept="2iRfu4" id="5YyBAPmd$Rp" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPmd$Rq" role="3EZMnx">
             <property role="3F0ifm" value="05" />
-            <ref role="1k5W1q" to="qw18:5YyBAPlIbTN" resolve="Meta" />
+            <ref role="1k5W1q" to="xx1s:5YyBAPlIbTN" resolve="Meta" />
           </node>
           <node concept="3F0ifn" id="5YyBAPmd$Rr" role="3EZMnx">
             <property role="3F0ifm" value="By default, put input controls with labels of similar length on different lines and align their input boxes on the left side." />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
         </node>
         <node concept="3F0ifn" id="5YyBAPme7sN" role="3EZMnx" />
@@ -2601,7 +2602,7 @@
               <node concept="2iRfu4" id="5YyBAPmdAJ_" role="2iSdaV" />
               <node concept="3F0ifn" id="5YyBAPmdA4r" role="3EZMnx">
                 <property role="3F0ifm" value="Host name:" />
-                <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
               </node>
               <node concept="fWXJ_" id="7wH7VDSfs7I" role="3EZMnx">
                 <node concept="3Fmcul" id="7wH7VDSfs7K" role="3FoqZy">
@@ -2645,7 +2646,7 @@
               <node concept="2iRfu4" id="5YyBAPmdATz" role="2iSdaV" />
               <node concept="3F0ifn" id="5YyBAPmdAT$" role="3EZMnx">
                 <property role="3F0ifm" value="Port number:" />
-                <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
               </node>
               <node concept="fWXJ_" id="7wH7VDSfsex" role="3EZMnx">
                 <node concept="3Fmcul" id="7wH7VDSfsez" role="3FoqZy">
@@ -2674,7 +2675,7 @@
               <node concept="2iRfu4" id="5YyBAPmdB6d" role="2iSdaV" />
               <node concept="3F0ifn" id="5YyBAPmdB6e" role="3EZMnx">
                 <property role="3F0ifm" value="No proxy for:" />
-                <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+                <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
               </node>
               <node concept="fWXJ_" id="7wH7VDSfslr" role="3EZMnx">
                 <node concept="3Fmcul" id="7wH7VDSfslt" role="3FoqZy">
@@ -2724,17 +2725,17 @@
     <node concept="3EZMnI" id="5YyBAPlDYhT" role="2wV5jI">
       <node concept="3F0ifn" id="5YyBAPlDYhU" role="3EZMnx">
         <property role="3F0ifm" value="OptionButton" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPlDYhV" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="2iRkQZ" id="5YyBAPlDYhW" role="2iSdaV" />
       <node concept="3EZMnI" id="5YyBAPlDYhX" role="3EZMnx">
         <node concept="2iRfu4" id="5YyBAPlDYhY" role="2iSdaV" />
         <node concept="3F0ifn" id="5YyBAPlDYhZ" role="3EZMnx">
           <property role="3F0ifm" value="Text:" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
         <node concept="fWXJ_" id="7wH7VDSfH8L" role="3EZMnx">
           <node concept="3Fmcul" id="7wH7VDSfH8N" role="3FoqZy">
@@ -2963,17 +2964,17 @@
     <node concept="3EZMnI" id="5YyBAPlDSvM" role="2wV5jI">
       <node concept="3F0ifn" id="5YyBAPlDSE8" role="3EZMnx">
         <property role="3F0ifm" value="RadioButton" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPlDSE9" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="2iRkQZ" id="5YyBAPlDSvN" role="2iSdaV" />
       <node concept="3EZMnI" id="15bv03kWA6r" role="3EZMnx">
         <node concept="2iRfu4" id="15bv03kWA6s" role="2iSdaV" />
         <node concept="3F0ifn" id="15bv03kWAOw" role="3EZMnx">
           <property role="3F0ifm" value="Placement:" />
-          <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+          <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
         </node>
         <node concept="fWXJ_" id="7wH7VDSfKDM" role="3EZMnx">
           <node concept="3Fmcul" id="7wH7VDSfKDO" role="3FoqZy">
@@ -3044,10 +3045,10 @@
       <node concept="2iRkQZ" id="5YyBAPmenUv" role="2iSdaV" />
       <node concept="3F0ifn" id="5YyBAPmenU$" role="3EZMnx">
         <property role="3F0ifm" value="Spinner" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPmenU_" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="3F0ifn" id="5YyBAPmeo6x" role="3EZMnx" />
       <node concept="3EZMnI" id="5YyBAPmf91Z" role="3EZMnx">
@@ -3056,7 +3057,7 @@
           <node concept="2iRfu4" id="5YyBAPmeoKZ" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPmeoN$" role="3EZMnx">
             <property role="3F0ifm" value="Select a number:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="fWXJ_" id="7wH7VDSfPL1" role="3EZMnx">
             <node concept="3Fmcul" id="7wH7VDSfPL3" role="3FoqZy">
@@ -3085,7 +3086,7 @@
           <node concept="2iRfu4" id="5YyBAPmeCWU" role="2iSdaV" />
           <node concept="3F0ifn" id="5YyBAPmeCWV" role="3EZMnx">
             <property role="3F0ifm" value="Select a value:" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="fWXJ_" id="7wH7VDSfQ3l" role="3EZMnx">
             <node concept="3Fmcul" id="7wH7VDSfQ3n" role="3FoqZy">
@@ -3144,10 +3145,10 @@
       <node concept="2iRkQZ" id="IT3nkGzgy1" role="2iSdaV" />
       <node concept="3F0ifn" id="5YyBAPl$mc9" role="3EZMnx">
         <property role="3F0ifm" value="StyleDemo" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$H6k" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="3EZMnI" id="IT3nkG_iWZ" role="3EZMnx">
         <node concept="2iRfu4" id="IT3nkG_iX0" role="2iSdaV" />
@@ -3199,10 +3200,10 @@
     <node concept="3EZMnI" id="5mZR6OHdQOa" role="2wV5jI">
       <node concept="3F0ifn" id="5YyBAPl$m_f" role="3EZMnx">
         <property role="3F0ifm" value="Tabs" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$Hw4" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="2iRkQZ" id="5mZR6OHdQOb" role="2iSdaV" />
       <node concept="fWXJ_" id="7wH7VDSfRSu" role="3EZMnx">
@@ -3463,15 +3464,15 @@
     <node concept="3EZMnI" id="5mZR6OHf_ig" role="2wV5jI">
       <node concept="3F0ifn" id="5YyBAPl$mRu" role="3EZMnx">
         <property role="3F0ifm" value="TextArea" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$HOM" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="2iRkQZ" id="5mZR6OHf_ih" role="2iSdaV" />
       <node concept="3F0ifn" id="5mZR6OHf_id" role="3EZMnx">
         <property role="3F0ifm" value="Commit message:" />
-        <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
       </node>
       <node concept="fWXJ_" id="7wH7VDSfYUW" role="3EZMnx">
         <node concept="3Fmcul" id="7wH7VDSfYUY" role="3FoqZy">
@@ -3613,17 +3614,17 @@
     <node concept="3EZMnI" id="15bv03kYk$R" role="2wV5jI">
       <node concept="3F0ifn" id="5YyBAPl$ni0" role="3EZMnx">
         <property role="3F0ifm" value="ToggleButton" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$IeW" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="3EZMnI" id="5YyBAPl$SST" role="3EZMnx">
         <node concept="2EHx9g" id="5YyBAPl$Tyx" role="2iSdaV" />
         <node concept="3EZMnI" id="15bv03kYYw9" role="3EZMnx">
           <node concept="3F0ifn" id="15bv03kYYEs" role="3EZMnx">
             <property role="3F0ifm" value="On" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="fWXJ_" id="7wH7VDSg1h9" role="3EZMnx">
             <node concept="3Fmcul" id="7wH7VDSg1hb" role="3FoqZy">
@@ -3667,7 +3668,7 @@
         <node concept="3EZMnI" id="15bv03kYZf4" role="3EZMnx">
           <node concept="3F0ifn" id="15bv03kYZpq" role="3EZMnx">
             <property role="3F0ifm" value="Off" />
-            <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+            <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
           </node>
           <node concept="fWXJ_" id="7wH7VDSg1Dg" role="3EZMnx">
             <node concept="3Fmcul" id="7wH7VDSg1Di" role="3FoqZy">
@@ -3717,14 +3718,14 @@
       <node concept="2iRkQZ" id="2W9rb3D8D8b" role="2iSdaV" />
       <node concept="3F0ifn" id="2W9rb3D8D87" role="3EZMnx">
         <property role="3F0ifm" value="Tooltip" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPl$ITo" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="3F0ifn" id="2W9rb3D8D8g" role="3EZMnx">
         <property role="3F0ifm" value="A tooltip shows an action name or provides useful information about an action or a setting." />
-        <ref role="1k5W1q" to="qw18:36fFDy13Z2z" resolve="Default" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13Z2z" resolve="Default" />
       </node>
       <node concept="3EZMnI" id="15bv03kKPJ5" role="3EZMnx">
         <node concept="fWXJ_" id="7wH7VDSg62u" role="3EZMnx">
@@ -3923,10 +3924,10 @@
       <node concept="2iRkQZ" id="5YyBAPlBIXJ" role="2iSdaV" />
       <node concept="3F0ifn" id="5YyBAPlBIXO" role="3EZMnx">
         <property role="3F0ifm" value="List" />
-        <ref role="1k5W1q" to="qw18:36fFDy13_e2" resolve="H0Bold" />
+        <ref role="1k5W1q" to="xx1s:36fFDy13_e2" resolve="H0Bold" />
       </node>
       <node concept="2T_mXK" id="5YyBAPlBIXP" role="3EZMnx">
-        <ref role="1k5W1q" to="qw18:IT3nkG$iwg" resolve="HeaderSeparator" />
+        <ref role="1k5W1q" to="xx1s:IT3nkG$iwg" resolve="HeaderSeparator" />
       </node>
       <node concept="fWXJ_" id="7wH7VDSfwK7" role="3EZMnx">
         <node concept="3Fmcul" id="7wH7VDSfwK9" role="3FoqZy">

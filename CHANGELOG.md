@@ -19,6 +19,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.linenumbers* Line numbers should show again on first editor opening. They were disabled for VCS editor components.
 - *de.itemis.mps.linenumbers* Line numbers are now rendered center-aligned in the left column.
 - Copying of custom cells and editors with custom swing components to plain text was improved.
+- *de.itemis.mps.compare* When the generation fails, the full log of the generation is now shown.
 
 ### Changed
 

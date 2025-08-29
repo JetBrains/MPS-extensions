@@ -77,7 +77,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -86,7 +86,7 @@
         <child id="3133179214568824810" name="node" index="tu5of" />
       </concept>
       <concept id="1094247804558289146" name="jetbrains.mps.lang.text.structure.BulletLine" flags="ng" index="2DRihI" />
-      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ngI" index="2RT3b8">
+      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ng" index="2RT3b8">
         <property id="5106752179536586491" name="indentation" index="2RT3bR" />
       </concept>
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -347,6 +347,41 @@
             <property role="3oM_SC" value="focus." />
           </node>
         </node>
+        <node concept="2DRihI" id="7wH7VDSCY46" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="7wH7VDSCY4H" role="1PaTwD">
+            <node concept="37shsh" id="7wH7VDSCY4J" role="15Aodc">
+              <node concept="1dCxOk" id="7wH7VDSCY4P" role="37shsm">
+                <property role="1XweGW" value="62971cbe-fd2f-4135-b001-ee6cb7a74436" />
+                <property role="1XxBO9" value="nl.f1re.mps.editor.swing" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCY4U" role="1PaTwD">
+            <property role="3oM_SC" value="Add" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCY4V" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCY4W" role="1PaTwD">
+            <property role="3oM_SC" value="new" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCY4X" role="1PaTwD">
+            <property role="3oM_SC" value="language" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCY4Y" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCY4Z" role="1PaTwD">
+            <property role="3oM_SC" value="customizing" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCY50" role="1PaTwD">
+            <property role="3oM_SC" value="swing" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCY51" role="1PaTwD">
+            <property role="3oM_SC" value="components." />
+          </node>
+        </node>
       </node>
       <node concept="15bAme" id="iyWIxrRh41" role="15bAlL">
         <node concept="2DRihI" id="iyWIxrRh42" role="15bAlk">
@@ -532,6 +567,70 @@
           </node>
           <node concept="3oM_SD" id="inTShirV$O" role="1PaTwD">
             <property role="3oM_SC" value="improved." />
+          </node>
+        </node>
+      </node>
+      <node concept="15bAme" id="7wH7VDSCZqv" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOF/changed" />
+        <node concept="2DRihI" id="7wH7VDSCZqw" role="15bAlk">
+          <node concept="15Ami3" id="7wH7VDSCZqx" role="1PaTwD">
+            <node concept="37shsh" id="7wH7VDSCZqy" role="15Aodc">
+              <node concept="1dCxOk" id="7wH7VDSCZqB" role="37shsm">
+                <property role="1XweGW" value="62971cbe-fd2f-4135-b001-ee6cb7a74436" />
+                <property role="1XxBO9" value="nl.f1re.mps.editor.swing" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZqK" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZqL" role="1PaTwD">
+            <property role="3oM_SC" value="experimental" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZqM" role="1PaTwD">
+            <property role="3oM_SC" value="stylesheet" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZqO" role="1PaTwD">
+            <property role="3oM_SC" value="`IntelliJStyleSheet`" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZqN" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZqP" role="1PaTwD">
+            <property role="3oM_SC" value="moved" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZqQ" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZqR" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZqS" role="1PaTwD">
+            <property role="3oM_SC" value="language." />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZGV" role="1PaTwD">
+            <property role="3oM_SC" value="It" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSD01D" role="1PaTwD">
+            <property role="3oM_SC" value="emulates" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZS8" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZS9" role="1PaTwD">
+            <property role="3oM_SC" value="style" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZWQ" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZWR" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSD01B" role="1PaTwD">
+            <property role="3oM_SC" value="IntelliJ" />
+          </node>
+          <node concept="3oM_SD" id="7wH7VDSCZWU" role="1PaTwD">
+            <property role="3oM_SC" value="UI." />
           </node>
         </node>
       </node>

@@ -11,6 +11,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.comparator* Added support for ignoring references.
 - *de.itemis.mps.compare* Added support for ignoring references.
 - *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
+- *nl.f1re.mps.editor.swing* Add a new language for customizing swing components.
 
 ### Fixed
 
@@ -18,6 +19,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.linenumbers* Line numbers should show again on first editor opening. They were disabled for VCS editor components.
 - *de.itemis.mps.linenumbers* Line numbers are now rendered center-aligned in the left column.
 - Copying of custom cells and editors with custom swing components to plain text was improved.
+
+### Changed
+
+- *nl.f1re.mps.editor.swing* The experimental stylesheet `IntelliJStyleSheet` was moved to this language. It emulates the style of the IntelliJ UI.
 
 ## July 2025
 

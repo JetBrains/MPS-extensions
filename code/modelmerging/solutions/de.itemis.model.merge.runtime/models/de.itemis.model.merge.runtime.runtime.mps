@@ -11,7 +11,6 @@
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
   </languages>
   <imports>
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
@@ -34,9 +33,6 @@
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="tqvn" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.tempmodel(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="80j5" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator.impl(MPS.Generator/)" />
-    <import index="i8bi" ref="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
-    <import index="tp3r" ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="xlb7" ref="r:cf42fd0a-68d2-493b-8b77-961658617704(jetbrains.mps.lang.modelapi.behavior)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
@@ -975,20 +971,17 @@
     <node concept="3clFb_" id="50eR6VkB59u" role="jymVt">
       <property role="TrG5h" value="merge" />
       <node concept="3clFbS" id="50eR6VkB59v" role="3clF47">
-        <node concept="3clFbF" id="50eR6VkBiaw" role="3cqZAp">
-          <node concept="2OqwBi" id="50eR6VkBijd" role="3clFbG">
-            <node concept="Xjq3P" id="50eR6VkBiav" role="2Oq$k0" />
-            <node concept="liA8E" id="50eR6VkBiwy" role="2OqNvi">
-              <ref role="37wK5l" node="5lvG0vIUaYK" resolve="merge" />
-              <node concept="37vLTw" id="50eR6VkBizN" role="37wK5m">
-                <ref role="3cqZAo" node="50eR6VkB59z" resolve="leftParent" />
-              </node>
-              <node concept="37vLTw" id="50eR6VkBiCx" role="37wK5m">
-                <ref role="3cqZAo" node="50eR6VkB59_" resolve="rightParent" />
-              </node>
-              <node concept="37vLTw" id="30FY4ILGaZK" role="37wK5m">
-                <ref role="3cqZAo" node="50eR6VkBe6F" resolve="autoMergeOperation" />
-              </node>
+        <node concept="3clFbF" id="48FL7j28_qg" role="3cqZAp">
+          <node concept="1rXfSq" id="48FL7j28_qe" role="3clFbG">
+            <ref role="37wK5l" node="5lvG0vIUaYK" resolve="merge" />
+            <node concept="37vLTw" id="48FL7j28_Lw" role="37wK5m">
+              <ref role="3cqZAo" node="50eR6VkB59z" resolve="leftParent" />
+            </node>
+            <node concept="37vLTw" id="48FL7j28_Lx" role="37wK5m">
+              <ref role="3cqZAo" node="50eR6VkB59_" resolve="rightParent" />
+            </node>
+            <node concept="37vLTw" id="48FL7j28_Ly" role="37wK5m">
+              <ref role="3cqZAo" node="50eR6VkBe6F" resolve="autoMergeOperation" />
             </node>
           </node>
         </node>

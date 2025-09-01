@@ -9,7 +9,7 @@
   </languages>
   <imports>
     <import index="14sb" ref="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)" />
-    <import index="k6li" ref="r:7c40b043-67ab-4fff-a68c-bb3e633629e4(test.de.itemis.mps.modelmerger.testlanguage.structure)" implicit="true" />
+    <import index="k6li" ref="r:7c40b043-67ab-4fff-a68c-bb3e633629e4(de.itemis.model.merge.testlang.components.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>

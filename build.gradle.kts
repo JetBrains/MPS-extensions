@@ -179,8 +179,8 @@ dependencies {
     "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
     "diagram_lib"("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
     "diagram_lib"("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    "diagram_lib"("org.eclipse.emf:org.eclipse.emf.common:2.42.0")
-    "diagram_lib"("org.eclipse.emf:org.eclipse.emf.ecore:2.39.0")
+    "diagram_lib"("org.eclipse.emf:org.eclipse.emf.common:2.43.0")
+    "diagram_lib"("org.eclipse.emf:org.eclipse.emf.ecore:2.40.0")
     "diagram_lib"("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.39.0")
 
     "xml_lib"("xerces:xercesImpl:2.12.2")

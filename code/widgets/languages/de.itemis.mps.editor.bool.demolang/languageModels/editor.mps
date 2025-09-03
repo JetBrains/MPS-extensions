@@ -4,6 +4,7 @@
   <languages>
     <use id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
   </languages>
   <imports>
     <import index="81p" ref="r:60cd01cc-8a5f-4a09-ae2a-d1083e859770(de.itemis.mps.editor.bool.demolang.structure)" implicit="true" />
@@ -43,6 +44,9 @@
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
+    </language>
     <language id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool">
       <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" stub="416014060004381438" index="27S6Sx">
         <property id="1160488491229" name="iconPathTrue" index="MwhBj" />
@@ -80,9 +84,7 @@
         <node concept="VPM3Z" id="6bmIkNC4$GR" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
-        <node concept="3F0ifn" id="6bmIkNC4Bbv" role="3EZMnx">
-          <property role="3F0ifm" value="--------------------------------------------------------------------" />
-        </node>
+        <node concept="2T_mXK" id="inTShissSB" role="3EZMnx" />
         <node concept="3F0ifn" id="1lPTJf7xdna" role="3EZMnx" />
         <node concept="3EZMnI" id="6bmIkNC4$I0" role="3EZMnx">
           <node concept="VPM3Z" id="6bmIkNC4$I2" role="3F10Kt">
@@ -149,9 +151,7 @@
           <ref role="1NtTu8" to="81p:QvUN5MYk1L" resolve="stringProperty" />
         </node>
         <node concept="3F0ifn" id="6bmIkNC4E6m" role="3EZMnx" />
-        <node concept="3F0ifn" id="7m16RPrk3lL" role="3EZMnx">
-          <property role="3F0ifm" value="--------------------------------------------------------------------" />
-        </node>
+        <node concept="2T_mXK" id="inTShissSR" role="3EZMnx" />
         <node concept="3F0ifn" id="7m16RPrk3mv" role="3EZMnx" />
         <node concept="3EZMnI" id="6bmIkNCb_jl" role="3EZMnx">
           <node concept="VPM3Z" id="6bmIkNCb_jn" role="3F10Kt">
@@ -198,9 +198,7 @@
           <node concept="2iRfu4" id="7m16RPrk1kJ" role="2iSdaV" />
         </node>
         <node concept="3F0ifn" id="7m16RPrjW7i" role="3EZMnx" />
-        <node concept="3F0ifn" id="1lPTJf7xdlD" role="3EZMnx">
-          <property role="3F0ifm" value="--------------------------------------------------------------------" />
-        </node>
+        <node concept="2T_mXK" id="inTShissSZ" role="3EZMnx" />
         <node concept="3F0ifn" id="1lPTJf7xdmp" role="3EZMnx" />
         <node concept="2EHx9g" id="6bmIkNC4_Y$" role="2iSdaV" />
       </node>

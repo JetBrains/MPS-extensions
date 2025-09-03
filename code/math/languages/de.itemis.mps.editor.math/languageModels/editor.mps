@@ -272,6 +272,29 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
+        <node concept="3F0ifn" id="inTShh19s8" role="3EZMnx">
+          <node concept="ljvvj" id="inTShh19s9" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pVoyu" id="inTShh19sa" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="VPM3Z" id="inTShh19sb" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="inTShh19sc" role="3EZMnx">
+          <property role="3F0ifm" value="rendered text" />
+          <node concept="lj46D" id="inTShh19sd" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="inTShh19se" role="3EZMnx">
+          <ref role="1NtTu8" to="x4fh:inTShgZDDx" resolve="renderTextFunction" />
+          <node concept="lj46D" id="inTShh19sf" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
         <node concept="3F0ifn" id="9L22EoX1YS" role="3EZMnx">
           <property role="3F0ifm" value="}" />
           <node concept="pVoyu" id="9L22EoX221" role="3F10Kt">
@@ -373,6 +396,26 @@
         <node concept="lj46D" id="7UiI8Oo5rm8" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+      </node>
+      <node concept="3F0ifn" id="inTShgYwsH" role="3EZMnx">
+        <node concept="ljvvj" id="inTShgYwsI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="inTShgYwsJ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="inTShgYwsK" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="inTShgYwsL" role="3EZMnx">
+        <property role="3F0ifm" value="rendered text:" />
+        <node concept="lj46D" id="inTShgYwsM" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="inTShgYwsO" role="3EZMnx">
+        <ref role="1NtTu8" to="x4fh:inTShgXvMi" resolve="renderTextFunction" />
       </node>
       <node concept="3F0ifn" id="7UiI8OnJHQ5" role="3EZMnx">
         <property role="3F0ifm" value="}" />
@@ -522,6 +565,26 @@
         <node concept="lj46D" id="7UiI8Op0LGj" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+      </node>
+      <node concept="3F0ifn" id="inTShhdm4G" role="3EZMnx">
+        <node concept="ljvvj" id="inTShhdm4H" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="inTShhdm4I" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="inTShhdm4J" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="inTShhdm4K" role="3EZMnx">
+        <property role="3F0ifm" value="rendered text:" />
+        <node concept="lj46D" id="inTShhdm4L" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="inTShhdm4Q" role="3EZMnx">
+        <ref role="1NtTu8" to="x4fh:inTShhdm4F" resolve="renderTextFunction" />
       </node>
       <node concept="3F0ifn" id="7UiI8Op0LGk" role="3EZMnx">
         <property role="3F0ifm" value="}" />

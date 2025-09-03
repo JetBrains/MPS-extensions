@@ -316,5 +316,59 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="iyWIxscp89">
+    <ref role="1M2myG" to="8do3:iyWIxscoKT" resolve="IgnoredChild" />
+    <node concept="1N5Pfh" id="iyWIxscpcj" role="1Mr941">
+      <ref role="1N5Vy1" to="8do3:iyWIxscoKV" resolve="linkDeclaration" />
+      <node concept="3dgokm" id="iyWIxscpck" role="1N6uqs">
+        <node concept="3clFbS" id="iyWIxscpcl" role="2VODD2">
+          <node concept="3clFbF" id="iyWIxscpcm" role="3cqZAp">
+            <node concept="2YIFZM" id="iyWIxscpcn" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="iyWIxscpco" role="37wK5m">
+                <node concept="2OqwBi" id="iyWIxscpcp" role="2Oq$k0">
+                  <node concept="3kakTB" id="iyWIxscpcq" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="iyWIxscpcr" role="2OqNvi">
+                    <ref role="3Tt5mk" to="8do3:iyWIxscoKU" resolve="conceptDeclaration" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="iyWIxscpcs" role="2OqNvi">
+                  <ref role="37wK5l" to="tpcn:hEwILLp" resolve="getAggregationLinkDeclarations" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="iyWIxsWAEE">
+    <ref role="1M2myG" to="8do3:iyWIxsW$$0" resolve="IgnoredReference" />
+    <node concept="1N5Pfh" id="iyWIxsWAEF" role="1Mr941">
+      <ref role="1N5Vy1" to="8do3:iyWIxsW$$2" resolve="linkDeclaration" />
+      <node concept="3dgokm" id="iyWIxsWAEG" role="1N6uqs">
+        <node concept="3clFbS" id="iyWIxsWAEH" role="2VODD2">
+          <node concept="3clFbF" id="iyWIxsWAEI" role="3cqZAp">
+            <node concept="2YIFZM" id="iyWIxsWAEJ" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="iyWIxsWAEK" role="37wK5m">
+                <node concept="2OqwBi" id="iyWIxsWAEL" role="2Oq$k0">
+                  <node concept="3kakTB" id="iyWIxsWAEM" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="iyWIxsWAEN" role="2OqNvi">
+                    <ref role="3Tt5mk" to="8do3:iyWIxsW$$1" resolve="conceptDeclaration" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="iyWIxsWAEO" role="2OqNvi">
+                  <ref role="37wK5l" to="tpcn:hEwILL0" resolve="getReferenceLinkDeclarations" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

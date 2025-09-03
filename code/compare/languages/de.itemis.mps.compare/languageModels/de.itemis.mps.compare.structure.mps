@@ -75,6 +75,12 @@
       <property role="IQ2ns" value="2691439673111601841" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="iyWIxs9bN3" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoredChildren" />
+      <property role="IQ2ns" value="334096402171083971" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="3qPjHtYqU7z" role="1TKVEi">
       <property role="IQ2ns" value="3942143736278655459" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -117,7 +123,7 @@
       <ref role="20lvS9" node="5uUCR4L$O4d" resolve="PropertyOrReferenceReference" />
     </node>
     <node concept="1TJgyi" id="5uUCR4L$qbb" role="1TKVEl">
-      <property role="TrG5h" value="irgnoreAllProperties" />
+      <property role="TrG5h" value="ignoreAllProperties" />
       <property role="IQ2nx" value="6321544733526172363" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
@@ -169,6 +175,12 @@
       <property role="IQ2ns" value="1831260205537497747" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="iyWIxs65gJ" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoredChildren" />
+      <property role="IQ2ns" value="334096402170270767" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="3qPjHtY$alZ" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ignoredReferences" />
@@ -204,6 +216,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ignoredProperties" />
       <property role="IQ2ns" value="6325604991668181368" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="iyWIxs7q$c" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoredChildren" />
+      <property role="IQ2ns" value="334096402170620172" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="5v943APOt_T" role="1TKVEi">
@@ -321,7 +339,7 @@
   <node concept="1TIwiD" id="7xgxWxIP73_">
     <property role="EcuMT" value="8669578577610830053" />
     <property role="TrG5h" value="IgnoredProperty" />
-    <property role="34LRSv" value="ignoredProperty" />
+    <property role="34LRSv" value="ignored property" />
     <property role="R4oN_" value="a property that should be ignored" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="2iMJRNxD2Yx" role="1TKVEi">
@@ -399,6 +417,12 @@
     <property role="34LRSv" value="line ending handler" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
+  <node concept="1TIwiD" id="2sbLIdzA3tQ">
+    <property role="TrG5h" value="QueryFunction_OutputModel" />
+    <property role="EcuMT" value="2813561072153802614" />
+    <property role="3GE5qa" value="queryFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
   <node concept="1TIwiD" id="2sbLIdzA56M">
     <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
@@ -409,12 +433,6 @@
     <property role="34LRSv" value="status" />
     <property role="R4oN_" value="the status object of the generation" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
-  <node concept="1TIwiD" id="2sbLIdzA3tQ">
-    <property role="TrG5h" value="QueryFunction_OutputModel" />
-    <property role="EcuMT" value="2813561072153802614" />
-    <property role="3GE5qa" value="queryFunction" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="6MWuQFM4oUI">
     <property role="TrG5h" value="AssertFloatNotEquals" />
@@ -435,6 +453,44 @@
       <property role="20lbJX" value="fLJekj4/1" />
       <property role="IQ2ns" value="8427750732757990724" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="iyWIxscoKT">
+    <property role="EcuMT" value="334096402171923513" />
+    <property role="TrG5h" value="IgnoredChild" />
+    <property role="34LRSv" value="ignored child" />
+    <property role="R4oN_" value="a child that should be ignored" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="iyWIxscoKU" role="1TKVEi">
+      <property role="20kJfa" value="conceptDeclaration" />
+      <property role="20lbJX" value="fLJekj4" />
+      <property role="IQ2ns" value="334096402171923514" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="iyWIxscoKV" role="1TKVEi">
+      <property role="20kJfa" value="linkDeclaration" />
+      <property role="20lbJX" value="fLJekj4" />
+      <property role="IQ2ns" value="334096402171923515" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="iyWIxsW$$0">
+    <property role="EcuMT" value="334096402184554752" />
+    <property role="TrG5h" value="IgnoredReference" />
+    <property role="34LRSv" value="ignored reference" />
+    <property role="R4oN_" value="a reference that should be ignored" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="iyWIxsW$$1" role="1TKVEi">
+      <property role="20kJfa" value="conceptDeclaration" />
+      <property role="20lbJX" value="fLJekj4" />
+      <property role="IQ2ns" value="334096402184554753" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="iyWIxsW$$2" role="1TKVEi">
+      <property role="20kJfa" value="linkDeclaration" />
+      <property role="20lbJX" value="fLJekj4" />
+      <property role="IQ2ns" value="334096402184554754" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
     </node>
   </node>
 </model>

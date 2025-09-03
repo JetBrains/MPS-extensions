@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -965,16 +966,16 @@
                   <ref role="3cqZAo" node="52ZF9D3fSoF" resolve="descriptor" />
                 </node>
                 <node concept="3EllGN" id="52ZF9D3fSoO" role="37vLTJ">
+                  <node concept="37vLTw" id="52ZF9D3fSoQ" role="3ElQJh">
+                    <ref role="3cqZAo" node="52ZF9D38Ccg" resolve="myDescriptors" />
+                  </node>
                   <node concept="2OqwBi" id="4e238oV1l5Z" role="3ElVtu">
-                    <node concept="37vLTw" id="52ZF9D3fUnM" role="2Oq$k0">
-                      <ref role="3cqZAo" node="52ZF9D3fRhV" resolve="module" />
-                    </node>
                     <node concept="liA8E" id="4e238oV1pdj" role="2OqNvi">
                       <ref role="37wK5l" to="ze1i:~ModuleRuntime.getSourceModule()" resolve="getSourceModule" />
                     </node>
-                  </node>
-                  <node concept="37vLTw" id="52ZF9D3fSoQ" role="3ElQJh">
-                    <ref role="3cqZAo" node="52ZF9D38Ccg" resolve="myDescriptors" />
+                    <node concept="37vLTw" id="52ZF9D3fUnM" role="2Oq$k0">
+                      <ref role="3cqZAo" node="52ZF9D3fRhV" resolve="module" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1111,6 +1112,9 @@
                 <ref role="1PxDUh" node="52ZF9D380er" resolve="IModelListenersDescriptor" />
               </node>
               <node concept="3cpWs3" id="52ZF9D398uR" role="3uHU7B">
+                <node concept="Xl_RD" id="52ZF9D3fx1c" role="3uHU7w">
+                  <property role="Xl_RC" value="." />
+                </node>
                 <node concept="2YIFZM" id="4e238oV3dhL" role="3uHU7B">
                   <ref role="37wK5l" node="4e238oV3bik" resolve="getName" />
                   <ref role="1Pybhc" node="9$iJr8WJ9Q" resolve="ListenersAspect" />
@@ -1122,9 +1126,6 @@
                       <ref role="37wK5l" to="ze1i:~ModuleRuntime.getSourceModule()" resolve="getSourceModule" />
                     </node>
                   </node>
-                </node>
-                <node concept="Xl_RD" id="52ZF9D3fx1c" role="3uHU7w">
-                  <property role="Xl_RC" value="." />
                 </node>
               </node>
             </node>
@@ -1160,6 +1161,9 @@
               <node concept="3clFbS" id="1Wr0hkc_jJH" role="1zxBo7">
                 <node concept="3clFbF" id="1Wr0hkc_mzb" role="3cqZAp">
                   <node concept="37vLTI" id="1Wr0hkc_mzd" role="3clFbG">
+                    <node concept="37vLTw" id="1Wr0hkc_mzh" role="37vLTJ">
+                      <ref role="3cqZAo" node="4e238oV3DVd" resolve="descriptorClass" />
+                    </node>
                     <node concept="2OqwBi" id="52ZF9D39v9K" role="37vLTx">
                       <node concept="37vLTw" id="52ZF9D39v9L" role="2Oq$k0">
                         <ref role="3cqZAo" node="52ZF9D39qjs" resolve="module" />
@@ -1170,9 +1174,6 @@
                           <ref role="3cqZAo" node="52ZF9D395cl" resolve="className" />
                         </node>
                       </node>
-                    </node>
-                    <node concept="37vLTw" id="1Wr0hkc_mzh" role="37vLTJ">
-                      <ref role="3cqZAo" node="4e238oV3DVd" resolve="descriptorClass" />
                     </node>
                   </node>
                 </node>
@@ -3618,6 +3619,7 @@
       <node concept="17QB3L" id="9$iJr8X0R4" role="3clF45" />
       <node concept="3Tm1VV" id="9$iJr8X0EA" role="1B3o_S" />
     </node>
+    <node concept="3Tm1VV" id="9$iJr8WJ9R" role="1B3o_S" />
     <node concept="2tJIrI" id="4e238oV3bAr" role="jymVt" />
     <node concept="2YIFZL" id="4e238oV3bik" role="jymVt">
       <property role="TrG5h" value="getName" />
@@ -3649,7 +3651,6 @@
       <node concept="17QB3L" id="4e238oV3biu" role="3clF45" />
       <node concept="3Tm1VV" id="4e238oV3biv" role="1B3o_S" />
     </node>
-    <node concept="3Tm1VV" id="9$iJr8WJ9R" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="1Wr0hkcyYTV">
     <property role="TrG5h" value="ForwardingModelListener" />

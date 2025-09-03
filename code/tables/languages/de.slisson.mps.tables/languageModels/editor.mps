@@ -5,6 +5,7 @@
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -293,6 +294,10 @@
       <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
         <child id="1196350785114" name="quotedNode" index="2c44tc" />
       </concept>
+    </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828844315" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineColorStyle" flags="lg" index="2T_bXS" />
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1176543928247" name="jetbrains.mps.lang.typesystem.structure.IsSubtypeExpression" flags="nn" index="3JuTUA">
@@ -1949,25 +1954,24 @@
           </node>
           <node concept="2iRfu4" id="3h9t8JndPS6" role="2iSdaV" />
         </node>
-        <node concept="3F0ifn" id="4cCuRQiERi0" role="3EZMnx">
-          <property role="3F0ifm" value="-----------------------------------------" />
-          <node concept="VechU" id="4cCuRQiERk5" role="3F10Kt">
-            <property role="Vb096" value="fLJRk5A/lightGray" />
-          </node>
-          <node concept="pkWqt" id="4cCuRQiERk9" role="pqm2j">
-            <node concept="3clFbS" id="4cCuRQiERka" role="2VODD2">
-              <node concept="3clFbF" id="4cCuRQiERuP" role="3cqZAp">
-                <node concept="2OqwBi" id="4cCuRQiEUCF" role="3clFbG">
-                  <node concept="2OqwBi" id="4cCuRQiER_e" role="2Oq$k0">
-                    <node concept="pncrf" id="4cCuRQiERuO" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="4cCuRQiESdN" role="2OqNvi">
+        <node concept="2T_mXK" id="inTShissSB" role="3EZMnx">
+          <node concept="pkWqt" id="inTShivHBD" role="pqm2j">
+            <node concept="3clFbS" id="inTShivHBE" role="2VODD2">
+              <node concept="3clFbF" id="inTShivIft" role="3cqZAp">
+                <node concept="2OqwBi" id="inTShivIfu" role="3clFbG">
+                  <node concept="2OqwBi" id="inTShivIfv" role="2Oq$k0">
+                    <node concept="pncrf" id="inTShivIfw" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="inTShivIfx" role="2OqNvi">
                       <ref role="3TtcxE" to="bnk3:3iamoN_rN58" resolve="items" />
                     </node>
                   </node>
-                  <node concept="3GX2aA" id="4cCuRQiF2td" role="2OqNvi" />
+                  <node concept="3GX2aA" id="inTShivIfy" role="2OqNvi" />
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="2T_bXS" id="inTShivJ5J" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5A/lightGray" />
           </node>
         </node>
         <node concept="3F2HdR" id="4cCuRQiERdC" role="3EZMnx">

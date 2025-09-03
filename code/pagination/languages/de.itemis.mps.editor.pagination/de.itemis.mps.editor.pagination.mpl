@@ -48,6 +48,7 @@
         <language slang="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" version="9" />
         <language slang="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" version="0" />
         <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
+        <language slang="l:62971cbe-fd2f-4135-b001-ee6cb7a74436:nl.f1re.mps.editor.swing" version="0" />
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -74,6 +75,7 @@
         <module reference="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" version="1" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+        <module reference="df7a5caa-3be8-43f2-a870-f5474c3bcdb5(nl.f1re.mps.editor.swing.runtime)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -131,6 +133,7 @@
     <module reference="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" version="1" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="df7a5caa-3be8-43f2-a870-f5474c3bcdb5(nl.f1re.mps.editor.swing.runtime)" version="0" />
   </dependencyVersions>
   <runtime>
     <dependency reexport="false">b8eca104-6d07-43d6-9bd7-4c8692c82707(de.itemis.mps.editor.pagination.runtime)</dependency>

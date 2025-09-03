@@ -11,6 +11,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.comparator* Added support for ignoring references.
 - *de.itemis.mps.compare* Added support for ignoring references.
 - *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
+- *nl.f1re.mps.editor.swing* Add a new language for customizing swing components.
 
 ### Fixed
 
@@ -18,6 +19,11 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.linenumbers* Line numbers should show again on first editor opening. They were disabled for VCS editor components.
 - *de.itemis.mps.linenumbers* Line numbers are now rendered center-aligned in the left column.
 - Copying of custom cells and editors with custom swing components to plain text was improved.
+- *de.itemis.mps.compare* When the generation fails, the full log of the generation is now shown.
+
+### Changed
+
+- *nl.f1re.mps.editor.intellij* The experimental stylesheet `IntelliJStyleSheet` was moved to this language. It emulates the style of the IntelliJ UI.
 
 ## July 2025
 
@@ -40,6 +46,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
+- *de.itemis.model.merge.runtime* Fixed merging of references; allow in place merging without braking external references; fixed merging of roots.
 - *de.itemis.mps.compare* Fixed duplicated code generation for `assert node equals`
 - *com.mbeddr.mpsutil.blutil* Use `COPY_SRCL` in [IfInstanceOfElseIfClause](http://127.0.0.1:63320/node?ref=63e0e566-5131-447e-90e3-12ea330e1a00%2Fr%3Af5bd2ad9-cd54-4408-b815-07f9f306f074%28com.mbeddr.mpsutil.blutil%2Fcom.mbeddr.mpsutil.blutil.structure%29%2F8718469662507237778) to avoid build warnings
 - *de.itemis.mps.editor.bool.runtime* Fix image loading for check boxes.

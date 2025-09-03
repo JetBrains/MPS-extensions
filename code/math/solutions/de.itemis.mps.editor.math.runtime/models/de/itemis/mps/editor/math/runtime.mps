@@ -56,6 +56,9 @@
       </concept>
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
+      <concept id="2323553266850475941" name="jetbrains.mps.baseLanguage.structure.IHasModifiers" flags="ngI" index="2frcj7">
+        <child id="2323553266850475953" name="modifiers" index="2frcjj" />
+      </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
@@ -76,6 +79,7 @@
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
+      <concept id="4678410916365116210" name="jetbrains.mps.baseLanguage.structure.DefaultModifier" flags="ng" index="2JFqV2" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -144,6 +148,9 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -11304,6 +11311,24 @@
       <node concept="3cqZAl" id="4r1mNB_YJjG" role="3clF45" />
       <node concept="3Tm1VV" id="4r1mNB_YJjH" role="1B3o_S" />
       <node concept="3clFbS" id="4r1mNB_YJjI" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="inTShgXupP" role="jymVt">
+      <property role="TrG5h" value="renderText" />
+      <node concept="3clFbS" id="inTShgXupS" role="3clF47">
+        <node concept="3clFbF" id="inTShgXyjL" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShgXyjJ" role="3clFbG">
+            <node concept="1pGfFk" id="inTShgXQrf" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;()" resolve="TextBuilderImpl" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="inTShgXq_u" role="1B3o_S" />
+      <node concept="3uibUv" id="inTShgXsHV" role="3clF45">
+        <ref role="3uigEE" to="cj4x:~TextBuilder" resolve="TextBuilder" />
+      </node>
+      <node concept="2JFqV2" id="inTShh5Fds" role="2frcjj" />
     </node>
     <node concept="3Tm1VV" id="7UiI8Oo6H1T" role="1B3o_S" />
     <node concept="3uibUv" id="7UiI8OodCZO" role="3HQHJm">

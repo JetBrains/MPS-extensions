@@ -11,6 +11,11 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="5nlq" ref="r:34f40b74-cb38-46ba-8e5b-13b443c803c4(de.itemis.mps.editor.math.runtime)" />
+    <import index="hhnx" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime(MPS.Editor/)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
+    <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
+    <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -23,6 +28,9 @@
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
+      <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
+        <child id="1154032183016" name="body" index="2LFqv$" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -56,6 +64,9 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
+      </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -85,6 +96,9 @@
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -106,13 +120,26 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
+      <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
+        <child id="1144230900587" name="variable" index="1Duv9x" />
+      </concept>
+      <concept id="1144231330558" name="jetbrains.mps.baseLanguage.structure.ForStatement" flags="nn" index="1Dw8fO">
+        <child id="1144231399730" name="condition" index="1Dwp0S" />
+        <child id="1144231408325" name="iteration" index="1Dwrff" />
+      </concept>
+      <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
+        <property id="1200397540847" name="charConstant" index="1XhdNS" />
+      </concept>
       <concept id="8064396509828172209" name="jetbrains.mps.baseLanguage.structure.UnaryMinus" flags="nn" index="1ZRNhn" />
     </language>
     <language id="766348f7-6a67-4b85-9323-384840132299" name="de.itemis.mps.editor.math">
       <concept id="175930839493260656" name="de.itemis.mps.editor.math.structure.Parameter_Graphics" flags="ng" index="2rujPq" />
+      <concept id="330987653115025311" name="de.itemis.mps.editor.math.structure.TextBuilderFunction" flags="ig" index="1kov0r" />
       <concept id="9120555111512623985" name="de.itemis.mps.editor.math.structure.UpdateDimensionFunction" flags="ig" index="1AxZfW" />
       <concept id="9120555111512624407" name="de.itemis.mps.editor.math.structure.Parameter_Dimension" flags="ng" index="1AxZmq" />
       <concept id="9120555111506484308" name="de.itemis.mps.editor.math.structure.PredefinedMathSymbol" flags="ng" index="1D9ijp">
+        <child id="330987653115018386" name="renderTextFunction" index="1koxGm" />
         <child id="9120555111512650991" name="updateDimensionFunction" index="1AxKLy" />
         <child id="9120555111506958622" name="paintFunction" index="1Db66j" />
       </concept>
@@ -126,7 +153,7 @@
     </language>
   </registry>
   <node concept="1D9ijp" id="6vUATgmxhhb">
-    <property role="TrG5h" value="ArrowLeft" />
+    <property role="TrG5h" value="ArrowRight" />
     <node concept="1D9ilv" id="6vUATgmxhhc" role="1Db66j">
       <node concept="3clFbS" id="6vUATgmxhhd" role="2VODD2">
         <node concept="3cpWs8" id="6vUATgmxhhe" role="3cqZAp">
@@ -367,6 +394,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShh7xqT" role="1koxGm">
+      <node concept="3clFbS" id="inTShh7xqU" role="2VODD2">
+        <node concept="3clFbF" id="inTShh7xt4" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShh7xt2" role="3clFbG">
+            <node concept="1pGfFk" id="inTShh7zPL" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShh7_tj" role="37wK5m">
+                <property role="Xl_RC" value="→" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="6vUATgmxhiS">
     <property role="TrG5h" value="HorizontalLine" />
@@ -422,6 +464,73 @@
               <node concept="1AxZmq" id="6vUATgmxhjj" role="2Oq$k0" />
               <node concept="2OwXpG" id="2LRHghwNKit" role="2OqNvi">
                 <ref role="2Oxat5" to="5nlq:7UiI8Oo4zw3" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhgTEo" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgTEp" role="2VODD2">
+        <node concept="3cpWs8" id="10diQy0kYvH" role="3cqZAp">
+          <node concept="3cpWsn" id="10diQy0kYvI" role="3cpWs9">
+            <property role="TrG5h" value="witdhOfOneDash" />
+            <node concept="10Oyi0" id="10diQy0kYcZ" role="1tU5fm" />
+            <node concept="2OqwBi" id="inTShhhqZE" role="33vP2m">
+              <node concept="10M0yZ" id="inTShhhq_o" role="2Oq$k0">
+                <ref role="3cqZAo" to="exr9:~EditorComponentSettingsImpl.DEFAULT_SETTINGS" resolve="DEFAULT_SETTINGS" />
+                <ref role="1PxDUh" to="exr9:~EditorComponentSettingsImpl" resolve="EditorComponentSettingsImpl" />
+              </node>
+              <node concept="liA8E" id="inTShhhrrC" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorComponentSettings.getWidth(char,int)" resolve="getWidth" />
+                <node concept="1Xhbcc" id="inTShhhrub" role="37wK5m">
+                  <property role="1XhdNS" value="-" />
+                </node>
+                <node concept="3cmrfG" id="inTShhhrGy" role="37wK5m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="10diQy0l4Q9" role="3cqZAp">
+          <node concept="3cpWsn" id="10diQy0l4Qc" role="3cpWs9">
+            <property role="TrG5h" value="numberOfDashes" />
+            <node concept="10Oyi0" id="10diQy0l4Q7" role="1tU5fm" />
+            <node concept="FJ1c_" id="10diQy0l9nA" role="33vP2m">
+              <node concept="37vLTw" id="10diQy0l9Vp" role="3uHU7w">
+                <ref role="3cqZAo" node="10diQy0kYvI" resolve="witdhOfOneDash" />
+              </node>
+              <node concept="10QFUN" id="inTShhl$ey" role="3uHU7B">
+                <node concept="10Oyi0" id="inTShhl$x6" role="10QFUM" />
+                <node concept="2OqwBi" id="inTShhlxuD" role="10QFUP">
+                  <node concept="1D9iu6" id="inTShhlxad" role="2Oq$k0" />
+                  <node concept="liA8E" id="inTShhlxQ5" role="2OqNvi">
+                    <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth()" resolve="getWidth" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2qBpcrwljpM" role="3cqZAp">
+          <node concept="2ShNRf" id="2qBpcrwljvh" role="3cqZAk">
+            <node concept="1pGfFk" id="2qBpcrwlDsE" role="2ShVmc">
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="2OqwBi" id="10diQy0lfWg" role="37wK5m">
+                <node concept="2YIFZM" id="10diQy0lc0B" role="2Oq$k0">
+                  <ref role="37wK5l" to="wyt6:~String.valueOf(char)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                  <node concept="1Xhbcc" id="10diQy0lcx$" role="37wK5m">
+                    <property role="1XhdNS" value="-" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="10diQy0lh$J" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.repeat(int)" resolve="repeat" />
+                  <node concept="37vLTw" id="10diQy0li9I" role="37wK5m">
+                    <ref role="3cqZAo" node="10diQy0l4Qc" resolve="numberOfDashes" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -502,6 +611,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhlD56" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlD57" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlD80" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlD81" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlD82" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlD83" role="37wK5m">
+                <property role="Xl_RC" value="(" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="6vUATgmxhjS">
     <property role="TrG5h" value="RightParenthesis" />
@@ -570,6 +694,21 @@
               <node concept="1AxZmq" id="6vUATgmxhkp" role="2Oq$k0" />
               <node concept="2OwXpG" id="6vUATgmxhkq" role="2OqNvi">
                 <ref role="2Oxat5" to="5nlq:7UiI8Oo4zw3" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhlN9p" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlN9q" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlN9s" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlN9t" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlN9u" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlN9v" role="37wK5m">
+                <property role="Xl_RC" value=")" />
               </node>
             </node>
           </node>
@@ -896,6 +1035,21 @@
               </node>
               <node concept="3b6qkQ" id="6vUATgmxhkK" role="37wK5m">
                 <property role="$nhwW" value="0.7" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhlPyt" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlPyu" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlPCm" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlPCk" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlPMm" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlPXn" role="37wK5m">
+                <property role="Xl_RC" value="sum" />
               </node>
             </node>
           </node>
@@ -1379,6 +1533,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhlSeN" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlSeO" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlSmE" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlSmF" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlSmG" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlSmH" role="37wK5m">
+                <property role="Xl_RC" value="sum" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="4r1mNB_E13K">
     <property role="TrG5h" value="BeautifulSumSymbol" />
@@ -1825,6 +1994,21 @@
               <node concept="1AxZmq" id="4r1mNB_GDBS" role="2Oq$k0" />
               <node concept="2OwXpG" id="4r1mNB_GEqS" role="2OqNvi">
                 <ref role="2Oxat5" to="5nlq:7UiI8Oo4zw3" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhgLhK" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgLhL" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgLrG" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgLrE" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgLzi" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgLzl" role="37wK5m">
+                <property role="Xl_RC" value="sum" />
               </node>
             </node>
           </node>
@@ -2670,6 +2854,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhgKbW" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgKbX" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgKp8" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgKp6" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgKB_" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgKCj" role="37wK5m">
+                <property role="Xl_RC" value="integral" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="4r1mNB_GoWK">
     <property role="TrG5h" value="FontIntegralSymbol" />
@@ -2709,6 +2908,21 @@
               </node>
               <node concept="3b6qkQ" id="7UiI8Op2iIr" role="37wK5m">
                 <property role="$nhwW" value="0.7" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhgT9b" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgT9c" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgTbp" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgTbn" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgTiZ" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgTmw" role="37wK5m">
+                <property role="Xl_RC" value="integral" />
               </node>
             </node>
           </node>
@@ -3166,6 +3380,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhgMiC" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgMiD" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgMsy" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgMsz" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgMs$" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgMs_" role="37wK5m">
+                <property role="Xl_RC" value="sum" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="4r1mNB_NBod">
     <property role="TrG5h" value="BeautifulSumSymbol3" />
@@ -3617,6 +3846,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhgN4y" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgN4z" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgN96" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgN97" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgN98" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgN99" role="37wK5m">
+                <property role="Xl_RC" value="sum" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="4r1mNB_UBwx">
     <property role="TrG5h" value="ProductSymbol" />
@@ -3763,6 +4007,21 @@
               </node>
               <node concept="3b6qkQ" id="7UiI8Oph99D" role="37wK5m">
                 <property role="$nhwW" value="0.8" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhlMP2" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlMP3" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlMTh" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlMTf" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlN3h" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlN4C" role="37wK5m">
+                <property role="Xl_RC" value="prod" />
               </node>
             </node>
           </node>
@@ -4286,6 +4545,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhlQZK" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlQZL" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlRr0" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlRr1" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlRr2" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlRr3" role="37wK5m">
+                <property role="Xl_RC" value="sum" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="3EpCmwwRjbD">
     <property role="TrG5h" value="EmptySymbol" />
@@ -4303,6 +4577,21 @@
               <node concept="1AxZmq" id="3EpCmwwRjbM" role="2Oq$k0" />
               <node concept="2OwXpG" id="3EpCmwwRjbN" role="2OqNvi">
                 <ref role="2Oxat5" to="5nlq:7UiI8Oo4zw3" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhgP6q" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgP6r" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgP8r" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgP8p" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgPg1" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgPgJ" role="37wK5m">
+                <property role="Xl_RC" value="" />
               </node>
             </node>
           </node>
@@ -5139,6 +5428,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhgQ76" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgQ77" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgQ$I" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgQ$G" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgQGk" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgQIt" role="37wK5m">
+                <property role="Xl_RC" value="ℯ" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="3EpCmwwRjgo">
     <property role="TrG5h" value="FloorLeft" />
@@ -5267,6 +5571,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhgRLS" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgRLT" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgSe2" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgSe0" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgSlC" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgSmm" role="37wK5m">
+                <property role="Xl_RC" value="⌊" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="3EpCmwwRjhh">
     <property role="TrG5h" value="FloorRight" />
@@ -5389,6 +5708,21 @@
               <ref role="37wK5l" to="z60i:~Graphics2D.draw(java.awt.Shape)" resolve="draw" />
               <node concept="37vLTw" id="3EpCmwwRji9" role="37wK5m">
                 <ref role="3cqZAo" node="3EpCmwwRjhs" resolve="symbol" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhgSMa" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgSMb" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgSR8" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgSR6" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgT5_" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgT5C" role="37wK5m">
+                <property role="Xl_RC" value="⌋" />
               </node>
             </node>
           </node>
@@ -6226,6 +6560,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhlAzj" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlAzk" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlAMY" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlAMW" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlB$H" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlCxX" role="37wK5m">
+                <property role="Xl_RC" value="{" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="3EpCmwwRjmX">
     <property role="TrG5h" value="LeftParenthesisThick" />
@@ -6599,6 +6948,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhlEd_" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlEdA" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlEl1" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlEl2" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlEl3" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlEl4" role="37wK5m">
+                <property role="Xl_RC" value="(" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="3EpCmwwRjp9">
     <property role="TrG5h" value="LeftSquareBracket" />
@@ -6748,6 +7112,21 @@
               <ref role="37wK5l" to="z60i:~Graphics2D.draw(java.awt.Shape)" resolve="draw" />
               <node concept="37vLTw" id="3EpCmwwRjqd" role="37wK5m">
                 <ref role="3cqZAo" node="3EpCmwwRjpk" resolve="symbol" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhlGoV" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlGoW" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlGoY" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlGoZ" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlGp0" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlGp1" role="37wK5m">
+                <property role="Xl_RC" value="[" />
               </node>
             </node>
           </node>
@@ -8143,6 +8522,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhlHHS" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlHHT" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlI73" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlI71" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlIit" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlIiw" role="37wK5m">
+                <property role="Xl_RC" value="ln" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="3EpCmwwRjy9">
     <property role="TrG5h" value="RightParenthesisThick" />
@@ -8516,6 +8910,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhlNLi" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlNLj" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlOl0" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlOl1" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlOl2" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlOl3" role="37wK5m">
+                <property role="Xl_RC" value=")" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="3EpCmwwRj$l">
     <property role="TrG5h" value="RightSquareBracket" />
@@ -8671,6 +9080,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhlOOM" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlOON" role="2VODD2">
+        <node concept="3clFbF" id="inTShhlOOP" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhlOOQ" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhlOOR" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhlOOS" role="37wK5m">
+                <property role="Xl_RC" value="]" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="3EpCmwwRj_q">
     <property role="TrG5h" value="VerticalLine" />
@@ -8728,6 +9152,157 @@
                 <ref role="2Oxat5" to="5nlq:7UiI8Oo4zw3" resolve="width" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhlZrL" role="1koxGm">
+      <node concept="3clFbS" id="inTShhlZrM" role="2VODD2">
+        <node concept="3cpWs8" id="10diQy0mxks" role="3cqZAp">
+          <node concept="3cpWsn" id="10diQy0mxkr" role="3cpWs9">
+            <property role="TrG5h" value="settings" />
+            <node concept="3uibUv" id="10diQy0mxkt" role="1tU5fm">
+              <ref role="3uigEE" to="exr9:~EditorSettings" resolve="EditorSettings" />
+            </node>
+            <node concept="2YIFZM" id="10diQy0mxY7" role="33vP2m">
+              <ref role="1Pybhc" to="exr9:~EditorSettings" resolve="EditorSettings" />
+              <ref role="37wK5l" to="exr9:~EditorSettings.getInstance()" resolve="getInstance" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="10diQy0mRiS" role="3cqZAp">
+          <node concept="3cpWsn" id="10diQy0mRiT" role="3cpWs9">
+            <property role="TrG5h" value="fontMetrics" />
+            <node concept="3uibUv" id="10diQy0mQT_" role="1tU5fm">
+              <ref role="3uigEE" to="f4zo:~EditorFontMetrics" resolve="EditorFontMetrics" />
+            </node>
+            <node concept="2OqwBi" id="10diQy0mRiU" role="33vP2m">
+              <node concept="liA8E" id="10diQy0mRiW" role="2OqNvi">
+                <ref role="37wK5l" to="f4zo:~EditorFontMetricsProvider.getFontMetrics(java.lang.String,int,int)" resolve="getFontMetrics" />
+                <node concept="2OqwBi" id="10diQy0mRiX" role="37wK5m">
+                  <node concept="37vLTw" id="10diQy0mRiY" role="2Oq$k0">
+                    <ref role="3cqZAo" node="10diQy0mxkr" resolve="settings" />
+                  </node>
+                  <node concept="liA8E" id="10diQy0mRiZ" role="2OqNvi">
+                    <ref role="37wK5l" to="exr9:~EditorSettings.getFontFamily()" resolve="getFontFamily" />
+                  </node>
+                </node>
+                <node concept="10M0yZ" id="10diQy0mRj0" role="37wK5m">
+                  <ref role="3cqZAo" to="z60i:~Font.PLAIN" resolve="PLAIN" />
+                  <ref role="1PxDUh" to="z60i:~Font" resolve="Font" />
+                </node>
+                <node concept="2OqwBi" id="10diQy0mRj1" role="37wK5m">
+                  <node concept="liA8E" id="10diQy0mRj3" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorComponentSettings.getFontSize()" resolve="getFontSize" />
+                  </node>
+                  <node concept="10M0yZ" id="inTShhm0G0" role="2Oq$k0">
+                    <ref role="3cqZAo" to="exr9:~EditorComponentSettingsImpl.DEFAULT_SETTINGS" resolve="DEFAULT_SETTINGS" />
+                    <ref role="1PxDUh" to="exr9:~EditorComponentSettingsImpl" resolve="EditorComponentSettingsImpl" />
+                  </node>
+                </node>
+              </node>
+              <node concept="10M0yZ" id="inTShhlZM_" role="2Oq$k0">
+                <ref role="3cqZAo" to="exr9:~EditorComponentSettingsImpl.DEFAULT_SETTINGS" resolve="DEFAULT_SETTINGS" />
+                <ref role="1PxDUh" to="exr9:~EditorComponentSettingsImpl" resolve="EditorComponentSettingsImpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="10diQy0lnXf" role="3cqZAp">
+          <node concept="3cpWsn" id="10diQy0lnXg" role="3cpWs9">
+            <property role="TrG5h" value="heightOfOneDash" />
+            <node concept="10Oyi0" id="10diQy0lnXh" role="1tU5fm" />
+            <node concept="2OqwBi" id="10diQy0mUcq" role="33vP2m">
+              <node concept="37vLTw" id="10diQy0mT_B" role="2Oq$k0">
+                <ref role="3cqZAo" node="10diQy0mRiT" resolve="fontMetrics" />
+              </node>
+              <node concept="liA8E" id="10diQy0mUXf" role="2OqNvi">
+                <ref role="37wK5l" to="f4zo:~EditorFontMetrics.getHeight()" resolve="getHeight" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="10diQy0mtgp" role="3cqZAp" />
+        <node concept="3cpWs8" id="10diQy0luMT" role="3cqZAp">
+          <node concept="3cpWsn" id="10diQy0luMU" role="3cpWs9">
+            <property role="TrG5h" value="builder" />
+            <node concept="3uibUv" id="10diQy0luMV" role="1tU5fm">
+              <ref role="3uigEE" to="cj4x:~TextBuilder" resolve="TextBuilder" />
+            </node>
+            <node concept="2ShNRf" id="10diQy0lw_b" role="33vP2m">
+              <node concept="1pGfFk" id="10diQy0lx$d" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;()" resolve="TextBuilderImpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="10diQy0lnXp" role="3cqZAp">
+          <node concept="3cpWsn" id="10diQy0lnXq" role="3cpWs9">
+            <property role="TrG5h" value="numberOfDashes" />
+            <node concept="10Oyi0" id="10diQy0lnXr" role="1tU5fm" />
+            <node concept="FJ1c_" id="10diQy0lnXs" role="33vP2m">
+              <node concept="37vLTw" id="10diQy0lnXt" role="3uHU7w">
+                <ref role="3cqZAo" node="10diQy0lnXg" resolve="heightOfOneDash" />
+              </node>
+              <node concept="10QFUN" id="inTShhm2lZ" role="3uHU7B">
+                <node concept="10Oyi0" id="inTShhm2Ds" role="10QFUM" />
+                <node concept="2OqwBi" id="inTShhm1fD" role="10QFUP">
+                  <node concept="1D9iu6" id="inTShhm0Jy" role="2Oq$k0" />
+                  <node concept="liA8E" id="inTShhm1OH" role="2OqNvi">
+                    <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight()" resolve="getHeight" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="10diQy0lz3I" role="3cqZAp">
+          <node concept="3clFbS" id="10diQy0lz3K" role="2LFqv$">
+            <node concept="3clFbF" id="10diQy0lJHX" role="3cqZAp">
+              <node concept="2OqwBi" id="10diQy0lKka" role="3clFbG">
+                <node concept="37vLTw" id="10diQy0lJHV" role="2Oq$k0">
+                  <ref role="3cqZAo" node="10diQy0luMU" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="10diQy0lKZ9" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~TextBuilder.appendToTheBottom(jetbrains.mps.openapi.editor.TextBuilder)" resolve="appendToTheBottom" />
+                  <node concept="2ShNRf" id="10diQy0lLKP" role="37wK5m">
+                    <node concept="1pGfFk" id="10diQy0lMBr" role="2ShVmc">
+                      <property role="373rjd" value="true" />
+                      <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+                      <node concept="Xl_RD" id="10diQy0lNgy" role="37wK5m">
+                        <property role="Xl_RC" value="|" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="10diQy0lz3L" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="10diQy0lzA3" role="1tU5fm" />
+            <node concept="3cmrfG" id="10diQy0l_q4" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="10diQy0lGqq" role="1Dwp0S">
+            <node concept="37vLTw" id="10diQy0lIaP" role="3uHU7w">
+              <ref role="3cqZAo" node="10diQy0lnXq" resolve="numberOfDashes" />
+            </node>
+            <node concept="37vLTw" id="10diQy0lDd5" role="3uHU7B">
+              <ref role="3cqZAo" node="10diQy0lz3L" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="10diQy0lJ5Q" role="1Dwrff">
+            <node concept="37vLTw" id="10diQy0lJ5S" role="2$L3a6">
+              <ref role="3cqZAo" node="10diQy0lz3L" resolve="i" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="10diQy0lOt1" role="3cqZAp">
+          <node concept="37vLTw" id="10diQy0lOsZ" role="3clFbG">
+            <ref role="3cqZAo" node="10diQy0luMU" resolve="builder" />
           </node>
         </node>
       </node>
@@ -8860,6 +9435,21 @@
         </node>
       </node>
     </node>
+    <node concept="1kov0r" id="inTShhgOdw" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgOdx" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgOiu" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgOis" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgOq4" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgOqM" role="37wK5m">
+                <property role="Xl_RC" value="⌈" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1D9ijp" id="31wqjcz_2As">
     <property role="TrG5h" value="CeilingRight" />
@@ -8982,6 +9572,21 @@
               <ref role="37wK5l" to="z60i:~Graphics2D.draw(java.awt.Shape)" resolve="draw" />
               <node concept="37vLTw" id="31wqjcz_2Bk" role="37wK5m">
                 <ref role="3cqZAo" node="31wqjcz_2AB" resolve="symbol" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1kov0r" id="inTShhgOQA" role="1koxGm">
+      <node concept="3clFbS" id="inTShhgOQB" role="2VODD2">
+        <node concept="3clFbF" id="inTShhgOV$" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhgOVy" role="3clFbG">
+            <node concept="1pGfFk" id="inTShhgP3a" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="inTShhgP3S" role="37wK5m">
+                <property role="Xl_RC" value="⌉" />
               </node>
             </node>
           </node>

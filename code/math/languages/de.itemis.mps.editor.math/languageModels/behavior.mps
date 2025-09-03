@@ -17,6 +17,7 @@
     <import index="x4fh" ref="r:6d7e624e-8f0d-49a1-aae8-a4cb94dbe189(de.itemis.mps.editor.math.structure)" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -1002,6 +1003,55 @@
           <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="inTShgXxxC">
+    <ref role="13h7C2" to="x4fh:inTShgXxuv" resolve="TextBuilderFunction" />
+    <node concept="13i0hz" id="inTShgXxxV" role="13h7CS">
+      <property role="TrG5h" value="getParameterConcepts" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
+      <node concept="3Tm1VV" id="inTShgXxxW" role="1B3o_S" />
+      <node concept="3clFbS" id="inTShgXxxX" role="3clF47">
+        <node concept="3clFbF" id="inTShhhs3U" role="3cqZAp">
+          <node concept="2ShNRf" id="inTShhhs3W" role="3clFbG">
+            <node concept="Tc6Ow" id="inTShhhs3X" role="2ShVmc">
+              <node concept="35c_gC" id="inTShhhs3Z" role="HW$Y0">
+                <ref role="35c_gD" to="x4fh:7UiI8OnHTWb" resolve="Parameter_Bounds" />
+              </node>
+              <node concept="3bZ5Sz" id="inTShhhs40" role="HW$YZ">
+                <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="inTShgXxy3" role="3clF45">
+        <node concept="3bZ5Sz" id="inTShgXxy4" role="_ZDj9">
+          <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="inTShgXxy5" role="13h7CS">
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="inTShgXxy6" role="1B3o_S" />
+      <node concept="3clFbS" id="inTShgXxy7" role="3clF47">
+        <node concept="3clFbF" id="inTShgZV5c" role="3cqZAp">
+          <node concept="2c44tf" id="inTShgZV5a" role="3clFbG">
+            <node concept="3uibUv" id="inTShgZV5M" role="2c44tc">
+              <ref role="3uigEE" to="cj4x:~TextBuilder" resolve="TextBuilder" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="inTShgXxyc" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="inTShgXxxD" role="13h7CW">
+      <node concept="3clFbS" id="inTShgXxxE" role="2VODD2" />
     </node>
   </node>
 </model>

@@ -51,3 +51,13 @@ the individual icons. The overall scaling of the checkbox icons can be influence
 in the inspector.
 
 <img alt="example: dropdown cell" src="../../img/enumeration_cell_example.png" width="800px" />
+
+## Swing
+
+**Language Namespace :** `nl.f1re.mps.editor.swing`
+
+This language adds a new swing component cell that can be customized and also sets some sensible default values for the component:
+
+- **component provider**: created the swing component
+- **font**: this function sets the font of the component. Use the helper class `FontHelper` to access predefined fonts.
+- **string representation**: customize the plain text representation of the component when pasting to the clipboard

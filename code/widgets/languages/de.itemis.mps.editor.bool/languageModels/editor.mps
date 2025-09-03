@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="62971cbe-fd2f-4135-b001-ee6cb7a74436" name="nl.f1re.mps.editor.swing" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -148,9 +149,6 @@
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
-      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
-        <child id="1068581517676" name="expression" index="3cqZAk" />
-      </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -164,6 +162,12 @@
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+    </language>
+    <language id="62971cbe-fd2f-4135-b001-ee6cb7a74436" name="nl.f1re.mps.editor.swing">
+      <concept id="8659612544244790000" name="nl.f1re.mps.editor.swing.structure.QueryFunction_String" flags="ig" index="05MPa" />
+      <concept id="8659612544238797919" name="nl.f1re.mps.editor.swing.structure.CellModel_CustomJComponent" flags="sg" stub="8659612544238937882" index="fWXJ_">
+        <child id="8659612544238938786" name="toStringFunction" index="fNvko" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
@@ -374,20 +378,29 @@
             <property role="VOm3f" value="false" />
           </node>
         </node>
-        <node concept="3gTLQM" id="gSMKOBU" role="3EZMnx">
-          <node concept="3Fmcul" id="h7Gq5ai" role="3FoqZy">
-            <node concept="3clFbS" id="h7Gq5aj" role="2VODD2">
-              <node concept="3cpWs6" id="h7GrovA" role="3cqZAp">
-                <node concept="2YIFZM" id="7c2Vv1uwjhQ" role="3cqZAk">
+        <node concept="fWXJ_" id="7wH7VDSr0nK" role="3EZMnx">
+          <node concept="3Fmcul" id="7wH7VDSr0nM" role="3FoqZy">
+            <node concept="3clFbS" id="7wH7VDSr0nO" role="2VODD2">
+              <node concept="3clFbF" id="7wH7VDSr4bX" role="3cqZAp">
+                <node concept="2YIFZM" id="7wH7VDSr4bZ" role="3clFbG">
                   <ref role="37wK5l" to="hhnx:~EditorUtil.createSelectIconButton(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,jetbrains.mps.openapi.editor.EditorContext,boolean)" resolve="createSelectIconButton" />
                   <ref role="1Pybhc" to="hhnx:~EditorUtil" resolve="EditorUtil" />
-                  <node concept="pncrf" id="7c2Vv1uwjhR" role="37wK5m" />
-                  <node concept="355D3s" id="7c2Vv1uwjhS" role="37wK5m">
+                  <node concept="pncrf" id="7wH7VDSr4c0" role="37wK5m" />
+                  <node concept="355D3s" id="7wH7VDSr4c1" role="37wK5m">
                     <ref role="355D3t" to="wfif:4g2H4r3SHDB" resolve="CellModel_Checkbox" />
                     <ref role="355D3u" to="wfif:gSMwhzt" resolve="iconPathTrue" />
                   </node>
-                  <node concept="1Q80Hx" id="7c2Vv1uwjhT" role="37wK5m" />
-                  <node concept="3clFbT" id="7c2Vv1uwjhU" role="37wK5m" />
+                  <node concept="1Q80Hx" id="7wH7VDSr4c2" role="37wK5m" />
+                  <node concept="3clFbT" id="7wH7VDSr4c3" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="05MPa" id="7wH7VDSr4u2" role="fNvko">
+            <node concept="3clFbS" id="7wH7VDSr4u3" role="2VODD2">
+              <node concept="3clFbF" id="7wH7VDSr4v7" role="3cqZAp">
+                <node concept="Xl_RD" id="7wH7VDSr4v6" role="3clFbG">
+                  <property role="Xl_RC" value="" />
                 </node>
               </node>
             </node>
@@ -532,11 +545,11 @@
             <property role="VOm3f" value="false" />
           </node>
         </node>
-        <node concept="3gTLQM" id="20OtND1DIrk" role="3EZMnx">
-          <node concept="3Fmcul" id="20OtND1DIrl" role="3FoqZy">
-            <node concept="3clFbS" id="20OtND1DIrm" role="2VODD2">
-              <node concept="3cpWs6" id="20OtND1DIrn" role="3cqZAp">
-                <node concept="2YIFZM" id="7c2Vv1uwjJe" role="3cqZAk">
+        <node concept="fWXJ_" id="7wH7VDSr4Ft" role="3EZMnx">
+          <node concept="3Fmcul" id="7wH7VDSr4Fv" role="3FoqZy">
+            <node concept="3clFbS" id="7wH7VDSr4Fx" role="2VODD2">
+              <node concept="3clFbF" id="7wH7VDSr4N6" role="3cqZAp">
+                <node concept="2YIFZM" id="7c2Vv1uwjJe" role="3clFbG">
                   <ref role="37wK5l" to="hhnx:~EditorUtil.createSelectIconButton(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,jetbrains.mps.openapi.editor.EditorContext,boolean)" resolve="createSelectIconButton" />
                   <ref role="1Pybhc" to="hhnx:~EditorUtil" resolve="EditorUtil" />
                   <node concept="pncrf" id="7c2Vv1uwjJf" role="37wK5m" />
@@ -546,6 +559,15 @@
                   </node>
                   <node concept="1Q80Hx" id="7c2Vv1uwjJh" role="37wK5m" />
                   <node concept="3clFbT" id="7c2Vv1uwjJi" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="05MPa" id="7wH7VDSr4P8" role="fNvko">
+            <node concept="3clFbS" id="7wH7VDSr4P9" role="2VODD2">
+              <node concept="3clFbF" id="7wH7VDSr4Qd" role="3cqZAp">
+                <node concept="Xl_RD" id="7wH7VDSr4Qc" role="3clFbG">
+                  <property role="Xl_RC" value="" />
                 </node>
               </node>
             </node>
@@ -956,11 +978,11 @@
             <property role="1O74Pk" value="true" />
             <ref role="1NtTu8" to="wfif:4JS9aP7oOyi" resolve="iconPathTrue" />
           </node>
-          <node concept="3gTLQM" id="4JS9aP7pPIg" role="3EZMnx">
-            <node concept="3Fmcul" id="4JS9aP7pPIh" role="3FoqZy">
-              <node concept="3clFbS" id="4JS9aP7pPIi" role="2VODD2">
-                <node concept="3cpWs6" id="4JS9aP7pPIj" role="3cqZAp">
-                  <node concept="2YIFZM" id="7c2Vv1uwkhR" role="3cqZAk">
+          <node concept="fWXJ_" id="7wH7VDSr5Aq" role="3EZMnx">
+            <node concept="3Fmcul" id="7wH7VDSr5As" role="3FoqZy">
+              <node concept="3clFbS" id="7wH7VDSr5Au" role="2VODD2">
+                <node concept="3clFbF" id="7wH7VDSr5Vc" role="3cqZAp">
+                  <node concept="2YIFZM" id="7c2Vv1uwkhR" role="3clFbG">
                     <ref role="37wK5l" to="hhnx:~EditorUtil.createSelectIconButton(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,jetbrains.mps.openapi.editor.EditorContext,boolean)" resolve="createSelectIconButton" />
                     <ref role="1Pybhc" to="hhnx:~EditorUtil" resolve="EditorUtil" />
                     <node concept="pncrf" id="7c2Vv1uwkhS" role="37wK5m" />
@@ -970,6 +992,15 @@
                     </node>
                     <node concept="1Q80Hx" id="7c2Vv1uwkhU" role="37wK5m" />
                     <node concept="3clFbT" id="7c2Vv1uwkhV" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="05MPa" id="7wH7VDSr6jm" role="fNvko">
+              <node concept="3clFbS" id="7wH7VDSr6jn" role="2VODD2">
+                <node concept="3clFbF" id="7wH7VDSr6kr" role="3cqZAp">
+                  <node concept="Xl_RD" id="7wH7VDSr6kq" role="3clFbG">
+                    <property role="Xl_RC" value="" />
                   </node>
                 </node>
               </node>
@@ -996,11 +1027,11 @@
             <property role="1O74Pk" value="true" />
             <ref role="1NtTu8" to="wfif:4JS9aP7oOyj" resolve="iconPathFalse" />
           </node>
-          <node concept="3gTLQM" id="4JS9aP7pPIw" role="3EZMnx">
-            <node concept="3Fmcul" id="4JS9aP7pPIx" role="3FoqZy">
-              <node concept="3clFbS" id="4JS9aP7pPIy" role="2VODD2">
-                <node concept="3cpWs6" id="4JS9aP7pPIz" role="3cqZAp">
-                  <node concept="2YIFZM" id="7c2Vv1uwktH" role="3cqZAk">
+          <node concept="fWXJ_" id="7wH7VDSr5SP" role="3EZMnx">
+            <node concept="3Fmcul" id="7wH7VDSr5SR" role="3FoqZy">
+              <node concept="3clFbS" id="7wH7VDSr5ST" role="2VODD2">
+                <node concept="3clFbF" id="7wH7VDSr6ff" role="3cqZAp">
+                  <node concept="2YIFZM" id="7c2Vv1uwktH" role="3clFbG">
                     <ref role="37wK5l" to="hhnx:~EditorUtil.createSelectIconButton(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,jetbrains.mps.openapi.editor.EditorContext,boolean)" resolve="createSelectIconButton" />
                     <ref role="1Pybhc" to="hhnx:~EditorUtil" resolve="EditorUtil" />
                     <node concept="pncrf" id="7c2Vv1uwktI" role="37wK5m" />
@@ -1010,6 +1041,15 @@
                     </node>
                     <node concept="1Q80Hx" id="7c2Vv1uwktK" role="37wK5m" />
                     <node concept="3clFbT" id="7c2Vv1uwktL" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="05MPa" id="7wH7VDSr6_Q" role="fNvko">
+              <node concept="3clFbS" id="7wH7VDSr6_R" role="2VODD2">
+                <node concept="3clFbF" id="7wH7VDSr6AV" role="3cqZAp">
+                  <node concept="Xl_RD" id="7wH7VDSr6AU" role="3clFbG">
+                    <property role="Xl_RC" value="" />
                   </node>
                 </node>
               </node>

@@ -6,6 +6,7 @@
     <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="1" />
     <use id="3bdedd09-792a-4e15-a4db-83970df3ee86" name="de.itemis.mps.editor.collapsible" version="0" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -276,6 +277,9 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
+    </language>
     <language id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram">
       <concept id="6554619383003875357" name="de.itemis.mps.editor.diagram.structure.InlineEditorComponent" flags="ig" index="238au4" />
       <concept id="8433227566817223068" name="de.itemis.mps.editor.diagram.structure.LayeredLayoutAlgorithm" flags="ng" index="39fpm">
@@ -487,9 +491,7 @@
         </node>
         <node concept="2iRfu4" id="4XPshStfHp1" role="2iSdaV" />
       </node>
-      <node concept="3F0ifn" id="4XPshStfJuE" role="3EZMnx">
-        <property role="3F0ifm" value="---------------------------------------------" />
-      </node>
+      <node concept="2T_mXK" id="inTShissSB" role="3EZMnx" />
       <node concept="3F2HdR" id="4XPshStfHpD" role="3EZMnx">
         <ref role="1NtTu8" to="vux5:4XPshStfHmi" resolve="content" />
         <node concept="2iRkQZ" id="4XPshStfHpF" role="2czzBx" />

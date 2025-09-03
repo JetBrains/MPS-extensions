@@ -5,6 +5,7 @@
     <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -219,6 +220,9 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
       <concept id="1225797177491" name="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" flags="nn" index="1Bd96e" />
+    </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
     </language>
     <language id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram">
       <concept id="6554619383003875357" name="de.itemis.mps.editor.diagram.structure.InlineEditorComponent" flags="ig" index="238au4" />
@@ -1052,12 +1056,7 @@
       <node concept="3F0A7n" id="4_qW8fWM_h9" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="3F0ifn" id="4_qW8fWM_hf" role="3EZMnx">
-        <property role="3F0ifm" value="---" />
-        <node concept="VPxyj" id="4_qW8fWPjHz" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-      </node>
+      <node concept="2T_mXK" id="inTShissSB" role="3EZMnx" />
       <node concept="3F2HdR" id="4_qW8fWM_hm" role="3EZMnx">
         <ref role="1NtTu8" to="g93z:4_qW8fWLenL" resolve="attributes" />
         <node concept="2iRkQZ" id="4_qW8fWM_hn" role="2czzBx" />

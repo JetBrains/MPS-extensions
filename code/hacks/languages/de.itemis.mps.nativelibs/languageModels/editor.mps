@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
   </languages>
   <imports>
     <import index="9lvj" ref="r:96ef99ad-4777-4e07-b5ac-713fe7c8396a(de.itemis.mps.nativelibs.structure)" />
@@ -46,6 +47,10 @@
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828844315" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineColorStyle" flags="lg" index="2T_bXS" />
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
+    </language>
   </registry>
   <node concept="24kQdi" id="2H_mjOXpJcz">
     <ref role="1XX52x" to="9lvj:2H_mjOXpG70" resolve="NativeLibraries" />
@@ -53,9 +58,7 @@
       <node concept="3F0ifn" id="2H_mjOXpLb8" role="3EZMnx">
         <property role="3F0ifm" value="native libraries" />
       </node>
-      <node concept="3F0ifn" id="2H_mjOXpLbc" role="3EZMnx">
-        <property role="3F0ifm" value="----------------" />
-      </node>
+      <node concept="2T_mXK" id="inTShissSB" role="3EZMnx" />
       <node concept="3F0ifn" id="2H_mjOXpLbn" role="3EZMnx">
         <node concept="VPM3Z" id="2H_mjOXpRtm" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -84,9 +87,8 @@
           <property role="VOm3f" value="false" />
         </node>
       </node>
-      <node concept="3F0ifn" id="6r4GR4aevVR" role="3EZMnx">
-        <property role="3F0ifm" value="---------------------------------------" />
-        <node concept="VechU" id="6r4GR4aeG_H" role="3F10Kt">
+      <node concept="2T_mXK" id="inTShitOOX" role="3EZMnx">
+        <node concept="2T_bXS" id="inTShitOOY" role="3F10Kt">
           <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>

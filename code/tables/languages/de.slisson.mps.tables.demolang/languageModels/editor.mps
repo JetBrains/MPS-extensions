@@ -4,6 +4,7 @@
   <languages>
     <use id="7e450f4e-1ac3-41ef-a851-4598161bdb94" name="de.slisson.mps.tables" version="0" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -257,6 +258,10 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828844315" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineColorStyle" flags="lg" index="2T_bXS" />
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
+    </language>
     <language id="7e450f4e-1ac3-41ef-a851-4598161bdb94" name="de.slisson.mps.tables">
       <concept id="1925286362824252053" name="de.slisson.mps.tables.structure.ColumnShadeColor" flags="lg" index="9JesE" />
       <concept id="1925286362805506099" name="de.slisson.mps.tables.structure.RowShadeColor" flags="lg" index="bmIQc" />
@@ -499,9 +504,8 @@
         </node>
         <node concept="l2Vlx" id="1U60oYvFgT5" role="2iSdaV" />
       </node>
-      <node concept="3F0ifn" id="1U60oYvFglj" role="3EZMnx">
-        <property role="3F0ifm" value="---------------------------------------------------------------------------------------------" />
-        <node concept="VechU" id="1U60oYvFglk" role="3F10Kt">
+      <node concept="2T_mXK" id="inTShissSB" role="3EZMnx">
+        <node concept="2T_bXS" id="inTShix0wh" role="3F10Kt">
           <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>

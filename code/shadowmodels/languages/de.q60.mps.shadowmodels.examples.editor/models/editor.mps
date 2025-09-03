@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -128,6 +129,9 @@
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
     </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -155,15 +159,11 @@
         </node>
         <node concept="2iRfu4" id="7NatPTM2wNO" role="2iSdaV" />
       </node>
-      <node concept="3F0ifn" id="7NatPTM2wNX" role="3EZMnx">
-        <property role="3F0ifm" value="-------------------------------------" />
-      </node>
+      <node concept="2T_mXK" id="inTShitUg3" role="3EZMnx" />
       <node concept="3F1sOY" id="7NatPTM2wOB" role="3EZMnx">
         <ref role="1NtTu8" to="hnll:7NatPTM2w$H" resolve="input" />
       </node>
-      <node concept="3F0ifn" id="7NatPTM2wO6" role="3EZMnx">
-        <property role="3F0ifm" value="-------------------------------------" />
-      </node>
+      <node concept="2T_mXK" id="inTShitUjn" role="3EZMnx" />
       <node concept="gc7cB" id="7NatPTM2wPa" role="3EZMnx">
         <node concept="3VJUX4" id="7NatPTM2wPc" role="3YsKMw">
           <node concept="3clFbS" id="7NatPTM2wPe" role="2VODD2">
@@ -258,9 +258,7 @@
         </node>
         <node concept="2iRfu4" id="3CYlK6ygJ05" role="2iSdaV" />
       </node>
-      <node concept="3F0ifn" id="3CYlK6ygJ08" role="3EZMnx">
-        <property role="3F0ifm" value="-------------------------------------" />
-      </node>
+      <node concept="2T_mXK" id="inTShissSB" role="3EZMnx" />
       <node concept="gc7cB" id="3CYlK6ygJ09" role="3EZMnx">
         <node concept="3VJUX4" id="3CYlK6ygJ0a" role="3YsKMw">
           <node concept="3clFbS" id="3CYlK6ygJ0b" role="2VODD2">

@@ -4,6 +4,7 @@
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="1dfdade0-0417-484f-b787-4c41692c0052" name="de.q60.mps.shadowmodels.util" version="-1" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -377,6 +378,9 @@
         <child id="1073389446424" name="childCellModel" index="3EZMny" />
         <child id="2490242408670937967" name="factoryMethod" index="3ZZHOD" />
       </concept>
+    </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="767145758118872828" name="jetbrains.mps.lang.actions.structure.NF_Node_ReplaceWithNewOperation" flags="nn" index="2DeJnW" />
@@ -4497,12 +4501,7 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="2iRkQZ" id="YSRTOezhX9" role="2iSdaV" />
-          <node concept="3F0ifn" id="YSRTOezhYT" role="3EZMnx">
-            <property role="3F0ifm" value="----------------------------------------------------" />
-            <node concept="Vb9p2" id="YSRTOezhZc" role="3F10Kt" />
-            <node concept="VPM3Z" id="YSRTOezhZh" role="3F10Kt" />
-            <node concept="VPxyj" id="YSRTOezhZp" role="3F10Kt" />
-          </node>
+          <node concept="2T_mXK" id="inTShissSB" role="3EZMnx" />
           <node concept="3F2HdR" id="YSRTOezhY_" role="3EZMnx">
             <ref role="1NtTu8" to="oyp0:YSRTOezhHB" resolve="content" />
             <node concept="2iRkQZ" id="YSRTOezhYB" role="2czzBx" />

@@ -117,6 +117,7 @@
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandbox/com.mbeddr.mpsutil.modellisteners.sandbox.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandboxlang/com.mbeddr.mpsutil.modellisteners.sandboxlang.mpl" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners/com.mbeddr.mpsutil.modellisteners.mpl" folder="modellisteners" />
+      <modulePath path="$PROJECT_DIR$/modellisteners/test.com.mbeddr.mpsutil.modellisteners/test.com.mbeddr.mpsutil.modellisteners.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modelmerger/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/modelmerger/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/modelmerger/languages/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger" />

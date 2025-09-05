@@ -26,23 +26,7 @@ To use MPS Extensions in your project, add one of the following dependencies to 
 
 ## Building
 
-Run the following commands to build the project:
-
-```bash
-./gradlew # Mac and Linux
-gradlew.bat # Windows
-```
-
-This will download the required MPS version, so you need to be online when executing the build for the first time (later on, the downloaded artifacts will be cached).
-
-The default task does not run the tests as part of the build. Execute the following command to run the tests:
-
-```bash
-./gradlew run_tests # Mac and Linux
-gradlew.bat run_tests # Windows
-```
-
-See the [building](https://jetbrains.github.io/MPS-extensions/building/) page of the documentation for more details.
+See the [building](https://jetbrains.github.io/MPS-extensions/building/) page of the documentation.
 
 ## Documentation
 

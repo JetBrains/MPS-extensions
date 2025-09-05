@@ -1,2 +1,3 @@
-[versions]
-mps = "2023.2.1"
+[libraries]
+mps = "com.jetbrains:mps:2023.2.1"
+jbr = "com.jetbrains.jdk:jbr_jcef:17.0.8.1-b1000.32"

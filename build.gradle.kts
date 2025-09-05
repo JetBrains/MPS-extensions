@@ -1,13 +1,13 @@
-import de.itemis.mps.gradle.*
+import com.specificlanguages.mps.MainBuild
+import com.specificlanguages.mps.MpsBuild
+import com.specificlanguages.mps.RunAnt
+import com.specificlanguages.mps.TestBuild
+import de.itemis.mps.gradle.GitBasedVersioning
 import de.itemis.mps.gradle.tasks.MpsMigrate
 import de.itemis.mps.gradle.tasks.Remigrate
-import de.itemis.mps.gradle.downloadJBR.DownloadJbrForPlatform
 import groovy.xml.XmlSlurper
 import groovy.xml.slurpersupport.GPathResult
-import java.nio.file.Files
-import java.nio.file.Path
-import java.time.LocalDateTime
-import java.util.Date
+import java.util.*
 
 plugins {
     id("de.itemis.mps.gradle.common") version "1.28.0.+"
@@ -16,12 +16,8 @@ plugins {
     id("base")
     id("de.itemis.mps.gradle.launcher") version "2.4.2.+"
     id("org.cyclonedx.bom") version "2.2.0"
-    id("download-jbr") version "1.28.0.+"
-}
 
-// Configure downloadJbr
-downloadJbr {
-    jbrVersion = "17.0.8.1-b1000.32"
+    id("com.specificlanguages.mps") version "2.0.0-pre4"
 }
 
 // Detect if we are in a CI build
@@ -31,7 +27,7 @@ val ciBuild = project.hasProperty("forceCI") ||
     project.hasProperty("teamcity") && !project.hasProperty("mpsHomeDir")
 
 // Dependency versions
-val mpsVersion = libs.versions.mps.get()
+val mpsVersion = libs.mps.get().version!!
 
 // major version, e.g. '2021.1', '2021.2'
 val mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
@@ -56,20 +52,15 @@ if (ciBuild) {
     println("Local build detected, version will be $version")
 }
 
-val userHome = System.getProperty("user.home")
-
 val releaseRepository = "https://artifacts.itemis.cloud/repository/maven-mps-releases/"
 val snapshotRepository = "https://artifacts.itemis.cloud/repository/maven-mps-snapshots/"
 val publishingRepository = if (version.toString().endsWith("-SNAPSHOT")) snapshotRepository else releaseRepository
 
 group = "de.itemis.mps"
 
-configurations {
-    create("mps")
-}
-
 dependencies {
-    "mps"("com.jetbrains:mps:$mpsVersion")
+    mps(libs.mps)
+    jbr(libs.jbr)
 }
 
 repositories {
@@ -78,216 +69,172 @@ repositories {
 }
 
 val skipResolveMps = project.hasProperty("mpsHomeDir")
-val mpsHomeDir = rootProject.file(project.findProperty("mpsHomeDir")?.toString() ?: "$buildDir/mps")
 
 if (skipResolveMps) {
-    tasks.register("resolveMps") {
-        doLast {
-            logger.info("MPS resolution skipped")
-            logger.info("MPS home: " + mpsHomeDir.absolutePath)
+    val mpsHomeDir = rootProject.file(project.findProperty("mpsHomeDir")?.toString() ?: "$buildDir/mps")
+    mpsDefaults.mpsHome = mpsHomeDir
+}
+
+val codeDir = layout.projectDirectory.dir("code")
+val reportsDir = layout.buildDirectory.dir("reports")
+
+bundledDependencies {
+    create("diagram") {
+        destinationDir = codeDir.dir("diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib")
+
+        val elkVersion = "0.10.0"
+
+        dependency("de.itemis.mps:jgraphx:1.0.0")
+
+        dependency("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.alg.radial:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.alg.force:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.alg.disco:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.alg.rectpacking:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.alg.spore:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
+        dependency("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
+        dependency("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
+
+        configuration {
+            exclude(group = "com.google.guava")
+            attributes.attribute(Attribute.of("org.gradle.jvm.environment", String::class.java), "standard-jvm")
         }
     }
-} else {
-    tasks.register<Copy>("resolveMps") {
-        dependsOn(configurations["mps"])
-        from({
-            configurations["mps"].resolve().map { zipTree(it) }
-        })
-        into(mpsHomeDir)
-    }
-}
 
-// -------- Model API ----------------------
-
-configurations {
-    create("modelApi")
-}
-
-dependencies {
-    val modelixCoreVersion = "2.1.9"
-    "modelApi"("org.modelix:model-api:$modelixCoreVersion")
-}
-
-tasks.register("copyModelApi") {
-    dependsOn(configurations["modelApi"])
-    doLast {
-        // copy transitive dependencies without version in the file name
-        // otherwise each new version would require a change of the MPS solution
-        val libFolder = file("$projectDir/code/model-api/org.modelix.model.api/lib")
-        libFolder.deleteRecursively()
-        libFolder.mkdir()
-        val versionsFile = file("$libFolder/versions.txt")
-        for (artifact in configurations["modelApi"].resolvedConfiguration.resolvedArtifacts) {
-            // these libs are part of MPS
-            if (
-                artifact.moduleVersion.id.name.startsWith("log4j") ||
-                artifact.moduleVersion.id.name.startsWith("annotations") ||
-                artifact.moduleVersion.id.name.startsWith("slf4j-api")
-            ) {
-                versionsFile.appendText("already part of mps: " + artifact.file.name + "\n")
-                continue
-            }
-
-            val sourceFile = Path.of(artifact.file.absolutePath)
-            val targetFile = Path.of(libFolder.absolutePath).resolve(artifact.moduleVersion.id.name + "." + artifact.extension)
-            Files.copy(sourceFile, targetFile)
-            versionsFile.appendText(artifact.file.name + "\n")
-        }
-    }
-}
-
-// -----------------------------------------
-
-configurations {
-    create("ant_lib")
-    create("diagram_lib") {
-        exclude(group = "com.google.guava")
-        attributes.attribute(Attribute.of("org.gradle.jvm.environment", String::class.java), "standard-jvm")
-    }
-    create("xml_lib") {
-        exclude(group = "system")
-        exclude(module = "xml-apis")
-    }
     create("batik") {
-        exclude(group = "commons-io")
-        exclude(group = "commons-logging")
+        destinationDir = codeDir.dir("batik/solutions/lib")
+        dependency("org.apache.xmlgraphics:batik-all:1.12")
+
+        configuration {
+            exclude(group = "commons-io")
+            exclude(group = "commons-logging")
+        }
     }
+
     create("commons") {
-        isTransitive = false
+        destinationDir = codeDir.dir("apache-commons/solutions/org.apache.commons/lib")
+
+        configuration {
+            isTransitive = false
+        }
+
+        dependency("org.apache.commons:commons-csv:1.0")
+        dependency("commons-io:commons-io:2.4")
+        dependency("org.apache.commons:commons-lang3:3.3.2")
+        dependency("org.apache.commons:commons-math3:3.3")
+        dependency("org.apache.commons:commons-csv:1.0")
+        dependency("commons-primitives:commons-primitives:1.0")
+        dependency("com.miglayout:miglayout-core:4.1")
+        dependency("com.miglayout:miglayout-swing:4.1")
     }
+
     create("collections") {
-        isTransitive = false
-        attributes.attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, objects.named(TargetJvmEnvironment::class.java, TargetJvmEnvironment.STANDARD_JVM))
+        destinationDir = codeDir.dir("shadowmodels/solutions/de.q60.mps.collections.libs/lib")
+
+        dependency("org.apache.commons:commons-collections4:4.4")
+        dependency("com.google.guava:guava:27.1-jre")
+        dependency("net.sf.trove4j:trove4j:3.0.3")
+        dependency("io.vavr:vavr:0.9.3")
+
+        configuration {
+            isTransitive = false
+            attributes.attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, objects.named(TargetJvmEnvironment::class.java, TargetJvmEnvironment.STANDARD_JVM))
+        }
+    }
+
+    create("xml") {
+        destinationDir = codeDir.dir("xml/solutions/lib")
+
+        dependency("xerces:xercesImpl:2.12.2")
+        dependency("xml-apis:xml-apis-ext:1.3.04")
+
+        configuration {
+            exclude(group = "system")
+            exclude(module = "xml-apis")
+        }
+    }
+
+    create("modelApi") {
+        destinationDir = codeDir.dir("model-api/org.modelix.model.api/lib")
+        dependency("org.modelix:model-api:2.1.9")
+
+        configuration {
+            exclude(group = "log4j", module = "log4j")
+            exclude(group = "org.slf4j", module = "slf4j-api")
+            exclude(group = "org.jetbrains", module = "annotations")
+        }
+
+        resolveTask {
+            doLast {
+                val versionsFile = File(destinationDir, "versions.txt")
+                val resolvedArtifacts = configuration.get().resolvedConfiguration.resolvedArtifacts
+                versionsFile.writer().use {
+                    for (artifact in resolvedArtifacts) {
+                        it.appendLine(artifact.file.name + "\n")
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+mpsBuilds {
+    val languages by creating(MainBuild::class) {
+        mpsProjectDirectory = codeDir
+        buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions")
+        buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
+        buildFile = layout.buildDirectory.file("generated/languages/build.xml")
+    }
+
+    val tests by creating(TestBuild::class) {
+        dependsOn(languages)
+        mpsProjectDirectory = codeDir
+        buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions.tests")
+        buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
+        buildFile = layout.buildDirectory.file("generated/tests/build.xml")
+
+        assembleAndCheckTask {
+            finalizedBy("failOnTestError")
+
+            doLast {
+                val reportDir = layout.buildDirectory.dir("junitreport").get()
+                ant.withGroovyBuilder {
+                    "taskdef"(
+                        "name" to "junitreport",
+                        "classname" to "org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator",
+                        "classpath" to mpsDefaults.antClasspath.asPath
+                    )
+                    "junitreport" {
+                        "fileset"("dir" to "$buildDir", "includes" to "**/TEST*.xml")
+                        "report"("format" to "frames", "todir" to reportDir)
+                    }
+                }
+                println("JUnit report placed into file://$reportDir/index.html")
+            }
+        }
     }
 }
 
-dependencies {
-    "ant_lib"("org.apache.ant:ant-junit:1.10.14")
+val buildDate = Date().toString()
+val pluginVersion = version.toString()
 
-    val elkVersion = "0.10.0"
-
-    "diagram_lib"("de.itemis.mps:jgraphx:1.0.0")
-
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.radial:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.force:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.disco:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.rectpacking:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.spore:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
-    "diagram_lib"("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    "diagram_lib"("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
-    "diagram_lib"("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
-    "diagram_lib"("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
-
-    "batik"("org.apache.xmlgraphics:batik-all:1.12")
-
-    "xml_lib"("xerces:xercesImpl:2.12.2")
-    "xml_lib"("xml-apis:xml-apis-ext:1.3.04")
-    "commons"("org.apache.commons:commons-csv:1.0")
-    "commons"("commons-io:commons-io:2.4")
-    "commons"("org.apache.commons:commons-lang3:3.3.2")
-    "commons"("org.apache.commons:commons-math3:3.3")
-    "commons"("org.apache.commons:commons-csv:1.0")
-    "commons"("commons-primitives:commons-primitives:1.0")
-    "commons"("com.miglayout:miglayout-core:4.1")
-    "commons"("com.miglayout:miglayout-swing:4.1")
-
-    "collections"("org.apache.commons:commons-collections4:4.4")
-    "collections"("com.google.guava:guava:27.1-jre")
-    "collections"("net.sf.trove4j:trove4j:3.0.3")
-    "collections"("io.vavr:vavr:0.9.3")
+tasks.withType<RunAnt>().configureEach {
+    valueProperties.put("buildDate", buildDate)
+    valueProperties.put("pluginVersion", pluginVersion)
 }
-
-val buildScriptClasspath by extra(project.configurations["ant_lib"])
-
-val artifactsDir = File(rootDir, "artifacts")
-val reportsDir = File("$buildDir/reports")
-
-val mps_home = "-Dmps.home=" + mpsHomeDir.absolutePath
-val build_dir = "-Dbuild.dir=" + File(rootProject.projectDir.absolutePath).absolutePath
-val artifacts_dir = "-Dartifacts.root=" + artifactsDir
-val pluginVersion = "-DversionNumber=" + version
-val buildDate = "-DbuildDate=" + Date()
-val extensions_home = "-Dextensions.home=" + rootDir
 
 // ___________________ utilities ___________________
-fun scriptFile(relativePath: String): File {
-    return File("$rootDir/build/generated/$relativePath")
-}
-
-val defaultScriptArgs = listOf(
-    mps_home, build_dir, artifacts_dir, buildDate, pluginVersion,
-    "-Dbuild.jna.library.path=" + File(mpsHomeDir, "lib/jna/" + System.getProperty("os.arch"))
-)
-
-afterEvaluate {
-    project.extra["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.getByName("downloadJbr").property("javaExecutable")
-    var jdk_home: String? = null
-    if (extra.has("java17_home")) {
-        jdk_home = extra.get("java17_home") as String
-    } else if (System.getenv("JB_JAVA17_HOME") != null) {
-        jdk_home = System.getenv("JB_JAVA17_HOME")
-    }
-    if (jdk_home != null) {
-        if (!File(jdk_home, "lib").exists()) {
-            throw GradleException("Unable to locate JDK home folder. Detected folder is: $jdk_home")
-        } else {
-            extra["itemis.mps.gradle.ant.defaultJavaExecutable"] = File(jdk_home, "bin/java")
-        }
-    }
-}
-
-// enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults
-extra["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
-extra["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
-
-fun createResolveTask(taskName: String, configurationName: String, outputDir: String) {
-    tasks.register<Sync>(taskName) {
-        from(configurations[configurationName])
-        into(file(outputDir))
-        // Strip version numbers from file names
-        rename { filename ->
-            val ra = configurations[configurationName].resolvedConfiguration.resolvedArtifacts.find { ra -> ra.file.name == filename }
-            val finalName = if (ra?.classifier != null) {
-                "${ra.name}-${ra.classifier}.${ra.extension}"
-            } else {
-                "${ra?.name}.${ra?.extension}"
-            }
-            return@rename finalName
-        }
-    }
-}
-
-createResolveTask("resolveXml_lib", "xml_lib", "code/xml/solutions/lib")
-createResolveTask("resolveDiagram_lib", "diagram_lib", "code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib")
-createResolveTask("resolveBatik", "batik", "code/batik/solutions/lib")
-createResolveTask("resolveCommons", "commons", "code/apache-commons/solutions/org.apache.commons/lib")
-createResolveTask("resolveCollections", "collections", "code/shadowmodels/solutions/de.q60.mps.collections.libs/lib")
-
-tasks.register<BuildLanguages>("build_allScripts") {
-    dependsOn("downloadJbr", "resolveMps", "copyModelApi", "resolveDiagram_lib", "resolveBatik", "resolveXml_lib", "resolveCommons", "resolveCollections")
-    script = "$rootDir/scripts/build.xml"
-}
-
 tasks.register<Copy>("copyChangelog") {
-    from("$rootDir/code/solutions/de.itemis.mps.extensions.changelog/source_gen/de/itemis/mps/extensions/changelog")
-    into("$rootDir")
+    from(codeDir.dir("solutions/de.itemis.mps.extensions.changelog/source_gen/de/itemis/mps/extensions/changelog"))
+    into(layout.settingsDirectory)
     include("*.md")
-}
-
-tasks.register<BuildLanguages>("build_languages") {
-    dependsOn("build_allScripts")
-    script = scriptFile("languages/build.xml")
-}
-
-tasks.register<BuildLanguages>("build_tests") {
-    dependsOn("build_languages")
-    description = "Will build all tests without executing them."
-    script = scriptFile("tests/build.xml")
 }
 
 tasks.register("failOnTestError") {
@@ -307,57 +254,12 @@ tasks.register("failOnTestError") {
     }
 }
 
-tasks.register<TestLanguages>("run_tests") {
-    dependsOn("build_tests")
-    description = "Will execute all tests from command line"
-    script = scriptFile("tests/build.xml")
-    targets = listOf("check")
-
-    finalizedBy("failOnTestError")
-
-    doLast {
-        val reportDir = layout.buildDirectory.dir("junitreport").get()
-        ant.withGroovyBuilder {
-            "taskdef"(
-                "name" to "junitreport",
-                "classname" to "org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator",
-                "classpath" to configurations["junitAnt"].asPath
-            )
-            "junitreport" {
-                "fileset"("dir" to "$buildDir", "includes" to "**/TEST*.xml")
-                "report"("format" to "frames", "todir" to reportDir)
-            }
+tasks.packageZip {
+    dependsOn(tasks.cyclonedxBom)
+    eachFile {
+        if (path == "de.itemis.mps.extensions/MPS.ThirdParty.jar") {
+            exclude()
         }
-        println("JUnit report placed into file://$reportDir/index.html")
-    }
-}
-
-tasks.check {
-    dependsOn("run_tests")
-}
-
-// Ant <junit> task support
-configurations {
-    create("junitAnt")
-}
-
-dependencies {
-    "junitAnt"("junit:junit:4.13.2")
-    "junitAnt"("org.apache.ant:ant-junit:1.10.15") {
-        isTransitive = false
-    }
-    "junitAnt"("org.apache.ant:ant-junit4:1.10.15") {
-        isTransitive = false
-    }
-}
-
-tasks.register<Zip>("packageExtensions") {
-    dependsOn("build_languages", "cyclonedxBom")
-    archiveBaseName.set("de.itemis.mps.extensions")
-    from(artifactsDir) {
-        include("de.itemis.mps.extensions/**")
-        //remove workaround which is required for mbeddr.platform build
-        exclude("de.itemis.mps.extensions/MPS.ThirdParty.jar")
     }
     from(reportsDir) {
         include("sbom.json")
@@ -372,92 +274,77 @@ tasks.register<Delete>("cleanMps") {
 }
 
 tasks.cyclonedxBom {
-    destination = reportsDir
+    destination = reportsDir.map { it.asFile }
     outputName = "sbom"
     outputFormat = "json"
     includeLicenseText = false
-    includeConfigs = listOf("diagram_lib", "batik", "commons", "collections", "xml_lib")
+    includeConfigs = provider { bundledDependencies.map { it.configuration.name } }
 }
 
-tasks.named("clean") {
+tasks.clean {
     dependsOn("cleanMps")
 }
 
-tasks.named("assemble") {
-    dependsOn("packageExtensions")
-}
-
-allprojects {
-    apply(plugin = "maven-publish")
-    publishing {
-        repositories {
-            if (rootProject.hasProperty("artifacts.itemis.cloud.user") && rootProject.hasProperty("artifacts.itemis.cloud.pw")) {
-                maven {
-                    name = "itemisCloud"
-                    url = uri(publishingRepository)
-                    credentials {
-                        username = rootProject.findProperty("artifacts.itemis.cloud.user") as String?
-                        password = rootProject.findProperty("artifacts.itemis.cloud.pw") as String?
-                    }
-                }
-            }
-            if (rootProject.hasProperty("gpr.token")) {
-                maven {
-                    name = "GitHubPackages"
-                    url = uri("https://maven.pkg.github.com/JetBrains/MPS-extensions")
-                    credentials {
-                        username = rootProject.findProperty("gpr.user") as String?
-                        password = rootProject.findProperty("gpr.token") as String?
-                    }
-                }
-            }
-        }
-    }
-}
-
-fun additionalPomInfo(pom: MavenPom) {
-    pom.licenses {
-        // official SPDX identifier
-        // see https://spdx.org/licenses/ for list
-        license {
-            name.set("Apache-2.0")
-            url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
-            comments.set("A business-friendly OSS license")
-            distribution.set("repo")
-        }
-    }
-    pom.organization {
-        name.set("JetBrains s.r.o")
-        url.set("https://www.jetbrains.com")
-    }
-}
-
 publishing {
+    repositories {
+        if (rootProject.hasProperty("artifacts.itemis.cloud.user") && rootProject.hasProperty("artifacts.itemis.cloud.pw")) {
+            maven {
+                name = "itemisCloud"
+                url = uri(publishingRepository)
+                credentials {
+                    username = rootProject.findProperty("artifacts.itemis.cloud.user") as String?
+                    password = rootProject.findProperty("artifacts.itemis.cloud.pw") as String?
+                }
+            }
+        }
+        if (rootProject.hasProperty("gpr.token")) {
+            maven {
+                name = "GitHubPackages"
+                url = uri("https://maven.pkg.github.com/JetBrains/MPS-extensions")
+                credentials {
+                    username = rootProject.findProperty("gpr.user") as String?
+                    password = rootProject.findProperty("gpr.token") as String?
+                }
+            }
+        }
+    }
+
     publications {
         create<MavenPublication>("extensions") {
-            groupId = "de.itemis.mps"
+            from(components["mps"])
             artifactId = "extensions"
-            artifact(tasks["packageExtensions"])
 
-            pom.withXml {
-                val dependenciesNode = asNode().appendNode("dependencies")
-                val languageLibs = listOf("diagram_lib", "batik", "commons", "collections", "modelApi", "xml_lib", "mps")
-                languageLibs.forEach { configName ->
-                    val configuration = configurations.findByName(configName)
-                    configuration?.resolvedConfiguration?.firstLevelModuleDependencies?.forEach {
-                        val dependencyNode = dependenciesNode.appendNode("dependency")
-                        dependencyNode.appendNode("groupId", it.moduleGroup)
-                        dependencyNode.appendNode("artifactId", it.moduleName)
-                        dependencyNode.appendNode("version", it.moduleVersion)
-                        if (it.moduleArtifacts.isNotEmpty()) {
-                            dependencyNode.appendNode("type", it.moduleArtifacts.first().type)
-                        }
-                        dependencyNode.appendNode("scope", "provided")
+            pom {
+                licenses {
+                    // official SPDX identifier
+                    // see https://spdx.org/licenses/ for list
+                    license {
+                        name = "Apache-2.0"
+                        url = "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                        comments = "A business-friendly OSS license"
+                        distribution = "repo"
                     }
                 }
-            }
-            pom {
-                additionalPomInfo(this)
+                organization {
+                    name = "JetBrains s.r.o"
+                    url = "https://www.jetbrains.com"
+                }
+                withXml {
+                    val dependenciesNode = asNode().appendNode("dependencies")
+
+                    for (dep in bundledDependencies) {
+                        dep.configuration.get().resolvedConfiguration.firstLevelModuleDependencies.forEach {
+                            val dependencyNode = dependenciesNode.appendNode("dependency")
+                            dependencyNode.appendNode("groupId", it.moduleGroup)
+                            dependencyNode.appendNode("artifactId", it.moduleName)
+                            dependencyNode.appendNode("version", it.moduleVersion)
+                            if (it.moduleArtifacts.isNotEmpty()) {
+                                dependencyNode.appendNode("type", it.moduleArtifacts.first().type)
+                            }
+                            dependencyNode.appendNode("scope", "provided")
+                        }
+                    }
+                }
             }
         }
     }
@@ -479,17 +366,6 @@ tasks.register<Exec>("deployDocs") {
 }
 
 defaultTasks("build_languages")
-tasks.register("test") {
-    dependsOn("run_tests")
-}
-
-tasks.named("build_languages") {
-    mustRunAfter("clean")
-}
-
-tasks.register("rebuild") {
-    dependsOn("clean", "build_languages")
-}
 
 var releaseNotes: String? = null
 var releaseName: String? = null
@@ -498,7 +374,7 @@ var releaseTagName: String? = null
 if (rootProject.hasProperty("nightly_build")) {
     releaseName = "Nightly Build $version"
     releaseTagName = "nightly-$version"
-    releaseNotes = """Automated Nightly build from ${LocalDateTime.now()}."""
+    releaseNotes = """Automated Nightly build from ${buildDate}."""
 } else {
     releaseNotes = rootProject.findProperty("releaseNotes") as String?
     releaseTagName = "release-$version"
@@ -513,34 +389,24 @@ githubRelease {
     targetCommitish = GitBasedVersioning.getGitCommitHash()
     body = releaseNotes
     prerelease = rootProject.hasProperty("nightly_build")
-    releaseAssets.setFrom(tasks.named<Zip>("packageExtensions").get().outputs.files)
+    releaseAssets(tasks.packageZip)
     dryRun = false
 }
 
-tasks.named("githubRelease") {
-    dependsOn("packageExtensions")
-}
-
-val usedPluginRoots = listOf(
-    File(mpsHomeDir, "plugins/mps-build"),
-    File(mpsHomeDir, "plugins/mps-console"),
-    File(mpsHomeDir, "plugins/mps-tooltips"),
-    File(mpsHomeDir, "plugins/mps-vcs"),
-    File(mpsHomeDir, "plugins/mps-git4idea"),
-    File(mpsHomeDir, "plugins/mps-httpsupport"),
-    File(mpsHomeDir, "plugins/mps-spellcheck")
-)
+// Use all plugins in MPS, it doesn't seem to make any real difference compared to using a subset of plugins.
+val usedPluginRoots = listOf(mpsDefaults.mpsHome.dir("plugins"))
 
 tasks.register<MpsMigrate>("migrate") {
-    dependsOn("resolveMps", "downloadJbr", "build_languages", "build_tests")
-    javaLauncher.set(tasks.named<DownloadJbrForPlatform>("downloadJbr").flatMap { it.javaLauncher })
+    dependsOn(provider { mpsBuilds.map(MpsBuild::generateTask) })
 
-    haltOnPrecheckFailure.set(true)
-    haltOnDependencyError.set(true)
+    javaLauncher = jbrToolchain.javaLauncher
+    mpsHome = mpsDefaults.mpsHome
 
-    mpsHome.set(mpsHomeDir)
+    haltOnPrecheckFailure = true
+    haltOnDependencyError = true
 
-    projectDirectories.from("code")
+
+    projectDirectories.from(codeDir)
 
     pluginRoots.from(usedPluginRoots)
 
@@ -549,14 +415,12 @@ tasks.register<MpsMigrate>("migrate") {
 
 tasks.register<Remigrate>("remigrate") {
     mustRunAfter("migrate")
-    mustRunAfter("build_languages", "build_tests")
+    mustRunAfter(provider { mpsBuilds.map(MpsBuild::generateTask) })
 
-    dependsOn("resolveMps", "downloadJbr")
+    javaLauncher = jbrToolchain.javaLauncher
+    mpsHome = mpsDefaults.mpsHome
 
-    javaLauncher.set(tasks.named<DownloadJbrForPlatform>("downloadJbr").flatMap { it.javaLauncher })
-
-    mpsHome.set(mpsHomeDir)
-    projectDirectories.from("code")
+    projectDirectories.from(codeDir)
     pluginRoots.from(usedPluginRoots)
     maxHeapSize = "4G"
 

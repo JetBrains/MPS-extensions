@@ -24567,9 +24567,9 @@
       <property role="TrG5h" value="compare" />
       <node concept="1E1JtA" id="2cqAxlknq_h" role="2G$12L">
         <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.comparator.diff.tests" />
         <property role="3LESm3" value="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
-        <property role="TrG5h" value="de.itemis.mps.comparator.diff.tests" />
         <node concept="398BVA" id="2cqAxlknq_I" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="2cqAxlknqA$" role="iGT6I">
@@ -25548,9 +25548,12 @@
       <node concept="398BVA" id="2fo8bJECJBq" role="2JcizS">
         <ref role="398BVh" node="1QLFoGON23s" resolve="extensions.home" />
         <node concept="2Ry0Ak" id="2fo8bJECJDk" role="iGT6I">
-          <property role="2Ry0Am" value="artifacts" />
-          <node concept="2Ry0Ak" id="2fo8bJECJDp" role="2Ry0An">
-            <property role="2Ry0Am" value="de.itemis.mps.extensions" />
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="_QB087ANwk" role="2Ry0An">
+            <property role="2Ry0Am" value="artifacts" />
+            <node concept="2Ry0Ak" id="_QB087ANwl" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.mps.extensions" />
+            </node>
           </node>
         </node>
       </node>

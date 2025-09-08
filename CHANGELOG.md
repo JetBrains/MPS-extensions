@@ -8,9 +8,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
-- *com.mbeddr.mpsutil.comparator* Added support for ignoring references.
-- *com.mbeddr.mpsutil.compare* Added support for ignoring references.
+- *de.itemis.mps.comparator* Added support for ignoring references.
+- *de.itemis.mps.compare* Added support for ignoring references.
 - *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
+- *nl.f1re.mps.editor.swing* Add a new language for customizing swing components.
 
 ### Fixed
 
@@ -18,19 +19,24 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.linenumbers* Line numbers should show again on first editor opening. They were disabled for VCS editor components.
 - *de.itemis.mps.linenumbers* Line numbers are now rendered center-aligned in the left column.
 - Copying of custom cells and editors with custom swing components to plain text was improved.
+- *de.itemis.mps.compare* When the generation fails, the full log of the generation is now shown.
 - *de.itemis.mps.editor.math* Wrong layouting of some math cells was fixed.
+
+### Changed
+
+- *nl.f1re.mps.editor.intellij* The experimental stylesheet `IntelliJStyleSheet` was moved to this language. It emulates the style of the IntelliJ UI.
 
 ## July 2025
 
 ### Fixed
 
 - *jetbrains.mps.lang.smodel.query* A NullPointerException was fixed in the query list typesystem checker.
-- *com.mbeddr.mpsutil.comparator* Custom generation plans of generation options builders are not overwritten anymore.
-- *com.mbeddr.mpsutil.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
+- *de.itemis.mps.comparator* Custom generation plans of generation options builders are not overwritten anymore.
+- *de.itemis.mps.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
 
 ### Added
 
-- *com.mbeddr.mpsutil.compare* A new option was added to *assert* *generated* *text* *model* and *assert* *generated* *model* to select the output model to compare. The post-process and filter function now also have a generation status parameter.
+- *de.itemis.mps.compare* A new option was added to *assert* *generated* *text* *model* and *assert* *generated* *model* to select the output model to compare. The post-process and filter function now also have a generation status parameter.
 
 ## June 2025
 
@@ -41,7 +47,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- *com.mbeddr.mpsutil.compare* Fixed duplicated code generation for `assert node equals`
+- *de.itemis.mps.compare* Fixed duplicated code generation for `assert node equals`
 - *com.mbeddr.mpsutil.blutil* Use `COPY_SRCL` in [IfInstanceOfElseIfClause](http://127.0.0.1:63320/node?ref=63e0e566-5131-447e-90e3-12ea330e1a00%2Fr%3Af5bd2ad9-cd54-4408-b815-07f9f306f074%28com.mbeddr.mpsutil.blutil%2Fcom.mbeddr.mpsutil.blutil.structure%29%2F8718469662507237778) to avoid build warnings
 - *com.mbeddr.mpsutil.intentions* Intentions are no longer duplicated every time the intentions menu is displayed
 - *com.mbeddr.mpsutil.intentions* The custom intentions menu now only displays applicable actions-as-intentions.
@@ -51,8 +57,8 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
-- *com.mbeddr.mpsutil.compare* The language has a new assert statement *assert generated model* to generate models or single nodes and compare them in tests. TextGen is also supported. Referenced nodes must be instances of richtext Words when the latter option is used. More option can be set in the inspector.
-- *com.mbeddr.mpsutil.compare* The language has a new assert statement *assert* *generated* *text* *model* *equals* folder to compare the TextGen output to an existing folder on the hard disk. To make the tests work on the CI, a resources files entry for those directories must be added to the containing solution in the build script.
+- *de.itemis.mps.compare* The language has a new assert statement *assert generated model* to generate models or single nodes and compare them in tests. TextGen is also supported. Referenced nodes must be instances of richtext Words when the latter option is used. More option can be set in the inspector.
+- *de.itemis.mps.compare* The language has a new assert statement *assert* *generated* *text* *model* *equals* folder to compare the TextGen output to an existing folder on the hard disk. To make the tests work on the CI, a resources files entry for those directories must be added to the containing solution in the build script.
 - *com.mbeddr.mpsutil.intentions* Group annotations can now be also added to action declarations and are active when the actions are added to the *ActionsAsIntentions* group.
 
 ## April 2025

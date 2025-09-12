@@ -619,6 +619,40 @@
             <property role="3oM_SC" value="shown." />
           </node>
         </node>
+        <node concept="2DRihI" id="6njDQ_YyuNo" role="15bAlk">
+          <node concept="15Ami3" id="6njDQ_YyuNt" role="1PaTwD">
+            <node concept="37shsh" id="6njDQ_YyuNu" role="15Aodc">
+              <node concept="1dCxOk" id="6njDQ_YyuNv" role="37shsm">
+                <property role="1XweGW" value="766348f7-6a67-4b85-9323-384840132299" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.math" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="6njDQ_YyuNw" role="1PaTwD">
+            <property role="3oM_SC" value="Wrong" />
+          </node>
+          <node concept="3oM_SD" id="6njDQ_YyuNx" role="1PaTwD">
+            <property role="3oM_SC" value="layouting" />
+          </node>
+          <node concept="3oM_SD" id="6njDQ_YyuNy" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="6njDQ_YyuNz" role="1PaTwD">
+            <property role="3oM_SC" value="some" />
+          </node>
+          <node concept="3oM_SD" id="6njDQ_YyuN$" role="1PaTwD">
+            <property role="3oM_SC" value="math" />
+          </node>
+          <node concept="3oM_SD" id="6njDQ_YyuN_" role="1PaTwD">
+            <property role="3oM_SC" value="cells" />
+          </node>
+          <node concept="3oM_SD" id="6njDQ_YyuNA" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="6njDQ_YyuNB" role="1PaTwD">
+            <property role="3oM_SC" value="fixed." />
+          </node>
+        </node>
       </node>
       <node concept="15bAme" id="7wH7VDSCZqv" role="15bAlL">
         <property role="15bAli" value="Po4Z58tnOF/changed" />

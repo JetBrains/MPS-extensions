@@ -15,7 +15,7 @@ plugins {
     id("maven-publish")
     id("base")
     id("de.itemis.mps.gradle.launcher") version "2.7.0.+"
-    id("org.cyclonedx.bom") version "2.3.1"
+    id("org.cyclonedx.bom") version "2.4.0"
 
     id("com.specificlanguages.mps") version "2.0.0-pre4"
 }

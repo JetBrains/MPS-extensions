@@ -4478,6 +4478,11 @@
             <ref role="3bR37D" to="ffeo:rD7wKO6k$" resolve="MPS.Generator" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1vOmbReDN0i" role="3bR37C">
+          <node concept="Rbm2T" id="1vOmbReDN0j" role="1SiIV1">
+            <ref role="1E1Vl2" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="6Y0V2RJk3uw" role="3989C9">
@@ -19362,6 +19367,11 @@
             <node concept="3qWCbU" id="7q24334ZKAc" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2P8zLSglyLQ" role="3bR37C">
+          <node concept="3bR9La" id="2P8zLSglyLR" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
       </node>

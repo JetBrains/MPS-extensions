@@ -2055,6 +2055,7 @@
         </node>
       </node>
       <node concept="2rfBfz" id="1dAqnm8uyCk" role="3EZMnx">
+        <ref role="1ERwB7" to="reoo:12YYiosTWdF" resolve="TableSelectionActionMap" />
         <node concept="3nFNDj" id="5ivXze3eoL4" role="3nFLZX">
           <node concept="3clFbS" id="5ivXze3eoL5" role="2VODD2">
             <node concept="3clFbF" id="5ivXze3eqBq" role="3cqZAp">

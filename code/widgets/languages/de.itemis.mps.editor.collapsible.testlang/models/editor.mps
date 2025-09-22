@@ -365,7 +365,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="62nlqxEmnOZ">
-    <ref role="1XX52x" to="n12:62nlqxEmnHA" resolve="CollapsibleGouped" />
+    <ref role="1XX52x" to="n12:62nlqxEmnHA" resolve="CollapsibleGrouped" />
     <node concept="3uPbVW" id="62nlqxEmnP1" role="2wV5jI">
       <property role="3vD9g8" value="true" />
       <property role="aF5Fw" value="g" />

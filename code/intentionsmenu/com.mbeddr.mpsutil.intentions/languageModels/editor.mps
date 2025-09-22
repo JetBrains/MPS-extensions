@@ -70,12 +70,12 @@
         <node concept="3F0ifn" id="54z9_KDO5SK" role="3EZMnx">
           <property role="3F0ifm" value="group:" />
         </node>
-        <node concept="3F0A7n" id="4mzPpe1ypUn" role="3EZMnx">
-          <ref role="1NtTu8" to="tegv:54z9_KDO50a" resolve="label" />
-        </node>
         <node concept="2iRfu4" id="54z9_KDO5SG" role="2iSdaV" />
         <node concept="3vyZuw" id="54z9_KDO752" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0A7n" id="4mzPpe1ypUn" role="3EZMnx">
+          <ref role="1NtTu8" to="tegv:54z9_KDO50a" resolve="label" />
         </node>
       </node>
       <node concept="2SsqMj" id="54z9_KDO5Tc" role="3EZMnx" />
@@ -95,7 +95,7 @@
       <node concept="2iRkQZ" id="frLjuvPGIF" role="2iSdaV" />
       <node concept="3EZMnI" id="frLjuvPGIG" role="3EZMnx">
         <node concept="3F0ifn" id="frLjuvPHyu" role="3EZMnx">
-          <property role="3F0ifm" value="show intention in ready-only cell:" />
+          <property role="3F0ifm" value="show intention in read-only cell:" />
         </node>
         <node concept="3F0A7n" id="frLjuvPGII" role="3EZMnx">
           <ref role="1NtTu8" to="tegv:frLjuvPGIB" resolve="flag" />

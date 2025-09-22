@@ -95,21 +95,6 @@
   <node concept="PlHQZ" id="37WsXDFJRg1">
     <property role="EcuMT" value="3601881183937328129" />
     <property role="TrG5h" value="IBaseGraphTest" />
-    <node concept="1TJgyi" id="4pZT8JgcEFb" role="1TKVEl">
-      <property role="IQ2nx" value="5080030193841777355" />
-      <property role="TrG5h" value="applyNodeStyles" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="4pZT8JgcEO9" role="1TKVEl">
-      <property role="IQ2nx" value="5080030193841777929" />
-      <property role="TrG5h" value="applyEdgeStyles" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="4pZT8JgcEXW" role="1TKVEl">
-      <property role="IQ2nx" value="5080030193841778556" />
-      <property role="TrG5h" value="applyLabelStyles" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="PrWs8" id="37WsXDFJRE6" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -142,6 +127,21 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="description" />
       <ref role="20lvS9" to="zqge:2cLqkTm6vgh" resolve="Text" />
+    </node>
+    <node concept="1TJgyi" id="4pZT8JgcEFb" role="1TKVEl">
+      <property role="IQ2nx" value="5080030193841777355" />
+      <property role="TrG5h" value="applyNodeStyles" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4pZT8JgcEO9" role="1TKVEl">
+      <property role="IQ2nx" value="5080030193841777929" />
+      <property role="TrG5h" value="applyEdgeStyles" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4pZT8JgcEXW" role="1TKVEl">
+      <property role="IQ2nx" value="5080030193841778556" />
+      <property role="TrG5h" value="applyLabelStyles" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="37WsXDFJYOZ">
@@ -351,6 +351,14 @@
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4Y8LoRLw0Mi">
+    <property role="EcuMT" value="5731047739261717650" />
+    <property role="TrG5h" value="TreeSubDiagram" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4Y8LoRLw1kE" role="PzmwI">
+      <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
+    </node>
+  </node>
   <node concept="1TIwiD" id="4Y8LoRLuGW4">
     <property role="EcuMT" value="5731047739261374212" />
     <property role="TrG5h" value="NestedTreeDiagram" />
@@ -372,14 +380,6 @@
       <ref role="20lvS9" node="4Y8LoRLw0Mi" resolve="TreeSubDiagram" />
     </node>
     <node concept="PrWs8" id="4Y8LoRLuJYn" role="PzmwI">
-      <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4Y8LoRLw0Mi">
-    <property role="EcuMT" value="5731047739261717650" />
-    <property role="TrG5h" value="TreeSubDiagram" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="4Y8LoRLw1kE" role="PzmwI">
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>
   </node>

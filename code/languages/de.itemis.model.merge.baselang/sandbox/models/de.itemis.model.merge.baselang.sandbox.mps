@@ -17,9 +17,6 @@
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
       <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <property id="2616911529524314943" name="accessMode" index="3DII0k" />
@@ -248,7 +245,7 @@
           <node concept="3cpWsn" id="6QQNrZxM5p" role="3cpWs9">
             <property role="TrG5h" value="nodes" />
             <node concept="2I9FWS" id="6QQNrZxLQo" role="1tU5fm">
-              <ref role="2I9WkF" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+              <ref role="2I9WkF" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
             </node>
             <node concept="2OqwBi" id="6QQNrZxM5q" role="33vP2m">
               <node concept="37vLTw" id="6QQNrZxM5r" role="2Oq$k0">
@@ -256,7 +253,7 @@
               </node>
               <node concept="2SmgA7" id="6QQNrZxM5s" role="2OqNvi">
                 <node concept="chp4Y" id="6QQNrZxM5t" role="1dBWTz">
-                  <ref role="cht4Q" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+                  <ref role="cht4Q" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
                 </node>
               </node>
             </node>
@@ -279,7 +276,7 @@
           <node concept="3cpWsn" id="6QQNrZxYaO" role="3cpWs9">
             <property role="TrG5h" value="node" />
             <node concept="3Tqbb2" id="6QQNrZxYab" role="1tU5fm">
-              <ref role="ehGHo" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+              <ref role="ehGHo" to="yeyq:32ggi2DCpGw" resolve="ConceptWithProperty" />
             </node>
             <node concept="2OqwBi" id="6QQNrZxYaP" role="33vP2m">
               <node concept="37vLTw" id="6QQNrZxYaQ" role="2Oq$k0">
@@ -305,9 +302,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="2XOHcx" id="65E6xpGUrwD">
-    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
 </model>
 

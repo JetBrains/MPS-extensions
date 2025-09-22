@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -98,14 +98,14 @@
       <property role="IQ2ns" value="8588142736409368490" />
       <ref role="20lvS9" node="7sJd_4s1VjR" resolve="InitFunction" />
     </node>
+    <node concept="PrWs8" id="19RCnNmEWth" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="inTShgZDDx" role="1TKVEi">
       <property role="IQ2ns" value="330987653115583073" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="renderTextFunction" />
       <ref role="20lvS9" node="inTShgXxuv" resolve="TextBuilderFunction" />
-    </node>
-    <node concept="PrWs8" id="19RCnNmEWth" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="9L22EoWidN">
@@ -195,14 +195,14 @@
       <property role="IQ2ns" value="9120555111512650991" />
       <ref role="20lvS9" node="7UiI8Oo5kHL" resolve="UpdateDimensionFunction" />
     </node>
+    <node concept="PrWs8" id="7UiI8OnJHQt" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
     <node concept="1TJgyj" id="inTShgXvMi" role="1TKVEi">
       <property role="IQ2ns" value="330987653115018386" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="renderTextFunction" />
       <ref role="20lvS9" node="inTShgXxuv" resolve="TextBuilderFunction" />
-    </node>
-    <node concept="PrWs8" id="7UiI8OnJHQt" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="7UiI8OnHTRi">
@@ -331,14 +331,14 @@
       <property role="IQ2ns" value="9120555111528208560" />
       <ref role="20lvS9" node="7UiI8Oo5kHL" resolve="UpdateDimensionFunction" />
     </node>
+    <node concept="PrWs8" id="7UiI8Op0Lx9" role="PzmwI">
+      <ref role="PrY4T" node="7UiI8Oo8WZA" resolve="IMathSymbol" />
+    </node>
     <node concept="1TJgyj" id="inTShhdm4F" role="1TKVEi">
       <property role="IQ2ns" value="330987653119172907" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="renderTextFunction" />
       <ref role="20lvS9" node="inTShgXxuv" resolve="TextBuilderFunction" />
-    </node>
-    <node concept="PrWs8" id="7UiI8Op0Lx9" role="PzmwI">
-      <ref role="PrY4T" node="7UiI8Oo8WZA" resolve="IMathSymbol" />
     </node>
   </node>
   <node concept="1TIwiD" id="2d15myJeBOL">

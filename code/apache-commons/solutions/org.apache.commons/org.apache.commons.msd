@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="org.apache.commons" uuid="b0f8641f-bd77-4421-8425-30d9088a82f7" moduleVersion="0">
   <models>
-    <modelRoot type="java_classes" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/commons-csv.jar" />
       <sourceRoot location="lib/commons-io.jar" />
       <sourceRoot location="lib/commons-lang3.jar" />
@@ -9,15 +9,6 @@
       <sourceRoot location="lib/commons-primitives.jar" />
       <sourceRoot location="lib/miglayout-core.jar" />
       <sourceRoot location="lib/miglayout-swing.jar" />
-    </modelRoot>
-    <modelRoot type="java_classes" contentPath="${module}/lib">
-      <sourceRoot location="commons-csv.jar" />
-      <sourceRoot location="commons-io.jar" />
-      <sourceRoot location="commons-lang3.jar" />
-      <sourceRoot location="commons-math3.jar" />
-      <sourceRoot location="commons-primitives.jar" />
-      <sourceRoot location="miglayout-core.jar" />
-      <sourceRoot location="miglayout-swing.jar" />
     </modelRoot>
   </models>
   <facets>

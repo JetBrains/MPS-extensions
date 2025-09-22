@@ -40,20 +40,20 @@
   </registry>
   <node concept="1TIwiD" id="5CYFCJDOmka">
     <property role="EcuMT" value="6502826827916076298" />
-    <property role="TrG5h" value="KeeperOfCollection" />
+    <property role="TrG5h" value="ConceptWithNestedCollections" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5CYFCJDOGGO" role="1TKVEl">
       <property role="IQ2nx" value="6502826827916167988" />
       <property role="TrG5h" value="id" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="5CYFCJDOo$m" role="1TKVEi">
       <property role="IQ2ns" value="6502826827916085526" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="collection" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
+      <ref role="20lvS9" to="lmxm:6Ltuup4C5JZ" resolve="ConceptWithListOfChildren" />
     </node>
   </node>
 </model>

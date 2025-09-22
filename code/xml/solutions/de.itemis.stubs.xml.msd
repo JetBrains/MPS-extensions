@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.stubs.xml" uuid="124d077c-270f-42ca-8bf8-bee488dc96dc" moduleVersion="0">
   <models>
-    <modelRoot type="java_classes" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/xml-apis-ext.jar" />
       <sourceRoot location="lib/xercesImpl.jar" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="off" classes="mps" ext="yes">
+    <facet type="java" compile="ext" classes="mps" ext="no">
       <classes generated="true" />
       <library location="${module}/lib/xercesImpl.jar" />
       <library location="${module}/lib/xml-apis-ext.jar" />

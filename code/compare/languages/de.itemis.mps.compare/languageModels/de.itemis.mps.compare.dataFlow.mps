@@ -141,5 +141,36 @@
       </node>
     </node>
   </node>
+  <node concept="3_zdsH" id="6MWuQFM41CI">
+    <ref role="3_znuS" to="8do3:6MWuQFM2umD" resolve="AssertFloatEquals" />
+    <node concept="3__wT9" id="6MWuQFM41CJ" role="3_A6iZ">
+      <node concept="3clFbS" id="6MWuQFM41CK" role="2VODD2">
+        <node concept="3AgYrR" id="6MWuQFM41CL" role="3cqZAp">
+          <node concept="2OqwBi" id="6MWuQFM41CM" role="3Ah4Yx">
+            <node concept="3__QtB" id="6MWuQFM41CN" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6MWuQFM41CO" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpe3:7jPoEeD$ZP4" resolve="expected" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="6MWuQFM41CP" role="3cqZAp">
+          <node concept="2OqwBi" id="6MWuQFM41CQ" role="3Ah4Yx">
+            <node concept="3__QtB" id="6MWuQFM41CR" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6MWuQFM41CS" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpe3:7jPoEeD$ZP5" resolve="actual" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="6MWuQFM41K_" role="3cqZAp">
+          <node concept="2OqwBi" id="6MWuQFM41KA" role="3Ah4Yx">
+            <node concept="3__QtB" id="6MWuQFM41KB" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6MWuQFM41KC" role="2OqNvi">
+              <ref role="3Tt5mk" to="8do3:25QMAbgGdme" resolve="tolerance" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

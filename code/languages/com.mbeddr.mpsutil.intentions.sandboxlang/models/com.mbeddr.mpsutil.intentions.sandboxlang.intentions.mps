@@ -276,7 +276,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="54O0Dxcsaou">
-    <property role="TrG5h" value="ChildIntentionNeverVisibleInReadyOnly" />
+    <property role="TrG5h" value="ChildIntentionNeverVisibleInReadOnly" />
     <ref role="2ZfgGC" to="iikq:5qf1oe_GcsF" resolve="IChild" />
     <node concept="2S6ZIM" id="54O0Dxcsaov" role="2ZfVej">
       <node concept="3clFbS" id="54O0Dxcsaow" role="2VODD2">

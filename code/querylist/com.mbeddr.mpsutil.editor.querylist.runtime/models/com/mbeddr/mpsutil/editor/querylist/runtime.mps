@@ -271,6 +271,7 @@
         <child id="1199542457201" name="resultType" index="1ajl9A" />
       </concept>
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
+        <property id="890797661671409019" name="forceMultiLine" index="3yWfEV" />
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
@@ -365,10 +366,10 @@
         <child id="1237721435807" name="elementType" index="HW$YZ" />
       </concept>
       <concept id="1227022179634" name="jetbrains.mps.baseLanguage.collections.structure.AddLastElementOperation" flags="nn" index="2Ke9KJ" />
+      <concept id="1227026094155" name="jetbrains.mps.baseLanguage.collections.structure.RemoveLastElementOperation" flags="nn" index="2Kt5_m" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
-      <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1225711141656" name="jetbrains.mps.baseLanguage.collections.structure.ListElementAccessExpression" flags="nn" index="1y4W85">
         <child id="1225711182005" name="list" index="1y566C" />
@@ -1455,9 +1456,28 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="4DLCSzVGTmO" role="3cqZAp">
-          <node concept="1rXfSq" id="4DLCSzVGTmP" role="3clFbG">
-            <ref role="37wK5l" to="emqf:~AbstractCellListHandler.createInnerCells()" resolve="createInnerCells" />
+        <node concept="3clFbF" id="4EGFz66Zeh9" role="3cqZAp">
+          <node concept="2YIFZM" id="4EGFz66Zj8U" role="3clFbG">
+            <ref role="37wK5l" node="1WjrBsNI2hk" resolve="runWithContext" />
+            <ref role="1Pybhc" node="1WjrBsNHO$4" resolve="QueryListContext" />
+            <node concept="2ShNRf" id="4EGFz66Zj8V" role="37wK5m">
+              <node concept="1pGfFk" id="4EGFz66Zj8W" role="2ShVmc">
+                <ref role="37wK5l" node="1WjrBsNI9Ji" resolve="QueryListContext" />
+                <node concept="37vLTw" id="4EGFz66ZCR1" role="37wK5m">
+                  <ref role="3cqZAo" node="1SwultAiTIH" resolve="myOwner" />
+                </node>
+              </node>
+            </node>
+            <node concept="1bVj0M" id="4EGFz66Zj8Y" role="37wK5m">
+              <property role="3yWfEV" value="true" />
+              <node concept="3clFbS" id="4EGFz66Zj8Z" role="1bW5cS">
+                <node concept="3clFbF" id="4DLCSzVGTmO" role="3cqZAp">
+                  <node concept="1rXfSq" id="4DLCSzVGTmP" role="3clFbG">
+                    <ref role="37wK5l" to="emqf:~AbstractCellListHandler.createInnerCells()" resolve="createInnerCells" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="4DLCSzVGTmQ" role="3cqZAp" />
@@ -3718,19 +3738,7 @@
             <node concept="37vLTw" id="1WjrBsNHZaI" role="2Oq$k0">
               <ref role="3cqZAo" node="1WjrBsNI1Jv" resolve="ourContextStack" />
             </node>
-            <node concept="34jXtK" id="1WjrBsNHZAl" role="2OqNvi">
-              <node concept="3cpWsd" id="1WjrBsNI0xG" role="25WWJ7">
-                <node concept="3cmrfG" id="1WjrBsNI0xX" role="3uHU7w">
-                  <property role="3cmrfH" value="1" />
-                </node>
-                <node concept="2OqwBi" id="1WjrBsNHZOf" role="3uHU7B">
-                  <node concept="37vLTw" id="1WjrBsNHZDE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1WjrBsNI1Jv" resolve="ourContextStack" />
-                  </node>
-                  <node concept="34oBXx" id="1WjrBsNI091" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
+            <node concept="2Kt5_m" id="4EGFz669eCA" role="2OqNvi" />
           </node>
         </node>
       </node>

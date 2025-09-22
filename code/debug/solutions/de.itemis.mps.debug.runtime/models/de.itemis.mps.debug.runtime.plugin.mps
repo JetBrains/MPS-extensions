@@ -21,8 +21,8 @@
     <import index="y93e" ref="r:64204879-20e9-45e0-aa9c-21e16ba032f2(de.itemis.mps.debug.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="dp1x" ref="r:84719e1a-99f6-4297-90ba-8ad2a947fa4a(jetbrains.mps.ide.datatransfer)" />
-    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
-    <import index="rdi9" ref="r:c30772cf-6faa-4379-900e-6719e180568e(de.itemis.mps.editor.celllayout.runtime.plugin)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
+    <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -246,22 +246,26 @@
         <node concept="3cpWs8" id="7_uCKm_nUfo" role="3cqZAp">
           <node concept="3cpWsn" id="7_uCKm_nUfp" role="3cpWs9">
             <property role="TrG5h" value="ct" />
-            <node concept="3uibUv" id="7_uCKm_nUfq" role="1tU5fm">
-              <ref role="3uigEE" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
-            </node>
-            <node concept="2OqwBi" id="7_uCKm_nUfr" role="33vP2m">
-              <node concept="2OqwBi" id="7_uCKm_nUfs" role="2Oq$k0">
-                <node concept="2WthIp" id="7_uCKm_nUft" role="2Oq$k0" />
-                <node concept="1DTwFV" id="7_uCKm_nUfu" role="2OqNvi">
-                  <ref role="2WH_rO" node="7_uCKm_nUfJ" resolve="mpsProject" />
+            <node concept="2OqwBi" id="4qohHcBHr1y" role="33vP2m">
+              <node concept="2YIFZM" id="4qohHcBHp8W" role="2Oq$k0">
+                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
+                <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                <node concept="2OqwBi" id="4qohHcBHqAo" role="37wK5m">
+                  <node concept="2WthIp" id="4qohHcBHqAr" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="4qohHcBHqAt" role="2OqNvi">
+                    <ref role="2WH_rO" node="7_uCKm_nUfJ" resolve="mpsProject" />
+                  </node>
                 </node>
               </node>
-              <node concept="liA8E" id="7_uCKm_nUfv" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
-                <node concept="3VsKOn" id="7_uCKm_nUfw" role="37wK5m">
+              <node concept="liA8E" id="V_BJyw1cJZ" role="2OqNvi">
+                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
+                <node concept="3VsKOn" id="V_BJyw1dWX" role="37wK5m">
                   <ref role="3VsUkX" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
                 </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="V_BJyw1aUQ" role="1tU5fm">
+              <ref role="3uigEE" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
             </node>
           </node>
         </node>
@@ -275,7 +279,7 @@
               <node concept="37vLTw" id="7_uCKm_nUf_" role="2Oq$k0">
                 <ref role="3cqZAo" node="7_uCKm_nUfp" resolve="ct" />
               </node>
-              <node concept="liA8E" id="7_uCKm_nUfA" role="2OqNvi">
+              <node concept="liA8E" id="V_BJyw1g3C" role="2OqNvi">
                 <ref role="37wK5l" to="qgo0:5VzHAnbXFEZ" resolve="getCurrentEditableTab" />
               </node>
             </node>
@@ -464,25 +468,29 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="7_uCKm_ir_J" role="3cqZAp">
-          <node concept="3cpWsn" id="7_uCKm_ir_K" role="3cpWs9">
+        <node concept="3cpWs8" id="4qohHcBHxhI" role="3cqZAp">
+          <node concept="3cpWsn" id="V_BJyw1gOQ" role="3cpWs9">
             <property role="TrG5h" value="ct" />
-            <node concept="3uibUv" id="7_uCKm_ir_L" role="1tU5fm">
-              <ref role="3uigEE" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
-            </node>
-            <node concept="2OqwBi" id="7_uCKm_issU" role="33vP2m">
-              <node concept="2OqwBi" id="7_uCKm_irCF" role="2Oq$k0">
-                <node concept="2WthIp" id="7_uCKm_irCI" role="2Oq$k0" />
-                <node concept="1DTwFV" id="7_uCKm_irCK" role="2OqNvi">
-                  <ref role="2WH_rO" node="7_uCKm_iqTJ" resolve="mpsProject" />
+            <node concept="2OqwBi" id="V_BJyw1gOR" role="33vP2m">
+              <node concept="2YIFZM" id="V_BJyw1gOS" role="2Oq$k0">
+                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
+                <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                <node concept="2OqwBi" id="V_BJyw1gOT" role="37wK5m">
+                  <node concept="2WthIp" id="V_BJyw1gOU" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="V_BJyw1gOV" role="2OqNvi">
+                    <ref role="2WH_rO" node="7_uCKm_iqTJ" resolve="mpsProject" />
+                  </node>
                 </node>
               </node>
-              <node concept="liA8E" id="7_uCKm_it40" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
-                <node concept="3VsKOn" id="7_uCKm_it8D" role="37wK5m">
+              <node concept="liA8E" id="V_BJyw1gOW" role="2OqNvi">
+                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
+                <node concept="3VsKOn" id="V_BJyw1gOX" role="37wK5m">
                   <ref role="3VsUkX" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
                 </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="V_BJyw1gOY" role="1tU5fm">
+              <ref role="3uigEE" to="qgo0:1iC2RjkXjYJ" resolve="ConsoleTool" />
             </node>
           </node>
         </node>
@@ -494,9 +502,9 @@
             </node>
             <node concept="2OqwBi" id="7_uCKm_izgr" role="33vP2m">
               <node concept="37vLTw" id="7_uCKm_izgs" role="2Oq$k0">
-                <ref role="3cqZAo" node="7_uCKm_ir_K" resolve="ct" />
+                <ref role="3cqZAo" node="V_BJyw1gOQ" resolve="ct" />
               </node>
-              <node concept="liA8E" id="7_uCKm_izgt" role="2OqNvi">
+              <node concept="liA8E" id="V_BJyw1iAQ" role="2OqNvi">
                 <ref role="37wK5l" to="qgo0:5VzHAnbXFEZ" resolve="getCurrentEditableTab" />
               </node>
             </node>

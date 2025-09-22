@@ -20,16 +20,13 @@
     <import index="xlb7" ref="r:cf42fd0a-68d2-493b-8b77-961658617704(jetbrains.mps.lang.modelapi.behavior)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="1xlh" ref="r:83d91843-991e-414a-ada7-28ed0de69bb1(de.itemis.model.test.integration.plugin)" />
+    <import index="1xlh" ref="r:83d91843-991e-414a-ada7-28ed0de69bb1(de.itemis.model.merge.test.integration.plugin)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
       <concept id="1211979288880" name="jetbrains.mps.lang.test.structure.AssertMatch" flags="nn" index="JA50E">
         <child id="1211979305365" name="before" index="JA92f" />
         <child id="1211979322383" name="after" index="JAdkl" />
-      </concept>
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
@@ -198,8 +195,8 @@
               <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
             </node>
             <node concept="2YIFZM" id="hG_e7_dlJp" role="33vP2m">
-              <ref role="37wK5l" to="cp9f:77Ot_5atFjz" resolve="rootOf" />
-              <ref role="1Pybhc" to="cp9f:6Ltuup4xcSI" resolve="TestUtil" />
+              <ref role="37wK5l" to="cp9f:S2tk9RipRT" resolve="rootOf" />
+              <ref role="1Pybhc" to="cp9f:6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="hG_e7_dlJq" role="37wK5m">
                 <ref role="3xOPvv" node="hG_e7_dlKt" resolve="me" />
               </node>
@@ -396,9 +393,6 @@
       </node>
     </node>
   </node>
-  <node concept="2XOHcx" id="65E6xpGUrwD">
-    <property role="2XOHcw" value="${extensions.home}/code" />
-  </node>
   <node concept="1lH9Xt" id="4LLXBGbTodC">
     <property role="TrG5h" value="AnnotatioMergeExecutionWithEmptyModel" />
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
@@ -414,8 +408,8 @@
               <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
             </node>
             <node concept="2YIFZM" id="4LLXBGbTodK" role="33vP2m">
-              <ref role="37wK5l" to="cp9f:77Ot_5atFjz" resolve="rootOf" />
-              <ref role="1Pybhc" to="cp9f:6Ltuup4xcSI" resolve="TestUtil" />
+              <ref role="37wK5l" to="cp9f:S2tk9RipRT" resolve="rootOf" />
+              <ref role="1Pybhc" to="cp9f:6npTJ7huP0j" resolve="TestingMergingRunner" />
               <node concept="3xONca" id="4LLXBGbTodL" role="37wK5m">
                 <ref role="3xOPvv" node="4LLXBGbTof3" resolve="me" />
               </node>

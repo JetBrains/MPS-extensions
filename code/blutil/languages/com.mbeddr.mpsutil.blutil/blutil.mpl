@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="com.mbeddr.mpsutil.blutil" uuid="63e0e566-5131-447e-90e3-12ea330e1a00" languageVersion="3" moduleVersion="0">
   <models>
-    <modelRoot contentPath="${module}" type="default">
+    <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="languageModels" />
     </modelRoot>
   </models>
@@ -16,7 +16,7 @@
   <generators>
     <generator alias="" namespace="com.mbeddr.mpsutil.blutil#4354378109086982937" uuid="3a6b9f2f-4402-4ed6-a7cd-12b272b244d5">
       <models>
-        <modelRoot contentPath="${module}" type="default">
+        <modelRoot type="default" contentPath="${module}">
           <sourceRoot location="generator/template" />
         </modelRoot>
       </models>
@@ -69,6 +69,7 @@
         <module reference="63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)" version="0" />
         <module reference="3a6b9f2f-4402-4ed6-a7cd-12b272b244d5(com.mbeddr.mpsutil.blutil#4354378109086982937)" version="0" />
         <module reference="360a4e25-e902-4667-a0a6-0e971c4f3177(com.mbeddr.mpsutil.blutil.rt)" version="0" />
+        <module reference="d91eaf6f-a378-467f-9524-0c201ee2e15f(de.itemis.mps.baseLanguageExtensions.runtime)" version="0" />
         <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
         <module reference="985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)" version="0" />
         <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />

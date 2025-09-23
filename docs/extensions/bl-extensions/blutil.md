@@ -164,3 +164,85 @@ This language contains helpful expressions for generators.
  of a generator rule.
 - **setMappingHasBeenExecuted** is the same as *executeOnce* but only saves the information and doesn't check and returns
 if the code was already executed.
+
+## Elvis Operation
+
+This BaseLanguage operator `?:` returns the right-hand side when the left-hand side is `null`
+```
+public string m(string x){
+  x ?: "";
+  // returns "" if x is null
+}
+```
+
+## Integer Range
+
+This BaseLanguage expression creates a finite/infinite sequence of integers
+- `[n..m]` creates a sequence of integers starting from `n` and including `m` with increments of `1`
+- `[n..inf]` creates an infinite sequence of integers starting from `n` with increments of `1`
+```
+// constant bounds
+[0..10].select({~it => it * 2; });
+// [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+// infinite range
+[0..inf].take(12).select({~it => it ^ 10; });
+// [10, 11, 8, 9, 14, 15, 12, 13, 2, 3, 0, 1]
+
+// expression bounds
+[0..# 3 * 2].select({~it => it + 2; });
+// [2, 3, 4, 5, 6, 7, 8]
+```
+
+## Group By
+
+This BaseLanguage sequence operation `seq.groupBy(keySelector)` creates a map out of a sequence where elements are grouped using the `keySelector` closure
+```
+sequence<string> numbers = new arraylist<string>{"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+// group by string length
+map<int, string> byLength = numbers.groupBy({string elem => elem.length(); });
+// [3=[One, Two, Six], 4=[Four, Five, Nine], 5=[Three, Seven, Eight]]
+```
+
+## Zip
+
+This BaseLanguage sequence operation `seq1.zip(seq2)` creates a sequence of tuples where each element is a tuple from the element in the two sequences at that index
+```
+//combine int and string sequence
+sequence<[int, string]> numAndLabels = new arraylist<int>{1, 2, 3}
+  .zip(new arraylist<string>{"one", "two", "three"});
+numAndLabels.select({~it => it[0] + ": " + it[1]; }).join(", ");
+// 1: one, 2: two, 3: three
+
+// combining sequences of different sizes stops at the shortest
+sequence<[int, string]> firstShorter = new arraylist<int>{1, 2}
+  .zip(new arraylist<string>{"one", "two", "three"});
+firstShorter.select({~it => it[0] + ": " + it[1]; }).join(", ");
+// 1: one, 2: two
+
+// combining with null returns empty sequence
+sequence<[int, string]> oneNull = new arraylist<int>{1, 2}.zip(null);
+oneNull.select({~it => it[0] + ": " + it[1]; }).join(", ");
+```
+
+## Select/Where/ForEach With Index
+
+These BaseLanguage sequence operations `seq.selectIdx({~it, int index => ...})`, `seq.whereIdx({~it, int index => ...})` and `seq.forEachIdx({~it, int index => ...})` are similar to `select`, `where` and `foreach` already present in the collections language, but the index of the current element is also an argument of the closure
+```
+list<string> numsAsStrings = new arraylist<string>{"one", "two", "three", "four"};
+
+sequence<string> indexAsPrefix = numsAsStrings
+  .selectIdx({~it, int index => index + ": " + it; });
+// [0: one, 1: two, 2: three, 3: four]
+
+sequence<string> onlyEvenIdx = numsAsStrings
+  .whereIdx({~it, int index => index % 2 == 0; });
+// [one, three]
+
+numsAsStrings
+  .forEachIdx({~it, int index => #print "index is " + index + " and value is " + it; });
+// index is 0 and value is one 
+// index is 1 and value is two 
+// index is 2 and value is three 
+// index is 3 and value is four
+```

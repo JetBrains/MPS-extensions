@@ -7963,6 +7963,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
+        <node concept="1SiIV0" id="i1AnlEUXNI" role="3bR37C">
+          <node concept="3bR9La" id="i1AnlEUXNJ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0C" resolve="collections.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2NyZxKpUQhZ" role="2G$12L">
         <property role="BnDLt" value="true" />

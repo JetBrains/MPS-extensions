@@ -27,12 +27,15 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ControlCharacterRegex;
   private ConceptPresentation props_DispatchExpression;
   private ConceptPresentation props_DisptachMatch;
+  private ConceptPresentation props_ElvisOperation;
   private ConceptPresentation props_EqualsNodeCriterion;
   private ConceptPresentation props_ExpressionChildValue;
   private ConceptPresentation props_FilterOperation;
+  private ConceptPresentation props_ForEachWithIndexOperation;
   private ConceptPresentation props_GridConstraintsNextColumOperation;
   private ConceptPresentation props_GridConstraintsNextRowOperation;
   private ConceptPresentation props_GridConstraintsOperation;
+  private ConceptPresentation props_GroupByOperation;
   private ConceptPresentation props_GroupRegexp;
   private ConceptPresentation props_GuardCriterion;
   private ConceptPresentation props_HexadecimalRegex;
@@ -44,6 +47,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_IfInstanceOfVarReference;
   private ConceptPresentation props_IfInstanceOfVariableProvider;
   private ConceptPresentation props_IndependentNonCapturingGroup;
+  private ConceptPresentation props_IntegerRange;
   private ConceptPresentation props_IsConceptCriterion;
   private ConceptPresentation props_IsInstanceOfExpression;
   private ConceptPresentation props_ItExpr;
@@ -68,6 +72,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_RefStep;
   private ConceptPresentation props_SafeReadAction;
   private ConceptPresentation props_SafeWriteAction;
+  private ConceptPresentation props_SelectWithIndexOperation;
   private ConceptPresentation props_ShortStaticMethodCall;
   private ConceptPresentation props_SimplePropertyStep;
   private ConceptPresentation props_ThisRefExpr;
@@ -86,6 +91,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_TypeSwitchVariable;
   private ConceptPresentation props_TypeSwitchVariableReference;
   private ConceptPresentation props_UnicodeByNameRegex;
+  private ConceptPresentation props_WhereWithIndexOperation;
+  private ConceptPresentation props_ZipOperation;
 
   @Override
   @Nullable
@@ -219,6 +226,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_DisptachMatch = cpb.create();
         }
         return props_DisptachMatch;
+      case LanguageConceptSwitch.ElvisOperation:
+        if (props_ElvisOperation == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("elvis operation");
+          cpb.rawPresentation("?:");
+          props_ElvisOperation = cpb.create();
+        }
+        return props_ElvisOperation;
       case LanguageConceptSwitch.EqualsNodeCriterion:
         if (props_EqualsNodeCriterion == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -243,6 +258,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_FilterOperation = cpb.create();
         }
         return props_FilterOperation;
+      case LanguageConceptSwitch.ForEachWithIndexOperation:
+        if (props_ForEachWithIndexOperation == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("execute for each element with index");
+          cpb.rawPresentation("forEachIdx");
+          props_ForEachWithIndexOperation = cpb.create();
+        }
+        return props_ForEachWithIndexOperation;
       case LanguageConceptSwitch.GridConstraintsNextColumOperation:
         if (props_GridConstraintsNextColumOperation == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -263,6 +286,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_GridConstraintsOperation = cpb.create();
         }
         return props_GridConstraintsOperation;
+      case LanguageConceptSwitch.GroupByOperation:
+        if (props_GroupByOperation == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("identify groups of elements");
+          cpb.rawPresentation("groupBy");
+          props_GroupByOperation = cpb.create();
+        }
+        return props_GroupByOperation;
       case LanguageConceptSwitch.GroupRegexp:
         if (props_GroupRegexp == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -341,6 +372,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_IndependentNonCapturingGroup = cpb.create();
         }
         return props_IndependentNonCapturingGroup;
+      case LanguageConceptSwitch.IntegerRange:
+        if (props_IntegerRange == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("integer range");
+          cpb.rawPresentation("[");
+          props_IntegerRange = cpb.create();
+        }
+        return props_IntegerRange;
       case LanguageConceptSwitch.IsConceptCriterion:
         if (props_IsConceptCriterion == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -511,6 +550,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_SafeWriteAction = cpb.create();
         }
         return props_SafeWriteAction;
+      case LanguageConceptSwitch.SelectWithIndexOperation:
+        if (props_SelectWithIndexOperation == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("transform each element and index");
+          cpb.rawPresentation("selectIdx");
+          props_SelectWithIndexOperation = cpb.create();
+        }
+        return props_SelectWithIndexOperation;
       case LanguageConceptSwitch.ShortStaticMethodCall:
         if (props_ShortStaticMethodCall == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -641,6 +688,22 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_UnicodeByNameRegex = cpb.create();
         }
         return props_UnicodeByNameRegex;
+      case LanguageConceptSwitch.WhereWithIndexOperation:
+        if (props_WhereWithIndexOperation == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("include only matched element");
+          cpb.rawPresentation("whereIdx");
+          props_WhereWithIndexOperation = cpb.create();
+        }
+        return props_WhereWithIndexOperation;
+      case LanguageConceptSwitch.ZipOperation:
+        if (props_ZipOperation == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("maps a tuple of sequences into a sequence of tuples");
+          cpb.rawPresentation("zip");
+          props_ZipOperation = cpb.create();
+        }
+        return props_ZipOperation;
     }
     return null;
   }

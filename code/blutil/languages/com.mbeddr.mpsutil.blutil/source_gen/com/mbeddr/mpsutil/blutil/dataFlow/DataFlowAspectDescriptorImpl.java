@@ -38,32 +38,34 @@ public class DataFlowAspectDescriptorImpl extends DataFlowAspectDescriptorBase {
       case 8:
         return Collections.<IDataFlowBuilder>singletonList(new IfInstanceOfStatement_DataFlow());
       case 9:
-        return Collections.<IDataFlowBuilder>singletonList(new LogExpr_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new IntegerRange_DataFlow());
       case 10:
-        return Collections.<IDataFlowBuilder>singletonList(new MatchStatement_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new LogExpr_DataFlow());
       case 11:
-        return Collections.<IDataFlowBuilder>singletonList(new RefStep_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new MatchStatement_DataFlow());
       case 12:
-        return Collections.<IDataFlowBuilder>singletonList(new SafeReadAction_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new RefStep_DataFlow());
       case 13:
-        return Collections.<IDataFlowBuilder>singletonList(new SafeWriteAction_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new SafeReadAction_DataFlow());
       case 14:
-        return Collections.<IDataFlowBuilder>singletonList(new SimplePropertyStep_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new SafeWriteAction_DataFlow());
       case 15:
-        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitch_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new SimplePropertyStep_DataFlow());
       case 16:
-        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitchCase_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitch_DataFlow());
       case 17:
-        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitchCaseMapping_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitchCase_DataFlow());
       case 18:
-        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitchCaseMappingContainer_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitchCaseMapping_DataFlow());
       case 19:
-        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitchDefault_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitchCaseMappingContainer_DataFlow());
       case 20:
+        return Collections.<IDataFlowBuilder>singletonList(new TypeSwitchDefault_DataFlow());
+      case 21:
         return Collections.<IDataFlowBuilder>singletonList(new TypeSwitchVariableReference_DataFlow());
       default:
     }
     return Collections.<IDataFlowBuilder>emptyList();
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e329772626e752dL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78777fea72a4fbd7L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x2c94d9a5bf5a4637L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e3297726276ae19L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e329772626e7773L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78777fea72a4fbd4L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0xa301e50ded9c71eL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78fe39f732c38192L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78fe39f7329b750cL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x4ea5f1fa52226048L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x5d14eaa1dfd58d84L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e32977262761ab0L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x4fd8d95d9b5e469bL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x1b955fbd89bc0ed2L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e329772626f2267L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6e484417020c7e4fL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6e484417020c7e52L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6b7f111bddbd7c8aL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6b7f111bddc09bf3L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6283e7f5ac853961L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6e484417020e9d1aL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e329772626e752dL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78777fea72a4fbd7L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x2c94d9a5bf5a4637L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e3297726276ae19L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e329772626e7773L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78777fea72a4fbd4L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0xa301e50ded9c71eL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78fe39f732c38192L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78fe39f7329b750cL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x4ea5f1fa52226048L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x5d14eaa1dfd58d84L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e32977262761ab0L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x4fd8d95d9b5e469bL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x1b955fbd89bc0ed2L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e329772626f2267L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6e484417020c7e4fL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6e484417020c7e52L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6b7f111bddbd7c8aL), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6b7f111bddc09bf3L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6283e7f5ac853961L), MetaIdFactory.conceptId(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6e484417020e9d1aL)).seal();
 }

@@ -81,6 +81,9 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.collection/de.itemis.model.simple.demo.collection.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.property/de.itemis.model.simple.demo.property.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.reference/de.itemis.model.simple.demo.reference.mpl" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.baseLanguageExtensions.runtime/de.itemis.mps.baseLanguageExtensions.runtime.msd" folder="baseLanguageExtensions" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.baseLanguageExtensions.sandbox/de.itemis.mps.baseLanguageExtensions.sandbox.msd" folder="baseLanguageExtensions" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.baseLanguageExtensions/de.itemis.mps.baseLanguageExtensions.mpl" folder="baseLanguageExtensions" />
       <modulePath path="$PROJECT_DIR$/langvis/languages/com.dslfoundry.langvis.demolang/com.dslfoundry.langvis.demolang.mpl" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.demo/com.dslfoundry.langvis.demo.msd" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" folder="langvis" />
@@ -190,6 +193,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.simple.demo/de.itemis.model.merge.simple.demo.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test.integration/de.itemis.model.merge.test.integration.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.baseLanguageExtensions.test/de.itemis.mps.baseLanguageExtensions.test.msd" folder="baseLanguageExtensions" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.extensions.changelog/de.itemis.mps.extensions.changelog.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/spellcheck/languages/de.itemis.mps.spellcheck/de.itemis.mps.spellcheck.mpl" folder="spellcheck" />
       <modulePath path="$PROJECT_DIR$/spellcheck/solutions/de.itemis.mps.spellcheck.demo/de.itemis.mps.spellcheck.demo.msd" folder="spellcheck" />

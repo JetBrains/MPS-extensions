@@ -3598,17 +3598,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbF" id="12YYiotbWsK" role="3cqZAp">
-            <node concept="2OqwBi" id="12YYiotbWAx" role="3clFbG">
-              <node concept="37vLTw" id="12YYiotbWsI" role="2Oq$k0">
-                <ref role="3cqZAo" node="12YYiosXoQC" resolve="support" />
-              </node>
-              <node concept="liA8E" id="12YYiotbWKc" role="2OqNvi">
-                <ref role="37wK5l" to="3bri:12YYiotb5ZU" resolve="setTable" />
-                <node concept="0IXxy" id="12YYiotbWNl" role="37wK5m" />
-              </node>
-            </node>
-          </node>
           <node concept="3cpWs8" id="12YYiosXoQG" role="3cqZAp">
             <node concept="3cpWsn" id="12YYiosXoQH" role="3cpWs9">
               <property role="TrG5h" value="selection" />
@@ -3675,7 +3664,7 @@
                 <ref role="3cqZAo" node="12YYiosVVEc" resolve="support" />
               </node>
               <node concept="liA8E" id="12YYiotbZNd" role="2OqNvi">
-                <ref role="37wK5l" to="3bri:12YYiotb5ZU" resolve="setTable" />
+                <ref role="37wK5l" to="3bri:12YYiotb5ZU" resolve="setTableNode" />
                 <node concept="0IXxy" id="12YYiotbZPw" role="37wK5m" />
               </node>
             </node>
@@ -3741,7 +3730,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="12YYiosXxpm" role="3cqZAp" />
           <node concept="3clFbF" id="5LghDpmxc2v" role="3cqZAp">
             <node concept="2OqwBi" id="5LghDpmxcnQ" role="3clFbG">
               <node concept="2YIFZM" id="5LghDpmxceu" role="2Oq$k0">
@@ -3766,9 +3754,17 @@
               <node concept="2YIFZM" id="1vOmbRe_T79" role="33vP2m">
                 <ref role="37wK5l" to="3bri:1vOmbRe_boa" resolve="nodeDataToStringData" />
                 <ref role="1Pybhc" to="3bri:12YYiosJFef" resolve="TableTransformationManager" />
-                <node concept="0IXxy" id="1vOmbRe_TTI" role="37wK5m" />
+                <node concept="37vLTw" id="7NamNJXAZIw" role="37wK5m">
+                  <ref role="3cqZAo" node="12YYiosVVEA" resolve="undirectedSelection" />
+                </node>
                 <node concept="37vLTw" id="1vOmbRe_Tbi" role="37wK5m">
                   <ref role="3cqZAo" node="12YYiosXw_r" resolve="data" />
+                </node>
+                <node concept="2OqwBi" id="7NamNJWMhw7" role="37wK5m">
+                  <node concept="1Q80Hx" id="7NamNJWMhnM" role="2Oq$k0" />
+                  <node concept="liA8E" id="7NamNJWMhE1" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -3800,17 +3796,6 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosXsQU" role="37wK5m" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="12YYiotbXK8" role="3cqZAp">
-            <node concept="2OqwBi" id="12YYiotbY5X" role="3clFbG">
-              <node concept="37vLTw" id="12YYiotbXK6" role="2Oq$k0">
-                <ref role="3cqZAo" node="12YYiosXsQR" resolve="support" />
-              </node>
-              <node concept="liA8E" id="12YYiotbYg9" role="2OqNvi">
-                <ref role="37wK5l" to="3bri:12YYiotb5ZU" resolve="setTable" />
-                <node concept="0IXxy" id="12YYiotbYjB" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -3961,9 +3946,17 @@
               <node concept="2YIFZM" id="1vOmbRe_U_f" role="33vP2m">
                 <ref role="37wK5l" to="3bri:1vOmbRe_boa" resolve="nodeDataToStringData" />
                 <ref role="1Pybhc" to="3bri:12YYiosJFef" resolve="TableTransformationManager" />
-                <node concept="0IXxy" id="1vOmbRe_U_g" role="37wK5m" />
+                <node concept="37vLTw" id="7NamNJXB1aN" role="37wK5m">
+                  <ref role="3cqZAo" node="12YYiosVVPv" resolve="undirectedSelection" />
+                </node>
                 <node concept="37vLTw" id="1vOmbRe_U_h" role="37wK5m">
                   <ref role="3cqZAo" node="12YYiosXjQH" resolve="data" />
+                </node>
+                <node concept="2OqwBi" id="7NamNJWMhTm" role="37wK5m">
+                  <node concept="1Q80Hx" id="7NamNJWMhKb" role="2Oq$k0" />
+                  <node concept="liA8E" id="7NamNJWMi3g" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -3995,17 +3988,6 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosXtZI" role="37wK5m" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="12YYiotc0vg" role="3cqZAp">
-            <node concept="2OqwBi" id="12YYiotc0P5" role="3clFbG">
-              <node concept="37vLTw" id="12YYiotc0ve" role="2Oq$k0">
-                <ref role="3cqZAo" node="12YYiosXtZF" resolve="support" />
-              </node>
-              <node concept="liA8E" id="12YYiotc1cl" role="2OqNvi">
-                <ref role="37wK5l" to="3bri:12YYiotb5ZU" resolve="setTable" />
-                <node concept="0IXxy" id="12YYiotc1gs" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -4137,6 +4119,12 @@
                 </node>
                 <node concept="37vLTw" id="12YYiosXEIc" role="37wK5m">
                   <ref role="3cqZAo" node="12YYiosXCpV" resolve="data" />
+                </node>
+                <node concept="2OqwBi" id="7NamNJWXzY0" role="37wK5m">
+                  <node concept="1Q80Hx" id="7NamNJWXzP2" role="2Oq$k0" />
+                  <node concept="liA8E" id="7NamNJWX$70" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                  </node>
                 </node>
               </node>
             </node>

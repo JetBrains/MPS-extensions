@@ -11,6 +11,8 @@
     <import index="3bri" ref="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" implicit="true" />
+    <import index="b8lf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.selection(MPS.Editor/)" implicit="true" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -196,6 +198,22 @@
               <node concept="37vLTw" id="2P8zLSg9bRH" role="37wK5m">
                 <ref role="3cqZAo" node="2P8zLSg8A67" resolve="data" />
               </node>
+              <node concept="2OqwBi" id="7NamNJWXAW_" role="37wK5m">
+                <node concept="2OqwBi" id="7NamNJWXA_k" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7NamNJWX_WS" role="2Oq$k0">
+                    <node concept="71T_Y" id="7NamNJWX_nv" role="2Oq$k0" />
+                    <node concept="liA8E" id="7NamNJWXAsm" role="2OqNvi">
+                      <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7NamNJWXAPn" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7NamNJWXB5U" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -335,6 +353,22 @@
               </node>
               <node concept="37vLTw" id="1vOmbReLoFT" role="37wK5m">
                 <ref role="3cqZAo" node="1vOmbReLoFx" resolve="data" />
+              </node>
+              <node concept="2OqwBi" id="7NamNJWXE_Q" role="37wK5m">
+                <node concept="2OqwBi" id="7NamNJWXE_R" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7NamNJWXE_S" role="2Oq$k0">
+                    <node concept="71T_Y" id="7NamNJWXE_T" role="2Oq$k0" />
+                    <node concept="liA8E" id="7NamNJWXE_U" role="2OqNvi">
+                      <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7NamNJWXE_V" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7NamNJWXE_W" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                </node>
               </node>
             </node>
           </node>

@@ -4,6 +4,17 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## March 2026
+
+### Added
+
+- *com.mbeddr.mpsutil.blutil* Add the following new BaseLanguage extensions:
+    - `x?:y` allows to specify an alternative expression `y` when the expression `x` is `null`
+    - `[x..y]` `[x..inf]` allows to create a finite/infinite sequence of integers starting from `x` including `y` with increments of `1`
+    - `seq.groupBy(keySelector)` allows given a sequence seq to group the elements of a sequence using the `keySelector` closure on each element 
+    - `seq1.zip(seq2)` creates a sequence tuples where each element is a tuple from the element in the two sequences at that index
+    - `seq.selectIdx({~it, int index => ...})` `seq.whereIdx({~it, int index => ...})` `seq.forEachIdx({~it, int index => ...})` are similar to `select` , `where` and `foreach` already present in the collections language, but the index of the current element is also an argument of the closure
+
 ## April 2025
 
 ### Fixed

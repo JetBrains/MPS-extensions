@@ -35,12 +35,12 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="fulz" ref="r:6f792c44-2a5d-40e8-9f05-33f7d4ae26ec(jetbrains.mps.editor.runtime.completion)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="uddc" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.menus.transformation(MPS.Editor/)" implicit="true" />
     <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" implicit="true" />
     <import index="p15z" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:ac36bf27-36e9-407d-ba8e-953c68088e41(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.behavior)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
@@ -4864,6 +4864,36 @@
       <property role="2gpH_U" value="true" />
       <property role="TrG5h" value="performance" />
       <property role="2BUmq6" value="performance" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6vHuLLnBMBC">
+    <property role="3GE5qa" value="integerRange" />
+    <ref role="1XX52x" to="hba4:vJfcQmm5$y" resolve="IntegerRange" />
+    <node concept="3EZMnI" id="6vHuLLnBMBE" role="2wV5jI">
+      <node concept="3F0ifn" id="6vHuLLnBMBI" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <ref role="1k5W1q" to="tpen:hFCSAw$" resolve="LeftParen" />
+      </node>
+      <node concept="3F1sOY" id="6vHuLLnBMBQ" role="3EZMnx">
+        <ref role="1NtTu8" to="hba4:vJfcQmma$R" resolve="lowerBound" />
+      </node>
+      <node concept="3F0ifn" id="6vHuLLnBMBT" role="3EZMnx">
+        <property role="3F0ifm" value=".." />
+        <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
+      </node>
+      <node concept="3F1sOY" id="6vHuLLnBMBY" role="3EZMnx">
+        <property role="2ru_X1" value="true" />
+        <ref role="1NtTu8" to="hba4:vJfcQmma$S" resolve="upperBound" />
+        <node concept="3F0ifn" id="6vHuLLnC3wX" role="2ruayu">
+          <property role="3F0ifm" value="inf" />
+          <ref role="1k5W1q" to="tpen:4vDGnVWLnSS" resolve="Placeholder" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6vHuLLnBMBL" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
+      </node>
+      <node concept="l2Vlx" id="6vHuLLnBMBH" role="2iSdaV" />
     </node>
   </node>
 </model>

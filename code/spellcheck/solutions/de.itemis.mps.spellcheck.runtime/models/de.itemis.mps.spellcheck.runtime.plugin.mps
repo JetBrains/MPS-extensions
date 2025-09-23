@@ -250,7 +250,6 @@
   </registry>
   <node concept="tC5Ba" id="mQZQCk9tGh">
     <property role="TrG5h" value="WordsToDictionaryIntention" />
-    <property role="22ra45" value="true" />
     <node concept="tT9cl" id="mQZQCk9tGj" role="2f5YQi">
       <ref role="tU$_T" node="29wDeGIb4Uh" resolve="DictionaryGroup" />
     </node>

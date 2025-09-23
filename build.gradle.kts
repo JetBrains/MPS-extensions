@@ -82,7 +82,7 @@ bundledDependencies {
     create("diagram") {
         destinationDir = codeDir.dir("diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib")
 
-        val elkVersion = "0.10.0"
+        val elkVersion = "0.11.0"
 
         dependency("de.itemis.mps:jgraphx:1.0.0")
 
@@ -100,6 +100,9 @@ bundledDependencies {
         dependency("org.eclipse.emf:org.eclipse.emf.common:2.43.0")
         dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.40.0")
         dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.39.0")
+
+        // xbase lib appears to be an undeclared runtime dependency of elk.alg.layered since 0.11.0
+        dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.40.0")
 
         configuration {
             exclude(group = "com.google.guava")
@@ -138,7 +141,7 @@ bundledDependencies {
         destinationDir = codeDir.dir("shadowmodels/solutions/de.q60.mps.collections.libs/lib")
 
         dependency("org.apache.commons:commons-collections4:4.5.0")
-        dependency("com.google.guava:guava:33.4.8-jre")
+        dependency("com.google.guava:guava:33.5.0-jre")
         dependency("net.sf.trove4j:trove4j:3.0.3")
         dependency("io.vavr:vavr:0.10.7")
 

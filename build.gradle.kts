@@ -129,7 +129,7 @@ bundledDependencies {
 
         dependency("org.apache.commons:commons-csv:1.14.1")
         dependency("commons-io:commons-io:2.20.0")
-        dependency("org.apache.commons:commons-lang3:3.18.0")
+        dependency("org.apache.commons:commons-lang3:3.19.0")
         dependency("org.apache.commons:commons-math3:3.6.1")
         dependency("org.apache.commons:commons-csv:1.14.1")
         dependency("commons-primitives:commons-primitives:1.0")

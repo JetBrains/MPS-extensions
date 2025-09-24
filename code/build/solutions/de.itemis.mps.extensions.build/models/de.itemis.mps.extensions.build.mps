@@ -9890,6 +9890,16 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="54jQkZ8WKrY" role="3bR37C">
+          <node concept="3bR9La" id="54jQkZ8WKrZ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="54jQkZ8WKs0" role="3bR37C">
+          <node concept="3bR9La" id="54jQkZ8WKs1" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0C" resolve="collections.runtime" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="5Jv8_iJNYP8" role="3989C9">
@@ -19782,6 +19792,11 @@
         <node concept="1SiIV0" id="vJfcQmgs$I" role="3bR37C">
           <node concept="3bR9La" id="vJfcQmgs$J" role="1SiIV1">
             <ref role="3bR37D" node="vJfcQmbzfZ" resolve="de.itemis.mps.baseLanguageExtensions.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="54jQkZ8WJHM" role="3bR37C">
+          <node concept="3bR9La" id="54jQkZ8WJHN" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0C" resolve="collections.runtime" />
           </node>
         </node>
       </node>

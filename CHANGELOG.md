@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.spellcheck* An exception coming from the WordsToDictionaryIntention was fixed.
+- *de.itemis.mps.linenumbers* Reloading classes no longer causes an exception to be thrown and line numbers to disappear.
 
 ## August 2025
 

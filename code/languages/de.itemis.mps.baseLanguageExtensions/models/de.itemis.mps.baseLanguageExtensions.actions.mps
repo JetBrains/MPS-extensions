@@ -266,6 +266,7 @@
   </node>
   <node concept="37WguZ" id="7Ja64GB9veW">
     <property role="TrG5h" value="withIndex_operations" />
+    <property role="3GE5qa" value="withIndexOperations" />
     <node concept="37WvkG" id="7Ja64GB9veX" role="37WGs$">
       <ref role="37XkoT" to="pkab:6RqC_fThQjL" resolve="SelectWithIndexOperation" />
       <node concept="37Y9Zx" id="7Ja64GB9veY" role="37ZfLb">

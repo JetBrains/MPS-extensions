@@ -10,6 +10,7 @@
     <import index="pkab" ref="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -33,6 +34,9 @@
       <concept id="1177335944525" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_SubstituteString" flags="in" index="uGdhv" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
+      </concept>
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
@@ -411,6 +415,28 @@
     <property role="3GE5qa" value="integerRange" />
     <ref role="aqKnT" to="pkab:vJfcQmma$O" resolve="IntegerRangeConstantBound" />
     <node concept="22hDWj" id="6vHuLLnCVGp" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="2oJmO5M1wK0">
+    <property role="3GE5qa" value="scopeFunction" />
+    <ref role="1XX52x" to="pkab:2oJmO5M0doP" resolve="ScopeFunctionOperation" />
+    <node concept="3EZMnI" id="2oJmO5M1wK2" role="2wV5jI">
+      <node concept="PMmxH" id="2oJmO5M1wK8" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" to="tpen:hFITtyA" resolve="CompactKeyWord" />
+      </node>
+      <node concept="3F0ifn" id="2oJmO5M1wKa" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" to="tpen:hY9fg1G" resolve="LeftParenAfterName" />
+      </node>
+      <node concept="3F1sOY" id="2oJmO5M1wKf" role="3EZMnx">
+        <ref role="1NtTu8" to="pkab:2oJmO5M0doR" resolve="closure" />
+      </node>
+      <node concept="3F0ifn" id="2oJmO5M1wKi" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
+      </node>
+      <node concept="2iRfu4" id="2oJmO5M1wK5" role="2iSdaV" />
+    </node>
   </node>
 </model>
 

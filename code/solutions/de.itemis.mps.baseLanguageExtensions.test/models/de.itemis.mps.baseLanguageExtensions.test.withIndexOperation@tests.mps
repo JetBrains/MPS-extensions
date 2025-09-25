@@ -193,7 +193,7 @@
               </node>
               <node concept="2YIFZM" id="7Ja64GBcext" role="33vP2m">
                 <ref role="37wK5l" to="96gm:7Ja64GBadQG" resolve="selectWithIndex" />
-                <ref role="1Pybhc" to="96gm:7Ja64GBadPz" resolve="SelectWithIndexOperationUtil" />
+                <ref role="1Pybhc" to="96gm:7Ja64GBadPz" resolve="WithIndexOperationUtil" />
                 <node concept="37vLTw" id="7Ja64GBcexu" role="37wK5m">
                   <ref role="3cqZAo" node="7Ja64GBcaru" resolve="nums" />
                 </node>

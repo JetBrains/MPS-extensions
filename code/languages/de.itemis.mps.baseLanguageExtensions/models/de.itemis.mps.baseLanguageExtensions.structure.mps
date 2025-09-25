@@ -120,5 +120,13 @@
     <property role="3GE5qa" value="zipOperation" />
     <ref role="1TJDcQ" to="tp2q:h856pF2" resolve="BinaryOperation" />
   </node>
+  <node concept="1TIwiD" id="54jQkZ8WKL$">
+    <property role="EcuMT" value="5842252078326680676" />
+    <property role="TrG5h" value="GroupByOperation" />
+    <property role="34LRSv" value="groupBy" />
+    <property role="R4oN_" value="identify groups of elements" />
+    <property role="3GE5qa" value="groupByOperation" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
 </model>
 

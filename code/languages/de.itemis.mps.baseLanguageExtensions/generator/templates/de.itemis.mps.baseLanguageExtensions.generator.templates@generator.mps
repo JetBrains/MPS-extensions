@@ -511,8 +511,8 @@
                             <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
                           </node>
                         </node>
-                        <node concept="chp4Y" id="7Ja64GBawoq" role="3oSUPX">
-                          <ref role="cht4Q" to="pkab:6RqC_fThQjL" resolve="SelectWithIndexOperation" />
+                        <node concept="chp4Y" id="7Ja64GBe6dP" role="3oSUPX">
+                          <ref role="cht4Q" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
                         </node>
                       </node>
                       <node concept="3TrEf2" id="7Ja64GBar6k" role="2OqNvi">
@@ -539,6 +539,148 @@
               <node concept="1mIQ4w" id="7Ja64GBaqaz" role="2OqNvi">
                 <node concept="chp4Y" id="7Ja64GBaqa$" role="cj9EA">
                   <ref role="cht4Q" to="pkab:6RqC_fThQjL" resolve="SelectWithIndexOperation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="7Ja64GBe0Bj" role="3acgRq">
+      <ref role="30HIoZ" to="tpee:hqOqwz4" resolve="DotExpression" />
+      <node concept="gft3U" id="7Ja64GBe0Bk" role="1lVwrX">
+        <node concept="2YIFZM" id="7Ja64GBe17D" role="gfFT$">
+          <ref role="37wK5l" to="96gm:7Ja64GBdvMJ" resolve="whereWithIndex" />
+          <ref role="1Pybhc" to="96gm:7Ja64GBadPz" resolve="WithIndexOperationUtil" />
+          <node concept="10Nm6u" id="7Ja64GBe17E" role="37wK5m">
+            <node concept="29HgVG" id="7Ja64GBe17F" role="lGtFl">
+              <node concept="3NFfHV" id="7Ja64GBe17G" role="3NFExx">
+                <node concept="3clFbS" id="7Ja64GBe17H" role="2VODD2">
+                  <node concept="3clFbF" id="7Ja64GBe17I" role="3cqZAp">
+                    <node concept="2OqwBi" id="7Ja64GBe17J" role="3clFbG">
+                      <node concept="3TrEf2" id="7Ja64GBe17K" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:hqOq$gm" resolve="operand" />
+                      </node>
+                      <node concept="30H73N" id="7Ja64GBe17L" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="10Nm6u" id="7Ja64GBe17M" role="37wK5m">
+            <node concept="1sPUBX" id="7Ja64GBe17N" role="lGtFl">
+              <ref role="v9R2y" node="54jQkZ9fKWX" resolve="switchClosureLiteral" />
+              <node concept="3NFfHV" id="7Ja64GBe17O" role="1sPUBK">
+                <node concept="3clFbS" id="7Ja64GBe17P" role="2VODD2">
+                  <node concept="3clFbF" id="7Ja64GBe17Q" role="3cqZAp">
+                    <node concept="2OqwBi" id="7Ja64GBe17R" role="3clFbG">
+                      <node concept="1PxgMI" id="7Ja64GBe17S" role="2Oq$k0">
+                        <node concept="2OqwBi" id="7Ja64GBe17T" role="1m5AlR">
+                          <node concept="30H73N" id="7Ja64GBe17U" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="7Ja64GBe17V" role="2OqNvi">
+                            <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                          </node>
+                        </node>
+                        <node concept="chp4Y" id="7Ja64GBe65N" role="3oSUPX">
+                          <ref role="cht4Q" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="7Ja64GBe17X" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tp2q:hy3t8hi" resolve="closure" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30G5F_" id="7Ja64GBe0BE" role="30HLyM">
+        <node concept="3clFbS" id="7Ja64GBe0BF" role="2VODD2">
+          <node concept="3clFbF" id="7Ja64GBe0BG" role="3cqZAp">
+            <node concept="2OqwBi" id="7Ja64GBe0BH" role="3clFbG">
+              <node concept="2OqwBi" id="7Ja64GBe0BI" role="2Oq$k0">
+                <node concept="30H73N" id="7Ja64GBe0BJ" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7Ja64GBe0BK" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="7Ja64GBe0BL" role="2OqNvi">
+                <node concept="chp4Y" id="7Ja64GBe10V" role="cj9EA">
+                  <ref role="cht4Q" to="pkab:7Ja64GBdQxd" resolve="WhereWithIndexOperation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="7Ja64GBeiOs" role="3acgRq">
+      <ref role="30HIoZ" to="tpee:hqOqwz4" resolve="DotExpression" />
+      <node concept="gft3U" id="7Ja64GBeiOt" role="1lVwrX">
+        <node concept="2YIFZM" id="7Ja64GBejPg" role="gfFT$">
+          <ref role="37wK5l" to="96gm:7Ja64GBdw8k" resolve="forEachWithIndex" />
+          <ref role="1Pybhc" to="96gm:7Ja64GBadPz" resolve="WithIndexOperationUtil" />
+          <node concept="10Nm6u" id="7Ja64GBejPh" role="37wK5m">
+            <node concept="29HgVG" id="7Ja64GBejPi" role="lGtFl">
+              <node concept="3NFfHV" id="7Ja64GBejPj" role="3NFExx">
+                <node concept="3clFbS" id="7Ja64GBejPk" role="2VODD2">
+                  <node concept="3clFbF" id="7Ja64GBejPl" role="3cqZAp">
+                    <node concept="2OqwBi" id="7Ja64GBejPm" role="3clFbG">
+                      <node concept="3TrEf2" id="7Ja64GBejPn" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:hqOq$gm" resolve="operand" />
+                      </node>
+                      <node concept="30H73N" id="7Ja64GBejPo" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="10Nm6u" id="7Ja64GBejPp" role="37wK5m">
+            <node concept="1sPUBX" id="7Ja64GBejPq" role="lGtFl">
+              <ref role="v9R2y" node="54jQkZ9fKWX" resolve="switchClosureLiteral" />
+              <node concept="3NFfHV" id="7Ja64GBejPr" role="1sPUBK">
+                <node concept="3clFbS" id="7Ja64GBejPs" role="2VODD2">
+                  <node concept="3clFbF" id="7Ja64GBejPt" role="3cqZAp">
+                    <node concept="2OqwBi" id="7Ja64GBejPu" role="3clFbG">
+                      <node concept="1PxgMI" id="7Ja64GBejPv" role="2Oq$k0">
+                        <node concept="2OqwBi" id="7Ja64GBejPw" role="1m5AlR">
+                          <node concept="30H73N" id="7Ja64GBejPx" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="7Ja64GBejPy" role="2OqNvi">
+                            <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                          </node>
+                        </node>
+                        <node concept="chp4Y" id="7Ja64GBejPz" role="3oSUPX">
+                          <ref role="cht4Q" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="7Ja64GBejP$" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tp2q:hy3t8hi" resolve="closure" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30G5F_" id="7Ja64GBeiON" role="30HLyM">
+        <node concept="3clFbS" id="7Ja64GBeiOO" role="2VODD2">
+          <node concept="3clFbF" id="7Ja64GBeiOP" role="3cqZAp">
+            <node concept="2OqwBi" id="7Ja64GBeiOQ" role="3clFbG">
+              <node concept="2OqwBi" id="7Ja64GBeiOR" role="2Oq$k0">
+                <node concept="30H73N" id="7Ja64GBeiOS" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7Ja64GBeiOT" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="7Ja64GBeiOU" role="2OqNvi">
+                <node concept="chp4Y" id="7Ja64GBejEs" role="cj9EA">
+                  <ref role="cht4Q" to="pkab:7Ja64GBeeCt" resolve="ForEachWithIndexOperation" />
                 </node>
               </node>
             </node>

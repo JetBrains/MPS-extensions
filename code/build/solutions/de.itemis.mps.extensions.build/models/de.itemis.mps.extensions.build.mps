@@ -9805,7 +9805,7 @@
           </node>
         </node>
         <node concept="1E0d5M" id="vJfcQmbzfS" role="1E1XAP">
-          <ref role="1E0d5P" node="vJfcQmbzfZ" resolve="de.itemis.mps.editor.pagination.runtime" />
+          <ref role="1E0d5P" node="vJfcQmbzfZ" resolve="de.itemis.mps.baseLanguageExtensions.runtime" />
         </node>
         <node concept="1SiIV0" id="2o8W23R_vC7" role="3bR37C">
           <node concept="3bR9La" id="2o8W23R_vC8" role="1SiIV1">

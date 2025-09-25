@@ -15,6 +15,7 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" implicit="true" />
     <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -548,6 +549,37 @@
                             <node concept="1uHKPH" id="54jQkZ9hDFi" role="2OqNvi" />
                           </node>
                         </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="17Uvod" id="2oJmO5LUoUC" role="lGtFl">
+              <property role="2qtEX9" value="name" />
+              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+              <node concept="3zFVjK" id="2oJmO5LUoUD" role="3zH0cK">
+                <node concept="3clFbS" id="2oJmO5LUoUE" role="2VODD2">
+                  <node concept="3clFbF" id="2oJmO5LUpuQ" role="3cqZAp">
+                    <node concept="2OqwBi" id="2oJmO5LUz$Q" role="3clFbG">
+                      <node concept="1PxgMI" id="2oJmO5LUz43" role="2Oq$k0">
+                        <node concept="chp4Y" id="2oJmO5LUz7f" role="3oSUPX">
+                          <ref role="cht4Q" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+                        </node>
+                        <node concept="1y4W85" id="2oJmO5LUwtJ" role="1m5AlR">
+                          <node concept="3cmrfG" id="2oJmO5LUwz4" role="1y58nS">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="2OqwBi" id="2oJmO5LUpTD" role="1y566C">
+                            <node concept="30H73N" id="2oJmO5LUpuP" role="2Oq$k0" />
+                            <node concept="3Tsc0h" id="2oJmO5LUqoj" role="2OqNvi">
+                              <ref role="3TtcxE" to="tp2c:htbW2KO" resolve="parameter" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="2oJmO5LU_Wf" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                       </node>
                     </node>
                   </node>

@@ -128,5 +128,29 @@
     <property role="3GE5qa" value="groupByOperation" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
   </node>
+  <node concept="1TIwiD" id="6RqC_fThQjL">
+    <property role="EcuMT" value="7915817776605258993" />
+    <property role="TrG5h" value="SelectWithIndexOperation" />
+    <property role="34LRSv" value="selectIdx" />
+    <property role="R4oN_" value="transform each element and index" />
+    <property role="3GE5qa" value="withIndexOperations" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
+  <node concept="1TIwiD" id="7Ja64GBdQxd">
+    <property role="EcuMT" value="8919968723020245069" />
+    <property role="TrG5h" value="WhereWithIndexOperation" />
+    <property role="34LRSv" value="whereIdx" />
+    <property role="R4oN_" value="include only matched element" />
+    <property role="3GE5qa" value="withIndexOperations" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
+  <node concept="1TIwiD" id="7Ja64GBeeCt">
+    <property role="EcuMT" value="8919968723020343837" />
+    <property role="TrG5h" value="ForEachWithIndexOperation" />
+    <property role="34LRSv" value="forEachIdx" />
+    <property role="R4oN_" value="execute for each element with index" />
+    <property role="3GE5qa" value="withIndexOperations" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
 </model>
 

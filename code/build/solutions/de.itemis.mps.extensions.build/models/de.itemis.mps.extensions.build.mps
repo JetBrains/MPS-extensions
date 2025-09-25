@@ -9822,6 +9822,16 @@
             <ref role="1E1Vl2" to="ffeo:7Kfy9QB6KZG" resolve="jetbrains.mps.baseLanguage.closures" />
           </node>
         </node>
+        <node concept="1SiIV0" id="5IoIE_Gg3X3" role="3bR37C">
+          <node concept="3bR9La" id="5IoIE_Gg3X4" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5IoIE_Gg3Xe" role="3bR37C">
+          <node concept="1Busua" id="5IoIE_Gg3Xf" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="vJfcQmbzfZ" role="2G$12L">
         <property role="BnDLt" value="true" />

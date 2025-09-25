@@ -808,5 +808,88 @@
       <ref role="1YaFvo" to="pkab:54jQkZ8WKL$" resolve="GroupByOperation" />
     </node>
   </node>
+  <node concept="1YbPZF" id="6RqC_fThRNY">
+    <property role="TrG5h" value="typeof_SelectWithIndexOperation" />
+    <node concept="3clFbS" id="6RqC_fThRNZ" role="18ibNy">
+      <node concept="1ZxtTE" id="6RqC_fThS0E" role="3cqZAp">
+        <property role="TrG5h" value="seqParamType" />
+      </node>
+      <node concept="1ZxtTE" id="6RqC_fThS0F" role="3cqZAp">
+        <property role="TrG5h" value="returnType" />
+      </node>
+      <node concept="1ZxtTE" id="6RqC_fThT9o" role="3cqZAp">
+        <property role="TrG5h" value="selectorParamType" />
+      </node>
+      <node concept="1ZobV4" id="6RqC_fThTkm" role="3cqZAp">
+        <node concept="mw_s8" id="6RqC_fThTlB" role="1ZfhK$">
+          <node concept="1Z$b5t" id="6RqC_fThTl_" role="mwGJk">
+            <ref role="1Z$eMM" node="6RqC_fThS0E" resolve="paramType" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="6RqC_fThTlK" role="1ZfhKB">
+          <node concept="1Z$b5t" id="6RqC_fThTlI" role="mwGJk">
+            <ref role="1Z$eMM" node="6RqC_fThT9o" resolve="selectorParamType" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="6RqC_fThS0G" role="3cqZAp">
+        <node concept="2YIFZM" id="6RqC_fThS0H" role="3clFbG">
+          <ref role="37wK5l" to="tp2v:4Iwp2tSBzXf" resolve="inferInternalOperation" />
+          <ref role="1Pybhc" to="tp2v:4Iwp2tSBvWa" resolve="OperationInference" />
+          <node concept="1YBJjd" id="6RqC_fThS0I" role="37wK5m">
+            <ref role="1YBMHb" node="6RqC_fThRO1" resolve="selectWithIndexOperation" />
+          </node>
+          <node concept="1Z$b5t" id="6RqC_fThS0J" role="37wK5m">
+            <ref role="1Z$eMM" node="6RqC_fThS0E" resolve="paramType" />
+          </node>
+          <node concept="2c44tf" id="6RqC_fThS0K" role="37wK5m">
+            <node concept="1ajhzC" id="6RqC_fThS0L" role="2c44tc">
+              <node concept="33vP2l" id="6RqC_fThS0M" role="1ajw0F">
+                <node concept="2c44te" id="6RqC_fThS0N" role="lGtFl">
+                  <node concept="1Z$b5t" id="6RqC_fThTqX" role="2c44t1">
+                    <ref role="1Z$eMM" node="6RqC_fThT9o" resolve="selectorParamType" />
+                  </node>
+                </node>
+              </node>
+              <node concept="10Oyi0" id="6RqC_fThS8f" role="1ajw0F" />
+              <node concept="33vP2l" id="6RqC_fThS0P" role="1ajl9A">
+                <node concept="2c44te" id="6RqC_fThS0Q" role="lGtFl">
+                  <node concept="1Z$b5t" id="6RqC_fThS0R" role="2c44t1">
+                    <ref role="1Z$eMM" node="6RqC_fThS0F" resolve="keyType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1Z5TYs" id="6RqC_fThS0S" role="3cqZAp">
+        <node concept="mw_s8" id="6RqC_fThS0T" role="1ZfhKB">
+          <node concept="2c44tf" id="6RqC_fThS0U" role="mwGJk">
+            <node concept="A3Dl8" id="6RqC_fThSq7" role="2c44tc">
+              <node concept="10P_77" id="6RqC_fThSsx" role="A3Ik2">
+                <node concept="2c44te" id="6RqC_fThSsH" role="lGtFl">
+                  <node concept="1Z$b5t" id="6RqC_fThSsP" role="2c44t1">
+                    <ref role="1Z$eMM" node="6RqC_fThS0F" resolve="returnType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6RqC_fThS13" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6RqC_fThS14" role="mwGJk">
+            <node concept="1YBJjd" id="6RqC_fThSgE" role="1Z2MuG">
+              <ref role="1YBMHb" node="6RqC_fThRO1" resolve="selectWithIndexOperation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6RqC_fThRO1" role="1YuTPh">
+      <property role="TrG5h" value="selectWithIndexOperation" />
+      <ref role="1YaFvo" to="pkab:6RqC_fThQjL" resolve="SelectWithIndexOperation" />
+    </node>
+  </node>
 </model>
 

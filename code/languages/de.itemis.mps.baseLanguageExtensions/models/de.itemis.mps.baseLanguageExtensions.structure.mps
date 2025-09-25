@@ -128,5 +128,12 @@
     <property role="3GE5qa" value="groupByOperation" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
   </node>
+  <node concept="1TIwiD" id="6RqC_fThQjL">
+    <property role="EcuMT" value="7915817776605258993" />
+    <property role="TrG5h" value="SelectWithIndexOperation" />
+    <property role="34LRSv" value="selectIdx" />
+    <property role="R4oN_" value="transform each element and index" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
 </model>
 

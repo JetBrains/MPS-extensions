@@ -4,7 +4,8 @@
     "config:best-practices"
   ],
 
-  // Renovate master and recent maintenance branches
+  // Renovate master and recent maintenance branches. When updating the maintenance branch pattern, update the rule
+  // for dashboard approvals for all but the earliest maintenance branch.
   "baseBranchPatterns": ["master", "/^maintenance/mps202[4-9][0-9]/"],
 
   "packageRules": [
@@ -43,14 +44,14 @@
     {
       // Disable JBR updates on maintenance branches
       "matchPackageNames": ["com.jetbrains.jdk:*"],
-      "matchBaseBranches": ["!/^master$/"],
+      "matchBaseBranches": ["!master"],
       "enabled": false
     },
 
     {
       // Disable Python updates on maintenance branches
       "matchManagers": "pip_requirements",
-      "matchBaseBranches": ["!/^master$/"],
+      "matchBaseBranches": ["!master"],
       "enabled": false,
     },
 
@@ -64,6 +65,7 @@
       "matchPackageNames": ["org.eclipse*"],
       "groupName": "eclipse"
     },
+
     {
       "matchPackageNames": ["com.miglayout*"],
       "groupName": "miglayout"
@@ -75,7 +77,21 @@
       "matchDepTypes": ["dependencies"], // Exclude plugins
       "matchPackageNames": ["!com.jetbrains*"], // Exclude MPS and JBR
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "third-party-minor"
+      "groupName": "third-party-minor",
+    },
+
+    {
+      // Schedule dependency updates once a month
+      "matchJsonata": ["(manager = 'pip_requirements') or (depType = 'dependencies')"],
+      "schedule": "* 0-3 1 * *" // Only check for new versions once a month on the 1st, before 4 AM.
+    },
+
+    // Updates to all maintenance branches except the earliest one need approval. Updates to mps-prerelease are
+    // an exception because we want to see those right away.
+    {
+      "matchBaseBranches": ["!maintenance/mps20241"],
+      "matchPackageNames": ["!com.jetbrains.mps:mps-prerelease"],
+      "dependencyDashboardApproval": true
     }
   ]
 }

@@ -14,6 +14,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -128,11 +129,11 @@
     <property role="3GE5qa" value="groupByOperation" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
   </node>
-  <node concept="1TIwiD" id="6RqC_fThQjL">
-    <property role="EcuMT" value="7915817776605258993" />
-    <property role="TrG5h" value="SelectWithIndexOperation" />
-    <property role="34LRSv" value="selectIdx" />
-    <property role="R4oN_" value="transform each element and index" />
+  <node concept="1TIwiD" id="7Ja64GBeeCt">
+    <property role="EcuMT" value="8919968723020343837" />
+    <property role="TrG5h" value="ForEachWithIndexOperation" />
+    <property role="34LRSv" value="forEachIdx" />
+    <property role="R4oN_" value="execute for each element with index" />
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
   </node>
@@ -144,13 +145,54 @@
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
   </node>
-  <node concept="1TIwiD" id="7Ja64GBeeCt">
-    <property role="EcuMT" value="8919968723020343837" />
-    <property role="TrG5h" value="ForEachWithIndexOperation" />
-    <property role="34LRSv" value="forEachIdx" />
-    <property role="R4oN_" value="execute for each element with index" />
+  <node concept="1TIwiD" id="6RqC_fThQjL">
+    <property role="EcuMT" value="7915817776605258993" />
+    <property role="TrG5h" value="SelectWithIndexOperation" />
+    <property role="34LRSv" value="selectIdx" />
+    <property role="R4oN_" value="transform each element and index" />
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
+  <node concept="1TIwiD" id="2oJmO5M0doW">
+    <property role="EcuMT" value="2751518233990321724" />
+    <property role="3GE5qa" value="scopeFunction" />
+    <property role="TrG5h" value="LetScopeFunctionOperation" />
+    <property role="34LRSv" value="let" />
+    <property role="R4oN_" value="select anything from any object/instance" />
+    <ref role="1TJDcQ" node="2oJmO5M0doP" resolve="ScopeFunctionOperation" />
+  </node>
+  <node concept="1TIwiD" id="2oJmO5M0doT">
+    <property role="EcuMT" value="2751518233990321721" />
+    <property role="3GE5qa" value="scopeFunction" />
+    <property role="TrG5h" value="ApplyScopeFunctionOperation" />
+    <property role="34LRSv" value="apply" />
+    <property role="R4oN_" value="configure a given object/instance" />
+    <ref role="1TJDcQ" node="2oJmO5M0doP" resolve="ScopeFunctionOperation" />
+  </node>
+  <node concept="1TIwiD" id="2oJmO5M0doP">
+    <property role="EcuMT" value="2751518233990321717" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="ScopeFunctionOperation" />
+    <property role="3GE5qa" value="scopeFunction" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2oJmO5M0doQ" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
+    <node concept="1TJgyj" id="2oJmO5M0doR" role="1TKVEi">
+      <property role="IQ2ns" value="2751518233990321719" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="closure" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4OYzbeq$iVd">
+    <property role="EcuMT" value="5566040892496752333" />
+    <property role="3GE5qa" value="scopeFunction" />
+    <property role="TrG5h" value="SmartAtomicClosureParameterDeclaration" />
+    <property role="34LRSv" value="~ &lt;name&gt;" />
+    <property role="R4oN_" value="smart closure parameter" />
+    <ref role="1TJDcQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
   </node>
 </model>
 

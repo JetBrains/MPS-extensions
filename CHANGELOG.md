@@ -8,7 +8,8 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
-- *de.slisson.mps.tables* Tables now support copying, cutting and deleting when multiple cells are selected with the mouse. Add the action map *TableSelectionActionMap* in the inspector of the table and implement the extension point *TableCopyPaste* to support these features for a specific table. In Addition, two new intention are available for tables that implement the extension point *DataTransformation* which allow to parse table data in textual form (comma- or tab-separated) and paste it table (e.g. 10 as a number literal).
+- *de.slisson.mps.tables* Tables now support copying & pasting, cutting and deleting when multiple cells are selected with the mouse. Implement the extension point *TableCopyPaste* to support these features for a specific table.
+- *de.slisson.mps.tables* Two new intention are available for tables that implement the extension point *DataTransformation.* *It* allows to parse table data in textual form (comma- or tab-separated) and paste it into the table (e.g. 10 as a number literal).
 
 ### Fixed
 

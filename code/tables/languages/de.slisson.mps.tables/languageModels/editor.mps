@@ -3524,6 +3524,7 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosTWrF" role="37wK5m" />
+                <node concept="1Q80Hx" id="6hm_9jq2HEu" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -3551,23 +3552,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="12YYiosU1nu" role="3cqZAp" />
-          <node concept="3cpWs8" id="12YYiosVTYP" role="3cqZAp">
-            <node concept="3cpWsn" id="12YYiosVTYQ" role="3cpWs9">
-              <property role="TrG5h" value="undirectedSelection" />
-              <node concept="3uibUv" id="12YYiosVTYR" role="1tU5fm">
-                <ref role="3uigEE" to="9p8b:12YYioszPcw" resolve="UndirectedTableRangeSelection" />
-              </node>
-              <node concept="2OqwBi" id="12YYiosVU_3" role="33vP2m">
-                <node concept="37vLTw" id="12YYiosVU1A" role="2Oq$k0">
-                  <ref role="3cqZAo" node="12YYiosTZ9M" resolve="selection" />
-                </node>
-                <node concept="liA8E" id="12YYiosVVcx" role="2OqNvi">
-                  <ref role="37wK5l" to="9p8b:12YYiosUGf3" resolve="toUndirectedSelection" />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3clFbF" id="12YYiosVVlm" role="3cqZAp">
             <node concept="2OqwBi" id="12YYiosVVui" role="3clFbG">
               <node concept="37vLTw" id="12YYiosVVlk" role="2Oq$k0">
@@ -3576,8 +3560,9 @@
               <node concept="liA8E" id="12YYiosVVCw" role="2OqNvi">
                 <ref role="37wK5l" to="3bri:12YYiosI$xW" resolve="delete" />
                 <node concept="37vLTw" id="12YYiosVVDj" role="37wK5m">
-                  <ref role="3cqZAo" node="12YYiosVTYQ" resolve="undirectedSelection" />
+                  <ref role="3cqZAo" node="12YYiosTZ9M" resolve="selection" />
                 </node>
+                <node concept="1Q80Hx" id="6hm_9jq77WO" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -3595,6 +3580,7 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosXoQF" role="37wK5m" />
+                <node concept="1Q80Hx" id="6hm_9jq2HBl" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -3655,6 +3641,7 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosVVEf" role="37wK5m" />
+                <node concept="1Q80Hx" id="6hm_9jq2I2r" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -3693,23 +3680,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="12YYiosVVE$" role="3cqZAp" />
-          <node concept="3cpWs8" id="12YYiosVVE_" role="3cqZAp">
-            <node concept="3cpWsn" id="12YYiosVVEA" role="3cpWs9">
-              <property role="TrG5h" value="undirectedSelection" />
-              <node concept="3uibUv" id="12YYiosVVEB" role="1tU5fm">
-                <ref role="3uigEE" to="9p8b:12YYioszPcw" resolve="UndirectedTableRangeSelection" />
-              </node>
-              <node concept="2OqwBi" id="12YYiosVVEC" role="33vP2m">
-                <node concept="37vLTw" id="12YYiosVVED" role="2Oq$k0">
-                  <ref role="3cqZAo" node="12YYiosVVEh" resolve="selection" />
-                </node>
-                <node concept="liA8E" id="12YYiosVVEE" role="2OqNvi">
-                  <ref role="37wK5l" to="9p8b:12YYiosUGf3" resolve="toUndirectedSelection" />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3cpWs8" id="12YYiosXw_q" role="3cqZAp">
             <node concept="3cpWsn" id="12YYiosXw_r" role="3cpWs9">
               <property role="TrG5h" value="data" />
@@ -3724,8 +3694,9 @@
                 <node concept="liA8E" id="12YYiosXw_u" role="2OqNvi">
                   <ref role="37wK5l" to="3bri:12YYiosI$_L" resolve="cut" />
                   <node concept="37vLTw" id="12YYiosXw_v" role="37wK5m">
-                    <ref role="3cqZAo" node="12YYiosVVEA" resolve="undirectedSelection" />
+                    <ref role="3cqZAo" node="12YYiosVVEh" resolve="selection" />
                   </node>
+                  <node concept="1Q80Hx" id="6hm_9jq7836" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -3755,17 +3726,12 @@
                 <ref role="37wK5l" to="3bri:1vOmbRe_boa" resolve="nodeDataToStringData" />
                 <ref role="1Pybhc" to="3bri:12YYiosJFef" resolve="TableTransformationManager" />
                 <node concept="37vLTw" id="7NamNJXAZIw" role="37wK5m">
-                  <ref role="3cqZAo" node="12YYiosVVEA" resolve="undirectedSelection" />
+                  <ref role="3cqZAo" node="12YYiosVVEh" resolve="selection" />
                 </node>
                 <node concept="37vLTw" id="1vOmbRe_Tbi" role="37wK5m">
                   <ref role="3cqZAo" node="12YYiosXw_r" resolve="data" />
                 </node>
-                <node concept="2OqwBi" id="7NamNJWMhw7" role="37wK5m">
-                  <node concept="1Q80Hx" id="7NamNJWMhnM" role="2Oq$k0" />
-                  <node concept="liA8E" id="7NamNJWMhE1" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
+                <node concept="1Q80Hx" id="7NamNJWMhnM" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -3796,6 +3762,7 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosXsQU" role="37wK5m" />
+                <node concept="1Q80Hx" id="6hm_9jq2HUF" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -3856,6 +3823,7 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosVVP8" role="37wK5m" />
+                <node concept="1Q80Hx" id="6hm_9jq2JnE" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -3883,24 +3851,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="12YYiosVVPt" role="3cqZAp" />
-          <node concept="3cpWs8" id="12YYiosVVPu" role="3cqZAp">
-            <node concept="3cpWsn" id="12YYiosVVPv" role="3cpWs9">
-              <property role="TrG5h" value="undirectedSelection" />
-              <node concept="3uibUv" id="12YYiosVVPw" role="1tU5fm">
-                <ref role="3uigEE" to="9p8b:12YYioszPcw" resolve="UndirectedTableRangeSelection" />
-              </node>
-              <node concept="2OqwBi" id="12YYiosVVPx" role="33vP2m">
-                <node concept="37vLTw" id="12YYiosVVPy" role="2Oq$k0">
-                  <ref role="3cqZAo" node="12YYiosVVPa" resolve="selection" />
-                </node>
-                <node concept="liA8E" id="12YYiosVVPz" role="2OqNvi">
-                  <ref role="37wK5l" to="9p8b:12YYiosUGf3" resolve="toUndirectedSelection" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="12YYiosXk3Q" role="3cqZAp" />
           <node concept="3cpWs8" id="12YYiosXjQG" role="3cqZAp">
             <node concept="3cpWsn" id="12YYiosXjQH" role="3cpWs9">
               <property role="TrG5h" value="data" />
@@ -3915,8 +3865,9 @@
                 <node concept="liA8E" id="12YYiosXjQK" role="2OqNvi">
                   <ref role="37wK5l" to="3bri:12YYiosIoWm" resolve="copy" />
                   <node concept="37vLTw" id="12YYiosXjQL" role="37wK5m">
-                    <ref role="3cqZAo" node="12YYiosVVPv" resolve="undirectedSelection" />
+                    <ref role="3cqZAo" node="12YYiosVVPa" resolve="selection" />
                   </node>
+                  <node concept="1Q80Hx" id="6hm_9jq76us" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -3947,17 +3898,12 @@
                 <ref role="37wK5l" to="3bri:1vOmbRe_boa" resolve="nodeDataToStringData" />
                 <ref role="1Pybhc" to="3bri:12YYiosJFef" resolve="TableTransformationManager" />
                 <node concept="37vLTw" id="7NamNJXB1aN" role="37wK5m">
-                  <ref role="3cqZAo" node="12YYiosVVPv" resolve="undirectedSelection" />
+                  <ref role="3cqZAo" node="12YYiosVVPa" resolve="selection" />
                 </node>
                 <node concept="37vLTw" id="1vOmbRe_U_h" role="37wK5m">
                   <ref role="3cqZAo" node="12YYiosXjQH" resolve="data" />
                 </node>
-                <node concept="2OqwBi" id="7NamNJWMhTm" role="37wK5m">
-                  <node concept="1Q80Hx" id="7NamNJWMhKb" role="2Oq$k0" />
-                  <node concept="liA8E" id="7NamNJWMi3g" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
+                <node concept="1Q80Hx" id="7NamNJWMhKb" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -3988,6 +3934,7 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosXtZI" role="37wK5m" />
+                <node concept="1Q80Hx" id="6hm_9jq2Jgj" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -4048,6 +3995,7 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosVW0x" role="37wK5m" />
+                <node concept="1Q80Hx" id="6hm_9jq2JWW" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -4075,23 +4023,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="12YYiosVW0Q" role="3cqZAp" />
-          <node concept="3cpWs8" id="12YYiosVW0R" role="3cqZAp">
-            <node concept="3cpWsn" id="12YYiosVW0S" role="3cpWs9">
-              <property role="TrG5h" value="undirectedSelection" />
-              <node concept="3uibUv" id="12YYiosVW0T" role="1tU5fm">
-                <ref role="3uigEE" to="9p8b:12YYioszPcw" resolve="UndirectedTableRangeSelection" />
-              </node>
-              <node concept="2OqwBi" id="12YYiosVW0U" role="33vP2m">
-                <node concept="37vLTw" id="12YYiosVW0V" role="2Oq$k0">
-                  <ref role="3cqZAo" node="12YYiosVW0z" resolve="selection" />
-                </node>
-                <node concept="liA8E" id="12YYiosVW0W" role="2OqNvi">
-                  <ref role="37wK5l" to="9p8b:12YYiosUGf3" resolve="toUndirectedSelection" />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3cpWs8" id="12YYiosXCpY" role="3cqZAp">
             <node concept="3KEzu6" id="12YYiosXCpV" role="3cpWs9">
               <property role="TrG5h" value="data" />
@@ -4115,17 +4046,12 @@
               <node concept="liA8E" id="12YYiosVW10" role="2OqNvi">
                 <ref role="37wK5l" to="3bri:12YYiosIoZg" resolve="paste" />
                 <node concept="37vLTw" id="12YYiosVW11" role="37wK5m">
-                  <ref role="3cqZAo" node="12YYiosVW0S" resolve="undirectedSelection" />
+                  <ref role="3cqZAo" node="12YYiosVW0z" resolve="selection" />
                 </node>
                 <node concept="37vLTw" id="12YYiosXEIc" role="37wK5m">
                   <ref role="3cqZAo" node="12YYiosXCpV" resolve="data" />
                 </node>
-                <node concept="2OqwBi" id="7NamNJWXzY0" role="37wK5m">
-                  <node concept="1Q80Hx" id="7NamNJWXzP2" role="2Oq$k0" />
-                  <node concept="liA8E" id="7NamNJWX$70" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
+                <node concept="1Q80Hx" id="7NamNJWXzP2" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -4143,6 +4069,7 @@
                 <ref role="37wK5l" to="3bri:12YYiosIUi1" resolve="forNode" />
                 <ref role="1Pybhc" to="3bri:12YYiosxYeH" resolve="CopyPasteSupport" />
                 <node concept="0IXxy" id="12YYiosXwh8" role="37wK5m" />
+                <node concept="1Q80Hx" id="6hm_9jq2JG5" role="37wK5m" />
               </node>
             </node>
           </node>

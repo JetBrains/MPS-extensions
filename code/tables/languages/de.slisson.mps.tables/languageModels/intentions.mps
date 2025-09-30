@@ -120,20 +120,6 @@
     </node>
     <node concept="71TAc" id="2P8zLSg8lJb" role="71TA5">
       <node concept="3clFbS" id="2P8zLSg8lJc" role="2VODD2">
-        <node concept="3cpWs8" id="2P8zLSg8A0H" role="3cqZAp">
-          <node concept="3cpWsn" id="2P8zLSg8A0I" role="3cpWs9">
-            <property role="TrG5h" value="undirectedSelection" />
-            <node concept="3uibUv" id="2P8zLSg8A0k" role="1tU5fm">
-              <ref role="3uigEE" to="9p8b:12YYioszPcw" resolve="UndirectedTableRangeSelection" />
-            </node>
-            <node concept="2OqwBi" id="2P8zLSg8A0J" role="33vP2m">
-              <node concept="71T_Y" id="2P8zLSg8A0K" role="2Oq$k0" />
-              <node concept="liA8E" id="2P8zLSg8A0L" role="2OqNvi">
-                <ref role="37wK5l" to="9p8b:12YYiosUGf3" resolve="toUndirectedSelection" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="2P8zLSg8A66" role="3cqZAp">
           <node concept="3cpWsn" id="2P8zLSg8A67" role="3cpWs9">
             <property role="TrG5h" value="data" />
@@ -159,6 +145,17 @@
                 <ref role="Rm8GQ" to="3bri:12YYiosJ9Ix" resolve="SPACE" />
                 <ref role="1Px2BO" to="3bri:12YYiosJ9Cy" resolve="TableDataSeparator" />
               </node>
+              <node concept="2OqwBi" id="6hm_9jpR7eb" role="37wK5m">
+                <node concept="2OqwBi" id="6hm_9jpR5wg" role="2Oq$k0">
+                  <node concept="71T_Y" id="6hm_9jpR477" role="2Oq$k0" />
+                  <node concept="liA8E" id="6hm_9jpR72Z" role="2OqNvi">
+                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6hm_9jpR8dh" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -182,6 +179,17 @@
                   <ref role="37wK5l" to="g51k:~EditorCell_Basic.getSNode()" resolve="getSNode" />
                 </node>
               </node>
+              <node concept="2OqwBi" id="6hm_9jpRV1M" role="37wK5m">
+                <node concept="2OqwBi" id="6hm_9jpRUmV" role="2Oq$k0">
+                  <node concept="71T_Y" id="6hm_9jpRTIE" role="2Oq$k0" />
+                  <node concept="liA8E" id="6hm_9jpRUSv" role="2OqNvi">
+                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6hm_9jpRVcf" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -192,26 +200,19 @@
             </node>
             <node concept="liA8E" id="2P8zLSg9bN_" role="2OqNvi">
               <ref role="37wK5l" to="3bri:12YYiosIoZg" resolve="paste" />
-              <node concept="37vLTw" id="2P8zLSg9bOR" role="37wK5m">
-                <ref role="3cqZAo" node="2P8zLSg8A0I" resolve="undirectedSelection" />
-              </node>
+              <node concept="71T_Y" id="6hm_9jpQtxJ" role="37wK5m" />
               <node concept="37vLTw" id="2P8zLSg9bRH" role="37wK5m">
                 <ref role="3cqZAo" node="2P8zLSg8A67" resolve="data" />
               </node>
-              <node concept="2OqwBi" id="7NamNJWXAW_" role="37wK5m">
-                <node concept="2OqwBi" id="7NamNJWXA_k" role="2Oq$k0">
-                  <node concept="2OqwBi" id="7NamNJWX_WS" role="2Oq$k0">
-                    <node concept="71T_Y" id="7NamNJWX_nv" role="2Oq$k0" />
-                    <node concept="liA8E" id="7NamNJWXAsm" role="2OqNvi">
-                      <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7NamNJWXAPn" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+              <node concept="2OqwBi" id="7NamNJWXA_k" role="37wK5m">
+                <node concept="2OqwBi" id="7NamNJWX_WS" role="2Oq$k0">
+                  <node concept="71T_Y" id="7NamNJWX_nv" role="2Oq$k0" />
+                  <node concept="liA8E" id="7NamNJWXAsm" role="2OqNvi">
+                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
                   </node>
                 </node>
-                <node concept="liA8E" id="7NamNJWXB5U" role="2OqNvi">
-                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                <node concept="liA8E" id="7NamNJWXAPn" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
                 </node>
               </node>
             </node>
@@ -235,6 +236,17 @@
                 </node>
                 <node concept="liA8E" id="2P8zLSg9V$u" role="2OqNvi">
                   <ref role="37wK5l" to="g51k:~EditorCell_Basic.getSNode()" resolve="getSNode" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6hm_9jpRTum" role="37wK5m">
+                <node concept="2OqwBi" id="6hm_9jpRSPf" role="2Oq$k0">
+                  <node concept="71T_Y" id="6hm_9jpRSdZ" role="2Oq$k0" />
+                  <node concept="liA8E" id="6hm_9jpRTmI" role="2OqNvi">
+                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6hm_9jpRTC1" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
                 </node>
               </node>
             </node>
@@ -276,20 +288,6 @@
     </node>
     <node concept="71TAc" id="1vOmbReLoFo" role="71TA5">
       <node concept="3clFbS" id="1vOmbReLoFp" role="2VODD2">
-        <node concept="3cpWs8" id="1vOmbReLoFq" role="3cqZAp">
-          <node concept="3cpWsn" id="1vOmbReLoFr" role="3cpWs9">
-            <property role="TrG5h" value="undirectedSelection" />
-            <node concept="3uibUv" id="1vOmbReLoFs" role="1tU5fm">
-              <ref role="3uigEE" to="9p8b:12YYioszPcw" resolve="UndirectedTableRangeSelection" />
-            </node>
-            <node concept="2OqwBi" id="1vOmbReLoFt" role="33vP2m">
-              <node concept="71T_Y" id="1vOmbReLoFu" role="2Oq$k0" />
-              <node concept="liA8E" id="1vOmbReLoFv" role="2OqNvi">
-                <ref role="37wK5l" to="9p8b:12YYiosUGf3" resolve="toUndirectedSelection" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="1vOmbReLoFw" role="3cqZAp">
           <node concept="3cpWsn" id="1vOmbReLoFx" role="3cpWs9">
             <property role="TrG5h" value="data" />
@@ -315,6 +313,17 @@
                 <ref role="Rm8GQ" to="3bri:12YYiosJ9FV" resolve="TAB" />
                 <ref role="1Px2BO" to="3bri:12YYiosJ9Cy" resolve="TableDataSeparator" />
               </node>
+              <node concept="2OqwBi" id="6hm_9jpR9xC" role="37wK5m">
+                <node concept="2OqwBi" id="6hm_9jpR9xD" role="2Oq$k0">
+                  <node concept="71T_Y" id="6hm_9jpR9xE" role="2Oq$k0" />
+                  <node concept="liA8E" id="6hm_9jpR9xF" role="2OqNvi">
+                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6hm_9jpR9xG" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -338,6 +347,17 @@
                   <ref role="37wK5l" to="g51k:~EditorCell_Basic.getSNode()" resolve="getSNode" />
                 </node>
               </node>
+              <node concept="2OqwBi" id="6hm_9jpRZci" role="37wK5m">
+                <node concept="2OqwBi" id="6hm_9jpRZ5_" role="2Oq$k0">
+                  <node concept="71T_Y" id="6hm_9jpRZ3i" role="2Oq$k0" />
+                  <node concept="liA8E" id="6hm_9jpRZ9R" role="2OqNvi">
+                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6hm_9jpRZn8" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -348,26 +368,19 @@
             </node>
             <node concept="liA8E" id="1vOmbReLoFR" role="2OqNvi">
               <ref role="37wK5l" to="3bri:12YYiosIoZg" resolve="paste" />
-              <node concept="37vLTw" id="1vOmbReLoFS" role="37wK5m">
-                <ref role="3cqZAo" node="1vOmbReLoFr" resolve="undirectedSelection" />
-              </node>
+              <node concept="71T_Y" id="6hm_9jpQu$R" role="37wK5m" />
               <node concept="37vLTw" id="1vOmbReLoFT" role="37wK5m">
                 <ref role="3cqZAo" node="1vOmbReLoFx" resolve="data" />
               </node>
-              <node concept="2OqwBi" id="7NamNJWXE_Q" role="37wK5m">
-                <node concept="2OqwBi" id="7NamNJWXE_R" role="2Oq$k0">
-                  <node concept="2OqwBi" id="7NamNJWXE_S" role="2Oq$k0">
-                    <node concept="71T_Y" id="7NamNJWXE_T" role="2Oq$k0" />
-                    <node concept="liA8E" id="7NamNJWXE_U" role="2OqNvi">
-                      <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7NamNJWXE_V" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+              <node concept="2OqwBi" id="7NamNJWXE_R" role="37wK5m">
+                <node concept="2OqwBi" id="7NamNJWXE_S" role="2Oq$k0">
+                  <node concept="71T_Y" id="7NamNJWXE_T" role="2Oq$k0" />
+                  <node concept="liA8E" id="7NamNJWXE_U" role="2OqNvi">
+                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
                   </node>
                 </node>
-                <node concept="liA8E" id="7NamNJWXE_W" role="2OqNvi">
-                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                <node concept="liA8E" id="7NamNJWXE_V" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
                 </node>
               </node>
             </node>
@@ -391,6 +404,17 @@
                 </node>
                 <node concept="liA8E" id="1vOmbReLoG3" role="2OqNvi">
                   <ref role="37wK5l" to="g51k:~EditorCell_Basic.getSNode()" resolve="getSNode" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6hm_9jpRYN2" role="37wK5m">
+                <node concept="2OqwBi" id="6hm_9jpRXV5" role="2Oq$k0">
+                  <node concept="71T_Y" id="6hm_9jpRX8g" role="2Oq$k0" />
+                  <node concept="liA8E" id="6hm_9jpRYD4" role="2OqNvi">
+                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6hm_9jpRYWH" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
                 </node>
               </node>
             </node>

@@ -5757,6 +5757,28 @@
             <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2FgaNMi_gr$" role="3bR37C">
+          <node concept="1BurEX" id="2FgaNMi_gr_" role="1SiIV1">
+            <node concept="398BVA" id="2FgaNMi_grn" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="2FgaNMi_gro" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="2FgaNMi_grp" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="2FgaNMi_grq" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="2FgaNMi_grr" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="2FgaNMi_grs" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.xtext.xbase.lib.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6wEeo$QJAsB" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -24567,9 +24589,9 @@
       <property role="TrG5h" value="compare" />
       <node concept="1E1JtA" id="2cqAxlknq_h" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.itemis.mps.comparator.diff.tests" />
         <property role="3LESm3" value="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <property role="TrG5h" value="de.itemis.mps.comparator.diff.tests" />
         <node concept="398BVA" id="2cqAxlknq_I" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="2cqAxlknqA$" role="iGT6I">

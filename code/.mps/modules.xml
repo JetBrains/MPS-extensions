@@ -73,6 +73,8 @@
       <modulePath path="$PROJECT_DIR$/hacks/languages/de.slisson.mps.reflection/de.slisson.mps.reflection.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.hacks.editor/de.slisson.mps.hacks.editor.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
+      <modulePath path="$PROJECT_DIR$/hasher/solutions/nl.f1re.mpsutil.hasher.tests/nl.f1re.mpsutil.hasher.tests.msd" folder="hasher" />
+      <modulePath path="$PROJECT_DIR$/hasher/solutions/nl.f1re.mpsutil.hasher/nl.f1re.mpsutil.hasher.msd" folder="hasher" />
       <modulePath path="$PROJECT_DIR$/htmlcell/languages/de.itemis.mps.editor.htmlcell.demolang/de.itemis.mps.editor.htmlcell.demolang.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/htmlcell/languages/de.itemis.mps.editor.htmlcell/de.itemis.mps.editor.htmlcell.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/htmlcell/languages/de.itemis.mps.editor.htmlcell/sandbox/de.itemis.mps.editor.htmlcell.sandbox.msd" folder="widgets" />

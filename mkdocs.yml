@@ -121,6 +121,7 @@ nav:
       - Project View: extensions/other/project-view.md
       - Shadow Models: extensions/other/shadow-models.md
   - Stubs: extensions/stubs.md
+  - Testing: extensions/testing.md
   - Utilities:
       - Intentions Menu: extensions/utils/intentions-menu.md
       - Model Listener: extensions/utils/model-listener.md

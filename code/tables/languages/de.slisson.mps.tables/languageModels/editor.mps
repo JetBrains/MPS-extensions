@@ -6,7 +6,6 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
-    <use id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -404,10 +403,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-    </language>
-    <language id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable">
-      <concept id="1177714083117" name="jetbrains.mps.baseLanguage.varVariable.structure.VarType" flags="in" index="PeGgZ" />
-      <concept id="1236693300889" name="jetbrains.mps.baseLanguage.varVariable.structure.VarVariableDeclaration" flags="ng" index="3KEzu6" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
@@ -4023,16 +4018,19 @@
               </node>
             </node>
           </node>
-          <node concept="3cpWs8" id="12YYiosXCpY" role="3cqZAp">
-            <node concept="3KEzu6" id="12YYiosXCpV" role="3cpWs9">
+          <node concept="3cpWs8" id="4YlRTP2sno5" role="3cqZAp">
+            <node concept="3cpWsn" id="4YlRTP2sno6" role="3cpWs9">
               <property role="TrG5h" value="data" />
-              <node concept="PeGgZ" id="12YYiosXCpW" role="1tU5fm" />
-              <node concept="2OqwBi" id="5LghDpmxedk" role="33vP2m">
-                <node concept="2YIFZM" id="5LghDpmxe56" role="2Oq$k0">
+              <node concept="3uibUv" id="4YlRTP2snbl" role="1tU5fm">
+                <ref role="3uigEE" to="3bri:12YYiosxYgq" resolve="TableData" />
+                <node concept="3Tqbb2" id="4YlRTP2snbo" role="11_B2D" />
+              </node>
+              <node concept="2OqwBi" id="4YlRTP2sno7" role="33vP2m">
+                <node concept="2YIFZM" id="4YlRTP2sno8" role="2Oq$k0">
                   <ref role="37wK5l" to="3bri:5LghDpmwUBv" resolve="getInstance" />
                   <ref role="1Pybhc" to="3bri:12YYiosVWpM" resolve="TableCopyStorage" />
                 </node>
-                <node concept="liA8E" id="5LghDpmxemJ" role="2OqNvi">
+                <node concept="liA8E" id="4YlRTP2sno9" role="2OqNvi">
                   <ref role="37wK5l" to="3bri:5LghDpmwTpN" resolve="get" />
                 </node>
               </node>
@@ -4049,7 +4047,7 @@
                   <ref role="3cqZAo" node="12YYiosVW0z" resolve="selection" />
                 </node>
                 <node concept="37vLTw" id="12YYiosXEIc" role="37wK5m">
-                  <ref role="3cqZAo" node="12YYiosXCpV" resolve="data" />
+                  <ref role="3cqZAo" node="4YlRTP2sno6" resolve="data" />
                 </node>
                 <node concept="1Q80Hx" id="7NamNJWXzP2" role="37wK5m" />
               </node>

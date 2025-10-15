@@ -68,6 +68,7 @@
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" />
     <import index="nivk" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.descriptor(MPS.Editor/)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="9p8b" ref="r:2a738fcb-23b4-4d1d-9f52-870528559e28(de.slisson.mps.tables.runtime.selection)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -4417,7 +4418,6 @@
       </node>
       <node concept="3Tm1VV" id="6L2tYd2Kknj" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="7DPEkiwLZNn" role="jymVt" />
     <node concept="3Tm1VV" id="1dAqnm8$zBo" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="6OOkb_bf0Q2">

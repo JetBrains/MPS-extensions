@@ -1484,11 +1484,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="3D0nl1tKH5Z" role="3bR37C">
-          <node concept="3bR9La" id="3D0nl1tKH60" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
-          </node>
-        </node>
         <node concept="1BupzO" id="2eucapX07Hm" role="3bR31x">
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
@@ -9877,6 +9872,11 @@
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
             </node>
           </node>
+          <node concept="1SiIV0" id="BlBNLZwmLB" role="3bR37C">
+            <node concept="3bR9La" id="BlBNLZwmLC" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:6k1uIrxXxBO" resolve="jetbrains.mps.spellchecker.idea.stubs" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="5Jv8_iJNYsV" role="1E1XAP">
           <ref role="1E0d5P" node="5Jv8_iJNYt2" resolve="de.itemis.mps.spellcheck.runtime" />
@@ -9899,6 +9899,11 @@
         <node concept="1SiIV0" id="Guk09KIEVE" role="3bR37C">
           <node concept="3bR9La" id="Guk09KIEVF" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="BlBNLZwmLq" role="3bR37C">
+          <node concept="3bR9La" id="BlBNLZwmLr" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:6k1uIrxXxBO" resolve="jetbrains.mps.spellchecker.idea.stubs" />
           </node>
         </node>
       </node>
@@ -9993,6 +9998,11 @@
         <node concept="1SiIV0" id="5Jv8_iJO1Ze" role="3bR37C">
           <node concept="3bR9La" id="5Jv8_iJO1Zf" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7gY7BQcwjPt" role="3bR37C">
+          <node concept="3bR9La" id="7gY7BQcwjPu" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:6k1uIrxXxBO" resolve="jetbrains.mps.spellchecker.idea.stubs" />
           </node>
         </node>
       </node>

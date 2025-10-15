@@ -46,6 +46,9 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -197,20 +200,13 @@
                     <node concept="3uibUv" id="3jJoUQ7bKGr" role="HW$YZ">
                       <ref role="3uigEE" to="od2j:3jJoUQ6YpKb" resolve="IImplementationProvider" />
                     </node>
-                    <node concept="2ShNRf" id="3jJoUQ7bKGs" role="HW$Y0">
-                      <node concept="1pGfFk" id="3jJoUQ7bKGt" role="2ShVmc">
-                        <ref role="37wK5l" to="od2j:3jJoUQ705xU" resolve="ImplementationsFromFunctionModule" />
-                        <node concept="2OqwBi" id="3jJoUQ7bKGu" role="37wK5m">
-                          <node concept="2tJFMh" id="3jJoUQ7bKGv" role="2Oq$k0">
-                            <node concept="ZC_QK" id="3jJoUQ7bKGw" role="2tJFKM">
-                              <ref role="2aWVGs" to="97nk:1upvoB3RQrK" resolve="classTextgen" />
-                            </node>
-                          </node>
-                          <node concept="Vyspw" id="3jJoUQ7bKGx" role="2OqNvi">
-                            <node concept="37vLTw" id="3jJoUQ7bKGy" role="Vysub">
-                              <ref role="3cqZAo" node="3jJoUQ7bGEc" resolve="repository" />
-                            </node>
-                          </node>
+                    <node concept="2YIFZM" id="34qhGj6QkcO" role="HW$Y0">
+                      <ref role="37wK5l" to="od2j:34qhGj6PQ5C" resolve="fromModuleNode" />
+                      <ref role="1Pybhc" to="od2j:3jJoUQ6Yt0f" resolve="ImplementationsFromFunctionModule" />
+                      <node concept="1jxXqW" id="34qhGj6Qkio" role="37wK5m" />
+                      <node concept="2tJFMh" id="3jJoUQ7bKGv" role="37wK5m">
+                        <node concept="ZC_QK" id="3jJoUQ7bKGw" role="2tJFKM">
+                          <ref role="2aWVGs" to="97nk:1upvoB3RQrK" resolve="classTextgen" />
                         </node>
                       </node>
                     </node>
@@ -373,20 +369,13 @@
                     <node concept="3uibUv" id="1sd2boLoOKO" role="HW$YZ">
                       <ref role="3uigEE" to="od2j:3jJoUQ6YpKb" resolve="IImplementationProvider" />
                     </node>
-                    <node concept="2ShNRf" id="1sd2boLoOKP" role="HW$Y0">
-                      <node concept="1pGfFk" id="1sd2boLoOKQ" role="2ShVmc">
-                        <ref role="37wK5l" to="od2j:3jJoUQ705xU" resolve="ImplementationsFromFunctionModule" />
-                        <node concept="2OqwBi" id="1sd2boLoOKR" role="37wK5m">
-                          <node concept="2tJFMh" id="1sd2boLoOKS" role="2Oq$k0">
-                            <node concept="ZC_QK" id="1sd2boLoOKT" role="2tJFKM">
-                              <ref role="2aWVGs" to="97nk:1upvoB3RQrK" resolve="classTextgen" />
-                            </node>
-                          </node>
-                          <node concept="Vyspw" id="1sd2boLoOKU" role="2OqNvi">
-                            <node concept="37vLTw" id="1sd2boLoOKV" role="Vysub">
-                              <ref role="3cqZAo" node="1sd2boLoOKC" resolve="repository" />
-                            </node>
-                          </node>
+                    <node concept="2YIFZM" id="34qhGj6QlAb" role="HW$Y0">
+                      <ref role="37wK5l" to="od2j:34qhGj6PQ5C" resolve="fromModuleNode" />
+                      <ref role="1Pybhc" to="od2j:3jJoUQ6Yt0f" resolve="ImplementationsFromFunctionModule" />
+                      <node concept="1jxXqW" id="34qhGj6QlFJ" role="37wK5m" />
+                      <node concept="2tJFMh" id="1sd2boLoOKS" role="37wK5m">
+                        <node concept="ZC_QK" id="1sd2boLoOKT" role="2tJFKM">
+                          <ref role="2aWVGs" to="97nk:1upvoB3RQrK" resolve="classTextgen" />
                         </node>
                       </node>
                     </node>

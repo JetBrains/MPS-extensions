@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="de.slisson.mps.tables" uuid="7e450f4e-1ac3-41ef-a851-4598161bdb94" languageVersion="0" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
     </modelRoot>
   </models>

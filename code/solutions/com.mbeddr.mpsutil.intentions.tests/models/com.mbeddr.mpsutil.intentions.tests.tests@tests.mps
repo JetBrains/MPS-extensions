@@ -12,6 +12,7 @@
     <use id="f47b95d4-5e73-4c04-9204-18076950153b" name="de.itemis.mps.compare" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
+    <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
   </languages>
   <imports>
     <import index="gw4x" ref="r:f1d822a2-1f43-4b14-8097-de7e855e6079(com.mbeddr.mpsutil.intentions.sandboxlang.intentions)" />
@@ -1127,7 +1128,7 @@
                                 </node>
                               </node>
                               <node concept="2YIFZM" id="3F8dS3YivhB" role="33vP2m">
-                                <ref role="37wK5l" to="xcyp:~Utils.expandActionGroup(com.intellij.openapi.actionSystem.ActionGroup,com.intellij.openapi.actionSystem.impl.PresentationFactory,com.intellij.openapi.actionSystem.DataContext,java.lang.String)" resolve="expandActionGroup" />
+                                <ref role="37wK5l" to="xcyp:~Utils.expandActionGroup(com.intellij.openapi.actionSystem.ActionGroup,com.intellij.openapi.actionSystem.impl.PresentationFactory,com.intellij.openapi.actionSystem.DataContext,java.lang.String,com.intellij.openapi.actionSystem.ActionUiKind)" resolve="expandActionGroup" />
                                 <ref role="1Pybhc" to="xcyp:~Utils" resolve="Utils" />
                                 <node concept="37vLTw" id="3F8dS3YivJF" role="37wK5m">
                                   <ref role="3cqZAo" node="3F8dS3YdY$U" resolve="group" />
@@ -1140,6 +1141,10 @@
                                 </node>
                                 <node concept="37vLTw" id="3F8dS3YiGF7" role="37wK5m">
                                   <ref role="3cqZAo" node="3F8dS3YiBvW" resolve="place" />
+                                </node>
+                                <node concept="10M0yZ" id="2yiaXsN8e8Z" role="37wK5m">
+                                  <ref role="3cqZAo" to="qkt:~ActionUiKind.POPUP" resolve="POPUP" />
+                                  <ref role="1PxDUh" to="qkt:~ActionUiKind" resolve="ActionUiKind" />
                                 </node>
                               </node>
                             </node>

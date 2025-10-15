@@ -368,7 +368,6 @@ tasks.register<Exec>("deployDocs") {
     commandLine("python3", "-", "mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force")
 }
 
-defaultTasks("build_languages")
 
 var releaseNotes: String? = null
 var releaseName: String? = null

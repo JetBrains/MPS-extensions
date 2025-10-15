@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7e1cdbc4-24e4-458b-b337-9e688e689139(de.itemis.mps.comparator.diff.tests.diffs@tests)">
+<model ref="r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.demo.comparator.diff.tests.diffs@tests)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
@@ -16345,11 +16344,11 @@
           </node>
         </node>
         <node concept="3GXo0L" id="7IJcaFREGZc" role="3cqZAp">
-          <node concept="37vLTw" id="7IJcaFREGZd" role="3tpDZC">
-            <ref role="3cqZAo" node="7IJcaFREGYZ" resolve="cls" />
-          </node>
           <node concept="37vLTw" id="7IJcaFREGZe" role="3tpDZA">
             <ref role="3cqZAo" node="7IJcaFREIRW" resolve="cls2" />
+          </node>
+          <node concept="37vLTw" id="7IJcaFREGZd" role="3tpDZC">
+            <ref role="3cqZAo" node="7IJcaFREGYZ" resolve="cls" />
           </node>
         </node>
       </node>

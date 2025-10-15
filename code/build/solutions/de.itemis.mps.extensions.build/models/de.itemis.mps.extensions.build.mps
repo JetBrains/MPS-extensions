@@ -4182,6 +4182,11 @@
             <ref role="3bR37D" to="ffeo:rD7wKO6k$" resolve="MPS.Generator" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1vOmbReDN0i" role="3bR37C">
+          <node concept="Rbm2T" id="1vOmbReDN0j" role="1SiIV1">
+            <ref role="1E1Vl2" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="6Y0V2RJk3uw" role="3989C9">
@@ -18885,6 +18890,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="7NamNJXoLvU" role="3bR37C">
+          <node concept="3bR9La" id="7NamNJXoLvV" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2f7xPXzHwm6" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -19035,6 +19045,11 @@
             <node concept="3qWCbU" id="7q24334ZKAc" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2P8zLSglyLQ" role="3bR37C">
+          <node concept="3bR9La" id="2P8zLSglyLR" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
       </node>
@@ -24724,9 +24739,9 @@
       <property role="TrG5h" value="compare" />
       <node concept="1E1JtA" id="2cqAxlknq_h" role="2G$12L">
         <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.comparator.diff.tests" />
         <property role="3LESm3" value="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
-        <property role="TrG5h" value="de.itemis.mps.comparator.diff.tests" />
         <node concept="398BVA" id="2cqAxlknq_I" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="2cqAxlknqA$" role="iGT6I">

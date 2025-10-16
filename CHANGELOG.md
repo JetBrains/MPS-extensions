@@ -4,6 +4,16 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## October 2025
+
+### Fixed
+
+- *de.itemis.mps.extensions.build* Version number is now set correctly in the `build.properties` file inside the published artifact.
+
+### Changed
+
+- *de.itemis.mps.extensions.build* The version number property was renamed from `versionNumber` to `version`.
+
 ## September 2025
 
 ### Added
@@ -23,6 +33,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.compare* Added support for ignoring references.
 - *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
 - *nl.f1re.mps.editor.swing* Add a new language for customizing swing components.
+- *nl.f1re.mpsutil.hasher* Added efficient, configurable hashing of subtrees.
 
 ### Fixed
 

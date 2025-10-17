@@ -37,6 +37,11 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 | *de.itemis.mps.linenumbers.plugin*            | line numbers for the editor                                                                                                                                                                                                                                                                                                                   |
 | *de.itemis.mps.editor.htmlcell*               | HTML-based editor cells                                                                                                                                                                                                                                                                                                                       |
 
+**Testing**
+
+| Name              | Description                 |
+|-------------------|-----------------------------|
+| *nl.f1re.testing* | utility classes for testing |
 
 **Generator**
 

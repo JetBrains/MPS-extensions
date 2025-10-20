@@ -14532,6 +14532,9 @@
       <node concept="m$_yC" id="4TTyUQxowCT" role="m$_yJ">
         <ref role="m$_y1" node="hCVXosGNJH" resolve="com.mbeddr.mpsutil.modellisteners" />
       </node>
+      <node concept="m$_yC" id="5T38oZcF9H$" role="m$_yJ">
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
+      </node>
     </node>
     <node concept="2G$12M" id="3quoVcnLGky" role="3989C9">
       <property role="TrG5h" value="group.intentions" />
@@ -14770,6 +14773,11 @@
         <node concept="1SiIV0" id="74lHwh7YxW8" role="3bR37C">
           <node concept="3bR9La" id="74lHwh7YxW9" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5T38oZcESDY" role="3bR37C">
+          <node concept="3bR9La" id="5T38oZcESDZ" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
       </node>

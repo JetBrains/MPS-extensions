@@ -12,9 +12,9 @@
     <import index="i9z2" ref="r:86608401-3c72-4a8c-a023-f7cfd3cc5fbc(de.itemis.mps.spellcheck.structure)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
-    <import index="v6uv" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker(MPS.IDEA/)" />
-    <import index="hltm" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker.settings(MPS.IDEA/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="v6uv" ref="9979803b-18d3-440b-8a74-99cec41fc78e/java:com.intellij.spellchecker(jetbrains.mps.spellchecker.idea.stubs/)" />
+    <import index="hltm" ref="9979803b-18d3-440b-8a74-99cec41fc78e/java:com.intellij.spellchecker.settings(jetbrains.mps.spellchecker.idea.stubs/)" />
     <import index="v6og" ref="r:211706a0-1f54-4f22-a8d7-19e98f4484fb(de.itemis.mps.spellcheck.behavior)" implicit="true" />
   </imports>
   <registry>

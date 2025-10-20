@@ -10546,6 +10546,7 @@
         </node>
         <node concept="1SiIV0" id="1kvClgLzQmh" role="3bR37C">
           <node concept="3bR9La" id="1kvClgLzQmi" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
@@ -18146,17 +18147,80 @@
               <property role="3MwjfP" value="lib" />
             </node>
           </node>
-          <node concept="2HvfSZ" id="4_SQzDOofhp" role="39821P">
-            <node concept="398BVA" id="4_SQzDOofnN" role="2HvfZ0">
+          <node concept="28jJK3" id="6sGAGM5GK5i" role="39821P">
+            <node concept="398BVA" id="6sGAGM5GKme" role="28jJRO">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4_SQzDOofuf" role="iGT6I">
+              <node concept="2Ry0Ak" id="6sGAGM5GKJB" role="iGT6I">
                 <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="4_SQzDOofuk" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6sGAGM5GKS6" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="4_SQzDOofup" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="6sGAGM5GKS9" role="2Ry0An">
                     <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
-                    <node concept="2Ry0Ak" id="4_SQzDOofuu" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="6sGAGM5GL0B" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6sGAGM5GL0E" role="2Ry0An">
+                        <property role="2Ry0Am" value="commons-collections4.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="6sGAGM5GL0F" role="39821P">
+            <node concept="398BVA" id="6sGAGM5GL0G" role="28jJRO">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6sGAGM5GL0H" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="6sGAGM5GL0I" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6sGAGM5GL0J" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="6sGAGM5GL0K" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6sGAGM5GL9e" role="2Ry0An">
+                        <property role="2Ry0Am" value="guava.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="6sGAGM5GLhF" role="39821P">
+            <node concept="398BVA" id="6sGAGM5GLhG" role="28jJRO">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6sGAGM5GLhH" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="6sGAGM5GLhI" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6sGAGM5GLhJ" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="6sGAGM5GLhK" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6sGAGM5GLqe" role="2Ry0An">
+                        <property role="2Ry0Am" value="trove4j.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="6sGAGM5GLyF" role="39821P">
+            <node concept="398BVA" id="6sGAGM5GLyG" role="28jJRO">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6sGAGM5GLyH" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="6sGAGM5GLyI" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6sGAGM5GLyJ" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="6sGAGM5GLyK" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6sGAGM5GLFe" role="2Ry0An">
+                        <property role="2Ry0Am" value="vavr.jar" />
+                      </node>
                     </node>
                   </node>
                 </node>

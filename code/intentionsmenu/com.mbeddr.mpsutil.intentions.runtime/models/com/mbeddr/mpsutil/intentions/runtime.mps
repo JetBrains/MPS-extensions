@@ -4,9 +4,9 @@
   <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
-    <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
+    <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
@@ -45,8 +45,8 @@
     <import index="ev0w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typechecking.backend(MPS.Core/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="7oz1" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.configuration(MPS.Editor/)" />
-    <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
     <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" />
+    <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
     <import index="9j2l" ref="r:acd2b506-390d-4e84-8c47-cd8fb8c9e0c0(com.mbeddr.mpsutil.intentions.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -1756,19 +1756,6 @@
           </node>
         </node>
         <node concept="1DcWWT" id="4hHbxs9ANMv" role="3cqZAp">
-          <node concept="2EnYce" id="5gDLJkKOQJU" role="1DdaDG">
-            <node concept="2EnYce" id="5gDLJkKOPK9" role="2Oq$k0">
-              <node concept="37vLTw" id="4hHbxs9AR8g" role="2Oq$k0">
-                <ref role="3cqZAo" node="4hHbxs9ANMl" resolve="ideaActionRegistration" />
-              </node>
-              <node concept="liA8E" id="4hHbxs9AT8c" role="2OqNvi">
-                <ref role="37wK5l" to="qkt:~AnAction.getShortcutSet()" resolve="getShortcutSet" />
-              </node>
-            </node>
-            <node concept="liA8E" id="4hHbxs9AVSt" role="2OqNvi">
-              <ref role="37wK5l" to="qkt:~ShortcutSet.getShortcuts()" resolve="getShortcuts" />
-            </node>
-          </node>
           <node concept="3cpWsn" id="4hHbxs9ANMR" role="1Duv9x">
             <property role="TrG5h" value="shortcut" />
             <node concept="3uibUv" id="4hHbxs9ANMT" role="1tU5fm">
@@ -1825,6 +1812,19 @@
                 </node>
                 <node concept="3zACq4" id="4hHbxs9ANMQ" role="3cqZAp" />
               </node>
+            </node>
+          </node>
+          <node concept="2EnYce" id="5gDLJkKOQJU" role="1DdaDG">
+            <node concept="2EnYce" id="5gDLJkKOPK9" role="2Oq$k0">
+              <node concept="37vLTw" id="4hHbxs9AR8g" role="2Oq$k0">
+                <ref role="3cqZAo" node="4hHbxs9ANMl" resolve="ideaActionRegistration" />
+              </node>
+              <node concept="liA8E" id="4hHbxs9AT8c" role="2OqNvi">
+                <ref role="37wK5l" to="qkt:~AnAction.getShortcutSet()" resolve="getShortcutSet" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4hHbxs9AVSt" role="2OqNvi">
+              <ref role="37wK5l" to="qkt:~ShortcutSet.getShortcuts()" resolve="getShortcuts" />
             </node>
           </node>
         </node>
@@ -3758,6 +3758,15 @@
           <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
         </node>
       </node>
+      <node concept="37vLTG" id="2yiaXsN79Bp" role="3clF46">
+        <property role="TrG5h" value="e" />
+        <node concept="3uibUv" id="2yiaXsN79Bq" role="1tU5fm">
+          <ref role="3uigEE" to="qkt:~AnActionEvent" resolve="AnActionEvent" />
+        </node>
+        <node concept="2AHcQZ" id="2yiaXsN79Br" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
       <node concept="37vLTG" id="4mzPpe1ceI7" role="3clF46">
         <property role="TrG5h" value="visibleChildren" />
         <node concept="3uibUv" id="4mzPpe1ceI8" role="1tU5fm">
@@ -3772,16 +3781,24 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
-      <node concept="37vLTG" id="4mzPpe1ceIc" role="3clF46">
-        <property role="TrG5h" value="updateSession" />
-        <node concept="3uibUv" id="4mzPpe1ceId" role="1tU5fm">
-          <ref role="3uigEE" to="qkt:~UpdateSession" resolve="UpdateSession" />
-        </node>
-        <node concept="2AHcQZ" id="4mzPpe1ceIe" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
-        </node>
-      </node>
       <node concept="3clFbS" id="4mzPpe1ceIg" role="3clF47">
+        <node concept="3cpWs8" id="2yiaXsN7$yZ" role="3cqZAp">
+          <node concept="3cpWsn" id="2yiaXsN7$z0" role="3cpWs9">
+            <property role="TrG5h" value="updateSession" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="2yiaXsN7$z1" role="1tU5fm">
+              <ref role="3uigEE" to="qkt:~UpdateSession" resolve="UpdateSession" />
+            </node>
+            <node concept="2OqwBi" id="2yiaXsN7EMU" role="33vP2m">
+              <node concept="37vLTw" id="2yiaXsN7DBS" role="2Oq$k0">
+                <ref role="3cqZAo" node="2yiaXsN79Bp" resolve="e" />
+              </node>
+              <node concept="liA8E" id="2yiaXsN7GfI" role="2OqNvi">
+                <ref role="37wK5l" to="qkt:~AnActionEvent.getUpdateSession()" resolve="getUpdateSession" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="4mzPpe1cwvX" role="3cqZAp">
           <node concept="3cpWsn" id="4mzPpe1cwvY" role="3cpWs9">
             <property role="TrG5h" value="actionsBySection" />
@@ -3815,7 +3832,7 @@
                       <node concept="2OqwBi" id="4mzPpe1jSHZ" role="3clFbG">
                         <node concept="2OqwBi" id="4mzPpe1jSI0" role="2Oq$k0">
                           <node concept="37vLTw" id="4mzPpe1jSI1" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4mzPpe1ceIc" resolve="updateSession" />
+                            <ref role="3cqZAo" node="2yiaXsN7$z0" resolve="updateSession" />
                           </node>
                           <node concept="liA8E" id="4mzPpe1jSI2" role="2OqNvi">
                             <ref role="37wK5l" to="qkt:~UpdateSession.presentation(com.intellij.openapi.actionSystem.AnAction)" resolve="presentation" />
@@ -3854,7 +3871,7 @@
                     <ref role="2Gs0qQ" node="4mzPpe1dZjW" resolve="action" />
                   </node>
                   <node concept="37vLTw" id="4mzPpe1i0zW" role="37wK5m">
-                    <ref role="3cqZAo" node="4mzPpe1ceIc" resolve="updateSession" />
+                    <ref role="3cqZAo" node="2yiaXsN7$z0" resolve="updateSession" />
                   </node>
                 </node>
               </node>
@@ -3866,7 +3883,7 @@
                   <ref role="2Gs0qQ" node="4mzPpe1dZjW" resolve="action" />
                 </node>
                 <node concept="37vLTw" id="3F8dS3Y1uax" role="37wK5m">
-                  <ref role="3cqZAo" node="4mzPpe1ceIc" resolve="updateSession" />
+                  <ref role="3cqZAo" node="2yiaXsN7$z0" resolve="updateSession" />
                 </node>
               </node>
             </node>

@@ -849,7 +849,7 @@
                   <node concept="2Ry0Ak" id="2PSVZXMBj4t" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="2PSVZXMBj4u" role="2Ry0An">
-                      <property role="2Ry0Am" value="kotlin-stdlib-1.9.20.jar" />
+                      <property role="2Ry0Am" value="kotlin-stdlib-2.1.0.jar" />
                     </node>
                   </node>
                 </node>
@@ -857,28 +857,6 @@
             </node>
             <node concept="3yrxFa" id="2PSVZXMBJF7" role="2gdwQb">
               <ref role="3yrxFb" to="ffeo:4u1Fin18OSy" />
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2PSVZXMBj4A" role="3bR37C">
-          <node concept="1BurEX" id="2PSVZXMBj4B" role="1SiIV1">
-            <node concept="398BVA" id="2PSVZXMBj4x" role="1BurEY">
-              <ref role="398BVh" node="2IcGFI9XwnY" resolve="mps_home" />
-              <node concept="2Ry0Ak" id="2PSVZXMBj4y" role="iGT6I">
-                <property role="2Ry0Am" value="plugins" />
-                <node concept="2Ry0Ak" id="2PSVZXMBj4z" role="2Ry0An">
-                  <property role="2Ry0Am" value="mps-kotlin" />
-                  <node concept="2Ry0Ak" id="2PSVZXMBj4$" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="2PSVZXMBj4_" role="2Ry0An">
-                      <property role="2Ry0Am" value="kotlin-stdlib-common-1.9.20.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3yrxFa" id="2PSVZXMBkou" role="2gdwQb">
-              <ref role="3yrxFb" to="ffeo:2I9TXtJz75K" />
             </node>
           </node>
         </node>
@@ -6381,6 +6359,9 @@
       </node>
       <node concept="m$_yC" id="61MeLv2vKoK" role="m$_yJ">
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+      </node>
+      <node concept="m$_yC" id="52McgVhpQ08" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:16mx0EU4lyh" resolve="jetbrains.mps.ide" />
       </node>
     </node>
     <node concept="2G$12M" id="6Fx0OSkEotr" role="3989C9">

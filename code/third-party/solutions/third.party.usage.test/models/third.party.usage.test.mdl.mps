@@ -5,7 +5,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
   </languages>
   <imports>
-    <import index="lhlt" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind.node(MPS.ThirdParty/)" />
+    <import index="gwgf" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:okhttp3(MPS.ThirdParty/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -35,10 +35,10 @@
     <property role="TrG5h" value="UseStuffFromAppJar" />
     <node concept="3Tm1VV" id="6wECU8wtfQI" role="1B3o_S" />
     <node concept="312cEg" id="6wECU8wtfTh" role="jymVt">
-      <property role="TrG5h" value="jacksonStuff" />
+      <property role="TrG5h" value="okhttpStuff" />
       <node concept="3Tm1VV" id="6wECU8wtfSU" role="1B3o_S" />
       <node concept="3uibUv" id="6yNnJSJYgI_" role="1tU5fm">
-        <ref role="3uigEE" to="lhlt:~ArrayNode" resolve="ArrayNode" />
+        <ref role="3uigEE" to="gwgf:~AsyncDns" resolve="AsyncDns" />
       </node>
     </node>
   </node>

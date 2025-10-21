@@ -11829,11 +11829,6 @@
               <ref role="3bR37D" node="4iIKqJTZ5H4" resolve="de.q60.mps.polymorphicfunctions.runtime" />
             </node>
           </node>
-          <node concept="1SiIV0" id="66nVdZVOLyj" role="3bR37C">
-            <node concept="3bR9La" id="66nVdZVOLyk" role="1SiIV1">
-              <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
-            </node>
-          </node>
           <node concept="1BupzO" id="2eucapX088i" role="3bR31x">
             <property role="3ZfqAx" value="generator/template" />
             <property role="1Hdu6h" value="true" />
@@ -11860,16 +11855,6 @@
               <node concept="3qWCbU" id="2eucapX088k" role="3LXTna">
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
-            </node>
-          </node>
-          <node concept="1SiIV0" id="66nVdZW6cQc" role="3bR37C">
-            <node concept="3bR9La" id="66nVdZW6cQd" role="1SiIV1">
-              <ref role="3bR37D" to="ffeo:7Kfy9QB6KZM" resolve="closures.runtime" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="6RNzJhk84Od" role="3bR37C">
-            <node concept="3bR9La" id="6RNzJhk84Oe" role="1SiIV1">
-              <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
             </node>
           </node>
         </node>

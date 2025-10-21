@@ -1557,6 +1557,40 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="5oKUazDkYLl" role="jymVt" />
+    <node concept="3clFb_" id="5oKUazDl7HJ" role="jymVt">
+      <property role="TrG5h" value="addImplementation" />
+      <node concept="3clFbS" id="5oKUazDl7HM" role="3clF47">
+        <node concept="3clFbF" id="5oKUazDl9Sj" role="3cqZAp">
+          <node concept="2OqwBi" id="5oKUazDlaGx" role="3clFbG">
+            <node concept="37vLTw" id="5oKUazDl9Si" role="2Oq$k0">
+              <ref role="3cqZAo" node="3jJoUQ6YEnK" resolve="myImplementations" />
+            </node>
+            <node concept="liA8E" id="5oKUazDlegU" role="2OqNvi">
+              <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+              <node concept="37vLTw" id="5oKUazDlgzT" role="37wK5m">
+                <ref role="3cqZAo" node="5oKUazDl8pW" resolve="declarationId" />
+              </node>
+              <node concept="37vLTw" id="5oKUazDlhBR" role="37wK5m">
+                <ref role="3cqZAo" node="5oKUazDl8O2" resolve="implementation" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="5oKUazDl7gS" role="1B3o_S" />
+      <node concept="3cqZAl" id="5oKUazDl7Fd" role="3clF45" />
+      <node concept="37vLTG" id="5oKUazDl8pW" role="3clF46">
+        <property role="TrG5h" value="declarationId" />
+        <node concept="17QB3L" id="5oKUazDl8pV" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5oKUazDl8O2" role="3clF46">
+        <property role="TrG5h" value="implementation" />
+        <node concept="3uibUv" id="5oKUazDl9bP" role="1tU5fm">
+          <ref role="3uigEE" node="3jJoUQ6YpTW" resolve="IFunctionImplementation" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="1sd2boLthKV" role="jymVt" />
     <node concept="3clFb_" id="1sd2boLve7S" role="jymVt">
       <property role="1EzhhJ" value="false" />

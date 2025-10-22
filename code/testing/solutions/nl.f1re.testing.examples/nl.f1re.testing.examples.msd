@@ -19,7 +19,6 @@
     <dependency reexport="false">d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)</dependency>
     <dependency reexport="false">87e083b3-d1b3-4c3f-9d8c-b24d74710f49(nl.f1re.testing.examples.lang)</dependency>
     <dependency reexport="false">707c4fde-f79a-44b5-b3d7-b5cef8844ccf(jetbrains.mps.lang.test.runtime)</dependency>
-    <dependency reexport="false">39983771-4e9b-401b-a1a9-1da6c777c843(MPS.ThirdParty)</dependency>
     <dependency reexport="false">215c4c45-ba99-49f5-9ab7-4b6901a63cfd(MPS.Generator)</dependency>
     <dependency reexport="false">c6420b75-4569-420d-aaf7-9bc590ad7b2a(de.itemis.mps.comparator)</dependency>
     <dependency reexport="false">73a71448-99c6-4925-ae2a-2cb0801adee3(jetbrains.mps.ide.tools.todo)</dependency>

@@ -36,7 +36,6 @@
         <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
         <dependency reexport="false">215c4c45-ba99-49f5-9ab7-4b6901a63cfd(MPS.Generator)</dependency>
         <dependency reexport="false">7124e466-fc92-4803-a656-d7a6b7eb3910(MPS.TextGen)</dependency>
-        <dependency reexport="false">39983771-4e9b-401b-a1a9-1da6c777c843(MPS.ThirdParty)</dependency>
         <dependency reexport="false">92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)</dependency>
         <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
         <dependency reexport="false">7ab1a6fa-0a11-4b95-9e48-75f363d6cb00(jetbrains.mps.lang.generator.plan)</dependency>
@@ -78,7 +77,6 @@
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
         <module reference="7124e466-fc92-4803-a656-d7a6b7eb3910(MPS.TextGen)" version="0" />
-        <module reference="39983771-4e9b-401b-a1a9-1da6c777c843(MPS.ThirdParty)" version="0" />
         <module reference="c6420b75-4569-420d-aaf7-9bc590ad7b2a(de.itemis.mps.comparator)" version="0" />
         <module reference="f47b95d4-5e73-4c04-9204-18076950153b(de.itemis.mps.compare)" version="0" />
         <module reference="3b21f776-9e24-4e37-9639-70bded433068(de.itemis.mps.compare#756135271275941091)" version="0" />

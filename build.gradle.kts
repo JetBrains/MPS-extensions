@@ -10,12 +10,12 @@ import groovy.xml.slurpersupport.GPathResult
 import java.util.*
 
 plugins {
-    id("de.itemis.mps.gradle.common") version "1.28.0.+"
+    id("de.itemis.mps.gradle.common") version "1.29.2.+"
     id("com.github.breadmoirai.github-release") version "2.5.2"
     id("maven-publish")
     id("base")
-    id("de.itemis.mps.gradle.launcher") version "2.4.2.+"
-    id("org.cyclonedx.bom") version "2.2.0"
+    id("de.itemis.mps.gradle.launcher") version "2.7.0.+"
+    id("org.cyclonedx.bom") version "2.4.1"
 
     id("com.specificlanguages.mps") version "2.0.0-pre4"
 }
@@ -82,7 +82,7 @@ bundledDependencies {
     create("diagram") {
         destinationDir = codeDir.dir("diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib")
 
-        val elkVersion = "0.10.0"
+        val elkVersion = "0.11.0"
 
         dependency("de.itemis.mps:jgraphx:1.0.0")
 
@@ -97,9 +97,12 @@ bundledDependencies {
         dependency("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
         dependency("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
         dependency("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-        dependency("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
-        dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
-        dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.common:2.43.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.40.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.39.0")
+
+        // xbase lib appears to be an undeclared runtime dependency of elk.alg.layered since 0.11.0
+        dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.40.0")
 
         configuration {
             exclude(group = "com.google.guava")
@@ -109,7 +112,7 @@ bundledDependencies {
 
     create("batik") {
         destinationDir = codeDir.dir("batik/solutions/lib")
-        dependency("org.apache.xmlgraphics:batik-all:1.12")
+        dependency("org.apache.xmlgraphics:batik-all:1.19")
 
         configuration {
             exclude(group = "commons-io")
@@ -124,23 +127,23 @@ bundledDependencies {
             isTransitive = false
         }
 
-        dependency("org.apache.commons:commons-csv:1.0")
-        dependency("commons-io:commons-io:2.4")
-        dependency("org.apache.commons:commons-lang3:3.3.2")
-        dependency("org.apache.commons:commons-math3:3.3")
-        dependency("org.apache.commons:commons-csv:1.0")
+        dependency("org.apache.commons:commons-csv:1.14.1")
+        dependency("commons-io:commons-io:2.20.0")
+        dependency("org.apache.commons:commons-lang3:3.19.0")
+        dependency("org.apache.commons:commons-math3:3.6.1")
+        dependency("org.apache.commons:commons-csv:1.14.1")
         dependency("commons-primitives:commons-primitives:1.0")
-        dependency("com.miglayout:miglayout-core:4.1")
-        dependency("com.miglayout:miglayout-swing:4.1")
+        dependency("com.miglayout:miglayout-core:11.4.2")
+        dependency("com.miglayout:miglayout-swing:11.4.2")
     }
 
     create("collections") {
         destinationDir = codeDir.dir("shadowmodels/solutions/de.q60.mps.collections.libs/lib")
 
-        dependency("org.apache.commons:commons-collections4:4.4")
-        dependency("com.google.guava:guava:27.1-jre")
+        dependency("org.apache.commons:commons-collections4:4.5.0")
+        dependency("com.google.guava:guava:33.5.0-jre")
         dependency("net.sf.trove4j:trove4j:3.0.3")
-        dependency("io.vavr:vavr:0.9.3")
+        dependency("io.vavr:vavr:0.10.7")
 
         configuration {
             isTransitive = false

@@ -434,6 +434,27 @@
     <property role="R4oN_" value="the status object of the generation" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="6MWuQFM4oUI">
+    <property role="TrG5h" value="AssertFloatNotEquals" />
+    <property role="34LRSv" value="assert float not equals" />
+    <property role="EcuMT" value="7835273150975807150" />
+    <property role="R4oN_" value="compare two floating point values with a delta (negation)" />
+    <ref role="1TJDcQ" node="6MWuQFM2umD" resolve="AssertFloatEquals" />
+  </node>
+  <node concept="1TIwiD" id="6MWuQFM2umD">
+    <property role="TrG5h" value="AssertFloatEquals" />
+    <property role="34LRSv" value="assert float equals" />
+    <property role="EcuMT" value="7835273150975305129" />
+    <property role="R4oN_" value="compare two floating point values with a delta" />
+    <ref role="1TJDcQ" to="tpe3:7jPoEeD$ZOX" resolve="BinaryAssert" />
+    <node concept="1TJgyj" id="25QMAbgGdme" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="tolerance" />
+      <property role="20lbJX" value="fLJekj4/1" />
+      <property role="IQ2ns" value="8427750732757990724" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
   <node concept="1TIwiD" id="iyWIxscoKT">
     <property role="EcuMT" value="334096402171923513" />
     <property role="TrG5h" value="IgnoredChild" />

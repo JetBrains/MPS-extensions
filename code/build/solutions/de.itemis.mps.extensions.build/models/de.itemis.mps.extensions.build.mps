@@ -7157,7 +7157,7 @@
       <property role="m$_wk" value="nl.f1re.testing" />
       <node concept="3_J27D" id="3OVhQEUMbrI" role="m_cZH">
         <node concept="3Mxwew" id="3OVhQEUMbrJ" role="3MwsjC">
-          <property role="3MwjfP" value="de.itemis.mps.debug" />
+          <property role="3MwjfP" value="nl.f1re.testing" />
         </node>
       </node>
       <node concept="3_J27D" id="3OVhQEUMbrK" role="m$_w8">
@@ -7190,6 +7190,12 @@
       </node>
       <node concept="m$_yC" id="3OVhQEUMcJU" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:6Hpa5co69BH" resolve="jetbrains.mps.editor.tooltips" />
+      </node>
+      <node concept="m$_yC" id="6pV3rYYEdid" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:ymnOULATpW" />
+      </node>
+      <node concept="m$_yC" id="6pV3rYYJD2L" role="m$_yJ">
+        <ref role="m$_y1" node="2Xjt3l57iTJ" />
       </node>
     </node>
     <node concept="2G$12M" id="3OVhQEUM8kU" role="3989C9">

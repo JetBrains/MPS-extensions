@@ -7192,10 +7192,10 @@
         <ref role="m$_y1" to="ffeo:6Hpa5co69BH" resolve="jetbrains.mps.editor.tooltips" />
       </node>
       <node concept="m$_yC" id="6pV3rYYEdid" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:ymnOULATpW" />
+        <ref role="m$_y1" to="ffeo:ymnOULATpW" resolve="jetbrains.mps.testing" />
       </node>
       <node concept="m$_yC" id="6pV3rYYJD2L" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
     </node>
     <node concept="2G$12M" id="3OVhQEUM8kU" role="3989C9">

@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.extensions.build* Version number is now set correctly in the `build.properties` file inside the published artifact.
+- *de.itemis.mps.editor.bool.runtime* Improve loading of checkbox images to work in scenarios where the node being edited is not part of a model (even if only temporarily).
 
 ### Changed
 
@@ -24,6 +25,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.spellcheck* An exception coming from the WordsToDictionaryIntention was fixed.
+- *de.itemis.mps.linenumbers* Reloading classes no longer causes an exception to be thrown and line numbers to disappear.
 
 ## August 2025
 
@@ -55,6 +57,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *jetbrains.mps.lang.smodel.query* A NullPointerException was fixed in the query list typesystem checker.
 - *de.itemis.mps.comparator* Custom generation plans of generation options builders are not overwritten anymore.
 - *de.itemis.mps.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
+- *de.slisson.mps.tables.runtime* Table Actions Toolbar items now appear in the new UI toolbar.
 
 ### Added
 

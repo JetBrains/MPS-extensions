@@ -7525,7 +7525,7 @@
       <property role="m$_wk" value="nl.f1re.testing" />
       <node concept="3_J27D" id="3OVhQEUMbrI" role="m_cZH">
         <node concept="3Mxwew" id="3OVhQEUMbrJ" role="3MwsjC">
-          <property role="3MwjfP" value="de.itemis.mps.debug" />
+          <property role="3MwjfP" value="nl.f1re.testing" />
         </node>
       </node>
       <node concept="3_J27D" id="3OVhQEUMbrK" role="m$_w8">

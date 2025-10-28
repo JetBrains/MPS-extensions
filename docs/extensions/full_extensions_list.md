@@ -35,7 +35,13 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 | *de.slisson.mps.tables*                       | tabular notation for MPS editors                                                                                                                                                                                                                                                                                                              |
 | *de.itemis.mps.linenumbers*                   | line numbers for the editor                                                                                                                                                                                                                                                                                                                   |
 | *de.itemis.mps.editor.htmlcell*               | HTML-based editor cells                                                                                                                                                                                                                                                                                                                       |
-| *de.itemis.mps.editor.pagination*             | An editor cell for paginating collections of nodes                                                                                                                                                                                                                                                                                            |
+| *de.itemis.mps.editor.pagination*      
+
+**Testing**
+
+| Name              | Description                 |
+|-------------------|-----------------------------|
+| *nl.f1re.testing* | utility classes for testing |
 
 **Generator**
 

@@ -124,6 +124,7 @@ nav:
       - Shadow Models: extensions/other/shadow-models.md
       - Changelog: extensions/other/changelog.md
   - Stubs: extensions/stubs.md
+  - Testing: extensions/testing.md
   - Utilities:
       - Intentions Menu: extensions/utils/intentions-menu.md
       - Model Listener: extensions/utils/model-listener.md

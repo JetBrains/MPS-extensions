@@ -116,6 +116,7 @@
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandbox/com.mbeddr.mpsutil.modellisteners.sandbox.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandboxlang/com.mbeddr.mpsutil.modellisteners.sandboxlang.mpl" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners/com.mbeddr.mpsutil.modellisteners.mpl" folder="modellisteners" />
+      <modulePath path="$PROJECT_DIR$/modellisteners/test.com.mbeddr.mpsutil.modellisteners/test.com.mbeddr.mpsutil.modellisteners.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modelmerger/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger_deprecated" />
       <modulePath path="$PROJECT_DIR$/modelmerger/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger_deprecated" />
       <modulePath path="$PROJECT_DIR$/modelmerger/languages/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger.test.language" />
@@ -223,6 +224,10 @@
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables.runtime/test.de.slisson.mps.tables.runtime.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables/test.de.slisson.mps.tables.msd" folder="tables" />
+      <modulePath path="$PROJECT_DIR$/testing/languages/nl.f1re.testing.examples.lang/nl.f1re.testing.examples.lang.mpl" folder="testing" />
+      <modulePath path="$PROJECT_DIR$/testing/languages/nl.f1re.testing/nl.f1re.testing.mpl" folder="testing" />
+      <modulePath path="$PROJECT_DIR$/testing/solutions/nl.f1re.testing.examples/nl.f1re.testing.examples.msd" folder="testing" />
+      <modulePath path="$PROJECT_DIR$/testing/solutions/nl.f1re.testing.runtime/nl.f1re.testing.runtime.msd" folder="testing" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/MPS.ThirdParty/MPS.ThirdParty.msd" folder="3rd-party" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/third.party.usage.test/third.party.usage.test.msd" folder="3rd-party" />
       <modulePath path="$PROJECT_DIR$/tooltips/solutions/de.itemis.mps.tooltips.runtime/de.itemis.mps.tooltips.runtime.msd" folder="tooltips" />

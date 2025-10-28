@@ -29,7 +29,7 @@ To use MPS Extensions in your project, add one of the following dependencies to 
 
 ## Building
 
-See the [building](https://jetbrains.github.io/MPS-extensions/building/) page of the documentation.
+See the [building](docs/building.md) page of the documentation.
 
 ## Documentation
 

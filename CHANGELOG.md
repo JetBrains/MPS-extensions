@@ -8,7 +8,12 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
+- *de.itemis.mps.extensions.build* Version number is now set correctly in the `build.properties` file inside the published artifact.
 - *de.itemis.mps.editor.bool.runtime* Improve loading of checkbox images to work in scenarios where the node being edited is not part of a model (even if only temporarily).
+
+### Changed
+
+- *de.itemis.mps.extensions.build* The version number property was renamed from `versionNumber` to `version`.
 
 ## September 2025
 
@@ -30,6 +35,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.compare* Added support for ignoring references.
 - *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
 - *nl.f1re.mps.editor.swing* Add a new language for customizing swing components.
+- *nl.f1re.mpsutil.hasher* Added efficient, configurable hashing of subtrees.
 
 ### Fixed
 

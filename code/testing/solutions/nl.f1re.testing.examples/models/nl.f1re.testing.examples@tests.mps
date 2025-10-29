@@ -56,7 +56,6 @@
     <import index="6lvu" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellMenu(MPS.Editor/)" />
     <import index="fnpx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.notification(MPS.IDEA/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
-    <import index="fnpy" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.notification(MPS.IDEA/)" />
     <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" />
     <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
@@ -2054,7 +2053,7 @@
                         <ref role="3cqZAo" node="6HRhZeXLKT7" resolve="notification" />
                       </node>
                       <node concept="liA8E" id="6HRhZeXLNH8" role="2OqNvi">
-                        <ref role="37wK5l" to="fnpy:~Notification.getTitle()" resolve="getTitle" />
+                        <ref role="37wK5l" to="fnpx:~Notification.getTitle()" resolve="getTitle" />
                       </node>
                     </node>
                   </node>
@@ -2067,7 +2066,7 @@
                         <ref role="3cqZAo" node="6HRhZeXLKT7" resolve="notification" />
                       </node>
                       <node concept="liA8E" id="6HRhZeXLNHd" role="2OqNvi">
-                        <ref role="37wK5l" to="fnpy:~Notification.getContent()" resolve="getContent" />
+                        <ref role="37wK5l" to="fnpx:~Notification.getContent()" resolve="getContent" />
                       </node>
                     </node>
                   </node>
@@ -2077,12 +2076,12 @@
                         <ref role="3cqZAo" node="6HRhZeXLKT7" resolve="notification" />
                       </node>
                       <node concept="liA8E" id="6HRhZeXLNHh" role="2OqNvi">
-                        <ref role="37wK5l" to="fnpy:~Notification.getType()" resolve="getType" />
+                        <ref role="37wK5l" to="fnpx:~Notification.getType()" resolve="getType" />
                       </node>
                     </node>
                     <node concept="Rm8GO" id="6HRhZeXLNHi" role="3tpDZB">
-                      <ref role="Rm8GQ" to="fnpy:~NotificationType.INFORMATION" resolve="INFORMATION" />
-                      <ref role="1Px2BO" to="fnpy:~NotificationType" resolve="NotificationType" />
+                      <ref role="Rm8GQ" to="fnpx:~NotificationType.INFORMATION" resolve="INFORMATION" />
+                      <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
                     </node>
                   </node>
                 </node>

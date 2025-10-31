@@ -240,6 +240,67 @@
         <property role="15ShDw" value="2025" />
       </node>
       <node concept="15bAme" id="7Ub7KQvMivQ" role="15bAlL">
+        <node concept="2DRihI" id="4fDEEqR4ckh" role="15bAlk">
+          <node concept="15Ami3" id="4fDEEqR4cki" role="1PaTwD">
+            <node concept="37shsh" id="4fDEEqR4ckj" role="15Aodc">
+              <node concept="1dCxOk" id="4fDEEqR4cko" role="37shsm">
+                <property role="1XweGW" value="c6420b75-4569-420d-aaf7-9bc590ad7b2a" />
+                <property role="1XxBO9" value="de.itemis.mps.comparator" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckt" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4cku" role="1PaTwD">
+            <property role="3oM_SC" value="freeze" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckv" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckw" role="1PaTwD">
+            <property role="3oM_SC" value="fixed" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckx" role="1PaTwD">
+            <property role="3oM_SC" value="when" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4cky" role="1PaTwD">
+            <property role="3oM_SC" value="opening" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckz" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ck$" role="1PaTwD">
+            <property role="3oM_SC" value="diff" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ck_" role="1PaTwD">
+            <property role="3oM_SC" value="viewer" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckA" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckB" role="1PaTwD">
+            <property role="3oM_SC" value="indexing" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckC" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckD" role="1PaTwD">
+            <property role="3oM_SC" value="going" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckE" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckF" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckG" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="4fDEEqR4ckH" role="1PaTwD">
+            <property role="3oM_SC" value="background." />
+          </node>
+        </node>
         <node concept="2DRihI" id="5SI69co7Pvy" role="15bAlk">
           <node concept="15Ami3" id="5SI69co7Pv_" role="1PaTwD">
             <node concept="37shsh" id="5SI69co7PvA" role="15Aodc">

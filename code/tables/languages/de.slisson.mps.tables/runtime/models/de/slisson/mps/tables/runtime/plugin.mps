@@ -7,8 +7,8 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="4" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -23,7 +23,6 @@
     <import index="6tp1" ref="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)" />
     <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
     <import index="z2i8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.icons(MPS.IDEA/)" />
-    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
     <import index="jbqa" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ide(MPS.IDEA/)" />
@@ -34,6 +33,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
+    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="90d" ref="r:421d64ed-8024-497f-aeab-8bddeb389dd2(jetbrains.mps.lang.extension.methods)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -1407,15 +1407,6 @@
         <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
       </node>
     </node>
-  </node>
-  <node concept="1ESbSp" id="1NwsJMVJ99k">
-    <property role="3GE5qa" value="actions" />
-    <property role="TrG5h" value="MainToolbarCenter" />
-    <node concept="10M0yZ" id="1NwsJMVK74H" role="3mKD$K">
-      <ref role="3cqZAo" to="qkt:~IdeActions.GROUP_MAIN_TOOLBAR_CENTER" resolve="GROUP_MAIN_TOOLBAR_CENTER" />
-      <ref role="1PxDUh" to="qkt:~IdeActions" resolve="IdeActions" />
-    </node>
-    <node concept="ftmFs" id="1NwsJMVJ9zE" role="ftER_" />
   </node>
   <node concept="312cEu" id="12YYiosJ3v6">
     <property role="3GE5qa" value="copyPaste" />
@@ -3872,6 +3863,9 @@
           <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
         </node>
       </node>
+      <node concept="2AHcQZ" id="6Qwtr1aKRPF" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
     </node>
     <node concept="3Tm1VV" id="12YYiosxYeI" role="1B3o_S" />
   </node>
@@ -4375,6 +4369,15 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="12YYiosIBcZ" role="1B3o_S" />
+  </node>
+  <node concept="1ESbSp" id="1NwsJMVJ99k">
+    <property role="3GE5qa" value="actions" />
+    <property role="TrG5h" value="MainToolbarCenter" />
+    <node concept="10M0yZ" id="1NwsJMVK74H" role="3mKD$K">
+      <ref role="3cqZAo" to="qkt:~IdeActions.GROUP_MAIN_TOOLBAR_CENTER" resolve="GROUP_MAIN_TOOLBAR_CENTER" />
+      <ref role="1PxDUh" to="qkt:~IdeActions" resolve="IdeActions" />
+    </node>
+    <node concept="ftmFs" id="1NwsJMVJ9zE" role="ftER_" />
   </node>
 </model>
 

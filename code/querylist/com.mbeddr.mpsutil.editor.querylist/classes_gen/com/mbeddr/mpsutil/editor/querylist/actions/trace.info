@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="12,0,28,0" name="com.mbeddr.mpsutil.editor.querylist.actions.ActionAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:4caa2d61-d9e6-46c9-bcc0-0c94b6efe74d(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.actions)/3813940761427018333">
+    <file name="NodeFactories.java">
+      <node id="3813940761427020530" at="20,102,21,75" concept="1" />
+      <node id="3813940761427415470" at="21,75,22,125" concept="3" />
+      <node id="3813940761427415961" at="22,125,23,66" concept="1" />
+      <node id="3813940761427497468" at="23,66,24,103" concept="1" />
+      <node id="3813940761427547063" at="24,103,25,115" concept="1" />
+      <node id="8155560600366480631" at="27,69,28,82" concept="3" />
+      <node id="8155560600366480631" at="29,7,30,87" concept="3" />
+      <node id="8155560600366480631" at="31,9,32,100" concept="3" />
+      <node id="8155560600366480631" at="33,11,34,104" concept="3" />
+      <node id="8155560600366480631" at="35,13,36,98" concept="3" />
+      <node id="8155560600366480631" at="36,98,37,78" concept="1" />
+      <node id="8155560600366480631" at="41,7,42,28" concept="4" />
+      <node id="3813940761427018333" at="47,0,48,0" concept="5" trace="duplicatesSafe$4hD_" />
+      <node id="3813940761427018333" at="48,0,49,0" concept="5" trace="flag$7SqM" />
+      <node id="3813940761427018333" at="52,0,53,0" concept="5" trace="styleItem$FgZD" />
+      <node id="3813940761427018333" at="53,0,54,0" concept="5" trace="query$SeiT" />
+      <node id="3813940761427018333" at="54,0,55,0" concept="5" trace="elementsConcept$rxy0" />
+      <node id="3813940761427018333" at="55,0,56,0" concept="5" trace="body$e68K" />
+      <node id="3813940761427018333" at="56,0,57,0" concept="5" trace="statement$53DE" />
+      <node id="3813940761427018333" at="57,0,58,0" concept="5" trace="expression$5L7M" />
+      <node id="3813940761427018333" at="58,0,59,0" concept="5" trace="creator$BsHW" />
+      <node id="3813940761427018333" at="59,0,60,0" concept="5" trace="elementType$J92K" />
+      <node id="3813940761427018333" at="63,0,64,0" concept="5" trace="ReadOnlyStyleClassItem$9W" />
+      <node id="3813940761427018333" at="64,0,65,0" concept="5" trace="BaseConcept$gP" />
+      <node id="3813940761427018333" at="65,0,66,0" concept="5" trace="Function_GetElements$3b" />
+      <node id="3813940761427018333" at="66,0,67,0" concept="5" trace="StatementList$m_" />
+      <node id="3813940761427018333" at="67,0,68,0" concept="5" trace="ExpressionStatement$O8" />
+      <node id="3813940761427018333" at="68,0,69,0" concept="5" trace="GenericNewExpression$Fh" />
+      <node id="3813940761427018333" at="69,0,70,0" concept="5" trace="SequenceCreator$rs" />
+      <node id="3813940761427018333" at="70,0,71,0" concept="5" trace="SNodeType$hR" />
+      <node id="8155560600366480631" at="34,104,38,13" concept="0" />
+      <node id="3813940761427018334" at="20,0,27,0" concept="2" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;ILorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="8155560600366480631" at="32,100,39,11" concept="0" />
+      <node id="8155560600366480631" at="30,87,40,9" concept="0" />
+      <node id="8155560600366480631" at="28,82,41,7" concept="0" />
+      <node id="8155560600366480631" at="27,0,44,0" concept="6" trace="createFunction_GetElements_p1xmkz_a0d0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="8155560600366480631" at="35,13,37,78">
+        <var name="n4" id="8155560600366480631" />
+      </scope>
+      <scope id="3813940761427018334" at="20,102,25,115">
+        <var name="readOnly" id="3813940761427415473" />
+      </scope>
+      <scope id="8155560600366480631" at="33,11,38,13">
+        <var name="n3" id="8155560600366480631" />
+      </scope>
+      <scope id="3813940761427018334" at="20,0,27,0">
+        <var name="enclosingNode" id="3813940761427018334" />
+        <var name="index" id="3813940761427018334" />
+        <var name="model" id="3813940761427018334" />
+        <var name="newNode" id="3813940761427018334" />
+        <var name="sampleNode" id="3813940761427018334" />
+      </scope>
+      <scope id="8155560600366480631" at="31,9,39,11">
+        <var name="n2" id="8155560600366480631" />
+      </scope>
+      <scope id="8155560600366480631" at="29,7,40,9">
+        <var name="n1" id="8155560600366480631" />
+      </scope>
+      <scope id="8155560600366480631" at="27,69,42,28">
+        <var name="n0" id="8155560600366480631" />
+      </scope>
+      <scope id="8155560600366480631" at="27,0,44,0" />
+      <unit id="3813940761427018333" at="46,0,50,0" name="com.mbeddr.mpsutil.editor.querylist.actions.NodeFactories$PROPS" />
+      <unit id="3813940761427018333" at="51,0,61,0" name="com.mbeddr.mpsutil.editor.querylist.actions.NodeFactories$LINKS" />
+      <unit id="3813940761427018333" at="62,0,72,0" name="com.mbeddr.mpsutil.editor.querylist.actions.NodeFactories$CONCEPTS" />
+      <unit id="3813940761427018334" at="19,0,45,0" name="com.mbeddr.mpsutil.editor.querylist.actions.NodeFactories$NodeFactory_3813940761427018334" />
+      <unit id="3813940761427018333" at="18,0,73,0" name="com.mbeddr.mpsutil.editor.querylist.actions.NodeFactories" />
+    </file>
+  </root>
+</debug-info>
+

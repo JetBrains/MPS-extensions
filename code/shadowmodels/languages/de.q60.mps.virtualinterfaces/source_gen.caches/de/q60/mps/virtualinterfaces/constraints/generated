@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-do8yjnu7bwzcwonfiqabmzmhtslvm96">
+  <files names="ConstraintsAspectDescriptor.java:ImplementsOperation_Constraints.java:MethodImplementation_Constraints.java:ParameterReference_Constraints.java:ThisExpression_Constraints.java:VirtualMethodCallOperation_Constraints.java" />
+</product>
+

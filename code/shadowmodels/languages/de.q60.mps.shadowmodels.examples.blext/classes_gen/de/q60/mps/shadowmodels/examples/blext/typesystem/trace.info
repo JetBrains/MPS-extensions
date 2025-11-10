@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,20,0" name="de.q60.mps.shadowmodels.examples.blext.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:6b33dfa0-0c22-495a-a2e1-538819367843(de.q60.mps.shadowmodels.examples.blext.typesystem)/8286906820978300116">
+    <file name="TypesystemDescriptor.java">
+      <node id="8286906820978300116" at="10,5,11,96" concept="4" />
+      <node id="8286906820978300116" at="11,96,12,47" concept="2" />
+      <node id="8286906820978300116" at="9,33,13,5" concept="0" />
+      <scope id="8286906820978300116" at="10,5,12,47">
+        <var name="inferenceRule" id="8286906820978300116" />
+      </scope>
+    </file>
+    <file name="typeof_VariableWithInferredType_InferenceRule.java">
+      <node id="8286906820978300702" at="21,5,22,43" concept="4" />
+      <node id="8286906820978300702" at="22,43,23,215" concept="4" />
+      <node id="8286906820978300702" at="23,215,24,458" concept="2" />
+      <node id="8286906820978300116" at="27,50,28,48" concept="5" />
+      <node id="8286906820978300116" at="30,68,31,102" concept="5" />
+      <node id="8286906820978300116" at="33,30,34,17" concept="5" />
+      <node id="8286906820978300116" at="38,0,39,0" concept="6" trace="initializer$2j2M" />
+      <node id="8286906820978300116" at="42,0,43,0" concept="6" trace="VariableWithInferredType$dc" />
+      <node id="8286906820978300116" at="18,0,20,0" concept="1" trace="typeof_VariableWithInferredType_InferenceRule#()V" />
+      <node id="8286906820978300116" at="27,0,30,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8286906820978300116" at="30,0,33,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8286906820978300116" at="33,0,36,0" concept="3" trace="overrides#()Z" />
+      <node id="8286906820978300702" at="20,114,25,5" concept="0" />
+      <node id="8286906820978300116" at="20,0,27,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8286906820978300116" at="18,58,18,58" />
+      <scope id="8286906820978300116" at="27,50,28,48" />
+      <scope id="8286906820978300116" at="30,68,31,102" />
+      <scope id="8286906820978300116" at="33,30,34,17" />
+      <scope id="8286906820978300116" at="18,0,20,0" />
+      <scope id="8286906820978300702" at="21,5,24,458">
+        <var name="_info_12389875345" id="8286906820978300702" />
+        <var name="_nodeToCheck_1029348928467" id="8286906820978300702" />
+      </scope>
+      <scope id="8286906820978300116" at="27,0,30,0" />
+      <scope id="8286906820978300116" at="30,0,33,0">
+        <var name="argument" id="8286906820978300116" />
+      </scope>
+      <scope id="8286906820978300116" at="33,0,36,0" />
+      <scope id="8286906820978300117" at="20,114,25,5" />
+      <scope id="8286906820978300116" at="20,0,27,0">
+        <var name="n" id="8286906820978300116" />
+        <var name="status" id="8286906820978300116" />
+        <var name="typeCheckingContext" id="8286906820978300116" />
+      </scope>
+      <unit id="8286906820978300116" at="37,0,40,0" name="de.q60.mps.shadowmodels.examples.blext.typesystem.typeof_VariableWithInferredType_InferenceRule$LINKS" />
+      <unit id="8286906820978300116" at="41,0,44,0" name="de.q60.mps.shadowmodels.examples.blext.typesystem.typeof_VariableWithInferredType_InferenceRule$CONCEPTS" />
+      <unit id="8286906820978300116" at="17,0,45,0" name="de.q60.mps.shadowmodels.examples.blext.typesystem.typeof_VariableWithInferredType_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:6b33dfa0-0c22-495a-a2e1-538819367843(de.q60.mps.shadowmodels.examples.blext.typesystem)/8286906820978319829">
+    <file name="TypesystemDescriptor.java">
+      <node id="8286906820978319829" at="14,5,15,106" concept="4" />
+      <node id="8286906820978319829" at="15,106,16,47" concept="2" />
+      <node id="8286906820978319829" at="13,5,17,5" concept="0" />
+      <scope id="8286906820978319829" at="14,5,16,47">
+        <var name="inferenceRule" id="8286906820978319829" />
+      </scope>
+    </file>
+    <file name="typeof_VariableWithInferredType_Reference_InferenceRule.java">
+      <node id="8286906820978320417" at="21,5,22,43" concept="4" />
+      <node id="8286906820978320417" at="22,43,23,215" concept="4" />
+      <node id="8286906820978320417" at="23,215,24,450" concept="2" />
+      <node id="8286906820978319829" at="27,50,28,58" concept="5" />
+      <node id="8286906820978319829" at="30,68,31,102" concept="5" />
+      <node id="8286906820978319829" at="33,30,34,17" concept="5" />
+      <node id="8286906820978319829" at="38,0,39,0" concept="6" trace="var$sBf$" />
+      <node id="8286906820978319829" at="42,0,43,0" concept="6" trace="VariableWithInferredType_Reference$H9" />
+      <node id="8286906820978319829" at="18,0,20,0" concept="1" trace="typeof_VariableWithInferredType_Reference_InferenceRule#()V" />
+      <node id="8286906820978319829" at="27,0,30,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8286906820978319829" at="30,0,33,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8286906820978319829" at="33,0,36,0" concept="3" trace="overrides#()Z" />
+      <node id="8286906820978320417" at="20,114,25,5" concept="0" />
+      <node id="8286906820978319829" at="20,0,27,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8286906820978319829" at="18,68,18,68" />
+      <scope id="8286906820978319829" at="27,50,28,58" />
+      <scope id="8286906820978319829" at="30,68,31,102" />
+      <scope id="8286906820978319829" at="33,30,34,17" />
+      <scope id="8286906820978319829" at="18,0,20,0" />
+      <scope id="8286906820978320417" at="21,5,24,450">
+        <var name="_info_12389875345" id="8286906820978320417" />
+        <var name="_nodeToCheck_1029348928467" id="8286906820978320417" />
+      </scope>
+      <scope id="8286906820978319829" at="27,0,30,0" />
+      <scope id="8286906820978319829" at="30,0,33,0">
+        <var name="argument" id="8286906820978319829" />
+      </scope>
+      <scope id="8286906820978319829" at="33,0,36,0" />
+      <scope id="8286906820978319830" at="20,114,25,5" />
+      <scope id="8286906820978319829" at="20,0,27,0">
+        <var name="n" id="8286906820978319829" />
+        <var name="status" id="8286906820978319829" />
+        <var name="typeCheckingContext" id="8286906820978319829" />
+      </scope>
+      <unit id="8286906820978319829" at="37,0,40,0" name="de.q60.mps.shadowmodels.examples.blext.typesystem.typeof_VariableWithInferredType_Reference_InferenceRule$LINKS" />
+      <unit id="8286906820978319829" at="41,0,44,0" name="de.q60.mps.shadowmodels.examples.blext.typesystem.typeof_VariableWithInferredType_Reference_InferenceRule$CONCEPTS" />
+      <unit id="8286906820978319829" at="17,0,45,0" name="de.q60.mps.shadowmodels.examples.blext.typesystem.typeof_VariableWithInferredType_Reference_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
+

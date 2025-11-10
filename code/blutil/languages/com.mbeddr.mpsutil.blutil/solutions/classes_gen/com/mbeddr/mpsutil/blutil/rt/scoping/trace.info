@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:710b40a3-8d53-4de4-b09d-1250b0ff1997(com.mbeddr.mpsutil.blutil.rt.scoping)/5702649690329982502">
+    <file name="UniqueElementScope.java">
+      <node id="5702649690330120521" at="18,65,19,41" concept="3" />
+      <node id="5702649690330532106" at="28,69,29,66" concept="2" />
+      <node id="5702649690330533540" at="29,66,30,50" concept="3" />
+      <node id="3961775458390497681" at="33,51,34,17" concept="5" />
+      <node id="3961775458390497757" at="38,72,39,75" concept="2" />
+      <node id="5702649690330022598" at="39,75,40,63" concept="3" />
+      <node id="5702649690330119408" at="18,0,21,0" concept="4" trace="create#(Ljetbrains/mps/scope/Scope;)Lcom/mbeddr/mpsutil/blutil/rt/scoping/UniqueElementScope;" />
+      <node id="3961775458390497666" at="33,0,36,0" concept="0" trace="UniqueElementScope#(Ljetbrains/mps/scope/Scope;)V" />
+      <node id="5702649690330525432" at="28,0,32,0" concept="4" trace="createComposite#(null)Lcom/mbeddr/mpsutil/blutil/rt/scoping/UniqueElementScope;" />
+      <node id="3961775458390497700" at="37,0,42,0" concept="1" trace="getAvailableElements#(Ljava/lang/String;)Ljava/lang/Iterable;" />
+      <scope id="5702649690330119411" at="18,65,19,41" />
+      <scope id="3961775458390497669" at="33,51,34,17" />
+      <scope id="5702649690330525435" at="28,69,30,50">
+        <var name="compositeScope" id="5702649690330532107" />
+      </scope>
+      <scope id="3961775458390497706" at="38,72,40,63">
+        <var name="availableElements" id="3961775458390497758" />
+      </scope>
+      <scope id="5702649690330119408" at="18,0,21,0">
+        <var name="scope" id="5702649690330119841" />
+      </scope>
+      <scope id="3961775458390497666" at="33,0,36,0">
+        <var name="scope" id="3961775458390497677" />
+      </scope>
+      <scope id="5702649690330525432" at="28,0,32,0">
+        <var name="scopes" id="8401916545537277353" />
+      </scope>
+      <scope id="3961775458390497700" at="37,0,42,0">
+        <var name="prefix" id="3961775458390497703" />
+      </scope>
+      <unit id="5702649690329982502" at="16,0,43,0" name="com.mbeddr.mpsutil.blutil.rt.scoping.UniqueElementScope" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/1270059326695151419">
+    <file name="GoToEditorLineGroup_ActionGroup.java">
+      <node id="1270059326695151419" at="10,0,11,0" concept="11" trace="ID" />
+      <node id="1270059326695151419" at="12,77,13,45" concept="13" />
+      <node id="1270059326695151419" at="13,45,14,25" concept="2" />
+      <node id="1270059326695151419" at="14,25,15,20" concept="2" />
+      <node id="1270059326695151424" at="15,20,16,109" concept="2" />
+      <node id="1270059326695151419" at="12,0,18,0" concept="1" trace="GoToEditorLineGroup_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="1270059326695151419" at="12,77,16,109" />
+      <scope id="1270059326695151419" at="12,0,18,0">
+        <var name="plugin" id="1270059326695151419" />
+      </scope>
+      <unit id="1270059326695151419" at="9,0,19,0" name="de.itemis.mps.linenumbers.plugin.GoToEditorLineGroup_ActionGroup" />
+    </file>
+    <file name="Linenumbers_ApplicationPlugin.java">
+      <node id="1270059326695151419" at="24,13,25,56" concept="2" />
+      <node id="1270059326695151426" at="28,37,29,141" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/1310226988303652847">
+    <file name="Linenumbers_ApplicationPlugin.java">
+      <node id="1310226988303652847" at="10,0,11,0" concept="3" trace="myId" />
+      <node id="1310226988303652847" at="16,27,17,16" concept="8" />
+      <node id="1310226988303652847" at="20,30,21,29" concept="9" />
+      <node id="1310226988303652847" at="23,46,24,13" concept="9" />
+      <node id="1310226988303652847" at="12,0,14,0" concept="1" trace="Linenumbers_ApplicationPlugin#()V" />
+      <node id="1310226988303652847" at="15,0,19,0" concept="6" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="1310226988303652847" at="28,0,32,0" concept="6" trace="adjustRegularGroups#()V" />
+      <node id="1310226988303652847" at="20,0,28,0" concept="6" trace="createGroups#()V" />
+      <scope id="1310226988303652847" at="12,42,12,42" />
+      <scope id="1310226988303652847" at="16,27,17,16" />
+      <scope id="1310226988303652847" at="12,0,14,0" />
+      <scope id="1310226988303652847" at="28,37,30,140" />
+      <scope id="1310226988303652847" at="15,0,19,0" />
+      <scope id="1310226988303652847" at="28,0,32,0" />
+      <scope id="1310226988303652847" at="20,30,26,59" />
+      <scope id="1310226988303652847" at="20,0,28,0" />
+      <unit id="1310226988303652847" at="9,0,33,0" name="de.itemis.mps.linenumbers.plugin.Linenumbers_ApplicationPlugin" />
+    </file>
+    <file name="Linenumbers_ProjectPlugin.java">
+      <node id="1310226988303652847" at="10,0,12,0" concept="1" trace="Linenumbers_ProjectPlugin#()V" />
+      <node id="1310226988303652847" at="12,0,15,0" concept="6" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="1310226988303652847" at="10,38,10,38" />
+      <scope id="1310226988303652847" at="12,62,13,56" />
+      <scope id="1310226988303652847" at="10,0,12,0" />
+      <scope id="1310226988303652847" at="12,0,15,0">
+        <var name="parts" id="1310226988303652847" />
+      </scope>
+      <unit id="1310226988303652847" at="9,0,16,0" name="de.itemis.mps.linenumbers.plugin.Linenumbers_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/1570968732542744769">
+    <file name="AbstractLineList.java">
+      <node id="1570968732542776214" at="11,0,12,0" concept="3" trace="expandedSize" />
+      <node id="1570968732542778125" at="13,41,14,24" concept="2" />
+      <node id="1570968732542801560" at="17,32,18,59" concept="8" />
+      <node id="1570968732543543123" at="22,33,23,41" concept="8" />
+      <node id="1570968732543551070" at="27,43,28,39" concept="2" />
+      <node id="1570968732545514755" at="32,44,33,25" concept="7" />
+      <node id="1570968732545523302" at="33,25,34,36" concept="7" />
+      <node id="1570968732545528076" at="34,36,35,25" concept="7" />
+      <node id="1570968732545533668" at="35,25,36,36" concept="7" />
+      <node id="1570968732546200825" at="37,49,38,19" concept="8" />
+      <node id="1570968732545557391" at="40,49,41,18" concept="8" />
+      <node id="1570968732545564134" at="43,49,44,18" concept="8" />
+      <node id="3823949731510594685" at="46,49,47,18" concept="8" />
+      <node id="3823949731510594674" at="49,49,50,18" concept="8" />
+      <node id="1570968732545511994" at="51,5,52,17" concept="8" />
+      <node id="1570968732545665969" at="56,43,57,182" concept="7" />
+      <node id="1570968732545677433" at="57,182,58,84" concept="7" />
+      <node id="1570968732545708185" at="60,120,61,60" concept="2" />
+      <node id="1570968732545763397" at="63,5,64,40" concept="8" />
+      <node id="1570968732546173005" at="36,36,39,5" concept="5" />
+      <node id="1570968732545537533" at="39,5,42,5" concept="5" />
+      <node id="1570968732545564132" at="42,5,45,5" concept="5" />
+      <node id="3823949731510594683" at="45,5,48,5" concept="5" />
+      <node id="3823949731510594672" at="48,5,51,5" concept="5" />
+      <node id="1570968732545692079" at="59,55,62,7" concept="5" />
+      <node id="1570968732542772905" at="12,0,16,0" concept="6" trace="setExpandedSize#(I)V" />
+      <node id="1570968732542798109" at="16,0,20,0" concept="6" trace="getExpandedSize#()I" />
+      <node id="1570968732543539127" at="21,0,25,0" concept="6" trace="getExpandedDelta#()I" />
+      <node id="1570968732543539135" at="26,0,30,0" concept="6" trace="setExpandedDelta#(I)V" />
+      <node id="1570968732545674018" at="58,84,63,5" concept="4" />
+      <node id="1570968732545606880" at="55,0,66,0" concept="6" trace="merge#(Lde/itemis/mps/linenumbers/plugin/ILineList;)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <node id="1570968732545510023" at="31,0,54,0" concept="6" trace="overlaps#(Lde/itemis/mps/linenumbers/plugin/ILineList;)Z" />
+      <scope id="1570968732542772911" at="13,41,14,24" />
+      <scope id="1570968732542798113" at="17,32,18,59" />
+      <scope id="1570968732543539131" at="22,33,23,41" />
+      <scope id="1570968732543539141" at="27,43,28,39" />
+      <scope id="1570968732546173007" at="37,49,38,19" />
+      <scope id="1570968732545537535" at="40,49,41,18" />
+      <scope id="1570968732545564133" at="43,49,44,18" />
+      <scope id="3823949731510594684" at="46,49,47,18" />
+      <scope id="3823949731510594673" at="49,49,50,18" />
+      <scope id="1570968732545692081" at="60,120,61,60" />
+      <scope id="1570968732545674024" at="59,55,62,7" />
+      <scope id="1570968732542772905" at="12,0,16,0">
+        <var name="size" id="1570968732542772906" />
+      </scope>
+      <scope id="1570968732542798109" at="16,0,20,0" />
+      <scope id="1570968732543539127" at="21,0,25,0" />
+      <scope id="1570968732543539135" at="26,0,30,0">
+        <var name="delta" id="1570968732543539136" />
+      </scope>
+      <scope id="1570968732545674018" at="58,84,63,5">
+        <var name="line" id="1570968732545674020" />
+      </scope>
+      <scope id="1570968732545606886" at="56,43,64,40">
+        <var name="allLines" id="1570968732545665970" />
+        <var name="mergedLines" id="1570968732545677436" />
+      </scope>
+      <scope id="1570968732545606880" at="55,0,66,0">
+        <var name="other" id="1570968732545606881" />
+      </scope>
+      <scope id="1570968732545510029" at="32,44,52,17">
+        <var name="maxY" id="1570968732545528077" />
+        <var name="minY" id="1570968732545514756" />
+        <var name="otherMaxY" id="1570968732545533669" />
+        <var name="otherMinY" id="1570968732545523303" />
+      </scope>
+      <scope id="1570968732545510023" at="31,0,54,0">
+        <var name="other" id="1570968732545510024" />
+      </scope>
+      <unit id="1570968732542744769" at="10,0,67,0" name="de.itemis.mps.linenumbers.plugin.AbstractLineList" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/4428085740034618366">
+    <file name="LineNumberComponent.java">
+      <node id="4719708955594773770" at="34,0,35,0" concept="11" trace="RELAYOUT_THROTTLE_INTERVAL" />
+      <node id="416988070915458461" at="39,0,40,0" concept="11" trace="THROTTLE_START" />
+      <node id="4428085740034640317" at="41,0,42,0" concept="11" trace="instances" />
+      <node id="4428085740034669492" at="43,90,44,87" concept="7" />
+      <node id="4428085740034674205" at="45,27,46,58" concept="2" />
+      <node id="4428085740034718792" at="46,58,47,68" concept="2" />
+      <node id="4428085740034751417" at="48,5,49,20" concept="8" />
+      <node id="4428085740034727021" at="52,82,53,63" concept="8" />
+      <node id="4428085740034749160" at="57,153,58,27" concept="2" />
+      <node id="4428085740034686861" at="62,0,63,0" concept="3" trace="myEditorComponent" />
+      <node id="4266766347145680164" at="65,0,66,0" concept="3" trace="textPaddingLeft" />
+      <node id="4266766347145687909" at="66,0,67,0" concept="3" trace="textPaddingRight" />
+      <node id="4266766347145726382" at="67,0,68,0" concept="3" trace="textWidth" />
+      <node id="2171260145939847277" at="68,0,69,0" concept="3" trace="lastUpdated" />
+      <node id="416988070915140586" at="69,0,70,0" concept="3" trace="updateCount" />
+      <node id="4428085740034799343" at="71,64,72,54" concept="13" />
+      <node id="4428085740034692187" at="72,54,73,76" concept="2" />
+      <node id="4428085740034769125" at="76,82,77,52" concept="2" />
+      <node id="4428085740034778039" at="77,52,78,20" concept="2" />
+      <node id="4428085740034711312" at="83,47,84,35" concept="8" />
+      <node id="5290837212196981545" at="87,41,88,134" concept="9" />
+      <node id="7049628792701151774" at="88,134,89,120" concept="7" />
+      <node id="7049628792701223346" at="89,120,90,78" concept="8" />
+      <node id="8411736896760345432" at="93,25,94,104" concept="7" />
+      <node id="8411736896760432350" at="95,95,96,13" concept="8" />
+      <node id="4428085740034804942" at="98,72,99,53" concept="2" />
+      <node id="4266766347153908401" at="100,5,101,29" concept="2" />
+      <node id="4428085740034704122" at="104,27,105,67" concept="2" />
+      <node id="4428085740034808567" at="106,69,107,56" concept="2" />
+      <node id="4428085740034812305" at="108,5,109,14" concept="2" />
+      <node id="1106321084074747817" at="112,57,113,61" concept="7" />
+      <node id="5767255608418905502" at="113,61,114,64" concept="2" />
+      <node id="5767255608418827612" at="115,24,116,32" concept="2" />
+      <node id="4266766347145881402" at="117,5,118,21" concept="2" />
+      <node id="4180550254410779927" at="122,24,123,21" concept="2" />
+      <node id="6946504055433438865" at="124,12,125,85" concept="7" />
+      <node id="4266766347145652400" at="125,85,126,74" concept="7" />
+      <node id="4266766347145743765" at="126,74,127,124" concept="2" />
+      <node id="4266766347145192285" at="132,46,133,41" concept="7" />
+      <node id="1396967583415207681" at="133,41,134,48" concept="2" />
+      <node id="770908623255511881" at="134,48,135,83" concept="7" />
+      <node id="770908623255499127" at="135,83,136,27" concept="2" />
+      <node id="770908623254733867" at="136,27,137,42" concept="2" />
+      <node id="770908623254472025" at="138,24,139,160" concept="2" />
+      <node id="6294123498859339132" at="143,42,144,83" concept="7" />
+      <node id="6294123498859334338" at="144,83,145,72" concept="7" />
+      <node id="5290837212197198059" at="145,72,146,121" concept="9" />
+      <node id="6294123498859294871" at="146,121,147,211" concept="8" />
+      <node id="6294123498859579284" at="150,42,151,83" concept="7" />
+      <node id="6294123498859579292" at="151,83,152,72" concept="7" />
+      <node id="6294123498859553922" at="152,72,153,120" concept="8" />
+      <node id="6294123498860344890" at="156,44,157,21" concept="7" />
+      <node id="6294123498860353270" at="157,21,158,0" concept="10" />
+      <node id="6294123498860505644" at="159,63,160,74" concept="7" />
+      <node id="6294123498860579522" at="161,68,162,20" concept="8" />
+      <node id="6294123498860616927" at="164,5,165,16" concept="8" />
+      <node id="6767522268887647525" at="169,42,170,26" concept="2" />
+      <node id="5071450499998724958" at="170,26,171,41" concept="7" />
+      <node id="5071450499998855908" at="172,30,173,80" concept="2" />
+      <node id="770908623252566952" at="178,25,179,21" concept="8" />
+      <node id="2171260145939901666" at="187,47,188,43" concept="7" />
+      <node id="416988070915302491" at="189,44,190,22" concept="2" />
+      <node id="416988070915383867" at="191,12,192,20" concept="2" />
+      <node id="2171260145940099750" at="194,28,195,66" concept="7" />
+      <node id="2171260145940429799" at="196,87,197,15" concept="8" />
+      <node id="2171260145939953411" at="199,5,200,0" concept="10" />
+      <node id="2171260145940309037" at="200,0,201,32" concept="2" />
+      <node id="2171260145941008468" at="201,32,202,0" concept="10" />
+      <node id="6754159969668259762" at="203,24,204,48" concept="7" />
+      <node id="6754159969668259768" at="205,42,206,15" concept="8" />
+      <node id="1106321084074810920" at="207,7,208,0" concept="10" />
+      <node id="1106321084074815059" at="209,27,210,32" concept="2" />
+      <node id="770908623252599510" at="216,27,217,26" concept="8" />
+      <node id="4428085740034834588" at="63,0,65,0" concept="3" trace="lines" />
+      <node id="416988070915362205" at="191,10,193,5" concept="0" />
+      <node id="4428085740034725530" at="52,0,55,0" concept="12" trace="getInstance#(Ljetbrains/mps/nodeEditor/EditorComponent;)Lde/itemis/mps/linenumbers/plugin/LineNumberComponent;" />
+      <node id="4428085740034733713" at="56,37,59,5" concept="4" />
+      <node id="4428085740034710358" at="83,0,86,0" concept="6" trace="getEditorComponent#()Ljetbrains/mps/nodeEditor/EditorComponent;" />
+      <node id="8411736896760419332" at="94,104,97,5" concept="5" />
+      <node id="4428085740034804940" at="97,5,100,5" concept="5" />
+      <node id="4428085740034808559" at="105,67,108,5" concept="5" />
+      <node id="4180550254410703789" at="114,64,117,5" concept="5" />
+      <node id="4180550254410816395" at="137,42,140,5" concept="5" />
+      <node id="6294123498860362130" at="160,74,163,7" concept="5" />
+      <node id="5071450499998741909" at="171,41,174,5" concept="5" />
+      <node id="4266766347152558689" at="182,0,185,0" concept="6" trace="editorRebuilt#()V" />
+      <node id="2171260145940382009" at="195,66,198,7" concept="5" />
+      <node id="6754159969668259766" at="204,48,207,7" concept="5" />
+      <node id="3023088638168955936" at="208,0,211,7" concept="5" />
+      <node id="4428085740034672599" at="44,87,48,5" concept="5" />
+      <node id="4180550254410802145" at="124,10,128,5" concept="0" />
+      <node id="770908623252566945" at="177,0,181,0" concept="6" trace="getWidth#()I" />
+      <node id="770908623252566961" at="215,0,219,0" concept="6" trace="getName#()Ljava/lang/String;" />
+      <node id="4428085740034732761" at="56,0,61,0" concept="12" trace="uninstallAll#()V" />
+      <node id="4428085740034767379" at="75,0,80,0" concept="6" trace="editorWillBeDisposed#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="7049628792701118082" at="87,0,92,0" concept="6" trace="isRightSideOfEditor#()Z" />
+      <node id="6294123498859435966" at="150,0,155,0" concept="6" trace="getLinePositionY#(Lde/itemis/mps/linenumbers/plugin/Line;)I" />
+      <node id="416988070915165099" at="188,43,193,5" concept="5" />
+      <node id="6294123498859260444" at="143,0,149,0" concept="6" trace="getLinePositionX#(Lde/itemis/mps/linenumbers/plugin/Line;)I" />
+      <node id="6294123498859955592" at="158,0,164,5" concept="4" />
+      <node id="2171260145940011947" at="193,5,199,5" concept="5" />
+      <node id="4428085740034752692" at="73,76,80,7" concept="2" />
+      <node id="4428085740034703221" at="104,0,111,0" concept="6" trace="uninstall#()V" />
+      <node id="4180550254410765276" at="121,32,128,5" concept="5" />
+      <node id="4428085740034668579" at="43,0,51,0" concept="12" trace="getOrCreateInstance#(Ljetbrains/mps/nodeEditor/EditorComponent;)Lde/itemis/mps/linenumbers/plugin/LineNumberComponent;" />
+      <node id="1106321084074582785" at="112,0,120,0" concept="6" trace="updateLineNumbers#(Z)V" />
+      <node id="6767522268887647515" at="168,0,176,0" concept="6" trace="mousePressed#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="4266766347145521880" at="121,0,130,0" concept="6" trace="calculateWidth#()V" />
+      <node id="4428085740034701711" at="93,0,103,0" concept="6" trace="install#()V" />
+      <node id="4180370908487249317" at="202,0,212,5" concept="5" />
+      <node id="4428085740034688979" at="71,0,82,0" concept="1" trace="LineNumberComponent#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="770908623252566937" at="131,0,142,0" concept="6" trace="paint#(Ljava/awt/Graphics;)V" />
+      <node id="6294123498859949668" at="156,0,167,0" concept="6" trace="getClickedLine#(Ljava/awt/event/MouseEvent;)Lde/itemis/mps/linenumbers/plugin/Line;" />
+      <node id="770908623252566953" at="186,0,214,0" concept="6" trace="relayout#(Z)V" />
+      <scope id="4266766347152558693" at="183,31,183,31" />
+      <scope id="4428085740034725533" at="52,82,53,63" />
+      <scope id="4428085740034733716" at="57,153,58,27" />
+      <scope id="4428085740034710361" at="83,47,84,35" />
+      <scope id="8411736896760419334" at="95,95,96,13" />
+      <scope id="4428085740034804941" at="98,72,99,53" />
+      <scope id="4428085740034808566" at="106,69,107,56" />
+      <scope id="4180550254410703791" at="115,24,116,32" />
+      <scope id="4180550254410765278" at="122,24,123,21" />
+      <scope id="4180550254410816397" at="138,24,139,160" />
+      <scope id="6294123498860362132" at="161,68,162,20" />
+      <scope id="5071450499998741911" at="172,30,173,80" />
+      <scope id="770908623252566949" at="178,25,179,21" />
+      <scope id="416988070915165101" at="189,44,190,22" />
+      <scope id="416988070915362206" at="191,12,192,20" />
+      <scope id="2171260145940382011" at="196,87,197,15" />
+      <scope id="6754159969668259767" at="205,42,206,15" />
+      <scope id="3023088638168955938" at="209,27,210,32" />
+      <scope id="770908623252566965" at="216,27,217,26" />
+      <scope id="4428085740034672601" at="45,27,47,68" />
+      <scope id="4428085740034767386" at="76,82,78,20" />
+      <scope id="4428085740034725530" at="52,0,55,0">
+        <var name="editorComponent" id="4428085740034726501" />
+      </scope>
+      <scope id="4428085740034732764" at="56,37,59,5" />
+      <scope id="4428085740034733713" at="56,37,59,5">
+        <var name="instance" id="4428085740034733714" />
+      </scope>
+      <scope id="4428085740034710358" at="83,0,86,0" />
+      <scope id="7049628792701118085" at="87,41,90,78">
+        <var name="convertPoint" id="7049628792701151775" />
+      </scope>
+      <scope id="4180550254410802146" at="124,12,127,124">
+        <var name="font" id="6946504055433438866" />
+        <var name="fontMetrics" id="4266766347145652401" />
+      </scope>
+      <scope id="6294123498859435969" at="150,42,153,120">
+        <var name="font" id="6294123498859579285" />
+        <var name="fontMetrics" id="6294123498859579293" />
+      </scope>
+      <scope id="4266766347152558689" at="182,0,185,0" />
+      <scope id="6294123498859260447" at="143,42,147,211">
+        <var name="font" id="6294123498859339133" />
+        <var name="fontMetrics" id="6294123498859334339" />
+      </scope>
+      <scope id="6294123498859955595" at="159,63,163,7">
+        <var name="cell" id="6294123498860505645" />
+      </scope>
+      <scope id="770908623252566945" at="177,0,181,0" />
+      <scope id="2171260145940011949" at="194,28,198,7">
+        <var name="timeDiffInMS" id="2171260145940099753" />
+      </scope>
+      <scope id="770908623252566961" at="215,0,219,0" />
+      <scope id="4428085740034732761" at="56,0,61,0" />
+      <scope id="4428085740034767379" at="75,0,80,0">
+        <var name="editorComponent" id="4428085740034767383" />
+      </scope>
+      <scope id="7049628792701118082" at="87,0,92,0" />
+      <scope id="4428085740034703224" at="104,27,109,14" />
+      <scope id="6294123498859435966" at="150,0,155,0">
+        <var name="line" id="6294123498859444570" />
+      </scope>
+      <scope id="6767522268887647521" at="169,42,174,5">
+        <var name="clickedLine" id="5071450499998724959" />
+      </scope>
+      <scope id="4428085740034668582" at="43,90,49,20">
+        <var name="instance" id="4428085740034669493" />
+      </scope>
+      <scope id="1106321084074582788" at="112,57,118,21">
+        <var name="rootCell" id="1106321084074747818" />
+      </scope>
+      <scope id="6294123498859260444" at="143,0,149,0">
+        <var name="line" id="6294123498859268017" />
+      </scope>
+      <scope id="6294123498859955592" at="158,0,164,5">
+        <var name="line" id="6294123498859955593" />
+      </scope>
+      <scope id="4428085740034703221" at="104,0,111,0" />
+      <scope id="4266766347145521883" at="121,32,128,5" />
+      <scope id="4428085740034668579" at="43,0,51,0">
+        <var name="editorComponent" id="4428085740034668979" />
+      </scope>
+      <scope id="4428085740034701714" at="93,25,101,29">
+        <var name="project" id="8411736896760345433" />
+      </scope>
+      <scope id="1106321084074582785" at="112,0,120,0">
+        <var name="foldingChanged" id="1570968732542542049" />
+      </scope>
+      <scope id="770908623252566943" at="132,46,140,5">
+        <var name="font" id="770908623255511882" />
+        <var name="g" id="4266766347145192286" />
+      </scope>
+      <scope id="6767522268887647515" at="168,0,176,0">
+        <var name="e" id="6767522268887647519" />
+      </scope>
+      <scope id="4180370908487249319" at="203,24,211,7">
+        <var name="ec" id="6754159969668259763" />
+      </scope>
+      <scope id="4428085740034688982" at="71,64,80,7" />
+      <scope id="4266766347145521880" at="121,0,130,0" />
+      <scope id="6294123498859949671" at="156,44,165,16">
+        <var name="y" id="6294123498860344891" />
+      </scope>
+      <scope id="4428085740034701711" at="93,0,103,0" />
+      <scope id="4428085740034688979" at="71,0,82,0">
+        <var name="editorComponent" id="4428085740034691690" />
+      </scope>
+      <scope id="770908623252566937" at="131,0,142,0">
+        <var name="graphics" id="770908623252566941" />
+      </scope>
+      <scope id="6294123498859949668" at="156,0,167,0">
+        <var name="e" id="6294123498860257991" />
+      </scope>
+      <scope id="770908623252566959" at="187,47,212,5">
+        <var name="currentUpdate" id="2171260145939901669" />
+      </scope>
+      <scope id="770908623252566953" at="186,0,214,0">
+        <var name="updateFolding" id="770908623252566957" />
+      </scope>
+      <unit id="4428085740034767373" at="74,43,80,5" name="de.itemis.mps.linenumbers.plugin.LineNumberComponent$1" />
+      <unit id="4428085740034618366" at="28,0,221,0" name="de.itemis.mps.linenumbers.plugin.LineNumberComponent" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/5767255608417501052">
+    <file name="Line.java">
+      <node id="5767255608417501521" at="10,0,11,0" concept="3" trace="number" />
+      <node id="5767255608417502463" at="11,0,12,0" concept="3" trace="firstCell" />
+      <node id="5767255608417503439" at="13,37,14,31" concept="2" />
+      <node id="5767255608419005675" at="17,31,18,21" concept="8" />
+      <node id="5767255608419015968" at="21,26,22,18" concept="8" />
+      <node id="5767255608417620474" at="26,36,27,42" concept="8" />
+      <node id="5767255608417796072" at="31,24,32,52" concept="8" />
+      <node id="5767255608417807974" at="36,24,37,28" concept="8" />
+      <node id="5767255608417894933" at="42,39,43,42" concept="8" />
+      <node id="5767255608418451297" at="47,24,48,13" concept="8" />
+      <node id="5767255608418420333" at="52,48,53,29" concept="2" />
+      <node id="5767255608419052515" at="57,25,58,16" concept="8" />
+      <node id="1570968732545647091" at="63,51,64,18" concept="8" />
+      <node id="1570968732545627516" at="65,5,66,30" concept="8" />
+      <node id="5767255608417503431" at="13,0,16,0" concept="1" trace="Line#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5767255608418994954" at="17,0,20,0" concept="6" trace="getCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5767255608419007661" at="21,0,24,0" concept="6" trace="getNumber#()I" />
+      <node id="1570968732545630738" at="62,43,65,5" concept="5" />
+      <node id="5767255608417618919" at="25,0,29,0" concept="6" trace="getLines#()Ljava/lang/Iterable;" />
+      <node id="5767255608417792967" at="30,0,34,0" concept="6" trace="getMaxY#()I" />
+      <node id="5767255608417792975" at="35,0,39,0" concept="6" trace="getMinY#()I" />
+      <node id="5767255608418451290" at="46,0,50,0" concept="6" trace="getSize#()I" />
+      <node id="5767255608418417483" at="51,0,55,0" concept="6" trace="assignLineNumber#(I)V" />
+      <node id="5767255608419047898" at="56,0,60,0" concept="6" trace="getLast#()Lde/itemis/mps/linenumbers/plugin/Line;" />
+      <node id="5767255608417893003" at="40,0,45,0" concept="6" trace="linesBelowY#(I)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <node id="1570968732545627505" at="61,0,68,0" concept="6" trace="merge#(Lde/itemis/mps/linenumbers/plugin/ILineList;)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <scope id="5767255608417503435" at="13,37,14,31" />
+      <scope id="5767255608418994958" at="17,31,18,21" />
+      <scope id="5767255608419007665" at="21,26,22,18" />
+      <scope id="5767255608417618924" at="26,36,27,42" />
+      <scope id="5767255608417792971" at="31,24,32,52" />
+      <scope id="5767255608417792979" at="36,24,37,28" />
+      <scope id="5767255608417893010" at="42,39,43,42" />
+      <scope id="5767255608418451294" at="47,24,48,13" />
+      <scope id="5767255608418417489" at="52,48,53,29" />
+      <scope id="5767255608419047902" at="57,25,58,16" />
+      <scope id="1570968732545630740" at="63,51,64,18" />
+      <scope id="5767255608417503431" at="13,0,16,0">
+        <var name="firstCell" id="5767255608417503438" />
+      </scope>
+      <scope id="5767255608418994954" at="17,0,20,0" />
+      <scope id="5767255608419007661" at="21,0,24,0" />
+      <scope id="5767255608417618919" at="25,0,29,0" />
+      <scope id="5767255608417792967" at="30,0,34,0" />
+      <scope id="5767255608417792975" at="35,0,39,0" />
+      <scope id="5767255608418451290" at="46,0,50,0" />
+      <scope id="5767255608418417483" at="51,0,55,0">
+        <var name="lineNumber" id="5767255608418417484" />
+      </scope>
+      <scope id="5767255608419047898" at="56,0,60,0" />
+      <scope id="1570968732545627513" at="62,43,66,30" />
+      <scope id="5767255608417893003" at="40,0,45,0">
+        <var name="y" id="5767255608417893004" />
+      </scope>
+      <scope id="1570968732545627505" at="61,0,68,0">
+        <var name="other" id="1570968732545627506" />
+      </scope>
+      <unit id="5767255608417501052" at="9,0,69,0" name="de.itemis.mps.linenumbers.plugin.Line" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/5767255608417590043">
+    <file name="LineList.java">
+      <node id="5767255608417591052" at="14,0,15,0" concept="3" trace="subLists" />
+      <node id="5767255608418529587" at="15,0,16,0" concept="3" trace="size" />
+      <node id="5767255608418689389" at="16,0,17,0" concept="3" trace="firstLineNumber" />
+      <node id="3823949731510346081" at="17,0,18,0" concept="3" trace="subListForMinY" />
+      <node id="3823949731510359661" at="18,0,19,0" concept="3" trace="subListForMaxY" />
+      <node id="1570968732541992890" at="20,65,21,73" concept="7" />
+      <node id="1570968732542036870" at="22,52,23,18" concept="8" />
+      <node id="1570968732542116719" at="25,55,26,53" concept="8" />
+      <node id="1570968732542132001" at="27,5,28,34" concept="8" />
+      <node id="5767255608417597919" at="31,49,32,154" concept="2" />
+      <node id="3823949731510372302" at="32,154,33,94" concept="2" />
+      <node id="3823949731510431482" at="33,94,34,95" concept="2" />
+      <node id="5767255608418540781" at="34,95,35,132" concept="2" />
+      <node id="4180550254410368371" at="36,36,37,75" concept="14" />
+      <node id="1570968732545063207" at="42,41,43,32" concept="2" />
+      <node id="1570968732545087439" at="43,32,44,24" concept="2" />
+      <node id="5767255608417634128" at="48,36,49,96" concept="8" />
+      <node id="5767255608417851275" at="53,24,54,36" concept="8" />
+      <node id="5767255608417837442" at="58,24,59,36" concept="8" />
+      <node id="5767255608418584545" at="63,24,64,16" concept="8" />
+      <node id="4180550254410575176" at="69,45,70,163" concept="7" />
+      <node id="4180550254410616742" at="71,57,72,18" concept="8" />
+      <node id="5767255608417997106" at="73,5,74,50" concept="7" />
+      <node id="5767255608418124371" at="75,39,76,18" concept="8" />
+      <node id="5767255608418039048" at="78,38,79,18" concept="8" />
+      <node id="5767255608418075758" at="81,38,82,32" concept="8" />
+      <node id="1570968732543368005" at="83,5,84,79" concept="2" />
+      <node id="5767255608418133643" at="84,79,85,18" concept="8" />
+      <node id="5767255608418757564" at="90,40,91,13" concept="8" />
+      <node id="5767255608418767900" at="92,5,93,33" concept="2" />
+      <node id="5767255608418624555" at="94,40,95,43" concept="2" />
+      <node id="5767255608418662421" at="95,43,96,46" concept="2" />
+      <node id="5767255608419076741" at="101,25,102,51" concept="8" />
+      <node id="1570968732543172150" at="107,20,108,18" concept="8" />
+      <node id="1570968732543172156" at="110,55,111,19" concept="8" />
+      <node id="1570968732543172169" at="112,5,113,0" concept="10" />
+      <node id="1570968732543172170" at="113,0,114,33" concept="7" />
+      <node id="1570968732543172188" at="115,28,116,19" concept="8" />
+      <node id="1570968732543172198" at="118,52,119,19" concept="8" />
+      <node id="1570968732543172200" at="120,5,121,0" concept="10" />
+      <node id="1570968732543172201" at="121,0,122,16" concept="8" />
+      <node id="1570968732543172208" at="125,25,126,19" concept="7" />
+      <node id="1570968732543201710" at="126,19,127,32" concept="2" />
+      <node id="1570968732543172229" at="127,32,128,80" concept="2" />
+      <node id="1570968732543172239" at="128,80,129,18" concept="8" />
+      <node id="1570968732542010371" at="21,73,24,5" concept="5" />
+      <node id="1570968732542052013" at="24,5,27,5" concept="5" />
+      <node id="4180550254410321628" at="35,132,38,5" concept="5" />
+      <node id="4180550254410592467" at="70,163,73,5" concept="5" />
+      <node id="5767255608418108576" at="74,50,77,5" concept="5" />
+      <node id="5767255608418009162" at="77,5,80,5" concept="5" />
+      <node id="5767255608418049414" at="80,5,83,5" concept="5" />
+      <node id="5767255608418732545" at="89,48,92,5" concept="5" />
+      <node id="1570968732543172148" at="106,35,109,5" concept="5" />
+      <node id="1570968732543172154" at="109,5,112,5" concept="5" />
+      <node id="1570968732543172184" at="114,33,117,5" concept="5" />
+      <node id="1570968732543172192" at="117,5,120,5" concept="5" />
+      <node id="5767255608417631855" at="47,0,51,0" concept="6" trace="getLines#()Ljava/lang/Iterable;" />
+      <node id="5767255608417831766" at="52,0,56,0" concept="6" trace="getMaxY#()I" />
+      <node id="5767255608417831774" at="57,0,61,0" concept="6" trace="getMinY#()I" />
+      <node id="5767255608418459946" at="62,0,66,0" concept="6" trace="getSize#()I" />
+      <node id="5767255608418608045" at="93,33,97,5" concept="4" />
+      <node id="5767255608419059124" at="100,0,104,0" concept="6" trace="getLast#()Lde/itemis/mps/linenumbers/plugin/Line;" />
+      <node id="1570968732545063193" at="41,0,46,0" concept="6" trace="setExpandedSize#(I)V" />
+      <node id="1570968732543172203" at="124,0,131,0" concept="6" trace="hashCode#()I" />
+      <node id="5767255608417594784" at="31,0,40,0" concept="1" trace="LineList#(Ljava/lang/Iterable;)V" />
+      <node id="1570968732542444334" at="20,0,30,0" concept="12" trace="create#(Ljava/lang/Iterable;)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <node id="5767255608418436524" at="88,0,99,0" concept="6" trace="assignLineNumber#(I)V" />
+      <node id="1570968732543172144" at="105,0,124,0" concept="6" trace="equals#(Ljava/lang/Object;)Z" />
+      <node id="5767255608417906968" at="67,0,87,0" concept="6" trace="linesBelowY#(I)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <scope id="1570968732542010373" at="22,52,23,18" />
+      <scope id="1570968732542052015" at="25,55,26,53" />
+      <scope id="4180550254410321630" at="36,36,37,75" />
+      <scope id="5767255608417631860" at="48,36,49,96" />
+      <scope id="5767255608417831770" at="53,24,54,36" />
+      <scope id="5767255608417831778" at="58,24,59,36" />
+      <scope id="5767255608418459950" at="63,24,64,16" />
+      <scope id="4180550254410592469" at="71,57,72,18" />
+      <scope id="5767255608418108578" at="75,39,76,18" />
+      <scope id="5767255608418009164" at="78,38,79,18" />
+      <scope id="5767255608418049416" at="81,38,82,32" />
+      <scope id="5767255608418732547" at="90,40,91,13" />
+      <scope id="5767255608419059128" at="101,25,102,51" />
+      <scope id="1570968732543172149" at="107,20,108,18" />
+      <scope id="1570968732543172155" at="110,55,111,19" />
+      <scope id="1570968732543172187" at="115,28,116,19" />
+      <scope id="1570968732543172197" at="118,52,119,19" />
+      <scope id="1570968732545063204" at="42,41,44,24" />
+      <scope id="5767255608418608060" at="94,40,96,46" />
+      <scope id="5767255608417631855" at="47,0,51,0" />
+      <scope id="5767255608417831766" at="52,0,56,0" />
+      <scope id="5767255608417831774" at="57,0,61,0" />
+      <scope id="5767255608418459946" at="62,0,66,0" />
+      <scope id="5767255608418608045" at="93,33,97,5">
+        <var name="subList" id="5767255608418608050" />
+      </scope>
+      <scope id="5767255608419059124" at="100,0,104,0" />
+      <scope id="1570968732543172206" at="125,25,129,18">
+        <var name="result" id="1570968732543172209" />
+      </scope>
+      <scope id="1570968732545063193" at="41,0,46,0">
+        <var name="size" id="1570968732545063194" />
+      </scope>
+      <scope id="5767255608417594788" at="31,49,38,5" />
+      <scope id="1570968732543172203" at="124,0,131,0" />
+      <scope id="1570968732541949878" at="20,65,28,34">
+        <var name="subLists" id="1570968732541992891" />
+      </scope>
+      <scope id="5767255608418436530" at="89,48,97,5" />
+      <scope id="5767255608417594784" at="31,0,40,0">
+        <var name="subLists" id="5767255608417594847" />
+      </scope>
+      <scope id="1570968732542444334" at="20,0,30,0">
+        <var name="subLists_" id="1570968732541961023" />
+      </scope>
+      <scope id="5767255608418436524" at="88,0,99,0">
+        <var name="lineNumber" id="5767255608418436525" />
+      </scope>
+      <scope id="5767255608417906975" at="69,45,85,18">
+        <var name="filteredLines" id="4180550254410575177" />
+        <var name="result" id="5767255608417997107" />
+      </scope>
+      <scope id="1570968732543172147" at="106,35,122,16">
+        <var name="that" id="1570968732543172171" />
+      </scope>
+      <scope id="1570968732543172144" at="105,0,124,0">
+        <var name="o" id="1570968732543172176" />
+      </scope>
+      <scope id="5767255608417906968" at="67,0,87,0">
+        <var name="y" id="5767255608417906969" />
+      </scope>
+      <unit id="5767255608417590043" at="13,0,132,0" name="de.itemis.mps.linenumbers.plugin.LineList" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/5767255608417590187">
+    <file name="ILineList.java">
+      <node id="1570968732542768496" at="8,0,9,0" concept="6" trace="setExpandedSize#(I)V" />
+      <node id="1570968732542793412" at="9,0,10,0" concept="6" trace="getExpandedSize#()I" />
+      <node id="1570968732543530420" at="10,0,11,0" concept="6" trace="getExpandedDelta#()I" />
+      <node id="1570968732543533670" at="11,0,12,0" concept="6" trace="setExpandedDelta#(I)V" />
+      <node id="5767255608418412755" at="13,0,14,0" concept="6" trace="assignLineNumber#(I)V" />
+      <node id="5767255608417789204" at="14,0,15,0" concept="6" trace="getMinY#()I" />
+      <node id="5767255608417792426" at="15,0,16,0" concept="6" trace="getMaxY#()I" />
+      <node id="5767255608417613793" at="16,0,17,0" concept="6" trace="getLines#()Ljava/lang/Iterable;" />
+      <node id="5767255608418446145" at="17,0,18,0" concept="6" trace="getSize#()I" />
+      <node id="5767255608419042507" at="20,0,21,0" concept="6" trace="getLast#()Lde/itemis/mps/linenumbers/plugin/Line;" />
+      <node id="1570968732545506802" at="21,0,22,0" concept="6" trace="overlaps#(Lde/itemis/mps/linenumbers/plugin/ILineList;)Z" />
+      <node id="1570968732545600202" at="22,0,23,0" concept="6" trace="merge#(Lde/itemis/mps/linenumbers/plugin/ILineList;)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <node id="5767255608417887367" at="18,0,20,0" concept="6" trace="linesBelowY#(I)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <scope id="1570968732542768496" at="8,0,9,0">
+        <var name="size" id="1570968732542769682" />
+      </scope>
+      <scope id="1570968732542793412" at="9,0,10,0" />
+      <scope id="1570968732543530420" at="10,0,11,0" />
+      <scope id="1570968732543533670" at="11,0,12,0">
+        <var name="delta" id="1570968732543534455" />
+      </scope>
+      <scope id="5767255608418412755" at="13,0,14,0">
+        <var name="lineNumber" id="5767255608418413296" />
+      </scope>
+      <scope id="5767255608417789204" at="14,0,15,0" />
+      <scope id="5767255608417792426" at="15,0,16,0" />
+      <scope id="5767255608417613793" at="16,0,17,0" />
+      <scope id="5767255608418446145" at="17,0,18,0" />
+      <scope id="5767255608419042507" at="20,0,21,0" />
+      <scope id="1570968732545506802" at="21,0,22,0">
+        <var name="other" id="1570968732545508046" />
+      </scope>
+      <scope id="1570968732545600202" at="22,0,23,0">
+        <var name="other" id="1570968732545603713" />
+      </scope>
+      <scope id="5767255608417887367" at="18,0,20,0">
+        <var name="y" id="5767255608417889077" />
+      </scope>
+      <unit id="5767255608417590187" at="7,0,24,0" name="de.itemis.mps.linenumbers.plugin.ILineList" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/6145939348620295250">
+    <file name="LineNumberCellMessage.java">
+      <node id="6145939348620316279" at="10,0,11,0" concept="3" trace="myLineNumber" />
+      <node id="6145939348620345649" at="11,0,12,0" concept="3" trace="myCell" />
+      <node id="6145939348620326228" at="13,74,14,30" concept="2" />
+      <node id="6145939348620349492" at="14,30,15,18" concept="2" />
+      <node id="6145939348620296953" at="13,0,17,0" concept="1" trace="LineNumberCellMessage#(ILjetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <scope id="6145939348620296956" at="13,74,15,18" />
+      <scope id="6145939348620296953" at="13,0,17,0">
+        <var name="cell" id="4551186261159240589" />
+        <var name="lineNumber" id="6145939348620314287" />
+      </scope>
+      <unit id="6145939348620295250" at="8,0,19,0" name="de.itemis.mps.linenumbers.plugin.LineNumberCellMessage" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/7701440471669355285">
+    <file name="Linenumbers_ApplicationPlugin.java">
+      <node id="7701440471669355285" at="22,43,23,46" concept="2" />
+    </file>
+    <file name="ToggleLineNumbers_Action.java">
+      <node id="7701440471669355285" at="21,0,22,0" concept="11" trace="ICON" />
+      <node id="7701440471669355285" at="23,37,24,43" concept="13" />
+      <node id="7701440471669355285" at="24,43,25,35" concept="2" />
+      <node id="7701440471669355285" at="25,35,26,52" concept="2" />
+      <node id="7701440471669355285" at="26,52,27,29" concept="2" />
+      <node id="7701440471669355285" at="30,32,31,16" concept="8" />
+      <node id="7096243667149050525" at="34,89,35,56" concept="9" />
+      <node id="7096243667149040295" at="36,113,37,58" concept="2" />
+      <node id="7096243667149047437" at="37,58,38,13" concept="8" />
+      <node id="7096243667148997313" at="39,5,40,0" concept="10" />
+      <node id="7701440471669364057" at="41,93,42,62" concept="2" />
+      <node id="7701440471669448436" at="43,12,44,61" concept="2" />
+      <node id="7701440471669355285" at="49,53,50,19" concept="8" />
+      <node id="7701440471669422179" at="52,5,53,56" concept="7" />
+      <node id="7701440471669422180" at="54,22,55,21" concept="8" />
+      <node id="7096243667148943383" at="58,5,59,90" concept="7" />
+      <node id="7096243667148943383" at="60,67,61,31" concept="2" />
+      <node id="7096243667148943384" at="63,36,64,21" concept="8" />
+      <node id="7701440471669355285" at="66,5,67,16" concept="8" />
+      <node id="7701440471669455110" at="70,96,71,102" concept="7" />
+      <node id="7701440471669457474" at="71,102,72,96" concept="2" />
+      <node id="7701440471669453288" at="72,96,73,0" concept="10" />
+      <node id="7701440471669452512" at="73,0,74,39" concept="2" />
+      <node id="7701440471669452518" at="76,48,77,67" concept="7" />
+      <node id="7701440471669452527" at="78,40,79,163" concept="7" />
+      <node id="7701440471669452537" at="79,163,80,84" concept="2" />
+      <node id="7701440471669452544" at="81,85,82,77" concept="2" />
+      <node id="7701440471669452532" at="89,36,90,59" concept="8" />
+      <node id="7701440471669452532" at="91,5,92,16" concept="8" />
+      <node id="7701440471669452533" at="95,36,96,47" concept="8" />
+      <node id="7701440471669452533" at="97,5,98,16" concept="8" />
+      <node id="7701440471669452530" at="100,72,101,47" concept="8" />
+      <node id="7701440471669448342" at="43,10,45,5" concept="0" />
+      <node id="7701440471669355285" at="48,95,51,5" concept="5" />
+      <node id="7701440471669422180" at="53,56,56,7" concept="5" />
+      <node id="7096243667148943383" at="59,90,62,7" concept="5" />
+      <node id="7096243667148943384" at="62,7,65,7" concept="5" />
+      <node id="7701440471669452542" at="80,84,83,11" concept="5" />
+      <node id="7701440471669452532" at="88,115,91,5" concept="5" />
+      <node id="7701440471669452533" at="94,89,97,5" concept="5" />
+      <node id="7701440471669452530" at="100,0,103,0" concept="12" trace="as_z0bpah_a0a0a1a0a4a6#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="7701440471669355285" at="29,0,33,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="7096243667148998752" at="35,56,39,5" concept="5" />
+      <node id="7701440471669440272" at="40,0,45,5" concept="5" />
+      <node id="7701440471669355285" at="23,0,29,0" concept="1" trace="ToggleLineNumbers_Action#()V" />
+      <node id="7701440471669422179" at="51,5,57,5" concept="0" />
+      <node id="7701440471669452532" at="88,0,94,0" concept="12" trace="check_yk4csx_a0a0a1a0a4a0#(Ljetbrains/mps/openapi/editor/Editor;)Ljetbrains/mps/openapi/editor/EditorComponent;" />
+      <node id="7701440471669452533" at="94,0,100,0" concept="12" trace="check_yk4csx_a0a0a0b0a0e0a#(Ljetbrains/mps/ide/editor/MPSFileNodeEditor;)Ljetbrains/mps/openapi/editor/Editor;" />
+      <node id="7701440471669452525" at="77,67,84,9" concept="5" />
+      <node id="7096243667148943383" at="57,5,66,5" concept="0" />
+      <node id="7701440471669452516" at="75,116,85,7" concept="5" />
+      <node id="7701440471669452514" at="74,39,86,5" concept="4" />
+      <node id="7701440471669355285" at="33,0,47,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7701440471669355285" at="69,0,88,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7701440471669355285" at="47,0,69,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7701440471669355285" at="30,32,31,16" />
+      <scope id="7701440471669440274" at="41,93,42,62" />
+      <scope id="7701440471669448343" at="43,12,44,61" />
+      <scope id="7701440471669355285" at="49,53,50,19" />
+      <scope id="7701440471669422180" at="54,22,55,21" />
+      <scope id="7096243667148943383" at="60,67,61,31" />
+      <scope id="7096243667148943384" at="63,36,64,21" />
+      <scope id="7701440471669452543" at="81,85,82,77" />
+      <scope id="7701440471669452532" at="89,36,90,59" />
+      <scope id="7701440471669452533" at="95,36,96,47" />
+      <scope id="7701440471669452530" at="100,72,101,47" />
+      <scope id="7096243667148998754" at="36,113,38,13" />
+      <scope id="7701440471669452530" at="100,0,103,0">
+        <var name="o" id="7701440471669452530" />
+        <var name="type" id="7701440471669452530" />
+      </scope>
+      <scope id="7701440471669355285" at="23,37,27,29" />
+      <scope id="7701440471669355285" at="29,0,33,0" />
+      <scope id="7701440471669422179" at="52,5,56,7">
+        <var name="p" id="7701440471669422179" />
+      </scope>
+      <scope id="7701440471669452532" at="88,115,92,16" />
+      <scope id="7701440471669452533" at="94,89,98,16" />
+      <scope id="7701440471669452526" at="78,40,83,11">
+        <var name="currentEditorComponent" id="7701440471669452528" />
+      </scope>
+      <scope id="7701440471669355285" at="23,0,29,0" />
+      <scope id="7701440471669452532" at="88,0,94,0">
+        <var name="checkedDotOperand" id="7701440471669452532" />
+      </scope>
+      <scope id="7701440471669452533" at="94,0,100,0">
+        <var name="checkedDotOperand" id="7701440471669452533" />
+      </scope>
+      <scope id="7096243667148943383" at="58,5,65,7">
+        <var name="editorComponent" id="7096243667148943383" />
+      </scope>
+      <scope id="7701440471669452517" at="76,48,84,9">
+        <var name="mpsEditor" id="7701440471669452519" />
+      </scope>
+      <scope id="7701440471669452515" at="75,116,85,7" />
+      <scope id="7701440471669355305" at="34,89,45,5" />
+      <scope id="7701440471669452514" at="74,39,86,5">
+        <var name="editor" id="7701440471669452565" />
+      </scope>
+      <scope id="7701440471669355285" at="33,0,47,0">
+        <var name="_params" id="7701440471669355285" />
+        <var name="event" id="7701440471669355285" />
+      </scope>
+      <scope id="7701440471669355285" at="70,96,86,5">
+        <var name="flag" id="7701440471669455111" />
+      </scope>
+      <scope id="7701440471669355285" at="48,95,67,16" />
+      <scope id="7701440471669355285" at="69,0,88,0">
+        <var name="_params" id="7701440471669355285" />
+        <var name="event" id="7701440471669355285" />
+      </scope>
+      <scope id="7701440471669355285" at="47,0,69,0">
+        <var name="_params" id="7701440471669355285" />
+        <var name="event" id="7701440471669355285" />
+      </scope>
+      <unit id="7701440471669355285" at="20,0,104,0" name="de.itemis.mps.linenumbers.plugin.ToggleLineNumbers_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/7701440471669373664">
+    <file name="LineNumberPreferences.java">
+      <node id="7701440471669375881" at="11,0,12,0" concept="11" trace="LINE_NUMBERS_ENABLE_KEY" />
+      <node id="7701440471669375890" at="14,114,15,18" concept="8" />
+      <node id="7701440471669375899" at="16,5,17,17" concept="8" />
+      <node id="7701440471669375912" at="20,75,21,102" concept="2" />
+      <node id="7701440471669375888" at="13,64,16,5" concept="5" />
+      <node id="7701440471669375910" at="20,0,23,0" concept="12" trace="setLineNumbersEnabled#(Lcom/intellij/openapi/project/Project;Z)V" />
+      <node id="7701440471669375886" at="13,0,19,0" concept="12" trace="areLineNumbersEnabled#(Lcom/intellij/openapi/project/Project;)Z" />
+      <scope id="7701440471669375889" at="14,114,15,18" />
+      <scope id="7701440471669375911" at="20,75,21,102" />
+      <scope id="7701440471669375910" at="20,0,23,0">
+        <var name="flag" id="7701440471669375925" />
+        <var name="project" id="7701440471669375923" />
+      </scope>
+      <scope id="7701440471669375887" at="13,64,17,17" />
+      <scope id="7701440471669375886" at="13,0,19,0">
+        <var name="project" id="7701440471669375903" />
+      </scope>
+      <unit id="7701440471669373664" at="9,0,25,0" name="de.itemis.mps.linenumbers.plugin.LineNumberPreferences" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/7701440471669448798">
+    <file name="Linenumbers_ApplicationPlugin.java">
+      <node id="7701440471669448798" at="25,56,26,59" concept="2" />
+      <node id="7701440471669448803" at="29,141,30,140" concept="2" />
+    </file>
+    <file name="ToggleLineNumbersGroup_ActionGroup.java">
+      <node id="7701440471669448798" at="10,0,11,0" concept="11" trace="ID" />
+      <node id="7701440471669448798" at="12,80,13,48" concept="13" />
+      <node id="7701440471669448798" at="13,48,14,25" concept="2" />
+      <node id="7701440471669448798" at="14,25,15,20" concept="2" />
+      <node id="7701440471669448802" at="15,20,16,115" concept="2" />
+      <node id="7701440471669448798" at="12,0,18,0" concept="1" trace="ToggleLineNumbersGroup_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="7701440471669448798" at="12,80,16,115" />
+      <scope id="7701440471669448798" at="12,0,18,0">
+        <var name="plugin" id="7701440471669448798" />
+      </scope>
+      <unit id="7701440471669448798" at="9,0,19,0" name="de.itemis.mps.linenumbers.plugin.ToggleLineNumbersGroup_ActionGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/770908623252421345">
+    <file name="LineNumberPlugin_ProjectPluginPart.java">
+      <node id="334096402192784410" at="21,45,22,15" concept="8" />
+      <node id="4428085740034848985" at="23,7,24,118" concept="2" />
+      <node id="334096402192785408" at="28,45,29,15" concept="8" />
+      <node id="4428085740034857823" at="30,7,31,131" concept="2" />
+      <node id="3673172643821037775" at="34,69,35,134" concept="7" />
+      <node id="3673172643821058450" at="35,134,36,170" concept="8" />
+      <node id="4389443554151076247" at="42,40,43,108" concept="7" />
+      <node id="4389443554151076253" at="43,108,44,107" concept="2" />
+      <node id="770908623255346507" at="47,43,48,108" concept="7" />
+      <node id="770908623253189490" at="48,108,49,113" concept="2" />
+      <node id="4428085740034859183" at="52,36,53,36" concept="2" />
+      <node id="4428085740034859183" at="54,5,55,0" concept="10" />
+      <node id="4389443554151076254" at="58,36,59,47" concept="2" />
+      <node id="4389443554151076254" at="60,5,61,0" concept="10" />
+      <node id="4389443554151190401" at="64,36,65,80" concept="8" />
+      <node id="4389443554151190401" at="66,5,67,16" concept="8" />
+      <node id="4389443554151188473" at="70,36,71,45" concept="8" />
+      <node id="4389443554151188473" at="72,5,73,16" concept="8" />
+      <node id="770908623253189492" at="76,36,77,50" concept="2" />
+      <node id="770908623253189492" at="78,5,79,0" concept="10" />
+      <node id="4389443554151190683" at="82,36,83,80" concept="8" />
+      <node id="4389443554151190683" at="84,5,85,16" concept="8" />
+      <node id="4389443554151190684" at="88,36,89,45" concept="8" />
+      <node id="4389443554151190684" at="90,5,91,16" concept="8" />
+      <node id="3673172643821045570" at="93,70,94,47" concept="8" />
+      <node id="770908623252421345" at="39,0,41,0" concept="1" trace="LineNumberPlugin_ProjectPluginPart#()V" />
+      <node id="334096402192773990" at="20,108,23,7" concept="5" />
+      <node id="334096402192785406" at="27,109,30,7" concept="5" />
+      <node id="4428085740034859183" at="51,84,54,5" concept="5" />
+      <node id="4389443554151076254" at="57,132,60,5" concept="5" />
+      <node id="4389443554151190401" at="63,93,66,5" concept="5" />
+      <node id="4389443554151188473" at="69,84,72,5" concept="5" />
+      <node id="770908623253189492" at="75,134,78,5" concept="5" />
+      <node id="4389443554151190683" at="81,95,84,5" concept="5" />
+      <node id="4389443554151190684" at="87,86,90,5" concept="5" />
+      <node id="3673172643821045570" at="93,0,96,0" concept="12" trace="as_nsdifs_a0a0a4a0a0#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="770908623252444416" at="34,0,38,0" concept="6" trace="isApplicable#(Ljetbrains/mps/openapi/editor/EditorComponent;)Z" />
+      <node id="770908623252421345" at="41,0,46,0" concept="6" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="770908623252421345" at="46,0,51,0" concept="6" trace="dispose#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="4428085740034859183" at="51,0,57,0" concept="12" trace="check_8dvrpk_a1a2a0a0#(Lde/itemis/mps/linenumbers/plugin/LineNumberComponent;)V" />
+      <node id="4389443554151076254" at="57,0,63,0" concept="12" trace="check_8dvrpk_a1a0#(Ljetbrains/mps/editor/EditorComponentTrackService;Ljetbrains/mps/editor/EditorComponentLifecycleListener;)V" />
+      <node id="4389443554151190401" at="63,0,69,0" concept="12" trace="check_8dvrpk_a0b0a#(Ljetbrains/mps/core/platform/Platform;)Ljetbrains/mps/editor/EditorComponentTrackService;" />
+      <node id="4389443554151188473" at="69,0,75,0" concept="12" trace="check_8dvrpk_a0a1a0#(Ljetbrains/mps/ide/MPSCoreComponents;)Ljetbrains/mps/core/platform/Platform;" />
+      <node id="770908623253189492" at="75,0,81,0" concept="12" trace="check_8dvrpk_a1a0_0#(Ljetbrains/mps/editor/EditorComponentTrackService;Ljetbrains/mps/editor/EditorComponentLifecycleListener;)V" />
+      <node id="4389443554151190683" at="81,0,87,0" concept="12" trace="check_8dvrpk_a0b0a_0#(Ljetbrains/mps/core/platform/Platform;)Ljetbrains/mps/editor/EditorComponentTrackService;" />
+      <node id="4389443554151190684" at="87,0,93,0" concept="12" trace="check_8dvrpk_a0a1a0_0#(Ljetbrains/mps/ide/MPSCoreComponents;)Ljetbrains/mps/core/platform/Platform;" />
+      <node id="334096402192750660" at="19,0,26,0" concept="6" trace="editorComponentCreated#(Lorg/jetbrains/mps/openapi/project/Project;Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="334096402192750680" at="26,0,33,0" concept="6" trace="editorComponentDisposed#(Lorg/jetbrains/mps/openapi/project/Project;Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="770908623252424582" at="17,0,39,0" concept="3" trace="lineNumberListener" />
+      <scope id="770908623252421345" at="39,47,39,47" />
+      <scope id="334096402192773992" at="21,45,22,15" />
+      <scope id="334096402192785407" at="28,45,29,15" />
+      <scope id="4428085740034859183" at="52,36,53,36" />
+      <scope id="4389443554151076254" at="58,36,59,47" />
+      <scope id="4389443554151190401" at="64,36,65,80" />
+      <scope id="4389443554151188473" at="70,36,71,45" />
+      <scope id="770908623253189492" at="76,36,77,50" />
+      <scope id="4389443554151190683" at="82,36,83,80" />
+      <scope id="4389443554151190684" at="88,36,89,45" />
+      <scope id="3673172643821045570" at="93,70,94,47" />
+      <scope id="770908623252444423" at="34,69,36,170">
+        <var name="comp" id="3673172643821037776" />
+      </scope>
+      <scope id="770908623252421345" at="39,0,41,0" />
+      <scope id="770908623253176616" at="42,40,44,107">
+        <var name="extension" id="4389443554151076248" />
+      </scope>
+      <scope id="770908623253185941" at="47,43,49,113">
+        <var name="extension" id="770908623255346510" />
+      </scope>
+      <scope id="3673172643821045570" at="93,0,96,0">
+        <var name="o" id="3673172643821045570" />
+        <var name="type" id="3673172643821045570" />
+      </scope>
+      <scope id="334096402192750672" at="20,108,24,118" />
+      <scope id="334096402192750692" at="27,109,31,131" />
+      <scope id="770908623252444416" at="34,0,38,0">
+        <var name="component" id="770908623252444420" />
+      </scope>
+      <scope id="4428085740034859183" at="51,84,55,0" />
+      <scope id="4389443554151076254" at="57,132,61,0" />
+      <scope id="4389443554151190401" at="63,93,67,16" />
+      <scope id="4389443554151188473" at="69,84,73,16" />
+      <scope id="770908623253189492" at="75,134,79,0" />
+      <scope id="4389443554151190683" at="81,95,85,16" />
+      <scope id="4389443554151190684" at="87,86,91,16" />
+      <scope id="770908623252421345" at="41,0,46,0">
+        <var name="project" id="770908623252421345" />
+      </scope>
+      <scope id="770908623252421345" at="46,0,51,0">
+        <var name="project" id="770908623252421345" />
+      </scope>
+      <scope id="4428085740034859183" at="51,0,57,0">
+        <var name="checkedDotOperand" id="4428085740034859183" />
+      </scope>
+      <scope id="4389443554151076254" at="57,0,63,0">
+        <var name="checkedDotOperand" id="4389443554151076254" />
+        <var name="extension" id="4389443554151076259" />
+      </scope>
+      <scope id="4389443554151190401" at="63,0,69,0">
+        <var name="checkedDotOperand" id="4389443554151190401" />
+      </scope>
+      <scope id="4389443554151188473" at="69,0,75,0">
+        <var name="checkedDotOperand" id="4389443554151188473" />
+      </scope>
+      <scope id="770908623253189492" at="75,0,81,0">
+        <var name="checkedDotOperand" id="770908623253189492" />
+        <var name="extension" id="770908623255351158" />
+      </scope>
+      <scope id="4389443554151190683" at="81,0,87,0">
+        <var name="checkedDotOperand" id="4389443554151190683" />
+      </scope>
+      <scope id="4389443554151190684" at="87,0,93,0">
+        <var name="checkedDotOperand" id="4389443554151190684" />
+      </scope>
+      <scope id="334096402192750660" at="19,0,26,0">
+        <var name="editorComponent" id="334096402192750668" />
+        <var name="project" id="334096402192750665" />
+      </scope>
+      <scope id="334096402192750680" at="26,0,33,0">
+        <var name="editorComponent" id="334096402192750688" />
+        <var name="project" id="334096402192750685" />
+      </scope>
+      <unit id="770908623252444410" at="17,68,38,3" name="de.itemis.mps.linenumbers.plugin.LineNumberPlugin_ProjectPluginPart$1" />
+      <unit id="770908623252421345" at="16,0,97,0" name="de.itemis.mps.linenumbers.plugin.LineNumberPlugin_ProjectPluginPart" />
+    </file>
+    <file name="Linenumbers_ProjectPlugin.java">
+      <node id="770908623252421345" at="12,62,13,56" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/990770231268444512">
+    <file name="LineNumberUtils.java">
+      <node id="5767255608418355278" at="17,0,18,0" concept="11" trace="EXPANDED_LINES_CACHE_KEY" />
+      <node id="1570968732542684305" at="18,0,19,0" concept="11" trace="FOLDED_LINES_CACHE_KEY" />
+      <node id="1570968732543826689" at="19,0,20,0" concept="11" trace="EXPANSION_DELTA_KEY" />
+      <node id="4180550254410934251" at="22,54,23,34" concept="8" />
+      <node id="1570968732544196053" at="27,75,28,52" concept="7" />
+      <node id="1570968732544630955" at="29,24,30,51" concept="7" />
+      <node id="1570968732544623067" at="30,51,31,45" concept="2" />
+      <node id="1570968732544193509" at="32,5,33,17" concept="8" />
+      <node id="1570968732542689084" at="37,83,38,151" concept="7" />
+      <node id="4180550254410921847" at="38,151,39,111" concept="7" />
+      <node id="4180550254410921858" at="40,25,41,20" concept="8" />
+      <node id="4180550254410972637" at="42,5,43,0" concept="10" />
+      <node id="4180550254410921864" at="44,48,45,76" concept="7" />
+      <node id="4180550254410921872" at="45,76,46,177" concept="7" />
+      <node id="4180550254410921927" at="46,177,47,53" concept="7" />
+      <node id="1570968732542937230" at="47,53,48,0" concept="10" />
+      <node id="1570968732542886570" at="49,57,50,118" concept="7" />
+      <node id="1570968732544346917" at="52,30,53,61" concept="2" />
+      <node id="1570968732544126927" at="54,18,55,87" concept="2" />
+      <node id="1570968732545195056" at="58,14,59,38" concept="2" />
+      <node id="4180550254410921938" at="60,7,61,42" concept="2" />
+      <node id="4180550254410921944" at="61,42,62,19" concept="8" />
+      <node id="4180550254410973809" at="63,50,64,33" concept="7" />
+      <node id="4180550254410974685" at="64,33,65,41" concept="2" />
+      <node id="4180550254410921951" at="65,41,66,18" concept="8" />
+      <node id="1570968732546333187" at="67,12,68,18" concept="8" />
+      <node id="1570968732543874281" at="73,83,74,98" concept="7" />
+      <node id="1570968732543915688" at="75,26,76,106" concept="7" />
+      <node id="1570968732543944424" at="76,106,77,117" concept="2" />
+      <node id="1570968732543953532" at="77,117,78,55" concept="2" />
+      <node id="1570968732543968918" at="79,7,80,19" concept="8" />
+      <node id="1570968732543902084" at="81,12,82,15" concept="8" />
+      <node id="1570968732544009100" at="86,73,87,62" concept="7" />
+      <node id="1570968732544413864" at="88,42,89,13" concept="8" />
+      <node id="1570968732544559938" at="90,5,91,0" concept="10" />
+      <node id="1570968732544122040" at="91,0,92,32" concept="9" />
+      <node id="1570968732543996189" at="92,32,93,87" concept="7" />
+      <node id="1570968732544000216" at="94,25,95,38" concept="2" />
+      <node id="1570968732544562442" at="96,5,97,0" concept="10" />
+      <node id="1570968732544004714" at="97,0,98,51" concept="2" />
+      <node id="1570968732545980451" at="101,73,102,84" concept="7" />
+      <node id="1570968732545980466" at="104,57,105,60" concept="2" />
+      <node id="1570968732545980475" at="107,71,108,83" concept="7" />
+      <node id="1570968732545980486" at="109,31,110,67" concept="2" />
+      <node id="1570968732545980490" at="110,67,111,66" concept="2" />
+      <node id="1570968732545980506" at="113,16,114,62" concept="2" />
+      <node id="1570968732545994878" at="117,5,118,23" concept="8" />
+      <node id="1570968732542701745" at="121,36,122,45" concept="8" />
+      <node id="1570968732542701745" at="123,5,124,17" concept="8" />
+      <node id="1570968732542695384" at="126,68,127,47" concept="8" />
+      <node id="4180550254410921850" at="129,67,130,47" concept="8" />
+      <node id="1570968732542889692" at="132,70,133,47" concept="8" />
+      <node id="1570968732543874283" at="135,69,136,47" concept="8" />
+      <node id="1570968732544342137" at="54,16,56,11" concept="0" />
+      <node id="1570968732544396735" at="58,12,60,7" concept="0" />
+      <node id="1570968732546331441" at="67,10,69,5" concept="0" />
+      <node id="1570968732543898034" at="81,10,83,5" concept="0" />
+      <node id="1570968732545980504" at="113,14,115,9" concept="0" />
+      <node id="4180550254410921856" at="39,111,42,5" concept="5" />
+      <node id="1570968732544406352" at="87,62,90,5" concept="5" />
+      <node id="1570968732543997154" at="93,87,96,5" concept="5" />
+      <node id="1570968732542701745" at="120,87,123,5" concept="5" />
+      <node id="1570968732542695384" at="126,0,129,0" concept="12" trace="as_e23sii_a0a0a0a8#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="4180550254410921850" at="129,0,132,0" concept="12" trace="as_e23sii_a0a0b0i#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="1570968732542889692" at="132,0,135,0" concept="12" trace="as_e23sii_a0a0a4a4a8#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="1570968732543874283" at="135,0,138,0" concept="12" trace="as_e23sii_a0a0a0a01#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="5767255608417360533" at="21,0,25,0" concept="12" trace="findLines#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <node id="1570968732544619078" at="28,52,32,5" concept="5" />
+      <node id="1570968732545980484" at="108,83,112,11" concept="5" />
+      <node id="1570968732544337275" at="51,36,56,11" concept="5" />
+      <node id="1570968732543880149" at="74,98,79,7" concept="5" />
+      <node id="1570968732542701745" at="120,0,126,0" concept="12" trace="check_e23sii_a0a0a8#(Ljetbrains/mps/nodeEditor/cells/EditorCell_Collection;)Z" />
+      <node id="1570968732542895151" at="50,118,57,9" concept="5" />
+      <node id="4180550254410921843" at="26,0,35,0" concept="12" trace="findLines#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <node id="1570968732545980473" at="106,14,115,9" concept="5" />
+      <node id="1570968732545980471" at="106,12,116,7" concept="0" />
+      <node id="1570968732543889654" at="72,57,83,5" concept="5" />
+      <node id="1570968732542868170" at="48,0,60,7" concept="5" />
+      <node id="1570968732543979485" at="72,0,85,0" concept="12" trace="getExpansionDelta#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)I" />
+      <node id="1570968732545980461" at="103,127,116,7" concept="5" />
+      <node id="1570968732543983494" at="86,0,100,0" concept="12" trace="setExpansionDelta#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljava/lang/Integer;)V" />
+      <node id="1570968732545980458" at="102,84,117,5" concept="4" />
+      <node id="1570968732545971047" at="101,0,120,0" concept="12" trace="mergeOverlapping#(Ljava/util/List;)Ljava/util/List;" />
+      <node id="4180550254410921845" at="43,0,69,5" concept="5" />
+      <node id="1570968732544189441" at="36,0,71,0" concept="12" trace="findLines_#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)Lde/itemis/mps/linenumbers/plugin/ILineList;" />
+      <scope id="5767255608417360534" at="22,54,23,34" />
+      <scope id="4180550254410921857" at="40,25,41,20" />
+      <scope id="1570968732544337277" at="52,30,53,61" />
+      <scope id="1570968732544342138" at="54,18,55,87" />
+      <scope id="1570968732544396736" at="58,14,59,38" />
+      <scope id="1570968732546331442" at="67,12,68,18" />
+      <scope id="1570968732543898035" at="81,12,82,15" />
+      <scope id="1570968732544406354" at="88,42,89,13" />
+      <scope id="1570968732543997156" at="94,25,95,38" />
+      <scope id="1570968732545980465" at="104,57,105,60" />
+      <scope id="1570968732545980505" at="113,16,114,62" />
+      <scope id="1570968732542701745" at="121,36,122,45" />
+      <scope id="1570968732542695384" at="126,68,127,47" />
+      <scope id="4180550254410921850" at="129,67,130,47" />
+      <scope id="1570968732542889692" at="132,70,133,47" />
+      <scope id="1570968732543874283" at="135,69,136,47" />
+      <scope id="1570968732544619080" at="29,24,31,45">
+        <var name="expansionDelta" id="1570968732544630956" />
+      </scope>
+      <scope id="1570968732545980485" at="109,31,111,66" />
+      <scope id="1570968732546295954" at="63,50,66,18">
+        <var name="line" id="4180550254410973810" />
+      </scope>
+      <scope id="1570968732543880151" at="75,26,78,55">
+        <var name="children" id="1570968732543915689" />
+      </scope>
+      <scope id="1570968732542695384" at="126,0,129,0">
+        <var name="o" id="1570968732542695384" />
+        <var name="type" id="1570968732542695384" />
+      </scope>
+      <scope id="4180550254410921850" at="129,0,132,0">
+        <var name="o" id="4180550254410921850" />
+        <var name="type" id="4180550254410921850" />
+      </scope>
+      <scope id="1570968732542889692" at="132,0,135,0">
+        <var name="o" id="1570968732542889692" />
+        <var name="type" id="1570968732542889692" />
+      </scope>
+      <scope id="1570968732543874283" at="135,0,138,0">
+        <var name="o" id="1570968732543874283" />
+        <var name="type" id="1570968732543874283" />
+      </scope>
+      <scope id="5767255608417360533" at="21,0,25,0">
+        <var name="cell" id="5767255608417360589" />
+      </scope>
+      <scope id="1570968732542701745" at="120,87,124,17" />
+      <scope id="1570968732542895153" at="51,36,56,11" />
+      <scope id="1570968732545980474" at="107,71,112,11">
+        <var name="merged" id="1570968732545980476" />
+      </scope>
+      <scope id="4180550254410921844" at="27,75,33,17">
+        <var name="lines" id="1570968732544196054" />
+      </scope>
+      <scope id="1570968732542701745" at="120,0,126,0">
+        <var name="checkedDotOperand" id="1570968732542701745" />
+      </scope>
+      <scope id="1570968732543889656" at="73,83,80,19">
+        <var name="delta" id="1570968732543874282" />
+      </scope>
+      <scope id="1570968732542868172" at="49,57,57,9">
+        <var name="expandedLines" id="1570968732542886571" />
+      </scope>
+      <scope id="4180550254410921843" at="26,0,35,0">
+        <var name="cell" id="4180550254410921957" />
+        <var name="ignoreCache" id="4180550254410926047" />
+      </scope>
+      <scope id="1570968732545980472" at="106,14,115,9" />
+      <scope id="1570968732543848424" at="72,57,83,5" />
+      <scope id="1570968732543975713" at="86,73,98,51">
+        <var name="existing" id="1570968732544009101" />
+        <var name="parent" id="1570968732543996190" />
+      </scope>
+      <scope id="1570968732543979485" at="72,0,85,0">
+        <var name="cell" id="1570968732543860169" />
+      </scope>
+      <scope id="1570968732545980460" at="103,127,116,7" />
+      <scope id="1570968732543983494" at="86,0,100,0">
+        <var name="cell" id="1570968732543986104" />
+        <var name="delta" id="1570968732543993787" />
+      </scope>
+      <scope id="1570968732545980458" at="102,84,117,5">
+        <var name="list" id="1570968732545980459" />
+      </scope>
+      <scope id="1570968732545967721" at="101,73,118,23">
+        <var name="mergedLists" id="1570968732545980452" />
+      </scope>
+      <scope id="4180550254410921846" at="44,48,62,19">
+        <var name="lines" id="4180550254410921928" />
+        <var name="mergedLists" id="4180550254410921873" />
+        <var name="visibleChildren" id="4180550254410921865" />
+      </scope>
+      <scope id="1570968732545971047" at="101,0,120,0">
+        <var name="lists" id="1570968732545977569" />
+      </scope>
+      <scope id="1570968732544163947" at="37,83,69,5">
+        <var name="cacheKey" id="1570968732542689087" />
+        <var name="cached" id="4180550254410921848" />
+      </scope>
+      <scope id="1570968732544189441" at="36,0,71,0">
+        <var name="cell" id="1570968732544183667" />
+        <var name="ignoreCache" id="1570968732544183669" />
+      </scope>
+      <unit id="990770231268444512" at="16,0,139,0" name="de.itemis.mps.linenumbers.plugin.LineNumberUtils" />
+    </file>
+  </root>
+  <root nodeRef="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)/990770231268670563">
+    <file name="GoToEditorLine_Action.java">
+      <node id="990770231268670563" at="21,0,22,0" concept="11" trace="ICON" />
+      <node id="990770231268670563" at="23,34,24,41" concept="13" />
+      <node id="990770231268670563" at="24,41,25,35" concept="2" />
+      <node id="990770231268670563" at="25,35,26,44" concept="2" />
+      <node id="990770231268670563" at="29,32,30,16" concept="8" />
+      <node id="1270059326695361948" at="33,87,34,94" concept="8" />
+      <node id="990770231268670563" at="37,89,38,85" concept="2" />
+      <node id="990770231268670563" at="42,53,43,19" concept="8" />
+      <node id="990770231268701224" at="45,5,46,90" concept="7" />
+      <node id="990770231268701224" at="47,67,48,31" concept="2" />
+      <node id="990770231268701225" at="50,36,51,21" concept="8" />
+      <node id="1270059326695393406" at="54,5,55,56" concept="7" />
+      <node id="1270059326695393407" at="56,22,57,21" concept="8" />
+      <node id="990770231268670563" at="59,5,60,16" concept="8" />
+      <node id="990770231268838586" at="67,13,68,49" concept="7" />
+      <node id="4180550254410652517" at="68,49,69,77" concept="7" />
+      <node id="990770231268838591" at="69,77,70,30" concept="8" />
+      <node id="990770231268838583" at="71,44,72,23" concept="8" />
+      <node id="990770231268838604" at="77,52,78,31" concept="8" />
+      <node id="990770231268847593" at="81,27,82,13" concept="8" />
+      <node id="990770231268844365" at="83,5,84,48" concept="7" />
+      <node id="5767255608419192699" at="84,48,85,71" concept="7" />
+      <node id="990770231268872553" at="86,23,87,88" concept="2" />
+      <node id="4180550254410662664" at="90,74,91,116" concept="7" />
+      <node id="4180550254410672333" at="91,116,92,130" concept="8" />
+      <node id="990770231268670563" at="41,95,44,5" concept="5" />
+      <node id="990770231268701224" at="46,90,49,7" concept="5" />
+      <node id="990770231268701225" at="49,7,52,7" concept="5" />
+      <node id="1270059326695393407" at="55,56,58,7" concept="5" />
+      <node id="990770231268845713" at="80,7,83,5" concept="5" />
+      <node id="990770231268859643" at="85,71,88,5" concept="5" />
+      <node id="990770231268670563" at="28,0,32,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="990770231268670563" at="32,0,36,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="990770231268670563" at="36,0,40,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="990770231268838597" at="76,0,80,0" concept="6" trace="canClose#(Ljava/lang/String;)Z" />
+      <node id="4180550254410658815" at="90,0,94,0" concept="6" trace="findLine#(ILcom/intellij/openapi/actionSystem/AnActionEvent;)Lde/itemis/mps/linenumbers/plugin/Line;" />
+      <node id="990770231268670563" at="23,0,28,0" concept="1" trace="GoToEditorLine_Action#()V" />
+      <node id="1270059326695393406" at="53,5,59,5" concept="0" />
+      <node id="990770231268838577" at="66,54,73,9" concept="15" />
+      <node id="990770231268701224" at="44,5,53,5" concept="0" />
+      <node id="990770231268838570" at="65,0,75,0" concept="6" trace="checkInput#(Ljava/lang/String;)Z" />
+      <node id="990770231268838559" at="63,96,80,7" concept="7" />
+      <node id="990770231268670563" at="40,0,62,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="990770231268670563" at="62,0,90,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <scope id="990770231268670563" at="29,32,30,16" />
+      <scope id="1270059326695360342" at="33,87,34,94" />
+      <scope id="990770231268670563" at="37,89,38,85" />
+      <scope id="990770231268670563" at="42,53,43,19" />
+      <scope id="990770231268701224" at="47,67,48,31" />
+      <scope id="990770231268701225" at="50,36,51,21" />
+      <scope id="1270059326695393407" at="56,22,57,21" />
+      <scope id="990770231268838582" at="71,44,72,23" />
+      <scope id="990770231268838603" at="77,52,78,31" />
+      <scope id="990770231268845715" at="81,27,82,13" />
+      <scope id="990770231268859645" at="86,23,87,88" />
+      <scope id="990770231268838578" at="71,9,73,9">
+        <var name="ex" id="990770231268838579" />
+      </scope>
+      <scope id="4180550254410658817" at="90,74,92,130">
+        <var name="lineList" id="4180550254410662665" />
+      </scope>
+      <scope id="990770231268670563" at="23,34,26,44" />
+      <scope id="990770231268838585" at="67,13,70,30">
+        <var name="line" id="4180550254410652518" />
+        <var name="lineNumber" id="990770231268838587" />
+      </scope>
+      <scope id="990770231268670563" at="28,0,32,0" />
+      <scope id="990770231268670563" at="32,0,36,0">
+        <var name="_params" id="990770231268670563" />
+        <var name="event" id="990770231268670563" />
+      </scope>
+      <scope id="990770231268670563" at="36,0,40,0">
+        <var name="_params" id="990770231268670563" />
+        <var name="event" id="990770231268670563" />
+      </scope>
+      <scope id="1270059326695393406" at="54,5,58,7">
+        <var name="p" id="1270059326695393406" />
+      </scope>
+      <scope id="990770231268838597" at="76,0,80,0">
+        <var name="str" id="990770231268838600" />
+      </scope>
+      <scope id="4180550254410658815" at="90,0,94,0">
+        <var name="event" id="4180550254410658815" />
+        <var name="lineNumber" id="4180550254410660710" />
+      </scope>
+      <scope id="990770231268670563" at="23,0,28,0" />
+      <scope id="990770231268701224" at="45,5,52,7">
+        <var name="editorComponent" id="990770231268701224" />
+      </scope>
+      <scope id="990770231268838576" at="66,54,73,9" />
+      <scope id="990770231268838570" at="65,0,75,0">
+        <var name="str" id="990770231268838573" />
+      </scope>
+      <scope id="990770231268670563" at="41,95,60,16" />
+      <scope id="990770231268670563" at="40,0,62,0">
+        <var name="_params" id="990770231268670563" />
+        <var name="event" id="990770231268670563" />
+      </scope>
+      <scope id="990770231268670563" at="63,96,88,5">
+        <var name="inputStr" id="990770231268838560" />
+        <var name="line" id="5767255608419192700" />
+        <var name="lineNumber" id="990770231268844366" />
+      </scope>
+      <scope id="990770231268670563" at="62,0,90,0">
+        <var name="_params" id="990770231268670563" />
+        <var name="event" id="990770231268670563" />
+      </scope>
+      <unit id="990770231268838568" at="64,112,80,5" name="de.itemis.mps.linenumbers.plugin.GoToEditorLine_Action$1" />
+      <unit id="990770231268670563" at="20,0,95,0" name="de.itemis.mps.linenumbers.plugin.GoToEditorLine_Action" />
+    </file>
+    <file name="Linenumbers_ApplicationPlugin.java">
+      <node id="990770231268670563" at="21,29,22,43" concept="2" />
+    </file>
+  </root>
+</debug-info>
+

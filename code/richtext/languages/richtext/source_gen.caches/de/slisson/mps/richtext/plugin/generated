@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-cds5zt89w043ovu0v7usi5x2l7ljf5z">
+  <files names="ApplicationPlugin_AppPluginPart.java:Default_KeymapChanges.java:DeleteToLineEnd_Action.java:DeleteToLineStart_Action.java:DeleteToWordEnd_Action.java:DeleteToWordStart_Action.java:DragSelectionHandlerEP_extension.java:DuplicateAction_Action.java:ExtensionDescriptor.java:RichtextDragSelectionHandler.java:RichtextSelectionHandling_KeymapChanges.java:RichtextSelectionLeft_Action.java:RichtextSelectionLocalEnd_Action.java:RichtextSelectionLocalHome_Action.java:RichtextSelectionRight_Action.java:RichtextSelectionRootEnd_Action.java:RichtextSelectionRootHome_Action.java:Richtext_ApplicationPlugin.java" />
+</product>
+

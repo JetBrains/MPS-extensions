@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="18,0,64,0" name="de.itemis.mps.changelog.intentions.IntentionsDescriptor" />
+    </file>
+    <file name="SelectionIntentionsDescriptor.java">
+      <unit at="11,0,19,0" name="de.itemis.mps.changelog.intentions.SelectionIntentionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:522c8b6a-14e0-4f36-a3df-8cb7e042db6f(de.itemis.mps.changelog.intentions)/1102019474072825342">
+    <file name="MergeIntoOneWord.java">
+      <node id="1102019474073566320" at="30,59,31,67" concept="6" />
+      <node id="1102019474073125883" at="31,67,32,141" concept="6" />
+      <node id="1102019474073599490" at="32,141,33,195" concept="6" />
+      <node id="1102019474073623817" at="33,195,34,59" concept="6" />
+      <node id="1102019474073626656" at="34,59,35,100" concept="2" />
+      <node id="1102019474073646671" at="35,100,36,104" concept="2" />
+      <node id="1102019474073687486" at="36,104,37,90" concept="2" />
+      <node id="1102019474072830408" at="40,68,41,39" concept="7" />
+      <node id="1102019474073541999" at="44,67,45,67" concept="6" />
+      <node id="1102019474073542753" at="45,67,46,170" concept="7" />
+      <node id="1102019474072825342" at="48,8,49,50" concept="7" />
+      <node id="1102019474072825342" at="50,12,51,68" concept="7" />
+      <node id="1102019474073625154" at="54,59,55,64" concept="6" />
+      <node id="1102019474073625154" at="55,64,56,41" concept="2" />
+      <node id="1102019474073625154" at="56,41,57,26" concept="7" />
+      <node id="1102019474072825342" at="61,0,62,0" concept="8" trace="Word$Dn" />
+      <node id="1102019474072825342" at="65,0,66,0" concept="8" trace="value$zQr_" />
+      <node id="1102019474072825342" at="22,0,24,0" concept="1" trace="MergeIntoOneWord#()V" />
+      <node id="1102019474072825342" at="50,10,52,5" concept="0" />
+      <node id="1102019474072825342" at="39,0,43,0" concept="5" trace="getDescription#(Ljetbrains/mps/lang/text/editor/WordRangeSelection;)Ljava/lang/String;" />
+      <node id="1102019474072825342" at="43,0,48,0" concept="5" trace="isApplicable#(Ljetbrains/mps/lang/text/editor/WordRangeSelection;)Z" />
+      <node id="1102019474073625154" at="54,0,59,0" concept="9" trace="createWord_lmmf70_a0d0a#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1102019474072825342" at="29,0,39,0" concept="5" trace="execute#(Ljetbrains/mps/lang/text/editor/WordRangeSelection;)V" />
+      <node id="1102019474072825342" at="27,50,48,8" concept="6" />
+      <node id="1102019474072825342" at="26,77,52,5" concept="4" />
+      <node id="1102019474072825342" at="25,0,54,0" concept="5" trace="getInstances#(Ljava/lang/Object;)Ljava/util/List;" />
+      <scope id="1102019474072825342" at="22,29,22,29" />
+      <scope id="1102019474072825342" at="40,68,41,39" />
+      <scope id="1102019474072825342" at="50,12,51,68" />
+      <scope id="1102019474072825342" at="22,0,24,0" />
+      <scope id="1102019474072825342" at="44,67,46,170">
+        <var name="selectedNodes" id="1102019474073542000" />
+      </scope>
+      <scope id="1102019474073625154" at="54,59,57,26">
+        <var name="n0" id="1102019474073625154" />
+      </scope>
+      <scope id="1102019474072825342" at="39,0,43,0">
+        <var name="selection" id="1102019474072825342" />
+      </scope>
+      <scope id="1102019474072825342" at="43,0,48,0">
+        <var name="selection" id="1102019474072825342" />
+      </scope>
+      <scope id="1102019474073625154" at="54,0,59,0">
+        <var name="p0" id="1102019474073625154" />
+      </scope>
+      <scope id="1102019474072825342" at="30,59,37,90">
+        <var name="newText" id="1102019474073599493" />
+        <var name="newWord" id="1102019474073623820" />
+        <var name="selectedNodes" id="1102019474073566321" />
+        <var name="selectedWords" id="1102019474073125886" />
+      </scope>
+      <scope id="1102019474072825342" at="29,0,39,0">
+        <var name="selection" id="1102019474072825342" />
+      </scope>
+      <scope id="1102019474072825342" at="27,50,49,50">
+        <var name="intention" id="1102019474072825342" />
+      </scope>
+      <scope id="1102019474072825342" at="26,77,52,5" />
+      <scope id="1102019474072825342" at="25,0,54,0">
+        <var name="selection" id="1102019474072825342" />
+      </scope>
+      <unit id="1102019474072825342" at="60,0,63,0" name="de.itemis.mps.changelog.intentions.MergeIntoOneWord$CONCEPTS" />
+      <unit id="1102019474072825342" at="64,0,67,0" name="de.itemis.mps.changelog.intentions.MergeIntoOneWord$PROPS" />
+      <unit id="1102019474072825342" at="28,52,48,7" name="de.itemis.mps.changelog.intentions.MergeIntoOneWord$1" />
+      <unit id="1102019474072825342" at="21,0,68,0" name="de.itemis.mps.changelog.intentions.MergeIntoOneWord" />
+    </file>
+    <file name="SelectionIntentionsDescriptor.java">
+      <node id="1102019474072825342" at="14,68,15,69" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:522c8b6a-14e0-4f36-a3df-8cb7e042db6f(de.itemis.mps.changelog.intentions)/1102019474080625759">
+    <file name="ChangeCodeFormatting_Intention.java">
+      <node id="1102019474080625759" at="23,0,24,0" concept="3" trace="myCachedExecutable" />
+      <node id="1102019474080625759" at="25,43,26,149" concept="10" />
+      <node id="1102019474080625759" at="30,35,31,34" concept="7" />
+      <node id="1102019474080625759" at="35,35,36,17" concept="7" />
+      <node id="1102019474080625759" at="40,37,41,105" concept="2" />
+      <node id="1102019474080625759" at="42,5,43,30" concept="7" />
+      <node id="1102019474081804804" at="51,121,52,37" concept="7" />
+      <node id="1102019474081805453" at="53,14,54,40" concept="7" />
+      <node id="1102019474080635284" at="60,121,61,119" concept="2" />
+      <node id="1102019474081808147" at="62,14,63,115" concept="2" />
+      <node id="1102019474080625759" at="69,55,70,21" concept="7" />
+      <node id="1102019474080625759" at="71,7,72,18" concept="7" />
+      <node id="1102019474080626985" at="75,93,76,238" concept="7" />
+      <node id="1102019474080625759" at="81,48,82,49" concept="7" />
+      <node id="1102019474080625759" at="88,0,89,0" concept="8" trace="Word$Dn" />
+      <node id="1102019474080625759" at="89,0,90,0" concept="8" trace="CodeWord$tk" />
+      <node id="1102019474080625759" at="46,0,48,0" concept="1" trace="IntentionImplementation#()V" />
+      <node id="1102019474081805396" at="53,12,55,7" concept="0" />
+      <node id="1102019474081807833" at="62,12,64,7" concept="0" />
+      <node id="1102019474080625759" at="25,0,28,0" concept="1" trace="ChangeCodeFormatting_Intention#()V" />
+      <node id="1102019474080625759" at="39,99,42,5" concept="4" />
+      <node id="1102019474080625759" at="68,86,71,7" concept="4" />
+      <node id="1102019474080625759" at="75,0,78,0" concept="5" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1102019474080625759" at="29,0,33,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="1102019474080625759" at="34,0,38,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="1102019474080625759" at="80,0,84,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="1102019474081804096" at="50,87,55,7" concept="4" />
+      <node id="1102019474081806881" at="59,78,64,7" concept="4" />
+      <node id="1102019474080625759" at="39,0,45,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="1102019474080625759" at="67,0,74,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1102019474080625759" at="49,0,57,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="1102019474080625759" at="58,0,66,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="1102019474080625759" at="46,38,46,38" />
+      <scope id="1102019474080625759" at="25,43,26,149" />
+      <scope id="1102019474080625759" at="30,35,31,34" />
+      <scope id="1102019474080625759" at="35,35,36,17" />
+      <scope id="1102019474080625759" at="40,37,41,105" />
+      <scope id="1102019474081804098" at="51,121,52,37" />
+      <scope id="1102019474081805397" at="53,14,54,40" />
+      <scope id="1102019474081806883" at="60,121,61,119" />
+      <scope id="1102019474081807834" at="62,14,63,115" />
+      <scope id="1102019474080625759" at="69,55,70,21" />
+      <scope id="1102019474080626725" at="75,93,76,238" />
+      <scope id="1102019474080625759" at="81,48,82,49" />
+      <scope id="1102019474080625759" at="46,0,48,0" />
+      <scope id="1102019474080625759" at="25,0,28,0" />
+      <scope id="1102019474080625759" at="75,0,78,0">
+        <var name="editorContext" id="1102019474080625759" />
+        <var name="node" id="1102019474080625759" />
+      </scope>
+      <scope id="1102019474080625759" at="29,0,33,0" />
+      <scope id="1102019474080625759" at="34,0,38,0" />
+      <scope id="1102019474080625759" at="39,99,43,30" />
+      <scope id="1102019474080625759" at="68,86,72,18" />
+      <scope id="1102019474080625759" at="80,0,84,0" />
+      <scope id="1102019474080625761" at="50,87,55,7" />
+      <scope id="1102019474080625763" at="59,78,64,7" />
+      <scope id="1102019474080625759" at="39,0,45,0">
+        <var name="context" id="1102019474080625759" />
+        <var name="node" id="1102019474080625759" />
+      </scope>
+      <scope id="1102019474080625759" at="67,0,74,0">
+        <var name="editorContext" id="1102019474080625759" />
+        <var name="node" id="1102019474080625759" />
+      </scope>
+      <scope id="1102019474080625759" at="49,0,57,0">
+        <var name="editorContext" id="1102019474080625759" />
+        <var name="node" id="1102019474080625759" />
+      </scope>
+      <scope id="1102019474080625759" at="58,0,66,0">
+        <var name="editorContext" id="1102019474080625759" />
+        <var name="node" id="1102019474080625759" />
+      </scope>
+      <unit id="1102019474080625759" at="87,0,91,0" name="de.itemis.mps.changelog.intentions.ChangeCodeFormatting_Intention$CONCEPTS" />
+      <unit id="1102019474080625759" at="45,0,86,0" name="de.itemis.mps.changelog.intentions.ChangeCodeFormatting_Intention$IntentionImplementation" />
+      <unit id="1102019474080625759" at="22,0,92,0" name="de.itemis.mps.changelog.intentions.ChangeCodeFormatting_Intention" />
+    </file>
+    <file name="IntentionsDescriptor.java">
+      <node id="1102019474080625759" at="44,47,45,63" concept="2" />
+      <node id="1102019474080625759" at="57,52,58,49" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:522c8b6a-14e0-4f36-a3df-8cb7e042db6f(de.itemis.mps.changelog.intentions)/1815055973307658662">
+    <file name="CombineElements.java">
+      <node id="1815055973307658670" at="28,59,29,67" concept="6" />
+      <node id="1815055973307658677" at="29,67,30,151" concept="6" />
+      <node id="1815055973307658711" at="30,151,31,148" concept="6" />
+      <node id="1815055973307658719" at="31,148,32,103" concept="2" />
+      <node id="1815055973307658726" at="32,103,33,107" concept="2" />
+      <node id="1815055973307658741" at="33,107,34,90" concept="2" />
+      <node id="1815055973307658666" at="37,68,38,60" concept="7" />
+      <node id="1815055973307658752" at="41,67,42,67" concept="6" />
+      <node id="1815055973307658759" at="42,67,43,177" concept="7" />
+      <node id="1815055973307658662" at="45,8,46,50" concept="7" />
+      <node id="1815055973307658662" at="47,12,48,68" concept="7" />
+      <node id="1815055973307658714" at="51,90,52,76" concept="6" />
+      <node id="1815055973307658714" at="53,5,54,76" concept="6" />
+      <node id="1815055973307658714" at="54,76,55,81" concept="2" />
+      <node id="1815055973307658714" at="56,5,57,26" concept="7" />
+      <node id="1815055973307658662" at="61,0,62,0" concept="8" trace="TextElement$WN" />
+      <node id="1815055973307658662" at="62,0,63,0" concept="8" trace="CombinedElements$P9" />
+      <node id="1815055973307658662" at="63,0,64,0" concept="8" trace="Line$yC" />
+      <node id="1815055973307658662" at="67,0,68,0" concept="8" trace="line$6dQe" />
+      <node id="1815055973307658662" at="68,0,69,0" concept="8" trace="elements$_j45" />
+      <node id="1815055973307658662" at="20,0,22,0" concept="1" trace="CombineElements#()V" />
+      <node id="1815055973307658662" at="47,10,49,5" concept="0" />
+      <node id="1815055973307658662" at="36,0,40,0" concept="5" trace="getDescription#(Ljetbrains/mps/lang/text/editor/WordRangeSelection;)Ljava/lang/String;" />
+      <node id="1815055973307658714" at="52,76,56,5" concept="0" />
+      <node id="1815055973307658662" at="40,0,45,0" concept="5" trace="isApplicable#(Ljetbrains/mps/lang/text/editor/WordRangeSelection;)Z" />
+      <node id="1815055973307658714" at="51,0,59,0" concept="9" trace="createCombinedElements_hmrw63_a0c0a#(Ljava/lang/Iterable;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1815055973307658662" at="27,0,36,0" concept="5" trace="execute#(Ljetbrains/mps/lang/text/editor/WordRangeSelection;)V" />
+      <node id="1815055973307658662" at="25,50,45,8" concept="6" />
+      <node id="1815055973307658662" at="24,77,49,5" concept="4" />
+      <node id="1815055973307658662" at="23,0,51,0" concept="5" trace="getInstances#(Ljava/lang/Object;)Ljava/util/List;" />
+      <scope id="1815055973307658662" at="20,28,20,28" />
+      <scope id="1815055973307658662" at="37,68,38,60" />
+      <scope id="1815055973307658662" at="47,12,48,68" />
+      <scope id="1815055973307658662" at="20,0,22,0" />
+      <scope id="1815055973307658662" at="41,67,43,177">
+        <var name="selectedNodes" id="1815055973307658753" />
+      </scope>
+      <scope id="1815055973307658714" at="53,5,55,81">
+        <var name="n1" id="1815055973307658714" />
+      </scope>
+      <scope id="1815055973307658662" at="36,0,40,0">
+        <var name="selection" id="1815055973307658662" />
+      </scope>
+      <scope id="1815055973307658662" at="40,0,45,0">
+        <var name="selection" id="1815055973307658662" />
+      </scope>
+      <scope id="1815055973307658662" at="28,59,34,90">
+        <var name="newWord" id="1815055973307658712" />
+        <var name="selectedElements" id="1815055973307658678" />
+        <var name="selectedNodes" id="1815055973307658671" />
+      </scope>
+      <scope id="1815055973307658714" at="51,90,57,26">
+        <var name="n0" id="1815055973307658714" />
+      </scope>
+      <scope id="1815055973307658714" at="51,0,59,0">
+        <var name="p0" id="1815055973307658714" />
+      </scope>
+      <scope id="1815055973307658662" at="27,0,36,0">
+        <var name="selection" id="1815055973307658662" />
+      </scope>
+      <scope id="1815055973307658662" at="25,50,46,50">
+        <var name="intention" id="1815055973307658662" />
+      </scope>
+      <scope id="1815055973307658662" at="24,77,49,5" />
+      <scope id="1815055973307658662" at="23,0,51,0">
+        <var name="selection" id="1815055973307658662" />
+      </scope>
+      <unit id="1815055973307658662" at="66,0,70,0" name="de.itemis.mps.changelog.intentions.CombineElements$LINKS" />
+      <unit id="1815055973307658662" at="60,0,65,0" name="de.itemis.mps.changelog.intentions.CombineElements$CONCEPTS" />
+      <unit id="1815055973307658662" at="26,52,45,7" name="de.itemis.mps.changelog.intentions.CombineElements$1" />
+      <unit id="1815055973307658662" at="19,0,71,0" name="de.itemis.mps.changelog.intentions.CombineElements" />
+    </file>
+    <file name="SelectionIntentionsDescriptor.java">
+      <node id="1815055973307658662" at="13,113,14,68" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:522c8b6a-14e0-4f36-a3df-8cb7e042db6f(de.itemis.mps.changelog.intentions)/1815055973308309665">
+    <file name="IntentionsDescriptor.java">
+      <node id="1815055973308309665" at="37,47,38,67" concept="2" />
+      <node id="1815055973308309665" at="58,49,59,53" concept="2" />
+    </file>
+    <file name="SeparateCombinedElements_Intention.java">
+      <node id="1815055973308309665" at="24,0,25,0" concept="3" trace="myCachedExecutable" />
+      <node id="1815055973308309665" at="26,47,27,149" concept="10" />
+      <node id="1815055973308309665" at="31,35,32,38" concept="7" />
+      <node id="1815055973308309665" at="36,35,37,17" concept="7" />
+      <node id="1815055973308309665" at="41,37,42,105" concept="2" />
+      <node id="1815055973308309665" at="43,5,44,30" concept="7" />
+      <node id="1815055973308309720" at="51,87,52,42" concept="7" />
+      <node id="1815055973308319058" at="56,78,57,89" concept="6" />
+      <node id="1815055973308335742" at="57,89,58,120" concept="2" />
+      <node id="1815055973308526192" at="58,120,59,39" concept="2" />
+      <node id="1815055973308309665" at="63,86,64,18" concept="7" />
+      <node id="1815055973308309665" at="70,48,71,53" concept="7" />
+      <node id="1815055973308309665" at="77,0,78,0" concept="8" trace="Line$yC" />
+      <node id="1815055973308309665" at="81,0,82,0" concept="8" trace="line$6dQe" />
+      <node id="1815055973308309665" at="47,0,49,0" concept="1" trace="IntentionImplementation#()V" />
+      <node id="1815055973308309665" at="26,0,29,0" concept="1" trace="SeparateCombinedElements_Intention#()V" />
+      <node id="1815055973308309665" at="40,99,43,5" concept="4" />
+      <node id="1815055973308309665" at="30,0,34,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="1815055973308309665" at="35,0,39,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="1815055973308309665" at="50,0,54,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="1815055973308309665" at="62,0,66,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1815055973308309665" at="69,0,73,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="1815055973308309665" at="40,0,46,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="1815055973308309665" at="55,0,61,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="1815055973308309665" at="47,38,47,38" />
+      <scope id="1815055973308309665" at="26,47,27,149" />
+      <scope id="1815055973308309665" at="31,35,32,38" />
+      <scope id="1815055973308309665" at="36,35,37,17" />
+      <scope id="1815055973308309665" at="41,37,42,105" />
+      <scope id="1815055973308309667" at="51,87,52,42" />
+      <scope id="1815055973308309665" at="63,86,64,18" />
+      <scope id="1815055973308309665" at="70,48,71,53" />
+      <scope id="1815055973308309665" at="47,0,49,0" />
+      <scope id="1815055973308309665" at="26,0,29,0" />
+      <scope id="1815055973308309669" at="56,78,59,39">
+        <var name="line" id="1815055973308319061" />
+      </scope>
+      <scope id="1815055973308309665" at="30,0,34,0" />
+      <scope id="1815055973308309665" at="35,0,39,0" />
+      <scope id="1815055973308309665" at="40,99,44,30" />
+      <scope id="1815055973308309665" at="50,0,54,0">
+        <var name="editorContext" id="1815055973308309665" />
+        <var name="node" id="1815055973308309665" />
+      </scope>
+      <scope id="1815055973308309665" at="62,0,66,0">
+        <var name="editorContext" id="1815055973308309665" />
+        <var name="node" id="1815055973308309665" />
+      </scope>
+      <scope id="1815055973308309665" at="69,0,73,0" />
+      <scope id="1815055973308309665" at="40,0,46,0">
+        <var name="context" id="1815055973308309665" />
+        <var name="node" id="1815055973308309665" />
+      </scope>
+      <scope id="1815055973308309665" at="55,0,61,0">
+        <var name="editorContext" id="1815055973308309665" />
+        <var name="node" id="1815055973308309665" />
+      </scope>
+      <unit id="1815055973308309665" at="76,0,79,0" name="de.itemis.mps.changelog.intentions.SeparateCombinedElements_Intention$CONCEPTS" />
+      <unit id="1815055973308309665" at="80,0,83,0" name="de.itemis.mps.changelog.intentions.SeparateCombinedElements_Intention$LINKS" />
+      <unit id="1815055973308309665" at="46,0,75,0" name="de.itemis.mps.changelog.intentions.SeparateCombinedElements_Intention$IntentionImplementation" />
+      <unit id="1815055973308309665" at="23,0,84,0" name="de.itemis.mps.changelog.intentions.SeparateCombinedElements_Intention" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:3b26bc40-cf15-482d-bb5a-2bddde33a633(de.itemis.mps.editor.pagination.plugin)/3430886973490418230">
+    <file name="PaginationPlugin_ProjectPluginPart.java">
+      <node id="3430886973490477576" at="23,62,24,18" concept="7" />
+      <node id="3430886973490946236" at="28,67,29,117" concept="1" />
+      <node id="3430886973490931369" at="33,69,34,122" concept="1" />
+      <node id="3430886973490905357" at="44,250,45,42" concept="1" />
+      <node id="3430886973490869557" at="52,40,53,82" concept="6" />
+      <node id="3430886973490872588" at="53,82,54,91" concept="1" />
+      <node id="3430886973490880747" at="54,91,55,134" concept="1" />
+      <node id="3430886973490927869" at="58,43,59,82" concept="6" />
+      <node id="3430886973490927875" at="59,82,60,95" concept="1" />
+      <node id="3430886973490927884" at="60,95,61,137" concept="1" />
+      <node id="3430886973490936602" at="64,36,65,36" concept="1" />
+      <node id="3430886973490936602" at="66,5,67,0" concept="9" />
+      <node id="3430886973490878427" at="70,36,71,53" concept="1" />
+      <node id="3430886973490878427" at="72,5,73,0" concept="9" />
+      <node id="3430886973490875691" at="76,36,77,75" concept="7" />
+      <node id="3430886973490875691" at="78,5,79,16" concept="7" />
+      <node id="3430886973490927876" at="82,36,83,55" concept="1" />
+      <node id="3430886973490927876" at="84,5,85,0" concept="9" />
+      <node id="3430886973490927877" at="88,36,89,75" concept="7" />
+      <node id="3430886973490927877" at="90,5,91,16" concept="7" />
+      <node id="3430886973490418230" at="49,0,51,0" concept="0" trace="PaginationPlugin_ProjectPluginPart#()V" />
+      <node id="3430886973490905321" at="38,0,41,0" concept="5" trace="afterLanguagesLoaded#(Ljava/lang/Iterable;)V" />
+      <node id="3430886973490905337" at="43,77,46,7" concept="4" />
+      <node id="3430886973490936602" at="63,83,66,5" concept="4" />
+      <node id="3430886973490878427" at="69,111,72,5" concept="4" />
+      <node id="3430886973490875691" at="75,88,78,5" concept="4" />
+      <node id="3430886973490927876" at="81,113,84,5" concept="4" />
+      <node id="3430886973490927877" at="87,90,90,5" concept="4" />
+      <node id="3430886973490474802" at="22,0,26,0" concept="5" trace="isApplicable#(Ljetbrains/mps/openapi/editor/EditorComponent;)Z" />
+      <node id="3430886973490474813" at="27,0,31,0" concept="5" trace="install#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="3430886973490474824" at="32,0,36,0" concept="5" trace="uninstall#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="3430886973490905330" at="42,0,48,0" concept="5" trace="beforeLanguagesUnloaded#(Ljava/lang/Iterable;)V" />
+      <node id="3430886973490418230" at="51,0,57,0" concept="5" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="3430886973490418230" at="57,0,63,0" concept="5" trace="dispose#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="3430886973490936602" at="63,0,69,0" concept="11" trace="check_sc6i86_a0a4a0a0#(Lde/itemis/mps/editor/pagination/plugin/PaginationListener;)V" />
+      <node id="3430886973490878427" at="69,0,75,0" concept="11" trace="check_sc6i86_a1a0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
+      <node id="3430886973490875691" at="75,0,81,0" concept="11" trace="check_sc6i86_a0b0a#(Lcom/intellij/openapi/project/Project;)Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;" />
+      <node id="3430886973490927876" at="81,0,87,0" concept="11" trace="check_sc6i86_a1a0_0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
+      <node id="3430886973490927877" at="87,0,93,0" concept="11" trace="check_sc6i86_a0b0a_0#(Lcom/intellij/openapi/project/Project;)Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;" />
+      <node id="3430886973490902655" at="37,0,49,0" concept="2" trace="unloadListener" />
+      <node id="3430886973490472808" at="21,0,37,0" concept="2" trace="extension" />
+      <scope id="3430886973490905327" at="39,68,39,68" />
+      <scope id="3430886973490418230" at="49,47,49,47" />
+      <scope id="3430886973490474809" at="23,62,24,18" />
+      <scope id="3430886973490474820" at="28,67,29,117" />
+      <scope id="3430886973490474831" at="33,69,34,122" />
+      <scope id="3430886973490905356" at="44,250,45,42" />
+      <scope id="3430886973490936602" at="64,36,65,36" />
+      <scope id="3430886973490878427" at="70,36,71,53" />
+      <scope id="3430886973490875691" at="76,36,77,75" />
+      <scope id="3430886973490927876" at="82,36,83,55" />
+      <scope id="3430886973490927877" at="88,36,89,75" />
+      <scope id="3430886973490418230" at="49,0,51,0" />
+      <scope id="3430886973490905321" at="38,0,41,0">
+        <var name="p1" id="3430886973490905324" />
+      </scope>
+      <scope id="3430886973490905336" at="43,77,46,7" />
+      <scope id="3430886973490867496" at="52,40,55,134">
+        <var name="extension" id="3430886973490869558" />
+      </scope>
+      <scope id="3430886973490925805" at="58,43,61,137">
+        <var name="extension" id="3430886973490927870" />
+      </scope>
+      <scope id="3430886973490474802" at="22,0,26,0">
+        <var name="p1" id="3430886973490474806" />
+      </scope>
+      <scope id="3430886973490474813" at="27,0,31,0">
+        <var name="editorComponent" id="3430886973490474817" />
+      </scope>
+      <scope id="3430886973490474824" at="32,0,36,0">
+        <var name="editorComponent" id="3430886973490474828" />
+      </scope>
+      <scope id="3430886973490936602" at="63,83,67,0" />
+      <scope id="3430886973490878427" at="69,111,73,0" />
+      <scope id="3430886973490875691" at="75,88,79,16" />
+      <scope id="3430886973490927876" at="81,113,85,0" />
+      <scope id="3430886973490927877" at="87,90,91,16" />
+      <scope id="3430886973490905330" at="42,0,48,0">
+        <var name="runtimes" id="3430886973490905333" />
+      </scope>
+      <scope id="3430886973490418230" at="51,0,57,0">
+        <var name="project" id="3430886973490418230" />
+      </scope>
+      <scope id="3430886973490418230" at="57,0,63,0">
+        <var name="project" id="3430886973490418230" />
+      </scope>
+      <scope id="3430886973490936602" at="63,0,69,0">
+        <var name="checkedDotOperand" id="3430886973490936602" />
+      </scope>
+      <scope id="3430886973490878427" at="69,0,75,0">
+        <var name="checkedDotOperand" id="3430886973490878427" />
+        <var name="extension" id="3430886973490879573" />
+      </scope>
+      <scope id="3430886973490875691" at="75,0,81,0">
+        <var name="checkedDotOperand" id="3430886973490875691" />
+      </scope>
+      <scope id="3430886973490927876" at="81,0,87,0">
+        <var name="checkedDotOperand" id="3430886973490927876" />
+        <var name="extension" id="3430886973490927883" />
+      </scope>
+      <scope id="3430886973490927877" at="87,0,93,0">
+        <var name="checkedDotOperand" id="3430886973490927877" />
+      </scope>
+      <unit id="3430886973490905319" at="37,56,48,3" name="de.itemis.mps.editor.pagination.plugin.PaginationPlugin_ProjectPluginPart$2" />
+      <unit id="3430886973490474787" at="21,42,36,3" name="de.itemis.mps.editor.pagination.plugin.PaginationPlugin_ProjectPluginPart$1" />
+      <unit id="3430886973490418230" at="20,0,94,0" name="de.itemis.mps.editor.pagination.plugin.PaginationPlugin_ProjectPluginPart" />
+    </file>
+    <file name="Pagination_ProjectPlugin.java">
+      <node id="3430886973490418230" at="12,62,13,56" concept="1" />
+    </file>
+  </root>
+  <root nodeRef="r:3b26bc40-cf15-482d-bb5a-2bddde33a633(de.itemis.mps.editor.pagination.plugin)/3430886973490469688">
+    <file name="Pagination_ProjectPlugin.java">
+      <node id="3430886973490469688" at="10,0,12,0" concept="0" trace="Pagination_ProjectPlugin#()V" />
+      <node id="3430886973490469688" at="12,0,15,0" concept="5" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="3430886973490469688" at="10,37,10,37" />
+      <scope id="3430886973490469688" at="12,62,13,56" />
+      <scope id="3430886973490469688" at="10,0,12,0" />
+      <scope id="3430886973490469688" at="12,0,15,0">
+        <var name="parts" id="3430886973490469688" />
+      </scope>
+      <unit id="3430886973490469688" at="9,0,16,0" name="de.itemis.mps.editor.pagination.plugin.Pagination_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:3b26bc40-cf15-482d-bb5a-2bddde33a633(de.itemis.mps.editor.pagination.plugin)/3430886973490489382">
+    <file name="PaginationListener.java">
+      <node id="3430886973490530557" at="41,0,42,0" concept="10" trace="instances" />
+      <node id="3430886973490539930" at="43,89,44,86" concept="6" />
+      <node id="3430886973490545134" at="45,27,46,57" concept="1" />
+      <node id="3430886973490553320" at="46,57,47,68" concept="1" />
+      <node id="3430886973490537466" at="48,5,49,20" concept="7" />
+      <node id="3430886973490709988" at="53,81,54,63" concept="7" />
+      <node id="3430886973490858532" at="58,151,59,27" concept="1" />
+      <node id="3430886973490570410" at="63,0,64,0" concept="2" trace="editorComponentRef" />
+      <node id="3430886973490572218" at="65,69,66,77" concept="1" />
+      <node id="3430886973490677665" at="69,69,70,52" concept="1" />
+      <node id="3430886973490727439" at="75,47,76,36" concept="7" />
+      <node id="3430886973490962136" at="79,25,80,48" concept="1" />
+      <node id="3430886973490975879" at="83,27,84,51" concept="1" />
+      <node id="4752819953446852150" at="87,51,88,96" concept="7" />
+      <node id="4752819953450632778" at="91,87,92,205" concept="7" />
+      <node id="4752819953450736482" at="96,111,97,50" concept="6" />
+      <node id="4752819953450736488" at="97,50,98,58" concept="6" />
+      <node id="4752819953450736497" at="99,54,100,20" concept="7" />
+      <node id="4752819953450736505" at="101,7,102,44" concept="7" />
+      <node id="4752819953448637302" at="107,137,108,0" concept="9" />
+      <node id="4752819953447124970" at="109,89,110,75" concept="6" />
+      <node id="4752819953447124959" at="110,75,111,106" concept="7" />
+      <node id="4752819953439544208" at="116,97,117,232" concept="7" />
+      <node id="4752819953447753254" at="120,100,121,233" concept="7" />
+      <node id="4752819953440334859" at="124,111,125,193" concept="7" />
+      <node id="3430886973490783283" at="129,42,130,26" concept="1" />
+      <node id="144279664518253248" at="130,26,131,79" concept="6" />
+      <node id="3430886973492544420" at="131,79,132,100" concept="6" />
+      <node id="3430886973491130770" at="132,100,133,70" concept="6" />
+      <node id="1849708426044533282" at="134,22,135,13" concept="7" />
+      <node id="1849708426044675627" at="136,5,137,0" concept="9" />
+      <node id="1849708426051388529" at="137,0,138,74" concept="6" />
+      <node id="3147322934492355300" at="138,74,139,65" concept="6" />
+      <node id="4752819953441250356" at="139,65,140,77" concept="6" />
+      <node id="4752819953449857925" at="142,132,143,0" concept="9" />
+      <node id="4752819953449882736" at="144,178,145,0" concept="9" />
+      <node id="1849708426051920799" at="145,0,146,37" concept="6" />
+      <node id="4752819953450365283" at="146,37,147,86" concept="8" />
+      <node id="4752819953450205903" at="149,240,150,0" concept="9" />
+      <node id="4752819953441814019" at="150,0,151,115" concept="6" />
+      <node id="4752819953440863111" at="152,74,153,62" concept="1" />
+      <node id="4752819953440871560" at="153,62,154,81" concept="1" />
+      <node id="4752819953450095401" at="155,17,156,72" concept="7" />
+      <node id="3147322934506639878" at="160,9,161,0" concept="9" />
+      <node id="4752819953441584817" at="166,0,167,0" concept="2" trace="paginatedCell" />
+      <node id="4752819953441581887" at="167,0,168,0" concept="2" trace="newPages" />
+      <node id="4752819953441589697" at="168,0,169,0" concept="2" trace="pagesUserObj" />
+      <node id="4752819953441598234" at="170,95,171,41" concept="1" />
+      <node id="4752819953441600660" at="171,41,172,31" concept="1" />
+      <node id="4752819953441604745" at="172,31,173,39" concept="1" />
+      <node id="4752819953446852152" at="177,36,178,136" concept="7" />
+      <node id="4752819953446852152" at="179,5,180,16" concept="7" />
+      <node id="1849708426044568835" at="183,36,184,49" concept="7" />
+      <node id="1849708426044568835" at="185,5,186,17" concept="7" />
+      <node id="4752819953439521937" at="188,73,189,47" concept="7" />
+      <node id="3430886973490840340" at="57,37,60,5" concept="3" />
+      <node id="3430886973490725826" at="75,0,78,0" concept="5" trace="getEditorComponent#()Ljetbrains/mps/nodeEditor/EditorComponent;" />
+      <node id="3430886973490735577" at="79,0,82,0" concept="5" trace="install#()V" />
+      <node id="3430886973490741594" at="83,0,86,0" concept="5" trace="uninstall#()V" />
+      <node id="4752819953446852147" at="87,0,90,0" concept="5" trace="isPaginatedCell#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Z" />
+      <node id="4752819953450576236" at="91,0,94,0" concept="5" trace="getAncestorWithLink#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Ljava/util/Optional;" />
+      <node id="4752819953450736495" at="98,58,101,7" concept="4" />
+      <node id="4752819953439467721" at="116,0,119,0" concept="5" trace="findDescendantsPaginatedCells#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/lang/Iterable;" />
+      <node id="4752819953440224791" at="120,0,123,0" concept="5" trace="getPaginatedCellChange#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;)Lde/itemis/mps/editor/pagination/plugin/PaginationListener/PageChange;" />
+      <node id="4752819953440334844" at="124,0,127,0" concept="5" trace="getPaginatedCellsChanges#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+      <node id="1849708426044515944" at="133,70,136,5" concept="4" />
+      <node id="4752819953446852152" at="176,70,179,5" concept="4" />
+      <node id="1849708426044568835" at="182,77,185,5" concept="4" />
+      <node id="4752819953439521937" at="188,0,191,0" concept="11" trace="as_jbb13b_a0a0a0a0a0a72#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3430886973490541516" at="44,86,48,5" concept="4" />
+      <node id="3430886973490707319" at="52,0,56,0" concept="11" trace="getInstance#(Ljetbrains/mps/nodeEditor/EditorComponent;)Lde/itemis/mps/editor/pagination/plugin/PaginationListener;" />
+      <node id="3430886973490675949" at="68,0,72,0" concept="5" trace="editorWillBeDisposed#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="4752819953447338825" at="108,0,112,9" concept="7" />
+      <node id="4752819953440889825" at="151,115,155,17" concept="1" />
+      <node id="3430886973490837801" at="57,0,62,0" concept="11" trace="uninstallAll#()V" />
+      <node id="4752819953441594457" at="170,0,175,0" concept="0" trace="PageChange#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lde/itemis/mps/editor/pagination/runtime/pages/Pages;Lde/itemis/mps/editor/pagination/runtime/pages/PagesUserObject;)V" />
+      <node id="3430886973490577007" at="66,77,72,7" concept="1" />
+      <node id="4752819953446852152" at="176,0,182,0" concept="11" trace="check_jbb13b_a0a0t#(Ljetbrains/mps/openapi/editor/style/Style;)Ljava/lang/Boolean;" />
+      <node id="1849708426044568835" at="182,0,188,0" concept="11" trace="check_jbb13b_a0a3a33#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Z" />
+      <node id="4752819953447298254" at="106,87,113,7" concept="7" />
+      <node id="3430886973490536690" at="43,0,51,0" concept="11" trace="getOrCreateInstance#(Ljetbrains/mps/nodeEditor/EditorComponent;)Lde/itemis/mps/editor/pagination/plugin/PaginationListener;" />
+      <node id="4752819953450736475" at="95,104,103,7" concept="7" />
+      <node id="3430886973490551225" at="65,0,74,0" concept="0" trace="PaginationListener#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="3147322934505344502" at="106,0,115,0" concept="5" trace="getPagesUserObject#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/util/Optional;" />
+      <node id="4752819953450161099" at="148,31,157,29" concept="1" />
+      <node id="3147322934504753076" at="95,0,105,0" concept="5" trace="getNewPagesForTarget#(Lorg/jetbrains/mps/openapi/model/SNode;Lde/itemis/mps/editor/pagination/runtime/pages/PagesUserObject;)Ljava/util/Optional;" />
+      <node id="1849708426051957802" at="147,86,158,11" concept="12" />
+      <node id="4752819953449379641" at="143,0,159,11" concept="1" />
+      <node id="4752819953449416611" at="141,53,160,9" concept="1" />
+      <node id="1849708426048138110" at="140,77,162,7" concept="1" />
+      <node id="3430886973490783273" at="128,0,164,0" concept="5" trace="mousePressed#(Ljava/awt/event/MouseEvent;)V" />
+      <scope id="3430886973490707322" at="53,81,54,63" />
+      <scope id="3430886973490840343" at="58,151,59,27" />
+      <scope id="3430886973490675956" at="69,69,70,52" />
+      <scope id="3430886973490725829" at="75,47,76,36" />
+      <scope id="3430886973490735580" at="79,25,80,48" />
+      <scope id="3430886973490741597" at="83,27,84,51" />
+      <scope id="4752819953446852149" at="87,51,88,96" />
+      <scope id="4752819953450576239" at="91,87,92,205" />
+      <scope id="4752819953450736496" at="99,54,100,20" />
+      <scope id="4752819953439467724" at="116,97,117,232" />
+      <scope id="4752819953440224792" at="120,100,121,233" />
+      <scope id="4752819953440334845" at="124,111,125,193" />
+      <scope id="1849708426044515946" at="134,22,135,13" />
+      <scope id="4752819953446852152" at="177,36,178,136" />
+      <scope id="1849708426044568835" at="183,36,184,49" />
+      <scope id="4752819953439521937" at="188,73,189,47" />
+      <scope id="3430886973490541518" at="45,27,47,68" />
+      <scope id="4752819953447359995" at="109,89,111,106">
+        <var name="oldPages" id="4752819953447124971" />
+      </scope>
+      <scope id="4752819953440910196" at="152,74,154,81" />
+      <scope id="3430886973490837804" at="57,37,60,5" />
+      <scope id="3430886973490840340" at="57,37,60,5">
+        <var name="listener" id="3430886973490840341" />
+      </scope>
+      <scope id="3430886973490725826" at="75,0,78,0" />
+      <scope id="3430886973490735577" at="79,0,82,0" />
+      <scope id="3430886973490741594" at="83,0,86,0" />
+      <scope id="4752819953446852147" at="87,0,90,0">
+        <var name="cell" id="4752819953446852164" />
+      </scope>
+      <scope id="4752819953450576236" at="91,0,94,0">
+        <var name="link" id="4752819953450622522" />
+        <var name="node" id="4752819953450614313" />
+      </scope>
+      <scope id="4752819953439467721" at="116,0,119,0">
+        <var name="startingCell" id="4752819953439497849" />
+      </scope>
+      <scope id="4752819953440224791" at="120,0,123,0">
+        <var name="paginatedCell" id="4752819953440224860" />
+        <var name="targetNode" id="4752819953440224862" />
+      </scope>
+      <scope id="4752819953440334844" at="124,0,127,0">
+        <var name="closestVisibleCell" id="4752819953440334888" />
+        <var name="targetNode" id="4752819953440334890" />
+      </scope>
+      <scope id="4752819953441594460" at="170,95,173,39" />
+      <scope id="4752819953439521937" at="188,0,191,0">
+        <var name="o" id="4752819953439521937" />
+        <var name="type" id="4752819953439521937" />
+      </scope>
+      <scope id="3430886973490707319" at="52,0,56,0">
+        <var name="editorComponent" id="3430886973490708837" />
+      </scope>
+      <scope id="3430886973490675949" at="68,0,72,0">
+        <var name="p1" id="3430886973490675953" />
+      </scope>
+      <scope id="4752819953446852152" at="176,70,180,16" />
+      <scope id="1849708426044568835" at="182,77,186,17" />
+      <scope id="3430886973490837801" at="57,0,62,0" />
+      <scope id="4752819953447318933" at="107,137,112,9" />
+      <scope id="4752819953441594457" at="170,0,175,0">
+        <var name="newPages" id="4752819953441596341" />
+        <var name="pagesUserObj" id="4752819953441596751" />
+        <var name="paginatedCell" id="4752819953441595848" />
+      </scope>
+      <scope id="3430886973490536693" at="43,89,49,20">
+        <var name="listener" id="3430886973490539931" />
+      </scope>
+      <scope id="4752819953450736481" at="96,111,102,44">
+        <var name="newPage" id="4752819953450736489" />
+        <var name="oldPages" id="4752819953450736483" />
+      </scope>
+      <scope id="4752819953446852152" at="176,0,182,0">
+        <var name="checkedDotOperand" id="4752819953446852152" />
+      </scope>
+      <scope id="1849708426044568835" at="182,0,188,0">
+        <var name="checkedDotOperand" id="1849708426044568835" />
+      </scope>
+      <scope id="3430886973490551228" at="65,69,72,7" />
+      <scope id="3147322934505344505" at="106,87,113,7" />
+      <scope id="4752819953450012892" at="149,240,156,72">
+        <var name="changesToApply" id="4752819953441814020" />
+      </scope>
+      <scope id="3430886973490536690" at="43,0,51,0">
+        <var name="editorComponent" id="3430886973490537073" />
+      </scope>
+      <scope id="3147322934504753079" at="95,104,103,7" />
+      <scope id="3430886973490551225" at="65,0,74,0">
+        <var name="editorComponent" id="3430886973490551952" />
+      </scope>
+      <scope id="3147322934505344502" at="106,0,115,0">
+        <var name="paginatedCell" id="3147322934505363112" />
+      </scope>
+      <scope id="1849708426051957804" at="148,31,157,29" />
+      <scope id="3147322934504753076" at="95,0,105,0">
+        <var name="pagesUserObject" id="3147322934505643273" />
+        <var name="targetNode" id="3147322934504774772" />
+      </scope>
+      <scope id="4752819953449588587" at="144,178,158,11">
+        <var name="pageChanged" id="1849708426051920802" />
+      </scope>
+      <scope id="4752819953449443913" at="142,132,159,11" />
+      <scope id="1849708426048138114" at="141,53,161,0" />
+      <scope id="3430886973490783279" at="129,42,162,7">
+        <var name="cellAtCursor" id="3430886973492544421" />
+        <var name="ctrlDown" id="144279664518253247" />
+        <var name="editorContext" id="1849708426051388530" />
+        <var name="gotoLink" id="3430886973491130773" />
+        <var name="project" id="4752819953441250357" />
+        <var name="repository" id="3147322934492355301" />
+      </scope>
+      <scope id="3430886973490783273" at="128,0,164,0">
+        <var name="e" id="3430886973490783277" />
+      </scope>
+      <unit id="3430886973490675932" at="67,43,72,5" name="de.itemis.mps.editor.pagination.plugin.PaginationListener$1" />
+      <unit id="4752819953441565947" at="165,0,176,0" name="de.itemis.mps.editor.pagination.plugin.PaginationListener$PageChange" />
+      <unit id="3430886973490489382" at="39,0,192,0" name="de.itemis.mps.editor.pagination.plugin.PaginationListener" />
+    </file>
+  </root>
+</debug-info>
+

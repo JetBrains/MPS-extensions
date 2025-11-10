@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="1ql7md2afxjwmsonbqfgz1jbkpfzzhu">
+  <files names="CellModel_EnumCheckbox_Editor.java:CellModel_EnumCheckbox_EditorBuilder_a.java:CellModel_EnumCheckbox_InspectorBuilder_a.java:EditorAspectDescriptorImpl.java:EnumCheckbox_Selectable_Editor.java:EnumCheckbox_Selectable_EditorBuilder_a.java:IconCollection_Editor.java:IconCollection_EditorBuilder_a.java:Icon_Editor.java:Icon_EditorBuilder_a.java:StubCellModel_EnumCheckbox_Editor.java:StubCellModel_EnumCheckbox_EditorBuilder_a.java:StubCellModel_EnumCheckbox_SubstituteMenu.java:enumPropertyCells.java:preventCreation.java:preventDeletion.java" />
+</product>
+

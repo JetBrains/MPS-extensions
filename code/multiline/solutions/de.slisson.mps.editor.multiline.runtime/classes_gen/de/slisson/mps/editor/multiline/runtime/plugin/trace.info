@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="8,0,13,0" name="de.slisson.mps.editor.multiline.runtime.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)/2549531600787651876">
+    <file name="Default_KeymapChanges.java">
+      <node id="2549531600787651878" at="8,34,9,94" concept="3" />
+      <node id="2549531600787651880" at="9,94,10,96" concept="3" />
+      <node id="2549531600787651876" at="13,29,14,22" concept="9" />
+      <node id="2549531600787651876" at="8,0,12,0" concept="2" trace="Default_KeymapChanges#()V" />
+      <node id="2549531600787651876" at="12,0,16,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
+      <scope id="2549531600787651876" at="13,29,14,22" />
+      <scope id="2549531600787651876" at="8,34,10,96" />
+      <scope id="2549531600787651876" at="8,0,12,0" />
+      <scope id="2549531600787651876" at="12,0,16,0" />
+      <unit id="2549531600787651876" at="7,0,18,0" name="de.slisson.mps.editor.multiline.runtime.plugin.Default_KeymapChanges" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="2549531600787651876" at="32,92,33,71" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)/2549531600787651881">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="2549531600787651881" at="26,39,27,43" concept="3" />
+    </file>
+    <file name="SelectWordLeft_Action.java">
+      <node id="2549531600787651881" at="18,0,19,0" concept="12" trace="ICON" />
+      <node id="2549531600787651881" at="20,34,21,43" concept="14" />
+      <node id="2549531600787651881" at="21,43,22,35" concept="3" />
+      <node id="2549531600787651881" at="22,35,23,52" concept="3" />
+      <node id="2549531600787651881" at="26,32,27,16" concept="9" />
+      <node id="2549531600787678432" at="30,87,31,104" concept="10" />
+      <node id="1185192475716872875" at="32,170,33,19" concept="9" />
+      <node id="1185192475716872912" at="34,5,35,113" concept="8" />
+      <node id="1185192475716872960" at="36,53,37,19" concept="9" />
+      <node id="1185192475716872966" at="38,5,39,75" concept="8" />
+      <node id="1185192475716872981" at="39,75,40,53" concept="9" />
+      <node id="6973228588407113649" at="40,53,41,0" concept="11" />
+      <node id="2549531600787651881" at="44,89,45,85" concept="3" />
+      <node id="2549531600787651881" at="49,53,50,19" concept="9" />
+      <node id="2549531600787651895" at="52,5,53,90" concept="8" />
+      <node id="2549531600787651895" at="54,67,55,31" concept="3" />
+      <node id="2549531600787651896" at="57,36,58,21" concept="9" />
+      <node id="2549531600787651881" at="60,5,61,16" concept="9" />
+      <node id="2549531600787651884" at="64,96,65,133" concept="3" />
+      <node id="1185192475716872830" at="31,104,34,5" concept="6" />
+      <node id="1185192475716872925" at="35,113,38,5" concept="6" />
+      <node id="2549531600787651881" at="48,95,51,5" concept="6" />
+      <node id="2549531600787651895" at="53,90,56,7" concept="6" />
+      <node id="2549531600787651896" at="56,7,59,7" concept="6" />
+      <node id="2549531600787651881" at="25,0,29,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="2549531600787651881" at="43,0,47,0" concept="7" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="2549531600787651881" at="63,0,67,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="2549531600787651881" at="20,0,25,0" concept="2" trace="SelectWordLeft_Action#()V" />
+      <node id="2549531600787651895" at="51,5,60,5" concept="1" />
+      <node id="2549531600787651881" at="29,0,43,0" concept="7" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="2549531600787651881" at="47,0,63,0" concept="7" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="2549531600787651881" at="26,32,27,16" />
+      <scope id="1185192475716872831" at="32,170,33,19" />
+      <scope id="1185192475716872926" at="36,53,37,19" />
+      <scope id="2549531600787651881" at="44,89,45,85" />
+      <scope id="2549531600787651881" at="49,53,50,19" />
+      <scope id="2549531600787651895" at="54,67,55,31" />
+      <scope id="2549531600787651896" at="57,36,58,21" />
+      <scope id="2549531600787651881" at="64,96,65,133" />
+      <scope id="2549531600787651881" at="20,34,23,52" />
+      <scope id="2549531600787651881" at="25,0,29,0" />
+      <scope id="2549531600787651881" at="43,0,47,0">
+        <var name="_params" id="2549531600787651881" />
+        <var name="event" id="2549531600787651881" />
+      </scope>
+      <scope id="2549531600787651881" at="63,0,67,0">
+        <var name="_params" id="2549531600787651881" />
+        <var name="event" id="2549531600787651881" />
+      </scope>
+      <scope id="2549531600787651881" at="20,0,25,0" />
+      <scope id="2549531600787651895" at="52,5,59,7">
+        <var name="editorComponent" id="2549531600787651895" />
+      </scope>
+      <scope id="2549531600787651898" at="30,87,41,0">
+        <var name="multilineSelection" id="1185192475716872967" />
+        <var name="selection" id="1185192475716872913" />
+      </scope>
+      <scope id="2549531600787651881" at="48,95,61,16" />
+      <scope id="2549531600787651881" at="29,0,43,0">
+        <var name="_params" id="2549531600787651881" />
+        <var name="event" id="2549531600787651881" />
+      </scope>
+      <scope id="2549531600787651881" at="47,0,63,0">
+        <var name="_params" id="2549531600787651881" />
+        <var name="event" id="2549531600787651881" />
+      </scope>
+      <unit id="2549531600787651881" at="17,0,68,0" name="de.slisson.mps.editor.multiline.runtime.plugin.SelectWordLeft_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)/2549531600787651924">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="2549531600787651924" at="27,43,28,44" concept="3" />
+    </file>
+    <file name="SelectWordRight_Action.java">
+      <node id="2549531600787651924" at="18,0,19,0" concept="12" trace="ICON" />
+      <node id="2549531600787651924" at="20,35,21,44" concept="14" />
+      <node id="2549531600787651924" at="21,44,22,35" concept="3" />
+      <node id="2549531600787651924" at="22,35,23,52" concept="3" />
+      <node id="2549531600787651924" at="26,32,27,16" concept="9" />
+      <node id="6973228588407189228" at="30,87,31,104" concept="10" />
+      <node id="6973228588407189232" at="32,170,33,19" concept="9" />
+      <node id="6973228588407189248" at="34,5,35,113" concept="8" />
+      <node id="6973228588407189260" at="36,53,37,19" concept="9" />
+      <node id="6973228588407189266" at="38,5,39,75" concept="8" />
+      <node id="6973228588407189272" at="39,75,40,105" concept="9" />
+      <node id="2549531600787651924" at="43,89,44,85" concept="3" />
+      <node id="2549531600787651924" at="48,53,49,19" concept="9" />
+      <node id="2549531600787651925" at="51,5,52,90" concept="8" />
+      <node id="2549531600787651925" at="53,67,54,31" concept="3" />
+      <node id="2549531600787651926" at="56,36,57,21" concept="9" />
+      <node id="2549531600787651924" at="59,5,60,16" concept="9" />
+      <node id="2549531600787651929" at="63,96,64,134" concept="3" />
+      <node id="6973228588407189230" at="31,104,34,5" concept="6" />
+      <node id="6973228588407189258" at="35,113,38,5" concept="6" />
+      <node id="2549531600787651924" at="47,95,50,5" concept="6" />
+      <node id="2549531600787651925" at="52,90,55,7" concept="6" />
+      <node id="2549531600787651926" at="55,7,58,7" concept="6" />
+      <node id="2549531600787651924" at="25,0,29,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="2549531600787651924" at="42,0,46,0" concept="7" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="2549531600787651924" at="62,0,66,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="2549531600787651924" at="20,0,25,0" concept="2" trace="SelectWordRight_Action#()V" />
+      <node id="2549531600787651925" at="50,5,59,5" concept="1" />
+      <node id="2549531600787651924" at="29,0,42,0" concept="7" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="2549531600787651924" at="46,0,62,0" concept="7" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="2549531600787651924" at="26,32,27,16" />
+      <scope id="6973228588407189231" at="32,170,33,19" />
+      <scope id="6973228588407189259" at="36,53,37,19" />
+      <scope id="2549531600787651924" at="43,89,44,85" />
+      <scope id="2549531600787651924" at="48,53,49,19" />
+      <scope id="2549531600787651925" at="53,67,54,31" />
+      <scope id="2549531600787651926" at="56,36,57,21" />
+      <scope id="2549531600787651924" at="63,96,64,134" />
+      <scope id="2549531600787651924" at="20,35,23,52" />
+      <scope id="2549531600787651924" at="25,0,29,0" />
+      <scope id="2549531600787651924" at="42,0,46,0">
+        <var name="_params" id="2549531600787651924" />
+        <var name="event" id="2549531600787651924" />
+      </scope>
+      <scope id="2549531600787651924" at="62,0,66,0">
+        <var name="_params" id="2549531600787651924" />
+        <var name="event" id="2549531600787651924" />
+      </scope>
+      <scope id="2549531600787651924" at="20,0,25,0" />
+      <scope id="2549531600787651925" at="51,5,58,7">
+        <var name="editorComponent" id="2549531600787651925" />
+      </scope>
+      <scope id="2549531600787651941" at="30,87,40,105">
+        <var name="multilineSelection" id="6973228588407189267" />
+        <var name="selection" id="6973228588407189249" />
+      </scope>
+      <scope id="2549531600787651924" at="29,0,42,0">
+        <var name="_params" id="2549531600787651924" />
+        <var name="event" id="2549531600787651924" />
+      </scope>
+      <scope id="2549531600787651924" at="47,95,60,16" />
+      <scope id="2549531600787651924" at="46,0,62,0">
+        <var name="_params" id="2549531600787651924" />
+        <var name="event" id="2549531600787651924" />
+      </scope>
+      <unit id="2549531600787651924" at="17,0,67,0" name="de.slisson.mps.editor.multiline.runtime.plugin.SelectWordRight_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)/2549531600787651967">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="2549531600787651967" at="14,0,15,0" concept="4" trace="myId" />
+      <node id="2549531600787651967" at="20,27,21,16" concept="9" />
+      <node id="2549531600787651967" at="24,30,25,29" concept="10" />
+      <node id="2549531600787651967" at="28,44,29,13" concept="10" />
+      <node id="2549531600787651967" at="31,48,32,92" concept="8" />
+      <node id="2549531600787651967" at="33,71,34,15" concept="9" />
+      <node id="2549531600787651967" at="16,0,18,0" concept="2" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="2549531600787651967" at="19,0,23,0" concept="7" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="2549531600787651967" at="31,0,36,0" concept="7" trace="initKeymaps#()Ljava/util/List;" />
+      <node id="2549531600787651967" at="24,0,31,0" concept="7" trace="createGroups#()V" />
+      <scope id="2549531600787651967" at="16,38,16,38" />
+      <scope id="2549531600787651967" at="20,27,21,16" />
+      <scope id="2549531600787651967" at="16,0,18,0" />
+      <scope id="2549531600787651967" at="31,48,34,15">
+        <var name="res" id="2549531600787651967" />
+      </scope>
+      <scope id="2549531600787651967" at="19,0,23,0" />
+      <scope id="2549531600787651967" at="24,30,29,13" />
+      <scope id="2549531600787651967" at="31,0,36,0" />
+      <scope id="2549531600787651967" at="24,0,31,0" />
+      <unit id="2549531600787651967" at="13,0,37,0" name="de.slisson.mps.editor.multiline.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="2549531600787651967" at="15,87,16,115" concept="8" />
+      <node id="2549531600787651967" at="16,115,17,0" concept="11" />
+      <node id="2549531600787651967" at="18,94,19,22" concept="9" />
+      <node id="2549531600787651967" at="13,0,15,0" concept="2" trace="Runtime_ProjectPlugin#()V" />
+      <node id="2549531600787651967" at="15,0,21,0" concept="7" trace="createPreferencesComponents#(Lcom/intellij/openapi/project/Project;)Ljava/util/List;" />
+      <scope id="2549531600787651967" at="13,34,13,34" />
+      <scope id="2549531600787651967" at="13,0,15,0" />
+      <scope id="2549531600787651967" at="15,87,19,22">
+        <var name="components" id="2549531600787651967" />
+      </scope>
+      <scope id="2549531600787651967" at="15,0,21,0">
+        <var name="project" id="2549531600787651967" />
+      </scope>
+      <unit id="2549531600787651967" at="12,0,22,0" name="de.slisson.mps.editor.multiline.runtime.plugin.Runtime_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)/3551002145034858550">
+    <file name="DeleteWord_Action.java">
+      <node id="3551002145034858550" at="18,0,19,0" concept="12" trace="ICON" />
+      <node id="3551002145034858550" at="20,30,21,35" concept="14" />
+      <node id="3551002145034858550" at="21,35,22,35" concept="3" />
+      <node id="3551002145034858550" at="22,35,23,52" concept="3" />
+      <node id="3551002145034858550" at="26,32,27,16" concept="9" />
+      <node id="3551002145034858597" at="30,87,31,112" concept="8" />
+      <node id="3551002145034858605" at="31,112,32,123" concept="8" />
+      <node id="3551002145034858615" at="33,28,34,19" concept="9" />
+      <node id="3551002145034858620" at="35,5,36,133" concept="9" />
+      <node id="3551002145034858550" at="39,89,40,85" concept="3" />
+      <node id="3551002145034858550" at="44,53,45,19" concept="9" />
+      <node id="3551002145034858554" at="47,5,48,90" concept="8" />
+      <node id="3551002145034858554" at="49,67,50,31" concept="3" />
+      <node id="3551002145034858555" at="52,36,53,21" concept="9" />
+      <node id="3551002145034858550" at="55,5,56,16" concept="9" />
+      <node id="3551002145034858558" at="59,96,60,112" concept="8" />
+      <node id="3551002145034858566" at="60,112,61,123" concept="8" />
+      <node id="3551002145034858576" at="62,28,63,13" concept="9" />
+      <node id="3551002145034858580" at="64,5,65,80" concept="8" />
+      <node id="3551002145034858588" at="65,80,66,26" concept="3" />
+      <node id="3551002145034858608" at="68,66,69,47" concept="9" />
+      <node id="3551002145034858569" at="71,66,72,47" concept="9" />
+      <node id="3551002145034858613" at="32,123,35,5" concept="6" />
+      <node id="3551002145034858550" at="43,95,46,5" concept="6" />
+      <node id="3551002145034858554" at="48,90,51,7" concept="6" />
+      <node id="3551002145034858555" at="51,7,54,7" concept="6" />
+      <node id="3551002145034858574" at="61,123,64,5" concept="6" />
+      <node id="3551002145034858608" at="68,0,71,0" concept="13" trace="as_r2yhww_a0a1a4#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3551002145034858569" at="71,0,74,0" concept="13" trace="as_r2yhww_a0a1a7#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3551002145034858550" at="25,0,29,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="3551002145034858550" at="38,0,42,0" concept="7" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3551002145034858550" at="20,0,25,0" concept="2" trace="DeleteWord_Action#()V" />
+      <node id="3551002145034858550" at="29,0,38,0" concept="7" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="3551002145034858554" at="46,5,55,5" concept="1" />
+      <node id="3551002145034858550" at="58,0,68,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3551002145034858550" at="42,0,58,0" concept="7" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="3551002145034858550" at="26,32,27,16" />
+      <scope id="3551002145034858614" at="33,28,34,19" />
+      <scope id="3551002145034858550" at="39,89,40,85" />
+      <scope id="3551002145034858550" at="44,53,45,19" />
+      <scope id="3551002145034858554" at="49,67,50,31" />
+      <scope id="3551002145034858555" at="52,36,53,21" />
+      <scope id="3551002145034858575" at="62,28,63,13" />
+      <scope id="3551002145034858608" at="68,66,69,47" />
+      <scope id="3551002145034858569" at="71,66,72,47" />
+      <scope id="3551002145034858550" at="20,30,23,52" />
+      <scope id="3551002145034858608" at="68,0,71,0">
+        <var name="o" id="3551002145034858608" />
+        <var name="type" id="3551002145034858608" />
+      </scope>
+      <scope id="3551002145034858569" at="71,0,74,0">
+        <var name="o" id="3551002145034858569" />
+        <var name="type" id="3551002145034858569" />
+      </scope>
+      <scope id="3551002145034858550" at="25,0,29,0" />
+      <scope id="3551002145034858550" at="38,0,42,0">
+        <var name="_params" id="3551002145034858550" />
+        <var name="event" id="3551002145034858550" />
+      </scope>
+      <scope id="3551002145034858550" at="20,0,25,0" />
+      <scope id="3551002145034858596" at="30,87,36,133">
+        <var name="selection" id="3551002145034858606" />
+        <var name="selectionManager" id="3551002145034858598" />
+      </scope>
+      <scope id="3551002145034858554" at="47,5,54,7">
+        <var name="editorComponent" id="3551002145034858554" />
+      </scope>
+      <scope id="3551002145034858550" at="59,96,66,26">
+        <var name="selection" id="3551002145034858567" />
+        <var name="selectionManager" id="3551002145034858559" />
+        <var name="wordCell" id="3551002145034858581" />
+      </scope>
+      <scope id="3551002145034858550" at="29,0,38,0">
+        <var name="_params" id="3551002145034858550" />
+        <var name="event" id="3551002145034858550" />
+      </scope>
+      <scope id="3551002145034858550" at="58,0,68,0">
+        <var name="_params" id="3551002145034858550" />
+        <var name="event" id="3551002145034858550" />
+      </scope>
+      <scope id="3551002145034858550" at="43,95,56,16" />
+      <scope id="3551002145034858550" at="42,0,58,0">
+        <var name="_params" id="3551002145034858550" />
+        <var name="event" id="3551002145034858550" />
+      </scope>
+      <unit id="3551002145034858550" at="17,0,75,0" name="de.slisson.mps.editor.multiline.runtime.plugin.DeleteWord_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="3551002145034858550" at="25,29,26,39" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)/4517114264951456986">
+    <file name="DragSelectionHandlerEP_extension.java">
+      <node id="4517114264951456986" at="9,45,10,68" concept="14" />
+      <node id="4517114264951820673" at="15,38,16,34" concept="9" />
+      <node id="4517114264951456986" at="9,0,12,0" concept="2" trace="DragSelectionHandlerEP_extension#()V" />
+      <node id="4942323135816132580" at="15,0,18,0" concept="0" trace="get#()Lde/itemis/mps/selection/runtime/mouse/IDragSelectionHandler;" />
+      <scope id="4517114264951456986" at="9,45,10,68" />
+      <scope id="4942323135816132582" at="15,38,16,34" />
+      <scope id="4517114264951456986" at="9,0,12,0" />
+      <scope id="4942323135816132580" at="15,0,18,0" />
+      <unit id="4517114264951456986" at="8,0,19,0" name="de.slisson.mps.editor.multiline.runtime.plugin.DragSelectionHandlerEP_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)/4517114264951780334">
+    <file name="SelectionHandler.java">
+      <node id="4517114264951907945" at="16,167,17,0" concept="11" />
+      <node id="4517114264951910784" at="18,49,19,18" concept="9" />
+      <node id="4517114264951911665" at="21,47,22,18" concept="9" />
+      <node id="4517114264951915721" at="23,5,24,0" concept="11" />
+      <node id="4517114264951913919" at="24,0,25,60" concept="8" />
+      <node id="4517114264951914548" at="25,60,26,56" concept="8" />
+      <node id="4517114264951928728" at="27,53,28,18" concept="9" />
+      <node id="4517114264951916044" at="29,5,30,0" concept="11" />
+      <node id="4517114264951982886" at="30,0,31,58" concept="8" />
+      <node id="4517114264952003144" at="31,58,32,109" concept="8" />
+      <node id="4517114264952009209" at="32,109,33,101" concept="8" />
+      <node id="4517114264951975347" at="33,101,34,0" concept="11" />
+      <node id="4517114264952018767" at="34,0,35,102" concept="8" />
+      <node id="4517114264952020697" at="35,102,36,21" concept="9" />
+      <node id="4517114264952219623" at="41,28,42,16" concept="9" />
+      <node id="4517114264951908231" at="17,0,20,5" concept="6" />
+      <node id="4517114264951911663" at="20,5,23,5" concept="6" />
+      <node id="4517114264951916604" at="26,56,29,5" concept="6" />
+      <node id="4517114264952215152" at="40,0,44,0" concept="7" trace="getPriority#()I" />
+      <node id="4517114264951900870" at="16,0,38,0" concept="7" trace="createSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;IIIILjetbrains/mps/openapi/editor/EditorComponent;)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <scope id="4517114264951908233" at="18,49,19,18" />
+      <scope id="4517114264951911664" at="21,47,22,18" />
+      <scope id="4517114264951916606" at="27,53,28,18" />
+      <scope id="4517114264952215158" at="41,28,42,16" />
+      <scope id="4517114264952215152" at="40,0,44,0" />
+      <scope id="4517114264951900891" at="16,167,36,21">
+        <var name="fromPos" id="4517114264952003145" />
+        <var name="fromWord" id="4517114264951913920" />
+        <var name="multiline" id="4517114264951982887" />
+        <var name="selection" id="4517114264952018768" />
+        <var name="toPos" id="4517114264952009210" />
+        <var name="toWord" id="4517114264951914549" />
+      </scope>
+      <scope id="4517114264951900870" at="16,0,38,0">
+        <var name="editorComponent" id="4517114264951900885" />
+        <var name="fromCell" id="4517114264951900871" />
+        <var name="fromX" id="4517114264951900877" />
+        <var name="fromY" id="4517114264951900879" />
+        <var name="toCell" id="4517114264951900874" />
+        <var name="toX" id="4517114264951900881" />
+        <var name="toY" id="4517114264951900883" />
+      </scope>
+      <unit id="4517114264951780334" at="15,0,45,0" name="de.slisson.mps.editor.multiline.runtime.plugin.SelectionHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)/551453226825222088">
+    <file name="Multiline_PreferencesComponent.java">
+      <node id="551453226825222088" at="20,58,21,19" concept="14" />
+      <node id="551453226825222088" at="23,40,24,55" concept="3" />
+      <node id="551453226825222088" at="24,55,25,41" concept="3" />
+      <node id="551453226825222088" at="26,71,27,19" concept="3" />
+      <node id="551453226825222088" at="32,11,33,21" concept="3" />
+      <node id="551453226825222088" at="36,5,37,43" concept="3" />
+      <node id="551453226825222088" at="37,43,38,49" concept="9" />
+      <node id="551453226825222088" at="44,35,45,24" concept="9" />
+      <node id="551453226825222088" at="47,44,48,87" concept="8" />
+      <node id="551453226825222089" at="48,87,49,87" concept="3" />
+      <node id="551453226825222088" at="49,87,50,18" concept="9" />
+      <node id="551453226825222088" at="18,0,20,0" concept="4" trace="myState" />
+      <node id="551453226825222088" at="40,0,42,0" concept="7" trace="afterRead#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="551453226825222088" at="42,0,44,0" concept="7" trace="beforeWrite#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="551453226825222088" at="53,0,55,0" concept="2" trace="MyState#()V" />
+      <node id="551453226825222088" at="20,0,23,0" concept="2" trace="Multiline_PreferencesComponent#(Lcom/intellij/openapi/project/Project;)V" />
+      <node id="551453226825222088" at="25,41,28,5" concept="5" />
+      <node id="551453226825222088" at="44,0,47,0" concept="7" trace="getStateObject#()Lde/slisson/mps/editor/multiline/runtime/plugin/Multiline_PreferencesComponent/MyState;" />
+      <node id="551453226825222088" at="31,71,35,7" concept="15" />
+      <node id="551453226825222088" at="47,0,52,0" concept="7" trace="createPages#()Ljava/util/List;" />
+      <node id="551453226825222088" at="30,29,36,5" concept="5" />
+      <node id="551453226825222088" at="23,0,30,0" concept="7" trace="loadState#(Lorg/jdom/Element;)V" />
+      <node id="551453226825222088" at="30,0,40,0" concept="7" trace="getState#()Lorg/jdom/Element;" />
+      <scope id="551453226825222088" at="34,42,34,42" />
+      <scope id="6519663073706308337" at="40,45,40,45" />
+      <scope id="6519663073706307076" at="42,47,42,47" />
+      <scope id="551453226825222088" at="53,22,53,22" />
+      <scope id="551453226825222088" at="20,58,21,19" />
+      <scope id="551453226825222088" at="26,71,27,19" />
+      <scope id="551453226825222088" at="32,11,33,21" />
+      <scope id="551453226825222088" at="34,7,35,7">
+        <var name="e" id="551453226825222088" />
+      </scope>
+      <scope id="551453226825222088" at="44,35,45,24" />
+      <scope id="551453226825222088" at="40,0,42,0">
+        <var name="project" id="551453226825222088" />
+      </scope>
+      <scope id="551453226825222088" at="42,0,44,0">
+        <var name="project" id="551453226825222088" />
+      </scope>
+      <scope id="551453226825222088" at="53,0,55,0" />
+      <scope id="551453226825222088" at="20,0,23,0">
+        <var name="project" id="551453226825222088" />
+      </scope>
+      <scope id="551453226825222088" at="25,41,28,5">
+        <var name="page" id="551453226825222088" />
+      </scope>
+      <scope id="551453226825222088" at="44,0,47,0" />
+      <scope id="551453226825222088" at="47,44,50,18">
+        <var name="result" id="551453226825222088" />
+      </scope>
+      <scope id="551453226825222088" at="31,71,35,7" />
+      <scope id="551453226825222088" at="23,40,28,5" />
+      <scope id="551453226825222088" at="47,0,52,0" />
+      <scope id="551453226825222088" at="30,29,36,5">
+        <var name="page" id="551453226825222088" />
+      </scope>
+      <scope id="551453226825222088" at="23,0,30,0">
+        <var name="state" id="551453226825222088" />
+      </scope>
+      <scope id="551453226825222088" at="30,29,38,49" />
+      <scope id="551453226825222088" at="30,0,40,0" />
+      <unit id="551453226825222088" at="52,0,56,0" name="de.slisson.mps.editor.multiline.runtime.plugin.Multiline_PreferencesComponent$MyState" />
+      <unit id="551453226825222088" at="17,0,57,0" name="de.slisson.mps.editor.multiline.runtime.plugin.Multiline_PreferencesComponent" />
+    </file>
+    <file name="Multiline_Text_PreferencesPage.java">
+      <node id="551453226825222089" at="18,0,19,0" concept="12" trace="ICON" />
+      <node id="551453226825222089" at="20,0,21,0" concept="4" trace="myComponent" />
+      <node id="551453226825222089" at="21,83,22,34" concept="14" />
+      <node id="551453226825222089" at="24,25,25,16" concept="9" />
+      <node id="551453226825222089" at="27,31,28,64" concept="9" />
+      <node id="551453226825222089" at="31,35,32,55" concept="3" />
+      <node id="1241673434631004016" at="35,73,36,153" concept="3" />
+      <node id="3094641088663194297" at="38,48,39,67" concept="8" />
+      <node id="3094641088663199682" at="40,40,41,101" concept="3" />
+      <node id="551453226825222089" at="47,35,48,53" concept="3" />
+      <node id="551453226825222089" at="49,5,50,28" concept="9" />
+      <node id="1241673434631026272" at="52,80,53,161" concept="9" />
+      <node id="551453226825222089" at="55,36,56,28" concept="3" />
+      <node id="551453226825222089" at="59,35,60,54" concept="3" />
+      <node id="1232231925396277535" at="63,72,64,151" concept="3" />
+      <node id="551453226825222089" at="67,32,68,18" concept="9" />
+      <node id="3094641088663246576" at="71,36,72,33" concept="3" />
+      <node id="3094641088663246576" at="73,5,74,0" concept="11" />
+      <node id="3094641088663245914" at="77,36,78,59" concept="9" />
+      <node id="3094641088663245914" at="79,5,80,16" concept="9" />
+      <node id="3094641088663245328" at="83,36,84,47" concept="9" />
+      <node id="3094641088663245328" at="85,5,86,16" concept="9" />
+      <node id="551453226825222089" at="21,0,24,0" concept="2" trace="Multiline_Text_PreferencesPage#(Ljetbrains/mps/plugins/prefs/BaseProjectPrefsComponent;)V" />
+      <node id="551453226825222089" at="24,0,27,0" concept="7" trace="getIcon#()Ljavax/swing/Icon;" />
+      <node id="551453226825222089" at="27,0,30,0" concept="7" trace="isModified#()Z" />
+      <node id="551453226825222089" at="30,53,33,5" concept="6" />
+      <node id="3094641088663194861" at="39,67,42,9" concept="6" />
+      <node id="551453226825222089" at="46,39,49,5" concept="6" />
+      <node id="551453226825222089" at="52,0,55,0" concept="7" trace="isModified#(Lcom/intellij/openapi/project/Project;Lde/slisson/mps/editor/multiline/runtime/plugin/MultilineSettingsPage;)Z" />
+      <node id="551453226825222089" at="55,0,58,0" concept="7" trace="disposeUIResources#()V" />
+      <node id="551453226825222089" at="58,23,61,5" concept="6" />
+      <node id="551453226825222089" at="63,0,66,0" concept="7" trace="reset#(Lcom/intellij/openapi/project/Project;Lde/slisson/mps/editor/multiline/runtime/plugin/MultilineSettingsPage;)V" />
+      <node id="3094641088663246576" at="70,83,73,5" concept="6" />
+      <node id="3094641088663245914" at="76,86,79,5" concept="6" />
+      <node id="3094641088663245328" at="82,89,85,5" concept="6" />
+      <node id="551453226825222089" at="66,0,70,0" concept="7" trace="getHelpTopic#()Ljava/lang/String;" />
+      <node id="551453226825222089" at="30,0,35,0" concept="7" trace="apply#()V" />
+      <node id="551453226825222089" at="58,0,63,0" concept="7" trace="reset#()V" />
+      <node id="3094641088663192668" at="37,86,43,7" concept="6" />
+      <node id="551453226825222089" at="46,0,52,0" concept="7" trace="createComponent#()Ljavax/swing/JComponent;" />
+      <node id="3094641088663246576" at="70,0,76,0" concept="13" trace="check_6lh1s6_a0a1a0a1a0a#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="3094641088663245914" at="76,0,82,0" concept="13" trace="check_6lh1s6_a0a0b0a0b0a0#(Ljetbrains/mps/openapi/editor/Editor;)Ljetbrains/mps/openapi/editor/EditorComponent;" />
+      <node id="3094641088663245328" at="82,0,88,0" concept="13" trace="check_6lh1s6_a0a0a1a0a1a0a#(Ljetbrains/mps/ide/editor/MPSFileNodeEditor;)Ljetbrains/mps/openapi/editor/Editor;" />
+      <node id="3094641088663180071" at="36,153,44,5" concept="5" />
+      <node id="551453226825222089" at="35,0,46,0" concept="7" trace="commit#(Lcom/intellij/openapi/project/Project;Lde/slisson/mps/editor/multiline/runtime/plugin/MultilineSettingsPage;)V" />
+      <scope id="551453226825222089" at="21,83,22,34" />
+      <scope id="551453226825222089" at="24,25,25,16" />
+      <scope id="551453226825222089" at="27,31,28,64" />
+      <scope id="551453226825222089" at="31,35,32,55" />
+      <scope id="3094641088663194863" at="40,40,41,101" />
+      <scope id="551453226825222089" at="47,35,48,53" />
+      <scope id="551453226825222092" at="52,80,53,161" />
+      <scope id="551453226825222089" at="55,36,56,28" />
+      <scope id="551453226825222089" at="59,35,60,54" />
+      <scope id="551453226825222094" at="63,72,64,151" />
+      <scope id="551453226825222089" at="67,32,68,18" />
+      <scope id="3094641088663246576" at="71,36,72,33" />
+      <scope id="3094641088663245914" at="77,36,78,59" />
+      <scope id="3094641088663245328" at="83,36,84,47" />
+      <scope id="551453226825222089" at="21,0,24,0">
+        <var name="prefsComponent" id="551453226825222089" />
+      </scope>
+      <scope id="551453226825222089" at="24,0,27,0" />
+      <scope id="551453226825222089" at="27,0,30,0" />
+      <scope id="551453226825222089" at="30,53,33,5" />
+      <scope id="551453226825222089" at="52,0,55,0">
+        <var name="component" id="551453226825222089" />
+        <var name="project" id="551453226825222089" />
+      </scope>
+      <scope id="551453226825222089" at="55,0,58,0" />
+      <scope id="551453226825222089" at="58,23,61,5" />
+      <scope id="551453226825222089" at="63,0,66,0">
+        <var name="component" id="551453226825222089" />
+        <var name="project" id="551453226825222089" />
+      </scope>
+      <scope id="3094641088663192670" at="38,48,42,9">
+        <var name="mpsEditor" id="3094641088663194298" />
+      </scope>
+      <scope id="551453226825222089" at="46,39,50,28" />
+      <scope id="551453226825222089" at="66,0,70,0" />
+      <scope id="3094641088663246576" at="70,83,74,0" />
+      <scope id="3094641088663245914" at="76,86,80,16" />
+      <scope id="3094641088663245328" at="82,89,86,16" />
+      <scope id="551453226825222089" at="30,0,35,0" />
+      <scope id="551453226825222089" at="58,0,63,0" />
+      <scope id="3094641088663180073" at="37,86,43,7" />
+      <scope id="551453226825222089" at="46,0,52,0" />
+      <scope id="3094641088663246576" at="70,0,76,0">
+        <var name="checkedDotOperand" id="3094641088663246576" />
+      </scope>
+      <scope id="3094641088663245914" at="76,0,82,0">
+        <var name="checkedDotOperand" id="3094641088663245914" />
+      </scope>
+      <scope id="3094641088663245328" at="82,0,88,0">
+        <var name="checkedDotOperand" id="3094641088663245328" />
+      </scope>
+      <scope id="3094641088663180071" at="36,153,44,5">
+        <var name="editor" id="3094641088663180074" />
+      </scope>
+      <scope id="551453226825222096" at="35,73,44,5" />
+      <scope id="551453226825222089" at="35,0,46,0">
+        <var name="component" id="551453226825222089" />
+        <var name="project" id="551453226825222089" />
+      </scope>
+      <unit id="551453226825222089" at="17,0,89,0" name="de.slisson.mps.editor.multiline.runtime.plugin.Multiline_Text_PreferencesPage" />
+    </file>
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="551453226825222088" at="17,0,18,94" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)/551453226825312425">
+    <file name="MultilineSettingsPage.java">
+      <node id="548004239771159473" at="18,0,19,0" concept="12" trace="SPELL_CHECKING_ENABLE_KEY" />
+      <node id="175856100755143302" at="21,117,22,18" concept="9" />
+      <node id="175856100755159566" at="23,5,24,17" concept="9" />
+      <node id="1241673434630990261" at="27,90,28,104" concept="3" />
+      <node id="1232231925396085749" at="31,34,32,11" concept="3" />
+      <node id="1232231925396100777" at="35,23,36,53" concept="3" />
+      <node id="1232231925396065691" at="36,53,37,0" concept="11" />
+      <node id="1232231925396155952" at="37,0,38,100" concept="3" />
+      <node id="1784710035577763608" at="38,100,39,0" concept="11" />
+      <node id="8406119028230026734" at="40,5,41,38" concept="8" />
+      <node id="8406119028230016037" at="41,38,42,70" concept="3" />
+      <node id="8406119028230070981" at="42,70,43,48" concept="3" />
+      <node id="8406119028230092533" at="43,48,44,81" concept="3" />
+      <node id="8406119028230067322" at="44,81,45,0" concept="11" />
+      <node id="8406119028230279735" at="46,7,47,39" concept="8" />
+      <node id="8406119028230279740" at="47,39,48,70" concept="3" />
+      <node id="8406119028230403239" at="48,70,49,49" concept="3" />
+      <node id="8406119028230283279" at="49,49,50,55" concept="3" />
+      <node id="8406119028230275897" at="50,55,51,0" concept="11" />
+      <node id="1238016554238052603" at="51,0,52,55" concept="3" />
+      <node id="8406119028230449604" at="52,55,53,0" concept="11" />
+      <node id="8406119028230298887" at="53,0,54,32" concept="3" />
+      <node id="8406119028230329693" at="55,7,56,0" concept="11" />
+      <node id="8406119028230248198" at="56,0,57,21" concept="3" />
+      <node id="1232231925396194720" at="61,48,62,52" concept="9" />
+      <node id="1232231925396160461" at="65,58,66,55" concept="3" />
+      <node id="1232231925396155943" at="69,0,70,0" concept="4" trace="enableSpellCheckingCheckbox" />
+      <node id="175856100755123781" at="20,78,23,5" concept="6" />
+      <node id="1241673434630944743" at="27,0,30,0" concept="13" trace="setSpellCheckingEnabledInPreferences#(Lcom/intellij/openapi/project/Project;Z)V" />
+      <node id="551453226825313621" at="31,0,34,0" concept="2" trace="MultilineSettingsPage#()V" />
+      <node id="1232231925396184473" at="61,0,64,0" concept="7" trace="isSpellCheckingEnabledInGUI#()Z" />
+      <node id="1232231925396149144" at="65,0,68,0" concept="7" trace="setSpellCheckingEnabledInGUI#(Z)V" />
+      <node id="1241673434630841842" at="20,0,26,0" concept="13" trace="isSpellCheckingEnabledInPreferences#(Lcom/intellij/openapi/project/Project;)Z" />
+      <node id="8406119028230342977" at="45,0,55,7" concept="1" />
+      <node id="8406119028230359825" at="39,0,58,5" concept="1" />
+      <node id="1232231925396065551" at="35,0,60,0" concept="7" trace="init#()V" />
+      <scope id="175856100755123783" at="21,117,22,18" />
+      <scope id="1241673434630944744" at="27,90,28,104" />
+      <scope id="551453226825313625" at="31,34,32,11" />
+      <scope id="1232231925396184477" at="61,48,62,52" />
+      <scope id="1232231925396149148" at="65,58,66,55" />
+      <scope id="1241673434630944743" at="27,0,30,0">
+        <var name="flag" id="1241673434630971544" />
+        <var name="project" id="1241673434630975013" />
+      </scope>
+      <scope id="551453226825313621" at="31,0,34,0" />
+      <scope id="1232231925396184473" at="61,0,64,0" />
+      <scope id="1232231925396149144" at="65,0,68,0">
+        <var name="flag" id="1232231925396149718" />
+      </scope>
+      <scope id="1241673434630841845" at="20,78,24,17" />
+      <scope id="1241673434630841842" at="20,0,26,0">
+        <var name="project" id="1241673434630893984" />
+      </scope>
+      <scope id="8406119028230342979" at="46,7,54,32">
+        <var name="subpanel" id="8406119028230279736" />
+      </scope>
+      <scope id="8406119028230359827" at="40,5,57,21">
+        <var name="mainPanel" id="8406119028230026735" />
+      </scope>
+      <scope id="1232231925396065555" at="35,23,58,5" />
+      <scope id="1232231925396065551" at="35,0,60,0" />
+      <unit id="551453226825312425" at="16,0,72,0" name="de.slisson.mps.editor.multiline.runtime.plugin.MultilineSettingsPage" />
+    </file>
+  </root>
+</debug-info>
+

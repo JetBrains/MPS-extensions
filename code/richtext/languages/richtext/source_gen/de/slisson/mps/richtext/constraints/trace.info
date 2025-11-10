@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="de.slisson.mps.richtext.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:16020d5e-3959-4c19-9a84-8aa9998fe689(de.slisson.mps.richtext.constraints)/3163053272564806642">
+    <file name="IWord_Constraints.java">
+      <node id="3163053272564806642" at="11,30,12,29" concept="4" />
+      <node id="3163053272564806642" at="16,47,17,28" concept="2" />
+      <node id="3163053272564806642" at="21,0,22,0" concept="3" trace="IWord$8d" />
+      <node id="3163053272564806642" at="22,0,23,0" concept="3" trace="Word$5r" />
+      <node id="3163053272564806642" at="11,0,14,0" concept="0" trace="IWord_Constraints#()V" />
+      <node id="3163053272564806642" at="15,0,19,0" concept="1" trace="getDefaultConcreteConcept#()Lorg/jetbrains/mps/openapi/language/SConcept;" />
+      <scope id="3163053272564806642" at="11,30,12,29" />
+      <scope id="3163053272564806642" at="16,47,17,28" />
+      <scope id="3163053272564806642" at="11,0,14,0" />
+      <scope id="3163053272564806642" at="15,0,19,0" />
+      <unit id="3163053272564806642" at="20,0,24,0" name="de.slisson.mps.richtext.constraints.IWord_Constraints$CONCEPTS" />
+      <unit id="3163053272564806642" at="10,0,25,0" name="de.slisson.mps.richtext.constraints.IWord_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

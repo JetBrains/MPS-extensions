@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="eg1ys0m8p71zi5403fi50m1abt7kqqa">
+  <files names="AutoChildMerger.java:AutoCollectionMerger.java:BuiltInChildDrop.java:BuiltInChildLeft.java:BuiltInChildMerger.java:BuiltInChildRight.java:BuiltInLeft.java:BuiltInPropertyMerger.java:BuiltInRefDrop.java:BuiltInRefLeft.java:BuiltInRefMerger.java:BuiltInRefRight.java:BuiltInRight.java:CollectionElementMerger.java:ConceptChildMerger.java:ConceptGraphBuilder.java:ConceptMergeSpec.java:ConceptPropertyAction.java:ConceptRefMerger.java:ContentHolder.java:ContentHolderFactory.java:ContentHolderFactoryExtension.java:DropCollectionMerger.java:Identity.java:LeftCollectionMerger.java:MapWrapper.java:MergePolicySpec.java:MergedNode.java:MergerResolver.java:MergerResolverBuilder.java:MergerResolverImpl.java:MergingPolicyConflict.java:MetaCollectionMerger.java:MissingMergingPolicies.java:ModelMerger.java:ModelMergingRunner.java:PolicyMergerResolver.java:PropertyMerger.java:RightCollectionMerger.java:SimpleActionContentHolder.java:SubPolicyContainerContentHolder.java:TraversalState.java" />
+</product>
+

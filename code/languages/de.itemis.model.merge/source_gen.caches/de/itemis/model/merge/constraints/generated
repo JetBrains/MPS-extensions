@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="8dye3zst3andlvjy991vb7svsifpgb0">
+  <files names="ConceptMergingPolicy_Constraints.java:ConstraintsAspectDescriptor.java:MultiChildPolicy_Constraints.java:OptionalChildPolicy_Constraints.java:OptionalPolicy_Constraints.java:OptionalRefPolicy_Constraints.java:PropertyPolicy_Constraints.java:SingeltonRefPolicy_Constraints.java:SingletonChildPolicy_Constraints.java:SingletonPolicy_Constraints.java:SubPolicyContainer_Constraints.java" />
+</product>
+

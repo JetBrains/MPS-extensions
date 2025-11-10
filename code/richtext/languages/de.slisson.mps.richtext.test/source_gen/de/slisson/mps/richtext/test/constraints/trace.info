@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="de.slisson.mps.richtext.test.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:7c89a46f-f171-4bc9-bf90-e868661c9b9b(de.slisson.mps.richtext.test.constraints)/6193633844718722225">
+    <file name="RichtextCellReference_Constraints.java">
+      <node id="6193633844718722225" at="32,46,33,45" concept="9" />
+      <node id="6193633844718722225" at="40,130,41,161" concept="4" />
+      <node id="6193633844718722225" at="41,161,42,0" concept="6" />
+      <node id="6193633844718722225" at="43,55,44,70" concept="1" />
+      <node id="6193633844718722225" at="45,9,46,0" concept="6" />
+      <node id="6193633844718722225" at="46,0,47,22" concept="5" />
+      <node id="6193633844718722790" at="59,63,60,143" concept="5" />
+      <node id="6193633844718725071" at="63,80,64,306" concept="5" />
+      <node id="6193633844718722225" at="68,6,69,131" concept="4" />
+      <node id="6193633844718722790" at="69,131,70,42" concept="1" />
+      <node id="6193633844718722225" at="70,42,71,22" concept="5" />
+      <node id="6193633844718726963" at="73,149,74,106" concept="5" />
+      <node id="6193633844718722225" at="76,0,77,0" concept="7" trace="canBeRootBreakingPoint" />
+      <node id="6193633844718722225" at="79,0,80,0" concept="7" trace="RichtextCellReference$Ye" />
+      <node id="6193633844718722225" at="80,0,81,0" concept="7" trace="EditorTestCase$DN" />
+      <node id="6193633844718722225" at="81,0,82,0" concept="7" trace="RichtextCellAnnotation$2h" />
+      <node id="6193633844718722225" at="85,0,86,0" concept="7" trace="annotation$OjTF" />
+      <node id="6193633844718722225" at="86,0,87,0" concept="7" trace="testNodeBefore$aUeC" />
+      <node id="6193633844718722225" at="32,0,35,0" concept="0" trace="RichtextCellReference_Constraints#()V" />
+      <node id="6193633844718722225" at="42,0,45,9" concept="2" />
+      <node id="6193633844718722225" at="73,0,76,0" concept="8" trace="staticCanBeAnAncestor#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="6193633844718722790" at="58,0,62,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6193633844718722790" at="62,0,66,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6193633844718722225" at="39,0,49,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeAncestor;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="6193633844718722790" at="56,56,66,10" concept="5" />
+      <node id="6193633844718722225" at="37,109,49,6" concept="5" />
+      <node id="6193633844718722790" at="54,0,68,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="6193633844718722225" at="36,0,51,0" concept="3" trace="calculateCanBeAncestorConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <node id="6193633844718722790" at="52,90,68,6" concept="4" />
+      <node id="6193633844718722225" at="51,0,73,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="6193633844718722225" at="32,46,33,45" />
+      <scope id="6193633844718722225" at="43,55,44,70" />
+      <scope id="6193633844718722790" at="59,63,60,143" />
+      <scope id="6193633844718722790" at="63,80,64,306" />
+      <scope id="6193633844718726147" at="73,149,74,106" />
+      <scope id="6193633844718722225" at="32,0,35,0" />
+      <scope id="6193633844718722225" at="73,0,76,0">
+        <var name="childConcept" id="6193633844718722225" />
+        <var name="childNode" id="6193633844718722225" />
+        <var name="link" id="6193633844718722225" />
+        <var name="node" id="6193633844718722225" />
+        <var name="parentNode" id="6193633844718722225" />
+      </scope>
+      <scope id="6193633844718722790" at="58,0,62,0" />
+      <scope id="6193633844718722790" at="62,0,66,0">
+        <var name="_context" id="6193633844718722790" />
+      </scope>
+      <scope id="6193633844718722225" at="40,130,47,22">
+        <var name="result" id="6193633844718722225" />
+      </scope>
+      <scope id="6193633844718722225" at="39,0,49,0">
+        <var name="checkingNodeContext" id="6193633844718722225" />
+        <var name="context" id="6193633844718722225" />
+      </scope>
+      <scope id="6193633844718722790" at="56,56,66,10" />
+      <scope id="6193633844718722225" at="37,109,49,6" />
+      <scope id="6193633844718722790" at="54,0,68,0" />
+      <scope id="6193633844718722225" at="36,0,51,0" />
+      <scope id="6193633844718722225" at="52,90,71,22">
+        <var name="d0" id="6193633844718722790" />
+        <var name="references" id="6193633844718722225" />
+      </scope>
+      <scope id="6193633844718722225" at="51,0,73,0" />
+      <unit id="6193633844718722225" at="84,0,88,0" name="de.slisson.mps.richtext.test.constraints.RichtextCellReference_Constraints$LINKS" />
+      <unit id="6193633844718722225" at="78,0,83,0" name="de.slisson.mps.richtext.test.constraints.RichtextCellReference_Constraints$CONCEPTS" />
+      <unit id="6193633844718722790" at="57,19,66,9" name="de.slisson.mps.richtext.test.constraints.RichtextCellReference_Constraints$2$1" />
+      <unit id="6193633844718722225" at="38,15,49,5" name="de.slisson.mps.richtext.test.constraints.RichtextCellReference_Constraints$1" />
+      <unit id="6193633844718722790" at="53,48,68,5" name="de.slisson.mps.richtext.test.constraints.RichtextCellReference_Constraints$2" />
+      <unit id="6193633844718722225" at="31,0,89,0" name="de.slisson.mps.richtext.test.constraints.RichtextCellReference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

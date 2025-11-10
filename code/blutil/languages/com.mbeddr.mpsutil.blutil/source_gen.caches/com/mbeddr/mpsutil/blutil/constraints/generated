@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-663bs8wnshd9wp7pho62tfj245chy9r">
+  <files names="AncestorRoleClause_Constraints.java:CSCase_Constraints.java:CallRecursivelyExpression_Constraints.java:CastedCandidateExpr_Constraints.java:ChildRefExpr_Constraints.java:ChildStep_Constraints.java:ConceptRef_Constraints.java:ConstraintsAspectDescriptor.java:ExpressionChildValue_Constraints.java:GridConstraintsOperation_Constraints.java:IfInstanceOfElseIfClause_Constraints.java:IfInstanceOfStatement_Constraints.java:IfInstanceOfVarReference_Constraints.java:ItExpr_Constraints.java:LinkRefExpr_Constraints.java:LinkRoleClause_Constraints.java:MatchClauseExpr_Constraints.java:MatchExpression_Constraints.java:RefStep_Constraints.java:SimplePropertyStep_Constraints.java:TypeGuard_Constraints.java:TypeSwitchCaseMappingMethodCall_Constraints.java:TypeSwitchDefault_Constraints.java:TypeSwitchVariableReference_Constraints.java" />
+</product>
+

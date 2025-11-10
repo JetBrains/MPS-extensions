@@ -1,0 +1,2731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1160998861373:jetbrains.mps.baseLanguage.structure.AssertStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1177666668936:jetbrains.mps.baseLanguage.structure.DoWhileStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/1227384462788533196">
+    <file name="InvisibleButton.java">
+      <node id="1227384462788533208" at="16,76,17,31" concept="17" />
+      <node id="1227384462788533204" at="16,0,19,0" concept="3" trace="InvisibleButton#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1227384462788533223" at="20,0,23,0" concept="10" trace="onClick#()V" />
+      <node id="1227384462788533328" at="24,0,27,0" concept="10" trace="paintSymbol#(Ljava/awt/Graphics2D;)V" />
+      <node id="1227384462788547540" at="28,0,31,0" concept="10" trace="paintContent#(Ljava/awt/Graphics;Ljetbrains/mps/nodeEditor/cells/ParentSettings;)V" />
+      <scope id="1227384462788533226" at="21,25,21,25" />
+      <scope id="1227384462788533333" at="25,44,25,44" />
+      <scope id="1227384462788547627" at="29,68,29,68" />
+      <scope id="1227384462788533207" at="16,76,17,31" />
+      <scope id="1227384462788533204" at="16,0,19,0">
+        <var name="editorContext" id="1227384462788533215" />
+        <var name="node" id="1227384462788533218" />
+      </scope>
+      <scope id="1227384462788533223" at="20,0,23,0" />
+      <scope id="1227384462788533328" at="24,0,27,0">
+        <var name="g" id="1227384462788533329" />
+      </scope>
+      <scope id="1227384462788547540" at="28,0,31,0">
+        <var name="g" id="1227384462788547543" />
+        <var name="settings" id="1227384462788547545" />
+      </scope>
+      <unit id="1227384462788533196" at="12,0,33,0" name="com.mbeddr.mpsutil.treenotation.runtime.InvisibleButton" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/134774857084563017">
+    <file name="TreeCell.java">
+      <node id="2807401889298951806" at="35,0,36,0" concept="15" trace="TRANSPARENT_COLLECTION" />
+      <node id="2876310430320543994" at="36,0,37,0" concept="15" trace="LEFT_TO_RIGHT" />
+      <node id="2876310430320555731" at="37,0,38,0" concept="15" trace="INCOMING_SHAPE" />
+      <node id="8310145593776932641" at="38,0,39,0" concept="15" trace="TREE_LAYOUT" />
+      <node id="8052641366131886935" at="39,0,40,0" concept="15" trace="FLATTEN" />
+      <node id="2807401889299676037" at="40,0,41,0" concept="15" trace="ENDPOINT_SPACING" />
+      <node id="8877288515759678147" at="42,0,43,0" concept="6" trace="myDeleteHandler" />
+      <node id="8877288515759689715" at="43,0,44,0" concept="6" trace="myDeleteButtons" />
+      <node id="8877288515760086610" at="44,0,45,0" concept="6" trace="myInsertButtons" />
+      <node id="8877288515760712767" at="45,0,46,0" concept="6" trace="myTreeRootCell" />
+      <node id="8877288515760718125" at="46,0,47,0" concept="6" trace="myTreeChildrenCell" />
+      <node id="8433232831283105611" at="47,0,48,0" concept="6" trace="myIncomingShape" />
+      <node id="8433232831283114928" at="48,0,49,0" concept="6" trace="myOutgoingShape" />
+      <node id="857420770336631289" at="49,0,50,0" concept="6" trace="myFoldButton" />
+      <node id="3649115372188318350" at="50,0,51,0" concept="6" trace="myTreeCollapsed" />
+      <node id="134774857084563763" at="52,60,53,59" concept="17" />
+      <node id="3651537861196407209" at="53,59,54,70" concept="5" />
+      <node id="2807401889302290498" at="57,42,58,52" concept="12" />
+      <node id="8310145593776926681" at="61,54,62,38" concept="5" />
+      <node id="8310145593777659644" at="66,45,67,73" concept="11" />
+      <node id="8310145593776995008" at="67,73,68,59" concept="12" />
+      <node id="3649115372188332214" at="71,34,72,79" concept="11" />
+      <node id="3649115372188364159" at="72,79,73,89" concept="11" />
+      <node id="3649115372188392745" at="73,89,74,144" concept="11" />
+      <node id="3649115372189233488" at="74,144,75,62" concept="5" />
+      <node id="3649115372189240007" at="75,62,76,34" concept="5" />
+      <node id="3649115372189032254" at="79,34,80,79" concept="11" />
+      <node id="3649115372189072800" at="80,79,81,76" concept="5" />
+      <node id="8877288515759683910" at="84,62,85,36" concept="5" />
+      <node id="857420770336199307" at="88,44,89,27" concept="12" />
+      <node id="5587067268291061794" at="92,70,93,76" concept="5" />
+      <node id="5587067268291084887" at="93,76,94,51" concept="5" />
+      <node id="5587067268291092691" at="94,51,95,0" concept="14" />
+      <node id="8877288515760131317" at="96,61,97,88" concept="11" />
+      <node id="8877288515760143546" at="98,78,99,115" concept="11" />
+      <node id="8877288515760153575" at="99,115,100,72" concept="5" />
+      <node id="8877288515760061830" at="100,72,101,36" concept="5" />
+      <node id="134774857084783205" at="107,68,108,36" concept="5" />
+      <node id="857420770335714454" at="109,28,110,13" concept="12" />
+      <node id="857420770335707906" at="111,5,112,0" concept="14" />
+      <node id="2807401889300975195" at="112,0,113,51" concept="5" />
+      <node id="857420770335831933" at="116,87,117,21" concept="5" />
+      <node id="8433232831283457512" at="117,21,118,24" concept="11" />
+      <node id="8796347991408130207" at="118,24,119,82" concept="5" />
+      <node id="8433232831283463453" at="120,53,121,52" concept="5" />
+      <node id="8433232831283473408" at="123,24,124,13" concept="12" />
+      <node id="8433232831283473413" at="125,5,126,0" concept="14" />
+      <node id="8433232831283476376" at="126,0,127,47" concept="11" />
+      <node id="8433232831283489670" at="128,9,129,84" concept="5" />
+      <node id="8433232831283476418" at="130,15,131,19" concept="5" />
+      <node id="857420770335832373" at="135,71,136,21" concept="5" />
+      <node id="8433232831283601170" at="137,34,138,13" concept="12" />
+      <node id="8433232831283557522" at="139,5,140,46" concept="11" />
+      <node id="857420770334716953" at="142,59,143,72" concept="11" />
+      <node id="857420770334716964" at="143,72,144,28" concept="12" />
+      <node id="857420770334744311" at="146,28,147,60" concept="5" />
+      <node id="8433232831283557533" at="148,7,149,38" concept="5" />
+      <node id="8433232831283557543" at="150,15,151,18" concept="5" />
+      <node id="857420770335821341" at="156,24,157,60" concept="19" />
+      <node id="857420770335824687" at="161,42,162,21" concept="5" />
+      <node id="8877288515759793017" at="162,21,163,27" concept="12" />
+      <node id="857420770335824790" at="166,42,167,21" concept="5" />
+      <node id="8877288515760164652" at="167,21,168,27" concept="12" />
+      <node id="857420770336652044" at="171,33,172,24" concept="12" />
+      <node id="857420770335831612" at="175,51,176,21" concept="5" />
+      <node id="8877288515759181780" at="176,21,177,41" concept="11" />
+      <node id="8877288515759171454" at="177,41,178,82" concept="12" />
+      <node id="857420770335831408" at="181,44,182,21" concept="5" />
+      <node id="8877288515759249180" at="182,21,183,41" concept="11" />
+      <node id="8877288515759249185" at="183,41,184,64" concept="12" />
+      <node id="857420770335828254" at="187,44,188,21" concept="5" />
+      <node id="8877288515760779212" at="188,21,189,26" concept="5" />
+      <node id="8877288515760783678" at="189,26,190,24" concept="5" />
+      <node id="857420770335828159" at="193,35,194,21" concept="5" />
+      <node id="8877288515760787320" at="194,21,195,26" concept="12" />
+      <node id="857420770335828032" at="198,48,199,21" concept="5" />
+      <node id="8877288515760801543" at="199,21,200,30" concept="5" />
+      <node id="8877288515760808740" at="200,30,201,24" concept="5" />
+      <node id="857420770336270809" at="201,24,202,24" concept="5" />
+      <node id="857420770337014199" at="202,24,203,21" concept="5" />
+      <node id="857420770335824988" at="206,49,207,21" concept="5" />
+      <node id="8877288515760850303" at="208,37,209,72" concept="12" />
+      <node id="8877288515760856315" at="211,97,212,111" concept="12" />
+      <node id="8877288515760865679" at="213,12,214,64" concept="12" />
+      <node id="8052641366130710626" at="218,132,219,59" concept="11" />
+      <node id="8052641366130872872" at="221,113,222,97" concept="12" />
+      <node id="8052641366130884251" at="223,14,224,50" concept="12" />
+      <node id="857420770336100045" at="229,38,230,21" concept="5" />
+      <node id="857420770336125124" at="230,21,231,76" concept="5" />
+      <node id="857420770336138026" at="231,76,232,51" concept="5" />
+      <node id="857420770336107239" at="232,51,233,0" concept="14" />
+      <node id="7779720926560743176" at="234,52,235,13" concept="12" />
+      <node id="7779720926560743180" at="236,5,237,0" concept="14" />
+      <node id="857420770336103065" at="237,0,238,58" concept="11" />
+      <node id="857420770336249853" at="240,157,241,84" concept="11" />
+      <node id="1227384462788037182" at="241,84,242,30" concept="5" />
+      <node id="1227384462788037177" at="242,30,243,66" concept="5" />
+      <node id="1227384462788141263" at="244,14,245,70" concept="11" />
+      <node id="857420770336363128" at="245,70,246,30" concept="5" />
+      <node id="857420770336253058" at="246,30,247,66" concept="5" />
+      <node id="857420770336990144" at="252,35,253,80" concept="11" />
+      <node id="857420770336641018" at="254,46,255,68" concept="5" />
+      <node id="3649115372187766958" at="255,68,256,86" concept="5" />
+      <node id="857420770336867005" at="256,86,257,34" concept="5" />
+      <node id="857420770337004832" at="258,56,259,31" concept="5" />
+      <node id="857420770337009409" at="259,31,260,26" concept="5" />
+      <node id="3649115372189434505" at="265,50,266,32" concept="5" />
+      <node id="3649115372188615309" at="270,39,271,34" concept="5" />
+      <node id="3649115372189229294" at="271,34,272,36" concept="5" />
+      <node id="3649115372189337562" at="272,36,273,25" concept="5" />
+      <node id="3649115372188601734" at="273,25,274,24" concept="5" />
+      <node id="3649115372188949188" at="274,24,275,58" concept="5" />
+      <node id="2807401889297524740" at="280,79,281,24" concept="5" />
+      <node id="3649115372189220223" at="282,5,283,34" concept="5" />
+      <node id="3649115372189220226" at="283,34,284,32" concept="5" />
+      <node id="3649115372189220231" at="285,29,286,81" concept="5" />
+      <node id="3649115372189220242" at="286,81,287,81" concept="5" />
+      <node id="3649115372189220253" at="287,81,288,40" concept="5" />
+      <node id="3649115372188542677" at="292,36,293,27" concept="12" />
+      <node id="857420770335828386" at="296,100,297,21" concept="5" />
+      <node id="8052641366135443551" at="297,21,298,0" concept="14" />
+      <node id="8052641366135477558" at="298,0,299,109" concept="12" />
+      <node id="8052641366135443610" at="299,109,300,0" concept="14" />
+      <node id="8052641366132140462" at="303,167,304,165" concept="11" />
+      <node id="8052641366132215931" at="304,165,305,0" concept="14" />
+      <node id="8052641366130456979" at="305,0,306,43" concept="11" />
+      <node id="8052641366132241820" at="310,0,311,0" concept="6" trace="__CP__" />
+      <node id="8052641366132241820" at="316,24,317,50" concept="0" />
+      <node id="8052641366132241820" at="317,50,318,31" concept="12" />
+      <node id="8052641366132534507" at="319,23,320,180" concept="5" />
+      <node id="8052641366132534507" at="322,76,323,36" concept="5" />
+      <node id="8052641366132534507" at="323,36,324,26" concept="2" />
+      <node id="8052641366132534507" at="325,19,326,102" concept="5" />
+      <node id="8052641366132534507" at="326,102,327,34" concept="5" />
+      <node id="8052641366132534507" at="327,34,328,24" concept="2" />
+      <node id="8052641366130347880" at="330,125,331,36" concept="5" />
+      <node id="8052641366130347880" at="331,36,332,26" concept="2" />
+      <node id="8052641366130347880" at="333,19,334,34" concept="5" />
+      <node id="8052641366130347880" at="334,34,335,24" concept="2" />
+      <node id="8052641366132241820" at="336,23,337,34" concept="5" />
+      <node id="8052641366132241820" at="337,34,338,61" concept="5" />
+      <node id="8052641366132241820" at="338,61,339,30" concept="12" />
+      <node id="8052641366132241821" at="340,23,341,34" concept="5" />
+      <node id="8052641366132241821" at="341,34,342,24" concept="2" />
+      <node id="8052641366130347882" at="343,23,344,34" concept="5" />
+      <node id="8052641366130347882" at="344,34,345,24" concept="2" />
+      <node id="8052641366132241820" at="346,23,347,34" concept="5" />
+      <node id="8052641366132241820" at="347,34,348,24" concept="2" />
+      <node id="8052641366132241820" at="349,24,350,33" concept="2" />
+      <node id="8052641366132241820" at="352,27,353,25" concept="12" />
+      <node id="8052641366132241820" at="355,0,356,0" concept="6" trace="_4__yield_bzqhpc_a0a0a0a0a3a77" />
+      <node id="8052641366132241820" at="356,0,357,0" concept="6" trace="_4__yield_bzqhpc_a0a0a0a0a3a77_it" />
+      <node id="8052641366132519053" at="359,8,360,0" concept="14" />
+      <node id="8052641366132521392" at="360,0,361,18" concept="12" />
+      <node id="8052641366135413033" at="363,121,364,88" concept="11" />
+      <node id="8052641366135187386" at="365,25,366,118" concept="12" />
+      <node id="8052641366135225525" at="367,12,368,183" concept="12" />
+      <node id="8877288515758190411" at="373,50,374,45" concept="12" />
+      <node id="8877288515758214526" at="376,37,377,46" concept="11" />
+      <node id="8877288515758229121" at="378,70,379,65" concept="12" />
+      <node id="8877288515758352401" at="383,59,384,54" concept="12" />
+      <node id="8877288515758199050" at="386,5,387,0" concept="14" />
+      <node id="8877288515758207490" at="387,0,388,20" concept="13" />
+      <node id="8877288515758205337" at="388,20,389,43" concept="12" />
+      <node id="134774857085059267" at="393,26,394,117" concept="12" />
+      <node id="134774857085058933" at="395,12,396,117" concept="12" />
+      <node id="2807401889299954572" at="400,47,401,30" concept="5" />
+      <node id="134774857085074208" at="402,26,403,99" concept="12" />
+      <node id="134774857085069305" at="404,12,405,98" concept="12" />
+      <node id="8310145593776562335" at="409,52,410,48" concept="5" />
+      <node id="8310145593776562342" at="411,36,412,47" concept="5" />
+      <node id="8310145593776576190" at="413,5,414,17" concept="12" />
+      <node id="2807401889299861880" at="417,70,418,42" concept="11" />
+      <node id="2807401889299886840" at="418,42,419,48" concept="12" />
+      <node id="134774857085100660" at="422,34,423,41" concept="12" />
+      <node id="8433232831283119826" at="426,36,427,27" concept="12" />
+      <node id="8433232831283119832" at="430,54,431,36" concept="5" />
+      <node id="8433232831283119842" at="434,36,435,27" concept="12" />
+      <node id="8433232831283119848" at="438,54,439,36" concept="5" />
+      <node id="857420770335949775" at="442,62,443,74" concept="12" />
+      <node id="2807401889297844710" at="447,35,448,31" concept="12" />
+      <node id="2807401889297878918" at="451,121,452,40" concept="11" />
+      <node id="2807401889297891297" at="453,24,454,19" concept="12" />
+      <node id="2807401889297869048" at="457,5,458,16" concept="12" />
+      <node id="1156663591500408961" at="461,35,462,48" concept="11" />
+      <node id="1156663591500524704" at="463,33,464,61" concept="5" />
+      <node id="1156663591500776809" at="464,61,465,58" concept="5" />
+      <node id="1156663591501078826" at="467,37,468,65" concept="5" />
+      <node id="1156663591501257668" at="469,5,470,19" concept="12" />
+      <node id="3649115372188392747" at="473,36,474,34" concept="12" />
+      <node id="3649115372188392747" at="475,5,476,16" concept="12" />
+      <node id="8796347991408135363" at="478,67,479,47" concept="12" />
+      <node id="8877288515758974972" at="213,10,215,5" concept="1" />
+      <node id="8052641366130869146" at="223,12,225,7" concept="1" />
+      <node id="8052641366135213418" at="367,10,369,5" concept="1" />
+      <node id="134774857085057840" at="395,10,397,5" concept="1" />
+      <node id="134774857085068568" at="404,10,406,5" concept="1" />
+      <node id="2807401889302240355" at="57,0,60,0" concept="10" trace="getTreeLayouter#()Lcom/mbeddr/mpsutil/treenotation/runtime/ITreeLayouter;" />
+      <node id="2807401889305821903" at="61,0,64,0" concept="10" trace="setTreeLayoutType#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeLayoutType;)V" />
+      <node id="8877288515759668697" at="84,0,87,0" concept="10" trace="setDeleteHandler#(Lcom/mbeddr/mpsutil/treenotation/runtime/IDeleteHandler;)V" />
+      <node id="857420770336188982" at="88,0,91,0" concept="10" trace="getDeleteHandler#()Lcom/mbeddr/mpsutil/treenotation/runtime/IDeleteHandler;" />
+      <node id="857420770335710147" at="108,36,111,5" concept="9" />
+      <node id="8433232831283459734" at="119,82,122,5" concept="9" />
+      <node id="8433232831283469632" at="122,5,125,5" concept="9" />
+      <node id="8433232831283597998" at="136,21,139,5" concept="9" />
+      <node id="857420770334741099" at="145,18,148,7" concept="9" />
+      <node id="857420770335821339" at="155,35,158,5" concept="9" />
+      <node id="857420770336652037" at="171,0,174,0" concept="10" trace="getFoldButton#()Lcom/mbeddr/mpsutil/treenotation/runtime/Button;" />
+      <node id="8877288515760842774" at="207,21,210,5" concept="9" />
+      <node id="7779720926560739416" at="233,0,236,5" concept="9" />
+      <node id="2807401889297507014" at="279,48,282,5" concept="8" />
+      <node id="3649115372188457180" at="292,0,295,0" concept="10" trace="isTreeCollapsed#()Z" />
+      <node id="8877288515758184336" at="372,83,375,5" concept="9" />
+      <node id="8877288515758228471" at="377,46,380,7" concept="9" />
+      <node id="8877288515758352399" at="382,142,385,7" concept="9" />
+      <node id="8310145593776562340" at="410,48,413,5" concept="9" />
+      <node id="134774857084856671" at="422,0,425,0" concept="10" trace="isLeftToRight#()Z" />
+      <node id="8433232831283119822" at="426,0,429,0" concept="10" trace="getIncomingShape#()Lcom/mbeddr/mpsutil/treenotation/runtime/IShape;" />
+      <node id="8433232831283119828" at="430,0,433,0" concept="10" trace="setIncomingShape#(Lcom/mbeddr/mpsutil/treenotation/runtime/IShape;)V" />
+      <node id="8433232831283119838" at="434,0,437,0" concept="10" trace="getOutgoingShape#()Lcom/mbeddr/mpsutil/treenotation/runtime/IShape;" />
+      <node id="8433232831283119844" at="438,0,441,0" concept="10" trace="setOutgoingShape#(Lcom/mbeddr/mpsutil/treenotation/runtime/IShape;)V" />
+      <node id="857420770335942531" at="442,0,445,0" concept="16" trace="isNonFoldedTreeCell#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Z" />
+      <node id="2807401889297836257" at="446,48,449,5" concept="9" />
+      <node id="2807401889297882861" at="452,40,455,9" concept="9" />
+      <node id="1156663591505056610" at="466,5,469,5" concept="9" />
+      <node id="3649115372188392747" at="472,125,475,5" concept="9" />
+      <node id="8796347991408135363" at="478,0,481,0" concept="16" trace="as_bzqhpc_a0a2a73#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="134774857084563757" at="52,0,56,0" concept="3" trace="TreeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3649115372189032250" at="79,0,83,0" concept="10" trace="saveFoldingState#()V" />
+      <node id="857420770334723279" at="141,9,145,18" concept="5" />
+      <node id="8877288515759214867" at="161,0,165,0" concept="10" trace="getDeleteButtons#()Ljava/util/List;" />
+      <node id="8877288515760164648" at="166,0,170,0" concept="10" trace="getInsertButtons#()Ljava/util/List;" />
+      <node id="8877288515758912269" at="193,0,197,0" concept="10" trace="getTreeRoot#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="1227384462788018792" at="244,12,248,7" concept="1" />
+      <node id="3649115372189425503" at="264,0,268,0" concept="10" trace="toggleCollapsed#(Z)V" />
+      <node id="8052641366132534507" at="321,23,325,19" concept="9" />
+      <node id="8052641366130347880" at="329,23,333,19" concept="9" />
+      <node id="2807401889299838012" at="417,0,421,0" concept="10" trace="ignoreTransparentCollections#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="1156663591504822922" at="462,48,466,5" concept="9" />
+      <node id="2807401889305907471" at="65,0,70,0" concept="10" trace="getTreeLayoutType#()Lcom/mbeddr/mpsutil/treenotation/runtime/TreeLayoutType;" />
+      <node id="8877288515760123821" at="97,88,102,7" concept="7" />
+      <node id="8433232831283476385" at="127,47,132,5" concept="20" />
+      <node id="857420770335798637" at="155,0,160,0" concept="10" trace="checkNotFolded#()V" />
+      <node id="8877288515759157547" at="175,0,180,0" concept="10" trace="getNonButtonCells#()Ljava/lang/Iterable;" />
+      <node id="8877288515759249175" at="181,0,186,0" concept="10" trace="getButtonCells#()Ljava/lang/Iterable;" />
+      <node id="8877288515760770742" at="187,0,192,0" concept="10" trace="setTreeRoot#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="8877288515758974954" at="210,5,215,5" concept="9" />
+      <node id="8052641366130841577" at="220,62,225,7" concept="9" />
+      <node id="3649115372189220219" at="284,32,289,5" concept="9" />
+      <node id="8052641366135173860" at="364,88,369,5" concept="9" />
+      <node id="8877288515758339632" at="381,5,386,5" concept="7" />
+      <node id="134774857085056648" at="392,49,397,5" concept="9" />
+      <node id="134774857085067422" at="401,30,406,5" concept="9" />
+      <node id="8877288515759002902" at="296,0,302,0" concept="10" trace="getIntermediateCells#()Ljava/lang/Iterable;" />
+      <node id="8877288515758209630" at="375,5,381,5" concept="9" />
+      <node id="2807401889297852411" at="450,130,456,7" concept="8" />
+      <node id="3649115372188392747" at="472,0,478,0" concept="16" trace="check_bzqhpc_a0c0z#(Ljetbrains/mps/util/Pair;Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)Ljava/lang/Boolean;" />
+      <node id="3649115372188783159" at="71,0,78,0" concept="10" trace="loadFoldingState#()V" />
+      <node id="8877288515760792996" at="198,0,205,0" concept="10" trace="setTreeChildren#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="8052641366130824225" at="219,59,226,7" concept="12" />
+      <node id="3649115372188604300" at="269,51,276,5" concept="9" />
+      <node id="134774857084793054" at="392,0,399,0" concept="10" trace="getStartPoint#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/awt/geom/Point2D;" />
+      <node id="8310145593776518547" at="409,0,416,0" concept="10" trace="getChildRoot#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="2807401889300126844" at="95,0,103,5" concept="9" />
+      <node id="857420770336982845" at="253,80,261,5" concept="9" />
+      <node id="8052641366135140733" at="363,0,371,0" concept="10" trace="getIntermediateCells__#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/lang/Iterable;" />
+      <node id="134774857084806583" at="400,0,408,0" concept="10" trace="getEndPoint#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/awt/geom/Point2D;" />
+      <node id="2807401889297857555" at="449,5,457,5" concept="9" />
+      <node id="134774857084783192" at="106,0,115,0" concept="10" trace="paintContent#(Ljava/awt/Graphics;Ljetbrains/mps/nodeEditor/cells/ParentSettings;)V" />
+      <node id="1227384462787132545" at="239,70,248,7" concept="9" />
+      <node id="3649115372188266567" at="269,0,278,0" concept="10" trace="setTreeCollapsed#(Z)V" />
+      <node id="8052641366130643400" at="218,0,228,0" concept="10" trace="getTreeChildren_#(Ljetbrains/mps/openapi/editor/cells/EditorCell_Collection;)Ljava/lang/Iterable;" />
+      <node id="8877288515758947831" at="206,0,217,0" concept="10" trace="getTreeChildren#()Ljava/lang/Iterable;" />
+      <node id="857420770336106158" at="238,58,249,5" concept="8" />
+      <node id="857420770336934973" at="252,0,263,0" concept="10" trace="initFoldButton#()V" />
+      <node id="8433232831283557531" at="140,46,152,5" concept="20" />
+      <node id="3649115372189092751" at="279,0,291,0" concept="10" trace="updateChildrenAfterCollapse#()V" />
+      <node id="1156663591500269022" at="460,0,472,0" concept="10" trace="renderText#()Ljetbrains/mps/openapi/editor/TextBuilder;" />
+      <node id="8877288515760025725" at="92,0,105,0" concept="10" trace="setInsertHandlers#(Ljava/util/List;)V" />
+      <node id="2807401889300226998" at="446,0,460,0" concept="10" trace="getTreeCell#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;" />
+      <node id="8433232831283386495" at="116,0,134,0" concept="10" trace="drawChildIncomingShape#(Ljava/awt/Graphics2D;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljava/awt/geom/Line2D;)V" />
+      <node id="8433232831283557493" at="135,0,154,0" concept="10" trace="drawOutgoingShape#(Ljava/awt/Graphics2D;Ljava/util/List;)V" />
+      <node id="8877288515758167742" at="372,0,391,0" concept="10" trace="getStyleForChild#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/style/StyleAttribute;)null" />
+      <node id="857420770336060702" at="229,0,251,0" concept="10" trace="initDeleteButtons#()V" />
+      <node id="8052641366132241820" at="313,16,351,15" concept="18" />
+      <node id="8052641366132241820" at="311,42,352,27" concept="4" />
+      <node id="8052641366132241820" at="311,0,355,0" concept="10" trace="moveToNext#()Z" />
+      <node id="8052641366132241820" at="308,89,357,10" concept="12" />
+      <node id="8052641366132241820" at="307,92,358,8" concept="12" />
+      <node id="8052641366132169752" at="306,43,359,8" concept="5" />
+      <node id="8052641366130278480" at="303,0,363,0" concept="10" trace="getIntermediateCells_#(Ljetbrains/mps/openapi/editor/cells/EditorCell_Collection;)Ljava/lang/Iterable;" />
+      <scope id="2807401889302240359" at="57,42,58,52" />
+      <scope id="2807401889305821907" at="61,54,62,38" />
+      <scope id="8877288515759668701" at="84,62,85,36" />
+      <scope id="857420770336188986" at="88,44,89,27" />
+      <scope id="857420770335710149" at="109,28,110,13" />
+      <scope id="8433232831283459736" at="120,53,121,52" />
+      <scope id="8433232831283469634" at="123,24,124,13" />
+      <scope id="8433232831283476386" at="128,9,129,84" />
+      <scope id="8433232831283476417" at="130,15,131,19" />
+      <scope id="8433232831283598000" at="137,34,138,13" />
+      <scope id="857420770334741101" at="146,28,147,60" />
+      <scope id="8433232831283557542" at="150,15,151,18" />
+      <scope id="857420770335821340" at="156,24,157,60" />
+      <scope id="857420770336652041" at="171,33,172,24" />
+      <scope id="8877288515760842776" at="208,37,209,72" />
+      <scope id="8877288515758974955" at="211,97,212,111" />
+      <scope id="8877288515758974973" at="213,12,214,64" />
+      <scope id="8052641366130841579" at="221,113,222,97" />
+      <scope id="8052641366130869147" at="223,14,224,50" />
+      <scope id="7779720926560739418" at="234,52,235,13" />
+      <scope id="3649115372189425509" at="265,50,266,32" />
+      <scope id="2807401889297507020" at="280,79,281,24" />
+      <scope id="3649115372188457185" at="292,36,293,27" />
+      <scope id="8052641366132534507" at="319,23,320,180" />
+      <scope id="8052641366132241820" at="349,24,350,33" />
+      <scope id="8052641366135173862" at="365,25,366,118" />
+      <scope id="8052641366135213419" at="367,12,368,183" />
+      <scope id="8877288515758184337" at="373,50,374,45" />
+      <scope id="8877288515758228473" at="378,70,379,65" />
+      <scope id="8877288515758352400" at="383,59,384,54" />
+      <scope id="134774857085056650" at="393,26,394,117" />
+      <scope id="134774857085057841" at="395,12,396,117" />
+      <scope id="134774857085067424" at="402,26,403,99" />
+      <scope id="134774857085068569" at="404,12,405,98" />
+      <scope id="8310145593776562341" at="411,36,412,47" />
+      <scope id="134774857084856674" at="422,34,423,41" />
+      <scope id="8433232831283119825" at="426,36,427,27" />
+      <scope id="8433232831283119831" at="430,54,431,36" />
+      <scope id="8433232831283119841" at="434,36,435,27" />
+      <scope id="8433232831283119847" at="438,54,439,36" />
+      <scope id="857420770335905373" at="442,62,443,74" />
+      <scope id="2807401889297836259" at="447,35,448,31" />
+      <scope id="2807401889297882863" at="453,24,454,19" />
+      <scope id="1156663591505056612" at="467,37,468,65" />
+      <scope id="3649115372188392747" at="473,36,474,34" />
+      <scope id="8796347991408135363" at="478,67,479,47" />
+      <scope id="134774857084563761" at="52,60,54,70" />
+      <scope id="2807401889305907475" at="66,45,68,59">
+        <var name="type" id="8310145593777659645" />
+      </scope>
+      <scope id="3649115372189032253" at="79,34,81,76">
+        <var name="editorComponent" id="3649115372189032255" />
+      </scope>
+      <scope id="857420770334716952" at="142,59,144,28">
+        <var name="reversedLine" id="857420770334716954" />
+      </scope>
+      <scope id="8877288515759214871" at="161,42,163,27" />
+      <scope id="8877288515760164651" at="166,42,168,27" />
+      <scope id="8877288515758912273" at="193,35,195,26" />
+      <scope id="857420770336994267" at="258,56,260,26" />
+      <scope id="8052641366132241820" at="316,24,318,31" />
+      <scope id="8052641366132534507" at="322,76,324,26" />
+      <scope id="8052641366130347880" at="330,125,332,26" />
+      <scope id="8052641366132241821" at="340,23,342,24" />
+      <scope id="8052641366130347882" at="343,23,345,24" />
+      <scope id="8052641366132241820" at="346,23,348,24" />
+      <scope id="2807401889299837064" at="417,70,419,48">
+        <var name="treeCell" id="2807401889299861881" />
+      </scope>
+      <scope id="1156663591504822924" at="463,33,465,58" />
+      <scope id="2807401889302240355" at="57,0,60,0" />
+      <scope id="2807401889305821903" at="61,0,64,0">
+        <var name="type" id="2807401889305876470" />
+      </scope>
+      <scope id="8877288515759668697" at="84,0,87,0">
+        <var name="deleteHandler" id="8877288515759671461" />
+      </scope>
+      <scope id="857420770336188982" at="88,0,91,0" />
+      <scope id="8877288515760123823" at="98,78,101,36">
+        <var name="insertButton" id="8877288515760143547" />
+      </scope>
+      <scope id="857420770335798641" at="155,35,158,5" />
+      <scope id="857420770336652037" at="171,0,174,0" />
+      <scope id="8877288515759157551" at="175,51,178,82">
+        <var name="allCells" id="8877288515759181783" />
+      </scope>
+      <scope id="8877288515759249179" at="181,44,184,64">
+        <var name="allCells" id="8877288515759249181" />
+      </scope>
+      <scope id="8877288515760770746" at="187,44,190,24" />
+      <scope id="1227384462787132547" at="240,157,243,66">
+        <var name="button" id="857420770336249854" />
+      </scope>
+      <scope id="1227384462788018793" at="244,14,247,66">
+        <var name="button" id="1227384462788141264" />
+      </scope>
+      <scope id="857420770336982847" at="254,46,257,34" />
+      <scope id="2807401889297507014" at="279,48,282,5">
+        <var name="child" id="2807401889297507016" />
+      </scope>
+      <scope id="3649115372189220220" at="285,29,288,40" />
+      <scope id="3649115372188457180" at="292,0,295,0" />
+      <scope id="8052641366132241820" at="336,23,339,30" />
+      <scope id="8877288515758339634" at="382,142,385,7" />
+      <scope id="134774857084856671" at="422,0,425,0" />
+      <scope id="8433232831283119822" at="426,0,429,0" />
+      <scope id="8433232831283119828" at="430,0,433,0">
+        <var name="incomingShape" id="8433232831283119835" />
+      </scope>
+      <scope id="8433232831283119838" at="434,0,437,0" />
+      <scope id="8433232831283119844" at="438,0,441,0">
+        <var name="outgoingShape" id="8433232831283119851" />
+      </scope>
+      <scope id="857420770335942531" at="442,0,445,0">
+        <var name="cell" id="857420770335934791" />
+      </scope>
+      <scope id="8796347991408135363" at="478,0,481,0">
+        <var name="o" id="8796347991408135363" />
+        <var name="type" id="8796347991408135363" />
+      </scope>
+      <scope id="134774857084563757" at="52,0,56,0">
+        <var name="editorContext" id="134774857084563764" />
+        <var name="node" id="134774857084563768" />
+      </scope>
+      <scope id="3649115372189032250" at="79,0,83,0" />
+      <scope id="8877288515759214867" at="161,0,165,0" />
+      <scope id="8877288515760164648" at="166,0,170,0" />
+      <scope id="8877288515758912269" at="193,0,197,0" />
+      <scope id="3649115372189425503" at="264,0,268,0">
+        <var name="collapsed" id="3649115372189425507" />
+      </scope>
+      <scope id="8877288515759002906" at="296,100,300,0" />
+      <scope id="8877288515758209632" at="376,37,380,7">
+        <var name="childTree" id="8877288515758214527" />
+      </scope>
+      <scope id="2807401889299838012" at="417,0,421,0">
+        <var name="cell" id="2807401889299837082" />
+      </scope>
+      <scope id="2807401889297852417" at="451,121,455,9">
+        <var name="t" id="2807401889297878919" />
+      </scope>
+      <scope id="3649115372188392747" at="472,125,476,16" />
+      <scope id="2807401889305907471" at="65,0,70,0" />
+      <scope id="3649115372188783163" at="71,34,76,34">
+        <var name="collapseStates" id="3649115372188364160" />
+        <var name="collapsed" id="3649115372188392746" />
+        <var name="editorComponent" id="3649115372188332215" />
+      </scope>
+      <scope id="8877288515760123821" at="97,88,102,7">
+        <var name="i" id="8877288515760123824" />
+      </scope>
+      <scope id="857420770335798637" at="155,0,160,0" />
+      <scope id="8877288515759157547" at="175,0,180,0" />
+      <scope id="8877288515759249175" at="181,0,186,0" />
+      <scope id="8877288515760770742" at="187,0,192,0">
+        <var name="cell" id="8877288515760775248" />
+      </scope>
+      <scope id="8877288515760793000" at="198,48,203,21" />
+      <scope id="8052641366130838235" at="220,62,225,7" />
+      <scope id="3649115372188604302" at="270,39,275,58" />
+      <scope id="8877288515758339632" at="381,5,386,5">
+        <var name="intermediate" id="8877288515758339635" />
+      </scope>
+      <scope id="134774857084793058" at="392,49,397,5" />
+      <scope id="8310145593776518551" at="409,52,414,17" />
+      <scope id="2807401889300126846" at="96,61,102,7">
+        <var name="treeChildren" id="8877288515760131318" />
+      </scope>
+      <scope id="134774857084783200" at="107,68,113,51" />
+      <scope id="8877288515759002902" at="296,0,302,0" />
+      <scope id="8052641366130347880" at="329,23,335,24" />
+      <scope id="8052641366135140739" at="363,121,369,5">
+        <var name="parent" id="8052641366135413034" />
+      </scope>
+      <scope id="134774857084806586" at="400,47,406,5" />
+      <scope id="2807401889297852411" at="450,130,456,7">
+        <var name="child" id="2807401889297852413" />
+      </scope>
+      <scope id="2807401889297857557" at="450,130,456,7" />
+      <scope id="3649115372188392747" at="472,0,478,0">
+        <var name="checkedDotOperand" id="3649115372188392747" />
+        <var name="checkedDotThisExpression" id="3649115372188392747" />
+      </scope>
+      <scope id="3649115372188783159" at="71,0,78,0" />
+      <scope id="8877288515760792996" at="198,0,205,0">
+        <var name="cell" id="8877288515760797575" />
+      </scope>
+      <scope id="3649115372188266571" at="269,51,276,5" />
+      <scope id="8052641366132534507" at="321,23,328,24" />
+      <scope id="134774857084793054" at="392,0,399,0">
+        <var name="cell" id="134774857084806070" />
+      </scope>
+      <scope id="8310145593776518547" at="409,0,416,0">
+        <var name="child" id="8310145593776550566" />
+      </scope>
+      <scope id="8433232831283557532" at="141,9,149,38" />
+      <scope id="8052641366130643404" at="218,132,226,7">
+        <var name="children" id="8052641366130710629" />
+      </scope>
+      <scope id="8052641366135140733" at="363,0,371,0">
+        <var name="child" id="8052641366135140734" />
+      </scope>
+      <scope id="134774857084806583" at="400,0,408,0">
+        <var name="cell" id="134774857084806587" />
+      </scope>
+      <scope id="134774857084783192" at="106,0,115,0">
+        <var name="g" id="134774857084783196" />
+        <var name="settings" id="134774857084783198" />
+      </scope>
+      <scope id="8877288515758947835" at="206,49,215,5" />
+      <scope id="857420770336106162" at="239,70,248,7" />
+      <scope id="857420770336934977" at="252,35,261,5">
+        <var name="needsButton" id="857420770336990145" />
+      </scope>
+      <scope id="3649115372188266567" at="269,0,278,0">
+        <var name="collapsed" id="3649115372188308501" />
+      </scope>
+      <scope id="1156663591500269026" at="461,35,470,19">
+        <var name="builder" id="1156663591500408962" />
+      </scope>
+      <scope id="8052641366130643400" at="218,0,228,0">
+        <var name="treeChildrenCollection" id="8052641366130682730" />
+      </scope>
+      <scope id="3649115372189092755" at="279,48,289,5" />
+      <scope id="8877288515760025729" at="92,70,103,5" />
+      <scope id="8877288515758947831" at="206,0,217,0" />
+      <scope id="857420770336106158" at="238,58,249,5">
+        <var name="treeChild" id="857420770336106160" />
+      </scope>
+      <scope id="857420770336934973" at="252,0,263,0" />
+      <scope id="3649115372189092751" at="279,0,291,0" />
+      <scope id="2807401889297690347" at="446,48,458,16" />
+      <scope id="1156663591500269022" at="460,0,472,0" />
+      <scope id="8877288515760025725" at="92,0,105,0">
+        <var name="insertHandlers" id="8877288515760029123" />
+      </scope>
+      <scope id="2807401889300226998" at="446,0,460,0">
+        <var name="cell" id="2807401889297791346" />
+      </scope>
+      <scope id="8433232831283386499" at="116,87,132,5">
+        <var name="g2" id="8433232831283476377" />
+        <var name="shape" id="8433232831283457513" />
+      </scope>
+      <scope id="8433232831283557496" at="135,71,152,5">
+        <var name="g" id="8433232831283557523" />
+      </scope>
+      <scope id="8877288515758167746" at="372,83,389,43" />
+      <scope id="8433232831283386495" at="116,0,134,0">
+        <var name="_g" id="8433232831283477165" />
+        <var name="child" id="8433232831283451261" />
+        <var name="line" id="8433232831283495582" />
+      </scope>
+      <scope id="8433232831283557493" at="135,0,154,0">
+        <var name="_g" id="8433232831283557547" />
+        <var name="lines" id="8433232831283557551" />
+      </scope>
+      <scope id="8877288515758167742" at="372,0,391,0">
+        <var name="attribute" id="8877288515758185525" />
+        <var name="child" id="8877288515758182759" />
+      </scope>
+      <scope id="857420770336060706" at="229,38,249,5">
+        <var name="treeChildren" id="857420770336103066" />
+      </scope>
+      <scope id="857420770336060702" at="229,0,251,0" />
+      <scope id="8052641366132241820" at="313,16,351,15" />
+      <scope id="8052641366132241820" at="311,42,353,25" />
+      <scope id="8052641366132241820" at="311,0,355,0" />
+      <scope id="8052641366132241820" at="308,89,357,10" />
+      <scope id="8052641366132241820" at="307,92,358,8" />
+      <scope id="8052641366130278484" at="303,167,361,18">
+        <var name="children" id="8052641366130456982" />
+        <var name="result" id="8052641366132140465" />
+      </scope>
+      <scope id="8052641366130278480" at="303,0,363,0">
+        <var name="parent" id="8052641366130325780" />
+      </scope>
+      <unit id="8052641366132241820" at="309,19,357,9" name="com.mbeddr.mpsutil.treenotation.runtime.TreeCell$1" />
+      <unit id="134774857084563017" at="34,0,482,0" name="com.mbeddr.mpsutil.treenotation.runtime.TreeCell" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/134774857084564354">
+    <file name="TreeCellLayout.java">
+      <node id="3649115372188869126" at="15,58,16,44" concept="11" />
+      <node id="8310145593775813377" at="17,33,18,47" concept="5" />
+      <node id="857420770335561536" at="18,47,19,13" concept="12" />
+      <node id="857420770335562134" at="20,5,21,0" concept="14" />
+      <node id="3649115372187215972" at="21,0,22,27" concept="5" />
+      <node id="3649115372187218549" at="22,27,23,28" concept="5" />
+      <node id="2807401889302304235" at="23,28,24,0" concept="14" />
+      <node id="2807401889302305123" at="24,0,25,36" concept="5" />
+      <node id="134774857084565745" at="29,69,30,47" concept="11" />
+      <node id="134774857084565751" at="31,47,32,104" concept="5" />
+      <node id="134774857084565762" at="33,5,34,18" concept="12" />
+      <node id="857420770335755773" at="38,32,39,16" concept="12" />
+      <node id="3649115372186109441" at="43,28,44,18" concept="12" />
+      <node id="134774857084565748" at="30,47,33,5" concept="8" />
+      <node id="857420770335548347" at="16,44,20,5" concept="9" />
+      <node id="857420770335743590" at="37,0,41,0" concept="10" trace="canBeFolded#()Z" />
+      <node id="3649115372186095749" at="42,0,46,0" concept="10" trace="toString#()Ljava/lang/String;" />
+      <node id="134774857084565535" at="28,0,36,0" concept="10" trace="doLayoutText#(Ljava/lang/Iterable;)Ljetbrains/mps/openapi/editor/TextBuilder;" />
+      <node id="134774857084565526" at="14,0,27,0" concept="10" trace="doLayout#(Ljetbrains/mps/openapi/editor/cells/EditorCell_Collection;)V" />
+      <scope id="134774857084565750" at="31,47,32,104" />
+      <scope id="857420770335743595" at="38,32,39,16" />
+      <scope id="3649115372186095753" at="43,28,44,18" />
+      <scope id="857420770335548349" at="17,33,19,13" />
+      <scope id="134774857084565748" at="30,47,33,5">
+        <var name="editorCell" id="134774857084565758" />
+      </scope>
+      <scope id="857420770335743590" at="37,0,41,0" />
+      <scope id="3649115372186095749" at="42,0,46,0" />
+      <scope id="134774857084565544" at="29,69,34,18">
+        <var name="result" id="134774857084565744" />
+      </scope>
+      <scope id="134774857084565535" at="28,0,36,0">
+        <var name="editorCells" id="134774857084565539" />
+      </scope>
+      <scope id="134774857084565534" at="15,58,25,36">
+        <var name="tree" id="3649115372188869127" />
+      </scope>
+      <scope id="134774857084565526" at="14,0,27,0">
+        <var name="collection" id="134774857084565530" />
+      </scope>
+      <unit id="134774857084564354" at="12,0,47,0" name="com.mbeddr.mpsutil.treenotation.runtime.TreeCellLayout" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/134774857084876720">
+    <file name="IBounds.java">
+      <node id="134774857084876773" at="7,0,8,0" concept="10" trace="getX#()I" />
+      <node id="134774857084876837" at="8,0,9,0" concept="10" trace="getY#()I" />
+      <node id="134774857084876850" at="9,0,10,0" concept="10" trace="getWidth#()I" />
+      <node id="134774857084876867" at="10,0,11,0" concept="10" trace="getHeight#()I" />
+      <node id="134774857084877043" at="12,0,13,0" concept="10" trace="setX#(I)V" />
+      <node id="134774857084877173" at="13,0,14,0" concept="10" trace="setY#(I)V" />
+      <node id="134774857084877210" at="14,0,15,0" concept="10" trace="setWidth#(I)V" />
+      <node id="134774857084877253" at="15,0,16,0" concept="10" trace="setHeight#(I)V" />
+      <node id="134774857084990713" at="17,0,18,0" concept="10" trace="moveTo#(II)V" />
+      <node id="817315285559863492" at="19,0,20,0" concept="10" trace="withoutMargin#()Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;" />
+      <scope id="134774857084876773" at="7,0,8,0" />
+      <scope id="134774857084876837" at="8,0,9,0" />
+      <scope id="134774857084876850" at="9,0,10,0" />
+      <scope id="134774857084876867" at="10,0,11,0" />
+      <scope id="134774857084877043" at="12,0,13,0">
+        <var name="value" id="134774857084877094" />
+      </scope>
+      <scope id="134774857084877173" at="13,0,14,0">
+        <var name="value" id="134774857084877174" />
+      </scope>
+      <scope id="134774857084877210" at="14,0,15,0">
+        <var name="value" id="134774857084877211" />
+      </scope>
+      <scope id="134774857084877253" at="15,0,16,0">
+        <var name="value" id="134774857084877254" />
+      </scope>
+      <scope id="134774857084990713" at="17,0,18,0">
+        <var name="x" id="134774857084991179" />
+        <var name="y" id="134774857084991436" />
+      </scope>
+      <scope id="817315285559863492" at="19,0,20,0" />
+      <unit id="134774857084876720" at="6,0,21,0" name="com.mbeddr.mpsutil.treenotation.runtime.IBounds" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/134774857084877490">
+    <file name="EditorCellBounds.java">
+      <node id="134774857084877557" at="8,0,9,0" concept="6" trace="myCell" />
+      <node id="134774857084885160" at="10,44,11,18" concept="5" />
+      <node id="134774857084878303" at="13,21,14,25" concept="12" />
+      <node id="134774857084878924" at="16,21,17,25" concept="12" />
+      <node id="134774857084879700" at="19,25,20,29" concept="12" />
+      <node id="134774857084880391" at="22,26,23,30" concept="12" />
+      <node id="134774857084881239" at="25,31,26,23" concept="5" />
+      <node id="134774857084882213" at="28,31,29,23" concept="5" />
+      <node id="134774857084883335" at="31,35,32,27" concept="5" />
+      <node id="134774857084884379" at="34,36,35,28" concept="5" />
+      <node id="134774857084994550" at="37,36,38,24" concept="5" />
+      <node id="817315285560088446" at="41,34,42,16" concept="12" />
+      <node id="134774857084885152" at="10,0,13,0" concept="3" trace="EditorCellBounds#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="134774857084877676" at="13,0,16,0" concept="10" trace="getX#()I" />
+      <node id="134774857084877681" at="16,0,19,0" concept="10" trace="getY#()I" />
+      <node id="134774857084877686" at="19,0,22,0" concept="10" trace="getWidth#()I" />
+      <node id="134774857084877691" at="22,0,25,0" concept="10" trace="getHeight#()I" />
+      <node id="134774857084877696" at="25,0,28,0" concept="10" trace="setX#(I)V" />
+      <node id="134774857084877703" at="28,0,31,0" concept="10" trace="setY#(I)V" />
+      <node id="134774857084877710" at="31,0,34,0" concept="10" trace="setWidth#(I)V" />
+      <node id="134774857084877717" at="34,0,37,0" concept="10" trace="setHeight#(I)V" />
+      <node id="134774857084992146" at="37,0,40,0" concept="10" trace="moveTo#(II)V" />
+      <node id="817315285560082184" at="40,0,44,0" concept="10" trace="withoutMargin#()Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;" />
+      <scope id="134774857084885156" at="10,44,11,18" />
+      <scope id="134774857084877680" at="13,21,14,25" />
+      <scope id="134774857084877685" at="16,21,17,25" />
+      <scope id="134774857084877690" at="19,25,20,29" />
+      <scope id="134774857084877695" at="22,26,23,30" />
+      <scope id="134774857084877702" at="25,31,26,23" />
+      <scope id="134774857084877709" at="28,31,29,23" />
+      <scope id="134774857084877716" at="31,35,32,27" />
+      <scope id="134774857084877723" at="34,36,35,28" />
+      <scope id="134774857084992154" at="37,36,38,24" />
+      <scope id="817315285560082188" at="41,34,42,16" />
+      <scope id="134774857084885152" at="10,0,13,0">
+        <var name="cell" id="134774857084885159" />
+      </scope>
+      <scope id="134774857084877676" at="13,0,16,0" />
+      <scope id="134774857084877681" at="16,0,19,0" />
+      <scope id="134774857084877686" at="19,0,22,0" />
+      <scope id="134774857084877691" at="22,0,25,0" />
+      <scope id="134774857084877696" at="25,0,28,0">
+        <var name="value" id="134774857084877697" />
+      </scope>
+      <scope id="134774857084877703" at="28,0,31,0">
+        <var name="value" id="134774857084877704" />
+      </scope>
+      <scope id="134774857084877710" at="31,0,34,0">
+        <var name="value" id="134774857084877711" />
+      </scope>
+      <scope id="134774857084877717" at="34,0,37,0">
+        <var name="value" id="134774857084877718" />
+      </scope>
+      <scope id="134774857084992146" at="37,0,40,0">
+        <var name="x" id="134774857084992147" />
+        <var name="y" id="134774857084992149" />
+      </scope>
+      <scope id="817315285560082184" at="40,0,44,0" />
+      <unit id="134774857084877490" at="7,0,45,0" name="com.mbeddr.mpsutil.treenotation.runtime.EditorCellBounds" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/134774857084886846">
+    <file name="TransposedBounds.java">
+      <node id="134774857084886970" at="8,0,9,0" concept="6" trace="myBounds" />
+      <node id="134774857084887281" at="10,43,11,22" concept="5" />
+      <node id="134774857084888720" at="14,21,15,27" concept="12" />
+      <node id="134774857084889970" at="17,21,18,27" concept="12" />
+      <node id="134774857084891377" at="20,25,21,32" concept="12" />
+      <node id="134774857084892544" at="23,26,24,31" concept="12" />
+      <node id="134774857084893865" at="26,31,27,25" concept="5" />
+      <node id="134774857084895459" at="29,31,30,25" concept="5" />
+      <node id="134774857084897210" at="32,35,33,30" concept="5" />
+      <node id="134774857084899032" at="35,36,36,29" concept="5" />
+      <node id="134774857084997528" at="38,36,39,26" concept="5" />
+      <node id="2876310430322545866" at="42,28,43,95" concept="12" />
+      <node id="817315285559924270" at="47,34,48,58" concept="12" />
+      <node id="134774857084887273" at="10,0,13,0" concept="3" trace="TransposedBounds#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;)V" />
+      <node id="134774857084887514" at="14,0,17,0" concept="10" trace="getX#()I" />
+      <node id="134774857084887519" at="17,0,20,0" concept="10" trace="getY#()I" />
+      <node id="134774857084887524" at="20,0,23,0" concept="10" trace="getWidth#()I" />
+      <node id="134774857084887529" at="23,0,26,0" concept="10" trace="getHeight#()I" />
+      <node id="134774857084887534" at="26,0,29,0" concept="10" trace="setX#(I)V" />
+      <node id="134774857084887541" at="29,0,32,0" concept="10" trace="setY#(I)V" />
+      <node id="134774857084887548" at="32,0,35,0" concept="10" trace="setWidth#(I)V" />
+      <node id="134774857084887555" at="35,0,38,0" concept="10" trace="setHeight#(I)V" />
+      <node id="134774857084996375" at="38,0,41,0" concept="10" trace="moveTo#(II)V" />
+      <node id="2876310430322543528" at="41,0,45,0" concept="10" trace="toString#()Ljava/lang/String;" />
+      <node id="817315285559895200" at="46,0,50,0" concept="10" trace="withoutMargin#()Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;" />
+      <scope id="134774857084887277" at="10,43,11,22" />
+      <scope id="134774857084887518" at="14,21,15,27" />
+      <scope id="134774857084887523" at="17,21,18,27" />
+      <scope id="134774857084887528" at="20,25,21,32" />
+      <scope id="134774857084887533" at="23,26,24,31" />
+      <scope id="134774857084887540" at="26,31,27,25" />
+      <scope id="134774857084887547" at="29,31,30,25" />
+      <scope id="134774857084887554" at="32,35,33,30" />
+      <scope id="134774857084887561" at="35,36,36,29" />
+      <scope id="134774857084996383" at="38,36,39,26" />
+      <scope id="2876310430322543532" at="42,28,43,95" />
+      <scope id="817315285559895204" at="47,34,48,58" />
+      <scope id="134774857084887273" at="10,0,13,0">
+        <var name="bounds" id="134774857084887280" />
+      </scope>
+      <scope id="134774857084887514" at="14,0,17,0" />
+      <scope id="134774857084887519" at="17,0,20,0" />
+      <scope id="134774857084887524" at="20,0,23,0" />
+      <scope id="134774857084887529" at="23,0,26,0" />
+      <scope id="134774857084887534" at="26,0,29,0">
+        <var name="value" id="134774857084887535" />
+      </scope>
+      <scope id="134774857084887541" at="29,0,32,0">
+        <var name="value" id="134774857084887542" />
+      </scope>
+      <scope id="134774857084887548" at="32,0,35,0">
+        <var name="value" id="134774857084887549" />
+      </scope>
+      <scope id="134774857084887555" at="35,0,38,0">
+        <var name="value" id="134774857084887556" />
+      </scope>
+      <scope id="134774857084996375" at="38,0,41,0">
+        <var name="x" id="134774857084996376" />
+        <var name="y" id="134774857084996378" />
+      </scope>
+      <scope id="2876310430322543528" at="41,0,45,0" />
+      <scope id="817315285559895200" at="46,0,50,0" />
+      <unit id="134774857084886846" at="6,0,51,0" name="com.mbeddr.mpsutil.treenotation.runtime.TransposedBounds" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/2133971169491697881">
+    <file name="BoundsWithMargin.java">
+      <node id="2133971169491699155" at="7,0,8,0" concept="6" trace="bounds" />
+      <node id="2133971169491701145" at="8,0,9,0" concept="6" trace="marginLeft" />
+      <node id="2133971169491701936" at="9,0,10,0" concept="6" trace="marginRight" />
+      <node id="2133971169491701971" at="10,0,11,0" concept="6" trace="marginTop" />
+      <node id="2133971169491702006" at="11,0,12,0" concept="6" trace="marginBottom" />
+      <node id="2133971169492034360" at="13,109,14,25" concept="5" />
+      <node id="2133971169492034372" at="14,25,15,33" concept="5" />
+      <node id="2133971169492034384" at="15,33,16,35" concept="5" />
+      <node id="2133971169492034396" at="16,35,17,31" concept="5" />
+      <node id="2133971169492034408" at="17,31,18,37" concept="5" />
+      <node id="2133971169491712511" at="22,21,23,38" concept="12" />
+      <node id="2133971169491741025" at="27,21,28,37" concept="12" />
+      <node id="2133971169491767635" at="32,25,33,56" concept="12" />
+      <node id="2133971169491804872" at="37,26,38,57" concept="12" />
+      <node id="2133971169491844973" at="42,31,43,36" concept="5" />
+      <node id="2133971169491876690" at="47,31,48,35" concept="5" />
+      <node id="2133971169491908897" at="52,35,53,54" concept="5" />
+      <node id="2133971169491959601" at="57,36,58,55" concept="5" />
+      <node id="2133971169491996919" at="62,36,63,49" concept="5" />
+      <node id="817315285559890468" at="67,34,68,18" concept="12" />
+      <node id="2133971169491702080" at="21,0,25,0" concept="10" trace="getX#()I" />
+      <node id="2133971169491702088" at="26,0,30,0" concept="10" trace="getY#()I" />
+      <node id="2133971169491702096" at="31,0,35,0" concept="10" trace="getWidth#()I" />
+      <node id="2133971169491702104" at="36,0,40,0" concept="10" trace="getHeight#()I" />
+      <node id="2133971169491702112" at="41,0,45,0" concept="10" trace="setX#(I)V" />
+      <node id="2133971169491702120" at="46,0,50,0" concept="10" trace="setY#(I)V" />
+      <node id="2133971169491702128" at="51,0,55,0" concept="10" trace="setWidth#(I)V" />
+      <node id="2133971169491702136" at="56,0,60,0" concept="10" trace="setHeight#(I)V" />
+      <node id="2133971169491702144" at="61,0,65,0" concept="10" trace="moveTo#(II)V" />
+      <node id="817315285559880228" at="66,0,70,0" concept="10" trace="withoutMargin#()Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;" />
+      <node id="2133971169492034352" at="13,0,20,0" concept="3" trace="BoundsWithMargin#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;IIII)V" />
+      <scope id="2133971169491702084" at="22,21,23,38" />
+      <scope id="2133971169491702092" at="27,21,28,37" />
+      <scope id="2133971169491702100" at="32,25,33,56" />
+      <scope id="2133971169491702108" at="37,26,38,57" />
+      <scope id="2133971169491702118" at="42,31,43,36" />
+      <scope id="2133971169491702126" at="47,31,48,35" />
+      <scope id="2133971169491702134" at="52,35,53,54" />
+      <scope id="2133971169491702142" at="57,36,58,55" />
+      <scope id="2133971169491702152" at="62,36,63,49" />
+      <scope id="817315285559880232" at="67,34,68,18" />
+      <scope id="2133971169491702080" at="21,0,25,0" />
+      <scope id="2133971169491702088" at="26,0,30,0" />
+      <scope id="2133971169491702096" at="31,0,35,0" />
+      <scope id="2133971169491702104" at="36,0,40,0" />
+      <scope id="2133971169491702112" at="41,0,45,0">
+        <var name="value" id="2133971169491702113" />
+      </scope>
+      <scope id="2133971169491702120" at="46,0,50,0">
+        <var name="value" id="2133971169491702121" />
+      </scope>
+      <scope id="2133971169491702128" at="51,0,55,0">
+        <var name="value" id="2133971169491702129" />
+      </scope>
+      <scope id="2133971169491702136" at="56,0,60,0">
+        <var name="value" id="2133971169491702137" />
+      </scope>
+      <scope id="2133971169491702144" at="61,0,65,0">
+        <var name="x" id="2133971169491702145" />
+        <var name="y" id="2133971169491702147" />
+      </scope>
+      <scope id="817315285559880228" at="66,0,70,0" />
+      <scope id="2133971169492034356" at="13,109,18,37" />
+      <scope id="2133971169492034352" at="13,0,20,0">
+        <var name="bounds" id="2133971169492034359" />
+        <var name="marginBottom" id="2133971169492034407" />
+        <var name="marginLeft" id="2133971169492034371" />
+        <var name="marginRight" id="2133971169492034383" />
+        <var name="marginTop" id="2133971169492034395" />
+      </scope>
+      <unit id="2133971169491697881" at="6,0,71,0" name="com.mbeddr.mpsutil.treenotation.runtime.BoundsWithMargin" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/2807401889300587522">
+    <file name="DefaultTreeLayouter.java">
+      <node id="2807401889305732741" at="25,56,26,43" concept="12" />
+      <node id="2807401889300966960" at="30,49,31,20" concept="17" />
+      <node id="2807401889302760320" at="35,24,36,20" concept="5" />
+      <node id="2807401889302471637" at="39,31,40,31" concept="11" />
+      <node id="2807401889302549033" at="40,31,41,0" concept="14" />
+      <node id="2807401889302549295" at="41,0,42,32" concept="11" />
+      <node id="2807401889302549301" at="42,32,43,32" concept="11" />
+      <node id="2807401889302549307" at="43,32,44,0" concept="14" />
+      <node id="2807401889302549308" at="44,0,45,52" concept="11" />
+      <node id="2807401889302549314" at="45,52,46,41" concept="11" />
+      <node id="2807401889302549323" at="46,41,47,56" concept="11" />
+      <node id="2807401889302549332" at="47,56,48,53" concept="11" />
+      <node id="2807401889302549338" at="48,53,49,0" concept="14" />
+      <node id="2807401889302549339" at="49,0,50,45" concept="11" />
+      <node id="2807401889302549345" at="50,45,51,57" concept="11" />
+      <node id="2807401889302549351" at="51,57,52,0" concept="14" />
+      <node id="2807401889302549352" at="52,0,53,89" concept="11" />
+      <node id="2807401889302549359" at="53,89,54,120" concept="11" />
+      <node id="2807401889302549374" at="54,120,55,57" concept="11" />
+      <node id="2807401889302549381" at="55,57,56,128" concept="11" />
+      <node id="2807401889302549398" at="56,128,57,0" concept="14" />
+      <node id="2807401889302549399" at="57,0,58,24" concept="5" />
+      <node id="2807401889302549403" at="58,24,59,70" concept="5" />
+      <node id="2807401889302549415" at="59,70,60,73" concept="5" />
+      <node id="2133971169496487013" at="60,73,61,55" concept="5" />
+      <node id="2807401889302549427" at="61,55,62,0" concept="14" />
+      <node id="2807401889302549434" at="62,0,63,78" concept="11" />
+      <node id="2133971169482896863" at="63,78,64,103" concept="11" />
+      <node id="2133971169483369360" at="64,103,65,67" concept="11" />
+      <node id="2133971169503137159" at="65,67,66,0" concept="14" />
+      <node id="2876310430321131267" at="66,0,67,118" concept="5" />
+      <node id="2807401889302549532" at="67,118,68,70" concept="5" />
+      <node id="2133971169503094006" at="68,70,69,0" concept="14" />
+      <node id="2807401889302549465" at="69,0,70,102" concept="5" />
+      <node id="2807401889302549595" at="70,102,71,24" concept="5" />
+      <node id="2133971169503039867" at="71,24,72,0" concept="14" />
+      <node id="1451514116764256155" at="72,0,73,58" concept="5" />
+      <node id="6231168443375514923" at="73,58,74,124" concept="5" />
+      <node id="6231168443376580924" at="74,124,75,67" concept="5" />
+      <node id="2133971169506661630" at="75,67,76,0" concept="14" />
+      <node id="2876310430321226347" at="76,0,77,74" concept="5" />
+      <node id="2807401889303216317" at="77,74,78,167" concept="5" />
+      <node id="2133971169492512389" at="81,87,82,86" concept="11" />
+      <node id="2133971169493822588" at="83,77,84,80" concept="11" />
+      <node id="2133971169492512355" at="84,80,85,31" concept="11" />
+      <node id="2133971169492512361" at="85,31,86,78" concept="11" />
+      <node id="2133971169492512371" at="86,78,87,0" concept="14" />
+      <node id="2133971169492512372" at="87,0,88,71" concept="13" />
+      <node id="2133971169492512386" at="88,71,89,24" concept="11" />
+      <node id="817315285555580468" at="90,30,91,117" concept="5" />
+      <node id="2133971169492512400" at="92,37,93,131" concept="5" />
+      <node id="2133971169492512415" at="94,14,95,145" concept="5" />
+      <node id="2133971169492712313" at="96,7,97,0" concept="14" />
+      <node id="2133971169495218665" at="97,0,98,58" concept="11" />
+      <node id="817315285557049747" at="99,23,100,27" concept="11" />
+      <node id="817315285557121757" at="101,32,102,34" concept="5" />
+      <node id="817315285558285775" at="103,29,104,75" concept="13" />
+      <node id="817315285557641907" at="104,75,105,113" concept="5" />
+      <node id="817315285558432942" at="105,113,106,65" concept="5" />
+      <node id="817315285559002526" at="107,28,108,118" concept="11" />
+      <node id="817315285559497587" at="108,118,109,67" concept="5" />
+      <node id="817315285559188734" at="109,67,110,44" concept="5" />
+      <node id="817315285557402802" at="111,16,112,34" concept="5" />
+      <node id="817315285556557233" at="113,9,114,134" concept="5" />
+      <node id="2133971169469157979" at="119,103,120,0" concept="14" />
+      <node id="2133971169469211311" at="120,0,121,48" concept="13" />
+      <node id="2133971169469157981" at="121,48,122,0" concept="14" />
+      <node id="2807401889302549687" at="123,5,124,90" concept="11" />
+      <node id="2807401889302549690" at="124,90,125,99" concept="11" />
+      <node id="2807401889302549687" at="125,99,126,30" concept="11" />
+      <node id="2807401889302549690" at="126,30,127,30" concept="11" />
+      <node id="2807401889302549687" at="128,69,129,48" concept="5" />
+      <node id="2807401889302549690" at="129,48,130,50" concept="5" />
+      <node id="2807401889302549652" at="130,50,131,77" concept="11" />
+      <node id="2807401889302549658" at="131,77,132,36" concept="5" />
+      <node id="2807401889302549662" at="132,36,133,205" concept="5" />
+      <node id="2807401889302549683" at="133,205,134,36" concept="5" />
+      <node id="2133971169469058022" at="139,94,140,0" concept="14" />
+      <node id="2133971169469113898" at="140,0,141,64" concept="13" />
+      <node id="2133971169469058024" at="141,64,142,0" concept="14" />
+      <node id="6231168443376208949" at="143,29,144,28" concept="5" />
+      <node id="6231168443376208953" at="144,28,145,67" concept="11" />
+      <node id="6231168443376208959" at="145,67,146,159" concept="5" />
+      <node id="6231168443376208976" at="146,159,147,28" concept="5" />
+      <node id="2133971169468955104" at="151,203,152,0" concept="14" />
+      <node id="2807401889302549715" at="154,68,155,76" concept="11" />
+      <node id="2807401889302549721" at="155,76,156,141" concept="5" />
+      <node id="2807401889302549745" at="157,14,158,81" concept="11" />
+      <node id="2807401889302549751" at="158,81,159,79" concept="11" />
+      <node id="2807401889302549757" at="159,79,160,75" concept="11" />
+      <node id="2807401889302549763" at="160,75,161,73" concept="11" />
+      <node id="2807401889302549769" at="161,73,162,99" concept="5" />
+      <node id="2807401889302549792" at="162,99,163,139" concept="5" />
+      <node id="2807401889302549861" at="165,11,166,171" concept="11" />
+      <node id="2807401889302549872" at="166,171,167,94" concept="11" />
+      <node id="2807401889302549875" at="167,94,168,103" concept="11" />
+      <node id="2807401889302549861" at="168,103,169,31" concept="11" />
+      <node id="2807401889302549872" at="169,31,170,34" concept="11" />
+      <node id="2807401889302549875" at="170,34,171,35" concept="11" />
+      <node id="2807401889302549861" at="172,94,173,44" concept="5" />
+      <node id="2807401889302549872" at="173,44,174,50" concept="5" />
+      <node id="2807401889302549875" at="174,50,175,52" concept="5" />
+      <node id="2807401889302549833" at="175,52,176,195" concept="5" />
+      <node id="2807401889302549941" at="181,5,182,73" concept="5" />
+      <node id="2876310430321226302" at="186,73,187,104" concept="5" />
+      <node id="2876310430321226314" at="187,104,188,48" concept="5" />
+      <node id="2133971169482782375" at="193,58,194,32" concept="13" />
+      <node id="2133971169481085530" at="194,32,195,32" concept="12" />
+      <node id="2133971169480826291" at="196,5,197,0" concept="14" />
+      <node id="2133971169479705955" at="197,0,198,17" concept="11" />
+      <node id="2876310430321131228" at="200,22,201,41" concept="5" />
+      <node id="2876310430321131234" at="202,7,203,48" concept="5" />
+      <node id="2133971169485836048" at="204,5,205,21" concept="5" />
+      <node id="2133971169480353184" at="205,21,206,0" concept="14" />
+      <node id="2133971169480359108" at="206,0,207,20" concept="12" />
+      <node id="2807401889302772344" at="211,23,212,18" concept="12" />
+      <node id="2807401889302772349" at="213,5,214,48" concept="11" />
+      <node id="2807401889302772357" at="215,21,216,44" concept="5" />
+      <node id="2807401889302772364" at="217,5,218,18" concept="12" />
+      <node id="8796347991406832473" at="222,45,223,45" concept="12" />
+      <node id="8796347991406835688" at="224,5,225,16" concept="12" />
+      <node id="134774857084650210" at="229,25,230,13" concept="12" />
+      <node id="134774857084608994" at="232,52,233,28" concept="5" />
+      <node id="134774857084609579" at="233,28,234,28" concept="5" />
+      <node id="134774857084610216" at="234,28,235,25" concept="5" />
+      <node id="134774857084611188" at="235,25,236,26" concept="5" />
+      <node id="4615632674303427918" at="237,12,238,62" concept="11" />
+      <node id="4615632674303424501" at="238,62,239,30" concept="11" />
+      <node id="4615632674303424707" at="239,30,240,49" concept="11" />
+      <node id="4615632674303424913" at="240,49,241,30" concept="11" />
+      <node id="4615632674303425135" at="241,30,242,50" concept="11" />
+      <node id="4615632674303445770" at="242,50,243,0" concept="14" />
+      <node id="4615632674303430701" at="244,61,245,44" concept="5" />
+      <node id="4615632674303437187" at="245,44,246,63" concept="5" />
+      <node id="4615632674303442012" at="246,63,247,44" concept="5" />
+      <node id="4615632674303444001" at="247,44,248,64" concept="5" />
+      <node id="4615632674303577256" at="249,7,250,0" concept="14" />
+      <node id="134774857084623055" at="250,0,251,24" concept="5" />
+      <node id="134774857084625727" at="251,24,252,24" concept="5" />
+      <node id="134774857084628452" at="252,24,253,35" concept="5" />
+      <node id="134774857084632138" at="253,35,254,36" concept="5" />
+      <node id="2807401889300736883" at="259,40,260,0" concept="14" />
+      <node id="2807401889300736884" at="260,0,261,40" concept="11" />
+      <node id="2807401889300736888" at="261,40,262,0" concept="14" />
+      <node id="2807401889300736889" at="262,0,263,56" concept="11" />
+      <node id="2807401889300736894" at="263,56,264,0" concept="14" />
+      <node id="2807401889300736895" at="264,0,265,46" concept="11" />
+      <node id="3794000219119432831" at="265,46,266,64" concept="5" />
+      <node id="3794000219119591222" at="266,64,267,0" concept="14" />
+      <node id="3794000219119769350" at="267,0,268,102" concept="5" />
+      <node id="3794000219119769354" at="268,102,269,92" concept="5" />
+      <node id="3794000219119769358" at="269,92,270,91" concept="5" />
+      <node id="3794000219119768496" at="270,91,271,0" concept="14" />
+      <node id="2807401889300736906" at="272,9,273,115" concept="11" />
+      <node id="2807401889300736919" at="274,66,275,66" concept="5" />
+      <node id="2807401889300736926" at="275,66,276,84" concept="5" />
+      <node id="2807401889300736935" at="276,84,277,77" concept="11" />
+      <node id="2807401889300736944" at="277,77,278,22" concept="5" />
+      <node id="2807401889300736949" at="278,22,279,61" concept="5" />
+      <node id="2807401889300736954" at="279,61,280,68" concept="5" />
+      <node id="2807401889300736960" at="281,7,282,35" concept="5" />
+      <node id="2807401889300736965" at="283,15,284,19" concept="5" />
+      <node id="2807401889301030345" at="288,58,289,41" concept="12" />
+      <node id="2807401889301190355" at="292,46,293,68" concept="11" />
+      <node id="2807401889301199668" at="295,32,296,30" concept="5" />
+      <node id="2807401889301478912" at="299,30,300,65" concept="19" />
+      <node id="2807401889301204068" at="301,5,302,23" concept="12" />
+      <node id="2807401889301205927" at="305,45,306,67" concept="11" />
+      <node id="2807401889301205931" at="306,67,307,63" concept="5" />
+      <node id="2807401889301467450" at="308,29,309,65" concept="19" />
+      <node id="2807401889301205947" at="310,5,311,22" concept="12" />
+      <node id="2807401889301096433" at="314,93,315,36" concept="11" />
+      <node id="2807401889301096442" at="315,36,316,60" concept="11" />
+      <node id="2807401889301132352" at="316,60,317,0" concept="14" />
+      <node id="2807401889301135163" at="317,0,318,27" concept="11" />
+      <node id="2807401889301136664" at="318,27,319,22" concept="11" />
+      <node id="2807401889301137436" at="319,22,320,22" concept="11" />
+      <node id="2807401889301133027" at="320,22,321,0" concept="14" />
+      <node id="2807401889301096451" at="322,84,323,43" concept="11" />
+      <node id="2807401889301109694" at="323,43,324,63" concept="11" />
+      <node id="2807401889301183695" at="324,63,325,0" concept="14" />
+      <node id="2807401889301139025" at="327,37,328,20" concept="5" />
+      <node id="2807401889301141912" at="328,20,329,21" concept="5" />
+      <node id="2807401889301116987" at="329,21,330,16" concept="2" />
+      <node id="2807401889301144794" at="331,37,332,18" concept="5" />
+      <node id="2807401889301149407" at="332,18,333,21" concept="5" />
+      <node id="2807401889301117907" at="333,21,334,16" concept="2" />
+      <node id="2807401889301153039" at="335,36,336,18" concept="5" />
+      <node id="2807401889301155925" at="336,18,337,23" concept="5" />
+      <node id="2807401889301120361" at="337,23,338,16" concept="2" />
+      <node id="2807401889301123068" at="339,16,340,74" concept="19" />
+      <node id="2807401889301104556" at="341,7,342,0" concept="14" />
+      <node id="2807401889301164302" at="343,28,344,24" concept="5" />
+      <node id="2807401889301166175" at="345,7,346,0" concept="14" />
+      <node id="2807401889301176125" at="347,37,348,50" concept="5" />
+      <node id="817315285555378374" at="94,12,96,7" concept="1" />
+      <node id="817315285556379950" at="111,14,113,9" concept="1" />
+      <node id="2807401889305732735" at="25,0,28,0" concept="10" trace="createLayouter#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)Lcom/mbeddr/mpsutil/treenotation/runtime/ITreeLayouter;" />
+      <node id="2807401889300963519" at="30,0,33,0" concept="3" trace="DefaultTreeLayouter#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)V" />
+      <node id="2133971169482449099" at="199,71,202,7" concept="9" />
+      <node id="2807401889302772342" at="210,65,213,5" concept="9" />
+      <node id="2807401889302772355" at="214,48,217,5" concept="9" />
+      <node id="8796347991406828907" at="221,53,224,5" concept="9" />
+      <node id="134774857084648182" at="228,107,231,5" concept="9" />
+      <node id="2807401889301018306" at="288,0,291,0" concept="10" trace="createLine#(Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/Shape;" />
+      <node id="2807401889301195302" at="294,42,297,7" concept="9" />
+      <node id="2807401889301478910" at="298,7,301,5" concept="9" />
+      <node id="2807401889301462496" at="307,63,310,5" concept="9" />
+      <node id="2807401889301159323" at="342,0,345,7" concept="9" />
+      <node id="2807401889301167656" at="346,0,349,7" concept="9" />
+      <node id="2807401889302721751" at="34,0,38,0" concept="10" trace="layout#()V" />
+      <node id="2876310430321226294" at="185,149,189,7" concept="5" />
+      <node id="2133971169480868103" at="192,131,196,5" concept="9" />
+      <node id="2807401889305732728" at="24,0,29,0" concept="15" trace="TYPE" />
+      <node id="2807401889301186150" at="293,68,298,7" concept="5" />
+      <node id="6231168443376208947" at="142,0,148,5" concept="9" />
+      <node id="2807401889302549817" at="171,35,177,13" concept="21" />
+      <node id="2876310430321226339" at="185,0,191,0" concept="10" trace="layoutIntermediateCells#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;ZLjava/lang/Iterable;)V" />
+      <node id="2876310430321131225" at="198,17,204,5" concept="8" />
+      <node id="8796347991406792868" at="221,0,227,0" concept="10" trace="getTreeRoot#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4615632674303425359" at="243,0,249,7" concept="8" />
+      <node id="817315285555167319" at="89,24,96,7" concept="9" />
+      <node id="2807401889302549650" at="127,30,135,7" concept="21" />
+      <node id="2807401889300736916" at="273,115,281,7" concept="8" />
+      <node id="2807401889301061476" at="305,0,313,0" concept="10" trace="getLastLine#(Ljava/awt/Shape;)Ljava/awt/geom/Line2D;" />
+      <node id="2807401889302772338" at="210,0,220,0" concept="10" trace="getBounds#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;" />
+      <node id="6231168443376172064" at="139,0,150,0" concept="10" trace="layoutFoldButton#(Lcom/mbeddr/mpsutil/treenotation/runtime/Button;Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;Z)V" />
+      <node id="2807401889301052728" at="292,0,304,0" concept="10" trace="getFirstLine#(Ljava/awt/Shape;)Ljava/awt/geom/Line2D;" />
+      <node id="817315285556110468" at="100,27,113,9" concept="9" />
+      <node id="2807401889302549650" at="122,0,136,5" concept="1" />
+      <node id="2807401889302549817" at="164,69,178,11" concept="1" />
+      <node id="2807401889300736904" at="271,0,285,5" concept="20" />
+      <node id="2807401889302549815" at="163,139,179,9" concept="9" />
+      <node id="2807401889301102290" at="325,0,341,7" concept="18" />
+      <node id="2133971169492769808" at="98,58,115,7" concept="9" />
+      <node id="2876310430321131259" at="192,0,209,0" concept="10" trace="placeChildren#(Ljava/util/List;IIIZ)I" />
+      <node id="134774857084635745" at="237,10,255,5" concept="1" />
+      <node id="6231168443382398248" at="119,0,138,0" concept="10" trace="layoutDeleteButtons#(Ljava/util/List;Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;Z)V" />
+      <node id="2807401889302549743" at="157,12,180,7" concept="1" />
+      <node id="4615632674303419074" at="231,5,255,5" concept="9" />
+      <node id="2807401889302549713" at="153,66,180,7" concept="9" />
+      <node id="2807401889302549711" at="152,0,181,5" concept="9" />
+      <node id="2876310430324226449" at="228,0,257,0" concept="10" trace="adjustToChildren#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;Ljava/lang/Iterable;II)V" />
+      <node id="2807401889300736867" at="258,0,287,0" concept="10" trace="paintLines#(Ljava/awt/Graphics2D;)V" />
+      <node id="2807401889301096449" at="321,0,350,5" concept="7" />
+      <node id="6231168443374435413" at="151,0,184,0" concept="10" trace="layoutInsertButtons#(Ljava/util/List;Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;Ljava/util/List;ILjava/util/List;IZ)V" />
+      <node id="2133971169493259825" at="82,86,116,5" concept="7" />
+      <node id="2133971169492149777" at="81,0,118,0" concept="10" trace="ensureSpaceForButtons#(Ljava/util/List;I)V" />
+      <node id="2807401889301087680" at="314,0,352,0" concept="10" trace="visitPath#(Ljava/awt/Shape;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P1_E0;)V" />
+      <node id="2807401889302319305" at="39,0,80,0" concept="10" trace="layoutOnePass#()V" />
+      <scope id="2807401889305732740" at="25,56,26,43" />
+      <scope id="2807401889300963523" at="30,49,31,20" />
+      <scope id="2807401889302721755" at="35,24,36,20" />
+      <scope id="817315285555167321" at="90,30,91,117" />
+      <scope id="817315285555350223" at="92,37,93,131" />
+      <scope id="817315285555378375" at="94,14,95,145" />
+      <scope id="817315285556110470" at="101,32,102,34" />
+      <scope id="817315285556379951" at="111,16,112,34" />
+      <scope id="2133971169482449101" at="200,22,201,41" />
+      <scope id="2807401889302772343" at="211,23,212,18" />
+      <scope id="2807401889302772356" at="215,21,216,44" />
+      <scope id="8796347991406828908" at="222,45,223,45" />
+      <scope id="134774857084648184" at="229,25,230,13" />
+      <scope id="2807401889300736964" at="283,15,284,19" />
+      <scope id="2807401889301018310" at="288,58,289,41" />
+      <scope id="2807401889301195304" at="295,32,296,30" />
+      <scope id="2807401889301478911" at="299,30,300,65" />
+      <scope id="2807401889301462498" at="308,29,309,65" />
+      <scope id="2807401889301121208" at="339,16,340,74" />
+      <scope id="2807401889301159325" at="343,28,344,24" />
+      <scope id="2807401889301167658" at="347,37,348,50" />
+      <scope id="2807401889302549714" at="154,68,156,141">
+        <var name="button" id="2807401889302549716" />
+      </scope>
+      <scope id="2876310430321226301" at="186,73,188,48" />
+      <scope id="2133971169480868105" at="193,58,195,32" />
+      <scope id="2807401889305732735" at="25,0,28,0">
+        <var name="cell" id="2807401889305732736" />
+      </scope>
+      <scope id="2807401889300963519" at="30,0,33,0">
+        <var name="treeCell" id="2807401889300967310" />
+      </scope>
+      <scope id="817315285556254837" at="103,29,106,65" />
+      <scope id="817315285556316901" at="107,28,110,44">
+        <var name="rightMargin" id="817315285559002529" />
+      </scope>
+      <scope id="2807401889301018306" at="288,0,291,0">
+        <var name="end" id="2807401889301029156" />
+        <var name="start" id="2807401889301027013" />
+      </scope>
+      <scope id="2807401889301188929" at="294,42,297,7" />
+      <scope id="2807401889301103074" at="327,37,330,16" />
+      <scope id="2807401889301104634" at="331,37,334,16" />
+      <scope id="2807401889301106163" at="335,36,338,16" />
+      <scope id="2807401889302721751" at="34,0,38,0" />
+      <scope id="6231168443376208948" at="143,29,147,28">
+        <var name="foldButtonBounds" id="6231168443376208954" />
+      </scope>
+      <scope id="2807401889302549817" at="172,94,176,195" />
+      <scope id="2876310430321226293" at="185,149,189,7" />
+      <scope id="2876310430321131227" at="199,71,203,48" />
+      <scope id="8796347991406792872" at="221,53,225,16" />
+      <scope id="4615632674303419076" at="232,52,236,26" />
+      <scope id="4615632674303425363" at="244,61,248,64" />
+      <scope id="2807401889302549650" at="128,69,134,36">
+        <var name="deleteButtonBounds" id="2807401889302549653" />
+      </scope>
+      <scope id="2876310430321226339" at="185,0,191,0">
+        <var name="childrenBounds" id="2876310430321226329" />
+        <var name="transposed" id="2876310430321226327" />
+        <var name="tree" id="2876310430321226323" />
+        <var name="treeBounds" id="2876310430321226325" />
+      </scope>
+      <scope id="2876310430321131225" at="198,17,204,5">
+        <var name="childBounds" id="2876310430321131226" />
+      </scope>
+      <scope id="8796347991406792868" at="221,0,227,0">
+        <var name="cell" id="8796347991406825706" />
+      </scope>
+      <scope id="4615632674303425359" at="243,0,249,7">
+        <var name="child" id="4615632674303425361" />
+      </scope>
+      <scope id="2807401889300736918" at="274,66,280,68">
+        <var name="line" id="2807401889300736936" />
+      </scope>
+      <scope id="2807401889301061481" at="305,45,311,22">
+        <var name="last" id="2807401889301205928" />
+      </scope>
+      <scope id="2807401889302772341" at="210,65,218,18">
+        <var name="bounds" id="2807401889302772350" />
+      </scope>
+      <scope id="2807401889300736916" at="273,115,281,7">
+        <var name="child" id="2807401889300736917" />
+      </scope>
+      <scope id="2807401889301061476" at="305,0,313,0">
+        <var name="shape" id="2807401889301061477" />
+      </scope>
+      <scope id="6231168443376172067" at="139,94,148,5" />
+      <scope id="2807401889302772338" at="210,0,220,0">
+        <var name="cell" id="2807401889302772366" />
+        <var name="transposed" id="2807401889302772368" />
+      </scope>
+      <scope id="2807401889300736905" at="272,9,282,35">
+        <var name="lines" id="2807401889300736907" />
+      </scope>
+      <scope id="2807401889301052732" at="292,46,302,23">
+        <var name="first" id="2807401889301190356" />
+      </scope>
+      <scope id="6231168443376172064" at="139,0,150,0">
+        <var name="foldButton" id="6231168443376253139" />
+        <var name="rootBounds" id="6231168443376421875" />
+        <var name="transposed" id="6231168443376464615" />
+      </scope>
+      <scope id="2807401889302549650" at="123,5,135,7">
+        <var name="childBounds_it" id="2807401889302549687" />
+        <var name="childBounds_var" id="2807401889302549687" />
+        <var name="deleteButton_it" id="2807401889302549690" />
+        <var name="deleteButton_var" id="2807401889302549690" />
+      </scope>
+      <scope id="2807401889302549817" at="165,11,177,13">
+        <var name="button_it" id="2807401889302549861" />
+        <var name="button_var" id="2807401889302549861" />
+        <var name="leftChild_it" id="2807401889302549872" />
+        <var name="leftChild_var" id="2807401889302549872" />
+        <var name="rightChild_it" id="2807401889302549875" />
+        <var name="rightChild_var" id="2807401889302549875" />
+      </scope>
+      <scope id="2807401889301052728" at="292,0,304,0">
+        <var name="shape" id="2807401889301058263" />
+      </scope>
+      <scope id="2807401889302549816" at="164,69,178,11" />
+      <scope id="2133971169492769810" at="99,23,114,134">
+        <var name="leftMargin" id="817315285557049750" />
+      </scope>
+      <scope id="2876310430321131224" at="192,131,207,20">
+        <var name="x" id="2133971169479705958" />
+      </scope>
+      <scope id="6231168443382398251" at="119,103,136,5" />
+      <scope id="2876310430321131259" at="192,0,209,0">
+        <var name="childrenBounds" id="2876310430321131243" />
+        <var name="childrenY" id="2876310430321131248" />
+        <var name="dryRun" id="2133971169481465644" />
+        <var name="left" id="2876310430321131246" />
+        <var name="nodeSpacing" id="2876310430321131250" />
+      </scope>
+      <scope id="134774857084635746" at="237,12,254,36">
+        <var name="first" id="4615632674303427919" />
+        <var name="maxX" id="4615632674303424710" />
+        <var name="maxY" id="4615632674303425138" />
+        <var name="minX" id="4615632674303424504" />
+        <var name="minY" id="4615632674303424916" />
+      </scope>
+      <scope id="6231168443382398248" at="119,0,138,0">
+        <var name="childrenBounds" id="6231168443382592988" />
+        <var name="transposed" id="6231168443382726299" />
+        <var name="tree" id="6231168443382677037" />
+      </scope>
+      <scope id="2807401889302549744" at="157,14,179,9">
+        <var name="firstButton" id="2807401889302549746" />
+        <var name="firstChild" id="2807401889302549758" />
+        <var name="lastButton" id="2807401889302549752" />
+        <var name="lastChild" id="2807401889302549764" />
+      </scope>
+      <scope id="2807401889300736874" at="259,40,285,5">
+        <var name="childCells" id="2807401889300736890" />
+        <var name="g2" id="2807401889300736896" />
+        <var name="rootCell" id="2807401889300736885" />
+      </scope>
+      <scope id="2807401889302549712" at="153,66,180,7" />
+      <scope id="134774857084602898" at="228,107,255,5" />
+      <scope id="2807401889301096450" at="322,84,349,7">
+        <var name="point" id="2807401889301109695" />
+        <var name="type" id="2807401889301096452" />
+      </scope>
+      <scope id="2876310430324226449" at="228,0,257,0">
+        <var name="children" id="134774857084901974" />
+        <var name="defaultX" id="134774857084607740" />
+        <var name="defaultY" id="134774857084608210" />
+        <var name="parent" id="134774857084603400" />
+      </scope>
+      <scope id="2807401889300736867" at="258,0,287,0">
+        <var name="g" id="2807401889300736870" />
+      </scope>
+      <scope id="2807401889301096449" at="321,0,350,5">
+        <var name="pi" id="2807401889301096459" />
+      </scope>
+      <scope id="6231168443374435416" at="151,203,182,73" />
+      <scope id="2133971169493259827" at="83,77,115,7">
+        <var name="childBounds" id="2133971169493822589" />
+        <var name="childMinWidth" id="2133971169492512387" />
+        <var name="isFirst" id="2133971169492512356" />
+        <var name="isLast" id="2133971169492512362" />
+        <var name="margin" id="2133971169495218668" />
+      </scope>
+      <scope id="6231168443374435413" at="151,0,184,0">
+        <var name="childrenBounds" id="6231168443374900159" />
+        <var name="childrenY" id="6231168443375269769" />
+        <var name="insertButtons" id="6231168443375188390" />
+        <var name="insertButtonsBounds" id="6231168443374564202" />
+        <var name="nodeSpacing" id="6231168443375056959" />
+        <var name="rootBounds" id="6231168443374718437" />
+        <var name="transposed" id="6231168443375419293" />
+      </scope>
+      <scope id="2133971169493259825" at="82,86,116,5">
+        <var name="i" id="2133971169493259828" />
+      </scope>
+      <scope id="2133971169492149781" at="81,87,116,5">
+        <var name="overlapInsertButtonWithChildCell" id="2133971169492512390" />
+      </scope>
+      <scope id="2807401889301087684" at="314,93,350,5">
+        <var name="coords" id="2807401889301096434" />
+        <var name="p0" id="2807401889301136665" />
+        <var name="p1" id="2807401889301137437" />
+        <var name="p_first" id="2807401889301135164" />
+        <var name="pathIterator" id="2807401889301096443" />
+      </scope>
+      <scope id="2133971169492149777" at="81,0,118,0">
+        <var name="childrenBounds" id="2133971169492415395" />
+        <var name="nodeSpacing" id="2133971169492574458" />
+      </scope>
+      <scope id="2807401889301087680" at="314,0,352,0">
+        <var name="shape" id="2807401889301090820" />
+        <var name="visitor" id="2807401889301091764" />
+      </scope>
+      <scope id="2807401889302319310" at="39,31,78,167">
+        <var name="childCells" id="2807401889302549353" />
+        <var name="childrenBounds" id="2807401889302549360" />
+        <var name="childrenWidth" id="2133971169482896866" />
+        <var name="childrenY" id="2807401889302549435" />
+        <var name="insertButtons" id="2807401889302549375" />
+        <var name="insertButtonsBounds" id="2807401889302549382" />
+        <var name="levelSpacing" id="2807401889302549315" />
+        <var name="nodeSpacing" id="2807401889302549324" />
+        <var name="originalX" id="2807401889302549296" />
+        <var name="originalY" id="2807401889302549302" />
+        <var name="rootBounds" id="2807401889302549346" />
+        <var name="rootCell" id="2807401889302549340" />
+        <var name="transposed" id="2807401889302549309" />
+        <var name="tree" id="2807401889302471638" />
+        <var name="treeBounds" id="2807401889302549333" />
+        <var name="treeWidth" id="2133971169483369363" />
+      </scope>
+      <scope id="2807401889302319305" at="39,0,80,0" />
+      <unit id="2807401889305732733" at="24,48,28,3" name="com.mbeddr.mpsutil.treenotation.runtime.DefaultTreeLayouter$1" />
+      <unit id="2807401889300587522" at="23,0,353,0" name="com.mbeddr.mpsutil.treenotation.runtime.DefaultTreeLayouter" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/2807401889300589795">
+    <file name="ITreeLayouter.java">
+      <node id="2807401889300742074" at="8,0,9,0" concept="10" trace="paintLines#(Ljava/awt/Graphics2D;)V" />
+      <node id="2807401889302221506" at="9,0,10,0" concept="10" trace="layout#()V" />
+      <node id="8310145593775803376" at="10,0,11,0" concept="10" trace="layoutCollapsed#()V" />
+      <scope id="2807401889300742074" at="8,0,9,0">
+        <var name="g" id="2807401889300742115" />
+      </scope>
+      <scope id="2807401889302221506" at="9,0,10,0" />
+      <scope id="8310145593775803376" at="10,0,11,0" />
+      <unit id="2807401889300589795" at="7,0,12,0" name="com.mbeddr.mpsutil.treenotation.runtime.ITreeLayouter" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/2807401889300589823">
+    <file name="AbstractTreeLayouter.java">
+      <node id="2876310430320369141" at="17,0,18,0" concept="15" trace="LEVEL_SPACING" />
+      <node id="2876310430320383958" at="18,0,19,0" concept="15" trace="NODE_SPACING" />
+      <node id="2876310430320478736" at="19,0,20,0" concept="15" trace="INCOMING_LINE_WIDTH" />
+      <node id="2876310430320490177" at="20,0,21,0" concept="15" trace="INCOMING_LINE_COLOR" />
+      <node id="2876310430320865572" at="21,0,22,0" concept="15" trace="BUTTON_MARGIN" />
+      <node id="2807401889300746030" at="23,0,24,0" concept="6" trace="myTreeCell" />
+      <node id="2807401889300747903" at="25,50,26,26" concept="5" />
+      <node id="2807401889300780943" at="29,38,30,36" concept="12" />
+      <node id="2807401889300801947" at="33,52,34,40" concept="12" />
+      <node id="2807401889300828089" at="37,83,38,57" concept="12" />
+      <node id="2807401889300862074" at="41,52,42,42" concept="12" />
+      <node id="2807401889300890149" at="45,50,46,40" concept="12" />
+      <node id="2807401889300913146" at="49,87,50,55" concept="5" />
+      <node id="2807401889300944804" at="53,71,54,44" concept="5" />
+      <node id="2133971169469264358" at="57,39,58,69" concept="11" />
+      <node id="2133971169469906808" at="58,69,59,0" concept="14" />
+      <node id="2133971169469603453" at="59,0,60,58" concept="11" />
+      <node id="2133971169469648924" at="60,58,61,48" concept="11" />
+      <node id="2133971169469796265" at="61,48,62,66" concept="11" />
+      <node id="2133971169469769490" at="62,66,63,46" concept="11" />
+      <node id="2133971169469785281" at="63,46,64,57" concept="11" />
+      <node id="2133971169469819384" at="64,57,65,179" concept="11" />
+      <node id="2133971169469944720" at="65,179,66,0" concept="14" />
+      <node id="2876310430327182565" at="66,0,67,56" concept="12" />
+      <node id="8310145593775805801" at="71,33,72,114" concept="5" />
+      <node id="2807401889300746750" at="25,0,28,0" concept="3" trace="AbstractTreeLayouter#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)V" />
+      <node id="2807401889300774656" at="29,0,32,0" concept="10" trace="getTreeRoot#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="2807401889300797757" at="33,0,36,0" concept="10" trace="getTreeChildren#()Ljava/lang/Iterable;" />
+      <node id="2807401889300820985" at="37,0,40,0" concept="10" trace="getStyleForChild#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/style/StyleAttribute;)null" />
+      <node id="2807401889300849822" at="41,0,44,0" concept="10" trace="getStartPoint#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/awt/geom/Point2D;" />
+      <node id="2807401889300877769" at="45,0,48,0" concept="10" trace="getEndPoint#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/awt/geom/Point2D;" />
+      <node id="2807401889300905944" at="49,0,52,0" concept="10" trace="drawChildIncomingShape#(Ljava/awt/Graphics2D;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljava/awt/geom/Line2D;)V" />
+      <node id="2807401889300933509" at="53,0,56,0" concept="10" trace="drawOutgoingShape#(Ljava/awt/Graphics2D;Ljava/util/List;)V" />
+      <node id="8310145593775804875" at="70,0,74,0" concept="10" trace="layoutCollapsed#()V" />
+      <node id="2876310430327182881" at="57,0,69,0" concept="10" trace="getLevelSpacing#()Ljava/lang/Integer;" />
+      <scope id="2807401889300746754" at="25,50,26,26" />
+      <scope id="2807401889300774660" at="29,38,30,36" />
+      <scope id="2807401889300797761" at="33,52,34,40" />
+      <scope id="2807401889300820993" at="37,83,38,57" />
+      <scope id="2807401889300849825" at="41,52,42,42" />
+      <scope id="2807401889300877772" at="45,50,46,40" />
+      <scope id="2807401889300905947" at="49,87,50,55" />
+      <scope id="2807401889300933512" at="53,71,54,44" />
+      <scope id="8310145593775804879" at="71,33,72,114" />
+      <scope id="2807401889300746750" at="25,0,28,0">
+        <var name="treeCell" id="2807401889300746779" />
+      </scope>
+      <scope id="2807401889300774656" at="29,0,32,0" />
+      <scope id="2807401889300797757" at="33,0,36,0" />
+      <scope id="2807401889300820985" at="37,0,40,0">
+        <var name="attribute" id="2807401889300820988" />
+        <var name="child" id="2807401889300820986" />
+      </scope>
+      <scope id="2807401889300849822" at="41,0,44,0">
+        <var name="cell" id="2807401889300849871" />
+      </scope>
+      <scope id="2807401889300877769" at="45,0,48,0">
+        <var name="cell" id="2807401889300877815" />
+      </scope>
+      <scope id="2807401889300905944" at="49,0,52,0">
+        <var name="_g" id="2807401889300906015" />
+        <var name="child" id="2807401889300906017" />
+        <var name="line" id="2807401889300906019" />
+      </scope>
+      <scope id="2807401889300933509" at="53,0,56,0">
+        <var name="_g" id="2807401889300933577" />
+        <var name="lines" id="2807401889300933579" />
+      </scope>
+      <scope id="8310145593775804875" at="70,0,74,0" />
+      <scope id="2876310430327182256" at="57,39,67,56">
+        <var name="collapseButtonSize" id="2133971169469648927" />
+        <var name="configuredSpacing" id="2133971169469264359" />
+        <var name="deleteButtonSize" id="2133971169469769493" />
+        <var name="spaceBetweenCollapseButtonAndDeleteButton" id="2133971169469796266" />
+        <var name="spaceBetweenDeleteButtonAndChild" id="2133971169469785282" />
+        <var name="spaceBetweenRootAndCollapseButton" id="2133971169469603456" />
+        <var name="spaceForButtons" id="2133971169469819387" />
+      </scope>
+      <scope id="2876310430327182881" at="57,0,69,0" />
+      <unit id="2807401889300589823" at="16,0,75,0" name="com.mbeddr.mpsutil.treenotation.runtime.AbstractTreeLayouter" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/2807401889300590110">
+    <file name="OrthogonalTreeLayouter.java">
+      <node id="2807401889305757856" at="12,56,13,46" concept="12" />
+      <node id="2807401889301638503" at="17,52,18,20" concept="17" />
+      <node id="2807401889301660218" at="22,58,23,23" concept="11" />
+      <node id="2807401889301660763" at="23,23,24,23" concept="11" />
+      <node id="2807401889301679896" at="25,37,26,48" concept="11" />
+      <node id="2807401889301719017" at="26,48,27,61" concept="5" />
+      <node id="2807401889301719008" at="27,61,28,59" concept="5" />
+      <node id="2807401889301686261" at="29,12,30,49" concept="11" />
+      <node id="2807401889301663029" at="30,49,31,61" concept="5" />
+      <node id="2807401889301710354" at="31,61,32,59" concept="5" />
+      <node id="2807401889301731108" at="33,5,34,0" concept="14" />
+      <node id="2807401889301747273" at="34,0,35,41" concept="11" />
+      <node id="2807401889301752265" at="35,41,36,44" concept="5" />
+      <node id="2807401889301769199" at="36,44,37,54" concept="5" />
+      <node id="2807401889301791569" at="37,54,38,54" concept="5" />
+      <node id="2807401889301796366" at="38,54,39,40" concept="5" />
+      <node id="2807401889301789223" at="39,40,40,16" concept="12" />
+      <node id="2807401889304044647" at="43,57,44,128" concept="11" />
+      <node id="2807401889304142866" at="44,128,45,57" concept="11" />
+      <node id="2807401889304125328" at="45,57,46,120" concept="11" />
+      <node id="2807401889304070407" at="46,120,47,65" concept="12" />
+      <node id="2807401889305757850" at="12,0,15,0" concept="10" trace="createLayouter#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)Lcom/mbeddr/mpsutil/treenotation/runtime/ITreeLayouter;" />
+      <node id="2807401889301638497" at="17,0,20,0" concept="3" trace="OrthogonalTreeLayouter#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)V" />
+      <node id="2807401889301655754" at="29,10,33,5" concept="1" />
+      <node id="2807401889305757843" at="11,0,16,0" concept="15" trace="TYPE" />
+      <node id="2807401889304017910" at="43,0,49,0" concept="10" trace="getRootChildCenter#(Z)I" />
+      <node id="2807401889301653980" at="24,23,33,5" concept="9" />
+      <node id="2807401889301638582" at="21,0,42,0" concept="10" trace="createLine#(Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/Shape;" />
+      <scope id="2807401889305757855" at="12,56,13,46" />
+      <scope id="2807401889301638501" at="17,52,18,20" />
+      <scope id="2807401889305757850" at="12,0,15,0">
+        <var name="cell" id="2807401889305757851" />
+      </scope>
+      <scope id="2807401889301638497" at="17,0,20,0">
+        <var name="treeCell" id="2807401889301638504" />
+      </scope>
+      <scope id="2807401889301653982" at="25,37,28,59">
+        <var name="xCenter" id="2807401889301679897" />
+      </scope>
+      <scope id="2807401889301655755" at="29,12,32,59">
+        <var name="yCenter" id="2807401889301686264" />
+      </scope>
+      <scope id="2807401889304017914" at="43,57,47,65">
+        <var name="childMin" id="2807401889304125329" />
+        <var name="childrenBounds" id="2807401889304044648" />
+        <var name="rootBounds" id="2807401889304142867" />
+      </scope>
+      <scope id="2807401889304017910" at="43,0,49,0">
+        <var name="xAxis" id="2807401889304075971" />
+      </scope>
+      <scope id="2807401889301638595" at="22,58,40,16">
+        <var name="bendPoint1" id="2807401889301660219" />
+        <var name="bendPoint2" id="2807401889301660764" />
+        <var name="path" id="2807401889301747274" />
+      </scope>
+      <scope id="2807401889301638582" at="21,0,42,0">
+        <var name="end" id="2807401889301638585" />
+        <var name="start" id="2807401889301638583" />
+      </scope>
+      <unit id="2807401889305757848" at="11,48,15,3" name="com.mbeddr.mpsutil.treenotation.runtime.OrthogonalTreeLayouter$1" />
+      <unit id="2807401889300590110" at="10,0,50,0" name="com.mbeddr.mpsutil.treenotation.runtime.OrthogonalTreeLayouter" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/2807401889300590443">
+    <file name="CompactTreeLayouter.java">
+      <node id="2807401889305692403" at="16,56,17,43" concept="12" />
+      <node id="2807401889301372760" at="21,49,22,20" concept="17" />
+      <node id="8310145593775863958" at="26,33,27,31" concept="11" />
+      <node id="8310145593775863975" at="27,31,28,0" concept="14" />
+      <node id="8310145593775863976" at="28,0,29,52" concept="11" />
+      <node id="8310145593775864036" at="29,52,30,53" concept="11" />
+      <node id="8310145593775864043" at="30,53,31,45" concept="11" />
+      <node id="8310145593775864049" at="31,45,32,57" concept="11" />
+      <node id="8310145593775864102" at="32,57,33,0" concept="14" />
+      <node id="8310145593775864103" at="33,0,34,24" concept="5" />
+      <node id="8310145593775864154" at="34,24,35,0" concept="14" />
+      <node id="8310145593775864155" at="35,0,36,18" concept="13" />
+      <node id="8310145593775864157" at="36,18,37,45" concept="11" />
+      <node id="8310145593775864163" at="37,45,38,69" concept="11" />
+      <node id="8310145593775864177" at="39,29,40,67" concept="11" />
+      <node id="8310145593775864183" at="40,67,41,28" concept="5" />
+      <node id="8310145593775864187" at="41,28,42,97" concept="5" />
+      <node id="8310145593775864201" at="42,97,43,103" concept="5" />
+      <node id="8310145593775864215" at="43,103,44,28" concept="5" />
+      <node id="8310145593775864219" at="44,28,45,132" concept="5" />
+      <node id="8310145593775864239" at="46,12,47,62" concept="5" />
+      <node id="8310145593775864291" at="48,5,49,0" concept="14" />
+      <node id="8310145593775864292" at="49,0,50,24" concept="5" />
+      <node id="8310145593775925186" at="50,24,51,167" concept="5" />
+      <node id="2876310430320207083" at="55,31,56,31" concept="11" />
+      <node id="2876310430320207087" at="56,31,57,0" concept="14" />
+      <node id="2876310430320207088" at="57,0,58,32" concept="11" />
+      <node id="2876310430320207094" at="58,32,59,32" concept="11" />
+      <node id="2876310430320207100" at="59,32,60,0" concept="14" />
+      <node id="2876310430320207101" at="60,0,61,52" concept="11" />
+      <node id="2876310430320207107" at="61,52,62,41" concept="11" />
+      <node id="2876310430320207116" at="62,41,63,56" concept="11" />
+      <node id="2876310430320207125" at="63,56,64,53" concept="11" />
+      <node id="2876310430320207131" at="64,53,65,0" concept="14" />
+      <node id="2876310430320207132" at="65,0,66,45" concept="11" />
+      <node id="2876310430320207144" at="66,45,67,0" concept="14" />
+      <node id="2876310430320207145" at="67,0,68,89" concept="11" />
+      <node id="2876310430320207152" at="68,89,69,120" concept="11" />
+      <node id="2876310430320207167" at="69,120,70,57" concept="11" />
+      <node id="2876310430320207174" at="70,57,71,128" concept="11" />
+      <node id="2876310430320207191" at="71,128,72,0" concept="14" />
+      <node id="2876310430320207192" at="72,0,73,24" concept="5" />
+      <node id="2876310430320207196" at="73,24,74,70" concept="5" />
+      <node id="2876310430320207208" at="74,70,75,73" concept="5" />
+      <node id="2133971169509036246" at="75,73,76,55" concept="5" />
+      <node id="2876310430320207220" at="76,55,77,0" concept="14" />
+      <node id="2876310430320207687" at="77,0,78,38" concept="13" />
+      <node id="572001432043723720" at="78,38,79,83" concept="13" />
+      <node id="2876310430320207689" at="80,5,81,47" concept="11" />
+      <node id="572001432040697206" at="81,47,82,65" concept="11" />
+      <node id="572001432041484045" at="83,31,84,86" concept="11" />
+      <node id="572001432042188292" at="84,86,85,32" concept="11" />
+      <node id="572001432042379667" at="85,32,86,47" concept="11" />
+      <node id="572001432039833713" at="86,47,87,132" concept="5" />
+      <node id="2876310430324587355" at="88,7,89,57" concept="5" />
+      <node id="2876310430320207388" at="89,57,90,26" concept="5" />
+      <node id="572001432043395545" at="90,26,91,127" concept="5" />
+      <node id="572001432044628812" at="91,127,92,28" concept="5" />
+      <node id="2876310430323807580" at="93,5,94,0" concept="14" />
+      <node id="2876310430320207138" at="94,0,95,57" concept="11" />
+      <node id="2876310430320207221" at="95,57,96,71" concept="11" />
+      <node id="2876310430320207227" at="96,71,97,53" concept="11" />
+      <node id="2876310430321193683" at="97,53,98,108" concept="5" />
+      <node id="2876310430320207325" at="98,108,99,70" concept="5" />
+      <node id="6231168443385067659" at="99,70,100,0" concept="14" />
+      <node id="2876310430320207441" at="100,0,101,21" concept="13" />
+      <node id="2876310430320207481" at="102,5,103,90" concept="11" />
+      <node id="2876310430320207484" at="103,90,104,99" concept="11" />
+      <node id="8310145593776444508" at="104,99,105,83" concept="11" />
+      <node id="2876310430320207481" at="105,83,106,30" concept="11" />
+      <node id="2876310430320207484" at="106,30,107,30" concept="11" />
+      <node id="8310145593776444508" at="107,30,108,27" concept="11" />
+      <node id="2876310430320207481" at="109,91,110,48" concept="5" />
+      <node id="2876310430320207484" at="110,48,111,50" concept="5" />
+      <node id="8310145593776444508" at="111,50,112,36" concept="5" />
+      <node id="8310145593776637534" at="112,36,113,60" concept="11" />
+      <node id="8310145593776658755" at="113,60,114,67" concept="11" />
+      <node id="2876310430320207445" at="114,67,115,77" concept="11" />
+      <node id="2876310430320207451" at="115,77,116,36" concept="5" />
+      <node id="2876310430323306547" at="116,36,117,175" concept="5" />
+      <node id="2876310430320207477" at="117,175,118,36" concept="5" />
+      <node id="2876310430320207489" at="120,5,121,0" concept="14" />
+      <node id="6231168443377122145" at="121,0,122,124" concept="5" />
+      <node id="2133971169506933342" at="122,124,123,0" concept="14" />
+      <node id="2876310430321251628" at="123,0,124,74" concept="5" />
+      <node id="2876310430324307289" at="124,74,125,167" concept="5" />
+      <node id="2876310430326595565" at="129,52,130,41" concept="11" />
+      <node id="2876310430326073203" at="130,41,131,55" concept="11" />
+      <node id="2876310430327555964" at="132,37,133,39" concept="11" />
+      <node id="2876310430327678537" at="133,39,134,57" concept="5" />
+      <node id="2876310430327580547" at="134,57,135,73" concept="11" />
+      <node id="2876310430325281441" at="135,73,136,37" concept="12" />
+      <node id="2876310430327630055" at="137,12,138,39" concept="11" />
+      <node id="2876310430327741201" at="138,39,139,58" concept="5" />
+      <node id="2876310430327605163" at="139,58,140,72" concept="11" />
+      <node id="2876310430325281464" at="140,72,141,37" concept="12" />
+      <node id="2876310430325859534" at="146,58,147,22" concept="11" />
+      <node id="2876310430325859547" at="148,37,149,63" concept="5" />
+      <node id="2876310430325859575" at="150,12,151,63" concept="5" />
+      <node id="2876310430325859593" at="152,5,153,0" concept="14" />
+      <node id="2876310430325859594" at="153,0,154,41" concept="11" />
+      <node id="2876310430325859599" at="154,41,155,44" concept="5" />
+      <node id="2876310430325859609" at="155,44,156,52" concept="5" />
+      <node id="2876310430325859629" at="156,52,157,40" concept="5" />
+      <node id="2876310430325859639" at="157,40,158,16" concept="12" />
+      <node id="2876310430325848187" at="158,16,159,0" concept="14" />
+      <node id="2876310430327318995" at="163,39,164,48" concept="12" />
+      <node id="2133971169509313110" at="168,87,169,86" concept="11" />
+      <node id="2133971169509313231" at="170,77,171,80" concept="11" />
+      <node id="2133971169509313237" at="171,80,172,31" concept="11" />
+      <node id="2133971169509313243" at="172,31,173,78" concept="11" />
+      <node id="2133971169509313253" at="173,78,174,0" concept="14" />
+      <node id="2133971169509313254" at="174,0,175,95" concept="13" />
+      <node id="2133971169509313268" at="175,95,176,24" concept="11" />
+      <node id="817315285561324882" at="177,30,178,80" concept="5" />
+      <node id="2133971169509313273" at="179,37,180,94" concept="5" />
+      <node id="2133971169509313288" at="181,14,182,108" concept="5" />
+      <node id="2133971169509313298" at="183,7,184,0" concept="14" />
+      <node id="2133971169509313299" at="184,0,185,58" concept="11" />
+      <node id="817315285561840293" at="186,23,187,27" concept="11" />
+      <node id="817315285561840299" at="188,32,189,34" concept="5" />
+      <node id="817315285561840311" at="190,29,191,75" concept="13" />
+      <node id="817315285561840325" at="191,75,192,91" concept="5" />
+      <node id="817315285561840338" at="192,91,193,65" concept="5" />
+      <node id="817315285561840349" at="194,28,195,96" concept="11" />
+      <node id="817315285561840362" at="195,96,196,67" concept="5" />
+      <node id="817315285561840370" at="196,67,197,44" concept="5" />
+      <node id="817315285561840378" at="198,16,199,34" concept="5" />
+      <node id="817315285561840384" at="200,9,201,134" concept="5" />
+      <node id="8310145593775864237" at="46,10,48,5" concept="1" />
+      <node id="2876310430325859568" at="150,10,152,5" concept="1" />
+      <node id="817315285561227655" at="181,12,183,7" concept="1" />
+      <node id="817315285561840376" at="198,14,200,9" concept="1" />
+      <node id="2807401889305682840" at="16,0,19,0" concept="10" trace="createLayouter#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)Lcom/mbeddr/mpsutil/treenotation/runtime/ITreeLayouter;" />
+      <node id="2807401889301372754" at="21,0,24,0" concept="3" trace="CompactTreeLayouter#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)V" />
+      <node id="2876310430327300034" at="162,0,166,0" concept="10" trace="getLevelSpacing#()Ljava/lang/Integer;" />
+      <node id="2807401889305702329" at="15,0,20,0" concept="15" trace="TYPE" />
+      <node id="2876310430325281462" at="137,10,142,5" concept="1" />
+      <node id="2876310430325859540" at="147,22,152,5" concept="9" />
+      <node id="572001432041148370" at="82,65,88,7" concept="9" />
+      <node id="817315285560975268" at="176,24,183,7" concept="9" />
+      <node id="8310145593775864175" at="38,69,48,5" concept="9" />
+      <node id="2876310430320207443" at="108,27,119,7" concept="21" />
+      <node id="2876310430325281439" at="131,55,142,5" concept="9" />
+      <node id="817315285561840297" at="187,27,200,9" concept="9" />
+      <node id="572001432043531331" at="79,83,93,5" concept="1" />
+      <node id="2876310430325256420" at="128,0,144,0" concept="10" trace="getStartPoint#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/awt/geom/Point2D;" />
+      <node id="2876310430325812110" at="145,0,161,0" concept="10" trace="createLine#(Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/Shape;" />
+      <node id="817315285561840291" at="185,58,202,7" concept="9" />
+      <node id="2876310430320207443" at="101,21,120,5" concept="1" />
+      <node id="8310145593775833793" at="25,0,53,0" concept="10" trace="layoutCollapsed#()V" />
+      <node id="2133971169509313229" at="169,86,203,5" concept="7" />
+      <node id="2133971169509076430" at="167,0,205,0" concept="10" trace="ensureSpaceForButtons#(Ljava/util/List;I)V" />
+      <node id="2876310430320207079" at="54,0,127,0" concept="10" trace="layoutOnePass#()V" />
+      <scope id="2807401889305682846" at="16,56,17,43" />
+      <scope id="2807401889301372758" at="21,49,22,20" />
+      <scope id="8310145593775864238" at="46,12,47,62" />
+      <scope id="2876310430325859541" at="148,37,149,63" />
+      <scope id="2876310430325859569" at="150,12,151,63" />
+      <scope id="2876310430327300047" at="163,39,164,48" />
+      <scope id="817315285560975270" at="177,30,178,80" />
+      <scope id="817315285561098651" at="179,37,180,94" />
+      <scope id="817315285561227656" at="181,14,182,108" />
+      <scope id="817315285561840298" at="188,32,189,34" />
+      <scope id="817315285561840377" at="198,16,199,34" />
+      <scope id="2807401889305682840" at="16,0,19,0">
+        <var name="cell" id="2807401889305682841" />
+      </scope>
+      <scope id="2807401889301372754" at="21,0,24,0">
+        <var name="treeCell" id="2807401889301372761" />
+      </scope>
+      <scope id="817315285561840310" at="190,29,193,65" />
+      <scope id="817315285561840348" at="194,28,197,44">
+        <var name="rightMargin" id="817315285561840350" />
+      </scope>
+      <scope id="572001432041148372" at="83,31,87,132">
+        <var name="marginBottom" id="572001432042379670" />
+        <var name="marginTop" id="572001432042188295" />
+        <var name="marginY" id="572001432041484048" />
+      </scope>
+      <scope id="2876310430325281440" at="132,37,136,37">
+        <var name="x" id="2876310430327555965" />
+        <var name="y" id="2876310430327580548" />
+      </scope>
+      <scope id="2876310430325281463" at="137,12,141,37">
+        <var name="x" id="2876310430327605164" />
+        <var name="y" id="2876310430327630056" />
+      </scope>
+      <scope id="2876310430327300034" at="162,0,166,0" />
+      <scope id="8310145593775864176" at="39,29,45,132">
+        <var name="foldButtonBounds" id="8310145593775864178" />
+      </scope>
+      <scope id="2876310430320207443" at="109,91,118,36">
+        <var name="childRoot" id="8310145593776637535" />
+        <var name="childRootBounds" id="8310145593776658756" />
+        <var name="deleteButtonBounds" id="2876310430320207446" />
+      </scope>
+      <scope id="572001432043531333" at="80,5,92,28">
+        <var name="foldButton" id="2876310430320207690" />
+        <var name="rootAndFoldBounds" id="572001432040697207" />
+      </scope>
+      <scope id="2876310430325256433" at="129,52,142,5">
+        <var name="levelSpacing" id="2876310430326595566" />
+        <var name="lineOffset" id="2876310430326073204" />
+      </scope>
+      <scope id="2876310430325812117" at="146,58,159,0">
+        <var name="bendPoint" id="2876310430325859535" />
+        <var name="path" id="2876310430325859595" />
+      </scope>
+      <scope id="817315285561840292" at="186,23,201,134">
+        <var name="leftMargin" id="817315285561840294" />
+      </scope>
+      <scope id="2876310430325256420" at="128,0,144,0">
+        <var name="cell" id="2876310430325256429" />
+      </scope>
+      <scope id="2876310430325812110" at="145,0,161,0">
+        <var name="end" id="2876310430325812113" />
+        <var name="start" id="2876310430325812111" />
+      </scope>
+      <scope id="2876310430320207443" at="102,5,119,7">
+        <var name="childBounds_it" id="2876310430320207481" />
+        <var name="childBounds_var" id="2876310430320207481" />
+        <var name="child_it" id="8310145593776444508" />
+        <var name="child_var" id="8310145593776444508" />
+        <var name="deleteButton_it" id="2876310430320207484" />
+        <var name="deleteButton_var" id="2876310430320207484" />
+      </scope>
+      <scope id="8310145593775833813" at="26,33,51,167">
+        <var name="foldButton" id="8310145593775864158" />
+        <var name="rootAndFoldCenterX" id="8310145593775864164" />
+        <var name="rootBounds" id="8310145593775864050" />
+        <var name="rootCell" id="8310145593775864044" />
+        <var name="transposed" id="8310145593775863977" />
+        <var name="tree" id="8310145593775863959" />
+        <var name="treeBounds" id="8310145593775864037" />
+      </scope>
+      <scope id="8310145593775833793" at="25,0,53,0" />
+      <scope id="2133971169509313230" at="170,77,202,7">
+        <var name="childBounds" id="2133971169509313232" />
+        <var name="childMinWidth" id="2133971169509313269" />
+        <var name="isFirst" id="2133971169509313238" />
+        <var name="isLast" id="2133971169509313244" />
+        <var name="margin" id="2133971169509313300" />
+      </scope>
+      <scope id="2133971169509313229" at="169,86,203,5">
+        <var name="i" id="2133971169509313365" />
+      </scope>
+      <scope id="2133971169509076601" at="168,87,203,5">
+        <var name="overlapInsertButtonWithChildCell" id="2133971169509313111" />
+      </scope>
+      <scope id="2133971169509076430" at="167,0,205,0">
+        <var name="childrenBounds" id="2133971169509076431" />
+        <var name="nodeSpacing" id="2133971169509076434" />
+      </scope>
+      <scope id="2876310430320207082" at="55,31,125,167">
+        <var name="childCells" id="2876310430320207146" />
+        <var name="childrenBounds" id="2876310430320207153" />
+        <var name="childrenX" id="2876310430320207222" />
+        <var name="childrenY" id="2876310430320207228" />
+        <var name="insertButtons" id="2876310430320207168" />
+        <var name="insertButtonsBounds" id="2876310430320207175" />
+        <var name="levelSpacing" id="2876310430320207108" />
+        <var name="nodeSpacing" id="2876310430320207117" />
+        <var name="originalX" id="2876310430320207089" />
+        <var name="originalY" id="2876310430320207095" />
+        <var name="rootBounds" id="2876310430320207139" />
+        <var name="rootCell" id="2876310430320207133" />
+        <var name="transposed" id="2876310430320207102" />
+        <var name="tree" id="2876310430320207084" />
+        <var name="treeBounds" id="2876310430320207126" />
+      </scope>
+      <scope id="2876310430320207079" at="54,0,127,0" />
+      <unit id="2807401889305682837" at="15,48,19,3" name="com.mbeddr.mpsutil.treenotation.runtime.CompactTreeLayouter$1" />
+      <unit id="2807401889300590443" at="14,0,206,0" name="com.mbeddr.mpsutil.treenotation.runtime.CompactTreeLayouter" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/2807401889305643676">
+    <file name="TreeLayoutType.java">
+      <node id="2807401889305643832" at="8,0,9,0" concept="10" trace="createLayouter#(Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)Lcom/mbeddr/mpsutil/treenotation/runtime/ITreeLayouter;" />
+      <scope id="2807401889305643832" at="8,0,9,0">
+        <var name="cell" id="2807401889305643912" />
+      </scope>
+      <unit id="2807401889305643676" at="7,0,10,0" name="com.mbeddr.mpsutil.treenotation.runtime.TreeLayoutType" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/5090237812302517813">
+    <file name="ScaledIcon.java">
+      <node id="5090237812302695196" at="13,81,14,22" concept="12" />
+      <node id="5090237812302680532" at="15,12,16,53" concept="12" />
+      <node id="5090237812302949100" at="20,45,21,22" concept="12" />
+      <node id="5090237812302949115" at="22,12,23,84" concept="12" />
+      <node id="5090237812302519000" at="27,0,28,0" concept="6" trace="myScale" />
+      <node id="5090237812302520808" at="29,0,30,0" concept="6" trace="myUnscaled" />
+      <node id="5090237812302521801" at="31,59,32,26" concept="5" />
+      <node id="5090237812302922439" at="32,26,33,65" concept="11" />
+      <node id="5090237812302922450" at="33,65,34,67" concept="11" />
+      <node id="5090237812302521791" at="34,67,35,39" concept="5" />
+      <node id="5090237812302951221" at="38,50,39,26" concept="5" />
+      <node id="5090237812302951247" at="39,26,40,20" concept="5" />
+      <node id="5090237812302865743" at="44,30,45,79" concept="12" />
+      <node id="5090237812302917871" at="49,29,50,78" concept="12" />
+      <node id="5090237812302543638" at="54,73,55,46" concept="11" />
+      <node id="5090237812302556174" at="56,9,57,24" concept="5" />
+      <node id="5090237812302563871" at="57,24,58,32" concept="5" />
+      <node id="5090237812302624423" at="58,32,59,47" concept="5" />
+      <node id="5090237812302644151" at="60,15,61,18" concept="5" />
+      <node id="5090237812302694404" at="15,10,17,5" concept="1" />
+      <node id="5090237812302949113" at="22,10,24,5" concept="1" />
+      <node id="5090237812302951217" at="38,0,42,0" concept="3" trace="ScaledIcon#(DLjavax/swing/Icon;)V" />
+      <node id="5090237812302517996" at="43,0,47,0" concept="10" trace="getIconHeight#()I" />
+      <node id="5090237812302518001" at="48,0,52,0" concept="10" trace="getIconWidth#()I" />
+      <node id="5090237812302659186" at="12,74,17,5" concept="9" />
+      <node id="5090237812302949098" at="19,63,24,5" concept="9" />
+      <node id="5090237812302521773" at="31,0,37,0" concept="3" trace="ScaledIcon#(IILjavax/swing/Icon;)V" />
+      <node id="5090237812302699672" at="12,0,19,0" concept="16" trace="scaleIfNeeded#(IILjavax/swing/Icon;)Ljavax/swing/Icon;" />
+      <node id="5090237812302949096" at="19,0,26,0" concept="16" trace="scaleIfNeeded#(ILjavax/swing/Icon;)Ljavax/swing/Icon;" />
+      <node id="5090237812302638936" at="55,46,62,5" concept="20" />
+      <node id="5090237812302518006" at="53,0,64,0" concept="10" trace="paintIcon#(Ljava/awt/Component;Ljava/awt/Graphics;II)V" />
+      <scope id="5090237812302659187" at="13,81,14,22" />
+      <scope id="5090237812302694405" at="15,12,16,53" />
+      <scope id="5090237812302949099" at="20,45,21,22" />
+      <scope id="5090237812302949114" at="22,12,23,84" />
+      <scope id="5090237812302518000" at="44,30,45,79" />
+      <scope id="5090237812302518005" at="49,29,50,78" />
+      <scope id="5090237812302638939" at="60,15,61,18" />
+      <scope id="5090237812302951220" at="38,50,40,20" />
+      <scope id="5090237812302638938" at="56,9,59,47" />
+      <scope id="5090237812302521777" at="31,59,35,39">
+        <var name="scaleX" id="5090237812302922440" />
+        <var name="scaleY" id="5090237812302922451" />
+      </scope>
+      <scope id="5090237812302951217" at="38,0,42,0">
+        <var name="scale" id="5090237812302953720" />
+        <var name="unscaled" id="5090237812302951257" />
+      </scope>
+      <scope id="5090237812302517996" at="43,0,47,0" />
+      <scope id="5090237812302518001" at="48,0,52,0" />
+      <scope id="5090237812302651089" at="12,74,17,5" />
+      <scope id="5090237812302949097" at="19,63,24,5" />
+      <scope id="5090237812302521773" at="31,0,37,0">
+        <var name="height" id="5090237812302521780" />
+        <var name="unscaled" id="5090237812302521800" />
+        <var name="width" id="5090237812302521790" />
+      </scope>
+      <scope id="5090237812302699672" at="12,0,19,0">
+        <var name="height" id="5090237812302656498" />
+        <var name="unscaled" id="5090237812302656500" />
+        <var name="width" id="5090237812302656496" />
+      </scope>
+      <scope id="5090237812302949096" at="19,0,26,0">
+        <var name="height" id="5090237812302949123" />
+        <var name="unscaled" id="5090237812302949125" />
+      </scope>
+      <scope id="5090237812302518018" at="54,73,62,5">
+        <var name="g" id="5090237812302543639" />
+      </scope>
+      <scope id="5090237812302518006" at="53,0,64,0">
+        <var name="component" id="5090237812302518010" />
+        <var name="g_" id="5090237812302518012" />
+        <var name="x" id="5090237812302518014" />
+        <var name="y" id="5090237812302518016" />
+      </scope>
+      <unit id="5090237812302517813" at="10,0,65,0" name="com.mbeddr.mpsutil.treenotation.runtime.ScaledIcon" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/5587067268292751470">
+    <file name="AbstractInsertHandler.java">
+      <node id="5587067268292752876" at="8,34,9,30" concept="12" />
+      <node id="5587067268292751558" at="11,25,12,16" concept="12" />
+      <node id="5587067268292751547" at="8,0,11,0" concept="10" trace="getDescription#()Ljava/lang/String;" />
+      <node id="5587067268292751552" at="11,0,14,0" concept="10" trace="getIcon#()Ljavax/swing/Icon;" />
+      <scope id="5587067268292751551" at="8,34,9,30" />
+      <scope id="5587067268292751556" at="11,25,12,16" />
+      <scope id="5587067268292751547" at="8,0,11,0" />
+      <scope id="5587067268292751552" at="11,0,14,0" />
+      <unit id="5587067268292751470" at="7,0,15,0" name="com.mbeddr.mpsutil.treenotation.runtime.AbstractInsertHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/8310145593776811082">
+    <file name="TreeLayoutTypes.java">
+      <node id="8310145593776812708" at="7,0,8,0" concept="15" trace="DEFAULT" />
+      <node id="8310145593776812916" at="8,0,9,0" concept="15" trace="ORTHOGONAL" />
+      <node id="8310145593776814006" at="9,0,10,0" concept="15" trace="COMPACT" />
+      <unit id="8310145593776811082" at="6,0,11,0" name="com.mbeddr.mpsutil.treenotation.runtime.TreeLayoutTypes" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/8348035970510923710">
+    <file name="DefaultInsertHandler.java">
+      <node id="8348035970510932707" at="17,0,18,0" concept="6" trace="koncept" />
+      <node id="8348035970510986042" at="18,0,19,0" concept="6" trace="targetLink" />
+      <node id="8348035970510951078" at="19,0,20,0" concept="6" trace="editorContext" />
+      <node id="8348035970510934714" at="21,115,22,27" concept="5" />
+      <node id="8348035970510988875" at="22,27,23,33" concept="5" />
+      <node id="8348035970510953952" at="23,33,24,39" concept="5" />
+      <node id="8348035970510969681" at="27,43,28,24" concept="12" />
+      <node id="8348035970510975699" at="32,74,33,98" concept="11" />
+      <node id="3653446173675142653" at="34,96,35,66" concept="5" />
+      <node id="8348035970510975709" at="36,12,37,73" concept="5" />
+      <node id="8348035970510962340" at="42,34,43,51" concept="11" />
+      <node id="8348035970510962348" at="44,61,45,38" concept="5" />
+      <node id="8348035970510962357" at="46,5,47,23" concept="12" />
+      <node id="8348035970510941702" at="51,25,52,63" concept="11" />
+      <node id="8348035970510941706" at="52,63,53,137" concept="5" />
+      <node id="8348035970510941719" at="53,137,54,22" concept="12" />
+      <node id="3653446173675148429" at="36,10,38,5" concept="1" />
+      <node id="8348035970510967554" at="27,0,30,0" concept="10" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8348035970510962346" at="43,51,46,5" concept="9" />
+      <node id="8348035970510930788" at="21,0,26,0" concept="3" trace="DefaultInsertHandler#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)V" />
+      <node id="3653446173675062761" at="33,98,38,5" concept="9" />
+      <node id="8348035970510924895" at="50,0,56,0" concept="10" trace="getIcon#()Ljavax/swing/Icon;" />
+      <node id="8348035970510924885" at="41,0,49,0" concept="10" trace="getDescription#()Ljava/lang/String;" />
+      <node id="8348035970510924132" at="31,0,40,0" concept="10" trace="insert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;I)V" />
+      <scope id="8348035970510967557" at="27,43,28,24" />
+      <scope id="3653446173675062763" at="34,96,35,66" />
+      <scope id="3653446173675148430" at="36,12,37,73" />
+      <scope id="8348035970510962347" at="44,61,45,38" />
+      <scope id="8348035970510930792" at="21,115,24,39" />
+      <scope id="8348035970510967554" at="27,0,30,0" />
+      <scope id="8348035970510924901" at="51,25,54,22">
+        <var name="icon" id="8348035970510941703" />
+      </scope>
+      <scope id="8348035970510930788" at="21,0,26,0">
+        <var name="editorContext" id="8348035970510946632" />
+        <var name="koncept" id="8348035970510933322" />
+        <var name="targetLink" id="8348035970510978025" />
+      </scope>
+      <scope id="8348035970510924891" at="42,34,47,23">
+        <var name="description" id="8348035970510962341" />
+      </scope>
+      <scope id="8348035970510924143" at="32,74,38,5">
+        <var name="newChild" id="8348035970510975700" />
+      </scope>
+      <scope id="8348035970510924895" at="50,0,56,0" />
+      <scope id="8348035970510924885" at="41,0,49,0" />
+      <scope id="8348035970510924132" at="31,0,40,0">
+        <var name="editorContext" id="8348035970510924133" />
+        <var name="index" id="8348035970510924137" />
+        <var name="node" id="8348035970510924135" />
+      </scope>
+      <unit id="8348035970510923710" at="16,0,57,0" name="com.mbeddr.mpsutil.treenotation.runtime.DefaultInsertHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/857420770334777519">
+    <file name="DeleteButton.java">
+      <node id="857420770336162452" at="22,0,23,0" concept="6" trace="myCellToDelete" />
+      <node id="857420770334777928" at="24,98,25,31" concept="17" />
+      <node id="857420770336167481" at="25,31,26,34" concept="5" />
+      <node id="6996316882648443256" at="31,44,32,13" concept="12" />
+      <node id="6996316882648443253" at="33,5,34,0" concept="14" />
+      <node id="594207934637475422" at="35,72,36,102" concept="11" />
+      <node id="3073614576444383627" at="40,64,41,50" concept="12" />
+      <node id="3073614576444472314" at="43,10,44,113" concept="5" />
+      <node id="3073614576445084853" at="45,7,46,0" concept="14" />
+      <node id="857420770336200712" at="47,29,48,67" concept="11" />
+      <node id="857420770336206028" at="49,36,50,75" concept="5" />
+      <node id="857420770336213697" at="50,75,51,17" concept="12" />
+      <node id="857420770336219448" at="53,7,54,78" concept="11" />
+      <node id="857420770336225972" at="55,85,56,56" concept="5" />
+      <node id="857420770336241739" at="56,56,57,15" concept="12" />
+      <node id="857420770336247113" at="58,7,59,0" concept="14" />
+      <node id="857420770336244019" at="59,0,60,70" concept="5" />
+      <node id="857420770336242064" at="61,85,62,56" concept="5" />
+      <node id="857420770336242071" at="62,56,63,15" concept="12" />
+      <node id="857420770336235291" at="64,7,65,0" concept="14" />
+      <node id="6996316882648476692" at="71,44,72,13" concept="12" />
+      <node id="6996316882648476689" at="73,5,74,0" concept="14" />
+      <node id="857420770334778900" at="74,0,75,30" concept="11" />
+      <node id="857420770334778904" at="75,30,76,33" concept="11" />
+      <node id="857420770336393377" at="76,33,77,39" concept="5" />
+      <node id="857420770336401749" at="77,39,78,28" concept="5" />
+      <node id="857420770334778910" at="78,28,79,129" concept="5" />
+      <node id="857420770334778932" at="79,129,80,129" concept="5" />
+      <node id="3073614576444531986" at="83,73,84,47" concept="12" />
+      <node id="6996316882648443254" at="30,25,33,5" concept="9" />
+      <node id="6996316882648476690" at="70,44,73,5" concept="9" />
+      <node id="3073614576444531986" at="83,0,86,0" concept="16" trace="as_qkmoa6_a0a1a1a0a0c0f#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="857420770334777922" at="24,0,28,0" concept="3" trace="DeleteButton#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="3073614576444377742" at="39,0,43,0" concept="10" trace="met#(Ljetbrains/mps/openapi/editor/cells/EditorCell_Collection;)Z" />
+      <node id="857420770336201932" at="48,67,52,9" concept="9" />
+      <node id="857420770336221192" at="54,78,58,7" concept="9" />
+      <node id="857420770336242062" at="60,70,64,7" concept="9" />
+      <node id="3073614576444326234" at="37,29,43,10" concept="11" />
+      <node id="857420770336169984" at="46,0,53,7" concept="9" />
+      <node id="3073614576444430942" at="36,102,45,7" concept="9" />
+      <node id="857420770334778894" at="69,0,82,0" concept="10" trace="paintSymbol#(Ljava/awt/Graphics2D;)V" />
+      <node id="857420770334778880" at="34,0,66,7" concept="5" />
+      <node id="857420770334778876" at="29,0,68,0" concept="10" trace="onClick#()V" />
+      <scope id="6996316882648443255" at="31,44,32,13" />
+      <scope id="3073614576444377748" at="40,64,41,50" />
+      <scope id="6996316882648476691" at="71,44,72,13" />
+      <scope id="3073614576444531986" at="83,73,84,47" />
+      <scope id="857420770334777926" at="24,98,26,34" />
+      <scope id="857420770336201934" at="49,36,51,17" />
+      <scope id="857420770336221194" at="55,85,57,15" />
+      <scope id="857420770336242063" at="61,85,63,15" />
+      <scope id="3073614576444531986" at="83,0,86,0">
+        <var name="o" id="3073614576444531986" />
+        <var name="type" id="3073614576444531986" />
+      </scope>
+      <scope id="857420770334777922" at="24,0,28,0">
+        <var name="cellToDelete" id="857420770334784729" />
+        <var name="editorContext" id="857420770334777929" />
+        <var name="node" id="857420770334777934" />
+      </scope>
+      <scope id="3073614576444377742" at="39,0,43,0">
+        <var name="collection" id="3073614576444377746" />
+      </scope>
+      <scope id="857420770336169986" at="47,29,52,9">
+        <var name="deleteHandler" id="857420770336200713" />
+      </scope>
+      <scope id="3073614576444430944" at="37,29,44,113">
+        <var name="condition" id="3073614576444326235" />
+      </scope>
+      <scope id="857420770334778899" at="70,44,80,129">
+        <var name="padding" id="857420770334778905" />
+        <var name="width" id="857420770334778901" />
+      </scope>
+      <scope id="857420770334778894" at="69,0,82,0">
+        <var name="g" id="857420770334778895" />
+      </scope>
+      <scope id="857420770334778882" at="35,72,65,0">
+        <var name="cellAction" id="857420770336219449" />
+        <var name="treeCell" id="594207934637475423" />
+      </scope>
+      <scope id="857420770334778879" at="30,25,66,7" />
+      <scope id="857420770334778876" at="29,0,68,0" />
+      <unit id="3073614576444377727" at="38,57,43,9" name="com.mbeddr.mpsutil.treenotation.runtime.DeleteButton$1" />
+      <unit id="857420770334777519" at="20,0,87,0" name="com.mbeddr.mpsutil.treenotation.runtime.DeleteButton" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/857420770334867859">
+    <file name="InsertButton.java">
+      <node id="857420770334871190" at="32,0,33,0" concept="6" trace="myInsertHandlers" />
+      <node id="857420770334887463" at="33,0,34,0" concept="6" trace="myIndex" />
+      <node id="857420770334917969" at="34,0,35,0" concept="6" trace="myLeftToRight" />
+      <node id="857420770334868278" at="36,182,37,31" concept="17" />
+      <node id="857420770334879049" at="37,31,38,38" concept="5" />
+      <node id="857420770334921221" at="38,38,39,32" concept="5" />
+      <node id="857420770335147856" at="39,32,40,20" concept="5" />
+      <node id="6996316882648283307" at="45,44,46,13" concept="12" />
+      <node id="6996316882648204043" at="47,5,48,0" concept="14" />
+      <node id="5587067268291105643" at="49,60,50,0" concept="14" />
+      <node id="857420770334869349" at="54,36,55,100" concept="5" />
+      <node id="5587067268292256677" at="64,40,65,65" concept="5" />
+      <node id="6549990118944208298" at="67,13,68,55" concept="12" />
+      <node id="6549990118941982626" at="70,8,71,90" concept="11" />
+      <node id="6549990118941905623" at="71,90,72,53" concept="5" />
+      <node id="6996316882648468286" at="78,44,79,13" concept="12" />
+      <node id="6996316882648448983" at="80,5,81,0" concept="14" />
+      <node id="857420770334869367" at="81,0,82,30" concept="11" />
+      <node id="857420770334869371" at="82,30,83,33" concept="11" />
+      <node id="857420770336432306" at="83,33,84,37" concept="5" />
+      <node id="857420770334928404" at="85,33,86,125" concept="5" />
+      <node id="857420770334928426" at="86,125,87,139" concept="5" />
+      <node id="857420770334869377" at="88,12,89,125" concept="5" />
+      <node id="857420770334869399" at="89,125,90,138" concept="5" />
+      <node id="6549990118944123179" at="96,65,97,46" concept="17" />
+      <node id="2335592673640421263" at="102,51,103,40" concept="12" />
+      <node id="5587067268292689997" at="107,49,108,33" concept="11" />
+      <node id="5587067268292938766" at="109,25,110,39" concept="5" />
+      <node id="5587067268292943774" at="111,14,112,44" concept="5" />
+      <node id="5587067268292923497" at="113,7,114,18" concept="12" />
+      <node id="2335592673657668392" at="119,0,120,0" concept="6" trace="myHandler" />
+      <node id="2335592673657675858" at="121,50,122,26" concept="5" />
+      <node id="2335592673657615074" at="125,32,126,16" concept="12" />
+      <node id="2335592673657615298" at="129,31,130,16" concept="12" />
+      <node id="2335592673657616085" at="133,75,134,29" concept="11" />
+      <node id="2335592673657616089" at="134,29,135,30" concept="11" />
+      <node id="2335592673657616123" at="135,30,136,69" concept="11" />
+      <node id="2335592673657616142" at="136,69,137,0" concept="14" />
+      <node id="5587067268291162512" at="137,0,138,48" concept="11" />
+      <node id="2335592673657616180" at="139,11,140,34" concept="5" />
+      <node id="2335592673657616188" at="140,34,141,23" concept="5" />
+      <node id="2335592673657616193" at="141,23,142,33" concept="5" />
+      <node id="2335592673657616201" at="142,33,143,43" concept="5" />
+      <node id="2335592673657616208" at="143,43,144,23" concept="5" />
+      <node id="2335592673657616213" at="144,23,145,34" concept="5" />
+      <node id="5587067268291311279" at="145,34,146,0" concept="14" />
+      <node id="5587067268291706014" at="146,0,147,49" concept="11" />
+      <node id="5587067268291850070" at="148,27,149,20" concept="5" />
+      <node id="5587067268291995679" at="151,32,152,38" concept="5" />
+      <node id="5587067268291559109" at="153,9,154,34" concept="5" />
+      <node id="5587067268291167549" at="155,17,156,20" concept="5" />
+      <node id="7219876775255004625" at="160,73,161,47" concept="11" />
+      <node id="7219876775254883882" at="161,47,162,155" concept="5" />
+      <node id="4717906927468711780" at="162,155,163,46" concept="5" />
+      <node id="4717906927473713152" at="163,46,164,51" concept="11" />
+      <node id="4717906927473715100" at="164,51,165,70" concept="11" />
+      <node id="4717906927473793966" at="165,70,166,48" concept="5" />
+      <node id="4717906927473716880" at="166,48,167,106" concept="5" />
+      <node id="4717906927473759351" at="167,106,168,62" concept="5" />
+      <node id="4717906927468701106" at="168,62,169,37" concept="5" />
+      <node id="5587067268292941610" at="111,12,113,7" concept="1" />
+      <node id="6996316882648214673" at="44,41,47,5" concept="9" />
+      <node id="6996316882648468284" at="77,44,80,5" concept="9" />
+      <node id="857420770334926961" at="88,10,91,5" concept="1" />
+      <node id="6549990118944093750" at="96,0,99,0" concept="3" trace="ConnectionTypePopupStep#(Ljava/util/List;)V" />
+      <node id="2335592673657675850" at="121,0,124,0" concept="3" trace="FirstCharIcon#(Lcom/mbeddr/mpsutil/treenotation/runtime/IInsertHandler;)V" />
+      <node id="2335592673657614578" at="125,0,128,0" concept="10" trace="getIconHeight#()I" />
+      <node id="2335592673657614583" at="129,0,132,0" concept="10" trace="getIconWidth#()I" />
+      <node id="5587067268291795742" at="147,49,150,9" concept="9" />
+      <node id="5587067268291915738" at="150,9,153,9" concept="9" />
+      <node id="8118176004735023883" at="53,0,57,0" concept="10" trace="doExecute#()V" />
+      <node id="8118176004735038880" at="63,0,67,0" concept="10" trace="doExecute#()V" />
+      <node id="2335592673640376924" at="100,0,105,0" concept="10" trace="getTextFor#(Lcom/mbeddr/mpsutil/treenotation/runtime/IInsertHandler;)Ljava/lang/String;" />
+      <node id="5587067268292931523" at="108,33,113,7" concept="9" />
+      <node id="857420770334868272" at="36,0,42,0" concept="3" trace="InsertButton#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;ILjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P0_E0;)V" />
+      <node id="8118176004734949977" at="51,70,57,9" concept="5" />
+      <node id="8118176004735038868" at="61,93,67,13" concept="5" />
+      <node id="857420770334924837" at="84,37,91,5" concept="9" />
+      <node id="6549990118944208281" at="60,0,70,0" concept="10" trace="onChosen#(Lcom/mbeddr/mpsutil/treenotation/runtime/IInsertHandler;Z)Lcom/intellij/openapi/ui/popup/PopupStep;" />
+      <node id="2335592673645263108" at="106,0,116,0" concept="10" trace="getIconFor#(Lcom/mbeddr/mpsutil/treenotation/runtime/IInsertHandler;)Ljavax/swing/Icon;" />
+      <node id="5587067268291313362" at="160,0,171,0" concept="10" trace="drawText#(Ljava/awt/Graphics2D;Ljava/lang/String;Ljava/awt/geom/Rectangle2D;)V" />
+      <node id="6549990118942262825" at="58,12,70,8" concept="11" />
+      <node id="5587067268291117731" at="58,10,73,5" concept="1" />
+      <node id="857420770334869361" at="76,0,93,0" concept="10" trace="paintSymbol#(Ljava/awt/Graphics2D;)V" />
+      <node id="5587067268291157180" at="138,48,157,7" concept="20" />
+      <node id="5587067268291105642" at="48,0,73,5" concept="9" />
+      <node id="2335592673657614588" at="133,0,159,0" concept="10" trace="paintIcon#(Ljava/awt/Component;Ljava/awt/Graphics;II)V" />
+      <node id="857420770334869342" at="43,0,75,0" concept="10" trace="onClick#(Ljava/awt/event/MouseEvent;)V" />
+      <scope id="6996316882648214675" at="45,44,46,13" />
+      <scope id="5587067268291105644" at="49,60,50,0" />
+      <scope id="8118176004735023887" at="54,36,55,100" />
+      <scope id="8118176004735038883" at="64,40,65,65" />
+      <scope id="6996316882648468285" at="78,44,79,13" />
+      <scope id="6549990118944093754" at="96,65,97,46" />
+      <scope id="2335592673640376932" at="102,51,103,40" />
+      <scope id="5587067268292931525" at="109,25,110,39" />
+      <scope id="5587067268292941611" at="111,14,112,44" />
+      <scope id="2335592673657675854" at="121,50,122,26" />
+      <scope id="2335592673657614582" at="125,32,126,16" />
+      <scope id="2335592673657614587" at="129,31,130,16" />
+      <scope id="5587067268291795744" at="148,27,149,20" />
+      <scope id="5587067268291915740" at="151,32,152,38" />
+      <scope id="5587067268291157183" at="155,17,156,20" />
+      <scope id="857420770334924839" at="85,33,87,139" />
+      <scope id="857420770334926962" at="88,12,90,138" />
+      <scope id="6549990118944093750" at="96,0,99,0">
+        <var name="values" id="6549990118944093762" />
+      </scope>
+      <scope id="2335592673657675850" at="121,0,124,0">
+        <var name="handler" id="2335592673657675857" />
+      </scope>
+      <scope id="2335592673657614578" at="125,0,128,0" />
+      <scope id="2335592673657614583" at="129,0,132,0" />
+      <scope id="857420770334868276" at="36,182,40,20" />
+      <scope id="8118176004735023883" at="53,0,57,0" />
+      <scope id="8118176004735038880" at="63,0,67,0" />
+      <scope id="2335592673640376924" at="100,0,105,0">
+        <var name="type" id="2335592673640376928" />
+      </scope>
+      <scope id="857420770334868272" at="36,0,42,0">
+        <var name="editorContext" id="857420770334868279" />
+        <var name="index" id="857420770334882698" />
+        <var name="insertHandlers" id="857420770334873095" />
+        <var name="leftToRight" id="857420770334916361" />
+        <var name="node" id="857420770334868284" />
+      </scope>
+      <scope id="5587067268291111291" at="51,70,57,9" />
+      <scope id="6549990118944208293" at="61,93,68,55" />
+      <scope id="2335592673645263115" at="107,49,114,18">
+        <var name="icon" id="5587067268292689998" />
+      </scope>
+      <scope id="5587067268291313366" at="160,73,169,37">
+        <var name="fontMetrics" id="4717906927473713153" />
+        <var name="padding" id="7219876775255004626" />
+        <var name="stringBounds" id="4717906927473715101" />
+      </scope>
+      <scope id="6549990118944208281" at="60,0,70,0">
+        <var name="finalChoice" id="6549990118944208287" />
+        <var name="selected" id="6549990118944208285" />
+      </scope>
+      <scope id="2335592673645263108" at="106,0,116,0">
+        <var name="type" id="2335592673645263112" />
+      </scope>
+      <scope id="5587067268291313362" at="160,0,171,0">
+        <var name="bounds" id="5587067268291317232" />
+        <var name="g" id="5587067268291319849" />
+        <var name="text" id="5587067268291316260" />
+      </scope>
+      <scope id="5587067268291117732" at="58,12,72,53">
+        <var name="createListPopup" id="6549990118941982627" />
+        <var name="popupStep" id="6549990118942262826" />
+      </scope>
+      <scope id="857420770334869366" at="77,44,91,5">
+        <var name="padding" id="857420770334869372" />
+        <var name="width" id="857420770334869368" />
+      </scope>
+      <scope id="5587067268291157182" at="139,11,154,34">
+        <var name="text" id="5587067268291706015" />
+      </scope>
+      <scope id="857420770334869361" at="76,0,93,0">
+        <var name="g" id="857420770334869362" />
+      </scope>
+      <scope id="2335592673657614600" at="133,75,157,7">
+        <var name="bounds" id="2335592673657616124" />
+        <var name="g" id="5587067268291162513" />
+        <var name="h" id="2335592673657616090" />
+        <var name="w" id="2335592673657616086" />
+      </scope>
+      <scope id="2335592673657614588" at="133,0,159,0">
+        <var name="component" id="2335592673657614592" />
+        <var name="g_" id="2335592673657614594" />
+        <var name="x" id="2335592673657614596" />
+        <var name="y" id="2335592673657614598" />
+      </scope>
+      <scope id="857420770334869345" at="44,41,73,5" />
+      <scope id="857420770334869342" at="43,0,75,0">
+        <var name="event" id="5587067268292345595" />
+      </scope>
+      <unit id="8118176004735023790" at="52,71,57,7" name="com.mbeddr.mpsutil.treenotation.runtime.InsertButton$1" />
+      <unit id="8118176004735038878" at="62,75,67,11" name="com.mbeddr.mpsutil.treenotation.runtime.InsertButton$2$1" />
+      <unit id="6549990118944174576" at="59,56,70,7" name="com.mbeddr.mpsutil.treenotation.runtime.InsertButton$2" />
+      <unit id="6549990118944086683" at="94,0,117,0" name="com.mbeddr.mpsutil.treenotation.runtime.InsertButton$ConnectionTypePopupStep" />
+      <unit id="2335592673657610443" at="118,0,172,0" name="com.mbeddr.mpsutil.treenotation.runtime.InsertButton$FirstCharIcon" />
+      <unit id="857420770334867859" at="30,0,174,0" name="com.mbeddr.mpsutil.treenotation.runtime.InsertButton" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/857420770336542345">
+    <file name="FoldButton.java">
+      <node id="857420770336543109" at="14,0,15,0" concept="6" trace="myCellToFold" />
+      <node id="857420770336543117" at="16,92,17,31" concept="17" />
+      <node id="857420770336543120" at="17,31,18,30" concept="5" />
+      <node id="857420770336549001" at="22,25,23,69" concept="5" />
+      <node id="857420770336543243" at="27,44,28,30" concept="11" />
+      <node id="857420770336543247" at="28,30,29,33" concept="11" />
+      <node id="857420770336597190" at="29,33,30,0" concept="14" />
+      <node id="857420770336543260" at="30,0,31,29" concept="5" />
+      <node id="857420770337098798" at="31,29,32,39" concept="5" />
+      <node id="857420770336896258" at="33,41,34,17" concept="13" />
+      <node id="857420770336543265" at="34,17,35,132" concept="5" />
+      <node id="857420770336898513" at="36,5,37,17" concept="13" />
+      <node id="857420770336543287" at="37,17,38,131" concept="5" />
+      <node id="3649115372189720681" at="42,29,43,39" concept="11" />
+      <node id="3649115372189723809" at="44,41,45,40" concept="5" />
+      <node id="3649115372189729532" at="46,5,47,19" concept="12" />
+      <node id="6996316882649047053" at="51,40,52,16" concept="12" />
+      <node id="3649115372189721795" at="43,39,46,5" concept="9" />
+      <node id="857420770336543113" at="16,0,20,0" concept="3" trace="FoldButton#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;)V" />
+      <node id="857420770336543132" at="21,0,25,0" concept="10" trace="onClick#()V" />
+      <node id="857420770337133707" at="32,39,36,5" concept="9" />
+      <node id="6996316882649021286" at="50,0,54,0" concept="10" trace="drawWhenReadonly#()Z" />
+      <node id="3649115372189517658" at="41,0,49,0" concept="10" trace="getOpacity#()F" />
+      <node id="857420770336543237" at="26,0,40,0" concept="10" trace="paintSymbol#(Ljava/awt/Graphics2D;)V" />
+      <scope id="857420770336543135" at="22,25,23,69" />
+      <scope id="3649115372189721797" at="44,41,45,40" />
+      <scope id="6996316882649021292" at="51,40,52,16" />
+      <scope id="857420770336543116" at="16,92,18,30" />
+      <scope id="857420770337133709" at="33,41,35,132" />
+      <scope id="857420770336543113" at="16,0,20,0">
+        <var name="cellToFold" id="857420770336543129" />
+        <var name="editorContext" id="857420770336543124" />
+        <var name="node" id="857420770336543127" />
+      </scope>
+      <scope id="857420770336543132" at="21,0,25,0" />
+      <scope id="6996316882649021286" at="50,0,54,0" />
+      <scope id="3649115372189517664" at="42,29,47,19">
+        <var name="opacity" id="3649115372189720682" />
+      </scope>
+      <scope id="3649115372189517658" at="41,0,49,0" />
+      <scope id="857420770336543242" at="27,44,38,131">
+        <var name="padding" id="857420770336543248" />
+        <var name="width" id="857420770336543244" />
+      </scope>
+      <scope id="857420770336543237" at="26,0,40,0">
+        <var name="g" id="857420770336543238" />
+      </scope>
+      <unit id="857420770336542345" at="13,0,55,0" name="com.mbeddr.mpsutil.treenotation.runtime.FoldButton" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/8796347991406690854">
+    <file name="EditorCellExtensions.java">
+      <node id="8796347991406692081" at="11,59,12,90" concept="12" />
+      <node id="8796347991406690854" at="9,0,11,0" concept="3" trace="EditorCellExtensions#()V" />
+      <node id="8796347991406690938" at="11,0,14,0" concept="16" trace="getRect#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/awt/Rectangle;" />
+      <scope id="8796347991406690854" at="9,33,9,33" />
+      <scope id="8796347991406690940" at="11,59,12,90" />
+      <scope id="8796347991406690854" at="9,0,11,0" />
+      <scope id="8796347991406690938" at="11,0,14,0">
+        <var name="_this" id="8796347991406690938" />
+      </scope>
+      <unit id="8796347991406690854" at="8,0,15,0" name="com.mbeddr.mpsutil.treenotation.runtime.EditorCellExtensions" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/8877288515758379382">
+    <file name="Button.java">
+      <node id="2133971169469347526" at="24,0,25,0" concept="15" trace="BUTTON_SIZE" />
+      <node id="2133971169474077893" at="25,0,26,0" concept="15" trace="BUTTON_HALF_SIZE" />
+      <node id="8877288515758510385" at="27,0,28,0" concept="6" trace="myOpacity" />
+      <node id="8877288515758529174" at="29,67,30,31" concept="17" />
+      <node id="8877288515759442721" at="30,31,31,24" concept="5" />
+      <node id="6996316882648973288" at="37,40,38,17" concept="12" />
+      <node id="6996316882648803939" at="42,69,43,13" concept="12" />
+      <node id="6996316882648810315" at="44,5,45,0" concept="14" />
+      <node id="3649115372189515402" at="45,0,46,33" concept="11" />
+      <node id="8877288515758514363" at="47,25,48,48" concept="11" />
+      <node id="6591520399225494227" at="48,48,49,94" concept="5" />
+      <node id="8877288515758519317" at="50,11,51,86" concept="5" />
+      <node id="8877288515758535681" at="51,86,52,100" concept="11" />
+      <node id="8877288515758541151" at="52,100,53,0" concept="14" />
+      <node id="8877288515758543597" at="53,0,54,35" concept="5" />
+      <node id="8877288515758532164" at="54,35,55,24" concept="5" />
+      <node id="8877288515758545079" at="55,24,56,0" concept="14" />
+      <node id="8877288515758546444" at="56,0,57,35" concept="5" />
+      <node id="8877288515759559099" at="57,35,58,44" concept="5" />
+      <node id="8877288515758549064" at="59,30,60,26" concept="5" />
+      <node id="8877288515759544359" at="61,9,62,24" concept="5" />
+      <node id="8877288515758517593" at="63,17,64,21" concept="5" />
+      <node id="8877288515758776271" at="73,33,74,26" concept="5" />
+      <node id="8877288515758778902" at="74,26,75,27" concept="5" />
+      <node id="8877288515758572228" at="79,31,80,26" concept="5" />
+      <node id="8877288515759472556" at="80,26,81,75" concept="11" />
+      <node id="8877288515759481822" at="81,75,82,112" concept="13" />
+      <node id="8877288515759483295" at="82,112,83,52" concept="13" />
+      <node id="8877288515759470517" at="83,52,84,93" concept="5" />
+      <node id="3649115372189513033" at="88,29,89,21" concept="12" />
+      <node id="8877288515758556423" at="93,23,94,18" concept="5" />
+      <node id="8877288515758558799" at="94,18,95,44" concept="5" />
+      <node id="8877288515758559962" at="99,26,100,47" concept="5" />
+      <node id="8877288515758559960" at="100,47,101,21" concept="5" />
+      <node id="5587067268292355076" at="108,41,109,14" concept="5" />
+      <node id="8877288515759533954" at="69,0,71,0" concept="10" trace="paintSymbol#(Ljava/awt/Graphics2D;)V" />
+      <node id="8877288515759520110" at="33,0,36,0" concept="10" trace="paintSelectionIfRequired#(Ljava/awt/Graphics;Ljetbrains/mps/nodeEditor/cells/ParentSettings;)V" />
+      <node id="6996316882648964200" at="37,0,40,0" concept="10" trace="drawWhenReadonly#()Z" />
+      <node id="6996316882648803937" at="41,68,44,5" concept="9" />
+      <node id="857420770334670410" at="58,44,61,9" concept="9" />
+      <node id="3649115372189503015" at="88,0,91,0" concept="10" trace="getOpacity#()F" />
+      <node id="8877288515759136564" at="104,0,107,0" concept="10" trace="onClick#()V" />
+      <node id="5587067268292350149" at="108,0,111,0" concept="10" trace="onClick#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="8877288515758529168" at="29,0,33,0" concept="3" trace="Button#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8877288515758773817" at="72,0,77,0" concept="10" trace="relayoutImpl#()V" />
+      <node id="8877288515758556416" at="92,0,97,0" concept="10" trace="onAdd#()V" />
+      <node id="8877288515758559956" at="98,0,103,0" concept="10" trace="onRemove#()V" />
+      <node id="8877288515758686073" at="78,41,85,5" concept="9" />
+      <node id="8877288515758564705" at="78,0,87,0" concept="10" trace="setOpacity#(F)V" />
+      <node id="8877288515758516620" at="49,94,65,7" concept="20" />
+      <node id="8877288515758524487" at="46,33,66,5" concept="9" />
+      <node id="8877288515758379612" at="41,0,68,0" concept="10" trace="paintContent#(Ljava/awt/Graphics;Ljetbrains/mps/nodeEditor/cells/ParentSettings;)V" />
+      <scope id="8877288515759520118" at="34,87,34,87" />
+      <scope id="8877288515759533958" at="69,44,69,44" />
+      <scope id="8877288515759136568" at="105,25,105,25" />
+      <scope id="6996316882648964203" at="37,40,38,17" />
+      <scope id="6996316882648803938" at="42,69,43,13" />
+      <scope id="857420770334670412" at="59,30,60,26" />
+      <scope id="8877288515758516623" at="63,17,64,21" />
+      <scope id="3649115372189503019" at="88,29,89,21" />
+      <scope id="5587067268292350152" at="108,41,109,14" />
+      <scope id="8877288515758529172" at="29,67,31,24" />
+      <scope id="8877288515759533954" at="69,0,71,0">
+        <var name="g" id="8877288515759540713" />
+      </scope>
+      <scope id="8877288515758773821" at="73,33,75,27" />
+      <scope id="8877288515758556420" at="93,23,95,44" />
+      <scope id="8877288515758559959" at="99,26,101,21" />
+      <scope id="8877288515759520110" at="33,0,36,0">
+        <var name="graphics" id="8877288515759520114" />
+        <var name="settings" id="8877288515759520116" />
+      </scope>
+      <scope id="6996316882648964200" at="37,0,40,0" />
+      <scope id="3649115372189503015" at="88,0,91,0" />
+      <scope id="8877288515759136564" at="104,0,107,0" />
+      <scope id="5587067268292350149" at="108,0,111,0">
+        <var name="event" id="5587067268292351847" />
+      </scope>
+      <scope id="8877288515758529168" at="29,0,33,0">
+        <var name="editorContext" id="8877288515758529175" />
+        <var name="node" id="8877288515758529180" />
+      </scope>
+      <scope id="8877288515758773817" at="72,0,77,0" />
+      <scope id="8877288515758686075" at="79,31,84,93">
+        <var name="component" id="8877288515759472557" />
+      </scope>
+      <scope id="8877288515758556416" at="92,0,97,0" />
+      <scope id="8877288515758559956" at="98,0,103,0" />
+      <scope id="8877288515758564709" at="78,41,85,5" />
+      <scope id="8877288515758564705" at="78,0,87,0">
+        <var name="opacity" id="8877288515758569639" />
+      </scope>
+      <scope id="8877288515758516622" at="50,11,62,24">
+        <var name="bounds" id="8877288515758535682" />
+      </scope>
+      <scope id="8877288515758524489" at="47,25,65,7">
+        <var name="g2" id="8877288515758514364" />
+      </scope>
+      <scope id="8877288515758379620" at="41,68,66,5">
+        <var name="opacity" id="3649115372189515403" />
+      </scope>
+      <scope id="8877288515758379612" at="41,0,68,0">
+        <var name="g" id="8877288515758379616" />
+        <var name="settings" id="8877288515758379618" />
+      </scope>
+      <unit id="8877288515758379382" at="22,0,112,0" name="com.mbeddr.mpsutil.treenotation.runtime.Button" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/8877288515758380405">
+    <file name="ButtonsMouseListener.java">
+      <node id="8877288515758384762" at="19,0,20,0" concept="15" trace="KEY" />
+      <node id="3732365408180453274" at="20,0,21,0" concept="15" trace="TREE_BUTTON_OPACITY" />
+      <node id="8877288515758591540" at="23,48,24,84" concept="11" />
+      <node id="8877288515758385531" at="24,84,25,121" concept="11" />
+      <node id="8877288515758391459" at="26,27,27,44" concept="5" />
+      <node id="8877288515758505490" at="27,44,28,55" concept="5" />
+      <node id="8877288515758458943" at="28,55,29,49" concept="5" />
+      <node id="8877288515758467648" at="29,49,30,55" concept="5" />
+      <node id="8877288515758483362" at="31,5,32,61" concept="5" />
+      <node id="8877288515758598922" at="35,51,36,84" concept="11" />
+      <node id="8877288515758479048" at="36,84,37,121" concept="11" />
+      <node id="8877288515758487490" at="38,27,39,66" concept="5" />
+      <node id="8877288515758498545" at="40,62,41,53" concept="5" />
+      <node id="8877288515758479064" at="41,53,42,54" concept="5" />
+      <node id="8877288515758479069" at="42,54,43,60" concept="5" />
+      <node id="8877288515758475012" at="48,0,49,0" concept="6" trace="myButtons" />
+      <node id="8877288515758628960" at="53,54,54,165" concept="12" />
+      <node id="8877288515758669086" at="57,46,58,35" concept="11" />
+      <node id="8877288515759142773" at="59,23,60,26" concept="5" />
+      <node id="8877288515759496001" at="60,26,61,22" concept="5" />
+      <node id="8877288515758676921" at="71,45,72,73" concept="5" />
+      <node id="857420770336474921" at="76,44,77,42" concept="11" />
+      <node id="8877288515758750945" at="78,58,79,27" concept="11" />
+      <node id="8796347991406726313" at="80,34,81,22" concept="5" />
+      <node id="8796347991406620884" at="82,14,83,56" concept="11" />
+      <node id="3732365408181411666" at="84,35,85,24" concept="5" />
+      <node id="3732365408180481576" at="86,16,87,140" concept="11" />
+      <node id="3732365408181428596" at="89,88,90,28" concept="5" />
+      <node id="3732365408180769236" at="92,18,93,53" concept="11" />
+      <node id="3732365408181036397" at="93,53,94,53" concept="11" />
+      <node id="3732365408180728279" at="94,53,95,59" concept="11" />
+      <node id="3732365408181446082" at="95,59,96,55" concept="5" />
+      <node id="3732365408181595208" at="97,32,98,28" concept="5" />
+      <node id="3732365408181609534" at="100,32,101,28" concept="5" />
+      <node id="4168935471886839404" at="106,38,107,22" concept="5" />
+      <node id="8877288515758746382" at="108,7,109,43" concept="5" />
+      <node id="8796347991406587135" at="113,52,114,25" concept="11" />
+      <node id="8796347991406601073" at="116,41,117,37" concept="5" />
+      <node id="8796347991406604011" at="119,5,120,16" concept="12" />
+      <node id="8877288515758385533" at="122,66,123,47" concept="12" />
+      <node id="8877288515758479051" at="125,66,126,47" concept="12" />
+      <node id="8877288515758454984" at="50,0,52,0" concept="3" trace="ButtonsMouseListener#()V" />
+      <node id="8877288515758506831" at="65,0,67,0" concept="10" trace="mousePressed#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="8877288515758506838" at="67,0,69,0" concept="10" trace="mouseReleased#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="8877288515758506845" at="69,0,71,0" concept="10" trace="mouseEntered#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="8877288515758506859" at="74,0,76,0" concept="10" trace="mouseDragged#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="8877288515758612244" at="53,0,56,0" concept="10" trace="getCellAt#(Ljava/awt/event/MouseEvent;)Lcom/mbeddr/mpsutil/treenotation/runtime/Button;" />
+      <node id="8877288515758506852" at="71,0,74,0" concept="10" trace="mouseExited#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="3732365408181425851" at="88,40,91,13" concept="9" />
+      <node id="3732365408181587093" at="96,55,99,13" concept="9" />
+      <node id="3732365408181601474" at="99,13,102,13" concept="9" />
+      <node id="4168935471886823348" at="105,7,108,7" concept="9" />
+      <node id="8796347991406597982" at="115,89,118,7" concept="9" />
+      <node id="8877288515758385533" at="122,0,125,0" concept="16" trace="as_w10wuk_a0a1a4#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="8877288515758479051" at="125,0,128,0" concept="16" trace="as_w10wuk_a0a1a6#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="8877288515758670338" at="58,35,62,5" concept="9" />
+      <node id="8877288515758492305" at="39,66,44,7" concept="9" />
+      <node id="8796347991406589627" at="114,25,119,5" concept="7" />
+      <node id="8877288515758386789" at="25,121,31,5" concept="9" />
+      <node id="8877288515758506824" at="57,0,64,0" concept="10" trace="mouseClicked#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="8877288515758479057" at="37,121,45,5" concept="9" />
+      <node id="8796347991406559713" at="113,0,122,0" concept="10" trace="getRootTreeCell#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Lcom/mbeddr/mpsutil/treenotation/runtime/TreeCell;" />
+      <node id="8877288515758480695" at="23,0,34,0" concept="16" trace="registerCell#(Lcom/mbeddr/mpsutil/treenotation/runtime/Button;)V" />
+      <node id="3732365408181425174" at="92,16,103,11" concept="1" />
+      <node id="8877288515758481078" at="35,0,47,0" concept="16" trace="unregisterUsage#(Lcom/mbeddr/mpsutil/treenotation/runtime/Button;)V" />
+      <node id="3732365408181421350" at="87,140,103,11" concept="9" />
+      <node id="3732365408181416288" at="86,14,104,9" concept="1" />
+      <node id="3732365408181396764" at="83,56,104,9" concept="9" />
+      <node id="8796347991406709022" at="82,12,105,7" concept="1" />
+      <node id="8796347991406698042" at="79,27,105,7" concept="9" />
+      <node id="8877288515758702740" at="77,42,110,5" concept="8" />
+      <node id="8877288515758506867" at="76,0,112,0" concept="10" trace="mouseMoved#(Ljava/awt/event/MouseEvent;)V" />
+      <scope id="8877288515758454988" at="50,33,50,33" />
+      <scope id="8877288515758506837" at="65,46,65,46" />
+      <scope id="8877288515758506844" at="67,47,67,47" />
+      <scope id="8877288515758506851" at="69,46,69,46" />
+      <scope id="8877288515758506866" at="74,46,74,46" />
+      <scope id="8877288515758612248" at="53,54,54,165" />
+      <scope id="8877288515758506858" at="71,45,72,73" />
+      <scope id="8796347991406698044" at="80,34,81,22" />
+      <scope id="3732365408181396766" at="84,35,85,24" />
+      <scope id="3732365408181425853" at="89,88,90,28" />
+      <scope id="3732365408181587095" at="97,32,98,28" />
+      <scope id="3732365408181601476" at="100,32,101,28" />
+      <scope id="4168935471886823350" at="106,38,107,22" />
+      <scope id="8796347991406597984" at="116,41,117,37" />
+      <scope id="8877288515758385533" at="122,66,123,47" />
+      <scope id="8877288515758479051" at="125,66,126,47" />
+      <scope id="8877288515758454984" at="50,0,52,0" />
+      <scope id="8877288515758670340" at="59,23,61,22" />
+      <scope id="8877288515758506831" at="65,0,67,0">
+        <var name="event" id="8877288515758506835" />
+      </scope>
+      <scope id="8877288515758506838" at="67,0,69,0">
+        <var name="event" id="8877288515758506842" />
+      </scope>
+      <scope id="8877288515758506845" at="69,0,71,0">
+        <var name="event" id="8877288515758506849" />
+      </scope>
+      <scope id="8877288515758506859" at="74,0,76,0">
+        <var name="event" id="8877288515758506863" />
+      </scope>
+      <scope id="8877288515758492307" at="40,62,43,60" />
+      <scope id="8877288515758612244" at="53,0,56,0">
+        <var name="event" id="8877288515758619844" />
+      </scope>
+      <scope id="8877288515758506852" at="71,0,74,0">
+        <var name="event" id="8877288515758506856" />
+      </scope>
+      <scope id="3732365408181421352" at="88,40,91,13" />
+      <scope id="8796347991406589629" at="115,89,118,7" />
+      <scope id="8877288515758385533" at="122,0,125,0">
+        <var name="o" id="8877288515758385533" />
+        <var name="type" id="8877288515758385533" />
+      </scope>
+      <scope id="8877288515758479051" at="125,0,128,0">
+        <var name="o" id="8877288515758479051" />
+        <var name="type" id="8877288515758479051" />
+      </scope>
+      <scope id="8877288515758386791" at="26,27,30,55" />
+      <scope id="8877288515758506830" at="57,46,62,5">
+        <var name="cell" id="8877288515758669087" />
+      </scope>
+      <scope id="8796347991406589627" at="114,25,119,5">
+        <var name="ancestor" id="8796347991406589630" />
+      </scope>
+      <scope id="8877288515758479058" at="38,27,44,7" />
+      <scope id="8877288515758506824" at="57,0,64,0">
+        <var name="event" id="8877288515758506828" />
+      </scope>
+      <scope id="8796347991406559717" at="113,52,120,16">
+        <var name="root" id="8796347991406587136" />
+      </scope>
+      <scope id="8877288515758380560" at="23,48,32,61">
+        <var name="editorComponent" id="8877288515758591541" />
+        <var name="instance" id="8877288515758385532" />
+      </scope>
+      <scope id="8796347991406559713" at="113,0,122,0">
+        <var name="cell" id="8796347991406581901" />
+      </scope>
+      <scope id="8877288515758479047" at="35,51,45,5">
+        <var name="editorComponent" id="8877288515758598923" />
+        <var name="instance" id="8877288515758479049" />
+      </scope>
+      <scope id="3732365408181425175" at="92,18,102,13">
+        <var name="dX" id="3732365408180769239" />
+        <var name="dY" id="3732365408181036400" />
+        <var name="distance" id="3732365408180728282" />
+      </scope>
+      <scope id="8877288515758480695" at="23,0,34,0">
+        <var name="cell" id="8877288515758588231" />
+      </scope>
+      <scope id="8877288515758481078" at="35,0,47,0">
+        <var name="cell" id="8877288515758598588" />
+      </scope>
+      <scope id="3732365408181416289" at="86,16,103,11">
+        <var name="opacityFunction" id="3732365408180481577" />
+      </scope>
+      <scope id="8796347991406709023" at="82,14,104,9">
+        <var name="rootTreeCell" id="8796347991406620885" />
+      </scope>
+      <scope id="8877288515758702742" at="78,58,109,43">
+        <var name="opacity" id="8877288515758750948" />
+      </scope>
+      <scope id="8877288515758702740" at="77,42,110,5">
+        <var name="button" id="8877288515758702741" />
+      </scope>
+      <scope id="8877288515758506874" at="76,44,110,5">
+        <var name="highlighted" id="857420770336474924" />
+      </scope>
+      <scope id="8877288515758506867" at="76,0,112,0">
+        <var name="event" id="8877288515758506871" />
+      </scope>
+      <unit id="8877288515758380405" at="18,0,129,0" name="com.mbeddr.mpsutil.treenotation.runtime.ButtonsMouseListener" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/8877288515760031246">
+    <file name="IDeleteHandler.java">
+      <node id="8877288515760031366" at="9,0,10,0" concept="10" trace="delete#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="8877288515760031366" at="9,0,10,0">
+        <var name="editorContext" id="8877288515760031944" />
+        <var name="node" id="8877288515760032000" />
+      </scope>
+      <unit id="8877288515760031246" at="8,0,11,0" name="com.mbeddr.mpsutil.treenotation.runtime.IDeleteHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/8877288515760032255">
+    <file name="IInsertHandler.java">
+      <node id="8877288515760032375" at="10,0,11,0" concept="10" trace="insert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;I)V" />
+      <node id="5587067268290951082" at="11,0,12,0" concept="10" trace="getDescription#()Ljava/lang/String;" />
+      <node id="5587067268292661336" at="12,0,13,0" concept="10" trace="getIcon#()Ljavax/swing/Icon;" />
+      <scope id="8877288515760032375" at="10,0,11,0">
+        <var name="editorContext" id="8877288515760032407" />
+        <var name="index" id="8877288515760032434" />
+        <var name="node" id="8877288515760032409" />
+      </scope>
+      <scope id="5587067268290951082" at="11,0,12,0" />
+      <scope id="5587067268292661336" at="12,0,13,0" />
+      <unit id="8877288515760032255" at="9,0,14,0" name="com.mbeddr.mpsutil.treenotation.runtime.IInsertHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/8877288515760604622">
+    <file name="BoundsExtensions.java">
+      <node id="8877288515760604645" at="9,53,10,47" concept="12" />
+      <node id="8877288515760605893" at="12,53,13,48" concept="12" />
+      <node id="8877288515761019436" at="15,50,16,43" concept="12" />
+      <node id="8877288515761020191" at="18,50,19,44" concept="12" />
+      <node id="3649115372186314511" at="21,59,22,37" concept="5" />
+      <node id="3649115372186315406" at="24,59,25,37" concept="5" />
+      <node id="3649115372186316354" at="27,63,28,45" concept="5" />
+      <node id="3649115372186317308" at="30,64,31,47" concept="5" />
+      <node id="8877288515760604622" at="7,0,9,0" concept="3" trace="BoundsExtensions#()V" />
+      <node id="8877288515760604631" at="9,0,12,0" concept="16" trace="getCenterX#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;)I" />
+      <node id="8877288515760605722" at="12,0,15,0" concept="16" trace="getCenterY#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;)I" />
+      <node id="8877288515761019225" at="15,0,18,0" concept="16" trace="getMaxX#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;)I" />
+      <node id="8877288515761019948" at="18,0,21,0" concept="16" trace="getMaxY#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;)I" />
+      <node id="3649115372186314211" at="21,0,24,0" concept="16" trace="addX#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;I)V" />
+      <node id="3649115372186315073" at="24,0,27,0" concept="16" trace="addY#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;I)V" />
+      <node id="3649115372186315976" at="27,0,30,0" concept="16" trace="addWidth#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;I)V" />
+      <node id="3649115372186316893" at="30,0,33,0" concept="16" trace="addHeight#(Lcom/mbeddr/mpsutil/treenotation/runtime/IBounds;I)V" />
+      <scope id="8877288515760604622" at="7,29,7,29" />
+      <scope id="8877288515760604633" at="9,53,10,47" />
+      <scope id="8877288515760605724" at="12,53,13,48" />
+      <scope id="8877288515761019227" at="15,50,16,43" />
+      <scope id="8877288515761019950" at="18,50,19,44" />
+      <scope id="3649115372186314213" at="21,59,22,37" />
+      <scope id="3649115372186315075" at="24,59,25,37" />
+      <scope id="3649115372186315978" at="27,63,28,45" />
+      <scope id="3649115372186316895" at="30,64,31,47" />
+      <scope id="8877288515760604622" at="7,0,9,0" />
+      <scope id="8877288515760604631" at="9,0,12,0">
+        <var name="_this" id="8877288515760604631" />
+      </scope>
+      <scope id="8877288515760605722" at="12,0,15,0">
+        <var name="_this" id="8877288515760605722" />
+      </scope>
+      <scope id="8877288515761019225" at="15,0,18,0">
+        <var name="_this" id="8877288515761019225" />
+      </scope>
+      <scope id="8877288515761019948" at="18,0,21,0">
+        <var name="_this" id="8877288515761019948" />
+      </scope>
+      <scope id="3649115372186314211" at="21,0,24,0">
+        <var name="_this" id="3649115372186314211" />
+        <var name="delta" id="3649115372186314495" />
+      </scope>
+      <scope id="3649115372186315073" at="24,0,27,0">
+        <var name="_this" id="3649115372186315073" />
+        <var name="delta" id="3649115372186315395" />
+      </scope>
+      <scope id="3649115372186315976" at="27,0,30,0">
+        <var name="_this" id="3649115372186315976" />
+        <var name="delta" id="3649115372186316334" />
+      </scope>
+      <scope id="3649115372186316893" at="30,0,33,0">
+        <var name="_this" id="3649115372186316893" />
+        <var name="delta" id="3649115372186317288" />
+      </scope>
+      <unit id="8877288515760604622" at="6,0,34,0" name="com.mbeddr.mpsutil.treenotation.runtime.BoundsExtensions" />
+    </file>
+  </root>
+  <root nodeRef="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)/8877288515762073832">
+    <file name="IShape.java">
+      <node id="8877288515762073952" at="10,0,11,0" concept="10" trace="paint#(Ljava/awt/Graphics2D;Ljava/util/List;)V" />
+      <scope id="8877288515762073952" at="10,0,11,0">
+        <var name="edges" id="8877288515762074212" />
+        <var name="g" id="8877288515762073976" />
+      </scope>
+      <unit id="8877288515762073832" at="9,0,12,0" name="com.mbeddr.mpsutil.treenotation.runtime.IShape" />
+    </file>
+  </root>
+</debug-info>
+

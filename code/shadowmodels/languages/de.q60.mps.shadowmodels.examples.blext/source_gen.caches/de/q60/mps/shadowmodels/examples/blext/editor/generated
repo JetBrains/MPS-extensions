@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-8n1zvzymmuuninoe9vkjg578wuud0nf">
+  <files names="EditorAspectDescriptorImpl.java:ErrorStatement_Editor.java:ErrorStatement_EditorBuilder_a.java:NullAlternativeExpression_Editor.java:NullAlternativeExpression_EditorBuilder_a.java:UntilStatement_Editor.java:UntilStatement_EditorBuilder_a.java:VariableWithInferredType_Editor.java:VariableWithInferredType_EditorBuilder_a.java:VariableWithInferredType_Reference_Editor.java:VariableWithInferredType_Reference_EditorBuilder_a.java:VariableWithInferredType_Reference_SubstituteMenu.java:nullAlternative.java" />
+</product>
+

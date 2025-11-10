@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="PolymorphicFunctionsDescriptor.java">
+      <unit at="14,0,38,0" name="de.q60.mps.shadowmodels.repository.transformations.PolymorphicFunctionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)/8943184115486268105">
+    <file name="IMessageLifter.java">
+      <node id="8943184115486268137" at="8,0,9,0" concept="4" trace="liftMessage#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8943184115486811486" at="9,0,10,0" concept="4" trace="liftMessage#(Ljava/lang/String;)V" />
+      <scope id="8943184115486268137" at="8,0,9,0">
+        <var name="message" id="8943184115486268268" />
+        <var name="target" id="8943184115486268365" />
+      </scope>
+      <scope id="8943184115486811486" at="9,0,10,0">
+        <var name="message" id="8943184115486811487" />
+      </scope>
+      <unit id="8943184115486268105" at="7,0,11,0" name="de.q60.mps.shadowmodels.repository.transformations.IMessageLifter" />
+    </file>
+  </root>
+  <root nodeRef="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)/9192345617660065997">
+    <file name="ShadowRepository.java">
+      <node id="9192345617660065997" at="31,0,32,0" concept="6" trace="LOG" />
+      <node id="9192345617660065997" at="33,9,34,36" concept="5" />
+      <node id="9192345617660065997" at="36,31,37,76" concept="1" />
+      <node id="9192345617660065997" at="38,7,39,15" concept="7" />
+      <node id="9192345617660065997" at="44,0,45,0" concept="2" trace="myParameterTypes" />
+      <node id="9192345617660065997" at="45,0,46,0" concept="2" trace="contextIds" />
+      <node id="9192345617660065997" at="46,0,47,0" concept="2" trace="groupIds" />
+      <node id="9192345617660065997" at="48,29,49,106" concept="5" />
+      <node id="9192345617660065997" at="51,99,52,20" concept="5" />
+      <node id="9192345617660065997" at="54,93,55,186" concept="5" />
+      <node id="9192345617660065997" at="58,59,59,32" concept="5" />
+      <node id="9192345617660065997" at="62,47,63,26" concept="5" />
+      <node id="9192345617660065997" at="66,53,67,24" concept="5" />
+      <node id="9192345617660065997" at="71,0,72,0" concept="2" trace="myParameterTypes" />
+      <node id="9192345617660065997" at="72,0,73,0" concept="2" trace="contextIds" />
+      <node id="9192345617660065997" at="73,0,74,0" concept="2" trace="groupIds" />
+      <node id="9192345617660065997" at="75,29,76,98" concept="5" />
+      <node id="9192345617660067000" at="79,195,80,23" concept="5" />
+      <node id="9192345617660065997" at="81,9,82,20" concept="5" />
+      <node id="9192345617660065997" at="88,89,89,148" concept="1" />
+      <node id="6951066303471256789" at="93,71,94,176" concept="1" />
+      <node id="9192345617660065997" at="104,59,105,32" concept="5" />
+      <node id="9192345617660065997" at="108,47,109,26" concept="5" />
+      <node id="9192345617660065997" at="112,53,113,24" concept="5" />
+      <node id="9192345617660065997" at="119,0,120,0" concept="6" trace="Repository$db" />
+      <node id="9192345617660065997" at="35,35,38,7" concept="3" />
+      <node id="9192345617660065997" at="51,0,54,0" concept="4" trace="isApplicable#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Z" />
+      <node id="9192345617660065997" at="54,0,57,0" concept="4" trace="execute#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Object;" />
+      <node id="9192345617660067000" at="78,99,81,9" concept="3" />
+      <node id="6951066303471256789" at="93,0,96,0" concept="4" trace="invoke#(Lde/q60/mps/shadowmodels/runtime/engine/IBuilderContext;)V" />
+      <node id="9192345617660065997" at="47,0,51,0" concept="4" trace="getId#()Ljava/lang/String;" />
+      <node id="9192345617660065997" at="57,0,61,0" concept="4" trace="getParameterTypes#()Ljava/lang/Iterable;" />
+      <node id="9192345617660065997" at="61,0,65,0" concept="4" trace="getContextIds#()Ljava/lang/Iterable;" />
+      <node id="9192345617660065997" at="65,0,69,0" concept="4" trace="getPriorityGroupIds#()Ljava/lang/Iterable;" />
+      <node id="9192345617660065997" at="74,0,78,0" concept="4" trace="getId#()Ljava/lang/String;" />
+      <node id="9192345617660065997" at="103,0,107,0" concept="4" trace="getParameterTypes#()Ljava/lang/Iterable;" />
+      <node id="9192345617660065997" at="107,0,111,0" concept="4" trace="getContextIds#()Ljava/lang/Iterable;" />
+      <node id="9192345617660065997" at="111,0,115,0" concept="4" trace="getPriorityGroupIds#()Ljava/lang/Iterable;" />
+      <node id="6951066303471256789" at="91,67,96,21" concept="1" />
+      <node id="9192345617660065997" at="78,0,84,0" concept="4" trace="isApplicable#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Z" />
+      <node id="9192345617660067019" at="91,0,98,0" concept="4" trace="invoke#(Lde/q60/mps/shadowmodels/runtime/engine/IBuilderContext;)V" />
+      <node id="9192345617660065997" at="32,107,40,5" concept="8" />
+      <node id="9192345617660067019" at="89,148,98,17" concept="1" />
+      <node id="9192345617660065997" at="32,0,42,0" concept="6" trace="INSTANCE" />
+      <node id="9192345617660065997" at="87,117,99,15" concept="1" />
+      <node id="9192345617660065997" at="86,0,101,0" concept="4" trace="apply#(Lde/q60/mps/shadowmodels/runtime/engine/ContainmentTargetRootNodes;Lde/q60/mps/shadowmodels/runtime/engine/TransformationResult;)V" />
+      <node id="9192345617660065997" at="84,93,101,10" concept="5" />
+      <node id="9192345617660065997" at="84,0,103,0" concept="4" trace="execute#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Object;" />
+      <node id="9192345617660065997" at="42,30,69,7" concept="1" />
+      <node id="9192345617660065997" at="69,7,115,7" concept="1" />
+      <node id="9192345617660065997" at="42,0,117,0" concept="0" trace="ShadowRepository#()V" />
+      <scope id="9192345617660065997" at="33,9,34,36" />
+      <scope id="9192345617660065997" at="36,31,37,76" />
+      <scope id="9192345617660065997" at="48,29,49,106" />
+      <scope id="9192345617660065997" at="51,99,52,20" />
+      <scope id="9192345617660065997" at="54,93,55,186" />
+      <scope id="9192345617660065997" at="58,59,59,32" />
+      <scope id="9192345617660065997" at="62,47,63,26" />
+      <scope id="9192345617660065997" at="66,53,67,24" />
+      <scope id="9192345617660065997" at="75,29,76,98" />
+      <scope id="9192345617660067000" at="79,195,80,23" />
+      <scope id="6951066303471256789" at="93,71,94,176" />
+      <scope id="9192345617660065997" at="104,59,105,32" />
+      <scope id="9192345617660065997" at="108,47,109,26" />
+      <scope id="9192345617660065997" at="112,53,113,24" />
+      <scope id="9192345617660065997" at="51,0,54,0">
+        <var name="_PFcontext" id="9192345617660065997" />
+        <var name="_PFparameters" id="9192345617660065997" />
+      </scope>
+      <scope id="9192345617660065997" at="54,0,57,0">
+        <var name="_PFcontext" id="9192345617660065997" />
+        <var name="_PFparameters" id="9192345617660065997" />
+      </scope>
+      <scope id="6951066303471256789" at="93,0,96,0">
+        <var name="context" id="6951066303471256789" />
+      </scope>
+      <scope id="9192345617660065997" at="35,35,39,15" />
+      <scope id="9192345617660065997" at="47,0,51,0" />
+      <scope id="9192345617660065997" at="57,0,61,0" />
+      <scope id="9192345617660065997" at="61,0,65,0" />
+      <scope id="9192345617660065997" at="65,0,69,0" />
+      <scope id="9192345617660065997" at="74,0,78,0" />
+      <scope id="9192345617660065997" at="78,99,82,20" />
+      <scope id="9192345617660065997" at="103,0,107,0" />
+      <scope id="9192345617660065997" at="107,0,111,0" />
+      <scope id="9192345617660065997" at="111,0,115,0" />
+      <scope id="9192345617660065997" at="35,5,40,5">
+        <var name="ex" id="9192345617660065997" />
+      </scope>
+      <scope id="9192345617660067019" at="91,67,96,21" />
+      <scope id="9192345617660065997" at="78,0,84,0">
+        <var name="_PFcontext" id="9192345617660065997" />
+        <var name="_PFparameters" id="9192345617660065997" />
+      </scope>
+      <scope id="9192345617660067019" at="91,0,98,0">
+        <var name="context" id="9192345617660067019" />
+      </scope>
+      <scope id="9192345617660065997" at="32,107,40,5" />
+      <scope id="9192345617660065997" at="88,89,98,17" />
+      <scope id="9192345617660065997" at="87,117,99,15" />
+      <scope id="9192345617660065997" at="86,0,101,0">
+        <var name="call" id="9192345617660065997" />
+        <var name="result" id="9192345617660065997" />
+      </scope>
+      <scope id="9192345617660065997" at="84,93,101,10" />
+      <scope id="9192345617660065997" at="84,0,103,0">
+        <var name="_PFcontext" id="9192345617660065997" />
+        <var name="_PFparameters" id="9192345617660065997" />
+      </scope>
+      <scope id="9192345617660065997" at="42,30,115,7" />
+      <scope id="9192345617660065997" at="42,0,117,0" />
+      <unit id="9192345617660065997" at="118,0,121,0" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$CONCEPTS" />
+      <unit id="6951066303471256789" at="92,137,96,19" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$2$1$1$1" />
+      <unit id="9192345617660067019" at="90,48,98,15" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$2$1$1" />
+      <unit id="9192345617660065997" at="85,19,101,9" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$2$1" />
+      <unit id="9192345617660065997" at="43,133,69,5" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$1" />
+      <unit id="9192345617660065997" at="70,112,115,5" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$2" />
+      <unit id="9192345617660065997" at="30,0,122,0" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository" />
+    </file>
+  </root>
+</debug-info>
+

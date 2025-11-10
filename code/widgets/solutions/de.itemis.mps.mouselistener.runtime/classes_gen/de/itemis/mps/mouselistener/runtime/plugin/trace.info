@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:2459bbb6-41f4-4317-a328-b711697b4543(de.itemis.mps.mouselistener.runtime.plugin)/144279664517527144">
+    <file name="DelegatingMouseListener.java">
+      <node id="144279664517962442" at="21,0,22,0" concept="11" trace="instances" />
+      <node id="144279664517975968" at="23,94,24,115" concept="7" />
+      <node id="144279664517977005" at="25,27,26,62" concept="2" />
+      <node id="144279664518111444" at="26,62,27,92" concept="2" />
+      <node id="144279664518110774" at="28,5,29,20" concept="8" />
+      <node id="7641550800937214815" at="33,86,34,63" concept="8" />
+      <node id="144279664521370324" at="38,161,39,27" concept="2" />
+      <node id="144279664518116703" at="43,0,44,0" concept="3" trace="myEditorComponent" />
+      <node id="7326876998193694868" at="44,0,45,0" concept="3" trace="myLastMotionListener" />
+      <node id="144279664518118625" at="46,67,47,76" concept="2" />
+      <node id="5337561823691251946" at="49,73,50,52" concept="2" />
+      <node id="5337561823691250478" at="50,52,51,20" concept="2" />
+      <node id="144279664518127499" at="53,7,54,0" concept="10" />
+      <node id="2051848251325935355" at="57,47,58,35" concept="8" />
+      <node id="144279664518140950" at="61,25,62,48" concept="2" />
+      <node id="144279664518164257" at="62,48,63,54" concept="2" />
+      <node id="144279664518166930" at="66,27,67,51" concept="2" />
+      <node id="144279664518187146" at="67,51,68,57" concept="2" />
+      <node id="5337561823691276561" at="68,57,69,67" concept="2" />
+      <node id="7326876998192629386" at="73,49,74,18" concept="8" />
+      <node id="7326876998192629387" at="75,5,76,63" concept="7" />
+      <node id="7326876998192629398" at="77,29,78,18" concept="8" />
+      <node id="7326876998192629399" at="79,5,80,97" concept="7" />
+      <node id="7326876998193240462" at="82,50,83,83" concept="7" />
+      <node id="7326876998193288246" at="84,31,85,26" concept="8" />
+      <node id="7326876998193319434" at="88,34,89,24" concept="8" />
+      <node id="7326876998192736741" at="90,7,91,30" concept="2" />
+      <node id="7326876998192743850" at="92,5,93,16" concept="8" />
+      <node id="7326876998193124684" at="97,53,98,45" concept="8" />
+      <node id="7326876998193158127" at="99,66,100,51" concept="8" />
+      <node id="7326876998193179943" at="101,12,102,18" concept="8" />
+      <node id="7326876998192823673" at="107,42,108,73" concept="7" />
+      <node id="7326876998192812030" at="109,27,110,31" concept="2" />
+      <node id="7326876998192839925" at="114,42,115,85" concept="7" />
+      <node id="7326876998192839933" at="116,27,117,31" concept="2" />
+      <node id="7326876998192842850" at="121,42,122,73" concept="7" />
+      <node id="7326876998192842858" at="123,27,124,31" concept="2" />
+      <node id="7326876998192844159" at="128,41,129,73" concept="7" />
+      <node id="7326876998192844167" at="130,27,131,30" concept="2" />
+      <node id="7326876998192849253" at="135,40,136,85" concept="7" />
+      <node id="7326876998193825409" at="137,75,138,113" concept="9" />
+      <node id="7326876998193825864" at="138,113,139,31" concept="9" />
+      <node id="7326876998193711127" at="139,31,140,41" concept="2" />
+      <node id="7326876998192849261" at="142,27,143,29" concept="2" />
+      <node id="7326876998193705037" at="144,5,145,36" concept="2" />
+      <node id="7326876998192846662" at="148,42,149,73" concept="7" />
+      <node id="7326876998192846670" at="150,27,151,31" concept="2" />
+      <node id="7326876998192847945" at="155,43,156,73" concept="7" />
+      <node id="7326876998192847953" at="157,27,158,32" concept="2" />
+      <node id="7326876998193189864" at="101,10,103,5" concept="0" />
+      <node id="144279664521359385" at="37,37,40,5" concept="4" />
+      <node id="2051848251325911345" at="57,0,60,0" concept="6" trace="getEditorComponent#()Ljetbrains/mps/nodeEditor/EditorComponent;" />
+      <node id="7326876998192629380" at="72,65,75,5" concept="5" />
+      <node id="7326876998192629393" at="76,63,79,5" concept="5" />
+      <node id="7326876998193287637" at="83,83,86,9" concept="5" />
+      <node id="7326876998193304626" at="87,7,90,7" concept="5" />
+      <node id="7326876998192837382" at="108,73,111,5" concept="5" />
+      <node id="7326876998192839931" at="115,85,118,5" concept="5" />
+      <node id="7326876998192842856" at="122,73,125,5" concept="5" />
+      <node id="7326876998192844165" at="129,73,132,5" concept="5" />
+      <node id="7326876998192849259" at="141,5,144,5" concept="5" />
+      <node id="7326876998192846668" at="149,73,152,5" concept="5" />
+      <node id="7326876998192847951" at="156,73,159,5" concept="5" />
+      <node id="144279664517976347" at="24,115,28,5" concept="5" />
+      <node id="7641550800937205229" at="32,0,36,0" concept="12" trace="getInstance#(Ljetbrains/mps/nodeEditor/EditorComponent;)Lde/itemis/mps/mouselistener/runtime/plugin/DelegatingMouseListener;" />
+      <node id="5337561823691249293" at="49,0,53,0" concept="6" trace="editorWillBeDisposed#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="144279664518113893" at="61,0,65,0" concept="6" trace="install#()V" />
+      <node id="144279664521376673" at="37,0,42,0" concept="12" trace="uninstallAll#()V" />
+      <node id="144279664518114368" at="66,0,71,0" concept="6" trace="uninstall#()V" />
+      <node id="7326876998193707506" at="136,85,141,5" concept="5" />
+      <node id="5337561823691240643" at="47,76,53,7" concept="2" />
+      <node id="7326876998193064667" at="81,26,87,7" concept="5" />
+      <node id="7326876998193112362" at="96,87,103,5" concept="5" />
+      <node id="7326876998192803694" at="106,0,113,0" concept="6" trace="mouseClicked#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="7326876998192803701" at="113,0,120,0" concept="6" trace="mouseDragged#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="7326876998192803709" at="120,0,127,0" concept="6" trace="mouseEntered#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="7326876998192803716" at="127,0,134,0" concept="6" trace="mouseExited#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="7326876998192803731" at="147,0,154,0" concept="6" trace="mousePressed#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="7326876998192803738" at="154,0,161,0" concept="6" trace="mouseReleased#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="144279664517961937" at="23,0,31,0" concept="12" trace="getOrCreateInstance#(Ljetbrains/mps/nodeEditor/EditorComponent;)Lde/itemis/mps/mouselistener/runtime/plugin/DelegatingMouseListener;" />
+      <node id="7326876998193082264" at="96,0,105,0" concept="6" trace="getListenerFromProvider#(Lde/itemis/mps/mouselistener/runtime/MouseListenerProvider;Ljava/lang/Class;)null" />
+      <node id="144279664518118617" at="46,0,56,0" concept="1" trace="DelegatingMouseListener#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="7326876998192718999" at="80,97,92,5" concept="13" />
+      <node id="7326876998192803723" at="134,0,147,0" concept="6" trace="mouseMoved#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="7326876998192612750" at="72,0,95,0" concept="6" trace="findListenerAtMouse#(Ljava/awt/event/MouseEvent;Ljava/lang/Class;)null" />
+      <scope id="7641550800937205230" at="33,86,34,63" />
+      <scope id="144279664521359388" at="38,161,39,27" />
+      <scope id="2051848251325911349" at="57,47,58,35" />
+      <scope id="7326876998192629385" at="73,49,74,18" />
+      <scope id="7326876998192629397" at="77,29,78,18" />
+      <scope id="7326876998193287639" at="84,31,85,26" />
+      <scope id="7326876998193304628" at="88,34,89,24" />
+      <scope id="7326876998193112363" at="97,53,98,45" />
+      <scope id="7326876998193146164" at="99,66,100,51" />
+      <scope id="7326876998193189865" at="101,12,102,18" />
+      <scope id="7326876998192837384" at="109,27,110,31" />
+      <scope id="7326876998192839932" at="116,27,117,31" />
+      <scope id="7326876998192842857" at="123,27,124,31" />
+      <scope id="7326876998192844166" at="130,27,131,30" />
+      <scope id="7326876998192849260" at="142,27,143,29" />
+      <scope id="7326876998192846669" at="150,27,151,31" />
+      <scope id="7326876998192847952" at="157,27,158,32" />
+      <scope id="144279664517976350" at="25,27,27,92" />
+      <scope id="5337561823691249299" at="49,73,51,20" />
+      <scope id="144279664517541434" at="61,25,63,54" />
+      <scope id="144279664521314324" at="37,37,40,5" />
+      <scope id="144279664521359385" at="37,37,40,5">
+        <var name="instance" id="144279664521359386" />
+      </scope>
+      <scope id="2051848251325911345" at="57,0,60,0" />
+      <scope id="144279664518112943" at="66,27,69,67" />
+      <scope id="7326876998193707508" at="137,75,140,41" />
+      <scope id="7641550800937205229" at="32,0,36,0">
+        <var name="editorComponent" id="7641550800937205256" />
+      </scope>
+      <scope id="5337561823691249293" at="49,0,53,0">
+        <var name="editorComponent" id="5337561823691249297" />
+      </scope>
+      <scope id="144279664518113893" at="61,0,65,0" />
+      <scope id="7326876998193064669" at="82,50,86,9">
+        <var name="listener" id="7326876998193240463" />
+      </scope>
+      <scope id="7326876998192803700" at="107,42,111,5">
+        <var name="listener" id="7326876998192823674" />
+      </scope>
+      <scope id="7326876998192803708" at="114,42,118,5">
+        <var name="listener" id="7326876998192839926" />
+      </scope>
+      <scope id="7326876998192803715" at="121,42,125,5">
+        <var name="listener" id="7326876998192842851" />
+      </scope>
+      <scope id="7326876998192803722" at="128,41,132,5">
+        <var name="listener" id="7326876998192844160" />
+      </scope>
+      <scope id="7326876998192803737" at="148,42,152,5">
+        <var name="listener" id="7326876998192846663" />
+      </scope>
+      <scope id="7326876998192803744" at="155,43,159,5">
+        <var name="listener" id="7326876998192847946" />
+      </scope>
+      <scope id="144279664521376673" at="37,0,42,0" />
+      <scope id="144279664518114368" at="66,0,71,0" />
+      <scope id="144279664517961373" at="23,94,29,20">
+        <var name="instance" id="144279664517975969" />
+      </scope>
+      <scope id="7326876998193082268" at="96,87,103,5" />
+      <scope id="7326876998192803694" at="106,0,113,0">
+        <var name="e" id="7326876998192803698" />
+      </scope>
+      <scope id="7326876998192803701" at="113,0,120,0">
+        <var name="e" id="7326876998192803705" />
+      </scope>
+      <scope id="7326876998192803709" at="120,0,127,0">
+        <var name="e" id="7326876998192803713" />
+      </scope>
+      <scope id="7326876998192803716" at="127,0,134,0">
+        <var name="e" id="7326876998192803720" />
+      </scope>
+      <scope id="7326876998192803731" at="147,0,154,0">
+        <var name="e" id="7326876998192803735" />
+      </scope>
+      <scope id="7326876998192803738" at="154,0,161,0">
+        <var name="e" id="7326876998192803742" />
+      </scope>
+      <scope id="144279664517961937" at="23,0,31,0">
+        <var name="editorComponent" id="144279664517961882" />
+      </scope>
+      <scope id="144279664518118621" at="46,67,54,0" />
+      <scope id="7326876998193082264" at="96,0,105,0">
+        <var name="provider" id="7326876998193100441" />
+        <var name="type" id="7326876998193106331" />
+      </scope>
+      <scope id="144279664518118617" at="46,0,56,0">
+        <var name="editorComponent" id="144279664518118624" />
+      </scope>
+      <scope id="7326876998192719001" at="81,26,91,30" />
+      <scope id="7326876998192803730" at="135,40,145,36">
+        <var name="listener" id="7326876998192849254" />
+      </scope>
+      <scope id="7326876998192803723" at="134,0,147,0">
+        <var name="e" id="7326876998192803727" />
+      </scope>
+      <scope id="7326876998192612754" at="72,65,93,16">
+        <var name="cell" id="7326876998192629400" />
+        <var name="myRootCell" id="7326876998192629388" />
+      </scope>
+      <scope id="7326876998192612750" at="72,0,95,0">
+        <var name="e" id="7326876998192661603" />
+        <var name="type" id="7326876998192666649" />
+      </scope>
+      <unit id="5337561823691249291" at="48,43,53,5" name="de.itemis.mps.mouselistener.runtime.plugin.DelegatingMouseListener$1" />
+      <unit id="144279664517527144" at="19,0,162,0" name="de.itemis.mps.mouselistener.runtime.plugin.DelegatingMouseListener" />
+    </file>
+  </root>
+  <root nodeRef="r:2459bbb6-41f4-4317-a328-b711697b4543(de.itemis.mps.mouselistener.runtime.plugin)/2877762237606545487">
+    <file name="MouseListenerPlugin_ProjectPluginPart.java">
+      <node id="2877762237606545488" at="11,0,12,0" concept="3" trace="myListener" />
+      <node id="144279664518243063" at="17,74,18,79" concept="2" />
+      <node id="144279664518248195" at="20,76,21,87" concept="2" />
+      <node id="2707695315876778306" at="23,6,24,70" concept="2" />
+      <node id="2707695315876782194" at="27,43,28,65" concept="2" />
+      <node id="1743042560824575023" at="28,65,29,43" concept="2" />
+      <node id="7641550800937221543" at="32,36,33,36" concept="2" />
+      <node id="7641550800937221543" at="34,5,35,0" concept="10" />
+      <node id="2877762237606545487" at="12,0,14,0" concept="1" trace="MouseListenerPlugin_ProjectPluginPart#()V" />
+      <node id="2707695315876757833" at="17,0,20,0" concept="6" trace="editorComponentCreate#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="2707695315876757841" at="20,0,23,0" concept="6" trace="editorComponentDisposed#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="7641550800937221543" at="31,91,34,5" concept="5" />
+      <node id="2877762237606545487" at="26,0,31,0" concept="6" trace="dispose#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="7641550800937221543" at="31,0,37,0" concept="12" trace="check_pw8zna_a0a1a0a0a0a#(Lde/itemis/mps/mouselistener/runtime/plugin/DelegatingMouseListener;)V" />
+      <node id="2707695315876686876" at="15,40,23,6" concept="2" />
+      <node id="2877762237606545487" at="14,0,26,0" concept="6" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <scope id="2877762237606545487" at="12,50,12,50" />
+      <scope id="2707695315876757839" at="17,74,18,79" />
+      <scope id="2707695315876757847" at="20,76,21,87" />
+      <scope id="7641550800937221543" at="32,36,33,36" />
+      <scope id="2877762237606545487" at="12,0,14,0" />
+      <scope id="2877762237606545537" at="27,43,29,43" />
+      <scope id="2707695315876757833" at="17,0,20,0">
+        <var name="editorComponent" id="2707695315876757834" />
+      </scope>
+      <scope id="2707695315876757841" at="20,0,23,0">
+        <var name="editorComponent" id="2707695315876757842" />
+      </scope>
+      <scope id="7641550800937221543" at="31,91,35,0" />
+      <scope id="2877762237606545487" at="26,0,31,0">
+        <var name="project" id="2877762237606545487" />
+      </scope>
+      <scope id="7641550800937221543" at="31,0,37,0">
+        <var name="checkedDotOperand" id="7641550800937221543" />
+      </scope>
+      <scope id="2877762237606545492" at="15,40,24,70" />
+      <scope id="2877762237606545487" at="14,0,26,0">
+        <var name="project" id="2877762237606545487" />
+      </scope>
+      <unit id="2707695315876757831" at="16,64,23,5" name="de.itemis.mps.mouselistener.runtime.plugin.MouseListenerPlugin_ProjectPluginPart$1" />
+      <unit id="2877762237606545487" at="10,0,38,0" name="de.itemis.mps.mouselistener.runtime.plugin.MouseListenerPlugin_ProjectPluginPart" />
+    </file>
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="2877762237606545487" at="12,62,13,59" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:2459bbb6-41f4-4317-a328-b711697b4543(de.itemis.mps.mouselistener.runtime.plugin)/7326876998192524434">
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="7326876998192524434" at="10,0,12,0" concept="1" trace="Runtime_ProjectPlugin#()V" />
+      <node id="7326876998192524434" at="12,0,15,0" concept="6" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="7326876998192524434" at="10,34,10,34" />
+      <scope id="7326876998192524434" at="12,62,13,59" />
+      <scope id="7326876998192524434" at="10,0,12,0" />
+      <scope id="7326876998192524434" at="12,0,15,0">
+        <var name="parts" id="7326876998192524434" />
+      </scope>
+      <unit id="7326876998192524434" at="9,0,16,0" name="de.itemis.mps.mouselistener.runtime.plugin.Runtime_ProjectPlugin" />
+    </file>
+  </root>
+</debug-info>
+

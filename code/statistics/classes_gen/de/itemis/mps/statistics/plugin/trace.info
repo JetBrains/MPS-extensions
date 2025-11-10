@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:55e2954e-56c5-4591-9d2a-8e60b86e0ef6(de.itemis.mps.statistics.plugin)/6673556396925674679">
+    <file name="GatherUsedLanguages_Action.java">
+      <node id="6673556396925674679" at="29,0,30,0" concept="12" trace="ICON" />
+      <node id="6673556396925674679" at="31,39,32,46" concept="13" />
+      <node id="6673556396925674679" at="32,46,33,35" concept="3" />
+      <node id="6673556396925674679" at="33,35,34,52" concept="3" />
+      <node id="6673556396925674679" at="34,52,35,29" concept="3" />
+      <node id="6673556396925674679" at="38,32,39,16" concept="9" />
+      <node id="6673556396925674679" at="43,53,44,19" concept="9" />
+      <node id="6856783469136610539" at="46,5,47,66" concept="8" />
+      <node id="6856783469136610540" at="48,22,49,21" concept="9" />
+      <node id="169605227460034384" at="52,5,53,56" concept="8" />
+      <node id="169605227460034385" at="54,22,55,21" concept="9" />
+      <node id="6673556396925674679" at="57,5,58,16" concept="9" />
+      <node id="6856783469136194433" at="61,96,62,74" concept="8" />
+      <node id="4380953138870444554" at="64,87,65,41" concept="8" />
+      <node id="4380953138870451907" at="66,29,67,19" concept="2" />
+      <node id="6856783469136245945" at="68,9,69,54" concept="8" />
+      <node id="6856783469136250756" at="70,78,71,70" concept="3" />
+      <node id="6856783469136710760" at="74,5,75,0" concept="11" />
+      <node id="6856783469136884673" at="75,0,76,104" concept="8" />
+      <node id="6856783469137025967" at="76,104,77,80" concept="8" />
+      <node id="6856783469137133251" at="78,9,79,74" concept="8" />
+      <node id="6856783469137291315" at="80,130,81,35" concept="3" />
+      <node id="6856783469137227397" at="82,7,83,21" concept="3" />
+      <node id="169605227459876744" at="83,21,84,120" concept="3" />
+      <node id="169605227460268951" at="85,29,86,130" concept="3" />
+      <node id="6856783469137343024" at="89,79,90,31" concept="10" />
+      <node id="6856783469137352350" at="91,49,92,19" concept="9" />
+      <node id="6856783469137366576" at="94,47,95,19" concept="9" />
+      <node id="6856783469137367321" at="97,39,98,19" concept="9" />
+      <node id="6856783469137368488" at="100,41,101,19" concept="9" />
+      <node id="4822617036385136528" at="102,5,103,40" concept="10" />
+      <node id="6856783469137370048" at="104,86,105,19" concept="9" />
+      <node id="6856783469137354620" at="106,5,107,16" concept="9" />
+      <node id="6673556396925674679" at="42,95,45,5" concept="6" />
+      <node id="6856783469136610540" at="47,66,50,7" concept="6" />
+      <node id="169605227460034385" at="53,56,56,7" concept="6" />
+      <node id="4380953138870447544" at="65,41,68,9" concept="6" />
+      <node id="6856783469136366107" at="69,54,72,9" concept="6" />
+      <node id="6856783469136299102" at="79,74,82,7" concept="5" />
+      <node id="6856783469137344107" at="90,31,93,5" concept="6" />
+      <node id="6856783469137355859" at="93,5,96,5" concept="6" />
+      <node id="6856783469137367319" at="96,5,99,5" concept="6" />
+      <node id="6856783469137368486" at="99,5,102,5" concept="6" />
+      <node id="6856783469137370046" at="103,40,106,5" concept="6" />
+      <node id="6673556396925674679" at="37,0,41,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="6673556396925674679" at="31,0,37,0" concept="1" trace="GatherUsedLanguages_Action#()V" />
+      <node id="6856783469136610539" at="45,5,51,5" concept="0" />
+      <node id="169605227460034384" at="51,5,57,5" concept="0" />
+      <node id="6856783469136234840" at="63,116,73,7" concept="5" />
+      <node id="6856783469137183307" at="77,80,87,5" concept="14" />
+      <node id="6856783469136191967" at="62,74,74,5" concept="5" />
+      <node id="6673556396925674679" at="41,0,60,0" concept="7" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="6856783469136367360" at="89,0,109,0" concept="7" trace="isAllowed#(Ljava/lang/String;Lcom/intellij/openapi/actionSystem/AnActionEvent;)Z" />
+      <node id="6673556396925674679" at="60,0,89,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <scope id="6673556396925674679" at="38,32,39,16" />
+      <scope id="6673556396925674679" at="43,53,44,19" />
+      <scope id="6856783469136610540" at="48,22,49,21" />
+      <scope id="169605227460034385" at="54,22,55,21" />
+      <scope id="4380953138870447546" at="66,29,67,19" />
+      <scope id="6856783469136366109" at="70,78,71,70" />
+      <scope id="6856783469136299108" at="80,130,81,35" />
+      <scope id="6856783469137200700" at="85,29,86,130" />
+      <scope id="6856783469137344109" at="91,49,92,19" />
+      <scope id="6856783469137355861" at="94,47,95,19" />
+      <scope id="6856783469137367320" at="97,39,98,19" />
+      <scope id="6856783469137368487" at="100,41,101,19" />
+      <scope id="6856783469137370047" at="104,86,105,19" />
+      <scope id="6856783469137200697" at="85,5,87,5">
+        <var name="e" id="6856783469137200698" />
+      </scope>
+      <scope id="6856783469136299102" at="79,74,82,7">
+        <var name="lang" id="6856783469136299104" />
+      </scope>
+      <scope id="6673556396925674679" at="31,39,35,29" />
+      <scope id="6673556396925674679" at="37,0,41,0" />
+      <scope id="6856783469136610539" at="46,5,50,7">
+        <var name="p" id="6856783469136610539" />
+      </scope>
+      <scope id="169605227460034384" at="52,5,56,7">
+        <var name="p" id="169605227460034384" />
+      </scope>
+      <scope id="6673556396925674679" at="31,0,37,0" />
+      <scope id="6856783469137183309" at="78,9,84,120">
+        <var name="writer" id="6856783469137133252" />
+      </scope>
+      <scope id="6856783469136234843" at="64,87,72,9">
+        <var name="dependencyStr" id="6856783469136245946" />
+        <var name="target" id="4380953138870444555" />
+      </scope>
+      <scope id="6856783469136191973" at="63,116,73,7" />
+      <scope id="6856783469136234840" at="63,116,73,7">
+        <var name="dep" id="6856783469136234841" />
+      </scope>
+      <scope id="6856783469136191967" at="62,74,74,5">
+        <var name="module" id="6856783469136191969" />
+      </scope>
+      <scope id="6673556396925674679" at="42,95,58,16" />
+      <scope id="6856783469136367362" at="89,79,107,16" />
+      <scope id="6673556396925674679" at="41,0,60,0">
+        <var name="_params" id="6673556396925674679" />
+        <var name="event" id="6673556396925674679" />
+      </scope>
+      <scope id="6856783469136367360" at="89,0,109,0">
+        <var name="dependency" id="6856783469136371905" />
+        <var name="event" id="6856783469136367360" />
+      </scope>
+      <scope id="6673556396925674679" at="61,96,87,5">
+        <var name="absoluteFile" id="6856783469136884674" />
+        <var name="dependencies" id="6856783469136194436" />
+        <var name="logFile" id="6856783469137025968" />
+      </scope>
+      <scope id="6673556396925674679" at="60,0,89,0">
+        <var name="_params" id="6673556396925674679" />
+        <var name="event" id="6673556396925674679" />
+      </scope>
+      <unit id="6673556396925674679" at="28,0,110,0" name="de.itemis.mps.statistics.plugin.GatherUsedLanguages_Action" />
+    </file>
+    <file name="Statistics_ApplicationPlugin.java">
+      <node id="6673556396925674679" at="22,29,23,48" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:55e2954e-56c5-4591-9d2a-8e60b86e0ef6(de.itemis.mps.statistics.plugin)/6673556396925740512">
+    <file name="Statistics_ActionGroup.java">
+      <node id="6673556396925740512" at="10,0,11,0" concept="12" trace="ID" />
+      <node id="6673556396925740512" at="12,68,13,40" concept="13" />
+      <node id="6673556396925740512" at="13,40,14,25" concept="3" />
+      <node id="6673556396925740512" at="14,25,15,19" concept="3" />
+      <node id="6673556396925740512" at="15,19,16,29" concept="3" />
+      <node id="6856783469135920998" at="16,29,17,47" concept="3" />
+      <node id="6673556396925740543" at="17,47,18,104" concept="3" />
+      <node id="6673556396925740512" at="12,0,20,0" concept="1" trace="Statistics_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="6673556396925740512" at="12,68,18,104" />
+      <scope id="6673556396925740512" at="12,0,20,0">
+        <var name="plugin" id="6673556396925740512" />
+      </scope>
+      <unit id="6673556396925740512" at="9,0,21,0" name="de.itemis.mps.statistics.plugin.Statistics_ActionGroup" />
+    </file>
+    <file name="Statistics_ApplicationPlugin.java">
+      <node id="6673556396925740512" at="24,13,25,47" concept="3" />
+      <node id="6673556396925740545" at="27,37,28,82" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:55e2954e-56c5-4591-9d2a-8e60b86e0ef6(de.itemis.mps.statistics.plugin)/6856783469136163888">
+    <file name="Statistics_ApplicationPlugin.java">
+      <node id="6856783469136163888" at="11,0,12,0" concept="4" trace="myId" />
+      <node id="6856783469136163888" at="17,27,18,16" concept="9" />
+      <node id="6856783469136163888" at="21,30,22,29" concept="10" />
+      <node id="6856783469136163888" at="23,48,24,13" concept="10" />
+      <node id="6856783469136163888" at="13,0,15,0" concept="1" trace="Statistics_ApplicationPlugin#()V" />
+      <node id="6856783469136163888" at="27,0,30,0" concept="7" trace="adjustRegularGroups#()V" />
+      <node id="6856783469136163888" at="16,0,20,0" concept="7" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="6856783469136163888" at="21,0,27,0" concept="7" trace="createGroups#()V" />
+      <scope id="6856783469136163888" at="13,41,13,41" />
+      <scope id="6856783469136163888" at="17,27,18,16" />
+      <scope id="6856783469136163888" at="27,37,28,82" />
+      <scope id="6856783469136163888" at="13,0,15,0" />
+      <scope id="6856783469136163888" at="27,0,30,0" />
+      <scope id="6856783469136163888" at="16,0,20,0" />
+      <scope id="6856783469136163888" at="21,30,25,47" />
+      <scope id="6856783469136163888" at="21,0,27,0" />
+      <unit id="6856783469136163888" at="10,0,31,0" name="de.itemis.mps.statistics.plugin.Statistics_ApplicationPlugin" />
+    </file>
+  </root>
+</debug-info>
+

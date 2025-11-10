@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="15,0,41,0" name="de.slisson.mps.editor.multiline.test.intentions.IntentionsDescriptor" />
+    </file>
+    <file name="SelectionIntentionsDescriptor.java">
+      <unit at="11,0,18,0" name="de.slisson.mps.editor.multiline.test.intentions.SelectionIntentionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:e7d47448-dfe1-4323-ac16-cbff8f781324(de.slisson.mps.editor.multiline.test.intentions)/3158011787693194915">
+    <file name="AddMultilineCellAnnotation.java">
+      <node id="3158011787693303302" at="33,59,34,59" concept="5" />
+      <node id="3158011787693294728" at="34,59,35,90" concept="5" />
+      <node id="3158011787693298728" at="35,90,36,0" concept="7" />
+      <node id="3158011787693223038" at="36,0,37,32" concept="5" />
+      <node id="3158011787693223055" at="38,136,39,59" concept="2" />
+      <node id="3158011787693223074" at="40,11,41,112" concept="5" />
+      <node id="3158011787693223088" at="42,87,43,86" concept="2" />
+      <node id="3158011787693524536" at="44,11,45,0" concept="7" />
+      <node id="3158011787693530591" at="45,0,46,110" concept="2" />
+      <node id="3158011787693572205" at="46,110,47,106" concept="2" />
+      <node id="3158011787693588984" at="47,106,48,108" concept="2" />
+      <node id="3158011787693598618" at="48,108,49,0" concept="7" />
+      <node id="6193633844718775875" at="49,0,50,82" concept="2" />
+      <node id="3158011787693223217" at="50,82,51,146" concept="2" />
+      <node id="3158011787693223224" at="51,146,52,65" concept="2" />
+      <node id="3158011787693207538" at="55,68,56,71" concept="6" />
+      <node id="3158011787693221287" at="59,67,60,59" concept="5" />
+      <node id="3158011787693208593" at="60,59,61,176" concept="6" />
+      <node id="3158011787693194915" at="63,8,64,50" concept="6" />
+      <node id="3158011787693194915" at="65,12,66,68" concept="6" />
+      <node id="3158011787693194915" at="71,0,72,0" concept="8" trace="EditorTestCase$DN" />
+      <node id="3158011787693194915" at="72,0,73,0" concept="8" trace="MultilineCellAnnotation$RZ" />
+      <node id="3158011787693194915" at="73,0,74,0" concept="8" trace="TestNode$zF" />
+      <node id="3158011787693194915" at="77,0,78,0" concept="8" trace="isInInspector$2I_a" />
+      <node id="3158011787693194915" at="78,0,79,0" concept="8" trace="selectionStart$gMsM" />
+      <node id="3158011787693194915" at="79,0,80,0" concept="8" trace="selectionEnd$gMUO" />
+      <node id="3158011787693194915" at="80,0,81,0" concept="8" trace="caretPosition$2w8S" />
+      <node id="3158011787693194915" at="81,0,82,0" concept="8" trace="name$MnvL" />
+      <node id="3158011787693194915" at="25,0,27,0" concept="1" trace="AddMultilineCellAnnotation#()V" />
+      <node id="3158011787693194915" at="65,10,67,5" concept="0" />
+      <node id="3158011787693223042" at="37,32,40,11" concept="9" />
+      <node id="3158011787693223086" at="41,112,44,11" concept="3" />
+      <node id="3158011787693194915" at="54,0,58,0" concept="4" trace="getDescription#(Lde/slisson/mps/editor/multiline/cells/MultilineSelection;)Ljava/lang/String;" />
+      <node id="3158011787693194915" at="58,0,63,0" concept="4" trace="isApplicable#(Lde/slisson/mps/editor/multiline/cells/MultilineSelection;)Z" />
+      <node id="3158011787693194915" at="32,0,54,0" concept="4" trace="execute#(Lde/slisson/mps/editor/multiline/cells/MultilineSelection;)V" />
+      <node id="3158011787693194915" at="30,50,63,8" concept="5" />
+      <node id="3158011787693194915" at="29,77,67,5" concept="3" />
+      <node id="3158011787693194915" at="28,0,69,0" concept="4" trace="getInstances#(Ljava/lang/Object;)Ljava/util/List;" />
+      <scope id="3158011787693194915" at="25,39,25,39" />
+      <scope id="3158011787693223054" at="38,136,39,59" />
+      <scope id="3158011787693223087" at="42,87,43,86" />
+      <scope id="3158011787693194915" at="55,68,56,71" />
+      <scope id="3158011787693194915" at="65,12,66,68" />
+      <scope id="3158011787693194915" at="25,0,27,0" />
+      <scope id="3158011787693194915" at="59,67,61,176">
+        <var name="node" id="3158011787693221288" />
+      </scope>
+      <scope id="3158011787693194915" at="54,0,58,0">
+        <var name="selection" id="3158011787693194915" />
+      </scope>
+      <scope id="3158011787693194915" at="58,0,63,0">
+        <var name="selection" id="3158011787693194915" />
+      </scope>
+      <scope id="3158011787693194915" at="33,59,52,65">
+        <var name="ancessor" id="3158011787693223039" />
+        <var name="editorContext" id="3158011787693294729" />
+        <var name="newAnnotation" id="3158011787693223075" />
+        <var name="node" id="3158011787693303303" />
+      </scope>
+      <scope id="3158011787693194915" at="32,0,54,0">
+        <var name="selection" id="3158011787693194915" />
+      </scope>
+      <scope id="3158011787693194915" at="30,50,64,50">
+        <var name="intention" id="3158011787693194915" />
+      </scope>
+      <scope id="3158011787693194915" at="29,77,67,5" />
+      <scope id="3158011787693194915" at="28,0,69,0">
+        <var name="selection" id="3158011787693194915" />
+      </scope>
+      <unit id="3158011787693194915" at="70,0,75,0" name="de.slisson.mps.editor.multiline.test.intentions.AddMultilineCellAnnotation$CONCEPTS" />
+      <unit id="3158011787693194915" at="76,0,83,0" name="de.slisson.mps.editor.multiline.test.intentions.AddMultilineCellAnnotation$PROPS" />
+      <unit id="3158011787693194915" at="31,52,63,7" name="de.slisson.mps.editor.multiline.test.intentions.AddMultilineCellAnnotation$1" />
+      <unit id="3158011787693194915" at="24,0,84,0" name="de.slisson.mps.editor.multiline.test.intentions.AddMultilineCellAnnotation" />
+    </file>
+    <file name="SelectionIntentionsDescriptor.java">
+      <node id="3158011787693194915" at="13,113,14,79" concept="2" />
+    </file>
+  </root>
+</debug-info>
+

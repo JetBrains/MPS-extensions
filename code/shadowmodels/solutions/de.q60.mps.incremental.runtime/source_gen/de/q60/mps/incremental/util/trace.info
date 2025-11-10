@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)/8645954948521529702">
+    <file name="ContextValue.java">
+      <node id="3502377949046746264" at="12,0,13,0" concept="2" trace="defaultValue" />
+      <node id="8645954948521530090" at="13,0,14,0" concept="2" trace="value" />
+      <node id="3502377949046747645" at="18,39,19,37" concept="1" />
+      <node id="5534969758587957424" at="22,30,23,32" concept="5" />
+      <node id="5534969758587963035" at="24,24,25,56" concept="1" />
+      <node id="5534969758587967346" at="25,56,26,23" concept="1" />
+      <node id="5534969758587969513" at="27,5,28,17" concept="6" />
+      <node id="5534969758587970078" at="32,9,33,61" concept="1" />
+      <node id="8645954948521566337" at="33,61,34,14" concept="1" />
+      <node id="5534969758587980172" at="35,15,36,60" concept="1" />
+      <node id="5534969758587985273" at="44,9,45,61" concept="1" />
+      <node id="5294221306566470690" at="45,61,46,17" concept="1" />
+      <node id="5534969758587990253" at="47,15,48,60" concept="1" />
+      <node id="5534969758588001074" at="53,9,54,61" concept="1" />
+      <node id="3502377949046267719" at="54,61,55,24" concept="6" />
+      <node id="5534969758588008632" at="56,15,57,60" concept="1" />
+      <node id="5534969758588011795" at="61,23,62,31" concept="5" />
+      <node id="8645954948521531016" at="62,31,63,105" concept="6" />
+      <node id="5534969758588035349" at="66,37,67,22" concept="6" />
+      <node id="3502377949046750378" at="15,0,17,0" concept="0" trace="ContextValue#()V" />
+      <node id="3502377949046747637" at="18,0,21,0" concept="0" trace="ContextValue#(null)V" />
+      <node id="5534969758588017884" at="66,0,69,0" concept="4" trace="getAllValues#()Ljava/lang/Iterable;" />
+      <node id="5534969758587958404" at="23,32,27,5" concept="3" />
+      <node id="8645954948521530395" at="61,0,65,0" concept="4" trace="getValue#()null" />
+      <node id="8645954948521542944" at="31,47,37,5" concept="7" />
+      <node id="5294221306566470683" at="43,77,49,5" concept="7" />
+      <node id="3502377949046262756" at="52,85,58,5" concept="7" />
+      <node id="5534969758587948508" at="22,0,30,0" concept="4" trace="getStack#()Ljava/util/List;" />
+      <node id="8645954948521541518" at="31,0,39,0" concept="4" trace="runWith#(nullLjava/lang/Runnable;)V" />
+      <node id="5294221306566470669" at="43,0,51,0" concept="4" trace="runWithFunctionType#(nullLjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;)V" />
+      <node id="3502377949046262742" at="52,0,60,0" concept="4" trace="computeWith#(nullLjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P0_E0;)null" />
+      <scope id="3502377949046750382" at="15,25,15,25" />
+      <scope id="3502377949046747641" at="18,39,19,37" />
+      <scope id="8645954948521542946" at="35,15,36,60" />
+      <scope id="5294221306566470694" at="47,15,48,60" />
+      <scope id="3502377949046262767" at="56,15,57,60" />
+      <scope id="5534969758588017887" at="66,37,67,22" />
+      <scope id="3502377949046750378" at="15,0,17,0" />
+      <scope id="5534969758587958406" at="24,24,26,23" />
+      <scope id="8645954948521542945" at="32,9,34,14" />
+      <scope id="5294221306566470684" at="44,9,46,17" />
+      <scope id="3502377949046262757" at="53,9,55,24" />
+      <scope id="8645954948521530399" at="61,23,63,105">
+        <var name="stack" id="5534969758588011796" />
+      </scope>
+      <scope id="3502377949046747637" at="18,0,21,0">
+        <var name="defaultValue" id="3502377949046747644" />
+      </scope>
+      <scope id="5534969758588017884" at="66,0,69,0" />
+      <scope id="8645954948521530395" at="61,0,65,0" />
+      <scope id="5534969758587948512" at="22,30,28,17">
+        <var name="stack" id="5534969758587957425" />
+      </scope>
+      <scope id="8645954948521541522" at="31,47,37,5" />
+      <scope id="5294221306566470676" at="43,77,49,5" />
+      <scope id="3502377949046262749" at="52,85,58,5" />
+      <scope id="5534969758587948508" at="22,0,30,0" />
+      <scope id="8645954948521541518" at="31,0,39,0">
+        <var name="newValue" id="8645954948521542194" />
+        <var name="r" id="8645954948521542544" />
+      </scope>
+      <scope id="5294221306566470669" at="43,0,51,0">
+        <var name="newValue" id="5294221306566470670" />
+        <var name="r" id="5294221306566470672" />
+      </scope>
+      <scope id="3502377949046262742" at="52,0,60,0">
+        <var name="newValue" id="3502377949046262743" />
+        <var name="r" id="3502377949046262745" />
+      </scope>
+      <unit id="8645954948521529702" at="10,0,71,0" name="de.q60.mps.incremental.util.ContextValue" />
+    </file>
+  </root>
+</debug-info>
+

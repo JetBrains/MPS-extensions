@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:72ba43ce-8e83-46ef-a531-a0c9993b51d5(de.q60.mps.shadowmodels.modelcheck.runtime.plugin)/6159853882118353445">
+    <file name="ApplicationPlugin_AppPluginPart.java">
+      <node id="7754116048501338852" at="11,22,12,61" concept="1" />
+      <node id="7754116048501339855" at="15,25,16,58" concept="1" />
+      <node id="6159853882118353445" at="8,0,10,0" concept="0" trace="ApplicationPlugin_AppPluginPart#()V" />
+      <node id="6159853882118353445" at="10,0,14,0" concept="3" trace="init#()V" />
+      <node id="6159853882118353445" at="14,0,18,0" concept="3" trace="dispose#()V" />
+      <scope id="6159853882118353445" at="8,44,8,44" />
+      <scope id="6159853882118422627" at="11,22,12,61" />
+      <scope id="6159853882118619976" at="15,25,16,58" />
+      <scope id="6159853882118353445" at="8,0,10,0" />
+      <scope id="6159853882118353445" at="10,0,14,0" />
+      <scope id="6159853882118353445" at="14,0,18,0" />
+      <unit id="6159853882118353445" at="7,0,19,0" name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.ApplicationPlugin_AppPluginPart" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="6159853882118353445" at="34,66,35,53" concept="1" />
+    </file>
+  </root>
+  <root nodeRef="r:72ba43ce-8e83-46ef-a531-a0c9993b51d5(de.q60.mps.shadowmodels.modelcheck.runtime.plugin)/7651629045958467421">
+    <file name="ErrorLiftingGroup_ActionGroup.java">
+      <node id="7651629045958467421" at="10,0,11,0" concept="7" trace="ID" />
+      <node id="7651629045958467421" at="12,75,13,43" concept="8" />
+      <node id="7651629045958467421" at="13,43,14,25" concept="1" />
+      <node id="7651629045958467421" at="14,25,15,20" concept="1" />
+      <node id="7651629045958467421" at="15,20,16,29" concept="1" />
+      <node id="7651629045958815531" at="16,29,17,128" concept="1" />
+      <node id="7651629045958815536" at="17,128,18,129" concept="1" />
+      <node id="7651629045958467421" at="12,0,20,0" concept="0" trace="ErrorLiftingGroup_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="7651629045958467421" at="12,75,18,129" />
+      <scope id="7651629045958467421" at="12,0,20,0">
+        <var name="plugin" id="7651629045958467421" />
+      </scope>
+      <unit id="7651629045958467421" at="9,0,21,0" name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.ErrorLiftingGroup_ActionGroup" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="7651629045958467421" at="27,13,28,54" concept="1" />
+      <node id="7651629045958815540" at="30,37,31,95" concept="1" />
+    </file>
+  </root>
+  <root nodeRef="r:72ba43ce-8e83-46ef-a531-a0c9993b51d5(de.q60.mps.shadowmodels.modelcheck.runtime.plugin)/7651629045958467423">
+    <file name="EnableErrorLifting_Action.java">
+      <node id="7651629045958467423" at="13,0,14,0" concept="7" trace="ICON" />
+      <node id="7651629045958467423" at="15,38,16,44" concept="8" />
+      <node id="7651629045958467423" at="16,44,17,35" concept="1" />
+      <node id="7651629045958467423" at="17,35,18,52" concept="1" />
+      <node id="7651629045958467423" at="18,52,19,29" concept="1" />
+      <node id="7651629045958467423" at="22,32,23,16" concept="5" />
+      <node id="7651629045958811505" at="26,87,27,63" concept="5" />
+      <node id="7651629045958467423" at="30,89,31,85" concept="1" />
+      <node id="7651629045958810515" at="34,96,35,64" concept="1" />
+      <node id="7651629045958467423" at="21,0,25,0" concept="3" trace="isDumbAware#()Z" />
+      <node id="7651629045958467423" at="25,0,29,0" concept="3" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7651629045958467423" at="29,0,33,0" concept="3" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7651629045958467423" at="33,0,37,0" concept="3" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7651629045958467423" at="15,0,21,0" concept="0" trace="EnableErrorLifting_Action#()V" />
+      <scope id="7651629045958467423" at="22,32,23,16" />
+      <scope id="7651629045958810615" at="26,87,27,63" />
+      <scope id="7651629045958467423" at="30,89,31,85" />
+      <scope id="7651629045958467423" at="34,96,35,64" />
+      <scope id="7651629045958467423" at="15,38,19,29" />
+      <scope id="7651629045958467423" at="21,0,25,0" />
+      <scope id="7651629045958467423" at="25,0,29,0">
+        <var name="_params" id="7651629045958467423" />
+        <var name="event" id="7651629045958467423" />
+      </scope>
+      <scope id="7651629045958467423" at="29,0,33,0">
+        <var name="_params" id="7651629045958467423" />
+        <var name="event" id="7651629045958467423" />
+      </scope>
+      <scope id="7651629045958467423" at="33,0,37,0">
+        <var name="_params" id="7651629045958467423" />
+        <var name="event" id="7651629045958467423" />
+      </scope>
+      <scope id="7651629045958467423" at="15,0,21,0" />
+      <unit id="7651629045958467423" at="12,0,38,0" name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.EnableErrorLifting_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="7651629045958467423" at="25,48,26,47" concept="1" />
+    </file>
+  </root>
+  <root nodeRef="r:72ba43ce-8e83-46ef-a531-a0c9993b51d5(de.q60.mps.shadowmodels.modelcheck.runtime.plugin)/7651629045958814290">
+    <file name="DisableErrorLifting_Action.java">
+      <node id="7651629045958814290" at="13,0,14,0" concept="7" trace="ICON" />
+      <node id="7651629045958814290" at="15,39,16,45" concept="8" />
+      <node id="7651629045958814290" at="16,45,17,35" concept="1" />
+      <node id="7651629045958814290" at="17,35,18,52" concept="1" />
+      <node id="7651629045958814290" at="18,52,19,29" concept="1" />
+      <node id="7651629045958814290" at="22,32,23,16" concept="5" />
+      <node id="7754116048501397720" at="26,87,27,60" concept="5" />
+      <node id="7651629045958814290" at="30,89,31,85" concept="1" />
+      <node id="7754116048501400608" at="34,96,35,65" concept="1" />
+      <node id="7651629045958814290" at="21,0,25,0" concept="3" trace="isDumbAware#()Z" />
+      <node id="7651629045958814290" at="25,0,29,0" concept="3" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7651629045958814290" at="29,0,33,0" concept="3" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7651629045958814290" at="33,0,37,0" concept="3" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7651629045958814290" at="15,0,21,0" concept="0" trace="DisableErrorLifting_Action#()V" />
+      <scope id="7651629045958814290" at="22,32,23,16" />
+      <scope id="7651629045958814297" at="26,87,27,60" />
+      <scope id="7651629045958814290" at="30,89,31,85" />
+      <scope id="7651629045958814290" at="34,96,35,65" />
+      <scope id="7651629045958814290" at="15,39,19,29" />
+      <scope id="7651629045958814290" at="21,0,25,0" />
+      <scope id="7651629045958814290" at="25,0,29,0">
+        <var name="_params" id="7651629045958814290" />
+        <var name="event" id="7651629045958814290" />
+      </scope>
+      <scope id="7651629045958814290" at="29,0,33,0">
+        <var name="_params" id="7651629045958814290" />
+        <var name="event" id="7651629045958814290" />
+      </scope>
+      <scope id="7651629045958814290" at="33,0,37,0">
+        <var name="_params" id="7651629045958814290" />
+        <var name="event" id="7651629045958814290" />
+      </scope>
+      <scope id="7651629045958814290" at="15,0,21,0" />
+      <unit id="7651629045958814290" at="12,0,38,0" name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.DisableErrorLifting_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="7651629045958814290" at="24,29,25,48" concept="1" />
+    </file>
+  </root>
+  <root nodeRef="r:72ba43ce-8e83-46ef-a531-a0c9993b51d5(de.q60.mps.shadowmodels.modelcheck.runtime.plugin)/7754116048501263048">
+    <file name="OptionalPlugin_ModelChecker.java">
+      <node id="7754116048501334037" at="10,0,11,0" concept="7" trace="INSTANCE" />
+      <node id="7754116048501337810" at="13,22,14,45" concept="1" />
+      <node id="7754116048501338057" at="18,25,19,44" concept="1" />
+      <node id="7754116048501334353" at="12,0,16,0" concept="3" trace="init#()V" />
+      <node id="7754116048501334359" at="17,0,21,0" concept="3" trace="dispose#()V" />
+      <scope id="7754116048501334357" at="13,22,14,45" />
+      <scope id="7754116048501334363" at="18,25,19,44" />
+      <scope id="7754116048501334353" at="12,0,16,0" />
+      <scope id="7754116048501334359" at="17,0,21,0" />
+      <unit id="7754116048501263048" at="9,0,22,0" name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.OptionalPlugin_ModelChecker" />
+    </file>
+  </root>
+  <root nodeRef="r:72ba43ce-8e83-46ef-a531-a0c9993b51d5(de.q60.mps.shadowmodels.modelcheck.runtime.plugin)/8624973594652950832">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8624973594652950832" at="13,0,14,0" concept="2" trace="myId" />
+      <node id="8624973594652950832" at="19,27,20,16" concept="5" />
+      <node id="8624973594652950832" at="23,30,24,29" concept="6" />
+      <node id="8624973594652950832" at="26,47,27,13" concept="6" />
+      <node id="8624973594652950832" at="15,0,17,0" concept="0" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="8624973594652950832" at="30,0,33,0" concept="3" trace="adjustRegularGroups#()V" />
+      <node id="8624973594652950832" at="18,0,22,0" concept="3" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="8624973594652950832" at="33,0,37,0" concept="3" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <node id="8624973594652950832" at="23,0,30,0" concept="3" trace="createGroups#()V" />
+      <scope id="8624973594652950832" at="15,38,15,38" />
+      <scope id="8624973594652950832" at="19,27,20,16" />
+      <scope id="8624973594652950832" at="30,37,31,95" />
+      <scope id="8624973594652950832" at="34,66,35,53" />
+      <scope id="8624973594652950832" at="15,0,17,0" />
+      <scope id="8624973594652950832" at="30,0,33,0" />
+      <scope id="8624973594652950832" at="18,0,22,0" />
+      <scope id="8624973594652950832" at="33,0,37,0">
+        <var name="parts" id="8624973594652950832" />
+      </scope>
+      <scope id="8624973594652950832" at="23,30,28,54" />
+      <scope id="8624973594652950832" at="23,0,30,0" />
+      <unit id="8624973594652950832" at="12,0,38,0" name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="8624973594652950832" at="10,0,12,0" concept="0" trace="Runtime_ProjectPlugin#()V" />
+      <node id="8624973594652950832" at="12,0,15,0" concept="3" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="8624973594652950832" at="10,34,10,34" />
+      <scope id="8624973594652950832" at="12,62,13,53" />
+      <scope id="8624973594652950832" at="10,0,12,0" />
+      <scope id="8624973594652950832" at="12,0,15,0">
+        <var name="parts" id="8624973594652950832" />
+      </scope>
+      <unit id="8624973594652950832" at="9,0,16,0" name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.Runtime_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:72ba43ce-8e83-46ef-a531-a0c9993b51d5(de.q60.mps.shadowmodels.modelcheck.runtime.plugin)/8624973594652950834">
+    <file name="ProjectPlugin_ProjectPluginPart.java">
+      <node id="8624973594653193161" at="11,0,12,0" concept="2" trace="checker" />
+      <node id="8624973594653194557" at="15,40,16,95" concept="1" />
+      <node id="8624973594653180133" at="16,95,17,70" concept="4" />
+      <node id="8624973594653172223" at="17,70,18,73" concept="1" />
+      <node id="8624973594653198445" at="21,43,22,70" concept="4" />
+      <node id="8624973594653198452" at="22,70,23,76" concept="1" />
+      <node id="8624973594652950834" at="12,0,14,0" concept="0" trace="ProjectPlugin_ProjectPluginPart#()V" />
+      <node id="8624973594652950834" at="20,0,25,0" concept="3" trace="dispose#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="8624973594652950834" at="14,0,20,0" concept="3" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <scope id="8624973594652950834" at="12,44,12,44" />
+      <scope id="8624973594652950834" at="12,0,14,0" />
+      <scope id="8624973594653198200" at="21,43,23,76">
+        <var name="highlighter" id="8624973594653198446" />
+      </scope>
+      <scope id="8624973594653171791" at="15,40,18,73">
+        <var name="highlighter" id="8624973594653180134" />
+      </scope>
+      <scope id="8624973594652950834" at="20,0,25,0">
+        <var name="project" id="8624973594652950834" />
+      </scope>
+      <scope id="8624973594652950834" at="14,0,20,0">
+        <var name="project" id="8624973594652950834" />
+      </scope>
+      <unit id="8624973594652950834" at="10,0,26,0" name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.ProjectPlugin_ProjectPluginPart" />
+    </file>
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="8624973594652950834" at="12,62,13,53" concept="1" />
+    </file>
+  </root>
+</debug-info>
+

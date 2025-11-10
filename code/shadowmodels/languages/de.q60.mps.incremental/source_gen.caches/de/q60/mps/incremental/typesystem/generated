@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-3e9i5m2wtlzua0apa5b6ytd4nlt6711">
+  <files names="TypesystemDescriptor.java:check_IncrementalFunction_NonTypesystemRule.java:check_IncrementalModule_NonTypesystemRule.java:typeof_IncrementalExpression_InferenceRule.java:typeof_IncrementalFunctionCall_InferenceRule.java:typeof_IncrementalFunctionLiteral_InferenceRule.java:typeof_IncrementalFunctionParameterRef_InferenceRule.java:typeof_IncrementalFunctionParameter_InferenceRule.java:typeof_IncrementalFunction_InferenceRule.java" />
+</product>
+

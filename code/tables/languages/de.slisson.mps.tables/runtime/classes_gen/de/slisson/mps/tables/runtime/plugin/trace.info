@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="9,0,14,0" name="de.slisson.mps.tables.runtime.plugin.ExtensionDescriptor" />
+    </file>
+    <file name="IconContainer.java">
+      <unit at="8,0,14,0" name="de.slisson.mps.tables.runtime.plugin.IconContainer" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692264612781">
+    <file name="CopyPasteSupport.java">
+      <node id="1206675692267976057" at="11,0,12,0" concept="8" trace="priority#()I" />
+      <node id="1206675692268011850" at="13,0,14,0" concept="8" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1206675692275392506" at="15,0,16,0" concept="8" trace="setTableNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1206675692267867926" at="17,0,18,0" concept="8" trace="copy#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <node id="1206675692267868112" at="19,0,20,0" concept="8" trace="paste#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Lde/slisson/mps/tables/runtime/plugin/TableData;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1206675692267915388" at="21,0,22,0" concept="8" trace="delete#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1206675692267919059" at="23,92,24,59" concept="9" />
+      <node id="1206675692267919925" at="24,59,25,37" concept="3" />
+      <node id="1206675692267920502" at="25,37,26,16" concept="10" />
+      <node id="1206675692268003384" at="29,69,30,61" concept="10" />
+      <node id="1206675692275637368" at="33,77,34,77" concept="9" />
+      <node id="1206675692275639029" at="34,77,35,32" concept="3" />
+      <node id="1206675692275645527" at="35,32,36,19" concept="10" />
+      <node id="1206675692267921803" at="29,0,32,0" concept="14" trace="existsFor#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1206675692267915633" at="23,0,28,0" concept="8" trace="cut#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <node id="1206675692268004481" at="33,0,38,0" concept="14" trace="forNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/CopyPasteSupport;" />
+      <scope id="1206675692267976057" at="11,0,12,0" />
+      <scope id="1206675692268011850" at="13,0,14,0">
+        <var name="editorContext" id="7230129618821149807" />
+        <var name="node" id="2274687476315458527" />
+      </scope>
+      <scope id="1206675692275392506" at="15,0,16,0">
+        <var name="table" id="1206675692275519077" />
+      </scope>
+      <scope id="1206675692267867926" at="17,0,18,0">
+        <var name="editorContext" id="7230129618825236173" />
+        <var name="selection" id="1206675692267867957" />
+      </scope>
+      <scope id="1206675692267868112" at="19,0,20,0">
+        <var name="data" id="1206675692267915196" />
+        <var name="editorContext" id="7230129618820946377" />
+        <var name="selection" id="1206675692267915151" />
+      </scope>
+      <scope id="1206675692267915388" at="21,0,22,0">
+        <var name="editorContext" id="7230129618825270910" />
+        <var name="selection" id="1206675692267915451" />
+      </scope>
+      <scope id="1206675692267921806" at="29,69,30,61" />
+      <scope id="1206675692267915636" at="23,92,26,16">
+        <var name="copy" id="5734735567044058564" />
+      </scope>
+      <scope id="1206675692267921803" at="29,0,32,0">
+        <var name="editorContext" id="7230129618821273162" />
+        <var name="node" id="1206675692267921995" />
+      </scope>
+      <scope id="1206675692268004484" at="33,77,36,19">
+        <var name="support" id="1206675692275637369" />
+      </scope>
+      <scope id="1206675692267915633" at="23,0,28,0">
+        <var name="editorContext" id="7230129618825277413" />
+        <var name="selection" id="1206675692267915882" />
+      </scope>
+      <scope id="1206675692268004481" at="33,0,38,0">
+        <var name="editorContext" id="7230129618821271701" />
+        <var name="table" id="1206675692268005636" />
+      </scope>
+      <unit id="1206675692264612781" at="9,0,39,0" name="de.slisson.mps.tables.runtime.plugin.CopyPasteSupport" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692264612890">
+    <file name="TableData.java">
+      <node id="1206675692264613036" at="19,0,20,0" concept="4" trace="content" />
+      <node id="1206675692264613130" at="21,22,22,62" concept="3" />
+      <node id="1206675692264620941" at="25,30,26,19" concept="10" />
+      <node id="1206675692264640499" at="29,44,30,107" concept="10" />
+      <node id="1206675692264653711" at="33,28,34,52" concept="10" />
+      <node id="1206675692264640978" at="37,24,38,50" concept="10" />
+      <node id="1206675692264662822" at="42,20,43,15" concept="10" />
+      <node id="1206675692264666636" at="44,5,45,81" concept="10" />
+      <node id="1206675692264691017" at="49,20,50,15" concept="3" />
+      <node id="1206675692264693015" at="51,5,52,85" concept="3" />
+      <node id="1206675692264709938" at="55,24,56,102" concept="3" />
+      <node id="1206675692264827189" at="59,112,60,35" concept="3" />
+      <node id="1206675692264738877" at="63,142,64,24" concept="9" />
+      <node id="1206675692264758066" at="65,58,66,26" concept="9" />
+      <node id="1206675692264778697" at="67,56,68,50" concept="3" />
+      <node id="1206675692264797909" at="68,50,69,14" concept="3" />
+      <node id="1206675692264819171" at="70,7,71,12" concept="3" />
+      <node id="1206675692268555874" at="76,85,77,20" concept="3" />
+      <node id="1206675692268639429" at="78,93,79,66" concept="3" />
+      <node id="1206675692268687551" at="81,5,82,16" concept="10" />
+      <node id="1206675692268757104" at="85,61,86,49" concept="9" />
+      <node id="1206675692268870761" at="87,70,88,63" concept="9" />
+      <node id="1206675692268952277" at="89,52,90,58" concept="3" />
+      <node id="1206675692269093089" at="92,59,93,29" concept="3" />
+      <node id="1206675692269116688" at="95,5,96,23" concept="10" />
+      <node id="1206675692269163933" at="99,60,100,69" concept="10" />
+      <node id="1206675692269340438" at="103,78,104,48" concept="9" />
+      <node id="1206675692269482742" at="105,70,106,63" concept="9" />
+      <node id="1206675692269668893" at="108,39,109,53" concept="10" />
+      <node id="1206675692269708772" at="110,9,111,41" concept="10" />
+      <node id="1206675692269886370" at="113,59,114,38" concept="3" />
+      <node id="1206675692269938514" at="116,5,117,30" concept="10" />
+      <node id="1206675692264613086" at="21,0,24,0" concept="2" trace="TableData#()V" />
+      <node id="1206675692264620717" at="25,0,28,0" concept="8" trace="get#()Ljava/util/List;" />
+      <node id="1206675692264621728" at="29,0,32,0" concept="8" trace="get#(II)null" />
+      <node id="1206675692264653163" at="33,0,36,0" concept="8" trace="isEmpty#()Z" />
+      <node id="1206675692264639714" at="37,0,40,0" concept="8" trace="rowSize#()I" />
+      <node id="1206675692264651086" at="41,27,44,5" concept="7" />
+      <node id="1206675692264686742" at="48,34,51,5" concept="7" />
+      <node id="1206675692264690138" at="55,0,58,0" concept="8" trace="addRow#()V" />
+      <node id="1206675692264725031" at="59,0,62,0" concept="8" trace="forEach#(Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P3_E0;)V" />
+      <node id="1206675692268571630" at="77,20,80,7" concept="5" />
+      <node id="1206675692268921934" at="88,63,91,7" concept="6" />
+      <node id="1206675692269006022" at="91,7,94,7" concept="7" />
+      <node id="1206675692269142539" at="99,0,102,0" concept="8" trace="toFlatString#(Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;)Ljava/lang/String;" />
+      <node id="1206675692269632108" at="107,82,110,9" concept="7" />
+      <node id="1206675692269804299" at="112,56,115,7" concept="7" />
+      <node id="1206675692264764915" at="66,26,70,7" concept="6" />
+      <node id="1206675692264650088" at="41,0,47,0" concept="8" trace="columnSize#()I" />
+      <node id="1206675692264680416" at="48,0,54,0" concept="8" trace="addData#(null)V" />
+      <node id="1206675692265076137" at="75,151,81,5" concept="5" />
+      <node id="1206675692269526645" at="106,63,112,56" concept="3" />
+      <node id="1206675692264744910" at="64,24,72,5" concept="6" />
+      <node id="1206675692265056257" at="75,0,84,0" concept="8" trace="collect#(Lde/slisson/mps/tables/runtime/selection/UndirectedTableRange;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <node id="1206675692268783607" at="86,49,95,5" concept="5" />
+      <node id="1206675692264728958" at="63,0,74,0" concept="8" trace="forEach#(IILjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P3_E0;)V" />
+      <node id="1206675692269386368" at="104,48,116,5" concept="5" />
+      <node id="1206675692268718701" at="85,0,98,0" concept="8" trace="map#(Ljava/util/function/Function;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <node id="1206675692269234287" at="103,0,119,0" concept="8" trace="toFlatString#(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="1206675692264613089" at="21,22,22,62" />
+      <scope id="1206675692264620720" at="25,30,26,19" />
+      <scope id="1206675692264621731" at="29,44,30,107" />
+      <scope id="1206675692264653166" at="33,28,34,52" />
+      <scope id="1206675692264639717" at="37,24,38,50" />
+      <scope id="1206675692264651088" at="42,20,43,15" />
+      <scope id="1206675692264686744" at="49,20,50,15" />
+      <scope id="1206675692264690141" at="55,24,56,102" />
+      <scope id="1206675692264725034" at="59,112,60,35" />
+      <scope id="1206675692268571632" at="78,93,79,66" />
+      <scope id="1206675692268921940" at="89,52,90,58" />
+      <scope id="1206675692269006024" at="92,59,93,29" />
+      <scope id="1206675692269142542" at="99,60,100,69" />
+      <scope id="1206675692269632110" at="108,39,109,53" />
+      <scope id="1206675692269804301" at="113,59,114,38" />
+      <scope id="1206675692264764921" at="67,56,69,14" />
+      <scope id="1206675692264613086" at="21,0,24,0" />
+      <scope id="1206675692264620717" at="25,0,28,0" />
+      <scope id="1206675692264621728" at="29,0,32,0">
+        <var name="colIndex" id="1206675692264622428" />
+        <var name="rowindex" id="1206675692264622042" />
+      </scope>
+      <scope id="1206675692264653163" at="33,0,36,0" />
+      <scope id="1206675692264639714" at="37,0,40,0" />
+      <scope id="1206675692264690138" at="55,0,58,0" />
+      <scope id="1206675692264725031" at="59,0,62,0">
+        <var name="elementConsumer" id="1206675692264726242" />
+      </scope>
+      <scope id="1206675692268571630" at="77,20,80,7">
+        <var name="colIndex" id="1206675692268571633" />
+      </scope>
+      <scope id="1206675692268921934" at="88,63,91,7">
+        <var name="element" id="1206675692268921936" />
+      </scope>
+      <scope id="1206675692269142539" at="99,0,102,0">
+        <var name="separator" id="1206675692269150269" />
+      </scope>
+      <scope id="1206675692264650091" at="41,27,45,81" />
+      <scope id="1206675692264680419" at="48,34,52,85" />
+      <scope id="1206675692264764915" at="66,26,70,7">
+        <var name="element" id="1206675692264764917" />
+      </scope>
+      <scope id="1206675692265076139" at="76,85,80,7" />
+      <scope id="1206675692269606581" at="107,82,111,41" />
+      <scope id="1206675692264650088" at="41,0,47,0" />
+      <scope id="1206675692264680416" at="48,0,54,0">
+        <var name="element" id="1206675692264681215" />
+      </scope>
+      <scope id="1206675692264744916" at="65,58,71,12">
+        <var name="col" id="1206675692264758069" />
+      </scope>
+      <scope id="1206675692265076137" at="75,151,81,5">
+        <var name="rowIndex" id="1206675692265076138" />
+      </scope>
+      <scope id="1206675692265056260" at="75,151,82,16" />
+      <scope id="1206675692268783609" at="87,70,94,7">
+        <var name="row" id="5734735567044101016" />
+      </scope>
+      <scope id="1206675692264744910" at="64,24,72,5">
+        <var name="rowData" id="1206675692264744912" />
+      </scope>
+      <scope id="1206675692264728959" at="63,142,72,5">
+        <var name="row" id="1206675692264738880" />
+      </scope>
+      <scope id="1206675692265056257" at="75,0,84,0">
+        <var name="box" id="1206675692265060186" />
+        <var name="elementCollector" id="1206675692265063741" />
+      </scope>
+      <scope id="1206675692268783607" at="86,49,95,5">
+        <var name="i" id="1206675692268783610" />
+      </scope>
+      <scope id="1206675692269386370" at="105,70,115,7">
+        <var name="row" id="5734735567044157191" />
+      </scope>
+      <scope id="1206675692264728958" at="63,0,74,0">
+        <var name="colOffset" id="1206675692264736050" />
+        <var name="elementConsumer" id="1206675692264728962" />
+        <var name="rowOffset" id="1206675692264733773" />
+      </scope>
+      <scope id="1206675692268718704" at="85,61,96,23">
+        <var name="mappedTable" id="1206675692268757105" />
+      </scope>
+      <scope id="1206675692269386368" at="104,48,116,5">
+        <var name="i" id="1206675692269386371" />
+      </scope>
+      <scope id="1206675692268718701" at="85,0,98,0">
+        <var name="mapElementFun" id="1206675692268733480" />
+      </scope>
+      <scope id="1206675692269234290" at="103,78,117,30">
+        <var name="builder" id="1206675692269340439" />
+      </scope>
+      <scope id="1206675692269234287" at="103,0,119,0">
+        <var name="elementSeparator" id="1206675692269243261" />
+        <var name="lineSeparator" id="1206675692269253767" />
+      </scope>
+      <unit id="1206675692264612890" at="17,0,120,0" name="de.slisson.mps.tables.runtime.plugin.TableData" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692267926334">
+    <file name="CopyPasteManager.java">
+      <node id="1206675692267978436" at="12,78,13,58" concept="10" />
+      <node id="1206675692267935182" at="16,82,17,79" concept="9" />
+      <node id="1206675692267942447" at="18,35,19,156" concept="16" />
+      <node id="1206675692267972056" at="20,5,21,0" concept="12" />
+      <node id="1206675692267973733" at="21,0,22,28" concept="10" />
+      <node id="1206675692267984491" at="25,105,26,225" concept="10" />
+      <node id="1206675692267930006" at="12,0,15,0" concept="14" trace="isSupported#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1206675692267940629" at="17,79,20,5" concept="7" />
+      <node id="1206675692267939263" at="25,0,28,0" concept="14" trace="createIfSupported#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/CopyPasteSupport;" />
+      <node id="1206675692267933530" at="16,0,24,0" concept="14" trace="create#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/CopyPasteSupport;" />
+      <scope id="1206675692267930009" at="12,78,13,58" />
+      <scope id="1206675692267940631" at="18,35,19,156" />
+      <scope id="1206675692267939266" at="25,105,26,225" />
+      <scope id="1206675692267930006" at="12,0,15,0">
+        <var name="editorContext" id="7230129618821267142" />
+        <var name="node" id="1206675692267930971" />
+      </scope>
+      <scope id="1206675692267939263" at="25,0,28,0">
+        <var name="editorContext" id="7230129618821256578" />
+        <var name="node" id="1206675692267939705" />
+      </scope>
+      <scope id="1206675692267933533" at="16,82,22,28">
+        <var name="copyPasteSupport" id="5734735567044049525" />
+      </scope>
+      <scope id="1206675692267933530" at="16,0,24,0">
+        <var name="editorContext" id="7230129618821264031" />
+        <var name="node" id="1206675692267934496" />
+      </scope>
+      <unit id="1206675692267926334" at="11,0,29,0" name="de.slisson.mps.tables.runtime.plugin.CopyPasteManager" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692268042182">
+    <file name="ClipboardTableUtils.java">
+      <node id="1206675692268046008" at="17,0,18,0" concept="13" trace="SUPPORTED_FLAVOR" />
+      <node id="1206675692269974470" at="19,95,20,89" concept="9" />
+      <node id="1206675692270097591" at="20,89,21,55" concept="3" />
+      <node id="1206675692270096731" at="24,65,25,122" concept="10" />
+      <node id="1206675692269990932" at="28,127,29,28" concept="9" />
+      <node id="1206675692269992119" at="30,9,31,84" concept="3" />
+      <node id="1206675692270009448" at="32,58,33,36" concept="16" />
+      <node id="1206675692270044940" at="34,5,35,0" concept="12" />
+      <node id="1206675692270045539" at="35,0,36,104" concept="9" />
+      <node id="1206675692270063805" at="36,104,37,95" concept="10" />
+      <node id="1206675692270001561" at="40,43,41,60" concept="10" />
+      <node id="1206675692269983542" at="24,0,27,0" concept="14" trace="isSupportedFlavorAvailableInClipboard#()Z" />
+      <node id="1206675692270000713" at="40,0,43,0" concept="14" trace="getClipboard#()Ljava/awt/datatransfer/Clipboard;" />
+      <node id="1206675692268049114" at="19,0,23,0" concept="14" trace="putIntoOSClipboard#(Lde/slisson/mps/tables/runtime/plugin/TableData;Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;)V" />
+      <node id="1206675692269991880" at="29,28,34,5" concept="17" />
+      <node id="1206675692269988997" at="28,0,39,0" concept="14" trace="fromClipboard#(Lorg/jetbrains/mps/openapi/model/SNode;Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <scope id="1206675692269983545" at="24,65,25,122" />
+      <scope id="1206675692269991882" at="30,9,31,84" />
+      <scope id="1206675692270006435" at="32,58,33,36" />
+      <scope id="1206675692270000716" at="40,43,41,60" />
+      <scope id="1206675692268049117" at="19,95,21,55">
+        <var name="clipboardContent" id="5734735567044031453" />
+      </scope>
+      <scope id="1206675692270006432" at="32,5,34,5">
+        <var name="e" id="1206675692270006433" />
+      </scope>
+      <scope id="1206675692269983542" at="24,0,27,0" />
+      <scope id="1206675692270000713" at="40,0,43,0" />
+      <scope id="1206675692268049114" at="19,0,23,0">
+        <var name="data" id="1206675692268049332" />
+        <var name="separator" id="1206675692268050773" />
+      </scope>
+      <scope id="1206675692269989000" at="28,127,37,95">
+        <var name="clipboardContent" id="1206675692269990935" />
+        <var name="dataAsString" id="5734735567044036442" />
+      </scope>
+      <scope id="1206675692269988997" at="28,0,39,0">
+        <var name="editorContext" id="7230129618821061420" />
+        <var name="elementSeparator" id="1206675692269989523" />
+        <var name="table" id="1726102129427165866" />
+      </scope>
+      <unit id="1206675692268042182" at="15,0,44,0" name="de.slisson.mps.tables.runtime.plugin.ClipboardTableUtils" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692268067362">
+    <file name="TableDataSeparator.java">
+      <node id="5420360945728761724" at="11,60,12,31" concept="3" />
+      <node id="5420360945728810306" at="12,31,13,23" concept="3" />
+      <node id="5420360945728817611" at="13,23,14,37" concept="3" />
+      <node id="1206675692268067362" at="17,0,18,0" concept="4" trace="myLine" />
+      <node id="1206675692268067362" at="18,27,19,23" concept="10" />
+      <node id="1206675692268067362" at="21,39,22,24" concept="3" />
+      <node id="1206675692268067362" at="24,40,25,20" concept="3" />
+      <node id="1206675692268067362" at="25,20,26,17" concept="10" />
+      <node id="1206675692268067362" at="30,27,31,25" concept="10" />
+      <node id="1206675692268067362" at="33,37,34,24" concept="3" />
+      <node id="1206675692268067362" at="38,0,39,0" concept="4" trace="myElement" />
+      <node id="1206675692268067362" at="39,30,40,26" concept="10" />
+      <node id="1206675692268067362" at="42,42,43,27" concept="3" />
+      <node id="1206675692268067362" at="45,43,46,23" concept="3" />
+      <node id="1206675692268067362" at="46,23,47,17" concept="10" />
+      <node id="1206675692268067362" at="51,27,52,28" concept="10" />
+      <node id="1206675692268067362" at="54,37,55,27" concept="3" />
+      <node id="1206675692268067362" at="59,0,60,0" concept="4" trace="myDescription" />
+      <node id="1206675692268067362" at="60,34,61,30" concept="10" />
+      <node id="1206675692268067362" at="63,46,64,31" concept="3" />
+      <node id="1206675692268067362" at="66,47,67,27" concept="3" />
+      <node id="1206675692268067362" at="67,27,68,17" concept="10" />
+      <node id="1206675692268067362" at="72,27,73,32" concept="10" />
+      <node id="1206675692268067362" at="75,37,76,31" concept="3" />
+      <node id="1206675692268067362" at="18,0,21,0" concept="8" trace="getLine#()Ljava/lang/String;" />
+      <node id="1206675692268067362" at="21,0,24,0" concept="8" trace="_setLine#(Ljava/lang/String;)V" />
+      <node id="1206675692268067362" at="30,0,33,0" concept="8" trace="get#()Ljava/lang/String;" />
+      <node id="1206675692268067362" at="33,0,36,0" concept="8" trace="set#(Ljava/lang/String;)V" />
+      <node id="1206675692268067362" at="39,0,42,0" concept="8" trace="getElement#()Ljava/lang/String;" />
+      <node id="1206675692268067362" at="42,0,45,0" concept="8" trace="_setElement#(Ljava/lang/String;)V" />
+      <node id="1206675692268067362" at="51,0,54,0" concept="8" trace="get#()Ljava/lang/String;" />
+      <node id="1206675692268067362" at="54,0,57,0" concept="8" trace="set#(Ljava/lang/String;)V" />
+      <node id="1206675692268067362" at="60,0,63,0" concept="8" trace="getDescription#()Ljava/lang/String;" />
+      <node id="1206675692268067362" at="63,0,66,0" concept="8" trace="_setDescription#(Ljava/lang/String;)V" />
+      <node id="1206675692268067362" at="72,0,75,0" concept="8" trace="get#()Ljava/lang/String;" />
+      <node id="1206675692268067362" at="75,0,78,0" concept="8" trace="set#(Ljava/lang/String;)V" />
+      <node id="1206675692268067362" at="24,0,28,0" concept="8" trace="setLine#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1206675692268067362" at="45,0,49,0" concept="8" trace="setElement#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1206675692268067362" at="66,0,70,0" concept="8" trace="setDescription#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1206675692268069125" at="11,0,16,0" concept="2" trace="TableDataSeparator#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="1206675692268067362" at="28,41,36,6" concept="10" />
+      <node id="1206675692268067362" at="49,44,57,6" concept="10" />
+      <node id="1206675692268067362" at="70,48,78,6" concept="10" />
+      <node id="1206675692268067362" at="28,0,38,0" concept="8" trace="refToLine#()Ljetbrains/mps/references/Reference;" />
+      <node id="1206675692268067362" at="49,0,59,0" concept="8" trace="refToElement#()Ljetbrains/mps/references/Reference;" />
+      <node id="1206675692268067362" at="70,0,80,0" concept="8" trace="refToDescription#()Ljetbrains/mps/references/Reference;" />
+      <scope id="1206675692268067362" at="18,27,19,23" />
+      <scope id="1206675692268067362" at="21,39,22,24" />
+      <scope id="1206675692268067362" at="30,27,31,25" />
+      <scope id="1206675692268067362" at="33,37,34,24" />
+      <scope id="1206675692268067362" at="39,30,40,26" />
+      <scope id="1206675692268067362" at="42,42,43,27" />
+      <scope id="1206675692268067362" at="51,27,52,28" />
+      <scope id="1206675692268067362" at="54,37,55,27" />
+      <scope id="1206675692268067362" at="60,34,61,30" />
+      <scope id="1206675692268067362" at="63,46,64,31" />
+      <scope id="1206675692268067362" at="72,27,73,32" />
+      <scope id="1206675692268067362" at="75,37,76,31" />
+      <scope id="1206675692268067362" at="24,40,26,17" />
+      <scope id="1206675692268067362" at="45,43,47,17" />
+      <scope id="1206675692268067362" at="66,47,68,17" />
+      <scope id="1206675692268069128" at="11,60,14,37" />
+      <scope id="1206675692268067362" at="18,0,21,0" />
+      <scope id="1206675692268067362" at="21,0,24,0">
+        <var name="value" id="1206675692268067362" />
+      </scope>
+      <scope id="1206675692268067362" at="30,0,33,0" />
+      <scope id="1206675692268067362" at="33,0,36,0">
+        <var name="value" id="1206675692268067362" />
+      </scope>
+      <scope id="1206675692268067362" at="39,0,42,0" />
+      <scope id="1206675692268067362" at="42,0,45,0">
+        <var name="value" id="1206675692268067362" />
+      </scope>
+      <scope id="1206675692268067362" at="51,0,54,0" />
+      <scope id="1206675692268067362" at="54,0,57,0">
+        <var name="value" id="1206675692268067362" />
+      </scope>
+      <scope id="1206675692268067362" at="60,0,63,0" />
+      <scope id="1206675692268067362" at="63,0,66,0">
+        <var name="value" id="1206675692268067362" />
+      </scope>
+      <scope id="1206675692268067362" at="72,0,75,0" />
+      <scope id="1206675692268067362" at="75,0,78,0">
+        <var name="value" id="1206675692268067362" />
+      </scope>
+      <scope id="1206675692268067362" at="24,0,28,0">
+        <var name="value" id="1206675692268067362" />
+      </scope>
+      <scope id="1206675692268067362" at="45,0,49,0">
+        <var name="value" id="1206675692268067362" />
+      </scope>
+      <scope id="1206675692268067362" at="66,0,70,0">
+        <var name="value" id="1206675692268067362" />
+      </scope>
+      <scope id="1206675692268069125" at="11,0,16,0">
+        <var name="description" id="1206675692268070630" />
+        <var name="separator" id="1206675692268070512" />
+      </scope>
+      <scope id="1206675692268067362" at="28,41,36,6" />
+      <scope id="1206675692268067362" at="49,44,57,6" />
+      <scope id="1206675692268067362" at="70,48,78,6" />
+      <scope id="1206675692268067362" at="28,0,38,0" />
+      <scope id="1206675692268067362" at="49,0,59,0" />
+      <scope id="1206675692268067362" at="70,0,80,0" />
+      <unit id="1206675692268067362" at="29,15,36,5" name="de.slisson.mps.tables.runtime.plugin.TableDataSeparator$1" />
+      <unit id="1206675692268067362" at="50,15,57,5" name="de.slisson.mps.tables.runtime.plugin.TableDataSeparator$2" />
+      <unit id="1206675692268067362" at="71,15,78,5" name="de.slisson.mps.tables.runtime.plugin.TableDataSeparator$3" />
+      <unit id="1206675692268067362" at="7,0,81,0" name="de.slisson.mps.tables.runtime.plugin.TableDataSeparator" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692268105789">
+    <file name="TableDataParser.java">
+      <node id="1206675692268105789" at="8,0,9,0" concept="4" trace="mySeparator" />
+      <node id="1206675692268105789" at="9,44,10,28" concept="10" />
+      <node id="1206675692268105789" at="12,56,13,29" concept="3" />
+      <node id="1206675692268105789" at="15,69,16,25" concept="3" />
+      <node id="1206675692268105789" at="16,25,17,17" concept="10" />
+      <node id="1206675692268105789" at="21,39,22,30" concept="10" />
+      <node id="1206675692268105789" at="24,49,25,29" concept="3" />
+      <node id="1206675692268107955" at="30,56,31,33" concept="3" />
+      <node id="1206675692268121194" at="34,57,35,54" concept="9" />
+      <node id="1206675692268124816" at="35,54,36,0" concept="12" />
+      <node id="1206675692268126163" at="36,0,37,63" concept="9" />
+      <node id="1206675692268149588" at="38,31,39,21" concept="3" />
+      <node id="1206675692268154381" at="39,21,40,66" concept="9" />
+      <node id="1206675692268182371" at="41,39,42,67" concept="3" />
+      <node id="1206675692268200497" at="44,5,45,0" concept="12" />
+      <node id="1206675692268203637" at="45,0,46,17" concept="10" />
+      <node id="1206675692268105789" at="9,0,12,0" concept="8" trace="getSeparator#()Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;" />
+      <node id="1206675692268105789" at="12,0,15,0" concept="8" trace="_setSeparator#(Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;)V" />
+      <node id="1206675692268105789" at="21,0,24,0" concept="8" trace="get#()Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;" />
+      <node id="1206675692268105789" at="24,0,27,0" concept="8" trace="set#(Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;)V" />
+      <node id="1206675692268106655" at="30,0,33,0" concept="2" trace="TableDataParser#(Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;)V" />
+      <node id="1206675692268179119" at="40,66,43,7" concept="6" />
+      <node id="1206675692268105789" at="15,0,19,0" concept="8" trace="setSeparator#(Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;)Lde/slisson/mps/tables/runtime/plugin/TableDataSeparator;" />
+      <node id="1206675692268148306" at="37,63,44,5" concept="6" />
+      <node id="1206675692268105789" at="19,58,27,6" concept="10" />
+      <node id="1206675692268105789" at="19,0,29,0" concept="8" trace="refToSeparator#()Ljetbrains/mps/references/Reference;" />
+      <node id="1206675692268119603" at="34,0,48,0" concept="8" trace="fromString#(Ljava/lang/String;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <scope id="1206675692268105789" at="9,44,10,28" />
+      <scope id="1206675692268105789" at="12,56,13,29" />
+      <scope id="1206675692268105789" at="21,39,22,30" />
+      <scope id="1206675692268105789" at="24,49,25,29" />
+      <scope id="1206675692268106658" at="30,56,31,33" />
+      <scope id="1206675692268179125" at="41,39,42,67" />
+      <scope id="1206675692268105789" at="15,69,17,17" />
+      <scope id="1206675692268105789" at="9,0,12,0" />
+      <scope id="1206675692268105789" at="12,0,15,0">
+        <var name="value" id="1206675692268105789" />
+      </scope>
+      <scope id="1206675692268105789" at="21,0,24,0" />
+      <scope id="1206675692268105789" at="24,0,27,0">
+        <var name="value" id="1206675692268105789" />
+      </scope>
+      <scope id="1206675692268106655" at="30,0,33,0">
+        <var name="separator" id="1206675692268106871" />
+      </scope>
+      <scope id="1206675692268179119" at="40,66,43,7">
+        <var name="element" id="1206675692268179121" />
+      </scope>
+      <scope id="1206675692268105789" at="15,0,19,0">
+        <var name="value" id="1206675692268105789" />
+      </scope>
+      <scope id="1206675692268148312" at="38,31,43,7">
+        <var name="elements" id="1206675692268154384" />
+      </scope>
+      <scope id="1206675692268148306" at="37,63,44,5">
+        <var name="line" id="1206675692268148308" />
+      </scope>
+      <scope id="1206675692268105789" at="19,58,27,6" />
+      <scope id="1206675692268105789" at="19,0,29,0" />
+      <scope id="1206675692268119606" at="34,57,46,17">
+        <var name="lines" id="1206675692268126166" />
+        <var name="table" id="1206675692268121195" />
+      </scope>
+      <scope id="1206675692268119603" at="34,0,48,0">
+        <var name="rawString" id="1206675692268120795" />
+      </scope>
+      <unit id="1206675692268105789" at="20,15,27,5" name="de.slisson.mps.tables.runtime.plugin.TableDataParser$1" />
+      <unit id="1206675692268105789" at="7,0,49,0" name="de.slisson.mps.tables.runtime.plugin.TableDataParser" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692268204943">
+    <file name="TableTransformationManager.java">
+      <node id="1206675692268253738" at="22,105,23,269" concept="9" />
+      <node id="1206675692268415346" at="24,31,25,74" concept="16" />
+      <node id="1206675692268265017" at="26,5,27,0" concept="12" />
+      <node id="1726102129427620702" at="28,77,29,38" concept="3" />
+      <node id="1206675692268320936" at="29,38,30,54" concept="9" />
+      <node id="1206675692268388740" at="31,33,32,26" concept="10" />
+      <node id="1206675692268390913" at="34,5,35,0" concept="12" />
+      <node id="1206675692268394859" at="35,0,36,16" concept="10" />
+      <node id="8992099919214637947" at="39,119,40,60" concept="9" />
+      <node id="1206675692268408018" at="40,60,41,260" concept="9" />
+      <node id="8992099919219460621" at="43,27,44,18" concept="10" />
+      <node id="8992099919219460623" at="45,7,46,0" concept="12" />
+      <node id="3041672038272620834" at="47,103,48,39" concept="9" />
+      <node id="3041672038272663557" at="50,43,51,54" concept="10" />
+      <node id="3041672038272516828" at="55,29,56,45" concept="11" />
+      <node id="3041672038272516835" at="56,45,57,86" concept="10" />
+      <node id="8992099919219460642" at="58,7,59,0" concept="12" />
+      <node id="8992099919219460643" at="59,0,60,52" concept="9" />
+      <node id="8992099919219460651" at="60,52,61,18" concept="10" />
+      <node id="1206675692268408045" at="62,5,63,0" concept="12" />
+      <node id="1726102129428454442" at="63,0,64,36" concept="3" />
+      <node id="1206675692268470789" at="64,36,65,64" concept="10" />
+      <node id="1206675692268499254" at="68,138,69,75" concept="10" />
+      <node id="1726102129427827935" at="72,156,73,79" concept="10" />
+      <node id="1206675692268256515" at="23,269,26,5" concept="7" />
+      <node id="1206675692268381375" at="30,54,33,7" concept="7" />
+      <node id="8992099919219460616" at="42,30,45,7" concept="7" />
+      <node id="3041672038272659912" at="50,0,53,0" concept="8" trace="invoke#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Boolean;" />
+      <node id="1206675692268494664" at="68,0,71,0" concept="14" trace="stringDataToNodeData#(Lorg/jetbrains/mps/openapi/model/SNode;Lde/slisson/mps/tables/runtime/plugin/TableData;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <node id="1726102129427658250" at="72,0,75,0" concept="14" trace="nodeDataToStringData#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Lde/slisson/mps/tables/runtime/plugin/TableData;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <node id="3041672038272516826" at="54,9,58,7" concept="7" />
+      <node id="3041672038272626814" at="48,39,53,11" concept="10" />
+      <node id="1206675692268356159" at="27,0,34,5" concept="6" />
+      <node id="8992099919219460624" at="46,0,54,9" concept="9" />
+      <node id="1726102129427051757" at="22,0,38,0" concept="14" trace="dataToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1206675692268464139" at="41,260,62,5" concept="7" />
+      <node id="1726102129427707147" at="39,0,67,0" concept="14" trace="nodeToData#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <scope id="1206675692268256517" at="24,31,25,74" />
+      <scope id="1206675692268381377" at="31,33,32,26" />
+      <scope id="8992099919219460620" at="43,27,44,18" />
+      <scope id="3041672038272659913" at="50,43,51,54" />
+      <scope id="1206675692268494667" at="68,138,69,75" />
+      <scope id="1726102129427658253" at="72,156,73,79" />
+      <scope id="3041672038272516827" at="55,29,57,86" />
+      <scope id="3041672038272659912" at="50,0,53,0">
+        <var name="it" id="3041672038272659912" />
+      </scope>
+      <scope id="1206675692268494664" at="68,0,71,0">
+        <var name="editorContext" id="7230129618821040342" />
+        <var name="table" id="1726102129427210068" />
+        <var name="tableData" id="1206675692268497158" />
+      </scope>
+      <scope id="1726102129427658250" at="72,0,75,0">
+        <var name="editorContext" id="7230129618821044693" />
+        <var name="selection" id="8992099919214660371" />
+        <var name="tableData" id="1726102129427676839" />
+      </scope>
+      <scope id="1206675692268356165" at="28,77,33,7">
+        <var name="parsedNode" id="1206675692268320937" />
+      </scope>
+      <scope id="8992099919219460633" at="47,103,53,11">
+        <var name="gridNode" id="3041672038272620835" />
+      </scope>
+      <scope id="1206675692268356159" at="27,0,34,5">
+        <var name="transformer" id="1206675692268356161" />
+      </scope>
+      <scope id="1726102129427051760" at="22,105,36,16">
+        <var name="transformers" id="1206675692268253739" />
+      </scope>
+      <scope id="1726102129427051757" at="22,0,38,0">
+        <var name="data" id="1726102129427070662" />
+        <var name="editorContext" id="7230129618821015956" />
+        <var name="tableNode" id="1726102129427073153" />
+      </scope>
+      <scope id="1206675692268464140" at="42,30,61,18">
+        <var name="nodeCell" id="8992099919219460625" />
+        <var name="text" id="8992099919219460644" />
+      </scope>
+      <scope id="1726102129427707150" at="39,119,65,64">
+        <var name="tableNode" id="8992099919214637948" />
+        <var name="transformer" id="1206675692268408019" />
+      </scope>
+      <scope id="1726102129427707147" at="39,0,67,0">
+        <var name="editorContext" id="8992099919200825316" />
+        <var name="node" id="1726102129427731657" />
+        <var name="selection" id="8992099919215566258" />
+      </scope>
+      <unit id="3041672038272659912" at="49,129,53,9" name="de.slisson.mps.tables.runtime.plugin.TableTransformationManager$1" />
+      <unit id="1206675692268204943" at="20,0,76,0" name="de.slisson.mps.tables.runtime.plugin.TableTransformationManager" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692268212740">
+    <file name="DataTransformer.java">
+      <node id="1206675692268213529" at="17,0,18,0" concept="8" trace="getPriority#()I" />
+      <node id="1726102129426954426" at="19,0,20,0" concept="8" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1726102129426973770" at="21,0,22,0" concept="8" trace="setTable#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1206675692268214570" at="23,0,24,0" concept="8" trace="fromString#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1726102129427474455" at="26,25,27,16" concept="10" />
+      <node id="1726102129427474457" at="28,5,29,0" concept="12" />
+      <node id="3041672038272682096" at="30,101,31,37" concept="9" />
+      <node id="3041672038272682110" at="33,47,34,58" concept="10" />
+      <node id="3041672038272503150" at="38,27,39,43" concept="11" />
+      <node id="3041672038272505899" at="39,43,40,84" concept="10" />
+      <node id="3041672038272498158" at="41,5,42,0" concept="12" />
+      <node id="8992099919215067054" at="42,0,43,50" concept="9" />
+      <node id="8992099919215067062" at="43,50,44,16" concept="10" />
+      <node id="1726102129427474450" at="25,105,28,5" concept="7" />
+      <node id="3041672038272682108" at="33,0,36,0" concept="8" trace="invoke#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Boolean;" />
+      <node id="3041672038272499773" at="37,7,41,5" concept="7" />
+      <node id="3041672038272682102" at="31,37,36,9" concept="10" />
+      <node id="8992099919215067045" at="29,0,37,7" concept="9" />
+      <node id="1206675692268217029" at="25,0,46,0" concept="8" trace="asString#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <scope id="1206675692268213529" at="17,0,18,0" />
+      <scope id="1726102129426954426" at="19,0,20,0">
+        <var name="editorContext" id="7230129618821003704" />
+        <var name="node" id="3041672038273621635" />
+      </scope>
+      <scope id="1726102129426973770" at="21,0,22,0">
+        <var name="table" id="1726102129426973774" />
+      </scope>
+      <scope id="1206675692268214570" at="23,0,24,0">
+        <var name="data" id="1206675692268215739" />
+      </scope>
+      <scope id="1726102129427474454" at="26,25,27,16" />
+      <scope id="3041672038272682109" at="33,47,34,58" />
+      <scope id="3041672038272499775" at="38,27,40,84" />
+      <scope id="3041672038272682108" at="33,0,36,0">
+        <var name="gridNode" id="3041672038272682108" />
+      </scope>
+      <scope id="8992099919215625334" at="30,101,36,9">
+        <var name="gridNode" id="3041672038272682097" />
+      </scope>
+      <scope id="1206675692268217032" at="25,105,44,16">
+        <var name="nodeCell" id="8992099919215067046" />
+        <var name="text" id="8992099919215067055" />
+      </scope>
+      <scope id="1206675692268217029" at="25,0,46,0">
+        <var name="editorContext" id="7230129618820999315" />
+        <var name="node" id="1206675692268218085" />
+        <var name="selection" id="8992099919215070234" />
+      </scope>
+      <unit id="3041672038272682108" at="32,127,36,7" name="de.slisson.mps.tables.runtime.plugin.DataTransformer$1" />
+      <unit id="1206675692268212740" at="16,0,47,0" name="de.slisson.mps.tables.runtime.plugin.DataTransformer" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692271421042">
+    <file name="TableCopyStorage.java">
+      <node id="2274687476316705844" at="13,0,14,0" concept="13" trace="INSTANCE" />
+      <node id="2274687476316711384" at="15,0,16,0" concept="4" trace="storage" />
+      <node id="2274687476316711954" at="17,48,18,20" concept="10" />
+      <node id="6651894261136726187" at="21,42,22,19" concept="3" />
+      <node id="6651894261136725622" at="25,33,26,19" concept="10" />
+      <node id="3041672038272434357" at="29,23,30,19" concept="3" />
+      <node id="6651894261136724555" at="33,30,34,27" concept="10" />
+      <node id="6651894261136730591" at="17,0,20,0" concept="14" trace="getInstance#()Lde/slisson/mps/tables/runtime/plugin/TableCopyStorage;" />
+      <node id="6651894261136726184" at="21,0,24,0" concept="8" trace="put#(Lde/slisson/mps/tables/runtime/plugin/TableData;)V" />
+      <node id="6651894261136725619" at="25,0,28,0" concept="8" trace="get#()Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <node id="3041672038272433798" at="29,0,32,0" concept="8" trace="clear#()V" />
+      <node id="6651894261136724552" at="33,0,36,0" concept="8" trace="isPresent#()Z" />
+      <scope id="6651894261136730594" at="17,48,18,20" />
+      <scope id="6651894261136726186" at="21,42,22,19" />
+      <scope id="6651894261136725621" at="25,33,26,19" />
+      <scope id="3041672038272433801" at="29,23,30,19" />
+      <scope id="6651894261136724554" at="33,30,34,27" />
+      <scope id="6651894261136730591" at="17,0,20,0" />
+      <scope id="6651894261136726184" at="21,0,24,0">
+        <var name="data" id="6651894261136726192" />
+      </scope>
+      <scope id="6651894261136725619" at="25,0,28,0" />
+      <scope id="3041672038272433798" at="29,0,32,0" />
+      <scope id="6651894261136724552" at="33,0,36,0" />
+      <unit id="1206675692271421042" at="11,0,37,0" name="de.slisson.mps.tables.runtime.plugin.TableCopyStorage" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/3041672038272188327">
+    <file name="ClipboardListener_AppPluginPart.java">
+      <node id="3041672038272416425" at="14,102,15,45" concept="3" />
+      <node id="3041672038272355095" at="21,22,22,0" concept="12" />
+      <node id="3041672038272217264" at="22,0,23,134" concept="3" />
+      <node id="3041672038272280757" at="26,25,27,111" concept="3" />
+      <node id="3041672038272188327" at="18,0,20,0" concept="2" trace="ClipboardListener_AppPluginPart#()V" />
+      <node id="3041672038272252711" at="13,0,17,0" concept="8" trace="contentChanged#(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/Transferable;)V" />
+      <node id="3041672038272188327" at="25,0,29,0" concept="8" trace="dispose#()V" />
+      <node id="3041672038272188327" at="20,0,25,0" concept="8" trace="init#()V" />
+      <node id="3041672038272188328" at="12,0,18,0" concept="4" trace="listener" />
+      <scope id="3041672038272188327" at="18,44,18,44" />
+      <scope id="3041672038272252720" at="14,102,15,45" />
+      <scope id="3041672038272280237" at="26,25,27,111" />
+      <scope id="3041672038272188327" at="18,0,20,0" />
+      <scope id="3041672038272216852" at="21,22,23,134" />
+      <scope id="3041672038272252711" at="13,0,17,0">
+        <var name="newTransferable" id="3041672038272252718" />
+        <var name="oldTransferable" id="3041672038272252715" />
+      </scope>
+      <scope id="3041672038272188327" at="25,0,29,0" />
+      <scope id="3041672038272188327" at="20,0,25,0" />
+      <unit id="3041672038272252695" at="12,65,17,3" name="de.slisson.mps.tables.runtime.plugin.ClipboardListener_AppPluginPart$1" />
+      <unit id="3041672038272188327" at="11,0,30,0" name="de.slisson.mps.tables.runtime.plugin.ClipboardListener_AppPluginPart" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="3041672038272188327" at="37,66,38,53" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/5766368519609678261">
+    <file name="InsertTableColumnAfter_Action.java">
+      <node id="5766368519609678261" at="17,0,18,0" concept="13" trace="ICON" />
+      <node id="5766368519609678261" at="19,42,20,61" concept="15" />
+      <node id="5766368519609678261" at="20,61,21,35" concept="3" />
+      <node id="5766368519609678261" at="21,35,22,57" concept="3" />
+      <node id="5766368519609678261" at="25,32,26,16" concept="10" />
+      <node id="7908435319558078222" at="29,87,30,166" concept="10" />
+      <node id="5766368519609678261" at="33,89,34,85" concept="3" />
+      <node id="5766368519609678261" at="38,53,39,19" concept="10" />
+      <node id="5766368519609678276" at="41,5,42,66" concept="9" />
+      <node id="5766368519609678277" at="43,22,44,21" concept="10" />
+      <node id="5766368519609678278" at="47,5,48,72" concept="9" />
+      <node id="5766368519609678279" at="49,22,50,21" concept="10" />
+      <node id="5766368519609678261" at="52,5,53,16" concept="10" />
+      <node id="7908435319558081247" at="56,96,57,156" concept="3" />
+      <node id="5766368519609678261" at="37,95,40,5" concept="7" />
+      <node id="5766368519609678277" at="42,66,45,7" concept="7" />
+      <node id="5766368519609678279" at="48,72,51,7" concept="7" />
+      <node id="5766368519609678261" at="24,0,28,0" concept="8" trace="isDumbAware#()Z" />
+      <node id="5766368519609678261" at="28,0,32,0" concept="8" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="5766368519609678261" at="32,0,36,0" concept="8" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5766368519609678261" at="55,0,59,0" concept="8" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5766368519609678261" at="19,0,24,0" concept="2" trace="InsertTableColumnAfter_Action#()V" />
+      <node id="5766368519609678276" at="40,5,46,5" concept="1" />
+      <node id="5766368519609678278" at="46,5,52,5" concept="1" />
+      <node id="5766368519609678261" at="36,0,55,0" concept="8" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="5766368519609678261" at="25,32,26,16" />
+      <scope id="5766368519609678281" at="29,87,30,166" />
+      <scope id="5766368519609678261" at="33,89,34,85" />
+      <scope id="5766368519609678261" at="38,53,39,19" />
+      <scope id="5766368519609678277" at="43,22,44,21" />
+      <scope id="5766368519609678279" at="49,22,50,21" />
+      <scope id="5766368519609678261" at="56,96,57,156" />
+      <scope id="5766368519609678261" at="19,42,22,57" />
+      <scope id="5766368519609678261" at="24,0,28,0" />
+      <scope id="5766368519609678261" at="28,0,32,0">
+        <var name="_params" id="5766368519609678261" />
+        <var name="event" id="5766368519609678261" />
+      </scope>
+      <scope id="5766368519609678261" at="32,0,36,0">
+        <var name="_params" id="5766368519609678261" />
+        <var name="event" id="5766368519609678261" />
+      </scope>
+      <scope id="5766368519609678276" at="41,5,45,7">
+        <var name="p" id="5766368519609678276" />
+      </scope>
+      <scope id="5766368519609678278" at="47,5,51,7">
+        <var name="p" id="5766368519609678278" />
+      </scope>
+      <scope id="5766368519609678261" at="55,0,59,0">
+        <var name="_params" id="5766368519609678261" />
+        <var name="event" id="5766368519609678261" />
+      </scope>
+      <scope id="5766368519609678261" at="19,0,24,0" />
+      <scope id="5766368519609678261" at="37,95,53,16" />
+      <scope id="5766368519609678261" at="36,0,55,0">
+        <var name="_params" id="5766368519609678261" />
+        <var name="event" id="5766368519609678261" />
+      </scope>
+      <unit id="5766368519609678261" at="16,0,60,0" name="de.slisson.mps.tables.runtime.plugin.InsertTableColumnAfter_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="5766368519609678261" at="25,43,26,51" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/5766368519609678295">
+    <file name="InsertTableColumnBefore_Action.java">
+      <node id="5766368519609678295" at="17,0,18,0" concept="13" trace="ICON" />
+      <node id="5766368519609678295" at="19,43,20,62" concept="15" />
+      <node id="5766368519609678295" at="20,62,21,35" concept="3" />
+      <node id="5766368519609678295" at="21,35,22,57" concept="3" />
+      <node id="5766368519609678295" at="25,32,26,16" concept="10" />
+      <node id="7908435319558071791" at="29,87,30,165" concept="10" />
+      <node id="5766368519609678295" at="33,89,34,85" concept="3" />
+      <node id="5766368519609678295" at="38,53,39,19" concept="10" />
+      <node id="5766368519609678310" at="41,5,42,66" concept="9" />
+      <node id="5766368519609678311" at="43,22,44,21" concept="10" />
+      <node id="5766368519609678312" at="47,5,48,72" concept="9" />
+      <node id="5766368519609678313" at="49,22,50,21" concept="10" />
+      <node id="5766368519609678295" at="52,5,53,16" concept="10" />
+      <node id="7908435319558076418" at="56,96,57,155" concept="3" />
+      <node id="5766368519609678295" at="37,95,40,5" concept="7" />
+      <node id="5766368519609678311" at="42,66,45,7" concept="7" />
+      <node id="5766368519609678313" at="48,72,51,7" concept="7" />
+      <node id="5766368519609678295" at="24,0,28,0" concept="8" trace="isDumbAware#()Z" />
+      <node id="5766368519609678295" at="28,0,32,0" concept="8" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="5766368519609678295" at="32,0,36,0" concept="8" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5766368519609678295" at="55,0,59,0" concept="8" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5766368519609678295" at="19,0,24,0" concept="2" trace="InsertTableColumnBefore_Action#()V" />
+      <node id="5766368519609678310" at="40,5,46,5" concept="1" />
+      <node id="5766368519609678312" at="46,5,52,5" concept="1" />
+      <node id="5766368519609678295" at="36,0,55,0" concept="8" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="5766368519609678295" at="25,32,26,16" />
+      <scope id="5766368519609678315" at="29,87,30,165" />
+      <scope id="5766368519609678295" at="33,89,34,85" />
+      <scope id="5766368519609678295" at="38,53,39,19" />
+      <scope id="5766368519609678311" at="43,22,44,21" />
+      <scope id="5766368519609678313" at="49,22,50,21" />
+      <scope id="5766368519609678295" at="56,96,57,155" />
+      <scope id="5766368519609678295" at="19,43,22,57" />
+      <scope id="5766368519609678295" at="24,0,28,0" />
+      <scope id="5766368519609678295" at="28,0,32,0">
+        <var name="_params" id="5766368519609678295" />
+        <var name="event" id="5766368519609678295" />
+      </scope>
+      <scope id="5766368519609678295" at="32,0,36,0">
+        <var name="_params" id="5766368519609678295" />
+        <var name="event" id="5766368519609678295" />
+      </scope>
+      <scope id="5766368519609678310" at="41,5,45,7">
+        <var name="p" id="5766368519609678310" />
+      </scope>
+      <scope id="5766368519609678312" at="47,5,51,7">
+        <var name="p" id="5766368519609678312" />
+      </scope>
+      <scope id="5766368519609678295" at="55,0,59,0">
+        <var name="_params" id="5766368519609678295" />
+        <var name="event" id="5766368519609678295" />
+      </scope>
+      <scope id="5766368519609678295" at="19,0,24,0" />
+      <scope id="5766368519609678295" at="37,95,53,16" />
+      <scope id="5766368519609678295" at="36,0,55,0">
+        <var name="_params" id="5766368519609678295" />
+        <var name="event" id="5766368519609678295" />
+      </scope>
+      <unit id="5766368519609678295" at="16,0,60,0" name="de.slisson.mps.tables.runtime.plugin.InsertTableColumnBefore_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="5766368519609678295" at="26,51,27,52" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/7908435319565520658">
+    <file name="DeleteTableColumn_Action.java">
+      <node id="7908435319565520658" at="18,0,19,0" concept="13" trace="ICON" />
+      <node id="7908435319565520658" at="20,37,21,43" concept="15" />
+      <node id="7908435319565520658" at="21,43,22,35" concept="3" />
+      <node id="7908435319565520658" at="22,35,23,57" concept="3" />
+      <node id="7908435319565520658" at="26,32,27,16" concept="10" />
+      <node id="7908435319565873524" at="30,87,31,159" concept="10" />
+      <node id="7908435319565520658" at="34,89,35,85" concept="3" />
+      <node id="7908435319565520658" at="39,53,40,19" concept="10" />
+      <node id="7908435319565520672" at="42,5,43,66" concept="9" />
+      <node id="7908435319565520673" at="44,22,45,21" concept="10" />
+      <node id="7908435319565520674" at="48,5,49,72" concept="9" />
+      <node id="7908435319565520675" at="50,22,51,21" concept="10" />
+      <node id="7908435319565520658" at="53,5,54,16" concept="10" />
+      <node id="7908435319565878217" at="57,96,58,149" concept="3" />
+      <node id="7908435319565520658" at="38,95,41,5" concept="7" />
+      <node id="7908435319565520673" at="43,66,46,7" concept="7" />
+      <node id="7908435319565520675" at="49,72,52,7" concept="7" />
+      <node id="7908435319565520658" at="25,0,29,0" concept="8" trace="isDumbAware#()Z" />
+      <node id="7908435319565520658" at="29,0,33,0" concept="8" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7908435319565520658" at="33,0,37,0" concept="8" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7908435319565520658" at="56,0,60,0" concept="8" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7908435319565520658" at="20,0,25,0" concept="2" trace="DeleteTableColumn_Action#()V" />
+      <node id="7908435319565520672" at="41,5,47,5" concept="1" />
+      <node id="7908435319565520674" at="47,5,53,5" concept="1" />
+      <node id="7908435319565520658" at="37,0,56,0" concept="8" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7908435319565520658" at="26,32,27,16" />
+      <scope id="7908435319565520677" at="30,87,31,159" />
+      <scope id="7908435319565520658" at="34,89,35,85" />
+      <scope id="7908435319565520658" at="39,53,40,19" />
+      <scope id="7908435319565520673" at="44,22,45,21" />
+      <scope id="7908435319565520675" at="50,22,51,21" />
+      <scope id="7908435319565520658" at="57,96,58,149" />
+      <scope id="7908435319565520658" at="20,37,23,57" />
+      <scope id="7908435319565520658" at="25,0,29,0" />
+      <scope id="7908435319565520658" at="29,0,33,0">
+        <var name="_params" id="7908435319565520658" />
+        <var name="event" id="7908435319565520658" />
+      </scope>
+      <scope id="7908435319565520658" at="33,0,37,0">
+        <var name="_params" id="7908435319565520658" />
+        <var name="event" id="7908435319565520658" />
+      </scope>
+      <scope id="7908435319565520672" at="42,5,46,7">
+        <var name="p" id="7908435319565520672" />
+      </scope>
+      <scope id="7908435319565520674" at="48,5,52,7">
+        <var name="p" id="7908435319565520674" />
+      </scope>
+      <scope id="7908435319565520658" at="56,0,60,0">
+        <var name="_params" id="7908435319565520658" />
+        <var name="event" id="7908435319565520658" />
+      </scope>
+      <scope id="7908435319565520658" at="20,0,25,0" />
+      <scope id="7908435319565520658" at="38,95,54,16" />
+      <scope id="7908435319565520658" at="37,0,56,0">
+        <var name="_params" id="7908435319565520658" />
+        <var name="event" id="7908435319565520658" />
+      </scope>
+      <unit id="7908435319565520658" at="17,0,61,0" name="de.slisson.mps.tables.runtime.plugin.DeleteTableColumn_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="7908435319565520658" at="23,29,24,46" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8034681417260764858">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8034681417260764858" at="12,0,13,0" concept="4" trace="myId" />
+      <node id="8034681417260764858" at="18,27,19,16" concept="10" />
+      <node id="8034681417260764858" at="22,30,23,29" concept="11" />
+      <node id="8034681417260764858" at="29,49,30,13" concept="11" />
+      <node id="8034681417260764858" at="14,0,16,0" concept="2" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="8034681417260764858" at="33,0,36,0" concept="8" trace="adjustRegularGroups#()V" />
+      <node id="8034681417260764858" at="17,0,21,0" concept="8" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="8034681417260764858" at="36,0,40,0" concept="8" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <node id="8034681417260764858" at="22,0,33,0" concept="8" trace="createGroups#()V" />
+      <scope id="8034681417260764858" at="14,38,14,38" />
+      <scope id="8034681417260764858" at="18,27,19,16" />
+      <scope id="8034681417260764858" at="33,37,34,84" />
+      <scope id="8034681417260764858" at="37,66,38,53" />
+      <scope id="8034681417260764858" at="14,0,16,0" />
+      <scope id="8034681417260764858" at="33,0,36,0" />
+      <scope id="8034681417260764858" at="17,0,21,0" />
+      <scope id="8034681417260764858" at="36,0,40,0">
+        <var name="parts" id="8034681417260764858" />
+      </scope>
+      <scope id="8034681417260764858" at="22,30,31,49" />
+      <scope id="8034681417260764858" at="22,0,33,0" />
+      <unit id="8034681417260764858" at="11,0,41,0" name="de.slisson.mps.tables.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8034681417260770640">
+    <file name="DragSelectionHandlerEP_extension.java">
+      <node id="8034681417260770640" at="9,45,10,68" concept="15" />
+      <node id="8034681417261326918" at="15,38,16,44" concept="10" />
+      <node id="8034681417260770640" at="9,0,12,0" concept="2" trace="DragSelectionHandlerEP_extension#()V" />
+      <node id="4942323135816132606" at="15,0,18,0" concept="0" trace="get#()Lde/itemis/mps/selection/runtime/mouse/IDragSelectionHandler;" />
+      <scope id="8034681417260770640" at="9,45,10,68" />
+      <scope id="4942323135816132608" at="15,38,16,44" />
+      <scope id="8034681417260770640" at="9,0,12,0" />
+      <scope id="4942323135816132606" at="15,0,18,0" />
+      <unit id="8034681417260770640" at="8,0,19,0" name="de.slisson.mps.tables.runtime.plugin.DragSelectionHandlerEP_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8034681417260787182">
+    <file name="TableRangeSelectionHandler.java">
+      <node id="8034681417261414650" at="16,149,17,172" concept="9" />
+      <node id="8034681417261447458" at="18,31,19,18" concept="10" />
+      <node id="8034681417261419980" at="20,5,21,168" concept="9" />
+      <node id="8034681417261454579" at="22,29,23,18" concept="10" />
+      <node id="8034681417261464387" at="25,59,26,18" concept="10" />
+      <node id="8034681417261935048" at="27,5,28,30" concept="11" />
+      <node id="8034681417261933058" at="29,89,30,18" concept="10" />
+      <node id="8034681417261923527" at="31,5,32,0" concept="12" />
+      <node id="8034681417261488382" at="32,0,33,153" concept="10" />
+      <node id="8034681417261445469" at="17,172,20,5" concept="7" />
+      <node id="8034681417261452436" at="21,168,24,5" concept="7" />
+      <node id="8034681417261421826" at="24,5,27,5" concept="7" />
+      <node id="8034681417261924498" at="28,30,31,5" concept="7" />
+      <node id="8034681417260787287" at="15,0,35,0" concept="8" trace="createSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;IIIILjetbrains/mps/openapi/editor/EditorComponent;)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <scope id="8034681417261445471" at="18,31,19,18" />
+      <scope id="8034681417261452438" at="22,29,23,18" />
+      <scope id="8034681417261421828" at="25,59,26,18" />
+      <scope id="8034681417261924500" at="29,89,30,18" />
+      <scope id="8034681417260787306" at="16,149,33,153">
+        <var name="fromGridCell" id="8034681417261414651" />
+        <var name="toGridCell" id="8034681417261419981" />
+      </scope>
+      <scope id="8034681417260787287" at="15,0,35,0">
+        <var name="editorComponent" id="8034681417260787300" />
+        <var name="fromCell" id="8034681417260787288" />
+        <var name="fromX" id="8034681417260787292" />
+        <var name="fromY" id="8034681417260787294" />
+        <var name="toCell" id="8034681417260787290" />
+        <var name="toX" id="8034681417260787296" />
+        <var name="toY" id="8034681417260787298" />
+      </scope>
+      <unit id="8034681417260787182" at="14,0,36,0" name="de.slisson.mps.tables.runtime.plugin.TableRangeSelectionHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8034681417261344668">
+    <file name="InstanceOfCondition.java">
+      <node id="8034681417261375753" at="9,0,10,0" concept="4" trace="myType" />
+      <node id="8034681417261389696" at="11,42,12,18" concept="3" />
+      <node id="8034681417261393753" at="15,27,16,32" concept="10" />
+      <node id="8034681417261384985" at="11,0,14,0" concept="2" trace="InstanceOfCondition#(Ljava/lang/Class;)V" />
+      <node id="8034681417261367055" at="15,0,18,0" concept="8" trace="met#(null)Z" />
+      <scope id="8034681417261384989" at="11,42,12,18" />
+      <scope id="8034681417261367062" at="15,27,16,32" />
+      <scope id="8034681417261384985" at="11,0,14,0">
+        <var name="type" id="8034681417261389886" />
+      </scope>
+      <scope id="8034681417261367055" at="15,0,18,0">
+        <var name="t" id="8034681417261367059" />
+      </scope>
+      <unit id="8034681417261344668" at="7,0,19,0" name="de.slisson.mps.tables.runtime.plugin.InstanceOfCondition" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8915588640828114661">
+    <file name="DeleteTableRow_Action.java">
+      <node id="8915588640828114661" at="18,0,19,0" concept="13" trace="ICON" />
+      <node id="8915588640828114661" at="20,34,21,40" concept="15" />
+      <node id="8915588640828114661" at="21,40,22,35" concept="3" />
+      <node id="8915588640828114661" at="22,35,23,57" concept="3" />
+      <node id="8915588640828114661" at="26,32,27,16" concept="10" />
+      <node id="8915588640831999540" at="30,87,31,210" concept="10" />
+      <node id="8915588640828114661" at="34,89,35,85" concept="3" />
+      <node id="8915588640828114661" at="39,53,40,19" concept="10" />
+      <node id="8915588640828114776" at="42,5,43,66" concept="9" />
+      <node id="8915588640828114777" at="44,22,45,21" concept="10" />
+      <node id="8915588640832007575" at="48,5,49,72" concept="9" />
+      <node id="8915588640832007576" at="50,22,51,21" concept="10" />
+      <node id="8915588640828114661" at="53,5,54,16" concept="10" />
+      <node id="8915588640832055542" at="57,96,58,200" concept="3" />
+      <node id="8915588640828114661" at="38,95,41,5" concept="7" />
+      <node id="8915588640828114777" at="43,66,46,7" concept="7" />
+      <node id="8915588640832007576" at="49,72,52,7" concept="7" />
+      <node id="8915588640828114661" at="25,0,29,0" concept="8" trace="isDumbAware#()Z" />
+      <node id="8915588640828114661" at="29,0,33,0" concept="8" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="8915588640828114661" at="33,0,37,0" concept="8" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8915588640828114661" at="56,0,60,0" concept="8" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8915588640828114661" at="20,0,25,0" concept="2" trace="DeleteTableRow_Action#()V" />
+      <node id="8915588640828114776" at="41,5,47,5" concept="1" />
+      <node id="8915588640832007575" at="47,5,53,5" concept="1" />
+      <node id="8915588640828114661" at="37,0,56,0" concept="8" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="8915588640828114661" at="26,32,27,16" />
+      <scope id="8915588640828127940" at="30,87,31,210" />
+      <scope id="8915588640828114661" at="34,89,35,85" />
+      <scope id="8915588640828114661" at="39,53,40,19" />
+      <scope id="8915588640828114777" at="44,22,45,21" />
+      <scope id="8915588640832007576" at="50,22,51,21" />
+      <scope id="8915588640828114661" at="57,96,58,200" />
+      <scope id="8915588640828114661" at="20,34,23,57" />
+      <scope id="8915588640828114661" at="25,0,29,0" />
+      <scope id="8915588640828114661" at="29,0,33,0">
+        <var name="_params" id="8915588640828114661" />
+        <var name="event" id="8915588640828114661" />
+      </scope>
+      <scope id="8915588640828114661" at="33,0,37,0">
+        <var name="_params" id="8915588640828114661" />
+        <var name="event" id="8915588640828114661" />
+      </scope>
+      <scope id="8915588640828114776" at="42,5,46,7">
+        <var name="p" id="8915588640828114776" />
+      </scope>
+      <scope id="8915588640832007575" at="48,5,52,7">
+        <var name="p" id="8915588640832007575" />
+      </scope>
+      <scope id="8915588640828114661" at="56,0,60,0">
+        <var name="_params" id="8915588640828114661" />
+        <var name="event" id="8915588640828114661" />
+      </scope>
+      <scope id="8915588640828114661" at="20,0,25,0" />
+      <scope id="8915588640828114661" at="38,95,54,16" />
+      <scope id="8915588640828114661" at="37,0,56,0">
+        <var name="_params" id="8915588640828114661" />
+        <var name="event" id="8915588640828114661" />
+      </scope>
+      <unit id="8915588640828114661" at="17,0,61,0" name="de.slisson.mps.tables.runtime.plugin.DeleteTableRow_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8915588640828114661" at="24,46,25,43" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8915588640830459775">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8915588640830459775" at="30,13,31,49" concept="3" />
+      <node id="8915588640830459782" at="33,37,34,84" concept="3" />
+    </file>
+    <file name="TableActions_ActionGroup.java">
+      <node id="8915588640830459775" at="10,0,11,0" concept="13" trace="ID" />
+      <node id="8915588640830459775" at="12,70,13,38" concept="15" />
+      <node id="8915588640830459775" at="13,38,14,25" concept="3" />
+      <node id="8915588640830459775" at="14,25,15,20" concept="3" />
+      <node id="8915588640830459775" at="15,20,16,29" concept="3" />
+      <node id="776263044575441693" at="16,29,17,49" concept="3" />
+      <node id="776263044575442231" at="17,49,18,112" concept="3" />
+      <node id="776263044575442506" at="18,112,19,111" concept="3" />
+      <node id="3886593820568486850" at="19,111,20,115" concept="3" />
+      <node id="3886593820568486852" at="20,115,21,114" concept="3" />
+      <node id="776263044575443397" at="21,114,22,106" concept="3" />
+      <node id="7908435319565529777" at="22,106,23,109" concept="3" />
+      <node id="776263044575441960" at="23,109,24,49" concept="3" />
+      <node id="8915588640830459775" at="12,0,26,0" concept="2" trace="TableActions_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="8915588640830459775" at="12,70,24,49" />
+      <scope id="8915588640830459775" at="12,0,26,0">
+        <var name="plugin" id="8915588640830459775" />
+      </scope>
+      <unit id="8915588640830459775" at="9,0,27,0" name="de.slisson.mps.tables.runtime.plugin.TableActions_ActionGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8915588640831077844">
+    <file name="InsertTableRowBefore_Action.java">
+      <node id="8915588640831077844" at="17,0,18,0" concept="13" trace="ICON" />
+      <node id="8915588640831077844" at="19,40,20,56" concept="15" />
+      <node id="8915588640831077844" at="20,56,21,35" concept="3" />
+      <node id="8915588640831077844" at="21,35,22,57" concept="3" />
+      <node id="8915588640831077844" at="25,32,26,16" concept="10" />
+      <node id="8915588640832062026" at="29,87,30,162" concept="10" />
+      <node id="8915588640831077844" at="33,89,34,85" concept="3" />
+      <node id="8915588640831077844" at="38,53,39,19" concept="10" />
+      <node id="8915588640831077862" at="41,5,42,66" concept="9" />
+      <node id="8915588640831077863" at="43,22,44,21" concept="10" />
+      <node id="8915588640832068293" at="47,5,48,72" concept="9" />
+      <node id="8915588640832068294" at="49,22,50,21" concept="10" />
+      <node id="8915588640831077844" at="52,5,53,16" concept="10" />
+      <node id="8915588640832069834" at="56,96,57,152" concept="3" />
+      <node id="8915588640831077844" at="37,95,40,5" concept="7" />
+      <node id="8915588640831077863" at="42,66,45,7" concept="7" />
+      <node id="8915588640832068294" at="48,72,51,7" concept="7" />
+      <node id="8915588640831077844" at="24,0,28,0" concept="8" trace="isDumbAware#()Z" />
+      <node id="8915588640831077844" at="28,0,32,0" concept="8" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="8915588640831077844" at="32,0,36,0" concept="8" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8915588640831077844" at="55,0,59,0" concept="8" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8915588640831077844" at="19,0,24,0" concept="2" trace="InsertTableRowBefore_Action#()V" />
+      <node id="8915588640831077862" at="40,5,46,5" concept="1" />
+      <node id="8915588640832068293" at="46,5,52,5" concept="1" />
+      <node id="8915588640831077844" at="36,0,55,0" concept="8" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="8915588640831077844" at="25,32,26,16" />
+      <scope id="8915588640831077865" at="29,87,30,162" />
+      <scope id="8915588640831077844" at="33,89,34,85" />
+      <scope id="8915588640831077844" at="38,53,39,19" />
+      <scope id="8915588640831077863" at="43,22,44,21" />
+      <scope id="8915588640832068294" at="49,22,50,21" />
+      <scope id="8915588640831077844" at="56,96,57,152" />
+      <scope id="8915588640831077844" at="19,40,22,57" />
+      <scope id="8915588640831077844" at="24,0,28,0" />
+      <scope id="8915588640831077844" at="28,0,32,0">
+        <var name="_params" id="8915588640831077844" />
+        <var name="event" id="8915588640831077844" />
+      </scope>
+      <scope id="8915588640831077844" at="32,0,36,0">
+        <var name="_params" id="8915588640831077844" />
+        <var name="event" id="8915588640831077844" />
+      </scope>
+      <scope id="8915588640831077862" at="41,5,45,7">
+        <var name="p" id="8915588640831077862" />
+      </scope>
+      <scope id="8915588640832068293" at="47,5,51,7">
+        <var name="p" id="8915588640832068293" />
+      </scope>
+      <scope id="8915588640831077844" at="55,0,59,0">
+        <var name="_params" id="8915588640831077844" />
+        <var name="event" id="8915588640831077844" />
+      </scope>
+      <scope id="8915588640831077844" at="19,0,24,0" />
+      <scope id="8915588640831077844" at="37,95,53,16" />
+      <scope id="8915588640831077844" at="36,0,55,0">
+        <var name="_params" id="8915588640831077844" />
+        <var name="event" id="8915588640831077844" />
+      </scope>
+      <unit id="8915588640831077844" at="16,0,60,0" name="de.slisson.mps.tables.runtime.plugin.InsertTableRowBefore_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8915588640831077844" at="28,48,29,49" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8915588640832071109">
+    <file name="InsertTableRowAfter_Action.java">
+      <node id="8915588640832071109" at="17,0,18,0" concept="13" trace="ICON" />
+      <node id="8915588640832071109" at="19,39,20,55" concept="15" />
+      <node id="8915588640832071109" at="20,55,21,35" concept="3" />
+      <node id="8915588640832071109" at="21,35,22,57" concept="3" />
+      <node id="8915588640832071109" at="25,32,26,16" concept="10" />
+      <node id="8915588640832071130" at="29,87,30,163" concept="10" />
+      <node id="8915588640832071109" at="33,89,34,85" concept="3" />
+      <node id="8915588640832071109" at="38,53,39,19" concept="10" />
+      <node id="8915588640832071124" at="41,5,42,66" concept="9" />
+      <node id="8915588640832071125" at="43,22,44,21" concept="10" />
+      <node id="8915588640832071126" at="47,5,48,72" concept="9" />
+      <node id="8915588640832071127" at="49,22,50,21" concept="10" />
+      <node id="8915588640832071109" at="52,5,53,16" concept="10" />
+      <node id="8915588640832071112" at="56,96,57,153" concept="3" />
+      <node id="8915588640832071109" at="37,95,40,5" concept="7" />
+      <node id="8915588640832071125" at="42,66,45,7" concept="7" />
+      <node id="8915588640832071127" at="48,72,51,7" concept="7" />
+      <node id="8915588640832071109" at="24,0,28,0" concept="8" trace="isDumbAware#()Z" />
+      <node id="8915588640832071109" at="28,0,32,0" concept="8" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="8915588640832071109" at="32,0,36,0" concept="8" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8915588640832071109" at="55,0,59,0" concept="8" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8915588640832071109" at="19,0,24,0" concept="2" trace="InsertTableRowAfter_Action#()V" />
+      <node id="8915588640832071124" at="40,5,46,5" concept="1" />
+      <node id="8915588640832071126" at="46,5,52,5" concept="1" />
+      <node id="8915588640832071109" at="36,0,55,0" concept="8" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="8915588640832071109" at="25,32,26,16" />
+      <scope id="8915588640832071129" at="29,87,30,163" />
+      <scope id="8915588640832071109" at="33,89,34,85" />
+      <scope id="8915588640832071109" at="38,53,39,19" />
+      <scope id="8915588640832071125" at="43,22,44,21" />
+      <scope id="8915588640832071127" at="49,22,50,21" />
+      <scope id="8915588640832071109" at="56,96,57,153" />
+      <scope id="8915588640832071109" at="19,39,22,57" />
+      <scope id="8915588640832071109" at="24,0,28,0" />
+      <scope id="8915588640832071109" at="28,0,32,0">
+        <var name="_params" id="8915588640832071109" />
+        <var name="event" id="8915588640832071109" />
+      </scope>
+      <scope id="8915588640832071109" at="32,0,36,0">
+        <var name="_params" id="8915588640832071109" />
+        <var name="event" id="8915588640832071109" />
+      </scope>
+      <scope id="8915588640832071124" at="41,5,45,7">
+        <var name="p" id="8915588640832071124" />
+      </scope>
+      <scope id="8915588640832071126" at="47,5,51,7">
+        <var name="p" id="8915588640832071126" />
+      </scope>
+      <scope id="8915588640832071109" at="55,0,59,0">
+        <var name="_params" id="8915588640832071109" />
+        <var name="event" id="8915588640832071109" />
+      </scope>
+      <scope id="8915588640832071109" at="19,0,24,0" />
+      <scope id="8915588640832071109" at="37,95,53,16" />
+      <scope id="8915588640832071109" at="36,0,55,0">
+        <var name="_params" id="8915588640832071109" />
+        <var name="event" id="8915588640832071109" />
+      </scope>
+      <unit id="8915588640832071109" at="16,0,60,0" name="de.slisson.mps.tables.runtime.plugin.InsertTableRowAfter_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8915588640832071109" at="27,52,28,48" concept="3" />
+    </file>
+  </root>
+</debug-info>
+

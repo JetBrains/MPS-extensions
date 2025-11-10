@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1732176556423009631:jetbrains.mps.baseLanguage.structure.MultiLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="9,0,14,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:5f74240b-ce7f-4ae5-99bc-bf1a210bda6d(com.mbeddr.mpsutil.editor.querylist.runtime.plugin)/1214064056838947486">
+    <file name="DefaultQueryListConfig.java">
+      <node id="1214064056838947486" at="8,35,9,75" concept="13" />
+      <node id="1214064056838977266" at="16,45,17,21" concept="9" />
+      <node id="1214064056838978051" at="21,37,22,17" concept="9" />
+      <node id="1214064056838947486" at="8,0,11,0" concept="1" trace="DefaultQueryListConfig#()V" />
+      <node id="1214064056838975735" at="15,0,19,0" concept="6" trace="disableModelChecking#()Z" />
+      <node id="1214064056838975743" at="20,0,24,0" concept="6" trace="getPriorityLevel#()I" />
+      <node id="1214064056838958342" at="13,32,24,6" concept="9" />
+      <node id="1214064056838947492" at="13,0,26,0" concept="0" trace="get#()Lcom/mbeddr/mpsutil/editor/querylist/runtime/plugin/QueryListConfig;" />
+      <scope id="1214064056838947486" at="8,35,9,75" />
+      <scope id="1214064056838975739" at="16,45,17,21" />
+      <scope id="1214064056838975747" at="21,37,22,17" />
+      <scope id="1214064056838947486" at="8,0,11,0" />
+      <scope id="1214064056838975735" at="15,0,19,0" />
+      <scope id="1214064056838975743" at="20,0,24,0" />
+      <scope id="1214064056838947496" at="13,32,24,6" />
+      <scope id="1214064056838947492" at="13,0,26,0" />
+      <unit id="1214064056838975720" at="14,15,24,5" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.DefaultQueryListConfig$1" />
+      <unit id="1214064056838947486" at="7,0,27,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.DefaultQueryListConfig" />
+    </file>
+  </root>
+  <root nodeRef="r:5f74240b-ce7f-4ae5-99bc-bf1a210bda6d(com.mbeddr.mpsutil.editor.querylist.runtime.plugin)/1214064056838948404">
+    <file name="QueryListConfig.java">
+      <node id="1214064056838956693" at="9,0,10,0" concept="6" trace="disableModelChecking#()Z" />
+      <node id="1214064056838957603" at="10,0,11,0" concept="6" trace="getPriorityLevel#()I" />
+      <node id="8709687647113300324" at="12,33,13,25" concept="9" />
+      <node id="8709687647112382907" at="11,0,15,0" concept="6" trace="getTimeout#()Ljava/time/Duration;" />
+      <scope id="1214064056838956693" at="9,0,10,0" />
+      <scope id="1214064056838957603" at="10,0,11,0" />
+      <scope id="8709687647112382910" at="12,33,13,25" />
+      <scope id="8709687647112382907" at="11,0,15,0" />
+      <unit id="1214064056838948404" at="8,0,16,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.QueryListConfig" />
+    </file>
+  </root>
+  <root nodeRef="r:5f74240b-ce7f-4ae5-99bc-bf1a210bda6d(com.mbeddr.mpsutil.editor.querylist.runtime.plugin)/259855931081715139">
+    <file name="DisableModelcheck_Action.java">
+      <node id="259855931081715139" at="14,0,15,0" concept="12" trace="ICON" />
+      <node id="259855931081715139" at="16,37,17,54" concept="13" />
+      <node id="259855931081715139" at="17,54,18,35" concept="2" />
+      <node id="259855931081715139" at="18,35,19,44" concept="2" />
+      <node id="259855931081715139" at="19,44,20,29" concept="2" />
+      <node id="259855931081715139" at="23,32,24,16" concept="9" />
+      <node id="259855931087578763" at="27,87,28,111" concept="9" />
+      <node id="259855931081715139" at="31,89,32,85" concept="2" />
+      <node id="259855931087575925" at="35,96,36,101" concept="2" />
+      <node id="259855931081715139" at="22,0,26,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="259855931081715139" at="26,0,30,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="259855931081715139" at="30,0,34,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="259855931081715139" at="34,0,38,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="259855931081715139" at="16,0,22,0" concept="1" trace="DisableModelcheck_Action#()V" />
+      <scope id="259855931081715139" at="23,32,24,16" />
+      <scope id="259855931087577882" at="27,87,28,111" />
+      <scope id="259855931081715139" at="31,89,32,85" />
+      <scope id="259855931081715139" at="35,96,36,101" />
+      <scope id="259855931081715139" at="16,37,20,29" />
+      <scope id="259855931081715139" at="22,0,26,0" />
+      <scope id="259855931081715139" at="26,0,30,0">
+        <var name="_params" id="259855931081715139" />
+        <var name="event" id="259855931081715139" />
+      </scope>
+      <scope id="259855931081715139" at="30,0,34,0">
+        <var name="_params" id="259855931081715139" />
+        <var name="event" id="259855931081715139" />
+      </scope>
+      <scope id="259855931081715139" at="34,0,38,0">
+        <var name="_params" id="259855931081715139" />
+        <var name="event" id="259855931081715139" />
+      </scope>
+      <scope id="259855931081715139" at="16,0,22,0" />
+      <unit id="259855931081715139" at="13,0,39,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.DisableModelcheck_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="259855931081715139" at="21,29,22,46" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:5f74240b-ce7f-4ae5-99bc-bf1a210bda6d(com.mbeddr.mpsutil.editor.querylist.runtime.plugin)/259855931087584458">
+    <file name="EnableModelcheck_Action.java">
+      <node id="259855931087584458" at="14,0,15,0" concept="12" trace="ICON" />
+      <node id="259855931087584458" at="16,36,17,53" concept="13" />
+      <node id="259855931087584458" at="17,53,18,35" concept="2" />
+      <node id="259855931087584458" at="18,35,19,44" concept="2" />
+      <node id="259855931087584458" at="19,44,20,29" concept="2" />
+      <node id="259855931087584458" at="23,32,24,16" concept="9" />
+      <node id="259855931087584470" at="27,87,28,112" concept="9" />
+      <node id="259855931087584458" at="31,89,32,85" concept="2" />
+      <node id="259855931087584461" at="35,96,36,100" concept="2" />
+      <node id="259855931087584458" at="22,0,26,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="259855931087584458" at="26,0,30,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="259855931087584458" at="30,0,34,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="259855931087584458" at="34,0,38,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="259855931087584458" at="16,0,22,0" concept="1" trace="EnableModelcheck_Action#()V" />
+      <scope id="259855931087584458" at="23,32,24,16" />
+      <scope id="259855931087584469" at="27,87,28,112" />
+      <scope id="259855931087584458" at="31,89,32,85" />
+      <scope id="259855931087584458" at="35,96,36,100" />
+      <scope id="259855931087584458" at="16,36,20,29" />
+      <scope id="259855931087584458" at="22,0,26,0" />
+      <scope id="259855931087584458" at="26,0,30,0">
+        <var name="_params" id="259855931087584458" />
+        <var name="event" id="259855931087584458" />
+      </scope>
+      <scope id="259855931087584458" at="30,0,34,0">
+        <var name="_params" id="259855931087584458" />
+        <var name="event" id="259855931087584458" />
+      </scope>
+      <scope id="259855931087584458" at="34,0,38,0">
+        <var name="_params" id="259855931087584458" />
+        <var name="event" id="259855931087584458" />
+      </scope>
+      <scope id="259855931087584458" at="16,0,22,0" />
+      <unit id="259855931087584458" at="13,0,39,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.EnableModelcheck_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="259855931087584458" at="22,46,23,45" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:5f74240b-ce7f-4ae5-99bc-bf1a210bda6d(com.mbeddr.mpsutil.editor.querylist.runtime.plugin)/4268492325946529546">
+    <file name="QueryListChecker.java">
+      <node id="259855931087549376" at="56,0,57,0" concept="12" trace="MODELCHECK_ENABLED_KEY" />
+      <node id="1037264524315776889" at="58,0,59,0" concept="3" trace="myRepository" />
+      <node id="809315079010554045" at="59,0,60,0" concept="3" trace="myHasEvents" />
+      <node id="1037264524315794367" at="61,51,62,30" concept="2" />
+      <node id="1214064056839164633" at="67,158,68,42" concept="7" />
+      <node id="259855931081590657" at="68,42,69,0" concept="11" />
+      <node id="8709687647112498781" at="70,124,71,85" concept="9" />
+      <node id="8709687647112561778" at="72,5,73,0" concept="11" />
+      <node id="259855931080725549" at="73,0,74,87" concept="7" />
+      <node id="259855931080738689" at="74,87,75,170" concept="7" />
+      <node id="8709687647112401976" at="75,170,76,0" concept="11" />
+      <node id="8709687647113697293" at="77,39,78,84" concept="9" />
+      <node id="8709687647113788338" at="79,5,80,0" concept="11" />
+      <node id="8709687647113838434" at="80,0,81,67" concept="7" />
+      <node id="8709687647114250934" at="84,51,85,103" concept="7" />
+      <node id="8709687647114250938" at="85,103,86,145" concept="2" />
+      <node id="8709687647114250954" at="86,145,87,28" concept="9" />
+      <node id="8709687647114398374" at="89,7,90,0" concept="11" />
+      <node id="8709687647114427247" at="91,9,92,80" concept="9" />
+      <node id="8709687647114683082" at="93,78,94,36" concept="9" />
+      <node id="8709687647114732605" at="95,15,96,29" concept="2" />
+      <node id="8709687647112478550" at="100,40,101,142" concept="7" />
+      <node id="8709687647112478554" at="101,142,102,128" concept="7" />
+      <node id="8709687647112478578" at="102,128,103,56" concept="9" />
+      <node id="9114050082779333314" at="107,27,108,55" concept="9" />
+      <node id="8709687647112413286" at="109,5,110,127" concept="7" />
+      <node id="8709687647112413294" at="110,127,111,163" concept="7" />
+      <node id="8709687647112413325" at="112,120,113,78" concept="7" />
+      <node id="8709687647112413334" at="113,78,114,56" concept="9" />
+      <node id="4268492325957155511" at="118,153,119,84" concept="7" />
+      <node id="8709687647113652330" at="119,84,120,0" concept="11" />
+      <node id="8709687647112803885" at="122,38,123,38" concept="9" />
+      <node id="1037264524293629800" at="124,7,125,168" concept="7" />
+      <node id="1037264524293798882" at="126,86,127,166" concept="7" />
+      <node id="1037264524293997961" at="127,166,128,58" concept="2" />
+      <node id="8709687647113675482" at="130,5,131,0" concept="11" />
+      <node id="2864426673675277884" at="131,0,132,54" concept="9" />
+      <node id="1037264524315884983" at="138,191,139,97" concept="7" />
+      <node id="1037264524315885005" at="140,181,141,88" concept="7" />
+      <node id="259855931080915051" at="142,33,143,142" concept="7" />
+      <node id="1037264524315885014" at="144,122,145,62" concept="2" />
+      <node id="1037264524315885042" at="148,56,149,38" concept="9" />
+      <node id="8709687647118623731" at="152,102,153,114" concept="7" />
+      <node id="8709687647118741024" at="153,114,154,164" concept="7" />
+      <node id="8709687647118896352" at="155,39,156,88" concept="7" />
+      <node id="8709687647118934729" at="156,88,157,117" concept="2" />
+      <node id="8709687647118577879" at="158,5,159,28" concept="9" />
+      <node id="8709687647113168461" at="163,0,164,0" concept="3" trace="cancellable" />
+      <node id="8709687647113168465" at="165,77,166,37" concept="2" />
+      <node id="8709687647113046255" at="170,33,171,61" concept="9" />
+      <node id="809315079010574535" at="176,55,177,39" concept="2" />
+      <node id="809315079010596567" at="181,57,182,23" concept="9" />
+      <node id="809315079010629379" at="186,30,187,24" concept="2" />
+      <node id="1037264524315761417" at="61,0,64,0" concept="1" trace="QueryListChecker#(Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <node id="259855931080543153" at="69,0,72,5" concept="5" />
+      <node id="8709687647113317278" at="76,0,79,5" concept="5" />
+      <node id="9114050082779217989" at="106,73,109,5" concept="5" />
+      <node id="8709687647112769298" at="121,70,124,7" concept="5" />
+      <node id="259855931081232883" at="143,142,146,9" concept="5" />
+      <node id="8709687647113164203" at="165,0,168,0" concept="1" trace="CancellableEmptyProgessMonitor#(Ljetbrains/mps/util/Cancellable;)V" />
+      <node id="8709687647112413343" at="111,163,115,8" concept="9" />
+      <node id="1037264524293693990" at="125,168,129,7" concept="4" />
+      <node id="8709687647118794809" at="154,164,158,5" concept="5" />
+      <node id="8709687647113046247" at="169,0,173,0" concept="6" trace="isCanceled#()Z" />
+      <node id="809315079010495870" at="175,0,179,0" concept="6" trace="processEvents#(Ljava/util/List;)V" />
+      <node id="4268492325946535452" at="180,0,184,0" concept="6" trace="needsUpdate#(Ljetbrains/mps/nodeEditor/EditorComponent;)Z" />
+      <node id="809315079010601647" at="185,0,189,0" concept="6" trace="doneUpdating#()V" />
+      <node id="8709687647112478582" at="100,0,105,0" concept="6" trace="findConfig#()Lcom/mbeddr/mpsutil/editor/querylist/runtime/plugin/QueryListConfig;" />
+      <node id="8709687647114318398" at="83,0,89,0" concept="6" trace="call#()Ljetbrains/mps/nodeEditor/checking/UpdateResult;" />
+      <node id="259855931081190786" at="141,88,147,7" concept="5" />
+      <node id="8709687647114409544" at="90,0,97,5" concept="14" />
+      <node id="8709687647114250927" at="81,67,89,7" concept="7" />
+      <node id="1037264524315884990" at="139,97,148,56" concept="2" />
+      <node id="8709687647118578127" at="152,0,161,0" concept="6" trace="getCheckers#(Ljetbrains/mps/components/ComponentHost;)Ljava/util/List;" />
+      <node id="4945675158562119719" at="120,0,130,5" concept="4" />
+      <node id="8709687647112413353" at="106,0,117,0" concept="6" trace="collectNodesToCheck#(Ljetbrains/mps/nodeEditor/cells/EditorCell;)Ljava/util/Set;" />
+      <node id="1037264524315884974" at="138,0,151,0" concept="6" trace="checkForNodeMessages#(Ljetbrains/mps/nodeEditor/EditorComponent;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/util/Set;Ljetbrains/mps/components/ComponentHost;Ljetbrains/mps/util/Cancellable;)Ljava/util/Collection;" />
+      <node id="8709687647113401469" at="118,0,134,0" concept="6" trace="checkModels#(Ljava/util/List;Ljava/util/Set;Ljetbrains/mps/nodeEditor/EditorComponent;Ljetbrains/mps/util/Cancellable;)Ljetbrains/mps/nodeEditor/checking/UpdateResult;" />
+      <node id="4268492325946535465" at="65,0,99,0" concept="6" trace="update#(Ljetbrains/mps/nodeEditor/EditorComponent;ZZLjetbrains/mps/util/Cancellable;)Ljetbrains/mps/nodeEditor/checking/UpdateResult;" />
+      <scope id="1037264524315761420" at="61,51,62,30" />
+      <scope id="8709687647112492215" at="70,124,71,85" />
+      <scope id="8709687647113317280" at="77,39,78,84" />
+      <scope id="8709687647114409546" at="91,9,92,80" />
+      <scope id="8709687647114569839" at="93,78,94,36" />
+      <scope id="8709687647114720332" at="95,15,96,29" />
+      <scope id="9114050082779217991" at="107,27,108,55" />
+      <scope id="8709687647112769300" at="122,38,123,38" />
+      <scope id="259855931081232885" at="144,122,145,62" />
+      <scope id="8709687647113164207" at="165,77,166,37" />
+      <scope id="8709687647113046252" at="170,33,171,61" />
+      <scope id="809315079010495877" at="176,55,177,39" />
+      <scope id="4268492325946535461" at="181,57,182,23" />
+      <scope id="809315079010601651" at="186,30,187,24" />
+      <scope id="8709687647114569836" at="93,5,95,5">
+        <var name="e" id="8709687647114569837" />
+      </scope>
+      <scope id="8709687647112413324" at="112,120,114,56">
+        <var name="handler" id="8709687647112413326" />
+      </scope>
+      <scope id="1037264524293693996" at="126,86,128,58">
+        <var name="message" id="2864426673675277448" />
+      </scope>
+      <scope id="8709687647118794811" at="155,39,157,117">
+        <var name="index" id="8709687647118896353" />
+      </scope>
+      <scope id="1037264524315761417" at="61,0,64,0">
+        <var name="repository" id="1037264524315767135" />
+      </scope>
+      <scope id="8709687647114318403" at="84,51,87,28">
+        <var name="result" id="8709687647114250935" />
+      </scope>
+      <scope id="8709687647112478547" at="100,40,103,56">
+        <var name="ep" id="8709687647112478551" />
+        <var name="sortedConfigs" id="8709687647112478555" />
+      </scope>
+      <scope id="8709687647113164203" at="165,0,168,0">
+        <var name="cancellable" id="8709687647113166770" />
+      </scope>
+      <scope id="1037264524293693990" at="125,168,129,7">
+        <var name="errorReporter" id="1037264524293693992" />
+      </scope>
+      <scope id="259855931081190788" at="142,33,146,9">
+        <var name="reportedNodeAndAncestors" id="259855931080915052" />
+      </scope>
+      <scope id="8709687647113046247" at="169,0,173,0" />
+      <scope id="809315079010495870" at="175,0,179,0">
+        <var name="events" id="809315079010495874" />
+      </scope>
+      <scope id="4268492325946535452" at="180,0,184,0">
+        <var name="component" id="4268492325946535456" />
+      </scope>
+      <scope id="809315079010601647" at="185,0,189,0" />
+      <scope id="8709687647112478582" at="100,0,105,0" />
+      <scope id="8709687647114318398" at="83,0,89,0" />
+      <scope id="1037264524315885004" at="140,181,147,7">
+        <var name="reportedNode" id="1037264524315885006" />
+      </scope>
+      <scope id="8709687647118577878" at="152,102,159,28">
+        <var name="nonTypesystemChecker" id="8709687647118741025" />
+        <var name="standardCheckers" id="8709687647118623732" />
+      </scope>
+      <scope id="4945675158562119725" at="121,70,129,7">
+        <var name="errors" id="1037264524293629801" />
+      </scope>
+      <scope id="8709687647112413283" at="106,73,115,8">
+        <var name="allCells" id="8709687647112413287" />
+        <var name="queryListCells" id="8709687647112413295" />
+      </scope>
+      <scope id="8709687647118578127" at="152,0,161,0">
+        <var name="host" id="8709687647118577882" />
+      </scope>
+      <scope id="4945675158562119719" at="120,0,130,5">
+        <var name="modelToCheck" id="4945675158562119721" />
+      </scope>
+      <scope id="8709687647112413353" at="106,0,117,0">
+        <var name="rootCell" id="8709687647112413345" />
+      </scope>
+      <scope id="1037264524315884976" at="138,191,149,38">
+        <var name="resultConsumer" id="1037264524315884984" />
+      </scope>
+      <scope id="1037264524315884974" at="138,0,151,0">
+        <var name="cancellable" id="8709687647112883240" />
+        <var name="editorComponent" id="1037264524315885046" />
+        <var name="host" id="1037264524315885050" />
+        <var name="model" id="809315079011300116" />
+        <var name="nodesToCheck" id="809315079011330736" />
+      </scope>
+      <scope id="8709687647113401472" at="118,153,132,54">
+        <var name="messages" id="4268492325957155514" />
+      </scope>
+      <scope id="8709687647113401469" at="118,0,134,0">
+        <var name="cancellable" id="8709687647113526075" />
+        <var name="editorComponent" id="8709687647113588532" />
+        <var name="modelsToCheck" id="8709687647113509538" />
+        <var name="nodesToCheck" id="8709687647113612213" />
+      </scope>
+      <scope id="4268492325946535481" at="67,158,97,5">
+        <var name="config" id="1214064056839164634" />
+        <var name="executor" id="8709687647113838435" />
+        <var name="handler" id="8709687647114250928" />
+        <var name="modelsToCheck" id="259855931080738690" />
+        <var name="nodesToCheck" id="259855931080725550" />
+      </scope>
+      <scope id="4268492325946535465" at="65,0,99,0">
+        <var name="applyQuickFixes" id="4268492325946535474" />
+        <var name="cancellable" id="4268492325946535476" />
+        <var name="editorComponent" id="4268492325946535470" />
+        <var name="incremental" id="4268492325946535472" />
+      </scope>
+      <unit id="8709687647114318384" at="82,55,89,5" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.QueryListChecker$1" />
+      <unit id="8709687647113137212" at="162,0,174,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.QueryListChecker$CancellableEmptyProgessMonitor" />
+      <unit id="4268492325946529546" at="55,0,190,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.QueryListChecker" />
+    </file>
+  </root>
+  <root nodeRef="r:5f74240b-ce7f-4ae5-99bc-bf1a210bda6d(com.mbeddr.mpsutil.editor.querylist.runtime.plugin)/4268492325956756408">
+    <file name="ProjectPlugin_ProjectPluginPart.java">
+      <node id="4268492325956756467" at="10,0,11,0" concept="3" trace="checker" />
+      <node id="4268492325956789750" at="14,40,15,97" concept="2" />
+      <node id="1037264524293420709" at="15,97,16,0" concept="11" />
+      <node id="8624973594653180133" at="16,0,17,70" concept="7" />
+      <node id="8624973594653172223" at="17,70,18,73" concept="2" />
+      <node id="8624973594653198445" at="21,43,22,70" concept="7" />
+      <node id="8624973594653198452" at="22,70,23,76" concept="2" />
+      <node id="4268492325956756408" at="11,0,13,0" concept="1" trace="ProjectPlugin_ProjectPluginPart#()V" />
+      <node id="4268492325956756408" at="20,0,25,0" concept="6" trace="dispose#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="4268492325956756408" at="13,0,20,0" concept="6" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <scope id="4268492325956756408" at="11,44,11,44" />
+      <scope id="4268492325956756408" at="11,0,13,0" />
+      <scope id="4268492325957443226" at="21,43,23,76">
+        <var name="highlighter" id="8624973594653198446" />
+      </scope>
+      <scope id="4268492325956788946" at="14,40,18,73">
+        <var name="highlighter" id="8624973594653180134" />
+      </scope>
+      <scope id="4268492325956756408" at="20,0,25,0">
+        <var name="project" id="4268492325956756408" />
+      </scope>
+      <scope id="4268492325956756408" at="13,0,20,0">
+        <var name="project" id="4268492325956756408" />
+      </scope>
+      <unit id="4268492325956756408" at="9,0,26,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.ProjectPlugin_ProjectPluginPart" />
+    </file>
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="4268492325956756408" at="12,62,13,53" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:5f74240b-ce7f-4ae5-99bc-bf1a210bda6d(com.mbeddr.mpsutil.editor.querylist.runtime.plugin)/8624973594652950832">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8624973594652950832" at="10,0,11,0" concept="3" trace="myId" />
+      <node id="8624973594652950832" at="16,27,17,16" concept="9" />
+      <node id="8624973594652950832" at="20,30,21,29" concept="10" />
+      <node id="8624973594652950832" at="23,45,24,13" concept="10" />
+      <node id="8624973594652950832" at="12,0,14,0" concept="1" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="8624973594652950832" at="15,0,19,0" concept="6" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="8624973594652950832" at="20,0,26,0" concept="6" trace="createGroups#()V" />
+      <scope id="8624973594652950832" at="12,38,12,38" />
+      <scope id="8624973594652950832" at="16,27,17,16" />
+      <scope id="8624973594652950832" at="12,0,14,0" />
+      <scope id="8624973594652950832" at="15,0,19,0" />
+      <scope id="8624973594652950832" at="20,30,24,13" />
+      <scope id="8624973594652950832" at="20,0,26,0" />
+      <unit id="8624973594652950832" at="9,0,27,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="8624973594652950832" at="10,0,12,0" concept="1" trace="Runtime_ProjectPlugin#()V" />
+      <node id="8624973594652950832" at="12,0,15,0" concept="6" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="8624973594652950832" at="10,34,10,34" />
+      <scope id="8624973594652950832" at="12,62,13,53" />
+      <scope id="8624973594652950832" at="10,0,12,0" />
+      <scope id="8624973594652950832" at="12,0,15,0">
+        <var name="parts" id="8624973594652950832" />
+      </scope>
+      <unit id="8624973594652950832" at="9,0,16,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.Runtime_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:5f74240b-ce7f-4ae5-99bc-bf1a210bda6d(com.mbeddr.mpsutil.editor.querylist.runtime.plugin)/8709687647117576806">
+    <file name="ComputationModePreservingNonTypesystemChecker.java">
+      <node id="435595702647210237" at="30,152,31,0" concept="11" />
+      <node id="408133443579429090" at="31,0,32,86" concept="7" />
+      <node id="435595702647187933" at="32,86,33,0" concept="11" />
+      <node id="774111817001329385" at="33,0,34,73" concept="7" />
+      <node id="408133443579512601" at="34,73,35,75" concept="10" />
+      <node id="408133443579512101" at="35,75,36,112" concept="7" />
+      <node id="774111817001508048" at="37,77,38,38" concept="9" />
+      <node id="408133443579514959" at="39,7,40,87" concept="7" />
+      <node id="408133443579519129" at="40,87,41,83" concept="7" />
+      <node id="408133443579519908" at="41,83,42,0" concept="11" />
+      <node id="408133443579522445" at="42,0,43,31" concept="10" />
+      <node id="8709687647117896240" at="50,9,51,0" concept="11" />
+      <node id="8709687647117992272" at="52,11,53,33" concept="10" />
+      <node id="8709687647118272714" at="53,33,54,31" concept="10" />
+      <node id="408133443579524338" at="54,31,55,62" concept="2" />
+      <node id="5681627980187027886" at="56,17,57,102" concept="2" />
+      <node id="408133443579532532" at="58,7,59,0" concept="11" />
+      <node id="408133443579537889" at="59,0,60,97" concept="7" />
+      <node id="408133443579543274" at="62,41,63,87" concept="2" />
+      <node id="408133443579429123" at="65,7,66,0" concept="11" />
+      <node id="408133443579429124" at="66,0,67,20" concept="9" />
+      <node id="774111817001460569" at="36,112,39,7" concept="5" />
+      <node id="408133443579551018" at="61,67,64,9" concept="4" />
+      <node id="774111817001408561" at="44,85,49,0" concept="8" />
+      <node id="408133443579539190" at="60,97,65,7" concept="4" />
+      <node id="774111817001354321" at="43,31,50,9" concept="2" />
+      <node id="408133443579522942" at="51,0,58,7" concept="14" />
+      <node id="435595702647175241" at="29,82,68,7" concept="9" />
+      <node id="408133443579429088" at="29,0,70,0" concept="6" trace="getErrors#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/module/SRepository;)Ljava/util/Set;" />
+      <scope id="774111817001460571" at="37,77,38,38" />
+      <scope id="408133443579522945" at="56,17,57,102" />
+      <scope id="408133443579551021" at="62,41,63,87" />
+      <scope id="408133443579522944" at="52,11,55,62" />
+      <scope id="408133443579539193" at="61,67,64,9" />
+      <scope id="408133443579551018" at="61,67,64,9">
+        <var name="ier" id="408133443579551022" />
+      </scope>
+      <scope id="774111817001384466" at="44,85,49,0" />
+      <scope id="408133443579539190" at="60,97,65,7">
+        <var name="p" id="408133443579539194" />
+      </scope>
+      <scope id="435595702647185885" at="30,152,67,20">
+        <var name="context" id="408133443579514960" />
+        <var name="errors" id="408133443579429091" />
+        <var name="legacyTypecheckingQueries" id="408133443579512102" />
+        <var name="nodesWithErrors" id="408133443579537890" />
+        <var name="typecheckingQueries" id="774111817001329386" />
+        <var name="typesComponent" id="408133443579519130" />
+      </scope>
+      <scope id="408133443579429089" at="29,82,68,7" />
+      <scope id="408133443579429088" at="29,0,70,0">
+        <var name="repository" id="408133443579429128" />
+        <var name="root" id="408133443579429126" />
+      </scope>
+      <unit id="8709687647117576806" at="24,0,72,0" name="com.mbeddr.mpsutil.editor.querylist.runtime.plugin.ComputationModePreservingNonTypesystemChecker" />
+    </file>
+  </root>
+</debug-info>
+

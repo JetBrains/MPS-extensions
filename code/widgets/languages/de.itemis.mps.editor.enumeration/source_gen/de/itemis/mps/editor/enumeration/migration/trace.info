@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="MigrationDescriptor.java">
+      <unit at="11,0,17,0" name="de.itemis.mps.editor.enumeration.migration.MigrationDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:6d7179dc-3ffd-4b3d-8dc6-4c1a7aff987d(de.itemis.mps.editor.enumeration.migration)/2161895897134441046">
+    <file name="MigrateEnums.java">
+      <node id="2161895897134441046" at="20,0,21,0" concept="2" trace="description" />
+      <node id="2161895897134441046" at="21,30,22,23" concept="7" />
+      <node id="2161895897134441046" at="25,33,26,16" concept="7" />
+      <node id="2161895897134441046" at="28,41,29,17" concept="1" />
+      <node id="2161895897134441046" at="29,17,30,16" concept="7" />
+      <node id="2161895897134568422" at="35,9,36,79" concept="6" />
+      <node id="2161895897134488144" at="37,96,38,159" concept="1" />
+      <node id="2161895897134441046" at="44,50,45,153" concept="7" />
+      <node id="2161895897134441046" at="49,0,50,0" concept="8" trace="literal$lh6y" />
+      <node id="2161895897134441046" at="53,0,54,0" concept="8" trace="EnumerationMemberDeclaration_Old$la" />
+      <node id="2161895897134441046" at="54,0,55,0" concept="8" trace="EnumCheckbox_Selectable$Xd" />
+      <node id="2161895897134441046" at="21,0,24,0" concept="5" trace="getCaption#()Ljava/lang/String;" />
+      <node id="2161895897134568422" at="36,79,39,11" concept="4" />
+      <node id="2161895897134441046" at="44,0,47,0" concept="5" trace="getReference#()Ljetbrains/mps/lang/migration/runtime/base/MigrationScriptReference;" />
+      <node id="2161895897134441046" at="24,0,28,0" concept="5" trace="isRerunnable#()Z" />
+      <node id="2161895897134441046" at="28,0,32,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/module/SModule;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="2161895897134568422" at="34,113,40,9" concept="0" />
+      <node id="2161895897134443702" at="33,38,41,7" concept="3" />
+      <node id="2161895897134441537" at="32,42,42,5" concept="3" />
+      <node id="2161895897134441046" at="32,0,44,0" concept="5" trace="doExecute#(Lorg/jetbrains/mps/openapi/module/SModule;)V" />
+      <scope id="2161895897134441046" at="21,30,22,23" />
+      <scope id="2161895897134441046" at="25,33,26,16" />
+      <scope id="2161895897134568426" at="37,96,38,159" />
+      <scope id="2161895897134441046" at="44,50,45,153" />
+      <scope id="2161895897134441046" at="28,41,30,16" />
+      <scope id="2161895897134441046" at="21,0,24,0" />
+      <scope id="2161895897134441046" at="44,0,47,0" />
+      <scope id="2161895897134441046" at="24,0,28,0" />
+      <scope id="2161895897134441046" at="28,0,32,0">
+        <var name="m" id="2161895897134441046" />
+      </scope>
+      <scope id="2161895897134568422" at="35,9,39,11">
+        <var name="old" id="2161895897134568422" />
+      </scope>
+      <scope id="2161895897134443705" at="34,113,40,9" />
+      <scope id="2161895897134441540" at="33,38,41,7" />
+      <scope id="2161895897134443702" at="33,38,41,7">
+        <var name="ecs" id="2161895897134443703" />
+      </scope>
+      <scope id="2161895897134441046" at="32,42,42,5" />
+      <scope id="2161895897134441537" at="32,42,42,5">
+        <var name="mdl" id="2161895897134441538" />
+      </scope>
+      <scope id="2161895897134441046" at="32,0,44,0">
+        <var name="m" id="2161895897134441046" />
+      </scope>
+      <unit id="2161895897134441046" at="48,0,51,0" name="de.itemis.mps.editor.enumeration.migration.MigrateEnums$LINKS" />
+      <unit id="2161895897134441046" at="52,0,56,0" name="de.itemis.mps.editor.enumeration.migration.MigrateEnums$CONCEPTS" />
+      <unit id="2161895897134441046" at="19,0,57,0" name="de.itemis.mps.editor.enumeration.migration.MigrateEnums" />
+    </file>
+  </root>
+</debug-info>
+

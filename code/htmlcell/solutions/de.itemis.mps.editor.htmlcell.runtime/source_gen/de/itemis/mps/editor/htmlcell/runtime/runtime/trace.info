@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:bdf0ce56-0540-4970-ba23-53f0c7ca0a2e(de.itemis.mps.editor.htmlcell.runtime.runtime)/9175692738068571771">
+    <file name="HTMLCellEditorPane.java">
+      <node id="9175692738071259481" at="15,45,16,30" concept="3" />
+      <node id="9175692738068853364" at="16,30,17,148" concept="5" />
+      <node id="9175692738070196371" at="17,148,18,42" concept="1" />
+      <node id="9175692738068650291" at="18,42,19,33" concept="1" />
+      <node id="9175692738068844954" at="19,33,20,28" concept="1" />
+      <node id="9175692738068850174" at="20,28,21,26" concept="1" />
+      <node id="9175692738068909607" at="21,26,22,60" concept="1" />
+      <node id="9175692738068917301" at="22,60,23,34" concept="1" />
+      <node id="9175692738068921806" at="23,34,24,90" concept="1" />
+      <node id="9175692738072516815" at="24,90,25,66" concept="1" />
+      <node id="9175692738070626709" at="25,66,26,26" concept="1" />
+      <node id="9175692738072556877" at="26,26,27,70" concept="1" />
+      <node id="9175692738068986455" at="30,36,31,53" concept="1" />
+      <node id="9175692738068984645" at="30,0,33,0" concept="2" trace="setBody#(Ljava/lang/String;)V" />
+      <node id="9175692738068646951" at="15,0,29,0" concept="0" trace="HTMLCellEditorPane#(Ljava/lang/String;)V" />
+      <scope id="9175692738068984648" at="30,36,31,53" />
+      <scope id="9175692738068984645" at="30,0,33,0">
+        <var name="body" id="9175692738068985285" />
+      </scope>
+      <scope id="9175692738068646954" at="15,45,27,70">
+        <var name="editorKit" id="9175692738071259482" />
+      </scope>
+      <scope id="9175692738068646951" at="15,0,29,0">
+        <var name="content" id="9175692738070623670" />
+      </scope>
+      <unit id="9175692738068571771" at="13,0,34,0" name="de.itemis.mps.editor.htmlcell.runtime.runtime.HTMLCellEditorPane" />
+    </file>
+  </root>
+  <root nodeRef="r:bdf0ce56-0540-4970-ba23-53f0c7ca0a2e(de.itemis.mps.editor.htmlcell.runtime.runtime)/9175692738070090912">
+    <file name="EditorCell_HTML.java">
+      <node id="2648070105042201801" at="18,0,19,0" concept="6" trace="GROW_X" />
+      <node id="2648070105042203409" at="19,0,20,0" concept="6" trace="PUSH_X" />
+      <node id="9175692738070129352" at="21,83,22,64" concept="7" />
+      <node id="5658785992299985605" at="22,64,23,33" concept="1" />
+      <node id="5658785992299990699" at="23,33,24,33" concept="1" />
+      <node id="4558881016208589755" at="28,30,29,16" concept="1" />
+      <node id="4558881016209281431" at="29,16,30,56" concept="1" />
+      <node id="4558881016208670622" at="34,33,35,81" concept="1" />
+      <node id="4558881016209050616" at="35,81,36,22" concept="1" />
+      <node id="3646157655632342796" at="44,60,45,57" concept="3" />
+      <node id="3646157655632350132" at="45,57,46,49" concept="4" />
+      <node id="3646157655632522650" at="50,60,51,57" concept="3" />
+      <node id="3646157655632522656" at="51,57,52,49" concept="4" />
+      <node id="3646157655632525612" at="56,66,57,59" concept="3" />
+      <node id="3646157655632525618" at="57,59,58,49" concept="4" />
+      <node id="9175692738070091417" at="21,0,26,0" concept="0" trace="EditorCell_HTML#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+      <node id="4558881016208581729" at="27,0,32,0" concept="2" trace="relayoutImpl#()V" />
+      <node id="4558881016208576193" at="33,0,38,0" concept="2" trace="layoutComponent#()V" />
+      <node id="3646157655632271646" at="42,0,48,0" concept="2" trace="getMaxSize#(Lde/itemis/mps/editor/celllayout/boxmodel/Size;)Lde/itemis/mps/editor/celllayout/boxmodel/Size;" />
+      <node id="3646157655632271699" at="48,0,54,0" concept="2" trace="getMinSize#(Lde/itemis/mps/editor/celllayout/boxmodel/Size;)Lde/itemis/mps/editor/celllayout/boxmodel/Size;" />
+      <node id="3646157655632271716" at="54,0,60,0" concept="2" trace="getPreferredSize#(Lde/itemis/mps/editor/celllayout/boxmodel/Size;)Lde/itemis/mps/editor/celllayout/boxmodel/Size;" />
+      <node id="283940356040133258" at="40,60,60,6" concept="4" />
+      <node id="283940356040090165" at="39,0,62,0" concept="2" trace="getTopDownLayoutable#()Lde/itemis/mps/editor/celllayout/runtime/IEditorCellBasedLayoutable;" />
+      <scope id="4558881016208581735" at="28,30,30,56" />
+      <scope id="4558881016208576206" at="34,33,36,22" />
+      <scope id="3646157655632271695" at="44,60,46,49">
+        <var name="size" id="3646157655632342797" />
+      </scope>
+      <scope id="3646157655632271712" at="50,60,52,49">
+        <var name="size" id="3646157655632522651" />
+      </scope>
+      <scope id="3646157655632271779" at="56,66,58,49">
+        <var name="size" id="3646157655632525613" />
+      </scope>
+      <scope id="9175692738070091420" at="21,83,24,33" />
+      <scope id="9175692738070091417" at="21,0,26,0">
+        <var name="content" id="9175692738070091721" />
+        <var name="editorContext" id="9175692738070127815" />
+        <var name="node" id="9175692738070132291" />
+      </scope>
+      <scope id="4558881016208581729" at="27,0,32,0" />
+      <scope id="4558881016208576193" at="33,0,38,0" />
+      <scope id="3646157655632271646" at="42,0,48,0">
+        <var name="sizeConstraint" id="3646157655632271647" />
+      </scope>
+      <scope id="3646157655632271699" at="48,0,54,0">
+        <var name="sizeConstraint" id="3646157655632271700" />
+      </scope>
+      <scope id="3646157655632271716" at="54,0,60,0">
+        <var name="sizeConstraint" id="3646157655632271717" />
+      </scope>
+      <scope id="283940356040090170" at="40,60,60,6" />
+      <scope id="283940356040090165" at="39,0,62,0" />
+      <unit id="3646157655632268868" at="41,15,60,5" name="de.itemis.mps.editor.htmlcell.runtime.runtime.EditorCell_HTML$1" />
+      <unit id="9175692738070090912" at="17,0,63,0" name="de.itemis.mps.editor.htmlcell.runtime.runtime.EditorCell_HTML" />
+    </file>
+  </root>
+</debug-info>
+

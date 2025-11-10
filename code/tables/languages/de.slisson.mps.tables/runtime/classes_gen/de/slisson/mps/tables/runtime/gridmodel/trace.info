@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/1381472365346345040">
+    <file name="RequirementsCollection_Test.java">
+      <node id="1381472365346350175" at="10,0,11,0" concept="1" trace="main" />
+      <node id="1381472365346493665" at="12,45,13,44" concept="0" />
+      <node id="1381472365346505351" at="16,45,17,44" concept="0" />
+      <node id="1381472365346350210" at="20,23,21,22" concept="0" />
+      <node id="1381472365346437618" at="21,22,22,39" concept="0" />
+      <node id="1381472365346446047" at="22,39,23,39" concept="0" />
+      <node id="1381472365346447065" at="23,39,24,39" concept="0" />
+      <node id="1381472365346493996" at="24,39,25,39" concept="0" />
+      <node id="1381472365346463697" at="25,39,26,64" concept="0" />
+      <node id="1381472365346478747" at="26,64,27,73" concept="0" />
+      <node id="1381472365346480971" at="27,73,28,75" concept="0" />
+      <node id="1381472365346451855" at="28,75,29,19" concept="0" />
+      <node id="1381472365346354851" at="32,36,33,26" concept="5" />
+      <node id="1381472365346356877" at="33,26,34,56" concept="0" />
+      <node id="1381472365346388122" at="34,56,35,76" concept="0" />
+      <node id="1381472365346411362" at="35,76,36,80" concept="0" />
+      <node id="1381472365346550817" at="36,80,37,24" concept="0" />
+      <node id="1381472365346355536" at="37,24,38,15" concept="6" />
+      <node id="1381472365346371165" at="41,56,42,27" concept="5" />
+      <node id="1381472365346371953" at="42,27,43,49" concept="0" />
+      <node id="1381472365346378489" at="43,49,44,66" concept="0" />
+      <node id="1381472365346371304" at="44,66,45,16" concept="6" />
+      <node id="1381472365346450551" at="11,0,15,0" concept="4" trace="test_sizeX#()V" />
+      <node id="1381472365346504940" at="15,0,19,0" concept="4" trace="test_sizeY#()V" />
+      <node id="1381472365346356393" at="41,0,47,0" concept="4" trace="buildCell#(Ljava/lang/String;Ljava/lang/String;)Lde/slisson/mps/tables/runtime/gridmodel/Grid;" />
+      <node id="1381472365346354435" at="32,0,40,0" concept="4" trace="buildRow#(I)Lde/slisson/mps/tables/runtime/gridmodel/Grid;" />
+      <node id="1381472365346345040" at="19,0,31,0" concept="4" trace="setUp#()V" />
+      <scope id="1381472365346450556" at="12,45,13,44" />
+      <scope id="1381472365346504945" at="16,45,17,44" />
+      <scope id="1381472365346450551" at="11,0,15,0" />
+      <scope id="1381472365346504940" at="15,0,19,0" />
+      <scope id="1381472365346356397" at="41,56,45,16">
+        <var name="cell" id="1381472365346371166" />
+      </scope>
+      <scope id="1381472365346354439" at="32,36,38,15">
+        <var name="row" id="1381472365346354852" />
+      </scope>
+      <scope id="1381472365346356393" at="41,0,47,0">
+        <var name="content" id="1381472365346356801" />
+        <var name="header" id="1381472365346356832" />
+      </scope>
+      <scope id="1381472365346354435" at="32,0,40,0">
+        <var name="rowNum" id="1381472365346364624" />
+      </scope>
+      <scope id="1381472365346350168" at="20,23,29,19" />
+      <scope id="1381472365346345040" at="19,0,31,0" />
+      <unit id="1381472365346345040" at="9,0,48,0" name="de.slisson.mps.tables.runtime.gridmodel.RequirementsCollection_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/1795495746023020859">
+    <file name="TableBlockTest_Test.java">
+      <node id="1795495746023026327" at="10,0,11,0" concept="1" trace="main" />
+      <node id="1795495746023037210" at="11,0,12,0" concept="1" trace="in1" />
+      <node id="1795495746023047202" at="12,0,13,0" concept="1" trace="in2" />
+      <node id="1795495746023047289" at="13,0,14,0" concept="1" trace="out1" />
+      <node id="1795495746023047408" at="14,0,15,0" concept="1" trace="in1val" />
+      <node id="1795495746023047567" at="15,0,16,0" concept="1" trace="in2val" />
+      <node id="1795495746023283861" at="16,0,17,0" concept="1" trace="out1val" />
+      <node id="1795495746023409776" at="18,45,19,44" concept="0" />
+      <node id="1795495746023421672" at="22,45,23,44" concept="0" />
+      <node id="1795495746023047670" at="26,23,27,22" concept="0" />
+      <node id="1795495746023050708" at="27,22,28,43" concept="0" />
+      <node id="1795495746023053609" at="28,43,29,43" concept="0" />
+      <node id="1795495746023056715" at="29,43,30,45" concept="0" />
+      <node id="1795495746023060183" at="30,45,31,36" concept="0" />
+      <node id="1795495746023062856" at="31,36,32,36" concept="0" />
+      <node id="1795495746023491692" at="32,36,33,38" concept="0" />
+      <node id="1795495746023064069" at="33,38,34,0" concept="8" />
+      <node id="1795495746023071435" at="34,0,35,36" concept="0" />
+      <node id="1795495746023083227" at="35,36,36,36" concept="0" />
+      <node id="1795495746023096325" at="36,36,37,37" concept="0" />
+      <node id="1795495746023106440" at="37,37,38,0" concept="8" />
+      <node id="1795495746023174815" at="38,0,39,30" concept="5" />
+      <node id="1795495746023193138" at="39,30,40,30" concept="5" />
+      <node id="1795495746023179689" at="40,30,41,37" concept="0" />
+      <node id="1795495746023198373" at="41,37,42,37" concept="0" />
+      <node id="1795495746023170919" at="42,37,43,0" concept="8" />
+      <node id="1795495746023165005" at="43,0,44,29" concept="5" />
+      <node id="1795495746023212694" at="44,29,45,37" concept="0" />
+      <node id="1795495746023222193" at="45,37,46,37" concept="0" />
+      <node id="1795495746023231110" at="46,37,47,38" concept="0" />
+      <node id="1795495746023243923" at="47,38,48,38" concept="0" />
+      <node id="1795495746023167926" at="48,38,49,0" concept="8" />
+      <node id="1795495746023261787" at="49,0,50,31" concept="5" />
+      <node id="1795495746023268487" at="50,31,51,39" concept="0" />
+      <node id="1795495746023253255" at="51,39,52,0" concept="8" />
+      <node id="1795495746023292779" at="52,0,53,30" concept="5" />
+      <node id="1795495746023299743" at="53,30,54,39" concept="0" />
+      <node id="1795495746023296725" at="54,39,55,0" concept="8" />
+      <node id="1795495746023117205" at="55,0,56,27" concept="5" />
+      <node id="1795495746023121550" at="56,27,57,34" concept="0" />
+      <node id="1795495746023318459" at="57,34,58,35" concept="0" />
+      <node id="5415748826123928659" at="58,35,59,27" concept="0" />
+      <node id="1795495746023573416" at="59,27,60,21" concept="0" />
+      <node id="1795495746023584645" at="60,21,61,0" concept="8" />
+      <node id="1795495746023346387" at="61,0,62,32" concept="0" />
+      <node id="1795495746023152425" at="62,32,63,0" concept="8" />
+      <node id="1795495746023382635" at="63,0,64,50" concept="0" />
+      <node id="1795495746023367380" at="64,50,65,19" concept="0" />
+      <node id="1795495746023392653" at="65,19,66,49" concept="0" />
+      <node id="1795495746023403950" at="17,0,21,0" concept="4" trace="test_sizeX#()V" />
+      <node id="1795495746023421245" at="21,0,25,0" concept="4" trace="test_sizeY#()V" />
+      <node id="1795495746023020859" at="25,0,68,0" concept="4" trace="setUp#()V" />
+      <scope id="1795495746023403955" at="18,45,19,44" />
+      <scope id="1795495746023421250" at="22,45,23,44" />
+      <scope id="1795495746023403950" at="17,0,21,0" />
+      <scope id="1795495746023421245" at="21,0,25,0" />
+      <scope id="1795495746023037186" at="26,23,66,49">
+        <var name="row1" id="1795495746023117206" />
+        <var name="row1in" id="1795495746023165006" />
+        <var name="row1in1" id="1795495746023174816" />
+        <var name="row1in2" id="1795495746023193139" />
+        <var name="row1out" id="1795495746023292780" />
+        <var name="row1out1" id="1795495746023261788" />
+      </scope>
+      <scope id="1795495746023020859" at="25,0,68,0" />
+      <unit id="1795495746023020859" at="9,0,69,0" name="de.slisson.mps.tables.runtime.gridmodel.TableBlockTest_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/1862125665355474624">
+    <file name="Column_RightAnnotatedRow_Test.java">
+      <node id="1862125665355482101" at="10,0,11,0" concept="1" trace="main" />
+      <node id="1862125665355485247" at="11,0,12,0" concept="1" trace="row1" />
+      <node id="1862125665355485996" at="12,0,13,0" concept="1" trace="row2" />
+      <node id="1862125665355513462" at="13,0,14,0" concept="1" trace="annotatedRow" />
+      <node id="1862125665355486751" at="14,0,15,0" concept="1" trace="leaf1A" />
+      <node id="1862125665355487512" at="15,0,16,0" concept="1" trace="leaf1B" />
+      <node id="1862125665355488291" at="16,0,17,0" concept="1" trace="leaf2A" />
+      <node id="1862125665355489080" at="17,0,18,0" concept="1" trace="leaf2B" />
+      <node id="1862125665355505402" at="18,0,19,0" concept="1" trace="annotation" />
+      <node id="1862125665355644845" at="19,0,20,0" concept="1" trace="headerA" />
+      <node id="1862125665355648461" at="20,0,21,0" concept="1" trace="headerB" />
+      <node id="1862125665355716053" at="21,0,22,0" concept="1" trace="annotationHeader" />
+      <node id="1862125665355641290" at="23,45,24,44" concept="0" />
+      <node id="1862125665355767737" at="27,45,28,44" concept="0" />
+      <node id="1862125665355774082" at="31,59,32,57" concept="0" />
+      <node id="1862125665355784262" at="35,53,36,53" concept="0" />
+      <node id="1862125665355797585" at="36,53,37,53" concept="0" />
+      <node id="1862125665355809630" at="40,53,41,53" concept="0" />
+      <node id="1862125665355820457" at="41,53,42,53" concept="0" />
+      <node id="1862125665355836379" at="45,67,46,80" concept="0" />
+      <node id="1862125665355866638" at="49,51,50,57" concept="0" />
+      <node id="1862125665355874826" at="53,51,54,57" concept="0" />
+      <node id="1862125665355857309" at="57,57,58,70" concept="0" />
+      <node id="1862125665355883569" at="61,53,62,61" concept="0" />
+      <node id="1862125665355892183" at="62,61,63,61" concept="0" />
+      <node id="1862125665355482151" at="66,23,67,22" concept="0" />
+      <node id="1862125665355503412" at="67,22,68,0" concept="8" />
+      <node id="1862125665355489869" at="68,0,69,22" concept="0" />
+      <node id="1862125665355492922" at="69,22,70,22" concept="0" />
+      <node id="1862125665355502391" at="70,22,71,0" concept="8" />
+      <node id="1862125665355496258" at="71,0,72,32" concept="0" />
+      <node id="1862125665355498544" at="72,32,73,32" concept="0" />
+      <node id="1862125665355499417" at="73,32,74,32" concept="0" />
+      <node id="1862125665355500367" at="74,32,75,32" concept="0" />
+      <node id="1862125665355489504" at="75,32,76,0" concept="8" />
+      <node id="1862125665355657732" at="76,0,77,51" concept="0" />
+      <node id="1862125665355669034" at="77,51,78,51" concept="0" />
+      <node id="1862125665355726773" at="78,51,79,64" concept="0" />
+      <node id="1862125665355665169" at="79,64,80,0" concept="8" />
+      <node id="1862125665355535776" at="80,0,81,34" concept="0" />
+      <node id="1862125665355547389" at="81,34,82,34" concept="0" />
+      <node id="1862125665355682534" at="82,34,83,40" concept="0" />
+      <node id="1862125665355698385" at="83,40,84,40" concept="0" />
+      <node id="8999168544402708372" at="84,40,85,25" concept="0" />
+      <node id="1862125665355678594" at="85,25,86,0" concept="8" />
+      <node id="1862125665355557596" at="86,0,87,34" concept="0" />
+      <node id="1862125665355570756" at="87,34,88,34" concept="0" />
+      <node id="1862125665355704256" at="88,34,89,40" concept="0" />
+      <node id="1862125665355704263" at="89,40,90,40" concept="0" />
+      <node id="8999168544402674635" at="90,40,91,25" concept="0" />
+      <node id="8999168544402415752" at="91,25,92,0" concept="8" />
+      <node id="1862125665355507463" at="92,0,93,44" concept="0" />
+      <node id="1862125665355514563" at="93,44,94,30" concept="0" />
+      <node id="1862125665355520273" at="94,30,95,40" concept="0" />
+      <node id="1862125665355579674" at="95,40,96,60" concept="0" />
+      <node id="1862125665355743324" at="96,60,97,71" concept="0" />
+      <node id="8999168544402732633" at="97,71,98,33" concept="0" />
+      <node id="8999168544402726594" at="98,33,99,0" concept="8" />
+      <node id="1862125665355597342" at="99,0,100,40" concept="0" />
+      <node id="1862125665355612304" at="100,40,101,32" concept="0" />
+      <node id="1862125665355624872" at="101,32,102,0" concept="8" />
+      <node id="1862125665355632060" at="102,0,103,19" concept="0" />
+      <node id="1862125665355624858" at="22,0,26,0" concept="4" trace="test_sizeX#()V" />
+      <node id="1862125665355767347" at="26,0,30,0" concept="4" trace="test_sizeY#()V" />
+      <node id="1862125665355773532" at="30,0,34,0" concept="4" trace="test_annotation_position#()V" />
+      <node id="1862125665355834681" at="44,0,48,0" concept="4" trace="test_annotation_column_other_row#()V" />
+      <node id="1862125665355864430" at="48,0,52,0" concept="4" trace="test_headerSizeX#()V" />
+      <node id="1862125665355872442" at="52,0,56,0" concept="4" trace="test_headerSizeY#()V" />
+      <node id="1862125665355855297" at="56,0,60,0" concept="4" trace="test_annotation_header#()V" />
+      <node id="1862125665355783428" at="34,0,39,0" concept="4" trace="test_row1_position#()V" />
+      <node id="1862125665355808361" at="39,0,44,0" concept="4" trace="test_row2_position#()V" />
+      <node id="1862125665355881025" at="60,0,65,0" concept="4" trace="test_other_headers#()V" />
+      <node id="1862125665355474624" at="65,0,105,0" concept="4" trace="setUp#()V" />
+      <scope id="1862125665355624863" at="23,45,24,44" />
+      <scope id="1862125665355767352" at="27,45,28,44" />
+      <scope id="1862125665355773537" at="31,59,32,57" />
+      <scope id="1862125665355834686" at="45,67,46,80" />
+      <scope id="1862125665355864435" at="49,51,50,57" />
+      <scope id="1862125665355872447" at="53,51,54,57" />
+      <scope id="1862125665355855302" at="57,57,58,70" />
+      <scope id="1862125665355783433" at="35,53,37,53" />
+      <scope id="1862125665355808366" at="40,53,42,53" />
+      <scope id="1862125665355881030" at="61,53,63,61" />
+      <scope id="1862125665355624858" at="22,0,26,0" />
+      <scope id="1862125665355767347" at="26,0,30,0" />
+      <scope id="1862125665355773532" at="30,0,34,0" />
+      <scope id="1862125665355834681" at="44,0,48,0" />
+      <scope id="1862125665355864430" at="48,0,52,0" />
+      <scope id="1862125665355872442" at="52,0,56,0" />
+      <scope id="1862125665355855297" at="56,0,60,0" />
+      <scope id="1862125665355783428" at="34,0,39,0" />
+      <scope id="1862125665355808361" at="39,0,44,0" />
+      <scope id="1862125665355881025" at="60,0,65,0" />
+      <scope id="1862125665355482134" at="66,23,103,19" />
+      <scope id="1862125665355474624" at="65,0,105,0" />
+      <unit id="1862125665355474624" at="9,0,106,0" name="de.slisson.mps.tables.runtime.gridmodel.Column_RightAnnotatedRow_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/2199447184416302033">
+    <file name="DemoStateMachine_Test.java">
+      <node id="2199447184416307093" at="12,0,13,0" concept="1" trace="main" />
+      <node id="2199447184416333384" at="13,0,14,0" concept="1" trace="transitionSequence" />
+      <node id="2199447184416571440" at="15,45,16,44" concept="0" />
+      <node id="2199447184416577264" at="19,45,20,45" concept="0" />
+      <node id="2199447184416307125" at="23,23,24,23" concept="0" />
+      <node id="2199447184416567625" at="24,23,25,19" concept="0" />
+      <node id="2199447184416312107" at="28,77,29,27" concept="5" />
+      <node id="2199447184416312318" at="29,27,30,68" concept="0" />
+      <node id="2199447184416338311" at="30,68,31,46" concept="0" />
+      <node id="2199447184416348176" at="31,46,32,43" concept="0" />
+      <node id="2199447184416312229" at="32,43,33,16" concept="6" />
+      <node id="2199447184416364673" at="36,89,37,27" concept="5" />
+      <node id="2199447184416368653" at="38,37,39,59" concept="0" />
+      <node id="2199447184416365393" at="40,5,41,16" concept="6" />
+      <node id="2199447184416383533" at="44,27,45,27" concept="5" />
+      <node id="2199447184416386337" at="45,27,46,68" concept="5" />
+      <node id="2199447184416388709" at="46,68,47,68" concept="5" />
+      <node id="2199447184416398450" at="48,33,49,57" concept="0" />
+      <node id="2199447184416459141" at="49,57,50,45" concept="0" />
+      <node id="2199447184416409404" at="52,33,53,57" concept="0" />
+      <node id="2199447184416484917" at="53,57,54,48" concept="0" />
+      <node id="2199447184418761182" at="55,5,56,0" concept="8" />
+      <node id="2199447184416450879" at="58,47,59,95" concept="0" />
+      <node id="2199447184416417750" at="61,5,62,0" concept="8" />
+      <node id="2199447184416385988" at="62,0,63,16" concept="6" />
+      <node id="2199447184416365490" at="37,27,40,5" concept="2" />
+      <node id="2199447184416419069" at="57,45,60,7" concept="2" />
+      <node id="2199447184416571400" at="14,0,18,0" concept="4" trace="test_sizeX#()V" />
+      <node id="2199447184416571412" at="18,0,22,0" concept="4" trace="test_sizeY#()V" />
+      <node id="2199447184416395088" at="47,68,51,5" concept="2" />
+      <node id="2199447184416409402" at="51,5,55,5" concept="2" />
+      <node id="2199447184416302033" at="22,0,27,0" concept="4" trace="setUp#()V" />
+      <node id="2199447184416434423" at="56,0,61,5" concept="2" />
+      <node id="2199447184416311651" at="28,0,35,0" concept="4" trace="buildTransition#(Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;)Lde/slisson/mps/tables/runtime/gridmodel/Grid;" />
+      <node id="2199447184416363218" at="36,0,43,0" concept="4" trace="buildTransitions#(Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;I)Lde/slisson/mps/tables/runtime/gridmodel/Grid;" />
+      <node id="2199447184416381880" at="44,0,65,0" concept="4" trace="buildGrid#()Lde/slisson/mps/tables/runtime/gridmodel/Grid;" />
+      <scope id="2199447184416571405" at="15,45,16,44" />
+      <scope id="2199447184416571417" at="19,45,20,45" />
+      <scope id="2199447184416365493" at="38,37,39,59" />
+      <scope id="2199447184416419072" at="58,47,59,95" />
+      <scope id="2199447184416307110" at="23,23,25,19" />
+      <scope id="2199447184416395091" at="48,33,50,45" />
+      <scope id="2199447184416409403" at="52,33,54,48" />
+      <scope id="2199447184416365490" at="37,27,40,5">
+        <var name="i" id="2199447184416365496" />
+      </scope>
+      <scope id="2199447184416419069" at="57,45,60,7">
+        <var name="x" id="2199447184416419075" />
+      </scope>
+      <scope id="2199447184416434424" at="57,45,60,7" />
+      <scope id="2199447184416571400" at="14,0,18,0" />
+      <scope id="2199447184416571412" at="18,0,22,0" />
+      <scope id="2199447184416395088" at="47,68,51,5">
+        <var name="i" id="2199447184416395094" />
+      </scope>
+      <scope id="2199447184416409402" at="51,5,55,5">
+        <var name="i" id="2199447184416409413" />
+      </scope>
+      <scope id="2199447184416302033" at="22,0,27,0" />
+      <scope id="2199447184416311655" at="28,77,33,16">
+        <var name="grid" id="2199447184416312108" />
+      </scope>
+      <scope id="2199447184416363222" at="36,89,41,16">
+        <var name="grid" id="2199447184416364674" />
+      </scope>
+      <scope id="2199447184416434423" at="56,0,61,5">
+        <var name="y" id="2199447184416434425" />
+      </scope>
+      <scope id="2199447184416311651" at="28,0,35,0">
+        <var name="event" id="2199447184416312051" />
+        <var name="state" id="2199447184416312019" />
+      </scope>
+      <scope id="2199447184416363218" at="36,0,43,0">
+        <var name="count" id="2199447184416364622" />
+        <var name="event" id="2199447184416364578" />
+        <var name="state" id="2199447184416364538" />
+      </scope>
+      <scope id="2199447184416381884" at="44,27,63,16">
+        <var name="events" id="2199447184416388710" />
+        <var name="grid" id="2199447184416383534" />
+        <var name="states" id="2199447184416386338" />
+      </scope>
+      <scope id="2199447184416381880" at="44,0,65,0" />
+      <unit id="2199447184416302033" at="11,0,66,0" name="de.slisson.mps.tables.runtime.gridmodel.DemoStateMachine_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/3813940761427999700">
+    <file name="Column_AlignByParent_Test.java">
+      <node id="3813940761427999726" at="10,0,11,0" concept="1" trace="gridMain" />
+      <node id="3813940761428002165" at="11,0,12,0" concept="1" trace="row1" />
+      <node id="3813940761428006861" at="12,0,13,0" concept="1" trace="leafA" />
+      <node id="3813940761428007293" at="13,0,14,0" concept="1" trace="leafB" />
+      <node id="3813940761428007705" at="14,0,15,0" concept="1" trace="leafC" />
+      <node id="3813940761428015044" at="15,0,16,0" concept="1" trace="headerA" />
+      <node id="3813940761428016391" at="16,0,17,0" concept="1" trace="headerB" />
+      <node id="3813940761428017772" at="17,0,18,0" concept="1" trace="headerC" />
+      <node id="3813940761428794568" at="19,45,20,48" concept="0" />
+      <node id="3813940761428800898" at="23,45,24,48" concept="0" />
+      <node id="3813940761428807388" at="27,54,28,56" concept="0" />
+      <node id="3813940761428820281" at="28,56,29,56" concept="0" />
+      <node id="3813940761428821049" at="29,56,30,56" concept="0" />
+      <node id="3813940761429209253" at="33,52,34,79" concept="0" />
+      <node id="3813940761428830331" at="34,79,35,79" concept="0" />
+      <node id="3813940761429203977" at="35,79,36,79" concept="0" />
+      <node id="3813940761427999790" at="39,23,40,26" concept="0" />
+      <node id="3813940761429403727" at="40,26,41,22" concept="0" />
+      <node id="3813940761428008140" at="41,22,42,30" concept="0" />
+      <node id="3813940761428009871" at="42,30,43,30" concept="0" />
+      <node id="3813940761428012431" at="43,30,44,30" concept="0" />
+      <node id="3813940761428019167" at="44,30,45,51" concept="0" />
+      <node id="3813940761428095103" at="45,51,46,51" concept="0" />
+      <node id="3813940761428097452" at="46,51,47,51" concept="0" />
+      <node id="3813940761428678976" at="47,51,48,0" concept="8" />
+      <node id="3813940761428682817" at="48,0,49,33" concept="0" />
+      <node id="3813940761428692544" at="49,33,50,33" concept="0" />
+      <node id="3813940761428702082" at="50,33,51,33" concept="0" />
+      <node id="3813940761428712320" at="51,33,52,40" concept="0" />
+      <node id="3813940761428727629" at="52,40,53,40" concept="0" />
+      <node id="3813940761428750923" at="53,40,54,40" concept="0" />
+      <node id="1862125665354669514" at="54,40,55,21" concept="0" />
+      <node id="1862125665354687735" at="55,21,56,0" concept="8" />
+      <node id="3813940761428767506" at="56,0,57,36" concept="0" />
+      <node id="3813940761428133437" at="57,36,58,44" concept="0" />
+      <node id="3813940761428780873" at="58,44,59,44" concept="0" />
+      <node id="3813940761428786050" at="59,44,60,44" concept="0" />
+      <node id="3813940761429220530" at="60,44,61,0" concept="8" />
+      <node id="3813940761429225128" at="61,0,62,23" concept="0" />
+      <node id="3813940761428794540" at="18,0,22,0" concept="4" trace="test_sizeX#()V" />
+      <node id="3813940761428800474" at="22,0,26,0" concept="4" trace="test_sizeY#()V" />
+      <node id="3813940761428806804" at="26,0,32,0" concept="4" trace="test_elements_order#()V" />
+      <node id="3813940761428828991" at="32,0,38,0" concept="4" trace="test_header_order#()V" />
+      <node id="3813940761427999700" at="38,0,64,0" concept="4" trace="setUp#()V" />
+      <scope id="3813940761428794545" at="19,45,20,48" />
+      <scope id="3813940761428800479" at="23,45,24,48" />
+      <scope id="3813940761428806809" at="27,54,30,56" />
+      <scope id="3813940761428828996" at="33,52,36,79" />
+      <scope id="3813940761428794540" at="18,0,22,0" />
+      <scope id="3813940761428800474" at="22,0,26,0" />
+      <scope id="3813940761428806804" at="26,0,32,0" />
+      <scope id="3813940761428828991" at="32,0,38,0" />
+      <scope id="3813940761427999773" at="39,23,62,23" />
+      <scope id="3813940761427999700" at="38,0,64,0" />
+      <unit id="3813940761427999700" at="9,0,65,0" name="de.slisson.mps.tables.runtime.gridmodel.Column_AlignByParent_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/3813940761431563020">
+    <file name="Column_AlignByRows_Test.java">
+      <node id="3813940761431563023" at="10,0,11,0" concept="1" trace="gridMain" />
+      <node id="3813940761431563070" at="11,0,12,0" concept="1" trace="row1" />
+      <node id="3813940761431563125" at="12,0,13,0" concept="1" trace="row2" />
+      <node id="3813940761431563202" at="13,0,14,0" concept="1" trace="leaf1A" />
+      <node id="3813940761431563268" at="14,0,15,0" concept="1" trace="leaf1B" />
+      <node id="3813940761431563318" at="15,0,16,0" concept="1" trace="leaf1C" />
+      <node id="3813940761431563376" at="16,0,17,0" concept="1" trace="leaf2A" />
+      <node id="3813940761431563434" at="17,0,18,0" concept="1" trace="leaf2B" />
+      <node id="3813940761431563498" at="18,0,19,0" concept="1" trace="leaf2C" />
+      <node id="3813940761431563656" at="19,0,20,0" concept="1" trace="headerA" />
+      <node id="3813940761431563805" at="20,0,21,0" concept="1" trace="headerB" />
+      <node id="3813940761431563976" at="21,0,22,0" concept="1" trace="headerC" />
+      <node id="3813940761431700316" at="23,45,24,48" concept="0" />
+      <node id="3813940761431706626" at="27,45,28,48" concept="0" />
+      <node id="3813940761431724397" at="31,54,32,57" concept="0" />
+      <node id="3813940761431724404" at="32,57,33,57" concept="0" />
+      <node id="3813940761431724411" at="33,57,34,57" concept="0" />
+      <node id="3813940761431729232" at="34,57,35,57" concept="0" />
+      <node id="3813940761431729239" at="35,57,36,57" concept="0" />
+      <node id="3813940761431729246" at="36,57,37,57" concept="0" />
+      <node id="3813940761431724422" at="40,52,41,79" concept="0" />
+      <node id="3813940761431724431" at="41,79,42,79" concept="0" />
+      <node id="3813940761431724440" at="42,79,43,79" concept="0" />
+      <node id="3813940761431568529" at="46,23,47,26" concept="0" />
+      <node id="3813940761431568534" at="47,26,48,22" concept="0" />
+      <node id="3813940761432380582" at="48,22,49,22" concept="0" />
+      <node id="3813940761431568539" at="49,22,50,32" concept="0" />
+      <node id="3813940761431568545" at="50,32,51,32" concept="0" />
+      <node id="3813940761431568551" at="51,32,52,32" concept="0" />
+      <node id="3813940761431578615" at="52,32,53,32" concept="0" />
+      <node id="3813940761431578621" at="53,32,54,32" concept="0" />
+      <node id="3813940761431578627" at="54,32,55,32" concept="0" />
+      <node id="3813940761431568557" at="55,32,56,51" concept="0" />
+      <node id="3813940761431568563" at="56,51,57,51" concept="0" />
+      <node id="3813940761431568569" at="57,51,58,51" concept="0" />
+      <node id="3813940761431568575" at="58,51,59,0" concept="8" />
+      <node id="3813940761431568576" at="59,0,60,34" concept="0" />
+      <node id="3813940761431568583" at="60,34,61,34" concept="0" />
+      <node id="3813940761431568590" at="61,34,62,34" concept="0" />
+      <node id="3813940761431568597" at="62,34,63,40" concept="0" />
+      <node id="3813940761431568604" at="63,40,64,40" concept="0" />
+      <node id="3813940761431568611" at="64,40,65,40" concept="0" />
+      <node id="3813940761431568618" at="65,40,66,0" concept="8" />
+      <node id="3813940761431591084" at="66,0,67,34" concept="0" />
+      <node id="3813940761431591091" at="67,34,68,34" concept="0" />
+      <node id="3813940761431591098" at="68,34,69,34" concept="0" />
+      <node id="3813940761431591105" at="69,34,70,40" concept="0" />
+      <node id="3813940761431591112" at="70,40,71,40" concept="0" />
+      <node id="3813940761431591119" at="71,40,72,40" concept="0" />
+      <node id="3813940761431584243" at="72,40,73,0" concept="8" />
+      <node id="3813940761431568619" at="73,0,74,36" concept="0" />
+      <node id="3813940761431633178" at="74,36,75,36" concept="0" />
+      <node id="3813940761431649482" at="75,36,76,0" concept="8" />
+      <node id="3813940761431692976" at="76,0,77,23" concept="0" />
+      <node id="3813940761431687084" at="77,23,78,0" concept="8" />
+      <node id="3813940761431700288" at="22,0,26,0" concept="4" trace="test_sizeX#()V" />
+      <node id="3813940761431713975" at="26,0,30,0" concept="4" trace="test_sizeY#()V" />
+      <node id="3813940761431724418" at="39,0,45,0" concept="4" trace="test_header_order#()V" />
+      <node id="3813940761431724393" at="30,0,39,0" concept="4" trace="test_elements_order#()V" />
+      <node id="3813940761431563020" at="45,0,80,0" concept="4" trace="setUp#()V" />
+      <scope id="3813940761431700293" at="23,45,24,48" />
+      <scope id="3813940761431713980" at="27,45,28,48" />
+      <scope id="3813940761431724421" at="40,52,43,79" />
+      <scope id="3813940761431700288" at="22,0,26,0" />
+      <scope id="3813940761431713975" at="26,0,30,0" />
+      <scope id="3813940761431724396" at="31,54,37,57" />
+      <scope id="3813940761431724418" at="39,0,45,0" />
+      <scope id="3813940761431724393" at="30,0,39,0" />
+      <scope id="3813940761431564079" at="46,23,78,0" />
+      <scope id="3813940761431563020" at="45,0,80,0" />
+      <unit id="3813940761431563020" at="9,0,81,0" name="de.slisson.mps.tables.runtime.gridmodel.Column_AlignByRows_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/3813940761432433553">
+    <file name="Column_Group_Test.java">
+      <node id="3813940761432433559" at="10,0,11,0" concept="1" trace="gridMain" />
+      <node id="3813940761432436346" at="11,0,12,0" concept="1" trace="row1" />
+      <node id="3813940761432437083" at="12,0,13,0" concept="1" trace="row2" />
+      <node id="3813940761432444855" at="13,0,14,0" concept="1" trace="leaf1A" />
+      <node id="3813940761432446164" at="14,0,15,0" concept="1" trace="leaf1B" />
+      <node id="3813940761432448167" at="15,0,16,0" concept="1" trace="leaf2A" />
+      <node id="3813940761432448170" at="16,0,17,0" concept="1" trace="leaf2B" />
+      <node id="3813940761432449520" at="17,0,18,0" concept="1" trace="headerGroup" />
+      <node id="3813940761432450913" at="18,0,19,0" concept="1" trace="headerA" />
+      <node id="3813940761432451625" at="19,0,20,0" concept="1" trace="headerB" />
+      <node id="3813940761432569688" at="21,45,22,48" concept="0" />
+      <node id="3813940761432569697" at="25,45,26,48" concept="0" />
+      <node id="3813940761432569713" at="29,54,30,57" concept="0" />
+      <node id="3813940761432569720" at="30,57,31,57" concept="0" />
+      <node id="3813940761432569734" at="31,57,32,57" concept="0" />
+      <node id="3813940761432569741" at="32,57,33,57" concept="0" />
+      <node id="3813940761432612339" at="36,57,37,67" concept="0" />
+      <node id="3813940761432618561" at="40,57,41,67" concept="0" />
+      <node id="3813940761432569752" at="44,52,45,83" concept="0" />
+      <node id="3813940761432569761" at="45,83,46,79" concept="0" />
+      <node id="3813940761432569770" at="46,79,47,79" concept="0" />
+      <node id="1862125665344651487" at="50,54,51,83" concept="0" />
+      <node id="1862125665344651496" at="51,83,52,83" concept="0" />
+      <node id="3813940761432433633" at="55,23,56,26" concept="0" />
+      <node id="3813940761432437846" at="56,26,57,22" concept="0" />
+      <node id="3813940761432440885" at="57,22,58,22" concept="0" />
+      <node id="3813940761432452328" at="58,22,59,60" concept="0" />
+      <node id="3813940761432455856" at="59,60,60,51" concept="0" />
+      <node id="3813940761432458024" at="60,51,61,51" concept="0" />
+      <node id="3813940761432460082" at="61,51,62,32" concept="0" />
+      <node id="3813940761432462644" at="62,32,63,32" concept="0" />
+      <node id="3813940761432463915" at="63,32,64,32" concept="0" />
+      <node id="3813940761432465576" at="64,32,65,32" concept="0" />
+      <node id="3813940761432548604" at="65,32,66,0" concept="8" />
+      <node id="3813940761432468418" at="66,0,67,34" concept="0" />
+      <node id="3813940761432477597" at="67,34,68,34" concept="0" />
+      <node id="3813940761432487951" at="68,34,69,40" concept="0" />
+      <node id="3813940761432499533" at="69,40,70,40" concept="0" />
+      <node id="3813940761432553153" at="70,40,71,0" concept="8" />
+      <node id="3813940761432503315" at="71,0,72,34" concept="0" />
+      <node id="3813940761432503322" at="72,34,73,34" concept="0" />
+      <node id="3813940761432503329" at="73,34,74,40" concept="0" />
+      <node id="3813940761432503336" at="74,40,75,40" concept="0" />
+      <node id="3813940761432557704" at="75,40,76,0" concept="8" />
+      <node id="3813940761432514312" at="76,0,77,36" concept="0" />
+      <node id="3813940761432531231" at="77,36,78,36" concept="0" />
+      <node id="1862125665343244906" at="78,36,79,48" concept="0" />
+      <node id="3813940761432581087" at="79,48,80,0" concept="8" />
+      <node id="3813940761432585980" at="80,0,81,23" concept="0" />
+      <node id="3813940761432569684" at="20,0,24,0" concept="4" trace="test_sizeX#()V" />
+      <node id="3813940761432569693" at="24,0,28,0" concept="4" trace="test_sizeY#()V" />
+      <node id="3813940761432610060" at="35,0,39,0" concept="4" trace="test_columnHeaderSizeX#()V" />
+      <node id="3813940761432618557" at="39,0,43,0" concept="4" trace="test_columnHeaderSizeY#()V" />
+      <node id="1862125665344644913" at="49,0,54,0" concept="4" trace="test_group_spanning#()V" />
+      <node id="3813940761432569748" at="43,0,49,0" concept="4" trace="test_header_order#()V" />
+      <node id="3813940761432569702" at="28,0,35,0" concept="4" trace="test_elements_order#()V" />
+      <node id="3813940761432433553" at="54,0,83,0" concept="4" trace="setUp#()V" />
+      <scope id="3813940761432569687" at="21,45,22,48" />
+      <scope id="3813940761432569696" at="25,45,26,48" />
+      <scope id="3813940761432610065" at="36,57,37,67" />
+      <scope id="3813940761432618560" at="40,57,41,67" />
+      <scope id="1862125665344644918" at="50,54,52,83" />
+      <scope id="3813940761432569751" at="44,52,47,79" />
+      <scope id="3813940761432569684" at="20,0,24,0" />
+      <scope id="3813940761432569693" at="24,0,28,0" />
+      <scope id="3813940761432569705" at="29,54,33,57" />
+      <scope id="3813940761432610060" at="35,0,39,0" />
+      <scope id="3813940761432618557" at="39,0,43,0" />
+      <scope id="1862125665344644913" at="49,0,54,0" />
+      <scope id="3813940761432569748" at="43,0,49,0" />
+      <scope id="3813940761432569702" at="28,0,35,0" />
+      <scope id="3813940761432433616" at="55,23,81,23" />
+      <scope id="3813940761432433553" at="54,0,83,0" />
+      <unit id="3813940761432433553" at="9,0,84,0" name="de.slisson.mps.tables.runtime.gridmodel.Column_Group_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/6288835440179248022">
+    <file name="Grid_SpanMerge_Test.java">
+      <node id="6288835440179250012" at="11,0,12,0" concept="1" trace="gridMain" />
+      <node id="6288835440179258295" at="12,0,13,0" concept="1" trace="gridA" />
+      <node id="6288835440179250015" at="13,0,14,0" concept="1" trace="leafA" />
+      <node id="6288835440179250018" at="14,0,15,0" concept="1" trace="leafB" />
+      <node id="6288835440179250021" at="15,0,16,0" concept="1" trace="leafC" />
+      <node id="6288835440179301033" at="17,49,18,48" concept="0" />
+      <node id="6288835440179307187" at="18,48,19,48" concept="0" />
+      <node id="6288835440179481605" at="22,56,23,84" concept="0" />
+      <node id="6288835440179499002" at="23,84,24,84" concept="0" />
+      <node id="6288835440179314638" at="24,84,25,58" concept="0" />
+      <node id="6288835440179331794" at="25,58,26,84" concept="0" />
+      <node id="6288835440179346659" at="26,84,27,58" concept="0" />
+      <node id="6288835440179362679" at="27,58,28,58" concept="0" />
+      <node id="6288835440179385108" at="31,57,32,45" concept="0" />
+      <node id="6288835440179378959" at="32,45,33,45" concept="0" />
+      <node id="6288835440179566621" at="33,45,34,53" concept="0" />
+      <node id="6288835440179582160" at="34,53,35,0" concept="8" />
+      <node id="6288835440179409562" at="35,0,36,82" concept="0" />
+      <node id="6288835440179446451" at="36,82,37,82" concept="0" />
+      <node id="6288835440179536812" at="40,62,41,94" concept="0" />
+      <node id="6288835440179546001" at="41,94,42,94" concept="0" />
+      <node id="6288835440179577685" at="42,94,43,0" concept="8" />
+      <node id="6288835440179451293" at="43,0,44,111" concept="0" />
+      <node id="6288835440179521538" at="44,111,45,111" concept="0" />
+      <node id="6288835440179669783" at="48,56,49,23" concept="0" />
+      <node id="6288835440179675906" at="49,23,50,48" concept="0" />
+      <node id="6288835440179686856" at="50,48,51,48" concept="0" />
+      <node id="6288835440179884570" at="54,60,55,23" concept="0" />
+      <node id="6288835440179834012" at="55,23,56,56" concept="0" />
+      <node id="6288835440179845431" at="56,56,57,56" concept="0" />
+      <node id="6288835440179859440" at="57,56,58,56" concept="0" />
+      <node id="6288835440179805585" at="61,61,62,23" concept="0" />
+      <node id="6288835440179700318" at="62,23,63,84" concept="0" />
+      <node id="6288835440179718729" at="63,84,64,56" concept="0" />
+      <node id="6288835440179736437" at="64,56,65,85" concept="0" />
+      <node id="6288835440179752414" at="65,85,66,85" concept="0" />
+      <node id="6288835440179777155" at="66,85,67,0" concept="8" />
+      <node id="6288835440179774737" at="67,0,68,97" concept="0" />
+      <node id="6288835440179774749" at="68,97,69,97" concept="0" />
+      <node id="6288835440179774761" at="69,97,70,0" concept="8" />
+      <node id="6288835440179774762" at="70,0,71,114" concept="0" />
+      <node id="6288835440179774777" at="71,114,72,114" concept="0" />
+      <node id="2522915415575038326" at="75,55,76,45" concept="0" />
+      <node id="6288835440179252254" at="79,23,80,34" concept="0" />
+      <node id="6288835440179252259" at="80,34,81,34" concept="0" />
+      <node id="6288835440179252264" at="81,34,82,34" concept="0" />
+      <node id="6288835440179252284" at="82,34,83,26" concept="0" />
+      <node id="6288835440179276157" at="83,26,84,23" concept="0" />
+      <node id="6288835440179267671" at="84,23,85,22" concept="0" />
+      <node id="6288835440179282113" at="85,22,86,34" concept="0" />
+      <node id="6288835440179252289" at="86,34,87,37" concept="0" />
+      <node id="6288835440179252296" at="87,37,88,37" concept="0" />
+      <node id="6288835440179252303" at="88,37,89,37" concept="0" />
+      <node id="6288835440180560641" at="74,0,78,0" concept="4" trace="test_span_consistent#()V" />
+      <node id="6288835440179300848" at="16,0,21,0" concept="4" trace="test_main_size#()V" />
+      <node id="6288835440179665741" at="47,0,53,0" concept="4" trace="test_size_after_merge#()V" />
+      <node id="6288835440179827469" at="53,0,60,0" concept="4" trace="test_elements_after_merge#()V" />
+      <node id="6288835440179754162" at="39,0,47,0" concept="4" trace="test_span_info_before_merge#()V" />
+      <node id="6288835440179313959" at="21,0,30,0" concept="4" trace="test_elements_in_main#()V" />
+      <node id="6288835440179377413" at="30,0,39,0" concept="4" trace="test_elements_in_gridA#()V" />
+      <node id="6288835440179248022" at="78,0,91,0" concept="4" trace="setUp#()V" />
+      <node id="6288835440179694193" at="60,0,74,0" concept="4" trace="test_span_info_after_merge#()V" />
+      <scope id="6288835440180560646" at="75,55,76,45" />
+      <scope id="6288835440179300853" at="17,49,19,48" />
+      <scope id="6288835440179665746" at="48,56,51,48" />
+      <scope id="6288835440179827474" at="54,60,58,56" />
+      <scope id="6288835440180560641" at="74,0,78,0" />
+      <scope id="6288835440179300848" at="16,0,21,0" />
+      <scope id="6288835440179754167" at="40,62,45,111" />
+      <scope id="6288835440179313964" at="22,56,28,58" />
+      <scope id="6288835440179377418" at="31,57,37,82" />
+      <scope id="6288835440179665741" at="47,0,53,0" />
+      <scope id="6288835440179827469" at="53,0,60,0" />
+      <scope id="6288835440179754162" at="39,0,47,0" />
+      <scope id="6288835440179313959" at="21,0,30,0" />
+      <scope id="6288835440179377413" at="30,0,39,0" />
+      <scope id="6288835440179252253" at="79,23,89,37" />
+      <scope id="6288835440179694198" at="61,61,72,114" />
+      <scope id="6288835440179248022" at="78,0,91,0" />
+      <scope id="6288835440179694193" at="60,0,74,0" />
+      <unit id="6288835440179248022" at="10,0,92,0" name="de.slisson.mps.tables.runtime.gridmodel.Grid_SpanMerge_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/6288835440185055597">
+    <file name="Grid_AutospanOnFlattening_Test.java">
+      <node id="6288835440185057189" at="10,0,11,0" concept="1" trace="gridMain" />
+      <node id="6288835440185058840" at="11,0,12,0" concept="1" trace="gridA" />
+      <node id="6288835440185058901" at="12,0,13,0" concept="1" trace="leafA" />
+      <node id="6288835440185060596" at="13,0,14,0" concept="1" trace="leafB" />
+      <node id="6288835440185060624" at="14,0,15,0" concept="1" trace="leafC" />
+      <node id="6288835440185060655" at="15,0,16,0" concept="1" trace="leafD" />
+      <node id="6288835440185060689" at="16,0,17,0" concept="1" trace="leafE" />
+      <node id="6288835440185162941" at="18,56,19,56" concept="0" />
+      <node id="6288835440185175355" at="19,56,20,56" concept="0" />
+      <node id="6288835440185176080" at="20,56,21,56" concept="0" />
+      <node id="6288835440185177020" at="21,56,22,56" concept="0" />
+      <node id="6288835440185178175" at="22,56,23,56" concept="0" />
+      <node id="6288835440185197858" at="26,60,27,45" concept="0" />
+      <node id="6288835440185202989" at="27,45,28,85" concept="0" />
+      <node id="6288835440185213447" at="28,85,29,97" concept="0" />
+      <node id="6288835440185060820" at="32,23,33,26" concept="0" />
+      <node id="6288835440185063536" at="33,26,34,23" concept="0" />
+      <node id="6288835440185066519" at="34,23,35,34" concept="0" />
+      <node id="6288835440185067988" at="35,34,36,34" concept="0" />
+      <node id="6288835440185068669" at="36,34,37,34" concept="0" />
+      <node id="6288835440185069409" at="37,34,38,34" concept="0" />
+      <node id="6288835440185069466" at="38,34,39,34" concept="0" />
+      <node id="6288835440185072920" at="39,34,40,0" concept="8" />
+      <node id="6288835440185076381" at="40,0,41,34" concept="0" />
+      <node id="6288835440185084407" at="41,34,42,34" concept="0" />
+      <node id="6288835440185092667" at="42,34,43,37" concept="0" />
+      <node id="6288835440185103480" at="43,37,44,37" concept="0" />
+      <node id="6288835440185120728" at="44,37,45,37" concept="0" />
+      <node id="6288835440185134996" at="45,37,46,37" concept="0" />
+      <node id="6288835440185153813" at="46,37,47,23" concept="0" />
+      <node id="6288835440185196493" at="25,0,31,0" concept="4" trace="test_auto_spanned_element#()V" />
+      <node id="6288835440185149653" at="17,0,25,0" concept="4" trace="test_element_position#()V" />
+      <node id="6288835440185055597" at="31,0,49,0" concept="4" trace="setUp#()V" />
+      <scope id="6288835440185196498" at="26,60,29,97" />
+      <scope id="6288835440185149658" at="18,56,23,56" />
+      <scope id="6288835440185196493" at="25,0,31,0" />
+      <scope id="6288835440185149653" at="17,0,25,0" />
+      <scope id="6288835440185060798" at="32,23,47,23" />
+      <scope id="6288835440185055597" at="31,0,49,0" />
+      <unit id="6288835440185055597" at="9,0,50,0" name="de.slisson.mps.tables.runtime.gridmodel.Grid_AutospanOnFlattening_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/6524627699326845023">
+    <file name="SpanningHeaderAlign_Test.java">
+      <node id="6524627699326877526" at="10,0,11,0" concept="1" trace="main" />
+      <node id="6524627699326889127" at="11,0,12,0" concept="1" trace="columnA" />
+      <node id="6524627699326909250" at="12,0,13,0" concept="1" trace="columnB" />
+      <node id="6524627699327023392" at="14,45,15,44" concept="0" />
+      <node id="6524627699327029704" at="18,45,19,44" concept="0" />
+      <node id="6524627699327097087" at="22,42,23,108" concept="0" />
+      <node id="6524627699327124551" at="26,42,27,108" concept="0" />
+      <node id="6524627699327379252" at="30,42,31,108" concept="0" />
+      <node id="6524627699326877566" at="34,23,35,22" concept="0" />
+      <node id="6524627699326889964" at="35,22,36,45" concept="0" />
+      <node id="6524627699326910399" at="36,45,37,45" concept="0" />
+      <node id="6524627699326912875" at="37,45,38,0" concept="8" />
+      <node id="6524627699326914186" at="38,0,39,53" concept="0" />
+      <node id="6524627699326947633" at="39,53,40,53" concept="0" />
+      <node id="6524627699326951749" at="40,53,41,40" concept="0" />
+      <node id="6524627699326965072" at="41,40,42,40" concept="0" />
+      <node id="6524627699326976589" at="42,40,43,0" concept="8" />
+      <node id="6524627699326981151" at="43,0,44,53" concept="0" />
+      <node id="6524627699326996841" at="44,53,45,40" concept="0" />
+      <node id="6524627699327014625" at="45,40,46,19" concept="0" />
+      <node id="6524627699326921899" at="49,66,50,27" concept="5" />
+      <node id="6524627699326922074" at="50,27,51,49" concept="0" />
+      <node id="6524627699326928068" at="51,49,52,39" concept="0" />
+      <node id="6524627699326935649" at="52,39,53,16" concept="6" />
+      <node id="6524627699327123993" at="57,36,58,41" concept="6" />
+      <node id="6524627699327123993" at="59,5,60,16" concept="6" />
+      <node id="6524627699327124553" at="63,36,64,41" concept="6" />
+      <node id="6524627699327124553" at="65,5,66,16" concept="6" />
+      <node id="6524627699327379254" at="69,36,70,41" concept="6" />
+      <node id="6524627699327379254" at="71,5,72,16" concept="6" />
+      <node id="6524627699327121571" at="74,67,75,47" concept="6" />
+      <node id="6524627699327124554" at="77,67,78,47" concept="6" />
+      <node id="6524627699327379255" at="80,67,81,47" concept="6" />
+      <node id="6524627699327123993" at="56,72,59,5" concept="3" />
+      <node id="6524627699327124553" at="62,72,65,5" concept="3" />
+      <node id="6524627699327379254" at="68,72,71,5" concept="3" />
+      <node id="6524627699327121571" at="74,0,77,0" concept="9" trace="as_jr56ln_a0b0a0f#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6524627699327124554" at="77,0,80,0" concept="9" trace="as_jr56ln_a0b0a0g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6524627699327379255" at="80,0,83,0" concept="9" trace="as_jr56ln_a0b0a0h#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6524627699327023358" at="13,0,17,0" concept="4" trace="test_sizeX#()V" />
+      <node id="6524627699327029291" at="17,0,21,0" concept="4" trace="test_sizeY#()V" />
+      <node id="6524627699327096527" at="21,0,25,0" concept="4" trace="test_A1#()V" />
+      <node id="6524627699327376875" at="25,0,29,0" concept="4" trace="test_A2#()V" />
+      <node id="6524627699327377626" at="29,0,33,0" concept="4" trace="test_B2#()V" />
+      <node id="6524627699326920324" at="49,0,55,0" concept="4" trace="createCell#(Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Ljava/lang/String;)Lde/slisson/mps/tables/runtime/gridmodel/Grid;" />
+      <node id="6524627699327123993" at="56,0,62,0" concept="9" trace="check_jr56ln_a0a2a#(Lde/slisson/mps/tables/runtime/gridmodel/GridLeaf;)Ljava/lang/String;" />
+      <node id="6524627699327124553" at="62,0,68,0" concept="9" trace="check_jr56ln_a0a3a#(Lde/slisson/mps/tables/runtime/gridmodel/GridLeaf;)Ljava/lang/String;" />
+      <node id="6524627699327379254" at="68,0,74,0" concept="9" trace="check_jr56ln_a0a4a#(Lde/slisson/mps/tables/runtime/gridmodel/GridLeaf;)Ljava/lang/String;" />
+      <node id="6524627699326845023" at="33,0,48,0" concept="4" trace="setUp#()V" />
+      <scope id="6524627699327023363" at="14,45,15,44" />
+      <scope id="6524627699327029296" at="18,45,19,44" />
+      <scope id="6524627699327096532" at="22,42,23,108" />
+      <scope id="6524627699327376880" at="26,42,27,108" />
+      <scope id="6524627699327377631" at="30,42,31,108" />
+      <scope id="6524627699327123993" at="57,36,58,41" />
+      <scope id="6524627699327124553" at="63,36,64,41" />
+      <scope id="6524627699327379254" at="69,36,70,41" />
+      <scope id="6524627699327121571" at="74,67,75,47" />
+      <scope id="6524627699327124554" at="77,67,78,47" />
+      <scope id="6524627699327379255" at="80,67,81,47" />
+      <scope id="6524627699327121571" at="74,0,77,0">
+        <var name="o" id="6524627699327121571" />
+        <var name="type" id="6524627699327121571" />
+      </scope>
+      <scope id="6524627699327124554" at="77,0,80,0">
+        <var name="o" id="6524627699327124554" />
+        <var name="type" id="6524627699327124554" />
+      </scope>
+      <scope id="6524627699327379255" at="80,0,83,0">
+        <var name="o" id="6524627699327379255" />
+        <var name="type" id="6524627699327379255" />
+      </scope>
+      <scope id="6524627699327023358" at="13,0,17,0" />
+      <scope id="6524627699327029291" at="17,0,21,0" />
+      <scope id="6524627699327096527" at="21,0,25,0" />
+      <scope id="6524627699327376875" at="25,0,29,0" />
+      <scope id="6524627699327377626" at="29,0,33,0" />
+      <scope id="6524627699326920328" at="49,66,53,16">
+        <var name="grid" id="6524627699326921900" />
+      </scope>
+      <scope id="6524627699327123993" at="56,72,60,16" />
+      <scope id="6524627699327124553" at="62,72,66,16" />
+      <scope id="6524627699327379254" at="68,72,72,16" />
+      <scope id="6524627699326920324" at="49,0,55,0">
+        <var name="content" id="6524627699326922011" />
+        <var name="header" id="6524627699326921852" />
+      </scope>
+      <scope id="6524627699327123993" at="56,0,62,0">
+        <var name="checkedDotOperand" id="6524627699327123993" />
+      </scope>
+      <scope id="6524627699327124553" at="62,0,68,0">
+        <var name="checkedDotOperand" id="6524627699327124553" />
+      </scope>
+      <scope id="6524627699327379254" at="68,0,74,0">
+        <var name="checkedDotOperand" id="6524627699327379254" />
+      </scope>
+      <scope id="6524627699326877549" at="34,23,46,19" />
+      <scope id="6524627699326845023" at="33,0,48,0" />
+      <unit id="6524627699326845023" at="9,0,84,0" name="de.slisson.mps.tables.runtime.gridmodel.SpanningHeaderAlign_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/6599355287726423202">
+    <file name="AnnotatedRow_Above_Test.java">
+      <node id="6599355287726425067" at="10,0,11,0" concept="1" trace="row0" />
+      <node id="6599355287726425102" at="11,0,12,0" concept="1" trace="row1" />
+      <node id="6599355287726425161" at="12,0,13,0" concept="1" trace="row2" />
+      <node id="6599355287726502260" at="13,0,14,0" concept="1" trace="annotatedRow1" />
+      <node id="6599355287726425248" at="14,0,15,0" concept="1" trace="gridMain" />
+      <node id="6599355287726531581" at="15,0,16,0" concept="1" trace="annotation" />
+      <node id="6599355287726666753" at="17,45,18,48" concept="0" />
+      <node id="6599355287726673508" at="21,45,22,48" concept="0" />
+      <node id="6599355287726636212" at="25,59,26,61" concept="0" />
+      <node id="6599355287726652234" at="29,59,30,50" concept="0" />
+      <node id="6599355287726653861" at="30,50,31,85" concept="0" />
+      <node id="6599355287726680997" at="31,85,32,85" concept="0" />
+      <node id="6599355287726425328" at="35,23,36,22" concept="0" />
+      <node id="6599355287726428005" at="36,22,37,22" concept="0" />
+      <node id="6599355287726430978" at="37,22,38,22" concept="0" />
+      <node id="6599355287726433592" at="38,22,39,0" concept="8" />
+      <node id="6599355287726434904" at="39,0,40,48" concept="0" />
+      <node id="6599355287726451832" at="40,48,41,48" concept="0" />
+      <node id="6599355287726453020" at="41,48,42,48" concept="0" />
+      <node id="6599355287726465242" at="42,48,43,0" concept="8" />
+      <node id="6599355287726468091" at="43,0,44,48" concept="0" />
+      <node id="6599355287726468100" at="44,48,45,48" concept="0" />
+      <node id="6599355287726468109" at="45,48,46,48" concept="0" />
+      <node id="6599355287726470197" at="46,48,47,0" concept="8" />
+      <node id="6599355287726474434" at="47,0,48,48" concept="0" />
+      <node id="6599355287726474443" at="48,48,49,48" concept="0" />
+      <node id="6599355287726474452" at="49,48,50,48" concept="0" />
+      <node id="6599355287726494121" at="50,48,51,0" concept="8" />
+      <node id="6599355287726537699" at="51,0,52,44" concept="0" />
+      <node id="6599355287726504918" at="52,44,53,31" concept="0" />
+      <node id="6599355287726514656" at="53,31,54,47" concept="0" />
+      <node id="6599355287726549053" at="54,47,55,41" concept="0" />
+      <node id="6599355287726582455" at="55,41,56,0" concept="8" />
+      <node id="6599355287726705524" at="56,0,57,26" concept="0" />
+      <node id="6599355287726589877" at="57,26,58,36" concept="0" />
+      <node id="6599355287726602661" at="58,36,59,45" concept="0" />
+      <node id="6599355287726607072" at="59,45,60,36" concept="0" />
+      <node id="6599355287726615046" at="60,36,61,0" concept="8" />
+      <node id="6599355287726624532" at="61,0,62,23" concept="0" />
+      <node id="6599355287726665955" at="16,0,20,0" concept="4" trace="test_sizeX#()V" />
+      <node id="6599355287726672564" at="20,0,24,0" concept="4" trace="test_sizeY#()V" />
+      <node id="6599355287726636140" at="24,0,28,0" concept="4" trace="test_annotation_position#()V" />
+      <node id="6599355287726651720" at="28,0,34,0" concept="4" trace="test_annotation_spanning#()V" />
+      <node id="6599355287726423202" at="34,0,64,0" concept="4" trace="setUp#()V" />
+      <scope id="6599355287726665960" at="17,45,18,48" />
+      <scope id="6599355287726672569" at="21,45,22,48" />
+      <scope id="6599355287726636145" at="25,59,26,61" />
+      <scope id="6599355287726651725" at="29,59,32,85" />
+      <scope id="6599355287726665955" at="16,0,20,0" />
+      <scope id="6599355287726672564" at="20,0,24,0" />
+      <scope id="6599355287726636140" at="24,0,28,0" />
+      <scope id="6599355287726651720" at="28,0,34,0" />
+      <scope id="6599355287726425218" at="35,23,62,23" />
+      <scope id="6599355287726423202" at="34,0,64,0" />
+      <unit id="6599355287726423202" at="9,0,65,0" name="de.slisson.mps.tables.runtime.gridmodel.AnnotatedRow_Above_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/6599355287726806091">
+    <file name="AnnotatedRow_Right_Test.java">
+      <node id="6599355287726806150" at="10,0,11,0" concept="1" trace="row0" />
+      <node id="6599355287726806153" at="11,0,12,0" concept="1" trace="row1" />
+      <node id="6599355287726806156" at="12,0,13,0" concept="1" trace="row2" />
+      <node id="6599355287726806159" at="13,0,14,0" concept="1" trace="annotatedRow1" />
+      <node id="6599355287726806162" at="14,0,15,0" concept="1" trace="gridMain" />
+      <node id="6599355287726806165" at="15,0,16,0" concept="1" trace="annotation" />
+      <node id="6599355287726806098" at="17,45,18,48" concept="0" />
+      <node id="6599355287726806107" at="21,45,22,48" concept="0" />
+      <node id="6599355287726806116" at="25,59,26,61" concept="0" />
+      <node id="6599355287726806170" at="29,23,30,22" concept="0" />
+      <node id="6599355287726806175" at="30,22,31,22" concept="0" />
+      <node id="6599355287726806180" at="31,22,32,22" concept="0" />
+      <node id="6599355287726806185" at="32,22,33,0" concept="8" />
+      <node id="6599355287726806186" at="33,0,34,48" concept="0" />
+      <node id="6599355287726806195" at="34,48,35,48" concept="0" />
+      <node id="6599355287726806204" at="35,48,36,48" concept="0" />
+      <node id="6599355287726806213" at="36,48,37,0" concept="8" />
+      <node id="6599355287726806214" at="37,0,38,48" concept="0" />
+      <node id="6599355287726806223" at="38,48,39,48" concept="0" />
+      <node id="6599355287726806232" at="39,48,40,48" concept="0" />
+      <node id="6599355287726806241" at="40,48,41,0" concept="8" />
+      <node id="6599355287726806242" at="41,0,42,48" concept="0" />
+      <node id="6599355287726806251" at="42,48,43,48" concept="0" />
+      <node id="6599355287726806260" at="43,48,44,48" concept="0" />
+      <node id="6599355287726806269" at="44,48,45,0" concept="8" />
+      <node id="6599355287726806270" at="45,0,46,44" concept="0" />
+      <node id="6599355287726806276" at="46,44,47,31" concept="0" />
+      <node id="6599355287727634512" at="47,31,48,35" concept="0" />
+      <node id="6599355287726806288" at="48,35,49,41" concept="0" />
+      <node id="6599355287726806281" at="49,41,50,61" concept="0" />
+      <node id="6599355287726806295" at="50,61,51,0" concept="8" />
+      <node id="6599355287726806296" at="51,0,52,26" concept="0" />
+      <node id="6599355287726806301" at="52,26,53,36" concept="0" />
+      <node id="6599355287726806308" at="53,36,54,45" concept="0" />
+      <node id="6599355287726806315" at="54,45,55,36" concept="0" />
+      <node id="6599355287726806322" at="55,36,56,0" concept="8" />
+      <node id="6599355287726806330" at="56,0,57,23" concept="0" />
+      <node id="6599355287726806094" at="16,0,20,0" concept="4" trace="test_sizeX#()V" />
+      <node id="6599355287726806103" at="20,0,24,0" concept="4" trace="test_sizeY#()V" />
+      <node id="6599355287726806112" at="24,0,28,0" concept="4" trace="test_annotation_position#()V" />
+      <node id="6599355287726806091" at="28,0,59,0" concept="4" trace="setUp#()V" />
+      <scope id="6599355287726806097" at="17,45,18,48" />
+      <scope id="6599355287726806106" at="21,45,22,48" />
+      <scope id="6599355287726806115" at="25,59,26,61" />
+      <scope id="6599355287726806094" at="16,0,20,0" />
+      <scope id="6599355287726806103" at="20,0,24,0" />
+      <scope id="6599355287726806112" at="24,0,28,0" />
+      <scope id="6599355287726806169" at="29,23,57,23" />
+      <scope id="6599355287726806091" at="28,0,59,0" />
+      <unit id="6599355287726806091" at="9,0,60,0" name="de.slisson.mps.tables.runtime.gridmodel.AnnotatedRow_Right_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/789590420062422833">
+    <file name="AnnotatedRow_Left_Test.java">
+      <node id="789590420062422865" at="10,0,11,0" concept="1" trace="row0" />
+      <node id="789590420062422868" at="11,0,12,0" concept="1" trace="row1" />
+      <node id="789590420062422871" at="12,0,13,0" concept="1" trace="row2" />
+      <node id="789590420062422874" at="13,0,14,0" concept="1" trace="annotatedRow1" />
+      <node id="789590420062422877" at="14,0,15,0" concept="1" trace="gridMain" />
+      <node id="789590420062422880" at="15,0,16,0" concept="1" trace="annotation" />
+      <node id="789590420062422840" at="17,45,18,48" concept="0" />
+      <node id="789590420062422849" at="21,45,22,48" concept="0" />
+      <node id="789590420062422858" at="25,59,26,61" concept="0" />
+      <node id="789590420062631133" at="29,68,30,84" concept="0" />
+      <node id="789590420062667954" at="30,84,31,84" concept="0" />
+      <node id="789590420062422885" at="34,23,35,22" concept="0" />
+      <node id="789590420062422890" at="35,22,36,22" concept="0" />
+      <node id="789590420062422895" at="36,22,37,22" concept="0" />
+      <node id="789590420062422900" at="37,22,38,0" concept="8" />
+      <node id="789590420062422901" at="38,0,39,48" concept="0" />
+      <node id="789590420062422910" at="39,48,40,48" concept="0" />
+      <node id="789590420062422919" at="40,48,41,48" concept="0" />
+      <node id="789590420062422928" at="41,48,42,0" concept="8" />
+      <node id="789590420062422929" at="42,0,43,48" concept="0" />
+      <node id="789590420062422938" at="43,48,44,48" concept="0" />
+      <node id="789590420062422947" at="44,48,45,48" concept="0" />
+      <node id="789590420062422956" at="45,48,46,0" concept="8" />
+      <node id="789590420062422957" at="46,0,47,48" concept="0" />
+      <node id="789590420062422966" at="47,48,48,48" concept="0" />
+      <node id="789590420062422975" at="48,48,49,48" concept="0" />
+      <node id="789590420062422984" at="49,48,50,0" concept="8" />
+      <node id="789590420062422985" at="50,0,51,44" concept="0" />
+      <node id="789590420062422991" at="51,44,52,31" concept="0" />
+      <node id="789590420062423003" at="52,31,53,47" concept="0" />
+      <node id="789590420062423010" at="53,47,54,41" concept="0" />
+      <node id="789590420063121658" at="54,41,55,43" concept="0" />
+      <node id="789590420062423019" at="55,43,56,0" concept="8" />
+      <node id="789590420062423020" at="56,0,57,26" concept="0" />
+      <node id="789590420062423025" at="57,26,58,36" concept="0" />
+      <node id="789590420062423032" at="58,36,59,45" concept="0" />
+      <node id="789590420062423039" at="59,45,60,36" concept="0" />
+      <node id="789590420062423046" at="60,36,61,0" concept="8" />
+      <node id="789590420062423054" at="61,0,62,23" concept="0" />
+      <node id="789590420062422836" at="16,0,20,0" concept="4" trace="test_sizeX#()V" />
+      <node id="789590420062422845" at="20,0,24,0" concept="4" trace="test_sizeY#()V" />
+      <node id="789590420062422854" at="24,0,28,0" concept="4" trace="test_annotation_position#()V" />
+      <node id="789590420062630277" at="28,0,33,0" concept="4" trace="test_annotation_column_other_rows#()V" />
+      <node id="789590420062422833" at="33,0,64,0" concept="4" trace="setUp#()V" />
+      <scope id="789590420062422839" at="17,45,18,48" />
+      <scope id="789590420062422848" at="21,45,22,48" />
+      <scope id="789590420062422857" at="25,59,26,61" />
+      <scope id="789590420062630282" at="29,68,31,84" />
+      <scope id="789590420062422836" at="16,0,20,0" />
+      <scope id="789590420062422845" at="20,0,24,0" />
+      <scope id="789590420062422854" at="24,0,28,0" />
+      <scope id="789590420062630277" at="28,0,33,0" />
+      <scope id="789590420062422884" at="34,23,62,23" />
+      <scope id="789590420062422833" at="33,0,64,0" />
+      <unit id="789590420062422833" at="9,0,65,0" name="de.slisson.mps.tables.runtime.gridmodel.AnnotatedRow_Left_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/789590420064890200">
+    <file name="AnnotatedRow_Below_Test.java">
+      <node id="789590420064890259" at="10,0,11,0" concept="1" trace="row0" />
+      <node id="789590420064890262" at="11,0,12,0" concept="1" trace="row1" />
+      <node id="789590420064890265" at="12,0,13,0" concept="1" trace="row2" />
+      <node id="789590420064890268" at="13,0,14,0" concept="1" trace="annotatedRow1" />
+      <node id="789590420064890271" at="14,0,15,0" concept="1" trace="gridMain" />
+      <node id="789590420064890274" at="15,0,16,0" concept="1" trace="annotation" />
+      <node id="789590420064890207" at="17,45,18,48" concept="0" />
+      <node id="789590420064890216" at="21,45,22,48" concept="0" />
+      <node id="789590420064890225" at="25,59,26,61" concept="0" />
+      <node id="789590420064890236" at="29,59,30,50" concept="0" />
+      <node id="789590420064890241" at="30,50,31,85" concept="0" />
+      <node id="789590420064890250" at="31,85,32,85" concept="0" />
+      <node id="789590420064890279" at="35,23,36,22" concept="0" />
+      <node id="789590420064890284" at="36,22,37,22" concept="0" />
+      <node id="789590420064890289" at="37,22,38,22" concept="0" />
+      <node id="789590420064890294" at="38,22,39,0" concept="8" />
+      <node id="789590420064890295" at="39,0,40,48" concept="0" />
+      <node id="789590420064890304" at="40,48,41,48" concept="0" />
+      <node id="789590420064890313" at="41,48,42,48" concept="0" />
+      <node id="789590420064890322" at="42,48,43,0" concept="8" />
+      <node id="789590420064890323" at="43,0,44,48" concept="0" />
+      <node id="789590420064890332" at="44,48,45,48" concept="0" />
+      <node id="789590420064890341" at="45,48,46,48" concept="0" />
+      <node id="789590420064890350" at="46,48,47,0" concept="8" />
+      <node id="789590420064890351" at="47,0,48,48" concept="0" />
+      <node id="789590420064890360" at="48,48,49,48" concept="0" />
+      <node id="789590420064890369" at="49,48,50,48" concept="0" />
+      <node id="789590420064890378" at="50,48,51,0" concept="8" />
+      <node id="789590420064890379" at="51,0,52,44" concept="0" />
+      <node id="789590420064890385" at="52,44,53,31" concept="0" />
+      <node id="789590420064890390" at="53,31,54,47" concept="0" />
+      <node id="789590420064890397" at="54,47,55,41" concept="0" />
+      <node id="789590420064890404" at="55,41,56,0" concept="8" />
+      <node id="789590420064890405" at="56,0,57,26" concept="0" />
+      <node id="789590420064890410" at="57,26,58,36" concept="0" />
+      <node id="789590420064890417" at="58,36,59,45" concept="0" />
+      <node id="789590420064890424" at="59,45,60,36" concept="0" />
+      <node id="789590420064890431" at="60,36,61,0" concept="8" />
+      <node id="789590420064890439" at="61,0,62,23" concept="0" />
+      <node id="789590420064890203" at="16,0,20,0" concept="4" trace="test_sizeX#()V" />
+      <node id="789590420064890212" at="20,0,24,0" concept="4" trace="test_sizeY#()V" />
+      <node id="789590420064890221" at="24,0,28,0" concept="4" trace="test_annotation_position#()V" />
+      <node id="789590420064890232" at="28,0,34,0" concept="4" trace="test_annotation_spanning#()V" />
+      <node id="789590420064890200" at="34,0,64,0" concept="4" trace="setUp#()V" />
+      <scope id="789590420064890206" at="17,45,18,48" />
+      <scope id="789590420064890215" at="21,45,22,48" />
+      <scope id="789590420064890224" at="25,59,26,61" />
+      <scope id="789590420064890235" at="29,59,32,85" />
+      <scope id="789590420064890203" at="16,0,20,0" />
+      <scope id="789590420064890212" at="20,0,24,0" />
+      <scope id="789590420064890221" at="24,0,28,0" />
+      <scope id="789590420064890232" at="28,0,34,0" />
+      <scope id="789590420064890278" at="35,23,62,23" />
+      <scope id="789590420064890200" at="34,0,64,0" />
+      <unit id="789590420064890200" at="9,0,65,0" name="de.slisson.mps.tables.runtime.gridmodel.AnnotatedRow_Below_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/8791219374223058064">
+    <file name="Grid_Basic_Test.java">
+      <node id="8791219374223058165" at="11,0,12,0" concept="1" trace="grid" />
+      <node id="8791219374223078904" at="13,44,14,44" concept="0" />
+      <node id="8791219374223084137" at="14,44,15,44" concept="0" />
+      <node id="8791219374223096008" at="18,54,19,48" concept="0" />
+      <node id="8791219374223106805" at="23,9,24,28" concept="0" />
+      <node id="8791219374223106785" at="24,28,25,20" concept="0" />
+      <node id="8791219374223106785" at="26,27,27,27" concept="7" />
+      <node id="8791219374223143879" at="31,49,32,45" concept="0" />
+      <node id="8791219374223152579" at="32,45,33,44" concept="0" />
+      <node id="8791219374223159658" at="33,44,34,44" concept="0" />
+      <node id="8791219374223287786" at="37,68,38,44" concept="0" />
+      <node id="8791219374223297900" at="38,44,39,44" concept="0" />
+      <node id="8791219374223167079" at="39,44,40,45" concept="0" />
+      <node id="8791219374223173766" at="40,45,41,48" concept="0" />
+      <node id="8791219374223186086" at="41,48,42,48" concept="0" />
+      <node id="8791219374223255965" at="42,48,43,48" concept="0" />
+      <node id="8791219374223258287" at="43,48,44,48" concept="0" />
+      <node id="8791219374223269141" at="44,48,45,44" concept="0" />
+      <node id="8791219374223278197" at="45,44,46,44" concept="0" />
+      <node id="8791219374223398073" at="49,70,50,23" concept="0" />
+      <node id="8791219374223317331" at="50,23,51,45" concept="5" />
+      <node id="8791219374223333685" at="51,45,52,45" concept="5" />
+      <node id="8791219374223334411" at="52,45,53,45" concept="5" />
+      <node id="8791219374223335287" at="53,45,54,45" concept="5" />
+      <node id="8791219374223333135" at="54,45,55,0" concept="8" />
+      <node id="8791219374223313071" at="55,0,56,45" concept="0" />
+      <node id="8791219374223345519" at="56,45,57,0" concept="8" />
+      <node id="8791219374223347545" at="57,0,58,50" concept="0" />
+      <node id="8791219374223360466" at="58,50,59,50" concept="0" />
+      <node id="8791219374223361803" at="59,50,60,50" concept="0" />
+      <node id="8791219374223363284" at="60,50,61,50" concept="0" />
+      <node id="8791219374223058199" at="64,23,65,22" concept="0" />
+      <node id="8791219374223059710" at="65,22,66,45" concept="0" />
+      <node id="8791219374223077709" at="69,26,70,16" concept="0" />
+      <node id="8791219374223095584" at="17,0,21,0" concept="4" trace="test_element_is_set#()V" />
+      <node id="8791219374223058064" at="68,0,72,0" concept="4" trace="tearDown#()V" />
+      <node id="8791219374223058141" at="12,0,17,0" concept="4" trace="test_size#()V" />
+      <node id="8791219374223058064" at="63,0,68,0" concept="4" trace="setUp#()V" />
+      <node id="8791219374223106785" at="22,64,28,5" concept="10" />
+      <node id="8791219374223138758" at="30,0,36,0" concept="4" trace="test_auto_size#()V" />
+      <node id="8791219374223106207" at="21,0,30,0" concept="4" trace="test_invalid_coordinates_read#()V" />
+      <node id="8791219374223165897" at="36,0,48,0" concept="4" trace="test_default_values_on_autoexpand#()V" />
+      <node id="8791219374223310630" at="48,0,63,0" concept="4" trace="test_values_dont_move_on_autoexpand#()V" />
+      <scope id="8791219374223095589" at="18,54,19,48" />
+      <scope id="8791219374223106785" at="26,27,27,27" />
+      <scope id="8791219374223077223" at="69,26,70,16" />
+      <scope id="8791219374223058146" at="13,44,15,44" />
+      <scope id="8791219374223106785" at="23,9,25,20" />
+      <scope id="8791219374223106785" at="26,5,28,5">
+        <var name="e" id="8791219374223106785" />
+      </scope>
+      <scope id="8791219374223058152" at="64,23,66,45" />
+      <scope id="8791219374223138763" at="31,49,34,44" />
+      <scope id="8791219374223095584" at="17,0,21,0" />
+      <scope id="8791219374223058064" at="68,0,72,0" />
+      <scope id="8791219374223058141" at="12,0,17,0" />
+      <scope id="8791219374223058064" at="63,0,68,0" />
+      <scope id="8791219374223106212" at="22,64,28,5" />
+      <scope id="8791219374223138758" at="30,0,36,0" />
+      <scope id="8791219374223106207" at="21,0,30,0" />
+      <scope id="8791219374223165902" at="37,68,46,44" />
+      <scope id="8791219374223165897" at="36,0,48,0" />
+      <scope id="8791219374223310635" at="49,70,61,50">
+        <var name="e00" id="8791219374223317332" />
+        <var name="e01" id="8791219374223333686" />
+        <var name="e10" id="8791219374223334412" />
+        <var name="e11" id="8791219374223335288" />
+      </scope>
+      <scope id="8791219374223310630" at="48,0,63,0" />
+      <unit id="8791219374223058064" at="10,0,73,0" name="de.slisson.mps.tables.runtime.gridmodel.Grid_Basic_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/8791219374223412528">
+    <file name="Grid_Flatten1Level_Test.java">
+      <node id="8791219374223412533" at="11,0,12,0" concept="1" trace="gMain" />
+      <node id="8791219374223429021" at="12,0,13,0" concept="1" trace="g1" />
+      <node id="8791219374223430424" at="13,0,14,0" concept="1" trace="g2" />
+      <node id="8791219374223416904" at="14,0,15,0" concept="1" trace="l00" />
+      <node id="8791219374223417759" at="15,0,16,0" concept="1" trace="l01" />
+      <node id="8791219374223418630" at="16,0,17,0" concept="1" trace="l10" />
+      <node id="8791219374223419495" at="17,0,18,0" concept="1" trace="l11" />
+      <node id="8791219374223569684" at="21,50,22,67" concept="0" />
+      <node id="8791219374223570962" at="27,46,28,45" concept="0" />
+      <node id="8791219374223576337" at="28,45,29,45" concept="0" />
+      <node id="8791219374223578636" at="32,53,33,51" concept="0" />
+      <node id="8791219374223591071" at="33,51,34,51" concept="0" />
+      <node id="8791219374223592337" at="34,51,35,51" concept="0" />
+      <node id="8791219374223593198" at="35,51,36,51" concept="0" />
+      <node id="8791219374223412575" at="39,23,40,23" concept="0" />
+      <node id="8791219374223419975" at="40,23,41,30" concept="0" />
+      <node id="8791219374223421601" at="41,30,42,30" concept="0" />
+      <node id="8791219374223423345" at="42,30,43,30" concept="0" />
+      <node id="8791219374223425452" at="43,30,44,30" concept="0" />
+      <node id="8791219374223431148" at="44,30,45,20" concept="0" />
+      <node id="8791219374223434328" at="45,20,46,20" concept="0" />
+      <node id="8791219374223437724" at="46,20,47,29" concept="0" />
+      <node id="8791219374223446198" at="47,29,48,29" concept="0" />
+      <node id="8791219374223456676" at="48,29,49,29" concept="0" />
+      <node id="8791219374223465554" at="49,29,50,29" concept="0" />
+      <node id="8791219374223474761" at="50,29,51,31" concept="0" />
+      <node id="8791219374223486879" at="51,31,52,31" concept="0" />
+      <node id="8791219374223499205" at="52,31,53,20" concept="0" />
+      <node id="8791219374223413153" at="56,26,57,17" concept="0" />
+      <node id="8791219374224126448" at="57,17,58,14" concept="0" />
+      <node id="8791219374224129053" at="58,14,59,14" concept="0" />
+      <node id="8791219374224131509" at="59,14,60,15" concept="0" />
+      <node id="8791219374224133256" at="60,15,61,15" concept="0" />
+      <node id="8791219374224135112" at="61,15,62,15" concept="0" />
+      <node id="8791219374224137076" at="62,15,63,15" concept="0" />
+      <node id="8791219374223530261" at="20,48,23,7" concept="2" />
+      <node id="8791219374223518673" at="19,47,24,5" concept="2" />
+      <node id="8791219374223570127" at="26,0,31,0" concept="4" trace="test_is_2x2#()V" />
+      <node id="8791219374223577559" at="31,0,38,0" concept="4" trace="test_correct_order#()V" />
+      <node id="8791219374223496904" at="18,0,26,0" concept="4" trace="test_is_flat#()V" />
+      <node id="8791219374223412528" at="55,0,65,0" concept="4" trace="tearDown#()V" />
+      <node id="8791219374223412528" at="38,0,55,0" concept="4" trace="setUp#()V" />
+      <scope id="8791219374223530262" at="21,50,22,67" />
+      <scope id="8791219374223570132" at="27,46,29,45" />
+      <scope id="8791219374223518674" at="20,48,23,7" />
+      <scope id="8791219374223530261" at="20,48,23,7">
+        <var name="y" id="8791219374223530263" />
+      </scope>
+      <scope id="8791219374223577564" at="32,53,36,51" />
+      <scope id="8791219374223496909" at="19,47,24,5" />
+      <scope id="8791219374223518673" at="19,47,24,5">
+        <var name="x" id="8791219374223518675" />
+      </scope>
+      <scope id="8791219374223570127" at="26,0,31,0" />
+      <scope id="8791219374223577559" at="31,0,38,0" />
+      <scope id="8791219374223412860" at="56,26,63,15" />
+      <scope id="8791219374223496904" at="18,0,26,0" />
+      <scope id="8791219374223412528" at="55,0,65,0" />
+      <scope id="8791219374223412560" at="39,23,53,20" />
+      <scope id="8791219374223412528" at="38,0,55,0" />
+      <unit id="8791219374223412528" at="10,0,66,0" name="de.slisson.mps.tables.runtime.gridmodel.Grid_Flatten1Level_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/8791219374224114791">
+    <file name="Grid_Flatten2Levels_Test.java">
+      <node id="8791219374224117420" at="10,0,11,0" concept="1" trace="gMain" />
+      <node id="8791219374224117423" at="11,0,12,0" concept="1" trace="g1" />
+      <node id="8791219374224117426" at="12,0,13,0" concept="1" trace="g2" />
+      <node id="8791219374224188684" at="13,0,14,0" concept="1" trace="g3" />
+      <node id="8791219374224235089" at="14,0,15,0" concept="1" trace="g23" />
+      <node id="8791219374224117429" at="15,0,16,0" concept="1" trace="l00" />
+      <node id="8791219374224117432" at="16,0,17,0" concept="1" trace="l01" />
+      <node id="8791219374224143986" at="17,0,18,0" concept="1" trace="l02" />
+      <node id="8791219374224117435" at="18,0,19,0" concept="1" trace="l10" />
+      <node id="8791219374224117438" at="19,0,20,0" concept="1" trace="l11" />
+      <node id="8791219374224152448" at="20,0,21,0" concept="1" trace="l12" />
+      <node id="8791219374224155239" at="21,0,22,0" concept="1" trace="l20" />
+      <node id="8791219374224158009" at="22,0,23,0" concept="1" trace="l21" />
+      <node id="8791219374224160782" at="23,0,24,0" concept="1" trace="l22" />
+      <node id="8791219374224291073" at="27,50,28,67" concept="0" />
+      <node id="8791219374224291105" at="33,46,34,45" concept="0" />
+      <node id="8791219374224291110" at="34,45,35,45" concept="0" />
+      <node id="8791219374224291119" at="38,53,39,51" concept="0" />
+      <node id="8791219374224291126" at="39,51,40,51" concept="0" />
+      <node id="8791219374224291133" at="40,51,41,51" concept="0" />
+      <node id="8791219374224291140" at="41,51,42,51" concept="0" />
+      <node id="8791219374224297382" at="42,51,43,51" concept="0" />
+      <node id="8791219374224298792" at="43,51,44,51" concept="0" />
+      <node id="8791219374224300412" at="44,51,45,51" concept="0" />
+      <node id="8791219374224301351" at="45,51,46,51" concept="0" />
+      <node id="8791219374224303341" at="46,51,47,51" concept="0" />
+      <node id="8791219374224120401" at="50,23,51,23" concept="0" />
+      <node id="8791219374224120406" at="51,23,52,30" concept="0" />
+      <node id="8791219374224120411" at="52,30,53,30" concept="0" />
+      <node id="8791219374224120416" at="53,30,54,30" concept="0" />
+      <node id="8791219374224163620" at="54,30,55,30" concept="0" />
+      <node id="8791219374224120421" at="55,30,56,30" concept="0" />
+      <node id="8791219374224169381" at="56,30,57,30" concept="0" />
+      <node id="8791219374224172332" at="57,30,58,30" concept="0" />
+      <node id="8791219374224175341" at="58,30,59,30" concept="0" />
+      <node id="8791219374224178409" at="59,30,60,30" concept="0" />
+      <node id="8791219374224120426" at="60,30,61,20" concept="0" />
+      <node id="8791219374224120431" at="61,20,62,20" concept="0" />
+      <node id="8791219374224197988" at="62,20,63,20" concept="0" />
+      <node id="8791219374224341568" at="63,20,64,21" concept="0" />
+      <node id="6288835440189689074" at="64,21,65,19" concept="0" />
+      <node id="6288835440189707247" at="65,19,66,19" concept="0" />
+      <node id="6288835440189725856" at="66,19,67,19" concept="0" />
+      <node id="6288835440189744615" at="67,19,68,20" concept="0" />
+      <node id="8791219374224120436" at="68,20,69,29" concept="0" />
+      <node id="8791219374224120443" at="69,29,70,29" concept="0" />
+      <node id="8791219374224207512" at="70,29,71,29" concept="0" />
+      <node id="8791219374224120450" at="71,29,72,29" concept="0" />
+      <node id="8791219374224120457" at="72,29,73,29" concept="0" />
+      <node id="8791219374224217956" at="73,29,74,29" concept="0" />
+      <node id="8791219374224222898" at="74,29,75,29" concept="0" />
+      <node id="8791219374224222905" at="75,29,76,29" concept="0" />
+      <node id="8791219374224222912" at="76,29,77,29" concept="0" />
+      <node id="8791219374224243870" at="77,29,78,29" concept="0" />
+      <node id="8791219374224262556" at="78,29,79,29" concept="0" />
+      <node id="8791219374224120464" at="79,29,80,31" concept="0" />
+      <node id="8791219374224120471" at="80,31,81,32" concept="0" />
+      <node id="8791219374224120478" at="81,32,82,20" concept="0" />
+      <node id="8791219374224291071" at="26,48,29,7" concept="2" />
+      <node id="8791219374224291069" at="25,47,30,5" concept="2" />
+      <node id="8791219374224291101" at="32,0,37,0" concept="4" trace="test_is_3x3#()V" />
+      <node id="8791219374224291065" at="24,0,32,0" concept="4" trace="test_is_flat#()V" />
+      <node id="8791219374224291115" at="37,0,49,0" concept="4" trace="test_correct_order#()V" />
+      <node id="8791219374224114791" at="49,0,84,0" concept="4" trace="setUp#()V" />
+      <scope id="8791219374224291072" at="27,50,28,67" />
+      <scope id="8791219374224291104" at="33,46,35,45" />
+      <scope id="8791219374224291070" at="26,48,29,7" />
+      <scope id="8791219374224291071" at="26,48,29,7">
+        <var name="y" id="8791219374224291081" />
+      </scope>
+      <scope id="8791219374224291068" at="25,47,30,5" />
+      <scope id="8791219374224291069" at="25,47,30,5">
+        <var name="x" id="8791219374224291091" />
+      </scope>
+      <scope id="8791219374224291101" at="32,0,37,0" />
+      <scope id="8791219374224291065" at="24,0,32,0" />
+      <scope id="8791219374224291118" at="38,53,47,51" />
+      <scope id="8791219374224291115" at="37,0,49,0" />
+      <scope id="8791219374224120400" at="50,23,82,20" />
+      <scope id="8791219374224114791" at="49,0,84,0" />
+      <unit id="8791219374224114791" at="9,0,85,0" name="de.slisson.mps.tables.runtime.gridmodel.Grid_Flatten2Levels_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/8791219374224367709">
+    <file name="Grid_RowCreateHandlerPriority_Test.java">
+      <node id="8791219374224388765" at="10,0,11,0" concept="1" trace="gridMain" />
+      <node id="8791219374225147894" at="11,0,12,0" concept="1" trace="gridA" />
+      <node id="8791219374224394682" at="12,0,13,0" concept="1" trace="leafB" />
+      <node id="8791219374225154044" at="13,0,14,0" concept="1" trace="leafC" />
+      <node id="8791219374225166953" at="14,0,15,0" concept="1" trace="leafD" />
+      <node id="8791219374224393899" at="15,0,16,0" concept="1" trace="handlerA" />
+      <node id="8791219374225145948" at="16,0,17,0" concept="1" trace="handlerB" />
+      <node id="8791219374225160265" at="17,0,18,0" concept="1" trace="handlerC" />
+      <node id="8791219374225168771" at="18,0,19,0" concept="1" trace="handlerD" />
+      <node id="8791219374225313912" at="20,60,21,69" concept="0" />
+      <node id="8791219374225315840" at="21,69,22,66" concept="0" />
+      <node id="8791219374225325628" at="25,54,26,23" concept="0" />
+      <node id="8791219374225364032" at="26,23,27,102" concept="7" />
+      <node id="8791219374225355650" at="27,102,28,69" concept="0" />
+      <node id="8791219374225366288" at="31,73,32,47" concept="0" />
+      <node id="8791219374225377143" at="32,47,33,69" concept="0" />
+      <node id="8791219374225391089" at="36,71,37,47" concept="0" />
+      <node id="8791219374225392418" at="37,47,38,23" concept="0" />
+      <node id="8791219374225391095" at="38,23,39,69" concept="0" />
+      <node id="8791219374225411284" at="42,71,43,47" concept="0" />
+      <node id="8791219374225414490" at="43,47,44,69" concept="0" />
+      <node id="8791219374225422641" at="47,69,48,47" concept="0" />
+      <node id="8791219374225426775" at="48,47,49,23" concept="0" />
+      <node id="8791219374225422647" at="49,23,50,69" concept="0" />
+      <node id="8791219374225433497" at="53,71,54,47" concept="0" />
+      <node id="8791219374225433503" at="54,47,55,23" concept="0" />
+      <node id="8791219374225433507" at="55,23,56,69" concept="0" />
+      <node id="8791219374224389600" at="59,23,60,26" concept="0" />
+      <node id="8791219374225148322" at="60,26,61,23" concept="0" />
+      <node id="8791219374225151376" at="61,23,62,34" concept="0" />
+      <node id="8791219374225165053" at="62,34,63,34" concept="0" />
+      <node id="8791219374225450810" at="63,34,64,34" concept="0" />
+      <node id="8791219374225154731" at="64,34,65,47" concept="0" />
+      <node id="8791219374225157951" at="65,47,66,47" concept="0" />
+      <node id="8791219374225162618" at="66,47,67,47" concept="0" />
+      <node id="8791219374225170588" at="67,47,68,47" concept="0" />
+      <node id="8791219374225164183" at="68,47,69,0" concept="8" />
+      <node id="8791219374225174446" at="69,0,70,44" concept="0" />
+      <node id="8791219374225251928" at="70,44,71,44" concept="0" />
+      <node id="8791219374225256425" at="71,44,72,44" concept="0" />
+      <node id="8791219374225261259" at="72,44,73,44" concept="0" />
+      <node id="8791219374225266396" at="73,44,74,34" concept="0" />
+      <node id="8791219374225284678" at="74,34,75,34" concept="0" />
+      <node id="8791219374225276755" at="75,34,76,37" concept="0" />
+      <node id="8791219374225298602" at="76,37,77,37" concept="0" />
+      <node id="8791219374225164156" at="19,0,24,0" concept="4" trace="test_all_equal_unflatened#()V" />
+      <node id="8791219374225365234" at="30,0,35,0" concept="4" trace="test_highest_on_different_level_unflat#()V" />
+      <node id="8791219374225409383" at="41,0,46,0" concept="4" trace="test_highest_not_first_on_row_unflat#()V" />
+      <node id="8791219374225324953" at="24,0,30,0" concept="4" trace="test_all_equal_flat#()V" />
+      <node id="8791219374225389638" at="35,0,41,0" concept="4" trace="test_highest_on_different_level_flat#()V" />
+      <node id="8791219374225422637" at="46,0,52,0" concept="4" trace="test_highest_not_first_on_row_flat#()V" />
+      <node id="8791219374225433493" at="52,0,58,0" concept="4" trace="test_highest_not_first_on_row_flat_2#()V" />
+      <node id="8791219374224367709" at="58,0,79,0" concept="4" trace="setUp#()V" />
+      <scope id="8791219374225164161" at="20,60,22,66" />
+      <scope id="8791219374225365239" at="31,73,33,69" />
+      <scope id="8791219374225409388" at="42,71,44,69" />
+      <scope id="8791219374225324958" at="25,54,28,69" />
+      <scope id="8791219374225389643" at="36,71,39,69" />
+      <scope id="8791219374225422640" at="47,69,50,69" />
+      <scope id="8791219374225433496" at="53,71,56,69" />
+      <scope id="8791219374225164156" at="19,0,24,0" />
+      <scope id="8791219374225365234" at="30,0,35,0" />
+      <scope id="8791219374225409383" at="41,0,46,0" />
+      <scope id="8791219374225324953" at="24,0,30,0" />
+      <scope id="8791219374225389638" at="35,0,41,0" />
+      <scope id="8791219374225422637" at="46,0,52,0" />
+      <scope id="8791219374225433493" at="52,0,58,0" />
+      <scope id="8791219374224388758" at="59,23,77,37" />
+      <scope id="8791219374224367709" at="58,0,79,0" />
+      <unit id="8791219374224367709" at="9,0,80,0" name="de.slisson.mps.tables.runtime.gridmodel.Grid_RowCreateHandlerPriority_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/8791219374227376530">
+    <file name="Grid_Span_Test.java">
+      <node id="8791219374227376702" at="10,0,11,0" concept="1" trace="gridMain" />
+      <node id="8791219374227376630" at="11,0,12,0" concept="1" trace="leafA" />
+      <node id="8791219374227376661" at="12,0,13,0" concept="1" trace="leafB" />
+      <node id="8791219374227376802" at="13,0,14,0" concept="1" trace="leafC" />
+      <node id="8791219374227429132" at="15,44,16,48" concept="0" />
+      <node id="8791219374227435418" at="16,48,17,48" concept="0" />
+      <node id="8791219374227615028" at="21,9,22,60" concept="0" />
+      <node id="8791219374227614994" at="22,60,23,20" concept="0" />
+      <node id="8791219374227614994" at="24,27,25,27" concept="7" />
+      <node id="8791219374229291161" at="27,9,28,60" concept="0" />
+      <node id="8791219374229291160" at="28,60,29,20" concept="0" />
+      <node id="8791219374229291160" at="30,27,31,27" concept="7" />
+      <node id="8791219374229321561" at="35,64,36,48" concept="0" />
+      <node id="8791219374229316089" at="36,48,37,57" concept="0" />
+      <node id="8791219374229332025" at="37,57,38,49" concept="0" />
+      <node id="7322049472430377608" at="42,45,43,13" concept="6" />
+      <node id="2522915415574943524" at="44,5,45,45" concept="0" />
+      <node id="8791219374232737314" at="45,45,46,22" concept="0" />
+      <node id="2522915415574950193" at="47,9,48,47" concept="0" />
+      <node id="2522915415574948779" at="48,47,49,20" concept="0" />
+      <node id="2522915415574948779" at="50,27,51,27" concept="7" />
+      <node id="7322049472430377725" at="56,45,57,13" concept="6" />
+      <node id="2522915415574956826" at="58,5,59,45" concept="0" />
+      <node id="2522915415574956830" at="59,45,60,22" concept="0" />
+      <node id="2522915415574956836" at="61,9,62,47" concept="0" />
+      <node id="2522915415574956835" at="62,47,63,20" concept="0" />
+      <node id="2522915415574956835" at="64,27,65,27" concept="7" />
+      <node id="8791219374227376863" at="69,23,70,34" concept="0" />
+      <node id="8791219374227377855" at="70,34,71,34" concept="0" />
+      <node id="8791219374227378049" at="71,34,72,34" concept="0" />
+      <node id="8791219374227397249" at="72,34,73,22" concept="0" />
+      <node id="8791219374227411827" at="73,22,74,22" concept="0" />
+      <node id="8791219374227417437" at="74,22,75,22" concept="0" />
+      <node id="8791219374227454385" at="75,22,76,26" concept="0" />
+      <node id="8791219374227378805" at="76,26,77,37" concept="0" />
+      <node id="8791219374227390228" at="77,37,78,37" concept="0" />
+      <node id="8791219374227402039" at="78,37,79,37" concept="0" />
+      <node id="7322049472430093884" at="41,59,44,5" concept="3" />
+      <node id="7322049472430377723" at="55,59,58,5" concept="3" />
+      <node id="8791219374227421486" at="14,0,19,0" concept="4" trace="test_size#()V" />
+      <node id="8791219374227614994" at="20,70,26,5" concept="10" />
+      <node id="8791219374229291160" at="26,5,32,5" concept="10" />
+      <node id="8791219374229315071" at="34,0,40,0" concept="4" trace="test_replace_spanning_element#()V" />
+      <node id="2522915415574948779" at="46,22,52,5" concept="10" />
+      <node id="2522915415574956835" at="60,22,66,5" concept="10" />
+      <node id="8791219374227376530" at="68,0,81,0" concept="4" trace="setUp#()V" />
+      <node id="8791219374232721696" at="40,0,54,0" concept="4" trace="test_consistency_check_x#()V" />
+      <node id="8791219374232741355" at="54,0,68,0" concept="4" trace="test_consistency_check_y#()V" />
+      <node id="8791219374227613886" at="19,0,34,0" concept="4" trace="test_reject_overwrite_spanned_space#()V" />
+      <scope id="8791219374227614994" at="24,27,25,27" />
+      <scope id="8791219374229291160" at="30,27,31,27" />
+      <scope id="7322049472430093886" at="42,45,43,13" />
+      <scope id="2522915415574948779" at="50,27,51,27" />
+      <scope id="7322049472430377724" at="56,45,57,13" />
+      <scope id="2522915415574956835" at="64,27,65,27" />
+      <scope id="8791219374227421491" at="15,44,17,48" />
+      <scope id="8791219374227614994" at="21,9,23,20" />
+      <scope id="8791219374227614994" at="24,5,26,5">
+        <var name="e" id="8791219374227614994" />
+      </scope>
+      <scope id="8791219374229291160" at="27,9,29,20" />
+      <scope id="8791219374229291160" at="30,5,32,5">
+        <var name="e" id="8791219374229291160" />
+      </scope>
+      <scope id="2522915415574948779" at="47,9,49,20" />
+      <scope id="2522915415574948779" at="50,5,52,5">
+        <var name="e" id="2522915415574948779" />
+      </scope>
+      <scope id="2522915415574956835" at="61,9,63,20" />
+      <scope id="2522915415574956835" at="64,5,66,5">
+        <var name="e" id="2522915415574956835" />
+      </scope>
+      <scope id="8791219374229315076" at="35,64,38,49" />
+      <scope id="8791219374227421486" at="14,0,19,0" />
+      <scope id="8791219374229315071" at="34,0,40,0" />
+      <scope id="8791219374227376848" at="69,23,79,37" />
+      <scope id="8791219374232721701" at="41,59,52,5" />
+      <scope id="8791219374232741358" at="55,59,66,5" />
+      <scope id="8791219374227613891" at="20,70,32,5" />
+      <scope id="8791219374227376530" at="68,0,81,0" />
+      <scope id="8791219374232721696" at="40,0,54,0" />
+      <scope id="8791219374232741355" at="54,0,68,0" />
+      <scope id="8791219374227613886" at="19,0,34,0" />
+      <unit id="8791219374227376530" at="9,0,82,0" name="de.slisson.mps.tables.runtime.gridmodel.Grid_Span_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/8999168544403102705">
+    <file name="Statemachine_Test.java">
+      <node id="8999168544403115371" at="10,0,11,0" concept="1" trace="main" />
+      <node id="8999168544403115515" at="11,0,12,0" concept="1" trace="g00" />
+      <node id="8999168544403115584" at="12,0,13,0" concept="1" trace="g01" />
+      <node id="8999168544403115643" at="13,0,14,0" concept="1" trace="g10" />
+      <node id="8999168544403115707" at="14,0,15,0" concept="1" trace="g11" />
+      <node id="8999168544403106773" at="15,0,16,0" concept="1" trace="event0" />
+      <node id="8999168544403114952" at="16,0,17,0" concept="1" trace="event1" />
+      <node id="8999168544403115001" at="17,0,18,0" concept="1" trace="state0" />
+      <node id="8999168544403115050" at="18,0,19,0" concept="1" trace="state1" />
+      <node id="8999168544403115127" at="19,0,20,0" concept="1" trace="transition00" />
+      <node id="8999168544403115207" at="20,0,21,0" concept="1" trace="transition01" />
+      <node id="8999168544403115241" at="21,0,22,0" concept="1" trace="transition10" />
+      <node id="8999168544403115278" at="22,0,23,0" concept="1" trace="transition11" />
+      <node id="8999168544403445641" at="24,45,25,44" concept="0" />
+      <node id="8999168544403452917" at="28,45,29,44" concept="0" />
+      <node id="8999168544403503634" at="32,51,33,59" concept="0" />
+      <node id="8999168544403514999" at="33,59,34,59" concept="0" />
+      <node id="8999168544403515730" at="34,59,35,59" concept="0" />
+      <node id="8999168544403516676" at="35,59,36,59" concept="0" />
+      <node id="8999168544403463379" at="39,60,40,57" concept="0" />
+      <node id="8999168544403469223" at="43,60,44,57" concept="0" />
+      <node id="8999168544403471052" at="47,57,48,54" concept="0" />
+      <node id="8999168544403471061" at="51,57,52,54" concept="0" />
+      <node id="8999168544403459253" at="55,54,56,60" concept="0" />
+      <node id="8999168544403479052" at="56,60,57,60" concept="0" />
+      <node id="8999168544403493423" at="60,51,61,57" concept="0" />
+      <node id="8999168544403493430" at="61,57,62,57" concept="0" />
+      <node id="8999168544403115768" at="65,23,66,22" concept="0" />
+      <node id="8999168544403126334" at="66,22,67,21" concept="0" />
+      <node id="8999168544403129396" at="67,21,68,21" concept="0" />
+      <node id="8999168544403130050" at="68,21,69,21" concept="0" />
+      <node id="8999168544403130845" at="69,21,70,21" concept="0" />
+      <node id="8999168544403132909" at="70,21,71,49" concept="0" />
+      <node id="8999168544403135248" at="71,49,72,49" concept="0" />
+      <node id="8999168544403136586" at="72,49,73,49" concept="0" />
+      <node id="8999168544403138186" at="73,49,74,49" concept="0" />
+      <node id="8999168544403140931" at="74,49,75,48" concept="0" />
+      <node id="8999168544403144305" at="75,48,76,48" concept="0" />
+      <node id="8999168544403145734" at="76,48,77,48" concept="0" />
+      <node id="8999168544403147235" at="77,48,78,48" concept="0" />
+      <node id="8999168544403149277" at="78,48,79,0" concept="8" />
+      <node id="8999168544403152412" at="79,0,80,39" concept="0" />
+      <node id="8999168544403160081" at="80,39,81,38" concept="0" />
+      <node id="8999168544403175865" at="81,38,82,35" concept="0" />
+      <node id="8999168544403194420" at="82,35,83,0" concept="8" />
+      <node id="8999168544403190987" at="83,0,84,39" concept="0" />
+      <node id="8999168544403190994" at="84,39,85,38" concept="0" />
+      <node id="8999168544403191001" at="85,38,86,35" concept="0" />
+      <node id="8999168544403191008" at="86,35,87,0" concept="8" />
+      <node id="8999168544403198050" at="87,0,88,39" concept="0" />
+      <node id="8999168544403198057" at="88,39,89,38" concept="0" />
+      <node id="8999168544403198064" at="89,38,90,35" concept="0" />
+      <node id="8999168544403198071" at="90,35,91,0" concept="8" />
+      <node id="8999168544403202514" at="91,0,92,39" concept="0" />
+      <node id="8999168544403202521" at="92,39,93,38" concept="0" />
+      <node id="8999168544403202528" at="93,38,94,35" concept="0" />
+      <node id="8999168544403202535" at="94,35,95,0" concept="8" />
+      <node id="8999168544403218012" at="95,0,96,31" concept="0" />
+      <node id="8999168544403239242" at="96,31,97,31" concept="0" />
+      <node id="8999168544403262807" at="97,31,98,31" concept="0" />
+      <node id="8999168544403280255" at="98,31,99,31" concept="0" />
+      <node id="8999168544403295971" at="99,31,100,39" concept="0" />
+      <node id="8999168544403324733" at="100,39,101,39" concept="0" />
+      <node id="8999168544403354945" at="101,39,102,36" concept="0" />
+      <node id="8999168544403386563" at="102,36,103,36" concept="0" />
+      <node id="8999168544403410758" at="103,36,104,0" concept="8" />
+      <node id="8999168544403427359" at="104,0,105,19" concept="0" />
+      <node id="8999168544403410647" at="23,0,27,0" concept="4" trace="test_sizeX#()V" />
+      <node id="8999168544403452536" at="27,0,31,0" concept="4" trace="test_sizeY#()V" />
+      <node id="8999168544403462676" at="38,0,42,0" concept="4" trace="test_column_headers_sizeX#()V" />
+      <node id="8999168544403469219" at="42,0,46,0" concept="4" trace="test_column_headers_sizeY#()V" />
+      <node id="8999168544403471048" at="46,0,50,0" concept="4" trace="test_row_headers_sizeX#()V" />
+      <node id="8999168544403471057" at="50,0,54,0" concept="4" trace="test_row_headers_sizeY#()V" />
+      <node id="8999168544403458721" at="54,0,59,0" concept="4" trace="test_column_headers#()V" />
+      <node id="8999168544403493419" at="59,0,64,0" concept="4" trace="test_row_headers#()V" />
+      <node id="8999168544403501630" at="31,0,38,0" concept="4" trace="test_transitions#()V" />
+      <node id="8999168544403102705" at="64,0,107,0" concept="4" trace="setUp#()V" />
+      <scope id="8999168544403410652" at="24,45,25,44" />
+      <scope id="8999168544403452541" at="28,45,29,44" />
+      <scope id="8999168544403462681" at="39,60,40,57" />
+      <scope id="8999168544403469222" at="43,60,44,57" />
+      <scope id="8999168544403471051" at="47,57,48,54" />
+      <scope id="8999168544403471060" at="51,57,52,54" />
+      <scope id="8999168544403458726" at="55,54,57,60" />
+      <scope id="8999168544403493422" at="60,51,62,57" />
+      <scope id="8999168544403410647" at="23,0,27,0" />
+      <scope id="8999168544403452536" at="27,0,31,0" />
+      <scope id="8999168544403501635" at="32,51,36,59" />
+      <scope id="8999168544403462676" at="38,0,42,0" />
+      <scope id="8999168544403469219" at="42,0,46,0" />
+      <scope id="8999168544403471048" at="46,0,50,0" />
+      <scope id="8999168544403471057" at="50,0,54,0" />
+      <scope id="8999168544403458721" at="54,0,59,0" />
+      <scope id="8999168544403493419" at="59,0,64,0" />
+      <scope id="8999168544403501630" at="31,0,38,0" />
+      <scope id="8999168544403115338" at="65,23,105,19" />
+      <scope id="8999168544403102705" at="64,0,107,0" />
+      <unit id="8999168544403102705" at="9,0,108,0" name="de.slisson.mps.tables.runtime.gridmodel.Statemachine_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d1f5452a-df80-42c6-b4f0-3cb45f5ef6f9(de.slisson.mps.tables.runtime.gridmodel@tests)/8999168544405569065">
+    <file name="Statemachine_with_Group_Headers_Test.java">
+      <node id="8999168544405569190" at="10,0,11,0" concept="1" trace="main" />
+      <node id="8999168544405569193" at="11,0,12,0" concept="1" trace="g00" />
+      <node id="8999168544405569196" at="12,0,13,0" concept="1" trace="g01" />
+      <node id="8999168544405569199" at="13,0,14,0" concept="1" trace="g10" />
+      <node id="8999168544405569202" at="14,0,15,0" concept="1" trace="g11" />
+      <node id="8999168544405569205" at="15,0,16,0" concept="1" trace="event0" />
+      <node id="8999168544405569208" at="16,0,17,0" concept="1" trace="event1" />
+      <node id="8999168544405569211" at="17,0,18,0" concept="1" trace="state0" />
+      <node id="8999168544405569214" at="18,0,19,0" concept="1" trace="state1" />
+      <node id="8999168544405569217" at="19,0,20,0" concept="1" trace="transition00" />
+      <node id="8999168544405569220" at="20,0,21,0" concept="1" trace="transition01" />
+      <node id="8999168544405569223" at="21,0,22,0" concept="1" trace="transition10" />
+      <node id="8999168544405569226" at="22,0,23,0" concept="1" trace="transition11" />
+      <node id="8999168544405706038" at="23,0,24,0" concept="1" trace="eventGroup" />
+      <node id="8999168544405727743" at="24,0,25,0" concept="1" trace="stateGroup" />
+      <node id="8999168544405749464" at="25,0,26,0" concept="1" trace="gTransitions" />
+      <node id="8999168544405569072" at="27,45,28,44" concept="0" />
+      <node id="8999168544405569081" at="31,45,32,44" concept="0" />
+      <node id="8999168544405569090" at="35,51,36,59" concept="0" />
+      <node id="8999168544405569097" at="36,59,37,59" concept="0" />
+      <node id="8999168544405569104" at="37,59,38,59" concept="0" />
+      <node id="8999168544405569111" at="38,59,39,59" concept="0" />
+      <node id="8999168544405569122" at="42,60,43,57" concept="0" />
+      <node id="8999168544405569131" at="46,60,47,57" concept="0" />
+      <node id="8999168544405569140" at="50,57,51,54" concept="0" />
+      <node id="8999168544405569149" at="54,57,55,54" concept="0" />
+      <node id="8999168544405901651" at="58,54,59,64" concept="0" />
+      <node id="8999168544405911945" at="59,64,60,64" concept="0" />
+      <node id="8999168544405569158" at="60,64,61,60" concept="0" />
+      <node id="8999168544405569165" at="61,60,62,60" concept="0" />
+      <node id="8999168544405914999" at="65,51,66,61" concept="0" />
+      <node id="8999168544405925301" at="66,61,67,61" concept="0" />
+      <node id="8999168544405569176" at="67,61,68,57" concept="0" />
+      <node id="8999168544405569183" at="68,57,69,57" concept="0" />
+      <node id="8999168544405569231" at="72,23,73,22" concept="0" />
+      <node id="8999168544405569236" at="73,22,74,21" concept="0" />
+      <node id="8999168544405569241" at="74,21,75,21" concept="0" />
+      <node id="8999168544405569246" at="75,21,76,21" concept="0" />
+      <node id="8999168544405569251" at="76,21,77,21" concept="0" />
+      <node id="8999168544407139050" at="77,21,78,30" concept="0" />
+      <node id="8999168544405569256" at="78,30,79,49" concept="0" />
+      <node id="8999168544405569262" at="79,49,80,49" concept="0" />
+      <node id="8999168544405569268" at="80,49,81,49" concept="0" />
+      <node id="8999168544405569274" at="81,49,82,49" concept="0" />
+      <node id="8999168544405569280" at="82,49,83,48" concept="0" />
+      <node id="8999168544405569286" at="83,48,84,48" concept="0" />
+      <node id="8999168544405569292" at="84,48,85,48" concept="0" />
+      <node id="8999168544405569298" at="85,48,86,48" concept="0" />
+      <node id="8999168544405569304" at="86,48,87,0" concept="8" />
+      <node id="8999168544405569305" at="87,0,88,39" concept="0" />
+      <node id="8999168544405569312" at="88,39,89,38" concept="0" />
+      <node id="8999168544405569319" at="89,38,90,35" concept="0" />
+      <node id="8999168544405569326" at="90,35,91,0" concept="8" />
+      <node id="8999168544405569327" at="91,0,92,39" concept="0" />
+      <node id="8999168544405569334" at="92,39,93,38" concept="0" />
+      <node id="8999168544405569341" at="93,38,94,35" concept="0" />
+      <node id="8999168544405569348" at="94,35,95,0" concept="8" />
+      <node id="8999168544405569349" at="95,0,96,39" concept="0" />
+      <node id="8999168544405569356" at="96,39,97,38" concept="0" />
+      <node id="8999168544405569363" at="97,38,98,35" concept="0" />
+      <node id="8999168544405569370" at="98,35,99,0" concept="8" />
+      <node id="8999168544405569371" at="99,0,100,39" concept="0" />
+      <node id="8999168544405569378" at="100,39,101,38" concept="0" />
+      <node id="8999168544405569385" at="101,38,102,35" concept="0" />
+      <node id="8999168544405569392" at="102,35,103,0" concept="8" />
+      <node id="8999168544405569393" at="103,0,104,39" concept="0" />
+      <node id="8999168544405569400" at="104,39,105,39" concept="0" />
+      <node id="8999168544405569407" at="105,39,106,39" concept="0" />
+      <node id="8999168544405569414" at="106,39,107,39" concept="0" />
+      <node id="8999168544405569421" at="107,39,108,47" concept="0" />
+      <node id="8999168544405569428" at="108,47,109,47" concept="0" />
+      <node id="8999168544405569435" at="109,47,110,44" concept="0" />
+      <node id="8999168544405569442" at="110,44,111,44" concept="0" />
+      <node id="8999168544405569449" at="111,44,112,0" concept="8" />
+      <node id="8999168544405835165" at="112,0,113,53" concept="0" />
+      <node id="8999168544405854030" at="113,53,114,53" concept="0" />
+      <node id="8999168544405777717" at="114,53,115,40" concept="0" />
+      <node id="8999168544405801714" at="115,40,116,43" concept="0" />
+      <node id="8999168544405874503" at="116,43,117,40" concept="0" />
+      <node id="8999168544405569450" at="117,40,118,19" concept="0" />
+      <node id="8999168544405569068" at="26,0,30,0" concept="4" trace="test_sizeX#()V" />
+      <node id="8999168544405569077" at="30,0,34,0" concept="4" trace="test_sizeY#()V" />
+      <node id="8999168544405569118" at="41,0,45,0" concept="4" trace="test_column_headers_sizeX#()V" />
+      <node id="8999168544405569127" at="45,0,49,0" concept="4" trace="test_column_headers_sizeY#()V" />
+      <node id="8999168544405569136" at="49,0,53,0" concept="4" trace="test_row_headers_sizeX#()V" />
+      <node id="8999168544405569145" at="53,0,57,0" concept="4" trace="test_row_headers_sizeY#()V" />
+      <node id="8999168544405569086" at="34,0,41,0" concept="4" trace="test_transitions#()V" />
+      <node id="8999168544405569154" at="57,0,64,0" concept="4" trace="test_column_headers#()V" />
+      <node id="8999168544405569172" at="64,0,71,0" concept="4" trace="test_row_headers#()V" />
+      <node id="8999168544405569065" at="71,0,120,0" concept="4" trace="setUp#()V" />
+      <scope id="8999168544405569071" at="27,45,28,44" />
+      <scope id="8999168544405569080" at="31,45,32,44" />
+      <scope id="8999168544405569121" at="42,60,43,57" />
+      <scope id="8999168544405569130" at="46,60,47,57" />
+      <scope id="8999168544405569139" at="50,57,51,54" />
+      <scope id="8999168544405569148" at="54,57,55,54" />
+      <scope id="8999168544405569068" at="26,0,30,0" />
+      <scope id="8999168544405569077" at="30,0,34,0" />
+      <scope id="8999168544405569089" at="35,51,39,59" />
+      <scope id="8999168544405569118" at="41,0,45,0" />
+      <scope id="8999168544405569127" at="45,0,49,0" />
+      <scope id="8999168544405569136" at="49,0,53,0" />
+      <scope id="8999168544405569145" at="53,0,57,0" />
+      <scope id="8999168544405569157" at="58,54,62,60" />
+      <scope id="8999168544405569175" at="65,51,69,57" />
+      <scope id="8999168544405569086" at="34,0,41,0" />
+      <scope id="8999168544405569154" at="57,0,64,0" />
+      <scope id="8999168544405569172" at="64,0,71,0" />
+      <scope id="8999168544405569230" at="72,23,118,19" />
+      <scope id="8999168544405569065" at="71,0,120,0" />
+      <unit id="8999168544405569065" at="9,0,122,0" name="de.slisson.mps.tables.runtime.gridmodel.Statemachine_with_Group_Headers_Test" />
+    </file>
+  </root>
+</debug-info>
+

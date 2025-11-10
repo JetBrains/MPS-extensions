@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="bck7pli486r49hhju54wifc9ldbirp2">
+  <files names="CustomProjectTree.java:CustomProjectView.java:CustomProjectViewDataKeys.java:CustomProjectViewSelectInTarget.java:CustomRootTreeNode.java:CustomTreeNode.java:CustomTreeNodesUpdater.java:DependencyRecorder.java:FolderStructureBuilder.java:FolderTreeNode.java:GlobalModelsEventsCollector.java:ITreeNode.java:ITreeVisitor.java:ProjectTreeFindHelper.java:TreeCellRenderer.java:TreeState.java:WeightValues.java" />
+</product>
+

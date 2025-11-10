@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="10c3nshismmsnmya8bfrmqjoklaqve">
+  <files names="SM_DefaultIdGenerator.java:SM_IBranchListener.java:SM_IIdGenerator.java:SM_IMissingNode.java:SM_INodeLoader.java:SM_IReadTransaction.java:SM_ITransaction.java:SM_ITree.java:SM_ITreeChangeVisitor.java:SM_IWriteTransaction.java:SM_IncrementalIndex.java:SM_LazyLoadingWriteTransaction.java:SM_MissingNodeId.java:SM_NodeNotLoadedException.java:SM_PArea.java:SM_PBranch.java:SM_PNodeAdapter.java:SM_PNodeDependency.java:SM_PNodeIdMissingException.java:SM_PNodeReference.java:SM_PTree.java:SM_PropertyChange.java:SM_ReadTransaction.java:SM_ReverseReferences.java:SM_Transaction.java:SM_TreeChange.java:SM_UserObjectIndex.java:SM_WriteTransaction.java" />
+</product>
+

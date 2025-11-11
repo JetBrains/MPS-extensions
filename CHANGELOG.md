@@ -10,13 +10,15 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.slisson.mps.tables* IllegalArgumentException thrown when copy-paste support is not defined for a table node (#1650).
 - *de.slisson.mps.tables* Textgen warning about duplicate unit name when an editor model contains multiple tables without an action map. 
+- *de.itemis.mps.editor.pagination* A NullPointerException was fixed for cases where the clicked node was null.
 
 ## October 2025
 
 ### Fixed
 
-- *de.itemis.mps.extensions.build* Version number is now set correctly in the `build.properties` file inside the published artifact.
+- *de.itemis.mps.comparator* The freeze was fixed when opening the diff viewer and indexing was going on in the background.
 - *de.itemis.mps.editor.bool.runtime* Improve loading of checkbox images to work in scenarios where the node being edited is not part of a model (even if only temporarily).
+- *de.itemis.mps.extensions.build* Version number is now set correctly in the `build.properties` file inside the published artifact.
 
 ### Changed
 

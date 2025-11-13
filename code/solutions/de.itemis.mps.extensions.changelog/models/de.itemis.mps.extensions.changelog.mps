@@ -401,6 +401,92 @@
             <property role="3oM_SC" value="null." />
           </node>
         </node>
+        <node concept="2DRihI" id="7hdfMG$lVNL" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="7hdfMG$lVOk" role="1PaTwD">
+            <node concept="37shsh" id="7hdfMG$lVOm" role="15Aodc">
+              <node concept="1dCxOk" id="7hdfMG$lVUa" role="37shsm">
+                <property role="1XweGW" value="82194f31-b6f9-4f39-bf3d-bad4ce201c4e" />
+                <property role="1XxBO9" value="de.itemis.mps.spellcheck" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lVUf" role="1PaTwD">
+            <property role="3oM_SC" value="Custom" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lVUg" role="1PaTwD">
+            <property role="3oM_SC" value="dictionaries" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lWbG" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lWbH" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lWbI" role="1PaTwD">
+            <property role="3oM_SC" value="saved" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lWbJ" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lX9Y" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lX9Z" role="1PaTwD">
+            <property role="3oM_SC" value=".mps/dictionaries/project.xml" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXfL" role="1PaTwD">
+            <property role="3oM_SC" value="files" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXfM" role="1PaTwD">
+            <property role="3oM_SC" value="anymore" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXfN" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXfQ" role="1PaTwD">
+            <property role="3oM_SC" value="pollute" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXfR" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXlD" role="1PaTwD">
+            <property role="3oM_SC" value="file" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXlE" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXlF" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXlG" role="1PaTwD">
+            <property role="3oM_SC" value="normally" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXlH" role="1PaTwD">
+            <property role="3oM_SC" value="used" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXlI" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXrw" role="1PaTwD">
+            <property role="3oM_SC" value="words" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXrx" role="1PaTwD">
+            <property role="3oM_SC" value="saved" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXrA" role="1PaTwD">
+            <property role="3oM_SC" value="manually" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXrB" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXrC" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7hdfMG$lXrD" role="1PaTwD">
+            <property role="3oM_SC" value="user." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="7Ub7KQvMivS" role="15bmVC">

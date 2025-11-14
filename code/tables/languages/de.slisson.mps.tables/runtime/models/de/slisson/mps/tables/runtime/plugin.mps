@@ -8,7 +8,7 @@
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -1667,6 +1667,7 @@
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
+    <node concept="3Tm1VV" id="12YYiosxYeI" role="1B3o_S" />
     <node concept="2tJIrI" id="1S_MuZtNTQF" role="jymVt" />
     <node concept="2YIFZL" id="1S_MuZtNTGj" role="jymVt">
       <property role="TrG5h" value="forNodeIfExists" />
@@ -1739,7 +1740,6 @@
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
     </node>
-    <node concept="3Tm1VV" id="12YYiosxYeI" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="12YYiosIBcY">
     <property role="3GE5qa" value="copyPaste" />

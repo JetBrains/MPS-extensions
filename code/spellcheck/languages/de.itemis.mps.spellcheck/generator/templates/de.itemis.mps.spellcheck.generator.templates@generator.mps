@@ -5,15 +5,12 @@
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
     <import index="i9z2" ref="r:86608401-3c72-4a8c-a023-f7cfd3cc5fbc(de.itemis.mps.spellcheck.structure)" />
-    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
-    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="3oml" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker.dictionary(MPS.IDEA/)" />
@@ -27,9 +24,7 @@
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="9ti4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.extensions(MPS.IDEA/)" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" />
-    <import index="v6uv" ref="9979803b-18d3-440b-8a74-99cec41fc78e/java:com.intellij.spellchecker(jetbrains.mps.spellchecker.idea.stubs/)" />
-    <import index="hltm" ref="9979803b-18d3-440b-8a74-99cec41fc78e/java:com.intellij.spellchecker.settings(jetbrains.mps.spellchecker.idea.stubs/)" />
-    <import index="v6uw" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker(MPS.IDEA/)" implicit="true" />
+    <import index="v6uv" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -326,14 +321,14 @@
       <property role="TrG5h" value="provider" />
       <node concept="3Tm6S6" id="6v0_VEAE4kl" role="1B3o_S" />
       <node concept="3uibUv" id="6v0_VEAE4km" role="1tU5fm">
-        <ref role="3uigEE" to="v6uw:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
+        <ref role="3uigEE" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
       </node>
       <node concept="2ShNRf" id="6v0_VEAE4kn" role="33vP2m">
         <node concept="YeOm9" id="6v0_VEAE4ko" role="2ShVmc">
           <node concept="1Y3b0j" id="6v0_VEAE4kp" role="YeSDq">
             <property role="2bfB8j" value="true" />
             <property role="373rjd" value="true" />
-            <ref role="1Y3XeK" to="v6uw:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
+            <ref role="1Y3XeK" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
             <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
             <node concept="3Tm1VV" id="6v0_VEAE4kq" role="1B3o_S" />
             <node concept="2tJIrI" id="6v0_VEAEcuk" role="jymVt" />
@@ -411,7 +406,7 @@
             <node concept="3uibUv" id="6v0_VEAEHMR" role="1tU5fm">
               <ref role="3uigEE" to="9ti4:~ExtensionPoint" resolve="ExtensionPoint" />
               <node concept="3uibUv" id="6v0_VEAEHMU" role="11_B2D">
-                <ref role="3uigEE" to="v6uw:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
+                <ref role="3uigEE" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
               </node>
             </node>
             <node concept="2OqwBi" id="6v0_VEAEHPE" role="33vP2m">
@@ -463,7 +458,7 @@
             <node concept="3uibUv" id="6v0_VEAELaX" role="1tU5fm">
               <ref role="3uigEE" to="9ti4:~ExtensionPoint" resolve="ExtensionPoint" />
               <node concept="3uibUv" id="6v0_VEAELaY" role="11_B2D">
-                <ref role="3uigEE" to="v6uw:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
+                <ref role="3uigEE" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
               </node>
             </node>
             <node concept="2OqwBi" id="6v0_VEAELaZ" role="33vP2m">

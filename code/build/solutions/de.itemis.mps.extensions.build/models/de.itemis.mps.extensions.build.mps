@@ -9986,19 +9986,9 @@
               <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
             </node>
           </node>
-          <node concept="1SiIV0" id="5Jv8_iJO19f" role="3bR37C">
-            <node concept="3bR9La" id="5Jv8_iJO19g" role="1SiIV1">
-              <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="Guk09KIEVR" role="3bR37C">
             <node concept="3bR9La" id="Guk09KIEVS" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="BlBNLZwmLB" role="3bR37C">
-            <node concept="3bR9La" id="BlBNLZwmLC" role="1SiIV1">
-              <ref role="3bR37D" to="ffeo:6k1uIrxXxBO" resolve="jetbrains.mps.spellchecker.idea.stubs" />
             </node>
           </node>
         </node>
@@ -10010,24 +10000,20 @@
             <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5Jv8_iJO199" role="3bR37C">
-          <node concept="Rbm2T" id="5Jv8_iJO19a" role="1SiIV1">
-            <ref role="1E1Vl2" to="ffeo:7Kfy9QB6L8K" resolve="jetbrains.mps.lang.plugin" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="5Jv8_iJO19b" role="3bR37C">
           <node concept="Rbm2T" id="5Jv8_iJO19c" role="1SiIV1">
             <ref role="1E1Vl2" to="ffeo:2eDSGe9d1pJ" resolve="jetbrains.mps.lang.plugin.standalone" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6zQhlqNEZYE" role="3bR37C">
+          <node concept="3bR9La" id="6zQhlqNEZYF" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:3SKb_4JujfJ" resolve="jetbrains.mps.editor.spellcheck" />
+          </node>
+        </node>
         <node concept="1SiIV0" id="Guk09KIEVE" role="3bR37C">
           <node concept="3bR9La" id="Guk09KIEVF" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="BlBNLZwmLq" role="3bR37C">
-          <node concept="3bR9La" id="BlBNLZwmLr" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:6k1uIrxXxBO" resolve="jetbrains.mps.spellchecker.idea.stubs" />
           </node>
         </node>
       </node>
@@ -10122,11 +10108,6 @@
         <node concept="1SiIV0" id="5Jv8_iJO1Ze" role="3bR37C">
           <node concept="3bR9La" id="5Jv8_iJO1Zf" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7gY7BQcwjPt" role="3bR37C">
-          <node concept="3bR9La" id="7gY7BQcwjPu" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:6k1uIrxXxBO" resolve="jetbrains.mps.spellchecker.idea.stubs" />
           </node>
         </node>
       </node>

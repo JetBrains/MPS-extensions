@@ -8,7 +8,7 @@
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="snbe" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util.io(MPS.IDEA/)" />
-    <import index="5wk9" ref="9979803b-18d3-440b-8a74-99cec41fc78e/java:com.intellij.spellchecker.util(jetbrains.mps.spellchecker.idea.stubs/)" />
+    <import index="5wk9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker.util(MPS.IDEA/)" />
     <import index="i9z2" ref="r:86608401-3c72-4a8c-a023-f7cfd3cc5fbc(de.itemis.mps.spellcheck.structure)" implicit="true" />
     <import index="v6og" ref="r:211706a0-1f54-4f22-a8d7-19e98f4484fb(de.itemis.mps.spellcheck.behavior)" implicit="true" />
   </imports>

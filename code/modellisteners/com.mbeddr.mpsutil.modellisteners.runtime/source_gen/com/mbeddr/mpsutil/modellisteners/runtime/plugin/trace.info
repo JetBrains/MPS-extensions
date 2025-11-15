@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="8,0,13,0" name="com.mbeddr.mpsutil.modellisteners.runtime.plugin.ExtensionDescriptor" />
+    </file>
+    <file name="IconContainer.java">
+      <unit at="7,0,10,0" name="com.mbeddr.mpsutil.modellisteners.runtime.plugin.IconContainer" />
+    </file>
+  </root>
+  <root nodeRef="r:36aeb616-f561-40d2-aedb-9476bc0a6442(com.mbeddr.mpsutil.modellisteners.runtime.plugin)/172345109540663945">
+    <file name="LanguageAspectsEP_extension.java">
+      <node id="172345109540663945" at="18,40,19,57" concept="8" />
+      <node id="172345109540663945" at="26,55,27,184" concept="6" />
+      <node id="172345109540663945" at="30,45,31,49" concept="6" />
+      <node id="172345109540663945" at="18,0,21,0" concept="1" trace="LanguageAspectsEP_extension#()V" />
+      <node id="172345109540663945" at="29,0,33,0" concept="4" trace="getIconResource#()Ljetbrains/mps/smodel/runtime/IconResource;" />
+      <node id="172345109540663945" at="24,0,29,0" concept="4" trace="getMainLanguages#()Ljava/util/Collection;" />
+      <node id="172345109540663945" at="21,41,33,6" concept="6" />
+      <node id="172345109540663945" at="21,0,35,0" concept="0" trace="get#()Ljetbrains/mps/smodel/language/LanguageAspectDescriptor;" />
+      <scope id="172345109540663945" at="18,40,19,57" />
+      <scope id="172345109540663945" at="26,55,27,184" />
+      <scope id="172345109540663945" at="30,45,31,49" />
+      <scope id="172345109540663945" at="18,0,21,0" />
+      <scope id="172345109540663945" at="29,0,33,0" />
+      <scope id="172345109540663945" at="24,0,29,0" />
+      <scope id="172345109540663945" at="21,41,33,6" />
+      <scope id="172345109540663945" at="21,0,35,0" />
+      <unit id="172345109540663945" at="22,15,33,5" name="com.mbeddr.mpsutil.modellisteners.runtime.plugin.LanguageAspectsEP_extension$1" />
+      <unit id="172345109540663945" at="17,0,36,0" name="com.mbeddr.mpsutil.modellisteners.runtime.plugin.LanguageAspectsEP_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:36aeb616-f561-40d2-aedb-9476bc0a6442(com.mbeddr.mpsutil.modellisteners.runtime.plugin)/5818559022136686697">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="5818559022136686697" at="12,0,13,0" concept="3" trace="myId" />
+      <node id="5818559022136686697" at="18,27,19,16" concept="6" />
+      <node id="5818559022136686697" at="14,0,16,0" concept="1" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="5818559022136686697" at="17,0,21,0" concept="4" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="5818559022136686697" at="22,0,26,0" concept="4" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="5818559022136686697" at="14,38,14,38" />
+      <scope id="5818559022136686697" at="18,27,19,16" />
+      <scope id="5818559022136686697" at="23,66,24,67" />
+      <scope id="5818559022136686697" at="14,0,16,0" />
+      <scope id="5818559022136686697" at="17,0,21,0" />
+      <scope id="5818559022136686697" at="22,0,26,0">
+        <var name="parts" id="5818559022136686697" />
+      </scope>
+      <unit id="5818559022136686697" at="11,0,27,0" name="com.mbeddr.mpsutil.modellisteners.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:36aeb616-f561-40d2-aedb-9476bc0a6442(com.mbeddr.mpsutil.modellisteners.runtime.plugin)/5818559022136686991">
+    <file name="ModelListenersApplicationPlugin_AppPluginPart.java">
+      <node id="5818559022137096276" at="11,0,12,0" concept="3" trace="listener" />
+      <node id="5818559022137106367" at="15,22,16,87" concept="2" />
+      <node id="34203682865099515" at="16,87,17,124" concept="5" />
+      <node id="8355617120296987341" at="17,124,18,0" concept="7" />
+      <node id="8355617120297011629" at="18,0,19,121" concept="2" />
+      <node id="5818559022137130053" at="22,25,23,76" concept="2" />
+      <node id="5818559022136686991" at="12,0,14,0" concept="1" trace="ModelListenersApplicationPlugin_AppPluginPart#()V" />
+      <node id="5818559022136686991" at="21,0,25,0" concept="4" trace="dispose#()V" />
+      <node id="5818559022136686991" at="14,0,21,0" concept="4" trace="init#()V" />
+      <scope id="5818559022136686991" at="12,58,12,58" />
+      <scope id="5818559022137129607" at="22,25,23,76" />
+      <scope id="5818559022136686991" at="12,0,14,0" />
+      <scope id="5818559022137105699" at="15,22,19,121">
+        <var name="repo" id="4715473140019311702" />
+      </scope>
+      <scope id="5818559022136686991" at="21,0,25,0" />
+      <scope id="5818559022136686991" at="14,0,21,0" />
+      <unit id="5818559022136686991" at="10,0,26,0" name="com.mbeddr.mpsutil.modellisteners.runtime.plugin.ModelListenersApplicationPlugin_AppPluginPart" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="5818559022136686991" at="23,66,24,67" concept="2" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/1077839300348855708">
+    <file name="ProjectViewManager.java">
+      <node id="1077839300349035233" at="40,0,41,0" concept="12" trace="ourInstance" />
+      <node id="1077839300348855995" at="42,50,43,23" concept="9" />
+      <node id="1077839300349307508" at="46,0,47,0" concept="4" trace="myProjects" />
+      <node id="1077839300349361598" at="47,0,48,0" concept="4" trace="myViewInstances" />
+      <node id="4966760322458723088" at="48,0,49,0" concept="4" trace="myIsDisposed" />
+      <node id="199570334335857293" at="50,64,51,93" concept="8" />
+      <node id="199570334335908439" at="52,24,53,18" concept="9" />
+      <node id="199570334335835189" at="54,5,55,46" concept="9" />
+      <node id="1077839300349334701" at="58,48,59,56" concept="3" />
+      <node id="1077839300352474962" at="59,56,60,23" concept="3" />
+      <node id="1077839300348948197" at="65,72,66,25" concept="3" />
+      <node id="8336267645294900904" at="67,5,68,16" concept="3" />
+      <node id="4966760322458551588" at="73,74,74,105" concept="10" />
+      <node id="4966760322458552557" at="74,105,75,94" concept="10" />
+      <node id="4966760322458553442" at="75,94,76,38" concept="10" />
+      <node id="4966760322458555764" at="76,38,77,109" concept="10" />
+      <node id="4966760322458558124" at="77,109,78,109" concept="10" />
+      <node id="2466143524105097076" at="79,191,80,18" concept="3" />
+      <node id="4966760322458544400" at="80,18,81,15" concept="9" />
+      <node id="4966760322458542239" at="82,7,83,0" concept="11" />
+      <node id="1077839300348949073" at="83,0,84,27" concept="3" />
+      <node id="905826447397817979" at="85,5,86,55" concept="3" />
+      <node id="1077839300349342689" at="89,50,90,59" concept="3" />
+      <node id="1077839300352671476" at="90,59,91,23" concept="3" />
+      <node id="8336267645294892861" at="94,27,95,68" concept="3" />
+      <node id="1077839300352473037" at="98,51,99,167" concept="8" />
+      <node id="1077839300352473047" at="100,36,101,88" concept="3" />
+      <node id="1077839300352473054" at="101,88,102,75" concept="3" />
+      <node id="1077839300352473063" at="103,5,104,0" concept="11" />
+      <node id="1077839300352477947" at="104,0,105,106" concept="8" />
+      <node id="2696729749700656073" at="106,60,107,185" concept="3" />
+      <node id="1077839300352480144" at="108,5,109,0" concept="11" />
+      <node id="1077839300352564280" at="112,81,113,46" concept="3" />
+      <node id="1077839300352482737" at="115,7,116,0" concept="11" />
+      <node id="1077839300352597867" at="118,84,119,48" concept="3" />
+      <node id="2696729749700653353" at="122,7,123,0" concept="11" />
+      <node id="7509108814907280053" at="124,59,125,62" concept="3" />
+      <node id="3453211558375376538" at="129,60,130,98" concept="8" />
+      <node id="3453211558375359031" at="130,98,131,73" concept="8" />
+      <node id="1238203098784168990" at="131,73,132,0" concept="11" />
+      <node id="1077839300352473074" at="132,0,133,103" concept="8" />
+      <node id="1077839300352611840" at="133,103,134,93" concept="3" />
+      <node id="1077839300352605086" at="134,93,135,0" concept="11" />
+      <node id="784669163518435723" at="135,0,136,176" concept="8" />
+      <node id="784669163518435749" at="137,28,138,35" concept="3" />
+      <node id="6020302173478635992" at="141,25,142,180" concept="8" />
+      <node id="6020302173478646335" at="143,32,144,39" concept="3" />
+      <node id="6980522347952537343" at="145,9,146,41" concept="3" />
+      <node id="5875716154865531500" at="146,41,147,107" concept="3" />
+      <node id="1077839300352619616" at="152,62,153,112" concept="8" />
+      <node id="5875716154865855176" at="153,112,154,0" concept="11" />
+      <node id="2401501833980025064" at="154,0,155,93" concept="3" />
+      <node id="1077839300352619633" at="155,93,156,92" concept="8" />
+      <node id="1077839300352619638" at="157,34,158,69" concept="8" />
+      <node id="6980522347952537248" at="158,69,159,42" concept="3" />
+      <node id="5875716154865867461" at="160,5,161,79" concept="3" />
+      <node id="5875716154866388699" at="161,79,162,0" concept="11" />
+      <node id="7622124357316175928" at="162,0,163,19" concept="3" />
+      <node id="2539575889068382336" at="166,67,167,111" concept="3" />
+      <node id="2539575889068584498" at="167,111,168,92" concept="8" />
+      <node id="2539575889068596043" at="169,34,170,69" concept="8" />
+      <node id="2539575889068602726" at="170,69,171,42" concept="3" />
+      <node id="2539575889068606915" at="172,5,173,19" concept="3" />
+      <node id="8677826001110685986" at="176,25,177,70" concept="8" />
+      <node id="8677826001110370643" at="177,70,178,91" concept="8" />
+      <node id="8677826001110587510" at="179,35,180,13" concept="9" />
+      <node id="34203682865126180" at="181,5,182,108" concept="3" />
+      <node id="34203682865099515" at="182,108,183,136" concept="8" />
+      <node id="8677826001110882773" at="184,35,185,13" concept="9" />
+      <node id="8677826001110808679" at="186,5,187,0" concept="11" />
+      <node id="5818559022139199091" at="190,49,191,48" concept="3" />
+      <node id="4966760322458771382" at="198,23,199,13" concept="9" />
+      <node id="8677826001110601805" at="200,5,201,0" concept="11" />
+      <node id="8677826001110615296" at="201,0,202,128" concept="8" />
+      <node id="8677826001110615307" at="203,35,204,13" concept="9" />
+      <node id="8677826001110615252" at="205,5,206,0" concept="11" />
+      <node id="1077839300348943782" at="206,0,207,111" concept="3" />
+      <node id="2401501833980572582" at="207,111,208,0" concept="11" />
+      <node id="2401501833980581975" at="211,140,212,65" concept="3" />
+      <node id="4966760322458741960" at="215,7,216,0" concept="11" />
+      <node id="4966760322458747781" at="216,0,217,24" concept="3" />
+      <node id="1077839300349010272" at="220,51,221,62" concept="8" />
+      <node id="1077839300349010279" at="222,29,223,33" concept="3" />
+      <node id="1077839300349007474" at="227,53,228,62" concept="8" />
+      <node id="1077839300349009752" at="229,29,230,35" concept="3" />
+      <node id="1077839300349000524" at="234,84,235,95" concept="8" />
+      <node id="1077839300349002017" at="236,9,237,77" concept="9" />
+      <node id="1077839300349004124" at="239,5,240,16" concept="9" />
+      <node id="1077839300353202617" at="243,72,244,79" concept="8" />
+      <node id="1077839300353214551" at="245,34,246,18" concept="9" />
+      <node id="1077839300353251438" at="247,5,248,98" concept="9" />
+      <node id="1077839300349012665" at="251,65,252,117" concept="3" />
+      <node id="1077839300349016632" at="255,67,256,119" concept="3" />
+      <node id="1077839300349034108" at="42,0,45,0" concept="13" trace="getInstance#()Lcom/mbeddr/mpsutil/projectview/runtime/ProjectViewManager;" />
+      <node id="199570334335858996" at="51,93,54,5" concept="6" />
+      <node id="1077839300348947916" at="64,104,67,5" concept="5" />
+      <node id="8336267645294864162" at="94,0,97,0" concept="7" trace="syncViews#()V" />
+      <node id="2696729749700684604" at="105,106,108,5" concept="6" />
+      <node id="1077839300352494558" at="111,134,114,9" concept="6" />
+      <node id="1077839300352573308" at="117,80,120,9" concept="6" />
+      <node id="7509108814907271269" at="123,0,126,5" concept="6" />
+      <node id="784669163518435747" at="136,176,139,5" concept="6" />
+      <node id="6020302173478639644" at="142,180,145,9" concept="6" />
+      <node id="8677826001110529915" at="178,91,181,5" concept="6" />
+      <node id="8677826001110823868" at="183,136,186,5" concept="6" />
+      <node id="5818559022139200744" at="189,83,192,9" concept="6" />
+      <node id="4966760322458765291" at="197,25,200,5" concept="6" />
+      <node id="8677826001110615305" at="202,128,205,5" concept="6" />
+      <node id="2401501833980580383" at="210,151,213,9" concept="5" />
+      <node id="1077839300349010277" at="221,62,224,5" concept="6" />
+      <node id="1077839300349008369" at="228,62,231,5" concept="6" />
+      <node id="1077839300353211500" at="244,79,247,5" concept="6" />
+      <node id="1077839300348985868" at="251,0,254,0" concept="7" trace="loadDescriptor#(Lcom/mbeddr/mpsutil/projectview/runtime/IProjectViewDescriptor;)V" />
+      <node id="1077839300348992142" at="255,0,258,0" concept="7" trace="unloadDescriptor#(Lcom/mbeddr/mpsutil/projectview/runtime/IProjectViewDescriptor;)V" />
+      <node id="1077839300349319940" at="58,0,62,0" concept="7" trace="registerProject#(Ljetbrains/mps/project/Project;)V" />
+      <node id="4966760322458376677" at="78,109,82,7" concept="6" />
+      <node id="1077839300349326579" at="89,0,93,0" concept="7" trace="unregisterProject#(Ljetbrains/mps/project/Project;)V" />
+      <node id="1077839300352473045" at="99,167,103,5" concept="6" />
+      <node id="677170931892183233" at="156,92,160,5" concept="6" />
+      <node id="2539575889068587775" at="168,92,172,5" concept="6" />
+      <node id="1077839300349000536" at="235,95,239,5" concept="16" />
+      <node id="1077839300352483797" at="110,43,115,7" concept="5" />
+      <node id="1077839300352473071" at="116,0,121,7" concept="5" />
+      <node id="5818559022139198235" at="188,59,193,7" concept="5" />
+      <node id="2401501833980572961" at="209,43,214,7" concept="5" />
+      <node id="1077839300348945155" at="220,0,226,0" concept="7" trace="loadModule#(Ljetbrains/mps/module/ReloadableModule;)V" />
+      <node id="1077839300348945903" at="227,0,233,0" concept="7" trace="unloadModule#(Ljetbrains/mps/module/ReloadableModule;)V" />
+      <node id="199570334335786484" at="50,0,57,0" concept="7" trace="getView#(Ljetbrains/mps/project/Project;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Lcom/mbeddr/mpsutil/projectview/runtime/tree/CustomProjectView;" />
+      <node id="8929058149732906476" at="63,0,70,0" concept="7" trace="onLoaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="5871260955783486284" at="187,0,194,7" concept="3" />
+      <node id="7113826538032002216" at="208,0,215,7" concept="3" />
+      <node id="1077839300353152767" at="243,0,250,0" concept="7" trace="getDescriptor#(Ljetbrains/mps/module/ReloadableModule;)Lcom/mbeddr/mpsutil/projectview/runtime/IProjectViewDescriptor;" />
+      <node id="1552940364788820313" at="141,0,149,0" concept="7" trace="run#()V" />
+      <node id="1077839300348995783" at="234,0,242,0" concept="7" trace="getDescriptorClass#(Ljetbrains/mps/module/ReloadableModule;)Ljava/lang/Class;" />
+      <node id="2539575889068340530" at="166,0,175,0" concept="7" trace="removeView#(Lcom/mbeddr/mpsutil/projectview/runtime/tree/CustomProjectView;Ljetbrains/mps/project/Project;)V" />
+      <node id="784669163518435958" at="139,5,149,7" concept="3" />
+      <node id="1077839300348949070" at="72,108,85,5" concept="5" />
+      <node id="905826447397683511" at="109,0,122,7" concept="3" />
+      <node id="1077839300352549042" at="152,0,165,0" concept="7" trace="deactivateView#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;Ljetbrains/mps/project/Project;)V" />
+      <node id="8929058149732906497" at="71,0,88,0" concept="7" trace="onUnloaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="1077839300348940452" at="176,0,196,0" concept="7" trace="install#()V" />
+      <node id="1077839300352509039" at="129,0,151,0" concept="7" trace="activateView#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;Ljetbrains/mps/project/Project;)V" />
+      <node id="1077839300348940705" at="197,0,219,0" concept="7" trace="dispose#()V" />
+      <node id="1077839300352440946" at="98,0,128,0" concept="7" trace="syncViews#(Ljetbrains/mps/project/Project;)V" />
+      <scope id="1077839300349000544" at="238,27,238,27" />
+      <scope id="1077839300348855918" at="42,50,43,23" />
+      <scope id="199570334335858998" at="52,24,53,18" />
+      <scope id="1077839300348947918" at="65,72,66,25" />
+      <scope id="8336267645294864166" at="94,27,95,68" />
+      <scope id="2696729749700684606" at="106,60,107,185" />
+      <scope id="1077839300352494559" at="112,81,113,46" />
+      <scope id="1077839300352573310" at="118,84,119,48" />
+      <scope id="7509108814907271271" at="124,59,125,62" />
+      <scope id="784669163518435748" at="137,28,138,35" />
+      <scope id="6020302173478639646" at="143,32,144,39" />
+      <scope id="8677826001110529917" at="179,35,180,13" />
+      <scope id="8677826001110823870" at="184,35,185,13" />
+      <scope id="5818559022139200746" at="190,49,191,48" />
+      <scope id="4966760322458765293" at="198,23,199,13" />
+      <scope id="8677826001110615306" at="203,35,204,13" />
+      <scope id="2401501833980580385" at="211,140,212,65" />
+      <scope id="1077839300349010278" at="222,29,223,33" />
+      <scope id="1077839300349008371" at="229,29,230,35" />
+      <scope id="1077839300349000537" at="236,9,237,77" />
+      <scope id="1077839300349000543" at="238,5,239,5">
+        <var name="e" id="1077839300349000545" />
+      </scope>
+      <scope id="1077839300353211502" at="245,34,246,18" />
+      <scope id="1077839300348985872" at="251,65,252,117" />
+      <scope id="1077839300348992147" at="255,67,256,119" />
+      <scope id="1077839300349319944" at="58,48,60,23" />
+      <scope id="4966760322458376679" at="79,191,81,15" />
+      <scope id="1077839300349326583" at="89,50,91,23" />
+      <scope id="1077839300352473046" at="100,36,102,75" />
+      <scope id="677170931892183235" at="157,34,159,42">
+        <var name="projectView" id="1077839300352619639" />
+      </scope>
+      <scope id="2539575889068587777" at="169,34,171,42">
+        <var name="projectView" id="2539575889068596044" />
+      </scope>
+      <scope id="1077839300349034108" at="42,0,45,0" />
+      <scope id="1077839300348947916" at="64,104,67,5">
+        <var name="module" id="1077839300348947917" />
+      </scope>
+      <scope id="8336267645294864162" at="94,0,97,0" />
+      <scope id="1077839300352483801" at="111,134,114,9" />
+      <scope id="1077839300352473073" at="117,80,120,9" />
+      <scope id="5818559022139198239" at="189,83,192,9" />
+      <scope id="2401501833980572965" at="210,151,213,9" />
+      <scope id="2401501833980580383" at="210,151,213,9">
+        <var name="instance" id="2401501833980580384" />
+      </scope>
+      <scope id="1077839300348985868" at="251,0,254,0">
+        <var name="descriptor" id="1077839300348987589" />
+      </scope>
+      <scope id="1077839300348992142" at="255,0,258,0">
+        <var name="descriptor" id="1077839300348992143" />
+      </scope>
+      <scope id="1077839300349319940" at="58,0,62,0">
+        <var name="project" id="1077839300349332983" />
+      </scope>
+      <scope id="8929058149732906488" at="64,104,68,16" />
+      <scope id="1077839300349326579" at="89,0,93,0">
+        <var name="project" id="1077839300349333828" />
+      </scope>
+      <scope id="1077839300348945159" at="220,51,224,5">
+        <var name="descriptor" id="1077839300349010273" />
+      </scope>
+      <scope id="1077839300348945907" at="227,53,231,5">
+        <var name="descriptor" id="1077839300349007475" />
+      </scope>
+      <scope id="199570334335786488" at="50,64,55,46">
+        <var name="views" id="199570334335857294" />
+      </scope>
+      <scope id="1077839300352483797" at="110,43,115,7">
+        <var name="activeView" id="1077839300352483799" />
+      </scope>
+      <scope id="1077839300352473071" at="116,0,121,7">
+        <var name="registeredView" id="1077839300352473072" />
+      </scope>
+      <scope id="5818559022139198235" at="188,59,193,7">
+        <var name="module" id="5818559022139198237" />
+      </scope>
+      <scope id="5871260955783486288" at="188,59,193,7" />
+      <scope id="2401501833980572961" at="209,43,214,7">
+        <var name="projectInstances" id="2401501833980572963" />
+      </scope>
+      <scope id="7113826538032023706" at="209,43,214,7" />
+      <scope id="1077839300353152771" at="243,72,248,98">
+        <var name="descriptorClass" id="1077839300353202618" />
+      </scope>
+      <scope id="1552940364788820314" at="141,25,147,107">
+        <var name="paneState" id="6020302173478635993" />
+      </scope>
+      <scope id="1077839300348945155" at="220,0,226,0">
+        <var name="module" id="1077839300348948289" />
+      </scope>
+      <scope id="1077839300348945903" at="227,0,233,0">
+        <var name="module" id="1077839300348948648" />
+      </scope>
+      <scope id="1077839300348995787" at="234,84,240,16">
+        <var name="className" id="1077839300349000525" />
+      </scope>
+      <scope id="199570334335786484" at="50,0,57,0">
+        <var name="id" id="199570334335813326" />
+        <var name="project" id="199570334335839811" />
+      </scope>
+      <scope id="8929058149732906476" at="63,0,70,0">
+        <var name="loadedModules" id="8929058149732906481" />
+        <var name="monitor" id="8929058149732906485" />
+      </scope>
+      <scope id="2539575889068340533" at="166,67,173,19">
+        <var name="ideaProject" id="2539575889068584499" />
+      </scope>
+      <scope id="1077839300353152767" at="243,0,250,0">
+        <var name="module" id="1077839300353152799" />
+      </scope>
+      <scope id="1552940364788820313" at="141,0,149,0" />
+      <scope id="1077839300348995783" at="234,0,242,0">
+        <var name="module" id="1077839300348999884" />
+      </scope>
+      <scope id="2539575889068340530" at="166,0,175,0">
+        <var name="pane" id="2539575889068354063" />
+        <var name="project" id="2539575889068360449" />
+      </scope>
+      <scope id="1077839300348949072" at="73,74,84,27" />
+      <scope id="905826447397706984" at="110,43,121,7" />
+      <scope id="1077839300352549049" at="152,62,163,19">
+        <var name="ideaProject" id="1077839300352619634" />
+        <var name="pane" id="1077839300352619617" />
+      </scope>
+      <scope id="1077839300348949070" at="72,108,85,5">
+        <var name="module" id="1077839300348949071" />
+      </scope>
+      <scope id="1077839300352549042" at="152,0,165,0">
+        <var name="project" id="1077839300352549045" />
+        <var name="viewId" id="1077839300352549043" />
+      </scope>
+      <scope id="8929058149732906509" at="72,108,86,55" />
+      <scope id="8929058149732906497" at="71,0,88,0">
+        <var name="monitor" id="8929058149732906506" />
+        <var name="unloadedModules" id="8929058149732906502" />
+      </scope>
+      <scope id="1077839300348940456" at="176,25,194,7">
+        <var name="clsLoaderManager" id="8677826001110370644" />
+        <var name="moduleRepository" id="4715473140019311702" />
+        <var name="platform" id="8677826001110685987" />
+      </scope>
+      <scope id="1077839300352509043" at="129,60,149,7">
+        <var name="ideaProject" id="3453211558375376539" />
+        <var name="pane" id="1077839300352473075" />
+        <var name="paneState" id="784669163518435724" />
+        <var name="projectView" id="3453211558375359032" />
+      </scope>
+      <scope id="1077839300348940452" at="176,0,196,0" />
+      <scope id="1077839300348940709" at="197,25,217,24">
+        <var name="clsLoaderManager" id="8677826001110615297" />
+      </scope>
+      <scope id="1077839300352509039" at="129,0,151,0">
+        <var name="project" id="1077839300352544901" />
+        <var name="viewId" id="1077839300352540752" />
+      </scope>
+      <scope id="1077839300348940705" at="197,0,219,0" />
+      <scope id="1077839300352440950" at="98,51,126,5">
+        <var name="activeViews" id="1077839300352473038" />
+        <var name="registeredViews" id="1077839300352477950" />
+      </scope>
+      <scope id="1077839300352440946" at="98,0,128,0">
+        <var name="project" id="1077839300352469762" />
+      </scope>
+      <unit id="1552940364788820313" at="140,40,149,5" name="com.mbeddr.mpsutil.projectview.runtime.ProjectViewManager$1" />
+      <unit id="1077839300348855708" at="38,0,259,0" name="com.mbeddr.mpsutil.projectview.runtime.ProjectViewManager" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/429822097576228734">
+    <file name="RootViewElement.java">
+      <node id="429822097576228932" at="8,63,9,50" concept="14" />
+      <node id="429822097576740127" at="14,25,15,19" concept="9" />
+      <node id="797207570551670834" at="20,29,21,17" concept="9" />
+      <node id="797207570551673253" at="25,30,26,16" concept="9" />
+      <node id="6097853963019902662" at="30,33,31,16" concept="9" />
+      <node id="429822097576228926" at="8,0,11,0" concept="1" trace="RootViewElement#(Ljetbrains/mps/project/Project;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)V" />
+      <node id="429822097576739596" at="13,0,17,0" concept="7" trace="getId#()Ljava/lang/String;" />
+      <node id="797207570551669895" at="19,0,23,0" concept="7" trace="loadLazy#()Z" />
+      <node id="797207570551671505" at="24,0,28,0" concept="7" trace="loadAsync#()Z" />
+      <node id="6097853963019900718" at="29,0,33,0" concept="7" trace="isAutoUpdate#()Z" />
+      <scope id="429822097576228930" at="8,63,9,50" />
+      <scope id="429822097576739616" at="14,25,15,19" />
+      <scope id="797207570551669919" at="20,29,21,17" />
+      <scope id="797207570551671529" at="25,30,26,16" />
+      <scope id="6097853963019900742" at="30,33,31,16" />
+      <scope id="429822097576228926" at="8,0,11,0">
+        <var name="contextView" id="429822097576228952" />
+        <var name="project" id="429822097576228943" />
+      </scope>
+      <scope id="429822097576739596" at="13,0,17,0" />
+      <scope id="797207570551669895" at="19,0,23,0" />
+      <scope id="797207570551671505" at="24,0,28,0" />
+      <scope id="6097853963019900718" at="29,0,33,0" />
+      <unit id="429822097576228734" at="7,0,34,0" name="com.mbeddr.mpsutil.projectview.runtime.RootViewElement" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/4600337039046872416">
+    <file name="IViewDescriptor.java">
+      <node id="4600337039046872524" at="13,0,14,0" concept="7" trace="getId#()Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;" />
+      <node id="4600337039046872627" at="14,0,15,0" concept="7" trace="getExtendsId#()Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;" />
+      <node id="1077839300349433408" at="15,0,16,0" concept="7" trace="getLabel#()Ljava/lang/String;" />
+      <node id="4600337039046873061" at="16,0,17,0" concept="7" trace="getElements#()Ljava/util/List;" />
+      <node id="4600337039047231777" at="17,0,18,0" concept="7" trace="getElement#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;)Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;" />
+      <node id="8171045391093068105" at="18,0,19,0" concept="7" trace="getPriority#()I" />
+      <node id="5782973724855483741" at="19,0,20,0" concept="7" trace="getIcon#()Ljavax/swing/Icon;" />
+      <node id="5597588939837604944" at="20,0,21,0" concept="7" trace="rebuildOnFileChange#()Z" />
+      <node id="5597588939837605540" at="21,0,22,0" concept="7" trace="rebuildOnClassLoad#()Z" />
+      <node id="5597588939837606160" at="22,0,23,0" concept="7" trace="rebuildOnMake#()Z" />
+      <node id="5597588939837606804" at="23,0,24,0" concept="7" trace="rebuildOnRepoChange#()Z" />
+      <node id="5597588939838073135" at="24,0,25,0" concept="7" trace="allRebuildListenersRequired#()Z" />
+      <node id="3706182042894239736" at="25,0,26,0" concept="7" trace="isDataProvider#()Z" />
+      <node id="6089958956636946369" at="30,0,31,0" concept="7" trace="isDefaultView#(Lcom/intellij/openapi/project/Project;)Z" />
+      <node id="3706182042894249571" at="26,0,28,0" concept="7" trace="getData#(Ljava/lang/String;Lcom/mbeddr/mpsutil/projectview/runtime/tree/CustomProjectView;)Ljava/lang/Object;" />
+      <node id="6565797134057379808" at="28,0,30,0" concept="7" trace="getToolbarActionGroupId#()Ljava/lang/String;" />
+      <scope id="4600337039046872524" at="13,0,14,0" />
+      <scope id="4600337039046872627" at="14,0,15,0" />
+      <scope id="1077839300349433408" at="15,0,16,0" />
+      <scope id="4600337039046873061" at="16,0,17,0" />
+      <scope id="4600337039047231777" at="17,0,18,0">
+        <var name="id" id="4600337039047231853" />
+      </scope>
+      <scope id="8171045391093068105" at="18,0,19,0" />
+      <scope id="5782973724855483741" at="19,0,20,0" />
+      <scope id="5597588939837604944" at="20,0,21,0" />
+      <scope id="5597588939837605540" at="21,0,22,0" />
+      <scope id="5597588939837606160" at="22,0,23,0" />
+      <scope id="5597588939837606804" at="23,0,24,0" />
+      <scope id="5597588939838073135" at="24,0,25,0" />
+      <scope id="3706182042894239736" at="25,0,26,0" />
+      <scope id="6089958956636946369" at="30,0,31,0">
+        <var name="project" id="6089958956636972648" />
+      </scope>
+      <scope id="3706182042894249571" at="26,0,28,0">
+        <var name="dataId" id="3706182042894249903" />
+        <var name="view" id="3706182042895333759" />
+      </scope>
+      <scope id="6565797134057379808" at="28,0,30,0" />
+      <unit id="4600337039046872416" at="12,0,32,0" name="com.mbeddr.mpsutil.projectview.runtime.IViewDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/4600337039046872883">
+    <file name="IViewElementDescriptor.java">
+      <node id="4600337039046872992" at="11,0,12,0" concept="7" trace="getId#()Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="4600337039046876042" at="12,0,13,0" concept="7" trace="getParentId#()Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="4600337039046876131" at="13,0,14,0" concept="7" trace="getExtendsId#()Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="4600337039047199457" at="14,0,15,0" concept="7" trace="isAbstract#()Z" />
+      <node id="650292813697608812" at="15,0,16,0" concept="7" trace="isOverride#()Z" />
+      <node id="650292813697705040" at="16,0,17,0" concept="7" trace="isQueryable#()Z" />
+      <node id="4600337039046876554" at="17,0,18,0" concept="7" trace="queryElements#(Ljetbrains/mps/project/Project;Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="4600337039046876941" at="18,0,19,0" concept="7" trace="getLabel#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/String;" />
+      <node id="8171045391089358832" at="23,0,24,0" concept="7" trace="getActionGroupId#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/String;" />
+      <node id="8171045391095996939" at="24,0,25,0" concept="7" trace="isApplicable#(Ljetbrains/mps/project/Project;Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Z" />
+      <node id="650292813698174391" at="25,0,26,0" concept="7" trace="isAssignable#(Ljetbrains/mps/project/Project;Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Z" />
+      <node id="1885109890162640181" at="26,0,27,0" concept="7" trace="getFolders#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/Iterable;" />
+      <node id="422925152297803627" at="27,0,28,0" concept="7" trace="getFoldersActiondGroupId#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/String;" />
+      <node id="8561578538984797172" at="30,0,31,0" concept="7" trace="loadLazy#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/Boolean;" />
+      <node id="797207570550933769" at="31,0,32,0" concept="7" trace="loadAsync#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/Boolean;" />
+      <node id="6097853963019536716" at="32,0,33,0" concept="7" trace="isAutoUpdate#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/Boolean;" />
+      <node id="8171045391086982363" at="19,0,21,0" concept="7" trace="getIcon#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljavax/swing/Icon;" />
+      <node id="2434942550556103100" at="21,0,23,0" concept="7" trace="getTextAttributes#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Lcom/intellij/ui/SimpleTextAttributes;" />
+      <node id="3836850143588685603" at="28,0,30,0" concept="7" trace="getOutputType#()Ljava/lang/Class;" />
+      <scope id="4600337039046872992" at="11,0,12,0" />
+      <scope id="4600337039046876042" at="12,0,13,0" />
+      <scope id="4600337039046876131" at="13,0,14,0" />
+      <scope id="4600337039047199457" at="14,0,15,0" />
+      <scope id="650292813697608812" at="15,0,16,0" />
+      <scope id="650292813697705040" at="16,0,17,0" />
+      <scope id="4600337039046876554" at="17,0,18,0">
+        <var name="contextView" id="2615143534964367586" />
+        <var name="mpsProject" id="1077839300348708846" />
+        <var name="parentElement" id="8171045391084563999" />
+      </scope>
+      <scope id="4600337039046876941" at="18,0,19,0">
+        <var name="element" id="4600337039046877061" />
+      </scope>
+      <scope id="8171045391089358832" at="23,0,24,0">
+        <var name="element" id="8171045391089372735" />
+      </scope>
+      <scope id="8171045391095996939" at="24,0,25,0">
+        <var name="mpsProject" id="781176044109980117" />
+        <var name="parentElement" id="8171045391095999205" />
+      </scope>
+      <scope id="650292813698174391" at="25,0,26,0">
+        <var name="element" id="650292813698176683" />
+        <var name="mpsProject" id="781176044109986692" />
+      </scope>
+      <scope id="1885109890162640181" at="26,0,27,0">
+        <var name="element" id="1885109890162641462" />
+      </scope>
+      <scope id="422925152297803627" at="27,0,28,0">
+        <var name="element" id="422925152297803628" />
+      </scope>
+      <scope id="8561578538984797172" at="30,0,31,0">
+        <var name="element" id="8561578538984799268" />
+      </scope>
+      <scope id="797207570550933769" at="31,0,32,0">
+        <var name="element" id="797207570550933770" />
+      </scope>
+      <scope id="6097853963019536716" at="32,0,33,0">
+        <var name="element" id="6097853963019537703" />
+      </scope>
+      <scope id="8171045391086982363" at="19,0,21,0">
+        <var name="element" id="8171045391087423165" />
+      </scope>
+      <scope id="2434942550556103100" at="21,0,23,0">
+        <var name="element" id="2434942550556103105" />
+      </scope>
+      <scope id="3836850143588685603" at="28,0,30,0" />
+      <unit id="4600337039046872883" at="10,0,34,0" name="com.mbeddr.mpsutil.projectview.runtime.IViewElementDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/4600337039046877337">
+    <file name="ViewRegistry.java">
+      <node id="4600337039047658708" at="21,0,22,0" concept="12" trace="ourInstance" />
+      <node id="4600337039047657203" at="23,44,24,23" concept="9" />
+      <node id="4600337039046877552" at="27,0,28,0" concept="4" trace="myDescriptors" />
+      <node id="3836850143588494097" at="28,0,29,0" concept="4" trace="myPossibleDescendantTypes" />
+      <node id="4600337039046883583" at="30,56,31,83" concept="3" />
+      <node id="3836850143589291570" at="31,83,32,40" concept="3" />
+      <node id="4600337039046885651" at="35,58,36,73" concept="3" />
+      <node id="3836850143589292544" at="36,73,37,40" concept="3" />
+      <node id="4600337039046894791" at="40,62,41,82" concept="8" />
+      <node id="4600337039046895333" at="42,29,43,77" concept="9" />
+      <node id="4600337039046902167" at="44,5,45,150" concept="9" />
+      <node id="8336267645294484367" at="48,51,49,54" concept="9" />
+      <node id="1077839300349394155" at="52,53,53,55" concept="9" />
+      <node id="1077839300349427756" at="56,60,57,88" concept="9" />
+      <node id="4600337039047020918" at="62,74,63,32" concept="9" />
+      <node id="4600337039047197468" at="70,56,71,32" concept="9" />
+      <node id="8171045391091472947" at="77,21,78,18" concept="9" />
+      <node id="4600337039047215210" at="79,5,80,90" concept="9" />
+      <node id="8171045391085457398" at="83,83,84,52" concept="8" />
+      <node id="8171045391091451679" at="85,26,86,84" concept="9" />
+      <node id="8171045391091454957" at="87,5,88,0" concept="11" />
+      <node id="8171045391091458285" at="88,0,89,98" concept="8" />
+      <node id="8171045391091479163" at="90,41,91,126" concept="3" />
+      <node id="8171045391091485214" at="92,5,93,18" concept="9" />
+      <node id="650292813698072382" at="96,116,97,52" concept="8" />
+      <node id="650292813698072389" at="98,26,99,84" concept="9" />
+      <node id="650292813698072396" at="100,5,101,0" concept="11" />
+      <node id="650292813698083101" at="103,56,104,72" concept="9" />
+      <node id="650292813698139492" at="107,81,108,67" concept="9" />
+      <node id="650292813698158209" at="110,90,111,0" concept="11" />
+      <node id="650292813698072422" at="111,0,112,50" concept="9" />
+      <node id="4868642362573601711" at="115,109,116,52" concept="8" />
+      <node id="4868642362573601718" at="117,26,118,84" concept="9" />
+      <node id="4868642362573601725" at="119,5,120,0" concept="11" />
+      <node id="4868642362573601740" at="122,56,123,53" concept="9" />
+      <node id="4868642362573601755" at="126,81,127,60" concept="9" />
+      <node id="4868642362573601767" at="129,90,130,0" concept="11" />
+      <node id="4868642362573601768" at="130,0,131,50" concept="9" />
+      <node id="650292813701378154" at="134,101,135,99" concept="8" />
+      <node id="650292813701379438" at="137,81,138,67" concept="9" />
+      <node id="650292813701380900" at="142,62,143,41" concept="9" />
+      <node id="650292813700829213" at="145,13,146,13" concept="9" />
+      <node id="4600337039046981266" at="150,48,151,19" concept="9" />
+      <node id="4600337039046985613" at="153,32,154,18" concept="9" />
+      <node id="3817696892466621260" at="156,39,157,19" concept="9" />
+      <node id="4600337039046970568" at="159,43,160,19" concept="9" />
+      <node id="4600337039046961427" at="162,69,163,18" concept="9" />
+      <node id="4600337039046963002" at="164,5,165,98" concept="9" />
+      <node id="3817696892466236801" at="169,46,170,19" concept="9" />
+      <node id="3817696892466236812" at="172,30,173,18" concept="9" />
+      <node id="3817696892466236819" at="175,41,176,19" concept="9" />
+      <node id="3817696892466236828" at="178,67,179,18" concept="9" />
+      <node id="3817696892466236837" at="180,5,181,96" concept="9" />
+      <node id="8171045391085458772" at="185,48,186,19" concept="9" />
+      <node id="8171045391085458783" at="188,32,189,18" concept="9" />
+      <node id="8171045391085458790" at="191,43,192,19" concept="9" />
+      <node id="8171045391085458799" at="194,69,195,18" concept="9" />
+      <node id="8171045391085458808" at="196,5,197,70" concept="9" />
+      <node id="8171045391085508502" at="200,70,201,67" concept="9" />
+      <node id="3836850143588624271" at="204,48,205,103" concept="3" />
+      <node id="2615143534964180349" at="205,103,206,0" concept="11" />
+      <node id="2615143534964212818" at="207,92,208,124" concept="3" />
+      <node id="3836850143588638723" at="210,76,211,34" concept="9" />
+      <node id="3836850143589065262" at="214,143,215,126" concept="3" />
+      <node id="4868642362573129877" at="223,71,224,44" concept="9" />
+      <node id="4868642362573134270" at="227,56,228,26" concept="9" />
+      <node id="3836850143589289098" at="233,51,234,37" concept="3" />
+      <node id="5080611773683933355" at="238,23,239,13" concept="9" />
+      <node id="5080611773683933360" at="240,5,241,0" concept="11" />
+      <node id="3836850143589027594" at="241,0,242,126" concept="8" />
+      <node id="3836850143589030832" at="243,24,244,56" concept="3" />
+      <node id="3836850143589034511" at="244,56,245,116" concept="3" />
+      <node id="3836850143589020627" at="246,5,247,48" concept="3" />
+      <node id="3836850143589235855" at="251,44,252,36" concept="3" />
+      <node id="3836850143589181859" at="253,5,254,123" concept="8" />
+      <node id="3836850143589185366" at="254,123,255,67" concept="9" />
+      <node id="5080611773683437079" at="258,114,259,88" concept="8" />
+      <node id="5080611773683437106" at="261,58,262,26" concept="9" />
+      <node id="5080611773683437118" at="266,56,267,118" concept="9" />
+      <node id="5080611773683860147" at="272,108,273,74" concept="8" />
+      <node id="5080611773683875738" at="273,74,274,72" concept="3" />
+      <node id="5080611773683861334" at="274,72,275,18" concept="9" />
+      <node id="5080611773683737840" at="279,108,280,40" concept="8" />
+      <node id="5080611773683739152" at="281,58,282,17" concept="2" />
+      <node id="5080611773683715604" at="283,7,284,54" concept="3" />
+      <node id="5080611773683741317" at="284,54,285,73" concept="3" />
+      <node id="3266612605320636917" at="289,36,290,46" concept="9" />
+      <node id="3266612605320636917" at="291,5,292,16" concept="9" />
+      <node id="429822097576075442" at="295,36,296,39" concept="9" />
+      <node id="429822097576075442" at="297,5,298,16" concept="9" />
+      <node id="429822097576074504" at="301,36,302,39" concept="9" />
+      <node id="429822097576074504" at="303,5,304,16" concept="9" />
+      <node id="4600337039047657229" at="23,0,26,0" concept="13" trace="getInstance#()Lcom/mbeddr/mpsutil/projectview/runtime/ViewRegistry;" />
+      <node id="4600337039046895087" at="41,82,44,5" concept="6" />
+      <node id="8336267645294468323" at="48,0,51,0" concept="7" trace="getDescriptor#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;" />
+      <node id="1077839300349391411" at="52,0,55,0" concept="7" trace="getDescriptors#()Ljava/lang/Iterable;" />
+      <node id="1077839300349399509" at="56,0,59,0" concept="7" trace="getVisibleDescriptors#()Ljava/lang/Iterable;" />
+      <node id="4600337039047020747" at="62,0,65,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;)Ljava/lang/Iterable;" />
+      <node id="4600337039047197299" at="70,0,73,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Boolean;" />
+      <node id="8171045391091472503" at="76,58,79,5" concept="6" />
+      <node id="8171045391091451068" at="84,52,87,5" concept="6" />
+      <node id="8171045391091461981" at="89,98,92,5" concept="6" />
+      <node id="650292813698072387" at="97,52,100,5" concept="6" />
+      <node id="650292813698082923" at="103,0,106,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Boolean;" />
+      <node id="650292813698134356" at="107,0,110,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Iterable;" />
+      <node id="4868642362573601716" at="116,52,119,5" concept="6" />
+      <node id="4868642362573601738" at="122,0,125,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Boolean;" />
+      <node id="4868642362573601753" at="126,0,129,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Iterable;" />
+      <node id="650292813701379436" at="137,0,140,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Iterable;" />
+      <node id="650292813701380898" at="142,0,145,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Comparable;" />
+      <node id="4600337039046978334" at="149,82,152,5" concept="6" />
+      <node id="4600337039046983431" at="152,5,155,5" concept="6" />
+      <node id="3817696892466591694" at="155,5,158,5" concept="6" />
+      <node id="4600337039046966815" at="158,5,161,5" concept="6" />
+      <node id="4600337039046957476" at="161,5,164,5" concept="6" />
+      <node id="3817696892466236799" at="168,80,171,5" concept="6" />
+      <node id="3817696892466236810" at="171,5,174,5" concept="6" />
+      <node id="3817696892466236817" at="174,5,177,5" concept="6" />
+      <node id="3817696892466236826" at="177,5,180,5" concept="6" />
+      <node id="8171045391085458770" at="184,96,187,5" concept="6" />
+      <node id="8171045391085458781" at="187,5,190,5" concept="6" />
+      <node id="8171045391085458788" at="190,5,193,5" concept="6" />
+      <node id="8171045391085458797" at="193,5,196,5" concept="6" />
+      <node id="8171045391085502558" at="200,0,203,0" concept="7" trace="doesExtend#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;)Z" />
+      <node id="3836850143588638148" at="210,0,213,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;)Ljava/lang/Iterable;" />
+      <node id="5080611773683935761" at="213,91,216,9" concept="5" />
+      <node id="4868642362573129036" at="223,0,226,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;" />
+      <node id="4868642362573133636" at="227,0,230,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Boolean;" />
+      <node id="3836850143589251395" at="233,0,236,0" concept="7" trace="invalidatePossibleDescendantTypes#()V" />
+      <node id="5080611773683931484" at="237,107,240,5" concept="6" />
+      <node id="3836850143589232104" at="250,99,253,5" concept="6" />
+      <node id="5080611773683437104" at="261,0,264,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="5080611773683437116" at="266,0,269,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Boolean;" />
+      <node id="5080611773683729543" at="280,40,283,7" concept="6" />
+      <node id="3266612605320636917" at="288,109,291,5" concept="6" />
+      <node id="429822097576075442" at="294,96,297,5" concept="6" />
+      <node id="429822097576074504" at="300,94,303,5" concept="6" />
+      <node id="4600337039046877456" at="30,0,34,0" concept="7" trace="register#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;)V" />
+      <node id="4600337039046877723" at="35,0,39,0" concept="7" trace="unregister#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;)V" />
+      <node id="3836850143589028606" at="242,126,246,5" concept="6" />
+      <node id="4600337039047011450" at="60,73,65,7" concept="9" />
+      <node id="4600337039047192949" at="68,79,73,7" concept="9" />
+      <node id="650292813701379430" at="135,99,140,16" concept="8" />
+      <node id="650292813701380893" at="140,16,145,13" concept="8" />
+      <node id="5080611773683437092" at="259,88,264,8" concept="8" />
+      <node id="5080611773683437112" at="264,8,269,7" concept="9" />
+      <node id="5080611773683751891" at="272,0,277,0" concept="7" trace="getPossibleDescendantDescriptors#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/util/Set;" />
+      <node id="4600337039047206415" at="76,0,82,0" concept="7" trace="getElement#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;)Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;" />
+      <node id="3266612605320636917" at="288,0,294,0" concept="13" trace="check_spq8lt_a1a42#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;)Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;" />
+      <node id="429822097576075442" at="294,0,300,0" concept="13" trace="check_spq8lt_b0a0a0b0c0qb#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="429822097576074504" at="300,0,306,0" concept="13" trace="check_spq8lt_a0a0b0c0qb#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="4600337039046899030" at="40,0,47,0" concept="7" trace="getDescriptors#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="4600337039046892214" at="60,0,67,0" concept="7" trace="getAllElements#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="4600337039047184013" at="68,0,75,0" concept="7" trace="getQueryableElements#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="3836850143589089754" at="250,0,257,0" concept="7" trace="getPossibleDescendantTypes#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/util/Set;" />
+      <node id="5080611773683713475" at="278,128,286,5" concept="5" />
+      <node id="650292813698072397" at="101,0,110,90" concept="8" />
+      <node id="4868642362573601726" at="120,0,129,90" concept="8" />
+      <node id="3836850143588630082" at="208,124,217,7" concept="5" />
+      <node id="4868642362573126625" at="221,101,230,18" concept="9" />
+      <node id="5080611773683551264" at="278,0,288,0" concept="7" trace="collectPossibleDescendantDescriptors#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;Ljava/util/Set;)V" />
+      <node id="4868642362573070955" at="221,0,232,0" concept="7" trace="getPossibleParents#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="8171045391085408927" at="83,0,95,0" concept="7" trace="getElementAndBaseElements#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;)Ljava/lang/Iterable;" />
+      <node id="2615143534964194070" at="206,0,218,5" concept="5" />
+      <node id="3836850143588975191" at="237,0,249,0" concept="7" trace="registerDescendantType#(Ljava/lang/Class;Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)V" />
+      <node id="5080611773683437068" at="258,0,271,0" concept="7" trace="getChildDescriptors#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="650292813700805064" at="134,0,148,0" concept="7" trace="getInheritanceHierachy#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="3817696892466236791" at="168,0,183,0" concept="7" trace="isBaseView#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;)Z" />
+      <node id="8171045391085458762" at="184,0,199,0" concept="7" trace="doesExtend#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Z" />
+      <node id="3836850143588510393" at="204,0,220,0" concept="7" trace="initPossibleDescendantTypes#()V" />
+      <node id="650292813698011300" at="96,0,114,0" concept="7" trace="getElementAndOverridingElements#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="4868642362573601704" at="115,0,133,0" concept="7" trace="getElementAndSubElements#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="4600337039046939157" at="149,0,167,0" concept="7" trace="doesExtend#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;Lcom/mbeddr/mpsutil/projectview/runtime/IViewDescriptor;)Z" />
+      <scope id="4600337039047496181" at="23,44,24,23" />
+      <scope id="4600337039046895089" at="42,29,43,77" />
+      <scope id="8336267645294468327" at="48,51,49,54" />
+      <scope id="1077839300349391415" at="52,53,53,55" />
+      <scope id="1077839300349399513" at="56,60,57,88" />
+      <scope id="4600337039047020748" at="62,74,63,32" />
+      <scope id="4600337039047197300" at="70,56,71,32" />
+      <scope id="8171045391091472505" at="77,21,78,18" />
+      <scope id="8171045391091451070" at="85,26,86,84" />
+      <scope id="8171045391091461983" at="90,41,91,126" />
+      <scope id="650292813698072388" at="98,26,99,84" />
+      <scope id="650292813698082924" at="103,56,104,72" />
+      <scope id="650292813698134357" at="107,81,108,67" />
+      <scope id="4868642362573601717" at="117,26,118,84" />
+      <scope id="4868642362573601739" at="122,56,123,53" />
+      <scope id="4868642362573601754" at="126,81,127,60" />
+      <scope id="650292813701379437" at="137,81,138,67" />
+      <scope id="650292813701380899" at="142,62,143,41" />
+      <scope id="4600337039046978336" at="150,48,151,19" />
+      <scope id="4600337039046983433" at="153,32,154,18" />
+      <scope id="3817696892466591696" at="156,39,157,19" />
+      <scope id="4600337039046966817" at="159,43,160,19" />
+      <scope id="4600337039046957477" at="162,69,163,18" />
+      <scope id="3817696892466236800" at="169,46,170,19" />
+      <scope id="3817696892466236811" at="172,30,173,18" />
+      <scope id="3817696892466236818" at="175,41,176,19" />
+      <scope id="3817696892466236827" at="178,67,179,18" />
+      <scope id="8171045391085458771" at="185,48,186,19" />
+      <scope id="8171045391085458782" at="188,32,189,18" />
+      <scope id="8171045391085458789" at="191,43,192,19" />
+      <scope id="8171045391085458798" at="194,69,195,18" />
+      <scope id="8171045391085502562" at="200,70,201,67" />
+      <scope id="3836850143588638149" at="210,76,211,34" />
+      <scope id="5080611773683935765" at="214,143,215,126" />
+      <scope id="4868642362573129037" at="223,71,224,44" />
+      <scope id="4868642362573133637" at="227,56,228,26" />
+      <scope id="3836850143589251399" at="233,51,234,37" />
+      <scope id="5080611773683931486" at="238,23,239,13" />
+      <scope id="3836850143589232106" at="251,44,252,36" />
+      <scope id="5080611773683437105" at="261,58,262,26" />
+      <scope id="5080611773683437117" at="266,56,267,118" />
+      <scope id="5080611773683729545" at="281,58,282,17" />
+      <scope id="3266612605320636917" at="289,36,290,46" />
+      <scope id="429822097576075442" at="295,36,296,39" />
+      <scope id="429822097576074504" at="301,36,302,39" />
+      <scope id="4600337039046877460" at="30,56,32,40" />
+      <scope id="4600337039046877727" at="35,58,37,40" />
+      <scope id="3836850143589028608" at="243,24,245,116" />
+      <scope id="4600337039047657229" at="23,0,26,0" />
+      <scope id="8336267645294468323" at="48,0,51,0">
+        <var name="id" id="8336267645294495716" />
+      </scope>
+      <scope id="1077839300349391411" at="52,0,55,0" />
+      <scope id="1077839300349399509" at="56,0,59,0" />
+      <scope id="4600337039047020747" at="62,0,65,0">
+        <var name="it" id="4600337039047020747" />
+      </scope>
+      <scope id="4600337039047197299" at="70,0,73,0">
+        <var name="it" id="4600337039047197299" />
+      </scope>
+      <scope id="650292813698082923" at="103,0,106,0">
+        <var name="it" id="650292813698082923" />
+      </scope>
+      <scope id="650292813698134356" at="107,0,110,0">
+        <var name="it" id="650292813698134356" />
+      </scope>
+      <scope id="4868642362573601738" at="122,0,125,0">
+        <var name="it" id="4868642362573601738" />
+      </scope>
+      <scope id="4868642362573601753" at="126,0,129,0">
+        <var name="it" id="4868642362573601753" />
+      </scope>
+      <scope id="650292813701379436" at="137,0,140,0">
+        <var name="it" id="650292813701379436" />
+      </scope>
+      <scope id="650292813701380898" at="142,0,145,0">
+        <var name="it" id="650292813701380898" />
+      </scope>
+      <scope id="8171045391085502558" at="200,0,203,0">
+        <var name="extended" id="8171045391085504934" />
+        <var name="extending" id="8171045391085504477" />
+      </scope>
+      <scope id="3836850143588638148" at="210,0,213,0">
+        <var name="it" id="3836850143588638148" />
+      </scope>
+      <scope id="3836850143588630086" at="213,91,216,9" />
+      <scope id="5080611773683935761" at="213,91,216,9">
+        <var name="descendant" id="5080611773683935763" />
+      </scope>
+      <scope id="4868642362573129036" at="223,0,226,0">
+        <var name="it" id="4868642362573129036" />
+      </scope>
+      <scope id="4868642362573133636" at="227,0,230,0">
+        <var name="it" id="4868642362573133636" />
+      </scope>
+      <scope id="3836850143589251395" at="233,0,236,0" />
+      <scope id="5080611773683437104" at="261,0,264,0">
+        <var name="it" id="5080611773683437104" />
+      </scope>
+      <scope id="5080611773683437116" at="266,0,269,0">
+        <var name="it" id="5080611773683437116" />
+      </scope>
+      <scope id="5080611773683751895" at="272,108,275,18">
+        <var name="result" id="5080611773683860150" />
+      </scope>
+      <scope id="4600337039046877456" at="30,0,34,0">
+        <var name="viewDescriptor" id="4600337039046877482" />
+      </scope>
+      <scope id="4600337039046877723" at="35,0,39,0">
+        <var name="viewDescriptor" id="4600337039046877775" />
+      </scope>
+      <scope id="4600337039047206419" at="76,58,80,90" />
+      <scope id="3266612605320636917" at="288,109,292,16" />
+      <scope id="429822097576075442" at="294,96,298,16" />
+      <scope id="429822097576074504" at="300,94,304,16" />
+      <scope id="4600337039046899034" at="40,62,45,150">
+        <var name="descriptor" id="4600337039046894792" />
+      </scope>
+      <scope id="4600337039046892218" at="60,73,65,7" />
+      <scope id="4600337039047184019" at="68,79,73,7" />
+      <scope id="3836850143589089758" at="250,99,255,67">
+        <var name="types" id="3836850143589181860" />
+      </scope>
+      <scope id="5080611773683751891" at="272,0,277,0">
+        <var name="contextView" id="2615143534964152890" />
+        <var name="parentId" id="5080611773683882482" />
+      </scope>
+      <scope id="4600337039047206415" at="76,0,82,0">
+        <var name="id" id="4600337039047695179" />
+      </scope>
+      <scope id="5080611773683713479" at="279,108,285,73">
+        <var name="childId" id="5080611773683737841" />
+      </scope>
+      <scope id="3266612605320636917" at="288,0,294,0">
+        <var name="checkedDotOperand" id="3266612605320636917" />
+        <var name="id" id="4600337039047710363" />
+      </scope>
+      <scope id="429822097576075442" at="294,0,300,0">
+        <var name="checkedDotOperand" id="429822097576075442" />
+      </scope>
+      <scope id="429822097576074504" at="300,0,306,0">
+        <var name="checkedDotOperand" id="429822097576074504" />
+      </scope>
+      <scope id="4600337039046899030" at="40,0,47,0">
+        <var name="id" id="4600337039046900495" />
+      </scope>
+      <scope id="4600337039046892214" at="60,0,67,0">
+        <var name="viewId" id="4600337039046893327" />
+      </scope>
+      <scope id="4600337039047184013" at="68,0,75,0">
+        <var name="viewId" id="4600337039047184014" />
+      </scope>
+      <scope id="3836850143589089754" at="250,0,257,0">
+        <var name="contextView" id="2615143534964234629" />
+        <var name="elementId" id="3836850143589169906" />
+      </scope>
+      <scope id="5080611773683551268" at="278,128,286,5" />
+      <scope id="5080611773683713475" at="278,128,286,5">
+        <var name="child" id="5080611773683713477" />
+      </scope>
+      <scope id="3836850143588630082" at="208,124,217,7">
+        <var name="parentDescriptor" id="3836850143588630084" />
+      </scope>
+      <scope id="4868642362573070959" at="221,101,230,18" />
+      <scope id="8171045391085408931" at="83,83,93,18">
+        <var name="element" id="8171045391085457399" />
+        <var name="result" id="8171045391091458288" />
+      </scope>
+      <scope id="2615143534964194074" at="207,92,217,7" />
+      <scope id="3836850143588975195" at="237,107,247,48">
+        <var name="types" id="3836850143589027595" />
+      </scope>
+      <scope id="5080611773683551264" at="278,0,288,0">
+        <var name="contextView" id="2615143534964144468" />
+        <var name="parentId" id="5080611773683694004" />
+        <var name="result" id="5080611773683699976" />
+      </scope>
+      <scope id="4868642362573070955" at="221,0,232,0">
+        <var name="childId" id="4868642362573121307" />
+        <var name="contextView" id="2615143534964159859" />
+      </scope>
+      <scope id="5080611773683437072" at="258,114,269,7">
+        <var name="concreteDescriptors" id="5080611773683437080" />
+        <var name="hierachy" id="5080611773683437093" />
+      </scope>
+      <scope id="8171045391085408927" at="83,0,95,0">
+        <var name="id" id="8171045391085426672" />
+      </scope>
+      <scope id="650292813700805068" at="134,101,146,13">
+        <var name="a" id="650292813701378155" />
+        <var name="b" id="650292813701379431" />
+        <var name="c" id="650292813701380894" />
+      </scope>
+      <scope id="2615143534964194070" at="206,0,218,5">
+        <var name="viewId" id="2615143534964194072" />
+      </scope>
+      <scope id="3836850143588975191" at="237,0,249,0">
+        <var name="contextView" id="2615143534964220751" />
+        <var name="descriptorId" id="3836850143589016520" />
+        <var name="type" id="3836850143589013192" />
+      </scope>
+      <scope id="3817696892466236798" at="168,80,181,96" />
+      <scope id="8171045391085458769" at="184,96,197,70" />
+      <scope id="5080611773683437068" at="258,0,271,0">
+        <var name="parentId" id="5080611773683451801" />
+        <var name="viewId" id="2615143534963760351" />
+      </scope>
+      <scope id="650292813700805064" at="134,0,148,0">
+        <var name="id" id="650292813700827018" />
+        <var name="viewId" id="2615143534963834646" />
+      </scope>
+      <scope id="3836850143588510397" at="204,48,218,5" />
+      <scope id="3817696892466236791" at="168,0,183,0">
+        <var name="baseView" id="3817696892466236794" />
+        <var name="subView" id="3817696892466236792" />
+      </scope>
+      <scope id="8171045391085458762" at="184,0,199,0">
+        <var name="extended" id="8171045391085458765" />
+        <var name="extending" id="8171045391085458763" />
+      </scope>
+      <scope id="650292813698011304" at="96,116,112,50">
+        <var name="element" id="650292813698072383" />
+        <var name="result" id="650292813698072398" />
+      </scope>
+      <scope id="4868642362573601710" at="115,109,131,50">
+        <var name="element" id="4868642362573601712" />
+        <var name="result" id="4868642362573601727" />
+      </scope>
+      <scope id="4600337039046939161" at="149,82,165,98" />
+      <scope id="3836850143588510393" at="204,0,220,0" />
+      <scope id="650292813698011300" at="96,0,114,0">
+        <var name="id" id="650292813698041581" />
+        <var name="viewId" id="2615143534963680176" />
+      </scope>
+      <scope id="4868642362573601704" at="115,0,133,0">
+        <var name="id" id="4868642362573601705" />
+        <var name="viewId" id="2615143534963777206" />
+      </scope>
+      <scope id="4600337039046939157" at="149,0,167,0">
+        <var name="extended" id="4600337039046956464" />
+        <var name="extending" id="4600337039046955502" />
+      </scope>
+      <unit id="4600337039047020747" at="61,71,65,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$1" />
+      <unit id="4600337039047197299" at="69,67,73,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$2" />
+      <unit id="650292813698082923" at="102,102,106,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$3" />
+      <unit id="650292813698134356" at="106,21,110,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$4" />
+      <unit id="4868642362573601738" at="121,102,125,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$5" />
+      <unit id="4868642362573601753" at="125,21,129,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$6" />
+      <unit id="650292813701379436" at="136,76,140,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$7" />
+      <unit id="650292813701380898" at="141,75,145,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$8" />
+      <unit id="3836850143588638148" at="209,134,213,7" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$9" />
+      <unit id="4868642362573129036" at="222,92,226,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$10" />
+      <unit id="4868642362573133636" at="226,17,230,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$11" />
+      <unit id="5080611773683437104" at="260,167,264,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$12" />
+      <unit id="5080611773683437116" at="265,64,269,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry$13" />
+      <unit id="4600337039046877337" at="19,0,307,0" name="com.mbeddr.mpsutil.projectview.runtime.ViewRegistry" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/4600337039047248383">
+    <file name="IProjectViewDescriptor.java">
+      <node id="1077839300348959165" at="7,0,8,0" concept="12" trace="CLASS_NAME" />
+      <node id="4600337039047248490" at="8,0,9,0" concept="7" trace="getViewDescriptors#()Ljava/lang/Iterable;" />
+      <scope id="4600337039047248490" at="8,0,9,0" />
+      <unit id="4600337039047248383" at="6,0,10,0" name="com.mbeddr.mpsutil.projectview.runtime.IProjectViewDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/4600337039047298511">
+    <file name="AbstractViewDescriptor.java">
+      <node id="4600337039047315467" at="13,32,14,16" concept="9" />
+      <node id="1077839300349449435" at="17,28,18,16" concept="9" />
+      <node id="8171045391093068590" at="21,28,22,13" concept="9" />
+      <node id="5782973724855484356" at="25,25,26,16" concept="9" />
+      <node id="5597588939837676092" at="29,40,30,16" concept="9" />
+      <node id="5597588939837676837" at="33,39,34,16" concept="9" />
+      <node id="5597588939837677582" at="37,34,38,16" concept="9" />
+      <node id="5597588939837678327" at="41,40,42,16" concept="9" />
+      <node id="5597588939838003931" at="45,48,46,101" concept="9" />
+      <node id="3706182042895061445" at="49,35,50,17" concept="9" />
+      <node id="3706182042895061455" at="53,64,54,16" concept="9" />
+      <node id="6565797134063631365" at="58,43,59,16" concept="9" />
+      <node id="6089958956637013835" at="62,58,63,17" concept="9" />
+      <node id="4600337039047315379" at="12,0,16,0" concept="7" trace="getExtendsId#()Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;" />
+      <node id="1077839300349442769" at="16,0,20,0" concept="7" trace="getLabel#()Ljava/lang/String;" />
+      <node id="8171045391093068456" at="20,0,24,0" concept="7" trace="getPriority#()I" />
+      <node id="5782973724855484350" at="24,0,28,0" concept="7" trace="getIcon#()Ljavax/swing/Icon;" />
+      <node id="5597588939837674967" at="28,0,32,0" concept="7" trace="rebuildOnFileChange#()Z" />
+      <node id="5597588939837674974" at="32,0,36,0" concept="7" trace="rebuildOnClassLoad#()Z" />
+      <node id="5597588939837674981" at="36,0,40,0" concept="7" trace="rebuildOnMake#()Z" />
+      <node id="5597588939837674988" at="40,0,44,0" concept="7" trace="rebuildOnRepoChange#()Z" />
+      <node id="5597588939838002723" at="44,0,48,0" concept="7" trace="allRebuildListenersRequired#()Z" />
+      <node id="3706182042895061438" at="48,0,52,0" concept="7" trace="isDataProvider#()Z" />
+      <node id="3706182042895061446" at="52,0,56,0" concept="7" trace="getData#(Ljava/lang/String;Lcom/mbeddr/mpsutil/projectview/runtime/tree/CustomProjectView;)Ljava/lang/Object;" />
+      <node id="6089958956637009871" at="61,0,65,0" concept="7" trace="isDefaultView#(Lcom/intellij/openapi/project/Project;)Z" />
+      <node id="6565797134057786713" at="56,0,61,0" concept="7" trace="getToolbarActionGroupId#()Ljava/lang/String;" />
+      <scope id="4600337039047315383" at="13,32,14,16" />
+      <scope id="1077839300349442775" at="17,28,18,16" />
+      <scope id="8171045391093068460" at="21,28,22,13" />
+      <scope id="5782973724855484354" at="25,25,26,16" />
+      <scope id="5597588939837674971" at="29,40,30,16" />
+      <scope id="5597588939837674978" at="33,39,34,16" />
+      <scope id="5597588939837674985" at="37,34,38,16" />
+      <scope id="5597588939837674992" at="41,40,42,16" />
+      <scope id="5597588939838002726" at="45,48,46,101" />
+      <scope id="3706182042895061442" at="49,35,50,17" />
+      <scope id="3706182042895061452" at="53,64,54,16" />
+      <scope id="6565797134057786719" at="58,43,59,16" />
+      <scope id="6089958956637009874" at="62,58,63,17" />
+      <scope id="4600337039047315379" at="12,0,16,0" />
+      <scope id="1077839300349442769" at="16,0,20,0" />
+      <scope id="8171045391093068456" at="20,0,24,0" />
+      <scope id="5782973724855484350" at="24,0,28,0" />
+      <scope id="5597588939837674967" at="28,0,32,0" />
+      <scope id="5597588939837674974" at="32,0,36,0" />
+      <scope id="5597588939837674981" at="36,0,40,0" />
+      <scope id="5597588939837674988" at="40,0,44,0" />
+      <scope id="5597588939838002723" at="44,0,48,0" />
+      <scope id="3706182042895061438" at="48,0,52,0" />
+      <scope id="3706182042895061446" at="52,0,56,0">
+        <var name="dataId" id="3706182042895061450" />
+        <var name="view" id="3706182042895418904" />
+      </scope>
+      <scope id="6089958956637009871" at="61,0,65,0">
+        <var name="project" id="6089958956637026162" />
+      </scope>
+      <scope id="6565797134057786713" at="56,0,61,0" />
+      <unit id="4600337039047298511" at="11,0,66,0" name="com.mbeddr.mpsutil.projectview.runtime.AbstractViewDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/4600337039047302846">
+    <file name="AbstractViewElementDescriptor.java">
+      <node id="4600337039047336356" at="13,35,14,16" concept="9" />
+      <node id="4600337039047337815" at="17,34,18,16" concept="9" />
+      <node id="4600337039047667303" at="21,50,22,41" concept="8" />
+      <node id="4600337039047712078" at="23,28,24,104" concept="8" />
+      <node id="4600337039047712719" at="25,39,26,52" concept="9" />
+      <node id="4600337039047720840" at="28,5,29,16" concept="9" />
+      <node id="1077839300354459040" at="34,27,35,72" concept="15" />
+      <node id="8171045391086302298" at="36,12,37,123" concept="9" />
+      <node id="650292813697707580" at="41,32,42,46" concept="9" />
+      <node id="8171045391086991541" at="47,44,48,16" concept="9" />
+      <node id="2434942550556193892" at="53,73,54,16" concept="9" />
+      <node id="8171045391089362228" at="58,58,59,16" concept="9" />
+      <node id="8171045391096001988" at="63,78,64,16" concept="9" />
+      <node id="650292813700431961" at="68,75,69,149" concept="8" />
+      <node id="650292813698183515" at="69,149,70,60" concept="9" />
+      <node id="650292813700312630" at="74,28,75,46" concept="9" />
+      <node id="1885109890162849379" at="79,62,80,16" concept="9" />
+      <node id="422925152297818260" at="84,66,85,16" concept="9" />
+      <node id="3836850143588692590" at="89,32,90,16" concept="9" />
+      <node id="8561578538984802488" at="94,51,95,16" concept="9" />
+      <node id="797207570550938878" at="99,52,100,16" concept="9" />
+      <node id="6097853963019540660" at="104,55,105,16" concept="9" />
+      <node id="650292813700431966" at="108,36,109,49" concept="9" />
+      <node id="650292813700431966" at="110,5,111,16" concept="9" />
+      <node id="8171045391086299427" at="36,10,38,5" concept="0" />
+      <node id="4600337039047712461" at="24,104,27,7" concept="6" />
+      <node id="650292813700431966" at="107,82,110,5" concept="6" />
+      <node id="4600337039047323728" at="12,0,16,0" concept="7" trace="getExtendsId#()Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="4600337039047323734" at="16,0,20,0" concept="7" trace="getParentId#()Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="650292813697706506" at="40,0,44,0" concept="7" trace="isQueryable#()Z" />
+      <node id="8171045391089361285" at="57,0,61,0" concept="7" trace="getActionGroupId#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/String;" />
+      <node id="8171045391096000949" at="62,0,66,0" concept="7" trace="isApplicable#(Ljetbrains/mps/project/Project;Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Z" />
+      <node id="650292813700310087" at="73,0,77,0" concept="7" trace="toString#()Ljava/lang/String;" />
+      <node id="1885109890162645556" at="78,0,82,0" concept="7" trace="getFolders#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/Iterable;" />
+      <node id="422925152297813557" at="83,0,87,0" concept="7" trace="getFoldersActiondGroupId#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/String;" />
+      <node id="3836850143588692584" at="88,0,92,0" concept="7" trace="getOutputType#()Ljava/lang/Class;" />
+      <node id="8561578538984802478" at="93,0,97,0" concept="7" trace="loadLazy#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/Boolean;" />
+      <node id="797207570550938868" at="98,0,102,0" concept="7" trace="loadAsync#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/Boolean;" />
+      <node id="6097853963019540653" at="103,0,107,0" concept="7" trace="isAutoUpdate#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/Boolean;" />
+      <node id="8171045391086240548" at="33,116,38,5" concept="6" />
+      <node id="8171045391086991534" at="45,0,50,0" concept="7" trace="getIcon#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljavax/swing/Icon;" />
+      <node id="2434942550556193880" at="51,0,56,0" concept="7" trace="getTextAttributes#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Lcom/intellij/ui/SimpleTextAttributes;" />
+      <node id="650292813698178529" at="67,0,72,0" concept="7" trace="isAssignable#(Ljetbrains/mps/project/Project;Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Z" />
+      <node id="4600337039047667521" at="22,41,28,5" concept="6" />
+      <node id="650292813700431966" at="107,0,113,0" concept="13" trace="check_oz9wki_a0a0a0a51#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="1077839300354458523" at="32,0,40,0" concept="7" trace="queryElements#(Ljetbrains/mps/project/Project;Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)Ljava/lang/Iterable;" />
+      <node id="4600337039047468061" at="20,0,31,0" concept="7" trace="getLabel#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)Ljava/lang/String;" />
+      <scope id="4600337039047323732" at="13,35,14,16" />
+      <scope id="4600337039047323738" at="17,34,18,16" />
+      <scope id="4600337039047712463" at="25,39,26,52" />
+      <scope id="8171045391086240550" at="34,27,35,72" />
+      <scope id="8171045391086299428" at="36,12,37,123" />
+      <scope id="650292813697706510" at="41,32,42,46" />
+      <scope id="8171045391086991539" at="47,44,48,16" />
+      <scope id="2434942550556193889" at="53,73,54,16" />
+      <scope id="8171045391089361289" at="58,58,59,16" />
+      <scope id="8171045391096000955" at="63,78,64,16" />
+      <scope id="650292813700310091" at="74,28,75,46" />
+      <scope id="1885109890162645565" at="79,62,80,16" />
+      <scope id="422925152297813565" at="84,66,85,16" />
+      <scope id="3836850143588692588" at="89,32,90,16" />
+      <scope id="8561578538984802486" at="94,51,95,16" />
+      <scope id="797207570550938876" at="99,52,100,16" />
+      <scope id="6097853963019540659" at="104,55,105,16" />
+      <scope id="650292813700431966" at="108,36,109,49" />
+      <scope id="650292813698178535" at="68,75,70,60">
+        <var name="validParent" id="650292813700431962" />
+      </scope>
+      <scope id="4600337039047323728" at="12,0,16,0" />
+      <scope id="4600337039047323734" at="16,0,20,0" />
+      <scope id="4600337039047667523" at="23,28,27,7">
+        <var name="extendedDescriptor" id="4600337039047712079" />
+      </scope>
+      <scope id="650292813697706506" at="40,0,44,0" />
+      <scope id="8171045391089361285" at="57,0,61,0">
+        <var name="element" id="8171045391089374447" />
+      </scope>
+      <scope id="8171045391096000949" at="62,0,66,0">
+        <var name="mpsProject" id="1077839300348718488" />
+        <var name="parentElement" id="8171045391096000950" />
+      </scope>
+      <scope id="650292813700310087" at="73,0,77,0" />
+      <scope id="1885109890162645556" at="78,0,82,0">
+        <var name="element" id="1885109890162645557" />
+      </scope>
+      <scope id="422925152297813557" at="83,0,87,0">
+        <var name="element" id="422925152297813558" />
+      </scope>
+      <scope id="3836850143588692584" at="88,0,92,0" />
+      <scope id="8561578538984802478" at="93,0,97,0">
+        <var name="element" id="8561578538984802479" />
+      </scope>
+      <scope id="797207570550938868" at="98,0,102,0">
+        <var name="element" id="797207570550938869" />
+      </scope>
+      <scope id="6097853963019540653" at="103,0,107,0">
+        <var name="element" id="6097853963019540654" />
+      </scope>
+      <scope id="650292813700431966" at="107,82,111,16" />
+      <scope id="1077839300354458532" at="33,116,38,5" />
+      <scope id="8171045391086991534" at="45,0,50,0">
+        <var name="element" id="8171045391087726599" />
+      </scope>
+      <scope id="2434942550556193880" at="51,0,56,0">
+        <var name="element" id="2434942550556193885" />
+      </scope>
+      <scope id="650292813698178529" at="67,0,72,0">
+        <var name="element" id="650292813698178533" />
+        <var name="mpsProject" id="781176044109990541" />
+      </scope>
+      <scope id="650292813700431966" at="107,0,113,0">
+        <var name="checkedDotOperand" id="650292813700431966" />
+      </scope>
+      <scope id="4600337039047468068" at="21,50,29,16">
+        <var name="extendsId" id="4600337039047667304" />
+      </scope>
+      <scope id="1077839300354458523" at="32,0,40,0">
+        <var name="contextView" id="2615143534964369614" />
+        <var name="mpsProject" id="1077839300354458529" />
+        <var name="parentElement" id="8171045391085282350" />
+      </scope>
+      <scope id="4600337039047468061" at="20,0,31,0">
+        <var name="element" id="4600337039047468062" />
+      </scope>
+      <unit id="4600337039047302846" at="11,0,114,0" name="com.mbeddr.mpsutil.projectview.runtime.AbstractViewElementDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/4600337039047670034">
+    <file name="ViewId.java">
+      <node id="4600337039047670145" at="7,0,8,0" concept="4" trace="myId" />
+      <node id="4600337039047671651" at="9,28,10,14" concept="3" />
+      <node id="4600337039047670200" at="15,20,16,18" concept="9" />
+      <node id="4600337039047670206" at="18,55,19,19" concept="9" />
+      <node id="4600337039047670219" at="20,5,21,0" concept="11" />
+      <node id="4600337039047670220" at="21,0,22,29" concept="8" />
+      <node id="4600337039047670238" at="23,84,24,19" concept="9" />
+      <node id="4600337039047670254" at="25,5,26,0" concept="11" />
+      <node id="4600337039047670255" at="26,0,27,16" concept="9" />
+      <node id="4600337039047670262" at="30,25,31,19" concept="8" />
+      <node id="4600337039047670275" at="31,19,32,82" concept="3" />
+      <node id="4600337039047670287" at="32,82,33,18" concept="9" />
+      <node id="4600337039047703453" at="36,25,37,16" concept="9" />
+      <node id="8171045391086165160" at="41,28,42,44" concept="9" />
+      <node id="4600337039047671643" at="9,0,12,0" concept="1" trace="ViewId#(Ljava/lang/String;)V" />
+      <node id="4600337039047670198" at="14,35,17,5" concept="6" />
+      <node id="4600337039047670204" at="17,5,20,5" concept="6" />
+      <node id="4600337039047670236" at="22,29,25,5" concept="6" />
+      <node id="4600337039047703449" at="36,0,39,0" concept="7" trace="getId#()Ljava/lang/String;" />
+      <node id="8171045391086165156" at="40,0,44,0" concept="7" trace="toString#()Ljava/lang/String;" />
+      <node id="4600337039047670257" at="29,0,35,0" concept="7" trace="hashCode#()I" />
+      <node id="4600337039047670194" at="13,0,29,0" concept="7" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="4600337039047671647" at="9,28,10,14" />
+      <scope id="4600337039047670199" at="15,20,16,18" />
+      <scope id="4600337039047670205" at="18,55,19,19" />
+      <scope id="4600337039047670237" at="23,84,24,19" />
+      <scope id="4600337039047703452" at="36,25,37,16" />
+      <scope id="8171045391086165159" at="41,28,42,44" />
+      <scope id="4600337039047671643" at="9,0,12,0">
+        <var name="id" id="4600337039047671650" />
+      </scope>
+      <scope id="4600337039047670260" at="30,25,33,18">
+        <var name="result" id="4600337039047670263" />
+      </scope>
+      <scope id="4600337039047703449" at="36,0,39,0" />
+      <scope id="8171045391086165156" at="40,0,44,0" />
+      <scope id="4600337039047670257" at="29,0,35,0" />
+      <scope id="4600337039047670197" at="14,35,27,16">
+        <var name="that" id="4600337039047670221" />
+      </scope>
+      <scope id="4600337039047670194" at="13,0,29,0">
+        <var name="o" id="4600337039047670226" />
+      </scope>
+      <unit id="4600337039047670034" at="6,0,45,0" name="com.mbeddr.mpsutil.projectview.runtime.ViewId" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/4600337039047675175">
+    <file name="ElementId.java">
+      <node id="4600337039047675334" at="7,0,8,0" concept="4" trace="myViewId" />
+      <node id="4600337039047675282" at="8,0,9,0" concept="4" trace="myId" />
+      <node id="4600337039047678147" at="10,52,11,17" concept="3" />
+      <node id="4600337039047678157" at="11,17,12,25" concept="3" />
+      <node id="4600337039047675418" at="17,20,18,18" concept="9" />
+      <node id="4600337039047675424" at="20,55,21,19" concept="9" />
+      <node id="4600337039047675437" at="22,5,23,0" concept="11" />
+      <node id="4600337039047675438" at="23,0,24,35" concept="8" />
+      <node id="4600337039047675456" at="25,84,26,19" concept="9" />
+      <node id="4600337039047675478" at="28,89,29,19" concept="9" />
+      <node id="4600337039047675492" at="30,5,31,0" concept="11" />
+      <node id="4600337039047675493" at="31,0,32,16" concept="9" />
+      <node id="4600337039047675500" at="36,25,37,19" concept="8" />
+      <node id="4600337039047675513" at="37,19,38,82" concept="3" />
+      <node id="4600337039047675530" at="38,82,39,85" concept="3" />
+      <node id="4600337039047675544" at="39,85,40,18" concept="9" />
+      <node id="4600337039047697455" at="43,25,44,16" concept="9" />
+      <node id="4600337039047697461" at="47,29,48,20" concept="9" />
+      <node id="8171045391086161526" at="52,28,53,74" concept="9" />
+      <node id="4600337039047675416" at="16,35,19,5" concept="6" />
+      <node id="4600337039047675422" at="19,5,22,5" concept="6" />
+      <node id="4600337039047675454" at="24,35,27,5" concept="6" />
+      <node id="4600337039047675476" at="27,5,30,5" concept="6" />
+      <node id="4600337039047697451" at="43,0,46,0" concept="7" trace="getId#()Ljava/lang/String;" />
+      <node id="4600337039047697457" at="47,0,50,0" concept="7" trace="getViewId#()Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;" />
+      <node id="4600337039047678139" at="10,0,14,0" concept="1" trace="ElementId#(Ljava/lang/String;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)V" />
+      <node id="8171045391086161522" at="51,0,55,0" concept="7" trace="toString#()Ljava/lang/String;" />
+      <node id="4600337039047675495" at="35,0,42,0" concept="7" trace="hashCode#()I" />
+      <node id="4600337039047675412" at="15,0,34,0" concept="7" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="4600337039047675417" at="17,20,18,18" />
+      <scope id="4600337039047675423" at="20,55,21,19" />
+      <scope id="4600337039047675455" at="25,84,26,19" />
+      <scope id="4600337039047675477" at="28,89,29,19" />
+      <scope id="4600337039047697454" at="43,25,44,16" />
+      <scope id="4600337039047697460" at="47,29,48,20" />
+      <scope id="8171045391086161525" at="52,28,53,74" />
+      <scope id="4600337039047678143" at="10,52,12,25" />
+      <scope id="4600337039047697451" at="43,0,46,0" />
+      <scope id="4600337039047697457" at="47,0,50,0" />
+      <scope id="4600337039047678139" at="10,0,14,0">
+        <var name="myId1" id="4600337039047678146" />
+        <var name="myViewId1" id="4600337039047678156" />
+      </scope>
+      <scope id="4600337039047675498" at="36,25,40,18">
+        <var name="result" id="4600337039047675501" />
+      </scope>
+      <scope id="8171045391086161522" at="51,0,55,0" />
+      <scope id="4600337039047675495" at="35,0,42,0" />
+      <scope id="4600337039047675415" at="16,35,32,16">
+        <var name="that" id="4600337039047675439" />
+      </scope>
+      <scope id="4600337039047675412" at="15,0,34,0">
+        <var name="o" id="4600337039047675444" />
+      </scope>
+      <unit id="4600337039047675175" at="6,0,56,0" name="com.mbeddr.mpsutil.projectview.runtime.ElementId" />
+    </file>
+  </root>
+  <root nodeRef="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)/4600337039047714419">
+    <file name="ViewElement.java">
+      <node id="4600337039047715291" at="21,0,22,0" concept="4" trace="myObject" />
+      <node id="4600337039047716205" at="22,0,23,0" concept="4" trace="myParent" />
+      <node id="1077839300347765920" at="23,0,24,0" concept="4" trace="myDescriptorId" />
+      <node id="1116826013550878013" at="24,0,25,0" concept="4" trace="myProject" />
+      <node id="650292813700855665" at="25,0,26,0" concept="4" trace="myInheritanceHierachy" />
+      <node id="650292813703660874" at="26,0,27,0" concept="4" trace="myFullHierachy" />
+      <node id="2615143534964379912" at="27,0,28,0" concept="4" trace="myContextView" />
+      <node id="4600337039047715629" at="29,143,30,22" concept="3" />
+      <node id="1116826013550878817" at="30,22,31,24" concept="3" />
+      <node id="8171045391088412534" at="31,24,32,22" concept="3" />
+      <node id="1077839300347766248" at="32,22,33,34" concept="3" />
+      <node id="2615143534964384789" at="33,34,34,32" concept="3" />
+      <node id="650292813703669645" at="34,32,35,0" concept="11" />
+      <node id="650292813703666576" at="36,33,37,134" concept="3" />
+      <node id="650292813700867371" at="39,58,40,84" concept="9" />
+      <node id="429822097576020791" at="43,12,44,86" concept="3" />
+      <node id="429822097576029485" at="44,86,45,93" concept="3" />
+      <node id="2615143534964626803" at="49,29,50,25" concept="9" />
+      <node id="4600337039047715516" at="53,24,54,20" concept="9" />
+      <node id="650292813703680451" at="57,47,58,117" concept="8" />
+      <node id="650292813701999035" at="60,56,61,46" concept="9" />
+      <node id="1077839300347766729" at="63,9,64,22" concept="9" />
+      <node id="1077839300347767392" at="66,29,67,38" concept="9" />
+      <node id="1077839300347769609" at="69,5,70,16" concept="9" />
+      <node id="4600337039047716636" at="73,34,74,20" concept="9" />
+      <node id="4600337039048028659" at="77,45,78,22" concept="3" />
+      <node id="5283252468077186577" at="81,38,82,26" concept="9" />
+      <node id="1116826013550846335" at="85,49,86,65" concept="9" />
+      <node id="5283252468077193007" at="89,25,90,96" concept="9" />
+      <node id="1116826013550883542" at="93,31,94,21" concept="9" />
+      <node id="8171045391089378694" at="98,92,99,47" concept="8" />
+      <node id="8171045391089378703" at="100,26,101,21" concept="9" />
+      <node id="8171045391089378712" at="103,5,104,16" concept="9" />
+      <node id="8171045391087927171" at="108,92,109,43" concept="8" />
+      <node id="8171045391087927780" at="110,25,111,20" concept="9" />
+      <node id="8171045391087929820" at="113,5,114,16" concept="9" />
+      <node id="3107856702386833268" at="118,51,119,73" concept="8" />
+      <node id="2434942550556088954" at="120,92,121,75" concept="8" />
+      <node id="3107856702386865718" at="122,31,123,62" concept="3" />
+      <node id="2434942550556088969" at="125,5,126,17" concept="9" />
+      <node id="8171045391089364576" at="130,92,131,61" concept="8" />
+      <node id="8171045391089364585" at="132,32,133,27" concept="9" />
+      <node id="8171045391089364594" at="135,5,136,16" concept="9" />
+      <node id="1885109890162820656" at="140,92,141,61" concept="8" />
+      <node id="1885109890162820665" at="142,28,143,23" concept="9" />
+      <node id="1885109890162820671" at="145,5,146,16" concept="9" />
+      <node id="422925152298200457" at="150,92,151,71" concept="8" />
+      <node id="422925152298200467" at="152,34,153,29" concept="9" />
+      <node id="422925152298200473" at="155,5,156,16" concept="9" />
+      <node id="650292813702136018" at="159,68,160,33" concept="9" />
+      <node id="7661812111947929235" at="163,50,164,22" concept="8" />
+      <node id="1655551591857973911" at="165,65,166,153" concept="3" />
+      <node id="7661812111947929245" at="169,66,170,98" concept="9" />
+      <node id="1930294891171315881" at="173,5,174,18" concept="9" />
+      <node id="3765759716676086276" at="177,65,178,122" concept="8" />
+      <node id="650292813702146934" at="178,122,179,0" concept="11" />
+      <node id="650292813702232018" at="181,58,182,26" concept="9" />
+      <node id="8171045391085929489" at="186,56,187,124" concept="9" />
+      <node id="8561578538984961675" at="193,92,194,47" concept="8" />
+      <node id="8561578538984961684" at="195,25,196,20" concept="9" />
+      <node id="8561578538984961690" at="198,5,199,16" concept="9" />
+      <node id="797207570551370322" at="203,92,204,49" concept="8" />
+      <node id="797207570551370331" at="205,26,206,21" concept="9" />
+      <node id="797207570551370337" at="208,5,209,17" concept="9" />
+      <node id="6097853963019825255" at="213,92,214,57" concept="8" />
+      <node id="6097853963019825264" at="215,31,216,26" concept="9" />
+      <node id="6097853963019825270" at="218,5,219,16" concept="9" />
+      <node id="650292813700866862" at="39,0,42,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Boolean;" />
+      <node id="429822097576019561" at="43,10,46,5" concept="0" />
+      <node id="2615143534964606081" at="49,0,52,0" concept="7" trace="getViewId#()Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;" />
+      <node id="4600337039047715384" at="53,0,56,0" concept="7" trace="getObject#()null" />
+      <node id="650292813701998761" at="60,0,63,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Boolean;" />
+      <node id="1077839300347767154" at="65,12,68,7" concept="6" />
+      <node id="4600337039047716632" at="73,0,76,0" concept="7" trace="getParent#()Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;" />
+      <node id="4600337039048028655" at="77,0,80,0" concept="7" trace="setParent#(Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;)V" />
+      <node id="5283252468077186573" at="81,0,84,0" concept="7" trace="getDescriptorId#()Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="1116826013550843655" at="85,0,88,0" concept="7" trace="getDescriptor#()Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;" />
+      <node id="5283252468077190188" at="89,0,92,0" concept="7" trace="getId#()Ljava/lang/String;" />
+      <node id="1116826013550879508" at="93,0,96,0" concept="7" trace="getProject#()Ljetbrains/mps/project/Project;" />
+      <node id="8171045391089378701" at="99,47,102,7" concept="6" />
+      <node id="8171045391087927475" at="109,43,112,7" concept="6" />
+      <node id="2434942550556088961" at="121,75,124,7" concept="6" />
+      <node id="8171045391089364583" at="131,61,134,7" concept="6" />
+      <node id="1885109890162820663" at="141,61,144,7" concept="6" />
+      <node id="422925152298200465" at="151,71,154,7" concept="6" />
+      <node id="650292813702136013" at="159,0,162,0" concept="7" trace="getInheritanceHierachy#()Ljava/lang/Iterable;" />
+      <node id="7661812111947929243" at="169,0,172,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Iterable;" />
+      <node id="650292813702232016" at="181,0,184,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;" />
+      <node id="3765759716676086295" at="186,0,189,0" concept="7" trace="invoke#(Lcom/mbeddr/mpsutil/projectview/runtime/IViewElementDescriptor;)Ljava/lang/Boolean;" />
+      <node id="8561578538984961682" at="194,47,197,7" concept="6" />
+      <node id="797207570551370329" at="204,49,207,7" concept="6" />
+      <node id="6097853963019825262" at="214,57,217,7" concept="6" />
+      <node id="1077839300347767012" at="65,10,69,5" concept="0" />
+      <node id="650292813700858693" at="37,134,42,18" concept="3" />
+      <node id="1655551591857967604" at="167,12,172,10" concept="3" />
+      <node id="650292813702232006" at="179,0,184,8" concept="8" />
+      <node id="3765759716676086307" at="184,8,189,7" concept="9" />
+      <node id="8171045391089378691" at="97,28,103,5" concept="5" />
+      <node id="8171045391087922262" at="107,25,113,5" concept="5" />
+      <node id="2434942550556088951" at="119,73,125,5" concept="5" />
+      <node id="8171045391089364573" at="129,36,135,5" concept="5" />
+      <node id="1885109890162820653" at="139,40,145,5" concept="5" />
+      <node id="422925152298200454" at="149,42,155,5" concept="5" />
+      <node id="1655551591857967464" at="167,10,173,5" concept="0" />
+      <node id="8561578538984961672" at="192,29,198,5" concept="5" />
+      <node id="797207570551370319" at="202,30,208,5" concept="5" />
+      <node id="6097853963019825252" at="212,33,218,5" concept="5" />
+      <node id="5283252468077277459" at="97,0,106,0" concept="7" trace="getLabel#()Ljava/lang/String;" />
+      <node id="8171045391087453290" at="107,0,116,0" concept="7" trace="getIcon#()Ljavax/swing/Icon;" />
+      <node id="8171045391088941326" at="129,0,138,0" concept="7" trace="getActionGroupId#()Ljava/lang/String;" />
+      <node id="1885109890162820649" at="139,0,148,0" concept="7" trace="getFolders#()Ljava/lang/Iterable;" />
+      <node id="422925152298145803" at="149,0,158,0" concept="7" trace="getFolderActionGroupId#()Ljava/lang/String;" />
+      <node id="1655551591857960122" at="164,22,173,5" concept="6" />
+      <node id="8561578538984637405" at="192,0,201,0" concept="7" trace="loadLazy#()Z" />
+      <node id="797207570551370315" at="202,0,211,0" concept="7" trace="loadAsync#()Z" />
+      <node id="6097853963019825248" at="212,0,221,0" concept="7" trace="isAutoUpdate#()Z" />
+      <node id="429822097576014797" at="35,0,46,5" concept="6" />
+      <node id="1077839300347754633" at="58,117,69,5" concept="6" />
+      <node id="2434942550556082203" at="117,0,128,0" concept="7" trace="getTextAttributes#()Lcom/intellij/ui/SimpleTextAttributes;" />
+      <node id="1930294891171295735" at="163,0,176,0" concept="7" trace="getPossibleDescendantTypes#()Ljava/util/Set;" />
+      <node id="3765759716676086313" at="177,0,191,0" concept="7" trace="getChildDescriptors#()Ljava/lang/Iterable;" />
+      <node id="1077839300347751066" at="57,0,72,0" concept="7" trace="getObject#(Lcom/mbeddr/mpsutil/projectview/runtime/ElementId;)Ljava/lang/Object;" />
+      <node id="4600337039047715621" at="29,0,48,0" concept="1" trace="ViewElement#(nullLcom/mbeddr/mpsutil/projectview/runtime/ElementId;Ljetbrains/mps/project/Project;Lcom/mbeddr/mpsutil/projectview/runtime/ViewElement;Lcom/mbeddr/mpsutil/projectview/runtime/ViewId;)V" />
+      <scope id="650292813700866863" at="39,58,40,84" />
+      <scope id="2615143534964606085" at="49,29,50,25" />
+      <scope id="4600337039047715388" at="53,24,54,20" />
+      <scope id="650292813701998762" at="60,56,61,46" />
+      <scope id="1077839300347754634" at="63,9,64,22" />
+      <scope id="1077839300347767155" at="66,29,67,38" />
+      <scope id="4600337039047716635" at="73,34,74,20" />
+      <scope id="4600337039048028658" at="77,45,78,22" />
+      <scope id="5283252468077186576" at="81,38,82,26" />
+      <scope id="1116826013550843659" at="85,49,86,65" />
+      <scope id="5283252468077190192" at="89,25,90,96" />
+      <scope id="1116826013550879512" at="93,31,94,21" />
+      <scope id="8171045391089378702" at="100,26,101,21" />
+      <scope id="8171045391087927477" at="110,25,111,20" />
+      <scope id="2434942550556088962" at="122,31,123,62" />
+      <scope id="8171045391089364584" at="132,32,133,27" />
+      <scope id="1885109890162820664" at="142,28,143,23" />
+      <scope id="422925152298200466" at="152,34,153,29" />
+      <scope id="650292813702136017" at="159,68,160,33" />
+      <scope id="1655551591857960124" at="165,65,166,153" />
+      <scope id="7661812111947929244" at="169,66,170,98" />
+      <scope id="650292813702232017" at="181,58,182,26" />
+      <scope id="3765759716676086296" at="186,56,187,124" />
+      <scope id="8561578538984961683" at="195,25,196,20" />
+      <scope id="797207570551370330" at="205,26,206,21" />
+      <scope id="6097853963019825263" at="215,31,216,26" />
+      <scope id="429822097576019562" at="43,12,45,93" />
+      <scope id="650292813700866862" at="39,0,42,0">
+        <var name="it" id="650292813700866862" />
+      </scope>
+      <scope id="2615143534964606081" at="49,0,52,0" />
+      <scope id="4600337039047715384" at="53,0,56,0" />
+      <scope id="650292813701998761" at="60,0,63,0">
+        <var name="it" id="650292813701998761" />
+      </scope>
+      <scope id="1077839300347767013" at="65,12,68,7" />
+      <scope id="4600337039047716632" at="73,0,76,0" />
+      <scope id="4600337039048028655" at="77,0,80,0">
+        <var name="parent" id="4600337039048028662" />
+      </scope>
+      <scope id="5283252468077186573" at="81,0,84,0" />
+      <scope id="1116826013550843655" at="85,0,88,0" />
+      <scope id="5283252468077190188" at="89,0,92,0" />
+      <scope id="1116826013550879508" at="93,0,96,0" />
+      <scope id="650292813702136013" at="159,0,162,0" />
+      <scope id="7661812111947929243" at="169,0,172,0">
+        <var name="it" id="7661812111947929243" />
+      </scope>
+      <scope id="650292813702232016" at="181,0,184,0">
+        <var name="it" id="650292813702232016" />
+      </scope>
+      <scope id="3765759716676086295" at="186,0,189,0">
+        <var name="it" id="3765759716676086295" />
+      </scope>
+      <scope id="8171045391089378693" at="98,92,102,7">
+        <var name="label" id="8171045391089378695" />
+      </scope>
+      <scope id="8171045391087922266" at="108,92,112,7">
+        <var name="icon" id="8171045391087927172" />
+      </scope>
+      <scope id="2434942550556088953" at="120,92,124,7">
+        <var name="attributes" id="2434942550556088955" />
+      </scope>
+      <scope id="8171045391089364575" at="130,92,134,7">
+        <var name="actionGroup" id="8171045391089364577" />
+      </scope>
+      <scope id="1885109890162820655" at="140,92,144,7">
+        <var name="folders" id="1885109890162820657" />
+      </scope>
+      <scope id="422925152298200456" at="150,92,154,7">
+        <var name="actionGroupId" id="422925152298200458" />
+      </scope>
+      <scope id="8561578538984961674" at="193,92,197,7">
+        <var name="lazy" id="8561578538984961676" />
+      </scope>
+      <scope id="797207570551370321" at="203,92,207,7">
+        <var name="async" id="797207570551370323" />
+      </scope>
+      <scope id="6097853963019825254" at="213,92,217,7">
+        <var name="autoUpdate" id="6097853963019825256" />
+      </scope>
+      <scope id="1655551591857967465" at="167,12,172,10" />
+      <scope id="429822097576014799" at="36,33,42,18" />
+      <scope id="8171045391089378691" at="97,28,103,5">
+        <var name="descriptor" id="8171045391089378692" />
+      </scope>
+      <scope id="8171045391087922262" at="107,25,113,5">
+        <var name="descriptor" id="8171045391087922264" />
+      </scope>
+      <scope id="2434942550556088951" at="119,73,125,5">
+        <var name="descriptor" id="2434942550556088952" />
+      </scope>
+      <scope id="8171045391089364573" at="129,36,135,5">
+        <var name="descriptor" id="8171045391089364574" />
+      </scope>
+      <scope id="1885109890162820653" at="139,40,145,5">
+        <var name="descriptor" id="1885109890162820654" />
+      </scope>
+      <scope id="422925152298200454" at="149,42,155,5">
+        <var name="descriptor" id="422925152298200455" />
+      </scope>
+      <scope id="8561578538984961672" at="192,29,198,5">
+        <var name="descriptor" id="8561578538984961673" />
+      </scope>
+      <scope id="797207570551370319" at="202,30,208,5">
+        <var name="descriptor" id="797207570551370320" />
+      </scope>
+      <scope id="6097853963019825252" at="212,33,218,5">
+        <var name="descriptor" id="6097853963019825253" />
+      </scope>
+      <scope id="5283252468077277463" at="97,28,104,16" />
+      <scope id="8171045391087453293" at="107,25,114,16" />
+      <scope id="8171045391088941330" at="129,36,136,16" />
+      <scope id="1885109890162820652" at="139,40,146,16" />
+      <scope id="422925152298145807" at="149,42,156,16" />
+      <scope id="8561578538984637409" at="192,29,199,16" />
+      <scope id="797207570551370318" at="202,30,209,17" />
+      <scope id="6097853963019825251" at="212,33,219,16" />
+      <scope id="2434942550556082206" at="118,51,126,17">
+        <var name="attrs" id="3107856702386833269" />
+      </scope>
+      <scope id="5283252468077277459" at="97,0,106,0" />
+      <scope id="8171045391087453290" at="107,0,116,0" />
+      <scope id="8171045391088941326" at="129,0,138,0" />
+      <scope id="1885109890162820649" at="139,0,148,0" />
+      <scope id="422925152298145803" at="149,0,158,0" />
+      <scope id="8561578538984637405" at="192,0,201,0" />
+      <scope id="797207570551370315" at="202,0,211,0" />
+      <scope id="6097853963019825248" at="212,0,221,0" />
+      <scope id="2434942550556082203" at="117,0,128,0" />
+      <scope id="1930294891171295739" at="163,50,174,18">
+        <var name="result" id="7661812111947929236" />
+      </scope>
+      <scope id="3765759716676086267" at="177,65,189,7">
+        <var name="concreteDescriptors" id="3765759716676086277" />
+        <var name="hierachy" id="650292813702232007" />
+      </scope>
+      <scope id="1077839300347751070" at="57,47,70,16">
+        <var name="hierachy" id="650292813703680454" />
+      </scope>
+      <scope id="1930294891171295735" at="163,0,176,0" />
+      <scope id="3765759716676086313" at="177,0,191,0" />
+      <scope id="1077839300347751066" at="57,0,72,0">
+        <var name="id" id="1077839300347751418" />
+      </scope>
+      <scope id="4600337039047715625" at="29,143,46,5" />
+      <scope id="4600337039047715621" at="29,0,48,0">
+        <var name="contextView" id="2615143534964130377" />
+        <var name="descriptorId" id="1077839300347766130" />
+        <var name="object" id="4600337039047715628" />
+        <var name="parent" id="8171045391088412302" />
+        <var name="project" id="1116826013550877246" />
+      </scope>
+      <unit id="650292813700866862" at="38,78,42,7" name="com.mbeddr.mpsutil.projectview.runtime.ViewElement$1" />
+      <unit id="650292813701998761" at="59,48,63,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewElement$2" />
+      <unit id="7661812111947929243" at="168,126,172,7" name="com.mbeddr.mpsutil.projectview.runtime.ViewElement$3" />
+      <unit id="650292813702232016" at="180,156,184,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewElement$4" />
+      <unit id="3765759716676086295" at="185,64,189,5" name="com.mbeddr.mpsutil.projectview.runtime.ViewElement$5" />
+      <unit id="4600337039047714419" at="20,0,222,0" name="com.mbeddr.mpsutil.projectview.runtime.ViewElement" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-3t0zfydsh3tvy320w4gkcsatki69m0z">
+  <files names="CellModel_BooleanText_Editor.java:CellModel_BooleanText_EditorBuilder_a.java:CellModel_BooleanText_InspectorBuilder_a.java:CellModel_Checkbox_Editor.java:CellModel_Checkbox_EditorBuilder_a.java:CellModel_Checkbox_InspectorBuilder_a.java:CheckboxDefaultIcons_Editor.java:CheckboxDefaultIcons_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:StubCellModel_BooleanText_Editor.java:StubCellModel_BooleanText_EditorBuilder_a.java:StubCellModel_BooleanText_SubstituteMenu.java:StubCellModel_Checkbox_Editor.java:StubCellModel_Checkbox_EditorBuilder_a.java:StubCellModel_Checkbox_SubstituteMenu.java:propertyCells.java" />
+</product>
+

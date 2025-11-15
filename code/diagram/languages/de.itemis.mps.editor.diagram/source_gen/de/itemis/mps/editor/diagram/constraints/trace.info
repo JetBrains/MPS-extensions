@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,73,0" name="de.itemis.mps.editor.diagram.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/1981294357059897177">
+    <file name="ChildRolePaletteSource_Constraints.java">
+      <node id="1981294357059897177" at="29,47,30,46" concept="9" />
+      <node id="1981294357059897331" at="41,63,42,143" concept="5" />
+      <node id="6646476627295591955" at="45,80,46,213" concept="4" />
+      <node id="6646476627295591980" at="48,50,49,77" concept="5" />
+      <node id="1981294357059897177" at="55,6,56,131" concept="4" />
+      <node id="1981294357059897331" at="56,131,57,42" concept="1" />
+      <node id="1981294357059897177" at="57,42,58,22" concept="5" />
+      <node id="1981294357059897177" at="62,0,63,0" concept="7" trace="ChildRolePaletteSource$tA" />
+      <node id="1981294357059897177" at="63,0,64,0" concept="7" trace="AbstractComponent$YR" />
+      <node id="1981294357059897177" at="67,0,68,0" concept="7" trace="linkDeclaration$IVMI" />
+      <node id="1981294357059897177" at="71,0,72,0" concept="7" trace="role$Nsjf" />
+      <node id="1981294357059897177" at="29,0,32,0" concept="0" trace="ChildRolePaletteSource_Constraints#()V" />
+      <node id="6646476627295591974" at="48,0,51,0" concept="3" trace="getName#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1981294357059897331" at="40,0,44,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6646476627295591966" at="46,213,51,14" concept="5" />
+      <node id="1981294357059897331" at="44,0,53,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1981294357059897331" at="38,56,53,10" concept="5" />
+      <node id="1981294357059897331" at="36,0,55,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1981294357059897331" at="34,90,55,6" concept="4" />
+      <node id="1981294357059897177" at="33,0,60,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1981294357059897177" at="29,47,30,46" />
+      <scope id="1981294357059897331" at="41,63,42,143" />
+      <scope id="6646476627295591979" at="48,50,49,77" />
+      <scope id="1981294357059897177" at="29,0,32,0" />
+      <scope id="6646476627295591974" at="48,0,51,0">
+        <var name="child" id="6646476627295591977" />
+      </scope>
+      <scope id="1981294357059897331" at="40,0,44,0" />
+      <scope id="1981294357059897331" at="45,80,51,14">
+        <var name="concept" id="6646476627295591956" />
+      </scope>
+      <scope id="1981294357059897331" at="44,0,53,0">
+        <var name="_context" id="1981294357059897331" />
+      </scope>
+      <scope id="1981294357059897331" at="38,56,53,10" />
+      <scope id="1981294357059897331" at="36,0,55,0" />
+      <scope id="1981294357059897177" at="34,90,58,22">
+        <var name="d0" id="1981294357059897331" />
+        <var name="references" id="1981294357059897177" />
+      </scope>
+      <scope id="1981294357059897177" at="33,0,60,0" />
+      <unit id="1981294357059897177" at="66,0,69,0" name="de.itemis.mps.editor.diagram.constraints.ChildRolePaletteSource_Constraints$LINKS" />
+      <unit id="1981294357059897177" at="70,0,73,0" name="de.itemis.mps.editor.diagram.constraints.ChildRolePaletteSource_Constraints$PROPS" />
+      <unit id="6646476627295591969" at="47,23,51,13" name="de.itemis.mps.editor.diagram.constraints.ChildRolePaletteSource_Constraints$1$1$1" />
+      <unit id="1981294357059897177" at="61,0,65,0" name="de.itemis.mps.editor.diagram.constraints.ChildRolePaletteSource_Constraints$CONCEPTS" />
+      <unit id="1981294357059897331" at="39,19,53,9" name="de.itemis.mps.editor.diagram.constraints.ChildRolePaletteSource_Constraints$1$1" />
+      <unit id="1981294357059897331" at="35,48,55,5" name="de.itemis.mps.editor.diagram.constraints.ChildRolePaletteSource_Constraints$1" />
+      <unit id="1981294357059897177" at="28,0,74,0" name="de.itemis.mps.editor.diagram.constraints.ChildRolePaletteSource_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/2630243574829168988">
+    <file name="ShapeNodeExpression_Constraints.java">
+      <node id="2630243574829168988" at="21,44,22,43" concept="9" />
+      <node id="2630243574829168988" at="29,127,30,128" concept="4" />
+      <node id="2630243574829168988" at="30,128,31,0" concept="6" />
+      <node id="2630243574829168988" at="32,55,33,71" concept="1" />
+      <node id="2630243574829168988" at="34,9,35,0" concept="6" />
+      <node id="2630243574829168988" at="35,0,36,22" concept="5" />
+      <node id="1513752667327150821" at="40,128,41,98" concept="5" />
+      <node id="2630243574829168988" at="43,0,44,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="2630243574829168988" at="46,0,47,0" concept="7" trace="ShapeNodeExpression$wO" />
+      <node id="2630243574829168988" at="47,0,48,0" concept="7" trace="IShape$4E" />
+      <node id="2630243574829168988" at="21,0,24,0" concept="0" trace="ShapeNodeExpression_Constraints#()V" />
+      <node id="2630243574829168988" at="31,0,34,9" concept="2" />
+      <node id="2630243574829168988" at="40,0,43,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="2630243574829168988" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="2630243574829168988" at="26,103,38,6" concept="5" />
+      <node id="2630243574829168988" at="25,0,40,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="2630243574829168988" at="21,44,22,43" />
+      <scope id="2630243574829168988" at="32,55,33,71" />
+      <scope id="1513752667327150820" at="40,128,41,98" />
+      <scope id="2630243574829168988" at="21,0,24,0" />
+      <scope id="2630243574829168988" at="40,0,43,0">
+        <var name="childConcept" id="2630243574829168988" />
+        <var name="link" id="2630243574829168988" />
+        <var name="node" id="2630243574829168988" />
+        <var name="parentNode" id="2630243574829168988" />
+      </scope>
+      <scope id="2630243574829168988" at="29,127,36,22">
+        <var name="result" id="2630243574829168988" />
+      </scope>
+      <scope id="2630243574829168988" at="28,0,38,0">
+        <var name="checkingNodeContext" id="2630243574829168988" />
+        <var name="context" id="2630243574829168988" />
+      </scope>
+      <scope id="2630243574829168988" at="26,103,38,6" />
+      <scope id="2630243574829168988" at="25,0,40,0" />
+      <unit id="2630243574829168988" at="45,0,49,0" name="de.itemis.mps.editor.diagram.constraints.ShapeNodeExpression_Constraints$CONCEPTS" />
+      <unit id="2630243574829168988" at="27,15,38,5" name="de.itemis.mps.editor.diagram.constraints.ShapeNodeExpression_Constraints$1" />
+      <unit id="2630243574829168988" at="20,0,50,0" name="de.itemis.mps.editor.diagram.constraints.ShapeNodeExpression_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/3155126767689025732">
+    <file name="Content_Childs_Constraints.java">
+      <node id="3155126767689025732" at="28,39,29,38" concept="9" />
+      <node id="3155126767689025794" at="40,63,41,143" concept="5" />
+      <node id="6646476627295591930" at="44,80,45,350" concept="5" />
+      <node id="3155126767689025732" at="49,6,50,131" concept="4" />
+      <node id="3155126767689025794" at="50,131,51,42" concept="1" />
+      <node id="3155126767689025732" at="51,42,52,22" concept="5" />
+      <node id="3155126767689025732" at="56,0,57,0" concept="7" trace="Content_Childs$Sn" />
+      <node id="3155126767689025732" at="57,0,58,0" concept="7" trace="AbstractComponent$YR" />
+      <node id="3155126767689025732" at="61,0,62,0" concept="7" trace="linkDeclaration$lCyA" />
+      <node id="3155126767689025732" at="62,0,63,0" concept="7" trace="conceptDeclaration$HJmJ" />
+      <node id="3155126767689025732" at="28,0,31,0" concept="0" trace="Content_Childs_Constraints#()V" />
+      <node id="3155126767689025794" at="39,0,43,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="3155126767689025794" at="43,0,47,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="3155126767689025794" at="37,56,47,10" concept="5" />
+      <node id="3155126767689025794" at="35,0,49,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="3155126767689025794" at="33,90,49,6" concept="4" />
+      <node id="3155126767689025732" at="32,0,54,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="3155126767689025732" at="28,39,29,38" />
+      <scope id="3155126767689025794" at="40,63,41,143" />
+      <scope id="3155126767689025794" at="44,80,45,350" />
+      <scope id="3155126767689025732" at="28,0,31,0" />
+      <scope id="3155126767689025794" at="39,0,43,0" />
+      <scope id="3155126767689025794" at="43,0,47,0">
+        <var name="_context" id="3155126767689025794" />
+      </scope>
+      <scope id="3155126767689025794" at="37,56,47,10" />
+      <scope id="3155126767689025794" at="35,0,49,0" />
+      <scope id="3155126767689025732" at="33,90,52,22">
+        <var name="d0" id="3155126767689025794" />
+        <var name="references" id="3155126767689025732" />
+      </scope>
+      <scope id="3155126767689025732" at="32,0,54,0" />
+      <unit id="3155126767689025732" at="55,0,59,0" name="de.itemis.mps.editor.diagram.constraints.Content_Childs_Constraints$CONCEPTS" />
+      <unit id="3155126767689025732" at="60,0,64,0" name="de.itemis.mps.editor.diagram.constraints.Content_Childs_Constraints$LINKS" />
+      <unit id="3155126767689025794" at="38,19,47,9" name="de.itemis.mps.editor.diagram.constraints.Content_Childs_Constraints$1$1" />
+      <unit id="3155126767689025794" at="34,48,49,5" name="de.itemis.mps.editor.diagram.constraints.Content_Childs_Constraints$1" />
+      <unit id="3155126767689025732" at="27,0,65,0" name="de.itemis.mps.editor.diagram.constraints.Content_Childs_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/3333801137938762688">
+    <file name="LayeredLayoutConfig_Constraints.java">
+      <node id="3333801137938762688" at="23,44,24,43" concept="9" />
+      <node id="3333801137938762688" at="31,127,32,128" concept="4" />
+      <node id="3333801137938762688" at="32,128,33,0" concept="6" />
+      <node id="3333801137938762688" at="34,55,35,71" concept="1" />
+      <node id="3333801137938762688" at="36,9,37,0" concept="6" />
+      <node id="3333801137938762688" at="37,0,38,22" concept="5" />
+      <node id="3662141892379385905" at="42,128,43,307" concept="5" />
+      <node id="3333801137938762688" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="3333801137938762688" at="48,0,49,0" concept="7" trace="LayeredLayoutConfig$Xm" />
+      <node id="3333801137938762688" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="3333801137938762688" at="50,0,51,0" concept="7" trace="LayeredLayoutAlgorithm$pk" />
+      <node id="3333801137938762688" at="23,0,26,0" concept="0" trace="LayeredLayoutConfig_Constraints#()V" />
+      <node id="3333801137938762688" at="33,0,36,9" concept="2" />
+      <node id="3333801137938762688" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3333801137938762688" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3333801137938762688" at="28,103,40,6" concept="5" />
+      <node id="3333801137938762688" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="3333801137938762688" at="23,44,24,43" />
+      <scope id="3333801137938762688" at="34,55,35,71" />
+      <scope id="3333801137938762750" at="42,128,43,307" />
+      <scope id="3333801137938762688" at="23,0,26,0" />
+      <scope id="3333801137938762688" at="42,0,45,0">
+        <var name="childConcept" id="3333801137938762688" />
+        <var name="link" id="3333801137938762688" />
+        <var name="node" id="3333801137938762688" />
+        <var name="parentNode" id="3333801137938762688" />
+      </scope>
+      <scope id="3333801137938762688" at="31,127,38,22">
+        <var name="result" id="3333801137938762688" />
+      </scope>
+      <scope id="3333801137938762688" at="30,0,40,0">
+        <var name="checkingNodeContext" id="3333801137938762688" />
+        <var name="context" id="3333801137938762688" />
+      </scope>
+      <scope id="3333801137938762688" at="28,103,40,6" />
+      <scope id="3333801137938762688" at="27,0,42,0" />
+      <unit id="3333801137938762688" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.LayeredLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="3333801137938762688" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.LayeredLayoutConfig_Constraints$1" />
+      <unit id="3333801137938762688" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.LayeredLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/3454709602156596710">
+    <file name="ShapeParameterReference_Constraints.java">
+      <node id="3454709602156596710" at="26,48,27,47" concept="9" />
+      <node id="3454709602156596762" at="38,63,39,143" concept="5" />
+      <node id="6646476627295591917" at="42,80,43,196" concept="5" />
+      <node id="3454709602156596710" at="47,6,48,131" concept="4" />
+      <node id="3454709602156596762" at="48,131,49,42" concept="1" />
+      <node id="3454709602156596710" at="49,42,50,22" concept="5" />
+      <node id="3454709602156596710" at="54,0,55,0" concept="7" trace="ShapeParameterReference$IM" />
+      <node id="3454709602156596710" at="55,0,56,0" concept="7" trace="ShapeDefinition$Nc" />
+      <node id="3454709602156596710" at="59,0,60,0" concept="7" trace="parameter$D4tN" />
+      <node id="3454709602156596710" at="60,0,61,0" concept="7" trace="parameters$aRHZ" />
+      <node id="3454709602156596710" at="26,0,29,0" concept="0" trace="ShapeParameterReference_Constraints#()V" />
+      <node id="3454709602156596762" at="37,0,41,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="3454709602156596762" at="41,0,45,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="3454709602156596762" at="35,56,45,10" concept="5" />
+      <node id="3454709602156596762" at="33,0,47,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="3454709602156596762" at="31,90,47,6" concept="4" />
+      <node id="3454709602156596710" at="30,0,52,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="3454709602156596710" at="26,48,27,47" />
+      <scope id="3454709602156596762" at="38,63,39,143" />
+      <scope id="3454709602156596762" at="42,80,43,196" />
+      <scope id="3454709602156596710" at="26,0,29,0" />
+      <scope id="3454709602156596762" at="37,0,41,0" />
+      <scope id="3454709602156596762" at="41,0,45,0">
+        <var name="_context" id="3454709602156596762" />
+      </scope>
+      <scope id="3454709602156596762" at="35,56,45,10" />
+      <scope id="3454709602156596762" at="33,0,47,0" />
+      <scope id="3454709602156596710" at="31,90,50,22">
+        <var name="d0" id="3454709602156596762" />
+        <var name="references" id="3454709602156596710" />
+      </scope>
+      <scope id="3454709602156596710" at="30,0,52,0" />
+      <unit id="3454709602156596710" at="53,0,57,0" name="de.itemis.mps.editor.diagram.constraints.ShapeParameterReference_Constraints$CONCEPTS" />
+      <unit id="3454709602156596710" at="58,0,62,0" name="de.itemis.mps.editor.diagram.constraints.ShapeParameterReference_Constraints$LINKS" />
+      <unit id="3454709602156596762" at="36,19,45,9" name="de.itemis.mps.editor.diagram.constraints.ShapeParameterReference_Constraints$1$1" />
+      <unit id="3454709602156596762" at="32,48,47,5" name="de.itemis.mps.editor.diagram.constraints.ShapeParameterReference_Constraints$1" />
+      <unit id="3454709602156596710" at="25,0,63,0" name="de.itemis.mps.editor.diagram.constraints.ShapeParameterReference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/3662141892363313809">
+    <file name="SPOrECompactionLayoutConfig_Constraints.java">
+      <node id="3662141892363313809" at="23,52,24,51" concept="9" />
+      <node id="3662141892363313809" at="31,127,32,128" concept="4" />
+      <node id="3662141892363313809" at="32,128,33,0" concept="6" />
+      <node id="3662141892363313809" at="34,55,35,71" concept="1" />
+      <node id="3662141892363313809" at="36,9,37,0" concept="6" />
+      <node id="3662141892363313809" at="37,0,38,22" concept="5" />
+      <node id="3662141892363313945" at="42,128,43,309" concept="5" />
+      <node id="3662141892363313809" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="3662141892363313809" at="48,0,49,0" concept="7" trace="SPOrECompactionLayoutConfig$X2" />
+      <node id="3662141892363313809" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="3662141892363313809" at="50,0,51,0" concept="7" trace="SPOrECompactionAlgorithm$30" />
+      <node id="3662141892363313809" at="23,0,26,0" concept="0" trace="SPOrECompactionLayoutConfig_Constraints#()V" />
+      <node id="3662141892363313809" at="33,0,36,9" concept="2" />
+      <node id="3662141892363313809" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3662141892363313809" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3662141892363313809" at="28,103,40,6" concept="5" />
+      <node id="3662141892363313809" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="3662141892363313809" at="23,52,24,51" />
+      <scope id="3662141892363313809" at="34,55,35,71" />
+      <scope id="3662141892363313889" at="42,128,43,309" />
+      <scope id="3662141892363313809" at="23,0,26,0" />
+      <scope id="3662141892363313809" at="42,0,45,0">
+        <var name="childConcept" id="3662141892363313809" />
+        <var name="link" id="3662141892363313809" />
+        <var name="node" id="3662141892363313809" />
+        <var name="parentNode" id="3662141892363313809" />
+      </scope>
+      <scope id="3662141892363313809" at="31,127,38,22">
+        <var name="result" id="3662141892363313809" />
+      </scope>
+      <scope id="3662141892363313809" at="30,0,40,0">
+        <var name="checkingNodeContext" id="3662141892363313809" />
+        <var name="context" id="3662141892363313809" />
+      </scope>
+      <scope id="3662141892363313809" at="28,103,40,6" />
+      <scope id="3662141892363313809" at="27,0,42,0" />
+      <unit id="3662141892363313809" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.SPOrECompactionLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="3662141892363313809" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.SPOrECompactionLayoutConfig_Constraints$1" />
+      <unit id="3662141892363313809" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.SPOrECompactionLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/3662141892368106395">
+    <file name="SPOrEOverlapRemovalLayoutConfig_Constraints.java">
+      <node id="3662141892368106395" at="23,56,24,55" concept="9" />
+      <node id="3662141892368106395" at="31,127,32,128" concept="4" />
+      <node id="3662141892368106395" at="32,128,33,0" concept="6" />
+      <node id="3662141892368106395" at="34,55,35,71" concept="1" />
+      <node id="3662141892368106395" at="36,9,37,0" concept="6" />
+      <node id="3662141892368106395" at="37,0,38,22" concept="5" />
+      <node id="3662141892368106609" at="42,128,43,313" concept="5" />
+      <node id="3662141892368106395" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="3662141892368106395" at="48,0,49,0" concept="7" trace="SPOrEOverlapRemovalLayoutConfig$6l" />
+      <node id="3662141892368106395" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="3662141892368106395" at="50,0,51,0" concept="7" trace="SPOrEOverlapRemovalAlgorithm$sv" />
+      <node id="3662141892368106395" at="23,0,26,0" concept="0" trace="SPOrEOverlapRemovalLayoutConfig_Constraints#()V" />
+      <node id="3662141892368106395" at="33,0,36,9" concept="2" />
+      <node id="3662141892368106395" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3662141892368106395" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3662141892368106395" at="28,103,40,6" concept="5" />
+      <node id="3662141892368106395" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="3662141892368106395" at="23,56,24,55" />
+      <scope id="3662141892368106395" at="34,55,35,71" />
+      <scope id="3662141892368106527" at="42,128,43,313" />
+      <scope id="3662141892368106395" at="23,0,26,0" />
+      <scope id="3662141892368106395" at="42,0,45,0">
+        <var name="childConcept" id="3662141892368106395" />
+        <var name="link" id="3662141892368106395" />
+        <var name="node" id="3662141892368106395" />
+        <var name="parentNode" id="3662141892368106395" />
+      </scope>
+      <scope id="3662141892368106395" at="31,127,38,22">
+        <var name="result" id="3662141892368106395" />
+      </scope>
+      <scope id="3662141892368106395" at="30,0,40,0">
+        <var name="checkingNodeContext" id="3662141892368106395" />
+        <var name="context" id="3662141892368106395" />
+      </scope>
+      <scope id="3662141892368106395" at="28,103,40,6" />
+      <scope id="3662141892368106395" at="27,0,42,0" />
+      <unit id="3662141892368106395" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.SPOrEOverlapRemovalLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="3662141892368106395" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.SPOrEOverlapRemovalLayoutConfig_Constraints$1" />
+      <unit id="3662141892368106395" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.SPOrEOverlapRemovalLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/3662141892370214479">
+    <file name="StressLayoutConfig_Constraints.java">
+      <node id="3662141892370214479" at="23,43,24,42" concept="9" />
+      <node id="3662141892370214479" at="31,127,32,128" concept="4" />
+      <node id="3662141892370214479" at="32,128,33,0" concept="6" />
+      <node id="3662141892370214479" at="34,55,35,71" concept="1" />
+      <node id="3662141892370214479" at="36,9,37,0" concept="6" />
+      <node id="3662141892370214479" at="37,0,38,22" concept="5" />
+      <node id="3662141892370214641" at="42,128,43,306" concept="5" />
+      <node id="3662141892370214479" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="3662141892370214479" at="48,0,49,0" concept="7" trace="StressLayoutConfig$I6" />
+      <node id="3662141892370214479" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="3662141892370214479" at="50,0,51,0" concept="7" trace="StressLayoutAlgorithm$mp" />
+      <node id="3662141892370214479" at="23,0,26,0" concept="0" trace="StressLayoutConfig_Constraints#()V" />
+      <node id="3662141892370214479" at="33,0,36,9" concept="2" />
+      <node id="3662141892370214479" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3662141892370214479" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3662141892370214479" at="28,103,40,6" concept="5" />
+      <node id="3662141892370214479" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="3662141892370214479" at="23,43,24,42" />
+      <scope id="3662141892370214479" at="34,55,35,71" />
+      <scope id="3662141892370214559" at="42,128,43,306" />
+      <scope id="3662141892370214479" at="23,0,26,0" />
+      <scope id="3662141892370214479" at="42,0,45,0">
+        <var name="childConcept" id="3662141892370214479" />
+        <var name="link" id="3662141892370214479" />
+        <var name="node" id="3662141892370214479" />
+        <var name="parentNode" id="3662141892370214479" />
+      </scope>
+      <scope id="3662141892370214479" at="31,127,38,22">
+        <var name="result" id="3662141892370214479" />
+      </scope>
+      <scope id="3662141892370214479" at="30,0,40,0">
+        <var name="checkingNodeContext" id="3662141892370214479" />
+        <var name="context" id="3662141892370214479" />
+      </scope>
+      <scope id="3662141892370214479" at="28,103,40,6" />
+      <scope id="3662141892370214479" at="27,0,42,0" />
+      <unit id="3662141892370214479" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.StressLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="3662141892370214479" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.StressLayoutConfig_Constraints$1" />
+      <unit id="3662141892370214479" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.StressLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/3662141892371797493">
+    <file name="ForceLayoutConfig_Constraints.java">
+      <node id="3662141892371797493" at="23,42,24,41" concept="9" />
+      <node id="3662141892371797493" at="31,127,32,128" concept="4" />
+      <node id="3662141892371797493" at="32,128,33,0" concept="6" />
+      <node id="3662141892371797493" at="34,55,35,71" concept="1" />
+      <node id="3662141892371797493" at="36,9,37,0" concept="6" />
+      <node id="3662141892371797493" at="37,0,38,22" concept="5" />
+      <node id="3662141892371797629" at="42,128,43,305" concept="5" />
+      <node id="3662141892371797493" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="3662141892371797493" at="48,0,49,0" concept="7" trace="ForceLayoutConfig$bc" />
+      <node id="3662141892371797493" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="3662141892371797493" at="50,0,51,0" concept="7" trace="ForceLayoutAlgorithm$Ke" />
+      <node id="3662141892371797493" at="23,0,26,0" concept="0" trace="ForceLayoutConfig_Constraints#()V" />
+      <node id="3662141892371797493" at="33,0,36,9" concept="2" />
+      <node id="3662141892371797493" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3662141892371797493" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3662141892371797493" at="28,103,40,6" concept="5" />
+      <node id="3662141892371797493" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="3662141892371797493" at="23,42,24,41" />
+      <scope id="3662141892371797493" at="34,55,35,71" />
+      <scope id="3662141892371797573" at="42,128,43,305" />
+      <scope id="3662141892371797493" at="23,0,26,0" />
+      <scope id="3662141892371797493" at="42,0,45,0">
+        <var name="childConcept" id="3662141892371797493" />
+        <var name="link" id="3662141892371797493" />
+        <var name="node" id="3662141892371797493" />
+        <var name="parentNode" id="3662141892371797493" />
+      </scope>
+      <scope id="3662141892371797493" at="31,127,38,22">
+        <var name="result" id="3662141892371797493" />
+      </scope>
+      <scope id="3662141892371797493" at="30,0,40,0">
+        <var name="checkingNodeContext" id="3662141892371797493" />
+        <var name="context" id="3662141892371797493" />
+      </scope>
+      <scope id="3662141892371797493" at="28,103,40,6" />
+      <scope id="3662141892371797493" at="27,0,42,0" />
+      <unit id="3662141892371797493" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.ForceLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="3662141892371797493" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.ForceLayoutConfig_Constraints$1" />
+      <unit id="3662141892371797493" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.ForceLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/3662141892374603472">
+    <file name="TopdownPackingLayoutConfig_Constraints.java">
+      <node id="3662141892374603472" at="23,51,24,50" concept="9" />
+      <node id="3662141892374603472" at="31,127,32,128" concept="4" />
+      <node id="3662141892374603472" at="32,128,33,0" concept="6" />
+      <node id="3662141892374603472" at="34,55,35,71" concept="1" />
+      <node id="3662141892374603472" at="36,9,37,0" concept="6" />
+      <node id="3662141892374603472" at="37,0,38,22" concept="5" />
+      <node id="3662141892374603686" at="42,128,43,307" concept="5" />
+      <node id="3662141892374603472" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="3662141892374603472" at="48,0,49,0" concept="7" trace="TopdownPackingLayoutConfig$L5" />
+      <node id="3662141892374603472" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="3662141892374603472" at="50,0,51,0" concept="7" trace="TopDownLayoutAlgorithm$Yf" />
+      <node id="3662141892374603472" at="23,0,26,0" concept="0" trace="TopdownPackingLayoutConfig_Constraints#()V" />
+      <node id="3662141892374603472" at="33,0,36,9" concept="2" />
+      <node id="3662141892374603472" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3662141892374603472" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3662141892374603472" at="28,103,40,6" concept="5" />
+      <node id="3662141892374603472" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="3662141892374603472" at="23,51,24,50" />
+      <scope id="3662141892374603472" at="34,55,35,71" />
+      <scope id="3662141892374603578" at="42,128,43,307" />
+      <scope id="3662141892374603472" at="23,0,26,0" />
+      <scope id="3662141892374603472" at="42,0,45,0">
+        <var name="childConcept" id="3662141892374603472" />
+        <var name="link" id="3662141892374603472" />
+        <var name="node" id="3662141892374603472" />
+        <var name="parentNode" id="3662141892374603472" />
+      </scope>
+      <scope id="3662141892374603472" at="31,127,38,22">
+        <var name="result" id="3662141892374603472" />
+      </scope>
+      <scope id="3662141892374603472" at="30,0,40,0">
+        <var name="checkingNodeContext" id="3662141892374603472" />
+        <var name="context" id="3662141892374603472" />
+      </scope>
+      <scope id="3662141892374603472" at="28,103,40,6" />
+      <scope id="3662141892374603472" at="27,0,42,0" />
+      <unit id="3662141892374603472" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.TopdownPackingLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="3662141892374603472" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.TopdownPackingLayoutConfig_Constraints$1" />
+      <unit id="3662141892374603472" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.TopdownPackingLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/477607467890440329">
+    <file name="RandomLayoutConfig_Constraints.java">
+      <node id="477607467890440329" at="23,43,24,42" concept="9" />
+      <node id="477607467890440329" at="31,127,32,128" concept="4" />
+      <node id="477607467890440329" at="32,128,33,0" concept="6" />
+      <node id="477607467890440329" at="34,55,35,71" concept="1" />
+      <node id="477607467890440329" at="36,9,37,0" concept="6" />
+      <node id="477607467890440329" at="37,0,38,22" concept="5" />
+      <node id="477607467890440587" at="42,128,43,306" concept="5" />
+      <node id="477607467890440329" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="477607467890440329" at="48,0,49,0" concept="7" trace="RandomLayoutConfig$qe" />
+      <node id="477607467890440329" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="477607467890440329" at="50,0,51,0" concept="7" trace="RandomLayoutAlgorithm$_R" />
+      <node id="477607467890440329" at="23,0,26,0" concept="0" trace="RandomLayoutConfig_Constraints#()V" />
+      <node id="477607467890440329" at="33,0,36,9" concept="2" />
+      <node id="477607467890440329" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="477607467890440329" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="477607467890440329" at="28,103,40,6" concept="5" />
+      <node id="477607467890440329" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="477607467890440329" at="23,43,24,42" />
+      <scope id="477607467890440329" at="34,55,35,71" />
+      <scope id="477607467890440505" at="42,128,43,306" />
+      <scope id="477607467890440329" at="23,0,26,0" />
+      <scope id="477607467890440329" at="42,0,45,0">
+        <var name="childConcept" id="477607467890440329" />
+        <var name="link" id="477607467890440329" />
+        <var name="node" id="477607467890440329" />
+        <var name="parentNode" id="477607467890440329" />
+      </scope>
+      <scope id="477607467890440329" at="31,127,38,22">
+        <var name="result" id="477607467890440329" />
+      </scope>
+      <scope id="477607467890440329" at="30,0,40,0">
+        <var name="checkingNodeContext" id="477607467890440329" />
+        <var name="context" id="477607467890440329" />
+      </scope>
+      <scope id="477607467890440329" at="28,103,40,6" />
+      <scope id="477607467890440329" at="27,0,42,0" />
+      <unit id="477607467890440329" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.RandomLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="477607467890440329" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.RandomLayoutConfig_Constraints$1" />
+      <unit id="477607467890440329" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.RandomLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/477607467892519988">
+    <file name="RectPackingLayoutConfig_Constraints.java">
+      <node id="477607467892519988" at="23,48,24,47" concept="9" />
+      <node id="477607467892519988" at="31,127,32,128" concept="4" />
+      <node id="477607467892519988" at="32,128,33,0" concept="6" />
+      <node id="477607467892519988" at="34,55,35,71" concept="1" />
+      <node id="477607467892519988" at="36,9,37,0" concept="6" />
+      <node id="477607467892519988" at="37,0,38,22" concept="5" />
+      <node id="477607467892520246" at="42,128,43,315" concept="5" />
+      <node id="477607467892519988" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="477607467892519988" at="48,0,49,0" concept="7" trace="RectPackingLayoutConfig$A7" />
+      <node id="477607467892519988" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="477607467892519988" at="50,0,51,0" concept="7" trace="RectanglePackingLayoutAlgorithm$t" />
+      <node id="477607467892519988" at="23,0,26,0" concept="0" trace="RectPackingLayoutConfig_Constraints#()V" />
+      <node id="477607467892519988" at="33,0,36,9" concept="2" />
+      <node id="477607467892519988" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="477607467892519988" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="477607467892519988" at="28,103,40,6" concept="5" />
+      <node id="477607467892519988" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="477607467892519988" at="23,48,24,47" />
+      <scope id="477607467892519988" at="34,55,35,71" />
+      <scope id="477607467892520164" at="42,128,43,315" />
+      <scope id="477607467892519988" at="23,0,26,0" />
+      <scope id="477607467892519988" at="42,0,45,0">
+        <var name="childConcept" id="477607467892519988" />
+        <var name="link" id="477607467892519988" />
+        <var name="node" id="477607467892519988" />
+        <var name="parentNode" id="477607467892519988" />
+      </scope>
+      <scope id="477607467892519988" at="31,127,38,22">
+        <var name="result" id="477607467892519988" />
+      </scope>
+      <scope id="477607467892519988" at="30,0,40,0">
+        <var name="checkingNodeContext" id="477607467892519988" />
+        <var name="context" id="477607467892519988" />
+      </scope>
+      <scope id="477607467892519988" at="28,103,40,6" />
+      <scope id="477607467892519988" at="27,0,42,0" />
+      <unit id="477607467892519988" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.RectPackingLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="477607467892519988" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.RectPackingLayoutConfig_Constraints$1" />
+      <unit id="477607467892519988" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.RectPackingLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/477607467899800572">
+    <file name="DisCoLayoutConfig_Constraints.java">
+      <node id="477607467899800572" at="23,42,24,41" concept="9" />
+      <node id="477607467899800572" at="31,127,32,128" concept="4" />
+      <node id="477607467899800572" at="32,128,33,0" concept="6" />
+      <node id="477607467899800572" at="34,55,35,71" concept="1" />
+      <node id="477607467899800572" at="36,9,37,0" concept="6" />
+      <node id="477607467899800572" at="37,0,38,22" concept="5" />
+      <node id="477607467899800869" at="42,128,43,317" concept="5" />
+      <node id="477607467899800572" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="477607467899800572" at="48,0,49,0" concept="7" trace="DisCoLayoutConfig$2$" />
+      <node id="477607467899800572" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="477607467899800572" at="50,0,51,0" concept="7" trace="DisconnectedGraphLayoutAlgorithm$QJ" />
+      <node id="477607467899800572" at="23,0,26,0" concept="0" trace="DisCoLayoutConfig_Constraints#()V" />
+      <node id="477607467899800572" at="33,0,36,9" concept="2" />
+      <node id="477607467899800572" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="477607467899800572" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="477607467899800572" at="28,103,40,6" concept="5" />
+      <node id="477607467899800572" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="477607467899800572" at="23,42,24,41" />
+      <scope id="477607467899800572" at="34,55,35,71" />
+      <scope id="477607467899800787" at="42,128,43,317" />
+      <scope id="477607467899800572" at="23,0,26,0" />
+      <scope id="477607467899800572" at="42,0,45,0">
+        <var name="childConcept" id="477607467899800572" />
+        <var name="link" id="477607467899800572" />
+        <var name="node" id="477607467899800572" />
+        <var name="parentNode" id="477607467899800572" />
+      </scope>
+      <scope id="477607467899800572" at="31,127,38,22">
+        <var name="result" id="477607467899800572" />
+      </scope>
+      <scope id="477607467899800572" at="30,0,40,0">
+        <var name="checkingNodeContext" id="477607467899800572" />
+        <var name="context" id="477607467899800572" />
+      </scope>
+      <scope id="477607467899800572" at="28,103,40,6" />
+      <scope id="477607467899800572" at="27,0,42,0" />
+      <unit id="477607467899800572" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.DisCoLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="477607467899800572" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.DisCoLayoutConfig_Constraints$1" />
+      <unit id="477607467899800572" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.DisCoLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/477607467906660595">
+    <file name="FixedLayoutConfig_Constraints.java">
+      <node id="477607467906660595" at="23,42,24,41" concept="9" />
+      <node id="477607467906660595" at="31,127,32,128" concept="4" />
+      <node id="477607467906660595" at="32,128,33,0" concept="6" />
+      <node id="477607467906660595" at="34,55,35,71" concept="1" />
+      <node id="477607467906660595" at="36,9,37,0" concept="6" />
+      <node id="477607467906660595" at="37,0,38,22" concept="5" />
+      <node id="477607467906660783" at="42,128,43,305" concept="5" />
+      <node id="477607467906660595" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="477607467906660595" at="48,0,49,0" concept="7" trace="FixedLayoutConfig$z8" />
+      <node id="477607467906660595" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="477607467906660595" at="50,0,51,0" concept="7" trace="FixedLayoutAlgorithm$gZ" />
+      <node id="477607467906660595" at="23,0,26,0" concept="0" trace="FixedLayoutConfig_Constraints#()V" />
+      <node id="477607467906660595" at="33,0,36,9" concept="2" />
+      <node id="477607467906660595" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="477607467906660595" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="477607467906660595" at="28,103,40,6" concept="5" />
+      <node id="477607467906660595" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="477607467906660595" at="23,42,24,41" />
+      <scope id="477607467906660595" at="34,55,35,71" />
+      <scope id="477607467906660701" at="42,128,43,305" />
+      <scope id="477607467906660595" at="23,0,26,0" />
+      <scope id="477607467906660595" at="42,0,45,0">
+        <var name="childConcept" id="477607467906660595" />
+        <var name="link" id="477607467906660595" />
+        <var name="node" id="477607467906660595" />
+        <var name="parentNode" id="477607467906660595" />
+      </scope>
+      <scope id="477607467906660595" at="31,127,38,22">
+        <var name="result" id="477607467906660595" />
+      </scope>
+      <scope id="477607467906660595" at="30,0,40,0">
+        <var name="checkingNodeContext" id="477607467906660595" />
+        <var name="context" id="477607467906660595" />
+      </scope>
+      <scope id="477607467906660595" at="28,103,40,6" />
+      <scope id="477607467906660595" at="27,0,42,0" />
+      <unit id="477607467906660595" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.FixedLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="477607467906660595" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.FixedLayoutConfig_Constraints$1" />
+      <unit id="477607467906660595" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.FixedLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/477607467908036813">
+    <file name="TreeLayoutConfig_Constraints.java">
+      <node id="477607467908036813" at="23,41,24,40" concept="9" />
+      <node id="477607467908036813" at="31,127,32,128" concept="4" />
+      <node id="477607467908036813" at="32,128,33,0" concept="6" />
+      <node id="477607467908036813" at="34,55,35,71" concept="1" />
+      <node id="477607467908036813" at="36,9,37,0" concept="6" />
+      <node id="477607467908036813" at="37,0,38,22" concept="5" />
+      <node id="477607467908036975" at="42,128,43,304" concept="5" />
+      <node id="477607467908036813" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="477607467908036813" at="48,0,49,0" concept="7" trace="TreeLayoutConfig$2w" />
+      <node id="477607467908036813" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="477607467908036813" at="50,0,51,0" concept="7" trace="TreeLayoutAlgorithm$Id" />
+      <node id="477607467908036813" at="23,0,26,0" concept="0" trace="TreeLayoutConfig_Constraints#()V" />
+      <node id="477607467908036813" at="33,0,36,9" concept="2" />
+      <node id="477607467908036813" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="477607467908036813" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="477607467908036813" at="28,103,40,6" concept="5" />
+      <node id="477607467908036813" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="477607467908036813" at="23,41,24,40" />
+      <scope id="477607467908036813" at="34,55,35,71" />
+      <scope id="477607467908036919" at="42,128,43,304" />
+      <scope id="477607467908036813" at="23,0,26,0" />
+      <scope id="477607467908036813" at="42,0,45,0">
+        <var name="childConcept" id="477607467908036813" />
+        <var name="link" id="477607467908036813" />
+        <var name="node" id="477607467908036813" />
+        <var name="parentNode" id="477607467908036813" />
+      </scope>
+      <scope id="477607467908036813" at="31,127,38,22">
+        <var name="result" id="477607467908036813" />
+      </scope>
+      <scope id="477607467908036813" at="30,0,40,0">
+        <var name="checkingNodeContext" id="477607467908036813" />
+        <var name="context" id="477607467908036813" />
+      </scope>
+      <scope id="477607467908036813" at="28,103,40,6" />
+      <scope id="477607467908036813" at="27,0,42,0" />
+      <unit id="477607467908036813" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.TreeLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="477607467908036813" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.TreeLayoutConfig_Constraints$1" />
+      <unit id="477607467908036813" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.TreeLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/5112292084089908480">
+    <file name="EditorContextExpression_Constraints.java">
+      <node id="5112292084089908480" at="20,48,21,47" concept="9" />
+      <node id="5112292084089908480" at="28,127,29,128" concept="4" />
+      <node id="5112292084089908480" at="29,128,30,0" concept="6" />
+      <node id="5112292084089908480" at="31,55,32,71" concept="1" />
+      <node id="5112292084089908480" at="33,9,34,0" concept="6" />
+      <node id="5112292084089908480" at="34,0,35,22" concept="5" />
+      <node id="1513752667327150843" at="39,128,40,111" concept="5" />
+      <node id="5112292084089908480" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="5112292084089908480" at="45,0,46,0" concept="7" trace="EditorContextExpression$jp" />
+      <node id="5112292084089908480" at="46,0,47,0" concept="7" trace="BaseEditorComponent$49" />
+      <node id="5112292084089908480" at="20,0,23,0" concept="0" trace="EditorContextExpression_Constraints#()V" />
+      <node id="5112292084089908480" at="30,0,33,9" concept="2" />
+      <node id="5112292084089908480" at="39,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="5112292084089908480" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="5112292084089908480" at="25,103,37,6" concept="5" />
+      <node id="5112292084089908480" at="24,0,39,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="5112292084089908480" at="20,48,21,47" />
+      <scope id="5112292084089908480" at="31,55,32,71" />
+      <scope id="1513752667327150842" at="39,128,40,111" />
+      <scope id="5112292084089908480" at="20,0,23,0" />
+      <scope id="5112292084089908480" at="39,0,42,0">
+        <var name="childConcept" id="5112292084089908480" />
+        <var name="link" id="5112292084089908480" />
+        <var name="node" id="5112292084089908480" />
+        <var name="parentNode" id="5112292084089908480" />
+      </scope>
+      <scope id="5112292084089908480" at="28,127,35,22">
+        <var name="result" id="5112292084089908480" />
+      </scope>
+      <scope id="5112292084089908480" at="27,0,37,0">
+        <var name="checkingNodeContext" id="5112292084089908480" />
+        <var name="context" id="5112292084089908480" />
+      </scope>
+      <scope id="5112292084089908480" at="25,103,37,6" />
+      <scope id="5112292084089908480" at="24,0,39,0" />
+      <unit id="5112292084089908480" at="44,0,48,0" name="de.itemis.mps.editor.diagram.constraints.EditorContextExpression_Constraints$CONCEPTS" />
+      <unit id="5112292084089908480" at="26,15,37,5" name="de.itemis.mps.editor.diagram.constraints.EditorContextExpression_Constraints$1" />
+      <unit id="5112292084089908480" at="19,0,49,0" name="de.itemis.mps.editor.diagram.constraints.EditorContextExpression_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/5468226901223981485">
+    <file name="PortObject_Constraints.java">
+      <node id="5468226901223981485" at="20,35,21,34" concept="9" />
+      <node id="5468226901223981485" at="28,127,29,128" concept="4" />
+      <node id="5468226901223981485" at="29,128,30,0" concept="6" />
+      <node id="5468226901223981485" at="31,55,32,71" concept="1" />
+      <node id="5468226901223981485" at="33,9,34,0" concept="6" />
+      <node id="5468226901223981485" at="34,0,35,22" concept="5" />
+      <node id="1513752667327150799" at="39,128,40,101" concept="5" />
+      <node id="5468226901223981485" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="5468226901223981485" at="45,0,46,0" concept="7" trace="PortObject$V$" />
+      <node id="5468226901223981485" at="46,0,47,0" concept="7" trace="PortQuery$io" />
+      <node id="5468226901223981485" at="20,0,23,0" concept="0" trace="PortObject_Constraints#()V" />
+      <node id="5468226901223981485" at="30,0,33,9" concept="2" />
+      <node id="5468226901223981485" at="39,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="5468226901223981485" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="5468226901223981485" at="25,103,37,6" concept="5" />
+      <node id="5468226901223981485" at="24,0,39,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="5468226901223981485" at="20,35,21,34" />
+      <scope id="5468226901223981485" at="31,55,32,71" />
+      <scope id="1513752667327150798" at="39,128,40,101" />
+      <scope id="5468226901223981485" at="20,0,23,0" />
+      <scope id="5468226901223981485" at="39,0,42,0">
+        <var name="childConcept" id="5468226901223981485" />
+        <var name="link" id="5468226901223981485" />
+        <var name="node" id="5468226901223981485" />
+        <var name="parentNode" id="5468226901223981485" />
+      </scope>
+      <scope id="5468226901223981485" at="28,127,35,22">
+        <var name="result" id="5468226901223981485" />
+      </scope>
+      <scope id="5468226901223981485" at="27,0,37,0">
+        <var name="checkingNodeContext" id="5468226901223981485" />
+        <var name="context" id="5468226901223981485" />
+      </scope>
+      <scope id="5468226901223981485" at="25,103,37,6" />
+      <scope id="5468226901223981485" at="24,0,39,0" />
+      <unit id="5468226901223981485" at="44,0,48,0" name="de.itemis.mps.editor.diagram.constraints.PortObject_Constraints$CONCEPTS" />
+      <unit id="5468226901223981485" at="26,15,37,5" name="de.itemis.mps.editor.diagram.constraints.PortObject_Constraints$1" />
+      <unit id="5468226901223981485" at="19,0,49,0" name="de.itemis.mps.editor.diagram.constraints.PortObject_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/5878290447138448001">
+    <file name="BoxLayoutConfig_Constraints.java">
+      <node id="5878290447138448001" at="23,40,24,39" concept="9" />
+      <node id="5878290447138448001" at="31,127,32,128" concept="4" />
+      <node id="5878290447138448001" at="32,128,33,0" concept="6" />
+      <node id="5878290447138448001" at="34,55,35,71" concept="1" />
+      <node id="5878290447138448001" at="36,9,37,0" concept="6" />
+      <node id="5878290447138448001" at="37,0,38,22" concept="5" />
+      <node id="5878290447146206620" at="42,128,43,303" concept="5" />
+      <node id="5878290447138448001" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="5878290447138448001" at="48,0,49,0" concept="7" trace="BoxLayoutConfig$hq" />
+      <node id="5878290447138448001" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="5878290447138448001" at="50,0,51,0" concept="7" trace="BoxLayoutAlgorithm$R$" />
+      <node id="5878290447138448001" at="23,0,26,0" concept="0" trace="BoxLayoutConfig_Constraints#()V" />
+      <node id="5878290447138448001" at="33,0,36,9" concept="2" />
+      <node id="5878290447138448001" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="5878290447138448001" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="5878290447138448001" at="28,103,40,6" concept="5" />
+      <node id="5878290447138448001" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="5878290447138448001" at="23,40,24,39" />
+      <scope id="5878290447138448001" at="34,55,35,71" />
+      <scope id="5878290447138448107" at="42,128,43,303" />
+      <scope id="5878290447138448001" at="23,0,26,0" />
+      <scope id="5878290447138448001" at="42,0,45,0">
+        <var name="childConcept" id="5878290447138448001" />
+        <var name="link" id="5878290447138448001" />
+        <var name="node" id="5878290447138448001" />
+        <var name="parentNode" id="5878290447138448001" />
+      </scope>
+      <scope id="5878290447138448001" at="31,127,38,22">
+        <var name="result" id="5878290447138448001" />
+      </scope>
+      <scope id="5878290447138448001" at="30,0,40,0">
+        <var name="checkingNodeContext" id="5878290447138448001" />
+        <var name="context" id="5878290447138448001" />
+      </scope>
+      <scope id="5878290447138448001" at="28,103,40,6" />
+      <scope id="5878290447138448001" at="27,0,42,0" />
+      <unit id="5878290447138448001" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.BoxLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="5878290447138448001" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.BoxLayoutConfig_Constraints$1" />
+      <unit id="5878290447138448001" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.BoxLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/5878290447148759980">
+    <file name="RadialLayoutConfig_Constraints.java">
+      <node id="5878290447148759980" at="23,43,24,42" concept="9" />
+      <node id="5878290447148759980" at="31,127,32,128" concept="4" />
+      <node id="5878290447148759980" at="32,128,33,0" concept="6" />
+      <node id="5878290447148759980" at="34,55,35,71" concept="1" />
+      <node id="5878290447148759980" at="36,9,37,0" concept="6" />
+      <node id="5878290447148759980" at="37,0,38,22" concept="5" />
+      <node id="5878290447148760194" at="42,128,43,306" concept="5" />
+      <node id="5878290447148759980" at="45,0,46,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="5878290447148759980" at="48,0,49,0" concept="7" trace="RadialLayoutConfig$21" />
+      <node id="5878290447148759980" at="49,0,50,0" concept="7" trace="IHasUserDefinedConfig$KX" />
+      <node id="5878290447148759980" at="50,0,51,0" concept="7" trace="RadialLayoutAlgorithm$jj" />
+      <node id="5878290447148759980" at="23,0,26,0" concept="0" trace="RadialLayoutConfig_Constraints#()V" />
+      <node id="5878290447148759980" at="33,0,36,9" concept="2" />
+      <node id="5878290447148759980" at="42,0,45,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="5878290447148759980" at="30,0,40,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="5878290447148759980" at="28,103,40,6" concept="5" />
+      <node id="5878290447148759980" at="27,0,42,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="5878290447148759980" at="23,43,24,42" />
+      <scope id="5878290447148759980" at="34,55,35,71" />
+      <scope id="5878290447148760086" at="42,128,43,306" />
+      <scope id="5878290447148759980" at="23,0,26,0" />
+      <scope id="5878290447148759980" at="42,0,45,0">
+        <var name="childConcept" id="5878290447148759980" />
+        <var name="link" id="5878290447148759980" />
+        <var name="node" id="5878290447148759980" />
+        <var name="parentNode" id="5878290447148759980" />
+      </scope>
+      <scope id="5878290447148759980" at="31,127,38,22">
+        <var name="result" id="5878290447148759980" />
+      </scope>
+      <scope id="5878290447148759980" at="30,0,40,0">
+        <var name="checkingNodeContext" id="5878290447148759980" />
+        <var name="context" id="5878290447148759980" />
+      </scope>
+      <scope id="5878290447148759980" at="28,103,40,6" />
+      <scope id="5878290447148759980" at="27,0,42,0" />
+      <unit id="5878290447148759980" at="47,0,52,0" name="de.itemis.mps.editor.diagram.constraints.RadialLayoutConfig_Constraints$CONCEPTS" />
+      <unit id="5878290447148759980" at="29,15,40,5" name="de.itemis.mps.editor.diagram.constraints.RadialLayoutConfig_Constraints$1" />
+      <unit id="5878290447148759980" at="22,0,53,0" name="de.itemis.mps.editor.diagram.constraints.RadialLayoutConfig_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/6554619383000075469">
+    <file name="Content_GenericElementQuery_OuterNode_Constraints.java">
+      <node id="6554619383000075469" at="20,62,21,61" concept="9" />
+      <node id="6554619383000075469" at="28,127,29,128" concept="4" />
+      <node id="6554619383000075469" at="29,128,30,0" concept="6" />
+      <node id="6554619383000075469" at="31,55,32,71" concept="1" />
+      <node id="6554619383000075469" at="33,9,34,0" concept="6" />
+      <node id="6554619383000075469" at="34,0,35,22" concept="5" />
+      <node id="1513752667327150788" at="39,128,40,119" concept="5" />
+      <node id="6554619383000075469" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="6554619383000075469" at="45,0,46,0" concept="7" trace="Content_GenericElementQuery_OuterNode$H8" />
+      <node id="6554619383000075469" at="46,0,47,0" concept="7" trace="Content_GenericElementQuery$Z_" />
+      <node id="6554619383000075469" at="20,0,23,0" concept="0" trace="Content_GenericElementQuery_OuterNode_Constraints#()V" />
+      <node id="6554619383000075469" at="30,0,33,9" concept="2" />
+      <node id="6554619383000075469" at="39,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="6554619383000075469" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="6554619383000075469" at="25,103,37,6" concept="5" />
+      <node id="6554619383000075469" at="24,0,39,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="6554619383000075469" at="20,62,21,61" />
+      <scope id="6554619383000075469" at="31,55,32,71" />
+      <scope id="1513752667327150787" at="39,128,40,119" />
+      <scope id="6554619383000075469" at="20,0,23,0" />
+      <scope id="6554619383000075469" at="39,0,42,0">
+        <var name="childConcept" id="6554619383000075469" />
+        <var name="link" id="6554619383000075469" />
+        <var name="node" id="6554619383000075469" />
+        <var name="parentNode" id="6554619383000075469" />
+      </scope>
+      <scope id="6554619383000075469" at="28,127,35,22">
+        <var name="result" id="6554619383000075469" />
+      </scope>
+      <scope id="6554619383000075469" at="27,0,37,0">
+        <var name="checkingNodeContext" id="6554619383000075469" />
+        <var name="context" id="6554619383000075469" />
+      </scope>
+      <scope id="6554619383000075469" at="25,103,37,6" />
+      <scope id="6554619383000075469" at="24,0,39,0" />
+      <unit id="6554619383000075469" at="44,0,48,0" name="de.itemis.mps.editor.diagram.constraints.Content_GenericElementQuery_OuterNode_Constraints$CONCEPTS" />
+      <unit id="6554619383000075469" at="26,15,37,5" name="de.itemis.mps.editor.diagram.constraints.Content_GenericElementQuery_OuterNode_Constraints$1" />
+      <unit id="6554619383000075469" at="19,0,49,0" name="de.itemis.mps.editor.diagram.constraints.Content_GenericElementQuery_OuterNode_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/6693185725465299582">
+    <file name="PredefinedEdgeStyle_Constraints.java">
+      <node id="6693185725465299582" at="20,44,21,43" concept="9" />
+      <node id="6693185725465299582" at="28,127,29,128" concept="4" />
+      <node id="6693185725465299582" at="29,128,30,0" concept="6" />
+      <node id="6693185725465299582" at="31,55,32,71" concept="1" />
+      <node id="6693185725465299582" at="33,9,34,0" concept="6" />
+      <node id="6693185725465299582" at="34,0,35,22" concept="5" />
+      <node id="6693185725465300261" at="39,128,40,54" concept="5" />
+      <node id="6693185725465299582" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="6693185725465299582" at="45,0,46,0" concept="7" trace="PredefinedEdgeStyle$1J" />
+      <node id="6693185725465299582" at="49,0,50,0" concept="7" trace="edgeStyle$vzPZ" />
+      <node id="6693185725465299582" at="20,0,23,0" concept="0" trace="PredefinedEdgeStyle_Constraints#()V" />
+      <node id="6693185725465299582" at="30,0,33,9" concept="2" />
+      <node id="6693185725465299582" at="39,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="6693185725465299582" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="6693185725465299582" at="25,103,37,6" concept="5" />
+      <node id="6693185725465299582" at="24,0,39,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="6693185725465299582" at="20,44,21,43" />
+      <scope id="6693185725465299582" at="31,55,32,71" />
+      <scope id="6693185725465299740" at="39,128,40,54" />
+      <scope id="6693185725465299582" at="20,0,23,0" />
+      <scope id="6693185725465299582" at="39,0,42,0">
+        <var name="childConcept" id="6693185725465299582" />
+        <var name="link" id="6693185725465299582" />
+        <var name="node" id="6693185725465299582" />
+        <var name="parentNode" id="6693185725465299582" />
+      </scope>
+      <scope id="6693185725465299582" at="28,127,35,22">
+        <var name="result" id="6693185725465299582" />
+      </scope>
+      <scope id="6693185725465299582" at="27,0,37,0">
+        <var name="checkingNodeContext" id="6693185725465299582" />
+        <var name="context" id="6693185725465299582" />
+      </scope>
+      <scope id="6693185725465299582" at="25,103,37,6" />
+      <scope id="6693185725465299582" at="24,0,39,0" />
+      <unit id="6693185725465299582" at="44,0,47,0" name="de.itemis.mps.editor.diagram.constraints.PredefinedEdgeStyle_Constraints$CONCEPTS" />
+      <unit id="6693185725465299582" at="48,0,51,0" name="de.itemis.mps.editor.diagram.constraints.PredefinedEdgeStyle_Constraints$LINKS" />
+      <unit id="6693185725465299582" at="26,15,37,5" name="de.itemis.mps.editor.diagram.constraints.PredefinedEdgeStyle_Constraints$1" />
+      <unit id="6693185725465299582" at="19,0,52,0" name="de.itemis.mps.editor.diagram.constraints.PredefinedEdgeStyle_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/8587703283520407597">
+    <file name="ThisNodeExpression_Constraints.java">
+      <node id="8587703283520407597" at="20,43,21,42" concept="9" />
+      <node id="8587703283520407597" at="28,127,29,128" concept="4" />
+      <node id="8587703283520407597" at="29,128,30,0" concept="6" />
+      <node id="8587703283520407597" at="31,55,32,71" concept="1" />
+      <node id="8587703283520407597" at="33,9,34,0" concept="6" />
+      <node id="8587703283520407597" at="34,0,35,22" concept="5" />
+      <node id="1513752667327150810" at="39,128,40,111" concept="5" />
+      <node id="8587703283520407597" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="8587703283520407597" at="45,0,46,0" concept="7" trace="ThisNodeExpression$h8" />
+      <node id="8587703283520407597" at="46,0,47,0" concept="7" trace="BaseEditorComponent$49" />
+      <node id="8587703283520407597" at="20,0,23,0" concept="0" trace="ThisNodeExpression_Constraints#()V" />
+      <node id="8587703283520407597" at="30,0,33,9" concept="2" />
+      <node id="8587703283520407597" at="39,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8587703283520407597" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8587703283520407597" at="25,103,37,6" concept="5" />
+      <node id="8587703283520407597" at="24,0,39,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="8587703283520407597" at="20,43,21,42" />
+      <scope id="8587703283520407597" at="31,55,32,71" />
+      <scope id="1513752667327150809" at="39,128,40,111" />
+      <scope id="8587703283520407597" at="20,0,23,0" />
+      <scope id="8587703283520407597" at="39,0,42,0">
+        <var name="childConcept" id="8587703283520407597" />
+        <var name="link" id="8587703283520407597" />
+        <var name="node" id="8587703283520407597" />
+        <var name="parentNode" id="8587703283520407597" />
+      </scope>
+      <scope id="8587703283520407597" at="28,127,35,22">
+        <var name="result" id="8587703283520407597" />
+      </scope>
+      <scope id="8587703283520407597" at="27,0,37,0">
+        <var name="checkingNodeContext" id="8587703283520407597" />
+        <var name="context" id="8587703283520407597" />
+      </scope>
+      <scope id="8587703283520407597" at="25,103,37,6" />
+      <scope id="8587703283520407597" at="24,0,39,0" />
+      <unit id="8587703283520407597" at="44,0,48,0" name="de.itemis.mps.editor.diagram.constraints.ThisNodeExpression_Constraints$CONCEPTS" />
+      <unit id="8587703283520407597" at="26,15,37,5" name="de.itemis.mps.editor.diagram.constraints.ThisNodeExpression_Constraints$1" />
+      <unit id="8587703283520407597" at="19,0,49,0" name="de.itemis.mps.editor.diagram.constraints.ThisNodeExpression_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)/8963411245958960704">
+    <file name="Content_GenericElementQuery_ParameterObject_Constraints.java">
+      <node id="8963411245958960704" at="20,68,21,67" concept="9" />
+      <node id="8963411245958960704" at="28,127,29,128" concept="4" />
+      <node id="8963411245958960704" at="29,128,30,0" concept="6" />
+      <node id="8963411245958960704" at="31,55,32,71" concept="1" />
+      <node id="8963411245958960704" at="33,9,34,0" concept="6" />
+      <node id="8963411245958960704" at="34,0,35,22" concept="5" />
+      <node id="1513752667327150832" at="39,128,40,119" concept="5" />
+      <node id="8963411245958960704" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="8963411245958960704" at="45,0,46,0" concept="7" trace="Content_GenericElementQuery_ParameterObject$dy" />
+      <node id="8963411245958960704" at="46,0,47,0" concept="7" trace="Content_GenericElementQuery$Z_" />
+      <node id="8963411245958960704" at="20,0,23,0" concept="0" trace="Content_GenericElementQuery_ParameterObject_Constraints#()V" />
+      <node id="8963411245958960704" at="30,0,33,9" concept="2" />
+      <node id="8963411245958960704" at="39,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8963411245958960704" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8963411245958960704" at="25,103,37,6" concept="5" />
+      <node id="8963411245958960704" at="24,0,39,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="8963411245958960704" at="20,68,21,67" />
+      <scope id="8963411245958960704" at="31,55,32,71" />
+      <scope id="1513752667327150831" at="39,128,40,119" />
+      <scope id="8963411245958960704" at="20,0,23,0" />
+      <scope id="8963411245958960704" at="39,0,42,0">
+        <var name="childConcept" id="8963411245958960704" />
+        <var name="link" id="8963411245958960704" />
+        <var name="node" id="8963411245958960704" />
+        <var name="parentNode" id="8963411245958960704" />
+      </scope>
+      <scope id="8963411245958960704" at="28,127,35,22">
+        <var name="result" id="8963411245958960704" />
+      </scope>
+      <scope id="8963411245958960704" at="27,0,37,0">
+        <var name="checkingNodeContext" id="8963411245958960704" />
+        <var name="context" id="8963411245958960704" />
+      </scope>
+      <scope id="8963411245958960704" at="25,103,37,6" />
+      <scope id="8963411245958960704" at="24,0,39,0" />
+      <unit id="8963411245958960704" at="44,0,48,0" name="de.itemis.mps.editor.diagram.constraints.Content_GenericElementQuery_ParameterObject_Constraints$CONCEPTS" />
+      <unit id="8963411245958960704" at="26,15,37,5" name="de.itemis.mps.editor.diagram.constraints.Content_GenericElementQuery_ParameterObject_Constraints$1" />
+      <unit id="8963411245958960704" at="19,0,49,0" name="de.itemis.mps.editor.diagram.constraints.Content_GenericElementQuery_ParameterObject_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

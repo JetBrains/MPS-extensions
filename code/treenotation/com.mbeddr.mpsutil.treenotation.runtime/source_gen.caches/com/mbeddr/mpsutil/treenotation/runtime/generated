@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="6yyl06wlysdqnvnt3hz969nlkuw5si1">
+  <files names="AbstractInsertHandler.java:AbstractTreeLayouter.java:BoundsExtensions.java:BoundsWithMargin.java:Button.java:ButtonsMouseListener.java:CompactTreeLayouter.java:DefaultInsertHandler.java:DefaultTreeLayouter.java:DeleteButton.java:EditorCellBounds.java:EditorCellExtensions.java:FoldButton.java:IBounds.java:IDeleteHandler.java:IInsertHandler.java:IShape.java:ITreeLayouter.java:InsertButton.java:InvisibleButton.java:OrthogonalTreeLayouter.java:ScaledIcon.java:TransposedBounds.java:TreeCell.java:TreeCellLayout.java:TreeLayoutType.java:TreeLayoutTypes.java" />
+</product>
+

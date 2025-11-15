@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root nodeRef="r:368bee01-8159-4247-b38c-14c0da3aaa12(de.itemis.mps.compare.pattern.enumMigration)/1286599818956595160">
+    <file name="PatternBuilderListKind_MigrationUtils.java">
+      <node id="1286599818956595167" at="13,13,14,19" concept="0" />
+      <node id="1286599818956595170" at="15,13,16,19" concept="0" />
+      <node id="1286599818956595177" at="17,14,18,20" concept="0" />
+      <node id="1286599818956595189" at="23,15,24,232" concept="0" />
+      <node id="1286599818956595196" at="25,15,26,232" concept="0" />
+      <node id="1286599818956595205" at="27,14,28,20" concept="0" />
+      <node id="1286599818956595212" at="33,13,34,19" concept="0" />
+      <node id="1286599818956595215" at="35,13,36,19" concept="0" />
+      <node id="1286599818956595222" at="37,14,38,20" concept="0" />
+      <node id="1286599818956595234" at="43,15,44,232" concept="0" />
+      <node id="1286599818956595241" at="45,15,46,232" concept="0" />
+      <node id="1286599818956595250" at="47,14,48,20" concept="0" />
+      <node id="1286599818956595160" at="51,0,52,0" concept="1" trace="enumSwitchIndex" />
+      <node id="1286599818956595160" at="52,0,53,0" concept="1" trace="enumSwitchIndex1" />
+      <node id="1286599818956595177" at="11,61,19,5" concept="3" />
+      <node id="1286599818956595202" at="21,59,29,5" concept="3" />
+      <node id="1286599818956595222" at="31,62,39,5" concept="3" />
+      <node id="1286599818956595247" at="41,61,49,5" concept="3" />
+      <node id="1286599818956595171" at="11,0,21,0" concept="2" trace="name#(Lorg/jetbrains/mps/openapi/language/SEnumerationLiteral;)Ljava/lang/String;" />
+      <node id="1286599818956595181" at="21,0,31,0" concept="2" trace="fromName#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/language/SEnumerationLiteral;" />
+      <node id="1286599818956595216" at="31,0,41,0" concept="2" trace="value#(Lorg/jetbrains/mps/openapi/language/SEnumerationLiteral;)Ljava/lang/String;" />
+      <node id="1286599818956595225" at="41,0,51,0" concept="2" trace="fromValue#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/language/SEnumerationLiteral;" />
+      <scope id="1286599818956595167" at="13,13,14,19" />
+      <scope id="1286599818956595170" at="15,13,16,19" />
+      <scope id="1286599818956595177" at="17,14,18,20" />
+      <scope id="1286599818956595188" at="23,15,24,232" />
+      <scope id="1286599818956595195" at="25,15,26,232" />
+      <scope id="1286599818956595204" at="27,14,28,20" />
+      <scope id="1286599818956595212" at="33,13,34,19" />
+      <scope id="1286599818956595215" at="35,13,36,19" />
+      <scope id="1286599818956595222" at="37,14,38,20" />
+      <scope id="1286599818956595233" at="43,15,44,232" />
+      <scope id="1286599818956595240" at="45,15,46,232" />
+      <scope id="1286599818956595249" at="47,14,48,20" />
+      <scope id="1286599818956595175" at="11,61,19,5" />
+      <scope id="1286599818956595201" at="21,59,29,5" />
+      <scope id="1286599818956595220" at="31,62,39,5" />
+      <scope id="1286599818956595246" at="41,61,49,5" />
+      <scope id="1286599818956595171" at="11,0,21,0">
+        <var name="enummember" id="1286599818956595172" />
+      </scope>
+      <scope id="1286599818956595181" at="21,0,31,0">
+        <var name="name" id="1286599818956595182" />
+      </scope>
+      <scope id="1286599818956595216" at="31,0,41,0">
+        <var name="enummember" id="1286599818956595217" />
+      </scope>
+      <scope id="1286599818956595225" at="41,0,51,0">
+        <var name="value" id="1286599818956595226" />
+      </scope>
+      <unit id="1286599818956595160" at="10,0,54,0" name="de.itemis.mps.compare.pattern.enumMigration.PatternBuilderListKind_MigrationUtils" />
+    </file>
+  </root>
+</debug-info>
+

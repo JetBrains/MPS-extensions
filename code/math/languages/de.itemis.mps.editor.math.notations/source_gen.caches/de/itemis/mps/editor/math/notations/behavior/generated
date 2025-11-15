@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-9y4gg2nr6a8te21mlv73iufbs1kzvu7">
+  <files names="AboveEditor__BehaviorDescriptor.java:AbsEditor__BehaviorDescriptor.java:AbstractBracketsEditor__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:CustomSymbolIntegralEditor__BehaviorDescriptor.java:IntegralEditor__BehaviorDescriptor.java:LoopEditor__BehaviorDescriptor.java:NRootEditor__BehaviorDescriptor.java:OverreachingBracketsEditor__BehaviorDescriptor.java:OverreachingLoopEditor__BehaviorDescriptor.java:ParenthesesEditor__BehaviorDescriptor.java:PowerEditor__BehaviorDescriptor.java:SqrtEditor__BehaviorDescriptor.java:SubscriptEditor__BehaviorDescriptor.java:SubscriptedFunctionEditor__BehaviorDescriptor.java" />
+</product>
+

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="9,0,14,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)/3077579741540699667">
+    <file name="InsertPopupAction_Action.java">
+      <node id="3077579741540699667" at="25,0,26,0" concept="12" trace="ICON" />
+      <node id="3077579741540699667" at="27,37,28,36" concept="13" />
+      <node id="3077579741540699667" at="28,36,29,35" concept="3" />
+      <node id="3077579741540699667" at="29,35,30,52" concept="3" />
+      <node id="3077579741540699667" at="33,32,34,16" concept="9" />
+      <node id="3077579741566030441" at="38,57,39,19" concept="9" />
+      <node id="5796550544066434850" at="40,5,41,75" concept="8" />
+      <node id="5796550544066363318" at="41,75,42,95" concept="8" />
+      <node id="130230197973316908" at="42,95,43,136" concept="9" />
+      <node id="3077579741540699667" at="46,89,47,85" concept="3" />
+      <node id="3077579741540699667" at="51,53,52,19" concept="9" />
+      <node id="7791284463049069784" at="54,5,55,90" concept="8" />
+      <node id="7791284463049069784" at="56,67,57,31" concept="3" />
+      <node id="8898893144448210019" at="59,36,60,21" concept="9" />
+      <node id="3077579741540699667" at="62,5,63,16" concept="9" />
+      <node id="3077579741543386664" at="67,73,68,13" concept="9" />
+      <node id="3077579741543386670" at="69,5,70,0" concept="11" />
+      <node id="130230197973309843" at="70,0,71,87" concept="8" />
+      <node id="8970160220943994984" at="72,172,73,111" concept="3" />
+      <node id="8970160220943784452" at="75,101,76,15" concept="9" />
+      <node id="8970160220943995520" at="77,14,78,107" concept="3" />
+      <node id="6786694707189028631" at="82,75,83,113" concept="8" />
+      <node id="6786694707189037808" at="83,113,84,35" concept="10" />
+      <node id="6786694707189037804" at="85,52,86,18" concept="9" />
+      <node id="130230197973316870" at="87,5,88,76" concept="8" />
+      <node id="130230197973316881" at="89,32,90,18" concept="9" />
+      <node id="130230197973316887" at="91,5,92,44" concept="8" />
+      <node id="130230197973316893" at="92,44,93,76" concept="9" />
+      <node id="926916431353360770" at="77,12,79,7" concept="0" />
+      <node id="3077579741566029469" at="37,87,40,5" concept="6" />
+      <node id="3077579741540699667" at="50,95,53,5" concept="6" />
+      <node id="7791284463049069784" at="55,90,58,7" concept="6" />
+      <node id="8898893144448210019" at="58,7,61,7" concept="6" />
+      <node id="3077579741543386662" at="66,96,69,5" concept="6" />
+      <node id="6786694707189037793" at="84,35,87,5" concept="6" />
+      <node id="130230197973316879" at="88,76,91,5" concept="6" />
+      <node id="3077579741540699667" at="32,0,36,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="3077579741540699667" at="45,0,49,0" concept="7" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3077579741540699667" at="27,0,32,0" concept="2" trace="InsertPopupAction_Action#()V" />
+      <node id="8970160220943784440" at="74,12,79,7" concept="6" />
+      <node id="926916431353357814" at="74,10,80,5" concept="0" />
+      <node id="3077579741540699667" at="36,0,45,0" concept="7" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7791284463049069784" at="53,5,62,5" concept="0" />
+      <node id="926916431353354277" at="71,87,80,5" concept="6" />
+      <node id="3077579741540767008" at="82,0,95,0" concept="7" trace="getEditorCellToInsert#(Lcom/intellij/openapi/actionSystem/AnActionEvent;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3077579741540699667" at="49,0,65,0" concept="7" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="3077579741540699667" at="65,0,82,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <scope id="3077579741540699667" at="33,32,34,16" />
+      <scope id="3077579741566029471" at="38,57,39,19" />
+      <scope id="3077579741540699667" at="46,89,47,85" />
+      <scope id="3077579741540699667" at="51,53,52,19" />
+      <scope id="7791284463049069784" at="56,67,57,31" />
+      <scope id="8898893144448210019" at="59,36,60,21" />
+      <scope id="3077579741543386663" at="67,73,68,13" />
+      <scope id="926916431353354279" at="72,172,73,111" />
+      <scope id="8970160220943784441" at="75,101,76,15" />
+      <scope id="926916431353360771" at="77,14,78,107" />
+      <scope id="6786694707189037794" at="85,52,86,18" />
+      <scope id="130230197973316880" at="89,32,90,18" />
+      <scope id="3077579741540699667" at="27,37,30,52" />
+      <scope id="3077579741540699667" at="32,0,36,0" />
+      <scope id="3077579741540699667" at="45,0,49,0">
+        <var name="_params" id="3077579741540699667" />
+        <var name="event" id="3077579741540699667" />
+      </scope>
+      <scope id="3077579741540699667" at="27,0,32,0" />
+      <scope id="926916431353357815" at="74,12,79,7" />
+      <scope id="3077579741540705265" at="37,87,43,136">
+        <var name="ec" id="5796550544066434851" />
+        <var name="editorCellToInsert" id="5796550544066363319" />
+      </scope>
+      <scope id="7791284463049069784" at="54,5,61,7">
+        <var name="editorComponent" id="7791284463049069784" />
+      </scope>
+      <scope id="3077579741540699667" at="36,0,45,0">
+        <var name="_params" id="3077579741540699667" />
+        <var name="event" id="3077579741540699667" />
+      </scope>
+      <scope id="3077579741540767010" at="82,75,93,76">
+        <var name="editorCell" id="130230197973316888" />
+        <var name="iterator" id="130230197973316871" />
+        <var name="selection" id="6786694707189028632" />
+      </scope>
+      <scope id="3077579741540699667" at="50,95,63,16" />
+      <scope id="3077579741540767008" at="82,0,95,0">
+        <var name="event" id="3077579741540767008" />
+      </scope>
+      <scope id="3077579741540699667" at="66,96,80,5">
+        <var name="editorCell" id="130230197973309844" />
+      </scope>
+      <scope id="3077579741540699667" at="49,0,65,0">
+        <var name="_params" id="3077579741540699667" />
+        <var name="event" id="3077579741540699667" />
+      </scope>
+      <scope id="3077579741540699667" at="65,0,82,0">
+        <var name="_params" id="3077579741540699667" />
+        <var name="event" id="3077579741540699667" />
+      </scope>
+      <unit id="3077579741540699667" at="24,0,96,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.InsertPopupAction_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="3077579741540699667" at="28,46,29,46" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)/3077579741541181707">
+    <file name="GrammarCellKeymapChanges_KeymapChanges.java">
+      <node id="3077579741541181712" at="8,51,9,93" concept="3" />
+      <node id="3077579741541181707" at="12,29,13,22" concept="9" />
+      <node id="3077579741541181707" at="8,0,11,0" concept="2" trace="GrammarCellKeymapChanges_KeymapChanges#()V" />
+      <node id="3077579741541181707" at="11,0,15,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
+      <scope id="3077579741541181707" at="8,51,9,93" />
+      <scope id="3077579741541181707" at="12,29,13,22" />
+      <scope id="3077579741541181707" at="8,0,11,0" />
+      <scope id="3077579741541181707" at="11,0,15,0" />
+      <unit id="3077579741541181707" at="7,0,17,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.GrammarCellKeymapChanges_KeymapChanges" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="3077579741541181707" at="33,92,34,88" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)/3077579741565647231">
+    <file name="ClearInsertPopupDefaultChoices_Action.java">
+      <node id="3077579741565647231" at="14,0,15,0" concept="12" trace="ICON" />
+      <node id="3077579741565647231" at="16,50,17,59" concept="13" />
+      <node id="3077579741565647231" at="17,59,18,35" concept="3" />
+      <node id="3077579741565647231" at="18,35,19,52" concept="3" />
+      <node id="3077579741565647231" at="19,52,20,29" concept="3" />
+      <node id="3077579741565647231" at="23,32,24,16" concept="9" />
+      <node id="3077579741565647811" at="27,96,28,60" concept="3" />
+      <node id="3077579741565647231" at="22,0,26,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="3077579741565647231" at="26,0,30,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3077579741565647231" at="16,0,22,0" concept="2" trace="ClearInsertPopupDefaultChoices_Action#()V" />
+      <scope id="3077579741565647231" at="23,32,24,16" />
+      <scope id="3077579741565647231" at="27,96,28,60" />
+      <scope id="3077579741565647231" at="16,50,20,29" />
+      <scope id="3077579741565647231" at="22,0,26,0" />
+      <scope id="3077579741565647231" at="26,0,30,0">
+        <var name="_params" id="3077579741565647231" />
+        <var name="event" id="3077579741565647231" />
+      </scope>
+      <scope id="3077579741565647231" at="16,0,22,0" />
+      <unit id="3077579741565647231" at="13,0,31,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ClearInsertPopupDefaultChoices_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="3077579741565647231" at="26,29,27,59" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)/3077579741566031405">
+    <file name="EnableInsertPopup_Action.java">
+      <node id="3077579741566031405" at="14,0,15,0" concept="12" trace="ICON" />
+      <node id="3077579741566031405" at="16,37,17,44" concept="13" />
+      <node id="3077579741566031405" at="17,44,18,35" concept="3" />
+      <node id="3077579741566031405" at="18,35,19,52" concept="3" />
+      <node id="3077579741566031405" at="19,52,20,29" concept="3" />
+      <node id="3077579741566031405" at="23,32,24,16" concept="9" />
+      <node id="3077579741566033183" at="27,87,28,58" concept="9" />
+      <node id="3077579741566031405" at="31,89,32,85" concept="3" />
+      <node id="3077579741566031408" at="35,96,36,57" concept="3" />
+      <node id="3077579741566031405" at="22,0,26,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="3077579741566031405" at="26,0,30,0" concept="7" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="3077579741566031405" at="30,0,34,0" concept="7" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3077579741566031405" at="34,0,38,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3077579741566031405" at="16,0,22,0" concept="2" trace="EnableInsertPopup_Action#()V" />
+      <scope id="3077579741566031405" at="23,32,24,16" />
+      <scope id="3077579741566032316" at="27,87,28,58" />
+      <scope id="3077579741566031405" at="31,89,32,85" />
+      <scope id="3077579741566031405" at="35,96,36,57" />
+      <scope id="3077579741566031405" at="16,37,20,29" />
+      <scope id="3077579741566031405" at="22,0,26,0" />
+      <scope id="3077579741566031405" at="26,0,30,0">
+        <var name="_params" id="3077579741566031405" />
+        <var name="event" id="3077579741566031405" />
+      </scope>
+      <scope id="3077579741566031405" at="30,0,34,0">
+        <var name="_params" id="3077579741566031405" />
+        <var name="event" id="3077579741566031405" />
+      </scope>
+      <scope id="3077579741566031405" at="34,0,38,0">
+        <var name="_params" id="3077579741566031405" />
+        <var name="event" id="3077579741566031405" />
+      </scope>
+      <scope id="3077579741566031405" at="16,0,22,0" />
+      <unit id="3077579741566031405" at="13,0,39,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.EnableInsertPopup_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="3077579741566031405" at="27,59,28,46" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)/5301639852818710235">
+    <file name="ApplicationPlugin_AppPluginPart.java">
+      <node id="5301639852818739695" at="29,0,30,0" concept="4" trace="deleteHandler" />
+      <node id="8206406812057024544" at="30,0,31,0" concept="4" trace="classLoaderManager" />
+      <node id="7657734638924826278" at="31,0,32,0" concept="4" trace="classesListener" />
+      <node id="4966760322458875853" at="32,0,33,0" concept="4" trace="myIsDisposed" />
+      <node id="7657734638924793140" at="36,22,37,0" concept="11" />
+      <node id="4397762812403518713" at="39,44,40,60" concept="8" />
+      <node id="5301639852818747202" at="40,60,41,61" concept="8" />
+      <node id="5301639852818748129" at="41,61,42,47" concept="3" />
+      <node id="2135267709615695616" at="42,47,43,42" concept="8" />
+      <node id="5301639852818749476" at="43,42,44,73" concept="3" />
+      <node id="7657734638924837792" at="46,6,47,0" concept="11" />
+      <node id="8206406812057016859" at="47,0,48,0" concept="11" />
+      <node id="8206406812057027245" at="48,0,49,160" concept="3" />
+      <node id="8206406812057086797" at="49,160,50,0" concept="11" />
+      <node id="1622138007862263897" at="54,102,55,35" concept="3" />
+      <node id="2312097807582147112" at="55,35,56,55" concept="3" />
+      <node id="8206406812057381921" at="56,55,57,0" concept="11" />
+      <node id="7657734638924843788" at="59,196,60,101" concept="3" />
+      <node id="8206406812057387280" at="60,101,61,18" concept="1" />
+      <node id="4966760322458879904" at="68,196,69,69" concept="3" />
+      <node id="4966760322458881373" at="69,69,70,55" concept="3" />
+      <node id="4966760322458881376" at="70,55,71,137" concept="3" />
+      <node id="4966760322458881383" at="71,137,72,58" concept="3" />
+      <node id="8206406812057390557" at="72,58,73,18" concept="1" />
+      <node id="8206406812057348274" at="75,9,76,0" concept="11" />
+      <node id="1622138007862770532" at="76,0,77,35" concept="3" />
+      <node id="2312097807582147830" at="77,35,78,55" concept="3" />
+      <node id="7657734638924796144" at="80,6,81,126" concept="3" />
+      <node id="7657734638924845605" at="81,126,82,0" concept="11" />
+      <node id="5301639852818711646" at="82,0,83,93" concept="3" />
+      <node id="5301639852818743549" at="87,63,88,49" concept="3" />
+      <node id="1622138007862263026" at="88,49,89,131" concept="3" />
+      <node id="2100918733316418515" at="89,131,90,52" concept="3" />
+      <node id="2100918733316421355" at="90,52,91,33" concept="3" />
+      <node id="5387699888072175595" at="91,33,92,46" concept="3" />
+      <node id="4966760322458882620" at="92,46,93,63" concept="3" />
+      <node id="5301639852818710235" at="33,0,35,0" concept="2" trace="ApplicationPlugin_AppPluginPart#()V" />
+      <node id="8206406812057187376" at="58,70,62,11" concept="6" />
+      <node id="8206406812057187372" at="57,0,63,9" concept="5" />
+      <node id="4397762812403511924" at="39,0,46,0" concept="7" trace="delete#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8206406812057389299" at="67,70,74,11" concept="6" />
+      <node id="4966760322458882085" at="86,25,94,5" concept="6" />
+      <node id="5301639852818740397" at="37,0,46,6" concept="3" />
+      <node id="8206406812057389295" at="66,104,75,9" concept="5" />
+      <node id="5301639852818710235" at="85,0,96,0" concept="7" trace="dispose#()V" />
+      <node id="8929058149732124393" at="53,0,65,0" concept="7" trace="onLoaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="8929058149732124414" at="65,0,80,0" concept="7" trace="onUnloaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="7657734638924828635" at="50,0,80,6" concept="3" />
+      <node id="5301639852818710235" at="35,0,85,0" concept="7" trace="init#()V" />
+      <scope id="5301639852818710235" at="33,44,33,44" />
+      <scope id="5301639852818710235" at="33,0,35,0" />
+      <scope id="8206406812057187383" at="59,196,61,18" />
+      <scope id="8206406812057187375" at="58,70,62,11" />
+      <scope id="4397762812403511930" at="39,44,44,73">
+        <var name="model" id="4397762812403518714" />
+        <var name="parent" id="5301639852818747203" />
+        <var name="parser" id="2135267709615695617" />
+      </scope>
+      <scope id="8206406812057389306" at="68,196,73,18" />
+      <scope id="8206406812057187372" at="57,0,63,9">
+        <var name="module" id="8206406812057187373" />
+      </scope>
+      <scope id="4966760322458882086" at="87,63,93,63" />
+      <scope id="4397762812403511924" at="39,0,46,0">
+        <var name="annotation" id="4397762812403511925" />
+      </scope>
+      <scope id="8206406812057389298" at="67,70,74,11" />
+      <scope id="5301639852818737406" at="86,25,94,5" />
+      <scope id="8929058149732124406" at="54,102,63,9" />
+      <scope id="8206406812057389295" at="66,104,75,9">
+        <var name="module" id="8206406812057389296" />
+      </scope>
+      <scope id="5301639852818710235" at="85,0,96,0" />
+      <scope id="8929058149732124393" at="53,0,65,0">
+        <var name="modules" id="8929058149732124398" />
+        <var name="monitor" id="8929058149732124402" />
+      </scope>
+      <scope id="8929058149732124427" at="66,104,78,55" />
+      <scope id="8929058149732124414" at="65,0,80,0">
+        <var name="modules" id="8929058149732124419" />
+        <var name="monitor" id="8929058149732124423" />
+      </scope>
+      <scope id="5301639852818710237" at="36,22,83,93" />
+      <scope id="5301639852818710235" at="35,0,85,0" />
+      <unit id="4397762812403511922" at="38,61,46,5" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ApplicationPlugin_AppPluginPart$1" />
+      <unit id="7657734638924822483" at="51,63,80,5" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ApplicationPlugin_AppPluginPart$2" />
+      <unit id="5301639852818710235" at="28,0,97,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ApplicationPlugin_AppPluginPart" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="5301639852818710235" at="39,68,40,53" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)/5301639852819126543">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="5301639852819126543" at="15,0,16,0" concept="4" trace="myId" />
+      <node id="5301639852819126543" at="21,27,22,16" concept="9" />
+      <node id="5301639852819126543" at="25,30,26,29" concept="10" />
+      <node id="5301639852819126543" at="29,46,30,13" concept="10" />
+      <node id="5301639852819126543" at="32,48,33,92" concept="8" />
+      <node id="5301639852819126543" at="34,88,35,15" concept="9" />
+      <node id="5301639852819126543" at="17,0,19,0" concept="2" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="5301639852819126543" at="20,0,24,0" concept="7" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="5301639852819126543" at="32,0,37,0" concept="7" trace="initKeymaps#()Ljava/util/List;" />
+      <node id="5301639852819126543" at="37,0,42,0" concept="7" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <node id="5301639852819126543" at="25,0,32,0" concept="7" trace="createGroups#()V" />
+      <scope id="5301639852819126543" at="17,38,17,38" />
+      <scope id="5301639852819126543" at="21,27,22,16" />
+      <scope id="5301639852819126543" at="17,0,19,0" />
+      <scope id="5301639852819126543" at="38,66,40,53" />
+      <scope id="5301639852819126543" at="32,48,35,15">
+        <var name="res" id="5301639852819126543" />
+      </scope>
+      <scope id="5301639852819126543" at="20,0,24,0" />
+      <scope id="5301639852819126543" at="25,30,30,13" />
+      <scope id="5301639852819126543" at="32,0,37,0" />
+      <scope id="5301639852819126543" at="37,0,42,0">
+        <var name="parts" id="5301639852819126543" />
+      </scope>
+      <scope id="5301639852819126543" at="25,0,32,0" />
+      <unit id="5301639852819126543" at="14,0,43,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)/6641812521578728496">
+    <file name="ActionPromoter_ApplicationPlugin_AppPluginPart.java">
+      <node id="6641812521578763263" at="16,90,17,286" concept="9" />
+      <node id="3077579741540745194" at="23,22,24,181" concept="3" />
+      <node id="6631482871510578543" at="27,25,28,183" concept="3" />
+      <node id="6641812521578728496" at="20,0,22,0" concept="2" trace="ActionPromoter_ApplicationPlugin_AppPluginPart#()V" />
+      <node id="6641812521578763253" at="16,0,19,0" concept="7" trace="promote#(Ljava/util/List;Lcom/intellij/openapi/actionSystem/DataContext;)Ljava/util/List;" />
+      <node id="6641812521578728496" at="22,0,26,0" concept="7" trace="init#()V" />
+      <node id="6641812521578728496" at="26,0,30,0" concept="7" trace="dispose#()V" />
+      <node id="6631482871510583038" at="15,0,20,0" concept="4" trace="promoter" />
+      <scope id="6641812521578728496" at="20,59,20,59" />
+      <scope id="6641812521578763262" at="16,90,17,286" />
+      <scope id="6641812521578767956" at="23,22,24,181" />
+      <scope id="6641812521578764620" at="27,25,28,183" />
+      <scope id="6641812521578728496" at="20,0,22,0" />
+      <scope id="6641812521578763253" at="16,0,19,0">
+        <var name="actions" id="6641812521578763257" />
+        <var name="context" id="6641812521578763260" />
+      </scope>
+      <scope id="6641812521578728496" at="22,0,26,0" />
+      <scope id="6641812521578728496" at="26,0,30,0" />
+      <unit id="6641812521578763251" at="15,40,19,3" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ActionPromoter_ApplicationPlugin_AppPluginPart$1" />
+      <unit id="6641812521578728496" at="14,0,31,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ActionPromoter_ApplicationPlugin_AppPluginPart" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="6641812521578728496" at="38,66,39,68" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)/7183792460437893170">
+    <file name="ParserFailureNotifier.java">
+      <node id="7183792460438043806" at="9,0,10,0" concept="7" trace="notifyParsingTimedOut#(JLorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="7183792460438043806" at="9,0,10,0">
+        <var name="contextModel" id="7183792460438044769" />
+        <var name="timeInMs" id="7183792460438102915" />
+      </scope>
+      <unit id="7183792460437893170" at="7,0,12,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ParserFailureNotifier" />
+    </file>
+  </root>
+</debug-info>
+

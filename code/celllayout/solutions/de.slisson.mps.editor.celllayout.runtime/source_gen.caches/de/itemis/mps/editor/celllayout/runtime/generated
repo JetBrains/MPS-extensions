@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-7wl4q1tmd938g8gub1wvewha7vpsrzl">
+  <files names="AbstractLayoutableAdapter.java:BorderPainter.java:CachingValue.java:CellLayoutExtensions.java:CellLayoutUtil.java:ICellLayoutWrapper.java:IEditorCellBasedLayoutable.java:ISupportsTopDownLayout.java:LayoutEngine.java:LayoutInterceptor.java:LayoutWatchdog.java:LayoutableAdapter.java:LayoutableAdapters.java:LayoutableCollectionAdapter.java:LayoutableExtensions.java:MethodPolymorphismInfo.java:PunctuableLayout.java:SizeCache.java:TopDownCellLayoutAdapter.java" />
+</product>
+

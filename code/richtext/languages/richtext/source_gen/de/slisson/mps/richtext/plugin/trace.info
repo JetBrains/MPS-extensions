@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="8,0,13,0" name="de.slisson.mps.richtext.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/1185192475716847950">
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="1185192475716847950" at="15,0,16,0" concept="4" trace="myId" />
+      <node id="1185192475716847950" at="21,27,22,16" concept="8" />
+      <node id="1185192475716847950" at="25,30,26,29" concept="9" />
+      <node id="1185192475716847950" at="37,54,38,13" concept="9" />
+      <node id="1185192475716847950" at="40,48,41,92" concept="7" />
+      <node id="1185192475716847950" at="43,89,44,15" concept="8" />
+      <node id="1185192475716847950" at="17,0,19,0" concept="2" trace="Richtext_ApplicationPlugin#()V" />
+      <node id="1185192475716847950" at="20,0,24,0" concept="6" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="1185192475716847950" at="46,0,50,0" concept="6" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <node id="1185192475716847950" at="40,0,46,0" concept="6" trace="initKeymaps#()Ljava/util/List;" />
+      <node id="1185192475716847950" at="25,0,40,0" concept="6" trace="createGroups#()V" />
+      <scope id="1185192475716847950" at="17,39,17,39" />
+      <scope id="1185192475716847950" at="21,27,22,16" />
+      <scope id="1185192475716847950" at="47,66,48,53" />
+      <scope id="1185192475716847950" at="17,0,19,0" />
+      <scope id="1185192475716847950" at="20,0,24,0" />
+      <scope id="1185192475716847950" at="40,48,44,15">
+        <var name="res" id="1185192475716847950" />
+      </scope>
+      <scope id="1185192475716847950" at="46,0,50,0">
+        <var name="parts" id="1185192475716847950" />
+      </scope>
+      <scope id="1185192475716847950" at="40,0,46,0" />
+      <scope id="1185192475716847950" at="25,30,38,13" />
+      <scope id="1185192475716847950" at="25,0,40,0" />
+      <unit id="1185192475716847950" at="14,0,51,0" name="de.slisson.mps.richtext.plugin.Richtext_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/1185192475716920403">
+    <file name="RichtextSelectionHandling_KeymapChanges.java">
+      <node id="6973228588407176706" at="8,52,9,85" concept="3" />
+      <node id="5740484903843206506" at="9,85,10,94" concept="3" />
+      <node id="5740484903843185414" at="10,94,11,94" concept="3" />
+      <node id="6973228588407177983" at="11,94,12,87" concept="3" />
+      <node id="7509457304305257522" at="12,87,13,92" concept="3" />
+      <node id="7509457304304770767" at="13,92,14,94" concept="3" />
+      <node id="1185192475716920403" at="17,29,18,22" concept="8" />
+      <node id="1185192475716920403" at="16,0,20,0" concept="6" trace="getScheme#()Ljava/lang/String;" />
+      <node id="1185192475716920403" at="8,0,16,0" concept="2" trace="RichtextSelectionHandling_KeymapChanges#()V" />
+      <scope id="1185192475716920403" at="17,29,18,22" />
+      <scope id="1185192475716920403" at="16,0,20,0" />
+      <scope id="1185192475716920403" at="8,52,14,94" />
+      <scope id="1185192475716920403" at="8,0,16,0" />
+      <unit id="1185192475716920403" at="7,0,22,0" name="de.slisson.mps.richtext.plugin.RichtextSelectionHandling_KeymapChanges" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="1185192475716920403" at="42,71,43,89" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/5740484903843212652">
+    <file name="RichtextSelectionLocalHome_Action.java">
+      <node id="5740484903843212652" at="18,0,19,0" concept="11" trace="ICON" />
+      <node id="5740484903843212652" at="20,46,21,50" concept="13" />
+      <node id="5740484903843212652" at="21,50,22,35" concept="3" />
+      <node id="5740484903843212652" at="22,35,23,52" concept="3" />
+      <node id="5740484903843212652" at="26,32,27,16" concept="8" />
+      <node id="5740484903843212672" at="31,170,32,19" concept="8" />
+      <node id="5740484903843212688" at="33,5,34,113" concept="7" />
+      <node id="3158011787691263125" at="35,113,36,18" concept="8" />
+      <node id="5740484903843212705" at="37,5,38,17" concept="8" />
+      <node id="5740484903843212652" at="41,89,42,85" concept="3" />
+      <node id="5740484903843212652" at="46,53,47,19" concept="8" />
+      <node id="5740484903843212666" at="49,5,50,90" concept="7" />
+      <node id="5740484903843212666" at="51,67,52,31" concept="3" />
+      <node id="5740484903843212667" at="54,36,55,21" concept="8" />
+      <node id="5740484903843212652" at="57,5,58,16" concept="8" />
+      <node id="3158011787691278050" at="61,96,62,113" concept="7" />
+      <node id="3158011787691278062" at="63,28,64,64" concept="3" />
+      <node id="5740484903843212670" at="30,87,33,5" concept="5" />
+      <node id="3158011787691263123" at="34,113,37,5" concept="5" />
+      <node id="5740484903843212652" at="45,95,48,5" concept="5" />
+      <node id="5740484903843212666" at="50,90,53,7" concept="5" />
+      <node id="5740484903843212667" at="53,7,56,7" concept="5" />
+      <node id="3158011787691278060" at="62,113,65,5" concept="5" />
+      <node id="5740484903843212652" at="25,0,29,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="5740484903843212652" at="40,0,44,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5740484903843212652" at="20,0,25,0" concept="2" trace="RichtextSelectionLocalHome_Action#()V" />
+      <node id="5740484903843212652" at="60,0,67,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5740484903843212666" at="48,5,57,5" concept="1" />
+      <node id="5740484903843212652" at="29,0,40,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="5740484903843212652" at="44,0,60,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="5740484903843212652" at="26,32,27,16" />
+      <scope id="5740484903843212671" at="31,170,32,19" />
+      <scope id="3158011787691263124" at="35,113,36,18" />
+      <scope id="5740484903843212652" at="41,89,42,85" />
+      <scope id="5740484903843212652" at="46,53,47,19" />
+      <scope id="5740484903843212666" at="51,67,52,31" />
+      <scope id="5740484903843212667" at="54,36,55,21" />
+      <scope id="3158011787691278061" at="63,28,64,64" />
+      <scope id="5740484903843212652" at="20,46,23,52" />
+      <scope id="5740484903843212652" at="25,0,29,0" />
+      <scope id="5740484903843212652" at="40,0,44,0">
+        <var name="_params" id="5740484903843212652" />
+        <var name="event" id="5740484903843212652" />
+      </scope>
+      <scope id="5740484903843212652" at="61,96,65,5">
+        <var name="selection" id="3158011787691278051" />
+      </scope>
+      <scope id="5740484903843212652" at="20,0,25,0" />
+      <scope id="5740484903843212666" at="49,5,56,7">
+        <var name="editorComponent" id="5740484903843212666" />
+      </scope>
+      <scope id="5740484903843212652" at="60,0,67,0">
+        <var name="_params" id="5740484903843212652" />
+        <var name="event" id="5740484903843212652" />
+      </scope>
+      <scope id="5740484903843212669" at="30,87,38,17">
+        <var name="selection" id="5740484903843212689" />
+      </scope>
+      <scope id="5740484903843212652" at="29,0,40,0">
+        <var name="_params" id="5740484903843212652" />
+        <var name="event" id="5740484903843212652" />
+      </scope>
+      <scope id="5740484903843212652" at="45,95,58,16" />
+      <scope id="5740484903843212652" at="44,0,60,0">
+        <var name="_params" id="5740484903843212652" />
+        <var name="event" id="5740484903843212652" />
+      </scope>
+      <unit id="5740484903843212652" at="17,0,68,0" name="de.slisson.mps.richtext.plugin.RichtextSelectionLocalHome_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="5740484903843212652" at="33,54,34,55" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/5740484903843233147">
+    <file name="RichtextSelectionLocalEnd_Action.java">
+      <node id="5740484903843233147" at="18,0,19,0" concept="11" trace="ICON" />
+      <node id="5740484903843233147" at="20,45,21,49" concept="13" />
+      <node id="5740484903843233147" at="21,49,22,35" concept="3" />
+      <node id="5740484903843233147" at="22,35,23,52" concept="3" />
+      <node id="5740484903843233147" at="26,32,27,16" concept="8" />
+      <node id="5740484903843233167" at="31,170,32,19" concept="8" />
+      <node id="5740484903843233183" at="33,5,34,113" concept="7" />
+      <node id="3158011787691261688" at="35,112,36,18" concept="8" />
+      <node id="5740484903843233200" at="37,5,38,17" concept="8" />
+      <node id="5740484903843233147" at="41,89,42,85" concept="3" />
+      <node id="5740484903843233147" at="46,53,47,19" concept="8" />
+      <node id="5740484903843233161" at="49,5,50,90" concept="7" />
+      <node id="5740484903843233161" at="51,67,52,31" concept="3" />
+      <node id="5740484903843233162" at="54,36,55,21" concept="8" />
+      <node id="5740484903843233147" at="57,5,58,16" concept="8" />
+      <node id="3158011787691275661" at="61,96,62,113" concept="7" />
+      <node id="3158011787691275673" at="63,28,64,63" concept="3" />
+      <node id="5740484903843233165" at="30,87,33,5" concept="5" />
+      <node id="3158011787691261686" at="34,113,37,5" concept="5" />
+      <node id="5740484903843233147" at="45,95,48,5" concept="5" />
+      <node id="5740484903843233161" at="50,90,53,7" concept="5" />
+      <node id="5740484903843233162" at="53,7,56,7" concept="5" />
+      <node id="3158011787691275671" at="62,113,65,5" concept="5" />
+      <node id="5740484903843233147" at="25,0,29,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="5740484903843233147" at="40,0,44,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5740484903843233147" at="20,0,25,0" concept="2" trace="RichtextSelectionLocalEnd_Action#()V" />
+      <node id="5740484903843233147" at="60,0,67,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5740484903843233161" at="48,5,57,5" concept="1" />
+      <node id="5740484903843233147" at="29,0,40,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="5740484903843233147" at="44,0,60,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="5740484903843233147" at="26,32,27,16" />
+      <scope id="5740484903843233166" at="31,170,32,19" />
+      <scope id="3158011787691261687" at="35,112,36,18" />
+      <scope id="5740484903843233147" at="41,89,42,85" />
+      <scope id="5740484903843233147" at="46,53,47,19" />
+      <scope id="5740484903843233161" at="51,67,52,31" />
+      <scope id="5740484903843233162" at="54,36,55,21" />
+      <scope id="3158011787691275672" at="63,28,64,63" />
+      <scope id="5740484903843233147" at="20,45,23,52" />
+      <scope id="5740484903843233147" at="25,0,29,0" />
+      <scope id="5740484903843233147" at="40,0,44,0">
+        <var name="_params" id="5740484903843233147" />
+        <var name="event" id="5740484903843233147" />
+      </scope>
+      <scope id="5740484903843233147" at="61,96,65,5">
+        <var name="selection" id="3158011787691275662" />
+      </scope>
+      <scope id="5740484903843233147" at="20,0,25,0" />
+      <scope id="5740484903843233161" at="49,5,56,7">
+        <var name="editorComponent" id="5740484903843233161" />
+      </scope>
+      <scope id="5740484903843233147" at="60,0,67,0">
+        <var name="_params" id="5740484903843233147" />
+        <var name="event" id="5740484903843233147" />
+      </scope>
+      <scope id="5740484903843233164" at="30,87,38,17">
+        <var name="selection" id="5740484903843233184" />
+      </scope>
+      <scope id="5740484903843233147" at="29,0,40,0">
+        <var name="_params" id="5740484903843233147" />
+        <var name="event" id="5740484903843233147" />
+      </scope>
+      <scope id="5740484903843233147" at="45,95,58,16" />
+      <scope id="5740484903843233147" at="44,0,60,0">
+        <var name="_params" id="5740484903843233147" />
+        <var name="event" id="5740484903843233147" />
+      </scope>
+      <unit id="5740484903843233147" at="17,0,68,0" name="de.slisson.mps.richtext.plugin.RichtextSelectionLocalEnd_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="5740484903843233147" at="32,50,33,54" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/6973228588407164110">
+    <file name="RichtextSelectionLeft_Action.java">
+      <node id="6973228588407164110" at="18,0,19,0" concept="11" trace="ICON" />
+      <node id="6973228588407164110" at="20,41,21,44" concept="13" />
+      <node id="6973228588407164110" at="21,44,22,35" concept="3" />
+      <node id="6973228588407164110" at="22,35,23,52" concept="3" />
+      <node id="6973228588407164110" at="26,32,27,16" concept="8" />
+      <node id="6973228588407164163" at="31,170,32,19" concept="8" />
+      <node id="6973228588407164179" at="33,5,34,113" concept="7" />
+      <node id="6973228588407164191" at="35,107,36,18" concept="8" />
+      <node id="6973228588407176632" at="37,5,38,17" concept="8" />
+      <node id="6973228588407164110" at="41,89,42,85" concept="3" />
+      <node id="6973228588407164110" at="46,53,47,19" concept="8" />
+      <node id="6973228588407164151" at="49,5,50,90" concept="7" />
+      <node id="6973228588407164151" at="51,67,52,31" concept="3" />
+      <node id="6973228588407164152" at="54,36,55,21" concept="8" />
+      <node id="6973228588407164110" at="57,5,58,16" concept="8" />
+      <node id="3158011787691215604" at="61,96,62,113" concept="7" />
+      <node id="2549531600787651884" at="63,28,64,58" concept="3" />
+      <node id="6973228588407164161" at="30,87,33,5" concept="5" />
+      <node id="6973228588407164189" at="34,113,37,5" concept="5" />
+      <node id="6973228588407164110" at="45,95,48,5" concept="5" />
+      <node id="6973228588407164151" at="50,90,53,7" concept="5" />
+      <node id="6973228588407164152" at="53,7,56,7" concept="5" />
+      <node id="3158011787691217545" at="62,113,65,5" concept="5" />
+      <node id="6973228588407164110" at="25,0,29,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="6973228588407164110" at="40,0,44,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="6973228588407164110" at="20,0,25,0" concept="2" trace="RichtextSelectionLeft_Action#()V" />
+      <node id="6973228588407164110" at="60,0,67,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="6973228588407164151" at="48,5,57,5" concept="1" />
+      <node id="6973228588407164110" at="29,0,40,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="6973228588407164110" at="44,0,60,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="6973228588407164110" at="26,32,27,16" />
+      <scope id="6973228588407164162" at="31,170,32,19" />
+      <scope id="6973228588407164190" at="35,107,36,18" />
+      <scope id="6973228588407164110" at="41,89,42,85" />
+      <scope id="6973228588407164110" at="46,53,47,19" />
+      <scope id="6973228588407164151" at="51,67,52,31" />
+      <scope id="6973228588407164152" at="54,36,55,21" />
+      <scope id="3158011787691217547" at="63,28,64,58" />
+      <scope id="6973228588407164110" at="20,41,23,52" />
+      <scope id="6973228588407164110" at="25,0,29,0" />
+      <scope id="6973228588407164110" at="40,0,44,0">
+        <var name="_params" id="6973228588407164110" />
+        <var name="event" id="6973228588407164110" />
+      </scope>
+      <scope id="6973228588407164110" at="61,96,65,5">
+        <var name="selection" id="3158011787691215605" />
+      </scope>
+      <scope id="6973228588407164110" at="20,0,25,0" />
+      <scope id="6973228588407164151" at="49,5,56,7">
+        <var name="editorComponent" id="6973228588407164151" />
+      </scope>
+      <scope id="6973228588407164110" at="60,0,67,0">
+        <var name="_params" id="6973228588407164110" />
+        <var name="event" id="6973228588407164110" />
+      </scope>
+      <scope id="6973228588407164154" at="30,87,38,17">
+        <var name="selection" id="6973228588407164180" />
+      </scope>
+      <scope id="6973228588407164110" at="29,0,40,0">
+        <var name="_params" id="6973228588407164110" />
+        <var name="event" id="6973228588407164110" />
+      </scope>
+      <scope id="6973228588407164110" at="45,95,58,16" />
+      <scope id="6973228588407164110" at="44,0,60,0">
+        <var name="_params" id="6973228588407164110" />
+        <var name="event" id="6973228588407164110" />
+      </scope>
+      <unit id="6973228588407164110" at="17,0,68,0" name="de.slisson.mps.richtext.plugin.RichtextSelectionLeft_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="6973228588407164110" at="31,44,32,50" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/6973228588407176642">
+    <file name="RichtextSelectionRight_Action.java">
+      <node id="6973228588407176642" at="18,0,19,0" concept="11" trace="ICON" />
+      <node id="6973228588407176642" at="20,42,21,44" concept="13" />
+      <node id="6973228588407176642" at="21,44,22,35" concept="3" />
+      <node id="6973228588407176642" at="22,35,23,52" concept="3" />
+      <node id="6973228588407176642" at="26,32,27,16" concept="8" />
+      <node id="6973228588407176668" at="31,170,32,19" concept="8" />
+      <node id="6973228588407176684" at="33,5,34,113" concept="7" />
+      <node id="3158011787691264320" at="35,108,36,18" concept="8" />
+      <node id="6973228588407176701" at="37,5,38,17" concept="8" />
+      <node id="6973228588407176642" at="41,89,42,85" concept="3" />
+      <node id="6973228588407176642" at="46,53,47,19" concept="8" />
+      <node id="6973228588407176656" at="49,5,50,90" concept="7" />
+      <node id="6973228588407176656" at="51,67,52,31" concept="3" />
+      <node id="6973228588407176657" at="54,36,55,21" concept="8" />
+      <node id="6973228588407176642" at="57,5,58,16" concept="8" />
+      <node id="3158011787691279537" at="61,96,62,113" concept="7" />
+      <node id="3158011787691279549" at="63,28,64,59" concept="3" />
+      <node id="6973228588407176666" at="30,87,33,5" concept="5" />
+      <node id="3158011787691264318" at="34,113,37,5" concept="5" />
+      <node id="6973228588407176642" at="45,95,48,5" concept="5" />
+      <node id="6973228588407176656" at="50,90,53,7" concept="5" />
+      <node id="6973228588407176657" at="53,7,56,7" concept="5" />
+      <node id="3158011787691279547" at="62,113,65,5" concept="5" />
+      <node id="6973228588407176642" at="25,0,29,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="6973228588407176642" at="40,0,44,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="6973228588407176642" at="20,0,25,0" concept="2" trace="RichtextSelectionRight_Action#()V" />
+      <node id="6973228588407176642" at="60,0,67,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="6973228588407176656" at="48,5,57,5" concept="1" />
+      <node id="6973228588407176642" at="29,0,40,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="6973228588407176642" at="44,0,60,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="6973228588407176642" at="26,32,27,16" />
+      <scope id="6973228588407176667" at="31,170,32,19" />
+      <scope id="3158011787691264319" at="35,108,36,18" />
+      <scope id="6973228588407176642" at="41,89,42,85" />
+      <scope id="6973228588407176642" at="46,53,47,19" />
+      <scope id="6973228588407176656" at="51,67,52,31" />
+      <scope id="6973228588407176657" at="54,36,55,21" />
+      <scope id="3158011787691279548" at="63,28,64,59" />
+      <scope id="6973228588407176642" at="20,42,23,52" />
+      <scope id="6973228588407176642" at="25,0,29,0" />
+      <scope id="6973228588407176642" at="40,0,44,0">
+        <var name="_params" id="6973228588407176642" />
+        <var name="event" id="6973228588407176642" />
+      </scope>
+      <scope id="6973228588407176642" at="61,96,65,5">
+        <var name="selection" id="3158011787691279538" />
+      </scope>
+      <scope id="6973228588407176642" at="20,0,25,0" />
+      <scope id="6973228588407176656" at="49,5,56,7">
+        <var name="editorComponent" id="6973228588407176656" />
+      </scope>
+      <scope id="6973228588407176642" at="60,0,67,0">
+        <var name="_params" id="6973228588407176642" />
+        <var name="event" id="6973228588407176642" />
+      </scope>
+      <scope id="6973228588407176659" at="30,87,38,17">
+        <var name="selection" id="6973228588407176685" />
+      </scope>
+      <scope id="6973228588407176642" at="29,0,40,0">
+        <var name="_params" id="6973228588407176642" />
+        <var name="event" id="6973228588407176642" />
+      </scope>
+      <scope id="6973228588407176642" at="45,95,58,16" />
+      <scope id="6973228588407176642" at="44,0,60,0">
+        <var name="_params" id="6973228588407176642" />
+        <var name="event" id="6973228588407176642" />
+      </scope>
+      <unit id="6973228588407176642" at="17,0,68,0" name="de.slisson.mps.richtext.plugin.RichtextSelectionRight_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="6973228588407176642" at="34,55,35,51" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/7509457304297661449">
+    <file name="DuplicateAction_Action.java">
+      <node id="7509457304297661449" at="29,0,30,0" concept="11" trace="ICON" />
+      <node id="7509457304297661449" at="31,35,32,38" concept="13" />
+      <node id="7509457304297661449" at="32,38,33,35" concept="3" />
+      <node id="7509457304297661449" at="33,35,34,57" concept="3" />
+      <node id="7509457304297661449" at="37,32,38,16" concept="8" />
+      <node id="7509457304298111122" at="41,95,42,56" concept="7" />
+      <node id="7509457304298325469" at="42,56,43,278" concept="3" />
+      <node id="7509457304298126619" at="43,278,44,98" concept="7" />
+      <node id="7509457304298144692" at="45,50,46,45" concept="3" />
+      <node id="7509457304298159047" at="47,12,48,46" concept="3" />
+      <node id="7509457304297661449" at="53,53,54,19" concept="8" />
+      <node id="4362199797783345563" at="56,5,57,90" concept="7" />
+      <node id="4362199797783345563" at="58,67,59,31" concept="3" />
+      <node id="8898893144448210145" at="61,36,62,21" concept="8" />
+      <node id="4362199797783345564" at="65,5,66,65" concept="7" />
+      <node id="8898893144448209924" at="67,26,68,21" concept="8" />
+      <node id="8898893144448209924" at="70,28,71,21" concept="8" />
+      <node id="4362199797783345564" at="72,7,73,0" concept="10" />
+      <node id="7509457304297661449" at="74,5,75,16" concept="8" />
+      <node id="2393162007056757113" at="78,96,79,98" concept="7" />
+      <node id="7509457304297776057" at="80,41,81,118" concept="3" />
+      <node id="7509457304297800776" at="82,12,83,208" concept="3" />
+      <node id="7509457304298156805" at="47,10,49,5" concept="1" />
+      <node id="7509457304297787858" at="82,10,84,5" concept="1" />
+      <node id="7509457304297661449" at="52,95,55,5" concept="5" />
+      <node id="4362199797783345563" at="57,90,60,7" concept="5" />
+      <node id="8898893144448210145" at="60,7,63,7" concept="5" />
+      <node id="8898893144448209924" at="66,65,69,7" concept="5" />
+      <node id="8898893144448209924" at="69,7,72,7" concept="5" />
+      <node id="7509457304297661449" at="36,0,40,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="7509457304297661449" at="31,0,36,0" concept="2" trace="DuplicateAction_Action#()V" />
+      <node id="7509457304298140665" at="44,98,49,5" concept="5" />
+      <node id="7509457304297735872" at="79,98,84,5" concept="5" />
+      <node id="4362199797783345563" at="55,5,64,5" concept="1" />
+      <node id="7509457304297661449" at="77,0,86,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="4362199797783345564" at="64,5,74,5" concept="1" />
+      <node id="7509457304297661449" at="40,0,51,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304297661449" at="51,0,77,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7509457304297661449" at="37,32,38,16" />
+      <scope id="7509457304298140667" at="45,50,46,45" />
+      <scope id="7509457304298156806" at="47,12,48,46" />
+      <scope id="7509457304297661449" at="53,53,54,19" />
+      <scope id="4362199797783345563" at="58,67,59,31" />
+      <scope id="8898893144448210145" at="61,36,62,21" />
+      <scope id="8898893144448209924" at="67,26,68,21" />
+      <scope id="8898893144448209924" at="70,28,71,21" />
+      <scope id="7509457304297735874" at="80,41,81,118" />
+      <scope id="7509457304297787859" at="82,12,83,208" />
+      <scope id="7509457304297661449" at="31,35,34,57" />
+      <scope id="7509457304297661449" at="36,0,40,0" />
+      <scope id="7509457304297661449" at="31,0,36,0" />
+      <scope id="7509457304297661449" at="78,96,84,5">
+        <var name="helper" id="2393162007056757114" />
+      </scope>
+      <scope id="4362199797783345563" at="56,5,63,7">
+        <var name="editorComponent" id="4362199797783345563" />
+      </scope>
+      <scope id="7509457304298311703" at="41,95,49,5">
+        <var name="presentation" id="7509457304298111123" />
+        <var name="selectedCell" id="7509457304298126620" />
+      </scope>
+      <scope id="4362199797783345564" at="65,5,73,0">
+        <var name="nodes" id="4362199797783345564" />
+      </scope>
+      <scope id="7509457304297661449" at="77,0,86,0">
+        <var name="_params" id="7509457304297661449" />
+        <var name="event" id="7509457304297661449" />
+      </scope>
+      <scope id="7509457304297661449" at="40,0,51,0">
+        <var name="_params" id="7509457304297661449" />
+        <var name="event" id="7509457304297661449" />
+      </scope>
+      <scope id="7509457304297661449" at="52,95,75,16" />
+      <scope id="7509457304297661449" at="51,0,77,0">
+        <var name="_params" id="7509457304297661449" />
+        <var name="event" id="7509457304297661449" />
+      </scope>
+      <unit id="7509457304297661449" at="28,0,87,0" name="de.slisson.mps.richtext.plugin.DuplicateAction_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="7509457304297661449" at="30,46,31,44" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/7509457304300889580">
+    <file name="DeleteToWordEnd_Action.java">
+      <node id="7509457304300889580" at="21,0,22,0" concept="11" trace="ICON" />
+      <node id="7509457304300889580" at="23,35,24,42" concept="13" />
+      <node id="7509457304300889580" at="24,42,25,35" concept="3" />
+      <node id="7509457304300889580" at="25,35,26,57" concept="3" />
+      <node id="7509457304300889580" at="29,32,30,16" concept="8" />
+      <node id="3158011787691195708" at="33,87,34,98" concept="7" />
+      <node id="3158011787691195716" at="34,98,35,303" concept="8" />
+      <node id="7509457304300889580" at="38,89,39,85" concept="3" />
+      <node id="7509457304300889580" at="43,53,44,19" concept="8" />
+      <node id="7509457304300889581" at="46,5,47,90" concept="7" />
+      <node id="7509457304300889581" at="48,67,49,31" concept="3" />
+      <node id="7509457304300889582" at="51,36,52,21" concept="8" />
+      <node id="7509457304300889580" at="54,5,55,16" concept="8" />
+      <node id="7509457304301597458" at="58,96,59,0" concept="10" />
+      <node id="7509457304298674251" at="59,0,60,117" concept="7" />
+      <node id="7509457304301605405" at="61,50,62,89" concept="7" />
+      <node id="7509457304298715996" at="62,89,63,57" concept="3" />
+      <node id="2939540004064746710" at="64,46,65,30" concept="3" />
+      <node id="2939540004064746678" at="66,7,67,0" concept="10" />
+      <node id="245600937059473628" at="68,12,69,142" concept="3" />
+      <node id="7509457304301606234" at="72,68,73,47" concept="8" />
+      <node id="2939540004064746718" at="75,52,76,40" concept="8" />
+      <node id="7509457304301608017" at="68,10,70,5" concept="1" />
+      <node id="7509457304300889580" at="42,95,45,5" concept="5" />
+      <node id="7509457304300889581" at="47,90,50,7" concept="5" />
+      <node id="7509457304300889582" at="50,7,53,7" concept="5" />
+      <node id="2939540004064746708" at="63,57,66,7" concept="5" />
+      <node id="7509457304301606234" at="72,0,75,0" concept="12" trace="as_equnf9_a0a0a2a7#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="2939540004064746718" at="75,0,78,0" concept="12" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="7509457304300889580" at="28,0,32,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="7509457304300889580" at="37,0,41,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304300889580" at="23,0,28,0" concept="2" trace="DeleteToWordEnd_Action#()V" />
+      <node id="7509457304300889580" at="32,0,37,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7509457304300889581" at="45,5,54,5" concept="1" />
+      <node id="7509457304301600637" at="60,117,70,5" concept="5" />
+      <node id="7509457304300889580" at="57,0,72,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304300889580" at="41,0,57,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7509457304300889580" at="29,32,30,16" />
+      <scope id="7509457304300889580" at="38,89,39,85" />
+      <scope id="7509457304300889580" at="43,53,44,19" />
+      <scope id="7509457304300889581" at="48,67,49,31" />
+      <scope id="7509457304300889582" at="51,36,52,21" />
+      <scope id="2939540004064746709" at="64,46,65,30" />
+      <scope id="7509457304301608018" at="68,12,69,142" />
+      <scope id="7509457304301606234" at="72,68,73,47" />
+      <scope id="2939540004064746718" at="75,52,76,40" />
+      <scope id="7509457304300912205" at="33,87,35,303">
+        <var name="helper" id="3158011787691195709" />
+      </scope>
+      <scope id="7509457304300889580" at="23,35,26,57" />
+      <scope id="7509457304301606234" at="72,0,75,0">
+        <var name="o" id="7509457304301606234" />
+        <var name="type" id="7509457304301606234" />
+      </scope>
+      <scope id="2939540004064746718" at="75,0,78,0">
+        <var name="str" id="2939540004064746718" />
+      </scope>
+      <scope id="7509457304300889580" at="28,0,32,0" />
+      <scope id="7509457304300889580" at="37,0,41,0">
+        <var name="_params" id="7509457304300889580" />
+        <var name="event" id="7509457304300889580" />
+      </scope>
+      <scope id="7509457304300889580" at="23,0,28,0" />
+      <scope id="7509457304300889580" at="32,0,37,0">
+        <var name="_params" id="7509457304300889580" />
+        <var name="event" id="7509457304300889580" />
+      </scope>
+      <scope id="7509457304301600639" at="61,50,67,0">
+        <var name="wordCell" id="7509457304301605408" />
+      </scope>
+      <scope id="7509457304300889581" at="46,5,53,7">
+        <var name="editorComponent" id="7509457304300889581" />
+      </scope>
+      <scope id="7509457304300889580" at="58,96,70,5">
+        <var name="selectedCell" id="7509457304298674252" />
+      </scope>
+      <scope id="7509457304300889580" at="42,95,55,16" />
+      <scope id="7509457304300889580" at="57,0,72,0">
+        <var name="_params" id="7509457304300889580" />
+        <var name="event" id="7509457304300889580" />
+      </scope>
+      <scope id="7509457304300889580" at="41,0,57,0">
+        <var name="_params" id="7509457304300889580" />
+        <var name="event" id="7509457304300889580" />
+      </scope>
+      <unit id="7509457304300889580" at="20,0,79,0" name="de.slisson.mps.richtext.plugin.DeleteToWordEnd_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="7509457304300889580" at="28,46,29,44" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/7509457304301591396">
+    <file name="DeleteToWordStart_Action.java">
+      <node id="7509457304301591396" at="17,0,18,0" concept="11" trace="ICON" />
+      <node id="7509457304301591396" at="19,37,20,44" concept="13" />
+      <node id="7509457304301591396" at="20,44,21,35" concept="3" />
+      <node id="7509457304301591396" at="21,35,22,57" concept="3" />
+      <node id="7509457304301591396" at="25,32,26,16" concept="8" />
+      <node id="3158011787691207650" at="29,87,30,98" concept="7" />
+      <node id="3158011787691207658" at="30,98,31,102" concept="8" />
+      <node id="7509457304301591396" at="34,89,35,85" concept="3" />
+      <node id="7509457304301591396" at="39,53,40,19" concept="8" />
+      <node id="7509457304301591397" at="42,5,43,90" concept="7" />
+      <node id="7509457304301591397" at="44,67,45,31" concept="3" />
+      <node id="7509457304301591398" at="47,36,48,21" concept="8" />
+      <node id="7509457304301591396" at="50,5,51,16" concept="8" />
+      <node id="7509457304301591405" at="54,96,55,163" concept="7" />
+      <node id="7509457304301591417" at="55,163,56,62" concept="3" />
+      <node id="7509457304301711242" at="57,49,58,39" concept="3" />
+      <node id="2939540004064719237" at="60,48,61,32" concept="3" />
+      <node id="7509457304301591408" at="64,66,65,47" concept="8" />
+      <node id="2939540004064719002" at="67,52,68,40" concept="8" />
+      <node id="7509457304301591396" at="38,95,41,5" concept="5" />
+      <node id="7509457304301591397" at="43,90,46,7" concept="5" />
+      <node id="7509457304301591398" at="46,7,49,7" concept="5" />
+      <node id="6193633844734031609" at="56,62,59,5" concept="5" />
+      <node id="2939540004064706840" at="59,5,62,5" concept="5" />
+      <node id="7509457304301591408" at="64,0,67,0" concept="12" trace="as_kofazl_a0a0a7#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="2939540004064719002" at="67,0,70,0" concept="12" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="7509457304301591396" at="24,0,28,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="7509457304301591396" at="33,0,37,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304301591396" at="19,0,24,0" concept="2" trace="DeleteToWordStart_Action#()V" />
+      <node id="7509457304301591396" at="28,0,33,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7509457304301591397" at="41,5,50,5" concept="1" />
+      <node id="7509457304301591396" at="53,0,64,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304301591396" at="37,0,53,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7509457304301591396" at="25,32,26,16" />
+      <scope id="7509457304301591396" at="34,89,35,85" />
+      <scope id="7509457304301591396" at="39,53,40,19" />
+      <scope id="7509457304301591397" at="44,67,45,31" />
+      <scope id="7509457304301591398" at="47,36,48,21" />
+      <scope id="6193633844734031611" at="57,49,58,39" />
+      <scope id="2939540004064706842" at="60,48,61,32" />
+      <scope id="7509457304301591408" at="64,66,65,47" />
+      <scope id="2939540004064719002" at="67,52,68,40" />
+      <scope id="7509457304301591425" at="29,87,31,102">
+        <var name="helper" id="3158011787691207651" />
+      </scope>
+      <scope id="7509457304301591396" at="19,37,22,57" />
+      <scope id="7509457304301591408" at="64,0,67,0">
+        <var name="o" id="7509457304301591408" />
+        <var name="type" id="7509457304301591408" />
+      </scope>
+      <scope id="2939540004064719002" at="67,0,70,0">
+        <var name="str" id="2939540004064719002" />
+      </scope>
+      <scope id="7509457304301591396" at="24,0,28,0" />
+      <scope id="7509457304301591396" at="33,0,37,0">
+        <var name="_params" id="7509457304301591396" />
+        <var name="event" id="7509457304301591396" />
+      </scope>
+      <scope id="7509457304301591396" at="19,0,24,0" />
+      <scope id="7509457304301591396" at="28,0,33,0">
+        <var name="_params" id="7509457304301591396" />
+        <var name="event" id="7509457304301591396" />
+      </scope>
+      <scope id="7509457304301591397" at="42,5,49,7">
+        <var name="editorComponent" id="7509457304301591397" />
+      </scope>
+      <scope id="7509457304301591396" at="54,96,62,5">
+        <var name="selectedWord" id="7509457304301591406" />
+      </scope>
+      <scope id="7509457304301591396" at="53,0,64,0">
+        <var name="_params" id="7509457304301591396" />
+        <var name="event" id="7509457304301591396" />
+      </scope>
+      <scope id="7509457304301591396" at="38,95,51,16" />
+      <scope id="7509457304301591396" at="37,0,53,0">
+        <var name="_params" id="7509457304301591396" />
+        <var name="event" id="7509457304301591396" />
+      </scope>
+      <unit id="7509457304301591396" at="16,0,71,0" name="de.slisson.mps.richtext.plugin.DeleteToWordStart_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="7509457304301591396" at="29,44,30,46" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/7509457304301617004">
+    <file name="Default_KeymapChanges.java">
+      <node id="7509457304301665217" at="8,34,9,86" concept="3" />
+      <node id="7509457304301665215" at="9,86,10,92" concept="3" />
+      <node id="7509457304300968669" at="10,92,11,80" concept="3" />
+      <node id="7509457304301618658" at="11,80,12,86" concept="3" />
+      <node id="7509457304297687310" at="12,86,13,75" concept="3" />
+      <node id="7509457304301617004" at="16,29,17,22" concept="8" />
+      <node id="7509457304301617004" at="15,0,19,0" concept="6" trace="getScheme#()Ljava/lang/String;" />
+      <node id="7509457304301617004" at="8,0,15,0" concept="2" trace="Default_KeymapChanges#()V" />
+      <scope id="7509457304301617004" at="16,29,17,22" />
+      <scope id="7509457304301617004" at="15,0,19,0" />
+      <scope id="7509457304301617004" at="8,34,13,75" />
+      <scope id="7509457304301617004" at="8,0,15,0" />
+      <unit id="7509457304301617004" at="7,0,21,0" name="de.slisson.mps.richtext.plugin.Default_KeymapChanges" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="7509457304301617004" at="41,92,42,71" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/7509457304301659166">
+    <file name="DeleteToLineStart_Action.java">
+      <node id="7509457304301659166" at="18,0,19,0" concept="11" trace="ICON" />
+      <node id="7509457304301659166" at="20,37,21,44" concept="13" />
+      <node id="7509457304301659166" at="21,44,22,35" concept="3" />
+      <node id="7509457304301659166" at="22,35,23,57" concept="3" />
+      <node id="7509457304301659166" at="26,32,27,16" concept="8" />
+      <node id="3158011787691193054" at="30,87,31,98" concept="7" />
+      <node id="3158011787691193062" at="31,98,32,103" concept="8" />
+      <node id="7509457304301659166" at="35,89,36,85" concept="3" />
+      <node id="7509457304301659166" at="40,53,41,19" concept="8" />
+      <node id="7509457304301659167" at="43,5,44,90" concept="7" />
+      <node id="7509457304301659167" at="45,67,46,31" concept="3" />
+      <node id="7509457304301659168" at="48,36,49,21" concept="8" />
+      <node id="7509457304301659166" at="51,5,52,16" concept="8" />
+      <node id="7509457304301660792" at="55,96,56,126" concept="3" />
+      <node id="7509457304301966478" at="56,126,57,0" concept="10" />
+      <node id="7509457304301659166" at="39,95,42,5" concept="5" />
+      <node id="7509457304301659167" at="44,90,47,7" concept="5" />
+      <node id="7509457304301659168" at="47,7,50,7" concept="5" />
+      <node id="7509457304301659166" at="25,0,29,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="7509457304301659166" at="34,0,38,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304301659166" at="20,0,25,0" concept="2" trace="DeleteToLineStart_Action#()V" />
+      <node id="7509457304301659166" at="29,0,34,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7509457304301659166" at="54,0,59,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304301659167" at="42,5,51,5" concept="1" />
+      <node id="7509457304301659166" at="38,0,54,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7509457304301659166" at="26,32,27,16" />
+      <scope id="7509457304301659166" at="35,89,36,85" />
+      <scope id="7509457304301659166" at="40,53,41,19" />
+      <scope id="7509457304301659167" at="45,67,46,31" />
+      <scope id="7509457304301659168" at="48,36,49,21" />
+      <scope id="7509457304301659191" at="30,87,32,103">
+        <var name="helper" id="3158011787691193055" />
+      </scope>
+      <scope id="7509457304301659166" at="55,96,57,0" />
+      <scope id="7509457304301659166" at="20,37,23,57" />
+      <scope id="7509457304301659166" at="25,0,29,0" />
+      <scope id="7509457304301659166" at="34,0,38,0">
+        <var name="_params" id="7509457304301659166" />
+        <var name="event" id="7509457304301659166" />
+      </scope>
+      <scope id="7509457304301659166" at="20,0,25,0" />
+      <scope id="7509457304301659166" at="29,0,34,0">
+        <var name="_params" id="7509457304301659166" />
+        <var name="event" id="7509457304301659166" />
+      </scope>
+      <scope id="7509457304301659166" at="54,0,59,0">
+        <var name="_params" id="7509457304301659166" />
+        <var name="event" id="7509457304301659166" />
+      </scope>
+      <scope id="7509457304301659167" at="43,5,50,7">
+        <var name="editorComponent" id="7509457304301659167" />
+      </scope>
+      <scope id="7509457304301659166" at="39,95,52,16" />
+      <scope id="7509457304301659166" at="38,0,54,0">
+        <var name="_params" id="7509457304301659166" />
+        <var name="event" id="7509457304301659166" />
+      </scope>
+      <unit id="7509457304301659166" at="17,0,60,0" name="de.slisson.mps.richtext.plugin.DeleteToLineStart_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="7509457304301659166" at="27,44,28,46" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/7509457304301661979">
+    <file name="DeleteToLineEnd_Action.java">
+      <node id="7509457304301661979" at="18,0,19,0" concept="11" trace="ICON" />
+      <node id="7509457304301661979" at="20,35,21,42" concept="13" />
+      <node id="7509457304301661979" at="21,42,22,35" concept="3" />
+      <node id="7509457304301661979" at="22,35,23,57" concept="3" />
+      <node id="7509457304301661979" at="26,32,27,16" concept="8" />
+      <node id="3158011787691182120" at="30,87,31,98" concept="7" />
+      <node id="3158011787691135078" at="31,98,32,103" concept="8" />
+      <node id="7509457304301661979" at="35,89,36,85" concept="3" />
+      <node id="7509457304301661979" at="40,53,41,19" concept="8" />
+      <node id="7509457304301661980" at="43,5,44,90" concept="7" />
+      <node id="7509457304301661980" at="45,67,46,31" concept="3" />
+      <node id="7509457304301661981" at="48,36,49,21" concept="8" />
+      <node id="7509457304301661979" at="51,5,52,16" concept="8" />
+      <node id="7509457304301661984" at="55,96,56,124" concept="3" />
+      <node id="7509457304301661979" at="39,95,42,5" concept="5" />
+      <node id="7509457304301661980" at="44,90,47,7" concept="5" />
+      <node id="7509457304301661981" at="47,7,50,7" concept="5" />
+      <node id="7509457304301661979" at="25,0,29,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="7509457304301661979" at="34,0,38,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304301661979" at="54,0,58,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304301661979" at="20,0,25,0" concept="2" trace="DeleteToLineEnd_Action#()V" />
+      <node id="7509457304301661979" at="29,0,34,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7509457304301661980" at="42,5,51,5" concept="1" />
+      <node id="7509457304301661979" at="38,0,54,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7509457304301661979" at="26,32,27,16" />
+      <scope id="7509457304301661979" at="35,89,36,85" />
+      <scope id="7509457304301661979" at="40,53,41,19" />
+      <scope id="7509457304301661980" at="45,67,46,31" />
+      <scope id="7509457304301661981" at="48,36,49,21" />
+      <scope id="7509457304301661979" at="55,96,56,124" />
+      <scope id="7509457304301661992" at="30,87,32,103">
+        <var name="helper" id="3158011787691182121" />
+      </scope>
+      <scope id="7509457304301661979" at="20,35,23,57" />
+      <scope id="7509457304301661979" at="25,0,29,0" />
+      <scope id="7509457304301661979" at="34,0,38,0">
+        <var name="_params" id="7509457304301661979" />
+        <var name="event" id="7509457304301661979" />
+      </scope>
+      <scope id="7509457304301661979" at="54,0,58,0">
+        <var name="_params" id="7509457304301661979" />
+        <var name="event" id="7509457304301661979" />
+      </scope>
+      <scope id="7509457304301661979" at="20,0,25,0" />
+      <scope id="7509457304301661979" at="29,0,34,0">
+        <var name="_params" id="7509457304301661979" />
+        <var name="event" id="7509457304301661979" />
+      </scope>
+      <scope id="7509457304301661980" at="43,5,50,7">
+        <var name="editorComponent" id="7509457304301661980" />
+      </scope>
+      <scope id="7509457304301661979" at="39,95,52,16" />
+      <scope id="7509457304301661979" at="38,0,54,0">
+        <var name="_params" id="7509457304301661979" />
+        <var name="event" id="7509457304301661979" />
+      </scope>
+      <unit id="7509457304301661979" at="17,0,59,0" name="de.slisson.mps.richtext.plugin.DeleteToLineEnd_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="7509457304301661979" at="26,29,27,44" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/7509457304304647398">
+    <file name="RichtextSelectionRootHome_Action.java">
+      <node id="7509457304304647398" at="24,0,25,0" concept="11" trace="ICON" />
+      <node id="7509457304304647398" at="26,45,27,49" concept="13" />
+      <node id="7509457304304647398" at="27,49,28,35" concept="3" />
+      <node id="7509457304304647398" at="28,35,29,57" concept="3" />
+      <node id="7509457304304647398" at="32,32,33,16" concept="8" />
+      <node id="7509457304304791696" at="36,87,37,105" concept="8" />
+      <node id="7509457304304647398" at="40,89,41,85" concept="3" />
+      <node id="7509457304304647398" at="45,53,46,19" concept="8" />
+      <node id="7509457304304647412" at="48,5,49,90" concept="7" />
+      <node id="7509457304304647412" at="50,67,51,31" concept="3" />
+      <node id="7509457304304647413" at="53,36,54,21" concept="8" />
+      <node id="7509457304304647398" at="56,5,57,16" concept="8" />
+      <node id="6193633844726266097" at="60,96,61,98" concept="7" />
+      <node id="6193633844726266105" at="61,98,62,25" concept="3" />
+      <node id="6193633844726266109" at="62,25,63,42" concept="7" />
+      <node id="6193633844726266115" at="63,42,64,214" concept="7" />
+      <node id="6193633844726266130" at="64,214,65,58" concept="7" />
+      <node id="6193633844726266136" at="65,58,66,153" concept="7" />
+      <node id="6193633844726266152" at="66,153,67,104" concept="3" />
+      <node id="7509457304304647398" at="71,0,72,0" concept="11" trace="words$C8QZ" />
+      <node id="7509457304304647398" at="44,95,47,5" concept="5" />
+      <node id="7509457304304647412" at="49,90,52,7" concept="5" />
+      <node id="7509457304304647413" at="52,7,55,7" concept="5" />
+      <node id="7509457304304647398" at="31,0,35,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="7509457304304647398" at="35,0,39,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7509457304304647398" at="39,0,43,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304304647398" at="26,0,31,0" concept="2" trace="RichtextSelectionRootHome_Action#()V" />
+      <node id="7509457304304647412" at="47,5,56,5" concept="1" />
+      <node id="7509457304304647398" at="59,0,69,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304304647398" at="43,0,59,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7509457304304647398" at="32,32,33,16" />
+      <scope id="7509457304304647415" at="36,87,37,105" />
+      <scope id="7509457304304647398" at="40,89,41,85" />
+      <scope id="7509457304304647398" at="45,53,46,19" />
+      <scope id="7509457304304647412" at="50,67,51,31" />
+      <scope id="7509457304304647413" at="53,36,54,21" />
+      <scope id="7509457304304647398" at="26,45,29,57" />
+      <scope id="7509457304304647398" at="31,0,35,0" />
+      <scope id="7509457304304647398" at="35,0,39,0">
+        <var name="_params" id="7509457304304647398" />
+        <var name="event" id="7509457304304647398" />
+      </scope>
+      <scope id="7509457304304647398" at="39,0,43,0">
+        <var name="_params" id="7509457304304647398" />
+        <var name="event" id="7509457304304647398" />
+      </scope>
+      <scope id="7509457304304647398" at="26,0,31,0" />
+      <scope id="7509457304304647412" at="48,5,55,7">
+        <var name="editorComponent" id="7509457304304647412" />
+      </scope>
+      <scope id="7509457304304647398" at="60,96,67,104">
+        <var name="firstCell" id="6193633844726266131" />
+        <var name="helper" id="6193633844726266098" />
+        <var name="multilineCell" id="6193633844726266116" />
+        <var name="newSelection" id="6193633844726266137" />
+        <var name="textNode" id="6193633844726266110" />
+      </scope>
+      <scope id="7509457304304647398" at="59,0,69,0">
+        <var name="_params" id="7509457304304647398" />
+        <var name="event" id="7509457304304647398" />
+      </scope>
+      <scope id="7509457304304647398" at="44,95,57,16" />
+      <scope id="7509457304304647398" at="43,0,59,0">
+        <var name="_params" id="7509457304304647398" />
+        <var name="event" id="7509457304304647398" />
+      </scope>
+      <unit id="7509457304304647398" at="70,0,73,0" name="de.slisson.mps.richtext.plugin.RichtextSelectionRootHome_Action$LINKS" />
+      <unit id="7509457304304647398" at="23,0,74,0" name="de.slisson.mps.richtext.plugin.RichtextSelectionRootHome_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="7509457304304647398" at="36,53,37,54" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/7509457304304648810">
+    <file name="RichtextSelectionRootEnd_Action.java">
+      <node id="7509457304304648810" at="24,0,25,0" concept="11" trace="ICON" />
+      <node id="7509457304304648810" at="26,44,27,48" concept="13" />
+      <node id="7509457304304648810" at="27,48,28,35" concept="3" />
+      <node id="7509457304304648810" at="28,35,29,57" concept="3" />
+      <node id="7509457304304648810" at="32,32,33,16" concept="8" />
+      <node id="3158011787691273178" at="36,87,37,105" concept="8" />
+      <node id="7509457304304648810" at="40,89,41,85" concept="3" />
+      <node id="7509457304304648810" at="45,53,46,19" concept="8" />
+      <node id="7509457304304648824" at="48,5,49,90" concept="7" />
+      <node id="7509457304304648824" at="50,67,51,31" concept="3" />
+      <node id="7509457304304648825" at="53,36,54,21" concept="8" />
+      <node id="7509457304304648810" at="56,5,57,16" concept="8" />
+      <node id="8562978693427410414" at="60,96,61,98" concept="7" />
+      <node id="6193633844725992018" at="61,98,62,25" concept="3" />
+      <node id="5561167298738087258" at="62,25,63,42" concept="7" />
+      <node id="5561167298738088994" at="63,42,64,214" concept="7" />
+      <node id="6193633844726173999" at="64,214,65,56" concept="7" />
+      <node id="8562978693427410440" at="65,56,66,178" concept="7" />
+      <node id="8562978693427410452" at="66,178,67,104" concept="3" />
+      <node id="7509457304304648810" at="71,0,72,0" concept="11" trace="words$C8QZ" />
+      <node id="7509457304304648810" at="44,95,47,5" concept="5" />
+      <node id="7509457304304648824" at="49,90,52,7" concept="5" />
+      <node id="7509457304304648825" at="52,7,55,7" concept="5" />
+      <node id="7509457304304648810" at="31,0,35,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="7509457304304648810" at="35,0,39,0" concept="6" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7509457304304648810" at="39,0,43,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304304648810" at="26,0,31,0" concept="2" trace="RichtextSelectionRootEnd_Action#()V" />
+      <node id="7509457304304648824" at="47,5,56,5" concept="1" />
+      <node id="7509457304304648810" at="59,0,69,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7509457304304648810" at="43,0,59,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7509457304304648810" at="32,32,33,16" />
+      <scope id="7509457304304648827" at="36,87,37,105" />
+      <scope id="7509457304304648810" at="40,89,41,85" />
+      <scope id="7509457304304648810" at="45,53,46,19" />
+      <scope id="7509457304304648824" at="50,67,51,31" />
+      <scope id="7509457304304648825" at="53,36,54,21" />
+      <scope id="7509457304304648810" at="26,44,29,57" />
+      <scope id="7509457304304648810" at="31,0,35,0" />
+      <scope id="7509457304304648810" at="35,0,39,0">
+        <var name="_params" id="7509457304304648810" />
+        <var name="event" id="7509457304304648810" />
+      </scope>
+      <scope id="7509457304304648810" at="39,0,43,0">
+        <var name="_params" id="7509457304304648810" />
+        <var name="event" id="7509457304304648810" />
+      </scope>
+      <scope id="7509457304304648810" at="26,0,31,0" />
+      <scope id="7509457304304648824" at="48,5,55,7">
+        <var name="editorComponent" id="7509457304304648824" />
+      </scope>
+      <scope id="7509457304304648810" at="60,96,67,104">
+        <var name="helper" id="8562978693427410415" />
+        <var name="lastCell" id="6193633844726174000" />
+        <var name="multilineCell" id="5561167298738088995" />
+        <var name="newSelection" id="8562978693427410441" />
+        <var name="textNode" id="5561167298738087259" />
+      </scope>
+      <scope id="7509457304304648810" at="59,0,69,0">
+        <var name="_params" id="7509457304304648810" />
+        <var name="event" id="7509457304304648810" />
+      </scope>
+      <scope id="7509457304304648810" at="44,95,57,16" />
+      <scope id="7509457304304648810" at="43,0,59,0">
+        <var name="_params" id="7509457304304648810" />
+        <var name="event" id="7509457304304648810" />
+      </scope>
+      <unit id="7509457304304648810" at="70,0,73,0" name="de.slisson.mps.richtext.plugin.RichtextSelectionRootEnd_Action$LINKS" />
+      <unit id="7509457304304648810" at="23,0,74,0" name="de.slisson.mps.richtext.plugin.RichtextSelectionRootEnd_Action" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="7509457304304648810" at="35,51,36,53" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/7943243521360254037">
+    <file name="ApplicationPlugin_AppPluginPart.java">
+      <node id="146115031180255190" at="13,22,14,105" concept="3" />
+      <node id="7509457304301369324" at="14,105,15,108" concept="3" />
+      <node id="7943243521360532925" at="18,25,19,33" concept="3" />
+      <node id="7943243521360254037" at="10,0,12,0" concept="2" trace="ApplicationPlugin_AppPluginPart#()V" />
+      <node id="7943243521360254037" at="17,0,21,0" concept="6" trace="dispose#()V" />
+      <node id="7943243521360254037" at="12,0,17,0" concept="6" trace="init#()V" />
+      <scope id="7943243521360254037" at="10,44,10,44" />
+      <scope id="7943243521360532985" at="18,25,19,33" />
+      <scope id="7943243521360254037" at="10,0,12,0" />
+      <scope id="146115031178216507" at="13,22,15,108" />
+      <scope id="7943243521360254037" at="17,0,21,0" />
+      <scope id="7943243521360254037" at="12,0,17,0" />
+      <unit id="7943243521360254037" at="9,0,22,0" name="de.slisson.mps.richtext.plugin.ApplicationPlugin_AppPluginPart" />
+    </file>
+    <file name="Richtext_ApplicationPlugin.java">
+      <node id="7943243521360254037" at="47,66,48,53" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/8034681417262587173">
+    <file name="RichtextDragSelectionHandler.java">
+      <node id="8034681417262638176" at="13,149,14,81" concept="8" />
+      <node id="4517114264952214810" at="18,28,19,16" concept="8" />
+      <node id="8034681417262631629" at="12,0,16,0" concept="6" trace="createSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;IIIILjetbrains/mps/openapi/editor/EditorComponent;)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <node id="4517114264952211895" at="17,0,21,0" concept="6" trace="getPriority#()I" />
+      <scope id="8034681417262631648" at="13,149,14,81" />
+      <scope id="4517114264952211901" at="18,28,19,16" />
+      <scope id="8034681417262631629" at="12,0,16,0">
+        <var name="editorComponent" id="8034681417262631642" />
+        <var name="fromCell" id="8034681417262631630" />
+        <var name="fromX" id="8034681417262631634" />
+        <var name="fromY" id="8034681417262631636" />
+        <var name="toCell" id="8034681417262631632" />
+        <var name="toX" id="8034681417262631638" />
+        <var name="toY" id="8034681417262631640" />
+      </scope>
+      <scope id="4517114264952211895" at="17,0,21,0" />
+      <unit id="8034681417262587173" at="11,0,22,0" name="de.slisson.mps.richtext.plugin.RichtextDragSelectionHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:bef7c8c4-a9ab-4327-9bdc-f32ca505c6e7(de.slisson.mps.richtext.plugin)/8034681417262714622">
+    <file name="DragSelectionHandlerEP_extension.java">
+      <node id="8034681417262714622" at="9,45,10,68" concept="13" />
+      <node id="8034681417262724224" at="15,38,16,46" concept="8" />
+      <node id="8034681417262714622" at="9,0,12,0" concept="2" trace="DragSelectionHandlerEP_extension#()V" />
+      <node id="4942323135816132593" at="15,0,18,0" concept="0" trace="get#()Lde/itemis/mps/selection/runtime/mouse/IDragSelectionHandler;" />
+      <scope id="8034681417262714622" at="9,45,10,68" />
+      <scope id="4942323135816132595" at="15,38,16,46" />
+      <scope id="8034681417262714622" at="9,0,12,0" />
+      <scope id="4942323135816132593" at="15,0,18,0" />
+      <unit id="8034681417262714622" at="8,0,19,0" name="de.slisson.mps.richtext.plugin.DragSelectionHandlerEP_extension" />
+    </file>
+  </root>
+</debug-info>
+

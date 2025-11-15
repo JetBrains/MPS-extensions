@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="de.itemis.mps.selection.intentions.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c48147a0-d8cc-4b56-83c0-5a72b0e28645(de.itemis.mps.selection.intentions.typesystem)/2235735670538953091">
+    <file name="TypesystemDescriptor.java">
+      <node id="2235735670538953091" at="10,5,11,94" concept="5" />
+      <node id="2235735670538953091" at="11,94,12,55" concept="2" />
+      <node id="2235735670538953091" at="9,33,13,5" concept="0" />
+      <scope id="2235735670538953091" at="10,5,12,55">
+        <var name="nonTypesystemRule" id="2235735670538953091" />
+      </scope>
+    </file>
+    <file name="existingIntention_NonTypesystemRule.java">
+      <node id="2235735670539140720" at="24,7,25,66" concept="5" />
+      <node id="2235735670539140720" at="25,66,26,337" concept="5" />
+      <node id="2235735670538953091" at="30,50,31,42" concept="6" />
+      <node id="2235735670538953091" at="33,68,34,102" concept="6" />
+      <node id="2235735670538953091" at="36,30,37,17" concept="6" />
+      <node id="2235735670538953091" at="41,0,42,0" concept="7" trace="SelectionIntention$EM" />
+      <node id="2235735670538953091" at="20,0,22,0" concept="1" trace="existingIntention_NonTypesystemRule#()V" />
+      <node id="2235735670538953091" at="30,0,33,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2235735670538953091" at="33,0,36,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="2235735670538953091" at="36,0,39,0" concept="4" trace="overrides#()Z" />
+      <node id="2235735670539140720" at="23,276,27,7" concept="0" />
+      <node id="2235735670539127379" at="22,131,28,5" concept="3" />
+      <node id="2235735670538953091" at="22,0,30,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="2235735670538953091" at="20,48,20,48" />
+      <scope id="2235735670538953091" at="30,50,31,42" />
+      <scope id="2235735670538953091" at="33,68,34,102" />
+      <scope id="2235735670538953091" at="36,30,37,17" />
+      <scope id="2235735670538953091" at="20,0,22,0" />
+      <scope id="2235735670539140720" at="24,7,26,337">
+        <var name="_reporter_2309309498" id="2235735670539140720" />
+        <var name="errorTarget" id="2235735670539140720" />
+      </scope>
+      <scope id="2235735670538953091" at="30,0,33,0" />
+      <scope id="2235735670538953091" at="33,0,36,0">
+        <var name="argument" id="2235735670538953091" />
+      </scope>
+      <scope id="2235735670538953091" at="36,0,39,0" />
+      <scope id="2235735670539127381" at="23,276,27,7" />
+      <scope id="2235735670538953092" at="22,131,28,5" />
+      <scope id="2235735670538953091" at="22,0,30,0">
+        <var name="selectionIntention" id="2235735670538953091" />
+        <var name="status" id="2235735670538953091" />
+        <var name="typeCheckingContext" id="2235735670538953091" />
+      </scope>
+      <unit id="2235735670538953091" at="40,0,43,0" name="de.itemis.mps.selection.intentions.typesystem.existingIntention_NonTypesystemRule$CONCEPTS" />
+      <unit id="2235735670538953091" at="19,0,44,0" name="de.itemis.mps.selection.intentions.typesystem.existingIntention_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+

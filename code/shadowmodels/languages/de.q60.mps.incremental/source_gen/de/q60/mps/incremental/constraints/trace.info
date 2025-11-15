@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="de.q60.mps.incremental.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:2ed7402f-bfbb-4f36-a24d-fa0e7585e764(de.q60.mps.incremental.constraints)/1072055285049374183">
+    <file name="IncrementalFunctionParameterRef_Constraints.java">
+      <node id="1072055285049374183" at="26,56,27,55" concept="6" />
+      <node id="1072055285049374184" at="38,63,39,137" concept="4" />
+      <node id="1072055285049374766" at="42,80,43,230" concept="4" />
+      <node id="1072055285049374183" at="47,6,48,131" concept="3" />
+      <node id="1072055285049374184" at="48,131,49,42" concept="1" />
+      <node id="1072055285049374183" at="49,42,50,22" concept="4" />
+      <node id="1072055285049374183" at="54,0,55,0" concept="5" trace="IncrementalFunctionParameterRef$jb" />
+      <node id="1072055285049374183" at="55,0,56,0" concept="5" trace="IIncrementalFunction$t0" />
+      <node id="1072055285049374183" at="59,0,60,0" concept="5" trace="decl$HbKX" />
+      <node id="1072055285049374183" at="26,0,29,0" concept="0" trace="IncrementalFunctionParameterRef_Constraints#()V" />
+      <node id="1072055285049374184" at="37,0,41,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1072055285049374184" at="41,0,45,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1072055285049374184" at="35,56,45,10" concept="4" />
+      <node id="1072055285049374184" at="33,0,47,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1072055285049374184" at="31,90,47,6" concept="3" />
+      <node id="1072055285049374183" at="30,0,52,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1072055285049374183" at="26,56,27,55" />
+      <scope id="1072055285049374184" at="38,63,39,137" />
+      <scope id="1072055285049374184" at="42,80,43,230" />
+      <scope id="1072055285049374183" at="26,0,29,0" />
+      <scope id="1072055285049374184" at="37,0,41,0" />
+      <scope id="1072055285049374184" at="41,0,45,0">
+        <var name="_context" id="1072055285049374184" />
+      </scope>
+      <scope id="1072055285049374184" at="35,56,45,10" />
+      <scope id="1072055285049374184" at="33,0,47,0" />
+      <scope id="1072055285049374183" at="31,90,50,22">
+        <var name="d0" id="1072055285049374184" />
+        <var name="references" id="1072055285049374183" />
+      </scope>
+      <scope id="1072055285049374183" at="30,0,52,0" />
+      <unit id="1072055285049374183" at="58,0,61,0" name="de.q60.mps.incremental.constraints.IncrementalFunctionParameterRef_Constraints$LINKS" />
+      <unit id="1072055285049374183" at="53,0,57,0" name="de.q60.mps.incremental.constraints.IncrementalFunctionParameterRef_Constraints$CONCEPTS" />
+      <unit id="1072055285049374184" at="36,19,45,9" name="de.q60.mps.incremental.constraints.IncrementalFunctionParameterRef_Constraints$1$1" />
+      <unit id="1072055285049374184" at="32,48,47,5" name="de.q60.mps.incremental.constraints.IncrementalFunctionParameterRef_Constraints$1" />
+      <unit id="1072055285049374183" at="25,0,62,0" name="de.q60.mps.incremental.constraints.IncrementalFunctionParameterRef_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

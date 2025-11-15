@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-29y0n1qsp6klxdzjhfjeurvi1crd737">
+  <files names="AddNewLineAfter_Intention.java:AddNewLineBefore_Intention.java:ChangeToIndent_Intention.java:ChangeToVertical_Intention.java:EmptyLines_Intention.java:EmptyTemplate_Intention.java:IntentionsDescriptor.java:SelectionIntentionsDescriptor.java:SplitWordAtSelection_Intention.java:SurroundListWithIndent.java:SurroundListWithVertical.java:SurroundWithHorizontal_Intention.java:SurroundWithIndent_Intention.java:SurroundWithVertical_Intention.java:UnpackIndent_Intention.java" />
+</product>
+

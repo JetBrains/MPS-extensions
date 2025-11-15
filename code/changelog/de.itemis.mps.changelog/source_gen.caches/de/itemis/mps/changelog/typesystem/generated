@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="6k6s49rq7qnocs6y1ua3vqhvybw0wo2">
+  <files names="MergeSameChangeTypes_QuickFix.java:TypesystemDescriptor.java:check_Changelog_NonTypesystemRule.java:check_Release_NonTypesystemRule.java:check_SemanticVersion_NonTypesystemRule.java" />
+</product>
+

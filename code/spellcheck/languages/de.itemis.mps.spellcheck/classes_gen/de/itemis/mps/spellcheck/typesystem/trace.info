@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,20,0" name="de.itemis.mps.spellcheck.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:91cd2f5e-4378-46b1-8f4d-8f0ebd8ce855(de.itemis.mps.spellcheck.typesystem)/2477161125053884604">
+    <file name="TypesystemDescriptor.java">
+      <node id="2477161125053884604" at="10,5,11,93" concept="6" />
+      <node id="2477161125053884604" at="11,93,12,55" concept="2" />
+      <node id="2477161125053884604" at="9,33,13,5" concept="0" />
+      <scope id="2477161125053884604" at="10,5,12,55">
+        <var name="nonTypesystemRule" id="2477161125053884604" />
+      </scope>
+    </file>
+    <file name="check_Dictionary_NonTypesystemRule.java">
+      <node id="2477161125053956196" at="29,123,30,81" concept="6" />
+      <node id="2477161125053955512" at="30,81,31,0" concept="8" />
+      <node id="801165755129692041" at="32,108,33,101" concept="6" />
+      <node id="801165755129701335" at="33,101,34,0" concept="8" />
+      <node id="2477161125053966748" at="37,11,38,70" concept="6" />
+      <node id="2477161125053966748" at="38,70,39,241" concept="6" />
+      <node id="2477161125053966920" at="41,16,42,68" concept="2" />
+      <node id="2477161125053952202" at="45,11,46,70" concept="6" />
+      <node id="2477161125053952202" at="46,70,47,293" concept="6" />
+      <node id="2477161125053884604" at="53,50,54,34" concept="7" />
+      <node id="2477161125053884604" at="56,68,57,102" concept="7" />
+      <node id="2477161125053884604" at="59,30,60,17" concept="7" />
+      <node id="2477161125053884604" at="64,0,65,0" concept="9" trace="entries$CkCI" />
+      <node id="2477161125053884604" at="68,0,69,0" concept="9" trace="Dictionary$KE" />
+      <node id="2477161125053884604" at="27,0,29,0" concept="1" trace="check_Dictionary_NonTypesystemRule#()V" />
+      <node id="2477161125053966811" at="41,14,43,9" concept="0" />
+      <node id="2477161125053884604" at="53,0,56,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2477161125053884604" at="56,0,59,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="2477161125053884604" at="59,0,62,0" concept="5" trace="overrides#()Z" />
+      <node id="2477161125053966748" at="36,70,40,11" concept="0" />
+      <node id="2477161125053952202" at="44,56,48,11" concept="0" />
+      <node id="2477161125053951292" at="43,9,49,9" concept="4" />
+      <node id="2477161125053960761" at="35,33,43,9" concept="4" />
+      <node id="801165755129445550" at="34,0,50,7" concept="3" />
+      <node id="2477161125053930979" at="31,0,51,5" concept="3" />
+      <node id="2477161125053884604" at="29,0,53,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="2477161125053884604" at="27,47,27,47" />
+      <scope id="2477161125053966812" at="41,16,42,68" />
+      <scope id="2477161125053884604" at="53,50,54,34" />
+      <scope id="2477161125053884604" at="56,68,57,102" />
+      <scope id="2477161125053884604" at="59,30,60,17" />
+      <scope id="2477161125053884604" at="27,0,29,0" />
+      <scope id="2477161125053966748" at="37,11,39,241">
+        <var name="_reporter_2309309498" id="2477161125053966748" />
+        <var name="errorTarget" id="2477161125053966748" />
+      </scope>
+      <scope id="2477161125053952202" at="45,11,47,293">
+        <var name="_reporter_2309309498" id="2477161125053952202" />
+        <var name="errorTarget" id="2477161125053952202" />
+      </scope>
+      <scope id="2477161125053884604" at="53,0,56,0" />
+      <scope id="2477161125053884604" at="56,0,59,0">
+        <var name="argument" id="2477161125053884604" />
+      </scope>
+      <scope id="2477161125053884604" at="59,0,62,0" />
+      <scope id="2477161125053960763" at="36,70,40,11" />
+      <scope id="2477161125053951294" at="44,56,48,11" />
+      <scope id="801165755129445556" at="35,33,49,9" />
+      <scope id="801165755129445550" at="34,0,50,7">
+        <var name="word" id="801165755129445552" />
+      </scope>
+      <scope id="2477161125053930985" at="32,108,50,7">
+        <var name="words" id="801165755129692042" />
+      </scope>
+      <scope id="2477161125053930979" at="31,0,51,5">
+        <var name="entry" id="2477161125053930981" />
+      </scope>
+      <scope id="2477161125053884605" at="29,123,51,5">
+        <var name="alreadyCheckedWords" id="2477161125053956199" />
+      </scope>
+      <scope id="2477161125053884604" at="29,0,53,0">
+        <var name="dictionary" id="2477161125053884604" />
+        <var name="status" id="2477161125053884604" />
+        <var name="typeCheckingContext" id="2477161125053884604" />
+      </scope>
+      <unit id="2477161125053884604" at="63,0,66,0" name="de.itemis.mps.spellcheck.typesystem.check_Dictionary_NonTypesystemRule$LINKS" />
+      <unit id="2477161125053884604" at="67,0,70,0" name="de.itemis.mps.spellcheck.typesystem.check_Dictionary_NonTypesystemRule$CONCEPTS" />
+      <unit id="2477161125053884604" at="26,0,71,0" name="de.itemis.mps.spellcheck.typesystem.check_Dictionary_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:91cd2f5e-4378-46b1-8f4d-8f0ebd8ce855(de.itemis.mps.spellcheck.typesystem)/6620047724381005362">
+    <file name="TypesystemDescriptor.java">
+      <node id="6620047724381005362" at="14,5,15,103" concept="6" />
+      <node id="6620047724381005362" at="15,103,16,55" concept="2" />
+      <node id="6620047724381005362" at="13,5,17,5" concept="0" />
+      <scope id="6620047724381005362" at="14,5,16,55">
+        <var name="nonTypesystemRule" id="6620047724381005362" />
+      </scope>
+    </file>
+    <file name="check_PredefinedDictionary_NonTypesystemRule.java">
+      <node id="6620047724385270724" at="24,133,25,122" concept="6" />
+      <node id="6620047724385271052" at="25,122,26,74" concept="6" />
+      <node id="6620047724385271147" at="26,74,27,0" concept="8" />
+      <node id="6620047724381013278" at="29,7,30,85" concept="6" />
+      <node id="6620047724381013278" at="30,85,31,266" concept="6" />
+      <node id="6620047724385270646" at="33,5,34,0" concept="8" />
+      <node id="6620047724385277207" at="36,7,37,85" concept="6" />
+      <node id="6620047724385277207" at="37,85,38,266" concept="6" />
+      <node id="6620047724385270647" at="40,5,41,0" concept="8" />
+      <node id="6620047724381005362" at="43,50,44,44" concept="7" />
+      <node id="6620047724381005362" at="46,68,47,102" concept="7" />
+      <node id="6620047724381005362" at="49,30,50,17" concept="7" />
+      <node id="6620047724381005362" at="54,0,55,0" concept="9" trace="path$_Aj2" />
+      <node id="6620047724381005362" at="58,0,59,0" concept="9" trace="PredefinedDictionary$rg" />
+      <node id="6620047724381005362" at="22,0,24,0" concept="1" trace="check_PredefinedDictionary_NonTypesystemRule#()V" />
+      <node id="6620047724381005362" at="43,0,46,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6620047724381005362" at="46,0,49,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6620047724381005362" at="49,0,52,0" concept="5" trace="overrides#()Z" />
+      <node id="6620047724381013278" at="28,40,32,7" concept="0" />
+      <node id="6620047724385277207" at="35,40,39,7" concept="0" />
+      <node id="6620047724381006611" at="27,0,33,5" concept="4" />
+      <node id="6620047724385277199" at="34,0,40,5" concept="4" />
+      <node id="6620047724381005362" at="24,0,43,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6620047724381005362" at="22,57,22,57" />
+      <scope id="6620047724381005362" at="43,50,44,44" />
+      <scope id="6620047724381005362" at="46,68,47,102" />
+      <scope id="6620047724381005362" at="49,30,50,17" />
+      <scope id="6620047724381005362" at="22,0,24,0" />
+      <scope id="6620047724381013278" at="29,7,31,266">
+        <var name="_reporter_2309309498" id="6620047724381013278" />
+        <var name="errorTarget" id="6620047724381013278" />
+      </scope>
+      <scope id="6620047724385277207" at="36,7,38,266">
+        <var name="_reporter_2309309498" id="6620047724385277207" />
+        <var name="errorTarget" id="6620047724385277207" />
+      </scope>
+      <scope id="6620047724381005362" at="43,0,46,0" />
+      <scope id="6620047724381005362" at="46,0,49,0">
+        <var name="argument" id="6620047724381005362" />
+      </scope>
+      <scope id="6620047724381005362" at="49,0,52,0" />
+      <scope id="6620047724381006613" at="28,40,32,7" />
+      <scope id="6620047724385277206" at="35,40,39,7" />
+      <scope id="6620047724381005363" at="24,133,41,0">
+        <var name="affPath" id="6620047724385271055" />
+        <var name="dicPath" id="6620047724385270725" />
+      </scope>
+      <scope id="6620047724381005362" at="24,0,43,0">
+        <var name="predefinedDictionary" id="6620047724381005362" />
+        <var name="status" id="6620047724381005362" />
+        <var name="typeCheckingContext" id="6620047724381005362" />
+      </scope>
+      <unit id="6620047724381005362" at="53,0,56,0" name="de.itemis.mps.spellcheck.typesystem.check_PredefinedDictionary_NonTypesystemRule$PROPS" />
+      <unit id="6620047724381005362" at="57,0,60,0" name="de.itemis.mps.spellcheck.typesystem.check_PredefinedDictionary_NonTypesystemRule$CONCEPTS" />
+      <unit id="6620047724381005362" at="21,0,61,0" name="de.itemis.mps.spellcheck.typesystem.check_PredefinedDictionary_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+

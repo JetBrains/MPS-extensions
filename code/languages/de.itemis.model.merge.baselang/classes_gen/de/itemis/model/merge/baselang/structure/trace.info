@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,30,0" name="de.itemis.model.merge.baselang.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,28,0" name="de.itemis.model.merge.baselang.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="14,0,64,0" name="de.itemis.model.merge.baselang.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:f7ecea4a-4de7-40e3-9fe6-730099dc17e1(de.itemis.model.merge.baselang.structure)/5951366741878103073">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5951366741878103073" at="12,0,13,0" concept="1" trace="props_ModelMergerExpression" />
+      <node id="5951366741878103073" at="20,50,21,76" concept="3" />
+      <node id="5951366741878103073" at="21,76,22,44" concept="0" />
+      <node id="5951366741878103073" at="22,44,23,53" concept="0" />
+      <node id="5951366741878103073" at="24,9,25,43" concept="4" />
+      <node id="5951366741878103073" at="19,55,24,9" concept="2" />
+      <scope id="5951366741878103073" at="20,50,23,53">
+        <var name="cpb" id="5951366741878103073" />
+      </scope>
+      <scope id="5951366741878103073" at="19,55,25,43" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5951366741878103073" at="12,0,13,0" concept="6" trace="ModelMergerExpression" />
+      <node id="5951366741878103073" at="15,116,16,60" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5951366741878103073" at="15,0,16,0" concept="1" trace="myConceptModelMergerExpression" />
+      <node id="5951366741878103073" at="38,55,39,46" concept="4" />
+      <node id="5951366741878103073" at="50,79,51,186" concept="3" />
+      <node id="5951366741878103073" at="51,186,52,34" concept="0" />
+      <node id="5951366741878103073" at="52,34,53,63" concept="5" />
+      <node id="5951366741878103073" at="53,63,54,70" concept="0" />
+      <node id="5951366741878103073" at="54,70,55,117" concept="0" />
+      <node id="5951366741878103073" at="55,117,56,17" concept="0" />
+      <node id="5951366741878918075" at="56,17,57,192" concept="0" />
+      <node id="5951366741878918809" at="57,192,58,193" concept="0" />
+      <node id="5951366741878918812" at="58,193,59,198" concept="0" />
+      <node id="5951366741878103073" at="59,198,60,26" concept="0" />
+      <node id="5951366741878103073" at="60,26,61,22" concept="4" />
+      <node id="5951366741878103073" at="50,0,63,0" concept="7" trace="createDescriptorForModelMergerExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5951366741878103073" at="38,55,39,46" />
+      <scope id="5951366741878103073" at="50,79,61,22">
+        <var name="b" id="5951366741878103073" />
+      </scope>
+      <scope id="5951366741878103073" at="50,0,63,0" />
+    </file>
+  </root>
+</debug-info>
+

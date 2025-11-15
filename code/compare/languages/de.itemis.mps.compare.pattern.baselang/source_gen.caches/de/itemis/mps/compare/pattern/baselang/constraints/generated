@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-bk32nr1lfn6mdizfn3g0cc32a7gym0y">
+  <files names="AnnotationTarget_Constraints.java:ConstraintsAspectDescriptor.java:GetOperation_Constraints.java:InitPartAccessorOperation_Constraints.java:IsMatchOperation_Constraints.java:MatchOperation_Constraints.java:MatchResultType_Constraints.java:NamedGetTarget_Constraints.java:PatternHint_Constraints.java" />
+</product>
+

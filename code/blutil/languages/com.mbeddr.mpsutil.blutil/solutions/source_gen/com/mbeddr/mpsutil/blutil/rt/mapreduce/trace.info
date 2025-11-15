@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1170075670744:jetbrains.mps.baseLanguage.structure.SynchronizedStatement" />
+  <root nodeRef="360a4e25-e902-4667-a0a6-0e971c4f3177/r:6c5cca1d-3f93-41ca-9d02-70039dd7722f(com.mbeddr.mpsutil.blutil.rt/com.mbeddr.mpsutil.blutil.rt.mapreduce)/6534474553326848473">
+    <file name="IMapReduce.java">
+      <node id="6534474553326848564" at="7,0,8,0" concept="2" trace="map#(null)null" />
+      <node id="6534474553326848672" at="8,0,9,0" concept="2" trace="reduce#(null)null" />
+      <scope id="6534474553326848564" at="7,0,8,0">
+        <var name="input" id="6534474553326848590" />
+      </scope>
+      <scope id="6534474553326848672" at="8,0,9,0">
+        <var name="input" id="6534474553326848711" />
+      </scope>
+      <unit id="6534474553326848473" at="6,0,10,0" name="com.mbeddr.mpsutil.blutil.rt.mapreduce.IMapReduce" />
+    </file>
+  </root>
+  <root nodeRef="360a4e25-e902-4667-a0a6-0e971c4f3177/r:6c5cca1d-3f93-41ca-9d02-70039dd7722f(com.mbeddr.mpsutil.blutil.rt/com.mbeddr.mpsutil.blutil.rt.mapreduce)/6534474553328686597">
+    <file name="Pool.java">
+      <node id="6534474553328748265" at="9,0,10,0" concept="4" trace="executor" />
+      <node id="6534474553328749793" at="13,31,14,94" concept="0" />
+      <node id="6534474553328788576" at="17,5,18,20" concept="3" />
+      <node id="6534474553328749247" at="12,33,15,9" concept="1" />
+      <node id="6534474553328749156" at="11,27,16,7" concept="6" />
+      <node id="6534474553328748311" at="10,47,17,5" concept="1" />
+      <node id="6534474553328748207" at="10,0,20,0" concept="5" trace="getExecutor#()Ljava/util/concurrent/ExecutorService;" />
+      <scope id="6534474553328749248" at="13,31,14,94" />
+      <scope id="6534474553328749158" at="12,33,15,9" />
+      <scope id="6534474553328748312" at="11,27,16,7" />
+      <scope id="6534474553328748210" at="10,47,18,20" />
+      <scope id="6534474553328748207" at="10,0,20,0" />
+      <unit id="6534474553328686597" at="8,0,21,0" name="com.mbeddr.mpsutil.blutil.rt.mapreduce.Pool" />
+    </file>
+  </root>
+</debug-info>
+

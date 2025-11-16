@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root nodeRef="r:d734cd1b-fd81-4ddc-b495-ad22fa49d4f4(com.mbeddr.mpsutil.projectview.vcs.plugin)/2392588809324572333">
+    <file name="Vcs_ProjectPlugin.java">
+      <node id="2392588809324572333" at="10,0,12,0" concept="0" trace="Vcs_ProjectPlugin#()V" />
+      <node id="2392588809324572333" at="12,0,15,0" concept="3" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="2392588809324572333" at="10,30,10,30" />
+      <scope id="2392588809324572333" at="12,62,13,53" />
+      <scope id="2392588809324572333" at="10,0,12,0" />
+      <scope id="2392588809324572333" at="12,0,15,0">
+        <var name="parts" id="2392588809324572333" />
+      </scope>
+      <unit id="2392588809324572333" at="9,0,16,0" name="com.mbeddr.mpsutil.projectview.vcs.plugin.Vcs_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:d734cd1b-fd81-4ddc-b495-ad22fa49d4f4(com.mbeddr.mpsutil.projectview.vcs.plugin)/2392588809324715438">
+    <file name="ProjectPlugin_ProjectPluginPart.java">
+      <node id="2392588809324715448" at="11,0,12,0" concept="2" trace="myHighlighterExtension" />
+      <node id="2392588809324718566" at="15,40,16,139" concept="1" />
+      <node id="2392588809324722559" at="16,139,17,75" concept="1" />
+      <node id="2392588809324721746" at="20,43,21,77" concept="1" />
+      <node id="2392588809324715438" at="12,0,14,0" concept="0" trace="ProjectPlugin_ProjectPluginPart#()V" />
+      <node id="2392588809324715438" at="19,0,23,0" concept="3" trace="dispose#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="2392588809324715438" at="14,0,19,0" concept="3" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <scope id="2392588809324715438" at="12,44,12,44" />
+      <scope id="2392588809324718996" at="20,43,21,77" />
+      <scope id="2392588809324715438" at="12,0,14,0" />
+      <scope id="2392588809324718169" at="15,40,17,75" />
+      <scope id="2392588809324715438" at="19,0,23,0">
+        <var name="project" id="2392588809324715438" />
+      </scope>
+      <scope id="2392588809324715438" at="14,0,19,0">
+        <var name="project" id="2392588809324715438" />
+      </scope>
+      <unit id="2392588809324715438" at="10,0,24,0" name="com.mbeddr.mpsutil.projectview.vcs.plugin.ProjectPlugin_ProjectPluginPart" />
+    </file>
+    <file name="Vcs_ProjectPlugin.java">
+      <node id="2392588809324715438" at="12,62,13,53" concept="1" />
+    </file>
+  </root>
+</debug-info>
+

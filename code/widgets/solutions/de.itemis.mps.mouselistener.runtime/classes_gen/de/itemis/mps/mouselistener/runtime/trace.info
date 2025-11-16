@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root nodeRef="r:4e973dcf-7005-4515-8904-9c030ef293d4(de.itemis.mps.mouselistener.runtime)/7326876998193018562">
+    <file name="MouseListenerProvider.java">
+      <node id="7326876998193018594" at="9,0,10,0" concept="0" trace="getMouseListener#()Ljava/awt/event/MouseListener;" />
+      <node id="7326876998193021151" at="10,0,11,0" concept="0" trace="getMouseMotionListener#()Ljava/awt/event/MouseMotionListener;" />
+      <scope id="7326876998193018594" at="9,0,10,0" />
+      <scope id="7326876998193021151" at="10,0,11,0" />
+      <unit id="7326876998193018562" at="8,0,12,0" name="de.itemis.mps.mouselistener.runtime.MouseListenerProvider" />
+    </file>
+  </root>
+</debug-info>
+

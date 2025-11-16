@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="7fu1is6mjk3n0y8pfu37zy1vyvs1uhg">
+  <files names="Alignment.java:Alignment_ComponentBuilder_a.java:EditorAspectDescriptorImpl.java:Line_Editor.java:Line_EditorBuilder_a.java:Line_Structural_Editor.java:Line_Structural_EditorBuilder_a.java:NewlineMarker_Editor.java:NewlineMarker_EditorBuilder_a.java:SpaceIndentedText_Editor.java:SpaceIndentedText_EditorBuilder_a.java:SpaceIndentedText_InspectorBuilder_a.java:SpaceIndentedText_Structural_Editor.java:SpaceIndentedText_Structural_EditorBuilder_a.java:SpaceIndentedText_Structural_InspectorBuilder_a.java:TextGenElement_Keymap.java:TextgenText_Editor.java:TextgenText_EditorBuilder_a.java:TextgenText_InspectorBuilder_a.java:VerticalLines_Editor.java:VerticalLines_EditorBuilder_a.java:VerticalLines_InspectorBuilder_a.java:VerticalLines_Structural_Editor.java:VerticalLines_Structural_EditorBuilder_a.java:VerticalLines_Structural_InspectorBuilder_a.java:tab_Editor.java:tab_EditorBuilder_a.java:tab_Structural_Editor.java:tab_Structural_EditorBuilder_a.java:word_Editor.java:word_EditorBuilder_a.java" />
+</product>
+

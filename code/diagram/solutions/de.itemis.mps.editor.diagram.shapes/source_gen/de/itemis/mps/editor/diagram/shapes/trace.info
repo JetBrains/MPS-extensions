@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root nodeRef="r:de91083f-90a8-4dd4-83b1-8a92d65ab81d(de.itemis.mps.editor.diagram.shapes)/5642467428246420661">
+    <file name="Ellipsis.java">
+      <node id="5642467428246420664" at="18,51,19,101" concept="7" />
+      <node id="5642467428246420661" at="13,0,15,0" concept="1" trace="Ellipsis#()V" />
+      <node id="5642467428246420661" at="17,0,21,0" concept="5" trace="getShape#(Ljava/awt/geom/Rectangle2D;)Ljava/awt/Shape;" />
+      <scope id="5642467428246420661" at="13,21,13,21" />
+      <scope id="5642467428246420661" at="18,51,19,101" />
+      <scope id="5642467428246420661" at="13,0,15,0" />
+      <scope id="5642467428246420661" at="17,0,21,0">
+        <var name="bounds" id="5642467428246420661" />
+      </scope>
+      <unit id="5642467428246420661" at="10,0,25,0" name="de.itemis.mps.editor.diagram.shapes.Ellipsis" />
+    </file>
+  </root>
+  <root nodeRef="r:de91083f-90a8-4dd4-83b1-8a92d65ab81d(de.itemis.mps.editor.diagram.shapes)/6863180039789370085">
+    <file name="EmptyShape.java">
+      <node id="6863180039789370085" at="13,0,15,0" concept="1" trace="EmptyShape#()V" />
+      <node id="6863180039789370085" at="18,0,21,0" concept="5" trace="drawShadow#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lde/itemis/mps/editor/diagram/runtime/shape/IShapeStyle;)V" />
+      <node id="6863180039789370085" at="22,0,25,0" concept="5" trace="draw#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lde/itemis/mps/editor/diagram/runtime/shape/IShapeStyle;)V" />
+      <scope id="6863180039789370085" at="13,23,13,23" />
+      <scope id="6863180039789370085" at="19,101,19,101" />
+      <scope id="6863180039789370085" at="23,95,23,95" />
+      <scope id="6863180039789370085" at="13,0,15,0" />
+      <scope id="6863180039789370085" at="18,0,21,0">
+        <var name="bounds" id="6863180039789370085" />
+        <var name="graphics" id="6863180039789370085" />
+        <var name="style" id="6863180039789370085" />
+      </scope>
+      <scope id="6863180039789370085" at="22,0,25,0">
+        <var name="bounds" id="6863180039789370085" />
+        <var name="graphics" id="6863180039789370085" />
+        <var name="style" id="6863180039789370085" />
+      </scope>
+      <unit id="6863180039789370085" at="10,0,27,0" name="de.itemis.mps.editor.diagram.shapes.EmptyShape" />
+    </file>
+  </root>
+  <root nodeRef="r:de91083f-90a8-4dd4-83b1-8a92d65ab81d(de.itemis.mps.editor.diagram.shapes)/6863180039790469560">
+    <file name="ThinBorder.java">
+      <node id="6863180039790469621" at="25,95,26,46" concept="2" />
+      <node id="6863180039790478048" at="26,46,27,42" concept="2" />
+      <node id="6863180039790496730" at="27,42,28,26" concept="2" />
+      <node id="6863180039790469560" at="15,0,17,0" concept="1" trace="ThinBorder#()V" />
+      <node id="6863180039790469560" at="20,0,23,0" concept="5" trace="drawShadow#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lde/itemis/mps/editor/diagram/runtime/shape/IShapeStyle;)V" />
+      <node id="6863180039790469560" at="24,0,30,0" concept="5" trace="draw#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lde/itemis/mps/editor/diagram/runtime/shape/IShapeStyle;)V" />
+      <scope id="6863180039790469560" at="15,23,15,23" />
+      <scope id="6863180039790469560" at="21,101,21,101" />
+      <scope id="6863180039790469560" at="15,0,17,0" />
+      <scope id="6863180039790469560" at="20,0,23,0">
+        <var name="bounds" id="6863180039790469560" />
+        <var name="graphics" id="6863180039790469560" />
+        <var name="style" id="6863180039790469560" />
+      </scope>
+      <scope id="6863180039790469560" at="25,95,28,26" />
+      <scope id="6863180039790469560" at="24,0,30,0">
+        <var name="bounds" id="6863180039790469560" />
+        <var name="graphics" id="6863180039790469560" />
+        <var name="style" id="6863180039790469560" />
+      </scope>
+      <unit id="6863180039790469560" at="12,0,32,0" name="de.itemis.mps.editor.diagram.shapes.ThinBorder" />
+    </file>
+  </root>
+  <root nodeRef="r:de91083f-90a8-4dd4-83b1-8a92d65ab81d(de.itemis.mps.editor.diagram.shapes)/8701802403633621049">
+    <file name="ArrowHead.java">
+      <node id="8701802403633659021" at="13,0,14,0" concept="3" trace="relativeHeight" />
+      <node id="4254343767712584159" at="14,0,15,0" concept="3" trace="filled" />
+      <node id="8701802403633659021" at="16,59,17,41" concept="2" />
+      <node id="4254343767712584159" at="17,41,18,25" concept="2" />
+      <node id="8701802403633621054" at="25,95,26,42" concept="6" />
+      <node id="8701802403633621059" at="26,42,27,37" concept="6" />
+      <node id="8701802403633621065" at="27,37,28,39" concept="6" />
+      <node id="8701802403633621071" at="28,39,29,29" concept="6" />
+      <node id="8701802403633621077" at="29,29,30,29" concept="6" />
+      <node id="8701802403633667185" at="30,29,31,26" concept="6" />
+      <node id="8701802403633678674" at="31,26,32,27" concept="6" />
+      <node id="8701802403633692512" at="32,27,33,36" concept="6" />
+      <node id="8701802403633621083" at="33,36,34,60" concept="2" />
+      <node id="8701802403633621093" at="34,60,35,30" concept="2" />
+      <node id="8701802403633621109" at="35,30,36,60" concept="2" />
+      <node id="8701802403633621153" at="36,60,37,22" concept="2" />
+      <node id="4254343767712586466" at="37,22,38,0" concept="8" />
+      <node id="4254343767712595719" at="39,22,40,27" concept="2" />
+      <node id="4254343767712597656" at="41,12,42,27" concept="2" />
+      <node id="4254343767712596847" at="41,10,43,5" concept="0" />
+      <node id="8701802403633621049" at="16,0,20,0" concept="1" trace="ArrowHead#(DZ)V" />
+      <node id="4254343767712593796" at="38,0,43,5" concept="4" />
+      <node id="8701802403633621049" at="24,0,45,0" concept="5" trace="draw#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lde/itemis/mps/editor/diagram/runtime/shape/IShapeStyle;)V" />
+      <scope id="4254343767712593799" at="39,22,40,27" />
+      <scope id="4254343767712596848" at="41,12,42,27" />
+      <scope id="8701802403633621049" at="16,59,18,25" />
+      <scope id="8701802403633621049" at="16,0,20,0">
+        <var name="filled" id="4254343767712584159" />
+        <var name="relativeHeight" id="8701802403633659021" />
+      </scope>
+      <scope id="8701802403633621049" at="25,95,43,5">
+        <var name="centerY" id="8701802403633692515" />
+        <var name="height" id="8701802403633621066" />
+        <var name="shape" id="8701802403633621055" />
+        <var name="width" id="8701802403633621060" />
+        <var name="x" id="8701802403633621072" />
+        <var name="x2" id="8701802403633667188" />
+        <var name="y" id="8701802403633621078" />
+        <var name="y2" id="8701802403633678677" />
+      </scope>
+      <scope id="8701802403633621049" at="24,0,45,0">
+        <var name="bounds" id="8701802403633621049" />
+        <var name="graphics" id="8701802403633621049" />
+        <var name="style" id="8701802403633621049" />
+      </scope>
+      <unit id="8701802403633621049" at="11,0,47,0" name="de.itemis.mps.editor.diagram.shapes.ArrowHead" />
+    </file>
+  </root>
+</debug-info>
+

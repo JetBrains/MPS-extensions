@@ -31,10 +31,10 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.generator.template.MappingScriptContext;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 import jetbrains.mps.smodel.SNodePointer;
-import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.Map;
 import jetbrains.mps.generator.impl.query.ReductionRuleCondition;
 import java.util.HashMap;
@@ -724,18 +724,16 @@ public class QueriesGenerated extends QueryProviderBase {
     return SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), LINKS.style$DFph), LINKS.styleItem$FgZD);
   }
   public static void mappingScript_CodeBlock_30(final MappingScriptContext _context) {
-    ListSequence.fromList(SModelOperations.nodes(_context.getModel(), CONCEPTS.Table$tm)).visitAll((it) -> {
-      if ((SLinkOperations.getTarget(it, LINKS.actionMap$oNO2) == null)) {
-        SNode newCellActionMap = createCellActionMapDeclaration_x583g4_a0a0a0a0a0a312();
+    final Wrappers._T<SNode> tableSelectionActionMap = new Wrappers._T<SNode>(null);
+
+    ListSequence.fromList(SModelOperations.nodes(_context.getModel(), CONCEPTS.Table$tm)).where((it) -> SLinkOperations.getTarget(it, LINKS.actionMap$oNO2) == null).visitAll((table) -> {
+      if (tableSelectionActionMap.value == null) {
+        tableSelectionActionMap.value = createCellActionMapDeclaration_x583g4_a0a0a0a0a2a312();
         SNode templateCellActionMap = SPointerOperations.resolveNode(new SNodePointer("r:1e59a084-7ebe-4e95-89ab-c58a7e396583(de.slisson.mps.tables.editor)", "1206675692270895979"), _context.getOriginalInputModel().getRepository());
-        ListSequence.fromList(SLinkOperations.getChildren(newCellActionMap, LINKS.item$ZCi9)).addSequence(ListSequence.fromList(SLinkOperations.getChildren(templateCellActionMap, LINKS.item$ZCi9)).select(new _FunctionTypes._return_P1_E0<SNode, SNode>() {
-          public SNode invoke(SNode it) {
-            return SNodeOperations.copyNode(it);
-          }
-        }));
-        SModelOperations.addRootNode(_context.getModel(), newCellActionMap);
-        SLinkOperations.setTarget(it, LINKS.actionMap$oNO2, newCellActionMap);
+        ListSequence.fromList(SLinkOperations.getChildren(tableSelectionActionMap.value, LINKS.item$ZCi9)).addSequence(ListSequence.fromList(SLinkOperations.getChildren(templateCellActionMap, LINKS.item$ZCi9)).select((it) -> SNodeOperations.copyNode(it)));
+        SModelOperations.addRootNode(_context.getModel(), tableSelectionActionMap.value);
       }
+      SLinkOperations.setTarget(table, LINKS.actionMap$oNO2, tableSelectionActionMap.value);
     });
   }
   private final Map<String, ReductionRuleCondition> rrcMethods = new HashMap<String, ReductionRuleCondition>();
@@ -1550,7 +1548,7 @@ public class QueriesGenerated extends QueryProviderBase {
     quotedNode_1.addChild(MetaAdapterFactory.getContainmentLink(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x10c260e9444L, 0x10c260ee40eL, "elementType"), quotedNode_2);
     return quotedNode_1;
   }
-  private static SNode createCellActionMapDeclaration_x583g4_a0a0a0a0a0a312() {
+  private static SNode createCellActionMapDeclaration_x583g4_a0a0a0a0a2a312() {
     SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.CellActionMapDeclaration$QS);
     n0.setProperty(PROPS.name$MnvL, "TableSelectionActionMap");
     return n0.getResult();

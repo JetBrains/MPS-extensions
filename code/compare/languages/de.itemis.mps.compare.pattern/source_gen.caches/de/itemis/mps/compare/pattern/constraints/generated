@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-6iueytok6ynjgwys2ottx8qo2m2f7v3">
+  <files names="AncestorMember_Constraints.java:ConstraintsAspectDescriptor.java:GetConceptOperation_Constraints.java:IInitPart_Constraints.java:LinkMember_Constraints.java:MemberAnnotation_Constraints.java:NotNullLiteral_Constraints.java:NullLiteral_Constraints.java:ParentMember_Constraints.java:PatternBuilderExpression_Constraints.java:PatternBuilderList_Constraints.java:PatternBuilderNode_Constraints.java:PatternRefExpression_Constraints.java:Pattern_Constraints.java:PropertyMember_Constraints.java:TypeMember_Constraints.java" />
+</product>
+

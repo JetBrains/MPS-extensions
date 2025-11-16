@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="3axo6f7txhuxb0ddwb2mnsp7edmw7hd">
+  <files names="MatchResult_SuperTypes_SubtypingRule.java:TypesystemDescriptor.java:check_MatchOperation_NonTypesystemRule.java:typeof_ElementAccessorOperation_InferenceRule.java:typeof_GetOperation_InferenceRule.java:typeof_IsMatchOperation_InferenceRule.java:typeof_MatchOperation_InferenceRule.java:typeof_NamedGetTarget_InferenceRule.java:typeof_PatternHint_InferenceRule.java" />
+</product>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)/3410197114990977083">
+    <file name="de.itemis.mps.extensions.xml">
+      <unit id="3410197114990977083" at="1,0,27619,10" name="de.itemis.mps.extensions.build.de$itemis$mps$extensions" />
+    </file>
+  </root>
+  <root nodeRef="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)/7567865757466537446">
+    <file name="tests.xml">
+      <unit id="7567865757466537446" at="1,0,12743,10" name="de.itemis.mps.extensions.build.tests" />
+    </file>
+  </root>
+</debug-info>
+

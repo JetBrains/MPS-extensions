@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:f19691e5-cdba-471c-b59a-00d5ff7aea1c(de.slisson.mps.editor.multiline.runtime)/5205698381779290215">
+    <file name="ClipboardUtils.java">
+      <node id="1264234391953234008" at="15,43,16,23" concept="5" />
+      <node id="1264234391953234084" at="19,13,20,77" concept="2" />
+      <node id="1264234391953234153" at="20,77,21,16" concept="0" />
+      <node id="1264234391953234015" at="26,5,27,18" concept="6" />
+      <node id="4054375835734031109" at="29,52,30,78" concept="2" />
+      <node id="5205698381779290217" at="13,0,15,0" concept="1" trace="ClipboardUtils#()V" />
+      <node id="4054375835734031103" at="29,0,32,0" concept="8" trace="setClipboardText#(Ljava/lang/String;)V" />
+      <node id="1264234391953234146" at="18,67,24,9" concept="9" />
+      <node id="1264234391953234051" at="17,86,25,7" concept="4" />
+      <node id="1264234391953234018" at="16,23,26,5" concept="3" />
+      <node id="5205698381779290221" at="15,0,29,0" concept="8" trace="getClipboardText#()Ljava/lang/String;" />
+      <scope id="5205698381779290220" at="13,27,13,27" />
+      <scope id="1264234391953234159" at="22,49,22,49" />
+      <scope id="1264234391953234152" at="23,34,23,34" />
+      <scope id="1264234391953234156" at="22,9,23,9">
+        <var name="ex" id="1264234391953234157" />
+      </scope>
+      <scope id="1264234391953234149" at="23,9,24,9">
+        <var name="ex" id="1264234391953234150" />
+      </scope>
+      <scope id="4054375835734031106" at="29,52,30,78" />
+      <scope id="5205698381779290217" at="13,0,15,0" />
+      <scope id="1264234391953234147" at="19,13,21,16" />
+      <scope id="4054375835734031103" at="29,0,32,0">
+        <var name="text" id="4054375835734031107" />
+      </scope>
+      <scope id="1264234391953234053" at="18,67,24,9" />
+      <scope id="1264234391953234021" at="17,86,25,7" />
+      <scope id="1264234391953234018" at="16,23,26,5">
+        <var name="content" id="1264234391953234019" />
+      </scope>
+      <scope id="5205698381779290224" at="15,43,27,18">
+        <var name="result" id="1264234391953234009" />
+      </scope>
+      <scope id="5205698381779290221" at="15,0,29,0" />
+      <unit id="5205698381779290215" at="12,0,33,0" name="de.slisson.mps.editor.multiline.runtime.ClipboardUtils" />
+    </file>
+  </root>
+  <root nodeRef="r:f19691e5-cdba-471c-b59a-00d5ff7aea1c(de.slisson.mps.editor.multiline.runtime)/5792856961220495273">
+    <file name="CellUtils.java">
+      <node id="5792856961220501371" at="10,75,11,138" concept="2" />
+      <node id="5792856961220501147" at="10,0,13,0" concept="8" trace="setSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="5792856961220501151" at="10,75,11,138" />
+      <scope id="5792856961220501147" at="10,0,13,0">
+        <var name="cell" id="5792856961220501289" />
+        <var name="context" id="5792856961220501291" />
+      </scope>
+      <unit id="5792856961220495273" at="9,0,15,0" name="de.slisson.mps.editor.multiline.runtime.CellUtils" />
+    </file>
+  </root>
+  <root nodeRef="r:f19691e5-cdba-471c-b59a-00d5ff7aea1c(de.slisson.mps.editor.multiline.runtime)/6576321736523585258">
+    <file name="MultilineUtil.java">
+      <node id="5527602267962083244" at="7,53,8,50" concept="7" />
+      <node id="5527602267962093497" at="9,26,10,18" concept="6" />
+      <node id="6659200664843736324" at="12,61,13,46" concept="6" />
+      <node id="4278159124405226951" at="14,5,15,19" concept="6" />
+      <node id="4278159124405226784" at="22,53,23,21" concept="6" />
+      <node id="6659200664843691082" at="31,65,32,19" concept="6" />
+      <node id="5527602267962092619" at="8,50,11,5" concept="4" />
+      <node id="5527602267962083629" at="11,5,14,5" concept="4" />
+      <node id="6576321736523761801" at="21,0,25,0" concept="8" trace="escapeText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6659200664843687825" at="30,0,34,0" concept="8" trace="unescapeJavaIfAvailable#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6576321736523603655" at="7,0,17,0" concept="8" trace="unescapeText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="5527602267962092621" at="9,26,10,18" />
+      <scope id="5527602267962083631" at="12,61,13,46" />
+      <scope id="6576321736523761805" at="22,53,23,21" />
+      <scope id="6659200664843100563" at="31,65,32,19" />
+      <scope id="6576321736523761801" at="21,0,25,0">
+        <var name="unescaped" id="6576321736523761834" />
+      </scope>
+      <scope id="6659200664843687825" at="30,0,34,0">
+        <var name="escaped" id="6659200664843100870" />
+      </scope>
+      <scope id="6576321736523603659" at="7,53,15,19" />
+      <scope id="6576321736523603655" at="7,0,17,0">
+        <var name="escaped" id="6576321736523603683" />
+      </scope>
+      <unit id="6576321736523585258" at="6,0,35,0" name="de.slisson.mps.editor.multiline.runtime.MultilineUtil" />
+    </file>
+  </root>
+</debug-info>
+

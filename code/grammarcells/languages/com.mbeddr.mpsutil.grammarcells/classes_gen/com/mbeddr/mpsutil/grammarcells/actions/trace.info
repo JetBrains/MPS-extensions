@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="12,0,28,0" name="com.mbeddr.mpsutil.grammarcells.actions.ActionAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:061bfcc0-c33c-49e3-8504-3b53c6bba47e(com.mbeddr.mpsutil.grammarcells.actions)/7363578995839380030">
+    <file name="GrammarInfoCellNodeFactory.java">
+      <node id="6143279849330722807" at="14,102,15,74" concept="0" />
+      <node id="7363578995839380030" at="20,0,21,0" concept="2" trace="rules$IB4H" />
+      <node id="6143279849330722623" at="14,0,17,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;ILorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="6143279849330722623" at="14,102,15,74" />
+      <scope id="6143279849330722623" at="14,0,17,0">
+        <var name="enclosingNode" id="6143279849330722623" />
+        <var name="index" id="6143279849330722623" />
+        <var name="model" id="6143279849330722623" />
+        <var name="newNode" id="6143279849330722623" />
+        <var name="sampleNode" id="6143279849330722623" />
+      </scope>
+      <unit id="7363578995839380030" at="19,0,22,0" name="com.mbeddr.mpsutil.grammarcells.actions.GrammarInfoCellNodeFactory$LINKS" />
+      <unit id="6143279849330722623" at="13,0,18,0" name="com.mbeddr.mpsutil.grammarcells.actions.GrammarInfoCellNodeFactory$NodeFactory_6143279849330722623" />
+      <unit id="7363578995839380030" at="12,0,23,0" name="com.mbeddr.mpsutil.grammarcells.actions.GrammarInfoCellNodeFactory" />
+    </file>
+  </root>
+</debug-info>
+

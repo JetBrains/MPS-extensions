@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="9,0,14,0" name="de.itemis.model.merge.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:00bd6c6e-8efd-4091-b9e4-76836a81d03e(de.itemis.model.merge.plugin)/7137735640372087176">
+    <file name="ParamUtil.java">
+      <node id="7137735640372109355" at="14,59,15,156" concept="1" />
+      <node id="7137735640372109365" at="15,156,16,48" concept="2" />
+      <node id="2120062183197255864" at="19,64,20,145" concept="1" />
+      <node id="2120062183197903116" at="20,145,21,71" concept="1" />
+      <node id="2120062183195667688" at="21,71,22,47" concept="2" />
+      <node id="7137735640372109366" at="24,62,25,69" concept="1" />
+      <node id="7137735640372109366" at="25,69,26,50" concept="0" />
+      <node id="7137735640372109366" at="26,50,27,26" concept="2" />
+      <node id="2120062183195667689" at="29,62,30,69" concept="1" />
+      <node id="2120062183195667689" at="30,69,31,50" concept="0" />
+      <node id="2120062183195667689" at="31,50,32,26" concept="2" />
+      <node id="7137735640372087176" at="36,0,37,0" concept="3" trace="ConceptMergingPolicy$RB" />
+      <node id="7137735640372087176" at="37,0,38,0" concept="3" trace="MultiChildPolicy$zA" />
+      <node id="7137735640372087176" at="38,0,39,0" concept="3" trace="SNodeType$hR" />
+      <node id="7137735640372087176" at="42,0,43,0" concept="3" trace="conceptRef$p8vY" />
+      <node id="7137735640372087176" at="43,0,44,0" concept="3" trace="child$kkGR" />
+      <node id="7137735640372087176" at="44,0,45,0" concept="3" trace="target$m40F" />
+      <node id="7137735640372087176" at="45,0,46,0" concept="3" trace="concept$OMgE" />
+      <node id="7137735640372109350" at="14,0,18,0" concept="4" trace="conceptTypeByModelMerge#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="2120062183195667672" at="19,0,24,0" concept="4" trace="concepTypeByMultiChildPolicy#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7137735640372109366" at="24,0,29,0" concept="4" trace="createSNodeType_wq8bnr_a1a0#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="2120062183195667689" at="29,0,34,0" concept="4" trace="createSNodeType_wq8bnr_a2a2#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="7137735640372109354" at="14,59,16,48">
+        <var name="concept" id="7137735640372109356" />
+      </scope>
+      <scope id="2120062183195667674" at="19,64,22,47">
+        <var name="child" id="2120062183197255865" />
+        <var name="target" id="2120062183197903117" />
+      </scope>
+      <scope id="7137735640372109366" at="24,62,27,26">
+        <var name="n0" id="7137735640372109366" />
+      </scope>
+      <scope id="2120062183195667689" at="29,62,32,26">
+        <var name="n0" id="2120062183195667689" />
+      </scope>
+      <scope id="7137735640372109350" at="14,0,18,0">
+        <var name="node" id="7137735640372109352" />
+      </scope>
+      <scope id="2120062183195667672" at="19,0,24,0">
+        <var name="node" id="2120062183195667696" />
+      </scope>
+      <scope id="7137735640372109366" at="24,0,29,0">
+        <var name="p0" id="7137735640372109366" />
+      </scope>
+      <scope id="2120062183195667689" at="29,0,34,0">
+        <var name="p0" id="2120062183195667689" />
+      </scope>
+      <unit id="7137735640372087176" at="35,0,40,0" name="de.itemis.model.merge.plugin.ParamUtil$CONCEPTS" />
+      <unit id="7137735640372087176" at="41,0,47,0" name="de.itemis.model.merge.plugin.ParamUtil$LINKS" />
+      <unit id="7137735640372087176" at="13,0,48,0" name="de.itemis.model.merge.plugin.ParamUtil" />
+    </file>
+  </root>
+</debug-info>
+

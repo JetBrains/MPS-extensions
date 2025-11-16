@@ -35,8 +35,9 @@ public class TableSelectionActionMap {
         return this.canExecute_internal(editorContext, node);
       }
       public boolean canExecute_internal(EditorContext editorContext, SNode node) {
-        TableRangeSelection selection = as_rxvfzo_a0a0a3a0a0a1(editorContext.getSelectionManager().getSelection(), TableRangeSelection.class);
-        return CopyPasteSupport.existsFor(node, editorContext) && selection != null;
+        CopyPasteSupport support = CopyPasteSupport.forNode(node, editorContext);
+        TableRangeSelection selection = as_rxvfzo_a0a1a3a0a0a1(editorContext.getSelectionManager().getSelection(), TableRangeSelection.class);
+        return support != null && selection != null;
       }
 
     };
@@ -60,8 +61,9 @@ public class TableSelectionActionMap {
         return this.canExecute_internal(editorContext, node);
       }
       public boolean canExecute_internal(EditorContext editorContext, SNode node) {
-        TableRangeSelection selection = as_rxvfzo_a0a0a3a0a0a2(editorContext.getSelectionManager().getSelection(), TableRangeSelection.class);
-        return CopyPasteSupport.existsFor(node, editorContext) && selection != null;
+        CopyPasteSupport support = CopyPasteSupport.forNode(node, editorContext);
+        TableRangeSelection selection = as_rxvfzo_a0a1a3a0a0a2(editorContext.getSelectionManager().getSelection(), TableRangeSelection.class);
+        return support != null && selection != null;
       }
 
     };
@@ -85,8 +87,9 @@ public class TableSelectionActionMap {
         return this.canExecute_internal(editorContext, node);
       }
       public boolean canExecute_internal(EditorContext editorContext, SNode node) {
-        TableRangeSelection selection = as_rxvfzo_a0a0a3a0a0a3(editorContext.getSelectionManager().getSelection(), TableRangeSelection.class);
-        return CopyPasteSupport.existsFor(node, editorContext) && selection != null;
+        CopyPasteSupport support = CopyPasteSupport.forNode(node, editorContext);
+        TableRangeSelection selection = as_rxvfzo_a0a1a3a0a0a3(editorContext.getSelectionManager().getSelection(), TableRangeSelection.class);
+        return support != null && selection != null;
       }
 
     };
@@ -107,8 +110,9 @@ public class TableSelectionActionMap {
         return this.canExecute_internal(editorContext, node);
       }
       public boolean canExecute_internal(EditorContext editorContext, SNode node) {
-        TableRangeSelection selection = as_rxvfzo_a0a0a3a0a0a4(editorContext.getSelectionManager().getSelection(), TableRangeSelection.class);
-        return CopyPasteSupport.existsFor(node, editorContext) && selection != null;
+        CopyPasteSupport support = CopyPasteSupport.forNode(node, editorContext);
+        TableRangeSelection selection = as_rxvfzo_a0a1a3a0a0a4(editorContext.getSelectionManager().getSelection(), TableRangeSelection.class);
+        return support != null && selection != null;
       }
 
     };
@@ -169,25 +173,25 @@ public class TableSelectionActionMap {
   private static <T> T as_rxvfzo_a0a1a1a0a0a1(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_rxvfzo_a0a0a3a0a0a1(Object o, Class<T> type) {
+  private static <T> T as_rxvfzo_a0a1a3a0a0a1(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
   private static <T> T as_rxvfzo_a0a2a1a0a0a2(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_rxvfzo_a0a0a3a0a0a2(Object o, Class<T> type) {
+  private static <T> T as_rxvfzo_a0a1a3a0a0a2(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
   private static <T> T as_rxvfzo_a0a1a1a0a0a3(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_rxvfzo_a0a0a3a0a0a3(Object o, Class<T> type) {
+  private static <T> T as_rxvfzo_a0a1a3a0a0a3(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
   private static <T> T as_rxvfzo_a0a1a1a0a0a4(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_rxvfzo_a0a0a3a0a0a4(Object o, Class<T> type) {
+  private static <T> T as_rxvfzo_a0a1a3a0a0a4(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

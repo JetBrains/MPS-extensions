@@ -4,13 +4,6 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
-## November 2025
-
-### Fixed
-
-- *de.slisson.mps.tables* IllegalArgumentException thrown when copy-paste support is not defined for a table node (#1650).
-- *de.slisson.mps.tables* Textgen warning about duplicate unit name when an editor model contains multiple tables without an action map. 
-
 ## October 2025
 
 ### Fixed

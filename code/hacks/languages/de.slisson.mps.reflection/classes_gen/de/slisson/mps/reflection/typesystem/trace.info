@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,20,0" name="de.slisson.mps.reflection.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:3db211d1-b0f6-48eb-9e5c-e5a49d9a95eb(de.slisson.mps.reflection.typesystem)/8473566765276388016">
+    <file name="TypesystemDescriptor.java">
+      <node id="8473566765276388016" at="10,5,11,93" concept="4" />
+      <node id="8473566765276388016" at="11,93,12,47" concept="2" />
+      <node id="8473566765276388016" at="9,33,13,5" concept="0" />
+      <scope id="8473566765276388016" at="10,5,12,47">
+        <var name="inferenceRule" id="8473566765276388016" />
+      </scope>
+    </file>
+    <file name="typeof_ReflectionFieldAccess_InferenceRule.java">
+      <node id="8473566765276388205" at="22,5,23,63" concept="4" />
+      <node id="8473566765276388205" at="23,63,24,202" concept="4" />
+      <node id="8473566765276388205" at="24,202,25,364" concept="2" />
+      <node id="8473566765276388016" at="28,50,29,45" concept="5" />
+      <node id="8473566765276388016" at="31,68,32,102" concept="5" />
+      <node id="8473566765276388016" at="34,30,35,17" concept="5" />
+      <node id="8473566765276388016" at="39,0,40,0" concept="6" trace="fieldDeclaration$7Fmh" />
+      <node id="8473566765276388016" at="40,0,41,0" concept="6" trace="type$a1UY" />
+      <node id="8473566765276388016" at="44,0,45,0" concept="6" trace="ReflectionFieldAccess$ZV" />
+      <node id="8473566765276388016" at="19,0,21,0" concept="1" trace="typeof_ReflectionFieldAccess_InferenceRule#()V" />
+      <node id="8473566765276388016" at="28,0,31,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8473566765276388016" at="31,0,34,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8473566765276388016" at="34,0,37,0" concept="3" trace="overrides#()Z" />
+      <node id="8473566765276388205" at="21,134,26,5" concept="0" />
+      <node id="8473566765276388016" at="21,0,28,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8473566765276388016" at="19,55,19,55" />
+      <scope id="8473566765276388016" at="28,50,29,45" />
+      <scope id="8473566765276388016" at="31,68,32,102" />
+      <scope id="8473566765276388016" at="34,30,35,17" />
+      <scope id="8473566765276388016" at="19,0,21,0" />
+      <scope id="8473566765276388205" at="22,5,25,364">
+        <var name="_info_12389875345" id="8473566765276388205" />
+        <var name="_nodeToCheck_1029348928467" id="8473566765276388205" />
+      </scope>
+      <scope id="8473566765276388016" at="28,0,31,0" />
+      <scope id="8473566765276388016" at="31,0,34,0">
+        <var name="argument" id="8473566765276388016" />
+      </scope>
+      <scope id="8473566765276388016" at="34,0,37,0" />
+      <scope id="8473566765276388017" at="21,134,26,5" />
+      <scope id="8473566765276388016" at="21,0,28,0">
+        <var name="reflectionFieldAccess" id="8473566765276388016" />
+        <var name="status" id="8473566765276388016" />
+        <var name="typeCheckingContext" id="8473566765276388016" />
+      </scope>
+      <unit id="8473566765276388016" at="43,0,46,0" name="de.slisson.mps.reflection.typesystem.typeof_ReflectionFieldAccess_InferenceRule$CONCEPTS" />
+      <unit id="8473566765276388016" at="38,0,42,0" name="de.slisson.mps.reflection.typesystem.typeof_ReflectionFieldAccess_InferenceRule$LINKS" />
+      <unit id="8473566765276388016" at="18,0,47,0" name="de.slisson.mps.reflection.typesystem.typeof_ReflectionFieldAccess_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:3db211d1-b0f6-48eb-9e5c-e5a49d9a95eb(de.slisson.mps.reflection.typesystem)/8520162698483157588">
+    <file name="TypesystemDescriptor.java">
+      <node id="8520162698483157588" at="14,5,15,98" concept="4" />
+      <node id="8520162698483157588" at="15,98,16,47" concept="2" />
+      <node id="8520162698483157588" at="13,5,17,5" concept="0" />
+      <scope id="8520162698483157588" at="14,5,16,47">
+        <var name="inferenceRule" id="8520162698483157588" />
+      </scope>
+    </file>
+    <file name="typeof_ReflectionStaticMethodCall_InferenceRule.java">
+      <node id="5977092449933636066" at="18,139,19,105" concept="2" />
+      <node id="8520162698483157588" at="21,50,22,50" concept="5" />
+      <node id="8520162698483157588" at="24,68,25,102" concept="5" />
+      <node id="8520162698483157588" at="27,30,28,17" concept="5" />
+      <node id="8520162698483157588" at="32,0,33,0" concept="6" trace="ReflectionStaticMethodCall$fo" />
+      <node id="8520162698483157588" at="16,0,18,0" concept="1" trace="typeof_ReflectionStaticMethodCall_InferenceRule#()V" />
+      <node id="8520162698483157588" at="18,0,21,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="8520162698483157588" at="21,0,24,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8520162698483157588" at="24,0,27,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8520162698483157588" at="27,0,30,0" concept="3" trace="overrides#()Z" />
+      <scope id="8520162698483157588" at="16,60,16,60" />
+      <scope id="8520162698483157589" at="18,139,19,105" />
+      <scope id="8520162698483157588" at="21,50,22,50" />
+      <scope id="8520162698483157588" at="24,68,25,102" />
+      <scope id="8520162698483157588" at="27,30,28,17" />
+      <scope id="8520162698483157588" at="16,0,18,0" />
+      <scope id="8520162698483157588" at="18,0,21,0">
+        <var name="reflectionStaticMethodCall" id="8520162698483157588" />
+        <var name="status" id="8520162698483157588" />
+        <var name="typeCheckingContext" id="8520162698483157588" />
+      </scope>
+      <scope id="8520162698483157588" at="21,0,24,0" />
+      <scope id="8520162698483157588" at="24,0,27,0">
+        <var name="argument" id="8520162698483157588" />
+      </scope>
+      <scope id="8520162698483157588" at="27,0,30,0" />
+      <unit id="8520162698483157588" at="31,0,34,0" name="de.slisson.mps.reflection.typesystem.typeof_ReflectionStaticMethodCall_InferenceRule$CONCEPTS" />
+      <unit id="8520162698483157588" at="15,0,35,0" name="de.slisson.mps.reflection.typesystem.typeof_ReflectionStaticMethodCall_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
+

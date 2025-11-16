@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="EditorAspectDescriptorImpl.java">
+      <unit at="22,0,72,0" name="com.mbeddr.mpsutil.treenotation.styles.editor.EditorAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:00d6ee44-268c-4818-b3e7-4eecf669c7ee(com.mbeddr.mpsutil.treenotation.styles.editor)/134774857085094067">
+    <file name="EditorAspectDescriptorImpl.java">
+      <node id="8796347991408043061" at="43,34,44,72" concept="5" />
+      <node id="3732365408180218347" at="45,33,46,203" concept="5" />
+      <node id="8052641366131855243" at="47,26,48,72" concept="5" />
+      <node id="134774857085164672" at="49,38,50,90" concept="5" />
+      <node id="8877288515758117545" at="51,38,52,81" concept="5" />
+      <node id="8310145593776810596" at="53,25,54,77" concept="5" />
+      <node id="134774857085094068" at="55,32,56,83" concept="5" />
+      <node id="134774857085125922" at="57,32,58,80" concept="5" />
+      <node id="134774857085125877" at="59,31,60,79" concept="5" />
+      <node id="1227384462787086016" at="61,35,62,85" concept="5" />
+      <node id="2807401889297481853" at="63,41,64,87" concept="5" />
+      <scope id="8796347991408043061" at="43,34,44,72" />
+      <scope id="3732365408180218347" at="45,33,46,203" />
+      <scope id="8052641366131855243" at="47,26,48,72" />
+      <scope id="134774857085164672" at="49,38,50,90" />
+      <scope id="8877288515758117545" at="51,38,52,81" />
+      <scope id="8310145593776810596" at="53,25,54,77" />
+      <scope id="134774857085094068" at="55,32,56,83" />
+      <scope id="134774857085125922" at="57,32,58,80" />
+      <scope id="134774857085125877" at="59,31,60,79" />
+      <scope id="1227384462787086016" at="61,35,62,85" />
+      <scope id="2807401889297481853" at="63,41,64,87" />
+    </file>
+    <file name="TreeNotationStyles_StyleSheet.java">
+      <unit id="134774857085094067" at="6,0,8,0" name="com.mbeddr.mpsutil.treenotation.styles.editor.TreeNotationStyles_StyleSheet" />
+    </file>
+  </root>
+  <root nodeRef="r:00d6ee44-268c-4818-b3e7-4eecf669c7ee(com.mbeddr.mpsutil.treenotation.styles.editor)/134774857085124850">
+    <file name="Dummy.java">
+      <node id="134774857085124850" at="15,47,16,35" concept="5" />
+      <node id="134774857085124850" at="18,79,19,74" concept="5" />
+      <node id="134774857085124850" at="18,0,21,0" concept="3" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="134774857085124850" at="14,0,18,0" concept="3" trace="getContextHints#()Ljava/util/Collection;" />
+      <scope id="134774857085124850" at="15,47,16,35" />
+      <scope id="134774857085124850" at="18,79,19,74" />
+      <scope id="134774857085124850" at="18,0,21,0">
+        <var name="editorContext" id="134774857085124850" />
+        <var name="node" id="134774857085124850" />
+      </scope>
+      <scope id="134774857085124850" at="14,0,18,0" />
+      <unit id="134774857085124850" at="13,0,22,0" name="com.mbeddr.mpsutil.treenotation.styles.editor.Dummy" />
+    </file>
+    <file name="Dummy_ComponentBuilder_a.java">
+      <node id="134774857085124850" at="16,88,17,19" concept="6" />
+      <node id="134774857085124850" at="17,19,18,18" concept="1" />
+      <node id="134774857085124850" at="23,26,24,18" concept="5" />
+      <node id="134774857085124850" at="27,39,28,30" concept="5" />
+      <node id="134774857085124852" at="31,41,32,201" concept="4" />
+      <node id="134774857085124852" at="32,201,33,45" concept="1" />
+      <node id="134774857085124852" at="33,45,34,34" concept="1" />
+      <node id="134774857085124852" at="34,34,35,22" concept="5" />
+      <node id="134774857085124850" at="13,0,15,0" concept="2" trace="myNode" />
+      <node id="134774857085124850" at="27,0,30,0" concept="3" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="134774857085124850" at="16,0,20,0" concept="0" trace="Dummy_ComponentBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="134774857085124850" at="21,0,26,0" concept="3" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="134774857085124852" at="31,0,37,0" concept="3" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="134774857085124850" at="23,26,24,18" />
+      <scope id="134774857085124850" at="27,39,28,30" />
+      <scope id="134774857085124850" at="16,88,18,18" />
+      <scope id="134774857085124850" at="27,0,30,0" />
+      <scope id="134774857085124850" at="16,0,20,0">
+        <var name="context" id="134774857085124850" />
+        <var name="node" id="134774857085124850" />
+      </scope>
+      <scope id="134774857085124852" at="31,41,35,22">
+        <var name="editorCell" id="134774857085124852" />
+      </scope>
+      <scope id="134774857085124850" at="21,0,26,0" />
+      <scope id="134774857085124852" at="31,0,37,0" />
+      <unit id="134774857085124850" at="12,0,38,0" name="com.mbeddr.mpsutil.treenotation.styles.editor.Dummy_ComponentBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:00d6ee44-268c-4818-b3e7-4eecf669c7ee(com.mbeddr.mpsutil.treenotation.styles.editor)/8310145593777172848">
+    <file name="ITreeLayoutType.java">
+      <unit id="8310145593777172848" at="9,0,11,0" name="com.mbeddr.mpsutil.treenotation.styles.editor.ITreeLayoutType" />
+    </file>
+  </root>
+</debug-info>
+

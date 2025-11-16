@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,33,0" name="de.itemis.mps.editor.math.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:395eb30d-fc47-48cb-afa4-88e98c1b6fbb(de.itemis.mps.editor.math.constraints)/1330709772460865083">
+    <file name="ChildCellRef_Constraints.java">
+      <node id="1330709772460865083" at="18,37,19,36" concept="6" />
+      <node id="1330709772460865177" at="27,56,28,201" concept="4" />
+      <node id="1330709772460865083" at="30,6,31,131" concept="3" />
+      <node id="1330709772460865177" at="31,131,32,42" concept="1" />
+      <node id="1330709772460865083" at="32,42,33,22" concept="4" />
+      <node id="1330709772460865083" at="37,0,38,0" concept="5" trace="ChildCellRef$_v" />
+      <node id="1330709772460865083" at="38,0,39,0" concept="5" trace="ChildCellDecl$2y" />
+      <node id="1330709772460865083" at="42,0,43,0" concept="5" trace="decl$69w" />
+      <node id="1330709772460865083" at="18,0,21,0" concept="0" trace="ChildCellRef_Constraints#()V" />
+      <node id="1330709772460865177" at="25,0,30,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1330709772460865177" at="23,90,30,6" concept="3" />
+      <node id="1330709772460865083" at="22,0,35,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1330709772460865083" at="18,37,19,36" />
+      <scope id="1330709772460865177" at="27,56,28,201" />
+      <scope id="1330709772460865083" at="18,0,21,0" />
+      <scope id="1330709772460865177" at="25,0,30,0" />
+      <scope id="1330709772460865083" at="23,90,33,22">
+        <var name="d0" id="1330709772460865177" />
+        <var name="references" id="1330709772460865083" />
+      </scope>
+      <scope id="1330709772460865083" at="22,0,35,0" />
+      <unit id="1330709772460865083" at="41,0,44,0" name="de.itemis.mps.editor.math.constraints.ChildCellRef_Constraints$LINKS" />
+      <unit id="1330709772460865083" at="36,0,40,0" name="de.itemis.mps.editor.math.constraints.ChildCellRef_Constraints$CONCEPTS" />
+      <unit id="1330709772460865177" at="24,48,30,5" name="de.itemis.mps.editor.math.constraints.ChildCellRef_Constraints$1" />
+      <unit id="1330709772460865083" at="17,0,45,0" name="de.itemis.mps.editor.math.constraints.ChildCellRef_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:395eb30d-fc47-48cb-afa4-88e98c1b6fbb(de.itemis.mps.editor.math.constraints)/8588142736408805306">
+    <file name="BooleanFunction_Constraints.java">
+      <node id="8588142736408805306" at="10,40,11,39" concept="6" />
+      <node id="8588142736408805306" at="15,0,16,0" concept="5" trace="BooleanFunction$Vf" />
+      <node id="8588142736408805306" at="10,0,13,0" concept="0" trace="BooleanFunction_Constraints#()V" />
+      <scope id="8588142736408805306" at="10,40,11,39" />
+      <scope id="8588142736408805306" at="10,0,13,0" />
+      <unit id="8588142736408805306" at="14,0,17,0" name="de.itemis.mps.editor.math.constraints.BooleanFunction_Constraints$CONCEPTS" />
+      <unit id="8588142736408805306" at="9,0,18,0" name="de.itemis.mps.editor.math.constraints.BooleanFunction_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:395eb30d-fc47-48cb-afa4-88e98c1b6fbb(de.itemis.mps.editor.math.constraints)/981761841405838499">
+    <file name="MathSymbolReferenceExpression_Constraints.java">
+      <node id="981761841405838499" at="18,54,19,53" concept="6" />
+      <node id="981761841405838570" at="27,56,28,201" concept="4" />
+      <node id="981761841405838499" at="30,6,31,131" concept="3" />
+      <node id="981761841405838570" at="31,131,32,42" concept="1" />
+      <node id="981761841405838499" at="32,42,33,22" concept="4" />
+      <node id="981761841405838499" at="37,0,38,0" concept="5" trace="MathSymbolReferenceExpression$Kf" />
+      <node id="981761841405838499" at="38,0,39,0" concept="5" trace="MathSymbolDecl$$W" />
+      <node id="981761841405838499" at="42,0,43,0" concept="5" trace="decl$mxbT" />
+      <node id="981761841405838499" at="18,0,21,0" concept="0" trace="MathSymbolReferenceExpression_Constraints#()V" />
+      <node id="981761841405838570" at="25,0,30,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="981761841405838570" at="23,90,30,6" concept="3" />
+      <node id="981761841405838499" at="22,0,35,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="981761841405838499" at="18,54,19,53" />
+      <scope id="981761841405838570" at="27,56,28,201" />
+      <scope id="981761841405838499" at="18,0,21,0" />
+      <scope id="981761841405838570" at="25,0,30,0" />
+      <scope id="981761841405838499" at="23,90,33,22">
+        <var name="d0" id="981761841405838570" />
+        <var name="references" id="981761841405838499" />
+      </scope>
+      <scope id="981761841405838499" at="22,0,35,0" />
+      <unit id="981761841405838499" at="41,0,44,0" name="de.itemis.mps.editor.math.constraints.MathSymbolReferenceExpression_Constraints$LINKS" />
+      <unit id="981761841405838499" at="36,0,40,0" name="de.itemis.mps.editor.math.constraints.MathSymbolReferenceExpression_Constraints$CONCEPTS" />
+      <unit id="981761841405838570" at="24,48,30,5" name="de.itemis.mps.editor.math.constraints.MathSymbolReferenceExpression_Constraints$1" />
+      <unit id="981761841405838499" at="17,0,45,0" name="de.itemis.mps.editor.math.constraints.MathSymbolReferenceExpression_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

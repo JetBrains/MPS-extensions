@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="a7mmz99uciwpkr7f83igwv1wblrholm">
+  <files names="TypesystemDescriptor.java:check_PolymorphicFunctionCall_groups_NonTypesystemRule.java:check_PriorityRule_sameDeclaration_NonTypesystemRule.java:fix_PolymorphicFunctionCall_groups_QuickFix.java:typeof_GroupCall_InferenceRule.java:typeof_GroupParameterDeclaration_InferenceRule.java:typeof_GroupParameterReference_InferenceRule.java:typeof_PFParameterDeclaration_InferenceRule.java:typeof_PFParameterReference_InferenceRule.java:typeof_PolymorphicFunctionCall_InferenceRule.java:typeof_PolymorphicFunctionDeclaration_InferenceRule.java:typeof_PolymorphicFunctionImplementation_InferenceRule.java:typeof_PriorityGroupCall_InferenceRule.java" />
+</product>
+

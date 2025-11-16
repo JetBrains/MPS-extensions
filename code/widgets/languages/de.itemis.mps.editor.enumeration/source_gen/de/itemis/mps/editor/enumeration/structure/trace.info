@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,63,0" name="de.itemis.mps.editor.enumeration.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,36,0" name="de.itemis.mps.editor.enumeration.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="18,0,122,0" name="de.itemis.mps.editor.enumeration.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:69e29f69-e5fe-4c7c-8fb9-def0a236032d(de.itemis.mps.editor.enumeration.structure)/2135528801629813662">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="2135528801629813662" at="12,0,13,0" concept="1" trace="props_CellModel_EnumCheckbox" />
+      <node id="2135528801629813662" at="24,51,25,76" concept="3" />
+      <node id="2135528801629813662" at="25,76,26,61" concept="0" />
+      <node id="2135528801629813662" at="26,61,27,47" concept="0" />
+      <node id="2135528801629813662" at="27,47,28,54" concept="0" />
+      <node id="2135528801629813662" at="29,9,30,44" concept="4" />
+      <node id="2135528801629813662" at="23,56,29,9" concept="2" />
+      <scope id="2135528801629813662" at="24,51,28,54">
+        <var name="cpb" id="2135528801629813662" />
+      </scope>
+      <scope id="2135528801629813662" at="23,56,30,44" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="2135528801629813662" at="12,0,13,0" concept="6" trace="CellModel_EnumCheckbox" />
+      <node id="2135528801629813662" at="19,116,20,61" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2135528801629813662" at="19,0,20,0" concept="1" trace="myConceptCellModel_EnumCheckbox" />
+      <node id="2135528801629813662" at="46,56,47,47" concept="4" />
+      <node id="2135528801629813662" at="66,80,67,189" concept="3" />
+      <node id="2135528801629813662" at="67,189,68,34" concept="0" />
+      <node id="2135528801629813662" at="68,34,69,70" concept="5" />
+      <node id="2135528801629813662" at="69,70,70,70" concept="0" />
+      <node id="2135528801629813662" at="70,70,71,119" concept="0" />
+      <node id="2135528801629813662" at="71,119,72,17" concept="0" />
+      <node id="2135528801629813662" at="72,17,73,32" concept="0" />
+      <node id="3451427940774943997" at="73,32,74,130" concept="0" />
+      <node id="2135528801629913147" at="74,130,75,199" concept="0" />
+      <node id="2135528801629813662" at="75,199,76,69" concept="0" />
+      <node id="2135528801629813662" at="76,69,77,29" concept="0" />
+      <node id="2135528801629813662" at="77,29,78,22" concept="4" />
+      <node id="2135528801629813662" at="66,0,80,0" concept="7" trace="createDescriptorForCellModel_EnumCheckbox#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2135528801629813662" at="46,56,47,47" />
+      <scope id="2135528801629813662" at="66,80,78,22">
+        <var name="b" id="2135528801629813662" />
+      </scope>
+      <scope id="2135528801629813662" at="66,0,80,0" />
+    </file>
+  </root>
+  <root nodeRef="r:69e29f69-e5fe-4c7c-8fb9-def0a236032d(de.itemis.mps.editor.enumeration.structure)/2135528801629813722">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="2135528801629813722" at="16,0,17,0" concept="1" trace="props_StubCellModel_EnumCheckbox" />
+      <node id="2135528801629813722" at="53,55,54,76" concept="3" />
+      <node id="2135528801629813722" at="54,76,55,60" concept="0" />
+      <node id="2135528801629813722" at="55,60,56,58" concept="0" />
+      <node id="2135528801629813722" at="57,9,58,48" concept="4" />
+      <node id="2135528801629813722" at="52,60,57,9" concept="2" />
+      <scope id="2135528801629813722" at="53,55,56,58">
+        <var name="cpb" id="2135528801629813722" />
+      </scope>
+      <scope id="2135528801629813722" at="52,60,58,48" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="2135528801629813722" at="16,0,17,0" concept="6" trace="StubCellModel_EnumCheckbox" />
+      <node id="2135528801629813722" at="23,53,24,65" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2135528801629813722" at="23,0,24,0" concept="1" trace="myConceptStubCellModel_EnumCheckbox" />
+      <node id="2135528801629813722" at="54,60,55,51" concept="4" />
+      <node id="2135528801629813722" at="110,84,111,193" concept="3" />
+      <node id="2135528801629813722" at="111,193,112,34" concept="0" />
+      <node id="2135528801629813722" at="112,34,113,81" concept="5" />
+      <node id="2135528801629813722" at="113,81,114,76" concept="0" />
+      <node id="2135528801629813722" at="114,76,115,75" concept="0" />
+      <node id="2135528801629813722" at="115,75,116,119" concept="0" />
+      <node id="2135528801629813722" at="116,119,117,17" concept="0" />
+      <node id="2135528801629813722" at="117,17,118,54" concept="0" />
+      <node id="2135528801629813722" at="118,54,119,22" concept="4" />
+      <node id="2135528801629813722" at="110,0,121,0" concept="7" trace="createDescriptorForStubCellModel_EnumCheckbox#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2135528801629813722" at="54,60,55,51" />
+      <scope id="2135528801629813722" at="110,84,119,22">
+        <var name="b" id="2135528801629813722" />
+      </scope>
+      <scope id="2135528801629813722" at="110,0,121,0" />
+    </file>
+  </root>
+  <root nodeRef="r:69e29f69-e5fe-4c7c-8fb9-def0a236032d(de.itemis.mps.editor.enumeration.structure)/2135528801629813732">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="2135528801629813732" at="13,0,14,0" concept="1" trace="props_EnumCheckbox_Selectable" />
+      <node id="2135528801629813732" at="32,52,33,76" concept="3" />
+      <node id="2135528801629813732" at="33,76,34,35" concept="0" />
+      <node id="2135528801629813732" at="34,35,35,55" concept="0" />
+      <node id="2135528801629813732" at="36,9,37,45" concept="4" />
+      <node id="2135528801629813732" at="31,57,36,9" concept="2" />
+      <scope id="2135528801629813732" at="32,52,35,55">
+        <var name="cpb" id="2135528801629813732" />
+      </scope>
+      <scope id="2135528801629813732" at="31,57,37,45" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="2135528801629813732" at="13,0,14,0" concept="6" trace="EnumCheckbox_Selectable" />
+      <node id="2135528801629813732" at="20,61,21,62" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2135528801629813732" at="20,0,21,0" concept="1" trace="myConceptEnumCheckbox_Selectable" />
+      <node id="2135528801629813732" at="48,57,49,48" concept="4" />
+      <node id="2135528801629813732" at="80,81,81,190" concept="3" />
+      <node id="2135528801629813732" at="81,190,82,34" concept="0" />
+      <node id="2135528801629813732" at="82,34,83,71" concept="0" />
+      <node id="2135528801629813732" at="83,71,84,119" concept="0" />
+      <node id="2135528801629813732" at="84,119,85,17" concept="0" />
+      <node id="2135528801629813759" at="85,17,86,168" concept="0" />
+      <node id="2135528801629813762" at="86,168,87,171" concept="0" />
+      <node id="4698460851461058889" at="87,171,88,168" concept="0" />
+      <node id="2135528801629813732" at="88,168,89,22" concept="4" />
+      <node id="2135528801629813732" at="80,0,91,0" concept="7" trace="createDescriptorForEnumCheckbox_Selectable#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2135528801629813732" at="48,57,49,48" />
+      <scope id="2135528801629813732" at="80,81,89,22">
+        <var name="b" id="2135528801629813732" />
+      </scope>
+      <scope id="2135528801629813732" at="80,0,91,0" />
+    </file>
+  </root>
+  <root nodeRef="r:69e29f69-e5fe-4c7c-8fb9-def0a236032d(de.itemis.mps.editor.enumeration.structure)/2135528801629813736">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="2135528801629813736" at="14,0,15,0" concept="1" trace="props_Icon" />
+      <node id="2135528801629813736" at="39,33,40,76" concept="3" />
+      <node id="2135528801629813736" at="40,76,41,35" concept="0" />
+      <node id="2135528801629813736" at="41,35,42,36" concept="0" />
+      <node id="2135528801629813736" at="43,9,44,26" concept="4" />
+      <node id="2135528801629813736" at="38,38,43,9" concept="2" />
+      <scope id="2135528801629813736" at="39,33,42,36">
+        <var name="cpb" id="2135528801629813736" />
+      </scope>
+      <scope id="2135528801629813736" at="38,38,44,26" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="2135528801629813736" at="14,0,15,0" concept="6" trace="Icon" />
+      <node id="2135528801629813736" at="21,62,22,43" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2135528801629813736" at="21,0,22,0" concept="1" trace="myConceptIcon" />
+      <node id="2135528801629813736" at="50,38,51,29" concept="4" />
+      <node id="2135528801629813736" at="91,62,92,171" concept="3" />
+      <node id="2135528801629813736" at="92,171,93,34" concept="0" />
+      <node id="2135528801629813736" at="93,34,94,71" concept="0" />
+      <node id="2135528801629813736" at="94,71,95,119" concept="0" />
+      <node id="2135528801629813736" at="95,119,96,17" concept="0" />
+      <node id="2135528801629813740" at="96,17,97,110" concept="0" />
+      <node id="2135528801629813743" at="97,110,98,171" concept="0" />
+      <node id="2135528801629813736" at="98,171,99,22" concept="4" />
+      <node id="2135528801629813736" at="91,0,101,0" concept="7" trace="createDescriptorForIcon#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2135528801629813736" at="50,38,51,29" />
+      <scope id="2135528801629813736" at="91,62,99,22">
+        <var name="b" id="2135528801629813736" />
+      </scope>
+      <scope id="2135528801629813736" at="91,0,101,0" />
+    </file>
+  </root>
+  <root nodeRef="r:69e29f69-e5fe-4c7c-8fb9-def0a236032d(de.itemis.mps.editor.enumeration.structure)/2135528801629813748">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="2135528801629813748" at="15,0,16,0" concept="1" trace="props_IconCollection" />
+      <node id="2135528801629813748" at="46,43,47,76" concept="3" />
+      <node id="2135528801629813748" at="47,76,48,35" concept="0" />
+      <node id="2135528801629813748" at="48,35,49,46" concept="0" />
+      <node id="2135528801629813748" at="50,9,51,36" concept="4" />
+      <node id="2135528801629813748" at="45,48,50,9" concept="2" />
+      <scope id="2135528801629813748" at="46,43,49,46">
+        <var name="cpb" id="2135528801629813748" />
+      </scope>
+      <scope id="2135528801629813748" at="45,48,51,36" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="2135528801629813748" at="15,0,16,0" concept="6" trace="IconCollection" />
+      <node id="2135528801629813748" at="22,43,23,53" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2135528801629813748" at="22,0,23,0" concept="1" trace="myConceptIconCollection" />
+      <node id="2135528801629813748" at="52,48,53,39" concept="4" />
+      <node id="2135528801629813748" at="101,72,102,181" concept="3" />
+      <node id="2135528801629813748" at="102,181,103,33" concept="0" />
+      <node id="2135528801629813748" at="103,33,104,71" concept="0" />
+      <node id="2135528801629813748" at="104,71,105,119" concept="0" />
+      <node id="2135528801629813748" at="105,119,106,17" concept="0" />
+      <node id="2135528801629813752" at="106,17,107,197" concept="0" />
+      <node id="2135528801629813748" at="107,197,108,22" concept="4" />
+      <node id="2135528801629813748" at="101,0,110,0" concept="7" trace="createDescriptorForIconCollection#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2135528801629813748" at="52,48,53,39" />
+      <scope id="2135528801629813748" at="101,72,108,22">
+        <var name="b" id="2135528801629813748" />
+      </scope>
+      <scope id="2135528801629813748" at="101,0,110,0" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="18,0,56,0" name="com.mbeddr.mpsutil.grammarcells.intentions.IntentionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c77c106a-8130-4743-ac6d-afc423580ff1(com.mbeddr.mpsutil.grammarcells.intentions)/2529749638821362247">
+    <file name="IntentionsDescriptor.java">
+      <node id="2529749638821362247" at="37,47,38,64" concept="2" />
+      <node id="2529749638821362247" at="50,52,51,50" concept="2" />
+    </file>
+    <file name="ToogleComponentInline_Intention.java">
+      <node id="2529749638821362247" at="22,0,23,0" concept="3" trace="myCachedExecutable" />
+      <node id="2529749638821362247" at="24,44,25,157" concept="8" />
+      <node id="2529749638821362247" at="29,35,30,35" concept="6" />
+      <node id="2529749638821362247" at="34,35,35,17" concept="6" />
+      <node id="2529749638821362247" at="39,37,40,105" concept="2" />
+      <node id="2529749638821362247" at="41,5,42,30" concept="6" />
+      <node id="2529749638821426962" at="49,87,50,167" concept="6" />
+      <node id="2529749638821626543" at="55,107,56,121" concept="2" />
+      <node id="2529749638821631234" at="57,14,58,96" concept="2" />
+      <node id="2529749638821362247" at="63,86,64,18" concept="6" />
+      <node id="2529749638821362247" at="70,48,71,50" concept="6" />
+      <node id="2529749638821362247" at="77,0,78,0" concept="7" trace="DisableComponentInline$Ng" />
+      <node id="2529749638821362247" at="45,0,47,0" concept="1" trace="IntentionImplementation#()V" />
+      <node id="2529749638821630707" at="57,12,59,7" concept="0" />
+      <node id="2529749638821362247" at="24,0,27,0" concept="1" trace="ToogleComponentInline_Intention#()V" />
+      <node id="2529749638821362247" at="38,99,41,5" concept="4" />
+      <node id="2529749638821362247" at="28,0,32,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="2529749638821362247" at="33,0,37,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="2529749638821362247" at="48,0,52,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="2529749638821362247" at="62,0,66,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="2529749638821362247" at="69,0,73,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="2529749638821621417" at="54,78,59,7" concept="4" />
+      <node id="2529749638821362247" at="38,0,44,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="2529749638821362247" at="53,0,61,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="2529749638821362247" at="45,38,45,38" />
+      <scope id="2529749638821362247" at="24,44,25,157" />
+      <scope id="2529749638821362247" at="29,35,30,35" />
+      <scope id="2529749638821362247" at="34,35,35,17" />
+      <scope id="2529749638821362247" at="39,37,40,105" />
+      <scope id="2529749638821362249" at="49,87,50,167" />
+      <scope id="2529749638821621419" at="55,107,56,121" />
+      <scope id="2529749638821630708" at="57,14,58,96" />
+      <scope id="2529749638821362247" at="63,86,64,18" />
+      <scope id="2529749638821362247" at="70,48,71,50" />
+      <scope id="2529749638821362247" at="45,0,47,0" />
+      <scope id="2529749638821362247" at="24,0,27,0" />
+      <scope id="2529749638821362247" at="28,0,32,0" />
+      <scope id="2529749638821362247" at="33,0,37,0" />
+      <scope id="2529749638821362247" at="38,99,42,30" />
+      <scope id="2529749638821362247" at="48,0,52,0">
+        <var name="editorContext" id="2529749638821362247" />
+        <var name="node" id="2529749638821362247" />
+      </scope>
+      <scope id="2529749638821362247" at="62,0,66,0">
+        <var name="editorContext" id="2529749638821362247" />
+        <var name="node" id="2529749638821362247" />
+      </scope>
+      <scope id="2529749638821362247" at="69,0,73,0" />
+      <scope id="2529749638821362251" at="54,78,59,7" />
+      <scope id="2529749638821362247" at="38,0,44,0">
+        <var name="context" id="2529749638821362247" />
+        <var name="node" id="2529749638821362247" />
+      </scope>
+      <scope id="2529749638821362247" at="53,0,61,0">
+        <var name="editorContext" id="2529749638821362247" />
+        <var name="node" id="2529749638821362247" />
+      </scope>
+      <unit id="2529749638821362247" at="76,0,79,0" name="com.mbeddr.mpsutil.grammarcells.intentions.ToogleComponentInline_Intention$CONCEPTS" />
+      <unit id="2529749638821362247" at="44,0,75,0" name="com.mbeddr.mpsutil.grammarcells.intentions.ToogleComponentInline_Intention$IntentionImplementation" />
+      <unit id="2529749638821362247" at="21,0,80,0" name="com.mbeddr.mpsutil.grammarcells.intentions.ToogleComponentInline_Intention" />
+    </file>
+  </root>
+</debug-info>
+

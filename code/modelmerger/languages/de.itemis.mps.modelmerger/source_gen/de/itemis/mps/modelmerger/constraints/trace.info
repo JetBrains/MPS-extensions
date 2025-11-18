@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,32,0" name="de.itemis.mps.modelmerger.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c6be7ff0-c8d0-4e28-a2c9-a679e97b14e4(de.itemis.mps.modelmerger.constraints)/8424607763702362608">
+    <file name="InputNode_Constraints.java">
+      <node id="8424607763702362608" at="21,83,22,46" concept="9" />
+      <node id="8424607763702362608" at="25,127,26,128" concept="4" />
+      <node id="8424607763702362608" at="26,128,27,0" concept="6" />
+      <node id="8424607763702362608" at="28,55,29,71" concept="1" />
+      <node id="8424607763702362608" at="30,9,31,0" concept="6" />
+      <node id="8424607763702362608" at="31,0,32,22" concept="5" />
+      <node id="8424607763702363077" at="37,128,38,110" concept="5" />
+      <node id="8424607763702362608" at="40,0,41,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="8424607763702362608" at="43,0,44,0" concept="7" trace="InputNode$4G" />
+      <node id="8424607763702362608" at="44,0,45,0" concept="7" trace="ConceptIdentityMap$BS" />
+      <node id="8424607763702362608" at="27,0,30,9" concept="2" />
+      <node id="8424607763702362608" at="37,0,40,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8424607763702362608" at="24,0,34,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8424607763702362608" at="22,46,34,7" concept="1" />
+      <node id="8424607763702362608" at="21,0,36,0" concept="0" trace="InputNode_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="8424607763702362608" at="28,55,29,71" />
+      <scope id="8424607763702362610" at="37,128,38,110" />
+      <scope id="8424607763702362608" at="37,0,40,0">
+        <var name="childConcept" id="8424607763702362608" />
+        <var name="link" id="8424607763702362608" />
+        <var name="node" id="8424607763702362608" />
+        <var name="parentNode" id="8424607763702362608" />
+      </scope>
+      <scope id="8424607763702362608" at="25,127,32,22">
+        <var name="result" id="8424607763702362608" />
+      </scope>
+      <scope id="8424607763702362608" at="24,0,34,0">
+        <var name="checkingNodeContext" id="8424607763702362608" />
+        <var name="context" id="8424607763702362608" />
+      </scope>
+      <scope id="8424607763702362608" at="21,83,34,7" />
+      <scope id="8424607763702362608" at="21,0,36,0">
+        <var name="initContext" id="8424607763702362608" />
+      </scope>
+      <unit id="8424607763702362608" at="42,0,46,0" name="de.itemis.mps.modelmerger.constraints.InputNode_Constraints$CONCEPTS" />
+      <unit id="8424607763702362608" at="23,32,34,5" name="de.itemis.mps.modelmerger.constraints.InputNode_Constraints$1" />
+      <unit id="8424607763702362608" at="20,0,47,0" name="de.itemis.mps.modelmerger.constraints.InputNode_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

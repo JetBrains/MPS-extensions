@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-5b2ev1rf9nh1xntnjnbwdvefoeq85r5">
+  <files names="AbstractShape.java:BasicShapeStyle.java:BoxStyleFromMPSStyle.java:CompositeShape.java:ConditionalShape.java:ConnectionEndShapeStyle.java:DefaultShape.java:EdgeIconShape.java:EmptyShape.java:GradientShapeStyle.java:IShape.java:IShapeStyle.java:IShapeStyle_Internal.java:ShapeEditorCell.java:ShapeStyleAdapter.java:ShapeUtil.java:TransformingShape.java" />
+</product>
+

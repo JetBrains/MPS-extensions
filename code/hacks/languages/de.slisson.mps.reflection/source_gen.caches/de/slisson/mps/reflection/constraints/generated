@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="3g8cjaucoqju8ab4y976k705e59jshz">
+  <files names="ConstraintsAspectDescriptor.java:ReflectionFieldAccess_Constraints.java:ReflectionMethodCall_Constraints.java:ReflectionStaticFieldReference_Constraints.java:ReflectionStaticMethodCall_Constraints.java" />
+</product>
+

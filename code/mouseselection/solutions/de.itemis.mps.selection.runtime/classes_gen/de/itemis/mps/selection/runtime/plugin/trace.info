@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="9,0,14,0" name="de.itemis.mps.selection.runtime.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:b49d7b4c-a97a-4226-a59e-b10183eecf00(de.itemis.mps.selection.runtime.plugin)/6009478650969877525">
+    <file name="OpenSelectionIntentions_Action.java">
+      <node id="6009478650969877525" at="19,0,20,0" concept="10" trace="ICON" />
+      <node id="6009478650969877525" at="21,43,22,49" concept="12" />
+      <node id="6009478650969877525" at="22,49,23,35" concept="2" />
+      <node id="6009478650969877525" at="23,35,24,52" concept="2" />
+      <node id="6009478650969877525" at="27,32,28,16" concept="7" />
+      <node id="6971699915903924795" at="31,87,32,113" concept="6" />
+      <node id="6953946877005360502" at="33,28,34,19" concept="7" />
+      <node id="6971699915906246683" at="35,5,36,123" concept="7" />
+      <node id="6009478650969877525" at="39,89,40,85" concept="2" />
+      <node id="6009478650969877525" at="44,53,45,19" concept="7" />
+      <node id="6009478650969897799" at="47,5,48,90" concept="6" />
+      <node id="6009478650969897799" at="49,67,50,31" concept="2" />
+      <node id="6009478650969897800" at="52,36,53,21" concept="7" />
+      <node id="6009478650969877525" at="55,5,56,16" concept="7" />
+      <node id="6971699915905858230" at="59,96,60,113" concept="6" />
+      <node id="6971699915906244025" at="60,113,61,53" concept="2" />
+      <node id="6953946877005358561" at="32,113,35,5" concept="4" />
+      <node id="6009478650969877525" at="43,95,46,5" concept="4" />
+      <node id="6009478650969897799" at="48,90,51,7" concept="4" />
+      <node id="6009478650969897800" at="51,7,54,7" concept="4" />
+      <node id="6009478650969877525" at="26,0,30,0" concept="5" trace="isDumbAware#()Z" />
+      <node id="6009478650969877525" at="38,0,42,0" concept="5" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="6009478650969877525" at="21,0,26,0" concept="1" trace="OpenSelectionIntentions_Action#()V" />
+      <node id="6009478650969877525" at="58,0,63,0" concept="5" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="6009478650969877525" at="30,0,38,0" concept="5" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="6009478650969897799" at="46,5,55,5" concept="0" />
+      <node id="6009478650969877525" at="42,0,58,0" concept="5" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="6009478650969877525" at="27,32,28,16" />
+      <scope id="6953946877005358563" at="33,28,34,19" />
+      <scope id="6009478650969877525" at="39,89,40,85" />
+      <scope id="6009478650969877525" at="44,53,45,19" />
+      <scope id="6009478650969897799" at="49,67,50,31" />
+      <scope id="6009478650969897800" at="52,36,53,21" />
+      <scope id="6009478650969877525" at="59,96,61,53">
+        <var name="selection" id="6971699915905858231" />
+      </scope>
+      <scope id="6009478650969877525" at="21,43,24,52" />
+      <scope id="6009478650969877525" at="26,0,30,0" />
+      <scope id="6009478650969877525" at="38,0,42,0">
+        <var name="_params" id="6009478650969877525" />
+        <var name="event" id="6009478650969877525" />
+      </scope>
+      <scope id="6009478650969877525" at="21,0,26,0" />
+      <scope id="6971699915903533903" at="31,87,36,123">
+        <var name="selection" id="6971699915903924796" />
+      </scope>
+      <scope id="6009478650969877525" at="58,0,63,0">
+        <var name="_params" id="6009478650969877525" />
+        <var name="event" id="6009478650969877525" />
+      </scope>
+      <scope id="6009478650969897799" at="47,5,54,7">
+        <var name="editorComponent" id="6009478650969897799" />
+      </scope>
+      <scope id="6009478650969877525" at="30,0,38,0">
+        <var name="_params" id="6009478650969877525" />
+        <var name="event" id="6009478650969877525" />
+      </scope>
+      <scope id="6009478650969877525" at="43,95,56,16" />
+      <scope id="6009478650969877525" at="42,0,58,0">
+        <var name="_params" id="6009478650969877525" />
+        <var name="event" id="6009478650969877525" />
+      </scope>
+      <unit id="6009478650969877525" at="18,0,64,0" name="de.itemis.mps.selection.runtime.plugin.OpenSelectionIntentions_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="6009478650969877525" at="26,29,27,52" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:b49d7b4c-a97a-4226-a59e-b10183eecf00(de.itemis.mps.selection.runtime.plugin)/6009478650969877609">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="6009478650969877609" at="31,92,32,79" concept="2" />
+    </file>
+    <file name="SelectionKeymap_KeymapChanges.java">
+      <node id="6009478650969901547" at="8,42,9,94" concept="2" />
+      <node id="6009478650969877609" at="12,29,13,22" concept="7" />
+      <node id="6009478650969877609" at="8,0,11,0" concept="1" trace="SelectionKeymap_KeymapChanges#()V" />
+      <node id="6009478650969877609" at="11,0,15,0" concept="5" trace="getScheme#()Ljava/lang/String;" />
+      <scope id="6009478650969877609" at="8,42,9,94" />
+      <scope id="6009478650969877609" at="12,29,13,22" />
+      <scope id="6009478650969877609" at="8,0,11,0" />
+      <scope id="6009478650969877609" at="11,0,15,0" />
+      <unit id="6009478650969877609" at="7,0,17,0" name="de.itemis.mps.selection.runtime.plugin.SelectionKeymap_KeymapChanges" />
+    </file>
+  </root>
+  <root nodeRef="r:b49d7b4c-a97a-4226-a59e-b10183eecf00(de.itemis.mps.selection.runtime.plugin)/6971699915905730841">
+    <file name="ApplicationPlugin_AppPluginPart.java">
+      <node id="2886180662906637307" at="17,75,18,81" concept="7" />
+      <node id="2886180662906631066" at="22,67,23,125" concept="2" />
+      <node id="2886180662906631083" at="27,69,28,130" concept="2" />
+      <node id="6971699915905732222" at="34,22,35,103" concept="2" />
+      <node id="2886180662906681986" at="35,103,36,87" concept="6" />
+      <node id="2886180662906648563" at="36,87,37,93" concept="2" />
+      <node id="2886180662906674044" at="40,25,41,46" concept="2" />
+      <node id="6971699915905733775" at="41,46,42,55" concept="2" />
+      <node id="2886180662906684789" at="42,55,43,87" concept="6" />
+      <node id="2886180662906664081" at="43,87,44,94" concept="2" />
+      <node id="2886180662906631084" at="47,36,48,36" concept="2" />
+      <node id="2886180662906631084" at="49,5,50,0" concept="9" />
+      <node id="2886180662906659650" at="53,36,54,53" concept="2" />
+      <node id="2886180662906659650" at="55,5,56,0" concept="9" />
+      <node id="6971699915905730841" at="31,0,33,0" concept="1" trace="ApplicationPlugin_AppPluginPart#()V" />
+      <node id="2886180662906631084" at="46,91,49,5" concept="4" />
+      <node id="2886180662906659650" at="52,111,55,5" concept="4" />
+      <node id="2886180662906631048" at="16,0,20,0" concept="5" trace="isApplicable#(Ljetbrains/mps/openapi/editor/EditorComponent;)Z" />
+      <node id="2886180662906631059" at="21,0,25,0" concept="5" trace="install#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="2886180662906631076" at="26,0,30,0" concept="5" trace="uninstall#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="6971699915905730841" at="33,0,39,0" concept="5" trace="init#()V" />
+      <node id="2886180662906631084" at="46,0,52,0" concept="11" trace="check_t5qngh_a0a4a0a0#(Lde/itemis/mps/selection/runtime/mouse/DragSelectionMouseListener;)V" />
+      <node id="2886180662906659650" at="52,0,58,0" concept="11" trace="check_t5qngh_a2a0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
+      <node id="6971699915905730841" at="39,0,46,0" concept="5" trace="dispose#()V" />
+      <node id="2886180662906631041" at="15,0,31,0" concept="3" trace="selectionListener" />
+      <scope id="6971699915905730841" at="31,44,31,44" />
+      <scope id="2886180662906631054" at="17,75,18,81" />
+      <scope id="2886180662906631065" at="22,67,23,125" />
+      <scope id="2886180662906631082" at="27,69,28,130" />
+      <scope id="2886180662906631084" at="47,36,48,36" />
+      <scope id="2886180662906659650" at="53,36,54,53" />
+      <scope id="6971699915905730841" at="31,0,33,0" />
+      <scope id="6971699915905730843" at="34,22,37,93">
+        <var name="extension" id="2886180662906681987" />
+      </scope>
+      <scope id="2886180662906631048" at="16,0,20,0">
+        <var name="editorComponent" id="2886180662906631051" />
+      </scope>
+      <scope id="2886180662906631059" at="21,0,25,0">
+        <var name="editorComponent" id="2886180662906631062" />
+      </scope>
+      <scope id="2886180662906631076" at="26,0,30,0">
+        <var name="editorComponent" id="2886180662906631079" />
+      </scope>
+      <scope id="6971699915905730860" at="40,25,44,94">
+        <var name="extension" id="2886180662906684790" />
+      </scope>
+      <scope id="2886180662906631084" at="46,91,50,0" />
+      <scope id="2886180662906659650" at="52,111,56,0" />
+      <scope id="6971699915905730841" at="33,0,39,0" />
+      <scope id="2886180662906631084" at="46,0,52,0">
+        <var name="checkedDotOperand" id="2886180662906631084" />
+      </scope>
+      <scope id="2886180662906659650" at="52,0,58,0">
+        <var name="checkedDotOperand" id="2886180662906659650" />
+        <var name="extension" id="2886180662906683864" />
+      </scope>
+      <scope id="6971699915905730841" at="39,0,46,0" />
+      <unit id="2886180662906631046" at="15,50,30,3" name="de.itemis.mps.selection.runtime.plugin.ApplicationPlugin_AppPluginPart$1" />
+      <unit id="6971699915905730841" at="14,0,59,0" name="de.itemis.mps.selection.runtime.plugin.ApplicationPlugin_AppPluginPart" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="6971699915905730841" at="36,66,37,53" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:b49d7b4c-a97a-4226-a59e-b10183eecf00(de.itemis.mps.selection.runtime.plugin)/8796340803746266119">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8796340803746266119" at="15,0,16,0" concept="3" trace="myId" />
+      <node id="8796340803746266119" at="21,27,22,16" concept="7" />
+      <node id="8796340803746266119" at="25,30,26,29" concept="8" />
+      <node id="8796340803746266119" at="27,52,28,13" concept="8" />
+      <node id="8796340803746266119" at="30,48,31,92" concept="6" />
+      <node id="8796340803746266119" at="32,79,33,15" concept="7" />
+      <node id="8796340803746266119" at="17,0,19,0" concept="1" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="8796340803746266119" at="20,0,24,0" concept="5" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="8796340803746266119" at="35,0,39,0" concept="5" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <node id="8796340803746266119" at="25,0,30,0" concept="5" trace="createGroups#()V" />
+      <node id="8796340803746266119" at="30,0,35,0" concept="5" trace="initKeymaps#()Ljava/util/List;" />
+      <scope id="8796340803746266119" at="17,38,17,38" />
+      <scope id="8796340803746266119" at="21,27,22,16" />
+      <scope id="8796340803746266119" at="36,66,37,53" />
+      <scope id="8796340803746266119" at="17,0,19,0" />
+      <scope id="8796340803746266119" at="25,30,28,13" />
+      <scope id="8796340803746266119" at="30,48,33,15">
+        <var name="res" id="8796340803746266119" />
+      </scope>
+      <scope id="8796340803746266119" at="20,0,24,0" />
+      <scope id="8796340803746266119" at="35,0,39,0">
+        <var name="parts" id="8796340803746266119" />
+      </scope>
+      <scope id="8796340803746266119" at="25,0,30,0" />
+      <scope id="8796340803746266119" at="30,0,35,0" />
+      <unit id="8796340803746266119" at="14,0,40,0" name="de.itemis.mps.selection.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,32,0" name="de.itemis.mps.spellcheck.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:28f27460-964f-4398-bc73-75ad898563ac(de.itemis.mps.spellcheck.constraints)/2477161125053884648">
+    <file name="DictionaryEntry_Constraints.java">
+      <node id="2477161125053884648" at="16,89,17,52" concept="5" />
+      <node id="2477161125053884649" at="17,52,18,30" concept="1" />
+      <node id="2477161125053884649" at="22,53,23,60" concept="5" />
+      <node id="2477161125053884649" at="26,68,27,82" concept="1" />
+      <node id="2477161125053884802" at="29,82,30,113" concept="1" />
+      <node id="2477161125053884648" at="35,0,36,0" concept="3" trace="DictionaryEntry$LC" />
+      <node id="2477161125053884648" at="39,0,40,0" concept="3" trace="name$MnvL" />
+      <node id="2477161125053884649" at="22,0,25,0" concept="0" trace="Name_PD#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="2477161125053884649" at="29,0,32,0" concept="4" trace="staticSetPropertyValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+      <node id="2477161125053884648" at="16,0,20,0" concept="0" trace="DictionaryEntry_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="2477161125053884649" at="25,0,29,0" concept="2" trace="setPropertyValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;)V" />
+      <scope id="2477161125053884649" at="22,53,23,60" />
+      <scope id="2477161125053884649" at="26,68,27,82" />
+      <scope id="2477161125053884729" at="29,82,30,113" />
+      <scope id="2477161125053884648" at="16,89,18,30" />
+      <scope id="2477161125053884649" at="22,0,25,0">
+        <var name="container" id="2477161125053884649" />
+      </scope>
+      <scope id="2477161125053884649" at="29,0,32,0">
+        <var name="node" id="2477161125053884649" />
+        <var name="propertyValue" id="2477161125053884649" />
+      </scope>
+      <scope id="2477161125053884648" at="16,0,20,0">
+        <var name="initContext" id="2477161125053884648" />
+      </scope>
+      <scope id="2477161125053884649" at="25,0,29,0">
+        <var name="node" id="2477161125053884649" />
+        <var name="propertyValue" id="2477161125053884649" />
+      </scope>
+      <unit id="2477161125053884648" at="34,0,37,0" name="de.itemis.mps.spellcheck.constraints.DictionaryEntry_Constraints$CONCEPTS" />
+      <unit id="2477161125053884648" at="38,0,41,0" name="de.itemis.mps.spellcheck.constraints.DictionaryEntry_Constraints$PROPS" />
+      <unit id="2477161125053884649" at="21,0,33,0" name="de.itemis.mps.spellcheck.constraints.DictionaryEntry_Constraints$Name_PD" />
+      <unit id="2477161125053884648" at="15,0,42,0" name="de.itemis.mps.spellcheck.constraints.DictionaryEntry_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

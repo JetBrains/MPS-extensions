@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-bf1wd1grz2je4gzg7jpef481xni8dve">
+  <files names="AbstractModelListenersDescriptor.java:ChildListener.java:ForwardingModelListener.java:GlobalModelListener.java:IChildListener.java:IForwarder.java:IModelListener.java:IModelListenersDescriptor.java:IPropertyListener.java:IReferenceAddedListener.java:IReferenceListener.java:IReferenceRemovedListener.java:IRootAddedListener.java:IRootBeforeRemovedListener.java:IRootListener.java:IRootRemovedListener.java:ListenersAspect.java:ListenersCollection.java:ModelListener.java:PropertyListener.java:ReferenceAddedListener.java:ReferenceListener.java:ReferenceRemovedListener.java:RootAddedListener.java:RootBeforeRemovedListener.java:RootListener.java:RootRemovedListener.java" />
+</product>
+

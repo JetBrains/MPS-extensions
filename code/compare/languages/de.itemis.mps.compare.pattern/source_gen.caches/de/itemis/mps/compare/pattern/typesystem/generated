@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-a9px7xf5owqtcn3u9p8crd2kcys4c9w">
+  <files names="PatternType_superTypes_SubtypingRule.java:TypesystemDescriptor.java:check_AncestorMember_NonTypesystemRule.java:check_PatternBuilderNode_NonTypesystemRule.java:typeof_AncestorMember_InferenceRule.java:typeof_GetConceptOperation_InferenceRule.java:typeof_LinkMember_InferenceRule.java:typeof_MemberAnnotation_InferenceRule.java:typeof_ParentMember_InferenceRule.java:typeof_PatternBuilderExpression_InferenceRule.java:typeof_PatternBuilderList_InferenceRule.java:typeof_PatternBuilderNode_InferenceRule.java:typeof_PatternRef_InferenceRule.java:typeof_Pattern_InferenceRule.java:typeof_PropertyMember_InferenceRule.java:typeof_TypeMember_InferenceRule.java" />
+</product>
+

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,58,0" name="de.slisson.mps.reflection.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,34,0" name="de.slisson.mps.reflection.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="14,0,101,0" name="de.slisson.mps.reflection.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:879596e5-224b-4613-97ab-fbcbd7050732(de.slisson.mps.reflection.structure)/8473566765275063380">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8473566765275063380" at="12,0,13,0" concept="1" trace="props_ReflectionFieldAccess" />
+      <node id="8473566765275063380" at="23,50,24,76" concept="3" />
+      <node id="8473566765275063380" at="24,76,25,31" concept="0" />
+      <node id="8473566765275063380" at="25,31,26,145" concept="0" />
+      <node id="8473566765275063380" at="26,145,27,53" concept="0" />
+      <node id="8473566765275063380" at="28,9,29,43" concept="4" />
+      <node id="8473566765275063380" at="22,55,28,9" concept="2" />
+      <scope id="8473566765275063380" at="23,50,27,53">
+        <var name="cpb" id="8473566765275063380" />
+      </scope>
+      <scope id="8473566765275063380" at="22,55,29,43" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8473566765275063380" at="12,0,13,0" concept="6" trace="ReflectionFieldAccess" />
+      <node id="8473566765275063380" at="18,116,19,60" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8473566765275063380" at="15,0,16,0" concept="1" trace="myConceptReflectionFieldAccess" />
+      <node id="8473566765275063380" at="41,55,42,46" concept="4" />
+      <node id="8473566765275063380" at="59,79,60,181" concept="3" />
+      <node id="8473566765275063380" at="60,181,61,34" concept="0" />
+      <node id="8473566765275063380" at="61,34,62,71" concept="0" />
+      <node id="8473566765275063380" at="62,71,63,112" concept="0" />
+      <node id="8473566765275063380" at="63,112,64,17" concept="0" />
+      <node id="1197029500499" at="64,17,65,163" concept="0" />
+      <node id="8473566765275063380" at="65,163,66,22" concept="4" />
+      <node id="8473566765275063380" at="59,0,68,0" concept="7" trace="createDescriptorForReflectionFieldAccess#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8473566765275063380" at="41,55,42,46" />
+      <scope id="8473566765275063380" at="59,79,66,22">
+        <var name="b" id="8473566765275063380" />
+      </scope>
+      <scope id="8473566765275063380" at="59,0,68,0" />
+    </file>
+  </root>
+  <root nodeRef="r:879596e5-224b-4613-97ab-fbcbd7050732(de.slisson.mps.reflection.structure)/8473566765277240526">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8473566765277240526" at="13,0,14,0" concept="1" trace="props_ReflectionMethodCall" />
+      <node id="8473566765277240526" at="31,49,32,76" concept="3" />
+      <node id="8473566765277240526" at="32,76,33,31" concept="0" />
+      <node id="8473566765277240526" at="33,31,34,144" concept="0" />
+      <node id="8473566765277240526" at="34,144,35,52" concept="0" />
+      <node id="8473566765277240526" at="36,9,37,42" concept="4" />
+      <node id="8473566765277240526" at="30,54,36,9" concept="2" />
+      <scope id="8473566765277240526" at="31,49,35,52">
+        <var name="cpb" id="8473566765277240526" />
+      </scope>
+      <scope id="8473566765277240526" at="30,54,37,42" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8473566765277240526" at="13,0,14,0" concept="6" trace="ReflectionMethodCall" />
+      <node id="8473566765277240526" at="19,60,20,59" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8473566765277240526" at="16,0,17,0" concept="1" trace="myConceptReflectionMethodCall" />
+      <node id="8473566765277240526" at="43,54,44,45" concept="4" />
+      <node id="8473566765277240526" at="68,78,69,180" concept="3" />
+      <node id="8473566765277240526" at="69,180,70,34" concept="0" />
+      <node id="8473566765277240526" at="70,34,71,71" concept="0" />
+      <node id="8473566765277240526" at="71,71,72,71" concept="0" />
+      <node id="8473566765277240526" at="72,71,73,112" concept="0" />
+      <node id="8473566765277240526" at="73,112,74,17" concept="0" />
+      <node id="1202948736718" at="74,17,75,256" concept="0" />
+      <node id="8473566765277240526" at="75,256,76,22" concept="4" />
+      <node id="8473566765277240526" at="68,0,78,0" concept="7" trace="createDescriptorForReflectionMethodCall#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8473566765277240526" at="43,54,44,45" />
+      <scope id="8473566765277240526" at="68,78,76,22">
+        <var name="b" id="8473566765277240526" />
+      </scope>
+      <scope id="8473566765277240526" at="68,0,78,0" />
+    </file>
+  </root>
+  <root nodeRef="r:879596e5-224b-4613-97ab-fbcbd7050732(de.slisson.mps.reflection.structure)/8520162698482806193">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8520162698482806193" at="15,0,16,0" concept="1" trace="props_ReflectionStaticMethodCall" />
+      <node id="8520162698482806193" at="47,55,48,76" concept="3" />
+      <node id="8520162698482806193" at="48,76,49,31" concept="0" />
+      <node id="8520162698482806193" at="49,31,50,60" concept="0" />
+      <node id="8520162698482806193" at="50,60,51,58" concept="0" />
+      <node id="8520162698482806193" at="52,9,53,48" concept="4" />
+      <node id="8520162698482806193" at="46,60,52,9" concept="2" />
+      <scope id="8520162698482806193" at="47,55,51,58">
+        <var name="cpb" id="8520162698482806193" />
+      </scope>
+      <scope id="8520162698482806193" at="46,60,53,48" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8520162698482806193" at="15,0,16,0" concept="6" trace="ReflectionStaticMethodCall" />
+      <node id="8520162698482806193" at="21,69,22,65" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8520162698482806193" at="18,0,19,0" concept="1" trace="myConceptReflectionStaticMethodCall" />
+      <node id="8520162698482806193" at="47,60,48,51" concept="4" />
+      <node id="8520162698482806193" at="89,84,90,186" concept="3" />
+      <node id="8520162698482806193" at="90,186,91,34" concept="0" />
+      <node id="8520162698482806193" at="91,34,92,67" concept="5" />
+      <node id="8520162698482806193" at="92,67,93,70" concept="0" />
+      <node id="8520162698482806193" at="93,70,94,112" concept="0" />
+      <node id="8520162698482806193" at="94,112,95,17" concept="0" />
+      <node id="1144433194310" at="95,17,96,159" concept="0" />
+      <node id="1081236769987" at="96,159,97,253" concept="0" />
+      <node id="8520162698482806193" at="97,253,98,22" concept="4" />
+      <node id="8520162698482806193" at="89,0,100,0" concept="7" trace="createDescriptorForReflectionStaticMethodCall#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8520162698482806193" at="47,60,48,51" />
+      <scope id="8520162698482806193" at="89,84,98,22">
+        <var name="b" id="8520162698482806193" />
+      </scope>
+      <scope id="8520162698482806193" at="89,0,100,0" />
+    </file>
+  </root>
+  <root nodeRef="r:879596e5-224b-4613-97ab-fbcbd7050732(de.slisson.mps.reflection.structure)/8520162698483655274">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8520162698483655274" at="14,0,15,0" concept="1" trace="props_ReflectionStaticFieldReference" />
+      <node id="8520162698483655274" at="39,59,40,76" concept="3" />
+      <node id="8520162698483655274" at="40,76,41,31" concept="0" />
+      <node id="8520162698483655274" at="41,31,42,64" concept="0" />
+      <node id="8520162698483655274" at="42,64,43,62" concept="0" />
+      <node id="8520162698483655274" at="44,9,45,52" concept="4" />
+      <node id="8520162698483655274" at="38,64,44,9" concept="2" />
+      <scope id="8520162698483655274" at="39,59,43,62">
+        <var name="cpb" id="8520162698483655274" />
+      </scope>
+      <scope id="8520162698483655274" at="38,64,45,52" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8520162698483655274" at="14,0,15,0" concept="6" trace="ReflectionStaticFieldReference" />
+      <node id="8520162698483655274" at="20,59,21,69" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8520162698483655274" at="17,0,18,0" concept="1" trace="myConceptReflectionStaticFieldReference" />
+      <node id="8520162698483655274" at="45,64,46,55" concept="4" />
+      <node id="8520162698483655274" at="78,88,79,190" concept="3" />
+      <node id="8520162698483655274" at="79,190,80,34" concept="0" />
+      <node id="8520162698483655274" at="80,34,81,70" concept="5" />
+      <node id="8520162698483655274" at="81,70,82,70" concept="0" />
+      <node id="8520162698483655274" at="82,70,83,112" concept="0" />
+      <node id="8520162698483655274" at="83,112,84,17" concept="0" />
+      <node id="1144433057691" at="84,17,85,158" concept="0" />
+      <node id="1070568178160" at="85,158,86,250" concept="0" />
+      <node id="8520162698483655274" at="86,250,87,22" concept="4" />
+      <node id="8520162698483655274" at="78,0,89,0" concept="7" trace="createDescriptorForReflectionStaticFieldReference#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8520162698483655274" at="45,64,46,55" />
+      <scope id="8520162698483655274" at="78,88,87,22">
+        <var name="b" id="8520162698483655274" />
+      </scope>
+      <scope id="8520162698483655274" at="78,0,89,0" />
+    </file>
+  </root>
+</debug-info>
+

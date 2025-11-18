@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)/5963583600723342282">
+    <file name="Invalidator.java">
+      <node id="5963583600723343162" at="10,0,11,0" concept="6" trace="ourInstance" />
+      <node id="5963583600723343234" at="11,43,12,23" concept="5" />
+      <node id="5963583600723342560" at="15,0,16,0" concept="2" trace="invalidatables" />
+      <node id="5963583600723353268" at="20,54,21,66" concept="1" />
+      <node id="5963583600723443329" at="24,56,25,69" concept="1" />
+      <node id="5963583600723345166" at="28,55,29,26" concept="5" />
+      <node id="5963583600723348439" at="33,78,34,33" concept="1" />
+      <node id="5963583600723343272" at="17,0,19,0" concept="0" trace="Invalidator#()V" />
+      <node id="5963583600723343103" at="11,0,14,0" concept="7" trace="getInstance#()Lde/q60/mps/util/invalidation/Invalidator;" />
+      <node id="5963583600723351224" at="20,0,23,0" concept="4" trace="register#(Lde/q60/mps/util/invalidation/IInvalidatable;)V" />
+      <node id="5963583600723439603" at="24,0,27,0" concept="4" trace="unregister#(Lde/q60/mps/util/invalidation/IInvalidatable;)V" />
+      <node id="5963583600723344685" at="28,0,31,0" concept="4" trace="getInvalidatables#()Ljava/lang/Iterable;" />
+      <node id="5963583600723347823" at="32,31,35,5" concept="3" />
+      <node id="5963583600723346257" at="32,0,37,0" concept="4" trace="invalidateAll#()V" />
+      <scope id="5963583600723343276" at="17,24,17,24" />
+      <scope id="5963583600723342860" at="11,43,12,23" />
+      <scope id="5963583600723351228" at="20,54,21,66" />
+      <scope id="5963583600723439607" at="24,56,25,69" />
+      <scope id="5963583600723344689" at="28,55,29,26" />
+      <scope id="5963583600723347826" at="33,78,34,33" />
+      <scope id="5963583600723343272" at="17,0,19,0" />
+      <scope id="5963583600723343103" at="11,0,14,0" />
+      <scope id="5963583600723351224" at="20,0,23,0">
+        <var name="invalidatable" id="5963583600723352562" />
+      </scope>
+      <scope id="5963583600723439603" at="24,0,27,0">
+        <var name="invalidatable" id="5963583600723442333" />
+      </scope>
+      <scope id="5963583600723344685" at="28,0,31,0" />
+      <scope id="5963583600723346261" at="32,31,35,5" />
+      <scope id="5963583600723347823" at="32,31,35,5">
+        <var name="invalidatable" id="5963583600723347824" />
+      </scope>
+      <scope id="5963583600723346257" at="32,0,37,0" />
+      <unit id="5963583600723342282" at="9,0,38,0" name="de.q60.mps.util.invalidation.Invalidator" />
+    </file>
+  </root>
+  <root nodeRef="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)/5963583600723342304">
+    <file name="IInvalidatable.java">
+      <node id="5963583600723342365" at="7,0,8,0" concept="4" trace="getText#()Ljava/lang/String;" />
+      <node id="5963583600723342467" at="8,0,9,0" concept="4" trace="invalidate#()V" />
+      <scope id="5963583600723342365" at="7,0,8,0" />
+      <scope id="5963583600723342467" at="8,0,9,0" />
+      <unit id="5963583600723342304" at="6,0,10,0" name="de.q60.mps.util.invalidation.IInvalidatable" />
+    </file>
+  </root>
+  <root nodeRef="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)/5963583600724926294">
+    <file name="Invalidatable.java">
+      <node id="5963583600724926683" at="9,0,10,0" concept="2" trace="text" />
+      <node id="5963583600724926873" at="10,0,11,0" concept="2" trace="callback" />
+      <node id="5963583600724927054" at="12,74,13,21" concept="1" />
+      <node id="5963583600724930738" at="13,21,14,29" concept="1" />
+      <node id="5963583600724933640" at="14,29,15,45" concept="1" />
+      <node id="5963583600724935630" at="18,25,19,47" concept="1" />
+      <node id="5963583600724938271" at="23,27,24,16" concept="5" />
+      <node id="5963583600724938489" at="28,28,29,22" concept="1" />
+      <node id="5963583600724935089" at="18,0,21,0" concept="4" trace="dispose#()V" />
+      <node id="5963583600724937760" at="22,0,26,0" concept="4" trace="getText#()Ljava/lang/String;" />
+      <node id="5963583600724937766" at="27,0,31,0" concept="4" trace="invalidate#()V" />
+      <node id="5963583600724926416" at="12,0,17,0" concept="0" trace="Invalidatable#(Ljava/lang/String;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;)V" />
+      <scope id="5963583600724935093" at="18,25,19,47" />
+      <scope id="5963583600724937764" at="23,27,24,16" />
+      <scope id="5963583600724937770" at="28,28,29,22" />
+      <scope id="5963583600724926420" at="12,74,15,45" />
+      <scope id="5963583600724935089" at="18,0,21,0" />
+      <scope id="5963583600724937760" at="22,0,26,0" />
+      <scope id="5963583600724937766" at="27,0,31,0" />
+      <scope id="5963583600724926416" at="12,0,17,0">
+        <var name="callback" id="5963583600724926507" />
+        <var name="text" id="5963583600724926455" />
+      </scope>
+      <unit id="5963583600724926294" at="7,0,32,0" name="de.q60.mps.util.invalidation.Invalidatable" />
+    </file>
+  </root>
+</debug-info>
+

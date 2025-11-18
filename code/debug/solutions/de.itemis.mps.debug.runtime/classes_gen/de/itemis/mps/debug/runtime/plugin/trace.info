@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:781f0a0f-a9fd-4a6a-ac87-47f7866aef34(de.itemis.mps.debug.runtime.plugin)/1066184236144120234">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="1066184236144120234" at="15,0,16,0" concept="3" trace="myId" />
+      <node id="1066184236144120234" at="21,27,22,16" concept="7" />
+      <node id="1066184236144120234" at="25,30,26,29" concept="8" />
+      <node id="1066184236144120234" at="28,52,29,13" concept="8" />
+      <node id="1066184236144120234" at="35,48,36,92" concept="6" />
+      <node id="1066184236144120234" at="37,79,38,15" concept="7" />
+      <node id="1066184236144120234" at="17,0,19,0" concept="1" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="1066184236144120234" at="32,0,35,0" concept="5" trace="adjustRegularGroups#()V" />
+      <node id="1066184236144120234" at="20,0,24,0" concept="5" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="1066184236144120234" at="35,0,40,0" concept="5" trace="initKeymaps#()Ljava/util/List;" />
+      <node id="1066184236144120234" at="25,0,32,0" concept="5" trace="createGroups#()V" />
+      <scope id="1066184236144120234" at="17,38,17,38" />
+      <scope id="1066184236144120234" at="21,27,22,16" />
+      <scope id="1066184236144120234" at="32,37,33,130" />
+      <scope id="1066184236144120234" at="17,0,19,0" />
+      <scope id="1066184236144120234" at="32,0,35,0" />
+      <scope id="1066184236144120234" at="35,48,38,15">
+        <var name="res" id="1066184236144120234" />
+      </scope>
+      <scope id="1066184236144120234" at="20,0,24,0" />
+      <scope id="1066184236144120234" at="25,30,30,52" />
+      <scope id="1066184236144120234" at="35,0,40,0" />
+      <scope id="1066184236144120234" at="25,0,32,0" />
+      <unit id="1066184236144120234" at="14,0,41,0" name="de.itemis.mps.debug.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:781f0a0f-a9fd-4a6a-ac87-47f7866aef34(de.itemis.mps.debug.runtime.plugin)/8745606771043286351">
+    <file name="CopyEditorCellReference_Action.java">
+      <node id="8745606771043286351" at="34,0,35,0" concept="10" trace="ICON" />
+      <node id="8745606771043286351" at="36,43,37,43" concept="12" />
+      <node id="8745606771043286351" at="37,43,38,35" concept="2" />
+      <node id="8745606771043286351" at="38,35,39,57" concept="2" />
+      <node id="8745606771043286351" at="42,32,43,16" concept="7" />
+      <node id="92404276862643438" at="46,87,47,227" concept="7" />
+      <node id="8745606771043286351" at="50,89,51,85" concept="2" />
+      <node id="8745606771043286351" at="55,53,56,19" concept="7" />
+      <node id="8745606771043385380" at="58,5,59,90" concept="6" />
+      <node id="8745606771043385380" at="60,67,61,31" concept="2" />
+      <node id="8745606771043385381" at="63,36,64,21" concept="7" />
+      <node id="8745606771043287424" at="67,5,68,66" concept="6" />
+      <node id="8745606771043287425" at="69,22,70,21" concept="7" />
+      <node id="8745606771043315311" at="73,5,74,66" concept="6" />
+      <node id="8745606771043315312" at="75,22,76,21" concept="7" />
+      <node id="8745606771043394744" at="79,5,80,54" concept="6" />
+      <node id="8745606771043394745" at="81,22,82,21" concept="7" />
+      <node id="8745606771043286351" at="84,5,85,16" concept="7" />
+      <node id="8745606771043557644" at="88,96,89,212" concept="6" />
+      <node id="8745606771044057839" at="89,212,90,47" concept="2" />
+      <node id="5086893651833263214" at="90,47,91,166" concept="6" />
+      <node id="8745606771043349529" at="91,166,92,61" concept="6" />
+      <node id="8745606771045948499" at="93,29,94,76" concept="6" />
+      <node id="8745606771045948507" at="94,76,95,139" concept="2" />
+      <node id="8745606771045953364" at="95,139,96,173" concept="2" />
+      <node id="8745606771045947932" at="96,173,97,0" concept="9" />
+      <node id="8745606771044068119" at="97,0,98,28" concept="2" />
+      <node id="8745606771043377879" at="101,86,102,73" concept="6" />
+      <node id="8745606771043377879" at="102,73,103,42" concept="2" />
+      <node id="8745606771043377879" at="103,42,104,60" concept="2" />
+      <node id="8745606771043377879" at="104,60,105,49" concept="2" />
+      <node id="8745606771043377879" at="105,49,106,26" concept="7" />
+      <node id="8745606771043286351" at="110,0,111,0" concept="10" trace="CellReference$M7" />
+      <node id="8745606771043286351" at="114,0,115,0" concept="10" trace="cellID$cCwL" />
+      <node id="8745606771043286351" at="115,0,116,0" concept="10" trace="componentHashCode$xCJo" />
+      <node id="8745606771043286351" at="119,0,120,0" concept="10" trace="target$YRpz" />
+      <node id="8745606771043286351" at="54,95,57,5" concept="4" />
+      <node id="8745606771043385380" at="59,90,62,7" concept="4" />
+      <node id="8745606771043385381" at="62,7,65,7" concept="4" />
+      <node id="8745606771043287425" at="68,66,71,7" concept="4" />
+      <node id="8745606771043315312" at="74,66,77,7" concept="4" />
+      <node id="8745606771043394745" at="80,54,83,7" concept="4" />
+      <node id="8745606771043286351" at="41,0,45,0" concept="5" trace="isDumbAware#()Z" />
+      <node id="8745606771043286351" at="45,0,49,0" concept="5" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="8745606771043286351" at="49,0,53,0" concept="5" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8745606771043286351" at="36,0,41,0" concept="1" trace="CopyEditorCellReference_Action#()V" />
+      <node id="8745606771043287424" at="66,5,72,5" concept="0" />
+      <node id="8745606771043315311" at="72,5,78,5" concept="0" />
+      <node id="8745606771043394744" at="78,5,84,5" concept="0" />
+      <node id="8745606771044911724" at="92,61,99,5" concept="4" />
+      <node id="8745606771043377879" at="101,0,108,0" concept="11" trace="createCellReference_dgyswz_a0a0a#(Ljava/lang/String;ILorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8745606771043385380" at="57,5,66,5" concept="0" />
+      <node id="8745606771043286351" at="87,0,101,0" concept="5" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8745606771043286351" at="53,0,87,0" concept="5" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="8745606771043286351" at="42,32,43,16" />
+      <scope id="92404276862603061" at="46,87,47,227" />
+      <scope id="8745606771043286351" at="50,89,51,85" />
+      <scope id="8745606771043286351" at="55,53,56,19" />
+      <scope id="8745606771043385380" at="60,67,61,31" />
+      <scope id="8745606771043385381" at="63,36,64,21" />
+      <scope id="8745606771043287425" at="69,22,70,21" />
+      <scope id="8745606771043315312" at="75,22,76,21" />
+      <scope id="8745606771043394745" at="81,22,82,21" />
+      <scope id="8745606771043286351" at="36,43,39,57" />
+      <scope id="8745606771043286351" at="41,0,45,0" />
+      <scope id="8745606771043286351" at="45,0,49,0">
+        <var name="_params" id="8745606771043286351" />
+        <var name="event" id="8745606771043286351" />
+      </scope>
+      <scope id="8745606771043286351" at="49,0,53,0">
+        <var name="_params" id="8745606771043286351" />
+        <var name="event" id="8745606771043286351" />
+      </scope>
+      <scope id="8745606771043287424" at="67,5,71,7">
+        <var name="p" id="8745606771043287424" />
+      </scope>
+      <scope id="8745606771043315311" at="73,5,77,7">
+        <var name="p" id="8745606771043315311" />
+      </scope>
+      <scope id="8745606771043394744" at="79,5,83,7">
+        <var name="p" id="8745606771043394744" />
+      </scope>
+      <scope id="8745606771043286351" at="36,0,41,0" />
+      <scope id="8745606771044911726" at="93,29,98,28">
+        <var name="imports" id="8745606771045948500" />
+      </scope>
+      <scope id="8745606771043377879" at="101,86,106,26">
+        <var name="n0" id="8745606771043377879" />
+      </scope>
+      <scope id="8745606771043385380" at="58,5,65,7">
+        <var name="editorComponent" id="8745606771043385380" />
+      </scope>
+      <scope id="8745606771043377879" at="101,0,108,0">
+        <var name="p0" id="8745606771043377879" />
+        <var name="p1" id="8745606771043377879" />
+        <var name="p2" id="8745606771043377879" />
+      </scope>
+      <scope id="8745606771043286351" at="88,96,99,5">
+        <var name="cellRef" id="8745606771043557647" />
+        <var name="ct" id="5086893651833263215" />
+        <var name="currentTab" id="8745606771043349530" />
+      </scope>
+      <scope id="8745606771043286351" at="87,0,101,0">
+        <var name="_params" id="8745606771043286351" />
+        <var name="event" id="8745606771043286351" />
+      </scope>
+      <scope id="8745606771043286351" at="54,95,85,16" />
+      <scope id="8745606771043286351" at="53,0,87,0">
+        <var name="_params" id="8745606771043286351" />
+        <var name="event" id="8745606771043286351" />
+      </scope>
+      <unit id="8745606771043286351" at="109,0,112,0" name="de.itemis.mps.debug.runtime.plugin.CopyEditorCellReference_Action$CONCEPTS" />
+      <unit id="8745606771043286351" at="118,0,121,0" name="de.itemis.mps.debug.runtime.plugin.CopyEditorCellReference_Action$LINKS" />
+      <unit id="8745606771043286351" at="113,0,117,0" name="de.itemis.mps.debug.runtime.plugin.CopyEditorCellReference_Action$PROPS" />
+      <unit id="8745606771043286351" at="33,0,122,0" name="de.itemis.mps.debug.runtime.plugin.CopyEditorCellReference_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8745606771043286351" at="27,55,28,52" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:781f0a0f-a9fd-4a6a-ac87-47f7866aef34(de.itemis.mps.debug.runtime.plugin)/8745606771043496262">
+    <file name="EditorCellDebug_ActionGroup.java">
+      <node id="8745606771043496262" at="10,0,11,0" concept="10" trace="ID" />
+      <node id="8745606771043496262" at="12,73,13,41" concept="12" />
+      <node id="8745606771043496262" at="13,41,14,25" concept="2" />
+      <node id="8745606771043496262" at="14,25,15,20" concept="2" />
+      <node id="8745606771043496298" at="15,20,16,116" concept="2" />
+      <node id="8745606771044924355" at="16,116,17,119" concept="2" />
+      <node id="8745606771043496262" at="12,0,19,0" concept="1" trace="EditorCellDebug_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="8745606771043496262" at="12,73,17,119" />
+      <scope id="8745606771043496262" at="12,0,19,0">
+        <var name="plugin" id="8745606771043496262" />
+      </scope>
+      <unit id="8745606771043496262" at="9,0,20,0" name="de.itemis.mps.debug.runtime.plugin.EditorCellDebug_ActionGroup" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8745606771043496262" at="29,13,30,52" concept="2" />
+      <node id="2662234144540708010" at="32,37,33,130" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:781f0a0f-a9fd-4a6a-ac87-47f7866aef34(de.itemis.mps.debug.runtime.plugin)/8745606771044754362">
+    <file name="CopyCurrentEditorComponent_Action.java">
+      <node id="8745606771044754362" at="31,0,32,0" concept="10" trace="ICON" />
+      <node id="8745606771044754362" at="33,46,34,55" concept="12" />
+      <node id="8745606771044754362" at="34,55,35,35" concept="2" />
+      <node id="8745606771044754362" at="35,35,36,57" concept="2" />
+      <node id="8745606771044754362" at="39,32,40,16" concept="7" />
+      <node id="92404276862634983" at="43,87,44,227" concept="7" />
+      <node id="8745606771044754362" at="47,89,48,85" concept="2" />
+      <node id="8745606771044754362" at="52,53,53,19" concept="7" />
+      <node id="8745606771044754411" at="55,5,56,90" concept="6" />
+      <node id="8745606771044754411" at="57,67,58,31" concept="2" />
+      <node id="8745606771044754412" at="60,36,61,21" concept="7" />
+      <node id="8745606771044754415" at="64,5,65,66" concept="6" />
+      <node id="8745606771044754416" at="66,22,67,21" concept="7" />
+      <node id="8745606771044754362" at="69,5,70,16" concept="7" />
+      <node id="8745606771044878187" at="73,96,74,137" concept="6" />
+      <node id="8745606771044754389" at="74,137,75,58" concept="2" />
+      <node id="8745606771044754392" at="75,58,76,166" concept="6" />
+      <node id="8745606771044754401" at="76,166,77,61" concept="6" />
+      <node id="8745606771045865618" at="78,29,79,76" concept="6" />
+      <node id="8745606771045857446" at="79,76,80,139" concept="2" />
+      <node id="8745606771045940576" at="80,139,81,0" concept="9" />
+      <node id="8745606771044754407" at="81,0,82,28" concept="2" />
+      <node id="8745606771044879162" at="85,76,86,84" concept="6" />
+      <node id="8745606771044879162" at="86,84,87,60" concept="2" />
+      <node id="8745606771044879162" at="87,60,88,26" concept="7" />
+      <node id="8745606771044754362" at="92,0,93,0" concept="10" trace="EditorComponentReference$uw" />
+      <node id="8745606771044754362" at="96,0,97,0" concept="10" trace="componentHashCode$lsMc" />
+      <node id="8745606771044754362" at="51,95,54,5" concept="4" />
+      <node id="8745606771044754411" at="56,90,59,7" concept="4" />
+      <node id="8745606771044754412" at="59,7,62,7" concept="4" />
+      <node id="8745606771044754416" at="65,66,68,7" concept="4" />
+      <node id="8745606771044754362" at="38,0,42,0" concept="5" trace="isDumbAware#()Z" />
+      <node id="8745606771044754362" at="42,0,46,0" concept="5" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="8745606771044754362" at="46,0,50,0" concept="5" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8745606771044754362" at="33,0,38,0" concept="1" trace="CopyCurrentEditorComponent_Action#()V" />
+      <node id="8745606771044879162" at="85,0,90,0" concept="11" trace="createEditorComponentReference_hdvs12_a0a0a#(I)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8745606771044754415" at="63,5,69,5" concept="0" />
+      <node id="8745606771044891769" at="77,61,83,5" concept="4" />
+      <node id="8745606771044754411" at="54,5,63,5" concept="0" />
+      <node id="8745606771044754362" at="72,0,85,0" concept="5" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="8745606771044754362" at="50,0,72,0" concept="5" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="8745606771044754362" at="39,32,40,16" />
+      <scope id="92404276862558400" at="43,87,44,227" />
+      <scope id="8745606771044754362" at="47,89,48,85" />
+      <scope id="8745606771044754362" at="52,53,53,19" />
+      <scope id="8745606771044754411" at="57,67,58,31" />
+      <scope id="8745606771044754412" at="60,36,61,21" />
+      <scope id="8745606771044754416" at="66,22,67,21" />
+      <scope id="8745606771044754362" at="33,46,36,57" />
+      <scope id="8745606771044879162" at="85,76,88,26">
+        <var name="n0" id="8745606771044879162" />
+      </scope>
+      <scope id="8745606771044754362" at="38,0,42,0" />
+      <scope id="8745606771044754362" at="42,0,46,0">
+        <var name="_params" id="8745606771044754362" />
+        <var name="event" id="8745606771044754362" />
+      </scope>
+      <scope id="8745606771044754362" at="46,0,50,0">
+        <var name="_params" id="8745606771044754362" />
+        <var name="event" id="8745606771044754362" />
+      </scope>
+      <scope id="8745606771044754415" at="64,5,68,7">
+        <var name="p" id="8745606771044754415" />
+      </scope>
+      <scope id="8745606771044891771" at="78,29,82,28">
+        <var name="imports" id="8745606771045865619" />
+      </scope>
+      <scope id="8745606771044754362" at="33,0,38,0" />
+      <scope id="8745606771044879162" at="85,0,90,0">
+        <var name="p0" id="8745606771044879162" />
+      </scope>
+      <scope id="8745606771044754411" at="55,5,62,7">
+        <var name="editorComponent" id="8745606771044754411" />
+      </scope>
+      <scope id="8745606771044754362" at="73,96,83,5">
+        <var name="ct" id="8745606771044754393" />
+        <var name="currentTab" id="8745606771044754402" />
+        <var name="editorComponentRef" id="8745606771044878190" />
+      </scope>
+      <scope id="8745606771044754362" at="72,0,85,0">
+        <var name="_params" id="8745606771044754362" />
+        <var name="event" id="8745606771044754362" />
+      </scope>
+      <scope id="8745606771044754362" at="51,95,70,16" />
+      <scope id="8745606771044754362" at="50,0,72,0">
+        <var name="_params" id="8745606771044754362" />
+        <var name="event" id="8745606771044754362" />
+      </scope>
+      <unit id="8745606771044754362" at="91,0,94,0" name="de.itemis.mps.debug.runtime.plugin.CopyCurrentEditorComponent_Action$CONCEPTS" />
+      <unit id="8745606771044754362" at="95,0,98,0" name="de.itemis.mps.debug.runtime.plugin.CopyCurrentEditorComponent_Action$PROPS" />
+      <unit id="8745606771044754362" at="30,0,99,0" name="de.itemis.mps.debug.runtime.plugin.CopyCurrentEditorComponent_Action" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="8745606771044754362" at="26,29,27,55" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:781f0a0f-a9fd-4a6a-ac87-47f7866aef34(de.itemis.mps.debug.runtime.plugin)/92404276861613040">
+    <file name="EditorCellDebug_KeymapChanges.java">
+      <node id="92404276861613042" at="8,42,9,91" concept="2" />
+      <node id="92404276861613040" at="12,29,13,22" concept="7" />
+      <node id="92404276861613040" at="8,0,11,0" concept="1" trace="EditorCellDebug_KeymapChanges#()V" />
+      <node id="92404276861613040" at="11,0,15,0" concept="5" trace="getScheme#()Ljava/lang/String;" />
+      <scope id="92404276861613040" at="8,42,9,91" />
+      <scope id="92404276861613040" at="12,29,13,22" />
+      <scope id="92404276861613040" at="8,0,11,0" />
+      <scope id="92404276861613040" at="11,0,15,0" />
+      <unit id="92404276861613040" at="7,0,17,0" name="de.itemis.mps.debug.runtime.plugin.EditorCellDebug_KeymapChanges" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="92404276861613040" at="36,92,37,79" concept="2" />
+    </file>
+  </root>
+</debug-info>
+

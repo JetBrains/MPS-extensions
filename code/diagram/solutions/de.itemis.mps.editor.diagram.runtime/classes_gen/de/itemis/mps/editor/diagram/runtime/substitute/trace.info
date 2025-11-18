@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root nodeRef="r:92d28f3c-6acc-431a-94ba-30cd184d2da4(de.itemis.mps.editor.diagram.runtime.substitute)/1981294357061331340">
+    <file name="AbstractSubstituteActionFilter.java">
+      <node id="8637411062065368467" at="13,50,14,114" concept="6" />
+      <node id="4254343767722246266" at="14,114,15,62" concept="6" />
+      <node id="1981294357061363318" at="15,62,16,45" concept="7" />
+      <node id="1981294357061366144" at="19,64,20,17" concept="7" />
+      <node id="1981294357061331340" at="24,0,25,0" concept="8" trace="AbstractConceptDeclaration$KA" />
+      <node id="1981294357061331587" at="19,0,22,0" concept="5" trace="remove#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1981294357061331389" at="13,0,18,0" concept="5" trace="remove#(Ljetbrains/mps/openapi/editor/cells/SubstituteAction;)Z" />
+      <scope id="1981294357061331591" at="19,64,20,17" />
+      <scope id="1981294357061331395" at="13,50,16,45">
+        <var name="outputConcept" id="8637411062065368468" />
+        <var name="targetNode" id="4254343767722246269" />
+      </scope>
+      <scope id="1981294357061331587" at="19,0,22,0">
+        <var name="outputConcept" id="1981294357061331924" />
+        <var name="targetNode" id="1981294357061332123" />
+      </scope>
+      <scope id="1981294357061331389" at="13,0,18,0">
+        <var name="action" id="1981294357061331390" />
+      </scope>
+      <unit id="1981294357061331340" at="23,0,26,0" name="de.itemis.mps.editor.diagram.runtime.substitute.AbstractSubstituteActionFilter$CONCEPTS" />
+      <unit id="1981294357061331340" at="12,0,27,0" name="de.itemis.mps.editor.diagram.runtime.substitute.AbstractSubstituteActionFilter" />
+    </file>
+  </root>
+  <root nodeRef="r:92d28f3c-6acc-431a-94ba-30cd184d2da4(de.itemis.mps.editor.diagram.runtime.substitute)/5490129062795630626">
+    <file name="NodeSubstituter.java">
+      <node id="5490129062795630627" at="8,0,9,0" concept="5" trace="substituteNode#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="5490129062795630627" at="8,0,9,0">
+        <var name="currentNode" id="5490129062795630630" />
+        <var name="newNode" id="5490129062795630628" />
+      </scope>
+      <unit id="5490129062795630626" at="7,0,10,0" name="de.itemis.mps.editor.diagram.runtime.substitute.NodeSubstituter" />
+    </file>
+  </root>
+  <root nodeRef="r:92d28f3c-6acc-431a-94ba-30cd184d2da4(de.itemis.mps.editor.diagram.runtime.substitute)/5490129062795630636">
+    <file name="SubstituteInfoFactory.java">
+      <node id="5490129062795630638" at="19,0,20,0" concept="2" trace="myEditorContext" />
+      <node id="7817667712700151932" at="20,0,21,0" concept="2" trace="mySNode" />
+      <node id="5490129062795630646" at="22,67,23,30" concept="1" />
+      <node id="7817667712700152714" at="23,30,24,19" concept="1" />
+      <node id="5490129062795630661" at="27,76,28,52" concept="7" />
+      <node id="5490129062795630673" at="32,51,33,18" concept="7" />
+      <node id="5490129062795630680" at="34,5,35,103" concept="7" />
+      <node id="5490129062795630696" at="38,61,39,77" concept="7" />
+      <node id="7817667712700527410" at="42,75,43,51" concept="7" />
+      <node id="7416670317078462065" at="47,90,48,96" concept="6" />
+      <node id="7416670317078457936" at="48,96,49,170" concept="6" />
+      <node id="7416670317078456664" at="49,170,50,41" concept="7" />
+      <node id="2922740244931320865" at="53,84,54,73" concept="7" />
+      <node id="7817667712700167059" at="57,60,58,46" concept="7" />
+      <node id="8637411062075336242" at="61,85,62,53" concept="7" />
+      <node id="5490129062795630636" at="66,0,67,0" concept="8" trace="name$MnvL" />
+      <node id="5490129062795630653" at="27,0,30,0" concept="5" trace="forEmptyList#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;" />
+      <node id="5490129062795630671" at="31,47,34,5" concept="4" />
+      <node id="5490129062795630692" at="38,0,41,0" concept="5" trace="forChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;" />
+      <node id="7817667712700526075" at="42,0,45,0" concept="5" trace="forChildLink#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;" />
+      <node id="7416670317078423056" at="53,0,56,0" concept="5" trace="forChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;" />
+      <node id="7817667712700164073" at="57,0,60,0" concept="5" trace="composite#(null)Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;" />
+      <node id="8637411062075230797" at="61,0,64,0" concept="5" trace="filter#(Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;Lde/itemis/mps/editor/diagram/runtime/substitute/ISubstituteActionFilter;)Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;" />
+      <node id="5490129062795630642" at="22,0,26,0" concept="0" trace="SubstituteInfoFactory#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5490129062795630708" at="47,0,52,0" concept="5" trace="forChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;" />
+      <node id="5490129062795630667" at="31,0,37,0" concept="5" trace="forChild#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;" />
+      <scope id="5490129062795630660" at="27,76,28,52" />
+      <scope id="5490129062795630672" at="32,51,33,18" />
+      <scope id="5490129062795630695" at="38,61,39,77" />
+      <scope id="7817667712700526078" at="42,75,43,51" />
+      <scope id="7416670317078423059" at="53,84,54,73" />
+      <scope id="7817667712700164077" at="57,60,58,46" />
+      <scope id="8637411062075230801" at="61,85,62,53" />
+      <scope id="5490129062795630645" at="22,67,24,19" />
+      <scope id="5490129062795630653" at="27,0,30,0">
+        <var name="linkdDeclaration" id="5490129062795630656" />
+        <var name="parent" id="5490129062795630654" />
+      </scope>
+      <scope id="5490129062795630692" at="38,0,41,0">
+        <var name="child" id="5490129062795630705" />
+        <var name="parent" id="5490129062795630703" />
+      </scope>
+      <scope id="7817667712700526075" at="42,0,45,0">
+        <var name="linkDeclaration" id="7817667712700526090" />
+        <var name="parent" id="7817667712700526086" />
+      </scope>
+      <scope id="5490129062795630711" at="47,90,50,41">
+        <var name="link" id="7416670317078457937" />
+        <var name="links" id="7416670317078462066" />
+      </scope>
+      <scope id="7416670317078423056" at="53,0,56,0">
+        <var name="child" id="7416670317078423126" />
+        <var name="link" id="7416670317078423128" />
+        <var name="parent" id="7416670317078423124" />
+      </scope>
+      <scope id="7817667712700164073" at="57,0,60,0">
+        <var name="parts" id="7817667712700165735" />
+      </scope>
+      <scope id="8637411062075230797" at="61,0,64,0">
+        <var name="filter" id="8637411062075234246" />
+        <var name="info" id="8637411062075233563" />
+      </scope>
+      <scope id="5490129062795630642" at="22,0,26,0">
+        <var name="context" id="5490129062795630650" />
+        <var name="node" id="7817667712700150991" />
+      </scope>
+      <scope id="5490129062795630670" at="31,47,35,103" />
+      <scope id="5490129062795630708" at="47,0,52,0">
+        <var name="child" id="5490129062795630721" />
+        <var name="linkDeclaration" id="5490129062795630723" />
+        <var name="parent" id="5490129062795630719" />
+      </scope>
+      <scope id="5490129062795630667" at="31,0,37,0">
+        <var name="child" id="5490129062795630689" />
+      </scope>
+      <unit id="5490129062795630636" at="65,0,68,0" name="de.itemis.mps.editor.diagram.runtime.substitute.SubstituteInfoFactory$PROPS" />
+      <unit id="5490129062795630636" at="17,0,69,0" name="de.itemis.mps.editor.diagram.runtime.substitute.SubstituteInfoFactory" />
+    </file>
+  </root>
+  <root nodeRef="r:92d28f3c-6acc-431a-94ba-30cd184d2da4(de.itemis.mps.editor.diagram.runtime.substitute)/7817667712700183248">
+    <file name="CompositeSubstituteInfo.java">
+      <node id="7817667712700183288" at="12,0,13,0" concept="2" trace="myParts" />
+      <node id="7817667712700256672" at="14,0,15,0" concept="2" trace="myOriginalText" />
+      <node id="7817667712700185726" at="16,59,17,20" concept="1" />
+      <node id="7817667712700187468" at="20,84,21,70" concept="6" />
+      <node id="7817667712700214940" at="22,41,23,62" concept="1" />
+      <node id="7817667712700211630" at="24,5,25,18" concept="7" />
+      <node id="7817667712700297725" at="27,113,28,70" concept="6" />
+      <node id="7817667712700297736" at="29,41,30,80" concept="1" />
+      <node id="7817667712700297745" at="31,5,32,18" concept="7" />
+      <node id="7817667712700286606" at="34,84,35,67" concept="7" />
+      <node id="7817667712700270286" at="38,41,39,31" concept="1" />
+      <node id="7817667712700262735" at="42,35,43,26" concept="7" />
+      <node id="7817667712700263671" at="45,46,46,28" concept="1" />
+      <node id="7817667712700183389" at="16,0,19,0" concept="0" trace="CompositeSubstituteInfo#(null)V" />
+      <node id="7817667712700213499" at="21,70,24,5" concept="3" />
+      <node id="7817667712700297732" at="28,70,31,5" concept="3" />
+      <node id="7817667712700186372" at="34,0,37,0" concept="5" trace="hasExactlyNActions#(Ljava/lang/String;ZI)Z" />
+      <node id="7817667712700268257" at="37,35,40,5" concept="3" />
+      <node id="7817667712700247257" at="42,0,45,0" concept="5" trace="getOriginalText#()Ljava/lang/String;" />
+      <node id="7817667712700247264" at="45,0,48,0" concept="5" trace="setOriginalText#(Ljava/lang/String;)V" />
+      <node id="7817667712700186385" at="37,0,42,0" concept="5" trace="invalidateActions#()V" />
+      <node id="7817667712700186339" at="20,0,27,0" concept="5" trace="getMatchingActions#(Ljava/lang/String;Z)Ljava/util/List;" />
+      <node id="7817667712700186358" at="27,0,34,0" concept="5" trace="getSmartMatchingActions#(Ljava/lang/String;ZLjetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/util/List;" />
+      <scope id="7817667712700183393" at="16,59,17,20" />
+      <scope id="7817667712700213505" at="22,41,23,62" />
+      <scope id="7817667712700297735" at="29,41,30,80" />
+      <scope id="7817667712700186382" at="34,84,35,67" />
+      <scope id="7817667712700268260" at="38,41,39,31" />
+      <scope id="7817667712700247261" at="42,35,43,26" />
+      <scope id="7817667712700247270" at="45,46,46,28" />
+      <scope id="7817667712700183389" at="16,0,19,0">
+        <var name="parts" id="7817667712700183408" />
+      </scope>
+      <scope id="7817667712700213499" at="21,70,24,5">
+        <var name="part" id="7817667712700213501" />
+      </scope>
+      <scope id="7817667712700297732" at="28,70,31,5">
+        <var name="part" id="7817667712700297733" />
+      </scope>
+      <scope id="7817667712700186372" at="34,0,37,0">
+        <var name="n" id="7817667712700186380" />
+        <var name="pattern" id="7817667712700186376" />
+        <var name="strictMatching" id="7817667712700186378" />
+      </scope>
+      <scope id="7817667712700186389" at="37,35,40,5" />
+      <scope id="7817667712700268257" at="37,35,40,5">
+        <var name="part" id="7817667712700268258" />
+      </scope>
+      <scope id="7817667712700247257" at="42,0,45,0" />
+      <scope id="7817667712700247264" at="45,0,48,0">
+        <var name="string" id="7817667712700247268" />
+      </scope>
+      <scope id="7817667712700186348" at="20,84,25,18">
+        <var name="result" id="7817667712700187469" />
+      </scope>
+      <scope id="7817667712700186369" at="27,113,32,18">
+        <var name="result" id="7817667712700297726" />
+      </scope>
+      <scope id="7817667712700186385" at="37,0,42,0" />
+      <scope id="7817667712700186339" at="20,0,27,0">
+        <var name="pattern" id="7817667712700186344" />
+        <var name="strict" id="7817667712700186346" />
+      </scope>
+      <scope id="7817667712700186358" at="27,0,34,0">
+        <var name="contextCell" id="7817667712700186367" />
+        <var name="pattern" id="7817667712700186363" />
+        <var name="strict" id="7817667712700186365" />
+      </scope>
+      <unit id="7817667712700183248" at="11,0,49,0" name="de.itemis.mps.editor.diagram.runtime.substitute.CompositeSubstituteInfo" />
+    </file>
+  </root>
+  <root nodeRef="r:92d28f3c-6acc-431a-94ba-30cd184d2da4(de.itemis.mps.editor.diagram.runtime.substitute)/8637411062075228135">
+    <file name="ISubstituteActionFilter.java">
+      <node id="8637411062075228541" at="8,0,9,0" concept="5" trace="remove#(Ljetbrains/mps/openapi/editor/cells/SubstituteAction;)Z" />
+      <scope id="8637411062075228541" at="8,0,9,0">
+        <var name="action" id="8637411062075228570" />
+      </scope>
+      <unit id="8637411062075228135" at="7,0,10,0" name="de.itemis.mps.editor.diagram.runtime.substitute.ISubstituteActionFilter" />
+    </file>
+  </root>
+  <root nodeRef="r:92d28f3c-6acc-431a-94ba-30cd184d2da4(de.itemis.mps.editor.diagram.runtime.substitute)/8637411062075236424">
+    <file name="FilteringSubstituteInfo.java">
+      <node id="8637411062075237761" at="14,0,15,0" concept="2" trace="myWrapped" />
+      <node id="8637411062075263733" at="15,0,16,0" concept="2" trace="myFilter" />
+      <node id="8637411062075242339" at="17,90,18,24" concept="1" />
+      <node id="8637411062075266028" at="18,24,19,22" concept="1" />
+      <node id="8637411062075317869" at="22,84,23,65" concept="7" />
+      <node id="8637411062075303505" at="26,78,27,72" concept="6" />
+      <node id="8637411062075303517" at="29,39,30,29" concept="1" />
+      <node id="8637411062075303532" at="32,5,33,20" concept="7" />
+      <node id="8637411062075284198" at="36,35,37,39" concept="7" />
+      <node id="8637411062075323296" at="39,106,40,76" concept="7" />
+      <node id="8637411062075293036" at="42,84,43,67" concept="7" />
+      <node id="8637411062075328664" at="45,35,46,34" concept="1" />
+      <node id="8637411062075330751" at="48,44,49,36" concept="1" />
+      <node id="8637411062075236491" at="22,0,25,0" concept="5" trace="getMatchingActions#(Ljava/lang/String;Z)Ljava/util/List;" />
+      <node id="8637411062075303515" at="28,71,31,7" concept="4" />
+      <node id="8637411062075236503" at="36,0,39,0" concept="5" trace="getOriginalText#()Ljava/lang/String;" />
+      <node id="8637411062075236510" at="39,0,42,0" concept="5" trace="getSmartMatchingActions#(Ljava/lang/String;ZLjetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/util/List;" />
+      <node id="8637411062075236524" at="42,0,45,0" concept="5" trace="hasExactlyNActions#(Ljava/lang/String;ZI)Z" />
+      <node id="8637411062075236537" at="45,0,48,0" concept="5" trace="invalidateActions#()V" />
+      <node id="8637411062075236542" at="48,0,51,0" concept="5" trace="setOriginalText#(Ljava/lang/String;)V" />
+      <node id="8637411062075241332" at="17,0,21,0" concept="0" trace="FilteringSubstituteInfo#(Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;Lde/itemis/mps/editor/diagram/runtime/substitute/ISubstituteActionFilter;)V" />
+      <node id="8637411062075303512" at="27,72,32,5" concept="3" />
+      <node id="8637411062075297286" at="26,0,35,0" concept="5" trace="filter#(Ljava/util/List;)Ljava/util/List;" />
+      <scope id="8637411062075236500" at="22,84,23,65" />
+      <scope id="8637411062075303516" at="29,39,30,29" />
+      <scope id="8637411062075236507" at="36,35,37,39" />
+      <scope id="8637411062075236521" at="39,106,40,76" />
+      <scope id="8637411062075236534" at="42,84,43,67" />
+      <scope id="8637411062075236541" at="45,35,46,34" />
+      <scope id="8637411062075236548" at="48,44,49,36" />
+      <scope id="8637411062075241336" at="17,90,19,22" />
+      <scope id="8637411062075236491" at="22,0,25,0">
+        <var name="pattern" id="8637411062075236496" />
+        <var name="strict" id="8637411062075236498" />
+      </scope>
+      <scope id="8637411062075303514" at="28,71,31,7" />
+      <scope id="8637411062075236503" at="36,0,39,0" />
+      <scope id="8637411062075236510" at="39,0,42,0">
+        <var name="cell" id="8637411062075236519" />
+        <var name="pattern" id="8637411062075236515" />
+        <var name="strict" id="8637411062075236517" />
+      </scope>
+      <scope id="8637411062075236524" at="42,0,45,0">
+        <var name="n" id="8637411062075236532" />
+        <var name="pattern" id="8637411062075236528" />
+        <var name="strictMatching" id="8637411062075236530" />
+      </scope>
+      <scope id="8637411062075236537" at="45,0,48,0" />
+      <scope id="8637411062075236542" at="48,0,51,0">
+        <var name="text" id="8637411062075236546" />
+      </scope>
+      <scope id="8637411062075241332" at="17,0,21,0">
+        <var name="filter" id="8637411062075265473" />
+        <var name="wrapped" id="8637411062075241841" />
+      </scope>
+      <scope id="8637411062075303512" at="27,72,32,5">
+        <var name="action" id="8637411062075303513" />
+      </scope>
+      <scope id="8637411062075297290" at="26,78,33,20">
+        <var name="filtered" id="8637411062075303506" />
+      </scope>
+      <scope id="8637411062075297286" at="26,0,35,0">
+        <var name="unfiltered" id="8637411062075301435" />
+      </scope>
+      <unit id="8637411062075236424" at="12,0,52,0" name="de.itemis.mps.editor.diagram.runtime.substitute.FilteringSubstituteInfo" />
+    </file>
+  </root>
+</debug-info>
+

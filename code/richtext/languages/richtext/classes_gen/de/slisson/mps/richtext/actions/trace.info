@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="12,0,28,0" name="de.slisson.mps.richtext.actions.ActionAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:679fb3e6-5e0c-4117-b382-6c02f3a1f0ac(de.slisson.mps.richtext.actions)/793221525401868614">
+    <file name="RichtextNodeFactory.java">
+      <node id="793221525401868618" at="12,102,13,78" concept="0" />
+      <node id="793221525401868615" at="12,0,15,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;ILorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="793221525401868615" at="12,102,13,78" />
+      <scope id="793221525401868615" at="12,0,15,0">
+        <var name="enclosingNode" id="793221525401868615" />
+        <var name="index" id="793221525401868615" />
+        <var name="model" id="793221525401868615" />
+        <var name="newNode" id="793221525401868615" />
+        <var name="sampleNode" id="793221525401868615" />
+      </scope>
+      <unit id="793221525401868615" at="11,0,16,0" name="de.slisson.mps.richtext.actions.RichtextNodeFactory$NodeFactory_793221525401868615" />
+      <unit id="793221525401868614" at="10,0,17,0" name="de.slisson.mps.richtext.actions.RichtextNodeFactory" />
+    </file>
+  </root>
+</debug-info>
+

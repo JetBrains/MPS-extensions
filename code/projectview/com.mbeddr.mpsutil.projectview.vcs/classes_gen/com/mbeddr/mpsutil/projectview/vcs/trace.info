@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root nodeRef="r:c9ef6f8c-7218-4805-895d-a0e59cb2180f(com.mbeddr.mpsutil.projectview.vcs)/2392588809324456569">
+    <file name="CustomTreeFeatureExtractor.java">
+      <node id="2392588809324551804" at="20,48,21,18" concept="7" />
+      <node id="2392588809324551912" at="22,5,23,64" concept="6" />
+      <node id="2392588809324551561" at="23,64,24,0" concept="8" />
+      <node id="2392588809324557866" at="24,0,25,47" concept="6" />
+      <node id="8826403382532913174" at="26,34,27,65" concept="6" />
+      <node id="8826403382532921754" at="28,50,29,20" concept="7" />
+      <node id="2392588809324558235" at="30,7,31,40" concept="7" />
+      <node id="2392588809324569070" at="32,42,33,64" concept="7" />
+      <node id="2392588809324571046" at="34,12,35,18" concept="7" />
+      <node id="2392588809324570907" at="34,10,36,5" concept="0" />
+      <node id="2392588809324550485" at="19,60,22,5" concept="4" />
+      <node id="8826403382532916447" at="27,65,30,7" concept="4" />
+      <node id="2392588809324558035" at="25,47,36,5" concept="4" />
+      <node id="2392588809324457075" at="18,0,38,0" concept="5" trace="getFeature#(Ljetbrains/mps/ide/ui/tree/MPSTreeNode;)Ljetbrains/mps/vcs/changesmanager/tree/features/Feature;" />
+      <scope id="2392588809324550486" at="20,48,21,18" />
+      <scope id="8826403382532916449" at="28,50,29,20" />
+      <scope id="2392588809324568838" at="32,42,33,64" />
+      <scope id="2392588809324570908" at="34,12,35,18" />
+      <scope id="2392588809324558037" at="26,34,31,40">
+        <var name="reference" id="8826403382532913175" />
+      </scope>
+      <scope id="2392588809324457083" at="19,60,36,5">
+        <var name="customTreeNode" id="2392588809324551913" />
+        <var name="object" id="2392588809324557867" />
+      </scope>
+      <scope id="2392588809324457075" at="18,0,38,0">
+        <var name="treeNode" id="2392588809324457076" />
+      </scope>
+      <unit id="2392588809324456569" at="17,0,39,0" name="com.mbeddr.mpsutil.projectview.vcs.CustomTreeFeatureExtractor" />
+    </file>
+  </root>
+  <root nodeRef="r:c9ef6f8c-7218-4805-895d-a0e59cb2180f(com.mbeddr.mpsutil.projectview.vcs)/2392588809324572355">
+    <file name="CustomTreeHighlighterExtension.java">
+      <node id="2392588809324709214" at="13,0,14,0" concept="3" trace="myProject" />
+      <node id="2392588809324576064" at="14,0,15,0" concept="3" trace="myHighlighterFactory" />
+      <node id="2392588809324709640" at="16,58,17,24" concept="2" />
+      <node id="2392588809324706888" at="17,24,18,69" concept="2" />
+      <node id="2392588809324580117" at="22,44,23,77" concept="2" />
+      <node id="2392588809324572433" at="27,26,28,85" concept="2" />
+      <node id="2392588809324574377" at="31,28,32,87" concept="2" />
+      <node id="2392588809324576668" at="21,39,24,5" concept="4" />
+      <node id="2392588809324572378" at="27,0,30,0" concept="5" trace="register#()V" />
+      <node id="2392588809324572407" at="31,0,34,0" concept="5" trace="unregister#()V" />
+      <node id="2392588809324706539" at="16,0,20,0" concept="1" trace="CustomTreeHighlighterExtension#(Lcom/intellij/openapi/project/Project;)V" />
+      <node id="2392588809324574100" at="21,0,26,0" concept="5" trace="attach#(Ljetbrains/mps/ide/ui/tree/MPSTree;)V" />
+      <scope id="2392588809324576669" at="22,44,23,77" />
+      <scope id="2392588809324572382" at="27,26,28,85" />
+      <scope id="2392588809324572411" at="31,28,32,87" />
+      <scope id="2392588809324706543" at="16,58,18,69" />
+      <scope id="2392588809324574106" at="21,39,24,5" />
+      <scope id="2392588809324572378" at="27,0,30,0" />
+      <scope id="2392588809324572407" at="31,0,34,0" />
+      <scope id="2392588809324706539" at="16,0,20,0">
+        <var name="project" id="2392588809324706852" />
+      </scope>
+      <scope id="2392588809324574100" at="21,0,26,0">
+        <var name="tree" id="2392588809324574104" />
+      </scope>
+      <unit id="2392588809324572355" at="11,0,36,0" name="com.mbeddr.mpsutil.projectview.vcs.CustomTreeHighlighterExtension" />
+    </file>
+  </root>
+  <root nodeRef="r:c9ef6f8c-7218-4805-895d-a0e59cb2180f(com.mbeddr.mpsutil.projectview.vcs)/2392588809324580403">
+    <file name="CustomTreeHighlighterFactory.java">
+      <node id="200115155569682940" at="12,0,13,0" concept="3" trace="myProject" />
+      <node id="200115155569690394" at="14,65,15,24" concept="2" />
+      <node id="200115155569694581" at="18,61,19,99" concept="6" />
+      <node id="2392588809324580452" at="19,99,20,122" concept="6" />
+      <node id="2392588809324580506" at="20,122,21,23" concept="2" />
+      <node id="2392588809324580424" at="14,0,17,0" concept="1" trace="CustomTreeHighlighterFactory#(Lcom/intellij/openapi/project/Project;)V" />
+      <node id="2392588809324580447" at="18,0,23,0" concept="5" trace="highlightTreeIfNeeded#(Lcom/mbeddr/mpsutil/projectview/runtime/tree/CustomProjectTree;)V" />
+      <scope id="2392588809324580435" at="14,65,15,24" />
+      <scope id="2392588809324580424" at="14,0,17,0">
+        <var name="project" id="2392588809324580426" />
+      </scope>
+      <scope id="2392588809324580450" at="18,61,21,23">
+        <var name="highlighter" id="2392588809324580451" />
+        <var name="highlighterFactory" id="200115155569694582" />
+      </scope>
+      <scope id="2392588809324580447" at="18,0,23,0">
+        <var name="tree" id="2392588809324580448" />
+      </scope>
+      <unit id="2392588809324580403" at="11,0,24,0" name="com.mbeddr.mpsutil.projectview.vcs.CustomTreeHighlighterFactory" />
+    </file>
+  </root>
+</debug-info>
+

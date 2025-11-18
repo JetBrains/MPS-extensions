@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="9,0,37,0" name="de.slisson.mps.conditionalEditor.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:07a258ed-205c-42a3-9726-4c3be6c4d01d(de.slisson.mps.conditionalEditor.typesystem)/1452226863090972459">
+    <file name="TypesystemDescriptor.java">
+      <node id="1452226863090972459" at="27,5,28,100" concept="6" />
+      <node id="1452226863090972459" at="28,100,29,55" concept="2" />
+      <node id="1452226863090972459" at="26,5,30,5" concept="0" />
+      <scope id="1452226863090972459" at="27,5,29,55">
+        <var name="nonTypesystemRule" id="1452226863090972459" />
+      </scope>
+    </file>
+    <file name="check_ComponentArgument_NonTypesystemRule.java">
+      <node id="1452226863091006494" at="29,130,30,75" concept="6" />
+      <node id="1452226863091014652" at="31,126,32,296" concept="6" />
+      <node id="1452226863090984801" at="34,9,35,68" concept="6" />
+      <node id="1452226863090984801" at="35,68,36,340" concept="6" />
+      <node id="1452226863091036433" at="37,11,38,208" concept="6" />
+      <node id="1452226863091039150" at="38,208,39,73" concept="2" />
+      <node id="1452226863091039308" at="39,73,40,71" concept="2" />
+      <node id="1452226863091036433" at="40,71,41,73" concept="2" />
+      <node id="1452226863090972459" at="47,50,48,41" concept="7" />
+      <node id="1452226863090972459" at="50,68,51,102" concept="7" />
+      <node id="1452226863090972459" at="53,30,54,17" concept="7" />
+      <node id="1452226863090972459" at="58,0,59,0" concept="9" trace="variable$FJ6E" />
+      <node id="1452226863090972459" at="59,0,60,0" concept="9" trace="editorComponent$DNa7" />
+      <node id="1452226863090972459" at="60,0,61,0" concept="9" trace="parameters$FQGb" />
+      <node id="1452226863090972459" at="64,0,65,0" concept="9" trace="CellModel_ComponentWithParameters$qP" />
+      <node id="1452226863090972459" at="65,0,66,0" concept="9" trace="ComponentArgument$tO" />
+      <node id="1452226863090972459" at="69,0,70,0" concept="9" trace="name$MnvL" />
+      <node id="1452226863090972459" at="27,0,29,0" concept="1" trace="check_ComponentArgument_NonTypesystemRule#()V" />
+      <node id="1452226863090972459" at="47,0,50,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="1452226863090972459" at="50,0,53,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="1452226863090972459" at="53,0,56,0" concept="5" trace="overrides#()Z" />
+      <node id="1452226863091036433" at="36,340,42,11" concept="0" />
+      <node id="1452226863090984801" at="33,114,43,9" concept="0" />
+      <node id="1452226863091022457" at="32,296,44,7" concept="4" />
+      <node id="1452226863090972466" at="30,75,45,5" concept="4" />
+      <node id="1452226863090972459" at="29,0,47,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="1452226863090972459" at="27,54,27,54" />
+      <scope id="1452226863090972459" at="47,50,48,41" />
+      <scope id="1452226863090972459" at="50,68,51,102" />
+      <scope id="1452226863090972459" at="53,30,54,17" />
+      <scope id="1452226863090972459" at="27,0,29,0" />
+      <scope id="1452226863090972459" at="47,0,50,0" />
+      <scope id="1452226863090972459" at="50,0,53,0">
+        <var name="argument" id="1452226863090972459" />
+      </scope>
+      <scope id="1452226863090972459" at="53,0,56,0" />
+      <scope id="1452226863091036433" at="37,11,41,73">
+        <var name="intentionProvider" id="1452226863091036433" />
+      </scope>
+      <scope id="1452226863090984801" at="34,9,42,11">
+        <var name="_reporter_2309309498" id="1452226863090984801" />
+        <var name="errorTarget" id="1452226863090984801" />
+      </scope>
+      <scope id="1452226863091022459" at="33,114,43,9" />
+      <scope id="1452226863090972468" at="31,126,44,7">
+        <var name="correctVariable" id="1452226863091014653" />
+      </scope>
+      <scope id="1452226863090972460" at="29,130,45,5">
+        <var name="currentIndex" id="1452226863091006495" />
+      </scope>
+      <scope id="1452226863090972459" at="29,0,47,0">
+        <var name="componentArgument" id="1452226863090972459" />
+        <var name="status" id="1452226863090972459" />
+        <var name="typeCheckingContext" id="1452226863090972459" />
+      </scope>
+      <unit id="1452226863090972459" at="68,0,71,0" name="de.slisson.mps.conditionalEditor.typesystem.check_ComponentArgument_NonTypesystemRule$PROPS" />
+      <unit id="1452226863090972459" at="63,0,67,0" name="de.slisson.mps.conditionalEditor.typesystem.check_ComponentArgument_NonTypesystemRule$CONCEPTS" />
+      <unit id="1452226863090972459" at="57,0,62,0" name="de.slisson.mps.conditionalEditor.typesystem.check_ComponentArgument_NonTypesystemRule$LINKS" />
+      <unit id="1452226863090972459" at="26,0,72,0" name="de.slisson.mps.conditionalEditor.typesystem.check_ComponentArgument_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:07a258ed-205c-42a3-9726-4c3be6c4d01d(de.slisson.mps.conditionalEditor.typesystem)/1452226863091032015">
+    <file name="ReferenceCorrectVariableInComponentArgument_QuickFix.java">
+      <node id="1452226863091032015" at="15,65,16,138" concept="10" />
+      <node id="1452226863091032074" at="18,44,19,166" concept="7" />
+      <node id="1452226863091081244" at="21,35,22,237" concept="2" />
+      <node id="1452226863091032015" at="26,0,27,0" concept="9" trace="name$MnvL" />
+      <node id="1452226863091032015" at="30,0,31,0" concept="9" trace="variable$FJ6E" />
+      <node id="1452226863091032015" at="15,0,18,0" concept="1" trace="ReferenceCorrectVariableInComponentArgument_QuickFix#()V" />
+      <node id="1452226863091032015" at="18,0,21,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1452226863091032015" at="21,0,24,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="1452226863091032015" at="15,65,16,138" />
+      <scope id="1452226863091032069" at="18,44,19,166" />
+      <scope id="1452226863091032017" at="21,35,22,237" />
+      <scope id="1452226863091032015" at="15,0,18,0" />
+      <scope id="1452226863091032015" at="18,0,21,0">
+        <var name="node" id="1452226863091032015" />
+      </scope>
+      <scope id="1452226863091032015" at="21,0,24,0">
+        <var name="node" id="1452226863091032015" />
+      </scope>
+      <unit id="1452226863091032015" at="25,0,28,0" name="de.slisson.mps.conditionalEditor.typesystem.ReferenceCorrectVariableInComponentArgument_QuickFix$PROPS" />
+      <unit id="1452226863091032015" at="29,0,32,0" name="de.slisson.mps.conditionalEditor.typesystem.ReferenceCorrectVariableInComponentArgument_QuickFix$LINKS" />
+      <unit id="1452226863091032015" at="14,0,33,0" name="de.slisson.mps.conditionalEditor.typesystem.ReferenceCorrectVariableInComponentArgument_QuickFix" />
+    </file>
+  </root>
+  <root nodeRef="r:07a258ed-205c-42a3-9726-4c3be6c4d01d(de.slisson.mps.conditionalEditor.typesystem)/2877762237607249933">
+    <file name="TypesystemDescriptor.java">
+      <node id="2877762237607249933" at="19,5,20,89" concept="6" />
+      <node id="2877762237607249933" at="20,89,21,55" concept="2" />
+      <node id="2877762237607249933" at="18,5,22,5" concept="0" />
+      <scope id="2877762237607249933" at="19,5,21,55">
+        <var name="nonTypesystemRule" id="2877762237607249933" />
+      </scope>
+    </file>
+    <file name="checkNothing_NonTypesystemRule.java">
+      <node id="2877762237607249933" at="20,97,21,18" concept="7" />
+      <node id="2877762237607249933" at="23,86,24,18" concept="7" />
+      <node id="2877762237607249933" at="25,5,26,17" concept="7" />
+      <node id="2877762237607249933" at="30,50,31,59" concept="7" />
+      <node id="2877762237607249933" at="33,68,34,102" concept="7" />
+      <node id="2877762237607249933" at="36,30,37,17" concept="7" />
+      <node id="2877762237607249933" at="41,0,42,0" concept="9" trace="ConditionalConceptEditorDeclaration$LV" />
+      <node id="2877762237607249933" at="17,0,19,0" concept="1" trace="checkNothing_NonTypesystemRule#()V" />
+      <node id="2877762237607249933" at="28,0,30,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="2877762237607249933" at="19,60,22,5" concept="4" />
+      <node id="2877762237607249933" at="22,5,25,5" concept="4" />
+      <node id="2877762237607249933" at="30,0,33,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2877762237607249933" at="33,0,36,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="2877762237607249933" at="36,0,39,0" concept="5" trace="overrides#()Z" />
+      <node id="2877762237607249933" at="19,0,28,0" concept="5" trace="overrides#(Ljetbrains/mps/lang/typesystem/runtime/NonTypesystemRule_Runtime;)Z" />
+      <scope id="2877762237607249933" at="17,43,17,43" />
+      <scope id="2877762237607249934" at="28,148,28,148" />
+      <scope id="2877762237607249933" at="20,97,21,18" />
+      <scope id="2877762237607249933" at="23,86,24,18" />
+      <scope id="2877762237607249933" at="30,50,31,59" />
+      <scope id="2877762237607249933" at="33,68,34,102" />
+      <scope id="2877762237607249933" at="36,30,37,17" />
+      <scope id="2877762237607249933" at="17,0,19,0" />
+      <scope id="2877762237607249933" at="28,0,30,0">
+        <var name="conditionalConceptEditorDeclaration" id="2877762237607249933" />
+        <var name="status" id="2877762237607249933" />
+        <var name="typeCheckingContext" id="2877762237607249933" />
+      </scope>
+      <scope id="2877762237607249933" at="30,0,33,0" />
+      <scope id="2877762237607249933" at="33,0,36,0">
+        <var name="argument" id="2877762237607249933" />
+      </scope>
+      <scope id="2877762237607249933" at="36,0,39,0" />
+      <scope id="2877762237607249933" at="19,60,26,17" />
+      <scope id="2877762237607249933" at="19,0,28,0">
+        <var name="rule" id="2877762237607249933" />
+      </scope>
+      <unit id="2877762237607249933" at="40,0,43,0" name="de.slisson.mps.conditionalEditor.typesystem.checkNothing_NonTypesystemRule$CONCEPTS" />
+      <unit id="2877762237607249933" at="16,0,44,0" name="de.slisson.mps.conditionalEditor.typesystem.checkNothing_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:07a258ed-205c-42a3-9726-4c3be6c4d01d(de.slisson.mps.conditionalEditor.typesystem)/4531685632216154012">
+    <file name="TypesystemDescriptor.java">
+      <node id="4531685632216154012" at="31,5,32,118" concept="6" />
+      <node id="4531685632216154012" at="32,118,33,55" concept="2" />
+      <node id="4531685632216154012" at="30,5,34,5" concept="0" />
+      <scope id="4531685632216154012" at="31,5,33,55">
+        <var name="nonTypesystemRule" id="4531685632216154012" />
+      </scope>
+    </file>
+    <file name="check_ConditionalConceptEditorDeclaration_NonTypesystemRule.java">
+      <node id="4531685632216155111" at="26,117,27,94" concept="6" />
+      <node id="4531685632216163202" at="28,37,29,86" concept="6" />
+      <node id="4531685632216169038" at="29,86,30,101" concept="6" />
+      <node id="4531685632216181800" at="32,9,33,68" concept="6" />
+      <node id="4531685632216181800" at="33,68,34,307" concept="6" />
+      <node id="4531685632216193351" at="35,11,36,188" concept="6" />
+      <node id="4531685632216193736" at="36,188,37,79" concept="2" />
+      <node id="4531685632216193351" at="37,79,38,73" concept="2" />
+      <node id="4531685632216154012" at="44,50,45,59" concept="7" />
+      <node id="4531685632216154012" at="47,68,48,102" concept="7" />
+      <node id="4531685632216154012" at="50,30,51,17" concept="7" />
+      <node id="4531685632216154012" at="55,0,56,0" concept="9" trace="conceptDeclaration$HJmJ" />
+      <node id="4531685632216154012" at="59,0,60,0" concept="9" trace="ConditionalConceptEditorDeclaration$LV" />
+      <node id="4531685632216154012" at="24,0,26,0" concept="1" trace="check_ConditionalConceptEditorDeclaration_NonTypesystemRule#()V" />
+      <node id="4531685632216154012" at="44,0,47,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4531685632216154012" at="47,0,50,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4531685632216154012" at="50,0,53,0" concept="5" trace="overrides#()Z" />
+      <node id="4531685632216193351" at="34,307,39,11" concept="0" />
+      <node id="4531685632216181800" at="31,176,40,9" concept="0" />
+      <node id="4531685632216180798" at="30,101,41,7" concept="4" />
+      <node id="4531685632216158667" at="27,94,42,5" concept="4" />
+      <node id="4531685632216154012" at="26,0,44,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="4531685632216154012" at="24,72,24,72" />
+      <scope id="4531685632216154012" at="44,50,45,59" />
+      <scope id="4531685632216154012" at="47,68,48,102" />
+      <scope id="4531685632216154012" at="50,30,51,17" />
+      <scope id="4531685632216154012" at="24,0,26,0" />
+      <scope id="4531685632216193351" at="35,11,38,73">
+        <var name="intentionProvider" id="4531685632216193351" />
+      </scope>
+      <scope id="4531685632216154012" at="44,0,47,0" />
+      <scope id="4531685632216154012" at="47,0,50,0">
+        <var name="argument" id="4531685632216154012" />
+      </scope>
+      <scope id="4531685632216154012" at="50,0,53,0" />
+      <scope id="4531685632216181800" at="32,9,39,11">
+        <var name="_reporter_2309309498" id="4531685632216181800" />
+        <var name="errorTarget" id="4531685632216181800" />
+      </scope>
+      <scope id="4531685632216180800" at="31,176,40,9" />
+      <scope id="4531685632216158669" at="28,37,41,7">
+        <var name="conceptLanguage" id="4531685632216169039" />
+        <var name="editorLanguage" id="4531685632216163203" />
+      </scope>
+      <scope id="4531685632216154013" at="26,117,42,5">
+        <var name="conceptDeclaration" id="4531685632216155112" />
+      </scope>
+      <scope id="4531685632216154012" at="26,0,44,0">
+        <var name="node" id="4531685632216154012" />
+        <var name="status" id="4531685632216154012" />
+        <var name="typeCheckingContext" id="4531685632216154012" />
+      </scope>
+      <unit id="4531685632216154012" at="54,0,57,0" name="de.slisson.mps.conditionalEditor.typesystem.check_ConditionalConceptEditorDeclaration_NonTypesystemRule$LINKS" />
+      <unit id="4531685632216154012" at="58,0,61,0" name="de.slisson.mps.conditionalEditor.typesystem.check_ConditionalConceptEditorDeclaration_NonTypesystemRule$CONCEPTS" />
+      <unit id="4531685632216154012" at="23,0,62,0" name="de.slisson.mps.conditionalEditor.typesystem.check_ConditionalConceptEditorDeclaration_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:07a258ed-205c-42a3-9726-4c3be6c4d01d(de.slisson.mps.conditionalEditor.typesystem)/4531685632216184077">
+    <file name="fix_AddExtendedLanguage_QuickFix.java">
+      <node id="4531685632216184077" at="12,45,13,138" concept="10" />
+      <node id="4531685632216186402" at="15,44,16,119" concept="7" />
+      <node id="4531685632216184121" at="18,35,19,185" concept="2" />
+      <node id="4531685632216184077" at="12,0,15,0" concept="1" trace="fix_AddExtendedLanguage_QuickFix#()V" />
+      <node id="4531685632216184077" at="15,0,18,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4531685632216184077" at="18,0,21,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="4531685632216184077" at="12,45,13,138" />
+      <scope id="4531685632216186318" at="15,44,16,119" />
+      <scope id="4531685632216184079" at="18,35,19,185" />
+      <scope id="4531685632216184077" at="12,0,15,0" />
+      <scope id="4531685632216184077" at="15,0,18,0">
+        <var name="node" id="4531685632216184077" />
+      </scope>
+      <scope id="4531685632216184077" at="18,0,21,0">
+        <var name="node" id="4531685632216184077" />
+      </scope>
+      <unit id="4531685632216184077" at="11,0,22,0" name="de.slisson.mps.conditionalEditor.typesystem.fix_AddExtendedLanguage_QuickFix" />
+    </file>
+  </root>
+  <root nodeRef="r:07a258ed-205c-42a3-9726-4c3be6c4d01d(de.slisson.mps.conditionalEditor.typesystem)/6733065834259451808">
+    <file name="TypesystemDescriptor.java">
+      <node id="6733065834259451808" at="15,5,16,105" concept="6" />
+      <node id="6733065834259451808" at="16,105,17,47" concept="2" />
+      <node id="6733065834259451808" at="14,5,18,5" concept="0" />
+      <scope id="6733065834259451808" at="15,5,17,47">
+        <var name="inferenceRule" id="6733065834259451808" />
+      </scope>
+    </file>
+    <file name="typeof_EditorComponentParameterReference_InferenceRule.java">
+      <node id="6733065834259452303" at="21,5,22,51" concept="6" />
+      <node id="6733065834259452303" at="22,51,23,209" concept="6" />
+      <node id="6733065834259452303" at="23,209,24,452" concept="2" />
+      <node id="6733065834259451808" at="27,50,28,57" concept="7" />
+      <node id="6733065834259451808" at="30,68,31,102" concept="7" />
+      <node id="6733065834259451808" at="33,30,34,17" concept="7" />
+      <node id="6733065834259451808" at="38,0,39,0" concept="9" trace="parameter$wuL6" />
+      <node id="6733065834259451808" at="42,0,43,0" concept="9" trace="EditorComponentParameterReference$yx" />
+      <node id="6733065834259451808" at="18,0,20,0" concept="1" trace="typeof_EditorComponentParameterReference_InferenceRule#()V" />
+      <node id="6733065834259451808" at="27,0,30,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6733065834259451808" at="30,0,33,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6733065834259451808" at="33,0,36,0" concept="5" trace="overrides#()Z" />
+      <node id="6733065834259452303" at="20,122,25,5" concept="0" />
+      <node id="6733065834259451808" at="20,0,27,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6733065834259451808" at="18,67,18,67" />
+      <scope id="6733065834259451808" at="27,50,28,57" />
+      <scope id="6733065834259451808" at="30,68,31,102" />
+      <scope id="6733065834259451808" at="33,30,34,17" />
+      <scope id="6733065834259451808" at="18,0,20,0" />
+      <scope id="6733065834259452303" at="21,5,24,452">
+        <var name="_info_12389875345" id="6733065834259452303" />
+        <var name="_nodeToCheck_1029348928467" id="6733065834259452303" />
+      </scope>
+      <scope id="6733065834259451808" at="27,0,30,0" />
+      <scope id="6733065834259451808" at="30,0,33,0">
+        <var name="argument" id="6733065834259451808" />
+      </scope>
+      <scope id="6733065834259451808" at="33,0,36,0" />
+      <scope id="6733065834259451809" at="20,122,25,5" />
+      <scope id="6733065834259451808" at="20,0,27,0">
+        <var name="reference" id="6733065834259451808" />
+        <var name="status" id="6733065834259451808" />
+        <var name="typeCheckingContext" id="6733065834259451808" />
+      </scope>
+      <unit id="6733065834259451808" at="37,0,40,0" name="de.slisson.mps.conditionalEditor.typesystem.typeof_EditorComponentParameterReference_InferenceRule$LINKS" />
+      <unit id="6733065834259451808" at="41,0,44,0" name="de.slisson.mps.conditionalEditor.typesystem.typeof_EditorComponentParameterReference_InferenceRule$CONCEPTS" />
+      <unit id="6733065834259451808" at="17,0,45,0" name="de.slisson.mps.conditionalEditor.typesystem.typeof_EditorComponentParameterReference_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:07a258ed-205c-42a3-9726-4c3be6c4d01d(de.slisson.mps.conditionalEditor.typesystem)/6733065834259453621">
+    <file name="TypesystemDescriptor.java">
+      <node id="6733065834259453621" at="11,5,12,105" concept="6" />
+      <node id="6733065834259453621" at="12,105,13,47" concept="2" />
+      <node id="6733065834259453621" at="10,33,14,5" concept="0" />
+      <scope id="6733065834259453621" at="11,5,13,47">
+        <var name="inferenceRule" id="6733065834259453621" />
+      </scope>
+    </file>
+    <file name="typeof_CellModel_ComponentWithParameters_InferenceRule.java">
+      <node id="6733065834259475667" at="23,122,24,146" concept="6" />
+      <node id="6733065834259486474" at="24,146,25,89" concept="6" />
+      <node id="2142493554511118353" at="27,7,28,90" concept="6" />
+      <node id="2142493554511118353" at="28,90,29,211" concept="6" />
+      <node id="2142493554511118353" at="29,211,30,466" concept="2" />
+      <node id="6733065834259453621" at="34,50,35,57" concept="7" />
+      <node id="6733065834259453621" at="37,68,38,102" concept="7" />
+      <node id="6733065834259453621" at="40,30,41,17" concept="7" />
+      <node id="6733065834259453621" at="45,0,46,0" concept="9" trace="editorComponent$DNa7" />
+      <node id="6733065834259453621" at="46,0,47,0" concept="9" trace="parameters$FQGb" />
+      <node id="6733065834259453621" at="47,0,48,0" concept="9" trace="arguments$yJDw" />
+      <node id="6733065834259453621" at="51,0,52,0" concept="9" trace="CellModel_ComponentWithParameters$qP" />
+      <node id="6733065834259453621" at="21,0,23,0" concept="1" trace="typeof_CellModel_ComponentWithParameters_InferenceRule#()V" />
+      <node id="6733065834259453621" at="34,0,37,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6733065834259453621" at="37,0,40,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6733065834259453621" at="40,0,43,0" concept="5" trace="overrides#()Z" />
+      <node id="2142493554511118353" at="26,72,31,7" concept="0" />
+      <node id="6733065834259490979" at="25,89,32,5" concept="3" />
+      <node id="6733065834259453621" at="23,0,34,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6733065834259453621" at="21,67,21,67" />
+      <scope id="6733065834259453621" at="34,50,35,57" />
+      <scope id="6733065834259453621" at="37,68,38,102" />
+      <scope id="6733065834259453621" at="40,30,41,17" />
+      <scope id="6733065834259453621" at="21,0,23,0" />
+      <scope id="2142493554511118353" at="27,7,30,466">
+        <var name="_info_12389875345" id="2142493554511118353" />
+        <var name="_nodeToCheck_1029348928467" id="2142493554511118353" />
+      </scope>
+      <scope id="6733065834259453621" at="34,0,37,0" />
+      <scope id="6733065834259453621" at="37,0,40,0">
+        <var name="argument" id="6733065834259453621" />
+      </scope>
+      <scope id="6733065834259453621" at="40,0,43,0" />
+      <scope id="6733065834259490981" at="26,72,31,7" />
+      <scope id="6733065834259490979" at="25,89,32,5">
+        <var name="i" id="6733065834259490982" />
+      </scope>
+      <scope id="6733065834259453622" at="23,122,32,5">
+        <var name="arguments" id="6733065834259486475" />
+        <var name="parameters" id="6733065834259475668" />
+      </scope>
+      <scope id="6733065834259453621" at="23,0,34,0">
+        <var name="cellModel" id="6733065834259453621" />
+        <var name="status" id="6733065834259453621" />
+        <var name="typeCheckingContext" id="6733065834259453621" />
+      </scope>
+      <unit id="6733065834259453621" at="50,0,53,0" name="de.slisson.mps.conditionalEditor.typesystem.typeof_CellModel_ComponentWithParameters_InferenceRule$CONCEPTS" />
+      <unit id="6733065834259453621" at="44,0,49,0" name="de.slisson.mps.conditionalEditor.typesystem.typeof_CellModel_ComponentWithParameters_InferenceRule$LINKS" />
+      <unit id="6733065834259453621" at="20,0,54,0" name="de.slisson.mps.conditionalEditor.typesystem.typeof_CellModel_ComponentWithParameters_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:07a258ed-205c-42a3-9726-4c3be6c4d01d(de.slisson.mps.conditionalEditor.typesystem)/6733065834260004276">
+    <file name="TypesystemDescriptor.java">
+      <node id="6733065834260004276" at="23,5,24,116" concept="6" />
+      <node id="6733065834260004276" at="24,116,25,55" concept="2" />
+      <node id="6733065834260004276" at="22,5,26,5" concept="0" />
+      <scope id="6733065834260004276" at="23,5,25,55">
+        <var name="nonTypesystemRule" id="6733065834260004276" />
+      </scope>
+    </file>
+    <file name="check_CellModel_ComponentWithParameters_NonTypesystemRule.java">
+      <node id="6733065834260005238" at="26,122,27,146" concept="6" />
+      <node id="6733065834260005246" at="27,146,28,89" concept="6" />
+      <node id="1452226863091408813" at="28,89,29,0" concept="8" />
+      <node id="1452226863091461173" at="31,7,32,97" concept="6" />
+      <node id="1452226863091461173" at="32,97,33,346" concept="6" />
+      <node id="6733065834260049702" at="38,11,39,70" concept="6" />
+      <node id="6733065834260049702" at="39,70,40,438" concept="6" />
+      <node id="1452226863091262610" at="44,5,45,0" concept="8" />
+      <node id="6733065834260004276" at="47,50,48,57" concept="7" />
+      <node id="6733065834260004276" at="50,68,51,102" concept="7" />
+      <node id="6733065834260004276" at="53,30,54,17" concept="7" />
+      <node id="6733065834260004276" at="58,0,59,0" concept="9" trace="editorComponent$DNa7" />
+      <node id="6733065834260004276" at="59,0,60,0" concept="9" trace="parameters$FQGb" />
+      <node id="6733065834260004276" at="60,0,61,0" concept="9" trace="arguments$yJDw" />
+      <node id="6733065834260004276" at="64,0,65,0" concept="9" trace="CellModel_ComponentWithParameters$qP" />
+      <node id="6733065834260004276" at="24,0,26,0" concept="1" trace="check_CellModel_ComponentWithParameters_NonTypesystemRule#()V" />
+      <node id="6733065834260004276" at="47,0,50,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6733065834260004276" at="50,0,53,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6733065834260004276" at="53,0,56,0" concept="5" trace="overrides#()Z" />
+      <node id="1452226863091461173" at="30,95,34,7" concept="0" />
+      <node id="6733065834260049702" at="37,100,41,11" concept="0" />
+      <node id="6733065834260006253" at="36,114,42,9" concept="4" />
+      <node id="1452226863090877086" at="35,12,43,7" concept="3" />
+      <node id="1452226863091456489" at="35,10,44,5" concept="0" />
+      <node id="1452226863091408935" at="29,0,44,5" concept="4" />
+      <node id="6733065834260004276" at="26,0,47,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6733065834260004276" at="24,70,24,70" />
+      <scope id="6733065834260004276" at="47,50,48,57" />
+      <scope id="6733065834260004276" at="50,68,51,102" />
+      <scope id="6733065834260004276" at="53,30,54,17" />
+      <scope id="6733065834260004276" at="24,0,26,0" />
+      <scope id="1452226863091461173" at="31,7,33,346">
+        <var name="_reporter_2309309498" id="1452226863091461173" />
+        <var name="errorTarget" id="1452226863091461173" />
+      </scope>
+      <scope id="6733065834260049702" at="38,11,40,438">
+        <var name="_reporter_2309309498" id="6733065834260049702" />
+        <var name="errorTarget" id="6733065834260049702" />
+      </scope>
+      <scope id="6733065834260004276" at="47,0,50,0" />
+      <scope id="6733065834260004276" at="50,0,53,0">
+        <var name="argument" id="6733065834260004276" />
+      </scope>
+      <scope id="6733065834260004276" at="53,0,56,0" />
+      <scope id="1452226863091408937" at="30,95,34,7" />
+      <scope id="6733065834260006255" at="37,100,41,11" />
+      <scope id="1452226863090877088" at="36,114,42,9" />
+      <scope id="1452226863090877086" at="35,12,43,7">
+        <var name="i" id="1452226863090877089" />
+      </scope>
+      <scope id="1452226863091456490" at="35,12,43,7" />
+      <scope id="6733065834260004277" at="26,122,45,0">
+        <var name="arguments" id="6733065834260005247" />
+        <var name="parameters" id="6733065834260005239" />
+      </scope>
+      <scope id="6733065834260004276" at="26,0,47,0">
+        <var name="cellModel" id="6733065834260004276" />
+        <var name="status" id="6733065834260004276" />
+        <var name="typeCheckingContext" id="6733065834260004276" />
+      </scope>
+      <unit id="6733065834260004276" at="63,0,66,0" name="de.slisson.mps.conditionalEditor.typesystem.check_CellModel_ComponentWithParameters_NonTypesystemRule$CONCEPTS" />
+      <unit id="6733065834260004276" at="57,0,62,0" name="de.slisson.mps.conditionalEditor.typesystem.check_CellModel_ComponentWithParameters_NonTypesystemRule$LINKS" />
+      <unit id="6733065834260004276" at="23,0,67,0" name="de.slisson.mps.conditionalEditor.typesystem.check_CellModel_ComponentWithParameters_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+

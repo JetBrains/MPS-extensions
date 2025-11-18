@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root nodeRef="r:f0a80b34-9760-42b8-9ee6-d5b0d1582551(de.slisson.mps.conditionalEditor.runtime.plugin)/2877762237606545486">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="2877762237606545486" at="12,0,13,0" concept="2" trace="myId" />
+      <node id="2877762237606545486" at="18,27,19,16" concept="5" />
+      <node id="2877762237606545486" at="14,0,16,0" concept="0" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="2877762237606545486" at="17,0,21,0" concept="3" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="2877762237606545486" at="22,0,26,0" concept="3" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="2877762237606545486" at="14,38,14,38" />
+      <scope id="2877762237606545486" at="18,27,19,16" />
+      <scope id="2877762237606545486" at="23,66,24,60" />
+      <scope id="2877762237606545486" at="14,0,16,0" />
+      <scope id="2877762237606545486" at="17,0,21,0" />
+      <scope id="2877762237606545486" at="22,0,26,0">
+        <var name="parts" id="2877762237606545486" />
+      </scope>
+      <unit id="2877762237606545486" at="11,0,27,0" name="de.slisson.mps.conditionalEditor.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="2877762237606545486" at="10,0,12,0" concept="0" trace="Runtime_ProjectPlugin#()V" />
+      <node id="2877762237606545486" at="12,0,15,0" concept="3" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="2877762237606545486" at="10,34,10,34" />
+      <scope id="2877762237606545486" at="12,62,13,70" />
+      <scope id="2877762237606545486" at="10,0,12,0" />
+      <scope id="2877762237606545486" at="12,0,15,0">
+        <var name="parts" id="2877762237606545486" />
+      </scope>
+      <unit id="2877762237606545486" at="9,0,16,0" name="de.slisson.mps.conditionalEditor.runtime.plugin.Runtime_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:f0a80b34-9760-42b8-9ee6-d5b0d1582551(de.slisson.mps.conditionalEditor.runtime.plugin)/3907193528542331169">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="3907193528542331169" at="23,66,24,60" concept="1" />
+    </file>
+    <file name="conditionEditorAppPlugin_AppPluginPart.java">
+      <node id="3907193528542333613" at="12,22,13,46" concept="1" />
+      <node id="3907193528542333659" at="16,25,17,48" concept="1" />
+      <node id="3907193528542331169" at="9,0,11,0" concept="0" trace="conditionEditorAppPlugin_AppPluginPart#()V" />
+      <node id="3907193528542331169" at="11,0,15,0" concept="3" trace="init#()V" />
+      <node id="3907193528542331169" at="15,0,19,0" concept="3" trace="dispose#()V" />
+      <scope id="3907193528542331169" at="9,51,9,51" />
+      <scope id="3907193528542331213" at="12,22,13,46" />
+      <scope id="3907193528542331231" at="16,25,17,48" />
+      <scope id="3907193528542331169" at="9,0,11,0" />
+      <scope id="3907193528542331169" at="11,0,15,0" />
+      <scope id="3907193528542331169" at="15,0,19,0" />
+      <unit id="3907193528542331169" at="8,0,20,0" name="de.slisson.mps.conditionalEditor.runtime.plugin.conditionEditorAppPlugin_AppPluginPart" />
+    </file>
+  </root>
+  <root nodeRef="r:f0a80b34-9760-42b8-9ee6-d5b0d1582551(de.slisson.mps.conditionalEditor.runtime.plugin)/9082549093293954612">
+    <file name="Runtime_ProjectPlugin.java">
+      <node id="9082549093293954612" at="12,62,13,70" concept="1" />
+    </file>
+    <file name="conditionalEditorProjectPlugin_ProjectPluginPart.java">
+      <node id="9082549093293987125" at="15,40,16,48" concept="6" />
+      <node id="9082549093293969823" at="16,48,17,144" concept="4" />
+      <node id="9082549093293972311" at="17,144,18,87" concept="4" />
+      <node id="9082549093293973620" at="18,87,19,55" concept="4" />
+      <node id="6338417463210869686" at="19,55,20,0" concept="7" />
+      <node id="6338417463210866829" at="20,0,21,100" concept="6" />
+      <node id="6338417463210868869" at="21,100,22,28" concept="6" />
+      <node id="9082549093293959603" at="22,28,23,111" concept="1" />
+      <node id="6338417463210870193" at="23,111,24,0" concept="7" />
+      <node id="6338417463210872364" at="24,0,25,97" concept="6" />
+      <node id="6338417463210874144" at="25,97,26,109" concept="6" />
+      <node id="6338417463210876154" at="26,109,27,18" concept="6" />
+      <node id="2669483033691525186" at="27,18,28,128" concept="1" />
+      <node id="6338417463210871651" at="28,128,29,0" concept="7" />
+      <node id="9082549093293981943" at="29,0,30,40" concept="1" />
+      <node id="9082549093293983968" at="30,40,31,39" concept="1" />
+      <node id="9082549093293954612" at="12,0,14,0" concept="0" trace="conditionalEditorProjectPlugin_ProjectPluginPart#()V" />
+      <node id="9082549093293954612" at="14,0,33,0" concept="3" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <scope id="9082549093293954612" at="12,61,12,61" />
+      <scope id="9082549093293954612" at="12,0,14,0" />
+      <scope id="9082549093293954649" at="15,40,31,39">
+        <var name="enabledHints" id="9082549093293973621" />
+        <var name="settingsComponent" id="9082549093293969824" />
+        <var name="state" id="9082549093293972312" />
+      </scope>
+      <scope id="9082549093293954612" at="14,0,33,0">
+        <var name="project" id="9082549093293954612" />
+      </scope>
+      <unit id="9082549093293954612" at="11,0,34,0" name="de.slisson.mps.conditionalEditor.runtime.plugin.conditionalEditorProjectPlugin_ProjectPluginPart" />
+    </file>
+  </root>
+</debug-info>
+

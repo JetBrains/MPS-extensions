@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="DataFlowAspectDescriptorImpl.java">
+      <unit at="15,0,30,0" name="de.itemis.model.merge.baselang.dataFlow.DataFlowAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:3d64133b-14e3-4b17-a35c-cd5d222705a7(de.itemis.model.merge.baselang.dataFlow)/4397402233661251819">
+    <file name="ModelMergerExpression_DataFlow.java">
+      <node id="4397402233661252277" at="13,60,14,104" concept="0" />
+      <node id="4397402233661253996" at="14,104,15,105" concept="0" />
+      <node id="4397402233661254368" at="15,105,16,110" concept="0" />
+      <node id="4397402233661251819" at="20,0,21,0" concept="2" trace="left$iSP_" />
+      <node id="4397402233661251819" at="21,0,22,0" concept="2" trace="right$IiBo" />
+      <node id="4397402233661251819" at="22,0,23,0" concept="2" trace="modelMerge$IofK" />
+      <node id="4397402233661251819" at="13,0,18,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="4397402233661251821" at="13,60,16,110" />
+      <scope id="4397402233661251819" at="13,0,18,0">
+        <var name="_context" id="4397402233661251819" />
+      </scope>
+      <unit id="4397402233661251819" at="19,0,24,0" name="de.itemis.model.merge.baselang.dataFlow.ModelMergerExpression_DataFlow$LINKS" />
+      <unit id="4397402233661251819" at="12,0,25,0" name="de.itemis.model.merge.baselang.dataFlow.ModelMergerExpression_DataFlow" />
+    </file>
+  </root>
+</debug-info>
+

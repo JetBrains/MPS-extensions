@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,38,0" name="de.slisson.mps.reflection.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:50c89746-46d9-462f-8636-0bc525dc0b4c(de.slisson.mps.reflection.constraints)/8473566765275863270">
+    <file name="ReflectionFieldAccess_Constraints.java">
+      <node id="8473566765275863270" at="35,95,36,58" concept="8" />
+      <node id="8473566765275863322" at="36,58,37,26" concept="1" />
+      <node id="8473566765275863322" at="41,54,42,65" concept="8" />
+      <node id="8473566765275863322" at="49,61,50,138" concept="5" />
+      <node id="6646476627295593318" at="53,78,54,142" concept="1" />
+      <node id="6646476627295593324" at="54,142,55,250" concept="4" />
+      <node id="6646476627295593332" at="55,250,56,171" concept="4" />
+      <node id="6646476627295593342" at="57,91,58,36" concept="5" />
+      <node id="6646476627295593350" at="59,11,60,54" concept="4" />
+      <node id="6646476627295593356" at="60,54,61,403" concept="5" />
+      <node id="8473566765275863270" at="68,0,69,0" concept="7" trace="ReflectionFieldAccess$ZV" />
+      <node id="8473566765275863270" at="69,0,70,0" concept="7" trace="DotExpression$yW" />
+      <node id="8473566765275863270" at="70,0,71,0" concept="7" trace="ClassifierType$bL" />
+      <node id="8473566765275863270" at="71,0,72,0" concept="7" trace="FieldDeclaration$ie" />
+      <node id="8473566765275863270" at="75,0,76,0" concept="7" trace="fieldDeclaration$7Fmh" />
+      <node id="8473566765275863270" at="76,0,77,0" concept="7" trace="operand$w6IR" />
+      <node id="8473566765275863270" at="77,0,78,0" concept="7" trace="classifier$cxMr" />
+      <node id="8473566765275863270" at="81,0,82,0" concept="7" trace="name$MnvL" />
+      <node id="8473566765275863322" at="41,0,44,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6646476627295593340" at="56,171,59,11" concept="2" />
+      <node id="8473566765275863270" at="35,0,39,0" concept="0" trace="ReflectionFieldAccess_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="8473566765275863322" at="48,0,52,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8473566765275863322" at="52,0,63,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="8473566765275863322" at="46,54,63,8" concept="5" />
+      <node id="8473566765275863322" at="44,0,65,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="8473566765275863322" at="41,54,42,65" />
+      <scope id="8473566765275863322" at="49,61,50,138" />
+      <scope id="6646476627295593341" at="57,91,58,36" />
+      <scope id="8473566765275863270" at="35,95,37,26" />
+      <scope id="8473566765275863322" at="41,0,44,0">
+        <var name="container" id="8473566765275863322" />
+      </scope>
+      <scope id="8473566765275863270" at="35,0,39,0">
+        <var name="initContext" id="8473566765275863270" />
+      </scope>
+      <scope id="8473566765275863322" at="48,0,52,0" />
+      <scope id="8473566765275863322" at="53,78,61,403">
+        <var name="classifierType" id="6646476627295593333" />
+        <var name="fields" id="6646476627295593351" />
+        <var name="instance" id="6646476627295593325" />
+      </scope>
+      <scope id="8473566765275863322" at="52,0,63,0">
+        <var name="_context" id="8473566765275863322" />
+      </scope>
+      <scope id="8473566765275863322" at="46,54,63,8" />
+      <scope id="8473566765275863322" at="44,0,65,0" />
+      <unit id="8473566765275863270" at="80,0,83,0" name="de.slisson.mps.reflection.constraints.ReflectionFieldAccess_Constraints$PROPS" />
+      <unit id="8473566765275863270" at="74,0,79,0" name="de.slisson.mps.reflection.constraints.ReflectionFieldAccess_Constraints$LINKS" />
+      <unit id="8473566765275863270" at="67,0,73,0" name="de.slisson.mps.reflection.constraints.ReflectionFieldAccess_Constraints$CONCEPTS" />
+      <unit id="8473566765275863322" at="47,17,63,7" name="de.slisson.mps.reflection.constraints.ReflectionFieldAccess_Constraints$RD1$1" />
+      <unit id="8473566765275863322" at="40,0,66,0" name="de.slisson.mps.reflection.constraints.ReflectionFieldAccess_Constraints$RD1" />
+      <unit id="8473566765275863270" at="34,0,84,0" name="de.slisson.mps.reflection.constraints.ReflectionFieldAccess_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:50c89746-46d9-462f-8636-0bc525dc0b4c(de.slisson.mps.reflection.constraints)/8473566765277575576">
+    <file name="ReflectionMethodCall_Constraints.java">
+      <node id="8473566765277575576" at="32,94,33,57" concept="8" />
+      <node id="8473566765277575628" at="33,57,34,26" concept="1" />
+      <node id="8473566765277575628" at="38,54,39,70" concept="8" />
+      <node id="8473566765277575628" at="46,61,47,138" concept="5" />
+      <node id="6646476627295593549" at="50,78,51,165" concept="4" />
+      <node id="6646476627295593425" at="52,90,53,36" concept="5" />
+      <node id="6646476627295593433" at="54,11,55,137" concept="4" />
+      <node id="6646476627295593441" at="55,137,56,171" concept="4" />
+      <node id="6646476627295593451" at="57,91,58,36" concept="5" />
+      <node id="2880021189786479434" at="59,11,60,282" concept="4" />
+      <node id="6646476627295593459" at="60,282,61,272" concept="5" />
+      <node id="8473566765277575576" at="68,0,69,0" concept="7" trace="ReflectionMethodCall$HG" />
+      <node id="8473566765277575576" at="69,0,70,0" concept="7" trace="DotExpression$yW" />
+      <node id="8473566765277575576" at="70,0,71,0" concept="7" trace="ClassifierType$bL" />
+      <node id="8473566765277575576" at="71,0,72,0" concept="7" trace="Classifier$Ix" />
+      <node id="8473566765277575576" at="72,0,73,0" concept="7" trace="InstanceMethodDeclaration$39" />
+      <node id="8473566765277575576" at="76,0,77,0" concept="7" trace="baseMethodDeclaration$pyYw" />
+      <node id="8473566765277575576" at="77,0,78,0" concept="7" trace="operand$w6IR" />
+      <node id="8473566765277575576" at="78,0,79,0" concept="7" trace="classifier$cxMr" />
+      <node id="8473566765277575628" at="38,0,41,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6646476627295593423" at="51,165,54,11" concept="2" />
+      <node id="6646476627295593449" at="56,171,59,11" concept="2" />
+      <node id="8473566765277575576" at="32,0,36,0" concept="0" trace="ReflectionMethodCall_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="8473566765277575628" at="45,0,49,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8473566765277575628" at="49,0,63,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="8473566765277575628" at="43,54,63,8" concept="5" />
+      <node id="8473566765277575628" at="41,0,65,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="8473566765277575628" at="38,54,39,70" />
+      <scope id="8473566765277575628" at="46,61,47,138" />
+      <scope id="6646476627295593424" at="52,90,53,36" />
+      <scope id="6646476627295593450" at="57,91,58,36" />
+      <scope id="8473566765277575576" at="32,94,34,26" />
+      <scope id="8473566765277575628" at="38,0,41,0">
+        <var name="container" id="8473566765277575628" />
+      </scope>
+      <scope id="8473566765277575576" at="32,0,36,0">
+        <var name="initContext" id="8473566765277575576" />
+      </scope>
+      <scope id="8473566765277575628" at="45,0,49,0" />
+      <scope id="8473566765277575628" at="50,78,61,272">
+        <var name="classifierType" id="6646476627295593442" />
+        <var name="enclosingNode" id="6646476627295593550" />
+        <var name="instance" id="6646476627295593434" />
+        <var name="visibleMembers" id="2880021189786479435" />
+      </scope>
+      <scope id="8473566765277575628" at="49,0,63,0">
+        <var name="_context" id="8473566765277575628" />
+      </scope>
+      <scope id="8473566765277575628" at="43,54,63,8" />
+      <scope id="8473566765277575628" at="41,0,65,0" />
+      <unit id="8473566765277575576" at="75,0,80,0" name="de.slisson.mps.reflection.constraints.ReflectionMethodCall_Constraints$LINKS" />
+      <unit id="8473566765277575576" at="67,0,74,0" name="de.slisson.mps.reflection.constraints.ReflectionMethodCall_Constraints$CONCEPTS" />
+      <unit id="8473566765277575628" at="44,17,63,7" name="de.slisson.mps.reflection.constraints.ReflectionMethodCall_Constraints$RD1$1" />
+      <unit id="8473566765277575628" at="37,0,66,0" name="de.slisson.mps.reflection.constraints.ReflectionMethodCall_Constraints$RD1" />
+      <unit id="8473566765277575576" at="31,0,81,0" name="de.slisson.mps.reflection.constraints.ReflectionMethodCall_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:50c89746-46d9-462f-8636-0bc525dc0b4c(de.slisson.mps.reflection.constraints)/8520162698482894234">
+    <file name="ReflectionStaticMethodCall_Constraints.java">
+      <node id="8520162698482894234" at="30,100,31,63" concept="8" />
+      <node id="1213104837311" at="31,63,32,26" concept="1" />
+      <node id="1213104837311" at="36,54,37,70" concept="8" />
+      <node id="1213104837311" at="44,61,45,138" concept="5" />
+      <node id="6646476627295593248" at="49,115,50,36" concept="5" />
+      <node id="6646476627295593258" at="52,166,53,36" concept="5" />
+      <node id="6646476627295593268" at="54,11,55,0" concept="6" />
+      <node id="6646476627295593269" at="55,0,56,238" concept="4" />
+      <node id="6646476627295593279" at="56,238,57,535" concept="5" />
+      <node id="6646476627295593315" at="57,535,58,0" concept="6" />
+      <node id="8520162698482894234" at="65,0,66,0" concept="7" trace="ReflectionStaticMethodCall$fo" />
+      <node id="8520162698482894234" at="66,0,67,0" concept="7" trace="StaticMethodDeclaration$FJ" />
+      <node id="8520162698482894234" at="70,0,71,0" concept="7" trace="baseMethodDeclaration$pyYw" />
+      <node id="8520162698482894234" at="71,0,72,0" concept="7" trace="classConcept$HYbK" />
+      <node id="1213104837311" at="36,0,39,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6646476627295593246" at="48,78,51,11" concept="2" />
+      <node id="6646476627295593256" at="51,11,54,11" concept="2" />
+      <node id="8520162698482894234" at="30,0,34,0" concept="0" trace="ReflectionStaticMethodCall_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="1213104837311" at="43,0,47,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1213104837311" at="47,0,60,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1213104837311" at="41,54,60,8" concept="5" />
+      <node id="1213104837311" at="39,0,62,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="1213104837311" at="36,54,37,70" />
+      <scope id="1213104837311" at="44,61,45,138" />
+      <scope id="6646476627295593247" at="49,115,50,36" />
+      <scope id="6646476627295593257" at="52,166,53,36" />
+      <scope id="8520162698482894234" at="30,100,32,26" />
+      <scope id="1213104837311" at="36,0,39,0">
+        <var name="container" id="1213104837311" />
+      </scope>
+      <scope id="8520162698482894234" at="30,0,34,0">
+        <var name="initContext" id="8520162698482894234" />
+      </scope>
+      <scope id="1213104837311" at="43,0,47,0" />
+      <scope id="1213104837311" at="48,78,58,0">
+        <var name="classifierType" id="6646476627295593270" />
+      </scope>
+      <scope id="1213104837311" at="47,0,60,0">
+        <var name="_context" id="1213104837311" />
+      </scope>
+      <scope id="1213104837311" at="41,54,60,8" />
+      <scope id="1213104837311" at="39,0,62,0" />
+      <unit id="8520162698482894234" at="64,0,68,0" name="de.slisson.mps.reflection.constraints.ReflectionStaticMethodCall_Constraints$CONCEPTS" />
+      <unit id="8520162698482894234" at="69,0,73,0" name="de.slisson.mps.reflection.constraints.ReflectionStaticMethodCall_Constraints$LINKS" />
+      <unit id="1213104837311" at="42,17,60,7" name="de.slisson.mps.reflection.constraints.ReflectionStaticMethodCall_Constraints$RD1$1" />
+      <unit id="1213104837311" at="35,0,63,0" name="de.slisson.mps.reflection.constraints.ReflectionStaticMethodCall_Constraints$RD1" />
+      <unit id="8520162698482894234" at="29,0,74,0" name="de.slisson.mps.reflection.constraints.ReflectionStaticMethodCall_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:50c89746-46d9-462f-8636-0bc525dc0b4c(de.slisson.mps.reflection.constraints)/8520162698483668968">
+    <file name="ReflectionStaticFieldReference_Constraints.java">
+      <node id="8520162698483668968" at="30,104,31,67" concept="8" />
+      <node id="1213104847360" at="31,67,32,26" concept="1" />
+      <node id="1213104847360" at="36,54,37,68" concept="8" />
+      <node id="1213104847360" at="44,61,45,138" concept="5" />
+      <node id="6646476627295593189" at="48,78,49,153" concept="4" />
+      <node id="6646476627295593199" at="50,37,51,36" concept="5" />
+      <node id="6646476627295593205" at="52,11,53,0" concept="6" />
+      <node id="6646476627295593206" at="53,0,54,109" concept="4" />
+      <node id="6646476627295593212" at="54,109,55,409" concept="5" />
+      <node id="8520162698483668968" at="62,0,63,0" concept="7" trace="ReflectionStaticFieldReference$Fb" />
+      <node id="8520162698483668968" at="63,0,64,0" concept="7" trace="Classifier$Ix" />
+      <node id="8520162698483668968" at="64,0,65,0" concept="7" trace="StaticFieldDeclaration$jR" />
+      <node id="8520162698483668968" at="68,0,69,0" concept="7" trace="variableDeclaration$N1XG" />
+      <node id="8520162698483668968" at="69,0,70,0" concept="7" trace="classifier$6osp" />
+      <node id="1213104847360" at="36,0,39,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6646476627295593197" at="49,153,52,11" concept="2" />
+      <node id="8520162698483668968" at="30,0,34,0" concept="0" trace="ReflectionStaticFieldReference_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="1213104847360" at="43,0,47,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1213104847360" at="47,0,57,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1213104847360" at="41,54,57,8" concept="5" />
+      <node id="1213104847360" at="39,0,59,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="1213104847360" at="36,54,37,68" />
+      <scope id="1213104847360" at="44,61,45,138" />
+      <scope id="6646476627295593198" at="50,37,51,36" />
+      <scope id="8520162698483668968" at="30,104,32,26" />
+      <scope id="1213104847360" at="36,0,39,0">
+        <var name="container" id="1213104847360" />
+      </scope>
+      <scope id="8520162698483668968" at="30,0,34,0">
+        <var name="initContext" id="8520162698483668968" />
+      </scope>
+      <scope id="1213104847360" at="43,0,47,0" />
+      <scope id="1213104847360" at="48,78,55,409">
+        <var name="classifier" id="6646476627295593190" />
+        <var name="classifierType" id="6646476627295593207" />
+      </scope>
+      <scope id="1213104847360" at="47,0,57,0">
+        <var name="_context" id="1213104847360" />
+      </scope>
+      <scope id="1213104847360" at="41,54,57,8" />
+      <scope id="1213104847360" at="39,0,59,0" />
+      <unit id="8520162698483668968" at="67,0,71,0" name="de.slisson.mps.reflection.constraints.ReflectionStaticFieldReference_Constraints$LINKS" />
+      <unit id="8520162698483668968" at="61,0,66,0" name="de.slisson.mps.reflection.constraints.ReflectionStaticFieldReference_Constraints$CONCEPTS" />
+      <unit id="1213104847360" at="42,17,57,7" name="de.slisson.mps.reflection.constraints.ReflectionStaticFieldReference_Constraints$RD1$1" />
+      <unit id="1213104847360" at="35,0,60,0" name="de.slisson.mps.reflection.constraints.ReflectionStaticFieldReference_Constraints$RD1" />
+      <unit id="8520162698483668968" at="29,0,72,0" name="de.slisson.mps.reflection.constraints.ReflectionStaticFieldReference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

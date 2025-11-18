@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="bbp7g07fvc4fxrze57d21uis6d4bat">
+  <files names="BuilderExpression_DataFlow.java:CSCase_DataFlow.java:CSDefault_DataFlow.java:ChildRefExpr_DataFlow.java:ChildStep_DataFlow.java:ConceptSwitchStatement_DataFlow.java:DataFlowAspectDescriptorImpl.java:ExpressionChildValue_DataFlow.java:IfInstanceOfElseIfClause_DataFlow.java:IfInstanceOfStatement_DataFlow.java:LogExpr_DataFlow.java:MatchStatement_DataFlow.java:RefStep_DataFlow.java:SafeReadAction_DataFlow.java:SafeWriteAction_DataFlow.java:SimplePropertyStep_DataFlow.java:TypeSwitchCaseMappingContainer_DataFlow.java:TypeSwitchCaseMapping_DataFlow.java:TypeSwitchCase_DataFlow.java:TypeSwitchDefault_DataFlow.java:TypeSwitchVariableReference_DataFlow.java:TypeSwitch_DataFlow.java" />
+</product>
+

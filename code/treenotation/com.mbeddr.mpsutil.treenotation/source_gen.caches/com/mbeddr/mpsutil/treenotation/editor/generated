@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="7u1ur15e8gozcrq5u21g8p16ioymg6b">
+  <files names="AbstractTreeLayout_Editor.java:AbstractTreeLayout_EditorBuilder_a.java:ConditionalShape_Editor.java:ConditionalShape_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:GenericInsertHandler_Editor.java:GenericInsertHandler_EditorBuilder_a.java:IncomingShapeStyle_Editor.java:IncomingShapeStyle_EditorBuilder_a.java:ShapeParameterDeclaration_Editor.java:ShapeParameterDeclaration_EditorBuilder_a.java:ShapeParameterReference_Editor.java:ShapeParameterReference_EditorBuilder_a.java:ShapeParameterReference_SubstituteMenu.java:ShapeReference_Editor.java:ShapeReference_EditorBuilder_a.java:ShapeReference_SubstituteMenu.java:Shape_Editor.java:Shape_EditorBuilder_a.java:SimpleInsertHandler_Editor.java:SimpleInsertHandler_EditorBuilder_a.java:SubconceptsInsertHandler_Editor.java:SubconceptsInsertHandler_EditorBuilder_a.java:TreeCell_Editor.java:TreeCell_EditorBuilder_a.java:TreeCell_InspectorBuilder_a.java" />
+</product>
+

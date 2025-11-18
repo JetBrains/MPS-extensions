@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="8,0,13,0" name="de.q60.mps.virtualinterfaces.plugin.ExtensionDescriptor" />
+    </file>
+    <file name="IconContainer.java">
+      <unit at="8,0,12,0" name="de.q60.mps.virtualinterfaces.plugin.IconContainer" />
+    </file>
+  </root>
+  <root nodeRef="r:bea87b10-91ab-4e60-8dd3-efe0c4c17113(de.q60.mps.virtualinterfaces.plugin)/6594016813168335467">
+    <file name="LanguageAspectsEP_extension.java">
+      <node id="6594016813168335467" at="18,40,19,57" concept="4" />
+      <node id="6594016813168335467" at="26,55,27,179" concept="3" />
+      <node id="6594016813168335467" at="30,45,31,40" concept="3" />
+      <node id="6594016813168335467" at="18,0,21,0" concept="1" trace="LanguageAspectsEP_extension#()V" />
+      <node id="6594016813168335467" at="29,0,33,0" concept="2" trace="getIconResource#()Ljetbrains/mps/smodel/runtime/IconResource;" />
+      <node id="6594016813168335467" at="24,0,29,0" concept="2" trace="getMainLanguages#()Ljava/util/Collection;" />
+      <node id="6594016813168335467" at="21,41,33,6" concept="3" />
+      <node id="6594016813168335467" at="21,0,35,0" concept="0" trace="get#()Ljetbrains/mps/smodel/language/LanguageAspectDescriptor;" />
+      <scope id="6594016813168335467" at="18,40,19,57" />
+      <scope id="6594016813168335467" at="26,55,27,179" />
+      <scope id="6594016813168335467" at="30,45,31,40" />
+      <scope id="6594016813168335467" at="18,0,21,0" />
+      <scope id="6594016813168335467" at="29,0,33,0" />
+      <scope id="6594016813168335467" at="24,0,29,0" />
+      <scope id="6594016813168335467" at="21,41,33,6" />
+      <scope id="6594016813168335467" at="21,0,35,0" />
+      <unit id="6594016813168335467" at="22,15,33,5" name="de.q60.mps.virtualinterfaces.plugin.LanguageAspectsEP_extension$1" />
+      <unit id="6594016813168335467" at="17,0,36,0" name="de.q60.mps.virtualinterfaces.plugin.LanguageAspectsEP_extension" />
+    </file>
+  </root>
+</debug-info>
+

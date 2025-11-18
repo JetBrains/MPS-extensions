@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="80k70146mmrh1hjrhixx05yeyigm28d">
+  <files names="TypesystemDescriptor.java:addGrammarRule_QuickFix.java:check_GrammarCellsTransformationMenuPart_NonTypesystemRule.java:check_IActionGeneratingCell_NonTypesystemRule.java:check_IRequiresRules_NonTypesystemRule.java:check_OptionalCell_NonTypesystemRule.java:componentCellInlineWarning_NonTypesystemRule.java:componentInlineWarning_NonTypesystemRule.java:fix_dependencyOnLangCore_QuickFix.java:typeof_CellBasedRule_InferenceRule.java:typeof_ConceptEditorClassReference_InferenceRule.java:typeof_InlineActionMapItem_Param_node_InferenceRule.java:typeof_SubconceptExpression_InferenceRule.java" />
+</product>
+

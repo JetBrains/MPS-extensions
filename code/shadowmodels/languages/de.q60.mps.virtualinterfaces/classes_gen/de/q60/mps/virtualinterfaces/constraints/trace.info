@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,40,0" name="de.q60.mps.virtualinterfaces.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:abe74dea-5280-4d98-89ca-875eef0bf885(de.q60.mps.virtualinterfaces.constraints)/2031504182168904712">
+    <file name="ImplementsOperation_Constraints.java">
+      <node id="2031504182168904712" at="11,93,12,56" concept="9" />
+      <node id="2031504182168904712" at="16,0,17,0" concept="7" trace="ImplementsOperation$Pf" />
+      <node id="2031504182168904712" at="11,0,14,0" concept="0" trace="ImplementsOperation_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="2031504182168904712" at="11,93,12,56" />
+      <scope id="2031504182168904712" at="11,0,14,0">
+        <var name="initContext" id="2031504182168904712" />
+      </scope>
+      <unit id="2031504182168904712" at="15,0,18,0" name="de.q60.mps.virtualinterfaces.constraints.ImplementsOperation_Constraints$CONCEPTS" />
+      <unit id="2031504182168904712" at="10,0,19,0" name="de.q60.mps.virtualinterfaces.constraints.ImplementsOperation_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:abe74dea-5280-4d98-89ca-875eef0bf885(de.q60.mps.virtualinterfaces.constraints)/2031504182168975376">
+    <file name="VirtualMethodCallOperation_Constraints.java">
+      <node id="2031504182168975376" at="11,100,12,63" concept="9" />
+      <node id="2031504182168975376" at="16,0,17,0" concept="7" trace="VirtualMethodCallOperation$dc" />
+      <node id="2031504182168975376" at="11,0,14,0" concept="0" trace="VirtualMethodCallOperation_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="2031504182168975376" at="11,100,12,63" />
+      <scope id="2031504182168975376" at="11,0,14,0">
+        <var name="initContext" id="2031504182168975376" />
+      </scope>
+      <unit id="2031504182168975376" at="15,0,18,0" name="de.q60.mps.virtualinterfaces.constraints.VirtualMethodCallOperation_Constraints$CONCEPTS" />
+      <unit id="2031504182168975376" at="10,0,19,0" name="de.q60.mps.virtualinterfaces.constraints.VirtualMethodCallOperation_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:abe74dea-5280-4d98-89ca-875eef0bf885(de.q60.mps.virtualinterfaces.constraints)/6594016813169080789">
+    <file name="ParameterReference_Constraints.java">
+      <node id="6594016813169080789" at="25,92,26,55" concept="9" />
+      <node id="6594016813169080790" at="26,55,27,26" concept="1" />
+      <node id="6594016813169080790" at="31,54,32,53" concept="9" />
+      <node id="6594016813169080790" at="39,61,40,141" concept="5" />
+      <node id="6594016813169100850" at="43,78,44,203" concept="5" />
+      <node id="6594016813169080789" at="51,0,52,0" concept="7" trace="ParameterReference$3V" />
+      <node id="6594016813169080789" at="52,0,53,0" concept="7" trace="MethodImplementation$jp" />
+      <node id="6594016813169080789" at="56,0,57,0" concept="7" trace="decl$4qLG" />
+      <node id="6594016813169080789" at="57,0,58,0" concept="7" trace="parameters$31YV" />
+      <node id="6594016813169080790" at="31,0,34,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6594016813169080789" at="25,0,29,0" concept="0" trace="ParameterReference_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="6594016813169080790" at="38,0,42,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6594016813169080790" at="42,0,46,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6594016813169080790" at="36,54,46,8" concept="5" />
+      <node id="6594016813169080790" at="34,0,48,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="6594016813169080790" at="31,54,32,53" />
+      <scope id="6594016813169080790" at="39,61,40,141" />
+      <scope id="6594016813169080790" at="43,78,44,203" />
+      <scope id="6594016813169080789" at="25,92,27,26" />
+      <scope id="6594016813169080790" at="31,0,34,0">
+        <var name="container" id="6594016813169080790" />
+      </scope>
+      <scope id="6594016813169080789" at="25,0,29,0">
+        <var name="initContext" id="6594016813169080789" />
+      </scope>
+      <scope id="6594016813169080790" at="38,0,42,0" />
+      <scope id="6594016813169080790" at="42,0,46,0">
+        <var name="_context" id="6594016813169080790" />
+      </scope>
+      <scope id="6594016813169080790" at="36,54,46,8" />
+      <scope id="6594016813169080790" at="34,0,48,0" />
+      <unit id="6594016813169080789" at="50,0,54,0" name="de.q60.mps.virtualinterfaces.constraints.ParameterReference_Constraints$CONCEPTS" />
+      <unit id="6594016813169080789" at="55,0,59,0" name="de.q60.mps.virtualinterfaces.constraints.ParameterReference_Constraints$LINKS" />
+      <unit id="6594016813169080790" at="37,17,46,7" name="de.q60.mps.virtualinterfaces.constraints.ParameterReference_Constraints$RD1$1" />
+      <unit id="6594016813169080790" at="30,0,49,0" name="de.q60.mps.virtualinterfaces.constraints.ParameterReference_Constraints$RD1" />
+      <unit id="6594016813169080789" at="24,0,60,0" name="de.q60.mps.virtualinterfaces.constraints.ParameterReference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:abe74dea-5280-4d98-89ca-875eef0bf885(de.q60.mps.virtualinterfaces.constraints)/6594016813169103633">
+    <file name="MethodImplementation_Constraints.java">
+      <node id="6594016813169103633" at="27,94,28,57" concept="9" />
+      <node id="6594016813169103634" at="28,57,29,26" concept="1" />
+      <node id="6594016813169103634" at="33,54,34,59" concept="9" />
+      <node id="6594016813169103634" at="37,114,38,18" concept="5" />
+      <node id="2031504182168115358" at="42,140,43,246" concept="1" />
+      <node id="6594016813169103634" at="51,61,52,141" concept="5" />
+      <node id="6594016813169103826" at="55,78,56,326" concept="5" />
+      <node id="6594016813169103633" at="63,0,64,0" concept="7" trace="MethodImplementation$jp" />
+      <node id="6594016813169103633" at="64,0,65,0" concept="7" trace="VirtualInterfaceImplementation$TX" />
+      <node id="6594016813169103633" at="65,0,66,0" concept="7" trace="InterfaceMethod$Dy" />
+      <node id="6594016813169103633" at="69,0,70,0" concept="7" trace="declaration$22V_" />
+      <node id="6594016813169103633" at="70,0,71,0" concept="7" trace="parameters$31YV" />
+      <node id="6594016813169103633" at="71,0,72,0" concept="7" trace="parameters$jOQQ" />
+      <node id="6594016813169103633" at="72,0,73,0" concept="7" trace="implementedInterface$uDgH" />
+      <node id="6594016813169103633" at="73,0,74,0" concept="7" trace="content$lGwU" />
+      <node id="6594016813169103634" at="33,0,36,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="2031504182168085283" at="41,117,44,7" concept="2" />
+      <node id="6594016813169103633" at="27,0,31,0" concept="0" trace="MethodImplementation_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="6594016813169103634" at="36,0,40,0" concept="3" trace="validate#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="6594016813169103634" at="50,0,54,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6594016813169103634" at="54,0,58,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6594016813169103634" at="40,0,46,0" concept="3" trace="onReferenceSet#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6594016813169103634" at="48,54,58,8" concept="5" />
+      <node id="6594016813169103634" at="46,0,60,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="6594016813169103634" at="33,54,34,59" />
+      <scope id="6594016813169103634" at="37,114,38,18" />
+      <scope id="2031504182168085285" at="42,140,43,246" />
+      <scope id="6594016813169103634" at="51,61,52,141" />
+      <scope id="6594016813169103634" at="55,78,56,326" />
+      <scope id="6594016813169103633" at="27,94,29,26" />
+      <scope id="6594016813169103634" at="33,0,36,0">
+        <var name="container" id="6594016813169103634" />
+      </scope>
+      <scope id="2031504182168085270" at="41,117,44,7" />
+      <scope id="6594016813169103633" at="27,0,31,0">
+        <var name="initContext" id="6594016813169103633" />
+      </scope>
+      <scope id="6594016813169103634" at="36,0,40,0">
+        <var name="newReferentNode" id="6594016813169103634" />
+        <var name="oldReferentNode" id="6594016813169103634" />
+        <var name="referenceNode" id="6594016813169103634" />
+      </scope>
+      <scope id="6594016813169103634" at="50,0,54,0" />
+      <scope id="6594016813169103634" at="54,0,58,0">
+        <var name="_context" id="6594016813169103634" />
+      </scope>
+      <scope id="6594016813169103634" at="40,0,46,0">
+        <var name="newReferentNode" id="6594016813169103634" />
+        <var name="oldReferentNode" id="6594016813169103634" />
+        <var name="referenceNode" id="6594016813169103634" />
+      </scope>
+      <scope id="6594016813169103634" at="48,54,58,8" />
+      <scope id="6594016813169103634" at="46,0,60,0" />
+      <unit id="6594016813169103633" at="62,0,67,0" name="de.q60.mps.virtualinterfaces.constraints.MethodImplementation_Constraints$CONCEPTS" />
+      <unit id="6594016813169103633" at="68,0,75,0" name="de.q60.mps.virtualinterfaces.constraints.MethodImplementation_Constraints$LINKS" />
+      <unit id="6594016813169103634" at="49,17,58,7" name="de.q60.mps.virtualinterfaces.constraints.MethodImplementation_Constraints$RD1$1" />
+      <unit id="6594016813169103634" at="32,0,61,0" name="de.q60.mps.virtualinterfaces.constraints.MethodImplementation_Constraints$RD1" />
+      <unit id="6594016813169103633" at="26,0,76,0" name="de.q60.mps.virtualinterfaces.constraints.MethodImplementation_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:abe74dea-5280-4d98-89ca-875eef0bf885(de.q60.mps.virtualinterfaces.constraints)/6594016813169202033">
+    <file name="ThisExpression_Constraints.java">
+      <node id="6594016813169202033" at="21,88,22,51" concept="9" />
+      <node id="6594016813169202033" at="25,127,26,128" concept="4" />
+      <node id="6594016813169202033" at="26,128,27,0" concept="6" />
+      <node id="6594016813169202033" at="28,55,29,71" concept="1" />
+      <node id="6594016813169202033" at="30,9,31,0" concept="6" />
+      <node id="6594016813169202033" at="31,0,32,22" concept="5" />
+      <node id="6594016813169202504" at="37,128,38,112" concept="5" />
+      <node id="6594016813169202033" at="40,0,41,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="6594016813169202033" at="43,0,44,0" concept="7" trace="ThisExpression$Rt" />
+      <node id="6594016813169202033" at="44,0,45,0" concept="7" trace="MethodImplementation$jp" />
+      <node id="6594016813169202033" at="27,0,30,9" concept="2" />
+      <node id="6594016813169202033" at="37,0,40,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="6594016813169202033" at="24,0,34,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="6594016813169202033" at="22,51,34,7" concept="1" />
+      <node id="6594016813169202033" at="21,0,36,0" concept="0" trace="ThisExpression_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="6594016813169202033" at="28,55,29,71" />
+      <scope id="6594016813169202035" at="37,128,38,112" />
+      <scope id="6594016813169202033" at="37,0,40,0">
+        <var name="childConcept" id="6594016813169202033" />
+        <var name="link" id="6594016813169202033" />
+        <var name="node" id="6594016813169202033" />
+        <var name="parentNode" id="6594016813169202033" />
+      </scope>
+      <scope id="6594016813169202033" at="25,127,32,22">
+        <var name="result" id="6594016813169202033" />
+      </scope>
+      <scope id="6594016813169202033" at="24,0,34,0">
+        <var name="checkingNodeContext" id="6594016813169202033" />
+        <var name="context" id="6594016813169202033" />
+      </scope>
+      <scope id="6594016813169202033" at="21,88,34,7" />
+      <scope id="6594016813169202033" at="21,0,36,0">
+        <var name="initContext" id="6594016813169202033" />
+      </scope>
+      <unit id="6594016813169202033" at="42,0,46,0" name="de.q60.mps.virtualinterfaces.constraints.ThisExpression_Constraints$CONCEPTS" />
+      <unit id="6594016813169202033" at="23,32,34,5" name="de.q60.mps.virtualinterfaces.constraints.ThisExpression_Constraints$1" />
+      <unit id="6594016813169202033" at="20,0,47,0" name="de.q60.mps.virtualinterfaces.constraints.ThisExpression_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

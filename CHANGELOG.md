@@ -6,11 +6,16 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## November 2025
 
+### Added
+
+- *de.itemis.mps.editor.diagram.runtime* Add an experimental static flag to disable autolayout-on-init. Useful for batch autolayouting.
+
 ### Fixed
 
 - *de.slisson.mps.tables* IllegalArgumentException thrown when copy-paste support is not defined for a table node (#1650).
 - *de.slisson.mps.tables* Textgen warning about duplicate unit name when an editor model contains multiple tables without an action map. 
 - *de.itemis.mps.editor.pagination* A NullPointerException was fixed for cases where the clicked node was null.
+- *de.itemis.mps.spellcheck* Custom dictionaries are not saved in the .mps/dictionaries/project.xml files anymore and pollute the file that is normally used for words saved manually by the user.
 
 ## October 2025
 

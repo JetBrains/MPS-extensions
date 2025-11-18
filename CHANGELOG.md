@@ -6,6 +6,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## November 2025
 
+### Added
+
+- *de.itemis.mps.editor.diagram.runtime* Add an experimental static flag to disable autolayout-on-init. Useful for batch autolayouting.
+
 ### Fixed
 
 - *de.slisson.mps.tables* IllegalArgumentException thrown when copy-paste support is not defined for a table node (#1650).

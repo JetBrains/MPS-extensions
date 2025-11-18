@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="18,0,56,0" name="de.slisson.mps.richtext.intentions.IntentionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fa163aad-8c9b-4361-aa5e-88392679736a(de.slisson.mps.richtext.intentions)/5206734145263174791">
+    <file name="IntentionsDescriptor.java">
+      <node id="5206734145263174791" at="37,47,38,55" concept="1" />
+      <node id="5206734145263174791" at="50,52,51,41" concept="1" />
+    </file>
+    <file name="clearAllText_Intention.java">
+      <node id="5206734145263174791" at="24,0,25,0" concept="2" trace="myCachedExecutable" />
+      <node id="5206734145263174791" at="26,35,27,149" concept="8" />
+      <node id="5206734145263174791" at="31,35,32,26" concept="5" />
+      <node id="5206734145263174791" at="36,35,37,17" concept="5" />
+      <node id="5206734145263174791" at="41,37,42,105" concept="1" />
+      <node id="5206734145263174791" at="43,5,44,30" concept="5" />
+      <node id="5206734145263174878" at="51,87,52,30" concept="5" />
+      <node id="5206734145263175759" at="56,78,57,154" concept="1" />
+      <node id="5206734145263199299" at="57,154,58,141" concept="1" />
+      <node id="5206734145263197097" at="58,141,59,0" concept="6" />
+      <node id="5206734145263174791" at="63,86,64,18" concept="5" />
+      <node id="5206734145263174791" at="70,48,71,41" concept="5" />
+      <node id="5206734145263174791" at="77,0,78,0" concept="7" trace="Text$bD" />
+      <node id="5206734145263174791" at="78,0,79,0" concept="7" trace="Word$5r" />
+      <node id="5206734145263174791" at="82,0,83,0" concept="7" trace="words$C8QZ" />
+      <node id="5206734145263174791" at="47,0,49,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="5206734145263174791" at="26,0,29,0" concept="0" trace="clearAllText_Intention#()V" />
+      <node id="5206734145263174791" at="40,99,43,5" concept="3" />
+      <node id="5206734145263174791" at="30,0,34,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="5206734145263174791" at="35,0,39,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="5206734145263174791" at="50,0,54,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="5206734145263174791" at="62,0,66,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="5206734145263174791" at="69,0,73,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="5206734145263174791" at="40,0,46,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="5206734145263174791" at="55,0,61,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="5206734145263174791" at="47,38,47,38" />
+      <scope id="5206734145263174791" at="26,35,27,149" />
+      <scope id="5206734145263174791" at="31,35,32,26" />
+      <scope id="5206734145263174791" at="36,35,37,17" />
+      <scope id="5206734145263174791" at="41,37,42,105" />
+      <scope id="5206734145263174793" at="51,87,52,30" />
+      <scope id="5206734145263174791" at="63,86,64,18" />
+      <scope id="5206734145263174791" at="70,48,71,41" />
+      <scope id="5206734145263174791" at="47,0,49,0" />
+      <scope id="5206734145263174791" at="26,0,29,0" />
+      <scope id="5206734145263174795" at="56,78,59,0" />
+      <scope id="5206734145263174791" at="30,0,34,0" />
+      <scope id="5206734145263174791" at="35,0,39,0" />
+      <scope id="5206734145263174791" at="40,99,44,30" />
+      <scope id="5206734145263174791" at="50,0,54,0">
+        <var name="editorContext" id="5206734145263174791" />
+        <var name="node" id="5206734145263174791" />
+      </scope>
+      <scope id="5206734145263174791" at="62,0,66,0">
+        <var name="editorContext" id="5206734145263174791" />
+        <var name="node" id="5206734145263174791" />
+      </scope>
+      <scope id="5206734145263174791" at="69,0,73,0" />
+      <scope id="5206734145263174791" at="40,0,46,0">
+        <var name="context" id="5206734145263174791" />
+        <var name="node" id="5206734145263174791" />
+      </scope>
+      <scope id="5206734145263174791" at="55,0,61,0">
+        <var name="editorContext" id="5206734145263174791" />
+        <var name="node" id="5206734145263174791" />
+      </scope>
+      <unit id="5206734145263174791" at="81,0,84,0" name="de.slisson.mps.richtext.intentions.clearAllText_Intention$LINKS" />
+      <unit id="5206734145263174791" at="76,0,80,0" name="de.slisson.mps.richtext.intentions.clearAllText_Intention$CONCEPTS" />
+      <unit id="5206734145263174791" at="46,0,75,0" name="de.slisson.mps.richtext.intentions.clearAllText_Intention$IntentionImplementation" />
+      <unit id="5206734145263174791" at="23,0,85,0" name="de.slisson.mps.richtext.intentions.clearAllText_Intention" />
+    </file>
+  </root>
+</debug-info>
+

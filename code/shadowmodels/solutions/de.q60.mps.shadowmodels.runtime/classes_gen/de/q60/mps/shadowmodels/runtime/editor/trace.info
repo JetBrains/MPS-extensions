@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:63445f22-b51b-4da1-becb-083f08f3fc90(de.q60.mps.shadowmodels.runtime.editor)/8992130853521813938">
+    <file name="TransformationEngineForEditor.java">
+      <node id="8992130853521944971" at="28,0,29,0" concept="7" trace="instances" />
+      <node id="8992130853521947043" at="30,79,31,118" concept="5" />
+      <node id="6393752169612699430" at="35,60,36,178" concept="5" />
+      <node id="6393752169612696952" at="36,178,37,104" concept="6" />
+      <node id="8992130853522048589" at="39,11,40,89" concept="1" />
+      <node id="8992130853521945489" at="41,5,42,20" concept="6" />
+      <node id="6590526180832764343" at="45,35,46,98" concept="1" />
+      <node id="6590526180832780467" at="46,98,47,21" concept="1" />
+      <node id="8992130853522071857" at="50,0,51,0" concept="2" trace="editor" />
+      <node id="8992130853522066187" at="52,100,53,35" concept="9" />
+      <node id="8992130853522072577" at="53,35,54,25" concept="1" />
+      <node id="6590526180832744536" at="56,93,57,52" concept="1" />
+      <node id="8992130853522128716" at="57,52,58,18" concept="1" />
+      <node id="8992130853522138717" at="63,25,64,53" concept="1" />
+      <node id="8992130853522136970" at="64,53,65,18" concept="1" />
+      <node id="6590526180832762142" at="45,0,49,0" concept="8" trace="disposeAll#()V" />
+      <node id="8992130853522123723" at="56,0,60,0" concept="4" trace="editorWillBeDisposed#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="8992130853522126901" at="63,0,67,0" concept="4" trace="dispose#()V" />
+      <node id="6393752169612691381" at="34,0,39,0" concept="4" trace="getSModules#()Ljava/lang/Iterable;" />
+      <node id="8992130853522116113" at="54,25,60,7" concept="1" />
+      <node id="8992130853521947954" at="32,27,39,11" concept="1" />
+      <node id="8992130853521947277" at="31,118,41,5" concept="3" />
+      <node id="8992130853522066181" at="52,0,62,0" concept="0" trace="TransformationEngineForEditor#(Ljetbrains/mps/openapi/editor/EditorComponent;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)V" />
+      <node id="8992130853521947173" at="30,0,44,0" concept="8" trace="getUpdater#(Ljetbrains/mps/openapi/editor/EditorComponent;)Lde/q60/mps/shadowmodels/runtime/engine/TransformationEngine;" />
+      <scope id="6393752169612691387" at="35,60,37,104">
+        <var name="languages" id="6393752169612699431" />
+      </scope>
+      <scope id="6590526180832758329" at="45,35,47,21" />
+      <scope id="8992130853522123730" at="56,93,58,18" />
+      <scope id="8992130853522126905" at="63,25,65,18" />
+      <scope id="6590526180832762142" at="45,0,49,0" />
+      <scope id="8992130853522123723" at="56,0,60,0">
+        <var name="e" id="8992130853522123727" />
+      </scope>
+      <scope id="8992130853522126901" at="63,0,67,0" />
+      <scope id="6393752169612691381" at="34,0,39,0" />
+      <scope id="8992130853521947279" at="32,27,40,89" />
+      <scope id="8992130853522066185" at="52,100,60,7" />
+      <scope id="8992130853522066181" at="52,0,62,0">
+        <var name="editor" id="8992130853522070734" />
+        <var name="transformationFunctions" id="8992130853522066188" />
+      </scope>
+      <scope id="8992130853521813983" at="30,79,42,20">
+        <var name="instance" id="8992130853521947044" />
+      </scope>
+      <scope id="8992130853521947173" at="30,0,44,0">
+        <var name="editor" id="8992130853521814033" />
+      </scope>
+      <unit id="8992130853522123721" at="55,79,60,5" name="de.q60.mps.shadowmodels.runtime.editor.TransformationEngineForEditor$2" />
+      <unit id="6393752169612690741" at="33,156,39,7" name="de.q60.mps.shadowmodels.runtime.editor.TransformationEngineForEditor$1" />
+      <unit id="8992130853521813938" at="26,0,68,0" name="de.q60.mps.shadowmodels.runtime.editor.TransformationEngineForEditor" />
+    </file>
+  </root>
+</debug-info>
+

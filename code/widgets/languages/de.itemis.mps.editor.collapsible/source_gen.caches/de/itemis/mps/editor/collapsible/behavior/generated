@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="7tdsyynaelwt3kd87vn1ggetp39i3a4">
+  <files names="BehaviorAspectDescriptor.java:CellModel_Collapsible__BehaviorDescriptor.java:ConceptFunctionParameter_Bounds__BehaviorDescriptor.java:ConceptFunctionParameter_Expanded__BehaviorDescriptor.java:ConceptFunctionParameter_Graphics2D__BehaviorDescriptor.java:ConceptFunctionParameter_Highlighted__BehaviorDescriptor.java:ConceptFunctionParameter_ParentBounds__BehaviorDescriptor.java:ConceptFunction_GetNodeSize__BehaviorDescriptor.java:ConceptFunction_PaintEdge__BehaviorDescriptor.java:ConceptFunction_PaintLine__BehaviorDescriptor.java:ConceptFunction_PaintNode__BehaviorDescriptor.java" />
+</product>
+

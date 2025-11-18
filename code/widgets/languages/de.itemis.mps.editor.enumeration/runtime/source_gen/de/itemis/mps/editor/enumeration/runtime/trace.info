@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:8efaf1cb-bed1-4451-aa1a-8289f218b553(de.itemis.mps.editor.enumeration.runtime)/2135528801629966907">
+    <file name="EditorCell_EnumerationCheckbox.java">
+      <node id="2135528801629981189" at="25,0,26,0" concept="3" trace="myModelAccessor" />
+      <node id="2135528801629981251" at="26,0,27,0" concept="3" trace="state" />
+      <node id="2135528801629981329" at="27,0,28,0" concept="3" trace="myCommitInProgress" />
+      <node id="8279805472198520697" at="28,0,29,0" concept="3" trace="images" />
+      <node id="2135528801630033046" at="30,105,31,25" concept="13" />
+      <node id="5621583173564749462" at="31,25,32,73" concept="2" />
+      <node id="809988832433428507" at="32,73,33,31" concept="2" />
+      <node id="2135528801630033936" at="33,31,34,36" concept="2" />
+      <node id="8279805472198501477" at="34,36,35,31" concept="2" />
+      <node id="6914211619807921709" at="35,31,36,38" concept="2" />
+      <node id="8279805472198502830" at="36,38,37,24" concept="2" />
+      <node id="2135528801630024569" at="39,31,40,53" concept="8" />
+      <node id="2441613453720476" at="44,42,45,38" concept="2" />
+      <node id="2441613453729417" at="45,38,46,29" concept="2" />
+      <node id="3356039426924607628" at="46,29,47,22" concept="2" />
+      <node id="4260683268297637136" at="50,56,51,49" concept="2" />
+      <node id="8279805472198734108" at="54,64,55,37" concept="2" />
+      <node id="8279805472198751237" at="58,78,59,85" concept="2" />
+      <node id="8279805472198633397" at="62,38,63,23" concept="2" />
+      <node id="2441613453691519" at="63,23,64,29" concept="2" />
+      <node id="8279805472198641953" at="64,29,65,113" concept="2" />
+      <node id="8279805472198608826" at="68,24,69,36" concept="2" />
+      <node id="8664183491944403754" at="71,24,72,69" concept="2" />
+      <node id="2320610800094406846" at="73,78,74,13" concept="8" />
+      <node id="2320610800094406849" at="76,29,77,13" concept="8" />
+      <node id="2320610800094406851" at="78,5,79,30" concept="2" />
+      <node id="2320610800094441645" at="80,9,81,37" concept="2" />
+      <node id="2320610800094406863" at="82,66,83,64" concept="2" />
+      <node id="2320610800094406870" at="83,64,84,35" concept="2" />
+      <node id="2320610800094406872" at="84,35,85,31" concept="2" />
+      <node id="2320610800094406878" at="87,15,88,33" concept="2" />
+      <node id="4900677560560464235" at="93,125,94,99" concept="7" />
+      <node id="4900677560560464250" at="96,29,97,52" concept="2" />
+      <node id="4900677560560464253" at="99,5,100,115" concept="7" />
+      <node id="4900677560560464265" at="101,27,102,56" concept="2" />
+      <node id="4900677560560464269" at="103,5,104,18" concept="8" />
+      <node id="8279805472198956578" at="104,18,105,0" concept="10" />
+      <node id="25176791168143500" at="107,135,108,0" concept="10" />
+      <node id="4900677560560490584" at="109,91,110,111" concept="2" />
+      <node id="2320610800103572303" at="113,68,114,55" concept="7" />
+      <node id="2320610800103601783" at="114,55,115,57" concept="7" />
+      <node id="2320610800099008688" at="115,57,116,69" concept="2" />
+      <node id="8279805472199022383" at="116,69,117,0" concept="10" />
+      <node id="8279805472199020528" at="117,0,118,0" concept="10" />
+      <node id="8279805472198977405" at="122,33,123,32" concept="2" />
+      <node id="8279805472198994319" at="123,32,124,34" concept="2" />
+      <node id="1546395981771002979" at="131,30,132,19" concept="2" />
+      <node id="1546395981771003278" at="133,9,134,20" concept="8" />
+      <node id="8279805472198944523" at="136,5,137,17" concept="8" />
+      <node id="8279805472198918946" at="142,28,143,17" concept="2" />
+      <node id="8279805472198919960" at="144,7,145,18" concept="8" />
+      <node id="8279805472198929855" at="146,5,147,17" concept="8" />
+      <node id="1156663591506643742" at="152,35,153,85" concept="8" />
+      <node id="2135528801629981456" at="39,0,42,0" concept="6" trace="isReadOnly#()Z" />
+      <node id="4260683268297617318" at="50,0,53,0" concept="6" trace="setScaleWithEditorFontSize#(Z)V" />
+      <node id="8279805472198719971" at="54,0,57,0" concept="6" trace="addImage#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8279805472198728099" at="58,0,61,0" concept="6" trace="addImage#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;D)V" />
+      <node id="2135528801630054611" at="68,0,71,0" concept="6" trace="toggle#()V" />
+      <node id="2320610800094406841" at="72,69,75,5" concept="5" />
+      <node id="2320610800094406847" at="75,5,78,5" concept="5" />
+      <node id="4900677560560464244" at="95,52,98,7" concept="5" />
+      <node id="4900677560560464259" at="100,115,103,5" concept="5" />
+      <node id="4900677560560490581" at="108,0,111,5" concept="4" />
+      <node id="8073436423748185193" at="130,75,133,9" concept="5" />
+      <node id="8279805472198917173" at="141,36,144,7" concept="5" />
+      <node id="1156663591506595855" at="151,0,155,0" concept="6" trace="renderText#()Ljetbrains/mps/openapi/editor/TextBuilder;" />
+      <node id="8279805472198617416" at="62,0,67,0" concept="6" trace="setState#(Ljava/lang/String;)V" />
+      <node id="2320610800094406857" at="81,37,86,7" concept="5" />
+      <node id="4900677560560464238" at="94,99,99,5" concept="5" />
+      <node id="8279805472198869794" at="121,0,126,0" concept="6" trace="relayoutImpl#()V" />
+      <node id="2135528801630048498" at="43,0,49,0" concept="6" trace="synchronizeViewWithModel#()V" />
+      <node id="8279805472198859454" at="107,0,113,0" concept="12" trace="addPropertyDependenciesToEditor#(Ljetbrains/mps/smodel/NodeReadAccessInEditorListener;Lde/itemis/mps/editor/enumeration/runtime/EditorCell_EnumerationCheckbox;)V" />
+      <node id="1546395981770900756" at="129,72,135,7" concept="5" />
+      <node id="8279805472198904991" at="140,66,146,5" concept="5" />
+      <node id="2135528801630044178" at="113,0,120,0" concept="6" trace="paintContent#(Ljava/awt/Graphics;Ljetbrains/mps/nodeEditor/cells/ParentSettings;)V" />
+      <node id="1546395981770786151" at="128,56,136,5" concept="5" />
+      <node id="2135528801630031242" at="30,0,39,0" concept="1" trace="EditorCell_EnumerationCheckbox#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/nodeEditor/cells/ModelAccessor;)V" />
+      <node id="2320610800094406882" at="79,30,89,5" concept="14" />
+      <node id="8279805472198894850" at="139,0,149,0" concept="6" trace="doProcessKeyTyped#(Ljava/awt/event/KeyEvent;Z)Z" />
+      <node id="8279805472198882907" at="127,0,139,0" concept="6" trace="processMousePressed#(Ljava/awt/event/MouseEvent;)Z" />
+      <node id="8279805472198850276" at="93,0,107,0" concept="12" trace="create#(Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/nodeEditor/cells/ModelAccessor;Lorg/jetbrains/mps/openapi/model/SNode;)Lde/itemis/mps/editor/enumeration/runtime/EditorCell_EnumerationCheckbox;" />
+      <node id="2320610800094406835" at="71,0,91,0" concept="6" trace="commit#()V" />
+      <scope id="2135528801629981459" at="39,31,40,53" />
+      <scope id="4260683268297617319" at="50,56,51,49" />
+      <scope id="8279805472198719974" at="54,64,55,37" />
+      <scope id="8279805472198728102" at="58,78,59,85" />
+      <scope id="2135528801630054614" at="68,24,69,36" />
+      <scope id="2320610800094406845" at="73,78,74,13" />
+      <scope id="2320610800094406850" at="76,29,77,13" />
+      <scope id="2320610800094406877" at="87,15,88,33" />
+      <scope id="4900677560560464249" at="96,29,97,52" />
+      <scope id="4900677560560464264" at="101,27,102,56" />
+      <scope id="4900677560560490583" at="109,91,110,111" />
+      <scope id="8073436423748185195" at="131,30,132,19" />
+      <scope id="8279805472198917175" at="142,28,143,17" />
+      <scope id="1156663591506595859" at="152,35,153,85" />
+      <scope id="8279805472198869797" at="122,33,124,34" />
+      <scope id="2135528801629981456" at="39,0,42,0" />
+      <scope id="2135528801630048501" at="44,42,47,22" />
+      <scope id="4260683268297617318" at="50,0,53,0">
+        <var name="bool" id="4260683268297617328" />
+      </scope>
+      <scope id="8279805472198719971" at="54,0,57,0">
+        <var name="next" id="4698460851460805673" />
+        <var name="path" id="8279805472198721906" />
+        <var name="state" id="4698460851460799354" />
+      </scope>
+      <scope id="8279805472198728099" at="58,0,61,0">
+        <var name="next" id="4698460851460793468" />
+        <var name="path" id="8279805472198730049" />
+        <var name="scale" id="8279805472198731668" />
+        <var name="state" id="4698460851460786948" />
+      </scope>
+      <scope id="8279805472198617419" at="62,38,65,113" />
+      <scope id="2135528801630054611" at="68,0,71,0" />
+      <scope id="2320610800094406862" at="82,66,85,31" />
+      <scope id="4900677560560464243" at="95,52,98,7" />
+      <scope id="4900677560560490581" at="108,0,111,5">
+        <var name="pair" id="4900677560560490590" />
+      </scope>
+      <scope id="8279805472198859457" at="107,135,111,5" />
+      <scope id="1546395981770900757" at="130,75,134,20" />
+      <scope id="8279805472198904993" at="141,36,145,18" />
+      <scope id="1156663591506595855" at="151,0,155,0" />
+      <scope id="8279805472198617416" at="62,0,67,0">
+        <var name="state" id="8279805472198618858" />
+      </scope>
+      <scope id="2135528801630044186" at="113,68,118,0">
+        <var name="offsetX" id="2320610800103572306" />
+        <var name="offsetY" id="2320610800103601786" />
+      </scope>
+      <scope id="8279805472198869794" at="121,0,126,0" />
+      <scope id="2135528801630048498" at="43,0,49,0" />
+      <scope id="2320610800094406856" at="80,9,86,7" />
+      <scope id="8279805472198859454" at="107,0,113,0">
+        <var name="listener" id="8279805472198861638" />
+        <var name="result" id="8279805472198865970" />
+      </scope>
+      <scope id="1546395981770786154" at="129,72,135,7" />
+      <scope id="2135528801630031246" at="30,105,37,24" />
+      <scope id="2135528801630044178" at="113,0,120,0">
+        <var name="g" id="2135528801630044182" />
+        <var name="settings" id="2135528801630044184" />
+      </scope>
+      <scope id="8279805472198894853" at="140,66,147,17" />
+      <scope id="2135528801630031242" at="30,0,39,0">
+        <var name="context" id="2135528801630031804" />
+        <var name="modelAccessor" id="2135528801630032556" />
+        <var name="node" id="2135528801630032012" />
+      </scope>
+      <scope id="8279805472198882910" at="128,56,137,17" />
+      <scope id="8279805472198894850" at="139,0,149,0">
+        <var name="b" id="8279805472198899798" />
+        <var name="event" id="8279805472198897291" />
+      </scope>
+      <scope id="8279805472198850279" at="93,125,105,0">
+        <var name="listener" id="4900677560560464234" />
+        <var name="result" id="4900677560560464252" />
+      </scope>
+      <scope id="8279805472198882907" at="127,0,139,0">
+        <var name="event" id="8279805472198885152" />
+      </scope>
+      <scope id="8279805472198850276" at="93,0,107,0">
+        <var name="editorContext" id="8279805472198852435" />
+        <var name="modelAccessor" id="8279805472198852847" />
+        <var name="node" id="8279805472198853371" />
+      </scope>
+      <scope id="2320610800094406836" at="71,24,89,5" />
+      <scope id="2320610800094406835" at="71,0,91,0" />
+      <unit id="2135528801629966907" at="24,0,156,0" name="de.itemis.mps.editor.enumeration.runtime.EditorCell_EnumerationCheckbox" />
+    </file>
+  </root>
+  <root nodeRef="r:8efaf1cb-bed1-4451-aa1a-8289f218b553(de.itemis.mps.editor.enumeration.runtime)/4698460851460876949">
+    <file name="EnumerationCheckboxCellProvider.java">
+      <node id="4698460851460877303" at="18,103,19,41" concept="13" />
+      <node id="7557159550967690085" at="23,61,24,48" concept="2" />
+      <node id="7557159550968211799" at="24,48,25,0" concept="10" />
+      <node id="4900677560560632410" at="25,0,26,130" concept="7" />
+      <node id="4900677560560632419" at="26,130,27,125" concept="7" />
+      <node id="4900677560560632433" at="28,24,29,115" concept="2" />
+      <node id="4900677560560632441" at="30,12,31,91" concept="2" />
+      <node id="4900677560560632446" at="32,5,33,22" concept="8" />
+      <node id="4900677560560632439" at="30,10,32,5" concept="0" />
+      <node id="4698460851460877135" at="18,0,21,0" concept="1" trace="EnumerationCheckboxCellProvider#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SProperty;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="4900677560560632428" at="27,125,32,5" concept="5" />
+      <node id="4900677560560632404" at="22,0,35,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="4698460851460877140" at="18,103,19,41" />
+      <scope id="4900677560560632432" at="28,24,29,115" />
+      <scope id="4900677560560632440" at="30,12,31,91" />
+      <scope id="4698460851460877135" at="18,0,21,0">
+        <var name="editorContext" id="4698460851460877227" />
+        <var name="node" id="4698460851460877161" />
+        <var name="property" id="6636591290128300948" />
+      </scope>
+      <scope id="4900677560560632408" at="23,61,33,22">
+        <var name="editorCell" id="4900677560560632418" />
+        <var name="propertyAccessor" id="4900677560560632409" />
+      </scope>
+      <scope id="4900677560560632404" at="22,0,35,0">
+        <var name="context" id="4900677560560632406" />
+      </scope>
+      <unit id="4698460851460876949" at="15,0,38,0" name="de.itemis.mps.editor.enumeration.runtime.EnumerationCheckboxCellProvider" />
+    </file>
+  </root>
+  <root nodeRef="r:8efaf1cb-bed1-4451-aa1a-8289f218b553(de.itemis.mps.editor.enumeration.runtime)/8279805472198503736">
+    <file name="EnumerationCheckboxImages.java">
+      <node id="8279805472198682723" at="22,0,23,0" concept="3" trace="ecis" />
+      <node id="8279805472198515073" at="23,0,24,0" concept="3" trace="current" />
+      <node id="8279805472199080963" at="24,0,25,0" concept="3" trace="heightScaled" />
+      <node id="8279805472199082729" at="25,0,26,0" concept="3" trace="widthScaled" />
+      <node id="4260683268294695087" at="26,0,27,0" concept="3" trace="scaleWithEditorFontSize" />
+      <node id="5621583173564291176" at="27,0,28,0" concept="3" trace="component" />
+      <node id="2320610800096305406" at="30,95,31,73" concept="7" />
+      <node id="8328717431106434617" at="32,33,33,60" concept="2" />
+      <node id="2320610800096349136" at="34,7,35,34" concept="8" />
+      <node id="5621583173564297936" at="39,98,40,55" concept="2" />
+      <node id="4260683268297567120" at="43,56,44,40" concept="2" />
+      <node id="5621583173564867208" at="44,40,45,17" concept="2" />
+      <node id="8279805472198595314" at="48,24,49,31" concept="2" />
+      <node id="8279805472198602873" at="51,32,52,29" concept="8" />
+      <node id="8279805472198684049" at="55,40,56,51" concept="2" />
+      <node id="4690203792269479131" at="58,48,59,19" concept="8" />
+      <node id="8279805472198702282" at="61,39,62,56" concept="8" />
+      <node id="8279805472199073451" at="65,111,66,96" concept="7" />
+      <node id="4698460851460773270" at="66,96,67,46" concept="2" />
+      <node id="809988832432955444" at="68,37,69,20" concept="2" />
+      <node id="809988832433313831" at="70,5,71,17" concept="2" />
+      <node id="4260683268296884964" at="74,31,75,78" concept="7" />
+      <node id="4260683268296991525" at="75,78,76,124" concept="8" />
+      <node id="4260683268297420251" at="79,26,80,35" concept="8" />
+      <node id="4260683268297459767" at="83,25,84,34" concept="8" />
+      <node id="5621583173564253501" at="88,34,89,61" concept="8" />
+      <node id="5621583173564270372" at="90,12,91,30" concept="8" />
+      <node id="4698460851460654603" at="95,31,96,22" concept="2" />
+      <node id="4698460851460713216" at="96,22,97,23" concept="2" />
+      <node id="5621583173564490059" at="98,100,99,35" concept="7" />
+      <node id="4698460851460748222" at="99,35,100,86" concept="2" />
+      <node id="4698460851460748238" at="100,86,101,88" concept="2" />
+      <node id="4698460851460627971" at="103,29,104,23" concept="2" />
+      <node id="4698460851460641904" at="106,30,107,24" concept="2" />
+      <node id="2320610800096621551" at="111,80,112,37" concept="7" />
+      <node id="7122083600692371494" at="112,37,113,37" concept="7" />
+      <node id="4260683268296385226" at="113,37,114,0" concept="10" />
+      <node id="7122083600693517787" at="114,0,115,45" concept="7" />
+      <node id="7122083600693634499" at="115,45,116,47" concept="7" />
+      <node id="2320610800096636939" at="117,24,118,85" concept="7" />
+      <node id="2320610800096672360" at="118,85,119,87" concept="7" />
+      <node id="2320610800096707750" at="119,87,120,0" concept="10" />
+      <node id="2320610800102257417" at="120,0,121,21" concept="2" />
+      <node id="2320610800100838704" at="121,21,122,64" concept="7" />
+      <node id="2320610800101456509" at="123,24,124,48" concept="2" />
+      <node id="2320610800101260494" at="124,48,125,32" concept="2" />
+      <node id="2320610800096710532" at="126,7,127,48" concept="2" />
+      <node id="2320610800102458459" at="127,48,128,18" concept="2" />
+      <node id="5000702822458141995" at="129,12,130,0" concept="10" />
+      <node id="5000702822457610921" at="130,0,131,39" concept="7" />
+      <node id="5000702822457615741" at="131,39,132,41" concept="7" />
+      <node id="5000702822457723476" at="132,41,133,18" concept="7" />
+      <node id="5000702822457731483" at="133,18,134,22" concept="7" />
+      <node id="5000702822457599841" at="134,22,135,0" concept="10" />
+      <node id="5490129062801368264" at="135,0,136,49" concept="7" />
+      <node id="5490129062801368270" at="136,49,137,40" concept="2" />
+      <node id="5490129062801368274" at="137,40,138,34" concept="2" />
+      <node id="5490129062801368277" at="138,34,139,48" concept="2" />
+      <node id="8279805472199165418" at="139,48,140,0" concept="10" />
+      <node id="5490129062801384919" at="140,0,141,20" concept="2" />
+      <node id="2320610800101058233" at="145,69,146,47" concept="8" />
+      <node id="5621583173564261202" at="90,10,92,5" concept="0" />
+      <node id="2320610800096261027" at="31,73,34,7" concept="5" />
+      <node id="5621583173564297928" at="39,0,42,0" concept="1" trace="EnumerationCheckboxImages#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="8279805472198595135" at="48,0,51,0" concept="6" trace="toggle#()V" />
+      <node id="8279805472198602214" at="51,0,54,0" concept="6" trace="getNextState#()Ljava/lang/String;" />
+      <node id="8279805472198683474" at="55,0,58,0" concept="6" trace="setCurrent#(Ljava/lang/String;)V" />
+      <node id="4690203792269473828" at="58,0,61,0" concept="6" trace="getCurrent#()Lde/itemis/mps/editor/enumeration/runtime/EnumerationCheckboxImage;" />
+      <node id="8279805472198701259" at="61,0,64,0" concept="6" trace="exists#(Ljava/lang/String;)Z" />
+      <node id="809988832432950176" at="67,46,70,5" concept="5" />
+      <node id="8279805472198966528" at="79,0,82,0" concept="6" trace="getHeight#()I" />
+      <node id="8279805472198969863" at="83,0,86,0" concept="6" trace="getWidth#()I" />
+      <node id="4698460851460623605" at="102,5,105,5" concept="5" />
+      <node id="4698460851460636751" at="105,5,108,5" concept="5" />
+      <node id="2320610800101058233" at="145,0,148,0" concept="12" trace="as_jn2c5t_a0a4a5a23#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="4260683268297558706" at="43,0,47,0" concept="6" trace="setScaleWithEditorFontSize#(Z)V" />
+      <node id="4260683268297208809" at="74,0,78,0" concept="6" trace="getFontHeight#()I" />
+      <node id="2320610800101260492" at="122,64,126,7" concept="5" />
+      <node id="5621583173564244720" at="87,59,92,5" concept="5" />
+      <node id="4698460851460748214" at="97,23,102,5" concept="4" />
+      <node id="2320610800096213969" at="30,0,37,0" concept="6" trace="imageUpdate#(Ljava/awt/Image;IIIII)Z" />
+      <node id="5621583173564174534" at="87,0,94,0" concept="6" trace="getScale#(Lde/itemis/mps/editor/enumeration/runtime/EnumerationCheckboxImage;)D" />
+      <node id="8279805472198738478" at="65,0,73,0" concept="6" trace="addImage#(Ljava/lang/String;DLjava/lang/String;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+      <node id="2320610800096147997" at="29,0,38,0" concept="3" trace="sizeObserver" />
+      <node id="2320610800097138281" at="129,10,142,5" concept="0" />
+      <node id="8279805472199180912" at="95,0,110,0" concept="6" trace="updateSize#()V" />
+      <node id="2320610800097093379" at="116,47,142,5" concept="5" />
+      <node id="2320610800096393031" at="111,0,144,0" concept="6" trace="paint#(Ljava/awt/Graphics;IILjetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <scope id="2320610800096261030" at="32,33,33,60" />
+      <scope id="5621583173564297932" at="39,98,40,55" />
+      <scope id="8279805472198595138" at="48,24,49,31" />
+      <scope id="8279805472198602217" at="51,32,52,29" />
+      <scope id="8279805472198683477" at="55,40,56,51" />
+      <scope id="4690203792269473831" at="58,48,59,19" />
+      <scope id="8279805472198701262" at="61,39,62,56" />
+      <scope id="809988832432950178" at="68,37,69,20" />
+      <scope id="8279805472198966531" at="79,26,80,35" />
+      <scope id="8279805472198969866" at="83,25,84,34" />
+      <scope id="5621583173564244722" at="88,34,89,61" />
+      <scope id="5621583173564261203" at="90,12,91,30" />
+      <scope id="4698460851460623607" at="103,29,104,23" />
+      <scope id="4698460851460636753" at="106,30,107,24" />
+      <scope id="2320610800101058233" at="145,69,146,47" />
+      <scope id="4260683268297558709" at="43,56,45,17" />
+      <scope id="4260683268297208812" at="74,31,76,124">
+        <var name="settings" id="4260683268296884965" />
+      </scope>
+      <scope id="2320610800101260493" at="123,24,125,32" />
+      <scope id="5621583173564297928" at="39,0,42,0">
+        <var name="editorComponent" id="5621583173564297935" />
+      </scope>
+      <scope id="8279805472198595135" at="48,0,51,0" />
+      <scope id="8279805472198602214" at="51,0,54,0" />
+      <scope id="8279805472198683474" at="55,0,58,0">
+        <var name="state" id="8279805472198683753" />
+      </scope>
+      <scope id="4690203792269473828" at="58,0,61,0" />
+      <scope id="8279805472198701259" at="61,0,64,0">
+        <var name="state" id="8279805472198701744" />
+      </scope>
+      <scope id="8279805472198966528" at="79,0,82,0" />
+      <scope id="8279805472198969863" at="83,0,86,0" />
+      <scope id="4698460851460748221" at="98,100,101,88">
+        <var name="scale" id="5621583173564490060" />
+      </scope>
+      <scope id="2320610800101058233" at="145,0,148,0">
+        <var name="o" id="2320610800101058233" />
+        <var name="type" id="2320610800101058233" />
+      </scope>
+      <scope id="4260683268297558706" at="43,0,47,0">
+        <var name="bool" id="4260683268297564128" />
+      </scope>
+      <scope id="4260683268297208809" at="74,0,78,0" />
+      <scope id="2320610800096213985" at="30,95,35,34">
+        <var name="widthOrHeightChanged" id="2320610800096305409" />
+      </scope>
+      <scope id="5621583173564174538" at="87,59,92,5" />
+      <scope id="4698460851460748214" at="97,23,102,5">
+        <var name="img" id="4698460851460748254" />
+      </scope>
+      <scope id="8279805472198738481" at="65,111,71,17">
+        <var name="eci" id="8279805472199073452" />
+      </scope>
+      <scope id="2320610800096213969" at="30,0,37,0">
+        <var name="height" id="2320610800096213983" />
+        <var name="img" id="2320610800096213973" />
+        <var name="infoflags" id="2320610800096213975" />
+        <var name="width" id="2320610800096213981" />
+        <var name="x" id="2320610800096213977" />
+        <var name="y" id="2320610800096213979" />
+      </scope>
+      <scope id="5621583173564174534" at="87,0,94,0">
+        <var name="image" id="5621583173564361804" />
+      </scope>
+      <scope id="8279805472198738478" at="65,0,73,0">
+        <var name="initialState" id="6914211619807854324" />
+        <var name="next" id="8279805472199078184" />
+        <var name="node" id="8279805472198749344" />
+        <var name="path" id="8279805472198739049" />
+        <var name="scale" id="8279805472198739504" />
+        <var name="state" id="8279805472199077666" />
+      </scope>
+      <scope id="2320610800097093382" at="117,24,128,18">
+        <var name="g2d" id="2320610800100838705" />
+        <var name="offsetX" id="2320610800096636942" />
+        <var name="offsetY" id="2320610800096672363" />
+      </scope>
+      <scope id="2320610800097138282" at="129,12,141,20">
+        <var name="dcHeight" id="5000702822457615744" />
+        <var name="dcWidth" id="5000702822457610924" />
+        <var name="dcX" id="5000702822457723479" />
+        <var name="dcY" id="5000702822457731486" />
+        <var name="g2d" id="5490129062801368263" />
+      </scope>
+      <scope id="8279805472199180915" at="95,31,108,5" />
+      <scope id="8279805472199180912" at="95,0,110,0" />
+      <scope id="2320610800096393035" at="111,80,142,5">
+        <var name="heightScaledInt" id="7122083600693634502" />
+        <var name="image" id="2320610800096621552" />
+        <var name="scale" id="7122083600692371497" />
+        <var name="widthScaledInt" id="7122083600693517790" />
+      </scope>
+      <scope id="2320610800096393031" at="111,0,144,0">
+        <var name="editorComponent" id="2320610800096770674" />
+        <var name="g" id="2320610800096421672" />
+        <var name="x" id="2320610800096429297" />
+        <var name="y" id="2320610800096443332" />
+      </scope>
+      <unit id="2320610800096213967" at="29,43,37,3" name="de.itemis.mps.editor.enumeration.runtime.EnumerationCheckboxImages$1" />
+      <unit id="8279805472198503736" at="21,0,149,0" name="de.itemis.mps.editor.enumeration.runtime.EnumerationCheckboxImages" />
+    </file>
+  </root>
+  <root nodeRef="r:8efaf1cb-bed1-4451-aa1a-8289f218b553(de.itemis.mps.editor.enumeration.runtime)/8279805472198503876">
+    <file name="EnumerationCheckboxImage.java">
+      <node id="8279805472198503876" at="22,0,23,0" concept="11" trace="LOG" />
+      <node id="8279805472198515280" at="23,0,24,0" concept="3" trace="image" />
+      <node id="8279805472198515695" at="24,0,25,0" concept="3" trace="scale" />
+      <node id="8279805472198515915" at="25,0,26,0" concept="3" trace="next" />
+      <node id="8279805472198594537" at="26,0,27,0" concept="3" trace="state" />
+      <node id="8279805472198775143" at="28,101,29,34" concept="2" />
+      <node id="8279805472198758692" at="29,34,30,23" concept="2" />
+      <node id="8279805472198767040" at="30,23,31,23" concept="2" />
+      <node id="8279805472198770011" at="31,23,32,21" concept="2" />
+      <node id="8279805472198599326" at="34,27,35,16" concept="8" />
+      <node id="8279805472198603522" at="37,28,38,17" concept="8" />
+      <node id="8279805472199102592" at="40,27,41,17" concept="8" />
+      <node id="8279805472199120023" at="43,28,44,17" concept="8" />
+      <node id="6618608260456553800" at="46,43,47,38" concept="7" />
+      <node id="6618608260456566255" at="47,38,48,18" concept="8" />
+      <node id="4698460851460606490" at="50,44,51,30" concept="8" />
+      <node id="1734777297617635317" at="55,27,56,18" concept="8" />
+      <node id="1827140267377301459" at="57,5,58,0" concept="10" />
+      <node id="8279805472198819485" at="58,0,59,86" concept="7" />
+      <node id="1734777297617649206" at="60,25,61,18" concept="8" />
+      <node id="1520538761459736467" at="62,5,63,0" concept="10" />
+      <node id="1520538761459769791" at="64,52,65,100" concept="9" />
+      <node id="1520538761459773540" at="65,100,66,191" concept="9" />
+      <node id="1520538761460216024" at="66,191,67,92" concept="7" />
+      <node id="1520538761460310311" at="67,92,68,0" concept="10" />
+      <node id="1827140267377510976" at="68,0,69,66" concept="7" />
+      <node id="1827140267377136307" at="69,66,70,226" concept="2" />
+      <node id="1827140267377619354" at="71,38,72,71" concept="8" />
+      <node id="1827140267377278576" at="74,5,75,0" concept="10" />
+      <node id="1734777297617652575" at="75,0,76,68" concept="2" />
+      <node id="819036908911633122" at="76,68,77,91" concept="7" />
+      <node id="8279805472198831497" at="79,11,80,72" concept="8" />
+      <node id="819036908911583781" at="82,33,83,61" concept="2" />
+      <node id="8279805472198840338" at="86,5,87,16" concept="8" />
+      <node id="8279805472198599084" at="34,0,37,0" concept="6" trace="getNext#()Ljava/lang/String;" />
+      <node id="8279805472198603240" at="37,0,40,0" concept="6" trace="getState#()Ljava/lang/String;" />
+      <node id="8279805472199101692" at="40,0,43,0" concept="6" trace="getImage#()Ljava/awt/Image;" />
+      <node id="8279805472199118864" at="43,0,46,0" concept="6" trace="getScale#()D" />
+      <node id="4698460851460606488" at="50,0,53,0" concept="6" trace="getHeight#(Ljava/awt/image/ImageObserver;)D" />
+      <node id="1734777297617621978" at="54,56,57,5" concept="5" />
+      <node id="1734777297617639511" at="59,86,62,5" concept="5" />
+      <node id="1827140267377600537" at="70,226,73,7" concept="5" />
+      <node id="819036908911583781" at="81,41,84,9" concept="5" />
+      <node id="4698460851460601425" at="46,0,50,0" concept="6" trace="getWidth#(Ljava/awt/image/ImageObserver;)D" />
+      <node id="8279805472198757236" at="28,0,34,0" concept="1" trace="EnumerationCheckboxImage#(Ljava/lang/String;DLjava/lang/String;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="819036908911643551" at="78,29,85,7" concept="14" />
+      <node id="8279805472198822460" at="77,91,86,5" concept="5" />
+      <node id="1827140267377308966" at="63,0,74,5" concept="5" />
+      <node id="8279805472198783141" at="54,0,89,0" concept="6" trace="loadImage#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/awt/Image;" />
+      <scope id="8279805472198599087" at="34,27,35,16" />
+      <scope id="8279805472198603243" at="37,28,38,17" />
+      <scope id="8279805472199101695" at="40,27,41,17" />
+      <scope id="8279805472199118867" at="43,28,44,17" />
+      <scope id="4698460851460606489" at="50,44,51,30" />
+      <scope id="1734777297617621980" at="55,27,56,18" />
+      <scope id="1734777297617639513" at="60,25,61,18" />
+      <scope id="1827140267377600539" at="71,38,72,71" />
+      <scope id="819036908911643552" at="79,11,80,72" />
+      <scope id="819036908911583781" at="82,33,83,61" />
+      <scope id="4698460851460601428" at="46,43,48,18">
+        <var name="result" id="6618608260456553803" />
+      </scope>
+      <scope id="8279805472198599084" at="34,0,37,0" />
+      <scope id="8279805472198603240" at="37,0,40,0" />
+      <scope id="8279805472199101692" at="40,0,43,0" />
+      <scope id="8279805472199118864" at="43,0,46,0" />
+      <scope id="4698460851460606488" at="50,0,53,0">
+        <var name="o" id="4698460851460606497" />
+      </scope>
+      <scope id="819036908911643561" at="81,41,84,9" />
+      <scope id="8279805472198757240" at="28,101,32,21" />
+      <scope id="4698460851460601425" at="46,0,50,0">
+        <var name="o" id="4698460851460602453" />
+      </scope>
+      <scope id="819036908911643558" at="81,7,85,7">
+        <var name="e" id="819036908911643562" />
+      </scope>
+      <scope id="8279805472198757236" at="28,0,34,0">
+        <var name="next" id="8279805472198758405" />
+        <var name="node" id="8279805472198836898" />
+        <var name="path" id="8279805472198757495" />
+        <var name="scale" id="8279805472198757584" />
+        <var name="state" id="8279805472198757723" />
+      </scope>
+      <scope id="8279805472198822462" at="78,29,85,7" />
+      <scope id="1827140267377308968" at="64,52,73,7">
+        <var name="filePathInModule" id="1520538761460216025" />
+        <var name="resourceURL" id="1827140267377510977" />
+      </scope>
+      <scope id="8279805472198783144" at="54,56,87,16">
+        <var name="imageFile" id="819036908911633123" />
+        <var name="module" id="8279805472198819486" />
+      </scope>
+      <scope id="8279805472198783141" at="54,0,89,0">
+        <var name="fileName" id="8279805472198783736" />
+        <var name="node" id="8279805472198819508" />
+      </scope>
+      <unit id="8279805472198503876" at="21,0,92,0" name="de.itemis.mps.editor.enumeration.runtime.EnumerationCheckboxImage" />
+    </file>
+  </root>
+</debug-info>
+

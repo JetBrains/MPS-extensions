@@ -239,6 +239,55 @@
         <property role="15ShDY" value="Po4Z58IgBl/November" />
         <property role="15ShDw" value="2025" />
       </node>
+      <node concept="15bAme" id="33F4acUOltN" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOE/added" />
+        <node concept="2DRihI" id="33F4acUOltO" role="15bAlk">
+          <node concept="15Ami3" id="33F4acUOltQ" role="1PaTwD">
+            <node concept="37shsh" id="33F4acUOltR" role="15Aodc">
+              <node concept="1dCxOk" id="33F4acUOlDd" role="37shsm">
+                <property role="1XweGW" value="1144260c-e9a5-49a2-9add-39a1a1a7077e" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.diagram.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlu5" role="1PaTwD">
+            <property role="3oM_SC" value="Add" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlu6" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlDc" role="1PaTwD">
+            <property role="3oM_SC" value="experimental" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlu7" role="1PaTwD">
+            <property role="3oM_SC" value="static" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlu8" role="1PaTwD">
+            <property role="3oM_SC" value="flag" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlu9" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlua" role="1PaTwD">
+            <property role="3oM_SC" value="disable" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlub" role="1PaTwD">
+            <property role="3oM_SC" value="autolayout-on-init." />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOluc" role="1PaTwD">
+            <property role="3oM_SC" value="Useful" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlzH" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlzI" role="1PaTwD">
+            <property role="3oM_SC" value="batch" />
+          </node>
+          <node concept="3oM_SD" id="33F4acUOlzJ" role="1PaTwD">
+            <property role="3oM_SC" value="autolayouting." />
+          </node>
+        </node>
+      </node>
       <node concept="15bAme" id="6Qwtr1aMjHq" role="15bAlL">
         <node concept="2DRihI" id="6Qwtr1aMjHr" role="15bAlk">
           <node concept="15Ami3" id="6Qwtr1aMjHt" role="1PaTwD">

@@ -17,6 +17,7 @@
     <dependency reexport="false">8df3c35e-ad4c-4481-b54b-da424bcb0bc0(jetbrains.mps.editor.spellcheck)</dependency>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
+    <dependency reexport="false">9979803b-18d3-440b-8a74-99cec41fc78e(jetbrains.mps.spellchecker.idea.stubs)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />

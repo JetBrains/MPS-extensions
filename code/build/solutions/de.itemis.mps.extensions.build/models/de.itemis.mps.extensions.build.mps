@@ -9991,6 +9991,11 @@
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
             </node>
           </node>
+          <node concept="1SiIV0" id="4yWnwrWM$vf" role="3bR37C">
+            <node concept="3bR9La" id="4yWnwrWM$vg" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:6k1uIrxXxBO" resolve="jetbrains.mps.spellchecker.idea.stubs" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="5Jv8_iJNYsV" role="1E1XAP">
           <ref role="1E0d5P" node="5Jv8_iJNYt2" resolve="de.itemis.mps.spellcheck.runtime" />
@@ -10014,6 +10019,11 @@
         <node concept="1SiIV0" id="Guk09KIEVE" role="3bR37C">
           <node concept="3bR9La" id="Guk09KIEVF" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4yWnwrWM$v2" role="3bR37C">
+          <node concept="3bR9La" id="4yWnwrWM$v3" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:6k1uIrxXxBO" resolve="jetbrains.mps.spellchecker.idea.stubs" />
           </node>
         </node>
       </node>
@@ -10108,6 +10118,11 @@
         <node concept="1SiIV0" id="5Jv8_iJO1Ze" role="3bR37C">
           <node concept="3bR9La" id="5Jv8_iJO1Zf" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4yWnwrWLoks" role="3bR37C">
+          <node concept="3bR9La" id="4yWnwrWLokt" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:6k1uIrxXxBO" resolve="jetbrains.mps.spellchecker.idea.stubs" />
           </node>
         </node>
       </node>

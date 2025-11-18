@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1170075670744:jetbrains.mps.baseLanguage.structure.SynchronizedStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1178893518978:jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" />
+  <root nodeRef="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)/8574136091736930448">
+    <file name="ShadowLogging.java">
+      <node id="8574136091736931781" at="13,0,14,0" concept="7" trace="entries" />
+      <node id="4925507812437735594" at="15,86,16,89" concept="1" />
+      <node id="8574136091737571879" at="19,64,20,73" concept="1" />
+      <node id="8574136091737059422" at="23,66,24,45" concept="1" />
+      <node id="8574136091736988417" at="28,28,29,61" concept="1" />
+      <node id="8574136091737188167" at="30,58,31,59" concept="1" />
+      <node id="8574136091737276352" at="36,49,37,24" concept="5" />
+      <node id="8574136091737279032" at="38,28,39,81" concept="1" />
+      <node id="8574136091737272960" at="40,5,41,16" concept="6" />
+      <node id="4739410419403974142" at="44,30,45,43" concept="1" />
+      <node id="4925507812437735592" at="15,0,18,0" concept="8" trace="logError#(Ljava/lang/String;Ljava/lang/Exception;null)V" />
+      <node id="8574136091737567930" at="19,0,22,0" concept="8" trace="logError#(Ljava/lang/Exception;null)V" />
+      <node id="8574136091736930914" at="23,0,26,0" concept="8" trace="logError#(Ljava/lang/String;null)V" />
+      <node id="8574136091737066338" at="29,61,32,7" concept="3" />
+      <node id="8574136091737272679" at="37,24,40,5" concept="9" />
+      <node id="4739410419403970165" at="44,0,47,0" concept="8" trace="clear#()V" />
+      <node id="8574136091737065985" at="27,47,33,5" concept="9" />
+      <node id="8574136091737264479" at="36,0,43,0" concept="8" trace="getEntries#()Ljava/lang/Iterable;" />
+      <node id="8574136091736931520" at="27,0,35,0" concept="8" trace="logError#(Lde/q60/mps/logging/runtime/LogEntry;)V" />
+      <scope id="4925507812437735593" at="15,86,16,89" />
+      <scope id="8574136091737541333" at="19,64,20,73" />
+      <scope id="8574136091736930506" at="23,66,24,45" />
+      <scope id="8574136091737066340" at="30,58,31,59" />
+      <scope id="8574136091737272683" at="38,28,39,81" />
+      <scope id="4739410419403964083" at="44,30,45,43" />
+      <scope id="4925507812437735592" at="15,0,18,0">
+        <var name="details" id="4925507812437735607" />
+        <var name="ex" id="4925507812437735605" />
+        <var name="messagePrefix" id="4925507812437746009" />
+      </scope>
+      <scope id="8574136091737567930" at="19,0,22,0">
+        <var name="details" id="8574136091737563424" />
+        <var name="ex" id="8574136091737559039" />
+      </scope>
+      <scope id="8574136091736930914" at="23,0,26,0">
+        <var name="details" id="8574136091736930798" />
+        <var name="message" id="8574136091736930714" />
+      </scope>
+      <scope id="4739410419403970165" at="44,0,47,0" />
+      <scope id="8574136091737065989" at="28,28,32,7" />
+      <scope id="8574136091737061485" at="36,49,41,16">
+        <var name="copy" id="8574136091737276353" />
+      </scope>
+      <scope id="8574136091736931521" at="27,47,33,5" />
+      <scope id="8574136091737264479" at="36,0,43,0" />
+      <scope id="8574136091736931520" at="27,0,35,0">
+        <var name="entry" id="8574136091736931522" />
+      </scope>
+      <unit id="8574136091736930448" at="12,0,48,0" name="de.q60.mps.logging.runtime.ShadowLogging" />
+    </file>
+  </root>
+  <root nodeRef="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)/8574136091736931185">
+    <file name="LogEntry.java">
+      <node id="8574136091737053963" at="8,0,9,0" concept="2" trace="time" />
+      <node id="8574136091736931281" at="9,0,10,0" concept="2" trace="message" />
+      <node id="8574136091736931354" at="10,0,11,0" concept="2" trace="details" />
+      <node id="8574136091738958140" at="11,0,12,0" concept="2" trace="stackTrace" />
+      <node id="607413370673397869" at="12,0,13,0" concept="2" trace="thread" />
+      <node id="6940292179379880902" at="14,53,15,158" concept="10" />
+      <node id="6940292179379849565" at="18,85,19,43" concept="1" />
+      <node id="6940292179379849571" at="19,43,20,27" concept="1" />
+      <node id="6940292179379849577" at="20,27,21,27" concept="1" />
+      <node id="6940292179379849583" at="21,27,22,33" concept="1" />
+      <node id="6940292179379849596" at="22,33,23,46" concept="1" />
+      <node id="8574136091737981540" at="26,32,27,19" concept="6" />
+      <node id="8574136091737981546" at="30,30,31,19" concept="6" />
+      <node id="8574136091737981552" at="34,25,35,16" concept="6" />
+      <node id="8574136091738964007" at="38,46,39,22" concept="6" />
+      <node id="607413370673405199" at="42,33,43,23" concept="6" />
+      <node id="8574136091737054088" at="14,0,17,0" concept="0" trace="LogEntry#(Ljava/lang/String;[Ljava/lang/Object;)V" />
+      <node id="8574136091737981535" at="26,0,29,0" concept="4" trace="getDetails#()[Ljava/lang/Object;" />
+      <node id="8574136091737981542" at="30,0,33,0" concept="4" trace="getMessage#()Ljava/lang/String;" />
+      <node id="8574136091737981548" at="34,0,37,0" concept="4" trace="getTime#()J" />
+      <node id="8574136091738964002" at="38,0,41,0" concept="4" trace="getStackTrace#()[Ljava/lang/StackTraceElement;" />
+      <node id="607413370673405195" at="42,0,45,0" concept="4" trace="getThreadName#()Ljava/lang/String;" />
+      <node id="6940292179379849561" at="18,0,25,0" concept="0" trace="LogEntry#(Ljava/lang/String;[Ljava/lang/StackTraceElement;[Ljava/lang/Object;)V" />
+      <scope id="8574136091737054092" at="14,53,15,158" />
+      <scope id="8574136091737981539" at="26,32,27,19" />
+      <scope id="8574136091737981545" at="30,30,31,19" />
+      <scope id="8574136091737981551" at="34,25,35,16" />
+      <scope id="8574136091738964006" at="38,46,39,22" />
+      <scope id="607413370673405198" at="42,33,43,23" />
+      <scope id="8574136091737054088" at="14,0,17,0">
+        <var name="details" id="8574136091737054096" />
+        <var name="message" id="8574136091737054108" />
+      </scope>
+      <scope id="8574136091737981535" at="26,0,29,0" />
+      <scope id="8574136091737981542" at="30,0,33,0" />
+      <scope id="8574136091737981548" at="34,0,37,0" />
+      <scope id="8574136091738964002" at="38,0,41,0" />
+      <scope id="607413370673405195" at="42,0,45,0" />
+      <scope id="6940292179379849564" at="18,85,23,46" />
+      <scope id="6940292179379849561" at="18,0,25,0">
+        <var name="details" id="6940292179379849604" />
+        <var name="message" id="6940292179379849602" />
+        <var name="stackTrace" id="6940292179379862342" />
+      </scope>
+      <unit id="8574136091736931185" at="7,0,46,0" name="de.q60.mps.logging.runtime.LogEntry" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="7aond9ovsnj4xilr3m1nz6eltwzhe04">
+  <files names="AssertFloatEquals_DataFlow.java:AssertGeneratedModelEquals_DataFlow.java:AssertNodeEquals_DataFlow.java:DataFlowAspectDescriptorImpl.java" />
+</product>
+

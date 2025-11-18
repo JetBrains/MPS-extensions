@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:84068372-ed29-4b31-a23b-d1f8c366b00f(de.itemis.mps.spellcheck.runtime.plugin)/1054858366454749692">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="1054858366454749692" at="10,0,11,0" concept="3" trace="myId" />
+      <node id="1054858366454749692" at="16,27,17,16" concept="8" />
+      <node id="1054858366454749692" at="20,30,21,29" concept="9" />
+      <node id="1054858366454749692" at="21,29,22,13" concept="9" />
+      <node id="1054858366454749692" at="12,0,14,0" concept="1" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="1054858366454749692" at="15,0,19,0" concept="6" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="1054858366454749692" at="27,0,32,0" concept="6" trace="adjustRegularGroups#()V" />
+      <node id="1054858366454749692" at="20,0,27,0" concept="6" trace="createGroups#()V" />
+      <scope id="1054858366454749692" at="12,38,12,38" />
+      <scope id="1054858366454749692" at="16,27,17,16" />
+      <scope id="1054858366454749692" at="12,0,14,0" />
+      <scope id="1054858366454749692" at="27,37,30,108" />
+      <scope id="1054858366454749692" at="15,0,19,0" />
+      <scope id="1054858366454749692" at="20,30,25,63" />
+      <scope id="1054858366454749692" at="27,0,32,0" />
+      <scope id="1054858366454749692" at="20,0,27,0" />
+      <unit id="1054858366454749692" at="9,0,33,0" name="de.itemis.mps.spellcheck.runtime.plugin.Runtime_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:84068372-ed29-4b31-a23b-d1f8c366b00f(de.itemis.mps.spellcheck.runtime.plugin)/2477161125052683463">
+    <file name="ReplaceWordWithAlternative_Action.java">
+      <node id="2477161125052683463" at="16,0,17,0" concept="11" trace="ICON" />
+      <node id="2477161125052683474" at="18,0,19,0" concept="3" trace="word" />
+      <node id="2477161125052977795" at="19,0,20,0" concept="3" trace="alternativeWord" />
+      <node id="2477161125052683463" at="20,89,21,48" concept="13" />
+      <node id="2477161125052683463" at="21,48,22,25" concept="2" />
+      <node id="2477161125052683463" at="22,25,23,47" concept="2" />
+      <node id="2477161125052683463" at="23,47,24,35" concept="2" />
+      <node id="2477161125052683463" at="24,35,25,57" concept="2" />
+      <node id="2477161125052683463" at="28,32,29,16" concept="8" />
+      <node id="2477161125052961044" at="32,89,33,92" concept="2" />
+      <node id="2477161125052993549" at="34,86,35,58" concept="2" />
+      <node id="2477161125052683463" at="40,53,41,19" concept="8" />
+      <node id="2477161125052980316" at="43,5,44,66" concept="7" />
+      <node id="2477161125052980317" at="45,22,46,21" concept="8" />
+      <node id="2477161125052683463" at="48,5,49,16" concept="8" />
+      <node id="2477161125053250885" at="52,96,53,99" concept="7" />
+      <node id="2477161125053251361" at="53,99,54,158" concept="2" />
+      <node id="2477161125052683463" at="57,31,58,44" concept="7" />
+      <node id="2477161125052683463" at="58,44,59,36" concept="2" />
+      <node id="2477161125052683463" at="59,36,60,20" concept="2" />
+      <node id="2477161125052683463" at="60,20,61,47" concept="2" />
+      <node id="2477161125052683463" at="61,47,62,20" concept="2" />
+      <node id="2477161125052683463" at="62,20,63,69" concept="2" />
+      <node id="2477161125052683463" at="63,69,64,20" concept="2" />
+      <node id="2477161125052683463" at="64,20,65,26" concept="8" />
+      <node id="2477161125053290277" at="67,50,68,14" concept="8" />
+      <node id="2477161125053292707" at="70,61,71,14" concept="8" />
+      <node id="2477161125052987861" at="33,92,36,5" concept="5" />
+      <node id="2477161125052683463" at="39,95,42,5" concept="5" />
+      <node id="2477161125052980317" at="44,66,47,7" concept="5" />
+      <node id="2477161125052683463" at="67,0,70,0" concept="12" trace="word_State#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="2477161125052683463" at="70,0,73,0" concept="12" trace="alternativeWord_State#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="2477161125052683463" at="27,0,31,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="2477161125052683463" at="51,0,56,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="2477161125052980316" at="42,5,48,5" concept="0" />
+      <node id="2477161125052683463" at="20,0,27,0" concept="1" trace="ReplaceWordWithAlternative_Action#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="2477161125052683463" at="31,0,38,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="2477161125052683463" at="56,0,67,0" concept="6" trace="getActionId#()Ljava/lang/String;" />
+      <node id="2477161125052683463" at="38,0,51,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="2477161125052683463" at="28,32,29,16" />
+      <scope id="2477161125052987863" at="34,86,35,58" />
+      <scope id="2477161125052683463" at="40,53,41,19" />
+      <scope id="2477161125052980317" at="45,22,46,21" />
+      <scope id="2477161125053289481" at="67,50,68,14" />
+      <scope id="2477161125053292435" at="70,61,71,14" />
+      <scope id="2477161125052683463" at="52,96,54,158">
+        <var name="labelCell" id="2477161125053250886" />
+      </scope>
+      <scope id="2477161125052683463" at="67,0,70,0">
+        <var name="object" id="2477161125052683463" />
+      </scope>
+      <scope id="2477161125052683463" at="70,0,73,0">
+        <var name="object" id="2477161125052683463" />
+      </scope>
+      <scope id="2477161125052683463" at="27,0,31,0" />
+      <scope id="2477161125052961042" at="32,89,36,5" />
+      <scope id="2477161125052980316" at="43,5,47,7">
+        <var name="p" id="2477161125052980316" />
+      </scope>
+      <scope id="2477161125052683463" at="20,89,25,57" />
+      <scope id="2477161125052683463" at="51,0,56,0">
+        <var name="_params" id="2477161125052683463" />
+        <var name="event" id="2477161125052683463" />
+      </scope>
+      <scope id="2477161125052683463" at="20,0,27,0">
+        <var name="alternativeWord_par" id="2477161125052683463" />
+        <var name="word_par" id="2477161125052683463" />
+      </scope>
+      <scope id="2477161125052683463" at="31,0,38,0">
+        <var name="_params" id="2477161125052683463" />
+        <var name="event" id="2477161125052683463" />
+      </scope>
+      <scope id="2477161125052683463" at="57,31,65,26">
+        <var name="res" id="2477161125052683463" />
+      </scope>
+      <scope id="2477161125052683463" at="39,95,49,16" />
+      <scope id="2477161125052683463" at="56,0,67,0" />
+      <scope id="2477161125052683463" at="38,0,51,0">
+        <var name="_params" id="2477161125052683463" />
+        <var name="event" id="2477161125052683463" />
+      </scope>
+      <unit id="2477161125052683463" at="15,0,74,0" name="de.itemis.mps.spellcheck.runtime.plugin.ReplaceWordWithAlternative_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:84068372-ed29-4b31-a23b-d1f8c366b00f(de.itemis.mps.spellcheck.runtime.plugin)/2477161125052698257">
+    <file name="DictionaryGroup_ActionGroup.java">
+      <node id="2477161125052698257" at="10,0,11,0" concept="11" trace="ID" />
+      <node id="2477161125052698257" at="12,73,13,36" concept="13" />
+      <node id="2477161125052698257" at="13,36,14,25" concept="2" />
+      <node id="2477161125052698257" at="14,25,15,19" concept="2" />
+      <node id="2477161125052698257" at="15,19,16,29" concept="2" />
+      <node id="2477161125052698257" at="12,0,18,0" concept="1" trace="DictionaryGroup_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="2477161125052698257" at="12,73,16,29" />
+      <scope id="2477161125052698257" at="12,0,18,0">
+        <var name="plugin" id="2477161125052698257" />
+      </scope>
+      <unit id="2477161125052698257" at="9,0,19,0" name="de.itemis.mps.spellcheck.runtime.plugin.DictionaryGroup_ActionGroup" />
+    </file>
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="2477161125052698257" at="22,13,23,52" concept="2" />
+      <node id="2477161125052698259" at="27,37,28,133" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:84068372-ed29-4b31-a23b-d1f8c366b00f(de.itemis.mps.spellcheck.runtime.plugin)/2477161125053421007">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="2477161125053421007" at="23,52,24,50" concept="2" />
+      <node id="2477161125053421008" at="28,133,29,95" concept="2" />
+    </file>
+    <file name="WordsSpelling_ActionGroup.java">
+      <node id="2477161125053421007" at="19,0,20,0" concept="11" trace="ID" />
+      <node id="2477161125053421007" at="20,0,21,0" concept="3" trace="myPlaces" />
+      <node id="2477161125053421007" at="22,71,23,39" concept="13" />
+      <node id="2477161125053421007" at="23,39,24,25" concept="2" />
+      <node id="2477161125053421007" at="24,25,25,20" concept="2" />
+      <node id="2477161125053421007" at="25,20,26,29" concept="2" />
+      <node id="2477161125053421007" at="28,45,29,16" concept="2" />
+      <node id="2477161125053421007" at="30,70,31,39" concept="2" />
+      <node id="2477161125053421007" at="34,81,35,109" concept="2" />
+      <node id="2477161125053421007" at="37,29,38,17" concept="8" />
+      <node id="2477161125053421007" at="29,16,32,5" concept="4" />
+      <node id="2477161125053421007" at="34,0,37,0" concept="6" trace="addPlace#(Ljetbrains/mps/workbench/ActionPlace;Lorg/jetbrains/mps/util/Condition;)V" />
+      <node id="2477161125053421007" at="37,0,40,0" concept="6" trace="isStrict#()Z" />
+      <node id="2477161125053421007" at="22,0,28,0" concept="1" trace="WordsSpelling_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <node id="2477161125053421007" at="28,0,34,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;)V" />
+      <scope id="2477161125053421007" at="30,70,31,39" />
+      <scope id="2477161125053421007" at="34,81,35,109" />
+      <scope id="2477161125053421007" at="37,29,38,17" />
+      <scope id="2477161125053421007" at="29,16,32,5">
+        <var name="p" id="2477161125053421007" />
+      </scope>
+      <scope id="2477161125053421007" at="34,0,37,0">
+        <var name="cond" id="2477161125053421007" />
+        <var name="place" id="2477161125053421007" />
+      </scope>
+      <scope id="2477161125053421007" at="37,0,40,0" />
+      <scope id="2477161125053421007" at="22,71,26,29" />
+      <scope id="2477161125053421007" at="28,45,32,5" />
+      <scope id="2477161125053421007" at="22,0,28,0">
+        <var name="plugin" id="2477161125053421007" />
+      </scope>
+      <scope id="2477161125053421007" at="28,0,34,0">
+        <var name="event" id="2477161125053421007" />
+      </scope>
+      <unit id="2477161125053421007" at="18,0,41,0" name="de.itemis.mps.spellcheck.runtime.plugin.WordsSpelling_ActionGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:84068372-ed29-4b31-a23b-d1f8c366b00f(de.itemis.mps.spellcheck.runtime.plugin)/411797247020620561">
+    <file name="Runtime_ApplicationPlugin.java">
+      <node id="411797247020620561" at="24,50,25,63" concept="2" />
+      <node id="411797247020620563" at="29,95,30,108" concept="2" />
+    </file>
+    <file name="WordsToDictionaryIntention_ActionGroup.java">
+      <node id="411797247020620561" at="32,0,33,0" concept="11" trace="LOG" />
+      <node id="411797247020620561" at="33,0,34,0" concept="11" trace="ID" />
+      <node id="411797247020620561" at="34,0,35,0" concept="3" trace="myPlaces" />
+      <node id="411797247020620561" at="36,84,37,52" concept="13" />
+      <node id="411797247020620561" at="37,52,38,25" concept="2" />
+      <node id="411797247020620561" at="38,25,39,20" concept="2" />
+      <node id="411797247020620561" at="41,45,42,16" concept="2" />
+      <node id="2477161125053060288" at="42,16,43,64" concept="7" />
+      <node id="2477161125053025892" at="43,64,44,0" concept="10" />
+      <node id="2477161125052408051" at="44,0,45,125" concept="7" />
+      <node id="2477161125052299321" at="45,125,46,41" concept="2" />
+      <node id="2477161125052580550" at="46,41,47,0" concept="10" />
+      <node id="2477161125052707904" at="48,82,49,53" concept="7" />
+      <node id="2477161125052446766" at="49,53,50,62" concept="2" />
+      <node id="2477161125053044741" at="51,11,52,69" concept="7" />
+      <node id="2477161125053032031" at="52,69,53,38" concept="2" />
+      <node id="2477161125053056567" at="53,38,54,53" concept="7" />
+      <node id="2477161125053110523" at="54,53,55,101" concept="7" />
+      <node id="2477161125053405564" at="55,101,56,99" concept="7" />
+      <node id="2477161125053474983" at="57,47,58,119" concept="2" />
+      <node id="2477161125053402340" at="59,9,60,0" concept="10" />
+      <node id="2477161125053522045" at="64,74,65,93" concept="8" />
+      <node id="2477161125053124946" at="67,12,68,65" concept="2" />
+      <node id="2477161125053134901" at="70,39,71,75" concept="2" />
+      <node id="2477161125053134897" at="72,9,73,0" concept="10" />
+      <node id="2477161125053080608" at="75,33,76,48" concept="2" />
+      <node id="2477161125052698284" at="79,5,80,0" concept="10" />
+      <node id="411797247020620561" at="81,70,82,39" concept="2" />
+      <node id="411797247020620561" at="85,81,86,109" concept="2" />
+      <node id="411797247020620561" at="88,29,89,17" concept="8" />
+      <node id="2477161125053066300" at="56,99,59,9" concept="4" />
+      <node id="2477161125053134899" at="69,9,72,9" concept="5" />
+      <node id="2477161125053080608" at="74,29,77,9" concept="5" />
+      <node id="411797247020620561" at="80,0,83,5" concept="4" />
+      <node id="411797247020620561" at="85,0,88,0" concept="6" trace="addPlace#(Ljetbrains/mps/workbench/ActionPlace;Lorg/jetbrains/mps/util/Condition;)V" />
+      <node id="411797247020620561" at="88,0,91,0" concept="6" trace="isStrict#()Z" />
+      <node id="2477161125053398952" at="63,0,67,0" concept="6" trace="getChildren#(Lcom/intellij/openapi/actionSystem/AnActionEvent;)[Lcom/intellij/openapi/actionSystem/AnAction;" />
+      <node id="411797247020620561" at="36,0,41,0" concept="1" trace="WordsToDictionaryIntention_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <node id="2477161125053337362" at="61,39,67,12" concept="7" />
+      <node id="2477161125053118173" at="60,0,69,9" concept="5" />
+      <node id="2477161125053076545" at="50,62,78,7" concept="14" />
+      <node id="2477161125052435558" at="47,0,79,5" concept="4" />
+      <node id="411797247020620561" at="41,0,85,0" concept="6" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;)V" />
+      <scope id="2477161125053066306" at="57,47,58,119" />
+      <scope id="2477161125053398961" at="64,74,65,93" />
+      <scope id="2477161125053134900" at="70,39,71,75" />
+      <scope id="2477161125053080608" at="75,33,76,48" />
+      <scope id="411797247020620561" at="81,70,82,39" />
+      <scope id="411797247020620561" at="85,81,86,109" />
+      <scope id="411797247020620561" at="88,29,89,17" />
+      <scope id="411797247020620561" at="36,84,39,20" />
+      <scope id="2477161125053066300" at="56,99,59,9">
+        <var name="suggestion" id="2477161125053066302" />
+      </scope>
+      <scope id="2477161125053076552" at="74,29,77,9" />
+      <scope id="411797247020620561" at="80,0,83,5">
+        <var name="p" id="411797247020620561" />
+      </scope>
+      <scope id="411797247020620561" at="85,0,88,0">
+        <var name="cond" id="411797247020620561" />
+        <var name="place" id="411797247020620561" />
+      </scope>
+      <scope id="411797247020620561" at="88,0,91,0" />
+      <scope id="2477161125053398952" at="63,0,67,0">
+        <var name="event" id="2477161125053398957" />
+      </scope>
+      <scope id="2477161125053076549" at="74,7,78,7">
+        <var name="e" id="2477161125053076550" />
+      </scope>
+      <scope id="411797247020620561" at="36,0,41,0">
+        <var name="plugin" id="411797247020620561" />
+      </scope>
+      <scope id="2477161125053118175" at="61,39,68,65">
+        <var name="group" id="2477161125053337363" />
+      </scope>
+      <scope id="2477161125053076547" at="51,11,73,0">
+        <var name="suggestionActions" id="2477161125053405567" />
+        <var name="suggestions" id="2477161125053110524" />
+        <var name="word" id="2477161125053056570" />
+        <var name="wordField" id="2477161125053044742" />
+      </scope>
+      <scope id="2477161125052435564" at="48,82,78,7">
+        <var name="action" id="2477161125052707907" />
+      </scope>
+      <scope id="2477161125052435558" at="47,0,79,5">
+        <var name="childAction" id="2477161125052435560" />
+      </scope>
+      <scope id="411797247020620561" at="41,45,83,5">
+        <var name="ideaProject" id="2477161125053060289" />
+        <var name="wordsToDictionaryGroup" id="2477161125052408052" />
+      </scope>
+      <scope id="411797247020620561" at="41,0,85,0">
+        <var name="event" id="411797247020620561" />
+      </scope>
+      <unit id="2477161125053398280" at="62,34,67,11" name="de.itemis.mps.spellcheck.runtime.plugin.WordsToDictionaryIntention_ActionGroup$1" />
+      <unit id="411797247020620561" at="31,0,92,0" name="de.itemis.mps.spellcheck.runtime.plugin.WordsToDictionaryIntention_ActionGroup" />
+    </file>
+  </root>
+</debug-info>
+

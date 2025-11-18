@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="3co8ndieoc62r4ga8rf7mc4ibmwk1fn">
+  <files names="ANode.java:ANodeReference.java:AReference.java:BootstrapConceptMappings.java:DevKitDependencyAsNode.java:DummyConcept.java:DummySNodeId.java:EModelMode.java:JavaModuleFacetAsNode.java:MPSArea.java:MPSLanguageRepository.java:ModelImportAsNode.java:ModuleDependencyAsNode.java:NodeToSModelAdapter.java:NodeToSModuleAdapter.java:NodeToSNodeAdapter.java:ProjectAsNode.java:ProjectModuleAsNode.java:ReadOnlyPropertyAccessor.java:SConceptAdapter.java:SContainmentLinkAdapter.java:SLanguageAdapter.java:SModelAsNode.java:SModuleAsNode.java:SNodeAPI.java:SNodeReferenceAdapter.java:SNodeToNodeAdapter.java:SPropertyAdapter.java:SReferenceLinkAdapter.java:SRepositoryAsNode.java:SingleLanguageDependencyAsNode.java:TreeElementAsNode.java" />
+</product>
+

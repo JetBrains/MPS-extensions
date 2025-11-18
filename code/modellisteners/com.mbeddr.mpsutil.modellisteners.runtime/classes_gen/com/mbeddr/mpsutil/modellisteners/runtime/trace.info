@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1178893518978:jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/172345109540696694">
+    <file name="ListenersAspect.java">
+      <node id="172345109540698075" at="12,42,13,85" concept="7" />
+      <node id="172345109540761683" at="16,44,17,40" concept="6" />
+      <node id="172345109540754398" at="17,40,18,49" concept="6" />
+      <node id="172345109540753100" at="18,49,19,109" concept="7" />
+      <node id="172345109540769505" at="22,48,23,49" concept="7" />
+      <node id="172345109540696978" at="12,0,15,0" concept="11" trace="is#(Lorg/jetbrains/mps/openapi/model/SModel;)Z" />
+      <node id="172345109540769258" at="22,0,25,0" concept="11" trace="getName#(Lorg/jetbrains/mps/openapi/module/SModule;)Ljava/lang/String;" />
+      <node id="172345109540752523" at="16,0,21,0" concept="11" trace="get#(Lorg/jetbrains/mps/openapi/module/SModule;)Lorg/jetbrains/mps/openapi/model/SModel;" />
+      <scope id="172345109540696932" at="12,42,13,85" />
+      <scope id="172345109540768423" at="22,48,23,49" />
+      <scope id="172345109540696978" at="12,0,15,0">
+        <var name="model" id="172345109540697009" />
+      </scope>
+      <scope id="172345109540703798" at="16,44,19,109">
+        <var name="models" id="172345109540754399" />
+        <var name="name" id="172345109540761686" />
+      </scope>
+      <scope id="172345109540769258" at="22,0,25,0">
+        <var name="module" id="172345109540768753" />
+      </scope>
+      <scope id="172345109540752523" at="16,0,21,0">
+        <var name="module" id="172345109540703944" />
+      </scope>
+      <unit id="172345109540696694" at="10,0,26,0" name="com.mbeddr.mpsutil.modellisteners.runtime.ListenersAspect" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/417910970306706770">
+    <file name="GlobalModelListener.java">
+      <node id="417910970307081039" at="21,49,22,15" concept="1" />
+      <node id="417910970307085208" at="24,57,25,14" concept="1" />
+      <node id="417910970307094830" at="29,58,30,19" concept="1" />
+      <node id="417910970307100856" at="32,66,33,18" concept="1" />
+      <node id="417910970307052362" at="37,0,38,0" concept="2" trace="myRepositories" />
+      <node id="6160935558386403240" at="38,0,39,0" concept="2" trace="myModules" />
+      <node id="6160935558386407213" at="39,0,40,0" concept="2" trace="myModels" />
+      <node id="6160935558386403224" at="45,61,46,13" concept="7" />
+      <node id="6160935558386419257" at="47,5,48,57" concept="1" />
+      <node id="6160935558386411255" at="48,57,49,0" concept="9" />
+      <node id="417910970307106427" at="49,0,50,51" concept="1" />
+      <node id="417910970307145113" at="52,71,53,22" concept="1" />
+      <node id="6160935558386511979" at="59,58,60,13" concept="7" />
+      <node id="6160935558386511984" at="61,5,62,54" concept="1" />
+      <node id="6160935558386513015" at="62,54,63,0" concept="9" />
+      <node id="417910970306863011" at="63,0,64,45" concept="1" />
+      <node id="417910970307139003" at="65,68,66,19" concept="1" />
+      <node id="6160935558386528920" at="71,56,72,13" concept="7" />
+      <node id="6160935558386528925" at="73,5,74,52" concept="1" />
+      <node id="6160935558386528930" at="74,52,75,0" concept="9" />
+      <node id="6160935558386573049" at="75,0,76,23" concept="1" />
+      <node id="6160935558386555329" at="79,0,80,0" concept="5" trace="addListener#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="7840642190008271970" at="81,22,82,71" concept="1" />
+      <node id="7840642190008284926" at="82,71,83,93" concept="1" />
+      <node id="7840642190008299888" at="83,93,84,106" concept="1" />
+      <node id="7840642190008316885" at="84,106,85,42" concept="1" />
+      <node id="7840642190008328742" at="85,42,86,43" concept="1" />
+      <node id="7840642190008340243" at="86,43,87,48" concept="1" />
+      <node id="6160935558386434224" at="91,64,92,13" concept="7" />
+      <node id="6160935558386434229" at="93,5,94,60" concept="1" />
+      <node id="6160935558386433307" at="94,60,95,0" concept="9" />
+      <node id="417910970307110335" at="95,0,96,54" concept="1" />
+      <node id="417910970307059766" at="97,69,98,19" concept="1" />
+      <node id="6160935558386486529" at="103,61,104,13" concept="7" />
+      <node id="6160935558386486534" at="105,5,106,57" concept="1" />
+      <node id="6160935558386487571" at="106,57,107,0" concept="9" />
+      <node id="417910970307156543" at="107,0,108,48" concept="1" />
+      <node id="417910970307116844" at="109,68,110,18" concept="1" />
+      <node id="6160935558386577672" at="115,59,116,13" concept="7" />
+      <node id="6160935558386577678" at="117,5,118,55" concept="1" />
+      <node id="6160935558386593137" at="118,55,119,0" concept="9" />
+      <node id="6160935558386640642" at="119,0,120,26" concept="1" />
+      <node id="6160935558386598870" at="123,0,124,0" concept="5" trace="removeListener#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="417910970306817411" at="41,0,43,0" concept="0" trace="GlobalModelListener#()V" />
+      <node id="417910970307077222" at="21,0,24,0" concept="5" trace="moduleAdded#(Lorg/jetbrains/mps/openapi/module/SModule;)V" />
+      <node id="417910970307077231" at="24,0,27,0" concept="5" trace="beforeModuleRemoved#(Lorg/jetbrains/mps/openapi/module/SModule;)V" />
+      <node id="417910970306974655" at="29,0,32,0" concept="5" trace="modelAdded#(Lorg/jetbrains/mps/openapi/module/SModule;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="417910970306974665" at="32,0,35,0" concept="5" trace="beforeModelRemoved#(Lorg/jetbrains/mps/openapi/module/SModule;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="6160935558386389274" at="44,45,47,5" concept="4" />
+      <node id="417910970307141677" at="51,47,54,7" concept="3" />
+      <node id="6160935558386511977" at="58,37,61,5" concept="4" />
+      <node id="417910970307135333" at="64,45,67,5" concept="3" />
+      <node id="6160935558386528918" at="70,35,73,5" concept="4" />
+      <node id="6160935558386434222" at="90,38,93,5" concept="4" />
+      <node id="417910970307056789" at="96,54,99,5" concept="3" />
+      <node id="6160935558386486527" at="102,36,105,5" concept="4" />
+      <node id="417910970307115816" at="108,48,111,5" concept="3" />
+      <node id="6160935558386577670" at="114,34,117,5" concept="4" />
+      <node id="6160935558385981017" at="50,51,55,7" concept="1" />
+      <node id="417910970307066386" at="20,0,28,0" concept="2" trace="repositoryListener" />
+      <node id="417910970306866116" at="28,0,36,0" concept="2" trace="moduleListener" />
+      <node id="417910970306818723" at="70,0,78,0" concept="5" trace="start#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="6160935558386454260" at="81,0,89,0" concept="5" trace="stop#()V" />
+      <node id="417910970307031536" at="114,0,122,0" concept="5" trace="stop#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="417910970306818091" at="58,0,69,0" concept="5" trace="start#(Lorg/jetbrains/mps/openapi/module/SModule;)V" />
+      <node id="417910970307043484" at="90,0,101,0" concept="5" trace="stop#(Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <node id="417910970306816967" at="102,0,113,0" concept="5" trace="stop#(Lorg/jetbrains/mps/openapi/module/SModule;)V" />
+      <node id="417910970306816395" at="44,0,57,0" concept="5" trace="start#(Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <scope id="417910970306817415" at="41,32,41,32" />
+      <scope id="417910970307077229" at="21,49,22,15" />
+      <scope id="417910970307077238" at="24,57,25,14" />
+      <scope id="417910970306974663" at="29,58,30,19" />
+      <scope id="417910970306974673" at="32,66,33,18" />
+      <scope id="6160935558386389276" at="45,61,46,13" />
+      <scope id="417910970307141683" at="52,71,53,22" />
+      <scope id="6160935558386511978" at="59,58,60,13" />
+      <scope id="417910970307135339" at="65,68,66,19" />
+      <scope id="6160935558386528919" at="71,56,72,13" />
+      <scope id="6160935558386555329" at="79,0,80,0">
+        <var name="model" id="6160935558386565216" />
+      </scope>
+      <scope id="6160935558386434223" at="91,64,92,13" />
+      <scope id="417910970307056792" at="97,69,98,19" />
+      <scope id="6160935558386486528" at="103,61,104,13" />
+      <scope id="417910970307115819" at="109,68,110,18" />
+      <scope id="6160935558386577671" at="115,59,116,13" />
+      <scope id="6160935558386598870" at="123,0,124,0">
+        <var name="model" id="6160935558386598871" />
+      </scope>
+      <scope id="417910970306817411" at="41,0,43,0" />
+      <scope id="417910970307077222" at="21,0,24,0">
+        <var name="m" id="417910970307077226" />
+      </scope>
+      <scope id="417910970307077231" at="24,0,27,0">
+        <var name="m" id="417910970307077235" />
+      </scope>
+      <scope id="417910970306974655" at="29,0,32,0">
+        <var name="model" id="417910970306974661" />
+        <var name="module" id="417910970306974659" />
+      </scope>
+      <scope id="417910970306974665" at="32,0,35,0">
+        <var name="model" id="417910970306974671" />
+        <var name="module" id="417910970306974669" />
+      </scope>
+      <scope id="417910970307141677" at="51,47,54,7">
+        <var name="module" id="417910970307141679" />
+      </scope>
+      <scope id="6160935558385987051" at="51,47,54,7" />
+      <scope id="417910970307135333" at="64,45,67,5">
+        <var name="model" id="417910970307135335" />
+      </scope>
+      <scope id="417910970307056789" at="96,54,99,5">
+        <var name="module" id="417910970307056790" />
+      </scope>
+      <scope id="417910970307115816" at="108,48,111,5">
+        <var name="model" id="417910970307115817" />
+      </scope>
+      <scope id="417910970306818727" at="70,35,76,23" />
+      <scope id="6160935558386454264" at="81,22,87,48" />
+      <scope id="417910970307031541" at="114,34,120,26" />
+      <scope id="417910970306818723" at="70,0,78,0">
+        <var name="model" id="417910970306819108" />
+      </scope>
+      <scope id="6160935558386454260" at="81,0,89,0" />
+      <scope id="417910970307031536" at="114,0,122,0">
+        <var name="model" id="417910970307031537" />
+      </scope>
+      <scope id="417910970306818095" at="58,37,67,5" />
+      <scope id="417910970307043488" at="90,38,99,5" />
+      <scope id="417910970306816971" at="102,36,111,5" />
+      <scope id="417910970306816399" at="44,45,55,7" />
+      <scope id="417910970306818091" at="58,0,69,0">
+        <var name="module" id="417910970306818213" />
+      </scope>
+      <scope id="417910970307043484" at="90,0,101,0">
+        <var name="repo" id="6160935558386429334" />
+      </scope>
+      <scope id="417910970306816967" at="102,0,113,0">
+        <var name="module" id="417910970307028268" />
+      </scope>
+      <scope id="417910970306816395" at="44,0,57,0">
+        <var name="repo" id="6160935558386384554" />
+      </scope>
+      <unit id="417910970307077220" at="20,57,27,3" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalModelListener$1" />
+      <unit id="417910970306974653" at="28,49,35,3" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalModelListener$2" />
+      <unit id="417910970306706770" at="18,0,126,0" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalModelListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/5818559022136709138">
+    <file name="GlobalListener.java">
+      <node id="5818559022136709138" at="45,0,46,0" concept="10" trace="LOG" />
+      <node id="5818559022137246480" at="46,0,47,0" concept="2" trace="myDescriptors" />
+      <node id="5818559022137544032" at="49,61,50,46" concept="7" />
+      <node id="6105788070833000020" at="53,0,54,0" concept="2" trace="myActiveListeners" />
+      <node id="6160935558386713156" at="55,41,56,16" concept="1" />
+      <node id="5818559022137265779" at="56,16,57,55" concept="1" />
+      <node id="5818559022139197674" at="57,55,58,0" concept="9" />
+      <node id="5818559022139199091" at="60,47,61,46" concept="1" />
+      <node id="5818559022139283072" at="63,5,64,22" concept="1" />
+      <node id="6160935558386716701" at="67,27,68,11" concept="1" />
+      <node id="5818559022137318000" at="68,11,69,58" concept="1" />
+      <node id="4966760322458914418" at="75,194,76,20" concept="1" />
+      <node id="4966760322458915271" at="76,20,77,51" concept="1" />
+      <node id="4966760322458918321" at="77,51,78,15" concept="7" />
+      <node id="5818559022137318869" at="79,7,80,59" concept="1" />
+      <node id="5818559022137576145" at="81,5,82,22" concept="1" />
+      <node id="5818559022139194621" at="87,66,88,25" concept="1" />
+      <node id="5818559022137577495" at="89,5,90,22" concept="1" />
+      <node id="6160935558386919253" at="94,44,95,58" concept="1" />
+      <node id="6160935558386928220" at="99,47,100,61" concept="1" />
+      <node id="5818559022139147818" at="103,54,104,65" concept="6" />
+      <node id="5818559022139147825" at="105,29,106,65" concept="1" />
+      <node id="5818559022137547444" at="110,33,111,24" concept="1" />
+      <node id="5818559022137563485" at="113,88,114,68" concept="1" />
+      <node id="5818559022137365266" at="119,78,120,100" concept="6" />
+      <node id="5818559022137471598" at="121,9,122,142" concept="6" />
+      <node id="5818559022137486772" at="123,36,124,77" concept="6" />
+      <node id="5818559022137490159" at="124,77,125,26" concept="7" />
+      <node id="5818559022137491104" at="128,5,129,16" concept="7" />
+      <node id="5818559022141038382" at="133,34,134,13" concept="7" />
+      <node id="6105788070833045642" at="138,48,139,58" concept="1" />
+      <node id="6105788070832991049" at="145,127,146,85" concept="8" />
+      <node id="6105788070832991772" at="146,85,147,0" concept="9" />
+      <node id="6105788070833023947" at="148,68,149,13" concept="7" />
+      <node id="6105788070833024008" at="151,9,152,66" concept="1" />
+      <node id="6105788070832968939" at="152,66,153,49" concept="1" />
+      <node id="2002354044653493987" at="155,31,156,127" concept="1" />
+      <node id="6105788070833033897" at="158,15,159,69" concept="1" />
+      <node id="5818559022141205515" at="167,43,168,75" concept="1" />
+      <node id="5818559022141419827" at="178,43,179,67" concept="1" />
+      <node id="5818559022141423445" at="189,43,190,69" concept="1" />
+      <node id="6979620120171756911" at="193,7,194,52" concept="1" />
+      <node id="5818559022141301340" at="197,82,198,112" concept="7" />
+      <node id="6105788070832325464" at="200,90,201,108" concept="7" />
+      <node id="6105788070833148464" at="203,88,204,119" concept="7" />
+      <node id="6105788070834709346" at="216,64,217,70" concept="1" />
+      <node id="5818559022137032965" at="229,62,230,56" concept="7" />
+      <node id="6105788070833135563" at="257,43,258,135" concept="1" />
+      <node id="6105788070832531997" at="264,64,265,54" concept="6" />
+      <node id="5818559022141191058" at="268,43,269,109" concept="1" />
+      <node id="6105788070832537987" at="275,66,276,54" concept="6" />
+      <node id="6105788070832381097" at="279,43,280,111" concept="1" />
+      <node id="6105788070834718203" at="289,56,290,62" concept="1" />
+      <node id="6105788070834719988" at="298,58,299,64" concept="1" />
+      <node id="5818559022139200744" at="59,69,62,7" concept="4" />
+      <node id="5818559022137356110" at="86,90,89,5" concept="3" />
+      <node id="5818559022139147823" at="104,65,107,5" concept="4" />
+      <node id="5818559022137563254" at="112,117,115,7" concept="3" />
+      <node id="5818559022141038380" at="132,173,135,5" concept="4" />
+      <node id="5818559022141170174" at="137,99,140,9" concept="4" />
+      <node id="6105788070833014609" at="147,0,150,5" concept="4" />
+      <node id="2002354044653493987" at="154,28,157,7" concept="4" />
+      <node id="5818559022141334349" at="166,52,169,9" concept="4" />
+      <node id="5818559022141419825" at="177,52,180,9" concept="4" />
+      <node id="5818559022141423443" at="188,52,191,9" concept="4" />
+      <node id="5818559022141240347" at="197,0,200,0" concept="5" trace="roleMatches#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IChildListener;Ljetbrains/mps/smodel/event/SModelChildEvent;)Z" />
+      <node id="6105788070832325460" at="200,0,203,0" concept="5" trace="roleMatches#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IReferenceListener;Ljetbrains/mps/smodel/event/SModelReferenceEvent;)Z" />
+      <node id="6105788070833148460" at="203,0,206,0" concept="5" trace="roleMatches#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IPropertyListener;Ljetbrains/mps/smodel/event/SModelPropertyEvent;)Z" />
+      <node id="5818559022137027469" at="207,0,210,0" concept="5" trace="beforeModelDisposed#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="5818559022137027483" at="210,0,213,0" concept="5" trace="beforeModelRenamed#(Ljetbrains/mps/smodel/event/SModelRenamedEvent;)V" />
+      <node id="6105788070834709340" at="216,0,219,0" concept="5" trace="forward#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IRootBeforeRemovedListener;)V" />
+      <node id="5818559022137027511" at="221,0,224,0" concept="5" trace="devkitAdded#(Ljetbrains/mps/smodel/event/SModelDevKitEvent;)V" />
+      <node id="5818559022137027518" at="224,0,227,0" concept="5" trace="devkitRemoved#(Ljetbrains/mps/smodel/event/SModelDevKitEvent;)V" />
+      <node id="5818559022137027533" at="232,0,235,0" concept="5" trace="importAdded#(Ljetbrains/mps/smodel/event/SModelImportEvent;)V" />
+      <node id="5818559022137027540" at="235,0,238,0" concept="5" trace="importRemoved#(Ljetbrains/mps/smodel/event/SModelImportEvent;)V" />
+      <node id="5818559022137027547" at="238,0,241,0" concept="5" trace="languageAdded#(Ljetbrains/mps/smodel/event/SModelLanguageEvent;)V" />
+      <node id="5818559022137027554" at="241,0,244,0" concept="5" trace="languageRemoved#(Ljetbrains/mps/smodel/event/SModelLanguageEvent;)V" />
+      <node id="5818559022137027568" at="244,0,247,0" concept="5" trace="modelLoadingStateChanged#(Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/loading/ModelLoadingState;)V" />
+      <node id="5818559022137027577" at="247,0,250,0" concept="5" trace="modelRenamed#(Ljetbrains/mps/smodel/event/SModelRenamedEvent;)V" />
+      <node id="5818559022137027584" at="250,0,253,0" concept="5" trace="modelSaved#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="6105788070833135561" at="256,55,259,9" concept="4" />
+      <node id="6105788070832378106" at="267,61,270,9" concept="4" />
+      <node id="6105788070832381095" at="278,63,281,9" concept="4" />
+      <node id="6105788070834718199" at="289,0,292,0" concept="5" trace="forward#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IRootAddedListener;)V" />
+      <node id="6105788070834719984" at="298,0,301,0" concept="5" trace="forward#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IRootRemovedListener;)V" />
+      <node id="5818559022137542453" at="48,0,52,0" concept="5" trace="createCollection#()Ljava/util/Collection;" />
+      <node id="5818559022136747408" at="67,0,71,0" concept="5" trace="uninstall#()V" />
+      <node id="6160935558386899214" at="93,0,97,0" concept="5" trace="addListener#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="6160935558386899222" at="98,0,102,0" concept="5" trace="removeListener#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="5818559022137482262" at="122,142,126,7" concept="4" />
+      <node id="5818559022139198235" at="58,0,63,5" concept="3" />
+      <node id="4966760322458911506" at="74,66,79,7" concept="4" />
+      <node id="5818559022137552670" at="111,24,116,5" concept="3" />
+      <node id="5818559022141038389" at="136,123,141,7" concept="3" />
+      <node id="5818559022141205511" at="166,0,171,0" concept="5" trace="forward#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IChildListener;)V" />
+      <node id="5818559022141419821" at="177,0,182,0" concept="5" trace="forward#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IChildListener;)V" />
+      <node id="5818559022141423439" at="188,0,193,0" concept="5" trace="forward#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IChildListener;)V" />
+      <node id="6105788070834709328" at="214,62,219,7" concept="1" />
+      <node id="5818559022137027525" at="227,0,232,0" concept="5" trace="getPriority#()Ljetbrains/mps/smodel/event/SModelListener/SModelListenerPriority;" />
+      <node id="6105788070833135557" at="256,0,261,0" concept="5" trace="forward#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IPropertyListener;)V" />
+      <node id="5818559022141100405" at="267,0,272,0" concept="5" trace="forward#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IReferenceAddedListener;)V" />
+      <node id="6105788070831023942" at="278,0,283,0" concept="5" trace="forward#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IReferenceRemovedListener;)V" />
+      <node id="6105788070834718187" at="287,54,292,7" concept="1" />
+      <node id="6105788070834719972" at="296,56,301,7" concept="1" />
+      <node id="5818559022137241361" at="47,0,53,0" concept="2" trace="myListeners" />
+      <node id="5818559022139125564" at="103,0,109,0" concept="5" trace="loadModule#(Ljetbrains/mps/module/ReloadableModule;)V" />
+      <node id="5818559022137274397" at="85,0,92,0" concept="5" trace="onLoaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="5818559022141038386" at="135,5,142,5" concept="3" />
+      <node id="5818559022141205497" at="164,64,171,7" concept="1" />
+      <node id="5818559022141419809" at="175,56,182,7" concept="1" />
+      <node id="5818559022141423427" at="186,58,193,7" concept="1" />
+      <node id="6105788070833135545" at="254,64,261,7" concept="1" />
+      <node id="5818559022141097040" at="265,54,272,7" concept="1" />
+      <node id="6105788070831023928" at="276,54,283,7" concept="1" />
+      <node id="5818559022137354054" at="73,92,81,5" concept="3" />
+      <node id="5818559022137505851" at="110,0,118,0" concept="5" trace="updateListeners#()V" />
+      <node id="5818559022137470626" at="120,100,128,5" concept="14" />
+      <node id="5818559022137027490" at="213,0,221,0" concept="5" trace="beforeRootRemoved#(Ljetbrains/mps/smodel/event/SModelRootEvent;)V" />
+      <node id="5818559022137027612" at="285,0,294,0" concept="5" trace="rootAdded#(Ljetbrains/mps/smodel/event/SModelRootEvent;)V" />
+      <node id="5818559022137027620" at="294,0,303,0" concept="5" trace="rootRemoved#(Ljetbrains/mps/smodel/event/SModelRootEvent;)V" />
+      <node id="6105788070833011897" at="150,5,160,5" concept="14" />
+      <node id="5818559022137027462" at="163,0,173,0" concept="5" trace="beforeChildRemoved#(Ljetbrains/mps/smodel/event/SModelChildEvent;)V" />
+      <node id="5818559022137027497" at="174,0,184,0" concept="5" trace="childAdded#(Ljetbrains/mps/smodel/event/SModelChildEvent;)V" />
+      <node id="5818559022137027591" at="253,0,263,0" concept="5" trace="propertyChanged#(Ljetbrains/mps/smodel/event/SModelPropertyEvent;)V" />
+      <node id="5818559022136746030" at="55,0,66,0" concept="5" trace="install#(Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <node id="5818559022137027504" at="185,0,196,0" concept="5" trace="childRemoved#(Ljetbrains/mps/smodel/event/SModelChildEvent;)V" />
+      <node id="5818559022137027598" at="263,0,274,0" concept="5" trace="referenceAdded#(Ljetbrains/mps/smodel/event/SModelReferenceEvent;)V" />
+      <node id="5818559022137027605" at="274,0,285,0" concept="5" trace="referenceRemoved#(Ljetbrains/mps/smodel/event/SModelReferenceEvent;)V" />
+      <node id="5818559022137274387" at="72,0,84,0" concept="5" trace="onUnloaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="5818559022137439020" at="119,0,131,0" concept="5" trace="getDescriptor#(Ljetbrains/mps/module/ReloadableModule;)Lcom/mbeddr/mpsutil/modellisteners/runtime/IModelListenersDescriptor;" />
+      <node id="5818559022141038359" at="132,0,144,0" concept="5" trace="forwardEvent#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljava/lang/Class;Lcom/mbeddr/mpsutil/modellisteners/runtime/IForwarder;)V" />
+      <node id="6105788070832920910" at="145,0,162,0" concept="5" trace="forwardSafe#(Lcom/mbeddr/mpsutil/modellisteners/runtime/IForwarder;null)V" />
+      <scope id="5818559022137470615" at="127,27,127,27" />
+      <scope id="5818559022137027475" at="208,49,208,49" />
+      <scope id="5818559022137027489" at="211,60,211,60" />
+      <scope id="5818559022137027517" at="222,52,222,52" />
+      <scope id="5818559022137027524" at="225,54,225,54" />
+      <scope id="5818559022137027539" at="233,52,233,52" />
+      <scope id="5818559022137027546" at="236,54,236,54" />
+      <scope id="5818559022137027553" at="239,56,239,56" />
+      <scope id="5818559022137027560" at="242,58,242,58" />
+      <scope id="5818559022137027576" at="245,79,245,79" />
+      <scope id="5818559022137027583" at="248,54,248,54" />
+      <scope id="5818559022137027590" at="251,40,251,40" />
+      <scope id="5818559022137542462" at="49,61,50,46" />
+      <scope id="5818559022139200746" at="60,47,61,46" />
+      <scope id="5818559022137356112" at="87,66,88,25" />
+      <scope id="6160935558386899220" at="94,44,95,58" />
+      <scope id="6160935558386899228" at="99,47,100,61" />
+      <scope id="5818559022139147824" at="105,29,106,65" />
+      <scope id="5818559022137563256" at="113,88,114,68" />
+      <scope id="5818559022137470614" at="127,5,128,5">
+        <var name="e" id="5818559022137470616" />
+      </scope>
+      <scope id="5818559022141038381" at="133,34,134,13" />
+      <scope id="5818559022141170176" at="138,48,139,58" />
+      <scope id="6105788070833014611" at="148,68,149,13" />
+      <scope id="2002354044653493987" at="155,31,156,127" />
+      <scope id="6105788070833011900" at="158,15,159,69" />
+      <scope id="5818559022141334351" at="167,43,168,75" />
+      <scope id="5818559022141419826" at="178,43,179,67" />
+      <scope id="5818559022141423444" at="189,43,190,69" />
+      <scope id="5818559022141240351" at="197,82,198,112" />
+      <scope id="6105788070832325463" at="200,90,201,108" />
+      <scope id="6105788070833148463" at="203,88,204,119" />
+      <scope id="6105788070834709343" at="216,64,217,70" />
+      <scope id="5818559022137027530" at="229,62,230,56" />
+      <scope id="6105788070833135562" at="257,43,258,135" />
+      <scope id="6105788070832378108" at="268,43,269,109" />
+      <scope id="6105788070832381096" at="279,43,280,111" />
+      <scope id="6105788070834718202" at="289,56,290,62" />
+      <scope id="6105788070834719987" at="298,58,299,64" />
+      <scope id="5818559022136747412" at="67,27,69,58" />
+      <scope id="5818559022137482264" at="123,36,125,26">
+        <var name="descriptor" id="5818559022137486773" />
+      </scope>
+      <scope id="6105788070833011899" at="151,9,153,49" />
+      <scope id="5818559022139198239" at="59,69,62,7" />
+      <scope id="4966760322458911508" at="75,194,78,15" />
+      <scope id="5818559022137356110" at="86,90,89,5">
+        <var name="module" id="5818559022137356111" />
+      </scope>
+      <scope id="5818559022137552674" at="112,117,115,7" />
+      <scope id="5818559022137563254" at="112,117,115,7">
+        <var name="listener" id="5818559022137563255" />
+      </scope>
+      <scope id="5818559022141038391" at="137,99,140,9" />
+      <scope id="6105788070834520399" at="154,28,157,7" />
+      <scope id="5818559022141205514" at="166,52,169,9" />
+      <scope id="5818559022141419824" at="177,52,180,9" />
+      <scope id="5818559022141423442" at="188,52,191,9" />
+      <scope id="5818559022141240347" at="197,0,200,0">
+        <var name="event" id="5818559022141306832" />
+        <var name="listener" id="5818559022141301626" />
+      </scope>
+      <scope id="6105788070832325460" at="200,0,203,0">
+        <var name="event" id="6105788070832325482" />
+        <var name="listener" id="6105788070832325480" />
+      </scope>
+      <scope id="6105788070833148460" at="203,0,206,0">
+        <var name="event" id="6105788070833148482" />
+        <var name="listener" id="6105788070833148480" />
+      </scope>
+      <scope id="5818559022137027469" at="207,0,210,0">
+        <var name="model" id="5818559022137027473" />
+      </scope>
+      <scope id="5818559022137027483" at="210,0,213,0">
+        <var name="event" id="5818559022137027487" />
+      </scope>
+      <scope id="6105788070834709340" at="216,0,219,0">
+        <var name="listener" id="6105788070834709359" />
+      </scope>
+      <scope id="5818559022137027511" at="221,0,224,0">
+        <var name="event" id="5818559022137027515" />
+      </scope>
+      <scope id="5818559022137027518" at="224,0,227,0">
+        <var name="event" id="5818559022137027522" />
+      </scope>
+      <scope id="5818559022137027533" at="232,0,235,0">
+        <var name="event" id="5818559022137027537" />
+      </scope>
+      <scope id="5818559022137027540" at="235,0,238,0">
+        <var name="event" id="5818559022137027544" />
+      </scope>
+      <scope id="5818559022137027547" at="238,0,241,0">
+        <var name="event" id="5818559022137027551" />
+      </scope>
+      <scope id="5818559022137027554" at="241,0,244,0">
+        <var name="event" id="5818559022137027558" />
+      </scope>
+      <scope id="5818559022137027568" at="244,0,247,0">
+        <var name="model" id="5818559022137027572" />
+        <var name="state" id="5818559022137027574" />
+      </scope>
+      <scope id="5818559022137027577" at="247,0,250,0">
+        <var name="event" id="5818559022137027581" />
+      </scope>
+      <scope id="5818559022137027584" at="250,0,253,0">
+        <var name="model" id="5818559022137027588" />
+      </scope>
+      <scope id="6105788070833135560" at="256,55,259,9" />
+      <scope id="5818559022141100409" at="267,61,270,9" />
+      <scope id="6105788070831023945" at="278,63,281,9" />
+      <scope id="6105788070834718199" at="289,0,292,0">
+        <var name="listener" id="6105788070834718213" />
+      </scope>
+      <scope id="6105788070834719984" at="298,0,301,0">
+        <var name="listener" id="6105788070834719998" />
+      </scope>
+      <scope id="5818559022137542453" at="48,0,52,0" />
+      <scope id="5818559022136747408" at="67,0,71,0" />
+      <scope id="5818559022137274405" at="86,90,90,22" />
+      <scope id="6160935558386899214" at="93,0,97,0">
+        <var name="model" id="6160935558386899215" />
+      </scope>
+      <scope id="6160935558386899222" at="98,0,102,0">
+        <var name="model" id="6160935558386899223" />
+      </scope>
+      <scope id="5818559022139125568" at="103,54,107,5">
+        <var name="descriptor" id="5818559022139147819" />
+      </scope>
+      <scope id="6105788070834520398" at="154,5,158,5">
+        <var name="ex" id="6105788070834520400" />
+      </scope>
+      <scope id="5818559022139198235" at="58,0,63,5">
+        <var name="module" id="5818559022139198237" />
+      </scope>
+      <scope id="5818559022137552670" at="111,24,116,5">
+        <var name="descriptor" id="5818559022137552672" />
+      </scope>
+      <scope id="5818559022137470627" at="121,9,126,7">
+        <var name="descriptorClass" id="5818559022137471599" />
+      </scope>
+      <scope id="5818559022141038388" at="136,123,141,7" />
+      <scope id="5818559022141038389" at="136,123,141,7">
+        <var name="listener" id="5818559022141038390" />
+      </scope>
+      <scope id="5818559022141205511" at="166,0,171,0">
+        <var name="listener" id="5818559022141205522" />
+      </scope>
+      <scope id="5818559022141419821" at="177,0,182,0">
+        <var name="listener" id="5818559022141419840" />
+      </scope>
+      <scope id="5818559022141423439" at="188,0,193,0">
+        <var name="listener" id="5818559022141423458" />
+      </scope>
+      <scope id="5818559022137027496" at="214,62,219,7" />
+      <scope id="5818559022137027525" at="227,0,232,0" />
+      <scope id="6105788070833135557" at="256,0,261,0">
+        <var name="listener" id="6105788070833135579" />
+      </scope>
+      <scope id="5818559022141100405" at="267,0,272,0">
+        <var name="listener" id="5818559022141102079" />
+      </scope>
+      <scope id="6105788070831023942" at="278,0,283,0">
+        <var name="listener" id="6105788070831023953" />
+      </scope>
+      <scope id="5818559022137027619" at="287,54,292,7" />
+      <scope id="5818559022137027627" at="296,56,301,7" />
+      <scope id="5818559022137354058" at="74,66,80,59" />
+      <scope id="5818559022139125564" at="103,0,109,0">
+        <var name="module" id="5818559022139143291" />
+      </scope>
+      <scope id="5818559022137505855" at="110,33,116,5" />
+      <scope id="5818559022137274397" at="85,0,92,0">
+        <var name="modules" id="6160935558386831968" />
+        <var name="progress" id="6160935558386831971" />
+      </scope>
+      <scope id="5818559022141038386" at="135,5,142,5">
+        <var name="concept" id="5818559022141038387" />
+      </scope>
+      <scope id="5818559022137027468" at="164,64,171,7" />
+      <scope id="5818559022137027503" at="175,56,182,7" />
+      <scope id="5818559022137027597" at="254,64,261,7" />
+      <scope id="5818559022137354054" at="73,92,81,5">
+        <var name="module" id="5818559022137354056" />
+      </scope>
+      <scope id="5818559022137505851" at="110,0,118,0" />
+      <scope id="5818559022137027510" at="186,58,194,52" />
+      <scope id="5818559022137027490" at="213,0,221,0">
+        <var name="event" id="5818559022137027494" />
+      </scope>
+      <scope id="5818559022137027604" at="264,64,272,7">
+        <var name="reference" id="6105788070832531998" />
+      </scope>
+      <scope id="5818559022137027611" at="275,66,283,7">
+        <var name="reference" id="6105788070832537988" />
+      </scope>
+      <scope id="5818559022136746034" at="55,41,64,22" />
+      <scope id="5818559022137274395" at="73,92,82,22" />
+      <scope id="5818559022137027612" at="285,0,294,0">
+        <var name="event" id="5818559022137027616" />
+      </scope>
+      <scope id="5818559022137027620" at="294,0,303,0">
+        <var name="event" id="5818559022137027624" />
+      </scope>
+      <scope id="5818559022137439024" at="119,78,129,16">
+        <var name="className" id="5818559022137365269" />
+      </scope>
+      <scope id="5818559022141038366" at="132,173,142,5" />
+      <scope id="5818559022137027462" at="163,0,173,0">
+        <var name="event" id="5818559022137027466" />
+      </scope>
+      <scope id="5818559022137027497" at="174,0,184,0">
+        <var name="event" id="5818559022137027501" />
+      </scope>
+      <scope id="5818559022137027591" at="253,0,263,0">
+        <var name="event" id="5818559022137027595" />
+      </scope>
+      <scope id="5818559022136746030" at="55,0,66,0">
+        <var name="repo" id="8355617120297030194" />
+      </scope>
+      <scope id="5818559022137027504" at="185,0,196,0">
+        <var name="event" id="5818559022137027508" />
+      </scope>
+      <scope id="5818559022137027598" at="263,0,274,0">
+        <var name="event" id="5818559022137027602" />
+      </scope>
+      <scope id="5818559022137027605" at="274,0,285,0">
+        <var name="event" id="5818559022137027609" />
+      </scope>
+      <scope id="5818559022137274387" at="72,0,84,0">
+        <var name="modules" id="6160935558385978419" />
+        <var name="progress" id="6160935558385978421" />
+      </scope>
+      <scope id="5818559022137439020" at="119,0,131,0">
+        <var name="module" id="5818559022137451740" />
+      </scope>
+      <scope id="5818559022141038359" at="132,0,144,0">
+        <var name="affectedConcept" id="5818559022141102707" />
+        <var name="forwarder" id="5818559022141073347" />
+        <var name="listenerType" id="5818559022141057253" />
+      </scope>
+      <scope id="6105788070832920914" at="145,127,160,5" />
+      <scope id="6105788070832920910" at="145,0,162,0">
+        <var name="forwarder" id="6105788070832952566" />
+        <var name="listener" id="6105788070832956793" />
+      </scope>
+      <unit id="6105788070834709338" at="215,85,219,5" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$5" />
+      <unit id="6105788070834718197" at="288,77,292,5" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$9" />
+      <unit id="6105788070834719982" at="297,79,301,5" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$10" />
+      <unit id="5818559022137541174" at="47,71,52,3" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$1" />
+      <unit id="5818559022141205509" at="165,75,171,5" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$2" />
+      <unit id="5818559022141419819" at="176,75,182,5" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$3" />
+      <unit id="5818559022141423437" at="187,75,193,5" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$4" />
+      <unit id="6105788070833135555" at="255,76,261,5" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$6" />
+      <unit id="5818559022141100403" at="266,92,272,5" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$7" />
+      <unit id="6105788070831023940" at="277,94,283,5" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener$8" />
+      <unit id="5818559022136709138" at="44,0,305,0" name="com.mbeddr.mpsutil.modellisteners.runtime.GlobalListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/5818559022137060383">
+    <file name="IChildListener.java">
+      <node id="5818559022137062850" at="9,0,10,0" concept="5" trace="getRole#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
+      <node id="5818559022137071235" at="11,0,12,0" concept="5" trace="beforeChildRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5818559022137085136" at="12,0,13,0" concept="5" trace="childAdded#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5818559022137078877" at="13,0,14,0" concept="5" trace="childRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="5818559022137062850" at="9,0,10,0" />
+      <scope id="5818559022137071235" at="11,0,12,0">
+        <var name="child" id="5818559022137074786" />
+        <var name="parent" id="5818559022137074128" />
+      </scope>
+      <scope id="5818559022137085136" at="12,0,13,0">
+        <var name="child" id="5818559022137085139" />
+        <var name="parent" id="5818559022137085137" />
+      </scope>
+      <scope id="5818559022137078877" at="13,0,14,0">
+        <var name="child" id="5818559022137081113" />
+        <var name="parent" id="5818559022137080439" />
+      </scope>
+      <unit id="5818559022137060383" at="8,0,16,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IChildListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/5818559022137071697">
+    <file name="IModelListener.java">
+      <node id="6105788070832018758" at="8,0,9,0" concept="5" trace="getParentConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <scope id="6105788070832018758" at="8,0,9,0" />
+      <unit id="5818559022137071697" at="7,0,10,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IModelListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/5818559022137082779">
+    <file name="IModelListenersDescriptor.java">
+      <node id="5818559022137360512" at="7,0,8,0" concept="10" trace="CLASS_NAME" />
+      <node id="5818559022137093133" at="9,0,10,0" concept="5" trace="getListeners#()Ljava/lang/Iterable;" />
+      <scope id="5818559022137093133" at="9,0,10,0" />
+      <unit id="5818559022137082779" at="6,0,11,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IModelListenersDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/5818559022137095331">
+    <file name="AbstractModelListenersDescriptor.java">
+      <unit id="5818559022137095331" at="6,0,8,0" name="com.mbeddr.mpsutil.modellisteners.runtime.AbstractModelListenersDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/5818559022138171465">
+    <file name="ChildListener.java">
+      <node id="5818559022138178120" at="12,0,13,0" concept="2" trace="myRole" />
+      <node id="6105788070834688486" at="14,73,15,19" concept="12" />
+      <node id="5818559022138179603" at="15,19,16,18" concept="1" />
+      <node id="9062115194024357625" at="19,65,20,43" concept="13" />
+      <node id="5818559022138179068" at="23,37,24,18" concept="7" />
+      <node id="5818559022138172396" at="27,0,29,0" concept="5" trace="beforeChildRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5818559022138172405" at="30,0,32,0" concept="5" trace="childAdded#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5818559022138172414" at="33,0,35,0" concept="5" trace="childRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9062115194024349710" at="19,0,22,0" concept="0" trace="ChildListener#(Lorg/jetbrains/mps/openapi/language/SConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)V" />
+      <node id="5818559022138172430" at="23,0,26,0" concept="5" trace="getRole#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
+      <node id="5818559022138179585" at="14,0,18,0" concept="0" trace="ChildListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)V" />
+      <scope id="5818559022138172404" at="27,61,27,61" />
+      <scope id="5818559022138172413" at="30,53,30,53" />
+      <scope id="5818559022138172422" at="33,55,33,55" />
+      <scope id="9062115194024349713" at="19,65,20,43" />
+      <scope id="5818559022138172434" at="23,37,24,18" />
+      <scope id="5818559022138179589" at="14,73,16,18" />
+      <scope id="5818559022138172396" at="27,0,29,0">
+        <var name="child" id="5818559022138172399" />
+        <var name="parent" id="5818559022138172397" />
+      </scope>
+      <scope id="5818559022138172405" at="30,0,32,0">
+        <var name="child" id="5818559022138172408" />
+        <var name="parent" id="5818559022138172406" />
+      </scope>
+      <scope id="5818559022138172414" at="33,0,35,0">
+        <var name="child" id="5818559022138172417" />
+        <var name="parent" id="5818559022138172415" />
+      </scope>
+      <scope id="9062115194024349710" at="19,0,22,0">
+        <var name="concept" id="9062115194024351099" />
+        <var name="role" id="9062115194024351496" />
+      </scope>
+      <scope id="5818559022138172430" at="23,0,26,0" />
+      <scope id="5818559022138179585" at="14,0,18,0">
+        <var name="concept" id="5818559022138179592" />
+        <var name="role" id="5818559022138179602" />
+      </scope>
+      <unit id="5818559022138171465" at="10,0,36,0" name="com.mbeddr.mpsutil.modellisteners.runtime.ChildListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/5818559022141030365">
+    <file name="IReferenceAddedListener.java">
+      <node id="5818559022141191696" at="9,0,10,0" concept="5" trace="referenceAdded#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <scope id="5818559022141191696" at="9,0,10,0">
+        <var name="role" id="6105788070832528231" />
+        <var name="sourceNode" id="6105788070832528227" />
+        <var name="targetNode" id="6105788070832528229" />
+      </scope>
+      <unit id="5818559022141030365" at="8,0,11,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IReferenceAddedListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/5818559022141088253">
+    <file name="IForwarder.java">
+      <node id="5818559022141094246" at="7,0,8,0" concept="5" trace="forward#(null)V" />
+      <scope id="5818559022141094246" at="7,0,8,0">
+        <var name="listener" id="5818559022141135320" />
+      </scope>
+      <unit id="5818559022141088253" at="6,0,9,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IForwarder" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070830995637">
+    <file name="ReferenceListener.java">
+      <node id="6105788070830995642" at="11,0,12,0" concept="2" trace="myRole" />
+      <node id="6105788070834683023" at="13,75,14,19" concept="12" />
+      <node id="6105788070830995654" at="14,19,15,18" concept="1" />
+      <node id="9062115194024485473" at="18,67,19,45" concept="13" />
+      <node id="6105788070830995674" at="22,35,23,18" concept="7" />
+      <node id="9062115194024484752" at="18,0,21,0" concept="0" trace="ReferenceListener#(Lorg/jetbrains/mps/openapi/language/SConcept;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <node id="6105788070830995670" at="22,0,25,0" concept="5" trace="getRole#()Lorg/jetbrains/mps/openapi/language/SReferenceLink;" />
+      <node id="6105788070830995646" at="13,0,17,0" concept="0" trace="ReferenceListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <scope id="9062115194024484755" at="18,67,19,45" />
+      <scope id="6105788070830995673" at="22,35,23,18" />
+      <scope id="6105788070830995649" at="13,75,15,18" />
+      <scope id="9062115194024484752" at="18,0,21,0">
+        <var name="concept" id="9062115194024485178" />
+        <var name="role" id="9062115194024485264" />
+      </scope>
+      <scope id="6105788070830995670" at="22,0,25,0" />
+      <scope id="6105788070830995646" at="13,0,17,0">
+        <var name="concept" id="6105788070830995658" />
+        <var name="role" id="6105788070830995660" />
+      </scope>
+      <unit id="6105788070830995637" at="9,0,26,0" name="com.mbeddr.mpsutil.modellisteners.runtime.ReferenceListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070831005499">
+    <file name="IReferenceListener.java">
+      <node id="6105788070831005905" at="8,0,9,0" concept="5" trace="getRole#()Lorg/jetbrains/mps/openapi/language/SReferenceLink;" />
+      <scope id="6105788070831005905" at="8,0,9,0" />
+      <unit id="6105788070831005499" at="7,0,10,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IReferenceListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070831009471">
+    <file name="IReferenceRemovedListener.java">
+      <node id="6105788070831009472" at="9,0,10,0" concept="5" trace="referenceRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <scope id="6105788070831009472" at="9,0,10,0">
+        <var name="role" id="6105788070832528555" />
+        <var name="sourceNode" id="6105788070832528551" />
+        <var name="targetNode" id="6105788070832528553" />
+      </scope>
+      <unit id="6105788070831009471" at="8,0,11,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IReferenceRemovedListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070831030898">
+    <file name="ReferenceAddedListener.java">
+      <node id="6105788070831032243" at="10,80,11,25" concept="12" />
+      <node id="9062115194024479768" at="14,72,15,45" concept="13" />
+      <node id="6105788070831032237" at="10,0,13,0" concept="0" trace="ReferenceAddedListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <node id="9062115194024479540" at="14,0,17,0" concept="0" trace="ReferenceAddedListener#(Lorg/jetbrains/mps/openapi/language/SConcept;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <scope id="6105788070831032241" at="10,80,11,25" />
+      <scope id="9062115194024479543" at="14,72,15,45" />
+      <scope id="6105788070831032237" at="10,0,13,0">
+        <var name="concept" id="6105788070831032244" />
+        <var name="role" id="6105788070831032248" />
+      </scope>
+      <scope id="9062115194024479540" at="14,0,17,0">
+        <var name="concept" id="9062115194024479627" />
+        <var name="role" id="9062115194024479659" />
+      </scope>
+      <unit id="6105788070831030898" at="9,0,18,0" name="com.mbeddr.mpsutil.modellisteners.runtime.ReferenceAddedListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070831033254">
+    <file name="ReferenceRemovedListener.java">
+      <node id="6105788070831034306" at="10,82,11,25" concept="12" />
+      <node id="9062115194024489947" at="14,74,15,45" concept="13" />
+      <node id="6105788070831034300" at="10,0,13,0" concept="0" trace="ReferenceRemovedListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <node id="9062115194024489585" at="14,0,17,0" concept="0" trace="ReferenceRemovedListener#(Lorg/jetbrains/mps/openapi/language/SConcept;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <scope id="6105788070831034304" at="10,82,11,25" />
+      <scope id="9062115194024489588" at="14,74,15,45" />
+      <scope id="6105788070831034300" at="10,0,13,0">
+        <var name="concept" id="6105788070831034307" />
+        <var name="role" id="6105788070831034311" />
+      </scope>
+      <scope id="9062115194024489585" at="14,0,17,0">
+        <var name="concept" id="9062115194024489685" />
+        <var name="role" id="9062115194024489730" />
+      </scope>
+      <unit id="6105788070831033254" at="9,0,18,0" name="com.mbeddr.mpsutil.modellisteners.runtime.ReferenceRemovedListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070833121772">
+    <file name="IPropertyListener.java">
+      <node id="6105788070833171029" at="9,0,10,0" concept="5" trace="getProperty#()Lorg/jetbrains/mps/openapi/language/SProperty;" />
+      <node id="6105788070833125429" at="10,0,11,0" concept="5" trace="propertyChanged#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="6105788070833171029" at="9,0,10,0" />
+      <scope id="6105788070833125429" at="10,0,11,0">
+        <var name="newValue" id="6105788070833127197" />
+        <var name="node" id="6105788070833126257" />
+        <var name="oldValue" id="6105788070833126710" />
+        <var name="propertyName" id="6105788070833132510" />
+      </scope>
+      <unit id="6105788070833121772" at="8,0,12,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IPropertyListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070833267143">
+    <file name="PropertyListener.java">
+      <node id="6105788070833272396" at="11,0,12,0" concept="2" trace="myProperty" />
+      <node id="6105788070834685265" at="13,73,14,19" concept="12" />
+      <node id="6105788070833273406" at="14,19,15,26" concept="1" />
+      <node id="9062115194024456732" at="18,65,19,47" concept="13" />
+      <node id="6105788070833279051" at="23,34,24,22" concept="7" />
+      <node id="9062115194024455971" at="18,0,21,0" concept="0" trace="PropertyListener#(Lorg/jetbrains/mps/openapi/language/SConcept;Lorg/jetbrains/mps/openapi/language/SProperty;)V" />
+      <node id="6105788070833273388" at="13,0,17,0" concept="0" trace="PropertyListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SProperty;)V" />
+      <node id="6105788070833270666" at="22,0,26,0" concept="5" trace="getProperty#()Lorg/jetbrains/mps/openapi/language/SProperty;" />
+      <scope id="9062115194024455974" at="18,65,19,47" />
+      <scope id="6105788070833270670" at="23,34,24,22" />
+      <scope id="6105788070833273392" at="13,73,15,26" />
+      <scope id="9062115194024455971" at="18,0,21,0">
+        <var name="concept" id="9062115194024456374" />
+        <var name="property" id="9062115194024456489" />
+      </scope>
+      <scope id="6105788070833273388" at="13,0,17,0">
+        <var name="concept" id="6105788070833273395" />
+        <var name="property" id="6105788070833273405" />
+      </scope>
+      <scope id="6105788070833270666" at="22,0,26,0" />
+      <unit id="6105788070833267143" at="9,0,27,0" name="com.mbeddr.mpsutil.modellisteners.runtime.PropertyListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070834666379">
+    <file name="IRootListener.java">
+      <unit id="6105788070834666379" at="6,0,8,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IRootListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070834670772">
+    <file name="IRootAddedListener.java">
+      <node id="6105788070834671403" at="9,0,10,0" concept="5" trace="rootAdded#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="6105788070834671403" at="9,0,10,0">
+        <var name="model" id="6105788070834672873" />
+        <var name="root" id="6105788070834672425" />
+      </scope>
+      <unit id="6105788070834670772" at="8,0,11,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IRootAddedListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070834673345">
+    <file name="IRootRemovedListener.java">
+      <node id="6105788070834673346" at="9,0,10,0" concept="5" trace="rootRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="6105788070834673346" at="9,0,10,0">
+        <var name="model" id="6105788070834673349" />
+        <var name="root" id="6105788070834673347" />
+      </scope>
+      <unit id="6105788070834673345" at="8,0,11,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IRootRemovedListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070834675343">
+    <file name="IRootBeforeRemovedListener.java">
+      <node id="6105788070834676034" at="9,0,10,0" concept="5" trace="beforeRootRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="6105788070834676034" at="9,0,10,0">
+        <var name="model" id="6105788070834676037" />
+        <var name="root" id="6105788070834676035" />
+      </scope>
+      <unit id="6105788070834675343" at="8,0,11,0" name="com.mbeddr.mpsutil.modellisteners.runtime.IRootBeforeRemovedListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070834678823">
+    <file name="ModelListener.java">
+      <node id="6105788070834681561" at="9,0,10,0" concept="2" trace="myConcept" />
+      <node id="6105788070834681762" at="11,50,12,24" concept="1" />
+      <node id="6105788070834682004" at="15,46,16,21" concept="7" />
+      <node id="6105788070834681052" at="11,0,14,0" concept="0" trace="ModelListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="6105788070834680625" at="15,0,18,0" concept="5" trace="getParentConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <scope id="6105788070834681056" at="11,50,12,24" />
+      <scope id="6105788070834680629" at="15,46,16,21" />
+      <scope id="6105788070834681052" at="11,0,14,0">
+        <var name="concept" id="6105788070834681142" />
+      </scope>
+      <scope id="6105788070834680625" at="15,0,18,0" />
+      <unit id="6105788070834678823" at="7,0,19,0" name="com.mbeddr.mpsutil.modellisteners.runtime.ModelListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070834693753">
+    <file name="RootListener.java">
+      <node id="6105788070834694800" at="8,49,9,19" concept="12" />
+      <node id="6105788070834694794" at="8,0,11,0" concept="0" trace="RootListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <scope id="6105788070834694798" at="8,49,9,19" />
+      <scope id="6105788070834694794" at="8,0,11,0">
+        <var name="concept" id="6105788070834694801" />
+      </scope>
+      <unit id="6105788070834693753" at="7,0,12,0" name="com.mbeddr.mpsutil.modellisteners.runtime.RootListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070834695458">
+    <file name="RootAddedListener.java">
+      <node id="6105788070834696732" at="9,54,10,19" concept="12" />
+      <node id="9062115194024494079" at="13,46,14,39" concept="13" />
+      <node id="6105788070834696726" at="9,0,12,0" concept="0" trace="RootAddedListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="9062115194024491348" at="13,0,16,0" concept="0" trace="RootAddedListener#(Lorg/jetbrains/mps/openapi/language/SConcept;)V" />
+      <scope id="6105788070834696730" at="9,54,10,19" />
+      <scope id="9062115194024491351" at="13,46,14,39" />
+      <scope id="6105788070834696726" at="9,0,12,0">
+        <var name="concept" id="6105788070834696733" />
+      </scope>
+      <scope id="9062115194024491348" at="13,0,16,0">
+        <var name="concept" id="9062115194024491427" />
+      </scope>
+      <unit id="6105788070834695458" at="8,0,17,0" name="com.mbeddr.mpsutil.modellisteners.runtime.RootAddedListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070834697052">
+    <file name="RootRemovedListener.java">
+      <node id="6105788070834697060" at="9,56,10,19" concept="12" />
+      <node id="9062115194024496546" at="13,48,14,39" concept="13" />
+      <node id="6105788070834697056" at="9,0,12,0" concept="0" trace="RootRemovedListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="9062115194024496363" at="13,0,16,0" concept="0" trace="RootRemovedListener#(Lorg/jetbrains/mps/openapi/language/SConcept;)V" />
+      <scope id="6105788070834697059" at="9,56,10,19" />
+      <scope id="9062115194024496366" at="13,48,14,39" />
+      <scope id="6105788070834697056" at="9,0,12,0">
+        <var name="concept" id="6105788070834697062" />
+      </scope>
+      <scope id="9062115194024496363" at="13,0,16,0">
+        <var name="concept" id="9062115194024496442" />
+      </scope>
+      <unit id="6105788070834697052" at="8,0,17,0" name="com.mbeddr.mpsutil.modellisteners.runtime.RootRemovedListener" />
+    </file>
+  </root>
+  <root nodeRef="r:0fac2319-607e-4342-a163-7b982bbd957e(com.mbeddr.mpsutil.modellisteners.runtime)/6105788070834697517">
+    <file name="RootBeforeRemovedListener.java">
+      <node id="6105788070834697525" at="9,62,10,19" concept="12" />
+      <node id="9062115194024495341" at="13,54,14,39" concept="13" />
+      <node id="6105788070834697521" at="9,0,12,0" concept="0" trace="RootBeforeRemovedListener#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="9062115194024495068" at="13,0,16,0" concept="0" trace="RootBeforeRemovedListener#(Lorg/jetbrains/mps/openapi/language/SConcept;)V" />
+      <scope id="6105788070834697524" at="9,62,10,19" />
+      <scope id="9062115194024495071" at="13,54,14,39" />
+      <scope id="6105788070834697521" at="9,0,12,0">
+        <var name="concept" id="6105788070834697527" />
+      </scope>
+      <scope id="9062115194024495068" at="13,0,16,0">
+        <var name="concept" id="9062115194024495147" />
+      </scope>
+      <unit id="6105788070834697517" at="8,0,17,0" name="com.mbeddr.mpsutil.modellisteners.runtime.RootBeforeRemovedListener" />
+    </file>
+  </root>
+</debug-info>
+

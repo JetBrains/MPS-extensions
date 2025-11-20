@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-alq9lxp63z0tmcgyi5yanmpb1f1vcy4">
+  <files names="IntentionsDescriptor.java:TypeSwitchCase_AddRemoveMapping_Intention.java:TypeSwitch_AddRemoveDefaultCase_Intention.java:addAlternative_Intention.java:addChild_Intention.java:addInheritDoc_Intention.java:addLogCtx_Intention.java:addName_Intention.java:addOrRemoveDoc_Intention.java:addTypeGuard_Intention.java:convertToLog_Intention.java:deleteLogsInRoot_Intention.java:disableLogging_Intention.java:enableAllLogging_Intention.java:logExpr_Intention.java:logLocalVar_Intention.java:logWaypoint_Intention.java:replaceWithOfConceptOp_Intention.java:replaceWithQuotation_Intention.java:replaceWithReflectiveAccess_Intention.java:replaceWithSafeReadAction_Intention.java:toggleIncomplete_Intention.java:toggleLineDoc_Intention.java:toggleOnChange_Intention.java:toggleStaticImportView_Intention.java" />
+</product>
+

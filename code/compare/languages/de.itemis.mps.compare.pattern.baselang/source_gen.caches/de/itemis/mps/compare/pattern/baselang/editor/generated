@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-dozghwchknrirs3zb2ku5gfz6a9y190">
+  <files names="AnnotationTarget_Editor.java:AnnotationTarget_EditorBuilder_a.java:AnnotationTarget_SubstituteMenu.java:EditorAspectDescriptorImpl.java:GetOperation_Editor.java:GetOperation_EditorBuilder_a.java:InitPartAccessorOperation_Editor.java:InitPartAccessorOperation_EditorBuilder_a.java:InitPartAccessorOperation_SubstituteMenu.java:IsMatchOperation_Editor.java:IsMatchOperation_EditorBuilder_a.java:MatchOperation_Editor.java:MatchOperation_EditorBuilder_a.java:MatchResultType_Editor.java:MatchResultType_EditorBuilder_a.java:NamedGetTarget_Editor.java:NamedGetTarget_EditorBuilder_a.java:PatternHint_ActionMap.java:PatternHint_Create_Contribution.java:PatternHint_Editor.java:PatternHint_EditorBuilder_a.java:PatternHint_SubstituteMenu.java" />
+</product>
+

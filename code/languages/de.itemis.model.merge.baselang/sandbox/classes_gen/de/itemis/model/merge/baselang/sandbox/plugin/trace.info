@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="8,0,13,0" name="de.itemis.model.merge.baselang.sandbox.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fe6cc855-59c6-4cf0-8bd9-320ea928101c(de.itemis.model.merge.baselang.sandbox.plugin)/4067136700976411877">
+    <file name="ConceptWithProperty_mergepolicy_ConceptWithProperty_jegugo_c.java">
+      <node id="3499368519007588156" at="23,35,24,31" concept="3" />
+      <node id="6699896504612470579" at="28,52,29,130" concept="3" />
+      <node id="9140426451449119961" at="35,42,36,68" concept="3" />
+      <node id="3499368519007584870" at="40,32,41,30" concept="3" />
+      <node id="3499368519007584870" at="45,0,46,0" concept="4" trace="ConceptWithProperty$lL" />
+      <node id="3499368519007584870" at="49,0,50,0" concept="4" trace="mergeid$5Lst" />
+      <node id="3499368519007584870" at="50,0,51,0" concept="4" trace="data$hkMD" />
+      <node id="3499368519007584870" at="51,0,52,0" concept="4" trace="virtualPackage$EkXl" />
+      <node id="3499368519007584870" at="35,0,38,0" concept="2" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3499368519007588156" at="22,0,26,0" concept="2" trace="property#()Lorg/jetbrains/mps/openapi/language/SProperty;" />
+      <node id="3499368519007588156" at="27,0,31,0" concept="2" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="3499368519007584870" at="39,0,43,0" concept="2" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3499368519007584870" at="20,73,31,124" concept="5" />
+      <node id="3499368519007584870" at="20,0,33,0" concept="1" trace="ConceptWithProperty_mergepolicy_ConceptWithProperty_jegugo_c#()V" />
+      <scope id="3499368519007588156" at="23,35,24,31" />
+      <scope id="3499368519007588156" at="28,52,29,130" />
+      <scope id="3499368519007584870" at="35,42,36,68" />
+      <scope id="3499368519007584870" at="40,32,41,30" />
+      <scope id="3499368519007584870" at="35,0,38,0">
+        <var name="instance" id="3499368519007584870" />
+      </scope>
+      <scope id="3499368519007588156" at="22,0,26,0" />
+      <scope id="3499368519007588156" at="27,0,31,0">
+        <var name="left" id="3499368519007588156" />
+        <var name="right" id="3499368519007588156" />
+      </scope>
+      <scope id="3499368519007584870" at="39,0,43,0">
+        <var name="node" id="3499368519007584870" />
+      </scope>
+      <scope id="3499368519007584870" at="20,73,31,124" />
+      <scope id="3499368519007584870" at="20,0,33,0" />
+      <unit id="3499368519007584870" at="44,0,47,0" name="de.itemis.model.merge.baselang.sandbox.plugin.ConceptWithProperty_mergepolicy_ConceptWithProperty_jegugo_c$CONCEPTS" />
+      <unit id="3499368519007584870" at="48,0,53,0" name="de.itemis.model.merge.baselang.sandbox.plugin.ConceptWithProperty_mergepolicy_ConceptWithProperty_jegugo_c$PROPS" />
+      <unit id="3499368519007588156" at="21,115,31,5" name="de.itemis.model.merge.baselang.sandbox.plugin.ConceptWithProperty_mergepolicy_ConceptWithProperty_jegugo_c$1" />
+      <unit id="3499368519007584870" at="18,0,54,0" name="de.itemis.model.merge.baselang.sandbox.plugin.ConceptWithProperty_mergepolicy_ConceptWithProperty_jegugo_c" />
+    </file>
+    <file name="SimplePropertyMerger2.java">
+      <node id="4067136700976411877" at="16,22,17,55" concept="3" />
+      <node id="4067136700976411877" at="20,59,21,111" concept="3" />
+      <node id="4067136700976411877" at="12,0,14,0" concept="1" trace="SimplePropertyMerger2#()V" />
+      <node id="4067136700976411877" at="15,0,19,0" concept="2" trace="id#()Ljava/lang/String;" />
+      <node id="4067136700976411877" at="19,0,23,0" concept="2" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="4067136700976411877" at="12,34,12,34" />
+      <scope id="4067136700976411877" at="16,22,17,55" />
+      <scope id="4067136700976411877" at="20,59,21,111" />
+      <scope id="4067136700976411877" at="12,0,14,0" />
+      <scope id="4067136700976411877" at="15,0,19,0" />
+      <scope id="4067136700976411877" at="19,0,23,0" />
+      <unit id="4067136700976411877" at="10,0,24,0" name="de.itemis.model.merge.baselang.sandbox.plugin.SimplePropertyMerger2" />
+    </file>
+    <file name="SimplePropertyMerger2_extension.java">
+      <node id="4067136700976411877" at="9,44,10,49" concept="5" />
+      <node id="4067136700976411877" at="14,32,15,39" concept="3" />
+      <node id="4067136700976411877" at="9,0,12,0" concept="1" trace="SimplePropertyMerger2_extension#()V" />
+      <node id="4067136700976411877" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="4067136700976411877" at="9,44,10,49" />
+      <scope id="4067136700976411877" at="14,32,15,39" />
+      <scope id="4067136700976411877" at="9,0,12,0" />
+      <scope id="4067136700976411877" at="14,0,17,0" />
+      <unit id="4067136700976411877" at="8,0,18,0" name="de.itemis.model.merge.baselang.sandbox.plugin.SimplePropertyMerger2_extension" />
+    </file>
+  </root>
+</debug-info>
+

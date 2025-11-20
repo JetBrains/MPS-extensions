@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-fpxp8nezakjy771o9otk67wmyj6ige">
+  <files names="ClipboardListener_AppPluginPart.java:ClipboardTableUtils.java:CopyPasteManager.java:CopyPasteSupport.java:DataTransformer.java:DeleteTableColumn_Action.java:DeleteTableRow_Action.java:DragSelectionHandlerEP_extension.java:ExtensionDescriptor.java:IconContainer.java:InsertTableColumnAfter_Action.java:InsertTableColumnBefore_Action.java:InsertTableRowAfter_Action.java:InsertTableRowBefore_Action.java:InstanceOfCondition.java:Runtime_ApplicationPlugin.java:TableActions_ActionGroup.java:TableCopyStorage.java:TableData.java:TableDataParser.java:TableDataSeparator.java:TableRangeSelectionHandler.java:TableTransformationManager.java" />
+</product>
+

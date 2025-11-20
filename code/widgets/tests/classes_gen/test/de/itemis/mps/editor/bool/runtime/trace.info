@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:6b515e35-40b7-4967-8720-7f20d3eea96c(test.de.itemis.mps.editor.bool.runtime@tests)/8742029641988411102">
+    <file name="ImageLoadingTest_Test.java">
+      <node id="8742029641988411102" at="22,34,23,60" concept="6" />
+      <node id="8742029641988411106" at="27,49,28,40" concept="1" />
+      <node id="4061776605684065383" at="31,49,32,40" concept="1" />
+      <node id="8742029641988411102" at="37,52,38,19" concept="6" />
+      <node id="8742029641988411102" at="42,36,43,46" concept="1" />
+      <node id="8742029641988411106" at="46,51,47,22" concept="1" />
+      <node id="8742029641988463742" at="48,30,49,135" concept="3" />
+      <node id="8742029641988477659" at="49,135,50,0" concept="4" />
+      <node id="8742029641988477731" at="50,0,51,36" concept="1" />
+      <node id="4061776605684065383" at="54,51,55,22" concept="1" />
+      <node id="4061776605684065531" at="56,30,57,124" concept="1" />
+      <node id="4061776605684127268" at="57,124,58,125" concept="1" />
+      <node id="4061776605684182595" at="58,125,59,126" concept="1" />
+      <node id="8742029641988411102" at="19,0,21,0" concept="5" trace="ourParametersCacheExtension" />
+      <node id="8742029641988411102" at="22,0,25,0" concept="0" trace="ImageLoadingTest_Test#()V" />
+      <node id="8742029641988411102" at="37,0,40,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8742029641988411106" at="26,0,30,0" concept="2" trace="test_loadImage#()V" />
+      <node id="4061776605684065383" at="30,0,34,0" concept="2" trace="test_wrongPath#()V" />
+      <node id="8742029641988411102" at="41,0,45,0" concept="2" trace="initTestNodes#()V" />
+      <node id="8742029641988411106" at="47,22,52,9" concept="1" />
+      <node id="4061776605684065383" at="55,22,60,9" concept="1" />
+      <node id="8742029641988411106" at="46,0,54,0" concept="2" trace="test_loadImage#()V" />
+      <node id="4061776605684065383" at="54,0,62,0" concept="2" trace="test_wrongPath#()V" />
+      <scope id="8742029641988411102" at="22,34,23,60" />
+      <scope id="8742029641988411106" at="27,49,28,40" />
+      <scope id="4061776605684065383" at="31,49,32,40" />
+      <scope id="8742029641988411102" at="37,52,38,19" />
+      <scope id="8742029641988411102" at="42,36,43,46" />
+      <scope id="8742029641988411102" at="22,0,25,0" />
+      <scope id="8742029641988411102" at="37,0,40,0">
+        <var name="owner" id="8742029641988411102" />
+      </scope>
+      <scope id="8742029641988411106" at="48,30,51,36">
+        <var name="image" id="8742029641988463743" />
+      </scope>
+      <scope id="4061776605684065383" at="56,30,59,126" />
+      <scope id="8742029641988411106" at="26,0,30,0" />
+      <scope id="4061776605684065383" at="30,0,34,0" />
+      <scope id="8742029641988411102" at="41,0,45,0" />
+      <scope id="8742029641988411106" at="46,51,52,9" />
+      <scope id="4061776605684065383" at="54,51,60,9" />
+      <scope id="8742029641988411106" at="46,0,54,0" />
+      <scope id="4061776605684065383" at="54,0,62,0" />
+      <unit id="8742029641988411102" at="35,0,64,0" name="test.de.itemis.mps.editor.bool.runtime.ImageLoadingTest_Test$TestBody" />
+      <unit id="8742029641988411102" at="17,0,65,0" name="test.de.itemis.mps.editor.bool.runtime.ImageLoadingTest_Test" />
+    </file>
+  </root>
+</debug-info>
+

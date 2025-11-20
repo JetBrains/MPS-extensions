@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="14,0,32,0" name="de.itemis.mps.editor.bool.behavior.BehaviorAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:1b386250-86de-4ea6-8d77-819aebd33e4a(de.itemis.mps.editor.bool.behavior)/5474165673714973826">
+    <file name="CellModel_Checkbox__BehaviorDescriptor.java">
+      <node id="5474165673714973826" at="27,0,28,0" concept="8" trace="CONCEPT" />
+      <node id="5474165673714973826" at="29,0,30,0" concept="8" trace="getTrueIconDefaultPath_id4JS9aP7qJPf" />
+      <node id="5474165673714973826" at="30,0,31,0" concept="8" trace="getTrueIconDefaultScale_id4JS9aP7rOp1" />
+      <node id="5474165673714973826" at="31,0,32,0" concept="8" trace="getFalseIconDefaultPath_id4JS9aP7rOuJ" />
+      <node id="5474165673714973826" at="32,0,33,0" concept="8" trace="getFalseIconDefaultScale_id4JS9aP7rOwq" />
+      <node id="5474165673714973826" at="33,0,34,0" concept="8" trace="getTrueIconPath_id4JS9aP7qJW1" />
+      <node id="5474165673714973826" at="34,0,35,0" concept="8" trace="getFalseIconPath_id4JS9aP7scIS" />
+      <node id="5474165673714973826" at="35,0,36,0" concept="8" trace="getTrueIconScale_id4JS9aP7scN6" />
+      <node id="5474165673714973826" at="36,0,37,0" concept="8" trace="getFalseIconScale_id4JS9aP7scRN" />
+      <node id="5474165673714973826" at="37,0,38,0" concept="8" trace="findCheckboxDefaultIconNode_id4JS9aP7rKX_" />
+      <node id="5474165673714973826" at="39,0,40,0" concept="8" trace="BH_METHODS" />
+      <node id="5474165673715252704" at="44,95,45,169" concept="6" />
+      <node id="5474165673715259569" at="47,96,48,135" concept="5" />
+      <node id="5474165673715259713" at="48,135,49,0" concept="7" />
+      <node id="5474165673715546715" at="49,0,50,150" concept="6" />
+      <node id="5474165673715255219" at="52,96,53,170" concept="6" />
+      <node id="5474165673715332407" at="55,97,56,135" concept="5" />
+      <node id="5474165673715332411" at="56,135,57,0" concept="7" />
+      <node id="5474165673715335995" at="57,0,58,151" concept="6" />
+      <node id="5474165673714974481" at="60,88,61,270" concept="6" />
+      <node id="5474165673715354556" at="63,89,64,273" concept="6" />
+      <node id="5474165673716611913" at="69,102,70,107" concept="6" />
+      <node id="5474165673716616421" at="71,16,72,21" concept="6" />
+      <node id="5474165673716613717" at="74,14,75,124" concept="6" />
+      <node id="5474165673715423061" at="77,39,78,17" concept="6" />
+      <node id="5474165673716619337" at="84,103,85,108" concept="6" />
+      <node id="5474165673716619349" at="86,16,87,21" concept="6" />
+      <node id="5474165673716619358" at="89,14,90,125" concept="6" />
+      <node id="5474165673716619364" at="92,39,93,17" concept="6" />
+      <node id="5474165673716049076" at="96,99,97,156" concept="6" />
+      <node id="5474165673714973826" at="104,114,105,21" concept="2" />
+      <node id="5474165673714973826" at="109,114,110,49" concept="5" />
+      <node id="5474165673714973826" at="111,26,112,56" concept="11" />
+      <node id="5474165673714973826" at="115,13,116,73" concept="6" />
+      <node id="5474165673714973826" at="117,13,118,74" concept="6" />
+      <node id="5474165673714973826" at="119,13,120,74" concept="6" />
+      <node id="5474165673714973826" at="121,13,122,75" concept="6" />
+      <node id="5474165673714973826" at="123,13,124,66" concept="6" />
+      <node id="5474165673714973826" at="125,13,126,67" concept="6" />
+      <node id="5474165673714973826" at="127,13,128,67" concept="6" />
+      <node id="5474165673714973826" at="129,13,130,68" concept="6" />
+      <node id="5474165673714973826" at="131,13,132,77" concept="6" />
+      <node id="5474165673714973826" at="133,14,134,58" concept="11" />
+      <node id="5474165673714973826" at="139,128,140,49" concept="5" />
+      <node id="5474165673714973826" at="141,26,142,56" concept="11" />
+      <node id="5474165673714973826" at="145,14,146,58" concept="11" />
+      <node id="5474165673714973826" at="152,48,153,22" concept="6" />
+      <node id="5474165673714973826" at="158,40,159,19" concept="6" />
+      <node id="5474165673714980039" at="161,55,162,43" concept="6" />
+      <node id="5474165673714973826" at="166,0,167,0" concept="8" trace="iconPathTrue$r3Ht" />
+      <node id="5474165673714973826" at="167,0,168,0" concept="8" trace="iconScaleTrue$jL6a" />
+      <node id="5474165673714973826" at="168,0,169,0" concept="8" trace="iconPathFalse$r3Wu" />
+      <node id="5474165673714973826" at="169,0,170,0" concept="8" trace="iconScaleFalse$jLlb" />
+      <node id="5474165673714973826" at="170,0,171,0" concept="8" trace="iconPathTrue$aq2M" />
+      <node id="5474165673714973826" at="171,0,172,0" concept="8" trace="iconPathFalse$Flap" />
+      <node id="5474165673714973826" at="172,0,173,0" concept="8" trace="iconScaleTrue$u40w" />
+      <node id="5474165673714973826" at="173,0,174,0" concept="8" trace="iconScaleFalse$u4W$" />
+      <node id="5474165673714973826" at="177,0,178,0" concept="8" trace="CheckboxDefaultIcons$Qb" />
+      <node id="5474165673714973826" at="41,0,43,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5474165673716615893" at="71,14,73,9" concept="0" />
+      <node id="5474165673716617965" at="74,12,76,7" concept="0" />
+      <node id="5474165673716619347" at="86,14,88,9" concept="0" />
+      <node id="5474165673716619356" at="89,12,91,7" concept="0" />
+      <node id="5474165673714973826" at="100,0,102,0" concept="1" trace="CellModel_Checkbox__BehaviorDescriptor#()V" />
+      <node id="5474165673714973826" at="44,0,47,0" concept="9" trace="getTrueIconDefaultPath_id4JS9aP7qJPf#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5474165673714973826" at="52,0,55,0" concept="9" trace="getFalseIconDefaultPath_id4JS9aP7rOuJ#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5474165673714973826" at="60,0,63,0" concept="9" trace="getTrueIconPath_id4JS9aP7qJW1#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5474165673714973826" at="63,0,66,0" concept="9" trace="getFalseIconPath_id4JS9aP7scIS#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5474165673714973826" at="96,0,99,0" concept="9" trace="findCheckboxDefaultIconNode_id4JS9aP7rKX_#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5474165673714973826" at="110,49,113,5" concept="3" />
+      <node id="5474165673714973826" at="140,49,143,5" concept="3" />
+      <node id="5474165673714980039" at="161,0,164,0" concept="9" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="5474165673714973826" at="103,0,107,0" concept="4" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="5474165673714973826" at="143,5,147,5" concept="10" />
+      <node id="5474165673714973826" at="47,0,52,0" concept="9" trace="getTrueIconDefaultScale_id4JS9aP7rOp1#(Lorg/jetbrains/mps/openapi/model/SNode;)D" />
+      <node id="5474165673714973826" at="55,0,60,0" concept="9" trace="getFalseIconDefaultScale_id4JS9aP7rOwq#(Lorg/jetbrains/mps/openapi/model/SNode;)D" />
+      <node id="5474165673716604388" at="68,99,73,9" concept="3" />
+      <node id="5474165673716619335" at="83,100,88,9" concept="3" />
+      <node id="5474165673714973826" at="150,0,155,0" concept="4" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="5474165673714973826" at="156,0,161,0" concept="4" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5474165673716598554" at="67,9,76,7" concept="3" />
+      <node id="5474165673716619333" at="82,9,91,7" concept="3" />
+      <node id="5474165673714973826" at="138,0,149,0" concept="4" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="5474165673715411391" at="66,89,79,5" concept="12" />
+      <node id="5474165673716619331" at="81,90,94,5" concept="12" />
+      <node id="5474165673714973826" at="66,0,81,0" concept="9" trace="getTrueIconScale_id4JS9aP7scN6#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Double;" />
+      <node id="5474165673714973826" at="81,0,96,0" concept="9" trace="getFalseIconScale_id4JS9aP7scRN#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Double;" />
+      <node id="5474165673714973826" at="113,5,135,5" concept="10" />
+      <node id="5474165673714973826" at="108,0,137,0" concept="4" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="5474165673714973826" at="41,63,41,63" />
+      <scope id="5474165673714973826" at="100,56,100,56" />
+      <scope id="5474165673714974034" at="44,95,45,169" />
+      <scope id="5474165673715255218" at="52,96,53,170" />
+      <scope id="5474165673714974468" at="60,88,61,270" />
+      <scope id="5474165673715354555" at="63,89,64,273" />
+      <scope id="5474165673716604389" at="69,102,70,107" />
+      <scope id="5474165673716615894" at="71,16,72,21" />
+      <scope id="5474165673716617966" at="74,14,75,124" />
+      <scope id="5474165673715411396" at="77,39,78,17" />
+      <scope id="5474165673716619336" at="84,103,85,108" />
+      <scope id="5474165673716619348" at="86,16,87,21" />
+      <scope id="5474165673716619357" at="89,14,90,125" />
+      <scope id="5474165673716619363" at="92,39,93,17" />
+      <scope id="5474165673715240808" at="96,99,97,156" />
+      <scope id="5474165673714973826" at="104,114,105,21" />
+      <scope id="5474165673714973826" at="111,26,112,56" />
+      <scope id="5474165673714973826" at="115,13,116,73" />
+      <scope id="5474165673714973826" at="117,13,118,74" />
+      <scope id="5474165673714973826" at="119,13,120,74" />
+      <scope id="5474165673714973826" at="121,13,122,75" />
+      <scope id="5474165673714973826" at="123,13,124,66" />
+      <scope id="5474165673714973826" at="125,13,126,67" />
+      <scope id="5474165673714973826" at="127,13,128,67" />
+      <scope id="5474165673714973826" at="129,13,130,68" />
+      <scope id="5474165673714973826" at="131,13,132,77" />
+      <scope id="5474165673714973826" at="133,14,134,58" />
+      <scope id="5474165673714973826" at="141,26,142,56" />
+      <scope id="5474165673714973826" at="145,14,146,58" />
+      <scope id="5474165673714973826" at="152,48,153,22" />
+      <scope id="5474165673714973826" at="158,40,159,19" />
+      <scope id="5474165673714980039" at="161,55,162,43" />
+      <scope id="5474165673714973826" at="41,0,43,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673715411393" at="77,5,79,5">
+        <var name="e" id="5474165673715411394" />
+      </scope>
+      <scope id="5474165673716619360" at="92,5,94,5">
+        <var name="e" id="5474165673716619361" />
+      </scope>
+      <scope id="5474165673714973826" at="100,0,102,0" />
+      <scope id="5474165673714973826" at="44,0,47,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673715254852" at="47,96,50,150">
+        <var name="checkboxDefaultIcons" id="5474165673715259572" />
+      </scope>
+      <scope id="5474165673714973826" at="52,0,55,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673715255325" at="55,97,58,151">
+        <var name="checkboxDefaultIcons" id="5474165673715332408" />
+      </scope>
+      <scope id="5474165673714973826" at="60,0,63,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673714973826" at="63,0,66,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673714973826" at="96,0,99,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673714980039" at="161,0,164,0">
+        <var name="str" id="5474165673714980039" />
+      </scope>
+      <scope id="5474165673714973826" at="103,0,107,0">
+        <var name="constructor" id="5474165673714973826" />
+        <var name="node" id="5474165673714973826" />
+        <var name="parameters" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673714973826" at="47,0,52,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673714973826" at="55,0,60,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673716598557" at="68,99,73,9" />
+      <scope id="5474165673716619334" at="83,100,88,9" />
+      <scope id="5474165673714973826" at="150,0,155,0" />
+      <scope id="5474165673714973826" at="156,0,161,0" />
+      <scope id="5474165673714973826" at="139,128,147,5">
+        <var name="methodIndex" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673715411392" at="67,9,76,7" />
+      <scope id="5474165673716619332" at="82,9,91,7" />
+      <scope id="5474165673714973826" at="138,0,149,0">
+        <var name="concept" id="5474165673714973826" />
+        <var name="method" id="5474165673714973826" />
+        <var name="parameters" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673715354825" at="66,89,79,5" />
+      <scope id="5474165673715355126" at="81,90,94,5" />
+      <scope id="5474165673714973826" at="66,0,81,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673714973826" at="81,0,96,0">
+        <var name="__thisNode__" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673714973826" at="109,114,135,5">
+        <var name="methodIndex" id="5474165673714973826" />
+      </scope>
+      <scope id="5474165673714973826" at="108,0,137,0">
+        <var name="method" id="5474165673714973826" />
+        <var name="node" id="5474165673714973826" />
+        <var name="parameters" id="5474165673714973826" />
+      </scope>
+      <unit id="5474165673714973826" at="176,0,179,0" name="de.itemis.mps.editor.bool.behavior.CellModel_Checkbox__BehaviorDescriptor$CONCEPTS" />
+      <unit id="5474165673714973826" at="165,0,175,0" name="de.itemis.mps.editor.bool.behavior.CellModel_Checkbox__BehaviorDescriptor$PROPS" />
+      <unit id="5474165673714973826" at="26,0,180,0" name="de.itemis.mps.editor.bool.behavior.CellModel_Checkbox__BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

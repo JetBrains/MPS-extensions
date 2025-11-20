@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)/2275610712558476319">
+    <file name="UserObjectContainer.java">
+      <node id="2275610712558489779" at="10,0,11,0" concept="3" trace="userObjects" />
+      <node id="2275610712558491622" at="13,64,14,53" concept="2" />
+      <node id="2275610712558495061" at="18,52,19,57" concept="7" />
+      <node id="2275610712558489276" at="12,0,16,0" concept="5" trace="putUserObject#(Lde/q60/mps/shadowmodels/runtime/util/UserObjectKey;null)V" />
+      <node id="2275610712558489288" at="17,0,21,0" concept="5" trace="getUserObject#(Lde/q60/mps/shadowmodels/runtime/util/UserObjectKey;)null" />
+      <scope id="2275610712558489286" at="13,64,14,53" />
+      <scope id="2275610712558489296" at="18,52,19,57" />
+      <scope id="2275610712558489276" at="12,0,16,0">
+        <var name="key" id="2275610712558489277" />
+        <var name="value" id="2275610712558489280" />
+      </scope>
+      <scope id="2275610712558489288" at="17,0,21,0">
+        <var name="key" id="2275610712558489289" />
+      </scope>
+      <unit id="2275610712558476319" at="9,0,22,0" name="de.q60.mps.shadowmodels.runtime.util.UserObjectContainer" />
+    </file>
+  </root>
+  <root nodeRef="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)/4105524263007051390">
+    <file name="IdShortener.java">
+      <node id="4105524263007055338" at="11,9,12,62" concept="6" />
+      <node id="4105524263007051777" at="12,62,13,42" concept="2" />
+      <node id="4105524263007073958" at="13,42,14,102" concept="7" />
+      <node id="4105524263007054239" at="15,28,16,20" concept="7" />
+      <node id="5621451450894585199" at="20,47,21,31" concept="7" />
+      <node id="5621451450894581978" at="20,0,23,0" concept="10" trace="shorten#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4105524263007053183" at="10,59,17,5" concept="11" />
+      <node id="4105524263007051626" at="10,0,19,0" concept="10" trace="shorten#(Ljava/lang/String;I)Ljava/lang/String;" />
+      <scope id="4105524263007053192" at="15,28,16,20" />
+      <scope id="5621451450894581979" at="20,47,21,31" />
+      <scope id="4105524263007053186" at="15,5,17,5">
+        <var name="ex" id="4105524263007053188" />
+      </scope>
+      <scope id="4105524263007053185" at="11,9,14,102">
+        <var name="md" id="4105524263007055339" />
+      </scope>
+      <scope id="5621451450894581978" at="20,0,23,0">
+        <var name="longId" id="5621451450894582014" />
+      </scope>
+      <scope id="4105524263007051464" at="10,59,17,5" />
+      <scope id="4105524263007051626" at="10,0,19,0">
+        <var name="length" id="4105524263008121948" />
+        <var name="longId" id="4105524263007051504" />
+      </scope>
+      <unit id="4105524263007051390" at="8,0,25,0" name="de.q60.mps.shadowmodels.runtime.util.IdShortener" />
+    </file>
+  </root>
+  <root nodeRef="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)/6353922595728947977">
+    <file name="OptionalPlugin.java">
+      <node id="6353922595728950876" at="13,0,14,0" concept="3" trace="settingsKey" />
+      <node id="6353922595729072686" at="14,0,15,0" concept="3" trace="moduleInititalized" />
+      <node id="6353922595729061388" at="15,0,16,0" concept="3" trace="pluginInitialized" />
+      <node id="6353922595729774501" at="16,0,17,0" concept="3" trace="dependencies" />
+      <node id="6353922595729777503" at="17,0,18,0" concept="3" trace="reverseDependencies" />
+      <node id="8795229021917573591" at="18,0,19,0" concept="3" trace="forceEnabled" />
+      <node id="8795229021917593019" at="19,0,20,0" concept="3" trace="forceDisabled" />
+      <node id="6353922595729735809" at="21,27,22,52" concept="2" />
+      <node id="6353922595728978116" at="25,45,26,35" concept="2" />
+      <node id="6353922595729794802" at="29,61,30,56" concept="2" />
+      <node id="8562317809778144329" at="30,56,31,16" concept="7" />
+      <node id="6353922595730040473" at="34,61,35,63" concept="2" />
+      <node id="6353922595730216297" at="38,64,39,66" concept="2" />
+      <node id="8795229021917602084" at="43,23,44,18" concept="7" />
+      <node id="8795229021917625362" at="46,24,47,19" concept="7" />
+      <node id="8795229021917643632" at="48,5,49,0" concept="9" />
+      <node id="5201549912562831329" at="49,0,50,115" concept="6" />
+      <node id="8795229021917625640" at="50,115,51,0" concept="9" />
+      <node id="8795229021917657020" at="51,0,52,47" concept="8" />
+      <node id="8795229021917567350" at="52,47,53,79" concept="8" />
+      <node id="8795229021917565249" at="53,79,54,21" concept="2" />
+      <node id="8795229021917634297" at="54,21,55,0" concept="9" />
+      <node id="6353922595729822906" at="55,0,56,94" concept="7" />
+      <node id="6353922595729849260" at="59,44,60,80" concept="7" />
+      <node id="8713912872396086605" at="63,36,64,76" concept="7" />
+      <node id="8713912872396009827" at="67,49,68,76" concept="2" />
+      <node id="6353922595730299432" at="69,21,70,92" concept="2" />
+      <node id="6353922595729748862" at="71,5,72,23" concept="2" />
+      <node id="8562317809778209206" at="72,23,73,78" concept="2" />
+      <node id="8795229021917697094" at="76,45,77,32" concept="2" />
+      <node id="8795229021917660352" at="77,32,78,23" concept="2" />
+      <node id="8795229021917660354" at="78,23,79,78" concept="2" />
+      <node id="8795229021917700447" at="82,47,83,34" concept="2" />
+      <node id="8795229021917725574" at="84,19,85,88" concept="2" />
+      <node id="8795229021917700453" at="86,5,87,23" concept="2" />
+      <node id="8795229021917700455" at="87,23,88,78" concept="2" />
+      <node id="6353922595730109701" at="92,29,93,103" concept="2" />
+      <node id="6353922595730296408" at="94,12,95,106" concept="2" />
+      <node id="6353922595730298396" at="96,5,97,0" concept="9" />
+      <node id="6353922595729068795" at="98,46,99,31" concept="2" />
+      <node id="6353922595729070451" at="99,31,100,13" concept="2" />
+      <node id="6353922595729065024" at="101,53,102,32" concept="2" />
+      <node id="6353922595729064760" at="102,32,103,16" concept="2" />
+      <node id="6353922595729074322" at="107,35,108,30" concept="2" />
+      <node id="6353922595729767023" at="108,30,109,23" concept="2" />
+      <node id="6353922595729076152" at="112,32,113,31" concept="2" />
+      <node id="6353922595729767538" at="113,31,114,23" concept="2" />
+      <node id="6353922595729039054" at="117,0,118,0" concept="5" trace="init#()V" />
+      <node id="6353922595729031037" at="118,0,119,0" concept="5" trace="dispose#()V" />
+      <node id="6353922595730109459" at="94,10,96,5" concept="0" />
+      <node id="6353922595728979280" at="21,0,24,0" concept="1" trace="OptionalPlugin#()V" />
+      <node id="6353922595728978108" at="25,0,28,0" concept="1" trace="OptionalPlugin#(Ljava/lang/String;)V" />
+      <node id="6353922595730020593" at="34,0,37,0" concept="5" trace="addReverseDependency#(Lde/q60/mps/shadowmodels/runtime/util/OptionalPlugin;)V" />
+      <node id="6353922595730216291" at="38,0,41,0" concept="5" trace="removeReverseDependency#(Lde/q60/mps/shadowmodels/runtime/util/OptionalPlugin;)V" />
+      <node id="8795229021917599766" at="42,30,45,5" concept="4" />
+      <node id="8795229021917615789" at="45,5,48,5" concept="4" />
+      <node id="6353922595729827639" at="59,0,62,0" concept="5" trace="isEnabledByDependencies#()Z" />
+      <node id="6353922595728959560" at="63,0,66,0" concept="5" trace="isEnabledByUser#()Z" />
+      <node id="6353922595730408241" at="68,76,71,5" concept="4" />
+      <node id="8795229021917725572" at="83,34,86,5" concept="4" />
+      <node id="6353922595729781416" at="29,0,33,0" concept="5" trace="addDependency#(Lde/q60/mps/shadowmodels/runtime/util/OptionalPlugin;)Lde/q60/mps/shadowmodels/runtime/util/OptionalPlugin;" />
+      <node id="6353922595729051682" at="107,0,111,0" concept="5" trace="moduleInitialized#()V" />
+      <node id="6353922595729046031" at="112,0,116,0" concept="5" trace="moduleDisposed#()V" />
+      <node id="8795229021917660322" at="76,0,81,0" concept="5" trace="forceEnabled#(Z)V" />
+      <node id="6353922595730108907" at="91,37,96,5" concept="4" />
+      <node id="6353922595729062798" at="97,0,104,5" concept="4" />
+      <node id="6353922595728964716" at="67,0,75,0" concept="5" trace="setEnabledByUser#(Z)V" />
+      <node id="8795229021917700441" at="82,0,90,0" concept="5" trace="forceDisabled#(Z)V" />
+      <node id="6353922595729001256" at="91,0,106,0" concept="5" trace="applyStateChange#()V" />
+      <node id="6353922595729809569" at="42,0,58,0" concept="5" trace="isEnabled#()Z" />
+      <scope id="6353922595728979284" at="21,27,22,52" />
+      <scope id="6353922595728978112" at="25,45,26,35" />
+      <scope id="6353922595730020597" at="34,61,35,63" />
+      <scope id="6353922595730216296" at="38,64,39,66" />
+      <scope id="8795229021917599768" at="43,23,44,18" />
+      <scope id="8795229021917615791" at="46,24,47,19" />
+      <scope id="6353922595729827643" at="59,44,60,80" />
+      <scope id="6353922595728959564" at="63,36,64,76" />
+      <scope id="6353922595730408243" at="69,21,70,92" />
+      <scope id="8795229021917725573" at="84,19,85,88" />
+      <scope id="6353922595730108909" at="92,29,93,103" />
+      <scope id="6353922595730109460" at="94,12,95,106" />
+      <scope id="6353922595729039054" at="117,0,118,0" />
+      <scope id="6353922595729031037" at="118,0,119,0" />
+      <scope id="6353922595729781420" at="29,61,31,16" />
+      <scope id="6353922595729062800" at="98,46,100,13" />
+      <scope id="6353922595729066787" at="101,53,103,16" />
+      <scope id="6353922595729051686" at="107,35,109,23" />
+      <scope id="6353922595729046035" at="112,32,114,23" />
+      <scope id="6353922595728979280" at="21,0,24,0" />
+      <scope id="6353922595728978108" at="25,0,28,0">
+        <var name="settingsKey" id="6353922595728978115" />
+      </scope>
+      <scope id="6353922595730020593" at="34,0,37,0">
+        <var name="other" id="6353922595730037475" />
+      </scope>
+      <scope id="6353922595730216291" at="38,0,41,0">
+        <var name="other" id="6353922595730216292" />
+      </scope>
+      <scope id="6353922595729827639" at="59,0,62,0" />
+      <scope id="6353922595728959560" at="63,0,66,0" />
+      <scope id="8795229021917660327" at="76,45,79,78" />
+      <scope id="6353922595729781416" at="29,0,33,0">
+        <var name="other" id="6353922595729792050" />
+      </scope>
+      <scope id="6353922595729051682" at="107,0,111,0" />
+      <scope id="6353922595729046031" at="112,0,116,0" />
+      <scope id="8795229021917660322" at="76,0,81,0">
+        <var name="enabled" id="8795229021917660323" />
+      </scope>
+      <scope id="6353922595728964720" at="67,49,73,78" />
+      <scope id="8795229021917700446" at="82,47,88,78" />
+      <scope id="6353922595728964716" at="67,0,75,0">
+        <var name="enabled" id="6353922595728965616" />
+      </scope>
+      <scope id="8795229021917700441" at="82,0,90,0">
+        <var name="disabled" id="8795229021917700442" />
+      </scope>
+      <scope id="6353922595729001260" at="91,37,104,5" />
+      <scope id="6353922595729809573" at="42,30,56,94">
+        <var name="headless" id="5201549912562831330" />
+      </scope>
+      <scope id="6353922595729001256" at="91,0,106,0" />
+      <scope id="6353922595729809569" at="42,0,58,0" />
+      <unit id="6353922595728947977" at="12,0,120,0" name="de.q60.mps.shadowmodels.runtime.util.OptionalPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)/704857672094909896">
+    <file name="IUserObjectContainer.java">
+      <node id="704857672094915426" at="7,0,8,0" concept="5" trace="putUserObject#(Lde/q60/mps/shadowmodels/runtime/util/UserObjectKey;null)V" />
+      <node id="704857672094915799" at="8,0,9,0" concept="5" trace="getUserObject#(Lde/q60/mps/shadowmodels/runtime/util/UserObjectKey;)null" />
+      <scope id="704857672094915426" at="7,0,8,0">
+        <var name="key" id="704857672094915527" />
+        <var name="value" id="704857672094915705" />
+      </scope>
+      <scope id="704857672094915799" at="8,0,9,0">
+        <var name="key" id="704857672094915800" />
+      </scope>
+      <unit id="704857672094909896" at="6,0,10,0" name="de.q60.mps.shadowmodels.runtime.util.IUserObjectContainer" />
+    </file>
+  </root>
+  <root nodeRef="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)/704857672094909953">
+    <file name="UserObjectKey.java">
+      <node id="704857672094910020" at="7,0,8,0" concept="3" trace="id" />
+      <node id="704857672094910114" at="9,36,10,13" concept="2" />
+      <node id="704857672094910455" at="15,20,16,18" concept="7" />
+      <node id="704857672094910461" at="18,55,19,19" concept="7" />
+      <node id="704857672094910474" at="20,5,21,0" concept="9" />
+      <node id="704857672094910475" at="21,0,22,43" concept="6" />
+      <node id="704857672094910493" at="23,76,24,19" concept="7" />
+      <node id="704857672094910509" at="25,5,26,0" concept="9" />
+      <node id="704857672094910510" at="26,0,27,16" concept="7" />
+      <node id="704857672094910517" at="31,25,32,19" concept="6" />
+      <node id="704857672094910530" at="32,19,33,62" concept="2" />
+      <node id="704857672094910542" at="33,62,34,18" concept="7" />
+      <node id="704857672094910106" at="9,0,12,0" concept="1" trace="UserObjectKey#(Ljava/lang/String;)V" />
+      <node id="704857672094910453" at="14,35,17,5" concept="4" />
+      <node id="704857672094910459" at="17,5,20,5" concept="4" />
+      <node id="704857672094910491" at="22,43,25,5" concept="4" />
+      <node id="704857672094910512" at="30,0,36,0" concept="5" trace="hashCode#()I" />
+      <node id="704857672094910449" at="13,0,29,0" concept="5" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="704857672094910110" at="9,36,10,13" />
+      <scope id="704857672094910454" at="15,20,16,18" />
+      <scope id="704857672094910460" at="18,55,19,19" />
+      <scope id="704857672094910492" at="23,76,24,19" />
+      <scope id="704857672094910106" at="9,0,12,0">
+        <var name="id1" id="704857672094910113" />
+      </scope>
+      <scope id="704857672094910515" at="31,25,34,18">
+        <var name="result" id="704857672094910518" />
+      </scope>
+      <scope id="704857672094910512" at="30,0,36,0" />
+      <scope id="704857672094910452" at="14,35,27,16">
+        <var name="that" id="704857672094910476" />
+      </scope>
+      <scope id="704857672094910449" at="13,0,29,0">
+        <var name="o" id="704857672094910481" />
+      </scope>
+      <unit id="704857672094909953" at="6,0,37,0" name="de.q60.mps.shadowmodels.runtime.util.UserObjectKey" />
+    </file>
+  </root>
+</debug-info>
+

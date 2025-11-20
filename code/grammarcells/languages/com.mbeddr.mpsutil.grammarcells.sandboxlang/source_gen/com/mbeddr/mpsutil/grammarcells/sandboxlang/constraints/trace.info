@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,45,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)/1154073061512784239">
+    <file name="WrapStmtParentWhitelisting_Constraints.java">
+      <node id="1154073061512784239" at="21,51,22,50" concept="9" />
+      <node id="1154073061512784239" at="29,128,30,133" concept="4" />
+      <node id="1154073061512784239" at="30,133,31,0" concept="6" />
+      <node id="1154073061512784239" at="32,55,33,72" concept="1" />
+      <node id="1154073061512784239" at="34,9,35,0" concept="6" />
+      <node id="1154073061512784239" at="35,0,36,22" concept="5" />
+      <node id="1154073061512784664" at="40,128,41,106" concept="5" />
+      <node id="1154073061512784239" at="43,0,44,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="1154073061512784239" at="46,0,47,0" concept="7" trace="WrapStmtParentWhitelisting$8r" />
+      <node id="1154073061512784239" at="47,0,48,0" concept="7" trace="BType$GR" />
+      <node id="1154073061512784239" at="21,0,24,0" concept="0" trace="WrapStmtParentWhitelisting_Constraints#()V" />
+      <node id="1154073061512784239" at="31,0,34,9" concept="2" />
+      <node id="1154073061512784239" at="40,0,43,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="1154073061512784239" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="1154073061512784239" at="26,105,38,6" concept="5" />
+      <node id="1154073061512784239" at="25,0,40,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="1154073061512784239" at="21,51,22,50" />
+      <scope id="1154073061512784239" at="32,55,33,72" />
+      <scope id="1154073061512784325" at="40,128,41,106" />
+      <scope id="1154073061512784239" at="21,0,24,0" />
+      <scope id="1154073061512784239" at="40,0,43,0">
+        <var name="childConcept" id="1154073061512784239" />
+        <var name="childNode" id="1154073061512784239" />
+        <var name="link" id="1154073061512784239" />
+        <var name="node" id="1154073061512784239" />
+      </scope>
+      <scope id="1154073061512784239" at="29,128,36,22">
+        <var name="result" id="1154073061512784239" />
+      </scope>
+      <scope id="1154073061512784239" at="28,0,38,0">
+        <var name="checkingNodeContext" id="1154073061512784239" />
+        <var name="context" id="1154073061512784239" />
+      </scope>
+      <scope id="1154073061512784239" at="26,105,38,6" />
+      <scope id="1154073061512784239" at="25,0,40,0" />
+      <unit id="1154073061512784239" at="45,0,49,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtParentWhitelisting_Constraints$CONCEPTS" />
+      <unit id="1154073061512784239" at="27,15,38,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtParentWhitelisting_Constraints$1" />
+      <unit id="1154073061512784239" at="20,0,50,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtParentWhitelisting_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)/1811135247170681519">
+    <file name="WrapStmtAncestor_Constraints.java">
+      <node id="1811135247170681519" at="20,41,21,39" concept="9" />
+      <node id="1811135247170681519" at="28,130,29,161" concept="4" />
+      <node id="1811135247170681519" at="29,161,30,0" concept="6" />
+      <node id="1811135247170681519" at="31,55,32,74" concept="1" />
+      <node id="1811135247170681519" at="33,9,34,0" concept="6" />
+      <node id="1811135247170681519" at="34,0,35,22" concept="5" />
+      <node id="1811135247170686144" at="39,149,40,73" concept="5" />
+      <node id="1811135247170681519" at="42,0,43,0" concept="7" trace="canBeAncestorBreakingPoint" />
+      <node id="1811135247170681519" at="45,0,46,0" concept="7" trace="WrapStmtAncestor$M" />
+      <node id="1811135247170681519" at="46,0,47,0" concept="7" trace="AType$7u" />
+      <node id="1811135247170681519" at="20,0,23,0" concept="0" trace="WrapStmtAncestor_Constraints#()V" />
+      <node id="1811135247170681519" at="30,0,33,9" concept="2" />
+      <node id="1811135247170681519" at="39,0,42,0" concept="8" trace="staticCanBeAnAncestor#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="1811135247170681519" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeAncestor;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="1811135247170681519" at="25,109,37,6" concept="5" />
+      <node id="1811135247170681519" at="24,0,39,0" concept="3" trace="calculateCanBeAncestorConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="1811135247170681519" at="20,41,21,39" />
+      <scope id="1811135247170681519" at="31,55,32,74" />
+      <scope id="1811135247170686122" at="39,149,40,73" />
+      <scope id="1811135247170681519" at="20,0,23,0" />
+      <scope id="1811135247170681519" at="39,0,42,0">
+        <var name="childConcept" id="1811135247170681519" />
+        <var name="childNode" id="1811135247170681519" />
+        <var name="link" id="1811135247170681519" />
+        <var name="node" id="1811135247170681519" />
+        <var name="parentNode" id="1811135247170681519" />
+      </scope>
+      <scope id="1811135247170681519" at="28,130,35,22">
+        <var name="result" id="1811135247170681519" />
+      </scope>
+      <scope id="1811135247170681519" at="27,0,37,0">
+        <var name="checkingNodeContext" id="1811135247170681519" />
+        <var name="context" id="1811135247170681519" />
+      </scope>
+      <scope id="1811135247170681519" at="25,109,37,6" />
+      <scope id="1811135247170681519" at="24,0,39,0" />
+      <unit id="1811135247170681519" at="44,0,48,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtAncestor_Constraints$CONCEPTS" />
+      <unit id="1811135247170681519" at="26,15,37,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtAncestor_Constraints$1" />
+      <unit id="1811135247170681519" at="19,0,49,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtAncestor_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)/3921456275303792549">
+    <file name="StringLiteral_Constraints.java">
+      <node id="3921456275303792549" at="20,38,21,37" concept="9" />
+      <node id="3921456275303792550" at="25,60,26,61" concept="9" />
+      <node id="3921456275303792550" at="29,109,30,99" concept="4" />
+      <node id="3921456275303792550" at="31,53,32,184" concept="1" />
+      <node id="3921456275303792550" at="33,7,34,20" concept="5" />
+      <node id="3921456275303792631" at="36,85,37,45" concept="5" />
+      <node id="3921456275303792549" at="41,84,42,119" concept="4" />
+      <node id="3921456275303792550" at="42,119,43,63" concept="1" />
+      <node id="3921456275303792549" at="43,63,44,22" concept="5" />
+      <node id="3921456275303792549" at="48,0,49,0" concept="7" trace="StringLiteral$Dg" />
+      <node id="3921456275303792549" at="52,0,53,0" concept="7" trace="value$rlfh" />
+      <node id="3921456275303792549" at="20,0,23,0" concept="0" trace="StringLiteral_Constraints#()V" />
+      <node id="3921456275303792550" at="25,0,28,0" concept="0" trace="Value_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="3921456275303792550" at="30,99,33,7" concept="2" />
+      <node id="3921456275303792550" at="36,0,39,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="3921456275303792549" at="40,0,46,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="3921456275303792550" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="3921456275303792549" at="20,38,21,37" />
+      <scope id="3921456275303792550" at="25,60,26,61" />
+      <scope id="3921456275303792550" at="31,53,32,184" />
+      <scope id="3921456275303792556" at="36,85,37,45" />
+      <scope id="3921456275303792549" at="20,0,23,0" />
+      <scope id="3921456275303792550" at="25,0,28,0">
+        <var name="container" id="3921456275303792550" />
+      </scope>
+      <scope id="3921456275303792550" at="36,0,39,0">
+        <var name="node" id="3921456275303792550" />
+        <var name="propertyValue" id="3921456275303792550" />
+      </scope>
+      <scope id="3921456275303792549" at="41,84,44,22">
+        <var name="properties" id="3921456275303792549" />
+      </scope>
+      <scope id="3921456275303792550" at="29,109,34,20">
+        <var name="result" id="3921456275303792550" />
+      </scope>
+      <scope id="3921456275303792549" at="40,0,46,0" />
+      <scope id="3921456275303792550" at="28,0,36,0">
+        <var name="checkingNodeContext" id="3921456275303792550" />
+        <var name="node" id="3921456275303792550" />
+        <var name="propertyValue" id="3921456275303792550" />
+      </scope>
+      <unit id="3921456275303792549" at="47,0,50,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.StringLiteral_Constraints$CONCEPTS" />
+      <unit id="3921456275303792549" at="51,0,54,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.StringLiteral_Constraints$PROPS" />
+      <unit id="3921456275303792550" at="24,0,40,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.StringLiteral_Constraints$Value_Property" />
+      <unit id="3921456275303792549" at="19,0,55,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.StringLiteral_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)/4351467201268938678">
+    <file name="WrapStmtParent_Constraints.java">
+      <node id="4351467201268938678" at="20,39,21,38" concept="9" />
+      <node id="4351467201268938678" at="28,128,29,133" concept="4" />
+      <node id="4351467201268938678" at="29,133,30,0" concept="6" />
+      <node id="4351467201268938678" at="31,55,32,72" concept="1" />
+      <node id="4351467201268938678" at="33,9,34,0" concept="6" />
+      <node id="4351467201268938678" at="34,0,35,22" concept="5" />
+      <node id="4351467201268939140" at="39,128,40,73" concept="5" />
+      <node id="4351467201268938678" at="42,0,43,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="4351467201268938678" at="45,0,46,0" concept="7" trace="WrapStmtParent$sT" />
+      <node id="4351467201268938678" at="46,0,47,0" concept="7" trace="AType$7u" />
+      <node id="4351467201268938678" at="20,0,23,0" concept="0" trace="WrapStmtParent_Constraints#()V" />
+      <node id="4351467201268938678" at="30,0,33,9" concept="2" />
+      <node id="4351467201268938678" at="39,0,42,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="4351467201268938678" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="4351467201268938678" at="25,105,37,6" concept="5" />
+      <node id="4351467201268938678" at="24,0,39,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="4351467201268938678" at="20,39,21,38" />
+      <scope id="4351467201268938678" at="31,55,32,72" />
+      <scope id="4351467201268938816" at="39,128,40,73" />
+      <scope id="4351467201268938678" at="20,0,23,0" />
+      <scope id="4351467201268938678" at="39,0,42,0">
+        <var name="childConcept" id="4351467201268938678" />
+        <var name="childNode" id="4351467201268938678" />
+        <var name="link" id="4351467201268938678" />
+        <var name="node" id="4351467201268938678" />
+      </scope>
+      <scope id="4351467201268938678" at="28,128,35,22">
+        <var name="result" id="4351467201268938678" />
+      </scope>
+      <scope id="4351467201268938678" at="27,0,37,0">
+        <var name="checkingNodeContext" id="4351467201268938678" />
+        <var name="context" id="4351467201268938678" />
+      </scope>
+      <scope id="4351467201268938678" at="25,105,37,6" />
+      <scope id="4351467201268938678" at="24,0,39,0" />
+      <unit id="4351467201268938678" at="44,0,48,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtParent_Constraints$CONCEPTS" />
+      <unit id="4351467201268938678" at="26,15,37,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtParent_Constraints$1" />
+      <unit id="4351467201268938678" at="19,0,49,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtParent_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)/5083944728300727007">
+    <file name="FloatLiteral_Constraints.java">
+      <node id="5083944728300727007" at="10,37,11,36" concept="9" />
+      <node id="5083944728300727007" at="15,0,16,0" concept="7" trace="FloatLiteral$QJ" />
+      <node id="5083944728300727007" at="10,0,13,0" concept="0" trace="FloatLiteral_Constraints#()V" />
+      <scope id="5083944728300727007" at="10,37,11,36" />
+      <scope id="5083944728300727007" at="10,0,13,0" />
+      <unit id="5083944728300727007" at="14,0,17,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.FloatLiteral_Constraints$CONCEPTS" />
+      <unit id="5083944728300727007" at="9,0,18,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.FloatLiteral_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)/6173891517665269837">
+    <file name="LocalVariableDeclaration_Constraints.java">
+      <node id="6173891517665269837" at="17,49,18,48" concept="9" />
+      <node id="6173891517665269902" at="22,61,23,62" concept="9" />
+      <node id="6173891517665492359" at="26,40,27,18" concept="5" />
+      <node id="6173891517665269837" at="31,84,32,119" concept="4" />
+      <node id="6173891517665269902" at="32,119,33,65" concept="1" />
+      <node id="6173891517665269837" at="33,65,34,22" concept="5" />
+      <node id="6173891517665269837" at="38,0,39,0" concept="7" trace="LocalVariableDeclaration$ID" />
+      <node id="6173891517665269837" at="42,0,43,0" concept="7" trace="static$1ISq" />
+      <node id="6173891517665269837" at="17,0,20,0" concept="0" trace="LocalVariableDeclaration_Constraints#()V" />
+      <node id="6173891517665269902" at="22,0,25,0" concept="0" trace="Static_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6173891517665269902" at="25,0,29,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="6173891517665269837" at="30,0,36,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="6173891517665269837" at="17,49,18,48" />
+      <scope id="6173891517665269902" at="22,61,23,62" />
+      <scope id="6173891517665491898" at="26,40,27,18" />
+      <scope id="6173891517665269837" at="17,0,20,0" />
+      <scope id="6173891517665269902" at="22,0,25,0">
+        <var name="container" id="6173891517665269902" />
+      </scope>
+      <scope id="6173891517665269837" at="31,84,34,22">
+        <var name="properties" id="6173891517665269837" />
+      </scope>
+      <scope id="6173891517665269902" at="25,0,29,0">
+        <var name="node" id="6173891517665269902" />
+      </scope>
+      <scope id="6173891517665269837" at="30,0,36,0" />
+      <unit id="6173891517665269837" at="37,0,40,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.LocalVariableDeclaration_Constraints$CONCEPTS" />
+      <unit id="6173891517665269837" at="41,0,44,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.LocalVariableDeclaration_Constraints$PROPS" />
+      <unit id="6173891517665269902" at="21,0,30,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.LocalVariableDeclaration_Constraints$Static_Property" />
+      <unit id="6173891517665269837" at="16,0,45,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.LocalVariableDeclaration_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)/6380604244811418493">
+    <file name="TEST_OptionalWithoutText_Reference_Constraints.java">
+      <node id="6380604244811418493" at="26,59,27,58" concept="9" />
+      <node id="6380604244811418494" at="38,63,39,158" concept="5" />
+      <node id="6380604244811420281" at="42,80,43,237" concept="5" />
+      <node id="6380604244811418493" at="47,6,48,131" concept="4" />
+      <node id="6380604244811418494" at="48,131,49,42" concept="1" />
+      <node id="6380604244811418493" at="49,42,50,22" concept="5" />
+      <node id="6380604244811418493" at="54,0,55,0" concept="7" trace="TEST_OptionalWithoutText_Reference$3_" />
+      <node id="6380604244811418493" at="55,0,56,0" concept="7" trace="Module$vY" />
+      <node id="6380604244811418493" at="56,0,57,0" concept="7" trace="Function$H3" />
+      <node id="6380604244811418493" at="60,0,61,0" concept="7" trace="refTarget$rUEg" />
+      <node id="6380604244811418493" at="61,0,62,0" concept="7" trace="content$18oI" />
+      <node id="6380604244811418493" at="26,0,29,0" concept="0" trace="TEST_OptionalWithoutText_Reference_Constraints#()V" />
+      <node id="6380604244811418494" at="37,0,41,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6380604244811418494" at="41,0,45,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6380604244811418494" at="35,56,45,10" concept="5" />
+      <node id="6380604244811418494" at="33,0,47,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="6380604244811418494" at="31,90,47,6" concept="4" />
+      <node id="6380604244811418493" at="30,0,52,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="6380604244811418493" at="26,59,27,58" />
+      <scope id="6380604244811418494" at="38,63,39,158" />
+      <scope id="6380604244811418494" at="42,80,43,237" />
+      <scope id="6380604244811418493" at="26,0,29,0" />
+      <scope id="6380604244811418494" at="37,0,41,0" />
+      <scope id="6380604244811418494" at="41,0,45,0">
+        <var name="_context" id="6380604244811418494" />
+      </scope>
+      <scope id="6380604244811418494" at="35,56,45,10" />
+      <scope id="6380604244811418494" at="33,0,47,0" />
+      <scope id="6380604244811418493" at="31,90,50,22">
+        <var name="d0" id="6380604244811418494" />
+        <var name="references" id="6380604244811418493" />
+      </scope>
+      <scope id="6380604244811418493" at="30,0,52,0" />
+      <unit id="6380604244811418493" at="59,0,63,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.TEST_OptionalWithoutText_Reference_Constraints$LINKS" />
+      <unit id="6380604244811418493" at="53,0,58,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.TEST_OptionalWithoutText_Reference_Constraints$CONCEPTS" />
+      <unit id="6380604244811418494" at="36,19,45,9" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.TEST_OptionalWithoutText_Reference_Constraints$1$1" />
+      <unit id="6380604244811418494" at="32,48,47,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.TEST_OptionalWithoutText_Reference_Constraints$1" />
+      <unit id="6380604244811418493" at="25,0,64,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.TEST_OptionalWithoutText_Reference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)/7363578995839195548">
+    <file name="VariableDeclaration_Constraints.java">
+      <node id="7363578995839195548" at="20,44,21,43" concept="9" />
+      <node id="7363578995839195549" at="25,59,26,60" concept="9" />
+      <node id="7363578995839195549" at="29,109,30,99" concept="4" />
+      <node id="7363578995839195549" at="31,53,32,184" concept="1" />
+      <node id="7363578995839195549" at="33,7,34,20" concept="5" />
+      <node id="7363578995839197398" at="37,34,38,21" concept="5" />
+      <node id="7363578995839195627" at="39,7,40,60" concept="5" />
+      <node id="7363578995839195548" at="44,84,45,119" concept="4" />
+      <node id="7363578995839195549" at="45,119,46,61" concept="1" />
+      <node id="7363578995839195548" at="46,61,47,22" concept="5" />
+      <node id="7363578995839195548" at="51,0,52,0" concept="7" trace="VariableDeclaration$w7" />
+      <node id="7363578995839195548" at="55,0,56,0" concept="7" trace="name$MnvL" />
+      <node id="7363578995839195548" at="20,0,23,0" concept="0" trace="VariableDeclaration_Constraints#()V" />
+      <node id="7363578995839195549" at="25,0,28,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="7363578995839195549" at="30,99,33,7" concept="2" />
+      <node id="7363578995839196818" at="36,85,39,7" concept="2" />
+      <node id="7363578995839195549" at="36,0,42,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="7363578995839195548" at="43,0,49,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="7363578995839195549" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="7363578995839195548" at="20,44,21,43" />
+      <scope id="7363578995839195549" at="25,59,26,60" />
+      <scope id="7363578995839195549" at="31,53,32,184" />
+      <scope id="7363578995839196820" at="37,34,38,21" />
+      <scope id="7363578995839195548" at="20,0,23,0" />
+      <scope id="7363578995839195549" at="25,0,28,0">
+        <var name="container" id="7363578995839195549" />
+      </scope>
+      <scope id="7363578995839195548" at="44,84,47,22">
+        <var name="properties" id="7363578995839195548" />
+      </scope>
+      <scope id="7363578995839195554" at="36,85,40,60" />
+      <scope id="7363578995839195549" at="29,109,34,20">
+        <var name="result" id="7363578995839195549" />
+      </scope>
+      <scope id="7363578995839195549" at="36,0,42,0">
+        <var name="node" id="7363578995839195549" />
+        <var name="propertyValue" id="7363578995839195549" />
+      </scope>
+      <scope id="7363578995839195548" at="43,0,49,0" />
+      <scope id="7363578995839195549" at="28,0,36,0">
+        <var name="checkingNodeContext" id="7363578995839195549" />
+        <var name="node" id="7363578995839195549" />
+        <var name="propertyValue" id="7363578995839195549" />
+      </scope>
+      <unit id="7363578995839195548" at="50,0,53,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.VariableDeclaration_Constraints$CONCEPTS" />
+      <unit id="7363578995839195548" at="54,0,57,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.VariableDeclaration_Constraints$PROPS" />
+      <unit id="7363578995839195549" at="24,0,43,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.VariableDeclaration_Constraints$Name_Property" />
+      <unit id="7363578995839195548" at="19,0,58,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.VariableDeclaration_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)/7431304463732487582">
+    <file name="WrapStmtAncestorWhitelisting_Constraints.java">
+      <node id="7431304463732487582" at="21,53,22,52" concept="9" />
+      <node id="7431304463732487582" at="29,130,30,161" concept="4" />
+      <node id="7431304463732487582" at="30,161,31,0" concept="6" />
+      <node id="7431304463732487582" at="32,55,33,74" concept="1" />
+      <node id="7431304463732487582" at="34,9,35,0" concept="6" />
+      <node id="7431304463732487582" at="35,0,36,22" concept="5" />
+      <node id="7431304463732487839" at="40,149,41,106" concept="5" />
+      <node id="7431304463732487582" at="43,0,44,0" concept="7" trace="canBeAncestorBreakingPoint" />
+      <node id="7431304463732487582" at="46,0,47,0" concept="7" trace="WrapStmtAncestorWhitelisting$5F" />
+      <node id="7431304463732487582" at="47,0,48,0" concept="7" trace="BType$GR" />
+      <node id="7431304463732487582" at="21,0,24,0" concept="0" trace="WrapStmtAncestorWhitelisting_Constraints#()V" />
+      <node id="7431304463732487582" at="31,0,34,9" concept="2" />
+      <node id="7431304463732487582" at="40,0,43,0" concept="8" trace="staticCanBeAnAncestor#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="7431304463732487582" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeAncestor;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="7431304463732487582" at="26,109,38,6" concept="5" />
+      <node id="7431304463732487582" at="25,0,40,0" concept="3" trace="calculateCanBeAncestorConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="7431304463732487582" at="21,53,22,52" />
+      <scope id="7431304463732487582" at="32,55,33,74" />
+      <scope id="7431304463732487584" at="40,149,41,106" />
+      <scope id="7431304463732487582" at="21,0,24,0" />
+      <scope id="7431304463732487582" at="40,0,43,0">
+        <var name="childConcept" id="7431304463732487582" />
+        <var name="childNode" id="7431304463732487582" />
+        <var name="link" id="7431304463732487582" />
+        <var name="node" id="7431304463732487582" />
+        <var name="parentNode" id="7431304463732487582" />
+      </scope>
+      <scope id="7431304463732487582" at="29,130,36,22">
+        <var name="result" id="7431304463732487582" />
+      </scope>
+      <scope id="7431304463732487582" at="28,0,38,0">
+        <var name="checkingNodeContext" id="7431304463732487582" />
+        <var name="context" id="7431304463732487582" />
+      </scope>
+      <scope id="7431304463732487582" at="26,109,38,6" />
+      <scope id="7431304463732487582" at="25,0,40,0" />
+      <unit id="7431304463732487582" at="45,0,49,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtAncestorWhitelisting_Constraints$CONCEPTS" />
+      <unit id="7431304463732487582" at="27,15,38,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtAncestorWhitelisting_Constraints$1" />
+      <unit id="7431304463732487582" at="20,0,50,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints.WrapStmtAncestorWhitelisting_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

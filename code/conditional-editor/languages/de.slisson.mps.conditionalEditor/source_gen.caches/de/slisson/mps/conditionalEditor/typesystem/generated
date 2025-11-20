@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-8l1k22w3tj7kadpws7akacjpi8y0dkl">
+  <files names="ReferenceCorrectVariableInComponentArgument_QuickFix.java:TypesystemDescriptor.java:checkNothing_NonTypesystemRule.java:check_CellModel_ComponentWithParameters_NonTypesystemRule.java:check_ComponentArgument_NonTypesystemRule.java:check_ConditionalConceptEditorDeclaration_NonTypesystemRule.java:fix_AddExtendedLanguage_QuickFix.java:typeof_CellModel_ComponentWithParameters_InferenceRule.java:typeof_EditorComponentParameterReference_InferenceRule.java" />
+</product>
+

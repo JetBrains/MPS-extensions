@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="18,0,56,0" name="de.q60.mps.polymorphicfunctions.intentions.IntentionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:cc153b47-8e33-4ec1-9458-df8dd43895c9(de.q60.mps.polymorphicfunctions.intentions)/4739596383735054681">
+    <file name="IntentionsDescriptor.java">
+      <node id="4739596383735054681" at="37,47,38,66" concept="1" />
+      <node id="4739596383735054681" at="50,52,51,52" concept="1" />
+    </file>
+    <file name="ReplaceWithPrirityGroup_Intention.java">
+      <node id="4739596383735054681" at="35,0,36,0" concept="2" trace="myCachedExecutable" />
+      <node id="4739596383735054681" at="37,46,38,157" concept="10" />
+      <node id="4739596383735054681" at="42,35,43,37" concept="7" />
+      <node id="4739596383735054681" at="47,35,48,17" concept="7" />
+      <node id="4739596383735054681" at="52,37,53,105" concept="1" />
+      <node id="4739596383735054681" at="54,5,55,30" concept="7" />
+      <node id="4739596383735055726" at="62,87,63,43" concept="7" />
+      <node id="4739596383735060718" at="67,78,68,72" concept="6" />
+      <node id="4739596383735062837" at="68,72,69,52" concept="6" />
+      <node id="4739596383735086883" at="69,52,70,118" concept="6" />
+      <node id="4739596383735230183" at="70,118,71,150" concept="6" />
+      <node id="4739596383735234411" at="71,150,72,0" concept="8" />
+      <node id="4739596383735125822" at="72,0,73,275" concept="6" />
+      <node id="4739596383735238947" at="73,275,74,292" concept="6" />
+      <node id="4739596383735236315" at="74,292,75,0" concept="8" />
+      <node id="4739596383735127820" at="75,0,76,0" concept="8" />
+      <node id="4739596383735151349" at="76,0,77,104" concept="6" />
+      <node id="4739596383735148822" at="77,104,78,115" concept="1" />
+      <node id="4739596383735131104" at="78,115,79,0" concept="8" />
+      <node id="4739596383735163513" at="80,55,81,99" concept="6" />
+      <node id="4739596383735657382" at="81,99,82,78" concept="1" />
+      <node id="4739596383735161142" at="82,78,83,140" concept="1" />
+      <node id="4739596383735258716" at="84,7,85,0" concept="8" />
+      <node id="4739596383735255138" at="86,65,87,114" concept="6" />
+      <node id="4739596383735659903" at="87,114,88,83" concept="1" />
+      <node id="4739596383735265064" at="88,83,89,237" concept="1" />
+      <node id="4739596383735054681" at="95,55,96,21" concept="7" />
+      <node id="4739596383735054681" at="97,7,98,18" concept="7" />
+      <node id="4739596383735064905" at="101,93,102,103" concept="7" />
+      <node id="4739596383735054681" at="107,48,108,52" concept="7" />
+      <node id="4739596383735054681" at="114,0,115,0" concept="9" trace="PolymorphicFunctionsModule$Qj" />
+      <node id="4739596383735054681" at="115,0,116,0" concept="9" trace="ContextCall$kz" />
+      <node id="4739596383735054681" at="116,0,117,0" concept="9" trace="ContextContainer$Yb" />
+      <node id="4739596383735054681" at="117,0,118,0" concept="9" trace="PriorityGroupDeclaration$xC" />
+      <node id="4739596383735054681" at="118,0,119,0" concept="9" trace="PriorityGroupCall$kR" />
+      <node id="4739596383735054681" at="119,0,120,0" concept="9" trace="PriorityGroupContainer$J8" />
+      <node id="4739596383735054681" at="123,0,124,0" concept="9" trace="contextDecl$mFbc" />
+      <node id="4739596383735054681" at="124,0,125,0" concept="9" trace="contextDeclaration$Ry6l" />
+      <node id="4739596383735054681" at="125,0,126,0" concept="9" trace="groupDecl$tmbw" />
+      <node id="4739596383735054681" at="126,0,127,0" concept="9" trace="body$tmDy" />
+      <node id="4739596383735054681" at="127,0,128,0" concept="9" trace="body$mFDe" />
+      <node id="4739596383735054681" at="128,0,129,0" concept="9" trace="groupDecl$e19h" />
+      <node id="4739596383735054681" at="129,0,130,0" concept="9" trace="content$dSVI" />
+      <node id="4739596383735054681" at="130,0,131,0" concept="9" trace="content$tgyU" />
+      <node id="4739596383735054681" at="131,0,132,0" concept="9" trace="parameters$We0c" />
+      <node id="4739596383735054681" at="135,0,136,0" concept="9" trace="name$MnvL" />
+      <node id="4739596383735054681" at="58,0,60,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="4739596383735054681" at="37,0,40,0" concept="0" trace="ReplaceWithPrirityGroup_Intention#()V" />
+      <node id="4739596383735054681" at="51,99,54,5" concept="4" />
+      <node id="4739596383735054681" at="94,86,97,7" concept="4" />
+      <node id="4739596383735054681" at="101,0,104,0" concept="5" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="4739596383735054681" at="41,0,45,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="4739596383735054681" at="46,0,50,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="4739596383735054681" at="61,0,65,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="4739596383735054681" at="106,0,110,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="4739596383735158614" at="79,0,84,7" concept="3" />
+      <node id="4739596383735255134" at="85,0,90,7" concept="3" />
+      <node id="4739596383735054681" at="51,0,57,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="4739596383735054681" at="93,0,100,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="4739596383735054681" at="66,0,92,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="4739596383735054681" at="58,38,58,38" />
+      <scope id="4739596383735054681" at="37,46,38,157" />
+      <scope id="4739596383735054681" at="42,35,43,37" />
+      <scope id="4739596383735054681" at="47,35,48,17" />
+      <scope id="4739596383735054681" at="52,37,53,105" />
+      <scope id="4739596383735054683" at="62,87,63,43" />
+      <scope id="4739596383735054681" at="95,55,96,21" />
+      <scope id="4739596383735064443" at="101,93,102,103" />
+      <scope id="4739596383735054681" at="107,48,108,52" />
+      <scope id="4739596383735054681" at="58,0,60,0" />
+      <scope id="4739596383735054681" at="37,0,40,0" />
+      <scope id="4739596383735158620" at="80,55,83,140">
+        <var name="groupCall" id="4739596383735163514" />
+      </scope>
+      <scope id="4739596383735255137" at="86,65,89,237">
+        <var name="groupContainer" id="4739596383735255139" />
+      </scope>
+      <scope id="4739596383735054681" at="101,0,104,0">
+        <var name="editorContext" id="4739596383735054681" />
+        <var name="node" id="4739596383735054681" />
+      </scope>
+      <scope id="4739596383735054681" at="41,0,45,0" />
+      <scope id="4739596383735054681" at="46,0,50,0" />
+      <scope id="4739596383735054681" at="51,99,55,30" />
+      <scope id="4739596383735054681" at="61,0,65,0">
+        <var name="editorContext" id="4739596383735054681" />
+        <var name="node" id="4739596383735054681" />
+      </scope>
+      <scope id="4739596383735054681" at="94,86,98,18" />
+      <scope id="4739596383735054681" at="106,0,110,0" />
+      <scope id="4739596383735158614" at="79,0,84,7">
+        <var name="call" id="4739596383735158616" />
+      </scope>
+      <scope id="4739596383735255134" at="85,0,90,7">
+        <var name="container" id="4739596383735255135" />
+      </scope>
+      <scope id="4739596383735054681" at="51,0,57,0">
+        <var name="context" id="4739596383735054681" />
+        <var name="node" id="4739596383735054681" />
+      </scope>
+      <scope id="4739596383735054681" at="93,0,100,0">
+        <var name="editorContext" id="4739596383735054681" />
+        <var name="node" id="4739596383735054681" />
+      </scope>
+      <scope id="4739596383735054685" at="67,78,90,7">
+        <var name="calls" id="4739596383735125823" />
+        <var name="containers" id="4739596383735238948" />
+        <var name="models" id="4739596383735086884" />
+        <var name="modules" id="4739596383735062838" />
+        <var name="pfmodules" id="4739596383735230184" />
+        <var name="prioGroup" id="4739596383735151350" />
+        <var name="repo" id="4739596383735060719" />
+      </scope>
+      <scope id="4739596383735054681" at="66,0,92,0">
+        <var name="editorContext" id="4739596383735054681" />
+        <var name="node" id="4739596383735054681" />
+      </scope>
+      <unit id="4739596383735054681" at="134,0,137,0" name="de.q60.mps.polymorphicfunctions.intentions.ReplaceWithPrirityGroup_Intention$PROPS" />
+      <unit id="4739596383735054681" at="113,0,121,0" name="de.q60.mps.polymorphicfunctions.intentions.ReplaceWithPrirityGroup_Intention$CONCEPTS" />
+      <unit id="4739596383735054681" at="122,0,133,0" name="de.q60.mps.polymorphicfunctions.intentions.ReplaceWithPrirityGroup_Intention$LINKS" />
+      <unit id="4739596383735054681" at="57,0,112,0" name="de.q60.mps.polymorphicfunctions.intentions.ReplaceWithPrirityGroup_Intention$IntentionImplementation" />
+      <unit id="4739596383735054681" at="34,0,138,0" name="de.q60.mps.polymorphicfunctions.intentions.ReplaceWithPrirityGroup_Intention" />
+    </file>
+  </root>
+</debug-info>
+

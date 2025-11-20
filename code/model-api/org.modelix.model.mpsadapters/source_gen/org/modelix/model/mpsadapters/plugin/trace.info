@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:338b3d95-fd18-471c-8078-f69225ef8d9d(org.modelix.model.mpsadapters.plugin)/2901148130810798324">
+    <file name="Mpsadapters_ApplicationPlugin.java">
+      <node id="2901148130810798324" at="12,0,13,0" concept="3" trace="myId" />
+      <node id="2901148130810798324" at="18,27,19,16" concept="6" />
+      <node id="2901148130810798324" at="14,0,16,0" concept="1" trace="Mpsadapters_ApplicationPlugin#()V" />
+      <node id="2901148130810798324" at="17,0,21,0" concept="5" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="2901148130810798324" at="22,0,26,0" concept="5" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="2901148130810798324" at="14,42,14,42" />
+      <scope id="2901148130810798324" at="18,27,19,16" />
+      <scope id="2901148130810798324" at="23,66,24,53" />
+      <scope id="2901148130810798324" at="14,0,16,0" />
+      <scope id="2901148130810798324" at="17,0,21,0" />
+      <scope id="2901148130810798324" at="22,0,26,0">
+        <var name="parts" id="2901148130810798324" />
+      </scope>
+      <unit id="2901148130810798324" at="11,0,27,0" name="org.modelix.model.mpsadapters.plugin.Mpsadapters_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:338b3d95-fd18-471c-8078-f69225ef8d9d(org.modelix.model.mpsadapters.plugin)/2901148130810798445">
+    <file name="ApplicationPlugin_AppPluginPart.java">
+      <node id="2901148130810800132" at="14,22,15,75" concept="2" />
+      <node id="8383149787173220242" at="15,75,16,85" concept="2" />
+      <node id="2901148130810911861" at="19,25,20,77" concept="2" />
+      <node id="8383149787173220782" at="20,77,21,87" concept="2" />
+      <node id="2901148130810798445" at="11,0,13,0" concept="1" trace="ApplicationPlugin_AppPluginPart#()V" />
+      <node id="2901148130810798445" at="13,0,18,0" concept="5" trace="init#()V" />
+      <node id="2901148130810798445" at="18,0,23,0" concept="5" trace="dispose#()V" />
+      <scope id="2901148130810798445" at="11,44,11,44" />
+      <scope id="2901148130810798445" at="11,0,13,0" />
+      <scope id="2901148130810798567" at="14,22,16,85" />
+      <scope id="2901148130810911778" at="19,25,21,87" />
+      <scope id="2901148130810798445" at="13,0,18,0" />
+      <scope id="2901148130810798445" at="18,0,23,0" />
+      <unit id="2901148130810798445" at="10,0,24,0" name="org.modelix.model.mpsadapters.plugin.ApplicationPlugin_AppPluginPart" />
+    </file>
+    <file name="Mpsadapters_ApplicationPlugin.java">
+      <node id="2901148130810798445" at="23,66,24,53" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:338b3d95-fd18-471c-8078-f69225ef8d9d(org.modelix.model.mpsadapters.plugin)/3895521951620262206">
+    <file name="MPSNodeReferenceSerializer.java">
+      <node id="3895521951620262206" at="22,0,23,0" concept="9" trace="LOG" />
+      <node id="8186987437459019374" at="23,0,24,0" concept="9" trace="NODE_PREFIX" />
+      <node id="8186987437459014598" at="24,0,25,0" concept="9" trace="MODEL_PREFIX" />
+      <node id="8186987437459040160" at="25,0,26,0" concept="9" trace="MODULE_PREFIX" />
+      <node id="7089541626302351918" at="26,0,27,0" concept="9" trace="SERIALIZED_GLOBAL_REPOSITORY" />
+      <node id="3895521951620280688" at="28,0,29,0" concept="9" trace="INSTANCE" />
+      <node id="2700317184760068168" at="33,47,34,96" concept="6" />
+      <node id="8186987437458966997" at="35,59,36,119" concept="6" />
+      <node id="8186987437459041136" at="37,60,38,122" concept="6" />
+      <node id="7089541626302356022" at="39,64,40,42" concept="6" />
+      <node id="2700317184760068181" at="41,12,42,18" concept="6" />
+      <node id="8186987437459024246" at="49,45,50,136" concept="6" />
+      <node id="8186987437459024928" at="51,53,52,143" concept="6" />
+      <node id="8186987437459046038" at="53,54,54,146" concept="6" />
+      <node id="7089541626302362991" at="55,74,56,138" concept="6" />
+      <node id="8186987437458996092" at="57,5,58,0" concept="8" />
+      <node id="8186987437459038587" at="58,0,59,81" concept="7" />
+      <node id="2700317184760068207" at="60,9,61,77" concept="6" />
+      <node id="2700317184760068199" at="63,31,64,61" concept="2" />
+      <node id="2700317184760068204" at="65,7,66,18" concept="6" />
+      <node id="8760445867694442668" at="67,67,68,18" concept="6" />
+      <node id="8760445867694647528" at="70,31,71,61" concept="2" />
+      <node id="8760445867694647533" at="72,7,73,18" concept="6" />
+      <node id="2700317184760068179" at="41,10,43,5" concept="0" />
+      <node id="2700317184760068199" at="62,34,65,7" concept="4" />
+      <node id="8760445867694647528" at="69,35,72,7" concept="4" />
+      <node id="8186987437458996824" at="48,65,57,5" concept="4" />
+      <node id="2700317184760068166" at="32,56,43,5" concept="4" />
+      <node id="2700317184760068158" at="30,0,45,0" concept="5" trace="serialize#(Lorg/modelix/model/api/INodeReference;)Ljava/lang/String;" />
+      <node id="2700317184760068193" at="59,81,74,5" concept="10" />
+      <node id="2700317184760068185" at="46,0,76,0" concept="5" trace="deserialize#(Ljava/lang/String;)Lorg/modelix/model/api/INodeReference;" />
+      <scope id="2700317184760068167" at="33,47,34,96" />
+      <scope id="8186987437458964325" at="35,59,36,119" />
+      <scope id="8186987437459041135" at="37,60,38,122" />
+      <scope id="7089541626302353430" at="39,64,40,42" />
+      <scope id="2700317184760068180" at="41,12,42,18" />
+      <scope id="8186987437458996826" at="49,45,50,136" />
+      <scope id="8186987437459002702" at="51,53,52,143" />
+      <scope id="8186987437459046037" at="53,54,54,146" />
+      <scope id="7089541626302359776" at="55,74,56,138" />
+      <scope id="2700317184760068206" at="60,9,61,77" />
+      <scope id="2700317184760068199" at="63,31,64,61" />
+      <scope id="8760445867694442662" at="67,67,68,18" />
+      <scope id="8760445867694647528" at="70,31,71,61" />
+      <scope id="8760445867694442658" at="67,5,69,5">
+        <var name="ex" id="8760445867694442659" />
+      </scope>
+      <scope id="2700317184760068198" at="62,34,66,18" />
+      <scope id="8760445867694644530" at="69,35,73,18" />
+      <scope id="2700317184760068194" at="62,5,67,5">
+        <var name="ex" id="2700317184760068195" />
+      </scope>
+      <scope id="8760445867694644527" at="69,5,74,5">
+        <var name="ex" id="8760445867694644528" />
+      </scope>
+      <scope id="2700317184760068165" at="32,56,43,5" />
+      <scope id="2700317184760068158" at="30,0,45,0">
+        <var name="ref" id="2700317184760068162" />
+      </scope>
+      <scope id="2700317184760068192" at="48,65,74,5" />
+      <scope id="2700317184760068185" at="46,0,76,0">
+        <var name="serialized" id="2700317184760068189" />
+      </scope>
+      <unit id="3895521951620262206" at="21,0,78,0" name="org.modelix.model.mpsadapters.plugin.MPSNodeReferenceSerializer" />
+    </file>
+  </root>
+</debug-info>
+

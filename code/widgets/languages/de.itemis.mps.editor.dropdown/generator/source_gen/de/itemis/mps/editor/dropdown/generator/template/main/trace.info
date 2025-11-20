@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="QueriesGenerated.java">
+      <unit at="95,0,98,0" name="de.itemis.mps.editor.dropdown.generator.template.main.QueriesGenerated$LINKS" />
+      <unit at="78,0,94,0" name="de.itemis.mps.editor.dropdown.generator.template.main.QueriesGenerated$PVQ" />
+      <unit at="50,0,67,0" name="de.itemis.mps.editor.dropdown.generator.template.main.QueriesGenerated$SNQ" />
+      <unit at="24,0,99,0" name="de.itemis.mps.editor.dropdown.generator.template.main.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:8591b4aa-a32b-45b3-929c-7e481e0ba12a(de.itemis.mps.editor.dropdown.generator.template.main@generator)/1139852871567">
+    <file name="QueriesGenerated.java">
+      <node id="1210363892958" at="29,88,30,124" concept="1" />
+      <node id="4141535073102962565" at="35,92,36,79" concept="1" />
+      <node id="4141535073102962513" at="41,56,42,56" concept="0" />
+      <node id="4141535073102962513" at="60,15,61,59" concept="1" />
+      <node id="1139914910909" at="69,14,70,189" concept="0" />
+      <node id="1139914910909" at="87,15,88,66" concept="1" />
+      <node id="1210363886097" at="29,0,32,0" concept="2" trace="propertyMacro_GetValue_1_0#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
+      <node id="4141535073102962513" at="35,0,38,0" concept="2" trace="sourceNodeQuery_1_0#(Ljetbrains/mps/generator/template/SourceSubstituteMacroNodeContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1210363886098" at="29,88,30,124" />
+      <scope id="4141535073102962514" at="35,92,36,79" />
+      <scope id="4141535073102962513" at="60,15,61,59" />
+      <scope id="1139914910909" at="87,15,88,66" />
+      <scope id="1210363886097" at="29,0,32,0">
+        <var name="_context" id="1210363886097" />
+      </scope>
+      <scope id="4141535073102962513" at="35,0,38,0">
+        <var name="_context" id="4141535073102962513" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:8591b4aa-a32b-45b3-929c-7e481e0ba12a(de.itemis.mps.editor.dropdown.generator.template.main@generator)/671762723175669364">
+    <file name="QueriesGenerated.java">
+      <node id="4141535073102965543" at="32,92,33,79" concept="1" />
+      <node id="4141535073102965536" at="40,14,41,56" concept="0" />
+      <node id="4141535073102965536" at="58,15,59,59" concept="1" />
+      <node id="4141535073102965536" at="32,0,35,0" concept="2" trace="sourceNodeQuery_0_0#(Ljetbrains/mps/generator/template/SourceSubstituteMacroNodeContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="4141535073102965537" at="32,92,33,79" />
+      <scope id="4141535073102965536" at="58,15,59,59" />
+      <scope id="4141535073102965536" at="32,0,35,0">
+        <var name="_context" id="4141535073102965536" />
+      </scope>
+    </file>
+  </root>
+</debug-info>
+

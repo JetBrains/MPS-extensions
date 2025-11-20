@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-cvk8uucyw5j4momvjndqmr04kuijzq0">
+  <files names="BoldText_Editor.java:BoldText_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:HtmlTag_Editor.java:HtmlTag_EditorBuilder_a.java:ItalicText_Editor.java:ItalicText_EditorBuilder_a.java:JavadocComment_Editor.java:JavadocComment_EditorBuilder_a.java:LinkTag_Editor.java:LinkTag_EditorBuilder_a.java:LinkTag_InspectorBuilder_a.java:SeeClassTag_Editor.java:SeeClassTag_EditorBuilder_a.java:SeeClassTag_InspectorBuilder_a.java:TypeParamTag_Editor.java:TypeParamTag_EditorBuilder_a.java" />
+</product>
+

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,37,0" name="de.itemis.mps.compare.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:d0d2b1c3-34ac-476b-a0a3-6b7387be1449(de.itemis.mps.compare.constraints)/334096402171925001">
+    <file name="IgnoredChild_Constraints.java">
+      <node id="334096402171925001" at="25,37,26,36" concept="6" />
+      <node id="334096402171925267" at="37,63,38,135" concept="4" />
+      <node id="334096402171925270" at="41,80,42,234" concept="4" />
+      <node id="334096402171925001" at="46,6,47,131" concept="3" />
+      <node id="334096402171925267" at="47,131,48,42" concept="1" />
+      <node id="334096402171925001" at="48,42,49,22" concept="4" />
+      <node id="334096402171925001" at="53,0,54,0" concept="5" trace="IgnoredChild$z4" />
+      <node id="334096402171925001" at="57,0,58,0" concept="5" trace="linkDeclaration$Lgpf" />
+      <node id="334096402171925001" at="58,0,59,0" concept="5" trace="conceptDeclaration$Lgae" />
+      <node id="334096402171925001" at="25,0,28,0" concept="0" trace="IgnoredChild_Constraints#()V" />
+      <node id="334096402171925267" at="36,0,40,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="334096402171925267" at="40,0,44,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="334096402171925267" at="34,56,44,10" concept="4" />
+      <node id="334096402171925267" at="32,0,46,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="334096402171925267" at="30,90,46,6" concept="3" />
+      <node id="334096402171925001" at="29,0,51,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="334096402171925001" at="25,37,26,36" />
+      <scope id="334096402171925267" at="37,63,38,135" />
+      <scope id="334096402171925267" at="41,80,42,234" />
+      <scope id="334096402171925001" at="25,0,28,0" />
+      <scope id="334096402171925267" at="36,0,40,0" />
+      <scope id="334096402171925267" at="40,0,44,0">
+        <var name="_context" id="334096402171925267" />
+      </scope>
+      <scope id="334096402171925267" at="34,56,44,10" />
+      <scope id="334096402171925267" at="32,0,46,0" />
+      <scope id="334096402171925001" at="30,90,49,22">
+        <var name="d0" id="334096402171925267" />
+        <var name="references" id="334096402171925001" />
+      </scope>
+      <scope id="334096402171925001" at="29,0,51,0" />
+      <unit id="334096402171925001" at="52,0,55,0" name="de.itemis.mps.compare.constraints.IgnoredChild_Constraints$CONCEPTS" />
+      <unit id="334096402171925001" at="56,0,60,0" name="de.itemis.mps.compare.constraints.IgnoredChild_Constraints$LINKS" />
+      <unit id="334096402171925267" at="35,19,44,9" name="de.itemis.mps.compare.constraints.IgnoredChild_Constraints$1$1" />
+      <unit id="334096402171925267" at="31,48,46,5" name="de.itemis.mps.compare.constraints.IgnoredChild_Constraints$1" />
+      <unit id="334096402171925001" at="24,0,61,0" name="de.itemis.mps.compare.constraints.IgnoredChild_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:d0d2b1c3-34ac-476b-a0a3-6b7387be1449(de.itemis.mps.compare.constraints)/334096402184563370">
+    <file name="IgnoredReference_Constraints.java">
+      <node id="334096402184563370" at="25,41,26,40" concept="6" />
+      <node id="334096402184563371" at="37,63,38,135" concept="4" />
+      <node id="334096402184563374" at="41,80,42,232" concept="4" />
+      <node id="334096402184563370" at="46,6,47,131" concept="3" />
+      <node id="334096402184563371" at="47,131,48,42" concept="1" />
+      <node id="334096402184563370" at="48,42,49,22" concept="4" />
+      <node id="334096402184563370" at="53,0,54,0" concept="5" trace="IgnoredReference$Dv" />
+      <node id="334096402184563370" at="57,0,58,0" concept="5" trace="linkDeclaration$mjAJ" />
+      <node id="334096402184563370" at="58,0,59,0" concept="5" trace="conceptDeclaration$mjnI" />
+      <node id="334096402184563370" at="25,0,28,0" concept="0" trace="IgnoredReference_Constraints#()V" />
+      <node id="334096402184563371" at="36,0,40,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="334096402184563371" at="40,0,44,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="334096402184563371" at="34,56,44,10" concept="4" />
+      <node id="334096402184563371" at="32,0,46,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="334096402184563371" at="30,90,46,6" concept="3" />
+      <node id="334096402184563370" at="29,0,51,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="334096402184563370" at="25,41,26,40" />
+      <scope id="334096402184563371" at="37,63,38,135" />
+      <scope id="334096402184563371" at="41,80,42,232" />
+      <scope id="334096402184563370" at="25,0,28,0" />
+      <scope id="334096402184563371" at="36,0,40,0" />
+      <scope id="334096402184563371" at="40,0,44,0">
+        <var name="_context" id="334096402184563371" />
+      </scope>
+      <scope id="334096402184563371" at="34,56,44,10" />
+      <scope id="334096402184563371" at="32,0,46,0" />
+      <scope id="334096402184563370" at="30,90,49,22">
+        <var name="d0" id="334096402184563371" />
+        <var name="references" id="334096402184563370" />
+      </scope>
+      <scope id="334096402184563370" at="29,0,51,0" />
+      <unit id="334096402184563370" at="52,0,55,0" name="de.itemis.mps.compare.constraints.IgnoredReference_Constraints$CONCEPTS" />
+      <unit id="334096402184563370" at="56,0,60,0" name="de.itemis.mps.compare.constraints.IgnoredReference_Constraints$LINKS" />
+      <unit id="334096402184563371" at="35,19,44,9" name="de.itemis.mps.compare.constraints.IgnoredReference_Constraints$1$1" />
+      <unit id="334096402184563371" at="31,48,46,5" name="de.itemis.mps.compare.constraints.IgnoredReference_Constraints$1" />
+      <unit id="334096402184563370" at="24,0,61,0" name="de.itemis.mps.compare.constraints.IgnoredReference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:d0d2b1c3-34ac-476b-a0a3-6b7387be1449(de.itemis.mps.compare.constraints)/6321544733526628952">
+    <file name="PropertyOrReferenceReference_Constraints.java">
+      <node id="6321544733526628952" at="32,53,33,52" concept="6" />
+      <node id="6321544733526938035" at="44,63,45,136" concept="4" />
+      <node id="2691011170768281691" at="48,80,49,181" concept="3" />
+      <node id="2691011170768281697" at="49,181,50,62" concept="3" />
+      <node id="2691011170768281703" at="50,62,51,198" concept="1" />
+      <node id="2691011170768281712" at="51,198,52,194" concept="1" />
+      <node id="2691011170768281732" at="53,220,54,140" concept="1" />
+      <node id="2691011170768281739" at="54,140,55,144" concept="1" />
+      <node id="2691011170768281748" at="56,15,57,59" concept="4" />
+      <node id="6321544733526628952" at="61,6,62,131" concept="3" />
+      <node id="6321544733526938035" at="62,131,63,42" concept="1" />
+      <node id="6321544733526628952" at="63,42,64,22" concept="4" />
+      <node id="6321544733526628952" at="68,0,69,0" concept="5" trace="PropertyOrReferenceReference$4L" />
+      <node id="6321544733526628952" at="72,0,73,0" concept="5" trace="ref$b10I" />
+      <node id="6321544733526628952" at="73,0,74,0" concept="5" trace="propertyDeclaration$YUgg" />
+      <node id="6321544733526628952" at="74,0,75,0" concept="5" trace="linkDeclaration$YU1f" />
+      <node id="6321544733526628952" at="32,0,35,0" concept="0" trace="PropertyOrReferenceReference_Constraints#()V" />
+      <node id="6321544733526938035" at="43,0,47,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="2691011170768281721" at="52,194,56,15" concept="1" />
+      <node id="6321544733526938035" at="47,0,59,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6321544733526938035" at="41,56,59,10" concept="4" />
+      <node id="6321544733526938035" at="39,0,61,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="6321544733526938035" at="37,90,61,6" concept="3" />
+      <node id="6321544733526628952" at="36,0,66,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="6321544733526628952" at="32,53,33,52" />
+      <scope id="6321544733526938035" at="44,63,45,136" />
+      <scope id="2691011170768281731" at="53,220,55,144" />
+      <scope id="6321544733526628952" at="32,0,35,0" />
+      <scope id="6321544733526938035" at="43,0,47,0" />
+      <scope id="6321544733526938035" at="48,80,57,59">
+        <var name="parent" id="2691011170768281692" />
+        <var name="result" id="2691011170768281698" />
+      </scope>
+      <scope id="6321544733526938035" at="47,0,59,0">
+        <var name="_context" id="6321544733526938035" />
+      </scope>
+      <scope id="6321544733526938035" at="41,56,59,10" />
+      <scope id="6321544733526938035" at="39,0,61,0" />
+      <scope id="6321544733526628952" at="37,90,64,22">
+        <var name="d0" id="6321544733526938035" />
+        <var name="references" id="6321544733526628952" />
+      </scope>
+      <scope id="6321544733526628952" at="36,0,66,0" />
+      <unit id="6321544733526628952" at="67,0,70,0" name="de.itemis.mps.compare.constraints.PropertyOrReferenceReference_Constraints$CONCEPTS" />
+      <unit id="6321544733526628952" at="71,0,76,0" name="de.itemis.mps.compare.constraints.PropertyOrReferenceReference_Constraints$LINKS" />
+      <unit id="6321544733526938035" at="42,19,59,9" name="de.itemis.mps.compare.constraints.PropertyOrReferenceReference_Constraints$1$1" />
+      <unit id="6321544733526938035" at="38,48,61,5" name="de.itemis.mps.compare.constraints.PropertyOrReferenceReference_Constraints$1" />
+      <unit id="6321544733526628952" at="31,0,77,0" name="de.itemis.mps.compare.constraints.PropertyOrReferenceReference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:d0d2b1c3-34ac-476b-a0a3-6b7387be1449(de.itemis.mps.compare.constraints)/6321544733526981782">
+    <file name="IgnorePropertiesAnnotation_Constraints.java">
+      <node id="6321544733526981782" at="10,51,11,50" concept="6" />
+      <node id="6321544733526981782" at="15,0,16,0" concept="5" trace="IgnorePropertiesAnnotation$zD" />
+      <node id="6321544733526981782" at="10,0,13,0" concept="0" trace="IgnorePropertiesAnnotation_Constraints#()V" />
+      <scope id="6321544733526981782" at="10,51,11,50" />
+      <scope id="6321544733526981782" at="10,0,13,0" />
+      <unit id="6321544733526981782" at="14,0,17,0" name="de.itemis.mps.compare.constraints.IgnorePropertiesAnnotation_Constraints$CONCEPTS" />
+      <unit id="6321544733526981782" at="9,0,18,0" name="de.itemis.mps.compare.constraints.IgnorePropertiesAnnotation_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:d0d2b1c3-34ac-476b-a0a3-6b7387be1449(de.itemis.mps.compare.constraints)/8669578577614455286">
+    <file name="IgnoredProperty_Constraints.java">
+      <node id="8669578577614455286" at="25,40,26,39" concept="6" />
+      <node id="8669578577614455528" at="37,63,38,136" concept="4" />
+      <node id="6836281137582799267" at="41,80,42,227" concept="4" />
+      <node id="8669578577614455286" at="46,6,47,131" concept="3" />
+      <node id="8669578577614455528" at="47,131,48,42" concept="1" />
+      <node id="8669578577614455286" at="48,42,49,22" concept="4" />
+      <node id="8669578577614455286" at="53,0,54,0" concept="5" trace="IgnoredProperty$Jx" />
+      <node id="8669578577614455286" at="57,0,58,0" concept="5" trace="propertyDeclaration$lh29" />
+      <node id="8669578577614455286" at="58,0,59,0" concept="5" trace="conceptDeclaration$lgN8" />
+      <node id="8669578577614455286" at="25,0,28,0" concept="0" trace="IgnoredProperty_Constraints#()V" />
+      <node id="8669578577614455528" at="36,0,40,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8669578577614455528" at="40,0,44,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="8669578577614455528" at="34,56,44,10" concept="4" />
+      <node id="8669578577614455528" at="32,0,46,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="8669578577614455528" at="30,90,46,6" concept="3" />
+      <node id="8669578577614455286" at="29,0,51,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="8669578577614455286" at="25,40,26,39" />
+      <scope id="8669578577614455528" at="37,63,38,136" />
+      <scope id="8669578577614455528" at="41,80,42,227" />
+      <scope id="8669578577614455286" at="25,0,28,0" />
+      <scope id="8669578577614455528" at="36,0,40,0" />
+      <scope id="8669578577614455528" at="40,0,44,0">
+        <var name="_context" id="8669578577614455528" />
+      </scope>
+      <scope id="8669578577614455528" at="34,56,44,10" />
+      <scope id="8669578577614455528" at="32,0,46,0" />
+      <scope id="8669578577614455286" at="30,90,49,22">
+        <var name="d0" id="8669578577614455528" />
+        <var name="references" id="8669578577614455286" />
+      </scope>
+      <scope id="8669578577614455286" at="29,0,51,0" />
+      <unit id="8669578577614455286" at="52,0,55,0" name="de.itemis.mps.compare.constraints.IgnoredProperty_Constraints$CONCEPTS" />
+      <unit id="8669578577614455286" at="56,0,60,0" name="de.itemis.mps.compare.constraints.IgnoredProperty_Constraints$LINKS" />
+      <unit id="8669578577614455528" at="35,19,44,9" name="de.itemis.mps.compare.constraints.IgnoredProperty_Constraints$1$1" />
+      <unit id="8669578577614455528" at="31,48,46,5" name="de.itemis.mps.compare.constraints.IgnoredProperty_Constraints$1" />
+      <unit id="8669578577614455286" at="24,0,61,0" name="de.itemis.mps.compare.constraints.IgnoredProperty_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

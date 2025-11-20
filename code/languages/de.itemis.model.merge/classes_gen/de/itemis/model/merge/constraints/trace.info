@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,47,0" name="de.itemis.model.merge.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/1846227925979898424">
+    <file name="SingletonChildPolicy_Constraints.java">
+      <node id="1846227925979898424" at="26,45,27,44" concept="9" />
+      <node id="1846227925979898810" at="38,63,39,136" concept="5" />
+      <node id="1846227925979899720" at="42,80,43,137" concept="4" />
+      <node id="1846227925979899729" at="43,137,44,163" concept="1" />
+      <node id="1846227925979899743" at="44,163,45,153" concept="5" />
+      <node id="1846227925979898424" at="49,6,50,131" concept="4" />
+      <node id="1846227925979898810" at="50,131,51,42" concept="1" />
+      <node id="1846227925979898424" at="51,42,52,22" concept="5" />
+      <node id="1846227925979898424" at="56,0,57,0" concept="7" trace="SingletonChildPolicy$$A" />
+      <node id="1846227925979898424" at="57,0,58,0" concept="7" trace="ConceptMergingPolicy$RB" />
+      <node id="1846227925979898424" at="61,0,62,0" concept="7" trace="child$kkGR" />
+      <node id="1846227925979898424" at="26,0,29,0" concept="0" trace="SingletonChildPolicy_Constraints#()V" />
+      <node id="1846227925979898810" at="37,0,41,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1846227925979898810" at="41,0,47,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1846227925979898810" at="35,56,47,10" concept="5" />
+      <node id="1846227925979898810" at="33,0,49,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1846227925979898810" at="31,90,49,6" concept="4" />
+      <node id="1846227925979898424" at="30,0,54,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1846227925979898424" at="26,45,27,44" />
+      <scope id="1846227925979898810" at="38,63,39,136" />
+      <scope id="1846227925979898424" at="26,0,29,0" />
+      <scope id="1846227925979898810" at="42,80,45,153">
+        <var name="mergePol" id="1846227925979899721" />
+      </scope>
+      <scope id="1846227925979898810" at="37,0,41,0" />
+      <scope id="1846227925979898810" at="41,0,47,0">
+        <var name="_context" id="1846227925979898810" />
+      </scope>
+      <scope id="1846227925979898810" at="35,56,47,10" />
+      <scope id="1846227925979898810" at="33,0,49,0" />
+      <scope id="1846227925979898424" at="31,90,52,22">
+        <var name="d0" id="1846227925979898810" />
+        <var name="references" id="1846227925979898424" />
+      </scope>
+      <scope id="1846227925979898424" at="30,0,54,0" />
+      <unit id="1846227925979898424" at="60,0,63,0" name="de.itemis.model.merge.constraints.SingletonChildPolicy_Constraints$LINKS" />
+      <unit id="1846227925979898424" at="55,0,59,0" name="de.itemis.model.merge.constraints.SingletonChildPolicy_Constraints$CONCEPTS" />
+      <unit id="1846227925979898810" at="36,19,47,9" name="de.itemis.model.merge.constraints.SingletonChildPolicy_Constraints$1$1" />
+      <unit id="1846227925979898810" at="32,48,49,5" name="de.itemis.model.merge.constraints.SingletonChildPolicy_Constraints$1" />
+      <unit id="1846227925979898424" at="25,0,64,0" name="de.itemis.model.merge.constraints.SingletonChildPolicy_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/1846227925979900567">
+    <file name="SingeltonRefPolicy_Constraints.java">
+      <node id="1846227925979900567" at="26,43,27,42" concept="9" />
+      <node id="1846227925979900568" at="38,63,39,136" concept="5" />
+      <node id="1846227925979901031" at="42,80,43,137" concept="4" />
+      <node id="1846227925979901040" at="43,137,44,163" concept="1" />
+      <node id="1846227925979901054" at="44,163,45,149" concept="5" />
+      <node id="1846227925979900567" at="49,6,50,131" concept="4" />
+      <node id="1846227925979900568" at="50,131,51,42" concept="1" />
+      <node id="1846227925979900567" at="51,42,52,22" concept="5" />
+      <node id="1846227925979900567" at="56,0,57,0" concept="7" trace="SingeltonRefPolicy$Cu" />
+      <node id="1846227925979900567" at="57,0,58,0" concept="7" trace="ConceptMergingPolicy$RB" />
+      <node id="1846227925979900567" at="61,0,62,0" concept="7" trace="child$kkGR" />
+      <node id="1846227925979900567" at="26,0,29,0" concept="0" trace="SingeltonRefPolicy_Constraints#()V" />
+      <node id="1846227925979900568" at="37,0,41,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1846227925979900568" at="41,0,47,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1846227925979900568" at="35,56,47,10" concept="5" />
+      <node id="1846227925979900568" at="33,0,49,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1846227925979900568" at="31,90,49,6" concept="4" />
+      <node id="1846227925979900567" at="30,0,54,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1846227925979900567" at="26,43,27,42" />
+      <scope id="1846227925979900568" at="38,63,39,136" />
+      <scope id="1846227925979900567" at="26,0,29,0" />
+      <scope id="1846227925979900568" at="42,80,45,149">
+        <var name="mergePol" id="1846227925979901032" />
+      </scope>
+      <scope id="1846227925979900568" at="37,0,41,0" />
+      <scope id="1846227925979900568" at="41,0,47,0">
+        <var name="_context" id="1846227925979900568" />
+      </scope>
+      <scope id="1846227925979900568" at="35,56,47,10" />
+      <scope id="1846227925979900568" at="33,0,49,0" />
+      <scope id="1846227925979900567" at="31,90,52,22">
+        <var name="d0" id="1846227925979900568" />
+        <var name="references" id="1846227925979900567" />
+      </scope>
+      <scope id="1846227925979900567" at="30,0,54,0" />
+      <unit id="1846227925979900567" at="60,0,63,0" name="de.itemis.model.merge.constraints.SingeltonRefPolicy_Constraints$LINKS" />
+      <unit id="1846227925979900567" at="55,0,59,0" name="de.itemis.model.merge.constraints.SingeltonRefPolicy_Constraints$CONCEPTS" />
+      <unit id="1846227925979900568" at="36,19,47,9" name="de.itemis.model.merge.constraints.SingeltonRefPolicy_Constraints$1$1" />
+      <unit id="1846227925979900568" at="32,48,49,5" name="de.itemis.model.merge.constraints.SingeltonRefPolicy_Constraints$1" />
+      <unit id="1846227925979900567" at="25,0,64,0" name="de.itemis.model.merge.constraints.SingeltonRefPolicy_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/1846227925980355288">
+    <file name="OptionalChildPolicy_Constraints.java">
+      <node id="1846227925980355288" at="26,44,27,43" concept="9" />
+      <node id="1846227925980355289" at="38,63,39,136" concept="5" />
+      <node id="1846227925980370394" at="42,80,43,137" concept="4" />
+      <node id="1846227925980370403" at="43,137,44,163" concept="1" />
+      <node id="1846227925980370417" at="44,163,45,153" concept="5" />
+      <node id="1846227925980355288" at="49,6,50,131" concept="4" />
+      <node id="1846227925980355289" at="50,131,51,42" concept="1" />
+      <node id="1846227925980355288" at="51,42,52,22" concept="5" />
+      <node id="1846227925980355288" at="56,0,57,0" concept="7" trace="OptionalChildPolicy$A3" />
+      <node id="1846227925980355288" at="57,0,58,0" concept="7" trace="ConceptMergingPolicy$RB" />
+      <node id="1846227925980355288" at="61,0,62,0" concept="7" trace="child$kkGR" />
+      <node id="1846227925980355288" at="26,0,29,0" concept="0" trace="OptionalChildPolicy_Constraints#()V" />
+      <node id="1846227925980355289" at="37,0,41,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1846227925980355289" at="41,0,47,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1846227925980355289" at="35,56,47,10" concept="5" />
+      <node id="1846227925980355289" at="33,0,49,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1846227925980355289" at="31,90,49,6" concept="4" />
+      <node id="1846227925980355288" at="30,0,54,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1846227925980355288" at="26,44,27,43" />
+      <scope id="1846227925980355289" at="38,63,39,136" />
+      <scope id="1846227925980355288" at="26,0,29,0" />
+      <scope id="1846227925980355289" at="42,80,45,153">
+        <var name="mergePol" id="1846227925980370395" />
+      </scope>
+      <scope id="1846227925980355289" at="37,0,41,0" />
+      <scope id="1846227925980355289" at="41,0,47,0">
+        <var name="_context" id="1846227925980355289" />
+      </scope>
+      <scope id="1846227925980355289" at="35,56,47,10" />
+      <scope id="1846227925980355289" at="33,0,49,0" />
+      <scope id="1846227925980355288" at="31,90,52,22">
+        <var name="d0" id="1846227925980355289" />
+        <var name="references" id="1846227925980355288" />
+      </scope>
+      <scope id="1846227925980355288" at="30,0,54,0" />
+      <unit id="1846227925980355288" at="60,0,63,0" name="de.itemis.model.merge.constraints.OptionalChildPolicy_Constraints$LINKS" />
+      <unit id="1846227925980355288" at="55,0,59,0" name="de.itemis.model.merge.constraints.OptionalChildPolicy_Constraints$CONCEPTS" />
+      <unit id="1846227925980355289" at="36,19,47,9" name="de.itemis.model.merge.constraints.OptionalChildPolicy_Constraints$1$1" />
+      <unit id="1846227925980355289" at="32,48,49,5" name="de.itemis.model.merge.constraints.OptionalChildPolicy_Constraints$1" />
+      <unit id="1846227925980355288" at="25,0,64,0" name="de.itemis.model.merge.constraints.OptionalChildPolicy_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/1846227925980371436">
+    <file name="OptionalRefPolicy_Constraints.java">
+      <node id="1846227925980371436" at="26,42,27,41" concept="9" />
+      <node id="1846227925980371437" at="38,63,39,136" concept="5" />
+      <node id="1846227925980371750" at="42,80,43,137" concept="4" />
+      <node id="1846227925980371759" at="43,137,44,163" concept="1" />
+      <node id="1846227925980371773" at="44,163,45,148" concept="5" />
+      <node id="1846227925980371436" at="49,6,50,131" concept="4" />
+      <node id="1846227925980371437" at="50,131,51,42" concept="1" />
+      <node id="1846227925980371436" at="51,42,52,22" concept="5" />
+      <node id="1846227925980371436" at="56,0,57,0" concept="7" trace="OptionalRefPolicy$O6" />
+      <node id="1846227925980371436" at="57,0,58,0" concept="7" trace="ConceptMergingPolicy$RB" />
+      <node id="1846227925980371436" at="61,0,62,0" concept="7" trace="child$kkGR" />
+      <node id="1846227925980371436" at="26,0,29,0" concept="0" trace="OptionalRefPolicy_Constraints#()V" />
+      <node id="1846227925980371437" at="37,0,41,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1846227925980371437" at="41,0,47,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1846227925980371437" at="35,56,47,10" concept="5" />
+      <node id="1846227925980371437" at="33,0,49,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1846227925980371437" at="31,90,49,6" concept="4" />
+      <node id="1846227925980371436" at="30,0,54,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1846227925980371436" at="26,42,27,41" />
+      <scope id="1846227925980371437" at="38,63,39,136" />
+      <scope id="1846227925980371436" at="26,0,29,0" />
+      <scope id="1846227925980371437" at="42,80,45,148">
+        <var name="mergePol" id="1846227925980371751" />
+      </scope>
+      <scope id="1846227925980371437" at="37,0,41,0" />
+      <scope id="1846227925980371437" at="41,0,47,0">
+        <var name="_context" id="1846227925980371437" />
+      </scope>
+      <scope id="1846227925980371437" at="35,56,47,10" />
+      <scope id="1846227925980371437" at="33,0,49,0" />
+      <scope id="1846227925980371436" at="31,90,52,22">
+        <var name="d0" id="1846227925980371437" />
+        <var name="references" id="1846227925980371436" />
+      </scope>
+      <scope id="1846227925980371436" at="30,0,54,0" />
+      <unit id="1846227925980371436" at="60,0,63,0" name="de.itemis.model.merge.constraints.OptionalRefPolicy_Constraints$LINKS" />
+      <unit id="1846227925980371436" at="55,0,59,0" name="de.itemis.model.merge.constraints.OptionalRefPolicy_Constraints$CONCEPTS" />
+      <unit id="1846227925980371437" at="36,19,47,9" name="de.itemis.model.merge.constraints.OptionalRefPolicy_Constraints$1$1" />
+      <unit id="1846227925980371437" at="32,48,49,5" name="de.itemis.model.merge.constraints.OptionalRefPolicy_Constraints$1" />
+      <unit id="1846227925980371436" at="25,0,64,0" name="de.itemis.model.merge.constraints.OptionalRefPolicy_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/1912777765298559864">
+    <file name="ConceptMergingPolicy_Constraints.java">
+      <node id="1912777765298559864" at="26,45,27,44" concept="9" />
+      <node id="4176264672384853316" at="38,63,39,136" concept="5" />
+      <node id="4066635151115135410" at="42,80,43,135" concept="4" />
+      <node id="4176264672385317694" at="43,135,44,146" concept="5" />
+      <node id="1912777765298559864" at="48,6,49,131" concept="4" />
+      <node id="4176264672384853316" at="49,131,50,42" concept="1" />
+      <node id="1912777765298559864" at="50,42,51,22" concept="5" />
+      <node id="1912777765298559864" at="55,0,56,0" concept="7" trace="ConceptMergingPolicy$RB" />
+      <node id="1912777765298559864" at="56,0,57,0" concept="7" trace="ModelMergingPolicy$MA" />
+      <node id="1912777765298559864" at="60,0,61,0" concept="7" trace="conceptRef$p8vY" />
+      <node id="1912777765298559864" at="26,0,29,0" concept="0" trace="ConceptMergingPolicy_Constraints#()V" />
+      <node id="4176264672384853316" at="37,0,41,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="4176264672384853316" at="41,0,46,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="4176264672384853316" at="35,56,46,10" concept="5" />
+      <node id="4176264672384853316" at="33,0,48,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="4176264672384853316" at="31,90,48,6" concept="4" />
+      <node id="1912777765298559864" at="30,0,53,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1912777765298559864" at="26,45,27,44" />
+      <scope id="4176264672384853316" at="38,63,39,136" />
+      <scope id="4176264672384853316" at="42,80,44,146">
+        <var name="modelmerge" id="4066635151115135411" />
+      </scope>
+      <scope id="1912777765298559864" at="26,0,29,0" />
+      <scope id="4176264672384853316" at="37,0,41,0" />
+      <scope id="4176264672384853316" at="41,0,46,0">
+        <var name="_context" id="4176264672384853316" />
+      </scope>
+      <scope id="4176264672384853316" at="35,56,46,10" />
+      <scope id="4176264672384853316" at="33,0,48,0" />
+      <scope id="1912777765298559864" at="31,90,51,22">
+        <var name="d0" id="4176264672384853316" />
+        <var name="references" id="1912777765298559864" />
+      </scope>
+      <scope id="1912777765298559864" at="30,0,53,0" />
+      <unit id="1912777765298559864" at="59,0,62,0" name="de.itemis.model.merge.constraints.ConceptMergingPolicy_Constraints$LINKS" />
+      <unit id="1912777765298559864" at="54,0,58,0" name="de.itemis.model.merge.constraints.ConceptMergingPolicy_Constraints$CONCEPTS" />
+      <unit id="4176264672384853316" at="36,19,46,9" name="de.itemis.model.merge.constraints.ConceptMergingPolicy_Constraints$1$1" />
+      <unit id="4176264672384853316" at="32,48,48,5" name="de.itemis.model.merge.constraints.ConceptMergingPolicy_Constraints$1" />
+      <unit id="1912777765298559864" at="25,0,63,0" name="de.itemis.model.merge.constraints.ConceptMergingPolicy_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/2076377354677409619">
+    <file name="PropertyPolicy_Constraints.java">
+      <node id="2076377354677409619" at="39,39,40,38" concept="9" />
+      <node id="2076377354677409619" at="47,128,48,133" concept="4" />
+      <node id="2076377354677409619" at="48,133,49,0" concept="6" />
+      <node id="2076377354677409619" at="50,55,51,72" concept="1" />
+      <node id="2076377354677409619" at="52,9,53,0" concept="6" />
+      <node id="2076377354677409619" at="53,0,54,22" concept="5" />
+      <node id="8422540920006785313" at="66,63,67,136" concept="5" />
+      <node id="8422540920006976709" at="70,80,71,137" concept="4" />
+      <node id="8422540920007193805" at="71,137,72,163" concept="1" />
+      <node id="8254632857052578681" at="76,69,77,133" concept="5" />
+      <node id="2076377354677409619" at="83,6,84,131" concept="4" />
+      <node id="8422540920006785313" at="84,131,85,42" concept="1" />
+      <node id="2076377354677409619" at="85,42,86,22" concept="5" />
+      <node id="3029006951169123504" at="88,134,89,102" concept="4" />
+      <node id="3029006951169123511" at="89,102,90,156" concept="1" />
+      <node id="3029006951169123539" at="90,156,91,95" concept="5" />
+      <node id="2076377354677409619" at="93,0,94,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="2076377354677409619" at="96,0,97,0" concept="7" trace="PropertyPolicy$TC" />
+      <node id="2076377354677409619" at="97,0,98,0" concept="7" trace="ConceptMergingPolicy$RB" />
+      <node id="2076377354677409619" at="98,0,99,0" concept="7" trace="PropertyDeclaration$1S" />
+      <node id="2076377354677409619" at="99,0,100,0" concept="7" trace="Left$9M" />
+      <node id="2076377354677409619" at="100,0,101,0" concept="7" trace="Right$Y2" />
+      <node id="2076377354677409619" at="101,0,102,0" concept="7" trace="ManualAction$CG" />
+      <node id="2076377354677409619" at="105,0,106,0" concept="7" trace="property$IQvu" />
+      <node id="2076377354677409619" at="109,0,110,0" concept="7" trace="name$MnvL" />
+      <node id="2076377354677409619" at="39,0,42,0" concept="0" trace="PropertyPolicy_Constraints#()V" />
+      <node id="2076377354677409619" at="49,0,52,9" concept="2" />
+      <node id="8422540920006785313" at="65,0,69,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8422540920008656501" at="74,0,79,0" concept="3" trace="getReferenceText#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="2076377354677409619" at="88,0,93,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8422540920006845097" at="72,163,79,14" concept="5" />
+      <node id="2076377354677409619" at="46,0,56,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="2076377354677409619" at="44,105,56,6" concept="5" />
+      <node id="8422540920006785313" at="69,0,81,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="2076377354677409619" at="43,0,58,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <node id="8422540920006785313" at="63,56,81,10" concept="5" />
+      <node id="8422540920006785313" at="61,0,83,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="8422540920006785313" at="59,90,83,6" concept="4" />
+      <node id="2076377354677409619" at="58,0,88,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="2076377354677409619" at="39,39,40,38" />
+      <scope id="2076377354677409619" at="50,55,51,72" />
+      <scope id="8422540920006785313" at="66,63,67,136" />
+      <scope id="8422540920008656510" at="76,69,77,133" />
+      <scope id="2076377354677409619" at="39,0,42,0" />
+      <scope id="3029006951169123134" at="88,134,91,95">
+        <var name="allowedConcepts" id="3029006951169123505" />
+      </scope>
+      <scope id="8422540920006785313" at="65,0,69,0" />
+      <scope id="8422540920008656501" at="74,0,79,0">
+        <var name="target" id="8422540920008656504" />
+      </scope>
+      <scope id="2076377354677409619" at="88,0,93,0">
+        <var name="childConcept" id="2076377354677409619" />
+        <var name="childNode" id="2076377354677409619" />
+        <var name="link" id="2076377354677409619" />
+        <var name="node" id="2076377354677409619" />
+      </scope>
+      <scope id="2076377354677409619" at="47,128,54,22">
+        <var name="result" id="2076377354677409619" />
+      </scope>
+      <scope id="8422540920006785313" at="70,80,79,14">
+        <var name="mergePol" id="8422540920006976710" />
+      </scope>
+      <scope id="2076377354677409619" at="46,0,56,0">
+        <var name="checkingNodeContext" id="2076377354677409619" />
+        <var name="context" id="2076377354677409619" />
+      </scope>
+      <scope id="2076377354677409619" at="44,105,56,6" />
+      <scope id="8422540920006785313" at="69,0,81,0">
+        <var name="_context" id="8422540920006785313" />
+      </scope>
+      <scope id="2076377354677409619" at="43,0,58,0" />
+      <scope id="8422540920006785313" at="63,56,81,10" />
+      <scope id="8422540920006785313" at="61,0,83,0" />
+      <scope id="2076377354677409619" at="59,90,86,22">
+        <var name="d0" id="8422540920006785313" />
+        <var name="references" id="2076377354677409619" />
+      </scope>
+      <scope id="2076377354677409619" at="58,0,88,0" />
+      <unit id="2076377354677409619" at="104,0,107,0" name="de.itemis.model.merge.constraints.PropertyPolicy_Constraints$LINKS" />
+      <unit id="2076377354677409619" at="108,0,111,0" name="de.itemis.model.merge.constraints.PropertyPolicy_Constraints$PROPS" />
+      <unit id="8422540920008654420" at="73,23,79,13" name="de.itemis.model.merge.constraints.PropertyPolicy_Constraints$2$1$1" />
+      <unit id="2076377354677409619" at="95,0,103,0" name="de.itemis.model.merge.constraints.PropertyPolicy_Constraints$CONCEPTS" />
+      <unit id="2076377354677409619" at="45,15,56,5" name="de.itemis.model.merge.constraints.PropertyPolicy_Constraints$1" />
+      <unit id="8422540920006785313" at="64,19,81,9" name="de.itemis.model.merge.constraints.PropertyPolicy_Constraints$2$1" />
+      <unit id="8422540920006785313" at="60,48,83,5" name="de.itemis.model.merge.constraints.PropertyPolicy_Constraints$2" />
+      <unit id="2076377354677409619" at="38,0,112,0" name="de.itemis.model.merge.constraints.PropertyPolicy_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/2222162468662695701">
+    <file name="SubPolicyContainer_Constraints.java">
+      <node id="2222162468662695701" at="26,43,27,42" concept="9" />
+      <node id="2222162468662695701" at="34,128,35,133" concept="4" />
+      <node id="2222162468662695701" at="35,133,36,0" concept="6" />
+      <node id="2222162468662695701" at="37,55,38,72" concept="1" />
+      <node id="2222162468662695701" at="39,9,40,0" concept="6" />
+      <node id="2222162468662695701" at="40,0,41,22" concept="5" />
+      <node id="2222162468662695701" at="46,84,47,119" concept="4" />
+      <node id="2222162468662695701" at="47,119,48,22" concept="5" />
+      <node id="2938494174586073257" at="51,119,52,404" concept="4" />
+      <node id="2938494174586064103" at="52,404,53,406" concept="4" />
+      <node id="2938494174586081874" at="53,406,54,574" concept="4" />
+      <node id="2938494174586071809" at="54,574,55,45" concept="5" />
+      <node id="2938494174586069375" at="56,5,57,16" concept="5" />
+      <node id="2222162468662695701" at="59,0,60,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="2222162468662695701" at="62,0,63,0" concept="7" trace="SubPolicyContainer$tJ" />
+      <node id="2222162468662695701" at="63,0,64,0" concept="7" trace="Add$Cr" />
+      <node id="2222162468662695701" at="64,0,65,0" concept="7" trace="Drop$fB" />
+      <node id="2222162468662695701" at="65,0,66,0" concept="7" trace="Keep$TV" />
+      <node id="2222162468662695701" at="66,0,67,0" concept="7" trace="Left$9M" />
+      <node id="2222162468662695701" at="67,0,68,0" concept="7" trace="Right$Y2" />
+      <node id="2222162468662695701" at="68,0,69,0" concept="7" trace="Auto$g6" />
+      <node id="2222162468662695701" at="69,0,70,0" concept="7" trace="ManualCollectionAction$Rw" />
+      <node id="2222162468662695701" at="73,0,74,0" concept="7" trace="subPolicy$jBml" />
+      <node id="2222162468662695701" at="77,0,78,0" concept="7" trace="action$nr8l" />
+      <node id="2222162468662695701" at="26,0,29,0" concept="0" trace="SubPolicyContainer_Constraints#()V" />
+      <node id="2222162468662695701" at="36,0,39,9" concept="2" />
+      <node id="2222162468662695701" at="45,0,50,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="2938494174586041573" at="50,128,56,5" concept="2" />
+      <node id="2222162468662695701" at="50,0,59,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="2222162468662695701" at="33,0,43,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="2222162468662695701" at="31,105,43,6" concept="5" />
+      <node id="2222162468662695701" at="30,0,45,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="2222162468662695701" at="26,43,27,42" />
+      <scope id="2222162468662695701" at="37,55,38,72" />
+      <scope id="2222162468662695701" at="46,84,48,22">
+        <var name="properties" id="2222162468662695701" />
+      </scope>
+      <scope id="2222162468662695701" at="26,0,29,0" />
+      <scope id="2938494174586041575" at="51,119,55,45">
+        <var name="onBoth" id="2938494174586081875" />
+        <var name="onlyLeft" id="2938494174586064104" />
+        <var name="onlyRight" id="2938494174586073258" />
+      </scope>
+      <scope id="2222162468662695701" at="45,0,50,0" />
+      <scope id="2222162468662695701" at="34,128,41,22">
+        <var name="result" id="2222162468662695701" />
+      </scope>
+      <scope id="2938494174586039079" at="50,128,57,16" />
+      <scope id="2222162468662695701" at="50,0,59,0">
+        <var name="childConcept" id="2222162468662695701" />
+        <var name="childNode" id="2222162468662695701" />
+        <var name="link" id="2222162468662695701" />
+        <var name="node" id="2222162468662695701" />
+      </scope>
+      <scope id="2222162468662695701" at="33,0,43,0">
+        <var name="checkingNodeContext" id="2222162468662695701" />
+        <var name="context" id="2222162468662695701" />
+      </scope>
+      <scope id="2222162468662695701" at="31,105,43,6" />
+      <scope id="2222162468662695701" at="30,0,45,0" />
+      <unit id="2222162468662695701" at="72,0,75,0" name="de.itemis.model.merge.constraints.SubPolicyContainer_Constraints$PROPS" />
+      <unit id="2222162468662695701" at="76,0,79,0" name="de.itemis.model.merge.constraints.SubPolicyContainer_Constraints$LINKS" />
+      <unit id="2222162468662695701" at="61,0,71,0" name="de.itemis.model.merge.constraints.SubPolicyContainer_Constraints$CONCEPTS" />
+      <unit id="2222162468662695701" at="32,15,43,5" name="de.itemis.model.merge.constraints.SubPolicyContainer_Constraints$1" />
+      <unit id="2222162468662695701" at="25,0,80,0" name="de.itemis.model.merge.constraints.SubPolicyContainer_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/8422540920008858235">
+    <file name="OptionalPolicy_Constraints.java">
+      <node id="8422540920008858235" at="30,39,31,38" concept="9" />
+      <node id="8422540920008858235" at="38,128,39,133" concept="4" />
+      <node id="8422540920008858235" at="39,133,40,0" concept="6" />
+      <node id="8422540920008858235" at="41,55,42,72" concept="1" />
+      <node id="8422540920008858235" at="43,9,44,0" concept="6" />
+      <node id="8422540920008858235" at="44,0,45,22" concept="5" />
+      <node id="8750798999617126455" at="49,134,50,102" concept="4" />
+      <node id="8750798999617126462" at="50,102,51,223" concept="1" />
+      <node id="8750798999617126472" at="52,260,53,74" concept="1" />
+      <node id="8750798999617126490" at="54,5,55,95" concept="5" />
+      <node id="8750798999617114447" at="55,95,56,0" concept="6" />
+      <node id="8422540920008858235" at="58,0,59,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="8422540920008858235" at="61,0,62,0" concept="7" trace="OptionalPolicy$hY" />
+      <node id="8422540920008858235" at="62,0,63,0" concept="7" trace="Left$9M" />
+      <node id="8422540920008858235" at="63,0,64,0" concept="7" trace="Right$Y2" />
+      <node id="8422540920008858235" at="64,0,65,0" concept="7" trace="Drop$fB" />
+      <node id="8422540920008858235" at="65,0,66,0" concept="7" trace="Auto$g6" />
+      <node id="8422540920008858235" at="69,0,70,0" concept="7" trace="child$kkGR" />
+      <node id="8422540920008858235" at="73,0,74,0" concept="7" trace="metaClass$PeKc" />
+      <node id="8422540920008858235" at="30,0,33,0" concept="0" trace="OptionalPolicy_Constraints#()V" />
+      <node id="8422540920008858235" at="40,0,43,9" concept="2" />
+      <node id="8750798999617126470" at="51,223,54,5" concept="2" />
+      <node id="8422540920008858235" at="49,0,58,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8422540920008858235" at="37,0,47,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8422540920008858235" at="35,105,47,6" concept="5" />
+      <node id="8422540920008858235" at="34,0,49,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="8422540920008858235" at="30,39,31,38" />
+      <scope id="8422540920008858235" at="41,55,42,72" />
+      <scope id="8750798999617126471" at="52,260,53,74" />
+      <scope id="8422540920008858235" at="30,0,33,0" />
+      <scope id="8422540920008858235" at="38,128,45,22">
+        <var name="result" id="8422540920008858235" />
+      </scope>
+      <scope id="8422540920009525120" at="49,134,56,0">
+        <var name="allowedConcepts" id="8750798999617126456" />
+      </scope>
+      <scope id="8422540920008858235" at="49,0,58,0">
+        <var name="childConcept" id="8422540920008858235" />
+        <var name="childNode" id="8422540920008858235" />
+        <var name="link" id="8422540920008858235" />
+        <var name="node" id="8422540920008858235" />
+      </scope>
+      <scope id="8422540920008858235" at="37,0,47,0">
+        <var name="checkingNodeContext" id="8422540920008858235" />
+        <var name="context" id="8422540920008858235" />
+      </scope>
+      <scope id="8422540920008858235" at="35,105,47,6" />
+      <scope id="8422540920008858235" at="34,0,49,0" />
+      <unit id="8422540920008858235" at="68,0,71,0" name="de.itemis.model.merge.constraints.OptionalPolicy_Constraints$LINKS" />
+      <unit id="8422540920008858235" at="72,0,75,0" name="de.itemis.model.merge.constraints.OptionalPolicy_Constraints$PROPS" />
+      <unit id="8422540920008858235" at="60,0,67,0" name="de.itemis.model.merge.constraints.OptionalPolicy_Constraints$CONCEPTS" />
+      <unit id="8422540920008858235" at="36,15,47,5" name="de.itemis.model.merge.constraints.OptionalPolicy_Constraints$1" />
+      <unit id="8422540920008858235" at="29,0,76,0" name="de.itemis.model.merge.constraints.OptionalPolicy_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/8422540920008946161">
+    <file name="SingletonPolicy_Constraints.java">
+      <node id="8422540920008946161" at="30,40,31,39" concept="9" />
+      <node id="8422540920008946161" at="38,128,39,133" concept="4" />
+      <node id="8422540920008946161" at="39,133,40,0" concept="6" />
+      <node id="8422540920008946161" at="41,55,42,72" concept="1" />
+      <node id="8422540920008946161" at="43,9,44,0" concept="6" />
+      <node id="8422540920008946161" at="44,0,45,22" concept="5" />
+      <node id="8750798999616919396" at="49,134,50,102" concept="4" />
+      <node id="8750798999617023822" at="50,102,51,206" concept="1" />
+      <node id="8750798999616816791" at="52,260,53,74" concept="1" />
+      <node id="8422540920009332529" at="54,5,55,95" concept="5" />
+      <node id="8422540920008946161" at="57,0,58,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="8422540920008946161" at="60,0,61,0" concept="7" trace="SingletonPolicy$5$" />
+      <node id="8422540920008946161" at="61,0,62,0" concept="7" trace="Left$9M" />
+      <node id="8422540920008946161" at="62,0,63,0" concept="7" trace="Right$Y2" />
+      <node id="8422540920008946161" at="63,0,64,0" concept="7" trace="Auto$g6" />
+      <node id="8422540920008946161" at="67,0,68,0" concept="7" trace="child$kkGR" />
+      <node id="8422540920008946161" at="71,0,72,0" concept="7" trace="metaClass$PeKc" />
+      <node id="8422540920008946161" at="30,0,33,0" concept="0" trace="SingletonPolicy_Constraints#()V" />
+      <node id="8422540920008946161" at="40,0,43,9" concept="2" />
+      <node id="354538107355052315" at="51,206,54,5" concept="2" />
+      <node id="8422540920008946161" at="49,0,57,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8422540920008946161" at="37,0,47,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8422540920008946161" at="35,105,47,6" concept="5" />
+      <node id="8422540920008946161" at="34,0,49,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="8422540920008946161" at="30,40,31,39" />
+      <scope id="8422540920008946161" at="41,55,42,72" />
+      <scope id="354538107355052317" at="52,260,53,74" />
+      <scope id="8422540920008946161" at="30,0,33,0" />
+      <scope id="8422540920009319349" at="49,134,55,95">
+        <var name="allowedConcepts" id="8750798999616919397" />
+      </scope>
+      <scope id="8422540920008946161" at="38,128,45,22">
+        <var name="result" id="8422540920008946161" />
+      </scope>
+      <scope id="8422540920008946161" at="49,0,57,0">
+        <var name="childConcept" id="8422540920008946161" />
+        <var name="childNode" id="8422540920008946161" />
+        <var name="link" id="8422540920008946161" />
+        <var name="node" id="8422540920008946161" />
+      </scope>
+      <scope id="8422540920008946161" at="37,0,47,0">
+        <var name="checkingNodeContext" id="8422540920008946161" />
+        <var name="context" id="8422540920008946161" />
+      </scope>
+      <scope id="8422540920008946161" at="35,105,47,6" />
+      <scope id="8422540920008946161" at="34,0,49,0" />
+      <unit id="8422540920008946161" at="66,0,69,0" name="de.itemis.model.merge.constraints.SingletonPolicy_Constraints$LINKS" />
+      <unit id="8422540920008946161" at="70,0,73,0" name="de.itemis.model.merge.constraints.SingletonPolicy_Constraints$PROPS" />
+      <unit id="8422540920008946161" at="59,0,65,0" name="de.itemis.model.merge.constraints.SingletonPolicy_Constraints$CONCEPTS" />
+      <unit id="8422540920008946161" at="36,15,47,5" name="de.itemis.model.merge.constraints.SingletonPolicy_Constraints$1" />
+      <unit id="8422540920008946161" at="29,0,74,0" name="de.itemis.model.merge.constraints.SingletonPolicy_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:eda8a4e8-0d4c-4435-bda0-13fbb20b741b(de.itemis.model.merge.constraints)/8422540920008951731">
+    <file name="MultiChildPolicy_Constraints.java">
+      <node id="8422540920008951731" at="26,41,27,40" concept="9" />
+      <node id="8422540920008951732" at="38,63,39,136" concept="5" />
+      <node id="8422540920008952070" at="42,80,43,137" concept="4" />
+      <node id="8422540920008952079" at="43,137,44,163" concept="1" />
+      <node id="8422540920008952118" at="44,163,45,150" concept="5" />
+      <node id="8422540920008951731" at="49,6,50,131" concept="4" />
+      <node id="8422540920008951732" at="50,131,51,42" concept="1" />
+      <node id="8422540920008951731" at="51,42,52,22" concept="5" />
+      <node id="8422540920008951731" at="56,0,57,0" concept="7" trace="MultiChildPolicy$zA" />
+      <node id="8422540920008951731" at="57,0,58,0" concept="7" trace="ConceptMergingPolicy$RB" />
+      <node id="8422540920008951731" at="61,0,62,0" concept="7" trace="child$kkGR" />
+      <node id="8422540920008951731" at="26,0,29,0" concept="0" trace="MultiChildPolicy_Constraints#()V" />
+      <node id="8422540920008951732" at="37,0,41,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8422540920008951732" at="41,0,47,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="8422540920008951732" at="35,56,47,10" concept="5" />
+      <node id="8422540920008951732" at="33,0,49,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="8422540920008951732" at="31,90,49,6" concept="4" />
+      <node id="8422540920008951731" at="30,0,54,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="8422540920008951731" at="26,41,27,40" />
+      <scope id="8422540920008951732" at="38,63,39,136" />
+      <scope id="8422540920008951731" at="26,0,29,0" />
+      <scope id="8422540920008951732" at="42,80,45,150">
+        <var name="mergePol" id="8422540920008952071" />
+      </scope>
+      <scope id="8422540920008951732" at="37,0,41,0" />
+      <scope id="8422540920008951732" at="41,0,47,0">
+        <var name="_context" id="8422540920008951732" />
+      </scope>
+      <scope id="8422540920008951732" at="35,56,47,10" />
+      <scope id="8422540920008951732" at="33,0,49,0" />
+      <scope id="8422540920008951731" at="31,90,52,22">
+        <var name="d0" id="8422540920008951732" />
+        <var name="references" id="8422540920008951731" />
+      </scope>
+      <scope id="8422540920008951731" at="30,0,54,0" />
+      <unit id="8422540920008951731" at="60,0,63,0" name="de.itemis.model.merge.constraints.MultiChildPolicy_Constraints$LINKS" />
+      <unit id="8422540920008951731" at="55,0,59,0" name="de.itemis.model.merge.constraints.MultiChildPolicy_Constraints$CONCEPTS" />
+      <unit id="8422540920008951732" at="36,19,47,9" name="de.itemis.model.merge.constraints.MultiChildPolicy_Constraints$1$1" />
+      <unit id="8422540920008951732" at="32,48,49,5" name="de.itemis.model.merge.constraints.MultiChildPolicy_Constraints$1" />
+      <unit id="8422540920008951731" at="25,0,64,0" name="de.itemis.model.merge.constraints.MultiChildPolicy_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

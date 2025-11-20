@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1178893518978:jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" />
+  <root nodeRef="r:f3c60842-0867-4098-adfc-0827d66d9af8(nl.f1re.mps.editor.swing.runtime)/1246226064910804385">
+    <file name="EditorCell_IntelliJComponent.java">
+      <node id="6327895697646508809" at="28,0,29,0" concept="3" trace="textBuilderFunc" />
+      <node id="6891244572261742347" at="30,200,31,80" concept="11" />
+      <node id="6891244572261719431" at="34,221,35,42" concept="10" />
+      <node id="6327895697646919576" at="35,42,36,43" concept="2" />
+      <node id="6891244572264948128" at="37,42,38,61" concept="2" />
+      <node id="6891244572264955588" at="38,61,39,62" concept="2" />
+      <node id="6891244572261719435" at="40,5,41,31" concept="2" />
+      <node id="6891244572261719440" at="42,49,43,70" concept="2" />
+      <node id="2649083201584541988" at="45,23,46,34" concept="2" />
+      <node id="6891244572261719446" at="47,5,48,28" concept="2" />
+      <node id="6891244572263620477" at="48,28,49,0" concept="8" />
+      <node id="1246226064910820703" at="53,26,54,42" concept="6" />
+      <node id="3400762668650664309" at="54,42,55,0" concept="8" />
+      <node id="3400762668650673713" at="55,0,56,86" concept="6" />
+      <node id="3400762668650733734" at="58,26,59,24" concept="7" />
+      <node id="4459825420110727086" at="60,7,61,0" concept="8" />
+      <node id="4459825420110737095" at="61,0,62,31" concept="7" />
+      <node id="3400762668650749682" at="63,5,64,0" concept="8" />
+      <node id="3400762668650757675" at="64,0,65,20" concept="7" />
+      <node id="6891244572263790416" at="71,65,72,49" concept="7" />
+      <node id="6327895697646903424" at="78,35,79,50" concept="7" />
+      <node id="1246226064910814879" at="30,0,33,0" concept="1" trace="EditorCell_IntelliJComponent#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Ljavax/swing/JComponent;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)V" />
+      <node id="4134621748490836221" at="41,31,44,5" concept="4" />
+      <node id="6891244572263606341" at="44,5,47,5" concept="4" />
+      <node id="4459825420110706650" at="57,23,60,7" concept="4" />
+      <node id="6891244572264975190" at="36,43,40,5" concept="4" />
+      <node id="6891244572256355602" at="70,0,74,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+      <node id="6327895697646878444" at="77,0,81,0" concept="5" trace="renderText#()Ljetbrains/mps/openapi/editor/TextBuilder;" />
+      <node id="6891244572263786081" at="68,48,74,6" concept="7" />
+      <node id="3400762668650700359" at="56,86,63,5" concept="4" />
+      <node id="6891244572263784633" at="68,0,76,0" concept="5" trace="createProvider#()Ljetbrains/mps/nodeEditor/AbstractCellProvider;" />
+      <node id="1246226064910812579" at="52,0,67,0" concept="5" trace="getAscent#()I" />
+      <node id="6891244572261719418" at="34,0,51,0" concept="1" trace="EditorCell_IntelliJComponent#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Ljavax/swing/JComponent;Ljava/awt/Font;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)V" />
+      <scope id="1246226064910814890" at="30,200,31,80" />
+      <scope id="4134621748490836223" at="42,49,43,70" />
+      <scope id="6891244572263606343" at="45,23,46,34" />
+      <scope id="4459825420110706652" at="58,26,59,24" />
+      <scope id="6891244572256355607" at="71,65,72,49" />
+      <scope id="6327895697646878448" at="78,35,79,50" />
+      <scope id="6891244572264975192" at="37,42,39,62" />
+      <scope id="1246226064910814879" at="30,0,33,0">
+        <var name="component" id="1246226064910814887" />
+        <var name="editorContext" id="1246226064910814883" />
+        <var name="node" id="1246226064910814885" />
+        <var name="textBuilderFunc" id="6327895697646479613" />
+      </scope>
+      <scope id="6891244572256355602" at="70,0,74,0">
+        <var name="context" id="6891244572256355605" />
+      </scope>
+      <scope id="6327895697646878444" at="77,0,81,0" />
+      <scope id="3400762668650700361" at="57,23,62,31" />
+      <scope id="6891244572263784636" at="68,48,74,6" />
+      <scope id="6891244572263784633" at="68,0,76,0" />
+      <scope id="1246226064910812583" at="53,26,65,20">
+        <var name="baseline" id="3400762668650673716" />
+        <var name="component" id="1246226064910820704" />
+      </scope>
+      <scope id="6891244572261719430" at="34,221,49,0" />
+      <scope id="1246226064910812579" at="52,0,67,0" />
+      <scope id="6891244572261719418" at="34,0,51,0">
+        <var name="component" id="6891244572261719425" />
+        <var name="editorContext" id="6891244572261719421" />
+        <var name="font" id="6891244572261728754" />
+        <var name="node" id="6891244572261719423" />
+        <var name="textBuilderFunc" id="6327895697646446965" />
+      </scope>
+      <unit id="6891244572256355600" at="69,15,74,5" name="nl.f1re.mps.editor.swing.runtime.EditorCell_IntelliJComponent$1" />
+      <unit id="1246226064910804385" at="26,0,82,0" name="nl.f1re.mps.editor.swing.runtime.EditorCell_IntelliJComponent" />
+    </file>
+  </root>
+  <root nodeRef="r:f3c60842-0867-4098-adfc-0827d66d9af8(nl.f1re.mps.editor.swing.runtime)/6891244572255459178">
+    <file name="BorderUtil.java">
+      <node id="6891244572255460929" at="10,46,11,87" concept="7" />
+      <node id="8659612544254686476" at="14,44,15,45" concept="7" />
+      <node id="6891244572255459860" at="10,0,13,0" concept="9" trace="createDefaultBorder#()Ljavax/swing/border/Border;" />
+      <node id="8659612544254686167" at="14,0,17,0" concept="9" trace="createEmptyBorder#()Ljavax/swing/border/Border;" />
+      <scope id="6891244572255459863" at="10,46,11,87" />
+      <scope id="8659612544254686170" at="14,44,15,45" />
+      <scope id="6891244572255459860" at="10,0,13,0" />
+      <scope id="8659612544254686167" at="14,0,17,0" />
+      <unit id="6891244572255459178" at="9,0,18,0" name="nl.f1re.mps.editor.swing.runtime.BorderUtil" />
+    </file>
+  </root>
+  <root nodeRef="r:f3c60842-0867-4098-adfc-0827d66d9af8(nl.f1re.mps.editor.swing.runtime)/6891244572260605333">
+    <file name="FontHelper.java">
+      <node id="2649083201583280687" at="15,41,16,78" concept="7" />
+      <node id="2649083201583295910" at="19,29,20,50" concept="7" />
+      <node id="6420787718777249327" at="23,29,24,49" concept="7" />
+      <node id="6420787718777252238" at="27,29,28,40" concept="7" />
+      <node id="6420787718777260194" at="31,29,32,40" concept="7" />
+      <node id="6420787718777269301" at="35,29,36,49" concept="7" />
+      <node id="2649083201583329092" at="39,34,40,28" concept="7" />
+      <node id="6420787718777319182" at="43,33,44,92" concept="7" />
+      <node id="6420787718777336308" at="47,32,48,92" concept="7" />
+      <node id="6420787718777340500" at="51,36,52,92" concept="7" />
+      <node id="6420787718777308683" at="55,57,56,61" concept="7" />
+      <node id="2649083201583272681" at="15,0,18,0" concept="9" trace="getDefaultFont#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="2649083201583294290" at="19,0,22,0" concept="9" trace="h0#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="2649083201583307890" at="23,0,26,0" concept="9" trace="h1#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="2649083201583314187" at="27,0,30,0" concept="9" trace="h2#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="2649083201583315574" at="31,0,34,0" concept="9" trace="h3#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="2649083201583321176" at="35,0,38,0" concept="9" trace="h4#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="2649083201583329090" at="39,0,42,0" concept="9" trace="regular#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="2649083201583329228" at="43,0,46,0" concept="9" trace="medium#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="2649083201583329302" at="47,0,50,0" concept="9" trace="small#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="2649083201583441527" at="51,0,54,0" concept="9" trace="verySmall#()Lcom/intellij/util/ui/JBFont;" />
+      <node id="6420787718777305844" at="55,0,58,0" concept="9" trace="mediumAndSmallFontsAsRegular#()Z" />
+      <scope id="2649083201583272684" at="15,41,16,78" />
+      <scope id="2649083201583294292" at="19,29,20,50" />
+      <scope id="2649083201583307891" at="23,29,24,49" />
+      <scope id="2649083201583314188" at="27,29,28,40" />
+      <scope id="2649083201583315575" at="31,29,32,40" />
+      <scope id="2649083201583321177" at="35,29,36,49" />
+      <scope id="2649083201583329091" at="39,34,40,28" />
+      <scope id="2649083201583329229" at="43,33,44,92" />
+      <scope id="2649083201583329303" at="47,32,48,92" />
+      <scope id="2649083201583441528" at="51,36,52,92" />
+      <scope id="6420787718777305847" at="55,57,56,61" />
+      <scope id="2649083201583272681" at="15,0,18,0" />
+      <scope id="2649083201583294290" at="19,0,22,0" />
+      <scope id="2649083201583307890" at="23,0,26,0" />
+      <scope id="2649083201583314187" at="27,0,30,0" />
+      <scope id="2649083201583315574" at="31,0,34,0" />
+      <scope id="2649083201583321176" at="35,0,38,0" />
+      <scope id="2649083201583329090" at="39,0,42,0" />
+      <scope id="2649083201583329228" at="43,0,46,0" />
+      <scope id="2649083201583329302" at="47,0,50,0" />
+      <scope id="2649083201583441527" at="51,0,54,0" />
+      <scope id="6420787718777305844" at="55,0,58,0" />
+      <unit id="6891244572260605333" at="13,0,59,0" name="nl.f1re.mps.editor.swing.runtime.FontHelper" />
+    </file>
+  </root>
+  <root nodeRef="r:f3c60842-0867-4098-adfc-0827d66d9af8(nl.f1re.mps.editor.swing.runtime)/6891244572263462559">
+    <file name="ComponentStyleUtil.java">
+      <node id="6327895697642687919" at="9,56,10,70" concept="2" />
+      <node id="6891244572263463024" at="9,0,12,0" concept="9" trace="makeButtonDefault#(Ljavax/swing/JButton;)V" />
+      <scope id="6891244572263463027" at="9,56,10,70" />
+      <scope id="6891244572263463024" at="9,0,12,0">
+        <var name="button" id="6891244572263463196" />
+      </scope>
+      <unit id="6891244572263462559" at="8,0,13,0" name="nl.f1re.mps.editor.swing.runtime.ComponentStyleUtil" />
+    </file>
+  </root>
+  <root nodeRef="r:f3c60842-0867-4098-adfc-0827d66d9af8(nl.f1re.mps.editor.swing.runtime)/8659612544243727541">
+    <file name="TextHelper.java">
+      <node id="8659612544243756482" at="13,30,14,36" concept="7" />
+      <node id="8659612544243756506" at="16,38,17,44" concept="7" />
+      <node id="8659612544249126000" at="19,38,20,51" concept="6" />
+      <node id="8659612544253206084" at="20,51,21,37" concept="6" />
+      <node id="8659612544253226294" at="22,49,23,39" concept="2" />
+      <node id="8659612544254303374" at="25,33,26,20" concept="7" />
+      <node id="8659612544243756554" at="27,14,28,49" concept="7" />
+      <node id="8659612544249304550" at="30,5,31,0" concept="8" />
+      <node id="8659612544243756645" at="31,0,32,40" concept="7" />
+      <node id="8659612544254311399" at="27,12,29,7" concept="0" />
+      <node id="8659612544253218192" at="21,37,24,7" concept="4" />
+      <node id="8659612544254292698" at="24,7,29,7" concept="4" />
+      <node id="8659612544243756500" at="18,10,30,5" concept="4" />
+      <node id="8659612544243756488" at="15,10,30,5" concept="4" />
+      <node id="8659612544243756476" at="12,56,30,5" concept="4" />
+      <node id="8659612544243729808" at="12,0,34,0" concept="9" trace="getTextOfComponent#(Ljava/awt/Component;)Ljava/lang/String;" />
+      <scope id="8659612544243756481" at="13,30,14,36" />
+      <scope id="8659612544243756493" at="16,38,17,44" />
+      <scope id="8659612544253218194" at="22,49,23,39" />
+      <scope id="8659612544254292700" at="25,33,26,20" />
+      <scope id="8659612544254311400" at="27,14,28,49" />
+      <scope id="8659612544243756505" at="19,38,29,7">
+        <var name="button" id="8659612544249126001" />
+        <var name="text" id="8659612544253206087" />
+      </scope>
+      <scope id="8659612544243729811" at="12,56,32,40" />
+      <scope id="8659612544243729808" at="12,0,34,0">
+        <var name="c" id="8659612544243729953" />
+      </scope>
+      <unit id="8659612544243727541" at="11,0,35,0" name="nl.f1re.mps.editor.swing.runtime.TextHelper" />
+    </file>
+  </root>
+</debug-info>
+

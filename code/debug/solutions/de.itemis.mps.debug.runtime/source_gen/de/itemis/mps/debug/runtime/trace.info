@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:a95c5cc9-2803-47d1-ab04-691646825cdd(de.itemis.mps.debug.runtime)/8745606771043725952">
+    <file name="DebugHelper.java">
+      <node id="8745606771044624336" at="17,76,18,92" concept="2" />
+      <node id="8745606771044629587" at="18,92,19,87" concept="2" />
+      <node id="8745606771044666966" at="20,46,21,98" concept="3" />
+      <node id="8745606771044663636" at="22,5,23,16" concept="3" />
+      <node id="8745606771043777591" at="26,83,27,92" concept="2" />
+      <node id="8745606771043777596" at="27,92,28,86" concept="2" />
+      <node id="8745606771044670317" at="30,48,31,134" concept="2" />
+      <node id="8745606771043777636" at="32,60,33,40" concept="3" />
+      <node id="92404276862240749" at="35,68,36,106" concept="2" />
+      <node id="92404276862466284" at="36,106,37,114" concept="2" />
+      <node id="92404276862275536" at="38,58,39,38" concept="3" />
+      <node id="8745606771043777646" at="43,5,44,16" concept="3" />
+      <node id="8745606771043777613" at="47,88,48,63" concept="2" />
+      <node id="8745606771043777620" at="48,63,49,50" concept="2" />
+      <node id="8745606771044659157" at="50,29,51,52" concept="3" />
+      <node id="8745606771044655767" at="52,5,53,16" concept="3" />
+      <node id="8745606771043778465" at="56,111,57,85" concept="2" />
+      <node id="8745606771044325781" at="58,34,59,18" concept="3" />
+      <node id="8745606771043778470" at="60,5,61,58" concept="3" />
+      <node id="8745606771044690704" at="64,69,65,47" concept="3" />
+      <node id="8745606771044687493" at="67,71,68,47" concept="3" />
+      <node id="8745606771044631465" at="19,87,22,5" concept="1" />
+      <node id="8745606771043777634" at="31,134,34,9" concept="1" />
+      <node id="92404276862259037" at="37,114,40,11" concept="1" />
+      <node id="8745606771043777626" at="49,50,52,5" concept="1" />
+      <node id="8745606771044321940" at="57,85,60,5" concept="1" />
+      <node id="8745606771044690704" at="64,0,67,0" concept="4" trace="as_xq22n4_a0a0a0c0a#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="8745606771044687493" at="67,0,70,0" concept="4" trace="as_xq22n4_a0a0a0a0c0c#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="92404276862237398" at="34,9,41,9" concept="1" />
+      <node id="8745606771043778462" at="56,0,63,0" concept="4" trace="getEditorCell#(Ljetbrains/mps/project/Project;Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;I)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8745606771044599277" at="17,0,25,0" concept="4" trace="getCurrentEditorComponent#(Ljetbrains/mps/project/Project;)Ljetbrains/mps/openapi/editor/EditorComponent;" />
+      <node id="8745606771044639827" at="47,0,55,0" concept="4" trace="getEditorComponentFromEditor#(Ljetbrains/mps/ide/editor/MPSFileNodeEditor;)Ljetbrains/mps/openapi/editor/EditorComponent;" />
+      <node id="8745606771044679132" at="29,39,42,7" concept="1" />
+      <node id="8745606771043777604" at="28,86,43,5" concept="0" />
+      <node id="8745606771043777588" at="26,0,46,0" concept="4" trace="getEditorComponent#(Ljetbrains/mps/project/Project;I)Ljetbrains/mps/openapi/editor/EditorComponent;" />
+      <scope id="8745606771044631467" at="20,46,21,98" />
+      <scope id="8745606771043777635" at="32,60,33,40" />
+      <scope id="92404276862259039" at="38,58,39,38" />
+      <scope id="8745606771043777627" at="50,29,51,52" />
+      <scope id="8745606771044321942" at="58,34,59,18" />
+      <scope id="8745606771044690704" at="64,69,65,47" />
+      <scope id="8745606771044687493" at="67,71,68,47" />
+      <scope id="8745606771044690704" at="64,0,67,0">
+        <var name="o" id="8745606771044690704" />
+        <var name="type" id="8745606771044690704" />
+      </scope>
+      <scope id="8745606771044687493" at="67,0,70,0">
+        <var name="o" id="8745606771044687493" />
+        <var name="type" id="8745606771044687493" />
+      </scope>
+      <scope id="92404276862237400" at="35,68,40,11">
+        <var name="currentNodeEditorComponent" id="92404276862240750" />
+        <var name="inspectorComponent" id="92404276862466285" />
+      </scope>
+      <scope id="8745606771043778464" at="56,111,61,58">
+        <var name="editorComponent" id="8745606771043778466" />
+      </scope>
+      <scope id="8745606771044599280" at="17,76,23,16">
+        <var name="editor" id="8745606771044629588" />
+        <var name="ideaProject" id="8745606771044624337" />
+      </scope>
+      <scope id="8745606771044639830" at="47,88,53,16">
+        <var name="mpsEditor" id="8745606771043777614" />
+        <var name="nodeEditor" id="8745606771043777621" />
+      </scope>
+      <scope id="8745606771043778462" at="56,0,63,0">
+        <var name="cellID" id="8745606771043778485" />
+        <var name="componentHashCode" id="8745606771043780780" />
+        <var name="project" id="8745606771043778481" />
+        <var name="target" id="8745606771043778483" />
+      </scope>
+      <scope id="8745606771044599277" at="17,0,25,0">
+        <var name="project" id="8745606771044599658" />
+      </scope>
+      <scope id="8745606771044639827" at="47,0,55,0">
+        <var name="editor" id="8745606771044647008" />
+      </scope>
+      <scope id="8745606771044679134" at="30,48,41,9">
+        <var name="currentEditorComponent" id="8745606771044670318" />
+      </scope>
+      <scope id="8745606771043777607" at="29,39,42,7" />
+      <scope id="8745606771043777604" at="28,86,43,5">
+        <var name="editor" id="8745606771043777605" />
+      </scope>
+      <scope id="8745606771043777590" at="26,83,44,16">
+        <var name="editors" id="8745606771043777597" />
+        <var name="ideaProject" id="8745606771043777592" />
+      </scope>
+      <scope id="8745606771043777588" at="26,0,46,0">
+        <var name="hashCode" id="8745606771043777651" />
+        <var name="project" id="8745606771043777649" />
+      </scope>
+      <unit id="8745606771043725952" at="16,0,71,0" name="de.itemis.mps.debug.runtime.DebugHelper" />
+    </file>
+  </root>
+</debug-info>
+

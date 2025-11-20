@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,116,0" name="de.q60.mps.incremental.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,50,0" name="de.q60.mps.incremental.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="14,0,217,0" name="de.q60.mps.incremental.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/1072055285051534667">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1072055285051534667" at="16,0,17,0" concept="1" trace="props_IncrementalExpression" />
+      <node id="1072055285051534667" at="57,50,58,76" concept="3" />
+      <node id="1072055285051534667" at="58,76,59,45" concept="0" />
+      <node id="1072055285051534667" at="59,45,60,53" concept="0" />
+      <node id="1072055285051534667" at="61,9,62,43" concept="4" />
+      <node id="1072055285051534667" at="56,55,61,9" concept="2" />
+      <scope id="1072055285051534667" at="57,50,60,53">
+        <var name="cpb" id="1072055285051534667" />
+      </scope>
+      <scope id="1072055285051534667" at="56,55,62,43" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1072055285051534667" at="16,0,17,0" concept="6" trace="IncrementalExpression" />
+      <node id="1072055285051534667" at="30,64,31,59" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1072055285051534667" at="19,0,20,0" concept="1" trace="myConceptIncrementalExpression" />
+      <node id="1072055285051534667" at="58,55,59,46" concept="4" />
+      <node id="1072055285051534667" at="116,79,117,177" concept="3" />
+      <node id="1072055285051534667" at="117,177,118,34" concept="0" />
+      <node id="1072055285051534667" at="118,34,119,63" concept="5" />
+      <node id="1072055285051534667" at="119,63,120,70" concept="0" />
+      <node id="1072055285051534667" at="120,70,121,71" concept="0" />
+      <node id="1072055285051534667" at="121,71,122,109" concept="0" />
+      <node id="1072055285051534667" at="122,109,123,17" concept="0" />
+      <node id="1072055285051534668" at="123,17,124,194" concept="0" />
+      <node id="1072055285051534670" at="124,194,125,191" concept="0" />
+      <node id="1072055285052119747" at="125,191,126,192" concept="0" />
+      <node id="1072055285051534667" at="126,192,127,27" concept="0" />
+      <node id="1072055285051534667" at="127,27,128,22" concept="4" />
+      <node id="1072055285051534667" at="116,0,130,0" concept="7" trace="createDescriptorForIncrementalExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1072055285051534667" at="58,55,59,46" />
+      <scope id="1072055285051534667" at="116,79,128,22">
+        <var name="b" id="1072055285051534667" />
+      </scope>
+      <scope id="1072055285051534667" at="116,0,130,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/5053250164214322597">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5053250164214322597" at="22,0,23,0" concept="1" trace="props_IncrementalModule" />
+      <node id="5053250164214322597" at="99,46,100,76" concept="3" />
+      <node id="5053250164214322597" at="100,76,101,35" concept="0" />
+      <node id="5053250164214322597" at="101,35,102,49" concept="0" />
+      <node id="5053250164214322597" at="103,9,104,39" concept="4" />
+      <node id="5053250164214322597" at="98,51,103,9" concept="2" />
+      <scope id="5053250164214322597" at="99,46,102,49">
+        <var name="cpb" id="5053250164214322597" />
+      </scope>
+      <scope id="5053250164214322597" at="98,51,104,39" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5053250164214322597" at="22,0,23,0" concept="6" trace="IncrementalModule" />
+      <node id="5053250164214322597" at="36,70,37,56" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5053250164214322597" at="25,0,26,0" concept="1" trace="myConceptIncrementalModule" />
+      <node id="5053250164214322597" at="70,51,71,42" concept="4" />
+      <node id="5053250164214322597" at="195,75,196,174" concept="3" />
+      <node id="5053250164214322597" at="196,174,197,33" concept="0" />
+      <node id="5053250164214322597" at="197,33,198,71" concept="0" />
+      <node id="5053250164214322597" at="198,71,199,109" concept="0" />
+      <node id="5053250164214322597" at="199,109,200,17" concept="0" />
+      <node id="5053250164214322601" at="200,17,201,199" concept="0" />
+      <node id="5053250164214322597" at="201,199,202,22" concept="4" />
+      <node id="5053250164214322597" at="195,0,204,0" concept="7" trace="createDescriptorForIncrementalModule#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5053250164214322597" at="70,51,71,42" />
+      <scope id="5053250164214322597" at="195,75,202,22">
+        <var name="b" id="5053250164214322597" />
+      </scope>
+      <scope id="5053250164214322597" at="195,0,204,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/5053250164214322600">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5053250164214322600" at="15,0,16,0" concept="1" trace="props_IIncrementalModuleContent" />
+      <node id="5053250164214322600" at="51,54,52,76" concept="3" />
+      <node id="5053250164214322600" at="52,76,53,57" concept="0" />
+      <node id="5053250164214322600" at="54,9,55,47" concept="4" />
+      <node id="5053250164214322600" at="50,59,54,9" concept="2" />
+      <scope id="5053250164214322600" at="51,54,53,57">
+        <var name="cpb" id="5053250164214322600" />
+      </scope>
+      <scope id="5053250164214322600" at="50,59,55,47" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5053250164214322600" at="15,0,16,0" concept="6" trace="IIncrementalModuleContent" />
+      <node id="5053250164214322600" at="29,59,30,64" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5053250164214322600" at="18,0,19,0" concept="1" trace="myConceptIIncrementalModuleContent" />
+      <node id="5053250164214322600" at="56,59,57,50" concept="4" />
+      <node id="5053250164214322600" at="86,34,87,76" concept="0" />
+      <node id="5053250164214322600" at="109,83,110,182" concept="3" />
+      <node id="5053250164214322600" at="110,182,111,19" concept="0" />
+      <node id="5053250164214322600" at="111,19,112,109" concept="0" />
+      <node id="5053250164214322600" at="112,109,113,17" concept="0" />
+      <node id="5053250164214322600" at="113,17,114,22" concept="4" />
+      <node id="5053250164214322600" at="132,34,133,76" concept="0" />
+      <node id="5053250164214322600" at="109,0,116,0" concept="7" trace="createDescriptorForIIncrementalModuleContent#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5053250164214322600" at="56,59,57,50" />
+      <scope id="5053250164214322600" at="109,83,114,22">
+        <var name="b" id="5053250164214322600" />
+      </scope>
+      <scope id="5053250164214322600" at="109,0,116,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/5053250164214322603">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5053250164214322603" at="12,0,13,0" concept="1" trace="props_EmptyLine" />
+      <node id="5053250164214322603" at="31,38,32,76" concept="3" />
+      <node id="5053250164214322603" at="32,76,33,43" concept="0" />
+      <node id="5053250164214322603" at="33,43,34,41" concept="0" />
+      <node id="5053250164214322603" at="35,9,36,31" concept="4" />
+      <node id="5053250164214322603" at="30,43,35,9" concept="2" />
+      <scope id="5053250164214322603" at="31,38,34,41">
+        <var name="cpb" id="5053250164214322603" />
+      </scope>
+      <scope id="5053250164214322603" at="30,43,36,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5053250164214322603" at="12,0,13,0" concept="6" trace="EmptyLine" />
+      <node id="5053250164214322603" at="26,116,27,48" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5053250164214322603" at="15,0,16,0" concept="1" trace="myConceptEmptyLine" />
+      <node id="5053250164214322603" at="50,43,51,34" concept="4" />
+      <node id="5053250164214322603" at="84,67,85,166" concept="3" />
+      <node id="5053250164214322603" at="85,166,86,34" concept="0" />
+      <node id="5053250164214322603" at="87,76,88,109" concept="0" />
+      <node id="5053250164214322603" at="88,109,89,17" concept="0" />
+      <node id="5053250164214322603" at="89,17,90,22" concept="4" />
+      <node id="5053250164214322603" at="84,0,92,0" concept="7" trace="createDescriptorForEmptyLine#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5053250164214322603" at="50,43,51,34" />
+      <scope id="5053250164214322603" at="84,67,90,22">
+        <var name="b" id="5053250164214322603" />
+      </scope>
+      <scope id="5053250164214322603" at="84,0,92,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/5053250164214322692">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5053250164214322692" at="17,0,18,0" concept="1" trace="props_IncrementalFunction" />
+      <node id="5053250164214322692" at="64,48,65,76" concept="3" />
+      <node id="5053250164214322692" at="65,76,66,35" concept="0" />
+      <node id="5053250164214322692" at="66,35,67,51" concept="0" />
+      <node id="5053250164214322692" at="68,9,69,41" concept="4" />
+      <node id="5053250164214322692" at="63,53,68,9" concept="2" />
+      <scope id="5053250164214322692" at="64,48,67,51">
+        <var name="cpb" id="5053250164214322692" />
+      </scope>
+      <scope id="5053250164214322692" at="63,53,69,41" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5053250164214322692" at="17,0,18,0" concept="6" trace="IncrementalFunction" />
+      <node id="5053250164214322692" at="31,59,32,58" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5053250164214322692" at="20,0,21,0" concept="1" trace="myConceptIncrementalFunction" />
+      <node id="5053250164214322692" at="60,53,61,44" concept="4" />
+      <node id="5053250164214322692" at="130,77,131,176" concept="3" />
+      <node id="5053250164214322692" at="131,176,132,34" concept="0" />
+      <node id="5053250164214322692" at="133,76,134,71" concept="0" />
+      <node id="5053250164214322692" at="134,71,135,71" concept="0" />
+      <node id="5053250164214322692" at="135,71,136,71" concept="0" />
+      <node id="5053250164214322692" at="136,71,137,76" concept="0" />
+      <node id="5053250164214322692" at="138,76,139,109" concept="0" />
+      <node id="5053250164214322692" at="139,109,140,17" concept="0" />
+      <node id="5053250164214322820" at="140,17,141,202" concept="0" />
+      <node id="5053250164214322822" at="141,202,142,192" concept="0" />
+      <node id="5053250164214322845" at="142,192,143,198" concept="0" />
+      <node id="1072055285048682366" at="143,198,144,194" concept="0" />
+      <node id="5053250164214322692" at="144,194,145,24" concept="0" />
+      <node id="5053250164214322692" at="145,24,146,22" concept="4" />
+      <node id="5053250164214322692" at="130,0,148,0" concept="7" trace="createDescriptorForIncrementalFunction#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5053250164214322692" at="60,53,61,44" />
+      <scope id="5053250164214322692" at="130,77,146,22">
+        <var name="b" id="5053250164214322692" />
+      </scope>
+      <scope id="5053250164214322692" at="130,0,148,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/5053250164214322702">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5053250164214322702" at="20,0,21,0" concept="1" trace="props_IncrementalFunctionParameter" />
+      <node id="5053250164214322702" at="85,57,86,76" concept="3" />
+      <node id="5053250164214322702" at="86,76,87,35" concept="0" />
+      <node id="5053250164214322702" at="87,35,88,60" concept="0" />
+      <node id="5053250164214322702" at="89,9,90,50" concept="4" />
+      <node id="5053250164214322702" at="84,62,89,9" concept="2" />
+      <scope id="5053250164214322702" at="85,57,88,60">
+        <var name="cpb" id="5053250164214322702" />
+      </scope>
+      <scope id="5053250164214322702" at="84,62,90,50" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5053250164214322702" at="20,0,21,0" concept="6" trace="IncrementalFunctionParameter" />
+      <node id="5053250164214322702" at="34,65,35,67" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5053250164214322702" at="23,0,24,0" concept="1" trace="myConceptIncrementalFunctionParameter" />
+      <node id="5053250164214322702" at="66,62,67,53" concept="4" />
+      <node id="5053250164214322702" at="176,86,177,185" concept="3" />
+      <node id="5053250164214322702" at="177,185,178,34" concept="0" />
+      <node id="5053250164214322702" at="178,34,179,71" concept="0" />
+      <node id="5053250164214322702" at="179,71,180,109" concept="0" />
+      <node id="5053250164214322702" at="180,109,181,17" concept="0" />
+      <node id="5053250164214322705" at="181,17,182,192" concept="0" />
+      <node id="5053250164214322702" at="182,192,183,22" concept="4" />
+      <node id="5053250164214322702" at="176,0,185,0" concept="7" trace="createDescriptorForIncrementalFunctionParameter#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5053250164214322702" at="66,62,67,53" />
+      <scope id="5053250164214322702" at="176,86,183,22">
+        <var name="b" id="5053250164214322702" />
+      </scope>
+      <scope id="5053250164214322702" at="176,0,185,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/5053250164214340824">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5053250164214340824" at="18,0,19,0" concept="1" trace="props_IncrementalFunctionCall" />
+      <node id="5053250164214340824" at="71,52,72,76" concept="3" />
+      <node id="5053250164214340824" at="72,76,73,142" concept="0" />
+      <node id="5053250164214340824" at="73,142,74,55" concept="0" />
+      <node id="5053250164214340824" at="75,9,76,45" concept="4" />
+      <node id="5053250164214340824" at="70,57,75,9" concept="2" />
+      <scope id="5053250164214340824" at="71,52,74,55">
+        <var name="cpb" id="5053250164214340824" />
+      </scope>
+      <scope id="5053250164214340824" at="70,57,76,45" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5053250164214340824" at="18,0,19,0" concept="6" trace="IncrementalFunctionCall" />
+      <node id="5053250164214340824" at="32,58,33,62" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5053250164214340824" at="21,0,22,0" concept="1" trace="myConceptIncrementalFunctionCall" />
+      <node id="5053250164214340824" at="62,57,63,48" concept="4" />
+      <node id="5053250164214340824" at="148,81,149,180" concept="3" />
+      <node id="5053250164214340824" at="149,180,150,34" concept="0" />
+      <node id="5053250164214340824" at="150,34,151,63" concept="5" />
+      <node id="5053250164214340824" at="151,63,152,70" concept="0" />
+      <node id="5053250164214340824" at="152,70,153,109" concept="0" />
+      <node id="5053250164214340824" at="153,109,154,17" concept="0" />
+      <node id="5053250164214340825" at="154,17,155,172" concept="0" />
+      <node id="5053250164214340827" at="155,172,156,201" concept="0" />
+      <node id="5053250164214340824" at="156,201,157,22" concept="4" />
+      <node id="5053250164214340824" at="148,0,159,0" concept="7" trace="createDescriptorForIncrementalFunctionCall#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5053250164214340824" at="62,57,63,48" />
+      <scope id="5053250164214340824" at="148,81,157,22">
+        <var name="b" id="5053250164214340824" />
+      </scope>
+      <scope id="5053250164214340824" at="148,0,159,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/5053250164214412449">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5053250164214412449" at="21,0,22,0" concept="1" trace="props_IncrementalFunctionParameterRef" />
+      <node id="5053250164214412449" at="92,60,93,76" concept="3" />
+      <node id="5053250164214412449" at="93,76,94,138" concept="0" />
+      <node id="5053250164214412449" at="94,138,95,63" concept="0" />
+      <node id="5053250164214412449" at="96,9,97,53" concept="4" />
+      <node id="5053250164214412449" at="91,65,96,9" concept="2" />
+      <scope id="5053250164214412449" at="92,60,95,63">
+        <var name="cpb" id="5053250164214412449" />
+      </scope>
+      <scope id="5053250164214412449" at="91,65,97,53" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5053250164214412449" at="21,0,22,0" concept="6" trace="IncrementalFunctionParameterRef" />
+      <node id="5053250164214412449" at="35,67,36,70" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5053250164214412449" at="24,0,25,0" concept="1" trace="myConceptIncrementalFunctionParameterRef" />
+      <node id="5053250164214412449" at="68,65,69,56" concept="4" />
+      <node id="5053250164214412449" at="185,89,186,188" concept="3" />
+      <node id="5053250164214412449" at="186,188,187,34" concept="0" />
+      <node id="5053250164214412449" at="187,34,188,63" concept="5" />
+      <node id="5053250164214412449" at="188,63,189,70" concept="0" />
+      <node id="5053250164214412449" at="189,70,190,109" concept="0" />
+      <node id="5053250164214412449" at="190,109,191,17" concept="0" />
+      <node id="5053250164214412450" at="191,17,192,168" concept="0" />
+      <node id="5053250164214412449" at="192,168,193,22" concept="4" />
+      <node id="5053250164214412449" at="185,0,195,0" concept="7" trace="createDescriptorForIncrementalFunctionParameterRef#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5053250164214412449" at="68,65,69,56" />
+      <scope id="5053250164214412449" at="185,89,193,22">
+        <var name="b" id="5053250164214412449" />
+      </scope>
+      <scope id="5053250164214412449" at="185,0,195,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/8535300072460314975">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8535300072460314975" at="13,0,14,0" concept="1" trace="props_HashCodeEquals" />
+      <node id="8535300072460314975" at="38,43,39,76" concept="3" />
+      <node id="8535300072460314975" at="39,76,40,48" concept="0" />
+      <node id="8535300072460314975" at="40,48,41,46" concept="0" />
+      <node id="8535300072460314975" at="42,9,43,36" concept="4" />
+      <node id="8535300072460314975" at="37,48,42,9" concept="2" />
+      <scope id="8535300072460314975" at="38,43,41,46">
+        <var name="cpb" id="8535300072460314975" />
+      </scope>
+      <scope id="8535300072460314975" at="37,48,43,36" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8535300072460314975" at="13,0,14,0" concept="6" trace="HashCodeEquals" />
+      <node id="8535300072460314975" at="27,48,28,53" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8535300072460314975" at="16,0,17,0" concept="1" trace="myConceptHashCodeEquals" />
+      <node id="8535300072460314975" at="52,48,53,39" concept="4" />
+      <node id="8535300072460314975" at="92,72,93,171" concept="3" />
+      <node id="8535300072460314975" at="93,171,94,34" concept="0" />
+      <node id="8535300072460314975" at="94,34,95,71" concept="0" />
+      <node id="8535300072460314975" at="95,71,96,109" concept="0" />
+      <node id="8535300072460314975" at="96,109,97,17" concept="0" />
+      <node id="8535300072460317704" at="97,17,98,194" concept="0" />
+      <node id="8535300072460314975" at="98,194,99,30" concept="0" />
+      <node id="8535300072460314975" at="99,30,100,22" concept="4" />
+      <node id="8535300072460314975" at="92,0,102,0" concept="7" trace="createDescriptorForHashCodeEquals#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8535300072460314975" at="52,48,53,39" />
+      <scope id="8535300072460314975" at="92,72,100,22">
+        <var name="b" id="8535300072460314975" />
+      </scope>
+      <scope id="8535300072460314975" at="92,0,102,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/8551406714923063830">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8551406714923063830" at="19,0,20,0" concept="1" trace="props_IncrementalFunctionLiteral" />
+      <node id="8551406714923063830" at="78,55,79,76" concept="3" />
+      <node id="8551406714923063830" at="79,76,80,54" concept="0" />
+      <node id="8551406714923063830" at="80,54,81,58" concept="0" />
+      <node id="8551406714923063830" at="82,9,83,48" concept="4" />
+      <node id="8551406714923063830" at="77,60,82,9" concept="2" />
+      <scope id="8551406714923063830" at="78,55,81,58">
+        <var name="cpb" id="8551406714923063830" />
+      </scope>
+      <scope id="8551406714923063830" at="77,60,83,48" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8551406714923063830" at="19,0,20,0" concept="6" trace="IncrementalFunctionLiteral" />
+      <node id="8551406714923063830" at="33,62,34,65" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8551406714923063830" at="22,0,23,0" concept="1" trace="myConceptIncrementalFunctionLiteral" />
+      <node id="8551406714923063830" at="64,60,65,51" concept="4" />
+      <node id="8551406714923063830" at="159,84,160,183" concept="3" />
+      <node id="8551406714923063830" at="160,183,161,34" concept="0" />
+      <node id="8551406714923063830" at="161,34,162,63" concept="5" />
+      <node id="8551406714923063830" at="162,63,163,70" concept="0" />
+      <node id="8551406714923063830" at="163,70,164,71" concept="0" />
+      <node id="8551406714923063830" at="164,71,165,71" concept="0" />
+      <node id="8551406714923063830" at="166,76,167,109" concept="0" />
+      <node id="8551406714923063830" at="167,109,168,17" concept="0" />
+      <node id="8551406714923068068" at="168,17,169,202" concept="0" />
+      <node id="8551406714923068069" at="169,202,170,192" concept="0" />
+      <node id="8551406714923068070" at="170,192,171,198" concept="0" />
+      <node id="8551406714923068071" at="171,198,172,195" concept="0" />
+      <node id="8551406714923063830" at="172,195,173,36" concept="0" />
+      <node id="8551406714923063830" at="173,36,174,22" concept="4" />
+      <node id="8551406714923063830" at="159,0,176,0" concept="7" trace="createDescriptorForIncrementalFunctionLiteral#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8551406714923063830" at="64,60,65,51" />
+      <scope id="8551406714923063830" at="159,84,174,22">
+        <var name="b" id="8551406714923063830" />
+      </scope>
+      <scope id="8551406714923063830" at="159,0,176,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/8551406714924728205">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8551406714924728205" at="23,0,24,0" concept="1" trace="props_WithEngineStatement" />
+      <node id="8551406714924728205" at="106,48,107,76" concept="3" />
+      <node id="8551406714924728205" at="107,76,108,45" concept="0" />
+      <node id="8551406714924728205" at="108,45,109,51" concept="0" />
+      <node id="8551406714924728205" at="110,9,111,41" concept="4" />
+      <node id="8551406714924728205" at="105,53,110,9" concept="2" />
+      <scope id="8551406714924728205" at="106,48,109,51">
+        <var name="cpb" id="8551406714924728205" />
+      </scope>
+      <scope id="8551406714924728205" at="105,53,111,41" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8551406714924728205" at="23,0,24,0" concept="6" trace="WithEngineStatement" />
+      <node id="8551406714924728205" at="37,56,38,58" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8551406714924728205" at="26,0,27,0" concept="1" trace="myConceptWithEngineStatement" />
+      <node id="8551406714924728205" at="72,53,73,44" concept="4" />
+      <node id="8551406714924728205" at="204,77,205,176" concept="3" />
+      <node id="8551406714924728205" at="205,176,206,34" concept="0" />
+      <node id="8551406714924728205" at="206,34,207,62" concept="5" />
+      <node id="8551406714924728205" at="207,62,208,70" concept="0" />
+      <node id="8551406714924728205" at="208,70,209,109" concept="0" />
+      <node id="8551406714924728205" at="209,109,210,17" concept="0" />
+      <node id="8551406714924728206" at="210,17,211,194" concept="0" />
+      <node id="8551406714924728251" at="211,194,212,192" concept="0" />
+      <node id="8551406714924728205" at="212,192,213,27" concept="0" />
+      <node id="8551406714924728205" at="213,27,214,22" concept="4" />
+      <node id="8551406714924728205" at="204,0,216,0" concept="7" trace="createDescriptorForWithEngineStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8551406714924728205" at="72,53,73,44" />
+      <scope id="8551406714924728205" at="204,77,214,22">
+        <var name="b" id="8551406714924728205" />
+      </scope>
+      <scope id="8551406714924728205" at="204,0,216,0" />
+    </file>
+  </root>
+  <root nodeRef="r:295d6334-7243-46ad-8666-c2b7a7cb492b(de.q60.mps.incremental.structure)/8551406714925044721">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8551406714925044721" at="14,0,15,0" concept="1" trace="props_IIncrementalFunction" />
+      <node id="8551406714925044721" at="45,49,46,76" concept="3" />
+      <node id="8551406714925044721" at="46,76,47,52" concept="0" />
+      <node id="8551406714925044721" at="48,9,49,42" concept="4" />
+      <node id="8551406714925044721" at="44,54,48,9" concept="2" />
+      <scope id="8551406714925044721" at="45,49,47,52">
+        <var name="cpb" id="8551406714925044721" />
+      </scope>
+      <scope id="8551406714925044721" at="44,54,49,42" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8551406714925044721" at="14,0,15,0" concept="6" trace="IIncrementalFunction" />
+      <node id="8551406714925044721" at="28,53,29,59" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8551406714925044721" at="17,0,18,0" concept="1" trace="myConceptIIncrementalFunction" />
+      <node id="8551406714925044721" at="54,54,55,45" concept="4" />
+      <node id="8551406714925044721" at="102,78,103,177" concept="3" />
+      <node id="8551406714925044721" at="103,177,104,19" concept="0" />
+      <node id="8551406714925044721" at="104,19,105,109" concept="0" />
+      <node id="8551406714925044721" at="105,109,106,17" concept="0" />
+      <node id="8551406714925044721" at="106,17,107,22" concept="4" />
+      <node id="8551406714925044721" at="137,76,138,76" concept="0" />
+      <node id="8551406714925044721" at="165,71,166,76" concept="0" />
+      <node id="8551406714925044721" at="102,0,109,0" concept="7" trace="createDescriptorForIIncrementalFunction#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8551406714925044721" at="54,54,55,45" />
+      <scope id="8551406714925044721" at="102,78,107,22">
+        <var name="b" id="8551406714925044721" />
+      </scope>
+      <scope id="8551406714925044721" at="102,0,109,0" />
+    </file>
+  </root>
+</debug-info>
+

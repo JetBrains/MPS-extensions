@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:356c0504-b4a3-4458-9604-13fbb48838d7(de.slisson.mps.tables.runtime.style)/4002497382309730961">
+    <file name="TableStyleUtils.java">
+      <node id="4002497382309850371" at="14,9,15,70" concept="7" />
+      <node id="4002497382309856470" at="15,70,16,28" concept="2" />
+      <node id="4002497382310031984" at="16,28,17,37" concept="8" />
+      <node id="4002497382309991224" at="18,44,19,37" concept="10" />
+      <node id="4002497382309930637" at="20,41,21,37" concept="10" />
+      <node id="4002497382309804513" at="22,40,23,37" concept="10" />
+      <node id="4002497382309733126" at="26,41,27,33" concept="7" />
+      <node id="4002497382309733131" at="27,33,28,23" concept="2" />
+      <node id="4002497382309733136" at="28,23,29,16" concept="8" />
+      <node id="4002497382309733146" at="32,43,33,26" concept="8" />
+      <node id="4002497382310336587" at="35,43,36,26" concept="8" />
+      <node id="4002497382310440900" at="38,43,39,29" concept="8" />
+      <node id="4002497382309733151" at="40,5,41,34" concept="7" />
+      <node id="6808914094429549792" at="43,30,44,17" concept="1" />
+      <node id="4002497382309733161" at="45,7,46,97" concept="2" />
+      <node id="4002497382309733177" at="47,5,48,20" concept="8" />
+      <node id="4002497382309733144" at="31,59,34,5" concept="5" />
+      <node id="4002497382310336585" at="34,5,37,5" concept="5" />
+      <node id="4002497382310396577" at="37,5,40,5" concept="5" />
+      <node id="6808914094429548377" at="42,93,45,7" concept="5" />
+      <node id="4002497382310503963" at="26,0,31,0" concept="9" trace="copy#(Ljetbrains/mps/openapi/editor/style/Style;)Ljetbrains/mps/openapi/editor/style/Style;" />
+      <node id="4002497382309733155" at="41,34,47,5" concept="4" />
+      <node id="4002497382309797644" at="13,51,24,5" concept="11" />
+      <node id="4002497382310131188" at="13,0,26,0" concept="9" trace="getParentStyle#(Ljetbrains/mps/openapi/editor/style/Style;)Ljetbrains/mps/openapi/editor/style/Style;" />
+      <node id="4002497382310520817" at="31,0,50,0" concept="9" trace="combine#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/style/Style;)Ljetbrains/mps/openapi/editor/style/Style;" />
+      <scope id="4002497382309939984" at="18,44,19,37" />
+      <scope id="4002497382309896287" at="20,41,21,37" />
+      <scope id="4002497382309797653" at="22,40,23,37" />
+      <scope id="4002497382309733145" at="32,43,33,26" />
+      <scope id="4002497382310336586" at="35,43,36,26" />
+      <scope id="4002497382310396580" at="38,43,39,29" />
+      <scope id="6808914094429548380" at="43,30,44,17" />
+      <scope id="4002497382309939981" at="18,5,20,5">
+        <var name="ex" id="4002497382309939982" />
+      </scope>
+      <scope id="4002497382309896284" at="20,5,22,5">
+        <var name="ex" id="4002497382309896285" />
+      </scope>
+      <scope id="4002497382309797647" at="22,5,24,5">
+        <var name="ex" id="4002497382309797649" />
+      </scope>
+      <scope id="4002497382309797646" at="14,9,17,37">
+        <var name="m" id="4002497382309850372" />
+      </scope>
+      <scope id="4002497382309733125" at="26,41,29,16">
+        <var name="copy" id="4002497382309733127" />
+      </scope>
+      <scope id="4002497382309733160" at="42,93,46,97" />
+      <scope id="4002497382310503963" at="26,0,31,0">
+        <var name="style" id="4002497382310178069" />
+      </scope>
+      <scope id="4002497382309733155" at="41,34,47,5">
+        <var name="attribute" id="4002497382309733156" />
+      </scope>
+      <scope id="4002497382309733117" at="13,51,24,5" />
+      <scope id="4002497382310131188" at="13,0,26,0">
+        <var name="style" id="4002497382309778035" />
+      </scope>
+      <scope id="4002497382309733143" at="31,59,48,20">
+        <var name="combined" id="4002497382309733152" />
+      </scope>
+      <scope id="4002497382310520817" at="31,0,50,0">
+        <var name="style1" id="4002497382310273870" />
+        <var name="style2" id="4002497382309733141" />
+      </scope>
+      <unit id="4002497382309730961" at="12,0,52,0" name="de.slisson.mps.tables.runtime.style.TableStyleUtils" />
+    </file>
+  </root>
+  <root nodeRef="r:356c0504-b4a3-4458-9604-13fbb48838d7(de.slisson.mps.tables.runtime.style)/6731162717776450525">
+    <file name="HorizontalAlignment.java">
+      <unit id="6731162717776450525" at="6,0,11,0" name="de.slisson.mps.tables.runtime.style.HorizontalAlignment" />
+    </file>
+  </root>
+  <root nodeRef="r:356c0504-b4a3-4458-9604-13fbb48838d7(de.slisson.mps.tables.runtime.style)/6731162717776450531">
+    <file name="VerticalAlignment.java">
+      <unit id="6731162717776450531" at="6,0,11,0" name="de.slisson.mps.tables.runtime.style.VerticalAlignment" />
+    </file>
+  </root>
+  <root nodeRef="r:356c0504-b4a3-4458-9604-13fbb48838d7(de.slisson.mps.tables.runtime.style)/8767719180170008808">
+    <file name="ITableStyleFactory.java">
+      <node id="8767719180170010345" at="8,0,9,0" concept="6" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
+      <scope id="8767719180170010345" at="8,0,9,0">
+        <var name="colIndex" id="8767719180171475107" />
+        <var name="rowIndex" id="8767719180171475109" />
+      </scope>
+      <unit id="8767719180170008808" at="7,0,10,0" name="de.slisson.mps.tables.runtime.style.ITableStyleFactory" />
+    </file>
+  </root>
+  <root nodeRef="r:356c0504-b4a3-4458-9604-13fbb48838d7(de.slisson.mps.tables.runtime.style)/8767719180170090407">
+    <file name="CloningTableStyleFactory.java">
+      <node id="8767719180170097246" at="8,0,9,0" concept="3" trace="mySource" />
+      <node id="8767719180170100852" at="10,49,11,22" concept="2" />
+      <node id="4002497382310539813" at="14,56,15,42" concept="8" />
+      <node id="8767719180170099870" at="10,0,13,0" concept="0" trace="CloningTableStyleFactory#(Ljetbrains/mps/openapi/editor/style/Style;)V" />
+      <node id="8767719180170097147" at="14,0,17,0" concept="6" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
+      <scope id="8767719180170099874" at="10,49,11,22" />
+      <scope id="8767719180170097153" at="14,56,15,42" />
+      <scope id="8767719180170099870" at="10,0,13,0">
+        <var name="source" id="8767719180170100038" />
+      </scope>
+      <scope id="8767719180170097147" at="14,0,17,0">
+        <var name="colIndex" id="8767719180171475424" />
+        <var name="rowIndex" id="8767719180171475426" />
+      </scope>
+      <unit id="8767719180170090407" at="7,0,18,0" name="de.slisson.mps.tables.runtime.style.CloningTableStyleFactory" />
+    </file>
+  </root>
+  <root nodeRef="r:356c0504-b4a3-4458-9604-13fbb48838d7(de.slisson.mps.tables.runtime.style)/8767719180170562928">
+    <file name="TableStyleFactoryDummy.java">
+      <node id="8767719180170563228" at="9,56,10,27" concept="8" />
+      <node id="8767719180170563114" at="9,0,12,0" concept="6" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
+      <scope id="8767719180170563120" at="9,56,10,27" />
+      <scope id="8767719180170563114" at="9,0,12,0">
+        <var name="colIndex" id="8767719180170563115" />
+        <var name="rowIndex" id="8767719180171474510" />
+      </scope>
+      <unit id="8767719180170562928" at="8,0,13,0" name="de.slisson.mps.tables.runtime.style.TableStyleFactoryDummy" />
+    </file>
+  </root>
+</debug-info>
+

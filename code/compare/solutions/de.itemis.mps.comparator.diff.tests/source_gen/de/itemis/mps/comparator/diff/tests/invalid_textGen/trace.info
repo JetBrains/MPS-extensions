@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:c1fe0f57-342b-4186-b866-291eeaf66eaa(de.itemis.mps.comparator.diff.tests.invalid_textGen)/2529503557135632022">
+    <file name="test.xml">
+      <unit id="2529503557135632022" at="1,0,3,7" name="de.itemis.mps.comparator.diff.tests.invalid_textGen.test" />
+    </file>
+  </root>
+</debug-info>
+

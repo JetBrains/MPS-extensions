@@ -10,7 +10,7 @@ import groovy.xml.slurpersupport.GPathResult
 import java.util.*
 
 plugins {
-    id("de.itemis.mps.gradle.common") version "1.29.2.+"
+    id("de.itemis.mps.gradle.common") version "1.29.3.+"
     id("com.github.breadmoirai.github-release") version "2.5.2"
     id("maven-publish")
     id("base")

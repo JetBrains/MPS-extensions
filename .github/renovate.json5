@@ -21,6 +21,13 @@
     },
 
     {
+      // Allow 'unstable' versions for itemis Gradle plugins. Gradle versioning treats commit hashes with 'a' or 'b' as
+      // pre-releases but they are stable versions.
+      "matchPackageNames": ["de.itemis.mps*"],
+      "ignoreUnstable": false,
+    },
+
+    {
       // MPS: separate minor and patch updates in order to disable minor but leave patch updates enabled
       "matchPackageNames": ["com.jetbrains:mps"],
       "separateMinorPatch": true,

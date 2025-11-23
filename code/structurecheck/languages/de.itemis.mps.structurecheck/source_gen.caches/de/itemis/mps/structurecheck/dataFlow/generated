@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-dm2urxq81etu18rif97r21riz77q3zv">
+  <files names="CheckStructureStatement_DataFlow.java:CompositeChecker_DataFlow.java:ConditionChecker_DataFlow.java:DataFlowAspectDescriptorImpl.java:Element_DataFlow.java:PropertyChecker_DataFlow.java:SequenceChecker_DataFlow.java" />
+</product>
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root>
+    <file name="ModelListenersDescriptor.java">
+      <unit at="111,0,114,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$PROPS" />
+      <unit at="100,0,104,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$CONCEPTS" />
+      <unit at="105,0,110,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$LINKS" />
+      <unit at="30,0,115,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fe22c697-c7a0-4b02-a31e-17ac67ee9f4b(com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners)/5818559022137985832">
+    <file name="ModelListenersDescriptor.java">
+      <node id="5069520366118952477" at="39,71,40,95" concept="0" />
+      <node id="5818559022138020469" at="40,95,41,132" concept="0" />
+      <node id="5069520366118953846" at="46,79,47,104" concept="0" />
+      <node id="5818559022139323028" at="47,104,48,123" concept="0" />
+      <node id="5069520366118709532" at="53,97,54,99" concept="0" />
+      <node id="6105788070833092355" at="54,99,55,48" concept="0" />
+      <node id="5251236325377697967" at="60,73,61,208" concept="0" />
+      <node id="5069520366118716779" at="66,99,67,101" concept="0" />
+      <node id="6105788070832846123" at="67,101,68,158" concept="0" />
+      <node id="5069520366118719831" at="73,112,74,158" concept="0" />
+      <node id="6105788070833671138" at="74,158,75,119" concept="0" />
+      <node id="5069520366118721817" at="80,65,81,94" concept="0" />
+      <node id="5069520366118723985" at="86,73,87,103" concept="0" />
+      <node id="5069520366118724697" at="92,67,93,96" concept="0" />
+      <node id="5251236325377697516" at="59,0,63,0" concept="1" trace="childRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6105788070835303416" at="79,0,83,0" concept="1" trace="rootAdded#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="6105788070835346408" at="85,0,89,0" concept="1" trace="beforeRootRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="6105788070835349253" at="91,0,95,0" concept="1" trace="rootRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="5818559022138020454" at="38,0,43,0" concept="1" trace="childAdded#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5818559022139322192" at="45,0,50,0" concept="1" trace="beforeChildRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6105788070831238566" at="52,0,57,0" concept="1" trace="referenceAdded#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <node id="6105788070831701588" at="65,0,70,0" concept="1" trace="referenceRemoved#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SReferenceLink;)V" />
+      <node id="6105788070833511903" at="72,0,77,0" concept="1" trace="propertyChanged#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="5251236325377697516" at="57,7,63,7" concept="0" />
+      <node id="6105788070835303416" at="77,7,83,7" concept="0" />
+      <node id="6105788070835346408" at="83,7,89,7" concept="0" />
+      <node id="6105788070835349253" at="89,7,95,7" concept="0" />
+      <node id="5818559022138020454" at="36,0,43,7" concept="0" />
+      <node id="5818559022139322192" at="43,7,50,7" concept="0" />
+      <node id="6105788070831238566" at="50,7,57,7" concept="0" />
+      <node id="6105788070831701588" at="63,7,70,7" concept="0" />
+      <node id="6105788070833511903" at="70,7,77,7" concept="0" />
+      <scope id="5251236325377697516" at="60,73,61,208" />
+      <scope id="6105788070835303416" at="80,65,81,94" />
+      <scope id="6105788070835346408" at="86,73,87,103" />
+      <scope id="6105788070835349253" at="92,67,93,96" />
+      <scope id="5818559022138020454" at="39,71,41,132" />
+      <scope id="5818559022139322192" at="46,79,48,123" />
+      <scope id="6105788070831238566" at="53,97,55,48" />
+      <scope id="6105788070831701588" at="66,99,68,158" />
+      <scope id="6105788070833511903" at="73,112,75,119" />
+      <scope id="5251236325377697516" at="59,0,63,0">
+        <var name="child" id="5251236325377697516" />
+        <var name="instance" id="5251236325377697516" />
+      </scope>
+      <scope id="6105788070835303416" at="79,0,83,0">
+        <var name="instance" id="6105788070835303416" />
+        <var name="model" id="6105788070835303416" />
+      </scope>
+      <scope id="6105788070835346408" at="85,0,89,0">
+        <var name="instance" id="6105788070835346408" />
+        <var name="model" id="6105788070835346408" />
+      </scope>
+      <scope id="6105788070835349253" at="91,0,95,0">
+        <var name="instance" id="6105788070835349253" />
+        <var name="model" id="6105788070835349253" />
+      </scope>
+      <scope id="5818559022138020454" at="38,0,43,0">
+        <var name="child" id="5818559022138020454" />
+        <var name="instance" id="5818559022138020454" />
+      </scope>
+      <scope id="5818559022139322192" at="45,0,50,0">
+        <var name="child" id="5818559022139322192" />
+        <var name="instance" id="5818559022139322192" />
+      </scope>
+      <scope id="6105788070831238566" at="52,0,57,0">
+        <var name="instance" id="6105788070831238566" />
+        <var name="role" id="6105788070831238566" />
+        <var name="target" id="6105788070831238566" />
+      </scope>
+      <scope id="6105788070831701588" at="65,0,70,0">
+        <var name="instance" id="6105788070831701588" />
+        <var name="role" id="6105788070831701588" />
+        <var name="target" id="6105788070831701588" />
+      </scope>
+      <scope id="6105788070833511903" at="72,0,77,0">
+        <var name="instance" id="6105788070833511903" />
+        <var name="newValue" id="6105788070833511903" />
+        <var name="oldValue" id="6105788070833511903" />
+        <var name="propertyName" id="6105788070833511903" />
+      </scope>
+      <unit id="5251236325377697516" at="58,52,63,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$4" />
+      <unit id="6105788070835303416" at="78,52,83,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$7" />
+      <unit id="6105788070835346408" at="84,52,89,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$8" />
+      <unit id="6105788070835349253" at="90,52,95,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$9" />
+      <unit id="5818559022138020454" at="37,52,43,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$1" />
+      <unit id="5818559022139322192" at="44,52,50,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$2" />
+      <unit id="6105788070831238566" at="51,52,57,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$3" />
+      <unit id="6105788070831701588" at="64,52,70,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$5" />
+      <unit id="6105788070833511903" at="71,52,77,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.listeners.ModelListenersDescriptor$6" />
+    </file>
+  </root>
+</debug-info>
+

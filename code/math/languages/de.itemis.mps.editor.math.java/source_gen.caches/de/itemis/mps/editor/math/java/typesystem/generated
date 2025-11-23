@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-6rztl51jxwdstca9yv1n9b9gw23ahou">
+  <files names="TypesystemDescriptor.java:typeof_Abs_InferenceRule.java:typeof_Cosine_InferenceRule.java:typeof_FractionExpression_InferenceRule.java:typeof_Integral_InferenceRule.java:typeof_LogN_InferenceRule.java:typeof_MathLoop_InferenceRule.java:typeof_NRoot_InferenceRule.java:typeof_PiConstant_InferenceRule.java:typeof_Power_InferenceRule.java:typeof_Sine_InferenceRule.java:typeof_Sqrt_InferenceRule.java:typeof_SumVarRef_InferenceRule.java" />
+</product>
+

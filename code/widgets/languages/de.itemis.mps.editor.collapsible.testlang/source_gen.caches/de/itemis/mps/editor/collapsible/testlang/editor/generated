@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-e9ykoyazo5fsfkeppqdh48bxb15ky6">
+  <files names="CollapsibleDefault_Editor.java:CollapsibleDefault_EditorBuilder_a.java:CollapsibleGrouped_Editor.java:CollapsibleGrouped_EditorBuilder_a.java:CollapsibleUngrouped_Editor.java:CollapsibleUngrouped_EditorBuilder_a.java:CollapsibleWithCallbackCollapsed_Editor.java:CollapsibleWithCallbackCollapsed_EditorBuilder_a.java:CollapsibleWithCallbackExpanded_Editor.java:CollapsibleWithCallbackExpanded_EditorBuilder_a.java:EditorAspectDescriptorImpl.java" />
+</product>
+

@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/3263015289314261960">
+    <file name="StateMachineCopyPaste_Test.java">
+      <node id="3263015289314261960" at="55,39,56,60" concept="11" />
+      <node id="3263015289314263495" at="60,46,61,37" concept="2" />
+      <node id="3263015289314263593" at="64,43,65,34" concept="2" />
+      <node id="3263015289314263745" at="68,44,69,35" concept="2" />
+      <node id="1726102129426861940" at="72,58,73,49" concept="2" />
+      <node id="3263015289314261960" at="78,52,79,19" concept="11" />
+      <node id="3263015289314261960" at="83,36,84,69" concept="2" />
+      <node id="3263015289314263495" at="87,48,88,22" concept="2" />
+      <node id="3263015289314917203" at="89,30,90,160" concept="2" />
+      <node id="3263015289314923085" at="90,160,91,160" concept="2" />
+      <node id="3263015289314928146" at="91,160,92,160" concept="2" />
+      <node id="3263015289314928621" at="92,160,93,160" concept="2" />
+      <node id="3263015289314937138" at="93,160,94,0" concept="8" />
+      <node id="8992099919210812926" at="94,0,95,99" concept="5" />
+      <node id="8992099919210820289" at="95,99,96,55" concept="2" />
+      <node id="7230129618820804933" at="96,55,97,164" concept="5" />
+      <node id="8318282991004873218" at="97,164,98,78" concept="5" />
+      <node id="8318282991004873223" at="98,78,99,59" concept="2" />
+      <node id="8318282991004873228" at="99,59,100,66" concept="2" />
+      <node id="8318282991004873233" at="100,66,101,0" concept="8" />
+      <node id="3263015289314937638" at="101,0,102,135" concept="2" />
+      <node id="3263015289314937646" at="102,135,103,135" concept="2" />
+      <node id="3263015289314937654" at="103,135,104,135" concept="2" />
+      <node id="3263015289314937662" at="104,135,105,135" concept="2" />
+      <node id="3263015289314263593" at="108,45,109,22" concept="2" />
+      <node id="3263015289315936072" at="110,30,111,160" concept="2" />
+      <node id="3263015289315936080" at="111,160,112,160" concept="2" />
+      <node id="3263015289315936088" at="112,160,113,160" concept="2" />
+      <node id="3263015289315936096" at="113,160,114,160" concept="2" />
+      <node id="3263015289315934542" at="114,160,115,0" concept="8" />
+      <node id="8992099919210924894" at="115,0,116,99" concept="5" />
+      <node id="8992099919210924902" at="116,99,117,55" concept="2" />
+      <node id="8992099919210924306" at="117,55,118,0" concept="8" />
+      <node id="7230129618820868906" at="118,0,119,164" concept="5" />
+      <node id="8318282991004873303" at="119,164,120,78" concept="5" />
+      <node id="8318282991004873308" at="120,78,121,59" concept="2" />
+      <node id="7813588827682919939" at="121,59,122,87" concept="5" />
+      <node id="6651894261136806249" at="122,87,123,49" concept="2" />
+      <node id="8318282991004873318" at="123,49,124,0" concept="8" />
+      <node id="3263015289315953493" at="124,0,125,135" concept="2" />
+      <node id="3263015289315953501" at="125,135,126,135" concept="2" />
+      <node id="3263015289315953509" at="126,135,127,135" concept="2" />
+      <node id="3263015289315953517" at="127,135,128,135" concept="2" />
+      <node id="8318282991004873343" at="128,135,129,0" concept="8" />
+      <node id="7230129618820871046" at="129,0,130,167" concept="5" />
+      <node id="8318282991004873353" at="130,167,131,106" concept="2" />
+      <node id="8318282991004873361" at="131,106,132,0" concept="8" />
+      <node id="3263015289315973051" at="132,0,133,160" concept="2" />
+      <node id="3263015289315973059" at="133,160,134,160" concept="2" />
+      <node id="3263015289315973067" at="134,160,135,160" concept="2" />
+      <node id="3263015289315973075" at="135,160,136,160" concept="2" />
+      <node id="3263015289314263745" at="139,46,140,22" concept="2" />
+      <node id="1726102129426821878" at="141,30,142,160" concept="2" />
+      <node id="1726102129426821886" at="142,160,143,160" concept="2" />
+      <node id="1726102129426821894" at="143,160,144,160" concept="2" />
+      <node id="1726102129426821902" at="144,160,145,160" concept="2" />
+      <node id="1726102129426820653" at="145,160,146,0" concept="8" />
+      <node id="8992099919210935979" at="146,0,147,99" concept="5" />
+      <node id="8992099919210935987" at="147,99,148,55" concept="2" />
+      <node id="8992099919210935535" at="148,55,149,0" concept="8" />
+      <node id="7230129618820884662" at="149,0,150,164" concept="5" />
+      <node id="3263015289311557769" at="150,164,151,78" concept="5" />
+      <node id="3263015289311557774" at="151,78,152,59" concept="2" />
+      <node id="7813588827682922342" at="152,59,153,88" concept="5" />
+      <node id="7813588827682923029" at="153,88,154,49" concept="2" />
+      <node id="3263015289311557784" at="154,49,155,0" concept="8" />
+      <node id="1726102129426828087" at="155,0,156,160" concept="2" />
+      <node id="1726102129426828095" at="156,160,157,160" concept="2" />
+      <node id="1726102129426828103" at="157,160,158,160" concept="2" />
+      <node id="1726102129426828111" at="158,160,159,160" concept="2" />
+      <node id="3263015289311557809" at="159,160,160,0" concept="8" />
+      <node id="7230129618820888919" at="160,0,161,167" concept="5" />
+      <node id="3263015289311557819" at="161,167,162,106" concept="2" />
+      <node id="3263015289311557827" at="162,106,163,0" concept="8" />
+      <node id="1726102129426831914" at="163,0,164,160" concept="2" />
+      <node id="1726102129426831922" at="164,160,165,160" concept="2" />
+      <node id="1726102129426831930" at="165,160,166,160" concept="2" />
+      <node id="1726102129426831938" at="166,160,167,160" concept="2" />
+      <node id="1726102129426861940" at="170,60,171,22" concept="2" />
+      <node id="1726102129427581596" at="172,30,173,65" concept="5" />
+      <node id="1726102129427581600" at="173,65,174,68" concept="5" />
+      <node id="1726102129427581605" at="174,68,175,79" concept="5" />
+      <node id="1726102129427581609" at="175,79,176,53" concept="2" />
+      <node id="1726102129428741859" at="176,53,177,0" concept="8" />
+      <node id="8992099919210957759" at="177,0,178,99" concept="5" />
+      <node id="8992099919210957767" at="178,99,179,55" concept="2" />
+      <node id="8992099919210957758" at="179,55,180,0" concept="8" />
+      <node id="7230129618820896091" at="180,0,181,164" concept="5" />
+      <node id="3263015289312403846" at="181,164,182,150" concept="5" />
+      <node id="3263015289312561620" at="182,150,183,118" concept="5" />
+      <node id="3263015289312554254" at="183,118,184,69" concept="2" />
+      <node id="1726102129428741860" at="184,69,185,0" concept="8" />
+      <node id="1726102129428746261" at="185,0,186,160" concept="2" />
+      <node id="1726102129428746269" at="186,160,187,160" concept="2" />
+      <node id="1726102129428746277" at="187,160,188,160" concept="2" />
+      <node id="1726102129428746285" at="188,160,189,160" concept="2" />
+      <node id="1726102129426726421" at="193,101,194,180" concept="5" />
+      <node id="1726102129426760986" at="194,180,195,96" concept="2" />
+      <node id="3263015289314910087" at="196,7,197,54" concept="5" />
+      <node id="3263015289314910087" at="197,54,198,40" concept="5" />
+      <node id="3263015289314910087" at="199,169,200,68" concept="5" />
+      <node id="3263015289314910087" at="200,68,201,41" concept="2" />
+      <node id="3263015289314910087" at="201,41,202,44" concept="2" />
+      <node id="3263015289314910087" at="202,44,203,34" concept="2" />
+      <node id="3263015289314910087" at="203,34,204,77" concept="2" />
+      <node id="3263015289314910087" at="204,77,205,146" concept="2" />
+      <node id="3263015289314910087" at="205,146,206,152" concept="2" />
+      <node id="3263015289314910087" at="206,152,207,25" concept="6" />
+      <node id="3263015289314910087" at="211,13,212,134" concept="5" />
+      <node id="3263015289314910087" at="212,134,213,182" concept="5" />
+      <node id="3263015289314910087" at="213,182,214,116" concept="2" />
+      <node id="3263015289314910087" at="216,11,217,65" concept="2" />
+      <node id="3263015289315891049" at="221,86,222,163" concept="2" />
+      <node id="8992099919214206767" at="224,72,225,101" concept="6" />
+      <node id="3263015289314261960" at="230,0,231,0" concept="9" trace="to$zeIz" />
+      <node id="3263015289314261960" at="231,0,232,0" concept="9" trace="smodelAttribute$KJ43" />
+      <node id="3263015289314261960" at="52,0,54,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="3263015289314261960" at="55,0,58,0" concept="1" trace="StateMachineCopyPaste_Test#()V" />
+      <node id="3263015289314261960" at="78,0,81,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3263015289315883205" at="221,0,224,0" concept="4" trace="assertTransitionIsNull#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8992099919214201684" at="224,0,227,0" concept="4" trace="getTableEditor#(Ljetbrains/mps/openapi/editor/EditorComponent;)Lde/slisson/mps/tables/runtime/cells/TableEditor;" />
+      <node id="3263015289314263495" at="59,0,63,0" concept="4" trace="test_delete#()V" />
+      <node id="3263015289314263593" at="63,0,67,0" concept="4" trace="test_cut#()V" />
+      <node id="3263015289314263745" at="67,0,71,0" concept="4" trace="test_copy#()V" />
+      <node id="1726102129426861940" at="71,0,75,0" concept="4" trace="test_pasteFromClipboard#()V" />
+      <node id="3263015289314261960" at="82,0,86,0" concept="4" trace="initTestNodes#()V" />
+      <node id="3263015289314910087" at="210,79,215,13" concept="0" />
+      <node id="3263015289314910087" at="209,41,216,11" concept="3" />
+      <node id="3263015289314910087" at="198,40,208,21" concept="5" />
+      <node id="3263015289314910087" at="208,21,218,9" concept="3" />
+      <node id="3263015289314263495" at="88,22,106,9" concept="2" />
+      <node id="1726102129426861940" at="171,22,190,9" concept="2" />
+      <node id="3263015289314263495" at="87,0,108,0" concept="4" trace="test_delete#()V" />
+      <node id="1726102129426861940" at="170,0,192,0" concept="4" trace="test_pasteFromClipboard#()V" />
+      <node id="3263015289314910087" at="195,96,219,7" concept="0" />
+      <node id="3263015289314263593" at="109,22,137,9" concept="2" />
+      <node id="3263015289314263745" at="140,22,168,9" concept="2" />
+      <node id="3263015289314902675" at="193,0,221,0" concept="4" trace="assertTransition#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3263015289314263593" at="108,0,139,0" concept="4" trace="test_cut#()V" />
+      <node id="3263015289314263745" at="139,0,170,0" concept="4" trace="test_copy#()V" />
+      <scope id="3263015289314261960" at="55,39,56,60" />
+      <scope id="3263015289314263495" at="60,46,61,37" />
+      <scope id="3263015289314263593" at="64,43,65,34" />
+      <scope id="3263015289314263745" at="68,44,69,35" />
+      <scope id="1726102129426861940" at="72,58,73,49" />
+      <scope id="3263015289314261960" at="78,52,79,19" />
+      <scope id="3263015289314261960" at="83,36,84,69" />
+      <scope id="3263015289315883205" at="221,86,222,163" />
+      <scope id="8992099919214201684" at="224,72,225,101" />
+      <scope id="3263015289314261960" at="55,0,58,0" />
+      <scope id="3263015289314261960" at="78,0,81,0">
+        <var name="owner" id="3263015289314261960" />
+      </scope>
+      <scope id="3263015289314910087" at="211,13,214,116">
+        <var name="input_c0k9" id="3263015289314910087" />
+        <var name="repository" id="3263015289314910087" />
+      </scope>
+      <scope id="3263015289315883205" at="221,0,224,0">
+        <var name="event" id="3263015289315884738" />
+        <var name="state" id="3263015289315886368" />
+        <var name="stateMachine" id="3263015289315884606" />
+      </scope>
+      <scope id="8992099919214201684" at="224,0,227,0">
+        <var name="editorComponent" id="8992099919214206647" />
+      </scope>
+      <scope id="3263015289314263495" at="59,0,63,0" />
+      <scope id="3263015289314263593" at="63,0,67,0" />
+      <scope id="3263015289314263745" at="67,0,71,0" />
+      <scope id="1726102129426861940" at="71,0,75,0" />
+      <scope id="3263015289314261960" at="82,0,86,0" />
+      <scope id="3263015289314910087" at="210,79,215,13" />
+      <scope id="3263015289314910087" at="199,169,207,25">
+        <var name="options" id="3263015289314910087" />
+      </scope>
+      <scope id="3263015289314910087" at="209,41,217,65" />
+      <scope id="3263015289314263495" at="89,30,105,135">
+        <var name="component" id="8992099919210812927" />
+        <var name="copyPaste" id="8318282991004873219" />
+        <var name="selection" id="7230129618820804934" />
+      </scope>
+      <scope id="1726102129426861940" at="172,30,189,160">
+        <var name="clipboard" id="1726102129427581604" />
+        <var name="component" id="8992099919210957760" />
+        <var name="data" id="3263015289312403847" />
+        <var name="handler" id="3263015289312561621" />
+        <var name="selection" id="7230129618820896094" />
+        <var name="stringSelection" id="1726102129427581599" />
+        <var name="text" id="1726102129427581595" />
+      </scope>
+      <scope id="3263015289314263495" at="87,48,106,9" />
+      <scope id="1726102129426861940" at="170,60,190,9" />
+      <scope id="3263015289314263495" at="87,0,108,0" />
+      <scope id="1726102129426861940" at="170,0,192,0" />
+      <scope id="3263015289314910087" at="196,7,218,9">
+        <var name="actualNode_c0k9" id="3263015289314910087" />
+        <var name="expectedNode_c0k9" id="3263015289314910087" />
+        <var name="result_c0k9" id="3263015289314910087" />
+      </scope>
+      <scope id="3263015289314263593" at="110,30,136,160">
+        <var name="component" id="8992099919210924895" />
+        <var name="copyPaste" id="8318282991004873304" />
+        <var name="data" id="7813588827682919940" />
+        <var name="selection" id="7230129618820868909" />
+        <var name="selectionNew" id="7230129618820871049" />
+      </scope>
+      <scope id="3263015289314263745" at="141,30,167,160">
+        <var name="component" id="8992099919210935980" />
+        <var name="copyPaste" id="3263015289311557770" />
+        <var name="data" id="7813588827682922343" />
+        <var name="selection" id="7230129618820884665" />
+        <var name="selectionNew" id="7230129618820888922" />
+      </scope>
+      <scope id="3263015289314902675" at="193,101,219,7">
+        <var name="s" id="1726102129426726422" />
+      </scope>
+      <scope id="3263015289314902675" at="193,0,221,0">
+        <var name="event" id="3263015289314903925" />
+        <var name="expectedState" id="3263015289314909014" />
+        <var name="state" id="3263015289314904393" />
+        <var name="stateMachine" id="3263015289314903831" />
+      </scope>
+      <scope id="3263015289314263593" at="108,45,137,9" />
+      <scope id="3263015289314263745" at="139,46,168,9" />
+      <scope id="3263015289314263593" at="108,0,139,0" />
+      <scope id="3263015289314263745" at="139,0,170,0" />
+      <unit id="3263015289314261960" at="229,0,233,0" name="test.de.slisson.mps.tables.StateMachineCopyPaste_Test$LINKS" />
+      <unit id="3263015289314261960" at="76,0,228,0" name="test.de.slisson.mps.tables.StateMachineCopyPaste_Test$TestBody" />
+      <unit id="3263015289314261960" at="50,0,234,0" name="test.de.slisson.mps.tables.StateMachineCopyPaste_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/4862272818337891093">
+    <file name="Statemachine_InsertEvent_Test.java">
+      <node id="4862272818337891093" at="25,42,26,60" concept="11" />
+      <node id="4862272818337891093" at="30,64,31,36" concept="2" />
+      <node id="4862272818337891093" at="36,52,37,19" concept="11" />
+      <node id="4862272818337891093" at="41,51,42,71" concept="2" />
+      <node id="738737923201824222" at="42,71,43,61" concept="7" />
+      <node id="738737923201799165" at="47,44,48,111" concept="6" />
+      <node id="738737923201805778" at="50,23,51,98" concept="2" />
+      <node id="738737923201822196" at="52,9,53,0" concept="8" />
+      <node id="4862272818337910652" at="53,0,54,69" concept="2" />
+      <node id="4862272818337891093" at="22,0,24,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="4862272818337891093" at="25,0,28,0" concept="1" trace="Statemachine_InsertEvent_Test#()V" />
+      <node id="4862272818337891093" at="36,0,39,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4862272818337891093" at="29,0,33,0" concept="4" trace="test_Statemachine_InsertEvent#()V" />
+      <node id="738737923201799159" at="46,0,50,0" concept="4" trace="met#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Z" />
+      <node id="738737923201799149" at="44,42,50,23" concept="5" />
+      <node id="738737923201928787" at="43,61,52,9" concept="2" />
+      <node id="4862272818337891093" at="40,0,56,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="4862272818337891093" at="25,42,26,60" />
+      <scope id="4862272818337891093" at="30,64,31,36" />
+      <scope id="4862272818337891093" at="36,52,37,19" />
+      <scope id="738737923201799164" at="47,44,48,111" />
+      <scope id="4862272818337891093" at="25,0,28,0" />
+      <scope id="4862272818337891093" at="36,0,39,0">
+        <var name="owner" id="4862272818337891093" />
+      </scope>
+      <scope id="4862272818337891093" at="29,0,33,0" />
+      <scope id="738737923201799159" at="46,0,50,0">
+        <var name="c" id="738737923201799162" />
+      </scope>
+      <scope id="738737923201930266" at="44,42,51,98">
+        <var name="event1cell" id="738737923201799150" />
+      </scope>
+      <scope id="4862272818337891093" at="41,51,54,69" />
+      <scope id="4862272818337891093" at="40,0,56,0" />
+      <unit id="738737923201799157" at="45,108,50,9" name="test.de.slisson.mps.tables.Statemachine_InsertEvent_Test$TestBody$1" />
+      <unit id="4862272818337891093" at="34,0,57,0" name="test.de.slisson.mps.tables.Statemachine_InsertEvent_Test$TestBody" />
+      <unit id="4862272818337891093" at="20,0,58,0" name="test.de.slisson.mps.tables.Statemachine_InsertEvent_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/4862272818337965637">
+    <file name="Statemachine_InsertState_Test.java">
+      <node id="4862272818337965637" at="19,42,20,60" concept="11" />
+      <node id="4862272818337965637" at="24,64,25,36" concept="2" />
+      <node id="4862272818337965637" at="30,52,31,19" concept="11" />
+      <node id="4862272818337965637" at="35,51,36,72" concept="2" />
+      <node id="4862272818337965639" at="36,72,37,69" concept="2" />
+      <node id="4862272818337965637" at="16,0,18,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="4862272818337965637" at="19,0,22,0" concept="1" trace="Statemachine_InsertState_Test#()V" />
+      <node id="4862272818337965637" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4862272818337965637" at="23,0,27,0" concept="4" trace="test_Statemachine_InsertState#()V" />
+      <node id="4862272818337965637" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="4862272818337965637" at="19,42,20,60" />
+      <scope id="4862272818337965637" at="24,64,25,36" />
+      <scope id="4862272818337965637" at="30,52,31,19" />
+      <scope id="4862272818337965637" at="35,51,37,69" />
+      <scope id="4862272818337965637" at="19,0,22,0" />
+      <scope id="4862272818337965637" at="30,0,33,0">
+        <var name="owner" id="4862272818337965637" />
+      </scope>
+      <scope id="4862272818337965637" at="23,0,27,0" />
+      <scope id="4862272818337965637" at="34,0,39,0" />
+      <unit id="4862272818337965637" at="28,0,40,0" name="test.de.slisson.mps.tables.Statemachine_InsertState_Test$TestBody" />
+      <unit id="4862272818337965637" at="14,0,41,0" name="test.de.slisson.mps.tables.Statemachine_InsertState_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/53021589582773546">
+    <file name="TableAction_DeleteRow_Test.java">
+      <node id="53021589582773546" at="19,39,20,60" concept="11" />
+      <node id="53021589582773546" at="24,61,25,36" concept="2" />
+      <node id="53021589582773546" at="30,52,31,19" concept="11" />
+      <node id="53021589582773546" at="35,51,36,68" concept="2" />
+      <node id="53021589582773616" at="36,68,37,81" concept="2" />
+      <node id="53021589582773546" at="16,0,18,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="53021589582773546" at="19,0,22,0" concept="1" trace="TableAction_DeleteRow_Test#()V" />
+      <node id="53021589582773546" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="53021589582773546" at="23,0,27,0" concept="4" trace="test_TableAction_DeleteRow#()V" />
+      <node id="53021589582773546" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="53021589582773546" at="19,39,20,60" />
+      <scope id="53021589582773546" at="24,61,25,36" />
+      <scope id="53021589582773546" at="30,52,31,19" />
+      <scope id="53021589582773546" at="35,51,37,81" />
+      <scope id="53021589582773546" at="19,0,22,0" />
+      <scope id="53021589582773546" at="30,0,33,0">
+        <var name="owner" id="53021589582773546" />
+      </scope>
+      <scope id="53021589582773546" at="23,0,27,0" />
+      <scope id="53021589582773546" at="34,0,39,0" />
+      <unit id="53021589582773546" at="28,0,40,0" name="test.de.slisson.mps.tables.TableAction_DeleteRow_Test$TestBody" />
+      <unit id="53021589582773546" at="14,0,41,0" name="test.de.slisson.mps.tables.TableAction_DeleteRow_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/53021589582892364">
+    <file name="TableAction_InsertRowAfter_Test.java">
+      <node id="53021589582892364" at="19,44,20,60" concept="11" />
+      <node id="53021589582892364" at="24,66,25,36" concept="2" />
+      <node id="53021589582892364" at="30,52,31,19" concept="11" />
+      <node id="53021589582892364" at="35,51,36,68" concept="2" />
+      <node id="53021589582892366" at="36,68,37,86" concept="2" />
+      <node id="53021589582892364" at="16,0,18,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="53021589582892364" at="19,0,22,0" concept="1" trace="TableAction_InsertRowAfter_Test#()V" />
+      <node id="53021589582892364" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="53021589582892364" at="23,0,27,0" concept="4" trace="test_TableAction_InsertRowAfter#()V" />
+      <node id="53021589582892364" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="53021589582892364" at="19,44,20,60" />
+      <scope id="53021589582892364" at="24,66,25,36" />
+      <scope id="53021589582892364" at="30,52,31,19" />
+      <scope id="53021589582892364" at="35,51,37,86" />
+      <scope id="53021589582892364" at="19,0,22,0" />
+      <scope id="53021589582892364" at="30,0,33,0">
+        <var name="owner" id="53021589582892364" />
+      </scope>
+      <scope id="53021589582892364" at="23,0,27,0" />
+      <scope id="53021589582892364" at="34,0,39,0" />
+      <unit id="53021589582892364" at="28,0,40,0" name="test.de.slisson.mps.tables.TableAction_InsertRowAfter_Test$TestBody" />
+      <unit id="53021589582892364" at="14,0,41,0" name="test.de.slisson.mps.tables.TableAction_InsertRowAfter_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/53021589582902430">
+    <file name="TableAction_InsertRowBefore_Test.java">
+      <node id="53021589582902430" at="19,45,20,60" concept="11" />
+      <node id="53021589582902430" at="24,67,25,36" concept="2" />
+      <node id="53021589582902430" at="30,52,31,19" concept="11" />
+      <node id="53021589582902430" at="35,51,36,68" concept="2" />
+      <node id="53021589582902432" at="36,68,37,87" concept="2" />
+      <node id="53021589582902430" at="16,0,18,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="53021589582902430" at="19,0,22,0" concept="1" trace="TableAction_InsertRowBefore_Test#()V" />
+      <node id="53021589582902430" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="53021589582902430" at="23,0,27,0" concept="4" trace="test_TableAction_InsertRowBefore#()V" />
+      <node id="53021589582902430" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="53021589582902430" at="19,45,20,60" />
+      <scope id="53021589582902430" at="24,67,25,36" />
+      <scope id="53021589582902430" at="30,52,31,19" />
+      <scope id="53021589582902430" at="35,51,37,87" />
+      <scope id="53021589582902430" at="19,0,22,0" />
+      <scope id="53021589582902430" at="30,0,33,0">
+        <var name="owner" id="53021589582902430" />
+      </scope>
+      <scope id="53021589582902430" at="23,0,27,0" />
+      <scope id="53021589582902430" at="34,0,39,0" />
+      <unit id="53021589582902430" at="28,0,40,0" name="test.de.slisson.mps.tables.TableAction_InsertRowBefore_Test$TestBody" />
+      <unit id="53021589582902430" at="14,0,41,0" name="test.de.slisson.mps.tables.TableAction_InsertRowBefore_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/5725797066167919868">
+    <file name="Requirements_AddRequirement_Test.java">
+      <node id="5725797066167919868" at="28,45,29,60" concept="11" />
+      <node id="5725797066167919868" at="33,67,34,36" concept="2" />
+      <node id="5725797066167919868" at="39,52,40,19" concept="11" />
+      <node id="5725797066167919868" at="44,51,45,72" concept="2" />
+      <node id="5725797066167952971" at="45,72,46,26" concept="5" />
+      <node id="5725797066167952974" at="46,26,47,24" concept="5" />
+      <node id="5725797066167952977" at="47,24,48,16" concept="5" />
+      <node id="5725797066167952980" at="48,16,49,52" concept="2" />
+      <node id="5725797066167952986" at="49,52,50,87" concept="2" />
+      <node id="5725797066167952994" at="50,87,51,29" concept="2" />
+      <node id="5725797066167953000" at="51,29,52,0" concept="8" />
+      <node id="5725797066167977489" at="52,0,53,153" concept="5" />
+      <node id="5725797066167953034" at="53,153,54,0" concept="8" />
+      <node id="5725797066167953035" at="54,0,55,91" concept="5" />
+      <node id="5788863950646561110" at="55,91,56,91" concept="2" />
+      <node id="5725797066168502929" at="56,91,57,69" concept="2" />
+      <node id="5725797066168498967" at="57,69,58,0" concept="8" />
+      <node id="5725797066167953069" at="58,0,59,0" concept="8" />
+      <node id="5725797066167919868" at="25,0,27,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="5725797066167919868" at="28,0,31,0" concept="1" trace="Requirements_AddRequirement_Test#()V" />
+      <node id="5725797066167919868" at="39,0,42,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5725797066167919868" at="32,0,36,0" concept="4" trace="test_Requirements_AddRequirement#()V" />
+      <node id="5725797066167919868" at="43,0,61,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="5725797066167919868" at="28,45,29,60" />
+      <scope id="5725797066167919868" at="33,67,34,36" />
+      <scope id="5725797066167919868" at="39,52,40,19" />
+      <scope id="5725797066167919868" at="28,0,31,0" />
+      <scope id="5725797066167919868" at="39,0,42,0">
+        <var name="owner" id="5725797066167919868" />
+      </scope>
+      <scope id="5725797066167919868" at="32,0,36,0" />
+      <scope id="5725797066167919868" at="44,51,59,0">
+        <var name="grid" id="5725797066167952978" />
+        <var name="rootCell" id="5725797066167952972" />
+        <var name="rowEndCell" id="5725797066167977490" />
+        <var name="selectionManager" id="5725797066167953036" />
+        <var name="table" id="5725797066167952975" />
+      </scope>
+      <scope id="5725797066167919868" at="43,0,61,0" />
+      <unit id="5725797066167919868" at="37,0,62,0" name="test.de.slisson.mps.tables.Requirements_AddRequirement_Test$TestBody" />
+      <unit id="5725797066167919868" at="23,0,63,0" name="test.de.slisson.mps.tables.Requirements_AddRequirement_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/5725797066168518486">
+    <file name="Requirements_AddRequirement_Annotated_Test.java">
+      <node id="5725797066168518486" at="30,55,31,60" concept="11" />
+      <node id="5725797066168518486" at="35,77,36,36" concept="2" />
+      <node id="5725797066168518486" at="41,52,42,19" concept="11" />
+      <node id="5725797066168518486" at="46,51,47,72" concept="2" />
+      <node id="5725797066168518488" at="47,72,48,26" concept="5" />
+      <node id="5725797066168518491" at="48,26,49,24" concept="5" />
+      <node id="5725797066168518494" at="49,24,50,16" concept="5" />
+      <node id="5725797066168518497" at="50,16,51,52" concept="2" />
+      <node id="5725797066168518503" at="51,52,52,87" concept="2" />
+      <node id="5725797066168518511" at="52,87,53,29" concept="2" />
+      <node id="5725797066168518517" at="53,29,54,0" concept="8" />
+      <node id="5725797066168518518" at="54,0,55,153" concept="5" />
+      <node id="5725797066168518539" at="55,153,56,0" concept="8" />
+      <node id="5725797066168577190" at="56,0,57,31" concept="5" />
+      <node id="5725797066168583479" at="57,31,58,171" concept="2" />
+      <node id="5725797066168579569" at="58,171,59,51" concept="2" />
+      <node id="5725797066168572019" at="59,51,60,0" concept="8" />
+      <node id="5725797066168518540" at="60,0,61,91" concept="5" />
+      <node id="5788863950646581178" at="61,91,62,91" concept="2" />
+      <node id="5725797066168518554" at="62,91,63,69" concept="2" />
+      <node id="5725797066168518556" at="63,69,64,0" concept="8" />
+      <node id="5725797066168588086" at="64,0,65,52" concept="2" />
+      <node id="5725797066168588092" at="65,52,66,87" concept="2" />
+      <node id="5725797066168588100" at="66,87,67,29" concept="2" />
+      <node id="5725797066168584606" at="67,29,68,171" concept="2" />
+      <node id="5725797066168582381" at="68,171,69,51" concept="2" />
+      <node id="5725797066168518577" at="69,51,70,0" concept="8" />
+      <node id="5725797066168577194" at="72,72,73,49" concept="6" />
+      <node id="5725797066168582370" at="75,72,76,49" concept="6" />
+      <node id="5725797066168518486" at="27,0,29,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="5725797066168518486" at="30,0,33,0" concept="1" trace="Requirements_AddRequirement_Annotated_Test#()V" />
+      <node id="5725797066168518486" at="41,0,44,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5725797066168577194" at="72,0,75,0" concept="10" trace="as_koqyfn_a0a0a11a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="5725797066168582370" at="75,0,78,0" concept="10" trace="as_koqyfn_a0a0a12a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="5725797066168518486" at="34,0,38,0" concept="4" trace="test_Requirements_AddRequirement_Annotated#()V" />
+      <node id="5725797066168518486" at="45,0,72,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="5725797066168518486" at="30,55,31,60" />
+      <scope id="5725797066168518486" at="35,77,36,36" />
+      <scope id="5725797066168518486" at="41,52,42,19" />
+      <scope id="5725797066168577194" at="72,72,73,49" />
+      <scope id="5725797066168582370" at="75,72,76,49" />
+      <scope id="5725797066168518486" at="30,0,33,0" />
+      <scope id="5725797066168518486" at="41,0,44,0">
+        <var name="owner" id="5725797066168518486" />
+      </scope>
+      <scope id="5725797066168577194" at="72,0,75,0">
+        <var name="o" id="5725797066168577194" />
+        <var name="type" id="5725797066168577194" />
+      </scope>
+      <scope id="5725797066168582370" at="75,0,78,0">
+        <var name="o" id="5725797066168582370" />
+        <var name="type" id="5725797066168582370" />
+      </scope>
+      <scope id="5725797066168518486" at="34,0,38,0" />
+      <scope id="5725797066168518486" at="46,51,70,0">
+        <var name="grid" id="5725797066168518495" />
+        <var name="label12" id="5725797066168577191" />
+        <var name="rootCell" id="5725797066168518489" />
+        <var name="rowEndCell" id="5725797066168518519" />
+        <var name="selectionManager" id="5725797066168518541" />
+        <var name="table" id="5725797066168518492" />
+      </scope>
+      <scope id="5725797066168518486" at="45,0,72,0" />
+      <unit id="5725797066168518486" at="39,0,79,0" name="test.de.slisson.mps.tables.Requirements_AddRequirement_Annotated_Test$TestBody" />
+      <unit id="5725797066168518486" at="25,0,80,0" name="test.de.slisson.mps.tables.Requirements_AddRequirement_Annotated_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/7008013895403288226">
+    <file name="Statemachine_CreateTransition_Test.java">
+      <node id="7008013895403288226" at="29,47,30,60" concept="11" />
+      <node id="7008013895403288226" at="34,69,35,36" concept="2" />
+      <node id="7008013895403288226" at="40,52,41,19" concept="11" />
+      <node id="7008013895403288226" at="45,51,46,53" concept="2" />
+      <node id="7008013895403288631" at="46,53,47,26" concept="5" />
+      <node id="7008013895403422168" at="47,26,48,24" concept="5" />
+      <node id="7008013895403431296" at="48,24,49,16" concept="5" />
+      <node id="5725797066167800261" at="49,16,50,52" concept="2" />
+      <node id="5725797066167801482" at="50,52,51,87" concept="2" />
+      <node id="5725797066167803922" at="51,87,52,29" concept="2" />
+      <node id="7008013895403579996" at="52,29,53,0" concept="8" />
+      <node id="7008013895403441161" at="53,0,54,30" concept="5" />
+      <node id="7008013895403470419" at="54,30,55,98" concept="5" />
+      <node id="7008013895403583863" at="55,98,56,0" concept="8" />
+      <node id="7008013895403563623" at="56,0,57,105" concept="2" />
+      <node id="7008013895403590405" at="57,105,58,0" concept="8" />
+      <node id="7008013895403565990" at="58,0,59,114" concept="2" />
+      <node id="7008013895403575781" at="59,114,60,65" concept="2" />
+      <node id="7008013895403574406" at="60,65,61,0" concept="8" />
+      <node id="7008013895403498323" at="61,0,62,91" concept="5" />
+      <node id="5788863950646613117" at="62,91,63,104" concept="2" />
+      <node id="7008013895403559232" at="63,104,64,23" concept="2" />
+      <node id="7008013895403503793" at="64,23,65,0" concept="8" />
+      <node id="5725797066167810172" at="65,0,66,52" concept="2" />
+      <node id="5725797066167810178" at="66,52,67,87" concept="2" />
+      <node id="5725797066167810186" at="67,87,68,29" concept="2" />
+      <node id="5725797066167808867" at="68,29,69,0" concept="8" />
+      <node id="7008013895403564761" at="69,0,70,105" concept="2" />
+      <node id="7008013895403567226" at="70,105,71,114" concept="2" />
+      <node id="7008013895403568555" at="71,114,72,67" concept="2" />
+      <node id="8503993226528919978" at="74,70,75,49" concept="6" />
+      <node id="8503993226528921246" at="77,70,78,49" concept="6" />
+      <node id="7008013895403288226" at="26,0,28,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="7008013895403288226" at="29,0,32,0" concept="1" trace="Statemachine_CreateTransition_Test#()V" />
+      <node id="7008013895403288226" at="40,0,43,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8503993226528919978" at="74,0,77,0" concept="10" trace="as_jmjvu3_a0a0l0d6#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="8503993226528921246" at="77,0,80,0" concept="10" trace="as_jmjvu3_a0a0y0d6#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="7008013895403288226" at="33,0,37,0" concept="4" trace="test_Statemachine_CreateTransition#()V" />
+      <node id="7008013895403288226" at="44,0,74,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7008013895403288226" at="29,47,30,60" />
+      <scope id="7008013895403288226" at="34,69,35,36" />
+      <scope id="7008013895403288226" at="40,52,41,19" />
+      <scope id="8503993226528919978" at="74,70,75,49" />
+      <scope id="8503993226528921246" at="77,70,78,49" />
+      <scope id="7008013895403288226" at="29,0,32,0" />
+      <scope id="7008013895403288226" at="40,0,43,0">
+        <var name="owner" id="7008013895403288226" />
+      </scope>
+      <scope id="8503993226528919978" at="74,0,77,0">
+        <var name="o" id="8503993226528919978" />
+        <var name="type" id="8503993226528919978" />
+      </scope>
+      <scope id="8503993226528921246" at="77,0,80,0">
+        <var name="o" id="8503993226528921246" />
+        <var name="type" id="8503993226528921246" />
+      </scope>
+      <scope id="7008013895403288226" at="33,0,37,0" />
+      <scope id="7008013895403288226" at="45,51,72,67">
+        <var name="event1State2" id="7008013895403441162" />
+        <var name="event1State2Label" id="7008013895403470420" />
+        <var name="grid" id="7008013895403431299" />
+        <var name="rootCell" id="7008013895403288632" />
+        <var name="selectionManager" id="7008013895403498324" />
+        <var name="table" id="7008013895403422169" />
+      </scope>
+      <scope id="7008013895403288226" at="44,0,74,0" />
+      <unit id="7008013895403288226" at="38,0,81,0" name="test.de.slisson.mps.tables.Statemachine_CreateTransition_Test$TestBody" />
+      <unit id="7008013895403288226" at="24,0,82,0" name="test.de.slisson.mps.tables.Statemachine_CreateTransition_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/7143387926525490587">
+    <file name="TableStructure_Test.java">
+      <node id="7143387926525490587" at="37,32,38,60" concept="11" />
+      <node id="7143387926525500312" at="42,45,43,36" concept="2" />
+      <node id="7143387926525490587" at="48,52,49,19" concept="11" />
+      <node id="7143387926525490587" at="53,36,54,69" concept="2" />
+      <node id="7143387926525500312" at="57,47,58,22" concept="2" />
+      <node id="7143387926525503278" at="59,30,60,105" concept="5" />
+      <node id="7143387926525510084" at="60,105,61,60" concept="2" />
+      <node id="7143387926527528103" at="61,60,62,56" concept="7" />
+      <node id="7143387926528584402" at="62,56,63,111" concept="5" />
+      <node id="7143387926525524642" at="64,9,65,71" concept="5" />
+      <node id="7143387926525541084" at="68,40,69,24" concept="6" />
+      <node id="7143387926525541084" at="73,49,74,36" concept="2" />
+      <node id="7143387926527578382" at="79,49,80,36" concept="2" />
+      <node id="7143387926527568983" at="84,40,85,23" concept="6" />
+      <node id="7143387926527568983" at="89,49,90,36" concept="2" />
+      <node id="7143387926527585320" at="94,40,95,23" concept="6" />
+      <node id="7143387926527585320" at="99,49,100,36" concept="2" />
+      <node id="7143387926527548001" at="103,77,104,33" concept="6" />
+      <node id="7143387926528594893" at="108,40,109,24" concept="6" />
+      <node id="7143387926528594893" at="113,49,114,36" concept="2" />
+      <node id="7143387926528594901" at="118,40,119,24" concept="6" />
+      <node id="7143387926528594901" at="123,49,124,36" concept="2" />
+      <node id="7143387926528594888" at="128,40,129,24" concept="6" />
+      <node id="7143387926528594888" at="133,49,134,36" concept="2" />
+      <node id="7143387926528594882" at="137,77,138,33" concept="6" />
+      <node id="7143387926525524642" at="140,13,141,60" concept="5" />
+      <node id="7143387926525524642" at="142,32,143,29" concept="2" />
+      <node id="7143387926525490587" at="34,0,36,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="7143387926525490587" at="37,0,40,0" concept="1" trace="TableStructure_Test#()V" />
+      <node id="7143387926525490587" at="48,0,51,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7143387926527548001" at="103,0,106,0" concept="4" trace="getSequence#(Ljetbrains/mps/nodeEditor/cells/EditorCell;)Ljava/lang/Iterable;" />
+      <node id="7143387926528594882" at="137,0,140,0" concept="4" trace="getSequence#(Ljetbrains/mps/nodeEditor/cells/EditorCell;)Ljava/lang/Iterable;" />
+      <node id="7143387926525524642" at="141,60,144,11" concept="3" />
+      <node id="7143387926525500312" at="41,0,45,0" concept="4" trace="test_table#()V" />
+      <node id="7143387926525490587" at="52,0,56,0" concept="4" trace="initTestNodes#()V" />
+      <node id="7143387926525541084" at="67,0,71,0" concept="4" trace="getMultiplier#()I" />
+      <node id="7143387926525541084" at="72,0,76,0" concept="4" trace="report#(Lde/itemis/mps/structurecheck/runtime/Message;)V" />
+      <node id="7143387926527578382" at="78,0,82,0" concept="4" trace="report#(Lde/itemis/mps/structurecheck/runtime/Message;)V" />
+      <node id="7143387926527568983" at="83,0,87,0" concept="4" trace="getMultiplier#()I" />
+      <node id="7143387926527568983" at="88,0,92,0" concept="4" trace="report#(Lde/itemis/mps/structurecheck/runtime/Message;)V" />
+      <node id="7143387926527585320" at="93,0,97,0" concept="4" trace="getMultiplier#()I" />
+      <node id="7143387926527585320" at="98,0,102,0" concept="4" trace="report#(Lde/itemis/mps/structurecheck/runtime/Message;)V" />
+      <node id="7143387926528594893" at="107,0,111,0" concept="4" trace="getMultiplier#()I" />
+      <node id="7143387926528594893" at="112,0,116,0" concept="4" trace="report#(Lde/itemis/mps/structurecheck/runtime/Message;)V" />
+      <node id="7143387926528594901" at="117,0,121,0" concept="4" trace="getMultiplier#()I" />
+      <node id="7143387926528594901" at="122,0,126,0" concept="4" trace="report#(Lde/itemis/mps/structurecheck/runtime/Message;)V" />
+      <node id="7143387926528594888" at="127,0,131,0" concept="4" trace="getMultiplier#()I" />
+      <node id="7143387926528594888" at="132,0,136,0" concept="4" trace="report#(Lde/itemis/mps/structurecheck/runtime/Message;)V" />
+      <node id="7143387926525524642" at="65,71,140,13" concept="5" />
+      <node id="7143387926525524642" at="63,111,145,9" concept="0" />
+      <node id="7143387926525500312" at="58,22,146,9" concept="2" />
+      <node id="7143387926525500312" at="57,0,148,0" concept="4" trace="test_table#()V" />
+      <scope id="7143387926525490587" at="37,32,38,60" />
+      <scope id="7143387926525500312" at="42,45,43,36" />
+      <scope id="7143387926525490587" at="48,52,49,19" />
+      <scope id="7143387926525490587" at="53,36,54,69" />
+      <scope id="7143387926525541084" at="68,40,69,24" />
+      <scope id="7143387926525541084" at="73,49,74,36" />
+      <scope id="7143387926527578382" at="79,49,80,36" />
+      <scope id="7143387926527568983" at="84,40,85,23" />
+      <scope id="7143387926527568983" at="89,49,90,36" />
+      <scope id="7143387926527585320" at="94,40,95,23" />
+      <scope id="7143387926527585320" at="99,49,100,36" />
+      <scope id="7143387926527548001" at="103,77,104,33" />
+      <scope id="7143387926528594893" at="108,40,109,24" />
+      <scope id="7143387926528594893" at="113,49,114,36" />
+      <scope id="7143387926528594901" at="118,40,119,24" />
+      <scope id="7143387926528594901" at="123,49,124,36" />
+      <scope id="7143387926528594888" at="128,40,129,24" />
+      <scope id="7143387926528594888" at="133,49,134,36" />
+      <scope id="7143387926528594882" at="137,77,138,33" />
+      <scope id="7143387926525524642" at="142,32,143,29" />
+      <scope id="7143387926525490587" at="37,0,40,0" />
+      <scope id="7143387926525490587" at="48,0,51,0">
+        <var name="owner" id="7143387926525490587" />
+      </scope>
+      <scope id="7143387926527548001" at="103,0,106,0">
+        <var name="thisElement" id="7143387926527548001" />
+      </scope>
+      <scope id="7143387926528594882" at="137,0,140,0">
+        <var name="thisElement" id="7143387926528594882" />
+      </scope>
+      <scope id="7143387926525500312" at="41,0,45,0" />
+      <scope id="7143387926525490587" at="52,0,56,0" />
+      <scope id="7143387926525541084" at="67,0,71,0" />
+      <scope id="7143387926525541084" at="72,0,76,0">
+        <var name="message" id="7143387926525541084" />
+      </scope>
+      <scope id="7143387926527578382" at="78,0,82,0">
+        <var name="message" id="7143387926527578382" />
+      </scope>
+      <scope id="7143387926527568983" at="83,0,87,0" />
+      <scope id="7143387926527568983" at="88,0,92,0">
+        <var name="message" id="7143387926527568983" />
+      </scope>
+      <scope id="7143387926527585320" at="93,0,97,0" />
+      <scope id="7143387926527585320" at="98,0,102,0">
+        <var name="message" id="7143387926527585320" />
+      </scope>
+      <scope id="7143387926528594893" at="107,0,111,0" />
+      <scope id="7143387926528594893" at="112,0,116,0">
+        <var name="message" id="7143387926528594893" />
+      </scope>
+      <scope id="7143387926528594901" at="117,0,121,0" />
+      <scope id="7143387926528594901" at="122,0,126,0">
+        <var name="message" id="7143387926528594901" />
+      </scope>
+      <scope id="7143387926528594888" at="127,0,131,0" />
+      <scope id="7143387926528594888" at="132,0,136,0">
+        <var name="message" id="7143387926528594888" />
+      </scope>
+      <scope id="7143387926525524642" at="64,9,144,11">
+        <var name="checker" id="7143387926525524642" />
+        <var name="message" id="7143387926525524642" />
+        <var name="thisElement" id="7143387926525524642" />
+      </scope>
+      <scope id="7143387926525500312" at="59,30,145,9">
+        <var name="descendants" id="7143387926528584403" />
+        <var name="editorComponent" id="7143387926525503279" />
+      </scope>
+      <scope id="7143387926525500312" at="57,47,146,9" />
+      <scope id="7143387926525500312" at="57,0,148,0" />
+      <unit id="7143387926525541084" at="66,176,66,217" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$1$1$1" />
+      <unit id="7143387926527578382" at="76,42,76,75" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$1$2$1" />
+      <unit id="7143387926527568983" at="82,41,82,73" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$1$3$1" />
+      <unit id="7143387926527585320" at="92,49,92,89" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$1$4$1" />
+      <unit id="7143387926528594893" at="106,132,106,173" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$2$1$1" />
+      <unit id="7143387926528594901" at="116,50,116,91" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$2$2$1" />
+      <unit id="7143387926528594888" at="126,52,126,95" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$2$3$1" />
+      <unit id="7143387926527578382" at="76,17,82,11" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$1$2" />
+      <unit id="7143387926525541084" at="66,143,76,11" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$1$1" />
+      <unit id="7143387926527568983" at="82,17,92,11" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$1$3" />
+      <unit id="7143387926527585320" at="92,17,102,11" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$1$4" />
+      <unit id="7143387926528594893" at="106,99,116,11" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$2$1" />
+      <unit id="7143387926528594901" at="116,17,126,11" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$2$2" />
+      <unit id="7143387926528594888" at="126,17,136,11" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$2$3" />
+      <unit id="7143387926528594882" at="106,17,140,11" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$2" />
+      <unit id="7143387926527548001" at="66,61,106,11" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody$1" />
+      <unit id="7143387926525490587" at="46,0,150,0" name="test.de.slisson.mps.tables.TableStructure_Test$TestBody" />
+      <unit id="7143387926525490587" at="32,0,151,0" name="test.de.slisson.mps.tables.TableStructure_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/7172636034964592580">
+    <file name="DecisionTable_Nested_InsertColumn_Test.java">
+      <node id="7172636034964592580" at="19,51,20,60" concept="11" />
+      <node id="7172636034964592580" at="24,73,25,36" concept="2" />
+      <node id="7172636034964592580" at="30,52,31,19" concept="11" />
+      <node id="7172636034964592580" at="35,51,36,72" concept="2" />
+      <node id="7172636034964618385" at="36,72,37,69" concept="2" />
+      <node id="7172636034964592580" at="16,0,18,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="7172636034964592580" at="19,0,22,0" concept="1" trace="DecisionTable_Nested_InsertColumn_Test#()V" />
+      <node id="7172636034964592580" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7172636034964592580" at="23,0,27,0" concept="4" trace="test_DecisionTable_Nested_InsertColumn#()V" />
+      <node id="7172636034964592580" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7172636034964592580" at="19,51,20,60" />
+      <scope id="7172636034964592580" at="24,73,25,36" />
+      <scope id="7172636034964592580" at="30,52,31,19" />
+      <scope id="7172636034964592580" at="35,51,37,69" />
+      <scope id="7172636034964592580" at="19,0,22,0" />
+      <scope id="7172636034964592580" at="30,0,33,0">
+        <var name="owner" id="7172636034964592580" />
+      </scope>
+      <scope id="7172636034964592580" at="23,0,27,0" />
+      <scope id="7172636034964592580" at="34,0,39,0" />
+      <unit id="7172636034964592580" at="28,0,40,0" name="test.de.slisson.mps.tables.DecisionTable_Nested_InsertColumn_Test$TestBody" />
+      <unit id="7172636034964592580" at="14,0,41,0" name="test.de.slisson.mps.tables.DecisionTable_Nested_InsertColumn_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/7589464173035841526">
+    <file name="Requirements_SelectRow_FromDescription_Test.java">
+      <node id="7589464173035841526" at="27,56,28,60" concept="11" />
+      <node id="7589464173035841526" at="32,78,33,36" concept="2" />
+      <node id="7589464173035841526" at="38,52,39,19" concept="11" />
+      <node id="7589464173035841526" at="43,51,44,53" concept="2" />
+      <node id="7589464173035841592" at="44,53,45,71" concept="2" />
+      <node id="7589464173035892755" at="45,71,46,71" concept="2" />
+      <node id="7589464173035893218" at="46,71,47,71" concept="2" />
+      <node id="7589464173035893687" at="47,71,48,71" concept="2" />
+      <node id="7589464173035857062" at="48,71,49,0" concept="8" />
+      <node id="7589464173035841580" at="49,0,50,85" concept="5" />
+      <node id="7589464173036656258" at="50,85,51,92" concept="5" />
+      <node id="7589464173036671351" at="51,92,52,87" concept="5" />
+      <node id="7589464173036688551" at="52,87,53,51" concept="5" />
+      <node id="7437665105779552954" at="53,51,54,93" concept="2" />
+      <node id="7589464173036694311" at="54,93,55,0" concept="8" />
+      <node id="7589464173035841526" at="60,0,61,0" concept="9" trace="Requirement$ZC" />
+      <node id="7589464173035841526" at="24,0,26,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="7589464173035841526" at="27,0,30,0" concept="1" trace="Requirements_SelectRow_FromDescription_Test#()V" />
+      <node id="7589464173035841526" at="38,0,41,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7589464173035841526" at="31,0,35,0" concept="4" trace="test_Requirements_SelectRow_FromDescription#()V" />
+      <node id="7589464173035841526" at="42,0,57,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7589464173035841526" at="27,56,28,60" />
+      <scope id="7589464173035841526" at="32,78,33,36" />
+      <scope id="7589464173035841526" at="38,52,39,19" />
+      <scope id="7589464173035841526" at="27,0,30,0" />
+      <scope id="7589464173035841526" at="38,0,41,0">
+        <var name="owner" id="7589464173035841526" />
+      </scope>
+      <scope id="7589464173035841526" at="31,0,35,0" />
+      <scope id="7589464173035841526" at="43,51,55,0">
+        <var name="selectedCell" id="7589464173036671352" />
+        <var name="selectedNode" id="7589464173036688552" />
+        <var name="selection" id="7589464173036656259" />
+        <var name="selectionManager" id="7589464173035841581" />
+      </scope>
+      <scope id="7589464173035841526" at="42,0,57,0" />
+      <unit id="7589464173035841526" at="59,0,62,0" name="test.de.slisson.mps.tables.Requirements_SelectRow_FromDescription_Test$CONCEPTS" />
+      <unit id="7589464173035841526" at="36,0,58,0" name="test.de.slisson.mps.tables.Requirements_SelectRow_FromDescription_Test$TestBody" />
+      <unit id="7589464173035841526" at="22,0,63,0" name="test.de.slisson.mps.tables.Requirements_SelectRow_FromDescription_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/7589464173036833656">
+    <file name="Requirements_SelectRow_FromRowEnd_Test.java">
+      <node id="7589464173036833656" at="35,51,36,60" concept="11" />
+      <node id="7589464173036833656" at="40,73,41,36" concept="2" />
+      <node id="7589464173036833656" at="46,52,47,19" concept="11" />
+      <node id="7589464173036833656" at="51,51,52,53" concept="2" />
+      <node id="7589464173036836893" at="52,53,53,26" concept="5" />
+      <node id="7589464173036836896" at="53,26,54,24" concept="5" />
+      <node id="7589464173036836899" at="54,24,55,16" concept="5" />
+      <node id="7589464173036836902" at="55,16,56,52" concept="2" />
+      <node id="7589464173036836908" at="56,52,57,87" concept="2" />
+      <node id="7589464173036836916" at="57,87,58,29" concept="2" />
+      <node id="7589464173036836922" at="58,29,59,0" concept="8" />
+      <node id="7589464173036841445" at="59,0,60,40" concept="7" />
+      <node id="7589464173036836923" at="60,40,61,153" concept="5" />
+      <node id="7589464173036836970" at="61,153,62,91" concept="5" />
+      <node id="5788863950646621892" at="62,91,63,91" concept="2" />
+      <node id="7589464173036836340" at="63,91,64,0" concept="8" />
+      <node id="7589464173037023726" at="64,0,65,77" concept="2" />
+      <node id="7589464173037022545" at="65,77,66,0" concept="8" />
+      <node id="7589464173036833673" at="66,0,67,92" concept="5" />
+      <node id="7589464173036833681" at="67,92,68,87" concept="5" />
+      <node id="7589464173036833689" at="68,87,69,51" concept="5" />
+      <node id="7437665105778586655" at="69,51,70,93" concept="2" />
+      <node id="7589464173036833700" at="70,93,71,0" concept="8" />
+      <node id="7589464173036833656" at="76,0,77,0" concept="9" trace="Requirement$ZC" />
+      <node id="7589464173036833656" at="32,0,34,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="7589464173036833656" at="35,0,38,0" concept="1" trace="Requirements_SelectRow_FromRowEnd_Test#()V" />
+      <node id="7589464173036833656" at="46,0,49,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7589464173036833656" at="39,0,43,0" concept="4" trace="test_Requirements_SelectRow_FromRowEnd#()V" />
+      <node id="7589464173036833656" at="50,0,73,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7589464173036833656" at="35,51,36,60" />
+      <scope id="7589464173036833656" at="40,73,41,36" />
+      <scope id="7589464173036833656" at="46,52,47,19" />
+      <scope id="7589464173036833656" at="35,0,38,0" />
+      <scope id="7589464173036833656" at="46,0,49,0">
+        <var name="owner" id="7589464173036833656" />
+      </scope>
+      <scope id="7589464173036833656" at="39,0,43,0" />
+      <scope id="7589464173036833656" at="51,51,71,0">
+        <var name="grid" id="7589464173036836900" />
+        <var name="rootCell" id="7589464173036836894" />
+        <var name="rowEndCell" id="7589464173036836924" />
+        <var name="selectedCell" id="7589464173036833682" />
+        <var name="selectedNode" id="7589464173036833690" />
+        <var name="selection" id="7589464173036833674" />
+        <var name="selectionManager" id="7589464173036836971" />
+        <var name="table" id="7589464173036836897" />
+      </scope>
+      <scope id="7589464173036833656" at="50,0,73,0" />
+      <unit id="7589464173036833656" at="75,0,78,0" name="test.de.slisson.mps.tables.Requirements_SelectRow_FromRowEnd_Test$CONCEPTS" />
+      <unit id="7589464173036833656" at="44,0,74,0" name="test.de.slisson.mps.tables.Requirements_SelectRow_FromRowEnd_Test$TestBody" />
+      <unit id="7589464173036833656" at="30,0,79,0" name="test.de.slisson.mps.tables.Requirements_SelectRow_FromRowEnd_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/7589464173037045129">
+    <file name="Requirements_SelectRow_FromRowEnd_Annotated_Test.java">
+      <node id="7589464173037045129" at="35,61,36,60" concept="11" />
+      <node id="7589464173037045129" at="40,83,41,36" concept="2" />
+      <node id="7589464173037045129" at="46,52,47,19" concept="11" />
+      <node id="7589464173037045129" at="51,51,52,53" concept="2" />
+      <node id="7589464173037045131" at="52,53,53,26" concept="5" />
+      <node id="7589464173037045134" at="53,26,54,24" concept="5" />
+      <node id="7589464173037045137" at="54,24,55,16" concept="5" />
+      <node id="7589464173037045140" at="55,16,56,52" concept="2" />
+      <node id="7589464173037045146" at="56,52,57,87" concept="2" />
+      <node id="7589464173037045154" at="57,87,58,29" concept="2" />
+      <node id="7589464173037045160" at="58,29,59,0" concept="8" />
+      <node id="7589464173037045161" at="59,0,60,40" concept="7" />
+      <node id="7589464173037045163" at="60,40,61,153" concept="5" />
+      <node id="7589464173037045184" at="61,153,62,91" concept="5" />
+      <node id="5788863950646630010" at="62,91,63,91" concept="2" />
+      <node id="7589464173037045196" at="63,91,64,0" concept="8" />
+      <node id="7589464173037045197" at="64,0,65,77" concept="2" />
+      <node id="7589464173037045199" at="65,77,66,0" concept="8" />
+      <node id="7589464173037045200" at="66,0,67,92" concept="5" />
+      <node id="7589464173037045208" at="67,92,68,87" concept="5" />
+      <node id="7589464173037045216" at="68,87,69,51" concept="5" />
+      <node id="7437665105778592382" at="69,51,70,93" concept="2" />
+      <node id="7589464173037045227" at="70,93,71,0" concept="8" />
+      <node id="7589464173037045129" at="76,0,77,0" concept="9" trace="Requirement$ZC" />
+      <node id="7589464173037045129" at="32,0,34,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="7589464173037045129" at="35,0,38,0" concept="1" trace="Requirements_SelectRow_FromRowEnd_Annotated_Test#()V" />
+      <node id="7589464173037045129" at="46,0,49,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7589464173037045129" at="39,0,43,0" concept="4" trace="test_Requirements_SelectRow_FromRowEnd_Annotated#()V" />
+      <node id="7589464173037045129" at="50,0,73,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7589464173037045129" at="35,61,36,60" />
+      <scope id="7589464173037045129" at="40,83,41,36" />
+      <scope id="7589464173037045129" at="46,52,47,19" />
+      <scope id="7589464173037045129" at="35,0,38,0" />
+      <scope id="7589464173037045129" at="46,0,49,0">
+        <var name="owner" id="7589464173037045129" />
+      </scope>
+      <scope id="7589464173037045129" at="39,0,43,0" />
+      <scope id="7589464173037045129" at="51,51,71,0">
+        <var name="grid" id="7589464173037045138" />
+        <var name="rootCell" id="7589464173037045132" />
+        <var name="rowEndCell" id="7589464173037045164" />
+        <var name="selectedCell" id="7589464173037045209" />
+        <var name="selectedNode" id="7589464173037045217" />
+        <var name="selection" id="7589464173037045201" />
+        <var name="selectionManager" id="7589464173037045185" />
+        <var name="table" id="7589464173037045135" />
+      </scope>
+      <scope id="7589464173037045129" at="50,0,73,0" />
+      <unit id="7589464173037045129" at="75,0,78,0" name="test.de.slisson.mps.tables.Requirements_SelectRow_FromRowEnd_Annotated_Test$CONCEPTS" />
+      <unit id="7589464173037045129" at="44,0,74,0" name="test.de.slisson.mps.tables.Requirements_SelectRow_FromRowEnd_Annotated_Test$TestBody" />
+      <unit id="7589464173037045129" at="30,0,79,0" name="test.de.slisson.mps.tables.Requirements_SelectRow_FromRowEnd_Annotated_Test" />
+    </file>
+  </root>
+</debug-info>
+

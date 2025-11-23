@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="cy74xx69z08itpq1gpbxmn7bond1sy8">
+  <files names="DecisionTable_Nested_InsertColumn_Test.java:Requirements_AddRequirement_Annotated_Test.java:Requirements_AddRequirement_Test.java:Requirements_SelectRow_FromDescription_Test.java:Requirements_SelectRow_FromRowEnd_Annotated_Test.java:Requirements_SelectRow_FromRowEnd_Test.java:StateMachineCopyPaste_Test.java:Statemachine_CreateTransition_Test.java:Statemachine_InsertEvent_Test.java:Statemachine_InsertState_Test.java:TableAction_DeleteRow_Test.java:TableAction_InsertRowAfter_Test.java:TableAction_InsertRowBefore_Test.java:TableStructure_Test.java" />
+</product>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="77hjmtsic05uhu9bt5xfpb44v6hks9n">
+  <files names="ConstraintsAspectDescriptor.java:FloatLiteral_Constraints.java:LocalVariableDeclaration_Constraints.java:StringLiteral_Constraints.java:TEST_OptionalWithoutText_Reference_Constraints.java:VariableDeclaration_Constraints.java:WrapStmtAncestorWhitelisting_Constraints.java:WrapStmtAncestor_Constraints.java:WrapStmtParentWhitelisting_Constraints.java:WrapStmtParent_Constraints.java" />
+</product>
+

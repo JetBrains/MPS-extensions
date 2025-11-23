@@ -14,7 +14,7 @@ plugins {
     id("com.github.breadmoirai.github-release") version "2.5.2"
     id("maven-publish")
     id("base")
-    id("de.itemis.mps.gradle.launcher") version "2.7.0.+"
+    id("de.itemis.mps.gradle.launcher") version "2.8.0.+"
     id("org.cyclonedx.bom") version "2.4.1"
 
     id("com.specificlanguages.mps") version "2.0.0-pre4"

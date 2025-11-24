@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="MigrationDescriptor.java">
+      <unit at="11,0,17,0" name="com.mbeddr.mpsutil.grammarcells.migration.MigrationDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:51ecb615-2875-4f49-92db-e285f9ef1eba(com.mbeddr.mpsutil.grammarcells.migration)/2640121693012583198">
+    <file name="AddLangCoreDependency.java">
+      <node id="2640121693012583198" at="28,0,29,0" concept="2" trace="description" />
+      <node id="2640121693012583198" at="29,30,30,23" concept="7" />
+      <node id="2640121693012583198" at="33,33,34,16" concept="7" />
+      <node id="2640121693012583198" at="36,41,37,17" concept="1" />
+      <node id="2640121693012583198" at="37,17,38,16" concept="7" />
+      <node id="7956405648081251721" at="42,160,43,107" concept="6" />
+      <node id="7956405648081267609" at="44,236,45,102" concept="1" />
+      <node id="2640121693012583198" at="50,50,51,152" concept="7" />
+      <node id="7956405648081271437" at="54,79,55,63" concept="6" />
+      <node id="7956405648081271437" at="55,63,56,86" concept="6" />
+      <node id="7956405648081271437" at="56,86,57,60" concept="1" />
+      <node id="7956405648081271437" at="58,5,59,95" concept="6" />
+      <node id="7956405648081271437" at="59,95,60,115" concept="1" />
+      <node id="7956405648081271437" at="61,5,62,213" concept="1" />
+      <node id="7956405648081271437" at="62,213,63,26" concept="7" />
+      <node id="2640121693012583198" at="67,0,68,0" concept="8" trace="IActionGeneratingCell$DN" />
+      <node id="2640121693012583198" at="68,0,69,0" concept="8" trace="EditorComponentDeclaration$WM" />
+      <node id="2640121693012583198" at="69,0,70,0" concept="8" trace="CellModel_Constant$4e" />
+      <node id="2640121693012583198" at="73,0,74,0" concept="8" trace="name$MnvL" />
+      <node id="2640121693012583198" at="74,0,75,0" concept="8" trace="text$PIv7" />
+      <node id="2640121693012583198" at="78,0,79,0" concept="8" trace="cellModel$L8Uc" />
+      <node id="2640121693012583198" at="79,0,80,0" concept="8" trace="conceptDeclaration$HJmJ" />
+      <node id="2640121693012583198" at="29,0,32,0" concept="5" trace="getCaption#()Ljava/lang/String;" />
+      <node id="2640121693011333025" at="43,107,46,9" concept="4" />
+      <node id="2640121693012583198" at="50,0,53,0" concept="5" trace="getReference#()Ljetbrains/mps/lang/migration/runtime/base/MigrationScriptReference;" />
+      <node id="2640121693012583198" at="32,0,36,0" concept="5" trace="isRerunnable#()Z" />
+      <node id="2640121693012583198" at="36,0,40,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/module/SModule;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7956405648081271437" at="57,60,61,5" concept="0" />
+      <node id="2640121693011292043" at="41,40,47,7" concept="4" />
+      <node id="2640121693011284129" at="40,42,48,5" concept="3" />
+      <node id="2640121693012583198" at="40,0,50,0" concept="5" trace="doExecute#(Lorg/jetbrains/mps/openapi/module/SModule;)V" />
+      <node id="7956405648081271437" at="54,0,65,0" concept="9" trace="createEditorComponentDeclaration_676p7g_a0a0a1a0a0a6#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="2640121693012583198" at="29,30,30,23" />
+      <scope id="2640121693012583198" at="33,33,34,16" />
+      <scope id="2640121693011333071" at="44,236,45,102" />
+      <scope id="2640121693012583198" at="50,50,51,152" />
+      <scope id="2640121693012583198" at="36,41,38,16" />
+      <scope id="7956405648081271437" at="58,5,60,115">
+        <var name="n1" id="7956405648081271437" />
+      </scope>
+      <scope id="2640121693012583198" at="29,0,32,0" />
+      <scope id="2640121693012583198" at="50,0,53,0" />
+      <scope id="2640121693012583198" at="32,0,36,0" />
+      <scope id="2640121693012583198" at="36,0,40,0">
+        <var name="m" id="2640121693012583198" />
+      </scope>
+      <scope id="2640121693011292045" at="42,160,46,9">
+        <var name="dependencyModules" id="7956405648081251722" />
+      </scope>
+      <scope id="2640121693011284131" at="41,40,47,7" />
+      <scope id="2640121693011284129" at="40,42,48,5">
+        <var name="model" id="2640121693011284132" />
+      </scope>
+      <scope id="2640121693012583198" at="40,42,48,5" />
+      <scope id="7956405648081271437" at="54,79,63,26">
+        <var name="facade" id="7956405648081271437" />
+        <var name="n0" id="7956405648081271437" />
+      </scope>
+      <scope id="2640121693012583198" at="40,0,50,0">
+        <var name="m" id="2640121693012583198" />
+      </scope>
+      <scope id="7956405648081271437" at="54,0,65,0" />
+      <unit id="2640121693012583198" at="72,0,76,0" name="com.mbeddr.mpsutil.grammarcells.migration.AddLangCoreDependency$PROPS" />
+      <unit id="2640121693012583198" at="77,0,81,0" name="com.mbeddr.mpsutil.grammarcells.migration.AddLangCoreDependency$LINKS" />
+      <unit id="2640121693012583198" at="66,0,71,0" name="com.mbeddr.mpsutil.grammarcells.migration.AddLangCoreDependency$CONCEPTS" />
+      <unit id="2640121693012583198" at="27,0,82,0" name="com.mbeddr.mpsutil.grammarcells.migration.AddLangCoreDependency" />
+    </file>
+  </root>
+  <root nodeRef="r:51ecb615-2875-4f49-92db-e285f9ef1eba(com.mbeddr.mpsutil.grammarcells.migration)/2694540627565413950">
+    <file name="ChangeWrapperCell_DescriptionTextToGenericVersion.java">
+      <node id="2694540627565413950" at="20,0,21,0" concept="2" trace="description" />
+      <node id="2694540627565413950" at="21,30,22,23" concept="7" />
+      <node id="2694540627565413950" at="25,33,26,16" concept="7" />
+      <node id="2694540627565413950" at="28,41,29,17" concept="1" />
+      <node id="2694540627565413950" at="29,17,30,16" concept="7" />
+      <node id="2694540627565484095" at="35,157,36,225" concept="1" />
+      <node id="2694540627565492410" at="36,225,37,100" concept="1" />
+      <node id="2694540627565413950" at="42,50,43,152" concept="7" />
+      <node id="2694540627565501920" at="46,83,47,80" concept="6" />
+      <node id="2694540627565501920" at="47,80,48,79" concept="1" />
+      <node id="2694540627565501920" at="48,79,49,26" concept="7" />
+      <node id="2694540627565413950" at="53,0,54,0" concept="8" trace="WrapperCell$wv" />
+      <node id="2694540627565413950" at="54,0,55,0" concept="8" trace="Cell_DescriptionText$Rl" />
+      <node id="2694540627565413950" at="55,0,56,0" concept="8" trace="StatementList$m_" />
+      <node id="2694540627565413950" at="59,0,60,0" concept="8" trace="descriptionText$ugUz" />
+      <node id="2694540627565413950" at="60,0,61,0" concept="8" trace="descriptionText_old$Ijpf" />
+      <node id="2694540627565413950" at="61,0,62,0" concept="8" trace="body$e68K" />
+      <node id="2694540627565413950" at="21,0,24,0" concept="5" trace="getCaption#()Ljava/lang/String;" />
+      <node id="2694540627565413950" at="42,0,45,0" concept="5" trace="getReference#()Ljetbrains/mps/lang/migration/runtime/base/MigrationScriptReference;" />
+      <node id="2694540627565413950" at="24,0,28,0" concept="5" trace="isRerunnable#()Z" />
+      <node id="2694540627565413950" at="28,0,32,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/module/SModule;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="2694540627565468415" at="34,102,38,9" concept="4" />
+      <node id="2694540627565501920" at="46,0,51,0" concept="9" trace="createCell_DescriptionText_lubw1x_a0a0a0a0a0a0a6#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="2694540627565426297" at="33,40,39,9" concept="1" />
+      <node id="2694540627565421635" at="32,42,40,5" concept="3" />
+      <node id="2694540627565413950" at="32,0,42,0" concept="5" trace="doExecute#(Lorg/jetbrains/mps/openapi/module/SModule;)V" />
+      <scope id="2694540627565413950" at="21,30,22,23" />
+      <scope id="2694540627565413950" at="25,33,26,16" />
+      <scope id="2694540627565413950" at="42,50,43,152" />
+      <scope id="2694540627565413950" at="28,41,30,16" />
+      <scope id="2694540627565468417" at="35,157,37,100" />
+      <scope id="2694540627565413950" at="21,0,24,0" />
+      <scope id="2694540627565413950" at="42,0,45,0" />
+      <scope id="2694540627565501920" at="46,83,49,26">
+        <var name="n0" id="2694540627565501920" />
+      </scope>
+      <scope id="2694540627565413950" at="24,0,28,0" />
+      <scope id="2694540627565413950" at="28,0,32,0">
+        <var name="m" id="2694540627565413950" />
+      </scope>
+      <scope id="2694540627565458069" at="34,102,38,9" />
+      <scope id="2694540627565501920" at="46,0,51,0">
+        <var name="p0" id="2694540627565501920" />
+      </scope>
+      <scope id="2694540627565421637" at="33,40,39,9" />
+      <scope id="2694540627565413950" at="32,42,40,5" />
+      <scope id="2694540627565421635" at="32,42,40,5">
+        <var name="model" id="2694540627565421638" />
+      </scope>
+      <scope id="2694540627565413950" at="32,0,42,0">
+        <var name="m" id="2694540627565413950" />
+      </scope>
+      <unit id="2694540627565413950" at="52,0,57,0" name="com.mbeddr.mpsutil.grammarcells.migration.ChangeWrapperCell_DescriptionTextToGenericVersion$CONCEPTS" />
+      <unit id="2694540627565413950" at="58,0,63,0" name="com.mbeddr.mpsutil.grammarcells.migration.ChangeWrapperCell_DescriptionTextToGenericVersion$LINKS" />
+      <unit id="2694540627565413950" at="19,0,64,0" name="com.mbeddr.mpsutil.grammarcells.migration.ChangeWrapperCell_DescriptionTextToGenericVersion" />
+    </file>
+  </root>
+</debug-info>
+

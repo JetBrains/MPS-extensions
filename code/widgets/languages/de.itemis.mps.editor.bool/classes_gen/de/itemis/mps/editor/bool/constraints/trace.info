@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,34,0" name="de.itemis.mps.editor.bool.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:366bfa49-2b4f-4c0f-a437-74dc878b9869(de.itemis.mps.editor.bool.constraints)/981761841404832747">
+    <file name="CellModel_Checkbox_Constraints.java">
+      <node id="981761841404832747" at="29,92,30,55" concept="7" />
+      <node id="1213104846626" at="30,55,31,26" concept="1" />
+      <node id="1213104846626" at="35,54,36,68" concept="7" />
+      <node id="1213104846626" at="43,61,44,132" concept="4" />
+      <node id="6646476627295592424" at="47,78,48,139" concept="3" />
+      <node id="6646476627295592433" at="48,139,49,130" concept="3" />
+      <node id="6646476627295592439" at="49,130,50,344" concept="4" />
+      <node id="6646476627295592784" at="54,77,55,32" concept="3" />
+      <node id="6646476627295592784" at="55,32,56,233" concept="3" />
+      <node id="6646476627295592784" at="56,233,57,36" concept="1" />
+      <node id="6646476627295592784" at="57,36,58,140" concept="1" />
+      <node id="6646476627295592784" at="58,140,59,149" concept="1" />
+      <node id="6646476627295592784" at="59,149,60,234" concept="1" />
+      <node id="6646476627295592784" at="60,234,61,26" concept="4" />
+      <node id="981761841404832747" at="66,0,67,0" concept="5" trace="CellModel_Checkbox$Sd" />
+      <node id="981761841404832747" at="67,0,68,0" concept="5" trace="BaseEditorComponent$49" />
+      <node id="981761841404832747" at="71,0,72,0" concept="5" trace="relationDeclaration$E2hc" />
+      <node id="981761841404832747" at="72,0,73,0" concept="5" trace="dataType$5j5Y" />
+      <node id="1213104846626" at="35,0,38,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="981761841404832747" at="29,0,33,0" concept="0" trace="CellModel_Checkbox_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="1213104846626" at="42,0,46,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1213104846626" at="46,0,52,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6646476627295592784" at="54,0,63,0" concept="6" trace="_quotation_createNode_glszdl_a0a0a0a0a2a1a0a0a1c#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1213104846626" at="40,54,52,8" concept="4" />
+      <node id="1213104846626" at="38,0,54,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="1213104846626" at="35,54,36,68" />
+      <scope id="1213104846626" at="43,61,44,132" />
+      <scope id="981761841404832747" at="29,92,31,26" />
+      <scope id="1213104846626" at="35,0,38,0">
+        <var name="container" id="1213104846626" />
+      </scope>
+      <scope id="1213104846626" at="47,78,50,344">
+        <var name="editedConcept" id="6646476627295592434" />
+        <var name="editorComponent" id="6646476627295592425" />
+      </scope>
+      <scope id="981761841404832747" at="29,0,33,0">
+        <var name="initContext" id="981761841404832747" />
+      </scope>
+      <scope id="1213104846626" at="42,0,46,0" />
+      <scope id="1213104846626" at="46,0,52,0">
+        <var name="_context" id="1213104846626" />
+      </scope>
+      <scope id="6646476627295592784" at="54,77,61,26">
+        <var name="nb" id="6646476627295592784" />
+        <var name="quotedNode_1" id="6646476627295592784" />
+      </scope>
+      <scope id="6646476627295592784" at="54,0,63,0" />
+      <scope id="1213104846626" at="40,54,52,8" />
+      <scope id="1213104846626" at="38,0,54,0" />
+      <unit id="981761841404832747" at="65,0,69,0" name="de.itemis.mps.editor.bool.constraints.CellModel_Checkbox_Constraints$CONCEPTS" />
+      <unit id="981761841404832747" at="70,0,74,0" name="de.itemis.mps.editor.bool.constraints.CellModel_Checkbox_Constraints$LINKS" />
+      <unit id="1213104846626" at="41,17,52,7" name="de.itemis.mps.editor.bool.constraints.CellModel_Checkbox_Constraints$RD1$1" />
+      <unit id="1213104846626" at="34,0,64,0" name="de.itemis.mps.editor.bool.constraints.CellModel_Checkbox_Constraints$RD1" />
+      <unit id="981761841404832747" at="28,0,75,0" name="de.itemis.mps.editor.bool.constraints.CellModel_Checkbox_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:366bfa49-2b4f-4c0f-a437-74dc878b9869(de.itemis.mps.editor.bool.constraints)/981761841404911278">
+    <file name="CellModel_BooleanText_Constraints.java">
+      <node id="981761841404911278" at="29,95,30,58" concept="7" />
+      <node id="981761841404911383" at="30,58,31,26" concept="1" />
+      <node id="981761841404911383" at="35,54,36,68" concept="7" />
+      <node id="981761841404911383" at="43,61,44,137" concept="4" />
+      <node id="6646476627295592794" at="47,78,48,139" concept="3" />
+      <node id="6646476627295592803" at="48,139,49,130" concept="3" />
+      <node id="6646476627295592809" at="49,130,50,344" concept="4" />
+      <node id="6646476627295593065" at="54,77,55,32" concept="3" />
+      <node id="6646476627295593065" at="55,32,56,233" concept="3" />
+      <node id="6646476627295593065" at="56,233,57,36" concept="1" />
+      <node id="6646476627295593065" at="57,36,58,140" concept="1" />
+      <node id="6646476627295593065" at="58,140,59,149" concept="1" />
+      <node id="6646476627295593065" at="59,149,60,234" concept="1" />
+      <node id="6646476627295593065" at="60,234,61,26" concept="4" />
+      <node id="981761841404911278" at="66,0,67,0" concept="5" trace="CellModel_BooleanText$w8" />
+      <node id="981761841404911278" at="67,0,68,0" concept="5" trace="BaseEditorComponent$49" />
+      <node id="981761841404911278" at="71,0,72,0" concept="5" trace="relationDeclaration$E2hc" />
+      <node id="981761841404911278" at="72,0,73,0" concept="5" trace="dataType$5j5Y" />
+      <node id="981761841404911383" at="35,0,38,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="981761841404911278" at="29,0,33,0" concept="0" trace="CellModel_BooleanText_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="981761841404911383" at="42,0,46,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="981761841404911383" at="46,0,52,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6646476627295593065" at="54,0,63,0" concept="6" trace="_quotation_createNode_80haai_a0a0a0a0a2a1a0a0a1c#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="981761841404911383" at="40,54,52,8" concept="4" />
+      <node id="981761841404911383" at="38,0,54,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="981761841404911383" at="35,54,36,68" />
+      <scope id="981761841404911383" at="43,61,44,137" />
+      <scope id="981761841404911278" at="29,95,31,26" />
+      <scope id="981761841404911383" at="35,0,38,0">
+        <var name="container" id="981761841404911383" />
+      </scope>
+      <scope id="981761841404911383" at="47,78,50,344">
+        <var name="editedConcept" id="6646476627295592804" />
+        <var name="editorComponent" id="6646476627295592795" />
+      </scope>
+      <scope id="981761841404911278" at="29,0,33,0">
+        <var name="initContext" id="981761841404911278" />
+      </scope>
+      <scope id="981761841404911383" at="42,0,46,0" />
+      <scope id="981761841404911383" at="46,0,52,0">
+        <var name="_context" id="981761841404911383" />
+      </scope>
+      <scope id="6646476627295593065" at="54,77,61,26">
+        <var name="nb" id="6646476627295593065" />
+        <var name="quotedNode_1" id="6646476627295593065" />
+      </scope>
+      <scope id="6646476627295593065" at="54,0,63,0" />
+      <scope id="981761841404911383" at="40,54,52,8" />
+      <scope id="981761841404911383" at="38,0,54,0" />
+      <unit id="981761841404911278" at="65,0,69,0" name="de.itemis.mps.editor.bool.constraints.CellModel_BooleanText_Constraints$CONCEPTS" />
+      <unit id="981761841404911278" at="70,0,74,0" name="de.itemis.mps.editor.bool.constraints.CellModel_BooleanText_Constraints$LINKS" />
+      <unit id="981761841404911383" at="41,17,52,7" name="de.itemis.mps.editor.bool.constraints.CellModel_BooleanText_Constraints$RD1$1" />
+      <unit id="981761841404911383" at="34,0,64,0" name="de.itemis.mps.editor.bool.constraints.CellModel_BooleanText_Constraints$RD1" />
+      <unit id="981761841404911278" at="28,0,75,0" name="de.itemis.mps.editor.bool.constraints.CellModel_BooleanText_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

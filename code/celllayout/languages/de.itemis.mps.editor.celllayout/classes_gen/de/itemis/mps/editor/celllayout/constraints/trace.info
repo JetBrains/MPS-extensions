@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,32,0" name="de.itemis.mps.editor.celllayout.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:8330d014-4b1a-4d1c-8c6a-7311b5074657(de.itemis.mps.editor.celllayout.constraints)/8000069645377097264">
+    <file name="FullWidthRootStyle_Constraints.java">
+      <node id="8000069645377097264" at="22,92,23,55" concept="9" />
+      <node id="8000069645377097264" at="26,127,27,128" concept="4" />
+      <node id="8000069645377097264" at="27,128,28,0" concept="6" />
+      <node id="8000069645377097264" at="29,55,30,71" concept="1" />
+      <node id="8000069645377097264" at="31,9,32,0" concept="6" />
+      <node id="8000069645377097264" at="32,0,33,22" concept="5" />
+      <node id="8000069645377193046" at="38,128,39,114" concept="4" />
+      <node id="8000069645377098025" at="39,114,40,201" concept="5" />
+      <node id="8000069645377097264" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="8000069645377097264" at="45,0,46,0" concept="7" trace="FullWidthRootStyle$TP" />
+      <node id="8000069645377097264" at="46,0,47,0" concept="7" trace="EditorCellModel$gN" />
+      <node id="8000069645377097264" at="50,0,51,0" concept="7" trace="cellModel$L8Uc" />
+      <node id="8000069645377097264" at="51,0,52,0" concept="7" trace="inspectedCellModel$WqhU" />
+      <node id="8000069645377097264" at="28,0,31,9" concept="2" />
+      <node id="8000069645377097264" at="38,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8000069645377097264" at="25,0,35,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8000069645377097264" at="23,55,35,7" concept="1" />
+      <node id="8000069645377097264" at="22,0,37,0" concept="0" trace="FullWidthRootStyle_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="8000069645377097264" at="29,55,30,71" />
+      <scope id="8000069645377097480" at="38,128,40,201">
+        <var name="editorCellmodel" id="8000069645377193047" />
+      </scope>
+      <scope id="8000069645377097264" at="38,0,42,0">
+        <var name="childConcept" id="8000069645377097264" />
+        <var name="link" id="8000069645377097264" />
+        <var name="node" id="8000069645377097264" />
+        <var name="parentNode" id="8000069645377097264" />
+      </scope>
+      <scope id="8000069645377097264" at="26,127,33,22">
+        <var name="result" id="8000069645377097264" />
+      </scope>
+      <scope id="8000069645377097264" at="25,0,35,0">
+        <var name="checkingNodeContext" id="8000069645377097264" />
+        <var name="context" id="8000069645377097264" />
+      </scope>
+      <scope id="8000069645377097264" at="22,92,35,7" />
+      <scope id="8000069645377097264" at="22,0,37,0">
+        <var name="initContext" id="8000069645377097264" />
+      </scope>
+      <unit id="8000069645377097264" at="44,0,48,0" name="de.itemis.mps.editor.celllayout.constraints.FullWidthRootStyle_Constraints$CONCEPTS" />
+      <unit id="8000069645377097264" at="49,0,53,0" name="de.itemis.mps.editor.celllayout.constraints.FullWidthRootStyle_Constraints$LINKS" />
+      <unit id="8000069645377097264" at="24,32,35,5" name="de.itemis.mps.editor.celllayout.constraints.FullWidthRootStyle_Constraints$1" />
+      <unit id="8000069645377097264" at="21,0,54,0" name="de.itemis.mps.editor.celllayout.constraints.FullWidthRootStyle_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="EditorAspectDescriptorImpl.java">
+      <unit at="12,0,21,0" name="de.slisson.mps.conditionalEditor.hints.editor.EditorAspectDescriptorImpl" />
+    </file>
+  </root>
+</debug-info>
+

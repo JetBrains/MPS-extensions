@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:748eba57-285a-4bef-8d61-fdc378bdf275(de.itemis.mps.editor.diagram.runtime.coordinates)/5209642327081838454">
+    <file name="AffineTransformCoordinateSystem.java">
+      <node id="5209642327081838455" at="10,0,11,0" concept="2" trace="myParent" />
+      <node id="5209642327081838463" at="12,68,13,22" concept="1" />
+      <node id="5209642327081838474" at="16,49,17,58" concept="6" />
+      <node id="5209642327082647694" at="21,52,22,155" concept="9" />
+      <node id="5209642327081838487" at="24,9,25,83" concept="6" />
+      <node id="5209642327081838496" at="26,50,27,37" concept="9" />
+      <node id="5209642327081838509" at="31,57,32,72" concept="6" />
+      <node id="5209642327081838517" at="35,138,36,42" concept="5" />
+      <node id="5209642327081838522" at="36,42,37,97" concept="1" />
+      <node id="5209642327081838535" at="37,97,38,78" concept="6" />
+      <node id="5209642327081838459" at="12,0,15,0" concept="0" trace="AffineTransformCoordinateSystem#(Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinateSystem;)V" />
+      <node id="5209642327081838470" at="16,0,19,0" concept="4" trace="getTransformation#()Ljava/awt/geom/AffineTransform;" />
+      <node id="5209642327082645269" at="20,58,23,5" concept="3" />
+      <node id="5209642327081838503" at="31,0,34,0" concept="4" trace="toLocal#(Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;)Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;" />
+      <node id="5209642327081838485" at="23,5,28,5" concept="10" />
+      <node id="5209642327081838515" at="35,0,40,0" concept="8" trace="transform#(Ljava/awt/geom/AffineTransform;Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinateSystem;)Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;" />
+      <node id="5209642327081838479" at="20,0,30,0" concept="4" trace="toGlobal#(Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;)Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;" />
+      <scope id="5209642327081838462" at="12,68,13,22" />
+      <scope id="5209642327081838473" at="16,49,17,58" />
+      <scope id="5209642327082645272" at="21,52,22,155" />
+      <scope id="5209642327081838486" at="24,9,25,83" />
+      <scope id="5209642327081838495" at="26,50,27,37" />
+      <scope id="5209642327081838508" at="31,57,32,72" />
+      <scope id="5209642327081838494" at="26,5,28,5">
+        <var name="ex" id="5209642327081838500" />
+      </scope>
+      <scope id="5209642327081838459" at="12,0,15,0">
+        <var name="parent" id="5209642327081838467" />
+      </scope>
+      <scope id="5209642327081838470" at="16,0,19,0" />
+      <scope id="5209642327081838503" at="31,0,34,0">
+        <var name="coordinates" id="5209642327081838504" />
+      </scope>
+      <scope id="5209642327081838516" at="35,138,38,78">
+        <var name="result" id="5209642327081838518" />
+      </scope>
+      <scope id="5209642327081838515" at="35,0,40,0">
+        <var name="coordinates" id="5209642327081838547" />
+        <var name="newCoordinateSystem" id="5209642327081838549" />
+        <var name="transformation" id="5209642327081838545" />
+      </scope>
+      <scope id="5209642327081838484" at="20,58,28,5" />
+      <scope id="5209642327081838479" at="20,0,30,0">
+        <var name="coordinates" id="5209642327081838482" />
+      </scope>
+      <unit id="5209642327081838454" at="9,0,41,0" name="de.itemis.mps.editor.diagram.runtime.coordinates.AffineTransformCoordinateSystem" />
+    </file>
+  </root>
+  <root nodeRef="r:748eba57-285a-4bef-8d61-fdc378bdf275(de.itemis.mps.editor.diagram.runtime.coordinates)/5209642327081838555">
+    <file name="Coordinates.java">
+      <node id="5209642327081838556" at="9,0,10,0" concept="2" trace="myX" />
+      <node id="5209642327081838559" at="10,0,11,0" concept="2" trace="myY" />
+      <node id="5209642327081838562" at="11,0,12,0" concept="2" trace="myCoordinateSystem" />
+      <node id="5209642327081838570" at="13,78,14,12" concept="1" />
+      <node id="5209642327081838574" at="14,12,15,12" concept="1" />
+      <node id="5209642327081838578" at="15,12,16,42" concept="1" />
+      <node id="5209642327081838593" at="19,24,20,15" concept="6" />
+      <node id="5209642327081838600" at="23,24,24,15" concept="6" />
+      <node id="5209642327081838607" at="27,50,28,30" concept="6" />
+      <node id="5209642327081838614" at="31,34,32,48" concept="6" />
+      <node id="5209642327081838589" at="19,0,22,0" concept="4" trace="getX#()D" />
+      <node id="5209642327081838596" at="23,0,26,0" concept="4" trace="getY#()D" />
+      <node id="5209642327081838603" at="27,0,30,0" concept="4" trace="getCoordinateSystem#()Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinateSystem;" />
+      <node id="5209642327081838610" at="31,0,34,0" concept="4" trace="toGlobal#()Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;" />
+      <node id="5209642327081838566" at="13,0,18,0" concept="0" trace="Coordinates#(DDLde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinateSystem;)V" />
+      <scope id="5209642327081838592" at="19,24,20,15" />
+      <scope id="5209642327081838599" at="23,24,24,15" />
+      <scope id="5209642327081838606" at="27,50,28,30" />
+      <scope id="5209642327081838613" at="31,34,32,48" />
+      <scope id="5209642327081838569" at="13,78,16,42" />
+      <scope id="5209642327081838589" at="19,0,22,0" />
+      <scope id="5209642327081838596" at="23,0,26,0" />
+      <scope id="5209642327081838603" at="27,0,30,0" />
+      <scope id="5209642327081838610" at="31,0,34,0" />
+      <scope id="5209642327081838566" at="13,0,18,0">
+        <var name="coordinateSystem" id="5209642327081838586" />
+        <var name="x" id="5209642327081838582" />
+        <var name="y" id="5209642327081838584" />
+      </scope>
+      <unit id="5209642327081838555" at="7,0,35,0" name="de.itemis.mps.editor.diagram.runtime.coordinates.Coordinates" />
+    </file>
+  </root>
+  <root nodeRef="r:748eba57-285a-4bef-8d61-fdc378bdf275(de.itemis.mps.editor.diagram.runtime.coordinates)/5209642327081838622">
+    <file name="GlobalCoordinateSystem.java">
+      <node id="5209642327082475237" at="8,0,9,0" concept="7" trace="INSTANCE" />
+      <node id="5209642327081838631" at="10,58,11,23" concept="6" />
+      <node id="5209642327081838640" at="14,57,15,23" concept="6" />
+      <node id="5209642327081838625" at="10,0,13,0" concept="4" trace="toGlobal#(Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;)Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;" />
+      <node id="5209642327081838634" at="14,0,17,0" concept="4" trace="toLocal#(Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;)Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;" />
+      <scope id="5209642327081838630" at="10,58,11,23" />
+      <scope id="5209642327081838639" at="14,57,15,23" />
+      <scope id="5209642327081838625" at="10,0,13,0">
+        <var name="coordinates" id="5209642327081838628" />
+      </scope>
+      <scope id="5209642327081838634" at="14,0,17,0">
+        <var name="coordinates" id="5209642327081838635" />
+      </scope>
+      <unit id="5209642327081838622" at="6,0,19,0" name="de.itemis.mps.editor.diagram.runtime.coordinates.GlobalCoordinateSystem" />
+    </file>
+  </root>
+  <root nodeRef="r:748eba57-285a-4bef-8d61-fdc378bdf275(de.itemis.mps.editor.diagram.runtime.coordinates)/5209642327081838645">
+    <file name="ICoordinateSystem.java">
+      <node id="5209642327081838647" at="8,0,9,0" concept="4" trace="toGlobal#(Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;)Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;" />
+      <node id="5209642327081838653" at="9,0,10,0" concept="4" trace="toLocal#(Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;)Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;" />
+      <scope id="5209642327081838647" at="8,0,9,0">
+        <var name="coordinates" id="5209642327081838651" />
+      </scope>
+      <scope id="5209642327081838653" at="9,0,10,0">
+        <var name="coordinates" id="5209642327081838654" />
+      </scope>
+      <unit id="5209642327081838645" at="6,0,12,0" name="de.itemis.mps.editor.diagram.runtime.coordinates.ICoordinateSystem" />
+    </file>
+  </root>
+  <root nodeRef="r:748eba57-285a-4bef-8d61-fdc378bdf275(de.itemis.mps.editor.diagram.runtime.coordinates)/5209642327081838661">
+    <file name="ICoordinates.java">
+      <node id="5209642327081838662" at="7,0,8,0" concept="4" trace="getX#()D" />
+      <node id="5209642327081838666" at="8,0,9,0" concept="4" trace="getY#()D" />
+      <node id="5209642327081838670" at="9,0,10,0" concept="4" trace="getCoordinateSystem#()Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinateSystem;" />
+      <node id="5209642327081838674" at="10,0,11,0" concept="4" trace="toGlobal#()Lde/itemis/mps/editor/diagram/runtime/coordinates/ICoordinates;" />
+      <scope id="5209642327081838662" at="7,0,8,0" />
+      <scope id="5209642327081838666" at="8,0,9,0" />
+      <scope id="5209642327081838670" at="9,0,10,0" />
+      <scope id="5209642327081838674" at="10,0,11,0" />
+      <unit id="5209642327081838661" at="6,0,12,0" name="de.itemis.mps.editor.diagram.runtime.coordinates.ICoordinates" />
+    </file>
+  </root>
+</debug-info>
+

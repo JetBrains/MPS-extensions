@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="DataFlowAspectDescriptorImpl.java">
+      <unit at="15,0,38,0" name="de.itemis.mps.compare.pattern.dataFlow.DataFlowAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:448d98dc-b5c6-447d-9ad3-08b0729a1bc3(de.itemis.mps.compare.pattern.dataFlow)/235729594848834353">
+    <file name="PatternRefExpression_DataFlow.java">
+      <node id="235729594848834546" at="13,60,14,110" concept="0" />
+      <node id="235729594848834353" at="18,0,19,0" concept="2" trace="expression$sf3W" />
+      <node id="235729594848834353" at="13,0,16,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="235729594848834355" at="13,60,14,110" />
+      <scope id="235729594848834353" at="13,0,16,0">
+        <var name="_context" id="235729594848834353" />
+      </scope>
+      <unit id="235729594848834353" at="17,0,20,0" name="de.itemis.mps.compare.pattern.dataFlow.PatternRefExpression_DataFlow$LINKS" />
+      <unit id="235729594848834353" at="12,0,21,0" name="de.itemis.mps.compare.pattern.dataFlow.PatternRefExpression_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:448d98dc-b5c6-447d-9ad3-08b0729a1bc3(de.itemis.mps.compare.pattern.dataFlow)/235729594848842652">
+    <file name="Pattern_DataFlow.java">
+      <node id="235729594848842665" at="13,60,14,111" concept="0" />
+      <node id="235729594848842652" at="18,0,19,0" concept="2" trace="builderNode$HKL5" />
+      <node id="235729594848842652" at="13,0,16,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="235729594848842654" at="13,60,14,111" />
+      <scope id="235729594848842652" at="13,0,16,0">
+        <var name="_context" id="235729594848842652" />
+      </scope>
+      <unit id="235729594848842652" at="17,0,20,0" name="de.itemis.mps.compare.pattern.dataFlow.Pattern_DataFlow$LINKS" />
+      <unit id="235729594848842652" at="12,0,21,0" name="de.itemis.mps.compare.pattern.dataFlow.Pattern_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:448d98dc-b5c6-447d-9ad3-08b0729a1bc3(de.itemis.mps.compare.pattern.dataFlow)/235729594848843763">
+    <file name="PatternBuilderNode_DataFlow.java">
+      <node id="235729594848843777" at="14,60,15,152" concept="0" />
+      <node id="235729594848843763" at="19,0,20,0" concept="2" trace="values$5eOg" />
+      <node id="235729594848843763" at="14,0,17,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="235729594848843765" at="14,60,15,152" />
+      <scope id="235729594848843763" at="14,0,17,0">
+        <var name="_context" id="235729594848843763" />
+      </scope>
+      <unit id="235729594848843763" at="18,0,21,0" name="de.itemis.mps.compare.pattern.dataFlow.PatternBuilderNode_DataFlow$LINKS" />
+      <unit id="235729594848843763" at="13,0,22,0" name="de.itemis.mps.compare.pattern.dataFlow.PatternBuilderNode_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:448d98dc-b5c6-447d-9ad3-08b0729a1bc3(de.itemis.mps.compare.pattern.dataFlow)/235729594848857599">
+    <file name="IInitPart_DataFlow.java">
+      <node id="235729594848857622" at="13,60,14,110" concept="0" />
+      <node id="235729594848857599" at="18,0,19,0" concept="2" trace="expression$lu95" />
+      <node id="235729594848857599" at="13,0,16,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="235729594848857601" at="13,60,14,110" />
+      <scope id="235729594848857599" at="13,0,16,0">
+        <var name="_context" id="235729594848857599" />
+      </scope>
+      <unit id="235729594848857599" at="17,0,20,0" name="de.itemis.mps.compare.pattern.dataFlow.IInitPart_DataFlow$LINKS" />
+      <unit id="235729594848857599" at="12,0,21,0" name="de.itemis.mps.compare.pattern.dataFlow.IInitPart_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:448d98dc-b5c6-447d-9ad3-08b0729a1bc3(de.itemis.mps.compare.pattern.dataFlow)/235729594848864841">
+    <file name="PatternBuilderList_DataFlow.java">
+      <node id="235729594848864855" at="14,60,15,151" concept="0" />
+      <node id="235729594848864841" at="19,0,20,0" concept="2" trace="nodes$6$kv" />
+      <node id="235729594848864841" at="14,0,17,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="235729594848864843" at="14,60,15,151" />
+      <scope id="235729594848864841" at="14,0,17,0">
+        <var name="_context" id="235729594848864841" />
+      </scope>
+      <unit id="235729594848864841" at="18,0,21,0" name="de.itemis.mps.compare.pattern.dataFlow.PatternBuilderList_DataFlow$LINKS" />
+      <unit id="235729594848864841" at="13,0,22,0" name="de.itemis.mps.compare.pattern.dataFlow.PatternBuilderList_DataFlow" />
+    </file>
+  </root>
+</debug-info>
+

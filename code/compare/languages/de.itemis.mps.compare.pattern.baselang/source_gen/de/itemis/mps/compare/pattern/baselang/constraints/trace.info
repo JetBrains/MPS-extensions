@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,46,0" name="de.itemis.mps.compare.pattern.baselang.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)/6627678268389764159">
+    <file name="InitPartAccessorOperation_Constraints.java">
+      <node id="6627678268389764159" at="45,99,46,62" concept="11" />
+      <node id="6627678268390670986" at="46,62,47,26" concept="2" />
+      <node id="6627678268389764159" at="50,127,51,128" concept="6" />
+      <node id="6627678268389764159" at="51,128,52,0" concept="8" />
+      <node id="6627678268389764159" at="53,55,54,71" concept="2" />
+      <node id="6627678268389764159" at="55,9,56,0" concept="8" />
+      <node id="6627678268389764159" at="56,0,57,22" concept="7" />
+      <node id="6627678268390670986" at="63,54,64,53" concept="11" />
+      <node id="6627678268390670986" at="71,61,72,151" concept="7" />
+      <node id="2691011170768277061" at="75,78,76,76" concept="6" />
+      <node id="2691011170768277068" at="76,76,77,200" concept="6" />
+      <node id="2691011170768277081" at="78,208,79,138" concept="6" />
+      <node id="2691011170768277089" at="79,138,80,0" concept="8" />
+      <node id="2691011170768277090" at="80,0,81,101" concept="6" />
+      <node id="2691011170768277104" at="82,155,83,102" concept="6" />
+      <node id="2691011170768277112" at="84,33,85,75" concept="6" />
+      <node id="2691011170768277121" at="86,37,87,69" concept="2" />
+      <node id="2691011170768277127" at="87,69,88,65" concept="2" />
+      <node id="2691011170768277136" at="89,17,90,61" concept="2" />
+      <node id="2691011170768277149" at="92,13,93,0" concept="8" />
+      <node id="2691011170768277155" at="95,70,96,102" concept="2" />
+      <node id="2691011170768277186" at="99,11,100,56" concept="7" />
+      <node id="6768392667014054178" at="106,78,107,173" concept="6" />
+      <node id="6768392667014054187" at="107,173,108,191" concept="7" />
+      <node id="6768392667014054203" at="109,5,110,17" concept="7" />
+      <node id="6627678268389764159" at="112,0,113,0" concept="9" trace="canBeChildBreakingPoint" />
+      <node id="6627678268389764159" at="115,0,116,0" concept="9" trace="InitPartAccessorOperation$41" />
+      <node id="6627678268389764159" at="116,0,117,0" concept="9" trace="DotExpression$yW" />
+      <node id="6627678268389764159" at="117,0,118,0" concept="9" trace="MatchResultType$Ha" />
+      <node id="6627678268389764159" at="118,0,119,0" concept="9" trace="IInitPart$_A" />
+      <node id="6627678268389764159" at="122,0,123,0" concept="9" trace="part$Gnhf" />
+      <node id="6627678268389764159" at="123,0,124,0" concept="9" trace="pattern$jhEF" />
+      <node id="6627678268389764159" at="124,0,125,0" concept="9" trace="operand$w6IR" />
+      <node id="6627678268389764159" at="52,0,55,9" concept="4" />
+      <node id="6627678268390670986" at="63,0,66,0" concept="1" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="2691011170768277153" at="94,122,97,15" concept="4" />
+      <node id="6627678268390670986" at="70,0,74,0" concept="5" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="2691011170768277119" at="85,75,89,17" concept="4" />
+      <node id="6768392667014054176" at="105,128,109,5" concept="4" />
+      <node id="2691011170768277150" at="93,0,98,13" concept="3" />
+      <node id="6627678268389764159" at="105,0,112,0" concept="10" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="2691011170768277110" at="83,102,91,15" concept="4" />
+      <node id="6627678268389764159" at="49,0,59,0" concept="5" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="2691011170768277101" at="81,101,92,13" concept="3" />
+      <node id="6627678268389764159" at="47,26,59,7" concept="2" />
+      <node id="6627678268389764159" at="45,0,61,0" concept="1" trace="InitPartAccessorOperation_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="2691011170768277079" at="77,200,99,11" concept="4" />
+      <node id="6627678268390670986" at="74,0,102,0" concept="5" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6627678268390670986" at="68,54,102,8" concept="7" />
+      <node id="6627678268390670986" at="66,0,104,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="6627678268389764159" at="53,55,54,71" />
+      <scope id="6627678268390670986" at="63,54,64,53" />
+      <scope id="6627678268390670986" at="71,61,72,151" />
+      <scope id="2691011170768277154" at="95,70,96,102" />
+      <scope id="2691011170768277120" at="86,37,88,65" />
+      <scope id="6768392667014054177" at="106,78,108,191">
+        <var name="type" id="6768392667014054179" />
+      </scope>
+      <scope id="6627678268390670986" at="63,0,66,0">
+        <var name="container" id="6627678268390670986" />
+      </scope>
+      <scope id="2691011170768277152" at="94,122,97,15" />
+      <scope id="6627678268390670986" at="70,0,74,0" />
+      <scope id="2691011170768277150" at="93,0,98,13">
+        <var name="mapping" id="2691011170768277151" />
+      </scope>
+      <scope id="6768392667014054175" at="105,128,110,17" />
+      <scope id="2691011170768277111" at="84,33,90,61">
+        <var name="values" id="2691011170768277113" />
+      </scope>
+      <scope id="6627678268389764159" at="50,127,57,22">
+        <var name="result" id="6627678268389764159" />
+      </scope>
+      <scope id="6627678268389764159" at="105,0,112,0">
+        <var name="childConcept" id="6627678268389764159" />
+        <var name="link" id="6627678268389764159" />
+        <var name="node" id="6627678268389764159" />
+        <var name="parentNode" id="6627678268389764159" />
+      </scope>
+      <scope id="2691011170768277103" at="82,155,91,15">
+        <var name="name" id="2691011170768277105" />
+      </scope>
+      <scope id="6627678268389764159" at="49,0,59,0">
+        <var name="checkingNodeContext" id="6627678268389764159" />
+        <var name="context" id="6627678268389764159" />
+      </scope>
+      <scope id="2691011170768277101" at="81,101,92,13">
+        <var name="part" id="2691011170768277102" />
+      </scope>
+      <scope id="6627678268389764159" at="45,99,59,7" />
+      <scope id="6627678268389764159" at="45,0,61,0">
+        <var name="initContext" id="6627678268389764159" />
+      </scope>
+      <scope id="2691011170768277080" at="78,208,98,13">
+        <var name="nameMap" id="2691011170768277091" />
+        <var name="pattern" id="2691011170768277082" />
+      </scope>
+      <scope id="6627678268390670986" at="75,78,100,56">
+        <var name="operandType" id="2691011170768277069" />
+        <var name="parts" id="2691011170768277062" />
+      </scope>
+      <scope id="6627678268390670986" at="74,0,102,0">
+        <var name="_context" id="6627678268390670986" />
+      </scope>
+      <scope id="6627678268390670986" at="68,54,102,8" />
+      <scope id="6627678268390670986" at="66,0,104,0" />
+      <unit id="6627678268389764159" at="121,0,126,0" name="de.itemis.mps.compare.pattern.baselang.constraints.InitPartAccessorOperation_Constraints$LINKS" />
+      <unit id="6627678268389764159" at="114,0,120,0" name="de.itemis.mps.compare.pattern.baselang.constraints.InitPartAccessorOperation_Constraints$CONCEPTS" />
+      <unit id="6627678268389764159" at="48,32,59,5" name="de.itemis.mps.compare.pattern.baselang.constraints.InitPartAccessorOperation_Constraints$1" />
+      <unit id="6627678268390670986" at="69,17,102,7" name="de.itemis.mps.compare.pattern.baselang.constraints.InitPartAccessorOperation_Constraints$RD1$1" />
+      <unit id="6627678268390670986" at="62,0,105,0" name="de.itemis.mps.compare.pattern.baselang.constraints.InitPartAccessorOperation_Constraints$RD1" />
+      <unit id="6627678268389764159" at="44,0,127,0" name="de.itemis.mps.compare.pattern.baselang.constraints.InitPartAccessorOperation_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)/665537614208839653">
+    <file name="MatchOperation_Constraints.java">
+      <node id="665537614208839653" at="22,88,23,51" concept="11" />
+      <node id="665537614208839653" at="26,130,27,161" concept="6" />
+      <node id="665537614208839653" at="27,161,28,0" concept="8" />
+      <node id="665537614208839653" at="29,55,30,74" concept="2" />
+      <node id="665537614208839653" at="31,9,32,0" concept="8" />
+      <node id="665537614208839653" at="32,0,33,22" concept="7" />
+      <node id="6768392667014054269" at="39,102,40,19" concept="7" />
+      <node id="6768392667014054277" at="41,12,42,18" concept="7" />
+      <node id="665537614208839653" at="45,0,46,0" concept="9" trace="canBeAncestorBreakingPoint" />
+      <node id="665537614208839653" at="48,0,49,0" concept="9" trace="MatchOperation$tn" />
+      <node id="665537614208839653" at="49,0,50,0" concept="9" trace="Pattern$nK" />
+      <node id="6768392667014054275" at="41,10,43,5" concept="0" />
+      <node id="665537614208839653" at="28,0,31,9" concept="4" />
+      <node id="6768392667014054267" at="38,149,43,5" concept="4" />
+      <node id="665537614208839653" at="38,0,45,0" concept="10" trace="staticCanBeAnAncestor#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="665537614208839653" at="25,0,35,0" concept="5" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeAncestor;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="665537614208839653" at="23,51,35,7" concept="2" />
+      <node id="665537614208839653" at="22,0,37,0" concept="1" trace="MatchOperation_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="665537614208839653" at="29,55,30,74" />
+      <scope id="6768392667014054268" at="39,102,40,19" />
+      <scope id="6768392667014054276" at="41,12,42,18" />
+      <scope id="6768392667014054266" at="38,149,43,5" />
+      <scope id="665537614208839653" at="26,130,33,22">
+        <var name="result" id="665537614208839653" />
+      </scope>
+      <scope id="665537614208839653" at="38,0,45,0">
+        <var name="childConcept" id="665537614208839653" />
+        <var name="childNode" id="665537614208839653" />
+        <var name="link" id="665537614208839653" />
+        <var name="node" id="665537614208839653" />
+        <var name="parentNode" id="665537614208839653" />
+      </scope>
+      <scope id="665537614208839653" at="25,0,35,0">
+        <var name="checkingNodeContext" id="665537614208839653" />
+        <var name="context" id="665537614208839653" />
+      </scope>
+      <scope id="665537614208839653" at="22,88,35,7" />
+      <scope id="665537614208839653" at="22,0,37,0">
+        <var name="initContext" id="665537614208839653" />
+      </scope>
+      <unit id="665537614208839653" at="47,0,51,0" name="de.itemis.mps.compare.pattern.baselang.constraints.MatchOperation_Constraints$CONCEPTS" />
+      <unit id="665537614208839653" at="24,25,35,5" name="de.itemis.mps.compare.pattern.baselang.constraints.MatchOperation_Constraints$1" />
+      <unit id="665537614208839653" at="21,0,52,0" name="de.itemis.mps.compare.pattern.baselang.constraints.MatchOperation_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)/665537614208899032">
+    <file name="IsMatchOperation_Constraints.java">
+      <node id="665537614208899032" at="23,90,24,53" concept="11" />
+      <node id="665537614208899032" at="27,127,28,128" concept="6" />
+      <node id="665537614208899032" at="28,128,29,0" concept="8" />
+      <node id="665537614208899032" at="30,55,31,71" concept="2" />
+      <node id="665537614208899032" at="32,9,33,0" concept="8" />
+      <node id="665537614208899032" at="33,0,34,22" concept="7" />
+      <node id="6768392667014054306" at="39,128,40,295" concept="7" />
+      <node id="665537614208899032" at="42,0,43,0" concept="9" trace="canBeChildBreakingPoint" />
+      <node id="665537614208899032" at="45,0,46,0" concept="9" trace="IsMatchOperation$DJ" />
+      <node id="665537614208899032" at="46,0,47,0" concept="9" trace="DotExpression$yW" />
+      <node id="665537614208899032" at="47,0,48,0" concept="9" trace="MatchResultType$Ha" />
+      <node id="665537614208899032" at="51,0,52,0" concept="9" trace="operand$w6IR" />
+      <node id="665537614208899032" at="29,0,32,9" concept="4" />
+      <node id="665537614208899032" at="39,0,42,0" concept="10" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="665537614208899032" at="26,0,36,0" concept="5" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="665537614208899032" at="24,53,36,7" concept="2" />
+      <node id="665537614208899032" at="23,0,38,0" concept="1" trace="IsMatchOperation_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="665537614208899032" at="30,55,31,71" />
+      <scope id="6768392667014054305" at="39,128,40,295" />
+      <scope id="665537614208899032" at="39,0,42,0">
+        <var name="childConcept" id="665537614208899032" />
+        <var name="link" id="665537614208899032" />
+        <var name="node" id="665537614208899032" />
+        <var name="parentNode" id="665537614208899032" />
+      </scope>
+      <scope id="665537614208899032" at="27,127,34,22">
+        <var name="result" id="665537614208899032" />
+      </scope>
+      <scope id="665537614208899032" at="26,0,36,0">
+        <var name="checkingNodeContext" id="665537614208899032" />
+        <var name="context" id="665537614208899032" />
+      </scope>
+      <scope id="665537614208899032" at="23,90,36,7" />
+      <scope id="665537614208899032" at="23,0,38,0">
+        <var name="initContext" id="665537614208899032" />
+      </scope>
+      <unit id="665537614208899032" at="50,0,53,0" name="de.itemis.mps.compare.pattern.baselang.constraints.IsMatchOperation_Constraints$LINKS" />
+      <unit id="665537614208899032" at="44,0,49,0" name="de.itemis.mps.compare.pattern.baselang.constraints.IsMatchOperation_Constraints$CONCEPTS" />
+      <unit id="665537614208899032" at="25,32,36,5" name="de.itemis.mps.compare.pattern.baselang.constraints.IsMatchOperation_Constraints$1" />
+      <unit id="665537614208899032" at="22,0,54,0" name="de.itemis.mps.compare.pattern.baselang.constraints.IsMatchOperation_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)/665537614209061053">
+    <file name="AnnotationTarget_Constraints.java">
+      <node id="665537614209061053" at="34,90,35,53" concept="11" />
+      <node id="665537614209061054" at="35,53,36,26" concept="2" />
+      <node id="665537614209061053" at="39,127,40,128" concept="6" />
+      <node id="665537614209061053" at="40,128,41,0" concept="8" />
+      <node id="665537614209061053" at="42,55,43,71" concept="2" />
+      <node id="665537614209061053" at="44,9,45,0" concept="8" />
+      <node id="665537614209061053" at="45,0,46,22" concept="7" />
+      <node id="665537614209061054" at="52,54,53,59" concept="11" />
+      <node id="665537614209061054" at="60,61,61,150" concept="7" />
+      <node id="2691011170768277566" at="64,78,65,342" concept="6" />
+      <node id="2691011170768277576" at="66,11,67,41" concept="6" />
+      <node id="2691011170768277581" at="68,80,69,80" concept="6" />
+      <node id="2691011170768277589" at="70,38,71,163" concept="7" />
+      <node id="2691011170768277598" at="74,11,75,34" concept="7" />
+      <node id="6768392667014054207" at="80,128,81,220" concept="6" />
+      <node id="6768392667014054218" at="82,202,83,18" concept="7" />
+      <node id="6768392667014054233" at="84,12,85,19" concept="7" />
+      <node id="665537614209061053" at="88,0,89,0" concept="9" trace="canBeChildBreakingPoint" />
+      <node id="665537614209061053" at="91,0,92,0" concept="9" trace="AnnotationTarget$lu" />
+      <node id="665537614209061053" at="92,0,93,0" concept="9" trace="GetOperation$ET" />
+      <node id="665537614209061053" at="93,0,94,0" concept="9" trace="MatchResultType$Ha" />
+      <node id="665537614209061053" at="94,0,95,0" concept="9" trace="MemberAnnotation$ww" />
+      <node id="665537614209061053" at="98,0,99,0" concept="9" trace="annotation$oWOB" />
+      <node id="665537614209061053" at="99,0,100,0" concept="9" trace="pattern$jhEF" />
+      <node id="6768392667014054231" at="84,10,86,5" concept="0" />
+      <node id="665537614209061053" at="41,0,44,9" concept="4" />
+      <node id="665537614209061054" at="52,0,55,0" concept="1" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="2691011170768277587" at="69,80,72,15" concept="4" />
+      <node id="665537614209061054" at="59,0,63,0" concept="5" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6768392667014054216" at="81,220,86,5" concept="4" />
+      <node id="2691011170768277576" at="67,41,73,13" concept="4" />
+      <node id="665537614209061053" at="80,0,88,0" concept="10" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="2691011170768277576" at="65,342,74,11" concept="0" />
+      <node id="665537614209061053" at="38,0,48,0" concept="5" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="665537614209061053" at="36,26,48,7" concept="2" />
+      <node id="665537614209061054" at="63,0,77,0" concept="5" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="665537614209061053" at="34,0,50,0" concept="1" trace="AnnotationTarget_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="665537614209061054" at="57,54,77,8" concept="7" />
+      <node id="665537614209061054" at="55,0,79,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="665537614209061053" at="42,55,43,71" />
+      <scope id="665537614209061054" at="52,54,53,59" />
+      <scope id="665537614209061054" at="60,61,61,150" />
+      <scope id="2691011170768277588" at="70,38,71,163" />
+      <scope id="6768392667014054217" at="82,202,83,18" />
+      <scope id="6768392667014054232" at="84,12,85,19" />
+      <scope id="665537614209061054" at="52,0,55,0">
+        <var name="container" id="665537614209061054" />
+      </scope>
+      <scope id="665537614209061054" at="59,0,63,0" />
+      <scope id="2691011170768277580" at="68,80,72,15">
+        <var name="pattern" id="2691011170768277582" />
+      </scope>
+      <scope id="6768392667014054206" at="80,128,86,5">
+        <var name="operandType" id="6768392667014054208" />
+      </scope>
+      <scope id="665537614209061053" at="39,127,46,22">
+        <var name="result" id="665537614209061053" />
+      </scope>
+      <scope id="2691011170768277576" at="66,11,73,13">
+        <var name="mr" id="2691011170768277576" />
+      </scope>
+      <scope id="665537614209061053" at="80,0,88,0">
+        <var name="childConcept" id="665537614209061053" />
+        <var name="link" id="665537614209061053" />
+        <var name="node" id="665537614209061053" />
+        <var name="parentNode" id="665537614209061053" />
+      </scope>
+      <scope id="665537614209061053" at="38,0,48,0">
+        <var name="checkingNodeContext" id="665537614209061053" />
+        <var name="context" id="665537614209061053" />
+      </scope>
+      <scope id="665537614209061054" at="64,78,75,34">
+        <var name="operandType" id="2691011170768277567" />
+      </scope>
+      <scope id="665537614209061053" at="34,90,48,7" />
+      <scope id="665537614209061054" at="63,0,77,0">
+        <var name="_context" id="665537614209061054" />
+      </scope>
+      <scope id="665537614209061053" at="34,0,50,0">
+        <var name="initContext" id="665537614209061053" />
+      </scope>
+      <scope id="665537614209061054" at="57,54,77,8" />
+      <scope id="665537614209061054" at="55,0,79,0" />
+      <unit id="665537614209061053" at="97,0,101,0" name="de.itemis.mps.compare.pattern.baselang.constraints.AnnotationTarget_Constraints$LINKS" />
+      <unit id="665537614209061053" at="90,0,96,0" name="de.itemis.mps.compare.pattern.baselang.constraints.AnnotationTarget_Constraints$CONCEPTS" />
+      <unit id="665537614209061053" at="37,32,48,5" name="de.itemis.mps.compare.pattern.baselang.constraints.AnnotationTarget_Constraints$1" />
+      <unit id="665537614209061054" at="58,17,77,7" name="de.itemis.mps.compare.pattern.baselang.constraints.AnnotationTarget_Constraints$RD1$1" />
+      <unit id="665537614209061054" at="51,0,80,0" name="de.itemis.mps.compare.pattern.baselang.constraints.AnnotationTarget_Constraints$RD1" />
+      <unit id="665537614209061053" at="33,0,102,0" name="de.itemis.mps.compare.pattern.baselang.constraints.AnnotationTarget_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)/665537614209426791">
+    <file name="MatchResultType_Constraints.java">
+      <node id="665537614209426791" at="27,89,28,52" concept="11" />
+      <node id="665537614209426792" at="28,52,29,26" concept="2" />
+      <node id="665537614209426792" at="33,54,34,56" concept="11" />
+      <node id="665537614209426792" at="41,61,42,150" concept="7" />
+      <node id="2691011170768276444" at="45,78,46,308" concept="7" />
+      <node id="2691011170768276788" at="50,57,51,45" concept="7" />
+      <node id="665537614209426791" at="56,0,57,0" concept="9" trace="MatchResultType$Ha" />
+      <node id="665537614209426791" at="57,0,58,0" concept="9" trace="Pattern$nK" />
+      <node id="665537614209426791" at="61,0,62,0" concept="9" trace="pattern$jhEF" />
+      <node id="665537614209426791" at="65,0,66,0" concept="9" trace="name$MnvL" />
+      <node id="665537614209426792" at="33,0,36,0" concept="1" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="2691011170768276788" at="50,0,53,0" concept="10" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="665537614209426791" at="27,0,31,0" concept="1" trace="MatchResultType_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="665537614209426792" at="40,0,44,0" concept="5" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="665537614209426792" at="44,0,48,0" concept="5" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="665537614209426792" at="38,54,48,8" concept="7" />
+      <node id="665537614209426792" at="36,0,50,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="665537614209426792" at="33,54,34,56" />
+      <scope id="665537614209426792" at="41,61,42,150" />
+      <scope id="665537614209426792" at="45,78,46,308" />
+      <scope id="2691011170768276788" at="50,57,51,45" />
+      <scope id="665537614209426791" at="27,89,29,26" />
+      <scope id="665537614209426792" at="33,0,36,0">
+        <var name="container" id="665537614209426792" />
+      </scope>
+      <scope id="2691011170768276788" at="50,0,53,0">
+        <var name="str" id="2691011170768276788" />
+      </scope>
+      <scope id="665537614209426791" at="27,0,31,0">
+        <var name="initContext" id="665537614209426791" />
+      </scope>
+      <scope id="665537614209426792" at="40,0,44,0" />
+      <scope id="665537614209426792" at="44,0,48,0">
+        <var name="_context" id="665537614209426792" />
+      </scope>
+      <scope id="665537614209426792" at="38,54,48,8" />
+      <scope id="665537614209426792" at="36,0,50,0" />
+      <unit id="665537614209426791" at="60,0,63,0" name="de.itemis.mps.compare.pattern.baselang.constraints.MatchResultType_Constraints$LINKS" />
+      <unit id="665537614209426791" at="64,0,67,0" name="de.itemis.mps.compare.pattern.baselang.constraints.MatchResultType_Constraints$PROPS" />
+      <unit id="665537614209426791" at="55,0,59,0" name="de.itemis.mps.compare.pattern.baselang.constraints.MatchResultType_Constraints$CONCEPTS" />
+      <unit id="665537614209426792" at="39,17,48,7" name="de.itemis.mps.compare.pattern.baselang.constraints.MatchResultType_Constraints$RD1$1" />
+      <unit id="665537614209426792" at="32,0,54,0" name="de.itemis.mps.compare.pattern.baselang.constraints.MatchResultType_Constraints$RD1" />
+      <unit id="665537614209426791" at="26,0,68,0" name="de.itemis.mps.compare.pattern.baselang.constraints.MatchResultType_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)/665537614209525705">
+    <file name="GetOperation_Constraints.java">
+      <node id="665537614209525705" at="23,86,24,49" concept="11" />
+      <node id="665537614209525705" at="27,127,28,128" concept="6" />
+      <node id="665537614209525705" at="28,128,29,0" concept="8" />
+      <node id="665537614209525705" at="30,55,31,71" concept="2" />
+      <node id="665537614209525705" at="32,9,33,0" concept="8" />
+      <node id="665537614209525705" at="33,0,34,22" concept="7" />
+      <node id="6768392667014054289" at="39,128,40,295" concept="7" />
+      <node id="665537614209525705" at="42,0,43,0" concept="9" trace="canBeChildBreakingPoint" />
+      <node id="665537614209525705" at="45,0,46,0" concept="9" trace="GetOperation$ET" />
+      <node id="665537614209525705" at="46,0,47,0" concept="9" trace="DotExpression$yW" />
+      <node id="665537614209525705" at="47,0,48,0" concept="9" trace="MatchResultType$Ha" />
+      <node id="665537614209525705" at="51,0,52,0" concept="9" trace="operand$w6IR" />
+      <node id="665537614209525705" at="29,0,32,9" concept="4" />
+      <node id="665537614209525705" at="39,0,42,0" concept="10" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="665537614209525705" at="26,0,36,0" concept="5" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="665537614209525705" at="24,49,36,7" concept="2" />
+      <node id="665537614209525705" at="23,0,38,0" concept="1" trace="GetOperation_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="665537614209525705" at="30,55,31,71" />
+      <scope id="6768392667014054288" at="39,128,40,295" />
+      <scope id="665537614209525705" at="39,0,42,0">
+        <var name="childConcept" id="665537614209525705" />
+        <var name="link" id="665537614209525705" />
+        <var name="node" id="665537614209525705" />
+        <var name="parentNode" id="665537614209525705" />
+      </scope>
+      <scope id="665537614209525705" at="27,127,34,22">
+        <var name="result" id="665537614209525705" />
+      </scope>
+      <scope id="665537614209525705" at="26,0,36,0">
+        <var name="checkingNodeContext" id="665537614209525705" />
+        <var name="context" id="665537614209525705" />
+      </scope>
+      <scope id="665537614209525705" at="23,86,36,7" />
+      <scope id="665537614209525705" at="23,0,38,0">
+        <var name="initContext" id="665537614209525705" />
+      </scope>
+      <unit id="665537614209525705" at="50,0,53,0" name="de.itemis.mps.compare.pattern.baselang.constraints.GetOperation_Constraints$LINKS" />
+      <unit id="665537614209525705" at="44,0,49,0" name="de.itemis.mps.compare.pattern.baselang.constraints.GetOperation_Constraints$CONCEPTS" />
+      <unit id="665537614209525705" at="25,32,36,5" name="de.itemis.mps.compare.pattern.baselang.constraints.GetOperation_Constraints$1" />
+      <unit id="665537614209525705" at="22,0,54,0" name="de.itemis.mps.compare.pattern.baselang.constraints.GetOperation_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)/665537614209588493">
+    <file name="NamedGetTarget_Constraints.java">
+      <node id="665537614209588493" at="25,88,26,51" concept="11" />
+      <node id="665537614209588493" at="29,127,30,128" concept="6" />
+      <node id="665537614209588493" at="30,128,31,0" concept="8" />
+      <node id="665537614209588493" at="32,55,33,71" concept="2" />
+      <node id="665537614209588493" at="34,9,35,0" concept="8" />
+      <node id="665537614209588493" at="35,0,36,22" concept="7" />
+      <node id="6768392667014054237" at="41,128,42,220" concept="6" />
+      <node id="6768392667014054248" at="43,202,44,18" concept="7" />
+      <node id="6768392667014054263" at="45,12,46,19" concept="7" />
+      <node id="665537614209588493" at="49,0,50,0" concept="9" trace="canBeChildBreakingPoint" />
+      <node id="665537614209588493" at="52,0,53,0" concept="9" trace="NamedGetTarget$XM" />
+      <node id="665537614209588493" at="53,0,54,0" concept="9" trace="GetOperation$ET" />
+      <node id="665537614209588493" at="54,0,55,0" concept="9" trace="MatchResultType$Ha" />
+      <node id="665537614209588493" at="58,0,59,0" concept="9" trace="pattern$jhEF" />
+      <node id="6768392667014054261" at="45,10,47,5" concept="0" />
+      <node id="665537614209588493" at="31,0,34,9" concept="4" />
+      <node id="6768392667014054246" at="42,220,47,5" concept="4" />
+      <node id="665537614209588493" at="41,0,49,0" concept="10" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="665537614209588493" at="28,0,38,0" concept="5" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="665537614209588493" at="26,51,38,7" concept="2" />
+      <node id="665537614209588493" at="25,0,40,0" concept="1" trace="NamedGetTarget_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="665537614209588493" at="32,55,33,71" />
+      <scope id="6768392667014054247" at="43,202,44,18" />
+      <scope id="6768392667014054262" at="45,12,46,19" />
+      <scope id="6768392667014054236" at="41,128,47,5">
+        <var name="operandType" id="6768392667014054238" />
+      </scope>
+      <scope id="665537614209588493" at="29,127,36,22">
+        <var name="result" id="665537614209588493" />
+      </scope>
+      <scope id="665537614209588493" at="41,0,49,0">
+        <var name="childConcept" id="665537614209588493" />
+        <var name="link" id="665537614209588493" />
+        <var name="node" id="665537614209588493" />
+        <var name="parentNode" id="665537614209588493" />
+      </scope>
+      <scope id="665537614209588493" at="28,0,38,0">
+        <var name="checkingNodeContext" id="665537614209588493" />
+        <var name="context" id="665537614209588493" />
+      </scope>
+      <scope id="665537614209588493" at="25,88,38,7" />
+      <scope id="665537614209588493" at="25,0,40,0">
+        <var name="initContext" id="665537614209588493" />
+      </scope>
+      <unit id="665537614209588493" at="57,0,60,0" name="de.itemis.mps.compare.pattern.baselang.constraints.NamedGetTarget_Constraints$LINKS" />
+      <unit id="665537614209588493" at="51,0,56,0" name="de.itemis.mps.compare.pattern.baselang.constraints.NamedGetTarget_Constraints$CONCEPTS" />
+      <unit id="665537614209588493" at="27,32,38,5" name="de.itemis.mps.compare.pattern.baselang.constraints.NamedGetTarget_Constraints$1" />
+      <unit id="665537614209588493" at="24,0,61,0" name="de.itemis.mps.compare.pattern.baselang.constraints.NamedGetTarget_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)/665537614209771792">
+    <file name="PatternHint_Constraints.java">
+      <node id="665537614209771792" at="33,85,34,48" concept="11" />
+      <node id="665537614209774287" at="34,48,35,26" concept="2" />
+      <node id="665537614209771792" at="38,127,39,128" concept="6" />
+      <node id="665537614209771792" at="39,128,40,0" concept="8" />
+      <node id="665537614209771792" at="41,55,42,71" concept="2" />
+      <node id="665537614209771792" at="43,9,44,0" concept="8" />
+      <node id="665537614209771792" at="44,0,45,22" concept="7" />
+      <node id="665537614209774287" at="51,54,52,56" concept="11" />
+      <node id="665537614209774287" at="59,61,60,150" concept="7" />
+      <node id="2691011170768276793" at="63,78,64,308" concept="7" />
+      <node id="2691011170768277056" at="68,57,69,45" concept="7" />
+      <node id="6768392667014054282" at="72,128,73,80" concept="7" />
+      <node id="665537614209771792" at="75,0,76,0" concept="9" trace="canBeChildBreakingPoint" />
+      <node id="665537614209771792" at="78,0,79,0" concept="9" trace="PatternHint$Z7" />
+      <node id="665537614209771792" at="79,0,80,0" concept="9" trace="Pattern$nK" />
+      <node id="665537614209771792" at="80,0,81,0" concept="9" trace="MatchOperation$tn" />
+      <node id="665537614209771792" at="84,0,85,0" concept="9" trace="pattern$IokC" />
+      <node id="665537614209771792" at="88,0,89,0" concept="9" trace="name$MnvL" />
+      <node id="665537614209771792" at="40,0,43,9" concept="4" />
+      <node id="665537614209774287" at="51,0,54,0" concept="1" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="2691011170768277056" at="68,0,71,0" concept="10" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="665537614209771792" at="72,0,75,0" concept="10" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="665537614209774287" at="58,0,62,0" concept="5" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="665537614209774287" at="62,0,66,0" concept="5" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="665537614209771792" at="37,0,47,0" concept="5" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="665537614209774287" at="56,54,66,8" concept="7" />
+      <node id="665537614209771792" at="35,26,47,7" concept="2" />
+      <node id="665537614209774287" at="54,0,68,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="665537614209771792" at="33,0,49,0" concept="1" trace="PatternHint_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="665537614209771792" at="41,55,42,71" />
+      <scope id="665537614209774287" at="51,54,52,56" />
+      <scope id="665537614209774287" at="59,61,60,150" />
+      <scope id="665537614209774287" at="63,78,64,308" />
+      <scope id="2691011170768277056" at="68,57,69,45" />
+      <scope id="6768392667014054281" at="72,128,73,80" />
+      <scope id="665537614209774287" at="51,0,54,0">
+        <var name="container" id="665537614209774287" />
+      </scope>
+      <scope id="2691011170768277056" at="68,0,71,0">
+        <var name="str" id="2691011170768277056" />
+      </scope>
+      <scope id="665537614209771792" at="72,0,75,0">
+        <var name="childConcept" id="665537614209771792" />
+        <var name="link" id="665537614209771792" />
+        <var name="node" id="665537614209771792" />
+        <var name="parentNode" id="665537614209771792" />
+      </scope>
+      <scope id="665537614209774287" at="58,0,62,0" />
+      <scope id="665537614209774287" at="62,0,66,0">
+        <var name="_context" id="665537614209774287" />
+      </scope>
+      <scope id="665537614209771792" at="38,127,45,22">
+        <var name="result" id="665537614209771792" />
+      </scope>
+      <scope id="665537614209771792" at="37,0,47,0">
+        <var name="checkingNodeContext" id="665537614209771792" />
+        <var name="context" id="665537614209771792" />
+      </scope>
+      <scope id="665537614209774287" at="56,54,66,8" />
+      <scope id="665537614209771792" at="33,85,47,7" />
+      <scope id="665537614209774287" at="54,0,68,0" />
+      <scope id="665537614209771792" at="33,0,49,0">
+        <var name="initContext" id="665537614209771792" />
+      </scope>
+      <unit id="665537614209771792" at="83,0,86,0" name="de.itemis.mps.compare.pattern.baselang.constraints.PatternHint_Constraints$LINKS" />
+      <unit id="665537614209771792" at="87,0,90,0" name="de.itemis.mps.compare.pattern.baselang.constraints.PatternHint_Constraints$PROPS" />
+      <unit id="665537614209771792" at="77,0,82,0" name="de.itemis.mps.compare.pattern.baselang.constraints.PatternHint_Constraints$CONCEPTS" />
+      <unit id="665537614209774287" at="57,17,66,7" name="de.itemis.mps.compare.pattern.baselang.constraints.PatternHint_Constraints$RD1$1" />
+      <unit id="665537614209771792" at="36,32,47,5" name="de.itemis.mps.compare.pattern.baselang.constraints.PatternHint_Constraints$1" />
+      <unit id="665537614209774287" at="50,0,72,0" name="de.itemis.mps.compare.pattern.baselang.constraints.PatternHint_Constraints$RD1" />
+      <unit id="665537614209771792" at="32,0,91,0" name="de.itemis.mps.compare.pattern.baselang.constraints.PatternHint_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

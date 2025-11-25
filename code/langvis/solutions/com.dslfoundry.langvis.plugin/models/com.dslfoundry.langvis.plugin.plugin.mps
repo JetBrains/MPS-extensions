@@ -8,7 +8,7 @@
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -346,14 +346,8 @@
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
@@ -601,14 +595,77 @@
         </node>
       </node>
       <node concept="z59LJ" id="74GiNTijwDa" role="lGtFl">
-        <node concept="TZ5HA" id="74GiNTij$A2" role="TZ5H$">
-          <node concept="1dT_AC" id="74GiNTij$A3" role="1dT_Ay">
-            <property role="1dT_AB" value="All entries except INamedConcept and IResolveInfo will also be detected" />
+        <node concept="1PaTwC" id="L0S2CpU6qS" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6qT" role="1PaTwD">
+            <property role="3oM_SC" value="All" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6qU" role="1PaTwD">
+            <property role="3oM_SC" value="entries" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6qV" role="1PaTwD">
+            <property role="3oM_SC" value="except" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6qW" role="1PaTwD">
+            <property role="3oM_SC" value="INamedConcept" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6qX" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6qY" role="1PaTwD">
+            <property role="3oM_SC" value="IResolveInfo" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6qZ" role="1PaTwD">
+            <property role="3oM_SC" value="will" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6r0" role="1PaTwD">
+            <property role="3oM_SC" value="also" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6r1" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6r2" role="1PaTwD">
+            <property role="3oM_SC" value="detected" />
           </node>
         </node>
-        <node concept="TZ5HA" id="74GiNTij$dG" role="TZ5H$">
-          <node concept="1dT_AC" id="74GiNTij$dH" role="1dT_Ay">
-            <property role="1dT_AB" value="as traits by isTrait. Shall we remove them or give them separate treatment?" />
+        <node concept="1PaTwC" id="L0S2CpU6r3" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6r4" role="1PaTwD">
+            <property role="3oM_SC" value="as" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6r5" role="1PaTwD">
+            <property role="3oM_SC" value="traits" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6r6" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6r7" role="1PaTwD">
+            <property role="3oM_SC" value="isTrait." />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6r8" role="1PaTwD">
+            <property role="3oM_SC" value="Shall" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6r9" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6ra" role="1PaTwD">
+            <property role="3oM_SC" value="remove" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6rb" role="1PaTwD">
+            <property role="3oM_SC" value="them" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6rc" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6rd" role="1PaTwD">
+            <property role="3oM_SC" value="give" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6re" role="1PaTwD">
+            <property role="3oM_SC" value="them" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6rf" role="1PaTwD">
+            <property role="3oM_SC" value="separate" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6rg" role="1PaTwD">
+            <property role="3oM_SC" value="treatment?" />
           </node>
         </node>
       </node>

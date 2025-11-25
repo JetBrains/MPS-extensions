@@ -4,7 +4,7 @@
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -195,18 +195,12 @@
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
-        <child id="2667874559098216723" name="text" index="3HnX3l" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
@@ -1928,9 +1922,57 @@
         </node>
       </node>
       <node concept="P$JXv" id="IKrxbBHaGX" role="lGtFl">
-        <node concept="TZ5HA" id="IKrxbBHaGY" role="TZ5H$">
-          <node concept="1dT_AC" id="IKrxbBHaGZ" role="1dT_Ay">
-            <property role="1dT_AB" value="Merges consecutive Word (not IWord) elements and ensures that there is always a Word between two IWords" />
+        <node concept="1PaTwC" id="L0S2CpU630" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU631" role="1PaTwD">
+            <property role="3oM_SC" value="Merges" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU632" role="1PaTwD">
+            <property role="3oM_SC" value="consecutive" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU633" role="1PaTwD">
+            <property role="3oM_SC" value="Word" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU634" role="1PaTwD">
+            <property role="3oM_SC" value="(not" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU635" role="1PaTwD">
+            <property role="3oM_SC" value="IWord)" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU636" role="1PaTwD">
+            <property role="3oM_SC" value="elements" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU637" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU638" role="1PaTwD">
+            <property role="3oM_SC" value="ensures" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU639" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU63a" role="1PaTwD">
+            <property role="3oM_SC" value="there" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU63b" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU63c" role="1PaTwD">
+            <property role="3oM_SC" value="always" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU63d" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU63e" role="1PaTwD">
+            <property role="3oM_SC" value="Word" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU63f" role="1PaTwD">
+            <property role="3oM_SC" value="between" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU63g" role="1PaTwD">
+            <property role="3oM_SC" value="two" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU63h" role="1PaTwD">
+            <property role="3oM_SC" value="IWords" />
           </node>
         </node>
       </node>
@@ -2465,9 +2507,33 @@
       </node>
       <node concept="P$JXv" id="o1roXC0Ud$" role="lGtFl">
         <node concept="TZ5HI" id="o1roXC0Ud_" role="3nqlJM">
-          <node concept="TZ5HA" id="o1roXC0UdA" role="3HnX3l">
-            <node concept="1dT_AC" id="o1roXC0Ufl" role="1dT_Ay">
-              <property role="1dT_AB" value=" Is ignored. Use alias or node substitute actions." />
+          <node concept="1PaTwC" id="L0S2CpU63i" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU63j" role="1PaTwD">
+              <property role="3oM_SC" value="" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU63k" role="1PaTwD">
+              <property role="3oM_SC" value="Is" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU63l" role="1PaTwD">
+              <property role="3oM_SC" value="ignored." />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU63m" role="1PaTwD">
+              <property role="3oM_SC" value="Use" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU63n" role="1PaTwD">
+              <property role="3oM_SC" value="alias" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU63o" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU63p" role="1PaTwD">
+              <property role="3oM_SC" value="node" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU63q" role="1PaTwD">
+              <property role="3oM_SC" value="substitute" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU63r" role="1PaTwD">
+              <property role="3oM_SC" value="actions." />
             </node>
           </node>
         </node>

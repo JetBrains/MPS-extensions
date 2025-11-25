@@ -21,7 +21,7 @@ import jetbrains.mps.smodel.loading.ModelLoadingState;
 import org.jetbrains.mps.openapi.model.SReference;
 
 /**
- * Forwards all model events to {@link com.mbeddr.mpsutil.modellisteners.runtime.ListenersCollection#forwardEvent(SAbstractConcept, Class<ListenerType>, IForwarder<ListenerType>) }
+ * Forwards all model events to {@link com.mbeddr.mpsutil.modellisteners.runtime.ListenersCollection#forwardEvent(SAbstractConcept, Class<ListenerType>, IForwarder<ListenerType>)} 
  */
 public class ForwardingModelListener extends GlobalModelListener implements SModelListener {
   private final ListenersCollection listeners;

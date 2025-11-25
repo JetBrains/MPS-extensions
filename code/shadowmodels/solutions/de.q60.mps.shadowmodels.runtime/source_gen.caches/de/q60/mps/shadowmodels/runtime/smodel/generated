@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="27fzbrdgcfnogfvh34pjfwle9yvbo1j">
+<product version="3" modelHash="-89cixm3a0gwbsq0mk8wh26hqaw6b9kn">
   <files names="CK_SM_ShadowOutputSynchronizerStep1_getOutput.java:SM_ClassChangeListener.java:SM_CommandHelper.java:SM_CopySNodeToTransformationResult.java:SM_DependencyChangeCollector.java:SM_DummySModel.java:SM_DummySModule.java:SM_EventDispatcher.java:SM_GeneratedTransformationRule.java:SM_GlobalModelListener.java:SM_ModelContentDependency.java:SM_NodeErrors.java:SM_ParameterConversion.java:SM_RepositoryChangeTranslator.java:SM_RepositoryModulesManager.java:SM_SNodeAPI.java:SM_SNodeBuilder.java:SM_SNodeSynchronizer.java:SM_ShadowModel.java:SM_ShadowModule.java:SM_ShadowOutputSynchronizerStep1.java:SM_ShadowOutputSynchronizerStep2.java:SM_TransformationTrace.java:SM_TransformationsFromAspect.java:SM_TransformationsFromGlobalRepository.java:SM_TransformationsFromRepository.java:STransformationEngine.java:ShadowModelsAPI.java" />
 </product>
 

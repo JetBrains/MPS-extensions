@@ -5,7 +5,7 @@
     <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="-1" />
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -361,16 +361,10 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
@@ -11616,9 +11610,36 @@
     <node concept="2tJIrI" id="3Osd_yxgS4W" role="jymVt" />
     <node concept="3Tm1VV" id="3Osd_yxgaD$" role="1B3o_S" />
     <node concept="3UR2Jj" id="3Osd_yxgaDR" role="lGtFl">
-      <node concept="TZ5HA" id="3Osd_yxgaDS" role="TZ5H$">
-        <node concept="1dT_AC" id="3Osd_yxgaDT" role="1dT_Ay">
-          <property role="1dT_AB" value="Is set to all cells that have a supported layout" />
+      <node concept="1PaTwC" id="L0S2CpU672" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU673" role="1PaTwD">
+          <property role="3oM_SC" value="Is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU674" role="1PaTwD">
+          <property role="3oM_SC" value="set" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU675" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU676" role="1PaTwD">
+          <property role="3oM_SC" value="all" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU677" role="1PaTwD">
+          <property role="3oM_SC" value="cells" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU678" role="1PaTwD">
+          <property role="3oM_SC" value="that" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU679" role="1PaTwD">
+          <property role="3oM_SC" value="have" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67a" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67b" role="1PaTwD">
+          <property role="3oM_SC" value="supported" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67c" role="1PaTwD">
+          <property role="3oM_SC" value="layout" />
         </node>
       </node>
     </node>
@@ -20698,9 +20719,18 @@
     </node>
     <node concept="3Tm1VV" id="52txYBHgDsI" role="1B3o_S" />
     <node concept="3UR2Jj" id="A5grn6FJs0" role="lGtFl">
-      <node concept="TZ5HA" id="A5grn6FJs1" role="TZ5H$">
-        <node concept="1dT_AC" id="A5grn6FJs2" role="1dT_Ay">
-          <property role="1dT_AB" value="Optimized for memory efficiency" />
+      <node concept="1PaTwC" id="L0S2CpU67d" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU67e" role="1PaTwD">
+          <property role="3oM_SC" value="Optimized" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67f" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67g" role="1PaTwD">
+          <property role="3oM_SC" value="memory" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67h" role="1PaTwD">
+          <property role="3oM_SC" value="efficiency" />
         </node>
       </node>
     </node>
@@ -21104,9 +21134,24 @@
       <ref role="3uigEE" node="5TZkGzvpVHq" resolve="ICellLayoutWrapper" />
     </node>
     <node concept="3UR2Jj" id="5TZkGzvsLwt" role="lGtFl">
-      <node concept="TZ5HA" id="5TZkGzvsLwu" role="TZ5H$">
-        <node concept="1dT_AC" id="5TZkGzvsLwv" role="1dT_Ay">
-          <property role="1dT_AB" value="Hack to make PunctuationUtil.hasPunctuableLayout return true." />
+      <node concept="1PaTwC" id="L0S2CpU67i" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU67j" role="1PaTwD">
+          <property role="3oM_SC" value="Hack" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67k" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67l" role="1PaTwD">
+          <property role="3oM_SC" value="make" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67m" role="1PaTwD">
+          <property role="3oM_SC" value="PunctuationUtil.hasPunctuableLayout" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67n" role="1PaTwD">
+          <property role="3oM_SC" value="return" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67o" role="1PaTwD">
+          <property role="3oM_SC" value="true." />
         </node>
       </node>
     </node>

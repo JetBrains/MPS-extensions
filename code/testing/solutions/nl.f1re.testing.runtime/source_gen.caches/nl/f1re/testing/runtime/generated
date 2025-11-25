@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-96927onc6xhp5z2i2gjujllyxfmo44m">
+<product version="3" modelHash="8c76loqonmn9z8lc8y50aaq24jcozrh">
   <files names="Asserts.java:EditorCellTestHelper.java:EditorComponentTestHelper.java:IntentionTester.java:PlatformTestHelper.java:ProcessRunnerForConfigurationTests.java:ProjectTestHelper.java:TypesystemTestUtil.java" />
 </product>
 

@@ -116,7 +116,7 @@ public class LineNumberComponent extends AbstractLeftColumn {
   }
 
   /**
-   * Remove the line numbers column from the left editor highlighter and {@link de.itemis.mps.linenumbers.plugin.LineNumberComponent#dispose() } of it.
+   * Remove the line numbers column from the left editor highlighter and {@link de.itemis.mps.linenumbers.plugin.LineNumberComponent#dispose()} of it.
    */
   public void uninstall() {
     if (getLeftEditorHighlighter().getLeftColumns().contains(this)) {

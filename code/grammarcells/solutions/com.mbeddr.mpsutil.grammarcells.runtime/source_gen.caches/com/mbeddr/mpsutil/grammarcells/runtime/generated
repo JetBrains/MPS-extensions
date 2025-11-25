@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-1ffjf7n773oyid7nbjt4ky78hx6cwdu">
+<product version="3" modelHash="-c5db0q1zhfj4qzwjao8kcqkt80b8ra">
   <files names="AbstractGrammarActionDescriptor.java:AbstractRule.java:AbstractToken.java:BracketsInsert.java:CellActionWithReadAccess.java:ChildSymbol.java:ChildToken.java:ConceptKey.java:ConstantSubstituteInfo.java:ConstantSymbol.java:ConstantToken.java:DefaultFlagModelAccess.java:DelegateToParentCellAction.java:DescriptorCache.java:DisabledRule.java:EditorHierachyCache.java:FlagSubstituteAction.java:FlagSubstituteMenuItem.java:GrammarCellsUtil.java:IFlagModelAccess.java:IGrammarActionsDescriptor.java:IParseAlternative.java:IRecycledNodes.java:IRule.java:ISymbol.java:IToken.java:ITokenizer.java:InputCursor.java:InvertedFlagModelAccess.java:ListInsertActionLookup.java:MultiTextActionItem.java:MultiTextSubsituteAction.java:NumberLiteralTokenizer.java:PNode.java:Parser.java:PropertySymbol.java:PropertyToken.java:ReferenceSymbol.java:ReferenceToken.java:RulesCache.java:SavedCaretPosition.java:SideTransformationHolderCell.java:SplittablePropertCell.java:SplittablePropertyCellProvider.java:StringLiteralTokenizer.java:StringOrSequenceQuery.java:SubstituteActionWrapper.java:SymbolInRule.java:SyntaxMatcher.java:TextToken.java:VisibleLanguagesCache.java" />
 </product>
 

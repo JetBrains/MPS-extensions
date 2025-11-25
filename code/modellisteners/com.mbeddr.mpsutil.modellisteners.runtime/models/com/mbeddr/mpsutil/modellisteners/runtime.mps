@@ -9,7 +9,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="acfc188d-d5d6-4598-b370-6f4a983f05b2" name="jetbrains.mps.baseLanguage.methodReferences" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -236,15 +236,8 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
-        <child id="2546654756694997556" name="reference" index="92FcQ" />
-        <child id="3106559687488913694" name="line" index="2XjZqd" />
-      </concept>
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      <concept id="6971016359099800069" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldSingleCommentLine" flags="ngI" index="2JaDLO">
+        <child id="6971016359099801474" name="commentBody" index="2JaDBN" />
       </concept>
       <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
         <reference id="2217234381367530213" name="classifier" index="VXe09" />
@@ -252,13 +245,16 @@
       <concept id="2217234381367530195" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocReference" flags="ng" index="VXe0Z">
         <reference id="2217234381367530196" name="methodDeclaration" index="VXe0S" />
       </concept>
-      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
-        <child id="6962838954693749192" name="tag" index="qph3F" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
+      <concept id="5085607816306582224" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentTextElement" flags="ng" index="1Vtdud">
+        <child id="5085607816306582225" name="tag" index="1Vtduc" />
+      </concept>
+      <concept id="5085607816306647746" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTagTE" flags="ng" index="1VuXuv">
+        <child id="5085607816306647747" name="reference" index="1VuXuu" />
+      </concept>
     </language>
     <language id="acfc188d-d5d6-4598-b370-6f4a983f05b2" name="jetbrains.mps.baseLanguage.methodReferences">
       <concept id="7915009415671748557" name="jetbrains.mps.baseLanguage.methodReferences.structure.MethodReferenceTypeTargetExpression" flags="ng" index="2FaPjH">
@@ -1535,75 +1531,193 @@
       <ref role="3uigEE" to="ze1i:~ModuleDeploymentListener" resolve="ModuleDeploymentListener" />
     </node>
     <node concept="3UR2Jj" id="1Wr0hkcxH$g" role="lGtFl">
-      <node concept="TZ5HA" id="1Wr0hkcxH$h" role="TZ5H$">
-        <node concept="1dT_AC" id="1Wr0hkcxH$i" role="1dT_Ay">
-          <property role="1dT_AB" value="Manages " />
+      <node concept="1PaTwC" id="L0S2CpU6sy" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6sz" role="1PaTwD">
+          <property role="3oM_SC" value="Manages" />
         </node>
-        <node concept="1dT_AA" id="1Wr0hkcxNC8" role="1dT_Ay">
-          <node concept="92FcH" id="1Wr0hkcxNCa" role="qph3F">
-            <node concept="TZ5HA" id="1Wr0hkcxNCc" role="2XjZqd">
-              <node concept="1dT_AC" id="1Wr0hkcxPZq" role="1dT_Ay">
-                <property role="1dT_AB" value="custom model listener" />
-              </node>
-            </node>
-            <node concept="VXe08" id="1Wr0hkcxNWp" role="92FcQ">
+        <node concept="1Vtdud" id="L0S2CpU6s$" role="1PaTwD">
+          <node concept="1VuXuv" id="L0S2CpU6s_" role="1Vtduc">
+            <node concept="VXe08" id="1Wr0hkcxNWp" role="1VuXuu">
               <ref role="VXe09" node="52ZF9D37Xxh" resolve="IModelListener" />
             </node>
-          </node>
-        </node>
-        <node concept="1dT_AC" id="1Wr0hkcxNC7" role="1dT_Ay">
-          <property role="1dT_AB" value=" instances created from " />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="1Wr0hkcxPZF" role="TZ5H$">
-        <node concept="1dT_AC" id="1Wr0hkcxPZG" role="1dT_Ay">
-          <property role="1dT_AB" value="" />
-        </node>
-        <node concept="1dT_AA" id="1Wr0hkcxOI$" role="1dT_Ay">
-          <node concept="92FcH" id="1Wr0hkcxOIA" role="qph3F">
-            <node concept="TZ5HA" id="1Wr0hkcxOIC" role="2XjZqd">
-              <node concept="1dT_AC" id="1Wr0hkcxPZr" role="1dT_Ay">
-                <property role="1dT_AB" value="listener descriptors" />
+            <node concept="1PaTwC" id="L0S2CpU6sC" role="2JaDBN">
+              <node concept="3oM_SD" id="L0S2CpU6sD" role="1PaTwD">
+                <property role="3oM_SC" value="custom" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6sE" role="1PaTwD">
+                <property role="3oM_SC" value="model" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6sF" role="1PaTwD">
+                <property role="3oM_SC" value="listener" />
               </node>
             </node>
-            <node concept="VXe08" id="1Wr0hkcxOIV" role="92FcQ">
+          </node>
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sG" role="1PaTwD">
+          <property role="3oM_SC" value="instances" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sH" role="1PaTwD">
+          <property role="3oM_SC" value="created" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sI" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+      </node>
+      <node concept="1PaTwC" id="L0S2CpU6sJ" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6sK" role="1PaTwD">
+          <property role="3oM_SC" value="" />
+        </node>
+        <node concept="1Vtdud" id="L0S2CpU6sL" role="1PaTwD">
+          <node concept="1VuXuv" id="L0S2CpU6sM" role="1Vtduc">
+            <node concept="VXe08" id="1Wr0hkcxOIV" role="1VuXuu">
               <ref role="VXe09" node="52ZF9D380er" resolve="IModelListenersDescriptor" />
             </node>
-          </node>
-        </node>
-        <node concept="1dT_AC" id="1Wr0hkcxOIz" role="1dT_Ay">
-          <property role="1dT_AB" value=" from currently loaded modules. Updates the listeners and " />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="1Wr0hkcybar" role="TZ5H$">
-        <node concept="1dT_AC" id="1Wr0hkcybas" role="1dT_Ay">
-          <property role="1dT_AB" value="descriptors as the set of loaded modules changes." />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="1Wr0hkcyeAR" role="TZ5H$">
-        <node concept="1dT_AC" id="1Wr0hkcyeAS" role="1dT_Ay">
-          <property role="1dT_AB" value="" />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="1Wr0hkcyeAT" role="TZ5H$">
-        <node concept="1dT_AC" id="1Wr0hkcyeAU" role="1dT_Ay">
-          <property role="1dT_AB" value="An implementation of " />
-        </node>
-        <node concept="1dT_AA" id="1Wr0hkcyi3m" role="1dT_Ay">
-          <node concept="92FcH" id="1Wr0hkcyi3B" role="qph3F">
-            <node concept="TZ5HA" id="1Wr0hkcyi3D" role="2XjZqd" />
-            <node concept="VXe08" id="1Wr0hkcyi3W" role="92FcQ">
-              <ref role="VXe09" to="mhbf:~SModelListener" resolve="SModelListener" />
+            <node concept="1PaTwC" id="L0S2CpU6sP" role="2JaDBN">
+              <node concept="3oM_SD" id="L0S2CpU6sQ" role="1PaTwD">
+                <property role="3oM_SC" value="listener" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6sR" role="1PaTwD">
+                <property role="3oM_SC" value="descriptors" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="1dT_AC" id="1Wr0hkcyi3l" role="1dT_Ay">
-          <property role="1dT_AB" value=" is registered for each project by" />
+        <node concept="3oM_SD" id="L0S2CpU6sS" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sT" role="1PaTwD">
+          <property role="3oM_SC" value="currently" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sU" role="1PaTwD">
+          <property role="3oM_SC" value="loaded" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sV" role="1PaTwD">
+          <property role="3oM_SC" value="modules." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sW" role="1PaTwD">
+          <property role="3oM_SC" value="Updates" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sX" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sY" role="1PaTwD">
+          <property role="3oM_SC" value="listeners" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6sZ" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
         </node>
       </node>
-      <node concept="TZ5HA" id="1Wr0hkcyOmX" role="TZ5H$">
-        <node concept="1dT_AC" id="1Wr0hkcyOmY" role="1dT_Ay">
-          <property role="1dT_AB" value="a project plugin to forward events to the currently available custom model listeners." />
+      <node concept="1PaTwC" id="L0S2CpU6t0" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6t1" role="1PaTwD">
+          <property role="3oM_SC" value="descriptors" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6t2" role="1PaTwD">
+          <property role="3oM_SC" value="as" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6t3" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6t4" role="1PaTwD">
+          <property role="3oM_SC" value="set" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6t5" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6t6" role="1PaTwD">
+          <property role="3oM_SC" value="loaded" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6t7" role="1PaTwD">
+          <property role="3oM_SC" value="modules" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6t8" role="1PaTwD">
+          <property role="3oM_SC" value="changes." />
+        </node>
+      </node>
+      <node concept="1PaTwC" id="L0S2CpU6t9" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6ta" role="1PaTwD">
+          <property role="3oM_SC" value="" />
+        </node>
+      </node>
+      <node concept="1PaTwC" id="L0S2CpU6tb" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6tc" role="1PaTwD">
+          <property role="3oM_SC" value="An" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6td" role="1PaTwD">
+          <property role="3oM_SC" value="implementation" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6te" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="1Vtdud" id="L0S2CpU6tf" role="1PaTwD">
+          <node concept="1VuXuv" id="L0S2CpU6tg" role="1Vtduc">
+            <node concept="VXe08" id="1Wr0hkcyi3W" role="1VuXuu">
+              <ref role="VXe09" to="mhbf:~SModelListener" resolve="SModelListener" />
+            </node>
+            <node concept="1PaTwC" id="L0S2CpU6tj" role="2JaDBN">
+              <node concept="3oM_SD" id="L0S2CpU6tk" role="1PaTwD">
+                <property role="3oM_SC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tl" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tm" role="1PaTwD">
+          <property role="3oM_SC" value="registered" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tn" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6to" role="1PaTwD">
+          <property role="3oM_SC" value="each" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tp" role="1PaTwD">
+          <property role="3oM_SC" value="project" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tq" role="1PaTwD">
+          <property role="3oM_SC" value="by" />
+        </node>
+      </node>
+      <node concept="1PaTwC" id="L0S2CpU6tr" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6ts" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tt" role="1PaTwD">
+          <property role="3oM_SC" value="project" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tu" role="1PaTwD">
+          <property role="3oM_SC" value="plugin" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tv" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tw" role="1PaTwD">
+          <property role="3oM_SC" value="forward" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tx" role="1PaTwD">
+          <property role="3oM_SC" value="events" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6ty" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tz" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6t$" role="1PaTwD">
+          <property role="3oM_SC" value="currently" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6t_" role="1PaTwD">
+          <property role="3oM_SC" value="available" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tA" role="1PaTwD">
+          <property role="3oM_SC" value="custom" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tB" role="1PaTwD">
+          <property role="3oM_SC" value="model" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tC" role="1PaTwD">
+          <property role="3oM_SC" value="listeners." />
         </node>
       </node>
     </node>
@@ -5202,20 +5316,36 @@
       <ref role="3uigEE" to="j9co:~SModelListener" resolve="SModelListener" />
     </node>
     <node concept="3UR2Jj" id="1Wr0hkcAMRE" role="lGtFl">
-      <node concept="TZ5HA" id="1Wr0hkcAMRF" role="TZ5H$">
-        <node concept="1dT_AC" id="1Wr0hkcAMRG" role="1dT_Ay">
-          <property role="1dT_AB" value="Forwards all model events to " />
+      <node concept="1PaTwC" id="L0S2CpU6tD" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6tE" role="1PaTwD">
+          <property role="3oM_SC" value="Forwards" />
         </node>
-        <node concept="1dT_AA" id="1Wr0hkcAPVK" role="1dT_Ay">
-          <node concept="92FcH" id="1Wr0hkcAPVM" role="qph3F">
-            <node concept="TZ5HA" id="1Wr0hkcAPVO" role="2XjZqd" />
-            <node concept="VXe0Z" id="1Wr0hkcAPVS" role="92FcQ">
+        <node concept="3oM_SD" id="L0S2CpU6tF" role="1PaTwD">
+          <property role="3oM_SC" value="all" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tG" role="1PaTwD">
+          <property role="3oM_SC" value="model" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tH" role="1PaTwD">
+          <property role="3oM_SC" value="events" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6tI" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="1Vtdud" id="L0S2CpU6tJ" role="1PaTwD">
+          <node concept="1VuXuv" id="L0S2CpU6tK" role="1Vtduc">
+            <node concept="VXe0Z" id="1Wr0hkcAPVS" role="1VuXuu">
               <ref role="VXe0S" node="52ZF9D3n5Wn" resolve="forwardEvent" />
+            </node>
+            <node concept="1PaTwC" id="L0S2CpU6tN" role="2JaDBN">
+              <node concept="3oM_SD" id="L0S2CpU6tO" role="1PaTwD">
+                <property role="3oM_SC" value="" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="1dT_AC" id="1Wr0hkcAPVJ" role="1dT_Ay">
-          <property role="1dT_AB" value="" />
+        <node concept="3oM_SD" id="L0S2CpU6tP" role="1PaTwD">
+          <property role="3oM_SC" value="" />
         </node>
       </node>
     </node>

@@ -8,7 +8,7 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -301,14 +301,8 @@
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
@@ -2016,9 +2010,30 @@
           <node concept="3Tm6S6" id="1AuRJ4GJhfx" role="1B3o_S" />
           <node concept="3Tqbb2" id="1AuRJ4GJmI7" role="1tU5fm" />
           <node concept="z59LJ" id="4EGFz66mZ1m" role="lGtFl">
-            <node concept="TZ5HA" id="4EGFz66mZ1n" role="TZ5H$">
-              <node concept="1dT_AC" id="4EGFz66mZ1o" role="1dT_Ay">
-                <property role="1dT_AB" value="allows node access in the query with ConceptFunctionParameter_node" />
+            <node concept="1PaTwC" id="L0S2CpU62O" role="1Vez_I">
+              <node concept="3oM_SD" id="L0S2CpU62P" role="1PaTwD">
+                <property role="3oM_SC" value="allows" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU62Q" role="1PaTwD">
+                <property role="3oM_SC" value="node" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU62R" role="1PaTwD">
+                <property role="3oM_SC" value="access" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU62S" role="1PaTwD">
+                <property role="3oM_SC" value="in" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU62T" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU62U" role="1PaTwD">
+                <property role="3oM_SC" value="query" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU62V" role="1PaTwD">
+                <property role="3oM_SC" value="with" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU62W" role="1PaTwD">
+                <property role="3oM_SC" value="ConceptFunctionParameter_node" />
               </node>
             </node>
           </node>

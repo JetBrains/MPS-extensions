@@ -24,7 +24,7 @@ import jetbrains.mps.errors.item.TypesystemReportItemAdapter;
 public class ComputationModePreservingNonTypesystemChecker extends NonTypesystemChecker {
 
   /**
-   * Copy of {@link jetbrains.mps.typesystemEngine.checker.NonTypesystemChecker#getErrors(SNode, SRepository) }
+   * Copy of {@link jetbrains.mps.typesystemEngine.checker.NonTypesystemChecker#getErrors(SNode, SRepository)} 
    */
   public Set<NodeReportItem> getErrors(final SNode root, SRepository repository) {
     return TypecheckingFacade.getFromContext().computeIsolated(TypecheckingSession.Flags.forRoot(root).incremental(), (TypecheckingSession session) -> {

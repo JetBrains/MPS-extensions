@@ -26,11 +26,11 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.CollectionSequence;
 
 /**
- * Manages {@link com.mbeddr.mpsutil.modellisteners.runtime.IModelListener custom model listener} instances created from 
- * {@link com.mbeddr.mpsutil.modellisteners.runtime.IModelListenersDescriptor listener descriptors} from currently loaded modules. Updates the listeners and 
+ * Manages {@link com.mbeddr.mpsutil.modellisteners.runtime.IModelListener custom model listener} instances created from
+ *  {@link com.mbeddr.mpsutil.modellisteners.runtime.IModelListenersDescriptor listener descriptors} from currently loaded modules. Updates the listeners and
  * descriptors as the set of loaded modules changes.
  * 
- * An implementation of {@link org.jetbrains.mps.openapi.model.SModelListener } is registered for each project by
+ * An implementation of {@link org.jetbrains.mps.openapi.model.SModelListener} is registered for each project by
  * a project plugin to forward events to the currently available custom model listeners.
  */
 public class ListenersCollection implements ModuleDeploymentListener {

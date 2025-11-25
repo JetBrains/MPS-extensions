@@ -8,7 +8,7 @@
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="d4615e3b-d671-4ba9-af01-2b78369b0ba7" name="jetbrains.mps.lang.pattern" version="2" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -165,7 +165,6 @@
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
@@ -173,11 +172,8 @@
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
       </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl">
@@ -298,6 +294,14 @@
     <language id="90746344-04fd-4286-97d5-b46ae6a81709" name="jetbrains.mps.lang.migration">
       <concept id="8352104482584315555" name="jetbrains.mps.lang.migration.structure.MigrationScript" flags="ig" index="3SyAh_">
         <property id="5820409521797704727" name="fromVersion" index="qMTe8" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1419,9 +1423,45 @@
         </node>
       </node>
       <node concept="z59LJ" id="aREAMo0s1V" role="lGtFl">
-        <node concept="TZ5HA" id="aREAMo0s1W" role="TZ5H$">
-          <node concept="1dT_AC" id="aREAMo0s1X" role="1dT_Ay">
-            <property role="1dT_AB" value="MigrationTestCase:inputNodes link, here as magic constant in order to avoid dependency on j.m.l.test." />
+        <node concept="1PaTwC" id="L0S2CpU60s" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU60t" role="1PaTwD">
+            <property role="3oM_SC" value="MigrationTestCase:inputNodes" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60u" role="1PaTwD">
+            <property role="3oM_SC" value="link," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60v" role="1PaTwD">
+            <property role="3oM_SC" value="here" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60w" role="1PaTwD">
+            <property role="3oM_SC" value="as" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60x" role="1PaTwD">
+            <property role="3oM_SC" value="magic" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60y" role="1PaTwD">
+            <property role="3oM_SC" value="constant" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60z" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60$" role="1PaTwD">
+            <property role="3oM_SC" value="order" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60_" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60A" role="1PaTwD">
+            <property role="3oM_SC" value="avoid" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60B" role="1PaTwD">
+            <property role="3oM_SC" value="dependency" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60C" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60D" role="1PaTwD">
+            <property role="3oM_SC" value="j.m.l.test." />
           </node>
         </node>
       </node>
@@ -1454,9 +1494,45 @@
         </node>
       </node>
       <node concept="z59LJ" id="aREAMo0s94" role="lGtFl">
-        <node concept="TZ5HA" id="aREAMo0s95" role="TZ5H$">
-          <node concept="1dT_AC" id="aREAMo0s96" role="1dT_Ay">
-            <property role="1dT_AB" value="MigrationTestCase:outputNodes link, here as magic constant in order to avoid dependency on j.m.l.test." />
+        <node concept="1PaTwC" id="L0S2CpU60E" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU60F" role="1PaTwD">
+            <property role="3oM_SC" value="MigrationTestCase:outputNodes" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60G" role="1PaTwD">
+            <property role="3oM_SC" value="link," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60H" role="1PaTwD">
+            <property role="3oM_SC" value="here" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60I" role="1PaTwD">
+            <property role="3oM_SC" value="as" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60J" role="1PaTwD">
+            <property role="3oM_SC" value="magic" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60K" role="1PaTwD">
+            <property role="3oM_SC" value="constant" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60L" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60M" role="1PaTwD">
+            <property role="3oM_SC" value="order" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60N" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60O" role="1PaTwD">
+            <property role="3oM_SC" value="avoid" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60P" role="1PaTwD">
+            <property role="3oM_SC" value="dependency" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60Q" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60R" role="1PaTwD">
+            <property role="3oM_SC" value="j.m.l.test." />
           </node>
         </node>
       </node>
@@ -1538,19 +1614,98 @@
         <node concept="3Tqbb2" id="aREAMnU3fg" role="1tU5fm" />
       </node>
       <node concept="P$JXv" id="aREAMnUlzX" role="lGtFl">
-        <node concept="TZ5HA" id="aREAMnUlzY" role="TZ5H$">
-          <node concept="1dT_AC" id="aREAMnUlzZ" role="1dT_Ay">
-            <property role="1dT_AB" value="Do not migrate input and output nodes of migration test cases." />
-          </node>
-        </node>
         <node concept="TUZQ0" id="aREAMnUl$0" role="3nqlJM">
-          <property role="TUZQ4" value="a node" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="aREAMnUl$2" role="zr_5Q">
             <ref role="zr_51" node="aREAMnU3fh" resolve="node" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU614" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU615" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU616" role="1PaTwD">
+              <property role="3oM_SC" value="node" />
+            </node>
+          </node>
         </node>
         <node concept="x79VA" id="aREAMnUl$3" role="3nqlJM">
-          <property role="x79VB" value="true if the node is an input or output node in a MigrationTestCase" />
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="L0S2CpU617" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU618" role="1PaTwD">
+              <property role="3oM_SC" value="true" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU619" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61a" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61b" role="1PaTwD">
+              <property role="3oM_SC" value="node" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61c" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61d" role="1PaTwD">
+              <property role="3oM_SC" value="an" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61e" role="1PaTwD">
+              <property role="3oM_SC" value="input" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61f" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61g" role="1PaTwD">
+              <property role="3oM_SC" value="output" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61h" role="1PaTwD">
+              <property role="3oM_SC" value="node" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61i" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61j" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU61k" role="1PaTwD">
+              <property role="3oM_SC" value="MigrationTestCase" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU60S" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU60T" role="1PaTwD">
+            <property role="3oM_SC" value="Do" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60U" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60V" role="1PaTwD">
+            <property role="3oM_SC" value="migrate" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60W" role="1PaTwD">
+            <property role="3oM_SC" value="input" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60X" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60Y" role="1PaTwD">
+            <property role="3oM_SC" value="output" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU60Z" role="1PaTwD">
+            <property role="3oM_SC" value="nodes" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU610" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU611" role="1PaTwD">
+            <property role="3oM_SC" value="migration" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU612" role="1PaTwD">
+            <property role="3oM_SC" value="test" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU613" role="1PaTwD">
+            <property role="3oM_SC" value="cases." />
+          </node>
         </node>
       </node>
     </node>

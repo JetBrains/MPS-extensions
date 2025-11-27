@@ -2613,6 +2613,14 @@
                     <ref role="37wK5l" to="bd8o:~Application.invokeAndWait(java.lang.Runnable)" resolve="invokeAndWait" />
                     <node concept="1bVj0M" id="4hHbxs9xH_k" role="37wK5m">
                       <node concept="3clFbS" id="4hHbxs9xH_l" role="1bW5cS">
+                        <node concept="3clFbJ" id="2silbc$qQ_q" role="3cqZAp">
+                          <node concept="3clFbS" id="2silbc$qQ_s" role="3clFbx">
+                            <node concept="3cpWs6" id="2silbc$qUUV" role="3cqZAp" />
+                          </node>
+                          <node concept="37vLTw" id="2silbc$qS5R" role="3clFbw">
+                            <ref role="3cqZAo" node="4hHbxs9xqXW" resolve="myStopRequested" />
+                          </node>
+                        </node>
                         <node concept="3clFbF" id="4hHbxs9xH_m" role="3cqZAp">
                           <node concept="2OqwBi" id="4hHbxs9z7KJ" role="3clFbG">
                             <node concept="2OqwBi" id="4hHbxs9z6Q9" role="2Oq$k0">
@@ -2668,12 +2676,17 @@
                 </node>
               </node>
               <node concept="3clFbJ" id="4hHbxs9xqYO" role="3cqZAp">
-                <node concept="AH0OO" id="4hHbxs9xqYP" role="3clFbw">
-                  <node concept="37vLTw" id="4hHbxs9xqYQ" role="AHHXb">
-                    <ref role="3cqZAo" node="4hHbxs9xqYq" resolve="forceReturn" />
+                <node concept="22lmx$" id="2silbc$qWE9" role="3clFbw">
+                  <node concept="37vLTw" id="2silbc$qY9V" role="3uHU7w">
+                    <ref role="3cqZAo" node="4hHbxs9xqXW" resolve="myStopRequested" />
                   </node>
-                  <node concept="3cmrfG" id="4hHbxs9xqYR" role="AHEQo">
-                    <property role="3cmrfH" value="0" />
+                  <node concept="AH0OO" id="4hHbxs9xqYP" role="3uHU7B">
+                    <node concept="37vLTw" id="4hHbxs9xqYQ" role="AHHXb">
+                      <ref role="3cqZAo" node="4hHbxs9xqYq" resolve="forceReturn" />
+                    </node>
+                    <node concept="3cmrfG" id="4hHbxs9xqYR" role="AHEQo">
+                      <property role="3cmrfH" value="0" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3clFbS" id="4hHbxs9xqYT" role="3clFbx">

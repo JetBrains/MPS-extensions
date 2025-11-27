@@ -16,6 +16,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.slisson.mps.tables* Textgen warning about duplicate unit name when an editor model contains multiple tables without an action map. 
 - *de.itemis.mps.editor.pagination* A NullPointerException was fixed for cases where the clicked node was null.
 - *de.itemis.mps.spellcheck* Custom dictionaries are not saved in the .mps/dictionaries/project.xml files anymore and pollute the file that is normally used for words saved manually by the user.
+- *de.itemis.mps.editor.celllayout* Reloading all classes do not lead to ClassCastExceptions anymore.
 
 ### Added
 

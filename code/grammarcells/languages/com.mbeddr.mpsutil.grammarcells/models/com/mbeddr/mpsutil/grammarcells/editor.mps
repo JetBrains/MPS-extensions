@@ -8,9 +8,9 @@
   <imports>
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
+    <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
     <import index="teg0" ref="r:96165ed2-ef22-48c7-bfe5-8fce083cbabb(com.mbeddr.mpsutil.grammarcells.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
-    <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" implicit="true" />
     <import index="karh" ref="r:780bbc81-d170-48ec-b42e-89f51d5b0ee5(com.mbeddr.mpsutil.grammarcells.behavior)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -256,6 +256,15 @@
       </node>
     </node>
     <node concept="3EZMnI" id="3h9t8JnexrB" role="6VMZX">
+      <node concept="PMmxH" id="7sG71xImStZ" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="7sG71xImSnP" role="3EZMnx">
+        <node concept="VPM3Z" id="7sG71xImSnQ" role="3F10Kt" />
+        <node concept="Vb9p2" id="7sG71xImSnR" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="1Ia5rYlzm_V" role="3EZMnx">
         <property role="3F0ifm" value="Side Transformation:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
@@ -599,7 +608,7 @@
       </node>
     </node>
     <node concept="3EZMnI" id="fIyaLHq" role="6VMZX">
-      <node concept="PMmxH" id="hF4FFz6" role="3EZMnx">
+      <node concept="PMmxH" id="7sG71xImPIF" role="3EZMnx">
         <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
       </node>
       <node concept="3F0ifn" id="hF4F$CU" role="3EZMnx">
@@ -923,6 +932,15 @@
       </node>
     </node>
     <node concept="3EZMnI" id="7KznU_3P5ik" role="6VMZX">
+      <node concept="PMmxH" id="7sG71xImQnd" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="7sG71xImQp6" role="3EZMnx">
+        <node concept="VPM3Z" id="7sG71xImQp7" role="3F10Kt" />
+        <node concept="Vb9p2" id="7sG71xImQp8" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="7KznU_3P5il" role="3EZMnx">
         <property role="3F0ifm" value="Optional Cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
@@ -1075,6 +1093,15 @@
       </node>
     </node>
     <node concept="3EZMnI" id="dN43cd3wZ8" role="6VMZX">
+      <node concept="PMmxH" id="7sG71xImS03" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="7sG71xImRZZ" role="3EZMnx">
+        <node concept="VPM3Z" id="7sG71xImS00" role="3F10Kt" />
+        <node concept="Vb9p2" id="7sG71xImS01" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+      </node>
       <node concept="2iRkQZ" id="dN43cd3wZ9" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43cd3wZ5" role="3EZMnx">
         <property role="3F0ifm" value="Substitute cell:" />
@@ -1676,6 +1703,10 @@
       </node>
     </node>
     <node concept="3EZMnI" id="6jH9yJK3gIA" role="6VMZX">
+      <node concept="PMmxH" id="7sG71xImRbc" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="7sG71xImRb8" role="3EZMnx" />
       <node concept="2EHx9g" id="6jH9yJK3rcY" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccfaYG" role="3EZMnx">
         <property role="3F0ifm" value="Side transformation (from factory) cell:" />
@@ -1737,6 +1768,15 @@
       </node>
     </node>
     <node concept="3EZMnI" id="6jH9yJK5uWv" role="6VMZX">
+      <node concept="PMmxH" id="7sG71xImPUx" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="7sG71xIlCnS" role="3EZMnx">
+        <node concept="VPM3Z" id="7sG71xIlCnT" role="3F10Kt" />
+        <node concept="Vb9p2" id="7sG71xIlCnU" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+      </node>
       <node concept="2EHx9g" id="6jH9yJK5uWw" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccf9qb" role="3EZMnx">
         <property role="3F0ifm" value="Node substitute cell:" />
@@ -1778,6 +1818,15 @@
       </node>
     </node>
     <node concept="3EZMnI" id="4eBi5gdnlmA" role="6VMZX">
+      <node concept="PMmxH" id="7sG71xImQLw" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="7sG71xImQLy" role="3EZMnx">
+        <node concept="VPM3Z" id="7sG71xImQLz" role="3F10Kt" />
+        <node concept="Vb9p2" id="7sG71xImQL$" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+      </node>
       <node concept="2EHx9g" id="4eBi5gdnEZU" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccfaXg" role="3EZMnx">
         <property role="3F0ifm" value="Side transformation cell:" />
@@ -1874,6 +1923,10 @@
       </node>
     </node>
     <node concept="3EZMnI" id="6rhOS_xv$$V" role="6VMZX">
+      <node concept="PMmxH" id="7sG71xImQLu" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="7sG71xImQLq" role="3EZMnx" />
       <node concept="2EHx9g" id="6rhOS_xv$$W" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccfaXP" role="3EZMnx">
         <property role="3F0ifm" value="Side transformation (both sides) cell:" />
@@ -2437,6 +2490,15 @@
       </node>
     </node>
     <node concept="3EZMnI" id="Dnjeun4pIE" role="6VMZX">
+      <node concept="PMmxH" id="7sG71xImRbl" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="7sG71xImRbh" role="3EZMnx">
+        <node concept="VPM3Z" id="7sG71xImRbi" role="3F10Kt" />
+        <node concept="Vb9p2" id="7sG71xImRbj" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="dN43ccfaYw" role="3EZMnx">
         <property role="3F0ifm" value="Side transformation section cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />

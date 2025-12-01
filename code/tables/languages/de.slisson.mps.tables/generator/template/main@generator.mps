@@ -7352,8 +7352,8 @@
                         <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
                       </node>
                       <node concept="2YIFZM" id="70mku7u1ztf" role="33vP2m">
-                        <ref role="37wK5l" to="yj89:bMfgm9eN3g" resolve="createNodeCell" />
-                        <ref role="1Pybhc" to="yj89:3Qp43e36sGA" resolve="CellModificationLog" />
+                        <ref role="37wK5l" to="hm5v:3mrQsPSMCN1" resolve="createNodeCell" />
+                        <ref role="1Pybhc" to="hm5v:6tOcB$JKlIC" resolve="TableUtils" />
                         <node concept="37vLTw" id="70mku7u2bUl" role="37wK5m">
                           <ref role="3cqZAo" node="1dAqnm8VFHp" resolve="editorContext" />
                         </node>

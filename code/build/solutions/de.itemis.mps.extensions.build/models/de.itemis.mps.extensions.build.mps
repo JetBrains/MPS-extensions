@@ -4542,6 +4542,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="2nIe0Om1pLq" role="3bR37C">
+          <node concept="3bR9La" id="2nIe0Om1pLr" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7klUZA6XM5Q" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -23140,6 +23145,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="2nIe0Om1p5Q" role="3bR37C">
+          <node concept="3bR9La" id="2nIe0Om1p5R" role="1SiIV1">
+            <ref role="3bR37D" node="7klUZA6XM5K" resolve="de.slisson.mps.conditionalEditor.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7qi8mU1Ozo5" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -23197,6 +23207,67 @@
             </node>
             <node concept="3qWCbU" id="7q24334ZKOx" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="2nIe0Om1rWQ" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.de.slisson.mps.conditionalEditor" />
+        <property role="3LESm3" value="d7b432d9-5044-4b5c-a87e-d53ab073d690" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="398BVA" id="2nIe0Om1rXj" role="3LF7KH">
+          <ref role="398BVh" node="7qi8mU1OzW7" resolve="conditionalEditor.home" />
+          <node concept="2Ry0Ak" id="2nIe0Om1rY9" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="2nIe0Om1rYY" role="2Ry0An">
+              <property role="2Ry0Am" value="test.de.slisson.mps.conditionalEditor" />
+              <node concept="2Ry0Ak" id="2nIe0Om1rZN" role="2Ry0An">
+                <property role="2Ry0Am" value="test.de.slisson.mps.conditionalEditor.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2nIe0Om1sjd" role="3bR37C">
+          <node concept="3bR9La" id="2nIe0Om1sje" role="1SiIV1">
+            <ref role="3bR37D" node="7qi8mU1Ozo0" resolve="de.slisson.mps.conditionalEditor.demolang" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="2nIe0Om1sj$" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2nIe0Om1sj_" role="1HemKq">
+            <node concept="398BVA" id="2nIe0Om1sjf" role="3LXTmr">
+              <ref role="398BVh" node="7qi8mU1OzW7" resolve="conditionalEditor.home" />
+              <node concept="2Ry0Ak" id="2nIe0Om1sjg" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2nIe0Om1sjh" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.slisson.mps.conditionalEditor" />
+                  <node concept="2Ry0Ak" id="2nIe0Om1sji" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2nIe0Om1sjA" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7he_rmUOK56" role="3bR31x">
+          <node concept="3LXTmp" id="7he_rmUOK57" role="3rtmxm">
+            <node concept="3qWCbU" id="7he_rmUOK58" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7he_rmUOK59" role="3LXTmr">
+              <ref role="398BVh" node="7qi8mU1OzW7" resolve="conditionalEditor.home" />
+              <node concept="2Ry0Ak" id="7he_rmUOK5a" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="7he_rmUOK5b" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.slisson.mps.conditionalEditor" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -26595,6 +26666,12 @@
       <node concept="L2wRC" id="3s41kb3BVRV" role="39821P">
         <ref role="L2wRA" node="3s41kb3BVkF" resolve="nl.f1re.mpsutil.hasher.tests" />
       </node>
+      <node concept="L2wRC" id="2nIe0Om3lC$" role="39821P">
+        <ref role="L2wRA" node="7qi8mU1Ozo0" resolve="de.slisson.mps.conditionalEditor.demolang" />
+      </node>
+      <node concept="L2wRC" id="2nIe0Om1syq" role="39821P">
+        <ref role="L2wRA" node="2nIe0Om1rWQ" resolve="test.de.slisson.mps.conditionalEditor" />
+      </node>
     </node>
     <node concept="2igEWh" id="H43MYuxQDj" role="1hWBAP">
       <property role="3UIfUI" value="2024" />
@@ -26693,6 +26770,9 @@
       </node>
       <node concept="22LTRM" id="3s41kb3BVT9" role="22LTRK">
         <ref role="22LTRN" node="3s41kb3BVkF" resolve="nl.f1re.mpsutil.hasher.tests" />
+      </node>
+      <node concept="22LTRM" id="2nIe0Om1s$q" role="22LTRK">
+        <ref role="22LTRN" node="2nIe0Om1rWQ" resolve="test.de.slisson.mps.conditionalEditor" />
       </node>
     </node>
     <node concept="2igEWh" id="1OMGwhrtizD" role="1hWBAP">

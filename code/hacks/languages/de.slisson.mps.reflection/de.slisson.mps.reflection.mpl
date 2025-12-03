@@ -98,39 +98,6 @@
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
-        <mapping-priority-rule kind="before_or_together">
-          <greater-priority-mapping>
-            <generator generatorUID="06d59c2a-d30e-4e81-8b45-772ebdc956f5(de.slisson.mps.reflection#5820306262934157507)" />
-            <external-mapping>
-              <mapping-node modelUID="r:6287d09f-8fb8-4ab9-b96b-6ae9c44e9c7c(de.slisson.mps.reflection.generator.template.main@generator)" nodeID="1594197056183459120" />
-            </external-mapping>
-          </greater-priority-mapping>
-          <lesser-priority-mapping>
-            <generator generatorUID="06d59c2a-d30e-4e81-8b45-772ebdc956f5(de.slisson.mps.reflection#5820306262934157507)" />
-            <external-mapping>
-              <mapping-set>
-                <mapping-set-element>
-                  <mapping-node modelUID="r:6287d09f-8fb8-4ab9-b96b-6ae9c44e9c7c(de.slisson.mps.reflection.generator.template.main@generator)" nodeID="5820306262934157508" />
-                </mapping-set-element>
-                <mapping-set-element>
-                  <mapping-node modelUID="r:6287d09f-8fb8-4ab9-b96b-6ae9c44e9c7c(de.slisson.mps.reflection.generator.template.main@generator)" nodeID="8473566765276906683" />
-                </mapping-set-element>
-                <mapping-set-element>
-                  <mapping-node modelUID="r:6287d09f-8fb8-4ab9-b96b-6ae9c44e9c7c(de.slisson.mps.reflection.generator.template.main@generator)" nodeID="8473566765277246548" />
-                </mapping-set-element>
-                <mapping-set-element>
-                  <mapping-node modelUID="r:6287d09f-8fb8-4ab9-b96b-6ae9c44e9c7c(de.slisson.mps.reflection.generator.template.main@generator)" nodeID="8473566765278711516" />
-                </mapping-set-element>
-                <mapping-set-element>
-                  <mapping-node modelUID="r:6287d09f-8fb8-4ab9-b96b-6ae9c44e9c7c(de.slisson.mps.reflection.generator.template.main@generator)" nodeID="8520162698483829325" />
-                </mapping-set-element>
-                <mapping-set-element>
-                  <mapping-node modelUID="r:6287d09f-8fb8-4ab9-b96b-6ae9c44e9c7c(de.slisson.mps.reflection.generator.template.main@generator)" nodeID="8520162698483221219" />
-                </mapping-set-element>
-              </mapping-set>
-            </external-mapping>
-          </lesser-priority-mapping>
-        </mapping-priority-rule>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
             <generator generatorUID="06d59c2a-d30e-4e81-8b45-772ebdc956f5(de.slisson.mps.reflection#5820306262934157507)" />

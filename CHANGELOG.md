@@ -18,6 +18,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.spellcheck* Custom dictionaries are not saved in the .mps/dictionaries/project.xml files anymore and pollute the file that is normally used for words saved manually by the user.
 - *de.itemis.mps.editor.celllayout* Reloading all classes do not lead to ClassCastExceptions anymore.
 
+### Added
+
+- *com.mbeddr.mpsutil.grammarcells* All cells now support *show* *if* blocks (except optional cells), parent styles and style sheet items. Note that only certain styles can be applied (transitive styles and styles that make sense for wrapper cells).
+
 ## October 2025
 
 ### Fixed

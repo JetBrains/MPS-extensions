@@ -17,8 +17,10 @@
     <dependency reexport="false">ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)</dependency>
     <dependency reexport="false">a603776a-5c78-4481-8342-97302b7d2c07(de.q60.mps.editor.performanceanalyzer.lang)</dependency>
     <dependency reexport="false">5474e4cd-6621-4b33-a39a-75552543ba57(de.slisson.mps.conditionalEditor.hints)</dependency>
+    <dependency reexport="false">1008a5ca-654c-4f3d-bc8c-6d9e8a72a38c(de.q60.mps.explorer)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:bc963c22-d419-49b6-8543-ea411eb9d3a1:de.q60.mps.polymorphicfunctions" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -48,6 +50,7 @@
     <module reference="ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)" version="0" />
     <module reference="70f4d42c-55a4-4a5b-b300-ac9bd82e9b21(de.q60.mps.editor.performanceanalyzer)" version="0" />
     <module reference="a603776a-5c78-4481-8342-97302b7d2c07(de.q60.mps.editor.performanceanalyzer.lang)" version="0" />
+    <module reference="1008a5ca-654c-4f3d-bc8c-6d9e8a72a38c(de.q60.mps.explorer)" version="0" />
     <module reference="5474e4cd-6621-4b33-a39a-75552543ba57(de.slisson.mps.conditionalEditor.hints)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
   </dependencyVersions>

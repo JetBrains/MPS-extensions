@@ -129,6 +129,9 @@
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
       </concept>
+      <concept id="1177093525992" name="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" flags="lg" index="gft3U">
+        <child id="1177093586806" name="templateNode" index="gfFT$" />
+      </concept>
       <concept id="1168559333462" name="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" flags="ln" index="j$656" />
       <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj">
         <reference id="1200916687663" name="labelDeclaration" index="2sdACS" />
@@ -158,6 +161,7 @@
       <concept id="1167951910403" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" flags="in" index="3JmXsc" />
       <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
       <concept id="1118773211870" name="jetbrains.mps.lang.generator.structure.IfMacro" flags="ln" index="1W57fq">
+        <child id="1194989344771" name="alternativeConsequence" index="UU_$l" />
         <child id="1167945861827" name="conditionFunction" index="3IZSJc" />
       </concept>
       <concept id="1088761943574" name="jetbrains.mps.lang.generator.structure.ReferenceMacro" flags="ln" index="1ZhdrF">
@@ -436,6 +440,26 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                </node>
+                <node concept="1W57fq" id="2mB0AgcmPQo" role="lGtFl">
+                  <node concept="3IZrLx" id="2mB0AgcmPQp" role="3IZSJc">
+                    <node concept="3clFbS" id="2mB0AgcmPQq" role="2VODD2">
+                      <node concept="3clFbF" id="2mB0AgcmQ78" role="3cqZAp">
+                        <node concept="2OqwBi" id="2mB0AgcmTzM" role="3clFbG">
+                          <node concept="2OqwBi" id="2mB0AgcmRhO" role="2Oq$k0">
+                            <node concept="30H73N" id="2mB0AgcmQ77" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="2mB0AgcmSUO" role="2OqNvi">
+                              <ref role="3Tt5mk" to="5mdd:fBEZMko" resolve="childCellModel" />
+                            </node>
+                          </node>
+                          <node concept="3x8VRR" id="2mB0AgcmU2u" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="gft3U" id="2mB0AgcmUlE" role="UU_$l">
+                    <node concept="10Nm6u" id="2mB0AgcmUAC" role="gfFT$" />
                   </node>
                 </node>
               </node>

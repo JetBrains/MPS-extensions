@@ -335,19 +335,38 @@ publishing {
                 withXml {
                     val dependenciesNode = asNode().appendNode("dependencies")
 
-                    for (dep in bundledDependencies) {
-                        dep.configuration.get().resolvedConfiguration.firstLevelModuleDependencies.forEach {
-                            val dependencyNode = dependenciesNode.appendNode("dependency")
-                            dependencyNode.appendNode("groupId", it.moduleGroup)
-                            dependencyNode.appendNode("artifactId", it.moduleName)
-                            dependencyNode.appendNode("version", it.moduleVersion)
-                            if (it.moduleArtifacts.isNotEmpty()) {
-                                dependencyNode.appendNode("type", it.moduleArtifacts.first().type)
-                            }
-                            dependencyNode.appendNode("scope", "provided")
+                    forEachBundledDependency {
+                        val dependencyNode = dependenciesNode.appendNode("dependency")
+                        dependencyNode.appendNode("groupId", it.moduleGroup)
+                        dependencyNode.appendNode("artifactId", it.moduleName)
+                        dependencyNode.appendNode("version", it.moduleVersion)
+                        if (it.moduleArtifacts.isNotEmpty()) {
+                            dependencyNode.appendNode("type", it.moduleArtifacts.first().type)
                         }
+                        dependencyNode.appendNode("scope", "provided")
                     }
                 }
+            }
+        }
+    }
+}
+
+/**
+ * Visit each bundled dependency, including its transitive dependencies.
+ */
+fun forEachBundledDependency(action: (ResolvedDependency) -> Unit) {
+    val seen = mutableSetOf<ResolvedDependency>()
+
+    val queue = ArrayDeque<ResolvedDependency>()
+
+    for (bundledDependency in bundledDependencies) {
+        queue.addAll(bundledDependency.configuration.get().resolvedConfiguration.firstLevelModuleDependencies)
+
+        while (queue.isNotEmpty()) {
+            val dep = queue.removeFirst()
+            if (seen.add(dep)) {
+                action(dep)
+                queue.addAll(dep.children)
             }
         }
     }

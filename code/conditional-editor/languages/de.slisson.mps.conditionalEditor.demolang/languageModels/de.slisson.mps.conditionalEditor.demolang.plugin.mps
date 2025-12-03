@@ -122,15 +122,9 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl">
@@ -158,6 +152,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -233,19 +235,166 @@
                     </node>
                   </node>
                   <node concept="P$JXv" id="1tfgU6dhb3O" role="lGtFl">
-                    <node concept="TZ5HA" id="1tfgU6dhb3P" role="TZ5H$">
-                      <node concept="1dT_AC" id="1tfgU6dhb3Q" role="1dT_Ay">
-                        <property role="1dT_AB" value="Returns the map the contains mappings from the concept of the old aliases to the new aliases. The parameters to the" />
+                    <node concept="1PaTwC" id="244VsK_21Ad" role="1Vez_I">
+                      <node concept="3oM_SD" id="244VsK_21Ae" role="1PaTwD">
+                        <property role="3oM_SC" value="Returns" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Af" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Ag" role="1PaTwD">
+                        <property role="3oM_SC" value="map" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Ah" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Ai" role="1PaTwD">
+                        <property role="3oM_SC" value="contains" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Aj" role="1PaTwD">
+                        <property role="3oM_SC" value="mappings" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Ak" role="1PaTwD">
+                        <property role="3oM_SC" value="from" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Al" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Am" role="1PaTwD">
+                        <property role="3oM_SC" value="concept" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21An" role="1PaTwD">
+                        <property role="3oM_SC" value="of" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Ao" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Ap" role="1PaTwD">
+                        <property role="3oM_SC" value="old" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Aq" role="1PaTwD">
+                        <property role="3oM_SC" value="aliases" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Ar" role="1PaTwD">
+                        <property role="3oM_SC" value="to" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21As" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21At" role="1PaTwD">
+                        <property role="3oM_SC" value="new" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Au" role="1PaTwD">
+                        <property role="3oM_SC" value="aliases." />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Av" role="1PaTwD">
+                        <property role="3oM_SC" value="The" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Aw" role="1PaTwD">
+                        <property role="3oM_SC" value="parameters" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Ax" role="1PaTwD">
+                        <property role="3oM_SC" value="to" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21Ay" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
                       </node>
                     </node>
-                    <node concept="TZ5HA" id="1tfgU6dhb3R" role="TZ5H$">
-                      <node concept="1dT_AC" id="1tfgU6dhb3S" role="1dT_Ay">
-                        <property role="1dT_AB" value="closure are the concept descriptor builder that could be used further customize the structure aspect of a concept" />
+                    <node concept="1PaTwC" id="244VsK_21Az" role="1Vez_I">
+                      <node concept="3oM_SD" id="244VsK_21A$" role="1PaTwD">
+                        <property role="3oM_SC" value="closure" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21A_" role="1PaTwD">
+                        <property role="3oM_SC" value="are" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AA" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AB" role="1PaTwD">
+                        <property role="3oM_SC" value="concept" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AC" role="1PaTwD">
+                        <property role="3oM_SC" value="descriptor" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AD" role="1PaTwD">
+                        <property role="3oM_SC" value="builder" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AE" role="1PaTwD">
+                        <property role="3oM_SC" value="that" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AF" role="1PaTwD">
+                        <property role="3oM_SC" value="could" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AG" role="1PaTwD">
+                        <property role="3oM_SC" value="be" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AH" role="1PaTwD">
+                        <property role="3oM_SC" value="used" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AI" role="1PaTwD">
+                        <property role="3oM_SC" value="further" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AJ" role="1PaTwD">
+                        <property role="3oM_SC" value="customize" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AK" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AL" role="1PaTwD">
+                        <property role="3oM_SC" value="structure" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AM" role="1PaTwD">
+                        <property role="3oM_SC" value="aspect" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AN" role="1PaTwD">
+                        <property role="3oM_SC" value="of" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AO" role="1PaTwD">
+                        <property role="3oM_SC" value="a" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AP" role="1PaTwD">
+                        <property role="3oM_SC" value="concept" />
                       </node>
                     </node>
-                    <node concept="TZ5HA" id="1tfgU6dhb3T" role="TZ5H$">
-                      <node concept="1dT_AC" id="1tfgU6dhb3U" role="1dT_Ay">
-                        <property role="1dT_AB" value="and the old alias. It must return a new alias for the concept." />
+                    <node concept="1PaTwC" id="244VsK_21AQ" role="1Vez_I">
+                      <node concept="3oM_SD" id="244VsK_21AR" role="1PaTwD">
+                        <property role="3oM_SC" value="and" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AS" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AT" role="1PaTwD">
+                        <property role="3oM_SC" value="old" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AU" role="1PaTwD">
+                        <property role="3oM_SC" value="alias." />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AV" role="1PaTwD">
+                        <property role="3oM_SC" value="It" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AW" role="1PaTwD">
+                        <property role="3oM_SC" value="must" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AX" role="1PaTwD">
+                        <property role="3oM_SC" value="return" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AY" role="1PaTwD">
+                        <property role="3oM_SC" value="a" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21AZ" role="1PaTwD">
+                        <property role="3oM_SC" value="new" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21B0" role="1PaTwD">
+                        <property role="3oM_SC" value="alias" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21B1" role="1PaTwD">
+                        <property role="3oM_SC" value="for" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21B2" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="244VsK_21B3" role="1PaTwD">
+                        <property role="3oM_SC" value="concept." />
                       </node>
                     </node>
                   </node>

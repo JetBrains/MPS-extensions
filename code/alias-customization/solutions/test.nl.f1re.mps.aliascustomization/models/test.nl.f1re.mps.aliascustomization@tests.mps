@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7d823865-c9a4-4a2a-b0ba-3cdc122aae1b(test.de.slisson.mps.conditionalEditor@tests)">
+<model ref="r:7d823865-c9a4-4a2a-b0ba-3cdc122aae1b(test.nl.f1re.mps.aliascustomization@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="1831633c-aea1-4345-beff-4a6e7fb4f813" name="de.slisson.mps.conditionalEditor.demolang" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="c0a5f6c9-68ef-4488-881a-7ace530278b5" name="test.nl.f1re.mps.aliascustomization.demolang" version="0" />
   </languages>
   <imports>
-    <import index="ye5w" ref="r:6c3a5ff5-b652-48a4-80a3-0e283d57df4d(de.slisson.mps.conditionalEditor.demolang.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -66,16 +65,16 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
-    <language id="1831633c-aea1-4345-beff-4a6e7fb4f813" name="de.slisson.mps.conditionalEditor.demolang">
-      <concept id="7172636034965390688" name="de.slisson.mps.conditionalEditor.demolang.structure.ExpressionWithInspector" flags="ng" index="3kNhso" />
+    <language id="c0a5f6c9-68ef-4488-881a-7ace530278b5" name="test.nl.f1re.mps.aliascustomization.demolang">
+      <concept id="7172636034965390688" name="test.nl.f1re.mps.aliascustomization.demolang.structure.ChangeAlias" flags="ng" index="3kNhso" />
     </language>
   </registry>
   <node concept="1lH9Xt" id="2nIe0Om16T9">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="ChangedAlias" />
     <node concept="1qefOq" id="2nIe0Om1iL4" role="1SKRRt">
-      <node concept="3kNhso" id="2nIe0Om1iL3" role="1qenE9">
-        <node concept="3xLA65" id="2nIe0Om1iO6" role="lGtFl">
+      <node concept="3kNhso" id="3r2yrqnhI6h" role="1qenE9">
+        <node concept="3xLA65" id="3r2yrqnhIa4" role="lGtFl">
           <property role="TrG5h" value="node" />
         </node>
       </node>
@@ -89,7 +88,7 @@
             <node concept="2OqwBi" id="2nIe0OmduYv" role="2Oq$k0">
               <node concept="2OqwBi" id="2nIe0OmduYw" role="2Oq$k0">
                 <node concept="3xONca" id="2nIe0OmduYx" role="2Oq$k0">
-                  <ref role="3xOPvv" node="2nIe0Om1iO6" resolve="node" />
+                  <ref role="3xOPvv" node="3r2yrqnhIa4" resolve="node" />
                 </node>
                 <node concept="2yIwOk" id="2nIe0OmduYy" role="2OqNvi" />
               </node>

@@ -619,6 +619,21 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="2mB0AgdQQGw" role="3cqZAp">
+                <node concept="37vLTI" id="2mB0AgdQRF9" role="3clFbG">
+                  <node concept="2GrUjf" id="2mB0AgdQRMx" role="37vLTx">
+                    <ref role="2Gs0qQ" node="2mB0AgdHnmA" resolve="cellData" />
+                  </node>
+                  <node concept="2OqwBi" id="2mB0AgdQRlW" role="37vLTJ">
+                    <node concept="37vLTw" id="2mB0AgdQQGu" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2mB0AgdHoZo" resolve="cellElement" />
+                    </node>
+                    <node concept="2OwXpG" id="2mB0AgdQRvA" role="2OqNvi">
+                      <ref role="2Oxat5" to="yo94:3kUHLKEQ$Ma" resolve="detailViewRoot" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="2OqwBi" id="2mB0AgdH9EK" role="2GsD0m">
               <node concept="2OqwBi" id="2mB0AgdH7C1" role="2Oq$k0">

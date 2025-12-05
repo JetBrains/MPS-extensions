@@ -1225,6 +1225,76 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2mB0AgdDxxd" role="jymVt" />
+    <node concept="3clFb_" id="2mB0AgdDzaf" role="jymVt">
+      <property role="TrG5h" value="getOwnAndAncestorsTimeNanos" />
+      <node concept="3cpWsb" id="2mB0AgdDFqa" role="3clF45" />
+      <node concept="3Tm1VV" id="2mB0AgdDzai" role="1B3o_S" />
+      <node concept="3clFbS" id="2mB0AgdDzaj" role="3clF47">
+        <node concept="3cpWs8" id="2mB0AgdDKcI" role="3cqZAp">
+          <node concept="3cpWsn" id="2mB0AgdDKcJ" role="3cpWs9">
+            <property role="TrG5h" value="result" />
+            <node concept="3cpWsb" id="2mB0AgdDIHh" role="1tU5fm" />
+            <node concept="1rXfSq" id="2mB0AgdDKcK" role="33vP2m">
+              <ref role="37wK5l" node="2mB0AgcmusO" resolve="getOwnTimeNanos" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2mB0AgdDNNb" role="3cqZAp">
+          <node concept="3clFbS" id="2mB0AgdDNNd" role="3clFbx">
+            <node concept="3clFbF" id="2mB0AgdDUbI" role="3cqZAp">
+              <node concept="d57v9" id="2mB0AgdDZNp" role="3clFbG">
+                <node concept="2OqwBi" id="2mB0AgdE1M0" role="37vLTx">
+                  <node concept="37vLTw" id="2mB0AgdE0PX" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2mB0AgcVJfO" resolve="parentData" />
+                  </node>
+                  <node concept="liA8E" id="2mB0AgdE2VV" role="2OqNvi">
+                    <ref role="37wK5l" node="2mB0AgdDzaf" resolve="getOwnAndAncestorsTimeNanos" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2mB0AgdDUbG" role="37vLTJ">
+                  <ref role="3cqZAo" node="2mB0AgdDKcJ" resolve="result" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2mB0AgdDS4w" role="3clFbw">
+            <node concept="10Nm6u" id="2mB0AgdDT8t" role="3uHU7w" />
+            <node concept="37vLTw" id="2mB0AgdDOOO" role="3uHU7B">
+              <ref role="3cqZAo" node="2mB0AgcVJfO" resolve="parentData" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2mB0AgdDG$l" role="3cqZAp">
+          <node concept="37vLTw" id="2mB0AgdDKcL" role="3clFbG">
+            <ref role="3cqZAo" node="2mB0AgdDKcJ" resolve="ownTimeNanos" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2mB0AgdE3XW" role="jymVt" />
+    <node concept="3clFb_" id="2mB0AgdE5Cc" role="jymVt">
+      <property role="TrG5h" value="getOwnAndAncestorsTimeMillis" />
+      <node concept="10P55v" id="2mB0AgdEcnB" role="3clF45" />
+      <node concept="3Tm1VV" id="2mB0AgdE5Cf" role="1B3o_S" />
+      <node concept="3clFbS" id="2mB0AgdE5Cg" role="3clF47">
+        <node concept="3clFbF" id="2mB0AgdEg9j" role="3cqZAp">
+          <node concept="FJ1c_" id="2mB0AgdElwJ" role="3clFbG">
+            <node concept="3b6qkQ" id="2mB0AgdEpIq" role="3uHU7w">
+              <property role="$nhwW" value="1000000.0" />
+            </node>
+            <node concept="1eOMI4" id="2mB0AgdEg9h" role="3uHU7B">
+              <node concept="10QFUN" id="2mB0AgdEg9e" role="1eOMHV">
+                <node concept="10P55v" id="2mB0AgdEhcV" role="10QFUM" />
+                <node concept="1rXfSq" id="2mB0AgdEigf" role="10QFUP">
+                  <ref role="37wK5l" node="2mB0AgdDzaf" resolve="getOwnAndAncestorsTimeNanos" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="2mB0Agcmup7" role="jymVt" />
     <node concept="3clFb_" id="2mB0AgcmusO" role="jymVt">
       <property role="TrG5h" value="getOwnTimeNanos" />
@@ -5160,6 +5230,34 @@
         <node concept="3cpWs6" id="2mB0Agd0Q4V" role="3cqZAp">
           <node concept="37vLTw" id="2mB0Agd0QLP" role="3cqZAk">
             <ref role="3cqZAo" node="2mB0Agd0PbZ" resolve="allCells" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2mB0Agd_jpn" role="jymVt" />
+    <node concept="3clFb_" id="2mB0Agd_m0H" role="jymVt">
+      <property role="TrG5h" value="getDirectlyAffectedCells" />
+      <node concept="3rvAFt" id="2mB0Agd_xm1" role="3clF45">
+        <node concept="3uibUv" id="2mB0Agd_zWX" role="3rvQeY">
+          <ref role="3uigEE" node="2mB0Agcl5Tq" resolve="CellPerformanceData" />
+        </node>
+        <node concept="3uibUv" id="2mB0Agd_Hsg" role="3rvSg0">
+          <ref role="3uigEE" to="33ny:~Collection" resolve="Collection" />
+          <node concept="3uibUv" id="2mB0Agd_Kb_" role="11_B2D">
+            <ref role="3uigEE" node="2mB0Agcz1v1" resolve="StackTrace" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2mB0Agd_m0K" role="1B3o_S" />
+      <node concept="3clFbS" id="2mB0Agd_m0L" role="3clF47">
+        <node concept="3cpWs6" id="2mB0AgdAe7Z" role="3cqZAp">
+          <node concept="2OqwBi" id="2mB0AgdAe8G" role="3cqZAk">
+            <node concept="37vLTw" id="2mB0AgdAe8H" role="2Oq$k0">
+              <ref role="3cqZAo" node="2mB0AgcStEn" resolve="invalidations" />
+            </node>
+            <node concept="liA8E" id="2mB0AgdAe8I" role="2OqNvi">
+              <ref role="37wK5l" to="3o3z:~SetMultimap.asMap()" resolve="asMap" />
+            </node>
           </node>
         </node>
       </node>

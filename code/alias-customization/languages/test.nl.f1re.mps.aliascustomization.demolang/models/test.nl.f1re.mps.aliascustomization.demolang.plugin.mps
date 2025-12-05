@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:16e0e06f-9e0b-4c67-b1e0-b7bdb58a8945(de.slisson.mps.conditionalEditor.demolang.plugin)">
+<model ref="r:f7e6b5a4-d821-40cc-be56-7edd61c4a361(test.nl.f1re.mps.aliascustomization.demolang.plugin)">
   <persistence version="9" />
   <languages>
     <use id="f159adf4-3c93-40f9-9c5a-1f245a8697af" name="jetbrains.mps.lang.aspect" version="2" />
@@ -11,12 +11,11 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="6iy5" ref="r:f0a80b34-9760-42b8-9ee6-d5b0d1582551(de.slisson.mps.conditionalEditor.runtime.plugin)" />
-    <import index="bzg8" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime.impl(MPS.Core/)" />
+    <import index="94uq" ref="r:4aa258f9-2a58-4453-8509-17aa4bd105d2(nl.f1re.mps.aliascustomization.plugin)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="90d" ref="r:421d64ed-8024-497f-aeab-8bddeb389dd2(jetbrains.mps.lang.extension.methods)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="ye5w" ref="r:6c3a5ff5-b652-48a4-80a3-0e283d57df4d(de.slisson.mps.conditionalEditor.demolang.structure)" implicit="true" />
+    <import index="hx4v" ref="r:143d8fbb-9206-40d4-9eea-833943255ba9(test.nl.f1re.mps.aliascustomization.demolang.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -173,8 +172,8 @@
     </language>
   </registry>
   <node concept="1lYeZD" id="1tfgU6dh9Z7">
-    <property role="TrG5h" value="ExpressionWithInSpectorNewAlias" />
-    <ref role="1lYe$Y" to="6iy5:1tfgU6daVaB" resolve="AliasCustomization" />
+    <property role="TrG5h" value="ChangeAliasNewAlias" />
+    <ref role="1lYe$Y" to="94uq:1tfgU6daVaB" resolve="AliasCustomization" />
     <node concept="3Tm1VV" id="1tfgU6dh9Z8" role="1B3o_S" />
     <node concept="2tJIrI" id="1tfgU6dh9Z9" role="jymVt" />
     <node concept="3tTeZs" id="1tfgU6dh9Za" role="jymVt">
@@ -197,7 +196,7 @@
               <node concept="1Y3b0j" id="1tfgU6dhb3k" role="YeSDq">
                 <property role="2bfB8j" value="true" />
                 <property role="373rjd" value="true" />
-                <ref role="1Y3XeK" to="6iy5:1tfgU6d9mHq" resolve="IAliasCustomization" />
+                <ref role="1Y3XeK" to="94uq:1tfgU6d9mHq" resolve="IAliasCustomization" />
                 <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                 <node concept="3Tm1VV" id="1tfgU6dhb3l" role="1B3o_S" />
                 <node concept="3clFb_" id="1tfgU6dhb3z" role="jymVt">
@@ -225,9 +224,6 @@
                       <node concept="17QB3L" id="1tfgU6dhb3L" role="1ajl9A" />
                       <node concept="3uibUv" id="1tfgU6dhOGi" role="1ajw0F">
                         <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
-                      </node>
-                      <node concept="3uibUv" id="1tfgU6dhb3M" role="1ajw0F">
-                        <ref role="3uigEE" to="bzg8:~ConceptDescriptorBuilder2" resolve="ConceptDescriptorBuilder2" />
                       </node>
                       <node concept="17QB3L" id="1tfgU6dhb3N" role="1ajw0F" />
                     </node>
@@ -260,9 +256,6 @@
                             <node concept="3uibUv" id="1tfgU6dhPc$" role="1ajw0F">
                               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
                             </node>
-                            <node concept="3uibUv" id="1tfgU6dhcbm" role="1ajw0F">
-                              <ref role="3uigEE" to="bzg8:~ConceptDescriptorBuilder2" resolve="ConceptDescriptorBuilder2" />
-                            </node>
                             <node concept="17QB3L" id="1tfgU6dhcbn" role="1ajw0F" />
                           </node>
                         </node>
@@ -291,7 +284,7 @@
                                   </node>
                                   <node concept="2OqwBi" id="1tfgU6dhU39" role="3uHU7w">
                                     <node concept="35c_gC" id="1tfgU6dhTe4" role="2Oq$k0">
-                                      <ref role="35c_gD" to="ye5w:6eakByRhOlw" resolve="ExpressionWithInspector" />
+                                      <ref role="35c_gD" to="hx4v:6eakByRhOlw" resolve="ChangeAlias" />
                                     </node>
                                     <node concept="liA8E" id="1tfgU6dhUDT" role="2OqNvi">
                                       <ref role="37wK5l" to="c17a:~SAbstractConcept.getShortDescription()" resolve="getShortDescription" />
@@ -307,12 +300,6 @@
                               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
                             </node>
                           </node>
-                          <node concept="37vLTG" id="1tfgU6dhfSD" role="1bW2Oz">
-                            <property role="TrG5h" value="builder" />
-                            <node concept="3uibUv" id="1tfgU6dhfSC" role="1tU5fm">
-                              <ref role="3uigEE" to="bzg8:~ConceptDescriptorBuilder2" resolve="ConceptDescriptorBuilder2" />
-                            </node>
-                          </node>
                           <node concept="37vLTG" id="1tfgU6dhhKJ" role="1bW2Oz">
                             <property role="TrG5h" value="oldAlias" />
                             <node concept="17QB3L" id="1tfgU6dhhKG" role="1tU5fm" />
@@ -320,7 +307,7 @@
                         </node>
                         <node concept="3EllGN" id="1tfgU6dheqb" role="37vLTJ">
                           <node concept="35c_gC" id="1tfgU6dhexY" role="3ElVtu">
-                            <ref role="35c_gD" to="ye5w:6eakByRhOlw" resolve="ExpressionWithInspector" />
+                            <ref role="35c_gD" to="hx4v:6eakByRhOlw" resolve="ChangeAlias" />
                           </node>
                           <node concept="37vLTw" id="1tfgU6dhdIx" role="3ElQJh">
                             <ref role="3cqZAo" node="1tfgU6dhbZh" resolve="mapping" />

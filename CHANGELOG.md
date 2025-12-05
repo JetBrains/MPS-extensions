@@ -4,11 +4,18 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## December 2025
+
+### Added
+
+- *nl.f1re.mps.aliascustomization* The alias of all concepts globally can now be customized through the extension point [AliasCustomization.](http://127.0.0.1:63320/node?ref=r%3Af0a80b34-9760-42b8-9ee6-d5b0d1582551%28de.slisson.mps.conditionalEditor.runtime.plugin%29%2F1679635547169731239) Please be aware that this feature is experimental. Use it with care!
+
 ## November 2025
 
 ### Added
 
 - *de.itemis.mps.editor.diagram.runtime* Add an experimental static flag to disable autolayout-on-init. Useful for batch autolayouting.
+- *com.mbeddr.mpsutil.grammarcells* All cells now support *show* *if* blocks (except optional cells), parent styles and style sheet items. Note that only certain styles can be applied (transitive styles and styles that make sense for wrapper cells).
 
 ### Fixed
 
@@ -17,10 +24,6 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.editor.pagination* A NullPointerException was fixed for cases where the clicked node was null.
 - *de.itemis.mps.spellcheck* Custom dictionaries are not saved in the .mps/dictionaries/project.xml files anymore and pollute the file that is normally used for words saved manually by the user.
 - *de.itemis.mps.editor.celllayout* Reloading all classes do not lead to ClassCastExceptions anymore.
-
-### Added
-
-- *com.mbeddr.mpsutil.grammarcells* All cells now support *show* *if* blocks (except optional cells), parent styles and style sheet items. Note that only certain styles can be applied (transitive styles and styles that make sense for wrapper cells).
 
 ## October 2025
 

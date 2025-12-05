@@ -8,10 +8,11 @@
   <imports>
     <import index="yo94" ref="r:4629a434-6c59-4e7a-9315-92ac147f2aaa(de.q60.mps.explorer.pf)" />
     <import index="7qgv" ref="r:d20d7e3d-c19f-4b62-8523-56cab11bee2a(de.q60.mps.editor.performanceanalyzer.plugin)" />
+    <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" implicit="true" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -305,6 +306,115 @@
         </node>
       </node>
     </node>
+    <node concept="3khUF5" id="2mB0AgdzfTc" role="3khUj0" />
+    <node concept="3ku1Nf" id="2mB0Agdzh_B" role="3khUj0">
+      <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
+      <node concept="3clFbS" id="2mB0Agdzh_D" role="3ku1Le">
+        <node concept="3cpWs8" id="2mB0AgdzoiI" role="3cqZAp">
+          <node concept="3cpWsn" id="2mB0AgdzoiJ" role="3cpWs9">
+            <property role="TrG5h" value="result" />
+            <node concept="3uibUv" id="2mB0AgdzoiK" role="1tU5fm">
+              <ref role="3uigEE" to="yo94:41QOk3IEvi1" resolve="ExplorerElement" />
+            </node>
+            <node concept="2ShNRf" id="2mB0AgdzoiL" role="33vP2m">
+              <node concept="HV5vD" id="2mB0AgdzoiM" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="HV5vE" to="yo94:41QOk3IEvi1" resolve="ExplorerElement" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2mB0Agdzojl" role="3cqZAp">
+          <node concept="37vLTI" id="2mB0Agdzojm" role="3clFbG">
+            <node concept="3cpWs3" id="2mB0Agdzojn" role="37vLTx">
+              <node concept="3cpWs3" id="2mB0Agdzojo" role="3uHU7B">
+                <node concept="Xl_RD" id="2mB0Agdzojp" role="3uHU7w">
+                  <property role="Xl_RC" value=" ms] " />
+                </node>
+                <node concept="3cpWs3" id="2mB0Agdzojq" role="3uHU7B">
+                  <node concept="3cpWs3" id="2mB0Agdzojr" role="3uHU7B">
+                    <node concept="3cpWs3" id="2mB0Agdzojs" role="3uHU7B">
+                      <node concept="Xl_RD" id="2mB0Agdzojt" role="3uHU7B">
+                        <property role="Xl_RC" value="[" />
+                      </node>
+                      <node concept="2OqwBi" id="2mB0Agdz_79" role="3uHU7w">
+                        <node concept="3kvyP4" id="2mB0AgdzzU$" role="2Oq$k0">
+                          <ref role="3kvyN1" node="2mB0Agdzj8J" resolve="group" />
+                        </node>
+                        <node concept="2OwXpG" id="2mB0AgdzAjC" role="2OqNvi">
+                          <ref role="2Oxat5" to="7qgv:2mB0Agdx_Nq" resolve="min" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="2mB0Agdzojv" role="3uHU7w">
+                      <property role="Xl_RC" value=" ms, " />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2mB0AgdzE5S" role="3uHU7w">
+                    <node concept="3kvyP4" id="2mB0AgdzCie" role="2Oq$k0">
+                      <ref role="3kvyN1" node="2mB0Agdzj8J" resolve="group" />
+                    </node>
+                    <node concept="2OwXpG" id="2mB0AgdzFfi" role="2OqNvi">
+                      <ref role="2Oxat5" to="7qgv:2mB0AgdxB4o" resolve="max" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3kvyP4" id="2mB0AgdzHjh" role="3uHU7w">
+                <ref role="3kvyN1" node="2mB0Agdzj8J" resolve="group" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2mB0Agdzoj$" role="37vLTJ">
+              <node concept="37vLTw" id="2mB0Agdzoj_" role="2Oq$k0">
+                <ref role="3cqZAo" node="2mB0AgdzoiJ" resolve="result" />
+              </node>
+              <node concept="2OwXpG" id="2mB0AgdzojA" role="2OqNvi">
+                <ref role="2Oxat5" to="yo94:41QOk3IEvnH" resolve="text" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="2mB0AgdzoiS" role="3cqZAp">
+          <node concept="2GrKxI" id="2mB0AgdzoiT" role="2Gsz3X">
+            <property role="TrG5h" value="changeAnalysis" />
+          </node>
+          <node concept="2OqwBi" id="2mB0AgdzqYQ" role="2GsD0m">
+            <node concept="3kvyP4" id="2mB0AgdzqA6" role="2Oq$k0">
+              <ref role="3kvyN1" node="2mB0Agdzj8J" resolve="group" />
+            </node>
+            <node concept="2OwXpG" id="2mB0AgdzsK2" role="2OqNvi">
+              <ref role="2Oxat5" to="7qgv:2mB0Agdxw3k" resolve="analyses" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2mB0AgdzoiX" role="2LFqv$">
+            <node concept="3clFbF" id="2mB0Agdzojg" role="3cqZAp">
+              <node concept="2OqwBi" id="2mB0Agdzojh" role="3clFbG">
+                <node concept="37vLTw" id="2mB0Agdzoji" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2mB0AgdzoiJ" resolve="modelChange" />
+                </node>
+                <node concept="liA8E" id="2mB0Agdzojj" role="2OqNvi">
+                  <ref role="37wK5l" to="yo94:41QOk3IFYkF" resolve="addChild" />
+                  <node concept="2GrUjf" id="2mB0Agdzojk" role="37wK5m">
+                    <ref role="2Gs0qQ" node="2mB0AgdzoiT" resolve="changeAnalysis" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2mB0AgdzJy2" role="3cqZAp">
+          <node concept="37vLTw" id="2mB0AgdzJyJ" role="3cqZAk">
+            <ref role="3cqZAo" node="2mB0AgdzoiJ" resolve="result" />
+          </node>
+        </node>
+      </node>
+      <node concept="3khFPE" id="2mB0Agdzj8J" role="3kuS7x">
+        <property role="TrG5h" value="group" />
+        <node concept="3uibUv" id="2mB0Agdzj8K" role="3khFNH">
+          <ref role="3uigEE" to="7qgv:2mB0AgdxuhQ" resolve="ChangeEventAnalysisGroup" />
+        </node>
+      </node>
+    </node>
     <node concept="3khUF5" id="2mB0AgdqO0y" role="3khUj0" />
     <node concept="lnCDq" id="2mB0AgcGTeP" role="3khUj0">
       <ref role="lnCDC" to="yo94:476rsMJhYDz" resolve="mainView" />
@@ -368,7 +478,7 @@
               <node concept="liA8E" id="2mB0AgcOcfN" role="2OqNvi">
                 <ref role="37wK5l" to="yo94:41QOk3IFokw" resolve="addChild" />
                 <node concept="Xl_RD" id="2mB0AgcOebZ" role="37wK5m">
-                  <property role="Xl_RC" value="Root Cell: " />
+                  <property role="Xl_RC" value="Cell Tree Root: " />
                 </node>
                 <node concept="2OqwBi" id="2mB0AgcOd7X" role="37wK5m">
                   <node concept="3kvyP4" id="2mB0AgcOcZj" role="2Oq$k0">
@@ -382,31 +492,73 @@
             </node>
           </node>
           <node concept="3clFbH" id="2mB0AgcXJ7o" role="3cqZAp" />
+          <node concept="3cpWs8" id="2mB0Agdu1iN" role="3cqZAp">
+            <node concept="3cpWsn" id="2mB0Agdu1iO" role="3cpWs9">
+              <property role="TrG5h" value="modelChanges" />
+              <node concept="3uibUv" id="2mB0Agdu1iP" role="1tU5fm">
+                <ref role="3uigEE" to="yo94:41QOk3IEvi1" resolve="ExplorerElement" />
+              </node>
+              <node concept="2ShNRf" id="2mB0Agdu2nH" role="33vP2m">
+                <node concept="HV5vD" id="2mB0Agdu2vk" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="HV5vE" to="yo94:41QOk3IEvi1" resolve="ExplorerElement" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="2mB0Agdvs6w" role="3cqZAp">
+            <node concept="2OqwBi" id="2mB0Agdvudn" role="3clFbG">
+              <node concept="37vLTw" id="2mB0Agdvs6u" role="2Oq$k0">
+                <ref role="3cqZAo" node="2mB0AgcO107" resolve="result" />
+              </node>
+              <node concept="liA8E" id="2mB0AgdvuY6" role="2OqNvi">
+                <ref role="37wK5l" to="yo94:41QOk3IFYkF" resolve="addChild" />
+                <node concept="37vLTw" id="2mB0Agdvv37" role="37wK5m">
+                  <ref role="3cqZAo" node="2mB0Agdu1iO" resolve="modelChanges" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="2mB0Agdu4nP" role="3cqZAp">
+            <node concept="37vLTI" id="2mB0Agdu70v" role="3clFbG">
+              <node concept="Xl_RD" id="2mB0Agdu71E" role="37vLTx">
+                <property role="Xl_RC" value="Delay caused by model changes" />
+              </node>
+              <node concept="2OqwBi" id="2mB0Agdu5yW" role="37vLTJ">
+                <node concept="37vLTw" id="2mB0Agdu4nN" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2mB0Agdu1iO" resolve="modelChanges" />
+                </node>
+                <node concept="2OwXpG" id="2mB0Agdu5ES" role="2OqNvi">
+                  <ref role="2Oxat5" to="yo94:41QOk3IEvnH" resolve="text" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="2Gpval" id="2mB0AgcXK_S" role="3cqZAp">
             <node concept="2GrKxI" id="2mB0AgcXK_U" role="2Gsz3X">
-              <property role="TrG5h" value="event" />
+              <property role="TrG5h" value="changeGroup" />
             </node>
             <node concept="3clFbS" id="2mB0AgcXK_Y" role="2LFqv$">
-              <node concept="3clFbF" id="2mB0AgcXaS9" role="3cqZAp">
-                <node concept="2OqwBi" id="2mB0AgcXaSa" role="3clFbG">
-                  <node concept="37vLTw" id="2mB0AgcXaSb" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2mB0AgcO107" resolve="result" />
+              <node concept="3clFbF" id="2mB0AgdzMUP" role="3cqZAp">
+                <node concept="2OqwBi" id="2mB0AgdzObC" role="3clFbG">
+                  <node concept="37vLTw" id="2mB0AgdzMUN" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2mB0Agdu1iO" resolve="modelChanges" />
                   </node>
-                  <node concept="liA8E" id="2mB0AgcXaSc" role="2OqNvi">
+                  <node concept="liA8E" id="2mB0AgdzOlW" role="2OqNvi">
                     <ref role="37wK5l" to="yo94:41QOk3IFYkF" resolve="addChild" />
-                    <node concept="2GrUjf" id="2mB0AgcXM2e" role="37wK5m">
-                      <ref role="2Gs0qQ" node="2mB0AgcXK_U" resolve="event" />
+                    <node concept="2GrUjf" id="2mB0AgdzOsb" role="37wK5m">
+                      <ref role="2Gs0qQ" node="2mB0AgcXK_U" resolve="changeGroup" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="2mB0AgcXK7w" role="2GsD0m">
-              <node concept="3kvyP4" id="2mB0AgcXK7x" role="2Oq$k0">
+            <node concept="2OqwBi" id="2mB0Agdz8go" role="2GsD0m">
+              <node concept="3kvyP4" id="2mB0Agdz7Lx" role="2Oq$k0">
                 <ref role="3kvyN1" node="2mB0AgcO10E" resolve="analysisResult" />
               </node>
-              <node concept="liA8E" id="2mB0AgcXK7y" role="2OqNvi">
-                <ref role="37wK5l" to="7qgv:2mB0AgcOBaF" resolve="getMostExpensiveChanges" />
+              <node concept="liA8E" id="2mB0Agdz9Eo" role="2OqNvi">
+                <ref role="37wK5l" to="7qgv:2mB0Agdysok" resolve="getGroupedChanges" />
               </node>
             </node>
           </node>

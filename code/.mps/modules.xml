@@ -2,6 +2,9 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/alias-customization/languages/test.nl.f1re.mps.aliascustomization.demolang/test.nl.f1re.mps.aliascustomization.demolang.mpl" folder="alias-customization" />
+      <modulePath path="$PROJECT_DIR$/alias-customization/solutions/nl.f1re.mps.aliascustomization/nl.f1re.mps.aliascustomization.msd" folder="alias-customization" />
+      <modulePath path="$PROJECT_DIR$/alias-customization/solutions/test.nl.f1re.mps.aliascustomization/test.nl.f1re.mps.aliascustomization.msd" folder="alias-customization" />
       <modulePath path="$PROJECT_DIR$/apache-commons/solutions/org.apache.commons/org.apache.commons.msd" folder="apache-commons" />
       <modulePath path="$PROJECT_DIR$/batik/solutions/de.itemis.stubs.batik.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/blutil/languages/com.mbeddr.mpsutil.blutil.genutil/com.mbeddr.mpsutil.blutil.genutil.mpl" folder="blutil" />
@@ -41,7 +44,6 @@
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor/de.slisson.mps.conditionalEditor.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/solutions/de.slisson.mps.conditionalEditor.runtime/de.slisson.mps.conditionalEditor.runtime.msd" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/solutions/de.slisson.mps.conditionalEditor.sandbox/de.slisson.mps.conditionalEditor.sandbox.msd" folder="conditional-editor" />
-      <modulePath path="$PROJECT_DIR$/conditional-editor/solutions/test.de.slisson.mps.conditionalEditor/test.de.slisson.mps.conditionalEditor.msd" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/debug/languages/de.itemis.mps.debug/de.itemis.mps.debug.mpl" folder="debug" />
       <modulePath path="$PROJECT_DIR$/debug/solutions/de.itemis.mps.debug.runtime/de.itemis.mps.debug.runtime.msd" folder="debug" />
       <modulePath path="$PROJECT_DIR$/devkits/de.q60.mps.genplan.virutalinterfaces_incremental.devkit/de.q60.mps.genplan.virutalinterfaces_incremental.devkit.devkit" folder="shadowmodels.examples.interpreter" />

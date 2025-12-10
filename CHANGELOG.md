@@ -8,7 +8,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- All usages of deprecated `NavigationSupport.getInstance()` were migrated to `NavigationSupport.getInstance(Project mpsProject)`
+- Migrate all usages of deprecated getInstance() from [NavigationSupport](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.openapi.navigation%28MPS.Editor%2F%29%2F~NavigationSupport) to its replacement getInstance(Project mpsProject)
 
 ## November 2025
 

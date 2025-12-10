@@ -14,6 +14,7 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="teg0" ref="r:96165ed2-ef22-48c7-bfe5-8fce083cbabb(com.mbeddr.mpsutil.grammarcells.structure)" />
     <import index="tegv" ref="r:b91d2412-f094-4e55-8db6-3c782d7edc40(com.mbeddr.mpsutil.intentions.structure)" />
+    <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
   </imports>
   <registry>
     <language id="638c9345-2613-49dc-b2ae-8ceadef24141" name="de.itemis.mps.changelog">
@@ -231,6 +232,59 @@
         </node>
         <node concept="3oM_SD" id="1$KnWE8iTo8" role="1PaTwD">
           <property role="3oM_SC" value="month." />
+        </node>
+      </node>
+    </node>
+    <node concept="15bmVD" id="6xbWs8QlwdI" role="15bmVC">
+      <node concept="15ShDW" id="6xbWs8QlwdF" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgBx/December" />
+        <property role="15ShDw" value="2025" />
+      </node>
+      <node concept="15bAme" id="6xbWs8QlwdG" role="15bAlL">
+        <node concept="2DRihI" id="6xbWs8QlwdH" role="15bAlk">
+          <node concept="3oM_SD" id="6xbWs8QlwdK" role="1PaTwD">
+            <property role="3oM_SC" value="Migrate" />
+          </node>
+          <node concept="3oM_SD" id="6xbWs8QlwjY" role="1PaTwD">
+            <property role="3oM_SC" value="all" />
+          </node>
+          <node concept="3oM_SD" id="6xbWs8QlwdL" role="1PaTwD">
+            <property role="3oM_SC" value="usages" />
+          </node>
+          <node concept="3oM_SD" id="6xbWs8QlwdM" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="6xbWs8QlwdN" role="1PaTwD">
+            <property role="3oM_SC" value="deprecated" />
+          </node>
+          <node concept="3oM_SD" id="6xbWs8QlwjW" role="1PaTwD">
+            <property role="3oM_SC" value="getInstance()" />
+          </node>
+          <node concept="3oM_SD" id="6xbWs8QlwjX" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="15BRQy" id="6xbWs8QlwjG" role="1PaTwD">
+            <node concept="2tJFMh" id="6xbWs8QlwjI" role="15BRQ_">
+              <node concept="ZC_QK" id="6xbWs8QlwjO" role="2tJFKM">
+                <ref role="2aWVGs" to="kz9k:~NavigationSupport" resolve="NavigationSupport" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="6xbWs8Qlwk0" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="6xbWs8Qlwk1" role="1PaTwD">
+            <property role="3oM_SC" value="its" />
+          </node>
+          <node concept="3oM_SD" id="6xbWs8Qlwk2" role="1PaTwD">
+            <property role="3oM_SC" value="replacement" />
+          </node>
+          <node concept="3oM_SD" id="6xbWs8Qlwk3" role="1PaTwD">
+            <property role="3oM_SC" value="getInstance(Project" />
+          </node>
+          <node concept="3oM_SD" id="6Ma6J$ktwcx" role="1PaTwD">
+            <property role="3oM_SC" value="mpsProject)" />
+          </node>
         </node>
       </node>
     </node>

@@ -12,6 +12,7 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" />
     <import index="4dud" ref="r:2da81fb8-b6c6-47b8-8c70-4c760b6faf63(de.itemis.mps.editor.dropdown.runtime)" />
+    <import index="nivk" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.descriptor(MPS.Editor/)" />
     <import index="9b3t" ref="r:89097a7d-e3bb-45b9-bbd8-21e9e897dd54(de.itemis.mps.editor.dropdown.structure)" implicit="true" />
   </imports>
   <registry>
@@ -31,20 +32,21 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <property id="1075300953594" name="abstractClass" index="1sVAO0" />
+        <child id="1095933932569" name="implementedInterface" index="EKbjA" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
-      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
-        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
@@ -72,6 +74,7 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -122,7 +125,6 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -186,6 +188,7 @@
     <ref role="3gUMe" to="9b3t:_i_acSf54w" resolve="CellModel_DropDown" />
     <node concept="312cEu" id="g_$xYfi" role="13RCb5">
       <property role="TrG5h" value="_context_class_" />
+      <property role="1sVAO0" value="true" />
       <node concept="3clFbW" id="3NbAIGiCiLd" role="jymVt">
         <node concept="3clFbS" id="3NbAIGiCiLg" role="3clF47" />
         <node concept="3cqZAl" id="3NbAIGiCiLe" role="3clF45" />
@@ -197,7 +200,7 @@
           <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
         <node concept="raruj" id="g_CeiMW" role="lGtFl">
-          <ref role="2sdACS" to="tpc3:hG092h3" resolve="cellFactoryMethod" />
+          <ref role="2sdACS" to="tpc3:2dNBF9rpTiT" resolve="cellFactory.factoryMethod" />
         </node>
         <node concept="3clFbS" id="g_CeiMh" role="3clF47">
           <node concept="3cpWs8" id="g_CeiMn" role="3cqZAp">
@@ -209,11 +212,11 @@
               <node concept="2ShNRf" id="3_TG3j97kDd" role="33vP2m">
                 <node concept="1pGfFk" id="3_TG3j97$_b" role="2ShVmc">
                   <ref role="37wK5l" to="4dud:3_TG3j942r7" resolve="EditorCell_DropDown" />
-                  <node concept="37vLTw" id="3_TG3j97A1F" role="37wK5m">
-                    <ref role="3cqZAo" node="g_CeiMc" resolve="editorContext" />
+                  <node concept="1rXfSq" id="ZoaVGMTwYL" role="37wK5m">
+                    <ref role="37wK5l" to="nivk:~EditorBuilderEnvironment.getEditorContext()" resolve="getEditorContext" />
                   </node>
-                  <node concept="37vLTw" id="3_TG3j97Beo" role="37wK5m">
-                    <ref role="3cqZAo" node="g_CeiMe" resolve="node" />
+                  <node concept="1rXfSq" id="ZoaVGMTxav" role="37wK5m">
+                    <ref role="37wK5l" to="nivk:~EditorBuilderEnvironment.getNode()" resolve="getNode" />
                   </node>
                   <node concept="10Nm6u" id="5ajRFTcxVAM" role="37wK5m">
                     <node concept="5jKBG" id="6hpM9fmFEc3" role="lGtFl">
@@ -251,16 +254,6 @@
             </node>
           </node>
         </node>
-        <node concept="37vLTG" id="g_CeiMc" role="3clF46">
-          <property role="TrG5h" value="editorContext" />
-          <node concept="3uibUv" id="3BkXqO9qb4X" role="1tU5fm">
-            <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
-          </node>
-        </node>
-        <node concept="37vLTG" id="g_CeiMe" role="3clF46">
-          <property role="TrG5h" value="node" />
-          <node concept="3Tqbb2" id="i2nPODN" role="1tU5fm" />
-        </node>
         <node concept="3Tm6S6" id="1y7DiaVv33d" role="1B3o_S" />
         <node concept="17Uvod" id="g_CeiMX" role="lGtFl">
           <property role="2qtEX9" value="name" />
@@ -280,23 +273,10 @@
           </node>
         </node>
       </node>
-      <node concept="3clFb_" id="5KDKp$lLLhS" role="jymVt">
-        <property role="TrG5h" value="newFactoryMethod" />
-        <node concept="3uibUv" id="5KDKp$lLLhT" role="3clF45">
-          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
-        </node>
-        <node concept="3clFbS" id="5KDKp$lLLhU" role="3clF47">
-          <node concept="3cpWs6" id="5KDKp$lLLhV" role="3cqZAp">
-            <node concept="10Nm6u" id="5KDKp$lLLhW" role="3cqZAk" />
-          </node>
-        </node>
-        <node concept="raruj" id="5KDKp$lLLhX" role="lGtFl" />
-        <node concept="5jKBG" id="5KDKp$lLLhY" role="lGtFl">
-          <ref role="v9R2y" to="tpc3:2dNBF9rt5kk" resolve="template_cellFactoryCompatibility" />
-        </node>
-        <node concept="3Tm6S6" id="5KDKp$lLLhZ" role="1B3o_S" />
-      </node>
       <node concept="3Tm1VV" id="h9B3LuZ" role="1B3o_S" />
+      <node concept="3uibUv" id="ZoaVGMTwmz" role="EKbjA">
+        <ref role="3uigEE" to="nivk:~EditorBuilderEnvironment" resolve="EditorBuilderEnvironment" />
+      </node>
     </node>
   </node>
 </model>

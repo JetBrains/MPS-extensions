@@ -12284,6 +12284,11 @@
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
             </node>
           </node>
+          <node concept="1SiIV0" id="ZoaVGMQJo8" role="3bR37C">
+            <node concept="3bR9La" id="ZoaVGMQJo9" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:2Qa9MYMHrcB" resolve="jetbrains.mps.editorlang.runtime" />
+            </node>
+          </node>
           <node concept="1SiIV0" id="4iIKqJTZ5Jt" role="3bR37C">
             <node concept="3bR9La" id="4iIKqJTZ5Js" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:7YI57w6K0iE" resolve="jetbrains.mps.lang.editor#1129914002149" />

@@ -63,6 +63,11 @@
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.shapes/de.itemis.mps.editor.diagram.shapes.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/test.de.itemis.mps.editor.diagram.solution/test.de.itemis.mps.editor.diagram.solution.msd" folder="diagram" />
+      <modulePath path="$PROJECT_DIR$/editor-performance/de.q60.mps.editor.performance.cells.runtime/de.q60.mps.editor.performance.cells.runtime.msd" folder="editor-performance" />
+      <modulePath path="$PROJECT_DIR$/editor-performance/de.q60.mps.editor.performance.cells/de.q60.mps.editor.performance.cells.mpl" folder="editor-performance" />
+      <modulePath path="$PROJECT_DIR$/editor-performance/de.q60.mps.editor.performance.hints/de.q60.mps.editor.performance.hints.mpl" folder="editor-performance" />
+      <modulePath path="$PROJECT_DIR$/editor-performance/de.q60.mps.editor.performance.utils.lang/de.q60.mps.editor.performance.utils.lang.mpl" folder="editor-performance" />
+      <modulePath path="$PROJECT_DIR$/editor-performance/test.de.q60.mps.editor.performance/test.de.q60.mps.editor.performance.msd" folder="editor-performance" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.runtimelang/com.mbeddr.mpsutil.grammarcells.runtimelang.mpl" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.sandboxlang/com.mbeddr.mpsutil.grammarcells.sandboxlang.mpl" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells/com.mbeddr.mpsutil.grammarcells.mpl" folder="grammarcells" />

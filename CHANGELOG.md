@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## December 2025
+
+### Added
+
+- *de.q60.mps.editor.performance.cells* Asynchronous editor updates: A global option that improves the performance of MPS in general by partially delaying updates of editor cells that are currently not important for the edited part of the model. This can significantly improve the responsiveness of large root nodes. Choose `Asynchronous Editor Updates` from the context menu to enable/disable it.
+
 ## November 2025
 
 ### Fixed

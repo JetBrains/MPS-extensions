@@ -22,6 +22,7 @@
     <dependency reexport="false">b92f861d-0184-446d-b88b-6dcf0e070241(com.mbeddr.mpsutil.intentions)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">63b449db-0918-4a4a-a891-2c430ab133e4(org.junit.junit5)</dependency>
+    <dependency reexport="false">f4eaf5cb-c1e6-4968-831c-c28a93349488(nl.f1re.testing.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:b92f861d-0184-446d-b88b-6dcf0e070241:com.mbeddr.mpsutil.intentions" version="0" />
@@ -59,6 +60,7 @@
     <module reference="73a78daa-4204-43ee-8a0e-1b2b39741908(com.mbeddr.mpsutil.intentions.tests)" version="0" />
     <module reference="5b1f863d-65a0-41a6-a801-33896be24202(jetbrains.mps.ide.editor)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+    <module reference="f4eaf5cb-c1e6-4968-831c-c28a93349488(nl.f1re.testing.runtime)" version="0" />
     <module reference="63b449db-0918-4a4a-a891-2c430ab133e4(org.junit.junit5)" version="0" />
   </dependencyVersions>
 </solution>

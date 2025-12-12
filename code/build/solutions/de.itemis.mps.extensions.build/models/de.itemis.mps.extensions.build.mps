@@ -7178,6 +7178,9 @@
       <node concept="m$_yC" id="6pV3rYYJD2L" role="m$_yJ">
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
+      <node concept="m$_yC" id="70CVSw67_7v" role="m$_yJ">
+        <ref role="m$_y1" node="TAJODzUQvo" resolve="com.mbeddr.mpsutil.intentions" />
+      </node>
     </node>
     <node concept="2G$12M" id="3OVhQEUM8kU" role="3989C9">
       <property role="TrG5h" value="nl.f1re.testing" />
@@ -7411,6 +7414,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="70CVSw67$DD" role="3bR37C">
+          <node concept="3bR9La" id="70CVSw67$DE" role="1SiIV1">
+            <ref role="3bR37D" node="3NH93cznmT7" resolve="com.mbeddr.mpsutil.intentions.runtime" />
           </node>
         </node>
       </node>
@@ -25124,6 +25132,11 @@
             <ref role="3bR37D" to="ffeo:1ULLXZL0gZG" resolve="org.junit.junit5" />
           </node>
         </node>
+        <node concept="1SiIV0" id="70CVSw67_OS" role="3bR37C">
+          <node concept="3bR9La" id="70CVSw67_OT" role="1SiIV1">
+            <ref role="3bR37D" node="3OVhQEUM97i" resolve="nl.f1re.testing.runtime" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="77YfcvOSSnB" role="3989C9">
@@ -26423,6 +26436,16 @@
         <node concept="1SiIV0" id="5gDLJkL8X8O" role="3bR37C">
           <node concept="3bR9La" id="5gDLJkL8X8P" role="1SiIV1">
             <ref role="3bR37D" node="1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="70CVSw67_T2" role="3bR37C">
+          <node concept="3bR9La" id="70CVSw67_T3" role="1SiIV1">
+            <ref role="3bR37D" node="3NH93cznmT7" resolve="com.mbeddr.mpsutil.intentions.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="70CVSw67_T4" role="3bR37C">
+          <node concept="3bR9La" id="70CVSw67_T5" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L7y" resolve="jetbrains.mps.lang.intentions" />
           </node>
         </node>
       </node>

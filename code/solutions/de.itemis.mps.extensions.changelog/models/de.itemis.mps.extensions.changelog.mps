@@ -333,6 +333,129 @@
             <property role="3oM_SC" value="care!" />
           </node>
         </node>
+        <node concept="2DRihI" id="70CVSw6d4hZ" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="70CVSw6d4iA" role="1PaTwD">
+            <node concept="37shsh" id="70CVSw6d4iC" role="15Aodc">
+              <node concept="1dCxOk" id="70CVSw6d58W" role="37shsm">
+                <property role="1XweGW" value="b92f861d-0184-446d-b88b-6dcf0e070241" />
+                <property role="1XxBO9" value="com.mbeddr.mpsutil.intentions" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d591" role="1PaTwD">
+            <property role="3oM_SC" value="All" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d592" role="1PaTwD">
+            <property role="3oM_SC" value="intentions" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d593" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d594" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d595" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d596" role="1PaTwD">
+            <property role="3oM_SC" value="customized" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d597" role="1PaTwD">
+            <property role="3oM_SC" value="through" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d598" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d599" role="1PaTwD">
+            <property role="3oM_SC" value="extension" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d59a" role="1PaTwD">
+            <property role="3oM_SC" value="point" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d5Kc" role="1PaTwD">
+            <property role="3oM_SC" value="IntentionCustomization" />
+            <property role="1X82VU" value="http://127.0.0.1:63320/node?ref=r%3A028362d1-b964-410a-a3d5-6096bcd4a2b6%28com.mbeddr.mpsutil.intentions.runtime.plugin%29%2F4784371196443178355" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d5Qd" role="1PaTwD">
+            <property role="3oM_SC" value="(child" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d5VY" role="1PaTwD">
+            <property role="3oM_SC" value="filter," />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d5VZ" role="1PaTwD">
+            <property role="3oM_SC" value="description," />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61K" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61L" role="1PaTwD">
+            <property role="3oM_SC" value="applicable" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61M" role="1PaTwD">
+            <property role="3oM_SC" value="block," />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61N" role="1PaTwD">
+            <property role="3oM_SC" value="execute" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61O" role="1PaTwD">
+            <property role="3oM_SC" value="method)." />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61P" role="1PaTwD">
+            <property role="3oM_SC" value="Note" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61Q" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61R" role="1PaTwD">
+            <property role="3oM_SC" value="you" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61S" role="1PaTwD">
+            <property role="3oM_SC" value="can't" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61T" role="1PaTwD">
+            <property role="3oM_SC" value="customize" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61U" role="1PaTwD">
+            <property role="3oM_SC" value="intentions" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61V" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61W" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61X" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61Y" role="1PaTwD">
+            <property role="3oM_SC" value="enabled" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d61Z" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d620" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d621" role="1PaTwD">
+            <property role="3oM_SC" value="current" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d622" role="1PaTwD">
+            <property role="3oM_SC" value="context" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d625" role="1PaTwD">
+            <property role="3oM_SC" value="(node" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d626" role="1PaTwD">
+            <property role="3oM_SC" value="+" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d627" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+          <node concept="3oM_SD" id="70CVSw6d628" role="1PaTwD">
+            <property role="3oM_SC" value="context)." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="6Qwtr1aMjHs" role="15bmVC">

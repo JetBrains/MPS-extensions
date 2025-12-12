@@ -2,7 +2,9 @@ import com.specificlanguages.mps.MainBuild
 import com.specificlanguages.mps.MpsBuild
 import com.specificlanguages.mps.RunAnt
 import com.specificlanguages.mps.TestBuild
+import de.itemis.mps.gradle.EnvironmentKind
 import de.itemis.mps.gradle.GitBasedVersioning
+import de.itemis.mps.gradle.tasks.MpsGenerate
 import de.itemis.mps.gradle.tasks.MpsMigrate
 import de.itemis.mps.gradle.tasks.Remigrate
 import groovy.xml.XmlSlurper
@@ -188,39 +190,37 @@ bundledDependencies {
 
 }
 
-mpsBuilds {
-    val languages by creating(MainBuild::class) {
-        mpsProjectDirectory = codeDir
-        buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions")
-        buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
-        buildFile = layout.buildDirectory.file("generated/languages/build.xml")
-    }
+val languages by mpsBuilds.creating(MainBuild::class) {
+    mpsProjectDirectory = codeDir
+    buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions")
+    buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
+    buildFile = layout.buildDirectory.file("generated/languages/build.xml")
+}
 
-    val tests by creating(TestBuild::class) {
-        dependsOn(languages)
-        mpsProjectDirectory = codeDir
-        buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions.tests")
-        buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
-        buildFile = layout.buildDirectory.file("generated/tests/build.xml")
+val tests by mpsBuilds.creating(TestBuild::class) {
+    dependsOn(languages)
+    mpsProjectDirectory = codeDir
+    buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions.tests")
+    buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
+    buildFile = layout.buildDirectory.file("generated/tests/build.xml")
 
-        assembleAndCheckTask {
-            finalizedBy("failOnTestError")
+    assembleAndCheckTask {
+        finalizedBy("failOnTestError")
 
-            doLast {
-                val reportDir = layout.buildDirectory.dir("junitreport").get()
-                ant.withGroovyBuilder {
-                    "taskdef"(
-                        "name" to "junitreport",
-                        "classname" to "org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator",
-                        "classpath" to mpsDefaults.antClasspath.asPath
-                    )
-                    "junitreport" {
-                        "fileset"("dir" to "$buildDir", "includes" to "**/TEST*.xml")
-                        "report"("format" to "frames", "todir" to reportDir)
-                    }
+        doLast {
+            val reportDir = layout.buildDirectory.dir("junitreport").get()
+            ant.withGroovyBuilder {
+                "taskdef"(
+                    "name" to "junitreport",
+                    "classname" to "org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator",
+                    "classpath" to mpsDefaults.antClasspath.asPath
+                )
+                "junitreport" {
+                    "fileset"("dir" to "$buildDir", "includes" to "**/TEST*.xml")
+                    "report"("format" to "frames", "todir" to reportDir)
                 }
-                println("JUnit report placed into file://$reportDir/index.html")
             }
+            println("JUnit report placed into file://$reportDir/index.html")
         }
     }
 }
@@ -234,12 +234,6 @@ tasks.withType<RunAnt>().configureEach {
 }
 
 // ___________________ utilities ___________________
-tasks.register<Copy>("copyChangelog") {
-    from(codeDir.dir("solutions/de.itemis.mps.extensions.changelog/source_gen/de/itemis/mps/extensions/changelog"))
-    into(layout.settingsDirectory)
-    include("*.md")
-}
-
 tasks.register("failOnTestError") {
     description = "evaluate junit result and fail on error"
     doLast {
@@ -449,4 +443,37 @@ tasks.register<Remigrate>("remigrate") {
     excludeModuleMigration("de.itemis.mps.editor.diagram", 0)
     // not rerunnable until MPS-39315 is fixed
     excludeModuleMigration("jetbrains.mps.baseLanguage.javadoc", 0)
+}
+
+val generateChangelog by tasks.registering(MpsGenerate::class) {
+    dependsOn(languages.generateTask)
+
+    javaLauncher = jbrToolchain.javaLauncher
+    mpsHome = mpsDefaults.mpsHome
+
+    environmentKind = EnvironmentKind.MPS
+
+    projectLocation = codeDir
+    pluginRoots.from(usedPluginRoots)
+
+    modules = listOf("de.itemis.mps.extensions.changelog")
+}
+
+val copyChangelog by tasks.registering {
+    dependsOn(generateChangelog)
+
+    doLast {
+        // Using a copy action here instead of making this task a Copy. Otherwise Gradle considers the entire project to
+        // be the output of this task (because the destination directory is the project root) and complains about
+        // implicit dependencies.
+        copy {
+            from(codeDir.dir("solutions/de.itemis.mps.extensions.changelog/source_gen/de/itemis/mps/extensions/changelog"))
+            into(layout.settingsDirectory)
+            include("*.md")
+        }
+    }
+}
+
+tasks.build {
+    dependsOn(copyChangelog)
 }

@@ -197,6 +197,7 @@
         <child id="5168775467716640653" name="linkQualifier" index="1aIX9E" />
       </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -440,6 +441,16 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs8" id="56VVDKbpjCr" role="3cqZAp">
+            <node concept="3cpWsn" id="56VVDKbpjCp" role="3cpWs9">
+              <property role="3TUv4t" value="true" />
+              <property role="TrG5h" value="node" />
+              <node concept="3Tqbb2" id="56VVDKbpk_P" role="1tU5fm" />
+              <node concept="1rXfSq" id="56VVDKbplnq" role="33vP2m">
+                <ref role="37wK5l" to="nivk:~EditorBuilderEnvironment.getNode()" resolve="getNode" />
               </node>
             </node>
           </node>

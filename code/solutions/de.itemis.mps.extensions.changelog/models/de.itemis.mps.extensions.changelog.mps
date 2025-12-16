@@ -457,6 +457,54 @@
           </node>
         </node>
       </node>
+      <node concept="15bAme" id="69$1zpUq4Hi" role="15bAlL">
+        <node concept="2DRihI" id="69$1zpUq4Hj" role="15bAlk">
+          <node concept="15Ami3" id="69$1zpUq4Hk" role="1PaTwD">
+            <node concept="37shsh" id="69$1zpUq4Hl" role="15Aodc">
+              <node concept="1dCxOk" id="69$1zpUq4Hq" role="37shsm">
+                <property role="1XweGW" value="2af4e160-40bc-45d5-9078-9e2dabc7e7c0" />
+                <property role="1XxBO9" value="com.dslfoundry.langvis.plugin" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq4Hv" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq4Hw" role="1PaTwD">
+            <property role="3oM_SC" value="action" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq4ZN" role="1PaTwD">
+            <property role="3oM_SC" value="Visualize" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq4ZO" role="1PaTwD">
+            <property role="3oM_SC" value="Language" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq4ZP" role="1PaTwD">
+            <property role="3oM_SC" value="Structure" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq5bQ" role="1PaTwD">
+            <property role="3oM_SC" value="doesn't" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq5bR" role="1PaTwD">
+            <property role="3oM_SC" value="throw" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq5hS" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq5hT" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq5tV" role="1PaTwD">
+            <property role="3oM_SC" value="IllegalModelAccessError" />
+          </node>
+          <node concept="3oM_SD" id="69$1zpUq5zW" role="1PaTwD">
+            <property role="3oM_SC" value="anymore." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="15bmVD" id="6Qwtr1aMjHs" role="15bmVC">
       <node concept="15ShDW" id="6Qwtr1aMjHp" role="15bq2Y">

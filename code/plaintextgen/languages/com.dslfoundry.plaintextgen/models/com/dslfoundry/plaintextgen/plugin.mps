@@ -618,7 +618,7 @@
                             <node concept="3clFbF" id="3xkJrZK5XMx" role="3cqZAp">
                               <node concept="2YIFZM" id="3xkJrZK6041" role="3clFbG">
                                 <ref role="37wK5l" to="fnpx:~Notifications$Bus.notify(com.intellij.notification.Notification)" resolve="notify" />
-                                <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Bus" />
+                                <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Notifications.Bus" />
                                 <node concept="37vLTw" id="3xkJrZK61Tj" role="37wK5m">
                                   <ref role="3cqZAo" node="3xkJrZK5SUz" resolve="notification" />
                                 </node>

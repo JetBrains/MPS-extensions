@@ -18,6 +18,7 @@
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="fnpx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.notification(MPS.IDEA/)" />
+    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="myiq" ref="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -80,6 +81,12 @@
       </concept>
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
+      </concept>
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -1857,6 +1864,17 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="pWUoI9gB9r" role="3clF47">
+        <node concept="3clFbJ" id="4B3qcre5uz0" role="3cqZAp">
+          <node concept="3clFbS" id="4B3qcre5uz2" role="3clFbx">
+            <node concept="3cpWs6" id="4B3qcre5$RP" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="4B3qcre5z22" role="3clFbw">
+            <node concept="10Nm6u" id="4B3qcre5$74" role="3uHU7w" />
+            <node concept="37vLTw" id="4B3qcre5uU9" role="3uHU7B">
+              <ref role="3cqZAo" node="pWUoI9gBkw" resolve="word" />
+            </node>
+          </node>
+        </node>
         <node concept="2$JKZl" id="pWUoI9gBSs" role="3cqZAp">
           <node concept="3clFbS" id="pWUoI9gBSt" role="2LFqv$">
             <node concept="3clFbF" id="pWUoI9gDcL" role="3cqZAp">
@@ -2039,6 +2057,9 @@
       <node concept="37vLTG" id="pWUoI9gBkw" role="3clF46">
         <property role="TrG5h" value="word" />
         <node concept="17QB3L" id="pWUoI9gBoc" role="1tU5fm" />
+        <node concept="2AHcQZ" id="4B3qcre5pVk" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="pWUoI9h2Bl" role="jymVt" />

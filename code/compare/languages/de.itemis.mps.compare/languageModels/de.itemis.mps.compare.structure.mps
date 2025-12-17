@@ -13,6 +13,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -44,6 +47,7 @@
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
+        <property id="5314546615192664131" name="transient" index="1H4juY" />
         <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
@@ -89,6 +93,11 @@
     </node>
     <node concept="PrWs8" id="t0OlD0UlBB" role="PzmwI">
       <ref role="PrY4T" node="t0OlD0Ulrx" resolve="IDiffable" />
+    </node>
+    <node concept="1TJgyi" id="6Vb09dgp30e" role="1TKVEl">
+      <property role="IQ2nx" value="7983475397153271822" />
+      <property role="TrG5h" value="ignoreAnnotations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="3C6_kMLO68Y">
@@ -187,6 +196,11 @@
       <property role="IQ2ns" value="3942143736281081215" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyi" id="2C1H_zkhhtk" role="1TKVEl">
+      <property role="IQ2nx" value="3026900917204358996" />
+      <property role="TrG5h" value="ignoreAnnotations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5v943APOt_R">
     <property role="EcuMT" value="6325604991668181367" />
@@ -276,6 +290,15 @@
   <node concept="PlHQZ" id="t0OlD0Ulrx">
     <property role="EcuMT" value="522647742341273313" />
     <property role="TrG5h" value="IDiffable" />
+    <node concept="1TJgyi" id="6Vb09dgqHFa" role="1TKVEl">
+      <property role="IQ2nx" value="7983475397153708746" />
+      <property role="TrG5h" value="showDiff" />
+      <property role="1H4juY" value="true" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="t5JxF" id="6Vb09dgqHFb" role="lGtFl">
+        <property role="t5JxN" value="a transient property (will not be written to disk) - see inspector" />
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1GvnUgo6Kzw">
     <property role="TrG5h" value="QueryFunction_PostProcess" />

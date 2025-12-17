@@ -225,8 +225,8 @@
     <node concept="13i0hz" id="6gwxh6GcCN_" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="6gwxh6GcCNA" role="1B3o_S" />
       <node concept="3clFbS" id="6gwxh6GcCND" role="3clF47">
         <node concept="3cpWs8" id="6gwxh6GcCOC" role="3cqZAp">
@@ -262,7 +262,7 @@
                       <ref role="2Gs0qQ" node="6gwxh6GcCPh" resolve="line" />
                     </node>
                     <node concept="2qgKlT" id="6gwxh6Gdm7r" role="2OqNvi">
-                      <ref role="37wK5l" node="6gwxh6GcBOM" resolve="Width" />
+                      <ref role="37wK5l" node="6gwxh6GcBOM" resolve="getWidth" />
                     </node>
                   </node>
                 </node>
@@ -297,15 +297,15 @@
     <node concept="13i0hz" id="4GbnmmUb2fN" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="4GbnmmUb2fU" role="1B3o_S" />
       <node concept="3clFbS" id="4GbnmmUb2fX" role="3clF47">
         <node concept="3cpWs6" id="4GbnmmUb2kZ" role="3cqZAp">
           <node concept="2OqwBi" id="4GbnmmUb2oa" role="3cqZAk">
             <node concept="13iPFW" id="4GbnmmUb2lf" role="2Oq$k0" />
             <node concept="2qgKlT" id="4GbnmmUb2tO" role="2OqNvi">
-              <ref role="37wK5l" node="4GbnmmUaX7G" resolve="Textgen_Helper" />
+              <ref role="37wK5l" node="4GbnmmUaX7G" resolve="getMaxPosition" />
               <node concept="37vLTw" id="4GbnmmUb2u7" role="37wK5m">
                 <ref role="3cqZAo" node="4GbnmmUb2fY" resolve="row" />
               </node>
@@ -351,8 +351,8 @@
     <node concept="13i0hz" id="2jBmyzyGbUx" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Editor_View_Width" />
-      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
+      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3Tm1VV" id="2jBmyzyGbUy" role="1B3o_S" />
       <node concept="3clFbS" id="2jBmyzyGbU_" role="3clF47">
         <node concept="3cpWs8" id="2jBmyzyG4jh" role="3cqZAp">
@@ -392,7 +392,7 @@
                               <ref role="2Gs0qQ" node="2jBmyzyG4jm" resolve="line" />
                             </node>
                             <node concept="2qgKlT" id="2jBmyzyG4jx" role="2OqNvi">
-                              <ref role="37wK5l" node="2jBmyzyEzhY" resolve="Editor_View_Width" />
+                              <ref role="37wK5l" node="2jBmyzyEzhY" resolve="getEditorViewWidth" />
                               <node concept="3clFbT" id="2jBmyzyGgO_" role="37wK5m">
                                 <property role="3clFbU" value="false" />
                               </node>
@@ -532,7 +532,7 @@
               </node>
             </node>
             <node concept="WFELt" id="4z_y7AIvfUC" role="2OqNvi">
-              <ref role="1A0vxQ" to="myiq:Z$zlZaZkvO" resolve="word" />
+              <ref role="1A0vxQ" to="myiq:Z$zlZaZkvO" resolve="Word" />
             </node>
           </node>
         </node>
@@ -552,8 +552,8 @@
     <node concept="13i0hz" id="6gwxh6GcBOX" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="6gwxh6GcBOY" role="1B3o_S" />
       <node concept="3clFbS" id="6gwxh6GcBP1" role="3clF47">
         <node concept="3cpWs8" id="6gwxh6GcBQN" role="3cqZAp">
@@ -583,7 +583,7 @@
                     <ref role="2Gs0qQ" node="6gwxh6GcBRu" resolve="word" />
                   </node>
                   <node concept="2qgKlT" id="6gwxh6GcCcr" role="2OqNvi">
-                    <ref role="37wK5l" node="6gwxh6GcBOM" resolve="Width" />
+                    <ref role="37wK5l" node="6gwxh6GcBOM" resolve="getWidth" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="6gwxh6GcC0h" role="37vLTJ">
@@ -604,8 +604,8 @@
     <node concept="13i0hz" id="4GbnmmUaUYn" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="4GbnmmUaUYu" role="1B3o_S" />
       <node concept="3clFbS" id="4GbnmmUaUYx" role="3clF47">
         <node concept="3cpWs8" id="4GbnmmUaV9x" role="3cqZAp">
@@ -645,7 +645,7 @@
                     <ref role="3cqZAo" node="4GbnmmUaUYA" resolve="output" />
                   </node>
                   <node concept="liA8E" id="4GbnmmUaW9Z" role="2OqNvi">
-                    <ref role="37wK5l" to="k44w:6gwxh6GcKGT" resolve="MaxPos" />
+                    <ref role="37wK5l" to="k44w:6gwxh6GcKGT" resolve="getMaximumPosition" />
                     <node concept="37vLTw" id="4GbnmmUaWay" role="37wK5m">
                       <ref role="3cqZAo" node="4GbnmmUaV9y" resolve="max" />
                     </node>
@@ -654,7 +654,7 @@
                         <ref role="2Gs0qQ" node="4GbnmmUaVXY" resolve="item" />
                       </node>
                       <node concept="2qgKlT" id="4GbnmmUaWJo" role="2OqNvi">
-                        <ref role="37wK5l" node="4GbnmmUaMp0" resolve="TextGen" />
+                        <ref role="37wK5l" node="4GbnmmUaMp0" resolve="getPosition" />
                         <node concept="37vLTw" id="4GbnmmUaWKy" role="37wK5m">
                           <ref role="3cqZAo" node="4GbnmmUaUYy" resolve="row" />
                         </node>
@@ -707,9 +707,9 @@
     <node concept="13i0hz" id="2jBmyzyEzi_" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
       <property role="2Ki8OM" value="false" />
-      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3clFbS" id="2jBmyzyEziD" role="3clF47">
         <node concept="3SKdUt" id="2jBmyzyEINw" role="3cqZAp">
           <node concept="1PaTwC" id="7WTFIQIcXlc" role="1aUNEU">
@@ -782,7 +782,7 @@
                             <ref role="2Gs0qQ" node="2jBmyzyEA3O" resolve="word" />
                           </node>
                           <node concept="2qgKlT" id="2jBmyzyEB0O" role="2OqNvi">
-                            <ref role="37wK5l" node="2jBmyzyEzhY" resolve="Editor_View_Width" />
+                            <ref role="37wK5l" node="2jBmyzyEzhY" resolve="getEditorViewWidth" />
                             <node concept="3clFbT" id="2jBmyzyGguW" role="37wK5m">
                               <property role="3clFbU" value="false" />
                             </node>
@@ -830,15 +830,15 @@
   </node>
   <node concept="13h7C7" id="6gwxh6GcBOs">
     <property role="3GE5qa" value="horizontal" />
-    <ref role="13h7C2" to="myiq:Z$zlZaZkvO" resolve="word" />
+    <ref role="13h7C2" to="myiq:Z$zlZaZkvO" resolve="Word" />
     <node concept="13hLZK" id="6gwxh6GcBOt" role="13h7CW">
       <node concept="3clFbS" id="6gwxh6GcBOu" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="6gwxh6GcCtE" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="6gwxh6GcCtF" role="1B3o_S" />
       <node concept="3clFbS" id="6gwxh6GcCtI" role="3clF47">
         <node concept="3cpWs6" id="6gwxh6GcCtO" role="3cqZAp">
@@ -860,8 +860,8 @@
     <node concept="13i0hz" id="4GbnmmUaMNs" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="4GbnmmUaMNz" role="1B3o_S" />
       <node concept="3clFbS" id="4GbnmmUaMNA" role="3clF47">
         <node concept="3clFbF" id="4GbnmmUaN1G" role="3cqZAp">
@@ -870,7 +870,7 @@
               <ref role="3cqZAo" node="4GbnmmUaMNF" resolve="output" />
             </node>
             <node concept="liA8E" id="4GbnmmUaNAk" role="2OqNvi">
-              <ref role="37wK5l" to="k44w:pWUoI9gB9o" resolve="Write" />
+              <ref role="37wK5l" to="k44w:pWUoI9gB9o" resolve="write" />
               <node concept="37vLTw" id="4GbnmmUaNAZ" role="37wK5m">
                 <ref role="3cqZAo" node="4GbnmmUaMNB" resolve="row" />
               </node>
@@ -934,13 +934,13 @@
     <node concept="13i0hz" id="2jBmyzyEBCV" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
       <property role="2Ki8OM" value="false" />
-      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3clFbS" id="2jBmyzyEBCZ" role="3clF47">
         <node concept="3cpWs6" id="2jBmyzyEBHW" role="3cqZAp">
           <node concept="BsUDl" id="2jBmyzyEBIa" role="3cqZAk">
-            <ref role="37wK5l" node="6gwxh6GcBOM" resolve="Width" />
+            <ref role="37wK5l" node="6gwxh6GcBOM" resolve="getWidth" />
           </node>
         </node>
       </node>
@@ -952,13 +952,6 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="6gwxh6GcBOJ">
-    <property role="3GE5qa" value="horizontal" />
-    <ref role="13h7C2" to="myiq:7g_oPKUKThq" resolve="ILineElement" />
-    <node concept="13hLZK" id="6gwxh6GcBOK" role="13h7CW">
-      <node concept="3clFbS" id="6gwxh6GcBOL" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="6gwxh6GcEKH">
     <property role="3GE5qa" value="vertical" />
     <ref role="13h7C2" to="myiq:Z$zlZaZO7_" resolve="VerticalLines" />
@@ -968,8 +961,8 @@
     <node concept="13i0hz" id="6gwxh6GcEKK" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="6gwxh6GcEKL" role="1B3o_S" />
       <node concept="3clFbS" id="6gwxh6GcEKO" role="3clF47">
         <node concept="3cpWs8" id="6gwxh6GcEKU" role="3cqZAp">
@@ -1005,7 +998,7 @@
                       <ref role="2Gs0qQ" node="6gwxh6GcEKZ" resolve="line" />
                     </node>
                     <node concept="2qgKlT" id="6gwxh6GdlfF" role="2OqNvi">
-                      <ref role="37wK5l" node="6gwxh6GcBOM" resolve="Width" />
+                      <ref role="37wK5l" node="6gwxh6GcBOM" resolve="getWidth" />
                     </node>
                   </node>
                 </node>
@@ -1027,15 +1020,15 @@
     <node concept="13i0hz" id="4GbnmmUb2Sh" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="4GbnmmUb2So" role="1B3o_S" />
       <node concept="3clFbS" id="4GbnmmUb2Sr" role="3clF47">
         <node concept="3cpWs6" id="4GbnmmUb2Uj" role="3cqZAp">
           <node concept="2OqwBi" id="4GbnmmUb2Uk" role="3cqZAk">
             <node concept="13iPFW" id="4GbnmmUb2Ul" role="2Oq$k0" />
             <node concept="2qgKlT" id="4GbnmmUb2Um" role="2OqNvi">
-              <ref role="37wK5l" node="4GbnmmUaX7G" resolve="Textgen_Helper" />
+              <ref role="37wK5l" node="4GbnmmUaX7G" resolve="getMaxPosition" />
               <node concept="37vLTw" id="4GbnmmUb2Un" role="37wK5m">
                 <ref role="3cqZAo" node="4GbnmmUb2Ss" resolve="row" />
               </node>
@@ -1073,8 +1066,8 @@
     <node concept="13i0hz" id="2jBmyzyGd0K" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Editor_View_Width" />
-      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
+      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3Tm1VV" id="2jBmyzyGd0L" role="1B3o_S" />
       <node concept="3clFbS" id="2jBmyzyGd0O" role="3clF47">
         <node concept="3cpWs8" id="2jBmyzyGd5j" role="3cqZAp">
@@ -1114,7 +1107,7 @@
                               <ref role="2Gs0qQ" node="2jBmyzyGd5o" resolve="line" />
                             </node>
                             <node concept="2qgKlT" id="2jBmyzyGd5z" role="2OqNvi">
-                              <ref role="37wK5l" node="2jBmyzyEzhY" resolve="Editor_View_Width" />
+                              <ref role="37wK5l" node="2jBmyzyEzhY" resolve="getEditorViewWidth" />
                               <node concept="3clFbT" id="2jBmyzyGgGx" role="37wK5m">
                                 <property role="3clFbU" value="false" />
                               </node>
@@ -1166,7 +1159,7 @@
     <node concept="13i0hz" id="4GbnmmUaX7G" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Textgen_Helper" />
+      <property role="TrG5h" value="getMaxPosition" />
       <node concept="37vLTG" id="4GbnmmUaX87" role="3clF46">
         <property role="TrG5h" value="row" />
         <node concept="10Oyi0" id="4GbnmmUaX8d" role="1tU5fm" />
@@ -1231,7 +1224,7 @@
                 <node concept="2OqwBi" id="4GbnmmUaXIU" role="37vLTx">
                   <node concept="13iPFW" id="4GbnmmUaXGw" role="2Oq$k0" />
                   <node concept="2qgKlT" id="4GbnmmUaXOA" role="2OqNvi">
-                    <ref role="37wK5l" node="6gwxh6GcBOM" resolve="Width" />
+                    <ref role="37wK5l" node="6gwxh6GcBOM" resolve="getWidth" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="4GbnmmUaXzv" role="37vLTJ">
@@ -1286,7 +1279,7 @@
                           <ref role="2Gs0qQ" node="4GbnmmUaXPW" resolve="item" />
                         </node>
                         <node concept="2qgKlT" id="4GbnmmUaYDY" role="2OqNvi">
-                          <ref role="37wK5l" node="6gwxh6GcBOM" resolve="Width" />
+                          <ref role="37wK5l" node="6gwxh6GcBOM" resolve="getWidth" />
                         </node>
                       </node>
                       <node concept="37vLTw" id="4GbnmmUaYqX" role="3uHU7B">
@@ -1343,7 +1336,7 @@
                                 <ref role="2Gs0qQ" node="4GbnmmUaXPW" resolve="item" />
                               </node>
                               <node concept="2qgKlT" id="4GbnmmUaZpI" role="2OqNvi">
-                                <ref role="37wK5l" node="6gwxh6GcBOM" resolve="Width" />
+                                <ref role="37wK5l" node="6gwxh6GcBOM" resolve="getWidth" />
                               </node>
                             </node>
                             <node concept="37vLTw" id="4GbnmmUaZ8l" role="3uHU7B">
@@ -1364,7 +1357,7 @@
                     <ref role="3cqZAo" node="4GbnmmUaX8D" resolve="output" />
                   </node>
                   <node concept="liA8E" id="4GbnmmUb09c" role="2OqNvi">
-                    <ref role="37wK5l" to="k44w:6gwxh6GcKGT" resolve="MaxPos" />
+                    <ref role="37wK5l" to="k44w:6gwxh6GcKGT" resolve="getMaximumPosition" />
                     <node concept="37vLTw" id="4GbnmmUb09R" role="37wK5m">
                       <ref role="3cqZAo" node="4GbnmmUaXae" resolve="max" />
                     </node>
@@ -1373,7 +1366,7 @@
                         <ref role="2Gs0qQ" node="4GbnmmUaXPW" resolve="item" />
                       </node>
                       <node concept="2qgKlT" id="4GbnmmUb0qB" role="2OqNvi">
-                        <ref role="37wK5l" node="4GbnmmUaMp0" resolve="TextGen" />
+                        <ref role="37wK5l" node="4GbnmmUaMp0" resolve="getPosition" />
                         <node concept="3cpWs3" id="4GbnmmUb0N9" role="37wK5m">
                           <node concept="3cmrfG" id="4GbnmmUb0Nc" role="3uHU7w">
                             <property role="3cmrfH" value="1" />
@@ -1430,7 +1423,7 @@
     <node concept="13i0hz" id="6gwxh6GcBOM" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="Width" />
+      <property role="TrG5h" value="getWidth" />
       <node concept="3Tm1VV" id="6gwxh6GcBON" role="1B3o_S" />
       <node concept="10Oyi0" id="6gwxh6GcBOU" role="3clF45" />
       <node concept="3clFbS" id="6gwxh6GcBOP" role="3clF47" />
@@ -1438,7 +1431,7 @@
     <node concept="13i0hz" id="2jBmyzyEzhY" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
       <node concept="37vLTG" id="2jBmyzyGglu" role="3clF46">
         <property role="TrG5h" value="isQueriedNode" />
         <node concept="10P_77" id="2jBmyzyGgl$" role="1tU5fm" />
@@ -1450,7 +1443,7 @@
     <node concept="13i0hz" id="4GbnmmUaMp0" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="TextGen" />
+      <property role="TrG5h" value="getPosition" />
       <node concept="37vLTG" id="4GbnmmUaM_s" role="3clF46">
         <property role="TrG5h" value="row" />
         <node concept="10Oyi0" id="4GbnmmUaM_y" role="1tU5fm" />
@@ -1579,13 +1572,13 @@
   </node>
   <node concept="13h7C7" id="2u5C0Bwyuzi">
     <property role="3GE5qa" value="horizontal" />
-    <ref role="13h7C2" to="myiq:2u5C0Bwy3V8" resolve="tab" />
+    <ref role="13h7C2" to="myiq:2u5C0Bwy3V8" resolve="Tab" />
     <node concept="13hLZK" id="2u5C0Bwyuzj" role="13h7CW">
       <node concept="3clFbS" id="2u5C0Bwyuzk" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="2u5C0Bwyuzt" role="13h7CS">
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" node="6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="2u5C0Bwyuzu" role="1B3o_S" />
       <node concept="3clFbS" id="2u5C0Bwyuzx" role="3clF47">
         <node concept="3cpWs6" id="2u5C0Bwyu$Z" role="3cqZAp">
@@ -1597,10 +1590,26 @@
       <node concept="10Oyi0" id="2u5C0Bwyuzy" role="3clF45" />
     </node>
     <node concept="13i0hz" id="2u5C0Bwyuzz" role="13h7CS">
-      <property role="TrG5h" value="Editor_View_Width" />
-      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
+      <ref role="13i0hy" node="2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3Tm1VV" id="2u5C0BwyuzA" role="1B3o_S" />
       <node concept="3clFbS" id="2u5C0BwyuzD" role="3clF47">
+        <node concept="3SKdUt" id="3xkJrZK44LC" role="3cqZAp">
+          <node concept="1PaTwC" id="3xkJrZK44LD" role="1aUNEU">
+            <node concept="3oM_SD" id="3xkJrZK44M7" role="1PaTwD">
+              <property role="3oM_SC" value="TODO" />
+            </node>
+            <node concept="3oM_SD" id="3xkJrZK44M8" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="3xkJrZK44P4" role="1PaTwD">
+              <property role="3oM_SC" value="editor" />
+            </node>
+            <node concept="3oM_SD" id="3xkJrZK44Pl" role="1PaTwD">
+              <property role="3oM_SC" value="settings" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="2u5C0Bwyu_w" role="3cqZAp">
           <node concept="3cmrfG" id="2u5C0BwyHMO" role="3cqZAk">
             <property role="3cmrfH" value="8" />
@@ -1614,8 +1623,8 @@
       <node concept="10Oyi0" id="2u5C0BwyuzG" role="3clF45" />
     </node>
     <node concept="13i0hz" id="2u5C0BwyuzH" role="13h7CS">
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" node="4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="2u5C0BwyuzO" role="1B3o_S" />
       <node concept="3clFbS" id="2u5C0BwyuzR" role="3clF47">
         <node concept="3clFbF" id="2u5C0BwyuA3" role="3cqZAp">
@@ -1624,7 +1633,7 @@
               <ref role="3cqZAo" node="2u5C0BwyuzW" resolve="output" />
             </node>
             <node concept="liA8E" id="2u5C0BwyuLj" role="2OqNvi">
-              <ref role="37wK5l" to="k44w:pWUoI9gB9o" resolve="Write" />
+              <ref role="37wK5l" to="k44w:pWUoI9gB9o" resolve="write" />
               <node concept="37vLTw" id="2u5C0BwyuNc" role="37wK5m">
                 <ref role="3cqZAo" node="2u5C0BwyuzS" resolve="row" />
               </node>

@@ -337,7 +337,7 @@
               <node concept="2ShNRf" id="4z_y7AIv83y" role="3cqZAk">
                 <node concept="3zrR0B" id="4z_y7AIv83g" role="2ShVmc">
                   <node concept="3Tqbb2" id="4z_y7AIv83h" role="3zrR0E">
-                    <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="word" />
+                    <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="Word" />
                   </node>
                 </node>
               </node>
@@ -379,7 +379,7 @@
   </node>
   <node concept="24kQdi" id="Z$zlZaZlkk">
     <property role="3GE5qa" value="horizontal" />
-    <ref role="1XX52x" to="myiq:Z$zlZaZkvO" resolve="word" />
+    <ref role="1XX52x" to="myiq:Z$zlZaZkvO" resolve="Word" />
     <node concept="3F0A7n" id="Z$zlZaZlkm" role="2wV5jI">
       <ref role="34QXea" node="2jBmyzyHOOA" resolve="TextGenElement_Keymap" />
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -804,7 +804,7 @@
                         <node concept="2OqwBi" id="2jBmyzyAUFL" role="3uHU7B">
                           <node concept="pncrf" id="2jBmyzyAUAe" role="2Oq$k0" />
                           <node concept="2qgKlT" id="2jBmyzyEFh6" role="2OqNvi">
-                            <ref role="37wK5l" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+                            <ref role="37wK5l" to="3rmn:2jBmyzyEzhY" resolve="getEditorViewWidth" />
                             <node concept="3clFbT" id="2jBmyzyGo8h" role="37wK5m">
                               <property role="3clFbU" value="true" />
                             </node>
@@ -846,7 +846,7 @@
                               <node concept="2OqwBi" id="2jBmyzyB3iz" role="3uHU7B">
                                 <node concept="pncrf" id="2jBmyzyB3b$" role="2Oq$k0" />
                                 <node concept="2qgKlT" id="2jBmyzyEFwb" role="2OqNvi">
-                                  <ref role="37wK5l" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+                                  <ref role="37wK5l" to="3rmn:2jBmyzyEzhY" resolve="getEditorViewWidth" />
                                   <node concept="3clFbT" id="2jBmyzyGogp" role="37wK5m">
                                     <property role="3clFbU" value="true" />
                                   </node>
@@ -977,7 +977,7 @@
               <node concept="2ShNRf" id="2jBmyzyH$R3" role="3cqZAk">
                 <node concept="3zrR0B" id="2jBmyzyH$R4" role="2ShVmc">
                   <node concept="3Tqbb2" id="2jBmyzyH$R5" role="3zrR0E">
-                    <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="word" />
+                    <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="Word" />
                   </node>
                 </node>
               </node>
@@ -1323,7 +1323,7 @@
                 </node>
               </node>
               <node concept="WFELt" id="2u5C0BwzFrk" role="2OqNvi">
-                <ref role="1A0vxQ" to="myiq:2u5C0Bwy3V8" resolve="tab" />
+                <ref role="1A0vxQ" to="myiq:2u5C0Bwy3V8" resolve="Tab" />
               </node>
             </node>
           </node>
@@ -1412,7 +1412,7 @@
                 </node>
               </node>
               <node concept="WFELt" id="2jBmyzyIlJn" role="2OqNvi">
-                <ref role="1A0vxQ" to="myiq:Z$zlZaZkvO" resolve="word" />
+                <ref role="1A0vxQ" to="myiq:Z$zlZaZkvO" resolve="Word" />
               </node>
             </node>
           </node>
@@ -1441,7 +1441,7 @@
   </node>
   <node concept="24kQdi" id="2u5C0Bwy3Vh">
     <property role="3GE5qa" value="horizontal" />
-    <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="tab" />
+    <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="Tab" />
     <node concept="3F0ifn" id="2u5C0Bwz6Jr" role="2wV5jI">
       <property role="3F0ifm" value="→" />
       <node concept="VechU" id="2u5C0Bwz6Ju" role="3F10Kt">
@@ -1451,7 +1451,7 @@
   </node>
   <node concept="24kQdi" id="1rAvrZzziLI">
     <property role="3GE5qa" value="horizontal" />
-    <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="tab" />
+    <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="Tab" />
     <node concept="3F0ifn" id="1rAvrZzziLJ" role="2wV5jI">
       <property role="3F0ifm" value="→" />
       <node concept="VechU" id="1rAvrZzziLK" role="3F10Kt">

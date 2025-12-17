@@ -147,12 +147,6 @@
         <child id="6009478650970401248" name="selectionType" index="71TOu" />
       </concept>
     </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
-        <property id="6332851714983843871" name="severity" index="2xdLsb" />
-        <child id="5721587534047265374" name="message" index="9lYJi" />
-      </concept>
-    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -237,7 +231,7 @@
   </registry>
   <node concept="2S6QgY" id="1SFgcLT$bhO">
     <property role="TrG5h" value="SplitWordAtSelection" />
-    <ref role="2ZfgGC" to="myiq:Z$zlZaZkvO" resolve="word" />
+    <ref role="2ZfgGC" to="myiq:Z$zlZaZkvO" resolve="Word" />
     <node concept="2S6ZIM" id="1SFgcLT$bhP" role="2ZfVej">
       <node concept="3clFbS" id="1SFgcLT$bhQ" role="2VODD2">
         <node concept="3cpWs8" id="2AdBM2T4Tbz" role="3cqZAp">
@@ -364,7 +358,7 @@
           <node concept="3cpWsn" id="7Y69gu1J$qn" role="3cpWs9">
             <property role="TrG5h" value="selected_node" />
             <node concept="3Tqbb2" id="7Y69gu1J$qi" role="1tU5fm">
-              <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="word" />
+              <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="Word" />
             </node>
             <node concept="2Sf5sV" id="7Y69gu1J$FH" role="33vP2m" />
           </node>
@@ -445,12 +439,12 @@
               <node concept="3cpWsn" id="1SFgcLT$A_8" role="3cpWs9">
                 <property role="TrG5h" value="midWord" />
                 <node concept="3Tqbb2" id="1SFgcLT$A_3" role="1tU5fm">
-                  <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="word" />
+                  <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="Word" />
                 </node>
                 <node concept="2ShNRf" id="1SFgcLT$AGm" role="33vP2m">
                   <node concept="3zrR0B" id="1SFgcLT$AGk" role="2ShVmc">
                     <node concept="3Tqbb2" id="1SFgcLT$AGl" role="3zrR0E">
-                      <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="word" />
+                      <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="Word" />
                     </node>
                   </node>
                 </node>
@@ -536,12 +530,12 @@
               <node concept="3cpWsn" id="1SFgcLT$E6h" role="3cpWs9">
                 <property role="TrG5h" value="afterWord" />
                 <node concept="3Tqbb2" id="1SFgcLT$E6c" role="1tU5fm">
-                  <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="word" />
+                  <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="Word" />
                 </node>
                 <node concept="2ShNRf" id="1SFgcLT$EeL" role="33vP2m">
                   <node concept="3zrR0B" id="1SFgcLT$EeF" role="2ShVmc">
                     <node concept="3Tqbb2" id="1SFgcLT$EeG" role="3zrR0E">
-                      <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="word" />
+                      <ref role="ehGHo" to="myiq:Z$zlZaZkvO" resolve="Word" />
                     </node>
                   </node>
                 </node>
@@ -807,6 +801,7 @@
   </node>
   <node concept="2S6QgY" id="7nnaVmO$eN0">
     <property role="TrG5h" value="SurroundWithHorizontal" />
+    <property role="3GE5qa" value="surround" />
     <ref role="2ZfgGC" to="myiq:7g_oPKUKThq" resolve="ILineElement" />
     <node concept="2S6ZIM" id="7nnaVmO$eN1" role="2ZfVej">
       <node concept="3clFbS" id="7nnaVmO$eN2" role="2VODD2">
@@ -877,6 +872,7 @@
   </node>
   <node concept="2S6QgY" id="7nnaVmO$S9l">
     <property role="TrG5h" value="SurroundWithVertical" />
+    <property role="3GE5qa" value="surround" />
     <ref role="2ZfgGC" to="myiq:7g_oPKUKThq" resolve="ILineElement" />
     <node concept="2S6ZIM" id="7nnaVmO$S9m" role="2ZfVej">
       <node concept="3clFbS" id="7nnaVmO$S9n" role="2VODD2">
@@ -1051,6 +1047,7 @@
   </node>
   <node concept="2S6QgY" id="7nnaVmO_0mJ">
     <property role="TrG5h" value="SurroundWithIndent" />
+    <property role="3GE5qa" value="surround" />
     <ref role="2ZfgGC" to="myiq:7g_oPKUKThq" resolve="ILineElement" />
     <node concept="2S6ZIM" id="7nnaVmO_0mK" role="2ZfVej">
       <node concept="3clFbS" id="7nnaVmO_0mL" role="2VODD2">
@@ -1232,7 +1229,7 @@
       <node concept="3clFbS" id="7IVTX$7Xdsb" role="2VODD2">
         <node concept="3clFbF" id="7IVTX$7Xd_c" role="3cqZAp">
           <node concept="Xl_RD" id="7IVTX$7Xd_b" role="3clFbG">
-            <property role="Xl_RC" value="Add New Line before" />
+            <property role="Xl_RC" value="Add New Line Before" />
           </node>
         </node>
       </node>
@@ -1265,7 +1262,7 @@
       <node concept="3clFbS" id="7IVTX$7XxYW" role="2VODD2">
         <node concept="3clFbF" id="7IVTX$7Xy87" role="3cqZAp">
           <node concept="Xl_RD" id="7IVTX$7Xy86" role="3clFbG">
-            <property role="Xl_RC" value="Add New Line after" />
+            <property role="Xl_RC" value="Add New Line After" />
           </node>
         </node>
       </node>
@@ -1292,6 +1289,7 @@
   <node concept="2S6QgY" id="7IVTX$7YiUz">
     <property role="TrG5h" value="EmptyTemplate" />
     <property role="2ZfUl0" value="true" />
+    <property role="3GE5qa" value="empty" />
     <ref role="2ZfgGC" to="myiq:Z$zlZaZkv$" resolve="TextgenText" />
     <node concept="2S6ZIM" id="7IVTX$7YiU$" role="2ZfVej">
       <node concept="3clFbS" id="7IVTX$7YiU_" role="2VODD2">
@@ -1325,6 +1323,7 @@
   </node>
   <node concept="2S6QgY" id="7IVTX$80ej_">
     <property role="TrG5h" value="EmptyLines" />
+    <property role="3GE5qa" value="empty" />
     <ref role="2ZfgGC" to="myiq:6gwxh6GbQu8" resolve="IVerticalGroup" />
     <node concept="2S6ZIM" id="7IVTX$80ejA" role="2ZfVej">
       <node concept="3clFbS" id="7IVTX$80ejB" role="2VODD2">
@@ -1353,6 +1352,7 @@
   </node>
   <node concept="71TOx" id="9C_B26vlLR">
     <property role="TrG5h" value="SurroundListWithIndent" />
+    <property role="3GE5qa" value="surround" />
     <node concept="3uibUv" id="9C_B26vRPf" role="71TOu">
       <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
     </node>
@@ -1475,6 +1475,7 @@
   </node>
   <node concept="71TOx" id="9C_B26xhI8">
     <property role="TrG5h" value="SurroundListWithVertical" />
+    <property role="3GE5qa" value="surround" />
     <node concept="3uibUv" id="9C_B26xhRf" role="71TOu">
       <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
     </node>
@@ -1597,6 +1598,7 @@
   </node>
   <node concept="2S6QgY" id="9C_B26$XIN">
     <property role="TrG5h" value="ChangeToIndent" />
+    <property role="3GE5qa" value="change" />
     <ref role="2ZfgGC" to="myiq:Z$zlZaZO7_" resolve="VerticalLines" />
     <node concept="2S6ZIM" id="9C_B26$XIO" role="2ZfVej">
       <node concept="3clFbS" id="9C_B26$XIP" role="2VODD2">
@@ -1695,6 +1697,7 @@
   </node>
   <node concept="2S6QgY" id="9C_B26A5KG">
     <property role="TrG5h" value="ChangeToVertical" />
+    <property role="3GE5qa" value="change" />
     <ref role="2ZfgGC" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
     <node concept="2S6ZIM" id="9C_B26A5KH" role="2ZfVej">
       <node concept="3clFbS" id="9C_B26A5KI" role="2VODD2">
@@ -1834,23 +1837,6 @@
                         </node>
                         <node concept="37vLTw" id="9C_B26BXqI" role="1sKFgg">
                           <ref role="3cqZAo" node="7Z$RfkF7IHC" resolve="it" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2xdQw9" id="9C_B26O69L" role="3cqZAp">
-                    <property role="2xdLsb" value="h1akgim/info" />
-                    <node concept="3cpWs3" id="9C_B26Oenp" role="9lYJi">
-                      <node concept="37vLTw" id="9C_B26OeKX" role="3uHU7w">
-                        <ref role="3cqZAo" node="9C_B26BYpF" resolve="idxOffset" />
-                      </node>
-                      <node concept="3cpWs3" id="9C_B26O75s" role="3uHU7B">
-                        <node concept="Xl_RD" id="9C_B26O69N" role="3uHU7B">
-                          <property role="Xl_RC" value="index: " />
-                        </node>
-                        <node concept="2OqwBi" id="9C_B26O7Y1" role="3uHU7w">
-                          <node concept="2Sf5sV" id="9C_B26OGZ4" role="2Oq$k0" />
-                          <node concept="2bSWHS" id="9C_B26OaY1" role="2OqNvi" />
                         </node>
                       </node>
                     </node>

@@ -10,6 +10,17 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *nl.f1re.mps.aliascustomization* The alias of all concepts globally can now be customized through the extension point [AliasCustomization.](http://127.0.0.1:63320/node?ref=r%3Af0a80b34-9760-42b8-9ee6-d5b0d1582551%28de.slisson.mps.conditionalEditor.runtime.plugin%29%2F1679635547169731239) Please be aware that this feature is experimental. Use it with care!
 - *com.mbeddr.mpsutil.intentions* All intentions can now be customized through the extension point [IntentionCustomization](http://127.0.0.1:63320/node?ref=r%3A028362d1-b964-410a-a3d5-6096bcd4a2b6%28com.mbeddr.mpsutil.intentions.runtime.plugin%29%2F4784371196443178355) (child filter, description, is applicable block, execute method). Note that you can't customize intentions that are not enabled in the current context (node + editor context).
+- *de.itemis.mps.compare* 'assert node equals' and ':isEqualTo:' expression can now ignore attributes (annotations) when comparing nodes.
+
+### Fixed
+
+- *com.dslfoundry.langvis.plugin* The action *Visualize* *Language* *Structure* doesn't throw an  IllegalModelAccessError anymore.
+- Migrate all usages of deprecated getInstance() from [NavigationSupport](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.openapi.navigation%28MPS.Editor%2F%29%2F~NavigationSupport) to its replacement getInstance(Project mpsProject)
+
+### Changed
+
+- *de.itemis.mps.compare* 'show diff' in assertions is now implemented using a transient property. Changing it will mark the node as changed but the property value is not written to disk and so will never be checked into version control.
+- *de.itemis.mps.compare* minor improvements to the editors of 'assert node equals' and 'show diff'.
 
 ## November 2025
 

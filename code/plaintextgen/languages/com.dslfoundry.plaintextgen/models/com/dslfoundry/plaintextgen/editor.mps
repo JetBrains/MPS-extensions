@@ -9,6 +9,8 @@
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
     <import index="k44w" ref="r:359669ec-8146-4c97-9e8a-7f7baa158ff0(com.dslfoundry.plaintextgen.plugin)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="myiq" ref="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)" implicit="true" />
     <import index="3rmn" ref="r:b897be85-c7f0-4f6e-a384-6097798b14e3(com.dslfoundry.plaintextgen.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -83,9 +85,7 @@
       </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
-        <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
-      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186413799158" name="jetbrains.mps.lang.editor.structure.BracketColorStyleClassItem" flags="ln" index="VLuvy" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
@@ -115,9 +115,6 @@
         <child id="1165253890469" name="parameterObjectType" index="1eyP2E" />
       </concept>
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
-      <concept id="1225456267680" name="jetbrains.mps.lang.editor.structure.RGBColor" flags="ng" index="1iSF2X">
-        <property id="1225456424731" name="value" index="1iTho6" />
-      </concept>
       <concept id="701160265283677816" name="jetbrains.mps.lang.editor.structure.TransparentStyleSheetItem" flags="ln" index="3noiJN" />
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
       <concept id="1165420413719" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Group" flags="ng" index="1ou48o">
@@ -465,9 +462,7 @@
         <node concept="3F0A7n" id="4w$6EQbd75O" role="3EZMnx">
           <ref role="1NtTu8" to="myiq:4w$6EQbaM6c" resolve="indent" />
           <node concept="Veino" id="1zqmxeUKbDD" role="3F10Kt">
-            <node concept="1iSF2X" id="1zqmxeUKbDF" role="VblUZ">
-              <property role="1iTho6" value="DDDDDD" />
-            </node>
+            <property role="Vb096" value="fLJRk5A/lightGray" />
           </node>
         </node>
         <node concept="3EZMnI" id="2jBmyzyDqoz" role="3EZMnx">
@@ -798,9 +793,6 @@
     <ref role="1XX52x" to="myiq:4q7d2VGNiCW" resolve="NewlineMarker" />
     <node concept="3F0ifn" id="4q7d2VGNzUn" role="2wV5jI">
       <property role="3F0ifm" value="¶" />
-      <node concept="VechU" id="4q7d2VGNzUt" role="3F10Kt">
-        <property role="Vb096" value="fLJRk5A/lightGray" />
-      </node>
       <node concept="VPXOz" id="4q7d2VGNzUu" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
@@ -1006,9 +998,6 @@
         <node concept="15ARfc" id="2jBmyzyBStY" role="3F10Kt">
           <property role="3$6WeP" value="0" />
         </node>
-        <node concept="VechU" id="2jBmyzyAMTZ" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5A/lightGray" />
-        </node>
       </node>
       <node concept="2iRfu4" id="2jBmyzyB7qf" role="2iSdaV" />
     </node>
@@ -1035,9 +1024,6 @@
         </node>
         <node concept="15ARfc" id="2jBmyzyHEN0" role="3F10Kt">
           <property role="3$6WeP" value="0" />
-        </node>
-        <node concept="VechU" id="2jBmyzyHEN1" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
       <node concept="2iRfu4" id="2jBmyzyH$QQ" role="2iSdaV" />
@@ -1071,9 +1057,6 @@
         <node concept="15ARfc" id="2jBmyzyHEN9" role="3F10Kt">
           <property role="3$6WeP" value="0" />
         </node>
-        <node concept="VechU" id="2jBmyzyHENa" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5A/lightGray" />
-        </node>
       </node>
       <node concept="15ARfc" id="2jBmyzyH$Rj" role="3F10Kt">
         <property role="3$6WeP" value="0" />
@@ -1103,9 +1086,6 @@
           <node concept="15ARfc" id="2jBmyzyHELn" role="3F10Kt">
             <property role="3$6WeP" value="0" />
           </node>
-          <node concept="VechU" id="2jBmyzyHCeO" role="3F10Kt">
-            <property role="Vb096" value="fLJRk5A/lightGray" />
-          </node>
         </node>
         <node concept="2iRfu4" id="2jBmyzyH_Lk" role="2iSdaV" />
         <node concept="PMmxH" id="2jBmyzyH_$S" role="3EZMnx">
@@ -1120,9 +1100,7 @@
         <node concept="3F0A7n" id="2jBmyzyH_$O" role="3EZMnx">
           <ref role="1NtTu8" to="myiq:4w$6EQbaM6c" resolve="indent" />
           <node concept="Veino" id="2jBmyzyH_$P" role="3F10Kt">
-            <node concept="1iSF2X" id="2jBmyzyH_$Q" role="VblUZ">
-              <property role="1iTho6" value="DDDDDD" />
-            </node>
+            <property role="Vb096" value="fLJRk5A/lightGray" />
           </node>
         </node>
         <node concept="3F2HdR" id="2jBmyzyH_$W" role="3EZMnx">
@@ -1160,9 +1138,6 @@
         </node>
         <node concept="15ARfc" id="2jBmyzyHELx" role="3F10Kt">
           <property role="3$6WeP" value="0" />
-        </node>
-        <node concept="VechU" id="2jBmyzyHELy" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
     </node>
@@ -1241,9 +1216,6 @@
           <node concept="VPXOz" id="2jBmyzyHEGy" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
-          <node concept="VechU" id="2jBmyzyHA16" role="3F10Kt">
-            <property role="Vb096" value="fLJRk5A/lightGray" />
-          </node>
         </node>
         <node concept="2iRfu4" id="2jBmyzyHCxM" role="2iSdaV" />
         <node concept="PMmxH" id="2jBmyzyH_T$" role="3EZMnx">
@@ -1287,9 +1259,6 @@
         </node>
         <node concept="VPXOz" id="2jBmyzyHEEv" role="3F10Kt">
           <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VechU" id="2jBmyzyHA2j" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
     </node>
@@ -1516,9 +1485,6 @@
     <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="Tab" />
     <node concept="3F0ifn" id="2u5C0Bwz6Jr" role="2wV5jI">
       <property role="3F0ifm" value="→" />
-      <node concept="VechU" id="2u5C0Bwz6Ju" role="3F10Kt">
-        <property role="Vb096" value="fLJRk5A/lightGray" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1rAvrZzziLI">
@@ -1526,9 +1492,6 @@
     <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="Tab" />
     <node concept="3F0ifn" id="1rAvrZzziLJ" role="2wV5jI">
       <property role="3F0ifm" value="→" />
-      <node concept="VechU" id="1rAvrZzziLK" role="3F10Kt">
-        <property role="Vb096" value="fLJRk5A/lightGray" />
-      </node>
     </node>
     <node concept="2aJ2om" id="1rAvrZzzphd" role="CpUAK">
       <ref role="2$4xQ3" node="2jBmyzyH$LX" resolve="Structural" />

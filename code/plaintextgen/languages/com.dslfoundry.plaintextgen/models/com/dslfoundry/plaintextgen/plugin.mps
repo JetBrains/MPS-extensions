@@ -31,6 +31,7 @@
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <property id="4692598989365753297" name="updateInBackground" index="1rBW0U" />
+        <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
       </concept>
@@ -47,6 +48,7 @@
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
       <concept id="1205679047295" name="jetbrains.mps.lang.plugin.structure.ActionParameterDeclaration" flags="ig" index="2S4$dB" />
+      <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
       <concept id="1206092561075" name="jetbrains.mps.lang.plugin.structure.ActionParameterReferenceOperation" flags="nn" index="3gHZIF" />
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
       <concept id="1217413147516" name="jetbrains.mps.lang.plugin.structure.ActionParameter" flags="ngI" index="1NuADB">
@@ -352,7 +354,7 @@
   </registry>
   <node concept="sE7Ow" id="3bf11hdMVNk">
     <property role="TrG5h" value="PasteUnstructuredText" />
-    <property role="2uzpH1" value="Paste Unstructured Text (Must Be in Buffer)" />
+    <property role="2uzpH1" value="Paste Unstructured Text" />
     <property role="1rBW0U" value="true" />
     <node concept="2S4$dB" id="3bf11hdN8ST" role="1NuT2Z">
       <property role="TrG5h" value="node" />
@@ -374,6 +376,19 @@
                 <ref role="2WH_rO" node="3bf11hdN8ST" resolve="node" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="3xkJrZK8pLC" role="tmbBb">
+      <node concept="3clFbS" id="3xkJrZK8pLD" role="2VODD2">
+        <node concept="3clFbF" id="3xkJrZK8q46" role="3cqZAp">
+          <node concept="2OqwBi" id="3xkJrZK8rZf" role="3clFbG">
+            <node concept="2YIFZM" id="3xkJrZK8qj1" role="2Oq$k0">
+              <ref role="37wK5l" node="3bf11hdO7p6" resolve="getStringFromClipboard" />
+              <ref role="1Pybhc" node="3bf11hdNzr0" resolve="PlaintextPaster" />
+            </node>
+            <node concept="17RvpY" id="3xkJrZK8t6K" role="2OqNvi" />
           </node>
         </node>
       </node>
@@ -2154,7 +2169,7 @@
   </node>
   <node concept="sE7Ow" id="2u5C0BwBMu5">
     <property role="TrG5h" value="PasteUnstructuredTextWithTabs" />
-    <property role="2uzpH1" value="Paste Unstructured Text (Must Be in Buffer, Preserves Tab Literals)" />
+    <property role="2uzpH1" value="Paste Unstructured Text (Preserves Tab Literals)" />
     <property role="1rBW0U" value="true" />
     <node concept="2S4$dB" id="2u5C0BwBMu6" role="1NuT2Z">
       <property role="TrG5h" value="node" />
@@ -2176,6 +2191,19 @@
                 <ref role="2WH_rO" node="2u5C0BwBMu6" resolve="node" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="3xkJrZK9H3_" role="tmbBb">
+      <node concept="3clFbS" id="3xkJrZK9H3A" role="2VODD2">
+        <node concept="3clFbF" id="3xkJrZK9HhY" role="3cqZAp">
+          <node concept="2OqwBi" id="3xkJrZK9HhZ" role="3clFbG">
+            <node concept="2YIFZM" id="3xkJrZK9Hi0" role="2Oq$k0">
+              <ref role="37wK5l" node="3bf11hdO7p6" resolve="getStringFromClipboard" />
+              <ref role="1Pybhc" node="3bf11hdNzr0" resolve="PlaintextPaster" />
+            </node>
+            <node concept="17RvpY" id="3xkJrZK9Hi1" role="2OqNvi" />
           </node>
         </node>
       </node>

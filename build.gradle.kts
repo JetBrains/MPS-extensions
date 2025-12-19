@@ -276,12 +276,10 @@ tasks.register<Delete>("cleanMps") {
     })
 }
 
-tasks.cyclonedxBom {
-    destination = reportsDir.map { it.asFile }
-    outputName = "sbom"
-    outputFormat = "json"
-    includeLicenseText = false
-    includeConfigs = provider { bundledDependencies.map { it.configuration.name } }
+tasks.cyclonedxDirectBom {
+    jsonOutput = reportsDir.get().file("sbom.json")
+    // Generate JSON only
+    xmlOutput.unsetConvention()
 }
 
 tasks.clean {

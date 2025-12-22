@@ -49,6 +49,14 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.extensions.build* The version number property was renamed from `versionNumber` to `version`.
 
+### Removed
+
+- MPS.ThirdParty has been removed completely. MPS.IDEA or MPS.IDEA.Modules to be used instead. 
+
+### Deprecated
+
+- MPS.Kotlin is deprecated.
+
 ## September 2025
 
 ### Added
@@ -177,7 +185,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Changed
 
-- combine multiple elements without spaces  Reduced from Errors to Warning checks that force policies for all concepts in a language. In this way one can prototype with small set of merge policies. Use Partial police flag in your MergingPolicy to deactivate runtime checks as well.
+- '''combine multiple elements without spaces'''  Reduced from Errors to Warning checks that force policies for all concepts in a language. In this way one can prototype with small set of merge policies. Use Partial police flag in your MergingPolicy to deactivate runtime checks as well.
 
 ### Added
 

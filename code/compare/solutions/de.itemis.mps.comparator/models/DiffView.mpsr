@@ -165,7 +165,6 @@
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
@@ -173,11 +172,8 @@
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
       </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1179,19 +1175,68 @@
         <node concept="3Tqbb2" id="5oR1gCFG55b" role="1tU5fm" />
       </node>
       <node concept="P$JXv" id="5oR1gCFGaNf" role="lGtFl">
-        <node concept="TZ5HA" id="5oR1gCFGaNg" role="TZ5H$">
-          <node concept="1dT_AC" id="5oR1gCFGaNh" role="1dT_Ay">
-            <property role="1dT_AB" value="Any testlabel will be detached" />
-          </node>
-        </node>
         <node concept="TUZQ0" id="5oR1gCFGaNi" role="3nqlJM">
-          <property role="TUZQ4" value="node in assert" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="5oR1gCFGaNk" role="zr_5Q">
             <ref role="zr_51" node="5oR1gCFG55c" resolve="expected" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU69b" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU69c" role="1PaTwD">
+              <property role="3oM_SC" value="node" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69d" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69e" role="1PaTwD">
+              <property role="3oM_SC" value="assert" />
+            </node>
+          </node>
         </node>
         <node concept="x79VA" id="5oR1gCFGaNl" role="3nqlJM">
-          <property role="x79VB" value="Clone of expected model placed in temp. model" />
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="L0S2CpU69f" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU69g" role="1PaTwD">
+              <property role="3oM_SC" value="Clone" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69h" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69i" role="1PaTwD">
+              <property role="3oM_SC" value="expected" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69j" role="1PaTwD">
+              <property role="3oM_SC" value="model" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69k" role="1PaTwD">
+              <property role="3oM_SC" value="placed" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69l" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69m" role="1PaTwD">
+              <property role="3oM_SC" value="temp." />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69n" role="1PaTwD">
+              <property role="3oM_SC" value="model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU695" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU696" role="1PaTwD">
+            <property role="3oM_SC" value="Any" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU697" role="1PaTwD">
+            <property role="3oM_SC" value="testlabel" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU698" role="1PaTwD">
+            <property role="3oM_SC" value="will" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU699" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU69a" role="1PaTwD">
+            <property role="3oM_SC" value="detached" />
+          </node>
         </node>
       </node>
       <node concept="3Tqbb2" id="5oR1gCFG54s" role="3clF45" />
@@ -1358,13 +1403,26 @@
       </node>
       <node concept="3Tm6S6" id="5oR1gCFG6rn" role="1B3o_S" />
       <node concept="P$JXv" id="5oR1gCFG8pk" role="lGtFl">
-        <node concept="TZ5HA" id="5oR1gCFG8pl" role="TZ5H$">
-          <node concept="1dT_AC" id="5oR1gCFG8pm" role="1dT_Ay" />
-        </node>
         <node concept="TUZQ0" id="5oR1gCFG8pn" role="3nqlJM">
-          <property role="TUZQ4" value="nodes in assert" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="5oR1gCFG8pp" role="zr_5Q">
             <ref role="zr_51" node="5oR1gCFG6rp" resolve="node" />
+          </node>
+          <node concept="1PaTwC" id="L0S2CpU69q" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU69r" role="1PaTwD">
+              <property role="3oM_SC" value="nodes" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69s" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69t" role="1PaTwD">
+              <property role="3oM_SC" value="assert" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU69o" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU69p" role="1PaTwD">
+            <property role="3oM_SC" value="" />
           </node>
         </node>
       </node>
@@ -1442,15 +1500,35 @@
         </node>
       </node>
       <node concept="P$JXv" id="6GJZxHzwg$y" role="lGtFl">
-        <node concept="TZ5HA" id="6GJZxHzwg$z" role="TZ5H$">
-          <node concept="1dT_AC" id="6GJZxHzwg$$" role="1dT_Ay">
-            <property role="1dT_AB" value="requires read access" />
-          </node>
-        </node>
         <node concept="TUZQ0" id="6GJZxHzwg$_" role="3nqlJM">
-          <property role="TUZQ4" value="temporal model in memory" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6GJZxHzwg$B" role="zr_5Q">
             <ref role="zr_51" node="6GJZxHzvDj3" resolve="tmpModel" />
+          </node>
+          <node concept="1PaTwC" id="L0S2CpU69y" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU69z" role="1PaTwD">
+              <property role="3oM_SC" value="temporal" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69$" role="1PaTwD">
+              <property role="3oM_SC" value="model" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69_" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU69A" role="1PaTwD">
+              <property role="3oM_SC" value="memory" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU69u" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU69v" role="1PaTwD">
+            <property role="3oM_SC" value="requires" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU69w" role="1PaTwD">
+            <property role="3oM_SC" value="read" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU69x" role="1PaTwD">
+            <property role="3oM_SC" value="access" />
           </node>
         </node>
       </node>

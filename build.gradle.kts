@@ -17,7 +17,7 @@ plugins {
     id("maven-publish")
     id("base")
     id("de.itemis.mps.gradle.launcher") version "2.8.0.+"
-    id("org.cyclonedx.bom") version "2.4.1"
+    id("org.cyclonedx.bom") version "3.1.0"
 
     id("com.specificlanguages.mps") version "2.0.0-pre4"
 }
@@ -270,12 +270,10 @@ tasks.register<Delete>("cleanMps") {
     })
 }
 
-tasks.cyclonedxBom {
-    destination = reportsDir.map { it.asFile }
-    outputName = "sbom"
-    outputFormat = "json"
-    includeLicenseText = false
-    includeConfigs = provider { bundledDependencies.map { it.configuration.name } }
+tasks.cyclonedxDirectBom {
+    jsonOutput = reportsDir.get().file("sbom.json")
+    // Generate JSON only
+    xmlOutput.unsetConvention()
 }
 
 tasks.clean {

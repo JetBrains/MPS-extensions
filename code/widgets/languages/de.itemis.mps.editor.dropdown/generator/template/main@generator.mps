@@ -12,6 +12,7 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" />
     <import index="4dud" ref="r:2da81fb8-b6c6-47b8-8c70-4c760b6faf63(de.itemis.mps.editor.dropdown.runtime)" />
+    <import index="nivk" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.descriptor(MPS.Editor/)" />
     <import index="9b3t" ref="r:89097a7d-e3bb-45b9-bbd8-21e9e897dd54(de.itemis.mps.editor.dropdown.structure)" implicit="true" />
   </imports>
   <registry>
@@ -19,6 +20,7 @@
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -31,7 +33,10 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <property id="1075300953594" name="abstractClass" index="1sVAO0" />
+        <child id="1095933932569" name="implementedInterface" index="EKbjA" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -55,7 +60,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -63,7 +67,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -72,6 +75,7 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -186,19 +190,14 @@
     <ref role="3gUMe" to="9b3t:_i_acSf54w" resolve="CellModel_DropDown" />
     <node concept="312cEu" id="g_$xYfi" role="13RCb5">
       <property role="TrG5h" value="_context_class_" />
-      <node concept="3clFbW" id="3NbAIGiCiLd" role="jymVt">
-        <node concept="3clFbS" id="3NbAIGiCiLg" role="3clF47" />
-        <node concept="3cqZAl" id="3NbAIGiCiLe" role="3clF45" />
-        <node concept="3Tm1VV" id="3NbAIGiCiLf" role="1B3o_S" />
-      </node>
+      <property role="1sVAO0" value="true" />
+      <node concept="2tJIrI" id="3AHmCKdBinL" role="jymVt" />
       <node concept="3clFb_" id="g_CeiMb" role="jymVt">
         <property role="TrG5h" value="_cell_factory_method_" />
         <node concept="3uibUv" id="5Hr2i_R23Rv" role="3clF45">
           <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
-        <node concept="raruj" id="g_CeiMW" role="lGtFl">
-          <ref role="2sdACS" to="tpc3:hG092h3" resolve="cellFactoryMethod" />
-        </node>
+        <node concept="raruj" id="g_CeiMW" role="lGtFl" />
         <node concept="3clFbS" id="g_CeiMh" role="3clF47">
           <node concept="3cpWs8" id="g_CeiMn" role="3cqZAp">
             <node concept="3cpWsn" id="g_CeiMo" role="3cpWs9">
@@ -281,22 +280,49 @@
         </node>
       </node>
       <node concept="3clFb_" id="5KDKp$lLLhS" role="jymVt">
-        <property role="TrG5h" value="newFactoryMethod" />
+        <property role="TrG5h" value="_cell_factory_method_" />
         <node concept="3uibUv" id="5KDKp$lLLhT" role="3clF45">
           <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
         <node concept="3clFbS" id="5KDKp$lLLhU" role="3clF47">
           <node concept="3cpWs6" id="5KDKp$lLLhV" role="3cqZAp">
-            <node concept="10Nm6u" id="5KDKp$lLLhW" role="3cqZAk" />
+            <node concept="1rXfSq" id="3AHmCKdBl1q" role="3cqZAk">
+              <ref role="37wK5l" node="g_CeiMb" resolve="_cell_factory_method_" />
+              <node concept="1rXfSq" id="3AHmCKdBldm" role="37wK5m">
+                <ref role="37wK5l" to="nivk:~EditorBuilderEnvironment.getEditorContext()" resolve="getEditorContext" />
+              </node>
+              <node concept="1rXfSq" id="3AHmCKdBlub" role="37wK5m">
+                <ref role="37wK5l" to="nivk:~EditorBuilderEnvironment.getNode()" resolve="getNode" />
+              </node>
+            </node>
           </node>
         </node>
-        <node concept="raruj" id="5KDKp$lLLhX" role="lGtFl" />
-        <node concept="5jKBG" id="5KDKp$lLLhY" role="lGtFl">
-          <ref role="v9R2y" to="tpc3:2dNBF9rt5kk" resolve="template_cellFactoryCompatibility" />
+        <node concept="raruj" id="5KDKp$lLLhX" role="lGtFl">
+          <ref role="2sdACS" to="tpc3:2dNBF9rpTiT" resolve="cellFactory.factoryMethod" />
         </node>
         <node concept="3Tm6S6" id="5KDKp$lLLhZ" role="1B3o_S" />
+        <node concept="17Uvod" id="3AHmCKdBk8$" role="lGtFl">
+          <property role="2qtEX9" value="name" />
+          <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+          <node concept="3zFVjK" id="3AHmCKdBk8_" role="3zH0cK">
+            <node concept="3clFbS" id="3AHmCKdBk8A" role="2VODD2">
+              <node concept="3clFbF" id="3AHmCKdBkwT" role="3cqZAp">
+                <node concept="2OqwBi" id="3AHmCKdBkwU" role="3clFbG">
+                  <node concept="2qgKlT" id="3AHmCKdBkwV" role="2OqNvi">
+                    <ref role="37wK5l" to="tpcb:hHfE2BD" resolve="getFactoryMethodName" />
+                    <node concept="1iwH7S" id="3AHmCKdBkwW" role="37wK5m" />
+                  </node>
+                  <node concept="30H73N" id="3AHmCKdBkwX" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3Tm1VV" id="h9B3LuZ" role="1B3o_S" />
+      <node concept="3uibUv" id="3AHmCKdBj1$" role="EKbjA">
+        <ref role="3uigEE" to="nivk:~EditorBuilderEnvironment" resolve="EditorBuilderEnvironment" />
+      </node>
     </node>
   </node>
 </model>

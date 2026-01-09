@@ -13,6 +13,7 @@
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="nivk" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.descriptor(MPS.Editor/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -38,7 +39,10 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <property id="1075300953594" name="abstractClass" index="1sVAO0" />
+        <child id="1095933932569" name="implementedInterface" index="EKbjA" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -72,7 +76,6 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
-      <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -80,7 +83,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -204,11 +206,7 @@
     <ref role="3gUMe" to="myud:2af7$rtrDWk" resolve="CellModel_CustomFactory" />
     <node concept="312cEu" id="fXNKQOH" role="13RCb5">
       <property role="TrG5h" value="_context_class_" />
-      <node concept="3clFbW" id="3NbAIGiCjbF" role="jymVt">
-        <node concept="3cqZAl" id="3NbAIGiCjbG" role="3clF45" />
-        <node concept="3Tm1VV" id="3NbAIGiCjbH" role="1B3o_S" />
-        <node concept="3clFbS" id="3NbAIGiCjbI" role="3clF47" />
-      </node>
+      <property role="1sVAO0" value="true" />
       <node concept="3clFb_" id="fXNLFfO" role="jymVt">
         <property role="TrG5h" value="_cell_factory_method_CustomFactory" />
         <node concept="3uibUv" id="5Hr2i_R0Q0J" role="3clF45">
@@ -445,25 +443,47 @@
           <property role="3TUv4t" value="true" />
           <node concept="3Tqbb2" id="i2nPOFr" role="1tU5fm" />
         </node>
-        <node concept="raruj" id="fXNLFgK" role="lGtFl">
-          <ref role="2sdACS" to="tpc3:hG092h3" resolve="cellFactoryMethod" />
-        </node>
+        <node concept="raruj" id="fXNLFgK" role="lGtFl" />
       </node>
       <node concept="3clFb_" id="5KDKp$lLLk8" role="jymVt">
-        <property role="TrG5h" value="newFactoryMethod" />
+        <property role="TrG5h" value="_cell_factory_method_" />
         <node concept="3uibUv" id="5KDKp$lLLk9" role="3clF45">
           <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
         <node concept="3clFbS" id="5KDKp$lLLka" role="3clF47">
           <node concept="3cpWs6" id="5KDKp$lLLkb" role="3cqZAp">
-            <node concept="10Nm6u" id="5KDKp$lLLkc" role="3cqZAk" />
+            <node concept="1rXfSq" id="3AHmCKdCJZU" role="3cqZAk">
+              <ref role="37wK5l" node="fXNLFfO" resolve="_cell_factory_method_CustomFactory" />
+              <node concept="1rXfSq" id="3AHmCKdCKm7" role="37wK5m">
+                <ref role="37wK5l" to="nivk:~EditorBuilderEnvironment.getEditorContext()" resolve="getEditorContext" />
+              </node>
+              <node concept="1rXfSq" id="3AHmCKdCLEe" role="37wK5m">
+                <ref role="37wK5l" to="nivk:~EditorBuilderEnvironment.getNode()" resolve="getNode" />
+              </node>
+            </node>
           </node>
         </node>
-        <node concept="raruj" id="5KDKp$lLLkd" role="lGtFl" />
-        <node concept="5jKBG" id="5KDKp$lLLke" role="lGtFl">
-          <ref role="v9R2y" to="tpc3:2dNBF9rt5kk" resolve="template_cellFactoryCompatibility" />
+        <node concept="raruj" id="5KDKp$lLLkd" role="lGtFl">
+          <ref role="2sdACS" to="tpc3:2dNBF9rpTiT" resolve="cellFactory.factoryMethod" />
         </node>
         <node concept="3Tm6S6" id="5KDKp$lLLkf" role="1B3o_S" />
+        <node concept="17Uvod" id="3AHmCKdCIkp" role="lGtFl">
+          <property role="2qtEX9" value="name" />
+          <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+          <node concept="3zFVjK" id="3AHmCKdCIkq" role="3zH0cK">
+            <node concept="3clFbS" id="3AHmCKdCIkr" role="2VODD2">
+              <node concept="3clFbF" id="3AHmCKdCIzM" role="3cqZAp">
+                <node concept="2OqwBi" id="3AHmCKdCIzN" role="3clFbG">
+                  <node concept="2qgKlT" id="3AHmCKdCIzO" role="2OqNvi">
+                    <ref role="37wK5l" to="tpcb:hHfE2BD" resolve="getFactoryMethodName" />
+                    <node concept="1iwH7S" id="3AHmCKdCIzP" role="37wK5m" />
+                  </node>
+                  <node concept="30H73N" id="3AHmCKdCIzQ" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3clFb_" id="2af7$rtsxxN" role="jymVt">
         <property role="TrG5h" value="createChildCell" />
@@ -499,6 +519,9 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="h9B3Loo" role="1B3o_S" />
+      <node concept="3uibUv" id="3AHmCKdCFor" role="EKbjA">
+        <ref role="3uigEE" to="nivk:~EditorBuilderEnvironment" resolve="EditorBuilderEnvironment" />
+      </node>
     </node>
   </node>
 </model>

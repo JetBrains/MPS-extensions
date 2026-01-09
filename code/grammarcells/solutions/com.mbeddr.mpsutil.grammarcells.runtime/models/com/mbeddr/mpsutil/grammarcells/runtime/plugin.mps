@@ -555,7 +555,7 @@
                                   <ref role="2Gs0qQ" node="77z0Sgz0VgH" resolve="module" />
                                 </node>
                                 <node concept="liA8E" id="77z0Sgz0VgQ" role="2OqNvi">
-                                  <ref role="37wK5l" to="lui2:~SModule.getModuleReference()" resolve="getModuleReference" />
+                                  <ref role="37wK5l" to="j8aq:~ReloadableModule.getModuleReference()" resolve="getModuleReference" />
                                 </node>
                               </node>
                             </node>
@@ -631,7 +631,7 @@
                                   <ref role="2Gs0qQ" node="77z0Sgz1GzK" resolve="module" />
                                 </node>
                                 <node concept="liA8E" id="77z0Sgz1GzT" role="2OqNvi">
-                                  <ref role="37wK5l" to="lui2:~SModule.getModuleReference()" resolve="getModuleReference" />
+                                  <ref role="37wK5l" to="j8aq:~ReloadableModule.getModuleReference()" resolve="getModuleReference" />
                                 </node>
                               </node>
                             </node>

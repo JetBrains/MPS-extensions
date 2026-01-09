@@ -361,6 +361,7 @@
       <concept id="1167168920554" name="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" flags="in" index="30G5F_" />
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
+        <property id="7898029224680692134" name="description" index="2n97ot" />
         <property id="1167272244852" name="applyToConceptInheritors" index="36QftV" />
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
         <child id="1167169362365" name="conditionFunction" index="30HLyM" />
@@ -3533,6 +3534,55 @@
             </node>
           </node>
           <node concept="3clFbH" id="2uX18svgjzg" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="6ut3P8ABm5o" role="3acgRq">
+      <property role="2n97ot" value="FIXME likely not only for this parameter or not only in this context, see commit comment" />
+      <ref role="30HIoZ" to="2qld:5qgNcfDn4ui" resolve="Parameter_Node" />
+      <node concept="1Koe21" id="6ut3P8ABO1i" role="1lVwrX">
+        <node concept="2ShNRf" id="6ut3P8ABOeS" role="1Koe22">
+          <node concept="YeOm9" id="6ut3P8ABTOv" role="2ShVmc">
+            <node concept="1Y3b0j" id="6ut3P8ABTOy" role="YeSDq">
+              <property role="2bfB8j" value="true" />
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+              <ref role="1Y3XeK" to="wyt6:~Object" resolve="Object" />
+              <node concept="3Tm1VV" id="6ut3P8ABTOz" role="1B3o_S" />
+              <node concept="3clFb_" id="6ut3P8AC9x9" role="jymVt">
+                <property role="TrG5h" value="getNode" />
+                <node concept="3clFbS" id="6ut3P8AC9xc" role="3clF47">
+                  <node concept="3clFbF" id="6ut3P8AClOZ" role="3cqZAp">
+                    <node concept="1rXfSq" id="6ut3P8AClOY" role="3clFbG">
+                      <ref role="37wK5l" node="6ut3P8AC9x9" resolve="getNode" />
+                      <node concept="raruj" id="6ut3P8AClWj" role="lGtFl" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Tm1VV" id="6ut3P8AC7hL" role="1B3o_S" />
+                <node concept="3Tqbb2" id="6ut3P8ACaeF" role="3clF45" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30G5F_" id="6ut3P8ABA_f" role="30HLyM">
+        <node concept="3clFbS" id="6ut3P8ABA_g" role="2VODD2">
+          <node concept="3clFbF" id="6ut3P8ABATx" role="3cqZAp">
+            <node concept="2OqwBi" id="6ut3P8ABCcL" role="3clFbG">
+              <node concept="2OqwBi" id="6ut3P8ABBdx" role="2Oq$k0">
+                <node concept="30H73N" id="6ut3P8ABATw" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="6ut3P8ABBBz" role="2OqNvi">
+                  <node concept="1xMEDy" id="6ut3P8ABBB_" role="1xVPHs">
+                    <node concept="chp4Y" id="6ut3P8ABBMa" role="ri$Ld">
+                      <ref role="cht4Q" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3x8VRR" id="6ut3P8ABCN7" role="2OqNvi" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

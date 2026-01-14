@@ -19,7 +19,7 @@ plugins {
     id("de.itemis.mps.gradle.launcher") version "2.8.0.+"
     id("org.cyclonedx.bom") version "3.1.0"
 
-    id("com.specificlanguages.mps") version "2.0.0-pre4"
+    id("com.specificlanguages.mps") version "2.0.0"
 }
 
 // Detect if we are in a CI build
@@ -251,7 +251,7 @@ tasks.register("failOnTestError") {
     }
 }
 
-tasks.packageZip {
+tasks.zip {
     dependsOn(tasks.cyclonedxBom)
     eachFile {
         if (path == "de.itemis.mps.extensions/MPS.ThirdParty.jar") {
@@ -402,7 +402,7 @@ githubRelease {
     targetCommitish = GitBasedVersioning.getGitCommitHash()
     body = releaseNotes
     prerelease = rootProject.hasProperty("nightly_build")
-    releaseAssets(tasks.packageZip)
+    releaseAssets(tasks.zip)
     dryRun = false
 }
 

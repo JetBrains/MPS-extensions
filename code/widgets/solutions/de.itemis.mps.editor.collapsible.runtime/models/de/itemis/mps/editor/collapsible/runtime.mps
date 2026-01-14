@@ -5,7 +5,7 @@
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -271,17 +271,11 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
@@ -2877,9 +2871,39 @@
         <ref role="3uigEE" node="48DYfEt2p$b" resolve="CollapsibleCell" />
       </node>
       <node concept="P$JXv" id="5pN$eUqycva" role="lGtFl">
-        <node concept="TZ5HA" id="5pN$eUqycvb" role="TZ5H$">
-          <node concept="1dT_AC" id="5pN$eUqycvc" role="1dT_Ay">
-            <property role="1dT_AB" value="Return the last child cell for computing the vertical line length" />
+        <node concept="1PaTwC" id="L0S2CpU6TI" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6TJ" role="1PaTwD">
+            <property role="3oM_SC" value="Return" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TK" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TL" role="1PaTwD">
+            <property role="3oM_SC" value="last" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TM" role="1PaTwD">
+            <property role="3oM_SC" value="child" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TN" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TO" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TP" role="1PaTwD">
+            <property role="3oM_SC" value="computing" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TQ" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TR" role="1PaTwD">
+            <property role="3oM_SC" value="vertical" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TS" role="1PaTwD">
+            <property role="3oM_SC" value="line" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TT" role="1PaTwD">
+            <property role="3oM_SC" value="length" />
           </node>
         </node>
       </node>
@@ -3091,9 +3115,45 @@
       <node concept="3Tm6S6" id="5pN$eUpSJdB" role="1B3o_S" />
       <node concept="10Oyi0" id="5pN$eUpSMZs" role="3clF45" />
       <node concept="P$JXv" id="5pN$eUpT5V3" role="lGtFl">
-        <node concept="TZ5HA" id="5pN$eUpT9Lj" role="TZ5H$">
-          <node concept="1dT_AC" id="5pN$eUpT9Lk" role="1dT_Ay">
-            <property role="1dT_AB" value="Return the horizontal delta between this collapsible and its parent (0 if root)." />
+        <node concept="1PaTwC" id="L0S2CpU6TU" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6TV" role="1PaTwD">
+            <property role="3oM_SC" value="Return" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TW" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TX" role="1PaTwD">
+            <property role="3oM_SC" value="horizontal" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TY" role="1PaTwD">
+            <property role="3oM_SC" value="delta" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6TZ" role="1PaTwD">
+            <property role="3oM_SC" value="between" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6U0" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6U1" role="1PaTwD">
+            <property role="3oM_SC" value="collapsible" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6U2" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6U3" role="1PaTwD">
+            <property role="3oM_SC" value="its" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6U4" role="1PaTwD">
+            <property role="3oM_SC" value="parent" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6U5" role="1PaTwD">
+            <property role="3oM_SC" value="(0" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6U6" role="1PaTwD">
+            <property role="3oM_SC" value="if" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6U7" role="1PaTwD">
+            <property role="3oM_SC" value="root)." />
           </node>
         </node>
       </node>
@@ -3286,14 +3346,77 @@
         </node>
       </node>
       <node concept="P$JXv" id="62nlqxEkApc" role="lGtFl">
-        <node concept="TZ5HA" id="62nlqxEkApd" role="TZ5H$">
-          <node concept="1dT_AC" id="62nlqxEkApe" role="1dT_Ay">
-            <property role="1dT_AB" value="Check if the cell is a collapsible that is linked to this one." />
+        <node concept="1PaTwC" id="L0S2CpU6U8" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6U9" role="1PaTwD">
+            <property role="3oM_SC" value="Check" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ua" role="1PaTwD">
+            <property role="3oM_SC" value="if" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ub" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uc" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ud" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ue" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uf" role="1PaTwD">
+            <property role="3oM_SC" value="collapsible" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ug" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uh" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ui" role="1PaTwD">
+            <property role="3oM_SC" value="linked" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uj" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uk" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ul" role="1PaTwD">
+            <property role="3oM_SC" value="one." />
           </node>
         </node>
-        <node concept="TZ5HA" id="62nlqxEkHWf" role="TZ5H$">
-          <node concept="1dT_AC" id="62nlqxEkHWg" role="1dT_Ay">
-            <property role="1dT_AB" value="If that's the case, edges are drawn between these collapsibles." />
+        <node concept="1PaTwC" id="L0S2CpU6Um" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Un" role="1PaTwD">
+            <property role="3oM_SC" value="If" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uo" role="1PaTwD">
+            <property role="3oM_SC" value="that's" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Up" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uq" role="1PaTwD">
+            <property role="3oM_SC" value="case," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ur" role="1PaTwD">
+            <property role="3oM_SC" value="edges" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Us" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ut" role="1PaTwD">
+            <property role="3oM_SC" value="drawn" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uu" role="1PaTwD">
+            <property role="3oM_SC" value="between" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uv" role="1PaTwD">
+            <property role="3oM_SC" value="these" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Uw" role="1PaTwD">
+            <property role="3oM_SC" value="collapsibles." />
           </node>
         </node>
       </node>
@@ -5075,9 +5198,21 @@
     </node>
     <node concept="3Tm1VV" id="5pN$eUp3hSZ" role="1B3o_S" />
     <node concept="3UR2Jj" id="5pN$eUpTQrJ" role="lGtFl">
-      <node concept="TZ5HA" id="5pN$eUpTQrK" role="TZ5H$">
-        <node concept="1dT_AC" id="5pN$eUpTQrL" role="1dT_Ay">
-          <property role="1dT_AB" value="Provides access to user-defined methods." />
+      <node concept="1PaTwC" id="L0S2CpU6TC" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6TD" role="1PaTwD">
+          <property role="3oM_SC" value="Provides" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6TE" role="1PaTwD">
+          <property role="3oM_SC" value="access" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6TF" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6TG" role="1PaTwD">
+          <property role="3oM_SC" value="user-defined" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6TH" role="1PaTwD">
+          <property role="3oM_SC" value="methods." />
         </node>
       </node>
     </node>

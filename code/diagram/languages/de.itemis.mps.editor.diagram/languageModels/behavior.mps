@@ -6,7 +6,7 @@
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -245,16 +245,10 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ngI" index="2c44t0">
@@ -9993,9 +9987,54 @@
     <node concept="2tJIrI" id="3biyEnOMmPZ" role="jymVt" />
     <node concept="3Tm1VV" id="3biyEnOM2xq" role="1B3o_S" />
     <node concept="3UR2Jj" id="3biyEnOM4Lf" role="lGtFl">
-      <node concept="TZ5HA" id="3biyEnOM4Lg" role="TZ5H$">
-        <node concept="1dT_AC" id="3biyEnOM4Lh" role="1dT_Ay">
-          <property role="1dT_AB" value="This class replicates the old hardcoded values of the LayeredLayouter that differ from the standard values" />
+      <node concept="1PaTwC" id="L0S2CpU61J" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU61K" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61L" role="1PaTwD">
+          <property role="3oM_SC" value="class" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61M" role="1PaTwD">
+          <property role="3oM_SC" value="replicates" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61N" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61O" role="1PaTwD">
+          <property role="3oM_SC" value="old" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61P" role="1PaTwD">
+          <property role="3oM_SC" value="hardcoded" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61Q" role="1PaTwD">
+          <property role="3oM_SC" value="values" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61R" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61S" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61T" role="1PaTwD">
+          <property role="3oM_SC" value="LayeredLayouter" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61U" role="1PaTwD">
+          <property role="3oM_SC" value="that" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61V" role="1PaTwD">
+          <property role="3oM_SC" value="differ" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61W" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61X" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61Y" role="1PaTwD">
+          <property role="3oM_SC" value="standard" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU61Z" role="1PaTwD">
+          <property role="3oM_SC" value="values" />
         </node>
       </node>
     </node>

@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## January 2026
+
+### Fixed
+
+- *de.slisson.mps.editor.multiline* Generic placeholders like generic comments can't be inserted into words anymore (an exception was thrown).
+
 ## December 2025
 
 ### Added

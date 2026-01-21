@@ -25,6 +25,7 @@ import de.itemis.mps.structurecheck.runtime.Message;
 import de.slisson.mps.tables.runtime.cells.TableEditor;
 import de.slisson.mps.tables.runtime.cells.RowEndCell;
 import de.slisson.mps.tables.runtime.cells.PartialTableEditor;
+import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
@@ -103,6 +104,12 @@ public class TableStructure_Test extends BaseTransformationTest {
             public Iterable<EditorCell> getSequence(EditorCell thisElement) {
               return descendants;
             }
+            @Nullable
+            @Override
+            public Message getMessage(EditorCell thisElement) {
+              // Overridden just for being included in the stack trace
+              return super.getMessage(thisElement);
+            }
           }, new SequenceChecker<EditorCell, EditorCell>(false, SequenceCheckerType.allOrMore, new Element<EditorCell_Property>(new TypeChecker(EditorCell_Property.class) {}, new CompositeChecker()) {
             @Override
             public int getMultiplier() {
@@ -136,6 +143,12 @@ public class TableStructure_Test extends BaseTransformationTest {
           }) {
             public Iterable<EditorCell> getSequence(EditorCell thisElement) {
               return descendants;
+            }
+            @Nullable
+            @Override
+            public Message getMessage(EditorCell thisElement) {
+              // Overridden just for being included in the stack trace
+              return super.getMessage(thisElement);
             }
           });
           Message message = checker.getMessage(thisElement);

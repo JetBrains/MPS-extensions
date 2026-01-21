@@ -22,6 +22,7 @@ import de.itemis.mps.editor.diagram.runtime.jgraph.BoxDCell;
 import de.itemis.mps.structurecheck.runtime.TypeChecker;
 import de.itemis.mps.structurecheck.runtime.Message;
 import de.itemis.mps.editor.diagram.runtime.jgraph.EdgeDCell;
+import org.jetbrains.annotations.Nullable;
 import de.itemis.mps.editor.diagram.runtime.jgraph.SPOrEOverlapRemovalLayouter;
 import org.junit.Assert;
 import org.eclipse.elk.core.math.ElkPadding;
@@ -79,6 +80,12 @@ public class SmokeTestNodeOverlapRemoval_Test extends BaseTransformationTest {
         }) {
           public Iterable<mxCell> getSequence(mxCell thisElement) {
             return ExtensionMethods.getChildren(thisElement);
+          }
+          @Nullable
+          @Override
+          public Message getMessage(mxCell thisElement) {
+            // Overridden just for being included in the stack trace
+            return super.getMessage(thisElement);
           }
         });
         Message message = checker.getMessage(thisElement);

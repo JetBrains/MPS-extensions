@@ -29,6 +29,7 @@ import de.slisson.mps.tables.runtime.gridmodel.IGrid;
 import de.slisson.mps.tables.runtime.simplegrid.GridPosition;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.openapi.editor.EditorContext;
 
 public class TableUtils {
   private static Condition<EditorCell> IS_GRID_CELL = new Condition<EditorCell>() {
@@ -291,6 +292,15 @@ public class TableUtils {
     return (SNodeOperations.isInstanceOf(node, SNodeOperations.asSConcept(ofConcept)) ? node : null);
 
   }
+  public static EditorCell createNodeCell(EditorContext editorContext, SNode node) {
+    EditorCell cell = editorContext.getEditorComponent().getUpdater().getCurrentUpdateSession().updateChildNodeCell(node);
+    if (cell.getSNode() != node) {
+      // It's probably an annotation or some other non-standard case that isn't handled well.
+      CellCaching.disableCaching();
+    }
+    return cell;
+  }
+
   private static Grid check_3ytqdt_a0b0ob(TableEditor checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getGrid();

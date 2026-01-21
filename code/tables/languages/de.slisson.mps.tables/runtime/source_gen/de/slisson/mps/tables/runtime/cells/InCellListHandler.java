@@ -64,7 +64,7 @@ public abstract class InCellListHandler extends AbstractCellListHandler {
     return createNodeCell(node);
   }
   public EditorCell createNodeCell(SNode node) {
-    EditorCell nodeCell = getEditorContext().getEditorComponent().getUpdater().getCurrentUpdateSession().updateChildNodeCell(node);
+    EditorCell nodeCell = TableUtils.createNodeCell(getEditorContext(), node);
     ChildsTracker.getInstance().registerChild(nodeCell);
     if (nodeCell.getAction(CellActionType.DELETE) == null) {
       nodeCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(node));

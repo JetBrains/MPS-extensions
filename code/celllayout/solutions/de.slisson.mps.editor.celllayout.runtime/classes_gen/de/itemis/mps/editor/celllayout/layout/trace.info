@@ -2202,51 +2202,54 @@
   </root>
   <root nodeRef="r:12584d60-2d80-4ca9-9c6e-b79d499da0cf(de.itemis.mps.editor.celllayout.layout)/4615632674303410119">
     <file name="LayoutableContainerExtensions.java">
-      <node id="7641389568989536839" at="11,73,12,79" concept="4" />
-      <node id="7641389568989525936" at="15,52,16,13" concept="11" />
-      <node id="7641389568989525940" at="17,5,18,0" concept="13" />
-      <node id="7641389568989525941" at="18,0,19,64" concept="10" />
-      <node id="7641389568989525947" at="19,64,20,28" concept="10" />
-      <node id="7641389568989525953" at="20,28,21,51" concept="10" />
-      <node id="7641389568989525959" at="21,51,22,28" concept="10" />
-      <node id="7641389568989525965" at="22,28,23,51" concept="10" />
-      <node id="7641389568989525971" at="23,51,24,0" concept="13" />
-      <node id="7641389568989525975" at="25,63,26,42" concept="4" />
-      <node id="7641389568989525983" at="26,42,27,65" concept="4" />
-      <node id="7641389568989525991" at="27,65,28,42" concept="4" />
-      <node id="7641389568989525999" at="28,42,29,65" concept="4" />
-      <node id="7641389568989526008" at="30,5,31,0" concept="13" />
-      <node id="7641389568989526009" at="31,0,32,56" concept="4" />
-      <node id="7641389568989526016" at="32,56,33,86" concept="4" />
-      <node id="7641389568989526026" at="33,86,34,63" concept="4" />
+      <node id="8538146646826935034" at="12,24,13,13" concept="11" />
+      <node id="7641389568989536839" at="14,5,15,79" concept="4" />
+      <node id="7641389568989525936" at="18,52,19,13" concept="11" />
+      <node id="7641389568989525940" at="20,5,21,0" concept="13" />
+      <node id="7641389568989525941" at="21,0,22,64" concept="10" />
+      <node id="7641389568989525947" at="22,64,23,28" concept="10" />
+      <node id="7641389568989525953" at="23,28,24,51" concept="10" />
+      <node id="7641389568989525959" at="24,51,25,28" concept="10" />
+      <node id="7641389568989525965" at="25,28,26,51" concept="10" />
+      <node id="7641389568989525971" at="26,51,27,0" concept="13" />
+      <node id="7641389568989525975" at="28,63,29,42" concept="4" />
+      <node id="7641389568989525983" at="29,42,30,65" concept="4" />
+      <node id="7641389568989525991" at="30,65,31,42" concept="4" />
+      <node id="7641389568989525999" at="31,42,32,65" concept="4" />
+      <node id="7641389568989526008" at="33,5,34,0" concept="13" />
+      <node id="7641389568989526009" at="34,0,35,56" concept="4" />
+      <node id="7641389568989526016" at="35,56,36,86" concept="4" />
+      <node id="7641389568989526026" at="36,86,37,63" concept="4" />
       <node id="4615632674303410119" at="9,0,11,0" concept="2" trace="LayoutableContainerExtensions#()V" />
-      <node id="4615632674303412709" at="11,0,14,0" concept="15" trace="adjustToChildren#(Lde/itemis/mps/editor/celllayout/layout/ILayoutableContainer;)V" />
-      <node id="7641389568989525934" at="14,105,17,5" concept="8" />
-      <node id="7641389568989525972" at="24,0,30,5" concept="7" />
-      <node id="7641389568989525924" at="14,0,36,0" concept="15" trace="adjustToChildren#(Lde/itemis/mps/editor/celllayout/layout/ILayoutableContainer;Ljava/lang/Iterable;)V" />
+      <node id="8538146646826933613" at="11,73,14,5" concept="8" />
+      <node id="7641389568989525934" at="17,105,20,5" concept="8" />
+      <node id="4615632674303412709" at="11,0,17,0" concept="15" trace="adjustToChildren#(Lde/itemis/mps/editor/celllayout/layout/ILayoutableContainer;)V" />
+      <node id="7641389568989525972" at="27,0,33,5" concept="7" />
+      <node id="7641389568989525924" at="17,0,39,0" concept="15" trace="adjustToChildren#(Lde/itemis/mps/editor/celllayout/layout/ILayoutableContainer;Ljava/lang/Iterable;)V" />
       <scope id="4615632674303410119" at="9,42,9,42" />
-      <scope id="4615632674303412711" at="11,73,12,79" />
-      <scope id="7641389568989525935" at="15,52,16,13" />
+      <scope id="8538146646826933615" at="12,24,13,13" />
+      <scope id="7641389568989525935" at="18,52,19,13" />
       <scope id="4615632674303410119" at="9,0,11,0" />
-      <scope id="4615632674303412709" at="11,0,14,0">
+      <scope id="4615632674303412711" at="11,73,15,79" />
+      <scope id="7641389568989525974" at="28,63,32,65" />
+      <scope id="4615632674303412709" at="11,0,17,0">
         <var name="_this" id="4615632674303412709" />
       </scope>
-      <scope id="7641389568989525974" at="25,63,29,65" />
-      <scope id="7641389568989525972" at="24,0,30,5">
+      <scope id="7641389568989525972" at="27,0,33,5">
         <var name="child" id="7641389568989525973" />
       </scope>
-      <scope id="7641389568989525926" at="14,105,34,63">
+      <scope id="7641389568989525926" at="17,105,37,63">
         <var name="first" id="7641389568989525942" />
         <var name="maxX" id="7641389568989525954" />
         <var name="maxY" id="7641389568989525966" />
         <var name="minX" id="7641389568989525948" />
         <var name="minY" id="7641389568989525960" />
       </scope>
-      <scope id="7641389568989525924" at="14,0,36,0">
+      <scope id="7641389568989525924" at="17,0,39,0">
         <var name="_this" id="7641389568989525924" />
         <var name="children" id="7641389568989528243" />
       </scope>
-      <unit id="4615632674303410119" at="8,0,37,0" name="de.itemis.mps.editor.celllayout.layout.LayoutableContainerExtensions" />
+      <unit id="4615632674303410119" at="8,0,40,0" name="de.itemis.mps.editor.celllayout.layout.LayoutableContainerExtensions" />
     </file>
   </root>
   <root nodeRef="r:12584d60-2d80-4ca9-9c6e-b79d499da0cf(de.itemis.mps.editor.celllayout.layout)/4615632674303613006">

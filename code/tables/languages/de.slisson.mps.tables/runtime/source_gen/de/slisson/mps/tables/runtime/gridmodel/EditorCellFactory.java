@@ -11,6 +11,7 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import de.slisson.mps.tables.runtime.cells.ChildsTracker;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
+import de.slisson.mps.tables.runtime.cells.TableUtils;
 import de.slisson.mps.tables.runtime.cells.RowEndCell;
 
 public class EditorCellFactory {
@@ -77,7 +78,7 @@ public class EditorCellFactory {
     if (node == null) {
       return trackCreatedCell(createPlaceholderConstant(""));
     } else {
-      return trackCreatedCell(myContext.getEditorComponent().getUpdater().getCurrentUpdateSession().updateChildNodeCell(node));
+      return trackCreatedCell(TableUtils.createNodeCell(myContext, node));
     }
   }
 

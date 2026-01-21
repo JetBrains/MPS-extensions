@@ -9,6 +9,7 @@ import java.util.List;
 import jetbrains.mps.util.IterableUtil;
 import de.slisson.mps.tables.runtime.cells.ChildsTracker;
 import de.slisson.mps.tables.runtime.cells.PartialTableExtractor;
+import de.slisson.mps.tables.runtime.cells.TableUtils;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
@@ -72,7 +73,7 @@ public class GridElementFactory {
   }
 
   public IGridElement create(SNode snode) {
-    EditorCell editorCell = myEditorContext.getEditorComponent().getUpdater().getCurrentUpdateSession().updateChildNodeCell(snode);
+    EditorCell editorCell = TableUtils.createNodeCell(myEditorContext, snode);
     ChildsTracker.getInstance().registerChild(editorCell);
     return create(editorCell);
   }
@@ -100,7 +101,7 @@ public class GridElementFactory {
     } else {
       EditorCell_Collection collectionCell = (myNodeListHorizontal ? jetbrains.mps.nodeEditor.cells.EditorCell_Collection.createHorizontal(myEditorContext, SNodeOperations.getParent(ListSequence.fromList(snodes).first())) : jetbrains.mps.nodeEditor.cells.EditorCell_Collection.createVertical(myEditorContext, SNodeOperations.getParent(ListSequence.fromList(snodes).first())));
       for (SNode node : ListSequence.fromList(snodes)) {
-        EditorCell nodeCell = myEditorContext.getEditorComponent().getUpdater().getCurrentUpdateSession().updateChildNodeCell(node);
+        EditorCell nodeCell = TableUtils.createNodeCell(myEditorContext, node);
         ChildsTracker.getInstance().registerChild(nodeCell);
         collectionCell.addEditorCell(nodeCell);
       }

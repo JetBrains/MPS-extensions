@@ -16,6 +16,7 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -32,6 +33,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
@@ -53,11 +57,13 @@
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
       <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
       <concept id="1192794782375" name="jetbrains.mps.lang.intentions.structure.DescriptionBlock" flags="in" index="2S6ZIM" />
+      <concept id="1192795771125" name="jetbrains.mps.lang.intentions.structure.IsApplicableBlock" flags="in" index="2SaL7w" />
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
       <concept id="2522969319638091381" name="jetbrains.mps.lang.intentions.structure.BaseIntentionDeclaration" flags="ig" index="2ZfUlf">
         <reference id="2522969319638198290" name="forConcept" index="2ZfgGC" />
         <child id="2522969319638198291" name="executeFunction" index="2ZfgGD" />
+        <child id="2522969319638093995" name="isApplicableFunction" index="2ZfVeh" />
         <child id="2522969319638093993" name="descriptionFunction" index="2ZfVej" />
       </concept>
     </language>
@@ -314,6 +320,45 @@
       </node>
     </node>
     <node concept="2s3oj2" id="54O0DxcsaoJ" role="lGtFl" />
+  </node>
+  <node concept="2S6QgY" id="4I3JdQwKVwT">
+    <property role="TrG5h" value="CustomizableIntention" />
+    <ref role="2ZfgGC" to="iikq:197NvysM_3t" resolve="DemoNodeWithIntentions" />
+    <node concept="2S6ZIM" id="4I3JdQwKVwU" role="2ZfVej">
+      <node concept="3clFbS" id="4I3JdQwKVwV" role="2VODD2">
+        <node concept="3clFbF" id="4I3JdQwKVCm" role="3cqZAp">
+          <node concept="Xl_RD" id="4I3JdQwKVD9" role="3clFbG">
+            <property role="Xl_RC" value="Old Description" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="4I3JdQwKVwW" role="2ZfgGD">
+      <node concept="3clFbS" id="4I3JdQwKVwX" role="2VODD2">
+        <node concept="3clFbF" id="70CVSw5NCta" role="3cqZAp">
+          <node concept="d57v9" id="70CVSw5NGyt" role="3clFbG">
+            <node concept="2OqwBi" id="70CVSw5NCCg" role="37vLTJ">
+              <node concept="2Sf5sV" id="70CVSw5NCt9" role="2Oq$k0" />
+              <node concept="3TrcHB" id="70CVSw5NFF2" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="70CVSw5NEHn" role="37vLTx">
+              <property role="Xl_RC" value="Intention executed (old)" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="4I3JdQwKVKO" role="2ZfVeh">
+      <node concept="3clFbS" id="4I3JdQwKVKP" role="2VODD2">
+        <node concept="3clFbF" id="4I3JdQwKVQq" role="3cqZAp">
+          <node concept="3clFbT" id="4I3JdQwKVQp" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

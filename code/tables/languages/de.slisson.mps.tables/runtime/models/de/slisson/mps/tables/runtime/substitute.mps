@@ -746,7 +746,7 @@
       <node concept="3Tm1VV" id="4381QB0yk4D" role="1B3o_S" />
       <node concept="3clFbS" id="4381QB0yk4E" role="3clF47">
         <node concept="3clFbF" id="4381QB0ynNt" role="3cqZAp">
-          <node concept="2OqwBi" id="4381QB0yuRT" role="3clFbG">
+          <node concept="2EnYce" id="7a_Gs75dd4m" role="3clFbG">
             <node concept="2OqwBi" id="4381QB0yoQ3" role="2Oq$k0">
               <node concept="37vLTw" id="4381QB0ynNs" role="2Oq$k0">
                 <ref role="3cqZAo" node="4381QB0ydkk" resolve="myGridCell" />
@@ -894,7 +894,7 @@
                 </node>
               </node>
               <node concept="3y3z36" id="40oIQyHX8k1" role="3clFbw">
-                <node concept="2OqwBi" id="40oIQyHXeV0" role="3uHU7w">
+                <node concept="2EnYce" id="7a_Gs75di9p" role="3uHU7w">
                   <node concept="2OqwBi" id="40oIQyHX982" role="2Oq$k0">
                     <node concept="37vLTw" id="40oIQyHX8kJ" role="2Oq$k0">
                       <ref role="3cqZAo" node="4381QB0ydkk" resolve="myGridCell" />
@@ -1214,8 +1214,8 @@
       <node concept="3clFbS" id="4381QB0uG0n" role="3clF47">
         <node concept="3clFbF" id="4381QB0vDt8" role="3cqZAp">
           <node concept="2EnYce" id="4381QB0vDYc" role="3clFbG">
-            <node concept="1rXfSq" id="4381QB0vDt7" role="2Oq$k0">
-              <ref role="37wK5l" node="4381QB0vp_j" resolve="getDelegate" />
+            <node concept="37vLTw" id="3mrQsPTgMJ5" role="2Oq$k0">
+              <ref role="3cqZAo" node="4381QB0uHEA" resolve="myDelegate" />
             </node>
             <node concept="liA8E" id="4381QB0vEqR" role="2OqNvi">
               <ref role="37wK5l" to="f4zo:~SubstituteInfo.setOriginalText(java.lang.String)" resolve="setOriginalText" />

@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.slisson.mps.editor.multiline* Generic placeholders like generic comments can't be inserted into words anymore (an exception was thrown).
+- *de.slisson.mps.tables.runtime* Prevent inserting a new row node before/after a singular cardinality child node
 
 ## December 2025
 

@@ -27,7 +27,7 @@
     <use id="f3347d8a-0e79-4f35-8ac9-1574f25c986f" name="jetbrains.mps.execution.commands" version="0" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
-    <use id="6b3888c1-9802-44d8-8baf-f8e6c33ed689" name="jetbrains.mps.kotlin" version="11" />
+    <use id="6b3888c1-9802-44d8-8baf-f8e6c33ed689" name="jetbrains.mps.kotlin" version="13" />
     <use id="953e4089-c643-455b-8629-636de7085d1c" name="nl.f1re.testing" version="-1" />
   </languages>
   <imports>
@@ -109,7 +109,7 @@
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
     <import index="57ty" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.messages(MPS.Platform/)" />
     <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
-    <import index="x6hl" ref="398d67d2-c2e9-11e2-ad49-6cf049e62ea4/kotlinJvm:com.intellij.ui.dsl.builder(jetbrains.mps.kotin.ui.dsl/)" />
+    <import index="x6hl" ref="398d67d2-c2e9-11e2-ad49-6cf049e62ea4/kotlin_jvm:com.intellij.ui.dsl.builder(jetbrains.mps.kotin.ui.dsl/)" />
     <import index="ur19" ref="r:d58d9938-2526-431c-a5fe-6bbbfeb64ac2(jetbrains.mps.vcs.util)" />
     <import index="86l" ref="r:03d3090f-cc5b-43a6-b212-e089f946314d(jetbrains.mps.vcs.mergehints.runtime)" />
     <import index="g1qu" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.ui(MPS.IDEA/)" />
@@ -288,14 +288,9 @@
       </concept>
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
-        <child id="1188214630783" name="value" index="2B76xF" />
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1188214545140" name="jetbrains.mps.baseLanguage.structure.AnnotationInstanceValue" flags="ng" index="2B6LJw">
-        <reference id="1188214555875" name="key" index="2B6OnR" />
-        <child id="1188214607812" name="value" index="2B70Vg" />
       </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
@@ -464,6 +459,11 @@
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367509" name="finallyClause" index="1zxBo6" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
+      </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
@@ -3249,7 +3249,7 @@
             <node concept="37vLTw" id="4GRmlJ035__" role="2Oq$k0">
               <ref role="3cqZAo" node="4GRmlJ033hw" resolve="model" />
             </node>
-            <node concept="1PvZjq" id="4GRmlJ03nxx" role="2OqNvi">
+            <node concept="liA8E" id="1Aqg_yafEXV" role="2OqNvi">
               <ref role="37wK5l" to="1l1f:~GotoActionModel.buildGroupMappings()" resolve="buildGroupMappings" />
             </node>
           </node>
@@ -3303,53 +3303,57 @@
                   <ref role="1Y3XeK" to="1l1f:~GotoActionAliasMatcher" resolve="GotoActionAliasMatcher" />
                   <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                   <node concept="3Tm1VV" id="4GRmlJ04PaM" role="1B3o_S" />
-                  <node concept="3clFb_" id="4GRmlJ04PaN" role="jymVt">
-                    <property role="TrG5h" value="match" />
-                    <node concept="3Tm1VV" id="4GRmlJ04PaO" role="1B3o_S" />
-                    <node concept="2AHcQZ" id="4GRmlJ04PaP" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-                      <node concept="2B6LJw" id="4GRmlJ04PaQ" role="2B76xF">
-                        <ref role="2B6OnR" to="wyt6:~Deprecated.forRemoval()" resolve="forRemoval" />
-                        <node concept="3clFbT" id="4GRmlJ04PaR" role="2B70Vg">
-                          <property role="3clFbU" value="true" />
-                        </node>
-                      </node>
+                  <node concept="2tJIrI" id="1Aqg_yadSmR" role="jymVt" />
+                  <node concept="3clFb_" id="1Aqg_yadSwe" role="jymVt">
+                    <property role="TrG5h" value="matchAction" />
+                    <node concept="3Tm1VV" id="1Aqg_yadSwg" role="1B3o_S" />
+                    <node concept="3uibUv" id="1Aqg_yadSwi" role="3clF45">
+                      <ref role="3uigEE" to="1l1f:~MatchMode" resolve="MatchMode" />
                     </node>
-                    <node concept="10P_77" id="4GRmlJ04PaS" role="3clF45" />
-                    <node concept="37vLTG" id="4GRmlJ04PaT" role="3clF46">
+                    <node concept="37vLTG" id="1Aqg_yadSwj" role="3clF46">
                       <property role="TrG5h" value="action" />
-                      <node concept="3uibUv" id="4GRmlJ04PaU" role="1tU5fm">
+                      <node concept="3uibUv" id="1Aqg_yadSwk" role="1tU5fm">
                         <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
                       </node>
-                      <node concept="2AHcQZ" id="4GRmlJ04PaV" role="2AJF6D">
+                      <node concept="2AHcQZ" id="1Aqg_yadSwl" role="2AJF6D">
                         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
                       </node>
                     </node>
-                    <node concept="37vLTG" id="4GRmlJ04PaW" role="3clF46">
+                    <node concept="37vLTG" id="1Aqg_yadSwm" role="3clF46">
                       <property role="TrG5h" value="name" />
-                      <node concept="3uibUv" id="4GRmlJ04PaX" role="1tU5fm">
+                      <node concept="3uibUv" id="1Aqg_yadSwn" role="1tU5fm">
                         <ref role="3uigEE" to="wyt6:~String" resolve="String" />
                       </node>
-                      <node concept="2AHcQZ" id="4GRmlJ04PaY" role="2AJF6D">
+                      <node concept="2AHcQZ" id="1Aqg_yadSwo" role="2AJF6D">
                         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
                       </node>
                     </node>
-                    <node concept="3clFbS" id="4GRmlJ04PaZ" role="3clF47">
-                      <node concept="3clFbF" id="4GRmlJ04Pb0" role="3cqZAp">
-                        <node concept="2OqwBi" id="4GRmlJ04Pb1" role="3clFbG">
-                          <node concept="37vLTw" id="4GRmlJ04Pb2" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4GRmlJ04PaW" resolve="name" />
+                    <node concept="3clFbS" id="1Aqg_yadSwq" role="3clF47">
+                      <node concept="3clFbF" id="1Aqg_yadWmC" role="3cqZAp">
+                        <node concept="3K4zz7" id="1Aqg_yadYrG" role="3clFbG">
+                          <node concept="Rm8GO" id="1Aqg_yae0kF" role="3K4E3e">
+                            <ref role="Rm8GQ" to="1l1f:~MatchMode.NAME" resolve="NAME" />
+                            <ref role="1Px2BO" to="1l1f:~MatchMode" resolve="MatchMode" />
                           </node>
-                          <node concept="liA8E" id="4GRmlJ04Pb3" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
-                            <node concept="Xl_RD" id="4GRmlJ04Pb4" role="37wK5m">
-                              <property role="Xl_RC" value="TEST" />
+                          <node concept="Rm8GO" id="1Aqg_yae2d6" role="3K4GZi">
+                            <ref role="Rm8GQ" to="1l1f:~MatchMode.NONE" resolve="NONE" />
+                            <ref role="1Px2BO" to="1l1f:~MatchMode" resolve="MatchMode" />
+                          </node>
+                          <node concept="2OqwBi" id="1Aqg_yadWmD" role="3K4Cdx">
+                            <node concept="37vLTw" id="1Aqg_yadWmE" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1Aqg_yadSwm" resolve="name" />
+                            </node>
+                            <node concept="liA8E" id="1Aqg_yadWmF" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
+                              <node concept="Xl_RD" id="1Aqg_yadWmG" role="37wK5m">
+                                <property role="Xl_RC" value="TEST" />
+                              </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="2AHcQZ" id="4GRmlJ04Pb5" role="2AJF6D">
+                    <node concept="2AHcQZ" id="1Aqg_yadSwr" role="2AJF6D">
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
@@ -4940,9 +4944,15 @@
                 <node concept="3uibUv" id="6cyqnzelV47" role="1tU5fm">
                   <ref role="3uigEE" to="fdd1:~LafManagerImpl" resolve="LafManagerImpl" />
                 </node>
-                <node concept="2YIFZM" id="6cyqnzelV4A" role="33vP2m">
-                  <ref role="1Pybhc" to="fdd1:~LafManagerImpl" resolve="LafManagerImpl" />
-                  <ref role="37wK5l" to="fdd1:~LafManagerImpl.getTestInstance()" resolve="getTestInstance" />
+                <node concept="2ShNRf" id="1Aqg_yaaGW0" role="33vP2m">
+                  <node concept="1pGfFk" id="1Aqg_yaaIeI" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="fdd1:~LafManagerImpl.&lt;init&gt;(kotlinx.coroutines.CoroutineScope)" resolve="LafManagerImpl" />
+                    <node concept="10M0yZ" id="1Aqg_yaaWlL" role="37wK5m">
+                      <ref role="3cqZAo" to="prgy:~GlobalScope.INSTANCE" resolve="INSTANCE" />
+                      <ref role="1PxDUh" to="prgy:~GlobalScope" resolve="GlobalScope" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -4951,7 +4961,7 @@
                 <node concept="3clFbF" id="6cyqnzellPY" role="3cqZAp">
                   <node concept="2YIFZM" id="6cyqnzellQT" role="3clFbG">
                     <ref role="1Pybhc" to="tqbz:~QuickChangeLookAndFeel" resolve="QuickChangeLookAndFeel" />
-                    <ref role="37wK5l" to="tqbz:~QuickChangeLookAndFeel.switchLafAndUpdateUI(com.intellij.ide.ui.LafManager,javax.swing.UIManager$LookAndFeelInfo,boolean)" resolve="switchLafAndUpdateUI" />
+                    <ref role="37wK5l" to="tqbz:~QuickChangeLookAndFeel.switchLafAndUpdateUI(com.intellij.ide.ui.LafManager,com.intellij.ide.ui.laf.UIThemeLookAndFeelInfo,boolean)" resolve="switchLafAndUpdateUI" />
                     <node concept="37vLTw" id="6cyqnzellQU" role="37wK5m">
                       <ref role="3cqZAo" node="6cyqnzellPU" resolve="lafManager" />
                     </node>

@@ -20,11 +20,13 @@
       <sourceRoot location="lib/org.eclipse.elk.alg.rectpacking.jar" />
       <sourceRoot location="lib/org.eclipse.elk.alg.spore.jar" />
       <sourceRoot location="lib/org.eclipse.elk.alg.topdownpacking.jar" />
+      <sourceRoot location="lib/org.eclipse.xtext.xbase.lib.jar" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java" languageLevel="JAVA_8" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
+      <library location="${module}/lib/org.eclipse.xtext.xbase.lib.jar" />
       <library location="${module}/lib/jgraphx.jar" />
       <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
       <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.mps.spellcheck.runtime" uuid="00725c5b-2d9a-48dc-8a5a-4d4d567a16c9" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet compile="mps" classes="mps" ext="yes" type="java">
+    <facet type="java" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>

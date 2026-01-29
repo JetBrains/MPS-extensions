@@ -195,6 +195,10 @@ val languages by mpsBuilds.creating(MainBuild::class) {
     buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions")
     buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
     buildFile = layout.buildDirectory.file("generated/languages/build.xml")
+    
+    generateTask {
+            pathProperties.put("mps.log.dir", temporaryDir.resolve("log"))
+    }
 }
 
 val tests by mpsBuilds.creating(TestBuild::class) {

@@ -4,6 +4,49 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## January 2026
+
+### Fixed
+
+- *de.slisson.mps.editor.multiline* Generic placeholders like generic comments can't be inserted into words anymore (an exception was thrown).
+- *de.slisson.mps.tables.runtime* Prevent inserting a new row node before/after a singular cardinality child node
+
+## December 2025
+
+### Added
+
+- *de.itemis.mps.compare* 'assert node equals' and ':isEqualTo:' expression can now ignore attributes (annotations) when comparing nodes.
+
+### Changed
+
+- *de.itemis.mps.compare* 'show diff' in assertions is now implemented using a transient property. Changing it will mark the node as changed but the property value is not written to disk and so will never be checked into version control.
+- *de.itemis.mps.compare* minor improvements to the editors of 'assert node equals' and 'show diff'.
+
+### Fixed
+
+- Migrate all usages of deprecated getInstance() from [NavigationSupport](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.openapi.navigation%28MPS.Editor%2F%29%2F~NavigationSupport) to its replacement getInstance(Project mpsProject)
+
+## November 2025
+
+### Added
+
+- *de.itemis.mps.editor.diagram.runtime* Add an experimental static flag to disable autolayout-on-init. Useful for batch autolayouting.
+
+### Fixed
+
+- *de.slisson.mps.tables* IllegalArgumentException thrown when copy-paste support is not defined for a table node (#1650).
+- *de.slisson.mps.tables* Textgen warning about duplicate unit name when an editor model contains multiple tables without an action map. 
+
+## October 2025
+
+### Fixed
+
+- *de.itemis.mps.extensions.build* Version number is now set correctly in the `build.properties` file inside the published artifact.
+
+### Changed
+
+- *de.itemis.mps.extensions.build* The version number property was renamed from `versionNumber` to `version`.
+
 ## September 2025
 
 ### Added
@@ -23,6 +66,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.compare* Added support for ignoring references.
 - *de.itemis.mps.linenumbers* When clicking on a line number, the first cell in the line gets the focus.
 - *nl.f1re.mps.editor.swing* Add a new language for customizing swing components.
+- *nl.f1re.mpsutil.hasher* Added efficient, configurable hashing of subtrees.
 
 ### Fixed
 

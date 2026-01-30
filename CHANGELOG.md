@@ -11,6 +11,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.slisson.mps.editor.multiline* Generic placeholders like generic comments can't be inserted into words anymore (an exception was thrown).
 - *de.slisson.mps.tables.runtime* Prevent inserting a new row node before/after a singular cardinality child node
 
+### Added
+
+- *de.itemis.mps.editor.diagram.runtime* Turned SVGGenerator into object with options (TextAsShape, UseCSS, SetViewBox), customizable style snippet and SVGGenerator.Builder for convenient usage.
+
 ## December 2025
 
 ### Added

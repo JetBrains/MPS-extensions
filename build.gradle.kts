@@ -145,7 +145,7 @@ bundledDependencies {
         dependency("org.apache.commons:commons-collections4:4.5.0")
         dependency("com.google.guava:guava:33.5.0-jre")
         dependency("net.sf.trove4j:trove4j:3.0.3")
-        dependency("io.vavr:vavr:0.10.7")
+        dependency("io.vavr:vavr:0.11.0")
 
         configuration {
             isTransitive = false

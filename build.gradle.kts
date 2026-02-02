@@ -32,7 +32,7 @@ val ciBuild = project.hasProperty("forceCI") ||
 val mpsVersion = libs.mps.get().version!!
 
 // major version, e.g. '2021.1', '2021.2'
-val mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
+val mpsMajor = "9999.9"
 
 if (ciBuild) {
     val branch = GitBasedVersioning.getGitBranch()
@@ -439,6 +439,8 @@ tasks.register<Remigrate>("remigrate") {
 
     // diagram migration from version 0 is currently not rerunnable, although it claims to be
     excludeModuleMigration("de.itemis.mps.editor.diagram", 0)
+    // not rerunnable until MPS-39315 is fixed
+    excludeModuleMigration("jetbrains.mps.baseLanguage.javadoc", 0)
 }
 
 val generateChangelog by tasks.registering(MpsGenerate::class) {

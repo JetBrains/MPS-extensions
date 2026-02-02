@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:6d36b3a9-aa07-4a07-a6f3-0a024994b7d1(de.itemis.mps.spellcheck.generator.templates@generator)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
     <import index="i9z2" ref="r:86608401-3c72-4a8c-a023-f7cfd3cc5fbc(de.itemis.mps.spellcheck.structure)" />
-    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
-    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
-    <import index="v6uv" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker(MPS.IDEA/)" />
-    <import index="hltm" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker.settings(MPS.IDEA/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="3oml" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker.dictionary(MPS.IDEA/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="v6og" ref="r:211706a0-1f54-4f22-a8d7-19e98f4484fb(de.itemis.mps.spellcheck.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -28,6 +23,8 @@
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="9ti4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.extensions(MPS.IDEA/)" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" />
+    <import index="3oml" ref="9979803b-18d3-440b-8a74-99cec41fc78e/java:com.intellij.spellchecker.dictionary(jetbrains.mps.spellchecker.idea.stubs/)" />
+    <import index="v6uv" ref="9979803b-18d3-440b-8a74-99cec41fc78e/java:com.intellij.spellchecker(jetbrains.mps.spellchecker.idea.stubs/)" />
   </imports>
   <registry>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -294,11 +291,6 @@
   </registry>
   <node concept="bUwia" id="UzB1xGRn40">
     <property role="TrG5h" value="main" />
-    <node concept="2rT7sh" id="6v0_VEAChlr" role="2rTMjI">
-      <property role="TrG5h" value="generatedDictionary" />
-      <ref role="2rTdP9" to="i9z2:29wDeGIfjFn" resolve="IDictionary" />
-      <ref role="2rZz_L" to="tpee:fz12cDA" resolve="ClassConcept" />
-    </node>
     <node concept="3lhOvk" id="6v0_VEAAJzj" role="3lj3bC">
       <property role="13Pg2o" value="h94ayQF/true_" />
       <property role="36QftV" value="true" />
@@ -317,51 +309,51 @@
       <ref role="30HIoZ" to="i9z2:5Jv8_iJO5Eu" resolve="IPredefinedDictionary" />
       <ref role="3lhOvi" node="6v0_VEAE4kj" resolve="map_PredefinedDictionary" />
     </node>
+    <node concept="2rT7sh" id="6v0_VEAChlr" role="2rTMjI">
+      <property role="TrG5h" value="generatedDictionary" />
+      <ref role="2rTdP9" to="i9z2:29wDeGIfjFn" resolve="IDictionary" />
+      <ref role="2rZz_L" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
   </node>
-  <node concept="2uRRBC" id="6v0_VEAAFMm">
-    <property role="TrG5h" value="map_IDictionary" />
-    <node concept="2BZ0e9" id="6v0_VEAyDhi" role="2uRRBG">
+  <node concept="2uRRBC" id="6v0_VEAE4kj">
+    <property role="TrG5h" value="map_PredefinedDictionary" />
+    <node concept="2BZ0e9" id="6v0_VEAE4kk" role="2uRRBG">
       <property role="TrG5h" value="provider" />
-      <node concept="3Tm6S6" id="6v0_VEAyDhj" role="1B3o_S" />
-      <node concept="3uibUv" id="6v0_VEAyDpv" role="1tU5fm">
-        <ref role="3uigEE" to="3oml:~RuntimeDictionaryProvider" resolve="RuntimeDictionaryProvider" />
+      <node concept="3Tm6S6" id="6v0_VEAE4kl" role="1B3o_S" />
+      <node concept="3uibUv" id="6v0_VEAE4km" role="1tU5fm">
+        <ref role="3uigEE" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
       </node>
-      <node concept="2ShNRf" id="6v0_VEAyDpK" role="33vP2m">
-        <node concept="YeOm9" id="6v0_VEADqxI" role="2ShVmc">
-          <node concept="1Y3b0j" id="6v0_VEADqxL" role="YeSDq">
+      <node concept="2ShNRf" id="6v0_VEAE4kn" role="33vP2m">
+        <node concept="YeOm9" id="6v0_VEAE4ko" role="2ShVmc">
+          <node concept="1Y3b0j" id="6v0_VEAE4kp" role="YeSDq">
             <property role="2bfB8j" value="true" />
             <property role="373rjd" value="true" />
-            <ref role="1Y3XeK" to="3oml:~RuntimeDictionaryProvider" resolve="RuntimeDictionaryProvider" />
+            <ref role="1Y3XeK" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
             <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-            <node concept="3Tm1VV" id="6v0_VEADqxM" role="1B3o_S" />
-            <node concept="3clFb_" id="6v0_VEADqy0" role="jymVt">
-              <property role="TrG5h" value="getDictionaries" />
-              <node concept="3Tm1VV" id="6v0_VEADqy1" role="1B3o_S" />
-              <node concept="10Q1$e" id="6v0_VEADqy3" role="3clF45">
-                <node concept="3uibUv" id="6v0_VEADqy4" role="10Q1$1">
-                  <ref role="3uigEE" to="3oml:~Dictionary" resolve="Dictionary" />
-                </node>
+            <node concept="3Tm1VV" id="6v0_VEAE4kq" role="1B3o_S" />
+            <node concept="2tJIrI" id="6v0_VEAEcuk" role="jymVt" />
+            <node concept="3clFb_" id="6v0_VEAEpri" role="jymVt">
+              <property role="TrG5h" value="getBundledDictionaries" />
+              <node concept="3Tm1VV" id="6v0_VEAEprj" role="1B3o_S" />
+              <node concept="10Q1$e" id="6v0_VEAEprl" role="3clF45">
+                <node concept="17QB3L" id="6v0_VEAEsp7" role="10Q1$1" />
               </node>
-              <node concept="3clFbS" id="6v0_VEADqy5" role="3clF47">
-                <node concept="3clFbF" id="6v0_VEADrfb" role="3cqZAp">
-                  <node concept="2ShNRf" id="6v0_VEADrf9" role="3clFbG">
-                    <node concept="3g6Rrh" id="6v0_VEADsak" role="2ShVmc">
-                      <node concept="2ShNRf" id="6v0_VEACpHX" role="3g7hyw">
-                        <node concept="HV5vD" id="6v0_VEACtwt" role="2ShVmc">
-                          <property role="373rjd" value="true" />
-                          <ref role="HV5vE" node="6v0_VEACpUN" resolve="DummyDictionary" />
-                          <node concept="1ZhdrF" id="6v0_VEACu$8" role="lGtFl">
-                            <property role="2qtEX8" value="classifier" />
-                            <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/2820489544401957797/2820489544401957798" />
-                            <node concept="3$xsQk" id="6v0_VEACu$9" role="3$ytzL">
-                              <node concept="3clFbS" id="6v0_VEACu$a" role="2VODD2">
-                                <node concept="3clFbF" id="6v0_VEACuDg" role="3cqZAp">
-                                  <node concept="2OqwBi" id="6v0_VEACuDh" role="3clFbG">
-                                    <node concept="1iwH7S" id="6v0_VEACuDi" role="2Oq$k0" />
-                                    <node concept="1iwH70" id="6v0_VEACuDj" role="2OqNvi">
-                                      <ref role="1iwH77" node="6v0_VEAChlr" resolve="generatedDictionary" />
-                                      <node concept="30H73N" id="6v0_VEACuDk" role="1iwH7V" />
-                                    </node>
+              <node concept="3clFbS" id="6v0_VEAEpro" role="3clF47">
+                <node concept="3clFbF" id="6v0_VEAEqup" role="3cqZAp">
+                  <node concept="2ShNRf" id="6v0_VEAEqun" role="3clFbG">
+                    <node concept="3g6Rrh" id="6v0_VEAErzI" role="2ShVmc">
+                      <node concept="Xl_RD" id="6v0_VEAEa8p" role="3g7hyw">
+                        <property role="Xl_RC" value="" />
+                        <node concept="17Uvod" id="6v0_VEAEabj" role="lGtFl">
+                          <property role="2qtEX9" value="value" />
+                          <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                          <node concept="3zFVjK" id="6v0_VEAEabm" role="3zH0cK">
+                            <node concept="3clFbS" id="6v0_VEAEabn" role="2VODD2">
+                              <node concept="3clFbF" id="6v0_VEAEaTj" role="3cqZAp">
+                                <node concept="2OqwBi" id="6v0_VEAEaTk" role="3clFbG">
+                                  <node concept="30H73N" id="6v0_VEAEaTl" role="2Oq$k0" />
+                                  <node concept="2qgKlT" id="6v0_VEAEaTm" role="2OqNvi">
+                                    <ref role="37wK5l" to="v6og:5Jv8_iJOIp2" resolve="getExpandedPath" />
                                   </node>
                                 </node>
                               </node>
@@ -369,14 +361,12 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3uibUv" id="6v0_VEADr$G" role="3g7fb8">
-                        <ref role="3uigEE" to="3oml:~Dictionary" resolve="Dictionary" />
-                      </node>
+                      <node concept="17QB3L" id="6v0_VEAEsQJ" role="3g7fb8" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="2AHcQZ" id="6v0_VEADqy7" role="2AJF6D">
+              <node concept="2AHcQZ" id="6v0_VEAEprp" role="2AJF6D">
                 <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
               </node>
             </node>
@@ -384,23 +374,23 @@
         </node>
       </node>
     </node>
-    <node concept="n94m4" id="6v0_VEAAFMn" role="lGtFl">
-      <ref role="n9lRv" to="i9z2:29wDeGIfjFn" resolve="IDictionary" />
+    <node concept="n94m4" id="6v0_VEAE4kJ" role="lGtFl">
+      <ref role="n9lRv" to="i9z2:5Jv8_iJO5Eu" resolve="IPredefinedDictionary" />
     </node>
-    <node concept="17Uvod" id="6v0_VEAAGD7" role="lGtFl">
+    <node concept="17Uvod" id="6v0_VEAE4kK" role="lGtFl">
       <property role="2qtEX9" value="name" />
       <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-      <node concept="3zFVjK" id="6v0_VEAAGD8" role="3zH0cK">
-        <node concept="3clFbS" id="6v0_VEAAGD9" role="2VODD2">
-          <node concept="3clFbF" id="6v0_VEAAGJp" role="3cqZAp">
-            <node concept="3cpWs3" id="6v0_VEAAGJr" role="3clFbG">
-              <node concept="Xl_RD" id="6v0_VEAAGJs" role="3uHU7B">
-                <property role="Xl_RC" value="dictionary" />
+      <node concept="3zFVjK" id="6v0_VEAE4kL" role="3zH0cK">
+        <node concept="3clFbS" id="6v0_VEAE4kM" role="2VODD2">
+          <node concept="3clFbF" id="6v0_VEAE5C7" role="3cqZAp">
+            <node concept="3cpWs3" id="6v0_VEAE5C8" role="3clFbG">
+              <node concept="Xl_RD" id="6v0_VEAE5C9" role="3uHU7B">
+                <property role="Xl_RC" value="predefinedDictionary" />
               </node>
-              <node concept="2OqwBi" id="6v0_VEAAGJt" role="3uHU7w">
-                <node concept="1iwH7S" id="6v0_VEAAGJu" role="2Oq$k0" />
-                <node concept="1AYpvF" id="6v0_VEAAGJv" role="2OqNvi">
-                  <node concept="30H73N" id="6v0_VEAAGJw" role="2QPDDZ" />
+              <node concept="2OqwBi" id="6v0_VEAE5Ca" role="3uHU7w">
+                <node concept="1iwH7S" id="6v0_VEAE5Cb" role="2Oq$k0" />
+                <node concept="1AYpvF" id="6v0_VEAE5Cc" role="2OqNvi">
+                  <node concept="30H73N" id="6v0_VEAE5Cd" role="2QPDDZ" />
                 </node>
               </node>
             </node>
@@ -408,28 +398,50 @@
         </node>
       </node>
     </node>
-    <node concept="2uRRBj" id="6v0_VEACpz1" role="2uRRBE">
-      <node concept="3clFbS" id="6v0_VEACpz2" role="2VODD2">
-        <node concept="3clFbF" id="6v0_VEACx0f" role="3cqZAp">
-          <node concept="2OqwBi" id="6v0_VEAyCK1" role="3clFbG">
-            <node concept="2OqwBi" id="6v0_VEAyCjw" role="2Oq$k0">
-              <node concept="10M0yZ" id="6v0_VEAyC7J" role="2Oq$k0">
-                <ref role="3cqZAo" to="3oml:~RuntimeDictionaryProvider.EP_NAME" resolve="EP_NAME" />
-                <ref role="1PxDUh" to="3oml:~RuntimeDictionaryProvider" resolve="RuntimeDictionaryProvider" />
-              </node>
-              <node concept="liA8E" id="6v0_VEAyC$U" role="2OqNvi">
-                <ref role="37wK5l" to="9ti4:~ExtensionPointName.getPoint()" resolve="getPoint" />
+    <node concept="2uRRBj" id="6v0_VEAE4kU" role="2uRRBE">
+      <node concept="3clFbS" id="6v0_VEAE4kV" role="2VODD2">
+        <node concept="3cpWs8" id="6v0_VEAEHPC" role="3cqZAp">
+          <node concept="3cpWsn" id="6v0_VEAEHPD" role="3cpWs9">
+            <property role="TrG5h" value="extensionPoint" />
+            <node concept="3uibUv" id="6v0_VEAEHMR" role="1tU5fm">
+              <ref role="3uigEE" to="9ti4:~ExtensionPoint" resolve="ExtensionPoint" />
+              <node concept="3uibUv" id="6v0_VEAEHMU" role="11_B2D">
+                <ref role="3uigEE" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
               </node>
             </node>
-            <node concept="liA8E" id="6v0_VEAyCYQ" role="2OqNvi">
-              <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object,com.intellij.openapi.Disposable)" resolve="registerExtension" />
-              <node concept="2OqwBi" id="6v0_VEAA92O" role="37wK5m">
-                <node concept="2WthIp" id="6v0_VEAA8R5" role="2Oq$k0" />
-                <node concept="2BZ7hE" id="6v0_VEAA9d5" role="2OqNvi">
-                  <ref role="2WH_rO" node="6v0_VEAyDhi" resolve="provider" />
+            <node concept="2OqwBi" id="6v0_VEAEHPE" role="33vP2m">
+              <node concept="2OqwBi" id="6v0_VEAEHPF" role="2Oq$k0">
+                <node concept="2YIFZM" id="6v0_VEAEHPG" role="2Oq$k0">
+                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+                </node>
+                <node concept="liA8E" id="6v0_VEAEHPH" role="2OqNvi">
+                  <ref role="37wK5l" to="1m72:~ComponentManager.getExtensionArea()" resolve="getExtensionArea" />
                 </node>
               </node>
-              <node concept="2YIFZM" id="6v0_VEACCo8" role="37wK5m">
+              <node concept="liA8E" id="6v0_VEAEHPI" role="2OqNvi">
+                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(java.lang.String)" resolve="getExtensionPoint" />
+                <node concept="Xl_RD" id="6v0_VEAEHPJ" role="37wK5m">
+                  <property role="Xl_RC" value="com.intellij.spellchecker.bundledDictionaryProvider" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6v0_VEAEJ6H" role="3cqZAp">
+          <node concept="2OqwBi" id="6v0_VEAEJmo" role="3clFbG">
+            <node concept="37vLTw" id="6v0_VEAEJ6F" role="2Oq$k0">
+              <ref role="3cqZAo" node="6v0_VEAEHPD" resolve="extensionPoint" />
+            </node>
+            <node concept="liA8E" id="6v0_VEAEJN5" role="2OqNvi">
+              <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object,com.intellij.openapi.Disposable)" resolve="registerExtension" />
+              <node concept="2OqwBi" id="6v0_VEAEK37" role="37wK5m">
+                <node concept="2WthIp" id="6v0_VEAEJR2" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="6v0_VEAEKeR" role="2OqNvi">
+                  <ref role="2WH_rO" node="6v0_VEAE4kk" resolve="provider" />
+                </node>
+              </node>
+              <node concept="2YIFZM" id="6v0_VEAEKpw" role="37wK5m">
                 <ref role="37wK5l" to="zn9m:~Disposer.newDisposable()" resolve="newDisposable" />
                 <ref role="1Pybhc" to="zn9m:~Disposer" resolve="Disposer" />
               </node>
@@ -438,25 +450,47 @@
         </node>
       </node>
     </node>
-    <node concept="2uRRBI" id="6v0_VEACCuC" role="2uRRBF">
-      <node concept="3clFbS" id="6v0_VEACCuD" role="2VODD2">
-        <node concept="3clFbF" id="6v0_VEACCP_" role="3cqZAp">
-          <node concept="2OqwBi" id="6v0_VEACDXm" role="3clFbG">
-            <node concept="2OqwBi" id="6v0_VEACDcY" role="2Oq$k0">
-              <node concept="10M0yZ" id="6v0_VEACCRr" role="2Oq$k0">
-                <ref role="3cqZAo" to="3oml:~RuntimeDictionaryProvider.EP_NAME" resolve="EP_NAME" />
-                <ref role="1PxDUh" to="3oml:~RuntimeDictionaryProvider" resolve="RuntimeDictionaryProvider" />
-              </node>
-              <node concept="liA8E" id="6v0_VEACDFT" role="2OqNvi">
-                <ref role="37wK5l" to="9ti4:~ExtensionPointName.getPoint()" resolve="getPoint" />
+    <node concept="2uRRBI" id="6v0_VEAE4l6" role="2uRRBF">
+      <node concept="3clFbS" id="6v0_VEAE4l7" role="2VODD2">
+        <node concept="3cpWs8" id="6v0_VEAELaV" role="3cqZAp">
+          <node concept="3cpWsn" id="6v0_VEAELaW" role="3cpWs9">
+            <property role="TrG5h" value="extensionPoint" />
+            <node concept="3uibUv" id="6v0_VEAELaX" role="1tU5fm">
+              <ref role="3uigEE" to="9ti4:~ExtensionPoint" resolve="ExtensionPoint" />
+              <node concept="3uibUv" id="6v0_VEAELaY" role="11_B2D">
+                <ref role="3uigEE" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
               </node>
             </node>
-            <node concept="liA8E" id="6v0_VEACElt" role="2OqNvi">
+            <node concept="2OqwBi" id="6v0_VEAELaZ" role="33vP2m">
+              <node concept="2OqwBi" id="6v0_VEAELb0" role="2Oq$k0">
+                <node concept="2YIFZM" id="6v0_VEAELb1" role="2Oq$k0">
+                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+                </node>
+                <node concept="liA8E" id="6v0_VEAELb2" role="2OqNvi">
+                  <ref role="37wK5l" to="1m72:~ComponentManager.getExtensionArea()" resolve="getExtensionArea" />
+                </node>
+              </node>
+              <node concept="liA8E" id="6v0_VEAELb3" role="2OqNvi">
+                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(java.lang.String)" resolve="getExtensionPoint" />
+                <node concept="Xl_RD" id="6v0_VEAELb4" role="37wK5m">
+                  <property role="Xl_RC" value="com.intellij.spellchecker.bundledDictionaryProvider" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6v0_VEAELGe" role="3cqZAp">
+          <node concept="2OqwBi" id="6v0_VEAELUt" role="3clFbG">
+            <node concept="37vLTw" id="6v0_VEAELGc" role="2Oq$k0">
+              <ref role="3cqZAo" node="6v0_VEAELaW" resolve="extensionPoint" />
+            </node>
+            <node concept="liA8E" id="6v0_VEAEMrf" role="2OqNvi">
               <ref role="37wK5l" to="9ti4:~ExtensionPoint.unregisterExtension(java.lang.Object)" resolve="unregisterExtension" />
-              <node concept="2OqwBi" id="6v0_VEACTxA" role="37wK5m">
-                <node concept="2WthIp" id="6v0_VEACTxD" role="2Oq$k0" />
-                <node concept="2BZ7hE" id="6v0_VEACTxF" role="2OqNvi">
-                  <ref role="2WH_rO" node="6v0_VEAyDhi" resolve="provider" />
+              <node concept="2OqwBi" id="6v0_VEAEMJx" role="37wK5m">
+                <node concept="2WthIp" id="6v0_VEAEMvh" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="6v0_VEAEMUi" role="2OqNvi">
+                  <ref role="2WH_rO" node="6v0_VEAE4kk" resolve="provider" />
                 </node>
               </node>
             </node>
@@ -1069,6 +1103,153 @@
       <ref role="2rW$FS" node="6v0_VEAChlr" resolve="generatedDictionary" />
     </node>
   </node>
+  <node concept="2uRRBC" id="6v0_VEAAFMm">
+    <property role="TrG5h" value="map_IDictionary" />
+    <node concept="2BZ0e9" id="6v0_VEAyDhi" role="2uRRBG">
+      <property role="TrG5h" value="provider" />
+      <node concept="3Tm6S6" id="6v0_VEAyDhj" role="1B3o_S" />
+      <node concept="3uibUv" id="6v0_VEAyDpv" role="1tU5fm">
+        <ref role="3uigEE" to="3oml:~RuntimeDictionaryProvider" resolve="RuntimeDictionaryProvider" />
+      </node>
+      <node concept="2ShNRf" id="6v0_VEAyDpK" role="33vP2m">
+        <node concept="YeOm9" id="6v0_VEADqxI" role="2ShVmc">
+          <node concept="1Y3b0j" id="6v0_VEADqxL" role="YeSDq">
+            <property role="2bfB8j" value="true" />
+            <property role="373rjd" value="true" />
+            <ref role="1Y3XeK" to="3oml:~RuntimeDictionaryProvider" resolve="RuntimeDictionaryProvider" />
+            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+            <node concept="3Tm1VV" id="6v0_VEADqxM" role="1B3o_S" />
+            <node concept="3clFb_" id="6v0_VEADqy0" role="jymVt">
+              <property role="TrG5h" value="getDictionaries" />
+              <node concept="3Tm1VV" id="6v0_VEADqy1" role="1B3o_S" />
+              <node concept="10Q1$e" id="6v0_VEADqy3" role="3clF45">
+                <node concept="3uibUv" id="6v0_VEADqy4" role="10Q1$1">
+                  <ref role="3uigEE" to="3oml:~Dictionary" resolve="Dictionary" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="6v0_VEADqy5" role="3clF47">
+                <node concept="3clFbF" id="6v0_VEADrfb" role="3cqZAp">
+                  <node concept="2ShNRf" id="6v0_VEADrf9" role="3clFbG">
+                    <node concept="3g6Rrh" id="6v0_VEADsak" role="2ShVmc">
+                      <node concept="2ShNRf" id="6v0_VEACpHX" role="3g7hyw">
+                        <node concept="HV5vD" id="6v0_VEACtwt" role="2ShVmc">
+                          <property role="373rjd" value="true" />
+                          <ref role="HV5vE" node="6v0_VEACpUN" resolve="DummyDictionary" />
+                          <node concept="1ZhdrF" id="6v0_VEACu$8" role="lGtFl">
+                            <property role="2qtEX8" value="classifier" />
+                            <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/2820489544401957797/2820489544401957798" />
+                            <node concept="3$xsQk" id="6v0_VEACu$9" role="3$ytzL">
+                              <node concept="3clFbS" id="6v0_VEACu$a" role="2VODD2">
+                                <node concept="3clFbF" id="6v0_VEACuDg" role="3cqZAp">
+                                  <node concept="2OqwBi" id="6v0_VEACuDh" role="3clFbG">
+                                    <node concept="1iwH7S" id="6v0_VEACuDi" role="2Oq$k0" />
+                                    <node concept="1iwH70" id="6v0_VEACuDj" role="2OqNvi">
+                                      <ref role="1iwH77" node="6v0_VEAChlr" resolve="generatedDictionary" />
+                                      <node concept="30H73N" id="6v0_VEACuDk" role="1iwH7V" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3uibUv" id="6v0_VEADr$G" role="3g7fb8">
+                        <ref role="3uigEE" to="3oml:~Dictionary" resolve="Dictionary" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2AHcQZ" id="6v0_VEADqy7" role="2AJF6D">
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="n94m4" id="6v0_VEAAFMn" role="lGtFl">
+      <ref role="n9lRv" to="i9z2:29wDeGIfjFn" resolve="IDictionary" />
+    </node>
+    <node concept="17Uvod" id="6v0_VEAAGD7" role="lGtFl">
+      <property role="2qtEX9" value="name" />
+      <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+      <node concept="3zFVjK" id="6v0_VEAAGD8" role="3zH0cK">
+        <node concept="3clFbS" id="6v0_VEAAGD9" role="2VODD2">
+          <node concept="3clFbF" id="6v0_VEAAGJp" role="3cqZAp">
+            <node concept="3cpWs3" id="6v0_VEAAGJr" role="3clFbG">
+              <node concept="Xl_RD" id="6v0_VEAAGJs" role="3uHU7B">
+                <property role="Xl_RC" value="dictionary" />
+              </node>
+              <node concept="2OqwBi" id="6v0_VEAAGJt" role="3uHU7w">
+                <node concept="1iwH7S" id="6v0_VEAAGJu" role="2Oq$k0" />
+                <node concept="1AYpvF" id="6v0_VEAAGJv" role="2OqNvi">
+                  <node concept="30H73N" id="6v0_VEAAGJw" role="2QPDDZ" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2uRRBj" id="6v0_VEACpz1" role="2uRRBE">
+      <node concept="3clFbS" id="6v0_VEACpz2" role="2VODD2">
+        <node concept="3clFbF" id="6v0_VEACx0f" role="3cqZAp">
+          <node concept="2OqwBi" id="6v0_VEAyCK1" role="3clFbG">
+            <node concept="2OqwBi" id="6v0_VEAyCjw" role="2Oq$k0">
+              <node concept="10M0yZ" id="6v0_VEAyC7J" role="2Oq$k0">
+                <ref role="3cqZAo" to="3oml:~RuntimeDictionaryProvider.EP_NAME" resolve="EP_NAME" />
+                <ref role="1PxDUh" to="3oml:~RuntimeDictionaryProvider" resolve="RuntimeDictionaryProvider" />
+              </node>
+              <node concept="liA8E" id="6v0_VEAyC$U" role="2OqNvi">
+                <ref role="37wK5l" to="9ti4:~ExtensionPointName.getPoint()" resolve="getPoint" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6v0_VEAyCYQ" role="2OqNvi">
+              <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object,com.intellij.openapi.Disposable)" resolve="registerExtension" />
+              <node concept="2OqwBi" id="6v0_VEAA92O" role="37wK5m">
+                <node concept="2WthIp" id="6v0_VEAA8R5" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="6v0_VEAA9d5" role="2OqNvi">
+                  <ref role="2WH_rO" node="6v0_VEAyDhi" resolve="provider" />
+                </node>
+              </node>
+              <node concept="2YIFZM" id="6v0_VEACCo8" role="37wK5m">
+                <ref role="37wK5l" to="zn9m:~Disposer.newDisposable()" resolve="newDisposable" />
+                <ref role="1Pybhc" to="zn9m:~Disposer" resolve="Disposer" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2uRRBI" id="6v0_VEACCuC" role="2uRRBF">
+      <node concept="3clFbS" id="6v0_VEACCuD" role="2VODD2">
+        <node concept="3clFbF" id="6v0_VEACCP_" role="3cqZAp">
+          <node concept="2OqwBi" id="6v0_VEACDXm" role="3clFbG">
+            <node concept="2OqwBi" id="6v0_VEACDcY" role="2Oq$k0">
+              <node concept="10M0yZ" id="6v0_VEACCRr" role="2Oq$k0">
+                <ref role="3cqZAo" to="3oml:~RuntimeDictionaryProvider.EP_NAME" resolve="EP_NAME" />
+                <ref role="1PxDUh" to="3oml:~RuntimeDictionaryProvider" resolve="RuntimeDictionaryProvider" />
+              </node>
+              <node concept="liA8E" id="6v0_VEACDFT" role="2OqNvi">
+                <ref role="37wK5l" to="9ti4:~ExtensionPointName.getPoint()" resolve="getPoint" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6v0_VEACElt" role="2OqNvi">
+              <ref role="37wK5l" to="9ti4:~ExtensionPoint.unregisterExtension(java.lang.Object)" resolve="unregisterExtension" />
+              <node concept="2OqwBi" id="6v0_VEACTxA" role="37wK5m">
+                <node concept="2WthIp" id="6v0_VEACTxD" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="6v0_VEACTxF" role="2OqNvi">
+                  <ref role="2WH_rO" node="6v0_VEAyDhi" resolve="provider" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="312cEu" id="6v0_VEACpUN">
     <property role="TrG5h" value="DummyDictionary" />
     <node concept="3Tm1VV" id="6v0_VEACpUO" role="1B3o_S" />
@@ -1139,190 +1320,6 @@
       </node>
       <node concept="2AHcQZ" id="6v0_VEACrXO" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
-  </node>
-  <node concept="2uRRBC" id="6v0_VEAE4kj">
-    <property role="TrG5h" value="map_PredefinedDictionary" />
-    <node concept="2BZ0e9" id="6v0_VEAE4kk" role="2uRRBG">
-      <property role="TrG5h" value="provider" />
-      <node concept="3Tm6S6" id="6v0_VEAE4kl" role="1B3o_S" />
-      <node concept="3uibUv" id="6v0_VEAE4km" role="1tU5fm">
-        <ref role="3uigEE" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
-      </node>
-      <node concept="2ShNRf" id="6v0_VEAE4kn" role="33vP2m">
-        <node concept="YeOm9" id="6v0_VEAE4ko" role="2ShVmc">
-          <node concept="1Y3b0j" id="6v0_VEAE4kp" role="YeSDq">
-            <property role="2bfB8j" value="true" />
-            <property role="373rjd" value="true" />
-            <ref role="1Y3XeK" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
-            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-            <node concept="3Tm1VV" id="6v0_VEAE4kq" role="1B3o_S" />
-            <node concept="2tJIrI" id="6v0_VEAEcuk" role="jymVt" />
-            <node concept="3clFb_" id="6v0_VEAEpri" role="jymVt">
-              <property role="TrG5h" value="getBundledDictionaries" />
-              <node concept="3Tm1VV" id="6v0_VEAEprj" role="1B3o_S" />
-              <node concept="10Q1$e" id="6v0_VEAEprl" role="3clF45">
-                <node concept="17QB3L" id="6v0_VEAEsp7" role="10Q1$1" />
-              </node>
-              <node concept="3clFbS" id="6v0_VEAEpro" role="3clF47">
-                <node concept="3clFbF" id="6v0_VEAEqup" role="3cqZAp">
-                  <node concept="2ShNRf" id="6v0_VEAEqun" role="3clFbG">
-                    <node concept="3g6Rrh" id="6v0_VEAErzI" role="2ShVmc">
-                      <node concept="Xl_RD" id="6v0_VEAEa8p" role="3g7hyw">
-                        <property role="Xl_RC" value="" />
-                        <node concept="17Uvod" id="6v0_VEAEabj" role="lGtFl">
-                          <property role="2qtEX9" value="value" />
-                          <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                          <node concept="3zFVjK" id="6v0_VEAEabm" role="3zH0cK">
-                            <node concept="3clFbS" id="6v0_VEAEabn" role="2VODD2">
-                              <node concept="3clFbF" id="6v0_VEAEaTj" role="3cqZAp">
-                                <node concept="2OqwBi" id="6v0_VEAEaTk" role="3clFbG">
-                                  <node concept="30H73N" id="6v0_VEAEaTl" role="2Oq$k0" />
-                                  <node concept="2qgKlT" id="6v0_VEAEaTm" role="2OqNvi">
-                                    <ref role="37wK5l" to="v6og:5Jv8_iJOIp2" resolve="getExpandedPath" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="17QB3L" id="6v0_VEAEsQJ" role="3g7fb8" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2AHcQZ" id="6v0_VEAEprp" role="2AJF6D">
-                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="n94m4" id="6v0_VEAE4kJ" role="lGtFl">
-      <ref role="n9lRv" to="i9z2:5Jv8_iJO5Eu" resolve="IPredefinedDictionary" />
-    </node>
-    <node concept="17Uvod" id="6v0_VEAE4kK" role="lGtFl">
-      <property role="2qtEX9" value="name" />
-      <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-      <node concept="3zFVjK" id="6v0_VEAE4kL" role="3zH0cK">
-        <node concept="3clFbS" id="6v0_VEAE4kM" role="2VODD2">
-          <node concept="3clFbF" id="6v0_VEAE5C7" role="3cqZAp">
-            <node concept="3cpWs3" id="6v0_VEAE5C8" role="3clFbG">
-              <node concept="Xl_RD" id="6v0_VEAE5C9" role="3uHU7B">
-                <property role="Xl_RC" value="predefinedDictionary" />
-              </node>
-              <node concept="2OqwBi" id="6v0_VEAE5Ca" role="3uHU7w">
-                <node concept="1iwH7S" id="6v0_VEAE5Cb" role="2Oq$k0" />
-                <node concept="1AYpvF" id="6v0_VEAE5Cc" role="2OqNvi">
-                  <node concept="30H73N" id="6v0_VEAE5Cd" role="2QPDDZ" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2uRRBj" id="6v0_VEAE4kU" role="2uRRBE">
-      <node concept="3clFbS" id="6v0_VEAE4kV" role="2VODD2">
-        <node concept="3cpWs8" id="6v0_VEAEHPC" role="3cqZAp">
-          <node concept="3cpWsn" id="6v0_VEAEHPD" role="3cpWs9">
-            <property role="TrG5h" value="extensionPoint" />
-            <node concept="3uibUv" id="6v0_VEAEHMR" role="1tU5fm">
-              <ref role="3uigEE" to="9ti4:~ExtensionPoint" resolve="ExtensionPoint" />
-              <node concept="3uibUv" id="6v0_VEAEHMU" role="11_B2D">
-                <ref role="3uigEE" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="6v0_VEAEHPE" role="33vP2m">
-              <node concept="2OqwBi" id="6v0_VEAEHPF" role="2Oq$k0">
-                <node concept="2YIFZM" id="6v0_VEAEHPG" role="2Oq$k0">
-                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-                </node>
-                <node concept="liA8E" id="6v0_VEAEHPH" role="2OqNvi">
-                  <ref role="37wK5l" to="1m72:~ComponentManager.getExtensionArea()" resolve="getExtensionArea" />
-                </node>
-              </node>
-              <node concept="liA8E" id="6v0_VEAEHPI" role="2OqNvi">
-                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(java.lang.String)" resolve="getExtensionPoint" />
-                <node concept="Xl_RD" id="6v0_VEAEHPJ" role="37wK5m">
-                  <property role="Xl_RC" value="com.intellij.spellchecker.bundledDictionaryProvider" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6v0_VEAEJ6H" role="3cqZAp">
-          <node concept="2OqwBi" id="6v0_VEAEJmo" role="3clFbG">
-            <node concept="37vLTw" id="6v0_VEAEJ6F" role="2Oq$k0">
-              <ref role="3cqZAo" node="6v0_VEAEHPD" resolve="extensionPoint" />
-            </node>
-            <node concept="liA8E" id="6v0_VEAEJN5" role="2OqNvi">
-              <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object,com.intellij.openapi.Disposable)" resolve="registerExtension" />
-              <node concept="2OqwBi" id="6v0_VEAEK37" role="37wK5m">
-                <node concept="2WthIp" id="6v0_VEAEJR2" role="2Oq$k0" />
-                <node concept="2BZ7hE" id="6v0_VEAEKeR" role="2OqNvi">
-                  <ref role="2WH_rO" node="6v0_VEAE4kk" resolve="provider" />
-                </node>
-              </node>
-              <node concept="2YIFZM" id="6v0_VEAEKpw" role="37wK5m">
-                <ref role="37wK5l" to="zn9m:~Disposer.newDisposable()" resolve="newDisposable" />
-                <ref role="1Pybhc" to="zn9m:~Disposer" resolve="Disposer" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2uRRBI" id="6v0_VEAE4l6" role="2uRRBF">
-      <node concept="3clFbS" id="6v0_VEAE4l7" role="2VODD2">
-        <node concept="3cpWs8" id="6v0_VEAELaV" role="3cqZAp">
-          <node concept="3cpWsn" id="6v0_VEAELaW" role="3cpWs9">
-            <property role="TrG5h" value="extensionPoint" />
-            <node concept="3uibUv" id="6v0_VEAELaX" role="1tU5fm">
-              <ref role="3uigEE" to="9ti4:~ExtensionPoint" resolve="ExtensionPoint" />
-              <node concept="3uibUv" id="6v0_VEAELaY" role="11_B2D">
-                <ref role="3uigEE" to="v6uv:~BundledDictionaryProvider" resolve="BundledDictionaryProvider" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="6v0_VEAELaZ" role="33vP2m">
-              <node concept="2OqwBi" id="6v0_VEAELb0" role="2Oq$k0">
-                <node concept="2YIFZM" id="6v0_VEAELb1" role="2Oq$k0">
-                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-                </node>
-                <node concept="liA8E" id="6v0_VEAELb2" role="2OqNvi">
-                  <ref role="37wK5l" to="1m72:~ComponentManager.getExtensionArea()" resolve="getExtensionArea" />
-                </node>
-              </node>
-              <node concept="liA8E" id="6v0_VEAELb3" role="2OqNvi">
-                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(java.lang.String)" resolve="getExtensionPoint" />
-                <node concept="Xl_RD" id="6v0_VEAELb4" role="37wK5m">
-                  <property role="Xl_RC" value="com.intellij.spellchecker.bundledDictionaryProvider" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6v0_VEAELGe" role="3cqZAp">
-          <node concept="2OqwBi" id="6v0_VEAELUt" role="3clFbG">
-            <node concept="37vLTw" id="6v0_VEAELGc" role="2Oq$k0">
-              <ref role="3cqZAo" node="6v0_VEAELaW" resolve="extensionPoint" />
-            </node>
-            <node concept="liA8E" id="6v0_VEAEMrf" role="2OqNvi">
-              <ref role="37wK5l" to="9ti4:~ExtensionPoint.unregisterExtension(java.lang.Object)" resolve="unregisterExtension" />
-              <node concept="2OqwBi" id="6v0_VEAEMJx" role="37wK5m">
-                <node concept="2WthIp" id="6v0_VEAEMvh" role="2Oq$k0" />
-                <node concept="2BZ7hE" id="6v0_VEAEMUi" role="2OqNvi">
-                  <ref role="2WH_rO" node="6v0_VEAE4kk" resolve="provider" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>

@@ -8,7 +8,7 @@
     <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -217,15 +217,9 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
@@ -262,6 +256,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1279,9 +1281,57 @@
         </node>
       </node>
       <node concept="P$JXv" id="70CVSw63AZp" role="lGtFl">
-        <node concept="TZ5HA" id="70CVSw63AZq" role="TZ5H$">
-          <node concept="1dT_AC" id="70CVSw63AZr" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the customized intention executable or the original executable if there is no customization for the node" />
+        <node concept="1PaTwC" id="3Jq0GiMrMtZ" role="1Vez_I">
+          <node concept="3oM_SD" id="3Jq0GiMrMu0" role="1PaTwD">
+            <property role="3oM_SC" value="Returns" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu1" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu2" role="1PaTwD">
+            <property role="3oM_SC" value="customized" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu3" role="1PaTwD">
+            <property role="3oM_SC" value="intention" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu4" role="1PaTwD">
+            <property role="3oM_SC" value="executable" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu5" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu6" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu7" role="1PaTwD">
+            <property role="3oM_SC" value="original" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu8" role="1PaTwD">
+            <property role="3oM_SC" value="executable" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu9" role="1PaTwD">
+            <property role="3oM_SC" value="if" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMua" role="1PaTwD">
+            <property role="3oM_SC" value="there" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMub" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuc" role="1PaTwD">
+            <property role="3oM_SC" value="no" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMud" role="1PaTwD">
+            <property role="3oM_SC" value="customization" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMue" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuf" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMug" role="1PaTwD">
+            <property role="3oM_SC" value="node" />
           </node>
         </node>
       </node>
@@ -1416,16 +1466,90 @@
       </node>
       <node concept="3Tm1VV" id="6us6O8nXHlr" role="1B3o_S" />
       <node concept="P$JXv" id="6us6O8nXLgc" role="lGtFl">
-        <node concept="TZ5HA" id="6us6O8nXLgd" role="TZ5H$">
-          <node concept="1dT_AC" id="70CVSw6dbOb" role="1dT_Ay">
-            <property role="1dT_AB" value="Modifies the original intention by providing a new implementation. Note that you can't customize" />
+        <node concept="1PaTwC" id="3Jq0GiMrMuh" role="1Vez_I">
+          <node concept="3oM_SD" id="3Jq0GiMrMui" role="1PaTwD">
+            <property role="3oM_SC" value="Modifies" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuj" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuk" role="1PaTwD">
+            <property role="3oM_SC" value="original" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMul" role="1PaTwD">
+            <property role="3oM_SC" value="intention" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMum" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMun" role="1PaTwD">
+            <property role="3oM_SC" value="providing" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuo" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMup" role="1PaTwD">
+            <property role="3oM_SC" value="new" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuq" role="1PaTwD">
+            <property role="3oM_SC" value="implementation." />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMur" role="1PaTwD">
+            <property role="3oM_SC" value="Note" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMus" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMut" role="1PaTwD">
+            <property role="3oM_SC" value="you" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuu" role="1PaTwD">
+            <property role="3oM_SC" value="can't" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuv" role="1PaTwD">
+            <property role="3oM_SC" value="customize" />
           </node>
         </node>
-        <node concept="TZ5HA" id="6us6O8nXLip" role="TZ5H$">
-          <node concept="1dT_AC" id="6us6O8nXLiq" role="1dT_Ay">
-            <property role="1dT_AB" value="intentions that are not enabled in the current context (node + editor context)." />
+        <node concept="1PaTwC" id="3Jq0GiMrMuw" role="1Vez_I">
+          <node concept="3oM_SD" id="3Jq0GiMrMux" role="1PaTwD">
+            <property role="3oM_SC" value="intentions" />
           </node>
-          <node concept="1dT_AC" id="6us6O8nXLge" role="1dT_Ay" />
+          <node concept="3oM_SD" id="3Jq0GiMrMuy" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuz" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu$" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMu_" role="1PaTwD">
+            <property role="3oM_SC" value="enabled" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuA" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuB" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuC" role="1PaTwD">
+            <property role="3oM_SC" value="current" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuD" role="1PaTwD">
+            <property role="3oM_SC" value="context" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuE" role="1PaTwD">
+            <property role="3oM_SC" value="(node" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuF" role="1PaTwD">
+            <property role="3oM_SC" value="+" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuG" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+          <node concept="3oM_SD" id="3Jq0GiMrMuH" role="1PaTwD">
+            <property role="3oM_SC" value="context)." />
+          </node>
         </node>
       </node>
       <node concept="3uibUv" id="6us6O8nXQgO" role="3clF45">

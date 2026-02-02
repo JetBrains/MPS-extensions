@@ -207,7 +207,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="4GbnmmUerfn" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <node concept="3cmrfG" id="4GbnmmUerfo" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
@@ -230,7 +230,7 @@
                     <ref role="3cqZAo" node="4GbnmmUerfg" resolve="matrix" />
                   </node>
                   <node concept="liA8E" id="4GbnmmUerfy" role="2OqNvi">
-                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                     <node concept="37vLTw" id="4GbnmmUerfz" role="37wK5m">
                       <ref role="3cqZAo" node="4GbnmmUerf$" resolve="i" />
                     </node>
@@ -326,7 +326,7 @@
                 <ref role="3cqZAo" node="4GbnmmUerfg" resolve="matrix" />
               </node>
               <node concept="liA8E" id="4GbnmmUerfE" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
               </node>
             </node>
             <node concept="37vLTw" id="4GbnmmUerfF" role="3uHU7B">
@@ -473,7 +473,7 @@
           <node concept="2OqwBi" id="4GbnmmUd$D8" role="3clFbG">
             <node concept="117lpO" id="4GbnmmUd$D9" role="2Oq$k0" />
             <node concept="2qgKlT" id="4GbnmmUd$Da" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <node concept="3cmrfG" id="4GbnmmUd$Db" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
@@ -496,7 +496,7 @@
                     <ref role="3cqZAo" node="4GbnmmUd$D3" resolve="matrix" />
                   </node>
                   <node concept="liA8E" id="4GbnmmUd$Dl" role="2OqNvi">
-                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                     <node concept="37vLTw" id="4GbnmmUd$Dm" role="37wK5m">
                       <ref role="3cqZAo" node="4GbnmmUd$Do" resolve="i" />
                     </node>
@@ -592,7 +592,7 @@
                 <ref role="3cqZAo" node="4GbnmmUd$D3" resolve="matrix" />
               </node>
               <node concept="liA8E" id="4GbnmmUd$Du" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
               </node>
             </node>
             <node concept="37vLTw" id="4GbnmmUd$Dv" role="3uHU7B">
@@ -630,7 +630,7 @@
           <node concept="2OqwBi" id="4GbnmmUd$Q8" role="3clFbG">
             <node concept="117lpO" id="4GbnmmUd$Q9" role="2Oq$k0" />
             <node concept="2qgKlT" id="4GbnmmUd$Qa" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <node concept="3cmrfG" id="4GbnmmUd$Qb" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
@@ -653,7 +653,7 @@
                     <ref role="3cqZAo" node="4GbnmmUd$Q3" resolve="matrix" />
                   </node>
                   <node concept="liA8E" id="4GbnmmUd$Ql" role="2OqNvi">
-                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                     <node concept="37vLTw" id="4GbnmmUd$Qm" role="37wK5m">
                       <ref role="3cqZAo" node="4GbnmmUd$Qo" resolve="i" />
                     </node>
@@ -749,7 +749,7 @@
                 <ref role="3cqZAo" node="4GbnmmUd$Q3" resolve="matrix" />
               </node>
               <node concept="liA8E" id="4GbnmmUd$Qu" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
               </node>
             </node>
             <node concept="37vLTw" id="4GbnmmUd$Qv" role="3uHU7B">
@@ -767,7 +767,7 @@
   </node>
   <node concept="WtQ9Q" id="4GbnmmUd$ZZ">
     <property role="3GE5qa" value="horizontal" />
-    <ref role="WuzLi" to="myiq:Z$zlZaZkvO" resolve="word" />
+    <ref role="WuzLi" to="myiq:Z$zlZaZkvO" resolve="Word" />
     <node concept="11bSqf" id="4GbnmmUd_00" role="11c4hB">
       <node concept="3clFbS" id="4GbnmmUd_01" role="2VODD2">
         <node concept="3cpWs8" id="4GbnmmUd_0d" role="3cqZAp">
@@ -787,7 +787,7 @@
           <node concept="2OqwBi" id="4GbnmmUd_0j" role="3clFbG">
             <node concept="117lpO" id="4GbnmmUd_0k" role="2Oq$k0" />
             <node concept="2qgKlT" id="4GbnmmUd_0l" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <node concept="3cmrfG" id="4GbnmmUd_0m" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
@@ -810,7 +810,7 @@
                     <ref role="3cqZAo" node="4GbnmmUd_0e" resolve="matrix" />
                   </node>
                   <node concept="liA8E" id="4GbnmmUd_0w" role="2OqNvi">
-                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                     <node concept="37vLTw" id="4GbnmmUd_0x" role="37wK5m">
                       <ref role="3cqZAo" node="4GbnmmUd_0z" resolve="i" />
                     </node>
@@ -906,7 +906,7 @@
                 <ref role="3cqZAo" node="4GbnmmUd_0e" resolve="matrix" />
               </node>
               <node concept="liA8E" id="4GbnmmUd_0D" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
               </node>
             </node>
             <node concept="37vLTw" id="4GbnmmUd_0E" role="3uHU7B">
@@ -944,7 +944,7 @@
           <node concept="2OqwBi" id="4GbnmmUd_dj" role="3clFbG">
             <node concept="117lpO" id="4GbnmmUd_dk" role="2Oq$k0" />
             <node concept="2qgKlT" id="4GbnmmUd_dl" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <node concept="3cmrfG" id="4GbnmmUd_dm" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
@@ -967,7 +967,7 @@
                     <ref role="3cqZAo" node="4GbnmmUd_de" resolve="matrix" />
                   </node>
                   <node concept="liA8E" id="4GbnmmUd_dw" role="2OqNvi">
-                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                    <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                     <node concept="37vLTw" id="4GbnmmUd_dx" role="37wK5m">
                       <ref role="3cqZAo" node="4GbnmmUd_dz" resolve="i" />
                     </node>
@@ -1063,7 +1063,7 @@
                 <ref role="3cqZAo" node="4GbnmmUd_de" resolve="matrix" />
               </node>
               <node concept="liA8E" id="4GbnmmUd_dD" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
               </node>
             </node>
             <node concept="37vLTw" id="4GbnmmUd_dE" role="3uHU7B">

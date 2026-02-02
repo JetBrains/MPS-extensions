@@ -46,7 +46,7 @@ public final class AddNewLineAfter_Intention extends AbstractIntentionDescriptor
 
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Add New Line after";
+      return "Add New Line After";
     }
 
     @Override

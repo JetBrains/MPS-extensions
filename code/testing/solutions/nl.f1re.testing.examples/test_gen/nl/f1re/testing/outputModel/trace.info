@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:91c69ca8-29b0-4099-b66a-9bee418254ed(nl.f1re.testing.outputModel@tests)/2964412296095109851">
+    <file name="A.java">
+      <node id="2964412296095110071" at="7,42,8,26" concept="0" />
+      <node id="2964412296095256738" at="14,36,15,32" concept="0" />
+      <node id="2964412296095256759" at="16,5,17,0" concept="3" />
+      <node id="2964412296095110726" at="11,0,13,0" concept="2" trace="hello#()V" />
+      <node id="2964412296095109917" at="7,0,10,0" concept="4" trace="main#([Ljava/lang/String;)V" />
+      <node id="2964412296095256721" at="13,57,16,5" concept="1" />
+      <node id="2964412296095256790" at="13,0,19,0" concept="4" trace="check_w_a0a0#(Lnl/f1re/testing/outputModel/A;)V" />
+      <scope id="2964412296095110729" at="11,23,11,23" />
+      <scope id="2964412296095109923" at="7,42,8,26" />
+      <scope id="2964412296095256722" at="14,36,15,32" />
+      <scope id="2964412296095110726" at="11,0,13,0" />
+      <scope id="2964412296095109917" at="7,0,10,0">
+        <var name="args" id="2964412296095109918" />
+      </scope>
+      <scope id="2964412296095256720" at="13,57,17,0" />
+      <scope id="2964412296095256790" at="13,0,19,0">
+        <var name="checkedDotOperand" id="2964412296095256776" />
+      </scope>
+      <unit id="2964412296095109851" at="6,0,20,0" name="nl.f1re.testing.outputModel.A" />
+    </file>
+  </root>
+</debug-info>
+

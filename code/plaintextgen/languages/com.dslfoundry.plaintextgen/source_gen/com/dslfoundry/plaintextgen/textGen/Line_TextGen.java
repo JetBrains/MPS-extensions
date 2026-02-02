@@ -19,10 +19,10 @@ public class Line_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     CharacterMatrix matrix = new CharacterMatrix();
-    ITextGenElement__BehaviorDescriptor.TextGen_id4GbnmmUaMp0.invoke(ctx.getPrimaryInput(), ((int) 0), ((int) 0), matrix);
-    for (int i = 0; i < matrix.LineCount(); ++i) {
+    ITextGenElement__BehaviorDescriptor.getPosition_id4GbnmmUaMp0.invoke(ctx.getPrimaryInput(), ((int) 0), ((int) 0), matrix);
+    for (int i = 0; i < matrix.getLineCount(); ++i) {
       tgs.indent();
-      tgs.append(matrix.ToString(i));
+      tgs.append(matrix.rowToString(i));
       switch (enumSwitchIndex.indexNullable(SPropertyOperations.getEnum(SNodeOperations.getNodeAncestor(ctx.getPrimaryInput(), CONCEPTS.TextgenText$PS, true, false), PROPS.lineEnding$vhkT))) {
         case 0:
           tgs.append("\r");

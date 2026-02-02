@@ -14,6 +14,7 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.editor.runtime.style.Padding;
 import jetbrains.mps.editor.runtime.style.Measure;
+import jetbrains.mps.nodeEditor.cells.EditorCell_ContextAssistantComponent;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -57,8 +58,18 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     editorCell.getStyle().putAll(style);
     editorCell.addKeyMap(new TextGenElement_Keymap());
     editorCell.setFoldable(true);
+    editorCell.addEditorCell(createContextAssistant_0());
     editorCell.addEditorCell(createComponent_0());
     editorCell.addEditorCell(createRefNodeList_0());
+    return editorCell;
+  }
+  private EditorCell createContextAssistant_0() {
+    EditorCell editorCell = new EditorCell_ContextAssistantComponent(getEditorContext(), myNode);
+    editorCell.setCellId("ContextAssistant_3u2hfl_a0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.TRANSPARENT, true);
+    editorCell.getStyle().putAll(style);
     return editorCell;
   }
   private EditorCell createComponent_0() {
@@ -69,7 +80,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new linesListHandler_3u2hfl_b0(myNode, getEditorContext());
+    AbstractCellListHandler handler = new linesListHandler_3u2hfl_c0(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_lines");
     Style style = new StyleImpl();
@@ -79,11 +90,11 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class linesListHandler_3u2hfl_b0 extends RefNodeListHandler {
+  private static class linesListHandler_3u2hfl_c0 extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public linesListHandler_3u2hfl_b0(SNode ownerNode, EditorContext context) {
+    public linesListHandler_3u2hfl_c0(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -112,7 +123,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(linesListHandler_3u2hfl_b0.this.getNode(), LINKS.lines$u7C));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(linesListHandler_3u2hfl_c0.this.getNode(), LINKS.lines$u7C));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();

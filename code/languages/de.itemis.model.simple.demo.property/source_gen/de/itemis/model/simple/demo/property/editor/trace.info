@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="EditorAspectDescriptorImpl.java">
+      <unit at="15,0,31,0" name="de.itemis.model.simple.demo.property.editor.EditorAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:5819b598-ac0c-4b39-a980-588d169220da(de.itemis.model.simple.demo.property.editor)/3370123198533971802">
+    <file name="PropertyDummy_Editor.java">
+      <node id="3370123198533971802" at="11,79,12,79" concept="6" />
+      <node id="3370123198533971802" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="3370123198533971802" at="11,79,12,79" />
+      <scope id="3370123198533971802" at="11,0,14,0">
+        <var name="editorContext" id="3370123198533971802" />
+        <var name="node" id="3370123198533971802" />
+      </scope>
+      <unit id="3370123198533971802" at="10,0,15,0" name="de.itemis.model.simple.demo.property.editor.PropertyDummy_Editor" />
+    </file>
+    <file name="PropertyDummy_EditorBuilder_a.java">
+      <node id="3370123198533971802" at="32,93,33,19" concept="8" />
+      <node id="3370123198533971802" at="33,19,34,18" concept="1" />
+      <node id="3370123198533971802" at="39,26,40,18" concept="6" />
+      <node id="3370123198533971802" at="43,39,44,32" concept="6" />
+      <node id="3370123198533971802" at="47,43,48,122" concept="5" />
+      <node id="3370123198533971802" at="48,122,49,47" concept="1" />
+      <node id="3370123198533971802" at="49,47,50,28" concept="1" />
+      <node id="3370123198533971802" at="50,28,51,31" concept="1" />
+      <node id="3370123198533971811" at="51,31,52,49" concept="1" />
+      <node id="3370123198533971817" at="52,49,53,49" concept="1" />
+      <node id="3370123198533971802" at="53,49,54,22" concept="6" />
+      <node id="3370123198533971811" at="56,41,57,98" concept="5" />
+      <node id="3370123198533971811" at="57,98,58,46" concept="1" />
+      <node id="3370123198533971811" at="58,46,59,34" concept="1" />
+      <node id="3370123198533971811" at="59,34,60,22" concept="6" />
+      <node id="3370123198533971817" at="62,41,63,39" concept="1" />
+      <node id="3370123198533971817" at="64,9,65,49" concept="5" />
+      <node id="3370123198533971817" at="65,49,66,76" concept="1" />
+      <node id="3370123198533971817" at="66,76,67,149" concept="5" />
+      <node id="3370123198533971817" at="67,149,68,45" concept="1" />
+      <node id="3370123198533971817" at="68,45,69,44" concept="1" />
+      <node id="3370123198533971817" at="69,44,70,86" concept="1" />
+      <node id="3370123198533971817" at="70,86,71,33" concept="1" />
+      <node id="3370123198533971817" at="71,33,72,155" concept="5" />
+      <node id="3370123198533971817" at="72,155,73,208" concept="5" />
+      <node id="3370123198533971817" at="74,74,75,89" concept="5" />
+      <node id="3370123198533971817" at="75,89,76,145" concept="6" />
+      <node id="3370123198533971817" at="77,12,78,24" concept="6" />
+      <node id="3370123198533971817" at="79,15,80,40" concept="1" />
+      <node id="3370123198533971802" at="85,0,86,0" concept="7" trace="data$hkMD" />
+      <node id="3370123198533971802" at="89,0,90,0" concept="7" trace="PropertyAttribute$Gb" />
+      <node id="3370123198533971802" at="29,0,31,0" concept="2" trace="myNode" />
+      <node id="3370123198533971802" at="43,0,46,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3370123198533971802" at="32,0,36,0" concept="0" trace="PropertyDummy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3370123198533971802" at="37,0,42,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3370123198533971817" at="73,208,78,24" concept="3" />
+      <node id="3370123198533971811" at="56,0,62,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3370123198533971802" at="47,0,56,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3370123198533971817" at="63,39,81,5" concept="9" />
+      <node id="3370123198533971817" at="62,0,83,0" concept="4" trace="createProperty_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="3370123198533971802" at="39,26,40,18" />
+      <scope id="3370123198533971802" at="43,39,44,32" />
+      <scope id="3370123198533971817" at="79,15,80,40" />
+      <scope id="3370123198533971802" at="32,93,34,18" />
+      <scope id="3370123198533971817" at="74,74,76,145">
+        <var name="manager" id="3370123198533971817" />
+      </scope>
+      <scope id="3370123198533971802" at="43,0,46,0" />
+      <scope id="3370123198533971802" at="32,0,36,0">
+        <var name="context" id="3370123198533971802" />
+        <var name="node" id="3370123198533971802" />
+      </scope>
+      <scope id="3370123198533971811" at="56,41,60,22">
+        <var name="editorCell" id="3370123198533971811" />
+      </scope>
+      <scope id="3370123198533971802" at="37,0,42,0" />
+      <scope id="3370123198533971811" at="56,0,62,0" />
+      <scope id="3370123198533971802" at="47,43,54,22">
+        <var name="editorCell" id="3370123198533971802" />
+      </scope>
+      <scope id="3370123198533971802" at="47,0,56,0" />
+      <scope id="3370123198533971817" at="64,9,78,24">
+        <var name="currentPropertyAttributes" id="3370123198533971817" />
+        <var name="editorCell" id="3370123198533971817" />
+        <var name="property" id="3370123198533971817" />
+        <var name="propertyAttributes" id="3370123198533971817" />
+      </scope>
+      <scope id="3370123198533971817" at="62,41,81,5" />
+      <scope id="3370123198533971817" at="62,0,83,0" />
+      <unit id="3370123198533971802" at="84,0,87,0" name="de.itemis.model.simple.demo.property.editor.PropertyDummy_EditorBuilder_a$PROPS" />
+      <unit id="3370123198533971802" at="88,0,91,0" name="de.itemis.model.simple.demo.property.editor.PropertyDummy_EditorBuilder_a$CONCEPTS" />
+      <unit id="3370123198533971802" at="28,0,92,0" name="de.itemis.model.simple.demo.property.editor.PropertyDummy_EditorBuilder_a" />
+    </file>
+  </root>
+</debug-info>
+

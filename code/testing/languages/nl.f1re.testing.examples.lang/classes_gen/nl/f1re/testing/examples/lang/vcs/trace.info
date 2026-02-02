@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="VCSDescriptor.java">
+      <unit at="27,19,44,9" name="nl.f1re.testing.examples.lang.vcs.VCSDescriptor$1" />
+      <unit at="17,0,51,0" name="nl.f1re.testing.examples.lang.vcs.VCSDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

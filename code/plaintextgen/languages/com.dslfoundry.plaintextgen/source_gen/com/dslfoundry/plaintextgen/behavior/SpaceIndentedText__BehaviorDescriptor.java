@@ -11,53 +11,73 @@ import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.awt.Point;
 import com.dslfoundry.plaintextgen.plugin.CharacterMatrix;
+import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 
 public final class SpaceIndentedText__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L, "com.dslfoundry.plaintextgen.structure.SpaceIndentedText");
 
-  public static final SMethod<Integer> Width_id6gwxh6GcBOM = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("Width").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
-  public static final SMethod<Point> TextGen_id4GbnmmUaMp0 = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("TextGen").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""));
-  public static final SMethod<Integer> Editor_View_Width_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("Editor_View_Width").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
+  public static final SMethod<Integer> getWidth_id6gwxh6GcBOM = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
+  public static final SMethod<Point> getPosition_id4GbnmmUaMp0 = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("getPosition").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""));
+  public static final SMethod<Integer> getEditorViewWidth_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getEditorViewWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
+  public static final SMethod<Void> surroundWith_id3xkJrZKaXl3 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("surroundWith").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4059077796233467203L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(Width_id6gwxh6GcBOM, TextGen_id4GbnmmUaMp0, Editor_View_Width_id2jBmyzyEzhY);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWidth_id6gwxh6GcBOM, getPosition_id4GbnmmUaMp0, getEditorViewWidth_id2jBmyzyEzhY, surroundWith_id3xkJrZKaXl3);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.indent$WJd, "  ");
   }
 
-  /*package*/ static int Width_id6gwxh6GcBOM(@NotNull SNode __thisNode__) {
+  /*package*/ static int getWidth_id6gwxh6GcBOM(@NotNull SNode __thisNode__) {
     int max = 0;
     for (SNode line : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.lines$u7C))) {
-      max = Integer.max(max, (int) ITextGenElement__BehaviorDescriptor.Width_id6gwxh6GcBOM.invoke(line));
+      max = Integer.max(max, (int) ITextGenElement__BehaviorDescriptor.getWidth_id6gwxh6GcBOM.invoke(line));
     }
     return max + SPropertyOperations.getString(__thisNode__, PROPS.indent$WJd).length();
   }
-  /*package*/ static Point TextGen_id4GbnmmUaMp0(@NotNull SNode __thisNode__, int row, int column, CharacterMatrix output) {
-    return IVerticalGroup__BehaviorDescriptor.Textgen_Helper_id4GbnmmUaX7G.invoke(__thisNode__, ((int) row), ((int) column), output, ((int) SPropertyOperations.getString(__thisNode__, PROPS.indent$WJd).length()));
+  /*package*/ static Point getPosition_id4GbnmmUaMp0(@NotNull SNode __thisNode__, int row, int column, CharacterMatrix output) {
+    return IVerticalGroup__BehaviorDescriptor.getMaxPosition_id4GbnmmUaX7G.invoke(__thisNode__, ((int) row), ((int) column), output, ((int) SPropertyOperations.getString(__thisNode__, PROPS.indent$WJd).length()));
   }
-  /*package*/ static int Editor_View_Width_id2jBmyzyEzhY(@NotNull SNode __thisNode__, boolean isQueriedNode) {
+  /*package*/ static int getEditorViewWidth_id2jBmyzyEzhY(@NotNull SNode __thisNode__, boolean isQueriedNode) {
     int max = 0;
     if (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.lines$u7C)).isNotEmpty()) {
       for (SNode line : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.lines$u7C))) {
         if ((line != null)) {
-          max = Integer.max(max, (int) ITextGenElement__BehaviorDescriptor.Editor_View_Width_id2jBmyzyEzhY.invoke(line, ((boolean) false)));
+          max = Integer.max(max, (int) ITextGenElement__BehaviorDescriptor.getEditorViewWidth_id2jBmyzyEzhY.invoke(line, ((boolean) false)));
         }
       }
     }
     // exclude indentation at the top, it is handled in the layout
     return max + ((isQueriedNode ? 0 : SPropertyOperations.getString(__thisNode__, PROPS.indent$WJd).length()));
+  }
+  /*package*/ static void surroundWith_id3xkJrZKaXl3(@NotNull SAbstractConcept __thisConcept__, SNode element) {
+    SNode target;
+    if (SNodeOperations.isInstanceOf(element, CONCEPTS.IText$2X)) {
+      target = SNodeOperations.cast(element, CONCEPTS.IText$2X);
+    } else {
+      SNode l = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, "com.dslfoundry.plaintextgen.structure.Line"));
+      SNodeOperations.replaceWithAnother(element, l);
+      ListSequence.fromList(SLinkOperations.getChildren(l, LINKS.words$teE6)).clear();
+      ListSequence.fromList(SLinkOperations.getChildren(l, LINKS.words$teE6)).addElement(element);
+      target = l;
+    }
+    SNode vert = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L, "com.dslfoundry.plaintextgen.structure.SpaceIndentedText"));
+    SNodeOperations.replaceWithAnother(target, vert);
+    ListSequence.fromList(SLinkOperations.getChildren(vert, LINKS.lines$u7C)).clear();
+    ListSequence.fromList(SLinkOperations.getChildren(vert, LINKS.lines$u7C)).addElement(target);
   }
 
   /*package*/ SpaceIndentedText__BehaviorDescriptor() {
@@ -76,11 +96,11 @@ public final class SpaceIndentedText__BehaviorDescriptor extends BaseBHDescripto
     }
     switch (methodIndex) {
       case 0:
-        return (T) ((Integer) Width_id6gwxh6GcBOM(node));
+        return (T) ((Integer) getWidth_id6gwxh6GcBOM(node));
       case 1:
-        return (T) ((Point) TextGen_id4GbnmmUaMp0(node, ((int) (Integer) parameters[0]), ((int) (Integer) parameters[1]), (CharacterMatrix) parameters[2]));
+        return (T) ((Point) getPosition_id4GbnmmUaMp0(node, ((int) (Integer) parameters[0]), ((int) (Integer) parameters[1]), (CharacterMatrix) parameters[2]));
       case 2:
-        return (T) ((Integer) Editor_View_Width_id2jBmyzyEzhY(node, ((boolean) (Boolean) parameters[0])));
+        return (T) ((Integer) getEditorViewWidth_id2jBmyzyEzhY(node, ((boolean) (Boolean) parameters[0])));
       default:
         throw new BHMethodNotFoundException(this, method);
     }
@@ -93,6 +113,9 @@ public final class SpaceIndentedText__BehaviorDescriptor extends BaseBHDescripto
       throw new BHMethodNotFoundException(this, method);
     }
     switch (methodIndex) {
+      case 3:
+        surroundWith_id3xkJrZKaXl3(concept, (SNode) parameters[0]);
+        return null;
       default:
         throw new BHMethodNotFoundException(this, method);
     }
@@ -116,5 +139,10 @@ public final class SpaceIndentedText__BehaviorDescriptor extends BaseBHDescripto
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink lines$u7C = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, 0x64208511ac2f6798L, "lines");
+    /*package*/ static final SContainmentLink words$teE6 = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, 0xfe48d5fcafd47f2L, "words");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SInterfaceConcept IText$2X = MetaAdapterFactory.getInterfaceConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47eaL, "com.dslfoundry.plaintextgen.structure.IText");
   }
 }

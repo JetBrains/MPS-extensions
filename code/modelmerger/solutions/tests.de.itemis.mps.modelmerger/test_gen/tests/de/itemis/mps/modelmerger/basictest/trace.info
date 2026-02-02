@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:7f6c3d7a-e369-4526-b6c9-7b08b07c82da(tests.de.itemis.mps.modelmerger.basictest@tests)/394966128314157127">
+    <file name="basicTests_Test.java">
+      <node id="394966128314157127" at="38,28,39,60" concept="7" />
+      <node id="394966128314157171" at="43,60,44,51" concept="1" />
+      <node id="394966128314157127" at="49,52,50,19" concept="7" />
+      <node id="394966128314157128" at="54,30,55,42" concept="1" />
+      <node id="394966128314157142" at="55,42,56,42" concept="1" />
+      <node id="7763325407348229045" at="58,30,59,63" concept="4" />
+      <node id="394966128314158381" at="59,63,60,121" concept="3" />
+      <node id="394966128314180985" at="60,121,61,88" concept="1" />
+      <node id="7897033387969732369" at="61,88,62,0" concept="5" />
+      <node id="7763325407348235123" at="62,0,63,76" concept="4" />
+      <node id="394966128314219820" at="63,76,64,122" concept="3" />
+      <node id="394966128314185342" at="64,122,65,65" concept="3" />
+      <node id="7897033387969731569" at="65,65,66,0" concept="5" />
+      <node id="7763325407348233538" at="66,0,67,68" concept="4" />
+      <node id="394966128314180129" at="67,68,68,126" concept="3" />
+      <node id="394966128314182634" at="68,126,69,92" concept="1" />
+      <node id="7897033387969732956" at="69,92,70,0" concept="5" />
+      <node id="7897033387969734775" at="70,0,71,82" concept="4" />
+      <node id="5747184684065782855" at="71,82,72,132" concept="3" />
+      <node id="5747184684065822235" at="72,132,73,246" concept="1" />
+      <node id="7897033387969736949" at="73,246,74,0" concept="5" />
+      <node id="7897033387969739867" at="74,0,75,49" concept="4" />
+      <node id="6835486021447324029" at="75,49,76,89" concept="1" />
+      <node id="7897033387969742210" at="76,89,77,0" concept="5" />
+      <node id="7763325407348238276" at="77,0,78,72" concept="4" />
+      <node id="394966128314243813" at="78,72,79,121" concept="3" />
+      <node id="394966128314243821" at="79,121,80,63" concept="3" />
+      <node id="7897033387969742819" at="80,63,81,0" concept="5" />
+      <node id="394966128314250169" at="81,0,82,75" concept="4" />
+      <node id="5255840169019037381" at="82,75,83,279" concept="1" />
+      <node id="394966128314347099" at="83,279,84,82" concept="4" />
+      <node id="5255840169019052380" at="84,82,85,126" concept="1" />
+      <node id="7763325407348239713" at="85,126,86,0" concept="5" />
+      <node id="394966128314157127" at="93,0,94,0" concept="6" trace="tSystem$ng" />
+      <node id="394966128314157127" at="97,0,98,0" concept="6" trace="outports$38qp" />
+      <node id="394966128314157127" at="35,0,37,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="394966128314157127" at="38,0,41,0" concept="0" trace="basicTests_Test#()V" />
+      <node id="394966128314157127" at="49,0,52,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="394966128314157171" at="42,0,46,0" concept="2" trace="test_simpleModelMergeTest#()V" />
+      <node id="394966128314157171" at="53,62,57,9" concept="1" />
+      <node id="394966128314157171" at="57,9,87,9" concept="1" />
+      <node id="394966128314157171" at="53,0,89,0" concept="2" trace="test_simpleModelMergeTest#()V" />
+      <scope id="394966128314157127" at="38,28,39,60" />
+      <scope id="394966128314157171" at="43,60,44,51" />
+      <scope id="394966128314157127" at="49,52,50,19" />
+      <scope id="394966128314157171" at="54,30,56,42" />
+      <scope id="394966128314157127" at="38,0,41,0" />
+      <scope id="394966128314157127" at="49,0,52,0">
+        <var name="owner" id="394966128314157127" />
+      </scope>
+      <scope id="394966128314157171" at="42,0,46,0" />
+      <scope id="394966128314157171" at="58,30,86,0">
+        <var name="rootIdAfterImport" id="394966128314243822" />
+        <var name="rootIdBeforeImport" id="394966128314185343" />
+        <var name="sysAfterImport" id="394966128314243814" />
+        <var name="sysBeforeImport" id="394966128314219821" />
+        <var name="testLangRegistry" id="5747184684065782861" />
+        <var name="testMdlDestination" id="394966128314180130" />
+        <var name="testMdlSource" id="394966128314158384" />
+      </scope>
+      <scope id="394966128314157171" at="53,62,87,9" />
+      <scope id="394966128314157171" at="53,0,89,0" />
+      <unit id="394966128314157127" at="92,0,95,0" name="tests.de.itemis.mps.modelmerger.basictest.basicTests_Test$CONCEPTS" />
+      <unit id="394966128314157127" at="96,0,99,0" name="tests.de.itemis.mps.modelmerger.basictest.basicTests_Test$LINKS" />
+      <unit id="394966128314157127" at="47,0,91,0" name="tests.de.itemis.mps.modelmerger.basictest.basicTests_Test$TestBody" />
+      <unit id="394966128314157127" at="33,0,100,0" name="tests.de.itemis.mps.modelmerger.basictest.basicTests_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:7f6c3d7a-e369-4526-b6c9-7b08b07c82da(tests.de.itemis.mps.modelmerger.basictest@tests)/7763325407347326556">
+    <file name="MergedOrder_Test.java">
+      <node id="7763325407347326556" at="42,29,43,60" concept="7" />
+      <node id="7763325407347326584" at="47,57,48,48" concept="1" />
+      <node id="7763325407347326556" at="53,52,54,19" concept="7" />
+      <node id="7763325407347328722" at="58,30,59,43" concept="1" />
+      <node id="7763325407347326557" at="59,43,60,43" concept="1" />
+      <node id="7897033387968606128" at="62,30,63,71" concept="4" />
+      <node id="7763325407347326587" at="63,71,64,121" concept="3" />
+      <node id="7763325407348524633" at="64,121,65,127" concept="4" />
+      <node id="7763325407347331558" at="65,127,66,126" concept="3" />
+      <node id="7763325407347332765" at="66,126,67,88" concept="1" />
+      <node id="7763325407347326603" at="67,88,68,93" concept="1" />
+      <node id="7763325407347818431" at="68,93,69,0" concept="5" />
+      <node id="7897033387968602508" at="69,0,70,82" concept="4" />
+      <node id="7763325407347326628" at="70,82,71,132" concept="3" />
+      <node id="7763325407347326637" at="71,132,72,246" concept="1" />
+      <node id="7763325407347531650" at="72,246,73,0" concept="5" />
+      <node id="7897033387968608246" at="73,0,74,77" concept="4" />
+      <node id="7763325407347533292" at="74,77,75,122" concept="3" />
+      <node id="7763325407347827112" at="75,122,76,65" concept="3" />
+      <node id="7763325407348689461" at="76,65,77,148" concept="3" />
+      <node id="7763325407348689197" at="77,148,78,0" concept="5" />
+      <node id="7897033387968612218" at="78,0,79,32" concept="4" />
+      <node id="7763325407347326655" at="79,32,80,89" concept="1" />
+      <node id="7763325407347411297" at="80,89,81,0" concept="5" />
+      <node id="7897033387968615706" at="81,0,82,58" concept="4" />
+      <node id="7763325407347326660" at="82,58,83,121" concept="3" />
+      <node id="7763325407347824096" at="83,121,84,63" concept="3" />
+      <node id="7763325407347821002" at="84,63,85,103" concept="1" />
+      <node id="7763325407348737317" at="85,103,86,0" concept="5" />
+      <node id="7763325407348741116" at="86,0,87,100" concept="4" />
+      <node id="7763325407348707923" at="87,100,88,230" concept="3" />
+      <node id="7763325407348728810" at="88,230,89,115" concept="1" />
+      <node id="7763325407347839215" at="89,115,90,0" concept="5" />
+      <node id="7897033387968530474" at="90,0,91,68" concept="4" />
+      <node id="7763325407347326688" at="91,68,92,298" concept="1" />
+      <node id="7763325407347412098" at="92,298,93,0" concept="5" />
+      <node id="7897033387968398747" at="93,0,94,104" concept="4" />
+      <node id="7897033387968401565" at="94,104,95,198" concept="3" />
+      <node id="7897033387968407400" at="95,198,96,198" concept="3" />
+      <node id="7897033387968410187" at="96,198,97,198" concept="3" />
+      <node id="7897033387969697762" at="97,198,98,198" concept="3" />
+      <node id="7897033387969699689" at="98,198,99,198" concept="3" />
+      <node id="7897033387968409833" at="99,198,100,0" concept="5" />
+      <node id="7763325407348641212" at="100,0,101,133" concept="1" />
+      <node id="7897033387968416220" at="101,133,102,134" concept="1" />
+      <node id="7897033387969655479" at="102,134,103,133" concept="1" />
+      <node id="7897033387968418508" at="103,133,104,134" concept="1" />
+      <node id="7897033387969657815" at="104,134,105,133" concept="1" />
+      <node id="7763325407347642386" at="105,133,106,0" concept="5" />
+      <node id="7763325407347426859" at="106,0,107,240" concept="1" />
+      <node id="7763325407347471079" at="107,240,108,0" concept="5" />
+      <node id="7763325407347326556" at="115,0,116,0" concept="6" trace="tSystem$ng" />
+      <node id="7763325407347326556" at="119,0,120,0" concept="6" trace="inports$37Hm" />
+      <node id="7763325407347326556" at="123,0,124,0" concept="6" trace="name$MnvL" />
+      <node id="7763325407347326556" at="39,0,41,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="7763325407347326556" at="42,0,45,0" concept="0" trace="MergedOrder_Test#()V" />
+      <node id="7763325407347326556" at="53,0,56,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7763325407347326584" at="46,0,50,0" concept="2" trace="test_childSequenceTest#()V" />
+      <node id="7763325407347326584" at="57,59,61,9" concept="1" />
+      <node id="7763325407347326584" at="61,9,109,9" concept="1" />
+      <node id="7763325407347326584" at="57,0,111,0" concept="2" trace="test_childSequenceTest#()V" />
+      <scope id="7763325407347326556" at="42,29,43,60" />
+      <scope id="7763325407347326584" at="47,57,48,48" />
+      <scope id="7763325407347326556" at="53,52,54,19" />
+      <scope id="7763325407347326584" at="58,30,60,43" />
+      <scope id="7763325407347326556" at="42,0,45,0" />
+      <scope id="7763325407347326556" at="53,0,56,0">
+        <var name="owner" id="7763325407347326556" />
+      </scope>
+      <scope id="7763325407347326584" at="46,0,50,0" />
+      <scope id="7763325407347326584" at="62,30,108,0">
+        <var name="inA" id="7897033387968401566" />
+        <var name="inB" id="7897033387968407403" />
+        <var name="inC" id="7897033387968410190" />
+        <var name="inD" id="7897033387969697763" />
+        <var name="inE" id="7897033387969699690" />
+        <var name="inPortCIdAfterImport" id="7763325407348707924" />
+        <var name="inPortCIdBeforeImport" id="7763325407348689462" />
+        <var name="rootIdAfterImport" id="7763325407347824099" />
+        <var name="rootIdBeforeImport" id="7763325407347827115" />
+        <var name="sysAfterImport" id="7763325407347326661" />
+        <var name="sysBeforeImport" id="7763325407347533295" />
+        <var name="testLangRegistry" id="7763325407347326629" />
+        <var name="testMdlDestination" id="7763325407347331559" />
+        <var name="testMdlSource" id="7763325407347326588" />
+      </scope>
+      <scope id="7763325407347326584" at="57,59,109,9" />
+      <scope id="7763325407347326584" at="57,0,111,0" />
+      <unit id="7763325407347326556" at="114,0,117,0" name="tests.de.itemis.mps.modelmerger.basictest.MergedOrder_Test$CONCEPTS" />
+      <unit id="7763325407347326556" at="118,0,121,0" name="tests.de.itemis.mps.modelmerger.basictest.MergedOrder_Test$LINKS" />
+      <unit id="7763325407347326556" at="122,0,125,0" name="tests.de.itemis.mps.modelmerger.basictest.MergedOrder_Test$PROPS" />
+      <unit id="7763325407347326556" at="51,0,113,0" name="tests.de.itemis.mps.modelmerger.basictest.MergedOrder_Test$TestBody" />
+      <unit id="7763325407347326556" at="37,0,126,0" name="tests.de.itemis.mps.modelmerger.basictest.MergedOrder_Test" />
+    </file>
+  </root>
+</debug-info>
+

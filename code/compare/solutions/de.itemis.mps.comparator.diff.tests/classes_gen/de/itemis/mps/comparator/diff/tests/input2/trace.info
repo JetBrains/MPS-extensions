@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e(de.itemis.mps.comparator.diff.tests.input2)/2529503557003429548">
+    <file name="AB.java">
+      <unit id="2529503557003429548" at="6,0,8,0" name="a.b.AB" />
+    </file>
+  </root>
+  <root nodeRef="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e(de.itemis.mps.comparator.diff.tests.input2)/2529503557006755212">
+    <file name="CD.java">
+      <unit id="2529503557006755212" at="6,0,8,0" name="c.d.CD" />
+    </file>
+  </root>
+  <root nodeRef="r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e(de.itemis.mps.comparator.diff.tests.input2)/2529503557006755301">
+    <file name="Z.java">
+      <unit id="2529503557006755301" at="6,0,8,0" name="z.Z" />
+    </file>
+  </root>
+</debug-info>
+

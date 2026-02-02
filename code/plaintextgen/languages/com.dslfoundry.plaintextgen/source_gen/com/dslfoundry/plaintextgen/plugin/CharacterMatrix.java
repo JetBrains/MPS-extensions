@@ -5,43 +5,47 @@ package com.dslfoundry.plaintextgen.plugin;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
+import org.jetbrains.annotations.Nullable;
 import java.awt.Point;
 
 public class CharacterMatrix {
-  private List<StringBuilder> Matrix;
-  private List<Integer> LastColumn;
+  private List<StringBuilder> matrix;
+  private List<Integer> lastColumn;
 
   public CharacterMatrix() {
-    Matrix = ListSequence.fromList(new ArrayList<StringBuilder>());
-    LastColumn = ListSequence.fromList(new ArrayList<Integer>());
+    matrix = ListSequence.fromList(new ArrayList<StringBuilder>());
+    lastColumn = ListSequence.fromList(new ArrayList<Integer>());
   }
 
-  public void Write(int row, int column, String word) {
-    while (ListSequence.fromList(Matrix).count() <= row) {
-      ListSequence.fromList(Matrix).addElement(new StringBuilder());
-      ListSequence.fromList(LastColumn).addElement(0);
+  public void write(int row, int column, @Nullable String word) {
+    if (word == null) {
+      return;
     }
-    if (column < ListSequence.fromList(LastColumn).getElement(row)) {
+    while (ListSequence.fromList(matrix).count() <= row) {
+      ListSequence.fromList(matrix).addElement(new StringBuilder());
+      ListSequence.fromList(lastColumn).addElement(0);
+    }
+    if (column < ListSequence.fromList(lastColumn).getElement(row)) {
       throw new RuntimeException("Cannot write a position twice");
     } else {
-      StringBuilder b = ListSequence.fromList(Matrix).getElement(row);
-      for (int i = ListSequence.fromList(LastColumn).getElement(row); i < column; ++i) {
+      StringBuilder b = ListSequence.fromList(matrix).getElement(row);
+      for (int i = ListSequence.fromList(lastColumn).getElement(row); i < column; ++i) {
         b.append(" ");
       }
       b.append(word);
-      ListSequence.fromList(LastColumn).setElement(row, column + word.length());
+      ListSequence.fromList(lastColumn).setElement(row, column + word.length());
     }
   }
 
-  public int LineCount() {
-    return ListSequence.fromList(Matrix).count();
+  public int getLineCount() {
+    return ListSequence.fromList(matrix).count();
   }
 
-  public String ToString(int row) {
-    return ListSequence.fromList(Matrix).getElement(row).toString();
+  public String rowToString(int row) {
+    return ListSequence.fromList(matrix).getElement(row).toString();
   }
 
-  public Point MaxPos(Point a, Point b) {
+  public Point getMaximumPosition(Point a, Point b) {
     return new Point(Integer.max(a.x, b.x), Integer.max(a.y, b.y));
   }
 }

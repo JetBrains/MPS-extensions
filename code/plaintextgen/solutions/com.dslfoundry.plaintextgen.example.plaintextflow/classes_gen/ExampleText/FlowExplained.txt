@@ -1,0 +1,71 @@
+You can use plaintextflow inside plaintextgen
+This part of the text is just using plaintextgen Lines, Words, and VerticalLines
+Below there are examples of "flows"
+
+In plaintextflow, the container concept for "FlowWord"s, "SoftWrap"s and "HardWrap"s is called "Flow".
+Every "Flow" element can contain an indent string which will be replicated at every "SoftWrap"
+Note that you can choose to indent or not, but you always use a "Flow" element
+as this is the only container type.
+
+The following part of this text is a "Flow" element. As you can see it only uses FlowWords, SoftWraps, and HardWraps.
+No plaintextgen Lines, words, and VerticalLines
+
+Although a "Flow" element integrates into plaintextgen, currently the only supported way to use it
+* As a single element inside a "Horizontal line"
+* Without any plaintextgen indentation. and uses a "Flow".
+In the future, more cases may be supported.
+
+Note that the rendering is slightly
+different than the previous text. Every "FlowWord" will alternate color so you can see
+boundaries.
+
+The reason is that plaintextflow is mostly about solving "tricky whithespace problems"
+And showing full borders between words messes with the rendered whitespace
+we want to control.
+
+In addition to concatenating words, it is possible to indent text using a "Flow"
+  #include <stdio.h>
+  int main()
+  {
+      // printf() displays the string inside quotation
+      printf("Hello, World!");
+      return 0;
+  }
+
+The "indent string" (editable) is displayed in green. It is replicated in gray (read only)
+for every soft-wrapped line during the whole context of the indentation.
+
+An indent string does not have to be whitespace, it can be any string, e.g. a "*":
+*Item 1
+*Item 2
+*Item 3
+**Item 3.1
+**Item 3.2
+**Item 3.2
+*Item 4
+
+After a soft wrap, the combined indent string of the whole indentation context is always replicated. 
+However there are special cases where a "hard" line break is desired.
+ For example string continuations as in some programming languages
+
+    printf("Hello short world string");
+    
+    printf("Hello, this is a very very long string \
+that is continued here. Note that extra spaces on the left would \
+mean extra spaces inside the string, which is undesired");
+    
+    printf("Hello short world string");
+
+The main principles of using plaintextflow are:
+* Text is structured using a hierarchy of Flows
+* Every flow has an indentation string which is empty by default
+* The combined indent string is constructed from the indent string of all ancestor Flows.
+* There are two types of line breaks: HardWrap (jump to column 0 of next row) and 
+  SoftWrap (jump to column 0 of next row and insert combined indent string)
+* It is up to the user to insert line breaks (in contrast to plaintextgen, there are
+  no "block structures" that do this automatically)
+* You can use HardWraps and SoftWraps in macros (e.g. $IF$), as opposed to NewLineMarkers fro plaintextgen
+* Even when a hard wrap is used, the next soft wrap will replicate the combined indent string.
+* Indent strings (repeated for every soft wrap) can consist of other characters than whitespace
+
+

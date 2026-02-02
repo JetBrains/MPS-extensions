@@ -46,7 +46,7 @@ public final class AddNewLineBefore_Intention extends AbstractIntentionDescripto
 
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Add New Line before";
+      return "Add New Line Before";
     }
 
     @Override

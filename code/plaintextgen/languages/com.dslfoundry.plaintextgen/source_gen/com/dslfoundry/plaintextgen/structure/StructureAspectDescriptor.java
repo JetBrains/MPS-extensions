@@ -25,10 +25,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptLine = createDescriptorForLine();
   /*package*/ final ConceptDescriptor myConceptNewlineMarker = createDescriptorForNewlineMarker();
   /*package*/ final ConceptDescriptor myConceptSpaceIndentedText = createDescriptorForSpaceIndentedText();
+  /*package*/ final ConceptDescriptor myConceptTab = createDescriptorForTab();
   /*package*/ final ConceptDescriptor myConceptTextgenText = createDescriptorForTextgenText();
   /*package*/ final ConceptDescriptor myConceptVerticalLines = createDescriptorForVerticalLines();
-  /*package*/ final ConceptDescriptor myConcepttab = createDescriptorFortab();
-  /*package*/ final ConceptDescriptor myConceptword = createDescriptorForword();
+  /*package*/ final ConceptDescriptor myConceptWord = createDescriptorForWord();
   /*package*/ final EnumerationDescriptor myEnumerationLineEnding = new EnumerationDescriptor_LineEnding();
   /*package*/ final EnumerationDescriptor myEnumerationTextAlignment = new EnumerationDescriptor_TextAlignment();
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeSpaceIndentation = new ConstrainedStringDatatypeDescriptorImpl(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x48241aad8b30788fL, "SpaceIndentation", "r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/5198309202559269007", "( )*");
@@ -46,7 +46,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptILineElement, myConceptIText, myConceptITextGenElement, myConceptIVerticalGroup, myConceptLine, myConceptNewlineMarker, myConceptSpaceIndentedText, myConceptTextgenText, myConceptVerticalLines, myConcepttab, myConceptword);
+    return Arrays.asList(myConceptILineElement, myConceptIText, myConceptITextGenElement, myConceptIVerticalGroup, myConceptLine, myConceptNewlineMarker, myConceptSpaceIndentedText, myConceptTab, myConceptTextgenText, myConceptVerticalLines, myConceptWord);
   }
 
   @Override
@@ -67,14 +67,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptNewlineMarker;
       case LanguageConceptSwitch.SpaceIndentedText:
         return myConceptSpaceIndentedText;
+      case LanguageConceptSwitch.Tab:
+        return myConceptTab;
       case LanguageConceptSwitch.TextgenText:
         return myConceptTextgenText;
       case LanguageConceptSwitch.VerticalLines:
         return myConceptVerticalLines;
-      case LanguageConceptSwitch.tab:
-        return myConcepttab;
-      case LanguageConceptSwitch.word:
-        return myConceptword;
+      case LanguageConceptSwitch.Word:
+        return myConceptWord;
       default:
         return null;
     }
@@ -139,6 +139,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/5082088080656902716");
     b.version(3);
+    b.alias("a new line marker");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSpaceIndentedText() {
@@ -149,6 +150,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.property("indent", 0x48241aad8b2b218cL).type(MetaIdFactory.dataTypeId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x48241aad8b30788fL)).origin("5198309202558919052").done();
     b.alias("-");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTab() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.dslfoundry.plaintextgen", "Tab", 0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x2785a009e0883ec8L);
+    b.class_(false, false, false);
+    b.parent(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x7425635c3ac3945aL);
+    b.origin("r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/2847858303663881928");
+    b.version(3);
+    b.alias("--->");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForTextgenText() {
@@ -172,17 +182,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("/");
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorFortab() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.dslfoundry.plaintextgen", "tab", 0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x2785a009e0883ec8L);
-    b.class_(false, false, false);
-    b.parent(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x7425635c3ac3945aL);
-    b.origin("r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/2847858303663881928");
-    b.version(3);
-    b.alias("--->");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForword() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.dslfoundry.plaintextgen", "word", 0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L);
+  private static ConceptDescriptor createDescriptorForWord() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.dslfoundry.plaintextgen", "Word", 0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L);
     b.class_(false, false, false);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.parent(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x7425635c3ac3945aL);

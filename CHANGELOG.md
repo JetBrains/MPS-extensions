@@ -4,6 +4,25 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## January 2026
+
+### Fixed
+
+- *de.slisson.mps.tables.runtime* Prevent inserting a new row node before/after a singular cardinality child node
+
+## December 2025
+
+### Fixed
+
+- *com.dslfoundry.plaintextgen* and *com.dslfoundry.plaintextflow* The readability and dark theme support was improved.
+- *com.dslfoundry.plaintextgen* The generator can now deal with null words.
+- *com.dslfoundry.plaintextgen* The change to vertical and indent collection intention now preserve node attributes.
+- *com.dslfoundry.plaintextgen* Attributes of splitted words are moved to the line if possible.
+
+### Added
+
+- *com.dslfoundry.plaintextgen* Context assistant buttons were added for common operations.
+
 ## November 2025
 
 ### Fixed

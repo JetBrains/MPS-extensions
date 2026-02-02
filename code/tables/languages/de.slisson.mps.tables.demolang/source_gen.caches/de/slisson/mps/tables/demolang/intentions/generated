@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="d9rmolk6fw453drqbtusk0mmaeb7zqr">
+  <files names="BaseConcept_AddComment_Intention.java:DemoSelectionIntention.java:IntentionsDescriptor.java:RequirementsCollection_AddRequirement_Intention.java:SelectionIntentionsDescriptor.java:StateMachine_AddEvent_Intention.java:StateMachine_AddState_Intention.java:StateMachine_AddTransition_Intention.java:TestCase_AddComment_Intention.java:TestSuite_AddTestCase_Intention.java:ToggleStickyHeaders_Intention.java" />
+</product>
+

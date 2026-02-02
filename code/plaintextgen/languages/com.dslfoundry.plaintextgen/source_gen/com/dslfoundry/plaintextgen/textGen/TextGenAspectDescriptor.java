@@ -36,8 +36,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new TextgenText_TextGen();
       case LanguageConceptSwitch.VerticalLines:
         return new VerticalLines_TextGen();
-      case LanguageConceptSwitch.word:
-        return new word_TextGen();
+      case LanguageConceptSwitch.Word:
+        return new Word_TextGen();
     }
     return null;
   }

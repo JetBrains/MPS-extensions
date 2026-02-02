@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="7u4so5vygnp6ebyogwjnt2frknultwm">
+  <files names="Foo.java:HasNoVersion.java:HasVersion.java:HasVersionAndChanges.java:SimpleChecks_Test.java:WithNewerVersion.java" />
+</product>
+

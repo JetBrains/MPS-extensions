@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1160998861373:jetbrains.mps.baseLanguage.structure.AssertStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:ed3e0c43-ec95-4718-8427-6204fc60e5a9(de.itemis.mps.compare.pattern.test.basic@tests)/1051055886869298059">
+    <file name="BasicTest_Test.java">
+      <node id="1051055886869298059" at="40,27,41,60" concept="9" />
+      <node id="1051055886869344097" at="45,49,46,40" concept="2" />
+      <node id="1051055886869298059" at="51,52,52,19" concept="9" />
+      <node id="1051055886869344097" at="55,51,56,65" concept="2" />
+      <node id="8597147450174237108" at="57,30,58,0" concept="6" />
+      <node id="235729594848826599" at="58,0,59,1125" concept="4" />
+      <node id="4314421497436042029" at="59,1125,60,0" concept="6" />
+      <node id="2031078330728006582" at="60,0,61,217" concept="4" />
+      <node id="1051055886869344160" at="61,217,62,0" concept="6" />
+      <node id="1466085761082478161" at="62,0,63,263" concept="4" />
+      <node id="1466085761082479049" at="63,263,64,263" concept="4" />
+      <node id="1466085761082441967" at="64,263,65,0" concept="6" />
+      <node id="1466085761082493681" at="65,0,66,50" concept="4" />
+      <node id="1466085761082442037" at="66,50,67,0" concept="6" />
+      <node id="8237807170237685223" at="67,0,68,50" concept="4" />
+      <node id="8237807170237688217" at="68,50,69,0" concept="6" />
+      <node id="3935692745220314090" at="69,0,70,67" concept="2" />
+      <node id="3935692745220324215" at="70,67,71,82" concept="2" />
+      <node id="3935692745220311745" at="71,82,72,0" concept="6" />
+      <node id="1466085761082494807" at="72,0,73,36" concept="0" />
+      <node id="1466085761082495853" at="73,36,74,50" concept="0" />
+      <node id="1466085761082497449" at="74,50,75,54" concept="0" />
+      <node id="1466085761082498625" at="75,54,76,155" concept="0" />
+      <node id="1466085761082502854" at="76,155,77,137" concept="0" />
+      <node id="1466085761082505017" at="77,137,78,118" concept="0" />
+      <node id="1466085761082504330" at="78,118,79,0" concept="6" />
+      <node id="1466085761082509881" at="79,0,80,51" concept="4" />
+      <node id="1466085761082509888" at="80,51,81,0" concept="6" />
+      <node id="1466085761082509889" at="81,0,82,37" concept="0" />
+      <node id="1466085761082509893" at="82,37,83,84" concept="0" />
+      <node id="1466085761082509901" at="83,84,84,76" concept="0" />
+      <node id="1466085761082509909" at="84,76,85,85" concept="0" />
+      <node id="1466085761082509927" at="85,85,86,79" concept="0" />
+      <node id="1466085761082509945" at="86,79,87,105" concept="0" />
+      <node id="1466085761082509019" at="87,105,88,0" concept="6" />
+      <node id="1466085761082524946" at="88,0,89,45" concept="0" />
+      <node id="1051055886869298059" at="96,0,97,0" concept="7" trace="StaticFieldDeclaration$jR" />
+      <node id="1051055886869298059" at="97,0,98,0" concept="7" trace="IntegerType$7a" />
+      <node id="1051055886869298059" at="98,0,99,0" concept="7" trace="ClassConcept$bK" />
+      <node id="1051055886869298059" at="99,0,100,0" concept="7" trace="PrivateVisibility$l0" />
+      <node id="1051055886869298059" at="100,0,101,0" concept="7" trace="LocalVariableDeclaration$41" />
+      <node id="1051055886869298059" at="104,0,105,0" concept="7" trace="name$MnvL" />
+      <node id="1051055886869298059" at="105,0,106,0" concept="7" trace="isFinal$gvTP" />
+      <node id="1051055886869298059" at="109,0,110,0" concept="7" trace="type$a1UY" />
+      <node id="1051055886869298059" at="110,0,111,0" concept="7" trace="visibility$Yyua" />
+      <node id="1051055886869298059" at="37,0,39,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="1051055886869298059" at="40,0,43,0" concept="1" trace="BasicTest_Test#()V" />
+      <node id="1051055886869298059" at="51,0,54,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1051055886869344097" at="44,0,48,0" concept="3" trace="test_basicTest#()V" />
+      <node id="1051055886869344097" at="56,65,90,9" concept="2" />
+      <node id="1051055886869344097" at="55,0,92,0" concept="3" trace="test_basicTest#()V" />
+      <scope id="1051055886869298059" at="40,27,41,60" />
+      <scope id="1051055886869344097" at="45,49,46,40" />
+      <scope id="1051055886869298059" at="51,52,52,19" />
+      <scope id="1051055886869298059" at="40,0,43,0" />
+      <scope id="1051055886869298059" at="51,0,54,0">
+        <var name="owner" id="1051055886869298059" />
+      </scope>
+      <scope id="1051055886869344097" at="44,0,48,0" />
+      <scope id="1051055886869344097" at="57,30,89,45">
+        <var name="a" id="1466085761082478162" />
+        <var name="b" id="1466085761082479050" />
+        <var name="bareResult" id="1466085761082493682" />
+        <var name="f" id="8237807170237685224" />
+        <var name="p" id="2031078330728006588" />
+        <var name="pattern" id="235729594848826605" />
+        <var name="typedResult" id="1466085761082509882" />
+      </scope>
+      <scope id="1051055886869344097" at="55,51,90,9" />
+      <scope id="1051055886869344097" at="55,0,92,0" />
+      <unit id="1051055886869298059" at="103,0,107,0" name="de.itemis.mps.compare.pattern.test.basic.BasicTest_Test$PROPS" />
+      <unit id="1051055886869298059" at="108,0,112,0" name="de.itemis.mps.compare.pattern.test.basic.BasicTest_Test$LINKS" />
+      <unit id="1051055886869298059" at="95,0,102,0" name="de.itemis.mps.compare.pattern.test.basic.BasicTest_Test$CONCEPTS" />
+      <unit id="1051055886869298059" at="49,0,94,0" name="de.itemis.mps.compare.pattern.test.basic.BasicTest_Test$TestBody" />
+      <unit id="1051055886869298059" at="35,0,113,0" name="de.itemis.mps.compare.pattern.test.basic.BasicTest_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:ed3e0c43-ec95-4718-8427-6204fc60e5a9(de.itemis.mps.compare.pattern.test.basic@tests)/1466085761082537387">
+    <file name="PatternRefTest_Test.java">
+      <node id="1466085761082537387" at="34,32,35,60" concept="9" />
+      <node id="1466085761082546117" at="39,54,40,45" concept="2" />
+      <node id="1466085761082537387" at="45,52,46,19" concept="9" />
+      <node id="1466085761082546117" at="49,56,50,65" concept="2" />
+      <node id="1466085761082546120" at="51,30,52,465" concept="4" />
+      <node id="1466085761082565583" at="52,465,53,277" concept="4" />
+      <node id="1466085761082564244" at="53,277,54,0" concept="6" />
+      <node id="1466085761082546268" at="54,0,55,84" concept="4" />
+      <node id="1466085761082546276" at="55,84,56,0" concept="6" />
+      <node id="1466085761082546277" at="56,0,57,32" concept="0" />
+      <node id="1466085761082594522" at="57,32,58,114" concept="0" />
+      <node id="1466085761082537387" at="65,0,66,0" concept="7" trace="StaticMethodDeclaration$FJ" />
+      <node id="1466085761082537387" at="66,0,67,0" concept="7" trace="VoidType$BF" />
+      <node id="1466085761082537387" at="67,0,68,0" concept="7" trace="ClassConcept$bK" />
+      <node id="1466085761082537387" at="71,0,72,0" concept="7" trace="name$MnvL" />
+      <node id="1466085761082537387" at="75,0,76,0" concept="7" trace="returnType$5xoi" />
+      <node id="1466085761082537387" at="76,0,77,0" concept="7" trace="member$L_2d" />
+      <node id="1466085761082537387" at="31,0,33,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="1466085761082537387" at="34,0,37,0" concept="1" trace="PatternRefTest_Test#()V" />
+      <node id="1466085761082537387" at="45,0,48,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1466085761082546117" at="38,0,42,0" concept="3" trace="test_patternRefTest#()V" />
+      <node id="1466085761082546117" at="50,65,59,9" concept="2" />
+      <node id="1466085761082546117" at="49,0,61,0" concept="3" trace="test_patternRefTest#()V" />
+      <scope id="1466085761082537387" at="34,32,35,60" />
+      <scope id="1466085761082546117" at="39,54,40,45" />
+      <scope id="1466085761082537387" at="45,52,46,19" />
+      <scope id="1466085761082537387" at="34,0,37,0" />
+      <scope id="1466085761082537387" at="45,0,48,0">
+        <var name="owner" id="1466085761082537387" />
+      </scope>
+      <scope id="1466085761082546117" at="38,0,42,0" />
+      <scope id="1466085761082546117" at="51,30,58,114">
+        <var name="classPattern" id="1466085761082565589" />
+        <var name="methodPattern" id="1466085761082546121" />
+        <var name="result" id="1466085761082546269" />
+      </scope>
+      <scope id="1466085761082546117" at="49,56,59,9" />
+      <scope id="1466085761082546117" at="49,0,61,0" />
+      <unit id="1466085761082537387" at="70,0,73,0" name="de.itemis.mps.compare.pattern.test.basic.PatternRefTest_Test$PROPS" />
+      <unit id="1466085761082537387" at="74,0,78,0" name="de.itemis.mps.compare.pattern.test.basic.PatternRefTest_Test$LINKS" />
+      <unit id="1466085761082537387" at="64,0,69,0" name="de.itemis.mps.compare.pattern.test.basic.PatternRefTest_Test$CONCEPTS" />
+      <unit id="1466085761082537387" at="43,0,63,0" name="de.itemis.mps.compare.pattern.test.basic.PatternRefTest_Test$TestBody" />
+      <unit id="1466085761082537387" at="29,0,79,0" name="de.itemis.mps.compare.pattern.test.basic.PatternRefTest_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:ed3e0c43-ec95-4718-8427-6204fc60e5a9(de.itemis.mps.compare.pattern.test.basic@tests)/1466085761082541946">
+    <file name="TestHelper.java">
+      <node id="1466085761082542097" at="20,54,21,451" concept="5" />
+      <node id="1466085761082541946" at="25,0,26,0" concept="7" trace="StaticFieldDeclaration$jR" />
+      <node id="1466085761082541946" at="26,0,27,0" concept="7" trace="PrivateVisibility$l0" />
+      <node id="1466085761082541946" at="30,0,31,0" concept="7" trace="visibility$Yyua" />
+      <node id="1466085761082541946" at="34,0,35,0" concept="7" trace="isFinal$gvTP" />
+      <node id="1466085761082542019" at="20,0,23,0" concept="8" trace="getFieldPattern#()Lde/itemis/mps/compare/pattern/runtime/plugin/PatternBuilderNode;" />
+      <scope id="1466085761082542022" at="20,54,21,451" />
+      <scope id="1466085761082542019" at="20,0,23,0" />
+      <unit id="1466085761082541946" at="29,0,32,0" name="de.itemis.mps.compare.pattern.test.basic.TestHelper$LINKS" />
+      <unit id="1466085761082541946" at="33,0,36,0" name="de.itemis.mps.compare.pattern.test.basic.TestHelper$PROPS" />
+      <unit id="1466085761082541946" at="24,0,28,0" name="de.itemis.mps.compare.pattern.test.basic.TestHelper$CONCEPTS" />
+      <unit id="1466085761082541946" at="18,0,37,0" name="de.itemis.mps.compare.pattern.test.basic.TestHelper" />
+    </file>
+  </root>
+  <root nodeRef="r:ed3e0c43-ec95-4718-8427-6204fc60e5a9(de.itemis.mps.compare.pattern.test.basic@tests)/2031078330728167354">
+    <file name="GetterTest_Test.java">
+      <node id="2031078330728167354" at="42,28,43,60" concept="9" />
+      <node id="2031078330728167355" at="47,50,48,41" concept="2" />
+      <node id="2031078330728167354" at="53,52,54,19" concept="9" />
+      <node id="2031078330728167355" at="57,52,58,65" concept="2" />
+      <node id="2031078330728167358" at="59,30,60,0" concept="6" />
+      <node id="2031078330728167359" at="60,0,61,616" concept="4" />
+      <node id="2031078330728167381" at="61,616,62,0" concept="6" />
+      <node id="2031078330728167389" at="62,0,63,263" concept="4" />
+      <node id="2031078330728167431" at="63,263,64,0" concept="6" />
+      <node id="2031078330728167432" at="64,0,65,42" concept="4" />
+      <node id="2031078330728167439" at="65,42,66,0" concept="6" />
+      <node id="2031078330728217980" at="66,0,67,197" concept="4" />
+      <node id="2031078330728218911" at="67,197,68,245" concept="2" />
+      <node id="2031078330728217546" at="68,245,69,0" concept="6" />
+      <node id="2031078330728167440" at="69,0,70,28" concept="0" />
+      <node id="2031078330728167444" at="70,28,71,75" concept="0" />
+      <node id="2031078330728167460" at="71,75,72,76" concept="0" />
+      <node id="2031078330728167478" at="72,76,73,178" concept="0" />
+      <node id="2031078330728167496" at="73,178,74,96" concept="0" />
+      <node id="2031078330728167354" at="81,0,82,0" concept="7" trace="StaticFieldDeclaration$jR" />
+      <node id="2031078330728167354" at="85,0,86,0" concept="7" trace="name$MnvL" />
+      <node id="2031078330728167354" at="86,0,87,0" concept="7" trace="isFinal$gvTP" />
+      <node id="2031078330728167354" at="90,0,91,0" concept="7" trace="visibility$Yyua" />
+      <node id="2031078330728167354" at="91,0,92,0" concept="7" trace="componentType$F$Gi" />
+      <node id="2031078330728167354" at="39,0,41,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2031078330728167354" at="42,0,45,0" concept="1" trace="GetterTest_Test#()V" />
+      <node id="2031078330728167354" at="53,0,56,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2031078330728167355" at="46,0,50,0" concept="3" trace="test_getterTest#()V" />
+      <node id="2031078330728167355" at="58,65,75,9" concept="2" />
+      <node id="2031078330728167355" at="57,0,77,0" concept="3" trace="test_getterTest#()V" />
+      <scope id="2031078330728167354" at="42,28,43,60" />
+      <scope id="2031078330728167355" at="47,50,48,41" />
+      <scope id="2031078330728167354" at="53,52,54,19" />
+      <scope id="2031078330728167354" at="42,0,45,0" />
+      <scope id="2031078330728167354" at="53,0,56,0">
+        <var name="owner" id="2031078330728167354" />
+      </scope>
+      <scope id="2031078330728167355" at="46,0,50,0" />
+      <scope id="2031078330728167355" at="59,30,74,96">
+        <var name="a" id="2031078330728167390" />
+        <var name="ar" id="2031078330728167433" />
+        <var name="arrayType" id="2031078330728217983" />
+        <var name="pattern" id="2031078330728167360" />
+      </scope>
+      <scope id="2031078330728167355" at="57,52,75,9" />
+      <scope id="2031078330728167355" at="57,0,77,0" />
+      <unit id="2031078330728167354" at="80,0,83,0" name="de.itemis.mps.compare.pattern.test.basic.GetterTest_Test$CONCEPTS" />
+      <unit id="2031078330728167354" at="84,0,88,0" name="de.itemis.mps.compare.pattern.test.basic.GetterTest_Test$PROPS" />
+      <unit id="2031078330728167354" at="89,0,93,0" name="de.itemis.mps.compare.pattern.test.basic.GetterTest_Test$LINKS" />
+      <unit id="2031078330728167354" at="51,0,79,0" name="de.itemis.mps.compare.pattern.test.basic.GetterTest_Test$TestBody" />
+      <unit id="2031078330728167354" at="37,0,94,0" name="de.itemis.mps.compare.pattern.test.basic.GetterTest_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:ed3e0c43-ec95-4718-8427-6204fc60e5a9(de.itemis.mps.compare.pattern.test.basic@tests)/4636147609796717009">
+    <file name="BinaryExpressionTest_Test.java">
+      <node id="4636147609796717009" at="34,38,35,60" concept="9" />
+      <node id="4636147609796717010" at="39,49,40,40" concept="2" />
+      <node id="4636147609796717009" at="45,52,46,19" concept="9" />
+      <node id="4636147609796717010" at="49,51,50,65" concept="2" />
+      <node id="4636147609796725419" at="51,30,52,344" concept="4" />
+      <node id="4636147609796727186" at="52,344,53,187" concept="4" />
+      <node id="4636147609796734587" at="53,187,54,57" concept="4" />
+      <node id="4636147609796843077" at="54,57,55,32" concept="0" />
+      <node id="4636147609796843334" at="55,32,56,74" concept="0" />
+      <node id="4636147609796717009" at="63,0,64,0" concept="7" trace="ForStatement$qV" />
+      <node id="4636147609796717009" at="64,0,65,0" concept="7" trace="BinaryOperation$W1" />
+      <node id="4636147609796717009" at="68,0,69,0" concept="7" trace="condition$wARE" />
+      <node id="4636147609796717009" at="31,0,33,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="4636147609796717009" at="34,0,37,0" concept="1" trace="BinaryExpressionTest_Test#()V" />
+      <node id="4636147609796717009" at="45,0,48,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4636147609796717010" at="38,0,42,0" concept="3" trace="test_basicTest#()V" />
+      <node id="4636147609796717010" at="50,65,57,9" concept="2" />
+      <node id="4636147609796717010" at="49,0,59,0" concept="3" trace="test_basicTest#()V" />
+      <scope id="4636147609796717009" at="34,38,35,60" />
+      <scope id="4636147609796717010" at="39,49,40,40" />
+      <scope id="4636147609796717009" at="45,52,46,19" />
+      <scope id="4636147609796717009" at="34,0,37,0" />
+      <scope id="4636147609796717009" at="45,0,48,0">
+        <var name="owner" id="4636147609796717009" />
+      </scope>
+      <scope id="4636147609796717010" at="38,0,42,0" />
+      <scope id="4636147609796717010" at="51,30,56,74">
+        <var name="forPattern" id="4636147609796725425" />
+        <var name="result" id="4636147609796734588" />
+        <var name="statement" id="4636147609796727189" />
+      </scope>
+      <scope id="4636147609796717010" at="49,51,57,9" />
+      <scope id="4636147609796717010" at="49,0,59,0" />
+      <unit id="4636147609796717009" at="67,0,70,0" name="de.itemis.mps.compare.pattern.test.basic.BinaryExpressionTest_Test$LINKS" />
+      <unit id="4636147609796717009" at="62,0,66,0" name="de.itemis.mps.compare.pattern.test.basic.BinaryExpressionTest_Test$CONCEPTS" />
+      <unit id="4636147609796717009" at="43,0,61,0" name="de.itemis.mps.compare.pattern.test.basic.BinaryExpressionTest_Test$TestBody" />
+      <unit id="4636147609796717009" at="29,0,71,0" name="de.itemis.mps.compare.pattern.test.basic.BinaryExpressionTest_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:ed3e0c43-ec95-4718-8427-6204fc60e5a9(de.itemis.mps.compare.pattern.test.basic@tests)/5017685253022257762">
+    <file name="IfTest_Test.java">
+      <node id="5017685253022257762" at="34,24,35,60" concept="9" />
+      <node id="5017685253022257763" at="39,46,40,37" concept="2" />
+      <node id="5017685253022257762" at="45,52,46,19" concept="9" />
+      <node id="5017685253022257982" at="50,30,51,43" concept="2" />
+      <node id="5017685253022266688" at="51,43,52,43" concept="2" />
+      <node id="5017685253022257766" at="54,30,55,0" concept="6" />
+      <node id="6279983981656300787" at="55,0,56,135" concept="4" />
+      <node id="6279983981656300620" at="56,135,57,0" concept="6" />
+      <node id="5017685253022257767" at="57,0,58,494" concept="4" />
+      <node id="5017685253022267799" at="58,494,59,0" concept="6" />
+      <node id="5017685253022275504" at="59,0,60,496" concept="4" />
+      <node id="5017685253022275316" at="60,496,61,0" concept="6" />
+      <node id="5017685253022275409" at="61,0,62,0" concept="6" />
+      <node id="6279983981656304500" at="62,0,63,73" concept="0" />
+      <node id="6279983981656304319" at="63,73,64,0" concept="6" />
+      <node id="5017685253022267859" at="64,0,65,72" concept="0" />
+      <node id="6279983981656282414" at="65,72,66,157" concept="0" />
+      <node id="5017685253022274862" at="66,157,67,0" concept="6" />
+      <node id="5017685253022274990" at="67,0,68,72" concept="0" />
+      <node id="6279983981656285194" at="68,72,69,157" concept="0" />
+      <node id="5017685253022257762" at="76,0,77,0" concept="7" trace="IConditional$CG" />
+      <node id="5017685253022257762" at="77,0,78,0" concept="7" trace="IfStatement$Q4" />
+      <node id="5017685253022257762" at="81,0,82,0" concept="7" trace="elsifClauses$EVJW" />
+      <node id="5017685253022257762" at="82,0,83,0" concept="7" trace="ifFalseStatement$psZK" />
+      <node id="5017685253022257762" at="83,0,84,0" concept="7" trace="ifTrue$5Rg8" />
+      <node id="5017685253022257762" at="31,0,33,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="5017685253022257762" at="34,0,37,0" concept="1" trace="IfTest_Test#()V" />
+      <node id="5017685253022257762" at="45,0,48,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5017685253022257763" at="38,0,42,0" concept="3" trace="test_ifTest#()V" />
+      <node id="5017685253022257763" at="49,48,53,9" concept="2" />
+      <node id="5017685253022257763" at="53,9,70,9" concept="2" />
+      <node id="5017685253022257763" at="49,0,72,0" concept="3" trace="test_ifTest#()V" />
+      <scope id="5017685253022257762" at="34,24,35,60" />
+      <scope id="5017685253022257763" at="39,46,40,37" />
+      <scope id="5017685253022257762" at="45,52,46,19" />
+      <scope id="5017685253022257763" at="50,30,52,43" />
+      <scope id="5017685253022257762" at="34,0,37,0" />
+      <scope id="5017685253022257762" at="45,0,48,0">
+        <var name="owner" id="5017685253022257762" />
+      </scope>
+      <scope id="5017685253022257763" at="38,0,42,0" />
+      <scope id="5017685253022257763" at="54,30,69,157">
+        <var name="cp" id="6279983981656300793" />
+        <var name="if1p" id="5017685253022257768" />
+        <var name="if2p" id="5017685253022275505" />
+      </scope>
+      <scope id="5017685253022257763" at="49,48,70,9" />
+      <scope id="5017685253022257763" at="49,0,72,0" />
+      <unit id="5017685253022257762" at="75,0,79,0" name="de.itemis.mps.compare.pattern.test.basic.IfTest_Test$CONCEPTS" />
+      <unit id="5017685253022257762" at="80,0,85,0" name="de.itemis.mps.compare.pattern.test.basic.IfTest_Test$LINKS" />
+      <unit id="5017685253022257762" at="43,0,74,0" name="de.itemis.mps.compare.pattern.test.basic.IfTest_Test$TestBody" />
+      <unit id="5017685253022257762" at="29,0,86,0" name="de.itemis.mps.compare.pattern.test.basic.IfTest_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:ed3e0c43-ec95-4718-8427-6204fc60e5a9(de.itemis.mps.compare.pattern.test.basic@tests)/579990121611520146">
+    <file name="NegationTest_Test.java">
+      <node id="579990121611520146" at="35,30,36,60" concept="9" />
+      <node id="579990121611520147" at="40,53,41,44" concept="2" />
+      <node id="1302254670847772380" at="44,53,45,44" concept="2" />
+      <node id="579990121611520146" at="50,52,51,19" concept="9" />
+      <node id="579990121611520219" at="55,30,56,42" concept="2" />
+      <node id="1302254670847767269" at="56,42,57,43" concept="2" />
+      <node id="579990121611520150" at="59,30,60,263" concept="4" />
+      <node id="579990121611520161" at="60,263,61,245" concept="4" />
+      <node id="579990121611520173" at="61,245,62,0" concept="6" />
+      <node id="579990121611520174" at="62,0,63,56" concept="4" />
+      <node id="579990121611520196" at="63,56,64,0" concept="6" />
+      <node id="579990121611520197" at="64,0,65,55" concept="4" />
+      <node id="579990121611520205" at="65,55,66,0" concept="6" />
+      <node id="579990121611520206" at="66,0,67,32" concept="0" />
+      <node id="579990121611520210" at="67,32,68,113" concept="0" />
+      <node id="579990121611520219" at="72,30,73,42" concept="2" />
+      <node id="1302254670847767269" at="73,42,74,43" concept="2" />
+      <node id="1302254670847772383" at="76,30,77,326" concept="4" />
+      <node id="1302254670847772400" at="77,326,78,0" concept="6" />
+      <node id="1302254670847772433" at="78,0,79,82" concept="0" />
+      <node id="1302254670847772437" at="79,82,80,79" concept="0" />
+      <node id="579990121611520146" at="87,0,88,0" concept="7" trace="StaticFieldDeclaration$jR" />
+      <node id="579990121611520146" at="88,0,89,0" concept="7" trace="ClassConcept$bK" />
+      <node id="579990121611520146" at="89,0,90,0" concept="7" trace="CastExpression$$8" />
+      <node id="579990121611520146" at="90,0,91,0" concept="7" trace="ExpressionStatement$O8" />
+      <node id="579990121611520146" at="94,0,95,0" concept="7" trace="name$MnvL" />
+      <node id="579990121611520146" at="98,0,99,0" concept="7" trace="member$L_2d" />
+      <node id="579990121611520146" at="32,0,34,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="579990121611520146" at="35,0,38,0" concept="1" trace="NegationTest_Test#()V" />
+      <node id="579990121611520146" at="50,0,53,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="579990121611520147" at="39,0,43,0" concept="3" trace="test_negationTest1#()V" />
+      <node id="1302254670847772380" at="43,0,47,0" concept="3" trace="test_negationTest2#()V" />
+      <node id="579990121611520147" at="54,55,58,9" concept="2" />
+      <node id="1302254670847772380" at="71,55,75,9" concept="2" />
+      <node id="1302254670847772380" at="75,9,81,9" concept="2" />
+      <node id="579990121611520147" at="58,9,69,9" concept="2" />
+      <node id="1302254670847772380" at="71,0,83,0" concept="3" trace="test_negationTest2#()V" />
+      <node id="579990121611520147" at="54,0,71,0" concept="3" trace="test_negationTest1#()V" />
+      <scope id="579990121611520146" at="35,30,36,60" />
+      <scope id="579990121611520147" at="40,53,41,44" />
+      <scope id="1302254670847772380" at="44,53,45,44" />
+      <scope id="579990121611520146" at="50,52,51,19" />
+      <scope id="579990121611520147" at="55,30,57,43" />
+      <scope id="1302254670847772380" at="72,30,74,43" />
+      <scope id="579990121611520146" at="35,0,38,0" />
+      <scope id="579990121611520146" at="50,0,53,0">
+        <var name="owner" id="579990121611520146" />
+      </scope>
+      <scope id="579990121611520147" at="39,0,43,0" />
+      <scope id="1302254670847772380" at="43,0,47,0" />
+      <scope id="1302254670847772380" at="76,30,80,79">
+        <var name="castPattern" id="1302254670847772384" />
+      </scope>
+      <scope id="579990121611520147" at="59,30,68,113">
+        <var name="classPattern" id="579990121611520162" />
+        <var name="clazz" id="579990121611520175" />
+        <var name="fieldPattern" id="579990121611520151" />
+        <var name="result" id="579990121611520198" />
+      </scope>
+      <scope id="1302254670847772380" at="71,55,81,9" />
+      <scope id="1302254670847772380" at="71,0,83,0" />
+      <scope id="579990121611520147" at="54,55,69,9" />
+      <scope id="579990121611520147" at="54,0,71,0" />
+      <unit id="579990121611520146" at="93,0,96,0" name="de.itemis.mps.compare.pattern.test.basic.NegationTest_Test$PROPS" />
+      <unit id="579990121611520146" at="97,0,100,0" name="de.itemis.mps.compare.pattern.test.basic.NegationTest_Test$LINKS" />
+      <unit id="579990121611520146" at="86,0,92,0" name="de.itemis.mps.compare.pattern.test.basic.NegationTest_Test$CONCEPTS" />
+      <unit id="579990121611520146" at="48,0,85,0" name="de.itemis.mps.compare.pattern.test.basic.NegationTest_Test$TestBody" />
+      <unit id="579990121611520146" at="30,0,101,0" name="de.itemis.mps.compare.pattern.test.basic.NegationTest_Test" />
+    </file>
+  </root>
+</debug-info>
+

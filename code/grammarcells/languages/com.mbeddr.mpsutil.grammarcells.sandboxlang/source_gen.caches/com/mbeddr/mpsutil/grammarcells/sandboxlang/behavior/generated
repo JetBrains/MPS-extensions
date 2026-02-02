@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-9r0o28hfibcvd6yzq8fbxwqmhx7pgmo">
+  <files names="BehaviorAspectDescriptor.java:BinaryExpression__BehaviorDescriptor.java:DivExpression__BehaviorDescriptor.java:FloatLiteral__BehaviorDescriptor.java:FractionExpression__BehaviorDescriptor.java:IntLiteral__BehaviorDescriptor.java:MinusExpression__BehaviorDescriptor.java:MulExpression__BehaviorDescriptor.java:ParenthesesExpression__BehaviorDescriptor.java:PlusExpression__BehaviorDescriptor.java" />
+</product>
+

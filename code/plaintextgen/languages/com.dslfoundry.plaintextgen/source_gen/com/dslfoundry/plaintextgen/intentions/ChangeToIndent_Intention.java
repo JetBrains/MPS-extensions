@@ -56,6 +56,7 @@ public final class ChangeToIndent_Intention extends AbstractIntentionDescriptor 
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
       final SNode converted = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L, "com.dslfoundry.plaintextgen.structure.SpaceIndentedText"));
+      ListSequence.fromList(SLinkOperations.getChildren(converted, LINKS.smodelAttribute$KJ43)).addSequence(ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.smodelAttribute$KJ43)));
       ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.lines$u7C)).visitAll((it) -> ListSequence.fromList(SLinkOperations.getChildren(converted, LINKS.lines$u7C)).addElement(it));
       SNodeOperations.replaceWithAnother(node, converted);
     }
@@ -81,6 +82,7 @@ public final class ChangeToIndent_Intention extends AbstractIntentionDescriptor 
   }
 
   private static final class LINKS {
+    /*package*/ static final SContainmentLink smodelAttribute$KJ43 = MetaAdapterFactory.getContainmentLink(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL, 0x47bf8397520e5942L, "smodelAttribute");
     /*package*/ static final SContainmentLink lines$u7C = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, 0x64208511ac2f6798L, "lines");
   }
 

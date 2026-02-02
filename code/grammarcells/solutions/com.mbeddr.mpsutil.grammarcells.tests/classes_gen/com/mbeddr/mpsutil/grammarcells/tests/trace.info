@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1160998861373:jetbrains.mps.baseLanguage.structure.AssertStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/1381973545436909403">
+    <file name="SideTransform_minus_Test.java">
+      <node id="1381973545436909403" at="19,37,20,60" concept="10" />
+      <node id="1381973545436909403" at="24,59,25,36" concept="2" />
+      <node id="1381973545436909403" at="30,52,31,19" concept="10" />
+      <node id="1381973545436909403" at="35,51,36,72" concept="2" />
+      <node id="1381973545436909419" at="36,72,37,23" concept="2" />
+      <node id="1381973545436909403" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="1381973545436909403" at="19,0,22,0" concept="1" trace="SideTransform_minus_Test#()V" />
+      <node id="1381973545436909403" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1381973545436909403" at="23,0,27,0" concept="4" trace="test_SideTransform_minus#()V" />
+      <node id="1381973545436909403" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="1381973545436909403" at="19,37,20,60" />
+      <scope id="1381973545436909403" at="24,59,25,36" />
+      <scope id="1381973545436909403" at="30,52,31,19" />
+      <scope id="1381973545436909403" at="35,51,37,23" />
+      <scope id="1381973545436909403" at="19,0,22,0" />
+      <scope id="1381973545436909403" at="30,0,33,0">
+        <var name="owner" id="1381973545436909403" />
+      </scope>
+      <scope id="1381973545436909403" at="23,0,27,0" />
+      <scope id="1381973545436909403" at="34,0,39,0" />
+      <unit id="1381973545436909403" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.SideTransform_minus_Test$TestBody" />
+      <unit id="1381973545436909403" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SideTransform_minus_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/1381973545437719919">
+    <file name="SplitIntLiteral_space_Test.java">
+      <node id="1381973545437719919" at="19,39,20,60" concept="10" />
+      <node id="1381973545437719919" at="24,61,25,36" concept="2" />
+      <node id="1381973545437719919" at="30,52,31,19" concept="10" />
+      <node id="1381973545437719919" at="35,51,36,72" concept="2" />
+      <node id="1381973545437719935" at="36,72,37,22" concept="2" />
+      <node id="1381973545437719919" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="1381973545437719919" at="19,0,22,0" concept="1" trace="SplitIntLiteral_space_Test#()V" />
+      <node id="1381973545437719919" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1381973545437719919" at="23,0,27,0" concept="4" trace="test_SplitIntLiteral_space#()V" />
+      <node id="1381973545437719919" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="1381973545437719919" at="19,39,20,60" />
+      <scope id="1381973545437719919" at="24,61,25,36" />
+      <scope id="1381973545437719919" at="30,52,31,19" />
+      <scope id="1381973545437719919" at="35,51,37,22" />
+      <scope id="1381973545437719919" at="19,0,22,0" />
+      <scope id="1381973545437719919" at="30,0,33,0">
+        <var name="owner" id="1381973545437719919" />
+      </scope>
+      <scope id="1381973545437719919" at="23,0,27,0" />
+      <scope id="1381973545437719919" at="34,0,39,0" />
+      <unit id="1381973545437719919" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_space_Test$TestBody" />
+      <unit id="1381973545437719919" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_space_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/1622138007862770635">
+    <file name="SplitStringLiteral_Test.java">
+      <node id="1622138007862770635" at="19,36,20,60" concept="10" />
+      <node id="1622138007862770635" at="24,58,25,36" concept="2" />
+      <node id="1622138007862770635" at="30,52,31,19" concept="10" />
+      <node id="1622138007862770635" at="35,51,36,72" concept="2" />
+      <node id="1622138007862770921" at="36,72,37,26" concept="2" />
+      <node id="1622138007862886940" at="37,26,38,69" concept="2" />
+      <node id="1622138007862770635" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="1622138007862770635" at="19,0,22,0" concept="1" trace="SplitStringLiteral_Test#()V" />
+      <node id="1622138007862770635" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1622138007862770635" at="23,0,27,0" concept="4" trace="test_SplitStringLiteral#()V" />
+      <node id="1622138007862770635" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="1622138007862770635" at="19,36,20,60" />
+      <scope id="1622138007862770635" at="24,58,25,36" />
+      <scope id="1622138007862770635" at="30,52,31,19" />
+      <scope id="1622138007862770635" at="19,0,22,0" />
+      <scope id="1622138007862770635" at="30,0,33,0">
+        <var name="owner" id="1622138007862770635" />
+      </scope>
+      <scope id="1622138007862770635" at="35,51,38,69" />
+      <scope id="1622138007862770635" at="23,0,27,0" />
+      <scope id="1622138007862770635" at="34,0,40,0" />
+      <unit id="1622138007862770635" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitStringLiteral_Test$TestBody" />
+      <unit id="1622138007862770635" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitStringLiteral_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/1622138007862876340">
+    <file name="SplitIntLiteral_Test.java">
+      <node id="1622138007862876340" at="19,33,20,60" concept="10" />
+      <node id="1622138007862876340" at="24,55,25,36" concept="2" />
+      <node id="1622138007862876340" at="30,52,31,19" concept="10" />
+      <node id="1622138007862876340" at="35,51,36,72" concept="2" />
+      <node id="1622138007862876352" at="36,72,37,22" concept="2" />
+      <node id="1622138007862877723" at="37,22,38,64" concept="2" />
+      <node id="1622138007862876340" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="1622138007862876340" at="19,0,22,0" concept="1" trace="SplitIntLiteral_Test#()V" />
+      <node id="1622138007862876340" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1622138007862876340" at="23,0,27,0" concept="4" trace="test_SplitIntLiteral#()V" />
+      <node id="1622138007862876340" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="1622138007862876340" at="19,33,20,60" />
+      <scope id="1622138007862876340" at="24,55,25,36" />
+      <scope id="1622138007862876340" at="30,52,31,19" />
+      <scope id="1622138007862876340" at="19,0,22,0" />
+      <scope id="1622138007862876340" at="30,0,33,0">
+        <var name="owner" id="1622138007862876340" />
+      </scope>
+      <scope id="1622138007862876340" at="35,51,38,64" />
+      <scope id="1622138007862876340" at="23,0,27,0" />
+      <scope id="1622138007862876340" at="34,0,40,0" />
+      <unit id="1622138007862876340" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_Test$TestBody" />
+      <unit id="1622138007862876340" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/1622138007863145478">
+    <file name="SplitIntLiteral_reshuffle_Test.java">
+      <node id="1622138007863145478" at="19,43,20,60" concept="10" />
+      <node id="1622138007863145478" at="24,65,25,36" concept="2" />
+      <node id="1622138007863145478" at="30,52,31,19" concept="10" />
+      <node id="1622138007863145478" at="35,51,36,72" concept="2" />
+      <node id="1622138007863145490" at="36,72,37,22" concept="2" />
+      <node id="1622138007863145478" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="1622138007863145478" at="19,0,22,0" concept="1" trace="SplitIntLiteral_reshuffle_Test#()V" />
+      <node id="1622138007863145478" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1622138007863145478" at="23,0,27,0" concept="4" trace="test_SplitIntLiteral_reshuffle#()V" />
+      <node id="1622138007863145478" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="1622138007863145478" at="19,43,20,60" />
+      <scope id="1622138007863145478" at="24,65,25,36" />
+      <scope id="1622138007863145478" at="30,52,31,19" />
+      <scope id="1622138007863145478" at="35,51,37,22" />
+      <scope id="1622138007863145478" at="19,0,22,0" />
+      <scope id="1622138007863145478" at="30,0,33,0">
+        <var name="owner" id="1622138007863145478" />
+      </scope>
+      <scope id="1622138007863145478" at="23,0,27,0" />
+      <scope id="1622138007863145478" at="34,0,39,0" />
+      <unit id="1622138007863145478" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_reshuffle_Test$TestBody" />
+      <unit id="1622138007863145478" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_reshuffle_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/1622138007866648898">
+    <file name="SplitIntLiteral_minus_Test.java">
+      <node id="1622138007866648898" at="19,39,20,60" concept="10" />
+      <node id="1622138007866648898" at="24,61,25,36" concept="2" />
+      <node id="1622138007866648898" at="30,52,31,19" concept="10" />
+      <node id="1622138007866648898" at="35,51,36,72" concept="2" />
+      <node id="1622138007866648910" at="36,72,37,22" concept="2" />
+      <node id="1622138007866648911" at="37,22,38,64" concept="2" />
+      <node id="1622138007866648898" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="1622138007866648898" at="19,0,22,0" concept="1" trace="SplitIntLiteral_minus_Test#()V" />
+      <node id="1622138007866648898" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1622138007866648898" at="23,0,27,0" concept="4" trace="test_SplitIntLiteral_minus#()V" />
+      <node id="1622138007866648898" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="1622138007866648898" at="19,39,20,60" />
+      <scope id="1622138007866648898" at="24,61,25,36" />
+      <scope id="1622138007866648898" at="30,52,31,19" />
+      <scope id="1622138007866648898" at="19,0,22,0" />
+      <scope id="1622138007866648898" at="30,0,33,0">
+        <var name="owner" id="1622138007866648898" />
+      </scope>
+      <scope id="1622138007866648898" at="35,51,38,64" />
+      <scope id="1622138007866648898" at="23,0,27,0" />
+      <scope id="1622138007866648898" at="34,0,40,0" />
+      <unit id="1622138007866648898" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_minus_Test$TestBody" />
+      <unit id="1622138007866648898" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_minus_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/1622138007866648954">
+    <file name="SplitIntLiteral_underscore_Test.java">
+      <node id="1622138007866648954" at="19,44,20,60" concept="10" />
+      <node id="1622138007866648954" at="24,66,25,36" concept="2" />
+      <node id="1622138007866648954" at="30,52,31,19" concept="10" />
+      <node id="1622138007866648954" at="35,51,36,72" concept="2" />
+      <node id="1622138007866648966" at="36,72,37,22" concept="2" />
+      <node id="1622138007866648967" at="37,22,38,71" concept="2" />
+      <node id="1622138007866648954" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="1622138007866648954" at="19,0,22,0" concept="1" trace="SplitIntLiteral_underscore_Test#()V" />
+      <node id="1622138007866648954" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1622138007866648954" at="23,0,27,0" concept="4" trace="test_SplitIntLiteral_underscore#()V" />
+      <node id="1622138007866648954" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="1622138007866648954" at="19,44,20,60" />
+      <scope id="1622138007866648954" at="24,66,25,36" />
+      <scope id="1622138007866648954" at="30,52,31,19" />
+      <scope id="1622138007866648954" at="19,0,22,0" />
+      <scope id="1622138007866648954" at="30,0,33,0">
+        <var name="owner" id="1622138007866648954" />
+      </scope>
+      <scope id="1622138007866648954" at="35,51,38,71" />
+      <scope id="1622138007866648954" at="23,0,27,0" />
+      <scope id="1622138007866648954" at="34,0,40,0" />
+      <unit id="1622138007866648954" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_underscore_Test$TestBody" />
+      <unit id="1622138007866648954" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.SplitIntLiteral_underscore_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/1811135247171630026">
+    <file name="GrammarWrapFilterConstraintsAncestorNode_Test.java">
+      <node id="1811135247171630026" at="25,58,26,60" concept="10" />
+      <node id="1811135247171630026" at="30,80,31,36" concept="2" />
+      <node id="1811135247171630026" at="36,52,37,19" concept="10" />
+      <node id="1811135247171630026" at="41,51,42,53" concept="2" />
+      <node id="1811135247171643233" at="42,53,43,85" concept="5" />
+      <node id="1811135247171643241" at="43,85,44,72" concept="5" />
+      <node id="1811135247171643250" at="44,72,45,112" concept="0" />
+      <node id="1811135247171643257" at="45,112,46,174" concept="0" />
+      <node id="1811135247171643277" at="46,174,47,169" concept="0" />
+      <node id="1811135247171643296" at="47,169,48,192" concept="0" />
+      <node id="1811135247171630026" at="53,0,54,0" concept="8" trace="AType$7u" />
+      <node id="1811135247171630026" at="54,0,55,0" concept="8" trace="BType$GR" />
+      <node id="1811135247171630026" at="55,0,56,0" concept="8" trace="WrapStmtParent$sT" />
+      <node id="1811135247171630026" at="22,0,24,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="1811135247171630026" at="25,0,28,0" concept="1" trace="GrammarWrapFilterConstraintsAncestorNode_Test#()V" />
+      <node id="1811135247171630026" at="36,0,39,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1811135247171630026" at="29,0,33,0" concept="4" trace="test_GrammarWrapFilterConstraintsAncestorNode#()V" />
+      <node id="1811135247171630026" at="40,0,50,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="1811135247171630026" at="25,58,26,60" />
+      <scope id="1811135247171630026" at="30,80,31,36" />
+      <scope id="1811135247171630026" at="36,52,37,19" />
+      <scope id="1811135247171630026" at="25,0,28,0" />
+      <scope id="1811135247171630026" at="36,0,39,0">
+        <var name="owner" id="1811135247171630026" />
+      </scope>
+      <scope id="1811135247171630026" at="29,0,33,0" />
+      <scope id="1811135247171630026" at="41,51,48,192">
+        <var name="actions" id="1811135247171643242" />
+        <var name="si" id="1811135247171643234" />
+      </scope>
+      <scope id="1811135247171630026" at="40,0,50,0" />
+      <unit id="1811135247171630026" at="52,0,57,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsAncestorNode_Test$CONCEPTS" />
+      <unit id="1811135247171630026" at="34,0,51,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsAncestorNode_Test$TestBody" />
+      <unit id="1811135247171630026" at="20,0,58,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsAncestorNode_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/2312097807578823415">
+    <file name="PreIncrement_Test.java">
+      <node id="2312097807578823415" at="19,30,20,60" concept="10" />
+      <node id="2312097807578823415" at="24,52,25,36" concept="2" />
+      <node id="2312097807578823415" at="30,52,31,19" concept="10" />
+      <node id="2312097807578823415" at="35,51,36,72" concept="2" />
+      <node id="2312097807578823441" at="36,72,37,24" concept="2" />
+      <node id="2312097807578823563" at="37,24,38,0" concept="7" />
+      <node id="2312097807578823650" at="38,0,39,106" concept="6" />
+      <node id="2312097807578823755" at="39,106,40,103" concept="6" />
+      <node id="2312097807578823876" at="40,103,41,95" concept="6" />
+      <node id="2312097807578823415" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="2312097807578823415" at="19,0,22,0" concept="1" trace="PreIncrement_Test#()V" />
+      <node id="2312097807578823415" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2312097807578823415" at="23,0,27,0" concept="4" trace="test_PreIncrement#()V" />
+      <node id="2312097807578823415" at="34,0,43,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2312097807578823415" at="19,30,20,60" />
+      <scope id="2312097807578823415" at="24,52,25,36" />
+      <scope id="2312097807578823415" at="30,52,31,19" />
+      <scope id="2312097807578823415" at="19,0,22,0" />
+      <scope id="2312097807578823415" at="30,0,33,0">
+        <var name="owner" id="2312097807578823415" />
+      </scope>
+      <scope id="2312097807578823415" at="23,0,27,0" />
+      <scope id="2312097807578823415" at="35,51,41,95" />
+      <scope id="2312097807578823415" at="34,0,43,0" />
+      <unit id="2312097807578823415" at="28,0,44,0" name="com.mbeddr.mpsutil.grammarcells.tests.PreIncrement_Test$TestBody" />
+      <unit id="2312097807578823415" at="14,0,45,0" name="com.mbeddr.mpsutil.grammarcells.tests.PreIncrement_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/2312097807578823506">
+    <file name="PostIncrement_Test.java">
+      <node id="2312097807578823506" at="19,31,20,60" concept="10" />
+      <node id="2312097807578823506" at="24,53,25,36" concept="2" />
+      <node id="2312097807578823506" at="30,52,31,19" concept="10" />
+      <node id="2312097807578823506" at="35,51,36,72" concept="2" />
+      <node id="2312097807578823528" at="36,72,37,24" concept="2" />
+      <node id="2312097807578823506" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="2312097807578823506" at="19,0,22,0" concept="1" trace="PostIncrement_Test#()V" />
+      <node id="2312097807578823506" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2312097807578823506" at="23,0,27,0" concept="4" trace="test_PostIncrement#()V" />
+      <node id="2312097807578823506" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2312097807578823506" at="19,31,20,60" />
+      <scope id="2312097807578823506" at="24,53,25,36" />
+      <scope id="2312097807578823506" at="30,52,31,19" />
+      <scope id="2312097807578823506" at="35,51,37,24" />
+      <scope id="2312097807578823506" at="19,0,22,0" />
+      <scope id="2312097807578823506" at="30,0,33,0">
+        <var name="owner" id="2312097807578823506" />
+      </scope>
+      <scope id="2312097807578823506" at="23,0,27,0" />
+      <scope id="2312097807578823506" at="34,0,39,0" />
+      <unit id="2312097807578823506" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.PostIncrement_Test$TestBody" />
+      <unit id="2312097807578823506" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.PostIncrement_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/2392588809326377997">
+    <file name="SetOptionalNextToChild_Test.java">
+      <node id="2392588809326377997" at="19,40,20,60" concept="10" />
+      <node id="2392588809326377997" at="24,62,25,36" concept="2" />
+      <node id="2392588809326377997" at="30,52,31,19" concept="10" />
+      <node id="2392588809326377997" at="35,51,36,72" concept="2" />
+      <node id="2392588809326378015" at="36,72,37,24" concept="2" />
+      <node id="2392588809326377997" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="2392588809326377997" at="19,0,22,0" concept="1" trace="SetOptionalNextToChild_Test#()V" />
+      <node id="2392588809326377997" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2392588809326377997" at="23,0,27,0" concept="4" trace="test_SetOptionalNextToChild#()V" />
+      <node id="2392588809326377997" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2392588809326377997" at="19,40,20,60" />
+      <scope id="2392588809326377997" at="24,62,25,36" />
+      <scope id="2392588809326377997" at="30,52,31,19" />
+      <scope id="2392588809326377997" at="35,51,37,24" />
+      <scope id="2392588809326377997" at="19,0,22,0" />
+      <scope id="2392588809326377997" at="30,0,33,0">
+        <var name="owner" id="2392588809326377997" />
+      </scope>
+      <scope id="2392588809326377997" at="23,0,27,0" />
+      <scope id="2392588809326377997" at="34,0,39,0" />
+      <unit id="2392588809326377997" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.SetOptionalNextToChild_Test$TestBody" />
+      <unit id="2392588809326377997" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SetOptionalNextToChild_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/3651222753554827786">
+    <file name="LayoutOfChildInOptional_Test.java">
+      <node id="3651222753554827786" at="24,41,25,60" concept="10" />
+      <node id="3651222753554827786" at="29,63,30,36" concept="2" />
+      <node id="3651222753554827786" at="35,52,36,19" concept="10" />
+      <node id="3651222753554827786" at="40,51,41,53" concept="2" />
+      <node id="3651222753556215239" at="41,53,42,76" concept="5" />
+      <node id="3651222753556216016" at="42,76,43,93" concept="2" />
+      <node id="3651222753556215855" at="43,93,44,0" concept="7" />
+      <node id="3651222753556105548" at="44,0,45,88" concept="5" />
+      <node id="3651222753556220237" at="45,88,46,94" concept="2" />
+      <node id="3651222753556621978" at="46,94,47,78" concept="2" />
+      <node id="3651222753556218722" at="47,78,48,0" concept="7" />
+      <node id="3651222753556106505" at="48,0,49,78" concept="5" />
+      <node id="3651222753556189464" at="49,78,50,114" concept="2" />
+      <node id="3651222753557290357" at="50,114,51,0" concept="7" />
+      <node id="3651222753557290785" at="51,0,52,301" concept="6" />
+      <node id="3651222753557291931" at="52,301,53,92" concept="6" />
+      <node id="3651222753556121265" at="53,92,54,79" concept="2" />
+      <node id="3651222753556101582" at="54,79,55,0" concept="7" />
+      <node id="3651222753554827786" at="60,0,61,0" concept="8" trace="IntLiteral$Nw" />
+      <node id="3651222753554827786" at="61,0,62,0" concept="8" trace="PlusExpression$Xo" />
+      <node id="3651222753554827786" at="62,0,63,0" concept="8" trace="TEST_LayoutOfChildInOptional$ou" />
+      <node id="3651222753554827786" at="21,0,23,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="3651222753554827786" at="24,0,27,0" concept="1" trace="LayoutOfChildInOptional_Test#()V" />
+      <node id="3651222753554827786" at="35,0,38,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3651222753554827786" at="28,0,32,0" concept="4" trace="test_LayoutOfChildInOptional#()V" />
+      <node id="3651222753554827786" at="39,0,57,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="3651222753554827786" at="24,41,25,60" />
+      <scope id="3651222753554827786" at="29,63,30,36" />
+      <scope id="3651222753554827786" at="35,52,36,19" />
+      <scope id="3651222753554827786" at="24,0,27,0" />
+      <scope id="3651222753554827786" at="35,0,38,0">
+        <var name="owner" id="3651222753554827786" />
+      </scope>
+      <scope id="3651222753554827786" at="28,0,32,0" />
+      <scope id="3651222753554827786" at="40,51,55,0">
+        <var name="leftNumberLiteral" id="3651222753556215240" />
+        <var name="plusExpression" id="3651222753556105549" />
+        <var name="plusExpressionParent" id="3651222753556106506" />
+      </scope>
+      <scope id="3651222753554827786" at="39,0,57,0" />
+      <unit id="3651222753554827786" at="59,0,64,0" name="com.mbeddr.mpsutil.grammarcells.tests.LayoutOfChildInOptional_Test$CONCEPTS" />
+      <unit id="3651222753554827786" at="33,0,58,0" name="com.mbeddr.mpsutil.grammarcells.tests.LayoutOfChildInOptional_Test$TestBody" />
+      <unit id="3651222753554827786" at="19,0,65,0" name="com.mbeddr.mpsutil.grammarcells.tests.LayoutOfChildInOptional_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/3715388205391762525">
+    <file name="OptionalNextToRenderingConditionA_Test.java">
+      <node id="3715388205391762525" at="19,51,20,60" concept="10" />
+      <node id="3715388205391762525" at="24,73,25,36" concept="2" />
+      <node id="3715388205391762525" at="30,52,31,19" concept="10" />
+      <node id="3715388205391762525" at="35,51,36,72" concept="2" />
+      <node id="3715388205393437998" at="36,72,37,24" concept="2" />
+      <node id="3715388205391762525" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="3715388205391762525" at="19,0,22,0" concept="1" trace="OptionalNextToRenderingConditionA_Test#()V" />
+      <node id="3715388205391762525" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3715388205391762525" at="23,0,27,0" concept="4" trace="test_OptionalNextToRenderingConditionA#()V" />
+      <node id="3715388205391762525" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="3715388205391762525" at="19,51,20,60" />
+      <scope id="3715388205391762525" at="24,73,25,36" />
+      <scope id="3715388205391762525" at="30,52,31,19" />
+      <scope id="3715388205391762525" at="35,51,37,24" />
+      <scope id="3715388205391762525" at="19,0,22,0" />
+      <scope id="3715388205391762525" at="30,0,33,0">
+        <var name="owner" id="3715388205391762525" />
+      </scope>
+      <scope id="3715388205391762525" at="23,0,27,0" />
+      <scope id="3715388205391762525" at="34,0,39,0" />
+      <unit id="3715388205391762525" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalNextToRenderingConditionA_Test$TestBody" />
+      <unit id="3715388205391762525" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalNextToRenderingConditionA_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/3715388205393438016">
+    <file name="OptionalNextToRenderingConditionB_Test.java">
+      <node id="3715388205393438016" at="19,51,20,60" concept="10" />
+      <node id="3715388205393438016" at="24,73,25,36" concept="2" />
+      <node id="3715388205393438016" at="30,52,31,19" concept="10" />
+      <node id="3715388205393438016" at="35,51,36,72" concept="2" />
+      <node id="3715388205393438034" at="36,72,37,24" concept="2" />
+      <node id="3715388205393438016" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="3715388205393438016" at="19,0,22,0" concept="1" trace="OptionalNextToRenderingConditionB_Test#()V" />
+      <node id="3715388205393438016" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3715388205393438016" at="23,0,27,0" concept="4" trace="test_OptionalNextToRenderingConditionB#()V" />
+      <node id="3715388205393438016" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="3715388205393438016" at="19,51,20,60" />
+      <scope id="3715388205393438016" at="24,73,25,36" />
+      <scope id="3715388205393438016" at="30,52,31,19" />
+      <scope id="3715388205393438016" at="35,51,37,24" />
+      <scope id="3715388205393438016" at="19,0,22,0" />
+      <scope id="3715388205393438016" at="30,0,33,0">
+        <var name="owner" id="3715388205393438016" />
+      </scope>
+      <scope id="3715388205393438016" at="23,0,27,0" />
+      <scope id="3715388205393438016" at="34,0,39,0" />
+      <unit id="3715388205393438016" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalNextToRenderingConditionB_Test$TestBody" />
+      <unit id="3715388205393438016" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalNextToRenderingConditionB_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/3798184745247170988">
+    <file name="EnumWrapper_Test.java">
+      <node id="3798184745247170988" at="19,29,20,60" concept="10" />
+      <node id="3798184745247170988" at="24,51,25,36" concept="2" />
+      <node id="3798184745247170988" at="30,52,31,19" concept="10" />
+      <node id="3798184745247170988" at="35,51,36,72" concept="2" />
+      <node id="3798184745247171499" at="36,72,37,25" concept="2" />
+      <node id="3798184745247171023" at="37,25,38,0" concept="7" />
+      <node id="3798184745247170988" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="3798184745247170988" at="19,0,22,0" concept="1" trace="EnumWrapper_Test#()V" />
+      <node id="3798184745247170988" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3798184745247170988" at="23,0,27,0" concept="4" trace="test_EnumWrapper#()V" />
+      <node id="3798184745247170988" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="3798184745247170988" at="19,29,20,60" />
+      <scope id="3798184745247170988" at="24,51,25,36" />
+      <scope id="3798184745247170988" at="30,52,31,19" />
+      <scope id="3798184745247170988" at="19,0,22,0" />
+      <scope id="3798184745247170988" at="30,0,33,0">
+        <var name="owner" id="3798184745247170988" />
+      </scope>
+      <scope id="3798184745247170988" at="35,51,38,0" />
+      <scope id="3798184745247170988" at="23,0,27,0" />
+      <scope id="3798184745247170988" at="34,0,40,0" />
+      <unit id="3798184745247170988" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.EnumWrapper_Test$TestBody" />
+      <unit id="3798184745247170988" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.EnumWrapper_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/4330386229151264745">
+    <file name="OptionalType_Test.java">
+      <node id="4330386229151264745" at="19,30,20,60" concept="10" />
+      <node id="4330386229151264745" at="24,52,25,36" concept="2" />
+      <node id="4330386229151264745" at="30,52,31,19" concept="10" />
+      <node id="4330386229151264745" at="35,51,36,72" concept="2" />
+      <node id="4330386229151265171" at="36,72,37,27" concept="2" />
+      <node id="4330386229151264745" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="4330386229151264745" at="19,0,22,0" concept="1" trace="OptionalType_Test#()V" />
+      <node id="4330386229151264745" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4330386229151264745" at="23,0,27,0" concept="4" trace="test_OptionalType#()V" />
+      <node id="4330386229151264745" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="4330386229151264745" at="19,30,20,60" />
+      <scope id="4330386229151264745" at="24,52,25,36" />
+      <scope id="4330386229151264745" at="30,52,31,19" />
+      <scope id="4330386229151264745" at="35,51,37,27" />
+      <scope id="4330386229151264745" at="19,0,22,0" />
+      <scope id="4330386229151264745" at="30,0,33,0">
+        <var name="owner" id="4330386229151264745" />
+      </scope>
+      <scope id="4330386229151264745" at="23,0,27,0" />
+      <scope id="4330386229151264745" at="34,0,39,0" />
+      <unit id="4330386229151264745" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalType_Test$TestBody" />
+      <unit id="4330386229151264745" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalType_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/4330386229156354136">
+    <file name="Units_Test.java">
+      <node id="4330386229156354136" at="19,23,20,60" concept="10" />
+      <node id="4330386229156354136" at="24,45,25,36" concept="2" />
+      <node id="4330386229156354136" at="30,52,31,19" concept="10" />
+      <node id="4330386229156354136" at="35,51,36,72" concept="2" />
+      <node id="4330386229156354162" at="36,72,37,23" concept="2" />
+      <node id="4330386229156354136" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="4330386229156354136" at="19,0,22,0" concept="1" trace="Units_Test#()V" />
+      <node id="4330386229156354136" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4330386229156354136" at="23,0,27,0" concept="4" trace="test_Units#()V" />
+      <node id="4330386229156354136" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="4330386229156354136" at="19,23,20,60" />
+      <scope id="4330386229156354136" at="24,45,25,36" />
+      <scope id="4330386229156354136" at="30,52,31,19" />
+      <scope id="4330386229156354136" at="35,51,37,23" />
+      <scope id="4330386229156354136" at="19,0,22,0" />
+      <scope id="4330386229156354136" at="30,0,33,0">
+        <var name="owner" id="4330386229156354136" />
+      </scope>
+      <scope id="4330386229156354136" at="23,0,27,0" />
+      <scope id="4330386229156354136" at="34,0,39,0" />
+      <unit id="4330386229156354136" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.Units_Test$TestBody" />
+      <unit id="4330386229156354136" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.Units_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/4351467201262333485">
+    <file name="GrammarWrapFilterConstraintsParentNode_Test.java">
+      <node id="4351467201262333485" at="25,56,26,60" concept="10" />
+      <node id="4351467201262333485" at="30,78,31,36" concept="2" />
+      <node id="4351467201262333485" at="36,52,37,19" concept="10" />
+      <node id="4351467201262333485" at="41,51,42,53" concept="2" />
+      <node id="4351467201268947182" at="42,53,43,85" concept="5" />
+      <node id="4351467201269931166" at="43,85,44,72" concept="5" />
+      <node id="4351467201268999321" at="44,72,45,112" concept="0" />
+      <node id="4351467201269848696" at="45,112,46,174" concept="0" />
+      <node id="4351467201270036321" at="46,174,47,169" concept="0" />
+      <node id="4351467201270081591" at="47,169,48,192" concept="0" />
+      <node id="4351467201262333485" at="53,0,54,0" concept="8" trace="AType$7u" />
+      <node id="4351467201262333485" at="54,0,55,0" concept="8" trace="BType$GR" />
+      <node id="4351467201262333485" at="55,0,56,0" concept="8" trace="WrapStmtParent$sT" />
+      <node id="4351467201262333485" at="22,0,24,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="4351467201262333485" at="25,0,28,0" concept="1" trace="GrammarWrapFilterConstraintsParentNode_Test#()V" />
+      <node id="4351467201262333485" at="36,0,39,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4351467201262333485" at="29,0,33,0" concept="4" trace="test_GrammarWrapFilterConstraintsParentNode#()V" />
+      <node id="4351467201262333485" at="40,0,50,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="4351467201262333485" at="25,56,26,60" />
+      <scope id="4351467201262333485" at="30,78,31,36" />
+      <scope id="4351467201262333485" at="36,52,37,19" />
+      <scope id="4351467201262333485" at="25,0,28,0" />
+      <scope id="4351467201262333485" at="36,0,39,0">
+        <var name="owner" id="4351467201262333485" />
+      </scope>
+      <scope id="4351467201262333485" at="29,0,33,0" />
+      <scope id="4351467201262333485" at="41,51,48,192">
+        <var name="actions" id="4351467201269931169" />
+        <var name="si" id="4351467201268947185" />
+      </scope>
+      <scope id="4351467201262333485" at="40,0,50,0" />
+      <unit id="4351467201262333485" at="52,0,57,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsParentNode_Test$CONCEPTS" />
+      <unit id="4351467201262333485" at="34,0,51,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsParentNode_Test$TestBody" />
+      <unit id="4351467201262333485" at="20,0,58,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsParentNode_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/5020734785399444104">
+    <file name="Fraction_substituteLeft_Test.java">
+      <node id="5020734785399444104" at="19,41,20,60" concept="10" />
+      <node id="5020734785399444104" at="24,63,25,36" concept="2" />
+      <node id="5020734785399444104" at="30,52,31,19" concept="10" />
+      <node id="5020734785399444104" at="35,51,36,72" concept="2" />
+      <node id="5020734785400231988" at="36,72,37,23" concept="2" />
+      <node id="5020734785399444104" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="5020734785399444104" at="19,0,22,0" concept="1" trace="Fraction_substituteLeft_Test#()V" />
+      <node id="5020734785399444104" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5020734785399444104" at="23,0,27,0" concept="4" trace="test_Fraction_substituteLeft#()V" />
+      <node id="5020734785399444104" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="5020734785399444104" at="19,41,20,60" />
+      <scope id="5020734785399444104" at="24,63,25,36" />
+      <scope id="5020734785399444104" at="30,52,31,19" />
+      <scope id="5020734785399444104" at="35,51,37,23" />
+      <scope id="5020734785399444104" at="19,0,22,0" />
+      <scope id="5020734785399444104" at="30,0,33,0">
+        <var name="owner" id="5020734785399444104" />
+      </scope>
+      <scope id="5020734785399444104" at="23,0,27,0" />
+      <scope id="5020734785399444104" at="34,0,39,0" />
+      <unit id="5020734785399444104" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.Fraction_substituteLeft_Test$TestBody" />
+      <unit id="5020734785399444104" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.Fraction_substituteLeft_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/5465812603479937988">
+    <file name="FlagNextToChild_Test.java">
+      <node id="5465812603479937988" at="19,33,20,60" concept="10" />
+      <node id="5465812603479937988" at="24,55,25,36" concept="2" />
+      <node id="5465812603479937988" at="30,52,31,19" concept="10" />
+      <node id="5465812603479937988" at="35,51,36,72" concept="2" />
+      <node id="5465812603479938006" at="36,72,37,22" concept="2" />
+      <node id="5465812603480340898" at="37,22,38,26" concept="2" />
+      <node id="5465812603479937988" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="5465812603479937988" at="19,0,22,0" concept="1" trace="FlagNextToChild_Test#()V" />
+      <node id="5465812603479937988" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5465812603479937988" at="23,0,27,0" concept="4" trace="test_FlagNextToChild#()V" />
+      <node id="5465812603479937988" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="5465812603479937988" at="19,33,20,60" />
+      <scope id="5465812603479937988" at="24,55,25,36" />
+      <scope id="5465812603479937988" at="30,52,31,19" />
+      <scope id="5465812603479937988" at="19,0,22,0" />
+      <scope id="5465812603479937988" at="30,0,33,0">
+        <var name="owner" id="5465812603479937988" />
+      </scope>
+      <scope id="5465812603479937988" at="35,51,38,26" />
+      <scope id="5465812603479937988" at="23,0,27,0" />
+      <scope id="5465812603479937988" at="34,0,40,0" />
+      <unit id="5465812603479937988" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.FlagNextToChild_Test$TestBody" />
+      <unit id="5465812603479937988" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.FlagNextToChild_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/5609461777162616724">
+    <file name="LeftFlagNextToArrayType_Test.java">
+      <node id="5609461777162616724" at="19,41,20,60" concept="10" />
+      <node id="5609461777162616724" at="24,63,25,36" concept="2" />
+      <node id="5609461777162616724" at="30,52,31,19" concept="10" />
+      <node id="5609461777162616724" at="35,51,36,72" concept="2" />
+      <node id="5609461777162616726" at="36,72,37,22" concept="2" />
+      <node id="5609461777162616727" at="37,22,38,27" concept="2" />
+      <node id="5609461777162616724" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="5609461777162616724" at="19,0,22,0" concept="1" trace="LeftFlagNextToArrayType_Test#()V" />
+      <node id="5609461777162616724" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5609461777162616724" at="23,0,27,0" concept="4" trace="test_LeftFlagNextToArrayType#()V" />
+      <node id="5609461777162616724" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="5609461777162616724" at="19,41,20,60" />
+      <scope id="5609461777162616724" at="24,63,25,36" />
+      <scope id="5609461777162616724" at="30,52,31,19" />
+      <scope id="5609461777162616724" at="19,0,22,0" />
+      <scope id="5609461777162616724" at="30,0,33,0">
+        <var name="owner" id="5609461777162616724" />
+      </scope>
+      <scope id="5609461777162616724" at="35,51,38,27" />
+      <scope id="5609461777162616724" at="23,0,27,0" />
+      <scope id="5609461777162616724" at="34,0,40,0" />
+      <unit id="5609461777162616724" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.LeftFlagNextToArrayType_Test$TestBody" />
+      <unit id="5609461777162616724" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.LeftFlagNextToArrayType_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/5659737630749207060">
+    <file name="LVD_DeleteInitializer_Test.java">
+      <node id="5659737630749207060" at="19,39,20,60" concept="10" />
+      <node id="5659737630749207060" at="24,61,25,36" concept="2" />
+      <node id="5659737630749207060" at="30,52,31,19" concept="10" />
+      <node id="5659737630749207060" at="35,51,36,72" concept="2" />
+      <node id="5659737630749207091" at="36,72,37,72" concept="2" />
+      <node id="5659737630749207296" at="37,72,38,64" concept="2" />
+      <node id="5659737630749207060" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="5659737630749207060" at="19,0,22,0" concept="1" trace="LVD_DeleteInitializer_Test#()V" />
+      <node id="5659737630749207060" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5659737630749207060" at="23,0,27,0" concept="4" trace="test_LVD_DeleteInitializer#()V" />
+      <node id="5659737630749207060" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="5659737630749207060" at="19,39,20,60" />
+      <scope id="5659737630749207060" at="24,61,25,36" />
+      <scope id="5659737630749207060" at="30,52,31,19" />
+      <scope id="5659737630749207060" at="19,0,22,0" />
+      <scope id="5659737630749207060" at="30,0,33,0">
+        <var name="owner" id="5659737630749207060" />
+      </scope>
+      <scope id="5659737630749207060" at="35,51,38,64" />
+      <scope id="5659737630749207060" at="23,0,27,0" />
+      <scope id="5659737630749207060" at="34,0,40,0" />
+      <unit id="5659737630749207060" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_DeleteInitializer_Test$TestBody" />
+      <unit id="5659737630749207060" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_DeleteInitializer_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/595352202391899731">
+    <file name="GrammarWrapFilterConstraintsParentWhitelisting_Test.java">
+      <node id="595352202391899731" at="25,64,26,60" concept="10" />
+      <node id="595352202391899731" at="30,86,31,36" concept="2" />
+      <node id="595352202391899731" at="36,52,37,19" concept="10" />
+      <node id="595352202391899731" at="41,51,42,52" concept="2" />
+      <node id="7431304463731194992" at="42,52,43,85" concept="5" />
+      <node id="7431304463731195000" at="43,85,44,72" concept="5" />
+      <node id="7431304463731195009" at="44,72,45,112" concept="0" />
+      <node id="7431304463731195016" at="45,112,46,174" concept="0" />
+      <node id="7431304463731195036" at="46,174,47,169" concept="0" />
+      <node id="7431304463731195055" at="47,169,48,204" concept="0" />
+      <node id="595352202391899731" at="53,0,54,0" concept="8" trace="AType$7u" />
+      <node id="595352202391899731" at="54,0,55,0" concept="8" trace="BType$GR" />
+      <node id="595352202391899731" at="55,0,56,0" concept="8" trace="WrapStmtParentWhitelisting$8r" />
+      <node id="595352202391899731" at="22,0,24,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="595352202391899731" at="25,0,28,0" concept="1" trace="GrammarWrapFilterConstraintsParentWhitelisting_Test#()V" />
+      <node id="595352202391899731" at="36,0,39,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="595352202391899731" at="29,0,33,0" concept="4" trace="test_GrammarWrapFilterConstraintsParentWhitelisting#()V" />
+      <node id="595352202391899731" at="40,0,50,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="595352202391899731" at="25,64,26,60" />
+      <scope id="595352202391899731" at="30,86,31,36" />
+      <scope id="595352202391899731" at="36,52,37,19" />
+      <scope id="595352202391899731" at="25,0,28,0" />
+      <scope id="595352202391899731" at="36,0,39,0">
+        <var name="owner" id="595352202391899731" />
+      </scope>
+      <scope id="595352202391899731" at="29,0,33,0" />
+      <scope id="595352202391899731" at="41,51,48,204">
+        <var name="actions" id="7431304463731195001" />
+        <var name="si" id="7431304463731194993" />
+      </scope>
+      <scope id="595352202391899731" at="40,0,50,0" />
+      <unit id="595352202391899731" at="52,0,57,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsParentWhitelisting_Test$CONCEPTS" />
+      <unit id="595352202391899731" at="34,0,51,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsParentWhitelisting_Test$TestBody" />
+      <unit id="595352202391899731" at="20,0,58,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsParentWhitelisting_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/6050624680393077970">
+    <file name="LVD_WrapWith_BlockExpression_before_2_Test.java">
+      <node id="6050624680393077970" at="19,55,20,60" concept="10" />
+      <node id="6050624680393077970" at="24,77,25,36" concept="2" />
+      <node id="6050624680393077970" at="30,52,31,19" concept="10" />
+      <node id="6050624680393077970" at="35,51,36,72" concept="2" />
+      <node id="6050624680393077972" at="36,72,37,22" concept="2" />
+      <node id="6050624680393077973" at="37,22,38,0" concept="7" />
+      <node id="6050624680393077970" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="6050624680393077970" at="19,0,22,0" concept="1" trace="LVD_WrapWith_BlockExpression_before_2_Test#()V" />
+      <node id="6050624680393077970" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6050624680393077970" at="23,0,27,0" concept="4" trace="test_LVD_WrapWith_BlockExpression_before_2#()V" />
+      <node id="6050624680393077970" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="6050624680393077970" at="19,55,20,60" />
+      <scope id="6050624680393077970" at="24,77,25,36" />
+      <scope id="6050624680393077970" at="30,52,31,19" />
+      <scope id="6050624680393077970" at="19,0,22,0" />
+      <scope id="6050624680393077970" at="30,0,33,0">
+        <var name="owner" id="6050624680393077970" />
+      </scope>
+      <scope id="6050624680393077970" at="35,51,38,0" />
+      <scope id="6050624680393077970" at="23,0,27,0" />
+      <scope id="6050624680393077970" at="34,0,40,0" />
+      <unit id="6050624680393077970" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_WrapWith_BlockExpression_before_2_Test$TestBody" />
+      <unit id="6050624680393077970" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_WrapWith_BlockExpression_before_2_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/6050624680393079536">
+    <file name="LVD_WrapWith_BlockExpression_before_ArrayType_Test.java">
+      <node id="6050624680393079536" at="19,63,20,60" concept="10" />
+      <node id="6050624680393079536" at="24,85,25,36" concept="2" />
+      <node id="6050624680393079536" at="30,52,31,19" concept="10" />
+      <node id="6050624680393079536" at="35,51,36,72" concept="2" />
+      <node id="6050624680393079538" at="36,72,37,22" concept="2" />
+      <node id="6050624680393079539" at="37,22,38,0" concept="7" />
+      <node id="6050624680393079536" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="6050624680393079536" at="19,0,22,0" concept="1" trace="LVD_WrapWith_BlockExpression_before_ArrayType_Test#()V" />
+      <node id="6050624680393079536" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6050624680393079536" at="23,0,27,0" concept="4" trace="test_LVD_WrapWith_BlockExpression_before_ArrayType#()V" />
+      <node id="6050624680393079536" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="6050624680393079536" at="19,63,20,60" />
+      <scope id="6050624680393079536" at="24,85,25,36" />
+      <scope id="6050624680393079536" at="30,52,31,19" />
+      <scope id="6050624680393079536" at="19,0,22,0" />
+      <scope id="6050624680393079536" at="30,0,33,0">
+        <var name="owner" id="6050624680393079536" />
+      </scope>
+      <scope id="6050624680393079536" at="35,51,38,0" />
+      <scope id="6050624680393079536" at="23,0,27,0" />
+      <scope id="6050624680393079536" at="34,0,40,0" />
+      <unit id="6050624680393079536" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_WrapWith_BlockExpression_before_ArrayType_Test$TestBody" />
+      <unit id="6050624680393079536" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_WrapWith_BlockExpression_before_ArrayType_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/6050624680393080619">
+    <file name="LVD_WrapWith_BlockExpression_after_Test.java">
+      <node id="6050624680393080619" at="19,52,20,60" concept="10" />
+      <node id="6050624680393080619" at="24,74,25,36" concept="2" />
+      <node id="6050624680393080619" at="30,52,31,19" concept="10" />
+      <node id="6050624680393080619" at="35,51,36,72" concept="2" />
+      <node id="6050624680393080621" at="36,72,37,22" concept="2" />
+      <node id="6050624680393080622" at="37,22,38,0" concept="7" />
+      <node id="6050624680393080619" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="6050624680393080619" at="19,0,22,0" concept="1" trace="LVD_WrapWith_BlockExpression_after_Test#()V" />
+      <node id="6050624680393080619" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6050624680393080619" at="23,0,27,0" concept="4" trace="test_LVD_WrapWith_BlockExpression_after#()V" />
+      <node id="6050624680393080619" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="6050624680393080619" at="19,52,20,60" />
+      <scope id="6050624680393080619" at="24,74,25,36" />
+      <scope id="6050624680393080619" at="30,52,31,19" />
+      <scope id="6050624680393080619" at="19,0,22,0" />
+      <scope id="6050624680393080619" at="30,0,33,0">
+        <var name="owner" id="6050624680393080619" />
+      </scope>
+      <scope id="6050624680393080619" at="35,51,38,0" />
+      <scope id="6050624680393080619" at="23,0,27,0" />
+      <scope id="6050624680393080619" at="34,0,40,0" />
+      <unit id="6050624680393080619" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_WrapWith_BlockExpression_after_Test$TestBody" />
+      <unit id="6050624680393080619" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_WrapWith_BlockExpression_after_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/6050624680393487437">
+    <file name="LVD_WrapWith_BlockExpression_after_2_Test.java">
+      <node id="6050624680393487437" at="19,54,20,60" concept="10" />
+      <node id="6050624680393487437" at="24,76,25,36" concept="2" />
+      <node id="6050624680393487437" at="30,52,31,19" concept="10" />
+      <node id="6050624680393487437" at="35,51,36,72" concept="2" />
+      <node id="6050624680393487439" at="36,72,37,22" concept="2" />
+      <node id="6050624680393487440" at="37,22,38,0" concept="7" />
+      <node id="6050624680393487437" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="6050624680393487437" at="19,0,22,0" concept="1" trace="LVD_WrapWith_BlockExpression_after_2_Test#()V" />
+      <node id="6050624680393487437" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6050624680393487437" at="23,0,27,0" concept="4" trace="test_LVD_WrapWith_BlockExpression_after_2#()V" />
+      <node id="6050624680393487437" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="6050624680393487437" at="19,54,20,60" />
+      <scope id="6050624680393487437" at="24,76,25,36" />
+      <scope id="6050624680393487437" at="30,52,31,19" />
+      <scope id="6050624680393487437" at="19,0,22,0" />
+      <scope id="6050624680393487437" at="30,0,33,0">
+        <var name="owner" id="6050624680393487437" />
+      </scope>
+      <scope id="6050624680393487437" at="35,51,38,0" />
+      <scope id="6050624680393487437" at="23,0,27,0" />
+      <scope id="6050624680393487437" at="34,0,40,0" />
+      <unit id="6050624680393487437" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_WrapWith_BlockExpression_after_2_Test$TestBody" />
+      <unit id="6050624680393487437" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.LVD_WrapWith_BlockExpression_after_2_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/6380604244804918166">
+    <file name="OptionalChildWithoutText_Single_Test.java">
+      <node id="6380604244804918166" at="19,49,20,60" concept="10" />
+      <node id="6380604244804918166" at="24,71,25,36" concept="2" />
+      <node id="6380604244804918166" at="30,52,31,19" concept="10" />
+      <node id="6380604244804918166" at="35,51,36,72" concept="2" />
+      <node id="6380604244804918168" at="36,72,37,24" concept="2" />
+      <node id="6380604244804918166" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="6380604244804918166" at="19,0,22,0" concept="1" trace="OptionalChildWithoutText_Single_Test#()V" />
+      <node id="6380604244804918166" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6380604244804918166" at="23,0,27,0" concept="4" trace="test_OptionalChildWithoutText_Single#()V" />
+      <node id="6380604244804918166" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="6380604244804918166" at="19,49,20,60" />
+      <scope id="6380604244804918166" at="24,71,25,36" />
+      <scope id="6380604244804918166" at="30,52,31,19" />
+      <scope id="6380604244804918166" at="35,51,37,24" />
+      <scope id="6380604244804918166" at="19,0,22,0" />
+      <scope id="6380604244804918166" at="30,0,33,0">
+        <var name="owner" id="6380604244804918166" />
+      </scope>
+      <scope id="6380604244804918166" at="23,0,27,0" />
+      <scope id="6380604244804918166" at="34,0,39,0" />
+      <unit id="6380604244804918166" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalChildWithoutText_Single_Test$TestBody" />
+      <unit id="6380604244804918166" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalChildWithoutText_Single_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/6380604244805874321">
+    <file name="OptionalChildWithoutText_Multiple_Test.java">
+      <node id="6380604244805874321" at="19,51,20,60" concept="10" />
+      <node id="6380604244805874321" at="24,73,25,36" concept="2" />
+      <node id="6380604244805874321" at="30,52,31,19" concept="10" />
+      <node id="6380604244805874321" at="35,51,36,72" concept="2" />
+      <node id="6380604244805874323" at="36,72,37,24" concept="2" />
+      <node id="6380604244805874321" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="6380604244805874321" at="19,0,22,0" concept="1" trace="OptionalChildWithoutText_Multiple_Test#()V" />
+      <node id="6380604244805874321" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6380604244805874321" at="23,0,27,0" concept="4" trace="test_OptionalChildWithoutText_Multiple#()V" />
+      <node id="6380604244805874321" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="6380604244805874321" at="19,51,20,60" />
+      <scope id="6380604244805874321" at="24,73,25,36" />
+      <scope id="6380604244805874321" at="30,52,31,19" />
+      <scope id="6380604244805874321" at="35,51,37,24" />
+      <scope id="6380604244805874321" at="19,0,22,0" />
+      <scope id="6380604244805874321" at="30,0,33,0">
+        <var name="owner" id="6380604244805874321" />
+      </scope>
+      <scope id="6380604244805874321" at="23,0,27,0" />
+      <scope id="6380604244805874321" at="34,0,39,0" />
+      <unit id="6380604244805874321" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalChildWithoutText_Multiple_Test$TestBody" />
+      <unit id="6380604244805874321" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalChildWithoutText_Multiple_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/6380604244809767421">
+    <file name="OptionalChildWithoutText_Reference_Test.java">
+      <node id="6380604244809767421" at="19,52,20,60" concept="10" />
+      <node id="6380604244809767421" at="24,74,25,36" concept="2" />
+      <node id="6380604244809767421" at="30,52,31,19" concept="10" />
+      <node id="6380604244809767421" at="35,51,36,72" concept="2" />
+      <node id="6380604244809767423" at="36,72,37,24" concept="2" />
+      <node id="6380604244809767421" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="6380604244809767421" at="19,0,22,0" concept="1" trace="OptionalChildWithoutText_Reference_Test#()V" />
+      <node id="6380604244809767421" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6380604244809767421" at="23,0,27,0" concept="4" trace="test_OptionalChildWithoutText_Reference#()V" />
+      <node id="6380604244809767421" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="6380604244809767421" at="19,52,20,60" />
+      <scope id="6380604244809767421" at="24,74,25,36" />
+      <scope id="6380604244809767421" at="30,52,31,19" />
+      <scope id="6380604244809767421" at="35,51,37,24" />
+      <scope id="6380604244809767421" at="19,0,22,0" />
+      <scope id="6380604244809767421" at="30,0,33,0">
+        <var name="owner" id="6380604244809767421" />
+      </scope>
+      <scope id="6380604244809767421" at="23,0,27,0" />
+      <scope id="6380604244809767421" at="34,0,39,0" />
+      <unit id="6380604244809767421" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalChildWithoutText_Reference_Test$TestBody" />
+      <unit id="6380604244809767421" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalChildWithoutText_Reference_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/6454954089262908211">
+    <file name="OptionalProperty_Test.java">
+      <node id="6454954089262908211" at="19,34,20,60" concept="10" />
+      <node id="6454954089262908211" at="24,56,25,36" concept="2" />
+      <node id="6454954089262908211" at="30,52,31,19" concept="10" />
+      <node id="6454954089262908211" at="35,51,36,72" concept="2" />
+      <node id="6454954089262908227" at="36,72,37,23" concept="2" />
+      <node id="6454954089262908211" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="6454954089262908211" at="19,0,22,0" concept="1" trace="OptionalProperty_Test#()V" />
+      <node id="6454954089262908211" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6454954089262908211" at="23,0,27,0" concept="4" trace="test_OptionalProperty#()V" />
+      <node id="6454954089262908211" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="6454954089262908211" at="19,34,20,60" />
+      <scope id="6454954089262908211" at="24,56,25,36" />
+      <scope id="6454954089262908211" at="30,52,31,19" />
+      <scope id="6454954089262908211" at="35,51,37,23" />
+      <scope id="6454954089262908211" at="19,0,22,0" />
+      <scope id="6454954089262908211" at="30,0,33,0">
+        <var name="owner" id="6454954089262908211" />
+      </scope>
+      <scope id="6454954089262908211" at="23,0,27,0" />
+      <scope id="6454954089262908211" at="34,0,39,0" />
+      <unit id="6454954089262908211" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalProperty_Test$TestBody" />
+      <unit id="6454954089262908211" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalProperty_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/7431304463732493799">
+    <file name="GrammarWrapFilterConstraintsAncestorWhitelisting_Test.java">
+      <node id="7431304463732493799" at="25,66,26,60" concept="10" />
+      <node id="7431304463732493799" at="30,88,31,36" concept="2" />
+      <node id="7431304463732493799" at="36,52,37,19" concept="10" />
+      <node id="7431304463732493799" at="41,51,42,53" concept="2" />
+      <node id="7431304463733389066" at="42,53,43,85" concept="5" />
+      <node id="7431304463733389074" at="43,85,44,72" concept="5" />
+      <node id="7431304463733389083" at="44,72,45,112" concept="0" />
+      <node id="7431304463733389090" at="45,112,46,174" concept="0" />
+      <node id="7431304463733389110" at="46,174,47,169" concept="0" />
+      <node id="7431304463733389129" at="47,169,48,204" concept="0" />
+      <node id="7431304463732493799" at="53,0,54,0" concept="8" trace="AType$7u" />
+      <node id="7431304463732493799" at="54,0,55,0" concept="8" trace="BType$GR" />
+      <node id="7431304463732493799" at="55,0,56,0" concept="8" trace="WrapStmtParentWhitelisting$8r" />
+      <node id="7431304463732493799" at="22,0,24,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="7431304463732493799" at="25,0,28,0" concept="1" trace="GrammarWrapFilterConstraintsAncestorWhitelisting_Test#()V" />
+      <node id="7431304463732493799" at="36,0,39,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7431304463732493799" at="29,0,33,0" concept="4" trace="test_GrammarWrapFilterConstraintsAncestorWhitelisting#()V" />
+      <node id="7431304463732493799" at="40,0,50,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7431304463732493799" at="25,66,26,60" />
+      <scope id="7431304463732493799" at="30,88,31,36" />
+      <scope id="7431304463732493799" at="36,52,37,19" />
+      <scope id="7431304463732493799" at="25,0,28,0" />
+      <scope id="7431304463732493799" at="36,0,39,0">
+        <var name="owner" id="7431304463732493799" />
+      </scope>
+      <scope id="7431304463732493799" at="29,0,33,0" />
+      <scope id="7431304463732493799" at="41,51,48,204">
+        <var name="actions" id="7431304463733389075" />
+        <var name="si" id="7431304463733389067" />
+      </scope>
+      <scope id="7431304463732493799" at="40,0,50,0" />
+      <unit id="7431304463732493799" at="52,0,57,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsAncestorWhitelisting_Test$CONCEPTS" />
+      <unit id="7431304463732493799" at="34,0,51,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsAncestorWhitelisting_Test$TestBody" />
+      <unit id="7431304463732493799" at="20,0,58,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsAncestorWhitelisting_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/7621529404689459766">
+    <file name="DeleteLeftParentOperator_Test.java">
+      <node id="7621529404689459766" at="19,42,20,60" concept="10" />
+      <node id="7621529404689459766" at="24,64,25,36" concept="2" />
+      <node id="7621529404689459766" at="30,52,31,19" concept="10" />
+      <node id="7621529404689459766" at="35,51,36,72" concept="2" />
+      <node id="7621529404689460762" at="36,72,37,72" concept="2" />
+      <node id="7621529404691332503" at="37,72,38,72" concept="2" />
+      <node id="1969563451124168978" at="38,72,39,72" concept="2" />
+      <node id="5414267792057140250" at="39,72,40,0" concept="7" />
+      <node id="5414267792057140361" at="40,0,41,81" concept="6" />
+      <node id="7621529404689459766" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="7621529404689459766" at="19,0,22,0" concept="1" trace="DeleteLeftParentOperator_Test#()V" />
+      <node id="7621529404689459766" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7621529404689459766" at="23,0,27,0" concept="4" trace="test_DeleteLeftParentOperator#()V" />
+      <node id="7621529404689459766" at="34,0,43,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7621529404689459766" at="19,42,20,60" />
+      <scope id="7621529404689459766" at="24,64,25,36" />
+      <scope id="7621529404689459766" at="30,52,31,19" />
+      <scope id="7621529404689459766" at="19,0,22,0" />
+      <scope id="7621529404689459766" at="30,0,33,0">
+        <var name="owner" id="7621529404689459766" />
+      </scope>
+      <scope id="7621529404689459766" at="23,0,27,0" />
+      <scope id="7621529404689459766" at="35,51,41,81" />
+      <scope id="7621529404689459766" at="34,0,43,0" />
+      <unit id="7621529404689459766" at="28,0,44,0" name="com.mbeddr.mpsutil.grammarcells.tests.DeleteLeftParentOperator_Test$TestBody" />
+      <unit id="7621529404689459766" at="14,0,45,0" name="com.mbeddr.mpsutil.grammarcells.tests.DeleteLeftParentOperator_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/7621529404689461204">
+    <file name="Parentheses_Test.java">
+      <node id="7621529404689461204" at="19,29,20,60" concept="10" />
+      <node id="7621529404689461204" at="24,51,25,36" concept="2" />
+      <node id="7621529404689461204" at="30,52,31,19" concept="10" />
+      <node id="7621529404689461204" at="35,51,36,72" concept="2" />
+      <node id="7621529404689739606" at="36,72,37,22" concept="2" />
+      <node id="7621529404689461204" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="7621529404689461204" at="19,0,22,0" concept="1" trace="Parentheses_Test#()V" />
+      <node id="7621529404689461204" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7621529404689461204" at="23,0,27,0" concept="4" trace="test_Parentheses#()V" />
+      <node id="7621529404689461204" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7621529404689461204" at="19,29,20,60" />
+      <scope id="7621529404689461204" at="24,51,25,36" />
+      <scope id="7621529404689461204" at="30,52,31,19" />
+      <scope id="7621529404689461204" at="35,51,37,22" />
+      <scope id="7621529404689461204" at="19,0,22,0" />
+      <scope id="7621529404689461204" at="30,0,33,0">
+        <var name="owner" id="7621529404689461204" />
+      </scope>
+      <scope id="7621529404689461204" at="23,0,27,0" />
+      <scope id="7621529404689461204" at="34,0,39,0" />
+      <unit id="7621529404689461204" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.Parentheses_Test$TestBody" />
+      <unit id="7621529404689461204" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.Parentheses_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/7621529404689740188">
+    <file name="SideTransformOperator_Test.java">
+      <node id="7621529404689740188" at="19,39,20,60" concept="10" />
+      <node id="7621529404689740188" at="24,61,25,36" concept="2" />
+      <node id="7621529404689740188" at="30,52,31,19" concept="10" />
+      <node id="7621529404689740188" at="35,51,36,72" concept="2" />
+      <node id="7621529404689740644" at="36,72,37,22" concept="2" />
+      <node id="7621529404689740188" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="7621529404689740188" at="19,0,22,0" concept="1" trace="SideTransformOperator_Test#()V" />
+      <node id="7621529404689740188" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7621529404689740188" at="23,0,27,0" concept="4" trace="test_SideTransformOperator#()V" />
+      <node id="7621529404689740188" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7621529404689740188" at="19,39,20,60" />
+      <scope id="7621529404689740188" at="24,61,25,36" />
+      <scope id="7621529404689740188" at="30,52,31,19" />
+      <scope id="7621529404689740188" at="35,51,37,22" />
+      <scope id="7621529404689740188" at="19,0,22,0" />
+      <scope id="7621529404689740188" at="30,0,33,0">
+        <var name="owner" id="7621529404689740188" />
+      </scope>
+      <scope id="7621529404689740188" at="23,0,27,0" />
+      <scope id="7621529404689740188" at="34,0,39,0" />
+      <unit id="7621529404689740188" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.SideTransformOperator_Test$TestBody" />
+      <unit id="7621529404689740188" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SideTransformOperator_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/7956405648082681826">
+    <file name="FlagAndTooltip_SideTransform_Test.java">
+      <node id="7956405648082681826" at="19,46,20,60" concept="10" />
+      <node id="7956405648082681826" at="24,68,25,36" concept="2" />
+      <node id="7956405648082681826" at="30,52,31,19" concept="10" />
+      <node id="7956405648082681826" at="35,51,36,72" concept="2" />
+      <node id="7956405648082681828" at="36,72,37,22" concept="2" />
+      <node id="7956405648082681829" at="37,22,38,35" concept="2" />
+      <node id="7956405648082681826" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="7956405648082681826" at="19,0,22,0" concept="1" trace="FlagAndTooltip_SideTransform_Test#()V" />
+      <node id="7956405648082681826" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7956405648082681826" at="23,0,27,0" concept="4" trace="test_FlagAndTooltip_SideTransform#()V" />
+      <node id="7956405648082681826" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7956405648082681826" at="19,46,20,60" />
+      <scope id="7956405648082681826" at="24,68,25,36" />
+      <scope id="7956405648082681826" at="30,52,31,19" />
+      <scope id="7956405648082681826" at="19,0,22,0" />
+      <scope id="7956405648082681826" at="30,0,33,0">
+        <var name="owner" id="7956405648082681826" />
+      </scope>
+      <scope id="7956405648082681826" at="35,51,38,35" />
+      <scope id="7956405648082681826" at="23,0,27,0" />
+      <scope id="7956405648082681826" at="34,0,40,0" />
+      <unit id="7956405648082681826" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.FlagAndTooltip_SideTransform_Test$TestBody" />
+      <unit id="7956405648082681826" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.FlagAndTooltip_SideTransform_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/7956405648083398360">
+    <file name="FlagAndTooltip_Substitute_Test.java">
+      <node id="7956405648083398360" at="19,43,20,60" concept="10" />
+      <node id="7956405648083398360" at="24,65,25,36" concept="2" />
+      <node id="7956405648083398360" at="30,52,31,19" concept="10" />
+      <node id="7956405648083398360" at="35,51,36,72" concept="2" />
+      <node id="7956405648083398363" at="36,72,37,35" concept="2" />
+      <node id="7956405648083398360" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="7956405648083398360" at="19,0,22,0" concept="1" trace="FlagAndTooltip_Substitute_Test#()V" />
+      <node id="7956405648083398360" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7956405648083398360" at="23,0,27,0" concept="4" trace="test_FlagAndTooltip_Substitute#()V" />
+      <node id="7956405648083398360" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="7956405648083398360" at="19,43,20,60" />
+      <scope id="7956405648083398360" at="24,65,25,36" />
+      <scope id="7956405648083398360" at="30,52,31,19" />
+      <scope id="7956405648083398360" at="35,51,37,35" />
+      <scope id="7956405648083398360" at="19,0,22,0" />
+      <scope id="7956405648083398360" at="30,0,33,0">
+        <var name="owner" id="7956405648083398360" />
+      </scope>
+      <scope id="7956405648083398360" at="23,0,27,0" />
+      <scope id="7956405648083398360" at="34,0,39,0" />
+      <unit id="7956405648083398360" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.FlagAndTooltip_Substitute_Test$TestBody" />
+      <unit id="7956405648083398360" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.FlagAndTooltip_Substitute_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/8128582796163473975">
+    <file name="CaretTestExtensions.java">
+      <node id="1758983567840249883" at="16,94,17,75" concept="2" />
+      <node id="1758983567840250219" at="19,114,20,85" concept="2" />
+      <node id="1969563451124154156" at="22,128,23,99" concept="2" />
+      <node id="1758983567840226959" at="23,99,24,113" concept="5" />
+      <node id="1758983567840226970" at="24,113,25,81" concept="5" />
+      <node id="1758983567840226979" at="25,81,26,39" concept="2" />
+      <node id="1758983567840226981" at="26,39,27,36" concept="2" />
+      <node id="1758983567840226983" at="27,36,28,59" concept="2" />
+      <node id="1758983567840226988" at="28,59,29,65" concept="2" />
+      <node id="1758983567840229637" at="29,65,30,0" concept="7" />
+      <node id="1758983567840232146" at="31,27,32,72" concept="5" />
+      <node id="1758983567840232792" at="32,72,33,37" concept="2" />
+      <node id="1758983567840233411" at="33,37,34,77" concept="2" />
+      <node id="1758983567840248639" at="36,27,37,72" concept="5" />
+      <node id="1758983567840248644" at="37,72,38,37" concept="2" />
+      <node id="1758983567840248646" at="38,37,39,77" concept="2" />
+      <node id="8128582796163479453" at="42,80,43,73" concept="2" />
+      <node id="8128582796163473975" at="14,0,16,0" concept="1" trace="CaretTestExtensions#()V" />
+      <node id="8128582796163474069" at="16,0,19,0" concept="9" trace="checkCaret#(Ljetbrains/mps/nodeEditor/EditorComponent;Ljava/lang/String;I)V" />
+      <node id="1758983567840250211" at="19,0,22,0" concept="9" trace="checkCaret#(Ljetbrains/mps/nodeEditor/EditorComponent;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8128582796163477655" at="42,0,45,0" concept="9" trace="checkCaret#(Ljetbrains/mps/nodeEditor/EditorComponent;Ljava/lang/String;)V" />
+      <node id="1758983567840230474" at="30,0,35,5" concept="3" />
+      <node id="1758983567840248637" at="35,5,40,5" concept="3" />
+      <node id="1758983567840226945" at="22,0,42,0" concept="9" trace="checkCaret#(Ljetbrains/mps/nodeEditor/EditorComponent;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V" />
+      <scope id="8128582796163473975" at="14,32,14,32" />
+      <scope id="8128582796163474072" at="16,94,17,75" />
+      <scope id="1758983567840250218" at="19,114,20,85" />
+      <scope id="8128582796163477658" at="42,80,43,73" />
+      <scope id="8128582796163473975" at="14,0,16,0" />
+      <scope id="8128582796163474069" at="16,0,19,0">
+        <var name="_this" id="8128582796163474069" />
+        <var name="labelText" id="8128582796163474919" />
+        <var name="position" id="8128582796163475202" />
+      </scope>
+      <scope id="1758983567840250211" at="19,0,22,0">
+        <var name="_this" id="1758983567840250211" />
+        <var name="labelText" id="1758983567840251116" />
+        <var name="nextText" id="1758983567840251118" />
+        <var name="prevText" id="1758983567840251114" />
+      </scope>
+      <scope id="1758983567840230476" at="31,27,34,77">
+        <var name="prevLeaf" id="1758983567840232147" />
+      </scope>
+      <scope id="1758983567840248638" at="36,27,39,77">
+        <var name="nextLeaf" id="1758983567840248640" />
+      </scope>
+      <scope id="8128582796163477655" at="42,0,45,0">
+        <var name="_this" id="8128582796163477655" />
+        <var name="labelText" id="8128582796163478790" />
+      </scope>
+      <scope id="1758983567840226952" at="22,128,40,5">
+        <var name="selectedCell" id="1758983567840226971" />
+        <var name="selection" id="1758983567840226960" />
+      </scope>
+      <scope id="1758983567840226945" at="22,0,42,0">
+        <var name="_this" id="1758983567840226945" />
+        <var name="labelText" id="1758983567840226946" />
+        <var name="nextText" id="1758983567840228236" />
+        <var name="position" id="1758983567840226948" />
+        <var name="prevText" id="1758983567840227765" />
+      </scope>
+      <unit id="8128582796163473975" at="13,0,46,0" name="com.mbeddr.mpsutil.grammarcells.tests.CaretTestExtensions" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/8622846647856401500">
+    <file name="optionInComponent_Test.java">
+      <node id="8622846647856401500" at="19,35,20,60" concept="10" />
+      <node id="8622846647856401500" at="24,57,25,36" concept="2" />
+      <node id="8622846647856401500" at="30,52,31,19" concept="10" />
+      <node id="8622846647856401500" at="35,51,36,72" concept="2" />
+      <node id="9158314007148572622" at="36,72,37,27" concept="2" />
+      <node id="8622846647856401500" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="8622846647856401500" at="19,0,22,0" concept="1" trace="optionInComponent_Test#()V" />
+      <node id="8622846647856401500" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8622846647856401500" at="23,0,27,0" concept="4" trace="test_optionInComponent#()V" />
+      <node id="8622846647856401500" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="8622846647856401500" at="19,35,20,60" />
+      <scope id="8622846647856401500" at="24,57,25,36" />
+      <scope id="8622846647856401500" at="30,52,31,19" />
+      <scope id="8622846647856401500" at="35,51,37,27" />
+      <scope id="8622846647856401500" at="19,0,22,0" />
+      <scope id="8622846647856401500" at="30,0,33,0">
+        <var name="owner" id="8622846647856401500" />
+      </scope>
+      <scope id="8622846647856401500" at="23,0,27,0" />
+      <scope id="8622846647856401500" at="34,0,39,0" />
+      <unit id="8622846647856401500" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.optionInComponent_Test$TestBody" />
+      <unit id="8622846647856401500" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.optionInComponent_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/9000496017966774197">
+    <file name="OptionalReadOnlyModelAccessorCell_Single_Test.java">
+      <node id="9000496017966774197" at="19,58,20,60" concept="10" />
+      <node id="9000496017966774197" at="24,80,25,36" concept="2" />
+      <node id="9000496017966774197" at="30,52,31,19" concept="10" />
+      <node id="9000496017966774197" at="35,51,36,72" concept="2" />
+      <node id="9000496017966774199" at="36,72,37,47" concept="2" />
+      <node id="9000496017967672401" at="37,47,38,22" concept="2" />
+      <node id="9000496017966774197" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="9000496017966774197" at="19,0,22,0" concept="1" trace="OptionalReadOnlyModelAccessorCell_Single_Test#()V" />
+      <node id="9000496017966774197" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="9000496017966774197" at="23,0,27,0" concept="4" trace="test_OptionalReadOnlyModelAccessorCell_Single#()V" />
+      <node id="9000496017966774197" at="34,0,40,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="9000496017966774197" at="19,58,20,60" />
+      <scope id="9000496017966774197" at="24,80,25,36" />
+      <scope id="9000496017966774197" at="30,52,31,19" />
+      <scope id="9000496017966774197" at="19,0,22,0" />
+      <scope id="9000496017966774197" at="30,0,33,0">
+        <var name="owner" id="9000496017966774197" />
+      </scope>
+      <scope id="9000496017966774197" at="35,51,38,22" />
+      <scope id="9000496017966774197" at="23,0,27,0" />
+      <scope id="9000496017966774197" at="34,0,40,0" />
+      <unit id="9000496017966774197" at="28,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalReadOnlyModelAccessorCell_Single_Test$TestBody" />
+      <unit id="9000496017966774197" at="14,0,42,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalReadOnlyModelAccessorCell_Single_Test" />
+    </file>
+  </root>
+</debug-info>
+

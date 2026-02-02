@@ -29,7 +29,7 @@ There's a test language in this repository that demonstrates this language.
 
 A [tutorial on plaintextgen](https://dslfoundry.com/plaintextgen-tutorial/) is available on the [DSLFoundry blog](https://dslfoundry.com/).
 
-A presentation that was held at the 27 February 2019 meeting of [MPS Power Users Group](https://mps-community.nl/power-users-group/) that can be found at the [DSLFoundry MPS-teaching repository](https://github.com/DSLFoundry/mps-teaching/blob/master/Plaintextgen.pdf).
+A presentation that was held at the 27 February 2019 meeting of [MPS Power Users Group](https://mps-community.nl/power-users-group/) that can be found at the [DSLFoundry MPS teaching repository](https://github.com/DSLFoundry/mps-teaching/blob/master/Plaintextgen.pdf).
 
 ## Main features
 * Group and layout your content using horizontal, vertical, and indented collections

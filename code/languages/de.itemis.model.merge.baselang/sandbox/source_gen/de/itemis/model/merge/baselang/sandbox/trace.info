@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:c5ef02fd-fc0b-460a-bea5-97c4d7c6c4cf(de.itemis.model.merge.baselang.sandbox)/123527069060995761">
+    <file name="ModelMergeExpression_Test.java">
+      <node id="123527069060995761" at="34,38,35,60" concept="6" />
+      <node id="123527069061011290" at="39,64,40,55" concept="1" />
+      <node id="123527069060995761" at="45,52,46,19" concept="6" />
+      <node id="123527069061014056" at="50,30,51,59" concept="3" />
+      <node id="123527069061014068" at="51,59,52,209" concept="3" />
+      <node id="123527069061014077" at="52,209,53,210" concept="3" />
+      <node id="123527069061014086" at="53,210,54,0" concept="4" />
+      <node id="123527069061014087" at="54,0,55,200" concept="3" />
+      <node id="123527069061014095" at="55,200,56,74" concept="3" />
+      <node id="123527069061014044" at="56,74,57,0" concept="4" />
+      <node id="123527069061011328" at="57,0,58,36" concept="1" />
+      <node id="123527069061025353" at="58,36,59,0" concept="4" />
+      <node id="123527069061030232" at="59,0,60,85" concept="3" />
+      <node id="123527069061031030" at="60,85,61,0" concept="4" />
+      <node id="123527069061031495" at="61,0,62,69" concept="1" />
+      <node id="123527069061057180" at="62,69,63,0" concept="4" />
+      <node id="123527069061079731" at="63,0,64,58" concept="3" />
+      <node id="123527069061080867" at="64,58,65,0" concept="4" />
+      <node id="123527069061082960" at="65,0,66,97" concept="1" />
+      <node id="123527069060995761" at="73,0,74,0" concept="5" trace="PropertyDummy$lL" />
+      <node id="123527069060995761" at="77,0,78,0" concept="5" trace="data$hkMD" />
+      <node id="123527069060995761" at="31,0,33,0" concept="5" trace="ourParametersCacheExtension" />
+      <node id="123527069060995761" at="34,0,37,0" concept="0" trace="ModelMergeExpression_Test#()V" />
+      <node id="123527069060995761" at="45,0,48,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="123527069061011290" at="38,0,42,0" concept="2" trace="test_testModelMergeExpression#()V" />
+      <node id="123527069061011290" at="49,66,67,9" concept="1" />
+      <node id="123527069061011290" at="49,0,69,0" concept="2" trace="test_testModelMergeExpression#()V" />
+      <scope id="123527069060995761" at="34,38,35,60" />
+      <scope id="123527069061011290" at="39,64,40,55" />
+      <scope id="123527069060995761" at="45,52,46,19" />
+      <scope id="123527069060995761" at="34,0,37,0" />
+      <scope id="123527069060995761" at="45,0,48,0">
+        <var name="owner" id="123527069060995761" />
+      </scope>
+      <scope id="123527069061011290" at="38,0,42,0" />
+      <scope id="123527069061011290" at="50,30,66,97">
+        <var name="model" id="123527069061014096" />
+        <var name="modelL" id="123527069061014069" />
+        <var name="modelMerge" id="123527069061014088" />
+        <var name="modelR" id="123527069061014078" />
+        <var name="node" id="123527069061079732" />
+        <var name="nodes" id="123527069061030233" />
+        <var name="repository" id="123527069061014057" />
+      </scope>
+      <scope id="123527069061011290" at="49,66,67,9" />
+      <scope id="123527069061011290" at="49,0,69,0" />
+      <unit id="123527069060995761" at="72,0,75,0" name="de.itemis.model.merge.baselang.sandbox.ModelMergeExpression_Test$CONCEPTS" />
+      <unit id="123527069060995761" at="76,0,79,0" name="de.itemis.model.merge.baselang.sandbox.ModelMergeExpression_Test$PROPS" />
+      <unit id="123527069060995761" at="43,0,71,0" name="de.itemis.model.merge.baselang.sandbox.ModelMergeExpression_Test$TestBody" />
+      <unit id="123527069060995761" at="29,0,80,0" name="de.itemis.model.merge.baselang.sandbox.ModelMergeExpression_Test" />
+    </file>
+  </root>
+</debug-info>
+

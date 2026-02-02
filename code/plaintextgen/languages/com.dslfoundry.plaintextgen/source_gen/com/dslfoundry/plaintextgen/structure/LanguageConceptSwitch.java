@@ -16,10 +16,10 @@ public final class LanguageConceptSwitch {
   public static final int Line = 4;
   public static final int NewlineMarker = 5;
   public static final int SpaceIndentedText = 6;
-  public static final int TextgenText = 7;
-  public static final int VerticalLines = 8;
-  public static final int tab = 9;
-  public static final int word = 10;
+  public static final int Tab = 7;
+  public static final int TextgenText = 8;
+  public static final int VerticalLines = 9;
+  public static final int Word = 10;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x990507d335274c54L, 0xbfe90ca3c9c6247aL);
@@ -30,10 +30,10 @@ public final class LanguageConceptSwitch {
     builder.put(0xfe48d5fcafd47efL, Line);
     builder.put(0x4687342eeccd2a3cL, NewlineMarker);
     builder.put(0xfe48d5fcafd47e9L, SpaceIndentedText);
+    builder.put(0x2785a009e0883ec8L, Tab);
     builder.put(0xfe48d5fcafd47e4L, TextgenText);
     builder.put(0xfe48d5fcaff41e5L, VerticalLines);
-    builder.put(0x2785a009e0883ec8L, tab);
-    builder.put(0xfe48d5fcafd47f4L, word);
+    builder.put(0xfe48d5fcafd47f4L, Word);
     myIndex = builder.seal();
   }
 

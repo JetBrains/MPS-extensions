@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/1109773557179758874">
+    <file name="Entity2Text_Test.java">
+      <node id="1109773557179758874" at="24,29,25,60" concept="12" />
+      <node id="1109773557179758875" at="29,51,30,42" concept="3" />
+      <node id="1109773557179758874" at="35,52,36,19" concept="12" />
+      <node id="1109773557179758949" at="40,30,41,43" concept="3" />
+      <node id="1109773557179758956" at="41,43,42,43" concept="3" />
+      <node id="1109773557179758875" at="43,9,44,486" concept="3" />
+      <node id="1109773557179758874" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="1109773557179758874" at="24,0,27,0" concept="2" trace="Entity2Text_Test#()V" />
+      <node id="1109773557179758874" at="35,0,38,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1109773557179758875" at="28,0,32,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="1109773557179758875" at="39,53,43,9" concept="3" />
+      <node id="1109773557179758875" at="39,0,46,0" concept="6" trace="test_checkOutput#()V" />
+      <scope id="1109773557179758874" at="24,29,25,60" />
+      <scope id="1109773557179758875" at="29,51,30,42" />
+      <scope id="1109773557179758874" at="35,52,36,19" />
+      <scope id="1109773557179758875" at="40,30,42,43" />
+      <scope id="1109773557179758874" at="24,0,27,0" />
+      <scope id="1109773557179758874" at="35,0,38,0">
+        <var name="owner" id="1109773557179758874" />
+      </scope>
+      <scope id="1109773557179758875" at="28,0,32,0" />
+      <scope id="1109773557179758875" at="39,53,44,486" />
+      <scope id="1109773557179758875" at="39,0,46,0" />
+      <unit id="1109773557179758874" at="33,0,48,0" name="test.de.q60.mps.shadowmodels.examples.Entity2Text_Test$TestBody" />
+      <unit id="1109773557179758874" at="19,0,49,0" name="test.de.q60.mps.shadowmodels.examples.Entity2Text_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/1109773557182649953">
+    <file name="Entity2Java_reduce_Test.java">
+      <node id="1109773557182649953" at="24,36,25,60" concept="12" />
+      <node id="1109773557182649954" at="29,51,30,42" concept="3" />
+      <node id="1109773557182649953" at="35,52,36,19" concept="12" />
+      <node id="5383735579112775711" at="40,30,41,43" concept="3" />
+      <node id="5383735579112777202" at="41,43,42,43" concept="3" />
+      <node id="1109773557182649954" at="43,9,44,486" concept="3" />
+      <node id="1109773557182649953" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="1109773557182649953" at="24,0,27,0" concept="2" trace="Entity2Java_reduce_Test#()V" />
+      <node id="1109773557182649953" at="35,0,38,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1109773557182649954" at="28,0,32,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="1109773557182649954" at="39,53,43,9" concept="3" />
+      <node id="1109773557182649954" at="39,0,46,0" concept="6" trace="test_checkOutput#()V" />
+      <scope id="1109773557182649953" at="24,36,25,60" />
+      <scope id="1109773557182649954" at="29,51,30,42" />
+      <scope id="1109773557182649953" at="35,52,36,19" />
+      <scope id="1109773557182649954" at="40,30,42,43" />
+      <scope id="1109773557182649953" at="24,0,27,0" />
+      <scope id="1109773557182649953" at="35,0,38,0">
+        <var name="owner" id="1109773557182649953" />
+      </scope>
+      <scope id="1109773557182649954" at="28,0,32,0" />
+      <scope id="1109773557182649954" at="39,53,44,486" />
+      <scope id="1109773557182649954" at="39,0,46,0" />
+      <unit id="1109773557182649953" at="33,0,48,0" name="test.de.q60.mps.shadowmodels.examples.Entity2Java_reduce_Test$TestBody" />
+      <unit id="1109773557182649953" at="19,0,49,0" name="test.de.q60.mps.shadowmodels.examples.Entity2Java_reduce_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/3021319915538963958">
+    <file name="BLExt_rewrite_Test.java">
+      <node id="3021319915538963958" at="24,31,25,60" concept="12" />
+      <node id="3021319915538963959" at="29,51,30,42" concept="3" />
+      <node id="3021319915538963958" at="35,52,36,19" concept="12" />
+      <node id="3021319915538963974" at="40,30,41,43" concept="3" />
+      <node id="3021319915538964004" at="41,43,42,43" concept="3" />
+      <node id="3021319915538963959" at="43,9,44,479" concept="3" />
+      <node id="3021319915538963958" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="3021319915538963958" at="24,0,27,0" concept="2" trace="BLExt_rewrite_Test#()V" />
+      <node id="3021319915538963958" at="35,0,38,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3021319915538963959" at="28,0,32,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="3021319915538963959" at="39,53,43,9" concept="3" />
+      <node id="3021319915538963959" at="39,0,46,0" concept="6" trace="test_checkOutput#()V" />
+      <scope id="3021319915538963958" at="24,31,25,60" />
+      <scope id="3021319915538963959" at="29,51,30,42" />
+      <scope id="3021319915538963958" at="35,52,36,19" />
+      <scope id="3021319915538963959" at="40,30,42,43" />
+      <scope id="3021319915538963958" at="24,0,27,0" />
+      <scope id="3021319915538963958" at="35,0,38,0">
+        <var name="owner" id="3021319915538963958" />
+      </scope>
+      <scope id="3021319915538963959" at="28,0,32,0" />
+      <scope id="3021319915538963959" at="39,53,44,479" />
+      <scope id="3021319915538963959" at="39,0,46,0" />
+      <unit id="3021319915538963958" at="33,0,48,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_rewrite_Test$TestBody" />
+      <unit id="3021319915538963958" at="19,0,49,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_rewrite_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/3676835399134589418">
+    <file name="Entity2Java2Text_reduce_Test.java">
+      <node id="3676835399134589418" at="24,41,25,60" concept="12" />
+      <node id="3676835399134589419" at="29,51,30,42" concept="3" />
+      <node id="3676835399134589418" at="35,52,36,19" concept="12" />
+      <node id="5383735579112772362" at="40,30,41,43" concept="3" />
+      <node id="5383735579112773302" at="41,43,42,43" concept="3" />
+      <node id="3676835399134589419" at="43,9,44,485" concept="3" />
+      <node id="3676835399134589418" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="3676835399134589418" at="24,0,27,0" concept="2" trace="Entity2Java2Text_reduce_Test#()V" />
+      <node id="3676835399134589418" at="35,0,38,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3676835399134589419" at="28,0,32,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="3676835399134589419" at="39,53,43,9" concept="3" />
+      <node id="3676835399134589419" at="39,0,46,0" concept="6" trace="test_checkOutput#()V" />
+      <scope id="3676835399134589418" at="24,41,25,60" />
+      <scope id="3676835399134589419" at="29,51,30,42" />
+      <scope id="3676835399134589418" at="35,52,36,19" />
+      <scope id="3676835399134589419" at="40,30,42,43" />
+      <scope id="3676835399134589418" at="24,0,27,0" />
+      <scope id="3676835399134589418" at="35,0,38,0">
+        <var name="owner" id="3676835399134589418" />
+      </scope>
+      <scope id="3676835399134589419" at="28,0,32,0" />
+      <scope id="3676835399134589419" at="39,53,44,485" />
+      <scope id="3676835399134589419" at="39,0,46,0" />
+      <unit id="3676835399134589418" at="33,0,48,0" name="test.de.q60.mps.shadowmodels.examples.Entity2Java2Text_reduce_Test$TestBody" />
+      <unit id="3676835399134589418" at="19,0,49,0" name="test.de.q60.mps.shadowmodels.examples.Entity2Java2Text_reduce_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/5195914917235331127">
+    <file name="BLExt_copy_Test.java">
+      <node id="5195914917235331127" at="24,28,25,60" concept="12" />
+      <node id="5195914917235331128" at="29,51,30,42" concept="3" />
+      <node id="5195914917235331127" at="35,52,36,19" concept="12" />
+      <node id="5195914917235331143" at="40,30,41,43" concept="3" />
+      <node id="5195914917235331150" at="41,43,42,43" concept="3" />
+      <node id="5195914917235331128" at="43,9,44,480" concept="3" />
+      <node id="5195914917235331127" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="5195914917235331127" at="24,0,27,0" concept="2" trace="BLExt_copy_Test#()V" />
+      <node id="5195914917235331127" at="35,0,38,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5195914917235331128" at="28,0,32,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="5195914917235331128" at="39,53,43,9" concept="3" />
+      <node id="5195914917235331128" at="39,0,46,0" concept="6" trace="test_checkOutput#()V" />
+      <scope id="5195914917235331127" at="24,28,25,60" />
+      <scope id="5195914917235331128" at="29,51,30,42" />
+      <scope id="5195914917235331127" at="35,52,36,19" />
+      <scope id="5195914917235331128" at="40,30,42,43" />
+      <scope id="5195914917235331127" at="24,0,27,0" />
+      <scope id="5195914917235331127" at="35,0,38,0">
+        <var name="owner" id="5195914917235331127" />
+      </scope>
+      <scope id="5195914917235331128" at="28,0,32,0" />
+      <scope id="5195914917235331128" at="39,53,44,480" />
+      <scope id="5195914917235331128" at="39,0,46,0" />
+      <unit id="5195914917235331127" at="33,0,48,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_copy_Test$TestBody" />
+      <unit id="5195914917235331127" at="19,0,49,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_copy_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/5464646418730030454">
+    <file name="Statemachine2Java_Test.java">
+      <node id="5464646418730030454" at="24,35,25,60" concept="12" />
+      <node id="5464646418730030496" at="29,51,30,42" concept="3" />
+      <node id="5464646418730030454" at="35,52,36,19" concept="12" />
+      <node id="5464646418730030459" at="40,30,41,43" concept="3" />
+      <node id="5464646418730103206" at="41,43,42,43" concept="3" />
+      <node id="5464646418730030496" at="43,9,44,493" concept="3" />
+      <node id="5464646418730030454" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="5464646418730030454" at="24,0,27,0" concept="2" trace="Statemachine2Java_Test#()V" />
+      <node id="5464646418730030454" at="35,0,38,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5464646418730030496" at="28,0,32,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="5464646418730030496" at="39,53,43,9" concept="3" />
+      <node id="5464646418730030496" at="39,0,46,0" concept="6" trace="test_checkOutput#()V" />
+      <scope id="5464646418730030454" at="24,35,25,60" />
+      <scope id="5464646418730030496" at="29,51,30,42" />
+      <scope id="5464646418730030454" at="35,52,36,19" />
+      <scope id="5464646418730030496" at="40,30,42,43" />
+      <scope id="5464646418730030454" at="24,0,27,0" />
+      <scope id="5464646418730030454" at="35,0,38,0">
+        <var name="owner" id="5464646418730030454" />
+      </scope>
+      <scope id="5464646418730030496" at="28,0,32,0" />
+      <scope id="5464646418730030496" at="39,53,44,493" />
+      <scope id="5464646418730030496" at="39,0,46,0" />
+      <unit id="5464646418730030454" at="33,0,48,0" name="test.de.q60.mps.shadowmodels.examples.Statemachine2Java_Test$TestBody" />
+      <unit id="5464646418730030454" at="19,0,49,0" name="test.de.q60.mps.shadowmodels.examples.Statemachine2Java_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/5464646418734022807">
+    <file name="TransformationTestUtil.java">
+      <node id="5353686510791491100" at="50,194,51,81" concept="7" />
+      <node id="5353686510791516200" at="52,29,53,106" concept="3" />
+      <node id="3021319915539896379" at="56,93,57,123" concept="7" />
+      <node id="5464646418734023662" at="57,123,58,84" concept="7" />
+      <node id="5464646418734023679" at="59,32,60,49" concept="7" />
+      <node id="5464646418734023689" at="61,42,62,34" concept="3" />
+      <node id="5464646418734023696" at="63,11,64,37" concept="3" />
+      <node id="6951066303484740323" at="66,31,67,27" concept="8" />
+      <node id="5890381613102357052" at="71,229,72,83" concept="7" />
+      <node id="5890381613102357073" at="74,58,75,106" concept="8" />
+      <node id="5890381613102357088" at="77,6,78,124" concept="7" />
+      <node id="5890381613102357097" at="78,124,79,99" concept="7" />
+      <node id="3021319915539080390" at="80,9,81,95" concept="7" />
+      <node id="3021319915539101322" at="81,95,82,30" concept="7" />
+      <node id="5890381613102357104" at="82,30,83,78" concept="7" />
+      <node id="3021319915539244770" at="86,21,87,302" concept="3" />
+      <node id="5890381613102357104" at="88,11,89,16" concept="1" />
+      <node id="5744374191843953931" at="91,21,92,280" concept="3" />
+      <node id="5890381613102357104" at="93,11,94,16" concept="1" />
+      <node id="3021319915539169654" at="97,39,98,336" concept="3" />
+      <node id="7660002689368431637" at="99,20,100,270" concept="3" />
+      <node id="5890381613102357104" at="102,11,103,16" concept="1" />
+      <node id="3021319915539220226" at="104,16,105,122" concept="14" />
+      <node id="5890381613102357105" at="106,7,107,88" concept="7" />
+      <node id="5890381613102357126" at="107,88,108,60" concept="7" />
+      <node id="5890381613102434217" at="109,118,110,32" concept="3" />
+      <node id="6951066303484768582" at="110,32,111,29" concept="8" />
+      <node id="5890381613102357172" at="113,15,114,23" concept="3" />
+      <node id="5353686510791499890" at="119,36,120,47" concept="8" />
+      <node id="5353686510791499890" at="121,5,122,16" concept="8" />
+      <node id="5464646418734022807" at="124,0,125,0" concept="10" trace="conceptIndex" />
+      <node id="5464646418734022807" at="127,0,128,0" concept="10" trace="ForkDeclaration$Z8" />
+      <node id="5464646418734022807" at="128,0,129,0" concept="10" trace="Goal$Uo" />
+      <node id="5464646418734022807" at="129,0,130,0" concept="10" trace="Transformation$Gz" />
+      <node id="7660002689368410918" at="99,18,101,13" concept="0" />
+      <node id="5353686510791506066" at="51,81,54,5" concept="5" />
+      <node id="5464646418734023684" at="60,49,63,11" concept="4" />
+      <node id="5890381613102357068" at="74,0,77,0" concept="6" trace="getSModules#()Ljava/lang/Iterable;" />
+      <node id="5890381613102357104" at="85,15,88,11" concept="5" />
+      <node id="5890381613102357104" at="90,15,93,11" concept="5" />
+      <node id="5353686510791499890" at="118,75,121,5" concept="5" />
+      <node id="6951066303484758444" at="108,60,112,10" concept="3" />
+      <node id="5890381613102357061" at="72,83,77,6" concept="7" />
+      <node id="7660002689368402303" at="96,21,101,13" concept="5" />
+      <node id="5353686510791499890" at="118,0,124,0" concept="11" trace="check_mb7s3i_a0a0b#(Lorg/jetbrains/mps/openapi/model/SModel;)Lorg/jetbrains/mps/openapi/module/SRepository;" />
+      <node id="5464646418734023672" at="58,84,65,9" concept="5" />
+      <node id="5890381613102357104" at="95,15,102,11" concept="5" />
+      <node id="5890381613102482644" at="55,79,66,31" concept="3" />
+      <node id="6951066303484711844" at="54,5,68,7" concept="3" />
+      <node id="5464646418734045948" at="50,0,70,0" concept="11" trace="runTest#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNodeReference;Ljava/lang/Iterable;Z)V" />
+      <node id="5890381613102357104" at="83,78,106,7" concept="13" />
+      <node id="5890381613102357103" at="79,99,115,5" concept="15" />
+      <node id="5890381613102357050" at="71,0,117,0" concept="11" trace="executeTransformation#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNodeReference;Ljava/lang/Iterable;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P1_E0;Z)V" />
+      <scope id="5353686510791506068" at="52,29,53,106" />
+      <scope id="5464646418734023688" at="61,42,62,34" />
+      <scope id="5890381613102357072" at="74,58,75,106" />
+      <scope id="5890381613102357104" at="86,21,87,302" />
+      <scope id="5890381613102357104" at="91,21,92,280" />
+      <scope id="7660002689368402305" at="97,39,98,336" />
+      <scope id="7660002689368410919" at="99,20,100,270" />
+      <scope id="5890381613102357104" at="104,16,105,122" />
+      <scope id="5890381613102357171" at="113,15,114,23" />
+      <scope id="5353686510791499890" at="119,36,120,47" />
+      <scope id="1124663338153654836" at="109,118,111,29" />
+      <scope id="5464646418734023684" at="60,49,63,11">
+        <var name="nd" id="5464646418734023686" />
+      </scope>
+      <scope id="5890381613102357068" at="74,0,77,0" />
+      <scope id="5890381613102357104" at="85,15,89,16" />
+      <scope id="5890381613102357104" at="90,15,94,16" />
+      <scope id="5353686510791499890" at="118,75,122,16" />
+      <scope id="5464646418734023678" at="59,32,64,37">
+        <var name="sb" id="5464646418734023680" />
+      </scope>
+      <scope id="5890381613102357104" at="96,21,101,13" />
+      <scope id="5353686510791499890" at="118,0,124,0">
+        <var name="checkedDotOperand" id="5353686510791499890" />
+      </scope>
+      <scope id="5890381613102357104" at="95,15,103,16" />
+      <scope id="5890381613102514748" at="56,93,65,9">
+        <var name="diff" id="5464646418734023663" />
+        <var name="output" id="3021319915539896380" />
+      </scope>
+      <scope id="6951066303484728391" at="55,79,67,27" />
+      <scope id="5464646418734023498" at="50,194,68,7">
+        <var name="repository" id="5353686510791491101" />
+      </scope>
+      <scope id="5464646418734045948" at="50,0,70,0">
+        <var name="expectedOutput" id="5464646418734032311" />
+        <var name="input" id="5464646418734028198" />
+        <var name="languages" id="5464646418734050223" />
+        <var name="shadowRepositoryMode" id="124195438551902125" />
+        <var name="transformation" id="5464646418734094150" />
+      </scope>
+      <scope id="5890381613102357104" at="80,9,112,10">
+        <var name="call" id="3021319915539101323" />
+        <var name="cncpt" id="5890381613102357104" />
+        <var name="output" id="5890381613102357127" />
+        <var name="output_" id="5890381613102357106" />
+        <var name="transformationDecl" id="3021319915539080391" />
+      </scope>
+      <scope id="5890381613102357051" at="71,229,115,5">
+        <var name="engine" id="5890381613102357098" />
+        <var name="pfcontext" id="5890381613102357089" />
+        <var name="repository" id="5890381613102357053" />
+        <var name="transformationsProvider" id="5890381613102357062" />
+      </scope>
+      <scope id="5890381613102357050" at="71,0,117,0">
+        <var name="callback" id="5890381613102416065" />
+        <var name="input" id="5890381613102357176" />
+        <var name="languages" id="5890381613102357182" />
+        <var name="shadowRepositoryMode" id="124195438551906847" />
+        <var name="transformationPtr" id="5890381613102357180" />
+      </scope>
+      <unit id="5890381613102357066" at="73,63,77,5" name="test.de.q60.mps.shadowmodels.examples.TransformationTestUtil$1" />
+      <unit id="5464646418734022807" at="126,0,131,0" name="test.de.q60.mps.shadowmodels.examples.TransformationTestUtil$CONCEPTS" />
+      <unit id="5464646418734022807" at="48,0,132,0" name="test.de.q60.mps.shadowmodels.examples.TransformationTestUtil" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/5464646418734178928">
+    <file name="Entity2Java_Test.java">
+      <node id="5464646418734178928" at="33,29,34,60" concept="12" />
+      <node id="5464646418734178929" at="38,51,39,42" concept="3" />
+      <node id="5890381613102085824" at="42,62,43,53" concept="3" />
+      <node id="5464646418734178928" at="48,52,49,19" concept="12" />
+      <node id="5464646418734178944" at="53,30,54,43" concept="3" />
+      <node id="5464646418734178963" at="54,43,55,43" concept="3" />
+      <node id="5464646418734178929" at="56,9,57,486" concept="3" />
+      <node id="5464646418734178944" at="60,30,61,43" concept="3" />
+      <node id="5464646418734178963" at="61,43,62,43" concept="3" />
+      <node id="5890381613102565400" at="65,454,66,88" concept="7" />
+      <node id="5890381613102608393" at="67,153,68,58" concept="3" />
+      <node id="5890381613102863277" at="70,153,71,77" concept="3" />
+      <node id="5890381613102559921" at="73,18,74,0" concept="9" />
+      <node id="5464646418734178928" at="81,0,82,0" concept="10" trace="BaseConcept$gP" />
+      <node id="5464646418734178928" at="30,0,32,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="5464646418734178928" at="33,0,36,0" concept="2" trace="Entity2Java_Test#()V" />
+      <node id="5464646418734178928" at="48,0,51,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5890381613102851963" at="66,88,69,11" concept="4" />
+      <node id="5890381613102860991" at="69,11,72,11" concept="4" />
+      <node id="5464646418734178929" at="37,0,41,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="5890381613102085824" at="41,0,45,0" concept="6" trace="test_nodeIdentityComparison#()V" />
+      <node id="5464646418734178929" at="52,53,56,9" concept="3" />
+      <node id="5890381613102085824" at="59,64,63,9" concept="3" />
+      <node id="5464646418734178929" at="52,0,59,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="5890381613102560180" at="64,30,73,18" concept="3" />
+      <node id="5890381613102085824" at="63,9,75,9" concept="3" />
+      <node id="5890381613102085824" at="59,0,77,0" concept="6" trace="test_nodeIdentityComparison#()V" />
+      <scope id="5464646418734178928" at="33,29,34,60" />
+      <scope id="5464646418734178929" at="38,51,39,42" />
+      <scope id="5890381613102085824" at="42,62,43,53" />
+      <scope id="5464646418734178928" at="48,52,49,19" />
+      <scope id="5890381613102851969" at="67,153,68,58" />
+      <scope id="5890381613102860993" at="70,153,71,77" />
+      <scope id="5464646418734178929" at="53,30,55,43" />
+      <scope id="5890381613102085824" at="60,30,62,43" />
+      <scope id="5464646418734178928" at="33,0,36,0" />
+      <scope id="5464646418734178928" at="48,0,51,0">
+        <var name="owner" id="5464646418734178928" />
+      </scope>
+      <scope id="5890381613102851963" at="66,88,69,11">
+        <var name="node" id="5890381613102851965" />
+      </scope>
+      <scope id="5890381613102860991" at="69,11,72,11">
+        <var name="node" id="5890381613102860992" />
+      </scope>
+      <scope id="5464646418734178929" at="37,0,41,0" />
+      <scope id="5890381613102085824" at="41,0,45,0" />
+      <scope id="5464646418734178929" at="52,53,57,486" />
+      <scope id="5464646418734178929" at="52,0,59,0" />
+      <scope id="5890381613102561612" at="65,454,72,11">
+        <var name="allNodes" id="5890381613102565403" />
+      </scope>
+      <scope id="5890381613102085824" at="64,30,74,0" />
+      <scope id="5890381613102085824" at="59,64,75,9" />
+      <scope id="5890381613102085824" at="59,0,77,0" />
+      <unit id="5464646418734178928" at="80,0,83,0" name="test.de.q60.mps.shadowmodels.examples.Entity2Java_Test$CONCEPTS" />
+      <unit id="5464646418734178928" at="46,0,79,0" name="test.de.q60.mps.shadowmodels.examples.Entity2Java_Test$TestBody" />
+      <unit id="5464646418734178928" at="28,0,84,0" name="test.de.q60.mps.shadowmodels.examples.Entity2Java_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/6182740116033575759">
+    <file name="BLExt_types_reduce_Test.java">
+      <node id="6182740116033575759" at="24,36,25,60" concept="12" />
+      <node id="6182740116033575760" at="29,51,30,42" concept="3" />
+      <node id="6182740116033575759" at="35,52,36,19" concept="12" />
+      <node id="6182740116033575776" at="40,30,41,43" concept="3" />
+      <node id="6182740116033575802" at="41,43,42,43" concept="3" />
+      <node id="6182740116033575760" at="43,9,44,479" concept="3" />
+      <node id="6182740116033575759" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="6182740116033575759" at="24,0,27,0" concept="2" trace="BLExt_types_reduce_Test#()V" />
+      <node id="6182740116033575759" at="35,0,38,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6182740116033575760" at="28,0,32,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="6182740116033575760" at="39,53,43,9" concept="3" />
+      <node id="6182740116033575760" at="39,0,46,0" concept="6" trace="test_checkOutput#()V" />
+      <scope id="6182740116033575759" at="24,36,25,60" />
+      <scope id="6182740116033575760" at="29,51,30,42" />
+      <scope id="6182740116033575759" at="35,52,36,19" />
+      <scope id="6182740116033575760" at="40,30,42,43" />
+      <scope id="6182740116033575759" at="24,0,27,0" />
+      <scope id="6182740116033575759" at="35,0,38,0">
+        <var name="owner" id="6182740116033575759" />
+      </scope>
+      <scope id="6182740116033575760" at="28,0,32,0" />
+      <scope id="6182740116033575760" at="39,53,44,479" />
+      <scope id="6182740116033575760" at="39,0,46,0" />
+      <unit id="6182740116033575759" at="33,0,48,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_types_reduce_Test$TestBody" />
+      <unit id="6182740116033575759" at="19,0,49,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_types_reduce_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/7580149848876304512">
+    <file name="BLExt_reduce_Test.java">
+      <node id="7580149848876304512" at="24,30,25,60" concept="12" />
+      <node id="7580149848876304513" at="29,51,30,42" concept="3" />
+      <node id="7580149848876304512" at="35,52,36,19" concept="12" />
+      <node id="7580149848876304529" at="40,30,41,43" concept="3" />
+      <node id="7580149848876304555" at="41,43,42,43" concept="3" />
+      <node id="7580149848876304513" at="43,9,44,479" concept="3" />
+      <node id="7580149848876304512" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="7580149848876304512" at="24,0,27,0" concept="2" trace="BLExt_reduce_Test#()V" />
+      <node id="7580149848876304512" at="35,0,38,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7580149848876304513" at="28,0,32,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="7580149848876304513" at="39,53,43,9" concept="3" />
+      <node id="7580149848876304513" at="39,0,46,0" concept="6" trace="test_checkOutput#()V" />
+      <scope id="7580149848876304512" at="24,30,25,60" />
+      <scope id="7580149848876304513" at="29,51,30,42" />
+      <scope id="7580149848876304512" at="35,52,36,19" />
+      <scope id="7580149848876304513" at="40,30,42,43" />
+      <scope id="7580149848876304512" at="24,0,27,0" />
+      <scope id="7580149848876304512" at="35,0,38,0">
+        <var name="owner" id="7580149848876304512" />
+      </scope>
+      <scope id="7580149848876304513" at="28,0,32,0" />
+      <scope id="7580149848876304513" at="39,53,44,479" />
+      <scope id="7580149848876304513" at="39,0,46,0" />
+      <unit id="7580149848876304512" at="33,0,48,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_reduce_Test$TestBody" />
+      <unit id="7580149848876304512" at="19,0,49,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_reduce_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/7947335862496266978">
+    <file name="BLExt_reduce_crossModelGeneration_Test.java">
+      <node id="7947335862496266978" at="24,51,25,60" concept="12" />
+      <node id="7947335862496266979" at="29,51,30,42" concept="3" />
+      <node id="7947335862496266978" at="35,52,36,19" concept="12" />
+      <node id="7947335862496266995" at="40,30,41,43" concept="3" />
+      <node id="5383735579112767202" at="41,43,42,43" concept="3" />
+      <node id="7947335862496266979" at="43,9,44,479" concept="3" />
+      <node id="7947335862496266978" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="7947335862496266978" at="24,0,27,0" concept="2" trace="BLExt_reduce_crossModelGeneration_Test#()V" />
+      <node id="7947335862496266978" at="35,0,38,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7947335862496266979" at="28,0,32,0" concept="6" trace="test_checkOutput#()V" />
+      <node id="7947335862496266979" at="39,53,43,9" concept="3" />
+      <node id="7947335862496266979" at="39,0,46,0" concept="6" trace="test_checkOutput#()V" />
+      <scope id="7947335862496266978" at="24,51,25,60" />
+      <scope id="7947335862496266979" at="29,51,30,42" />
+      <scope id="7947335862496266978" at="35,52,36,19" />
+      <scope id="7947335862496266979" at="40,30,42,43" />
+      <scope id="7947335862496266978" at="24,0,27,0" />
+      <scope id="7947335862496266978" at="35,0,38,0">
+        <var name="owner" id="7947335862496266978" />
+      </scope>
+      <scope id="7947335862496266979" at="28,0,32,0" />
+      <scope id="7947335862496266979" at="39,53,44,479" />
+      <scope id="7947335862496266979" at="39,0,46,0" />
+      <unit id="7947335862496266978" at="33,0,48,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_reduce_crossModelGeneration_Test$TestBody" />
+      <unit id="7947335862496266978" at="19,0,49,0" name="test.de.q60.mps.shadowmodels.examples.BLExt_reduce_crossModelGeneration_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/8286906820979266285">
+    <file name="Typesystem_Test.java">
+      <node id="8286906820979266285" at="24,28,25,60" concept="12" />
+      <node id="8286906820979266286" at="29,54,30,45" concept="3" />
+      <node id="8286906820979394394" at="33,57,34,48" concept="3" />
+      <node id="8286906820979266285" at="39,52,40,19" concept="12" />
+      <node id="8286906820979266302" at="44,30,45,43" concept="3" />
+      <node id="8286906820979266328" at="45,43,46,43" concept="3" />
+      <node id="8286906820979266286" at="47,9,48,479" concept="3" />
+      <node id="8286906820979266302" at="51,30,52,43" concept="3" />
+      <node id="8286906820979266328" at="52,43,53,43" concept="3" />
+      <node id="8286906820979394397" at="55,30,56,458" concept="3" />
+      <node id="8286906820979394410" at="56,458,57,0" concept="9" />
+      <node id="8286906820979266285" at="21,0,23,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="8286906820979266285" at="24,0,27,0" concept="2" trace="Typesystem_Test#()V" />
+      <node id="8286906820979266285" at="39,0,42,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8286906820979266286" at="28,0,32,0" concept="6" trace="test_repositoryMode#()V" />
+      <node id="8286906820979394394" at="32,0,36,0" concept="6" trace="test_nonRepositoryMode#()V" />
+      <node id="8286906820979266286" at="43,56,47,9" concept="3" />
+      <node id="8286906820979394394" at="50,59,54,9" concept="3" />
+      <node id="8286906820979394394" at="54,9,58,9" concept="3" />
+      <node id="8286906820979266286" at="43,0,50,0" concept="6" trace="test_repositoryMode#()V" />
+      <node id="8286906820979394394" at="50,0,60,0" concept="6" trace="test_nonRepositoryMode#()V" />
+      <scope id="8286906820979266285" at="24,28,25,60" />
+      <scope id="8286906820979266286" at="29,54,30,45" />
+      <scope id="8286906820979394394" at="33,57,34,48" />
+      <scope id="8286906820979266285" at="39,52,40,19" />
+      <scope id="8286906820979266286" at="44,30,46,43" />
+      <scope id="8286906820979394394" at="51,30,53,43" />
+      <scope id="8286906820979394394" at="55,30,57,0" />
+      <scope id="8286906820979266285" at="24,0,27,0" />
+      <scope id="8286906820979266285" at="39,0,42,0">
+        <var name="owner" id="8286906820979266285" />
+      </scope>
+      <scope id="8286906820979266286" at="28,0,32,0" />
+      <scope id="8286906820979394394" at="32,0,36,0" />
+      <scope id="8286906820979266286" at="43,56,48,479" />
+      <scope id="8286906820979266286" at="43,0,50,0" />
+      <scope id="8286906820979394394" at="50,59,58,9" />
+      <scope id="8286906820979394394" at="50,0,60,0" />
+      <unit id="8286906820979266285" at="37,0,62,0" name="test.de.q60.mps.shadowmodels.examples.Typesystem_Test$TestBody" />
+      <unit id="8286906820979266285" at="19,0,63,0" name="test.de.q60.mps.shadowmodels.examples.Typesystem_Test" />
+    </file>
+  </root>
+</debug-info>
+

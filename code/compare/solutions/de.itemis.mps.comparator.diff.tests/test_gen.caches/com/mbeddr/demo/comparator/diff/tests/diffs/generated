@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-3kxaw89fcw7kcpesh238o59bixqn9tj">
+  <files names="ActualMultipleFiles_Test.java:ActualName_Test.java:ActualStructure_Test.java:ActualSubDirsFileName_Test.java:ActualSubDirsMultipleFiles_Test.java:ExpectedMultipleFiles_Test.java:ExpectedName_Test.java:ExpectedStructure_Test.java:ExpectedSubDirStructureTests_Test.java:ExpectedSubDirsFileName_Test.java:ExpectedSubDirsMultipleFilesTests_Test.java:FileContentsTests_Test.java:FolderDiffHelper.java:GeneratorTest_Test.java:HelperClass.java:MatchingDirContents_Test.java:NodeComparison_Test.java:ShowDiff_Test.java:TestTextComparison.java:TextGenerationBreakdown_Test.java:TextGenerationDiffRequest_Test.java:TextGenerationDiff_Test.java:TextGeneration_Test.java:UnopenableDummyFileSystem.java:UnopenableVirtualFile.java" />
+</product>
+

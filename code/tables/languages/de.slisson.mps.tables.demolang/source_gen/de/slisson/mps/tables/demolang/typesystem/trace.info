@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="de.slisson.mps.tables.demolang.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:93d63207-8bfe-46cb-9eeb-9829b82152bd(de.slisson.mps.tables.demolang.typesystem)/4032373061968641307">
+    <file name="TypesystemDescriptor.java">
+      <node id="4032373061968641307" at="10,5,11,80" concept="5" />
+      <node id="4032373061968641307" at="11,80,12,47" concept="2" />
+      <node id="4032373061968641307" at="9,33,13,5" concept="0" />
+      <scope id="4032373061968641307" at="10,5,12,47">
+        <var name="inferenceRule" id="4032373061968641307" />
+      </scope>
+    </file>
+    <file name="typeof_TestCase_InferenceRule.java">
+      <node id="4032373061968651430" at="24,7,25,52" concept="5" />
+      <node id="4032373061968651430" at="25,52,26,209" concept="5" />
+      <node id="4032373061968651430" at="26,209,27,314" concept="2" />
+      <node id="4032373061968641307" at="31,50,32,32" concept="6" />
+      <node id="4032373061968641307" at="34,68,35,102" concept="6" />
+      <node id="4032373061968641307" at="37,30,38,17" concept="6" />
+      <node id="4032373061968651797" at="40,66,41,30" concept="5" />
+      <node id="4032373061968651797" at="41,30,42,220" concept="5" />
+      <node id="4032373061968651797" at="42,220,43,34" concept="2" />
+      <node id="4032373061968651797" at="43,34,44,24" concept="6" />
+      <node id="4032373061968641307" at="48,0,49,0" concept="7" trace="values$zkzP" />
+      <node id="4032373061968641307" at="49,0,50,0" concept="7" trace="value$vKTY" />
+      <node id="4032373061968641307" at="53,0,54,0" concept="7" trace="TestCase$rp" />
+      <node id="4032373061968641307" at="20,0,22,0" concept="1" trace="typeof_TestCase_InferenceRule#()V" />
+      <node id="4032373061968641307" at="31,0,34,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4032373061968641307" at="34,0,37,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4032373061968641307" at="37,0,40,0" concept="4" trace="overrides#()Z" />
+      <node id="4032373061968651430" at="23,151,28,7" concept="0" />
+      <node id="4032373061968651797" at="40,0,46,0" concept="8" trace="_quotation_createNode_jmo5f_a1a0c0a0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4032373061968641486" at="22,121,29,5" concept="3" />
+      <node id="4032373061968641307" at="22,0,31,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="4032373061968641307" at="20,42,20,42" />
+      <scope id="4032373061968641307" at="31,50,32,32" />
+      <scope id="4032373061968641307" at="34,68,35,102" />
+      <scope id="4032373061968641307" at="37,30,38,17" />
+      <scope id="4032373061968641307" at="20,0,22,0" />
+      <scope id="4032373061968651430" at="24,7,27,314">
+        <var name="_info_12389875345" id="4032373061968651430" />
+        <var name="_nodeToCheck_1029348928467" id="4032373061968651430" />
+      </scope>
+      <scope id="4032373061968641307" at="31,0,34,0" />
+      <scope id="4032373061968641307" at="34,0,37,0">
+        <var name="argument" id="4032373061968641307" />
+      </scope>
+      <scope id="4032373061968641307" at="37,0,40,0" />
+      <scope id="4032373061968651797" at="40,66,44,24">
+        <var name="nb" id="4032373061968651797" />
+        <var name="quotedNode_1" id="4032373061968651797" />
+      </scope>
+      <scope id="4032373061968641489" at="23,151,28,7" />
+      <scope id="4032373061968651797" at="40,0,46,0" />
+      <scope id="4032373061968641308" at="22,121,29,5" />
+      <scope id="4032373061968641486" at="22,121,29,5">
+        <var name="varValue" id="4032373061968641487" />
+      </scope>
+      <scope id="4032373061968641307" at="22,0,31,0">
+        <var name="status" id="4032373061968641307" />
+        <var name="testCase" id="4032373061968641307" />
+        <var name="typeCheckingContext" id="4032373061968641307" />
+      </scope>
+      <unit id="4032373061968641307" at="52,0,55,0" name="de.slisson.mps.tables.demolang.typesystem.typeof_TestCase_InferenceRule$CONCEPTS" />
+      <unit id="4032373061968641307" at="47,0,51,0" name="de.slisson.mps.tables.demolang.typesystem.typeof_TestCase_InferenceRule$LINKS" />
+      <unit id="4032373061968641307" at="19,0,56,0" name="de.slisson.mps.tables.demolang.typesystem.typeof_TestCase_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
+

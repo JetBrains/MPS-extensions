@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1177666668936:jetbrains.mps.baseLanguage.structure.DoWhileStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910834947899">
+    <file name="StructureCheckerException.java">
+      <node id="380240910834947965" at="8,52,9,19" concept="14" />
+      <node id="380240910834947959" at="8,0,11,0" concept="2" trace="StructureCheckerException#(Ljava/lang/String;)V" />
+      <scope id="380240910834947963" at="8,52,9,19" />
+      <scope id="380240910834947959" at="8,0,11,0">
+        <var name="message" id="380240910834947966" />
+      </scope>
+      <unit id="380240910834947899" at="6,0,12,0" name="de.itemis.mps.structurecheck.runtime.StructureCheckerException" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910835019649">
+    <file name="IElementChecker.java">
+      <node id="380240910835019669" at="8,0,9,0" concept="10" trace="doesMatch#(null)Z" />
+      <node id="380240910842268896" at="11,0,12,0" concept="10" trace="report#(Lde/itemis/mps/structurecheck/runtime/Message;)V" />
+      <node id="380240910835019752" at="9,0,11,0" concept="10" trace="getMessage#(null)Lde/itemis/mps/structurecheck/runtime/Message;" />
+      <scope id="380240910835019669" at="8,0,9,0">
+        <var name="thisElement" id="380240910835033163" />
+      </scope>
+      <scope id="380240910842268896" at="11,0,12,0">
+        <var name="message" id="380240910842269759" />
+      </scope>
+      <scope id="380240910835019752" at="9,0,11,0">
+        <var name="thisElement" id="380240910835033241" />
+      </scope>
+      <unit id="380240910835019649" at="7,0,13,0" name="de.itemis.mps.structurecheck.runtime.IElementChecker" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910835033608">
+    <file name="ElementChecker.java">
+      <unit id="380240910835033608" at="6,0,8,0" name="de.itemis.mps.structurecheck.runtime.ElementChecker" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910835129774">
+    <file name="DummyChecker.java">
+      <node id="380240910835130123" at="8,44,9,16" concept="12" />
+      <node id="380240910835130166" at="12,45,13,16" concept="12" />
+      <node id="380240910835129868" at="7,0,11,0" concept="10" trace="doesMatch#(Ljava/lang/Object;)Z" />
+      <node id="380240910835129878" at="11,0,15,0" concept="10" trace="getMessage#(Ljava/lang/Object;)Lde/itemis/mps/structurecheck/runtime/Message;" />
+      <scope id="380240910835129875" at="8,44,9,16" />
+      <scope id="380240910835129885" at="12,45,13,16" />
+      <scope id="380240910835129868" at="7,0,11,0">
+        <var name="element" id="380240910835129869" />
+      </scope>
+      <scope id="380240910835129878" at="11,0,15,0">
+        <var name="element" id="380240910835129879" />
+      </scope>
+      <unit id="380240910835129774" at="6,0,16,0" name="de.itemis.mps.structurecheck.runtime.DummyChecker" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910835178523">
+    <file name="CompositeChecker.java">
+      <node id="380240910835179067" at="8,0,9,0" concept="6" trace="myCheckers" />
+      <node id="380240910835180671" at="10,59,11,26" concept="5" />
+      <node id="380240910835186626" at="17,42,18,21" concept="12" />
+      <node id="380240910835188120" at="20,5,21,16" concept="12" />
+      <node id="380240910835192588" at="27,51,28,52" concept="11" />
+      <node id="380240910835194381" at="29,28,30,23" concept="12" />
+      <node id="380240910835196740" at="32,5,33,16" concept="12" />
+      <node id="380240910835180050" at="10,0,13,0" concept="2" trace="CompositeChecker#(null)V" />
+      <node id="380240910835183661" at="16,51,19,7" concept="9" />
+      <node id="380240910835193295" at="28,52,31,7" concept="9" />
+      <node id="380240910835181398" at="15,39,20,5" concept="8" />
+      <node id="380240910835189678" at="26,40,32,5" concept="8" />
+      <node id="380240910835178564" at="14,0,23,0" concept="10" trace="doesMatch#(null)Z" />
+      <node id="380240910835178574" at="24,0,35,0" concept="10" trace="getMessage#(null)Lde/itemis/mps/structurecheck/runtime/Message;" />
+      <scope id="380240910835180054" at="10,59,11,26" />
+      <scope id="380240910835183662" at="17,42,18,21" />
+      <scope id="380240910835193298" at="29,28,30,23" />
+      <scope id="380240910835180050" at="10,0,13,0">
+        <var name="checkers" id="380240910835180255" />
+      </scope>
+      <scope id="380240910835181402" at="16,51,19,7" />
+      <scope id="380240910835189680" at="27,51,31,7">
+        <var name="message" id="380240910835192589" />
+      </scope>
+      <scope id="380240910835181398" at="15,39,20,5">
+        <var name="checker" id="380240910835181400" />
+      </scope>
+      <scope id="380240910835178571" at="15,39,21,16" />
+      <scope id="380240910835189678" at="26,40,32,5">
+        <var name="checker" id="380240910835189679" />
+      </scope>
+      <scope id="380240910835178582" at="26,40,33,16" />
+      <scope id="380240910835178564" at="14,0,23,0">
+        <var name="element" id="380240910835178565" />
+      </scope>
+      <scope id="380240910835178574" at="24,0,35,0">
+        <var name="element" id="380240910835178575" />
+      </scope>
+      <unit id="380240910835178523" at="7,0,36,0" name="de.itemis.mps.structurecheck.runtime.CompositeChecker" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910835789581">
+    <file name="TypeChecker.java">
+      <node id="380240910835790303" at="8,0,9,0" concept="6" trace="myType" />
+      <node id="380240910835791479" at="10,34,11,18" concept="5" />
+      <node id="380240910835797802" at="15,30,16,18" concept="12" />
+      <node id="380240910835804364" at="17,5,18,42" concept="12" />
+      <node id="380240910835821227" at="23,33,24,18" concept="12" />
+      <node id="380240910835824021" at="25,5,26,118" concept="12" />
+      <node id="380240910835791471" at="10,0,13,0" concept="2" trace="TypeChecker#(Ljava/lang/Class;)V" />
+      <node id="380240910835795895" at="14,48,17,5" concept="9" />
+      <node id="380240910835819556" at="22,49,25,5" concept="9" />
+      <node id="380240910835789636" at="14,0,20,0" concept="10" trace="doesMatch#(Ljava/lang/Object;)Z" />
+      <node id="380240910835789649" at="21,0,28,0" concept="10" trace="getMessage#(Ljava/lang/Object;)Lde/itemis/mps/structurecheck/runtime/Message;" />
+      <scope id="380240910835791475" at="10,34,11,18" />
+      <scope id="380240910835795898" at="15,30,16,18" />
+      <scope id="380240910835819559" at="23,33,24,18" />
+      <scope id="380240910835791471" at="10,0,13,0">
+        <var name="type" id="380240910835791478" />
+      </scope>
+      <scope id="380240910835789646" at="14,48,18,42" />
+      <scope id="380240910835789660" at="22,49,26,118" />
+      <scope id="380240910835789636" at="14,0,20,0">
+        <var name="thisElement" id="380240910835789637" />
+      </scope>
+      <scope id="380240910835789649" at="21,0,28,0">
+        <var name="thisElement" id="380240910835789650" />
+      </scope>
+      <unit id="380240910835789581" at="7,0,29,0" name="de.itemis.mps.structurecheck.runtime.TypeChecker" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910835989633">
+    <file name="SequenceChecker.java">
+      <node id="380240910835990153" at="11,0,12,0" concept="6" trace="myIsOrdered" />
+      <node id="380240910835991037" at="12,0,13,0" concept="6" trace="myType" />
+      <node id="380240910836244745" at="13,0,14,0" concept="6" trace="myExpected" />
+      <node id="380240910836103360" at="15,93,16,28" concept="5" />
+      <node id="380240910836103370" at="16,28,17,18" concept="5" />
+      <node id="380240910836250051" at="17,18,18,26" concept="5" />
+      <node id="380240910837554495" at="23,44,24,58" concept="11" />
+      <node id="380240910837572083" at="24,58,25,68" concept="11" />
+      <node id="380240910837596783" at="25,68,26,0" concept="13" />
+      <node id="380240910839242339" at="26,0,27,51" concept="11" />
+      <node id="380240910839501380" at="27,51,28,29" concept="11" />
+      <node id="380240910839242352" at="29,58,30,59" concept="5" />
+      <node id="380240910839519137" at="30,59,31,44" concept="5" />
+      <node id="380240910839448750" at="32,5,33,0" concept="13" />
+      <node id="380240910839250734" at="36,26,37,23" concept="11" />
+      <node id="380240910839250740" at="38,64,39,56" concept="11" />
+      <node id="380240910839250746" at="39,56,40,61" concept="11" />
+      <node id="380240910839250754" at="41,62,42,84" concept="11" />
+      <node id="380240910840046071" at="43,61,44,23" concept="5" />
+      <node id="380240910840137352" at="45,68,46,30" concept="12" />
+      <node id="380240910839250762" at="50,11,51,76" concept="12" />
+      <node id="380240910839250846" at="52,16,53,30" concept="11" />
+      <node id="380240910839250852" at="55,84,56,82" concept="11" />
+      <node id="380240910839250864" at="60,64,61,38" concept="5" />
+      <node id="380240910839250869" at="61,38,62,35" concept="3" />
+      <node id="380240910839250893" at="65,13,66,65" concept="5" />
+      <node id="380240910839250945" at="67,11,68,0" concept="13" />
+      <node id="380240910839250948" at="69,37,70,59" concept="12" />
+      <node id="380240910839250958" at="72,9,73,0" concept="13" />
+      <node id="380240910839250959" at="73,0,74,14" concept="1" />
+      <node id="380240910838094219" at="74,14,75,0" concept="13" />
+      <node id="380240910839242261" at="77,26,78,23" concept="11" />
+      <node id="380240910839242267" at="79,64,80,56" concept="11" />
+      <node id="380240910839242273" at="80,56,81,61" concept="11" />
+      <node id="380240910839242281" at="83,18,84,86" concept="11" />
+      <node id="380240910840615900" at="85,63,86,24" concept="1" />
+      <node id="380240910840600428" at="87,17,88,23" concept="5" />
+      <node id="380240910840547346" at="89,69,90,0" concept="13" />
+      <node id="380240910839242289" at="90,0,91,139" concept="12" />
+      <node id="380240910839242372" at="94,16,95,0" concept="13" />
+      <node id="380240910839242373" at="95,0,96,30" concept="11" />
+      <node id="380240910839242379" at="98,84,99,82" concept="11" />
+      <node id="380240910839242391" at="103,64,104,38" concept="5" />
+      <node id="380240910839242396" at="104,38,105,35" concept="3" />
+      <node id="380240910842756955" at="109,11,110,51" concept="11" />
+      <node id="380240910839242443" at="112,40,113,89" concept="5" />
+      <node id="380240910842814183" at="114,46,115,53" concept="5" />
+      <node id="380240910839242472" at="118,11,119,0" concept="13" />
+      <node id="380240910839242475" at="120,37,121,109" concept="12" />
+      <node id="380240910839242485" at="123,9,124,0" concept="13" />
+      <node id="380240910839242486" at="124,0,125,14" concept="1" />
+      <node id="380240910837820345" at="127,26,128,23" concept="11" />
+      <node id="380240910837725025" at="129,64,130,56" concept="11" />
+      <node id="380240910837800800" at="130,56,131,61" concept="11" />
+      <node id="380240910844875383" at="133,66,134,156" concept="12" />
+      <node id="380240910837828967" at="135,15,136,84" concept="11" />
+      <node id="380240910837834497" at="137,64,138,168" concept="12" />
+      <node id="380240910837825651" at="139,15,140,21" concept="5" />
+      <node id="380240910844411693" at="143,61,144,116" concept="12" />
+      <node id="380240910838621722" at="146,16,147,0" concept="13" />
+      <node id="380240910838839201" at="147,0,148,30" concept="11" />
+      <node id="380240910838705841" at="150,84,151,82" concept="11" />
+      <node id="380240910838663184" at="155,64,156,38" concept="5" />
+      <node id="380240910838665592" at="156,38,157,35" concept="3" />
+      <node id="380240910838853528" at="160,13,161,89" concept="5" />
+      <node id="380240910843210406" at="162,11,163,0" concept="13" />
+      <node id="380240910843229416" at="163,0,164,51" concept="11" />
+      <node id="380240910838961324" at="166,40,167,89" concept="5" />
+      <node id="380240910843255683" at="168,46,169,53" concept="5" />
+      <node id="380240910838938346" at="172,11,173,0" concept="13" />
+      <node id="380240910838899629" at="174,37,175,109" concept="12" />
+      <node id="380240910838870966" at="177,9,178,0" concept="13" />
+      <node id="380240910837622976" at="178,0,179,14" concept="1" />
+      <node id="380240910837642561" at="181,53,182,51" concept="11" />
+      <node id="380240910837668033" at="183,75,184,79" concept="11" />
+      <node id="380240910837672293" at="185,59,186,94" concept="12" />
+      <node id="380240910837623032" at="189,9,190,14" concept="1" />
+      <node id="380240910837623088" at="191,14,192,62" concept="16" />
+      <node id="380240910837597792" at="193,5,194,0" concept="13" />
+      <node id="380240910837598806" at="194,0,195,0" concept="13" />
+      <node id="380240910837554280" at="195,0,196,16" concept="12" />
+      <node id="380240910836877294" at="201,0,202,0" concept="10" trace="getSequence#(null)Ljava/lang/Iterable;" />
+      <node id="380240910840114510" at="44,23,47,17" concept="9" />
+      <node id="380240910839250946" at="68,0,71,11" concept="9" />
+      <node id="380240910840615141" at="84,86,87,17" concept="9" />
+      <node id="380240910842802089" at="113,89,116,15" concept="9" />
+      <node id="380240910839242473" at="119,0,122,11" concept="9" />
+      <node id="380240910844838754" at="132,62,135,15" concept="9" />
+      <node id="380240910837832741" at="136,84,139,15" concept="9" />
+      <node id="380240910844457475" at="142,11,145,11" concept="9" />
+      <node id="380240910843255681" at="167,89,170,15" concept="9" />
+      <node id="380240910838886050" at="173,0,176,11" concept="9" />
+      <node id="380240910837668760" at="184,79,187,13" concept="9" />
+      <node id="380240910839242350" at="28,29,32,5" concept="7" />
+      <node id="380240910839250862" at="59,42,63,17" concept="9" />
+      <node id="380240910839242389" at="102,42,106,17" concept="9" />
+      <node id="380240910838654710" at="154,42,158,17" concept="9" />
+      <node id="380240910836103352" at="15,0,20,0" concept="2" trace="SequenceChecker#(ZLde/itemis/mps/structurecheck/runtime/SequenceCheckerType;null)V" />
+      <node id="380240910839250760" at="42,84,48,15" concept="9" />
+      <node id="380240910839250860" at="58,66,64,15" concept="9" />
+      <node id="380240910839242387" at="101,66,107,15" concept="9" />
+      <node id="380240910839242441" at="111,64,117,13" concept="9" />
+      <node id="380240910838651008" at="153,66,159,15" concept="9" />
+      <node id="380240910838946339" at="165,64,171,13" concept="9" />
+      <node id="380240910837646658" at="182,51,188,11" concept="7" />
+      <node id="380240910840558514" at="82,62,89,69" concept="4" />
+      <node id="380240910839242439" at="110,51,118,11" concept="7" />
+      <node id="380240910838946337" at="164,51,172,11" concept="7" />
+      <node id="380240910839250752" at="40,61,49,13" concept="7" />
+      <node id="380240910839250858" at="56,82,65,13" concept="7" />
+      <node id="380240910839242385" at="99,82,108,13" concept="7" />
+      <node id="380240910838647637" at="151,82,160,13" concept="7" />
+      <node id="380240910837627557" at="180,23,189,9" concept="7" />
+      <node id="380240910837747816" at="131,61,141,13" concept="7" />
+      <node id="380240910839242279" at="81,61,92,13" concept="7" />
+      <node id="380240910839250738" at="37,23,50,11" concept="7" />
+      <node id="380240910839242377" at="96,30,109,11" concept="7" />
+      <node id="380240910839250850" at="53,30,67,11" concept="7" />
+      <node id="380240910837725023" at="128,23,142,11" concept="7" />
+      <node id="380240910838686744" at="148,30,162,11" concept="7" />
+      <node id="380240910839242265" at="78,23,93,11" concept="7" />
+      <node id="380240910839250810" at="52,14,72,9" concept="0" />
+      <node id="380240910839242337" at="94,14,123,9" concept="0" />
+      <node id="380240910838082278" at="146,14,177,9" concept="0" />
+      <node id="380240910839250732" at="35,21,72,9" concept="9" />
+      <node id="380240910839242259" at="76,21,123,9" concept="9" />
+      <node id="380240910838071495" at="126,19,177,9" concept="9" />
+      <node id="380240910837618787" at="33,0,193,5" concept="15" />
+      <node id="380240910835989697" at="21,0,198,0" concept="10" trace="getMessage#(null)Lde/itemis/mps/structurecheck/runtime/Message;" />
+      <scope id="380240910840114513" at="45,68,46,30" />
+      <scope id="380240910839250947" at="69,37,70,59" />
+      <scope id="380240910840615144" at="85,63,86,24" />
+      <scope id="380240910842802092" at="114,46,115,53" />
+      <scope id="380240910839242474" at="120,37,121,109" />
+      <scope id="380240910844838757" at="133,66,134,156" />
+      <scope id="380240910837832744" at="137,64,138,168" />
+      <scope id="380240910844457478" at="143,61,144,116" />
+      <scope id="380240910843255682" at="168,46,169,53" />
+      <scope id="380240910838886053" at="174,37,175,109" />
+      <scope id="380240910837668763" at="185,59,186,94" />
+      <scope id="380240910837618789" at="191,14,192,62" />
+      <scope id="380240910836877294" at="201,0,202,0">
+        <var name="thisElement" id="380240910836902329" />
+      </scope>
+      <scope id="380240910839242351" at="29,58,31,44" />
+      <scope id="380240910839250863" at="60,64,62,35" />
+      <scope id="380240910839242390" at="103,64,105,35" />
+      <scope id="380240910838654711" at="155,64,157,35" />
+      <scope id="380240910836103356" at="15,93,18,26" />
+      <scope id="380240910839242350" at="28,29,32,5">
+        <var name="iExp" id="380240910839242362" />
+      </scope>
+      <scope id="380240910839250761" at="43,61,47,17" />
+      <scope id="380240910839250861" at="59,42,63,17" />
+      <scope id="380240910839242388" at="102,42,106,17" />
+      <scope id="380240910839242442" at="112,40,116,15" />
+      <scope id="380240910838651011" at="154,42,158,17" />
+      <scope id="380240910838946340" at="166,40,170,15" />
+      <scope id="380240910837646661" at="183,75,187,13">
+        <var name="currentActual" id="380240910837668034" />
+      </scope>
+      <scope id="380240910836103352" at="15,0,20,0">
+        <var name="elements" id="380240910836247925" />
+        <var name="isOrdered" id="380240910836103359" />
+        <var name="type" id="380240910836103369" />
+      </scope>
+      <scope id="380240910840558516" at="83,18,88,23">
+        <var name="currentActual" id="380240910839242282" />
+      </scope>
+      <scope id="380240910839250859" at="58,66,64,15" />
+      <scope id="380240910839242386" at="101,66,107,15" />
+      <scope id="380240910839242440" at="111,64,117,13" />
+      <scope id="380240910838647638" at="153,66,159,15" />
+      <scope id="380240910838946338" at="165,64,171,13" />
+      <scope id="380240910837646658" at="182,51,188,11">
+        <var name="k" id="380240910837646664" />
+      </scope>
+      <scope id="380240910839250753" at="41,62,48,15">
+        <var name="currentActual" id="380240910839250755" />
+      </scope>
+      <scope id="380240910837627560" at="181,53,188,11">
+        <var name="currentExpected" id="380240910837642562" />
+      </scope>
+      <scope id="380240910839242439" at="110,51,118,11">
+        <var name="iExp" id="380240910839242462" />
+      </scope>
+      <scope id="380240910837747819" at="132,62,140,21">
+        <var name="currentActual" id="380240910837828968" />
+      </scope>
+      <scope id="380240910838946337" at="164,51,172,11">
+        <var name="iExp" id="380240910838946369" />
+      </scope>
+      <scope id="380240910839250752" at="40,61,49,13">
+        <var name="iMult" id="380240910839250791" />
+      </scope>
+      <scope id="380240910839250858" at="56,82,65,13">
+        <var name="iExp" id="380240910839250882" />
+      </scope>
+      <scope id="380240910839242280" at="82,62,91,139" />
+      <scope id="380240910839242385" at="99,82,108,13">
+        <var name="iExp" id="380240910839242409" />
+      </scope>
+      <scope id="380240910838647637" at="151,82,160,13">
+        <var name="iExp" id="380240910838647655" />
+      </scope>
+      <scope id="380240910837627557" at="180,23,189,9">
+        <var name="i" id="380240910837627563" />
+      </scope>
+      <scope id="380240910839242378" at="98,84,108,13">
+        <var name="currentActual" id="380240910839242380" />
+      </scope>
+      <scope id="380240910837747816" at="131,61,141,13">
+        <var name="iMult" id="380240910837747822" />
+      </scope>
+      <scope id="380240910837622215" at="180,23,190,14" />
+      <scope id="380240910839250739" at="38,64,49,13">
+        <var name="currentExpected" id="380240910839250741" />
+        <var name="multiplier" id="380240910839250747" />
+      </scope>
+      <scope id="380240910839250851" at="55,84,66,65">
+        <var name="currentActual" id="380240910839250853" />
+      </scope>
+      <scope id="380240910839242279" at="81,61,92,13">
+        <var name="iMult" id="380240910839242318" />
+      </scope>
+      <scope id="380240910838686747" at="150,84,161,89">
+        <var name="currentActual" id="380240910838705842" />
+      </scope>
+      <scope id="380240910837725024" at="129,64,141,13">
+        <var name="currentExpected" id="380240910837725026" />
+        <var name="multiplier" id="380240910837800801" />
+      </scope>
+      <scope id="380240910839250738" at="37,23,50,11">
+        <var name="iExp" id="380240910839250799" />
+      </scope>
+      <scope id="380240910839242266" at="79,64,92,13">
+        <var name="currentExpected" id="380240910839242268" />
+        <var name="multiplier" id="380240910839242274" />
+      </scope>
+      <scope id="380240910839242377" at="96,30,109,11">
+        <var name="iAct" id="380240910839242428" />
+      </scope>
+      <scope id="380240910839250850" at="53,30,67,11">
+        <var name="iAct" id="380240910839250901" />
+      </scope>
+      <scope id="380240910837725023" at="128,23,142,11">
+        <var name="iExp" id="380240910837725063" />
+      </scope>
+      <scope id="380240910838686744" at="148,30,162,11">
+        <var name="iAct" id="380240910838686750" />
+      </scope>
+      <scope id="380240910839250733" at="36,26,51,76">
+        <var name="iAct" id="380240910839250735" />
+      </scope>
+      <scope id="380240910839242265" at="78,23,93,11">
+        <var name="iExp" id="380240910839242326" />
+      </scope>
+      <scope id="380240910839242260" at="77,26,93,11">
+        <var name="iAct" id="380240910839242262" />
+      </scope>
+      <scope id="380240910838071498" at="127,26,145,11">
+        <var name="iAct" id="380240910837820348" />
+      </scope>
+      <scope id="380240910839250811" at="52,16,71,11">
+        <var name="message" id="380240910839250847" />
+      </scope>
+      <scope id="380240910839242338" at="94,16,122,11">
+        <var name="firstErrorElement" id="380240910842756956" />
+        <var name="message" id="380240910839242374" />
+      </scope>
+      <scope id="380240910838082279" at="146,16,176,11">
+        <var name="firstErrorElement" id="380240910843229417" />
+        <var name="message" id="380240910838839204" />
+      </scope>
+      <scope id="380240910837621606" at="35,21,75,0" />
+      <scope id="380240910837621780" at="76,21,125,14" />
+      <scope id="380240910837621983" at="126,19,179,14" />
+      <scope id="380240910835989705" at="23,44,196,16">
+        <var name="actual" id="380240910837572084" />
+        <var name="actualSequence" id="380240910837554496" />
+        <var name="multipliers" id="380240910839242340" />
+        <var name="totalMultipliers" id="380240910839501383" />
+      </scope>
+      <scope id="380240910835989697" at="21,0,198,0">
+        <var name="thisElement" id="380240910835989698" />
+      </scope>
+      <unit id="380240910835989633" at="10,0,203,0" name="de.itemis.mps.structurecheck.runtime.SequenceChecker" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910836102295">
+    <file name="SequenceCheckerType.java">
+      <unit id="380240910836102295" at="6,0,12,0" name="de.itemis.mps.structurecheck.runtime.SequenceCheckerType" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910836246444">
+    <file name="IElement.java">
+      <node id="380240910836246475" at="7,0,8,0" concept="10" trace="getMultiplier#()I" />
+      <scope id="380240910836246475" at="7,0,8,0" />
+      <unit id="380240910836246444" at="6,0,9,0" name="de.itemis.mps.structurecheck.runtime.IElement" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910836295087">
+    <file name="Element.java">
+      <node id="380240910836295198" at="8,47,9,20" concept="14" />
+      <node id="380240910836429538" at="12,30,13,13" concept="12" />
+      <node id="380240910836295192" at="8,0,11,0" concept="2" trace="Element#(null)V" />
+      <node id="380240910836429024" at="12,0,15,0" concept="10" trace="getMultiplier#()I" />
+      <scope id="380240910836295196" at="8,47,9,20" />
+      <scope id="380240910836429034" at="12,30,13,13" />
+      <scope id="380240910836295192" at="8,0,11,0">
+        <var name="checkers" id="380240910836295199" />
+      </scope>
+      <scope id="380240910836429024" at="12,0,15,0" />
+      <unit id="380240910836295087" at="6,0,16,0" name="de.itemis.mps.structurecheck.runtime.Element" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910842262035">
+    <file name="Message.java">
+      <node id="380240910842262064" at="7,0,8,0" concept="6" trace="myText" />
+      <node id="380240910842262182" at="8,0,9,0" concept="6" trace="mySource" />
+      <node id="380240910842262424" at="11,55,12,22" concept="5" />
+      <node id="380240910842262434" at="12,22,13,18" concept="5" />
+      <node id="380240910842263245" at="15,38,16,20" concept="12" />
+      <node id="380240910842263251" at="18,27,19,18" concept="12" />
+      <node id="380240910842268551" at="21,24,22,26" concept="5" />
+      <node id="380240910842263241" at="15,0,18,0" concept="10" trace="getSource#()Lde/itemis/mps/structurecheck/runtime/IElementChecker;" />
+      <node id="380240910842263247" at="18,0,21,0" concept="10" trace="getText#()Ljava/lang/String;" />
+      <node id="380240910842267066" at="21,0,24,0" concept="10" trace="report#()V" />
+      <node id="380240910842262416" at="11,0,15,0" concept="2" trace="Message#(Ljava/lang/String;Lde/itemis/mps/structurecheck/runtime/IElementChecker;)V" />
+      <scope id="380240910842263244" at="15,38,16,20" />
+      <scope id="380240910842263250" at="18,27,19,18" />
+      <scope id="380240910842267070" at="21,24,22,26" />
+      <scope id="380240910842262420" at="11,55,13,18" />
+      <scope id="380240910842263241" at="15,0,18,0" />
+      <scope id="380240910842263247" at="18,0,21,0" />
+      <scope id="380240910842267066" at="21,0,24,0" />
+      <scope id="380240910842262416" at="11,0,15,0">
+        <var name="source" id="380240910842262423" />
+        <var name="text" id="380240910842262433" />
+      </scope>
+      <unit id="380240910842262035" at="6,0,25,0" name="de.itemis.mps.structurecheck.runtime.Message" />
+    </file>
+  </root>
+  <root nodeRef="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)/380240910842285369">
+    <file name="AbstractChecker.java">
+      <node id="380240910842285919" at="8,43,9,43" concept="12" />
+      <node id="380240910842285445" at="12,44,13,16" concept="12" />
+      <node id="380240910842286828" at="15,39,16,59" concept="16" />
+      <node id="380240910842285425" at="8,0,11,0" concept="10" trace="doesMatch#(null)Z" />
+      <node id="380240910842285446" at="15,0,18,0" concept="10" trace="report#(Lde/itemis/mps/structurecheck/runtime/Message;)V" />
+      <node id="380240910842285435" at="11,0,15,0" concept="10" trace="getMessage#(null)Lde/itemis/mps/structurecheck/runtime/Message;" />
+      <scope id="380240910842285432" at="8,43,9,43" />
+      <scope id="380240910842285443" at="12,44,13,16" />
+      <scope id="380240910842285452" at="15,39,16,59" />
+      <scope id="380240910842285425" at="8,0,11,0">
+        <var name="thisElement" id="380240910842285426" />
+      </scope>
+      <scope id="380240910842285446" at="15,0,18,0">
+        <var name="message" id="380240910842285450" />
+      </scope>
+      <scope id="380240910842285435" at="11,0,15,0">
+        <var name="thisElement" id="380240910842285436" />
+      </scope>
+      <unit id="380240910842285369" at="7,0,19,0" name="de.itemis.mps.structurecheck.runtime.AbstractChecker" />
+    </file>
+  </root>
+</debug-info>
+

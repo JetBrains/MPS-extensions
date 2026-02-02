@@ -46,7 +46,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="5CYFCJDOq4r">
-    <ref role="1XX52x" to="z7ot:5CYFCJDOmka" resolve="KeeperOfCollection" />
+    <ref role="1XX52x" to="z7ot:5CYFCJDOmka" resolve="ConceptWithNestedCollections" />
     <node concept="3EZMnI" id="5CYFCJDOq4w" role="2wV5jI">
       <node concept="3F0A7n" id="5CYFCJDOIB8" role="3EZMnx">
         <ref role="1NtTu8" to="z7ot:5CYFCJDOGGO" resolve="id" />

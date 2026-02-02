@@ -33,9 +33,9 @@
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="mqum" ref="r:ec874b45-e888-42e6-995a-a298cefdff55(com.mbeddr.mpsutil.comparator.code)" />
+    <import index="mqum" ref="r:ec874b45-e888-42e6-995a-a298cefdff55(de.itemis.mps.comparator.code)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="cduv" ref="r:57a8e0f3-0113-45ee-931b-1dc409b3d2fe(com.mbeddr.mpsutil.comparator.diff.tests.genplan)" />
+    <import index="cduv" ref="r:57a8e0f3-0113-45ee-931b-1dc409b3d2fe(de.itemis.mps.comparator.diff.tests.genplan)" />
     <import index="tft2" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator.impl.plan(MPS.Generator/)" />
     <import index="ao3" ref="7124e466-fc92-4803-a656-d7a6b7eb3910/java:jetbrains.mps.text(MPS.TextGen/)" />
     <import index="2o8p" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.diff.contents(MPS.IDEA/)" />
@@ -48,12 +48,13 @@
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
-    <import index="sotg" ref="r:f7b641c7-0327-4513-80ee-fa0921b93a79(com.mbeddr.mpsutil.compare.typesystem)" />
+    <import index="sotg" ref="r:f7b641c7-0327-4513-80ee-fa0921b93a79(de.itemis.mps.compare.typesystem)" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="s9o5" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.editor(MPS.IDEA/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="ycmz" ref="r:af3e1a90-527b-4262-8066-857208a4f4fb(de.slisson.mps.reflection.runtime)" />
     <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
+    <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -424,10 +425,6 @@
       <concept id="1161622665029" name="de.itemis.mps.compare.structure.ConceptFunctionParameter_OutputModel" flags="nn" index="1Q6Npb" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
-      <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
-        <property id="1863527487546097500" name="moduleId" index="1XweGW" />
-        <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
-      </concept>
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
         <property id="1863527487546097494" name="modelId" index="1XweGQ" />
         <child id="679099339649067980" name="name" index="1j$8Uc" />
@@ -484,9 +481,6 @@
       </concept>
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
-      </concept>
-      <concept id="1678062499342629858" name="jetbrains.mps.lang.smodel.structure.ModuleRefExpression" flags="ng" index="37shsh">
-        <child id="1678062499342629861" name="moduleId" index="37shsm" />
       </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
@@ -1068,63 +1062,6 @@
   <node concept="1lH9Xt" id="12RzKZkAF$F">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="GeneratorTest" />
-    <node concept="2XrIbr" id="OPHXk6JTAO" role="1qtyYc">
-      <property role="TrG5h" value="getExpectedFolderPath" />
-      <node concept="17QB3L" id="OPHXk6JVGk" role="3clF45" />
-      <node concept="3clFbS" id="OPHXk6JTAQ" role="3clF47">
-        <node concept="3cpWs8" id="OPHXk6JW5l" role="3cqZAp">
-          <node concept="3cpWsn" id="OPHXk6JW5m" role="3cpWs9">
-            <property role="TrG5h" value="module" />
-            <node concept="3uibUv" id="OPHXk6JW5n" role="1tU5fm">
-              <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
-            </node>
-            <node concept="2OqwBi" id="OPHXk6JW5o" role="33vP2m">
-              <node concept="37shsh" id="OPHXk6JW5p" role="2Oq$k0">
-                <node concept="1dCxOk" id="OPHXk6JW5q" role="37shsm">
-                  <property role="1XweGW" value="5fc729b8-2fff-48a5-9bd3-4c1aaad33d23" />
-                  <property role="1XxBO9" value="de.itemis.mps.comparator.diff.tests" />
-                </node>
-              </node>
-              <node concept="liA8E" id="OPHXk6JW5r" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModuleReference.resolve(org.jetbrains.mps.openapi.module.SRepository)" resolve="resolve" />
-                <node concept="2OqwBi" id="OPHXk6JW5s" role="37wK5m">
-                  <node concept="1jxXqW" id="OPHXk6JW5t" role="2Oq$k0" />
-                  <node concept="liA8E" id="OPHXk6JW5u" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="OPHXk6JX1P" role="3cqZAp">
-          <node concept="2OqwBi" id="OPHXk6JW5z" role="3clFbG">
-            <node concept="2YIFZM" id="OPHXk6JW5$" role="2Oq$k0">
-              <ref role="37wK5l" to="18ew:~MacrosFactory.forModule(org.jetbrains.mps.openapi.module.SModule)" resolve="forModule" />
-              <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-              <node concept="37vLTw" id="OPHXk6JW5_" role="37wK5m">
-                <ref role="3cqZAo" node="OPHXk6JW5m" resolve="module" />
-              </node>
-            </node>
-            <node concept="liA8E" id="OPHXk6JW5A" role="2OqNvi">
-              <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
-              <node concept="3cpWs3" id="OPHXk6JYnE" role="37wK5m">
-                <node concept="37vLTw" id="OPHXk6JYq1" role="3uHU7w">
-                  <ref role="3cqZAo" node="OPHXk6JW3r" resolve="path" />
-                </node>
-                <node concept="Xl_RD" id="OPHXk6JW5B" role="3uHU7B">
-                  <property role="Xl_RC" value="${module}/" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="OPHXk6JW3r" role="3clF46">
-        <property role="TrG5h" value="path" />
-        <node concept="17QB3L" id="OPHXk6JW3q" role="1tU5fm" />
-      </node>
-    </node>
     <node concept="2XrIbr" id="6IWP88J4vku" role="1qtyYc">
       <property role="TrG5h" value="getLF" />
       <node concept="17QB3L" id="6IWP88J4BMN" role="3clF45" />
@@ -3475,7 +3412,7 @@
       </node>
     </node>
     <node concept="1LZb2c" id="OPHXk6MFVM" role="1SL9yI">
-      <property role="TrG5h" value="textGenFolderCompareFolde" />
+      <property role="TrG5h" value="textGenFolderCompareFolder" />
       <node concept="3cqZAl" id="OPHXk6MFVN" role="3clF45" />
       <node concept="3clFbS" id="OPHXk6MFVO" role="3clF47">
         <node concept="1$B7BT" id="OPHXk6MFVP" role="3cqZAp">
@@ -3487,14 +3424,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6Lh5D" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6Lh5G" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6Lh5I" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6Lh6M" role="2XxRq1">
-                <property role="Xl_RC" value="test_content" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGEZEA" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
           </node>
         </node>
       </node>
@@ -3522,14 +3453,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MO5l" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MO5m" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MO5n" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MO5o" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_lower_case" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGEZFd" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
           </node>
         </node>
       </node>
@@ -3571,14 +3496,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MP9f" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MP9g" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MP9h" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MP9i" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_lower_case" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGEZGq" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
           </node>
         </node>
       </node>
@@ -3654,14 +3573,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MPl3" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MPl4" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MPl5" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MPl6" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_lower_case" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGEZJf" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
           </node>
         </node>
       </node>
@@ -3719,14 +3632,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MPSQ" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MPSR" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MPSS" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MPST" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_only_one_file" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGF0aU" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_only_one_file" />
           </node>
         </node>
       </node>
@@ -3786,14 +3693,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MQi7" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MQi8" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MQi9" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MQia" role="2XxRq1">
-                <property role="Xl_RC" value="test_content" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGF0Ob" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
           </node>
         </node>
       </node>
@@ -3821,14 +3722,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MQTm" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MQTn" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MQTo" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MQTp" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_without_spaces" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGF0WC" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_without_spaces" />
           </node>
         </node>
       </node>
@@ -3857,14 +3752,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="OPHXk6MQXT" role="3tpDZB">
-            <node concept="2WthIp" id="OPHXk6MQXU" role="2Oq$k0" />
-            <node concept="2XshWL" id="OPHXk6MQXV" role="2OqNvi">
-              <ref role="2WH_rO" node="OPHXk6JTAO" resolve="getExpectedFolderPath" />
-              <node concept="Xl_RD" id="OPHXk6MQXW" role="2XxRq1">
-                <property role="Xl_RC" value="test_content_without_spaces" />
-              </node>
-            </node>
+          <node concept="Xl_RD" id="6odR5TGF6A7" role="3tpDZB">
+            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_without_spaces" />
           </node>
         </node>
       </node>
@@ -4746,6 +4635,7 @@
                   <node concept="1jxXqW" id="2cqAxle2t4Q" role="2XxRq1" />
                 </node>
               </node>
+              <node concept="1jxXqW" id="45YjfmMTAFv" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxle2t4R" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxljx_45" role="37wK5m" />
             </node>
@@ -4920,6 +4810,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="1jxXqW" id="45YjfmMTE8S" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxle8sKt" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxljx_bF" role="37wK5m" />
             </node>
@@ -6532,6 +6423,9 @@
             <node concept="37vLTw" id="2qPu2xqbnKI" role="37wK5m">
               <ref role="3cqZAo" node="2qPu2xqb8EF" resolve="model" />
             </node>
+            <node concept="37vLTw" id="45YjfmMTzO6" role="37wK5m">
+              <ref role="3cqZAo" node="3uYKUiUsYBG" resolve="project" />
+            </node>
             <node concept="37vLTw" id="2qPu2xqbnMY" role="37wK5m">
               <ref role="3cqZAo" node="2qPu2xqb8EI" resolve="comparator" />
             </node>
@@ -6552,6 +6446,15 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="H_c77" id="2qPu2xqb8EH" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3uYKUiUsYBG" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="3uYKUiUsYBH" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
+        <node concept="2AHcQZ" id="3uYKUiUsYBI" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="37vLTG" id="2qPu2xqb8EI" role="3clF46">
         <property role="TrG5h" value="comparator" />
@@ -7636,6 +7539,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbrHY" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZH4O" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbrWO" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbs3c" role="37wK5m" />
               </node>
@@ -7867,6 +7771,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbsyD" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZGEa" role="37wK5m" />
                 <node concept="37vLTw" id="2qPu2xqbtin" role="37wK5m">
                   <ref role="3cqZAo" node="2cqAxld_XeP" resolve="comparator" />
                 </node>
@@ -7987,6 +7892,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbF_e" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZFyB" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbFR6" role="37wK5m" />
                 <node concept="1bVj0M" id="2qPu2xqbG3A" role="37wK5m">
                   <node concept="gl6BB" id="2qPu2xqbG3B" role="1bW2Oz">
@@ -8103,6 +8009,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbR1_" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZEt1" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbRcE" role="37wK5m" />
                 <node concept="1bVj0M" id="2qPu2xqbX6H" role="37wK5m">
                   <node concept="gl6BB" id="2qPu2xqbX6I" role="1bW2Oz">
@@ -8171,6 +8078,7 @@
                     <node concept="1jxXqW" id="2qPu2xqbQ6s" role="2XxRq1" />
                   </node>
                 </node>
+                <node concept="1jxXqW" id="45YjfmMZHgi" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbQbp" role="37wK5m" />
                 <node concept="10Nm6u" id="2qPu2xqbQcW" role="37wK5m" />
               </node>
@@ -8261,6 +8169,7 @@
                   <node concept="1jxXqW" id="2cqAxldBzkt" role="2XxRq1" />
                 </node>
               </node>
+              <node concept="1jxXqW" id="45YjfmMZQid" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxldBzoi" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxljxxlu" role="37wK5m" />
             </node>
@@ -8437,6 +8346,7 @@
                   <node concept="1jxXqW" id="2cqAxldU52i" role="2XxRq1" />
                 </node>
               </node>
+              <node concept="1jxXqW" id="45YjfmMZPqS" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxldU52j" role="37wK5m" />
               <node concept="10Nm6u" id="2cqAxljx$A7" role="37wK5m" />
             </node>
@@ -12525,6 +12435,7 @@
                     </node>
                     <node concept="liA8E" id="2cqAxlejIdy" role="2OqNvi">
                       <ref role="37wK5l" to="mqum:2cqAxlh4rk$" resolve="textualDiff" />
+                      <node concept="1jxXqW" id="45YjfmMTS7n" role="37wK5m" />
                       <node concept="Xl_RD" id="2cqAxlejNzy" role="37wK5m">
                         <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                       </node>
@@ -12612,6 +12523,7 @@
                     </node>
                     <node concept="liA8E" id="2cqAxlekZsB" role="2OqNvi">
                       <ref role="37wK5l" to="mqum:2cqAxlh4rk$" resolve="textualDiff" />
+                      <node concept="1jxXqW" id="45YjfmMTWii" role="37wK5m" />
                       <node concept="Xl_RD" id="2cqAxlekZsC" role="37wK5m">
                         <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_wrong" />
                       </node>
@@ -12742,6 +12654,7 @@
                     </node>
                     <node concept="liA8E" id="2cqAxlgVkKO" role="2OqNvi">
                       <ref role="37wK5l" to="mqum:2cqAxlh4rk$" resolve="textualDiff" />
+                      <node concept="1jxXqW" id="45YjfmMZNof" role="37wK5m" />
                       <node concept="Xl_RD" id="2cqAxlgVkKP" role="37wK5m">
                         <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                       </node>

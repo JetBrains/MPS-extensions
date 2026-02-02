@@ -28,9 +28,6 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
-        <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
@@ -42,6 +39,8 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -140,9 +139,6 @@
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
-      <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
-        <child id="1180636770616" name="createdType" index="3zrR0E" />
-      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -340,25 +336,25 @@
   <node concept="1YbPZF" id="3C6_kMLO7YY">
     <property role="TrG5h" value="typeof_AssertHasElements" />
     <node concept="3clFbS" id="3C6_kMLO7YZ" role="18ibNy">
-      <node concept="1Z5TYs" id="3C6_kMLO80s" role="3cqZAp">
-        <node concept="mw_s8" id="3C6_kMLO80t" role="1ZfhKB">
-          <node concept="2c44tf" id="3C6_kMLO80u" role="mwGJk">
-            <node concept="2I9FWS" id="3C6_kMLOCSk" role="2c44tc" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="3C6_kMLO80x" role="1ZfhK$">
-          <node concept="1Z2H0r" id="3C6_kMLO80y" role="mwGJk">
-            <node concept="2OqwBi" id="3C6_kMLO80z" role="1Z2MuG">
-              <node concept="1YBJjd" id="3C6_kMLO8eH" role="2Oq$k0">
+      <node concept="1ZobV4" id="3hhKUUEQBKY" role="3cqZAp">
+        <node concept="mw_s8" id="3hhKUUEQBL0" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3hhKUUEQBL1" role="mwGJk">
+            <node concept="2OqwBi" id="3hhKUUEQBL2" role="1Z2MuG">
+              <node concept="1YBJjd" id="3hhKUUEQBL3" role="2Oq$k0">
                 <ref role="1YBMHb" node="3C6_kMLO7Z1" resolve="assertHasElements" />
               </node>
-              <node concept="3TrEf2" id="3C6_kMLZpAY" role="2OqNvi">
+              <node concept="3TrEf2" id="3hhKUUEQBL4" role="2OqNvi">
                 <ref role="3Tt5mk" to="8do3:3C6_kMLP2FL" resolve="list" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1YBJjd" id="77BxNvs6uX2" role="1ZmcU8">
+        <node concept="mw_s8" id="3hhKUUEQBL5" role="1ZfhKB">
+          <node concept="2c44tf" id="3hhKUUEQBL6" role="mwGJk">
+            <node concept="2I9FWS" id="3hhKUUEQBL7" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="1YBJjd" id="3hhKUUEQBL8" role="1ZmcU8">
           <ref role="1YBMHb" node="3C6_kMLO7Z1" resolve="assertHasElements" />
         </node>
       </node>
@@ -564,16 +560,8 @@
           <ref role="1YBMHb" node="1_DWnhqnLJ$" resolve="areEqualExpression" />
         </node>
       </node>
+      <node concept="3clFbH" id="2C1H_zkfyFs" role="3cqZAp" />
       <node concept="1Z5TYs" id="1_DWnhqnOv$" role="3cqZAp">
-        <node concept="mw_s8" id="1_DWnhqnOCu" role="1ZfhKB">
-          <node concept="2ShNRf" id="1_DWnhqnOCq" role="mwGJk">
-            <node concept="3zrR0B" id="1_DWnhqnOSE" role="2ShVmc">
-              <node concept="3Tqbb2" id="1_DWnhqnOSG" role="3zrR0E">
-                <ref role="ehGHo" to="tpee:f_0P_4Y" resolve="BooleanType" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="mw_s8" id="1_DWnhqnOvB" role="1ZfhK$">
           <node concept="1Z2H0r" id="1_DWnhqnOeK" role="mwGJk">
             <node concept="1YBJjd" id="1_DWnhqnOgC" role="1Z2MuG">
@@ -583,6 +571,11 @@
         </node>
         <node concept="1YBJjd" id="77BxNvs6v4o" role="1ZmcU8">
           <ref role="1YBMHb" node="1_DWnhqnLJ$" resolve="areEqualExpression" />
+        </node>
+        <node concept="mw_s8" id="2C1H_zkfA0y" role="1ZfhKB">
+          <node concept="2c44tf" id="2C1H_zkfA0z" role="mwGJk">
+            <node concept="10P_77" id="2C1H_zkfA0$" role="2c44tc" />
+          </node>
         </node>
       </node>
       <node concept="1ZoVOM" id="5qLQfLPiBfo" role="3cqZAp">
@@ -1410,6 +1403,53 @@
     <node concept="1YaCAy" id="2cqAxljjveu" role="1YuTPh">
       <property role="TrG5h" value="assertGeneratedTextModelEqualsFolder" />
       <ref role="1YaFvo" to="8do3:5gDLJkKHrWc" resolve="AssertGeneratedTextModelEqualsFolder" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6MWuQFM2_Gi">
+    <property role="TrG5h" value="typeof_AssertFloatEquals" />
+    <node concept="3clFbS" id="6MWuQFM2_Gj" role="18ibNy">
+      <node concept="1ZobV4" id="6MWuQFM2P76" role="3cqZAp">
+        <node concept="mw_s8" id="6MWuQFM2P77" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6MWuQFM2P78" role="mwGJk">
+            <node concept="2OqwBi" id="6MWuQFM2P79" role="1Z2MuG">
+              <node concept="1YBJjd" id="6MWuQFM2P7a" role="2Oq$k0">
+                <ref role="1YBMHb" node="6MWuQFM2_Gl" resolve="assertFloatEquals" />
+              </node>
+              <node concept="3TrEf2" id="6MWuQFM2P7b" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpe3:7jPoEeD$ZP5" resolve="actual" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6MWuQFM2P7c" role="1ZfhKB">
+          <node concept="2c44tf" id="6MWuQFM2P7d" role="mwGJk">
+            <node concept="10P55v" id="6MWuQFM2P7e" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="1ZobV4" id="6MWuQFM2Pbe" role="3cqZAp">
+        <node concept="mw_s8" id="6MWuQFM2Pbf" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6MWuQFM2Pbg" role="mwGJk">
+            <node concept="2OqwBi" id="6MWuQFM2Pbh" role="1Z2MuG">
+              <node concept="1YBJjd" id="6MWuQFM2Pbi" role="2Oq$k0">
+                <ref role="1YBMHb" node="6MWuQFM2_Gl" resolve="assertFloatEquals" />
+              </node>
+              <node concept="3TrEf2" id="6MWuQFM2Pbj" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpe3:7jPoEeD$ZP4" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6MWuQFM2Pbk" role="1ZfhKB">
+          <node concept="2c44tf" id="6MWuQFM2Pbl" role="mwGJk">
+            <node concept="10P55v" id="6MWuQFM2Pbm" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6MWuQFM2_Gl" role="1YuTPh">
+      <property role="TrG5h" value="assertFloatEquals" />
+      <ref role="1YaFvo" to="8do3:6MWuQFM2umD" resolve="AssertFloatEquals" />
     </node>
   </node>
   <node concept="1YbPZF" id="iyWIxt7jnp">

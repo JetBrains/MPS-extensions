@@ -128,6 +128,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
@@ -390,12 +391,9 @@
     <node concept="2ScWuX" id="3xkJrZK8pLC" role="tmbBb">
       <node concept="3clFbS" id="3xkJrZK8pLD" role="2VODD2">
         <node concept="3clFbF" id="3xkJrZK8q46" role="3cqZAp">
-          <node concept="2OqwBi" id="3xkJrZK8rZf" role="3clFbG">
-            <node concept="2YIFZM" id="3xkJrZK8qj1" role="2Oq$k0">
-              <ref role="37wK5l" node="3bf11hdO7p6" resolve="getStringFromClipboard" />
-              <ref role="1Pybhc" node="3bf11hdNzr0" resolve="PlaintextPaster" />
-            </node>
-            <node concept="17RvpY" id="3xkJrZK8t6K" role="2OqNvi" />
+          <node concept="2YIFZM" id="KB34h5rrY9" role="3clFbG">
+            <ref role="37wK5l" node="KB34h5qlAe" resolve="hasClipboardContents" />
+            <ref role="1Pybhc" node="3bf11hdNzr0" resolve="PlaintextPaster" />
           </node>
         </node>
       </node>
@@ -424,6 +422,29 @@
   </node>
   <node concept="312cEu" id="3bf11hdNzr0">
     <property role="TrG5h" value="PlaintextPaster" />
+    <node concept="2YIFZL" id="KB34h5qlAe" role="jymVt">
+      <property role="TrG5h" value="hasClipboardContents" />
+      <node concept="3clFbS" id="KB34h5qlAh" role="3clF47">
+        <node concept="3clFbF" id="1Gyb7mMRHFR" role="3cqZAp">
+          <node concept="2OqwBi" id="6u_mZnPjPim" role="3clFbG">
+            <node concept="2YIFZM" id="6u_mZnPjPin" role="2Oq$k0">
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx()" resolve="getInstanceEx" />
+              <ref role="1Pybhc" to="ddhc:~CopyPasteManagerEx" resolve="CopyPasteManagerEx" />
+            </node>
+            <node concept="liA8E" id="6u_mZnPjPio" role="2OqNvi">
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.areDataFlavorsAvailable(java.awt.datatransfer.DataFlavor...)" resolve="areDataFlavorsAvailable" />
+              <node concept="10M0yZ" id="KB34h5rhhw" role="37wK5m">
+                <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
+                <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="KB34h5qgEb" role="1B3o_S" />
+      <node concept="10P_77" id="KB34h5rhQR" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="KB34h5qe7N" role="jymVt" />
     <node concept="2YIFZL" id="3bf11hdO7p6" role="jymVt">
       <property role="TrG5h" value="getStringFromClipboard" />
       <property role="DiZV1" value="false" />
@@ -2219,12 +2240,9 @@
     <node concept="2ScWuX" id="3xkJrZK9H3_" role="tmbBb">
       <node concept="3clFbS" id="3xkJrZK9H3A" role="2VODD2">
         <node concept="3clFbF" id="3xkJrZK9HhY" role="3cqZAp">
-          <node concept="2OqwBi" id="3xkJrZK9HhZ" role="3clFbG">
-            <node concept="2YIFZM" id="3xkJrZK9Hi0" role="2Oq$k0">
-              <ref role="37wK5l" node="3bf11hdO7p6" resolve="getStringFromClipboard" />
-              <ref role="1Pybhc" node="3bf11hdNzr0" resolve="PlaintextPaster" />
-            </node>
-            <node concept="17RvpY" id="3xkJrZK9Hi1" role="2OqNvi" />
+          <node concept="2YIFZM" id="KB34h5rsEh" role="3clFbG">
+            <ref role="37wK5l" node="KB34h5qlAe" resolve="hasClipboardContents" />
+            <ref role="1Pybhc" node="3bf11hdNzr0" resolve="PlaintextPaster" />
           </node>
         </node>
       </node>

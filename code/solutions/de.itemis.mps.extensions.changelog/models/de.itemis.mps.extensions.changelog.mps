@@ -682,6 +682,41 @@
             <property role="3oM_SC" value="nodes." />
           </node>
         </node>
+        <node concept="2DRihI" id="1jIBqreISkF" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="1jIBqreISlh" role="1PaTwD">
+            <node concept="37shsh" id="1jIBqreISli" role="15Aodc">
+              <node concept="1dCxOk" id="1jIBqreISlj" role="37shsm">
+                <property role="1XweGW" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a" />
+                <property role="1XxBO9" value="com.dslfoundry.plaintextgen" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISlk" role="1PaTwD">
+            <property role="3oM_SC" value="Context" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISll" role="1PaTwD">
+            <property role="3oM_SC" value="assistant" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISlm" role="1PaTwD">
+            <property role="3oM_SC" value="buttons" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISln" role="1PaTwD">
+            <property role="3oM_SC" value="were" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISlo" role="1PaTwD">
+            <property role="3oM_SC" value="added" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISlp" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISlq" role="1PaTwD">
+            <property role="3oM_SC" value="common" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISlr" role="1PaTwD">
+            <property role="3oM_SC" value="operations." />
+          </node>
+        </node>
       </node>
       <node concept="15bAme" id="69$1zpUq4Hi" role="15bAlL">
         <node concept="2DRihI" id="69$1zpUq4Hj" role="15bAlk">
@@ -773,6 +808,178 @@
           </node>
           <node concept="3oM_SD" id="2C1H_zkmBBx" role="1PaTwD">
             <property role="3oM_SC" value="mpsProject)" />
+          </node>
+        </node>
+        <node concept="2DRihI" id="1jIBqreISn9" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="1jIBqreISna" role="1PaTwD">
+            <node concept="37shsh" id="1jIBqreISnb" role="15Aodc">
+              <node concept="1dCxOk" id="1jIBqreISnc" role="37shsm">
+                <property role="1XweGW" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a" />
+                <property role="1XxBO9" value="com.dslfoundry.plaintextgen" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnd" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="15Ami3" id="1jIBqreISne" role="1PaTwD">
+            <node concept="37shsh" id="1jIBqreISnf" role="15Aodc">
+              <node concept="1dCxOk" id="1jIBqreISng" role="37shsm">
+                <property role="1XweGW" value="cf681fc9-c798-4f89-af38-ba3c0ac342d9" />
+                <property role="1XxBO9" value="com.dslfoundry.plaintextflow" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnh" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISni" role="1PaTwD">
+            <property role="3oM_SC" value="readability" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnj" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnk" role="1PaTwD">
+            <property role="3oM_SC" value="dark" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnl" role="1PaTwD">
+            <property role="3oM_SC" value="theme" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnm" role="1PaTwD">
+            <property role="3oM_SC" value="support" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnn" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISno" role="1PaTwD">
+            <property role="3oM_SC" value="improved." />
+          </node>
+        </node>
+        <node concept="2DRihI" id="1jIBqreISnq" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="1jIBqreISnr" role="1PaTwD">
+            <node concept="37shsh" id="1jIBqreISns" role="15Aodc">
+              <node concept="1dCxOk" id="1jIBqreISnt" role="37shsm">
+                <property role="1XweGW" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a" />
+                <property role="1XxBO9" value="com.dslfoundry.plaintextgen" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnu" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnv" role="1PaTwD">
+            <property role="3oM_SC" value="generator" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnw" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnx" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISny" role="1PaTwD">
+            <property role="3oM_SC" value="deal" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnz" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISn$" role="1PaTwD">
+            <property role="3oM_SC" value="null" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISn_" role="1PaTwD">
+            <property role="3oM_SC" value="words." />
+          </node>
+        </node>
+        <node concept="2DRihI" id="1jIBqreISnA" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="1jIBqreISnB" role="1PaTwD">
+            <node concept="37shsh" id="1jIBqreISnC" role="15Aodc">
+              <node concept="1dCxOk" id="1jIBqreISnD" role="37shsm">
+                <property role="1XweGW" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a" />
+                <property role="1XxBO9" value="com.dslfoundry.plaintextgen" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnE" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnF" role="1PaTwD">
+            <property role="3oM_SC" value="change" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnG" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnH" role="1PaTwD">
+            <property role="3oM_SC" value="vertical" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnI" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnJ" role="1PaTwD">
+            <property role="3oM_SC" value="indent" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnK" role="1PaTwD">
+            <property role="3oM_SC" value="collection" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnL" role="1PaTwD">
+            <property role="3oM_SC" value="intention" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnM" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnN" role="1PaTwD">
+            <property role="3oM_SC" value="preserve" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnO" role="1PaTwD">
+            <property role="3oM_SC" value="node" />
+          </node>
+          <node concept="3oM_SD" id="1jIBqreISnP" role="1PaTwD">
+            <property role="3oM_SC" value="attributes." />
+          </node>
+        </node>
+        <node concept="2DRihI" id="5sUcwSMmvyM" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="5sUcwSMmvyN" role="1PaTwD">
+            <node concept="37shsh" id="5sUcwSMmvyO" role="15Aodc">
+              <node concept="1dCxOk" id="5sUcwSMmvyP" role="37shsm">
+                <property role="1XweGW" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a" />
+                <property role="1XxBO9" value="com.dslfoundry.plaintextgen" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyQ" role="1PaTwD">
+            <property role="3oM_SC" value="Attributes" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyR" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyS" role="1PaTwD">
+            <property role="3oM_SC" value="splitted" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyT" role="1PaTwD">
+            <property role="3oM_SC" value="words" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyU" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyV" role="1PaTwD">
+            <property role="3oM_SC" value="moved" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyW" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyX" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyY" role="1PaTwD">
+            <property role="3oM_SC" value="line" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvyZ" role="1PaTwD">
+            <property role="3oM_SC" value="if" />
+          </node>
+          <node concept="3oM_SD" id="5sUcwSMmvz0" role="1PaTwD">
+            <property role="3oM_SC" value="possible." />
           </node>
         </node>
       </node>

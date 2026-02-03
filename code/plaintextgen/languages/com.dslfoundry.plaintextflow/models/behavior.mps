@@ -161,7 +161,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="6$Hx0f8lz7R" role="13h7CS">
-      <property role="TrG5h" value="ancestorPrefix" />
+      <property role="TrG5h" value="getAncestorPrefix" />
       <node concept="3Tm1VV" id="6$Hx0f8lz7S" role="1B3o_S" />
       <node concept="17QB3L" id="6$Hx0f8lzrD" role="3clF45" />
       <node concept="3clFbS" id="6$Hx0f8lz7U" role="3clF47">
@@ -248,8 +248,8 @@
       </node>
     </node>
     <node concept="13i0hz" id="KIa9PDyts6" role="13h7CS">
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="KIa9PDyts7" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDytsa" role="3clF47">
         <node concept="YS8fn" id="KIa9PDytH_" role="3cqZAp">
@@ -266,8 +266,8 @@
       <node concept="10Oyi0" id="KIa9PDytsb" role="3clF45" />
     </node>
     <node concept="13i0hz" id="KIa9PDytse" role="13h7CS">
-      <property role="TrG5h" value="Editor_View_Width" />
-      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
+      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3Tm1VV" id="KIa9PDytsh" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDytsk" role="3clF47">
         <node concept="YS8fn" id="KIa9PDytZf" role="3cqZAp">
@@ -288,8 +288,8 @@
       <node concept="10Oyi0" id="KIa9PDytsn" role="3clF45" />
     </node>
     <node concept="13i0hz" id="KIa9PDytsq" role="13h7CS">
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="KIa9PDytsx" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDyts$" role="3clF47">
         <node concept="YS8fn" id="KIa9PDyud5" role="3cqZAp">
@@ -348,8 +348,8 @@
     <node concept="13i0hz" id="3McofIU0hxY" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="3McofIU0hy5" role="1B3o_S" />
       <node concept="3clFbS" id="3McofIU0hy8" role="3clF47">
         <node concept="3cpWs6" id="3McofIU0iYg" role="3cqZAp">
@@ -387,8 +387,8 @@
     <node concept="13i0hz" id="3McofIU03o7" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="3McofIU03o8" role="1B3o_S" />
       <node concept="3clFbS" id="3McofIU03ob" role="3clF47">
         <node concept="YS8fn" id="3McofIU05HK" role="3cqZAp">
@@ -407,8 +407,8 @@
     <node concept="13i0hz" id="3McofIU03od" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="Editor_View_Width" />
-      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
+      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3Tm1VV" id="3McofIU03og" role="1B3o_S" />
       <node concept="3clFbS" id="3McofIU03oj" role="3clF47">
         <node concept="YS8fn" id="3McofIU05Qu" role="3cqZAp">
@@ -435,8 +435,8 @@
       <node concept="3clFbS" id="KIa9PDy4Ph" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="KIa9PDye5O" role="13h7CS">
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="KIa9PDye5P" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDye5S" role="3clF47">
         <node concept="3clFbF" id="KIa9PDyhif" role="3cqZAp">
@@ -470,13 +470,13 @@
       <node concept="10Oyi0" id="KIa9PDye5T" role="3clF45" />
     </node>
     <node concept="13i0hz" id="KIa9PDye5W" role="13h7CS">
-      <property role="TrG5h" value="Editor_View_Width" />
-      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
+      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3Tm1VV" id="KIa9PDye5Z" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDye62" role="3clF47">
         <node concept="3clFbF" id="KIa9PDyjgP" role="3cqZAp">
           <node concept="BsUDl" id="KIa9PDyjgO" role="3clFbG">
-            <ref role="37wK5l" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+            <ref role="37wK5l" to="3rmn:6gwxh6GcBOM" resolve="getWidth" />
           </node>
         </node>
       </node>
@@ -487,8 +487,8 @@
       <node concept="10Oyi0" id="KIa9PDye65" role="3clF45" />
     </node>
     <node concept="13i0hz" id="KIa9PDye68" role="13h7CS">
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="KIa9PDye6f" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDye6i" role="3clF47">
         <node concept="YS8fn" id="KIa9PDys5n" role="3cqZAp">
@@ -528,8 +528,8 @@
       <node concept="3clFbS" id="KIa9PDyaO6" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="KIa9PDyaOf" role="13h7CS">
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="KIa9PDyaOg" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDyaOj" role="3clF47">
         <node concept="3clFbF" id="KIa9PDyaOm" role="3cqZAp">
@@ -541,8 +541,8 @@
       <node concept="10Oyi0" id="KIa9PDyaOk" role="3clF45" />
     </node>
     <node concept="13i0hz" id="KIa9PDyaOn" role="13h7CS">
-      <property role="TrG5h" value="Editor_View_Width" />
-      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
+      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3Tm1VV" id="KIa9PDyaOq" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDyaOt" role="3clF47">
         <node concept="3clFbF" id="KIa9PDyaOy" role="3cqZAp">
@@ -558,8 +558,8 @@
       <node concept="10Oyi0" id="KIa9PDyaOw" role="3clF45" />
     </node>
     <node concept="13i0hz" id="KIa9PDyaOz" role="13h7CS">
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="KIa9PDyaOE" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDyaOH" role="3clF47">
         <node concept="YS8fn" id="KIa9PDysOM" role="3cqZAp">
@@ -598,8 +598,8 @@
       <node concept="3clFbS" id="KIa9PDyn1t" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="KIa9PDyn1A" role="13h7CS">
-      <property role="TrG5h" value="Width" />
-      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+      <property role="TrG5h" value="getWidth" />
+      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="getWidth" />
       <node concept="3Tm1VV" id="KIa9PDyn1B" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDyn1E" role="3clF47">
         <node concept="3clFbF" id="KIa9PDyn1H" role="3cqZAp">
@@ -611,8 +611,8 @@
       <node concept="10Oyi0" id="KIa9PDyn1F" role="3clF45" />
     </node>
     <node concept="13i0hz" id="KIa9PDyn1I" role="13h7CS">
-      <property role="TrG5h" value="Editor_View_Width" />
-      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <property role="TrG5h" value="getEditorViewWidth" />
+      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="getEditorViewWidth" />
       <node concept="3Tm1VV" id="KIa9PDyn1L" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDyn1O" role="3clF47">
         <node concept="3clFbF" id="KIa9PDyn1T" role="3cqZAp">
@@ -628,8 +628,8 @@
       <node concept="10Oyi0" id="KIa9PDyn1R" role="3clF45" />
     </node>
     <node concept="13i0hz" id="KIa9PDyn1U" role="13h7CS">
-      <property role="TrG5h" value="TextGen" />
-      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+      <property role="TrG5h" value="getPosition" />
+      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
       <node concept="3Tm1VV" id="KIa9PDyn21" role="1B3o_S" />
       <node concept="3clFbS" id="KIa9PDyn24" role="3clF47">
         <node concept="YS8fn" id="KIa9PDysVw" role="3cqZAp">

@@ -19,8 +19,15 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
+- *nl.f1re.mps.aliascustomization* The alias of all concepts globally can now be customized through the extension point [AliasCustomization.](http://127.0.0.1:63320/node?ref=r%3Af0a80b34-9760-42b8-9ee6-d5b0d1582551%28de.slisson.mps.conditionalEditor.runtime.plugin%29%2F1679635547169731239) Please be aware that this feature is experimental. Use it with care!
+- *com.mbeddr.mpsutil.intentions* All intentions can now be customized through the extension point [IntentionCustomization](http://127.0.0.1:63320/node?ref=r%3A028362d1-b964-410a-a3d5-6096bcd4a2b6%28com.mbeddr.mpsutil.intentions.runtime.plugin%29%2F4784371196443178355) (child filter, description, is applicable block, execute method). Note that you can't customize intentions that are not enabled in the current context (node + editor context).
 - *de.itemis.mps.compare* 'assert node equals' and ':isEqualTo:' expression can now ignore attributes (annotations) when comparing nodes.
 - *com.dslfoundry.plaintextgen* Context assistant buttons were added for common operations.
+
+### Fixed
+
+- *com.dslfoundry.langvis.plugin* The action *Visualize* *Language* *Structure* doesn't throw an  IllegalModelAccessError anymore.
+- Migrate all usages of deprecated getInstance() from [NavigationSupport](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.openapi.navigation%28MPS.Editor%2F%29%2F~NavigationSupport) to its replacement getInstance(Project mpsProject)
 
 ### Changed
 
@@ -40,16 +47,22 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Added
 
 - *de.itemis.mps.editor.diagram.runtime* Add an experimental static flag to disable autolayout-on-init. Useful for batch autolayouting.
+- *com.mbeddr.mpsutil.grammarcells* All cells now support *show* *if* blocks (except optional cells), parent styles and style sheet items. Note that only certain styles can be applied (transitive styles and styles that make sense for wrapper cells).
 
 ### Fixed
 
 - *de.slisson.mps.tables* IllegalArgumentException thrown when copy-paste support is not defined for a table node (#1650).
 - *de.slisson.mps.tables* Textgen warning about duplicate unit name when an editor model contains multiple tables without an action map. 
+- *de.itemis.mps.editor.pagination* A NullPointerException was fixed for cases where the clicked node was null.
+- *de.itemis.mps.spellcheck* Custom dictionaries are not saved in the .mps/dictionaries/project.xml files anymore and pollute the file that is normally used for words saved manually by the user.
+- *de.itemis.mps.editor.celllayout* Reloading all classes do not lead to ClassCastExceptions anymore.
 
 ## October 2025
 
 ### Fixed
 
+- *de.itemis.mps.comparator* The freeze was fixed when opening the diff viewer and indexing was going on in the background.
+- *de.itemis.mps.editor.bool.runtime* Improve loading of checkbox images to work in scenarios where the node being edited is not part of a model (even if only temporarily).
 - *de.itemis.mps.extensions.build* Version number is now set correctly in the `build.properties` file inside the published artifact.
 
 ### Changed
@@ -66,6 +79,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.spellcheck* An exception coming from the WordsToDictionaryIntention was fixed.
+- *de.itemis.mps.linenumbers* Reloading classes no longer causes an exception to be thrown and line numbers to disappear.
 
 ## August 2025
 
@@ -97,6 +111,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *jetbrains.mps.lang.smodel.query* A NullPointerException was fixed in the query list typesystem checker.
 - *de.itemis.mps.comparator* Custom generation plans of generation options builders are not overwritten anymore.
 - *de.itemis.mps.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
+- *de.slisson.mps.tables.runtime* Table Actions Toolbar items now appear in the new UI toolbar.
 
 ### Added
 

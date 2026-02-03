@@ -343,6 +343,70 @@
           </node>
         </node>
       </node>
+      <node concept="15bAme" id="7SA0CO5ORSw" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOE/added" />
+        <node concept="2DRihI" id="7SA0CO5ORSx" role="15bAlk">
+          <node concept="15Ami3" id="7SA0CO5ORSy" role="1PaTwD">
+            <node concept="37shsh" id="7SA0CO5ORSz" role="15Aodc">
+              <node concept="1dCxOk" id="7SA0CO5P1cI" role="37shsm">
+                <property role="1XweGW" value="1144260c-e9a5-49a2-9add-39a1a1a7077e" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.diagram.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjRk" role="1PaTwD">
+            <property role="3oM_SC" value="Turned" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjRl" role="1PaTwD">
+            <property role="3oM_SC" value="SVGGenerator" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjRm" role="1PaTwD">
+            <property role="3oM_SC" value="into" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjRn" role="1PaTwD">
+            <property role="3oM_SC" value="object" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjRx" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjRy" role="1PaTwD">
+            <property role="3oM_SC" value="options" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjXw" role="1PaTwD">
+            <property role="3oM_SC" value="(TextAsShape," />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjXx" role="1PaTwD">
+            <property role="3oM_SC" value="UseCSS," />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjXE" role="1PaTwD">
+            <property role="3oM_SC" value="SetViewBox)," />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjXy" role="1PaTwD">
+            <property role="3oM_SC" value="customizable" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjXz" role="1PaTwD">
+            <property role="3oM_SC" value="style" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjXB" role="1PaTwD">
+            <property role="3oM_SC" value="snippet" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5PjXF" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5Pk3_" role="1PaTwD">
+            <property role="3oM_SC" value="SVGGenerator.Builder" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5Pk3A" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5Pk3B" role="1PaTwD">
+            <property role="3oM_SC" value="convenient" />
+          </node>
+          <node concept="3oM_SD" id="7SA0CO5Pk3C" role="1PaTwD">
+            <property role="3oM_SC" value="usage." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="15bmVD" id="1tfgU6ddLDI" role="15bmVC">
       <node concept="15ShDW" id="1tfgU6ddLDF" role="15bq2Y">

@@ -33,7 +33,7 @@
       </concept>
       <concept id="961540447467370111" name="de.itemis.mps.changelog.structure.ChangeSection" flags="ng" index="15bAme">
         <property id="961540447467370147" name="type" index="15bAli" />
-        <child id="961540447467370149" name="changes" index="15bAlk" unordered="true" />
+        <child id="961540447467370149" name="changes" index="15bAlk" />
       </concept>
       <concept id="961540447472285554" name="de.itemis.mps.changelog.structure.ModuleReference" flags="ng" index="15Ami3">
         <child id="961540447472292029" name="expression" index="15Aodc" />

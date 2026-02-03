@@ -28,19 +28,15 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *com.dslfoundry.langvis.plugin* The action *Visualize* *Language* *Structure* doesn't throw an  IllegalModelAccessError anymore.
 - Migrate all usages of deprecated getInstance() from [NavigationSupport](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.openapi.navigation%28MPS.Editor%2F%29%2F~NavigationSupport) to its replacement getInstance(Project mpsProject)
+- *com.dslfoundry.plaintextgen* and *com.dslfoundry.plaintextflow* The readability and dark theme support was improved.
+- *com.dslfoundry.plaintextgen* The generator can now deal with null words.
+- *com.dslfoundry.plaintextgen* The change to vertical and indent collection intention now preserve node attributes.
+- *com.dslfoundry.plaintextgen* Attributes of splitted words are moved to the line if possible.
 
 ### Changed
 
 - *de.itemis.mps.compare* 'show diff' in assertions is now implemented using a transient property. Changing it will mark the node as changed but the property value is not written to disk and so will never be checked into version control.
 - *de.itemis.mps.compare* minor improvements to the editors of 'assert node equals' and 'show diff'.
-
-### Fixed
-
-- Migrate all usages of deprecated getInstance() from [NavigationSupport](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.openapi.navigation%28MPS.Editor%2F%29%2F~NavigationSupport) to its replacement getInstance(Project mpsProject)
-- *com.dslfoundry.plaintextgen* and *com.dslfoundry.plaintextflow* The readability and dark theme support was improved.
-- *com.dslfoundry.plaintextgen* The generator can now deal with null words.
-- *com.dslfoundry.plaintextgen* The change to vertical and indent collection intention now preserve node attributes.
-- *com.dslfoundry.plaintextgen* Attributes of splitted words are moved to the line if possible.
 
 ## November 2025
 

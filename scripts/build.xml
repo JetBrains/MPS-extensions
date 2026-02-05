@@ -106,8 +106,10 @@
     <echo message="generating" />
     <generate fork="true" targetJavaVersion="1.8" logLevel="${mps.ant.log}">      
       <settings refid="m2m-0" />
+      <plugin path="${artifacts.mps}/lib/mps-workbench.jar" id="com.intellij.modules.mps" />
       <plugin path="${artifacts.mps}/plugins/mps-build" id="jetbrains.mps.build" />
       <plugin path="${artifacts.mps}/plugins/mps-core" id="jetbrains.mps.core" />
+      <library file="${artifacts.mps}/languages/editor/jetbrains.mps.ide.editor.jar" />
       <chunk>
         <module file="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd" />
       </chunk>

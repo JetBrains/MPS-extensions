@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## February 2026
+
+### Fixed
+
+- *de.itemis.mps.editor.bool.runtime* Optimize performance of boolean checkbox widgets, esp. when opening editors with many of them. 
+- *de.itemis.mps.editor.enumeration.runtime* Optimize performance of enum checkbox widgets, esp. when opening editors with many of them. 
+
 ## January 2026
 
 ### Fixed

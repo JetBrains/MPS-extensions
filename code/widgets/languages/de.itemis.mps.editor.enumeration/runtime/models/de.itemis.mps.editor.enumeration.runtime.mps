@@ -7,6 +7,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
@@ -261,6 +262,18 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
         <property id="2034914114981261751" name="severity" index="RRSoG" />
@@ -277,6 +290,9 @@
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -3311,6 +3327,49 @@
                 </node>
               </node>
             </node>
+            <node concept="3SKdUt" id="1KzPx3uCM9Y" role="3cqZAp">
+              <node concept="1PaTwC" id="1KzPx3uCM9Z" role="1aUNEU">
+                <node concept="3oM_SD" id="1KzPx3uCMa0" role="1PaTwD">
+                  <property role="3oM_SC" value="NOTE:" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCNBZ" role="1PaTwD">
+                  <property role="3oM_SC" value="The" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCNCt" role="1PaTwD">
+                  <property role="3oM_SC" value="same" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRuw" role="1PaTwD">
+                  <property role="3oM_SC" value="approach" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRuX" role="1PaTwD">
+                  <property role="3oM_SC" value="is" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRuY" role="1PaTwD">
+                  <property role="3oM_SC" value="done" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRuZ" role="1PaTwD">
+                  <property role="3oM_SC" value="in" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRvs" role="1PaTwD">
+                  <property role="3oM_SC" value="ImageLoading" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRxD" role="1PaTwD">
+                  <property role="3oM_SC" value="(for" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRxI" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRxJ" role="1PaTwD">
+                  <property role="3oM_SC" value="boolean" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRyC" role="1PaTwD">
+                  <property role="3oM_SC" value="checkbox" />
+                </node>
+                <node concept="3oM_SD" id="1KzPx3uCRzX" role="1PaTwD">
+                  <property role="3oM_SC" value="widget)." />
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="2H0VnaEI6fV" role="3cqZAp">
               <node concept="3cpWsn" id="2H0VnaEI6fW" role="3cpWs9">
                 <property role="TrG5h" value="moduleRef" />
@@ -3780,6 +3839,13 @@
       <node concept="37vLTG" id="2H0VnaEKc99" role="3clF46">
         <property role="TrG5h" value="path" />
         <node concept="17QB3L" id="2H0VnaEKh3a" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="1KzPx3uyJYA" role="lGtFl">
+        <node concept="TZ5HA" id="1KzPx3uyJYB" role="TZ5H$">
+          <node concept="1dT_AC" id="1KzPx3uyJYC" role="1dT_Ay">
+            <property role="1dT_AB" value="Note: This method is a duplicate of ImageLoading.retrieveURL." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3Tm1VV" id="7bBLNlFIyR5" role="1B3o_S" />

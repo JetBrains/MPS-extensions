@@ -9,6 +9,7 @@ import de.itemis.mps.gradle.tasks.MpsMigrate
 import de.itemis.mps.gradle.tasks.Remigrate
 import groovy.xml.XmlSlurper
 import groovy.xml.slurpersupport.GPathResult
+import org.gradle.kotlin.dsl.support.serviceOf
 import java.util.*
 
 plugins {
@@ -364,19 +365,31 @@ fun forEachBundledDependency(action: (ResolvedDependency) -> Unit) {
     }
 }
 
-tasks.register<Exec>("pipInstall") {
+val pythonEnvDir = layout.buildDirectory.dir("python-env")
+val python3 = pythonEnvDir.map { it.file("bin/python3") }
+
+tasks.register("pipInstall") {
     inputs.file("requirements.txt")
-    commandLine("python3", "-m", "pip", "install", "-r", "requirements.txt")
+
+    doLast {
+        val execOps = serviceOf<ExecOperations>()
+        execOps.exec {
+            commandLine("python3", "-m", "venv", pythonEnvDir.get().asFile)
+        }
+        execOps.exec {
+            commandLine(python3.get(), "-m", "pip", "install", "-r", "requirements.txt")
+        }
+    }
 }
 
 tasks.register<Exec>("previewDocs") {
     dependsOn("pipInstall")
-    commandLine("python3", "-m", "mkdocs", "serve")
+    commandLine(python3.get(), "-m", "mkdocs", "serve")
 }
 
 tasks.register<Exec>("deployDocs") {
     dependsOn("pipInstall")
-    commandLine("python3", "-", "mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force")
+    commandLine(python3.get(), "-m", "mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force")
 }
 
 

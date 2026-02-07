@@ -2785,6 +2785,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="2H0VnaF0Hjs" role="3bR37C">
+          <node concept="3bR9La" id="2H0VnaF0Hjt" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7wH7VDRXpIb" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -10367,6 +10372,11 @@
             <node concept="3qWCbU" id="2eucapX083o" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3xkJrZKcykz" role="3bR37C">
+          <node concept="3bR9La" id="3xkJrZKcyk$" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
           </node>
         </node>
       </node>

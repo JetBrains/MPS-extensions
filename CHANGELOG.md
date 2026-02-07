@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## February 2026
+
+### Fixed
+
+- *de.itemis.mps.editor.bool.runtime* Optimize performance of boolean checkbox widgets, esp. when opening editors with many of them. 
+- *de.itemis.mps.editor.enumeration.runtime* Optimize performance of enum checkbox widgets, esp. when opening editors with many of them. 
+
 ## January 2026
 
 ### Fixed
@@ -22,11 +29,16 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *nl.f1re.mps.aliascustomization* The alias of all concepts globally can now be customized through the extension point [AliasCustomization.](http://127.0.0.1:63320/node?ref=r%3Af0a80b34-9760-42b8-9ee6-d5b0d1582551%28de.slisson.mps.conditionalEditor.runtime.plugin%29%2F1679635547169731239) Please be aware that this feature is experimental. Use it with care!
 - *com.mbeddr.mpsutil.intentions* All intentions can now be customized through the extension point [IntentionCustomization](http://127.0.0.1:63320/node?ref=r%3A028362d1-b964-410a-a3d5-6096bcd4a2b6%28com.mbeddr.mpsutil.intentions.runtime.plugin%29%2F4784371196443178355) (child filter, description, is applicable block, execute method). Note that you can't customize intentions that are not enabled in the current context (node + editor context).
 - *de.itemis.mps.compare* 'assert node equals' and ':isEqualTo:' expression can now ignore attributes (annotations) when comparing nodes.
+- *com.dslfoundry.plaintextgen* Context assistant buttons were added for common operations.
 
 ### Fixed
 
 - *com.dslfoundry.langvis.plugin* The action *Visualize* *Language* *Structure* doesn't throw an  IllegalModelAccessError anymore.
 - Migrate all usages of deprecated getInstance() from [NavigationSupport](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.openapi.navigation%28MPS.Editor%2F%29%2F~NavigationSupport) to its replacement getInstance(Project mpsProject)
+- *com.dslfoundry.plaintextgen* and *com.dslfoundry.plaintextflow* The readability and dark theme support was improved.
+- *com.dslfoundry.plaintextgen* The generator can now deal with null words.
+- *com.dslfoundry.plaintextgen* The change to vertical and indent collection intention now preserve node attributes.
+- *com.dslfoundry.plaintextgen* Attributes of splitted words are moved to the line if possible.
 
 ### Changed
 

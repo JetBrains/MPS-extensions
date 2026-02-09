@@ -441,7 +441,7 @@ tasks.register<MpsMigrate>("migrate") {
 
 tasks.register<Remigrate>("remigrate") {
     mustRunAfter("migrate")
-    mustRunAfter(provider { mpsBuilds.map(MpsBuild::generateTask) })
+    dependsOn(provider { mpsBuilds.map(MpsBuild::generateTask) })
 
     javaLauncher = jbrToolchain.javaLauncher
     mpsHome = mpsDefaults.mpsHome
@@ -452,8 +452,6 @@ tasks.register<Remigrate>("remigrate") {
 
     // diagram migration from version 0 is currently not rerunnable, although it claims to be
     excludeModuleMigration("de.itemis.mps.editor.diagram", 0)
-    // not rerunnable until MPS-39315 is fixed
-    excludeModuleMigration("jetbrains.mps.baseLanguage.javadoc", 0)
 }
 
 val generateChangelog by tasks.registering(MpsGenerate::class) {

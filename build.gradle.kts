@@ -13,7 +13,7 @@ import org.gradle.kotlin.dsl.support.serviceOf
 import java.util.*
 
 plugins {
-    id("de.itemis.mps.gradle.common") version "1.29.3.+"
+    id("de.itemis.mps.gradle.common") version "1.30.0.+"
     id("com.github.breadmoirai.github-release") version "2.5.2"
     id("maven-publish")
     id("base")

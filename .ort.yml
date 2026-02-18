@@ -1,0 +1,42 @@
+excludes:
+  scopes:
+    - pattern: "test.*"
+      reason: "TEST_DEPENDENCY_OF"
+    - pattern: ".*Backend"
+      reason: "BUILD_DEPENDENCY_OF"
+    - pattern: "executeGenerators"
+      reason: "BUILD_DEPENDENCY_OF"
+    - pattern: "jbr"
+      reason: "RUNTIME_DEPENDENCY_OF"
+    - pattern: "mps"
+      reason: "RUNTIME_DEPENDENCY_OF"
+    - pattern: "install" # requirements.txt scope
+      reason: "DOCUMENTATION_DEPENDENCY_OF"
+
+# Needs `enableRepositoryPackageCurations: true` in ORT config
+curations:
+  packages:
+  - id: "Maven:commons-primitives:commons-primitives:1.0"
+    curations:
+      comment: "Manually provide Subversion URL, no sources jar available."
+      source_code_origins: [VCS]
+      vcs:
+        type: "Subversion"
+        url: "https://svn.apache.org/repos/asf/commons/dormant/primitives/"
+        revision: "PRIMITIVES_1_0"
+  - id: "Maven:xml-apis:xml-apis-ext:1.3.04"
+    curations:
+      comment: "Manually provide Subversion URL, no sources jar available."
+      source_code_origins: [VCS]
+      vcs:
+        type: "Subversion"
+        url: "https://svn.apache.org/repos/asf/xerces/xml-commons/"
+        revision: "xml-commons-external-1_3_04"
+  - id: "Maven:de.itemis.mps:jgraphx:1.0.0"
+    curations:
+      comment: "Manually provide Git URL, no sources jar available."
+      source_code_origins: [VCS]
+      vcs:
+        type: "Git"
+        url: "https://github.com/slisson/jgraphx"
+        revision: "b76cc211d6046fb1772d22aff45baa56c9e87418" # master as of 19.2.2026

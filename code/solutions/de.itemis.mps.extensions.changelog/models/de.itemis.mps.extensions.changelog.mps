@@ -345,7 +345,29 @@
           <node concept="3oM_SD" id="4eHoR35wRrU" role="1PaTwD">
             <property role="3oM_SC" value="them." />
           </node>
-          <node concept="3oM_SD" id="4eHoR35wRrV" role="1PaTwD" />
+          <node concept="3oM_SD" id="4eHoR35wRrV" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="2DRihI" id="6Zuyg57TAzB" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="6Zuyg57TA$e" role="1PaTwD">
+            <node concept="37shsh" id="6Zuyg57TA$g" role="15Aodc">
+              <node concept="1dCxOk" id="6Zuyg57TA$m" role="37shsm">
+                <property role="1XweGW" value="1919c723-b60b-4592-9318-9ce96d91da44" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.celllayout" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="6Zuyg57TARq" role="1PaTwD">
+            <property role="3oM_SC" value="Optimize" />
+          </node>
+          <node concept="3oM_SD" id="6Zuyg57TBav" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+          <node concept="3oM_SD" id="6Zuyg57TBaw" role="1PaTwD">
+            <property role="3oM_SC" value="performance." />
+          </node>
         </node>
       </node>
     </node>

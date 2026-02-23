@@ -1,12 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices"
+    "config:best-practices",
+    "schedule:monthly"
   ],
 
   // Renovate master and recent maintenance branches. When updating the maintenance branch pattern, update the rule
-  // for dashboard approvals for all but the earliest maintenance branch.
+  // disabling approvals for the earliest maintenance branch.
   "baseBranchPatterns": ["master", "/^maintenance/mps202[4-9][0-9]/"],
+  "dependencyDashboardApproval": true,
 
   "packageRules": [
     {
@@ -16,15 +18,10 @@
     },
 
     {
-      "matchPackageNames": [ "com.google.guava:guava" ],
-      "allowedVersions": "/^.*-jre$/"
-    },
-
-    {
-      // Allow 'unstable' versions for itemis Gradle plugins. Gradle versioning treats commit hashes with 'a' or 'b' as
-      // pre-releases but they are stable versions.
+      // Versioning for itemis dependencies: match the typical version number: 2024.1.234.abcdef12, but do not treat
+      // commit hashes with 'a' or 'b' as pre-releases. Only treat a `-something` suffix as a pre-release.
       "matchPackageNames": ["de.itemis.mps*"],
-      "ignoreUnstable": false,
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)\\.[0-9a-f]+(?:-(?<prerelease>.*))?$",
     },
 
     {
@@ -41,11 +38,8 @@
     },
 
     {
-      // MPS: merge PRs on Wednesday morning
-      "matchPackageNames": ["com.jetbrains:mps"],
-      "automerge": true,
-      "platformAutomerge": false,
-      "automergeSchedule": "* 4-6 * * 3"
+      "matchPackageNames": [ "com.google.guava:guava" ],
+      "allowedVersions": "/^.*-jre$/"
     },
 
     {
@@ -81,24 +75,28 @@
     {
       // Group all minor/patch third-party dependencies together (overrides the grouping above for minor and patch updates)
       "matchManagers": ["gradle"],
-      "matchDepTypes": ["dependencies"], // Exclude plugins
       "matchPackageNames": ["!com.jetbrains*"], // Exclude MPS and JBR
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "third-party-minor",
     },
 
+    // Updates to the earliest supported maintenance branch do not need approval.
     {
-      // Schedule dependency updates once a month
-      "matchJsonata": ["(manager = 'pip_requirements') or (depType = 'dependencies')"],
-      "schedule": "* 0-3 1 * *" // Only check for new versions once a month on the 1st, before 4 AM.
+      "matchBaseBranches": ["maintenance/mps20241"],
+      "dependencyDashboardApproval": false
     },
 
-    // Updates to all maintenance branches except the earliest one need approval. Updates to mps-prerelease are
-    // an exception because we want to see those right away.
     {
-      "matchBaseBranches": ["!maintenance/mps20241"],
-      "matchPackageNames": ["!com.jetbrains.mps:mps-prerelease"],
-      "dependencyDashboardApproval": true
+      // MPS:
+      // - schedule updates at any time
+      // - merge PRs on Wednesday morning
+      // - do not require dashboard approval (since versions are branch-specific)
+      "matchPackageNames": ["com.jetbrains:mps", "com.jetbrains.mps:mps-prerelease"],
+      "schedule": ["at any time"],
+      "automerge": true,
+      "platformAutomerge": false,
+      "automergeSchedule": "* 4-6 * * 3",
+      "dependencyDashboardApproval": false
     }
   ]
 }

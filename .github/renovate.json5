@@ -80,6 +80,12 @@
       "groupName": "third-party-minor",
     },
 
+    {
+      // Group all GitHub Actions updates together
+      "matchManagers": ["github-actions"],
+      "groupName": "github-actions"
+    },
+
     // Updates to the earliest supported maintenance branch do not need approval.
     {
       "matchBaseBranches": ["maintenance/mps20241"],

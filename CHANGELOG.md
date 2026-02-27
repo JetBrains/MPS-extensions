@@ -11,6 +11,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.editor.bool.runtime* Optimize performance of boolean checkbox widgets, esp. when opening editors with many of them. 
 - *de.itemis.mps.editor.enumeration.runtime* Optimize performance of enum checkbox widgets, esp. when opening editors with many of them. 
 - *de.itemis.mps.editor.celllayout* Optimize editor performance.
+- *de.itemis.mps.linenumbers* Line numbers now properly appear in newly opened editors (#1750)
 
 ## January 2026
 

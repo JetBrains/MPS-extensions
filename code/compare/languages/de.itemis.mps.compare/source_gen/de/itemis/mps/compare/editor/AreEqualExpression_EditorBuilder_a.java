@@ -9,6 +9,8 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -18,7 +20,11 @@ import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 /*package*/ class AreEqualExpression_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -46,8 +52,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     setCellContext(editorCell);
     editorCell.addEditorCell(createRefNode_0());
     editorCell.addEditorCell(createConstant_0());
+    if (nodeCondition_mpqtoq_a2a()) {
+      editorCell.addEditorCell(createConstant_1());
+    }
     editorCell.addEditorCell(createRefNode_1());
     return editorCell;
+  }
+  private boolean nodeCondition_mpqtoq_a2a() {
+    return SPropertyOperations.getBoolean(myNode, PROPS.ignoreAnnotations$4TBE) || SLinkOperations.getTarget(myNode, LINKS.ignoredChildren$ds8l) != null || SLinkOperations.getTarget(myNode, LINKS.ignoredProperties$zMTG) != null || SLinkOperations.getTarget(myNode, LINKS.ignoredReferences$ayx_) != null;
   }
   private EditorCell createRefNode_0() {
     SingleRoleCellProvider provider = new leftExpressionSingleRoleHandler_mpqtoq_a0(myNode, LINKS.leftExpression$sEj, getEditorContext());
@@ -110,15 +122,24 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     editorCell.setDefaultText("");
     return editorCell;
   }
+  private EditorCell createConstant_1() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "*");
+    editorCell.setCellId("Constant_mpqtoq_c0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new rightExpressionSingleRoleHandler_mpqtoq_c0(myNode, LINKS.rightExpression$nvX, getEditorContext());
+    SingleRoleCellProvider provider = new rightExpressionSingleRoleHandler_mpqtoq_d0(myNode, LINKS.rightExpression$nvX, getEditorContext());
     return provider.createCell();
   }
-  private static class rightExpressionSingleRoleHandler_mpqtoq_c0 extends SingleRoleCellProvider {
+  private static class rightExpressionSingleRoleHandler_mpqtoq_d0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public rightExpressionSingleRoleHandler_mpqtoq_c0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public rightExpressionSingleRoleHandler_mpqtoq_d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -167,7 +188,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
   }
 
   private static final class LINKS {
+    /*package*/ static final SContainmentLink ignoredReferences$ayx_ = MetaAdapterFactory.getContainmentLink(0xf47b95d45e734c04L, 0x920418076950153bL, 0x1969f1745a5f127eL, 0x36b54ed77e90a57fL, "ignoredReferences");
+    /*package*/ static final SContainmentLink ignoredChildren$ds8l = MetaAdapterFactory.getContainmentLink(0xf47b95d45e734c04L, 0x920418076950153bL, 0x1969f1745a5f127eL, 0x4a2f2e85c18542fL, "ignoredChildren");
+    /*package*/ static final SContainmentLink ignoredProperties$zMTG = MetaAdapterFactory.getContainmentLink(0xf47b95d45e734c04L, 0x920418076950153bL, 0x1969f1745a5f127eL, 0x1969f1745a5f1293L, "ignoredProperties");
     /*package*/ static final SContainmentLink leftExpression$sEj = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xfbdeb6fecfL, 0xfbdeb7a11cL, "leftExpression");
     /*package*/ static final SContainmentLink rightExpression$nvX = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xfbdeb6fecfL, 0xfbdeb7a11bL, "rightExpression");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty ignoreAnnotations$4TBE = MetaAdapterFactory.getProperty(0xf47b95d45e734c04L, 0x920418076950153bL, 0x1969f1745a5f127eL, 0x2a01b658d4451754L, "ignoreAnnotations");
   }
 }

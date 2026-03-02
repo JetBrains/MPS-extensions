@@ -15,12 +15,11 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
   private final BHDescriptor myTextgenText__BehaviorDescriptor = new TextgenText__BehaviorDescriptor();
   private final BHDescriptor mySpaceIndentedText__BehaviorDescriptor = new SpaceIndentedText__BehaviorDescriptor();
   private final BHDescriptor myLine__BehaviorDescriptor = new Line__BehaviorDescriptor();
-  private final BHDescriptor myword__BehaviorDescriptor = new word__BehaviorDescriptor();
+  private final BHDescriptor myWord__BehaviorDescriptor = new Word__BehaviorDescriptor();
   private final BHDescriptor myVerticalLines__BehaviorDescriptor = new VerticalLines__BehaviorDescriptor();
-  private final BHDescriptor mytab__BehaviorDescriptor = new tab__BehaviorDescriptor();
+  private final BHDescriptor myTab__BehaviorDescriptor = new Tab__BehaviorDescriptor();
   private final BHDescriptor myITextGenElement__BehaviorDescriptor = new ITextGenElement__BehaviorDescriptor();
   private final BHDescriptor myIVerticalGroup__BehaviorDescriptor = new IVerticalGroup__BehaviorDescriptor();
-  private final BHDescriptor myILineElement__BehaviorDescriptor = new ILineElement__BehaviorDescriptor();
 
   public BehaviorAspectDescriptor() {
   }
@@ -30,26 +29,24 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
     SAbstractConcept cncpt = concept;
     switch (conceptIndex.index(cncpt)) {
       case 0:
-        return myILineElement__BehaviorDescriptor;
-      case 1:
         return myITextGenElement__BehaviorDescriptor;
-      case 2:
+      case 1:
         return myIVerticalGroup__BehaviorDescriptor;
-      case 3:
+      case 2:
         return myLine__BehaviorDescriptor;
-      case 4:
+      case 3:
         return mySpaceIndentedText__BehaviorDescriptor;
+      case 4:
+        return myTab__BehaviorDescriptor;
       case 5:
         return myTextgenText__BehaviorDescriptor;
       case 6:
         return myVerticalLines__BehaviorDescriptor;
       case 7:
-        return mytab__BehaviorDescriptor;
-      case 8:
-        return myword__BehaviorDescriptor;
+        return myWord__BehaviorDescriptor;
       default:
     }
     return null;
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x7425635c3ac3945aL), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x4b0b5d65ba2e6992L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x2785a009e0883ec8L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x4b0b5d65ba2e6992L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x2785a009e0883ec8L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L)).seal();
 }

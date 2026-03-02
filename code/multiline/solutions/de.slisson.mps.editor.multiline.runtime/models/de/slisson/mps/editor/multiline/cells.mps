@@ -162,6 +162,9 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
+      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -7243,6 +7246,36 @@
               <node concept="1pGfFk" id="4wYmLz_LWPb" role="2ShVmc">
                 <ref role="37wK5l" node="4wYmLz_LWiE" resolve="WordPasteAction" />
                 <node concept="Xjq3P" id="4wYmLz_LWPc" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1Mwb2kIqhVM" role="3cqZAp">
+          <node concept="1rXfSq" id="1Mwb2kIqhVK" role="3clFbG">
+            <ref role="37wK5l" to="g51k:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
+            <node concept="Rm8GO" id="1Mwb2kIqCDl" role="37wK5m">
+              <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT_PLACEHOLDER" resolve="INSERT_PLACEHOLDER" />
+              <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+            </node>
+            <node concept="2ShNRf" id="1Mwb2kIsn32" role="37wK5m">
+              <node concept="1pGfFk" id="1Mwb2kItG2w" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="3ahc:~EmptyCellAction.&lt;init&gt;()" resolve="EmptyCellAction" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1Mwb2kItSMk" role="3cqZAp">
+          <node concept="1rXfSq" id="1Mwb2kItSMl" role="3clFbG">
+            <ref role="37wK5l" to="g51k:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
+            <node concept="Rm8GO" id="1Mwb2kIu4_e" role="37wK5m">
+              <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT_PLACEHOLDER_BEFORE" resolve="INSERT_PLACEHOLDER_BEFORE" />
+              <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+            </node>
+            <node concept="2ShNRf" id="1Mwb2kItSMn" role="37wK5m">
+              <node concept="1pGfFk" id="1Mwb2kItSMo" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="3ahc:~EmptyCellAction.&lt;init&gt;()" resolve="EmptyCellAction" />
               </node>
             </node>
           </node>

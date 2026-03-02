@@ -10,34 +10,21 @@ import java.util.WeakHashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import java.lang.ref.WeakReference;
-import org.jetbrains.annotations.Nullable;
 import org.jetbrains.annotations.NotNull;
 import java.awt.Point;
 import javax.swing.SwingUtilities;
 import com.intellij.openapi.application.ApplicationManager;
 import jetbrains.mps.project.Project;
 import jetbrains.mps.ide.project.ProjectHelper;
-import jetbrains.mps.nodeEditor.cells.EditorCell;
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import com.intellij.ui.JBColor;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.awt.event.MouseEvent;
+import jetbrains.mps.openapi.editor.cells.EditorCell;
 
 public class LineNumberComponent extends AbstractLeftColumn {
-
-  /**
-   * The left highlighter gets way too many relayout events which we can't influence, so we have to throttle
-   * the number of events. I've selected 250ms, which means that the line numbers only update 4 times per second or less.
-   */
-  public static final int RELAYOUT_THROTTLE_INTERVAL = 250;
-
-  /**
-   * The first few relayouts are crucial so we can't throttle those events.
-   */
-  public static final int THROTTLE_START = 20;
 
   private static Map<EditorComponent, LineNumberComponent> instances = MapSequence.fromMap(new WeakHashMap<EditorComponent, LineNumberComponent>());
 
@@ -61,13 +48,10 @@ public class LineNumberComponent extends AbstractLeftColumn {
   }
 
   private WeakReference<EditorComponent> myEditorComponent;
-  @Nullable
-  public ILineList lines;
   private int textPaddingLeft = 10;
-  private int textPaddingRight = textPaddingLeft;
+  public int textPaddingRight = textPaddingLeft;
   private int textWidth = 30;
-  private long lastUpdated = -1;
-  private long updateCount = 0;
+  private LineNumbersUpdater updater = new LineNumbersUpdater(this);
 
   private LineNumberComponent(EditorComponent editorComponent) {
     super(editorComponent.getLeftEditorHighlighter());
@@ -85,7 +69,7 @@ public class LineNumberComponent extends AbstractLeftColumn {
     return myEditorComponent.get();
   }
 
-  private boolean isRightSideOfEditor() {
+  public boolean isRightSideOfEditor() {
     // get the left upper most point [0,0] of the gutter (getLeftEditorHighlighter() ) in the coordinate space of the editor component
     Point convertPoint = SwingUtilities.convertPoint(getLeftEditorHighlighter(), new Point(0, 0), getEditorComponent());
     return convertPoint.getX() >= getEditorComponent().getVisibleRect().width;
@@ -105,7 +89,7 @@ public class LineNumberComponent extends AbstractLeftColumn {
     if (!(getLeftEditorHighlighter().getLeftColumns().contains(this))) {
       getLeftEditorHighlighter().addLeftColumn(this);
     }
-    updateLineNumbers(false);
+    updater.updateLater(false);
   }
 
   public void uninstall() {
@@ -116,55 +100,33 @@ public class LineNumberComponent extends AbstractLeftColumn {
     dispose();
   }
 
-  public void updateLineNumbers(boolean foldingChanged) {
-    EditorCell rootCell = getEditorComponent().getRootCell();
-    lines = LineNumberUtils.findLines(rootCell, foldingChanged);
-    if (lines != null) {
-      lines.assignLineNumber(1);
-    }
-    calculateWidth();
-  }
-
-  public void calculateWidth() {
-    if (lines == null) {
+  public void updateWidth(String longestText) {
+    if ((longestText == null || longestText.length() == 0)) {
       textWidth = 10;
     } else {
       Font font = getEditorComponent().getEditorComponentSettings().getDefaultFont();
       FontMetrics fontMetrics = getEditorComponent().getFontMetrics(font);
-      textWidth = textPaddingLeft + fontMetrics.stringWidth(String.valueOf(lines.getLast().getNumber())) + textPaddingRight;
+      textWidth = textPaddingLeft + fontMetrics.stringWidth(longestText) + textPaddingRight;
     }
   }
 
   @Override
-  public void paint(final Graphics graphics) {
+  public void paint(Graphics graphics) {
     Graphics2D g = (Graphics2D) graphics;
     EditorComponent.turnOnAliasingIfPossible(g);
     Font font = getEditorComponent().getEditorComponentSettings().getDefaultFont();
     graphics.setFont(font);
     graphics.setColor(JBColor.LIGHT_GRAY);
-    if (lines != null) {
-      Sequence.fromIterable(lines.getLines()).visitAll((it) -> graphics.drawString(String.valueOf(it.getNumber()), getLinePositionX(it), getLinePositionY(it)));
+    for (LayoutedLineNumber lineNumber : ListSequence.fromList(updater.getLayoutedLineNumbers())) {
+      lineNumber.draw(graphics);
     }
-  }
-
-  public int getLinePositionX(Line line) {
-    Font font = getEditorComponent().getEditorComponentSettings().getDefaultFont();
-    FontMetrics fontMetrics = getEditorComponent().getFontMetrics(font);
-    // calculate the x-coordinate to draw the first letter of the line number in dependence of the position of the gutter
-    return (isRightSideOfEditor() ? getLeftEditorHighlighter().getVisibleRect().width - getWidth() + textPaddingRight : getWidth() - fontMetrics.stringWidth(String.valueOf(line.getNumber())) - textPaddingRight);
-  }
-
-  public int getLinePositionY(Line line) {
-    Font font = getEditorComponent().getEditorComponentSettings().getDefaultFont();
-    FontMetrics fontMetrics = getEditorComponent().getFontMetrics(font);
-    return line.getCell().getY() + (line.getCell().getHeight() - fontMetrics.getHeight()) / 2 + fontMetrics.getAscent();
   }
 
   public Line getClickedLine(MouseEvent e) {
     int y = e.getY();
 
-    for (Line line : Sequence.fromIterable(lines.getLines())) {
-      jetbrains.mps.openapi.editor.cells.EditorCell cell = line.getCell();
+    for (Line line : ListSequence.fromList(updater.getLines())) {
+      EditorCell cell = line.getCell();
       if (y >= cell.getY() && y <= cell.getY() + cell.getHeight()) {
         return line;
       }
@@ -192,21 +154,6 @@ public class LineNumberComponent extends AbstractLeftColumn {
 
   @Override
   public void relayout(boolean updateFolding) {
-    long currentUpdate = System.nanoTime();
-    if (updateCount + 1 == Long.MAX_VALUE) {
-      updateCount = 0;
-    } else {
-      updateCount++;
-    }
-    if (lastUpdated != -1) {
-      long timeDiffInMS = (currentUpdate - lastUpdated) / 1000000;
-      if (timeDiffInMS < RELAYOUT_THROTTLE_INTERVAL && updateCount >= THROTTLE_START) {
-        return;
-      }
-    }
-
-    lastUpdated = currentUpdate;
-
     if (updateFolding) {
       EditorComponent ec = getEditorComponent();
       if (ec == null || ec.isDisposed()) {
@@ -214,7 +161,7 @@ public class LineNumberComponent extends AbstractLeftColumn {
       }
 
       if (ec.isVisible()) {
-        updateLineNumbers(true);
+        updater.updateLater(true);
       }
     }
   }

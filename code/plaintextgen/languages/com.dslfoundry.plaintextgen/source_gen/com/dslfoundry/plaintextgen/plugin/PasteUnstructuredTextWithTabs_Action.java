@@ -7,10 +7,10 @@ import javax.swing.Icon;
 import jetbrains.mps.workbench.action.ActionAccess;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import java.util.Map;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.ide.actions.MPSCommonDataKeys;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
@@ -18,7 +18,7 @@ public class PasteUnstructuredTextWithTabs_Action extends BaseAction {
   private static final Icon ICON = null;
 
   public PasteUnstructuredTextWithTabs_Action() {
-    super("Paste Unstructured Text (Must Be in Buffer, Preserves Tab Literals)", "", ICON);
+    super("Paste Unstructured Text (Preserves Tab Literals)", "", ICON);
     this.setIsAlwaysVisible(false);
     this.setActionAccess(ActionAccess.UNDO_PROJECT);
     updateInBackground(true);
@@ -26,6 +26,14 @@ public class PasteUnstructuredTextWithTabs_Action extends BaseAction {
   @Override
   public boolean isDumbAware() {
     return true;
+  }
+  @Override
+  public boolean isApplicable(AnActionEvent event, final Map<String, Object> _params) {
+    return PlaintextPaster.hasClipboardContents();
+  }
+  @Override
+  public void doUpdate(@NotNull AnActionEvent event, final Map<String, Object> _params) {
+    this.setEnabledState(event.getPresentation(), this.isApplicable(event, _params));
   }
   @Override
   protected boolean collectActionData(AnActionEvent event, final Map<String, Object> _params) {

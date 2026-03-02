@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root nodeRef="r:f4ab5780-122f-4e9a-b1c2-f4f98e085906(de.itemis.mps.editor.diagram.sandbox)/6554619383005430008">
+    <file name="C1.java">
+      <node id="6554619383005430369" at="8,25,9,14" concept="0" />
+      <node id="5126420796713867740" at="9,14,10,14" concept="0" />
+      <node id="6554619383005430420" at="10,14,11,14" concept="0" />
+      <node id="8530953032312194940" at="11,14,12,0" concept="3" />
+      <node id="6554619383009575523" at="12,0,13,14" concept="0" />
+      <node id="6554619383005430321" at="16,37,17,14" concept="0" />
+      <node id="392899471523238968" at="17,14,18,0" concept="3" />
+      <node id="3727827584368038990" at="18,0,19,16" concept="2" />
+      <node id="5126420796713867368" at="22,25,23,14" concept="0" />
+      <node id="6554619383005430799" at="23,14,24,14" concept="0" />
+      <node id="6554619383005430833" at="28,25,29,14" concept="0" />
+      <node id="6554619383005430874" at="32,25,33,14" concept="0" />
+      <node id="6554619383009645655" at="36,25,37,14" concept="0" />
+      <node id="6554619383005430212" at="28,0,31,0" concept="1" trace="methodD#()V" />
+      <node id="6554619383005430589" at="32,0,35,0" concept="1" trace="methodE#()V" />
+      <node id="6554619383009645270" at="36,0,39,0" concept="1" trace="methodF#()V" />
+      <node id="6554619383005430176" at="22,0,26,0" concept="1" trace="methodC#()V" />
+      <node id="6554619383005430040" at="16,0,21,0" concept="1" trace="methodA#()Ljava/lang/OutOfMemoryError;" />
+      <node id="6554619383005430111" at="8,0,15,0" concept="1" trace="methodB#()V" />
+      <scope id="6554619383005430215" at="28,25,29,14" />
+      <scope id="6554619383005430593" at="32,25,33,14" />
+      <scope id="6554619383009645274" at="36,25,37,14" />
+      <scope id="6554619383005430180" at="22,25,24,14" />
+      <scope id="6554619383005430044" at="16,37,19,16" />
+      <scope id="6554619383005430212" at="28,0,31,0" />
+      <scope id="6554619383005430589" at="32,0,35,0" />
+      <scope id="6554619383009645270" at="36,0,39,0" />
+      <scope id="6554619383005430176" at="22,0,26,0" />
+      <scope id="6554619383005430115" at="8,25,13,14" />
+      <scope id="6554619383005430040" at="16,0,21,0" />
+      <scope id="6554619383005430111" at="8,0,15,0" />
+      <unit id="6554619383005430008" at="6,0,40,0" name="de.itemis.mps.editor.diagram.sandbox.C1" />
+    </file>
+  </root>
+</debug-info>
+

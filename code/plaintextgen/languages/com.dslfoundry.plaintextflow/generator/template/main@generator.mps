@@ -69,7 +69,7 @@
     </language>
     <language id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen">
       <concept id="5082088080656902716" name="com.dslfoundry.plaintextgen.structure.NewlineMarker" flags="ng" index="2EixSi" />
-      <concept id="1145195647825954804" name="com.dslfoundry.plaintextgen.structure.word" flags="ng" index="356sEF" />
+      <concept id="1145195647825954804" name="com.dslfoundry.plaintextgen.structure.Word" flags="ng" index="356sEF" />
       <concept id="1145195647825954799" name="com.dslfoundry.plaintextgen.structure.Line" flags="ng" index="356sEK">
         <child id="5082088080656976323" name="newlineMarker" index="2EinRH" />
         <child id="1145195647825954802" name="words" index="356sEH" />
@@ -140,7 +140,7 @@
                     <node concept="2OqwBi" id="3McofITZfq0" role="37wK5m">
                       <node concept="30H73N" id="3McofITZeYf" role="2Oq$k0" />
                       <node concept="2qgKlT" id="3McofITZA0y" role="2OqNvi">
-                        <ref role="37wK5l" to="2blp:6$Hx0f8lz7R" resolve="ancestorPrefix" />
+                        <ref role="37wK5l" to="2blp:6$Hx0f8lz7R" resolve="getAncestorPrefix" />
                       </node>
                     </node>
                   </node>

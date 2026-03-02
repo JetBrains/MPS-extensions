@@ -28,28 +28,28 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class IVerticalGroup__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, "com.dslfoundry.plaintextgen.structure.IVerticalGroup");
 
-  public static final SMethod<Point> Textgen_Helper_id4GbnmmUaX7G = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("Textgen_Helper").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084926444L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
+  public static final SMethod<Point> getMaxPosition_id4GbnmmUaX7G = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("getMaxPosition").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084926444L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(Textgen_Helper_id4GbnmmUaX7G);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getMaxPosition_id4GbnmmUaX7G);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
-  /*package*/ static Point Textgen_Helper_id4GbnmmUaX7G(@NotNull SNode __thisNode__, int row, int column, CharacterMatrix output, int indent) {
+  /*package*/ static Point getMaxPosition_id4GbnmmUaX7G(@NotNull SNode __thisNode__, int row, int column, CharacterMatrix output, int indent) {
     Point max = new Point(row - 1, column);
 
     int total_width = 0;
     if (!(SEnumOperations.isMember(SPropertyOperations.getEnum(__thisNode__, PROPS.align$grMv), 0x24e75a28e2ace728L))) {
-      total_width = ((int) ITextGenElement__BehaviorDescriptor.Width_id6gwxh6GcBOM.invoke(__thisNode__));
+      total_width = ((int) ITextGenElement__BehaviorDescriptor.getWidth_id6gwxh6GcBOM.invoke(__thisNode__));
     }
     for (SNode item : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.lines$u7C))) {
       int align = 0;
       if (SEnumOperations.isMember(SPropertyOperations.getEnum(__thisNode__, PROPS.align$grMv), 0x24e75a28e2ace72cL)) {
-        align = total_width - (int) ITextGenElement__BehaviorDescriptor.Width_id6gwxh6GcBOM.invoke(item);
+        align = total_width - (int) ITextGenElement__BehaviorDescriptor.getWidth_id6gwxh6GcBOM.invoke(item);
       } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(__thisNode__, PROPS.align$grMv), 0x24e75a28e2ace729L)) {
-        align = (total_width - (int) ITextGenElement__BehaviorDescriptor.Width_id6gwxh6GcBOM.invoke(item)) / 2;
+        align = (total_width - (int) ITextGenElement__BehaviorDescriptor.getWidth_id6gwxh6GcBOM.invoke(item)) / 2;
       }
-      max = output.MaxPos(max, ITextGenElement__BehaviorDescriptor.TextGen_id4GbnmmUaMp0.invoke(item, ((int) (max.x + 1)), ((int) (column + align + indent)), output));
+      max = output.getMaximumPosition(max, ITextGenElement__BehaviorDescriptor.getPosition_id4GbnmmUaMp0.invoke(item, ((int) (max.x + 1)), ((int) (column + align + indent)), output));
     }
     return max;
   }
@@ -70,7 +70,7 @@ public final class IVerticalGroup__BehaviorDescriptor extends BaseBHDescriptor {
     }
     switch (methodIndex) {
       case 0:
-        return (T) ((Point) Textgen_Helper_id4GbnmmUaX7G(node, ((int) (Integer) parameters[0]), ((int) (Integer) parameters[1]), (CharacterMatrix) parameters[2], ((int) (Integer) parameters[3])));
+        return (T) ((Point) getMaxPosition_id4GbnmmUaX7G(node, ((int) (Integer) parameters[0]), ((int) (Integer) parameters[1]), (CharacterMatrix) parameters[2], ((int) (Integer) parameters[3])));
       default:
         throw new BHMethodNotFoundException(this, method);
     }

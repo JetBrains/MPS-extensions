@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="8,0,13,0" name="de.slisson.mps.tables.demolang.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:f1c5f6f4-f735-4c95-8571-0c9b99e0bba3(de.slisson.mps.tables.demolang.plugin)/1726102129426879620">
+    <file name="StateMachineTransformer.java">
+      <node id="1726102129426879620" at="9,36,10,62" concept="12" />
+      <node id="1726102129427315487" at="14,32,15,45" concept="7" />
+      <node id="1726102129426879620" at="9,0,12,0" concept="1" trace="StateMachineTransformer#()V" />
+      <node id="1726102129426879626" at="14,0,17,0" concept="0" trace="get#()Lde/slisson/mps/tables/runtime/plugin/DataTransformer;" />
+      <scope id="1726102129426879620" at="9,36,10,62" />
+      <scope id="1726102129426879630" at="14,32,15,45" />
+      <scope id="1726102129426879620" at="9,0,12,0" />
+      <scope id="1726102129426879626" at="14,0,17,0" />
+      <unit id="1726102129426879620" at="8,0,18,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineTransformer" />
+    </file>
+  </root>
+  <root nodeRef="r:f1c5f6f4-f735-4c95-8571-0c9b99e0bba3(de.slisson.mps.tables.demolang.plugin)/1726102129426879794">
+    <file name="StateMachineTransformerImpl.java">
+      <node id="1726102129427321659" at="21,0,22,0" concept="3" trace="stateMachine" />
+      <node id="1726102129426880008" at="24,28,25,13" concept="7" />
+      <node id="3041672038273631183" at="29,72,30,72" concept="7" />
+      <node id="1726102129427323836" at="34,37,35,76" concept="2" />
+      <node id="1726102129428652993" at="39,46,40,205" concept="6" />
+      <node id="1726102129428662640" at="40,205,41,234" concept="2" />
+      <node id="1726102129428670566" at="41,234,42,22" concept="7" />
+      <node id="1726102129426879794" at="46,0,47,0" concept="10" trace="StateMachine$pZ" />
+      <node id="1726102129426879794" at="50,0,51,0" concept="10" trace="to$zeIz" />
+      <node id="1726102129426879794" at="51,0,52,0" concept="10" trace="states$vAba" />
+      <node id="1726102129426879794" at="55,0,56,0" concept="10" trace="name$MnvL" />
+      <node id="1726102129426880001" at="23,0,27,0" concept="5" trace="getPriority#()I" />
+      <node id="3041672038273623833" at="28,0,32,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1726102129427317333" at="33,0,37,0" concept="5" trace="setTable#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1726102129426880009" at="38,0,44,0" concept="5" trace="fromString#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1726102129426880005" at="24,28,25,13" />
+      <scope id="3041672038273623839" at="29,72,30,72" />
+      <scope id="1726102129427317339" at="34,37,35,76" />
+      <scope id="1726102129426880015" at="39,46,42,22">
+        <var name="transition" id="1726102129428652996" />
+      </scope>
+      <scope id="1726102129426880001" at="23,0,27,0" />
+      <scope id="3041672038273623833" at="28,0,32,0">
+        <var name="editorContext" id="7230129618821007098" />
+        <var name="node" id="3041672038273623837" />
+      </scope>
+      <scope id="1726102129427317333" at="33,0,37,0">
+        <var name="table" id="1726102129427317337" />
+      </scope>
+      <scope id="1726102129426880009" at="38,0,44,0">
+        <var name="data" id="1726102129426880013" />
+      </scope>
+      <unit id="1726102129426879794" at="45,0,48,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineTransformerImpl$CONCEPTS" />
+      <unit id="1726102129426879794" at="54,0,57,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineTransformerImpl$PROPS" />
+      <unit id="1726102129426879794" at="49,0,53,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineTransformerImpl$LINKS" />
+      <unit id="1726102129426879794" at="20,0,58,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineTransformerImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:f1c5f6f4-f735-4c95-8571-0c9b99e0bba3(de.slisson.mps.tables.demolang.plugin)/3263015289312800486">
+    <file name="StateMachineCopyPaste.java">
+      <node id="3263015289312800486" at="9,34,10,58" concept="12" />
+      <node id="3263015289314300982" at="14,33,15,43" concept="7" />
+      <node id="3263015289312800486" at="9,0,12,0" concept="1" trace="StateMachineCopyPaste#()V" />
+      <node id="3263015289312800492" at="14,0,17,0" concept="0" trace="get#()Lde/slisson/mps/tables/runtime/plugin/CopyPasteSupport;" />
+      <scope id="3263015289312800486" at="9,34,10,58" />
+      <scope id="3263015289312800496" at="14,33,15,43" />
+      <scope id="3263015289312800486" at="9,0,12,0" />
+      <scope id="3263015289312800492" at="14,0,17,0" />
+      <unit id="3263015289312800486" at="8,0,18,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineCopyPaste" />
+    </file>
+  </root>
+  <root nodeRef="r:f1c5f6f4-f735-4c95-8571-0c9b99e0bba3(de.slisson.mps.tables.demolang.plugin)/3263015289312800779">
+    <file name="StateMachineCopyPasteImpl.java">
+      <node id="1206675692272145881" at="27,0,28,0" concept="10" trace="navigationColumnsLeft" />
+      <node id="1206675692272174146" at="29,0,30,0" concept="3" trace="table" />
+      <node id="1206675692275562962" at="32,41,33,69" concept="2" />
+      <node id="1206675692272289848" at="36,93,37,84" concept="7" />
+      <node id="1206675692272302481" at="41,25,42,13" concept="7" />
+      <node id="2274687476315544477" at="46,72,47,133" concept="7" />
+      <node id="1206675692272449007" at="53,207,54,15" concept="7" />
+      <node id="1206675692272450108" at="55,7,56,0" concept="9" />
+      <node id="1206675692272452011" at="56,0,57,38" concept="6" />
+      <node id="1206675692272460670" at="57,38,58,38" concept="6" />
+      <node id="3263015289315506656" at="58,38,59,0" concept="9" />
+      <node id="1206675692272496566" at="60,43,61,15" concept="7" />
+      <node id="1206675692272497757" at="62,7,63,0" concept="9" />
+      <node id="1206675692272510361" at="63,0,64,130" concept="6" />
+      <node id="1206675692272543562" at="64,130,65,130" concept="6" />
+      <node id="1206675692272578848" at="65,130,66,296" concept="6" />
+      <node id="1206675692272641047" at="66,296,67,53" concept="2" />
+      <node id="1206675692272648133" at="72,92,73,51" concept="6" />
+      <node id="7230129618820740960" at="73,51,74,69" concept="6" />
+      <node id="1206675692272676880" at="74,69,75,0" concept="9" />
+      <node id="1206675692272838683" at="77,207,78,20" concept="7" />
+      <node id="1206675692272851370" at="79,7,80,0" concept="9" />
+      <node id="1206675692272862944" at="80,0,81,38" concept="6" />
+      <node id="1206675692272889731" at="81,38,82,38" concept="6" />
+      <node id="1206675692272900057" at="82,38,83,0" concept="9" />
+      <node id="1206675692272935133" at="84,43,85,20" concept="7" />
+      <node id="1206675692272954117" at="87,26,88,207" concept="7" />
+      <node id="1206675692273013700" at="89,7,90,136" concept="6" />
+      <node id="1206675692273074743" at="91,26,92,119" concept="7" />
+      <node id="1206675692273103579" at="93,7,94,0" concept="9" />
+      <node id="1206675692273106084" at="94,0,95,136" concept="6" />
+      <node id="1206675692273160523" at="95,136,96,285" concept="6" />
+      <node id="1206675692273230822" at="96,285,97,47" concept="7" />
+      <node id="1206675692273693744" at="102,116,103,43" concept="6" />
+      <node id="1206675692273747011" at="103,43,104,101" concept="8" />
+      <node id="1206675692273761974" at="104,101,105,95" concept="8" />
+      <node id="1206675692273768042" at="105,95,106,135" concept="6" />
+      <node id="1206675692274100976" at="108,103,109,56" concept="8" />
+      <node id="1206675692274135496" at="109,56,110,15" concept="7" />
+      <node id="1206675692274138643" at="111,7,112,0" concept="9" />
+      <node id="1206675692274217392" at="113,106,114,26" concept="8" />
+      <node id="1206675692274240291" at="114,26,115,68" concept="2" />
+      <node id="1206675692274263981" at="116,7,117,0" concept="9" />
+      <node id="1206675692274295189" at="118,33,119,15" concept="7" />
+      <node id="1206675692274298506" at="120,7,121,0" concept="9" />
+      <node id="1206675692274302629" at="121,0,122,33" concept="6" />
+      <node id="1206675692274346326" at="122,33,123,33" concept="6" />
+      <node id="1206675692274363194" at="123,33,124,0" concept="9" />
+      <node id="1206675692274386528" at="125,21,126,227" concept="2" />
+      <node id="1206675692274479182" at="126,227,127,15" concept="7" />
+      <node id="1206675692274487643" at="128,7,129,136" concept="6" />
+      <node id="1206675692274584409" at="130,21,131,139" concept="2" />
+      <node id="1206675692274651406" at="131,139,132,15" concept="7" />
+      <node id="1206675692274655688" at="133,7,134,0" concept="9" />
+      <node id="1206675692274665416" at="134,0,135,136" concept="6" />
+      <node id="1206675692274750595" at="135,136,136,288" concept="6" />
+      <node id="1206675692274868412" at="137,31,138,24" concept="8" />
+      <node id="1206675692274899744" at="138,24,139,203" concept="2" />
+      <node id="1206675692274944381" at="139,203,140,81" concept="2" />
+      <node id="3263015289314159429" at="140,81,141,78" concept="2" />
+      <node id="3263015289314076506" at="141,78,142,113" concept="2" />
+      <node id="1726102129426254002" at="143,7,144,152" concept="2" />
+      <node id="1206675692272958403" at="148,76,149,73" concept="6" />
+      <node id="1206675692272958403" at="149,73,150,41" concept="2" />
+      <node id="1206675692272958403" at="150,41,151,26" concept="7" />
+      <node id="1206675692273077027" at="153,76,154,73" concept="6" />
+      <node id="1206675692273077027" at="154,73,155,41" concept="2" />
+      <node id="1206675692273077027" at="155,41,156,26" concept="7" />
+      <node id="1206675692273680035" at="158,65,159,47" concept="7" />
+      <node id="3263015289312800779" at="163,0,164,0" concept="10" trace="StateMachine$pZ" />
+      <node id="3263015289312800779" at="164,0,165,0" concept="10" trace="Transition$To" />
+      <node id="3263015289312800779" at="165,0,166,0" concept="10" trace="StringLiteral$xu" />
+      <node id="3263015289312800779" at="169,0,170,0" concept="10" trace="events$vwyM" />
+      <node id="3263015289312800779" at="170,0,171,0" concept="10" trace="states$vAba" />
+      <node id="3263015289312800779" at="171,0,172,0" concept="10" trace="transitions$vBmf" />
+      <node id="3263015289312800779" at="172,0,173,0" concept="10" trace="trigger$z6Z2" />
+      <node id="3263015289312800779" at="173,0,174,0" concept="10" trace="from$zd5s" />
+      <node id="3263015289312800779" at="174,0,175,0" concept="10" trace="to$zeIz" />
+      <node id="3263015289312800779" at="178,0,179,0" concept="10" trace="name$MnvL" />
+      <node id="3263015289312800779" at="179,0,180,0" concept="10" trace="value$w7MM" />
+      <node id="1206675692272180725" at="36,0,39,0" concept="5" trace="withoutNavigationColumns#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;)Lde/slisson/mps/tables/runtime/selection/UndirectedTableRange;" />
+      <node id="1206675692272344751" at="52,89,55,7" concept="4" />
+      <node id="1206675692272479761" at="59,0,62,7" concept="4" />
+      <node id="1206675692272718018" at="76,88,79,7" concept="4" />
+      <node id="1206675692272903740" at="83,0,86,7" concept="4" />
+      <node id="1206675692272944341" at="86,7,89,7" concept="4" />
+      <node id="1206675692273051716" at="90,136,93,7" concept="4" />
+      <node id="1206675692274267461" at="117,0,120,7" concept="4" />
+      <node id="1206675692273680035" at="158,0,161,0" concept="11" trace="as_booj04_a0d0p#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="1206675692275472099" at="31,0,35,0" concept="5" trace="setTableNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1206675692272302474" at="40,0,44,0" concept="5" trace="priority#()I" />
+      <node id="2274687476315502281" at="45,0,49,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1206675692274022251" at="107,81,111,7" concept="4" />
+      <node id="1206675692274141992" at="112,0,116,7" concept="13" />
+      <node id="1206675692274366962" at="124,0,128,7" concept="4" />
+      <node id="1206675692274558272" at="129,136,133,7" concept="4" />
+      <node id="1206675692272958403" at="148,0,153,0" concept="11" trace="createStringLiteral_booj04_a0a6a1a0a3a51#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1206675692273077027" at="153,0,158,0" concept="11" trace="createStringLiteral_booj04_a0a8a1a0a3a51#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1206675692274850522" at="136,288,143,7" concept="4" />
+      <node id="1206675692272330216" at="51,82,68,7" concept="2" />
+      <node id="1206675692272302510" at="50,0,70,0" concept="5" trace="delete#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1206675692272680616" at="75,0,98,25" concept="7" />
+      <node id="1206675692272302488" at="71,0,100,0" concept="5" trace="copy#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
+      <node id="1206675692273916896" at="106,135,145,7" concept="2" />
+      <node id="1206675692272302499" at="101,0,147,0" concept="5" trace="paste#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Lde/slisson/mps/tables/runtime/plugin/TableData;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="1206675692275472103" at="32,41,33,69" />
+      <scope id="1206675692272180728" at="36,93,37,84" />
+      <scope id="1206675692272302478" at="41,25,42,13" />
+      <scope id="2274687476315502287" at="46,72,47,133" />
+      <scope id="1206675692272344753" at="53,207,54,15" />
+      <scope id="1206675692272479763" at="60,43,61,15" />
+      <scope id="1206675692272718020" at="77,207,78,20" />
+      <scope id="1206675692272903742" at="84,43,85,20" />
+      <scope id="1206675692272944343" at="87,26,88,207" />
+      <scope id="1206675692273051718" at="91,26,92,119" />
+      <scope id="1206675692274267463" at="118,33,119,15" />
+      <scope id="1206675692273680035" at="158,65,159,47" />
+      <scope id="1206675692274022253" at="108,103,110,15" />
+      <scope id="1206675692274141994" at="113,106,115,68" />
+      <scope id="1206675692274366964" at="125,21,127,15" />
+      <scope id="1206675692274558274" at="130,21,132,15" />
+      <scope id="1206675692272180725" at="36,0,39,0">
+        <var name="tableSelection" id="1206675692272181120" />
+      </scope>
+      <scope id="1206675692272958403" at="148,76,151,26">
+        <var name="n0" id="1206675692272958403" />
+      </scope>
+      <scope id="1206675692273077027" at="153,76,156,26">
+        <var name="n0" id="1206675692273077027" />
+      </scope>
+      <scope id="1206675692273680035" at="158,0,161,0">
+        <var name="o" id="1206675692273680035" />
+        <var name="type" id="1206675692273680035" />
+      </scope>
+      <scope id="1206675692275472099" at="31,0,35,0">
+        <var name="table" id="1206675692275523908" />
+      </scope>
+      <scope id="1206675692272302474" at="40,0,44,0" />
+      <scope id="2274687476315502281" at="45,0,49,0">
+        <var name="editorContext" id="7230129618821149807" />
+        <var name="node" id="2274687476315502285" />
+      </scope>
+      <scope id="1206675692274850524" at="137,31,142,113" />
+      <scope id="1206675692272958403" at="148,0,153,0">
+        <var name="p0" id="1206675692272958403" />
+      </scope>
+      <scope id="1206675692273077027" at="153,0,158,0">
+        <var name="p0" id="1206675692273077027" />
+      </scope>
+      <scope id="1206675692272334674" at="52,89,67,53">
+        <var name="dataColIndex" id="1206675692272452014" />
+        <var name="dataRowIndex" id="1206675692272460673" />
+        <var name="selectedEvent" id="1206675692272543559" />
+        <var name="selectedState" id="1206675692272510358" />
+        <var name="selectedTransition" id="1206675692272578845" />
+      </scope>
+      <scope id="1206675692272302516" at="51,82,68,7" />
+      <scope id="1206675692272302510" at="50,0,70,0">
+        <var name="editorContext" id="7230129618825236173" />
+        <var name="selection" id="1206675692272302511" />
+      </scope>
+      <scope id="1206675692272705005" at="76,88,97,47">
+        <var name="content" id="1206675692273160526" />
+        <var name="dataColIndex" id="1206675692272862947" />
+        <var name="dataRowIndex" id="1206675692272889734" />
+        <var name="selectedEvent" id="1206675692273106087" />
+        <var name="selectedState" id="1206675692273013703" />
+      </scope>
+      <scope id="1206675692272302495" at="72,92,98,25">
+        <var name="data" id="1206675692272648131" />
+        <var name="range" id="7230129618820740961" />
+      </scope>
+      <scope id="1206675692272302488" at="71,0,100,0">
+        <var name="editorContext" id="7230129618825261058" />
+        <var name="selection" id="1206675692272302493" />
+      </scope>
+      <scope id="1206675692273982585" at="107,81,144,152">
+        <var name="dataColIndex" id="1206675692274346329" />
+        <var name="dataRowIndex" id="1206675692274302632" />
+        <var name="selectedEvent" id="1206675692274665419" />
+        <var name="selectedState" id="1206675692274487646" />
+        <var name="transition" id="1206675692274750598" />
+      </scope>
+      <scope id="1206675692272302508" at="102,116,145,7">
+        <var name="startCol" id="1206675692273768045" />
+        <var name="startRow" id="1206675692273693747" />
+      </scope>
+      <scope id="1206675692272302499" at="101,0,147,0">
+        <var name="data" id="1206675692272302502" />
+        <var name="editorContext" id="7230129618821206269" />
+        <var name="selection" id="1206675692272302500" />
+      </scope>
+      <unit id="3263015289312800779" at="177,0,181,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineCopyPasteImpl$PROPS" />
+      <unit id="3263015289312800779" at="162,0,167,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineCopyPasteImpl$CONCEPTS" />
+      <unit id="3263015289312800779" at="168,0,176,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineCopyPasteImpl$LINKS" />
+      <unit id="3263015289312800779" at="25,0,182,0" name="de.slisson.mps.tables.demolang.plugin.StateMachineCopyPasteImpl" />
+    </file>
+  </root>
+</debug-info>
+

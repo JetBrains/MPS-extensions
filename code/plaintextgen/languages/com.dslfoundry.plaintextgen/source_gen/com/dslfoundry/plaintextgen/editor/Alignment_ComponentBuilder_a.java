@@ -24,7 +24,6 @@ import jetbrains.mps.editor.runtime.style.Measure;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cells.SPropertyAccessor;
-import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellMenu.SPropertySubstituteInfo;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
@@ -73,9 +72,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
         StringBuilder b = new StringBuilder();
         int W = 0;
         if (SEnumOperations.isMember(SPropertyOperations.getEnum(myNode, PROPS.align$grMv), 0x24e75a28e2ace72cL)) {
-          W = (int) ITextGenElement__BehaviorDescriptor.Editor_View_Width_id2jBmyzyEzhY.invoke(myNode, ((boolean) true)) - 2;
+          W = (int) ITextGenElement__BehaviorDescriptor.getEditorViewWidth_id2jBmyzyEzhY.invoke(myNode, ((boolean) true)) - 2;
         } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(myNode, PROPS.align$grMv), 0x24e75a28e2ace729L)) {
-          W = ((int) ITextGenElement__BehaviorDescriptor.Editor_View_Width_id2jBmyzyEzhY.invoke(myNode, ((boolean) true)) - 1) / 2;
+          W = ((int) ITextGenElement__BehaviorDescriptor.getEditorViewWidth_id2jBmyzyEzhY.invoke(myNode, ((boolean) true)) - 1) / 2;
         }
         for (int i = 0; i < W; ++i) {
           b.append(" ");
@@ -104,7 +103,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
       editorCell.setCellId("A_property_align");
       Style style = new StyleImpl();
       style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0, Measure.SPACES));
-      style.set(StyleAttributes.TEXT_COLOR, getStyleRegistry().getSimpleColor(MPSColors.lightGray));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);

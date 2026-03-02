@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="de.itemis.mps.editor.diagram.demo.ports.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:e1f8b615-dc67-49a4-82fe-f7c4e1b47bae(de.itemis.mps.editor.diagram.demo.ports.constraints)/3411988043656544609">
+    <file name="BoxInstance_Constraints.java">
+      <node id="3411988043656544609" at="21,36,22,35" concept="6" />
+      <node id="3411988043656544610" at="26,59,27,60" concept="6" />
+      <node id="3411988043656545036" at="30,40,31,156" concept="4" />
+      <node id="3411988043656544609" at="35,84,36,119" concept="3" />
+      <node id="3411988043656544610" at="36,119,37,61" concept="1" />
+      <node id="3411988043656544609" at="37,61,38,22" concept="4" />
+      <node id="3411988043656544609" at="42,0,43,0" concept="5" trace="BoxInstance$Jg" />
+      <node id="3411988043656544609" at="46,0,47,0" concept="5" trace="name$MnvL" />
+      <node id="3411988043656544609" at="50,0,51,0" concept="5" trace="box$7brg" />
+      <node id="3411988043656544609" at="21,0,24,0" concept="0" trace="BoxInstance_Constraints#()V" />
+      <node id="3411988043656544610" at="26,0,29,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="3411988043656544610" at="29,0,33,0" concept="2" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="3411988043656544609" at="34,0,40,0" concept="2" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="3411988043656544609" at="21,36,22,35" />
+      <scope id="3411988043656544610" at="26,59,27,60" />
+      <scope id="3411988043656544699" at="30,40,31,156" />
+      <scope id="3411988043656544609" at="21,0,24,0" />
+      <scope id="3411988043656544610" at="26,0,29,0">
+        <var name="container" id="3411988043656544610" />
+      </scope>
+      <scope id="3411988043656544609" at="35,84,38,22">
+        <var name="properties" id="3411988043656544609" />
+      </scope>
+      <scope id="3411988043656544610" at="29,0,33,0">
+        <var name="node" id="3411988043656544610" />
+      </scope>
+      <scope id="3411988043656544609" at="34,0,40,0" />
+      <unit id="3411988043656544609" at="41,0,44,0" name="de.itemis.mps.editor.diagram.demo.ports.constraints.BoxInstance_Constraints$CONCEPTS" />
+      <unit id="3411988043656544609" at="45,0,48,0" name="de.itemis.mps.editor.diagram.demo.ports.constraints.BoxInstance_Constraints$PROPS" />
+      <unit id="3411988043656544609" at="49,0,52,0" name="de.itemis.mps.editor.diagram.demo.ports.constraints.BoxInstance_Constraints$LINKS" />
+      <unit id="3411988043656544610" at="25,0,34,0" name="de.itemis.mps.editor.diagram.demo.ports.constraints.BoxInstance_Constraints$Name_Property" />
+      <unit id="3411988043656544609" at="20,0,53,0" name="de.itemis.mps.editor.diagram.demo.ports.constraints.BoxInstance_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

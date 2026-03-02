@@ -16,8 +16,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.lang.modelapi.behavior.NodeIdentity__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.MPSModuleRepository;
-import jetbrains.mps.ide.MPSCoreComponents;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.ide.httpsupport.runtime.base.HttpSupportUtil;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
@@ -36,8 +35,7 @@ public final class NodeReference__BehaviorDescriptor extends BaseBHDescriptor {
 
   /*package*/ static String getTextualRepresentation_idfB3l81it7u(@NotNull SNode __thisNode__) {
     SNodeReference nodeReference = NodeIdentity__BehaviorDescriptor.toNodeReference_id4nxIQVLmsc4.invoke(SLinkOperations.getTarget(SLinkOperations.getTarget(__thisNode__, LINKS.expression$denr), LINKS.ref$hevt));
-    MPSModuleRepository repository = MPSCoreComponents.getInstance().getPlatform().findComponent(MPSModuleRepository.class);
-    SNode node = nodeReference.resolve(repository);
+    SNode node = nodeReference.resolve(SNodeOperations.getModel(__thisNode__).getRepository());
     return String.format("[%s](%s)", node.getName(), HttpSupportUtil.getURL(node));
   }
 

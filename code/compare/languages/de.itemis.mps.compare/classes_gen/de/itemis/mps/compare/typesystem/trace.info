@@ -25,24 +25,25 @@
       </scope>
     </file>
     <file name="typeof_AreEqualExpression_InferenceRule.java">
-      <node id="1831260205537500272" at="24,7,25,62" concept="5" />
-      <node id="1831260205537500272" at="25,62,26,200" concept="5" />
-      <node id="1831260205537500272" at="26,200,27,332" concept="2" />
-      <node id="334096402170271936" at="31,7,32,62" concept="5" />
-      <node id="334096402170271936" at="32,62,33,199" concept="5" />
-      <node id="334096402170271936" at="33,199,34,329" concept="2" />
-      <node id="3942143736281081701" at="38,7,39,62" concept="5" />
-      <node id="3942143736281081701" at="39,62,40,200" concept="5" />
-      <node id="3942143736281081701" at="40,200,41,332" concept="2" />
-      <node id="1831260205537500282" at="45,7,46,62" concept="5" />
-      <node id="1831260205537500282" at="46,62,47,200" concept="5" />
-      <node id="1831260205537500282" at="47,200,48,350" concept="2" />
-      <node id="1831260205537500291" at="52,7,53,62" concept="5" />
-      <node id="1831260205537500291" at="53,62,54,200" concept="5" />
-      <node id="1831260205537500291" at="54,200,55,351" concept="2" />
+      <node id="1831260205537500272" at="23,7,24,62" concept="5" />
+      <node id="1831260205537500272" at="24,62,25,200" concept="5" />
+      <node id="1831260205537500272" at="25,200,26,332" concept="2" />
+      <node id="334096402170271936" at="30,7,31,62" concept="5" />
+      <node id="334096402170271936" at="31,62,32,199" concept="5" />
+      <node id="334096402170271936" at="32,199,33,329" concept="2" />
+      <node id="3942143736281081701" at="37,7,38,62" concept="5" />
+      <node id="3942143736281081701" at="38,62,39,200" concept="5" />
+      <node id="3942143736281081701" at="39,200,40,332" concept="2" />
+      <node id="1831260205537500282" at="44,7,45,62" concept="5" />
+      <node id="1831260205537500282" at="45,62,46,200" concept="5" />
+      <node id="1831260205537500282" at="46,200,47,350" concept="2" />
+      <node id="1831260205537500291" at="51,7,52,62" concept="5" />
+      <node id="1831260205537500291" at="52,62,53,200" concept="5" />
+      <node id="1831260205537500291" at="53,200,54,351" concept="2" />
+      <node id="3026900917203905244" at="56,5,57,0" concept="7" />
       <node id="1831260205537511396" at="58,5,59,60" concept="5" />
       <node id="1831260205537511396" at="59,60,60,198" concept="5" />
-      <node id="1831260205537511396" at="60,198,61,403" concept="2" />
+      <node id="1831260205537511396" at="60,198,61,271" concept="2" />
       <node id="6247012736950760408" at="63,5,64,60" concept="5" />
       <node id="6247012736950760408" at="64,60,65,198" concept="5" />
       <node id="6247012736950760408" at="65,198,66,506" concept="2" />
@@ -85,60 +86,65 @@
       <node id="1831260205537500298" at="119,30,120,219" concept="5" />
       <node id="1831260205537500298" at="120,219,121,34" concept="2" />
       <node id="1831260205537500298" at="121,34,122,24" concept="6" />
-      <node id="1831260205537500129" at="126,0,127,0" concept="8" trace="ignoredProperties$zMTG" />
-      <node id="1831260205537500129" at="127,0,128,0" concept="8" trace="ignoredChildren$ds8l" />
-      <node id="1831260205537500129" at="128,0,129,0" concept="8" trace="ignoredReferences$ayx_" />
-      <node id="1831260205537500129" at="129,0,130,0" concept="8" trace="leftExpression$sEj" />
-      <node id="1831260205537500129" at="130,0,131,0" concept="8" trace="rightExpression$nvX" />
-      <node id="1831260205537500129" at="134,0,135,0" concept="8" trace="AreEqualExpression$bt" />
-      <node id="1831260205537500129" at="20,0,22,0" concept="1" trace="typeof_AreEqualExpression_InferenceRule#()V" />
+      <node id="3026900917203918883" at="124,65,125,30" concept="5" />
+      <node id="3026900917203918883" at="125,30,126,221" concept="5" />
+      <node id="3026900917203918883" at="126,221,127,34" concept="2" />
+      <node id="3026900917203918883" at="127,34,128,24" concept="6" />
+      <node id="1831260205537500129" at="132,0,133,0" concept="8" trace="ignoredProperties$zMTG" />
+      <node id="1831260205537500129" at="133,0,134,0" concept="8" trace="ignoredChildren$ds8l" />
+      <node id="1831260205537500129" at="134,0,135,0" concept="8" trace="ignoredReferences$ayx_" />
+      <node id="1831260205537500129" at="135,0,136,0" concept="8" trace="leftExpression$sEj" />
+      <node id="1831260205537500129" at="136,0,137,0" concept="8" trace="rightExpression$nvX" />
+      <node id="1831260205537500129" at="140,0,141,0" concept="8" trace="AreEqualExpression$bt" />
+      <node id="1831260205537500129" at="19,0,21,0" concept="1" trace="typeof_AreEqualExpression_InferenceRule#()V" />
       <node id="1831260205537500129" at="70,0,73,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="1831260205537500129" at="73,0,76,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="1831260205537500129" at="76,0,79,0" concept="4" trace="overrides#()Z" />
-      <node id="1831260205537500272" at="23,96,28,7" concept="0" />
-      <node id="334096402170271936" at="30,94,35,7" concept="0" />
-      <node id="3942143736281081701" at="37,96,42,7" concept="0" />
-      <node id="1831260205537500282" at="44,59,49,7" concept="0" />
-      <node id="1831260205537500291" at="51,59,56,7" concept="0" />
-      <node id="1831260205537511396" at="57,5,62,5" concept="0" />
+      <node id="1831260205537500272" at="22,96,27,7" concept="0" />
+      <node id="334096402170271936" at="29,94,34,7" concept="0" />
+      <node id="3942143736281081701" at="36,96,41,7" concept="0" />
+      <node id="1831260205537500282" at="43,59,48,7" concept="0" />
+      <node id="1831260205537500291" at="50,59,55,7" concept="0" />
+      <node id="1831260205537511396" at="57,0,62,5" concept="0" />
       <node id="6247012736950760408" at="62,5,67,5" concept="0" />
       <node id="1831260205537500289" at="112,0,118,0" concept="9" trace="_quotation_createNode_fw3wwe_a1a0c0a0d0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1831260205537500298" at="118,0,124,0" concept="9" trace="_quotation_createNode_fw3wwe_a1a0c0a0e0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="6133162264744935064" at="22,131,29,5" concept="3" />
-      <node id="334096402170271934" at="29,5,36,5" concept="3" />
-      <node id="6133162264744937772" at="36,5,43,5" concept="3" />
-      <node id="1831260205537500282" at="43,5,50,5" concept="3" />
-      <node id="1831260205537500291" at="50,5,57,5" concept="3" />
+      <node id="3026900917203918883" at="124,0,130,0" concept="9" trace="_quotation_createNode_fw3wwe_a1a0c0g0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="6133162264744935064" at="21,131,28,5" concept="3" />
+      <node id="334096402170271934" at="28,5,35,5" concept="3" />
+      <node id="6133162264744937772" at="35,5,42,5" concept="3" />
+      <node id="1831260205537500282" at="42,5,49,5" concept="3" />
+      <node id="1831260205537500291" at="49,5,56,5" concept="3" />
       <node id="1831260205537500274" at="79,0,90,0" concept="9" trace="_quotation_createNode_fw3wwe_a1a0c0a0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="334096402170271938" at="90,0,101,0" concept="9" trace="_quotation_createNode_fw3wwe_a1a0c0a0b0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3942143736281081703" at="101,0,112,0" concept="9" trace="_quotation_createNode_fw3wwe_a1a0c0a0c0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1831260205537500129" at="22,0,70,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-      <scope id="1831260205537500129" at="20,52,20,52" />
+      <node id="1831260205537500129" at="21,0,70,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="1831260205537500129" at="19,52,19,52" />
       <scope id="1831260205537500129" at="70,50,71,42" />
       <scope id="1831260205537500129" at="73,68,74,102" />
       <scope id="1831260205537500129" at="76,30,77,16" />
-      <scope id="1831260205537500129" at="20,0,22,0" />
-      <scope id="1831260205537500272" at="24,7,27,332">
+      <scope id="1831260205537500129" at="19,0,21,0" />
+      <scope id="1831260205537500272" at="23,7,26,332">
         <var name="_info_12389875345" id="1831260205537500272" />
         <var name="_nodeToCheck_1029348928467" id="1831260205537500272" />
       </scope>
-      <scope id="334096402170271936" at="31,7,34,329">
+      <scope id="334096402170271936" at="30,7,33,329">
         <var name="_info_12389875345" id="334096402170271936" />
         <var name="_nodeToCheck_1029348928467" id="334096402170271936" />
       </scope>
-      <scope id="3942143736281081701" at="38,7,41,332">
+      <scope id="3942143736281081701" at="37,7,40,332">
         <var name="_info_12389875345" id="3942143736281081701" />
         <var name="_nodeToCheck_1029348928467" id="3942143736281081701" />
       </scope>
-      <scope id="1831260205537500282" at="45,7,48,350">
+      <scope id="1831260205537500282" at="44,7,47,350">
         <var name="_info_12389875345" id="1831260205537500282" />
         <var name="_nodeToCheck_1029348928467" id="1831260205537500282" />
       </scope>
-      <scope id="1831260205537500291" at="52,7,55,351">
+      <scope id="1831260205537500291" at="51,7,54,351">
         <var name="_info_12389875345" id="1831260205537500291" />
         <var name="_nodeToCheck_1029348928467" id="1831260205537500291" />
       </scope>
-      <scope id="1831260205537511396" at="58,5,61,403">
+      <scope id="1831260205537511396" at="58,5,61,271">
         <var name="_info_12389875345" id="1831260205537511396" />
         <var name="_nodeToCheck_1029348928467" id="1831260205537511396" />
       </scope>
@@ -159,13 +165,18 @@
         <var name="nb" id="1831260205537500298" />
         <var name="quotedNode_1" id="1831260205537500298" />
       </scope>
-      <scope id="6133162264744935066" at="23,96,28,7" />
-      <scope id="334096402170271935" at="30,94,35,7" />
-      <scope id="6133162264744937774" at="37,96,42,7" />
-      <scope id="1831260205537500282" at="44,59,49,7" />
-      <scope id="1831260205537500291" at="51,59,56,7" />
+      <scope id="3026900917203918883" at="124,65,128,24">
+        <var name="nb" id="3026900917203918883" />
+        <var name="quotedNode_1" id="3026900917203918883" />
+      </scope>
+      <scope id="6133162264744935066" at="22,96,27,7" />
+      <scope id="334096402170271935" at="29,94,34,7" />
+      <scope id="6133162264744937774" at="36,96,41,7" />
+      <scope id="1831260205537500282" at="43,59,48,7" />
+      <scope id="1831260205537500291" at="50,59,55,7" />
       <scope id="1831260205537500289" at="112,0,118,0" />
       <scope id="1831260205537500298" at="118,0,124,0" />
+      <scope id="3026900917203918883" at="124,0,130,0" />
       <scope id="1831260205537500274" at="79,67,88,24">
         <var name="nb" id="1831260205537500274" />
         <var name="nb1" id="1831260205537500274" />
@@ -187,15 +198,15 @@
       <scope id="1831260205537500274" at="79,0,90,0" />
       <scope id="334096402170271938" at="90,0,101,0" />
       <scope id="3942143736281081703" at="101,0,112,0" />
-      <scope id="1831260205537500130" at="22,131,68,0" />
-      <scope id="1831260205537500129" at="22,0,70,0">
+      <scope id="1831260205537500130" at="21,131,68,0" />
+      <scope id="1831260205537500129" at="21,0,70,0">
         <var name="areEqualExpression" id="1831260205537500129" />
         <var name="status" id="1831260205537500129" />
         <var name="typeCheckingContext" id="1831260205537500129" />
       </scope>
-      <unit id="1831260205537500129" at="133,0,136,0" name="de.itemis.mps.compare.typesystem.typeof_AreEqualExpression_InferenceRule$CONCEPTS" />
-      <unit id="1831260205537500129" at="125,0,132,0" name="de.itemis.mps.compare.typesystem.typeof_AreEqualExpression_InferenceRule$LINKS" />
-      <unit id="1831260205537500129" at="19,0,137,0" name="de.itemis.mps.compare.typesystem.typeof_AreEqualExpression_InferenceRule" />
+      <unit id="1831260205537500129" at="139,0,142,0" name="de.itemis.mps.compare.typesystem.typeof_AreEqualExpression_InferenceRule$CONCEPTS" />
+      <unit id="1831260205537500129" at="131,0,138,0" name="de.itemis.mps.compare.typesystem.typeof_AreEqualExpression_InferenceRule$LINKS" />
+      <unit id="1831260205537500129" at="18,0,143,0" name="de.itemis.mps.compare.typesystem.typeof_AreEqualExpression_InferenceRule" />
     </file>
   </root>
   <root nodeRef="r:f7b641c7-0327-4513-80ee-fa0921b93a79(de.itemis.mps.compare.typesystem)/2529503557004333493">

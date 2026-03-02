@@ -19,7 +19,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.SPropertyAccessor;
-import java.awt.Color;
+import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellMenu.SPropertySubstituteInfo;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
@@ -28,6 +28,7 @@ import java.util.Objects;
 import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
+import jetbrains.mps.nodeEditor.cells.EditorCell_ContextAssistantComponent;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -95,7 +96,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
       editorCell.setDefaultText("<no indent>");
       editorCell.setCellId("property_indent");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.BACKGROUND_COLOR, getStyleRegistry().getSimpleColor(new Color(14540253)));
+      style.set(StyleAttributes.BACKGROUND_COLOR, getStyleRegistry().getSimpleColor(MPSColors.lightGray));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
@@ -118,8 +119,18 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0, Measure.SPACES));
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
+    editorCell.addEditorCell(createContextAssistant_0());
     editorCell.addEditorCell(createComponent_0());
     editorCell.addEditorCell(createRefNodeList_0());
+    return editorCell;
+  }
+  private EditorCell createContextAssistant_0() {
+    EditorCell editorCell = new EditorCell_ContextAssistantComponent(getEditorContext(), myNode);
+    editorCell.setCellId("ContextAssistant_z36f6v_a1a0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.TRANSPARENT, true);
+    editorCell.getStyle().putAll(style);
     return editorCell;
   }
   private EditorCell createComponent_0() {
@@ -127,7 +138,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new linesListHandler_z36f6v_b1a0(myNode, getEditorContext());
+    AbstractCellListHandler handler = new linesListHandler_z36f6v_c1a0(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_lines");
     Style style = new StyleImpl();
@@ -136,11 +147,11 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class linesListHandler_z36f6v_b1a0 extends RefNodeListHandler {
+  private static class linesListHandler_z36f6v_c1a0 extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public linesListHandler_z36f6v_b1a0(SNode ownerNode, EditorContext context) {
+    public linesListHandler_z36f6v_c1a0(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -169,7 +180,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(linesListHandler_z36f6v_b1a0.this.getNode(), LINKS.lines$u7C));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(linesListHandler_z36f6v_c1a0.this.getNode(), LINKS.lines$u7C));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();

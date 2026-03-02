@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:703fd5bb-6da2-4b6f-a58e-b27bed92cb2f(kotlin.usage.test.mdl)/3138079558918167121">
+    <file name="UseStuffFromJar.java">
+      <node id="3138079558926809022" at="14,44,15,20" concept="2" />
+      <node id="3138079558926807379" at="18,0,21,0" concept="0" trace="resumeWith#(Ljava/lang/Object;)V" />
+      <node id="3138079558926807370" at="12,0,17,0" concept="0" trace="getContext#()Lkotlin/coroutines/CoroutineContext;" />
+      <node id="3138079558926806432" at="10,42,21,6" concept="1" />
+      <node id="3138079558918167324" at="10,0,23,0" concept="3" trace="main#([Ljava/lang/String;)V" />
+      <scope id="3138079558926807386" at="19,50,19,50" />
+      <scope id="3138079558926807375" at="14,44,15,20" />
+      <scope id="3138079558926807379" at="18,0,21,0">
+        <var name="p1" id="3138079558926807383" />
+      </scope>
+      <scope id="3138079558926807370" at="12,0,17,0" />
+      <scope id="3138079558918167330" at="10,42,21,6">
+        <var name="c" id="3138079558926806433" />
+      </scope>
+      <scope id="3138079558918167324" at="10,0,23,0">
+        <var name="args" id="3138079558918167325" />
+      </scope>
+      <unit id="3138079558926807356" at="11,25,21,5" name="kotlin.usage.test.mdl.UseStuffFromJar$1" />
+      <unit id="3138079558918167121" at="9,0,24,0" name="kotlin.usage.test.mdl.UseStuffFromJar" />
+    </file>
+  </root>
+</debug-info>
+

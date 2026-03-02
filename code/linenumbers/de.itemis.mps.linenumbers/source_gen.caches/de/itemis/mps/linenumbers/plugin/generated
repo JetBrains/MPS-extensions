@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-bq911uy0dko6h0fp9xiq1dzk0zdccd9">
-  <files names="AbstractLineList.java:GoToEditorLineGroup_ActionGroup.java:GoToEditorLine_Action.java:ILineList.java:Line.java:LineList.java:LineNumberCellMessage.java:LineNumberComponent.java:LineNumberPlugin_ProjectPluginPart.java:LineNumberPreferences.java:LineNumberUtils.java:Linenumbers_ApplicationPlugin.java:Linenumbers_ProjectPlugin.java:ToggleLineNumbersGroup_ActionGroup.java:ToggleLineNumbers_Action.java" />
+<product version="3" modelHash="-et5kx58bkz8vfdcpn768srik637pytg">
+  <files names="AbstractLineList.java:GoToEditorLineGroup_ActionGroup.java:GoToEditorLine_Action.java:ILineList.java:LayoutedLineNumber.java:Line.java:LineList.java:LineNumberCellMessage.java:LineNumberComponent.java:LineNumberPreferences.java:LineNumberUtils.java:LineNumbersPlugin_AppPluginPart.java:LineNumbersUpdater.java:Linenumbers_ApplicationPlugin.java:ToggleLineNumbersGroup_ActionGroup.java:ToggleLineNumbers_Action.java" />
 </product>
 

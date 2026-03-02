@@ -13,7 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.SPropertyAccessor;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
-import com.dslfoundry.plaintextflow.editor.style_flow_StyleSheet.nogapStyleClass;
+import com.dslfoundry.plaintextflow.editor.FlowStyle_StyleSheet.NoGapStyleClass;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellMenu.SPropertySubstituteInfo;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -57,7 +57,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       editorCell.setBig(true);
       setCellContext(editorCell);
       Style style = new StyleImpl();
-      new nogapStyleClass(this).apply(style, editorCell);
+      new NoGapStyleClass(this).apply(style, editorCell);
       style.set(StyleAttributes.TEXT_BACKGROUND_COLOR, getStyleRegistry().getSimpleColor(_StyleParameter_QueryFunction_360umy_a0a()));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
@@ -75,11 +75,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
   private Color _StyleParameter_QueryFunction_360umy_a0a() {
     if (SNodeOperations.getIndexInParent(getNode()) % 2 == 0) {
-      return new Color(255, 177, 109, 20);
+      return Colors.FLOW_WORD_EVEN;
     } else {
-      return new Color(94, 153, 255, 20);
+      return Colors.FLOW_WORD_UNEVEN;
     }
-
   }
 
   private static final class PROPS {

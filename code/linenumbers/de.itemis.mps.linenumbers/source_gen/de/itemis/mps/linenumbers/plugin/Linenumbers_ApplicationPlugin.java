@@ -5,6 +5,8 @@ package de.itemis.mps.linenumbers.plugin;
 import jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin;
 import com.intellij.openapi.extensions.PluginId;
 import org.jetbrains.annotations.NotNull;
+import java.util.List;
+import jetbrains.mps.plugins.part.ApplicationPluginPart;
 
 public class Linenumbers_ApplicationPlugin extends BaseApplicationPlugin {
   private final PluginId myId = PluginId.getId("de.itemis.mps.linenumbers");
@@ -28,5 +30,9 @@ public class Linenumbers_ApplicationPlugin extends BaseApplicationPlugin {
   public void adjustRegularGroups() {
     insertGroupIntoAnother(GoToEditorLineGroup_ActionGroup.ID, "jetbrains.mps.ide.editor.actions.GoToEditorPopupAddition_ActionGroup", null);
     insertGroupIntoAnother(ToggleLineNumbersGroup_ActionGroup.ID, "jetbrains.mps.ide.editor.actions.EditorLeftPanelMenu_ActionGroup", null);
+  }
+  @Override
+  public void fillCustomParts(List<ApplicationPluginPart> parts) {
+    parts.add(new LineNumbersPlugin_AppPluginPart());
   }
 }

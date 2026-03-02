@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="IconContainer.java">
+      <unit at="8,0,11,0" name="com.mbeddr.mpsutil.intentions.tests.plugin.IconContainer" />
+    </file>
+  </root>
+  <root nodeRef="r:561153e1-7e8c-4c8e-9afe-a4850f2fd430(com.mbeddr.mpsutil.intentions.tests.plugin)/3790525273735034047">
+    <file name="Tests_ApplicationPlugin.java">
+      <node id="3790525273735034047" at="10,0,11,0" concept="3" trace="myId" />
+      <node id="3790525273735034047" at="16,27,17,16" concept="7" />
+      <node id="3790525273735034047" at="20,30,21,29" concept="8" />
+      <node id="3790525273735034047" at="22,37,23,13" concept="8" />
+      <node id="3790525273735034047" at="12,0,14,0" concept="1" trace="Tests_ApplicationPlugin#()V" />
+      <node id="3790525273735034047" at="26,0,29,0" concept="5" trace="adjustRegularGroups#()V" />
+      <node id="3790525273735034047" at="15,0,19,0" concept="5" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="3790525273735034047" at="20,0,26,0" concept="5" trace="createGroups#()V" />
+      <scope id="3790525273735034047" at="12,36,12,36" />
+      <scope id="3790525273735034047" at="16,27,17,16" />
+      <scope id="3790525273735034047" at="26,37,27,142" />
+      <scope id="3790525273735034047" at="12,0,14,0" />
+      <scope id="3790525273735034047" at="26,0,29,0" />
+      <scope id="3790525273735034047" at="15,0,19,0" />
+      <scope id="3790525273735034047" at="20,30,24,61" />
+      <scope id="3790525273735034047" at="20,0,26,0" />
+      <unit id="3790525273735034047" at="9,0,30,0" name="com.mbeddr.mpsutil.intentions.tests.plugin.Tests_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:561153e1-7e8c-4c8e-9afe-a4850f2fd430(com.mbeddr.mpsutil.intentions.tests.plugin)/3790525273735035750">
+    <file name="ActionsAsIntentionsGroup_ActionGroup.java">
+      <node id="3790525273735035750" at="10,0,11,0" concept="9" trace="ID" />
+      <node id="3790525273735035750" at="12,82,13,50" concept="10" />
+      <node id="3790525273735035750" at="13,50,14,25" concept="2" />
+      <node id="3790525273735035750" at="14,25,15,20" concept="2" />
+      <node id="3790525273735036154" at="15,20,16,118" concept="2" />
+      <node id="3790525273735035750" at="12,0,18,0" concept="1" trace="ActionsAsIntentionsGroup_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="3790525273735035750" at="12,82,16,118" />
+      <scope id="3790525273735035750" at="12,0,18,0">
+        <var name="plugin" id="3790525273735035750" />
+      </scope>
+      <unit id="3790525273735035750" at="9,0,19,0" name="com.mbeddr.mpsutil.intentions.tests.plugin.ActionsAsIntentionsGroup_ActionGroup" />
+    </file>
+    <file name="Tests_ApplicationPlugin.java">
+      <node id="3790525273735035750" at="23,13,24,61" concept="2" />
+      <node id="2477161125052698259" at="26,37,27,142" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:561153e1-7e8c-4c8e-9afe-a4850f2fd430(com.mbeddr.mpsutil.intentions.tests.plugin)/3790525273735035950">
+    <file name="MyAction_Action.java">
+      <node id="3790525273735035950" at="19,0,20,0" concept="9" trace="ICON" />
+      <node id="3790525273735035950" at="21,28,22,42" concept="10" />
+      <node id="3790525273735035950" at="22,42,23,35" concept="2" />
+      <node id="3790525273735035950" at="23,35,24,52" concept="2" />
+      <node id="3790525273735035950" at="24,52,25,29" concept="2" />
+      <node id="3790525273735035950" at="28,32,29,16" concept="7" />
+      <node id="3790525273735035950" at="33,53,34,19" concept="7" />
+      <node id="4235696476703707724" at="36,5,37,57" concept="6" />
+      <node id="4235696476703707724" at="38,102,39,20" concept="2" />
+      <node id="4235696476703707726" at="41,25,42,21" concept="7" />
+      <node id="3790525273735035950" at="44,5,45,16" concept="7" />
+      <node id="3790525273742397026" at="48,96,49,73" concept="2" />
+      <node id="3790525273735035950" at="53,0,54,0" concept="9" trace="DemoNodeWithIntentions$fr" />
+      <node id="3790525273735035950" at="32,95,35,5" concept="4" />
+      <node id="4235696476703707724" at="37,57,40,7" concept="4" />
+      <node id="4235696476703707726" at="40,7,43,7" concept="4" />
+      <node id="3790525273735035950" at="27,0,31,0" concept="5" trace="isDumbAware#()Z" />
+      <node id="3790525273735035950" at="47,0,51,0" concept="5" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3790525273735035950" at="21,0,27,0" concept="1" trace="MyAction_Action#()V" />
+      <node id="4235696476703707724" at="35,5,44,5" concept="0" />
+      <node id="3790525273735035950" at="31,0,47,0" concept="5" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="3790525273735035950" at="28,32,29,16" />
+      <scope id="3790525273735035950" at="33,53,34,19" />
+      <scope id="4235696476703707724" at="38,102,39,20" />
+      <scope id="4235696476703707726" at="41,25,42,21" />
+      <scope id="3790525273735035950" at="48,96,49,73" />
+      <scope id="3790525273735035950" at="21,28,25,29" />
+      <scope id="3790525273735035950" at="27,0,31,0" />
+      <scope id="3790525273735035950" at="47,0,51,0">
+        <var name="_params" id="3790525273735035950" />
+        <var name="event" id="3790525273735035950" />
+      </scope>
+      <scope id="3790525273735035950" at="21,0,27,0" />
+      <scope id="4235696476703707724" at="36,5,43,7">
+        <var name="node" id="4235696476703707724" />
+      </scope>
+      <scope id="3790525273735035950" at="32,95,45,16" />
+      <scope id="3790525273735035950" at="31,0,47,0">
+        <var name="_params" id="3790525273735035950" />
+        <var name="event" id="3790525273735035950" />
+      </scope>
+      <unit id="3790525273735035950" at="52,0,55,0" name="com.mbeddr.mpsutil.intentions.tests.plugin.MyAction_Action$CONCEPTS" />
+      <unit id="3790525273735035950" at="18,0,56,0" name="com.mbeddr.mpsutil.intentions.tests.plugin.MyAction_Action" />
+    </file>
+    <file name="Tests_ApplicationPlugin.java">
+      <node id="3790525273735035950" at="21,29,22,37" concept="2" />
+    </file>
+  </root>
+</debug-info>
+

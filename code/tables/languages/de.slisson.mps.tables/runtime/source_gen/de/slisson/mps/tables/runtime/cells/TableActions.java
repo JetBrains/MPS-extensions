@@ -137,6 +137,17 @@ public class TableActions {
       return TableActions.TableActionType.ROW;
     }
 
+    @Override
+    public boolean canExecute(EditorContext context) {
+      if (!(super.canExecute(context))) {
+        return false;
+      }
+
+      SNode nodeOfRow = TableUtils.getNodeOfRowNode(getGridCell());
+      return SNodeOperations.getContainingLink(nodeOfRow).isMultiple();
+    }
+
+    @Override
     public void execute(EditorContext context) {
       SNode nodeOfRow = TableUtils.getNodeOfRowNode(getGridCell());
       if (before) {

@@ -11,6 +11,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.text.behavior.IHoldLines__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.text.behavior.Line__BehaviorDescriptor;
+import java.util.Locale;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
@@ -46,7 +47,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return IterableUtils.join(ListSequence.fromList(IHoldLines__BehaviorDescriptor.getLines_id6GJhO0n1Xys.invoke(SLinkOperations.getTarget(_context.getNode(), LINKS.header$RMcR))).select((it) -> (String) Line__BehaviorDescriptor.representAsText_id2iG$EWuTXv2.invoke(it)), "\n");
   }
   public static Object propertyMacro_GetValue_1_2(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL);
+    return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL).toUpperCase(Locale.ENGLISH);
   }
   public static Object propertyMacro_GetValue_1_3(final PropertyMacroContext _context) {
     return "." + SPropertyOperations.getString(_context.getNode(), PROPS.ext$Q_h6);

@@ -56,7 +56,7 @@ public class TextGenElement_Keymap extends KeyMapImpl {
       return (SNodeOperations.getNodeAncestor(node, CONCEPTS.Line$5o, true, false) != null);
     }
     private void execute_internal(final EditorContext editorContext, final SNode node, final List<SNode> selectedNodes) {
-      SLinkOperations.addNewChild(SNodeOperations.getNodeAncestor(node, CONCEPTS.Line$5o, true, false), LINKS.words$teE6, CONCEPTS.tab$tC);
+      SLinkOperations.addNewChild(SNodeOperations.getNodeAncestor(node, CONCEPTS.Line$5o, true, false), LINKS.words$teE6, CONCEPTS.Tab$tC);
     }
     public String getKeyStroke() {
       return "ctrl alt ENTER";
@@ -126,7 +126,7 @@ public class TextGenElement_Keymap extends KeyMapImpl {
       return (SNodeOperations.getNodeAncestor(node, CONCEPTS.Line$5o, false, false) != null);
     }
     private void execute_internal(final EditorContext editorContext, final SNode node, final List<SNode> selectedNodes) {
-      SLinkOperations.addNewChild(SNodeOperations.getNodeAncestor(node, CONCEPTS.Line$5o, false, false), LINKS.words$teE6, CONCEPTS.word$dj);
+      SLinkOperations.addNewChild(SNodeOperations.getNodeAncestor(node, CONCEPTS.Line$5o, false, false), LINKS.words$teE6, CONCEPTS.Word$dj);
     }
     public String getKeyStroke() {
       return "ctrl shift ENTER";
@@ -135,9 +135,9 @@ public class TextGenElement_Keymap extends KeyMapImpl {
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept Line$5o = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, "com.dslfoundry.plaintextgen.structure.Line");
-    /*package*/ static final SConcept tab$tC = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x2785a009e0883ec8L, "com.dslfoundry.plaintextgen.structure.tab");
+    /*package*/ static final SConcept Tab$tC = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x2785a009e0883ec8L, "com.dslfoundry.plaintextgen.structure.Tab");
     /*package*/ static final SInterfaceConcept IVerticalGroup$fF = MetaAdapterFactory.getInterfaceConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, "com.dslfoundry.plaintextgen.structure.IVerticalGroup");
-    /*package*/ static final SConcept word$dj = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L, "com.dslfoundry.plaintextgen.structure.word");
+    /*package*/ static final SConcept Word$dj = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L, "com.dslfoundry.plaintextgen.structure.Word");
   }
 
   private static final class LINKS {

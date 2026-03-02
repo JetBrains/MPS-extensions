@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root nodeRef="r:831e0f32-50fa-4f24-8884-3327c0876f34(com.mbeddr.mpsutil.grammarcells.sandboxlang.enumMigration)/9167550852342474429">
+    <file name="Enum1_MigrationUtils.java">
+      <node id="9167550852342474438" at="13,13,14,21" concept="0" />
+      <node id="9167550852342474441" at="15,13,16,21" concept="0" />
+      <node id="9167550852342474444" at="17,13,18,21" concept="0" />
+      <node id="9167550852342474447" at="19,13,20,21" concept="0" />
+      <node id="9167550852342474454" at="21,14,22,20" concept="0" />
+      <node id="9167550852342474466" at="27,17,28,228" concept="0" />
+      <node id="9167550852342474473" at="29,17,30,228" concept="0" />
+      <node id="9167550852342474480" at="31,17,32,228" concept="0" />
+      <node id="9167550852342474487" at="33,17,34,228" concept="0" />
+      <node id="9167550852342474496" at="35,14,36,20" concept="0" />
+      <node id="9167550852342474429" at="39,0,40,0" concept="1" trace="enumSwitchIndex" />
+      <node id="9167550852342474454" at="11,62,23,5" concept="3" />
+      <node id="9167550852342474493" at="25,61,37,5" concept="3" />
+      <node id="9167550852342474448" at="11,0,25,0" concept="2" trace="value#(Lorg/jetbrains/mps/openapi/language/SEnumerationLiteral;)Ljava/lang/String;" />
+      <node id="9167550852342474457" at="25,0,39,0" concept="2" trace="fromValue#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/language/SEnumerationLiteral;" />
+      <scope id="9167550852342474438" at="13,13,14,21" />
+      <scope id="9167550852342474441" at="15,13,16,21" />
+      <scope id="9167550852342474444" at="17,13,18,21" />
+      <scope id="9167550852342474447" at="19,13,20,21" />
+      <scope id="9167550852342474454" at="21,14,22,20" />
+      <scope id="9167550852342474465" at="27,17,28,228" />
+      <scope id="9167550852342474472" at="29,17,30,228" />
+      <scope id="9167550852342474479" at="31,17,32,228" />
+      <scope id="9167550852342474486" at="33,17,34,228" />
+      <scope id="9167550852342474495" at="35,14,36,20" />
+      <scope id="9167550852342474452" at="11,62,23,5" />
+      <scope id="9167550852342474492" at="25,61,37,5" />
+      <scope id="9167550852342474448" at="11,0,25,0">
+        <var name="enummember" id="9167550852342474449" />
+      </scope>
+      <scope id="9167550852342474457" at="25,0,39,0">
+        <var name="value" id="9167550852342474458" />
+      </scope>
+      <unit id="9167550852342474429" at="10,0,41,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.enumMigration.Enum1_MigrationUtils" />
+    </file>
+  </root>
+</debug-info>
+

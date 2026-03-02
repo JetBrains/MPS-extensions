@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root nodeRef="r:1556dea0-2016-4b7e-9a08-05bb6df45155(de.itemis.mps.extensions.changelog.plugin)/801165755129159099">
+    <file name="Changelog_ProjectPlugin.java">
+      <node id="801165755129159099" at="10,0,12,0" concept="0" trace="Changelog_ProjectPlugin#()V" />
+      <node id="801165755129159099" at="12,0,15,0" concept="3" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="801165755129159099" at="10,36,10,36" />
+      <scope id="801165755129159099" at="12,62,13,63" />
+      <scope id="801165755129159099" at="10,0,12,0" />
+      <scope id="801165755129159099" at="12,0,15,0">
+        <var name="parts" id="801165755129159099" />
+      </scope>
+      <unit id="801165755129159099" at="9,0,16,0" name="de.itemis.mps.extensions.changelog.plugin.Changelog_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:1556dea0-2016-4b7e-9a08-05bb6df45155(de.itemis.mps.extensions.changelog.plugin)/801165755129159100">
+    <file name="Changelog_ProjectPlugin.java">
+      <node id="801165755129159100" at="12,62,13,63" concept="1" />
+    </file>
+    <file name="dictionaryMPSExtensions_ProjectPluginPart.java">
+      <node id="801165755129159100" at="16,0,17,0" concept="2" trace="words" />
+      <node id="801165755129159100" at="20,40,21,0" concept="5" />
+      <node id="801165755129159100" at="21,0,22,63" concept="4" />
+      <node id="801165755129159100" at="22,63,23,0" concept="5" />
+      <node id="801165755129159100" at="23,0,24,91" concept="4" />
+      <node id="801165755129159100" at="24,91,25,0" concept="5" />
+      <node id="801165755129818902" at="25,0,26,186" concept="1" />
+      <node id="801165755129935157" at="26,186,27,149" concept="1" />
+      <node id="801165755129781442" at="27,149,28,186" concept="1" />
+      <node id="801165755129935301" at="28,186,29,149" concept="1" />
+      <node id="801165755129935303" at="29,149,30,455" concept="1" />
+      <node id="801165755129159100" at="30,455,31,0" concept="5" />
+      <node id="801165755129159100" at="31,0,32,70" concept="4" />
+      <node id="801165755129159100" at="32,70,33,121" concept="1" />
+      <node id="801165755129159100" at="33,121,34,113" concept="1" />
+      <node id="801165755129159100" at="34,113,35,0" concept="5" />
+      <node id="801165755129159100" at="35,0,36,55" concept="1" />
+      <node id="801165755129159100" at="39,43,40,63" concept="4" />
+      <node id="801165755129159100" at="40,63,41,91" concept="4" />
+      <node id="801165755129159100" at="41,91,42,70" concept="4" />
+      <node id="801165755129159100" at="42,70,43,113" concept="1" />
+      <node id="801165755129159100" at="43,113,44,169" concept="1" />
+      <node id="801165755129159100" at="17,0,19,0" concept="0" trace="dictionaryMPSExtensions_ProjectPluginPart#()V" />
+      <node id="801165755129159100" at="38,0,46,0" concept="3" trace="dispose#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="801165755129159100" at="19,0,38,0" concept="3" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <scope id="801165755129159100" at="17,54,17,54" />
+      <scope id="801165755129159100" at="17,0,19,0" />
+      <scope id="801165755129159100" at="39,43,44,169">
+        <var name="allWords" id="801165755129159100" />
+        <var name="ideaProject" id="801165755129159100" />
+        <var name="spellCheckerManager" id="801165755129159100" />
+      </scope>
+      <scope id="801165755129159100" at="38,0,46,0">
+        <var name="project" id="801165755129159100" />
+      </scope>
+      <scope id="801165755129159100" at="20,40,36,55">
+        <var name="allWords" id="801165755129159100" />
+        <var name="ideaProject" id="801165755129159100" />
+        <var name="spellCheckerManager" id="801165755129159100" />
+      </scope>
+      <scope id="801165755129159100" at="19,0,38,0">
+        <var name="project" id="801165755129159100" />
+      </scope>
+      <unit id="801165755129159100" at="15,0,47,0" name="de.itemis.mps.extensions.changelog.plugin.dictionaryMPSExtensions_ProjectPluginPart" />
+    </file>
+  </root>
+</debug-info>
+

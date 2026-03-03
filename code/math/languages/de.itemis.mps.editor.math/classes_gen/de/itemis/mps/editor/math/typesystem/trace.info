@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,24,0" name="de.itemis.mps.editor.math.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:36fbf9ec-ba20-476d-b754-70094c22c518(de.itemis.mps.editor.math.typesystem)/1330709772462422878">
+    <file name="TypesystemDescriptor.java">
+      <node id="1330709772462422878" at="10,5,11,84" concept="4" />
+      <node id="1330709772462422878" at="11,84,12,47" concept="2" />
+      <node id="1330709772462422878" at="9,33,13,5" concept="0" />
+      <scope id="1330709772462422878" at="10,5,12,47">
+        <var name="inferenceRule" id="1330709772462422878" />
+      </scope>
+    </file>
+    <file name="typeof_ChildCellRef_InferenceRule.java">
+      <node id="1330709772462423190" at="20,5,21,54" concept="4" />
+      <node id="1330709772462423190" at="21,54,22,202" concept="4" />
+      <node id="1330709772462423190" at="22,202,23,283" concept="2" />
+      <node id="1330709772462422878" at="26,50,27,36" concept="5" />
+      <node id="1330709772462422878" at="29,68,30,102" concept="5" />
+      <node id="1330709772462422878" at="32,30,33,17" concept="5" />
+      <node id="1330709772462423233" at="35,65,36,30" concept="4" />
+      <node id="1330709772462423233" at="36,30,37,225" concept="4" />
+      <node id="1330709772462423233" at="37,225,38,34" concept="2" />
+      <node id="1330709772462423233" at="38,34,39,241" concept="2" />
+      <node id="1330709772462423233" at="39,241,40,24" concept="5" />
+      <node id="1330709772462422878" at="44,0,45,0" concept="6" trace="ChildCellRef$_v" />
+      <node id="1330709772462422878" at="17,0,19,0" concept="1" trace="typeof_ChildCellRef_InferenceRule#()V" />
+      <node id="1330709772462422878" at="26,0,29,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="1330709772462422878" at="29,0,32,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="1330709772462422878" at="32,0,35,0" concept="3" trace="overrides#()Z" />
+      <node id="1330709772462423190" at="19,125,24,5" concept="0" />
+      <node id="1330709772462422878" at="19,0,26,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="1330709772462423233" at="35,0,42,0" concept="7" trace="_quotation_createNode_lkof5o_a1a0c0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1330709772462422878" at="17,46,17,46" />
+      <scope id="1330709772462422878" at="26,50,27,36" />
+      <scope id="1330709772462422878" at="29,68,30,102" />
+      <scope id="1330709772462422878" at="32,30,33,17" />
+      <scope id="1330709772462422878" at="17,0,19,0" />
+      <scope id="1330709772462423190" at="20,5,23,283">
+        <var name="_info_12389875345" id="1330709772462423190" />
+        <var name="_nodeToCheck_1029348928467" id="1330709772462423190" />
+      </scope>
+      <scope id="1330709772462422878" at="26,0,29,0" />
+      <scope id="1330709772462422878" at="29,0,32,0">
+        <var name="argument" id="1330709772462422878" />
+      </scope>
+      <scope id="1330709772462422878" at="32,0,35,0" />
+      <scope id="1330709772462422879" at="19,125,24,5" />
+      <scope id="1330709772462423233" at="35,65,40,24">
+        <var name="nb" id="1330709772462423233" />
+        <var name="quotedNode_1" id="1330709772462423233" />
+      </scope>
+      <scope id="1330709772462422878" at="19,0,26,0">
+        <var name="childCellRef" id="1330709772462422878" />
+        <var name="status" id="1330709772462422878" />
+        <var name="typeCheckingContext" id="1330709772462422878" />
+      </scope>
+      <scope id="1330709772462423233" at="35,0,42,0" />
+      <unit id="1330709772462422878" at="43,0,46,0" name="de.itemis.mps.editor.math.typesystem.typeof_ChildCellRef_InferenceRule$CONCEPTS" />
+      <unit id="1330709772462422878" at="16,0,47,0" name="de.itemis.mps.editor.math.typesystem.typeof_ChildCellRef_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:36fbf9ec-ba20-476d-b754-70094c22c518(de.itemis.mps.editor.math.typesystem)/9120555111509402465">
+    <file name="TypesystemDescriptor.java">
+      <node id="9120555111509402465" at="18,5,19,95" concept="4" />
+      <node id="9120555111509402465" at="19,95,20,47" concept="2" />
+      <node id="9120555111509402465" at="17,5,21,5" concept="0" />
+      <scope id="9120555111509402465" at="18,5,20,47">
+        <var name="inferenceRule" id="9120555111509402465" />
+      </scope>
+    </file>
+    <file name="typeof_SharedVariableReference_InferenceRule.java">
+      <node id="9120555111509403044" at="22,5,23,65" concept="4" />
+      <node id="9120555111509403044" at="23,65,24,202" concept="4" />
+      <node id="9120555111509403044" at="24,202,25,361" concept="2" />
+      <node id="9120555111509402465" at="28,50,29,47" concept="5" />
+      <node id="9120555111509402465" at="31,68,32,102" concept="5" />
+      <node id="9120555111509402465" at="34,30,35,17" concept="5" />
+      <node id="9120555111509402465" at="39,0,40,0" concept="6" trace="declaration$dx$P" />
+      <node id="9120555111509402465" at="40,0,41,0" concept="6" trace="type$nPUs" />
+      <node id="9120555111509402465" at="44,0,45,0" concept="6" trace="SharedVariableReference$Ph" />
+      <node id="9120555111509402465" at="19,0,21,0" concept="1" trace="typeof_SharedVariableReference_InferenceRule#()V" />
+      <node id="9120555111509402465" at="28,0,31,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="9120555111509402465" at="31,0,34,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="9120555111509402465" at="34,0,37,0" concept="3" trace="overrides#()Z" />
+      <node id="9120555111509403044" at="21,136,26,5" concept="0" />
+      <node id="9120555111509402465" at="21,0,28,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="9120555111509402465" at="19,57,19,57" />
+      <scope id="9120555111509402465" at="28,50,29,47" />
+      <scope id="9120555111509402465" at="31,68,32,102" />
+      <scope id="9120555111509402465" at="34,30,35,17" />
+      <scope id="9120555111509402465" at="19,0,21,0" />
+      <scope id="9120555111509403044" at="22,5,25,361">
+        <var name="_info_12389875345" id="9120555111509403044" />
+        <var name="_nodeToCheck_1029348928467" id="9120555111509403044" />
+      </scope>
+      <scope id="9120555111509402465" at="28,0,31,0" />
+      <scope id="9120555111509402465" at="31,0,34,0">
+        <var name="argument" id="9120555111509402465" />
+      </scope>
+      <scope id="9120555111509402465" at="34,0,37,0" />
+      <scope id="9120555111509402466" at="21,136,26,5" />
+      <scope id="9120555111509402465" at="21,0,28,0">
+        <var name="sharedVariableReference" id="9120555111509402465" />
+        <var name="status" id="9120555111509402465" />
+        <var name="typeCheckingContext" id="9120555111509402465" />
+      </scope>
+      <unit id="9120555111509402465" at="43,0,46,0" name="de.itemis.mps.editor.math.typesystem.typeof_SharedVariableReference_InferenceRule$CONCEPTS" />
+      <unit id="9120555111509402465" at="38,0,42,0" name="de.itemis.mps.editor.math.typesystem.typeof_SharedVariableReference_InferenceRule$LINKS" />
+      <unit id="9120555111509402465" at="18,0,47,0" name="de.itemis.mps.editor.math.typesystem.typeof_SharedVariableReference_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:36fbf9ec-ba20-476d-b754-70094c22c518(de.itemis.mps.editor.math.typesystem)/9120555111514385883">
+    <file name="TypesystemDescriptor.java">
+      <node id="9120555111514385883" at="14,5,15,101" concept="4" />
+      <node id="9120555111514385883" at="15,101,16,47" concept="2" />
+      <node id="9120555111514385883" at="13,5,17,5" concept="0" />
+      <scope id="9120555111514385883" at="14,5,16,47">
+        <var name="inferenceRule" id="9120555111514385883" />
+      </scope>
+    </file>
+    <file name="typeof_MathSymbolReferenceExpression_InferenceRule.java">
+      <node id="9120555111514386430" at="20,5,21,71" concept="4" />
+      <node id="9120555111514386430" at="21,71,22,202" concept="4" />
+      <node id="9120555111514386430" at="22,202,23,283" concept="2" />
+      <node id="9120555111514385883" at="26,50,27,53" concept="5" />
+      <node id="9120555111514385883" at="29,68,30,102" concept="5" />
+      <node id="9120555111514385883" at="32,30,33,17" concept="5" />
+      <node id="9120555111514386465" at="35,65,36,30" concept="4" />
+      <node id="9120555111514386465" at="36,30,37,225" concept="4" />
+      <node id="9120555111514386465" at="37,225,38,34" concept="2" />
+      <node id="9120555111514386465" at="38,34,39,242" concept="2" />
+      <node id="9120555111514386465" at="39,242,40,24" concept="5" />
+      <node id="9120555111514385883" at="44,0,45,0" concept="6" trace="MathSymbolReferenceExpression$Kf" />
+      <node id="9120555111514385883" at="17,0,19,0" concept="1" trace="typeof_MathSymbolReferenceExpression_InferenceRule#()V" />
+      <node id="9120555111514385883" at="26,0,29,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="9120555111514385883" at="29,0,32,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="9120555111514385883" at="32,0,35,0" concept="3" trace="overrides#()Z" />
+      <node id="9120555111514386430" at="19,142,24,5" concept="0" />
+      <node id="9120555111514385883" at="19,0,26,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="9120555111514386465" at="35,0,42,0" concept="7" trace="_quotation_createNode_40hpmd_a1a0c0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="9120555111514385883" at="17,63,17,63" />
+      <scope id="9120555111514385883" at="26,50,27,53" />
+      <scope id="9120555111514385883" at="29,68,30,102" />
+      <scope id="9120555111514385883" at="32,30,33,17" />
+      <scope id="9120555111514385883" at="17,0,19,0" />
+      <scope id="9120555111514386430" at="20,5,23,283">
+        <var name="_info_12389875345" id="9120555111514386430" />
+        <var name="_nodeToCheck_1029348928467" id="9120555111514386430" />
+      </scope>
+      <scope id="9120555111514385883" at="26,0,29,0" />
+      <scope id="9120555111514385883" at="29,0,32,0">
+        <var name="argument" id="9120555111514385883" />
+      </scope>
+      <scope id="9120555111514385883" at="32,0,35,0" />
+      <scope id="9120555111514385884" at="19,142,24,5" />
+      <scope id="9120555111514386465" at="35,65,40,24">
+        <var name="nb" id="9120555111514386465" />
+        <var name="quotedNode_1" id="9120555111514386465" />
+      </scope>
+      <scope id="9120555111514385883" at="19,0,26,0">
+        <var name="mathSymbolReferenceExpression" id="9120555111514385883" />
+        <var name="status" id="9120555111514385883" />
+        <var name="typeCheckingContext" id="9120555111514385883" />
+      </scope>
+      <scope id="9120555111514386465" at="35,0,42,0" />
+      <unit id="9120555111514385883" at="43,0,46,0" name="de.itemis.mps.editor.math.typesystem.typeof_MathSymbolReferenceExpression_InferenceRule$CONCEPTS" />
+      <unit id="9120555111514385883" at="16,0,47,0" name="de.itemis.mps.editor.math.typesystem.typeof_MathSymbolReferenceExpression_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
+

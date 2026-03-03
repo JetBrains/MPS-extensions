@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <uses language="l:e50b0500-6fd7-4c7f-a730-9d841358ce8b:de.itemis.model.simple.demo.collection" />
+  <uses language="l:36ead753-43ea-471e-bcb9-d4fb1e637bbc:de.itemis.model.simple.demo.collection.keeper" />
+  <uses language="l:e50b0500-6fd7-4c7f-a730-9d841358ca2b:de.itemis.model.simple.demo.property" />
+</dependenciesRoot>
+

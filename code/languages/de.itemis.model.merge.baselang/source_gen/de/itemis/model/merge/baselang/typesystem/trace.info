@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="de.itemis.model.merge.baselang.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:9b6f97ce-d6af-4d7a-97dd-b8983b6b537d(de.itemis.model.merge.baselang.typesystem)/5951366741878918842">
+    <file name="TypesystemDescriptor.java">
+      <node id="5951366741878918842" at="10,5,11,93" concept="4" />
+      <node id="5951366741878918842" at="11,93,12,47" concept="2" />
+      <node id="5951366741878918842" at="9,33,13,5" concept="0" />
+      <scope id="5951366741878918842" at="10,5,12,47">
+        <var name="inferenceRule" id="5951366741878918842" />
+      </scope>
+    </file>
+    <file name="typeof_ModelMergerExpression_InferenceRule.java">
+      <node id="5951366741878920824" at="25,5,26,63" concept="4" />
+      <node id="5951366741878920824" at="26,63,27,207" concept="4" />
+      <node id="5951366741878920824" at="27,207,28,283" concept="2" />
+      <node id="5951366741878923687" at="30,5,31,113" concept="4" />
+      <node id="5951366741878923687" at="31,113,32,207" concept="4" />
+      <node id="5951366741878923687" at="32,207,33,282" concept="2" />
+      <node id="5951366741878927060" at="35,5,36,108" concept="4" />
+      <node id="5951366741878927060" at="36,108,37,207" concept="4" />
+      <node id="5951366741878927060" at="37,207,38,283" concept="2" />
+      <node id="5951366741878926960" at="40,5,41,107" concept="4" />
+      <node id="5951366741878926960" at="41,107,42,207" concept="4" />
+      <node id="5951366741878926960" at="42,207,43,283" concept="2" />
+      <node id="5951366741878918842" at="46,50,47,45" concept="5" />
+      <node id="5951366741878918842" at="49,68,50,102" concept="5" />
+      <node id="5951366741878918842" at="52,30,53,17" concept="5" />
+      <node id="5951366741878920840" at="55,60,56,70" concept="4" />
+      <node id="5951366741878920840" at="56,70,57,26" concept="5" />
+      <node id="5951366741878923714" at="59,59,60,63" concept="4" />
+      <node id="5951366741878923714" at="60,63,61,69" concept="4" />
+      <node id="5951366741878923714" at="61,69,62,206" concept="2" />
+      <node id="5951366741878923714" at="62,206,63,26" concept="5" />
+      <node id="5951366741878927062" at="65,60,66,70" concept="4" />
+      <node id="5951366741878927062" at="66,70,67,26" concept="5" />
+      <node id="5951366741878926998" at="69,60,70,70" concept="4" />
+      <node id="5951366741878926998" at="70,70,71,26" concept="5" />
+      <node id="5951366741878918842" at="75,0,76,0" concept="6" trace="modelMerge$IofK" />
+      <node id="5951366741878918842" at="76,0,77,0" concept="6" trace="right$IiBo" />
+      <node id="5951366741878918842" at="77,0,78,0" concept="6" trace="left$iSP_" />
+      <node id="5951366741878918842" at="78,0,79,0" concept="6" trace="concept$OMgE" />
+      <node id="5951366741878918842" at="82,0,83,0" concept="6" trace="ModelMergerExpression$o1" />
+      <node id="5951366741878918842" at="83,0,84,0" concept="6" trace="SModelType$Ke" />
+      <node id="5951366741878918842" at="84,0,85,0" concept="6" trace="SNodeType$hR" />
+      <node id="5951366741878918842" at="22,0,24,0" concept="1" trace="typeof_ModelMergerExpression_InferenceRule#()V" />
+      <node id="5951366741878918842" at="46,0,49,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5951366741878918842" at="49,0,52,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="5951366741878918842" at="52,0,55,0" concept="3" trace="overrides#()Z" />
+      <node id="5951366741878920840" at="55,0,59,0" concept="7" trace="createSModelType_xs059d_a1a0c0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5951366741878927062" at="65,0,69,0" concept="7" trace="createSModelType_xs059d_a1a0c0c0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5951366741878926998" at="69,0,73,0" concept="7" trace="createSModelType_xs059d_a1a0c0d0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5951366741878920824" at="24,134,29,5" concept="0" />
+      <node id="5951366741878923687" at="29,5,34,5" concept="0" />
+      <node id="5951366741878927060" at="34,5,39,5" concept="0" />
+      <node id="5951366741878926960" at="39,5,44,5" concept="0" />
+      <node id="5951366741878923714" at="59,0,65,0" concept="7" trace="createSNodeType_xs059d_a1a0c0b0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5951366741878918842" at="24,0,46,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="5951366741878918842" at="22,55,22,55" />
+      <scope id="5951366741878918842" at="46,50,47,45" />
+      <scope id="5951366741878918842" at="49,68,50,102" />
+      <scope id="5951366741878918842" at="52,30,53,17" />
+      <scope id="5951366741878918842" at="22,0,24,0" />
+      <scope id="5951366741878920840" at="55,60,57,26">
+        <var name="n0" id="5951366741878920840" />
+      </scope>
+      <scope id="5951366741878927062" at="65,60,67,26">
+        <var name="n0" id="5951366741878927062" />
+      </scope>
+      <scope id="5951366741878926998" at="69,60,71,26">
+        <var name="n0" id="5951366741878926998" />
+      </scope>
+      <scope id="5951366741878920824" at="25,5,28,283">
+        <var name="_info_12389875345" id="5951366741878920824" />
+        <var name="_nodeToCheck_1029348928467" id="5951366741878920824" />
+      </scope>
+      <scope id="5951366741878923687" at="30,5,33,282">
+        <var name="_info_12389875345" id="5951366741878923687" />
+        <var name="_nodeToCheck_1029348928467" id="5951366741878923687" />
+      </scope>
+      <scope id="5951366741878927060" at="35,5,38,283">
+        <var name="_info_12389875345" id="5951366741878927060" />
+        <var name="_nodeToCheck_1029348928467" id="5951366741878927060" />
+      </scope>
+      <scope id="5951366741878926960" at="40,5,43,283">
+        <var name="_info_12389875345" id="5951366741878926960" />
+        <var name="_nodeToCheck_1029348928467" id="5951366741878926960" />
+      </scope>
+      <scope id="5951366741878918842" at="46,0,49,0" />
+      <scope id="5951366741878918842" at="49,0,52,0">
+        <var name="argument" id="5951366741878918842" />
+      </scope>
+      <scope id="5951366741878918842" at="52,0,55,0" />
+      <scope id="5951366741878920840" at="55,0,59,0" />
+      <scope id="5951366741878923714" at="59,59,63,26">
+        <var name="facade" id="5951366741878923714" />
+        <var name="n0" id="5951366741878923714" />
+      </scope>
+      <scope id="5951366741878927062" at="65,0,69,0" />
+      <scope id="5951366741878926998" at="69,0,73,0" />
+      <scope id="5951366741878923714" at="59,0,65,0" />
+      <scope id="5951366741878918843" at="24,134,44,5" />
+      <scope id="5951366741878918842" at="24,0,46,0">
+        <var name="modelMergerExpression" id="5951366741878918842" />
+        <var name="status" id="5951366741878918842" />
+        <var name="typeCheckingContext" id="5951366741878918842" />
+      </scope>
+      <unit id="5951366741878918842" at="81,0,86,0" name="de.itemis.model.merge.baselang.typesystem.typeof_ModelMergerExpression_InferenceRule$CONCEPTS" />
+      <unit id="5951366741878918842" at="74,0,80,0" name="de.itemis.model.merge.baselang.typesystem.typeof_ModelMergerExpression_InferenceRule$LINKS" />
+      <unit id="5951366741878918842" at="21,0,87,0" name="de.itemis.model.merge.baselang.typesystem.typeof_ModelMergerExpression_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
+

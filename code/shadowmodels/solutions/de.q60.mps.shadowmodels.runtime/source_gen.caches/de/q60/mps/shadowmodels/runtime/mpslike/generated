@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="95la8h75xc4zjyhi8g32wrxwiydx06p">
+  <files names="Genplan.java:GenplanGenerator.java:GenplanRule.java:GenplanRule_After.java:GenplanRule_Before.java:GenplanRule_InputOutputLanguages.java:GenplanRule_Together.java:GenplanStep.java:IGenplanRule.java:IOutputWrapperRule.java:MappingConfiguration.java:MappingConfigurationId.java:PropertyRule.java:ReductionRule.java:ReferenceRule.java:WeavingRule.java" />
+</product>
+

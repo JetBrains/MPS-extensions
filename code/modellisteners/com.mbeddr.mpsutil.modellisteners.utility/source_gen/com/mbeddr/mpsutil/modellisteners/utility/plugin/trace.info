@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:ff250934-f588-4c8b-9388-deac8b9c21c9(com.mbeddr.mpsutil.modellisteners.utility.plugin)/1202111122265345913">
+    <file name="TransactionReconciler.java">
+      <node id="2556114416526239845" at="21,0,22,0" concept="10" trace="INSTANCE" />
+      <node id="2556114416526221661" at="37,72,38,89" concept="6" />
+      <node id="2556114416526224702" at="39,32,40,27" concept="7" />
+      <node id="3024328695173595699" at="41,5,42,20" concept="7" />
+      <node id="3024328695174889921" at="67,38,68,27" concept="1" />
+      <node id="2556114416526317153" at="68,27,69,18" concept="7" />
+      <node id="2556114416526319328" at="70,5,71,17" concept="7" />
+      <node id="3024328695173213882" at="81,111,82,74" concept="7" />
+      <node id="777163115517078297" at="113,177,114,37" concept="1" />
+      <node id="3024328695173200377" at="114,37,115,27" concept="1" />
+      <node id="3024328695173200983" at="115,27,116,31" concept="1" />
+      <node id="3024328695173201657" at="116,31,117,27" concept="1" />
+      <node id="3024328695173269772" at="48,0,50,0" concept="0" trace="TransactionReconciler#()V" />
+      <node id="3024328695174181488" at="91,0,93,0" concept="5" trace="cancelAll#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3024328695174261029" at="101,0,103,0" concept="5" trace="cancelByOrigin#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+      <node id="777163115517077926" at="105,0,107,0" concept="2" trace="contextNode" />
+      <node id="3024328695173200065" at="107,0,109,0" concept="2" trace="origin" />
+      <node id="3024328695173200186" at="109,0,111,0" concept="2" trace="strategy" />
+      <node id="3024328695173200318" at="111,0,113,0" concept="2" trace="action" />
+      <node id="2556114416526222939" at="38,89,41,5" concept="4" />
+      <node id="3024328695173212688" at="81,0,84,0" concept="5" trace="schedule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lcom/mbeddr/mpsutil/modellisteners/utility/plugin/IReconciliationAction;)Z" />
+      <node id="3024328695174958090" at="66,154,70,5" concept="4" />
+      <node id="3024328695173200371" at="113,0,119,0" concept="0" trace="ReconciliationRequest#(Lorg/jetbrains/mps/openapi/model/SNodeReference;Ljava/lang/String;Lcom/mbeddr/mpsutil/modellisteners/utility/plugin/IReconciliationStrategy;Lcom/mbeddr/mpsutil/modellisteners/utility/plugin/IReconciliationAction;)V" />
+      <node id="3024328695173210453" at="66,0,73,0" concept="5" trace="schedule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lcom/mbeddr/mpsutil/modellisteners/utility/plugin/IReconciliationStrategy;Lcom/mbeddr/mpsutil/modellisteners/utility/plugin/IReconciliationAction;)Z" />
+      <node id="3024328695173204583" at="36,0,44,0" concept="11" trace="getInstance#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/mbeddr/mpsutil/modellisteners/utility/plugin/TransactionReconciler;" />
+      <scope id="3024328695173269776" at="48,39,48,39" />
+      <scope id="3024328695174181491" at="91,46,91,46" />
+      <scope id="3024328695174261032" at="101,75,101,75" />
+      <scope id="2556114416526222941" at="39,32,40,27" />
+      <scope id="3024328695173212689" at="81,111,82,74" />
+      <scope id="3024328695173269772" at="48,0,50,0" />
+      <scope id="3024328695174958092" at="67,38,69,18" />
+      <scope id="3024328695174181488" at="91,0,93,0">
+        <var name="node" id="3024328695174192407" />
+      </scope>
+      <scope id="3024328695174261029" at="101,0,103,0">
+        <var name="node" id="3024328695174272686" />
+        <var name="origin" id="3024328695174279761" />
+      </scope>
+      <scope id="3024328695173212688" at="81,0,84,0">
+        <var name="action" id="3024328695173212698" />
+        <var name="node" id="3024328695173212692" />
+        <var name="origin" id="3024328695173212694" />
+      </scope>
+      <scope id="3024328695173200374" at="113,177,117,27" />
+      <scope id="1202111122265363108" at="37,72,42,20">
+        <var name="awareInstance" id="2556114416526221662" />
+      </scope>
+      <scope id="3024328695173210456" at="66,154,71,17" />
+      <scope id="3024328695173200371" at="113,0,119,0">
+        <var name="action" id="3024328695173201655" />
+        <var name="contextNode" id="777163115517078295" />
+        <var name="origin" id="3024328695173200375" />
+        <var name="strategy" id="3024328695173200981" />
+      </scope>
+      <scope id="3024328695173210453" at="66,0,73,0">
+        <var name="action" id="3024328695173212080" />
+        <var name="node" id="3024328695173210955" />
+        <var name="origin" id="3024328695173210959" />
+        <var name="strategy" id="3024328695173211474" />
+      </scope>
+      <scope id="3024328695173204583" at="36,0,44,0">
+        <var name="node" id="3024328695173391665" />
+      </scope>
+      <unit id="3024328695173199469" at="104,0,120,0" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.TransactionReconciler$ReconciliationRequest" />
+      <unit id="1202111122265345913" at="20,0,121,0" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.TransactionReconciler" />
+    </file>
+  </root>
+  <root nodeRef="r:ff250934-f588-4c8b-9388-deac8b9c21c9(com.mbeddr.mpsutil.modellisteners.utility.plugin)/3024328695173088273">
+    <file name="IReconciliationStrategy.java">
+      <node id="3024328695173088322" at="22,0,23,0" concept="5" trace="isStillValid#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3024328695173120967" at="26,55,27,18" concept="7" />
+      <node id="3024328695173120984" at="32,55,33,53" concept="7" />
+      <node id="3024328695173121003" at="38,55,39,53" concept="7" />
+      <node id="3024328695173120960" at="25,0,29,0" concept="5" trace="isStillValid#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3024328695173120977" at="31,0,35,0" concept="5" trace="isStillValid#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3024328695173120996" at="37,0,41,0" concept="5" trace="isStillValid#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3024328695173120953" at="24,0,30,0" concept="10" trace="ALWAYS" />
+      <node id="3024328695173120970" at="30,0,36,0" concept="10" trace="IF_ABSENT" />
+      <node id="3024328695173120989" at="36,0,42,0" concept="10" trace="IF_PRESENT" />
+      <scope id="3024328695173088322" at="22,0,23,0">
+        <var name="node" id="3024328695173089829" />
+      </scope>
+      <scope id="3024328695173120966" at="26,55,27,18" />
+      <scope id="3024328695173120983" at="32,55,33,53" />
+      <scope id="3024328695173121002" at="38,55,39,53" />
+      <scope id="3024328695173120960" at="25,0,29,0">
+        <var name="node" id="3024328695173120961" />
+      </scope>
+      <scope id="3024328695173120977" at="31,0,35,0">
+        <var name="node" id="3024328695173120978" />
+      </scope>
+      <scope id="3024328695173120996" at="37,0,41,0">
+        <var name="node" id="3024328695173120997" />
+      </scope>
+      <unit id="3024328695173120958" at="24,39,29,3" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.IReconciliationStrategy$1" />
+      <unit id="3024328695173120975" at="30,42,35,3" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.IReconciliationStrategy$2" />
+      <unit id="3024328695173120994" at="36,43,41,3" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.IReconciliationStrategy$3" />
+      <unit id="3024328695173088273" at="12,0,43,0" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.IReconciliationStrategy" />
+    </file>
+  </root>
+  <root nodeRef="r:ff250934-f588-4c8b-9388-deac8b9c21c9(com.mbeddr.mpsutil.modellisteners.utility.plugin)/3024328695173127005">
+    <file name="IReconciliationAction.java">
+      <node id="3024328695173127046" at="20,0,21,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2781852864493860383" at="28,0,29,0" concept="2" trace="nodesToDetach" />
+      <node id="2781852864493860431" at="29,54,30,41" concept="1" />
+      <node id="2781852864493872646" at="34,37,35,19" concept="1" />
+      <node id="2781852864493804633" at="29,0,32,0" concept="0" trace="DetachNodesAction#(null)V" />
+      <node id="2781852864493864008" at="33,47,36,7" concept="3" />
+      <node id="2781852864493861155" at="32,0,38,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="3024328695173127046" at="20,0,21,0">
+        <var name="node" id="3024328695173127073" />
+      </scope>
+      <scope id="2781852864493804637" at="29,54,30,41" />
+      <scope id="2781852864493864011" at="34,37,35,19" />
+      <scope id="2781852864493804633" at="29,0,32,0">
+        <var name="nodesToDetach" id="2781852864493860428" />
+      </scope>
+      <scope id="2781852864493861162" at="33,47,36,7" />
+      <scope id="2781852864493864008" at="33,47,36,7">
+        <var name="n" id="2781852864493864009" />
+      </scope>
+      <scope id="2781852864493861155" at="32,0,38,0">
+        <var name="node" id="2781852864493861159" />
+      </scope>
+      <unit id="2781852864493804228" at="27,0,39,0" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.IReconciliationAction$DetachNodesAction" />
+      <unit id="3024328695173127005" at="11,0,40,0" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.IReconciliationAction" />
+    </file>
+  </root>
+  <root nodeRef="r:ff250934-f588-4c8b-9388-deac8b9c21c9(com.mbeddr.mpsutil.modellisteners.utility.plugin)/3024328695173220918">
+    <file name="CommandTransactionReconciliation_ProjectPluginPart.java">
+      <node id="3024328695173393702" at="12,40,13,51" concept="1" />
+      <node id="3024328695173392752" at="16,43,17,53" concept="1" />
+      <node id="3024328695173220918" at="9,0,11,0" concept="0" trace="CommandTransactionReconciliation_ProjectPluginPart#()V" />
+      <node id="3024328695173220918" at="11,0,15,0" concept="5" trace="init#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="3024328695173220918" at="15,0,19,0" concept="5" trace="dispose#(Ljetbrains/mps/project/MPSProject;)V" />
+      <scope id="3024328695173220918" at="9,63,9,63" />
+      <scope id="3024328695173267994" at="12,40,13,51" />
+      <scope id="3024328695173268014" at="16,43,17,53" />
+      <scope id="3024328695173220918" at="9,0,11,0" />
+      <scope id="3024328695173220918" at="11,0,15,0">
+        <var name="project" id="3024328695173220918" />
+      </scope>
+      <scope id="3024328695173220918" at="15,0,19,0">
+        <var name="project" id="3024328695173220918" />
+      </scope>
+      <unit id="3024328695173220918" at="8,0,20,0" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.CommandTransactionReconciliation_ProjectPluginPart" />
+    </file>
+    <file name="Utility_ProjectPlugin.java">
+      <node id="3024328695173220918" at="12,62,13,72" concept="1" />
+    </file>
+  </root>
+  <root nodeRef="r:ff250934-f588-4c8b-9388-deac8b9c21c9(com.mbeddr.mpsutil.modellisteners.utility.plugin)/3024328695173220919">
+    <file name="Utility_ProjectPlugin.java">
+      <node id="3024328695173220919" at="10,0,12,0" concept="0" trace="Utility_ProjectPlugin#()V" />
+      <node id="3024328695173220919" at="12,0,15,0" concept="5" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="3024328695173220919" at="10,34,10,34" />
+      <scope id="3024328695173220919" at="12,62,13,72" />
+      <scope id="3024328695173220919" at="10,0,12,0" />
+      <scope id="3024328695173220919" at="12,0,15,0">
+        <var name="parts" id="3024328695173220919" />
+      </scope>
+      <unit id="3024328695173220919" at="9,0,16,0" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.Utility_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:ff250934-f588-4c8b-9388-deac8b9c21c9(com.mbeddr.mpsutil.modellisteners.utility.plugin)/3024328695175634482">
+    <file name="CommandTransactionReconciler.java">
+      <node id="3024328695175634482" at="32,0,33,0" concept="10" trace="LOG" />
+      <node id="2556114416525811577" at="33,0,34,0" concept="10" trace="INSTANCES" />
+      <node id="2556114416525811570" at="34,0,35,0" concept="10" trace="INSTANCE_CACHE" />
+      <node id="2556114416525811587" at="46,79,47,57" concept="6" />
+      <node id="2556114416525811597" at="48,25,49,18" concept="7" />
+      <node id="2556114416525811602" at="50,5,51,67" concept="6" />
+      <node id="2556114416525811608" at="51,67,52,0" concept="9" />
+      <node id="2556114416525811609" at="52,0,53,78" concept="6" />
+      <node id="2556114416525811619" at="55,64,56,22" concept="7" />
+      <node id="2556114416525811629" at="57,7,58,45" concept="1" />
+      <node id="2556114416525811636" at="59,5,60,0" concept="9" />
+      <node id="2556114416525811641" at="62,57,63,71" concept="6" />
+      <node id="2556114416525811649" at="64,31,65,56" concept="1" />
+      <node id="2556114416525811654" at="65,56,66,26" concept="7" />
+      <node id="2556114416525811659" at="67,9,68,20" concept="7" />
+      <node id="2556114416525811672" at="70,5,71,16" concept="7" />
+      <node id="2556114416525811713" at="75,30,76,61" concept="1" />
+      <node id="2556114416525811717" at="77,7,78,13" concept="7" />
+      <node id="2556114416525811721" at="79,5,80,70" concept="1" />
+      <node id="2556114416525811747" at="82,67,83,70" concept="6" />
+      <node id="2556114416526892437" at="84,27,85,42" concept="1" />
+      <node id="2556114416525811767" at="87,56,88,57" concept="1" />
+      <node id="2556114416526833846" at="94,0,95,0" concept="2" trace="busConnection" />
+      <node id="777163115517226784" at="95,0,96,0" concept="2" trace="pendingRequests" />
+      <node id="2556114416526309780" at="97,73,98,12" concept="12" />
+      <node id="2556114416526289175" at="98,12,99,27" concept="1" />
+      <node id="2556114416526859299" at="99,27,100,67" concept="1" />
+      <node id="2556114416526865998" at="100,67,101,57" concept="1" />
+      <node id="2556114416525593852" at="107,40,108,29" concept="1" />
+      <node id="2556114416526456654" at="108,29,109,20" concept="7" />
+      <node id="2556114416525593861" at="110,7,111,19" concept="7" />
+      <node id="2556114416525593862" at="112,5,113,0" concept="9" />
+      <node id="777163115517730831" at="113,0,114,120" concept="1" />
+      <node id="2556114416526373073" at="114,120,115,16" concept="7" />
+      <node id="777163115519295488" at="118,46,119,57" concept="6" />
+      <node id="777163115517336988" at="119,57,120,134" concept="1" />
+      <node id="777163115519317980" at="123,81,124,57" concept="6" />
+      <node id="777163115517593898" at="124,57,125,176" concept="1" />
+      <node id="2556114416527182777" at="129,82,130,13" concept="7" />
+      <node id="777163115519090097" at="131,5,132,97" concept="8" />
+      <node id="7109226678486612670" at="133,9,134,70" concept="1" />
+      <node id="777163115518977320" at="136,31,137,88" concept="1" />
+      <node id="777163115519212588" at="138,7,139,30" concept="1" />
+      <node id="777163115518542575" at="144,98,145,13" concept="7" />
+      <node id="777163115519101793" at="146,5,147,97" concept="8" />
+      <node id="777163115518564602" at="148,9,149,85" concept="1" />
+      <node id="777163115518715595" at="151,31,152,97" concept="1" />
+      <node id="777163115519171731" at="153,7,154,30" concept="1" />
+      <node id="777163115517937592" at="162,42,163,86" concept="6" />
+      <node id="7061139338609448136" at="164,11,165,74" concept="6" />
+      <node id="7061139338609448150" at="166,50,167,39" concept="1" />
+      <node id="2781852864493548009" at="170,33,171,100" concept="1" />
+      <node id="2556114416525811590" at="177,36,178,43" concept="7" />
+      <node id="2556114416525811590" at="179,5,180,16" concept="7" />
+      <node id="3024328695173285170" at="92,0,94,0" concept="2" trace="project" />
+      <node id="2556114416525811595" at="47,57,50,5" concept="4" />
+      <node id="2556114416525811617" at="54,25,57,7" concept="4" />
+      <node id="2556114416525811713" at="74,41,77,7" concept="4" />
+      <node id="2556114416525811753" at="83,70,86,5" concept="4" />
+      <node id="2556114416525811765" at="86,5,89,5" concept="3" />
+      <node id="2556114416527070825" at="128,66,131,5" concept="4" />
+      <node id="777163115518977320" at="135,27,138,7" concept="4" />
+      <node id="777163115518419084" at="143,53,146,5" concept="4" />
+      <node id="777163115518715595" at="150,27,153,7" concept="4" />
+      <node id="7061139338609448148" at="165,74,168,9" concept="4" />
+      <node id="2781852864493548009" at="169,29,172,9" concept="4" />
+      <node id="2556114416525811590" at="176,71,179,5" concept="4" />
+      <node id="2556114416525811647" at="63,71,67,9" concept="4" />
+      <node id="2556114416525593850" at="106,129,110,7" concept="4" />
+      <node id="2556114416525571794" at="117,0,122,0" concept="5" trace="cancelAll#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2556114416525571806" at="122,0,127,0" concept="5" trace="cancelByOrigin#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+      <node id="2556114416525811615" at="53,78,59,5" concept="4" />
+      <node id="2556114416525811711" at="73,65,79,5" concept="4" />
+      <node id="3024328695175634621" at="97,0,103,0" concept="0" trace="CommandTransactionReconciler#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="2556114416525811590" at="176,0,182,0" concept="11" trace="check_33kagr_a0a0d#(Lorg/jetbrains/mps/openapi/model/SModel;)Lorg/jetbrains/mps/openapi/module/SModule;" />
+      <node id="2556114416525593842" at="105,154,112,5" concept="4" />
+      <node id="2556114416525811639" at="61,78,69,7" concept="4" />
+      <node id="777163115518912801" at="132,97,140,5" concept="13" />
+      <node id="777163115518662451" at="147,97,155,5" concept="13" />
+      <node id="2556114416525811708" at="73,0,82,0" concept="11" trace="register#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="2556114416525811745" at="82,0,91,0" concept="11" trace="unregister#(Ljetbrains/mps/project/MPSProject;)V" />
+      <node id="2556114416525811637" at="60,0,70,5" concept="3" />
+      <node id="2781852864493430465" at="163,86,173,7" concept="13" />
+      <node id="2556114416525593840" at="104,0,117,0" concept="5" trace="schedule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lcom/mbeddr/mpsutil/modellisteners/utility/plugin/IReconciliationStrategy;Lcom/mbeddr/mpsutil/modellisteners/utility/plugin/IReconciliationAction;)Z" />
+      <node id="7061139338609448116" at="161,33,174,5" concept="14" />
+      <node id="2556114416527001203" at="127,0,142,0" concept="5" trace="beforeCommandFinished#(Lcom/intellij/openapi/command/CommandEvent;)V" />
+      <node id="777163115518375468" at="142,0,157,0" concept="5" trace="beforeUndoTransparentActionFinished#()V" />
+      <node id="777163115518309732" at="161,0,176,0" concept="5" trace="processPending#()V" />
+      <node id="2556114416525811585" at="45,0,73,0" concept="11" trace="getInstance#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/mbeddr/mpsutil/modellisteners/utility/plugin/CommandTransactionReconciler;" />
+      <scope id="2556114416525811596" at="48,25,49,18" />
+      <scope id="2556114416525811618" at="55,64,56,22" />
+      <scope id="2556114416525811713" at="75,30,76,61" />
+      <scope id="2556114416525811754" at="84,27,85,42" />
+      <scope id="2556114416525811766" at="87,56,88,57" />
+      <scope id="2556114416527070827" at="129,82,130,13" />
+      <scope id="777163115518912803" at="133,9,134,70" />
+      <scope id="777163115518977320" at="136,31,137,88" />
+      <scope id="777163115518419086" at="144,98,145,13" />
+      <scope id="777163115518662453" at="148,9,149,85" />
+      <scope id="777163115518715595" at="151,31,152,97" />
+      <scope id="7061139338609448149" at="166,50,167,39" />
+      <scope id="2781852864493548009" at="170,33,171,100" />
+      <scope id="2556114416525811590" at="177,36,178,43" />
+      <scope id="2556114416525811648" at="64,31,66,26" />
+      <scope id="2556114416525593851" at="107,40,109,20" />
+      <scope id="2556114416525571795" at="118,46,120,134">
+        <var name="reference" id="777163115519295489" />
+      </scope>
+      <scope id="2556114416525571807" at="123,81,125,176">
+        <var name="reference" id="777163115519317981" />
+      </scope>
+      <scope id="2556114416525811765" at="86,5,89,5">
+        <var name="module" id="2556114416525811773" />
+      </scope>
+      <scope id="2781852864493473194" at="169,29,172,9" />
+      <scope id="2556114416525811616" at="54,25,58,45" />
+      <scope id="2556114416525811712" at="74,41,78,13" />
+      <scope id="3024328695175634640" at="97,73,101,57" />
+      <scope id="777163115518945105" at="135,27,139,30" />
+      <scope id="777163115518672673" at="150,27,154,30" />
+      <scope id="2781852864493430467" at="164,11,168,9">
+        <var name="node" id="7061139338609448137" />
+      </scope>
+      <scope id="2781852864493473191" at="169,7,173,7">
+        <var name="t" id="2781852864493473192" />
+      </scope>
+      <scope id="2556114416525811590" at="176,71,180,16" />
+      <scope id="2556114416525593849" at="106,129,111,19" />
+      <scope id="2556114416525571794" at="117,0,122,0">
+        <var name="node" id="2556114416525571803" />
+      </scope>
+      <scope id="2556114416525571806" at="122,0,127,0">
+        <var name="node" id="2556114416525571846" />
+        <var name="origin" id="2556114416525571849" />
+      </scope>
+      <scope id="777163115518945102" at="135,5,140,5">
+        <var name="t" id="777163115518945103" />
+      </scope>
+      <scope id="777163115518672670" at="150,5,155,5">
+        <var name="t" id="777163115518672671" />
+      </scope>
+      <scope id="2556114416525811640" at="62,57,68,20">
+        <var name="instance" id="2556114416525811642" />
+      </scope>
+      <scope id="3024328695175634621" at="97,0,103,0">
+        <var name="project" id="3024328695175634637" />
+      </scope>
+      <scope id="2556114416525811590" at="176,0,182,0">
+        <var name="checkedDotOperand" id="2556114416525811590" />
+      </scope>
+      <scope id="2556114416525811710" at="73,65,80,70" />
+      <scope id="2556114416525811746" at="82,67,89,5">
+        <var name="instance" id="2556114416525811748" />
+      </scope>
+      <scope id="2556114416525811638" at="61,78,69,7" />
+      <scope id="2556114416525811708" at="73,0,82,0">
+        <var name="project" id="2556114416525811728" />
+      </scope>
+      <scope id="2556114416525811745" at="82,0,91,0">
+        <var name="project" id="2556114416525811779" />
+      </scope>
+      <scope id="2556114416525811637" at="60,0,70,5">
+        <var name="project" id="2556114416525811667" />
+      </scope>
+      <scope id="2556114416525593841" at="105,154,115,16" />
+      <scope id="7061139338609448117" at="162,42,173,7">
+        <var name="request" id="777163115517937593" />
+      </scope>
+      <scope id="2556114416527001211" at="128,66,140,5" />
+      <scope id="777163115518375473" at="143,53,155,5" />
+      <scope id="2556114416525593840" at="104,0,117,0">
+        <var name="action" id="2556114416525593901" />
+        <var name="node" id="2556114416525593892" />
+        <var name="origin" id="2556114416525593895" />
+        <var name="strategy" id="2556114416525593898" />
+      </scope>
+      <scope id="777163115518309735" at="161,33,174,5" />
+      <scope id="2556114416527001203" at="127,0,142,0">
+        <var name="event" id="2556114416527001208" />
+      </scope>
+      <scope id="777163115518375468" at="142,0,157,0" />
+      <scope id="777163115518309732" at="161,0,176,0" />
+      <scope id="2556114416525811586" at="46,79,71,16">
+        <var name="cached" id="2556114416525811610" />
+        <var name="module" id="2556114416525811588" />
+        <var name="moduleReference" id="2556114416525811603" />
+      </scope>
+      <scope id="2556114416525811585" at="45,0,73,0">
+        <var name="node" id="2556114416525811676" />
+      </scope>
+      <unit id="3024328695175634482" at="31,0,183,0" name="com.mbeddr.mpsutil.modellisteners.utility.plugin.CommandTransactionReconciler" />
+    </file>
+  </root>
+</debug-info>
+

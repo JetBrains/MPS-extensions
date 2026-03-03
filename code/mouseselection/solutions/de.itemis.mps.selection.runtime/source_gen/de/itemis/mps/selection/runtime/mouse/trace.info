@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)/6971699915906410623">
+    <file name="AbstractDragSelectionHandler.java">
+      <node id="6971699915906410629" at="15,77,16,68" concept="8" />
+      <node id="6971699915906410643" at="19,110,20,78" concept="7" />
+      <node id="6971699915906410652" at="21,86,22,56" concept="1" />
+      <node id="6971699915906410674" at="26,37,27,25" concept="8" />
+      <node id="6971699915906410695" at="30,5,31,16" concept="8" />
+      <node id="6971699915906410723" at="34,160,35,16" concept="8" />
+      <node id="6971699915906410730" at="38,28,39,13" concept="8" />
+      <node id="6971699915906410625" at="15,0,18,0" concept="6" trace="findCommonParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6971699915906410650" at="20,78,23,5" concept="3" />
+      <node id="6971699915906410672" at="25,60,28,9" concept="5" />
+      <node id="6971699915906410705" at="34,0,37,0" concept="6" trace="createAlternativeSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;IIIILjetbrains/mps/openapi/editor/EditorComponent;)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <node id="6971699915906410726" at="38,0,41,0" concept="6" trace="getPriority#()I" />
+      <node id="6971699915906410670" at="24,86,29,7" concept="5" />
+      <node id="6971699915906410668" at="23,5,30,5" concept="3" />
+      <node id="6971699915906410639" at="19,0,33,0" concept="6" trace="findCommonParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/util/Condition;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="6971699915906410628" at="15,77,16,68" />
+      <scope id="6971699915906410651" at="21,86,22,56" />
+      <scope id="6971699915906410673" at="26,37,27,25" />
+      <scope id="6971699915906410722" at="34,160,35,16" />
+      <scope id="6971699915906410729" at="38,28,39,13" />
+      <scope id="6971699915906410625" at="15,0,18,0">
+        <var name="cell1" id="6971699915906410634" />
+        <var name="cell2" id="6971699915906410636" />
+      </scope>
+      <scope id="6971699915906410650" at="20,78,23,5">
+        <var name="parent1" id="6971699915906410657" />
+      </scope>
+      <scope id="6971699915906410671" at="25,60,28,9" />
+      <scope id="6971699915906410705" at="34,0,37,0">
+        <var name="editorComponent" id="6971699915906410718" />
+        <var name="fromCell" id="6971699915906410706" />
+        <var name="fromX" id="6971699915906410710" />
+        <var name="fromY" id="6971699915906410712" />
+        <var name="toCell" id="6971699915906410708" />
+        <var name="toX" id="6971699915906410714" />
+        <var name="toY" id="6971699915906410716" />
+      </scope>
+      <scope id="6971699915906410726" at="38,0,41,0" />
+      <scope id="6971699915906410669" at="24,86,29,7" />
+      <scope id="6971699915906410668" at="23,5,30,5">
+        <var name="parent2" id="6971699915906410684" />
+      </scope>
+      <scope id="6971699915906410642" at="19,110,31,16">
+        <var name="parents1" id="6971699915906410644" />
+      </scope>
+      <scope id="6971699915906410639" at="19,0,33,0">
+        <var name="cell1" id="6971699915906410697" />
+        <var name="cell2" id="6971699915906410699" />
+        <var name="condition" id="6971699915906410701" />
+      </scope>
+      <unit id="6971699915906410623" at="13,0,42,0" name="de.itemis.mps.selection.runtime.mouse.AbstractDragSelectionHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)/6971699915906410734">
+    <file name="CommonParentSelectionHandler.java">
+      <node id="6971699915906410754" at="12,149,13,92" concept="7" />
+      <node id="6971699915906410763" at="14,31,15,99" concept="8" />
+      <node id="6971699915906410775" at="16,5,17,16" concept="8" />
+      <node id="6971699915906410783" at="22,28,23,16" concept="8" />
+      <node id="6971699915906410761" at="13,92,16,5" concept="5" />
+      <node id="6971699915906410779" at="21,0,25,0" concept="6" trace="getPriority#()I" />
+      <node id="6971699915906410736" at="12,0,19,0" concept="6" trace="createSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;IIIILjetbrains/mps/openapi/editor/EditorComponent;)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <scope id="6971699915906410762" at="14,31,15,99" />
+      <scope id="6971699915906410782" at="22,28,23,16" />
+      <scope id="6971699915906410779" at="21,0,25,0" />
+      <scope id="6971699915906410753" at="12,149,17,16">
+        <var name="commonParent" id="6971699915906410755" />
+      </scope>
+      <scope id="6971699915906410736" at="12,0,19,0">
+        <var name="editorComponent" id="6971699915906410749" />
+        <var name="fromCell" id="6971699915906410737" />
+        <var name="fromX" id="6971699915906410741" />
+        <var name="fromY" id="6971699915906410743" />
+        <var name="toCell" id="6971699915906410739" />
+        <var name="toX" id="6971699915906410745" />
+        <var name="toY" id="6971699915906410747" />
+      </scope>
+      <unit id="6971699915906410734" at="10,0,26,0" name="de.itemis.mps.selection.runtime.mouse.CommonParentSelectionHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)/6971699915906410788">
+    <file name="DragSelectionMouseListener.java">
+      <node id="6971699915906410790" at="28,0,29,0" concept="11" trace="instances" />
+      <node id="6971699915906410802" at="30,97,31,121" concept="7" />
+      <node id="6971699915906410810" at="32,27,33,65" concept="1" />
+      <node id="6971699915906410816" at="33,65,34,95" concept="1" />
+      <node id="6971699915906410825" at="35,5,36,20" concept="8" />
+      <node id="7641550800937237151" at="40,89,41,63" concept="8" />
+      <node id="6971699915906410840" at="45,167,46,27" concept="1" />
+      <node id="6971699915906410847" at="50,0,51,0" concept="2" trace="myDefaultHandlers" />
+      <node id="6971699915906410862" at="51,0,52,0" concept="2" trace="myEditorComponent" />
+      <node id="6971699915906410865" at="52,0,53,0" concept="2" trace="myStartPos" />
+      <node id="6971699915906410873" at="54,70,55,76" concept="1" />
+      <node id="5337561823691251946" at="57,73,58,52" concept="1" />
+      <node id="5337561823691250478" at="58,52,59,20" concept="1" />
+      <node id="2051848251325973896" at="64,47,65,35" concept="8" />
+      <node id="6971699915906410883" at="68,25,69,48" concept="1" />
+      <node id="6971699915906410888" at="69,48,70,54" concept="1" />
+      <node id="6971699915906410898" at="73,27,74,51" concept="1" />
+      <node id="6971699915906410903" at="74,51,75,57" concept="1" />
+      <node id="5337561823691185144" at="75,57,76,67" concept="1" />
+      <node id="6971699915906410923" at="80,49,81,18" concept="8" />
+      <node id="6971699915906410925" at="82,5,83,92" concept="7" />
+      <node id="1671903273455129984" at="83,92,84,60" concept="7" />
+      <node id="1671903273455245561" at="85,25,86,59" concept="1" />
+      <node id="1671903273455300837" at="87,5,88,18" concept="8" />
+      <node id="1671903273455197039" at="94,63,95,59" concept="7" />
+      <node id="1671903273455197051" at="96,31,97,26" concept="8" />
+      <node id="1671903273455197059" at="100,7,101,18" concept="8" />
+      <node id="1671903273455197061" at="102,5,103,16" concept="8" />
+      <node id="6971699915906411005" at="106,58,107,123" concept="8" />
+      <node id="3105544477454856505" at="111,33,112,46" concept="9" />
+      <node id="3030539088302886816" at="112,46,113,13" concept="8" />
+      <node id="6971699915906411042" at="114,5,115,49" concept="7" />
+      <node id="6971699915906411047" at="115,49,116,45" concept="7" />
+      <node id="9199475669073261433" at="117,47,118,13" concept="8" />
+      <node id="6971699915906411052" at="119,5,120,85" concept="7" />
+      <node id="6971699915906411063" at="121,28,122,73" concept="1" />
+      <node id="6971699915906411097" at="127,89,128,281" concept="7" />
+      <node id="6971699915906411140" at="129,30,130,25" concept="8" />
+      <node id="6971699915906411146" at="132,5,133,16" concept="8" />
+      <node id="6971699915906411165" at="138,55,139,32" concept="8" />
+      <node id="6971699915906411179" at="145,29,146,63" concept="1" />
+      <node id="6971699915906411200" at="151,42,152,23" concept="1" />
+      <node id="6971699915906411210" at="155,42,156,30" concept="1" />
+      <node id="6971699915906411223" at="159,43,160,22" concept="1" />
+      <node id="6971699915906410834" at="44,37,47,5" concept="4" />
+      <node id="2051848251325962344" at="64,0,67,0" concept="6" trace="getEditorComponent#()Ljetbrains/mps/nodeEditor/EditorComponent;" />
+      <node id="6971699915906410917" at="79,53,82,5" concept="5" />
+      <node id="1671903273455176834" at="84,60,87,5" concept="5" />
+      <node id="1671903273455197045" at="95,59,98,11" concept="5" />
+      <node id="6971699915906410995" at="106,0,109,0" concept="6" trace="contains#(Ljetbrains/mps/openapi/editor/cells/EditorCell;II)Z" />
+      <node id="9199475669073260511" at="116,45,119,5" concept="5" />
+      <node id="6971699915906411061" at="120,85,123,5" concept="5" />
+      <node id="6971699915906411138" at="128,281,131,7" concept="5" />
+      <node id="6971699915906411163" at="138,0,141,0" concept="6" trace="select#(Lde/itemis/mps/selection/runtime/mouse/IDragSelectionHandler;)Ljava/lang/Integer;" />
+      <node id="6971699915906411177" at="144,48,147,5" concept="5" />
+      <node id="6971699915906410808" at="31,121,35,5" concept="5" />
+      <node id="7641550800937229336" at="39,0,43,0" concept="12" trace="getInstance#(Ljetbrains/mps/nodeEditor/EditorComponent;)Lde/itemis/mps/selection/runtime/mouse/DragSelectionMouseListener;" />
+      <node id="5337561823691249293" at="57,0,61,0" concept="6" trace="editorWillBeDisposed#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="6971699915906410881" at="68,0,72,0" concept="6" trace="install#()V" />
+      <node id="3030539088302877046" at="110,77,114,5" concept="5" />
+      <node id="6971699915906411194" at="150,0,154,0" concept="6" trace="mouseDragged#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="6971699915906411204" at="154,0,158,0" concept="6" trace="mousePressed#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="6971699915906411217" at="158,0,162,0" concept="6" trace="mouseReleased#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="6971699915906410832" at="44,0,49,0" concept="12" trace="uninstallAll#()V" />
+      <node id="6971699915906410896" at="73,0,78,0" concept="6" trace="uninstall#()V" />
+      <node id="6971699915906411154" at="136,68,141,14" concept="8" />
+      <node id="6971699915906411173" at="144,0,149,0" concept="6" trace="updateSelection#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="5337561823691240643" at="55,76,61,7" concept="1" />
+      <node id="1671903273455197035" at="93,50,99,9" concept="4" />
+      <node id="6971699915906411094" at="126,150,132,5" concept="4" />
+      <node id="6971699915906411149" at="136,0,143,0" concept="6" trace="getSelectionHandlers#()Ljava/lang/Iterable;" />
+      <node id="6971699915906410800" at="30,0,38,0" concept="12" trace="getOrCreateInstance#(Ljetbrains/mps/nodeEditor/EditorComponent;)Lde/itemis/mps/selection/runtime/mouse/DragSelectionMouseListener;" />
+      <node id="1671903273455197029" at="92,122,100,7" concept="5" />
+      <node id="6971699915906410869" at="54,0,63,0" concept="0" trace="DragSelectionMouseListener#(Ljetbrains/mps/nodeEditor/EditorComponent;)V" />
+      <node id="6971699915906411080" at="126,0,135,0" concept="6" trace="createSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljava/awt/Point;Ljava/awt/Point;Z)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <node id="6971699915906410911" at="79,0,90,0" concept="6" trace="findCellAtMouse#(Ljava/awt/Point;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="1671903273455197007" at="91,86,102,5" concept="5" />
+      <node id="1671903273455196998" at="91,0,105,0" concept="6" trace="findDeepestCell#(Ljetbrains/mps/openapi/editor/cells/EditorCell;II)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6971699915906411038" at="110,0,125,0" concept="6" trace="updateSelection#(Ljava/awt/Point;Ljava/awt/Point;Z)V" />
+      <scope id="7641550800937229337" at="40,89,41,63" />
+      <scope id="6971699915906410839" at="45,167,46,27" />
+      <scope id="2051848251325962348" at="64,47,65,35" />
+      <scope id="6971699915906410922" at="80,49,81,18" />
+      <scope id="1671903273455176836" at="85,25,86,59" />
+      <scope id="1671903273455197050" at="96,31,97,26" />
+      <scope id="6971699915906411004" at="106,58,107,123" />
+      <scope id="9199475669073260513" at="117,47,118,13" />
+      <scope id="6971699915906411062" at="121,28,122,73" />
+      <scope id="6971699915906411139" at="129,30,130,25" />
+      <scope id="6971699915906411164" at="138,55,139,32" />
+      <scope id="6971699915906411178" at="145,29,146,63" />
+      <scope id="6971699915906411199" at="151,42,152,23" />
+      <scope id="6971699915906411209" at="155,42,156,30" />
+      <scope id="6971699915906411222" at="159,43,160,22" />
+      <scope id="6971699915906410809" at="32,27,34,95" />
+      <scope id="5337561823691249299" at="57,73,59,20" />
+      <scope id="6971699915906410882" at="68,25,70,54" />
+      <scope id="3030539088302877048" at="111,33,113,13" />
+      <scope id="6971699915906410833" at="44,37,47,5" />
+      <scope id="6971699915906410834" at="44,37,47,5">
+        <var name="instance" id="6971699915906410835" />
+      </scope>
+      <scope id="2051848251325962344" at="64,0,67,0" />
+      <scope id="6971699915906410897" at="73,27,76,67" />
+      <scope id="6971699915906410995" at="106,0,109,0">
+        <var name="cell" id="6971699915906410996" />
+        <var name="x" id="6971699915906410998" />
+        <var name="y" id="6971699915906411000" />
+      </scope>
+      <scope id="6971699915906411163" at="138,0,141,0">
+        <var name="it" id="6971699915906411163" />
+      </scope>
+      <scope id="6971699915906411176" at="144,48,147,5" />
+      <scope id="7641550800937229336" at="39,0,43,0">
+        <var name="editorComponent" id="7641550800937229363" />
+      </scope>
+      <scope id="5337561823691249293" at="57,0,61,0">
+        <var name="editorComponent" id="5337561823691249297" />
+      </scope>
+      <scope id="6971699915906410881" at="68,0,72,0" />
+      <scope id="1671903273455197037" at="94,63,98,11">
+        <var name="result" id="1671903273455197038" />
+      </scope>
+      <scope id="6971699915906411096" at="127,89,131,7">
+        <var name="selection" id="6971699915906411098" />
+      </scope>
+      <scope id="6971699915906411194" at="150,0,154,0">
+        <var name="e" id="6971699915906411197" />
+      </scope>
+      <scope id="6971699915906411204" at="154,0,158,0">
+        <var name="e" id="6971699915906411207" />
+      </scope>
+      <scope id="6971699915906411217" at="158,0,162,0">
+        <var name="e" id="6971699915906411220" />
+      </scope>
+      <scope id="6971699915906410832" at="44,0,49,0" />
+      <scope id="6971699915906410896" at="73,0,78,0" />
+      <scope id="6971699915906411153" at="136,68,141,14" />
+      <scope id="6971699915906411173" at="144,0,149,0">
+        <var name="e" id="6971699915906411191" />
+      </scope>
+      <scope id="6971699915906410801" at="30,97,36,20">
+        <var name="instance" id="6971699915906410803" />
+      </scope>
+      <scope id="1671903273455197034" at="93,50,99,9" />
+      <scope id="1671903273455197035" at="93,50,99,9">
+        <var name="child" id="1671903273455197053" />
+      </scope>
+      <scope id="6971699915906411094" at="126,150,132,5">
+        <var name="handler" id="6971699915906411095" />
+      </scope>
+      <scope id="6971699915906410872" at="54,70,61,7" />
+      <scope id="6971699915906411093" at="126,150,133,16" />
+      <scope id="6971699915906411149" at="136,0,143,0" />
+      <scope id="6971699915906410800" at="30,0,38,0">
+        <var name="editorComponent" id="6971699915906410827" />
+      </scope>
+      <scope id="6971699915906410869" at="54,0,63,0">
+        <var name="editorComponent" id="6971699915906410878" />
+      </scope>
+      <scope id="6971699915906410916" at="79,53,88,18">
+        <var name="result" id="1671903273455129985" />
+        <var name="rootCell" id="6971699915906410926" />
+      </scope>
+      <scope id="1671903273455197028" at="92,122,101,18" />
+      <scope id="6971699915906411080" at="126,0,135,0">
+        <var name="alternative" id="6971699915906411089" />
+        <var name="fromCell" id="6971699915906411081" />
+        <var name="fromPoint" id="6971699915906411085" />
+        <var name="toCell" id="6971699915906411083" />
+        <var name="toPoint" id="6971699915906411087" />
+      </scope>
+      <scope id="6971699915906410911" at="79,0,90,0">
+        <var name="point" id="6971699915906410912" />
+      </scope>
+      <scope id="1671903273455197006" at="91,86,103,16" />
+      <scope id="6971699915906411041" at="110,77,123,5">
+        <var name="endCell" id="6971699915906411048" />
+        <var name="selection" id="6971699915906411053" />
+        <var name="startCell" id="6971699915906411043" />
+      </scope>
+      <scope id="1671903273455196998" at="91,0,105,0">
+        <var name="cell" id="1671903273455196999" />
+        <var name="x" id="1671903273455197002" />
+        <var name="y" id="1671903273455197004" />
+      </scope>
+      <scope id="6971699915906411038" at="110,0,125,0">
+        <var name="alternative" id="6971699915906411077" />
+        <var name="from" id="6971699915906411073" />
+        <var name="to" id="6971699915906411075" />
+      </scope>
+      <unit id="6971699915906411163" at="137,205,141,5" name="de.itemis.mps.selection.runtime.mouse.DragSelectionMouseListener$2" />
+      <unit id="5337561823691249291" at="56,43,61,5" name="de.itemis.mps.selection.runtime.mouse.DragSelectionMouseListener$1" />
+      <unit id="6971699915906410788" at="26,0,164,0" name="de.itemis.mps.selection.runtime.mouse.DragSelectionMouseListener" />
+    </file>
+  </root>
+  <root nodeRef="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)/6971699915906411231">
+    <file name="IDragSelectionHandler.java">
+      <node id="6971699915906411232" at="11,0,12,0" concept="6" trace="createSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;IIIILjetbrains/mps/openapi/editor/EditorComponent;)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <node id="6971699915906411250" at="12,0,13,0" concept="6" trace="createAlternativeSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;IIIILjetbrains/mps/openapi/editor/EditorComponent;)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <node id="6971699915906411268" at="13,0,14,0" concept="6" trace="getPriority#()I" />
+      <scope id="6971699915906411232" at="11,0,12,0">
+        <var name="editorComponent" id="6971699915906411245" />
+        <var name="fromCell" id="6971699915906411233" />
+        <var name="fromX" id="6971699915906411237" />
+        <var name="fromY" id="6971699915906411239" />
+        <var name="toCell" id="6971699915906411235" />
+        <var name="toX" id="6971699915906411241" />
+        <var name="toY" id="6971699915906411243" />
+      </scope>
+      <scope id="6971699915906411250" at="12,0,13,0">
+        <var name="editorComponent" id="6971699915906411263" />
+        <var name="fromCell" id="6971699915906411251" />
+        <var name="fromX" id="6971699915906411255" />
+        <var name="fromY" id="6971699915906411257" />
+        <var name="toCell" id="6971699915906411253" />
+        <var name="toX" id="6971699915906411259" />
+        <var name="toY" id="6971699915906411261" />
+      </scope>
+      <scope id="6971699915906411268" at="13,0,14,0" />
+      <unit id="6971699915906411231" at="10,0,15,0" name="de.itemis.mps.selection.runtime.mouse.IDragSelectionHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)/6971699915906411273">
+    <file name="LabelSelectionHandler.java">
+      <node id="6971699915906411296" at="14,69,15,59" concept="7" />
+      <node id="6971699915906411302" at="16,33,17,69" concept="7" />
+      <node id="6971699915906411308" at="17,69,18,65" concept="7" />
+      <node id="6971699915906411314" at="18,65,19,0" concept="10" />
+      <node id="6971699915906411315" at="20,52,21,42" concept="1" />
+      <node id="6971699915906411320" at="22,9,23,62" concept="1" />
+      <node id="6971699915906411327" at="23,62,24,60" concept="1" />
+      <node id="6971699915906411334" at="24,60,25,51" concept="8" />
+      <node id="6971699915906411345" at="27,5,28,0" concept="10" />
+      <node id="6971699915906411346" at="28,0,29,16" concept="8" />
+      <node id="6971699915906411353" at="33,28,34,15" concept="8" />
+      <node id="8826403382530975629" at="19,0,22,9" concept="5" />
+      <node id="6971699915906411349" at="32,0,36,0" concept="6" trace="getPriority#()I" />
+      <node id="7080938118543188275" at="15,59,26,7" concept="5" />
+      <node id="6971699915906411294" at="13,149,27,5" concept="5" />
+      <node id="6971699915906411276" at="13,0,31,0" concept="6" trace="createSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;IIIILjetbrains/mps/openapi/editor/EditorComponent;)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <scope id="8826403382530975631" at="20,52,21,42" />
+      <scope id="6971699915906411352" at="33,28,34,15" />
+      <scope id="6971699915906411349" at="32,0,36,0" />
+      <scope id="7080938118543188277" at="16,33,25,51">
+        <var name="caretFrom" id="6971699915906411303" />
+        <var name="caretTo" id="6971699915906411309" />
+      </scope>
+      <scope id="6971699915906411295" at="14,69,26,7">
+        <var name="label" id="6971699915906411297" />
+      </scope>
+      <scope id="6971699915906411293" at="13,149,29,16" />
+      <scope id="6971699915906411276" at="13,0,31,0">
+        <var name="editorComponent" id="6971699915906411289" />
+        <var name="fromCell" id="6971699915906411277" />
+        <var name="fromX" id="6971699915906411281" />
+        <var name="fromY" id="6971699915906411283" />
+        <var name="toCell" id="6971699915906411279" />
+        <var name="toX" id="6971699915906411285" />
+        <var name="toY" id="6971699915906411287" />
+      </scope>
+      <unit id="6971699915906411273" at="12,0,37,0" name="de.itemis.mps.selection.runtime.mouse.LabelSelectionHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)/6971699915906411356">
+    <file name="NodeRangeSelectionHandler.java">
+      <node id="6971699915906411377" at="17,155,18,0" concept="10" />
+      <node id="6971699915906411378" at="18,0,19,71" concept="7" />
+      <node id="6971699915906411384" at="19,71,20,0" concept="10" />
+      <node id="6971699915906411399" at="22,54,23,48" concept="8" />
+      <node id="6971699915906411406" at="25,6,26,0" concept="10" />
+      <node id="6971699915906411407" at="26,0,27,107" concept="7" />
+      <node id="6971699915906411413" at="27,107,28,103" concept="7" />
+      <node id="6971699915906411421" at="29,47,30,80" concept="7" />
+      <node id="6971699915906411428" at="31,95,32,46" concept="7" />
+      <node id="6971699915906411434" at="32,46,33,42" concept="7" />
+      <node id="6971699915906411442" at="34,262,35,119" concept="1" />
+      <node id="6971699915906411479" at="37,9,38,29" concept="8" />
+      <node id="6971699915906411488" at="39,5,40,0" concept="10" />
+      <node id="6971699915906411489" at="40,0,41,16" concept="8" />
+      <node id="6971699915906411496" at="45,28,46,16" concept="8" />
+      <node id="6971699915906411393" at="22,0,25,0" concept="6" trace="met#(Ljetbrains/mps/openapi/editor/cells/EditorCell_Collection;)Z" />
+      <node id="6971699915906411440" at="33,42,36,9" concept="5" />
+      <node id="6971699915906411492" at="44,0,48,0" concept="6" trace="getPriority#()I" />
+      <node id="6971699915906411385" at="20,0,25,6" concept="7" />
+      <node id="6971699915906411425" at="30,80,37,9" concept="1" />
+      <node id="6971699915906411419" at="28,103,39,5" concept="5" />
+      <node id="6971699915906411359" at="17,0,43,0" concept="6" trace="createSelection#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/cells/EditorCell;IIIILjetbrains/mps/openapi/editor/EditorComponent;)Ljetbrains/mps/openapi/editor/selection/Selection;" />
+      <scope id="6971699915906411398" at="22,54,23,48" />
+      <scope id="6971699915906411441" at="34,262,35,119" />
+      <scope id="6971699915906411495" at="45,28,46,16" />
+      <scope id="6971699915906411393" at="22,0,25,0">
+        <var name="cell" id="6971699915906411396" />
+      </scope>
+      <scope id="6971699915906411492" at="44,0,48,0" />
+      <scope id="6971699915906411427" at="31,95,36,9">
+        <var name="fromNode" id="6971699915906411429" />
+        <var name="toNode" id="6971699915906411435" />
+      </scope>
+      <scope id="6971699915906411420" at="29,47,38,29">
+        <var name="selection" id="6971699915906411422" />
+      </scope>
+      <scope id="6971699915906411376" at="17,155,41,16">
+        <var name="childFrom" id="6971699915906411408" />
+        <var name="childTo" id="6971699915906411414" />
+        <var name="commonParent" id="6971699915906411379" />
+        <var name="directChildOfCommonParent" id="6971699915906411386" />
+      </scope>
+      <scope id="6971699915906411359" at="17,0,43,0">
+        <var name="editorComponent" id="6971699915906411372" />
+        <var name="fromCell" id="6971699915906411360" />
+        <var name="fromX" id="6971699915906411364" />
+        <var name="fromY" id="6971699915906411366" />
+        <var name="toCell" id="6971699915906411362" />
+        <var name="toX" id="6971699915906411368" />
+        <var name="toY" id="6971699915906411370" />
+      </scope>
+      <unit id="6971699915906411391" at="21,69,25,5" name="de.itemis.mps.selection.runtime.mouse.NodeRangeSelectionHandler$1" />
+      <unit id="6971699915906411356" at="16,0,49,0" name="de.itemis.mps.selection.runtime.mouse.NodeRangeSelectionHandler" />
+    </file>
+  </root>
+</debug-info>
+

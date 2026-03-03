@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-c6j9supm7ewyf3g18pts9w1bb635y7t">
+  <files names="CommandTransactionReconciler.java:CommandTransactionReconciliation_ProjectPluginPart.java:IReconciliationAction.java:IReconciliationStrategy.java:TransactionReconciler.java:Utility_ProjectPlugin.java" />
+</product>
+

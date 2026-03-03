@@ -1,0 +1,19 @@
+Here is some text with latin characters from wikipedia ?
+https://de.wikipedia.org/wiki/Windows-1252 ?
+Code    …0    …1    …2    …3    …4    …5    …6    …7    …8    …9    …A    …B    …C    …D    …E    …F  
+0…      NUL   SOH   STX   ETX   EOT   ENQ   ACK   BEL   BS    HT    LF    VT    FF    CR    SO    SI  
+1…      DLE   DC1   DC2   DC3   DC4   NAK   SYN   ETB   CAN   EM    SUB   ESC   FS    GS    RS    US  
+2…      SP    !     "     #     $     %     &     '     (     )     *     +     ,     -     .     /   
+3…      0     1     2     3     4     5     6     7     8     9     :     ;     <     =     >     ?   
+4…      @     A     B     C     D     E     F     G     H     I     J     K     L     M     N     O   
+5…      P     Q     R     S     T     U     V     W     X     Y     Z     [     \     ]     ^     _   
+6…      `     a     b     c     d     e     f     g     h     i     j     k     l     m     n     o   
+7…      p     q     r     s     t     u     v     w     x     y     z     {     |     }     ~     DEL 
+8…      €           ‚     ƒ     „     …     †     ‡     ˆ     ‰     Š     ‹     Œ           Ž         
+9…            ‘     ’     “     ”     •     –     —     ˜     ™     š     ›     œ           ž     Ÿ   
+A…      NBSP  ¡     ¢     £     ¤     ¥     ¦     §     ¨     ©     ª     «     ¬     SHY   ®     ¯   
+B…      °     ±     ²     ³     ´     µ     ¶     ·     ¸     ¹     º     »     ¼     ½     ¾     ¿   
+C…      À     Á     Â     Ã     Ä     Å     Æ     Ç     È     É     Ê     Ë     Ì     Í     Î     Ï   
+D…      Ð     Ñ     Ò     Ó     Ô     Õ     Ö     ×     Ø     Ù     Ú     Û     Ü     Ý     Þ     ß   
+E…      à     á     â     ã     ä     å     æ     ç     è     é     ê     ë     ì     í     î     ï   
+F…      ð     ñ     ò     ó     ô     õ     ö     ÷     ø     ù     ú     û     ü     ý     þ     ÿ   

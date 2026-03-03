@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="de.itemis.mps.modelmerger.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:e2341a08-d6be-4f98-81a4-228c0b938013(de.itemis.mps.modelmerger.typesystem)/8424607763702379027">
+    <file name="TypesystemDescriptor.java">
+      <node id="8424607763702379027" at="10,5,11,81" concept="4" />
+      <node id="8424607763702379027" at="11,81,12,47" concept="2" />
+      <node id="8424607763702379027" at="9,33,13,5" concept="0" />
+      <scope id="8424607763702379027" at="10,5,12,47">
+        <var name="inferenceRule" id="8424607763702379027" />
+      </scope>
+    </file>
+    <file name="typeof_paramNode_InferenceRule.java">
+      <node id="8424607763702388095" at="23,122,24,212" concept="4" />
+      <node id="8424607763702392655" at="25,5,26,51" concept="4" />
+      <node id="8424607763702392655" at="26,51,27,202" concept="4" />
+      <node id="8424607763702392655" at="27,202,28,290" concept="2" />
+      <node id="8424607763702379027" at="31,50,32,33" concept="5" />
+      <node id="8424607763702379027" at="34,68,35,102" concept="5" />
+      <node id="8424607763702379027" at="37,30,38,17" concept="5" />
+      <node id="8424607763702392714" at="40,67,41,69" concept="4" />
+      <node id="8424607763702392714" at="41,69,42,50" concept="2" />
+      <node id="8424607763702392714" at="42,50,43,26" concept="5" />
+      <node id="8424607763702379027" at="47,0,48,0" concept="6" trace="ConceptIdentityMap$BS" />
+      <node id="8424607763702379027" at="48,0,49,0" concept="6" trace="InputNode$4G" />
+      <node id="8424607763702379027" at="49,0,50,0" concept="6" trace="SNodeType$hR" />
+      <node id="8424607763702379027" at="53,0,54,0" concept="6" trace="conceptRef$rkzX" />
+      <node id="8424607763702379027" at="54,0,55,0" concept="6" trace="concept$WQBy" />
+      <node id="8424607763702379027" at="55,0,56,0" concept="6" trace="concept$OMgE" />
+      <node id="8424607763702379027" at="21,0,23,0" concept="1" trace="typeof_paramNode_InferenceRule#()V" />
+      <node id="8424607763702379027" at="31,0,34,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8424607763702379027" at="34,0,37,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8424607763702379027" at="37,0,40,0" concept="3" trace="overrides#()Z" />
+      <node id="8424607763702392655" at="24,212,29,5" concept="0" />
+      <node id="8424607763702392714" at="40,0,45,0" concept="7" trace="createSNodeType_ul4iuj_a1a0c0b0b#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8424607763702379027" at="23,0,31,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8424607763702379027" at="21,43,21,43" />
+      <scope id="8424607763702379027" at="31,50,32,33" />
+      <scope id="8424607763702379027" at="34,68,35,102" />
+      <scope id="8424607763702379027" at="37,30,38,17" />
+      <scope id="8424607763702379027" at="21,0,23,0" />
+      <scope id="8424607763702392655" at="25,5,28,290">
+        <var name="_info_12389875345" id="8424607763702392655" />
+        <var name="_nodeToCheck_1029348928467" id="8424607763702392655" />
+      </scope>
+      <scope id="8424607763702379027" at="31,0,34,0" />
+      <scope id="8424607763702379027" at="34,0,37,0">
+        <var name="argument" id="8424607763702379027" />
+      </scope>
+      <scope id="8424607763702379027" at="37,0,40,0" />
+      <scope id="8424607763702392714" at="40,67,43,26">
+        <var name="n0" id="8424607763702392714" />
+      </scope>
+      <scope id="8424607763702392714" at="40,0,45,0">
+        <var name="p0" id="8424607763702392714" />
+      </scope>
+      <scope id="8424607763702379028" at="23,122,29,5">
+        <var name="conceptofExpr" id="8424607763702388096" />
+      </scope>
+      <scope id="8424607763702379027" at="23,0,31,0">
+        <var name="paramNode" id="8424607763702379027" />
+        <var name="status" id="8424607763702379027" />
+        <var name="typeCheckingContext" id="8424607763702379027" />
+      </scope>
+      <unit id="8424607763702379027" at="46,0,51,0" name="de.itemis.mps.modelmerger.typesystem.typeof_paramNode_InferenceRule$CONCEPTS" />
+      <unit id="8424607763702379027" at="52,0,57,0" name="de.itemis.mps.modelmerger.typesystem.typeof_paramNode_InferenceRule$LINKS" />
+      <unit id="8424607763702379027" at="20,0,58,0" name="de.itemis.mps.modelmerger.typesystem.typeof_paramNode_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
+

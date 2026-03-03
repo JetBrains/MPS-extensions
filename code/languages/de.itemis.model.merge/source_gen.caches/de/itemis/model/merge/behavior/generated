@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="1wpzgn8nvh3c4dfoombrhpxnz27qvq5">
+  <files names="AbstractMergeAction__BehaviorDescriptor.java:AbstractPolicy__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:IdFunction__BehaviorDescriptor.java:ItemPolicy__BehaviorDescriptor.java:ManualAction__BehaviorDescriptor.java:ManualCollectionAction__BehaviorDescriptor.java:ManualRefAction__BehaviorDescriptor.java:MergeAction__BehaviorDescriptor.java:MergePolicy__BehaviorDescriptor.java:ModelMergeExecution__BehaviorDescriptor.java:ModelMerge__BehaviorDescriptor.java:MultiChildPolicy__BehaviorDescriptor.java:OptionalPolicy__BehaviorDescriptor.java:OptionalRefPolicy__BehaviorDescriptor.java:PropertyPolicy__BehaviorDescriptor.java:ReferencePolicy__BehaviorDescriptor.java:SingeltonRefPolicy__BehaviorDescriptor.java:SingletonPolicy__BehaviorDescriptor.java" />
+</product>
+

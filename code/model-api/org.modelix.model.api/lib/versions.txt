@@ -1,0 +1,10 @@
+model-api-jvm-2.1.9.jar
+kotlin-logging-jvm-3.0.5.jar
+kotlin-stdlib-jdk8-1.8.20.jar
+kotlin-stdlib-jdk7-1.8.20.jar
+kotlinx-serialization-json-jvm-1.5.0.jar
+kotlinx-serialization-core-jvm-1.5.0.jar
+kotlin-stdlib-1.8.20.jar
+kotlin-stdlib-common-1.8.20.jar
+already part of mps: annotations-13.0.jar
+already part of mps: slf4j-api-2.0.3.jar

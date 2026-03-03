@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="EditorAspectDescriptorImpl.java">
+      <unit at="15,0,37,0" name="com.dslfoundry.plaintextflow.editor.EditorAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)/4283698638126216896">
+    <file name="style_flow_StyleSheet.java">
+      <node id="4283698638126216899" at="15,69,16,33" concept="11" />
+      <node id="4283698638126216899" at="18,65,19,24" concept="11" />
+      <node id="4283698638126216904" at="23,59,24,56" concept="2" />
+      <node id="4283698638126216910" at="24,56,25,57" concept="2" />
+      <node id="4283698638126216918" at="25,57,26,62" concept="2" />
+      <node id="4283698638126216928" at="26,62,27,61" concept="2" />
+      <node id="4283698638126216899" at="15,0,18,0" concept="1" trace="nogapStyleClass#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4283698638126216899" at="18,0,21,0" concept="1" trace="nogapStyleClass#(Ljetbrains/mps/editor/runtime/descriptor/EditorBuilderEnvironment;)V" />
+      <node id="4283698638126216899" at="22,0,29,0" concept="5" trace="apply#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <scope id="4283698638126216899" at="15,69,16,33" />
+      <scope id="4283698638126216899" at="18,65,19,24" />
+      <scope id="4283698638126216899" at="15,0,18,0">
+        <var name="editorContext" id="4283698638126216899" />
+        <var name="node" id="4283698638126216899" />
+      </scope>
+      <scope id="4283698638126216899" at="18,0,21,0">
+        <var name="builderEnv" id="4283698638126216899" />
+      </scope>
+      <scope id="4283698638126216899" at="23,59,27,61" />
+      <scope id="4283698638126216899" at="22,0,29,0">
+        <var name="editorCell" id="4283698638126216899" />
+        <var name="style" id="4283698638126216899" />
+      </scope>
+      <unit id="4283698638126216899" at="14,0,31,0" name="com.dslfoundry.plaintextflow.editor.style_flow_StyleSheet$nogapStyleClass" />
+      <unit id="4283698638126216896" at="13,0,32,0" name="com.dslfoundry.plaintextflow.editor.style_flow_StyleSheet" />
+    </file>
+  </root>
+  <root nodeRef="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)/7578858899714679102">
+    <file name="FlowWord_Editor.java">
+      <node id="7578858899714679102" at="11,79,12,74" concept="7" />
+      <node id="7578858899714679102" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7578858899714679102" at="11,79,12,74" />
+      <scope id="7578858899714679102" at="11,0,14,0">
+        <var name="editorContext" id="7578858899714679102" />
+        <var name="node" id="7578858899714679102" />
+      </scope>
+      <unit id="7578858899714679102" at="10,0,15,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_Editor" />
+    </file>
+    <file name="FlowWord_EditorBuilder_a.java">
+      <node id="7578858899714679102" at="35,88,36,19" concept="11" />
+      <node id="7578858899714679102" at="36,19,37,18" concept="2" />
+      <node id="7578858899714679102" at="42,26,43,18" concept="7" />
+      <node id="7578858899714679102" at="46,39,47,30" concept="7" />
+      <node id="7578858899714679102" at="50,41,51,39" concept="2" />
+      <node id="7578858899714679102" at="52,9,53,49" concept="6" />
+      <node id="7578858899714679102" at="53,49,54,76" concept="2" />
+      <node id="7578858899714679102" at="54,76,55,149" concept="6" />
+      <node id="7578858899714679102" at="55,149,56,45" concept="2" />
+      <node id="7578858899714679102" at="56,45,57,44" concept="2" />
+      <node id="7578858899714679102" at="57,44,58,30" concept="2" />
+      <node id="7578858899714679102" at="58,30,59,33" concept="2" />
+      <node id="7578858899714679102" at="59,33,60,36" concept="6" />
+      <node id="7578858899714679102" at="60,36,61,57" concept="2" />
+      <node id="6950805964934449227" at="61,57,62,134" concept="2" />
+      <node id="7578858899714679102" at="62,134,63,42" concept="2" />
+      <node id="7578858899714679102" at="63,42,64,86" concept="2" />
+      <node id="7578858899714679102" at="64,86,65,33" concept="2" />
+      <node id="7578858899714679102" at="65,33,66,155" concept="6" />
+      <node id="7578858899714679102" at="68,41,69,118" concept="7" />
+      <node id="7578858899714679102" at="72,74,73,89" concept="6" />
+      <node id="7578858899714679102" at="73,89,74,145" concept="7" />
+      <node id="7578858899714679102" at="75,12,76,24" concept="7" />
+      <node id="7578858899714679102" at="77,15,78,40" concept="2" />
+      <node id="4283698638126387622" at="82,63,83,42" concept="7" />
+      <node id="4283698638126387631" at="84,12,85,41" concept="7" />
+      <node id="4283698638126385568" at="86,5,87,0" concept="8" />
+      <node id="7578858899714679102" at="91,0,92,0" concept="9" trace="text$Lojm" />
+      <node id="7578858899714679102" at="95,0,96,0" concept="9" trace="PropertyAttribute$Gb" />
+      <node id="7578858899714679102" at="32,0,34,0" concept="3" trace="myNode" />
+      <node id="4283698638126387629" at="84,10,86,5" concept="0" />
+      <node id="7578858899714679102" at="46,0,49,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899714679102" at="68,0,71,0" concept="5" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="7578858899714679102" at="35,0,39,0" concept="1" trace="FlowWord_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7578858899714679102" at="40,0,45,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7578858899714679102" at="66,155,71,9" concept="6" />
+      <node id="7578858899714679102" at="71,9,76,24" concept="4" />
+      <node id="4283698638126387613" at="81,60,86,5" concept="4" />
+      <node id="6950805964934464247" at="81,0,89,0" concept="5" trace="_StyleParameter_QueryFunction_360umy_a0a#()Ljava/awt/Color;" />
+      <node id="7578858899714679102" at="51,39,79,5" concept="12" />
+      <node id="7578858899714679102" at="50,0,81,0" concept="5" trace="createProperty_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7578858899714679102" at="42,26,43,18" />
+      <scope id="7578858899714679102" at="46,39,47,30" />
+      <scope id="7578858899714679102" at="68,41,69,118" />
+      <scope id="7578858899714679102" at="77,15,78,40" />
+      <scope id="4283698638126387621" at="82,63,83,42" />
+      <scope id="4283698638126387630" at="84,12,85,41" />
+      <scope id="7578858899714679102" at="35,88,37,18" />
+      <scope id="7578858899714679102" at="72,74,74,145">
+        <var name="manager" id="7578858899714679102" />
+      </scope>
+      <scope id="7578858899714679102" at="46,0,49,0" />
+      <scope id="7578858899714679102" at="68,0,71,0">
+        <var name="it" id="7578858899714679102" />
+      </scope>
+      <scope id="7578858899714679102" at="35,0,39,0">
+        <var name="context" id="7578858899714679102" />
+        <var name="node" id="7578858899714679102" />
+      </scope>
+      <scope id="7578858899714679102" at="40,0,45,0" />
+      <scope id="6950805964934464248" at="81,60,87,0" />
+      <scope id="6950805964934464247" at="81,0,89,0" />
+      <scope id="7578858899714679102" at="52,9,76,24">
+        <var name="currentPropertyAttributes" id="7578858899714679102" />
+        <var name="editorCell" id="7578858899714679102" />
+        <var name="property" id="7578858899714679102" />
+        <var name="propertyAttributes" id="7578858899714679102" />
+        <var name="style" id="7578858899714679102" />
+      </scope>
+      <scope id="7578858899714679102" at="50,41,79,5" />
+      <scope id="7578858899714679102" at="50,0,81,0" />
+      <unit id="7578858899714679102" at="90,0,93,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder_a$PROPS" />
+      <unit id="7578858899714679102" at="94,0,97,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder_a$CONCEPTS" />
+      <unit id="7578858899714679102" at="67,102,71,7" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder_a$1" />
+      <unit id="7578858899714679102" at="31,0,98,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)/7578858899714691068">
+    <file name="Flow_Editor.java">
+      <node id="7578858899714691068" at="11,79,12,70" concept="7" />
+      <node id="7578858899714691068" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7578858899714691068" at="11,79,12,70" />
+      <scope id="7578858899714691068" at="11,0,14,0">
+        <var name="editorContext" id="7578858899714691068" />
+        <var name="node" id="7578858899714691068" />
+      </scope>
+      <unit id="7578858899714691068" at="10,0,15,0" name="com.dslfoundry.plaintextflow.editor.Flow_Editor" />
+    </file>
+    <file name="Flow_EditorBuilder_a.java">
+      <node id="7578858899714691068" at="49,84,50,19" concept="11" />
+      <node id="7578858899714691068" at="50,19,51,18" concept="2" />
+      <node id="7578858899714691068" at="56,26,57,18" concept="7" />
+      <node id="7578858899714691068" at="60,39,61,32" concept="7" />
+      <node id="7578858899714691068" at="64,43,65,118" concept="6" />
+      <node id="7578858899714691068" at="65,118,66,48" concept="2" />
+      <node id="7578858899714691068" at="66,48,67,28" concept="2" />
+      <node id="7578858899714691068" at="67,28,68,31" concept="2" />
+      <node id="7578858899714691068" at="68,31,69,34" concept="6" />
+      <node id="7578858899714691068" at="69,34,70,55" concept="2" />
+      <node id="7578858899714691068" at="70,55,71,40" concept="2" />
+      <node id="7578858899715394642" at="71,40,72,49" concept="2" />
+      <node id="7578858899715365266" at="72,49,73,52" concept="2" />
+      <node id="7578858899714691068" at="73,52,74,22" concept="7" />
+      <node id="7578858899715394642" at="76,41,77,39" concept="2" />
+      <node id="7578858899715394642" at="78,9,79,51" concept="6" />
+      <node id="7578858899715394642" at="79,51,80,76" concept="2" />
+      <node id="7578858899715394642" at="80,76,81,148" concept="6" />
+      <node id="7578858899715394642" at="81,148,82,36" concept="2" />
+      <node id="7578858899715394642" at="82,36,83,46" concept="2" />
+      <node id="7578858899715394642" at="83,46,84,36" concept="6" />
+      <node id="7578858899715394642" at="84,36,85,57" concept="2" />
+      <node id="7578858899715925096" at="85,57,86,102" concept="2" />
+      <node id="7578858899715394642" at="86,102,87,42" concept="2" />
+      <node id="7578858899715394642" at="87,42,88,86" concept="2" />
+      <node id="7578858899715394642" at="88,86,89,33" concept="2" />
+      <node id="7578858899715394642" at="89,33,90,155" concept="6" />
+      <node id="7578858899715394642" at="92,41,93,118" concept="7" />
+      <node id="7578858899715394642" at="96,74,97,89" concept="6" />
+      <node id="7578858899715394642" at="97,89,98,145" concept="7" />
+      <node id="7578858899715394642" at="99,12,100,24" concept="7" />
+      <node id="7578858899715394642" at="101,15,102,40" concept="2" />
+      <node id="7578858899714691068" at="105,44,106,99" concept="6" />
+      <node id="7578858899714691068" at="106,99,107,91" concept="6" />
+      <node id="7578858899714691068" at="107,91,108,48" concept="2" />
+      <node id="7578858899714691068" at="108,48,109,34" concept="6" />
+      <node id="7578858899714691068" at="109,34,110,55" concept="2" />
+      <node id="7578858899714691068" at="110,55,111,40" concept="2" />
+      <node id="7578858899714691068" at="111,40,112,51" concept="2" />
+      <node id="7578858899714691068" at="112,51,113,22" concept="7" />
+      <node id="7578858899714691068" at="119,81,120,28" concept="11" />
+      <node id="7578858899714691068" at="120,28,121,25" concept="2" />
+      <node id="7578858899714691068" at="125,28,126,20" concept="7" />
+      <node id="7578858899714691068" at="128,40,129,32" concept="7" />
+      <node id="7578858899714691068" at="131,48,132,38" concept="7" />
+      <node id="7578858899714691068" at="134,109,135,52" concept="7" />
+      <node id="7707982922429374139" at="138,73,139,44" concept="7" />
+      <node id="7578858899714691068" at="141,57,142,83" concept="6" />
+      <node id="7578858899714691068" at="142,83,143,65" concept="2" />
+      <node id="7578858899714691068" at="143,65,144,25" concept="7" />
+      <node id="7578858899714691068" at="146,41,147,41" concept="2" />
+      <node id="7578858899714691068" at="147,41,148,141" concept="2" />
+      <node id="7578858899714691068" at="149,11,150,36" concept="6" />
+      <node id="7578858899714691068" at="150,36,151,44" concept="2" />
+      <node id="7578858899714691068" at="151,44,152,57" concept="2" />
+      <node id="7578858899714691068" at="152,57,153,34" concept="2" />
+      <node id="7578858899714691068" at="153,34,154,25" concept="7" />
+      <node id="7578858899714691068" at="155,17,156,42" concept="2" />
+      <node id="7578858899714691068" at="160,0,161,0" concept="9" trace="OBJ" />
+      <node id="7578858899714691068" at="164,122,165,92" concept="2" />
+      <node id="7578858899714691068" at="165,92,166,146" concept="2" />
+      <node id="7578858899714691068" at="170,34,171,90" concept="2" />
+      <node id="7578858899714691068" at="171,90,172,142" concept="2" />
+      <node id="7578858899714691068" at="176,34,177,69" concept="2" />
+      <node id="7578858899714691068" at="177,69,178,146" concept="2" />
+      <node id="7578858899714691068" at="182,34,183,91" concept="2" />
+      <node id="7707982922429379913" at="187,57,188,70" concept="6" />
+      <node id="7707982922429379913" at="188,70,189,42" concept="2" />
+      <node id="7707982922429379913" at="189,42,190,28" concept="7" />
+      <node id="7578858899714691068" at="195,0,196,0" concept="9" trace="indent$aiKC" />
+      <node id="7578858899714691068" at="196,0,197,0" concept="9" trace="text$Lojm" />
+      <node id="7578858899714691068" at="200,0,201,0" concept="9" trace="PropertyAttribute$Gb" />
+      <node id="7578858899714691068" at="201,0,202,0" concept="9" trace="IFlowElement$BW" />
+      <node id="7578858899714691068" at="202,0,203,0" concept="9" trace="FlowWord$ML" />
+      <node id="7578858899714691068" at="206,0,207,0" concept="9" trace="content$8q1D" />
+      <node id="7578858899714691068" at="46,0,48,0" concept="3" trace="myNode" />
+      <node id="7578858899714691068" at="116,0,118,0" concept="3" trace="myNode" />
+      <node id="7578858899714691068" at="60,0,63,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899715394642" at="92,0,95,0" concept="5" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="7578858899714691068" at="128,0,131,0" concept="5" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
+      <node id="7578858899714691068" at="131,0,134,0" concept="5" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7578858899714691068" at="134,0,137,0" concept="5" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7578858899714691068" at="138,0,141,0" concept="5" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7578858899714691068" at="181,96,184,9" concept="4" />
+      <node id="7578858899714691068" at="49,0,53,0" concept="1" trace="Flow_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7578858899714691068" at="119,0,123,0" concept="1" trace="contentListHandler_gc1fin_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="7578858899714691068" at="124,0,128,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7578858899714691068" at="163,97,167,9" concept="4" />
+      <node id="7578858899714691068" at="169,95,173,9" concept="4" />
+      <node id="7578858899714691068" at="175,74,179,9" concept="4" />
+      <node id="7578858899714691068" at="54,0,59,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7578858899715394642" at="90,155,95,9" concept="6" />
+      <node id="7578858899715394642" at="95,9,100,24" concept="4" />
+      <node id="7578858899714691068" at="141,0,146,0" concept="5" trace="createNodeCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899714691068" at="180,7,185,7" concept="4" />
+      <node id="7707982922429379913" at="187,0,192,0" concept="10" trace="createFlowWord_gc1fin_a0a0b0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7578858899714691068" at="162,107,168,7" concept="4" />
+      <node id="7578858899714691068" at="168,7,174,7" concept="4" />
+      <node id="7578858899714691068" at="174,7,180,7" concept="4" />
+      <node id="7578858899714691068" at="148,141,157,7" concept="12" />
+      <node id="7578858899714691068" at="105,0,115,0" concept="5" trace="createRefNodeList_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899714691068" at="64,0,76,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899714691068" at="146,0,159,0" concept="5" trace="createEmptyCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899714691068" at="162,0,187,0" concept="5" trace="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)V" />
+      <node id="7578858899715394642" at="77,39,103,5" concept="12" />
+      <node id="7578858899715394642" at="76,0,105,0" concept="5" trace="createProperty_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7578858899714691068" at="56,26,57,18" />
+      <scope id="7578858899714691068" at="60,39,61,32" />
+      <scope id="7578858899715394642" at="92,41,93,118" />
+      <scope id="7578858899715394642" at="101,15,102,40" />
+      <scope id="7578858899714691068" at="125,28,126,20" />
+      <scope id="7578858899714691068" at="128,40,129,32" />
+      <scope id="7578858899714691068" at="131,48,132,38" />
+      <scope id="7578858899714691068" at="134,109,135,52" />
+      <scope id="7707982922429373923" at="138,73,139,44" />
+      <scope id="7578858899714691068" at="155,17,156,42" />
+      <scope id="7578858899714691068" at="182,34,183,91" />
+      <scope id="7578858899714691068" at="49,84,51,18" />
+      <scope id="7578858899715394642" at="96,74,98,145">
+        <var name="manager" id="7578858899715394642" />
+      </scope>
+      <scope id="7578858899714691068" at="119,81,121,25" />
+      <scope id="7578858899714691068" at="164,122,166,146" />
+      <scope id="7578858899714691068" at="170,34,172,142" />
+      <scope id="7578858899714691068" at="176,34,178,146" />
+      <scope id="7578858899714691068" at="60,0,63,0" />
+      <scope id="7578858899715394642" at="92,0,95,0">
+        <var name="it" id="7578858899715394642" />
+      </scope>
+      <scope id="7578858899714691068" at="128,0,131,0" />
+      <scope id="7578858899714691068" at="131,0,134,0" />
+      <scope id="7578858899714691068" at="134,0,137,0">
+        <var name="editorContext" id="7578858899714691068" />
+        <var name="index" id="7578858899714691068" />
+        <var name="nextNode" id="7578858899714691068" />
+        <var name="prevNode" id="7578858899714691068" />
+      </scope>
+      <scope id="7578858899714691068" at="138,0,141,0">
+        <var name="index" id="7578858899714691068" />
+        <var name="nextNode" id="7578858899714691068" />
+        <var name="prevNode" id="7578858899714691068" />
+      </scope>
+      <scope id="7578858899714691068" at="141,57,144,25">
+        <var name="elementCell" id="7578858899714691068" />
+      </scope>
+      <scope id="7578858899714691068" at="181,96,184,9" />
+      <scope id="7707982922429379913" at="187,57,190,28">
+        <var name="n0" id="7707982922429379913" />
+      </scope>
+      <scope id="7578858899714691068" at="49,0,53,0">
+        <var name="context" id="7578858899714691068" />
+        <var name="node" id="7578858899714691068" />
+      </scope>
+      <scope id="7578858899714691068" at="119,0,123,0">
+        <var name="context" id="7578858899714691068" />
+        <var name="ownerNode" id="7578858899714691068" />
+      </scope>
+      <scope id="7578858899714691068" at="124,0,128,0" />
+      <scope id="7578858899714691068" at="163,97,167,9" />
+      <scope id="7578858899714691068" at="169,95,173,9" />
+      <scope id="7578858899714691068" at="175,74,179,9" />
+      <scope id="7578858899714691068" at="54,0,59,0" />
+      <scope id="7578858899714691068" at="141,0,146,0">
+        <var name="elementNode" id="7578858899714691068" />
+      </scope>
+      <scope id="7578858899714691068" at="149,11,154,25">
+        <var name="emptyCell" id="7578858899714691068" />
+      </scope>
+      <scope id="7707982922429379913" at="187,0,192,0" />
+      <scope id="7578858899714691068" at="105,44,113,22">
+        <var name="editorCell" id="7578858899714691068" />
+        <var name="handler" id="7578858899714691068" />
+        <var name="style" id="7578858899714691068" />
+      </scope>
+      <scope id="7578858899714691068" at="64,43,74,22">
+        <var name="editorCell" id="7578858899714691068" />
+        <var name="style" id="7578858899714691068" />
+      </scope>
+      <scope id="7578858899714691068" at="105,0,115,0" />
+      <scope id="7578858899714691068" at="146,41,157,7" />
+      <scope id="7578858899714691068" at="64,0,76,0" />
+      <scope id="7578858899714691068" at="146,0,159,0" />
+      <scope id="7578858899715394642" at="78,9,100,24">
+        <var name="currentPropertyAttributes" id="7578858899715394642" />
+        <var name="editorCell" id="7578858899715394642" />
+        <var name="property" id="7578858899715394642" />
+        <var name="propertyAttributes" id="7578858899715394642" />
+        <var name="style" id="7578858899715394642" />
+      </scope>
+      <scope id="7578858899714691068" at="162,107,185,7" />
+      <scope id="7578858899714691068" at="162,0,187,0">
+        <var name="elementCell" id="7578858899714691068" />
+        <var name="elementNode" id="7578858899714691068" />
+        <var name="isEmptyCell" id="7578858899714691068" />
+      </scope>
+      <scope id="7578858899715394642" at="76,41,103,5" />
+      <scope id="7578858899715394642" at="76,0,105,0" />
+      <unit id="7578858899714691068" at="205,0,208,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a$LINKS" />
+      <unit id="7578858899715394642" at="91,102,95,7" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a$1" />
+      <unit id="7578858899714691068" at="194,0,198,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a$PROPS" />
+      <unit id="7578858899714691068" at="199,0,204,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a$CONCEPTS" />
+      <unit id="7578858899714691068" at="115,0,193,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a$contentListHandler_gc1fin_b0" />
+      <unit id="7578858899714691068" at="45,0,209,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)/7578858899715525230">
+    <file name="SoftWrap_Editor.java">
+      <node id="7578858899715525230" at="11,79,12,74" concept="7" />
+      <node id="7578858899715525230" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7578858899715525230" at="11,79,12,74" />
+      <scope id="7578858899715525230" at="11,0,14,0">
+        <var name="editorContext" id="7578858899715525230" />
+        <var name="node" id="7578858899715525230" />
+      </scope>
+      <unit id="7578858899715525230" at="10,0,15,0" name="com.dslfoundry.plaintextflow.editor.SoftWrap_Editor" />
+    </file>
+    <file name="SoftWrap_EditorBuilder_a.java">
+      <node id="7578858899715525230" at="29,88,30,19" concept="11" />
+      <node id="7578858899715525230" at="30,19,31,18" concept="2" />
+      <node id="7578858899715525230" at="36,26,37,18" concept="7" />
+      <node id="7578858899715525230" at="40,39,41,32" concept="7" />
+      <node id="7578858899715525230" at="44,43,45,118" concept="6" />
+      <node id="7578858899715525230" at="45,118,46,48" concept="2" />
+      <node id="7578858899715525230" at="46,48,47,28" concept="2" />
+      <node id="7578858899715525230" at="47,28,48,31" concept="2" />
+      <node id="7578858899715525232" at="48,31,49,49" concept="2" />
+      <node id="7578858899715525244" at="50,37,51,64" concept="2" />
+      <node id="7578858899715525230" at="52,5,53,22" concept="7" />
+      <node id="4283698638126359142" at="55,46,56,106" concept="7" />
+      <node id="7578858899715525232" at="58,41,59,94" concept="6" />
+      <node id="7578858899715525232" at="59,94,60,47" concept="2" />
+      <node id="7578858899715525232" at="60,47,61,34" concept="6" />
+      <node id="7578858899715525232" at="61,34,62,55" concept="2" />
+      <node id="6950805964934978799" at="62,55,63,60" concept="2" />
+      <node id="6950805964934978800" at="63,60,64,99" concept="2" />
+      <node id="7578858899715525232" at="64,99,65,40" concept="2" />
+      <node id="7578858899715525232" at="65,40,66,34" concept="2" />
+      <node id="7578858899715525232" at="66,34,67,22" concept="7" />
+      <node id="7578858899715525826" at="71,31,72,101" concept="7" />
+      <node id="7578858899715525244" at="74,15,75,79" concept="2" />
+      <node id="7578858899715525244" at="75,79,76,82" concept="2" />
+      <node id="7578858899715525244" at="76,82,77,60" concept="2" />
+      <node id="7578858899715525244" at="77,60,78,34" concept="6" />
+      <node id="7578858899715525244" at="78,34,79,55" concept="2" />
+      <node id="7578858899715529400" at="79,55,80,109" concept="2" />
+      <node id="7707982922429620349" at="80,109,81,49" concept="2" />
+      <node id="7578858899715525244" at="81,49,82,47" concept="2" />
+      <node id="7578858899715525244" at="82,47,83,40" concept="2" />
+      <node id="7578858899715525244" at="83,40,84,22" concept="7" />
+      <node id="4283698638126364584" at="86,55,87,43" concept="7" />
+      <node id="7578858899715525230" at="26,0,28,0" concept="3" trace="myNode" />
+      <node id="7578858899715525230" at="40,0,43,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899715525244" at="49,49,52,5" concept="4" />
+      <node id="4283698638126357840" at="55,0,58,0" concept="5" trace="nodeCondition_p7qzb0_a1a#()Z" />
+      <node id="7578858899715525244" at="71,0,74,0" concept="5" trace="getText#()Ljava/lang/String;" />
+      <node id="4283698638126364584" at="86,0,89,0" concept="10" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="7578858899715525230" at="29,0,33,0" concept="1" trace="SoftWrap_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7578858899715525230" at="34,0,39,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7578858899715525244" at="69,54,74,15" concept="6" />
+      <node id="7578858899715525230" at="44,0,55,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899715525232" at="58,0,69,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899715525244" at="69,0,86,0" concept="5" trace="createReadOnlyModelAccessor_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7578858899715525230" at="36,26,37,18" />
+      <scope id="7578858899715525230" at="40,39,41,32" />
+      <scope id="7578858899715525244" at="50,37,51,64" />
+      <scope id="4283698638126357841" at="55,46,56,106" />
+      <scope id="7578858899715525250" at="71,31,72,101" />
+      <scope id="4283698638126364584" at="86,55,87,43" />
+      <scope id="7578858899715525230" at="29,88,31,18" />
+      <scope id="7578858899715525230" at="40,0,43,0" />
+      <scope id="4283698638126357840" at="55,0,58,0" />
+      <scope id="7578858899715525244" at="71,0,74,0" />
+      <scope id="4283698638126364584" at="86,0,89,0">
+        <var name="str" id="4283698638126364584" />
+      </scope>
+      <scope id="7578858899715525230" at="29,0,33,0">
+        <var name="context" id="7578858899715525230" />
+        <var name="node" id="7578858899715525230" />
+      </scope>
+      <scope id="7578858899715525230" at="34,0,39,0" />
+      <scope id="7578858899715525230" at="44,43,53,22">
+        <var name="editorCell" id="7578858899715525230" />
+      </scope>
+      <scope id="7578858899715525232" at="58,41,67,22">
+        <var name="editorCell" id="7578858899715525232" />
+        <var name="style" id="7578858899715525232" />
+      </scope>
+      <scope id="7578858899715525230" at="44,0,55,0" />
+      <scope id="7578858899715525232" at="58,0,69,0" />
+      <scope id="7578858899715525244" at="69,54,84,22">
+        <var name="editorCell" id="7578858899715525244" />
+        <var name="style" id="7578858899715525244" />
+      </scope>
+      <scope id="7578858899715525244" at="69,0,86,0" />
+      <unit id="7578858899715525244" at="70,88,74,5" name="com.dslfoundry.plaintextflow.editor.SoftWrap_EditorBuilder_a$1" />
+      <unit id="7578858899715525230" at="25,0,90,0" name="com.dslfoundry.plaintextflow.editor.SoftWrap_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)/7578858899716023455">
+    <file name="HardWrap_Editor.java">
+      <node id="7578858899716023455" at="11,79,12,74" concept="7" />
+      <node id="7578858899716023455" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7578858899716023455" at="11,79,12,74" />
+      <scope id="7578858899716023455" at="11,0,14,0">
+        <var name="editorContext" id="7578858899716023455" />
+        <var name="node" id="7578858899716023455" />
+      </scope>
+      <unit id="7578858899716023455" at="10,0,15,0" name="com.dslfoundry.plaintextflow.editor.HardWrap_Editor" />
+    </file>
+    <file name="HardWrap_EditorBuilder_a.java">
+      <node id="7578858899716023455" at="23,88,24,19" concept="11" />
+      <node id="7578858899716023455" at="24,19,25,18" concept="2" />
+      <node id="7578858899716023455" at="30,26,31,18" concept="7" />
+      <node id="7578858899716023455" at="34,39,35,32" concept="7" />
+      <node id="7578858899716023455" at="38,43,39,118" concept="6" />
+      <node id="7578858899716023455" at="39,118,40,48" concept="2" />
+      <node id="7578858899716023455" at="40,48,41,28" concept="2" />
+      <node id="7578858899716023455" at="41,28,42,31" concept="2" />
+      <node id="7578858899716023457" at="42,31,43,49" concept="2" />
+      <node id="7578858899716023455" at="43,49,44,22" concept="7" />
+      <node id="7578858899716023457" at="46,41,47,94" concept="6" />
+      <node id="7578858899716023457" at="47,94,48,47" concept="2" />
+      <node id="7578858899716023457" at="48,47,49,34" concept="6" />
+      <node id="7578858899716023457" at="49,34,50,55" concept="2" />
+      <node id="6950805964935160187" at="50,55,51,60" concept="2" />
+      <node id="6950805964935160188" at="51,60,52,99" concept="2" />
+      <node id="7578858899716023457" at="52,99,53,40" concept="2" />
+      <node id="7578858899716023457" at="53,40,54,34" concept="2" />
+      <node id="7578858899716023457" at="54,34,55,22" concept="7" />
+      <node id="7578858899716023455" at="20,0,22,0" concept="3" trace="myNode" />
+      <node id="7578858899716023455" at="34,0,37,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899716023455" at="23,0,27,0" concept="1" trace="HardWrap_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7578858899716023455" at="28,0,33,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7578858899716023455" at="38,0,46,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7578858899716023457" at="46,0,57,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7578858899716023455" at="30,26,31,18" />
+      <scope id="7578858899716023455" at="34,39,35,32" />
+      <scope id="7578858899716023455" at="23,88,25,18" />
+      <scope id="7578858899716023455" at="34,0,37,0" />
+      <scope id="7578858899716023455" at="23,0,27,0">
+        <var name="context" id="7578858899716023455" />
+        <var name="node" id="7578858899716023455" />
+      </scope>
+      <scope id="7578858899716023455" at="28,0,33,0" />
+      <scope id="7578858899716023455" at="38,43,44,22">
+        <var name="editorCell" id="7578858899716023455" />
+      </scope>
+      <scope id="7578858899716023455" at="38,0,46,0" />
+      <scope id="7578858899716023457" at="46,41,55,22">
+        <var name="editorCell" id="7578858899716023457" />
+        <var name="style" id="7578858899716023457" />
+      </scope>
+      <scope id="7578858899716023457" at="46,0,57,0" />
+      <unit id="7578858899716023455" at="19,0,58,0" name="com.dslfoundry.plaintextflow.editor.HardWrap_EditorBuilder_a" />
+    </file>
+  </root>
+</debug-info>
+

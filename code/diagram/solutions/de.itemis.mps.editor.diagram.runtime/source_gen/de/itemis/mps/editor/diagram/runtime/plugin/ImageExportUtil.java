@@ -124,7 +124,11 @@ public class ImageExportUtil {
 
       repository.getModelAccess().executeCommandInEDT(() -> {
         try {
-          SVGGenerator.generateImage((Graphics2D g) -> paintCell(g, cell), targetFile);
+          SVGGenerator.Builder svgGenBuilder = SVGGenerator.Builder.getBuilder();
+
+          // example of using referenced font to reduce file size of SVG
+
+          svgGenBuilder.build().renderToFile((Graphics2D g) -> paintCell(g, cell), targetFile);
         } catch (Exception ex) {
           if (LOG.isErrorLevel()) {
             LOG.error("Failed to generate image due to exception: " + ex.toString());

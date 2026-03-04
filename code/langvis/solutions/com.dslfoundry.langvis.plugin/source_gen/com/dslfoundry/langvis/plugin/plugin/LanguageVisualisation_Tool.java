@@ -21,7 +21,10 @@ import com.intellij.openapi.actionSystem.ActionPlaces;
 import javax.swing.JScrollPane;
 import java.io.File;
 import jetbrains.mps.baseLanguage.logging.rt.LogContext;
+import jetbrains.mps.project.MPSProject;
+import jetbrains.mps.ide.project.ProjectHelper;
 import java.io.IOException;
+import org.jetbrains.mps.openapi.module.SRepository;
 
 public class LanguageVisualisation_Tool extends GeneratedTool {
   private static final Icon ICON = IconContainer.ICON5;
@@ -107,13 +110,16 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
     }
 
     // Make plantuml file based on current elements
-    PlantUMLRenderer r = new PlantUMLRenderer(false, true);
-    try {
-      r.renderPlantUMLSource(LanguageVisualisation_Tool.this.contextElements, LanguageVisualisation_Tool.this.collectStructureDown.isSelected(), LanguageVisualisation_Tool.this.collectHierarchyUp.isSelected(), LanguageVisualisation_Tool.this.renderCardinalities.isSelected(), LanguageVisualisation_Tool.this.renderRoleNames.isSelected(), LanguageVisualisation_Tool.this.flattenNamespaces.isSelected(), LanguageVisualisation_Tool.this.pumlFilePath);
-    } catch (IOException e) {
-      e.printStackTrace();
-      LogContext.with(LanguageVisualisation_Tool.class, e, null, null).error("Visualizing language elements failed (rendering to PlantUML)");
-    }
+    final PlantUMLRenderer r = new PlantUMLRenderer(false, true);
+    MPSProject mpsProject = ProjectHelper.fromIdeaProject(LanguageVisualisation_Tool.this.ideaProject);
+    check_uw01zt_a5a5(mpsProject).getModelAccess().runReadAction(() -> {
+      try {
+        r.renderPlantUMLSource(LanguageVisualisation_Tool.this.contextElements, LanguageVisualisation_Tool.this.collectStructureDown.isSelected(), LanguageVisualisation_Tool.this.collectHierarchyUp.isSelected(), LanguageVisualisation_Tool.this.renderCardinalities.isSelected(), LanguageVisualisation_Tool.this.renderRoleNames.isSelected(), LanguageVisualisation_Tool.this.flattenNamespaces.isSelected(), LanguageVisualisation_Tool.this.pumlFilePath);
+      } catch (IOException e) {
+        e.printStackTrace();
+        LogContext.with(LanguageVisualisation_Tool.class, e, null, null).error("Visualizing language elements failed (rendering to PlantUML)");
+      }
+    });
 
     // Make PNG file from plantuml source
     String[] commandarray = {"java", "-jar", LanguageVisualisation_Tool.this.plantUmlJarPath, LanguageVisualisation_Tool.this.pumlFilePath};
@@ -130,5 +136,11 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
   }
   public JComponent getComponent() {
     return LanguageVisualisation_Tool.this.mainPanel;
+  }
+  private static SRepository check_uw01zt_a5a5(MPSProject checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getRepository();
+    }
+    return null;
   }
 }

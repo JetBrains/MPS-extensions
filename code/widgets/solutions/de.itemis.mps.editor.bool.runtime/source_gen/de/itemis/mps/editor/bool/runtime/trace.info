@@ -605,68 +605,104 @@
   </root>
   <root nodeRef="r:61f3a034-6f5c-43d5-a74f-5ddd196fba91(de.itemis.mps.editor.bool.runtime)/8742029641988441720">
     <file name="ImageLoading.java">
-      <node id="8742029641988441720" at="24,0,25,0" concept="11" trace="LOG" />
-      <node id="1444162138851220844" at="30,68,31,97" concept="8" />
-      <node id="1734777297616845740" at="35,27,36,18" concept="8" />
-      <node id="1520538761460417729" at="37,5,38,0" concept="10" />
-      <node id="1734777297616997111" at="38,0,39,92" concept="7" />
-      <node id="1734777297617089475" at="40,25,41,18" concept="8" />
-      <node id="1520538761460434045" at="42,5,43,0" concept="10" />
-      <node id="4061776605684122726" at="45,66,46,20" concept="8" />
-      <node id="1520538761459769791" at="47,7,48,100" concept="9" />
-      <node id="1520538761459773540" at="48,100,49,191" concept="9" />
-      <node id="1520538761460216024" at="49,191,50,92" concept="7" />
-      <node id="1520538761460310311" at="50,92,51,0" concept="10" />
-      <node id="1827140267377510976" at="51,0,52,66" concept="7" />
-      <node id="1827140267377136307" at="52,66,53,190" concept="2" />
-      <node id="1827140267377619354" at="54,38,55,71" concept="8" />
-      <node id="1520538761460435475" at="57,5,58,0" concept="10" />
-      <node id="1734777297617291613" at="58,0,59,68" concept="2" />
-      <node id="819036908911521196" at="59,68,60,82" concept="7" />
-      <node id="2320610800096064877" at="62,11,63,72" concept="8" />
-      <node id="819036908911583781" at="65,33,66,56" concept="2" />
-      <node id="2320610800096067612" at="69,5,70,16" concept="8" />
-      <node id="1444162138852031472" at="70,16,71,0" concept="10" />
-      <node id="1734777297616772910" at="34,120,37,5" concept="5" />
-      <node id="1734777297617022879" at="39,92,42,5" concept="5" />
-      <node id="4061776605684077847" at="44,52,47,7" concept="5" />
-      <node id="1827140267377600537" at="53,190,56,7" concept="5" />
-      <node id="819036908911583781" at="64,41,67,9" concept="5" />
-      <node id="2320610800096070848" at="29,0,33,0" concept="12" trace="loadImage#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/awt/Image;" />
-      <node id="819036908911540286" at="61,29,68,7" concept="14" />
-      <node id="2320610800096055018" at="60,82,69,5" concept="5" />
-      <node id="1827140267377308966" at="43,0,57,5" concept="5" />
-      <node id="1444162138851173464" at="34,0,73,0" concept="12" trace="loadImage#(Lorg/jetbrains/mps/openapi/module/SRepository;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/awt/Image;" />
-      <scope id="2320610800096055017" at="30,68,31,97" />
-      <scope id="1734777297616772912" at="35,27,36,18" />
-      <scope id="1734777297617022881" at="40,25,41,18" />
-      <scope id="4061776605684077849" at="45,66,46,20" />
-      <scope id="1827140267377600539" at="54,38,55,71" />
-      <scope id="819036908911540287" at="62,11,63,72" />
-      <scope id="819036908911583781" at="65,33,66,56" />
-      <scope id="819036908911540296" at="64,41,67,9" />
-      <scope id="2320610800096070848" at="29,0,33,0">
+      <node id="8742029641988441720" at="29,0,30,0" concept="11" trace="LOG" />
+      <node id="3116752018886458686" at="31,0,32,0" concept="11" trace="urlCache" />
+      <node id="1444162138851220844" at="38,68,39,97" concept="8" />
+      <node id="1734777297616845740" at="43,27,44,18" concept="8" />
+      <node id="1520538761460417729" at="45,5,46,0" concept="10" />
+      <node id="1734777297616997111" at="46,0,47,92" concept="7" />
+      <node id="1734777297617089475" at="48,25,49,18" concept="8" />
+      <node id="1520538761460434045" at="50,5,51,0" concept="10" />
+      <node id="4061776605684122726" at="53,66,54,20" concept="8" />
+      <node id="1520538761459769791" at="55,7,56,100" concept="9" />
+      <node id="1520538761459773540" at="56,100,57,191" concept="9" />
+      <node id="1520538761460216024" at="57,191,58,86" concept="7" />
+      <node id="1520538761460310311" at="58,86,59,0" concept="10" />
+      <node id="3116752018890907945" at="59,0,60,102" concept="9" />
+      <node id="3116752018890988723" at="60,102,61,88" concept="9" />
+      <node id="2027699625189891501" at="61,88,62,69" concept="9" />
+      <node id="2027699625188409269" at="62,69,63,63" concept="7" />
+      <node id="5415330308047394609" at="63,63,64,151" concept="7" />
+      <node id="1827140267377619354" at="65,32,66,65" concept="8" />
+      <node id="1520538761460435475" at="68,5,69,0" concept="10" />
+      <node id="1734777297617291613" at="69,0,70,68" concept="2" />
+      <node id="819036908911521196" at="70,68,71,82" concept="7" />
+      <node id="2320610800096064877" at="73,11,74,72" concept="8" />
+      <node id="819036908911583781" at="76,33,77,56" concept="2" />
+      <node id="2320610800096067612" at="80,5,81,16" concept="8" />
+      <node id="1444162138852031472" at="81,16,82,0" concept="10" />
+      <node id="3116752018887259626" at="88,114,89,60" concept="7" />
+      <node id="8718287387723670765" at="90,105,91,61" concept="7" />
+      <node id="8718287387723895816" at="92,45,93,86" concept="9" />
+      <node id="8718287387724367003" at="93,86,94,82" concept="9" />
+      <node id="8718287387723717520" at="94,82,95,96" concept="2" />
+      <node id="3116752018887730616" at="96,14,97,42" concept="2" />
+      <node id="3116752018887338087" at="99,7,100,21" concept="8" />
+      <node id="8718287387723811948" at="102,74,103,47" concept="8" />
+      <node id="8718287387723875707" at="96,12,98,7" concept="0" />
+      <node id="1734777297616772910" at="42,126,45,5" concept="5" />
+      <node id="1734777297617022879" at="47,92,50,5" concept="5" />
+      <node id="4061776605684077847" at="52,52,55,7" concept="5" />
+      <node id="1827140267377600537" at="64,151,67,7" concept="5" />
+      <node id="819036908911583781" at="75,41,78,9" concept="5" />
+      <node id="8718287387723811948" at="102,0,105,0" concept="12" trace="as_9386v4_a0a0c0b0b0a1a8#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="2320610800096070848" at="37,0,41,0" concept="12" trace="loadImage#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/awt/Image;" />
+      <node id="819036908911540286" at="72,29,79,7" concept="14" />
+      <node id="8718287387723693038" at="91,61,98,7" concept="5" />
+      <node id="2320610800096055018" at="71,82,80,5" concept="5" />
+      <node id="3116752018887376997" at="89,60,99,7" concept="2" />
+      <node id="2027699625188487504" at="88,0,102,0" concept="12" trace="retrieveURL#(Lorg/jetbrains/mps/openapi/module/SRepository;Lorg/jetbrains/mps/openapi/module/SModuleReference;Ljava/lang/String;)Ljava/net/URL;" />
+      <node id="1827140267377308966" at="51,0,68,5" concept="5" />
+      <node id="1444162138851173464" at="42,0,84,0" concept="12" trace="loadImage#(Lorg/jetbrains/mps/openapi/module/SRepository;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/awt/Image;" />
+      <scope id="2320610800096055017" at="38,68,39,97" />
+      <scope id="1734777297616772912" at="43,27,44,18" />
+      <scope id="1734777297617022881" at="48,25,49,18" />
+      <scope id="4061776605684077849" at="53,66,54,20" />
+      <scope id="1827140267377600539" at="65,32,66,65" />
+      <scope id="819036908911540287" at="73,11,74,72" />
+      <scope id="819036908911583781" at="76,33,77,56" />
+      <scope id="8718287387723875708" at="96,14,97,42" />
+      <scope id="8718287387723811948" at="102,74,103,47" />
+      <scope id="819036908911540296" at="75,41,78,9" />
+      <scope id="8718287387723693040" at="92,45,95,96" />
+      <scope id="8718287387723811948" at="102,0,105,0">
+        <var name="o" id="8718287387723811948" />
+        <var name="type" id="8718287387723811948" />
+      </scope>
+      <scope id="2320610800096070848" at="37,0,41,0">
         <var name="fileName" id="2320610800096055015" />
         <var name="sourceNode" id="1734777297616908284" />
       </scope>
-      <scope id="819036908911540293" at="64,7,68,7">
+      <scope id="819036908911540293" at="75,7,79,7">
         <var name="e" id="819036908911540297" />
       </scope>
-      <scope id="2320610800096055030" at="61,29,68,7" />
-      <scope id="1827140267377308968" at="44,52,56,7">
-        <var name="filePathInModule" id="1520538761460216025" />
-        <var name="resourceURL" id="1827140267377510977" />
+      <scope id="2320610800096055030" at="72,29,79,7" />
+      <scope id="3116752018887681446" at="90,105,98,7">
+        <var name="mcl" id="8718287387723670766" />
       </scope>
-      <scope id="1444162138851173465" at="34,120,71,0">
+      <scope id="3116752018887128809" at="88,114,100,21">
+        <var name="url" id="3116752018887259627" />
+      </scope>
+      <scope id="2027699625188487504" at="88,0,102,0">
+        <var name="moduleRef" id="3116752018887173290" />
+        <var name="path" id="3116752018887197257" />
+        <var name="repository" id="5415330308047940195" />
+      </scope>
+      <scope id="1827140267377308968" at="52,52,67,7">
+        <var name="filePathInModule" id="1520538761460216025" />
+        <var name="moduleRef" id="2027699625188409270" />
+        <var name="resourceURL" id="5415330308047394610" />
+      </scope>
+      <scope id="1444162138851173465" at="42,126,82,0">
         <var name="imageFile" id="819036908911521197" />
         <var name="module" id="1734777297616997112" />
       </scope>
-      <scope id="1444162138851173464" at="34,0,73,0">
+      <scope id="1444162138851173464" at="42,0,84,0">
         <var name="fileName" id="1444162138851173655" />
         <var name="repository" id="1444162138851183795" />
         <var name="sourceNode" id="1444162138851173659" />
       </scope>
-      <unit id="8742029641988441720" at="23,0,74,0" name="de.itemis.mps.editor.bool.runtime.ImageLoading" />
+      <unit id="8742029641988441720" at="28,0,106,0" name="de.itemis.mps.editor.bool.runtime.ImageLoading" />
     </file>
   </root>
   <root nodeRef="r:61f3a034-6f5c-43d5-a74f-5ddd196fba91(de.itemis.mps.editor.bool.runtime)/981761841405137655">

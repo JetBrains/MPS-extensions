@@ -359,15 +359,15 @@
         </node>
       </node>
       <node concept="39e2AG" id="m" role="39e3Y0">
-        <ref role="39e2AK" to="5u88:4GbnmmUd$ZZ" resolve="word_TextGen" />
+        <ref role="39e2AK" to="5u88:4GbnmmUd$ZZ" resolve="Word_TextGen" />
         <node concept="385nmt" id="z" role="385vvn">
-          <property role="385vuF" value="word_TextGen" />
+          <property role="385vuF" value="Word_TextGen" />
           <node concept="3u3nmq" id="_" role="385v07">
             <property role="3u3nmv" value="5407518469085614079" />
           </node>
         </node>
         <node concept="39e2AT" id="$" role="39e2AY">
-          <ref role="39e2AS" node="9N" resolve="word_TextGen" />
+          <ref role="39e2AS" node="9N" resolve="Word_TextGen" />
         </node>
       </node>
     </node>
@@ -459,7 +459,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="10" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <uo k="s:originTrace" v="n:5407518469085614933" />
               <node concept="3cmrfG" id="13" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -512,7 +512,7 @@
                       <uo k="s:originTrace" v="n:5407518469085614943" />
                     </node>
                     <node concept="liA8E" id="1l" role="2OqNvi">
-                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                       <uo k="s:originTrace" v="n:5407518469085614944" />
                       <node concept="37vLTw" id="1m" role="37wK5m">
                         <ref role="3cqZAo" node="17" resolve="i" />
@@ -702,7 +702,7 @@
                 <uo k="s:originTrace" v="n:5407518469085614952" />
               </node>
               <node concept="liA8E" id="2a" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
                 <uo k="s:originTrace" v="n:5407518469085614953" />
               </node>
             </node>
@@ -813,7 +813,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="2_" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <uo k="s:originTrace" v="n:5407518469085613450" />
               <node concept="3cmrfG" id="2C" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -866,7 +866,7 @@
                       <uo k="s:originTrace" v="n:5407518469085613460" />
                     </node>
                     <node concept="liA8E" id="2U" role="2OqNvi">
-                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                       <uo k="s:originTrace" v="n:5407518469085613461" />
                       <node concept="37vLTw" id="2V" role="37wK5m">
                         <ref role="3cqZAo" node="2G" resolve="i" />
@@ -1056,7 +1056,7 @@
                 <uo k="s:originTrace" v="n:5407518469085613469" />
               </node>
               <node concept="liA8E" id="3J" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
                 <uo k="s:originTrace" v="n:5407518469085613470" />
               </node>
             </node>
@@ -1212,14 +1212,14 @@
           </node>
           <node concept="3KbdKl" id="4m" role="3KbHQx">
             <node concept="1n$iZg" id="4I" role="3Kbmr1">
-              <property role="1n_iUB" value="word" />
+              <property role="1n_iUB" value="Word" />
               <property role="1n_ezw" value="com.dslfoundry.plaintextgen.structure.LanguageConceptSwitch" />
             </node>
             <node concept="3clFbS" id="4J" role="3Kbo56">
               <node concept="3cpWs6" id="4K" role="3cqZAp">
                 <node concept="2ShNRf" id="4L" role="3cqZAk">
                   <node concept="HV5vD" id="4M" role="2ShVmc">
-                    <ref role="HV5vE" node="9N" resolve="word_TextGen" />
+                    <ref role="HV5vE" node="9N" resolve="Word_TextGen" />
                   </node>
                 </node>
               </node>
@@ -1672,7 +1672,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="6Z" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <uo k="s:originTrace" v="n:5407518469085836247" />
               <node concept="3cmrfG" id="74" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -1725,7 +1725,7 @@
                       <uo k="s:originTrace" v="n:5343426723084628160" />
                     </node>
                     <node concept="liA8E" id="7m" role="2OqNvi">
-                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                       <uo k="s:originTrace" v="n:5407518469085836258" />
                       <node concept="37vLTw" id="7n" role="37wK5m">
                         <ref role="3cqZAo" node="78" resolve="i" />
@@ -1915,7 +1915,7 @@
                 <uo k="s:originTrace" v="n:5407518469085836265" />
               </node>
               <node concept="liA8E" id="8b" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
                 <uo k="s:originTrace" v="n:5407518469085836266" />
               </node>
             </node>
@@ -2026,7 +2026,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="8A" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <uo k="s:originTrace" v="n:5407518469085612618" />
               <node concept="3cmrfG" id="8D" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -2079,7 +2079,7 @@
                       <uo k="s:originTrace" v="n:5407518469085612628" />
                     </node>
                     <node concept="liA8E" id="8V" role="2OqNvi">
-                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                       <uo k="s:originTrace" v="n:5407518469085612629" />
                       <node concept="37vLTw" id="8W" role="37wK5m">
                         <ref role="3cqZAo" node="8H" resolve="i" />
@@ -2269,7 +2269,7 @@
                 <uo k="s:originTrace" v="n:5407518469085612637" />
               </node>
               <node concept="liA8E" id="9K" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
                 <uo k="s:originTrace" v="n:5407518469085612638" />
               </node>
             </node>
@@ -2304,7 +2304,7 @@
   </node>
   <node concept="312cEu" id="9N">
     <property role="1sVAO0" value="false" />
-    <property role="TrG5h" value="word_TextGen" />
+    <property role="TrG5h" value="Word_TextGen" />
     <property role="3GE5qa" value="horizontal" />
     <uo k="s:originTrace" v="n:5407518469085614079" />
     <node concept="3Tm1VV" id="9O" role="1B3o_S">
@@ -2380,7 +2380,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="ab" role="2OqNvi">
-              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+              <ref role="37wK5l" to="3rmn:4GbnmmUaMp0" resolve="getPosition" />
               <uo k="s:originTrace" v="n:5407518469085614101" />
               <node concept="3cmrfG" id="ae" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -2433,7 +2433,7 @@
                       <uo k="s:originTrace" v="n:5407518469085614111" />
                     </node>
                     <node concept="liA8E" id="aw" role="2OqNvi">
-                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="ToString" />
+                      <ref role="37wK5l" to="k44w:pWUoI9h3mw" resolve="rowToString" />
                       <uo k="s:originTrace" v="n:5407518469085614112" />
                       <node concept="37vLTw" id="ax" role="37wK5m">
                         <ref role="3cqZAo" node="ai" resolve="i" />
@@ -2623,7 +2623,7 @@
                 <uo k="s:originTrace" v="n:5407518469085614120" />
               </node>
               <node concept="liA8E" id="bl" role="2OqNvi">
-                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="LineCount" />
+                <ref role="37wK5l" to="k44w:pWUoI9hUVI" resolve="getLineCount" />
                 <uo k="s:originTrace" v="n:5407518469085614121" />
               </node>
             </node>

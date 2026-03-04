@@ -185,7 +185,7 @@ public class DiagramActionsUtil {
       if (wasMaximized) {
         graphComponent.setMaximizedMode(false);
       }
-      Editor editor = NavigationSupport.getInstance().openNode(project, target, true, true);
+      Editor editor = NavigationSupport.getInstance(project).openNode(project, target, true, true);
       if (editor != null && wasMaximized) {
         EditorCell selectedCell = editor.getEditorContext().getSelectedCell();
         RootDiagramECell rootDiagramCell = CellFinderUtil.findChildByConditionAndClass(selectedCell, (EditorCell c) -> true, RootDiagramECell.class, true, true);

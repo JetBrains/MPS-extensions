@@ -6,44 +6,168 @@ import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.awt.Graphics2D;
 import java.io.File;
 import java.io.IOException;
+import org.apache.batik.svggen.SVGGraphics2D;
+import org.w3c.dom.Element;
+import org.w3c.dom.DOMException;
 import org.w3c.dom.DOMImplementation;
 import org.apache.batik.dom.GenericDOMImplementation;
 import org.w3c.dom.Document;
+import org.apache.batik.util.SVGConstants;
 import org.apache.batik.svggen.SVGGeneratorContext;
 import org.apache.batik.svggen.GenericImageHandler;
 import org.apache.batik.svggen.CachedImageHandlerBase64Encoder;
-import org.apache.batik.svggen.SVGGraphics2D;
+import org.apache.batik.svggen.SVGGraphics2DIOException;
 import java.io.Writer;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.awt.Dimension;
+import org.w3c.dom.Node;
+import org.apache.batik.util.CSSConstants;
 
 public class SVGGenerator {
+  private final boolean textAsShapes;
+  private final boolean useCSS;
+  private final boolean escaped;
+  private final boolean setViewBox;
+  private final String svgStyleText;
 
+  public SVGGenerator(boolean textAsShapes, boolean useCSS, boolean setViewBox, boolean escapeChars, String svgStyleText) {
+    this.useCSS = useCSS;
+    this.textAsShapes = textAsShapes;
+    // Escapes chars above 0x7F using &#x0000;
+    this.escaped = escapeChars;
+    this.setViewBox = setViewBox;
+
+    this.svgStyleText = svgStyleText;
+  }
+
+  public void renderToFile(_FunctionTypes._void_P1_E0<? super Graphics2D> painter, File destination) throws IOException {
+    SVGGraphics2D g2D = createGraphics2D(textAsShapes);
+    // paint the image
+    painter.invoke(g2D);
+
+    // getRoot has to be called only once - see SVGGraphics2D.stream() method
+    Element root = g2D.getRoot();
+
+    // Set style if present
+    if ((svgStyleText != null && svgStyleText.length() > 0)) {
+      insertFirst(root, createStyleElement(g2D.getDOMFactory(), svgStyleText));
+    }
+
+    // ViewBox attribute allows HTML browsers to scale SVG when rendered as <object> using 'width' attribute
+    if (setViewBox) {
+      setViewBox(root, g2D.getSVGCanvasSize());
+    }
+
+    writeToFile(g2D, root, destination);
+  }
+
+  /**
+   * 
+   * @deprecated Use Builder to create SVGGenerator object and render. Builder.getBuilder().build().renderToFile(...)
+   */
+  @Deprecated
   public static void generateImage(_FunctionTypes._void_P1_E0<? super Graphics2D> painter, File destination) throws IOException {
+    SVGGenerator svgGenerator = Builder.getBuilder().build();
+    svgGenerator.renderToFile(painter, destination);
+  }
+
+  private static SVGGraphics2D createGraphics2D(boolean textAsShapes) throws DOMException {
     // Get a DOMImplementation.
     DOMImplementation domImpl = GenericDOMImplementation.getDOMImplementation();
     // Create an instance of org.w3c.dom.Document.
-    String svgNS = "http://www.w3.org/2000/svg";
-    Document document = domImpl.createDocument(svgNS, "svg", null);
+    Document document = domImpl.createDocument(SVGConstants.SVG_NAMESPACE_URI, SVGConstants.SVG_SVG_TAG, null);
 
     SVGGeneratorContext ctx = SVGGeneratorContext.createDefault(document);
-    ctx.setEmbeddedFontsOn(true);
+    ctx.setEmbeddedFontsOn(textAsShapes);
     GenericImageHandler ihandler = new CachedImageHandlerBase64Encoder();
     ctx.setGenericImageHandler(ihandler);
     // Create an instance of the SVG Generator.
-    SVGGraphics2D svgGenerator = new SVGGraphics2D(ctx, true);
-    // Ask the test to render into the SVG Graphics2D implementation.
-    painter.invoke(svgGenerator);
-    // Finally, stream out SVG to the standard output using
-    // UTF-8 encoding.
-    boolean useCSS = true;
-    // we want to use CSS style attributes
+    return new SVGGraphics2D(ctx, textAsShapes);
+  }
+
+  private void writeToFile(SVGGraphics2D svgGenerator, Element root, File destination) throws IOException, SVGGraphics2DIOException {
     Writer out = new BufferedWriter(new FileWriter(destination));
     try {
-      svgGenerator.stream(out, useCSS);
+      svgGenerator.stream(root, out, useCSS, escaped);
     } finally {
       out.close();
     }
   }
 
+  private static void setViewBox(Element svgElement, Dimension canvasSize) {
+    String width = String.valueOf(canvasSize.width);
+    String height = String.valueOf(canvasSize.height);
+    String viewBox = String.format("0 0 %s %s", width, height);
+
+    svgElement.setAttributeNS(null, SVGConstants.SVG_VIEW_BOX_ATTRIBUTE, viewBox);
+  }
+
+  private static void insertFirst(Element parent, Element styleElement) {
+    if (parent == null) {
+      return;
+    }
+
+    Node firstChild = parent.getFirstChild();
+    if (firstChild == null) {
+      parent.appendChild(styleElement);
+    } else {
+      parent.insertBefore(styleElement, firstChild);
+    }
+  }
+
+  private static Element createStyleElement(Document domFactory, String styleText) {
+    Element styleElement = domFactory.createElementNS(SVGConstants.SVG_NAMESPACE_URI, SVGConstants.SVG_STYLE_TAG);
+    styleElement.setAttributeNS(null, SVGConstants.SVG_TYPE_ATTRIBUTE, CSSConstants.CSS_MIME_TYPE);
+    styleElement.setTextContent(styleText);
+    return styleElement;
+  }
+
+  public static class Builder {
+    private final boolean textAsShapes;
+    private final boolean useCSS;
+    private final boolean escaped;
+    private final boolean setViewBox;
+    private final String svgStyle;
+
+    private Builder() {
+      this(true, true, false, false, null);
+    }
+
+    private Builder(boolean textAsShapes, boolean useCSS, boolean setViewBox, boolean escaped, String svgStyleText) {
+      this.textAsShapes = textAsShapes;
+      this.useCSS = useCSS;
+      this.escaped = escaped;
+      this.setViewBox = setViewBox;
+      this.svgStyle = svgStyleText;
+    }
+
+    public static Builder getBuilder() {
+      return new Builder();
+    }
+
+    public Builder withTextAsShapes(boolean textAsShapes) {
+      return new Builder(textAsShapes, this.useCSS, this.setViewBox, this.escaped, this.svgStyle);
+    }
+
+    public Builder withUseCSS(boolean useCSS) {
+      return new Builder(this.textAsShapes, useCSS, this.setViewBox, this.escaped, this.svgStyle);
+    }
+
+    public Builder withSetViewBox(boolean setViewBox) {
+      return new Builder(this.textAsShapes, this.useCSS, setViewBox, this.escaped, this.svgStyle);
+    }
+
+    public Builder withEscapedSpecialChars(boolean escapeChars) {
+      return new Builder(this.textAsShapes, this.useCSS, this.setViewBox, escapeChars, this.svgStyle);
+    }
+
+    public Builder withSvgStyle(String svgStyleText) {
+      return new Builder(this.textAsShapes, this.useCSS, this.setViewBox, this.escaped, svgStyleText);
+    }
+
+    public SVGGenerator build() {
+      return new SVGGenerator(textAsShapes, useCSS, setViewBox, escaped, svgStyle);
+    }
+  }
 }

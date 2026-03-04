@@ -75,7 +75,7 @@
     <property role="TrG5h" value="Line" />
     <property role="3GE5qa" value="horizontal" />
     <property role="34LRSv" value="&gt;" />
-    <property role="R4oN_" value="Horizontal Collection" />
+    <property role="R4oN_" value="a horizontal collection" />
     <property role="EcuMT" value="1145195647825954799" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Z$zlZaZkvM" role="1TKVEi">
@@ -97,10 +97,10 @@
     </node>
   </node>
   <node concept="1TIwiD" id="Z$zlZaZkvO">
-    <property role="TrG5h" value="word" />
+    <property role="TrG5h" value="Word" />
     <property role="3GE5qa" value="horizontal" />
     <property role="34LRSv" value="&quot;" />
-    <property role="R4oN_" value="Word" />
+    <property role="R4oN_" value="a single word" />
     <property role="EcuMT" value="1145195647825954804" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="Z$zlZaZkvP" role="PzmwI">
@@ -120,7 +120,7 @@
     <property role="TrG5h" value="SpaceIndentedText" />
     <property role="3GE5qa" value="vertical" />
     <property role="34LRSv" value="-" />
-    <property role="R4oN_" value="Indent Collection (spaces)" />
+    <property role="R4oN_" value="an indent collection (spaces)" />
     <property role="EcuMT" value="1145195647825954793" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4w$6EQbaM6c" role="1TKVEl">
@@ -136,7 +136,7 @@
     <property role="TrG5h" value="VerticalLines" />
     <property role="3GE5qa" value="vertical" />
     <property role="34LRSv" value="/" />
-    <property role="R4oN_" value="Vertical Collection" />
+    <property role="R4oN_" value="a vertical Collection" />
     <property role="EcuMT" value="1145195647826084325" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6gwxh6GbRe2" role="PzmwI">
@@ -188,6 +188,7 @@
     <property role="TrG5h" value="NewlineMarker" />
     <property role="3GE5qa" value="horizontal" />
     <property role="EcuMT" value="5082088080656902716" />
+    <property role="34LRSv" value="a new line marker" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="PlHQZ" id="6gwxh6GbQu8">
@@ -217,7 +218,7 @@
   <node concept="1TIwiD" id="2u5C0Bwy3V8">
     <property role="EcuMT" value="2847858303663881928" />
     <property role="3GE5qa" value="horizontal" />
-    <property role="TrG5h" value="tab" />
+    <property role="TrG5h" value="Tab" />
     <property role="34LRSv" value="---&gt;" />
     <property role="R4oN_" value="a literal tab character" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />

@@ -19,6 +19,11 @@ import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
+import org.jetbrains.mps.openapi.language.SProperty;
+import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import de.itemis.mps.editor.bool.runtime.CheckboxCellProvider;
+import de.itemis.mps.editor.bool.runtime.EditorCell_Checkbox;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 /*package*/ class AreEqualExpression_InspectorBuilder_a extends AbstractEditorBuilder {
@@ -45,9 +50,11 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     editorCell.setCellId("Collection_mpqtoq_0");
     editorCell.setBig(true);
     setCellContext(editorCell);
+    editorCell.setGridLayout(true);
     editorCell.addEditorCell(createCollection_1());
     editorCell.addEditorCell(createCollection_2());
     editorCell.addEditorCell(createCollection_3());
+    editorCell.addEditorCell(createCollection_4());
     return editorCell;
   }
   private EditorCell createCollection_1() {
@@ -254,10 +261,62 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
       return "<no ignoredReferences>";
     }
   }
+  private EditorCell createCollection_4() {
+    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
+    editorCell.setCellId("Collection_mpqtoq_4");
+    editorCell.addEditorCell(createCollection_5());
+    editorCell.addEditorCell(createConstant_4());
+    return editorCell;
+  }
+  private EditorCell createCollection_5() {
+    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
+    editorCell.setCellId("Collection_mpqtoq_5");
+    editorCell.addEditorCell(createIndentCell_0());
+    editorCell.addEditorCell(createCheckbox_1());
+    editorCell.addEditorCell(createConstant_3());
+    return editorCell;
+  }
+  private EditorCell createIndentCell_0() {
+    EditorCell_Indent editorCell = new EditorCell_Indent(getEditorContext(), myNode);
+    return editorCell;
+  }
+  private EditorCell createCheckbox_0(EditorContext editorContext, SNode node) {
+    SProperty property = PROPS.ignoreAnnotations$4TBE;
+    CellProviderWithRole provider = new CheckboxCellProvider(node, property, editorContext);
+    provider.setNoTargetText("<no ignoreAnnotations>");
+    EditorCell_Checkbox editorCell;
+    editorCell = ((EditorCell_Checkbox) provider.createEditorCell(editorContext));
+    editorCell.setCellId("property_ignoreAnnotations");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    if (attributeConcept != null) {
+      return getUpdateSession().updateAttributeCell(provider.getRoleAttributeKind(), editorCell, attributeConcept);
+    } else
+    return editorCell;
+  }
+  private EditorCell createCheckbox_1() {
+    return createCheckbox_0(getEditorContext(), myNode);
+  }
+  private EditorCell createConstant_3() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "ignore annotations");
+    editorCell.setCellId("Constant_mpqtoq_3");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_4() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
+    editorCell.setCellId("Constant_mpqtoq_4");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink ignoredProperties$zMTG = MetaAdapterFactory.getContainmentLink(0xf47b95d45e734c04L, 0x920418076950153bL, 0x1969f1745a5f127eL, 0x1969f1745a5f1293L, "ignoredProperties");
     /*package*/ static final SContainmentLink ignoredChildren$ds8l = MetaAdapterFactory.getContainmentLink(0xf47b95d45e734c04L, 0x920418076950153bL, 0x1969f1745a5f127eL, 0x4a2f2e85c18542fL, "ignoredChildren");
     /*package*/ static final SContainmentLink ignoredReferences$ayx_ = MetaAdapterFactory.getContainmentLink(0xf47b95d45e734c04L, 0x920418076950153bL, 0x1969f1745a5f127eL, 0x36b54ed77e90a57fL, "ignoredReferences");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty ignoreAnnotations$4TBE = MetaAdapterFactory.getProperty(0xf47b95d45e734c04L, 0x920418076950153bL, 0x1969f1745a5f127eL, 0x2a01b658d4451754L, "ignoreAnnotations");
   }
 }

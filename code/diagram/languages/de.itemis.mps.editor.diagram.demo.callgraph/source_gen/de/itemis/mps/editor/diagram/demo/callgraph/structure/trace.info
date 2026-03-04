@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,30,0" name="de.itemis.mps.editor.diagram.demo.callgraph.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,28,0" name="de.itemis.mps.editor.diagram.demo.callgraph.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="14,0,59,0" name="de.itemis.mps.editor.diagram.demo.callgraph.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:df7376ee-3f0c-4164-a1ba-eb712d3e9944(de.itemis.mps.editor.diagram.demo.callgraph.structure)/6554619383009423700">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6554619383009423700" at="12,0,13,0" concept="1" trace="props_CallGraphAnnotation" />
+      <node id="6554619383009423700" at="20,48,21,76" concept="3" />
+      <node id="6554619383009423700" at="21,76,22,53" concept="0" />
+      <node id="6554619383009423700" at="22,53,23,51" concept="0" />
+      <node id="6554619383009423700" at="24,9,25,41" concept="4" />
+      <node id="6554619383009423700" at="19,53,24,9" concept="2" />
+      <scope id="6554619383009423700" at="20,48,23,51">
+        <var name="cpb" id="6554619383009423700" />
+      </scope>
+      <scope id="6554619383009423700" at="19,53,25,41" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6554619383009423700" at="12,0,13,0" concept="6" trace="CallGraphAnnotation" />
+      <node id="6554619383009423700" at="15,116,16,58" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6554619383009423700" at="15,0,16,0" concept="1" trace="myConceptCallGraphAnnotation" />
+      <node id="6554619383009423700" at="37,53,38,44" concept="4" />
+      <node id="6554619383009423700" at="49,77,50,197" concept="3" />
+      <node id="6554619383009423700" at="50,197,51,34" concept="0" />
+      <node id="6554619383009423700" at="51,34,52,63" concept="5" />
+      <node id="6554619383009423700" at="52,63,53,76" concept="0" />
+      <node id="6554619383009423700" at="53,76,54,130" concept="0" />
+      <node id="6554619383009423700" at="54,130,55,17" concept="0" />
+      <node id="6554619383009423700" at="55,17,56,22" concept="4" />
+      <node id="6554619383009423700" at="49,0,58,0" concept="7" trace="createDescriptorForCallGraphAnnotation#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6554619383009423700" at="37,53,38,44" />
+      <scope id="6554619383009423700" at="49,77,56,22">
+        <var name="b" id="6554619383009423700" />
+      </scope>
+      <scope id="6554619383009423700" at="49,0,58,0" />
+    </file>
+  </root>
+</debug-info>
+

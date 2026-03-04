@@ -35,7 +35,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return "\n";
   }
   public static Object propertyMacro_GetValue_0_1(final PropertyMacroContext _context) {
-    return String.format("\n%s", IFlowElement__BehaviorDescriptor.ancestorPrefix_id6$Hx0f8lz7R.invoke(_context.getNode()));
+    return String.format("\n%s", IFlowElement__BehaviorDescriptor.getAncestorPrefix_id6$Hx0f8lz7R.invoke(_context.getNode()));
   }
   public static Object propertyMacro_GetValue_0_2(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), PROPS.text$Lojm);

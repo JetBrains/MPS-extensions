@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="8,0,13,0" name="de.itemis.model.merge.test.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/1846227925975532108">
+    <file name="Data_mergepolicy_Data_2yqktb_d.java">
+      <node id="1846227925975534232" at="22,43,23,240" concept="10" />
+      <node id="1846227925978774011" at="27,42,28,18" concept="6" />
+      <node id="1846227925975534232" at="32,32,33,30" concept="6" />
+      <node id="1846227925975534232" at="37,0,38,0" concept="8" trace="Data$P9" />
+      <node id="1846227925975534232" at="41,0,42,0" concept="8" trace="data$GFGu" />
+      <node id="1846227925975534232" at="45,0,46,0" concept="8" trace="myDate$skCl" />
+      <node id="1846227925975534232" at="46,0,47,0" concept="8" trace="other$Cniy" />
+      <node id="1846227925975534232" at="22,0,25,0" concept="1" trace="Data_mergepolicy_Data_2yqktb_d#()V" />
+      <node id="1846227925975534232" at="27,0,30,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1846227925975534232" at="31,0,35,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="1846227925975534232" at="22,43,23,240" />
+      <scope id="1846227925975534232" at="27,42,28,18" />
+      <scope id="1846227925975534232" at="32,32,33,30" />
+      <scope id="1846227925975534232" at="22,0,25,0" />
+      <scope id="1846227925975534232" at="27,0,30,0">
+        <var name="instance" id="1846227925975534232" />
+      </scope>
+      <scope id="1846227925975534232" at="31,0,35,0">
+        <var name="node" id="1846227925975534232" />
+      </scope>
+      <unit id="1846227925975534232" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_2yqktb_d$CONCEPTS" />
+      <unit id="1846227925975534232" at="40,0,43,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_2yqktb_d$PROPS" />
+      <unit id="1846227925975534232" at="44,0,48,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_2yqktb_d$LINKS" />
+      <unit id="1846227925975534232" at="20,0,49,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_2yqktb_d" />
+    </file>
+    <file name="RefLeftOptionalMerge.java">
+      <node id="1846227925975532108" at="16,22,17,54" concept="6" />
+      <node id="1846227925975532108" at="20,59,21,81" concept="6" />
+      <node id="1846227925975532108" at="12,0,14,0" concept="1" trace="RefLeftOptionalMerge#()V" />
+      <node id="1846227925975532108" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="1846227925975532108" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="1846227925975532108" at="12,33,12,33" />
+      <scope id="1846227925975532108" at="16,22,17,54" />
+      <scope id="1846227925975532108" at="20,59,21,81" />
+      <scope id="1846227925975532108" at="12,0,14,0" />
+      <scope id="1846227925975532108" at="15,0,19,0" />
+      <scope id="1846227925975532108" at="19,0,23,0" />
+      <unit id="1846227925975532108" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.RefLeftOptionalMerge" />
+    </file>
+    <file name="RefLeftOptionalMerge_extension.java">
+      <node id="1846227925975532108" at="9,43,10,49" concept="10" />
+      <node id="1846227925975532108" at="14,32,15,38" concept="6" />
+      <node id="1846227925975532108" at="9,0,12,0" concept="1" trace="RefLeftOptionalMerge_extension#()V" />
+      <node id="1846227925975532108" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="1846227925975532108" at="9,43,10,49" />
+      <scope id="1846227925975532108" at="14,32,15,38" />
+      <scope id="1846227925975532108" at="9,0,12,0" />
+      <scope id="1846227925975532108" at="14,0,17,0" />
+      <unit id="1846227925975532108" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.RefLeftOptionalMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/3029006951160984536">
+    <file name="ManualPropertyDiamondMerge.java">
+      <node id="3029006951160984536" at="16,22,17,60" concept="6" />
+      <node id="3029006951160984536" at="20,59,21,87" concept="6" />
+      <node id="3029006951160984536" at="12,0,14,0" concept="1" trace="ManualPropertyDiamondMerge#()V" />
+      <node id="3029006951160984536" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="3029006951160984536" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="3029006951160984536" at="12,39,12,39" />
+      <scope id="3029006951160984536" at="16,22,17,60" />
+      <scope id="3029006951160984536" at="20,59,21,87" />
+      <scope id="3029006951160984536" at="12,0,14,0" />
+      <scope id="3029006951160984536" at="15,0,19,0" />
+      <scope id="3029006951160984536" at="19,0,23,0" />
+      <unit id="3029006951160984536" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.ManualPropertyDiamondMerge" />
+    </file>
+    <file name="ManualPropertyDiamondMerge_extension.java">
+      <node id="3029006951160984536" at="9,49,10,49" concept="10" />
+      <node id="3029006951160984536" at="14,32,15,44" concept="6" />
+      <node id="3029006951160984536" at="9,0,12,0" concept="1" trace="ManualPropertyDiamondMerge_extension#()V" />
+      <node id="3029006951160984536" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="3029006951160984536" at="9,49,10,49" />
+      <scope id="3029006951160984536" at="14,32,15,44" />
+      <scope id="3029006951160984536" at="9,0,12,0" />
+      <scope id="3029006951160984536" at="14,0,17,0" />
+      <unit id="3029006951160984536" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.ManualPropertyDiamondMerge_extension" />
+    </file>
+    <file name="Payload_mergepolicy_Payload_y72vz3_c.java">
+      <node id="3029006951161039326" at="22,35,23,31" concept="6" />
+      <node id="3029006951161040766" at="27,52,28,52" concept="5" />
+      <node id="3029006951161054946" at="28,52,29,127" concept="2" />
+      <node id="3029006951161054587" at="29,127,30,68" concept="6" />
+      <node id="3029006951161208162" at="36,42,37,39" concept="6" />
+      <node id="3029006951161036091" at="41,32,42,30" concept="6" />
+      <node id="3029006951161036091" at="46,0,47,0" concept="8" trace="Payload$$c" />
+      <node id="3029006951161036091" at="50,0,51,0" concept="8" trace="data$fQWJ" />
+      <node id="3029006951161036091" at="36,0,39,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3029006951161039326" at="21,0,25,0" concept="4" trace="property#()Lorg/jetbrains/mps/openapi/language/SProperty;" />
+      <node id="3029006951161036091" at="40,0,44,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3029006951161039326" at="26,0,32,0" concept="4" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="3029006951161036091" at="19,49,32,80" concept="10" />
+      <node id="3029006951161036091" at="19,0,34,0" concept="1" trace="Payload_mergepolicy_Payload_y72vz3_c#()V" />
+      <scope id="3029006951161039326" at="22,35,23,31" />
+      <scope id="3029006951161036091" at="36,42,37,39" />
+      <scope id="3029006951161036091" at="41,32,42,30" />
+      <scope id="3029006951161039326" at="27,52,30,68">
+        <var name="copy" id="3029006951161040767" />
+      </scope>
+      <scope id="3029006951161036091" at="36,0,39,0">
+        <var name="instance" id="3029006951161036091" />
+      </scope>
+      <scope id="3029006951161039326" at="21,0,25,0" />
+      <scope id="3029006951161036091" at="40,0,44,0">
+        <var name="node" id="3029006951161036091" />
+      </scope>
+      <scope id="3029006951161039326" at="26,0,32,0">
+        <var name="left" id="3029006951161039326" />
+        <var name="right" id="3029006951161039326" />
+      </scope>
+      <scope id="3029006951161036091" at="19,49,32,80" />
+      <scope id="3029006951161036091" at="19,0,34,0" />
+      <unit id="3029006951161036091" at="45,0,48,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_y72vz3_c$CONCEPTS" />
+      <unit id="3029006951161036091" at="49,0,52,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_y72vz3_c$PROPS" />
+      <unit id="3029006951161039326" at="20,65,32,5" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_y72vz3_c$1" />
+      <unit id="3029006951161036091" at="17,0,53,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_y72vz3_c" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/3029006951167326835">
+    <file name="LeftPropertyDiamondMerge.java">
+      <node id="3029006951167326835" at="16,22,17,58" concept="6" />
+      <node id="3029006951167326835" at="20,59,21,87" concept="6" />
+      <node id="3029006951167326835" at="12,0,14,0" concept="1" trace="LeftPropertyDiamondMerge#()V" />
+      <node id="3029006951167326835" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="3029006951167326835" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="3029006951167326835" at="12,37,12,37" />
+      <scope id="3029006951167326835" at="16,22,17,58" />
+      <scope id="3029006951167326835" at="20,59,21,87" />
+      <scope id="3029006951167326835" at="12,0,14,0" />
+      <scope id="3029006951167326835" at="15,0,19,0" />
+      <scope id="3029006951167326835" at="19,0,23,0" />
+      <unit id="3029006951167326835" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.LeftPropertyDiamondMerge" />
+    </file>
+    <file name="LeftPropertyDiamondMerge_extension.java">
+      <node id="3029006951167326835" at="9,47,10,49" concept="10" />
+      <node id="3029006951167326835" at="14,32,15,42" concept="6" />
+      <node id="3029006951167326835" at="9,0,12,0" concept="1" trace="LeftPropertyDiamondMerge_extension#()V" />
+      <node id="3029006951167326835" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="3029006951167326835" at="9,47,10,49" />
+      <scope id="3029006951167326835" at="14,32,15,42" />
+      <scope id="3029006951167326835" at="9,0,12,0" />
+      <scope id="3029006951167326835" at="14,0,17,0" />
+      <unit id="3029006951167326835" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.LeftPropertyDiamondMerge_extension" />
+    </file>
+    <file name="Payload_mergepolicy_Payload_8b7pkw_c.java">
+      <node id="3029006951167326838" at="18,49,19,168" concept="10" />
+      <node id="3029006951167326841" at="23,42,24,39" concept="6" />
+      <node id="3029006951167326838" at="28,32,29,30" concept="6" />
+      <node id="3029006951167326838" at="33,0,34,0" concept="8" trace="Payload$$c" />
+      <node id="3029006951167326838" at="37,0,38,0" concept="8" trace="data$fQWJ" />
+      <node id="3029006951167326838" at="18,0,21,0" concept="1" trace="Payload_mergepolicy_Payload_8b7pkw_c#()V" />
+      <node id="3029006951167326838" at="23,0,26,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3029006951167326838" at="27,0,31,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="3029006951167326838" at="18,49,19,168" />
+      <scope id="3029006951167326838" at="23,42,24,39" />
+      <scope id="3029006951167326838" at="28,32,29,30" />
+      <scope id="3029006951167326838" at="18,0,21,0" />
+      <scope id="3029006951167326838" at="23,0,26,0">
+        <var name="instance" id="3029006951167326838" />
+      </scope>
+      <scope id="3029006951167326838" at="27,0,31,0">
+        <var name="node" id="3029006951167326838" />
+      </scope>
+      <unit id="3029006951167326838" at="32,0,35,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_8b7pkw_c$CONCEPTS" />
+      <unit id="3029006951167326838" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_8b7pkw_c$PROPS" />
+      <unit id="3029006951167326838" at="16,0,40,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_8b7pkw_c" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/3029006951169088310">
+    <file name="Payload_mergepolicy_Payload_qrv3ze_c.java">
+      <node id="3029006951169088313" at="18,49,19,169" concept="10" />
+      <node id="3029006951169088316" at="23,42,24,39" concept="6" />
+      <node id="3029006951169088313" at="28,32,29,30" concept="6" />
+      <node id="3029006951169088313" at="33,0,34,0" concept="8" trace="Payload$$c" />
+      <node id="3029006951169088313" at="37,0,38,0" concept="8" trace="data$fQWJ" />
+      <node id="3029006951169088313" at="18,0,21,0" concept="1" trace="Payload_mergepolicy_Payload_qrv3ze_c#()V" />
+      <node id="3029006951169088313" at="23,0,26,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3029006951169088313" at="27,0,31,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="3029006951169088313" at="18,49,19,169" />
+      <scope id="3029006951169088313" at="23,42,24,39" />
+      <scope id="3029006951169088313" at="28,32,29,30" />
+      <scope id="3029006951169088313" at="18,0,21,0" />
+      <scope id="3029006951169088313" at="23,0,26,0">
+        <var name="instance" id="3029006951169088313" />
+      </scope>
+      <scope id="3029006951169088313" at="27,0,31,0">
+        <var name="node" id="3029006951169088313" />
+      </scope>
+      <unit id="3029006951169088313" at="32,0,35,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_qrv3ze_c$CONCEPTS" />
+      <unit id="3029006951169088313" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_qrv3ze_c$PROPS" />
+      <unit id="3029006951169088313" at="16,0,40,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_qrv3ze_c" />
+    </file>
+    <file name="RightPropertyDiamondMerge.java">
+      <node id="3029006951169088310" at="16,22,17,59" concept="6" />
+      <node id="3029006951169088310" at="20,59,21,87" concept="6" />
+      <node id="3029006951169088310" at="12,0,14,0" concept="1" trace="RightPropertyDiamondMerge#()V" />
+      <node id="3029006951169088310" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="3029006951169088310" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="3029006951169088310" at="12,38,12,38" />
+      <scope id="3029006951169088310" at="16,22,17,59" />
+      <scope id="3029006951169088310" at="20,59,21,87" />
+      <scope id="3029006951169088310" at="12,0,14,0" />
+      <scope id="3029006951169088310" at="15,0,19,0" />
+      <scope id="3029006951169088310" at="19,0,23,0" />
+      <unit id="3029006951169088310" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.RightPropertyDiamondMerge" />
+    </file>
+    <file name="RightPropertyDiamondMerge_extension.java">
+      <node id="3029006951169088310" at="9,48,10,49" concept="10" />
+      <node id="3029006951169088310" at="14,32,15,43" concept="6" />
+      <node id="3029006951169088310" at="9,0,12,0" concept="1" trace="RightPropertyDiamondMerge_extension#()V" />
+      <node id="3029006951169088310" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="3029006951169088310" at="9,48,10,49" />
+      <scope id="3029006951169088310" at="14,32,15,43" />
+      <scope id="3029006951169088310" at="9,0,12,0" />
+      <scope id="3029006951169088310" at="14,0,17,0" />
+      <unit id="3029006951169088310" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.RightPropertyDiamondMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/3149713039105731378">
+    <file name="ModelmergerTestLangPolicy.java">
+      <node id="3149713039105731378" at="16,22,17,59" concept="6" />
+      <node id="3149713039105731378" at="20,59,21,283" concept="6" />
+      <node id="3149713039105731378" at="12,0,14,0" concept="1" trace="ModelmergerTestLangPolicy#()V" />
+      <node id="3149713039105731378" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="3149713039105731378" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="3149713039105731378" at="12,38,12,38" />
+      <scope id="3149713039105731378" at="16,22,17,59" />
+      <scope id="3149713039105731378" at="20,59,21,283" />
+      <scope id="3149713039105731378" at="12,0,14,0" />
+      <scope id="3149713039105731378" at="15,0,19,0" />
+      <scope id="3149713039105731378" at="19,0,23,0" />
+      <unit id="3149713039105731378" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.ModelmergerTestLangPolicy" />
+    </file>
+    <file name="ModelmergerTestLangPolicy_extension.java">
+      <node id="3149713039105731378" at="9,48,10,49" concept="10" />
+      <node id="3149713039105731378" at="14,32,15,43" concept="6" />
+      <node id="3149713039105731378" at="9,0,12,0" concept="1" trace="ModelmergerTestLangPolicy_extension#()V" />
+      <node id="3149713039105731378" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="3149713039105731378" at="9,48,10,49" />
+      <scope id="3149713039105731378" at="14,32,15,43" />
+      <scope id="3149713039105731378" at="9,0,12,0" />
+      <scope id="3149713039105731378" at="14,0,17,0" />
+      <unit id="3149713039105731378" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.ModelmergerTestLangPolicy_extension" />
+    </file>
+    <file name="tComponent_mergepolicy_tComponent_gzbq96_b.java">
+      <node id="3149713039105731400" at="30,41,31,72" concept="6" />
+      <node id="3149713039105731390" at="37,42,38,67" concept="6" />
+      <node id="3149713039105731393" at="42,32,43,30" concept="6" />
+      <node id="3149713039105731393" at="47,0,48,0" concept="8" trace="tComponent$gm" />
+      <node id="3149713039105731393" at="51,0,52,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="3149713039105731393" at="52,0,53,0" concept="8" trace="name$67O" />
+      <node id="3149713039105731393" at="53,0,54,0" concept="8" trace="name$MnvL" />
+      <node id="3149713039105731393" at="57,0,58,0" concept="8" trace="subComponents$6_Q" />
+      <node id="3149713039105731393" at="58,0,59,0" concept="8" trace="inPort$e6m" />
+      <node id="3149713039105731393" at="59,0,60,0" concept="8" trace="outPort$eNp" />
+      <node id="3149713039105731393" at="37,0,40,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731402" at="29,0,33,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731393" at="41,0,45,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731393" at="27,55,33,119" concept="10" />
+      <node id="3149713039105731393" at="27,0,35,0" concept="1" trace="tComponent_mergepolicy_tComponent_gzbq96_b#()V" />
+      <scope id="3149713039105731402" at="30,41,31,72" />
+      <scope id="3149713039105731393" at="37,42,38,67" />
+      <scope id="3149713039105731393" at="42,32,43,30" />
+      <scope id="3149713039105731393" at="37,0,40,0">
+        <var name="instance" id="3149713039105731393" />
+      </scope>
+      <scope id="3149713039105731402" at="29,0,33,0">
+        <var name="instance" id="3149713039105731402" />
+      </scope>
+      <scope id="3149713039105731393" at="41,0,45,0">
+        <var name="node" id="3149713039105731393" />
+      </scope>
+      <scope id="3149713039105731393" at="27,55,33,119" />
+      <scope id="3149713039105731393" at="27,0,35,0" />
+      <unit id="3149713039105731393" at="46,0,49,0" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_gzbq96_b$CONCEPTS" />
+      <unit id="3149713039105731402" at="28,314,33,5" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_gzbq96_b$1" />
+      <unit id="3149713039105731393" at="50,0,55,0" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_gzbq96_b$PROPS" />
+      <unit id="3149713039105731393" at="56,0,61,0" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_gzbq96_b$LINKS" />
+      <unit id="3149713039105731393" at="25,0,62,0" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_gzbq96_b" />
+    </file>
+    <file name="tInPort_mergepolicy_tInPort_gzbq96_f.java">
+      <node id="3149713039105764775" at="22,35,23,31" concept="6" />
+      <node id="3149713039107652652" at="27,52,28,126" concept="6" />
+      <node id="3149713039105731410" at="34,42,35,68" concept="6" />
+      <node id="3149713039105731413" at="39,32,40,30" concept="6" />
+      <node id="3149713039105731413" at="44,0,45,0" concept="8" trace="tInPort$iL" />
+      <node id="3149713039105731413" at="48,0,49,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="3149713039105731413" at="49,0,50,0" concept="8" trace="name$MnvL" />
+      <node id="3149713039105731413" at="50,0,51,0" concept="8" trace="value$cIF" />
+      <node id="3149713039105731413" at="34,0,37,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105764775" at="21,0,25,0" concept="4" trace="property#()Lorg/jetbrains/mps/openapi/language/SProperty;" />
+      <node id="3149713039105764775" at="26,0,30,0" concept="4" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="3149713039105731413" at="38,0,42,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731413" at="19,49,30,80" concept="10" />
+      <node id="3149713039105731413" at="19,0,32,0" concept="1" trace="tInPort_mergepolicy_tInPort_gzbq96_f#()V" />
+      <scope id="3149713039105764775" at="22,35,23,31" />
+      <scope id="3149713039105764775" at="27,52,28,126" />
+      <scope id="3149713039105731413" at="34,42,35,68" />
+      <scope id="3149713039105731413" at="39,32,40,30" />
+      <scope id="3149713039105731413" at="34,0,37,0">
+        <var name="instance" id="3149713039105731413" />
+      </scope>
+      <scope id="3149713039105764775" at="21,0,25,0" />
+      <scope id="3149713039105764775" at="26,0,30,0">
+        <var name="left" id="3149713039105764775" />
+        <var name="right" id="3149713039105764775" />
+      </scope>
+      <scope id="3149713039105731413" at="38,0,42,0">
+        <var name="node" id="3149713039105731413" />
+      </scope>
+      <scope id="3149713039105731413" at="19,49,30,80" />
+      <scope id="3149713039105731413" at="19,0,32,0" />
+      <unit id="3149713039105731413" at="43,0,46,0" name="de.itemis.model.merge.test.plugin.tInPort_mergepolicy_tInPort_gzbq96_f$CONCEPTS" />
+      <unit id="3149713039105731413" at="47,0,52,0" name="de.itemis.model.merge.test.plugin.tInPort_mergepolicy_tInPort_gzbq96_f$PROPS" />
+      <unit id="3149713039105764775" at="20,143,30,5" name="de.itemis.model.merge.test.plugin.tInPort_mergepolicy_tInPort_gzbq96_f$1" />
+      <unit id="3149713039105731413" at="17,0,53,0" name="de.itemis.model.merge.test.plugin.tInPort_mergepolicy_tInPort_gzbq96_f" />
+    </file>
+    <file name="tOutPort_mergepolicy_tOutPort_gzbq96_c.java">
+      <node id="3149713039105764791" at="22,35,23,31" concept="6" />
+      <node id="3149713039107661346" at="27,52,28,126" concept="6" />
+      <node id="3149713039105731395" at="34,42,35,68" concept="6" />
+      <node id="3149713039105731398" at="39,32,40,30" concept="6" />
+      <node id="3149713039105731398" at="44,0,45,0" concept="8" trace="tOutPort$vQ" />
+      <node id="3149713039105731398" at="48,0,49,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="3149713039105731398" at="49,0,50,0" concept="8" trace="name$MnvL" />
+      <node id="3149713039105731398" at="50,0,51,0" concept="8" trace="value$e6P" />
+      <node id="3149713039105731398" at="34,0,37,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105764791" at="21,0,25,0" concept="4" trace="property#()Lorg/jetbrains/mps/openapi/language/SProperty;" />
+      <node id="3149713039105764791" at="26,0,30,0" concept="4" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="3149713039105731398" at="38,0,42,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731398" at="19,51,30,80" concept="10" />
+      <node id="3149713039105731398" at="19,0,32,0" concept="1" trace="tOutPort_mergepolicy_tOutPort_gzbq96_c#()V" />
+      <scope id="3149713039105764791" at="22,35,23,31" />
+      <scope id="3149713039105764791" at="27,52,28,126" />
+      <scope id="3149713039105731398" at="34,42,35,68" />
+      <scope id="3149713039105731398" at="39,32,40,30" />
+      <scope id="3149713039105731398" at="34,0,37,0">
+        <var name="instance" id="3149713039105731398" />
+      </scope>
+      <scope id="3149713039105764791" at="21,0,25,0" />
+      <scope id="3149713039105764791" at="26,0,30,0">
+        <var name="left" id="3149713039105764791" />
+        <var name="right" id="3149713039105764791" />
+      </scope>
+      <scope id="3149713039105731398" at="38,0,42,0">
+        <var name="node" id="3149713039105731398" />
+      </scope>
+      <scope id="3149713039105731398" at="19,51,30,80" />
+      <scope id="3149713039105731398" at="19,0,32,0" />
+      <unit id="3149713039105731398" at="43,0,46,0" name="de.itemis.model.merge.test.plugin.tOutPort_mergepolicy_tOutPort_gzbq96_c$CONCEPTS" />
+      <unit id="3149713039105731398" at="47,0,52,0" name="de.itemis.model.merge.test.plugin.tOutPort_mergepolicy_tOutPort_gzbq96_c$PROPS" />
+      <unit id="3149713039105764791" at="20,144,30,5" name="de.itemis.model.merge.test.plugin.tOutPort_mergepolicy_tOutPort_gzbq96_c$1" />
+      <unit id="3149713039105731398" at="17,0,53,0" name="de.itemis.model.merge.test.plugin.tOutPort_mergepolicy_tOutPort_gzbq96_c" />
+    </file>
+    <file name="tSubComponent_mergepolicy_tSubComponent_gzbq96_d.java">
+      <node id="3149713039105731403" at="22,61,23,296" concept="10" />
+      <node id="3149713039105731400" at="27,42,28,68" concept="6" />
+      <node id="3149713039105731403" at="32,32,33,30" concept="6" />
+      <node id="3149713039105731403" at="37,0,38,0" concept="8" trace="tSubComponent$Pv" />
+      <node id="3149713039105731403" at="41,0,42,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="3149713039105731403" at="42,0,43,0" concept="8" trace="name$MnvL" />
+      <node id="3149713039105731403" at="46,0,47,0" concept="8" trace="inport$wEVr" />
+      <node id="3149713039105731403" at="47,0,48,0" concept="8" trace="outport$wFpt" />
+      <node id="3149713039105731403" at="22,0,25,0" concept="1" trace="tSubComponent_mergepolicy_tSubComponent_gzbq96_d#()V" />
+      <node id="3149713039105731403" at="27,0,30,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731403" at="31,0,35,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="3149713039105731403" at="22,61,23,296" />
+      <scope id="3149713039105731403" at="27,42,28,68" />
+      <scope id="3149713039105731403" at="32,32,33,30" />
+      <scope id="3149713039105731403" at="22,0,25,0" />
+      <scope id="3149713039105731403" at="27,0,30,0">
+        <var name="instance" id="3149713039105731403" />
+      </scope>
+      <scope id="3149713039105731403" at="31,0,35,0">
+        <var name="node" id="3149713039105731403" />
+      </scope>
+      <unit id="3149713039105731403" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.tSubComponent_mergepolicy_tSubComponent_gzbq96_d$CONCEPTS" />
+      <unit id="3149713039105731403" at="40,0,44,0" name="de.itemis.model.merge.test.plugin.tSubComponent_mergepolicy_tSubComponent_gzbq96_d$PROPS" />
+      <unit id="3149713039105731403" at="45,0,49,0" name="de.itemis.model.merge.test.plugin.tSubComponent_mergepolicy_tSubComponent_gzbq96_d$LINKS" />
+      <unit id="3149713039105731403" at="20,0,50,0" name="de.itemis.model.merge.test.plugin.tSubComponent_mergepolicy_tSubComponent_gzbq96_d" />
+    </file>
+    <file name="tSystem_mergepolicy_tSystem_gzbq96_e.java">
+      <node id="3149713039105731395" at="28,41,29,72" concept="6" />
+      <node id="3149713039105731410" at="33,41,34,72" concept="6" />
+      <node id="3149713039105731390" at="38,41,39,71" concept="6" />
+      <node id="3149713039105731405" at="45,42,46,68" concept="6" />
+      <node id="3149713039105731408" at="50,32,51,30" concept="6" />
+      <node id="3149713039105731408" at="55,0,56,0" concept="8" trace="tSystem$ng" />
+      <node id="3149713039105731408" at="59,0,60,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="3149713039105731408" at="60,0,61,0" concept="8" trace="name$MnvL" />
+      <node id="3149713039105731408" at="61,0,62,0" concept="8" trace="name$67O" />
+      <node id="3149713039105731408" at="65,0,66,0" concept="8" trace="outports$38qp" />
+      <node id="3149713039105731408" at="66,0,67,0" concept="8" trace="inports$37Hm" />
+      <node id="3149713039105731408" at="67,0,68,0" concept="8" trace="components$37fk" />
+      <node id="3149713039105731408" at="45,0,48,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731397" at="27,0,31,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731412" at="32,0,36,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731392" at="37,0,41,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731408" at="49,0,53,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3149713039105731408" at="25,49,41,44" concept="10" />
+      <node id="3149713039105731408" at="25,0,43,0" concept="1" trace="tSystem_mergepolicy_tSystem_gzbq96_e#()V" />
+      <scope id="3149713039105731397" at="28,41,29,72" />
+      <scope id="3149713039105731412" at="33,41,34,72" />
+      <scope id="3149713039105731392" at="38,41,39,71" />
+      <scope id="3149713039105731408" at="45,42,46,68" />
+      <scope id="3149713039105731408" at="50,32,51,30" />
+      <scope id="3149713039105731408" at="45,0,48,0">
+        <var name="instance" id="3149713039105731408" />
+      </scope>
+      <scope id="3149713039105731397" at="27,0,31,0">
+        <var name="instance" id="3149713039105731397" />
+      </scope>
+      <scope id="3149713039105731412" at="32,0,36,0">
+        <var name="instance" id="3149713039105731412" />
+      </scope>
+      <scope id="3149713039105731392" at="37,0,41,0">
+        <var name="instance" id="3149713039105731392" />
+      </scope>
+      <scope id="3149713039105731408" at="49,0,53,0">
+        <var name="node" id="3149713039105731408" />
+      </scope>
+      <scope id="3149713039105731408" at="25,49,41,44" />
+      <scope id="3149713039105731408" at="25,0,43,0" />
+      <unit id="3149713039105731408" at="54,0,57,0" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_gzbq96_e$CONCEPTS" />
+      <unit id="3149713039105731397" at="26,309,31,5" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_gzbq96_e$1" />
+      <unit id="3149713039105731412" at="31,142,36,5" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_gzbq96_e$2" />
+      <unit id="3149713039105731392" at="36,145,41,5" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_gzbq96_e$3" />
+      <unit id="3149713039105731408" at="58,0,63,0" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_gzbq96_e$PROPS" />
+      <unit id="3149713039105731408" at="64,0,69,0" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_gzbq96_e$LINKS" />
+      <unit id="3149713039105731408" at="23,0,70,0" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_gzbq96_e" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/3569189811729124929">
+    <file name="Data_mergepolicy_Data_gyopq_b.java">
+      <node id="3569189811729125249" at="18,42,19,172" concept="10" />
+      <node id="3569189811729125249" at="23,42,24,20" concept="6" />
+      <node id="3569189811729125249" at="28,32,29,30" concept="6" />
+      <node id="3569189811729125249" at="33,0,34,0" concept="8" trace="Data$P9" />
+      <node id="3569189811729125249" at="37,0,38,0" concept="8" trace="myDate$skCl" />
+      <node id="3569189811729125249" at="18,0,21,0" concept="1" trace="Data_mergepolicy_Data_gyopq_b#()V" />
+      <node id="3569189811729125249" at="23,0,26,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3569189811729125249" at="27,0,31,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="3569189811729125249" at="18,42,19,172" />
+      <scope id="3569189811729125249" at="23,42,24,20" />
+      <scope id="3569189811729125249" at="28,32,29,30" />
+      <scope id="3569189811729125249" at="18,0,21,0" />
+      <scope id="3569189811729125249" at="23,0,26,0">
+        <var name="instance" id="3569189811729125249" />
+      </scope>
+      <scope id="3569189811729125249" at="27,0,31,0">
+        <var name="node" id="3569189811729125249" />
+      </scope>
+      <unit id="3569189811729125249" at="32,0,35,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_gyopq_b$CONCEPTS" />
+      <unit id="3569189811729125249" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_gyopq_b$LINKS" />
+      <unit id="3569189811729125249" at="16,0,40,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_gyopq_b" />
+    </file>
+    <file name="LeftSingletonChildDiamondMerge.java">
+      <node id="3569189811729124929" at="16,22,17,64" concept="6" />
+      <node id="3569189811729124929" at="20,59,21,80" concept="6" />
+      <node id="3569189811729124929" at="12,0,14,0" concept="1" trace="LeftSingletonChildDiamondMerge#()V" />
+      <node id="3569189811729124929" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="3569189811729124929" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="3569189811729124929" at="12,43,12,43" />
+      <scope id="3569189811729124929" at="16,22,17,64" />
+      <scope id="3569189811729124929" at="20,59,21,80" />
+      <scope id="3569189811729124929" at="12,0,14,0" />
+      <scope id="3569189811729124929" at="15,0,19,0" />
+      <scope id="3569189811729124929" at="19,0,23,0" />
+      <unit id="3569189811729124929" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.LeftSingletonChildDiamondMerge" />
+    </file>
+    <file name="LeftSingletonChildDiamondMerge_extension.java">
+      <node id="3569189811729124929" at="9,53,10,49" concept="10" />
+      <node id="3569189811729124929" at="14,32,15,48" concept="6" />
+      <node id="3569189811729124929" at="9,0,12,0" concept="1" trace="LeftSingletonChildDiamondMerge_extension#()V" />
+      <node id="3569189811729124929" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="3569189811729124929" at="9,53,10,49" />
+      <scope id="3569189811729124929" at="14,32,15,48" />
+      <scope id="3569189811729124929" at="9,0,12,0" />
+      <scope id="3569189811729124929" at="14,0,17,0" />
+      <unit id="3569189811729124929" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.LeftSingletonChildDiamondMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/3569189811730589365">
+    <file name="Data_mergepolicy_Data_z7gcx4_b.java">
+      <node id="3569189811730589367" at="18,43,19,173" concept="10" />
+      <node id="3569189811730589367" at="23,42,24,20" concept="6" />
+      <node id="3569189811730589367" at="28,32,29,30" concept="6" />
+      <node id="3569189811730589367" at="33,0,34,0" concept="8" trace="Data$P9" />
+      <node id="3569189811730589367" at="37,0,38,0" concept="8" trace="myDate$skCl" />
+      <node id="3569189811730589367" at="18,0,21,0" concept="1" trace="Data_mergepolicy_Data_z7gcx4_b#()V" />
+      <node id="3569189811730589367" at="23,0,26,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3569189811730589367" at="27,0,31,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="3569189811730589367" at="18,43,19,173" />
+      <scope id="3569189811730589367" at="23,42,24,20" />
+      <scope id="3569189811730589367" at="28,32,29,30" />
+      <scope id="3569189811730589367" at="18,0,21,0" />
+      <scope id="3569189811730589367" at="23,0,26,0">
+        <var name="instance" id="3569189811730589367" />
+      </scope>
+      <scope id="3569189811730589367" at="27,0,31,0">
+        <var name="node" id="3569189811730589367" />
+      </scope>
+      <unit id="3569189811730589367" at="32,0,35,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_z7gcx4_b$CONCEPTS" />
+      <unit id="3569189811730589367" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_z7gcx4_b$LINKS" />
+      <unit id="3569189811730589367" at="16,0,40,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_z7gcx4_b" />
+    </file>
+    <file name="RightSingletonChildDiamondMerge.java">
+      <node id="3569189811730589365" at="16,22,17,65" concept="6" />
+      <node id="3569189811730589365" at="20,59,21,81" concept="6" />
+      <node id="3569189811730589365" at="12,0,14,0" concept="1" trace="RightSingletonChildDiamondMerge#()V" />
+      <node id="3569189811730589365" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="3569189811730589365" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="3569189811730589365" at="12,44,12,44" />
+      <scope id="3569189811730589365" at="16,22,17,65" />
+      <scope id="3569189811730589365" at="20,59,21,81" />
+      <scope id="3569189811730589365" at="12,0,14,0" />
+      <scope id="3569189811730589365" at="15,0,19,0" />
+      <scope id="3569189811730589365" at="19,0,23,0" />
+      <unit id="3569189811730589365" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.RightSingletonChildDiamondMerge" />
+    </file>
+    <file name="RightSingletonChildDiamondMerge_extension.java">
+      <node id="3569189811730589365" at="9,54,10,49" concept="10" />
+      <node id="3569189811730589365" at="14,32,15,49" concept="6" />
+      <node id="3569189811730589365" at="9,0,12,0" concept="1" trace="RightSingletonChildDiamondMerge_extension#()V" />
+      <node id="3569189811730589365" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="3569189811730589365" at="9,54,10,49" />
+      <scope id="3569189811730589365" at="14,32,15,49" />
+      <scope id="3569189811730589365" at="9,0,12,0" />
+      <scope id="3569189811730589365" at="14,0,17,0" />
+      <unit id="3569189811730589365" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.RightSingletonChildDiamondMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/3569189811731016409">
+    <file name="Data_mergepolicy_Data_2p000t_b.java">
+      <node id="3569189811731016412" at="28,38,29,33" concept="6" />
+      <node id="3569189811731016412" at="34,139,35,62" concept="5" />
+      <node id="3569189811731016412" at="35,62,36,103" concept="2" />
+      <node id="3569189811731016412" at="36,103,37,53" concept="6" />
+      <node id="3569189811731017788" at="39,139,40,52" concept="5" />
+      <node id="3569189811731034042" at="40,52,41,219" concept="2" />
+      <node id="3569189811731042081" at="41,219,42,66" concept="6" />
+      <node id="3569189811731016411" at="49,42,50,20" concept="6" />
+      <node id="3569189811731016411" at="54,32,55,30" concept="6" />
+      <node id="3569189811731016411" at="59,0,60,0" concept="8" trace="Data$P9" />
+      <node id="3569189811731016411" at="63,0,64,0" concept="8" trace="myDate$skCl" />
+      <node id="3569189811731016411" at="67,0,68,0" concept="8" trace="data$fQWJ" />
+      <node id="3569189811731016411" at="49,0,52,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3569189811731016412" at="27,0,31,0" concept="4" trace="link#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
+      <node id="3569189811731016411" at="53,0,57,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3569189811731016412" at="39,0,44,0" concept="4" trace="innerMerge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3569189811731016412" at="33,0,39,0" concept="4" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)Ljava/util/List;" />
+      <node id="3569189811731016411" at="25,43,45,43" concept="10" />
+      <node id="3569189811731016411" at="25,0,47,0" concept="1" trace="Data_mergepolicy_Data_2p000t_b#()V" />
+      <scope id="3569189811731016412" at="28,38,29,33" />
+      <scope id="3569189811731016411" at="49,42,50,20" />
+      <scope id="3569189811731016411" at="54,32,55,30" />
+      <scope id="3569189811731016412" at="34,139,37,53">
+        <var name="innerMerge" id="3569189811731016412" />
+      </scope>
+      <scope id="3569189811731016412" at="39,139,42,66">
+        <var name="copy" id="3569189811731017789" />
+      </scope>
+      <scope id="3569189811731016411" at="49,0,52,0">
+        <var name="instance" id="3569189811731016411" />
+      </scope>
+      <scope id="3569189811731016412" at="27,0,31,0" />
+      <scope id="3569189811731016411" at="53,0,57,0">
+        <var name="node" id="3569189811731016411" />
+      </scope>
+      <scope id="3569189811731016412" at="39,0,44,0">
+        <var name="auto" id="3569189811731016412" />
+        <var name="left" id="3569189811731016412" />
+        <var name="right" id="3569189811731016412" />
+      </scope>
+      <scope id="3569189811731016412" at="33,0,39,0">
+        <var name="auto" id="3569189811731016412" />
+        <var name="left" id="3569189811731016412" />
+        <var name="right" id="3569189811731016412" />
+      </scope>
+      <scope id="3569189811731016411" at="25,43,45,43" />
+      <scope id="3569189811731016411" at="25,0,47,0" />
+      <unit id="3569189811731016411" at="58,0,61,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_2p000t_b$CONCEPTS" />
+      <unit id="3569189811731016411" at="62,0,65,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_2p000t_b$LINKS" />
+      <unit id="3569189811731016411" at="66,0,69,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_2p000t_b$PROPS" />
+      <unit id="3569189811731016412" at="26,99,45,5" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_2p000t_b$1" />
+      <unit id="3569189811731016411" at="23,0,70,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_2p000t_b" />
+    </file>
+    <file name="ManualSingletonChildDiamondMerge.java">
+      <node id="3569189811731016409" at="16,22,17,66" concept="6" />
+      <node id="3569189811731016409" at="20,59,21,81" concept="6" />
+      <node id="3569189811731016409" at="12,0,14,0" concept="1" trace="ManualSingletonChildDiamondMerge#()V" />
+      <node id="3569189811731016409" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="3569189811731016409" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="3569189811731016409" at="12,45,12,45" />
+      <scope id="3569189811731016409" at="16,22,17,66" />
+      <scope id="3569189811731016409" at="20,59,21,81" />
+      <scope id="3569189811731016409" at="12,0,14,0" />
+      <scope id="3569189811731016409" at="15,0,19,0" />
+      <scope id="3569189811731016409" at="19,0,23,0" />
+      <unit id="3569189811731016409" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.ManualSingletonChildDiamondMerge" />
+    </file>
+    <file name="ManualSingletonChildDiamondMerge_extension.java">
+      <node id="3569189811731016409" at="9,55,10,49" concept="10" />
+      <node id="3569189811731016409" at="14,32,15,50" concept="6" />
+      <node id="3569189811731016409" at="9,0,12,0" concept="1" trace="ManualSingletonChildDiamondMerge_extension#()V" />
+      <node id="3569189811731016409" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="3569189811731016409" at="9,55,10,49" />
+      <scope id="3569189811731016409" at="14,32,15,50" />
+      <scope id="3569189811731016409" at="9,0,12,0" />
+      <scope id="3569189811731016409" at="14,0,17,0" />
+      <unit id="3569189811731016409" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.ManualSingletonChildDiamondMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/3569189811734484498">
+    <file name="Bottom_mergepolicy_Bottom_xz0qq4_c.java">
+      <node id="3569189811734485805" at="18,47,19,176" concept="10" />
+      <node id="3569189811734485805" at="23,42,24,20" concept="6" />
+      <node id="3569189811734485805" at="28,32,29,30" concept="6" />
+      <node id="3569189811734485805" at="33,0,34,0" concept="8" trace="Bottom$qs" />
+      <node id="3569189811734485805" at="37,0,38,0" concept="8" trace="optChild$$0p_" />
+      <node id="3569189811734485805" at="18,0,21,0" concept="1" trace="Bottom_mergepolicy_Bottom_xz0qq4_c#()V" />
+      <node id="3569189811734485805" at="23,0,26,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3569189811734485805" at="27,0,31,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="3569189811734485805" at="18,47,19,176" />
+      <scope id="3569189811734485805" at="23,42,24,20" />
+      <scope id="3569189811734485805" at="28,32,29,30" />
+      <scope id="3569189811734485805" at="18,0,21,0" />
+      <scope id="3569189811734485805" at="23,0,26,0">
+        <var name="instance" id="3569189811734485805" />
+      </scope>
+      <scope id="3569189811734485805" at="27,0,31,0">
+        <var name="node" id="3569189811734485805" />
+      </scope>
+      <unit id="3569189811734485805" at="32,0,35,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_xz0qq4_c$CONCEPTS" />
+      <unit id="3569189811734485805" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_xz0qq4_c$LINKS" />
+      <unit id="3569189811734485805" at="16,0,40,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_xz0qq4_c" />
+    </file>
+    <file name="LeftOptionalChildDiamondMerge.java">
+      <node id="3569189811734484498" at="16,22,17,63" concept="6" />
+      <node id="3569189811734484498" at="20,59,21,85" concept="6" />
+      <node id="3569189811734484498" at="12,0,14,0" concept="1" trace="LeftOptionalChildDiamondMerge#()V" />
+      <node id="3569189811734484498" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="3569189811734484498" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="3569189811734484498" at="12,42,12,42" />
+      <scope id="3569189811734484498" at="16,22,17,63" />
+      <scope id="3569189811734484498" at="20,59,21,85" />
+      <scope id="3569189811734484498" at="12,0,14,0" />
+      <scope id="3569189811734484498" at="15,0,19,0" />
+      <scope id="3569189811734484498" at="19,0,23,0" />
+      <unit id="3569189811734484498" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.LeftOptionalChildDiamondMerge" />
+    </file>
+    <file name="LeftOptionalChildDiamondMerge_extension.java">
+      <node id="3569189811734484498" at="9,52,10,49" concept="10" />
+      <node id="3569189811734484498" at="14,32,15,47" concept="6" />
+      <node id="3569189811734484498" at="9,0,12,0" concept="1" trace="LeftOptionalChildDiamondMerge_extension#()V" />
+      <node id="3569189811734484498" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="3569189811734484498" at="9,52,10,49" />
+      <scope id="3569189811734484498" at="14,32,15,47" />
+      <scope id="3569189811734484498" at="9,0,12,0" />
+      <scope id="3569189811734484498" at="14,0,17,0" />
+      <unit id="3569189811734484498" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.LeftOptionalChildDiamondMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/4067136700975604478">
+    <file name="Data_mergepolicy_Data_cq72lj_d.java">
+      <node id="4067136700975604482" at="22,43,23,241" concept="10" />
+      <node id="4067136700975604485" at="27,42,28,18" concept="6" />
+      <node id="4067136700975604482" at="32,32,33,30" concept="6" />
+      <node id="4067136700975604482" at="37,0,38,0" concept="8" trace="Data$P9" />
+      <node id="4067136700975604482" at="41,0,42,0" concept="8" trace="data$GFGu" />
+      <node id="4067136700975604482" at="45,0,46,0" concept="8" trace="myDate$skCl" />
+      <node id="4067136700975604482" at="46,0,47,0" concept="8" trace="other$Cniy" />
+      <node id="4067136700975604482" at="22,0,25,0" concept="1" trace="Data_mergepolicy_Data_cq72lj_d#()V" />
+      <node id="4067136700975604482" at="27,0,30,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4067136700975604482" at="31,0,35,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="4067136700975604482" at="22,43,23,241" />
+      <scope id="4067136700975604482" at="27,42,28,18" />
+      <scope id="4067136700975604482" at="32,32,33,30" />
+      <scope id="4067136700975604482" at="22,0,25,0" />
+      <scope id="4067136700975604482" at="27,0,30,0">
+        <var name="instance" id="4067136700975604482" />
+      </scope>
+      <scope id="4067136700975604482" at="31,0,35,0">
+        <var name="node" id="4067136700975604482" />
+      </scope>
+      <unit id="4067136700975604482" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_cq72lj_d$CONCEPTS" />
+      <unit id="4067136700975604482" at="40,0,43,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_cq72lj_d$PROPS" />
+      <unit id="4067136700975604482" at="44,0,48,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_cq72lj_d$LINKS" />
+      <unit id="4067136700975604482" at="20,0,49,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_cq72lj_d" />
+    </file>
+    <file name="RefRightOptionalMerge.java">
+      <node id="4067136700975604478" at="16,22,17,55" concept="6" />
+      <node id="4067136700975604478" at="20,59,21,81" concept="6" />
+      <node id="4067136700975604478" at="12,0,14,0" concept="1" trace="RefRightOptionalMerge#()V" />
+      <node id="4067136700975604478" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="4067136700975604478" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="4067136700975604478" at="12,34,12,34" />
+      <scope id="4067136700975604478" at="16,22,17,55" />
+      <scope id="4067136700975604478" at="20,59,21,81" />
+      <scope id="4067136700975604478" at="12,0,14,0" />
+      <scope id="4067136700975604478" at="15,0,19,0" />
+      <scope id="4067136700975604478" at="19,0,23,0" />
+      <unit id="4067136700975604478" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.RefRightOptionalMerge" />
+    </file>
+    <file name="RefRightOptionalMerge_extension.java">
+      <node id="4067136700975604478" at="9,44,10,49" concept="10" />
+      <node id="4067136700975604478" at="14,32,15,39" concept="6" />
+      <node id="4067136700975604478" at="9,0,12,0" concept="1" trace="RefRightOptionalMerge_extension#()V" />
+      <node id="4067136700975604478" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="4067136700975604478" at="9,44,10,49" />
+      <scope id="4067136700975604478" at="14,32,15,39" />
+      <scope id="4067136700975604478" at="9,0,12,0" />
+      <scope id="4067136700975604478" at="14,0,17,0" />
+      <unit id="4067136700975604478" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.RefRightOptionalMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/4067136700976195722">
+    <file name="Data_mergepolicy_Data_mznsh7_d.java">
+      <node id="4067136700976195726" at="22,43,23,240" concept="10" />
+      <node id="4067136700976195729" at="27,42,28,18" concept="6" />
+      <node id="4067136700976195726" at="32,32,33,30" concept="6" />
+      <node id="4067136700976195726" at="37,0,38,0" concept="8" trace="Data$P9" />
+      <node id="4067136700976195726" at="41,0,42,0" concept="8" trace="data$GFGu" />
+      <node id="4067136700976195726" at="45,0,46,0" concept="8" trace="myDate$skCl" />
+      <node id="4067136700976195726" at="46,0,47,0" concept="8" trace="other$Cniy" />
+      <node id="4067136700976195726" at="22,0,25,0" concept="1" trace="Data_mergepolicy_Data_mznsh7_d#()V" />
+      <node id="4067136700976195726" at="27,0,30,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4067136700976195726" at="31,0,35,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="4067136700976195726" at="22,43,23,240" />
+      <scope id="4067136700976195726" at="27,42,28,18" />
+      <scope id="4067136700976195726" at="32,32,33,30" />
+      <scope id="4067136700976195726" at="22,0,25,0" />
+      <scope id="4067136700976195726" at="27,0,30,0">
+        <var name="instance" id="4067136700976195726" />
+      </scope>
+      <scope id="4067136700976195726" at="31,0,35,0">
+        <var name="node" id="4067136700976195726" />
+      </scope>
+      <unit id="4067136700976195726" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_mznsh7_d$CONCEPTS" />
+      <unit id="4067136700976195726" at="40,0,43,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_mznsh7_d$PROPS" />
+      <unit id="4067136700976195726" at="44,0,48,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_mznsh7_d$LINKS" />
+      <unit id="4067136700976195726" at="20,0,49,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_mznsh7_d" />
+    </file>
+    <file name="RefDropOptionalMerge.java">
+      <node id="4067136700976195722" at="16,22,17,54" concept="6" />
+      <node id="4067136700976195722" at="20,59,21,81" concept="6" />
+      <node id="4067136700976195722" at="12,0,14,0" concept="1" trace="RefDropOptionalMerge#()V" />
+      <node id="4067136700976195722" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="4067136700976195722" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="4067136700976195722" at="12,33,12,33" />
+      <scope id="4067136700976195722" at="16,22,17,54" />
+      <scope id="4067136700976195722" at="20,59,21,81" />
+      <scope id="4067136700976195722" at="12,0,14,0" />
+      <scope id="4067136700976195722" at="15,0,19,0" />
+      <scope id="4067136700976195722" at="19,0,23,0" />
+      <unit id="4067136700976195722" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.RefDropOptionalMerge" />
+    </file>
+    <file name="RefDropOptionalMerge_extension.java">
+      <node id="4067136700976195722" at="9,43,10,49" concept="10" />
+      <node id="4067136700976195722" at="14,32,15,38" concept="6" />
+      <node id="4067136700976195722" at="9,0,12,0" concept="1" trace="RefDropOptionalMerge_extension#()V" />
+      <node id="4067136700976195722" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="4067136700976195722" at="9,43,10,49" />
+      <scope id="4067136700976195722" at="14,32,15,38" />
+      <scope id="4067136700976195722" at="9,0,12,0" />
+      <scope id="4067136700976195722" at="14,0,17,0" />
+      <unit id="4067136700976195722" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.RefDropOptionalMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/4067136700976326507">
+    <file name="Data_mergepolicy_Data_450djj_d.java">
+      <node id="4067136700976326523" at="27,51,28,52" concept="5" />
+      <node id="4067136700976326523" at="28,52,29,59" concept="2" />
+      <node id="4067136700976326523" at="29,59,30,20" concept="6" />
+      <node id="3701402461975783546" at="33,57,34,47" concept="6" />
+      <node id="4067136700976326523" at="38,41,39,32" concept="6" />
+      <node id="4067136700976326514" at="45,42,46,18" concept="6" />
+      <node id="4067136700976326511" at="50,32,51,30" concept="6" />
+      <node id="3701402461975783542" at="53,56,54,69" concept="5" />
+      <node id="3701402461975783542" at="54,69,55,53" concept="2" />
+      <node id="3701402461975783542" at="55,53,56,26" concept="6" />
+      <node id="4067136700976326511" at="60,0,61,0" concept="8" trace="Data$P9" />
+      <node id="4067136700976326511" at="61,0,62,0" concept="8" trace="OtherData$c7" />
+      <node id="4067136700976326511" at="65,0,66,0" concept="8" trace="data$GFGu" />
+      <node id="4067136700976326511" at="66,0,67,0" concept="8" trace="something$WMg9" />
+      <node id="4067136700976326511" at="70,0,71,0" concept="8" trace="myDate$skCl" />
+      <node id="4067136700976326511" at="71,0,72,0" concept="8" trace="other$Cniy" />
+      <node id="4067136700976326523" at="33,0,36,0" concept="4" trace="innerMerge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4067136700976326511" at="45,0,48,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4067136700976326523" at="37,0,41,0" concept="4" trace="reference#()Lorg/jetbrains/mps/openapi/language/SReferenceLink;" />
+      <node id="4067136700976326511" at="49,0,53,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3701402461975783542" at="53,0,58,0" concept="9" trace="createOtherData_450djj_a0a0a3#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4067136700976326523" at="26,0,32,0" concept="4" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4067136700976326511" at="23,43,41,8" concept="10" />
+      <node id="4067136700976326511" at="23,0,43,0" concept="1" trace="Data_mergepolicy_Data_450djj_d#()V" />
+      <scope id="4067136700976326523" at="33,57,34,47" />
+      <scope id="4067136700976326523" at="38,41,39,32" />
+      <scope id="4067136700976326511" at="45,42,46,18" />
+      <scope id="4067136700976326511" at="50,32,51,30" />
+      <scope id="4067136700976326523" at="27,51,30,20">
+        <var name="node" id="4067136700976326523" />
+      </scope>
+      <scope id="4067136700976326523" at="33,0,36,0">
+        <var name="left" id="4067136700976326523" />
+        <var name="right" id="4067136700976326523" />
+      </scope>
+      <scope id="4067136700976326511" at="45,0,48,0">
+        <var name="instance" id="4067136700976326511" />
+      </scope>
+      <scope id="3701402461975783542" at="53,56,56,26">
+        <var name="n0" id="3701402461975783542" />
+      </scope>
+      <scope id="4067136700976326523" at="37,0,41,0" />
+      <scope id="4067136700976326511" at="49,0,53,0">
+        <var name="node" id="4067136700976326511" />
+      </scope>
+      <scope id="3701402461975783542" at="53,0,58,0" />
+      <scope id="4067136700976326523" at="26,0,32,0">
+        <var name="left" id="4067136700976326523" />
+        <var name="right" id="4067136700976326523" />
+      </scope>
+      <scope id="4067136700976326511" at="23,43,41,8" />
+      <scope id="4067136700976326511" at="23,0,43,0" />
+      <unit id="4067136700976326511" at="59,0,63,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_450djj_d$CONCEPTS" />
+      <unit id="4067136700976326511" at="64,0,68,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_450djj_d$PROPS" />
+      <unit id="4067136700976326511" at="69,0,73,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_450djj_d$LINKS" />
+      <unit id="4067136700976326523" at="24,205,41,5" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_450djj_d$1" />
+      <unit id="4067136700976326511" at="21,0,74,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_450djj_d" />
+    </file>
+    <file name="RefManualOptionalMerge.java">
+      <node id="4067136700976326507" at="16,22,17,56" concept="6" />
+      <node id="4067136700976326507" at="20,59,21,81" concept="6" />
+      <node id="4067136700976326507" at="12,0,14,0" concept="1" trace="RefManualOptionalMerge#()V" />
+      <node id="4067136700976326507" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="4067136700976326507" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="4067136700976326507" at="12,35,12,35" />
+      <scope id="4067136700976326507" at="16,22,17,56" />
+      <scope id="4067136700976326507" at="20,59,21,81" />
+      <scope id="4067136700976326507" at="12,0,14,0" />
+      <scope id="4067136700976326507" at="15,0,19,0" />
+      <scope id="4067136700976326507" at="19,0,23,0" />
+      <unit id="4067136700976326507" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.RefManualOptionalMerge" />
+    </file>
+    <file name="RefManualOptionalMerge_extension.java">
+      <node id="4067136700976326507" at="9,45,10,49" concept="10" />
+      <node id="4067136700976326507" at="14,32,15,40" concept="6" />
+      <node id="4067136700976326507" at="9,0,12,0" concept="1" trace="RefManualOptionalMerge_extension#()V" />
+      <node id="4067136700976326507" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="4067136700976326507" at="9,45,10,49" />
+      <scope id="4067136700976326507" at="14,32,15,40" />
+      <scope id="4067136700976326507" at="9,0,12,0" />
+      <scope id="4067136700976326507" at="14,0,17,0" />
+      <unit id="4067136700976326507" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.RefManualOptionalMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/4067136700976411877">
+    <file name="CollectionChildDiamondMerge.java">
+      <node id="4067136700976411877" at="16,22,17,61" concept="6" />
+      <node id="4067136700976411877" at="20,59,21,125" concept="6" />
+      <node id="4067136700976411877" at="12,0,14,0" concept="1" trace="CollectionChildDiamondMerge#()V" />
+      <node id="4067136700976411877" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="4067136700976411877" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="4067136700976411877" at="12,40,12,40" />
+      <scope id="4067136700976411877" at="16,22,17,61" />
+      <scope id="4067136700976411877" at="20,59,21,125" />
+      <scope id="4067136700976411877" at="12,0,14,0" />
+      <scope id="4067136700976411877" at="15,0,19,0" />
+      <scope id="4067136700976411877" at="19,0,23,0" />
+      <unit id="4067136700976411877" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.CollectionChildDiamondMerge" />
+    </file>
+    <file name="CollectionChildDiamondMerge_extension.java">
+      <node id="4067136700976411877" at="9,50,10,49" concept="10" />
+      <node id="4067136700976411877" at="14,32,15,45" concept="6" />
+      <node id="4067136700976411877" at="9,0,12,0" concept="1" trace="CollectionChildDiamondMerge_extension#()V" />
+      <node id="4067136700976411877" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="4067136700976411877" at="9,50,10,49" />
+      <scope id="4067136700976411877" at="14,32,15,45" />
+      <scope id="4067136700976411877" at="9,0,12,0" />
+      <scope id="4067136700976411877" at="14,0,17,0" />
+      <unit id="4067136700976411877" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.CollectionChildDiamondMerge_extension" />
+    </file>
+    <file name="Data_mergepolicy_Data_u91yup_b.java">
+      <node id="4230186324086493429" at="27,41,28,72" concept="6" />
+      <node id="2120062183193902941" at="34,42,35,138" concept="6" />
+      <node id="4067136700976411892" at="39,32,40,30" concept="6" />
+      <node id="4067136700976411892" at="44,0,45,0" concept="8" trace="Data$P9" />
+      <node id="4067136700976411892" at="48,0,49,0" concept="8" trace="myDate3$8mIJ" />
+      <node id="4067136700976411892" at="52,0,53,0" concept="8" trace="data$fQWJ" />
+      <node id="4067136700976411892" at="53,0,54,0" concept="8" trace="data$GFGu" />
+      <node id="4067136700976411892" at="54,0,55,0" concept="8" trace="data2$aPNl" />
+      <node id="4067136700976411892" at="34,0,37,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4230186324086493136" at="26,0,30,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4067136700976411892" at="38,0,42,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4067136700976411892" at="24,43,30,44" concept="10" />
+      <node id="4067136700976411892" at="24,0,32,0" concept="1" trace="Data_mergepolicy_Data_u91yup_b#()V" />
+      <scope id="4230186324086493136" at="27,41,28,72" />
+      <scope id="4067136700976411892" at="34,42,35,138" />
+      <scope id="4067136700976411892" at="39,32,40,30" />
+      <scope id="4067136700976411892" at="34,0,37,0">
+        <var name="instance" id="4067136700976411892" />
+      </scope>
+      <scope id="4230186324086493136" at="26,0,30,0">
+        <var name="instance" id="4230186324086493136" />
+      </scope>
+      <scope id="4067136700976411892" at="38,0,42,0">
+        <var name="node" id="4067136700976411892" />
+      </scope>
+      <scope id="4067136700976411892" at="24,43,30,44" />
+      <scope id="4067136700976411892" at="24,0,32,0" />
+      <unit id="4067136700976411892" at="43,0,46,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_u91yup_b$CONCEPTS" />
+      <unit id="4067136700976411892" at="47,0,50,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_u91yup_b$LINKS" />
+      <unit id="4230186324086493136" at="25,229,30,5" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_u91yup_b$1" />
+      <unit id="4067136700976411892" at="51,0,56,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_u91yup_b$PROPS" />
+      <unit id="4067136700976411892" at="22,0,57,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_u91yup_b" />
+    </file>
+    <file name="Payload_mergepolicy_Payload_u91yup_c.java">
+      <node id="4230186324086493124" at="18,49,19,136" concept="10" />
+      <node id="4230186324086493429" at="23,42,24,68" concept="6" />
+      <node id="4230186324086493124" at="28,32,29,30" concept="6" />
+      <node id="4230186324086493124" at="33,0,34,0" concept="8" trace="Payload$$c" />
+      <node id="4230186324086493124" at="37,0,38,0" concept="8" trace="data$fQWJ" />
+      <node id="4230186324086493124" at="18,0,21,0" concept="1" trace="Payload_mergepolicy_Payload_u91yup_c#()V" />
+      <node id="4230186324086493124" at="23,0,26,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4230186324086493124" at="27,0,31,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="4230186324086493124" at="18,49,19,136" />
+      <scope id="4230186324086493124" at="23,42,24,68" />
+      <scope id="4230186324086493124" at="28,32,29,30" />
+      <scope id="4230186324086493124" at="18,0,21,0" />
+      <scope id="4230186324086493124" at="23,0,26,0">
+        <var name="instance" id="4230186324086493124" />
+      </scope>
+      <scope id="4230186324086493124" at="27,0,31,0">
+        <var name="node" id="4230186324086493124" />
+      </scope>
+      <unit id="4230186324086493124" at="32,0,35,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_u91yup_c$CONCEPTS" />
+      <unit id="4230186324086493124" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_u91yup_c$PROPS" />
+      <unit id="4230186324086493124" at="16,0,40,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_u91yup_c" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/5475156782151734126">
+    <file name="ModelmergerTestLangPolicy2.java">
+      <node id="5475156782151734126" at="16,22,17,60" concept="6" />
+      <node id="5475156782151734126" at="20,59,21,283" concept="6" />
+      <node id="5475156782151734126" at="12,0,14,0" concept="1" trace="ModelmergerTestLangPolicy2#()V" />
+      <node id="5475156782151734126" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="5475156782151734126" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="5475156782151734126" at="12,39,12,39" />
+      <scope id="5475156782151734126" at="16,22,17,60" />
+      <scope id="5475156782151734126" at="20,59,21,283" />
+      <scope id="5475156782151734126" at="12,0,14,0" />
+      <scope id="5475156782151734126" at="15,0,19,0" />
+      <scope id="5475156782151734126" at="19,0,23,0" />
+      <unit id="5475156782151734126" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.ModelmergerTestLangPolicy2" />
+    </file>
+    <file name="ModelmergerTestLangPolicy2_extension.java">
+      <node id="5475156782151734126" at="9,49,10,49" concept="10" />
+      <node id="5475156782151734126" at="14,32,15,44" concept="6" />
+      <node id="5475156782151734126" at="9,0,12,0" concept="1" trace="ModelmergerTestLangPolicy2_extension#()V" />
+      <node id="5475156782151734126" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="5475156782151734126" at="9,49,10,49" />
+      <scope id="5475156782151734126" at="14,32,15,44" />
+      <scope id="5475156782151734126" at="9,0,12,0" />
+      <scope id="5475156782151734126" at="14,0,17,0" />
+      <unit id="5475156782151734126" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.ModelmergerTestLangPolicy2_extension" />
+    </file>
+    <file name="tComponent_mergepolicy_tComponent_t7b83i_b.java">
+      <node id="5475156782151734175" at="30,41,31,72" concept="6" />
+      <node id="5475156782151734142" at="37,42,38,67" concept="6" />
+      <node id="5475156782151734130" at="42,32,43,30" concept="6" />
+      <node id="5475156782151734130" at="47,0,48,0" concept="8" trace="tComponent$gm" />
+      <node id="5475156782151734130" at="51,0,52,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="5475156782151734130" at="52,0,53,0" concept="8" trace="name$67O" />
+      <node id="5475156782151734130" at="53,0,54,0" concept="8" trace="name$MnvL" />
+      <node id="5475156782151734130" at="57,0,58,0" concept="8" trace="subComponents$6_Q" />
+      <node id="5475156782151734130" at="58,0,59,0" concept="8" trace="inPort$e6m" />
+      <node id="5475156782151734130" at="59,0,60,0" concept="8" trace="outPort$eNp" />
+      <node id="5475156782151734130" at="37,0,40,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734173" at="29,0,33,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734130" at="41,0,45,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734130" at="27,55,33,119" concept="10" />
+      <node id="5475156782151734130" at="27,0,35,0" concept="1" trace="tComponent_mergepolicy_tComponent_t7b83i_b#()V" />
+      <scope id="5475156782151734173" at="30,41,31,72" />
+      <scope id="5475156782151734130" at="37,42,38,67" />
+      <scope id="5475156782151734130" at="42,32,43,30" />
+      <scope id="5475156782151734130" at="37,0,40,0">
+        <var name="instance" id="5475156782151734130" />
+      </scope>
+      <scope id="5475156782151734173" at="29,0,33,0">
+        <var name="instance" id="5475156782151734173" />
+      </scope>
+      <scope id="5475156782151734130" at="41,0,45,0">
+        <var name="node" id="5475156782151734130" />
+      </scope>
+      <scope id="5475156782151734130" at="27,55,33,119" />
+      <scope id="5475156782151734130" at="27,0,35,0" />
+      <unit id="5475156782151734130" at="46,0,49,0" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_t7b83i_b$CONCEPTS" />
+      <unit id="5475156782151734173" at="28,314,33,5" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_t7b83i_b$1" />
+      <unit id="5475156782151734130" at="50,0,55,0" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_t7b83i_b$PROPS" />
+      <unit id="5475156782151734130" at="56,0,61,0" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_t7b83i_b$LINKS" />
+      <unit id="5475156782151734130" at="25,0,62,0" name="de.itemis.model.merge.test.plugin.tComponent_mergepolicy_tComponent_t7b83i_b" />
+    </file>
+    <file name="tInPort_mergepolicy_tInPort_t7b83i_f.java">
+      <node id="5475156782151734216" at="22,35,23,31" concept="6" />
+      <node id="5475156782151734219" at="27,52,28,126" concept="6" />
+      <node id="5475156782151734229" at="34,42,35,68" concept="6" />
+      <node id="5475156782151734213" at="39,32,40,30" concept="6" />
+      <node id="5475156782151734213" at="44,0,45,0" concept="8" trace="tInPort$iL" />
+      <node id="5475156782151734213" at="48,0,49,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="5475156782151734213" at="49,0,50,0" concept="8" trace="name$MnvL" />
+      <node id="5475156782151734213" at="50,0,51,0" concept="8" trace="value$cIF" />
+      <node id="5475156782151734213" at="34,0,37,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734216" at="21,0,25,0" concept="4" trace="property#()Lorg/jetbrains/mps/openapi/language/SProperty;" />
+      <node id="5475156782151734216" at="26,0,30,0" concept="4" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="5475156782151734213" at="38,0,42,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734213" at="19,49,30,80" concept="10" />
+      <node id="5475156782151734213" at="19,0,32,0" concept="1" trace="tInPort_mergepolicy_tInPort_t7b83i_f#()V" />
+      <scope id="5475156782151734216" at="22,35,23,31" />
+      <scope id="5475156782151734216" at="27,52,28,126" />
+      <scope id="5475156782151734213" at="34,42,35,68" />
+      <scope id="5475156782151734213" at="39,32,40,30" />
+      <scope id="5475156782151734213" at="34,0,37,0">
+        <var name="instance" id="5475156782151734213" />
+      </scope>
+      <scope id="5475156782151734216" at="21,0,25,0" />
+      <scope id="5475156782151734216" at="26,0,30,0">
+        <var name="left" id="5475156782151734216" />
+        <var name="right" id="5475156782151734216" />
+      </scope>
+      <scope id="5475156782151734213" at="38,0,42,0">
+        <var name="node" id="5475156782151734213" />
+      </scope>
+      <scope id="5475156782151734213" at="19,49,30,80" />
+      <scope id="5475156782151734213" at="19,0,32,0" />
+      <unit id="5475156782151734213" at="43,0,46,0" name="de.itemis.model.merge.test.plugin.tInPort_mergepolicy_tInPort_t7b83i_f$CONCEPTS" />
+      <unit id="5475156782151734213" at="47,0,52,0" name="de.itemis.model.merge.test.plugin.tInPort_mergepolicy_tInPort_t7b83i_f$PROPS" />
+      <unit id="5475156782151734216" at="20,143,30,5" name="de.itemis.model.merge.test.plugin.tInPort_mergepolicy_tInPort_t7b83i_f$1" />
+      <unit id="5475156782151734213" at="17,0,53,0" name="de.itemis.model.merge.test.plugin.tInPort_mergepolicy_tInPort_t7b83i_f" />
+    </file>
+    <file name="tOutPort_mergepolicy_tOutPort_t7b83i_c.java">
+      <node id="5475156782151734153" at="22,35,23,31" concept="6" />
+      <node id="5475156782151734156" at="27,52,28,126" concept="6" />
+      <node id="5475156782151734166" at="34,42,35,68" concept="6" />
+      <node id="5475156782151734150" at="39,32,40,30" concept="6" />
+      <node id="5475156782151734150" at="44,0,45,0" concept="8" trace="tOutPort$vQ" />
+      <node id="5475156782151734150" at="48,0,49,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="5475156782151734150" at="49,0,50,0" concept="8" trace="name$MnvL" />
+      <node id="5475156782151734150" at="50,0,51,0" concept="8" trace="value$e6P" />
+      <node id="5475156782151734150" at="34,0,37,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734153" at="21,0,25,0" concept="4" trace="property#()Lorg/jetbrains/mps/openapi/language/SProperty;" />
+      <node id="5475156782151734153" at="26,0,30,0" concept="4" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="5475156782151734150" at="38,0,42,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734150" at="19,51,30,80" concept="10" />
+      <node id="5475156782151734150" at="19,0,32,0" concept="1" trace="tOutPort_mergepolicy_tOutPort_t7b83i_c#()V" />
+      <scope id="5475156782151734153" at="22,35,23,31" />
+      <scope id="5475156782151734153" at="27,52,28,126" />
+      <scope id="5475156782151734150" at="34,42,35,68" />
+      <scope id="5475156782151734150" at="39,32,40,30" />
+      <scope id="5475156782151734150" at="34,0,37,0">
+        <var name="instance" id="5475156782151734150" />
+      </scope>
+      <scope id="5475156782151734153" at="21,0,25,0" />
+      <scope id="5475156782151734153" at="26,0,30,0">
+        <var name="left" id="5475156782151734153" />
+        <var name="right" id="5475156782151734153" />
+      </scope>
+      <scope id="5475156782151734150" at="38,0,42,0">
+        <var name="node" id="5475156782151734150" />
+      </scope>
+      <scope id="5475156782151734150" at="19,51,30,80" />
+      <scope id="5475156782151734150" at="19,0,32,0" />
+      <unit id="5475156782151734150" at="43,0,46,0" name="de.itemis.model.merge.test.plugin.tOutPort_mergepolicy_tOutPort_t7b83i_c$CONCEPTS" />
+      <unit id="5475156782151734150" at="47,0,52,0" name="de.itemis.model.merge.test.plugin.tOutPort_mergepolicy_tOutPort_t7b83i_c$PROPS" />
+      <unit id="5475156782151734153" at="20,144,30,5" name="de.itemis.model.merge.test.plugin.tOutPort_mergepolicy_tOutPort_t7b83i_c$1" />
+      <unit id="5475156782151734150" at="17,0,53,0" name="de.itemis.model.merge.test.plugin.tOutPort_mergepolicy_tOutPort_t7b83i_c" />
+    </file>
+    <file name="tSubComponent_mergepolicy_tSubComponent_t7b83i_d.java">
+      <node id="5475156782151734170" at="22,61,23,296" concept="10" />
+      <node id="5475156782151734175" at="27,42,28,68" concept="6" />
+      <node id="5475156782151734170" at="32,32,33,30" concept="6" />
+      <node id="5475156782151734170" at="37,0,38,0" concept="8" trace="tSubComponent$Pv" />
+      <node id="5475156782151734170" at="41,0,42,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="5475156782151734170" at="42,0,43,0" concept="8" trace="name$MnvL" />
+      <node id="5475156782151734170" at="46,0,47,0" concept="8" trace="inport$wEVr" />
+      <node id="5475156782151734170" at="47,0,48,0" concept="8" trace="outport$wFpt" />
+      <node id="5475156782151734170" at="22,0,25,0" concept="1" trace="tSubComponent_mergepolicy_tSubComponent_t7b83i_d#()V" />
+      <node id="5475156782151734170" at="27,0,30,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734170" at="31,0,35,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="5475156782151734170" at="22,61,23,296" />
+      <scope id="5475156782151734170" at="27,42,28,68" />
+      <scope id="5475156782151734170" at="32,32,33,30" />
+      <scope id="5475156782151734170" at="22,0,25,0" />
+      <scope id="5475156782151734170" at="27,0,30,0">
+        <var name="instance" id="5475156782151734170" />
+      </scope>
+      <scope id="5475156782151734170" at="31,0,35,0">
+        <var name="node" id="5475156782151734170" />
+      </scope>
+      <unit id="5475156782151734170" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.tSubComponent_mergepolicy_tSubComponent_t7b83i_d$CONCEPTS" />
+      <unit id="5475156782151734170" at="40,0,44,0" name="de.itemis.model.merge.test.plugin.tSubComponent_mergepolicy_tSubComponent_t7b83i_d$PROPS" />
+      <unit id="5475156782151734170" at="45,0,49,0" name="de.itemis.model.merge.test.plugin.tSubComponent_mergepolicy_tSubComponent_t7b83i_d$LINKS" />
+      <unit id="5475156782151734170" at="20,0,50,0" name="de.itemis.model.merge.test.plugin.tSubComponent_mergepolicy_tSubComponent_t7b83i_d" />
+    </file>
+    <file name="tSystem_mergepolicy_tSystem_t7b83i_e.java">
+      <node id="5475156782151734166" at="28,41,29,72" concept="6" />
+      <node id="5475156782151734229" at="33,41,34,72" concept="6" />
+      <node id="5475156782151734142" at="38,41,39,71" concept="6" />
+      <node id="5475156782151734209" at="45,42,46,68" concept="6" />
+      <node id="5475156782151734183" at="50,32,51,30" concept="6" />
+      <node id="5475156782151734183" at="55,0,56,0" concept="8" trace="tSystem$ng" />
+      <node id="5475156782151734183" at="59,0,60,0" concept="8" trace="virtualPackage$EkXl" />
+      <node id="5475156782151734183" at="60,0,61,0" concept="8" trace="name$MnvL" />
+      <node id="5475156782151734183" at="61,0,62,0" concept="8" trace="name$67O" />
+      <node id="5475156782151734183" at="65,0,66,0" concept="8" trace="outports$38qp" />
+      <node id="5475156782151734183" at="66,0,67,0" concept="8" trace="inports$37Hm" />
+      <node id="5475156782151734183" at="67,0,68,0" concept="8" trace="components$37fk" />
+      <node id="5475156782151734183" at="45,0,48,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734164" at="27,0,31,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734227" at="32,0,36,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734140" at="37,0,41,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734183" at="49,0,53,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5475156782151734183" at="25,49,41,44" concept="10" />
+      <node id="5475156782151734183" at="25,0,43,0" concept="1" trace="tSystem_mergepolicy_tSystem_t7b83i_e#()V" />
+      <scope id="5475156782151734164" at="28,41,29,72" />
+      <scope id="5475156782151734227" at="33,41,34,72" />
+      <scope id="5475156782151734140" at="38,41,39,71" />
+      <scope id="5475156782151734183" at="45,42,46,68" />
+      <scope id="5475156782151734183" at="50,32,51,30" />
+      <scope id="5475156782151734183" at="45,0,48,0">
+        <var name="instance" id="5475156782151734183" />
+      </scope>
+      <scope id="5475156782151734164" at="27,0,31,0">
+        <var name="instance" id="5475156782151734164" />
+      </scope>
+      <scope id="5475156782151734227" at="32,0,36,0">
+        <var name="instance" id="5475156782151734227" />
+      </scope>
+      <scope id="5475156782151734140" at="37,0,41,0">
+        <var name="instance" id="5475156782151734140" />
+      </scope>
+      <scope id="5475156782151734183" at="49,0,53,0">
+        <var name="node" id="5475156782151734183" />
+      </scope>
+      <scope id="5475156782151734183" at="25,49,41,44" />
+      <scope id="5475156782151734183" at="25,0,43,0" />
+      <unit id="5475156782151734183" at="54,0,57,0" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_t7b83i_e$CONCEPTS" />
+      <unit id="5475156782151734164" at="26,309,31,5" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_t7b83i_e$1" />
+      <unit id="5475156782151734227" at="31,142,36,5" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_t7b83i_e$2" />
+      <unit id="5475156782151734140" at="36,145,41,5" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_t7b83i_e$3" />
+      <unit id="5475156782151734183" at="58,0,63,0" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_t7b83i_e$PROPS" />
+      <unit id="5475156782151734183" at="64,0,69,0" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_t7b83i_e$LINKS" />
+      <unit id="5475156782151734183" at="23,0,70,0" name="de.itemis.model.merge.test.plugin.tSystem_mergepolicy_tSystem_t7b83i_e" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/5905318032385061136">
+    <file name="Bottom_mergepolicy_Bottom_6g9jqq_c.java">
+      <node id="5905318032385061139" at="18,47,19,177" concept="10" />
+      <node id="5905318032385061139" at="23,42,24,20" concept="6" />
+      <node id="5905318032385061139" at="28,32,29,30" concept="6" />
+      <node id="5905318032385061139" at="33,0,34,0" concept="8" trace="Bottom$qs" />
+      <node id="5905318032385061139" at="37,0,38,0" concept="8" trace="optChild$$0p_" />
+      <node id="5905318032385061139" at="18,0,21,0" concept="1" trace="Bottom_mergepolicy_Bottom_6g9jqq_c#()V" />
+      <node id="5905318032385061139" at="23,0,26,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5905318032385061139" at="27,0,31,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="5905318032385061139" at="18,47,19,177" />
+      <scope id="5905318032385061139" at="23,42,24,20" />
+      <scope id="5905318032385061139" at="28,32,29,30" />
+      <scope id="5905318032385061139" at="18,0,21,0" />
+      <scope id="5905318032385061139" at="23,0,26,0">
+        <var name="instance" id="5905318032385061139" />
+      </scope>
+      <scope id="5905318032385061139" at="27,0,31,0">
+        <var name="node" id="5905318032385061139" />
+      </scope>
+      <unit id="5905318032385061139" at="32,0,35,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_6g9jqq_c$CONCEPTS" />
+      <unit id="5905318032385061139" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_6g9jqq_c$LINKS" />
+      <unit id="5905318032385061139" at="16,0,40,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_6g9jqq_c" />
+    </file>
+    <file name="RightOptionalChildDiamondMerge.java">
+      <node id="5905318032385061136" at="16,22,17,64" concept="6" />
+      <node id="5905318032385061136" at="20,59,21,85" concept="6" />
+      <node id="5905318032385061136" at="12,0,14,0" concept="1" trace="RightOptionalChildDiamondMerge#()V" />
+      <node id="5905318032385061136" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="5905318032385061136" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="5905318032385061136" at="12,43,12,43" />
+      <scope id="5905318032385061136" at="16,22,17,64" />
+      <scope id="5905318032385061136" at="20,59,21,85" />
+      <scope id="5905318032385061136" at="12,0,14,0" />
+      <scope id="5905318032385061136" at="15,0,19,0" />
+      <scope id="5905318032385061136" at="19,0,23,0" />
+      <unit id="5905318032385061136" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.RightOptionalChildDiamondMerge" />
+    </file>
+    <file name="RightOptionalChildDiamondMerge_extension.java">
+      <node id="5905318032385061136" at="9,53,10,49" concept="10" />
+      <node id="5905318032385061136" at="14,32,15,48" concept="6" />
+      <node id="5905318032385061136" at="9,0,12,0" concept="1" trace="RightOptionalChildDiamondMerge_extension#()V" />
+      <node id="5905318032385061136" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="5905318032385061136" at="9,53,10,49" />
+      <scope id="5905318032385061136" at="14,32,15,48" />
+      <scope id="5905318032385061136" at="9,0,12,0" />
+      <scope id="5905318032385061136" at="14,0,17,0" />
+      <unit id="5905318032385061136" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.RightOptionalChildDiamondMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/5905318032386047708">
+    <file name="Bottom_mergepolicy_Bottom_v9zplk_c.java">
+      <node id="5905318032386047711" at="18,47,19,176" concept="10" />
+      <node id="5905318032386047711" at="23,42,24,20" concept="6" />
+      <node id="5905318032386047711" at="28,32,29,30" concept="6" />
+      <node id="5905318032386047711" at="33,0,34,0" concept="8" trace="Bottom$qs" />
+      <node id="5905318032386047711" at="37,0,38,0" concept="8" trace="optChild$$0p_" />
+      <node id="5905318032386047711" at="18,0,21,0" concept="1" trace="Bottom_mergepolicy_Bottom_v9zplk_c#()V" />
+      <node id="5905318032386047711" at="23,0,26,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5905318032386047711" at="27,0,31,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="5905318032386047711" at="18,47,19,176" />
+      <scope id="5905318032386047711" at="23,42,24,20" />
+      <scope id="5905318032386047711" at="28,32,29,30" />
+      <scope id="5905318032386047711" at="18,0,21,0" />
+      <scope id="5905318032386047711" at="23,0,26,0">
+        <var name="instance" id="5905318032386047711" />
+      </scope>
+      <scope id="5905318032386047711" at="27,0,31,0">
+        <var name="node" id="5905318032386047711" />
+      </scope>
+      <unit id="5905318032386047711" at="32,0,35,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_v9zplk_c$CONCEPTS" />
+      <unit id="5905318032386047711" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_v9zplk_c$LINKS" />
+      <unit id="5905318032386047711" at="16,0,40,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_v9zplk_c" />
+    </file>
+    <file name="DropOptionalChildDiamondMerge.java">
+      <node id="5905318032386047708" at="16,22,17,63" concept="6" />
+      <node id="5905318032386047708" at="20,59,21,85" concept="6" />
+      <node id="5905318032386047708" at="12,0,14,0" concept="1" trace="DropOptionalChildDiamondMerge#()V" />
+      <node id="5905318032386047708" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="5905318032386047708" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="5905318032386047708" at="12,42,12,42" />
+      <scope id="5905318032386047708" at="16,22,17,63" />
+      <scope id="5905318032386047708" at="20,59,21,85" />
+      <scope id="5905318032386047708" at="12,0,14,0" />
+      <scope id="5905318032386047708" at="15,0,19,0" />
+      <scope id="5905318032386047708" at="19,0,23,0" />
+      <unit id="5905318032386047708" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.DropOptionalChildDiamondMerge" />
+    </file>
+    <file name="DropOptionalChildDiamondMerge_extension.java">
+      <node id="5905318032386047708" at="9,52,10,49" concept="10" />
+      <node id="5905318032386047708" at="14,32,15,47" concept="6" />
+      <node id="5905318032386047708" at="9,0,12,0" concept="1" trace="DropOptionalChildDiamondMerge_extension#()V" />
+      <node id="5905318032386047708" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="5905318032386047708" at="9,52,10,49" />
+      <scope id="5905318032386047708" at="14,32,15,47" />
+      <scope id="5905318032386047708" at="9,0,12,0" />
+      <scope id="5905318032386047708" at="14,0,17,0" />
+      <unit id="5905318032386047708" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.DropOptionalChildDiamondMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/5905318032386962693">
+    <file name="Bottom_mergepolicy_Bottom_ulvd25_c.java">
+      <node id="5905318032386962697" at="28,38,29,35" concept="6" />
+      <node id="5905318032386962697" at="34,139,35,62" concept="5" />
+      <node id="5905318032386962697" at="35,62,36,103" concept="2" />
+      <node id="5905318032386962697" at="36,103,37,53" concept="6" />
+      <node id="6699896504611456248" at="40,28,41,70" concept="6" />
+      <node id="6699896504612468614" at="42,9,43,42" concept="6" />
+      <node id="6699896504612478240" at="43,42,44,0" concept="7" />
+      <node id="5905318032386962696" at="51,42,52,20" concept="6" />
+      <node id="5905318032386962696" at="56,32,57,30" concept="6" />
+      <node id="6699896504612482986" at="59,51,60,64" concept="5" />
+      <node id="6699896504612482986" at="60,64,61,46" concept="2" />
+      <node id="6699896504612482986" at="61,46,62,46" concept="2" />
+      <node id="6699896504612482986" at="62,46,63,51" concept="2" />
+      <node id="6699896504612482986" at="63,51,64,26" concept="6" />
+      <node id="5905318032386962696" at="68,0,69,0" concept="8" trace="Bottom$qs" />
+      <node id="5905318032386962696" at="69,0,70,0" concept="8" trace="Data$P9" />
+      <node id="5905318032386962696" at="73,0,74,0" concept="8" trace="optChild$$0p_" />
+      <node id="5905318032386962696" at="74,0,75,0" concept="8" trace="myDate$skCl" />
+      <node id="5905318032386962696" at="75,0,76,0" concept="8" trace="other2$q9Vq" />
+      <node id="5905318032386962696" at="79,0,80,0" concept="8" trace="data$GFGu" />
+      <node id="6699896504611456246" at="39,139,42,9" concept="3" />
+      <node id="5905318032386962696" at="51,0,54,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5905318032386962697" at="27,0,31,0" concept="4" trace="link#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
+      <node id="5905318032386962696" at="55,0,59,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5905318032386962697" at="33,0,39,0" concept="4" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)Ljava/util/List;" />
+      <node id="5905318032386962697" at="39,0,46,0" concept="4" trace="innerMerge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="6699896504612482986" at="59,0,66,0" concept="9" trace="createData_ulvd25_a1a0a2#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5905318032386962696" at="25,47,47,43" concept="10" />
+      <node id="5905318032386962696" at="25,0,49,0" concept="1" trace="Bottom_mergepolicy_Bottom_ulvd25_c#()V" />
+      <scope id="5905318032386962697" at="28,38,29,35" />
+      <scope id="6699896504611456247" at="40,28,41,70" />
+      <scope id="5905318032386962696" at="51,42,52,20" />
+      <scope id="5905318032386962696" at="56,32,57,30" />
+      <scope id="5905318032386962697" at="34,139,37,53">
+        <var name="innerMerge" id="5905318032386962697" />
+      </scope>
+      <scope id="5905318032386962696" at="51,0,54,0">
+        <var name="instance" id="5905318032386962696" />
+      </scope>
+      <scope id="5905318032386962697" at="27,0,31,0" />
+      <scope id="5905318032386962696" at="55,0,59,0">
+        <var name="node" id="5905318032386962696" />
+      </scope>
+      <scope id="5905318032386962697" at="39,139,44,0" />
+      <scope id="6699896504612482986" at="59,51,64,26">
+        <var name="n0" id="6699896504612482986" />
+      </scope>
+      <scope id="5905318032386962697" at="33,0,39,0">
+        <var name="auto" id="5905318032386962697" />
+        <var name="left" id="5905318032386962697" />
+        <var name="right" id="5905318032386962697" />
+      </scope>
+      <scope id="5905318032386962697" at="39,0,46,0">
+        <var name="auto" id="5905318032386962697" />
+        <var name="left" id="5905318032386962697" />
+        <var name="right" id="5905318032386962697" />
+      </scope>
+      <scope id="6699896504612482986" at="59,0,66,0" />
+      <scope id="5905318032386962696" at="25,47,47,43" />
+      <scope id="5905318032386962696" at="25,0,49,0" />
+      <unit id="5905318032386962696" at="78,0,81,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_ulvd25_c$PROPS" />
+      <unit id="5905318032386962696" at="67,0,71,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_ulvd25_c$CONCEPTS" />
+      <unit id="5905318032386962696" at="72,0,77,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_ulvd25_c$LINKS" />
+      <unit id="5905318032386962697" at="26,101,47,5" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_ulvd25_c$1" />
+      <unit id="5905318032386962696" at="23,0,82,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_ulvd25_c" />
+    </file>
+    <file name="ManualOptionalChildDiamondMerge.java">
+      <node id="5905318032386962693" at="16,22,17,65" concept="6" />
+      <node id="5905318032386962693" at="20,59,21,85" concept="6" />
+      <node id="5905318032386962693" at="12,0,14,0" concept="1" trace="ManualOptionalChildDiamondMerge#()V" />
+      <node id="5905318032386962693" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="5905318032386962693" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="5905318032386962693" at="12,44,12,44" />
+      <scope id="5905318032386962693" at="16,22,17,65" />
+      <scope id="5905318032386962693" at="20,59,21,85" />
+      <scope id="5905318032386962693" at="12,0,14,0" />
+      <scope id="5905318032386962693" at="15,0,19,0" />
+      <scope id="5905318032386962693" at="19,0,23,0" />
+      <unit id="5905318032386962693" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.ManualOptionalChildDiamondMerge" />
+    </file>
+    <file name="ManualOptionalChildDiamondMerge_extension.java">
+      <node id="5905318032386962693" at="9,54,10,49" concept="10" />
+      <node id="5905318032386962693" at="14,32,15,49" concept="6" />
+      <node id="5905318032386962693" at="9,0,12,0" concept="1" trace="ManualOptionalChildDiamondMerge_extension#()V" />
+      <node id="5905318032386962693" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="5905318032386962693" at="9,54,10,49" />
+      <scope id="5905318032386962693" at="14,32,15,49" />
+      <scope id="5905318032386962693" at="9,0,12,0" />
+      <scope id="5905318032386962693" at="14,0,17,0" />
+      <unit id="5905318032386962693" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.ManualOptionalChildDiamondMerge_extension" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/6922793481531133453">
+    <file name="Bottom_mergepolicy_Bottom_r7sol5_f.java">
+      <node id="4701805618573566673" at="16,47,17,135" concept="10" />
+      <node id="4701805618573566673" at="21,42,22,20" concept="6" />
+      <node id="4701805618573566673" at="26,32,27,30" concept="6" />
+      <node id="4701805618573566673" at="31,0,32,0" concept="8" trace="Bottom$qs" />
+      <node id="4701805618573566673" at="16,0,19,0" concept="1" trace="Bottom_mergepolicy_Bottom_r7sol5_f#()V" />
+      <node id="4701805618573566673" at="21,0,24,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4701805618573566673" at="25,0,29,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="4701805618573566673" at="16,47,17,135" />
+      <scope id="4701805618573566673" at="21,42,22,20" />
+      <scope id="4701805618573566673" at="26,32,27,30" />
+      <scope id="4701805618573566673" at="16,0,19,0" />
+      <scope id="4701805618573566673" at="21,0,24,0">
+        <var name="instance" id="4701805618573566673" />
+      </scope>
+      <scope id="4701805618573566673" at="25,0,29,0">
+        <var name="node" id="4701805618573566673" />
+      </scope>
+      <unit id="4701805618573566673" at="30,0,33,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_r7sol5_f$CONCEPTS" />
+      <unit id="4701805618573566673" at="14,0,34,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_r7sol5_f" />
+    </file>
+    <file name="IdClash.java">
+      <node id="6922793481531133453" at="16,22,17,41" concept="6" />
+      <node id="6922793481531133453" at="20,59,21,135" concept="6" />
+      <node id="6922793481531133453" at="12,0,14,0" concept="1" trace="IdClash#()V" />
+      <node id="6922793481531133453" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="6922793481531133453" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="6922793481531133453" at="12,20,12,20" />
+      <scope id="6922793481531133453" at="16,22,17,41" />
+      <scope id="6922793481531133453" at="20,59,21,135" />
+      <scope id="6922793481531133453" at="12,0,14,0" />
+      <scope id="6922793481531133453" at="15,0,19,0" />
+      <scope id="6922793481531133453" at="19,0,23,0" />
+      <unit id="6922793481531133453" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.IdClash" />
+    </file>
+    <file name="IdClash_extension.java">
+      <node id="6922793481531133453" at="9,30,10,49" concept="10" />
+      <node id="6922793481531133453" at="14,32,15,25" concept="6" />
+      <node id="6922793481531133453" at="9,0,12,0" concept="1" trace="IdClash_extension#()V" />
+      <node id="6922793481531133453" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="6922793481531133453" at="9,30,10,49" />
+      <scope id="6922793481531133453" at="14,32,15,25" />
+      <scope id="6922793481531133453" at="9,0,12,0" />
+      <scope id="6922793481531133453" at="14,0,17,0" />
+      <unit id="6922793481531133453" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.IdClash_extension" />
+    </file>
+    <file name="Interface1_mergepolicy_Interface1_r7sol5_d.java">
+      <node id="4701805618573567011" at="16,55,17,139" concept="10" />
+      <node id="4701805618573567313" at="21,42,22,14" concept="6" />
+      <node id="4701805618573567011" at="26,32,27,30" concept="6" />
+      <node id="4701805618573567011" at="31,0,32,0" concept="8" trace="Interface1$rT" />
+      <node id="4701805618573567011" at="16,0,19,0" concept="1" trace="Interface1_mergepolicy_Interface1_r7sol5_d#()V" />
+      <node id="4701805618573567011" at="21,0,24,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4701805618573567011" at="25,0,29,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="4701805618573567011" at="16,55,17,139" />
+      <scope id="4701805618573567011" at="21,42,22,14" />
+      <scope id="4701805618573567011" at="26,32,27,30" />
+      <scope id="4701805618573567011" at="16,0,19,0" />
+      <scope id="4701805618573567011" at="21,0,24,0">
+        <var name="instance" id="4701805618573567011" />
+      </scope>
+      <scope id="4701805618573567011" at="25,0,29,0">
+        <var name="node" id="4701805618573567011" />
+      </scope>
+      <unit id="4701805618573567011" at="30,0,33,0" name="de.itemis.model.merge.test.plugin.Interface1_mergepolicy_Interface1_r7sol5_d$CONCEPTS" />
+      <unit id="4701805618573567011" at="14,0,34,0" name="de.itemis.model.merge.test.plugin.Interface1_mergepolicy_Interface1_r7sol5_d" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/7998458735182957863">
+    <file name="CollectionChildDiamondMergeManual.java">
+      <node id="7998458735182957863" at="16,22,17,67" concept="6" />
+      <node id="7998458735182957863" at="20,59,21,125" concept="6" />
+      <node id="7998458735182957863" at="12,0,14,0" concept="1" trace="CollectionChildDiamondMergeManual#()V" />
+      <node id="7998458735182957863" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="7998458735182957863" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="7998458735182957863" at="12,46,12,46" />
+      <scope id="7998458735182957863" at="16,22,17,67" />
+      <scope id="7998458735182957863" at="20,59,21,125" />
+      <scope id="7998458735182957863" at="12,0,14,0" />
+      <scope id="7998458735182957863" at="15,0,19,0" />
+      <scope id="7998458735182957863" at="19,0,23,0" />
+      <unit id="7998458735182957863" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.CollectionChildDiamondMergeManual" />
+    </file>
+    <file name="CollectionChildDiamondMergeManual_extension.java">
+      <node id="7998458735182957863" at="9,56,10,49" concept="10" />
+      <node id="7998458735182957863" at="14,32,15,51" concept="6" />
+      <node id="7998458735182957863" at="9,0,12,0" concept="1" trace="CollectionChildDiamondMergeManual_extension#()V" />
+      <node id="7998458735182957863" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="7998458735182957863" at="9,56,10,49" />
+      <scope id="7998458735182957863" at="14,32,15,51" />
+      <scope id="7998458735182957863" at="9,0,12,0" />
+      <scope id="7998458735182957863" at="14,0,17,0" />
+      <unit id="7998458735182957863" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.CollectionChildDiamondMergeManual_extension" />
+    </file>
+    <file name="Data_mergepolicy_Data_yx7js4_b.java">
+      <node id="7998458735182957869" at="31,227,32,90" concept="5" />
+      <node id="7998458735182957869" at="32,90,33,72" concept="2" />
+      <node id="7998458735182957869" at="33,72,34,77" concept="2" />
+      <node id="2120062183197908948" at="36,139,37,203" concept="5" />
+      <node id="2120062183197907847" at="37,203,38,180" concept="2" />
+      <node id="2120062183197916701" at="38,180,39,26" concept="6" />
+      <node id="4230186324086534904" at="43,41,44,72" concept="6" />
+      <node id="1776382911718971836" at="50,42,51,128" concept="6" />
+      <node id="7998458735182957865" at="55,32,56,30" concept="6" />
+      <node id="7998458735182957865" at="60,0,61,0" concept="8" trace="Data$P9" />
+      <node id="7998458735182957865" at="64,0,65,0" concept="8" trace="data$fQWJ" />
+      <node id="7998458735182957865" at="65,0,66,0" concept="8" trace="data2$aPNl" />
+      <node id="7998458735182957865" at="66,0,67,0" concept="8" trace="data$GFGu" />
+      <node id="7998458735182957865" at="70,0,71,0" concept="8" trace="myDate3$8mIJ" />
+      <node id="7998458735182957865" at="50,0,53,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4230186324086534880" at="42,0,46,0" concept="4" trace="get#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7998458735182957865" at="54,0,58,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7998458735182957869" at="36,0,41,0" concept="4" trace="innerMerge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7998458735182957869" at="30,0,36,0" concept="4" trace="merge#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/Collection;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)V" />
+      <node id="7998458735182957865" at="28,43,46,44" concept="10" />
+      <node id="7998458735182957865" at="28,0,48,0" concept="1" trace="Data_mergepolicy_Data_yx7js4_b#()V" />
+      <scope id="4230186324086534880" at="43,41,44,72" />
+      <scope id="7998458735182957865" at="50,42,51,128" />
+      <scope id="7998458735182957865" at="55,32,56,30" />
+      <scope id="7998458735182957869" at="31,227,34,77">
+        <var name="innerMerge" id="7998458735182957869" />
+      </scope>
+      <scope id="7998458735182957869" at="36,139,39,26">
+        <var name="newPayload" id="2120062183197908949" />
+      </scope>
+      <scope id="7998458735182957865" at="50,0,53,0">
+        <var name="instance" id="7998458735182957865" />
+      </scope>
+      <scope id="4230186324086534880" at="42,0,46,0">
+        <var name="instance" id="4230186324086534880" />
+      </scope>
+      <scope id="7998458735182957865" at="54,0,58,0">
+        <var name="node" id="7998458735182957865" />
+      </scope>
+      <scope id="7998458735182957869" at="36,0,41,0">
+        <var name="auto" id="7998458735182957869" />
+        <var name="left" id="7998458735182957869" />
+        <var name="right" id="7998458735182957869" />
+      </scope>
+      <scope id="7998458735182957869" at="30,0,36,0">
+        <var name="autoMergeOperation" id="7998458735182957869" />
+        <var name="collection" id="7998458735182957869" />
+        <var name="elementLeft" id="7998458735182957869" />
+        <var name="elementRight" id="7998458735182957869" />
+        <var name="leftParent" id="7998458735182957869" />
+        <var name="rightParent" id="7998458735182957869" />
+      </scope>
+      <scope id="7998458735182957865" at="28,43,46,44" />
+      <scope id="7998458735182957865" at="28,0,48,0" />
+      <unit id="7998458735182957865" at="59,0,62,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_yx7js4_b$CONCEPTS" />
+      <unit id="7998458735182957865" at="69,0,72,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_yx7js4_b$LINKS" />
+      <unit id="4230186324086534880" at="41,31,46,5" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_yx7js4_b$2" />
+      <unit id="7998458735182957865" at="63,0,68,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_yx7js4_b$PROPS" />
+      <unit id="7998458735182957869" at="29,180,41,5" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_yx7js4_b$1" />
+      <unit id="7998458735182957865" at="26,0,73,0" name="de.itemis.model.merge.test.plugin.Data_mergepolicy_Data_yx7js4_b" />
+    </file>
+    <file name="Payload_mergepolicy_Payload_yx7js4_d.java">
+      <node id="1776382911718207917" at="18,49,19,136" concept="10" />
+      <node id="4230186324086534904" at="23,42,24,68" concept="6" />
+      <node id="1776382911718207917" at="28,32,29,30" concept="6" />
+      <node id="1776382911718207917" at="33,0,34,0" concept="8" trace="Payload$$c" />
+      <node id="1776382911718207917" at="37,0,38,0" concept="8" trace="data$fQWJ" />
+      <node id="1776382911718207917" at="18,0,21,0" concept="1" trace="Payload_mergepolicy_Payload_yx7js4_d#()V" />
+      <node id="1776382911718207917" at="23,0,26,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1776382911718207917" at="27,0,31,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="1776382911718207917" at="18,49,19,136" />
+      <scope id="1776382911718207917" at="23,42,24,68" />
+      <scope id="1776382911718207917" at="28,32,29,30" />
+      <scope id="1776382911718207917" at="18,0,21,0" />
+      <scope id="1776382911718207917" at="23,0,26,0">
+        <var name="instance" id="1776382911718207917" />
+      </scope>
+      <scope id="1776382911718207917" at="27,0,31,0">
+        <var name="node" id="1776382911718207917" />
+      </scope>
+      <unit id="1776382911718207917" at="32,0,35,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_yx7js4_d$CONCEPTS" />
+      <unit id="1776382911718207917" at="36,0,39,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_yx7js4_d$PROPS" />
+      <unit id="1776382911718207917" at="16,0,40,0" name="de.itemis.model.merge.test.plugin.Payload_mergepolicy_Payload_yx7js4_d" />
+    </file>
+  </root>
+  <root nodeRef="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)/8032055585895575077">
+    <file name="Bottom_mergepolicy_Bottom_129v_e.java">
+      <node id="8032055585895989484" at="16,45,17,135" concept="10" />
+      <node id="8032055585895989484" at="21,42,22,20" concept="6" />
+      <node id="8032055585895989484" at="26,32,27,30" concept="6" />
+      <node id="8032055585895989484" at="31,0,32,0" concept="8" trace="Bottom$qs" />
+      <node id="8032055585895989484" at="16,0,19,0" concept="1" trace="Bottom_mergepolicy_Bottom_129v_e#()V" />
+      <node id="8032055585895989484" at="21,0,24,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="8032055585895989484" at="25,0,29,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="8032055585895989484" at="16,45,17,135" />
+      <scope id="8032055585895989484" at="21,42,22,20" />
+      <scope id="8032055585895989484" at="26,32,27,30" />
+      <scope id="8032055585895989484" at="16,0,19,0" />
+      <scope id="8032055585895989484" at="21,0,24,0">
+        <var name="instance" id="8032055585895989484" />
+      </scope>
+      <scope id="8032055585895989484" at="25,0,29,0">
+        <var name="node" id="8032055585895989484" />
+      </scope>
+      <unit id="8032055585895989484" at="30,0,33,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_129v_e$CONCEPTS" />
+      <unit id="8032055585895989484" at="14,0,34,0" name="de.itemis.model.merge.test.plugin.Bottom_mergepolicy_Bottom_129v_e" />
+    </file>
+    <file name="Interface1_mergepolicy_Interface1_129v_b.java">
+      <node id="8032055585895989098" at="16,53,17,139" concept="10" />
+      <node id="8032055585895989098" at="21,42,22,20" concept="6" />
+      <node id="8032055585895989098" at="26,32,27,30" concept="6" />
+      <node id="8032055585895989098" at="31,0,32,0" concept="8" trace="Interface1$rT" />
+      <node id="8032055585895989098" at="16,0,19,0" concept="1" trace="Interface1_mergepolicy_Interface1_129v_b#()V" />
+      <node id="8032055585895989098" at="21,0,24,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="8032055585895989098" at="25,0,29,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="8032055585895989098" at="16,53,17,139" />
+      <scope id="8032055585895989098" at="21,42,22,20" />
+      <scope id="8032055585895989098" at="26,32,27,30" />
+      <scope id="8032055585895989098" at="16,0,19,0" />
+      <scope id="8032055585895989098" at="21,0,24,0">
+        <var name="instance" id="8032055585895989098" />
+      </scope>
+      <scope id="8032055585895989098" at="25,0,29,0">
+        <var name="node" id="8032055585895989098" />
+      </scope>
+      <unit id="8032055585895989098" at="30,0,33,0" name="de.itemis.model.merge.test.plugin.Interface1_mergepolicy_Interface1_129v_b$CONCEPTS" />
+      <unit id="8032055585895989098" at="14,0,34,0" name="de.itemis.model.merge.test.plugin.Interface1_mergepolicy_Interface1_129v_b" />
+    </file>
+    <file name="Interface2_mergepolicy_Interface2_129v_c.java">
+      <node id="8032055585895989106" at="16,53,17,139" concept="10" />
+      <node id="8032055585895989106" at="21,42,22,20" concept="6" />
+      <node id="8032055585895989106" at="26,32,27,30" concept="6" />
+      <node id="8032055585895989106" at="31,0,32,0" concept="8" trace="Interface2$so" />
+      <node id="8032055585895989106" at="16,0,19,0" concept="1" trace="Interface2_mergepolicy_Interface2_129v_c#()V" />
+      <node id="8032055585895989106" at="21,0,24,0" concept="4" trace="innerId#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="8032055585895989106" at="25,0,29,0" concept="4" trace="id#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="8032055585895989106" at="16,53,17,139" />
+      <scope id="8032055585895989106" at="21,42,22,20" />
+      <scope id="8032055585895989106" at="26,32,27,30" />
+      <scope id="8032055585895989106" at="16,0,19,0" />
+      <scope id="8032055585895989106" at="21,0,24,0">
+        <var name="instance" id="8032055585895989106" />
+      </scope>
+      <scope id="8032055585895989106" at="25,0,29,0">
+        <var name="node" id="8032055585895989106" />
+      </scope>
+      <unit id="8032055585895989106" at="30,0,33,0" name="de.itemis.model.merge.test.plugin.Interface2_mergepolicy_Interface2_129v_c$CONCEPTS" />
+      <unit id="8032055585895989106" at="14,0,34,0" name="de.itemis.model.merge.test.plugin.Interface2_mergepolicy_Interface2_129v_c" />
+    </file>
+    <file name="dad.java">
+      <node id="8032055585895575077" at="16,22,17,37" concept="6" />
+      <node id="8032055585895575077" at="20,59,21,179" concept="6" />
+      <node id="8032055585895575077" at="12,0,14,0" concept="1" trace="dad#()V" />
+      <node id="8032055585895575077" at="15,0,19,0" concept="4" trace="id#()Ljava/lang/String;" />
+      <node id="8032055585895575077" at="19,0,23,0" concept="4" trace="conceptMergeSpecs#()Ljava/util/Collection;" />
+      <scope id="8032055585895575077" at="12,16,12,16" />
+      <scope id="8032055585895575077" at="16,22,17,37" />
+      <scope id="8032055585895575077" at="20,59,21,179" />
+      <scope id="8032055585895575077" at="12,0,14,0" />
+      <scope id="8032055585895575077" at="15,0,19,0" />
+      <scope id="8032055585895575077" at="19,0,23,0" />
+      <unit id="8032055585895575077" at="10,0,24,0" name="de.itemis.model.merge.test.plugin.dad" />
+    </file>
+    <file name="dad_extension.java">
+      <node id="8032055585895575077" at="9,26,10,49" concept="10" />
+      <node id="8032055585895575077" at="14,32,15,21" concept="6" />
+      <node id="8032055585895575077" at="9,0,12,0" concept="1" trace="dad_extension#()V" />
+      <node id="8032055585895575077" at="14,0,17,0" concept="0" trace="get#()Lde/itemis/model/merge/runtime/runtime/MergePolicySpec;" />
+      <scope id="8032055585895575077" at="9,26,10,49" />
+      <scope id="8032055585895575077" at="14,32,15,21" />
+      <scope id="8032055585895575077" at="9,0,12,0" />
+      <scope id="8032055585895575077" at="14,0,17,0" />
+      <unit id="8032055585895575077" at="8,0,18,0" name="de.itemis.model.merge.test.plugin.dad_extension" />
+    </file>
+  </root>
+</debug-info>
+

@@ -22,11 +22,11 @@ import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 public final class ITextGenElement__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x4b0b5d65ba2e6992L, "com.dslfoundry.plaintextgen.structure.ITextGenElement");
 
-  public static final SMethod<Integer> Width_id6gwxh6GcBOM = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("Width").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
-  public static final SMethod<Integer> Editor_View_Width_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("Editor_View_Width").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
-  public static final SMethod<Point> TextGen_id4GbnmmUaMp0 = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("TextGen").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""));
+  public static final SMethod<Integer> getWidth_id6gwxh6GcBOM = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getWidth").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
+  public static final SMethod<Integer> getEditorViewWidth_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getEditorViewWidth").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
+  public static final SMethod<Point> getPosition_id4GbnmmUaMp0 = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("getPosition").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(Width_id6gwxh6GcBOM, Editor_View_Width_id2jBmyzyEzhY, TextGen_id4GbnmmUaMp0);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWidth_id6gwxh6GcBOM, getEditorViewWidth_id2jBmyzyEzhY, getPosition_id4GbnmmUaMp0);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="ati08ouv0tx7wzrp2cjny6ncskfzu5d">
+  <files names="Backspace_Test.java:DeleteWordAtStart_Test.java:DeleteWord_Test.java:Delete_Test.java:InsertTextInBetween_Test.java:InsertText_Test.java:LocalEndNextWord_Test.java:LocalEndToEnd_Test.java:LocalEnd_Test.java:LocalHomePreviousWord_Test.java:LocalHomeToStart_Test.java:LocalHome_Test.java:NewLineBefore_Test.java:SelectDown_Test.java:SelectUp_Test.java:SelectionBetweenLinesDown_Test.java:SelectionBetweenLinesLeft_Test.java:SelectionBetweenLinesRight_Test.java:SelectionBetweenLinesUp_Test.java:SelectionBetweenWordsDown_Test.java:SelectionBetweenWordsLeft_Test.java:SelectionBetweenWordsRight_Test.java:SelectionBetweenWordsUp_Test.java:SelectionFromEndRight_Test.java:SelectionFromStartLeft_Test.java:SelectionFromStartRight_Test.java:SelectionToEndRight_Test.java:SelectionToStartLeft_Test.java" />
+</product>
+

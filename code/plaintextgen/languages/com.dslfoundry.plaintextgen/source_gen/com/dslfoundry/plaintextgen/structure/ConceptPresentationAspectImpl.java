@@ -16,10 +16,10 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Line;
   private ConceptPresentation props_NewlineMarker;
   private ConceptPresentation props_SpaceIndentedText;
+  private ConceptPresentation props_Tab;
   private ConceptPresentation props_TextgenText;
   private ConceptPresentation props_VerticalLines;
-  private ConceptPresentation props_tab;
-  private ConceptPresentation props_word;
+  private ConceptPresentation props_Word;
 
   @Override
   @Nullable
@@ -53,7 +53,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Line:
         if (props_Line == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Horizontal Collection");
+          cpb.shortDesc("a horizontal collection");
           cpb.rawPresentation(">");
           props_Line = cpb.create();
         }
@@ -61,18 +61,26 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.NewlineMarker:
         if (props_NewlineMarker == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("NewlineMarker");
+          cpb.rawPresentation("a new line marker");
           props_NewlineMarker = cpb.create();
         }
         return props_NewlineMarker;
       case LanguageConceptSwitch.SpaceIndentedText:
         if (props_SpaceIndentedText == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Indent Collection (spaces)");
+          cpb.shortDesc("an indent collection (spaces)");
           cpb.rawPresentation("-");
           props_SpaceIndentedText = cpb.create();
         }
         return props_SpaceIndentedText;
+      case LanguageConceptSwitch.Tab:
+        if (props_Tab == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("a literal tab character");
+          cpb.rawPresentation("--->");
+          props_Tab = cpb.create();
+        }
+        return props_Tab;
       case LanguageConceptSwitch.TextgenText:
         if (props_TextgenText == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -83,27 +91,19 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.VerticalLines:
         if (props_VerticalLines == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Vertical Collection");
+          cpb.shortDesc("a vertical Collection");
           cpb.rawPresentation("/");
           props_VerticalLines = cpb.create();
         }
         return props_VerticalLines;
-      case LanguageConceptSwitch.tab:
-        if (props_tab == null) {
+      case LanguageConceptSwitch.Word:
+        if (props_Word == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("a literal tab character");
-          cpb.rawPresentation("--->");
-          props_tab = cpb.create();
-        }
-        return props_tab;
-      case LanguageConceptSwitch.word:
-        if (props_word == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Word");
+          cpb.shortDesc("a single word");
           cpb.presentationByName();
-          props_word = cpb.create();
+          props_Word = cpb.create();
         }
-        return props_word;
+        return props_Word;
     }
     return null;
   }

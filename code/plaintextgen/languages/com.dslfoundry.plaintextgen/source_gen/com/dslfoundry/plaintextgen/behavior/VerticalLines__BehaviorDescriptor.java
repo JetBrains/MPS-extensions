@@ -25,31 +25,31 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class VerticalLines__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines");
 
-  public static final SMethod<Integer> Width_id6gwxh6GcBOM = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("Width").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
-  public static final SMethod<Point> TextGen_id4GbnmmUaMp0 = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("TextGen").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""));
-  public static final SMethod<Integer> Editor_View_Width_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("Editor_View_Width").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
+  public static final SMethod<Integer> getWidth_id6gwxh6GcBOM = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
+  public static final SMethod<Point> getPosition_id4GbnmmUaMp0 = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("getPosition").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""));
+  public static final SMethod<Integer> getEditorViewWidth_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getEditorViewWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(Width_id6gwxh6GcBOM, TextGen_id4GbnmmUaMp0, Editor_View_Width_id2jBmyzyEzhY);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWidth_id6gwxh6GcBOM, getPosition_id4GbnmmUaMp0, getEditorViewWidth_id2jBmyzyEzhY);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
-  /*package*/ static int Width_id6gwxh6GcBOM(@NotNull SNode __thisNode__) {
+  /*package*/ static int getWidth_id6gwxh6GcBOM(@NotNull SNode __thisNode__) {
     int max = 0;
     for (SNode line : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.lines$u7C))) {
-      max = Integer.max(max, (int) ITextGenElement__BehaviorDescriptor.Width_id6gwxh6GcBOM.invoke(line));
+      max = Integer.max(max, (int) ITextGenElement__BehaviorDescriptor.getWidth_id6gwxh6GcBOM.invoke(line));
     }
     return max;
   }
-  /*package*/ static Point TextGen_id4GbnmmUaMp0(@NotNull SNode __thisNode__, int row, int column, CharacterMatrix output) {
-    return IVerticalGroup__BehaviorDescriptor.Textgen_Helper_id4GbnmmUaX7G.invoke(__thisNode__, ((int) row), ((int) column), output, ((int) 0));
+  /*package*/ static Point getPosition_id4GbnmmUaMp0(@NotNull SNode __thisNode__, int row, int column, CharacterMatrix output) {
+    return IVerticalGroup__BehaviorDescriptor.getMaxPosition_id4GbnmmUaX7G.invoke(__thisNode__, ((int) row), ((int) column), output, ((int) 0));
   }
-  /*package*/ static int Editor_View_Width_id2jBmyzyEzhY(@NotNull SNode __thisNode__, boolean isQueriedNode) {
+  /*package*/ static int getEditorViewWidth_id2jBmyzyEzhY(@NotNull SNode __thisNode__, boolean isQueriedNode) {
     int max = 0;
     if (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.lines$u7C)).isNotEmpty()) {
       for (SNode line : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.lines$u7C))) {
         if ((line != null)) {
-          max = Integer.max(max, (int) ITextGenElement__BehaviorDescriptor.Editor_View_Width_id2jBmyzyEzhY.invoke(line, ((boolean) false)));
+          max = Integer.max(max, (int) ITextGenElement__BehaviorDescriptor.getEditorViewWidth_id2jBmyzyEzhY.invoke(line, ((boolean) false)));
         }
       }
     }
@@ -72,11 +72,11 @@ public final class VerticalLines__BehaviorDescriptor extends BaseBHDescriptor {
     }
     switch (methodIndex) {
       case 0:
-        return (T) ((Integer) Width_id6gwxh6GcBOM(node));
+        return (T) ((Integer) getWidth_id6gwxh6GcBOM(node));
       case 1:
-        return (T) ((Point) TextGen_id4GbnmmUaMp0(node, ((int) (Integer) parameters[0]), ((int) (Integer) parameters[1]), (CharacterMatrix) parameters[2]));
+        return (T) ((Point) getPosition_id4GbnmmUaMp0(node, ((int) (Integer) parameters[0]), ((int) (Integer) parameters[1]), (CharacterMatrix) parameters[2]));
       case 2:
-        return (T) ((Integer) Editor_View_Width_id2jBmyzyEzhY(node, ((boolean) (Boolean) parameters[0])));
+        return (T) ((Integer) getEditorViewWidth_id2jBmyzyEzhY(node, ((boolean) (Boolean) parameters[0])));
       default:
         throw new BHMethodNotFoundException(this, method);
     }

@@ -295,7 +295,7 @@ public class TransformationTraceComponent extends SimpleToolWindowPanel {
           myProject.getRepository().getModelAccess().executeCommand(() -> {
             SNode target = selectedNode.getNavigationTarget();
             if (target != null) {
-              NavigationSupport.getInstance().openNode(myProject, target, true, true);
+              NavigationSupport.getInstance(myProject).openNode(myProject, target, true, true);
             }
           });
         }

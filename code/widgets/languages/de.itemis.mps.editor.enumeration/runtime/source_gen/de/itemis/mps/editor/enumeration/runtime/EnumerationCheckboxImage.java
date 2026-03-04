@@ -6,17 +6,22 @@ import jetbrains.mps.logging.Logger;
 import java.awt.Image;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.awt.image.ImageObserver;
+import java.util.Map;
+import jetbrains.mps.util.Pair;
+import org.jetbrains.mps.openapi.module.SModuleReference;
+import java.net.URL;
+import java.util.HashMap;
 import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.util.MacrosFactory;
-import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import java.net.URL;
-import jetbrains.mps.smodel.language.LanguageRegistry;
-import java.util.stream.Stream;
 import java.awt.Toolkit;
 import jetbrains.mps.vfs.IFile;
 import jetbrains.mps.project.AbstractModule;
 import java.net.MalformedURLException;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
+import jetbrains.mps.smodel.language.LanguageRegistry;
+import java.util.stream.Stream;
+import jetbrains.mps.classloading.ModuleClassLoader;
 
 public class EnumerationCheckboxImage {
   private static final Logger LOG = Logger.getLogger(EnumerationCheckboxImage.class);
@@ -51,7 +56,9 @@ public class EnumerationCheckboxImage {
     return image.getHeight(o);
   }
 
-  private Image loadImage(String fileName, SNode node) {
+  private static Map<Pair<SModuleReference, String>, URL> urlCache = new HashMap<>();
+
+  private Image loadImage(String fileName, final SNode node) {
     if (fileName == null) {
       return null;
     }
@@ -62,14 +69,17 @@ public class EnumerationCheckboxImage {
     }
 
     if (fileName.startsWith(MacrosFactory.MODULE)) {
-      // in case of module local path, use module runtime / classloader mechanism to load the image 
+      // In case of module local path, use module runtime / classloader mechanism to load the image. 
       // NOTE: using MacrosFactory for resolving ${module} is not viable anymore, since for deployed modules it returns src.jar location that doesn't not contain copied resources (like icons)
-      final String filePathInModule = fileName.substring(MacrosFactory.MODULE.length() + 1);
+      String filePathInModule = fileName.substring(MacrosFactory.MODULE.length() + 1);
 
-      final Wrappers._T<URL> resourceURL = new Wrappers._T<URL>();
-      LanguageRegistry.getInstance(SNodeOperations.getModel(node).getRepository()).withModuleRuntime(Stream.of(module.getModuleReference()), (mr) -> resourceURL.value = mr.getModuleClassLoader().getResource(filePathInModule));
-      if (resourceURL.value != null) {
-        return Toolkit.getDefaultToolkit().getImage(resourceURL.value);
+      // When loading many images from the same resourceURL, it has turned out in performance analysis
+      // that the code in retrieveURL is quite expensive. So we are caching the results.
+      // NOTE: The same approach is done in ImageLoading (for the boolean checkbox widget).
+      SModuleReference moduleRef = module.getModuleReference();
+      URL resourceURL = urlCache.computeIfAbsent(new Pair(moduleRef, filePathInModule), (key) -> retrieveURL(node, key.o1, key.o2));
+      if (resourceURL != null) {
+        return Toolkit.getDefaultToolkit().getImage(resourceURL);
       }
     }
 
@@ -87,5 +97,24 @@ public class EnumerationCheckboxImage {
     return null;
   }
 
-
+  /**
+   * Note: This method is a duplicate of ImageLoading.retrieveURL.
+   */
+  private URL retrieveURL(SNode node, SModuleReference moduleRef, final String path) {
+    final Wrappers._T<URL> url = new Wrappers._T<URL>(null);
+    LanguageRegistry.getInstance(SNodeOperations.getModel(node).getRepository()).withModuleRuntime(Stream.of(moduleRef), (moduleRuntime) -> {
+      ClassLoader mcl = moduleRuntime.getModuleClassLoader();
+      if (mcl instanceof ModuleClassLoader) {
+        // For MPS, this is the usual case. It will search only inside the MPS module.
+        // Note: This is slightly less expensive as using ClassLoader.getResource.
+        url.value = as_fiz6m0_a0a0c0b0b0a1a81(mcl, ModuleClassLoader.class).getOwnResource(path);
+      } else {
+        url.value = mcl.getResource(path);
+      }
+    });
+    return url.value;
+  }
+  private static <T> T as_fiz6m0_a0a0c0b0b0a1a81(Object o, Class<T> type) {
+    return (type.isInstance(o) ? (T) o : null);
+  }
 }

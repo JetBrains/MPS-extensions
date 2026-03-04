@@ -68,9 +68,9 @@
     <file name="TextgenText_TextGen.java">
       <node id="1145195647825956220" at="21,54,22,55" concept="6" />
       <node id="5407518469085836239" at="22,55,23,51" concept="6" />
-      <node id="5407518469085836244" at="23,51,24,169" concept="2" />
-      <node id="5407518469085836253" at="25,50,26,19" concept="2" />
-      <node id="5343426723084628159" at="26,19,27,37" concept="2" />
+      <node id="5407518469085836244" at="23,51,24,173" concept="2" />
+      <node id="5407518469085836253" at="25,53,26,19" concept="2" />
+      <node id="5343426723084628159" at="26,19,27,40" concept="2" />
       <node id="5343426723084242677" at="29,15,30,27" concept="2" />
       <node id="5343426723084242674" at="30,27,31,16" concept="0" />
       <node id="5343426723084242683" at="32,15,33,29" concept="2" />
@@ -83,15 +83,15 @@
       <node id="1145195647825956220" at="47,0,48,0" concept="8" trace="content$rMPF" />
       <node id="1145195647825956220" at="51,0,52,0" concept="8" trace="TextgenText$PS" />
       <node id="1145195647825956220" at="55,0,56,0" concept="8" trace="lineEnding$vhkT" />
-      <node id="5343426723084242663" at="27,37,41,7" concept="10" />
-      <node id="5407518469085836251" at="24,169,42,5" concept="3" />
+      <node id="5343426723084242663" at="27,40,41,7" concept="10" />
+      <node id="5407518469085836251" at="24,173,42,5" concept="3" />
       <node id="1145195647825956220" at="20,0,44,0" concept="5" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
       <scope id="5343426723084242674" at="29,15,31,16" />
       <scope id="5343426723084242680" at="32,15,34,16" />
       <scope id="5343426723084242686" at="35,15,37,16" />
       <scope id="5343426723084242692" at="38,15,40,16" />
-      <scope id="5407518469085836252" at="25,50,41,7" />
-      <scope id="5407518469085836251" at="24,169,42,5">
+      <scope id="5407518469085836252" at="25,53,41,7" />
+      <scope id="5407518469085836251" at="24,173,42,5">
         <var name="i" id="5407518469085836260" />
       </scope>
       <scope id="1145195647825956220" at="21,54,42,5">
@@ -115,9 +115,9 @@
     <file name="VerticalLines_TextGen.java">
       <node id="5407518469085612380" at="19,54,20,55" concept="6" />
       <node id="5407518469085612610" at="20,55,21,51" concept="6" />
-      <node id="5407518469085612615" at="21,51,22,122" concept="2" />
-      <node id="5407518469085612624" at="23,50,24,19" concept="2" />
-      <node id="5407518469085612626" at="24,19,25,37" concept="2" />
+      <node id="5407518469085612615" at="21,51,22,126" concept="2" />
+      <node id="5407518469085612624" at="23,53,24,19" concept="2" />
+      <node id="5407518469085612626" at="24,19,25,40" concept="2" />
       <node id="5343426723084243897" at="27,15,28,27" concept="2" />
       <node id="5343426723084243894" at="28,27,29,16" concept="0" />
       <node id="5343426723084243903" at="30,15,31,29" concept="2" />
@@ -129,15 +129,15 @@
       <node id="5407518469085612380" at="42,0,43,0" concept="8" trace="enumSwitchIndex" />
       <node id="5407518469085612380" at="45,0,46,0" concept="8" trace="TextgenText$PS" />
       <node id="5407518469085612380" at="49,0,50,0" concept="8" trace="lineEnding$vhkT" />
-      <node id="5343426723084243883" at="25,37,39,7" concept="10" />
-      <node id="5407518469085612622" at="22,122,40,5" concept="3" />
+      <node id="5343426723084243883" at="25,40,39,7" concept="10" />
+      <node id="5407518469085612622" at="22,126,40,5" concept="3" />
       <node id="5407518469085612380" at="18,0,42,0" concept="5" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
       <scope id="5343426723084243894" at="27,15,29,16" />
       <scope id="5343426723084243900" at="30,15,32,16" />
       <scope id="5343426723084243906" at="33,15,35,16" />
       <scope id="5343426723084243912" at="36,15,38,16" />
-      <scope id="5407518469085612623" at="23,50,39,7" />
-      <scope id="5407518469085612622" at="22,122,40,5">
+      <scope id="5407518469085612623" at="23,53,39,7" />
+      <scope id="5407518469085612622" at="22,126,40,5">
         <var name="i" id="5407518469085612632" />
       </scope>
       <scope id="5407518469085612380" at="19,54,40,5">
@@ -156,9 +156,9 @@
     <file name="SpaceIndentedText_TextGen.java">
       <node id="5407518469085613428" at="19,54,20,55" concept="6" />
       <node id="5407518469085613442" at="20,55,21,51" concept="6" />
-      <node id="5407518469085613447" at="21,51,22,122" concept="2" />
-      <node id="5407518469085613456" at="23,50,24,19" concept="2" />
-      <node id="5407518469085613458" at="24,19,25,37" concept="2" />
+      <node id="5407518469085613447" at="21,51,22,126" concept="2" />
+      <node id="5407518469085613456" at="23,53,24,19" concept="2" />
+      <node id="5407518469085613458" at="24,19,25,40" concept="2" />
       <node id="5343426723084239378" at="27,15,28,27" concept="2" />
       <node id="5343426723084239375" at="28,27,29,16" concept="0" />
       <node id="5343426723084239384" at="30,15,31,29" concept="2" />
@@ -170,15 +170,15 @@
       <node id="5407518469085613428" at="42,0,43,0" concept="8" trace="enumSwitchIndex" />
       <node id="5407518469085613428" at="45,0,46,0" concept="8" trace="TextgenText$PS" />
       <node id="5407518469085613428" at="49,0,50,0" concept="8" trace="lineEnding$vhkT" />
-      <node id="5343426723084239364" at="25,37,39,7" concept="10" />
-      <node id="5407518469085613454" at="22,122,40,5" concept="3" />
+      <node id="5343426723084239364" at="25,40,39,7" concept="10" />
+      <node id="5407518469085613454" at="22,126,40,5" concept="3" />
       <node id="5407518469085613428" at="18,0,42,0" concept="5" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
       <scope id="5343426723084239375" at="27,15,29,16" />
       <scope id="5343426723084239381" at="30,15,32,16" />
       <scope id="5343426723084239387" at="33,15,35,16" />
       <scope id="5343426723084239393" at="36,15,38,16" />
-      <scope id="5407518469085613455" at="23,50,39,7" />
-      <scope id="5407518469085613454" at="22,122,40,5">
+      <scope id="5407518469085613455" at="23,53,39,7" />
+      <scope id="5407518469085613454" at="22,126,40,5">
         <var name="i" id="5407518469085613464" />
       </scope>
       <scope id="5407518469085613428" at="19,54,40,5">
@@ -202,12 +202,12 @@
       <node id="5407518469085614079" at="39,38,40,34" concept="7" />
       <scope id="5407518469085614079" at="39,38,40,34" />
     </file>
-    <file name="word_TextGen.java">
+    <file name="Word_TextGen.java">
       <node id="5407518469085614079" at="19,54,20,55" concept="6" />
       <node id="5407518469085614093" at="20,55,21,51" concept="6" />
-      <node id="5407518469085614098" at="21,51,22,122" concept="2" />
-      <node id="5407518469085614107" at="23,50,24,19" concept="2" />
-      <node id="5407518469085614109" at="24,19,25,37" concept="2" />
+      <node id="5407518469085614098" at="21,51,22,126" concept="2" />
+      <node id="5407518469085614107" at="23,53,24,19" concept="2" />
+      <node id="5407518469085614109" at="24,19,25,40" concept="2" />
       <node id="5343426723084237025" at="27,15,28,27" concept="2" />
       <node id="5343426723084236976" at="28,27,29,16" concept="0" />
       <node id="5343426723084237319" at="30,15,31,29" concept="2" />
@@ -219,15 +219,15 @@
       <node id="5407518469085614079" at="42,0,43,0" concept="8" trace="enumSwitchIndex" />
       <node id="5407518469085614079" at="45,0,46,0" concept="8" trace="TextgenText$PS" />
       <node id="5407518469085614079" at="49,0,50,0" concept="8" trace="lineEnding$vhkT" />
-      <node id="5343426723084235683" at="25,37,39,7" concept="10" />
-      <node id="5407518469085614105" at="22,122,40,5" concept="3" />
+      <node id="5343426723084235683" at="25,40,39,7" concept="10" />
+      <node id="5407518469085614105" at="22,126,40,5" concept="3" />
       <node id="5407518469085614079" at="18,0,42,0" concept="5" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
       <scope id="5343426723084236976" at="27,15,29,16" />
       <scope id="5343426723084237193" at="30,15,32,16" />
       <scope id="5343426723084238017" at="33,15,35,16" />
       <scope id="5343426723084236697" at="36,15,38,16" />
-      <scope id="5407518469085614106" at="23,50,39,7" />
-      <scope id="5407518469085614105" at="22,122,40,5">
+      <scope id="5407518469085614106" at="23,53,39,7" />
+      <scope id="5407518469085614105" at="22,126,40,5">
         <var name="i" id="5407518469085614115" />
       </scope>
       <scope id="5407518469085614079" at="19,54,40,5">
@@ -237,18 +237,18 @@
       <scope id="5407518469085614079" at="18,0,42,0">
         <var name="ctx" id="5407518469085614079" />
       </scope>
-      <unit id="5407518469085614079" at="44,0,47,0" name="com.dslfoundry.plaintextgen.textGen.word_TextGen$CONCEPTS" />
-      <unit id="5407518469085614079" at="48,0,51,0" name="com.dslfoundry.plaintextgen.textGen.word_TextGen$PROPS" />
-      <unit id="5407518469085614079" at="17,0,52,0" name="com.dslfoundry.plaintextgen.textGen.word_TextGen" />
+      <unit id="5407518469085614079" at="44,0,47,0" name="com.dslfoundry.plaintextgen.textGen.Word_TextGen$CONCEPTS" />
+      <unit id="5407518469085614079" at="48,0,51,0" name="com.dslfoundry.plaintextgen.textGen.Word_TextGen$PROPS" />
+      <unit id="5407518469085614079" at="17,0,52,0" name="com.dslfoundry.plaintextgen.textGen.Word_TextGen" />
     </file>
   </root>
   <root nodeRef="r:4752c29d-6163-4693-b1d7-3c8befc060cd(com.dslfoundry.plaintextgen.textGen)/5407518469085614911">
     <file name="Line_TextGen.java">
       <node id="5407518469085614911" at="19,54,20,55" concept="6" />
       <node id="5407518469085614925" at="20,55,21,51" concept="6" />
-      <node id="5407518469085614930" at="21,51,22,122" concept="2" />
-      <node id="5407518469085614939" at="23,50,24,19" concept="2" />
-      <node id="5407518469085614941" at="24,19,25,37" concept="2" />
+      <node id="5407518469085614930" at="21,51,22,126" concept="2" />
+      <node id="5407518469085614939" at="23,53,24,19" concept="2" />
+      <node id="5407518469085614941" at="24,19,25,40" concept="2" />
       <node id="5343426723084238582" at="27,15,28,27" concept="2" />
       <node id="5343426723084238579" at="28,27,29,16" concept="0" />
       <node id="5343426723084238588" at="30,15,31,29" concept="2" />
@@ -260,15 +260,15 @@
       <node id="5407518469085614911" at="42,0,43,0" concept="8" trace="enumSwitchIndex" />
       <node id="5407518469085614911" at="45,0,46,0" concept="8" trace="TextgenText$PS" />
       <node id="5407518469085614911" at="49,0,50,0" concept="8" trace="lineEnding$vhkT" />
-      <node id="5343426723084238568" at="25,37,39,7" concept="10" />
-      <node id="5407518469085614937" at="22,122,40,5" concept="3" />
+      <node id="5343426723084238568" at="25,40,39,7" concept="10" />
+      <node id="5407518469085614937" at="22,126,40,5" concept="3" />
       <node id="5407518469085614911" at="18,0,42,0" concept="5" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
       <scope id="5343426723084238579" at="27,15,29,16" />
       <scope id="5343426723084238585" at="30,15,32,16" />
       <scope id="5343426723084238591" at="33,15,35,16" />
       <scope id="5343426723084238597" at="36,15,38,16" />
-      <scope id="5407518469085614938" at="23,50,39,7" />
-      <scope id="5407518469085614937" at="22,122,40,5">
+      <scope id="5407518469085614938" at="23,53,39,7" />
+      <scope id="5407518469085614937" at="22,126,40,5">
         <var name="i" id="5407518469085614947" />
       </scope>
       <scope id="5407518469085614911" at="19,54,40,5">

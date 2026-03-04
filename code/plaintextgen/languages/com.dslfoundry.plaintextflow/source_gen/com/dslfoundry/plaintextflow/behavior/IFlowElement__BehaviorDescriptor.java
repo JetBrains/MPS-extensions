@@ -26,12 +26,12 @@ public final class IFlowElement__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0xcf681fc9c7984f89L, 0xaf38ba3c0ac342d9L, 0x692d8403c84c5eaeL, "com.dslfoundry.plaintextflow.structure.IFlowElement");
 
   public static final SMethod<String> prefix_id6$Hx0f8jWbu = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("prefix").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7578858899714851550L).languageId(0xaf38ba3c0ac342d9L, 0xcf681fc9c7984f89L).build2();
-  public static final SMethod<String> ancestorPrefix_id6$Hx0f8lz7R = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("ancestorPrefix").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7578858899715273207L).languageId(0xaf38ba3c0ac342d9L, 0xcf681fc9c7984f89L).build2();
-  public static final SMethod<Integer> Width_id6gwxh6GcBOM = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("Width").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
-  public static final SMethod<Integer> Editor_View_Width_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("Editor_View_Width").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
-  public static final SMethod<Point> TextGen_id4GbnmmUaMp0 = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("TextGen").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""));
+  public static final SMethod<String> getAncestorPrefix_id6$Hx0f8lz7R = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getAncestorPrefix").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7578858899715273207L).languageId(0xaf38ba3c0ac342d9L, 0xcf681fc9c7984f89L).build2();
+  public static final SMethod<Integer> getWidth_id6gwxh6GcBOM = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
+  public static final SMethod<Integer> getEditorViewWidth_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getEditorViewWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
+  public static final SMethod<Point> getPosition_id4GbnmmUaMp0 = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("getPosition").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(prefix_id6$Hx0f8jWbu, ancestorPrefix_id6$Hx0f8lz7R, Width_id6gwxh6GcBOM, Editor_View_Width_id2jBmyzyEzhY, TextGen_id4GbnmmUaMp0);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(prefix_id6$Hx0f8jWbu, getAncestorPrefix_id6$Hx0f8lz7R, getWidth_id6gwxh6GcBOM, getEditorViewWidth_id2jBmyzyEzhY, getPosition_id4GbnmmUaMp0);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
@@ -39,7 +39,7 @@ public final class IFlowElement__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ static String prefix_id6$Hx0f8jWbu(@NotNull SNode __thisNode__) {
     return "";
   }
-  /*package*/ static String ancestorPrefix_id6$Hx0f8lz7R(@NotNull SNode __thisNode__) {
+  /*package*/ static String getAncestorPrefix_id6$Hx0f8lz7R(@NotNull SNode __thisNode__) {
     StringBuilder sb = new StringBuilder();
     for (SNode e : ListSequence.fromList(SNodeOperations.getNodeAncestors(__thisNode__, CONCEPTS.IFlowElement$BW, false)).reversedList()) {
       String prefix = IFlowElement__BehaviorDescriptor.prefix_id6$Hx0f8jWbu.invoke(e);
@@ -49,13 +49,13 @@ public final class IFlowElement__BehaviorDescriptor extends BaseBHDescriptor {
     }
     return sb.toString();
   }
-  /*package*/ static int Width_id6gwxh6GcBOM(@NotNull SNode __thisNode__) {
+  /*package*/ static int getWidth_id6gwxh6GcBOM(@NotNull SNode __thisNode__) {
     throw new RuntimeException("Width not implemented");
   }
-  /*package*/ static int Editor_View_Width_id2jBmyzyEzhY(@NotNull SNode __thisNode__, boolean isQueriedNode) {
+  /*package*/ static int getEditorViewWidth_id2jBmyzyEzhY(@NotNull SNode __thisNode__, boolean isQueriedNode) {
     throw new RuntimeException("Editor_View_Width not implemented");
   }
-  /*package*/ static Point TextGen_id4GbnmmUaMp0(@NotNull SNode __thisNode__, int row, int column, CharacterMatrix output) {
+  /*package*/ static Point getPosition_id4GbnmmUaMp0(@NotNull SNode __thisNode__, int row, int column, CharacterMatrix output) {
     throw new RuntimeException("No TextGen implementation, this concept should not be used by TextGen directly, but reduced to a plaintextgen concept");
   }
 
@@ -77,13 +77,13 @@ public final class IFlowElement__BehaviorDescriptor extends BaseBHDescriptor {
       case 0:
         return (T) ((String) prefix_id6$Hx0f8jWbu(node));
       case 1:
-        return (T) ((String) ancestorPrefix_id6$Hx0f8lz7R(node));
+        return (T) ((String) getAncestorPrefix_id6$Hx0f8lz7R(node));
       case 2:
-        return (T) ((Integer) Width_id6gwxh6GcBOM(node));
+        return (T) ((Integer) getWidth_id6gwxh6GcBOM(node));
       case 3:
-        return (T) ((Integer) Editor_View_Width_id2jBmyzyEzhY(node, ((boolean) (Boolean) parameters[0])));
+        return (T) ((Integer) getEditorViewWidth_id2jBmyzyEzhY(node, ((boolean) (Boolean) parameters[0])));
       case 4:
-        return (T) ((Point) TextGen_id4GbnmmUaMp0(node, ((int) (Integer) parameters[0]), ((int) (Integer) parameters[1]), (CharacterMatrix) parameters[2]));
+        return (T) ((Point) getPosition_id4GbnmmUaMp0(node, ((int) (Integer) parameters[0]), ((int) (Integer) parameters[1]), (CharacterMatrix) parameters[2]));
       default:
         throw new BHMethodNotFoundException(this, method);
     }

@@ -14641,6 +14641,71 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="4kz7QXL0NP1" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.modellisteners.utility" />
+        <property role="3LESm3" value="cd9c13ae-91f8-404c-abd5-3b0b798fc9f6" />
+        <node concept="398BVA" id="4kz7QXL0NWW" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4kz7QXL0Ok_" role="iGT6I">
+            <property role="2Ry0Am" value="modellisteners" />
+            <node concept="2Ry0Ak" id="4kz7QXL0O$m" role="2Ry0An">
+              <property role="2Ry0Am" value="com.mbeddr.mpsutil.modellisteners.utility" />
+              <node concept="2Ry0Ak" id="4kz7QXL0OO7" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.modellisteners.utility.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4kz7QXL0PsS" role="3bR37C">
+          <node concept="3bR9La" id="4kz7QXL0PsT" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4kz7QXL0PsU" role="3bR37C">
+          <node concept="3bR9La" id="4kz7QXL0PsV" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4kz7QXL0PsW" role="3bR37C">
+          <node concept="3bR9La" id="4kz7QXL0PsX" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4kz7QXL0PsY" role="3bR37C">
+          <node concept="3bR9La" id="4kz7QXL0PsZ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4kz7QXL0Pt0" role="3bR37C">
+          <node concept="3bR9La" id="4kz7QXL0Pt1" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="4kz7QXL0Ptb" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="4kz7QXL0Ptc" role="1HemKq">
+            <node concept="398BVA" id="4kz7QXL0Pt2" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4kz7QXL0Pt3" role="iGT6I">
+                <property role="2Ry0Am" value="modellisteners" />
+                <node concept="2Ry0Ak" id="4kz7QXL0Pt4" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.modellisteners.utility" />
+                  <node concept="2Ry0Ak" id="4kz7QXL0Pt5" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="4kz7QXL0Ptd" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="m$_wf" id="64SK4bcO2rO" role="3989C9">
       <property role="m$_wk" value="com.mbeddr.mpsutil.projectview" />

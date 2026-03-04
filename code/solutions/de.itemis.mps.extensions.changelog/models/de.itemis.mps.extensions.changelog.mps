@@ -369,6 +369,47 @@
             <property role="3oM_SC" value="performance." />
           </node>
         </node>
+        <node concept="2DRihI" id="71vYIzUFkI6" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="71vYIzUFkIl" role="1PaTwD">
+            <node concept="37shsh" id="71vYIzUFkIn" role="15Aodc">
+              <node concept="1dCxOk" id="71vYIzUFkOJ" role="37shsm">
+                <property role="1XweGW" value="dc309acc-7f3e-4ca9-bee5-a61c7c599f59" />
+                <property role="1XxBO9" value="de.itemis.mps.linenumbers" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFkVn" role="1PaTwD">
+            <property role="3oM_SC" value="Line" />
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFkOQ" role="1PaTwD">
+            <property role="3oM_SC" value="numbers" />
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFkOR" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFkOS" role="1PaTwD">
+            <property role="3oM_SC" value="properly" />
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFl8d" role="1PaTwD">
+            <property role="3oM_SC" value="appear" />
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFkVi" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFl88" role="1PaTwD">
+            <property role="3oM_SC" value="newly" />
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFl8c" role="1PaTwD">
+            <property role="3oM_SC" value="opened" />
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFl89" role="1PaTwD">
+            <property role="3oM_SC" value="editors" />
+          </node>
+          <node concept="3oM_SD" id="71vYIzUFleF" role="1PaTwD">
+            <property role="3oM_SC" value="(#1750)" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="1Mwb2kI$RVD" role="15bmVC">

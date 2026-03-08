@@ -13,7 +13,7 @@
       <unit at="11,0,63,0" name="de.itemis.mps.editor.enumeration.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,36,0" name="de.itemis.mps.editor.enumeration.structure.LanguageConceptSwitch" />
+      <unit at="12,0,44,0" name="de.itemis.mps.editor.enumeration.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="18,0,122,0" name="de.itemis.mps.editor.enumeration.structure.StructureAspectDescriptor" />
@@ -34,8 +34,8 @@
       <scope id="2135528801629813662" at="23,56,30,44" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2135528801629813662" at="12,0,13,0" concept="6" trace="CellModel_EnumCheckbox" />
-      <node id="2135528801629813662" at="19,116,20,61" concept="0" />
+      <node id="2135528801629813662" at="14,0,15,0" concept="6" trace="CellModel_EnumCheckbox" />
+      <node id="2135528801629813662" at="21,116,22,61" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2135528801629813662" at="19,0,20,0" concept="1" trace="myConceptCellModel_EnumCheckbox" />
@@ -74,8 +74,8 @@
       <scope id="2135528801629813722" at="52,60,58,48" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2135528801629813722" at="16,0,17,0" concept="6" trace="StubCellModel_EnumCheckbox" />
-      <node id="2135528801629813722" at="23,53,24,65" concept="0" />
+      <node id="2135528801629813722" at="18,0,19,0" concept="6" trace="StubCellModel_EnumCheckbox" />
+      <node id="2135528801629813722" at="25,53,26,65" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2135528801629813722" at="23,0,24,0" concept="1" trace="myConceptStubCellModel_EnumCheckbox" />
@@ -111,8 +111,8 @@
       <scope id="2135528801629813732" at="31,57,37,45" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2135528801629813732" at="13,0,14,0" concept="6" trace="EnumCheckbox_Selectable" />
-      <node id="2135528801629813732" at="20,61,21,62" concept="0" />
+      <node id="2135528801629813732" at="15,0,16,0" concept="6" trace="EnumCheckbox_Selectable" />
+      <node id="2135528801629813732" at="22,61,23,62" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2135528801629813732" at="20,0,21,0" concept="1" trace="myConceptEnumCheckbox_Selectable" />
@@ -148,8 +148,8 @@
       <scope id="2135528801629813736" at="38,38,44,26" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2135528801629813736" at="14,0,15,0" concept="6" trace="Icon" />
-      <node id="2135528801629813736" at="21,62,22,43" concept="0" />
+      <node id="2135528801629813736" at="16,0,17,0" concept="6" trace="Icon" />
+      <node id="2135528801629813736" at="23,62,24,43" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2135528801629813736" at="21,0,22,0" concept="1" trace="myConceptIcon" />
@@ -184,8 +184,8 @@
       <scope id="2135528801629813748" at="45,48,51,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2135528801629813748" at="15,0,16,0" concept="6" trace="IconCollection" />
-      <node id="2135528801629813748" at="22,43,23,53" concept="0" />
+      <node id="2135528801629813748" at="17,0,18,0" concept="6" trace="IconCollection" />
+      <node id="2135528801629813748" at="24,43,25,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2135528801629813748" at="22,0,23,0" concept="1" trace="myConceptIconCollection" />

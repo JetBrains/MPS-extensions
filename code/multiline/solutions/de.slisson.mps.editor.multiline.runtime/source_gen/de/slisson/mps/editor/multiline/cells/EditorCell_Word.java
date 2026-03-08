@@ -20,6 +20,7 @@ import com.intellij.openapi.actionSystem.CommonDataKeys;
 import de.slisson.mps.editor.multiline.runtime.plugin.MultilineSettingsPage;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
+import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
 import jetbrains.mps.openapi.editor.cells.KeyMap;
 import jetbrains.mps.editor.runtime.cells.KeyMapImpl;
 import jetbrains.mps.openapi.editor.cells.CellAction;
@@ -144,6 +145,8 @@ public class EditorCell_Word extends EditorCell_Property {
     setAction(CellActionType.SELECT_DOWN, new SelectUpDownAction(this, false));
     setAction(CellActionType.SELECT_NEXT, new SelectUpDownAction(this, false));
     setAction(CellActionType.PASTE, new WordPasteAction(this));
+    setAction(CellActionType.INSERT_PLACEHOLDER, new EmptyCellAction());
+    setAction(CellActionType.INSERT_PLACEHOLDER_BEFORE, new EmptyCellAction());
     KeyMap km = new KeyMapImpl();
     addKeyMap(km);
   }

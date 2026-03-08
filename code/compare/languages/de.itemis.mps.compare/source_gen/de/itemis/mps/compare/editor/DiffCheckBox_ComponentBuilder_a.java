@@ -14,15 +14,11 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.MPSColors;
-import nl.f1re.mps.editor.swing.runtime.EditorCell_IntelliJComponent;
-import nl.f1re.mps.editor.swing.runtime.FontHelper;
-import javax.swing.JComponent;
-import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
-import com.intellij.ui.components.JBCheckBox;
-import jetbrains.mps.editor.runtime.TextBuilderImpl;
-import de.itemis.mps.compare.behavior.IDiffable__BehaviorDescriptor;
-import java.awt.event.ItemListener;
-import java.awt.event.ItemEvent;
+import org.jetbrains.mps.openapi.language.SProperty;
+import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import de.itemis.mps.editor.bool.runtime.CheckboxCellProvider;
+import de.itemis.mps.editor.bool.runtime.EditorCell_Checkbox;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 /*package*/ class DiffCheckBox_ComponentBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -50,7 +46,7 @@ import java.awt.event.ItemEvent;
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createCustomJComponent_0());
+    editorCell.addEditorCell(createCheckbox_0());
     return editorCell;
   }
   private EditorCell createConstant_0() {
@@ -62,32 +58,22 @@ import java.awt.event.ItemEvent;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createCustomJComponent_0() {
-    EditorContext editorContext = getEditorContext();
-    EditorCell_IntelliJComponent editorCell = new EditorCell_IntelliJComponent(getEditorContext(), myNode, _QueryFunction_JComponent_vrkzuc_a1a(), FontHelper.regular(), (JComponent component) -> {
-      SNode node = myNode;
-      String text = ((_FunctionTypes._return_P0_E0<String>) () -> String.valueOf(as_orshor_a0a0a0a0a0a1a4a0a1a01(component, JBCheckBox.class).isSelected())).invoke();
-      return new TextBuilderImpl(text);
-    });
-    editorCell.setCellId("CustomJComponent_vrkzuc_b0");
+  private EditorCell createCheckbox_0() {
+    SProperty property = PROPS.showDiff$QsrO;
+    CellProviderWithRole provider = new CheckboxCellProvider(getNode(), property, getEditorContext());
+    provider.setNoTargetText("<no showDiff>");
+    EditorCell_Checkbox editorCell;
+    editorCell = ((EditorCell_Checkbox) provider.createEditorCell(getEditorContext()));
+    editorCell.setCellId("DCB_property_showDiff");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    if (attributeConcept != null) {
+      return getUpdateSession().updateAttributeCell(provider.getRoleAttributeKind(), editorCell, attributeConcept);
+    } else
     return editorCell;
   }
-  private JComponent _QueryFunction_JComponent_vrkzuc_a1a() {
-    JBCheckBox box = new JBCheckBox(" ");
-    box.setSelected((boolean) IDiffable__BehaviorDescriptor.isDiffEnabled_id6Od11GY7tN$.invoke(myNode));
-    box.addItemListener(new ItemListener() {
-      @Override
-      public void itemStateChanged(ItemEvent e) {
-        if (e.getStateChange() == ItemEvent.SELECTED) {
-          IDiffable__BehaviorDescriptor.setDiffFlag_id6Od11GY7tDO.invoke(myNode, ((boolean) true));
-        } else {
-          IDiffable__BehaviorDescriptor.setDiffFlag_id6Od11GY7tDO.invoke(myNode, ((boolean) false));
-        }
-      }
-    });
-    return box;
-  }
-  private static <T> T as_orshor_a0a0a0a0a0a1a4a0a1a01(Object o, Class<T> type) {
-    return (type.isInstance(o) ? (T) o : null);
+
+  private static final class PROPS {
+    /*package*/ static final SProperty showDiff$QsrO = MetaAdapterFactory.getProperty(0xf47b95d45e734c04L, 0x920418076950153bL, 0x740d15a40e956e1L, 0x6ecb0093506adacaL, "showDiff");
   }
 }

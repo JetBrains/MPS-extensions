@@ -10,9 +10,9 @@ import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
+import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 import jetbrains.mps.smodel.runtime.ConceptKind;
 import jetbrains.mps.smodel.runtime.StaticScope;
-import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptAreEqualExpression = createDescriptorForAreEqualExpression();
@@ -134,6 +134,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xfbdeb6fecfL);
     b.origin("r:cea04c4b-adba-417e-a192-34c7a8799ac1(de.itemis.mps.compare.structure)/1831260205537497726");
     b.version(3);
+    b.property("ignoreAnnotations", 0x2a01b658d4451754L).type(PrimitiveTypeId.BOOLEAN).origin("3026900917204358996").done();
     b.aggregate("ignoredProperties", 0x1969f1745a5f1293L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("1831260205537497747").done();
     b.aggregate("ignoredChildren", 0x4a2f2e85c18542fL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("334096402170270767").done();
     b.aggregate("ignoredReferences", 0x36b54ed77e90a57fL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("3942143736281081215").done();
@@ -230,6 +231,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xf47b95d45e734c04L, 0x920418076950153bL, 0x740d15a40e956e1L);
     b.origin("r:cea04c4b-adba-417e-a192-34c7a8799ac1(de.itemis.mps.compare.structure)/756135271275943220");
     b.version(3);
+    b.property("ignoreAnnotations", 0x6ecb00935064300eL).type(PrimitiveTypeId.BOOLEAN).origin("7983475397153271822").done();
     b.aggregate("ignoredProperties", 0x2559ea1f7235e2b1L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("2691439673111601841").done();
     b.aggregate("ignoredChildren", 0x4a2f2e85c24bcc3L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("334096402171083971").done();
     b.aggregate("ignoredReferences", 0x36b54ed77e6ba1e3L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("3942143736278655459").done();
@@ -274,6 +276,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.interface_();
     b.origin("r:cea04c4b-adba-417e-a192-34c7a8799ac1(de.itemis.mps.compare.structure)/522647742341273313");
     b.version(3);
+    b.property("showDiff", 0x6ecb0093506adacaL).type(PrimitiveTypeId.BOOLEAN).origin("7983475397153708746").makeTransient(true).done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIgnorePropertiesAnnotation() {

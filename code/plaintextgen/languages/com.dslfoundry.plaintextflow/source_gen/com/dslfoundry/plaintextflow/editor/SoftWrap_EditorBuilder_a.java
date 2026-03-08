@@ -13,14 +13,13 @@ import com.dslfoundry.plaintextflow.behavior.IFlowElement__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
-import com.dslfoundry.plaintextflow.editor.style_flow_StyleSheet.nogapStyleClass;
+import com.dslfoundry.plaintextflow.editor.FlowStyle_StyleSheet.NoGapStyleClass;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
-import java.awt.Color;
 
 /*package*/ class SoftWrap_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -53,13 +52,13 @@ import java.awt.Color;
     return editorCell;
   }
   private boolean nodeCondition_p7qzb0_a1a() {
-    return isNotEmptyString(IFlowElement__BehaviorDescriptor.ancestorPrefix_id6$Hx0f8lz7R.invoke(myNode));
+    return isNotEmptyString(IFlowElement__BehaviorDescriptor.getAncestorPrefix_id6$Hx0f8lz7R.invoke(myNode));
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "¶");
     editorCell.setCellId("Constant_p7qzb0_a0");
     Style style = new StyleImpl();
-    new nogapStyleClass(this).apply(style, editorCell);
+    new NoGapStyleClass(this).apply(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.TEXT_COLOR, getStyleRegistry().getSimpleColor(MPSColors.LIGHT_BLUE));
     editorCell.getStyle().putAll(style);
@@ -69,15 +68,14 @@ import java.awt.Color;
   private EditorCell createReadOnlyModelAccessor_0() {
     EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new ModelAccessor.ReadOnly() {
       public String getText() {
-        return (String) IFlowElement__BehaviorDescriptor.ancestorPrefix_id6$Hx0f8lz7R.invoke(myNode);
+        return (String) IFlowElement__BehaviorDescriptor.getAncestorPrefix_id6$Hx0f8lz7R.invoke(myNode);
       }
     }, myNode);
     editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
     editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
     editorCell.setCellId("ReadOnlyModelAccessor_p7qzb0_b0");
     Style style = new StyleImpl();
-    new nogapStyleClass(this).apply(style, editorCell);
-    style.set(StyleAttributes.TEXT_BACKGROUND_COLOR, getStyleRegistry().getSimpleColor(new Color(14606046)));
+    new NoGapStyleClass(this).apply(style, editorCell);
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.EDITABLE, false);
     editorCell.getStyle().putAll(style);

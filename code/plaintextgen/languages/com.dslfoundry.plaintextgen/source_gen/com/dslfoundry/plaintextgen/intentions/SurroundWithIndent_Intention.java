@@ -12,14 +12,11 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
+import com.dslfoundry.plaintextgen.behavior.SpaceIndentedText__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
-import org.jetbrains.mps.openapi.language.SInterfaceConcept;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public final class SurroundWithIndent_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
@@ -55,20 +52,7 @@ public final class SurroundWithIndent_Intention extends AbstractIntentionDescrip
 
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode target;
-      if (SNodeOperations.isInstanceOf(node, CONCEPTS.IText$2X)) {
-        target = SNodeOperations.cast(node, CONCEPTS.IText$2X);
-      } else {
-        SNode l = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, "com.dslfoundry.plaintextgen.structure.Line"));
-        SNodeOperations.replaceWithAnother(node, l);
-        ListSequence.fromList(SLinkOperations.getChildren(l, LINKS.words$teE6)).clear();
-        ListSequence.fromList(SLinkOperations.getChildren(l, LINKS.words$teE6)).addElement(node);
-        target = l;
-      }
-      SNode vert = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L, "com.dslfoundry.plaintextgen.structure.SpaceIndentedText"));
-      SNodeOperations.replaceWithAnother(target, vert);
-      ListSequence.fromList(SLinkOperations.getChildren(vert, LINKS.lines$u7C)).clear();
-      ListSequence.fromList(SLinkOperations.getChildren(vert, LINKS.lines$u7C)).addElement(target);
+      SpaceIndentedText__BehaviorDescriptor.surroundWith_id3xkJrZKaXl3.invoke(SNodeOperations.asSConcept(CONCEPTS.SpaceIndentedText$2u), node);
     }
 
     @Override
@@ -86,11 +70,6 @@ public final class SurroundWithIndent_Intention extends AbstractIntentionDescrip
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SInterfaceConcept IText$2X = MetaAdapterFactory.getInterfaceConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47eaL, "com.dslfoundry.plaintextgen.structure.IText");
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink words$teE6 = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, 0xfe48d5fcafd47f2L, "words");
-    /*package*/ static final SContainmentLink lines$u7C = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, 0x64208511ac2f6798L, "lines");
+    /*package*/ static final SConcept SpaceIndentedText$2u = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L, "com.dslfoundry.plaintextgen.structure.SpaceIndentedText");
   }
 }

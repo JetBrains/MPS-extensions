@@ -11,7 +11,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.editor.runtime.style.Padding;
 import jetbrains.mps.editor.runtime.style.Measure;
 
@@ -40,7 +39,6 @@ import jetbrains.mps.editor.runtime.style.Measure;
     editorCell.setBig(true);
     setCellContext(editorCell);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.TEXT_COLOR, getStyleRegistry().getSimpleColor(MPSColors.lightGray));
     style.set(StyleAttributes.DRAW_BORDER, true);
     style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0, Measure.SPACES));
     style.set(StyleAttributes.PADDING_LEFT, new Padding(0, Measure.SPACES));

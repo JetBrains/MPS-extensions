@@ -19,59 +19,61 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root nodeRef="r:e0971d7a-26cb-4f9b-923b-022db20993f1(nl.f1re.testing.runtime)/592868908270586229">
     <file name="IntentionTester.java">
-      <node id="4972078884894455557" at="18,0,19,0" concept="5" trace="myEditorContext" />
-      <node id="1227269295334185758" at="19,0,20,0" concept="5" trace="mySurroundWith" />
-      <node id="1227269295334207168" at="21,55,22,31" concept="14" />
-      <node id="592868908270586847" at="25,77,26,36" concept="4" />
-      <node id="1227269295334196053" at="26,36,27,34" concept="4" />
-      <node id="592868908270592569" at="30,139,31,133" concept="9" />
-      <node id="592868908270592591" at="31,133,32,0" concept="12" />
-      <node id="592868908270592594" at="33,54,34,145" concept="15" />
-      <node id="592868908270592611" at="35,5,36,0" concept="12" />
-      <node id="592868908270592612" at="36,0,37,56" concept="10" />
-      <node id="592868908271295356" at="40,136,41,91" concept="9" />
-      <node id="592868908271299014" at="41,91,42,93" concept="10" />
-      <node id="592868908270592625" at="45,97,46,86" concept="9" />
-      <node id="592868908270592630" at="46,86,47,36" concept="4" />
-      <node id="1227269295334220000" at="47,36,48,42" concept="4" />
-      <node id="592868908270592635" at="48,42,49,96" concept="10" />
-      <node id="592868908270586839" at="21,0,24,0" concept="3" trace="IntentionTester#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-      <node id="592868908270592592" at="32,0,35,5" concept="7" />
-      <node id="1227269295334156385" at="25,0,29,0" concept="3" trace="IntentionTester#(Ljetbrains/mps/openapi/editor/EditorContext;Z)V" />
-      <node id="592868908271289524" at="40,0,44,0" concept="8" trace="getMatchingIntentions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/util/Condition;)Ljava/lang/Iterable;" />
-      <node id="592868908270592620" at="45,0,51,0" concept="8" trace="getAvailableIntentions#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/Collection;" />
-      <node id="592868908270592552" at="30,0,39,0" concept="8" trace="getSingleMatchingIntention#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/util/Condition;)Ljetbrains/mps/util/Pair;" />
-      <scope id="592868908270586843" at="21,55,22,31" />
-      <scope id="592868908270592593" at="33,54,34,145" />
-      <scope id="1227269295334156389" at="25,77,27,34" />
-      <scope id="592868908271289527" at="40,136,42,93">
+      <node id="4972078884894455557" at="19,0,20,0" concept="5" trace="myEditorContext" />
+      <node id="1227269295334185758" at="20,0,21,0" concept="5" trace="mySurroundWith" />
+      <node id="1227269295334207168" at="22,55,23,31" concept="14" />
+      <node id="592868908270586847" at="26,77,27,36" concept="4" />
+      <node id="1227269295334196053" at="27,36,28,34" concept="4" />
+      <node id="592868908270592569" at="31,139,32,133" concept="9" />
+      <node id="592868908270592591" at="32,133,33,0" concept="12" />
+      <node id="592868908270592594" at="34,54,35,145" concept="15" />
+      <node id="592868908270592611" at="36,5,37,0" concept="12" />
+      <node id="592868908270592612" at="37,0,38,56" concept="10" />
+      <node id="592868908271295356" at="41,136,42,91" concept="9" />
+      <node id="592868908271299014" at="42,91,43,93" concept="10" />
+      <node id="592868908270592625" at="46,97,47,86" concept="9" />
+      <node id="592868908270592630" at="47,86,48,36" concept="4" />
+      <node id="1227269295334220000" at="48,36,49,42" concept="4" />
+      <node id="8081972898811565658" at="49,42,50,156" concept="9" />
+      <node id="592868908270592635" at="50,156,51,220" concept="10" />
+      <node id="592868908270586839" at="22,0,25,0" concept="3" trace="IntentionTester#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="592868908270592592" at="33,0,36,5" concept="7" />
+      <node id="1227269295334156385" at="26,0,30,0" concept="3" trace="IntentionTester#(Ljetbrains/mps/openapi/editor/EditorContext;Z)V" />
+      <node id="592868908271289524" at="41,0,45,0" concept="8" trace="getMatchingIntentions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/util/Condition;)Ljava/lang/Iterable;" />
+      <node id="592868908270592620" at="46,0,53,0" concept="8" trace="getAvailableIntentions#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/Collection;" />
+      <node id="592868908270592552" at="31,0,40,0" concept="8" trace="getSingleMatchingIntention#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/util/Condition;)Ljetbrains/mps/util/Pair;" />
+      <scope id="592868908270586843" at="22,55,23,31" />
+      <scope id="592868908270592593" at="34,54,35,145" />
+      <scope id="1227269295334156389" at="26,77,28,34" />
+      <scope id="592868908271289527" at="41,136,43,93">
         <var name="intentions" id="592868908271295357" />
       </scope>
-      <scope id="592868908270586839" at="21,0,24,0">
+      <scope id="592868908270586839" at="22,0,25,0">
         <var name="editorContext" id="4972078884894418827" />
       </scope>
-      <scope id="1227269295334156385" at="25,0,29,0">
+      <scope id="1227269295334156385" at="26,0,30,0">
         <var name="editorContext" id="4972078884894466887" />
         <var name="surroundWith" id="1227269295334162497" />
       </scope>
-      <scope id="592868908271289524" at="40,0,44,0">
+      <scope id="592868908271289524" at="41,0,45,0">
         <var name="condition" id="592868908271295606" />
         <var name="node" id="592868908271292628" />
       </scope>
-      <scope id="592868908270592624" at="45,97,49,96">
+      <scope id="592868908270592624" at="46,97,51,220">
+        <var name="availableIntentions" id="8081972898811565661" />
         <var name="query" id="592868908270592626" />
       </scope>
-      <scope id="592868908270592620" at="45,0,51,0">
-        <var name="node" id="592868908270592622" />
-      </scope>
-      <scope id="592868908270592559" at="30,139,37,56">
+      <scope id="592868908270592559" at="31,139,38,56">
         <var name="matches" id="592868908270592570" />
       </scope>
-      <scope id="592868908270592552" at="30,0,39,0">
+      <scope id="592868908270592620" at="46,0,53,0">
+        <var name="node" id="592868908270592622" />
+      </scope>
+      <scope id="592868908270592552" at="31,0,40,0">
         <var name="intentionCondition" id="592868908270592556" />
         <var name="node" id="592868908270592554" />
       </scope>
-      <unit id="592868908270586229" at="17,0,52,0" name="nl.f1re.testing.runtime.IntentionTester" />
+      <unit id="592868908270586229" at="18,0,54,0" name="nl.f1re.testing.runtime.IntentionTester" />
     </file>
   </root>
   <root nodeRef="r:e0971d7a-26cb-4f9b-923b-022db20993f1(nl.f1re.testing.runtime)/6188016030024696789">

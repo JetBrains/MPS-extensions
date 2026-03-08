@@ -13,6 +13,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.Collection;
 import jetbrains.mps.internal.collections.runtime.CollectionSequence;
 import jetbrains.mps.intentions.IntentionsManager;
+import com.mbeddr.mpsutil.intentions.runtime.plugin.IntentionCustomizationConfigHelper;
 
 public class IntentionTester {
   private final EditorContext myEditorContext;
@@ -46,6 +47,7 @@ public class IntentionTester {
     IntentionsManager.QueryDescriptor query = new IntentionsManager.QueryDescriptor();
     query.setCurrentNodeOnly(false);
     query.setSurroundWith(mySurroundWith);
-    return IntentionsManager.getInstance().getAvailableIntentions(query, node, myEditorContext);
+    Collection<Pair<IntentionExecutable, SNode>> availableIntentions = IntentionsManager.getInstance().getAvailableIntentions(query, node, myEditorContext);
+    return CollectionSequence.fromCollection(availableIntentions).select((it) -> new Pair<IntentionExecutable, SNode>(IntentionCustomizationConfigHelper.getExecutable(it.o1, node, myEditorContext)._0(), it.o2)).toList();
   }
 }

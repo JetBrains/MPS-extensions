@@ -4,11 +4,55 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## February 2026
+
+### Fixed
+
+- *de.itemis.mps.editor.bool.runtime* Optimize performance of boolean checkbox widgets, esp. when opening editors with many of them. 
+- *de.itemis.mps.editor.enumeration.runtime* Optimize performance of enum checkbox widgets, esp. when opening editors with many of them. 
+- *de.itemis.mps.editor.celllayout* Optimize editor performance.
+- *de.itemis.mps.linenumbers* Line numbers now properly appear in newly opened editors (#1750)
+
+## January 2026
+
+### Fixed
+
+- *de.slisson.mps.editor.multiline* Generic placeholders like generic comments can't be inserted into words anymore (an exception was thrown).
+- *de.slisson.mps.tables.runtime* Prevent inserting a new row node before/after a singular cardinality child node
+
+### Added
+
+- *de.itemis.mps.editor.diagram.runtime* Turned SVGGenerator into object with options (TextAsShape, UseCSS, SetViewBox), customizable style snippet and SVGGenerator.Builder for convenient usage.
+
+## December 2025
+
+### Added
+
+- *nl.f1re.mps.aliascustomization* The alias of all concepts globally can now be customized through the extension point [AliasCustomization.](http://127.0.0.1:63320/node?ref=r%3Af0a80b34-9760-42b8-9ee6-d5b0d1582551%28de.slisson.mps.conditionalEditor.runtime.plugin%29%2F1679635547169731239) Please be aware that this feature is experimental. Use it with care!
+- *com.mbeddr.mpsutil.intentions* All intentions can now be customized through the extension point [IntentionCustomization](http://127.0.0.1:63320/node?ref=r%3A028362d1-b964-410a-a3d5-6096bcd4a2b6%28com.mbeddr.mpsutil.intentions.runtime.plugin%29%2F4784371196443178355) (child filter, description, is applicable block, execute method). Note that you can't customize intentions that are not enabled in the current context (node + editor context).
+- *de.itemis.mps.compare* 'assert node equals' and ':isEqualTo:' expression can now ignore attributes (annotations) when comparing nodes.
+- *com.dslfoundry.plaintextgen* Context assistant buttons were added for common operations.
+
+### Fixed
+
+- *com.dslfoundry.langvis.plugin* The action *Visualize* *Language* *Structure* doesn't throw an  IllegalModelAccessError anymore.
+- Migrate all usages of deprecated getInstance() from [NavigationSupport](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.openapi.navigation%28MPS.Editor%2F%29%2F~NavigationSupport) to its replacement getInstance(Project mpsProject)
+- *com.dslfoundry.plaintextgen* and *com.dslfoundry.plaintextflow* The readability and dark theme support was improved.
+- *com.dslfoundry.plaintextgen* The generator can now deal with null words.
+- *com.dslfoundry.plaintextgen* The change to vertical and indent collection intention now preserve node attributes.
+- *com.dslfoundry.plaintextgen* Attributes of splitted words are moved to the line if possible.
+
+### Changed
+
+- *de.itemis.mps.compare* 'show diff' in assertions is now implemented using a transient property. Changing it will mark the node as changed but the property value is not written to disk and so will never be checked into version control.
+- *de.itemis.mps.compare* minor improvements to the editors of 'assert node equals' and 'show diff'.
+
 ## November 2025
 
 ### Added
 
 - *de.itemis.mps.editor.diagram.runtime* Add an experimental static flag to disable autolayout-on-init. Useful for batch autolayouting.
+- *com.mbeddr.mpsutil.grammarcells* All cells now support *show* *if* blocks (except optional cells), parent styles and style sheet items. Note that only certain styles can be applied (transitive styles and styles that make sense for wrapper cells).
 
 ### Fixed
 
@@ -16,10 +60,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.slisson.mps.tables* Textgen warning about duplicate unit name when an editor model contains multiple tables without an action map. 
 - *de.itemis.mps.editor.pagination* A NullPointerException was fixed for cases where the clicked node was null.
 - *de.itemis.mps.spellcheck* Custom dictionaries are not saved in the .mps/dictionaries/project.xml files anymore and pollute the file that is normally used for words saved manually by the user.
-
-### Added
-
-- *com.mbeddr.mpsutil.grammarcells* All cells now support *show* *if* blocks (except optional cells), parent styles and style sheet items. Note that only certain styles can be applied (transitive styles and styles that make sense for wrapper cells).
+- *de.itemis.mps.editor.celllayout* Reloading all classes do not lead to ClassCastExceptions anymore.
 
 ## October 2025
 
@@ -32,6 +73,14 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Changed
 
 - *de.itemis.mps.extensions.build* The version number property was renamed from `versionNumber` to `version`.
+
+### Removed
+
+- MPS.ThirdParty has been removed completely. MPS.IDEA or MPS.IDEA.Modules to be used instead. 
+
+### Deprecated
+
+- MPS.Kotlin is deprecated.
 
 ## September 2025
 
@@ -161,7 +210,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Changed
 
-- combine multiple elements without spaces  Reduced from Errors to Warning checks that force policies for all concepts in a language. In this way one can prototype with small set of merge policies. Use Partial police flag in your MergingPolicy to deactivate runtime checks as well.
+- '''combine multiple elements without spaces'''  Reduced from Errors to Warning checks that force policies for all concepts in a language. In this way one can prototype with small set of merge policies. Use Partial police flag in your MergingPolicy to deactivate runtime checks as well.
 
 ### Added
 

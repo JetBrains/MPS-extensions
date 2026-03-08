@@ -16,7 +16,6 @@ import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.baseLanguage.logging.rt.LogContext;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
@@ -60,7 +59,6 @@ public final class UnpackIndent_Intention extends AbstractIntentionDescriptor im
       final Wrappers._int idxOffset = new Wrappers._int(1);
       ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.lines$u7C)).visitAll((it) -> {
         ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(SNodeOperations.getParent(node), CONCEPTS.IVerticalGroup$fF), LINKS.lines$u7C)).insertElement(SNodeOperations.getIndexInParent(node) + idxOffset.value, it);
-        LogContext.with(UnpackIndent_Intention.class, null, null, null).info("index: " + SNodeOperations.getIndexInParent(node) + idxOffset.value);
         idxOffset.value++;
       });
       SNodeOperations.deleteNode(node);

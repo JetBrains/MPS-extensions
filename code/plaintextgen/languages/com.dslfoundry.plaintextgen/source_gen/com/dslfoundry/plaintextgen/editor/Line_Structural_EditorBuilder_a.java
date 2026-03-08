@@ -15,7 +15,6 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.editor.runtime.style.Padding;
 import jetbrains.mps.editor.runtime.style.Measure;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -68,7 +67,6 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     Style style = new StyleImpl();
     style.set(StyleAttributes.DRAW_BORDER, true);
     style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0, Measure.SPACES));
-    style.set(StyleAttributes.TEXT_COLOR, getStyleRegistry().getSimpleColor(MPSColors.lightGray));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -107,7 +105,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     }
 
     public SNode nodeFactory(SNode prevNode, SNode nextNode, int index) {
-      return SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L, "com.dslfoundry.plaintextgen.structure.word"));
+      return SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L, "com.dslfoundry.plaintextgen.structure.Word"));
     }
     public EditorCell createNodeCell(SNode elementNode) {
       EditorCell elementCell = getUpdateSession().updateChildNodeCell(elementNode);
@@ -168,7 +166,6 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     Style style = new StyleImpl();
     style.set(StyleAttributes.DRAW_BORDER, true);
     style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0, Measure.SPACES));
-    style.set(StyleAttributes.TEXT_COLOR, getStyleRegistry().getSimpleColor(MPSColors.lightGray));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

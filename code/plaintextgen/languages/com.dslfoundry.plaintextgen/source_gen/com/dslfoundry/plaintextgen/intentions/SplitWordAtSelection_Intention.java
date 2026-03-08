@@ -14,11 +14,15 @@ import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Label;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
+import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
 
 public final class SplitWordAtSelection_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
@@ -64,15 +68,20 @@ public final class SplitWordAtSelection_Intention extends AbstractIntentionDescr
       EditorCell contextCell = editorContext.getContextCell();
       EditorCell_Label label = (EditorCell_Label) contextCell;
       String text = label.getText();
+      boolean moveAttributes = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.smodelAttribute$KJ43)).isNotEmpty() && ListSequence.fromList(SNodeOperations.getAllSiblings(node, false)).isEmpty() && SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), CONCEPTS.Line$5o);
+      if (moveAttributes) {
+        ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(SNodeOperations.getParent(node), CONCEPTS.Line$5o), LINKS.smodelAttribute$KJ43)).addSequence(ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.smodelAttribute$KJ43)));
+      }
 
       SNode selected_node = node;
+
       String before = text.substring(0, label.getSelectionStart());
 
       SPropertyOperations.assign(node, PROPS.name$MnvL, before);
 
       String mid = text.substring(label.getSelectionStart(), label.getSelectionEnd());
       if ((mid != null && mid.length() > 0)) {
-        SNode midWord = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L, "com.dslfoundry.plaintextgen.structure.word"));
+        SNode midWord = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L, "com.dslfoundry.plaintextgen.structure.Word"));
         SPropertyOperations.assign(midWord, PROPS.name$MnvL, mid);
         SNodeOperations.insertNextSiblingChild(node, midWord);
         selected_node = midWord;
@@ -80,7 +89,7 @@ public final class SplitWordAtSelection_Intention extends AbstractIntentionDescr
 
       String after = text.substring(label.getSelectionEnd(), text.length());
       if ((after != null && after.length() > 0)) {
-        SNode afterWord = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L, "com.dslfoundry.plaintextgen.structure.word"));
+        SNode afterWord = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L, "com.dslfoundry.plaintextgen.structure.Word"));
         SPropertyOperations.assign(afterWord, PROPS.name$MnvL, after);
         SNodeOperations.insertNextSiblingChild(selected_node, afterWord);
       }
@@ -122,6 +131,14 @@ public final class SplitWordAtSelection_Intention extends AbstractIntentionDescr
       return SplitWordAtSelection_Intention.this;
     }
 
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Line$5o = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, "com.dslfoundry.plaintextgen.structure.Line");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink smodelAttribute$KJ43 = MetaAdapterFactory.getContainmentLink(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL, 0x47bf8397520e5942L, "smodelAttribute");
   }
 
   private static final class PROPS {

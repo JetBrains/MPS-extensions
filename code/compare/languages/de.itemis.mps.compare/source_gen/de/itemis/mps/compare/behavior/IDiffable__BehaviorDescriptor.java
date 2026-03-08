@@ -13,10 +13,13 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import com.intellij.openapi.application.Application;
 import com.intellij.openapi.application.ApplicationManager;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 public final class IDiffable__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0xf47b95d45e734c04L, 0x920418076950153bL, 0x740d15a40e956e1L, "de.itemis.mps.compare.structure.IDiffable");
@@ -30,10 +33,15 @@ public final class IDiffable__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static void setDiffFlag_id6Od11GY7tDO(@NotNull SNode __thisNode__, boolean flag) {
-    __thisNode__.putUserObject("diff", flag);
+    SPropertyOperations.assign(__thisNode__, PROPS.showDiff$QsrO, flag);
   }
   /*package*/ static boolean isDiffEnabled_id6Od11GY7tN$(@NotNull SNode __thisNode__) {
-    return (__thisNode__.getUserObject("diff") == null ? false : as_lilaz8_a0a0a0k(__thisNode__.getUserObject("diff"), Boolean.class) && !(ApplicationManager.getApplication().isHeadlessEnvironment()));
+    if (!(SPropertyOperations.getBoolean(__thisNode__, PROPS.showDiff$QsrO))) {
+      return false;
+    }
+
+    Application application = ApplicationManager.getApplication();
+    return application != null && !(application.isHeadlessEnvironment());
   }
 
   /*package*/ IDiffable__BehaviorDescriptor() {
@@ -84,7 +92,8 @@ public final class IDiffable__BehaviorDescriptor extends BaseBHDescriptor {
   public SAbstractConcept getConcept() {
     return CONCEPT;
   }
-  private static <T> T as_lilaz8_a0a0a0k(Object o, Class<T> type) {
-    return (type.isInstance(o) ? (T) o : null);
+
+  private static final class PROPS {
+    /*package*/ static final SProperty showDiff$QsrO = MetaAdapterFactory.getProperty(0xf47b95d45e734c04L, 0x920418076950153bL, 0x740d15a40e956e1L, 0x6ecb0093506adacaL, "showDiff");
   }
 }

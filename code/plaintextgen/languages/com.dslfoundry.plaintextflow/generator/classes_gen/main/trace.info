@@ -16,7 +16,7 @@
   <root nodeRef="r:e0611dee-93ac-4e51-aacc-8ac9535cad7e(main@generator)/7578858899714625060">
     <file name="QueriesGenerated.java">
       <node id="4362968773288447997" at="34,88,35,16" concept="1" />
-      <node id="4362968773288390902" at="37,88,38,123" concept="1" />
+      <node id="4362968773288390902" at="37,88,38,126" concept="1" />
       <node id="4362968773288439444" at="40,88,41,78" concept="1" />
       <node id="4362968773288653219" at="43,88,44,101" concept="1" />
       <node id="8823215415528113850" at="46,78,47,110" concept="1" />
@@ -42,7 +42,7 @@
       <node id="4362968773288403308" at="49,0,52,0" concept="2" trace="sourceNodesQuery_0_0#(Ljetbrains/mps/generator/template/SourceSubstituteMacroNodesContext;)Ljava/lang/Iterable;" />
       <node id="8823215415528124826" at="140,0,143,0" concept="2" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
       <scope id="4362968773288447448" at="34,88,35,16" />
-      <scope id="4362968773288390353" at="37,88,38,123" />
+      <scope id="4362968773288390353" at="37,88,38,126" />
       <scope id="4362968773288438895" at="40,88,41,78" />
       <scope id="4362968773288652669" at="43,88,44,101" />
       <scope id="8823215415528112535" at="46,78,47,110" />

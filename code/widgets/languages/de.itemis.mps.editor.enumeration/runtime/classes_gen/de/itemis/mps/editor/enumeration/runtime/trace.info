@@ -417,104 +417,140 @@
   </root>
   <root nodeRef="r:8efaf1cb-bed1-4451-aa1a-8289f218b553(de.itemis.mps.editor.enumeration.runtime)/8279805472198503876">
     <file name="EnumerationCheckboxImage.java">
-      <node id="8279805472198503876" at="22,0,23,0" concept="11" trace="LOG" />
-      <node id="8279805472198515280" at="23,0,24,0" concept="3" trace="image" />
-      <node id="8279805472198515695" at="24,0,25,0" concept="3" trace="scale" />
-      <node id="8279805472198515915" at="25,0,26,0" concept="3" trace="next" />
-      <node id="8279805472198594537" at="26,0,27,0" concept="3" trace="state" />
-      <node id="8279805472198775143" at="28,101,29,34" concept="2" />
-      <node id="8279805472198758692" at="29,34,30,23" concept="2" />
-      <node id="8279805472198767040" at="30,23,31,23" concept="2" />
-      <node id="8279805472198770011" at="31,23,32,21" concept="2" />
-      <node id="8279805472198599326" at="34,27,35,16" concept="8" />
-      <node id="8279805472198603522" at="37,28,38,17" concept="8" />
-      <node id="8279805472199102592" at="40,27,41,17" concept="8" />
-      <node id="8279805472199120023" at="43,28,44,17" concept="8" />
-      <node id="6618608260456553800" at="46,43,47,38" concept="7" />
-      <node id="6618608260456566255" at="47,38,48,18" concept="8" />
-      <node id="4698460851460606490" at="50,44,51,30" concept="8" />
-      <node id="1734777297617635317" at="55,27,56,18" concept="8" />
-      <node id="1827140267377301459" at="57,5,58,0" concept="10" />
-      <node id="8279805472198819485" at="58,0,59,86" concept="7" />
-      <node id="1734777297617649206" at="60,25,61,18" concept="8" />
-      <node id="1520538761459736467" at="62,5,63,0" concept="10" />
-      <node id="1520538761459769791" at="64,52,65,100" concept="9" />
-      <node id="1520538761459773540" at="65,100,66,191" concept="9" />
-      <node id="1520538761460216024" at="66,191,67,92" concept="7" />
-      <node id="1520538761460310311" at="67,92,68,0" concept="10" />
-      <node id="1827140267377510976" at="68,0,69,66" concept="7" />
-      <node id="1827140267377136307" at="69,66,70,226" concept="2" />
-      <node id="1827140267377619354" at="71,38,72,71" concept="8" />
-      <node id="1827140267377278576" at="74,5,75,0" concept="10" />
-      <node id="1734777297617652575" at="75,0,76,68" concept="2" />
-      <node id="819036908911633122" at="76,68,77,91" concept="7" />
-      <node id="8279805472198831497" at="79,11,80,72" concept="8" />
-      <node id="819036908911583781" at="82,33,83,61" concept="2" />
-      <node id="8279805472198840338" at="86,5,87,16" concept="8" />
-      <node id="8279805472198599084" at="34,0,37,0" concept="6" trace="getNext#()Ljava/lang/String;" />
-      <node id="8279805472198603240" at="37,0,40,0" concept="6" trace="getState#()Ljava/lang/String;" />
-      <node id="8279805472199101692" at="40,0,43,0" concept="6" trace="getImage#()Ljava/awt/Image;" />
-      <node id="8279805472199118864" at="43,0,46,0" concept="6" trace="getScale#()D" />
-      <node id="4698460851460606488" at="50,0,53,0" concept="6" trace="getHeight#(Ljava/awt/image/ImageObserver;)D" />
-      <node id="1734777297617621978" at="54,56,57,5" concept="5" />
-      <node id="1734777297617639511" at="59,86,62,5" concept="5" />
-      <node id="1827140267377600537" at="70,226,73,7" concept="5" />
-      <node id="819036908911583781" at="81,41,84,9" concept="5" />
-      <node id="4698460851460601425" at="46,0,50,0" concept="6" trace="getWidth#(Ljava/awt/image/ImageObserver;)D" />
-      <node id="8279805472198757236" at="28,0,34,0" concept="1" trace="EnumerationCheckboxImage#(Ljava/lang/String;DLjava/lang/String;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="819036908911643551" at="78,29,85,7" concept="14" />
-      <node id="8279805472198822460" at="77,91,86,5" concept="5" />
-      <node id="1827140267377308966" at="63,0,74,5" concept="5" />
-      <node id="8279805472198783141" at="54,0,89,0" concept="6" trace="loadImage#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/awt/Image;" />
-      <scope id="8279805472198599087" at="34,27,35,16" />
-      <scope id="8279805472198603243" at="37,28,38,17" />
-      <scope id="8279805472199101695" at="40,27,41,17" />
-      <scope id="8279805472199118867" at="43,28,44,17" />
-      <scope id="4698460851460606489" at="50,44,51,30" />
-      <scope id="1734777297617621980" at="55,27,56,18" />
-      <scope id="1734777297617639513" at="60,25,61,18" />
-      <scope id="1827140267377600539" at="71,38,72,71" />
-      <scope id="819036908911643552" at="79,11,80,72" />
-      <scope id="819036908911583781" at="82,33,83,61" />
-      <scope id="4698460851460601428" at="46,43,48,18">
+      <node id="8279805472198503876" at="27,0,28,0" concept="11" trace="LOG" />
+      <node id="8279805472198515280" at="28,0,29,0" concept="3" trace="image" />
+      <node id="8279805472198515695" at="29,0,30,0" concept="3" trace="scale" />
+      <node id="8279805472198515915" at="30,0,31,0" concept="3" trace="next" />
+      <node id="8279805472198594537" at="31,0,32,0" concept="3" trace="state" />
+      <node id="8279805472198775143" at="33,101,34,34" concept="2" />
+      <node id="8279805472198758692" at="34,34,35,23" concept="2" />
+      <node id="8279805472198767040" at="35,23,36,23" concept="2" />
+      <node id="8279805472198770011" at="36,23,37,21" concept="2" />
+      <node id="8279805472198599326" at="39,27,40,16" concept="8" />
+      <node id="8279805472198603522" at="42,28,43,17" concept="8" />
+      <node id="8279805472199102592" at="45,27,46,17" concept="8" />
+      <node id="8279805472199120023" at="48,28,49,17" concept="8" />
+      <node id="6618608260456553800" at="51,43,52,38" concept="7" />
+      <node id="6618608260456566255" at="52,38,53,18" concept="8" />
+      <node id="4698460851460606490" at="55,44,56,30" concept="8" />
+      <node id="3116752018886458686" at="59,0,60,0" concept="11" trace="urlCache" />
+      <node id="1734777297617635317" at="62,27,63,18" concept="8" />
+      <node id="1827140267377301459" at="64,5,65,0" concept="10" />
+      <node id="8279805472198819485" at="65,0,66,86" concept="7" />
+      <node id="1734777297617649206" at="67,25,68,18" concept="8" />
+      <node id="1520538761459736467" at="69,5,70,0" concept="10" />
+      <node id="1520538761459769791" at="71,52,72,101" concept="9" />
+      <node id="1520538761459773540" at="72,101,73,191" concept="9" />
+      <node id="1520538761460216024" at="73,191,74,86" concept="7" />
+      <node id="3116752018884795308" at="74,86,75,0" concept="10" />
+      <node id="3116752018890907945" at="75,0,76,102" concept="9" />
+      <node id="3116752018890988723" at="76,102,77,88" concept="9" />
+      <node id="2027699625189909118" at="77,88,78,91" concept="9" />
+      <node id="3116752018886648827" at="78,91,79,63" concept="7" />
+      <node id="1827140267377510976" at="79,63,80,132" concept="7" />
+      <node id="1827140267377619354" at="81,32,82,65" concept="8" />
+      <node id="1827140267377278576" at="84,5,85,0" concept="10" />
+      <node id="1734777297617652575" at="85,0,86,68" concept="2" />
+      <node id="819036908911633122" at="86,68,87,91" concept="7" />
+      <node id="8279805472198831497" at="89,11,90,72" concept="8" />
+      <node id="819036908911583781" at="92,33,93,61" concept="2" />
+      <node id="8279805472198840338" at="96,5,97,16" concept="8" />
+      <node id="3116752018887259626" at="103,86,104,60" concept="7" />
+      <node id="8718287387723670765" at="105,141,106,61" concept="7" />
+      <node id="8718287387723895816" at="107,45,108,86" concept="9" />
+      <node id="8718287387724367003" at="108,86,109,82" concept="9" />
+      <node id="8718287387723717520" at="109,82,110,97" concept="2" />
+      <node id="3116752018887730616" at="111,14,112,42" concept="2" />
+      <node id="3116752018887338087" at="114,7,115,21" concept="8" />
+      <node id="8718287387723811948" at="117,75,118,47" concept="8" />
+      <node id="8718287387723875707" at="111,12,113,7" concept="0" />
+      <node id="8279805472198599084" at="39,0,42,0" concept="6" trace="getNext#()Ljava/lang/String;" />
+      <node id="8279805472198603240" at="42,0,45,0" concept="6" trace="getState#()Ljava/lang/String;" />
+      <node id="8279805472199101692" at="45,0,48,0" concept="6" trace="getImage#()Ljava/awt/Image;" />
+      <node id="8279805472199118864" at="48,0,51,0" concept="6" trace="getScale#()D" />
+      <node id="4698460851460606488" at="55,0,58,0" concept="6" trace="getHeight#(Ljava/awt/image/ImageObserver;)D" />
+      <node id="1734777297617621978" at="61,62,64,5" concept="5" />
+      <node id="1734777297617639511" at="66,86,69,5" concept="5" />
+      <node id="1827140267377600537" at="80,132,83,7" concept="5" />
+      <node id="819036908911583781" at="91,41,94,9" concept="5" />
+      <node id="8718287387723811948" at="117,0,120,0" concept="12" trace="as_fiz6m0_a0a0c0b0b0a1a81#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="4698460851460601425" at="51,0,55,0" concept="6" trace="getWidth#(Ljava/awt/image/ImageObserver;)D" />
+      <node id="8279805472198757236" at="33,0,39,0" concept="1" trace="EnumerationCheckboxImage#(Ljava/lang/String;DLjava/lang/String;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="819036908911643551" at="88,29,95,7" concept="14" />
+      <node id="8718287387723693038" at="106,61,113,7" concept="5" />
+      <node id="8279805472198822460" at="87,91,96,5" concept="5" />
+      <node id="3116752018887376997" at="104,60,114,7" concept="2" />
+      <node id="1827140267377308966" at="70,0,84,5" concept="5" />
+      <node id="3116752018887128806" at="103,0,117,0" concept="6" trace="retrieveURL#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/module/SModuleReference;Ljava/lang/String;)Ljava/net/URL;" />
+      <node id="8279805472198783141" at="61,0,99,0" concept="6" trace="loadImage#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/awt/Image;" />
+      <scope id="8279805472198599087" at="39,27,40,16" />
+      <scope id="8279805472198603243" at="42,28,43,17" />
+      <scope id="8279805472199101695" at="45,27,46,17" />
+      <scope id="8279805472199118867" at="48,28,49,17" />
+      <scope id="4698460851460606489" at="55,44,56,30" />
+      <scope id="1734777297617621980" at="62,27,63,18" />
+      <scope id="1734777297617639513" at="67,25,68,18" />
+      <scope id="1827140267377600539" at="81,32,82,65" />
+      <scope id="819036908911643552" at="89,11,90,72" />
+      <scope id="819036908911583781" at="92,33,93,61" />
+      <scope id="8718287387723875708" at="111,14,112,42" />
+      <scope id="8718287387723811948" at="117,75,118,47" />
+      <scope id="4698460851460601428" at="51,43,53,18">
         <var name="result" id="6618608260456553803" />
       </scope>
-      <scope id="8279805472198599084" at="34,0,37,0" />
-      <scope id="8279805472198603240" at="37,0,40,0" />
-      <scope id="8279805472199101692" at="40,0,43,0" />
-      <scope id="8279805472199118864" at="43,0,46,0" />
-      <scope id="4698460851460606488" at="50,0,53,0">
+      <scope id="8279805472198599084" at="39,0,42,0" />
+      <scope id="8279805472198603240" at="42,0,45,0" />
+      <scope id="8279805472199101692" at="45,0,48,0" />
+      <scope id="8279805472199118864" at="48,0,51,0" />
+      <scope id="4698460851460606488" at="55,0,58,0">
         <var name="o" id="4698460851460606497" />
       </scope>
-      <scope id="819036908911643561" at="81,41,84,9" />
-      <scope id="8279805472198757240" at="28,101,32,21" />
-      <scope id="4698460851460601425" at="46,0,50,0">
+      <scope id="819036908911643561" at="91,41,94,9" />
+      <scope id="8718287387723693040" at="107,45,110,97" />
+      <scope id="8718287387723811948" at="117,0,120,0">
+        <var name="o" id="8718287387723811948" />
+        <var name="type" id="8718287387723811948" />
+      </scope>
+      <scope id="8279805472198757240" at="33,101,37,21" />
+      <scope id="4698460851460601425" at="51,0,55,0">
         <var name="o" id="4698460851460602453" />
       </scope>
-      <scope id="819036908911643558" at="81,7,85,7">
+      <scope id="819036908911643558" at="91,7,95,7">
         <var name="e" id="819036908911643562" />
       </scope>
-      <scope id="8279805472198757236" at="28,0,34,0">
+      <scope id="8279805472198757236" at="33,0,39,0">
         <var name="next" id="8279805472198758405" />
         <var name="node" id="8279805472198836898" />
         <var name="path" id="8279805472198757495" />
         <var name="scale" id="8279805472198757584" />
         <var name="state" id="8279805472198757723" />
       </scope>
-      <scope id="8279805472198822462" at="78,29,85,7" />
-      <scope id="1827140267377308968" at="64,52,73,7">
+      <scope id="8279805472198822462" at="88,29,95,7" />
+      <scope id="3116752018887681446" at="105,141,113,7">
+        <var name="mcl" id="8718287387723670766" />
+      </scope>
+      <scope id="1827140267377308968" at="71,52,83,7">
         <var name="filePathInModule" id="1520538761460216025" />
+        <var name="moduleRef" id="3116752018886648828" />
         <var name="resourceURL" id="1827140267377510977" />
       </scope>
-      <scope id="8279805472198783144" at="54,56,87,16">
+      <scope id="3116752018887128809" at="103,86,115,21">
+        <var name="url" id="3116752018887259627" />
+      </scope>
+      <scope id="3116752018887128806" at="103,0,117,0">
+        <var name="moduleRef" id="3116752018887173290" />
+        <var name="node" id="3116752018887153479" />
+        <var name="path" id="3116752018887197257" />
+      </scope>
+      <scope id="8279805472198783144" at="61,62,97,16">
         <var name="imageFile" id="819036908911633123" />
         <var name="module" id="8279805472198819486" />
       </scope>
-      <scope id="8279805472198783141" at="54,0,89,0">
+      <scope id="8279805472198783141" at="61,0,99,0">
         <var name="fileName" id="8279805472198783736" />
         <var name="node" id="8279805472198819508" />
       </scope>
-      <unit id="8279805472198503876" at="21,0,92,0" name="de.itemis.mps.editor.enumeration.runtime.EnumerationCheckboxImage" />
+      <unit id="8279805472198503876" at="26,0,121,0" name="de.itemis.mps.editor.enumeration.runtime.EnumerationCheckboxImage" />
     </file>
   </root>
 </debug-info>

@@ -14,7 +14,6 @@ import java.awt.Rectangle;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.openapi.editor.EditorComponent;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 import de.slisson.mps.reflection.runtime.ReflectionUtil;
 import java.util.ArrayList;
 import jetbrains.mps.nodeEditor.cells.GeometryUtil;
@@ -26,7 +25,9 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellLayout.PunctuationUtil;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.openapi.editor.style.StyleAttribute;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.awt.Color;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import de.itemis.mps.editor.celllayout.layout.ILayouter;
 
@@ -35,6 +36,7 @@ import de.itemis.mps.editor.celllayout.layout.ILayouter;
  */
 public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
   private static boolean DISABLED = false;
+  private static final String INSTALLATION_STATUS_KEY = LayoutInterceptor.class.getName() + ".installationStatus";
 
   public static jetbrains.mps.openapi.editor.cells.CellLayout getOriginalLayout(EditorCell_Collection cell) {
     jetbrains.mps.openapi.editor.cells.CellLayout cellLayout = cell.getCellLayout();
@@ -128,19 +130,20 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
     installRecursive(editorComponent.getRootCell());
   }
 
-  public static boolean installRecursive(EditorCell cell) {
+  public static void installRecursive(EditorCell cell) {
     if (DISABLED) {
-      return false;
+      return;
     }
-    boolean installedAnywhere = false;
-    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a2a62(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
+    if (cell.getUserObject(INSTALLATION_STATUS_KEY) == InstallationStatus.Installed) {
+      return;
+    }
+    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a2a72(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
     if (collectionCell != null) {
-      installedAnywhere |= install(collectionCell);
       for (EditorCell child : Sequence.fromIterable(collectionCell)) {
-        installedAnywhere |= installRecursive(child);
+        installRecursive(child);
       }
+      install(collectionCell);
     }
-    return installedAnywhere;
   }
 
   public static boolean installWhereRequired(EditorComponent editorComponent) {
@@ -154,33 +157,43 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
     if (DISABLED) {
       return false;
     }
-    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a1a03(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
+    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a1a13(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
     if (collectionCell == null) {
       return false;
     }
 
-    boolean installedAnywhere = false;
-    for (jetbrains.mps.nodeEditor.cells.EditorCell_Collection c : SetSequence.fromSet(StylesRequiringInstall.collectRequiredCells(cell)).ofType(jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class)) {
-
-      // Using the MPS layouter instead of our more feature rich algorithms is done for performance reasons.
-      // Mixing both layout algorithms often causes overlapping cells and installing the interceptor into the whole subtree is a working workaround.
-      // That's what we do here, if the layout algorithm is replaced anywhere, we replace it in the whole subtree.
-      if (isInstalled(c)) {
-        continue;
-      }
-      installedAnywhere |= installRecursive(c);
+    InstallationStatus cachedStatus = as_58rwot_a0a4a13(cell.getUserObject(INSTALLATION_STATUS_KEY), InstallationStatus.class);
+    if (cachedStatus != null) {
+      return cachedStatus == InstallationStatus.Installed;
     }
-    return installedAnywhere;
+
+    boolean requiredAnywhere = StylesRequiringInstall.usesLayoutStyles(cell);
+    if (!(requiredAnywhere)) {
+      for (EditorCell child : Sequence.fromIterable(collectionCell)) {
+        if (installWhereRequired(child)) {
+          requiredAnywhere = true;
+          break;
+        }
+      }
+    }
+    if (requiredAnywhere) {
+      installRecursive(cell);
+    } else {
+      cell.putUserObject(INSTALLATION_STATUS_KEY, InstallationStatus.NotRequired);
+    }
+
+    return requiredAnywhere;
   }
 
   public static boolean install(EditorCell cell) {
     if (DISABLED) {
       return false;
     }
-    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a1a23(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
+    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a1a33(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
     if (collectionCell == null) {
       return false;
     }
+    cell.putUserObject(INSTALLATION_STATUS_KEY, InstallationStatus.Installed);
     if (!(LayoutableAdapters.isSupportedCollection(collectionCell))) {
       return false;
     }
@@ -188,7 +201,7 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
     CellLayout layout = collectionCell.getCellLayout();
     if (!(layout instanceof ICellLayoutWrapper)) {
       CellLayout wrapped = new LayoutInterceptor(layout);
-      if (layout instanceof CellLayout_Horizontal || layout instanceof CellLayout_Indent || check_58rwot_a0b0g0gb(check_58rwot_a0a1a6a23(as_58rwot_a0a0a1a6a23(layout, TopDownCellLayoutAdapter.class)))) {
+      if (layout instanceof CellLayout_Horizontal || layout instanceof CellLayout_Indent || check_58rwot_a0b0h0hb(check_58rwot_a0a1a7a33(as_58rwot_a0a0a1a7a33(layout, TopDownCellLayoutAdapter.class)))) {
         wrapped = new PunctuableLayout(wrapped);
       }
       ReflectionUtil.writeField(jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class, collectionCell, "myCellLayout", wrapped);
@@ -199,9 +212,12 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
   }
 
   public static boolean isInstalled(EditorCell cell) {
-    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a0a43(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
+    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a0a53(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
     if (collectionCell == null) {
       return false;
+    }
+    if (cell.getUserObject(INSTALLATION_STATUS_KEY) == InstallationStatus.Installed) {
+      return true;
     }
     CellLayout layout = collectionCell.getCellLayout();
     return layout instanceof LayoutInterceptor;
@@ -212,7 +228,7 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
   }
 
   public static void uninstall(EditorCell cell) {
-    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a0a83(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
+    jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a0a93(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
     if (collectionCell == null) {
       return;
     }
@@ -370,6 +386,7 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
     private static final Set<StyleAttribute> REQUIRES_THIS_CELL = SetSequence.fromSet(new HashSet<StyleAttribute>());
     private static final Set<StyleAttribute> REQUIRES_PARENT_CELL = SetSequence.fromSet(new HashSet<StyleAttribute>());
     private static final Set<StyleAttribute> REQUIRES_ANCESTOR_CELLS = SetSequence.fromSet(new HashSet<StyleAttribute>());
+    private static final Set<StyleAttribute> ALL_STYLES = SetSequence.fromSet(new HashSet<StyleAttribute>());
 
     static {
       SetSequence.fromSet(REQUIRES_THIS_CELL).addSequence(SetSequence.fromSet(BORDER_ATTRIBUTES));
@@ -379,6 +396,20 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
       SetSequence.fromSet(REQUIRES_PARENT_CELL).addSequence(SetSequence.fromSet(GROW_ATTRIBUTES));
       SetSequence.fromSet(REQUIRES_ANCESTOR_CELLS).addSequence(SetSequence.fromSet(PUSH_ATTRIBUTES));
       SetSequence.fromSet(REQUIRES_ANCESTOR_CELLS).addSequence(SetSequence.fromSet(OVERFLOW_ATTRIBUTES));
+      SetSequence.fromSet(ALL_STYLES).addSequence(SetSequence.fromSet(BORDER_ATTRIBUTES));
+      SetSequence.fromSet(ALL_STYLES).addSequence(SetSequence.fromSet(MARGIN_ATTRIBUTES));
+      SetSequence.fromSet(ALL_STYLES).addSequence(SetSequence.fromSet(GROW_ATTRIBUTES));
+      SetSequence.fromSet(ALL_STYLES).addSequence(SetSequence.fromSet(PUSH_ATTRIBUTES));
+      SetSequence.fromSet(ALL_STYLES).addSequence(SetSequence.fromSet(OVERFLOW_ATTRIBUTES));
+    }
+
+    public static boolean usesLayoutStyles(EditorCell cell) {
+      Iterable<StyleAttribute> specifiedAttributes = cell.getStyle().getSpecifiedAttributes();
+      return Sequence.fromIterable(specifiedAttributes).any(new _FunctionTypes._return_P1_E0<Boolean, StyleAttribute>() {
+        public Boolean invoke(StyleAttribute it) {
+          return SetSequence.fromSet(ALL_STYLES).contains(it);
+        }
+      });
     }
 
     public static Set<EditorCell> collectRequiredCells(EditorCell cell) {
@@ -406,7 +437,7 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
         if (SetSequence.fromSet(GRID_ATTRIBUTES).contains(attribute)) {
           for (EditorCell ancestor = cell.getParent(); ancestor != null; ancestor = ancestor.getParent()) {
             SetSequence.fromSet(acc).addElement(ancestor);
-            if (check_58rwot_a1a0a3a0a61sb(as_58rwot_a0a1a0a3a0a61sb(as_58rwot_a0a0a0b0a0d0a0q44(ancestor, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class).getCellLayout(), CellLayout_Vertical.class))) {
+            if (check_58rwot_a1a0a3a0a91tb(as_58rwot_a0a1a0a3a0a91tb(as_58rwot_a0a0a0b0a0d0a0t54(ancestor, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class).getCellLayout(), CellLayout_Vertical.class))) {
               break;
             }
           }
@@ -420,47 +451,55 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
       }
     }
 
-    private static boolean check_58rwot_a1a0a3a0a61sb(CellLayout_Vertical checkedDotOperand) {
+    private static boolean check_58rwot_a1a0a3a0a91tb(CellLayout_Vertical checkedDotOperand) {
       if (null != checkedDotOperand) {
         return ((Boolean) ReflectionUtil.callMethod(CellLayout_Vertical.class, checkedDotOperand, "isGridLayout", new Class[]{}, new Object[]{}));
       }
       return false;
     }
-    private static <T> T as_58rwot_a0a1a0a3a0a61sb(Object o, Class<T> type) {
+    private static <T> T as_58rwot_a0a1a0a3a0a91tb(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
-    private static <T> T as_58rwot_a0a0a0b0a0d0a0q44(Object o, Class<T> type) {
+    private static <T> T as_58rwot_a0a0a0b0a0d0a0t54(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
   }
-  private static boolean check_58rwot_a0b0g0gb(ILayouter checkedDotOperand) {
+
+  public enum InstallationStatus {
+    NotRequired(),
+    Installed()
+  }
+  private static boolean check_58rwot_a0b0h0hb(ILayouter checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.usesPunctuation();
     }
     return false;
   }
-  private static ILayouter check_58rwot_a0a1a6a23(TopDownCellLayoutAdapter checkedDotOperand) {
+  private static ILayouter check_58rwot_a0a1a7a33(TopDownCellLayoutAdapter checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getLayouter();
     }
     return null;
   }
-  private static <T> T as_58rwot_a0a2a62(Object o, Class<T> type) {
+  private static <T> T as_58rwot_a0a2a72(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_58rwot_a0a1a03(Object o, Class<T> type) {
+  private static <T> T as_58rwot_a0a1a13(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_58rwot_a0a1a23(Object o, Class<T> type) {
+  private static <T> T as_58rwot_a0a4a13(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_58rwot_a0a0a1a6a23(Object o, Class<T> type) {
+  private static <T> T as_58rwot_a0a1a33(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_58rwot_a0a0a43(Object o, Class<T> type) {
+  private static <T> T as_58rwot_a0a0a1a7a33(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_58rwot_a0a0a83(Object o, Class<T> type) {
+  private static <T> T as_58rwot_a0a0a53(Object o, Class<T> type) {
+    return (type.isInstance(o) ? (T) o : null);
+  }
+  private static <T> T as_58rwot_a0a0a93(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

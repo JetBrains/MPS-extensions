@@ -12,7 +12,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
-import com.dslfoundry.plaintextflow.editor.style_flow_StyleSheet.nogapStyleClass;
+import com.dslfoundry.plaintextflow.editor.FlowStyle_StyleSheet.NoGapStyleClass;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSColors;
 
@@ -47,7 +47,7 @@ import jetbrains.mps.nodeEditor.MPSColors;
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "↵");
     editorCell.setCellId("Constant_6ywfij_a0");
     Style style = new StyleImpl();
-    new nogapStyleClass(this).apply(style, editorCell);
+    new NoGapStyleClass(this).apply(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.TEXT_COLOR, getStyleRegistry().getSimpleColor(MPSColors.LIGHT_BLUE));
     editorCell.getStyle().putAll(style);

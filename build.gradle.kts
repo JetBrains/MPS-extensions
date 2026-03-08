@@ -2,22 +2,25 @@ import com.specificlanguages.mps.MainBuild
 import com.specificlanguages.mps.MpsBuild
 import com.specificlanguages.mps.RunAnt
 import com.specificlanguages.mps.TestBuild
+import de.itemis.mps.gradle.EnvironmentKind
 import de.itemis.mps.gradle.GitBasedVersioning
+import de.itemis.mps.gradle.tasks.MpsGenerate
 import de.itemis.mps.gradle.tasks.MpsMigrate
 import de.itemis.mps.gradle.tasks.Remigrate
 import groovy.xml.XmlSlurper
 import groovy.xml.slurpersupport.GPathResult
+import org.gradle.kotlin.dsl.support.serviceOf
 import java.util.*
 
 plugins {
-    id("de.itemis.mps.gradle.common") version "1.29.3.+"
+    id("de.itemis.mps.gradle.common") version "1.30.0.+"
     id("com.github.breadmoirai.github-release") version "2.5.2"
     id("maven-publish")
     id("base")
     id("de.itemis.mps.gradle.launcher") version "2.8.0.+"
-    id("org.cyclonedx.bom") version "2.4.1"
+    id("org.cyclonedx.bom") version "3.2.0"
 
-    id("com.specificlanguages.mps") version "2.0.0-pre4"
+    id("com.specificlanguages.mps") version "2.0.1"
 }
 
 // Detect if we are in a CI build
@@ -97,12 +100,12 @@ bundledDependencies {
         dependency("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
         dependency("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
         dependency("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-        dependency("org.eclipse.emf:org.eclipse.emf.common:2.43.0")
-        dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.40.0")
-        dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.39.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.common:2.45.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.42.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.40.0")
 
         // xbase lib appears to be an undeclared runtime dependency of elk.alg.layered since 0.11.0
-        dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.40.0")
+        dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.42.0")
 
         configuration {
             exclude(group = "com.google.guava")
@@ -128,13 +131,13 @@ bundledDependencies {
         }
 
         dependency("org.apache.commons:commons-csv:1.14.1")
-        dependency("commons-io:commons-io:2.20.0")
-        dependency("org.apache.commons:commons-lang3:3.19.0")
+        dependency("commons-io:commons-io:2.21.0")
+        dependency("org.apache.commons:commons-lang3:3.20.0")
         dependency("org.apache.commons:commons-math3:3.6.1")
         dependency("org.apache.commons:commons-csv:1.14.1")
         dependency("commons-primitives:commons-primitives:1.0")
-        dependency("com.miglayout:miglayout-core:11.4.2")
-        dependency("com.miglayout:miglayout-swing:11.4.2")
+        dependency("com.miglayout:miglayout-core:11.4.3")
+        dependency("com.miglayout:miglayout-swing:11.4.3")
     }
 
     create("collections") {
@@ -143,7 +146,7 @@ bundledDependencies {
         dependency("org.apache.commons:commons-collections4:4.5.0")
         dependency("com.google.guava:guava:33.5.0-jre")
         dependency("net.sf.trove4j:trove4j:3.0.3")
-        dependency("io.vavr:vavr:0.10.7")
+        dependency("io.vavr:vavr:1.0.1")
 
         configuration {
             isTransitive = false
@@ -188,39 +191,37 @@ bundledDependencies {
 
 }
 
-mpsBuilds {
-    val languages by creating(MainBuild::class) {
-        mpsProjectDirectory = codeDir
-        buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions")
-        buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
-        buildFile = layout.buildDirectory.file("generated/languages/build.xml")
-    }
+val languages by mpsBuilds.creating(MainBuild::class) {
+    mpsProjectDirectory = codeDir
+    buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions")
+    buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
+    buildFile = layout.buildDirectory.file("generated/languages/build.xml")
+}
 
-    val tests by creating(TestBuild::class) {
-        dependsOn(languages)
-        mpsProjectDirectory = codeDir
-        buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions.tests")
-        buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
-        buildFile = layout.buildDirectory.file("generated/tests/build.xml")
+val tests by mpsBuilds.creating(TestBuild::class) {
+    dependsOn(languages)
+    mpsProjectDirectory = codeDir
+    buildArtifactsDirectory = layout.buildDirectory.dir("artifacts/de.itemis.mps.extensions.tests")
+    buildSolutionDescriptor = codeDir.file("build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd")
+    buildFile = layout.buildDirectory.file("generated/tests/build.xml")
 
-        assembleAndCheckTask {
-            finalizedBy("failOnTestError")
+    assembleAndCheckTask {
+        finalizedBy("failOnTestError")
 
-            doLast {
-                val reportDir = layout.buildDirectory.dir("junitreport").get()
-                ant.withGroovyBuilder {
-                    "taskdef"(
-                        "name" to "junitreport",
-                        "classname" to "org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator",
-                        "classpath" to mpsDefaults.antClasspath.asPath
-                    )
-                    "junitreport" {
-                        "fileset"("dir" to "$buildDir", "includes" to "**/TEST*.xml")
-                        "report"("format" to "frames", "todir" to reportDir)
-                    }
+        doLast {
+            val reportDir = layout.buildDirectory.dir("junitreport").get()
+            ant.withGroovyBuilder {
+                "taskdef"(
+                    "name" to "junitreport",
+                    "classname" to "org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator",
+                    "classpath" to mpsDefaults.antClasspath.asPath
+                )
+                "junitreport" {
+                    "fileset"("dir" to "$buildDir", "includes" to "**/TEST*.xml")
+                    "report"("format" to "frames", "todir" to reportDir)
                 }
-                println("JUnit report placed into file://$reportDir/index.html")
             }
+            println("JUnit report placed into file://$reportDir/index.html")
         }
     }
 }
@@ -234,12 +235,6 @@ tasks.withType<RunAnt>().configureEach {
 }
 
 // ___________________ utilities ___________________
-tasks.register<Copy>("copyChangelog") {
-    from(codeDir.dir("solutions/de.itemis.mps.extensions.changelog/source_gen/de/itemis/mps/extensions/changelog"))
-    into(layout.settingsDirectory)
-    include("*.md")
-}
-
 tasks.register("failOnTestError") {
     description = "evaluate junit result and fail on error"
     doLast {
@@ -257,7 +252,7 @@ tasks.register("failOnTestError") {
     }
 }
 
-tasks.packageZip {
+tasks.zip {
     dependsOn(tasks.cyclonedxBom)
     eachFile {
         if (path == "de.itemis.mps.extensions/MPS.ThirdParty.jar") {
@@ -276,12 +271,10 @@ tasks.register<Delete>("cleanMps") {
     })
 }
 
-tasks.cyclonedxBom {
-    destination = reportsDir.map { it.asFile }
-    outputName = "sbom"
-    outputFormat = "json"
-    includeLicenseText = false
-    includeConfigs = provider { bundledDependencies.map { it.configuration.name } }
+tasks.cyclonedxDirectBom {
+    jsonOutput = reportsDir.get().file("sbom.json")
+    // Generate JSON only
+    xmlOutput.unsetConvention()
 }
 
 tasks.clean {
@@ -335,17 +328,15 @@ publishing {
                 withXml {
                     val dependenciesNode = asNode().appendNode("dependencies")
 
-                    for (dep in bundledDependencies) {
-                        dep.configuration.get().resolvedConfiguration.firstLevelModuleDependencies.forEach {
-                            val dependencyNode = dependenciesNode.appendNode("dependency")
-                            dependencyNode.appendNode("groupId", it.moduleGroup)
-                            dependencyNode.appendNode("artifactId", it.moduleName)
-                            dependencyNode.appendNode("version", it.moduleVersion)
-                            if (it.moduleArtifacts.isNotEmpty()) {
-                                dependencyNode.appendNode("type", it.moduleArtifacts.first().type)
-                            }
-                            dependencyNode.appendNode("scope", "provided")
+                    forEachBundledDependency {
+                        val dependencyNode = dependenciesNode.appendNode("dependency")
+                        dependencyNode.appendNode("groupId", it.moduleGroup)
+                        dependencyNode.appendNode("artifactId", it.moduleName)
+                        dependencyNode.appendNode("version", it.moduleVersion)
+                        if (it.moduleArtifacts.isNotEmpty()) {
+                            dependencyNode.appendNode("type", it.moduleArtifacts.first().type)
                         }
+                        dependencyNode.appendNode("scope", "provided")
                     }
                 }
             }
@@ -353,19 +344,52 @@ publishing {
     }
 }
 
-tasks.register<Exec>("pipInstall") {
+/**
+ * Visit each bundled dependency, including its transitive dependencies.
+ */
+fun forEachBundledDependency(action: (ResolvedDependency) -> Unit) {
+    val seen = mutableSetOf<ResolvedDependency>()
+
+    val queue = ArrayDeque<ResolvedDependency>()
+
+    for (bundledDependency in bundledDependencies) {
+        queue.addAll(bundledDependency.configuration.get().resolvedConfiguration.firstLevelModuleDependencies)
+
+        while (queue.isNotEmpty()) {
+            val dep = queue.removeFirst()
+            if (seen.add(dep)) {
+                action(dep)
+                queue.addAll(dep.children)
+            }
+        }
+    }
+}
+
+val pythonEnvDir = layout.buildDirectory.dir("python-env")
+val python3 = pythonEnvDir.map { it.file("bin/python3") }
+
+tasks.register("pipInstall") {
     inputs.file("requirements.txt")
-    commandLine("python3", "-m", "pip", "install", "-r", "requirements.txt")
+
+    doLast {
+        val execOps = serviceOf<ExecOperations>()
+        execOps.exec {
+            commandLine("python3", "-m", "venv", pythonEnvDir.get().asFile)
+        }
+        execOps.exec {
+            commandLine(python3.get(), "-m", "pip", "install", "-r", "requirements.txt")
+        }
+    }
 }
 
 tasks.register<Exec>("previewDocs") {
     dependsOn("pipInstall")
-    commandLine("python3", "-m", "mkdocs", "serve")
+    commandLine(python3.get(), "-m", "mkdocs", "serve")
 }
 
 tasks.register<Exec>("deployDocs") {
     dependsOn("pipInstall")
-    commandLine("python3", "-", "mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force")
+    commandLine(python3.get(), "-m", "mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force")
 }
 
 
@@ -391,7 +415,7 @@ githubRelease {
     targetCommitish = GitBasedVersioning.getGitCommitHash()
     body = releaseNotes
     prerelease = rootProject.hasProperty("nightly_build")
-    releaseAssets(tasks.packageZip)
+    releaseAssets(tasks.zip)
     dryRun = false
 }
 
@@ -417,7 +441,7 @@ tasks.register<MpsMigrate>("migrate") {
 
 tasks.register<Remigrate>("remigrate") {
     mustRunAfter("migrate")
-    mustRunAfter(provider { mpsBuilds.map(MpsBuild::generateTask) })
+    dependsOn(provider { mpsBuilds.map(MpsBuild::generateTask) })
 
     javaLauncher = jbrToolchain.javaLauncher
     mpsHome = mpsDefaults.mpsHome
@@ -428,6 +452,37 @@ tasks.register<Remigrate>("remigrate") {
 
     // diagram migration from version 0 is currently not rerunnable, although it claims to be
     excludeModuleMigration("de.itemis.mps.editor.diagram", 0)
-    // not rerunnable until MPS-39315 is fixed
-    excludeModuleMigration("jetbrains.mps.baseLanguage.javadoc", 0)
+}
+
+val generateChangelog by tasks.registering(MpsGenerate::class) {
+    dependsOn(languages.generateTask)
+
+    javaLauncher = jbrToolchain.javaLauncher
+    mpsHome = mpsDefaults.mpsHome
+
+    environmentKind = EnvironmentKind.MPS
+
+    projectLocation = codeDir
+    pluginRoots.from(usedPluginRoots)
+
+    modules = listOf("de.itemis.mps.extensions.changelog")
+}
+
+val copyChangelog by tasks.registering {
+    dependsOn(generateChangelog)
+
+    doLast {
+        // Using a copy action here instead of making this task a Copy. Otherwise Gradle considers the entire project to
+        // be the output of this task (because the destination directory is the project root) and complains about
+        // implicit dependencies.
+        copy {
+            from(codeDir.dir("solutions/de.itemis.mps.extensions.changelog/source_gen/de/itemis/mps/extensions/changelog"))
+            into(layout.settingsDirectory)
+            include("*.md")
+        }
+    }
+}
+
+tasks.build {
+    dependsOn(copyChangelog)
 }

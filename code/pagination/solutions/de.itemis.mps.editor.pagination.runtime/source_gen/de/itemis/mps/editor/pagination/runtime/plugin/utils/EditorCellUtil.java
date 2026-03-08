@@ -126,7 +126,7 @@ __switch__:
 
   public static EditorComponent openEditorComponentForNode(@Nullable SNode node, Project project) {
     if (node != null && SNodeOperations.getModel(node) != null) {
-      return check_eu2c9k_a0a0a11(NavigationSupport.getInstance().openNode(project, node, true, true));
+      return check_eu2c9k_a0a0a11(NavigationSupport.getInstance(project).openNode(project, node, true, true));
     }
     return null;
   }

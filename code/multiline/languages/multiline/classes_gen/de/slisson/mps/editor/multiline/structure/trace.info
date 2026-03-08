@@ -13,7 +13,7 @@
       <unit at="11,0,65,0" name="de.slisson.mps.editor.multiline.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,36,0" name="de.slisson.mps.editor.multiline.structure.LanguageConceptSwitch" />
+      <unit at="12,0,44,0" name="de.slisson.mps.editor.multiline.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="16,0,123,0" name="de.slisson.mps.editor.multiline.structure.StructureAspectDescriptor" />
@@ -34,8 +34,8 @@
       <scope id="2197626119621156059" at="31,62,38,50" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2197626119621156059" at="13,0,14,0" concept="6" trace="CellModel_Multiline_Constant" />
-      <node id="2197626119621156059" at="20,58,21,67" concept="0" />
+      <node id="2197626119621156059" at="15,0,16,0" concept="6" trace="CellModel_Multiline_Constant" />
+      <node id="2197626119621156059" at="22,58,23,67" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2197626119621156059" at="18,0,19,0" concept="1" trace="myConceptCellModel_Multiline_Constant" />
@@ -72,8 +72,8 @@
       <scope id="2197626119621156060" at="54,66,60,54" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2197626119621156060" at="16,0,17,0" concept="6" trace="StubCellModel_Multiline_Constant" />
-      <node id="2197626119621156060" at="23,62,24,71" concept="0" />
+      <node id="2197626119621156060" at="18,0,19,0" concept="6" trace="StubCellModel_Multiline_Constant" />
+      <node id="2197626119621156060" at="25,62,26,71" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2197626119621156060" at="21,0,22,0" concept="1" trace="myConceptStubCellModel_Multiline_Constant" />
@@ -110,8 +110,8 @@
       <scope id="8006371471054135775" at="23,53,30,41" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8006371471054135775" at="12,0,13,0" concept="6" trace="CellModel_Multiline" />
-      <node id="8006371471054135775" at="19,116,20,58" concept="0" />
+      <node id="8006371471054135775" at="14,0,15,0" concept="6" trace="CellModel_Multiline" />
+      <node id="8006371471054135775" at="21,116,22,58" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8006371471054135775" at="17,0,18,0" concept="1" trace="myConceptCellModel_Multiline" />
@@ -148,8 +148,8 @@
       <scope id="8664183491941389655" at="47,57,53,45" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8664183491941389655" at="15,0,16,0" concept="6" trace="StubCellModel_Multiline" />
-      <node id="8664183491941389655" at="22,60,23,62" concept="0" />
+      <node id="8664183491941389655" at="17,0,18,0" concept="6" trace="StubCellModel_Multiline" />
+      <node id="8664183491941389655" at="24,60,25,62" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8664183491941389655" at="20,0,21,0" concept="1" trace="myConceptStubCellModel_Multiline" />
@@ -186,8 +186,8 @@
       <scope id="9175692738071695071" at="39,55,46,43" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="9175692738071695071" at="14,0,15,0" concept="6" trace="QueryFunction_Content" />
-      <node id="9175692738071695071" at="21,67,22,60" concept="0" />
+      <node id="9175692738071695071" at="16,0,17,0" concept="6" trace="QueryFunction_Content" />
+      <node id="9175692738071695071" at="23,67,24,60" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="9175692738071695071" at="19,0,20,0" concept="1" trace="myConceptQueryFunction_Content" />

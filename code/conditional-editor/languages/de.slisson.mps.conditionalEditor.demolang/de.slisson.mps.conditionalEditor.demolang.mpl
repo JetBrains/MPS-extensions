@@ -13,6 +13,7 @@
   <accessoryModels />
   <dependencies>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
+    <dependency reexport="false">5ca3122a-2487-4e52-a92a-f34e8cc3de58(nl.f1re.mps.aliascustomization)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:b8bb702e-43ed-4090-a902-d180d3e5f292:de.slisson.mps.conditionalEditor" version="0" />
@@ -65,6 +66,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="5ca3122a-2487-4e52-a92a-f34e8cc3de58(nl.f1re.mps.aliascustomization)" version="0" />
   </dependencyVersions>
   <extendedLanguages>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>

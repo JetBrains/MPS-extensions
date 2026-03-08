@@ -100,12 +100,12 @@ bundledDependencies {
         dependency("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
         dependency("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
         dependency("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-        dependency("org.eclipse.emf:org.eclipse.emf.common:2.44.0")
-        dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.41.0")
-        dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.39.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.common:2.45.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.42.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.40.0")
 
         // xbase lib appears to be an undeclared runtime dependency of elk.alg.layered since 0.11.0
-        dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.41.0")
+        dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.42.0")
 
         configuration {
             exclude(group = "com.google.guava")
@@ -136,8 +136,8 @@ bundledDependencies {
         dependency("org.apache.commons:commons-math3:3.6.1")
         dependency("org.apache.commons:commons-csv:1.14.1")
         dependency("commons-primitives:commons-primitives:1.0")
-        dependency("com.miglayout:miglayout-core:11.4.2")
-        dependency("com.miglayout:miglayout-swing:11.4.2")
+        dependency("com.miglayout:miglayout-core:11.4.3")
+        dependency("com.miglayout:miglayout-swing:11.4.3")
     }
 
     create("collections") {
@@ -146,7 +146,7 @@ bundledDependencies {
         dependency("org.apache.commons:commons-collections4:4.5.0")
         dependency("com.google.guava:guava:33.5.0-jre")
         dependency("net.sf.trove4j:trove4j:3.0.3")
-        dependency("io.vavr:vavr:0.11.0")
+        dependency("io.vavr:vavr:1.0.1")
 
         configuration {
             isTransitive = false

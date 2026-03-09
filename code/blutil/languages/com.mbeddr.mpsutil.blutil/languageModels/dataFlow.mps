@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="1" />
     <devkit ref="00000000-0000-4000-0000-443879f56b80(jetbrains.mps.devkit.aspect.dataflow)" />
   </languages>
   <imports>
@@ -967,6 +968,46 @@
           </node>
         </node>
         <node concept="3clFbH" id="7zYevsNIZPQ" role="3cqZAp" />
+      </node>
+    </node>
+  </node>
+  <node concept="3_zdsH" id="4Uj2o6ky7yy">
+    <property role="3GE5qa" value="integerRange" />
+    <ref role="3_znuS" to="hba4:vJfcQmm5$y" resolve="IntegerRange" />
+    <node concept="3__wT9" id="4Uj2o6ky7yz" role="3_A6iZ">
+      <node concept="3clFbS" id="4Uj2o6ky7y$" role="2VODD2">
+        <node concept="3AgYrR" id="4Uj2o6ky7$t" role="3cqZAp">
+          <node concept="2OqwBi" id="4Uj2o6ky7Ih" role="3Ah4Yx">
+            <node concept="3__QtB" id="4Uj2o6ky7$U" role="2Oq$k0" />
+            <node concept="3TrEf2" id="4Uj2o6ky7X3" role="2OqNvi">
+              <ref role="3Tt5mk" to="hba4:vJfcQmma$R" resolve="left" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="4Uj2o6ky80w" role="3cqZAp">
+          <node concept="2OqwBi" id="4Uj2o6ky81I" role="3Ah4Yx">
+            <node concept="3__QtB" id="4Uj2o6ky81a" role="2Oq$k0" />
+            <node concept="3TrEf2" id="4Uj2o6ky82T" role="2OqNvi">
+              <ref role="3Tt5mk" to="hba4:vJfcQmma$S" resolve="right" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3_zdsH" id="4Uj2o6kyaVH">
+    <property role="3GE5qa" value="scopeFunction" />
+    <ref role="3_znuS" to="hba4:2oJmO5M0doP" resolve="ScopeFunctionOperation" />
+    <node concept="3__wT9" id="4Uj2o6kyaVI" role="3_A6iZ">
+      <node concept="3clFbS" id="4Uj2o6kyaVJ" role="2VODD2">
+        <node concept="3AgYrR" id="4Uj2o6kyaWw" role="3cqZAp">
+          <node concept="2OqwBi" id="4Uj2o6kyb60" role="3Ah4Yx">
+            <node concept="3__QtB" id="4Uj2o6kyaWX" role="2Oq$k0" />
+            <node concept="3TrEf2" id="4Uj2o6kybkM" role="2OqNvi">
+              <ref role="3Tt5mk" to="hba4:2oJmO5M0doR" resolve="closure" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

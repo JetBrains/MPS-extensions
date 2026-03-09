@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -11,7 +12,7 @@
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -1077,6 +1078,152 @@
     <property role="EcuMT" value="8718469662520608193" />
     <property role="3GE5qa" value="instanceof" />
     <property role="TrG5h" value="IfInstanceOfVariableProvider" />
+  </node>
+  <node concept="1TIwiD" id="w6MstC16Ds">
+    <property role="EcuMT" value="578371460444482140" />
+    <property role="TrG5h" value="ElvisOperation" />
+    <property role="34LRSv" value="?:" />
+    <property role="R4oN_" value="elvis operation" />
+    <property role="3GE5qa" value="elvisOperation" />
+    <ref role="1TJDcQ" to="tpee:fJuHJVf" resolve="BinaryOperation" />
+  </node>
+  <node concept="1TIwiD" id="vJfcQmm5$y">
+    <property role="EcuMT" value="571742531387676962" />
+    <property role="TrG5h" value="IntegerRange" />
+    <property role="34LRSv" value="[n..m]" />
+    <property role="R4oN_" value="integer range from n to m" />
+    <property role="3GE5qa" value="integerRange" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="vJfcQmma$R" role="1TKVEi">
+      <property role="IQ2ns" value="571742531387697463" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+    </node>
+    <node concept="1TJgyj" id="vJfcQmma$S" role="1TKVEi">
+      <property role="IQ2ns" value="571742531387697464" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <ref role="20lvS9" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="vJfcQmma$M">
+    <property role="EcuMT" value="571742531387697458" />
+    <property role="TrG5h" value="IntegerRangeBound" />
+    <property role="3GE5qa" value="integerRange" />
+  </node>
+  <node concept="1TIwiD" id="vJfcQmma$O">
+    <property role="EcuMT" value="571742531387697460" />
+    <property role="TrG5h" value="IntegerRangeConstantBound" />
+    <property role="R4oN_" value="integer constant bound" />
+    <property role="3GE5qa" value="integerRange" />
+    <node concept="PrWs8" id="6vHuLLnBZL$" role="PzmwI">
+      <ref role="PrY4T" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+    </node>
+    <node concept="1TJgyi" id="6vHuLLnCAgc" role="1TKVEl">
+      <property role="IQ2nx" value="7488777117046563852" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="vJfcQmma$P">
+    <property role="EcuMT" value="571742531387697461" />
+    <property role="TrG5h" value="IntegerRangeExpressionBound" />
+    <property role="34LRSv" value="#" />
+    <property role="3GE5qa" value="integerRange" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="vJfcQmma$Q" role="1TKVEi">
+      <property role="IQ2ns" value="571742531387697462" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="6vHuLLnBZL_" role="PzmwI">
+      <ref role="PrY4T" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6vHuLLnKoKY">
+    <property role="EcuMT" value="7488777117048605758" />
+    <property role="TrG5h" value="ZipOperation" />
+    <property role="34LRSv" value="zip" />
+    <property role="R4oN_" value="maps a tuple of sequences into a sequence of tuples" />
+    <property role="3GE5qa" value="zipOperation" />
+    <ref role="1TJDcQ" to="tp2q:h856pF2" resolve="BinaryOperation" />
+  </node>
+  <node concept="1TIwiD" id="54jQkZ8WKL$">
+    <property role="EcuMT" value="5842252078326680676" />
+    <property role="TrG5h" value="GroupByOperation" />
+    <property role="34LRSv" value="groupBy" />
+    <property role="R4oN_" value="identify groups of elements" />
+    <property role="3GE5qa" value="groupByOperation" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
+  <node concept="1TIwiD" id="7Ja64GBeeCt">
+    <property role="EcuMT" value="8919968723020343837" />
+    <property role="TrG5h" value="ForEachWithIndexOperation" />
+    <property role="34LRSv" value="forEachIdx" />
+    <property role="R4oN_" value="execute for each element with index" />
+    <property role="3GE5qa" value="withIndexOperations" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
+  <node concept="1TIwiD" id="6RqC_fThQjL">
+    <property role="EcuMT" value="7915817776605258993" />
+    <property role="TrG5h" value="SelectWithIndexOperation" />
+    <property role="34LRSv" value="selectIdx" />
+    <property role="R4oN_" value="transform each element and index" />
+    <property role="3GE5qa" value="withIndexOperations" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
+  <node concept="1TIwiD" id="7Ja64GBdQxd">
+    <property role="EcuMT" value="8919968723020245069" />
+    <property role="TrG5h" value="WhereWithIndexOperation" />
+    <property role="34LRSv" value="whereIdx" />
+    <property role="R4oN_" value="include only matched element" />
+    <property role="3GE5qa" value="withIndexOperations" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
+  <node concept="1TIwiD" id="2oJmO5M0doT">
+    <property role="EcuMT" value="2751518233990321721" />
+    <property role="3GE5qa" value="scopeFunction" />
+    <property role="TrG5h" value="ApplyScopeFunctionOperation" />
+    <property role="34LRSv" value="apply" />
+    <property role="R4oN_" value="configure a given object/instance" />
+    <ref role="1TJDcQ" node="2oJmO5M0doP" resolve="ScopeFunctionOperation" />
+  </node>
+  <node concept="1TIwiD" id="2oJmO5M0doW">
+    <property role="EcuMT" value="2751518233990321724" />
+    <property role="3GE5qa" value="scopeFunction" />
+    <property role="TrG5h" value="LetScopeFunctionOperation" />
+    <property role="34LRSv" value="let" />
+    <property role="R4oN_" value="select anything from any object/instance" />
+    <ref role="1TJDcQ" node="2oJmO5M0doP" resolve="ScopeFunctionOperation" />
+  </node>
+  <node concept="1TIwiD" id="2oJmO5M0doP">
+    <property role="EcuMT" value="2751518233990321717" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="ScopeFunctionOperation" />
+    <property role="3GE5qa" value="scopeFunction" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2oJmO5M0doQ" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
+    <node concept="1TJgyj" id="2oJmO5M0doR" role="1TKVEi">
+      <property role="IQ2ns" value="2751518233990321719" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="closure" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4OYzbeq$iVd">
+    <property role="EcuMT" value="5566040892496752333" />
+    <property role="3GE5qa" value="scopeFunction" />
+    <property role="TrG5h" value="SmartAtomicClosureParameterDeclaration" />
+    <property role="34LRSv" value="~ &lt;name&gt;" />
+    <property role="R4oN_" value="smart closure parameter" />
+    <ref role="1TJDcQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
   </node>
 </model>
 

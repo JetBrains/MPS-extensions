@@ -123,7 +123,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -220,7 +220,7 @@
                   <node concept="3cpWsn" id="hOYM1ww" role="3cpWs9">
                     <property role="TrG5h" value="pd" />
                     <node concept="3Tqbb2" id="hOYM1wx" role="1tU5fm">
-                      <ref role="ehGHo" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+                      <ref role="ehGHo" to="tp2c:2c8ypONne1U" resolve="InferredClosureParameterDeclaration" />
                     </node>
                     <node concept="2OqwBi" id="hOYM1wy" role="33vP2m">
                       <node concept="2OqwBi" id="hOYM1wz" role="2Oq$k0">
@@ -237,7 +237,7 @@
                         </node>
                       </node>
                       <node concept="2DeJg1" id="5wUAOoBBjpK" role="2OqNvi">
-                        <ref role="1A0vxQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+                        <ref role="1A0vxQ" to="tp2c:2c8ypONne1U" resolve="InferredClosureParameterDeclaration" />
                       </node>
                     </node>
                   </node>
@@ -350,7 +350,7 @@
                       <node concept="3cpWsn" id="7Ja64GB9JEq" role="3cpWs9">
                         <property role="TrG5h" value="pDeclIt" />
                         <node concept="3Tqbb2" id="7Ja64GB9JE8" role="1tU5fm">
-                          <ref role="ehGHo" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+                          <ref role="ehGHo" to="tp2c:2c8ypONne1U" resolve="InferredClosureParameterDeclaration" />
                         </node>
                         <node concept="2OqwBi" id="7Ja64GB9JEr" role="33vP2m">
                           <node concept="2OqwBi" id="7Ja64GB9JEs" role="2Oq$k0">
@@ -367,7 +367,7 @@
                             </node>
                           </node>
                           <node concept="2DeJg1" id="7Ja64GB9JEx" role="2OqNvi">
-                            <ref role="1A0vxQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+                            <ref role="1A0vxQ" to="tp2c:2c8ypONne1U" resolve="InferredClosureParameterDeclaration" />
                           </node>
                         </node>
                       </node>
@@ -545,7 +545,7 @@
                       <node concept="3cpWsn" id="7Ja64GBdSyN" role="3cpWs9">
                         <property role="TrG5h" value="pDeclIt" />
                         <node concept="3Tqbb2" id="7Ja64GBdSyO" role="1tU5fm">
-                          <ref role="ehGHo" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+                          <ref role="ehGHo" to="tp2c:2c8ypONne1U" resolve="InferredClosureParameterDeclaration" />
                         </node>
                         <node concept="2OqwBi" id="7Ja64GBdSyP" role="33vP2m">
                           <node concept="2OqwBi" id="7Ja64GBdSyQ" role="2Oq$k0">
@@ -562,7 +562,7 @@
                             </node>
                           </node>
                           <node concept="2DeJg1" id="7Ja64GBdSyV" role="2OqNvi">
-                            <ref role="1A0vxQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+                            <ref role="1A0vxQ" to="tp2c:2c8ypONne1U" resolve="InferredClosureParameterDeclaration" />
                           </node>
                         </node>
                       </node>
@@ -740,7 +740,7 @@
                       <node concept="3cpWsn" id="7Ja64GBei$Z" role="3cpWs9">
                         <property role="TrG5h" value="pDeclIt" />
                         <node concept="3Tqbb2" id="7Ja64GBei_0" role="1tU5fm">
-                          <ref role="ehGHo" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+                          <ref role="ehGHo" to="tp2c:2c8ypONne1U" resolve="InferredClosureParameterDeclaration" />
                         </node>
                         <node concept="2OqwBi" id="7Ja64GBei_1" role="33vP2m">
                           <node concept="2OqwBi" id="7Ja64GBei_2" role="2Oq$k0">
@@ -757,7 +757,7 @@
                             </node>
                           </node>
                           <node concept="2DeJg1" id="7Ja64GBei_7" role="2OqNvi">
-                            <ref role="1A0vxQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+                            <ref role="1A0vxQ" to="tp2c:2c8ypONne1U" resolve="InferredClosureParameterDeclaration" />
                           </node>
                         </node>
                       </node>

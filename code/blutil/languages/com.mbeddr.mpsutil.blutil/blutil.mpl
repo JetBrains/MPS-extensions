@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="com.mbeddr.mpsutil.blutil" uuid="63e0e566-5131-447e-90e3-12ea330e1a00" languageVersion="3" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
     </modelRoot>
   </models>
@@ -16,7 +16,7 @@
   <generators>
     <generator alias="" namespace="com.mbeddr.mpsutil.blutil#4354378109086982937" uuid="3a6b9f2f-4402-4ed6-a7cd-12b272b244d5">
       <models>
-        <modelRoot type="default" contentPath="${module}">
+        <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
         </modelRoot>
       </models>

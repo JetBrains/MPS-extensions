@@ -5,8 +5,6 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="3" />
-    <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
   </languages>
   <imports>
@@ -35,6 +33,9 @@
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="1732176556423009631" name="jetbrains.mps.baseLanguage.structure.MultiLineComment" flags="ng" index="2lOVwT">
+        <child id="1732176556423038857" name="lines" index="2lOMFJ" />
+      </concept>
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
         <child id="1076505808688" name="condition" index="2$JKZa" />
@@ -156,19 +157,6 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
-    <language id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil">
-      <concept id="3693790620639876318" name="com.mbeddr.mpsutil.blutil.structure.BLDoc" flags="ng" index="2aEySx">
-        <child id="3693790620639876319" name="text" index="2aEySw" />
-      </concept>
-    </language>
-    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
-      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
-        <child id="2557074442922392302" name="words" index="19SJt6" />
-      </concept>
-      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
-        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
-      </concept>
-    </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1200830824066" name="jetbrains.mps.baseLanguage.closures.structure.YieldStatement" flags="nn" index="2n63Yl">
         <child id="1200830928149" name="expression" index="2n6tg2" />
@@ -190,11 +178,16 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -742,6 +735,90 @@
     <node concept="2YIFZL" id="2oJmO5LUfj9" role="jymVt">
       <property role="TrG5h" value="letVoid" />
       <node concept="3clFbS" id="2oJmO5LUfja" role="3clF47">
+        <node concept="2lOVwT" id="i1AnlEWaNT" role="3cqZAp">
+          <node concept="1PaTwC" id="i1AnlEWaNU" role="2lOMFJ">
+            <node concept="3oM_SD" id="i1AnlEWaOq" role="1PaTwD">
+              <property role="3oM_SC" value="This" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOr" role="1PaTwD">
+              <property role="3oM_SC" value="technically" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOs" role="1PaTwD">
+              <property role="3oM_SC" value="shouldn't" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOt" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOu" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOv" role="1PaTwD">
+              <property role="3oM_SC" value="explicitly," />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOw" role="1PaTwD">
+              <property role="3oM_SC" value="as" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOx" role="1PaTwD">
+              <property role="3oM_SC" value="it" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOy" role="1PaTwD">
+              <property role="3oM_SC" value="doesn't" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOz" role="1PaTwD">
+              <property role="3oM_SC" value="make" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaO$" role="1PaTwD">
+              <property role="3oM_SC" value="much" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaO_" role="1PaTwD">
+              <property role="3oM_SC" value="sense." />
+            </node>
+          </node>
+          <node concept="1PaTwC" id="i1AnlEWaOA" role="2lOMFJ">
+            <node concept="3oM_SD" id="i1AnlEWaOB" role="1PaTwD">
+              <property role="3oM_SC" value="But" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOC" role="1PaTwD">
+              <property role="3oM_SC" value="it" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOD" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOE" role="1PaTwD">
+              <property role="3oM_SC" value="required" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOF" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOG" role="1PaTwD">
+              <property role="3oM_SC" value="get" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOH" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOI" role="1PaTwD">
+              <property role="3oM_SC" value="syntactic" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOJ" role="1PaTwD">
+              <property role="3oM_SC" value="sugar" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOK" role="1PaTwD">
+              <property role="3oM_SC" value="variant" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOL" role="1PaTwD">
+              <property role="3oM_SC" value="type" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOM" role="1PaTwD">
+              <property role="3oM_SC" value="check" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaON" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="i1AnlEWaOO" role="1PaTwD">
+              <property role="3oM_SC" value="generate." />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2oJmO5LUfjb" role="3cqZAp">
           <node concept="2OqwBi" id="2oJmO5LUfjc" role="3clFbG">
             <node concept="37vLTw" id="2oJmO5LUfjd" role="2Oq$k0">
@@ -772,13 +849,6 @@
           <node concept="3cqZAl" id="2oJmO5LUfqj" role="1ajl9A" />
           <node concept="16syzq" id="2oJmO5LUfjp" role="1ajw0F">
             <ref role="16sUi3" node="2oJmO5LUfji" resolve="T" />
-          </node>
-        </node>
-      </node>
-      <node concept="2aEySx" id="2oJmO5LZr1I" role="lGtFl">
-        <node concept="19SGf9" id="2oJmO5LZr1J" role="2aEySw">
-          <node concept="19SUe$" id="2oJmO5LZr1K" role="19SJt6">
-            <property role="19SUeA" value="This technically shouldn't be used explicitly, as it doesn't make much sense.&#10;But it is required to get the syntactic sugar variant type check and generate. " />
           </node>
         </node>
       </node>

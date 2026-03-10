@@ -4192,27 +4192,5 @@
       <node concept="2iRfu4" id="vJfcQmmcTT" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="2oJmO5M1wK0">
-    <property role="3GE5qa" value="scopeFunction" />
-    <ref role="1XX52x" to="hba4:2oJmO5M0doP" resolve="ScopeFunctionOperation" />
-    <node concept="3EZMnI" id="2oJmO5M1wK2" role="2wV5jI">
-      <node concept="PMmxH" id="2oJmO5M1wK8" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <ref role="1k5W1q" to="tpen:hFITtyA" resolve="CompactKeyWord" />
-      </node>
-      <node concept="3F0ifn" id="2oJmO5M1wKa" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
-        <ref role="1k5W1q" to="tpen:hY9fg1G" resolve="LeftParenAfterName" />
-      </node>
-      <node concept="3F1sOY" id="2oJmO5M1wKf" role="3EZMnx">
-        <ref role="1NtTu8" to="hba4:2oJmO5M0doR" resolve="closure" />
-      </node>
-      <node concept="3F0ifn" id="2oJmO5M1wKi" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-        <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
-      </node>
-      <node concept="2iRfu4" id="2oJmO5M1wK5" role="2iSdaV" />
-    </node>
-  </node>
 </model>
 

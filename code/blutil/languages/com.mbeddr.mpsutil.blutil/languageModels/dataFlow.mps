@@ -995,21 +995,5 @@
       </node>
     </node>
   </node>
-  <node concept="3_zdsH" id="4Uj2o6kyaVH">
-    <property role="3GE5qa" value="scopeFunction" />
-    <ref role="3_znuS" to="hba4:2oJmO5M0doP" resolve="ScopeFunctionOperation" />
-    <node concept="3__wT9" id="4Uj2o6kyaVI" role="3_A6iZ">
-      <node concept="3clFbS" id="4Uj2o6kyaVJ" role="2VODD2">
-        <node concept="3AgYrR" id="4Uj2o6kyaWw" role="3cqZAp">
-          <node concept="2OqwBi" id="4Uj2o6kyb60" role="3Ah4Yx">
-            <node concept="3__QtB" id="4Uj2o6kyaWX" role="2Oq$k0" />
-            <node concept="3TrEf2" id="4Uj2o6kybkM" role="2OqNvi">
-              <ref role="3Tt5mk" to="hba4:2oJmO5M0doR" resolve="closure" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
 </model>
 

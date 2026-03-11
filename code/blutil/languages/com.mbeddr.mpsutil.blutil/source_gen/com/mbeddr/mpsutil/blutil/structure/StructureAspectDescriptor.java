@@ -37,12 +37,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptControlCharacterRegex = createDescriptorForControlCharacterRegex();
   /*package*/ final ConceptDescriptor myConceptDispatchExpression = createDescriptorForDispatchExpression();
   /*package*/ final ConceptDescriptor myConceptDisptachMatch = createDescriptorForDisptachMatch();
+  /*package*/ final ConceptDescriptor myConceptElvisOperation = createDescriptorForElvisOperation();
   /*package*/ final ConceptDescriptor myConceptEqualsNodeCriterion = createDescriptorForEqualsNodeCriterion();
   /*package*/ final ConceptDescriptor myConceptExpressionChildValue = createDescriptorForExpressionChildValue();
   /*package*/ final ConceptDescriptor myConceptFilterOperation = createDescriptorForFilterOperation();
+  /*package*/ final ConceptDescriptor myConceptForEachWithIndexOperation = createDescriptorForForEachWithIndexOperation();
   /*package*/ final ConceptDescriptor myConceptGridConstraintsNextColumOperation = createDescriptorForGridConstraintsNextColumOperation();
   /*package*/ final ConceptDescriptor myConceptGridConstraintsNextRowOperation = createDescriptorForGridConstraintsNextRowOperation();
   /*package*/ final ConceptDescriptor myConceptGridConstraintsOperation = createDescriptorForGridConstraintsOperation();
+  /*package*/ final ConceptDescriptor myConceptGroupByOperation = createDescriptorForGroupByOperation();
   /*package*/ final ConceptDescriptor myConceptGroupRegexp = createDescriptorForGroupRegexp();
   /*package*/ final ConceptDescriptor myConceptGuardCriterion = createDescriptorForGuardCriterion();
   /*package*/ final ConceptDescriptor myConceptHexadecimalRegex = createDescriptorForHexadecimalRegex();
@@ -54,6 +57,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptIfInstanceOfVarReference = createDescriptorForIfInstanceOfVarReference();
   /*package*/ final ConceptDescriptor myConceptIfInstanceOfVariableProvider = createDescriptorForIfInstanceOfVariableProvider();
   /*package*/ final ConceptDescriptor myConceptIndependentNonCapturingGroup = createDescriptorForIndependentNonCapturingGroup();
+  /*package*/ final ConceptDescriptor myConceptIntegerRange = createDescriptorForIntegerRange();
+  /*package*/ final ConceptDescriptor myConceptIntegerRangeBound = createDescriptorForIntegerRangeBound();
+  /*package*/ final ConceptDescriptor myConceptIntegerRangeConstantBound = createDescriptorForIntegerRangeConstantBound();
+  /*package*/ final ConceptDescriptor myConceptIntegerRangeExpressionBound = createDescriptorForIntegerRangeExpressionBound();
   /*package*/ final ConceptDescriptor myConceptIsConceptCriterion = createDescriptorForIsConceptCriterion();
   /*package*/ final ConceptDescriptor myConceptIsInstanceOfExpression = createDescriptorForIsInstanceOfExpression();
   /*package*/ final ConceptDescriptor myConceptItExpr = createDescriptorForItExpr();
@@ -78,6 +85,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptRefStep = createDescriptorForRefStep();
   /*package*/ final ConceptDescriptor myConceptSafeReadAction = createDescriptorForSafeReadAction();
   /*package*/ final ConceptDescriptor myConceptSafeWriteAction = createDescriptorForSafeWriteAction();
+  /*package*/ final ConceptDescriptor myConceptSelectWithIndexOperation = createDescriptorForSelectWithIndexOperation();
   /*package*/ final ConceptDescriptor myConceptShortStaticMethodCall = createDescriptorForShortStaticMethodCall();
   /*package*/ final ConceptDescriptor myConceptSimplePropertyStep = createDescriptorForSimplePropertyStep();
   /*package*/ final ConceptDescriptor myConceptThisRefExpr = createDescriptorForThisRefExpr();
@@ -96,6 +104,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptTypeSwitchVariable = createDescriptorForTypeSwitchVariable();
   /*package*/ final ConceptDescriptor myConceptTypeSwitchVariableReference = createDescriptorForTypeSwitchVariableReference();
   /*package*/ final ConceptDescriptor myConceptUnicodeByNameRegex = createDescriptorForUnicodeByNameRegex();
+  /*package*/ final ConceptDescriptor myConceptWhereWithIndexOperation = createDescriptorForWhereWithIndexOperation();
+  /*package*/ final ConceptDescriptor myConceptZipOperation = createDescriptorForZipOperation();
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeControlCharacterRegexValue = new ConstrainedStringDatatypeDescriptorImpl(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x520a3149d947cfdeL, "ControlCharacterRegexValue", "63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/5911591654126591632", "[a-zA-Z]");
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeHexadecimalRegexValue = new ConstrainedStringDatatypeDescriptorImpl(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x520a3149d9550cebL, "HexadecimalRegexValue", "63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/5911591654125800683", "[0-9a-fA-F]{2}");
   private final LanguageConceptSwitch myIndexSwitch;
@@ -119,7 +129,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAbstractChildValue, myConceptAbstractStep, myConceptAncestorRefExpr, myConceptAncestorRoleClause, myConceptBLDoc, myConceptBackReferenceRegexp, myConceptBuilderExpression, myConceptCSCase, myConceptCSDefault, myConceptCallRecursivelyExpression, myConceptCastedCandidateExpr, myConceptChildRefExpr, myConceptChildStep, myConceptConceptRef, myConceptConceptSwitchStatement, myConceptControlCharacterRegex, myConceptDispatchExpression, myConceptDisptachMatch, myConceptEqualsNodeCriterion, myConceptExpressionChildValue, myConceptFilterOperation, myConceptGridConstraintsNextColumOperation, myConceptGridConstraintsNextRowOperation, myConceptGridConstraintsOperation, myConceptGroupRegexp, myConceptGuardCriterion, myConceptHexadecimalRegex, myConceptIBuilderStep, myConceptIDeprecatedLangConcept, myConceptIMatcher, myConceptIfInstanceOfElseIfClause, myConceptIfInstanceOfStatement, myConceptIfInstanceOfVarReference, myConceptIfInstanceOfVariableProvider, myConceptIndependentNonCapturingGroup, myConceptIsConceptCriterion, myConceptIsInstanceOfExpression, myConceptItExpr, myConceptLinkRefExpr, myConceptLinkRoleClause, myConceptLogContextStatement, myConceptLogExpr, myConceptLogStatement, myConceptMatchClause, myConceptMatchClauseExpr, myConceptMatchExpression, myConceptMatchStatement, myConceptMethodLineDoc, myConceptNamedBackReferenceRegexp, myConceptNamedGroupRegexp, myConceptNodeRoleClause, myConceptNodeRoleCriterion, myConceptOctalRegex, myConceptParentRefExpr, myConceptParentRoleClause, myConceptPerformanceProfiler, myConceptRefStep, myConceptSafeReadAction, myConceptSafeWriteAction, myConceptShortStaticMethodCall, myConceptSimplePropertyStep, myConceptThisRefExpr, myConceptThisRoleClause, myConceptTypeGuard, myConceptTypeIsConceptCriterion, myConceptTypeSubtypeCriterion, myConceptTypeSwitch, myConceptTypeSwitchBaseVariable, myConceptTypeSwitchCase, myConceptTypeSwitchCaseMapping, myConceptTypeSwitchCaseMappingContainer, myConceptTypeSwitchCaseMappingMethodCall, myConceptTypeSwitchDefault, myConceptTypeSwitchNestedVariable, myConceptTypeSwitchVariable, myConceptTypeSwitchVariableReference, myConceptUnicodeByNameRegex);
+    return Arrays.asList(myConceptAbstractChildValue, myConceptAbstractStep, myConceptAncestorRefExpr, myConceptAncestorRoleClause, myConceptBLDoc, myConceptBackReferenceRegexp, myConceptBuilderExpression, myConceptCSCase, myConceptCSDefault, myConceptCallRecursivelyExpression, myConceptCastedCandidateExpr, myConceptChildRefExpr, myConceptChildStep, myConceptConceptRef, myConceptConceptSwitchStatement, myConceptControlCharacterRegex, myConceptDispatchExpression, myConceptDisptachMatch, myConceptElvisOperation, myConceptEqualsNodeCriterion, myConceptExpressionChildValue, myConceptFilterOperation, myConceptForEachWithIndexOperation, myConceptGridConstraintsNextColumOperation, myConceptGridConstraintsNextRowOperation, myConceptGridConstraintsOperation, myConceptGroupByOperation, myConceptGroupRegexp, myConceptGuardCriterion, myConceptHexadecimalRegex, myConceptIBuilderStep, myConceptIDeprecatedLangConcept, myConceptIMatcher, myConceptIfInstanceOfElseIfClause, myConceptIfInstanceOfStatement, myConceptIfInstanceOfVarReference, myConceptIfInstanceOfVariableProvider, myConceptIndependentNonCapturingGroup, myConceptIntegerRange, myConceptIntegerRangeBound, myConceptIntegerRangeConstantBound, myConceptIntegerRangeExpressionBound, myConceptIsConceptCriterion, myConceptIsInstanceOfExpression, myConceptItExpr, myConceptLinkRefExpr, myConceptLinkRoleClause, myConceptLogContextStatement, myConceptLogExpr, myConceptLogStatement, myConceptMatchClause, myConceptMatchClauseExpr, myConceptMatchExpression, myConceptMatchStatement, myConceptMethodLineDoc, myConceptNamedBackReferenceRegexp, myConceptNamedGroupRegexp, myConceptNodeRoleClause, myConceptNodeRoleCriterion, myConceptOctalRegex, myConceptParentRefExpr, myConceptParentRoleClause, myConceptPerformanceProfiler, myConceptRefStep, myConceptSafeReadAction, myConceptSafeWriteAction, myConceptSelectWithIndexOperation, myConceptShortStaticMethodCall, myConceptSimplePropertyStep, myConceptThisRefExpr, myConceptThisRoleClause, myConceptTypeGuard, myConceptTypeIsConceptCriterion, myConceptTypeSubtypeCriterion, myConceptTypeSwitch, myConceptTypeSwitchBaseVariable, myConceptTypeSwitchCase, myConceptTypeSwitchCaseMapping, myConceptTypeSwitchCaseMappingContainer, myConceptTypeSwitchCaseMappingMethodCall, myConceptTypeSwitchDefault, myConceptTypeSwitchNestedVariable, myConceptTypeSwitchVariable, myConceptTypeSwitchVariableReference, myConceptUnicodeByNameRegex, myConceptWhereWithIndexOperation, myConceptZipOperation);
   }
 
   @Override
@@ -162,18 +172,24 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptDispatchExpression;
       case LanguageConceptSwitch.DisptachMatch:
         return myConceptDisptachMatch;
+      case LanguageConceptSwitch.ElvisOperation:
+        return myConceptElvisOperation;
       case LanguageConceptSwitch.EqualsNodeCriterion:
         return myConceptEqualsNodeCriterion;
       case LanguageConceptSwitch.ExpressionChildValue:
         return myConceptExpressionChildValue;
       case LanguageConceptSwitch.FilterOperation:
         return myConceptFilterOperation;
+      case LanguageConceptSwitch.ForEachWithIndexOperation:
+        return myConceptForEachWithIndexOperation;
       case LanguageConceptSwitch.GridConstraintsNextColumOperation:
         return myConceptGridConstraintsNextColumOperation;
       case LanguageConceptSwitch.GridConstraintsNextRowOperation:
         return myConceptGridConstraintsNextRowOperation;
       case LanguageConceptSwitch.GridConstraintsOperation:
         return myConceptGridConstraintsOperation;
+      case LanguageConceptSwitch.GroupByOperation:
+        return myConceptGroupByOperation;
       case LanguageConceptSwitch.GroupRegexp:
         return myConceptGroupRegexp;
       case LanguageConceptSwitch.GuardCriterion:
@@ -196,6 +212,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptIfInstanceOfVariableProvider;
       case LanguageConceptSwitch.IndependentNonCapturingGroup:
         return myConceptIndependentNonCapturingGroup;
+      case LanguageConceptSwitch.IntegerRange:
+        return myConceptIntegerRange;
+      case LanguageConceptSwitch.IntegerRangeBound:
+        return myConceptIntegerRangeBound;
+      case LanguageConceptSwitch.IntegerRangeConstantBound:
+        return myConceptIntegerRangeConstantBound;
+      case LanguageConceptSwitch.IntegerRangeExpressionBound:
+        return myConceptIntegerRangeExpressionBound;
       case LanguageConceptSwitch.IsConceptCriterion:
         return myConceptIsConceptCriterion;
       case LanguageConceptSwitch.IsInstanceOfExpression:
@@ -244,6 +268,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptSafeReadAction;
       case LanguageConceptSwitch.SafeWriteAction:
         return myConceptSafeWriteAction;
+      case LanguageConceptSwitch.SelectWithIndexOperation:
+        return myConceptSelectWithIndexOperation;
       case LanguageConceptSwitch.ShortStaticMethodCall:
         return myConceptShortStaticMethodCall;
       case LanguageConceptSwitch.SimplePropertyStep:
@@ -280,6 +306,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptTypeSwitchVariableReference;
       case LanguageConceptSwitch.UnicodeByNameRegex:
         return myConceptUnicodeByNameRegex;
+      case LanguageConceptSwitch.WhereWithIndexOperation:
+        return myConceptWhereWithIndexOperation;
+      case LanguageConceptSwitch.ZipOperation:
+        return myConceptZipOperation;
       default:
         return null;
     }
@@ -485,6 +515,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("result", 0x531bc1585b6ba29L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("374287044672141865").done();
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForElvisOperation() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "ElvisOperation", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x806c9c768046a5cL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.BinaryOperation
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xfbdeb6fecfL);
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/578371460444482140");
+    b.version(3);
+    b.alias("?:");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForEqualsNodeCriterion() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "EqualsNodeCriterion", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x589f54123320ca71L);
     b.class_(false, false, false);
@@ -518,6 +558,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("filter");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForForEachWithIndexOperation() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "ForEachWithIndexOperation", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7bca184b2738ea1dL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation
+    b.super_(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x1188372895aL);
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/8919968723020343837");
+    b.version(3);
+    b.alias("forEachIdx");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForGridConstraintsNextColumOperation() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "GridConstraintsNextColumOperation", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7946a5628fd8f89bL);
     b.class_(false, false, false);
@@ -545,6 +595,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/8738853969696680918");
     b.version(3);
     b.kind(ConceptKind.NORMAL, StaticScope.NONE);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForGroupByOperation() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "GroupByOperation", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x5113d94fc8f30c64L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation
+    b.super_(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x1188372895aL);
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/5842252078326680676");
+    b.version(3);
+    b.alias("groupBy");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForGroupRegexp() {
@@ -652,6 +712,44 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/4711998325899744567");
     b.version(3);
     b.alias("(?>");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForIntegerRange() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "IntegerRange", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.Expression
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/571742531387676962");
+    b.version(3);
+    b.aggregate("left", 0x7ef3ccd9658a937L).target(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L).optional(false).ordered(true).multiple(false).origin("571742531387697463").done();
+    b.aggregate("right", 0x7ef3ccd9658a938L).target(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L).optional(true).ordered(true).multiple(false).origin("571742531387697464").done();
+    b.alias("[n..m]");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForIntegerRangeBound() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "IntegerRangeBound", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L);
+    b.interface_();
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/571742531387697458");
+    b.version(3);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForIntegerRangeConstantBound() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "IntegerRangeConstantBound", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a934L);
+    b.class_(false, false, false);
+    b.parent(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L);
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/571742531387697460");
+    b.version(3);
+    b.property("value", 0x67ed7b1c57a2640cL).type(PrimitiveTypeId.INTEGER).origin("7488777117046563852").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForIntegerRangeExpressionBound() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "IntegerRangeExpressionBound", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a935L);
+    b.class_(false, false, false);
+    b.parent(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L);
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/571742531387697461");
+    b.version(3);
+    b.aggregate("expression", 0x7ef3ccd9658a936L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("571742531387697462").done();
+    b.alias("#");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIsConceptCriterion() {
@@ -909,6 +1007,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("repo", 0x5c2d9ca1951ec8ddL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("6642137243246840029").done();
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForSelectWithIndexOperation() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "SelectWithIndexOperation", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x6ddaa253f94764f1L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation
+    b.super_(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x1188372895aL);
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/7915817776605258993");
+    b.version(3);
+    b.alias("selectIdx");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForShortStaticMethodCall() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "ShortStaticMethodCall", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x598910f26a55c73fL);
     b.class_(false, false, false);
@@ -1083,6 +1191,26 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.property("name", 0x7cf5c55a28c842cfL).type(PrimitiveTypeId.STRING).origin("9004320021019116239").done();
     b.alias("\\N{name}");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWhereWithIndexOperation() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "WhereWithIndexOperation", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7bca184b2737684dL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation
+    b.super_(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x1188372895aL);
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/8919968723020245069");
+    b.version(3);
+    b.alias("whereIdx");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForZipOperation() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "ZipOperation", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x67ed7b1c57c18c3eL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.collections.structure.BinaryOperation
+    b.super_(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x11205199ac2L);
+    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/7488777117048605758");
+    b.version(3);
+    b.alias("zip");
     return b.create();
   }
 }

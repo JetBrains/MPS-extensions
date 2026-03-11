@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1160998861373:jetbrains.mps.baseLanguage.structure.AssertStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1177666668936:jetbrains.mps.baseLanguage.structure.DoWhileStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root nodeRef="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)/571742531386207003">
+    <file name="IntegerSequence.java">
+      <node id="7488777117046812853" at="11,20,12,69" concept="8" />
+      <node id="571742531386213105" at="17,0,18,0" concept="4" trace="__CP__" />
+      <node id="571742531386213105" at="23,24,24,50" concept="0" />
+      <node id="571742531386213105" at="24,50,25,31" concept="8" />
+      <node id="571742531386213283" at="26,23,27,35" concept="3" />
+      <node id="571742531386213283" at="29,38,30,36" concept="3" />
+      <node id="571742531386213283" at="30,36,31,26" concept="1" />
+      <node id="571742531386213283" at="32,19,33,34" concept="3" />
+      <node id="571742531386213283" at="33,34,34,24" concept="1" />
+      <node id="571742531386213283" at="35,23,36,25" concept="3" />
+      <node id="571742531386213283" at="36,25,37,34" concept="3" />
+      <node id="571742531386213283" at="37,34,38,24" concept="1" />
+      <node id="571742531386223045" at="39,23,40,34" concept="3" />
+      <node id="571742531386223045" at="40,34,41,35" concept="3" />
+      <node id="571742531386223045" at="41,35,42,30" concept="8" />
+      <node id="571742531386213106" at="43,23,44,34" concept="3" />
+      <node id="571742531386213106" at="44,34,45,24" concept="1" />
+      <node id="571742531386213285" at="46,23,47,34" concept="3" />
+      <node id="571742531386213285" at="47,34,48,24" concept="1" />
+      <node id="571742531386213105" at="49,24,50,33" concept="1" />
+      <node id="571742531386213105" at="52,27,53,25" concept="8" />
+      <node id="571742531386213284" at="55,0,56,0" concept="4" trace="_2_i" />
+      <node id="571742531386224068" at="65,0,66,0" concept="4" trace="__CP__" />
+      <node id="571742531386224068" at="71,24,72,50" concept="0" />
+      <node id="571742531386224068" at="72,50,73,31" concept="8" />
+      <node id="571742531386224268" at="75,29,76,36" concept="3" />
+      <node id="571742531386224268" at="76,36,77,26" concept="1" />
+      <node id="571742531386224268" at="78,19,79,34" concept="3" />
+      <node id="571742531386224268" at="79,34,80,24" concept="1" />
+      <node id="571742531386225220" at="81,23,82,34" concept="3" />
+      <node id="571742531386225220" at="82,34,83,37" concept="3" />
+      <node id="571742531386225220" at="83,37,84,30" concept="8" />
+      <node id="571742531386224693" at="85,23,86,35" concept="3" />
+      <node id="571742531386224069" at="86,35,87,34" concept="3" />
+      <node id="571742531386224069" at="87,34,88,24" concept="1" />
+      <node id="571742531386224269" at="89,23,90,34" concept="3" />
+      <node id="571742531386224269" at="90,34,91,24" concept="1" />
+      <node id="571742531386224068" at="92,24,93,33" concept="1" />
+      <node id="571742531386224068" at="95,27,96,25" concept="8" />
+      <node id="571742531386224696" at="98,0,99,0" concept="4" trace="_3_i" />
+      <node id="571742531386271015" at="10,71,13,5" concept="5" />
+      <node id="571742531386213283" at="28,23,32,19" concept="5" />
+      <node id="571742531386224268" at="74,23,78,19" concept="5" />
+      <node id="571742531386224068" at="68,16,94,15" concept="10" />
+      <node id="571742531386224068" at="66,42,95,27" concept="2" />
+      <node id="571742531386213105" at="20,16,51,15" concept="10" />
+      <node id="571742531386224068" at="66,0,98,0" concept="6" trace="moveToNext#()Z" />
+      <node id="571742531386213105" at="18,42,52,27" concept="2" />
+      <node id="571742531386224068" at="63,40,99,10" concept="8" />
+      <node id="571742531386213105" at="18,0,55,0" concept="6" trace="moveToNext#()Z" />
+      <node id="571742531386224068" at="62,39,100,8" concept="8" />
+      <node id="571742531386223664" at="61,57,101,7" concept="8" />
+      <node id="571742531386213105" at="15,40,56,10" concept="8" />
+      <node id="571742531386223458" at="61,0,103,0" concept="9" trace="range#(I)Ljava/lang/Iterable;" />
+      <node id="571742531386213105" at="14,39,57,8" concept="8" />
+      <node id="571742531386207483" at="13,5,58,7" concept="8" />
+      <node id="571742531386207072" at="10,0,60,0" concept="9" trace="range#(II)Ljava/lang/Iterable;" />
+      <scope id="571742531386271017" at="11,20,12,69" />
+      <scope id="571742531386213283" at="26,23,27,35" />
+      <scope id="571742531386213105" at="49,24,50,33" />
+      <scope id="571742531386224068" at="92,24,93,33" />
+      <scope id="571742531386213105" at="23,24,25,31" />
+      <scope id="571742531386213283" at="29,38,31,26" />
+      <scope id="571742531386213106" at="43,23,45,24" />
+      <scope id="571742531386213285" at="46,23,48,24" />
+      <scope id="571742531386224068" at="71,24,73,31" />
+      <scope id="571742531386224268" at="75,29,77,26" />
+      <scope id="571742531386224269" at="89,23,91,24" />
+      <scope id="571742531386213283" at="35,23,38,24" />
+      <scope id="571742531386223045" at="39,23,42,30" />
+      <scope id="571742531386225220" at="81,23,84,30" />
+      <scope id="571742531386224069" at="85,23,88,24" />
+      <scope id="571742531386213283" at="28,23,34,24" />
+      <scope id="571742531386224268" at="74,23,80,24" />
+      <scope id="571742531386224068" at="68,16,94,15" />
+      <scope id="571742531386224068" at="66,42,96,25" />
+      <scope id="571742531386213105" at="20,16,51,15" />
+      <scope id="571742531386224068" at="66,0,98,0" />
+      <scope id="571742531386213105" at="18,42,53,25" />
+      <scope id="571742531386224068" at="63,40,99,10" />
+      <scope id="571742531386213105" at="18,0,55,0" />
+      <scope id="571742531386224068" at="62,39,100,8" />
+      <scope id="571742531386223461" at="61,57,101,7" />
+      <scope id="571742531386213105" at="15,40,56,10" />
+      <scope id="571742531386223458" at="61,0,103,0">
+        <var name="from" id="571742531386223579" />
+      </scope>
+      <scope id="571742531386213105" at="14,39,57,8" />
+      <scope id="571742531386207075" at="10,71,58,7" />
+      <scope id="571742531386207072" at="10,0,60,0">
+        <var name="from" id="571742531386207331" />
+        <var name="to" id="571742531386207400" />
+      </scope>
+      <unit id="571742531386224068" at="64,19,99,9" name="com.mbeddr.mpsutil.blutil.rt.operations.IntegerSequence$2" />
+      <unit id="571742531386213105" at="16,19,56,9" name="com.mbeddr.mpsutil.blutil.rt.operations.IntegerSequence$1" />
+      <unit id="571742531386207003" at="9,0,104,0" name="com.mbeddr.mpsutil.blutil.rt.operations.IntegerSequence" />
+    </file>
+  </root>
+  <root nodeRef="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)/578371460443593035">
+    <file name="DefaultIfNull.java">
+      <node id="578371460443594018" at="10,39,11,17" concept="8" />
+      <node id="578371460443594283" at="12,5,13,24" concept="8" />
+      <node id="578371460443593455" at="9,83,12,5" concept="5" />
+      <node id="578371460443593141" at="9,0,15,0" concept="9" trace="apply#(nullLjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P0_E0;)null" />
+      <scope id="578371460443593457" at="10,39,11,17" />
+      <scope id="578371460443593144" at="9,83,13,24" />
+      <scope id="578371460443593141" at="9,0,15,0">
+        <var name="lhs" id="578371460443593243" />
+        <var name="rhs" id="578371460443593294" />
+      </scope>
+      <unit id="578371460443593035" at="8,0,16,0" name="com.mbeddr.mpsutil.blutil.rt.operations.DefaultIfNull" />
+    </file>
+  </root>
+  <root nodeRef="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)/5842252078325009166">
+    <file name="GroupByOperationUtil.java">
+      <node id="5842252078325182901" at="15,134,16,81" concept="7" />
+      <node id="5842252078325463498" at="17,49,18,36" concept="7" />
+      <node id="7241660063665855500" at="19,59,20,87" concept="3" />
+      <node id="5842252078325463520" at="21,7,22,80" concept="3" />
+      <node id="7241660063665889117" at="23,7,24,17" concept="8" />
+      <node id="5842252078325463505" at="18,36,21,7" concept="5" />
+      <node id="5842252078325315445" at="16,81,23,7" concept="3" />
+      <node id="5842252078325009257" at="15,0,26,0" concept="9" trace="apply#(Ljava/lang/Iterable;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)Ljava/util/Map;" />
+      <scope id="5842252078325463511" at="19,59,20,87" />
+      <scope id="5566040892498180240" at="17,49,22,80">
+        <var name="key" id="5842252078325463499" />
+      </scope>
+      <scope id="5842252078325009260" at="15,134,24,17">
+        <var name="cache" id="5842252078325182902" />
+      </scope>
+      <scope id="5842252078325009257" at="15,0,26,0">
+        <var name="keyExtract" id="5842252078325012446" />
+        <var name="seq" id="5842252078325009331" />
+      </scope>
+      <unit id="5842252078325009166" at="14,0,27,0" name="com.mbeddr.mpsutil.blutil.rt.operations.GroupByOperationUtil" />
+    </file>
+  </root>
+  <root nodeRef="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)/7488777117048370764">
+    <file name="ZipOperatorUtil.java">
+      <node id="7488777117048456502" at="15,63,16,79" concept="8" />
+      <node id="7488777117048372542" at="21,0,22,0" concept="4" trace="__CP__" />
+      <node id="7488777117048372542" at="27,24,28,50" concept="0" />
+      <node id="7488777117048372542" at="28,50,29,31" concept="8" />
+      <node id="7488777117048372542" at="31,71,32,36" concept="3" />
+      <node id="7488777117048372542" at="32,36,33,26" concept="1" />
+      <node id="7488777117048372542" at="34,19,35,34" concept="3" />
+      <node id="7488777117048372542" at="35,34,36,24" concept="1" />
+      <node id="7488777117048388653" at="37,24,38,34" concept="3" />
+      <node id="7488777117048388653" at="38,34,39,81" concept="3" />
+      <node id="7488777117048388653" at="39,81,40,30" concept="8" />
+      <node id="7488777117048372543" at="41,23,42,34" concept="3" />
+      <node id="7488777117048372543" at="42,34,43,24" concept="1" />
+      <node id="7241660063666169808" at="44,23,45,74" concept="3" />
+      <node id="7241660063666173227" at="45,74,46,74" concept="3" />
+      <node id="7488777117048372542" at="46,74,47,34" concept="3" />
+      <node id="7488777117048372542" at="47,34,48,24" concept="1" />
+      <node id="7241660063666169808" at="49,23,50,52" concept="3" />
+      <node id="7241660063666173227" at="50,52,51,52" concept="3" />
+      <node id="7488777117048372542" at="51,52,52,35" concept="3" />
+      <node id="7488777117048372542" at="52,35,53,24" concept="1" />
+      <node id="7488777117048372542" at="54,24,55,33" concept="1" />
+      <node id="7488777117048372542" at="57,27,58,25" concept="8" />
+      <node id="7488777117048372542" at="60,0,61,0" concept="4" trace="_4_elem1_it" />
+      <node id="7488777117048372542" at="61,0,62,0" concept="4" trace="_5_elem2_it" />
+      <node id="7488777117048372542" at="62,0,63,0" concept="4" trace="_6_elem1_var" />
+      <node id="7488777117048372542" at="63,0,64,0" concept="4" trace="_7_elem2_var" />
+      <node id="7488777117048447859" at="14,104,17,5" concept="5" />
+      <node id="7488777117048372542" at="30,23,34,19" concept="5" />
+      <node id="7488777117048372542" at="24,16,56,15" concept="10" />
+      <node id="7488777117048372542" at="22,42,57,27" concept="2" />
+      <node id="7488777117048372542" at="22,0,60,0" concept="6" trace="moveToNext#()Z" />
+      <node id="7488777117048372542" at="19,50,64,10" concept="8" />
+      <node id="7488777117048372542" at="18,39,65,8" concept="8" />
+      <node id="7488777117048371535" at="17,5,66,7" concept="8" />
+      <node id="7488777117048370893" at="14,0,68,0" concept="9" trace="zip#(Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/lang/Iterable;" />
+      <scope id="7488777117048447861" at="15,63,16,79" />
+      <scope id="7488777117048372542" at="54,24,55,33" />
+      <scope id="7488777117048372542" at="27,24,29,31" />
+      <scope id="7488777117048372542" at="31,71,33,26" />
+      <scope id="7488777117048372543" at="41,23,43,24" />
+      <scope id="7488777117048388653" at="37,24,40,30" />
+      <scope id="7488777117048372542" at="44,23,48,24" />
+      <scope id="7488777117048372542" at="49,23,53,24" />
+      <scope id="7488777117048372542" at="30,23,36,24" />
+      <scope id="7488777117048372542" at="24,16,56,15" />
+      <scope id="7488777117048372542" at="22,42,58,25" />
+      <scope id="7488777117048372542" at="22,0,60,0" />
+      <scope id="7488777117048372542" at="19,50,64,10" />
+      <scope id="7488777117048372542" at="18,39,65,8" />
+      <scope id="7488777117048370896" at="14,104,66,7" />
+      <scope id="7488777117048370893" at="14,0,68,0">
+        <var name="s1" id="7488777117048371247" />
+        <var name="s2" id="7488777117048371339" />
+      </scope>
+      <unit id="7488777117048372542" at="20,19,64,9" name="com.mbeddr.mpsutil.blutil.rt.operations.ZipOperatorUtil$1" />
+      <unit id="7488777117048370764" at="13,0,69,0" name="com.mbeddr.mpsutil.blutil.rt.operations.ZipOperatorUtil" />
+    </file>
+  </root>
+  <root nodeRef="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)/8919968723019292003">
+    <file name="WithIndexOperationUtil.java">
+      <node id="8919968723020192948" at="11,86,12,62" concept="8" />
+      <node id="8919968723019292627" at="15,161,16,111" concept="8" />
+      <node id="8919968723020151985" at="19,161,20,134" concept="8" />
+      <node id="8919968723020153366" at="23,134,24,106" concept="3" />
+      <node id="8919968723020189798" at="11,0,14,0" concept="9" trace="zipWithIntRange#(Ljava/lang/Iterable;)Ljava/lang/Iterable;" />
+      <node id="8919968723019292076" at="15,0,18,0" concept="9" trace="selectWithIndex#(Ljava/lang/Iterable;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)Ljava/lang/Iterable;" />
+      <node id="8919968723020151983" at="19,0,22,0" concept="9" trace="whereWithIndex#(Ljava/lang/Iterable;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)Ljava/lang/Iterable;" />
+      <node id="8919968723020153364" at="23,0,26,0" concept="9" trace="forEachWithIndex#(Ljava/lang/Iterable;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P2_E0;)V" />
+      <scope id="8919968723020189801" at="11,86,12,62" />
+      <scope id="8919968723019292079" at="15,161,16,111" />
+      <scope id="8919968723020151984" at="19,161,20,134" />
+      <scope id="8919968723020153365" at="23,134,24,106" />
+      <scope id="8919968723020189798" at="11,0,14,0">
+        <var name="seq" id="8919968723020192820" />
+      </scope>
+      <scope id="8919968723019292076" at="15,0,18,0">
+        <var name="selector" id="8919968723019292297" />
+        <var name="seq" id="8919968723019292232" />
+      </scope>
+      <scope id="8919968723020151983" at="19,0,22,0">
+        <var name="selector" id="8919968723020152013" />
+        <var name="seq" id="8919968723020152010" />
+      </scope>
+      <scope id="8919968723020153364" at="23,0,26,0">
+        <var name="selector" id="8919968723020153394" />
+        <var name="seq" id="8919968723020153391" />
+      </scope>
+      <unit id="8919968723019292003" at="9,0,27,0" name="com.mbeddr.mpsutil.blutil.rt.operations.WithIndexOperationUtil" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1024,8 +1024,8 @@
             <property role="TrG5h" value="byLength" />
             <node concept="3rvAFt" id="54jQkZ973od" role="1tU5fm">
               <node concept="10Oyi0" id="54jQkZ973om" role="3rvQeY" />
-              <node concept="A3Dl8" id="54jQkZ973on" role="3rvSg0">
-                <node concept="17QB3L" id="54jQkZ973oo" role="A3Ik2" />
+              <node concept="_YKpA" id="6bv3q5Y4qIv" role="3rvSg0">
+                <node concept="17QB3L" id="6bv3q5Y4qIx" role="_ZDj9" />
               </node>
             </node>
             <node concept="2OqwBi" id="54jQkZ973p8" role="33vP2m">
@@ -1077,8 +1077,8 @@
             <property role="TrG5h" value="isVowel" />
             <node concept="3rvAFt" id="54jQkZ9dHNo" role="1tU5fm">
               <node concept="10P_77" id="54jQkZ9dHNx" role="3rvQeY" />
-              <node concept="A3Dl8" id="54jQkZ9dHNy" role="3rvSg0">
-                <node concept="17QB3L" id="54jQkZ9dHNz" role="A3Ik2" />
+              <node concept="_YKpA" id="6bv3q5Y4qXa" role="3rvSg0">
+                <node concept="17QB3L" id="6bv3q5Y4qXc" role="_ZDj9" />
               </node>
             </node>
             <node concept="2OqwBi" id="54jQkZ9dI_Y" role="33vP2m">

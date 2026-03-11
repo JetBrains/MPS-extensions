@@ -331,6 +331,9 @@
         <child id="1226511765987" name="elementType" index="2hN53Y" />
       </concept>
       <concept id="1226516258405" name="jetbrains.mps.baseLanguage.collections.structure.HashSetCreator" flags="nn" index="2i4dXS" />
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
@@ -3421,8 +3424,8 @@
                   </node>
                 </node>
               </node>
-              <node concept="A3Dl8" id="54jQkZ92b18" role="3rvSg0">
-                <node concept="33vP2l" id="54jQkZ92b19" role="A3Ik2">
+              <node concept="_YKpA" id="6hZyRmYU_if" role="3rvSg0">
+                <node concept="33vP2l" id="54jQkZ92b19" role="_ZDj9">
                   <node concept="2c44te" id="54jQkZ92b1l" role="lGtFl">
                     <node concept="1Z$b5t" id="54jQkZ92b1t" role="2c44t1">
                       <ref role="1Z$eMM" node="54jQkZ929lm" resolve="paramType" />

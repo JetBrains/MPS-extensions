@@ -263,9 +263,7 @@
         <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
       </concept>
       <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
-        <child id="1212687122400" name="typeParameter" index="1pMfVU" />
-      </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -273,7 +271,6 @@
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
-        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -1964,16 +1961,6 @@
       <node concept="3cqZAl" id="3PNI8k1Jz1Y" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="5JPoAt6XxhM" role="jymVt" />
-    <node concept="312cEg" id="3PNI8k1JnYd" role="jymVt">
-      <property role="TrG5h" value="myEditorComponent" />
-      <node concept="3Tm6S6" id="3PNI8k1Jlif" role="1B3o_S" />
-      <node concept="3uibUv" id="3PNI8k1JnNL" role="1tU5fm">
-        <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
-        <node concept="3uibUv" id="3PNI8k1JnXW" role="11_B2D">
-          <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
-        </node>
-      </node>
-    </node>
     <node concept="312cEg" id="3GQAmbHdpk$" role="jymVt">
       <property role="TrG5h" value="textPaddingLeft" />
       <node concept="3Tm6S6" id="6gqJhmDJ$Z" role="1B3o_S" />
@@ -2023,24 +2010,6 @@
             </node>
             <node concept="liA8E" id="3PNI8k1JOkn" role="2OqNvi">
               <ref role="37wK5l" to="exr9:~EditorComponent.getLeftEditorHighlighter()" resolve="getLeftEditorHighlighter" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3PNI8k1Jphr" role="3cqZAp">
-          <node concept="37vLTI" id="3PNI8k1JpBw" role="3clFbG">
-            <node concept="2ShNRf" id="3PNI8k1JpU4" role="37vLTx">
-              <node concept="1pGfFk" id="3PNI8k1JqxS" role="2ShVmc">
-                <ref role="37wK5l" to="mpcv:~WeakReference.&lt;init&gt;(java.lang.Object)" resolve="WeakReference" />
-                <node concept="3uibUv" id="3PNI8k1JqZe" role="1pMfVU">
-                  <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
-                </node>
-                <node concept="37vLTw" id="3PNI8k1Jr6Z" role="37wK5m">
-                  <ref role="3cqZAo" node="3PNI8k1Jp9E" resolve="editorComponent" />
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="3PNI8k1Jphq" role="37vLTJ">
-              <ref role="3cqZAo" node="3PNI8k1JnYd" resolve="myEditorComponent" />
             </node>
           </node>
         </node>
@@ -2109,26 +2078,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3PNI8k1Jtjw" role="jymVt" />
-    <node concept="3clFb_" id="3PNI8k1JtHm" role="jymVt">
-      <property role="TrG5h" value="getEditorComponent" />
-      <node concept="3clFbS" id="3PNI8k1JtHp" role="3clF47">
-        <node concept="3clFbF" id="3PNI8k1JtWg" role="3cqZAp">
-          <node concept="2OqwBi" id="3PNI8k1JuhC" role="3clFbG">
-            <node concept="37vLTw" id="3PNI8k1JtWf" role="2Oq$k0">
-              <ref role="3cqZAo" node="3PNI8k1JnYd" resolve="myEditorComponent" />
-            </node>
-            <node concept="liA8E" id="3PNI8k1JuFe" role="2OqNvi">
-              <ref role="37wK5l" to="mpcv:~Reference.get()" resolve="get" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="3PNI8k1Jtyq" role="1B3o_S" />
-      <node concept="3uibUv" id="3PNI8k1JtGY" role="3clF45">
-        <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="znKGbGglcj" role="jymVt" />
     <node concept="3clFb_" id="3PNI8k1JrAf" role="jymVt">
       <property role="TrG5h" value="install" />
       <node concept="3clFbS" id="3PNI8k1JrAi" role="3clF47">
@@ -2139,7 +2088,7 @@
           <node concept="22lmx$" id="1yVxl$KGwX5" role="3clFbw">
             <node concept="2OqwBi" id="1yVxl$KFQuu" role="3uHU7w">
               <node concept="1rXfSq" id="1yVxl$KFN6m" role="2Oq$k0">
-                <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                <ref role="37wK5l" to="px75:~AbstractLeftColumn.getEditorComponent()" resolve="getEditorComponent" />
               </node>
               <node concept="liA8E" id="1yVxl$KFTH_" role="2OqNvi">
                 <ref role="37wK5l" to="exr9:~EditorComponent.isDisposed()" resolve="isDisposed" />
@@ -2168,7 +2117,7 @@
               <node concept="2OqwBi" id="7iWvyfFsBdr" role="37wK5m">
                 <node concept="2OqwBi" id="7iWvyfFsBds" role="2Oq$k0">
                   <node concept="1rXfSq" id="7iWvyfFsBdt" role="2Oq$k0">
-                    <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                    <ref role="37wK5l" to="px75:~AbstractLeftColumn.getEditorComponent()" resolve="getEditorComponent" />
                   </node>
                   <node concept="liA8E" id="7iWvyfFsBdu" role="2OqNvi">
                     <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
@@ -2277,7 +2226,7 @@
             </node>
             <node concept="kI3uX" id="3PNI8k1Jt7D" role="2OqNvi">
               <node concept="1rXfSq" id="3PNI8k1JuOl" role="kIiFs">
-                <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                <ref role="37wK5l" to="px75:~AbstractLeftColumn.getEditorComponent()" resolve="getEditorComponent" />
               </node>
             </node>
           </node>
@@ -2343,7 +2292,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="2wnTj_dgUQm" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="2wnTj_dh3Ft" role="jymVt" />
@@ -2374,7 +2323,7 @@
                   <node concept="2OqwBi" id="61AWa9uUUqk" role="33vP2m">
                     <node concept="2OqwBi" id="61AWa9uUUql" role="2Oq$k0">
                       <node concept="1rXfSq" id="61AWa9uUUqm" role="2Oq$k0">
-                        <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                        <ref role="37wK5l" to="px75:~AbstractLeftColumn.getEditorComponent()" resolve="getEditorComponent" />
                       </node>
                       <node concept="liA8E" id="61AWa9uUUqn" role="2OqNvi">
                         <ref role="37wK5l" to="exr9:~EditorComponent.getEditorComponentSettings()" resolve="getEditorComponentSettings" />
@@ -2394,7 +2343,7 @@
                   </node>
                   <node concept="2OqwBi" id="3GQAmbHdiyM" role="33vP2m">
                     <node concept="1rXfSq" id="3GQAmbHdiyN" role="2Oq$k0">
-                      <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                      <ref role="37wK5l" to="px75:~AbstractLeftColumn.getEditorComponent()" resolve="getEditorComponent" />
                     </node>
                     <node concept="liA8E" id="3GQAmbHdiyO" role="2OqNvi">
                       <ref role="37wK5l" to="dxuu:~JComponent.getFontMetrics(java.awt.Font)" resolve="getFontMetrics" />
@@ -2496,7 +2445,7 @@
             <node concept="2OqwBi" id="61AWa9uRXla" role="33vP2m">
               <node concept="2OqwBi" id="61AWa9uR4b4" role="2Oq$k0">
                 <node concept="1rXfSq" id="61AWa9uR4b5" role="2Oq$k0">
-                  <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                  <ref role="37wK5l" to="px75:~AbstractLeftColumn.getEditorComponent()" resolve="getEditorComponent" />
                 </node>
                 <node concept="liA8E" id="61AWa9uRWDO" role="2OqNvi">
                   <ref role="37wK5l" to="exr9:~EditorComponent.getEditorComponentSettings()" resolve="getEditorComponentSettings" />
@@ -2719,7 +2668,7 @@
             <node concept="3clFbF" id="4pxqlKGqbb$" role="3cqZAp">
               <node concept="2OqwBi" id="4pxqlKGqetD" role="3clFbG">
                 <node concept="1rXfSq" id="4pxqlKGqbby" role="2Oq$k0">
-                  <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                  <ref role="37wK5l" to="px75:~AbstractLeftColumn.getEditorComponent()" resolve="getEditorComponent" />
                 </node>
                 <node concept="liA8E" id="4pxqlKGqtUM" role="2OqNvi">
                   <ref role="37wK5l" to="exr9:~EditorComponent.changeSelectionWRTFocusPolicy(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="changeSelectionWRTFocusPolicy" />
@@ -2789,7 +2738,7 @@
               <node concept="3cpWsn" id="5QVAbkkflYN" role="3cpWs9">
                 <property role="TrG5h" value="ec" />
                 <node concept="1rXfSq" id="5QVAbkkflYO" role="33vP2m">
-                  <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                  <ref role="37wK5l" to="px75:~AbstractLeftColumn.getEditorComponent()" resolve="getEditorComponent" />
                 </node>
                 <node concept="3uibUv" id="5QVAbkkflYP" role="1tU5fm">
                   <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
@@ -5374,7 +5323,7 @@
               <ref role="3cqZAo" node="6gqJhmvfCM" resolve="lineNumberComponent" />
             </node>
             <node concept="liA8E" id="6gqJhmwV6$" role="2OqNvi">
-              <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+              <ref role="37wK5l" to="px75:~AbstractLeftColumn.getEditorComponent()" resolve="getEditorComponent" />
             </node>
           </node>
         </node>

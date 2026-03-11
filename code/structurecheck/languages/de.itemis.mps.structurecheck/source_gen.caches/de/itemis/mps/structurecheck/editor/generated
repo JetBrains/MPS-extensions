@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-602d6epfw9wv9rp1enoxhtpza58ofc7">
+  <files names="CheckStructureStatement_Editor.java:CheckStructureStatement_EditorBuilder_a.java:CompositeChecker_Editor.java:CompositeChecker_EditorBuilder_a.java:ConditionChecker_Editor.java:ConditionChecker_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:Element_Editor.java:Element_EditorBuilder_a.java:EmptyChecker_Editor.java:EmptyChecker_EditorBuilder_a.java:EmptyChecker_SubstituteMenu.java:EmptyElement_Editor.java:EmptyElement_EditorBuilder_a.java:EmptyElement_SubstituteMenu.java:PropertyChecker_Editor.java:PropertyChecker_EditorBuilder_a.java:SequenceChecker_Editor.java:SequenceChecker_EditorBuilder_a.java:ThisElementExpression_Editor.java:ThisElementExpression_EditorBuilder_a.java" />
+</product>
+

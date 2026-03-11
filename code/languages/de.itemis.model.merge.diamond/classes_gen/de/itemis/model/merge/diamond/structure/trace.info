@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,114,0" name="de.itemis.model.merge.diamond.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="12,0,58,0" name="de.itemis.model.merge.diamond.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="15,0,196,0" name="de.itemis.model.merge.diamond.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/1683059382312355119">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1683059382312355119" at="13,0,14,0" concept="1" trace="props_Data" />
+      <node id="1683059382312355119" at="38,33,39,76" concept="3" />
+      <node id="1683059382312355119" at="39,76,40,38" concept="0" />
+      <node id="1683059382312355119" at="40,38,41,36" concept="0" />
+      <node id="1683059382312355119" at="42,9,43,26" concept="4" />
+      <node id="1683059382312355119" at="37,38,42,9" concept="2" />
+      <scope id="1683059382312355119" at="38,33,41,36">
+        <var name="cpb" id="1683059382312355119" />
+      </scope>
+      <scope id="1683059382312355119" at="37,38,43,26" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1683059382312355119" at="15,0,16,0" concept="6" trace="Data" />
+      <node id="1683059382312355119" at="29,45,30,43" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1683059382312355119" at="17,0,18,0" concept="1" trace="myConceptData" />
+      <node id="1683059382312355119" at="51,38,52,29" concept="4" />
+      <node id="1683059382312355119" at="92,62,93,167" concept="3" />
+      <node id="1683059382312355119" at="93,167,94,34" concept="0" />
+      <node id="1683059382312355119" at="94,34,95,116" concept="0" />
+      <node id="1683059382312355119" at="95,116,96,17" concept="0" />
+      <node id="1683059382312355120" at="96,17,97,110" concept="0" />
+      <node id="6323061221352246501" at="97,110,98,111" concept="0" />
+      <node id="5900870464460619220" at="98,111,99,167" concept="0" />
+      <node id="6323061221346746627" at="99,167,100,169" concept="0" />
+      <node id="354538107357074941" at="100,169,101,196" concept="0" />
+      <node id="6323061221346749187" at="101,196,102,198" concept="0" />
+      <node id="6323061221352246495" at="102,198,103,197" concept="0" />
+      <node id="1683059382312355119" at="103,197,104,22" concept="4" />
+      <node id="1683059382312355119" at="92,0,106,0" concept="7" trace="createDescriptorForData#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1683059382312355119" at="51,38,52,29" />
+      <scope id="1683059382312355119" at="92,62,104,22">
+        <var name="b" id="1683059382312355119" />
+      </scope>
+      <scope id="1683059382312355119" at="92,0,106,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/354538107355994780">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="354538107355994780" at="19,0,20,0" concept="1" trace="props_Payload" />
+      <node id="354538107355994780" at="78,36,79,76" concept="3" />
+      <node id="354538107355994780" at="79,76,80,41" concept="0" />
+      <node id="354538107355994780" at="80,41,81,39" concept="0" />
+      <node id="354538107355994780" at="82,9,83,29" concept="4" />
+      <node id="354538107355994780" at="77,41,82,9" concept="2" />
+      <scope id="354538107355994780" at="78,36,81,39">
+        <var name="cpb" id="354538107355994780" />
+      </scope>
+      <scope id="354538107355994780" at="77,41,83,29" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="354538107355994780" at="21,0,22,0" concept="6" trace="Payload" />
+      <node id="354538107355994780" at="35,48,36,45" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="354538107355994780" at="23,0,24,0" concept="1" trace="myConceptPayload" />
+      <node id="354538107355994780" at="63,41,64,32" concept="4" />
+      <node id="354538107355994780" at="147,65,148,169" concept="3" />
+      <node id="354538107355994780" at="148,169,149,34" concept="0" />
+      <node id="354538107355994780" at="149,34,150,115" concept="0" />
+      <node id="354538107355994780" at="150,115,151,17" concept="0" />
+      <node id="354538107355995755" at="151,17,152,108" concept="0" />
+      <node id="354538107355994780" at="152,108,153,22" concept="4" />
+      <node id="354538107355994780" at="147,0,155,0" concept="7" trace="createDescriptorForPayload#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="354538107355994780" at="63,41,64,32" />
+      <scope id="354538107355994780" at="147,65,153,22">
+        <var name="b" id="354538107355994780" />
+      </scope>
+      <scope id="354538107355994780" at="147,0,155,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/354538107355995862">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="354538107355995862" at="20,0,21,0" concept="1" trace="props_Payload1" />
+      <node id="354538107355995862" at="85,37,86,76" concept="3" />
+      <node id="354538107355995862" at="86,76,87,42" concept="0" />
+      <node id="354538107355995862" at="87,42,88,40" concept="0" />
+      <node id="354538107355995862" at="89,9,90,30" concept="4" />
+      <node id="354538107355995862" at="84,42,89,9" concept="2" />
+      <scope id="354538107355995862" at="85,37,88,40">
+        <var name="cpb" id="354538107355995862" />
+      </scope>
+      <scope id="354538107355995862" at="84,42,90,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="354538107355995862" at="22,0,23,0" concept="6" trace="Payload1" />
+      <node id="354538107355995862" at="36,45,37,46" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="354538107355995862" at="24,0,25,0" concept="1" trace="myConceptPayload1" />
+      <node id="354538107355995862" at="65,42,66,33" concept="4" />
+      <node id="354538107355995862" at="155,66,156,170" concept="3" />
+      <node id="354538107355995862" at="156,170,157,34" concept="0" />
+      <node id="354538107355995862" at="157,34,158,63" concept="5" />
+      <node id="354538107355995862" at="158,63,159,74" concept="0" />
+      <node id="354538107355995862" at="159,74,160,115" concept="0" />
+      <node id="354538107355995862" at="160,115,161,17" concept="0" />
+      <node id="354538107355995968" at="161,17,162,110" concept="0" />
+      <node id="354538107355995862" at="162,110,163,22" concept="4" />
+      <node id="354538107355995862" at="155,0,165,0" concept="7" trace="createDescriptorForPayload1#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="354538107355995862" at="65,42,66,33" />
+      <scope id="354538107355995862" at="155,66,163,22">
+        <var name="b" id="354538107355995862" />
+      </scope>
+      <scope id="354538107355995862" at="155,0,165,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/354538107355996079">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="354538107355996079" at="21,0,22,0" concept="1" trace="props_Payload2" />
+      <node id="354538107355996079" at="92,37,93,76" concept="3" />
+      <node id="354538107355996079" at="93,76,94,42" concept="0" />
+      <node id="354538107355996079" at="94,42,95,40" concept="0" />
+      <node id="354538107355996079" at="96,9,97,30" concept="4" />
+      <node id="354538107355996079" at="91,42,96,9" concept="2" />
+      <scope id="354538107355996079" at="92,37,95,40">
+        <var name="cpb" id="354538107355996079" />
+      </scope>
+      <scope id="354538107355996079" at="91,42,97,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="354538107355996079" at="23,0,24,0" concept="6" trace="Payload2" />
+      <node id="354538107355996079" at="37,46,38,46" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="354538107355996079" at="25,0,26,0" concept="1" trace="myConceptPayload2" />
+      <node id="354538107355996079" at="67,42,68,33" concept="4" />
+      <node id="354538107355996079" at="165,66,166,170" concept="3" />
+      <node id="354538107355996079" at="166,170,167,34" concept="0" />
+      <node id="354538107355996079" at="167,34,168,63" concept="5" />
+      <node id="354538107355996079" at="168,63,169,74" concept="0" />
+      <node id="354538107355996079" at="169,74,170,115" concept="0" />
+      <node id="354538107355996079" at="170,115,171,17" concept="0" />
+      <node id="354538107355996122" at="171,17,172,110" concept="0" />
+      <node id="354538107355996079" at="172,110,173,22" concept="4" />
+      <node id="354538107355996079" at="165,0,175,0" concept="7" trace="createDescriptorForPayload2#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="354538107355996079" at="67,42,68,33" />
+      <scope id="354538107355996079" at="165,66,173,22">
+        <var name="b" id="354538107355996079" />
+      </scope>
+      <scope id="354538107355996079" at="165,0,175,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/5900870464460619217">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5900870464460619217" at="18,0,19,0" concept="1" trace="props_OtherData" />
+      <node id="5900870464460619217" at="71,38,72,76" concept="3" />
+      <node id="5900870464460619217" at="72,76,73,43" concept="0" />
+      <node id="5900870464460619217" at="73,43,74,41" concept="0" />
+      <node id="5900870464460619217" at="75,9,76,31" concept="4" />
+      <node id="5900870464460619217" at="70,43,75,9" concept="2" />
+      <scope id="5900870464460619217" at="71,38,74,41">
+        <var name="cpb" id="5900870464460619217" />
+      </scope>
+      <scope id="5900870464460619217" at="70,43,76,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5900870464460619217" at="20,0,21,0" concept="6" trace="OtherData" />
+      <node id="5900870464460619217" at="34,49,35,48" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5900870464460619217" at="22,0,23,0" concept="1" trace="myConceptOtherData" />
+      <node id="5900870464460619217" at="61,43,62,34" concept="4" />
+      <node id="5900870464460619217" at="138,67,139,172" concept="3" />
+      <node id="5900870464460619217" at="139,172,140,34" concept="0" />
+      <node id="5900870464460619217" at="141,75,142,116" concept="0" />
+      <node id="5900870464460619217" at="142,116,143,17" concept="0" />
+      <node id="5900870464460619218" at="143,17,144,116" concept="0" />
+      <node id="5900870464460619217" at="144,116,145,22" concept="4" />
+      <node id="5900870464460619217" at="138,0,147,0" concept="7" trace="createDescriptorForOtherData#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5900870464460619217" at="61,43,62,34" />
+      <scope id="5900870464460619217" at="138,67,145,22">
+        <var name="b" id="5900870464460619217" />
+      </scope>
+      <scope id="5900870464460619217" at="138,0,147,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/9044903113969688816">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9044903113969688816" at="14,0,15,0" concept="1" trace="props_Diamonds" />
+      <node id="9044903113969688816" at="45,37,46,76" concept="3" />
+      <node id="9044903113969688816" at="46,76,47,42" concept="0" />
+      <node id="9044903113969688816" at="47,42,48,40" concept="0" />
+      <node id="9044903113969688816" at="49,9,50,30" concept="4" />
+      <node id="9044903113969688816" at="44,42,49,9" concept="2" />
+      <scope id="9044903113969688816" at="45,37,48,40">
+        <var name="cpb" id="9044903113969688816" />
+      </scope>
+      <scope id="9044903113969688816" at="44,42,50,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9044903113969688816" at="16,0,17,0" concept="6" trace="Diamonds" />
+      <node id="9044903113969688816" at="30,43,31,47" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9044903113969688816" at="18,0,19,0" concept="1" trace="myConceptDiamonds" />
+      <node id="9044903113969688816" at="53,42,54,33" concept="4" />
+      <node id="9044903113969688816" at="106,66,107,171" concept="3" />
+      <node id="9044903113969688816" at="107,171,108,33" concept="0" />
+      <node id="9044903113969688816" at="108,33,109,116" concept="0" />
+      <node id="9044903113969688816" at="109,116,110,17" concept="0" />
+      <node id="9044903113969688817" at="110,17,111,200" concept="0" />
+      <node id="9044903113969688816" at="111,200,112,22" concept="4" />
+      <node id="9044903113969688816" at="106,0,114,0" concept="7" trace="createDescriptorForDiamonds#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9044903113969688816" at="53,42,54,33" />
+      <scope id="9044903113969688816" at="106,66,112,22">
+        <var name="b" id="9044903113969688816" />
+      </scope>
+      <scope id="9044903113969688816" at="106,0,114,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/9044903113969779740">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9044903113969779740" at="22,0,23,0" concept="1" trace="props_Statement" />
+      <node id="9044903113969779740" at="99,38,100,76" concept="3" />
+      <node id="9044903113969779740" at="100,76,101,41" concept="0" />
+      <node id="9044903113969779740" at="102,9,103,31" concept="4" />
+      <node id="9044903113969779740" at="98,43,102,9" concept="2" />
+      <scope id="9044903113969779740" at="99,38,101,41">
+        <var name="cpb" id="9044903113969779740" />
+      </scope>
+      <scope id="9044903113969779740" at="98,43,103,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9044903113969779740" at="24,0,25,0" concept="6" trace="Statement" />
+      <node id="9044903113969779740" at="38,46,39,48" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9044903113969779740" at="26,0,27,0" concept="1" trace="myConceptStatement" />
+      <node id="9044903113969779740" at="69,43,70,34" concept="4" />
+      <node id="9044903113969779740" at="116,34,117,75" concept="0" />
+      <node id="9044903113969779740" at="140,34,141,75" concept="0" />
+      <node id="9044903113969779740" at="175,67,176,172" concept="3" />
+      <node id="9044903113969779740" at="176,172,177,19" concept="0" />
+      <node id="9044903113969779740" at="177,19,178,116" concept="0" />
+      <node id="9044903113969779740" at="178,116,179,17" concept="0" />
+      <node id="9044903113969779740" at="179,17,180,22" concept="4" />
+      <node id="9044903113969779740" at="184,19,185,75" concept="0" />
+      <node id="9044903113969779740" at="175,0,182,0" concept="7" trace="createDescriptorForStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9044903113969779740" at="69,43,70,34" />
+      <scope id="9044903113969779740" at="175,67,180,22">
+        <var name="b" id="9044903113969779740" />
+      </scope>
+      <scope id="9044903113969779740" at="175,0,182,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/9044903113969824268">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9044903113969824268" at="15,0,16,0" concept="1" trace="props_EmptyStatement" />
+      <node id="9044903113969824268" at="52,43,53,76" concept="3" />
+      <node id="9044903113969824268" at="53,76,54,48" concept="0" />
+      <node id="9044903113969824268" at="54,48,55,46" concept="0" />
+      <node id="9044903113969824268" at="56,9,57,36" concept="4" />
+      <node id="9044903113969824268" at="51,48,56,9" concept="2" />
+      <scope id="9044903113969824268" at="52,43,55,46">
+        <var name="cpb" id="9044903113969824268" />
+      </scope>
+      <scope id="9044903113969824268" at="51,48,57,36" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9044903113969824268" at="17,0,18,0" concept="6" trace="EmptyStatement" />
+      <node id="9044903113969824268" at="31,47,32,53" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9044903113969824268" at="19,0,20,0" concept="1" trace="myConceptEmptyStatement" />
+      <node id="9044903113969824268" at="55,48,56,39" concept="4" />
+      <node id="9044903113969824268" at="114,72,115,177" concept="3" />
+      <node id="9044903113969824268" at="115,177,116,34" concept="0" />
+      <node id="9044903113969824268" at="117,75,118,116" concept="0" />
+      <node id="9044903113969824268" at="118,116,119,17" concept="0" />
+      <node id="9044903113969824268" at="119,17,120,22" concept="4" />
+      <node id="9044903113969824268" at="114,0,122,0" concept="7" trace="createDescriptorForEmptyStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9044903113969824268" at="55,48,56,39" />
+      <scope id="9044903113969824268" at="114,72,120,22">
+        <var name="b" id="9044903113969824268" />
+      </scope>
+      <scope id="9044903113969824268" at="114,0,122,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/9112015721041276143">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9112015721041276143" at="16,0,17,0" concept="1" trace="props_Interface1" />
+      <node id="9112015721041276143" at="59,39,60,76" concept="3" />
+      <node id="9112015721041276143" at="60,76,61,42" concept="0" />
+      <node id="9112015721041276143" at="62,9,63,32" concept="4" />
+      <node id="9112015721041276143" at="58,44,62,9" concept="2" />
+      <scope id="9112015721041276143" at="59,39,61,42">
+        <var name="cpb" id="9112015721041276143" />
+      </scope>
+      <scope id="9112015721041276143" at="58,44,63,32" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9112015721041276143" at="18,0,19,0" concept="6" trace="Interface1" />
+      <node id="9112015721041276143" at="32,53,33,49" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9112015721041276143" at="20,0,21,0" concept="1" trace="myConceptInterface1" />
+      <node id="9112015721041276143" at="57,44,58,35" concept="4" />
+      <node id="9112015721041276143" at="85,34,86,75" concept="0" />
+      <node id="9112015721041276143" at="122,68,123,173" concept="3" />
+      <node id="9112015721041276143" at="123,173,124,19" concept="0" />
+      <node id="9112015721041276143" at="125,75,126,116" concept="0" />
+      <node id="9112015721041276143" at="126,116,127,17" concept="0" />
+      <node id="9112015721041276143" at="127,17,128,22" concept="4" />
+      <node id="9112015721041276143" at="122,0,130,0" concept="7" trace="createDescriptorForInterface1#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9112015721041276143" at="57,44,58,35" />
+      <scope id="9112015721041276143" at="122,68,128,22">
+        <var name="b" id="9112015721041276143" />
+      </scope>
+      <scope id="9112015721041276143" at="122,0,130,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/9112015721041276144">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9112015721041276144" at="17,0,18,0" concept="1" trace="props_Interface2" />
+      <node id="9112015721041276144" at="65,39,66,76" concept="3" />
+      <node id="9112015721041276144" at="66,76,67,42" concept="0" />
+      <node id="9112015721041276144" at="68,9,69,32" concept="4" />
+      <node id="9112015721041276144" at="64,44,68,9" concept="2" />
+      <scope id="9112015721041276144" at="65,39,67,42">
+        <var name="cpb" id="9112015721041276144" />
+      </scope>
+      <scope id="9112015721041276144" at="64,44,69,32" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9112015721041276144" at="19,0,20,0" concept="6" trace="Interface2" />
+      <node id="9112015721041276144" at="33,49,34,49" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9112015721041276144" at="21,0,22,0" concept="1" trace="myConceptInterface2" />
+      <node id="9112015721041276144" at="59,44,60,35" concept="4" />
+      <node id="9112015721041276144" at="86,75,87,75" concept="0" />
+      <node id="9112015721041276144" at="130,68,131,173" concept="3" />
+      <node id="9112015721041276144" at="131,173,132,19" concept="0" />
+      <node id="9112015721041276144" at="133,75,134,116" concept="0" />
+      <node id="9112015721041276144" at="134,116,135,17" concept="0" />
+      <node id="9112015721041276144" at="135,17,136,22" concept="4" />
+      <node id="9112015721041276144" at="130,0,138,0" concept="7" trace="createDescriptorForInterface2#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9112015721041276144" at="59,44,60,35" />
+      <scope id="9112015721041276144" at="130,68,136,22">
+        <var name="b" id="9112015721041276144" />
+      </scope>
+      <scope id="9112015721041276144" at="130,0,138,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/9112015721041284665">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9112015721041284665" at="23,0,24,0" concept="1" trace="props_Top" />
+      <node id="9112015721041284665" at="105,32,106,76" concept="3" />
+      <node id="9112015721041284665" at="106,76,107,35" concept="0" />
+      <node id="9112015721041284665" at="108,9,109,25" concept="4" />
+      <node id="9112015721041284665" at="104,37,108,9" concept="2" />
+      <scope id="9112015721041284665" at="105,32,107,35">
+        <var name="cpb" id="9112015721041284665" />
+      </scope>
+      <scope id="9112015721041284665" at="104,37,109,25" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9112015721041284665" at="25,0,26,0" concept="6" trace="Top" />
+      <node id="9112015721041284665" at="39,48,40,42" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9112015721041284665" at="27,0,28,0" concept="1" trace="myConceptTop" />
+      <node id="9112015721041284665" at="71,37,72,28" concept="4" />
+      <node id="9112015721041284665" at="124,19,125,75" concept="0" />
+      <node id="9112015721041284665" at="132,19,133,75" concept="0" />
+      <node id="9112015721041284665" at="182,61,183,166" concept="3" />
+      <node id="9112015721041284665" at="183,166,184,19" concept="0" />
+      <node id="9112015721041284665" at="185,75,186,116" concept="0" />
+      <node id="9112015721041284665" at="186,116,187,17" concept="0" />
+      <node id="9112015721041276141" at="187,17,188,111" concept="0" />
+      <node id="9112015721041703530" at="188,111,189,111" concept="0" />
+      <node id="1683059382312355164" at="189,111,190,204" concept="0" />
+      <node id="1683059382312355250" at="190,204,191,200" concept="0" />
+      <node id="1683059382312355253" at="191,200,192,199" concept="0" />
+      <node id="9112015721041284665" at="192,199,193,22" concept="4" />
+      <node id="9112015721041284665" at="182,0,195,0" concept="7" trace="createDescriptorForTop#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9112015721041284665" at="71,37,72,28" />
+      <scope id="9112015721041284665" at="182,61,193,22">
+        <var name="b" id="9112015721041284665" />
+      </scope>
+      <scope id="9112015721041284665" at="182,0,195,0" />
+    </file>
+  </root>
+  <root nodeRef="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)/9112015721041285780">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9112015721041285780" at="12,0,13,0" concept="1" trace="props_Bottom" />
+      <node id="9112015721041285780" at="31,35,32,76" concept="3" />
+      <node id="9112015721041285780" at="32,76,33,40" concept="0" />
+      <node id="9112015721041285780" at="33,40,34,38" concept="0" />
+      <node id="9112015721041285780" at="35,9,36,28" concept="4" />
+      <node id="9112015721041285780" at="30,40,35,9" concept="2" />
+      <scope id="9112015721041285780" at="31,35,34,38">
+        <var name="cpb" id="9112015721041285780" />
+      </scope>
+      <scope id="9112015721041285780" at="30,40,36,28" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9112015721041285780" at="14,0,15,0" concept="6" trace="Bottom" />
+      <node id="9112015721041285780" at="28,115,29,45" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9112015721041285780" at="16,0,17,0" concept="1" trace="myConceptBottom" />
+      <node id="9112015721041285780" at="49,40,50,31" concept="4" />
+      <node id="9112015721041285780" at="83,64,84,169" concept="3" />
+      <node id="9112015721041285780" at="84,169,85,34" concept="0" />
+      <node id="9112015721041285780" at="87,75,88,116" concept="0" />
+      <node id="9112015721041285780" at="88,116,89,17" concept="0" />
+      <node id="9112015721041285780" at="89,17,90,22" concept="4" />
+      <node id="9112015721041285780" at="83,0,92,0" concept="7" trace="createDescriptorForBottom#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9112015721041285780" at="49,40,50,31" />
+      <scope id="9112015721041285780" at="83,64,90,22">
+        <var name="b" id="9112015721041285780" />
+      </scope>
+      <scope id="9112015721041285780" at="83,0,92,0" />
+    </file>
+  </root>
+</debug-info>
+

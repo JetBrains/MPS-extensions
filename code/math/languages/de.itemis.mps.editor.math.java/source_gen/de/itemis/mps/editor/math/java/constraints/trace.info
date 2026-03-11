@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,32,0" name="de.itemis.mps.editor.math.java.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:26d9d203-78d9-4215-b591-f98220e0f606(de.itemis.mps.editor.math.java.constraints)/9023431908320686943">
+    <file name="MathLoopVarRef_Constraints.java">
+      <node id="9023431908320686943" at="23,88,24,51" concept="5" />
+      <node id="9023431908320686995" at="24,51,25,26" concept="1" />
+      <node id="9023431908320686995" at="29,54,30,53" concept="5" />
+      <node id="9023431908320686995" at="37,61,38,143" concept="3" />
+      <node id="6646476627295594101" at="41,78,42,129" concept="3" />
+      <node id="9023431908320686943" at="49,0,50,0" concept="4" trace="MathLoopVarRef$sp" />
+      <node id="9023431908320686943" at="50,0,51,0" concept="4" trace="MathLoop$_k" />
+      <node id="9023431908320686943" at="54,0,55,0" concept="4" trace="loop$In_$" />
+      <node id="9023431908320686995" at="29,0,32,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="9023431908320686943" at="23,0,27,0" concept="0" trace="MathLoopVarRef_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="9023431908320686995" at="36,0,40,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="9023431908320686995" at="40,0,44,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="9023431908320686995" at="34,54,44,8" concept="3" />
+      <node id="9023431908320686995" at="32,0,46,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="9023431908320686995" at="29,54,30,53" />
+      <scope id="9023431908320686995" at="37,61,38,143" />
+      <scope id="9023431908320686995" at="41,78,42,129" />
+      <scope id="9023431908320686943" at="23,88,25,26" />
+      <scope id="9023431908320686995" at="29,0,32,0">
+        <var name="container" id="9023431908320686995" />
+      </scope>
+      <scope id="9023431908320686943" at="23,0,27,0">
+        <var name="initContext" id="9023431908320686943" />
+      </scope>
+      <scope id="9023431908320686995" at="36,0,40,0" />
+      <scope id="9023431908320686995" at="40,0,44,0">
+        <var name="_context" id="9023431908320686995" />
+      </scope>
+      <scope id="9023431908320686995" at="34,54,44,8" />
+      <scope id="9023431908320686995" at="32,0,46,0" />
+      <unit id="9023431908320686943" at="53,0,56,0" name="de.itemis.mps.editor.math.java.constraints.MathLoopVarRef_Constraints$LINKS" />
+      <unit id="9023431908320686943" at="48,0,52,0" name="de.itemis.mps.editor.math.java.constraints.MathLoopVarRef_Constraints$CONCEPTS" />
+      <unit id="9023431908320686995" at="35,17,44,7" name="de.itemis.mps.editor.math.java.constraints.MathLoopVarRef_Constraints$RD1$1" />
+      <unit id="9023431908320686995" at="28,0,47,0" name="de.itemis.mps.editor.math.java.constraints.MathLoopVarRef_Constraints$RD1" />
+      <unit id="9023431908320686943" at="22,0,57,0" name="de.itemis.mps.editor.math.java.constraints.MathLoopVarRef_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

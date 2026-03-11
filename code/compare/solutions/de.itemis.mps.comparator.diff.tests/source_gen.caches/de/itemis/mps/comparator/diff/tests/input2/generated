@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-5ei8scii5pj3niyvxboe79oc6f37lp3">
+  <files dir="a/b" names="AB.java" />
+  <files dir="c/d" names="CD.java" />
+  <files dir="z" names="Z.java" />
+</product>
+

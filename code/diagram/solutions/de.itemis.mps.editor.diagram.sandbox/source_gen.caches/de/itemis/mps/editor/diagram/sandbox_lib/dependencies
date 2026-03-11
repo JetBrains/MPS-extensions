@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <uses language="l:7cf26568-7255-45b6-b975-a44162a7e7e2:de.itemis.mps.editor.diagram.demolang" />
+  <uses language="l:8ca79d43-eb45-4791-bdd4-0d6130ff895b:de.itemis.mps.editor.diagram.layout" />
+</dependenciesRoot>
+

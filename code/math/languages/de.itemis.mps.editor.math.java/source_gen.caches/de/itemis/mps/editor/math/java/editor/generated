@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-9ek87396iaknc7hxn14wzte24pkqize">
+  <files names="Abs_Editor.java:Abs_EditorBuilder_a.java:Cosine_Editor.java:Cosine_EditorBuilder_a.java:CurlyBrackets_Editor.java:CurlyBrackets_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:Expression_default_TransformMenu_Contribution.java:FractionExpression_Editor.java:FractionExpression_EditorBuilder_a.java:Integral_Editor.java:Integral_EditorBuilder_a.java:LogN_Editor.java:LogN_EditorBuilder_a.java:MathLoopVarRef_Editor.java:MathLoopVarRef_EditorBuilder_a.java:MathLoopVarRef_SubstituteMenu.java:NRoot_Editor.java:NRoot_EditorBuilder_a.java:ParenthesizedExpression_javaMath_Editor.java:ParenthesizedExpression_javaMath_EditorBuilder_a.java:PiConstant_Editor.java:PiConstant_EditorBuilder_a.java:Power_Editor.java:Power_EditorBuilder_a.java:Product_Editor.java:Product_EditorBuilder_a.java:Sine_Editor.java:Sine_EditorBuilder_a.java:Sqrt_Editor.java:Sqrt_EditorBuilder_a.java:SquareBrackets_Editor.java:SquareBrackets_EditorBuilder_a.java:SumExpression_Editor.java:SumExpression_EditorBuilder_a.java" />
+</product>
+

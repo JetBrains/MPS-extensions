@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="8,0,13,0" name="de.itemis.mps.modelmerger.testhelper.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:b42630f3-a97a-4029-94ec-bdbdd8632462(de.itemis.mps.modelmerger.testhelper.plugin)/394966128314066212">
+    <file name="IdentityCalculatorExtension_a.java">
+      <node id="394966128314066212" at="9,42,10,67" concept="5" />
+      <node id="394966128314066212" at="15,35,16,34" concept="3" />
+      <node id="394966128314066212" at="9,0,12,0" concept="1" trace="IdentityCalculatorExtension_a#()V" />
+      <node id="394966128314066212" at="15,0,18,0" concept="0" trace="get#()Lde/itemis/mps/modelmerger/runtime/plugin/IdentityCalculator;" />
+      <scope id="394966128314066212" at="9,42,10,67" />
+      <scope id="394966128314066212" at="15,35,16,34" />
+      <scope id="394966128314066212" at="9,0,12,0" />
+      <scope id="394966128314066212" at="15,0,18,0" />
+      <unit id="394966128314066212" at="8,0,19,0" name="de.itemis.mps.modelmerger.testhelper.plugin.IdentityCalculatorExtension_a" />
+    </file>
+    <file name="IdentityCalculatorExtension_b.java">
+      <node id="394966128314066212" at="9,42,10,67" concept="5" />
+      <node id="394966128314066212" at="15,35,16,31" concept="3" />
+      <node id="394966128314066212" at="9,0,12,0" concept="1" trace="IdentityCalculatorExtension_b#()V" />
+      <node id="394966128314066212" at="15,0,18,0" concept="0" trace="get#()Lde/itemis/mps/modelmerger/runtime/plugin/IdentityCalculator;" />
+      <scope id="394966128314066212" at="9,42,10,67" />
+      <scope id="394966128314066212" at="15,35,16,31" />
+      <scope id="394966128314066212" at="9,0,12,0" />
+      <scope id="394966128314066212" at="15,0,18,0" />
+      <unit id="394966128314066212" at="8,0,19,0" name="de.itemis.mps.modelmerger.testhelper.plugin.IdentityCalculatorExtension_b" />
+    </file>
+    <file name="IdentityCalculatorExtension_c.java">
+      <node id="394966128314066212" at="9,42,10,67" concept="5" />
+      <node id="394966128314066212" at="15,35,16,32" concept="3" />
+      <node id="394966128314066212" at="9,0,12,0" concept="1" trace="IdentityCalculatorExtension_c#()V" />
+      <node id="394966128314066212" at="15,0,18,0" concept="0" trace="get#()Lde/itemis/mps/modelmerger/runtime/plugin/IdentityCalculator;" />
+      <scope id="394966128314066212" at="9,42,10,67" />
+      <scope id="394966128314066212" at="15,35,16,32" />
+      <scope id="394966128314066212" at="9,0,12,0" />
+      <scope id="394966128314066212" at="15,0,18,0" />
+      <unit id="394966128314066212" at="8,0,19,0" name="de.itemis.mps.modelmerger.testhelper.plugin.IdentityCalculatorExtension_c" />
+    </file>
+    <file name="IdentityCalculatorExtension_d.java">
+      <node id="394966128314066212" at="9,42,10,67" concept="5" />
+      <node id="394966128314066212" at="15,35,16,37" concept="3" />
+      <node id="394966128314066212" at="9,0,12,0" concept="1" trace="IdentityCalculatorExtension_d#()V" />
+      <node id="394966128314066212" at="15,0,18,0" concept="0" trace="get#()Lde/itemis/mps/modelmerger/runtime/plugin/IdentityCalculator;" />
+      <scope id="394966128314066212" at="9,42,10,67" />
+      <scope id="394966128314066212" at="15,35,16,37" />
+      <scope id="394966128314066212" at="9,0,12,0" />
+      <scope id="394966128314066212" at="15,0,18,0" />
+      <unit id="394966128314066212" at="8,0,19,0" name="de.itemis.mps.modelmerger.testhelper.plugin.IdentityCalculatorExtension_d" />
+    </file>
+    <file name="IdentityCalculatorExtension_e.java">
+      <node id="394966128314066212" at="9,42,10,67" concept="5" />
+      <node id="394966128314066212" at="15,35,16,31" concept="3" />
+      <node id="394966128314066212" at="9,0,12,0" concept="1" trace="IdentityCalculatorExtension_e#()V" />
+      <node id="394966128314066212" at="15,0,18,0" concept="0" trace="get#()Lde/itemis/mps/modelmerger/runtime/plugin/IdentityCalculator;" />
+      <scope id="394966128314066212" at="9,42,10,67" />
+      <scope id="394966128314066212" at="15,35,16,31" />
+      <scope id="394966128314066212" at="9,0,12,0" />
+      <scope id="394966128314066212" at="15,0,18,0" />
+      <unit id="394966128314066212" at="8,0,19,0" name="de.itemis.mps.modelmerger.testhelper.plugin.IdentityCalculatorExtension_e" />
+    </file>
+    <file name="iCalc_tComponent.java">
+      <node id="394966128314066212" at="15,39,16,34" concept="3" />
+      <node id="394966128314066954" at="19,46,20,68" concept="3" />
+      <node id="394966128314066212" at="24,0,25,0" concept="4" trace="tComponent$gm" />
+      <node id="394966128314066212" at="28,0,29,0" concept="4" trace="name$67O" />
+      <node id="394966128314066212" at="14,0,18,0" concept="2" trace="applicableConcept#()Lorg/jetbrains/mps/openapi/language/SConcept;" />
+      <node id="394966128314066212" at="18,0,22,0" concept="2" trace="getIdentity#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <scope id="394966128314066212" at="15,39,16,34" />
+      <scope id="394966128314066212" at="19,46,20,68" />
+      <scope id="394966128314066216" at="19,46,20,68" />
+      <scope id="394966128314066212" at="14,0,18,0" />
+      <scope id="394966128314066212" at="18,0,22,0">
+        <var name="inputNode" id="394966128314066212" />
+      </scope>
+      <unit id="394966128314066212" at="23,0,26,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tComponent$CONCEPTS" />
+      <unit id="394966128314066212" at="27,0,30,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tComponent$PROPS" />
+      <unit id="394966128314066212" at="12,0,31,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tComponent" />
+    </file>
+    <file name="iCalc_tInPort.java">
+      <node id="394966128314066212" at="15,39,16,31" concept="3" />
+      <node id="394966128314071695" at="19,46,20,69" concept="3" />
+      <node id="394966128314066212" at="24,0,25,0" concept="4" trace="tInPort$iL" />
+      <node id="394966128314066212" at="28,0,29,0" concept="4" trace="name$MnvL" />
+      <node id="394966128314066212" at="14,0,18,0" concept="2" trace="applicableConcept#()Lorg/jetbrains/mps/openapi/language/SConcept;" />
+      <node id="394966128314066212" at="18,0,22,0" concept="2" trace="getIdentity#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <scope id="394966128314066212" at="15,39,16,31" />
+      <scope id="394966128314066212" at="19,46,20,69" />
+      <scope id="394966128314070943" at="19,46,20,69" />
+      <scope id="394966128314066212" at="14,0,18,0" />
+      <scope id="394966128314066212" at="18,0,22,0">
+        <var name="inputNode" id="394966128314066212" />
+      </scope>
+      <unit id="394966128314066212" at="23,0,26,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tInPort$CONCEPTS" />
+      <unit id="394966128314066212" at="27,0,30,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tInPort$PROPS" />
+      <unit id="394966128314066212" at="12,0,31,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tInPort" />
+    </file>
+    <file name="iCalc_tOutPort.java">
+      <node id="394966128314066212" at="15,39,16,32" concept="3" />
+      <node id="394966128314075706" at="19,46,20,69" concept="3" />
+      <node id="394966128314066212" at="24,0,25,0" concept="4" trace="tOutPort$vQ" />
+      <node id="394966128314066212" at="28,0,29,0" concept="4" trace="name$MnvL" />
+      <node id="394966128314066212" at="14,0,18,0" concept="2" trace="applicableConcept#()Lorg/jetbrains/mps/openapi/language/SConcept;" />
+      <node id="394966128314066212" at="18,0,22,0" concept="2" trace="getIdentity#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <scope id="394966128314066212" at="15,39,16,32" />
+      <scope id="394966128314066212" at="19,46,20,69" />
+      <scope id="394966128314075705" at="19,46,20,69" />
+      <scope id="394966128314066212" at="14,0,18,0" />
+      <scope id="394966128314066212" at="18,0,22,0">
+        <var name="inputNode" id="394966128314066212" />
+      </scope>
+      <unit id="394966128314066212" at="23,0,26,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tOutPort$CONCEPTS" />
+      <unit id="394966128314066212" at="27,0,30,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tOutPort$PROPS" />
+      <unit id="394966128314066212" at="12,0,31,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tOutPort" />
+    </file>
+    <file name="iCalc_tSubComponent.java">
+      <node id="394966128314066212" at="15,39,16,37" concept="3" />
+      <node id="394966128314075714" at="19,46,20,69" concept="3" />
+      <node id="394966128314066212" at="24,0,25,0" concept="4" trace="tSubComponent$Pv" />
+      <node id="394966128314066212" at="28,0,29,0" concept="4" trace="name$MnvL" />
+      <node id="394966128314066212" at="14,0,18,0" concept="2" trace="applicableConcept#()Lorg/jetbrains/mps/openapi/language/SConcept;" />
+      <node id="394966128314066212" at="18,0,22,0" concept="2" trace="getIdentity#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <scope id="394966128314066212" at="15,39,16,37" />
+      <scope id="394966128314066212" at="19,46,20,69" />
+      <scope id="394966128314075713" at="19,46,20,69" />
+      <scope id="394966128314066212" at="14,0,18,0" />
+      <scope id="394966128314066212" at="18,0,22,0">
+        <var name="inputNode" id="394966128314066212" />
+      </scope>
+      <unit id="394966128314066212" at="23,0,26,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tSubComponent$CONCEPTS" />
+      <unit id="394966128314066212" at="27,0,30,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tSubComponent$PROPS" />
+      <unit id="394966128314066212" at="12,0,31,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tSubComponent" />
+    </file>
+    <file name="iCalc_tSystem.java">
+      <node id="394966128314066212" at="15,39,16,31" concept="3" />
+      <node id="394966128314078175" at="19,46,20,69" concept="3" />
+      <node id="394966128314066212" at="24,0,25,0" concept="4" trace="tSystem$ng" />
+      <node id="394966128314066212" at="28,0,29,0" concept="4" trace="name$MnvL" />
+      <node id="394966128314066212" at="14,0,18,0" concept="2" trace="applicableConcept#()Lorg/jetbrains/mps/openapi/language/SConcept;" />
+      <node id="394966128314066212" at="18,0,22,0" concept="2" trace="getIdentity#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <scope id="394966128314066212" at="15,39,16,31" />
+      <scope id="394966128314066212" at="19,46,20,69" />
+      <scope id="394966128314075132" at="19,46,20,69" />
+      <scope id="394966128314066212" at="14,0,18,0" />
+      <scope id="394966128314066212" at="18,0,22,0">
+        <var name="inputNode" id="394966128314066212" />
+      </scope>
+      <unit id="394966128314066212" at="23,0,26,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tSystem$CONCEPTS" />
+      <unit id="394966128314066212" at="27,0,30,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tSystem$PROPS" />
+      <unit id="394966128314066212" at="12,0,31,0" name="de.itemis.mps.modelmerger.testhelper.plugin.iCalc_tSystem" />
+    </file>
+  </root>
+</debug-info>
+

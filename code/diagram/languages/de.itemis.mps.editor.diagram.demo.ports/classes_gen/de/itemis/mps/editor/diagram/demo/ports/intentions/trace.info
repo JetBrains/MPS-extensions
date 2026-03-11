@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="18,0,56,0" name="de.itemis.mps.editor.diagram.demo.ports.intentions.IntentionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:4e797ce1-9851-49b4-9e64-60d4762cef73(de.itemis.mps.editor.diagram.demo.ports.intentions)/3411988043656567022">
+    <file name="IntentionsDescriptor.java">
+      <node id="3411988043656567022" at="37,47,38,55" concept="1" />
+      <node id="3411988043656567022" at="50,52,51,41" concept="1" />
+    </file>
+    <file name="RemoveLayout_Intention.java">
+      <node id="3411988043656567022" at="21,0,22,0" concept="2" trace="myCachedExecutable" />
+      <node id="3411988043656567022" at="23,35,24,165" concept="6" />
+      <node id="3411988043656567022" at="28,35,29,26" concept="5" />
+      <node id="3411988043656567022" at="33,35,34,17" concept="5" />
+      <node id="3411988043656567022" at="38,37,39,105" concept="1" />
+      <node id="3411988043656567022" at="40,5,41,30" concept="5" />
+      <node id="3411988043656570756" at="48,87,49,28" concept="5" />
+      <node id="3411988043656571206" at="53,78,54,130" concept="1" />
+      <node id="3411988043656567022" at="58,86,59,18" concept="5" />
+      <node id="3411988043656567022" at="65,48,66,41" concept="5" />
+      <node id="3411988043656567022" at="44,0,46,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="3411988043656567022" at="23,0,26,0" concept="0" trace="RemoveLayout_Intention#()V" />
+      <node id="3411988043656567022" at="37,99,40,5" concept="3" />
+      <node id="3411988043656567022" at="27,0,31,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="3411988043656567022" at="32,0,36,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="3411988043656567022" at="47,0,51,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="3411988043656567022" at="52,0,56,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="3411988043656567022" at="57,0,61,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="3411988043656567022" at="64,0,68,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="3411988043656567022" at="37,0,43,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="3411988043656567022" at="44,38,44,38" />
+      <scope id="3411988043656567022" at="23,35,24,165" />
+      <scope id="3411988043656567022" at="28,35,29,26" />
+      <scope id="3411988043656567022" at="33,35,34,17" />
+      <scope id="3411988043656567022" at="38,37,39,105" />
+      <scope id="3411988043656567024" at="48,87,49,28" />
+      <scope id="3411988043656567026" at="53,78,54,130" />
+      <scope id="3411988043656567022" at="58,86,59,18" />
+      <scope id="3411988043656567022" at="65,48,66,41" />
+      <scope id="3411988043656567022" at="44,0,46,0" />
+      <scope id="3411988043656567022" at="23,0,26,0" />
+      <scope id="3411988043656567022" at="27,0,31,0" />
+      <scope id="3411988043656567022" at="32,0,36,0" />
+      <scope id="3411988043656567022" at="37,99,41,30" />
+      <scope id="3411988043656567022" at="47,0,51,0">
+        <var name="editorContext" id="3411988043656567022" />
+        <var name="node" id="3411988043656567022" />
+      </scope>
+      <scope id="3411988043656567022" at="52,0,56,0">
+        <var name="editorContext" id="3411988043656567022" />
+        <var name="node" id="3411988043656567022" />
+      </scope>
+      <scope id="3411988043656567022" at="57,0,61,0">
+        <var name="editorContext" id="3411988043656567022" />
+        <var name="node" id="3411988043656567022" />
+      </scope>
+      <scope id="3411988043656567022" at="64,0,68,0" />
+      <scope id="3411988043656567022" at="37,0,43,0">
+        <var name="context" id="3411988043656567022" />
+        <var name="node" id="3411988043656567022" />
+      </scope>
+      <unit id="3411988043656567022" at="43,0,70,0" name="de.itemis.mps.editor.diagram.demo.ports.intentions.RemoveLayout_Intention$IntentionImplementation" />
+      <unit id="3411988043656567022" at="20,0,71,0" name="de.itemis.mps.editor.diagram.demo.ports.intentions.RemoveLayout_Intention" />
+    </file>
+  </root>
+</debug-info>
+

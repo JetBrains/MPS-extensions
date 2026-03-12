@@ -5,11 +5,10 @@ package de.itemis.mps.linenumbers.plugin;
 import org.jetbrains.annotations.NotNull;
 import java.util.List;
 import java.util.Collections;
-import javax.swing.Timer;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
+import com.intellij.util.Alarm;
 import jetbrains.mps.nodeEditor.EditorComponent;
 import jetbrains.mps.ide.ThreadUtils;
+import com.intellij.openapi.util.Disposer;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.awt.Point;
@@ -23,17 +22,10 @@ public class LineNumbersUpdater {
   public List<Line> lines = Collections.emptyList();
   private List<LayoutedLineNumber> layoutedLines = Collections.emptyList();
   private boolean foldingChanged = false;
-  private boolean isRightSideOfEditor;
-  private Timer timer = new Timer(1000, new ActionListener() {
-    @Override
-    public void actionPerformed(ActionEvent e) {
-      updateNow();
-    }
-  });
+  private final Alarm alarm = new Alarm();
 
   public LineNumbersUpdater(LineNumberComponent lineNumberComponent) {
     this.lineNumberComponent = lineNumberComponent;
-    timer.setRepeats(false);
   }
 
   public EditorComponent getEditorComponent() {
@@ -53,12 +45,15 @@ public class LineNumbersUpdater {
     ThreadUtils.assertEDT();
 
     this.foldingChanged = this.foldingChanged || foldingChanged;
-    timer.restart();
+    alarm.addRequest(this::updateNow, 1000L);
+  }
+
+  public void dispose() {
+    Disposer.dispose(alarm);
   }
 
   public void updateNow() {
     ThreadUtils.assertEDT();
-    this.isRightSideOfEditor = lineNumberComponent.isRightSideOfEditor();
     ILineList updatedLines = computeLineNumbers();
     lines = (updatedLines == null ? Collections.<Line>emptyList() : Sequence.fromIterable(updatedLines.getLines()).toList());
     Line lastLine = ListSequence.fromList(lines).last();
@@ -84,8 +79,14 @@ public class LineNumbersUpdater {
   public Point getLinePosition(Line line) {
     Font font = getEditorComponent().getEditorComponentSettings().getDefaultFont();
     FontMetrics fontMetrics = getEditorComponent().getFontMetrics(font);
+
+    int lineNumberWidth = fontMetrics.stringWidth(String.valueOf(line.getNumber()));
+
     // calculate the x-coordinate to draw the first letter of the line number in dependence of the position of the gutter
-    int x = (isRightSideOfEditor ? lineNumberComponent.getLeftEditorHighlighter().getVisibleRect().width - lineNumberComponent.getWidth() + lineNumberComponent.textPaddingRight : lineNumberComponent.getWidth() - fontMetrics.stringWidth(String.valueOf(line.getNumber())) - lineNumberComponent.textPaddingRight);
+    // component width is left padding + width of longest line number + right padding
+    // therefore, to right-align the numbers, we set x = component width - right padding - width of this line number
+    // which is equal to to left padding + (width of longest number - width of this number)
+    int x = lineNumberComponent.getWidth() - lineNumberWidth - lineNumberComponent.textPaddingRight;
 
     int y = line.getCell().getY() + (line.getCell().getHeight() - fontMetrics.getHeight()) / 2 + fontMetrics.getAscent();
     return new Point(x, y);

@@ -3807,7 +3807,7 @@
                   </node>
                   <node concept="1BaE9c" id="fk" role="37wK5m">
                     <property role="1ouuDV" value="LINKS" />
-                    <property role="1BaxDp" value="left$wCm5" />
+                    <property role="1BaxDp" value="lowerBound$wCm5" />
                     <node concept="2YIFZM" id="fn" role="1Bazha">
                       <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getContainmentLink(long,long,long,long,java.lang.String)" resolve="getContainmentLink" />
                       <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
@@ -3824,7 +3824,7 @@
                         <property role="11gdj1" value="7ef3ccd9658a937L" />
                       </node>
                       <node concept="Xl_RD" id="fs" role="37wK5m">
-                        <property role="Xl_RC" value="left" />
+                        <property role="Xl_RC" value="lowerBound" />
                       </node>
                     </node>
                   </node>
@@ -3875,7 +3875,7 @@
                   </node>
                   <node concept="1BaE9c" id="fA" role="37wK5m">
                     <property role="1ouuDV" value="LINKS" />
-                    <property role="1BaxDp" value="right$wC_6" />
+                    <property role="1BaxDp" value="upperBound$wC_6" />
                     <node concept="2YIFZM" id="fD" role="1Bazha">
                       <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getContainmentLink(long,long,long,long,java.lang.String)" resolve="getContainmentLink" />
                       <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
@@ -3892,7 +3892,7 @@
                         <property role="11gdj1" value="7ef3ccd9658a938L" />
                       </node>
                       <node concept="Xl_RD" id="fI" role="37wK5m">
-                        <property role="Xl_RC" value="right" />
+                        <property role="Xl_RC" value="upperBound" />
                       </node>
                     </node>
                   </node>

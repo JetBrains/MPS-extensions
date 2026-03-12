@@ -253,12 +253,12 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bed974e6-d268-4395-932a-5674ee845678(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.dataFlow)/5661879608682248354">
     <file name="IntegerRange_DataFlow.java">
-      <node id="5661879608682248477" at="13,60,14,104" concept="1" />
-      <node id="5661879608682250272" at="14,104,15,105" concept="1" />
-      <node id="5661879608682248354" at="19,0,20,0" concept="7" trace="left$wCm5" />
-      <node id="5661879608682248354" at="20,0,21,0" concept="7" trace="right$wC_6" />
+      <node id="5661879608682248477" at="13,60,14,110" concept="1" />
+      <node id="5661879608682250272" at="14,110,15,110" concept="1" />
+      <node id="5661879608682248354" at="19,0,20,0" concept="7" trace="lowerBound$wCm5" />
+      <node id="5661879608682248354" at="20,0,21,0" concept="7" trace="upperBound$wC_6" />
       <node id="5661879608682248354" at="13,0,17,0" concept="4" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
-      <scope id="5661879608682248356" at="13,60,15,105" />
+      <scope id="5661879608682248356" at="13,60,15,110" />
       <scope id="5661879608682248354" at="13,0,17,0">
         <var name="_context" id="5661879608682248354" />
       </scope>

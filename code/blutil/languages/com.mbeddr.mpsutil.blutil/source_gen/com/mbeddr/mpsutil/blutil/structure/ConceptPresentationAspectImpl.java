@@ -48,9 +48,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_IfInstanceOfVariableProvider;
   private ConceptPresentation props_IndependentNonCapturingGroup;
   private ConceptPresentation props_IntegerRange;
-  private ConceptPresentation props_IntegerRangeBound;
-  private ConceptPresentation props_IntegerRangeConstantBound;
-  private ConceptPresentation props_IntegerRangeExpressionBound;
   private ConceptPresentation props_IsConceptCriterion;
   private ConceptPresentation props_IsInstanceOfExpression;
   private ConceptPresentation props_ItExpr;
@@ -378,32 +375,11 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.IntegerRange:
         if (props_IntegerRange == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("integer range from n to m");
-          cpb.rawPresentation("[n..m]");
+          cpb.shortDesc("integer range");
+          cpb.rawPresentation("[");
           props_IntegerRange = cpb.create();
         }
         return props_IntegerRange;
-      case LanguageConceptSwitch.IntegerRangeBound:
-        if (props_IntegerRangeBound == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          props_IntegerRangeBound = cpb.create();
-        }
-        return props_IntegerRangeBound;
-      case LanguageConceptSwitch.IntegerRangeConstantBound:
-        if (props_IntegerRangeConstantBound == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("integer constant bound");
-          cpb.rawPresentation("IntegerRangeConstantBound");
-          props_IntegerRangeConstantBound = cpb.create();
-        }
-        return props_IntegerRangeConstantBound;
-      case LanguageConceptSwitch.IntegerRangeExpressionBound:
-        if (props_IntegerRangeExpressionBound == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("#");
-          props_IntegerRangeExpressionBound = cpb.create();
-        }
-        return props_IntegerRangeExpressionBound;
       case LanguageConceptSwitch.IsConceptCriterion:
         if (props_IsConceptCriterion == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

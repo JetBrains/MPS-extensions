@@ -14,7 +14,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="TypesystemDescriptor.java">
-      <unit at="9,0,181,0" name="com.mbeddr.mpsutil.blutil.typesystem.TypesystemDescriptor" />
+      <unit at="9,0,173,0" name="com.mbeddr.mpsutil.blutil.typesystem.TypesystemDescriptor" />
     </file>
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/17217465924316866">
@@ -120,10 +120,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/2378878022256321276">
     <file name="TypesystemDescriptor.java">
-      <node id="2378878022256321276" at="147,5,148,105" concept="6" />
-      <node id="2378878022256321276" at="148,105,149,55" concept="2" />
-      <node id="2378878022256321276" at="146,5,150,5" concept="0" />
-      <scope id="2378878022256321276" at="147,5,149,55">
+      <node id="2378878022256321276" at="139,5,140,105" concept="6" />
+      <node id="2378878022256321276" at="140,105,141,55" concept="2" />
+      <node id="2378878022256321276" at="138,5,142,5" concept="0" />
+      <scope id="2378878022256321276" at="139,5,141,55">
         <var name="nonTypesystemRule" id="2378878022256321276" />
       </scope>
     </file>
@@ -205,10 +205,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/3154253959808812808">
     <file name="TypesystemDescriptor.java">
-      <node id="3154253959808812808" at="91,5,92,87" concept="6" />
-      <node id="3154253959808812808" at="92,87,93,47" concept="2" />
-      <node id="3154253959808812808" at="90,5,94,5" concept="0" />
-      <scope id="3154253959808812808" at="91,5,93,47">
+      <node id="3154253959808812808" at="83,5,84,87" concept="6" />
+      <node id="3154253959808812808" at="84,87,85,47" concept="2" />
+      <node id="3154253959808812808" at="82,5,86,5" concept="0" />
+      <scope id="3154253959808812808" at="83,5,85,47">
         <var name="inferenceRule" id="3154253959808812808" />
       </scope>
     </file>
@@ -430,10 +430,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/374287044672216153">
     <file name="TypesystemDescriptor.java">
-      <node id="374287044672216153" at="131,5,132,94" concept="6" />
-      <node id="374287044672216153" at="132,94,133,47" concept="2" />
-      <node id="374287044672216153" at="130,5,134,5" concept="0" />
-      <scope id="374287044672216153" at="131,5,133,47">
+      <node id="374287044672216153" at="123,5,124,94" concept="6" />
+      <node id="374287044672216153" at="124,94,125,47" concept="2" />
+      <node id="374287044672216153" at="122,5,126,5" concept="0" />
+      <scope id="374287044672216153" at="123,5,125,47">
         <var name="inferenceRule" id="374287044672216153" />
       </scope>
     </file>
@@ -580,10 +580,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/4481811096720603166">
     <file name="TypesystemDescriptor.java">
-      <node id="4481811096720603166" at="103,5,104,90" concept="6" />
-      <node id="4481811096720603166" at="104,90,105,47" concept="2" />
-      <node id="4481811096720603166" at="102,5,106,5" concept="0" />
-      <scope id="4481811096720603166" at="103,5,105,47">
+      <node id="4481811096720603166" at="95,5,96,90" concept="6" />
+      <node id="4481811096720603166" at="96,90,97,47" concept="2" />
+      <node id="4481811096720603166" at="94,5,98,5" concept="0" />
+      <scope id="4481811096720603166" at="95,5,97,47">
         <var name="inferenceRule" id="4481811096720603166" />
       </scope>
     </file>
@@ -657,10 +657,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/4481811096720629977">
     <file name="TypesystemDescriptor.java">
-      <node id="4481811096720629977" at="139,5,140,92" concept="6" />
-      <node id="4481811096720629977" at="140,92,141,55" concept="2" />
-      <node id="4481811096720629977" at="138,5,142,5" concept="0" />
-      <scope id="4481811096720629977" at="139,5,141,55">
+      <node id="4481811096720629977" at="131,5,132,92" concept="6" />
+      <node id="4481811096720629977" at="132,92,133,55" concept="2" />
+      <node id="4481811096720629977" at="130,5,134,5" concept="0" />
+      <scope id="4481811096720629977" at="131,5,133,55">
         <var name="nonTypesystemRule" id="4481811096720629977" />
       </scope>
     </file>
@@ -786,10 +786,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/4481811096721055667">
     <file name="TypesystemDescriptor.java">
-      <node id="4481811096721055667" at="95,5,96,79" concept="6" />
-      <node id="4481811096721055667" at="96,79,97,47" concept="2" />
-      <node id="4481811096721055667" at="94,5,98,5" concept="0" />
-      <scope id="4481811096721055667" at="95,5,97,47">
+      <node id="4481811096721055667" at="87,5,88,79" concept="6" />
+      <node id="4481811096721055667" at="88,79,89,47" concept="2" />
+      <node id="4481811096721055667" at="86,5,90,5" concept="0" />
+      <scope id="4481811096721055667" at="87,5,89,47">
         <var name="inferenceRule" id="4481811096721055667" />
       </scope>
     </file>
@@ -840,55 +840,6 @@
       <unit id="4481811096721055667" at="50,0,53,0" name="com.mbeddr.mpsutil.blutil.typesystem.typeof_RefStep_InferenceRule$CONCEPTS" />
       <unit id="4481811096721055667" at="43,0,49,0" name="com.mbeddr.mpsutil.blutil.typesystem.typeof_RefStep_InferenceRule$LINKS" />
       <unit id="4481811096721055667" at="19,0,54,0" name="com.mbeddr.mpsutil.blutil.typesystem.typeof_RefStep_InferenceRule" />
-    </file>
-  </root>
-  <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/571742531387708089">
-    <file name="TypesystemDescriptor.java">
-      <node id="571742531387708089" at="79,5,80,99" concept="6" />
-      <node id="571742531387708089" at="80,99,81,47" concept="2" />
-      <node id="571742531387708089" at="78,5,82,5" concept="0" />
-      <scope id="571742531387708089" at="79,5,81,47">
-        <var name="inferenceRule" id="571742531387708089" />
-      </scope>
-    </file>
-    <file name="typeof_IntegerRangeExpressionBound_InferenceRule.java">
-      <node id="571742531387709453" at="21,5,22,57" concept="6" />
-      <node id="571742531387709453" at="22,57,23,264" concept="6" />
-      <node id="571742531387709453" at="23,264,24,569" concept="2" />
-      <node id="571742531387708089" at="27,50,28,51" concept="7" />
-      <node id="571742531387708089" at="30,68,31,102" concept="7" />
-      <node id="571742531387708089" at="33,30,34,17" concept="7" />
-      <node id="571742531387708089" at="38,0,39,0" concept="9" trace="expression$Y0i9" />
-      <node id="571742531387708089" at="42,0,43,0" concept="9" trace="IntegerRangeExpressionBound$Za" />
-      <node id="571742531387708089" at="18,0,20,0" concept="1" trace="typeof_IntegerRangeExpressionBound_InferenceRule#()V" />
-      <node id="571742531387708089" at="27,0,30,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="571742531387708089" at="30,0,33,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-      <node id="571742531387708089" at="33,0,36,0" concept="5" trace="overrides#()Z" />
-      <node id="571742531387709453" at="20,128,25,5" concept="0" />
-      <node id="571742531387708089" at="20,0,27,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-      <scope id="571742531387708089" at="18,61,18,61" />
-      <scope id="571742531387708089" at="27,50,28,51" />
-      <scope id="571742531387708089" at="30,68,31,102" />
-      <scope id="571742531387708089" at="33,30,34,17" />
-      <scope id="571742531387708089" at="18,0,20,0" />
-      <scope id="571742531387709453" at="21,5,24,569">
-        <var name="_info_12389875345" id="571742531387709453" />
-        <var name="_nodeToCheck_1029348928467" id="571742531387709453" />
-      </scope>
-      <scope id="571742531387708089" at="27,0,30,0" />
-      <scope id="571742531387708089" at="30,0,33,0">
-        <var name="argument" id="571742531387708089" />
-      </scope>
-      <scope id="571742531387708089" at="33,0,36,0" />
-      <scope id="571742531387708090" at="20,128,25,5" />
-      <scope id="571742531387708089" at="20,0,27,0">
-        <var name="expressionBound" id="571742531387708089" />
-        <var name="status" id="571742531387708089" />
-        <var name="typeCheckingContext" id="571742531387708089" />
-      </scope>
-      <unit id="571742531387708089" at="37,0,40,0" name="com.mbeddr.mpsutil.blutil.typesystem.typeof_IntegerRangeExpressionBound_InferenceRule$LINKS" />
-      <unit id="571742531387708089" at="41,0,44,0" name="com.mbeddr.mpsutil.blutil.typesystem.typeof_IntegerRangeExpressionBound_InferenceRule$CONCEPTS" />
-      <unit id="571742531387708089" at="17,0,45,0" name="com.mbeddr.mpsutil.blutil.typesystem.typeof_IntegerRangeExpressionBound_InferenceRule" />
     </file>
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/578371460444599758">
@@ -1151,10 +1102,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/6385915233778796038">
     <file name="TypesystemDescriptor.java">
-      <node id="6385915233778796038" at="87,5,88,87" concept="6" />
-      <node id="6385915233778796038" at="88,87,89,47" concept="2" />
-      <node id="6385915233778796038" at="86,5,90,5" concept="0" />
-      <scope id="6385915233778796038" at="87,5,89,47">
+      <node id="6385915233778796038" at="79,5,80,87" concept="6" />
+      <node id="6385915233778796038" at="80,87,81,47" concept="2" />
+      <node id="6385915233778796038" at="78,5,82,5" concept="0" />
+      <scope id="6385915233778796038" at="79,5,81,47">
         <var name="inferenceRule" id="6385915233778796038" />
       </scope>
     </file>
@@ -1244,10 +1195,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/6385915233778852862">
     <file name="TypesystemDescriptor.java">
-      <node id="6385915233778852862" at="163,5,164,97" concept="6" />
-      <node id="6385915233778852862" at="164,97,165,55" concept="2" />
-      <node id="6385915233778852862" at="162,5,166,5" concept="0" />
-      <scope id="6385915233778852862" at="163,5,165,55">
+      <node id="6385915233778852862" at="155,5,156,97" concept="6" />
+      <node id="6385915233778852862" at="156,97,157,55" concept="2" />
+      <node id="6385915233778852862" at="154,5,158,5" concept="0" />
+      <scope id="6385915233778852862" at="155,5,157,55">
         <var name="nonTypesystemRule" id="6385915233778852862" />
       </scope>
     </file>
@@ -1306,10 +1257,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/6385915233778949750">
     <file name="TypesystemDescriptor.java">
-      <node id="6385915233778949750" at="135,5,136,101" concept="6" />
-      <node id="6385915233778949750" at="136,101,137,55" concept="2" />
-      <node id="6385915233778949750" at="134,5,138,5" concept="0" />
-      <scope id="6385915233778949750" at="135,5,137,55">
+      <node id="6385915233778949750" at="127,5,128,101" concept="6" />
+      <node id="6385915233778949750" at="128,101,129,55" concept="2" />
+      <node id="6385915233778949750" at="126,5,130,5" concept="0" />
+      <scope id="6385915233778949750" at="127,5,129,55">
         <var name="nonTypesystemRule" id="6385915233778949750" />
       </scope>
     </file>
@@ -1357,10 +1308,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/6385915233779020004">
     <file name="TypesystemDescriptor.java">
-      <node id="6385915233779020004" at="159,5,160,98" concept="6" />
-      <node id="6385915233779020004" at="160,98,161,55" concept="2" />
-      <node id="6385915233779020004" at="158,5,162,5" concept="0" />
-      <scope id="6385915233779020004" at="159,5,161,55">
+      <node id="6385915233779020004" at="151,5,152,98" concept="6" />
+      <node id="6385915233779020004" at="152,98,153,55" concept="2" />
+      <node id="6385915233779020004" at="150,5,154,5" concept="0" />
+      <scope id="6385915233779020004" at="151,5,153,55">
         <var name="nonTypesystemRule" id="6385915233779020004" />
       </scope>
     </file>
@@ -1509,10 +1460,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/6642137243246839125">
     <file name="TypesystemDescriptor.java">
-      <node id="6642137243246839125" at="167,5,168,97" concept="6" />
-      <node id="6642137243246839125" at="168,97,169,55" concept="2" />
-      <node id="6642137243246839125" at="166,5,170,5" concept="0" />
-      <scope id="6642137243246839125" at="167,5,169,55">
+      <node id="6642137243246839125" at="159,5,160,97" concept="6" />
+      <node id="6642137243246839125" at="160,97,161,55" concept="2" />
+      <node id="6642137243246839125" at="158,5,162,5" concept="0" />
+      <scope id="6642137243246839125" at="159,5,161,55">
         <var name="nonTypesystemRule" id="6642137243246839125" />
       </scope>
     </file>
@@ -1548,10 +1499,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/6642137243246841525">
     <file name="TypesystemDescriptor.java">
-      <node id="6642137243246841525" at="171,5,172,98" concept="6" />
-      <node id="6642137243246841525" at="172,98,173,55" concept="2" />
-      <node id="6642137243246841525" at="170,5,174,5" concept="0" />
-      <scope id="6642137243246841525" at="171,5,173,55">
+      <node id="6642137243246841525" at="163,5,164,98" concept="6" />
+      <node id="6642137243246841525" at="164,98,165,55" concept="2" />
+      <node id="6642137243246841525" at="162,5,166,5" concept="0" />
+      <scope id="6642137243246841525" at="163,5,165,55">
         <var name="nonTypesystemRule" id="6642137243246841525" />
       </scope>
     </file>
@@ -1760,11 +1711,11 @@
       </scope>
     </file>
     <file name="typeof_IntegerRange_InferenceRule.java">
-      <node id="7488777117046416300" at="22,5,23,98" concept="6" />
-      <node id="7488777117046416300" at="23,98,24,265" concept="6" />
+      <node id="7488777117046416300" at="22,5,23,104" concept="6" />
+      <node id="7488777117046416300" at="23,104,24,265" concept="6" />
       <node id="7488777117046416300" at="24,265,25,369" concept="2" />
-      <node id="7488777117046416457" at="27,5,28,99" concept="6" />
-      <node id="7488777117046416457" at="28,99,29,265" concept="6" />
+      <node id="7488777117046416457" at="27,5,28,104" concept="6" />
+      <node id="7488777117046416457" at="28,104,29,265" concept="6" />
       <node id="7488777117046416457" at="29,265,30,369" concept="2" />
       <node id="7488777117046418114" at="32,5,33,54" concept="6" />
       <node id="7488777117046418114" at="33,54,34,265" concept="6" />
@@ -1788,8 +1739,8 @@
       <node id="7488777117046418122" at="64,222,65,35" concept="2" />
       <node id="7488777117046418122" at="65,35,66,168" concept="2" />
       <node id="7488777117046418122" at="66,168,67,24" concept="7" />
-      <node id="7488777117046413284" at="71,0,72,0" concept="9" trace="left$wCm5" />
-      <node id="7488777117046413284" at="72,0,73,0" concept="9" trace="right$wC_6" />
+      <node id="7488777117046413284" at="71,0,72,0" concept="9" trace="lowerBound$wCm5" />
+      <node id="7488777117046413284" at="72,0,73,0" concept="9" trace="upperBound$wC_6" />
       <node id="7488777117046413284" at="76,0,77,0" concept="9" trace="IntegerRange$O5" />
       <node id="7488777117046413284" at="19,0,21,0" concept="1" trace="typeof_IntegerRange_InferenceRule#()V" />
       <node id="7488777117046413284" at="38,0,41,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
@@ -1852,69 +1803,12 @@
       <unit id="7488777117046413284" at="18,0,79,0" name="com.mbeddr.mpsutil.blutil.typesystem.typeof_IntegerRange_InferenceRule" />
     </file>
   </root>
-  <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7488777117046563857">
-    <file name="TypesystemDescriptor.java">
-      <node id="7488777117046563857" at="75,5,76,97" concept="6" />
-      <node id="7488777117046563857" at="76,97,77,47" concept="2" />
-      <node id="7488777117046563857" at="74,5,78,5" concept="0" />
-      <scope id="7488777117046563857" at="75,5,77,47">
-        <var name="inferenceRule" id="7488777117046563857" />
-      </scope>
-    </file>
-    <file name="typeof_IntegerRangeConstantBound_InferenceRule.java">
-      <node id="7241660063660119975" at="20,5,21,55" concept="6" />
-      <node id="7241660063660119975" at="21,55,22,265" concept="6" />
-      <node id="7241660063660119975" at="22,265,23,346" concept="2" />
-      <node id="7488777117046563857" at="26,50,27,49" concept="7" />
-      <node id="7488777117046563857" at="29,68,30,102" concept="7" />
-      <node id="7488777117046563857" at="32,30,33,17" concept="7" />
-      <node id="7241660063660119978" at="35,65,36,30" concept="6" />
-      <node id="7241660063660119978" at="36,30,37,221" concept="6" />
-      <node id="7241660063660119978" at="37,221,38,34" concept="2" />
-      <node id="7241660063660119978" at="38,34,39,24" concept="7" />
-      <node id="7488777117046563857" at="43,0,44,0" concept="9" trace="IntegerRangeConstantBound$YF" />
-      <node id="7488777117046563857" at="17,0,19,0" concept="1" trace="typeof_IntegerRangeConstantBound_InferenceRule#()V" />
-      <node id="7488777117046563857" at="26,0,29,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="7488777117046563857" at="29,0,32,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-      <node id="7488777117046563857" at="32,0,35,0" concept="5" trace="overrides#()Z" />
-      <node id="7241660063660119975" at="19,126,24,5" concept="0" />
-      <node id="7241660063660119978" at="35,0,41,0" concept="10" trace="_quotation_createNode_htysoh_a1a0c0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="7488777117046563857" at="19,0,26,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-      <scope id="7488777117046563857" at="17,59,17,59" />
-      <scope id="7488777117046563857" at="26,50,27,49" />
-      <scope id="7488777117046563857" at="29,68,30,102" />
-      <scope id="7488777117046563857" at="32,30,33,17" />
-      <scope id="7488777117046563857" at="17,0,19,0" />
-      <scope id="7241660063660119975" at="20,5,23,346">
-        <var name="_info_12389875345" id="7241660063660119975" />
-        <var name="_nodeToCheck_1029348928467" id="7241660063660119975" />
-      </scope>
-      <scope id="7488777117046563857" at="26,0,29,0" />
-      <scope id="7488777117046563857" at="29,0,32,0">
-        <var name="argument" id="7488777117046563857" />
-      </scope>
-      <scope id="7488777117046563857" at="32,0,35,0" />
-      <scope id="7241660063660119978" at="35,65,39,24">
-        <var name="nb" id="7241660063660119978" />
-        <var name="quotedNode_1" id="7241660063660119978" />
-      </scope>
-      <scope id="7488777117046563858" at="19,126,24,5" />
-      <scope id="7241660063660119978" at="35,0,41,0" />
-      <scope id="7488777117046563857" at="19,0,26,0">
-        <var name="constantBound" id="7488777117046563857" />
-        <var name="status" id="7488777117046563857" />
-        <var name="typeCheckingContext" id="7488777117046563857" />
-      </scope>
-      <unit id="7488777117046563857" at="42,0,45,0" name="com.mbeddr.mpsutil.blutil.typesystem.typeof_IntegerRangeConstantBound_InferenceRule$CONCEPTS" />
-      <unit id="7488777117046563857" at="16,0,46,0" name="com.mbeddr.mpsutil.blutil.typesystem.typeof_IntegerRangeConstantBound_InferenceRule" />
-    </file>
-  </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7488777117046831662">
     <file name="TypesystemDescriptor.java">
-      <node id="7488777117046831662" at="151,5,152,103" concept="6" />
-      <node id="7488777117046831662" at="152,103,153,55" concept="2" />
-      <node id="7488777117046831662" at="150,5,154,5" concept="0" />
-      <scope id="7488777117046831662" at="151,5,153,55">
+      <node id="7488777117046831662" at="143,5,144,103" concept="6" />
+      <node id="7488777117046831662" at="144,103,145,55" concept="2" />
+      <node id="7488777117046831662" at="142,5,146,5" concept="0" />
+      <scope id="7488777117046831662" at="143,5,145,55">
         <var name="nonTypesystemRule" id="7488777117046831662" />
       </scope>
     </file>
@@ -1924,13 +1818,13 @@
       <node id="7488777117046831662" at="30,50,31,36" concept="7" />
       <node id="7488777117046831662" at="33,68,34,102" concept="7" />
       <node id="7488777117046831662" at="36,30,37,17" concept="7" />
-      <node id="7488777117046831662" at="41,0,42,0" concept="9" trace="right$wC_6" />
+      <node id="7488777117046831662" at="41,0,42,0" concept="9" trace="upperBound$wC_6" />
       <node id="7488777117046831662" at="45,0,46,0" concept="9" trace="IntegerRange$O5" />
       <node id="7488777117046831662" at="20,0,22,0" concept="1" trace="check_InfiniteIntegerRange_NonTypesystemRule#()V" />
       <node id="7488777117046831662" at="30,0,33,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="7488777117046831662" at="33,0,36,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="7488777117046831662" at="36,0,39,0" concept="5" trace="overrides#()Z" />
-      <node id="2688294013225936697" at="23,78,27,7" concept="0" />
+      <node id="2688294013225936697" at="23,83,27,7" concept="0" />
       <node id="7488777117046831674" at="22,125,28,5" concept="4" />
       <node id="7488777117046831662" at="22,0,30,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
       <scope id="7488777117046831662" at="20,57,20,57" />
@@ -1947,7 +1841,7 @@
         <var name="argument" id="7488777117046831662" />
       </scope>
       <scope id="7488777117046831662" at="36,0,39,0" />
-      <scope id="7488777117046831676" at="23,78,27,7" />
+      <scope id="7488777117046831676" at="23,83,27,7" />
       <scope id="7488777117046831663" at="22,125,28,5" />
       <scope id="7488777117046831662" at="22,0,30,0">
         <var name="integerRange" id="7488777117046831662" />
@@ -1961,72 +1855,84 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7488777117046845643">
     <file name="TypesystemDescriptor.java">
-      <node id="7488777117046845643" at="155,5,156,102" concept="6" />
-      <node id="7488777117046845643" at="156,102,157,55" concept="2" />
-      <node id="7488777117046845643" at="154,5,158,5" concept="0" />
-      <scope id="7488777117046845643" at="155,5,157,55">
+      <node id="7488777117046845643" at="147,5,148,102" concept="6" />
+      <node id="7488777117046845643" at="148,102,149,55" concept="2" />
+      <node id="7488777117046845643" at="146,5,150,5" concept="0" />
+      <scope id="7488777117046845643" at="147,5,149,55">
         <var name="nonTypesystemRule" id="7488777117046845643" />
       </scope>
     </file>
     <file name="check_InvalidIntegerRange_NonTypesystemRule.java">
-      <node id="7488777117046862510" at="26,266,27,188" concept="6" />
-      <node id="7488777117046862654" at="27,188,28,190" concept="6" />
-      <node id="7488777117046875826" at="30,9,31,68" concept="6" />
-      <node id="7488777117046875826" at="31,68,32,320" concept="6" />
-      <node id="7488777117046862647" at="34,7,35,0" concept="8" />
-      <node id="7488777117046845643" at="38,50,39,36" concept="7" />
-      <node id="7488777117046845643" at="41,68,42,102" concept="7" />
-      <node id="7488777117046845643" at="44,30,45,17" concept="7" />
-      <node id="7488777117046845643" at="49,0,50,0" concept="9" trace="right$wC_6" />
-      <node id="7488777117046845643" at="50,0,51,0" concept="9" trace="left$wCm5" />
-      <node id="7488777117046845643" at="54,0,55,0" concept="9" trace="IntegerRangeConstantBound$YF" />
-      <node id="7488777117046845643" at="55,0,56,0" concept="9" trace="IntegerRange$O5" />
-      <node id="7488777117046845643" at="59,0,60,0" concept="9" trace="value$fzf1" />
-      <node id="7488777117046845643" at="23,0,25,0" concept="1" trace="check_InvalidIntegerRange_NonTypesystemRule#()V" />
-      <node id="7488777117046845643" at="38,0,41,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="7488777117046845643" at="41,0,44,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-      <node id="7488777117046845643" at="44,0,47,0" concept="5" trace="overrides#()Z" />
-      <node id="7488777117046875826" at="29,35,33,9" concept="0" />
-      <node id="7488777117046864586" at="28,190,34,7" concept="4" />
-      <node id="7488777117046845662" at="25,125,36,5" concept="4" />
-      <node id="7488777117046845643" at="25,0,38,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-      <scope id="7488777117046845643" at="23,56,23,56" />
-      <scope id="7488777117046845643" at="38,50,39,36" />
-      <scope id="7488777117046845643" at="41,68,42,102" />
-      <scope id="7488777117046845643" at="44,30,45,17" />
-      <scope id="7488777117046845643" at="23,0,25,0" />
-      <scope id="7488777117046875826" at="30,9,32,320">
+      <node id="7488777117046862510" at="25,255,26,301" concept="6" />
+      <node id="7488777117046862654" at="26,301,27,302" concept="6" />
+      <node id="7488777117046875826" at="29,9,30,68" concept="6" />
+      <node id="7488777117046875826" at="30,68,31,320" concept="6" />
+      <node id="7488777117046862647" at="33,7,34,0" concept="8" />
+      <node id="7488777117046845643" at="37,50,38,36" concept="7" />
+      <node id="7488777117046845643" at="40,68,41,102" concept="7" />
+      <node id="7488777117046845643" at="43,30,44,17" concept="7" />
+      <node id="1434092537083004334" at="46,68,47,47" concept="7" />
+      <node id="1434092537083007469" at="49,68,50,47" concept="7" />
+      <node id="7488777117046845643" at="54,0,55,0" concept="9" trace="upperBound$wC_6" />
+      <node id="7488777117046845643" at="55,0,56,0" concept="9" trace="lowerBound$wCm5" />
+      <node id="7488777117046845643" at="59,0,60,0" concept="9" trace="IntegerLiteral$73" />
+      <node id="7488777117046845643" at="60,0,61,0" concept="9" trace="IntegerRange$O5" />
+      <node id="7488777117046845643" at="22,0,24,0" concept="1" trace="check_InvalidIntegerRange_NonTypesystemRule#()V" />
+      <node id="7488777117046845643" at="37,0,40,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7488777117046845643" at="40,0,43,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7488777117046845643" at="43,0,46,0" concept="5" trace="overrides#()Z" />
+      <node id="1434092537083004334" at="46,0,49,0" concept="10" trace="as_inah5l_a0a0a0a1#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="1434092537083007469" at="49,0,52,0" concept="10" trace="as_inah5l_a0a1a0a1#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="7488777117046875826" at="28,78,32,9" concept="0" />
+      <node id="7488777117046864586" at="27,302,33,7" concept="4" />
+      <node id="7488777117046845662" at="24,125,35,5" concept="4" />
+      <node id="7488777117046845643" at="24,0,37,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="7488777117046845643" at="22,56,22,56" />
+      <scope id="7488777117046845643" at="37,50,38,36" />
+      <scope id="7488777117046845643" at="40,68,41,102" />
+      <scope id="7488777117046845643" at="43,30,44,17" />
+      <scope id="1434092537083004334" at="46,68,47,47" />
+      <scope id="1434092537083007469" at="49,68,50,47" />
+      <scope id="7488777117046845643" at="22,0,24,0" />
+      <scope id="7488777117046875826" at="29,9,31,320">
         <var name="_reporter_2309309498" id="7488777117046875826" />
         <var name="errorTarget" id="7488777117046875826" />
       </scope>
-      <scope id="7488777117046845643" at="38,0,41,0" />
-      <scope id="7488777117046845643" at="41,0,44,0">
+      <scope id="7488777117046845643" at="37,0,40,0" />
+      <scope id="7488777117046845643" at="40,0,43,0">
         <var name="argument" id="7488777117046845643" />
       </scope>
-      <scope id="7488777117046845643" at="44,0,47,0" />
-      <scope id="7488777117046864588" at="29,35,33,9" />
-      <scope id="7488777117046845664" at="26,266,35,0">
+      <scope id="7488777117046845643" at="43,0,46,0" />
+      <scope id="1434092537083004334" at="46,0,49,0">
+        <var name="o" id="1434092537083004334" />
+        <var name="type" id="1434092537083004334" />
+      </scope>
+      <scope id="1434092537083007469" at="49,0,52,0">
+        <var name="o" id="1434092537083007469" />
+        <var name="type" id="1434092537083007469" />
+      </scope>
+      <scope id="7488777117046864588" at="28,78,32,9" />
+      <scope id="7488777117046845664" at="25,255,34,0">
         <var name="leftValue" id="7488777117046862511" />
         <var name="rightValue" id="7488777117046862655" />
       </scope>
-      <scope id="7488777117046845644" at="25,125,36,5" />
-      <scope id="7488777117046845643" at="25,0,38,0">
+      <scope id="7488777117046845644" at="24,125,35,5" />
+      <scope id="7488777117046845643" at="24,0,37,0">
         <var name="integerRange" id="7488777117046845643" />
         <var name="status" id="7488777117046845643" />
         <var name="typeCheckingContext" id="7488777117046845643" />
       </scope>
-      <unit id="7488777117046845643" at="58,0,61,0" name="com.mbeddr.mpsutil.blutil.typesystem.check_InvalidIntegerRange_NonTypesystemRule$PROPS" />
-      <unit id="7488777117046845643" at="48,0,52,0" name="com.mbeddr.mpsutil.blutil.typesystem.check_InvalidIntegerRange_NonTypesystemRule$LINKS" />
-      <unit id="7488777117046845643" at="53,0,57,0" name="com.mbeddr.mpsutil.blutil.typesystem.check_InvalidIntegerRange_NonTypesystemRule$CONCEPTS" />
-      <unit id="7488777117046845643" at="22,0,62,0" name="com.mbeddr.mpsutil.blutil.typesystem.check_InvalidIntegerRange_NonTypesystemRule" />
+      <unit id="7488777117046845643" at="53,0,57,0" name="com.mbeddr.mpsutil.blutil.typesystem.check_InvalidIntegerRange_NonTypesystemRule$LINKS" />
+      <unit id="7488777117046845643" at="58,0,62,0" name="com.mbeddr.mpsutil.blutil.typesystem.check_InvalidIntegerRange_NonTypesystemRule$CONCEPTS" />
+      <unit id="7488777117046845643" at="21,0,63,0" name="com.mbeddr.mpsutil.blutil.typesystem.check_InvalidIntegerRange_NonTypesystemRule" />
     </file>
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7488777117048607485">
     <file name="TypesystemDescriptor.java">
-      <node id="7488777117048607485" at="127,5,128,84" concept="6" />
-      <node id="7488777117048607485" at="128,84,129,47" concept="2" />
-      <node id="7488777117048607485" at="126,5,130,5" concept="0" />
-      <scope id="7488777117048607485" at="127,5,129,47">
+      <node id="7488777117048607485" at="119,5,120,84" concept="6" />
+      <node id="7488777117048607485" at="120,84,121,47" concept="2" />
+      <node id="7488777117048607485" at="118,5,122,5" concept="0" />
+      <scope id="7488777117048607485" at="119,5,121,47">
         <var name="inferenceRule" id="7488777117048607485" />
       </scope>
     </file>
@@ -2213,10 +2119,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7745928695485983456">
     <file name="TypesystemDescriptor.java">
-      <node id="7745928695485983456" at="115,5,116,96" concept="6" />
-      <node id="7745928695485983456" at="116,96,117,47" concept="2" />
-      <node id="7745928695485983456" at="114,5,118,5" concept="0" />
-      <scope id="7745928695485983456" at="115,5,117,47">
+      <node id="7745928695485983456" at="107,5,108,96" concept="6" />
+      <node id="7745928695485983456" at="108,96,109,47" concept="2" />
+      <node id="7745928695485983456" at="106,5,110,5" concept="0" />
+      <scope id="7745928695485983456" at="107,5,109,47">
         <var name="inferenceRule" id="7745928695485983456" />
       </scope>
     </file>
@@ -2266,10 +2172,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7745928695486877840">
     <file name="TypesystemDescriptor.java">
-      <node id="7745928695486877840" at="175,5,176,101" concept="6" />
-      <node id="7745928695486877840" at="176,101,177,55" concept="2" />
-      <node id="7745928695486877840" at="174,5,178,5" concept="0" />
-      <scope id="7745928695486877840" at="175,5,177,55">
+      <node id="7745928695486877840" at="167,5,168,101" concept="6" />
+      <node id="7745928695486877840" at="168,101,169,55" concept="2" />
+      <node id="7745928695486877840" at="166,5,170,5" concept="0" />
+      <scope id="7745928695486877840" at="167,5,169,55">
         <var name="nonTypesystemRule" id="7745928695486877840" />
       </scope>
     </file>
@@ -2341,10 +2247,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7915817776605265150">
     <file name="TypesystemDescriptor.java">
-      <node id="7915817776605265150" at="99,5,100,96" concept="6" />
-      <node id="7915817776605265150" at="100,96,101,47" concept="2" />
-      <node id="7915817776605265150" at="98,5,102,5" concept="0" />
-      <scope id="7915817776605265150" at="99,5,101,47">
+      <node id="7915817776605265150" at="91,5,92,96" concept="6" />
+      <node id="7915817776605265150" at="92,96,93,47" concept="2" />
+      <node id="7915817776605265150" at="90,5,94,5" concept="0" />
+      <scope id="7915817776605265150" at="91,5,93,47">
         <var name="inferenceRule" id="7915817776605265150" />
       </scope>
     </file>
@@ -2453,10 +2359,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7946676408104562608">
     <file name="TypesystemDescriptor.java">
-      <node id="7946676408104562608" at="111,5,112,86" concept="6" />
-      <node id="7946676408104562608" at="112,86,113,47" concept="2" />
-      <node id="7946676408104562608" at="110,5,114,5" concept="0" />
-      <scope id="7946676408104562608" at="111,5,113,47">
+      <node id="7946676408104562608" at="103,5,104,86" concept="6" />
+      <node id="7946676408104562608" at="104,86,105,47" concept="2" />
+      <node id="7946676408104562608" at="102,5,106,5" concept="0" />
+      <scope id="7946676408104562608" at="103,5,105,47">
         <var name="inferenceRule" id="7946676408104562608" />
       </scope>
     </file>
@@ -2504,10 +2410,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7946676408104688802">
     <file name="TypesystemDescriptor.java">
-      <node id="7946676408104688802" at="107,5,108,94" concept="6" />
-      <node id="7946676408104688802" at="108,94,109,47" concept="2" />
-      <node id="7946676408104688802" at="106,5,110,5" concept="0" />
-      <scope id="7946676408104688802" at="107,5,109,47">
+      <node id="7946676408104688802" at="99,5,100,94" concept="6" />
+      <node id="7946676408104688802" at="100,94,101,47" concept="2" />
+      <node id="7946676408104688802" at="98,5,102,5" concept="0" />
+      <scope id="7946676408104688802" at="99,5,101,47">
         <var name="inferenceRule" id="7946676408104688802" />
       </scope>
     </file>
@@ -2554,10 +2460,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/7946676408104714513">
     <file name="TypesystemDescriptor.java">
-      <node id="7946676408104714513" at="119,5,120,99" concept="6" />
-      <node id="7946676408104714513" at="120,99,121,47" concept="2" />
-      <node id="7946676408104714513" at="118,5,122,5" concept="0" />
-      <scope id="7946676408104714513" at="119,5,121,47">
+      <node id="7946676408104714513" at="111,5,112,99" concept="6" />
+      <node id="7946676408104714513" at="112,99,113,47" concept="2" />
+      <node id="7946676408104714513" at="110,5,114,5" concept="0" />
+      <scope id="7946676408104714513" at="111,5,113,47">
         <var name="inferenceRule" id="7946676408104714513" />
       </scope>
     </file>
@@ -2654,10 +2560,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/8680547451704770944">
     <file name="TypesystemDescriptor.java">
-      <node id="8680547451704770944" at="83,5,84,78" concept="6" />
-      <node id="8680547451704770944" at="84,78,85,47" concept="2" />
-      <node id="8680547451704770944" at="82,5,86,5" concept="0" />
-      <scope id="8680547451704770944" at="83,5,85,47">
+      <node id="8680547451704770944" at="75,5,76,78" concept="6" />
+      <node id="8680547451704770944" at="76,78,77,47" concept="2" />
+      <node id="8680547451704770944" at="74,5,78,5" concept="0" />
+      <scope id="8680547451704770944" at="75,5,77,47">
         <var name="inferenceRule" id="8680547451704770944" />
       </scope>
     </file>
@@ -2709,10 +2615,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/8680547451706539621">
     <file name="TypesystemDescriptor.java">
-      <node id="8680547451706539621" at="143,5,144,105" concept="6" />
-      <node id="8680547451706539621" at="144,105,145,55" concept="2" />
-      <node id="8680547451706539621" at="142,5,146,5" concept="0" />
-      <scope id="8680547451706539621" at="143,5,145,55">
+      <node id="8680547451706539621" at="135,5,136,105" concept="6" />
+      <node id="8680547451706539621" at="136,105,137,55" concept="2" />
+      <node id="8680547451706539621" at="134,5,138,5" concept="0" />
+      <scope id="8680547451706539621" at="135,5,137,55">
         <var name="nonTypesystemRule" id="8680547451706539621" />
       </scope>
     </file>
@@ -2823,10 +2729,10 @@
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)/8919968723020245678">
     <file name="TypesystemDescriptor.java">
-      <node id="8919968723020245678" at="123,5,124,95" concept="6" />
-      <node id="8919968723020245678" at="124,95,125,47" concept="2" />
-      <node id="8919968723020245678" at="122,5,126,5" concept="0" />
-      <scope id="8919968723020245678" at="123,5,125,47">
+      <node id="8919968723020245678" at="115,5,116,95" concept="6" />
+      <node id="8919968723020245678" at="116,95,117,47" concept="2" />
+      <node id="8919968723020245678" at="114,5,118,5" concept="0" />
+      <scope id="8919968723020245678" at="115,5,117,47">
         <var name="inferenceRule" id="8919968723020245678" />
       </scope>
     </file>

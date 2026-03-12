@@ -7,7 +7,10 @@ import java.util.Collections;
 import jetbrains.mps.baseLanguage.closures.runtime.YieldingIterator;
 
 public class IntegerSequence {
-  public static Iterable<Integer> range(final int from, final int to) {
+  public static Iterable<Integer> range(final Integer from, final Integer to) {
+    if (from == null || to == null) {
+      return Sequence.fromIterable(Collections.<Integer>emptyList());
+    }
     if (to < from) {
       return Sequence.fromIterable(Collections.<Integer>emptyList());
     }
@@ -58,7 +61,10 @@ __switch__:
     });
   }
 
-  public static Iterable<Integer> range(final int from) {
+  public static Iterable<Integer> range(final Integer from) {
+    if (from == null) {
+      return Sequence.fromIterable(Collections.<Integer>emptyList());
+    }
     return Sequence.fromClosure(() -> {
       return (Iterable<Integer>) () -> {
         return new YieldingIterator<Integer>() {

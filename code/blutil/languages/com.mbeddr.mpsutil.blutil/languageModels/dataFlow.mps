@@ -980,7 +980,7 @@
           <node concept="2OqwBi" id="4Uj2o6ky7Ih" role="3Ah4Yx">
             <node concept="3__QtB" id="4Uj2o6ky7$U" role="2Oq$k0" />
             <node concept="3TrEf2" id="4Uj2o6ky7X3" role="2OqNvi">
-              <ref role="3Tt5mk" to="hba4:vJfcQmma$R" resolve="left" />
+              <ref role="3Tt5mk" to="hba4:vJfcQmma$R" resolve="lowerBound" />
             </node>
           </node>
         </node>
@@ -988,7 +988,7 @@
           <node concept="2OqwBi" id="4Uj2o6ky81I" role="3Ah4Yx">
             <node concept="3__QtB" id="4Uj2o6ky81a" role="2Oq$k0" />
             <node concept="3TrEf2" id="4Uj2o6ky82T" role="2OqNvi">
-              <ref role="3Tt5mk" to="hba4:vJfcQmma$S" resolve="right" />
+              <ref role="3Tt5mk" to="hba4:vJfcQmma$S" resolve="upperBound" />
             </node>
           </node>
         </node>

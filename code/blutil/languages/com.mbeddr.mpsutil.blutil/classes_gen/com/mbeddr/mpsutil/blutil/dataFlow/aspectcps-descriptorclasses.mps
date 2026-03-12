@@ -2684,7 +2684,7 @@
                     </node>
                   </node>
                   <node concept="3TrEf2" id="cV" role="2OqNvi">
-                    <ref role="3Tt5mk" to="hba4:vJfcQmma$R" resolve="left" />
+                    <ref role="3Tt5mk" to="hba4:vJfcQmma$R" resolve="lowerBound" />
                     <uo k="s:originTrace" v="n:5661879608682250051" />
                   </node>
                 </node>
@@ -2720,7 +2720,7 @@
                     </node>
                   </node>
                   <node concept="3TrEf2" id="d7" role="2OqNvi">
-                    <ref role="3Tt5mk" to="hba4:vJfcQmma$S" resolve="right" />
+                    <ref role="3Tt5mk" to="hba4:vJfcQmma$S" resolve="upperBound" />
                     <uo k="s:originTrace" v="n:5661879608682250425" />
                   </node>
                 </node>

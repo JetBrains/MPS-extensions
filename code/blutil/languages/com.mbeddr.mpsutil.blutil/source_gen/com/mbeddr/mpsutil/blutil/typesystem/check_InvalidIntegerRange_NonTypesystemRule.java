@@ -9,7 +9,7 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.baseLanguage.behavior.Expression__BehaviorDescriptor;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
@@ -17,16 +17,15 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
-import org.jetbrains.mps.openapi.language.SProperty;
 
 public class check_InvalidIntegerRange_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public check_InvalidIntegerRange_NonTypesystemRule() {
   }
   public void applyRule(final SNode integerRange, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(integerRange, LINKS.left$wCm5), CONCEPTS.IntegerRangeConstantBound$YF) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(integerRange, LINKS.right$wC_6), CONCEPTS.IntegerRangeConstantBound$YF)) {
-      int leftValue = SPropertyOperations.getInteger(SNodeOperations.as(SLinkOperations.getTarget(integerRange, LINKS.left$wCm5), CONCEPTS.IntegerRangeConstantBound$YF), PROPS.value$fzf1);
-      int rightValue = SPropertyOperations.getInteger(SNodeOperations.as(SLinkOperations.getTarget(integerRange, LINKS.right$wC_6), CONCEPTS.IntegerRangeConstantBound$YF), PROPS.value$fzf1);
-      if (leftValue > rightValue) {
+    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(integerRange, LINKS.lowerBound$wCm5), CONCEPTS.IntegerLiteral$73) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(integerRange, LINKS.upperBound$wC_6), CONCEPTS.IntegerLiteral$73)) {
+      Integer leftValue = as_inah5l_a0a0a0a1(Expression__BehaviorDescriptor.getCompileTimeConstantValue_idi1LP2xI.invoke(SNodeOperations.as(SLinkOperations.getTarget(integerRange, LINKS.lowerBound$wCm5), CONCEPTS.IntegerLiteral$73), SNodeOperations.getModel(integerRange).getModule()), Integer.class);
+      Integer rightValue = as_inah5l_a0a1a0a1(Expression__BehaviorDescriptor.getCompileTimeConstantValue_idi1LP2xI.invoke(SNodeOperations.as(SLinkOperations.getTarget(integerRange, LINKS.upperBound$wC_6), CONCEPTS.IntegerLiteral$73), SNodeOperations.getModel(integerRange).getModule()), Integer.class);
+      if (leftValue != null && rightValue != null && leftValue > rightValue) {
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportWarning(integerRange, "Left bound greater than right bound", "63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)", "7488777117046875826", null, errorTarget);
@@ -44,18 +43,20 @@ public class check_InvalidIntegerRange_NonTypesystemRule extends AbstractNonType
   public boolean overrides() {
     return false;
   }
+  private static <T> T as_inah5l_a0a0a0a1(Object o, Class<T> type) {
+    return (type.isInstance(o) ? (T) o : null);
+  }
+  private static <T> T as_inah5l_a0a1a0a1(Object o, Class<T> type) {
+    return (type.isInstance(o) ? (T) o : null);
+  }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink right$wC_6 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a938L, "right");
-    /*package*/ static final SContainmentLink left$wCm5 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a937L, "left");
+    /*package*/ static final SContainmentLink upperBound$wC_6 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a938L, "upperBound");
+    /*package*/ static final SContainmentLink lowerBound$wCm5 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a937L, "lowerBound");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept IntegerRangeConstantBound$YF = MetaAdapterFactory.getConcept(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a934L, "com.mbeddr.mpsutil.blutil.structure.IntegerRangeConstantBound");
+    /*package*/ static final SConcept IntegerLiteral$73 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x1129778b846L, "jetbrains.mps.baseLanguage.structure.IntegerLiteral");
     /*package*/ static final SConcept IntegerRange$O5 = MetaAdapterFactory.getConcept(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, "com.mbeddr.mpsutil.blutil.structure.IntegerRange");
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty value$fzf1 = MetaAdapterFactory.getProperty(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a934L, 0x67ed7b1c57a2640cL, "value");
   }
 }

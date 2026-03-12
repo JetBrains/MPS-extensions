@@ -58,9 +58,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptIfInstanceOfVariableProvider = createDescriptorForIfInstanceOfVariableProvider();
   /*package*/ final ConceptDescriptor myConceptIndependentNonCapturingGroup = createDescriptorForIndependentNonCapturingGroup();
   /*package*/ final ConceptDescriptor myConceptIntegerRange = createDescriptorForIntegerRange();
-  /*package*/ final ConceptDescriptor myConceptIntegerRangeBound = createDescriptorForIntegerRangeBound();
-  /*package*/ final ConceptDescriptor myConceptIntegerRangeConstantBound = createDescriptorForIntegerRangeConstantBound();
-  /*package*/ final ConceptDescriptor myConceptIntegerRangeExpressionBound = createDescriptorForIntegerRangeExpressionBound();
   /*package*/ final ConceptDescriptor myConceptIsConceptCriterion = createDescriptorForIsConceptCriterion();
   /*package*/ final ConceptDescriptor myConceptIsInstanceOfExpression = createDescriptorForIsInstanceOfExpression();
   /*package*/ final ConceptDescriptor myConceptItExpr = createDescriptorForItExpr();
@@ -129,7 +126,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAbstractChildValue, myConceptAbstractStep, myConceptAncestorRefExpr, myConceptAncestorRoleClause, myConceptBLDoc, myConceptBackReferenceRegexp, myConceptBuilderExpression, myConceptCSCase, myConceptCSDefault, myConceptCallRecursivelyExpression, myConceptCastedCandidateExpr, myConceptChildRefExpr, myConceptChildStep, myConceptConceptRef, myConceptConceptSwitchStatement, myConceptControlCharacterRegex, myConceptDispatchExpression, myConceptDisptachMatch, myConceptElvisOperation, myConceptEqualsNodeCriterion, myConceptExpressionChildValue, myConceptFilterOperation, myConceptForEachWithIndexOperation, myConceptGridConstraintsNextColumOperation, myConceptGridConstraintsNextRowOperation, myConceptGridConstraintsOperation, myConceptGroupByOperation, myConceptGroupRegexp, myConceptGuardCriterion, myConceptHexadecimalRegex, myConceptIBuilderStep, myConceptIDeprecatedLangConcept, myConceptIMatcher, myConceptIfInstanceOfElseIfClause, myConceptIfInstanceOfStatement, myConceptIfInstanceOfVarReference, myConceptIfInstanceOfVariableProvider, myConceptIndependentNonCapturingGroup, myConceptIntegerRange, myConceptIntegerRangeBound, myConceptIntegerRangeConstantBound, myConceptIntegerRangeExpressionBound, myConceptIsConceptCriterion, myConceptIsInstanceOfExpression, myConceptItExpr, myConceptLinkRefExpr, myConceptLinkRoleClause, myConceptLogContextStatement, myConceptLogExpr, myConceptLogStatement, myConceptMatchClause, myConceptMatchClauseExpr, myConceptMatchExpression, myConceptMatchStatement, myConceptMethodLineDoc, myConceptNamedBackReferenceRegexp, myConceptNamedGroupRegexp, myConceptNodeRoleClause, myConceptNodeRoleCriterion, myConceptOctalRegex, myConceptParentRefExpr, myConceptParentRoleClause, myConceptPerformanceProfiler, myConceptRefStep, myConceptSafeReadAction, myConceptSafeWriteAction, myConceptSelectWithIndexOperation, myConceptShortStaticMethodCall, myConceptSimplePropertyStep, myConceptThisRefExpr, myConceptThisRoleClause, myConceptTypeGuard, myConceptTypeIsConceptCriterion, myConceptTypeSubtypeCriterion, myConceptTypeSwitch, myConceptTypeSwitchBaseVariable, myConceptTypeSwitchCase, myConceptTypeSwitchCaseMapping, myConceptTypeSwitchCaseMappingContainer, myConceptTypeSwitchCaseMappingMethodCall, myConceptTypeSwitchDefault, myConceptTypeSwitchNestedVariable, myConceptTypeSwitchVariable, myConceptTypeSwitchVariableReference, myConceptUnicodeByNameRegex, myConceptWhereWithIndexOperation, myConceptZipOperation);
+    return Arrays.asList(myConceptAbstractChildValue, myConceptAbstractStep, myConceptAncestorRefExpr, myConceptAncestorRoleClause, myConceptBLDoc, myConceptBackReferenceRegexp, myConceptBuilderExpression, myConceptCSCase, myConceptCSDefault, myConceptCallRecursivelyExpression, myConceptCastedCandidateExpr, myConceptChildRefExpr, myConceptChildStep, myConceptConceptRef, myConceptConceptSwitchStatement, myConceptControlCharacterRegex, myConceptDispatchExpression, myConceptDisptachMatch, myConceptElvisOperation, myConceptEqualsNodeCriterion, myConceptExpressionChildValue, myConceptFilterOperation, myConceptForEachWithIndexOperation, myConceptGridConstraintsNextColumOperation, myConceptGridConstraintsNextRowOperation, myConceptGridConstraintsOperation, myConceptGroupByOperation, myConceptGroupRegexp, myConceptGuardCriterion, myConceptHexadecimalRegex, myConceptIBuilderStep, myConceptIDeprecatedLangConcept, myConceptIMatcher, myConceptIfInstanceOfElseIfClause, myConceptIfInstanceOfStatement, myConceptIfInstanceOfVarReference, myConceptIfInstanceOfVariableProvider, myConceptIndependentNonCapturingGroup, myConceptIntegerRange, myConceptIsConceptCriterion, myConceptIsInstanceOfExpression, myConceptItExpr, myConceptLinkRefExpr, myConceptLinkRoleClause, myConceptLogContextStatement, myConceptLogExpr, myConceptLogStatement, myConceptMatchClause, myConceptMatchClauseExpr, myConceptMatchExpression, myConceptMatchStatement, myConceptMethodLineDoc, myConceptNamedBackReferenceRegexp, myConceptNamedGroupRegexp, myConceptNodeRoleClause, myConceptNodeRoleCriterion, myConceptOctalRegex, myConceptParentRefExpr, myConceptParentRoleClause, myConceptPerformanceProfiler, myConceptRefStep, myConceptSafeReadAction, myConceptSafeWriteAction, myConceptSelectWithIndexOperation, myConceptShortStaticMethodCall, myConceptSimplePropertyStep, myConceptThisRefExpr, myConceptThisRoleClause, myConceptTypeGuard, myConceptTypeIsConceptCriterion, myConceptTypeSubtypeCriterion, myConceptTypeSwitch, myConceptTypeSwitchBaseVariable, myConceptTypeSwitchCase, myConceptTypeSwitchCaseMapping, myConceptTypeSwitchCaseMappingContainer, myConceptTypeSwitchCaseMappingMethodCall, myConceptTypeSwitchDefault, myConceptTypeSwitchNestedVariable, myConceptTypeSwitchVariable, myConceptTypeSwitchVariableReference, myConceptUnicodeByNameRegex, myConceptWhereWithIndexOperation, myConceptZipOperation);
   }
 
   @Override
@@ -214,12 +211,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptIndependentNonCapturingGroup;
       case LanguageConceptSwitch.IntegerRange:
         return myConceptIntegerRange;
-      case LanguageConceptSwitch.IntegerRangeBound:
-        return myConceptIntegerRangeBound;
-      case LanguageConceptSwitch.IntegerRangeConstantBound:
-        return myConceptIntegerRangeConstantBound;
-      case LanguageConceptSwitch.IntegerRangeExpressionBound:
-        return myConceptIntegerRangeExpressionBound;
       case LanguageConceptSwitch.IsConceptCriterion:
         return myConceptIsConceptCriterion;
       case LanguageConceptSwitch.IsInstanceOfExpression:
@@ -721,35 +712,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
     b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/571742531387676962");
     b.version(3);
-    b.aggregate("left", 0x7ef3ccd9658a937L).target(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L).optional(false).ordered(true).multiple(false).origin("571742531387697463").done();
-    b.aggregate("right", 0x7ef3ccd9658a938L).target(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L).optional(true).ordered(true).multiple(false).origin("571742531387697464").done();
-    b.alias("[n..m]");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForIntegerRangeBound() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "IntegerRangeBound", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L);
-    b.interface_();
-    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/571742531387697458");
-    b.version(3);
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForIntegerRangeConstantBound() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "IntegerRangeConstantBound", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a934L);
-    b.class_(false, false, false);
-    b.parent(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L);
-    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/571742531387697460");
-    b.version(3);
-    b.property("value", 0x67ed7b1c57a2640cL).type(PrimitiveTypeId.INTEGER).origin("7488777117046563852").done();
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForIntegerRangeExpressionBound() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.blutil", "IntegerRangeExpressionBound", 0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a935L);
-    b.class_(false, false, false);
-    b.parent(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd9658a932L);
-    b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/571742531387697461");
-    b.version(3);
-    b.aggregate("expression", 0x7ef3ccd9658a936L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("571742531387697462").done();
-    b.alias("#");
+    b.aggregate("lowerBound", 0x7ef3ccd9658a937L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("571742531387697463").done();
+    b.aggregate("upperBound", 0x7ef3ccd9658a938L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("571742531387697464").done();
+    b.alias("[");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIsConceptCriterion() {

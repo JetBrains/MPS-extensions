@@ -20,12 +20,12 @@ public class typeof_IntegerRange_InferenceRule extends AbstractInferenceRule_Run
   }
   public void applyRule(final SNode integerRange, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     {
-      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(integerRange, LINKS.left$wCm5);
+      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(integerRange, LINKS.lowerBound$wCm5);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)", "7488777117046416300", 0, null);
       typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)", "7488777117046413295", true), (SNode) _quotation_createNode_gciny9_a1a0c0a0b(), false, true, _info_12389875345);
     }
     {
-      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(integerRange, LINKS.right$wC_6);
+      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(integerRange, LINKS.upperBound$wC_6);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)", "7488777117046416457", 0, null);
       typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)", "7488777117046416462", true), (SNode) _quotation_createNode_gciny9_a1a0c0b0b(), false, true, _info_12389875345);
     }
@@ -68,8 +68,8 @@ public class typeof_IntegerRange_InferenceRule extends AbstractInferenceRule_Run
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink left$wCm5 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a937L, "left");
-    /*package*/ static final SContainmentLink right$wC_6 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a938L, "right");
+    /*package*/ static final SContainmentLink lowerBound$wCm5 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a937L, "lowerBound");
+    /*package*/ static final SContainmentLink upperBound$wC_6 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a938L, "upperBound");
   }
 
   private static final class CONCEPTS {

@@ -20,7 +20,7 @@ public class check_InfiniteIntegerRange_NonTypesystemRule extends AbstractNonTyp
   public check_InfiniteIntegerRange_NonTypesystemRule() {
   }
   public void applyRule(final SNode integerRange, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if ((SLinkOperations.getTarget(integerRange, LINKS.right$wC_6) == null)) {
+    if ((SLinkOperations.getTarget(integerRange, LINKS.upperBound$wC_6) == null)) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportInfo(integerRange, "This sequence in infinite", "63e0e566-5131-447e-90e3-12ea330e1a00/r:bb095207-e9e1-446e-bd19-f8d726d52200(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.typesystem)", "2688294013225936697", null, errorTarget);
@@ -38,7 +38,7 @@ public class check_InfiniteIntegerRange_NonTypesystemRule extends AbstractNonTyp
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink right$wC_6 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a938L, "right");
+    /*package*/ static final SContainmentLink upperBound$wC_6 = MetaAdapterFactory.getContainmentLink(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x7ef3ccd96585922L, 0x7ef3ccd9658a938L, "upperBound");
   }
 
   private static final class CONCEPTS {

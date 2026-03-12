@@ -9,10 +9,7 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.WeakHashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import java.lang.ref.WeakReference;
 import org.jetbrains.annotations.NotNull;
-import java.awt.Point;
-import javax.swing.SwingUtilities;
 import com.intellij.openapi.application.ApplicationManager;
 import jetbrains.mps.project.Project;
 import jetbrains.mps.ide.project.ProjectHelper;
@@ -47,7 +44,6 @@ public class LineNumberComponent extends AbstractLeftColumn {
     }
   }
 
-  private WeakReference<EditorComponent> myEditorComponent;
   private int textPaddingLeft = 10;
   public int textPaddingRight = textPaddingLeft;
   private int textWidth = 30;
@@ -55,7 +51,6 @@ public class LineNumberComponent extends AbstractLeftColumn {
 
   private LineNumberComponent(EditorComponent editorComponent) {
     super(editorComponent.getLeftEditorHighlighter());
-    myEditorComponent = new WeakReference<EditorComponent>(editorComponent);
     editorComponent.addDisposeListener(new EditorComponent.EditorDisposeListener() {
       @Override
       public void editorWillBeDisposed(@NotNull EditorComponent editorComponent) {
@@ -63,16 +58,6 @@ public class LineNumberComponent extends AbstractLeftColumn {
         uninstall();
       }
     });
-  }
-
-  public EditorComponent getEditorComponent() {
-    return myEditorComponent.get();
-  }
-
-  public boolean isRightSideOfEditor() {
-    // get the left upper most point [0,0] of the gutter (getLeftEditorHighlighter() ) in the coordinate space of the editor component
-    Point convertPoint = SwingUtilities.convertPoint(getLeftEditorHighlighter(), new Point(0, 0), getEditorComponent());
-    return convertPoint.getX() >= getEditorComponent().getVisibleRect().width;
   }
 
   public void install() {
@@ -98,6 +83,12 @@ public class LineNumberComponent extends AbstractLeftColumn {
       getLeftEditorHighlighter().removeLeftColumn(this);
     }
     dispose();
+  }
+
+  @Override
+  public void dispose() {
+    super.dispose();
+    updater.dispose();
   }
 
   public void updateWidth(String longestText) {

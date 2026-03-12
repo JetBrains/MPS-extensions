@@ -9,6 +9,7 @@ import de.itemis.mps.gradle.tasks.MpsMigrate
 import de.itemis.mps.gradle.tasks.Remigrate
 import groovy.xml.XmlSlurper
 import groovy.xml.slurpersupport.GPathResult
+import org.gradle.kotlin.dsl.support.serviceOf
 import java.util.*
 
 plugins {
@@ -32,7 +33,7 @@ val ciBuild = project.hasProperty("forceCI") ||
 val mpsVersion = libs.mps.get().version!!
 
 // major version, e.g. '2021.1', '2021.2'
-val mpsMajor = mpsVersion.substring(0, 6) // 2024.1.x-RCy -> 2024.1
+val mpsMajor = "9999.9"
 
 if (ciBuild) {
     val branch = GitBasedVersioning.getGitBranch()
@@ -370,19 +371,31 @@ fun forEachBundledDependency(action: (ResolvedDependency) -> Unit) {
     }
 }
 
-tasks.register<Exec>("pipInstall") {
+val pythonEnvDir = layout.buildDirectory.dir("python-env")
+val python3 = pythonEnvDir.map { it.file("bin/python3") }
+
+tasks.register("pipInstall") {
     inputs.file("requirements.txt")
-    commandLine("python3", "-m", "pip", "install", "-r", "requirements.txt")
+
+    doLast {
+        val execOps = serviceOf<ExecOperations>()
+        execOps.exec {
+            commandLine("python3", "-m", "venv", pythonEnvDir.get().asFile)
+        }
+        execOps.exec {
+            commandLine(python3.get(), "-m", "pip", "install", "-r", "requirements.txt")
+        }
+    }
 }
 
 tasks.register<Exec>("previewDocs") {
     dependsOn("pipInstall")
-    commandLine("python3", "-m", "mkdocs", "serve")
+    commandLine(python3.get(), "-m", "mkdocs", "serve")
 }
 
 tasks.register<Exec>("deployDocs") {
     dependsOn("pipInstall")
-    commandLine("python3", "-", "mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force")
+    commandLine(python3.get(), "-m", "mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force")
 }
 
 
@@ -434,7 +447,7 @@ tasks.register<MpsMigrate>("migrate") {
 
 tasks.register<Remigrate>("remigrate") {
     mustRunAfter("migrate")
-    mustRunAfter(provider { mpsBuilds.map(MpsBuild::generateTask) })
+    dependsOn(provider { mpsBuilds.map(MpsBuild::generateTask) })
 
     javaLauncher = jbrToolchain.javaLauncher
     mpsHome = mpsDefaults.mpsHome

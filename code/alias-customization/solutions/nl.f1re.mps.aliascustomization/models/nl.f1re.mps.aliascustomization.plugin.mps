@@ -12,7 +12,7 @@
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
@@ -215,16 +215,10 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
@@ -260,6 +254,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1916,24 +1918,132 @@
       <ref role="2AI5Lk" to="mhfm:~ApiStatus$Internal" resolve="ApiStatus.Internal" />
     </node>
     <node concept="3UR2Jj" id="3sHcYAWlTeF" role="lGtFl">
-      <node concept="TZ5HA" id="3sHcYAWlTeG" role="TZ5H$">
-        <node concept="1dT_AC" id="3sHcYAWlTeH" role="1dT_Ay">
-          <property role="1dT_AB" value="This class is a workaround that modifies the concept descriptors to include the modified alias. It is derived from" />
+      <node concept="1PaTwC" id="2lxJAgqZINf" role="1Vez_I">
+        <node concept="3oM_SD" id="2lxJAgqZINg" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINh" role="1PaTwD">
+          <property role="3oM_SC" value="class" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINi" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINj" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINk" role="1PaTwD">
+          <property role="3oM_SC" value="workaround" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINl" role="1PaTwD">
+          <property role="3oM_SC" value="that" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINm" role="1PaTwD">
+          <property role="3oM_SC" value="modifies" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINn" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINo" role="1PaTwD">
+          <property role="3oM_SC" value="concept" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINp" role="1PaTwD">
+          <property role="3oM_SC" value="descriptors" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINq" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINr" role="1PaTwD">
+          <property role="3oM_SC" value="include" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINs" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINt" role="1PaTwD">
+          <property role="3oM_SC" value="modified" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINu" role="1PaTwD">
+          <property role="3oM_SC" value="alias." />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINv" role="1PaTwD">
+          <property role="3oM_SC" value="It" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINw" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINx" role="1PaTwD">
+          <property role="3oM_SC" value="derived" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINy" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
         </node>
       </node>
-      <node concept="TZ5HA" id="3sHcYAWmaK5" role="TZ5H$">
-        <node concept="1dT_AC" id="3sHcYAWmaK6" role="1dT_Ay">
-          <property role="1dT_AB" value="http://127.0.0.1:63320/node?ref=r%3A00000000-0000-4000-0000-011c89590293%28jetbrains.mps.lang.structure.generator_new.baseLanguage%40generator%29%2F540685334803387390" />
+      <node concept="1PaTwC" id="2lxJAgqZINz" role="1Vez_I">
+        <node concept="3oM_SD" id="2lxJAgqZIN$" role="1PaTwD">
+          <property role="3oM_SC" value="http://127.0.0.1:63320/node?ref=r%3A00000000-0000-4000-0000-011c89590293%28jetbrains.mps.lang.structure.generator_new.baseLanguage%40generator%29%2F540685334803387390" />
         </node>
       </node>
-      <node concept="TZ5HA" id="3sHcYAWmduS" role="TZ5H$">
-        <node concept="1dT_AC" id="3sHcYAWmduT" role="1dT_Ay">
-          <property role="1dT_AB" value="Any change in this generator needs also be implemented here. Ideally, this plugin should be removed once https://youtrack.jetbrains.com/issue/MPS-39355/Alias-Customization" />
+      <node concept="1PaTwC" id="2lxJAgqZIN_" role="1Vez_I">
+        <node concept="3oM_SD" id="2lxJAgqZINA" role="1PaTwD">
+          <property role="3oM_SC" value="Any" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINB" role="1PaTwD">
+          <property role="3oM_SC" value="change" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINC" role="1PaTwD">
+          <property role="3oM_SC" value="in" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZIND" role="1PaTwD">
+          <property role="3oM_SC" value="this" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINE" role="1PaTwD">
+          <property role="3oM_SC" value="generator" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINF" role="1PaTwD">
+          <property role="3oM_SC" value="needs" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZING" role="1PaTwD">
+          <property role="3oM_SC" value="also" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINH" role="1PaTwD">
+          <property role="3oM_SC" value="be" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINI" role="1PaTwD">
+          <property role="3oM_SC" value="implemented" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINJ" role="1PaTwD">
+          <property role="3oM_SC" value="here." />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINK" role="1PaTwD">
+          <property role="3oM_SC" value="Ideally," />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINL" role="1PaTwD">
+          <property role="3oM_SC" value="this" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINM" role="1PaTwD">
+          <property role="3oM_SC" value="plugin" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINN" role="1PaTwD">
+          <property role="3oM_SC" value="should" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINO" role="1PaTwD">
+          <property role="3oM_SC" value="be" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINP" role="1PaTwD">
+          <property role="3oM_SC" value="removed" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINQ" role="1PaTwD">
+          <property role="3oM_SC" value="once" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINR" role="1PaTwD">
+          <property role="3oM_SC" value="https://youtrack.jetbrains.com/issue/MPS-39355/Alias-Customization" />
         </node>
       </node>
-      <node concept="TZ5HA" id="3sHcYAWn8cv" role="TZ5H$">
-        <node concept="1dT_AC" id="3sHcYAWn8cw" role="1dT_Ay">
-          <property role="1dT_AB" value="is implemented." />
+      <node concept="1PaTwC" id="2lxJAgqZINS" role="1Vez_I">
+        <node concept="3oM_SD" id="2lxJAgqZINT" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINU" role="1PaTwD">
+          <property role="3oM_SC" value="implemented." />
         </node>
       </node>
     </node>
@@ -1974,9 +2084,39 @@
     </node>
     <node concept="3Tm1VV" id="1tfgU6d9mHr" role="1B3o_S" />
     <node concept="3UR2Jj" id="3sHcYAWngfE" role="lGtFl">
-      <node concept="TZ5HA" id="3sHcYAWngfF" role="TZ5H$">
-        <node concept="1dT_AC" id="3sHcYAWngfG" role="1dT_Ay">
-          <property role="1dT_AB" value="Experimental API, please use with care as it modifies MPS internals." />
+      <node concept="1PaTwC" id="2lxJAgqZINV" role="1Vez_I">
+        <node concept="3oM_SD" id="2lxJAgqZINW" role="1PaTwD">
+          <property role="3oM_SC" value="Experimental" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINX" role="1PaTwD">
+          <property role="3oM_SC" value="API," />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINY" role="1PaTwD">
+          <property role="3oM_SC" value="please" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZINZ" role="1PaTwD">
+          <property role="3oM_SC" value="use" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZIO0" role="1PaTwD">
+          <property role="3oM_SC" value="with" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZIO1" role="1PaTwD">
+          <property role="3oM_SC" value="care" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZIO2" role="1PaTwD">
+          <property role="3oM_SC" value="as" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZIO3" role="1PaTwD">
+          <property role="3oM_SC" value="it" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZIO4" role="1PaTwD">
+          <property role="3oM_SC" value="modifies" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZIO5" role="1PaTwD">
+          <property role="3oM_SC" value="MPS" />
+        </node>
+        <node concept="3oM_SD" id="2lxJAgqZIO6" role="1PaTwD">
+          <property role="3oM_SC" value="internals." />
         </node>
       </node>
     </node>

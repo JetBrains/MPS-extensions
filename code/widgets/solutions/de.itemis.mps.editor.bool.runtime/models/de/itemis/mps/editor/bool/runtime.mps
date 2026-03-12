@@ -7,7 +7,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
   </languages>
   <imports>
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
@@ -278,18 +278,12 @@
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
-        <child id="2667874559098216723" name="text" index="3HnX3l" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
@@ -1843,6 +1837,12 @@
     </node>
     <node concept="2tJIrI" id="20OtND1EAOb" role="jymVt" />
     <node concept="3clFbW" id="20OtND1EghC" role="jymVt">
+      <node concept="37vLTG" id="1gaGt1kl84U" role="3clF46">
+        <property role="TrG5h" value="repository" />
+        <node concept="3uibUv" id="1gaGt1kl8fS" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="20OtND1EghE" role="3clF45" />
       <node concept="3Tm1VV" id="20OtND1EghF" role="1B3o_S" />
       <node concept="3clFbS" id="20OtND1EghG" role="3clF47">
@@ -1860,12 +1860,6 @@
           <node concept="1rXfSq" id="20OtND1RDad" role="3clFbG">
             <ref role="37wK5l" node="20OtND1EGlB" resolve="updateSize" />
           </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="1gaGt1kl84U" role="3clF46">
-        <property role="TrG5h" value="repository" />
-        <node concept="3uibUv" id="1gaGt1kl8fS" role="1tU5fm">
-          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
         </node>
       </node>
     </node>
@@ -4535,9 +4529,48 @@
       </node>
       <node concept="P$JXv" id="1gaGt1klS9T" role="lGtFl">
         <node concept="TZ5HI" id="1gaGt1klS9U" role="3nqlJM">
-          <node concept="TZ5HA" id="1gaGt1klS9V" role="3HnX3l">
-            <node concept="1dT_AC" id="1gaGt1klTmE" role="1dT_Ay">
-              <property role="1dT_AB" value="use the overload with the repository parameter. Left for compatibility with existing generated code." />
+          <node concept="1PaTwC" id="L0S2CpU6Tp" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Tq" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tr" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Ts" role="1PaTwD">
+              <property role="3oM_SC" value="overload" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tt" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tu" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tv" role="1PaTwD">
+              <property role="3oM_SC" value="repository" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tw" role="1PaTwD">
+              <property role="3oM_SC" value="parameter." />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tx" role="1PaTwD">
+              <property role="3oM_SC" value="Left" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Ty" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tz" role="1PaTwD">
+              <property role="3oM_SC" value="compatibility" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6T$" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6T_" role="1PaTwD">
+              <property role="3oM_SC" value="existing" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6TA" role="1PaTwD">
+              <property role="3oM_SC" value="generated" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6TB" role="1PaTwD">
+              <property role="3oM_SC" value="code." />
             </node>
           </node>
         </node>
@@ -5423,9 +5456,30 @@
         <ref role="3uigEE" to="zf81:~URL" resolve="URL" />
       </node>
       <node concept="P$JXv" id="1KzPx3uyoWi" role="lGtFl">
-        <node concept="TZ5HA" id="1KzPx3uyoWj" role="TZ5H$">
-          <node concept="1dT_AC" id="1KzPx3uyoWk" role="1dT_Ay">
-            <property role="1dT_AB" value="Note: This method is a duplicate of EnumerationCheckboxImage.retrieveURL." />
+        <node concept="1PaTwC" id="39vev738yR2" role="1Vez_I">
+          <node concept="3oM_SD" id="39vev738yR3" role="1PaTwD">
+            <property role="3oM_SC" value="Note:" />
+          </node>
+          <node concept="3oM_SD" id="39vev738yR4" role="1PaTwD">
+            <property role="3oM_SC" value="This" />
+          </node>
+          <node concept="3oM_SD" id="39vev738yR5" role="1PaTwD">
+            <property role="3oM_SC" value="method" />
+          </node>
+          <node concept="3oM_SD" id="39vev738yR6" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="39vev738yR7" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="39vev738yR8" role="1PaTwD">
+            <property role="3oM_SC" value="duplicate" />
+          </node>
+          <node concept="3oM_SD" id="39vev738yR9" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="39vev738yRa" role="1PaTwD">
+            <property role="3oM_SC" value="EnumerationCheckboxImage.retrieveURL." />
           </node>
         </node>
       </node>

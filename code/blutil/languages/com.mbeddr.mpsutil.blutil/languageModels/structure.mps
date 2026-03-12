@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="4" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
@@ -13,8 +13,8 @@
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpfo" ref="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -1087,49 +1087,55 @@
     <property role="3GE5qa" value="instanceof" />
     <property role="TrG5h" value="IfInstanceOfVariableProvider" />
   </node>
-  <node concept="1TIwiD" id="h5P8g6K">
-    <property role="R5$K7" value="false" />
-    <property role="R5$K2" value="false" />
-    <property role="R4oN_" value="group" />
-    <property role="TrG5h" value="GroupRegexp" />
+  <node concept="1TIwiD" id="58ackBphWSb">
+    <property role="EcuMT" value="5911591654124932619" />
     <property role="3GE5qa" value="regexp" />
-    <property role="34LRSv" value="(" />
-    <property role="EcuMT" value="1174491169200" />
-    <ref role="1TJDcQ" to="tpfo:h5P8g6K" resolve="ParensRegexp" />
-  </node>
-  <node concept="1TIwiD" id="7Ja64GBeeCt">
-    <property role="EcuMT" value="8919968723020343837" />
-    <property role="TrG5h" value="ForEachWithIndexOperation" />
-    <property role="34LRSv" value="forEachIdx" />
-    <property role="R4oN_" value="execute for each element with index" />
-    <property role="3GE5qa" value="withIndexOperations" />
-    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
-  </node>
-  <node concept="1TIwiD" id="45$ooctt21m">
-    <property role="EcuMT" value="4711998325899141206" />
-    <property role="3GE5qa" value="regexp" />
-    <property role="TrG5h" value="NamedBackReferenceRegexp" />
-    <property role="34LRSv" value="\k&lt;name&gt;" />
-    <property role="R4oN_" value="Whatever the named-capturing group &quot;name&quot; matched" />
+    <property role="TrG5h" value="OctalRegex" />
+    <property role="34LRSv" value="\0" />
+    <property role="R4oN_" value="an octal value" />
     <ref role="1TJDcQ" to="tpfo:h5OC6VX" resolve="Regexp" />
-    <node concept="1TJgyj" id="45$ooctt21r" role="1TKVEi">
-      <property role="IQ2ns" value="4711998325899141211" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="20kJfa" value="group" />
-      <ref role="20lvS9" node="46RgPUMrFAF" resolve="NamedGroupRegexp" />
+    <node concept="1TJgyi" id="58ackBphWZx" role="1TKVEl">
+      <property role="IQ2nx" value="5911591654124933089" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpee:6bA$I9q25Bx" resolve="_OctNumberValue" />
     </node>
   </node>
-  <node concept="1TIwiD" id="45$ooctlVOQ">
-    <property role="EcuMT" value="4711998325897280822" />
+  <node concept="Az7Fb" id="58ackBplgNF">
+    <property role="3F6X1D" value="5911591654125800683" />
     <property role="3GE5qa" value="regexp" />
-    <property role="TrG5h" value="BackReferenceRegexp" />
-    <property role="34LRSv" value="\index" />
-    <property role="R4oN_" value="whatever the nth capturing group matched" />
+    <property role="TrG5h" value="HexadecimalRegexValue" />
+    <property role="FLfZY" value="[0-9a-fA-F]{2}" />
+  </node>
+  <node concept="1TIwiD" id="58ackBplgNG">
+    <property role="EcuMT" value="5911591654125800684" />
+    <property role="3GE5qa" value="regexp" />
+    <property role="TrG5h" value="HexadecimalRegex" />
+    <property role="34LRSv" value="\x" />
+    <property role="R4oN_" value="a hexadecimal value" />
     <ref role="1TJDcQ" to="tpfo:h5OC6VX" resolve="Regexp" />
-    <node concept="1TJgyi" id="45$ooctlVOT" role="1TKVEl">
-      <property role="IQ2nx" value="4711998325897280825" />
-      <property role="TrG5h" value="index" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="1TJgyi" id="58ackBplgNH" role="1TKVEl">
+      <property role="IQ2nx" value="5911591654125800685" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="58ackBplgNF" resolve="HexadecimalRegexValue" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="58ackBpohUg">
+    <property role="3F6X1D" value="5911591654124933086" />
+    <property role="3GE5qa" value="regexp" />
+    <property role="TrG5h" value="ControlCharacterRegexValue" />
+    <property role="FLfZY" value="[a-zA-Z]" />
+  </node>
+  <node concept="1TIwiD" id="58ackBpohUd">
+    <property role="EcuMT" value="5911591654126591629" />
+    <property role="3GE5qa" value="regexp" />
+    <property role="TrG5h" value="ControlCharacterRegex" />
+    <property role="34LRSv" value="\cx" />
+    <property role="R4oN_" value="a control character" />
+    <ref role="1TJDcQ" to="tpfo:h5OC6VX" resolve="Regexp" />
+    <node concept="1TJgyi" id="58ackBpohUe" role="1TKVEl">
+      <property role="IQ2nx" value="5911591654126591630" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="58ackBpohUg" resolve="ControlCharacterRegexValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="7NPLlCCM4be">
@@ -1145,13 +1151,50 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="54jQkZ8WKL$">
-    <property role="EcuMT" value="5842252078326680676" />
-    <property role="TrG5h" value="GroupByOperation" />
-    <property role="34LRSv" value="groupBy" />
-    <property role="R4oN_" value="identify groups of elements" />
-    <property role="3GE5qa" value="groupByOperation" />
-    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  <node concept="1TIwiD" id="45$ooctlVOQ">
+    <property role="EcuMT" value="4711998325897280822" />
+    <property role="3GE5qa" value="regexp" />
+    <property role="TrG5h" value="BackReferenceRegexp" />
+    <property role="34LRSv" value="\index" />
+    <property role="R4oN_" value="whatever the nth capturing group matched" />
+    <ref role="1TJDcQ" to="tpfo:h5OC6VX" resolve="Regexp" />
+    <node concept="1TJgyi" id="45$ooctlVOT" role="1TKVEl">
+      <property role="IQ2nx" value="4711998325897280825" />
+      <property role="TrG5h" value="index" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="h5P8g6K">
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="R4oN_" value="group" />
+    <property role="TrG5h" value="GroupRegexp" />
+    <property role="3GE5qa" value="regexp" />
+    <property role="34LRSv" value="(" />
+    <property role="EcuMT" value="1174491169200" />
+    <ref role="1TJDcQ" to="tpfo:h5P8g6K" resolve="ParensRegexp" />
+  </node>
+  <node concept="1TIwiD" id="45$ooctt21m">
+    <property role="EcuMT" value="4711998325899141206" />
+    <property role="3GE5qa" value="regexp" />
+    <property role="TrG5h" value="NamedBackReferenceRegexp" />
+    <property role="34LRSv" value="\k&lt;name&gt;" />
+    <property role="R4oN_" value="Whatever the named-capturing group &quot;name&quot; matched" />
+    <ref role="1TJDcQ" to="tpfo:h5OC6VX" resolve="Regexp" />
+    <node concept="1TJgyj" id="45$ooctt21r" role="1TKVEi">
+      <property role="IQ2ns" value="4711998325899141211" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="group" />
+      <ref role="20lvS9" node="46RgPUMrFAF" resolve="NamedGroupRegexp" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="45$ooctvlkR">
+    <property role="EcuMT" value="4711998325899744567" />
+    <property role="3GE5qa" value="regexp" />
+    <property role="TrG5h" value="IndependentNonCapturingGroup" />
+    <property role="R4oN_" value="independent, non-capturing group" />
+    <property role="34LRSv" value="(?&gt;" />
+    <ref role="1TJDcQ" to="tpfo:h6dSM65" resolve="LookRegexp" />
   </node>
   <node concept="1TIwiD" id="46RgPUMrFAF">
     <property role="R5$K7" value="false" />
@@ -1166,13 +1209,21 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="45$ooctvlkR">
-    <property role="EcuMT" value="4711998325899744567" />
-    <property role="3GE5qa" value="regexp" />
-    <property role="TrG5h" value="IndependentNonCapturingGroup" />
-    <property role="R4oN_" value="independent, non-capturing group" />
-    <property role="34LRSv" value="(?&gt;" />
-    <ref role="1TJDcQ" to="tpfo:h6dSM65" resolve="LookRegexp" />
+  <node concept="1TIwiD" id="7Ja64GBeeCt">
+    <property role="EcuMT" value="8919968723020343837" />
+    <property role="TrG5h" value="ForEachWithIndexOperation" />
+    <property role="34LRSv" value="forEachIdx" />
+    <property role="R4oN_" value="execute for each element with index" />
+    <property role="3GE5qa" value="withIndexOperations" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
+  <node concept="1TIwiD" id="54jQkZ8WKL$">
+    <property role="EcuMT" value="5842252078326680676" />
+    <property role="TrG5h" value="GroupByOperation" />
+    <property role="34LRSv" value="groupBy" />
+    <property role="R4oN_" value="identify groups of elements" />
+    <property role="3GE5qa" value="groupByOperation" />
+    <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
   </node>
   <node concept="1TIwiD" id="6vHuLLnKoKY">
     <property role="EcuMT" value="7488777117048605758" />
@@ -1181,38 +1232,6 @@
     <property role="R4oN_" value="maps a tuple of sequences into a sequence of tuples" />
     <property role="3GE5qa" value="zipOperation" />
     <ref role="1TJDcQ" to="tp2q:h856pF2" resolve="BinaryOperation" />
-  </node>
-  <node concept="1TIwiD" id="58ackBphWSb">
-    <property role="EcuMT" value="5911591654124932619" />
-    <property role="3GE5qa" value="regexp" />
-    <property role="TrG5h" value="OctalRegex" />
-    <property role="34LRSv" value="\0" />
-    <property role="R4oN_" value="an octal value" />
-    <ref role="1TJDcQ" to="tpfo:h5OC6VX" resolve="Regexp" />
-    <node concept="1TJgyi" id="58ackBphWZx" role="1TKVEl">
-      <property role="IQ2nx" value="5911591654124933089" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpee:6bA$I9q25Bx" resolve="_OctNumberValue" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="58ackBpohUd">
-    <property role="EcuMT" value="5911591654126591629" />
-    <property role="3GE5qa" value="regexp" />
-    <property role="TrG5h" value="ControlCharacterRegex" />
-    <property role="34LRSv" value="\cx" />
-    <property role="R4oN_" value="a control character" />
-    <ref role="1TJDcQ" to="tpfo:h5OC6VX" resolve="Regexp" />
-    <node concept="1TJgyi" id="58ackBpohUe" role="1TKVEl">
-      <property role="IQ2nx" value="5911591654126591630" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="58ackBpohUg" resolve="ControlCharacterRegexValue" />
-    </node>
-  </node>
-  <node concept="Az7Fb" id="58ackBpohUg">
-    <property role="3F6X1D" value="5911591654124933086" />
-    <property role="3GE5qa" value="regexp" />
-    <property role="TrG5h" value="ControlCharacterRegexValue" />
-    <property role="FLfZY" value="[a-zA-Z]" />
   </node>
   <node concept="1TIwiD" id="vJfcQmm5$y">
     <property role="EcuMT" value="571742531387676962" />
@@ -1243,19 +1262,6 @@
     <property role="3GE5qa" value="elvisOperation" />
     <ref role="1TJDcQ" to="tpee:fJuHJVf" resolve="BinaryOperation" />
   </node>
-  <node concept="1TIwiD" id="58ackBplgNG">
-    <property role="EcuMT" value="5911591654125800684" />
-    <property role="3GE5qa" value="regexp" />
-    <property role="TrG5h" value="HexadecimalRegex" />
-    <property role="34LRSv" value="\x" />
-    <property role="R4oN_" value="a hexadecimal value" />
-    <ref role="1TJDcQ" to="tpfo:h5OC6VX" resolve="Regexp" />
-    <node concept="1TJgyi" id="58ackBplgNH" role="1TKVEl">
-      <property role="IQ2nx" value="5911591654125800685" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="58ackBplgNF" resolve="HexadecimalRegexValue" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="7Ja64GBdQxd">
     <property role="EcuMT" value="8919968723020245069" />
     <property role="TrG5h" value="WhereWithIndexOperation" />
@@ -1263,12 +1269,6 @@
     <property role="R4oN_" value="include only matched element" />
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
-  </node>
-  <node concept="Az7Fb" id="58ackBplgNF">
-    <property role="3F6X1D" value="5911591654125800683" />
-    <property role="3GE5qa" value="regexp" />
-    <property role="TrG5h" value="HexadecimalRegexValue" />
-    <property role="FLfZY" value="[0-9a-fA-F]{2}" />
   </node>
   <node concept="1TIwiD" id="6RqC_fThQjL">
     <property role="EcuMT" value="7915817776605258993" />

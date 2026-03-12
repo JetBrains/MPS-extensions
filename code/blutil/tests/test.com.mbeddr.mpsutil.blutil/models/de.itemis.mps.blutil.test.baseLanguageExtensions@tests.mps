@@ -116,8 +116,8 @@
     </language>
     <language id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil">
       <concept id="571742531387676962" name="com.mbeddr.mpsutil.blutil.structure.IntegerRange" flags="ng" index="2hHQnJ">
-        <child id="571742531387697464" name="right" index="2hHTnP" />
-        <child id="571742531387697463" name="left" index="2hHTnU" />
+        <child id="571742531387697464" name="upperBound" index="2hHTnP" />
+        <child id="571742531387697463" name="lowerBound" index="2hHTnU" />
       </concept>
       <concept id="7915817776605258993" name="com.mbeddr.mpsutil.blutil.structure.SelectWithIndexOperation" flags="ng" index="2kBsqy" />
       <concept id="5842252078326680676" name="com.mbeddr.mpsutil.blutil.structure.GroupByOperation" flags="ng" index="2pSdkF" />

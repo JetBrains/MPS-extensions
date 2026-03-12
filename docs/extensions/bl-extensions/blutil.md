@@ -190,7 +190,7 @@ This BaseLanguage expression creates a finite/infinite sequence of integers
 // [10, 11, 8, 9, 14, 15, 12, 13, 2, 3, 0, 1]
 
 // expression bounds
-[0..# 3 * 2].select({~it => it + 2; });
+[0..3 * 2].select({~it => it + 2; });
 // [2, 3, 4, 5, 6, 7, 8]
 ```
 

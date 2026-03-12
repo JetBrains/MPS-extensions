@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="DataFlowAspectDescriptorImpl.java">
+      <unit at="15,0,48,0" name="de.itemis.mps.editor.math.java.dataFlow.DataFlowAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/235379007129196378">
+    <file name="FractionExpression_DataFlow.java">
+      <node id="235379007129196652" at="13,60,14,109" concept="0" />
+      <node id="235379007129197476" at="14,109,15,111" concept="0" />
+      <node id="235379007129196378" at="19,0,20,0" concept="2" trace="numerator$PGR1" />
+      <node id="235379007129196378" at="20,0,21,0" concept="2" trace="denominator$PH$4" />
+      <node id="235379007129196378" at="13,0,17,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="235379007129196395" at="13,60,15,111" />
+      <scope id="235379007129196378" at="13,0,17,0">
+        <var name="_context" id="235379007129196378" />
+      </scope>
+      <unit id="235379007129196378" at="18,0,22,0" name="de.itemis.mps.editor.math.java.dataFlow.FractionExpression_DataFlow$LINKS" />
+      <unit id="235379007129196378" at="12,0,23,0" name="de.itemis.mps.editor.math.java.dataFlow.FractionExpression_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/2469986354995458028">
+    <file name="Abs_DataFlow.java">
+      <node id="2469986354995458157" at="13,60,14,104" concept="0" />
+      <node id="2469986354995458028" at="18,0,19,0" concept="2" trace="expr$My7C" />
+      <node id="2469986354995458028" at="13,0,16,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="2469986354995458030" at="13,60,14,104" />
+      <scope id="2469986354995458028" at="13,0,16,0">
+        <var name="_context" id="2469986354995458028" />
+      </scope>
+      <unit id="2469986354995458028" at="17,0,20,0" name="de.itemis.mps.editor.math.java.dataFlow.Abs_DataFlow$LINKS" />
+      <unit id="2469986354995458028" at="12,0,21,0" name="de.itemis.mps.editor.math.java.dataFlow.Abs_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/2469986354995554079">
+    <file name="Cosine_DataFlow.java">
+      <node id="2469986354995554208" at="13,60,14,104" concept="0" />
+      <node id="2469986354995554079" at="18,0,19,0" concept="2" trace="expr$WZ2D" />
+      <node id="2469986354995554079" at="13,0,16,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="2469986354995554081" at="13,60,14,104" />
+      <scope id="2469986354995554079" at="13,0,16,0">
+        <var name="_context" id="2469986354995554079" />
+      </scope>
+      <unit id="2469986354995554079" at="17,0,20,0" name="de.itemis.mps.editor.math.java.dataFlow.Cosine_DataFlow$LINKS" />
+      <unit id="2469986354995554079" at="12,0,21,0" name="de.itemis.mps.editor.math.java.dataFlow.Cosine_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/2469986354995557372">
+    <file name="LogN_DataFlow.java">
+      <node id="2469986354995557450" at="13,60,14,104" concept="0" />
+      <node id="2469986354995558982" at="14,104,15,101" concept="0" />
+      <node id="2469986354995557372" at="19,0,20,0" concept="2" trace="expr$u77p" />
+      <node id="2469986354995557372" at="20,0,21,0" concept="2" trace="n$u7_r" />
+      <node id="2469986354995557372" at="13,0,17,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="2469986354995557374" at="13,60,15,101" />
+      <scope id="2469986354995557372" at="13,0,17,0">
+        <var name="_context" id="2469986354995557372" />
+      </scope>
+      <unit id="2469986354995557372" at="18,0,22,0" name="de.itemis.mps.editor.math.java.dataFlow.LogN_DataFlow$LINKS" />
+      <unit id="2469986354995557372" at="12,0,23,0" name="de.itemis.mps.editor.math.java.dataFlow.LogN_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/2469986354995560590">
+    <file name="NRoot_DataFlow.java">
+      <node id="2469986354995560668" at="13,60,14,104" concept="0" />
+      <node id="2469986354995562200" at="14,104,15,101" concept="0" />
+      <node id="2469986354995560590" at="19,0,20,0" concept="2" trace="expr$tKoa" />
+      <node id="2469986354995560590" at="20,0,21,0" concept="2" trace="n$tJU8" />
+      <node id="2469986354995560590" at="13,0,17,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="2469986354995560592" at="13,60,15,101" />
+      <scope id="2469986354995560590" at="13,0,17,0">
+        <var name="_context" id="2469986354995560590" />
+      </scope>
+      <unit id="2469986354995560590" at="18,0,22,0" name="de.itemis.mps.editor.math.java.dataFlow.NRoot_DataFlow$LINKS" />
+      <unit id="2469986354995560590" at="12,0,23,0" name="de.itemis.mps.editor.math.java.dataFlow.NRoot_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/2469986354995563751">
+    <file name="Power_DataFlow.java">
+      <node id="2469986354995563829" at="13,60,14,104" concept="0" />
+      <node id="2469986354995565319" at="14,104,15,105" concept="0" />
+      <node id="2469986354995563751" at="19,0,20,0" concept="2" trace="expr$Etv$" />
+      <node id="2469986354995563751" at="20,0,21,0" concept="2" trace="power$Eo6d" />
+      <node id="2469986354995563751" at="13,0,17,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="2469986354995563753" at="13,60,15,105" />
+      <scope id="2469986354995563751" at="13,0,17,0">
+        <var name="_context" id="2469986354995563751" />
+      </scope>
+      <unit id="2469986354995563751" at="18,0,22,0" name="de.itemis.mps.editor.math.java.dataFlow.Power_DataFlow$LINKS" />
+      <unit id="2469986354995563751" at="12,0,23,0" name="de.itemis.mps.editor.math.java.dataFlow.Power_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/2469986354995567622">
+    <file name="Sine_DataFlow.java">
+      <node id="2469986354995567700" at="13,60,14,105" concept="0" />
+      <node id="2469986354995567622" at="18,0,19,0" concept="2" trace="param$hc80" />
+      <node id="2469986354995567622" at="13,0,16,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="2469986354995567624" at="13,60,14,105" />
+      <scope id="2469986354995567622" at="13,0,16,0">
+        <var name="_context" id="2469986354995567622" />
+      </scope>
+      <unit id="2469986354995567622" at="17,0,20,0" name="de.itemis.mps.editor.math.java.dataFlow.Sine_DataFlow$LINKS" />
+      <unit id="2469986354995567622" at="12,0,21,0" name="de.itemis.mps.editor.math.java.dataFlow.Sine_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/2469986354995569196">
+    <file name="Sqrt_DataFlow.java">
+      <node id="2469986354995569274" at="13,60,14,104" concept="0" />
+      <node id="2469986354995569196" at="18,0,19,0" concept="2" trace="expr$B57D" />
+      <node id="2469986354995569196" at="13,0,16,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="2469986354995569198" at="13,60,14,104" />
+      <scope id="2469986354995569196" at="13,0,16,0">
+        <var name="_context" id="2469986354995569196" />
+      </scope>
+      <unit id="2469986354995569196" at="17,0,20,0" name="de.itemis.mps.editor.math.java.dataFlow.Sqrt_DataFlow$LINKS" />
+      <unit id="2469986354995569196" at="12,0,21,0" name="de.itemis.mps.editor.math.java.dataFlow.Sqrt_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/5344065583780940728">
+    <file name="MathLoop_DataFlow.java">
+      <node id="5344065583780976948" at="13,60,14,105" concept="0" />
+      <node id="5344065583781022885" at="14,105,15,224" concept="0" />
+      <node id="5344065583781021675" at="15,224,16,104" concept="0" />
+      <node id="5344065583781020499" at="16,104,17,105" concept="0" />
+      <node id="5344065583781477061" at="17,105,18,224" concept="0" />
+      <node id="5344065583781491743" at="18,224,19,104" concept="0" />
+      <node id="5344065583780940728" at="23,0,24,0" concept="2" trace="lower$HM8v" />
+      <node id="5344065583780940728" at="24,0,25,0" concept="2" trace="body$HGY9" />
+      <node id="5344065583780940728" at="25,0,26,0" concept="2" trace="upper$HMnw" />
+      <node id="5344065583780940728" at="13,0,21,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="5344065583780941203" at="13,60,19,104" />
+      <scope id="5344065583780940728" at="13,0,21,0">
+        <var name="_context" id="5344065583780940728" />
+      </scope>
+      <unit id="5344065583780940728" at="22,0,27,0" name="de.itemis.mps.editor.math.java.dataFlow.MathLoop_DataFlow$LINKS" />
+      <unit id="5344065583780940728" at="12,0,28,0" name="de.itemis.mps.editor.math.java.dataFlow.MathLoop_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:34f0f6e5-c59e-427f-9c85-971468733820(de.itemis.mps.editor.math.java.dataFlow)/5344065583781428474">
+    <file name="MathLoopVarRef_DataFlow.java">
+      <node id="5344065583781428481" at="12,60,13,202" concept="0" />
+      <node id="5344065583781428474" at="17,0,18,0" concept="2" trace="loop$In_$" />
+      <node id="5344065583781428474" at="12,0,15,0" concept="1" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="5344065583781428476" at="12,60,13,202" />
+      <scope id="5344065583781428474" at="12,0,15,0">
+        <var name="_context" id="5344065583781428474" />
+      </scope>
+      <unit id="5344065583781428474" at="16,0,19,0" name="de.itemis.mps.editor.math.java.dataFlow.MathLoopVarRef_DataFlow$LINKS" />
+      <unit id="5344065583781428474" at="11,0,20,0" name="de.itemis.mps.editor.math.java.dataFlow.MathLoopVarRef_DataFlow" />
+    </file>
+  </root>
+</debug-info>
+

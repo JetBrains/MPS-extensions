@@ -7798,6 +7798,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
+        <node concept="1SiIV0" id="i1AnlEUXNI" role="3bR37C">
+          <node concept="3bR9La" id="i1AnlEUXNJ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0C" resolve="collections.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2NyZxKpUQhZ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -19551,6 +19556,72 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="7ZIK4RE_Pm8" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.blutil.sandbox" />
+        <property role="3LESm3" value="c836e6f7-9957-48be-ab4c-a49e51462263" />
+        <node concept="398BVA" id="7ZIK4RE_Pm_" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="7ZIK4RE_Pnr" role="iGT6I">
+            <property role="2Ry0Am" value="blutil" />
+            <node concept="2Ry0Ak" id="7ZIK4RE_Pog" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="7ZIK4RE_Pp5" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.blutil.sandbox" />
+                <node concept="2Ry0Ak" id="7ZIK4RE_PWI" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.blutil.sandbox.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7ZIK4RE_Pqh" role="3bR31x">
+          <node concept="3LXTmp" id="7ZIK4RE_Pqi" role="3rtmxm">
+            <node concept="398BVA" id="7ZIK4RE_Pqj" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ZIK4RE_Pqk" role="iGT6I">
+                <property role="2Ry0Am" value="blutil" />
+                <node concept="2Ry0Ak" id="7ZIK4RE_Pql" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7ZIK4RE_Pqn" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7ZIK4RE_Q1U" role="3bR37C">
+          <node concept="3bR9La" id="7ZIK4RE_Q1V" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="7ZIK4RE_Q2d" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="7ZIK4RE_Q2e" role="1HemKq">
+            <node concept="398BVA" id="7ZIK4RE_Q1W" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ZIK4RE_Q1X" role="iGT6I">
+                <property role="2Ry0Am" value="blutil" />
+                <node concept="2Ry0Ak" id="7ZIK4RE_Q1Y" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="7ZIK4RE_Q1Z" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.blutil.sandbox" />
+                    <node concept="2Ry0Ak" id="7ZIK4RE_Q20" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7ZIK4RE_Q2f" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2G$12M" id="7XTah2ufRUJ" role="3989C9">
       <property role="TrG5h" value="mps-nodeVersioningTest" />
@@ -26454,6 +26525,9 @@
       </node>
       <node concept="L2wRC" id="2NyZxKpXd8z" role="39821P">
         <ref role="L2wRA" node="2NyZxKpX7We" resolve="test.com.mbeddr.mpsutil.blutil.genutil" />
+      </node>
+      <node concept="L2wRC" id="7ZIK4RE_Q_o" role="39821P">
+        <ref role="L2wRA" node="7ZIK4RE_Pm8" resolve="de.itemis.mps.blutil.sandbox" />
       </node>
       <node concept="L2wRC" id="7XTah2ufVqi" role="39821P">
         <ref role="L2wRA" node="7XTah2ufTo1" resolve="de.itemis.mps.nodeversioning.test" />

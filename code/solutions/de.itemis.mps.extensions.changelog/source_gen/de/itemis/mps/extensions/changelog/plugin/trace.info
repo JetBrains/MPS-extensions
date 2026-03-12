@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:1556dea0-2016-4b7e-9a08-05bb6df45155(de.itemis.mps.extensions.changelog.plugin)/801165755129159099">
+    <file name="Changelog_ApplicationPlugin.java">
+      <node id="801165755129159099" at="12,0,13,0" concept="2" trace="myId" />
+      <node id="801165755129159099" at="18,27,19,16" concept="7" />
+      <node id="801165755129159099" at="14,0,16,0" concept="0" trace="Changelog_ApplicationPlugin#()V" />
+      <node id="801165755129159099" at="17,0,21,0" concept="5" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="801165755129159099" at="22,0,26,0" concept="5" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <scope id="801165755129159099" at="14,40,14,40" />
+      <scope id="801165755129159099" at="18,27,19,16" />
+      <scope id="801165755129159099" at="23,66,24,60" />
+      <scope id="801165755129159099" at="14,0,16,0" />
+      <scope id="801165755129159099" at="17,0,21,0" />
+      <scope id="801165755129159099" at="22,0,26,0">
+        <var name="parts" id="801165755129159099" />
+      </scope>
+      <unit id="801165755129159099" at="11,0,27,0" name="de.itemis.mps.extensions.changelog.plugin.Changelog_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:1556dea0-2016-4b7e-9a08-05bb6df45155(de.itemis.mps.extensions.changelog.plugin)/801165755129159100">
+    <file name="Changelog_ApplicationPlugin.java">
+      <node id="801165755129159100" at="23,66,24,60" concept="1" />
+    </file>
+    <file name="dictionaryClassMPSExtensions.java">
+      <node id="801165755129159100" at="20,0,21,0" concept="8" trace="LOG" />
+      <node id="801165755129159100" at="21,0,22,0" concept="2" trace="words" />
+      <node id="801165755129159100" at="25,322,26,52" concept="1" />
+      <node id="801165755129159100" at="29,31,30,50" concept="1" />
+      <node id="801165755129159100" at="35,62,36,62" concept="6" />
+      <node id="801165755129159100" at="36,62,37,80" concept="6" />
+      <node id="801165755129159100" at="37,80,38,38" concept="6" />
+      <node id="801165755129159100" at="38,38,39,36" concept="6" />
+      <node id="801165755129159100" at="39,36,40,29" concept="6" />
+      <node id="801165755129159100" at="41,9,42,51" concept="1" />
+      <node id="801165755129159100" at="42,51,43,58" concept="1" />
+      <node id="801165755129159100" at="43,58,44,38" concept="1" />
+      <node id="801165755129159100" at="44,38,45,49" concept="6" />
+      <node id="801165755129159100" at="45,49,46,18" concept="6" />
+      <node id="801165755129159100" at="47,46,48,41" concept="1" />
+      <node id="801165755129159100" at="49,7,50,50" concept="7" />
+      <node id="801165755129159100" at="52,23,53,19" concept="1" />
+      <node id="801165755129159100" at="55,27,56,23" concept="1" />
+      <node id="801165755129159100" at="58,31,59,27" concept="1" />
+      <node id="801165755129159100" at="66,27,67,28" concept="7" />
+      <node id="801165755129159100" at="72,49,73,53" concept="7" />
+      <node id="801165755129159100" at="78,33,79,17" concept="7" />
+      <node id="801165755129159100" at="24,9,27,7" concept="3" />
+      <node id="801165755129159100" at="28,29,31,7" concept="4" />
+      <node id="801165755129159100" at="46,18,49,7" concept="10" />
+      <node id="801165755129159100" at="51,15,54,7" concept="4" />
+      <node id="801165755129159100" at="54,7,57,7" concept="4" />
+      <node id="801165755129159100" at="57,7,60,7" concept="4" />
+      <node id="801165755129159100" at="64,0,69,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="801165755129159100" at="70,0,75,0" concept="5" trace="contains#(Ljava/lang/String;)Ljava/lang/Boolean;" />
+      <node id="801165755129159100" at="76,0,81,0" concept="5" trace="getWords#()Ljava/util/Set;" />
+      <node id="801165755129159100" at="23,41,32,5" concept="9" />
+      <node id="801165755129159100" at="23,0,34,0" concept="0" trace="dictionaryClassMPSExtensions#()V" />
+      <node id="801165755129159100" at="40,29,61,5" concept="9" />
+      <node id="801165755129159100" at="35,0,63,0" concept="5" trace="decompress#(Ljava/lang/String;)[Ljava/lang/String;" />
+      <scope id="801165755129159100" at="25,322,26,52" />
+      <scope id="801165755129159100" at="29,31,30,50" />
+      <scope id="801165755129159100" at="47,46,48,41" />
+      <scope id="801165755129159100" at="52,23,53,19" />
+      <scope id="801165755129159100" at="55,27,56,23" />
+      <scope id="801165755129159100" at="58,31,59,27" />
+      <scope id="801165755129159100" at="66,27,67,28" />
+      <scope id="801165755129159100" at="72,49,73,53" />
+      <scope id="801165755129159100" at="78,33,79,17" />
+      <scope id="801165755129159100" at="24,9,27,7" />
+      <scope id="801165755129159100" at="24,9,27,7">
+        <var name="word" id="801165755129159100" />
+      </scope>
+      <scope id="801165755129159100" at="28,29,31,7" />
+      <scope id="801165755129159100" at="28,5,32,5">
+        <var name="e" id="801165755129159100" />
+      </scope>
+      <scope id="801165755129159100" at="64,0,69,0" />
+      <scope id="801165755129159100" at="70,0,75,0">
+        <var name="word" id="801165755129159100" />
+      </scope>
+      <scope id="801165755129159100" at="76,0,81,0" />
+      <scope id="801165755129159100" at="23,41,32,5" />
+      <scope id="801165755129159100" at="41,9,50,50">
+        <var name="line" id="801165755129159100" />
+        <var name="outStr" id="801165755129159100" />
+      </scope>
+      <scope id="801165755129159100" at="51,15,60,7" />
+      <scope id="801165755129159100" at="23,0,34,0" />
+      <scope id="801165755129159100" at="35,62,61,5">
+        <var name="byteStream" id="801165755129159100" />
+        <var name="compressedBytes" id="801165755129159100" />
+        <var name="gzipStream" id="801165755129159100" />
+        <var name="in" id="801165755129159100" />
+        <var name="reader" id="801165755129159100" />
+      </scope>
+      <scope id="801165755129159100" at="35,0,63,0">
+        <var name="data" id="801165755129159100" />
+      </scope>
+      <unit id="801165755129159100" at="19,0,83,0" name="de.itemis.mps.extensions.changelog.plugin.dictionaryClassMPSExtensions" />
+    </file>
+    <file name="dictionaryMPSExtensions1_AppPluginPart.java">
+      <node id="801165755129159100" at="13,43,14,66" concept="7" />
+      <node id="801165755129159100" at="20,22,21,147" concept="1" />
+      <node id="801165755129159100" at="24,25,25,123" concept="1" />
+      <node id="801165755129159100" at="17,0,19,0" concept="0" trace="dictionaryMPSExtensions1_AppPluginPart#()V" />
+      <node id="801165755129159100" at="12,0,16,0" concept="5" trace="getDictionaries#()[Lcom/intellij/spellchecker/dictionary/Dictionary;" />
+      <node id="801165755129159100" at="19,0,23,0" concept="5" trace="init#()V" />
+      <node id="801165755129159100" at="23,0,27,0" concept="5" trace="dispose#()V" />
+      <node id="801165755129159100" at="11,0,17,0" concept="2" trace="provider" />
+      <scope id="801165755129159100" at="17,51,17,51" />
+      <scope id="801165755129159100" at="13,43,14,66" />
+      <scope id="801165755129159100" at="20,22,21,147" />
+      <scope id="801165755129159100" at="24,25,25,123" />
+      <scope id="801165755129159100" at="17,0,19,0" />
+      <scope id="801165755129159100" at="12,0,16,0" />
+      <scope id="801165755129159100" at="19,0,23,0" />
+      <scope id="801165755129159100" at="23,0,27,0" />
+      <unit id="801165755129159100" at="11,51,16,3" name="de.itemis.mps.extensions.changelog.plugin.dictionaryMPSExtensions1_AppPluginPart$1" />
+      <unit id="801165755129159100" at="10,0,28,0" name="de.itemis.mps.extensions.changelog.plugin.dictionaryMPSExtensions1_AppPluginPart" />
+    </file>
+  </root>
+</debug-info>
+

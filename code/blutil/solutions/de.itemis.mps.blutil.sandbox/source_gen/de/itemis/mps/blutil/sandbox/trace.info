@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="StringUtils.java">
+      <unit at="6,0,38,0" name="de.itemis.mps.blutil.sandbox.StringUtils" />
+    </file>
+  </root>
+  <root nodeRef="r:073746fc-b67a-4687-b4c7-2f827e777a41(de.itemis.mps.blutil.sandbox)/578371460444598923">
+    <file name="ElvisOperationSandbox.java">
+      <node id="578371460444599441" at="9,30,10,64" concept="1" />
+      <node id="578371460444623260" at="10,64,11,31" concept="0" />
+      <node id="2740704397636188204" at="11,31,12,59" concept="1" />
+      <node id="2740704397636189010" at="12,59,13,26" concept="0" />
+      <node id="2740704397636296831" at="13,26,14,47" concept="1" />
+      <node id="2740704397638357383" at="14,47,15,26" concept="0" />
+      <node id="2740704397639654238" at="15,26,16,67" concept="1" />
+      <node id="2740704397639673709" at="16,67,17,34" concept="0" />
+      <node id="578371460444599625" at="9,0,19,0" concept="4" trace="usage#()V" />
+      <scope id="578371460444599628" at="9,30,17,34">
+        <var name="different" id="2740704397639654239" />
+        <var name="i" id="2740704397636188205" />
+        <var name="j" id="2740704397636296832" />
+        <var name="result" id="578371460444599442" />
+      </scope>
+      <scope id="578371460444599625" at="9,0,19,0" />
+      <unit id="578371460444598923" at="8,0,20,0" name="de.itemis.mps.blutil.sandbox.ElvisOperationSandbox" />
+    </file>
+  </root>
+  <root nodeRef="r:073746fc-b67a-4687-b4c7-2f827e777a41(de.itemis.mps.blutil.sandbox)/5842252078326873018">
+    <file name="GroupByOperationSandbox.java">
+      <node id="5842252078326888741" at="14,30,15,158" concept="1" />
+      <node id="5842252078329378374" at="15,158,16,110" concept="1" />
+      <node id="5842252078329382121" at="16,110,17,62" concept="0" />
+      <node id="5842252078331128188" at="17,62,18,144" concept="1" />
+      <node id="5842252078331132128" at="18,144,19,63" concept="0" />
+      <node id="5842252078331550172" at="19,63,20,66" concept="0" />
+      <node id="5842252078326888645" at="14,0,22,0" concept="4" trace="usage#()V" />
+      <scope id="5842252078326888648" at="14,30,20,66">
+        <var name="byLength" id="5842252078329378375" />
+        <var name="isVowel" id="5842252078331128189" />
+        <var name="numbers" id="5842252078326888744" />
+      </scope>
+      <scope id="5842252078326888645" at="14,0,22,0" />
+      <unit id="5842252078326873018" at="13,0,23,0" name="de.itemis.mps.blutil.sandbox.GroupByOperationSandbox" />
+    </file>
+  </root>
+  <root nodeRef="r:073746fc-b67a-4687-b4c7-2f827e777a41(de.itemis.mps.blutil.sandbox)/7488777117046389759">
+    <file name="IntegerSequenceSandbox.java">
+      <node id="7488777117046758409" at="9,31,10,22" concept="2" />
+      <node id="7488777117046755246" at="10,22,11,79" concept="0" />
+      <node id="7488777117046757864" at="11,79,12,53" concept="2" />
+      <node id="7488777117046758489" at="12,53,13,0" concept="3" />
+      <node id="7488777117046758688" at="13,0,14,21" concept="2" />
+      <node id="7488777117046755881" at="14,21,15,85" concept="0" />
+      <node id="7488777117046758044" at="15,85,16,56" concept="2" />
+      <node id="7488777117046758785" at="16,56,17,0" concept="3" />
+      <node id="7488777117046758949" at="17,0,18,24" concept="2" />
+      <node id="7488777117046756858" at="18,24,19,82" concept="0" />
+      <node id="7488777117046758227" at="19,82,20,28" concept="2" />
+      <node id="7488777117046775663" at="20,28,21,0" concept="3" />
+      <node id="7488777117046776105" at="21,0,22,65" concept="1" />
+      <node id="7488777117046777124" at="22,65,23,67" concept="1" />
+      <node id="7488777117046780945" at="23,67,24,70" concept="1" />
+      <node id="7488777117046816522" at="24,70,25,0" concept="3" />
+      <node id="7488777117046786832" at="25,0,26,42" concept="2" />
+      <node id="7488777117046882314" at="26,42,27,72" concept="1" />
+      <node id="7488777117046785751" at="27,72,28,158" concept="1" />
+      <node id="7488777117046406068" at="9,0,30,0" concept="4" trace="usages#()V" />
+      <scope id="7488777117046406071" at="9,31,28,158">
+        <var name="from0To100" id="7488777117046776106" />
+        <var name="from10ToInfinite" id="7488777117046777125" />
+        <var name="from6to16" id="7488777117046780946" />
+        <var name="invalidRangeDynamic" id="7488777117046785752" />
+        <var name="invalidRangeStatic" id="7488777117046882315" />
+      </scope>
+      <scope id="7488777117046406068" at="9,0,30,0" />
+      <unit id="7488777117046389759" at="8,0,31,0" name="de.itemis.mps.blutil.sandbox.IntegerSequenceSandbox" />
+    </file>
+  </root>
+  <root nodeRef="r:073746fc-b67a-4687-b4c7-2f827e777a41(de.itemis.mps.blutil.sandbox)/7488777117048729356">
+    <file name="ZipOperationSandbox.java">
+      <node id="7488777117048805927" at="13,31,14,221" concept="1" />
+      <node id="7488777117048823797" at="14,221,15,113" concept="0" />
+      <node id="7488777117048875580" at="15,113,16,0" concept="3" />
+      <node id="7488777117048874201" at="16,0,17,218" concept="1" />
+      <node id="7488777117048875124" at="17,218,18,113" concept="0" />
+      <node id="7488777117048878631" at="18,113,19,0" concept="3" />
+      <node id="7488777117048877948" at="19,0,20,140" concept="1" />
+      <node id="7488777117048877927" at="20,140,21,108" concept="0" />
+      <node id="7488777117048729465" at="13,0,23,0" concept="4" trace="usages#()V" />
+      <scope id="7488777117048729468" at="13,31,21,108">
+        <var name="firstShorter" id="7488777117048874202" />
+        <var name="numAndLabels" id="7488777117048805928" />
+        <var name="oneNull" id="7488777117048877949" />
+      </scope>
+      <scope id="7488777117048729465" at="13,0,23,0" />
+      <unit id="7488777117048729356" at="12,0,24,0" name="de.itemis.mps.blutil.sandbox.ZipOperationSandbox" />
+    </file>
+  </root>
+  <root nodeRef="r:073746fc-b67a-4687-b4c7-2f827e777a41(de.itemis.mps.blutil.sandbox)/8919968723020462854">
+    <file name="WithIndexOperationSandbox.java">
+      <node id="8919968723020499022" at="11,31,12,119" concept="1" />
+      <node id="8919968723020527039" at="12,119,13,0" concept="3" />
+      <node id="8919968723020523478" at="13,0,14,140" concept="1" />
+      <node id="8919968723020525424" at="14,140,15,38" concept="0" />
+      <node id="8919968723020526777" at="15,38,16,0" concept="3" />
+      <node id="8919968723020495971" at="16,0,17,134" concept="1" />
+      <node id="8919968723020497804" at="17,134,18,36" concept="0" />
+      <node id="8919968723020529215" at="18,36,19,0" concept="3" />
+      <node id="8919968723020529749" at="19,0,20,154" concept="0" />
+      <node id="8919968723020466206" at="11,0,22,0" concept="4" trace="usages#()V" />
+      <scope id="8919968723020466209" at="11,31,20,154">
+        <var name="indexAsPrefix" id="8919968723020523479" />
+        <var name="numsAsStrings" id="8919968723020499023" />
+        <var name="onlyEvenIdx" id="8919968723020495972" />
+      </scope>
+      <scope id="8919968723020466206" at="11,0,22,0" />
+      <unit id="8919968723020462854" at="10,0,23,0" name="de.itemis.mps.blutil.sandbox.WithIndexOperationSandbox" />
+    </file>
+  </root>
+</debug-info>
+

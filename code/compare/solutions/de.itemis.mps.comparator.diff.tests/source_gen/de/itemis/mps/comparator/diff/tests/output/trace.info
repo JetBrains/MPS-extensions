@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:4a7fb26c-4f82-4577-a6af-3c215b3b7f66(de.itemis.mps.comparator.diff.tests.output)/1204588723499480478">
+    <file name="TestClass.java">
+      <node id="1204588723499480485" at="7,42,8,23" concept="2" />
+      <node id="1204588723499480489" at="8,23,9,50" concept="0" />
+      <node id="1204588723499480506" at="12,36,13,42" concept="3" />
+      <node id="1204588723499480510" at="14,5,15,16" concept="3" />
+      <node id="1204588723499480501" at="11,71,14,5" concept="1" />
+      <node id="1204588723499480480" at="7,0,11,0" concept="4" trace="main#([Ljava/lang/String;)V" />
+      <node id="1204588723499480497" at="11,0,17,0" concept="4" trace="check_6lh81f_a0a1a0#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="1204588723499480505" at="12,36,13,42" />
+      <scope id="1204588723499480484" at="7,42,9,50">
+        <var name="test" id="1204588723499480486" />
+      </scope>
+      <scope id="1204588723499480480" at="7,0,11,0">
+        <var name="args" id="1204588723499480481" />
+      </scope>
+      <scope id="1204588723499480500" at="11,71,15,16" />
+      <scope id="1204588723499480497" at="11,0,17,0">
+        <var name="checkedDotOperand" id="1204588723499480498" />
+      </scope>
+      <unit id="1204588723499480478" at="6,0,18,0" name="de.itemis.mps.comparator.diff.tests.output.TestClass" />
+    </file>
+  </root>
+  <root nodeRef="r:4a7fb26c-4f82-4577-a6af-3c215b3b7f66(de.itemis.mps.comparator.diff.tests.output)/522647742342200176">
+    <file name="TestClass2.java">
+      <node id="522647742342200184" at="7,42,8,23" concept="2" />
+      <node id="522647742342200187" at="8,23,9,50" concept="0" />
+      <node id="522647742342200203" at="12,36,13,42" concept="3" />
+      <node id="522647742342200205" at="14,5,15,16" concept="3" />
+      <node id="522647742342200197" at="11,71,14,5" concept="1" />
+      <node id="522647742342200178" at="7,0,11,0" concept="4" trace="main#([Ljava/lang/String;)V" />
+      <node id="522647742342200193" at="11,0,17,0" concept="4" trace="check_qx1sau_a0a1a0#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="522647742342200202" at="12,36,13,42" />
+      <scope id="522647742342200182" at="7,42,9,50">
+        <var name="test" id="522647742342200183" />
+      </scope>
+      <scope id="522647742342200178" at="7,0,11,0">
+        <var name="args" id="522647742342200179" />
+      </scope>
+      <scope id="522647742342200196" at="11,71,15,16" />
+      <scope id="522647742342200193" at="11,0,17,0">
+        <var name="checkedDotOperand" id="522647742342200194" />
+      </scope>
+      <unit id="522647742342200176" at="6,0,18,0" name="de.itemis.mps.comparator.diff.tests.output.TestClass2" />
+    </file>
+  </root>
+</debug-info>
+

@@ -48,7 +48,7 @@
       <unit at="25,0,69,0" name="com.mbeddr.mpsutil.blutil.editor.DisptachMatch_SubstituteMenu" />
     </file>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="25,0,413,0" name="com.mbeddr.mpsutil.blutil.editor.EditorAspectDescriptorImpl" />
+      <unit at="25,0,429,0" name="com.mbeddr.mpsutil.blutil.editor.EditorAspectDescriptorImpl" />
     </file>
     <file name="GrammarActionsDescriptor.java">
       <unit at="329,0,336,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarActionsDescriptor$LINKS" />
@@ -145,6 +145,11 @@
       <unit at="34,0,44,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_DisptachMatch$GrammarCellsSubstituteMenuPart_gmq97u_a" />
       <unit at="22,0,49,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_DisptachMatch" />
     </file>
+    <file name="GrammarCellsSubstituteMenu_ElvisOperation.java">
+      <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ElvisOperation$CONCEPTS" />
+      <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ElvisOperation$GrammarCellsSubstituteMenuPart_q4jcfp_a" />
+      <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ElvisOperation" />
+    </file>
     <file name="GrammarCellsSubstituteMenu_EqualsNodeCriterion.java">
       <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_EqualsNodeCriterion$CONCEPTS" />
       <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_EqualsNodeCriterion$GrammarCellsSubstituteMenuPart_jdotoy_a" />
@@ -160,6 +165,11 @@
       <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_FilterOperation$GrammarCellsSubstituteMenuPart_jm1lp5_a" />
       <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_FilterOperation" />
     </file>
+    <file name="GrammarCellsSubstituteMenu_ForEachWithIndexOperation.java">
+      <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ForEachWithIndexOperation$CONCEPTS" />
+      <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ForEachWithIndexOperation$GrammarCellsSubstituteMenuPart_juimys_a" />
+      <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ForEachWithIndexOperation" />
+    </file>
     <file name="GrammarCellsSubstituteMenu_GridConstraintsNextColumOperation.java">
       <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_GridConstraintsNextColumOperation$CONCEPTS" />
       <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_GridConstraintsNextColumOperation$GrammarCellsSubstituteMenuPart_alo7f_a" />
@@ -174,6 +184,11 @@
       <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_GridConstraintsOperation$CONCEPTS" />
       <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_GridConstraintsOperation$GrammarCellsSubstituteMenuPart_j1cb6x_a" />
       <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_GridConstraintsOperation" />
+    </file>
+    <file name="GrammarCellsSubstituteMenu_GroupByOperation.java">
+      <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_GroupByOperation$CONCEPTS" />
+      <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_GroupByOperation$GrammarCellsSubstituteMenuPart_3smie_a" />
+      <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_GroupByOperation" />
     </file>
     <file name="GrammarCellsSubstituteMenu_GroupRegexp.java">
       <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_GroupRegexp$CONCEPTS" />
@@ -229,6 +244,11 @@
       <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_IndependentNonCapturingGroup$CONCEPTS" />
       <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_IndependentNonCapturingGroup$GrammarCellsSubstituteMenuPart_nkd4yd_a" />
       <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_IndependentNonCapturingGroup" />
+    </file>
+    <file name="GrammarCellsSubstituteMenu_IntegerRange.java">
+      <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_IntegerRange$CONCEPTS" />
+      <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_IntegerRange$GrammarCellsSubstituteMenuPart_jy6l7h_a" />
+      <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_IntegerRange" />
     </file>
     <file name="GrammarCellsSubstituteMenu_IsConceptCriterion.java">
       <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_IsConceptCriterion$CONCEPTS" />
@@ -350,6 +370,11 @@
       <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_SafeWriteAction$GrammarCellsSubstituteMenuPart_84gabq_a" />
       <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_SafeWriteAction" />
     </file>
+    <file name="GrammarCellsSubstituteMenu_SelectWithIndexOperation.java">
+      <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_SelectWithIndexOperation$CONCEPTS" />
+      <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_SelectWithIndexOperation$GrammarCellsSubstituteMenuPart_324561_a" />
+      <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_SelectWithIndexOperation" />
+    </file>
     <file name="GrammarCellsSubstituteMenu_ShortStaticMethodCall.java">
       <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ShortStaticMethodCall$CONCEPTS" />
       <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ShortStaticMethodCall$GrammarCellsSubstituteMenuPart_3shqie_a" />
@@ -439,6 +464,16 @@
       <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_UnicodeByNameRegex$CONCEPTS" />
       <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_UnicodeByNameRegex$GrammarCellsSubstituteMenuPart_41nkvm_a" />
       <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_UnicodeByNameRegex" />
+    </file>
+    <file name="GrammarCellsSubstituteMenu_WhereWithIndexOperation.java">
+      <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_WhereWithIndexOperation$CONCEPTS" />
+      <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_WhereWithIndexOperation$GrammarCellsSubstituteMenuPart_b4g34z_a" />
+      <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_WhereWithIndexOperation" />
+    </file>
+    <file name="GrammarCellsSubstituteMenu_ZipOperation.java">
+      <unit at="44,0,47,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ZipOperation$CONCEPTS" />
+      <unit at="33,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ZipOperation$GrammarCellsSubstituteMenuPart_9a027l_a" />
+      <unit at="21,0,48,0" name="com.mbeddr.mpsutil.blutil.editor.GrammarCellsSubstituteMenu_ZipOperation" />
     </file>
     <file name="IncludeBeforeAfterTransformations.java">
       <unit at="35,0,43,0" name="com.mbeddr.mpsutil.blutil.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a0" />
@@ -1511,14 +1546,14 @@
       <unit id="2531002643688017326" at="26,0,92,0" name="com.mbeddr.mpsutil.blutil.editor.CallRecursivelyExpression_ApplySideTransforms" />
     </file>
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="2531002643688017326" at="193,98,194,114" concept="11" />
-      <scope id="2531002643688017326" at="193,98,194,114" />
+      <node id="2531002643688017326" at="195,98,196,114" concept="11" />
+      <scope id="2531002643688017326" at="195,98,196,114" />
     </file>
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:7b6c196f-8133-489b-a5b2-6ed29b884e93(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.editor)/2531002643688017344">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="2531002643688017344" at="202,104,203,120" concept="11" />
-      <scope id="2531002643688017344" at="202,104,203,120" />
+      <node id="2531002643688017344" at="204,104,205,120" concept="11" />
+      <scope id="2531002643688017344" at="204,104,205,120" />
     </file>
     <file name="TypeSwitchCaseMappingMethodCall_ApplySideTransforms.java">
       <node id="2531002643688017344" at="29,64,30,401" concept="16" />
@@ -4043,8 +4078,8 @@
       <unit id="4432183239163075745" at="29,0,94,0" name="com.mbeddr.mpsutil.blutil.editor.ChildRefExpr_SmartReference" />
     </file>
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="4432183239163075745" at="384,80,385,92" concept="11" />
-      <scope id="4432183239163075745" at="384,80,385,92" />
+      <node id="4432183239163075745" at="400,80,401,92" concept="11" />
+      <scope id="4432183239163075745" at="400,80,401,92" />
     </file>
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:7b6c196f-8133-489b-a5b2-6ed29b884e93(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.editor)/4432183239163075747">
@@ -9501,6 +9536,237 @@
       <unit id="734120071946422049" at="129,0,132,0" name="com.mbeddr.mpsutil.blutil.editor.ExpressionChildValue_EditorBuilder_a$LINKS" />
       <unit id="734120071946422049" at="68,0,119,0" name="com.mbeddr.mpsutil.blutil.editor.ExpressionChildValue_EditorBuilder_a$exprSingleRoleHandler_ckj45b_b0" />
       <unit id="734120071946422049" at="26,0,133,0" name="com.mbeddr.mpsutil.blutil.editor.ExpressionChildValue_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:7b6c196f-8133-489b-a5b2-6ed29b884e93(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.editor)/7488777117046352360">
+    <file name="IntegerRange_Editor.java">
+      <node id="7488777117046352360" at="11,79,12,78" concept="11" />
+      <node id="7488777117046352360" at="11,0,14,0" concept="9" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7488777117046352360" at="11,79,12,78" />
+      <scope id="7488777117046352360" at="11,0,14,0">
+        <var name="editorContext" id="7488777117046352360" />
+        <var name="node" id="7488777117046352360" />
+      </scope>
+      <unit id="7488777117046352360" at="10,0,15,0" name="com.mbeddr.mpsutil.blutil.editor.IntegerRange_Editor" />
+    </file>
+    <file name="IntegerRange_EditorBuilder_a.java">
+      <node id="7488777117046352360" at="33,92,34,19" concept="16" />
+      <node id="7488777117046352360" at="34,19,35,18" concept="4" />
+      <node id="7488777117046352360" at="40,26,41,18" concept="11" />
+      <node id="7488777117046352360" at="44,39,45,32" concept="11" />
+      <node id="7488777117046352360" at="48,43,49,118" concept="10" />
+      <node id="7488777117046352360" at="49,118,50,48" concept="4" />
+      <node id="7488777117046352360" at="50,48,51,28" concept="4" />
+      <node id="7488777117046352360" at="51,28,52,31" concept="4" />
+      <node id="7488777117046352366" at="52,31,53,49" concept="4" />
+      <node id="7488777117046352374" at="53,49,54,48" concept="4" />
+      <node id="7488777117046352377" at="54,48,55,49" concept="4" />
+      <node id="7488777117046352382" at="55,49,56,48" concept="4" />
+      <node id="7488777117046352369" at="56,48,57,49" concept="4" />
+      <node id="7488777117046352360" at="57,49,58,22" concept="11" />
+      <node id="7488777117046352366" at="60,41,61,94" concept="10" />
+      <node id="7488777117046352366" at="61,94,62,47" concept="4" />
+      <node id="7488777117046352366" at="62,47,63,34" concept="10" />
+      <node id="7488777117046352366" at="63,34,64,59" concept="4" />
+      <node id="7488777117046352366" at="64,59,65,40" concept="4" />
+      <node id="7488777117046352366" at="65,40,66,34" concept="4" />
+      <node id="7488777117046352366" at="66,34,67,22" concept="11" />
+      <node id="7488777117046352360" at="69,40,70,131" concept="10" />
+      <node id="7488777117046352360" at="70,131,71,33" concept="11" />
+      <node id="7488777117046352360" at="77,124,78,38" concept="16" />
+      <node id="7488777117046352360" at="78,38,79,25" concept="4" />
+      <node id="7488777117046352360" at="84,28,85,20" concept="11" />
+      <node id="7488777117046352360" at="88,55,89,76" concept="10" />
+      <node id="7488777117046352360" at="89,76,90,119" concept="4" />
+      <node id="7488777117046352360" at="90,119,91,122" concept="4" />
+      <node id="7488777117046352360" at="91,122,92,48" concept="4" />
+      <node id="7488777117046352360" at="92,48,93,24" concept="11" />
+      <node id="7488777117046352360" at="99,118,100,137" concept="4" />
+      <node id="7488777117046352360" at="102,42,103,51" concept="4" />
+      <node id="7488777117046352360" at="107,44,108,41" concept="4" />
+      <node id="7488777117046352360" at="108,41,109,110" concept="4" />
+      <node id="7488777117046352360" at="110,11,111,56" concept="10" />
+      <node id="7488777117046352360" at="111,56,112,49" concept="4" />
+      <node id="7488777117046352360" at="112,49,113,48" concept="4" />
+      <node id="7488777117046352360" at="113,48,114,35" concept="4" />
+      <node id="7488777117046352360" at="114,35,115,26" concept="11" />
+      <node id="7488777117046352360" at="116,17,117,42" concept="4" />
+      <node id="7488777117046352360" at="120,40,121,31" concept="11" />
+      <node id="7488777117046352377" at="124,41,125,95" concept="10" />
+      <node id="7488777117046352377" at="125,95,126,47" concept="4" />
+      <node id="7488777117046352377" at="126,47,127,34" concept="10" />
+      <node id="7488777117046352377" at="127,34,128,53" concept="4" />
+      <node id="7488777117046352377" at="128,53,129,40" concept="4" />
+      <node id="7488777117046352377" at="129,40,130,34" concept="4" />
+      <node id="7488777117046352377" at="130,34,131,22" concept="11" />
+      <node id="7488777117046352360" at="133,40,134,131" concept="10" />
+      <node id="7488777117046352360" at="134,131,135,33" concept="11" />
+      <node id="7488777117046352360" at="141,124,142,38" concept="16" />
+      <node id="7488777117046352360" at="142,38,143,25" concept="4" />
+      <node id="7488777117046352360" at="148,28,149,20" concept="11" />
+      <node id="7488777117046352360" at="152,55,153,76" concept="10" />
+      <node id="7488777117046352360" at="153,76,154,119" concept="4" />
+      <node id="7488777117046352360" at="154,119,155,122" concept="4" />
+      <node id="7488777117046352360" at="155,122,156,48" concept="4" />
+      <node id="7488777117046352360" at="156,48,157,24" concept="11" />
+      <node id="7488777117046352360" at="163,118,164,137" concept="4" />
+      <node id="7488777117046352360" at="166,42,167,51" concept="4" />
+      <node id="7488777117046352360" at="171,44,172,41" concept="4" />
+      <node id="7488777117046352360" at="172,41,173,110" concept="4" />
+      <node id="7488777117046352360" at="174,11,175,51" concept="10" />
+      <node id="7488777117046352360" at="175,51,176,48" concept="4" />
+      <node id="7488777117046352360" at="176,48,177,35" concept="4" />
+      <node id="7488777117046352360" at="177,35,178,26" concept="11" />
+      <node id="7488777117046352360" at="179,17,180,42" concept="4" />
+      <node id="7488777117046421565" at="183,43,184,98" concept="10" />
+      <node id="7488777117046421565" at="184,98,185,50" concept="4" />
+      <node id="7488777117046421565" at="185,50,186,36" concept="10" />
+      <node id="7488777117046421565" at="186,36,187,63" concept="4" />
+      <node id="7488777117046421565" at="187,63,188,42" concept="4" />
+      <node id="7488777117046421565" at="188,42,189,36" concept="4" />
+      <node id="7488777117046421565" at="189,36,190,24" concept="11" />
+      <node id="7488777117046352369" at="193,41,194,94" concept="10" />
+      <node id="7488777117046352369" at="194,94,195,47" concept="4" />
+      <node id="7488777117046352369" at="195,47,196,34" concept="10" />
+      <node id="7488777117046352369" at="196,34,197,60" concept="4" />
+      <node id="7488777117046352369" at="197,60,198,40" concept="4" />
+      <node id="7488777117046352369" at="198,40,199,34" concept="4" />
+      <node id="7488777117046352369" at="199,34,200,22" concept="11" />
+      <node id="7488777117046352360" at="204,0,205,0" concept="14" trace="lowerBound$wCm5" />
+      <node id="7488777117046352360" at="205,0,206,0" concept="14" trace="upperBound$wC_6" />
+      <node id="7488777117046352360" at="30,0,32,0" concept="5" trace="myNode" />
+      <node id="7488777117046352360" at="74,0,76,0" concept="5" trace="myNode" />
+      <node id="7488777117046352360" at="138,0,140,0" concept="5" trace="myNode" />
+      <node id="7488777117046352360" at="44,0,47,0" concept="9" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352360" at="98,87,101,7" concept="8" />
+      <node id="7488777117046352360" at="101,7,104,7" concept="8" />
+      <node id="7488777117046352360" at="120,0,123,0" concept="9" trace="getNoTargetText#()Ljava/lang/String;" />
+      <node id="7488777117046352360" at="162,87,165,7" concept="8" />
+      <node id="7488777117046352360" at="165,7,168,7" concept="8" />
+      <node id="7488777117046352360" at="33,0,37,0" concept="2" trace="IntegerRange_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7488777117046352360" at="69,0,73,0" concept="9" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352360" at="77,0,81,0" concept="2" trace="lowerBoundSingleRoleHandler_pzdcw6_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="7488777117046352360" at="133,0,137,0" concept="9" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352360" at="141,0,145,0" concept="2" trace="upperBoundSingleRoleHandler_pzdcw6_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="7488777117046352360" at="38,0,43,0" concept="9" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7488777117046352360" at="82,0,87,0" concept="9" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7488777117046352360" at="146,0,151,0" concept="9" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7488777117046352360" at="88,0,95,0" concept="9" trace="createChildCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352360" at="152,0,159,0" concept="9" trace="createChildCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352360" at="98,0,106,0" concept="9" trace="installCellInfo#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)V" />
+      <node id="7488777117046352360" at="162,0,170,0" concept="9" trace="installCellInfo#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)V" />
+      <node id="7488777117046352360" at="173,110,181,7" concept="17" />
+      <node id="7488777117046352366" at="60,0,69,0" concept="9" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352360" at="109,110,118,7" concept="17" />
+      <node id="7488777117046352377" at="124,0,133,0" concept="9" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046421565" at="183,0,192,0" concept="9" trace="createConstant_2#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352369" at="193,0,202,0" concept="9" trace="createConstant_3#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352360" at="48,0,60,0" concept="9" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352360" at="170,0,183,0" concept="9" trace="createEmptyCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="7488777117046352360" at="106,0,120,0" concept="9" trace="createEmptyCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="7488777117046352360" at="40,26,41,18" />
+      <scope id="7488777117046352360" at="44,39,45,32" />
+      <scope id="7488777117046352360" at="84,28,85,20" />
+      <scope id="7488777117046352360" at="99,118,100,137" />
+      <scope id="7488777117046352360" at="102,42,103,51" />
+      <scope id="7488777117046352360" at="116,17,117,42" />
+      <scope id="7488777117046352360" at="120,40,121,31" />
+      <scope id="7488777117046352360" at="148,28,149,20" />
+      <scope id="7488777117046352360" at="163,118,164,137" />
+      <scope id="7488777117046352360" at="166,42,167,51" />
+      <scope id="7488777117046352360" at="179,17,180,42" />
+      <scope id="7488777117046352360" at="33,92,35,18" />
+      <scope id="7488777117046352360" at="69,40,71,33">
+        <var name="provider" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="77,124,79,25" />
+      <scope id="7488777117046352360" at="133,40,135,33">
+        <var name="provider" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="141,124,143,25" />
+      <scope id="7488777117046352360" at="44,0,47,0" />
+      <scope id="7488777117046352360" at="120,0,123,0" />
+      <scope id="7488777117046352360" at="33,0,37,0">
+        <var name="context" id="7488777117046352360" />
+        <var name="node" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="69,0,73,0" />
+      <scope id="7488777117046352360" at="77,0,81,0">
+        <var name="containmentLink" id="7488777117046352360" />
+        <var name="context" id="7488777117046352360" />
+        <var name="ownerNode" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="133,0,137,0" />
+      <scope id="7488777117046352360" at="141,0,145,0">
+        <var name="containmentLink" id="7488777117046352360" />
+        <var name="context" id="7488777117046352360" />
+        <var name="ownerNode" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="174,11,178,26">
+        <var name="editorCell" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="38,0,43,0" />
+      <scope id="7488777117046352360" at="82,0,87,0" />
+      <scope id="7488777117046352360" at="88,55,93,24">
+        <var name="editorCell" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="110,11,115,26">
+        <var name="editorCell" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="146,0,151,0" />
+      <scope id="7488777117046352360" at="152,55,157,24">
+        <var name="editorCell" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="98,87,104,7" />
+      <scope id="7488777117046352360" at="162,87,168,7" />
+      <scope id="7488777117046352366" at="60,41,67,22">
+        <var name="editorCell" id="7488777117046352366" />
+        <var name="style" id="7488777117046352366" />
+      </scope>
+      <scope id="7488777117046352360" at="88,0,95,0">
+        <var name="child" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352377" at="124,41,131,22">
+        <var name="editorCell" id="7488777117046352377" />
+        <var name="style" id="7488777117046352377" />
+      </scope>
+      <scope id="7488777117046352360" at="152,0,159,0">
+        <var name="child" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046421565" at="183,43,190,24">
+        <var name="editorCell" id="7488777117046421565" />
+        <var name="style" id="7488777117046421565" />
+      </scope>
+      <scope id="7488777117046352369" at="193,41,200,22">
+        <var name="editorCell" id="7488777117046352369" />
+        <var name="style" id="7488777117046352369" />
+      </scope>
+      <scope id="7488777117046352360" at="98,0,106,0">
+        <var name="child" id="7488777117046352360" />
+        <var name="editorCell" id="7488777117046352360" />
+        <var name="isEmpty" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="162,0,170,0">
+        <var name="child" id="7488777117046352360" />
+        <var name="editorCell" id="7488777117046352360" />
+        <var name="isEmpty" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352366" at="60,0,69,0" />
+      <scope id="7488777117046352377" at="124,0,133,0" />
+      <scope id="7488777117046421565" at="183,0,192,0" />
+      <scope id="7488777117046352369" at="193,0,202,0" />
+      <scope id="7488777117046352360" at="48,43,58,22">
+        <var name="editorCell" id="7488777117046352360" />
+      </scope>
+      <scope id="7488777117046352360" at="171,44,181,7" />
+      <scope id="7488777117046352360" at="107,44,118,7" />
+      <scope id="7488777117046352360" at="48,0,60,0" />
+      <scope id="7488777117046352360" at="170,0,183,0" />
+      <scope id="7488777117046352360" at="106,0,120,0" />
+      <unit id="7488777117046352360" at="203,0,207,0" name="com.mbeddr.mpsutil.blutil.editor.IntegerRange_EditorBuilder_a$LINKS" />
+      <unit id="7488777117046352360" at="73,0,124,0" name="com.mbeddr.mpsutil.blutil.editor.IntegerRange_EditorBuilder_a$lowerBoundSingleRoleHandler_pzdcw6_b0" />
+      <unit id="7488777117046352360" at="137,0,193,0" name="com.mbeddr.mpsutil.blutil.editor.IntegerRange_EditorBuilder_a$upperBoundSingleRoleHandler_pzdcw6_d0" />
+      <unit id="7488777117046352360" at="29,0,208,0" name="com.mbeddr.mpsutil.blutil.editor.IntegerRange_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:7b6c196f-8133-489b-a5b2-6ed29b884e93(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.editor)/7587861366842678258">

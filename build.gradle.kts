@@ -274,6 +274,12 @@ tasks.cyclonedxDirectBom {
     jsonOutput = reportsDir.get().file("sbom.json")
     // Generate JSON only
     xmlOutput.unsetConvention()
+
+    // Only include bundled dependencies and api
+    includeConfigs.add(configurations.api.name)
+    includeConfigs.addAll(provider {
+        bundledDependencies.map { it.configuration.name }
+    })
 }
 
 tasks.clean {

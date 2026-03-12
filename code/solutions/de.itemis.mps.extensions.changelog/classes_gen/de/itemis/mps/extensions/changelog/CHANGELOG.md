@@ -15,6 +15,11 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
     - `seq1.zip(seq2)` creates a sequence tuples where each element is a tuple from the element in the two sequences at that index
     - `seq.selectIdx({~it, int index => ...})` `seq.whereIdx({~it, int index => ...})` `seq.forEachIdx({~it, int index => ...})` are similar to `select` , `where` and `foreach` already present in the collections language, but the index of the current element is also an argument of the closure
 
+### Fixed
+
+- *de.itemis.mps.linenumbers* Improve line numbers position in diff editors where the line numbers appear to the right of the editor.
+- *de.itemis.mps.linenumbers* Fix a NullPointerException that would occur after application shutdown and would be logged e.g. by command line tools. The NPE was caused by failing to properly dispose a Swing timer.
+
 ## February 2026
 
 ### Fixed

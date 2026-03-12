@@ -44,7 +44,7 @@ import com.intellij.ui.JBColor;
   }
   private EditorCell createAlternation_0() {
     boolean alternationCondition = true;
-    alternationCondition = nodeCondition_5fkz51_a0a_0();
+    alternationCondition = nodeCondition_5fkz51_a0a();
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = createCollection_0();
@@ -53,7 +53,7 @@ import com.intellij.ui.JBColor;
     }
     return editorCell;
   }
-  private boolean nodeCondition_5fkz51_a0a_0() {
+  private boolean nodeCondition_5fkz51_a0a() {
     return false;
   }
   private EditorCell createCollection_0() {

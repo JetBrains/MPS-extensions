@@ -1,7 +1,3 @@
  * a
-   * aa
-     * aaa
-   * a, ab
-   * a, ac
  * b
  * c

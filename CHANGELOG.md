@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## March 2026
+
+### Fixed
+
+- *de.itemis.mps.linenumbers* Improve line numbers position in diff editors where the line numbers appear to the right of the editor.
+- *de.itemis.mps.linenumbers* Fix a NullPointerException that would occur after application shutdown and would be logged e.g. by command line tools. The NPE was caused by failing to properly dispose a Swing timer.
+
 ## February 2026
 
 ### Fixed

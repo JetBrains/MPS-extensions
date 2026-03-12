@@ -13,9 +13,6 @@ import com.intellij.openapi.fileEditor.FileEditorManager;
 import jetbrains.mps.ide.editor.MPSFileNodeEditor;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import java.lang.ref.WeakReference;
-import java.awt.Point;
-import javax.swing.SwingUtilities;
 import com.intellij.openapi.application.ApplicationManager;
 import jetbrains.mps.ide.project.ProjectHelper;
 import java.awt.Font;
@@ -68,7 +65,6 @@ public class LineNumberComponent extends AbstractLeftColumn {
     }
   }
 
-  private WeakReference<EditorComponent> myEditorComponent;
   private int textPaddingLeft = 10;
   public int textPaddingRight = textPaddingLeft;
   private int textWidth = 30;
@@ -76,12 +72,6 @@ public class LineNumberComponent extends AbstractLeftColumn {
 
   private LineNumberComponent(EditorComponent editorComponent) {
     super(editorComponent.getLeftEditorHighlighter());
-  }
-
-  public boolean isRightSideOfEditor() {
-    // get the left upper most point [0,0] of the gutter (getLeftEditorHighlighter() ) in the coordinate space of the editor component
-    Point convertPoint = SwingUtilities.convertPoint(getLeftEditorHighlighter(), new Point(0, 0), getEditorComponent());
-    return convertPoint.getX() >= getEditorComponent().getVisibleRect().width;
   }
 
   public void install() {
@@ -115,7 +105,9 @@ public class LineNumberComponent extends AbstractLeftColumn {
   @Override
   public void dispose() {
     // Similar to uninstall but called when the editor component is disposed. It disposes its LeftEditorHighlighter which disposes each AbstractLeftColumn. There's no need to remove the left column from the highlighter, and it may in fact be harmful because the highlighter is in the process of iterating its list of columns here.
+    super.dispose();
     MapSequence.fromMap(instances).removeKey(getEditorComponent());
+    updater.dispose();
   }
 
   public void updateWidth(String longestText) {

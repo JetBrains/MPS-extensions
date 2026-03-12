@@ -23,7 +23,7 @@ public class EnumerationDescriptor_GraphCompactionStrategy extends EnumerationDe
   private final EnumerationDescriptor.MemberDescriptor myMember_EDGE_LENGTH_0 = new EnumerationDescriptor.MemberDescriptor("EDGE_LENGTH", "EDGE_LENGTH", 0x32d28aa5f4571d8aL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379221386");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f4571d72L, 0x32d28aa5f4571d73L, 0x32d28aa5f4571d75L, 0x32d28aa5f4571d78L, 0x32d28aa5f4571d7dL, 0x32d28aa5f4571d83L, 0x32d28aa5f4571d8aL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NONE_0, myMember_LEFT_0, myMember_RIGHT_0, myMember_LEFT_RIGHT_CONSTRAINT_LOCKING_0, myMember_LEFT_RIGHT_CONNECTION_LOCKING_0, myMember_EDGE_LENGTH_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NONE_0, myMember_LEFT_0, myMember_RIGHT_0, myMember_LEFT_RIGHT_CONSTRAINT_LOCKING_0, myMember_LEFT_RIGHT_CONNECTION_LOCKING_0, myMember_EDGE_LENGTH_0);
 
   @Nullable
   @Override

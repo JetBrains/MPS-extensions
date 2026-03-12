@@ -37,21 +37,18 @@ import jetbrains.mps.nodeEditor.MPSColors;
   }
 
   /*package*/ EditorCell createCell() {
-    return createDummyWrapperCell_1();
+    return createDummyWrapperCell_0();
   }
 
-  private EditorCell createDummyWrapperCell_0(EditorContext editorContext, SNode node) {
+  private EditorCell createDummyWrapperCell_0() {
     EditorCell editorCell = null;
     editorCell = createAlternation_0();
     editorCell.setBig(true);
     return editorCell;
   }
-  private EditorCell createDummyWrapperCell_1() {
-    return createDummyWrapperCell_0(getEditorContext(), myNode);
-  }
   private EditorCell createAlternation_0() {
     boolean alternationCondition = true;
-    alternationCondition = nodeCondition_rm5034_a0a_0();
+    alternationCondition = nodeCondition_rm5034_a0a();
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = createCollection_0();
@@ -60,7 +57,7 @@ import jetbrains.mps.nodeEditor.MPSColors;
     }
     return editorCell;
   }
-  private boolean nodeCondition_rm5034_a0a_0() {
+  private boolean nodeCondition_rm5034_a0a() {
     return ExpressionTypeInfo.showTypeInfo;
   }
   private EditorCell createCollection_0() {

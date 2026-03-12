@@ -3174,87 +3174,94 @@
   </root>
   <root nodeRef="r:e8e03ffa-3c1e-4997-9f51-6f8ca9be2f23(com.mbeddr.mpsutil.grammarcells.runtime)/5387699888071939277">
     <file name="DescriptorCache.java">
-      <node id="5387699888072080212" at="22,0,23,0" concept="13" trace="INSTANCE" />
-      <node id="5387699888072090112" at="24,47,25,20" concept="10" />
-      <node id="5387699888071944777" at="28,0,29,0" concept="4" trace="loadedDescriptors" />
-      <node id="5387699888071952712" at="30,0,31,0" concept="4" trace="deployListener" />
-      <node id="5387699888072068341" at="32,28,33,51" concept="3" />
-      <node id="5387699888072157821" at="37,33,38,135" concept="3" />
-      <node id="5387699888071946584" at="43,76,44,67" concept="9" />
-      <node id="5387699888072069508" at="48,89,49,25" concept="3" />
-      <node id="5387699888072069131" at="51,87,52,25" concept="3" />
-      <node id="5387699888072138957" at="54,10,55,134" concept="3" />
-      <node id="5387699888071946633" at="57,5,58,22" concept="10" />
-      <node id="5387699888072101580" at="63,25,64,18" concept="10" />
-      <node id="5387699888072101587" at="66,48,67,18" concept="10" />
-      <node id="5387699888072101593" at="68,5,69,66" concept="9" />
-      <node id="5387699888072101601" at="70,69,71,64" concept="10" />
-      <node id="5387699888072101609" at="72,5,73,48" concept="9" />
-      <node id="5387699888072101615" at="74,9,75,153" concept="9" />
-      <node id="5387699888072101631" at="75,153,76,80" concept="9" />
-      <node id="5387699888072101638" at="76,80,77,144" concept="3" />
-      <node id="5387699888072101652" at="79,5,80,67" concept="3" />
-      <node id="5387699888072101658" at="80,67,81,22" concept="10" />
-      <node id="5387699888072090135" at="24,0,27,0" concept="14" trace="getInstance#()Lcom/mbeddr/mpsutil/grammarcells/runtime/DescriptorCache;" />
-      <node id="5387699888072064332" at="32,0,35,0" concept="8" trace="invalidate#()V" />
-      <node id="5387699888072157134" at="36,25,39,5" concept="7" />
-      <node id="5387699888072025098" at="48,0,51,0" concept="8" trace="onUnloaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
-      <node id="5387699888072025110" at="51,0,54,0" concept="8" trace="onLoaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
-      <node id="5387699888072101578" at="62,81,65,5" concept="7" />
-      <node id="5387699888072101585" at="65,5,68,5" concept="7" />
-      <node id="5387699888072101599" at="69,66,72,5" concept="7" />
-      <node id="5387699888072152658" at="36,0,41,0" concept="8" trace="dispose#()V" />
-      <node id="5387699888072101613" at="73,48,79,5" concept="18" />
-      <node id="5387699888072131349" at="46,35,54,10" concept="3" />
-      <node id="5387699888072126053" at="45,29,56,7" concept="7" />
-      <node id="5387699888072119031" at="44,67,57,5" concept="7" />
-      <node id="5387699888071946550" at="42,0,60,0" concept="8" trace="getDescriptor#(Lorg/jetbrains/mps/openapi/module/SModule;)Lcom/mbeddr/mpsutil/grammarcells/runtime/IGrammarActionsDescriptor;" />
-      <node id="5387699888072101576" at="61,0,83,0" concept="8" trace="doGetDescriptor#(Lorg/jetbrains/mps/openapi/module/SModule;)Lcom/mbeddr/mpsutil/grammarcells/runtime/IGrammarActionsDescriptor;" />
-      <scope id="5387699888072101649" at="78,41,78,41" />
-      <scope id="5387699888072082287" at="24,47,25,20" />
-      <scope id="5387699888072064336" at="32,28,33,51" />
-      <scope id="5387699888072157136" at="37,33,38,135" />
-      <scope id="5387699888072025108" at="48,89,49,25" />
-      <scope id="5387699888072025120" at="51,87,52,25" />
-      <scope id="5387699888072101579" at="63,25,64,18" />
-      <scope id="5387699888072101586" at="66,48,67,18" />
-      <scope id="5387699888072101600" at="70,69,71,64" />
-      <scope id="5387699888072101648" at="78,5,79,5">
+      <node id="5387699888072080212" at="23,0,24,0" concept="13" trace="INSTANCE" />
+      <node id="5387699888072090112" at="25,47,26,20" concept="10" />
+      <node id="5387699888071944777" at="29,0,30,0" concept="4" trace="loadedDescriptors" />
+      <node id="5387699888071952712" at="31,0,32,0" concept="4" trace="deployListener" />
+      <node id="4480402462885406833" at="33,0,34,0" concept="4" trace="languageRegistry" />
+      <node id="5387699888072068341" at="35,28,36,51" concept="3" />
+      <node id="4480402462885419108" at="39,56,40,73" concept="3" />
+      <node id="5387699888072157821" at="44,33,45,62" concept="3" />
+      <node id="4864464318166025329" at="45,62,46,28" concept="3" />
+      <node id="4480402462885472151" at="47,5,48,0" concept="12" />
+      <node id="4480402462885476626" at="48,0,49,28" concept="3" />
+      <node id="5387699888071946584" at="53,76,54,67" concept="9" />
+      <node id="4864464318166046219" at="59,86,60,25" concept="3" />
+      <node id="4864464318165922029" at="62,10,63,61" concept="3" />
+      <node id="5387699888071946633" at="65,5,66,22" concept="10" />
+      <node id="5387699888072101580" at="71,53,72,18" concept="10" />
+      <node id="4864464318165947119" at="73,5,74,62" concept="9" />
+      <node id="4864464318165943239" at="74,62,75,0" concept="12" />
+      <node id="5387699888072101601" at="76,67,77,62" concept="10" />
+      <node id="5387699888072101615" at="78,5,79,145" concept="9" />
+      <node id="5387699888072101609" at="79,145,80,111" concept="9" />
+      <node id="8413919467957517850" at="80,111,81,0" concept="12" />
+      <node id="5387699888072101631" at="83,11,84,71" concept="9" />
+      <node id="5387699888072101638" at="84,71,85,152" concept="3" />
+      <node id="8413919467957511381" at="88,7,89,0" concept="12" />
+      <node id="8413919467957524113" at="90,35,91,76" concept="11" />
+      <node id="5387699888072101652" at="91,76,92,73" concept="3" />
+      <node id="5387699888072101658" at="93,5,94,28" concept="10" />
+      <node id="5387699888072090135" at="25,0,28,0" concept="14" trace="getInstance#()Lcom/mbeddr/mpsutil/grammarcells/runtime/DescriptorCache;" />
+      <node id="5387699888072064332" at="35,0,38,0" concept="8" trace="invalidate#()V" />
+      <node id="4864464318165903992" at="39,0,42,0" concept="8" trace="init#(Ljetbrains/mps/components/ComponentHost;)V" />
+      <node id="5387699888072101578" at="70,81,73,5" concept="7" />
+      <node id="5387699888072101599" at="75,0,78,5" concept="7" />
+      <node id="4864464318166016771" at="43,25,47,5" concept="7" />
+      <node id="4864464318165857401" at="58,0,62,0" concept="8" trace="deploymentStateChanged#(Ljetbrains/mps/smodel/runtime/ModuleDeploymentChange;)V" />
+      <node id="8413919467957495174" at="89,0,93,5" concept="7" />
+      <node id="5387699888072101613" at="82,65,87,7" concept="18" />
+      <node id="4864464318166046212" at="56,63,62,10" concept="3" />
+      <node id="4864464318166064946" at="81,0,88,7" concept="3" />
+      <node id="5387699888072152658" at="43,0,51,0" concept="8" trace="dispose#()V" />
+      <node id="5387699888072126053" at="55,29,64,7" concept="7" />
+      <node id="5387699888072119031" at="54,67,65,5" concept="7" />
+      <node id="5387699888071946550" at="52,0,68,0" concept="8" trace="getDescriptor#(Lorg/jetbrains/mps/openapi/module/SModule;)Lcom/mbeddr/mpsutil/grammarcells/runtime/IGrammarActionsDescriptor;" />
+      <node id="5387699888072101576" at="69,0,96,0" concept="8" trace="doGetDescriptor#(Lorg/jetbrains/mps/openapi/module/SModule;)Lcom/mbeddr/mpsutil/grammarcells/runtime/IGrammarActionsDescriptor;" />
+      <scope id="5387699888072101649" at="86,43,86,43" />
+      <scope id="5387699888072082287" at="25,47,26,20" />
+      <scope id="5387699888072064336" at="35,28,36,51" />
+      <scope id="4864464318165903995" at="39,56,40,73" />
+      <scope id="4864464318165857409" at="59,86,60,25" />
+      <scope id="5387699888072101579" at="71,53,72,18" />
+      <scope id="5387699888072101600" at="76,67,77,62" />
+      <scope id="5387699888072101648" at="86,7,87,7">
         <var name="ex" id="5387699888072101650" />
       </scope>
-      <scope id="5387699888072090135" at="24,0,27,0" />
-      <scope id="5387699888072064332" at="32,0,35,0" />
-      <scope id="5387699888072152662" at="36,25,39,5" />
-      <scope id="5387699888072025098" at="48,0,51,0">
-        <var name="p0" id="5387699888072025102" />
-        <var name="p1" id="5387699888072025105" />
-      </scope>
-      <scope id="5387699888072025110" at="51,0,54,0">
-        <var name="p0" id="5387699888072025114" />
-        <var name="p1" id="5387699888072025117" />
-      </scope>
-      <scope id="5387699888072101614" at="74,9,77,144">
+      <scope id="4864464318166016773" at="44,33,46,28" />
+      <scope id="5387699888072101614" at="83,11,85,152">
         <var name="descriptorClass" id="5387699888072101632" />
-        <var name="descriptorClassName" id="5387699888072101616" />
       </scope>
-      <scope id="5387699888072152658" at="36,0,41,0" />
-      <scope id="5387699888072126055" at="46,35,55,134" />
-      <scope id="5387699888072119033" at="45,29,56,7" />
-      <scope id="5387699888071946552" at="43,76,58,22">
+      <scope id="8413919467957495176" at="90,35,92,73" />
+      <scope id="5387699888072090135" at="25,0,28,0" />
+      <scope id="5387699888072064332" at="35,0,38,0" />
+      <scope id="4864464318165903992" at="39,0,42,0">
+        <var name="mpsPlatform" id="4864464318165911608" />
+      </scope>
+      <scope id="4864464318165857401" at="58,0,62,0">
+        <var name="change" id="4864464318165857405" />
+      </scope>
+      <scope id="4864464318166098550" at="82,65,87,7" />
+      <scope id="5387699888072152662" at="43,25,49,28" />
+      <scope id="5387699888072126055" at="56,63,63,61" />
+      <scope id="5387699888072152658" at="43,0,51,0" />
+      <scope id="5387699888072119033" at="55,29,64,7" />
+      <scope id="5387699888071946552" at="53,76,66,22">
         <var name="descriptor" id="5387699888071946585" />
       </scope>
-      <scope id="5387699888071946550" at="42,0,60,0">
+      <scope id="5387699888071946550" at="52,0,68,0">
         <var name="module" id="5387699888071946635" />
       </scope>
-      <scope id="5387699888072101577" at="62,81,81,22">
+      <scope id="5387699888072101577" at="70,81,94,28">
         <var name="descriptor" id="5387699888072101610" />
-        <var name="reloadableModule" id="5387699888072101594" />
+        <var name="descriptorClassName" id="5387699888072101616" />
+        <var name="mref" id="4864464318165947117" />
       </scope>
-      <scope id="5387699888072101576" at="61,0,83,0">
+      <scope id="5387699888072101576" at="69,0,96,0">
         <var name="module" id="5387699888072101662" />
       </scope>
-      <unit id="5387699888072025096" at="47,29,54,9" name="com.mbeddr.mpsutil.grammarcells.runtime.DescriptorCache$1" />
-      <unit id="5387699888071939277" at="20,0,84,0" name="com.mbeddr.mpsutil.grammarcells.runtime.DescriptorCache" />
+      <unit id="4864464318166046217" at="57,29,62,9" name="com.mbeddr.mpsutil.grammarcells.runtime.DescriptorCache$1" />
+      <unit id="5387699888071939277" at="21,0,97,0" name="com.mbeddr.mpsutil.grammarcells.runtime.DescriptorCache" />
     </file>
   </root>
   <root nodeRef="r:e8e03ffa-3c1e-4997-9f51-6f8ca9be2f23(com.mbeddr.mpsutil.grammarcells.runtime)/5518772185117011646">

@@ -106,66 +106,66 @@
   </root>
   <root nodeRef="r:b49d7b4c-a97a-4226-a59e-b10183eecf00(de.itemis.mps.selection.runtime.plugin)/6971699915905730841">
     <file name="ApplicationPlugin_AppPluginPart.java">
-      <node id="2886180662906637307" at="16,75,17,81" concept="7" />
-      <node id="2886180662906631066" at="21,67,22,125" concept="2" />
-      <node id="2886180662906631083" at="26,69,27,130" concept="2" />
-      <node id="6971699915905732222" at="33,22,34,52" concept="2" />
-      <node id="2886180662906681986" at="34,52,35,87" concept="6" />
-      <node id="2886180662906648563" at="35,87,36,93" concept="2" />
-      <node id="2886180662906674044" at="39,25,40,46" concept="2" />
-      <node id="6971699915905733775" at="40,46,41,55" concept="2" />
-      <node id="2886180662906684789" at="41,55,42,87" concept="6" />
-      <node id="2886180662906664081" at="42,87,43,94" concept="2" />
-      <node id="2886180662906631084" at="46,36,47,36" concept="2" />
-      <node id="2886180662906631084" at="48,5,49,0" concept="9" />
-      <node id="2886180662906659650" at="52,36,53,53" concept="2" />
-      <node id="2886180662906659650" at="54,5,55,0" concept="9" />
-      <node id="6971699915905730841" at="30,0,32,0" concept="1" trace="ApplicationPlugin_AppPluginPart#()V" />
-      <node id="2886180662906631084" at="45,91,48,5" concept="4" />
-      <node id="2886180662906659650" at="51,111,54,5" concept="4" />
-      <node id="2886180662906631048" at="15,0,19,0" concept="5" trace="isApplicable#(Ljetbrains/mps/openapi/editor/EditorComponent;)Z" />
-      <node id="2886180662906631059" at="20,0,24,0" concept="5" trace="install#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
-      <node id="2886180662906631076" at="25,0,29,0" concept="5" trace="uninstall#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
-      <node id="6971699915905730841" at="32,0,38,0" concept="5" trace="init#()V" />
-      <node id="2886180662906631084" at="45,0,51,0" concept="11" trace="check_t5qngh_a0a4a0a0#(Lde/itemis/mps/selection/runtime/mouse/DragSelectionMouseListener;)V" />
-      <node id="2886180662906659650" at="51,0,57,0" concept="11" trace="check_t5qngh_a2a0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
-      <node id="6971699915905730841" at="38,0,45,0" concept="5" trace="dispose#()V" />
-      <node id="2886180662906631041" at="14,0,30,0" concept="3" trace="selectionListener" />
-      <scope id="6971699915905730841" at="30,44,30,44" />
-      <scope id="2886180662906631054" at="16,75,17,81" />
-      <scope id="2886180662906631065" at="21,67,22,125" />
-      <scope id="2886180662906631082" at="26,69,27,130" />
-      <scope id="2886180662906631084" at="46,36,47,36" />
-      <scope id="2886180662906659650" at="52,36,53,53" />
-      <scope id="6971699915905730841" at="30,0,32,0" />
-      <scope id="6971699915905730843" at="33,22,36,93">
+      <node id="2886180662906637307" at="17,75,18,81" concept="7" />
+      <node id="2886180662906631066" at="22,67,23,125" concept="2" />
+      <node id="2886180662906631083" at="27,69,28,130" concept="2" />
+      <node id="6971699915905732222" at="34,22,35,103" concept="2" />
+      <node id="2886180662906681986" at="35,103,36,87" concept="6" />
+      <node id="2886180662906648563" at="36,87,37,93" concept="2" />
+      <node id="2886180662906674044" at="40,25,41,46" concept="2" />
+      <node id="6971699915905733775" at="41,46,42,55" concept="2" />
+      <node id="2886180662906684789" at="42,55,43,87" concept="6" />
+      <node id="2886180662906664081" at="43,87,44,94" concept="2" />
+      <node id="2886180662906631084" at="47,36,48,36" concept="2" />
+      <node id="2886180662906631084" at="49,5,50,0" concept="9" />
+      <node id="2886180662906659650" at="53,36,54,53" concept="2" />
+      <node id="2886180662906659650" at="55,5,56,0" concept="9" />
+      <node id="6971699915905730841" at="31,0,33,0" concept="1" trace="ApplicationPlugin_AppPluginPart#()V" />
+      <node id="2886180662906631084" at="46,91,49,5" concept="4" />
+      <node id="2886180662906659650" at="52,111,55,5" concept="4" />
+      <node id="2886180662906631048" at="16,0,20,0" concept="5" trace="isApplicable#(Ljetbrains/mps/openapi/editor/EditorComponent;)Z" />
+      <node id="2886180662906631059" at="21,0,25,0" concept="5" trace="install#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="2886180662906631076" at="26,0,30,0" concept="5" trace="uninstall#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="6971699915905730841" at="33,0,39,0" concept="5" trace="init#()V" />
+      <node id="2886180662906631084" at="46,0,52,0" concept="11" trace="check_t5qngh_a0a4a0a0#(Lde/itemis/mps/selection/runtime/mouse/DragSelectionMouseListener;)V" />
+      <node id="2886180662906659650" at="52,0,58,0" concept="11" trace="check_t5qngh_a2a0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
+      <node id="6971699915905730841" at="39,0,46,0" concept="5" trace="dispose#()V" />
+      <node id="2886180662906631041" at="15,0,31,0" concept="3" trace="selectionListener" />
+      <scope id="6971699915905730841" at="31,44,31,44" />
+      <scope id="2886180662906631054" at="17,75,18,81" />
+      <scope id="2886180662906631065" at="22,67,23,125" />
+      <scope id="2886180662906631082" at="27,69,28,130" />
+      <scope id="2886180662906631084" at="47,36,48,36" />
+      <scope id="2886180662906659650" at="53,36,54,53" />
+      <scope id="6971699915905730841" at="31,0,33,0" />
+      <scope id="6971699915905730843" at="34,22,37,93">
         <var name="extension" id="2886180662906681987" />
       </scope>
-      <scope id="2886180662906631048" at="15,0,19,0">
+      <scope id="2886180662906631048" at="16,0,20,0">
         <var name="editorComponent" id="2886180662906631051" />
       </scope>
-      <scope id="2886180662906631059" at="20,0,24,0">
+      <scope id="2886180662906631059" at="21,0,25,0">
         <var name="editorComponent" id="2886180662906631062" />
       </scope>
-      <scope id="2886180662906631076" at="25,0,29,0">
+      <scope id="2886180662906631076" at="26,0,30,0">
         <var name="editorComponent" id="2886180662906631079" />
       </scope>
-      <scope id="6971699915905730860" at="39,25,43,94">
+      <scope id="6971699915905730860" at="40,25,44,94">
         <var name="extension" id="2886180662906684790" />
       </scope>
-      <scope id="2886180662906631084" at="45,91,49,0" />
-      <scope id="2886180662906659650" at="51,111,55,0" />
-      <scope id="6971699915905730841" at="32,0,38,0" />
-      <scope id="2886180662906631084" at="45,0,51,0">
+      <scope id="2886180662906631084" at="46,91,50,0" />
+      <scope id="2886180662906659650" at="52,111,56,0" />
+      <scope id="6971699915905730841" at="33,0,39,0" />
+      <scope id="2886180662906631084" at="46,0,52,0">
         <var name="checkedDotOperand" id="2886180662906631084" />
       </scope>
-      <scope id="2886180662906659650" at="51,0,57,0">
+      <scope id="2886180662906659650" at="52,0,58,0">
         <var name="checkedDotOperand" id="2886180662906659650" />
         <var name="extension" id="2886180662906683864" />
       </scope>
-      <scope id="6971699915905730841" at="38,0,45,0" />
-      <unit id="2886180662906631046" at="14,50,29,3" name="de.itemis.mps.selection.runtime.plugin.ApplicationPlugin_AppPluginPart$1" />
-      <unit id="6971699915905730841" at="13,0,58,0" name="de.itemis.mps.selection.runtime.plugin.ApplicationPlugin_AppPluginPart" />
+      <scope id="6971699915905730841" at="39,0,46,0" />
+      <unit id="2886180662906631046" at="15,50,30,3" name="de.itemis.mps.selection.runtime.plugin.ApplicationPlugin_AppPluginPart$1" />
+      <unit id="6971699915905730841" at="14,0,59,0" name="de.itemis.mps.selection.runtime.plugin.ApplicationPlugin_AppPluginPart" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
       <node id="6971699915905730841" at="36,66,37,53" concept="2" />

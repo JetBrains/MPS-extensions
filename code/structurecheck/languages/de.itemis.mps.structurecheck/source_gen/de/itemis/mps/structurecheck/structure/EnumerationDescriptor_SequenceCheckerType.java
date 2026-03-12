@@ -21,7 +21,7 @@ public class EnumerationDescriptor_SequenceCheckerType extends EnumerationDescri
   private final EnumerationDescriptor.MemberDescriptor myMember_noneOfThese_0 = new EnumerationDescriptor.MemberDescriptor("noneOfThese", "noneOfThese", 0x546e3180357a94bL, "r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.itemis.mps.structurecheck.structure)/9167550852342474598");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xc6cfed73685b4891L, 0x8bddb38a1dcb107aL, 0x546e3180357a90aL, 0x546e3180357a90bL, 0x546e3180357a91cL, 0x546e3180357a932L, 0x546e3180357a94bL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_exactly_0, myMember_allOrMore_0, myMember_allOrLess_0, myMember_noneOfThese_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_exactly_0, myMember_allOrMore_0, myMember_allOrLess_0, myMember_noneOfThese_0);
 
   @Nullable
   @Override

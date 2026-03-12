@@ -29,19 +29,19 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
   }
 
   /*package*/ EditorCell createCell() {
-    return createMultiline_1();
+    return createMultiline_0();
   }
 
-  private EditorCell createMultiline_0(EditorContext editorContext, SNode node) {
+  private EditorCell createMultiline_0() {
     getCellFactory().pushCellContext();
     try {
       SProperty property = PROPS.escapedValue$2Lqz;
-      getCellFactory().setPropertyInfo(new SPropertyInfo(node, property));
-      CellProviderWithRole provider = new MultilineCellProvider(node, property, editorContext);
+      getCellFactory().setPropertyInfo(new SPropertyInfo(getNode(), property));
+      CellProviderWithRole provider = new MultilineCellProvider(getNode(), property, getEditorContext());
       provider.setAllowsEmptyTarget(true);
       provider.setNoTargetText("");
       EditorCell editorCell;
-      editorCell = provider.createEditorCell(editorContext);
+      editorCell = provider.createEditorCell(getEditorContext());
       setCellContext(editorCell);
 
       editorCell.setCellId("property_escapedValue");
@@ -56,9 +56,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     } finally {
       getCellFactory().popCellContext();
     }
-  }
-  private EditorCell createMultiline_1() {
-    return createMultiline_0(getEditorContext(), myNode);
   }
 
   private static final class PROPS {

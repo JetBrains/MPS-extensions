@@ -191,7 +191,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return diagramCell.value;
   }
   private EditorCell createDiagramConnector_1() {
-    return createDiagramConnector_0(getEditorContext(), myNode);
+    return createDiagramConnector_0(getEditorContext(), getNode());
   }
 
   private static final class LINKS {

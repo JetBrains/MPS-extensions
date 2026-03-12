@@ -25,17 +25,14 @@ import de.itemis.mps.editor.diagram.runtime.CompartmentCell;
   }
 
   /*package*/ EditorCell createCell() {
-    return createCompartment_1();
+    return createCompartment_0();
   }
 
-  private EditorCell createCompartment_0(EditorContext editorContext, SNode node) {
-    CompartmentCell editorCell = new CompartmentCell(editorContext, node);
+  private EditorCell createCompartment_0() {
+    CompartmentCell editorCell = new CompartmentCell(getEditorContext(), getNode());
     editorCell.setCellId("Compartment_811q7b_a");
     editorCell.setBig(true);
     setCellContext(editorCell);
     return editorCell;
-  }
-  private EditorCell createCompartment_1() {
-    return createCompartment_0(getEditorContext(), myNode);
   }
 }

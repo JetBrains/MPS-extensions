@@ -46,5 +46,6 @@
   <uses module="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" kind="dp" />
   <uses module="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" kind="dp" />
   <uses module="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
+  <uses module="9979803b-18d3-440b-8a74-99cec41fc78e(jetbrains.mps.spellchecker.idea.stubs)" kind="dp" />
 </dependenciesRoot>
 

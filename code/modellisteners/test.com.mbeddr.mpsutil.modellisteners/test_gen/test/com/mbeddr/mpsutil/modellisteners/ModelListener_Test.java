@@ -85,7 +85,7 @@ public class ModelListener_Test extends BaseTransformationTest {
         }
 
         ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("root"), LINKS.original$d3kj)).clear();
-        Assert.assertEquals(0, ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("root"), LINKS.mirror$d9DI)).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("root"), LINKS.mirror$d9DI)).count()));
       });
     }
 

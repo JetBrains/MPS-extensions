@@ -23,7 +23,7 @@ public class EnumerationDescriptor_FixedAlignment extends EnumerationDescriptorB
   private final EnumerationDescriptor.MemberDescriptor myMember_BALANCED_0 = new EnumerationDescriptor.MemberDescriptor("BALANCED", "BALANCED", 0x32d28aa5f455eee1L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379143905");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f455eecdL, 0x32d28aa5f455eeceL, 0x32d28aa5f455eecfL, 0x32d28aa5f455eed2L, 0x32d28aa5f455eed6L, 0x32d28aa5f455eedbL, 0x32d28aa5f455eee1L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NONE_0, myMember_LEFTUP_0, myMember_RIGHTUP_0, myMember_LEFTDOWN_0, myMember_RIGHTDOWN_0, myMember_BALANCED_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NONE_0, myMember_LEFTUP_0, myMember_RIGHTUP_0, myMember_LEFTDOWN_0, myMember_RIGHTDOWN_0, myMember_BALANCED_0);
 
   @Nullable
   @Override

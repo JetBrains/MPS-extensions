@@ -65,7 +65,7 @@ public class ModelMergeExpression_Test extends BaseTransformationTest {
 
         List<SNode> nodes = SModelOperations.nodes(model, CONCEPTS.ConceptWithProperty$lL);
 
-        Assert.assertEquals(1, ListSequence.fromList(nodes).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(nodes).count()));
 
         SNode node = ListSequence.fromList(nodes).first();
 

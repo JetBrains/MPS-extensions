@@ -20,7 +20,7 @@ public class EnumerationDescriptor_CrossingMinimizationStrategy extends Enumerat
   private final EnumerationDescriptor.MemberDescriptor myMember_NONE_0 = new EnumerationDescriptor.MemberDescriptor("NONE", "NONE", 0x32d28aa5f4562153L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379156819");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f456214bL, 0x32d28aa5f456214cL, 0x32d28aa5f456214fL, 0x32d28aa5f4562153L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_LAYER_SWEEP_0, myMember_INTERACTIVE_0, myMember_NONE_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_LAYER_SWEEP_0, myMember_INTERACTIVE_0, myMember_NONE_0);
 
   @Nullable
   @Override

@@ -19,7 +19,7 @@ public class EnumerationDescriptor_DirectionCongruency extends EnumerationDescri
   private final EnumerationDescriptor.MemberDescriptor myMember_ROTATION_0 = new EnumerationDescriptor.MemberDescriptor("ROTATION", "ROTATION", 0x32d28aa5f45633baL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379161530");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f45633b7L, 0x32d28aa5f45633b8L, 0x32d28aa5f45633baL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_READING_DIRECTION_0, myMember_ROTATION_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_READING_DIRECTION_0, myMember_ROTATION_0);
 
   @Nullable
   @Override

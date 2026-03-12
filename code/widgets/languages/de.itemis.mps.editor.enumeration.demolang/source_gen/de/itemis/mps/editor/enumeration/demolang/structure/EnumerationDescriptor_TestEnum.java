@@ -20,7 +20,7 @@ public class EnumerationDescriptor_TestEnum extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_c_0 = new EnumerationDescriptor.MemberDescriptor("c", "c", 0x17d90177262ce338L, "r:994e6b20-945f-4368-bc32-f11204b8007d(de.itemis.mps.editor.enumeration.demolang.structure)/9167550852342474690");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x724a3ff4f16146aeL, 0xb76626b81317341aL, 0x1da2ec216cc45ce4L, 0x1da2ec216cc45ce5L, 0x1da2ec216cc45ce6L, 0x17d90177262ce338L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_a_0, myMember_b_0, myMember_c_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_a_0, myMember_b_0, myMember_c_0);
 
   @Nullable
   @Override

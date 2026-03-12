@@ -8,6 +8,7 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.openapi.editor.EditorComponent;
 import de.itemis.mps.selection.runtime.mouse.DragSelectionMouseListener;
 import de.itemis.mps.selection.runtime.intentions.SelectionIntentionsManager;
+import jetbrains.mps.smodel.language.LanguageRegistry;
 import jetbrains.mps.openapi.editor.extensions.EditorExtensionRegistry;
 
 public class ApplicationPlugin_AppPluginPart extends ApplicationPluginPart {
@@ -31,7 +32,7 @@ public class ApplicationPlugin_AppPluginPart extends ApplicationPluginPart {
   }
   @Override
   public void init() {
-    SelectionIntentionsManager.getInstance().init();
+    SelectionIntentionsManager.getInstance().init(getPlatform().findComponent(LanguageRegistry.class));
     EditorExtension extension = ApplicationPlugin_AppPluginPart.this.selectionListener;
     check_t5qngh_a2a0(getPlatform().findComponent(EditorExtensionRegistry.class), extension);
   }

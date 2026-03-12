@@ -20,7 +20,7 @@ public class EnumerationDescriptor_WrappingStrategy extends EnumerationDescripto
   private final EnumerationDescriptor.MemberDescriptor myMember_MULTI_EDGE_0 = new EnumerationDescriptor.MemberDescriptor("MULTI_EDGE", "MULTI_EDGE", 0x32d28aa5f4567434L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379178036");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f456742eL, 0x32d28aa5f456742fL, 0x32d28aa5f4567431L, 0x32d28aa5f4567434L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_OFF_0, myMember_SINGLE_EDGE_0, myMember_MULTI_EDGE_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_OFF_0, myMember_SINGLE_EDGE_0, myMember_MULTI_EDGE_0);
 
   @Nullable
   @Override

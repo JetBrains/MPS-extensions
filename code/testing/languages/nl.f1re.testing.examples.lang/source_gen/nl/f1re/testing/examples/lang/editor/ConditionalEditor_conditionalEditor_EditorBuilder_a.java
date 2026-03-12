@@ -25,18 +25,15 @@ import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
   }
 
   /*package*/ EditorCell createCell() {
-    return createPriorityInfoCell_1();
+    return createPriorityInfoCell_0();
   }
 
-  private EditorCell createPriorityInfoCell_0(EditorContext editorContext, SNode node) {
+  private EditorCell createPriorityInfoCell_0() {
     EditorCell editorCell = null;
     editorCell = createAlternation_0();
     editorCell.setBig(true);
     setCellContext(editorCell);
     return editorCell;
-  }
-  private EditorCell createPriorityInfoCell_1() {
-    return createPriorityInfoCell_0(getEditorContext(), myNode);
   }
   private EditorCell createAlternation_0() {
     boolean alternationCondition = true;
@@ -63,7 +60,7 @@ import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
     return editorCell;
   }
   private EditorCell createCustomFactory_1() {
-    return createCustomFactory_0(getEditorContext(), myNode);
+    return createCustomFactory_0(getEditorContext(), getNode());
   }
   private EditorCell createNextEditor_0() {
     {

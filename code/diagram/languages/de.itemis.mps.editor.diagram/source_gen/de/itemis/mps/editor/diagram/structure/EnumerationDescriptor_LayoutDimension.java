@@ -20,7 +20,7 @@ public class EnumerationDescriptor_LayoutDimension extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_Y_0 = new EnumerationDescriptor.MemberDescriptor("Y", "Y", 0x32d28aa5f3cd6027L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892370194471");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f3cd6020L, 0x32d28aa5f3cd6021L, 0x32d28aa5f3cd6023L, 0x32d28aa5f3cd6027L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_XY_0, myMember_X_0, myMember_Y_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_XY_0, myMember_X_0, myMember_Y_0);
 
   @Nullable
   @Override

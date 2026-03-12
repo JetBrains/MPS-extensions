@@ -62,10 +62,10 @@ public class AnnotatioMergeExecutionWithEmptyModel_Test extends BaseTransformati
         assert observedRoot.isInstanceOfConcept(CONCEPTS.Annotatable$gt);
         SNode observed = ((SNode) observedRoot);
 
-        Assert.assertEquals(2, SPropertyOperations.getInteger(observed, PROPS.value$Iwma));
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(SPropertyOperations.getInteger(observed, PROPS.value$Iwma)));
         Assert.assertEquals("1", SPropertyOperations.getString(new IAttributeDescriptor.NodeAttribute(CONCEPTS.Annotation$Do).get(observed), PROPS.id$V03e));
-        Assert.assertEquals(4, SPropertyOperations.getInteger(new IAttributeDescriptor.NodeAttribute(CONCEPTS.Annotation$Do).get(observed), PROPS.value$xOU2));
-        Assert.assertEquals(1, ListSequence.fromList(SLinkOperations.getChildren(observed, LINKS.smodelAttribute$KJ43)).count());
+        Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(SPropertyOperations.getInteger(new IAttributeDescriptor.NodeAttribute(CONCEPTS.Annotation$Do).get(observed), PROPS.value$xOU2)));
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(observed, LINKS.smodelAttribute$KJ43)).count()));
 
         {
           List<SNode> nodesBefore = ListSequence.fromListAndArray(new ArrayList<SNode>(), getAnnotatedNode("expected"));

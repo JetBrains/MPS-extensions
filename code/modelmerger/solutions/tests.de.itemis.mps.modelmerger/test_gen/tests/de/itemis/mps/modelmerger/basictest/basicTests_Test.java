@@ -82,7 +82,7 @@ public class basicTests_Test extends BaseTransformationTest {
         SNodeId rootIdAfterImport = sysAfterImport.getNodeId();
 
         // Ensure that the import has got the new outports from destination
-        Assert.assertEquals("Outports were not merged correctly", ListSequence.fromList(SLinkOperations.getChildren(sysAfterImport, LINKS.outports$38qp)).count(), ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("testDestination"), LINKS.outports$38qp)).count());
+        Assert.assertEquals("Outports were not merged correctly", Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(sysAfterImport, LINKS.outports$38qp)).count()), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("testDestination"), LINKS.outports$38qp)).count()));
         // Ensure the ids of the old model does not change (import is incremental)
         Assert.assertEquals("Root ID of model has changed. Import is not incremental", rootIdAfterImport, rootIdBeforeImport);
 

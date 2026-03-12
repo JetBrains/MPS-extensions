@@ -39,8 +39,8 @@ public class SelectionFromStartLeft_Test extends BaseTransformationTest {
       invokeAction("jetbrains.mps.ide.editor.actions.SelectRight_Action");
       EditorCellLabelSelection selection = as_xpuo1r_a0a2a3g(getEditorComponent().getSelectionManager().getSelection(), EditorCellLabelSelection.class);
       Assert.assertNotNull(selection);
-      Assert.assertEquals(0, selection.getSelectionStart());
-      Assert.assertEquals(1, selection.getSelectionEnd());
+      Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(selection.getSelectionStart()));
+      Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(selection.getSelectionEnd()));
 
     }
     private static <T> T as_xpuo1r_a0a2a3g(Object o, Class<T> type) {

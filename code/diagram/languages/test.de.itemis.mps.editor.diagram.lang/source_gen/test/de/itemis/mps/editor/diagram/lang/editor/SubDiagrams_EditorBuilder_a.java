@@ -372,7 +372,7 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private Direction _StyleParameter_QueryFunction_otwjee_a0b0() {
     return Direction.valueOf(SPropertyOperations.getEnum(getNode(), PROPS.direction$9OSS).getName());

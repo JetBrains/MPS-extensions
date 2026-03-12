@@ -17,11 +17,11 @@ public class AnnotatedRow_Right_Test {
   private GridLeaf annotation;
   @Test
   public void test_sizeX() throws Exception {
-    Assert.assertEquals(4, gridMain.getSizeX());
+    Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(gridMain.getSizeX()));
   }
   @Test
   public void test_sizeY() throws Exception {
-    Assert.assertEquals(3, gridMain.getSizeY());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(gridMain.getSizeY()));
   }
   @Test
   public void test_annotation_position() throws Exception {

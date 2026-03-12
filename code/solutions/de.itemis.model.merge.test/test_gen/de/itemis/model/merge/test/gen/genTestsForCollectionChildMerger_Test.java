@@ -68,7 +68,7 @@ public class genTestsForCollectionChildMerger_Test extends BaseTransformationTes
           SNode payload = SNodeOperations.cast(e, CONCEPTS.Payload$$c);
           ListSequence.fromList(resultPayloads).addElement(payload);
         }
-        Assert.assertEquals(2, ListSequence.fromList(resultPayloads).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(ListSequence.fromList(resultPayloads).count()));
         Assert.assertEquals(SPropertyOperations.getString(SNodeOperations.cast(resultPayloads.get(0), CONCEPTS.Payload$$c), PROPS.data$fQWJ), "stuff1");
         Assert.assertEquals(SPropertyOperations.getString(SNodeOperations.cast(resultPayloads.get(1), CONCEPTS.Payload$$c), PROPS.data$fQWJ), "stuff2");
 
@@ -90,7 +90,7 @@ public class genTestsForCollectionChildMerger_Test extends BaseTransformationTes
           SNode payload = SNodeOperations.cast(e, CONCEPTS.Payload$$c);
           ListSequence.fromList(resultPayloads).addElement(payload);
         }
-        Assert.assertEquals(1, ListSequence.fromList(resultPayloads).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(resultPayloads).count()));
         Assert.assertEquals(SPropertyOperations.getString(SNodeOperations.cast(resultPayloads.get(0), CONCEPTS.Payload$$c), PROPS.data$fQWJ), "stuff2#stuff2");
 
       });

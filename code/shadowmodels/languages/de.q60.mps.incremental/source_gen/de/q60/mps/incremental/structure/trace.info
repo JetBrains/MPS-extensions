@@ -13,7 +13,7 @@
       <unit at="11,0,116,0" name="de.q60.mps.incremental.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,50,0" name="de.q60.mps.incremental.structure.LanguageConceptSwitch" />
+      <unit at="12,0,58,0" name="de.q60.mps.incremental.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="14,0,217,0" name="de.q60.mps.incremental.structure.StructureAspectDescriptor" />
@@ -33,8 +33,8 @@
       <scope id="1072055285051534667" at="56,55,62,43" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="1072055285051534667" at="16,0,17,0" concept="6" trace="IncrementalExpression" />
-      <node id="1072055285051534667" at="30,64,31,59" concept="0" />
+      <node id="1072055285051534667" at="18,0,19,0" concept="6" trace="IncrementalExpression" />
+      <node id="1072055285051534667" at="32,64,33,59" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1072055285051534667" at="19,0,20,0" concept="1" trace="myConceptIncrementalExpression" />
@@ -73,8 +73,8 @@
       <scope id="5053250164214322597" at="98,51,104,39" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5053250164214322597" at="22,0,23,0" concept="6" trace="IncrementalModule" />
-      <node id="5053250164214322597" at="36,70,37,56" concept="0" />
+      <node id="5053250164214322597" at="24,0,25,0" concept="6" trace="IncrementalModule" />
+      <node id="5053250164214322597" at="38,70,39,56" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5053250164214322597" at="25,0,26,0" concept="1" trace="myConceptIncrementalModule" />
@@ -107,8 +107,8 @@
       <scope id="5053250164214322600" at="50,59,55,47" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5053250164214322600" at="15,0,16,0" concept="6" trace="IIncrementalModuleContent" />
-      <node id="5053250164214322600" at="29,59,30,64" concept="0" />
+      <node id="5053250164214322600" at="17,0,18,0" concept="6" trace="IIncrementalModuleContent" />
+      <node id="5053250164214322600" at="31,59,32,64" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5053250164214322600" at="18,0,19,0" concept="1" trace="myConceptIIncrementalModuleContent" />
@@ -142,8 +142,8 @@
       <scope id="5053250164214322603" at="30,43,36,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5053250164214322603" at="12,0,13,0" concept="6" trace="EmptyLine" />
-      <node id="5053250164214322603" at="26,116,27,48" concept="0" />
+      <node id="5053250164214322603" at="14,0,15,0" concept="6" trace="EmptyLine" />
+      <node id="5053250164214322603" at="28,116,29,48" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5053250164214322603" at="15,0,16,0" concept="1" trace="myConceptEmptyLine" />
@@ -175,8 +175,8 @@
       <scope id="5053250164214322692" at="63,53,69,41" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5053250164214322692" at="17,0,18,0" concept="6" trace="IncrementalFunction" />
-      <node id="5053250164214322692" at="31,59,32,58" concept="0" />
+      <node id="5053250164214322692" at="19,0,20,0" concept="6" trace="IncrementalFunction" />
+      <node id="5053250164214322692" at="33,59,34,58" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5053250164214322692" at="20,0,21,0" concept="1" trace="myConceptIncrementalFunction" />
@@ -217,8 +217,8 @@
       <scope id="5053250164214322702" at="84,62,90,50" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5053250164214322702" at="20,0,21,0" concept="6" trace="IncrementalFunctionParameter" />
-      <node id="5053250164214322702" at="34,65,35,67" concept="0" />
+      <node id="5053250164214322702" at="22,0,23,0" concept="6" trace="IncrementalFunctionParameter" />
+      <node id="5053250164214322702" at="36,65,37,67" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5053250164214322702" at="23,0,24,0" concept="1" trace="myConceptIncrementalFunctionParameter" />
@@ -252,8 +252,8 @@
       <scope id="5053250164214340824" at="70,57,76,45" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5053250164214340824" at="18,0,19,0" concept="6" trace="IncrementalFunctionCall" />
-      <node id="5053250164214340824" at="32,58,33,62" concept="0" />
+      <node id="5053250164214340824" at="20,0,21,0" concept="6" trace="IncrementalFunctionCall" />
+      <node id="5053250164214340824" at="34,58,35,62" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5053250164214340824" at="21,0,22,0" concept="1" trace="myConceptIncrementalFunctionCall" />
@@ -289,8 +289,8 @@
       <scope id="5053250164214412449" at="91,65,97,53" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5053250164214412449" at="21,0,22,0" concept="6" trace="IncrementalFunctionParameterRef" />
-      <node id="5053250164214412449" at="35,67,36,70" concept="0" />
+      <node id="5053250164214412449" at="23,0,24,0" concept="6" trace="IncrementalFunctionParameterRef" />
+      <node id="5053250164214412449" at="37,67,38,70" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5053250164214412449" at="24,0,25,0" concept="1" trace="myConceptIncrementalFunctionParameterRef" />
@@ -325,8 +325,8 @@
       <scope id="8535300072460314975" at="37,48,43,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8535300072460314975" at="13,0,14,0" concept="6" trace="HashCodeEquals" />
-      <node id="8535300072460314975" at="27,48,28,53" concept="0" />
+      <node id="8535300072460314975" at="15,0,16,0" concept="6" trace="HashCodeEquals" />
+      <node id="8535300072460314975" at="29,48,30,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8535300072460314975" at="16,0,17,0" concept="1" trace="myConceptHashCodeEquals" />
@@ -361,8 +361,8 @@
       <scope id="8551406714923063830" at="77,60,83,48" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8551406714923063830" at="19,0,20,0" concept="6" trace="IncrementalFunctionLiteral" />
-      <node id="8551406714923063830" at="33,62,34,65" concept="0" />
+      <node id="8551406714923063830" at="21,0,22,0" concept="6" trace="IncrementalFunctionLiteral" />
+      <node id="8551406714923063830" at="35,62,36,65" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8551406714923063830" at="22,0,23,0" concept="1" trace="myConceptIncrementalFunctionLiteral" />
@@ -403,8 +403,8 @@
       <scope id="8551406714924728205" at="105,53,111,41" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8551406714924728205" at="23,0,24,0" concept="6" trace="WithEngineStatement" />
-      <node id="8551406714924728205" at="37,56,38,58" concept="0" />
+      <node id="8551406714924728205" at="25,0,26,0" concept="6" trace="WithEngineStatement" />
+      <node id="8551406714924728205" at="39,56,40,58" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8551406714924728205" at="26,0,27,0" concept="1" trace="myConceptWithEngineStatement" />
@@ -440,8 +440,8 @@
       <scope id="8551406714925044721" at="44,54,49,42" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8551406714925044721" at="14,0,15,0" concept="6" trace="IIncrementalFunction" />
-      <node id="8551406714925044721" at="28,53,29,59" concept="0" />
+      <node id="8551406714925044721" at="16,0,17,0" concept="6" trace="IIncrementalFunction" />
+      <node id="8551406714925044721" at="30,53,31,59" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8551406714925044721" at="17,0,18,0" concept="1" trace="myConceptIIncrementalFunction" />

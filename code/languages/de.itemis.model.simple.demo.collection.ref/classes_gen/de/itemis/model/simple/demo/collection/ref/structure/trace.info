@@ -12,7 +12,7 @@
       <unit at="11,0,38,0" name="de.itemis.model.simple.demo.collection.ref.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,30,0" name="de.itemis.model.simple.demo.collection.ref.structure.LanguageConceptSwitch" />
+      <unit at="12,0,38,0" name="de.itemis.model.simple.demo.collection.ref.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,72,0" name="de.itemis.model.simple.demo.collection.ref.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="3137718304200740002" at="20,60,26,48" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="3137718304200740002" at="12,0,13,0" concept="5" trace="ConceptWithCollectionOfRef" />
-      <node id="3137718304200740002" at="16,116,17,65" concept="0" />
+      <node id="3137718304200740002" at="14,0,15,0" concept="5" trace="ConceptWithCollectionOfRef" />
+      <node id="3137718304200740002" at="18,116,19,65" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3137718304200740002" at="16,0,17,0" concept="1" trace="myConceptConceptWithCollectionOfRef" />
@@ -67,8 +67,8 @@
       <scope id="545364740421167850" at="27,49,33,37" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="545364740421167850" at="13,0,14,0" concept="5" trace="NoRootReference" />
-      <node id="545364740421167850" at="17,65,18,53" concept="0" />
+      <node id="545364740421167850" at="15,0,16,0" concept="5" trace="NoRootReference" />
+      <node id="545364740421167850" at="19,65,20,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="545364740421167850" at="17,0,18,0" concept="1" trace="myConceptNoRootReference" />

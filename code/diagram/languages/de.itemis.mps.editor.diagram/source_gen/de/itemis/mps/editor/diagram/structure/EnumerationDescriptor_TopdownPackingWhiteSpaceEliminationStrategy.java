@@ -18,7 +18,7 @@ public class EnumerationDescriptor_TopdownPackingWhiteSpaceEliminationStrategy e
   private final EnumerationDescriptor.MemberDescriptor myMember_BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR_0 = new EnumerationDescriptor.MemberDescriptor("BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR", "BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR", 0x32d28aa5f4328671L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892376823409");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f4328670L, 0x32d28aa5f4328671L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR_0);
 
   @Nullable
   @Override

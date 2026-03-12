@@ -19,7 +19,7 @@ public class EnumerationDescriptor_PolyominoHighLevelSortingCriterion extends En
   private final EnumerationDescriptor.MemberDescriptor myMember_CORNER_CASES_THAN_SINGLE_SIDE_LAST_0 = new EnumerationDescriptor.MemberDescriptor("CORNER_CASES_THAN_SINGLE_SIDE_LAST", "CORNER_CASES_THAN_SINGLE_SIDE_LAST", 0x6a0cd762a3d653bL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/477607467899774267");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6a0cd762a3d64cbL, 0x6a0cd762a3d64ccL, 0x6a0cd762a3d653bL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NUM_OF_EXTERNAL_SIDES_THAN_NUM_OF_EXTENSIONS_LAST_0, myMember_CORNER_CASES_THAN_SINGLE_SIDE_LAST_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NUM_OF_EXTERNAL_SIDES_THAN_NUM_OF_EXTENSIONS_LAST_0, myMember_CORNER_CASES_THAN_SINGLE_SIDE_LAST_0);
 
   @Nullable
   @Override

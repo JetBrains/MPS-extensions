@@ -56,7 +56,7 @@ public class ModelMergingRunner {
    * @param policy ModelMergingPolicy
    * @param left left model
    * @param right right model
-   * @return a temporary model 
+   * @return a temporary model
    */
   public static SModel run(SNode policy, SModel left, SModel right) {
     SModel resultModel = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forDefaultModule());

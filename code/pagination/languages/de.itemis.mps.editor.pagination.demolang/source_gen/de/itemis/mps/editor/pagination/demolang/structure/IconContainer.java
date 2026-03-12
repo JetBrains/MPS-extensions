@@ -7,5 +7,5 @@ import jetbrains.mps.smodel.runtime.IconResource;
 
 @ResourceModule("cff30ec5-b86b-4ddf-809c-939ea4d33bab(de.itemis.mps.editor.pagination.demolang)")
 public class IconContainer {
-  protected static IconResource RESOURCE_0 = new IconResource("TextIcon_1.png", null, IconContainer.class);
+  protected static IconResource RESOURCE_0 = new IconResource("TextIcon_1.png", "TextIconNewUI_1.png", IconContainer.class);
 }

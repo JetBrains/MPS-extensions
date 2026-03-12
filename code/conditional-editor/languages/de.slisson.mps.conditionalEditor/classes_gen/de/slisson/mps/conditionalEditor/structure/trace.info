@@ -13,7 +13,7 @@
       <unit at="11,0,110,0" name="de.slisson.mps.conditionalEditor.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,48,0" name="de.slisson.mps.conditionalEditor.structure.LanguageConceptSwitch" />
+      <unit at="12,0,56,0" name="de.slisson.mps.conditionalEditor.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="17,0,211,0" name="de.slisson.mps.conditionalEditor.structure.StructureAspectDescriptor" />
@@ -33,8 +33,8 @@
       <scope id="1452226863088593034" at="36,51,42,39" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="1452226863088593034" at="13,0,14,0" concept="6" trace="ComponentArgument" />
-      <node id="1452226863088593034" at="26,72,27,56" concept="0" />
+      <node id="1452226863088593034" at="15,0,16,0" concept="6" trace="ComponentArgument" />
+      <node id="1452226863088593034" at="28,72,29,56" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1452226863088593034" at="19,0,20,0" concept="1" trace="myConceptComponentArgument" />
@@ -70,8 +70,8 @@
       <scope id="1885109890161512391" at="50,50,56,38" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="1885109890161512391" at="15,0,16,0" concept="6" trace="DummyWrapperCell" />
-      <node id="1885109890161512391" at="28,74,29,55" concept="0" />
+      <node id="1885109890161512391" at="17,0,18,0" concept="6" trace="DummyWrapperCell" />
+      <node id="1885109890161512391" at="30,74,31,55" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1885109890161512391" at="21,0,22,0" concept="1" trace="myConceptDummyWrapperCell" />
@@ -106,8 +106,8 @@
       <scope id="2877762237606934069" at="43,69,49,57" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2877762237606934069" at="14,0,15,0" concept="6" trace="ConditionalConceptEditorDeclaration" />
-      <node id="2877762237606934069" at="27,56,28,74" concept="0" />
+      <node id="2877762237606934069" at="16,0,17,0" concept="6" trace="ConditionalConceptEditorDeclaration" />
+      <node id="2877762237606934069" at="29,56,30,74" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2877762237606934069" at="20,0,21,0" concept="1" trace="myConceptConditionalConceptEditorDeclaration" />
@@ -146,8 +146,8 @@
       <scope id="2877762237606985499" at="71,49,77,37" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2877762237606985499" at="18,0,19,0" concept="6" trace="EditorCondition" />
-      <node id="2877762237606985499" at="31,72,32,54" concept="0" />
+      <node id="2877762237606985499" at="20,0,21,0" concept="6" trace="EditorCondition" />
+      <node id="2877762237606985499" at="33,72,34,54" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2877762237606985499" at="24,0,25,0" concept="1" trace="myConceptEditorCondition" />
@@ -182,8 +182,8 @@
       <scope id="2877762237607058140" at="78,44,84,32" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2877762237607058140" at="19,0,20,0" concept="6" trace="NextEditor" />
-      <node id="2877762237607058140" at="32,54,33,49" concept="0" />
+      <node id="2877762237607058140" at="21,0,22,0" concept="6" trace="NextEditor" />
+      <node id="2877762237607058140" at="34,54,35,49" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2877762237607058140" at="25,0,26,0" concept="1" trace="myConceptNextEditor" />
@@ -218,8 +218,8 @@
       <scope id="5944411529051344265" at="85,50,91,38" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5944411529051344265" at="20,0,21,0" concept="6" trace="PriorityInfoCell" />
-      <node id="5944411529051344265" at="33,49,34,55" concept="0" />
+      <node id="5944411529051344265" at="22,0,23,0" concept="6" trace="PriorityInfoCell" />
+      <node id="5944411529051344265" at="35,49,36,55" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5944411529051344265" at="26,0,27,0" concept="1" trace="myConceptPriorityInfoCell" />
@@ -257,8 +257,8 @@
       <scope id="5944411529051554547" at="99,48,105,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5944411529051554547" at="22,0,23,0" concept="6" trace="UniqueNameInfo" />
-      <node id="5944411529051554547" at="35,76,36,53" concept="0" />
+      <node id="5944411529051554547" at="24,0,25,0" concept="6" trace="UniqueNameInfo" />
+      <node id="5944411529051554547" at="37,76,38,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5944411529051554547" at="28,0,29,0" concept="1" trace="myConceptUniqueNameInfo" />
@@ -292,8 +292,8 @@
       <scope id="6733065834252958387" at="57,74,63,62" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6733065834252958387" at="16,0,17,0" concept="6" trace="EditorComponentDeclarationWithParameters" />
-      <node id="6733065834252958387" at="29,55,30,79" concept="0" />
+      <node id="6733065834252958387" at="18,0,19,0" concept="6" trace="EditorComponentDeclarationWithParameters" />
+      <node id="6733065834252958387" at="31,55,32,79" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6733065834252958387" at="22,0,23,0" concept="1" trace="myConceptEditorComponentDeclarationWithParameters" />
@@ -330,8 +330,8 @@
       <scope id="6733065834258977599" at="64,67,70,55" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6733065834258977599" at="17,0,18,0" concept="6" trace="EditorComponentParameterReference" />
-      <node id="6733065834258977599" at="30,79,31,72" concept="0" />
+      <node id="6733065834258977599" at="19,0,20,0" concept="6" trace="EditorComponentParameterReference" />
+      <node id="6733065834258977599" at="32,79,33,72" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6733065834258977599" at="23,0,24,0" concept="1" trace="myConceptEditorComponentParameterReference" />
@@ -366,8 +366,8 @@
       <scope id="6733065834259135109" at="29,67,35,55" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6733065834259135109" at="12,0,13,0" concept="6" trace="CellModel_ComponentWithParameters" />
-      <node id="6733065834259135109" at="25,116,26,72" concept="0" />
+      <node id="6733065834259135109" at="14,0,15,0" concept="6" trace="CellModel_ComponentWithParameters" />
+      <node id="6733065834259135109" at="27,116,28,72" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6733065834259135109" at="18,0,19,0" concept="1" trace="myConceptCellModel_ComponentWithParameters" />
@@ -406,8 +406,8 @@
       <scope id="6733065834259138549" at="92,71,98,59" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6733065834259138549" at="21,0,22,0" concept="6" trace="StubCellModel_ComponentWithParameters" />
-      <node id="6733065834259138549" at="34,55,35,76" concept="0" />
+      <node id="6733065834259138549" at="23,0,24,0" concept="6" trace="StubCellModel_ComponentWithParameters" />
+      <node id="6733065834259138549" at="36,55,37,76" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6733065834259138549" at="27,0,28,0" concept="1" trace="myConceptStubCellModel_ComponentWithParameters" />

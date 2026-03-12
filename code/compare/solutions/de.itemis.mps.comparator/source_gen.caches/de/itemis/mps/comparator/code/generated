@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-h1lzrnegywx3bc9gi2lzpq4ncqwajk">
+<product version="3" modelHash="-4glljmjpp5nkmhvlccrgv2yeedo6dcn">
   <files names="AttributeDifference.java:CRLFLineEndingHandler.java:CRLineEndingHandler.java:ChildDifference.java:ComparatorStringUtils.java:DiffHelper.java:DiffView.java:DifferentConceptDifference.java:DifferentNumberOfAttributesDifference.java:DifferentNumberOfChildrenDifference.java:GeneratorFacade.java:IgnoredChild.java:IgnoredProperty.java:IgnoredReference.java:KeepLineEndingHandler.java:LFLineEndingHandler.java:LineEndingHandler.java:MPSComparatorOptions.java:MPSNodeComparator.java:MPSNodeComparisonResult.java:MapOfList.java:MissingReferenceDifference.java:NodeDifference.java:OldLineEndingHandler.java:PatchGenerator.java:PropertyDifference.java:ReferenceDifference.java:StringUtils.java:TextComparison.java:WhitespaceHandling.java" />
 </product>
 

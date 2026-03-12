@@ -20,7 +20,7 @@ public class EnumerationDescriptor_SubPolicy extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_ElementOnBoth_0 = new EnumerationDescriptor.MemberDescriptor("ElementOnBoth", "Element Exists On Both Sides", 0x1ed6b4fde1bea6e3L, "r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)/2222162468661012195");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x539e893908ef497cL, 0xa5fd25dd10137a55L, 0x1ed6b4fde1bea6deL, 0x1ed6b4fde1bea6dfL, 0x1ed6b4fde1bea6e0L, 0x1ed6b4fde1bea6e3L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NewOnRight_0, myMember_ExistsOnLeft_0, myMember_ElementOnBoth_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NewOnRight_0, myMember_ExistsOnLeft_0, myMember_ElementOnBoth_0);
 
   @Nullable
   @Override

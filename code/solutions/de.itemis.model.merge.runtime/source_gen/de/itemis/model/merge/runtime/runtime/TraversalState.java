@@ -13,9 +13,9 @@ import org.apache.commons.lang3.tuple.ImmutablePair;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 /**
- * During the Traversal of DAG defined by concepts and their extends- and implements-relations we need to keep track of defined values attached 
- * to the concepts. On a top-down traversal we need to keep track of all values defined for properties and children defined for  ancestors of 
- * the current visited concept. 
+ * During the Traversal of DAG defined by concepts and their extends- and implements-relations we need to keep track of defined values attached
+ * to the concepts. On a top-down traversal we need to keep track of all values defined for properties and children defined for  ancestors of
+ * the current visited concept.
  */
 public class TraversalState {
 

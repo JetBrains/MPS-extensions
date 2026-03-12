@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:f7e6b5a4-d821-40cc-be56-7edd61c4a361(test.nl.f1re.mps.aliascustomization.demolang.plugin)">
+<model ref="r:16e0e06f-9e0b-4c67-b1e0-b7bdb58a8945(de.slisson.mps.conditionalEditor.demolang.plugin)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="94uq" ref="r:4aa258f9-2a58-4453-8509-17aa4bd105d2(nl.f1re.mps.aliascustomization.plugin)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="94uq" ref="r:4aa258f9-2a58-4453-8509-17aa4bd105d2(nl.f1re.mps.aliascustomization.plugin)" />
     <import index="90d" ref="r:421d64ed-8024-497f-aeab-8bddeb389dd2(jetbrains.mps.lang.extension.methods)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="hx4v" ref="r:143d8fbb-9206-40d4-9eea-833943255ba9(test.nl.f1re.mps.aliascustomization.demolang.structure)" implicit="true" />

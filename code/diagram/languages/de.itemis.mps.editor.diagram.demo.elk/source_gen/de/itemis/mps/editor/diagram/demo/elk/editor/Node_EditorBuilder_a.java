@@ -67,7 +67,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   /*package*/ EditorCell createCell() {
-    return createDiagramNode_1();
+    return _cell_factory_method_();
   }
 
   private EditorCell createDiagramNode_0(final EditorContext editorContext, final SNode node) {
@@ -164,8 +164,8 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
     return editorCell.value;
   }
-  private EditorCell createDiagramNode_1() {
-    return createDiagramNode_0(getEditorContext(), myNode);
+  private EditorCell _cell_factory_method_() {
+    return createDiagramNode_0(getEditorContext(), getNode());
   }
   private boolean _StyleParameter_QueryFunction_aofvvp_a0a() {
     return SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(getNode()), CONCEPTS.BoxTest$UP) && SPropertyOperations.getBoolean(SNodeOperations.cast(SNodeOperations.getContainingRoot(getNode()), CONCEPTS.IBaseGraphTest$wA), PROPS.applyNodeStyles$p_L4);

@@ -192,8 +192,8 @@
       <node id="8958347146612719602" at="122,72,123,111" concept="4" />
       <node id="8958347146612725341" at="123,111,124,80" concept="4" />
       <node id="8958347146612730756" at="125,32,126,66" concept="1" />
-      <node id="8958347146613279042" at="127,11,128,75" concept="1" />
-      <node id="8958347146615623749" at="128,75,129,0" concept="6" />
+      <node id="8958347146613279042" at="127,11,128,109" concept="1" />
+      <node id="8958347146615623749" at="128,109,129,0" concept="6" />
       <node id="8958347146612755510" at="131,45,132,94" concept="5" />
       <node id="8958347146612763292" at="134,13,135,39" concept="1" />
       <node id="8958347146612764316" at="135,39,136,71" concept="1" />
@@ -211,7 +211,7 @@
       <node id="1996828906386690937" at="159,11,160,0" concept="6" />
       <node id="6231876011353612575" at="162,45,163,77" concept="5" />
       <node id="6231876011353619248" at="167,45,168,78" concept="5" />
-      <node id="6231876011353525380" at="170,22,171,0" concept="6" />
+      <node id="6231876011353525380" at="170,23,171,0" concept="6" />
       <node id="6231876011353525389" at="173,45,174,72" concept="5" />
       <node id="6231876011353525398" at="176,13,177,36" concept="1" />
       <node id="6231876011353525400" at="177,36,178,73" concept="1" />
@@ -270,8 +270,8 @@
       <node id="8360281570504221256" at="115,0,119,0" concept="3" trace="test_compileInMPS_devkit#()V" />
       <node id="8958347146612749189" at="129,0,134,13" concept="4" />
       <node id="8958347146615624634" at="138,0,143,13" concept="4" />
-      <node id="6231876011353603778" at="160,0,165,22" concept="1" />
-      <node id="6231876011353619242" at="165,22,170,22" concept="1" />
+      <node id="6231876011353603778" at="160,0,165,23" concept="1" />
+      <node id="6231876011353619242" at="165,23,170,23" concept="1" />
       <node id="6231876011353525381" at="171,0,176,13" concept="4" />
       <node id="6231876011353624083" at="183,0,188,13" concept="4" />
       <node id="8360281570502754004" at="199,0,207,0" concept="3" trace="getSModuleAsNode#()Lorg/modelix/model/mpsadapters/mps/SModuleAsNode;" />
@@ -384,8 +384,8 @@
       <scope id="6231876011353525338" at="151,0,198,0" />
       <unit id="8958347146612754998" at="130,71,134,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$1" />
       <unit id="8958347146615624640" at="139,71,143,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$2" />
-      <unit id="6231876011353611834" at="161,75,165,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$3" />
-      <unit id="6231876011353619246" at="166,75,170,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$4" />
+      <unit id="6231876011353611834" at="161,108,165,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$3" />
+      <unit id="6231876011353619246" at="166,108,170,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$4" />
       <unit id="6231876011353525387" at="172,68,176,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$5" />
       <unit id="6231876011353624089" at="184,76,188,11" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody$6" />
       <unit id="8360281570502753969" at="76,0,217,0" name="test.org.modelix.model.mpsadapters.wrappingmodelapi.SModuleAsNode_Test$TestBody" />
@@ -403,8 +403,8 @@
       <node id="8958347146613252901" at="56,103,57,80" concept="4" />
       <node id="8958347146613252910" at="58,32,59,66" concept="1" />
       <node id="8958347146613252920" at="60,11,61,0" concept="6" />
-      <node id="8958347146613317543" at="61,0,62,74" concept="1" />
-      <node id="8958347146613317118" at="62,74,63,0" concept="6" />
+      <node id="8958347146613317543" at="61,0,62,108" concept="1" />
+      <node id="8958347146613317118" at="62,108,63,0" concept="6" />
       <node id="8958347146613252929" at="65,45,66,92" concept="5" />
       <node id="8958347146613252938" at="68,13,69,41" concept="1" />
       <node id="8958347146613252940" at="69,41,70,73" concept="1" />

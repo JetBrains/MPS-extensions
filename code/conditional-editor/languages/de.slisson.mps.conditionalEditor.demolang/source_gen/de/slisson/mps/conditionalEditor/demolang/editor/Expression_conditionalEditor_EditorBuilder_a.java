@@ -37,22 +37,19 @@ import jetbrains.mps.nodeEditor.MPSColors;
   }
 
   /*package*/ EditorCell createCell() {
-    return createPriorityInfoCell_1();
+    return createPriorityInfoCell_0();
   }
 
-  private EditorCell createPriorityInfoCell_0(EditorContext editorContext, SNode node) {
+  private EditorCell createPriorityInfoCell_0() {
     EditorCell editorCell = null;
     editorCell = createAlternation_0();
     editorCell.setBig(true);
     setCellContext(editorCell);
     return editorCell;
   }
-  private EditorCell createPriorityInfoCell_1() {
-    return createPriorityInfoCell_0(getEditorContext(), myNode);
-  }
   private EditorCell createAlternation_0() {
     boolean alternationCondition = true;
-    alternationCondition = nodeCondition_rm5034_a0a();
+    alternationCondition = nodeCondition_rm5034_a0a_0();
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = createCollection_0();
@@ -61,7 +58,7 @@ import jetbrains.mps.nodeEditor.MPSColors;
     }
     return editorCell;
   }
-  private boolean nodeCondition_rm5034_a0a() {
+  private boolean nodeCondition_rm5034_a0a_0() {
     return ExpressionTypeInfo.showTypeInfo;
   }
   private EditorCell createCollection_0() {

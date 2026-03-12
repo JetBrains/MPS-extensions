@@ -7,5 +7,5 @@ import jetbrains.mps.smodel.runtime.IconResource;
 
 @ResourceModule("cdaf53d5-8786-43a0-bdba-ae0da5acb9e8(de.itemis.mps.modelmerger)")
 public class IconContainer {
-  protected static IconResource RESOURCE_0 = new IconResource("TextIcon_1.png", null, IconContainer.class);
+  protected static IconResource RESOURCE_0 = new IconResource("TextIcon_1.png", "TextIconNewUI_1.png", IconContainer.class);
 }

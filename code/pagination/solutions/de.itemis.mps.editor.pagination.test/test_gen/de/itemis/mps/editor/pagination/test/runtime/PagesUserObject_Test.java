@@ -107,13 +107,13 @@ public class PagesUserObject_Test extends BaseTransformationTest {
         SContainmentLink link = LINKS.smodelAttribute$KJ43;
         int pageSize1 = 2;
         PagesUserObject pagesUserObj1 = new PagesUserObject(node, link, pageSize1);
-        Assert.assertEquals(pageSize1, pagesUserObj1.getPageSize());
-        Assert.assertEquals(pageSize1, pagesUserObj1.getPages().getCurrentPage().getPageSize());
+        Assert.assertEquals(Integer.valueOf(pageSize1), Integer.valueOf(pagesUserObj1.getPageSize()));
+        Assert.assertEquals(Integer.valueOf(pageSize1), Integer.valueOf(pagesUserObj1.getPages().getCurrentPage().getPageSize()));
         // changing the pageSize should recalculate the pages
         int pageSize2 = 4;
         PagesUserObject pagesUserObj2 = new PagesUserObject(node, link, pageSize2);
-        Assert.assertEquals(pageSize2, pagesUserObj2.getPageSize());
-        Assert.assertEquals(pageSize2, pagesUserObj2.getPages().getCurrentPage().getPageSize());
+        Assert.assertEquals(Integer.valueOf(pageSize2), Integer.valueOf(pagesUserObj2.getPageSize()));
+        Assert.assertEquals(Integer.valueOf(pageSize2), Integer.valueOf(pagesUserObj2.getPages().getCurrentPage().getPageSize()));
       });
     }
 

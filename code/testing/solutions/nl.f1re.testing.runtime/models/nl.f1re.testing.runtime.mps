@@ -7,7 +7,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
@@ -316,16 +316,10 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
       <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
@@ -630,9 +624,69 @@
     </node>
     <node concept="3Tm1VV" id="6HRhZeXDGqw" role="1B3o_S" />
     <node concept="3UR2Jj" id="6HRhZeXG7hQ" role="lGtFl">
-      <node concept="TZ5HA" id="6HRhZeXG7hR" role="TZ5H$">
-        <node concept="1dT_AC" id="6HRhZeXG7hS" role="1dT_Ay">
-          <property role="1dT_AB" value="This class can be called from places where there is no write/read access to the model like editor node test cases." />
+      <node concept="1PaTwC" id="L0S2CpU6R3" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6R4" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6R5" role="1PaTwD">
+          <property role="3oM_SC" value="class" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6R6" role="1PaTwD">
+          <property role="3oM_SC" value="can" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6R7" role="1PaTwD">
+          <property role="3oM_SC" value="be" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6R8" role="1PaTwD">
+          <property role="3oM_SC" value="called" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6R9" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ra" role="1PaTwD">
+          <property role="3oM_SC" value="places" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rb" role="1PaTwD">
+          <property role="3oM_SC" value="where" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rc" role="1PaTwD">
+          <property role="3oM_SC" value="there" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rd" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Re" role="1PaTwD">
+          <property role="3oM_SC" value="no" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rf" role="1PaTwD">
+          <property role="3oM_SC" value="write/read" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rg" role="1PaTwD">
+          <property role="3oM_SC" value="access" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rh" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ri" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rj" role="1PaTwD">
+          <property role="3oM_SC" value="model" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rk" role="1PaTwD">
+          <property role="3oM_SC" value="like" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rl" role="1PaTwD">
+          <property role="3oM_SC" value="editor" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rm" role="1PaTwD">
+          <property role="3oM_SC" value="node" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rn" role="1PaTwD">
+          <property role="3oM_SC" value="test" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ro" role="1PaTwD">
+          <property role="3oM_SC" value="cases." />
         </node>
       </node>
     </node>
@@ -955,9 +1009,69 @@
     </node>
     <node concept="3Tm1VV" id="6HRhZeXDGGo" role="1B3o_S" />
     <node concept="3UR2Jj" id="6HRhZeXG7rR" role="lGtFl">
-      <node concept="TZ5HA" id="6HRhZeXG7rS" role="TZ5H$">
-        <node concept="1dT_AC" id="6HRhZeXG7rT" role="1dT_Ay">
-          <property role="1dT_AB" value="This class can be called from places where there is no write/read access to the model like editor node test cases." />
+      <node concept="1PaTwC" id="L0S2CpU6Rp" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Rq" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rr" role="1PaTwD">
+          <property role="3oM_SC" value="class" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rs" role="1PaTwD">
+          <property role="3oM_SC" value="can" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rt" role="1PaTwD">
+          <property role="3oM_SC" value="be" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ru" role="1PaTwD">
+          <property role="3oM_SC" value="called" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rv" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rw" role="1PaTwD">
+          <property role="3oM_SC" value="places" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rx" role="1PaTwD">
+          <property role="3oM_SC" value="where" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ry" role="1PaTwD">
+          <property role="3oM_SC" value="there" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Rz" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6R$" role="1PaTwD">
+          <property role="3oM_SC" value="no" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6R_" role="1PaTwD">
+          <property role="3oM_SC" value="write/read" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RA" role="1PaTwD">
+          <property role="3oM_SC" value="access" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RB" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RC" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RD" role="1PaTwD">
+          <property role="3oM_SC" value="model" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RE" role="1PaTwD">
+          <property role="3oM_SC" value="like" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RF" role="1PaTwD">
+          <property role="3oM_SC" value="editor" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RG" role="1PaTwD">
+          <property role="3oM_SC" value="node" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RH" role="1PaTwD">
+          <property role="3oM_SC" value="test" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RI" role="1PaTwD">
+          <property role="3oM_SC" value="cases." />
         </node>
       </node>
     </node>
@@ -1907,9 +2021,69 @@
     </node>
     <node concept="3Tm1VV" id="6HRhZeXHgKe" role="1B3o_S" />
     <node concept="3UR2Jj" id="6HRhZeXHgKf" role="lGtFl">
-      <node concept="TZ5HA" id="6HRhZeXHgKg" role="TZ5H$">
-        <node concept="1dT_AC" id="6HRhZeXHgKh" role="1dT_Ay">
-          <property role="1dT_AB" value="This class can be called from places where there is no write/read access to the model like editor node test cases." />
+      <node concept="1PaTwC" id="L0S2CpU6RJ" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6RK" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RL" role="1PaTwD">
+          <property role="3oM_SC" value="class" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RM" role="1PaTwD">
+          <property role="3oM_SC" value="can" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RN" role="1PaTwD">
+          <property role="3oM_SC" value="be" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RO" role="1PaTwD">
+          <property role="3oM_SC" value="called" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RP" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RQ" role="1PaTwD">
+          <property role="3oM_SC" value="places" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RR" role="1PaTwD">
+          <property role="3oM_SC" value="where" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RS" role="1PaTwD">
+          <property role="3oM_SC" value="there" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RT" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RU" role="1PaTwD">
+          <property role="3oM_SC" value="no" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RV" role="1PaTwD">
+          <property role="3oM_SC" value="write/read" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RW" role="1PaTwD">
+          <property role="3oM_SC" value="access" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RX" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RY" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6RZ" role="1PaTwD">
+          <property role="3oM_SC" value="model" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6S0" role="1PaTwD">
+          <property role="3oM_SC" value="like" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6S1" role="1PaTwD">
+          <property role="3oM_SC" value="editor" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6S2" role="1PaTwD">
+          <property role="3oM_SC" value="node" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6S3" role="1PaTwD">
+          <property role="3oM_SC" value="test" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6S4" role="1PaTwD">
+          <property role="3oM_SC" value="cases." />
         </node>
       </node>
     </node>
@@ -2630,9 +2804,69 @@
     <node concept="2tJIrI" id="5nwfWGQ6VQQ" role="jymVt" />
     <node concept="3Tm1VV" id="6HRhZeXG282" role="1B3o_S" />
     <node concept="3UR2Jj" id="6HRhZeXG7KV" role="lGtFl">
-      <node concept="TZ5HA" id="6HRhZeXG7KW" role="TZ5H$">
-        <node concept="1dT_AC" id="6HRhZeXG7KX" role="1dT_Ay">
-          <property role="1dT_AB" value="This class can be called from places where there is no write/read access to the model like editor node test cases." />
+      <node concept="1PaTwC" id="L0S2CpU6S5" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6S6" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6S7" role="1PaTwD">
+          <property role="3oM_SC" value="class" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6S8" role="1PaTwD">
+          <property role="3oM_SC" value="can" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6S9" role="1PaTwD">
+          <property role="3oM_SC" value="be" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sa" role="1PaTwD">
+          <property role="3oM_SC" value="called" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sb" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sc" role="1PaTwD">
+          <property role="3oM_SC" value="places" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sd" role="1PaTwD">
+          <property role="3oM_SC" value="where" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Se" role="1PaTwD">
+          <property role="3oM_SC" value="there" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sf" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sg" role="1PaTwD">
+          <property role="3oM_SC" value="no" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sh" role="1PaTwD">
+          <property role="3oM_SC" value="write/read" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Si" role="1PaTwD">
+          <property role="3oM_SC" value="access" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sj" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sk" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sl" role="1PaTwD">
+          <property role="3oM_SC" value="model" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sm" role="1PaTwD">
+          <property role="3oM_SC" value="like" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sn" role="1PaTwD">
+          <property role="3oM_SC" value="editor" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6So" role="1PaTwD">
+          <property role="3oM_SC" value="node" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sp" role="1PaTwD">
+          <property role="3oM_SC" value="test" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Sq" role="1PaTwD">
+          <property role="3oM_SC" value="cases." />
         </node>
       </node>
     </node>
@@ -4355,9 +4589,15 @@
       </node>
     </node>
     <node concept="3UR2Jj" id="5nwfWGQ282k" role="lGtFl">
-      <node concept="TZ5HA" id="5nwfWGQ282l" role="TZ5H$">
-        <node concept="1dT_AC" id="5nwfWGQ282m" role="1dT_Ay">
-          <property role="1dT_AB" value="Copied from https://github.com/JetBrains/MPS/blob/master/testbench/testsolutions/execution-test/tests/test_gen/jetbrains/mps/execution/impl/configurations/util/ProcessRunnerForConfigurationTests.java" />
+      <node concept="1PaTwC" id="L0S2CpU6Sr" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Ss" role="1PaTwD">
+          <property role="3oM_SC" value="Copied" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6St" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Su" role="1PaTwD">
+          <property role="3oM_SC" value="https://github.com/JetBrains/MPS/blob/master/testbench/testsolutions/execution-test/tests/test_gen/jetbrains/mps/execution/impl/configurations/util/ProcessRunnerForConfigurationTests.java" />
         </node>
       </node>
     </node>

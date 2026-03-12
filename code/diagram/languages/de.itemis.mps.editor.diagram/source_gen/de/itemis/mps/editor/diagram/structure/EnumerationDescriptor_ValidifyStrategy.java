@@ -20,7 +20,7 @@ public class EnumerationDescriptor_ValidifyStrategy extends EnumerationDescripto
   private final EnumerationDescriptor.MemberDescriptor myMember_LOOK_BACK_0 = new EnumerationDescriptor.MemberDescriptor("LOOK_BACK", "LOOK_BACK", 0x32d28aa5f4575cd2L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379237586");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f4575cccL, 0x32d28aa5f4575ccdL, 0x32d28aa5f4575ccfL, 0x32d28aa5f4575cd2L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NO_0, myMember_GREEDY_0, myMember_LOOK_BACK_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NO_0, myMember_GREEDY_0, myMember_LOOK_BACK_0);
 
   @Nullable
   @Override

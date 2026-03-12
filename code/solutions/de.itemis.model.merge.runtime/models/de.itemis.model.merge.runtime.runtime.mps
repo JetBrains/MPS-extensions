@@ -7,7 +7,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
@@ -307,7 +307,6 @@
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
@@ -315,13 +314,10 @@
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
       </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -3113,68 +3109,392 @@
         </node>
       </node>
       <node concept="P$JXv" id="7ePFzsRMqjF" role="lGtFl">
-        <node concept="TZ5HA" id="7ePFzsRMqjG" role="TZ5H$">
-          <node concept="1dT_AC" id="7ePFzsRMqjH" role="1dT_Ay">
-            <property role="1dT_AB" value="Perform a merge of the lists leftChildren and rightChildren by matching elements of both." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="7ePFzsRN6Wt" role="TZ5H$">
-          <node concept="1dT_AC" id="7ePFzsRN6Wu" role="1dT_Ay">
-            <property role="1dT_AB" value="Unmatched elements from rightChildren, left to the first matched element, are prepended." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="4Prn4KOL9kr" role="TZ5H$">
-          <node concept="1dT_AC" id="4Prn4KOL9ks" role="1dT_Ay">
-            <property role="1dT_AB" value="Unmatched elements from rightChildren, right to the last matched element, are added as suffix." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="7ePFzsRN8Ta" role="TZ5H$">
-          <node concept="1dT_AC" id="7ePFzsRN8Tb" role="1dT_Ay">
-            <property role="1dT_AB" value="" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="7ePFzsRNaPy" role="TZ5H$">
-          <node concept="1dT_AC" id="7ePFzsRNaPz" role="1dT_Ay">
-            <property role="1dT_AB" value="Example where left elements are dropped, right elements kept:" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="7ePFzsRNcR3" role="TZ5H$">
-          <node concept="1dT_AC" id="7ePFzsRNcR4" role="1dT_Ay">
-            <property role="1dT_AB" value=" L = [B, C, D, F], R = [A, B, C, F, G] ==&gt; result = [A, B, C, F, G]" />
-          </node>
-        </node>
         <node concept="TUZQ0" id="7ePFzsRMqjI" role="3nqlJM">
-          <property role="TUZQ4" value="currently ignored" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="7ePFzsRMqjK" role="zr_5Q">
             <ref role="zr_51" node="50eR6VkTWMG" resolve="leftParent" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6MX" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6MY" role="1PaTwD">
+              <property role="3oM_SC" value="currently" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6MZ" role="1PaTwD">
+              <property role="3oM_SC" value="ignored" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="7ePFzsRMqjL" role="3nqlJM">
-          <property role="TUZQ4" value="currently ignored" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="7ePFzsRMqjN" role="zr_5Q">
             <ref role="zr_51" node="50eR6VkTWMI" resolve="rightParent" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6N0" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6N1" role="1PaTwD">
+              <property role="3oM_SC" value="currently" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6N2" role="1PaTwD">
+              <property role="3oM_SC" value="ignored" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="7ePFzsRMqjO" role="3nqlJM">
-          <property role="TUZQ4" value="list of children from the left side" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="7ePFzsRMqjQ" role="zr_5Q">
             <ref role="zr_51" node="50eR6VkTWMK" resolve="leftChildren" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6N3" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6N4" role="1PaTwD">
+              <property role="3oM_SC" value="list" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6N5" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6N6" role="1PaTwD">
+              <property role="3oM_SC" value="children" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6N7" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6N8" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6N9" role="1PaTwD">
+              <property role="3oM_SC" value="left" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Na" role="1PaTwD">
+              <property role="3oM_SC" value="side" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="7ePFzsRMqjR" role="3nqlJM">
-          <property role="TUZQ4" value="list of children from the right side" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="7ePFzsRMqjT" role="zr_5Q">
             <ref role="zr_51" node="77Ot_59WR17" resolve="rightChildren" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6Nb" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Nc" role="1PaTwD">
+              <property role="3oM_SC" value="list" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nd" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Ne" role="1PaTwD">
+              <property role="3oM_SC" value="children" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nf" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Ng" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nh" role="1PaTwD">
+              <property role="3oM_SC" value="right" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Ni" role="1PaTwD">
+              <property role="3oM_SC" value="side" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="7ePFzsRMqjU" role="3nqlJM">
-          <property role="TUZQ4" value=" merge operation which can be applied to two nodes, where node-specific merge-policy is retrieved" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="7ePFzsRMqjW" role="zr_5Q">
             <ref role="zr_51" node="50eR6VkTWMM" resolve="recursiveMergeOperation" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6Nj" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Nk" role="1PaTwD">
+              <property role="3oM_SC" value="" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nl" role="1PaTwD">
+              <property role="3oM_SC" value="merge" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nm" role="1PaTwD">
+              <property role="3oM_SC" value="operation" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nn" role="1PaTwD">
+              <property role="3oM_SC" value="which" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6No" role="1PaTwD">
+              <property role="3oM_SC" value="can" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Np" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nq" role="1PaTwD">
+              <property role="3oM_SC" value="applied" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nr" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Ns" role="1PaTwD">
+              <property role="3oM_SC" value="two" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nt" role="1PaTwD">
+              <property role="3oM_SC" value="nodes," />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nu" role="1PaTwD">
+              <property role="3oM_SC" value="where" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nv" role="1PaTwD">
+              <property role="3oM_SC" value="node-specific" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nw" role="1PaTwD">
+              <property role="3oM_SC" value="merge-policy" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Nx" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Ny" role="1PaTwD">
+              <property role="3oM_SC" value="retrieved" />
+            </node>
+          </node>
         </node>
         <node concept="x79VA" id="7ePFzsRMqjX" role="3nqlJM">
-          <property role="x79VB" value="the list of merged elements" />
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="L0S2CpU6Nz" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6N$" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6N_" role="1PaTwD">
+              <property role="3oM_SC" value="list" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6NA" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6NB" role="1PaTwD">
+              <property role="3oM_SC" value="merged" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6NC" role="1PaTwD">
+              <property role="3oM_SC" value="elements" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6LJ" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6LK" role="1PaTwD">
+            <property role="3oM_SC" value="Perform" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LL" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LM" role="1PaTwD">
+            <property role="3oM_SC" value="merge" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LN" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LO" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LP" role="1PaTwD">
+            <property role="3oM_SC" value="lists" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LQ" role="1PaTwD">
+            <property role="3oM_SC" value="leftChildren" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LR" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LS" role="1PaTwD">
+            <property role="3oM_SC" value="rightChildren" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LT" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LU" role="1PaTwD">
+            <property role="3oM_SC" value="matching" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LV" role="1PaTwD">
+            <property role="3oM_SC" value="elements" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LW" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LX" role="1PaTwD">
+            <property role="3oM_SC" value="both." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6LY" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6LZ" role="1PaTwD">
+            <property role="3oM_SC" value="Unmatched" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M0" role="1PaTwD">
+            <property role="3oM_SC" value="elements" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M1" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M2" role="1PaTwD">
+            <property role="3oM_SC" value="rightChildren," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M3" role="1PaTwD">
+            <property role="3oM_SC" value="left" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M4" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M5" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M6" role="1PaTwD">
+            <property role="3oM_SC" value="first" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M7" role="1PaTwD">
+            <property role="3oM_SC" value="matched" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M8" role="1PaTwD">
+            <property role="3oM_SC" value="element," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M9" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ma" role="1PaTwD">
+            <property role="3oM_SC" value="prepended." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6Mb" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Mc" role="1PaTwD">
+            <property role="3oM_SC" value="Unmatched" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Md" role="1PaTwD">
+            <property role="3oM_SC" value="elements" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Me" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mf" role="1PaTwD">
+            <property role="3oM_SC" value="rightChildren," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mg" role="1PaTwD">
+            <property role="3oM_SC" value="right" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mh" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mi" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mj" role="1PaTwD">
+            <property role="3oM_SC" value="last" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mk" role="1PaTwD">
+            <property role="3oM_SC" value="matched" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ml" role="1PaTwD">
+            <property role="3oM_SC" value="element," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mm" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mn" role="1PaTwD">
+            <property role="3oM_SC" value="added" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mo" role="1PaTwD">
+            <property role="3oM_SC" value="as" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mp" role="1PaTwD">
+            <property role="3oM_SC" value="suffix." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6Mq" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Mr" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6Ms" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Mt" role="1PaTwD">
+            <property role="3oM_SC" value="Example" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mu" role="1PaTwD">
+            <property role="3oM_SC" value="where" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mv" role="1PaTwD">
+            <property role="3oM_SC" value="left" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mw" role="1PaTwD">
+            <property role="3oM_SC" value="elements" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mx" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6My" role="1PaTwD">
+            <property role="3oM_SC" value="dropped," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Mz" role="1PaTwD">
+            <property role="3oM_SC" value="right" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M$" role="1PaTwD">
+            <property role="3oM_SC" value="elements" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6M_" role="1PaTwD">
+            <property role="3oM_SC" value="kept:" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6MA" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6MB" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MC" role="1PaTwD">
+            <property role="3oM_SC" value="L" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MD" role="1PaTwD">
+            <property role="3oM_SC" value="=" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6ME" role="1PaTwD">
+            <property role="3oM_SC" value="[B," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MF" role="1PaTwD">
+            <property role="3oM_SC" value="C," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MG" role="1PaTwD">
+            <property role="3oM_SC" value="D," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MH" role="1PaTwD">
+            <property role="3oM_SC" value="F]," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MI" role="1PaTwD">
+            <property role="3oM_SC" value="R" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MJ" role="1PaTwD">
+            <property role="3oM_SC" value="=" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MK" role="1PaTwD">
+            <property role="3oM_SC" value="[A," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6ML" role="1PaTwD">
+            <property role="3oM_SC" value="B," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MM" role="1PaTwD">
+            <property role="3oM_SC" value="C," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MN" role="1PaTwD">
+            <property role="3oM_SC" value="F," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MO" role="1PaTwD">
+            <property role="3oM_SC" value="G]" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MP" role="1PaTwD">
+            <property role="3oM_SC" value="==&gt;" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MQ" role="1PaTwD">
+            <property role="3oM_SC" value="result" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MR" role="1PaTwD">
+            <property role="3oM_SC" value="=" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MS" role="1PaTwD">
+            <property role="3oM_SC" value="[A," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MT" role="1PaTwD">
+            <property role="3oM_SC" value="B," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MU" role="1PaTwD">
+            <property role="3oM_SC" value="C," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MV" role="1PaTwD">
+            <property role="3oM_SC" value="F," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6MW" role="1PaTwD">
+            <property role="3oM_SC" value="G]" />
+          </node>
         </node>
       </node>
     </node>
@@ -10476,9 +10796,45 @@
     <node concept="2tJIrI" id="pCYaxse33R" role="jymVt" />
     <node concept="3Tm1VV" id="2V55j61W8Fr" role="1B3o_S" />
     <node concept="3UR2Jj" id="6B0NpqHzNhy" role="lGtFl">
-      <node concept="TZ5HA" id="6B0NpqHzNhz" role="TZ5H$">
-        <node concept="1dT_AC" id="6B0NpqHzNh$" role="1dT_Ay">
-          <property role="1dT_AB" value="Given a ModelMergePolicy it will merge a list of two root nodes accordingly" />
+      <node concept="1PaTwC" id="L0S2CpU6Kh" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Ki" role="1PaTwD">
+          <property role="3oM_SC" value="Given" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kj" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kk" role="1PaTwD">
+          <property role="3oM_SC" value="ModelMergePolicy" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kl" role="1PaTwD">
+          <property role="3oM_SC" value="it" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Km" role="1PaTwD">
+          <property role="3oM_SC" value="will" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kn" role="1PaTwD">
+          <property role="3oM_SC" value="merge" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ko" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kp" role="1PaTwD">
+          <property role="3oM_SC" value="list" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kq" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kr" role="1PaTwD">
+          <property role="3oM_SC" value="two" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ks" role="1PaTwD">
+          <property role="3oM_SC" value="root" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kt" role="1PaTwD">
+          <property role="3oM_SC" value="nodes" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ku" role="1PaTwD">
+          <property role="3oM_SC" value="accordingly" />
         </node>
       </node>
     </node>
@@ -11763,30 +12119,117 @@
         </node>
       </node>
       <node concept="P$JXv" id="6B0NpqHvdyk" role="lGtFl">
-        <node concept="TZ5HA" id="6B0NpqHvdyl" role="TZ5H$">
-          <node concept="1dT_AC" id="6B0NpqHvdym" role="1dT_Ay">
-            <property role="1dT_AB" value="Based on the user defined 'ModelMergingPolicy' we get an object which given 'SAbstractConcept' and 'SAbstractLink'" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="6B0NpqHv$pQ" role="TZ5H$">
-          <node concept="1dT_AC" id="6B0NpqHv$pR" role="1dT_Ay">
-            <property role="1dT_AB" value="returns appropriate Merger-Objects for properties, children and references." />
-          </node>
-        </node>
         <node concept="TUZQ0" id="6B0NpqHvdyn" role="3nqlJM">
-          <property role="TUZQ4" value="modelMerge defined by user" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqHvdyp" role="zr_5Q">
             <ref role="zr_51" node="2QNuyuiLuq_" resolve="mergingPolicy" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6O2" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6O3" role="1PaTwD">
+              <property role="3oM_SC" value="modelMerge" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6O4" role="1PaTwD">
+              <property role="3oM_SC" value="defined" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6O5" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6O6" role="1PaTwD">
+              <property role="3oM_SC" value="user" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="6B0NpqHvdyq" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqHvdys" role="zr_5Q">
             <ref role="zr_51" node="7wnapcW0odE" resolve="contentHolderFactory" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6O7" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6O8" role="1PaTwD">
+              <property role="3oM_SC" value=" " />
+            </node>
+          </node>
         </node>
         <node concept="x79VA" id="6B0NpqHvdyt" role="3nqlJM">
-          <property role="x79VB" value="mergerResolver" />
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="L0S2CpU6O9" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Oa" role="1PaTwD">
+              <property role="3oM_SC" value="mergerResolver" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6ND" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6NE" role="1PaTwD">
+            <property role="3oM_SC" value="Based" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NF" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NG" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NH" role="1PaTwD">
+            <property role="3oM_SC" value="user" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NI" role="1PaTwD">
+            <property role="3oM_SC" value="defined" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NJ" role="1PaTwD">
+            <property role="3oM_SC" value="'ModelMergingPolicy'" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NK" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NL" role="1PaTwD">
+            <property role="3oM_SC" value="get" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NM" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NN" role="1PaTwD">
+            <property role="3oM_SC" value="object" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NO" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NP" role="1PaTwD">
+            <property role="3oM_SC" value="given" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NQ" role="1PaTwD">
+            <property role="3oM_SC" value="'SAbstractConcept'" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NR" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NS" role="1PaTwD">
+            <property role="3oM_SC" value="'SAbstractLink'" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6NT" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6NU" role="1PaTwD">
+            <property role="3oM_SC" value="returns" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NV" role="1PaTwD">
+            <property role="3oM_SC" value="appropriate" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NW" role="1PaTwD">
+            <property role="3oM_SC" value="Merger-Objects" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NX" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NY" role="1PaTwD">
+            <property role="3oM_SC" value="properties," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6NZ" role="1PaTwD">
+            <property role="3oM_SC" value="children" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6O0" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6O1" role="1PaTwD">
+            <property role="3oM_SC" value="references." />
+          </node>
         </node>
       </node>
     </node>
@@ -11894,46 +12337,240 @@
         <ref role="3uigEE" node="2QNuyuiL5OR" resolve="MergerResolverImpl" />
       </node>
       <node concept="P$JXv" id="6B0NpqHznCk" role="lGtFl">
-        <node concept="TZ5HA" id="6B0NpqHznCl" role="TZ5H$">
-          <node concept="1dT_AC" id="6B0NpqHznCm" role="1dT_Ay">
-            <property role="1dT_AB" value="Traverses the graph from a root to the leaf (for all roots ony by one)." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="6B0NpqHzoz9" role="TZ5H$">
-          <node concept="1dT_AC" id="6B0NpqHzoza" role="1dT_Ay">
-            <property role="1dT_AB" value="During this traversal for each concept of 'graph' it is determined what kind of merger-objects are " />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="6B0NpqHzAss" role="TZ5H$">
-          <node concept="1dT_AC" id="6B0NpqHzAst" role="1dT_Ay">
-            <property role="1dT_AB" value="valid for its properties, children and references. During the traversal merger-objects of parent-concepts are" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="6B0NpqHzAvD" role="TZ5H$">
-          <node concept="1dT_AC" id="6B0NpqHzAvE" role="1dT_Ay">
-            <property role="1dT_AB" value="propagated to their descendants. This way an inheritance hierarchy is implemented." />
-          </node>
-        </node>
         <node concept="TUZQ0" id="6B0NpqHznCn" role="3nqlJM">
-          <property role="TUZQ4" value="graph of concept hierarchy" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqHznCp" role="zr_5Q">
             <ref role="zr_51" node="18W7Z4Vmw0_" resolve="graph" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6P7" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6P8" role="1PaTwD">
+              <property role="3oM_SC" value="graph" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6P9" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Pa" role="1PaTwD">
+              <property role="3oM_SC" value="concept" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Pb" role="1PaTwD">
+              <property role="3oM_SC" value="hierarchy" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="6B0NpqHznCq" role="3nqlJM">
-          <property role="TUZQ4" value="concepts mapped to MergePolicies " />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqHznCs" role="zr_5Q">
             <ref role="zr_51" node="18W7Z4Vmw0C" resolve="sconceptToMergePolicy" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6Pc" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Pd" role="1PaTwD">
+              <property role="3oM_SC" value="concepts" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Pe" role="1PaTwD">
+              <property role="3oM_SC" value="mapped" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Pf" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Pg" role="1PaTwD">
+              <property role="3oM_SC" value="MergePolicies" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="6B0NpqHznCt" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqHznCv" role="zr_5Q">
             <ref role="zr_51" node="32ggi2DzbrS" resolve="contentHolderFactory" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6Ph" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Pi" role="1PaTwD">
+              <property role="3oM_SC" value=" " />
+            </node>
+          </node>
         </node>
         <node concept="x79VA" id="6B0NpqHznCw" role="3nqlJM">
-          <property role="x79VB" value=" " />
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="L0S2CpU6Pj" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Pk" role="1PaTwD">
+              <property role="3oM_SC" value=" " />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6Ob" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Oc" role="1PaTwD">
+            <property role="3oM_SC" value="Traverses" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Od" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Oe" role="1PaTwD">
+            <property role="3oM_SC" value="graph" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Of" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Og" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Oh" role="1PaTwD">
+            <property role="3oM_SC" value="root" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Oi" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Oj" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ok" role="1PaTwD">
+            <property role="3oM_SC" value="leaf" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ol" role="1PaTwD">
+            <property role="3oM_SC" value="(for" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Om" role="1PaTwD">
+            <property role="3oM_SC" value="all" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6On" role="1PaTwD">
+            <property role="3oM_SC" value="roots" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Oo" role="1PaTwD">
+            <property role="3oM_SC" value="ony" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Op" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Oq" role="1PaTwD">
+            <property role="3oM_SC" value="one)." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6Or" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Os" role="1PaTwD">
+            <property role="3oM_SC" value="During" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ot" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ou" role="1PaTwD">
+            <property role="3oM_SC" value="traversal" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ov" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ow" role="1PaTwD">
+            <property role="3oM_SC" value="each" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ox" role="1PaTwD">
+            <property role="3oM_SC" value="concept" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Oy" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Oz" role="1PaTwD">
+            <property role="3oM_SC" value="'graph'" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6O$" role="1PaTwD">
+            <property role="3oM_SC" value="it" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6O_" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OA" role="1PaTwD">
+            <property role="3oM_SC" value="determined" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OB" role="1PaTwD">
+            <property role="3oM_SC" value="what" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OC" role="1PaTwD">
+            <property role="3oM_SC" value="kind" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OD" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OE" role="1PaTwD">
+            <property role="3oM_SC" value="merger-objects" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OF" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6OG" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6OH" role="1PaTwD">
+            <property role="3oM_SC" value="valid" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OI" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OJ" role="1PaTwD">
+            <property role="3oM_SC" value="its" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OK" role="1PaTwD">
+            <property role="3oM_SC" value="properties," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OL" role="1PaTwD">
+            <property role="3oM_SC" value="children" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OM" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6ON" role="1PaTwD">
+            <property role="3oM_SC" value="references." />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OO" role="1PaTwD">
+            <property role="3oM_SC" value="During" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OP" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OQ" role="1PaTwD">
+            <property role="3oM_SC" value="traversal" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OR" role="1PaTwD">
+            <property role="3oM_SC" value="merger-objects" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OS" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OT" role="1PaTwD">
+            <property role="3oM_SC" value="parent-concepts" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OU" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6OV" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6OW" role="1PaTwD">
+            <property role="3oM_SC" value="propagated" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OX" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OY" role="1PaTwD">
+            <property role="3oM_SC" value="their" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6OZ" role="1PaTwD">
+            <property role="3oM_SC" value="descendants." />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6P0" role="1PaTwD">
+            <property role="3oM_SC" value="This" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6P1" role="1PaTwD">
+            <property role="3oM_SC" value="way" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6P2" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6P3" role="1PaTwD">
+            <property role="3oM_SC" value="inheritance" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6P4" role="1PaTwD">
+            <property role="3oM_SC" value="hierarchy" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6P5" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6P6" role="1PaTwD">
+            <property role="3oM_SC" value="implemented." />
+          </node>
         </node>
       </node>
     </node>
@@ -15733,19 +16370,163 @@
     </node>
     <node concept="3Tm1VV" id="7YSeTY7XhnL" role="1B3o_S" />
     <node concept="3UR2Jj" id="1trrptayDH4" role="lGtFl">
-      <node concept="TZ5HA" id="1trrptayDH5" role="TZ5H$">
-        <node concept="1dT_AC" id="1trrptayDH6" role="1dT_Ay">
-          <property role="1dT_AB" value="During the Traversal of DAG defined by concepts and their extends- and implements-relations we need to keep track of defined values attached " />
+      <node concept="1PaTwC" id="L0S2CpU6Kv" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Kw" role="1PaTwD">
+          <property role="3oM_SC" value="During" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kx" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ky" role="1PaTwD">
+          <property role="3oM_SC" value="Traversal" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Kz" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K$" role="1PaTwD">
+          <property role="3oM_SC" value="DAG" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K_" role="1PaTwD">
+          <property role="3oM_SC" value="defined" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KA" role="1PaTwD">
+          <property role="3oM_SC" value="by" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KB" role="1PaTwD">
+          <property role="3oM_SC" value="concepts" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KC" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KD" role="1PaTwD">
+          <property role="3oM_SC" value="their" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KE" role="1PaTwD">
+          <property role="3oM_SC" value="extends-" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KF" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KG" role="1PaTwD">
+          <property role="3oM_SC" value="implements-relations" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KH" role="1PaTwD">
+          <property role="3oM_SC" value="we" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KI" role="1PaTwD">
+          <property role="3oM_SC" value="need" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KJ" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KK" role="1PaTwD">
+          <property role="3oM_SC" value="keep" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KL" role="1PaTwD">
+          <property role="3oM_SC" value="track" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KM" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KN" role="1PaTwD">
+          <property role="3oM_SC" value="defined" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KO" role="1PaTwD">
+          <property role="3oM_SC" value="values" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KP" role="1PaTwD">
+          <property role="3oM_SC" value="attached" />
         </node>
       </node>
-      <node concept="TZ5HA" id="1trrptayIiU" role="TZ5H$">
-        <node concept="1dT_AC" id="1trrptayIiV" role="1dT_Ay">
-          <property role="1dT_AB" value="to the concepts. On a top-down traversal we need to keep track of all values defined for properties and children defined for  ancestors of " />
+      <node concept="1PaTwC" id="L0S2CpU6KQ" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6KR" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KS" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KT" role="1PaTwD">
+          <property role="3oM_SC" value="concepts." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KU" role="1PaTwD">
+          <property role="3oM_SC" value="On" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KV" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KW" role="1PaTwD">
+          <property role="3oM_SC" value="top-down" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KX" role="1PaTwD">
+          <property role="3oM_SC" value="traversal" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KY" role="1PaTwD">
+          <property role="3oM_SC" value="we" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6KZ" role="1PaTwD">
+          <property role="3oM_SC" value="need" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L0" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L1" role="1PaTwD">
+          <property role="3oM_SC" value="keep" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L2" role="1PaTwD">
+          <property role="3oM_SC" value="track" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L3" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L4" role="1PaTwD">
+          <property role="3oM_SC" value="all" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L5" role="1PaTwD">
+          <property role="3oM_SC" value="values" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L6" role="1PaTwD">
+          <property role="3oM_SC" value="defined" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L7" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L8" role="1PaTwD">
+          <property role="3oM_SC" value="properties" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L9" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6La" role="1PaTwD">
+          <property role="3oM_SC" value="children" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lb" role="1PaTwD">
+          <property role="3oM_SC" value="defined" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lc" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ld" role="1PaTwD">
+          <property role="3oM_SC" value="" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Le" role="1PaTwD">
+          <property role="3oM_SC" value="ancestors" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lf" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
         </node>
       </node>
-      <node concept="TZ5HA" id="1trrptayIjE" role="TZ5H$">
-        <node concept="1dT_AC" id="1trrptayIjF" role="1dT_Ay">
-          <property role="1dT_AB" value="the current visited concept. " />
+      <node concept="1PaTwC" id="L0S2CpU6Lg" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Lh" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Li" role="1PaTwD">
+          <property role="3oM_SC" value="current" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lj" role="1PaTwD">
+          <property role="3oM_SC" value="visited" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lk" role="1PaTwD">
+          <property role="3oM_SC" value="concept." />
         </node>
       </node>
     </node>
@@ -17917,20 +18698,85 @@
       <property role="TrG5h" value="C" />
     </node>
     <node concept="3UR2Jj" id="6B0NpqHuWRJ" role="lGtFl">
-      <node concept="TZ5HA" id="6B0NpqHuWRK" role="TZ5H$">
-        <node concept="1dT_AC" id="6B0NpqHuWRL" role="1dT_Ay">
-          <property role="1dT_AB" value="wraps a content (i.e. ConceptChildMerger, PropertyMerger, and ConceptRefMerger)" />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="6B0NpqHuYSW" role="TZ5H$">
-        <node concept="1dT_AC" id="6B0NpqHuYSX" role="1dT_Ay">
-          <property role="1dT_AB" value="to make them comparable and to track from which parent concept it originates" />
-        </node>
-      </node>
       <node concept="TUZQ0" id="6B0NpqHuWRM" role="3nqlJM">
-        <property role="TUZQ4" value="content type" />
+        <property role="TUZQ4" value="" />
         <node concept="zr_56" id="6B0NpqHuWRO" role="zr_5Q">
           <ref role="zr_51" node="6gT8sje5Mei" resolve="C" />
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6LG" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6LH" role="1PaTwD">
+            <property role="3oM_SC" value="content" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6LI" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+        </node>
+      </node>
+      <node concept="1PaTwC" id="L0S2CpU6Ll" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Lm" role="1PaTwD">
+          <property role="3oM_SC" value="wraps" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ln" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lo" role="1PaTwD">
+          <property role="3oM_SC" value="content" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lp" role="1PaTwD">
+          <property role="3oM_SC" value="(i.e." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lq" role="1PaTwD">
+          <property role="3oM_SC" value="ConceptChildMerger," />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lr" role="1PaTwD">
+          <property role="3oM_SC" value="PropertyMerger," />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ls" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lt" role="1PaTwD">
+          <property role="3oM_SC" value="ConceptRefMerger)" />
+        </node>
+      </node>
+      <node concept="1PaTwC" id="L0S2CpU6Lu" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Lv" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lw" role="1PaTwD">
+          <property role="3oM_SC" value="make" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lx" role="1PaTwD">
+          <property role="3oM_SC" value="them" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ly" role="1PaTwD">
+          <property role="3oM_SC" value="comparable" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Lz" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L$" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6L_" role="1PaTwD">
+          <property role="3oM_SC" value="track" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6LA" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6LB" role="1PaTwD">
+          <property role="3oM_SC" value="which" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6LC" role="1PaTwD">
+          <property role="3oM_SC" value="parent" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6LD" role="1PaTwD">
+          <property role="3oM_SC" value="concept" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6LE" role="1PaTwD">
+          <property role="3oM_SC" value="it" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6LF" role="1PaTwD">
+          <property role="3oM_SC" value="originates" />
         </node>
       </node>
     </node>
@@ -18480,33 +19326,80 @@
       </node>
       <node concept="3Tm1VV" id="2cYlIwYBddf" role="1B3o_S" />
       <node concept="P$JXv" id="6B0NpqHAh6X" role="lGtFl">
-        <node concept="TZ5HA" id="6B0NpqHAh6Y" role="TZ5H$">
-          <node concept="1dT_AC" id="6B0NpqHAh6Z" role="1dT_Ay">
-            <property role="1dT_AB" value="Merges left and right model according to policy into resultModel" />
-          </node>
-        </node>
         <node concept="TUZQ0" id="6B0NpqHAh70" role="3nqlJM">
-          <property role="TUZQ4" value="model" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqHAh72" role="zr_5Q">
             <ref role="zr_51" node="2cYlIwYBdd6" resolve="resultModel" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6Pw" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Px" role="1PaTwD">
+              <property role="3oM_SC" value="model" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="6B0NpqHAh73" role="3nqlJM">
-          <property role="TUZQ4" value="ModelMergingPolicy" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqHAh75" role="zr_5Q">
             <ref role="zr_51" node="2cYlIwYBdd8" resolve="policy" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6Py" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Pz" role="1PaTwD">
+              <property role="3oM_SC" value="ModelMergingPolicy" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="6B0NpqHAh76" role="3nqlJM">
-          <property role="TUZQ4" value="left" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqHAh78" role="zr_5Q">
             <ref role="zr_51" node="2cYlIwYBdda" resolve="left" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6P$" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6P_" role="1PaTwD">
+              <property role="3oM_SC" value="left" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="6B0NpqHAh79" role="3nqlJM">
-          <property role="TUZQ4" value="right" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqHAh7b" role="zr_5Q">
             <ref role="zr_51" node="2cYlIwYBddc" resolve="right" />
+          </node>
+          <node concept="1PaTwC" id="L0S2CpU6PA" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6PB" role="1PaTwD">
+              <property role="3oM_SC" value="right" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6Pl" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Pm" role="1PaTwD">
+            <property role="3oM_SC" value="Merges" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Pn" role="1PaTwD">
+            <property role="3oM_SC" value="left" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Po" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Pp" role="1PaTwD">
+            <property role="3oM_SC" value="right" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Pq" role="1PaTwD">
+            <property role="3oM_SC" value="model" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Pr" role="1PaTwD">
+            <property role="3oM_SC" value="according" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ps" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Pt" role="1PaTwD">
+            <property role="3oM_SC" value="policy" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Pu" role="1PaTwD">
+            <property role="3oM_SC" value="into" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Pv" role="1PaTwD">
+            <property role="3oM_SC" value="resultModel" />
           </node>
         </node>
       </node>
@@ -18861,31 +19754,84 @@
       </node>
       <node concept="3Tm1VV" id="2cYlIwYEMj3" role="1B3o_S" />
       <node concept="P$JXv" id="6B0NpqH$1Fw" role="lGtFl">
-        <node concept="TZ5HA" id="6B0NpqH$1Fx" role="TZ5H$">
-          <node concept="1dT_AC" id="6B0NpqH$1Fy" role="1dT_Ay">
-            <property role="1dT_AB" value="Merges the two given models according to policy" />
-          </node>
-        </node>
         <node concept="TUZQ0" id="6B0NpqH$1Fz" role="3nqlJM">
-          <property role="TUZQ4" value="ModelMergingPolicy" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqH$1F_" role="zr_5Q">
             <ref role="zr_51" node="2cYlIwYEMiW" resolve="policy" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6PL" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6PM" role="1PaTwD">
+              <property role="3oM_SC" value="ModelMergingPolicy" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="6B0NpqH$1FA" role="3nqlJM">
-          <property role="TUZQ4" value="left model" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqH$1FC" role="zr_5Q">
             <ref role="zr_51" node="2cYlIwYEMiY" resolve="left" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6PN" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6PO" role="1PaTwD">
+              <property role="3oM_SC" value="left" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6PP" role="1PaTwD">
+              <property role="3oM_SC" value="model" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="6B0NpqH$1FD" role="3nqlJM">
-          <property role="TUZQ4" value="right model" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="6B0NpqH$1FF" role="zr_5Q">
             <ref role="zr_51" node="2cYlIwYEMj0" resolve="right" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6PQ" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6PR" role="1PaTwD">
+              <property role="3oM_SC" value="right" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6PS" role="1PaTwD">
+              <property role="3oM_SC" value="model" />
+            </node>
+          </node>
         </node>
         <node concept="x79VA" id="6B0NpqH$1FG" role="3nqlJM">
-          <property role="x79VB" value="a temporary model " />
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="L0S2CpU6PT" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6PU" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6PV" role="1PaTwD">
+              <property role="3oM_SC" value="temporary" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6PW" role="1PaTwD">
+              <property role="3oM_SC" value="model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6PC" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6PD" role="1PaTwD">
+            <property role="3oM_SC" value="Merges" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6PE" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6PF" role="1PaTwD">
+            <property role="3oM_SC" value="two" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6PG" role="1PaTwD">
+            <property role="3oM_SC" value="given" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6PH" role="1PaTwD">
+            <property role="3oM_SC" value="models" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6PI" role="1PaTwD">
+            <property role="3oM_SC" value="according" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6PJ" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6PK" role="1PaTwD">
+            <property role="3oM_SC" value="policy" />
+          </node>
         </node>
       </node>
     </node>

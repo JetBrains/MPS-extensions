@@ -488,7 +488,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   /*package*/ static class Inline_Builder_ccxeo6_a0a0a extends AbstractEditorBuilder {
     @NotNull

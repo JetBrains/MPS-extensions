@@ -13,7 +13,6 @@ import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -23,19 +22,13 @@ public final class IEndpoint__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<SNode> getBox_id24zrZPPB6$C = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getBox").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361827088680L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
   public static final SMethod<String> getPortName_id24zrZPPB6_c = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPortName").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361827088716L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getBox_id24zrZPPB6$C, getPortName_id24zrZPPB6_c);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getBox_id24zrZPPB6$C, getPortName_id24zrZPPB6_c);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ IEndpoint__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.util.Objects;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -30,10 +29,8 @@ public final class MultiChildPolicy__BehaviorDescriptor extends BaseBHDescriptor
 
   public static final SMethod<Optional<SNode>> childIdFunction_id6CwG2k87nXX = new SMethodBuilder<Optional<SNode>>(new SJavaCompoundTypeImpl(Optional.class)).name("childIdFunction").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7647305840371531645L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childIdFunction_id6CwG2k87nXX);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childIdFunction_id6CwG2k87nXX);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Optional<SNode> childIdFunction_id6CwG2k87nXX(@NotNull SNode __thisNode__) {
     final SNode child = SLinkOperations.getTarget(__thisNode__, LINKS.child$kkGR);
@@ -45,10 +42,6 @@ public final class MultiChildPolicy__BehaviorDescriptor extends BaseBHDescriptor
   /*package*/ MultiChildPolicy__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

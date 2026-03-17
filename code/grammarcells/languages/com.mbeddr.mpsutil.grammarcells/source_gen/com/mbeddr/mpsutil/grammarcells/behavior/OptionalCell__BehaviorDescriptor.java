@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.mbeddr.mpsutil.grammarcells.generatorutils.GeneratorUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -35,10 +34,8 @@ public final class OptionalCell__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<String> getTransformationTextDescription_id5$jJV5dODFo = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTransformationTextDescription").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6418684662168853208L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
   public static final SMethod<Boolean> generatesInsertAction_id2EPKBwvgnje = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("generatesInsertAction").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3077579741553849550L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(generatesDeleteAction_id6ASs6LmWHDF, getFirstNonConst_id7KznU_3XzU4, getWrappedCell_id3O7ZvCZLQjf, getTransformationText_id7KznU_45kn7, getTransformationTextDescription_id5$jJV5dODFo, generatesInsertAction_id2EPKBwvgnje);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(generatesDeleteAction_id6ASs6LmWHDF, getFirstNonConst_id7KznU_3XzU4, getWrappedCell_id3O7ZvCZLQjf, getTransformationText_id7KznU_45kn7, getTransformationTextDescription_id5$jJV5dODFo, generatesInsertAction_id2EPKBwvgnje);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean generatesDeleteAction_id6ASs6LmWHDF(@NotNull SNode __thisNode__) {
     return true;
@@ -96,10 +93,6 @@ public final class OptionalCell__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ OptionalCell__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

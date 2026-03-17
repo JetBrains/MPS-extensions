@@ -20,7 +20,7 @@ public final class JavadocComment__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x4e0df6bde2654d63L, 0x9ca0ca97e44cf841L, 0x391b0ff5fbad193L, "de.slisson.mps.javadoc.structure.JavadocComment");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.setNewChild(__thisNode__, LINKS.text$lCHa, null);

@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,10 +21,8 @@ public final class ParentMember__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<String> getName_id5JUf$kD1Ixb = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6627678268391090251L).languageId(0x874c64e45c10778aL, 0x17566462d8374552L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getName_id5JUf$kD1Ixb);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getName_id5JUf$kD1Ixb);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getName_id5JUf$kD1Ixb(@NotNull SNode __thisNode__) {
     return "parent";
@@ -34,10 +31,6 @@ public final class ParentMember__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ ParentMember__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

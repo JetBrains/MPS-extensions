@@ -20,7 +20,6 @@ import java.util.ArrayList;
 import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -35,10 +34,8 @@ public final class IncrementalFunction__BehaviorDescriptor extends BaseBHDescrip
   public static final SMethod<String> getPresentation_id69Qfsw3IoJg = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234040272L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
   public static final SMethod<Iterable<SNode>> getParameters_id7qGGLAkZPfX = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8551406714925044733L).languageId(0x86bcb70a501ca28fL, 0xda8e6b627ca34489L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getBody_idi2fhZ_m, getExpectedRetType_idi2fhBNC, getThrowableTypes_id5op8ooRkkc7, getPresentation_id69Qfsw3IoJg, getParameters_id7qGGLAkZPfX);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getBody_idi2fhZ_m, getExpectedRetType_idi2fhBNC, getThrowableTypes_id5op8ooRkkc7, getPresentation_id69Qfsw3IoJg, getParameters_id7qGGLAkZPfX);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getBody_idi2fhZ_m(@NotNull SNode __thisNode__) {
     return SLinkOperations.getTarget(__thisNode__, LINKS.body$K6Gg);
@@ -60,10 +57,6 @@ public final class IncrementalFunction__BehaviorDescriptor extends BaseBHDescrip
   /*package*/ IncrementalFunction__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

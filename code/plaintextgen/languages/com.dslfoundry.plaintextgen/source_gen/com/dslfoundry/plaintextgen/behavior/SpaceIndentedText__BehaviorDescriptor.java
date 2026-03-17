@@ -35,7 +35,7 @@ public final class SpaceIndentedText__BehaviorDescriptor extends BaseBHDescripto
   public static final SMethod<Integer> getEditorViewWidth_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getEditorViewWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
   public static final SMethod<Void> surroundWith_id3xkJrZKaXl3 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("surroundWith").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4059077796233467203L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWidth_id6gwxh6GcBOM, getPosition_id4GbnmmUaMp0, getEditorViewWidth_id2jBmyzyEzhY, surroundWith_id3xkJrZKaXl3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWidth_id6gwxh6GcBOM, getPosition_id4GbnmmUaMp0, getEditorViewWidth_id2jBmyzyEzhY, surroundWith_id3xkJrZKaXl3);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.indent$WJd, "  ");

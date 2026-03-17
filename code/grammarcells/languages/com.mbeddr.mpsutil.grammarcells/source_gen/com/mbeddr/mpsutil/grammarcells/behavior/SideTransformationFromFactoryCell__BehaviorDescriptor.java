@@ -16,7 +16,6 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -29,10 +28,8 @@ public final class SideTransformationFromFactoryCell__BehaviorDescriptor extends
   public static final SMethod<Boolean> isRightSide_id6jH9yJK32S8 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isRightSide").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7272510943425998344L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
   public static final SMethod<SNode> getWrappedCell_id3O7ZvCZLQjf = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getWrappedCell").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404262095L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isLeftSide_id6jH9yJK31zY, isRightSide_id6jH9yJK32S8, getWrappedCell_id3O7ZvCZLQjf);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isLeftSide_id6jH9yJK31zY, isRightSide_id6jH9yJK32S8, getWrappedCell_id3O7ZvCZLQjf);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean isLeftSide_id6jH9yJK31zY(@NotNull SNode __thisNode__) {
     return SEnumOperations.isMember(SPropertyOperations.getEnum(__thisNode__, PROPS.side$9HZ), 0x32175ac2e8d71494L) || SEnumOperations.isMember(SPropertyOperations.getEnum(__thisNode__, PROPS.side$9HZ), 0x11b07b4a65bL);
@@ -47,10 +44,6 @@ public final class SideTransformationFromFactoryCell__BehaviorDescriptor extends
   /*package*/ SideTransformationFromFactoryCell__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

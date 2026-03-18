@@ -1,0 +1,2729 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="MPS-extensions">
+      
+      
+      
+        <link rel="canonical" href="https://jetbrains.github.io/MPS-extensions/extensions/editor/diagrams/">
+      
+      
+        <link rel="prev" href="../conditional-editor/">
+      
+      
+        <link rel="next" href="../grammar-cells/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Diagrams - MPS Extensions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#diagrams" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="MPS Extensions" class="md-header__button md-logo" aria-label="MPS Extensions" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MPS Extensions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Diagrams
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jetbrains/mps-extensions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mps-extensions
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../building/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Building
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../contributing/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contributing
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../migrating/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Migrating
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../adding/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Adding
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../full_extensions_list/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Full Extension List
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../celllayout/" class="md-tabs__link">
+          
+  
+  
+  Editor extensions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../bl-extensions/structure-check/" class="md-tabs__link">
+          
+  
+  
+  Other extensions
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="MPS Extensions" class="md-nav__button md-logo" aria-label="MPS Extensions" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    MPS Extensions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jetbrains/mps-extensions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mps-extensions
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Building
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../migrating/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Migrating
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../adding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../full_extensions_list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Full Extension List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Editor extensions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Editor extensions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../celllayout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cell Layout
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conditional-editor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditional Editor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diagrams
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diagrams
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagram-cells" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram Cells
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Diagram Cells">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shapes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagram-palette" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram Palette
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Buttons
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Buttons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#export-diagrams-as-svgpng" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export Diagrams as SVG/PNG
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-stored-layout-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear Stored Layout Information
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synchronize-diagram-with-model-only-on-opening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Synchronize diagram with model only on opening
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editor-context-actions-menu-show-diagram-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editor Context Actions Menu: Show Diagram Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#layout-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Layout Algorithms
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Content
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Content">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram Box
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-box-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Box Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Additional Box Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#generic-box-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generic Box Query
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edges
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generic-edge-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generic Edge Query
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-edge-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Edge Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Additional Edge Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#from-and-to-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        From and To Declaration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#child-and-nodesquery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Child and nodesQuery
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ports
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Additional features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#compartment-cells" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compartment cells
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cross-navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cross-Navigation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-switch-all-ports-side" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action: Switch All Port&rsquo;s Side
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-flip-all-ports-side-vertically" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action: Flip All Port&rsquo;s Side Vertically
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smart Guide
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-from-mbeddr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example from Mbeddr
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sandboxes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sandboxes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interacting-with-diagrams-programmatically" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interacting with diagrams programmatically:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Issues
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blog-posts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blog posts
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar-cells/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grammar Cells
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../math/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Math
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mouse-selection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intentions for custom selections
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multiline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multiline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../querylist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Query List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../richtext/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Richtext
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tree-notation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tree Notation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../widgets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Widgets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linenumbers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Line Numbers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pagination/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pagination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other extensions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Other extensions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Language Extensions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Language Extensions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bl-extensions/structure-check/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Check
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bl-extensions/blutil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Language Util (blutil)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generator
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Generator
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../generator/plaintext-gen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plaintext Generator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Other
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/langvis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Language Visualizer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/project-view/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/shadow-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shadow Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stubs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stubs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6" id="__nav_8_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilities
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Utilities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/intentions-menu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intentions Menu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/model-listener/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Model Listener
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/hacks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hacks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/debug/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Debug
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/spellcheck/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell Check
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/statistics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/model-merger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Model Merger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/node-versioning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Node Versioning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/serializer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Serializer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="diagrams">Diagrams<a class="headerlink" href="#diagrams" title="Permanent link">&para;</a></h1>
+<p><strong>Language Namespace :</strong> <code>de.itemis.mps.editor.diagram</code></p>
+<h2 id="general">General<a class="headerlink" href="#general" title="Permanent link">&para;</a></h2>
+<p>The <code>de.itemis.mps.editor.diagram</code> language enables graphical editing of models in JetBrains MPS. It allows users to visualize textual models as diagrams, providing a more intuitive way to interact with data. Diagrams consist of blocks (boxes) and connectors (lines), which represent nodes and relationships in the underlying model.</p>
+<h2 id="diagram-cells">Diagram Cells<a class="headerlink" href="#diagram-cells" title="Permanent link">&para;</a></h2>
+<p>Add a new <code>diagram</code> cell to the editor to add a new diagram to the editor. The cell supports the following properties:</p>
+<ul>
+<li><em>id</em> is an identifier for the diagram. It can be node or a string. In the first case, the identifier is derived from the 
+   node ID. The identifier is necessary in cases where you have multiple (sub-)diagrams for the same node.</li>
+<li><em>content</em> allows defining the actual content of the diagrams (boxes, edges, attributes etc.). It is explained in the next section.</li>
+<li><em>connection creators</em> are used to create connections between diagram elements like ports and boxes. A list of type <code>IConnectionType</code> has to be returned from this method. The default implementation is <code>SNodeConnectionType</code> which has two 
+ methods <code>canCreate(node&lt;&gt; fromNode,string fromPort,node&lt;&gt; toNode,string toPort)</code> and <code>create(node&lt;&gt; fromNode,string fromPort,node&lt;&gt; toNode,string toPort)</code> which have to be overridden.</li>
+<li><em>palette entries</em> creates the entries for the <code>Diagram Palette</code> tool located on the right side of the editor.</li>
+<li><em>palette folder</em> creates the folder inside the <code>Diagram Palette</code> tool</li>
+<li><em>buttons</em> creates the buttons that are visible at the upper left corner of the diagram and when selecting edges/boxes.</li>
+<li><em>layout algorithm</em> selects the layout algorithm to be used by the auto layouting functionality.</li>
+<li><em>default shape</em> declares the default shape of boxes.</li>
+<li><em>owner change handler</em> are invoked when diagram elements should be moved to a different sub-diagram. The <em>can change</em> methods checks if the element can move and the <em>change</em> method is responsible for moving the elements.</li>
+<li><em>autolayout on init</em> runs the ELK layouter on the diagram when the editor containing the diagram is opened and no layout is saved in the model.</li>
+<li><em>autolayout on change</em> runs the auto layouter whenever the diagram model changes (e.g. connecting two ports, adding a new item from the palette). The only exception are manual layout changes like resizing or moving a box that don&rsquo;t trigger it.</li>
+<li><em>fit size on init</em> changes the size of all boxes in the diagram to only take up the minimum required size when the diagram is opened.</li>
+<li><em>save subdiagram layout in this diagram</em> stores the layout information in the root diagram instead of the node of the sub-diagram.
+<em>save layout data</em> saves the layout data (position/siz/visibility of diagram elements) in the node of the diagram inside the attribute <a href="http://127.0.0.1:63320/node?ref=r%3A9a28b49a-e98c-4186-a7e1-7e782b3f4fc3%28de.itemis.mps.editor.diagram.layout.structure%29%2F8963411245960991886">layoutMap</a>. If you disable this option you might want to enable autolayout on init instead.</li>
+<li><em>connect boxes without dummy ports</em>: boxes are connected directly without invisible ports. This option could have an effect on the layouting of the diagram related to hyperedges. Those are edges that are created when multiple edges are merged into one edge.</li>
+<li><em>disable node editing</em> removes the ability to edit MPS cells inside diagrams when you double-click on them.</li>
+<li><em>synchronize diagram with model only on opening</em> makes the diagram not update itself automatically based on the model. The new diamond-shaped button has to be used to do this. The only time when the diagram is synchronized is when the diagram is initially initialized e.g. when creating the editor for a root node. The use case for this feature is that sometimes you want to edit the model in bulk before updating the diagram which can take a lot of time and disturb the editing experience.</li>
+<li><em>ignore elements&rsquo; minimum size restriction (indent layout)</em> allows boxes to set a new required minimum size through the style attribute <em>diagram-layout-node-size-minimum</em>.</li>
+<li><em>show grid</em> lays a grid over the diagram that can be used for aligning and snapping elements to the grid.</li>
+<li><em>grid size</em> defines the size of the grid in pixels.</li>
+<li><em>grid color</em> defines the color of the grid.</li>
+<li><em>grid style</em> sets the style of the grid: cross, dashed, dot or line.</li>
+<li><em>arrow key move</em> defines the amount an element is moved when pressing an arrow key.</li>
+<li><em>arrow key move amount (slow)</em> defines the amount an element is moved when pressing shift and an arrow key.</li>
+<li><em>arrow key pan amount</em> defines the amount the diagram is panned when pressing an arrow key.</li>
+<li><em>arrow key pan amount (slow)</em> defines the amount the diagram is panned when pressing shift and an arrow key.</li>
+<li><em>minimum scale</em>: sets the minimum scaling factor when zooming out of the diagram.</li>
+<li><em>use grid snapping</em> activates automatically aligning elements to the grid.</li>
+</ul>
+<p>To use the node of the editor itself somewhere, use the expression <code>thisNode</code>. Diagrams can also be embedded into collapsible cells of the language <em>de.itemis.mps.editor.collapsible</em>.</p>
+<h3 id="shapes">Shapes<a class="headerlink" href="#shapes" title="Permanent link">&para;</a></h3>
+<p>Shapes specify how diagram elements are rendered (excluding the MPS editor cells). Create a new shape definition. It supports the following options:</p>
+<ul>
+<li><em>default size</em>: returns the size of the shape in pixels if the size is not calculated through other means such as contained editor cells.</li>
+<li><em>parameters</em> are additional variables than can be set when instantiating a shape and used inside shape definitions.</li>
+<li><em>draw(graphics,bounds, style)</em> is the method that draws the shape.
+  The shape has to be inside the dimensions of the <em>bounds</em> parameter.
+  In case it is used as the end of an edge, the edge always points from left to right and is connected to the shape at the left center of the <em>bounds</em>. Read the <a href="https://docs.oracle.com/javase/tutorial/2d/TOC.html">Oracle 2D Graphics documentation</a> to learn more about painting with Java Swing. The <em>style</em> parameter are internal shape style classes that implement <em>IShapeStyle_Internal</em>. The default implementation is <em>BasicShapeStyle</em> but there are special classes for diagram elements like edges or markers.</li>
+<li><em>draw shadow</em> draws a drop shadow around the shape by default. It can be customized through this method.</li>
+<li><em>get shape</em> can be used instead of the draw and draw shadow methods to customize the drawing even further.</li>
+</ul>
+<h3 id="diagram-palette">Diagram Palette<a class="headerlink" href="#diagram-palette" title="Permanent link">&para;</a></h3>
+<p>You can drag elements from the palette to the diagram. The tool itself also supports folders similar to the context actions tool.</p>
+<p><img alt="diagram palette" src="../../img/diagrams_palette.png" width="800" /></p>
+<p>Palette entries can be fined inside diagram cells. You have to return a <code>SubstituteInfo</code> instance that can be created through the helper variable <code>factory</code> that has various methods for creating substitute info instances such as for children of a concept.</p>
+<p>The palette folder can be declared at the same place. The parameter <code>node</code> refers to the node of the editor itself, <code>concept</code> and <code>targetNode</code> come from the created substitute info instance.</p>
+<h3 id="buttons">Buttons<a class="headerlink" href="#buttons" title="Permanent link">&para;</a></h3>
+<p>There are many different buttons that are either visible in the upper left corner of the diagram or when boxes/edges are selected. Some buttons are not visible in sub-diagrams. By default, all buttons are enabled. There are two ways to customize the buttons. In <em>button configurations</em> the predefined buttons can be toggled and in <em>custom configurations</em> you can create your own buttons. The following buttons are available:</p>
+<ul>
+<li><em>Layout Diagram</em> runs the auto layouter for the diagram.</li>
+<li><em>Maximize Diagram</em> maximizes th diagram to the full size of the editor.</li>
+<li><em>Reset View</em> resets all changes to the diagram view like zooming and translations.</li>
+<li><em>Zoom In</em> zooms into the diagram (shortcut: alt+shift+minus).</li>
+<li><em>Zoom Out</em> zooms out of the diagram (shortcut: alt+shift++).</li>
+<li><em>Fit Size All</em> changes the size of all boxes in the diagram to only take up the minimum required size.</li>
+<li><em>Show Ports Label</em> toggles showing the name of the port next to the port itself.</li>
+<li><em>Show All Edges</em> makes all invisible edges visible again.</li>
+<li><em>Translate To Origin</em> moves all diagram elements so that they align with the upper left corner of the diagram.</li>
+<li><em>Show Grid</em> lays a grid over the diagram that can be used for aligning and snapping elements to the grid.</li>
+<li><em>Use Grid Snapping</em> activates the feature that diagram elements are automatically placed at the grid intersections-</li>
+<li><em>PNG Export</em> exports the diagram as a PNG image.</li>
+<li><em>SVG Export</em> exports the diagram as an SVG image.</li>
+<li><em>Clear Layout Info</em> removes the stored layout information from the model which means that all manually placements of diagram elements and auto layout runs are not persisted anymore.</li>
+</ul>
+<h4 id="export-diagrams-as-svgpng">Export Diagrams as SVG/PNG<a class="headerlink" href="#export-diagrams-as-svgpng" title="Permanent link">&para;</a></h4>
+<p><img alt="export diagram as png/svg" src="../../img/diagram_export_diagrams.png" /></p>
+<p>Use the two buttons to export the diagram as an SVG or PNG. A notification will give you more options to interact with the exported image:</p>
+<p><img alt="export svg notification" src="../../img/diagram_svg_exported.png" width="500" /></p>
+<h4 id="clear-stored-layout-information">Clear Stored Layout Information<a class="headerlink" href="#clear-stored-layout-information" title="Permanent link">&para;</a></h4>
+<p>When you store the layout data in the diagram, this button will delete the information from the model. Depending on your settings regarding auto-layout on init, the diagram will be auto-layouted the next time it is initialised or the layout information will just be gone:</p>
+<p><img alt="clear layout information" src="../../img/diagram_clear_stored_layout_information.png" /></p>
+<h4 id="synchronize-diagram-with-model-only-on-opening">Synchronize diagram with model only on opening<a class="headerlink" href="#synchronize-diagram-with-model-only-on-opening" title="Permanent link">&para;</a></h4>
+<p>When the option <code>synchronize diagram with model only on opening</code> is enabled, the diagram is not updated automatically based on the model. The new diamond-shaped button has to be used to do this. The only time when the diagram is synchronized is when the diagram is initially initialized e.g. when creating the editor for a root node. The use case for this feature is that sometimes you want to edit the model in bulk before updating the diagram which can take a lot of time and disturb the editing experience.</p>
+<p><img alt="synchronize diagram with model button" src="../../img/diagram_synchronize_diagram_with_model_only_on_opening.png" /></p>
+<h4 id="editor-context-actions-menu-show-diagram-actions">Editor Context Actions Menu: Show Diagram Actions<a class="headerlink" href="#editor-context-actions-menu-show-diagram-actions" title="Permanent link">&para;</a></h4>
+<p>Some of the MPS actions that are available in diagrams, can also be found in a separate menu that can be opened from the editor context menu:</p>
+<p><img alt="diagram editor context actions menu" src="../../img/diagram_contextaction_menu.png" width="500" /></p>
+<h3 id="layout-algorithms">Layout Algorithms<a class="headerlink" href="#layout-algorithms" title="Permanent link">&para;</a></h3>
+<p>The language provides different layout algorithm options for diagram. Each algorithm computes the graph with specialized edges, routing and direction styles.</p>
+<p>The diagram languages uses the <a href="https://eclipse.dev/elk/">Eclipse Layout Kernel</a> for layouting diagrams. Please read the page <a href="https://eclipse.dev/elk/reference/algorithms.html">Algorithms - Eclipse Layout Kernel™</a> for more information about each single algorithm. The following algorithms are implemented:</p>
+<ul>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-box.html">ELK Box</a><ul>
+<li>Algorithm for packing of unconnected boxes, i.e. graphs without edges.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-disco.html">ELK DisCo</a> <ul>
+<li>Arranges unconnected subgraphs while preserving their original layout. The subgraphs themselves are not automatically laid out.</li>
+<li>Ideal for scenarios where you need to organize separate components without altering their internal structure.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-fixed.html">ELK Fixed</a><ul>
+<li>Keeps the current layout unchanged, allowing optional coordinates for nodes and edge bend points.</li>
+<li>Useful when you want to maintain a fixed arrangement or manually specify positions.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-force.html">ELK Force</a><ul>
+<li>A force-based algorithm that simulates attractive and repulsive forces to balance node positions. Supports the Eades and Fruchterman-Reingold models.</li>
+<li>Great for achieving visually balanced layouts based on physical analogies.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-layered.html">ELK Layered</a><ul>
+<li>A layer-based algorithm for hierarchical graphs. Arranges nodes into layers, emphasizing edge direction. Supports various routing styles.</li>
+<li>Suitable for node-link diagrams with ports and hierarchical structures.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-mrtree.html">ELK Mr. Tree</a><ul>
+<li>Computes a spanning tree of the input graph and arranges nodes based on the resulting parent-children hierarchy.</li>
+<li>Perfect for tree-like structures, emphasizing regularity in acyclic graphs.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-radial.html">ELK Radial</a><ul>
+<li>Arranges nodes in concentric circles around a central point. Useful for radial diagrams or circular hierarchies.</li>
+<li>Provides a clear visual representation of relationships.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-random.html">ELK Randomizer</a><ul>
+<li>Introduces randomness to node positions. Useful for exploring different layout variations.</li>
+<li>Can be handy during experimentation or visualization exploration.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-rectpacking.html">ELK Rectangle Packing</a><ul>
+<li>Packs rectangles (representing nodes) into a container (graph canvas) while minimizing overlaps.</li>
+<li>Ensures efficient use of available space.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-sporeCompaction.html">ELK SPOrE Compaction</a><ul>
+<li>A compaction algorithm that optimizes node placement within a layer.</li>
+<li>Helps reduce wasted space and improve readability.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-sporeOverlap.html">ELK SPOrE Overlap Removal</a><ul>
+<li>Removes overlaps between nodes within a layer. Enhances clarity and aesthetics.</li>
+<li>Useful for improving the visual quality of layered layouts.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-stress.html">ELK Stress</a><ul>
+<li>Minimizes stress by adjusting node positions based on graph-theoretic distances. Useful for consistent geometric layouts.</li>
+<li>Balances edge lengths and maintains readability.</li>
+</ul>
+</li>
+<li><a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-topdownpacking.html">ELK Top-down Packing</a><ul>
+<li>Arranges nodes in a top-down manner, suitable for hierarchical structures. Supports aspect ratio control.</li>
+<li>Ensures a clear hierarchy with minimal edge crossings.</li>
+</ul>
+</li>
+</ul>
+<p>Note that not all algorithms support sub-diagrams, self-loops, ports or even boxes. The default algorithm is <a href="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-layered.html">ELK Layered</a> which is sufficient for most use cases. Each page contains a section <em>Support options</em> that explains the available options, e.g. <a href="https://eclipse.dev/elk/reference/options/org-eclipse-elk-layered-cycleBreaking-strategy.html">Cycle Breaking Strategy</a>. The <em>Applies To</em> block explains where the option is available. The <em>parents</em> option means that the style attribute must be set in the inspector of (sub-)diagrams cells, <em>nodes</em> options must be set in diagram.box definitions and <em>cell</em> options must be set in
+diagram.edge cells. Example: The style attribute of the cycle breaking strategy option of the layered algorithm is called diagram-layout-layered-cycle-breaking-strategy and needs to be set in the inspector of the diagram cell.</p>
+<h2 id="content">Content<a class="headerlink" href="#content" title="Permanent link">&para;</a></h2>
+<p>There are different types of contents you can add to the diagram: children, generic box queries, generic edge queries and nodesQuery.</p>
+<h4 id="diagram-box">Diagram Box<a class="headerlink" href="#diagram-box" title="Permanent link">&para;</a></h4>
+<p>Boxes are the building blocks of diagrams. They can be connected with each other or their ports through edges. They support the following options:</p>
+<ul>
+<li><em>id</em> is the identifier that can be necessary if you have multiple boxes for the same node. You can create new IDs for a node through <code>EndpointUtil.createIdForSNode(thisNode)</code>.</li>
+<li><em>ports</em> defines the connectable small boxes that are located at the edge of the box.</li>
+<li><em>preserve port order</em> instructs the layouter to not change the port order.</li>
+<li><em>editor</em> sets some MPS cells as the content of the box.</li>
+<li><em>shape</em> defines how the box is rendered in the diagram.</li>
+<li><em>allow connections to box</em> enables connections with the box itself without the need for ports.</li>
+<li><em>content</em> can be populated like the content of diagrams.</li>
+<li><em>delete</em> is called when the box is deleted.</li>
+<li><em>navigation targets</em> are nodes that can be opened through buttons in the box&rsquo;s buttons menu. They are meant as references of the current box that can be navigated to.</li>
+<li><em>allow scaling</em> enables changes the size of the box (default: true).</li>
+<li><em>annotation external</em> fetches annotations and create separate boxes for them.</li>
+<li><em>drop handler</em> is a handler that checks if elements can be dropped on this element (<em>can drop(data)</em>). This handler also contains a method <em>drop(data)</em> that is execution when the drop happens.</li>
+</ul>
+<h2 id="additional-box-actions">Additional Box Actions<a class="headerlink" href="#additional-box-actions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The <code>Fit size</code> action is available when a box is selected.</li>
+<li>A second button <code>Create connection</code> contains a submenu with all the defined connection creators. Use those buttons to create new connections.</li>
+<li>When the box has ports, there is an action &ldquo;Reorder ports&rdquo;, to save the new port order in the model. Each port gets a port assigned based on the position at the box.</li>
+</ul>
+<h3 id="generic-box-query">Generic Box Query<a class="headerlink" href="#generic-box-query" title="Permanent link">&para;</a></h3>
+<p>They are used to add boxes to the diagram based on a list of parameters and support the following options:</p>
+<ul>
+<li><em>parameter type</em> sets the type of the list of parameters.</li>
+<li><em>query</em> returns a list of parameters or a single parameter.</li>
+<li><em>id</em> is the identifier that can be necessary if you have multiple boxes for the same node. You can create new IDs for a node through <code>EndpointUtil.createIdForSNode(thisNode)</code>.</li>
+<li><em>shape</em> defines how the box is rendered in the diagram.</li>
+<li><em>ports</em> defines the connectable small boxes that are located at the edge of the box.</li>
+<li><em>buttons</em> sets the context buttons that are visible when the box is selected.</li>
+<li><em>preserve port order</em> instructs the layouter to not change the port order. </li>
+<li><em>editor</em> sets some MPS cells as the content of the box.</li>
+<li><em>allow connections to box</em> enables connections with the box itself without the need for ports.</li>
+<li><em>delete</em> is called when the box is deleted.</li>
+<li><em>navigation targets</em> are nodes that can be opened through buttons in the box&rsquo;s buttons menu. They are meant as references of the current box that can be navigated to.</li>
+<li><em>allow scaling</em> enables changes the size of the box (default: true).</li>
+<li><em>drop handler</em> is a handler that checks if elements can be dropped on this element (<em>can drop(data)</em>). This handler also contains a method <em>drop(data)</em> that is execution when the drop happens.</li>
+</ul>
+<p>The current object from the query is available through <code>parameterObject</code>.</p>
+<h2 id="edges">Edges<a class="headerlink" href="#edges" title="Permanent link">&para;</a></h2>
+<p>Edges are used to connect boxes or ports with each other. They support the following options:</p>
+<ul>
+<li><em>id</em> is the identifier that can be necessary if you have multiple edges for the same node.</li>
+<li><em>from</em> sets the source of the edge.</li>
+<li><em>to</em> sets the target of the edge.</li>
+<li><em>reverse</em> sets the source as the target of the edge and vice versa.</li>
+<li><em>label</em> sets the text that describes the edge.</li>
+<li><em>use annotations from parent in label</em>: If a model node had an attribute annotation and is used as an edge in a diagram, the attribute editor is added as an external box in the diagram. With this setting, the annotation is part of the edge label and thus also automatically layouted.</li>
+<li><em>delete</em> is called when the edge is deleted.</li>
+<li><em>can split</em> controls if the edge can be split and a new box be inserted.</li>
+<li><em>curved</em> changes the style of the edge to curved. This information is considered by the auto layouter.</li>
+<li><em>edge style (experimental)</em> changes the style of the edge to one of the <a href="https://eclipse.dev/elk/reference/options/org-eclipse-elk-edge-type.html">predefined ELK edge types</a>. Note: Setting this option currently breaks some functionality related to moving edges.</li>
+<li><em>navigation targets</em> are nodes that can be opened through buttons in the box&rsquo;s buttons menu. They are meant as references of the current box that can be navigated to.</li>
+<li><em>drop handler</em> is a handler that checks if elements can be dropped on this element (<em>can drop(data)</em>). This handler also contains a method <em>drop(data)</em> that is execution when the drop happens.</li>
+<li><em>content</em> can be populated like the content of diagrams.</li>
+</ul>
+<h2 id="generic-edge-query">Generic Edge Query<a class="headerlink" href="#generic-edge-query" title="Permanent link">&para;</a></h2>
+<p>They are used to add edges to the diagram based on a list of parameters and support the following options:</p>
+<ul>
+<li><em>parameter type</em> sets the type of the list of parameters.</li>
+<li><em>query</em> returns a list of parameters or a single parameter.</li>
+<li><em>id</em> is the identifier that can be necessary if you have multiple edges for the same node. You can use <code>parameterObject</code> to create an identifier if it is of type string.</li>
+<li><em>from</em> sets the source of the edge.</li>
+<li><em>to</em> sets the target of the edge.</li>
+<li><em>reverse</em> sets the source as the target of the edge and vice versa.</li>
+<li><em>label</em> sets the text that describes the edge.</li>
+<li><em>use annotations from parent in label</em>: If a model node had an attribute annotation and is used as an edge in a diagram, the attribute editor is added as an external box in the diagram. With this setting, the annotation is part of the edge label and thus also automatically layouted.</li>
+<li><em>delete</em> is called when the edge is deleted.</li>
+<li><em>can split</em> controls if the edge can be split and a new box be inserted.</li>
+<li><em>split</em> is the method that is called when the split happens. You can access the node to insert through <em>boxToInsert.getSNode()</em>.</li>
+<li><em>curved</em> changes the style of the edge to curved. This information is considered by the auto layouter.</li>
+<li><em>edge style (experimental)</em> changes the style of the edge to one of the <a href="https://eclipse.dev/elk/reference/options/org-eclipse-elk-edge-type.html">predefined ELK edge types</a>. Note: Setting this option currently breaks some functionality related to moving edges.</li>
+<li><em>navigation targets</em> are nodes that can be opened through buttons in the box&rsquo;s buttons menu. They are meant as references of the current box that can be navigated to.</li>
+<li><em>drop handler</em> is a handler that checks if elements can be dropped on this element (<em>can drop(data)</em>). This handler also contains a method <em>drop(data)</em> that is execution when the drop happens.</li>
+</ul>
+<p>The current object from the query is available through <code>parameterObject</code>.</p>
+<h2 id="additional-edge-actions">Additional Edge Actions<a class="headerlink" href="#additional-edge-actions" title="Permanent link">&para;</a></h2>
+<p>Edges can be hidden by clicking on the button in the edge menu or by hiding all edges by clicking the <em>Hide All Edges</em> button in the box menu. There is a separate button <em>Show All Edges</em> to show all edges of a box again. The information about the visibility of an edge is saved in the model (in the layout annotation).</p>
+<p><img alt="show all edges" src="../../img/diagram_show_all_edges.png" width="500" />
+<img alt="hide edge" src="../../img/diagram_hide_edge.png" width="500" /></p>
+<h3 id="from-and-to-declaration">From and To Declaration<a class="headerlink" href="#from-and-to-declaration" title="Permanent link">&para;</a></h3>
+<p>Those two declarations set the point where the edge begins (from) and ends (to). They have the following options:</p>
+<ul>
+<li><em>target</em> sets the end point. It can be a <em>box</em>, a <em>port</em> or a conditional <em>if</em> expression.</li>
+<li><em>can set target</em> checks if the target is valid. The parameter <em>targetDNode</em> refers to the internal representation of the target box in the diagramming library. The parameter <em>port</em> refers to the name of the target port and can be empty.</li>
+<li><em>set target</em> is called to set the target.</li>
+<li><em>shape</em> sets the shape of the endpoint of the connection.</li>
+<li><em>shape size (px)</em> defines the size of the shape.</li>
+<li><em>auto layout: allow any size</em> (deprecated, unused) tells the layouter, if the edge can be connected on any side of a box.</li>
+<li><em>role cell</em>: sets the MPS cell used to visualize the endpoint.</li>
+</ul>
+<h2 id="child-and-nodesquery">Child and nodesQuery<a class="headerlink" href="#child-and-nodesquery" title="Permanent link">&para;</a></h2>
+<p>Existing children can be added through the code completion menu. They should have editors containing diagram box, diagram edge or diagram cells. To include arbitrary nodes, use a <em>nodesQuery</em> and return a sequence of nodes that serve as the content of the diagram.</p>
+<h2 id="ports">Ports<a class="headerlink" href="#ports" title="Permanent link">&para;</a></h2>
+<p>Ports can be declared statically or through a port <em>query</em> where you can return a list of objects/nodes in the query itself. The information can be used in the port declaration itself through <code>portObject</code>. A port has the following options:</p>
+<ul>
+<li><em>label</em> declares a text next to the port that describes it.</li>
+<li><em>shape</em> defines how the port is rendered in the diagram.</li>
+<li><em>positionX</em> declares the horizontal position of the port. The value can go from 0 (left) to 1 (right). The default value is 0.</li>
+<li><em>positionY</em> declares the vertical position of the port. The value can go from 0 (top) to 1 (bottom). The default value is 0.5 (center).</li>
+<li><em>width</em> sets the width of the port.</li>
+<li><em>height</em> sets the height of the port.</li>
+<li><em>tooltip</em> is a tooltip with an embedded MPS cell that is shown when the mouse hovers over the port.</li>
+</ul>
+<h2 id="additional-features">Additional features<a class="headerlink" href="#additional-features" title="Permanent link">&para;</a></h2>
+<h3 id="compartment-cells">Compartment cells<a class="headerlink" href="#compartment-cells" title="Permanent link">&para;</a></h3>
+<p>Compartment cells can be used as separators in diagram boxes and labels and have a size of 2x2.</p>
+<h3 id="cross-navigation">Cross-Navigation<a class="headerlink" href="#cross-navigation" title="Permanent link">&para;</a></h3>
+<p>The editor of the diagram cell now has a new option disable node editing which makes it possible to disable the MPS editor that opens when you double-click a node in the diagram. Do customize the click event when clicking an MPS cell in the editor (e.g. the box&rsquo;s content or the label of an edge), you can register a custom mouse listener for the <a href="http://127.0.0.1:63320/node?ref=r%3A663468b2-7f77-448a-afd3-b1669ce5b4a7%28de.itemis.mps.editor.diagram.runtime.plugin%29%2F1742468285840696609&amp;project=mps-extensions">GlobalDiagramMPSCellClickListener</a> extension point. To register a global diagram mouse listener, use the extension point <a href="http://127.0.0.1:63320/node?ref=r%3A663468b2-7f77-448a-afd3-b1669ce5b4a7%28de.itemis.mps.editor.diagram.runtime.plugin%29%2F5458251120638842458&amp;project=mps-extensions">GlobalDiagramMouseListener</a> instead:</p>
+<p><img alt="example: cross navigation" src="../../img/diagram_crossnavigation.png" width="500" /></p>
+<p>In the demo, a notification is created, when you single-click an entity box:</p>
+<p><img alt="example: cross navigation" src="../../img/diagram_crossnavigation_example.png" width="500" /></p>
+<p>To customize the click into the MPS cell, use the extension point <a href="http://127.0.0.1:63320/node?ref=r%3A663468b2-7f77-448a-afd3-b1669ce5b4a7%28de.itemis.mps.editor.diagram.runtime.plugin%29%2F1742468285840696609">GlobalDiagramMPSCellClickListener</a> and implement the class <a href="http://127.0.0.1:63320/node?ref=r%3A663468b2-7f77-448a-afd3-b1669ce5b4a7%28de.itemis.mps.editor.diagram.runtime.plugin%29%2F1742468285840696610">MPSCellMouseListener</a>.</p>
+<h3 id="action-switch-all-ports-side">Action: Switch All Port&rsquo;s Side<a class="headerlink" href="#action-switch-all-ports-side" title="Permanent link">&para;</a></h3>
+<p>There are two actions <code>Switch All Port's Side Clockwise</code> and <code>Switch All Port's Side Counter-Clockwise</code> to move the ports to the next side of the box.</p>
+<h3 id="action-flip-all-ports-side-vertically">Action: Flip All Port&rsquo;s Side Vertically<a class="headerlink" href="#action-flip-all-ports-side-vertically" title="Permanent link">&para;</a></h3>
+<p>Use the actions <code>Diagram: Flip All Port's Side Vertically</code> and <code>Diagram: Flip All Port's Side Horizontally</code> to switch all ports to be on the opposite side (east-west, north-south).</p>
+<h3 id="smart-guide">Smart Guide<a class="headerlink" href="#smart-guide" title="Permanent link">&para;</a></h3>
+<p>When you move boxes, green guidelines will help you with aligning the boxes with other diagram elements.</p>
+<h2 id="example-from-mbeddr">Example from Mbeddr<a class="headerlink" href="#example-from-mbeddr" title="Permanent link">&para;</a></h2>
+<p>The following screenshots show component wiring and state machines that can be edited graphically.</p>
+<p><img alt="diagram: graphical state machine" src="../../img/graphicalSM.png" width="800" /></p>
+<p>This screenshot shows a few interesting features: you can embed diagrams anywhere in &ldquo;text&rdquo;, you can use different shapes (at this point drawn by custom Java code), you can use various line styles, the framework supports ports (i.e., connection endpoints on the boxes), inside boxes you can use arbitrary MPS text (or other) editors, and the system also supports edge and endpoint labels. Port labels are also supported, but they are only shown if the mouse is &ldquo;in the vicinity&rdquo; of the port to not clutter the diagram. Below is a second screenshot of a bigger diagram:</p>
+<p><img alt="diagram: graphical state machine" src="../../img/graphical_sm.png" /></p>
+<p>This one illustrates that the approach scales to reasonable sizes, shows that zooming is supported and also demonstrates the auto layouting capability. The graphical notation also integrates with things such as tooltips. Below is another example diagram that shows a different language:</p>
+<p><img alt="diagram: graphical extensions" src="../../img/graphical_ex3.png" /></p>
+<p>The definition of a graphical editor is based on the same &ldquo;cell&rdquo; abstraction used in other MPS editors: the language for defining editors contains additional cells that are then rendered as a diagram (diagram, diagram.box, diagram.edge). Similar to tables, these abstractions for defining graphical editors rely on queries to make sure that the structure of the graphical editor does not have to directly correspond to the structure of the AST (for example, in terms of ownership). The language also supports hierarchical diagrams, for example, in state machines.</p>
+<p>To see example code, check out InstanceConfiguration and Statemachine in the <a href="https://github.com/mbeddr/mbeddr.core">mbeddr repository</a>.</p>
+<h2 id="sandboxes">Sandboxes<a class="headerlink" href="#sandboxes" title="Permanent link">&para;</a></h2>
+<p>The <a href="https://youtrack.jetbrains.com/issue/MPS-extensions">MPS-extensions</a> project comes with a few sandboxes including the sandbox <code>de.itemis.mps.editor.diagram.demo.elk.sandbox</code>. You can find all the style sheet declarations by importing the corresponding style sheet: DiagramCoreAttributes, DiagramMPSAttributes, DiagramAlgorithmAttributes</p>
+<p>To play around with ELK features in general, you can visit: <a href="https://rtsys.informatik.uni-kiel.de/elklive/examples.html">https://rtsys.informatik.uni-kiel.de/elklive/examples.html</a></p>
+<p>Please note that not all algorithms make sense with all diagrams. Most of the time, you still want to use the ELK layered algorithm because it has the most options and has support for self-loops, inside self-loops, multi-edges, edge labels, parts, compound nodes, and clusters. Some of them need manual layouting first. Please consult the ELK algorithms documentation for more information.</p>
+<p><img alt="elk sandbox" src="../../img/diagram_elk_sandbox.png" width="500" /></p>
+<p><img alt="style attributes of the elk sandbox" src="../../img/diagram_elk_sandbox_style_attributes.png" width="800" /></p>
+<h2 id="interacting-with-diagrams-programmatically">Interacting with diagrams programmatically:<a class="headerlink" href="#interacting-with-diagrams-programmatically" title="Permanent link">&para;</a></h2>
+<p>Most diagram actions that can be executed from buttons can be found in <a href="http://127.0.0.1:63320/node?ref=r%3A7fc96130-6279-4a55-aeeb-422a6879539d%28de.itemis.mps.editor.diagram.runtime.jgraph%29%2F1129445411017062535">DiagramActionsUtil</a>. Diagram functionalities can be tested in editor tests. It is important to disable the synchronizer, so that changes are not written to the original model. When comparing positions and dimensions of diagram elements, keep in mind that they might change a bit because the auto-layouter is not fully deterministic. Example:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-0-10">10</a></span>
+<span class="normal"><a href="#__codelineno-0-11">11</a></span>
+<span class="normal"><a href="#__codelineno-0-12">12</a></span>
+<span class="normal"><a href="#__codelineno-0-13">13</a></span>
+<span class="normal"><a href="#__codelineno-0-14">14</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">RootDiagramECell</span><span class="w"> </span><span class="n">diagramECell</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">EditorUtil</span><span class="p">.</span><span class="na">descendants</span><span class="p">(</span><span class="n">editor</span><span class="w"> </span><span class="n">component</span><span class="p">.</span><span class="na">getRootCell</span><span class="p">(),</span><span class="w"> </span><span class="n">RootDiagramECell</span><span class="p">.</span><span class="na">class</span><span class="p">).</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span><span class="w"> </span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="n">JGraphModelSynchronizer</span><span class="w"> </span><span class="n">synchronizer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">JGraphModelSynchronizer</span><span class="p">.</span><span class="na">getSynchronizer</span><span class="p">(</span><span class="n">diagramECell</span><span class="p">.</span><span class="na">getDiagramModel</span><span class="p">());</span><span class="w"> </span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">synchronizer</span><span class="p">.</span><span class="na">suspend</span><span class="p">({</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">  </span><span class="n">mxCell</span><span class="w"> </span><span class="n">diagramDCell</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">diagramECell</span><span class="p">.</span><span class="na">getDCell</span><span class="p">(</span><span class="n">diagramECell</span><span class="p">.</span><span class="na">getGraph</span><span class="p">());</span><span class="w"> </span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">  </span><span class="n">BoxDCell</span><span class="w"> </span><span class="n">box1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">diagramDCell</span><span class="p">.</span><span class="na">getChildrenx</span><span class="p">().</span><span class="na">first</span><span class="w"> </span><span class="n">as</span><span class="w"> </span><span class="n">BoxDCell</span><span class="p">;</span><span class="w"> </span>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="w">  </span><span class="n">Bounds</span><span class="w"> </span><span class="n">originalBounds</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w">  </span><span class="n">Bounds</span><span class="p">(</span><span class="mf">44.0</span><span class="p">,</span><span class="w"> </span><span class="mf">12.0</span><span class="p">,</span><span class="w"> </span><span class="mf">68.0</span><span class="p">,</span><span class="w"> </span><span class="mf">33.0</span><span class="p">);</span><span class="w"> </span>
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">  </span><span class="n">TestUtils</span><span class="p">.</span><span class="na">boundsAreApproximatelyEqual</span><span class="p">(</span><span class="n">originalBounds</span><span class="p">,</span><span class="w"> </span><span class="n">box1</span><span class="p">.</span><span class="na">getBoundsx</span><span class="p">());</span><span class="w"> </span>
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">  </span><span class="n">ThreadUtils</span><span class="p">.</span><span class="na">runInUIThreadAndWait</span><span class="p">({</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">synchronizer</span><span class="p">.</span><span class="na">suspend</span><span class="p">({</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">box1</span><span class="p">.</span><span class="na">setSizex</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="mi">100</span><span class="p">);</span><span class="w"> </span><span class="p">});</span><span class="w"> </span><span class="p">});</span><span class="w"> </span>
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="w">  </span><span class="n">TestUtils</span><span class="p">.</span><span class="na">boundsAreApproximatelyEqual</span><span class="p">(</span><span class="k">new</span><span class="w">  </span><span class="n">Bounds</span><span class="p">(</span><span class="mf">44.0</span><span class="p">,</span><span class="w"> </span><span class="mf">12.0</span><span class="p">,</span><span class="w"> </span><span class="mf">100.0</span><span class="p">,</span><span class="w"> </span><span class="mf">100.0</span><span class="p">),</span><span class="w"> </span><span class="n">box1</span><span class="p">.</span><span class="na">getBoundsx</span><span class="p">());</span><span class="w"> </span>
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">  </span><span class="n">ThreadUtils</span><span class="p">.</span><span class="na">runInUIThreadAndWait</span><span class="p">({</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">synchronizer</span><span class="p">.</span><span class="na">suspend</span><span class="p">({</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">box1</span><span class="p">.</span><span class="na">setPositionx</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="w"> </span><span class="mi">200</span><span class="p">);</span><span class="w"> </span><span class="p">});</span><span class="w"> </span><span class="p">});</span><span class="w"> </span>
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">  </span><span class="n">TestUtils</span><span class="p">.</span><span class="na">boundsAreApproximatelyEqual</span><span class="p">(</span><span class="k">new</span><span class="w">  </span><span class="n">Bounds</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="w"> </span><span class="mi">200</span><span class="p">,</span><span class="w"> </span><span class="mf">100.0</span><span class="p">,</span><span class="w"> </span><span class="mf">100.0</span><span class="p">),</span><span class="w"> </span><span class="n">box1</span><span class="p">.</span><span class="na">getBoundsx</span><span class="p">());</span><span class="w"> </span>
+<a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="w">  </span><span class="n">ThreadUtils</span><span class="p">.</span><span class="na">runInUIThreadAndWait</span><span class="p">({</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">synchronizer</span><span class="p">.</span><span class="na">suspend</span><span class="p">({</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">diagramECell</span><span class="p">.</span><span class="na">getDiagramModel</span><span class="p">().</span><span class="na">getLayouter</span><span class="p">().</span><span class="na">layout</span><span class="p">(</span><span class="n">diagramECell</span><span class="p">.</span><span class="na">getGraph</span><span class="p">(),</span><span class="w"> </span><span class="k">new</span><span class="w">  </span><span class="n">EmptyProgressIndicator</span><span class="p">());</span><span class="w"> </span><span class="p">});</span><span class="w"> </span><span class="p">});</span><span class="w"> </span>
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="w">  </span><span class="n">TestUtils</span><span class="p">.</span><span class="na">boundsAreApproximatelyEqual</span><span class="p">(</span><span class="n">originalBounds</span><span class="p">,</span><span class="w"> </span><span class="n">box1</span><span class="p">.</span><span class="na">getBoundsx</span><span class="p">());</span><span class="w"> </span>
+<a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="p">});</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="issues">Issues<a class="headerlink" href="#issues" title="Permanent link">&para;</a></h2>
+<p>There&rsquo;s a <a href="https://github.com/JetBrains/MPS-extensions/issues/120">meta issue</a> for known issues.</p>
+<h2 id="blog-posts">Blog posts<a class="headerlink" href="#blog-posts" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://tillschallau.de/mps/jetbrains-mps-the-diagram-language/">JetBrains MPS: The Diagram Language | tillschallau.de</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../conditional-editor/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Conditional Editor">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Conditional Editor
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../grammar-cells/" class="md-footer__link md-footer__link--next" aria-label="Next: Grammar Cells">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Grammar Cells
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.instant", "navigation.tracking", "navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "header.autohide", "content.code.annotate", "search.suggest", "search.highlight", "search.share", "announce.dismiss", "content.code.copy", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

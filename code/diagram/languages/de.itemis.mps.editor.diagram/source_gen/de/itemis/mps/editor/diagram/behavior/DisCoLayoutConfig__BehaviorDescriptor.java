@@ -26,7 +26,7 @@ public final class DisCoLayoutConfig__BehaviorDescriptor extends BaseBHDescripto
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6a0cd762a3d4443L, "de.itemis.mps.editor.diagram.structure.DisCoLayoutConfig");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.componentsSpacing$aiID, DisCoOptions.SPACING_COMPONENT_COMPONENT.getDefault().toString());

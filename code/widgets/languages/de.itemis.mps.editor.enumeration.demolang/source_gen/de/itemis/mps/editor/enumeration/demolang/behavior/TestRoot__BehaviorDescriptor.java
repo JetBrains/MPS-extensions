@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,10 +21,8 @@ public final class TestRoot__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<Void> setTest1_id44i1HsMjoDG = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("setTest1").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4688817683377785452L).languageId(0xb76626b81317341aL, 0x724a3ff4f16146aeL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(setTest1_id44i1HsMjoDG);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(setTest1_id44i1HsMjoDG);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static void setTest1_id44i1HsMjoDG(@NotNull SNode __thisNode__) {
   }
@@ -33,10 +30,6 @@ public final class TestRoot__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ TestRoot__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

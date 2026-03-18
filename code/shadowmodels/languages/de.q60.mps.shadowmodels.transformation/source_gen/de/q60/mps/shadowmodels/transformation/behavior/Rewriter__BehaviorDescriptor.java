@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 import jetbrains.mps.smodel.SNodePointer;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -32,10 +31,8 @@ public final class Rewriter__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<String> getPresentation_id69Qfsw3IoJg = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234040272L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
   public static final SMethod<SNode> getRootConcept_id32qWz0KLm8r = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getRootConcept").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3502377949024576027L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getBase_id2$QnGbu_gjM, isBase_id2$QnGbu_gk1, getBaseId_id2$QnGbu_gkb, getPresentation_id69Qfsw3IoJg, getRootConcept_id32qWz0KLm8r);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getBase_id2$QnGbu_gjM, isBase_id2$QnGbu_gk1, getBaseId_id2$QnGbu_gkb, getPresentation_id69Qfsw3IoJg, getRootConcept_id32qWz0KLm8r);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getBase_id2$QnGbu_gjM(@NotNull SNode __thisNode__) {
     return ((SLinkOperations.getTarget(__thisNode__, LINKS.extends$djjv) == null) ? __thisNode__ : SLinkOperations.getTarget(__thisNode__, LINKS.extends$djjv));
@@ -63,10 +60,6 @@ public final class Rewriter__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ Rewriter__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

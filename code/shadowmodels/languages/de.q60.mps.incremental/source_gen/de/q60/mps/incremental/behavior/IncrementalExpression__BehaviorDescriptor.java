@@ -20,7 +20,6 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.NameUtil;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
@@ -33,10 +32,8 @@ public final class IncrementalExpression__BehaviorDescriptor extends BaseBHDescr
   public static final SMethod<String> getCacheKeyClassName_id7qGGLAkzosl = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getCacheKeyClassName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8551406714917586709L).languageId(0x86bcb70a501ca28fL, 0xda8e6b627ca34489L).build2();
   /*package*/ static final SMethod<SNode> getNamespaceNode_id7qGGLAkzPzR = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getNamespaceNode").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(8551406714917705975L).languageId(0x86bcb70a501ca28fL, 0xda8e6b627ca34489L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCacheKeyClassName_id7qGGLAkzosl, getNamespaceNode_id7qGGLAkzPzR);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCacheKeyClassName_id7qGGLAkzosl, getNamespaceNode_id7qGGLAkzPzR);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getCacheKeyClassName_id7qGGLAkzosl(@NotNull SNode __thisNode__) {
     final SNode namespaceNode = SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.INamedConcept$Kd, false, false);
@@ -53,10 +50,6 @@ public final class IncrementalExpression__BehaviorDescriptor extends BaseBHDescr
   /*package*/ IncrementalExpression__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

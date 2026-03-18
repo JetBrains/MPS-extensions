@@ -15,7 +15,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.util.Collections;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -25,10 +24,8 @@ public final class IViewElement__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<Boolean> isAbstract_id75_oBQVYfcU = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isAbstract").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8171045391097721658L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
   public static final SMethod<Iterable<SNode>> getVisibleElements_id6p8q4IN2gK6 = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getVisibleElements").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7370255464527367174L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isAbstract_id75_oBQVYfcU, getVisibleElements_id6p8q4IN2gK6);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isAbstract_id75_oBQVYfcU, getVisibleElements_id6p8q4IN2gK6);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean isAbstract_id75_oBQVYfcU(@NotNull SNode __thisNode__) {
     return true;
@@ -40,10 +37,6 @@ public final class IViewElement__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IViewElement__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

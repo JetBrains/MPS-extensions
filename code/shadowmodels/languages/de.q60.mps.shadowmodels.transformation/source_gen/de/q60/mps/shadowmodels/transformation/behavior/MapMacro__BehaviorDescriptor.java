@@ -17,7 +17,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -31,10 +30,8 @@ public final class MapMacro__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<String> getMatchingText_id69Qfsw3InJX = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getMatchingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234036221L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
   public static final SMethod<String> getVisibleMatchingText_id69Qfsw3Ipre = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getVisibleMatchingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234043086L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getContextNodeTypeOwner_id1apE37RqhZP, providesTypeFor_idZW5KS9Rmvn, getMatchingText_id69Qfsw3InJX, getVisibleMatchingText_id69Qfsw3Ipre);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getContextNodeTypeOwner_id1apE37RqhZP, providesTypeFor_idZW5KS9Rmvn, getMatchingText_id69Qfsw3InJX, getVisibleMatchingText_id69Qfsw3Ipre);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getContextNodeTypeOwner_id1apE37RqhZP(@NotNull SNode __thisNode__) {
     return null;
@@ -52,10 +49,6 @@ public final class MapMacro__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ MapMacro__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

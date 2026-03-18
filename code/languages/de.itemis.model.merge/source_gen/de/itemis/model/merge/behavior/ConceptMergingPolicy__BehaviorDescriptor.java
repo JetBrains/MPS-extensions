@@ -22,7 +22,6 @@ import jetbrains.mps.lang.structure.behavior.PropertyDeclaration__BehaviorDescri
 import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -47,10 +46,8 @@ public final class ConceptMergingPolicy__BehaviorDescriptor extends BaseBHDescri
   /*package*/ static final SMethod<Iterable<SNode>> allHierarchyOptional_id1Av7ChmzXZT = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyOptional").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1846227925981978617L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
   /*package*/ static final SMethod<Iterable<SNode>> allHierarchyLinkDeclarations_id5v01ES7q237 = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyLinkDeclarations").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(6323061221346517191L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(allHierarchyProperties_id5zr7Q_1V6SF, allHierarchyChildren_id5zr7Q_1WLCS, allHierarchyReferences_id3PLTv5jznVy, allHierarchySingltonChildren_id5zr7Q_1WWCs, allHierarchySingletonRef_id1Av7ChmzWKA, allHierarchyOptionalChildren_id5zr7Q_1XJwl, allHierarchyOptionalRef_id1Av7ChmzZ2C, allHierarchyMultiChildren_id5zr7Q_1XHDE, allSuperConcepts_id5zr7Q_1WN6i, allHierarchySingleton_id1Av7ChmzRIr, isReference_id1Av7ChmzSO3, allHierarchyOptional_id1Av7ChmzXZT, allHierarchyLinkDeclarations_id5v01ES7q237);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(allHierarchyProperties_id5zr7Q_1V6SF, allHierarchyChildren_id5zr7Q_1WLCS, allHierarchyReferences_id3PLTv5jznVy, allHierarchySingltonChildren_id5zr7Q_1WWCs, allHierarchySingletonRef_id1Av7ChmzWKA, allHierarchyOptionalChildren_id5zr7Q_1XJwl, allHierarchyOptionalRef_id1Av7ChmzZ2C, allHierarchyMultiChildren_id5zr7Q_1XHDE, allSuperConcepts_id5zr7Q_1WN6i, allHierarchySingleton_id1Av7ChmzRIr, isReference_id1Av7ChmzSO3, allHierarchyOptional_id1Av7ChmzXZT, allHierarchyLinkDeclarations_id5v01ES7q237);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Iterable<SNode> allHierarchyProperties_id5zr7Q_1V6SF(@NotNull SNode __thisNode__) {
     List<SNode> declarations = Sequence.fromIterable(ConceptMergingPolicy__BehaviorDescriptor.allSuperConcepts_id5zr7Q_1WN6i.invokeSpecial(__thisNode__)).translate((it) -> SLinkOperations.getChildren(it, LINKS.propertyDeclaration$YUgg)).toList();
@@ -100,10 +97,6 @@ public final class ConceptMergingPolicy__BehaviorDescriptor extends BaseBHDescri
   /*package*/ ConceptMergingPolicy__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

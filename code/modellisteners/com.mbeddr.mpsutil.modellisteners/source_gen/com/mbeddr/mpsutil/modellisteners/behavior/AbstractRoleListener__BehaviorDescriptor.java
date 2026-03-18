@@ -13,7 +13,6 @@ import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,19 +21,13 @@ public final class AbstractRoleListener__BehaviorDescriptor extends BaseBHDescri
 
   public static final SMethod<List<SNode>> getVisibleLinks_id5iW7uqbEWve = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getVisibleLinks").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6105788070830524366L).languageId(0xb947ec02ae4ecef2L, 0x309e000449764416L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getVisibleLinks_id5iW7uqbEWve);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getVisibleLinks_id5iW7uqbEWve);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ AbstractRoleListener__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

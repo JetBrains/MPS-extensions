@@ -13,7 +13,6 @@ import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,19 +21,13 @@ public final class ReferencePolicy__BehaviorDescriptor extends BaseBHDescriptor 
 
   public static final SMethod<SNode> ref_id1Tugx$Uc$f = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("ref").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(34191549141666063L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(ref_id1Tugx$Uc$f);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(ref_id1Tugx$Uc$f);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ ReferencePolicy__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

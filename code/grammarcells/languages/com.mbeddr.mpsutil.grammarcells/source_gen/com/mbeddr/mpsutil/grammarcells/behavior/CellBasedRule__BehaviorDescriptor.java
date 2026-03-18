@@ -22,7 +22,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.core.behavior.BaseConcept__BehaviorDescriptor;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -40,10 +39,8 @@ public final class CellBasedRule__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<Boolean> cellAllowedAsSymbol_id1gQHfgGXnT9 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("cellAllowedAsSymbol").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1456550490320240201L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2(SMethodBuilder.createJavaParameter((Class<SAbstractConcept>) ((Class) Object.class), ""));
   public static final SMethod<List<SAbstractConcept>> cellsAllowedAsSymbol_id1gQHfgGXil7 = new SMethodBuilder<List<SAbstractConcept>>(new SJavaCompoundTypeImpl((Class<List<SAbstractConcept>>) ((Class) Object.class))).name("cellsAllowedAsSymbol").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1456550490320217415L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getSymbolCells_id5ewxJLJn0WX, getSymbolsText_id5ewxJLJn4ka, cellToText_id5ewxJLJnVSy, cellAllowedAsSymbol_id1gQHfgGXkQq, cellAllowedAsSymbol_id1gQHfgGXnT9, cellsAllowedAsSymbol_id1gQHfgGXil7);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getSymbolCells_id5ewxJLJn0WX, getSymbolsText_id5ewxJLJn4ka, cellToText_id5ewxJLJnVSy, cellAllowedAsSymbol_id1gQHfgGXkQq, cellAllowedAsSymbol_id1gQHfgGXnT9, cellsAllowedAsSymbol_id1gQHfgGXil7);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<SNode> getSymbolCells_id5ewxJLJn0WX(@NotNull final SNode __thisNode__) {
     SNode symbolsRoot = ((SLinkOperations.getTarget(__thisNode__, LINKS.symbols$yq$$) != null) ? SLinkOperations.getTarget(__thisNode__, LINKS.symbols$yq$$) : SLinkOperations.getTarget(SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.GrammarInfoCell$HL, false, false), LINKS.projection$Ukrr));
@@ -79,10 +76,6 @@ public final class CellBasedRule__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ CellBasedRule__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -16,7 +16,6 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -26,10 +25,8 @@ public final class BracketsCell__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<List<SNode>> getChildren_id5OsvY4gZzTI = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getChildren").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6709378149504663150L).languageId(0xabe400ac26956e69L, 0xb4f35ed845af4efaL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getChildren_id5OsvY4gZzTI);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getChildren_id5OsvY4gZzTI);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<SNode> getChildren_id5OsvY4gZzTI(@NotNull SNode __thisNode__) {
     return ListSequence.fromListAndArray(new ArrayList<SNode>(), SLinkOperations.getTarget(__thisNode__, LINKS.left$Ub$x), SLinkOperations.getTarget(__thisNode__, LINKS.inner$Uch$), SLinkOperations.getTarget(__thisNode__, LINKS.right$UinY));
@@ -38,10 +35,6 @@ public final class BracketsCell__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ BracketsCell__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

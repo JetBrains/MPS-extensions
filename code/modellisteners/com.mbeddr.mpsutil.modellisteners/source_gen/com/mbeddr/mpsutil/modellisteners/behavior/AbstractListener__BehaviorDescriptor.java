@@ -15,7 +15,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -26,10 +25,8 @@ public final class AbstractListener__BehaviorDescriptor extends BaseBHDescriptor
 
   public static final SMethod<SNode> getParentConcept_id52ZF9D3cTKG = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getParentConcept").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5818559022138367020L).languageId(0xb947ec02ae4ecef2L, 0x309e000449764416L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParentConcept_id52ZF9D3cTKG);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParentConcept_id52ZF9D3cTKG);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getParentConcept_id52ZF9D3cTKG(@NotNull SNode __thisNode__) {
     return SLinkOperations.getTarget(SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.ConceptModelListeners$qT, false, false), LINKS.concept$WSQr);
@@ -38,10 +35,6 @@ public final class AbstractListener__BehaviorDescriptor extends BaseBHDescriptor
   /*package*/ AbstractListener__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

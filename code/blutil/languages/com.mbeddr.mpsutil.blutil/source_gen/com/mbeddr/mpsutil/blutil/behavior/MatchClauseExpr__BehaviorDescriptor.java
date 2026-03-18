@@ -13,7 +13,6 @@ import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -23,19 +22,13 @@ public final class MatchClauseExpr__BehaviorDescriptor extends BaseBHDescriptor 
   public static final SMethod<SNode> getCorrespondingClause_id5yvl18N927u = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getCorrespondingClause").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6385915233778803166L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
   public static final SMethod<SNode> createNewCriterion_id5yvl18N9VBC = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("createNewCriterion").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6385915233779038696L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCorrespondingClause_id5yvl18N927u, createNewCriterion_id5yvl18N9VBC);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCorrespondingClause_id5yvl18N927u, createNewCriterion_id5yvl18N9VBC);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ MatchClauseExpr__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

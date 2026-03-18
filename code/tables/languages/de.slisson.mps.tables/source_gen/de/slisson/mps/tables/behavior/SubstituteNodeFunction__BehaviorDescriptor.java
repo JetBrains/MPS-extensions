@@ -18,7 +18,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import jetbrains.mps.smodel.builder.SNodeBuilder;
@@ -37,10 +36,8 @@ public final class SubstituteNodeFunction__BehaviorDescriptor extends BaseBHDesc
   public static final SMethod<SNode> getCellRootConcept_id1x69AmkdcBX = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getCellRootConcept").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1749127723000056317L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
   public static final SMethod<SNode> getConceptForMenu_id1x69AmkddHf = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getConceptForMenu").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1749127723000060751L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParameterConcepts_id2xELmDxyi2v, getExpectedReturnType_idhEwIGRD, getConceptForMenu_id7AHcygo6uTm, getCellRootConcept_id7AHcygo6MWw, getLastLink_id3lUiDt$QrtQ, getCellRootConcept_id1x69AmkdcBX, getConceptForMenu_id1x69AmkddHf);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParameterConcepts_id2xELmDxyi2v, getExpectedReturnType_idhEwIGRD, getConceptForMenu_id7AHcygo6uTm, getCellRootConcept_id7AHcygo6MWw, getLastLink_id3lUiDt$QrtQ, getCellRootConcept_id1x69AmkdcBX, getConceptForMenu_id1x69AmkddHf);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<SConcept> getParameterConcepts_id2xELmDxyi2v(@NotNull SNode __thisNode__) {
     List<SConcept> result = ListSequence.fromList(new ArrayList<SConcept>());
@@ -93,10 +90,6 @@ public final class SubstituteNodeFunction__BehaviorDescriptor extends BaseBHDesc
   /*package*/ SubstituteNodeFunction__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

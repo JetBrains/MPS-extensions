@@ -15,7 +15,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.util.NameUtil;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -25,10 +24,8 @@ public final class IPredefinedDictionary__BehaviorDescriptor extends BaseBHDescr
   public static final SMethod<String> getPath_id5Jv8_iJO5EN = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPath").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6620047724380183219L).languageId(0xbf3dbad4ce201c4eL, 0x82194f31b6f94f39L).build2();
   public static final SMethod<String> getExpandedPath_id5Jv8_iJOIp2 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getExpandedPath").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6620047724380350018L).languageId(0xbf3dbad4ce201c4eL, 0x82194f31b6f94f39L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getPath_id5Jv8_iJO5EN, getExpandedPath_id5Jv8_iJOIp2);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getPath_id5Jv8_iJO5EN, getExpandedPath_id5Jv8_iJOIp2);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getExpandedPath_id5Jv8_iJOIp2(@NotNull SNode __thisNode__) {
     return MacrosFactory.getGlobal().expandPath(NameUtil.escapeString(IPredefinedDictionary__BehaviorDescriptor.getPath_id5Jv8_iJO5EN.invoke(__thisNode__)));
@@ -37,10 +34,6 @@ public final class IPredefinedDictionary__BehaviorDescriptor extends BaseBHDescr
   /*package*/ IPredefinedDictionary__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

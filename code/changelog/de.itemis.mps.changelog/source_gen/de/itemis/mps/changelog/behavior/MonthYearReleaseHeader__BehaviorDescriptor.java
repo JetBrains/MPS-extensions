@@ -29,7 +29,7 @@ public final class MonthYearReleaseHeader__BehaviorDescriptor extends BaseBHDesc
 
   public static final SMethod<Boolean> isAfter_id6aVQm8Wg3U3 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isAfter").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7114519052302696067L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isAfter_id6aVQm8Wg3U3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isAfter_id6aVQm8Wg3U3);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     int month = Calendar.getInstance().get(Calendar.MONTH);

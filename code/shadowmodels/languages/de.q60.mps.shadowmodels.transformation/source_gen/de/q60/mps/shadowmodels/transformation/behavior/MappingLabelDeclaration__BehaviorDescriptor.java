@@ -15,7 +15,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -24,10 +23,8 @@ public final class MappingLabelDeclaration__BehaviorDescriptor extends BaseBHDes
 
   public static final SMethod<String> getLabelId_id32qWz0KiFdx = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getLabelId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3502377949016535905L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getLabelId_id32qWz0KiFdx);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getLabelId_id32qWz0KiFdx);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getLabelId_id32qWz0KiFdx(@NotNull SNode __thisNode__) {
     return SModelOperations.getModelName(SNodeOperations.getModel(__thisNode__)) + "." + ITransformationsNamespaceContent__BehaviorDescriptor.getFullQualifiedName_id2$QnGbu$Y3I.invoke(__thisNode__);
@@ -36,10 +33,6 @@ public final class MappingLabelDeclaration__BehaviorDescriptor extends BaseBHDes
   /*package*/ MappingLabelDeclaration__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

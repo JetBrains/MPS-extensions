@@ -7578,6 +7578,12 @@
             <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
           </node>
         </node>
+        <node concept="1E0d5M" id="3GKJa3$PMrR" role="1E1XAP">
+          <ref role="1E0d5P" to="ffeo:7Kfy9QB6L0C" resolve="collections.runtime" />
+        </node>
+        <node concept="1E0d5M" id="3GKJa3$PMrS" role="1E1XAP">
+          <ref role="1E0d5P" to="ffeo:7Kfy9QB6L2N" resolve="jetbrains.mps.baseLanguage.tuples.runtime" />
+        </node>
       </node>
       <node concept="1E1JtD" id="2NyZxKpUHVD" role="2G$12L">
         <property role="BnDLt" value="true" />

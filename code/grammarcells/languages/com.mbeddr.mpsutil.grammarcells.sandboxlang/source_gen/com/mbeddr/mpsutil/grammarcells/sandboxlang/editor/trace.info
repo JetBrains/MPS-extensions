@@ -401,8 +401,8 @@
       <unit at="21,0,48,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.GrammarCellsSubstituteMenu_WrapType" />
     </file>
     <file name="IncludeBeforeAfterTransformations.java">
-      <unit at="35,0,43,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a0_0" />
-      <unit at="43,0,51,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a1" />
+      <unit at="35,0,43,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a0_1" />
+      <unit at="43,0,51,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a1_1" />
       <unit at="17,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations" />
     </file>
     <file name="template_GrammarCellsSideTransformationsMenu.java">
@@ -9140,7 +9140,7 @@
       </scope>
       <unit id="6709378149497429393" at="68,0,71,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0$CONCEPTS" />
       <unit id="6709378149497429393" at="38,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0$GenericMenuPart_a0" />
-      <unit id="6709378149497429393" at="52,0,67,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0$GenericMenuPart_a1_1" />
+      <unit id="6709378149497429393" at="52,0,67,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0$GenericMenuPart_a1_0" />
       <unit id="6709378149497429393" at="20,0,72,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0" />
     </file>
     <file name="GrammarActionsDescriptor.java">
@@ -12270,7 +12270,7 @@
       <node id="6709378149504660762" at="21,67,22,342" concept="13" />
       <node id="6709378149504660762" at="27,124,28,156" concept="7" />
       <node id="6709378149504660762" at="29,136,30,45" concept="2" />
-      <node id="6709378149504660762" at="32,135,33,45" concept="2" />
+      <node id="6709378149504660762" at="32,135,33,43" concept="2" />
       <node id="6709378149504660762" at="34,5,35,18" concept="8" />
       <node id="6709378149504660762" at="42,90,43,47" concept="2" />
       <node id="6709378149504660762" at="44,11,45,254" concept="2" />
@@ -12292,7 +12292,7 @@
       <node id="6709378149504660762" at="54,0,66,0" concept="6" trace="createItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;)Ljava/util/List;" />
       <scope id="6709378149504660762" at="21,67,22,342" />
       <scope id="6709378149504660762" at="29,136,30,45" />
-      <scope id="6709378149504660762" at="32,135,33,45" />
+      <scope id="6709378149504660762" at="32,135,33,43" />
       <scope id="6709378149504660762" at="47,17,48,48" />
       <scope id="6709378149504660762" at="61,17,62,48" />
       <scope id="6709378149504660762" at="44,11,46,171" />
@@ -12313,8 +12313,8 @@
         <var name="ctx" id="6709378149504660762" />
       </scope>
       <unit id="6709378149504660762" at="68,0,71,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$CONCEPTS" />
-      <unit id="6709378149504660762" at="38,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$GenericMenuPart_a0_1" />
-      <unit id="6709378149504660762" at="52,0,67,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$GenericMenuPart_a1_0" />
+      <unit id="6709378149504660762" at="38,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$GenericMenuPart_a0_0" />
+      <unit id="6709378149504660762" at="52,0,67,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$GenericMenuPart_a1" />
       <unit id="6709378149504660762" at="20,0,72,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0" />
     </file>
     <file name="BracketsExpression_Editor.java">

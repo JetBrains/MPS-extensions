@@ -13,7 +13,6 @@ import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,19 +21,13 @@ public final class IIncrementalFunction__BehaviorDescriptor extends BaseBHDescri
 
   public static final SMethod<Iterable<SNode>> getParameters_id7qGGLAkZPfX = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getParameters").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8551406714925044733L).languageId(0x86bcb70a501ca28fL, 0xda8e6b627ca34489L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParameters_id7qGGLAkZPfX);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParameters_id7qGGLAkZPfX);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ IIncrementalFunction__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

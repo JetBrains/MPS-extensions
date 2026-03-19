@@ -16,7 +16,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -27,10 +26,8 @@ public final class Padding__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<SNode> fromElkPadding_id56jSwh$nT2X = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("fromElkPadding").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5878290447140360381L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2(SMethodBuilder.createJavaParameter(ElkPadding.class, ""));
   public static final SMethod<ElkPadding> toElkPadding_id56jSwh$Gd44 = new SMethodBuilder<ElkPadding>(new SJavaCompoundTypeImpl(ElkPadding.class)).name("toElkPadding").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5878290447145685252L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(fromElkPadding_id56jSwh$nT2X, toElkPadding_id56jSwh$Gd44);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(fromElkPadding_id56jSwh$nT2X, toElkPadding_id56jSwh$Gd44);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode fromElkPadding_id56jSwh$nT2X(@NotNull SAbstractConcept __thisConcept__, ElkPadding elkPadding) {
     SNode padding = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x5193e2046442aeceL, "de.itemis.mps.editor.diagram.structure.Padding"));
@@ -47,10 +44,6 @@ public final class Padding__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ Padding__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

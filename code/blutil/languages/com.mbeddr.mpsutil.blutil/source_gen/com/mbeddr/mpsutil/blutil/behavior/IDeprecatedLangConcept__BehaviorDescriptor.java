@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -25,10 +24,8 @@ public final class IDeprecatedLangConcept__BehaviorDescriptor extends BaseBHDesc
   public static final SMethod<Boolean> hasMigration_id243ufko$Aul = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("hasMigration").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2378878022256322453L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
   public static final SMethod<Void> performMigration_id243ufko$Aur = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("performMigration").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2378878022256322459L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDeprecationMessage_id243ufko$Au9, migrateAutomatically_id243ufko$Auf, hasMigration_id243ufko$Aul, performMigration_id243ufko$Aur);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDeprecationMessage_id243ufko$Au9, migrateAutomatically_id243ufko$Auf, hasMigration_id243ufko$Aul, performMigration_id243ufko$Aur);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getDeprecationMessage_id243ufko$Au9(@NotNull SNode __thisNode__) {
     return "";
@@ -45,10 +42,6 @@ public final class IDeprecatedLangConcept__BehaviorDescriptor extends BaseBHDesc
   /*package*/ IDeprecatedLangConcept__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

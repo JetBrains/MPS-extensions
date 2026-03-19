@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.Collections;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -40,10 +39,8 @@ public final class TreeNodeElement__BehaviorDescriptor extends BaseBHDescriptor 
   public static final SMethod<Iterable<SNode>> getAncestorsAndMe_id75_oBQVZzrA = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getAncestorsAndMe").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8171045391098066662L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
   public static final SMethod<SNode> getParent_idXSoA18Owbp = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getParent").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1114749073452303065L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getElementType_id3ZnFyBjt73L, isAbstract_id75_oBQVYfcU, getVisibleElements_id6p8q4IN2gK6, isOverride_id75_oBQVYcbH, getId_id3ZnFyBjvyvf, getView_idVPgi8ec6eE, hasQuery_id75_oBQVZApO, getAncestors_id7diJr$RwiBf, getAncestorsAndMe_id75_oBQVZzrA, getParent_idXSoA18Owbp);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getElementType_id3ZnFyBjt73L, isAbstract_id75_oBQVYfcU, getVisibleElements_id6p8q4IN2gK6, isOverride_id75_oBQVYcbH, getId_id3ZnFyBjvyvf, getView_idVPgi8ec6eE, hasQuery_id75_oBQVZApO, getAncestors_id7diJr$RwiBf, getAncestorsAndMe_id75_oBQVZzrA, getParent_idXSoA18Owbp);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getElementType_id3ZnFyBjt73L(@NotNull SNode __thisNode__) {
     return ((SLinkOperations.getTarget(__thisNode__, LINKS.type$VI7Y) != null) ? SLinkOperations.getTarget(__thisNode__, LINKS.type$VI7Y) : check_l866cq_a0a0a(SLinkOperations.getTarget(__thisNode__, LINKS.extends$a7w$)));
@@ -91,10 +88,6 @@ public final class TreeNodeElement__BehaviorDescriptor extends BaseBHDescriptor 
   /*package*/ TreeNodeElement__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

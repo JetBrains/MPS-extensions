@@ -27,7 +27,7 @@ public final class DataIdParameter__BehaviorDescriptor extends BaseBHDescriptor 
   public static final SMethod<String> getParameterName_idhP8qAbK = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getParameterName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1225280611056L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
   public static final SMethod<SNode> getType_id27DJnJtIQ9C = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getType").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2443692612523876968L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParameterName_idhP8qAbK, getType_id27DJnJtIQ9C);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParameterName_idhP8qAbK, getType_id27DJnJtIQ9C);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
 

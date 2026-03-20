@@ -434,7 +434,7 @@ tasks.register<MpsMigrate>("migrate") {
 
 tasks.register<Remigrate>("remigrate") {
     mustRunAfter("migrate")
-    mustRunAfter(provider { mpsBuilds.map(MpsBuild::generateTask) })
+    dependsOn(provider { mpsBuilds.map(MpsBuild::generateTask) })
 
     javaLauncher = jbrToolchain.javaLauncher
     mpsHome = mpsDefaults.mpsHome

@@ -26,7 +26,7 @@ import jetbrains.mps.ide.ThreadUtils;
 @MPSLaunch
 public class IntentionCustomization_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(IntentionCustomization_Test.class).projectPath("${extensions.home}/code").modelRef("r:40d04b00-2be3-4b3b-909e-f12049589983(com.mbeddr.mpsutil.intentions.tests.tests@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(IntentionCustomization_Test.class).projectPath(null).modelRef("r:40d04b00-2be3-4b3b-909e-f12049589983(com.mbeddr.mpsutil.intentions.tests.tests@tests)").reopenProject(false).build());
 
   public IntentionCustomization_Test() {
     super(ourParametersCacheExtension.getParametersCache());

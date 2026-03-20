@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="ew6nhrmnqijxc7a3tgiispjqt4kz4ml">
+<product version="3" modelHash="1d5re0q1m5qzcbpvqv0guwmelvqaggf">
   <files names="CustomIntentions_Test.java:GroupAnnotations_Test.java:IntentionCustomization_Test.java:RunIntentionOnReadOnlyCellViaStyleFlag_Test.java" />
 </product>
 

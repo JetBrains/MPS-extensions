@@ -15,17 +15,12 @@ import jetbrains.mps.lang.test.generator.rt.ModelAssert;
 public class GeneratorTest extends BaseGeneratorTest {
 
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(GeneratorTest.class).projectPath("${extensions.home}/code").modelRef("r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(GeneratorTest.class).projectPath(null).modelRef("r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)").reopenProject(null).build());
 
 
   private SModel myArg_input;
   private SModel myArg_output;
 
-  @BeforeEach
-  public void initProject() throws Exception {
-    ourParametersCacheExtension.getParametersCache().initializeOnce(this, getEnvironment(), null);
-    setProject(ourParametersCacheExtension.getParametersCache().getProject());
-  }
 
   @BeforeEach
   public void prepareArguments() {

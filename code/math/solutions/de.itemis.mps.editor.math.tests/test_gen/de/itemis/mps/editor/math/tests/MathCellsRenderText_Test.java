@@ -20,7 +20,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 @MPSLaunch
 public class MathCellsRenderText_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(MathCellsRenderText_Test.class).projectPath("${extensions.home}/code").modelRef("r:0a543bb5-9e00-40bc-8ed6-0121f6bf91ea(de.itemis.mps.editor.math.tests@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(MathCellsRenderText_Test.class).projectPath(null).modelRef("r:0a543bb5-9e00-40bc-8ed6-0121f6bf91ea(de.itemis.mps.editor.math.tests@tests)").reopenProject(null).build());
 
   public MathCellsRenderText_Test() {
     super(ourParametersCacheExtension.getParametersCache());

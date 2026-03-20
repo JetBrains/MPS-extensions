@@ -28,7 +28,7 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 @MPSLaunch
 public class CompareIgnoreChildren_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(CompareIgnoreChildren_Test.class).projectPath("${extensions.home}/code").modelRef("r:3fe8e2d2-ffdd-4800-bb6a-279079ef87e1(test.de.itemis.mps.compare.ts@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(CompareIgnoreChildren_Test.class).projectPath(null).modelRef("r:3fe8e2d2-ffdd-4800-bb6a-279079ef87e1(test.de.itemis.mps.compare.ts@tests)").reopenProject(null).build());
 
   public CompareIgnoreChildren_Test() {
     super(ourParametersCacheExtension.getParametersCache());

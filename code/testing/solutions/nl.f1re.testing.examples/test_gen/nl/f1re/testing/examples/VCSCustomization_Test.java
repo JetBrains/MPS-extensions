@@ -19,7 +19,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 @MPSLaunch
 public class VCSCustomization_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(VCSCustomization_Test.class).projectPath("${extensions.home}/code").modelRef("r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(VCSCustomization_Test.class).projectPath(null).modelRef("r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)").reopenProject(null).build());
 
   public VCSCustomization_Test() {
     super(ourParametersCacheExtension.getParametersCache());

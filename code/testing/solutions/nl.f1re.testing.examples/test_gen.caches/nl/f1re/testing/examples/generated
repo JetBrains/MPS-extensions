@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-7m2t3arwnlejqoz4yozlxe07m7u3cyp">
+<product version="3" modelHash="-epkgpjz48a648h1rlaodq95s010wmf">
   <files names="Actionmap_Test.java:ChangeEditorFontSize_Test.java:Classloading_Test.java:ConditionalEditor_Test.java:Constraint_Test.java:ContextAssistant_Test.java:CopyAndPasteFromClipboard_Test.java:CopyAndPaste_Test.java:DataFlow_Test.java:Disposable.java:ExtensionPointMasking_Test.java:ExtensionPoint_Test.java:FocusAndSelection_Test.java:GeneratorPerformance_Test.java:GeneratorTest.java:Hyperlink_Test.java:Intention_Test.java:JavaCommand_Test.java:KeyMap_Test.java:Keyboardshortcut_Test.java:Leak.java:LeakTest_Test.java:LeftHighlighter_Test.java:MainMenuHasAction_Test.java:MessagesView_Test.java:Migration.java:NodeSubstitutionAndCompletionCustomization_Test.java:Notification_Test.java:OpenEditor_Test.java:OpenNode_Test.java:OpenTool_Test.java:PlatformTestUtilWithModelAccess_Test.java:PlatformTestUtilWithoutModelAccess_Test.java:Redo_Test.java:Scope_Test.java:SideTransformation_Test.java:SlowEditor_Test.java:StubLoading_Test.java:SubstituteMenu_Test.java:TestJavaClass.java:ThemeSwitching_Test.java:Tooltip_Test.java:Typesystem_Test.java:Undo_Test.java:VCSCustomization_Test.java:Various_Test.java" />
 </product>
 

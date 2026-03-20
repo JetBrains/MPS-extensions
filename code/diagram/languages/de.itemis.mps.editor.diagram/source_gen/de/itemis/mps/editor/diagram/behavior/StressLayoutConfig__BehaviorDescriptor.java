@@ -22,7 +22,7 @@ public final class StressLayoutConfig__BehaviorDescriptor extends BaseBHDescript
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f3cd4551L, "de.itemis.mps.editor.diagram.structure.StressLayoutConfig");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.desiredEdgeLength$zBs, StressOptions.DESIRED_EDGE_LENGTH.getDefault().toString());

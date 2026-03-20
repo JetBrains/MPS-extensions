@@ -41,7 +41,7 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<SNode> getSelectedWord_id5Zn2KFQUdoe = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getSelectedWord").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6906000695315977742L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2(SMethodBuilder.createJavaParameter(EditorContext.class, ""));
   public static final SMethod<Boolean> isEmpty_id2ZHlC004czC = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isEmpty").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3453511597019941096L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(normalizeStructure_id4Lll81Ty9os, isNormalized_idIKrxbBHaGP, ensureNormalized_id3mI$71cQ6Aw, ensureNormalized_id1xf6IA5Se_N, getTextLines_id7T88Na6$wwy, asTextString_id3Q5enzfMT4l, getSelectedWord_id5Zn2KFQUdoe, isEmpty_id2ZHlC004czC);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(normalizeStructure_id4Lll81Ty9os, isNormalized_idIKrxbBHaGP, ensureNormalized_id3mI$71cQ6Aw, ensureNormalized_id1xf6IA5Se_N, getTextLines_id7T88Na6$wwy, asTextString_id3Q5enzfMT4l, getSelectedWord_id5Zn2KFQUdoe, isEmpty_id2ZHlC004czC);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.addNewChild(__thisNode__, LINKS.words$C8QZ, CONCEPTS.Word$5r);

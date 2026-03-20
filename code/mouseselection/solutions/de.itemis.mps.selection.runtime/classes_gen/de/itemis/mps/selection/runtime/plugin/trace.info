@@ -111,7 +111,7 @@
       <node id="2886180662906631083" at="27,69,28,130" concept="2" />
       <node id="6971699915905732222" at="34,22,35,103" concept="2" />
       <node id="2886180662906681986" at="35,103,36,87" concept="6" />
-      <node id="2886180662906648563" at="36,87,37,93" concept="2" />
+      <node id="2886180662906648563" at="36,87,37,99" concept="2" />
       <node id="2886180662906674044" at="40,25,41,46" concept="2" />
       <node id="6971699915905733775" at="41,46,42,55" concept="2" />
       <node id="2886180662906684789" at="42,55,43,87" concept="6" />
@@ -122,13 +122,13 @@
       <node id="2886180662906659650" at="55,5,56,0" concept="9" />
       <node id="6971699915905730841" at="31,0,33,0" concept="1" trace="ApplicationPlugin_AppPluginPart#()V" />
       <node id="2886180662906631084" at="46,91,49,5" concept="4" />
-      <node id="2886180662906659650" at="52,111,55,5" concept="4" />
+      <node id="2886180662906659650" at="52,169,55,5" concept="4" />
       <node id="2886180662906631048" at="16,0,20,0" concept="5" trace="isApplicable#(Ljetbrains/mps/openapi/editor/EditorComponent;)Z" />
       <node id="2886180662906631059" at="21,0,25,0" concept="5" trace="install#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
       <node id="2886180662906631076" at="26,0,30,0" concept="5" trace="uninstall#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
       <node id="6971699915905730841" at="33,0,39,0" concept="5" trace="init#()V" />
-      <node id="2886180662906631084" at="46,0,52,0" concept="11" trace="check_t5qngh_a0a4a0a0#(Lde/itemis/mps/selection/runtime/mouse/DragSelectionMouseListener;)V" />
-      <node id="2886180662906659650" at="52,0,58,0" concept="11" trace="check_t5qngh_a2a0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
+      <node id="2886180662906631084" at="46,0,52,0" concept="11" trace="check_rkx9f9_a0a4a0a0#(Lde/itemis/mps/selection/runtime/mouse/DragSelectionMouseListener;)V" />
+      <node id="2886180662906659650" at="52,0,58,0" concept="11" trace="check_rkx9f9_a2a2#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;Lde/itemis/mps/selection/runtime/plugin/ApplicationPlugin_AppPluginPart;)V" />
       <node id="6971699915905730841" at="39,0,46,0" concept="5" trace="dispose#()V" />
       <node id="2886180662906631041" at="15,0,31,0" concept="3" trace="selectionListener" />
       <scope id="6971699915905730841" at="31,44,31,44" />
@@ -138,7 +138,7 @@
       <scope id="2886180662906631084" at="47,36,48,36" />
       <scope id="2886180662906659650" at="53,36,54,53" />
       <scope id="6971699915905730841" at="31,0,33,0" />
-      <scope id="6971699915905730843" at="34,22,37,93">
+      <scope id="6971699915905730843" at="34,22,37,99">
         <var name="extension" id="2886180662906681987" />
       </scope>
       <scope id="2886180662906631048" at="16,0,20,0">
@@ -154,13 +154,14 @@
         <var name="extension" id="2886180662906684790" />
       </scope>
       <scope id="2886180662906631084" at="46,91,50,0" />
-      <scope id="2886180662906659650" at="52,111,56,0" />
+      <scope id="2886180662906659650" at="52,169,56,0" />
       <scope id="6971699915905730841" at="33,0,39,0" />
       <scope id="2886180662906631084" at="46,0,52,0">
         <var name="checkedDotOperand" id="2886180662906631084" />
       </scope>
       <scope id="2886180662906659650" at="52,0,58,0">
         <var name="checkedDotOperand" id="2886180662906659650" />
+        <var name="checkedDotThisExpression" id="2886180662906659650" />
         <var name="extension" id="2886180662906683864" />
       </scope>
       <scope id="6971699915905730841" at="39,0,46,0" />

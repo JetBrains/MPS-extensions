@@ -19,7 +19,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import javax.swing.SwingConstants;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -29,10 +28,8 @@ public final class UserDefinedConfig__BehaviorDescriptor extends BaseBHDescripto
   public static final SMethod<String> getNormalName_id4h7S3972MgI = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getNormalName").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4920147624470455342L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2(SMethodBuilder.createJavaParameter(String.class, ""));
   public static final SMethod<JCheckBox> getBooleanPropertyCheckBox_id4h7S3973QQF = new SMethodBuilder<JCheckBox>(new SJavaCompoundTypeImpl(JCheckBox.class)).name("getBooleanPropertyCheckBox").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4920147624470736299L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2(SMethodBuilder.createJavaParameter(EditorContext.class, ""), SMethodBuilder.createJavaParameter(SProperty.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getNormalName_id4h7S3972MgI, getBooleanPropertyCheckBox_id4h7S3973QQF);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getNormalName_id4h7S3972MgI, getBooleanPropertyCheckBox_id4h7S3973QQF);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getNormalName_id4h7S3972MgI(@NotNull SAbstractConcept __thisConcept__, String camelcaseName) {
     // split camelcase string into string array
@@ -60,10 +57,6 @@ public final class UserDefinedConfig__BehaviorDescriptor extends BaseBHDescripto
   /*package*/ UserDefinedConfig__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

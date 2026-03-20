@@ -32,7 +32,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 @MPSLaunch
 public class ModelListener_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(ModelListener_Test.class).projectPath("${extensions.home}/code").modelRef("r:a67a6614-4d97-4d53-ae02-f3b0d488ac12(test.com.mbeddr.mpsutil.modellisteners@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(ModelListener_Test.class).projectPath(null).modelRef("r:a67a6614-4d97-4d53-ae02-f3b0d488ac12(test.com.mbeddr.mpsutil.modellisteners@tests)").reopenProject(null).build());
 
   public ModelListener_Test() {
     super(ourParametersCacheExtension.getParametersCache());

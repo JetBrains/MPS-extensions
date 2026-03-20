@@ -615,33 +615,28 @@
     <file name="GeneratorTest.java">
       <node id="4412198783664572642" at="21,0,22,0" concept="4" trace="myArg_input" />
       <node id="4412198783664572648" at="22,0,23,0" concept="4" trace="myArg_output" />
-      <node id="2964412296095109832" at="25,46,26,98" concept="3" />
-      <node id="2964412296095109832" at="26,98,27,78" concept="3" />
-      <node id="4412198783664572642" at="31,34,32,113" concept="3" />
-      <node id="4412198783664572648" at="32,113,33,116" concept="3" />
-      <node id="2964412296095115175" at="37,40,38,41" concept="8" />
-      <node id="2964412296095115175" at="38,41,39,27" concept="8" />
-      <node id="2964412296095115175" at="39,27,40,18" concept="3" />
-      <node id="2964412296095115175" at="40,18,41,18" concept="3" />
-      <node id="2964412296095115175" at="41,18,42,29" concept="8" />
-      <node id="2964412296095115175" at="42,29,43,74" concept="8" />
-      <node id="2964412296095115175" at="43,74,44,43" concept="3" />
+      <node id="4412198783664572642" at="26,34,27,113" concept="3" />
+      <node id="4412198783664572648" at="27,113,28,116" concept="3" />
+      <node id="2964412296095115175" at="32,40,33,41" concept="8" />
+      <node id="2964412296095115175" at="33,41,34,27" concept="8" />
+      <node id="2964412296095115175" at="34,27,35,18" concept="3" />
+      <node id="2964412296095115175" at="35,18,36,18" concept="3" />
+      <node id="2964412296095115175" at="36,18,37,29" concept="8" />
+      <node id="2964412296095115175" at="37,29,38,74" concept="8" />
+      <node id="2964412296095115175" at="38,74,39,43" concept="3" />
       <node id="2964412296095109832" at="17,0,19,0" concept="12" trace="ourParametersCacheExtension" />
-      <node id="2964412296095109832" at="24,0,29,0" concept="7" trace="initProject#()V" />
-      <node id="2964412296095109832" at="30,0,35,0" concept="7" trace="prepareArguments#()V" />
-      <node id="2964412296095115175" at="36,0,46,0" concept="7" trace="testTransformAndMatch0#()V" />
-      <scope id="2964412296095109832" at="25,46,27,78" />
-      <scope id="2964412296095109832" at="31,34,33,116" />
-      <scope id="2964412296095109832" at="24,0,29,0" />
-      <scope id="2964412296095109832" at="30,0,35,0" />
-      <scope id="2964412296095115175" at="37,40,44,43">
+      <node id="2964412296095109832" at="25,0,30,0" concept="7" trace="prepareArguments#()V" />
+      <node id="2964412296095115175" at="31,0,41,0" concept="7" trace="testTransformAndMatch0#()V" />
+      <scope id="2964412296095109832" at="26,34,28,116" />
+      <scope id="2964412296095109832" at="25,0,30,0" />
+      <scope id="2964412296095115175" at="32,40,39,43">
         <var name="i" id="2964412296095115175" />
         <var name="ma" id="2964412296095115175" />
         <var name="rm" id="2964412296095115175" />
         <var name="t" id="2964412296095115175" />
       </scope>
-      <scope id="2964412296095115175" at="36,0,46,0" />
-      <unit id="2964412296095109832" at="15,0,48,0" name="nl.f1re.testing.examples.GeneratorTest" />
+      <scope id="2964412296095115175" at="31,0,41,0" />
+      <unit id="2964412296095109832" at="15,0,43,0" name="nl.f1re.testing.examples.GeneratorTest" />
     </file>
   </root>
   <root nodeRef="r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)/2964412296095265655">

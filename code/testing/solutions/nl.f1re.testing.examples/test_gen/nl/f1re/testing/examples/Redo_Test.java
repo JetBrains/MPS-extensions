@@ -14,8 +14,7 @@ import com.intellij.openapi.project.Project;
 import jetbrains.mps.ide.project.ProjectHelper;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.command.undo.UndoManager;
-import jetbrains.mps.ide.editor.MPSFileNodeEditor;
-import de.slisson.mps.reflection.runtime.ReflectionUtil;
+import nl.f1re.testing.runtime.EditorComponentTestHelper;
 
 @MPSLaunch
 public class Redo_Test extends BaseTransformationTest {
@@ -44,15 +43,9 @@ public class Redo_Test extends BaseTransformationTest {
       final Project ideaProject = ProjectHelper.toIdeaProject(myProject);
       ApplicationManager.getApplication().invokeAndWait(() -> {
         UndoManager undoManager = UndoManager.getInstance(ideaProject);
-        undoManager.undo(((MPSFileNodeEditor) ReflectionUtil.readField(BaseEditorTestBody.class, as_vz5n2x_a1a0a0a1a0a0d0d6(TestBody.this, BaseEditorTestBody.class), "myFileNodeEditor")));
-        undoManager.redo(((MPSFileNodeEditor) ReflectionUtil.readField(BaseEditorTestBody.class, as_vz5n2x_a1a0a0a2a0a0d0d6(TestBody.this, BaseEditorTestBody.class), "myFileNodeEditor")));
+        undoManager.undo(new EditorComponentTestHelper(getEditorComponent()).getFileEditor());
+        undoManager.redo(new EditorComponentTestHelper(getEditorComponent()).getFileEditor());
       });
-    }
-    private static <T> T as_vz5n2x_a1a0a0a1a0a0d0d6(Object o, Class<T> type) {
-      return (type.isInstance(o) ? (T) o : null);
-    }
-    private static <T> T as_vz5n2x_a1a0a0a2a0a0d0d6(Object o, Class<T> type) {
-      return (type.isInstance(o) ? (T) o : null);
     }
   }
 }

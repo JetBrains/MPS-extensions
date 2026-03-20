@@ -15,7 +15,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.NotNullWhereFilter;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -25,10 +24,8 @@ public final class IDictionary__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<List<SNode>> getEntries_id29wDeGIfHAw = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getEntries").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2477161125053913504L).languageId(0xbf3dbad4ce201c4eL, 0x82194f31b6f94f39L).build2();
   public static final SMethod<List<String>> getWords_id29wDeGIfjFX = new SMethodBuilder<List<String>>(new SJavaCompoundTypeImpl((Class<List<String>>) ((Class) Object.class))).name("getWords").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2477161125053807357L).languageId(0xbf3dbad4ce201c4eL, 0x82194f31b6f94f39L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getEntries_id29wDeGIfHAw, getWords_id29wDeGIfjFX);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getEntries_id29wDeGIfHAw, getWords_id29wDeGIfjFX);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<String> getWords_id29wDeGIfjFX(@NotNull SNode __thisNode__) {
     return ListSequence.fromList(IDictionary__BehaviorDescriptor.getEntries_id29wDeGIfHAw.invoke(__thisNode__)).translate((it) -> (List<String>) IDictionaryEntry__BehaviorDescriptor.getWords_id29wDeGIfN0n.invoke(it)).where(new NotNullWhereFilter()).toList();
@@ -37,10 +34,6 @@ public final class IDictionary__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IDictionary__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

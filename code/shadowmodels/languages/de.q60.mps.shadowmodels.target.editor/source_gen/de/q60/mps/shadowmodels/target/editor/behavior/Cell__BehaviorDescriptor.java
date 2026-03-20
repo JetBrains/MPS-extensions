@@ -26,7 +26,6 @@ import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationTrace;
 import de.q60.mps.shadowmodels.runtime.engine.IOperation;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -37,10 +36,8 @@ public final class Cell__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<Void> init_id52$J9HB1W89 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("init").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5810976794849296905L).languageId(0xa62261eda9424397L, 0x9826ee01d0ba4048L).build2(SMethodBuilder.createJavaParameter(EditorCell.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(init_id52$J9HB1W89);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(init_id52$J9HB1W89);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static void init_id52$J9HB1W89(@NotNull SNode __thisNode__, final EditorCell cell) {
     if (SPropertyOperations.getBoolean(__thisNode__, PROPS.drawBorder$F7Bv)) {
@@ -88,10 +85,6 @@ public final class Cell__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ Cell__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

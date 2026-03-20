@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
@@ -29,10 +28,8 @@ public final class PolymorphicFunctionDeclaration__BehaviorDescriptor extends Ba
 
   public static final SMethod<String> getId_id3jJoUQ7114V = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3814377006351782203L).languageId(0x8543ea411eb9d3a1L, 0xbc963c22d41949b6L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getId_id3jJoUQ7114V);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getId_id3jJoUQ7114V);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getId_id3jJoUQ7114V(@NotNull SNode __thisNode__) {
     return SModelOperations.getModelName(SNodeOperations.getModel(__thisNode__)) + "." + IterableUtils.join(ListSequence.fromList(SNodeOperations.getNodeAncestors(__thisNode__, CONCEPTS.INamedConcept$Kd, true)).reversedList().select((it) -> SPropertyOperations.getString(it, PROPS.name$MnvL)), ".");
@@ -41,10 +38,6 @@ public final class PolymorphicFunctionDeclaration__BehaviorDescriptor extends Ba
   /*package*/ PolymorphicFunctionDeclaration__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

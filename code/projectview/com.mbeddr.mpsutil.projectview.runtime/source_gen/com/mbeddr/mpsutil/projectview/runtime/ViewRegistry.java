@@ -211,7 +211,7 @@ public class ViewRegistry {
           return it.getElements();
         }
       }).concat(Sequence.fromIterable(Sequence.<IViewElementDescriptor>singleton(null)))) {
-        for (ElementId descendant : SetSequence.fromSet(getPossibleDescendantDescriptors(check_spq8lt_a0a0a1a2a24(parentDescriptor), viewId))) {
+        for (ElementId descendant : SetSequence.fromSet(getPossibleDescendantDescriptors(check_spq8lt_a0a0b0c0qb(parentDescriptor), viewId))) {
           registerDescendantType(getElement(descendant).getOutputType(), check_spq8lt_b0a0a0b0c0qb(parentDescriptor), viewId);
         }
       }
@@ -297,7 +297,7 @@ public class ViewRegistry {
     }
     return null;
   }
-  private static ElementId check_spq8lt_a0a0a1a2a24(IViewElementDescriptor checkedDotOperand) {
+  private static ElementId check_spq8lt_a0a0b0c0qb(IViewElementDescriptor checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getId();
     }

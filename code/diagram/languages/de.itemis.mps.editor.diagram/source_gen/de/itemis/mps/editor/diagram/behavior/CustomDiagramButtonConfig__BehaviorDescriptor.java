@@ -24,7 +24,7 @@ public final class CustomDiagramButtonConfig__BehaviorDescriptor extends BaseBHD
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x2ffa094b406f4771L, "de.itemis.mps.editor.diagram.structure.CustomDiagramButtonConfig");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.setTarget(__thisNode__, LINKS.root$b9yZ, createQueryFunction_Buttons_1fezot_a0a0a0());

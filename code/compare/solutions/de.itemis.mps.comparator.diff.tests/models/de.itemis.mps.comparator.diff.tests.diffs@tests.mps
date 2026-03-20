@@ -68,9 +68,6 @@
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
       <concept id="4531408400486526326" name="jetbrains.mps.lang.test.structure.WarningStatementReference" flags="ng" index="2PQEqo" />
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
       <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1225469856668" name="jetbrains.mps.lang.test.structure.ModelExpression" flags="nn" index="1jGwE1" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
@@ -1055,9 +1052,6 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="3iWn33UAWQ" role="1B3o_S" />
-  </node>
-  <node concept="2XOHcx" id="5kFTseQQT1w">
-    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="1lH9Xt" id="12RzKZkAF$F">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />

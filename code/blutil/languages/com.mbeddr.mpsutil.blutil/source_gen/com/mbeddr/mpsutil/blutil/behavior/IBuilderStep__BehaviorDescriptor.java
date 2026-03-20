@@ -13,7 +13,6 @@ import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,19 +21,13 @@ public final class IBuilderStep__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<Void> linearizedList_id223bK6mduU5 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("linearizedList").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2342767915024379525L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(linearizedList_id223bK6mduU5);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(linearizedList_id223bK6mduU5);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ IBuilderStep__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

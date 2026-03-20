@@ -13,7 +13,6 @@ import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -24,19 +23,13 @@ public final class IIfMacro__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<SNode> getThenPart_id7POzUCrfyOi = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getThenPart").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9040008312803699986L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
   public static final SMethod<SNode> getElsePart_id7POzUCrfyOu = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getElsePart").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9040008312803699998L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCondition_id7POzUCrfyO7, getThenPart_id7POzUCrfyOi, getElsePart_id7POzUCrfyOu);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCondition_id7POzUCrfyO7, getThenPart_id7POzUCrfyOi, getElsePart_id7POzUCrfyOu);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ IIfMacro__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

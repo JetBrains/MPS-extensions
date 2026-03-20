@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import jetbrains.mps.smodel.builder.SNodeBuilder;
@@ -25,10 +24,8 @@ public final class MarginStyle__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<SNode> getStyleAttributeDeclaration_id2nutuZsM_FC = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getStyleAttributeDeclaration").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2728748097294981864L).languageId(0x93189ce96d91da44L, 0x1919c723b60b4592L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStyleAttributeDeclaration_id2nutuZsM_FC);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStyleAttributeDeclaration_id2nutuZsM_FC);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getStyleAttributeDeclaration_id2nutuZsM_FC(@NotNull SAbstractConcept __thisConcept__) {
     return SLinkOperations.getTarget(_quotation_createNode_8jyb13_a0a0a(), LINKS.attributeDeclaration$Xjv0);
@@ -37,10 +34,6 @@ public final class MarginStyle__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ MarginStyle__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

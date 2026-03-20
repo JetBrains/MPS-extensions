@@ -401,8 +401,8 @@
       <unit at="21,0,48,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.GrammarCellsSubstituteMenu_WrapType" />
     </file>
     <file name="IncludeBeforeAfterTransformations.java">
-      <unit at="35,0,43,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a0_0" />
-      <unit at="43,0,51,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a1" />
+      <unit at="35,0,43,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a0_1" />
+      <unit at="43,0,51,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a1_0" />
       <unit at="17,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations" />
     </file>
     <file name="template_GrammarCellsSideTransformationsMenu.java">
@@ -10257,7 +10257,7 @@
       <node id="6380604244804360676" at="125,67,126,33" concept="2" />
       <node id="6380604244804360676" at="128,43,129,34" concept="8" />
       <node id="6380604244804360676" at="134,72,135,110" concept="8" />
-      <node id="6380604244804360676" at="138,92,139,150" concept="8" />
+      <node id="6380604244804360676" at="138,92,139,152" concept="8" />
       <node id="6380604244804360676" at="145,92,146,233" concept="8" />
       <node id="6380604244804360676" at="151,86,152,50" concept="8" />
       <node id="6380604244804360676" at="156,61,157,25" concept="13" />
@@ -10401,7 +10401,7 @@
       <scope id="6380604244804360676" at="121,37,122,77" />
       <scope id="6380604244804360676" at="128,43,129,34" />
       <scope id="6380604244804360676" at="134,72,135,110" />
-      <scope id="6380604244804360676" at="138,92,139,150" />
+      <scope id="6380604244804360676" at="138,92,139,152" />
       <scope id="6380604244804360676" at="145,92,146,233" />
       <scope id="6380604244804360676" at="151,86,152,50" />
       <scope id="6380604244804360676" at="156,61,157,25" />
@@ -10566,7 +10566,7 @@
       <unit id="6380604244804360676" at="333,0,336,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$LINKS" />
       <unit id="6380604244804360676" at="127,17,131,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$TMP_Group_gloyme_a0b0a$1" />
       <unit id="6380604244804360676" at="110,50,115,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$1" />
-      <unit id="6380604244804360676" at="141,0,149,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$TMP_Group_gloyme_a0b0a$GenericMenuPart_a0a1a0" />
+      <unit id="6380604244804360676" at="141,0,149,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$TMP_Group_gloyme_a0b0a$GenericMenuPart_a0a1a0_0" />
       <unit id="6380604244804360676" at="207,51,215,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$3" />
       <unit id="6380604244804360676" at="216,48,224,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$4" />
       <unit id="6380604244804360676" at="190,14,201,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$2" />
@@ -10623,7 +10623,7 @@
       <node id="6380604244804946430" at="124,37,125,77" concept="13" />
       <node id="6380604244804946430" at="128,67,129,33" concept="2" />
       <node id="6380604244804946430" at="131,43,132,33" concept="8" />
-      <node id="6380604244804946430" at="137,92,138,152" concept="8" />
+      <node id="6380604244804946430" at="137,92,138,150" concept="8" />
       <node id="6380604244804946430" at="144,92,145,233" concept="8" />
       <node id="6380604244804946430" at="150,86,151,50" concept="8" />
       <node id="6380604244804946430" at="155,61,156,25" concept="13" />
@@ -10754,7 +10754,7 @@
       <scope id="6380604244804946430" at="115,98,116,153" />
       <scope id="6380604244804946430" at="124,37,125,77" />
       <scope id="6380604244804946430" at="131,43,132,33" />
-      <scope id="6380604244804946430" at="137,92,138,152" />
+      <scope id="6380604244804946430" at="137,92,138,150" />
       <scope id="6380604244804946430" at="144,92,145,233" />
       <scope id="6380604244804946430" at="150,86,151,50" />
       <scope id="6380604244804946430" at="155,61,156,25" />
@@ -10898,7 +10898,7 @@
       <unit id="6380604244804946430" at="313,0,316,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Multiple_EditorBuilder_a$CONCEPTS" />
       <unit id="6380604244804946430" at="130,17,134,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Multiple_EditorBuilder_a$TMP_Group_8l7c1u_a0b0a$1" />
       <unit id="6380604244804946430" at="113,50,118,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Multiple_EditorBuilder_a$1" />
-      <unit id="6380604244804946430" at="140,0,148,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Multiple_EditorBuilder_a$TMP_Group_8l7c1u_a0b0a$GenericMenuPart_a0a1a0_0" />
+      <unit id="6380604244804946430" at="140,0,148,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Multiple_EditorBuilder_a$TMP_Group_8l7c1u_a0b0a$GenericMenuPart_a0a1a0" />
       <unit id="6380604244804946430" at="193,14,204,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Multiple_EditorBuilder_a$2" />
       <unit id="6380604244804946430" at="154,0,189,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Multiple_EditorBuilder_a$TMP_Group_8l7c1u_a0b0a$TMP_Action_8l7c1u_b0a1a0$Item" />
       <unit id="6380604244804946430" at="148,0,190,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Multiple_EditorBuilder_a$TMP_Group_8l7c1u_a0b0a$TMP_Action_8l7c1u_b0a1a0" />
@@ -12270,7 +12270,7 @@
       <node id="6709378149504660762" at="21,67,22,342" concept="13" />
       <node id="6709378149504660762" at="27,124,28,156" concept="7" />
       <node id="6709378149504660762" at="29,136,30,45" concept="2" />
-      <node id="6709378149504660762" at="32,135,33,45" concept="2" />
+      <node id="6709378149504660762" at="32,135,33,43" concept="2" />
       <node id="6709378149504660762" at="34,5,35,18" concept="8" />
       <node id="6709378149504660762" at="42,90,43,47" concept="2" />
       <node id="6709378149504660762" at="44,11,45,254" concept="2" />
@@ -12292,7 +12292,7 @@
       <node id="6709378149504660762" at="54,0,66,0" concept="6" trace="createItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;)Ljava/util/List;" />
       <scope id="6709378149504660762" at="21,67,22,342" />
       <scope id="6709378149504660762" at="29,136,30,45" />
-      <scope id="6709378149504660762" at="32,135,33,45" />
+      <scope id="6709378149504660762" at="32,135,33,43" />
       <scope id="6709378149504660762" at="47,17,48,48" />
       <scope id="6709378149504660762" at="61,17,62,48" />
       <scope id="6709378149504660762" at="44,11,46,171" />
@@ -12313,8 +12313,8 @@
         <var name="ctx" id="6709378149504660762" />
       </scope>
       <unit id="6709378149504660762" at="68,0,71,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$CONCEPTS" />
-      <unit id="6709378149504660762" at="38,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$GenericMenuPart_a0_1" />
-      <unit id="6709378149504660762" at="52,0,67,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$GenericMenuPart_a1_0" />
+      <unit id="6709378149504660762" at="38,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$GenericMenuPart_a0_0" />
+      <unit id="6709378149504660762" at="52,0,67,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0$GenericMenuPart_a1" />
       <unit id="6709378149504660762" at="20,0,72,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_BracketsExpression_a0" />
     </file>
     <file name="BracketsExpression_Editor.java">

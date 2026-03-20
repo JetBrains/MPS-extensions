@@ -216,11 +216,11 @@
       <node id="144279664518243063" at="18,61,19,114" concept="2" />
       <node id="144279664518248195" at="22,63,23,119" concept="2" />
       <node id="2886180662906690355" at="29,22,30,82" concept="7" />
-      <node id="2886180662906691901" at="30,82,31,93" concept="2" />
+      <node id="2886180662906691901" at="30,82,31,99" concept="2" />
       <node id="2886180662906204968" at="34,25,35,43" concept="2" />
       <node id="2886180662906695049" at="35,43,36,82" concept="7" />
       <node id="2886180662906261410" at="36,82,37,61" concept="2" />
-      <node id="2886180662906695055" at="37,61,38,93" concept="2" />
+      <node id="2886180662906695055" at="37,61,38,99" concept="2" />
       <node id="7641550800937221543" at="41,36,42,36" concept="2" />
       <node id="7641550800937221543" at="43,5,44,0" concept="10" />
       <node id="2886180662906693699" at="47,36,48,53" concept="2" />
@@ -229,15 +229,15 @@
       <node id="2886180662906695056" at="55,5,56,0" concept="10" />
       <node id="2886180662906131963" at="26,0,28,0" concept="1" trace="MouseListenerPlugin_AppPluginPart#()V" />
       <node id="7641550800937221543" at="40,88,43,5" concept="5" />
-      <node id="2886180662906693699" at="46,111,49,5" concept="5" />
-      <node id="2886180662906695056" at="52,111,55,5" concept="5" />
+      <node id="2886180662906693699" at="46,171,49,5" concept="5" />
+      <node id="2886180662906695056" at="52,171,55,5" concept="5" />
       <node id="746434986351354851" at="13,0,17,0" concept="6" trace="isApplicable#(Ljetbrains/mps/openapi/editor/EditorComponent;)Z" />
       <node id="746434986351354863" at="17,0,21,0" concept="6" trace="install#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
       <node id="746434986351354873" at="21,0,25,0" concept="6" trace="uninstall#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
       <node id="2886180662906131963" at="28,0,33,0" concept="6" trace="init#()V" />
-      <node id="7641550800937221543" at="40,0,46,0" concept="12" trace="check_pw8zna_a0a2a0a0#(Lde/itemis/mps/mouselistener/runtime/plugin/DelegatingMouseListener;)V" />
-      <node id="2886180662906693699" at="46,0,52,0" concept="12" trace="check_pw8zna_a1a0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
-      <node id="2886180662906695056" at="52,0,58,0" concept="12" trace="check_pw8zna_a3a0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
+      <node id="7641550800937221543" at="40,0,46,0" concept="12" trace="check_ll01fu_a0a2a0a0#(Lde/itemis/mps/mouselistener/runtime/plugin/DelegatingMouseListener;)V" />
+      <node id="2886180662906693699" at="46,0,52,0" concept="12" trace="check_ll01fu_a1a2#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;Lde/itemis/mps/mouselistener/runtime/plugin/MouseListenerPlugin_AppPluginPart;)V" />
+      <node id="2886180662906695056" at="52,0,58,0" concept="12" trace="check_ll01fu_a3a3#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;Lde/itemis/mps/mouselistener/runtime/plugin/MouseListenerPlugin_AppPluginPart;)V" />
       <node id="2886180662906131963" at="33,0,40,0" concept="6" trace="dispose#()V" />
       <node id="2886180662906132214" at="12,0,26,0" concept="3" trace="myListener" />
       <scope id="2886180662906131963" at="26,46,26,46" />
@@ -248,7 +248,7 @@
       <scope id="2886180662906693699" at="47,36,48,53" />
       <scope id="2886180662906695056" at="53,36,54,55" />
       <scope id="2886180662906131963" at="26,0,28,0" />
-      <scope id="2886180662906134087" at="29,22,31,93">
+      <scope id="2886180662906134087" at="29,22,31,99">
         <var name="extension" id="2886180662906690356" />
       </scope>
       <scope id="746434986351354851" at="13,0,17,0">
@@ -260,22 +260,24 @@
       <scope id="746434986351354873" at="21,0,25,0">
         <var name="component" id="746434986351354877" />
       </scope>
-      <scope id="2886180662906194526" at="34,25,38,93">
+      <scope id="2886180662906194526" at="34,25,38,99">
         <var name="extension" id="2886180662906695050" />
       </scope>
       <scope id="7641550800937221543" at="40,88,44,0" />
-      <scope id="2886180662906693699" at="46,111,50,0" />
-      <scope id="2886180662906695056" at="52,111,56,0" />
+      <scope id="2886180662906693699" at="46,171,50,0" />
+      <scope id="2886180662906695056" at="52,171,56,0" />
       <scope id="2886180662906131963" at="28,0,33,0" />
       <scope id="7641550800937221543" at="40,0,46,0">
         <var name="checkedDotOperand" id="7641550800937221543" />
       </scope>
       <scope id="2886180662906693699" at="46,0,52,0">
         <var name="checkedDotOperand" id="2886180662906693699" />
+        <var name="checkedDotThisExpression" id="2886180662906693699" />
         <var name="extension" id="2886180662906694472" />
       </scope>
       <scope id="2886180662906695056" at="52,0,58,0">
         <var name="checkedDotOperand" id="2886180662906695056" />
+        <var name="checkedDotThisExpression" id="2886180662906695056" />
         <var name="extension" id="2886180662906695062" />
       </scope>
       <scope id="2886180662906131963" at="33,0,40,0" />

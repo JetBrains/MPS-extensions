@@ -15,7 +15,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -24,10 +23,8 @@ public final class IGeneratesFactoryMethod__BehaviorDescriptor extends BaseBHDes
 
   public static final SMethod<String> getFactoryMethodName_id1dAqnm8BzuN = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getFactoryMethodName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1397920687869278131L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2(SMethodBuilder.createJavaParameter(TemplateQueryContext.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getFactoryMethodName_id1dAqnm8BzuN);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getFactoryMethodName_id1dAqnm8BzuN);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getFactoryMethodName_id1dAqnm8BzuN(@NotNull SNode __thisNode__, TemplateQueryContext gc) {
     return gc.createUniqueName("create" + check_c6lar1_a0a0a0a0(SNodeOperations.getConcept(__thisNode__)) + "_", __thisNode__);
@@ -36,10 +33,6 @@ public final class IGeneratesFactoryMethod__BehaviorDescriptor extends BaseBHDes
   /*package*/ IGeneratesFactoryMethod__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

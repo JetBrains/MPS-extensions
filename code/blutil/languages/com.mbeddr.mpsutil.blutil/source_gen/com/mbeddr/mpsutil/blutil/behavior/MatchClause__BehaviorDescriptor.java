@@ -15,7 +15,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -24,10 +23,8 @@ public final class MatchClause__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<String> getKey_id5yvl18Nb_d$ = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getKey").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6385915233779471204L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getKey_id5yvl18Nb_d$);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getKey_id5yvl18Nb_d$);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getKey_id5yvl18Nb_d$(@NotNull SNode __thisNode__) {
     return SConceptOperations.conceptAlias(SNodeOperations.getConcept(__thisNode__));
@@ -36,10 +33,6 @@ public final class MatchClause__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ MatchClause__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

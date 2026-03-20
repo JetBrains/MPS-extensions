@@ -7,6 +7,11 @@ import jetbrains.mps.nodeEditor.EditorComponentSettingsImpl;
 import de.slisson.mps.reflection.runtime.ReflectionUtil;
 import jetbrains.mps.ide.ThreadUtils;
 import jetbrains.mps.openapi.editor.assist.ContextAssistantManager;
+import com.intellij.openapi.fileEditor.FileEditor;
+import com.intellij.openapi.actionSystem.DataContext;
+import com.intellij.ide.DataManager;
+import java.awt.Component;
+import jetbrains.mps.ide.actions.MPSCommonDataKeys;
 
 /**
  * This class can be called from places where there is no write/read access to the model like editor node test cases.
@@ -41,5 +46,10 @@ public class EditorComponentTestHelper {
     ContextAssistantManager manager = editorComponent.getEditorContext().getContextAssistantManager();
     manager.updateImmediately();
     return manager;
+  }
+
+  public FileEditor getFileEditor() {
+    DataContext dataContext = DataManager.getInstance().getDataContext((Component) editorComponent);
+    return MPSCommonDataKeys.FILE_EDITOR.getData(dataContext);
   }
 }

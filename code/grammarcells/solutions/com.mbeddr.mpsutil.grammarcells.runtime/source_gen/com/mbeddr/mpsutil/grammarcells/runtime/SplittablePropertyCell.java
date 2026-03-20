@@ -21,11 +21,11 @@ import org.jetbrains.mps.openapi.model.SNodeReference;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
-public class SplittablePropertCell extends EditorCell_Property {
+public class SplittablePropertyCell extends EditorCell_Property {
 
   private ITokenizer myTokenizer;
 
-  public SplittablePropertCell(EditorContext editorContext, ModelAccessor modelAccessor, SNode node, ITokenizer tokenizer) {
+  public SplittablePropertyCell(EditorContext editorContext, ModelAccessor modelAccessor, SNode node, ITokenizer tokenizer) {
     super(editorContext, modelAccessor, node);
     myTokenizer = tokenizer;
   }
@@ -71,7 +71,7 @@ public class SplittablePropertCell extends EditorCell_Property {
         }
 
       }).toList();
-      newTree.value = parser.parse(nodeTokens, check_fxfxix_b0a0f0a4a9(getSNode().getContainmentLink(), SplittablePropertCell.this));
+      newTree.value = parser.parse(nodeTokens, check_wi1151_b0a0f0a4a9(getSNode().getContainmentLink(), SplittablePropertyCell.this));
     });
 
     if (newTree.value == null) {
@@ -97,14 +97,14 @@ public class SplittablePropertCell extends EditorCell_Property {
 
 
 
-  public static SplittablePropertCell create(EditorContext editorContext, ModelAccessor modelAccessor, SNode node, ITokenizer tokenizer) {
+  public static SplittablePropertyCell create(EditorContext editorContext, ModelAccessor modelAccessor, SNode node, ITokenizer tokenizer) {
     NodeReadAccessInEditorListener listener = NodeReadAccessCasterInEditor.getReadAccessListener();
     if (modelAccessor instanceof PropertyAccessor) {
       if (listener != null) {
         listener.clearCleanlyReadAccessProperties();
       }
     }
-    SplittablePropertCell result = new SplittablePropertCell(editorContext, modelAccessor, node, tokenizer);
+    SplittablePropertyCell result = new SplittablePropertyCell(editorContext, modelAccessor, node, tokenizer);
     if (listener != null) {
       addPropertyDependenciesToEditor(listener, result);
     }
@@ -117,7 +117,7 @@ public class SplittablePropertCell extends EditorCell_Property {
     }
   }
 
-  private static SAbstractConcept check_fxfxix_b0a0f0a4a9(SContainmentLink checkedDotOperand, SplittablePropertCell checkedDotThisExpression) {
+  private static SAbstractConcept check_wi1151_b0a0f0a4a9(SContainmentLink checkedDotOperand, SplittablePropertyCell checkedDotThisExpression) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getTargetConcept();
     }

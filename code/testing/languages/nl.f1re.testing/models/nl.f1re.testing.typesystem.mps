@@ -8,8 +8,8 @@
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
     <import index="rl2y" ref="r:8dfc935f-f6d1-4e4d-bfff-80832f08c4eb(nl.f1re.testing.structure)" />
+    <import index="iwsx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.fileEditor(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -64,7 +64,7 @@
         <node concept="mw_s8" id="50vRVamfU0x" role="1ZfhKB">
           <node concept="2c44tf" id="50vRVamfU0y" role="mwGJk">
             <node concept="3uibUv" id="50vRVamfUL$" role="2c44tc">
-              <ref role="3uigEE" to="k3nr:~MPSFileNodeEditor" resolve="MPSFileNodeEditor" />
+              <ref role="3uigEE" to="iwsx:~FileEditor" resolve="FileEditor" />
             </node>
           </node>
         </node>

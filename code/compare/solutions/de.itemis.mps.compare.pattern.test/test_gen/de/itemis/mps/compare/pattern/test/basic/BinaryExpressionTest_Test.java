@@ -29,7 +29,7 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 @MPSLaunch
 public class BinaryExpressionTest_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(BinaryExpressionTest_Test.class).projectPath("${extensions.home}/code").modelRef("r:ed3e0c43-ec95-4718-8427-6204fc60e5a9(de.itemis.mps.compare.pattern.test.basic@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(BinaryExpressionTest_Test.class).projectPath(null).modelRef("r:ed3e0c43-ec95-4718-8427-6204fc60e5a9(de.itemis.mps.compare.pattern.test.basic@tests)").reopenProject(null).build());
 
   public BinaryExpressionTest_Test() {
     super(ourParametersCacheExtension.getParametersCache());

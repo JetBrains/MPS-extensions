@@ -180,9 +180,6 @@
       <concept id="1227182079811" name="jetbrains.mps.lang.test.structure.TypeKeyStatement" flags="nn" index="2TK7Tu">
         <property id="1227184461946" name="keys" index="2TTd_B" />
       </concept>
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
       <concept id="5773579205429866751" name="jetbrains.mps.lang.test.structure.EditorComponentExpression" flags="nn" index="369mXd" />
       <concept id="8333855927540283103" name="jetbrains.mps.lang.test.structure.NodeConstraintsErrorCheckOperation" flags="ng" index="39XrGg">
         <child id="8333855927548182241" name="errorRef" index="39rjcI" />
@@ -2895,9 +2892,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="2XOHcx" id="5kFTseQQT1w">
-    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="3tFllW" id="2$zHkrO$C8n">
     <property role="3GE5qa" value="diagrams" />

@@ -20,7 +20,7 @@ import nl.f1re.testing.runtime.EditorCellTestHelper;
 @MPSLaunch
 public class Hyperlink_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(Hyperlink_Test.class).projectPath("${extensions.home}/code").modelRef("r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(Hyperlink_Test.class).projectPath(null).modelRef("r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)").reopenProject(false).build());
 
   public Hyperlink_Test() {
     super(ourParametersCacheExtension.getParametersCache());

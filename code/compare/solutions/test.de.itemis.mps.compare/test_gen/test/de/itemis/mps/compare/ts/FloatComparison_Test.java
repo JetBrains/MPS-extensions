@@ -15,7 +15,7 @@ import org.junit.Assert;
 @MPSLaunch
 public class FloatComparison_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(FloatComparison_Test.class).projectPath("${extensions.home}/code").modelRef("r:3fe8e2d2-ffdd-4800-bb6a-279079ef87e1(test.de.itemis.mps.compare.ts@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(FloatComparison_Test.class).projectPath(null).modelRef("r:3fe8e2d2-ffdd-4800-bb6a-279079ef87e1(test.de.itemis.mps.compare.ts@tests)").reopenProject(null).build());
 
   public FloatComparison_Test() {
     super(ourParametersCacheExtension.getParametersCache());

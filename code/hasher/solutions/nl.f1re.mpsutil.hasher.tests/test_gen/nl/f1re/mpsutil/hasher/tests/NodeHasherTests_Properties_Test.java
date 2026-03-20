@@ -23,7 +23,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 @MPSLaunch
 public class NodeHasherTests_Properties_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(NodeHasherTests_Properties_Test.class).projectPath("${extensions.home}/code").modelRef("r:b8771590-5bb3-41cf-837c-5a3762dc6a04(nl.f1re.mpsutil.hasher.tests@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(NodeHasherTests_Properties_Test.class).projectPath(null).modelRef("r:b8771590-5bb3-41cf-837c-5a3762dc6a04(nl.f1re.mpsutil.hasher.tests@tests)").reopenProject(null).build());
 
   public NodeHasherTests_Properties_Test() {
     super(ourParametersCacheExtension.getParametersCache());

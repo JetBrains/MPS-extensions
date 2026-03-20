@@ -19,7 +19,7 @@ import de.slisson.mps.reflection.runtime.ReflectionUtil;
 @MPSLaunch
 public class SubstituteMenu_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(SubstituteMenu_Test.class).projectPath("${extensions.home}/code").modelRef("r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(SubstituteMenu_Test.class).projectPath(null).modelRef("r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)").reopenProject(false).build());
 
   public SubstituteMenu_Test() {
     super(ourParametersCacheExtension.getParametersCache());

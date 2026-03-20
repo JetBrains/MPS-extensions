@@ -14,7 +14,7 @@ import jetbrains.mps.lang.test.runtime.TransformationTest;
 @MPSLaunch
 public class ActualSubDirsMultipleFiles_Test extends BaseTransformationTest {
   @RegisterExtension
-  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(ActualSubDirsMultipleFiles_Test.class).projectPath("${extensions.home}/code").modelRef("r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.demo.comparator.diff.tests.diffs@tests)").reopenProject(false).build());
+  private static final TestParametersCacheExtension ourParametersCacheExtension = new TestParametersCacheExtension(new TestParametersCacheBuilder(ActualSubDirsMultipleFiles_Test.class).projectPath(null).modelRef("r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.demo.comparator.diff.tests.diffs@tests)").reopenProject(null).build());
 
   public ActualSubDirsMultipleFiles_Test() {
     super(ourParametersCacheExtension.getParametersCache());

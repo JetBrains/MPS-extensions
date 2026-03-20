@@ -14,6 +14,7 @@
     <dependency reexport="false">63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</dependency>
     <dependency reexport="false">9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells)</dependency>
     <dependency reexport="false">b92f861d-0184-446d-b88b-6dcf0e070241(com.mbeddr.mpsutil.intentions)</dependency>
+    <dependency reexport="false">953e4089-c643-455b-8629-636de7085d1c(nl.f1re.testing)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:638c9345-2613-49dc-b2ae-8ceadef24141:de.itemis.mps.changelog" version="0" />
@@ -57,6 +58,7 @@
     <module reference="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" version="1" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="953e4089-c643-455b-8629-636de7085d1c(nl.f1re.testing)" version="0" />
   </dependencyVersions>
 </solution>
 

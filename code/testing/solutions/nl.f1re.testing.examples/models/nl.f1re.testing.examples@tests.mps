@@ -115,6 +115,7 @@
     <import index="g1qu" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.ui(MPS.IDEA/)" />
     <import index="t335" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.ui.update(MPS.IDEA/)" />
     <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" />
+    <import index="cdna" ref="r:241d801e-1003-46f0-9785-1157a06b80af(nl.f1re.testing.examples.lang.editor)" />
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
@@ -501,6 +502,10 @@
       </concept>
     </language>
     <language id="953e4089-c643-455b-8629-636de7085d1c" name="nl.f1re.testing">
+      <concept id="2052872502397333186" name="nl.f1re.testing.structure.EditorTestLifecycleMethods" flags="ng" index="eWyDC">
+        <child id="2325284917965993569" name="beforeTests" index="0EEgM" />
+        <child id="2325284917965993580" name="afterTests" index="0EEgX" />
+      </concept>
       <concept id="2964412296093649523" name="nl.f1re.testing.structure.FileNodeEditorExpression" flags="ng" index="3tlvWP" />
     </language>
     <language id="6b3888c1-9802-44d8-8baf-f8e6c33ed689" name="jetbrains.mps.kotlin">
@@ -534,6 +539,7 @@
       </concept>
     </language>
     <language id="87e083b3-d1b3-4c3f-9d8c-b24d74710f49" name="nl.f1re.testing.examples.lang">
+      <concept id="4940118688294162809" name="nl.f1re.testing.examples.lang.structure.LifecycleTesting" flags="ng" index="2Cx0aW" />
       <concept id="6801793966041277396" name="nl.f1re.testing.examples.lang.structure.SlowEditor" flags="ng" index="13bv17" />
       <concept id="6382061996743463528" name="nl.f1re.testing.examples.lang.structure.CompletionStylingExample" flags="ng" index="3iYV7U" />
       <concept id="2964412296095260730" name="nl.f1re.testing.examples.lang.structure.Readme" flags="ng" index="3tFllW">
@@ -6640,6 +6646,103 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6H1$aDlmM9C" role="1B3o_S" />
+  </node>
+  <node concept="LiM7Y" id="4ieOWnG2$Zy">
+    <property role="3GE5qa" value="editor" />
+    <property role="TrG5h" value="EditorLifecycle" />
+    <node concept="eWyDC" id="4ieOWnG2N9k" role="lGtFl">
+      <node concept="0EjCn" id="4ieOWnG2Nar" role="0EEgM">
+        <node concept="3clFbS" id="4ieOWnG2Nas" role="2VODD2">
+          <node concept="3clFbF" id="4ieOWnG3eQ2" role="3cqZAp">
+            <node concept="2YIFZM" id="4ieOWnG4b7R" role="3clFbG">
+              <ref role="37wK5l" to="cdna:4ieOWnG3PQQ" resolve="push" />
+              <ref role="1Pybhc" to="cdna:4ieOWnG2Hcs" resolve="LifecycleTestingSupport" />
+              <node concept="Xl_RD" id="4ieOWnG3fro" role="37wK5m">
+                <property role="Xl_RC" value="Hello, lifecycle tests!" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="0EjCo" id="4ieOWnG3fLS" role="0EEgX">
+        <node concept="3clFbS" id="4ieOWnG3fLT" role="2VODD2">
+          <node concept="3clFbF" id="4ieOWnG4c4m" role="3cqZAp">
+            <node concept="2YIFZM" id="4ieOWnG4c6x" role="3clFbG">
+              <ref role="37wK5l" to="cdna:4ieOWnG3X4c" resolve="pop" />
+              <ref role="1Pybhc" to="cdna:4ieOWnG2Hcs" resolve="LifecycleTestingSupport" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="4ieOWnG4c7R" role="25YQCW">
+      <node concept="2Cx0aW" id="4ieOWnG4c7Q" role="1qenE9">
+        <node concept="LIFWc" id="4ieOWnG5Vnn" role="lGtFl">
+          <property role="LIFWa" value="0" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="peek" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="4ieOWnG4c9V" role="LjaKd">
+      <node concept="3cpWs8" id="4ieOWnG4j4U" role="3cqZAp">
+        <node concept="3cpWsn" id="4ieOWnG4j4V" role="3cpWs9">
+          <property role="TrG5h" value="selectedCell" />
+          <node concept="3uibUv" id="4ieOWnG4j4q" role="1tU5fm">
+            <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
+          </node>
+          <node concept="2OqwBi" id="4ieOWnG4j4W" role="33vP2m">
+            <node concept="369mXd" id="4ieOWnG4j4X" role="2Oq$k0" />
+            <node concept="liA8E" id="4ieOWnG4j4Y" role="2OqNvi">
+              <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedCell()" resolve="getSelectedCell" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3vwNmj" id="4ieOWnG4kB2" role="3cqZAp">
+        <node concept="2ZW3vV" id="4ieOWnG4kRm" role="3vwVQn">
+          <node concept="3uibUv" id="4ieOWnG4nGH" role="2ZW6by">
+            <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
+          </node>
+          <node concept="37vLTw" id="4ieOWnG4kDD" role="2ZW6bz">
+            <ref role="3cqZAo" node="4ieOWnG4j4V" resolve="selectedCell" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="4ieOWnG4pcH" role="3cqZAp">
+        <node concept="3cpWsn" id="4ieOWnG4pcI" role="3cpWs9">
+          <property role="TrG5h" value="label" />
+          <node concept="3uibUv" id="4ieOWnG4pcJ" role="1tU5fm">
+            <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
+          </node>
+          <node concept="1eOMI4" id="4ieOWnG4pl_" role="33vP2m">
+            <node concept="10QFUN" id="4ieOWnG4ply" role="1eOMHV">
+              <node concept="3uibUv" id="4ieOWnG4plB" role="10QFUM">
+                <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
+              </node>
+              <node concept="37vLTw" id="4ieOWnG4pmW" role="10QFUP">
+                <ref role="3cqZAo" node="4ieOWnG4j4V" resolve="selectedCell" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3vlDli" id="4ieOWnG4dqR" role="3cqZAp">
+        <node concept="Xl_RD" id="4ieOWnG4pSU" role="3tpDZB">
+          <property role="Xl_RC" value="Hello, lifecycle tests!" />
+        </node>
+        <node concept="2OqwBi" id="4ieOWnG4pxc" role="3tpDZA">
+          <node concept="37vLTw" id="4ieOWnG4j4Z" role="2Oq$k0">
+            <ref role="3cqZAo" node="4ieOWnG4pcI" resolve="label" />
+          </node>
+          <node concept="liA8E" id="4ieOWnG4pRo" role="2OqNvi">
+            <ref role="37wK5l" to="f4zo:~EditorCell_Label.getText()" resolve="getText" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

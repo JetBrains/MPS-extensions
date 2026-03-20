@@ -7277,6 +7277,11 @@
               <ref role="3bR37D" to="ffeo:ymnOULAU1u" resolve="jetbrains.mps.lang.test.runtime" />
             </node>
           </node>
+          <node concept="1SiIV0" id="4ieOWnG6$hw" role="3bR37C">
+            <node concept="3bR9La" id="4ieOWnG6$hx" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:1ULLXZL0gZG" resolve="org.junit.junit5" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="3OVhQEUSbqO" role="3bR31x">
           <node concept="3LXTmp" id="3OVhQEUSbqP" role="3rtmxm">
@@ -7300,6 +7305,11 @@
         <node concept="1SiIV0" id="3OVhQEUSlqg" role="3bR37C">
           <node concept="1Busua" id="3OVhQEUSlqh" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4ieOWnG6$hj" role="3bR37C">
+          <node concept="3bR9La" id="4ieOWnG6$hk" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
           </node>
         </node>
       </node>

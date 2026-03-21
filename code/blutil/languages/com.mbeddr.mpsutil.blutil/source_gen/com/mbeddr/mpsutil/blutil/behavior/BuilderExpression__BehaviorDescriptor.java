@@ -26,7 +26,7 @@ public final class BuilderExpression__BehaviorDescriptor extends BaseBHDescripto
 
   public static final SMethod<String> getDeprecationMessage_id243ufko$Au9 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getDeprecationMessage").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2378878022256322441L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDeprecationMessage_id243ufko$Au9);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDeprecationMessage_id243ufko$Au9);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SNode rootChild = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e329772626e7773L, "com.mbeddr.mpsutil.blutil.structure.ChildStep"));

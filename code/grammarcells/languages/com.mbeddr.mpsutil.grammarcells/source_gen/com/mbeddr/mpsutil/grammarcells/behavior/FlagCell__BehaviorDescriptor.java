@@ -19,7 +19,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -33,10 +32,8 @@ public final class FlagCell__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<String> getFlagText_id6ASs6LmXZEr = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getFlagText").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7617962380315064987L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
   public static final SMethod<List<SConcept>> getDescriptionFunctionParameters_id2l$VAMESpmP = new SMethodBuilder<List<SConcept>>(new SJavaCompoundTypeImpl((Class<List<SConcept>>) ((Class) Object.class))).name("getDescriptionFunctionParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2694540627565188533L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9, generatesDeleteAction_id6ASs6LmWHDF, getFlagText_id6ASs6LmXZEr, getDescriptionFunctionParameters_id2l$VAMESpmP);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9, generatesDeleteAction_id6ASs6LmWHDF, getFlagText_id6ASs6LmXZEr, getDescriptionFunctionParameters_id2l$VAMESpmP);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getOpeningText_idhKxU$w9(@NotNull SNode __thisNode__) {
     return "flag" + EditorCellModel__BehaviorDescriptor.getOpeningText_idhKxU$w9.invokeSuper(__thisNode__, CONCEPTS.FlagCell$sR);
@@ -57,10 +54,6 @@ public final class FlagCell__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ FlagCell__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

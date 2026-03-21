@@ -16,7 +16,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -25,10 +24,8 @@ public final class AbstractInsertFunction__BehaviorDescriptor extends BaseBHDesc
 
   public static final SMethod<List<SConcept>> getStandardParameters_id7fqbBL2oi0G = new SMethodBuilder<List<SConcept>>(new SJavaCompoundTypeImpl((Class<List<SConcept>>) ((Class) Object.class))).name("getStandardParameters").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(8348035970509119532L).languageId(0x80728a84937c5206L, 0xc73b17af16a14490L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStandardParameters_id7fqbBL2oi0G);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStandardParameters_id7fqbBL2oi0G);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<SConcept> getStandardParameters_id7fqbBL2oi0G(@NotNull SNode __thisNode__) {
     List<SConcept> result = ListSequence.fromList(new ArrayList<SConcept>());
@@ -40,10 +37,6 @@ public final class AbstractInsertFunction__BehaviorDescriptor extends BaseBHDesc
   /*package*/ AbstractInsertFunction__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

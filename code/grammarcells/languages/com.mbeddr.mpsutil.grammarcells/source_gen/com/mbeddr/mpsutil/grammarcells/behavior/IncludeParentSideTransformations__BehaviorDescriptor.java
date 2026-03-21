@@ -16,7 +16,6 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.mbeddr.mpsutil.grammarcells.generatorutils.CellModelTraversalUtil;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -30,10 +29,8 @@ public final class IncludeParentSideTransformations__BehaviorDescriptor extends 
   public static final SMethod<Boolean> rightTransformationsEnabled_id6ASs6Ln2NQO = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("rightTransformationsEnabled").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7617962380316327348L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
   public static final SMethod<SNode> getWrappedCell_id3O7ZvCZLQjf = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getWrappedCell").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404262095L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(leftTransformationsEnabled_id6ASs6Ln2NER, rightTransformationsEnabled_id6ASs6Ln2NQO, getWrappedCell_id3O7ZvCZLQjf);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(leftTransformationsEnabled_id6ASs6Ln2NER, rightTransformationsEnabled_id6ASs6Ln2NQO, getWrappedCell_id3O7ZvCZLQjf);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean leftTransformationsEnabled_id6ASs6Ln2NER(@NotNull SNode __thisNode__) {
     return SPropertyOperations.getBoolean(__thisNode__, PROPS.forceLeft$bd$K) || (SLinkOperations.getTarget(__thisNode__, LINKS.leftEnabled$arzp) != null) || CellModelTraversalUtil.findLeaf(__thisNode__, CONCEPTS.EditorCellModel$gN, false) == null;
@@ -48,10 +45,6 @@ public final class IncludeParentSideTransformations__BehaviorDescriptor extends 
   /*package*/ IncludeParentSideTransformations__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

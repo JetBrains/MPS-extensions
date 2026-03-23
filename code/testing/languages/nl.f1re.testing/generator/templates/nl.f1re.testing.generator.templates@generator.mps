@@ -2,34 +2,31 @@
 <model ref="r:9dd92fa8-16f6-44db-ad34-9fc99b0abd5d(nl.f1re.testing.generator.templates@generator)">
   <persistence version="9" />
   <languages>
-    <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
     <import index="rl2y" ref="r:8dfc935f-f6d1-4e4d-bfff-80832f08c4eb(nl.f1re.testing.structure)" />
     <import index="tp6m" ref="r:00000000-0000-4000-0000-011c895903a2(jetbrains.mps.lang.test.runtime)" />
-    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
+    <import index="m531" ref="r:e0971d7a-26cb-4f9b-923b-022db20993f1(nl.f1re.testing.runtime)" />
+    <import index="iwsx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.fileEditor(MPS.IDEA/)" />
   </imports>
   <registry>
-    <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
-      <concept id="8473566765275063380" name="de.slisson.mps.reflection.structure.ReflectionFieldAccess" flags="ng" index="1PnCL0">
-        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1224071154655" name="jetbrains.mps.baseLanguage.structure.AsExpression" flags="nn" index="0kSF2">
-        <child id="1224071154657" name="classifierType" index="0kSFW" />
-        <child id="1224071154656" name="expression" index="0kSFX" />
-      </concept>
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <property id="1075300953594" name="abstractClass" index="1sVAO0" />
         <child id="1165602531693" name="superclass" index="1zkMxy" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -60,10 +57,12 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -142,23 +141,26 @@
         <property role="od$2w" value="false" />
         <property role="DiZV1" value="false" />
         <node concept="3clFbS" id="5s44y2KUdni" role="3clF47">
-          <node concept="3clFbF" id="2$zHkrOw1II" role="3cqZAp">
-            <node concept="2OqwBi" id="2$zHkrOw31D" role="3clFbG">
-              <node concept="0kSF2" id="2$zHkrOw2vc" role="2Oq$k0">
-                <node concept="3uibUv" id="2$zHkrOw2ve" role="0kSFW">
-                  <ref role="3uigEE" to="tp6m:hPMdj4e" resolve="BaseEditorTestBody" />
+          <node concept="3clFbF" id="4ieOWnFWPoa" role="3cqZAp">
+            <node concept="2OqwBi" id="4ieOWnFWSYe" role="3clFbG">
+              <node concept="2ShNRf" id="4ieOWnFWPo6" role="2Oq$k0">
+                <node concept="1pGfFk" id="4ieOWnFWSzu" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="m531:6HRhZeXDGQF" resolve="EditorComponentTestHelper" />
+                  <node concept="1rXfSq" id="4ieOWnFWSGH" role="37wK5m">
+                    <ref role="37wK5l" to="tp6m:1BrKW0d9mQ7" resolve="getEditorComponent" />
+                  </node>
                 </node>
-                <node concept="Xjq3P" id="2$zHkrOw1IG" role="0kSFX" />
               </node>
-              <node concept="1PnCL0" id="2$zHkrOw3qY" role="2OqNvi">
-                <ref role="2Oxat5" to="tp6m:4wzlvyewbW2" resolve="myFileNodeEditor" />
+              <node concept="liA8E" id="4ieOWnFWTbY" role="2OqNvi">
+                <ref role="37wK5l" to="m531:4ieOWnFWOSS" resolve="getFileEditor" />
               </node>
-              <node concept="raruj" id="2$zHkrOw6DP" role="lGtFl" />
+              <node concept="raruj" id="4ieOWnFWU8U" role="lGtFl" />
             </node>
           </node>
         </node>
         <node concept="3uibUv" id="2$zHkrOupNQ" role="3clF45">
-          <ref role="3uigEE" to="k3nr:~MPSFileNodeEditor" resolve="MPSFileNodeEditor" />
+          <ref role="3uigEE" to="iwsx:~FileEditor" resolve="FileEditor" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5s44y2KUdmu" role="1B3o_S" />

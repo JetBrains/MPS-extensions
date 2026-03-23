@@ -15,6 +15,7 @@
     <import index="teg0" ref="r:96165ed2-ef22-48c7-bfe5-8fce083cbabb(com.mbeddr.mpsutil.grammarcells.structure)" />
     <import index="tegv" ref="r:b91d2412-f094-4e55-8db6-3c782d7edc40(com.mbeddr.mpsutil.intentions.structure)" />
     <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
+    <import index="rl2y" ref="r:8dfc935f-f6d1-4e4d-bfff-80832f08c4eb(nl.f1re.testing.structure)" />
   </imports>
   <registry>
     <language id="638c9345-2613-49dc-b2ae-8ceadef24141" name="de.itemis.mps.changelog">
@@ -601,6 +602,66 @@
           </node>
           <node concept="3oM_SD" id="1vwG8eaqSdx" role="1PaTwD">
             <property role="3oM_SC" value="closure" />
+          </node>
+        </node>
+        <node concept="2DRihI" id="4ieOWnG6zFZ" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="4ieOWnG6zH0" role="1PaTwD">
+            <node concept="37shsh" id="4ieOWnG6zH2" role="15Aodc">
+              <node concept="1dCxOk" id="4ieOWnG6zH8" role="37shsm">
+                <property role="1XweGW" value="953e4089-c643-455b-8629-636de7085d1c" />
+                <property role="1XxBO9" value="nl.f1re.testing" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zHr" role="1PaTwD">
+            <property role="3oM_SC" value="Add" />
+          </node>
+          <node concept="15BRQy" id="4ieOWnG6zHt" role="1PaTwD">
+            <node concept="2tJFMh" id="4ieOWnG6zHv" role="15BRQ_">
+              <node concept="ZC_QK" id="4ieOWnG6zH_" role="2tJFKM">
+                <ref role="2aWVGs" to="rl2y:1LXhaCizQV2" resolve="EditorTestLifecycleMethods" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRD" role="1PaTwD">
+            <property role="3oM_SC" value="attribute" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRH" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRI" role="1PaTwD">
+            <property role="3oM_SC" value="associated" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRJ" role="1PaTwD">
+            <property role="3oM_SC" value="intentions" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRK" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRM" role="1PaTwD">
+            <property role="3oM_SC" value="extend" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRN" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRO" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRP" role="1PaTwD">
+            <property role="3oM_SC" value="test" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRQ" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRW" role="1PaTwD">
+            <property role="3oM_SC" value="'before/after" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRU" role="1PaTwD">
+            <property role="3oM_SC" value="test'" />
+          </node>
+          <node concept="3oM_SD" id="4ieOWnG6zRX" role="1PaTwD">
+            <property role="3oM_SC" value="methods." />
           </node>
         </node>
       </node>

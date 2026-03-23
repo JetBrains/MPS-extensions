@@ -24627,7 +24627,7 @@
     </node>
   </node>
   <node concept="312cEu" id="3pFNVizD_gr">
-    <property role="TrG5h" value="SplittablePropertCell" />
+    <property role="TrG5h" value="SplittablePropertyCell" />
     <node concept="2tJIrI" id="3pFNVizIaS$" role="jymVt" />
     <node concept="312cEg" id="3pFNVizIbCH" role="jymVt">
       <property role="TrG5h" value="myTokenizer" />
@@ -25360,11 +25360,11 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="result" />
             <node concept="3uibUv" id="3pFNVizKMJe" role="1tU5fm">
-              <ref role="3uigEE" node="3pFNVizD_gr" resolve="SplittablePropertCell" />
+              <ref role="3uigEE" node="3pFNVizD_gr" resolve="SplittablePropertyCell" />
             </node>
             <node concept="2ShNRf" id="3pFNVizDNZm" role="33vP2m">
               <node concept="1pGfFk" id="3pFNVizDNZn" role="2ShVmc">
-                <ref role="37wK5l" node="3pFNVizD_jy" resolve="SplittablePropertCell" />
+                <ref role="37wK5l" node="3pFNVizD_jy" resolve="SplittablePropertyCell" />
                 <node concept="37vLTw" id="3pFNVizDNOb" role="37wK5m">
                   <ref role="3cqZAo" node="3pFNVizDNNI" resolve="editorContext" />
                 </node>
@@ -25410,7 +25410,7 @@
       </node>
       <node concept="3Tm1VV" id="3pFNVizDNOq" role="1B3o_S" />
       <node concept="3uibUv" id="3pFNVizKKa0" role="3clF45">
-        <ref role="3uigEE" node="3pFNVizD_gr" resolve="SplittablePropertCell" />
+        <ref role="3uigEE" node="3pFNVizD_gr" resolve="SplittablePropertyCell" />
       </node>
     </node>
     <node concept="2tJIrI" id="3pFNVizDOCU" role="jymVt" />
@@ -25602,25 +25602,8 @@
             <node concept="3uibUv" id="3pFNVizDM$s" role="1tU5fm">
               <ref role="3uigEE" to="g51k:~PropertyAccessor" resolve="PropertyAccessor" />
             </node>
-            <node concept="2ShNRf" id="3pFNVizDM_c" role="33vP2m">
-              <node concept="1pGfFk" id="3pFNVizDM_F" role="2ShVmc">
-                <ref role="37wK5l" to="g51k:~PropertyAccessor.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,boolean,boolean,jetbrains.mps.openapi.editor.EditorContext)" resolve="PropertyAccessor" />
-                <node concept="1rXfSq" id="3pFNVizDM$u" role="37wK5m">
-                  <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode()" resolve="getSNode" />
-                </node>
-                <node concept="1rXfSq" id="3pFNVizDN6e" role="37wK5m">
-                  <ref role="37wK5l" to="p9jd:~PropertyCellProvider.getProperty()" resolve="getProperty" />
-                </node>
-                <node concept="37vLTw" id="3pFNVizDM$w" role="37wK5m">
-                  <ref role="3cqZAo" to="emqf:~CellProviderWithRole.myReadOnly" resolve="myReadOnly" />
-                </node>
-                <node concept="37vLTw" id="3pFNVizDM$x" role="37wK5m">
-                  <ref role="3cqZAo" to="emqf:~CellProviderWithRole.myAllowsEmptyTarget" resolve="myAllowsEmptyTarget" />
-                </node>
-                <node concept="37vLTw" id="3pFNVizDM$y" role="37wK5m">
-                  <ref role="3cqZAo" node="3pFNVizDMw2" resolve="context" />
-                </node>
-              </node>
+            <node concept="1rXfSq" id="bpuQGTGoPP" role="33vP2m">
+              <ref role="37wK5l" node="bpuQGTGoPL" resolve="createModelAccessor" />
             </node>
           </node>
         </node>
@@ -25629,10 +25612,10 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="editorCell" />
             <node concept="3uibUv" id="3pFNVizKJSM" role="1tU5fm">
-              <ref role="3uigEE" node="3pFNVizD_gr" resolve="SplittablePropertCell" />
+              <ref role="3uigEE" node="3pFNVizD_gr" resolve="SplittablePropertyCell" />
             </node>
             <node concept="2YIFZM" id="3pFNVizDM_H" role="33vP2m">
-              <ref role="1Pybhc" node="3pFNVizD_gr" resolve="SplittablePropertCell" />
+              <ref role="1Pybhc" node="3pFNVizD_gr" resolve="SplittablePropertyCell" />
               <ref role="37wK5l" node="3pFNVizDNNH" resolve="create" />
               <node concept="37vLTw" id="3pFNVizDM$B" role="37wK5m">
                 <ref role="3cqZAo" node="3pFNVizDMw2" resolve="context" />
@@ -25777,6 +25760,35 @@
       </node>
       <node concept="2AHcQZ" id="3pFNVizDMw5" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="bpuQGTGp5x" role="jymVt" />
+    <node concept="3clFb_" id="bpuQGTGoPL" role="jymVt">
+      <property role="TrG5h" value="createModelAccessor" />
+      <node concept="3Tmbuc" id="bpuQGTGpl5" role="1B3o_S" />
+      <node concept="3uibUv" id="bpuQGTGoPN" role="3clF45">
+        <ref role="3uigEE" to="g51k:~PropertyAccessor" resolve="PropertyAccessor" />
+      </node>
+      <node concept="3clFbS" id="bpuQGTGoPu" role="3clF47">
+        <node concept="3cpWs6" id="bpuQGTGoPE" role="3cqZAp">
+          <node concept="2ShNRf" id="bpuQGTGoP$" role="3cqZAk">
+            <node concept="1pGfFk" id="bpuQGTGoP_" role="2ShVmc">
+              <ref role="37wK5l" to="g51k:~PropertyAccessor.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,boolean,boolean)" resolve="PropertyAccessor" />
+              <node concept="1rXfSq" id="bpuQGTGoPA" role="37wK5m">
+                <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode()" resolve="getSNode" />
+              </node>
+              <node concept="1rXfSq" id="bpuQGTGoPB" role="37wK5m">
+                <ref role="37wK5l" to="p9jd:~PropertyCellProvider.getProperty()" resolve="getProperty" />
+              </node>
+              <node concept="37vLTw" id="bpuQGTGoPI" role="37wK5m">
+                <ref role="3cqZAo" to="emqf:~CellProviderWithRole.myReadOnly" resolve="myReadOnly" />
+              </node>
+              <node concept="37vLTw" id="bpuQGTGoPD" role="37wK5m">
+                <ref role="3cqZAo" to="emqf:~CellProviderWithRole.myAllowsEmptyTarget" resolve="myAllowsEmptyTarget" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

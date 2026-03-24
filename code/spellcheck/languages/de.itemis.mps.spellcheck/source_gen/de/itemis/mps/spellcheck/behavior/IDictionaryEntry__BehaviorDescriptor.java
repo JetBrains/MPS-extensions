@@ -13,7 +13,6 @@ import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,19 +21,13 @@ public final class IDictionaryEntry__BehaviorDescriptor extends BaseBHDescriptor
 
   public static final SMethod<List<String>> getWords_id29wDeGIfN0n = new SMethodBuilder<List<String>>(new SJavaCompoundTypeImpl((Class<List<String>>) ((Class) Object.class))).name("getWords").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2477161125053935639L).languageId(0xbf3dbad4ce201c4eL, 0x82194f31b6f94f39L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWords_id29wDeGIfN0n);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWords_id29wDeGIfN0n);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ IDictionaryEntry__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

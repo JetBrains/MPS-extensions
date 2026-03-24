@@ -17,7 +17,6 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import jetbrains.mps.smodel.builder.SNodeBuilder;
@@ -31,10 +30,8 @@ public final class HeadQuery__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<List<SConcept>> getParameterConcepts_id2xELmDxyi2v = new SMethodBuilder<List<SConcept>>(new SJavaCompoundTypeImpl((Class<List<SConcept>>) ((Class) Object.class))).name("getParameterConcepts").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2912357169742028959L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
   public static final SMethod<List<SNode>> getAdditionalStyleQueryParameters_id4UkcdCuFJHc = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getAdditionalStyleQueryParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5662204344887343948L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getReferenceText_id1dAqnm8qrVy, getExpectedReturnType_idhEwIGRD, getParameterConcepts_id2xELmDxyi2v, getAdditionalStyleQueryParameters_id4UkcdCuFJHc);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getReferenceText_id1dAqnm8qrVy, getExpectedReturnType_idhEwIGRD, getParameterConcepts_id2xELmDxyi2v, getAdditionalStyleQueryParameters_id4UkcdCuFJHc);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getReferenceText_id1dAqnm8qrVy(@NotNull SNode __thisNode__) {
     return SPropertyOperations.getString(__thisNode__, PROPS.name$MnvL);
@@ -55,10 +52,6 @@ public final class HeadQuery__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ HeadQuery__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

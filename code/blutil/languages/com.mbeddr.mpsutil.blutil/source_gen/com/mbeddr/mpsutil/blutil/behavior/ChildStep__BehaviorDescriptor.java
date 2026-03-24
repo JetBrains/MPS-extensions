@@ -22,7 +22,6 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -43,10 +42,8 @@ public final class ChildStep__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<Void> linearizedList_id5ub8ctrIpHj = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("linearizedList").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6308171743671982931L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
   public static final SMethod<String> uid_id5ub8ctrIdl3 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("uid").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6308171743671932227L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childStepChildren_id3SM_R9ytu$c, refStepChildren_id5ub8ctrIdkF, childLinks_id3SM_R9yrUjA, refLinks_id3SM_R9ytxFF, properties_id3SM_R9ytuzA, propertyStepChildren_id3SM_R9ytu$O, linearizedList_id223bK6mduVF, linearizedList_id5ub8ctrIpHj, uid_id5ub8ctrIdl3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childStepChildren_id3SM_R9ytu$c, refStepChildren_id5ub8ctrIdkF, childLinks_id3SM_R9yrUjA, refLinks_id3SM_R9ytxFF, properties_id3SM_R9ytuzA, propertyStepChildren_id3SM_R9ytu$O, linearizedList_id223bK6mduVF, linearizedList_id5ub8ctrIpHj, uid_id5ub8ctrIdl3);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Iterable<SNode> childStepChildren_id3SM_R9ytu$c(@NotNull SNode __thisNode__) {
     return ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.children$k0nx)).where((it) -> SNodeOperations.isInstanceOf(it, CONCEPTS.ChildStep$O4)).ofType(SNode.class);
@@ -93,10 +90,6 @@ public final class ChildStep__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ ChildStep__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

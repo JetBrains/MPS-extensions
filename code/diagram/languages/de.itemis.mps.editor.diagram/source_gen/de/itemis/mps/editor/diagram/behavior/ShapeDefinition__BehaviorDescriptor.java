@@ -15,7 +15,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -26,10 +25,8 @@ public final class ShapeDefinition__BehaviorDescriptor extends BaseBHDescriptor 
   public static final SMethod<String> getGeneratedClassName_id6uo2fN6jmLY = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getGeneratedClassName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7464726264118340734L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2();
   public static final SMethod<String> getGenerateFqClassName_id4Te4zGtmT2U = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getGenerateFqClassName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5642467428246720698L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getGeneratedClassName_id6uo2fN6jmLY, getGenerateFqClassName_id4Te4zGtmT2U);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getGeneratedClassName_id6uo2fN6jmLY, getGenerateFqClassName_id4Te4zGtmT2U);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getGeneratedClassName_id6uo2fN6jmLY(@NotNull SNode __thisNode__) {
     return SPropertyOperations.getString(__thisNode__, PROPS.name$MnvL);
@@ -41,10 +38,6 @@ public final class ShapeDefinition__BehaviorDescriptor extends BaseBHDescriptor 
   /*package*/ ShapeDefinition__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

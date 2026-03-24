@@ -16,7 +16,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import com.intellij.openapi.application.Application;
 import com.intellij.openapi.application.ApplicationManager;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -27,10 +26,8 @@ public final class IDiffable__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<Void> setDiffFlag_id6Od11GY7tDO = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("setDiffFlag").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7857941439884155508L).languageId(0x920418076950153bL, 0xf47b95d45e734c04L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
   public static final SMethod<Boolean> isDiffEnabled_id6Od11GY7tN$ = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isDiffEnabled").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7857941439884156132L).languageId(0x920418076950153bL, 0xf47b95d45e734c04L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(setDiffFlag_id6Od11GY7tDO, isDiffEnabled_id6Od11GY7tN$);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(setDiffFlag_id6Od11GY7tDO, isDiffEnabled_id6Od11GY7tN$);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static void setDiffFlag_id6Od11GY7tDO(@NotNull SNode __thisNode__, boolean flag) {
     SPropertyOperations.assign(__thisNode__, PROPS.showDiff$QsrO, flag);
@@ -47,10 +44,6 @@ public final class IDiffable__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IDiffable__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

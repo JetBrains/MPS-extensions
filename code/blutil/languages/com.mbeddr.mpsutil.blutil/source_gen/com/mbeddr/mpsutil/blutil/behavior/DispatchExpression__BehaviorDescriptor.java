@@ -14,7 +14,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -24,10 +23,8 @@ public final class DispatchExpression__BehaviorDescriptor extends BaseBHDescript
 
   public static final SMethod<String> methodName_idkLJ1m5HQoK = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("methodName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(374287044672185904L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(methodName_idkLJ1m5HQoK);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(methodName_idkLJ1m5HQoK);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String methodName_idkLJ1m5HQoK(@NotNull SNode __thisNode__) {
     return "dispatch" + SNodeOperations.getNodeDescendants(SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.ClassConcept$bK, false, false), CONCEPTS.DispatchExpression$ls, false, new SAbstractConcept[]{}).indexOf(__thisNode__);
@@ -36,10 +33,6 @@ public final class DispatchExpression__BehaviorDescriptor extends BaseBHDescript
   /*package*/ DispatchExpression__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

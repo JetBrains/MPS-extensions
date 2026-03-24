@@ -15,7 +15,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -26,10 +25,8 @@ public final class ExpressionChildValue__BehaviorDescriptor extends BaseBHDescri
 
   public static final SMethod<String> getInfoText_id7Uz1bYM3TR4 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getInfoText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9125142491355389380L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInfoText_id7Uz1bYM3TR4);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInfoText_id7Uz1bYM3TR4);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getInfoText_id7Uz1bYM3TR4(@NotNull SNode __thisNode__) {
     return "expression " + check_41r6cy_a0a0a(SNodeOperations.getConcept(SLinkOperations.getTarget(__thisNode__, LINKS.expr$rSv9)));
@@ -38,10 +35,6 @@ public final class ExpressionChildValue__BehaviorDescriptor extends BaseBHDescri
   /*package*/ ExpressionChildValue__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

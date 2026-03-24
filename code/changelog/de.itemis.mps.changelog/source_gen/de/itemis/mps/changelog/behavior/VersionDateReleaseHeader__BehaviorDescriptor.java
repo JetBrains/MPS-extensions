@@ -35,7 +35,7 @@ public final class VersionDateReleaseHeader__BehaviorDescriptor extends BaseBHDe
   public static final SMethod<LocalDate> getDate_id6aVQm8WgoJy = new SMethodBuilder<LocalDate>(new SJavaCompoundTypeImpl(LocalDate.class)).name("getDate").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7114519052302781410L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2();
   public static final SMethod<Boolean> isAfter_id6aVQm8Wg3U3 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isAfter").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7114519052302696067L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDateAsString_id2r0ijgcUaDV, getDate_id6aVQm8WgoJy, isAfter_id6aVQm8Wg3U3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDateAsString_id2r0ijgcUaDV, getDate_id6aVQm8WgoJy, isAfter_id6aVQm8Wg3U3);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.setTarget(__thisNode__, LINKS.version$d4Yp, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x638c9345261349dcL, 0xb2ae8ceadef24141L, 0xd5813f148757d4eL, "de.itemis.mps.changelog.structure.SemanticVersion")));

@@ -15,7 +15,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
@@ -25,10 +24,8 @@ public final class ThisElementExpression__BehaviorDescriptor extends BaseBHDescr
 
   public static final SMethod<SNode> getTypeInContext_idl6SLw3pXih = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getTypeInContext").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(380240910835242129L).languageId(0x8bddb38a1dcb107aL, 0xc6cfed73685b4891L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTypeInContext_idl6SLw3pXih);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTypeInContext_idl6SLw3pXih);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getTypeInContext_idl6SLw3pXih(@NotNull SAbstractConcept __thisConcept__, SNode contextNode) {
     return TypecheckingFacade.getFromContext().getTypeOf(SNodeOperations.getNodeAncestor(contextNode, CONCEPTS.IThisElementScope$LE, true, false));
@@ -37,10 +34,6 @@ public final class ThisElementExpression__BehaviorDescriptor extends BaseBHDescr
   /*package*/ ThisElementExpression__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

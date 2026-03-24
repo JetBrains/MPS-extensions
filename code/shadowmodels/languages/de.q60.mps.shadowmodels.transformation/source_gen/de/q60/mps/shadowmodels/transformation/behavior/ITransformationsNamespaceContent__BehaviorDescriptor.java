@@ -19,7 +19,6 @@ import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.util.Objects;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
@@ -36,10 +35,8 @@ public final class ITransformationsNamespaceContent__BehaviorDescriptor extends 
   public static final SMethod<String> getFullQualifiedName_id2$QnGbu$Y3I = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getFullQualifiedName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2969665195348320494L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
   public static final SMethod<String> getPresentationInContext_id2$QnGbu_5Vh = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPresentationInContext").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2969665195348352721L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDefaultName_id2$QnGbu$Y2o, getSimpleName_id2$QnGbu$Y2y, getNameInRoot_id2$QnGbu$Y2L, getNamespace_id2$QnGbu$Y3j, getFullQualifiedName_id2$QnGbu$Y3I, getPresentationInContext_id2$QnGbu_5Vh);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDefaultName_id2$QnGbu$Y2o, getSimpleName_id2$QnGbu$Y2y, getNameInRoot_id2$QnGbu$Y2L, getNamespace_id2$QnGbu$Y3j, getFullQualifiedName_id2$QnGbu$Y3I, getPresentationInContext_id2$QnGbu_5Vh);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getDefaultName_id2$QnGbu$Y2o(@NotNull SNode __thisNode__) {
     return "e" + SNodeOperations.getIndexInParent(__thisNode__);
@@ -67,10 +64,6 @@ public final class ITransformationsNamespaceContent__BehaviorDescriptor extends 
   /*package*/ ITransformationsNamespaceContent__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

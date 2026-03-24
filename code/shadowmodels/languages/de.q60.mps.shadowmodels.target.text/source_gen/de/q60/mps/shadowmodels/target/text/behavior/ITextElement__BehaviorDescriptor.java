@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -23,10 +22,8 @@ public final class ITextElement__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<Void> toText_id7NImM0593av = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("toText").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9002232898243539615L).languageId(0xa2f4fd4228fb713eL, 0xa7322769ef644daaL).build2(SMethodBuilder.createJavaParameter(TextBuffer.class, ""));
   public static final SMethod<String> toText_idAkkmJBLwn5 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("toText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(690266166786393541L).languageId(0xa2f4fd4228fb713eL, 0xa7322769ef644daaL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toText_id7NImM0593av, toText_idAkkmJBLwn5);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toText_id7NImM0593av, toText_idAkkmJBLwn5);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String toText_idAkkmJBLwn5(@NotNull SNode __thisNode__) {
     TextBuffer buffer = new TextBuffer();
@@ -37,10 +34,6 @@ public final class ITextElement__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ ITextElement__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

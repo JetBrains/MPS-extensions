@@ -16,7 +16,6 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -27,10 +26,8 @@ public final class IBaseGraphTest__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<List<SNode>> getUserDefinedConfigs_id1xHXqL1PbjC = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getUserDefinedConfigs").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1760333149559370984L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2();
   public static final SMethod<Boolean> hasUserDefinedStyle_id1xHXqL1Pbic = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("hasUserDefinedStyle").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1760333149559370892L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getUserDefinedConfigs_id1xHXqL1PbjC, hasUserDefinedStyle_id1xHXqL1Pbic);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getUserDefinedConfigs_id1xHXqL1PbjC, hasUserDefinedStyle_id1xHXqL1Pbic);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<SNode> getUserDefinedConfigs_id1xHXqL1PbjC(@NotNull SNode __thisNode__) {
     List<SNode> configs = new ArrayList<SNode>();
@@ -44,10 +41,6 @@ public final class IBaseGraphTest__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IBaseGraphTest__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

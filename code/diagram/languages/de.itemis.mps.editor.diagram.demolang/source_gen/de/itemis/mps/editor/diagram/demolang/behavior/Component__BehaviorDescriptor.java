@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -31,10 +30,8 @@ public final class Component__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<Boolean> isConnected_id3FRjz$vg0S0 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isConnected").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4248950780691746304L).languageId(0xb975a44162a7e7e2L, 0x7cf26568725545b6L).build2(SMethodBuilder.createJavaParameter(String.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isConnected_id3FRjz$vg0S0);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isConnected_id3FRjz$vg0S0);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean isConnected_id3FRjz$vg0S0(@NotNull final SNode __thisNode__, final String portName) {
     return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.Diagram$3p, false, false), LINKS.connections$uKm1)).any((it) -> SLinkOperations.getTarget(it, LINKS.from$BO4R) == __thisNode__ && Objects.equals(SPropertyOperations.getString(it, PROPS.fromPort$4YzX), portName) || SLinkOperations.getTarget(it, LINKS.to$BOyT) == __thisNode__ && Objects.equals(SPropertyOperations.getString(it, PROPS.toPort$4Z1Z), portName));
@@ -43,10 +40,6 @@ public final class Component__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ Component__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

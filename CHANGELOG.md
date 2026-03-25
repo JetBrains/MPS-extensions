@@ -19,6 +19,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.linenumbers* Improve line numbers position in diff editors where the line numbers appear to the right of the editor.
 - *de.itemis.mps.linenumbers* Fix a NullPointerException that would occur after application shutdown and would be logged e.g. by command line tools. The NPE was caused by failing to properly dispose a Swing timer.
+- *de.itemis.mps.editor.celllayout.runtime* Grid layout was broken after previous performance optimization 
 
 ## February 2026
 

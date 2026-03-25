@@ -14,6 +14,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
     - `seq.groupBy(keySelector)` allows given a sequence seq to group the elements of a sequence using the `keySelector` closure on each element 
     - `seq1.zip(seq2)` creates a sequence tuples where each element is a tuple from the element in the two sequences at that index
     - `seq.selectIdx({~it, int index => ...})` `seq.whereIdx({~it, int index => ...})` `seq.forEachIdx({~it, int index => ...})` are similar to `select` , `where` and `foreach` already present in the collections language, but the index of the current element is also an argument of the closure
+- *nl.f1re.testing* Add [EditorTestLifecycleMethods](http://127.0.0.1:63320/node?ref=r%3A8dfc935f-f6d1-4e4d-bfff-80832f08c4eb%28nl.f1re.testing.structure%29%2F2052872502397333186) attribute and associated intentions to extend an editor test with 'before/after test' methods.
 
 ### Fixed
 

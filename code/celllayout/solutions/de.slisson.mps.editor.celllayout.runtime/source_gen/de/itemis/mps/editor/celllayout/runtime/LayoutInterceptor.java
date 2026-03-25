@@ -159,7 +159,7 @@ public class LayoutInterceptor implements CellLayout, ICellLayoutWrapper {
     }
     jetbrains.mps.nodeEditor.cells.EditorCell_Collection collectionCell = as_58rwot_a0a1a13(cell, jetbrains.mps.nodeEditor.cells.EditorCell_Collection.class);
     if (collectionCell == null) {
-      return false;
+      return StylesRequiringInstall.usesLayoutStyles(cell);
     }
 
     InstallationStatus cachedStatus = as_58rwot_a0a4a13(cell.getUserObject(INSTALLATION_STATUS_KEY), InstallationStatus.class);

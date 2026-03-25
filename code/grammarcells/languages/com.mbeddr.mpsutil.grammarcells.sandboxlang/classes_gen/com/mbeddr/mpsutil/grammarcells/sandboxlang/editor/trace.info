@@ -4142,15 +4142,15 @@
       </scope>
       <unit id="3651222753554065544" at="274,0,277,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$LINKS" />
       <unit id="3651222753554065544" at="278,0,281,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$CONCEPTS" />
-      <unit id="3651222753554065544" at="240,25,244,15" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_1$1$1$1" />
+      <unit id="3651222753554065544" at="240,25,244,15" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_0$1$1$1" />
       <unit id="3651222753554065544" at="219,50,224,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$4" />
       <unit id="3651222753554065544" at="111,51,119,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$1" />
       <unit id="3651222753554065544" at="120,48,128,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$2" />
-      <unit id="3651222753554065544" at="238,21,247,11" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_1$1$1" />
+      <unit id="3651222753554065544" at="238,21,247,11" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_0$1$1" />
       <unit id="3651222753554065544" at="142,10,155,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$3" />
-      <unit id="3651222753554065544" at="236,49,249,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_1$1" />
-      <unit id="3651222753554065544" at="252,53,268,9" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_1$2" />
-      <unit id="3651222753554065544" at="228,0,273,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_1" />
+      <unit id="3651222753554065544" at="236,49,249,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_0$1" />
+      <unit id="3651222753554065544" at="252,53,268,9" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_0$2" />
+      <unit id="3651222753554065544" at="228,0,273,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$GenericMenuPart_a0a1a0_0" />
       <unit id="3651222753554065544" at="167,0,218,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a$childSingleRoleHandler_aigi30_a0a1a0" />
       <unit id="3651222753554065544" at="44,0,282,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_LayoutOfChildInOptional_EditorBuilder_a" />
     </file>
@@ -10566,7 +10566,7 @@
       <unit id="6380604244804360676" at="333,0,336,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$LINKS" />
       <unit id="6380604244804360676" at="127,17,131,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$TMP_Group_gloyme_a0b0a$1" />
       <unit id="6380604244804360676" at="110,50,115,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$1" />
-      <unit id="6380604244804360676" at="141,0,149,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$TMP_Group_gloyme_a0b0a$GenericMenuPart_a0a1a0_0" />
+      <unit id="6380604244804360676" at="141,0,149,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$TMP_Group_gloyme_a0b0a$GenericMenuPart_a0a1a0_1" />
       <unit id="6380604244804360676" at="207,51,215,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$3" />
       <unit id="6380604244804360676" at="216,48,224,7" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$4" />
       <unit id="6380604244804360676" at="190,14,201,5" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.TEST_OptionalWithoutText_Single_EditorBuilder_a$2" />

@@ -367,5 +367,66 @@
       <unit id="492440529733456841" at="21,0,78,0" name="test.de.itemis.mps.editor.celllayout.editor.Do_Not_Grow_Horizontal_In_Grid_Test" />
     </file>
   </root>
+  <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/5692278966132976083">
+    <file name="GridLayoutColumnSpan_Test.java">
+      <node id="5692278966132976083" at="30,38,31,60" concept="13" />
+      <node id="5692278966132976083" at="35,60,36,36" concept="3" />
+      <node id="5692278966132976083" at="41,52,42,19" concept="13" />
+      <node id="5692278966132976083" at="46,51,47,53" concept="3" />
+      <node id="5692278966132980014" at="47,53,48,0" concept="11" />
+      <node id="5692278966132991095" at="48,0,49,63" concept="9" />
+      <node id="5692278966132991814" at="49,63,50,129" concept="9" />
+      <node id="5692278966133378111" at="50,129,51,0" concept="11" />
+      <node id="5692278966133107560" at="51,0,52,199" concept="9" />
+      <node id="5692278966133124734" at="53,102,54,34" concept="9" />
+      <node id="5692278966133135589" at="54,34,55,56" concept="9" />
+      <node id="5692278966133136461" at="55,56,56,68" concept="9" />
+      <node id="5692278966133165471" at="57,71,58,36" concept="9" />
+      <node id="5692278966133157867" at="58,36,59,42" concept="9" />
+      <node id="5692278966133310142" at="59,42,60,103" concept="9" />
+      <node id="5692278966133310878" at="61,29,62,123" concept="3" />
+      <node id="5692278966132976083" at="27,0,29,0" concept="12" trace="ourParametersCacheExtension" />
+      <node id="5692278966132976083" at="30,0,33,0" concept="1" trace="GridLayoutColumnSpan_Test#()V" />
+      <node id="5692278966132976083" at="41,0,44,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5692278966133309189" at="60,103,63,11" concept="7" />
+      <node id="5692278966132976083" at="34,0,38,0" concept="8" trace="test_GridLayoutColumnSpan#()V" />
+      <node id="5692278966133169974" at="56,68,64,9" concept="6" />
+      <node id="5692278966133120267" at="52,199,65,7" concept="6" />
+      <node id="5692278966132976083" at="45,0,67,0" concept="8" trace="testMethodImpl#()V" />
+      <scope id="5692278966132976083" at="30,38,31,60" />
+      <scope id="5692278966132976083" at="35,60,36,36" />
+      <scope id="5692278966132976083" at="41,52,42,19" />
+      <scope id="5692278966133309191" at="61,29,62,123" />
+      <scope id="5692278966132976083" at="30,0,33,0" />
+      <scope id="5692278966132976083" at="41,0,44,0">
+        <var name="owner" id="5692278966132976083" />
+      </scope>
+      <scope id="5692278966132976083" at="34,0,38,0" />
+      <scope id="5692278966133169980" at="57,71,63,11">
+        <var name="actualX" id="5692278966133165474" />
+        <var name="isAligned" id="5692278966133310145" />
+        <var name="tolerance" id="5692278966133157870" />
+      </scope>
+      <scope id="5692278966133169974" at="56,68,64,9">
+        <var name="cell" id="5692278966133169976" />
+      </scope>
+      <scope id="5692278966133120273" at="53,102,64,9">
+        <var name="cells" id="5692278966133135590" />
+        <var name="expectedX" id="5692278966133136464" />
+        <var name="text" id="5692278966133124735" />
+      </scope>
+      <scope id="5692278966133120267" at="52,199,65,7">
+        <var name="entry" id="5692278966133120269" />
+      </scope>
+      <scope id="5692278966132976083" at="46,51,65,7">
+        <var name="allCells" id="5692278966132991815" />
+        <var name="constantsByText" id="5692278966133107561" />
+        <var name="rootCell" id="5692278966132991096" />
+      </scope>
+      <scope id="5692278966132976083" at="45,0,67,0" />
+      <unit id="5692278966132976083" at="39,0,68,0" name="test.de.itemis.mps.editor.celllayout.editor.GridLayoutColumnSpan_Test$TestBody" />
+      <unit id="5692278966132976083" at="25,0,69,0" name="test.de.itemis.mps.editor.celllayout.editor.GridLayoutColumnSpan_Test" />
+    </file>
+  </root>
 </debug-info>
 

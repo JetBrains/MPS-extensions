@@ -10,9 +10,11 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/1334526561717230341">
     <file name="CalcOnWriteFrame_Test.java">
@@ -120,12 +122,12 @@
       <node id="1334526561717277953" at="147,49,148,34" concept="3" />
       <node id="1334526561717277947" at="148,34,149,41" concept="3" />
       <node id="1334526561717277941" at="149,41,150,44" concept="3" />
-      <node id="1334526561717279107" at="150,44,151,0" concept="11" />
+      <node id="1334526561717279107" at="150,44,151,0" concept="12" />
       <node id="1334526561717280090" at="151,0,152,18" concept="3" />
       <node id="1334526561717281270" at="152,18,153,18" concept="3" />
       <node id="1334526561717281763" at="153,18,154,22" concept="3" />
       <node id="1334526561717282239" at="154,22,155,23" concept="3" />
-      <node id="1334526561717283875" at="155,23,156,0" concept="11" />
+      <node id="1334526561717283875" at="155,23,156,0" concept="12" />
       <node id="1334526561717282929" at="156,0,157,18" concept="3" />
       <node id="1334526561717282924" at="157,18,158,18" concept="3" />
       <node id="1334526561717282919" at="158,18,159,22" concept="3" />
@@ -172,24 +174,24 @@
   </root>
   <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/1609776727060635750">
     <file name="Incremental_ShrinkHorizontalLineWidth_Test.java">
-      <node id="1609776727060635750" at="22,55,23,60" concept="13" />
+      <node id="1609776727060635750" at="22,55,23,60" concept="15" />
       <node id="1609776727060635750" at="27,77,28,36" concept="3" />
-      <node id="1609776727060635750" at="33,52,34,19" concept="13" />
+      <node id="1609776727060635750" at="33,52,34,19" concept="15" />
       <node id="1609776727060635750" at="38,51,39,53" concept="3" />
-      <node id="1609776727060635754" at="39,53,40,0" concept="11" />
+      <node id="1609776727060635754" at="39,53,40,0" concept="12" />
       <node id="1609776727060635755" at="40,0,41,67" concept="9" />
       <node id="1609776727060635763" at="42,46,43,60" concept="3" />
       <node id="1609776727060635766" at="43,60,44,35" concept="3" />
-      <node id="1609776727060714162" at="45,9,46,0" concept="11" />
+      <node id="1609776727060714162" at="45,9,46,0" concept="12" />
       <node id="1609776727060736036" at="46,0,47,60" concept="9" />
       <node id="1609776727060715666" at="47,60,48,72" concept="3" />
       <node id="1609776727060737820" at="48,72,49,60" concept="9" />
       <node id="1609776727060771713" at="49,60,50,51" concept="3" />
       <node id="1609776727060737495" at="50,51,51,30" concept="0" />
-      <node id="1609776727060713446" at="51,30,52,0" concept="11" />
-      <node id="1609776727060713585" at="52,0,53,0" concept="11" />
-      <node id="1609776727060713727" at="53,0,54,0" concept="11" />
-      <node id="1609776727060635750" at="19,0,21,0" concept="12" trace="ourParametersCacheExtension" />
+      <node id="1609776727060713446" at="51,30,52,0" concept="12" />
+      <node id="1609776727060713585" at="52,0,53,0" concept="12" />
+      <node id="1609776727060713727" at="53,0,54,0" concept="12" />
+      <node id="1609776727060635750" at="19,0,21,0" concept="13" trace="ourParametersCacheExtension" />
       <node id="1609776727060635750" at="22,0,25,0" concept="1" trace="Incremental_ShrinkHorizontalLineWidth_Test#()V" />
       <node id="1609776727060635750" at="33,0,36,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
       <node id="1609776727060635750" at="26,0,30,0" concept="8" trace="test_Incremental_ShrinkHorizontalLineWidth#()V" />
@@ -216,23 +218,23 @@
   </root>
   <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/4434722703675304679">
     <file name="MixedVerticalAndIndent_Test.java">
-      <node id="4434722703675304679" at="30,40,31,60" concept="13" />
+      <node id="4434722703675304679" at="30,40,31,60" concept="15" />
       <node id="4434722703675304679" at="35,62,36,36" concept="3" />
-      <node id="4434722703675304679" at="41,52,42,19" concept="13" />
+      <node id="4434722703675304679" at="41,52,42,19" concept="15" />
       <node id="4434722703675304679" at="46,51,47,53" concept="3" />
       <node id="4434722703676775144" at="47,53,48,61" concept="9" />
       <node id="4434722703676792370" at="49,37,50,33" concept="3" />
-      <node id="4434722703676771179" at="51,7,52,0" concept="11" />
+      <node id="4434722703676771179" at="51,7,52,0" concept="12" />
       <node id="4434722703676714229" at="52,0,53,104" concept="9" />
       <node id="4434722703676719283" at="53,104,54,60" concept="3" />
-      <node id="4434722703676681161" at="54,60,55,0" concept="11" />
-      <node id="4434722703676933999" at="55,0,56,140" concept="10" />
-      <node id="4434722703676951196" at="56,140,57,88" concept="10" />
+      <node id="4434722703676681161" at="54,60,55,0" concept="12" />
+      <node id="4434722703676933999" at="55,0,56,140" concept="11" />
+      <node id="4434722703676951196" at="56,140,57,88" concept="11" />
       <node id="4434722703676738857" at="57,88,58,142" concept="9" />
       <node id="4434722703676883365" at="59,61,60,66" concept="3" />
       <node id="4434722703676746852" at="61,48,62,81" concept="3" />
       <node id="4434722703676812024" at="62,81,63,42" concept="3" />
-      <node id="4434722703676819988" at="64,11,65,0" concept="11" />
+      <node id="4434722703676819988" at="64,11,65,0" concept="12" />
       <node id="4434722703675526108" at="65,0,66,65" concept="9" />
       <node id="4434722703675527417" at="66,65,67,96" concept="9" />
       <node id="4434722703675533340" at="67,96,68,114" concept="9" />
@@ -241,7 +243,7 @@
       <node id="4434722703675600126" at="74,13,75,111" concept="9" />
       <node id="4434722703675601057" at="75,111,76,111" concept="9" />
       <node id="4434722703675607142" at="77,104,78,106" concept="3" />
-      <node id="4434722703675304679" at="27,0,29,0" concept="12" trace="ourParametersCacheExtension" />
+      <node id="4434722703675304679" at="27,0,29,0" concept="13" trace="ourParametersCacheExtension" />
       <node id="4434722703675304679" at="30,0,33,0" concept="1" trace="MixedVerticalAndIndent_Test#()V" />
       <node id="4434722703675304679" at="41,0,44,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
       <node id="4434722703676780484" at="48,61,51,7" concept="5" />
@@ -300,40 +302,40 @@
   </root>
   <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/492440529733456841">
     <file name="Do_Not_Grow_Horizontal_In_Grid_Test.java">
-      <node id="492440529733456841" at="26,48,27,60" concept="13" />
+      <node id="492440529733456841" at="26,48,27,60" concept="15" />
       <node id="492440529733456841" at="31,70,32,36" concept="3" />
-      <node id="492440529733456841" at="37,52,38,19" concept="13" />
+      <node id="492440529733456841" at="37,52,38,19" concept="15" />
       <node id="492440529733456841" at="42,51,43,52" concept="3" />
-      <node id="492440529739670454" at="43,52,44,0" concept="11" />
+      <node id="492440529739670454" at="43,52,44,0" concept="12" />
       <node id="492440529739670455" at="44,0,45,67" concept="9" />
       <node id="492440529739670465" at="46,46,47,60" concept="3" />
       <node id="492440529739670468" at="47,60,48,35" concept="3" />
-      <node id="492440529739670472" at="49,9,50,0" concept="11" />
-      <node id="492440529739670473" at="50,0,51,29" concept="10" />
+      <node id="492440529739670472" at="49,9,50,0" concept="12" />
+      <node id="492440529739670473" at="50,0,51,29" concept="11" />
       <node id="492440529739670475" at="51,29,52,55" concept="9" />
-      <node id="492440529739670481" at="52,55,53,31" concept="10" />
+      <node id="492440529739670481" at="52,55,53,31" concept="11" />
       <node id="492440529739670483" at="53,31,54,95" concept="9" />
-      <node id="492440529739670495" at="54,95,55,23" concept="10" />
+      <node id="492440529739670495" at="54,95,55,23" concept="11" />
       <node id="492440529739670497" at="55,23,56,140" concept="9" />
-      <node id="492440529739670515" at="56,140,57,18" concept="10" />
+      <node id="492440529739670515" at="56,140,57,18" concept="11" />
       <node id="492440529739670517" at="57,18,58,142" concept="9" />
-      <node id="492440529739670535" at="58,142,59,31" concept="10" />
+      <node id="492440529739670535" at="58,142,59,31" concept="11" />
       <node id="492440529739670537" at="59,31,60,102" concept="9" />
-      <node id="492440529739670549" at="60,102,61,31" concept="10" />
+      <node id="492440529739670549" at="60,102,61,31" concept="11" />
       <node id="492440529739670551" at="61,31,62,142" concept="9" />
-      <node id="492440529739670569" at="62,142,63,12" concept="10" />
+      <node id="492440529739670569" at="62,142,63,12" concept="11" />
       <node id="492440529739670571" at="63,12,64,174" concept="9" />
-      <node id="492440529739670595" at="64,174,65,12" concept="10" />
+      <node id="492440529739670595" at="64,174,65,12" concept="11" />
       <node id="492440529739670597" at="65,12,66,181" concept="9" />
-      <node id="492440529739670621" at="66,181,67,12" concept="10" />
+      <node id="492440529739670621" at="66,181,67,12" concept="11" />
       <node id="492440529739670623" at="67,12,68,143" concept="9" />
-      <node id="492440529739674031" at="68,143,69,0" concept="11" />
+      <node id="492440529739674031" at="68,143,69,0" concept="12" />
       <node id="492440529739683228" at="69,0,70,63" concept="9" />
       <node id="492440529739694117" at="70,63,71,91" concept="9" />
       <node id="492440529739699012" at="71,91,72,44" concept="3" />
       <node id="492440529739766331" at="72,44,73,68" concept="3" />
       <node id="492440529739773957" at="73,68,74,75" concept="3" />
-      <node id="492440529733456841" at="23,0,25,0" concept="12" trace="ourParametersCacheExtension" />
+      <node id="492440529733456841" at="23,0,25,0" concept="13" trace="ourParametersCacheExtension" />
       <node id="492440529733456841" at="26,0,29,0" concept="1" trace="Do_Not_Grow_Horizontal_In_Grid_Test#()V" />
       <node id="492440529733456841" at="37,0,40,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
       <node id="492440529733456841" at="30,0,34,0" concept="8" trace="test_Do_Not_Grow_Horizontal_In_Grid#()V" />
@@ -365,6 +367,139 @@
       <scope id="492440529733456841" at="41,0,76,0" />
       <unit id="492440529733456841" at="35,0,77,0" name="test.de.itemis.mps.editor.celllayout.editor.Do_Not_Grow_Horizontal_In_Grid_Test$TestBody" />
       <unit id="492440529733456841" at="21,0,78,0" name="test.de.itemis.mps.editor.celllayout.editor.Do_Not_Grow_Horizontal_In_Grid_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/5692278966132976083">
+    <file name="GridLayoutColumnSpan_Test.java">
+      <node id="5692278966132976083" at="30,38,31,60" concept="15" />
+      <node id="5692278966132976083" at="35,60,36,36" concept="3" />
+      <node id="5692278966132976083" at="41,52,42,19" concept="15" />
+      <node id="5692278966132976083" at="46,51,47,53" concept="3" />
+      <node id="5692278966132980014" at="47,53,48,0" concept="12" />
+      <node id="5692278966132991095" at="48,0,49,63" concept="9" />
+      <node id="5692278966132991814" at="49,63,50,129" concept="9" />
+      <node id="5692278966133378111" at="50,129,51,0" concept="12" />
+      <node id="5692278966133107560" at="51,0,52,199" concept="9" />
+      <node id="5692278966133124734" at="53,102,54,34" concept="9" />
+      <node id="5692278966133135589" at="54,34,55,56" concept="9" />
+      <node id="5692278966133136461" at="55,56,56,68" concept="9" />
+      <node id="5692278966133165471" at="57,71,58,36" concept="9" />
+      <node id="5692278966133157867" at="58,36,59,42" concept="9" />
+      <node id="5692278966133310142" at="59,42,60,103" concept="9" />
+      <node id="5692278966133310878" at="61,29,62,123" concept="3" />
+      <node id="5692278966132976083" at="27,0,29,0" concept="13" trace="ourParametersCacheExtension" />
+      <node id="5692278966132976083" at="30,0,33,0" concept="1" trace="GridLayoutColumnSpan_Test#()V" />
+      <node id="5692278966132976083" at="41,0,44,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5692278966133309189" at="60,103,63,11" concept="7" />
+      <node id="5692278966132976083" at="34,0,38,0" concept="8" trace="test_GridLayoutColumnSpan#()V" />
+      <node id="5692278966133169974" at="56,68,64,9" concept="6" />
+      <node id="5692278966133120267" at="52,199,65,7" concept="6" />
+      <node id="5692278966132976083" at="45,0,67,0" concept="8" trace="testMethodImpl#()V" />
+      <scope id="5692278966132976083" at="30,38,31,60" />
+      <scope id="5692278966132976083" at="35,60,36,36" />
+      <scope id="5692278966132976083" at="41,52,42,19" />
+      <scope id="5692278966133309191" at="61,29,62,123" />
+      <scope id="5692278966132976083" at="30,0,33,0" />
+      <scope id="5692278966132976083" at="41,0,44,0">
+        <var name="owner" id="5692278966132976083" />
+      </scope>
+      <scope id="5692278966132976083" at="34,0,38,0" />
+      <scope id="5692278966133169980" at="57,71,63,11">
+        <var name="actualX" id="5692278966133165474" />
+        <var name="isAligned" id="5692278966133310145" />
+        <var name="tolerance" id="5692278966133157870" />
+      </scope>
+      <scope id="5692278966133169974" at="56,68,64,9">
+        <var name="cell" id="5692278966133169976" />
+      </scope>
+      <scope id="5692278966133120273" at="53,102,64,9">
+        <var name="cells" id="5692278966133135590" />
+        <var name="expectedX" id="5692278966133136464" />
+        <var name="text" id="5692278966133124735" />
+      </scope>
+      <scope id="5692278966133120267" at="52,199,65,7">
+        <var name="entry" id="5692278966133120269" />
+      </scope>
+      <scope id="5692278966132976083" at="46,51,65,7">
+        <var name="allCells" id="5692278966132991815" />
+        <var name="constantsByText" id="5692278966133107561" />
+        <var name="rootCell" id="5692278966132991096" />
+      </scope>
+      <scope id="5692278966132976083" at="45,0,67,0" />
+      <unit id="5692278966132976083" at="39,0,68,0" name="test.de.itemis.mps.editor.celllayout.editor.GridLayoutColumnSpan_Test$TestBody" />
+      <unit id="5692278966132976083" at="25,0,69,0" name="test.de.itemis.mps.editor.celllayout.editor.GridLayoutColumnSpan_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/7571913752968902927">
+    <file name="GridLayoutFlatten_Test.java">
+      <node id="7571913752968902927" at="27,35,28,60" concept="15" />
+      <node id="7571913752968902927" at="32,57,33,36" concept="3" />
+      <node id="7571913752968902927" at="38,52,39,19" concept="15" />
+      <node id="7571913752968902927" at="43,51,44,53" concept="3" />
+      <node id="7571913752969072013" at="44,53,45,63" concept="9" />
+      <node id="7571913752969072019" at="45,63,46,129" concept="9" />
+      <node id="7571913752969097249" at="46,129,47,117" concept="9" />
+      <node id="7571913752969107520" at="47,117,48,0" concept="12" />
+      <node id="7571913752969474188" at="48,0,49,152" concept="9" />
+      <node id="7571913752969493330" at="49,152,50,115" concept="3" />
+      <node id="7571913752969464923" at="50,115,51,0" concept="12" />
+      <node id="7571913752969524220" at="51,0,52,183" concept="3" />
+      <node id="7571913752969532185" at="52,183,53,182" concept="3" />
+      <node id="7571913752969535479" at="53,182,54,0" concept="12" />
+      <node id="7571913752969533469" at="54,0,55,182" concept="3" />
+      <node id="7571913752969536923" at="55,182,56,182" concept="3" />
+      <node id="7571913752969538559" at="56,182,57,182" concept="3" />
+      <node id="7571913752969076979" at="57,182,58,0" concept="12" />
+      <node id="7571913752969540380" at="58,0,59,182" concept="3" />
+      <node id="7571913752969546937" at="59,182,60,182" concept="3" />
+      <node id="7571913752969549151" at="60,182,61,182" concept="3" />
+      <node id="7571913752969715457" at="61,182,62,0" concept="12" />
+      <node id="7571913752969713173" at="62,0,63,185" concept="3" />
+      <node id="7571913752969076980" at="63,185,64,0" concept="12" />
+      <node id="7571913752969071979" at="64,0,65,0" concept="12" />
+      <node id="7571913752969071996" at="65,0,66,0" concept="12" />
+      <node id="7571913752968902927" at="24,0,26,0" concept="13" trace="ourParametersCacheExtension" />
+      <node id="7571913752968902927" at="27,0,30,0" concept="1" trace="GridLayoutFlatten_Test#()V" />
+      <node id="7571913752968902927" at="38,0,41,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7571913752968902927" at="31,0,35,0" concept="8" trace="test_GridLayoutFlatten#()V" />
+      <node id="7571913752968902927" at="42,0,68,0" concept="8" trace="testMethodImpl#()V" />
+      <scope id="7571913752968902927" at="27,35,28,60" />
+      <scope id="7571913752968902927" at="32,57,33,36" />
+      <scope id="7571913752968902927" at="38,52,39,19" />
+      <scope id="7571913752968902927" at="27,0,30,0" />
+      <scope id="7571913752968902927" at="38,0,41,0">
+        <var name="owner" id="7571913752968902927" />
+      </scope>
+      <scope id="7571913752968902927" at="31,0,35,0" />
+      <scope id="7571913752968902927" at="43,51,66,0">
+        <var name="allCells" id="7571913752969072020" />
+        <var name="allConstants" id="7571913752969097250" />
+        <var name="cellsByText" id="7571913752969474191" />
+        <var name="rootCell" id="7571913752969072014" />
+      </scope>
+      <scope id="7571913752968902927" at="42,0,68,0" />
+      <unit id="7571913752968902927" at="36,0,69,0" name="test.de.itemis.mps.editor.celllayout.editor.GridLayoutFlatten_Test$TestBody" />
+      <unit id="7571913752968902927" at="22,0,70,0" name="test.de.itemis.mps.editor.celllayout.editor.GridLayoutFlatten_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/7571913752969691645">
+    <file name="ConstantCellExtensions.java">
+      <node id="7571913752969693164" at="10,63,11,45" concept="10" />
+      <node id="7571913752969707624" at="13,64,14,65" concept="10" />
+      <node id="7571913752969691645" at="8,0,10,0" concept="1" trace="ConstantCellExtensions#()V" />
+      <node id="7571913752969692023" at="10,0,13,0" concept="14" trace="textLeft#(Ljetbrains/mps/nodeEditor/cells/EditorCell_Constant;)I" />
+      <node id="7571913752969707620" at="13,0,16,0" concept="14" trace="textRight#(Ljetbrains/mps/nodeEditor/cells/EditorCell_Constant;)I" />
+      <scope id="7571913752969691645" at="8,35,8,35" />
+      <scope id="7571913752969692026" at="10,63,11,45" />
+      <scope id="7571913752969707623" at="13,64,14,65" />
+      <scope id="7571913752969691645" at="8,0,10,0" />
+      <scope id="7571913752969692023" at="10,0,13,0">
+        <var name="_this" id="7571913752969692023" />
+      </scope>
+      <scope id="7571913752969707620" at="13,0,16,0">
+        <var name="_this" id="7571913752969707620" />
+      </scope>
+      <unit id="7571913752969691645" at="7,0,17,0" name="test.de.itemis.mps.editor.celllayout.editor.ConstantCellExtensions" />
     </file>
   </root>
 </debug-info>

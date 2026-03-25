@@ -25595,18 +25595,6 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="3pFNVizDM$r" role="3cqZAp">
-          <node concept="3cpWsn" id="3pFNVizDM$q" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="propertyAccessor" />
-            <node concept="3uibUv" id="3pFNVizDM$s" role="1tU5fm">
-              <ref role="3uigEE" to="g51k:~PropertyAccessor" resolve="PropertyAccessor" />
-            </node>
-            <node concept="1rXfSq" id="bpuQGTGoPP" role="33vP2m">
-              <ref role="37wK5l" node="bpuQGTGoPL" resolve="createModelAccessor" />
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="3pFNVizDM$$" role="3cqZAp">
           <node concept="3cpWsn" id="3pFNVizDM$z" role="3cpWs9">
             <property role="3TUv4t" value="false" />
@@ -25620,8 +25608,8 @@
               <node concept="37vLTw" id="3pFNVizDM$B" role="37wK5m">
                 <ref role="3cqZAo" node="3pFNVizDMw2" resolve="context" />
               </node>
-              <node concept="37vLTw" id="3pFNVizDM$C" role="37wK5m">
-                <ref role="3cqZAo" node="3pFNVizDM$q" resolve="propertyAccessor" />
+              <node concept="1rXfSq" id="3q9MU_Ax51B" role="37wK5m">
+                <ref role="37wK5l" node="bpuQGTGoPL" resolve="createModelAccessor" />
               </node>
               <node concept="1rXfSq" id="3pFNVizDM$D" role="37wK5m">
                 <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode()" resolve="getSNode" />
@@ -25767,7 +25755,7 @@
       <property role="TrG5h" value="createModelAccessor" />
       <node concept="3Tmbuc" id="bpuQGTGpl5" role="1B3o_S" />
       <node concept="3uibUv" id="bpuQGTGoPN" role="3clF45">
-        <ref role="3uigEE" to="g51k:~PropertyAccessor" resolve="PropertyAccessor" />
+        <ref role="3uigEE" to="g51k:~ModelAccessor" resolve="ModelAccessor" />
       </node>
       <node concept="3clFbS" id="bpuQGTGoPu" role="3clF47">
         <node concept="3cpWs6" id="bpuQGTGoPE" role="3cqZAp">

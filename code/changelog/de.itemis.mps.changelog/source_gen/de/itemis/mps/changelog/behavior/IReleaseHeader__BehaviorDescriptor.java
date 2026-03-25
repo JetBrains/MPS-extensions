@@ -13,7 +13,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,19 +21,13 @@ public final class IReleaseHeader__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<Boolean> isAfter_id6aVQm8Wg3U3 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isAfter").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7114519052302696067L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isAfter_id6aVQm8Wg3U3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isAfter_id6aVQm8Wg3U3);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ IReleaseHeader__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

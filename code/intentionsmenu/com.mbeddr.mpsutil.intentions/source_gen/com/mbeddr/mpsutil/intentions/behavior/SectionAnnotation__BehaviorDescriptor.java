@@ -14,7 +14,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -25,10 +24,8 @@ public final class SectionAnnotation__BehaviorDescriptor extends BaseBHDescripto
   public static final SMethod<String> getSeparator_id24lzbKWhznQ = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getSeparator").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2383966317855520246L).languageId(0xb88b6dcf0e070241L, 0xb92f861d0184446dL).build2();
   public static final SMethod<String> generateCaptionWithSectionPrefix_id24lzbKWiSKe = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("generateCaptionWithSectionPrefix").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2383966317855869966L).languageId(0xb88b6dcf0e070241L, 0xb92f861d0184446dL).build2(SMethodBuilder.createJavaParameter(String.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getSeparator_id24lzbKWhznQ, generateCaptionWithSectionPrefix_id24lzbKWiSKe);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getSeparator_id24lzbKWhznQ, generateCaptionWithSectionPrefix_id24lzbKWiSKe);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getSeparator_id24lzbKWhznQ(@NotNull SAbstractConcept __thisConcept__) {
     return ":";
@@ -40,10 +37,6 @@ public final class SectionAnnotation__BehaviorDescriptor extends BaseBHDescripto
   /*package*/ SectionAnnotation__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

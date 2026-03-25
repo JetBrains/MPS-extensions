@@ -17,7 +17,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.baseLanguage.behavior.DotExpression__BehaviorDescriptor;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -30,10 +29,8 @@ public final class ReflectionMethodCall__BehaviorDescriptor extends BaseBHDescri
   public static final SMethod<SNode> getClassifier_id7moa1g0UGin = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getClassifier").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8473566765277430935L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
   public static final SMethod<SNode> getClassifierType_id7moa1g0UGiv = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getClassifierType").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8473566765277430943L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getMethodClass_id7moa1g0YNj_, getClassifier_id7moa1g0UGin, getClassifierType_id7moa1g0UGiv);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getMethodClass_id7moa1g0YNj_, getClassifier_id7moa1g0UGin, getClassifierType_id7moa1g0UGiv);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getMethodClass_id7moa1g0YNj_(@NotNull SNode __thisNode__) {
     return SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(__thisNode__, LINKS.baseMethodDeclaration$pyYw), CONCEPTS.Classifier$Ix, false, false);
@@ -48,10 +45,6 @@ public final class ReflectionMethodCall__BehaviorDescriptor extends BaseBHDescri
   /*package*/ ReflectionMethodCall__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

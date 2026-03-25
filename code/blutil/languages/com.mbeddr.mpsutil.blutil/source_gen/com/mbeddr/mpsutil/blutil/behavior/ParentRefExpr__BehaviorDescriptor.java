@@ -17,7 +17,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -29,10 +28,8 @@ public final class ParentRefExpr__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<SNode> getCorrespondingClause_id5yvl18N927u = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getCorrespondingClause").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6385915233778803166L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
   public static final SMethod<SNode> createNewCriterion_id5yvl18N9VBC = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("createNewCriterion").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6385915233779038696L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCorrespondingClause_id5yvl18N927u, createNewCriterion_id5yvl18N9VBC);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCorrespondingClause_id5yvl18N927u, createNewCriterion_id5yvl18N9VBC);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getCorrespondingClause_id5yvl18N927u(@NotNull SNode __thisNode__) {
     return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.MatchStatement$Mb, false, false), LINKS.clauses$uHv3)).findFirst((it) -> SNodeOperations.isInstanceOf(it, CONCEPTS.ParentRoleClause$Cx));
@@ -44,10 +41,6 @@ public final class ParentRefExpr__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ ParentRefExpr__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

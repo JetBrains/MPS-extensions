@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.editor.behavior.EditorCellModel__BehaviorDescriptor;
 import jetbrains.mps.typechecking.TypecheckingFacade;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -41,10 +40,8 @@ public final class CellModel_QueryList__BehaviorDescriptor extends BaseBHDescrip
   public static final SMethod<SNode> getConceptForInlineComponent_id6TSlAOGJCRe = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getConceptForInlineComponent").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7960207368279461326L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
   public static final SMethod<SNode> getLayout_iditlittTD4U = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getLayout").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(332515575062761786L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isVertical_idi2IdWzG, isVerticalGrid_idi2IfsZ1, isHorizontal_idi2IfsZo, isIndentLayout_idi0pB9jQ, isFoldingEnabled_id3ZqNA5Aj2vG, isVerticalIndent_idi0tOX1j, getOpeningText_idhKxU$w9, getClosingText_idhKxUEwj, getActualElementsConcept_idC$q8A2yBFT, getConceptForInlineComponent_id6TSlAOGJCRe, getLayout_iditlittTD4U);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isVertical_idi2IdWzG, isVerticalGrid_idi2IfsZ1, isHorizontal_idi2IfsZo, isIndentLayout_idi0pB9jQ, isFoldingEnabled_id3ZqNA5Aj2vG, isVerticalIndent_idi0tOX1j, getOpeningText_idhKxU$w9, getClosingText_idhKxUEwj, getActualElementsConcept_idC$q8A2yBFT, getConceptForInlineComponent_id6TSlAOGJCRe, getLayout_iditlittTD4U);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean isVertical_idi2IdWzG(@NotNull SNode __thisNode__) {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(__thisNode__, LINKS.cellLayout$2Ban), CONCEPTS.CellLayout_Vertical$Fs);
@@ -112,10 +109,6 @@ public final class CellModel_QueryList__BehaviorDescriptor extends BaseBHDescrip
   /*package*/ CellModel_QueryList__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

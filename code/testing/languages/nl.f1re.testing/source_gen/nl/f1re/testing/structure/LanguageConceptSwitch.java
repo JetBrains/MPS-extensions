@@ -11,10 +11,12 @@ import org.jetbrains.annotations.Nullable;
 
 public final class LanguageConceptSwitch implements ConceptIndex {
   private final LanguageConceptIndex myIndex;
-  public static final int FileNodeEditorExpression = 0;
+  public static final int EditorTestLifecycleMethods = 0;
+  public static final int FileNodeEditorExpression = 1;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x953e4089c643455bL, 0x8629636de7085d1cL);
+    builder.put(0x1c7d44aa128f6ec2L, EditorTestLifecycleMethods);
     builder.put(0x2923b546f4764a73L, FileNodeEditorExpression);
     myIndex = builder.seal();
   }

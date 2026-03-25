@@ -50,7 +50,7 @@ public class JavaToText extends PFModule {
     }
   }).invoke();
   private JavaToText() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -77,7 +77,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaClassToFile", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaClassToFile", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ClassConcept$bK)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -138,7 +138,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Null());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -179,7 +179,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ClassConcept$bK)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -356,7 +356,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.FieldDeclaration$ie)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -492,7 +492,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.InstanceMethodDeclaration$39)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -687,7 +687,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.StatementList$m_)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -748,7 +748,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.PrimitiveType$sR)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -802,7 +802,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.StringType$uX)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -856,7 +856,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ExpressionStatement$O8)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -928,7 +928,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.AssignmentExpression$SE)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1007,7 +1007,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.DotExpression$yW)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1086,7 +1086,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.VariableReference$TC)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1140,7 +1140,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ThisExpression$$o)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1194,7 +1194,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.FieldReferenceOperation$fU)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1248,7 +1248,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ClassifierType$bL)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1302,7 +1302,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ReturnStatement$lt)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1393,7 +1393,7 @@ public class JavaToText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Visibility$el)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

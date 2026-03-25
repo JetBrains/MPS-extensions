@@ -209,7 +209,7 @@ public class TableActions {
         return false;
       }
 
-      PasteNodeData pasteNodeData = CopyPasteUtil.getPasteNodeDataFromClipboard(getEditorCell().getSNode().getModel());
+      PasteNodeData pasteNodeData = CopyPasteUtil.getPasteNodeData();
       List<SNode> nodesToPaste = pasteNodeData.getNodes();
       SAbstractConcept targetConcept = SNodeOperations.getContainingLink(nodeOfRow).getTargetConcept();
       for (SNode nodeToPaste : ListSequence.fromList(nodesToPaste)) {
@@ -225,7 +225,7 @@ public class TableActions {
         return;
       }
 
-      PasteNodeData pasteNodeData = CopyPasteUtil.getPasteNodeDataFromClipboard(getEditorCell().getSNode().getModel());
+      PasteNodeData pasteNodeData = CopyPasteUtil.getPasteNodeData();
       List<SNode> nodesToPaste = pasteNodeData.getNodes();
       if (!(leftSide)) {
         nodesToPaste = ListSequence.fromList(nodesToPaste).reversedList();

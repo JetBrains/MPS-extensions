@@ -6,5 +6,5 @@ import javax.swing.Icon;
 import jetbrains.mps.ide.icons.IconLoadingUtil;
 
 public class IconContainer {
-  protected static Icon ICON_a0 = IconLoadingUtil.loadIcon("erDiagram.svg", IconContainer.class);
+  protected static Icon ICON0 = IconLoadingUtil.loadIcon("/icons/erDiagram.svg", IconContainer.class);
 }

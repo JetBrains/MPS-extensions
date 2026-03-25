@@ -64,17 +64,29 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.setGridLayout(true);
+    editorCell.addEditorCell(createComponent_0());
     editorCell.addEditorCell(createConstant_0());
+    editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createCollection_1());
     editorCell.addEditorCell(createCollection_2());
     editorCell.addEditorCell(createCollection_3());
     editorCell.addEditorCell(createCollection_4());
-    editorCell.addEditorCell(createComponent_0());
+    editorCell.addEditorCell(createComponent_1());
+    return editorCell;
+  }
+  private EditorCell createComponent_0() {
+    EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "jetbrains.mps.lang.editor.editor._CellModel_Common");
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Side transformation (both sides) cell:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
     editorCell.setCellId("Constant_k4grt3_0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_1() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Side transformation (both sides) cell:");
+    editorCell.setCellId("Constant_k4grt3_1");
     Style style = new StyleImpl();
     new headerStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -88,13 +100,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_1());
+    editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createRefNode_0());
     return editorCell;
   }
-  private EditorCell createConstant_1() {
+  private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "matching text:");
-    editorCell.setCellId("Constant_k4grt3_1");
+    editorCell.setCellId("Constant_k4grt3_2");
     Style style = new StyleImpl();
     new propertyStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -102,14 +114,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new matchingTextSingleRoleHandler_k4grt3_b1a(myNode, LINKS.matchingText$l7YB, getEditorContext());
+    SingleRoleCellProvider provider = new matchingTextSingleRoleHandler_k4grt3_b3a(myNode, LINKS.matchingText$l7YB, getEditorContext());
     return provider.createCell();
   }
-  private static class matchingTextSingleRoleHandler_k4grt3_b1a extends SingleRoleCellProvider {
+  private static class matchingTextSingleRoleHandler_k4grt3_b3a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public matchingTextSingleRoleHandler_k4grt3_b1a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public matchingTextSingleRoleHandler_k4grt3_b3a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -163,13 +175,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_2());
+    editorCell.addEditorCell(createConstant_3());
     editorCell.addEditorCell(createProperty_0());
     return editorCell;
   }
-  private EditorCell createConstant_2() {
+  private EditorCell createConstant_3() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "show multiple entries:");
-    editorCell.setCellId("Constant_k4grt3_2");
+    editorCell.setCellId("Constant_k4grt3_3");
     Style style = new StyleImpl();
     new propertyStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -204,13 +216,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_3());
+    editorCell.addEditorCell(createConstant_4());
     editorCell.addEditorCell(createRefNode_1());
     return editorCell;
   }
-  private EditorCell createConstant_3() {
+  private EditorCell createConstant_4() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "is applicable:");
-    editorCell.setCellId("Constant_k4grt3_3");
+    editorCell.setCellId("Constant_k4grt3_4");
     Style style = new StyleImpl();
     new propertyStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -218,14 +230,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new isApplicableSingleRoleHandler_k4grt3_b3a(myNode, LINKS.isApplicable$l7JA, getEditorContext());
+    SingleRoleCellProvider provider = new isApplicableSingleRoleHandler_k4grt3_b5a(myNode, LINKS.isApplicable$l7JA, getEditorContext());
     return provider.createCell();
   }
-  private static class isApplicableSingleRoleHandler_k4grt3_b3a extends SingleRoleCellProvider {
+  private static class isApplicableSingleRoleHandler_k4grt3_b5a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public isApplicableSingleRoleHandler_k4grt3_b3a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public isApplicableSingleRoleHandler_k4grt3_b5a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -279,13 +291,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_4());
+    editorCell.addEditorCell(createConstant_5());
     editorCell.addEditorCell(createRefNode_2());
     return editorCell;
   }
-  private EditorCell createConstant_4() {
+  private EditorCell createConstant_5() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "execute:");
-    editorCell.setCellId("Constant_k4grt3_4");
+    editorCell.setCellId("Constant_k4grt3_5");
     Style style = new StyleImpl();
     new propertyStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -293,14 +305,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createRefNode_2() {
-    SingleRoleCellProvider provider = new executeSingleRoleHandler_k4grt3_b4a(myNode, LINKS.execute$l8dC, getEditorContext());
+    SingleRoleCellProvider provider = new executeSingleRoleHandler_k4grt3_b6a(myNode, LINKS.execute$l8dC, getEditorContext());
     return provider.createCell();
   }
-  private static class executeSingleRoleHandler_k4grt3_b4a extends SingleRoleCellProvider {
+  private static class executeSingleRoleHandler_k4grt3_b6a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public executeSingleRoleHandler_k4grt3_b4a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public executeSingleRoleHandler_k4grt3_b6a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -347,7 +359,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return "<no execute>";
     }
   }
-  private EditorCell createComponent_0() {
+  private EditorCell createComponent_1() {
     EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "com.mbeddr.mpsutil.grammarcells.editor.DescriptionText");
     return editorCell;
   }

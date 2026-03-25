@@ -16,7 +16,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class MyAction_Action extends BaseAction {
-  private static final Icon ICON = IconContainer.ICON_a0;
+  private static final Icon ICON = IconContainer.ICON0;
 
   public MyAction_Action() {
     super("MyGroup: My Action", "", ICON);

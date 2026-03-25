@@ -38,11 +38,11 @@ public class SM_ShadowModel extends EditableModelDescriptor implements EditableS
   public <T> void putUserObject(UserObjectKey<T> key, T value) {
     userObjects = userObjects.put(key, value);
   }
-  @Override
   public void updateTimestamp() {
+    // to be removed
   }
-  @Override
   public boolean needsReloading() {
+    // to be removed
     return false;
   }
   @NotNull
@@ -65,16 +65,16 @@ public class SM_ShadowModel extends EditableModelDescriptor implements EditableS
   @Override
   public void save() {
   }
-  @Override
   public void rename(String newModelName, boolean changeFile) {
+    // to be removed
     throw new UnsupportedOperationException();
   }
   @Override
   public boolean isReadOnly() {
     return myReadOnly;
   }
-  @Override
   public void reloadFromSource() {
+    // to be removed
     throw new UnsupportedOperationException();
   }
   private static SModelReference createModelRef(String modelName, SModuleReference moduleReference) {

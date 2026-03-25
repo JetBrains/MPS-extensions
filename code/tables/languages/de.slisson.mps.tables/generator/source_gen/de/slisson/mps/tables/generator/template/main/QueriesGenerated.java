@@ -35,6 +35,7 @@ import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 import jetbrains.mps.smodel.SNodePointer;
+import jetbrains.mps.textgen.trace.TracingUtil;
 import java.util.Map;
 import jetbrains.mps.generator.impl.query.ReductionRuleCondition;
 import java.util.HashMap;
@@ -730,7 +731,7 @@ public class QueriesGenerated extends QueryProviderBase {
       if (tableSelectionActionMap.value == null) {
         tableSelectionActionMap.value = createCellActionMapDeclaration_x583g4_a0a0a0a0a2a312();
         SNode templateCellActionMap = SPointerOperations.resolveNode(new SNodePointer("r:1e59a084-7ebe-4e95-89ab-c58a7e396583(de.slisson.mps.tables.editor)", "1206675692270895979"), _context.getOriginalInputModel().getRepository());
-        ListSequence.fromList(SLinkOperations.getChildren(tableSelectionActionMap.value, LINKS.item$ZCi9)).addSequence(ListSequence.fromList(SLinkOperations.getChildren(templateCellActionMap, LINKS.item$ZCi9)).select((it) -> SNodeOperations.copyNode(it)));
+        ListSequence.fromList(SLinkOperations.getChildren(tableSelectionActionMap.value, LINKS.item$ZCi9)).addSequence(ListSequence.fromList(SLinkOperations.getChildren(templateCellActionMap, LINKS.item$ZCi9)).select((it) -> TracingUtil.copyWithTrace(it)));
         SModelOperations.addRootNode(_context.getModel(), tableSelectionActionMap.value);
       }
       SLinkOperations.setTarget(table, LINKS.actionMap$oNO2, tableSelectionActionMap.value);

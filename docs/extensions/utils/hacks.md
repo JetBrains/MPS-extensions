@@ -30,8 +30,3 @@ and private modifier.
 Always try to find a public API before using this language. When using internal fields or methods, there's always the possibility 
 that the code will break in the feature because the class design changed. It was initially developed to overcome some 
 limitations in MPS.
-
-
-## XModelGen (deprecated/not working anymore)
-
-This language added the ability to add mapping configuration steps to [generator plans](https://www.jetbrains.com/help/mps/generation-plan.html).

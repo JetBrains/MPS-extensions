@@ -2312,8 +2312,8 @@
       <node id="4225291329823326325" at="63,40,64,46" concept="11" />
       <node id="6924152597359506987" at="68,46,69,133" concept="10" />
       <node id="6924152597359682580" at="69,133,70,170" concept="11" />
-      <node id="1600444176584358478" at="75,40,76,91" concept="10" />
-      <node id="2410790284600972378" at="77,46,78,76" concept="11" />
+      <node id="1600444176584358478" at="76,46,77,93" concept="10" />
+      <node id="2410790284600972378" at="77,93,78,76" concept="11" />
       <node id="2410790284600878369" at="79,14,80,35" concept="11" />
       <node id="8360281570504121604" at="87,38,88,39" concept="11" />
       <node id="2410790284601044016" at="89,7,90,73" concept="11" />
@@ -2471,7 +2471,6 @@
       <node id="2993311105677670941" at="337,79,341,7" concept="8" />
       <node id="474657388639413945" at="56,0,61,0" concept="14" trace="nameAccessor" />
       <node id="4225291329823326311" at="62,0,67,0" concept="14" trace="idAccessor" />
-      <node id="2410790284600831626" at="76,91,81,7" concept="8" />
       <node id="4814106106772182688" at="102,0,107,0" concept="9" trace="get#(Lorg/jetbrains/mps/openapi/module/SModule;)Ljava/lang/Iterable;" />
       <node id="8438396892798346082" at="149,77,154,7" concept="7" />
       <node id="2410790284604562068" at="156,5,161,5" concept="7" />
@@ -2485,10 +2484,11 @@
       <node id="8958347146612107207" at="313,35,318,7" concept="7" />
       <node id="5631396815782199766" at="346,75,351,7" concept="8" />
       <node id="6924152597359383653" at="67,0,73,0" concept="14" trace="virtualFolderAccessor" />
+      <node id="2410790284600831626" at="75,40,81,7" concept="8" />
       <node id="4814106106772133551" at="86,0,92,0" concept="9" trace="get#(Lorg/jetbrains/mps/openapi/module/SModule;)Ljava/lang/String;" />
       <node id="474657388639297839" at="94,0,100,0" concept="14" trace="modelsAccessor" />
       <node id="2993311105677853022" at="372,0,378,0" concept="9" trace="hashCode#()I" />
-      <node id="1600444176584389683" at="379,0,385,0" concept="15" trace="check_jbj149_a0a0b0a0a0h#(Ljetbrains/mps/project/structure/modules/ModuleDescriptor;)I" />
+      <node id="1600444176584389683" at="379,0,385,0" concept="15" trace="check_jbj149_a0b0a0a0a0h#(Ljetbrains/mps/project/structure/modules/ModuleDescriptor;)I" />
       <node id="4814106106772182680" at="101,0,108,0" concept="14" trace="facetsAccessor" />
       <node id="474657388639291916" at="253,0,260,0" concept="9" trace="getParent#()Lorg/modelix/model/api/INode;" />
       <node id="474657388639291949" at="261,0,268,0" concept="9" trace="getRoleInParent#()Ljava/lang/String;" />
@@ -2517,7 +2517,6 @@
       <scope id="8226136427470636750" at="52,54,53,73" />
       <scope id="474657388639413958" at="57,40,58,37" />
       <scope id="4225291329823326324" at="63,40,64,46" />
-      <scope id="2410790284600831628" at="77,46,78,76" />
       <scope id="2410790284600873882" at="79,14,80,35" />
       <scope id="8360281570504057312" at="87,38,88,39" />
       <scope id="2410790284601545413" at="111,48,112,69" />
@@ -2566,6 +2565,9 @@
       <scope id="1600444176584389683" at="380,36,381,50" />
       <scope id="6924152597359383666" at="68,46,70,170">
         <var name="projects" id="6924152597359506988" />
+      </scope>
+      <scope id="2410790284600831628" at="76,46,78,76">
+        <var name="moduleDescriptor" id="1600444176584358479" />
       </scope>
       <scope id="474657388639297853" at="95,48,97,80">
         <var name="models" id="474657388639297855" />
@@ -2660,9 +2662,7 @@
       <scope id="8958347146612107207" at="313,35,318,7">
         <var name="devKit" id="8958347146612107209" />
       </scope>
-      <scope id="4814106106772120107" at="75,40,81,7">
-        <var name="moduleDescriptor" id="1600444176584358479" />
-      </scope>
+      <scope id="4814106106772120107" at="75,40,81,7" />
       <scope id="4814106106772133551" at="86,0,92,0">
         <var name="element" id="4814106106772133552" />
       </scope>

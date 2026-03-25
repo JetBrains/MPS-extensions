@@ -90,7 +90,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
     }
   }).invoke();
   private TraceBuilders_ShadowModels() {
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ForkExplorerRoot.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -124,7 +124,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SNode.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -248,7 +248,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SReference.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -285,7 +285,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(INode.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -316,7 +316,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(TransformationResult.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -350,7 +350,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(MappingLabelCall.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -384,7 +384,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(MissingSNode.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -417,7 +417,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(DependencyKey.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -452,7 +452,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SM_GeneratedTransformationRule.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -490,7 +490,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ISubgraphRef.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -552,7 +552,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SubgraphStage.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -691,7 +691,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ReferenceTargetInParentSubgraph.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -724,7 +724,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ContainmentInSubgraphRefTarget.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -758,7 +758,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(RewriteCall.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -791,7 +791,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ForkCall.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -828,7 +828,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ParameterList.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -863,7 +863,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(DependencyTrackingNode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -893,7 +893,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(INode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -923,7 +923,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SNode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -966,7 +966,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(MappingLabelCall.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -996,7 +996,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SReference.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1026,7 +1026,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SReferenceLink.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1056,7 +1056,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(RewriteCall.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1086,7 +1086,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shorterName", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shorterName", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(String.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1116,7 +1116,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shorterName", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shorterName", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(String.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1155,7 +1155,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
       }
     });
     addPriorityRule(new GroupPriorityRule(new SingleImplementationPriorityGroup("de.q60.mps.shadowmodels.debugview.pf/TraceBuilders_ShadowModels/shorterName_28"), new SingleImplementationPriorityGroup("de.q60.mps.shadowmodels.debugview.pf/TraceBuilders_ShadowModels/shorterName_27")));
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(String.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1185,7 +1185,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ISubgraphStage.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1215,7 +1215,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SubstepStageReference.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1245,7 +1245,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ILazyStageRef.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1275,7 +1275,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ChildSubgraphRef.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1305,7 +1305,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(IUniqueContainmentTarget.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1335,7 +1335,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ForkCall.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1365,7 +1365,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(GoalCall.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1395,7 +1395,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ParameterList.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1425,7 +1425,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(INode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1456,7 +1456,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(TransformationCall.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1486,7 +1486,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(DependencyTrackingNode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1516,7 +1516,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ContainmentTargetRootNodes.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1546,7 +1546,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ResultElementOutputNodeReference_Id.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1576,7 +1576,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(NamedScope.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.shortToString");
@@ -1606,7 +1606,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SubstepStageReference.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.mainView");

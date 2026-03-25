@@ -9,6 +9,8 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.baseLanguage.logging.rt.LogContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
@@ -46,9 +48,16 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createSplittableCell_0());
+    if (nodeCondition_fgt3_a1a()) {
+      editorCell.addEditorCell(createSplittableCell_0());
+    }
     editorCell.addEditorCell(createConstant_1());
     return editorCell;
+  }
+  private boolean nodeCondition_fgt3_a1a() {
+    LogContext.with(StringLiteral_EditorBuilder_a.class, null, null, null).debug("EditorContext" + getEditorContext());
+    LogContext.with(StringLiteral_EditorBuilder_a.class, null, null, null).debug("Node:" + SNodeOperations.present(myNode));
+    return true;
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "\"");

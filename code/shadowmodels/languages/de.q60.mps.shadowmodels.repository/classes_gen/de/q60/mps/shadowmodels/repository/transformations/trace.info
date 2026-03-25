@@ -145,8 +145,8 @@
       <unit id="6951066303471256789" at="92,137,96,19" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$2$1$1$1" />
       <unit id="9192345617660067019" at="90,48,98,15" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$2$1$1" />
       <unit id="9192345617660065997" at="85,19,101,9" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$2$1" />
-      <unit id="9192345617660065997" at="43,133,69,5" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$1" />
-      <unit id="9192345617660065997" at="70,112,115,5" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$2" />
+      <unit id="9192345617660065997" at="43,129,69,5" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$1" />
+      <unit id="9192345617660065997" at="70,108,115,5" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository$2" />
       <unit id="9192345617660065997" at="30,0,122,0" name="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository" />
     </file>
   </root>

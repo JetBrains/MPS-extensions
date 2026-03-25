@@ -16,6 +16,7 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.openapi.editor.EditorComponent;
+import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.project.Project;
 import jetbrains.mps.openapi.navigation.NavigationSupport;
 import jetbrains.mps.internal.collections.runtime.NotNullWhereFilter;
@@ -123,8 +124,8 @@ __switch__:
     return SLinkOperations.getTargetNode(SNodeOperations.getReference(nodeForRefCell, refCellLink));
   }
 
-  public static EditorComponent openEditorComponentForNode(SNode node, Project project) {
-    if (SNodeOperations.getModel(node) != null) {
+  public static EditorComponent openEditorComponentForNode(@Nullable SNode node, Project project) {
+    if (node != null && SNodeOperations.getModel(node) != null) {
       return check_eu2c9k_a0a0a11(NavigationSupport.getInstance(project).openNode(project, node, true, true));
     }
     return null;

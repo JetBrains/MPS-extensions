@@ -551,7 +551,7 @@ public class RichtextSelection extends AbstractSelection {
     if (isReadOnly()) {
       return;
     }
-    List<SNode> nodesFromClipboard = CopyPasteUtil.getNodesFromClipboard(myStartCell.getSNode().getModel());
+    List<SNode> nodesFromClipboard = CopyPasteUtil.getNodesFromClipboard();
     List<SNode> wordsFromClipboard = Sequence.fromIterable(SNodeOperations.ofConcept(nodesFromClipboard, CONCEPTS.IWord$8d)).toList();
     if (ListSequence.fromList(wordsFromClipboard).isNotEmpty()) {
       replaceSelected(wordsFromClipboard);

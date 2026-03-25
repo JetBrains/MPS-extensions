@@ -12,7 +12,7 @@
       <unit at="11,0,39,0" name="de.itemis.mps.editor.pagination.demolang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="IconContainer.java">
-      <unit at="7,0,10,0" name="de.itemis.mps.editor.pagination.demolang.structure.IconContainer" />
+      <unit at="8,0,12,0" name="de.itemis.mps.editor.pagination.demolang.structure.IconContainer" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <unit at="10,0,30,0" name="de.itemis.mps.editor.pagination.demolang.structure.LanguageConceptSwitch" />
@@ -26,8 +26,8 @@
       <node id="2646108724982184770" at="13,0,14,0" concept="1" trace="props_Test" />
       <node id="2646108724982184770" at="28,33,29,76" concept="3" />
       <node id="2646108724982184770" at="29,76,30,35" concept="0" />
-      <node id="2646108724982184770" at="30,35,31,55" concept="0" />
-      <node id="2646108724982184770" at="31,55,32,36" concept="0" />
+      <node id="2646108724982184770" at="30,35,31,45" concept="0" />
+      <node id="2646108724982184770" at="31,45,32,36" concept="0" />
       <node id="2646108724982184770" at="33,9,34,26" concept="4" />
       <node id="2646108724982184770" at="27,38,33,9" concept="2" />
       <scope id="2646108724982184770" at="28,33,32,36">

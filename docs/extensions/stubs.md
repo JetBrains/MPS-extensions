@@ -34,3 +34,13 @@ This module contains the following libraries:
 
 - [JDOM](http://www.jdom.org/) XML manipulation library
 - [jaxen](https://github.com/jaxen-xpath/jaxen) Jaxen XPath Engine library
+
+## Apache Batik
+
+- [Apache™ Batik SVG Toolkit](https://xmlgraphics.apache.org/batik/) library for working with SVG files
+- [Apache™ XML Graphics](https://xmlgraphics.apache.org/) library for conversion of XML formats to graphical output
+
+# Xerces
+
+- [xerces](https://xerces.apache.org/xerces2-j/) XML parsers
+- [xml-apis-ext](http://xml.apache.org/commons/components/external/) Apache-hosted set of DOM, SAX, and JAXP interfaces for use in xml-based projects

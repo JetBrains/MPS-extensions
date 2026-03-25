@@ -35,10 +35,12 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
       case 3:
         return Collections.<ConceptEditor>singletonList(new ConditionalEditor_conditionalEditor_Editor_ConditionalEditor());
       case 4:
-        return Arrays.asList(new ConceptEditor[]{new NodeWithToolTip_Editor(), new NodeWithToolTip_tooltipHint_vfxqrs_a_Editor()});
+        return Collections.<ConceptEditor>singletonList(new LifecycleTesting_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new Readme_Editor());
+        return Arrays.asList(new ConceptEditor[]{new NodeWithToolTip_Editor(), new NodeWithToolTip_tooltipHint_vfxqrs_a_Editor()});
       case 6:
+        return Collections.<ConceptEditor>singletonList(new Readme_Editor());
+      case 7:
         return Collections.<ConceptEditor>singletonList(new SlowEditor_Editor());
       default:
     }
@@ -59,5 +61,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
     return Arrays.asList(new EditorMenuItemCustomizer[]{new CompletionStyling()});
   }
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x4b37595bbfd429c3L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x5891a3928a6a1274L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x5891a3928a6a1268L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x1c4cfe74f5a5b0d0L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x2923b546f4940a87L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x2923b546f48ee03aL), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x5e64d3931d4923d4L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x4b37595bbfd429c3L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x5891a3928a6a1274L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x5891a3928a6a1268L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x1c4cfe74f5a5b0d0L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x448ed3c5ec0ad179L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x2923b546f4940a87L), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x2923b546f48ee03aL), MetaIdFactory.conceptId(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x5e64d3931d4923d4L)).seal();
 }

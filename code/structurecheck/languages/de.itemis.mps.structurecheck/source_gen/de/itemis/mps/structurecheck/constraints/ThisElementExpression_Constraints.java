@@ -30,7 +30,7 @@ public class ThisElementExpression_Constraints extends BaseConstraintsDescriptor
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -40,7 +40,7 @@ public class ThisElementExpression_Constraints extends BaseConstraintsDescriptor
   private static boolean staticCanBeAnAncestor(SNode node, SNode childNode, SAbstractConcept childConcept, SNode parentNode, SContainmentLink link) {
     return SNodeOperations.isInstanceOf(node, CONCEPTS.IThisElementScope$LE);
   }
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("r:98b04f19-6586-408f-8c35-ee3544c2f854(de.itemis.mps.structurecheck.constraints)", "380240910834624297");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("r:98b04f19-6586-408f-8c35-ee3544c2f854(de.itemis.mps.structurecheck.constraints)", "380240910834624297");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept ThisElementExpression$2G = MetaAdapterFactory.getConcept(0xc6cfed73685b4891L, 0x8bddb38a1dcb107aL, 0x546e318035e1524L, "de.itemis.mps.structurecheck.structure.ThisElementExpression");

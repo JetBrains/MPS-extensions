@@ -29,7 +29,7 @@ public class EditorComponentReference_Constraints extends BaseConstraintsDescrip
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -39,7 +39,7 @@ public class EditorComponentReference_Constraints extends BaseConstraintsDescrip
   private static boolean staticCanBeAnAncestor(SNode node, SNode childNode, SAbstractConcept childConcept, SNode parentNode, SContainmentLink link) {
     return (SNodeOperations.getNodeAncestor(parentNode, CONCEPTS.Command$6M, true, false) != null);
   }
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("r:ab4bf323-79eb-4409-abf7-c3cc613fabf7(de.itemis.mps.debug.constraints)", "8745606771045591718");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("r:ab4bf323-79eb-4409-abf7-c3cc613fabf7(de.itemis.mps.debug.constraints)", "8745606771045591718");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept EditorComponentReference$uw = MetaAdapterFactory.getConcept(0xf7e353e6c7a84110L, 0xa2631a2503e8b13cL, 0x795ea305a55cc646L, "de.itemis.mps.debug.structure.EditorComponentReference");

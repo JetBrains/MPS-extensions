@@ -13,9 +13,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
-        <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
-      </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
         <property id="1225118933224" name="comment" index="YLQ7P" />
       </concept>
@@ -81,13 +78,6 @@
       <property role="TrG5h" value="separatorLayoutConstraint" />
       <property role="IQ2nx" value="1156252885376" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BF9A" resolve="_Layout_Constraints_Enum" />
-      <node concept="3l_iC" id="17qUVvSZm9b" role="lGtFl">
-        <node concept="1TJgyi" id="gOQ2I60" role="3l_iP">
-          <property role="TrG5h" value="separatorLayoutConstraint" />
-          <property role="IQ2nx" value="1156252885376" />
-          <ref role="AX2Wp" to="tpc2:g$1Qttv" resolve="_Layout_Constraints_Enum" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyi" id="g_$x2vM" role="1TKVEl">
       <property role="TrG5h" value="noTargetText" />
@@ -359,13 +349,6 @@
       <property role="TrG5h" value="separatorLayoutConstraint" />
       <property role="IQ2nx" value="147976780035763509" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BF9A" resolve="_Layout_Constraints_Enum" />
-      <node concept="3l_iC" id="17qUVvSZm9d" role="lGtFl">
-        <node concept="1TJgyi" id="8dI1zL2qOP" role="3l_iP">
-          <property role="TrG5h" value="separatorLayoutConstraint" />
-          <property role="IQ2nx" value="147976780035763509" />
-          <ref role="AX2Wp" to="tpc2:g$1Qttv" resolve="_Layout_Constraints_Enum" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyi" id="8dI1zL2ebE" role="1TKVEl">
       <property role="TrG5h" value="separatorText" />

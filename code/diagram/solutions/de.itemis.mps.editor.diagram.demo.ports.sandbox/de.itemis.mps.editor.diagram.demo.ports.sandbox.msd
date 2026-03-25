@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.mps.editor.diagram.demo.ports.sandbox" uuid="21eb39a0-92ce-4579-bec6-e6bc19c65bee" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>

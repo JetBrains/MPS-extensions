@@ -20,7 +20,7 @@
       <node id="6193633844718722225" at="32,46,33,45" concept="9" />
       <node id="6193633844718722225" at="40,130,41,161" concept="4" />
       <node id="6193633844718722225" at="41,161,42,0" concept="6" />
-      <node id="6193633844718722225" at="43,55,44,70" concept="1" />
+      <node id="6193633844718722225" at="43,55,44,74" concept="1" />
       <node id="6193633844718722225" at="45,9,46,0" concept="6" />
       <node id="6193633844718722225" at="46,0,47,22" concept="5" />
       <node id="6193633844718722790" at="59,63,60,143" concept="5" />
@@ -29,7 +29,7 @@
       <node id="6193633844718722790" at="69,131,70,42" concept="1" />
       <node id="6193633844718722225" at="70,42,71,22" concept="5" />
       <node id="6193633844718726963" at="73,149,74,106" concept="5" />
-      <node id="6193633844718722225" at="76,0,77,0" concept="7" trace="canBeRootBreakingPoint" />
+      <node id="6193633844718722225" at="76,0,77,0" concept="7" trace="canBeAncestorBreakingPoint" />
       <node id="6193633844718722225" at="79,0,80,0" concept="7" trace="RichtextCellReference$Ye" />
       <node id="6193633844718722225" at="80,0,81,0" concept="7" trace="EditorTestCase$DN" />
       <node id="6193633844718722225" at="81,0,82,0" concept="7" trace="RichtextCellAnnotation$2h" />
@@ -48,7 +48,7 @@
       <node id="6193633844718722790" at="52,90,68,6" concept="4" />
       <node id="6193633844718722225" at="51,0,73,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
       <scope id="6193633844718722225" at="32,46,33,45" />
-      <scope id="6193633844718722225" at="43,55,44,70" />
+      <scope id="6193633844718722225" at="43,55,44,74" />
       <scope id="6193633844718722790" at="59,63,60,143" />
       <scope id="6193633844718722790" at="63,80,64,306" />
       <scope id="6193633844718726147" at="73,149,74,106" />

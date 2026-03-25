@@ -35,7 +35,7 @@ public class genplanDemo extends PFModule {
     }
   }).invoke();
   private genplanDemo() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -62,7 +62,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g1", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g1", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(INode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -92,7 +92,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(INode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -122,7 +122,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.mc1a", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.mc1a", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -150,7 +150,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.mc1b", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.mc1b", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -178,7 +178,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.mc2a", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.mc2a", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -206,7 +206,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g1/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g1/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -233,7 +233,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g1/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g1/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -260,7 +260,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g1/rules", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g1/rules", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -287,7 +287,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -314,7 +314,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2/rules", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2/rules", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -341,7 +341,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -368,7 +368,7 @@ public class genplanDemo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2/rules", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.genplanDemo.g2/rules", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

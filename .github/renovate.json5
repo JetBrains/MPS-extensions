@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices"
+  ],
+
+  "packageRules": [
+    {
+      "matchPackageNames": ["download-jbr:download-jbr.gradle.plugin", "de.itemis.mps.gradle.common:de.itemis.mps.gradle.common.gradle.plugin"],
+      "groupName": "mps-gradle-plugin",
+      "allowedVersions": "< 2.0"
+    },
+    {
+      "matchPackageNames": ["org.eclipse*"],
+      "groupName": "eclipse"
+    },
+  ]
+}

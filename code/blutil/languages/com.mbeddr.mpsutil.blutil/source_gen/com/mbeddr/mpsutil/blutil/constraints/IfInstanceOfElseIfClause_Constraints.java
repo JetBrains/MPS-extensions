@@ -30,7 +30,7 @@ public class IfInstanceOfElseIfClause_Constraints extends BaseConstraintsDescrip
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -50,7 +50,7 @@ public class IfInstanceOfElseIfClause_Constraints extends BaseConstraintsDescrip
 
     return true;
   }
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("63e0e566-5131-447e-90e3-12ea330e1a00/r:82b9f137-fccf-4edc-bb32-d0819019058c(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.constraints)", "8718469662516816947");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("63e0e566-5131-447e-90e3-12ea330e1a00/r:82b9f137-fccf-4edc-bb32-d0819019058c(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.constraints)", "8718469662516816947");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept IfInstanceOfElseIfClause$H = MetaAdapterFactory.getConcept(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78fe39f732c38192L, "com.mbeddr.mpsutil.blutil.structure.IfInstanceOfElseIfClause");

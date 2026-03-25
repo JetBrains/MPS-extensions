@@ -21,13 +21,13 @@
       <node id="1452226863087639364" at="22,65,23,64" concept="10" />
       <node id="1452226863087639364" at="30,130,31,161" concept="5" />
       <node id="1452226863087639364" at="31,161,32,0" concept="7" />
-      <node id="1452226863087639364" at="33,55,34,70" concept="1" />
+      <node id="1452226863087639364" at="33,55,34,74" concept="1" />
       <node id="1452226863087639364" at="35,9,36,0" concept="7" />
       <node id="1452226863087639364" at="36,0,37,22" concept="6" />
       <node id="1452226863087643921" at="42,54,43,121" concept="6" />
       <node id="1452226863087651359" at="44,5,45,0" concept="7" />
       <node id="1452226863087651833" at="45,0,46,16" concept="6" />
-      <node id="1452226863087639364" at="48,0,49,0" concept="8" trace="canBeRootBreakingPoint" />
+      <node id="1452226863087639364" at="48,0,49,0" concept="8" trace="canBeAncestorBreakingPoint" />
       <node id="1452226863087639364" at="51,0,52,0" concept="8" trace="EditorComponentDeclarationWithParameters$jH" />
       <node id="1452226863087639364" at="52,0,53,0" concept="8" trace="BaseVariableDeclaration$EA" />
       <node id="1452226863087639364" at="56,0,57,0" concept="8" trace="parameters$FQGb" />
@@ -39,7 +39,7 @@
       <node id="1452226863087639364" at="27,109,39,6" concept="6" />
       <node id="1452226863087639364" at="26,0,41,0" concept="4" trace="calculateCanBeAncestorConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
       <scope id="1452226863087639364" at="22,65,23,64" />
-      <scope id="1452226863087639364" at="33,55,34,70" />
+      <scope id="1452226863087639364" at="33,55,34,74" />
       <scope id="1452226863087640034" at="42,54,43,121" />
       <scope id="1452226863087639364" at="22,0,25,0" />
       <scope id="1452226863087683085" at="41,149,46,16" />
@@ -112,7 +112,7 @@
       <node id="6733065834258977625" at="32,58,33,57" concept="10" />
       <node id="6733065834258977625" at="40,130,41,161" concept="5" />
       <node id="6733065834258977625" at="41,161,42,0" concept="7" />
-      <node id="6733065834258977625" at="43,55,44,70" concept="1" />
+      <node id="6733065834258977625" at="43,55,44,74" concept="1" />
       <node id="6733065834258977625" at="45,9,46,0" concept="7" />
       <node id="6733065834258977625" at="46,0,47,22" concept="6" />
       <node id="6733065834258977626" at="59,63,60,147" concept="6" />
@@ -121,7 +121,7 @@
       <node id="6733065834258977626" at="69,131,70,42" concept="1" />
       <node id="6733065834258977625" at="70,42,71,22" concept="6" />
       <node id="6733065834258987963" at="73,149,74,132" concept="6" />
-      <node id="6733065834258977625" at="76,0,77,0" concept="8" trace="canBeRootBreakingPoint" />
+      <node id="6733065834258977625" at="76,0,77,0" concept="8" trace="canBeAncestorBreakingPoint" />
       <node id="6733065834258977625" at="79,0,80,0" concept="8" trace="EditorComponentParameterReference$yx" />
       <node id="6733065834258977625" at="80,0,81,0" concept="8" trace="EditorComponentDeclarationWithParameters$jH" />
       <node id="6733065834258977625" at="84,0,85,0" concept="8" trace="parameter$wuL6" />
@@ -139,7 +139,7 @@
       <node id="6733065834258977626" at="52,90,68,6" concept="5" />
       <node id="6733065834258977625" at="51,0,73,0" concept="4" trace="getSpecifiedReferences#()Ljava/util/Map;" />
       <scope id="6733065834258977625" at="32,58,33,57" />
-      <scope id="6733065834258977625" at="43,55,44,70" />
+      <scope id="6733065834258977625" at="43,55,44,74" />
       <scope id="6733065834258977626" at="59,63,60,147" />
       <scope id="6733065834258977626" at="63,80,64,225" />
       <scope id="6733065834258987671" at="73,149,74,132" />

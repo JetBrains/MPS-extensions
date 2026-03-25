@@ -74,7 +74,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForExpressionWithInspector() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.conditionalEditor.demolang", "ExpressionWithInspector", 0x1831633caea14345L, 0xbeff4a6e7fb4f813L, 0x638a5278b7474560L);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     // extends: jetbrains.mps.baseLanguage.structure.Expression
     b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
     b.origin("r:6c3a5ff5-b652-48a4-80a3-0e283d57df4d(de.slisson.mps.conditionalEditor.demolang.structure)/7172636034965390688");

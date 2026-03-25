@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:7d823865-c9a4-4a2a-b0ba-3cdc122aae1b(test.nl.f1re.mps.aliascustomization@tests)/2733183652715589193">
+    <file name="ChangedAlias_Test.java">
+      <node id="2733183652715589193" at="23,30,24,60" concept="7" />
+      <node id="2733183652715637927" at="28,52,29,43" concept="1" />
+      <node id="2733183652715589193" at="34,52,35,19" concept="7" />
+      <node id="2733183652715589193" at="39,36,40,46" concept="1" />
+      <node id="2733183652715637927" at="43,54,44,22" concept="1" />
+      <node id="8384134007607425440" at="45,30,46,93" concept="5" />
+      <node id="8384134007607424974" at="47,66,48,17" concept="4" />
+      <node id="2733183652718833493" at="49,9,50,143" concept="1" />
+      <node id="2733183652715589193" at="20,0,22,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="2733183652715589193" at="23,0,26,0" concept="0" trace="ChangedAlias_Test#()V" />
+      <node id="2733183652715589193" at="34,0,37,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8384134007607226228" at="46,93,49,9" concept="2" />
+      <node id="2733183652715637927" at="27,0,31,0" concept="3" trace="test_correctAlias#()V" />
+      <node id="2733183652715589193" at="38,0,42,0" concept="3" trace="initTestNodes#()V" />
+      <node id="2733183652715637927" at="44,22,51,9" concept="1" />
+      <node id="2733183652715637927" at="43,0,53,0" concept="3" trace="test_correctAlias#()V" />
+      <scope id="2733183652715589193" at="23,30,24,60" />
+      <scope id="2733183652715637927" at="28,52,29,43" />
+      <scope id="2733183652715589193" at="34,52,35,19" />
+      <scope id="2733183652715589193" at="39,36,40,46" />
+      <scope id="8384134007607226230" at="47,66,48,17" />
+      <scope id="2733183652715589193" at="23,0,26,0" />
+      <scope id="2733183652715589193" at="34,0,37,0">
+        <var name="owner" id="2733183652715589193" />
+      </scope>
+      <scope id="2733183652715637927" at="27,0,31,0" />
+      <scope id="2733183652715589193" at="38,0,42,0" />
+      <scope id="2733183652715637927" at="45,30,50,143" />
+      <scope id="2733183652715637927" at="43,54,51,9" />
+      <scope id="2733183652715637927" at="43,0,53,0" />
+      <unit id="2733183652715589193" at="32,0,55,0" name="test.nl.f1re.mps.aliascustomization.ChangedAlias_Test$TestBody" />
+      <unit id="2733183652715589193" at="18,0,56,0" name="test.nl.f1re.mps.aliascustomization.ChangedAlias_Test" />
+    </file>
+  </root>
+</debug-info>
+

@@ -24,8 +24,8 @@ public class SplittablePropertyCellProvider extends PropertyCellProvider {
   @Override
   public EditorCell createEditorCell(EditorContext context) {
     myReadOnly |= getSNode().getModel() == null;
-    PropertyAccessor propertyAccessor = new PropertyAccessor(getSNode(), getProperty(), myReadOnly, myAllowsEmptyTarget, context);
-    SplittablePropertCell editorCell = SplittablePropertCell.create(context, propertyAccessor, getSNode(), myTokenizer);
+    PropertyAccessor propertyAccessor = createModelAccessor();
+    SplittablePropertyCell editorCell = SplittablePropertyCell.create(context, propertyAccessor, getSNode(), myTokenizer);
     editorCell.setDefaultText(myNoTargetText);
     if (!(myReadOnly)) {
       editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(getSNode(), getProperty()));
@@ -35,5 +35,9 @@ public class SplittablePropertyCellProvider extends PropertyCellProvider {
       editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteEasily(getSNode()));
     }
     return editorCell;
+  }
+
+  protected PropertyAccessor createModelAccessor() {
+    return new PropertyAccessor(getSNode(), getProperty(), myReadOnly, myAllowsEmptyTarget);
   }
 }

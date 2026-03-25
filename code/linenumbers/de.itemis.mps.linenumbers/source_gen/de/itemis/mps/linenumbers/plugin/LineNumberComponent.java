@@ -7,11 +7,13 @@ import java.util.Map;
 import jetbrains.mps.nodeEditor.EditorComponent;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.WeakHashMap;
+import com.intellij.openapi.project.Project;
+import com.intellij.openapi.fileEditor.FileEditor;
+import com.intellij.openapi.fileEditor.FileEditorManager;
+import jetbrains.mps.ide.editor.MPSFileNodeEditor;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import org.jetbrains.annotations.NotNull;
 import com.intellij.openapi.application.ApplicationManager;
-import jetbrains.mps.project.Project;
 import jetbrains.mps.ide.project.ProjectHelper;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -20,6 +22,7 @@ import java.awt.Graphics2D;
 import com.intellij.ui.JBColor;
 import java.awt.event.MouseEvent;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
+import jetbrains.mps.openapi.editor.Editor;
 
 public class LineNumberComponent extends AbstractLeftColumn {
 
@@ -38,6 +41,24 @@ public class LineNumberComponent extends AbstractLeftColumn {
     return MapSequence.fromMap(instances).get(editorComponent);
   }
 
+  public static void installAll(Project ideaProject) {
+    if (!(LineNumberPreferences.areLineNumbersEnabled(ideaProject))) {
+      return;
+    }
+    for (FileEditor editor : FileEditorManager.getInstance(ideaProject).getAllEditors()) {
+      if (editor instanceof MPSFileNodeEditor) {
+        MPSFileNodeEditor mpsEditor = ((MPSFileNodeEditor) editor);
+        if (!(mpsEditor.isDisposed())) {
+          EditorComponent currentEditorComponent = as_3vd20w_a0a0a1a0a1a7(check_3vd20w_a0a0a1a0a1a7(check_3vd20w_a0a0a0b0a0b0h(mpsEditor)), EditorComponent.class);
+          LineNumberComponent.getOrCreateInstance(currentEditorComponent).install();
+          if (currentEditorComponent != null && currentEditorComponent.isVisible()) {
+            currentEditorComponent.getLeftEditorHighlighter().relayout(true);
+          }
+        }
+      }
+    }
+  }
+
   public static void uninstallAll() {
     for (LineNumberComponent instance : ListSequence.fromListWithValues(new ArrayList<LineNumberComponent>(), MapSequence.fromMap(instances).values())) {
       instance.uninstall();
@@ -51,20 +72,13 @@ public class LineNumberComponent extends AbstractLeftColumn {
 
   private LineNumberComponent(EditorComponent editorComponent) {
     super(editorComponent.getLeftEditorHighlighter());
-    editorComponent.addDisposeListener(new EditorComponent.EditorDisposeListener() {
-      @Override
-      public void editorWillBeDisposed(@NotNull EditorComponent editorComponent) {
-        editorComponent.removeDisposeListener(this);
-        uninstall();
-      }
-    });
   }
 
   public void install() {
     if (ApplicationManager.getApplication().isDisposed() || getEditorComponent().isDisposed()) {
       return;
     }
-    Project project = ProjectHelper.getProject(getEditorComponent().getEditorContext().getRepository());
+    jetbrains.mps.project.Project project = ProjectHelper.getProject(getEditorComponent().getEditorContext().getRepository());
     if (project == null || project.isDisposed()) {
       return;
     }
@@ -77,17 +91,22 @@ public class LineNumberComponent extends AbstractLeftColumn {
     updater.updateLater(false);
   }
 
+  /**
+   * Remove the line numbers column from the left editor highlighter and {@link de.itemis.mps.linenumbers.plugin.LineNumberComponent#dispose() } of it.
+   */
   public void uninstall() {
-    MapSequence.fromMap(instances).removeKey(getEditorComponent());
     if (getLeftEditorHighlighter().getLeftColumns().contains(this)) {
       getLeftEditorHighlighter().removeLeftColumn(this);
     }
     dispose();
   }
 
+
   @Override
   public void dispose() {
+    // Similar to uninstall but called when the editor component is disposed. It disposes its LeftEditorHighlighter which disposes each AbstractLeftColumn. There's no need to remove the left column from the highlighter, and it may in fact be harmful because the highlighter is in the process of iterating its list of columns here.
     super.dispose();
+    MapSequence.fromMap(instances).removeKey(getEditorComponent());
     updater.dispose();
   }
 
@@ -162,4 +181,19 @@ public class LineNumberComponent extends AbstractLeftColumn {
     return "Line numbers";
   }
 
+  private static jetbrains.mps.openapi.editor.EditorComponent check_3vd20w_a0a0a1a0a1a7(Editor checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getCurrentEditorComponent();
+    }
+    return null;
+  }
+  private static Editor check_3vd20w_a0a0a0b0a0b0h(MPSFileNodeEditor checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getNodeEditor();
+    }
+    return null;
+  }
+  private static <T> T as_3vd20w_a0a0a1a0a1a7(Object o, Class<T> type) {
+    return (type.isInstance(o) ? (T) o : null);
+  }
 }

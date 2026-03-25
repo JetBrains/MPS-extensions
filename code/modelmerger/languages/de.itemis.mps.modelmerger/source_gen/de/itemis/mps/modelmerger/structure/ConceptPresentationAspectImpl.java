@@ -37,7 +37,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         if (props_IdentityCalculatorRegistry == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.presentationByName();
-          cpb.icon(IconContainer.RESOURCE_a0a2a0a2b0f);
+          cpb.icon(IconContainer.RESOURCE_0);
           props_IdentityCalculatorRegistry = cpb.create();
         }
         return props_IdentityCalculatorRegistry;

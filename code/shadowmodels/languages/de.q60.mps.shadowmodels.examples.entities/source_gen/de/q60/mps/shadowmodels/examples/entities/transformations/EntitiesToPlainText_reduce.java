@@ -56,7 +56,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
     }
   }).invoke();
   private EntitiesToPlainText_reduce() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -83,7 +83,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.entitiesToText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.entitiesToText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(INode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -113,7 +113,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.entitiesToText/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.entitiesToText/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -140,7 +140,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -221,7 +221,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_0_Model", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_0_Model", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$2P)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -286,7 +286,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_2_Entity", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_2_Entity", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Entity$dF)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -452,7 +452,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_4_Property", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_4_Property", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Property$ea)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -539,7 +539,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_6_EntityType", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_6_EntityType", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.EntityType$eD)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -589,7 +589,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_8_Type", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_8_Type", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Type$f8)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

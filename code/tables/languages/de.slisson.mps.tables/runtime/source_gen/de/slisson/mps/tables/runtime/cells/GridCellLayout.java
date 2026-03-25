@@ -6,8 +6,8 @@ import de.itemis.mps.editor.celllayout.layout.AbstractLayout;
 import de.itemis.mps.editor.celllayout.layout.ILayoutableContainer;
 import de.itemis.mps.editor.celllayout.boxmodel.Size;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import de.itemis.mps.editor.celllayout.layout.ILayoutable;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import de.itemis.mps.editor.celllayout.runtime.CellLayoutUtil;
 import de.itemis.mps.editor.celllayout.boxmodel.LayoutBoxExtensions;
 
@@ -21,14 +21,25 @@ public class GridCellLayout extends AbstractLayout {
   }
   @NotNull
   public Size getMinInnerSize(ILayoutableContainer container, @NotNull Size sizeConstraint) {
-    return ListSequence.fromList(container.getChildren()).first().getMinSize(sizeConstraint);
+    ILayoutable layoutable = ListSequence.fromList(container.getChildren()).first();
+    if (layoutable == null) {
+      return Size.ZERO;
+    }
+    return layoutable.getMinSize(sizeConstraint);
   }
   @NotNull
   public Size getPreferredInnerSize(ILayoutableContainer container, @NotNull Size sizeConstraint) {
-    return ListSequence.fromList(container.getChildren()).first().getPreferredSize(sizeConstraint);
+    ILayoutable layoutable = ListSequence.fromList(container.getChildren()).first();
+    if (layoutable == null) {
+      return Size.ZERO;
+    }
+    return layoutable.getPreferredSize(sizeConstraint);
   }
   public void layout(ILayoutableContainer container, @NotNull Size sizeConstraint) {
     ILayoutable child = ListSequence.fromList(container.getChildren()).first();
+    if (child == null) {
+      return;
+    }
     child.setPosition(container.getInnerX(), container.getInnerY());
     Size childSize = sizeConstraint.min(ListSequence.fromList(container.getChildren()).first().getPreferredSize(sizeConstraint));
     child.setSize(childSize.getWidth(), childSize.getHeight());

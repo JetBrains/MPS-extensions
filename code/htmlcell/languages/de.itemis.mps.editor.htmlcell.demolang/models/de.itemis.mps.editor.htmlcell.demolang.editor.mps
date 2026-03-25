@@ -2,7 +2,7 @@
 <model ref="r:9bf12b1d-2184-4816-b9eb-2a9803f288f2(de.itemis.mps.editor.htmlcell.demolang.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="a46e4f41-529c-4c2e-bf93-818590da160d" name="de.itemis.mps.editor.htmlcell" version="0" />
     <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />

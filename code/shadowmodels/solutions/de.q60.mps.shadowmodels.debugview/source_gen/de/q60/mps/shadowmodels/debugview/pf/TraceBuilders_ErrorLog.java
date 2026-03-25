@@ -38,7 +38,7 @@ public class TraceBuilders_ErrorLog extends PFModule {
     }
   }).invoke();
   private TraceBuilders_ErrorLog() {
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ErrorLog.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -84,7 +84,7 @@ public class TraceBuilders_ErrorLog extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(LogEntry.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -127,7 +127,7 @@ public class TraceBuilders_ErrorLog extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(LogEntry.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -157,7 +157,7 @@ public class TraceBuilders_ErrorLog extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(StackTraceElement.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -201,7 +201,7 @@ public class TraceBuilders_ErrorLog extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(StackTraceElement.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

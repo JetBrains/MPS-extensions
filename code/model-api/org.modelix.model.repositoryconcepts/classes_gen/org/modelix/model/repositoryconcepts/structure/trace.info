@@ -17,7 +17,7 @@
       <unit at="11,0,150,0" name="org.modelix.model.repositoryconcepts.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="IconContainer.java">
-      <unit at="7,0,10,0" name="org.modelix.model.repositoryconcepts.structure.IconContainer" />
+      <unit at="8,0,12,0" name="org.modelix.model.repositoryconcepts.structure.IconContainer" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <unit at="10,0,58,0" name="org.modelix.model.repositoryconcepts.structure.LanguageConceptSwitch" />
@@ -287,8 +287,8 @@
       <node id="474657388638618895" at="19,0,20,0" concept="2" trace="props_Module" />
       <node id="474657388638618895" at="83,35,84,76" concept="5" />
       <node id="474657388638618895" at="84,76,85,35" concept="1" />
-      <node id="474657388638618895" at="85,35,86,55" concept="1" />
-      <node id="474657388638618895" at="86,55,87,38" concept="1" />
+      <node id="474657388638618895" at="85,35,86,45" concept="1" />
+      <node id="474657388638618895" at="86,45,87,38" concept="1" />
       <node id="474657388638618895" at="88,9,89,28" concept="6" />
       <node id="474657388638618895" at="82,40,88,9" concept="3" />
       <scope id="474657388638618895" at="83,35,87,38">

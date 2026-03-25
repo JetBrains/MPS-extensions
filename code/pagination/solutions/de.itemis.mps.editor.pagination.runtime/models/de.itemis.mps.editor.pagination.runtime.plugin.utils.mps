@@ -17,6 +17,7 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
+    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -27,6 +28,12 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -119,6 +126,7 @@
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
       <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
@@ -759,13 +767,21 @@
               </node>
             </node>
           </node>
-          <node concept="3y3z36" id="5$hufwY7heW" role="3clFbw">
-            <node concept="10Nm6u" id="5$hufwY7hom" role="3uHU7w" />
-            <node concept="2OqwBi" id="5$hufwY7gS6" role="3uHU7B">
-              <node concept="37vLTw" id="5$hufwY7gHc" role="2Oq$k0">
+          <node concept="1Wc70l" id="54UganN9XfB" role="3clFbw">
+            <node concept="3y3z36" id="54UganNaaHQ" role="3uHU7B">
+              <node concept="10Nm6u" id="54UganNaaUG" role="3uHU7w" />
+              <node concept="37vLTw" id="54UganN9XnT" role="3uHU7B">
                 <ref role="3cqZAo" node="47Pq93I1YDh" resolve="node" />
               </node>
-              <node concept="I4A8Y" id="5$hufwY7h2v" role="2OqNvi" />
+            </node>
+            <node concept="3y3z36" id="5$hufwY7heW" role="3uHU7w">
+              <node concept="10Nm6u" id="5$hufwY7hom" role="3uHU7w" />
+              <node concept="2OqwBi" id="5$hufwY7gS6" role="3uHU7B">
+                <node concept="37vLTw" id="5$hufwY7gHc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="47Pq93I1YDh" resolve="node" />
+                </node>
+                <node concept="I4A8Y" id="5$hufwY7h2v" role="2OqNvi" />
+              </node>
             </node>
           </node>
         </node>
@@ -776,6 +792,9 @@
       <node concept="37vLTG" id="47Pq93I1YDh" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="47Pq93I1YDg" role="1tU5fm" />
+        <node concept="2AHcQZ" id="54UganN9YeM" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
       </node>
       <node concept="37vLTG" id="47Pq93I22AF" role="3clF46">
         <property role="TrG5h" value="project" />

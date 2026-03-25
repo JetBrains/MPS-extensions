@@ -1706,7 +1706,14 @@ public class GrammarActionsDescriptor extends AbstractGrammarActionDescriptor im
         ListSequence.fromList(redirectedAfter).addElement(MultiTuple.<TransformationMenuContext,_FunctionTypes._return_P1_E0<? extends Boolean, ? super TransformationMenuContext>>from((SNodeOperations.isInstanceOf(((SNode) _context.getNode()), CONCEPTS.OptionalProperty$hO) ? _context : null), ((_FunctionTypes._return_P1_E0<Boolean, TransformationMenuContext>) (TransformationMenuContext parentContext) -> {
           final SNode sourceNode = parentContext.getNode();
           return new Object() {
-            public boolean renderingCondition(SNode node) {
+            public boolean renderingCondition(final SNode node) {
+              if (!(((_FunctionTypes._return_P0_E0<Boolean>) () -> {
+                LogContext.with(GrammarActionsDescriptor.class, null, null, null).debug("EditorContext" + editorContext);
+                LogContext.with(GrammarActionsDescriptor.class, null, null, null).debug("Node:" + SNodeOperations.present(node));
+                return true;
+              }).invoke())) {
+                return false;
+              }
               return node.getProperty(PROPS.intProperty$EBD9) != null;
             }
           }.renderingCondition(sourceNode);
@@ -1714,7 +1721,14 @@ public class GrammarActionsDescriptor extends AbstractGrammarActionDescriptor im
         ListSequence.fromList(redirectedAfter).addElement(MultiTuple.<TransformationMenuContext,_FunctionTypes._return_P1_E0<? extends Boolean, ? super TransformationMenuContext>>from((SNodeOperations.isInstanceOf(((SNode) _context.getNode()), CONCEPTS.OptionalProperty$hO) ? _context : null), ((_FunctionTypes._return_P1_E0<Boolean, TransformationMenuContext>) (TransformationMenuContext parentContext) -> {
           final SNode sourceNode = parentContext.getNode();
           return new Object() {
-            public boolean renderingCondition(SNode node) {
+            public boolean renderingCondition(final SNode node) {
+              if (!(((_FunctionTypes._return_P0_E0<Boolean>) () -> {
+                LogContext.with(GrammarActionsDescriptor.class, null, null, null).debug("EditorContext" + editorContext);
+                LogContext.with(GrammarActionsDescriptor.class, null, null, null).debug("Node:" + SNodeOperations.present(node));
+                return true;
+              }).invoke())) {
+                return false;
+              }
               return node.getProperty(PROPS.intProperty$EBD9) != null;
             }
           }.renderingCondition(sourceNode);
@@ -1722,7 +1736,14 @@ public class GrammarActionsDescriptor extends AbstractGrammarActionDescriptor im
         ListSequence.fromList(redirectedAfter).addElement(MultiTuple.<TransformationMenuContext,_FunctionTypes._return_P1_E0<? extends Boolean, ? super TransformationMenuContext>>from((SNodeOperations.isInstanceOf(((SNode) _context.getNode()), CONCEPTS.OptionalProperty$hO) ? _context : null), ((_FunctionTypes._return_P1_E0<Boolean, TransformationMenuContext>) (TransformationMenuContext parentContext) -> {
           final SNode sourceNode = parentContext.getNode();
           return new Object() {
-            public boolean renderingCondition(SNode node) {
+            public boolean renderingCondition(final SNode node) {
+              if (!(((_FunctionTypes._return_P0_E0<Boolean>) () -> {
+                LogContext.with(GrammarActionsDescriptor.class, null, null, null).debug("EditorContext" + editorContext);
+                LogContext.with(GrammarActionsDescriptor.class, null, null, null).debug("Node:" + SNodeOperations.present(node));
+                return true;
+              }).invoke())) {
+                return false;
+              }
               return node.getProperty(PROPS.intProperty$EBD9) != null;
             }
           }.renderingCondition(sourceNode);

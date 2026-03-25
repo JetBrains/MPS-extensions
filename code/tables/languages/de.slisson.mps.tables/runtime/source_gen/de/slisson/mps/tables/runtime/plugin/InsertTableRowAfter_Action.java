@@ -14,7 +14,7 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 
 public class InsertTableRowAfter_Action extends BaseAction {
-  private static final Icon ICON = IconContainer.ICON_a0_0;
+  private static final Icon ICON = IconContainer.ICON1;
 
   public InsertTableRowAfter_Action() {
     super("Insert a New Row After This Row", "", ICON);

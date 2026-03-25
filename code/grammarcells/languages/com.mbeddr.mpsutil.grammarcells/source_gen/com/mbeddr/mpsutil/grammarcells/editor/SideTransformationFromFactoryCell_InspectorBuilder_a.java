@@ -64,14 +64,26 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.setGridLayout(true);
+    editorCell.addEditorCell(createComponent_0());
     editorCell.addEditorCell(createConstant_0());
+    editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createCollection_1());
     editorCell.addEditorCell(createCollection_2());
     return editorCell;
   }
+  private EditorCell createComponent_0() {
+    EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "jetbrains.mps.lang.editor.editor._CellModel_Common");
+    return editorCell;
+  }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Side transformation (from factory) cell:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
     editorCell.setCellId("Constant_k43mid_0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_1() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Side transformation (from factory) cell:");
+    editorCell.setCellId("Constant_k43mid_1");
     Style style = new StyleImpl();
     new headerStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -85,13 +97,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_1());
+    editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createProperty_0());
     return editorCell;
   }
-  private EditorCell createConstant_1() {
+  private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "side:");
-    editorCell.setCellId("Constant_k43mid_1");
+    editorCell.setCellId("Constant_k43mid_2");
     Style style = new StyleImpl();
     new propertyStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -126,13 +138,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_2());
+    editorCell.addEditorCell(createConstant_3());
     editorCell.addEditorCell(createRefNode_0());
     return editorCell;
   }
-  private EditorCell createConstant_2() {
+  private EditorCell createConstant_3() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "factory:");
-    editorCell.setCellId("Constant_k43mid_2");
+    editorCell.setCellId("Constant_k43mid_3");
     Style style = new StyleImpl();
     new propertyStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -140,14 +152,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new factorySingleRoleHandler_k43mid_b2a(myNode, LINKS.factory$rlNG, getEditorContext());
+    SingleRoleCellProvider provider = new factorySingleRoleHandler_k43mid_b4a(myNode, LINKS.factory$rlNG, getEditorContext());
     return provider.createCell();
   }
-  private static class factorySingleRoleHandler_k43mid_b2a extends SingleRoleCellProvider {
+  private static class factorySingleRoleHandler_k43mid_b4a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public factorySingleRoleHandler_k43mid_b2a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public factorySingleRoleHandler_k43mid_b4a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }

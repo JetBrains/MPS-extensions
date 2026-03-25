@@ -13,6 +13,8 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.baseLanguage.logging.rt.LogContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -23,7 +25,6 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import com.mbeddr.mpsutil.grammarcells.runtime.ConstantSubstituteInfo;
 import java.util.List;
 import com.mbeddr.mpsutil.grammarcells.runtime.IToken;
@@ -69,9 +70,16 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createRefNode_0());
-    editorCell.addEditorCell(createCustomFactory_1());
+    if (nodeCondition_vk5f4k_a1a0()) {
+      editorCell.addEditorCell(createCustomFactory_1());
+    }
     editorCell.addEditorCell(createRefNode_1());
     return editorCell;
+  }
+  private boolean nodeCondition_vk5f4k_a1a0() {
+    LogContext.with(TEST_CellModelTraversal_EditorBuilder_a.class, null, null, null).debug("EditorContext" + getEditorContext());
+    LogContext.with(TEST_CellModelTraversal_EditorBuilder_a.class, null, null, null).debug("Node:" + SNodeOperations.present(myNode));
+    return true;
   }
   private EditorCell createRefNode_0() {
     SingleRoleCellProvider provider = new leftSingleRoleHandler_vk5f4k_a0a(myNode, LINKS.left$HUCH, getEditorContext());

@@ -50,7 +50,7 @@ public class EntitiesToPlainText extends PFModule {
     }
   }).invoke();
   private EntitiesToPlainText() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -77,7 +77,7 @@ public class EntitiesToPlainText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$2P)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -146,7 +146,7 @@ public class EntitiesToPlainText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Entity$dF)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -316,7 +316,7 @@ public class EntitiesToPlainText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Property$ea)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -407,7 +407,7 @@ public class EntitiesToPlainText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Type$f8)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -461,7 +461,7 @@ public class EntitiesToPlainText extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText.toPlainText", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.EntityType$eD)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

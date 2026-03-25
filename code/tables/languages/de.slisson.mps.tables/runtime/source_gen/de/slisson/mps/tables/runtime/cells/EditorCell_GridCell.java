@@ -17,7 +17,6 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Graphics;
 import jetbrains.mps.nodeEditor.EditorComponent;
-import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import jetbrains.mps.nodeEditor.cells.ParentSettings;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
@@ -121,7 +120,7 @@ public class EditorCell_GridCell extends NoInsertOverride {
         }
         Graphics g = gr.create();
         g.translate(x, y);
-        g.setColor(StyleRegistry.getInstance().getEditorBackground());
+        g.setColor(comp.getStyleRegistry().getEditorBackground());
         g.fillRect(cell.getX(), cell.getY(), cell.getWidth(), cell.getHeight());
         fillBackground(g, new ParentSettings());
         cell.paint(g);

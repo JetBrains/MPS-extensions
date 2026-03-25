@@ -60,7 +60,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         if (props_TreeNode2 == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.presentationByName();
-          cpb.icon(IconContainer.RESOURCE_a0a2a0a5b0h);
+          cpb.icon(IconContainer.RESOURCE_0);
           props_TreeNode2 = cpb.create();
         }
         return props_TreeNode2;

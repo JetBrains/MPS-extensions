@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,19 +21,13 @@ public final class AbstractChildValue__BehaviorDescriptor extends BaseBHDescript
 
   public static final SMethod<String> getInfoText_id7Uz1bYM3TR4 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getInfoText").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9125142491355389380L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInfoText_id7Uz1bYM3TR4);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInfoText_id7Uz1bYM3TR4);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ AbstractChildValue__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -15,7 +15,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -25,10 +24,8 @@ public final class ContentAlignment__BehaviorDescriptor extends BaseBHDescriptor
 
   public static final SMethod<ContentAlignment> toEnum_id56jSwh$FyLe = new SMethodBuilder<ContentAlignment>(new SJavaCompoundTypeImpl(ContentAlignment.class)).name("toEnum").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5878290447145512014L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toEnum_id56jSwh$FyLe);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toEnum_id56jSwh$FyLe);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static ContentAlignment toEnum_id56jSwh$FyLe(@NotNull SNode __thisNode__) {
     return ContentAlignment.valueOf(SPropertyOperations.getEnum(__thisNode__, PROPS.alignment$nwjg).getName());
@@ -37,10 +34,6 @@ public final class ContentAlignment__BehaviorDescriptor extends BaseBHDescriptor
   /*package*/ ContentAlignment__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

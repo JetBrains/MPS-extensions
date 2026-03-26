@@ -18,7 +18,6 @@ import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import de.itemis.mps.debug.runtime.DebugHelper;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -31,10 +30,8 @@ public final class CellReference__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<String> getTextWhenBroken_id7_uCKm_i1sQ = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTextWhenBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771043211062L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
   public static final SMethod<Boolean> isBroken_id7_uCKm_i2tI = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771043215214L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getText_id7_uCKm_hUKY, getTextWhenBroken_id7_uCKm_i1sQ, isBroken_id7_uCKm_i2tI);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getText_id7_uCKm_hUKY, getTextWhenBroken_id7_uCKm_i1sQ, isBroken_id7_uCKm_i2tI);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getText_id7_uCKm_hUKY(@NotNull SNode __thisNode__) {
     int id = Objects.hash(SPropertyOperations.getInteger(__thisNode__, PROPS.componentHashCode$xCJo), SPropertyOperations.getString(__thisNode__, PROPS.cellID$cCwL));
@@ -53,10 +50,6 @@ public final class CellReference__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ CellReference__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

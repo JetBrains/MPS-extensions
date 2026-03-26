@@ -34,7 +34,7 @@ public final class EditorComponentReference__BehaviorDescriptor extends BaseBHDe
   public static final SMethod<SNode> getEditedNode_id7_uCKm_pPxc = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getEditedNode").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771045259340L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, ""));
   public static final SMethod<Boolean> isBroken_id7_uCKm_o3li = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771044791634L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInvalidComponentHashCode_id7_uCKm_oD5J, getText_id7_uCKm_o3kH, getTextWhenBroken_id7_uCKm_o3la, getEditorComponent_id7_uCKm_plXx, getEditedNode_id7_uCKm_pPxc, isBroken_id7_uCKm_o3li);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInvalidComponentHashCode_id7_uCKm_oD5J, getText_id7_uCKm_o3kH, getTextWhenBroken_id7_uCKm_o3la, getEditorComponent_id7_uCKm_plXx, getEditedNode_id7_uCKm_pPxc, isBroken_id7_uCKm_o3li);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.componentHashCode$lsMc, (int) EditorComponentReference__BehaviorDescriptor.getInvalidComponentHashCode_id7_uCKm_oD5J.invoke(SNodeOperations.asSConcept(CONCEPTS.EditorComponentReference$uw)));

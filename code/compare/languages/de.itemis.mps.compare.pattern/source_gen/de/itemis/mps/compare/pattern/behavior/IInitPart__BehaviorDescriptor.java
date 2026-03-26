@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.behavior.Type__BehaviorDescriptor;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -34,10 +33,8 @@ public final class IInitPart__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<String> getPresentation_idhEwIMiw = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1213877396640L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2();
   public static final SMethod<SNode> getJavaType_id5JUf$kD2lnV = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getJavaType").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6627678268391249403L).languageId(0x874c64e45c10778aL, 0x17566462d8374552L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getReferableName_id5JUf$kCWFff, getName_id5JUf$kD1Ixb, hasAnnotation_id5JUf$kD0oic, getPresentation_idhEwIMiw, getJavaType_id5JUf$kD2lnV);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getReferableName_id5JUf$kCWFff, getName_id5JUf$kD1Ixb, hasAnnotation_id5JUf$kD0oic, getPresentation_idhEwIMiw, getJavaType_id5JUf$kD2lnV);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getReferableName_id5JUf$kCWFff(@NotNull SNode __thisNode__) {
     if (((boolean) IInitPart__BehaviorDescriptor.hasAnnotation_id5JUf$kD0oic.invoke(__thisNode__))) {
@@ -67,10 +64,6 @@ public final class IInitPart__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IInitPart__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

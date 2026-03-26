@@ -26520,6 +26520,9 @@
       <node concept="L2wRC" id="7i5Cc6Lw73q" role="39821P">
         <ref role="L2wRA" node="5mH$9t6eBsU" resolve="test.de.itemis.mps.editor.celllayout.lang" />
       </node>
+      <node concept="L2wRC" id="67FeN2Yx8P8" role="39821P">
+        <ref role="L2wRA" node="7qi8mU1OzZt" resolve="de.itemis.mps.editor.celllayout.sandboxlang" />
+      </node>
       <node concept="L2wRC" id="2NyZxKpXc6v" role="39821P">
         <ref role="L2wRA" node="2NyZxKpXalh" resolve="test.ex.match" />
       </node>

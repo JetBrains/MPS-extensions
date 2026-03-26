@@ -7,10 +7,11 @@ import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.cells.PropertyAccessor;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyOrNode;
 import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteEasily;
+import jetbrains.mps.nodeEditor.cells.ModelAccessor;
+import jetbrains.mps.nodeEditor.cells.PropertyAccessor;
 
 public class SplittablePropertyCellProvider extends PropertyCellProvider {
 
@@ -24,8 +25,7 @@ public class SplittablePropertyCellProvider extends PropertyCellProvider {
   @Override
   public EditorCell createEditorCell(EditorContext context) {
     myReadOnly |= getSNode().getModel() == null;
-    PropertyAccessor propertyAccessor = createModelAccessor();
-    SplittablePropertyCell editorCell = SplittablePropertyCell.create(context, propertyAccessor, getSNode(), myTokenizer);
+    SplittablePropertyCell editorCell = SplittablePropertyCell.create(context, createModelAccessor(), getSNode(), myTokenizer);
     editorCell.setDefaultText(myNoTargetText);
     if (!(myReadOnly)) {
       editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(getSNode(), getProperty()));
@@ -37,7 +37,7 @@ public class SplittablePropertyCellProvider extends PropertyCellProvider {
     return editorCell;
   }
 
-  protected PropertyAccessor createModelAccessor() {
+  protected ModelAccessor createModelAccessor() {
     return new PropertyAccessor(getSNode(), getProperty(), myReadOnly, myAllowsEmptyTarget);
   }
 }

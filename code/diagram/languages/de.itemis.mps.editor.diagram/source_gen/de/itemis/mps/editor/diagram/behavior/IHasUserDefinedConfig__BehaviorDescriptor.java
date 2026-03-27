@@ -13,7 +13,6 @@ import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -23,19 +22,13 @@ public final class IHasUserDefinedConfig__BehaviorDescriptor extends BaseBHDescr
   public static final SMethod<Boolean> hasUserDefinedStyle_id1xHXqL1Pbic = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("hasUserDefinedStyle").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1760333149559370892L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2();
   public static final SMethod<List<SNode>> getUserDefinedConfigs_id1xHXqL1PbjC = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getUserDefinedConfigs").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1760333149559370984L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(hasUserDefinedStyle_id1xHXqL1Pbic, getUserDefinedConfigs_id1xHXqL1PbjC);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(hasUserDefinedStyle_id1xHXqL1Pbic, getUserDefinedConfigs_id1xHXqL1PbjC);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ IHasUserDefinedConfig__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -16,7 +16,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -28,10 +27,8 @@ public final class EditorCellHeader__BehaviorDescriptor extends BaseBHDescriptor
 
   public static final SMethod<String> getReferenceText_id1dAqnm8qrVy = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getReferenceText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1397920687865839330L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getReferenceText_id1dAqnm8qrVy);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getReferenceText_id1dAqnm8qrVy);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getReferenceText_id1dAqnm8qrVy(@NotNull SNode __thisNode__) {
     if (isNotEmptyString(SPropertyOperations.getString(__thisNode__, PROPS.id$HLjZ))) {
@@ -46,10 +43,6 @@ public final class EditorCellHeader__BehaviorDescriptor extends BaseBHDescriptor
   /*package*/ EditorCellHeader__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -21,7 +21,6 @@ import jetbrains.mps.lang.modelapi.behavior.ModelIdentity__BehaviorDescriptor;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -32,10 +31,8 @@ public final class ModelMergingConfiguration__BehaviorDescriptor extends BaseBHD
 
   public static final SMethod<Void> execute_id6Ltuup4sQ0X = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("execute").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7808531358828159037L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(execute_id6Ltuup4sQ0X);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(execute_id6Ltuup4sQ0X);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static void execute_id6Ltuup4sQ0X(@NotNull SNode __thisNode__) {
     SRepository repository = __thisNode__.getModel().getRepository();
@@ -53,10 +50,6 @@ public final class ModelMergingConfiguration__BehaviorDescriptor extends BaseBHD
   /*package*/ ModelMergingConfiguration__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

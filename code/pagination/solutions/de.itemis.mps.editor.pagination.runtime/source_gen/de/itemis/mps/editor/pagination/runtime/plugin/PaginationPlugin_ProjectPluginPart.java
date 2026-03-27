@@ -29,7 +29,7 @@ public class PaginationPlugin_ProjectPluginPart extends ProjectPluginPart {
 
     @Override
     public void uninstall(@NotNull EditorComponent editorComponent) {
-      check_sc6i86_a0a4a0a0(PaginationListener.getInstance(((jetbrains.mps.nodeEditor.EditorComponent) editorComponent)));
+      check_b1aunq_a0a4a0a0(PaginationListener.getInstance(((jetbrains.mps.nodeEditor.EditorComponent) editorComponent)));
     }
   };
   private LanguageRegistryListener unloadListener = new LanguageRegistryListener() {
@@ -49,28 +49,28 @@ public class PaginationPlugin_ProjectPluginPart extends ProjectPluginPart {
   @Override
   public void init(MPSProject project) {
     EditorExtension extension = PaginationPlugin_ProjectPluginPart.this.extension;
-    check_sc6i86_a1a0(project.getComponent(EditorExtensionRegistry.class), extension);
+    check_b1aunq_a1a3(project.getComponent(EditorExtensionRegistry.class), extension);
     LanguageRegistry.getInstance(project.getRepository()).addRegistryListener(PaginationPlugin_ProjectPluginPart.this.unloadListener);
   }
   @Override
   public void dispose(MPSProject project) {
     EditorExtension extension = PaginationPlugin_ProjectPluginPart.this.extension;
-    check_sc6i86_a1a0_0(project.getComponent(EditorExtensionRegistry.class), extension);
+    check_b1aunq_a1a4(project.getComponent(EditorExtensionRegistry.class), extension);
     LanguageRegistry.getInstance(project.getRepository()).removeRegistryListener(PaginationPlugin_ProjectPluginPart.this.unloadListener);
   }
-  private static void check_sc6i86_a0a4a0a0(PaginationListener checkedDotOperand) {
+  private static void check_b1aunq_a0a4a0a0(PaginationListener checkedDotOperand) {
     if (null != checkedDotOperand) {
       checkedDotOperand.uninstall();
     }
 
   }
-  private static void check_sc6i86_a1a0(EditorExtensionRegistry checkedDotOperand, EditorExtension extension) {
+  private static void check_b1aunq_a1a3(EditorExtensionRegistry checkedDotOperand, EditorExtension extension) {
     if (null != checkedDotOperand) {
       checkedDotOperand.registerExtension(extension);
     }
 
   }
-  private static void check_sc6i86_a1a0_0(EditorExtensionRegistry checkedDotOperand, EditorExtension extension) {
+  private static void check_b1aunq_a1a4(EditorExtensionRegistry checkedDotOperand, EditorExtension extension) {
     if (null != checkedDotOperand) {
       checkedDotOperand.unregisterExtension(extension);
     }

@@ -13,7 +13,6 @@ import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -22,10 +21,8 @@ public final class DeclarationPolicy__BehaviorDescriptor extends BaseBHDescripto
 
   public static final SMethod<SNode> childLink_id1VmHfRx_0K2 = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("childLink").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2222162468658220034L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childLink_id1VmHfRx_0K2);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childLink_id1VmHfRx_0K2);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode childLink_id1VmHfRx_0K2(@NotNull SNode __thisNode__) {
     throw new UnsupportedOperationException("Method must be overridden by sub-concept. If it is abstract we cannot access this method from sub-interfaces (at least in 2020.3,bug?)");
@@ -34,10 +31,6 @@ public final class DeclarationPolicy__BehaviorDescriptor extends BaseBHDescripto
   /*package*/ DeclarationPolicy__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

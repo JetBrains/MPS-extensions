@@ -15,7 +15,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
@@ -24,10 +23,8 @@ public final class AbstractMergeAction__BehaviorDescriptor extends BaseBHDescrip
 
   public static final SMethod<Boolean> isSame_id3EHNiwzfqGd = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isSame").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4228261197444393741L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isSame_id3EHNiwzfqGd);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isSame_id3EHNiwzfqGd);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean isSame_id3EHNiwzfqGd(@NotNull SNode __thisNode__, SNode otherAction) {
     return Objects.equals(SNodeOperations.getConcept(__thisNode__), SNodeOperations.getConcept(otherAction));
@@ -36,10 +33,6 @@ public final class AbstractMergeAction__BehaviorDescriptor extends BaseBHDescrip
   /*package*/ AbstractMergeAction__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

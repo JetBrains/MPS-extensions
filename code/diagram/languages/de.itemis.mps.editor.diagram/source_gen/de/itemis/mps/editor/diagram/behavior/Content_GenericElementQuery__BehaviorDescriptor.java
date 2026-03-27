@@ -15,7 +15,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -27,10 +26,8 @@ public final class Content_GenericElementQuery__BehaviorDescriptor extends BaseB
 
   public static final SMethod<SNode> getInlineEditorConcept_id67EYkym$wx3 = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getInlineEditorConcept").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7055725856388417603L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInlineEditorConcept_id67EYkym$wx3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInlineEditorConcept_id67EYkym$wx3);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getInlineEditorConcept_id67EYkym$wx3(@NotNull SNode __thisNode__, SNode inlineEditor) {
     SNode type = TypecheckingFacade.getFromContext().strongCoerceType(SLinkOperations.getTarget(__thisNode__, LINKS.parameterType$hCXg), CONCEPTS.SNodeType$hR);
@@ -40,10 +37,6 @@ public final class Content_GenericElementQuery__BehaviorDescriptor extends BaseB
   /*package*/ Content_GenericElementQuery__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

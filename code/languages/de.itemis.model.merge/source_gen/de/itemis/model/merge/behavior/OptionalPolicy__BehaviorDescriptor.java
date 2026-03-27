@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -23,10 +22,8 @@ public final class OptionalPolicy__BehaviorDescriptor extends BaseBHDescriptor {
 
   public static final SMethod<SAbstractConcept> manualAction_id1Tugx$FTy0 = new SMethodBuilder<SAbstractConcept>(new SJavaCompoundTypeImpl((Class<SAbstractConcept>) ((Class) Object.class))).name("manualAction").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(34191549137918080L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(manualAction_id1Tugx$FTy0);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(manualAction_id1Tugx$FTy0);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SAbstractConcept manualAction_id1Tugx$FTy0(@NotNull SNode __thisNode__) {
     return CONCEPTS.ManualAction$CG;
@@ -35,10 +32,6 @@ public final class OptionalPolicy__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ OptionalPolicy__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

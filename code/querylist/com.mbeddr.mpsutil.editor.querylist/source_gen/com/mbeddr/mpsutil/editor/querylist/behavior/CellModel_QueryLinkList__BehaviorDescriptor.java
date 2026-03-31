@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -16,7 +15,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -26,17 +24,15 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class CellModel_QueryLinkList__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x120e1c9d4e274478L, 0xb2afb2c3bd3850b0L, 0x20db818f1056075L, "com.mbeddr.mpsutil.editor.querylist.structure.CellModel_QueryLinkList");
 
-  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
-  public static final SMethod<String> getClosingText_idhKxUEwj = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getClosingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339738643L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
-  public static final SMethod<Boolean> isVertical_id8dI1zL5hKI = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isVertical").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(147976780036512814L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
-  public static final SMethod<Boolean> isVerticalGrid_id8dI1zL5qUb = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isVerticalGrid").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(147976780036550283L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
-  public static final SMethod<Boolean> isHorizontal_id8dI1zL5qUl = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isHorizontal").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(147976780036550293L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
-  public static final SMethod<Boolean> isFoldingEnabled_id8dI1zL5qUv = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isFoldingEnabled").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(147976780036550303L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
+  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<>(String.class).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<String> getClosingText_idhKxUEwj = new SMethodBuilder<>(String.class).name("getClosingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339738643L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<Boolean> isVertical_id8dI1zL5hKI = new SMethodBuilder<>(Boolean.TYPE).name("isVertical").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(147976780036512814L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
+  public static final SMethod<Boolean> isVerticalGrid_id8dI1zL5qUb = new SMethodBuilder<>(Boolean.TYPE).name("isVerticalGrid").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(147976780036550283L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
+  public static final SMethod<Boolean> isHorizontal_id8dI1zL5qUl = new SMethodBuilder<>(Boolean.TYPE).name("isHorizontal").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(147976780036550293L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
+  public static final SMethod<Boolean> isFoldingEnabled_id8dI1zL5qUv = new SMethodBuilder<>(Boolean.TYPE).name("isFoldingEnabled").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(147976780036550303L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9, getClosingText_idhKxUEwj, isVertical_id8dI1zL5hKI, isVerticalGrid_id8dI1zL5qUb, isHorizontal_id8dI1zL5qUl, isFoldingEnabled_id8dI1zL5qUv);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9, getClosingText_idhKxUEwj, isVertical_id8dI1zL5hKI, isVerticalGrid_id8dI1zL5qUb, isHorizontal_id8dI1zL5qUl, isFoldingEnabled_id8dI1zL5qUv);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getOpeningText_idhKxU$w9(@NotNull SNode __thisNode__) {
     return "(-";
@@ -60,10 +56,6 @@ public final class CellModel_QueryLinkList__BehaviorDescriptor extends BaseBHDes
   /*package*/ CellModel_QueryLinkList__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

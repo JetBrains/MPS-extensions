@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -18,7 +17,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.Collections;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -29,21 +27,19 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class TreeNodeElement__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x1f1b4a81113d4b88L, 0x9b672bae3e4f8128L, 0x7352bdb9377956baL, "com.mbeddr.mpsutil.projectview.structure.TreeNodeElement");
 
-  public static final SMethod<SNode> getElementType_id3ZnFyBjt73L = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getElementType").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4600337039046766833L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<Boolean> isAbstract_id75_oBQVYfcU = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isAbstract").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8171045391097721658L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<Iterable<SNode>> getVisibleElements_id6p8q4IN2gK6 = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getVisibleElements").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7370255464527367174L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<Boolean> isOverride_id75_oBQVYcbH = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isOverride").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8171045391097709293L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<String> getId_id3ZnFyBjvyvf = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4600337039047403471L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<SNode> getView_idVPgi8ec6eE = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getView").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1077839300347847594L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<Boolean> hasQuery_id75_oBQVZApO = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("hasQuery").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(8171045391098078836L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<Iterable<SNode>> getAncestors_id7diJr$RwiBf = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getAncestors").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8309912865649797583L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<Iterable<SNode>> getAncestorsAndMe_id75_oBQVZzrA = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getAncestorsAndMe").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8171045391098066662L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<SNode> getParent_idXSoA18Owbp = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getParent").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1114749073452303065L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<SNode> getElementType_id3ZnFyBjt73L = new SMethodBuilder<>(SNode.class).name("getElementType").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4600337039046766833L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<Boolean> isAbstract_id75_oBQVYfcU = new SMethodBuilder<>(Boolean.TYPE).name("isAbstract").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8171045391097721658L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<Iterable<SNode>> getVisibleElements_id6p8q4IN2gK6 = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("getVisibleElements").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7370255464527367174L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<Boolean> isOverride_id75_oBQVYcbH = new SMethodBuilder<>(Boolean.TYPE).name("isOverride").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8171045391097709293L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<String> getId_id3ZnFyBjvyvf = new SMethodBuilder<>(String.class).name("getId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4600337039047403471L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<SNode> getView_idVPgi8ec6eE = new SMethodBuilder<>(SNode.class).name("getView").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1077839300347847594L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<Boolean> hasQuery_id75_oBQVZApO = new SMethodBuilder<>(Boolean.TYPE).name("hasQuery").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(8171045391098078836L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<Iterable<SNode>> getAncestors_id7diJr$RwiBf = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("getAncestors").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8309912865649797583L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<Iterable<SNode>> getAncestorsAndMe_id75_oBQVZzrA = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("getAncestorsAndMe").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8171045391098066662L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<SNode> getParent_idXSoA18Owbp = new SMethodBuilder<>(SNode.class).name("getParent").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1114749073452303065L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getElementType_id3ZnFyBjt73L, isAbstract_id75_oBQVYfcU, getVisibleElements_id6p8q4IN2gK6, isOverride_id75_oBQVYcbH, getId_id3ZnFyBjvyvf, getView_idVPgi8ec6eE, hasQuery_id75_oBQVZApO, getAncestors_id7diJr$RwiBf, getAncestorsAndMe_id75_oBQVZzrA, getParent_idXSoA18Owbp);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getElementType_id3ZnFyBjt73L, isAbstract_id75_oBQVYfcU, getVisibleElements_id6p8q4IN2gK6, isOverride_id75_oBQVYcbH, getId_id3ZnFyBjvyvf, getView_idVPgi8ec6eE, hasQuery_id75_oBQVZApO, getAncestors_id7diJr$RwiBf, getAncestorsAndMe_id75_oBQVZzrA, getParent_idXSoA18Owbp);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getElementType_id3ZnFyBjt73L(@NotNull SNode __thisNode__) {
     return ((SLinkOperations.getTarget(__thisNode__, LINKS.type$VI7Y) != null) ? SLinkOperations.getTarget(__thisNode__, LINKS.type$VI7Y) : check_l866cq_a0a0a(SLinkOperations.getTarget(__thisNode__, LINKS.extends$a7w$)));
@@ -91,10 +87,6 @@ public final class TreeNodeElement__BehaviorDescriptor extends BaseBHDescriptor 
   /*package*/ TreeNodeElement__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

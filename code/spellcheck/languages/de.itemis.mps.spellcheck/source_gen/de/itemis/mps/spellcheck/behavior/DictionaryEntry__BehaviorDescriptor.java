@@ -8,14 +8,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.util.List;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -23,12 +21,10 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class DictionaryEntry__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x82194f31b6f94f39L, 0xbf3dbad4ce201c4eL, 0x2260a4eb2e3d3b6aL, "de.itemis.mps.spellcheck.structure.DictionaryEntry");
 
-  public static final SMethod<List<String>> getWords_id29wDeGIfN0n = new SMethodBuilder<List<String>>(new SJavaCompoundTypeImpl((Class<List<String>>) ((Class) Object.class))).name("getWords").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2477161125053935639L).languageId(0xbf3dbad4ce201c4eL, 0x82194f31b6f94f39L).build2();
+  public static final SMethod<List<String>> getWords_id29wDeGIfN0n = new SMethodBuilder<>((Class<List<String>>) ((Class) Object.class)).name("getWords").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2477161125053935639L).languageId(0xbf3dbad4ce201c4eL, 0x82194f31b6f94f39L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWords_id29wDeGIfN0n);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWords_id29wDeGIfN0n);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<String> getWords_id29wDeGIfN0n(@NotNull SNode __thisNode__) {
     return Sequence.fromIterable(Sequence.<String>singleton(SPropertyOperations.getString(__thisNode__, PROPS.name$MnvL))).toList();
@@ -37,10 +33,6 @@ public final class DictionaryEntry__BehaviorDescriptor extends BaseBHDescriptor 
   /*package*/ DictionaryEntry__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

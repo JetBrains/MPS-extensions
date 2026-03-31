@@ -16,7 +16,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -27,10 +26,8 @@ public final class Margin__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<SNode> fromElkMargin_id3biyEnOlpbG = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("fromElkMargin").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3662141892379120364L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2(SMethodBuilder.createJavaParameter(ElkMargin.class, ""));
   public static final SMethod<ElkMargin> toElkMargin_id3biyEnOlpcu = new SMethodBuilder<ElkMargin>(new SJavaCompoundTypeImpl(ElkMargin.class)).name("toElkMargin").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3662141892379120414L).languageId(0x9c96d53670abe7bcL, 0xfa13cc63c4764d46L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(fromElkMargin_id3biyEnOlpbG, toElkMargin_id3biyEnOlpcu);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(fromElkMargin_id3biyEnOlpbG, toElkMargin_id3biyEnOlpcu);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode fromElkMargin_id3biyEnOlpbG(@NotNull SAbstractConcept __thisConcept__, ElkMargin elkMargin) {
     SNode margin = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f4557fe2L, "de.itemis.mps.editor.diagram.structure.Margin"));
@@ -47,10 +44,6 @@ public final class Margin__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ Margin__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

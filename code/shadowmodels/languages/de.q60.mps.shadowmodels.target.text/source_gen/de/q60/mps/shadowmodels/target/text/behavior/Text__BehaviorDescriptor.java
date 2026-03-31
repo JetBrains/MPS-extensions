@@ -14,7 +14,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -22,12 +21,10 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xa7322769ef644daaL, 0xa2f4fd4228fb713eL, 0xe68932160df9551L, "de.q60.mps.shadowmodels.target.text.structure.Text");
 
-  public static final SMethod<Void> toText_id7NImM0593av = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("toText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9002232898243539615L).languageId(0xa2f4fd4228fb713eL, 0xa7322769ef644daaL).build2(SMethodBuilder.createJavaParameter(TextBuffer.class, ""));
+  public static final SMethod<Void> toText_id7NImM0593av = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.TYPE)).name("toText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9002232898243539615L).languageId(0xa2f4fd4228fb713eL, 0xa7322769ef644daaL).build2(SMethodBuilder.createJavaParameter(TextBuffer.class, ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toText_id7NImM0593av);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toText_id7NImM0593av);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static void toText_id7NImM0593av(@NotNull SNode __thisNode__, final TextBuffer buffer) {
     buffer.addText(SPropertyOperations.getString(__thisNode__, PROPS.text$qGyS));
@@ -36,10 +33,6 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ Text__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -19,7 +19,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -32,10 +31,8 @@ public final class TransformationsNamespace__BehaviorDescriptor extends BaseBHDe
   public static final SMethod<String> getNamespaceFqName_id2Dmy1k6OsDU = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getNamespaceFqName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3050775421480192634L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
   public static final SMethod<Iterable<SNode>> getDescendantNamespacesAndSelf_id5wnrAmU2Mj3 = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getDescendantNamespacesAndSelf").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6347663582994048195L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getNamespaceFqName_id2Dmy1k6OsDU, getDescendantNamespacesAndSelf_id5wnrAmU2Mj3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getNamespaceFqName_id2Dmy1k6OsDU, getDescendantNamespacesAndSelf_id5wnrAmU2Mj3);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getNamespaceFqName_id2Dmy1k6OsDU(@NotNull SNode __thisNode__) {
     return IterableUtils.join(ListSequence.fromList(ListSequence.fromList(SNodeOperations.getNodeAncestors(__thisNode__, CONCEPTS.TransformationsNamespace$o6, true)).toList()).reversedList().select((it) -> SPropertyOperations.getString(it, PROPS.name$MnvL)), ".");
@@ -47,10 +44,6 @@ public final class TransformationsNamespace__BehaviorDescriptor extends BaseBHDe
   /*package*/ TransformationsNamespace__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -24,10 +23,8 @@ public final class IfInstanceOfStatement__BehaviorDescriptor extends BaseBHDescr
 
   public static final SMethod<SNode> getVariable_id7zYevsNzSGR = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getVariable").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8718469662520609591L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getVariable_id7zYevsNzSGR);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getVariable_id7zYevsNzSGR);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getVariable_id7zYevsNzSGR(@NotNull SNode __thisNode__) {
     return SLinkOperations.getTarget(__thisNode__, LINKS.variable$jFwR);
@@ -36,10 +33,6 @@ public final class IfInstanceOfStatement__BehaviorDescriptor extends BaseBHDescr
   /*package*/ IfInstanceOfStatement__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

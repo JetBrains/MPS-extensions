@@ -8,14 +8,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -25,12 +23,10 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class IInsertHandler__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0xc73b17af16a14490L, 0x80728a84937c5206L, 0x4d89401436cc55dfL, "com.mbeddr.mpsutil.treenotation.structure.IInsertHandler");
 
-  public static final SMethod<SNode> getTargetLink_id4Q9g1gQP3R9 = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getTargetLink").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5587067268293213641L).languageId(0x80728a84937c5206L, 0xc73b17af16a14490L).build2();
+  public static final SMethod<SNode> getTargetLink_id4Q9g1gQP3R9 = new SMethodBuilder<>(SNode.class).name("getTargetLink").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5587067268293213641L).languageId(0x80728a84937c5206L, 0xc73b17af16a14490L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTargetLink_id4Q9g1gQP3R9);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTargetLink_id4Q9g1gQP3R9);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getTargetLink_id4Q9g1gQP3R9(@NotNull SNode __thisNode__) {
     return SLinkOperations.getTarget(SNodeOperations.as(SLinkOperations.getTarget(SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.TreeCell$7s, false, false), LINKS.treeChildren$SMXK), CONCEPTS.CellModel_RefNodeList$Uo), LINKS.relationDeclaration$E2hc);
@@ -39,10 +35,6 @@ public final class IInsertHandler__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IInsertHandler__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

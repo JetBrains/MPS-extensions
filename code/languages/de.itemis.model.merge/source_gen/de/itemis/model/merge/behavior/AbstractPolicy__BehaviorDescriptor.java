@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -18,7 +17,6 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.CollectionSequence;
 import de.itemis.model.merge.runtime.runtime.ConceptGraphBuilder;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import jetbrains.mps.smodel.builder.SNodeBuilder;
@@ -28,14 +26,12 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class AbstractPolicy__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x539e893908ef497cL, 0xa5fd25dd10137a55L, 0x1ed6b4fde1eeb12cL, "de.itemis.model.merge.structure.AbstractPolicy");
 
-  public static final SMethod<Boolean> childHasMultipleSubConcepts_idjF$CuWmXO_ = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("childHasMultipleSubConcepts").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(354538107357093157L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<SNode> childLink_id1VmHfRx_0K2 = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("childLink").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2222162468658220034L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<SNode> returnTypeManualAction_id5NUO5Yl882U = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("returnTypeManualAction").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6699896504609439930L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Boolean> childHasMultipleSubConcepts_idjF$CuWmXO_ = new SMethodBuilder<>(Boolean.TYPE).name("childHasMultipleSubConcepts").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(354538107357093157L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<SNode> childLink_id1VmHfRx_0K2 = new SMethodBuilder<>(SNode.class).name("childLink").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2222162468658220034L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<SNode> returnTypeManualAction_id5NUO5Yl882U = new SMethodBuilder<>(SNode.class).name("returnTypeManualAction").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6699896504609439930L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childHasMultipleSubConcepts_idjF$CuWmXO_, childLink_id1VmHfRx_0K2, returnTypeManualAction_id5NUO5Yl882U);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childHasMultipleSubConcepts_idjF$CuWmXO_, childLink_id1VmHfRx_0K2, returnTypeManualAction_id5NUO5Yl882U);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean childHasMultipleSubConcepts_idjF$CuWmXO_(@NotNull SNode __thisNode__) {
     SNode modelMerge = SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.ModelMergingPolicy$MA, false, false);
@@ -56,10 +52,6 @@ public final class AbstractPolicy__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ AbstractPolicy__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -15,22 +14,19 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class MappingConfiguration__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x94b64715a2634c36L, 0xa1388da14705ffa7L, 0xfb8df9d0e8cfc12L, "de.q60.mps.shadowmodels.transformation.structure.MappingConfiguration");
 
-  public static final SMethod<String> getDefaultName_id2$QnGbu$Y2o = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getDefaultName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2969665195348320408L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<String> getPresentation_id69Qfsw3IoJg = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234040272L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
-  public static final SMethod<String> getId_id4ygyjZjpyJx = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074599779297L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<String> getTransformationsPrefix_id6$M6y1ezVl7 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTransformationsPrefix").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7580149848877282631L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<String> getDefaultName_id2$QnGbu$Y2o = new SMethodBuilder<>(String.class).name("getDefaultName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2969665195348320408L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<String> getPresentation_id69Qfsw3IoJg = new SMethodBuilder<>(String.class).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234040272L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter(SNode.class, "reference"));
+  public static final SMethod<String> getId_id4ygyjZjpyJx = new SMethodBuilder<>(String.class).name("getId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074599779297L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<String> getTransformationsPrefix_id6$M6y1ezVl7 = new SMethodBuilder<>(String.class).name("getTransformationsPrefix").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7580149848877282631L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDefaultName_id2$QnGbu$Y2o, getPresentation_id69Qfsw3IoJg, getId_id4ygyjZjpyJx, getTransformationsPrefix_id6$M6y1ezVl7);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDefaultName_id2$QnGbu$Y2o, getPresentation_id69Qfsw3IoJg, getId_id4ygyjZjpyJx, getTransformationsPrefix_id6$M6y1ezVl7);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getDefaultName_id2$QnGbu$Y2o(@NotNull SNode __thisNode__) {
     return "mc" + SNodeOperations.getIndexInParent(__thisNode__);
@@ -48,10 +44,6 @@ public final class MappingConfiguration__BehaviorDescriptor extends BaseBHDescri
   /*package*/ MappingConfiguration__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

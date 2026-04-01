@@ -8,13 +8,11 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -22,14 +20,12 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class IfMacro__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x94b64715a2634c36L, 0xa1388da14705ffa7L, 0x132e54a8e1039be8L, "de.q60.mps.shadowmodels.transformation.structure.IfMacro");
 
-  public static final SMethod<SNode> getCondition_id7POzUCrfyO7 = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getCondition").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9040008312803699975L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<SNode> getElsePart_id7POzUCrfyOu = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getElsePart").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9040008312803699998L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<SNode> getThenPart_id7POzUCrfyOi = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getThenPart").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9040008312803699986L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<SNode> getCondition_id7POzUCrfyO7 = new SMethodBuilder<>(SNode.class).name("getCondition").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9040008312803699975L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<SNode> getElsePart_id7POzUCrfyOu = new SMethodBuilder<>(SNode.class).name("getElsePart").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9040008312803699998L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<SNode> getThenPart_id7POzUCrfyOi = new SMethodBuilder<>(SNode.class).name("getThenPart").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9040008312803699986L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCondition_id7POzUCrfyO7, getElsePart_id7POzUCrfyOu, getThenPart_id7POzUCrfyOi);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getCondition_id7POzUCrfyO7, getElsePart_id7POzUCrfyOu, getThenPart_id7POzUCrfyOi);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getCondition_id7POzUCrfyO7(@NotNull SNode __thisNode__) {
     return SLinkOperations.getTarget(__thisNode__, LINKS.condition$_6Nx);
@@ -44,10 +40,6 @@ public final class IfMacro__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IfMacro__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

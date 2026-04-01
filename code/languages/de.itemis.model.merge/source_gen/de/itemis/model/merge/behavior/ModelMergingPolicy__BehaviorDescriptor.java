@@ -9,7 +9,6 @@ import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.util.Map;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.Set;
 import org.jetbrains.mps.openapi.language.SLanguage;
@@ -44,7 +43,6 @@ import de.itemis.model.merge.runtime.runtime.SimpleActionContentHolder;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.behavior.LanguageIdentity__BehaviorDescriptor;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -56,21 +54,19 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class ModelMergingPolicy__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x539e893908ef497cL, 0xa5fd25dd10137a55L, 0x1a8b8d3e42dcce87L, "de.itemis.model.merge.structure.ModelMergingPolicy");
 
-  public static final SMethod<Map<SNode, SNode>> conceptToDefinedMergePolicy_id3xJ_LYXj1c6 = new SMethodBuilder<Map<SNode, SNode>>(new SJavaCompoundTypeImpl((Class<Map<SNode, SNode>>) ((Class) Object.class))).name("conceptToDefinedMergePolicy").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4066635151114507014L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Iterable<SAbstractConcept>> languageConcepts_id3xJ_LYXlmVz = new SMethodBuilder<Iterable<SAbstractConcept>>(new SJavaCompoundTypeImpl((Class<Iterable<SAbstractConcept>>) ((Class) Object.class))).name("languageConcepts").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4066635151115120355L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Set<SLanguage>> aggregatedLanguagesTrans_id78fCHIEgrbf = new SMethodBuilder<Set<SLanguage>>(new SJavaCompoundTypeImpl((Class<Set<SLanguage>>) ((Class) Object.class))).name("aggregatedLanguagesTrans").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8218966909312414415L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter(SLanguage.class, ""), SMethodBuilder.createJavaParameter(LanguageRegistry.class, ""));
-  public static final SMethod<Iterable<SNode>> languageConceptsSnodes_idZzVzivLDVk = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("languageConceptsSnodes").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1145020640068542164L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<SNode> toAbstractConceptDeclaration_id6XtVDsmtlME = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("toAbstractConceptDeclaration").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8024832443728354474L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter(SAbstractConcept.class, ""));
-  public static final SMethod<MergerResolverImpl> mergePoliciesByHierarchy_id2QNuyuiMzB2 = new SMethodBuilder<MergerResolverImpl>(new SJavaCompoundTypeImpl(MergerResolverImpl.class)).name("mergePoliciesByHierarchy").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3293110062923004354L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Collection<ConceptPropertyAction>> conceptPropertyAction_id3Wln5KIUgw5 = new SMethodBuilder<Collection<ConceptPropertyAction>>(new SJavaCompoundTypeImpl((Class<Collection<ConceptPropertyAction>>) ((Class) Object.class))).name("conceptPropertyAction").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4545640949894154245L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<String> globalId_id28CFLxJaWOS = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("globalId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2461409715837193528L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Iterable<SNode>> missingConcepts_id2BHsX07250y = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("missingConcepts").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3021198262343847970L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  /*package*/ static final SMethod<Iterable<SAbstractConcept>> languageConcepts_id78fCHIE_fQQ = new SMethodBuilder<Iterable<SAbstractConcept>>(new SJavaCompoundTypeImpl((Class<Iterable<SAbstractConcept>>) ((Class) Object.class))).name("languageConcepts").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(8218966909317873078L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  public static final SMethod<Map<SNode, SNode>> conceptToDefinedMergePolicy_id3xJ_LYXj1c6 = new SMethodBuilder<>((Class<Map<SNode, SNode>>) ((Class) Object.class)).name("conceptToDefinedMergePolicy").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4066635151114507014L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SAbstractConcept>> languageConcepts_id3xJ_LYXlmVz = new SMethodBuilder<>((Class<Iterable<SAbstractConcept>>) ((Class) Object.class)).name("languageConcepts").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4066635151115120355L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Set<SLanguage>> aggregatedLanguagesTrans_id78fCHIEgrbf = new SMethodBuilder<>((Class<Set<SLanguage>>) ((Class) Object.class)).name("aggregatedLanguagesTrans").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8218966909312414415L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter(SLanguage.class, "lang"), SMethodBuilder.createJavaParameter(LanguageRegistry.class, "lr"));
+  public static final SMethod<Iterable<SNode>> languageConceptsSnodes_idZzVzivLDVk = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("languageConceptsSnodes").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1145020640068542164L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<SNode> toAbstractConceptDeclaration_id6XtVDsmtlME = new SMethodBuilder<>(SNode.class).name("toAbstractConceptDeclaration").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8024832443728354474L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter(SAbstractConcept.class, "sac"));
+  public static final SMethod<MergerResolverImpl> mergePoliciesByHierarchy_id2QNuyuiMzB2 = new SMethodBuilder<>(MergerResolverImpl.class).name("mergePoliciesByHierarchy").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3293110062923004354L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Collection<ConceptPropertyAction>> conceptPropertyAction_id3Wln5KIUgw5 = new SMethodBuilder<>((Class<Collection<ConceptPropertyAction>>) ((Class) Object.class)).name("conceptPropertyAction").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4545640949894154245L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<String> globalId_id28CFLxJaWOS = new SMethodBuilder<>(String.class).name("globalId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2461409715837193528L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SNode>> missingConcepts_id2BHsX07250y = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("missingConcepts").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3021198262343847970L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  /*package*/ static final SMethod<Iterable<SAbstractConcept>> languageConcepts_id78fCHIE_fQQ = new SMethodBuilder<>((Class<Iterable<SAbstractConcept>>) ((Class) Object.class)).name("languageConcepts").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(8218966909317873078L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter(SNode.class, "lang"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(conceptToDefinedMergePolicy_id3xJ_LYXj1c6, languageConcepts_id3xJ_LYXlmVz, aggregatedLanguagesTrans_id78fCHIEgrbf, languageConceptsSnodes_idZzVzivLDVk, toAbstractConceptDeclaration_id6XtVDsmtlME, mergePoliciesByHierarchy_id2QNuyuiMzB2, conceptPropertyAction_id3Wln5KIUgw5, globalId_id28CFLxJaWOS, missingConcepts_id2BHsX07250y, languageConcepts_id78fCHIE_fQQ);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(conceptToDefinedMergePolicy_id3xJ_LYXj1c6, languageConcepts_id3xJ_LYXlmVz, aggregatedLanguagesTrans_id78fCHIEgrbf, languageConceptsSnodes_idZzVzivLDVk, toAbstractConceptDeclaration_id6XtVDsmtlME, mergePoliciesByHierarchy_id2QNuyuiMzB2, conceptPropertyAction_id3Wln5KIUgw5, globalId_id28CFLxJaWOS, missingConcepts_id2BHsX07250y, languageConcepts_id78fCHIE_fQQ);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Map<SNode, SNode> conceptToDefinedMergePolicy_id3xJ_LYXj1c6(@NotNull SNode __thisNode__) {
     List<Pair<SNode, SNode>> conceptMergepolicyPairs = Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(__thisNode__, LINKS.policies$z8dk), CONCEPTS.ConceptMergingPolicy$RB)).select((mp) -> Pair.of(SLinkOperations.getTarget(mp, LINKS.conceptRef$p8vY), mp)).toList();
@@ -145,10 +141,6 @@ public final class ModelMergingPolicy__BehaviorDescriptor extends BaseBHDescript
   /*package*/ ModelMergingPolicy__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

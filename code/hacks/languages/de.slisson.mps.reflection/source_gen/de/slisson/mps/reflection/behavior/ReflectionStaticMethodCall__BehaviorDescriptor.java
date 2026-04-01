@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -22,7 +21,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.core.behavior.BaseConcept__BehaviorDescriptor;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -33,15 +31,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class ReflectionStaticMethodCall__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x654422bfe75f44dcL, 0x936d188890a746ceL, 0x763db2d51f99edb1L, "de.slisson.mps.reflection.structure.ReflectionStaticMethodCall");
 
-  public static final SMethod<Iterable<SNode>> getAvailableMethodDeclarations_id50EF2fWdwEN = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getAvailableMethodDeclarations").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5776618742611315379L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2(SMethodBuilder.createJavaParameter(String.class, ""));
-  public static final SMethod<Boolean> canBeConvertedToLocal_id2RbFUmZleRt = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("canBeConvertedToLocal").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3299924278393499101L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
-  public static final SMethod<Void> convertToLocal_id2RbFUmZlhob = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("convertToLocal").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3299924278393509387L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
-  public static final SMethod<String> getPresentation_idhEwIMiw = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1213877396640L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2();
+  public static final SMethod<Iterable<SNode>> getAvailableMethodDeclarations_id50EF2fWdwEN = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("getAvailableMethodDeclarations").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5776618742611315379L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2(SMethodBuilder.createJavaParameter(String.class, "methodName"));
+  public static final SMethod<Boolean> canBeConvertedToLocal_id2RbFUmZleRt = new SMethodBuilder<>(Boolean.TYPE).name("canBeConvertedToLocal").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3299924278393499101L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
+  public static final SMethod<Void> convertToLocal_id2RbFUmZlhob = new SMethodBuilder<>(Void.TYPE).name("convertToLocal").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3299924278393509387L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
+  public static final SMethod<String> getPresentation_idhEwIMiw = new SMethodBuilder<>(String.class).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1213877396640L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getAvailableMethodDeclarations_id50EF2fWdwEN, canBeConvertedToLocal_id2RbFUmZleRt, convertToLocal_id2RbFUmZlhob, getPresentation_idhEwIMiw);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getAvailableMethodDeclarations_id50EF2fWdwEN, canBeConvertedToLocal_id2RbFUmZleRt, convertToLocal_id2RbFUmZlhob, getPresentation_idhEwIMiw);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Iterable<SNode> getAvailableMethodDeclarations_id50EF2fWdwEN(@NotNull SNode __thisNode__, final String methodName) {
     return Sequence.fromIterable(Members.visibleStaticMethods(SLinkOperations.getTarget(__thisNode__, LINKS.classConcept$HYbK), __thisNode__)).where((it) -> Objects.equals(SPropertyOperations.getString(it, PROPS.name$MnvL), methodName)).toList();
@@ -68,10 +64,6 @@ public final class ReflectionStaticMethodCall__BehaviorDescriptor extends BaseBH
   /*package*/ ReflectionStaticMethodCall__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

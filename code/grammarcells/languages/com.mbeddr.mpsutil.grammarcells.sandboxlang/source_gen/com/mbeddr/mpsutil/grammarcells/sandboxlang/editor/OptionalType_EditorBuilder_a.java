@@ -120,9 +120,9 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     }
     @Override
     protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts() {
-      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new GenericMenuPart_a0a0a0_0(), new TMP_Action_g1jvih_b0a0a0());
+      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new GenericMenuPart_a0a0a0_1(), new TMP_Action_g1jvih_b0a0a0());
     }
-    private class GenericMenuPart_a0a0a0_0 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
+    private class GenericMenuPart_a0a0a0_1 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
 
       @NotNull
       @Override

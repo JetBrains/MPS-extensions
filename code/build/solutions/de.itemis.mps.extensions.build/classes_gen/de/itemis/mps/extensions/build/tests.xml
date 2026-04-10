@@ -5553,12 +5553,6 @@
       <plugin path="${artifacts.mps}/plugins/mps-vcs" id="jetbrains.mps.vcs" />
       <plugin path="${artifacts.mps}/plugins/vcs-git" id="Git4Idea" />
       <plugin path="${artifacts.mps}/plugins/vcs-svn" id="Subversion" />
-      <library file="${artifacts.mps}/languages/editor/jetbrains.mps.ide.editor.jar" />
-      <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.ui.jar" />
-      <library file="${artifacts.mps}/languages/util/jetbrains.mps.lang.extension.jar" />
-      <library file="${artifacts.mps}/languages/workbench-stub.jar" />
-      <library file="${artifacts.mps}/languages/workbench/jetbrains.mps.ide.jar" />
-      <library file="${artifacts.mps}/languages/workbench/jetbrains.mps.lang.plugin.standalone.jar" />
       <chunk>
         <module file="${extensions.code}/plaintextgen/languages/com.dslfoundry.plaintextgen.example.nestedlist/com.dslfoundry.plaintextgen.example.nestedlist.mpl" />
         <module file="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.plaintextflow/com.dslfoundry.plaintextgen.example.plaintextflow.msd" />
@@ -13405,10 +13399,6 @@
       </jvmargs>
       
       
-      <library file="${artifacts.mps}/languages/editor/jetbrains.mps.ide.editor.jar" />
-      <library file="${artifacts.mps}/languages/util/jetbrains.mps.lang.extension.jar" />
-      <library file="${artifacts.mps}/languages/workbench-stub.jar" />
-      <library file="${artifacts.mps}/languages/workbench/jetbrains.mps.lang.plugin.standalone.jar" />
       <library file="${build.layout}/com.mbeddr.mpsutil.intentions.sandboxlang.jar" />
       <library file="${build.layout}/de.itemis.model.merge.diamond.jar" />
       <library file="${build.layout}/de.itemis.model.merge.simple.demo.annotated.jar" />

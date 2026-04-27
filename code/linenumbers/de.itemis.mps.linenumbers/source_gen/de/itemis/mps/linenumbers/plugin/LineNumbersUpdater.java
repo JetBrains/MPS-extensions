@@ -22,7 +22,7 @@ public class LineNumbersUpdater {
   public List<Line> lines = Collections.emptyList();
   private List<LayoutedLineNumber> layoutedLines = Collections.emptyList();
   private boolean foldingChanged = false;
-  private final Alarm alarm = new Alarm();
+  private final Alarm alarm = new Alarm(Alarm.ThreadToUse.SWING_THREAD);
 
   public LineNumbersUpdater(LineNumberComponent lineNumberComponent) {
     this.lineNumberComponent = lineNumberComponent;

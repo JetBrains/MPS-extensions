@@ -697,7 +697,7 @@
                   <node concept="2Ry0Ak" id="2PSVZXMBj4t" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="2PSVZXMBj4u" role="2Ry0An">
-                      <property role="2Ry0Am" value="kotlin-stdlib-2.1.0.jar" />
+                      <property role="2Ry0Am" value="kotlin-stdlib-2.3.0.jar" />
                     </node>
                   </node>
                 </node>

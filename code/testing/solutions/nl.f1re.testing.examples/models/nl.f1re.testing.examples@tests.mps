@@ -3215,9 +3215,13 @@
             <node concept="2ShNRf" id="4GRmlJ03lBk" role="33vP2m">
               <node concept="1pGfFk" id="4GRmlJ03lBl" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="tomq:~WordPrefixMatcher.&lt;init&gt;(java.lang.String)" resolve="WordPrefixMatcher" />
+                <ref role="37wK5l" to="tomq:~WordPrefixMatcher.&lt;init&gt;(java.lang.String,com.intellij.util.text.matching.KeyboardLayoutConverter)" resolve="WordPrefixMatcher" />
                 <node concept="37vLTw" id="4GRmlJ03lBm" role="37wK5m">
                   <ref role="3cqZAo" node="4GRmlJ0337Y" resolve="pattern" />
+                </node>
+                <node concept="10M0yZ" id="2qNfcrmbEUM" role="37wK5m">
+                  <ref role="3cqZAo" to="tomq:~PlatformKeyboardLayoutConverter.INSTANCE" resolve="INSTANCE" />
+                  <ref role="1PxDUh" to="tomq:~PlatformKeyboardLayoutConverter" resolve="PlatformKeyboardLayoutConverter" />
                 </node>
               </node>
             </node>

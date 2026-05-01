@@ -17,7 +17,7 @@ plugins {
     id("maven-publish")
     id("base")
     id("de.itemis.mps.gradle.launcher") version "2.8.0.+"
-    id("org.cyclonedx.bom") version "3.2.3"
+    id("org.cyclonedx.bom") version "3.2.4"
 
     id("com.specificlanguages.mps") version "2.0.1"
 }
@@ -130,7 +130,7 @@ bundledDependencies {
         }
 
         dependency("org.apache.commons:commons-csv:1.14.1")
-        dependency("commons-io:commons-io:2.21.0")
+        dependency("commons-io:commons-io:2.22.0")
         dependency("org.apache.commons:commons-lang3:3.20.0")
         dependency("org.apache.commons:commons-math3:3.6.1")
         dependency("org.apache.commons:commons-csv:1.14.1")
@@ -143,7 +143,7 @@ bundledDependencies {
         destinationDir = codeDir.dir("shadowmodels/solutions/de.q60.mps.collections.libs/lib")
 
         dependency("org.apache.commons:commons-collections4:4.5.0")
-        dependency("com.google.guava:guava:33.5.0-jre")
+        dependency("com.google.guava:guava:33.6.0-jre")
         dependency("net.sf.trove4j:trove4j:3.0.3")
         dependency("io.vavr:vavr:1.0.1")
 

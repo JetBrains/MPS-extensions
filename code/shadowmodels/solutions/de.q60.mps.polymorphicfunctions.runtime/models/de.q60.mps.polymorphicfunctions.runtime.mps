@@ -43,6 +43,9 @@
         <child id="1238853845806" name="component" index="1Lso8e" />
       </concept>
     </language>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1224071154655" name="jetbrains.mps.baseLanguage.structure.AsExpression" flags="nn" index="0kSF2">
         <child id="1224071154657" name="classifierType" index="0kSFW" />
@@ -321,7 +324,6 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7400021826771268254" name="jetbrains.mps.lang.smodel.structure.SNodePointerType" flags="ig" index="2sp9CU">
         <reference id="7400021826771268269" name="concept" index="2sp9C9" />
       </concept>
@@ -1133,7 +1135,7 @@
               <node concept="37vLTw" id="34qhGj6Q8eH" role="2Oq$k0">
                 <ref role="3cqZAo" node="34qhGj6Q1Gz" resolve="moduleNode" />
               </node>
-              <node concept="2qgKlT" id="34qhGj6Q8J1" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpyD" role="2OqNvi">
                 <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
               </node>
             </node>

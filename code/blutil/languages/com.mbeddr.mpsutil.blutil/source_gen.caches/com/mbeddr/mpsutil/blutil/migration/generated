@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="3qlfxzv8qysxl3fz9trzcd96kb7gqvi">
+<product version="3" modelHash="10mobsyzcqq13dys1ceypg7dgsck4n5">
   <files names="BLDocToJavaDoc.java:MigrationDescriptor.java:TestCaseDetection.java:methodLineDocToJavaDoc.java:migrateFilterOp.java" />
 </product>
 

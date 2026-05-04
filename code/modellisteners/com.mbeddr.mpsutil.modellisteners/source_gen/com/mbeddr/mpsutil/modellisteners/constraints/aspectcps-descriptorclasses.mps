@@ -27,6 +27,9 @@
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
       <concept id="1161622665029" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model" flags="nn" index="1Q6Npb" />
     </language>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
@@ -197,7 +200,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz" />
       <concept id="1154546950173" name="jetbrains.mps.lang.smodel.structure.ConceptReference" flags="ng" index="3gn64h">
         <reference id="1154546997487" name="concept" index="3gnhBz" />
@@ -484,9 +486,9 @@
                                 <ref role="3cqZAo" node="10" resolve="_context" />
                               </node>
                             </node>
-                            <node concept="2qgKlT" id="18" role="2OqNvi">
+                            <node concept="3zqWPK" id="18" role="2OqNvi">
                               <ref role="37wK5l" to="6zkc:5iW7uqbEWve" resolve="getVisibleLinks" />
-                              <uo k="s:originTrace" v="n:2691011170768299330" />
+                              <uo k="s:originTrace" v="n:1092965592457910254" />
                             </node>
                           </node>
                         </node>
@@ -1465,14 +1467,14 @@
                                   <ref role="3cqZAo" node="5v" resolve="_context" />
                                 </node>
                               </node>
-                              <node concept="2qgKlT" id="5D" role="2OqNvi">
+                              <node concept="3zqWPK" id="5D" role="2OqNvi">
                                 <ref role="37wK5l" to="6zkc:52ZF9D3cTKG" resolve="getParentConcept" />
-                                <uo k="s:originTrace" v="n:2691011170768299473" />
+                                <uo k="s:originTrace" v="n:1092965592457910256" />
                               </node>
                             </node>
-                            <node concept="2qgKlT" id="5B" role="2OqNvi">
+                            <node concept="3zqWPK" id="5B" role="2OqNvi">
                               <ref role="37wK5l" to="tpcn:hEwILLM" resolve="getPropertyDeclarations" />
-                              <uo k="s:originTrace" v="n:2691011170768299475" />
+                              <uo k="s:originTrace" v="n:1092965592457910258" />
                             </node>
                           </node>
                         </node>

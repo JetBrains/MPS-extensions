@@ -16,6 +16,9 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -97,7 +100,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
@@ -157,7 +159,7 @@
                 <node concept="37vLTw" id="5KX1OsDSXZP" role="2Oq$k0">
                   <ref role="3cqZAo" node="5KX1OsDSXZD" resolve="editorComponent" />
                 </node>
-                <node concept="2qgKlT" id="5KX1OsDSXZQ" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybpwD" role="2OqNvi">
                   <ref role="37wK5l" to="tpcb:67EYkym$wx3" resolve="getConceptDeclaration" />
                 </node>
               </node>
@@ -172,7 +174,7 @@
                   <node concept="37vLTw" id="5KX1OsDSY58" role="2Oq$k0">
                     <ref role="3cqZAo" node="5KX1OsDSXZM" resolve="editedConcept" />
                   </node>
-                  <node concept="2qgKlT" id="5KX1OsDSY59" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybpwF" role="2OqNvi">
                     <ref role="37wK5l" to="tpcn:hEwILLM" resolve="getPropertyDeclarations" />
                   </node>
                 </node>
@@ -252,7 +254,7 @@
                 <node concept="37vLTw" id="5KX1OsDSY5B" role="2Oq$k0">
                   <ref role="3cqZAo" node="5KX1OsDSY5r" resolve="editorComponent" />
                 </node>
-                <node concept="2qgKlT" id="5KX1OsDSY5C" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybpwH" role="2OqNvi">
                   <ref role="37wK5l" to="tpcb:67EYkym$wx3" resolve="getConceptDeclaration" />
                 </node>
               </node>
@@ -267,7 +269,7 @@
                   <node concept="37vLTw" id="5KX1OsDSY9x" role="2Oq$k0">
                     <ref role="3cqZAo" node="5KX1OsDSY5$" resolve="editedConcept" />
                   </node>
-                  <node concept="2qgKlT" id="5KX1OsDSY9y" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybpwJ" role="2OqNvi">
                     <ref role="37wK5l" to="tpcn:hEwILLM" resolve="getPropertyDeclarations" />
                   </node>
                 </node>

@@ -4,6 +4,6 @@
    * ab
    * ac
  * b
-   * ba
-   * bb
+   * b, ba
+   * b, bb
  * c

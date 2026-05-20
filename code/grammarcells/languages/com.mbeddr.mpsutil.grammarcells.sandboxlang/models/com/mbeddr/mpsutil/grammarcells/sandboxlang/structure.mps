@@ -17,11 +17,18 @@
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
+      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
+        <reference id="6054523464627965081" name="concept" index="trN6q" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
       <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
         <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
+      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
+        <property id="7588428831955550663" name="role" index="Hh88m" />
+        <child id="7588428831947959310" name="attributed" index="EQaZv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -59,6 +66,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -987,6 +995,27 @@
     </node>
     <node concept="PrWs8" id="7NCbR4gZtKA" role="PzmwI">
       <ref role="PrY4T" node="1x69AmkdYA2" resolve="IStatement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ab_dvCjSNN">
+    <property role="EcuMT" value="2489246874088738035" />
+    <property role="TrG5h" value="TEST_AnnotationOnRootProperty_Annotation" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDm" resolve="PropertyAttribute" />
+    <node concept="M6xJ_" id="2ab_dvCjTli" role="lGtFl">
+      <property role="Hh88m" value="propertyAttribute" />
+      <node concept="trNpa" id="2ab_dvCtW_K" role="EQaZv">
+        <ref role="trN6q" node="2ab_dvCjTpB" resolve="TEST_AnnotationOnRootProperty_Property" />
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ab_dvCjTpB">
+    <property role="EcuMT" value="2489246874088740455" />
+    <property role="TrG5h" value="TEST_AnnotationOnRootProperty_Property" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2ab_dvCjTOC" role="1TKVEl">
+      <property role="IQ2nx" value="2489246874088742184" />
+      <property role="TrG5h" value="propertyA" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

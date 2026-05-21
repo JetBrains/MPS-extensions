@@ -20,7 +20,7 @@ The MPS extensions aim to ease language development within MPS. They are maintai
 
 *How is the relationship between the mbeddr (platform) and this project?*
 
-In the past, the [mbeddr](https://github.com/mbeddr/mbeddr.core) project developed a set of extensions that where used to allow easier development of languages with MPS. These extensions where not C specific and were called [mbeddr platform](http://mbeddr.com/platform.html). This project gives these extensions a new home and also includes some new extensions, to make them more visible but also emphasise that these extensions are independent of mbeddr, and it's C implementation in MPS. Not all of the existing extenses fit here because some of these are experimental or have too specific use cases. See the [migration](Migrating) section of the documentation on what we still plan to migrate and how you could help.
+In the past, the [mbeddr](https://github.com/mbeddr/mbeddr.core) project developed a set of extensions that where used to allow easier development of languages with MPS. These extensions where not C specific and were called [mbeddr platform](http://mbeddr.com/platform.html). This project gives these extensions a new home and also includes some new extensions, to make them more visible but also emphasise that these extensions are independent of mbeddr, and it's C implementation in MPS. Not all of the existing extenses fit here because some of these are experimental or have too specific use cases. See the [migration](migrating.md) section of the documentation on what we still plan to migrate and how you could help.
 
 ## Getting Started
 

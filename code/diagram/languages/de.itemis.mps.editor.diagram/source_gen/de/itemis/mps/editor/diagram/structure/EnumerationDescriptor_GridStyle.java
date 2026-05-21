@@ -21,7 +21,7 @@ public class EnumerationDescriptor_GridStyle extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_GRID_STYLE_DASHED_0 = new EnumerationDescriptor.MemberDescriptor("GRID_STYLE_DASHED", "dashed", 0x117a52cb8d67c4a9L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/1259410080007701673");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x117a52cb8d67c2a1L, 0x117a52cb8d67c2a2L, 0x117a52cb8d67c384L, 0x117a52cb8d67c3e6L, 0x117a52cb8d67c4a9L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_GRID_STYLE_DOT_0, myMember_GRID_STYLE_CROSS_0, myMember_GRID_STYLE_LINE_0, myMember_GRID_STYLE_DASHED_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_GRID_STYLE_DOT_0, myMember_GRID_STYLE_CROSS_0, myMember_GRID_STYLE_LINE_0, myMember_GRID_STYLE_DASHED_0);
 
   @Nullable
   @Override

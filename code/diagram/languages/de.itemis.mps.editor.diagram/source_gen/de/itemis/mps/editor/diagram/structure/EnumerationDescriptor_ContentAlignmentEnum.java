@@ -23,7 +23,7 @@ public class EnumerationDescriptor_ContentAlignmentEnum extends EnumerationDescr
   private final EnumerationDescriptor.MemberDescriptor myMember_H_RIGHT_0 = new EnumerationDescriptor.MemberDescriptor("H_RIGHT", "horizontal right", 0x5193e20464425010L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/5878290447138443280");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x5193e20464424d01L, 0x5193e20464424d02L, 0x5193e20464424ffaL, 0x5193e20464424ffeL, 0x5193e20464425003L, 0x5193e20464425009L, 0x5193e20464425010L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_V_TOP_0, myMember_V_CENTER_0, myMember_V_BOTTOM_0, myMember_H_LEFT_0, myMember_H_CENTER_0, myMember_H_RIGHT_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_V_TOP_0, myMember_V_CENTER_0, myMember_V_BOTTOM_0, myMember_H_LEFT_0, myMember_H_CENTER_0, myMember_H_RIGHT_0);
 
   @Nullable
   @Override

@@ -12,7 +12,7 @@
       <unit at="11,0,30,0" name="de.q60.mps.shadowmodels.runtimelang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,28,0" name="de.q60.mps.shadowmodels.runtimelang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,36,0" name="de.q60.mps.shadowmodels.runtimelang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,60,0" name="de.q60.mps.shadowmodels.runtimelang.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="8529768024843144679" at="19,50,25,38" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8529768024843144679" at="12,0,13,0" concept="5" trace="ErrorPlaceholder" />
-      <node id="8529768024843144679" at="15,115,16,55" concept="0" />
+      <node id="8529768024843144679" at="14,0,15,0" concept="5" trace="ErrorPlaceholder" />
+      <node id="8529768024843144679" at="17,115,18,55" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8529768024843144679" at="16,0,17,0" concept="1" trace="myConceptErrorPlaceholder" />

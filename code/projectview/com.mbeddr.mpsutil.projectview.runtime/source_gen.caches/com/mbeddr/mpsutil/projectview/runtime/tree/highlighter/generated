@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-5mafhtt8ibtos4jenujs9i8wxdhzp8b">
+<product version="3" modelHash="dxe3sl4pvr8edlyzger0t6hooae1h4y">
   <files names="AdditionalTextNodeUpdate.java:ErrorChecker.java:ErrorStateNodeUpdate.java:GenStatusUpdater.java:IconNodeUpdate.java:ModifiedMarker.java:ModuleNodeListeners.java:NodeUpdate.java:ProjectPaneTreeHighlighter.java:SModelNodeListeners.java:TreeNodeUpdater.java:TreeUpdateVisitor.java" />
 </product>
 

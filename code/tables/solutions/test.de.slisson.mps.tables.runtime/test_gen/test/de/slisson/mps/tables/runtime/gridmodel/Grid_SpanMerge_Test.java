@@ -19,8 +19,8 @@ public class Grid_SpanMerge_Test {
   private GridLeaf leafC;
   @Test
   public void test_main_size() throws Exception {
-    Assert.assertEquals(3, gridMain.getSizeX());
-    Assert.assertEquals(2, gridMain.getSizeY());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(gridMain.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(gridMain.getSizeY()));
   }
   @Test
   public void test_elements_in_main() throws Exception {
@@ -33,8 +33,8 @@ public class Grid_SpanMerge_Test {
   }
   @Test
   public void test_elements_in_gridA() throws Exception {
-    Assert.assertEquals(3, gridA.getSizeX());
-    Assert.assertEquals(1, gridA.getSizeY());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(gridA.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(gridA.getSizeY()));
     Assert.assertSame(leafA, gridA.getElement(0, 0));
 
     Assert.assertEquals(SpannedPosition.class, gridA.getElement(1, 0).getClass());
@@ -51,8 +51,8 @@ public class Grid_SpanMerge_Test {
   @Test
   public void test_size_after_merge() throws Exception {
     gridMain.flatten();
-    Assert.assertEquals(5, gridMain.getSizeX());
-    Assert.assertEquals(2, gridMain.getSizeY());
+    Assert.assertEquals(Integer.valueOf(5), Integer.valueOf(gridMain.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(gridMain.getSizeY()));
   }
   @Test
   public void test_elements_after_merge() throws Exception {

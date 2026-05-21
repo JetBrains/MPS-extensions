@@ -259,7 +259,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createMathBase_1() {
-    return createMathBase_0(getEditorContext(), myNode);
+    return createMathBase_0(getEditorContext(), getNode());
   }
   private EditorCell createRefNode_0() {
     SingleRoleCellProvider provider = new lowerSingleRoleHandler_l2e2eo_a0a(myNode, LINKS.lower$HM8v, getEditorContext());

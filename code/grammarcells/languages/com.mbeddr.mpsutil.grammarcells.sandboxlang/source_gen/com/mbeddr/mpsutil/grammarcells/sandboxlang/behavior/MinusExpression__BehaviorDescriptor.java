@@ -7,25 +7,21 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class MinusExpression__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x1d4ec979b3329c18L, "com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.MinusExpression");
 
-  public static final SMethod<Integer> getPriority_id77A3HzrK1aC = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getPriority").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8207263695491830440L).languageId(0x838b6905dd9c20f6L, 0xa257f68c93a347b0L).build2();
+  public static final SMethod<Integer> getPriority_id77A3HzrK1aC = new SMethodBuilder<>(Integer.TYPE).name("getPriority").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8207263695491830440L).languageId(0x838b6905dd9c20f6L, 0xa257f68c93a347b0L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getPriority_id77A3HzrK1aC);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getPriority_id77A3HzrK1aC);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static int getPriority_id77A3HzrK1aC(@NotNull SAbstractConcept __thisConcept__) {
     return -6;
@@ -34,10 +30,6 @@ public final class MinusExpression__BehaviorDescriptor extends BaseBHDescriptor 
   /*package*/ MinusExpression__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

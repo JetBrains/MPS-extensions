@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## May 2026
+
+### Fixed
+
+-  *de.slisson.mps.richtext.customcell* Add new switch for CellModel_CustomFactory to deal with cases where the cell creation failed when a property attribute was attached
+
 ## March 2026
 
 ### Added

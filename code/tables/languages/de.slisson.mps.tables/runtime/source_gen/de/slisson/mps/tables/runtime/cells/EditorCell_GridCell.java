@@ -483,9 +483,6 @@ public class EditorCell_GridCell extends NoInsertOverride {
         ListSequence.fromList(this.getTable().verticallyStickyCells).removeElement(this);
       }
       EditorComponent editorComponent = (EditorComponent) this.getEditorComponent();
-      if (this.containsCell((jetbrains.mps.nodeEditor.cells.EditorCell) myWrappedEditorCell)) {
-        this.removeCell(myWrappedEditorCell);
-      }
       editorComponent.removeAdditionalPainter(painter);
     }
   }

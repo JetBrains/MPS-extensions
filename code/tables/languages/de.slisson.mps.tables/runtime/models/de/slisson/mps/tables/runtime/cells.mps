@@ -12820,35 +12820,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="7Sfyg9RgerQ" role="3cqZAp">
-              <node concept="3clFbS" id="7Sfyg9RgerS" role="3clFbx">
-                <node concept="3clFbF" id="7Sfyg9Rad8T" role="3cqZAp">
-                  <node concept="2OqwBi" id="7Sfyg9RagO7" role="3clFbG">
-                    <node concept="Xjq3P" id="7Sfyg9Rad8R" role="2Oq$k0" />
-                    <node concept="liA8E" id="7Sfyg9RapIQ" role="2OqNvi">
-                      <ref role="37wK5l" to="g51k:~EditorCell_Collection.removeCell(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="removeCell" />
-                      <node concept="37vLTw" id="7Sfyg9Razo5" role="37wK5m">
-                        <ref role="3cqZAo" node="20OswHE0fyJ" resolve="myWrappedEditorCell" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="7Sfyg9RgufO" role="3clFbw">
-                <node concept="Xjq3P" id="7Sfyg9Rgp7X" role="2Oq$k0" />
-                <node concept="liA8E" id="7Sfyg9RgBvs" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.containsCell(jetbrains.mps.nodeEditor.cells.EditorCell)" resolve="containsCell" />
-                  <node concept="10QFUN" id="7Sfyg9RhiRQ" role="37wK5m">
-                    <node concept="3uibUv" id="7Sfyg9RhtIf" role="10QFUM">
-                      <ref role="3uigEE" to="g51k:~EditorCell" resolve="EditorCell" />
-                    </node>
-                    <node concept="37vLTw" id="7Sfyg9RgILR" role="10QFUP">
-                      <ref role="3cqZAo" node="20OswHE0fyJ" resolve="myWrappedEditorCell" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="5prQSJ56M3s" role="3cqZAp">
               <node concept="2OqwBi" id="5prQSJ56M3u" role="3clFbG">
                 <node concept="37vLTw" id="5prQSJ56M3v" role="2Oq$k0">

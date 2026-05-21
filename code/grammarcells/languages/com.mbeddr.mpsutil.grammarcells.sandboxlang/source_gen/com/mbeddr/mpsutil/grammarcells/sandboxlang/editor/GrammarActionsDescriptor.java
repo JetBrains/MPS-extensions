@@ -1680,6 +1680,69 @@ public class GrammarActionsDescriptor extends AbstractGrammarActionDescriptor im
           return ListSequence.fromList(result).where((it) -> it != null).toList();
         }
       }.query()));
+      ListSequence.fromList(result).addSequence(Sequence.fromIterable(new Object() {
+        public Iterable<SubstituteMenuItem> query() {
+          List<SubstituteMenuItem> result = ListSequence.fromList(new ArrayList<SubstituteMenuItem>());
+          _context.getEditorMenuTrace().pushTraceInfo();
+          _context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("grammar.wrap in " + "TEST_AnnotationOnRootProperty_Property", new SNodePointer("r:3eda9818-abb7-42b4-a347-71b6a5e2c7c7(com.mbeddr.mpsutil.grammarcells.sandboxlang.editor)", "2489246874088743089")));
+          try {
+            if (SConceptOperations.isExactly(SNodeOperations.asSConcept(expectedOutputConceptExactly), CONCEPTS.TEST_AnnotationOnRootProperty_Property$r2)) {
+              final SAbstractConcept expectedOutputConcept = GrammarCellsUtil.getExpectedOutputConcept(_context, expectedOutputConceptExactly);
+
+              for (SConcept subconcept : ListSequence.fromList(GrammarCellsUtil.getVisibleSubconceptsNonAbstract(CONCEPTS.TEST_AnnotationOnRootProperty_Property$r2, _context.getModel(), TEST_AnnotationOnRootProperty_Property_Editor.class, _context.getEditorContext()))) {
+                final SConcept outputConcept = ((SConcept) subconcept);
+
+                if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(outputConcept), SNodeOperations.asSConcept(expectedOutputConcept))) {
+                  boolean isApplicable = GrammarCellsUtil.canBeChild(subconcept, _context);
+                  if (isApplicable) {
+                    ListSequence.fromList(result).addElement(new GrammarCellsSubstituteMenuItem(_context) {
+                      private SProperty myProperty = PROPS.propertyA$UhW4;
+
+                      public String getMatchingText(String pattern) {
+                        return pattern;
+                      }
+                      @Override
+                      public boolean canExecute(@NotNull String pattern) {
+                        if ((pattern == null || pattern.length() == 0)) {
+                          return false;
+                        }
+                        return GrammarCellsUtil.isValidPropertyValue(myProperty, expectedOutputConceptExactly, pattern);
+                      }
+                      @Override
+                      public boolean canExecuteStrictly(@NotNull String pattern) {
+                        return canExecute(pattern);
+                      }
+
+                      @Override
+                      public SNode createNode(@NotNull String pattern) {
+                        SNode newNode = SNodeFactoryOperations.createNewNode(expectedOutputConceptExactly, null);
+                        SPropertyOperations.assign(newNode, PROPS.propertyA$UhW4, GrammarCellsUtil.toInternalPropertyValue(myProperty, pattern));
+
+                        return newNode;
+                      }
+
+
+                      @Override
+                      public void select(@NotNull SNode newNode, @NotNull String pattern) {
+                        super.select(newNode, pattern);
+                      }
+
+                      @Override
+                      public SAbstractConcept getOutputConcept() {
+                        return CONCEPTS.TEST_AnnotationOnRootProperty_Property$r2;
+                      }
+                    });
+                  }
+                }
+
+              }
+            }
+          } finally {
+            _context.getEditorMenuTrace().popTraceInfo();
+          }
+          return ListSequence.fromList(result).where((it) -> it != null).toList();
+        }
+      }.query()));
     } finally {
       _context.getEditorMenuTrace().popTraceInfo();
     }
@@ -5152,6 +5215,25 @@ public class GrammarActionsDescriptor extends AbstractGrammarActionDescriptor im
           }.query(_context)));
         }
       }
+      {
+        boolean sideEnabled = false;
+        sideEnabled |= _context.getMenuLocation() == MenuLocations.LEFT_SIDE_TRANSFORM;
+        sideEnabled |= _context.getMenuLocation() == MenuLocations.RIGHT_SIDE_TRANSFORM;
+        if (sideEnabled) {
+          ListSequence.fromList(result).addSequence(Sequence.fromIterable(new Object() {
+            public Iterable<TransformationMenuItem> query(final TransformationMenuContext _context) {
+              List<TransformationMenuItem> result = ListSequence.fromList(new ArrayList<TransformationMenuItem>());
+              _context.getEditorMenuTrace().pushTraceInfo();
+              _context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("grammar.wrap in " + "TEST_AnnotationOnRootProperty_Property", new SNodePointer("r:3eda9818-abb7-42b4-a347-71b6a5e2c7c7(com.mbeddr.mpsutil.grammarcells.sandboxlang.editor)", "2489246874088743089")));
+              try {
+              } finally {
+                _context.getEditorMenuTrace().popTraceInfo();
+              }
+              return ListSequence.fromList(result).where((it) -> it != null).toList();
+            }
+          }.query(_context)));
+        }
+      }
     } finally {
       _context.getEditorMenuTrace().popTraceInfo();
     }
@@ -5775,6 +5857,7 @@ public class GrammarActionsDescriptor extends AbstractGrammarActionDescriptor im
     /*package*/ static final SConcept WrapStmtAncestorWhitelisting$5F = MetaAdapterFactory.getConcept(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x67214c097a8cb54dL, "com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.WrapStmtAncestorWhitelisting");
     /*package*/ static final SConcept WrapStmtAncestor$M = MetaAdapterFactory.getConcept(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x192271e957cc3a92L, "com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.WrapStmtAncestor");
     /*package*/ static final SConcept WrapStmtParent$sT = MetaAdapterFactory.getConcept(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x3c63845d4f013505L, "com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.WrapStmtParent");
+    /*package*/ static final SConcept TEST_AnnotationOnRootProperty_Property$r2 = MetaAdapterFactory.getConcept(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x228b94d7e84f9667L, "com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_AnnotationOnRootProperty_Property");
     /*package*/ static final SConcept OptionalProperty$hO = MetaAdapterFactory.getConcept(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x3c189f55011bb283L, "com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.OptionalProperty");
     /*package*/ static final SConcept DemoOptionalCellsCapability$VG = MetaAdapterFactory.getConcept(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x61d2e1e09ffae3cbL, "com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.DemoOptionalCellsCapability");
     /*package*/ static final SConcept TEST_CellModelTraversal$KZ = MetaAdapterFactory.getConcept(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x43c851a4e08ae83eL, "com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_CellModelTraversal");
@@ -5814,6 +5897,7 @@ public class GrammarActionsDescriptor extends AbstractGrammarActionDescriptor im
     /*package*/ static final SProperty flagA$A9n2 = MetaAdapterFactory.getProperty(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x4bda779a8f431be7L, 0x4bda779a8f431bf2L, "flagA");
     /*package*/ static final SProperty enum1$ZHY3 = MetaAdapterFactory.getProperty(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x7ad4439f7f776381L, 0x7ad4439f7f776411L, "enum1");
     /*package*/ static final SProperty flagAndTooltip$zyk_ = MetaAdapterFactory.getProperty(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x6e6ad4c836d00507L, 0x6e6ad4c836d0050aL, "flagAndTooltip");
+    /*package*/ static final SProperty propertyA$UhW4 = MetaAdapterFactory.getProperty(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x228b94d7e84f9667L, 0x228b94d7e84f9d28L, "propertyA");
     /*package*/ static final SProperty intProperty$EBD9 = MetaAdapterFactory.getProperty(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x3c189f55011bb283L, 0x3c189f55011bb28aL, "intProperty");
     /*package*/ static final SProperty property1$VGZY = MetaAdapterFactory.getProperty(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x61d2e1e09ffae3cbL, 0x61d2e1e0a03a04ccL, "property1");
     /*package*/ static final SProperty unit$FZ9h = MetaAdapterFactory.getProperty(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x3c189f5500d02ab9L, 0x3c189f5500d02abdL, "unit");

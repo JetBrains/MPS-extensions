@@ -44,6 +44,7 @@
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
+      <concept id="1134379236839" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedPropertyCell" flags="ng" index="uhnNJ" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -4092,6 +4093,27 @@
         <property role="3F0ifm" value=";" />
       </node>
       <node concept="l2Vlx" id="7NCbR4gZtWb" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2ab_dvCjTXh">
+    <ref role="1XX52x" to="ibwz:2ab_dvCjTpB" resolve="TEST_AnnotationOnRootProperty_Property" />
+    <node concept="1kIj98" id="2ab_dvCjU2L" role="2wV5jI">
+      <node concept="3F0A7n" id="2ab_dvCjU4Z" role="1kIj9b">
+        <ref role="1NtTu8" to="ibwz:2ab_dvCjTOC" resolve="propertyA" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2ab_dvCoZ5n">
+    <ref role="1XX52x" to="ibwz:2ab_dvCjSNN" resolve="TEST_AnnotationOnRootProperty_Annotation" />
+    <node concept="3EZMnI" id="2ab_dvCoZjt" role="2wV5jI">
+      <node concept="3F0ifn" id="2ab_dvCoZjx" role="3EZMnx">
+        <property role="3F0ifm" value="$/" />
+      </node>
+      <node concept="uhnNJ" id="2ab_dvCoZYM" role="3EZMnx" />
+      <node concept="3F0ifn" id="2ab_dvCoZq2" role="3EZMnx">
+        <property role="3F0ifm" value="/" />
+      </node>
+      <node concept="l2Vlx" id="2ab_dvCoZjw" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -33,6 +33,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.generator.impl.query.IfMacroCondition;
 import jetbrains.mps.generator.impl.query.ReferenceTargetQuery;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 @Generated
 public class QueriesGenerated extends QueryProviderBase {
@@ -44,6 +45,9 @@ public class QueriesGenerated extends QueryProviderBase {
       _context.showErrorMessage(_context.getNode(), "Cell has multiple children, but only one is expected");
     }
     return true;
+  }
+  public static boolean rule_Condition_2_0(final BaseMappingRuleContext _context) {
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), CONCEPTS.ConceptEditorDeclaration$BH);
   }
   public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
     return (String) EditorCellModel__BehaviorDescriptor.getFactoryMethodName_idhHfE2BD.invoke(_context.getNode(), _context);
@@ -70,6 +74,7 @@ public class QueriesGenerated extends QueryProviderBase {
   {
     int i = 0;
     rrcMethods.put("2490242408670937970", new RRC(i++));
+    rrcMethods.put("5299592197031600889", new RRC(i++));
   }
   @Override
   @NotNull
@@ -87,6 +92,8 @@ public class QueriesGenerated extends QueryProviderBase {
       switch (methodKey) {
         case 0:
           return QueriesGenerated.rule_Condition_0_0(ctx);
+        case 1:
+          return QueriesGenerated.rule_Condition_2_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no condition method for rule %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -236,5 +243,9 @@ public class QueriesGenerated extends QueryProviderBase {
     /*package*/ static final SContainmentLink factoryMethod$vAXl = MetaAdapterFactory.getContainmentLink(0x52733268be244f5fL, 0xab84a73b7c0c03b0L, 0x228f1e46dd6e9f14L, 0x228f1e46dd71c36fL, "factoryMethod");
     /*package*/ static final SContainmentLink body$e68K = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L, 0x108bbd29b4aL, "body");
     /*package*/ static final SContainmentLink statement$53DE = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept ConceptEditorDeclaration$BH = MetaAdapterFactory.getConcept(0x18bc659203a64e29L, 0xa83a7ff23bde13baL, 0xf9845363abL, "jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration");
   }
 }

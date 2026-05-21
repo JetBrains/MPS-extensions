@@ -1179,7 +1179,7 @@
       <node id="8963411245961932714" at="38,240,39,28" concept="1" />
       <node id="8963411245961932714" at="39,28,40,31" concept="1" />
       <node id="8963411245961932714" at="40,31,41,22" concept="6" />
-      <node id="8963411245961932714" at="43,46,44,61" concept="6" />
+      <node id="8963411245961932714" at="43,46,44,64" concept="6" />
       <node id="7256306029309770990" at="46,41,47,100" concept="5" />
       <node id="7256306029309770990" at="47,100,48,47" concept="1" />
       <node id="7256306029309770990" at="48,47,49,34" concept="1" />
@@ -1193,7 +1193,7 @@
       <node id="8963411245961932714" at="34,0,43,0" concept="4" trace="createCustomFactory_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8963411245961932714" at="26,26,27,18" />
       <scope id="8963411245961932714" at="30,39,31,35" />
-      <scope id="8963411245961932714" at="43,46,44,61" />
+      <scope id="8963411245961932714" at="43,46,44,64" />
       <scope id="8963411245961932714" at="19,89,21,18" />
       <scope id="8963411245961932714" at="30,0,33,0" />
       <scope id="8963411245961932714" at="43,0,46,0" />

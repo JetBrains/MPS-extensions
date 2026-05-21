@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -27,10 +26,10 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class ViewParameter__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x1f1b4a81113d4b88L, 0x9b672bae3e4f8128L, 0x336f00ee8bad7e40L, "com.mbeddr.mpsutil.projectview.structure.ViewParameter");
 
-  public static final SMethod<String> getParameterName_idhP8qAbK = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getParameterName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1225280611056L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
-  public static final SMethod<SNode> getType_id27DJnJtIQ9C = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getType").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2443692612523876968L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
+  public static final SMethod<String> getParameterName_idhP8qAbK = new SMethodBuilder<>(String.class).name("getParameterName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1225280611056L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
+  public static final SMethod<SNode> getType_id27DJnJtIQ9C = new SMethodBuilder<>(SNode.class).name("getType").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2443692612523876968L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParameterName_idhP8qAbK, getType_id27DJnJtIQ9C);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getParameterName_idhP8qAbK, getType_id27DJnJtIQ9C);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
 

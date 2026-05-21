@@ -16,7 +16,7 @@
       <unit at="11,0,30,0" name="de.itemis.mps.editor.enumeration.demolang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,28,0" name="de.itemis.mps.editor.enumeration.demolang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,36,0" name="de.itemis.mps.editor.enumeration.demolang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="18,0,68,0" name="de.itemis.mps.editor.enumeration.demolang.structure.StructureAspectDescriptor" />
@@ -36,8 +36,8 @@
       <scope id="2135528801629920482" at="19,42,25,30" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2135528801629920482" at="12,0,13,0" concept="7" trace="TestRoot" />
-      <node id="2135528801629920482" at="15,116,16,47" concept="1" />
+      <node id="2135528801629920482" at="14,0,15,0" concept="7" trace="TestRoot" />
+      <node id="2135528801629920482" at="17,116,18,47" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2135528801629920482" at="19,0,20,0" concept="2" trace="myConceptTestRoot" />

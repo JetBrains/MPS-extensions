@@ -41,7 +41,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createMultiline_1());
+    editorCell.addEditorCell(createMultiline_0());
     return editorCell;
   }
   private EditorCell createConstant_0() {
@@ -50,16 +50,16 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createMultiline_0(EditorContext editorContext, SNode node) {
+  private EditorCell createMultiline_0() {
     getCellFactory().pushCellContext();
     try {
       SProperty property = PROPS.text$7rur;
-      getCellFactory().setPropertyInfo(new SPropertyInfo(node, property));
-      CellProviderWithRole provider = new MultilineCellProvider(node, property, editorContext);
+      getCellFactory().setPropertyInfo(new SPropertyInfo(getNode(), property));
+      CellProviderWithRole provider = new MultilineCellProvider(getNode(), property, getEditorContext());
       provider.setAllowsEmptyTarget(false);
       provider.setNoTargetText("<no text>");
       EditorCell editorCell;
-      editorCell = provider.createEditorCell(editorContext);
+      editorCell = provider.createEditorCell(getEditorContext());
       setCellContext(editorCell);
 
       editorCell.setCellId("property_text");
@@ -72,9 +72,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     } finally {
       getCellFactory().popCellContext();
     }
-  }
-  private EditorCell createMultiline_1() {
-    return createMultiline_0(getEditorContext(), myNode);
   }
 
   private static final class PROPS {

@@ -109,7 +109,7 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
   }
 
   /*package*/ EditorCell createCell() {
-    return createDiagramNode_1();
+    return _cell_factory_method_();
   }
 
   private EditorCell createDiagramNode_0(final EditorContext editorContext, final SNode node) {
@@ -260,8 +260,8 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 
     return editorCell.value;
   }
-  private EditorCell createDiagramNode_1() {
-    return createDiagramNode_0(getEditorContext(), myNode);
+  private EditorCell _cell_factory_method_() {
+    return createDiagramNode_0(getEditorContext(), getNode());
   }
   private Float _StyleParameter_QueryFunction_3k4y3b_a0a() {
     return 2.0f;
@@ -534,7 +534,7 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private EditorCell createCollapsible_0(EditorContext editorContext, SNode node) {
     EditorCell expanded = createCollection_2();
@@ -564,7 +564,7 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
     return editorCell;
   }
   private EditorCell createCollapsible_1() {
-    return createCollapsible_0(getEditorContext(), myNode);
+    return createCollapsible_0(getEditorContext(), getNode());
   }
   private EditorCell createCollection_2() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
@@ -572,19 +572,16 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createCompartment_1());
+    editorCell.addEditorCell(createCompartment_0());
     editorCell.addEditorCell(createRefNode_0());
-    editorCell.addEditorCell(createCompartment_3());
+    editorCell.addEditorCell(createCompartment_1());
     editorCell.addEditorCell(createConstant_1());
     return editorCell;
   }
-  private EditorCell createCompartment_0(EditorContext editorContext, SNode node) {
-    CompartmentCell editorCell = new CompartmentCell(editorContext, node);
+  private EditorCell createCompartment_0() {
+    CompartmentCell editorCell = new CompartmentCell(getEditorContext(), getNode());
     editorCell.setCellId("Compartment_3k4y3b_a0c0a");
     return editorCell;
-  }
-  private EditorCell createCompartment_1() {
-    return createCompartment_0(getEditorContext(), myNode);
   }
   private EditorCell createRefNode_0() {
     SingleRoleCellProvider provider = new exprSingleRoleHandler_3k4y3b_b0c0a(myNode, LINKS.expr$Vim7, getEditorContext());
@@ -641,17 +638,14 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
       return "<no expr>";
     }
   }
-  private EditorCell createCompartment_2(EditorContext editorContext, SNode node) {
-    CompartmentCell editorCell = new CompartmentCell(editorContext, node);
+  private EditorCell createCompartment_1() {
+    CompartmentCell editorCell = new CompartmentCell(getEditorContext(), getNode());
     editorCell.setCellId("Compartment_3k4y3b_c0c0a");
     Style style = new StyleImpl();
     style.set(StyleAttributes.getInstance().<Float>getAttribute("de.itemis.mps.editor.diagram.styles", "__line-width"), _StyleParameter_QueryFunction_3k4y3b_a0c0c0a());
     style.set(StyleAttributes.getInstance().<Color>getAttribute("de.itemis.mps.editor.diagram.styles", "__line-color"), getStyleRegistry().getSimpleColor(_StyleParameter_QueryFunction_3k4y3b_a1c0c0a()));
     editorCell.getStyle().putAll(style);
     return editorCell;
-  }
-  private EditorCell createCompartment_3() {
-    return createCompartment_2(getEditorContext(), myNode);
   }
   private Float _StyleParameter_QueryFunction_3k4y3b_a0c0c0a() {
     return 1.0f;
@@ -671,11 +665,11 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createCompartment_5());
+    editorCell.addEditorCell(createCompartment_2());
     return editorCell;
   }
-  private EditorCell createCompartment_4(EditorContext editorContext, SNode node) {
-    CompartmentCell editorCell = new CompartmentCell(editorContext, node);
+  private EditorCell createCompartment_2() {
+    CompartmentCell editorCell = new CompartmentCell(getEditorContext(), getNode());
     editorCell.setCellId("Compartment_3k4y3b_a0c0a_0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.getInstance().<Float>getAttribute("de.itemis.mps.editor.diagram.styles", "__line-width"), _StyleParameter_QueryFunction_3k4y3b_a0a0c0a());
@@ -683,9 +677,6 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
     style.set(StyleAttributes.getInstance().<LineStyle>getAttribute("de.itemis.mps.editor.diagram.styles", "__line-style"), _StyleParameter_QueryFunction_3k4y3b_a2a0c0a());
     editorCell.getStyle().putAll(style);
     return editorCell;
-  }
-  private EditorCell createCompartment_5() {
-    return createCompartment_4(getEditorContext(), myNode);
   }
   private Float _StyleParameter_QueryFunction_3k4y3b_a0a0c0a() {
     return 1.0f;

@@ -59,7 +59,7 @@ public class EditorCell_Word extends EditorCell_Property {
     setSRole(new SContainmentLink() {
 
       /**
-       * Important for {@link jetbrains.mps.nodeEditor.ChildrenCollectionFinder }#isMultipleCollectionCell
+       * Important for {@link jetbrains.mps.nodeEditor.ChildrenCollectionFinder} #isMultipleCollectionCell
        * 
        * @deprecated 
        */

@@ -340,7 +340,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private ElkPadding _StyleParameter_QueryFunction_7xqc9q_a0c0() {
     return (ElkPadding) Padding__BehaviorDescriptor.toElkPadding_id56jSwh$Gd44.invoke(SLinkOperations.getTarget(SLinkOperations.getTarget(getNode(), LINKS.config$G6cD), LINKS.nodeSizeMinimumPadding$A3N_));

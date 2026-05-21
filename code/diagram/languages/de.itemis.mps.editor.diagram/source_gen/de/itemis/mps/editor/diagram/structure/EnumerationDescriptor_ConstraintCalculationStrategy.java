@@ -19,7 +19,7 @@ public class EnumerationDescriptor_ConstraintCalculationStrategy extends Enumera
   private final EnumerationDescriptor.MemberDescriptor myMember_SCANLINE_0 = new EnumerationDescriptor.MemberDescriptor("SCANLINE", "SCANLINE", 0x32d28aa5f45719ccL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379220428");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f45719c8L, 0x32d28aa5f45719c9L, 0x32d28aa5f45719ccL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_QUADRATIC_0, myMember_SCANLINE_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_QUADRATIC_0, myMember_SCANLINE_0);
 
   @Nullable
   @Override

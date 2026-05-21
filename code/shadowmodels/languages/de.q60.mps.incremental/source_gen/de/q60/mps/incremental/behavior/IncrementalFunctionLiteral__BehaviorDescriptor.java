@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -17,7 +16,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import jetbrains.mps.smodel.builder.SNodeBuilder;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -26,16 +24,14 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class IncrementalFunctionLiteral__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xda8e6b627ca34489L, 0x86bcb70a501ca28fL, 0x76acb31994e11a16L, "de.q60.mps.incremental.structure.IncrementalFunctionLiteral");
 
-  public static final SMethod<SNode> getType_idhTgUC0Q = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getType").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1229718192182L).languageId(0x86bcb70a501ca28fL, 0xda8e6b627ca34489L).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
-  public static final SMethod<SNode> getBody_idi2fhZ_m = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getBody").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1239354440022L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
-  public static final SMethod<SNode> getExpectedRetType_idi2fhBNC = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getExpectedRetType").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1239354342632L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
-  public static final SMethod<List<SNode>> getThrowableTypes_id5op8ooRkkc7 = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getThrowableTypes").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6204026822016975623L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
-  public static final SMethod<Iterable<SNode>> getParameters_id7qGGLAkZPfX = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8551406714925044733L).languageId(0x86bcb70a501ca28fL, 0xda8e6b627ca34489L).build2();
+  public static final SMethod<SNode> getType_idhTgUC0Q = new SMethodBuilder<>(SNode.class).name("getType").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1229718192182L).languageId(0x86bcb70a501ca28fL, 0xda8e6b627ca34489L).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), "paramTypes"), SMethodBuilder.createJavaParameter(SNode.class, "resultType"), SMethodBuilder.createJavaParameter(SNode.class, "returnType"), SMethodBuilder.createJavaParameter(SNode.class, "termType"), SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), "throwsTypes"));
+  public static final SMethod<SNode> getBody_idi2fhZ_m = new SMethodBuilder<>(SNode.class).name("getBody").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1239354440022L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
+  public static final SMethod<SNode> getExpectedRetType_idi2fhBNC = new SMethodBuilder<>(SNode.class).name("getExpectedRetType").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1239354342632L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
+  public static final SMethod<List<SNode>> getThrowableTypes_id5op8ooRkkc7 = new SMethodBuilder<>((Class<List<SNode>>) ((Class) Object.class)).name("getThrowableTypes").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6204026822016975623L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
+  public static final SMethod<Iterable<SNode>> getParameters_id7qGGLAkZPfX = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("getParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8551406714925044733L).languageId(0x86bcb70a501ca28fL, 0xda8e6b627ca34489L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getType_idhTgUC0Q, getBody_idi2fhZ_m, getExpectedRetType_idi2fhBNC, getThrowableTypes_id5op8ooRkkc7, getParameters_id7qGGLAkZPfX);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getType_idhTgUC0Q, getBody_idi2fhZ_m, getExpectedRetType_idi2fhBNC, getThrowableTypes_id5op8ooRkkc7, getParameters_id7qGGLAkZPfX);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getType_idhTgUC0Q(@NotNull SNode __thisNode__, List<SNode> paramTypes, SNode resultType, SNode returnType, SNode termType, List<SNode> throwsTypes) {
     return _quotation_createNode_w7uui2_a0a0(paramTypes, resultType, throwsTypes);
@@ -57,10 +53,6 @@ public final class IncrementalFunctionLiteral__BehaviorDescriptor extends BaseBH
   /*package*/ IncrementalFunctionLiteral__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

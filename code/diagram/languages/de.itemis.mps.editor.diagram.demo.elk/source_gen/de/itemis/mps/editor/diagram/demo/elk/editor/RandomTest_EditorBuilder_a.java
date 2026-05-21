@@ -321,7 +321,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private Double _StyleParameter_QueryFunction_umc3uj_a0c0() {
     return Double.valueOf(SPropertyOperations.getString(SLinkOperations.getTarget(getNode(), LINKS.config$G6cD), PROPS.aspectRatio$NEGi));

@@ -69,9 +69,9 @@ public class Do_Not_Grow_Horizontal_In_Grid_Test extends BaseTransformationTest 
 
       int c_d_gap = ddd.getX() - (ccc.getX() + ccc.getWidth());
       int a_b_gap = bbbbbbbbb.getX() - (aaaaaaaaaaaaaa.getX() + aaaaaaaaaaaaaa.getWidth());
-      Assert.assertEquals(a_b_gap, c_d_gap);
-      Assert.assertEquals(ddd.getLeftGap(), bbbbbbbbb.getLeftGap());
-      Assert.assertEquals(aaaaaaaaaaaaaa.getRightGap(), ccc.getRightGap());
+      Assert.assertEquals(Integer.valueOf(a_b_gap), Integer.valueOf(c_d_gap));
+      Assert.assertEquals(Integer.valueOf(ddd.getLeftGap()), Integer.valueOf(bbbbbbbbb.getLeftGap()));
+      Assert.assertEquals(Integer.valueOf(aaaaaaaaaaaaaa.getRightGap()), Integer.valueOf(ccc.getRightGap()));
     }
   }
 }

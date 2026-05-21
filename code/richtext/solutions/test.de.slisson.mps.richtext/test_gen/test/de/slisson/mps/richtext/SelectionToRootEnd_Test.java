@@ -40,8 +40,8 @@ public class SelectionToRootEnd_Test extends BaseTransformationTest {
       invokeAction("de.slisson.mps.richtext.plugin.RichtextSelectionRootEnd_Action");
       RichtextSelection selection = as_csrrz_a0a2a3g(getEditorComponent().getSelectionManager().getSelection(), RichtextSelection.class);
       Assert.assertNotNull(selection);
-      Assert.assertEquals(new CellAnnotation(167, 3, 33, false).getTextStartPos(), selection.getStartTextPos());
-      Assert.assertEquals(new CellAnnotation(167, 3, 33, false).getTextEndPos(), selection.getEndTextPos());
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(167, 3, 33, false).getTextStartPos()), Integer.valueOf(selection.getStartTextPos()));
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(167, 3, 33, false).getTextEndPos()), Integer.valueOf(selection.getEndTextPos()));
 
     }
     private static <T> T as_csrrz_a0a2a3g(Object o, Class<T> type) {

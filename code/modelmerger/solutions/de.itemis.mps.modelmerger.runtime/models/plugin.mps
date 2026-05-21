@@ -8,7 +8,7 @@
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
@@ -181,7 +181,6 @@
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345530174" name="jetbrains.mps.baseLanguage.javadoc.structure.AuthorBlockDocTag" flags="ng" index="P$Jll">
@@ -192,11 +191,8 @@
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
       </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -306,9 +302,69 @@
         </node>
       </node>
       <node concept="z59LJ" id="1XZC5ZooXpb" role="lGtFl">
-        <node concept="TZ5HA" id="1XZC5ZooXpc" role="TZ5H$">
-          <node concept="1dT_AC" id="1XZC5ZooXpd" role="1dT_Ay">
-            <property role="1dT_AB" value="nodeMap provides a map of nodes from imported model to the original model in order to handle reference resolutions after merging" />
+        <node concept="1PaTwC" id="L0S2CpU6tQ" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6tR" role="1PaTwD">
+            <property role="3oM_SC" value="nodeMap" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6tS" role="1PaTwD">
+            <property role="3oM_SC" value="provides" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6tT" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6tU" role="1PaTwD">
+            <property role="3oM_SC" value="map" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6tV" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6tW" role="1PaTwD">
+            <property role="3oM_SC" value="nodes" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6tX" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6tY" role="1PaTwD">
+            <property role="3oM_SC" value="imported" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6tZ" role="1PaTwD">
+            <property role="3oM_SC" value="model" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u0" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u1" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u2" role="1PaTwD">
+            <property role="3oM_SC" value="original" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u3" role="1PaTwD">
+            <property role="3oM_SC" value="model" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u4" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u5" role="1PaTwD">
+            <property role="3oM_SC" value="order" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u6" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u7" role="1PaTwD">
+            <property role="3oM_SC" value="handle" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u8" role="1PaTwD">
+            <property role="3oM_SC" value="reference" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6u9" role="1PaTwD">
+            <property role="3oM_SC" value="resolutions" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6ua" role="1PaTwD">
+            <property role="3oM_SC" value="after" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6ub" role="1PaTwD">
+            <property role="3oM_SC" value="merging" />
           </node>
         </node>
       </node>
@@ -891,25 +947,129 @@
       </node>
       <node concept="P$JXv" id="4zKvG_YBrWl" role="lGtFl">
         <node concept="TUZQ0" id="4zKvG_YBrWo" role="3nqlJM">
-          <property role="TUZQ4" value="Original Model" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="4zKvG_YBrWq" role="zr_5Q">
             <ref role="zr_51" node="6NDRJQ9sN5P" resolve="mdlSrc" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6uc" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6ud" role="1PaTwD">
+              <property role="3oM_SC" value="Original" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6ue" role="1PaTwD">
+              <property role="3oM_SC" value="Model" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="4zKvG_YBrWr" role="3nqlJM">
-          <property role="TUZQ4" value="Imported Model" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="4zKvG_YBrWt" role="zr_5Q">
             <ref role="zr_51" node="6NDRJQ9sNla" resolve="mdlDest" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6uf" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6ug" role="1PaTwD">
+              <property role="3oM_SC" value="Imported" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uh" role="1PaTwD">
+              <property role="3oM_SC" value="Model" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="4zKvG_YBrWu" role="3nqlJM">
-          <property role="TUZQ4" value="Points to the classes implementing the IdentityCalculator Interface. This is generally obtained from the extensions generated by the IdentityCalculatorRegistry node" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="4zKvG_YBrWw" role="zr_5Q">
             <ref role="zr_51" node="6NDRJQ9sOXW" resolve="identityCalculatorReg" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6ui" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6uj" role="1PaTwD">
+              <property role="3oM_SC" value="Points" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uk" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6ul" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6um" role="1PaTwD">
+              <property role="3oM_SC" value="classes" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6un" role="1PaTwD">
+              <property role="3oM_SC" value="implementing" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uo" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6up" role="1PaTwD">
+              <property role="3oM_SC" value="IdentityCalculator" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uq" role="1PaTwD">
+              <property role="3oM_SC" value="Interface." />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6ur" role="1PaTwD">
+              <property role="3oM_SC" value="This" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6us" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6ut" role="1PaTwD">
+              <property role="3oM_SC" value="generally" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uu" role="1PaTwD">
+              <property role="3oM_SC" value="obtained" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uv" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uw" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6ux" role="1PaTwD">
+              <property role="3oM_SC" value="extensions" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uy" role="1PaTwD">
+              <property role="3oM_SC" value="generated" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uz" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6u$" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6u_" role="1PaTwD">
+              <property role="3oM_SC" value="IdentityCalculatorRegistry" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uA" role="1PaTwD">
+              <property role="3oM_SC" value="node" />
+            </node>
+          </node>
         </node>
         <node concept="P$Jll" id="4zKvG_YBFEO" role="3nqlJM">
-          <property role="P$JZL" value="For typical usage, look at basicTests inside tests.de.itemis.mps.modelmerger" />
+          <property role="P$JZL" value="" />
+          <node concept="1PaTwC" id="L0S2CpU6uB" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6uC" role="1PaTwD">
+              <property role="3oM_SC" value="For" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uD" role="1PaTwD">
+              <property role="3oM_SC" value="typical" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uE" role="1PaTwD">
+              <property role="3oM_SC" value="usage," />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uF" role="1PaTwD">
+              <property role="3oM_SC" value="look" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uG" role="1PaTwD">
+              <property role="3oM_SC" value="at" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uH" role="1PaTwD">
+              <property role="3oM_SC" value="basicTests" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uI" role="1PaTwD">
+              <property role="3oM_SC" value="inside" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6uJ" role="1PaTwD">
+              <property role="3oM_SC" value="tests.de.itemis.mps.modelmerger" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

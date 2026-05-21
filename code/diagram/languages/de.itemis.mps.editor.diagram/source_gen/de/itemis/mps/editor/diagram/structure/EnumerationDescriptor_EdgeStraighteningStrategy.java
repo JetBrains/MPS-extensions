@@ -19,7 +19,7 @@ public class EnumerationDescriptor_EdgeStraighteningStrategy extends Enumeration
   private final EnumerationDescriptor.MemberDescriptor myMember_IMPROVE_STRAIGHTNESS_0 = new EnumerationDescriptor.MemberDescriptor("IMPROVE_STRAIGHTNESS", "IMPROVE_STRAIGHTNESS", 0x32d28aa5f455e8a6L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379142310");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f455e8a1L, 0x32d28aa5f455e8a2L, 0x32d28aa5f455e8a6L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NONE_0, myMember_IMPROVE_STRAIGHTNESS_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NONE_0, myMember_IMPROVE_STRAIGHTNESS_0);
 
   @Nullable
   @Override

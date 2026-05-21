@@ -234,7 +234,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   }
   private EditorCell createTable_1() {
-    return createTable_0(getEditorContext(), myNode);
+    return createTable_0(getEditorContext(), getNode());
   }
   public Grid createChildsVertical_vyeyr_a2a(final EditorContext editorContext, final SNode node) {
     Grid grid = new Grid();

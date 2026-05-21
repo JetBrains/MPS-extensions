@@ -278,7 +278,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell.value;
   }
   private EditorCell createDiagramContent_1() {
-    return createDiagramContent_0(getEditorContext(), myNode);
+    return createDiagramContent_0(getEditorContext(), getNode());
   }
   private LineStyle _StyleParameter_QueryFunction_4b5m3x_a1c0() {
     return LineStyle.DASHED;

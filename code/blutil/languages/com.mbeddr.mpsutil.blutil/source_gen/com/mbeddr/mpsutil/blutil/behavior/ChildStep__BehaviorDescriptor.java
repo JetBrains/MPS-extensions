@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -22,7 +21,6 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -33,20 +31,18 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class ChildStep__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e329772626e7773L, "com.mbeddr.mpsutil.blutil.structure.ChildStep");
 
-  public static final SMethod<Iterable<SNode>> childStepChildren_id3SM_R9ytu$c = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("childStepChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096721025292L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
-  public static final SMethod<Iterable<SNode>> refStepChildren_id5ub8ctrIdkF = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("refStepChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6308171743671932203L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
-  public static final SMethod<Iterable<SNode>> childLinks_id3SM_R9yrUjA = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("childLinks").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096720614630L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
-  public static final SMethod<Iterable<SNode>> refLinks_id3SM_R9ytxFF = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("refLinks").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096721038059L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
-  public static final SMethod<Iterable<SNode>> properties_id3SM_R9ytuzA = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("properties").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096721025254L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
-  public static final SMethod<Iterable<SNode>> propertyStepChildren_id3SM_R9ytu$O = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("propertyStepChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096721025332L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
-  public static final SMethod<List<SNode>> linearizedList_id223bK6mduVF = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("linearizedList").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2342767915024379627L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
-  public static final SMethod<Void> linearizedList_id5ub8ctrIpHj = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("linearizedList").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6308171743671982931L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
-  public static final SMethod<String> uid_id5ub8ctrIdl3 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("uid").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6308171743671932227L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<Iterable<SNode>> childStepChildren_id3SM_R9ytu$c = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("childStepChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096721025292L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<Iterable<SNode>> refStepChildren_id5ub8ctrIdkF = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("refStepChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6308171743671932203L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<Iterable<SNode>> childLinks_id3SM_R9yrUjA = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("childLinks").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096720614630L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<Iterable<SNode>> refLinks_id3SM_R9ytxFF = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("refLinks").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096721038059L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<Iterable<SNode>> properties_id3SM_R9ytuzA = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("properties").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096721025254L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<Iterable<SNode>> propertyStepChildren_id3SM_R9ytu$O = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("propertyStepChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4481811096721025332L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<List<SNode>> linearizedList_id223bK6mduVF = new SMethodBuilder<>((Class<List<SNode>>) ((Class) Object.class)).name("linearizedList").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2342767915024379627L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<Void> linearizedList_id5ub8ctrIpHj = new SMethodBuilder<>(Void.TYPE).name("linearizedList").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6308171743671982931L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), "res"));
+  public static final SMethod<String> uid_id5ub8ctrIdl3 = new SMethodBuilder<>(String.class).name("uid").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6308171743671932227L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childStepChildren_id3SM_R9ytu$c, refStepChildren_id5ub8ctrIdkF, childLinks_id3SM_R9yrUjA, refLinks_id3SM_R9ytxFF, properties_id3SM_R9ytuzA, propertyStepChildren_id3SM_R9ytu$O, linearizedList_id223bK6mduVF, linearizedList_id5ub8ctrIpHj, uid_id5ub8ctrIdl3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(childStepChildren_id3SM_R9ytu$c, refStepChildren_id5ub8ctrIdkF, childLinks_id3SM_R9yrUjA, refLinks_id3SM_R9ytxFF, properties_id3SM_R9ytuzA, propertyStepChildren_id3SM_R9ytu$O, linearizedList_id223bK6mduVF, linearizedList_id5ub8ctrIpHj, uid_id5ub8ctrIdl3);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Iterable<SNode> childStepChildren_id3SM_R9ytu$c(@NotNull SNode __thisNode__) {
     return ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.children$k0nx)).where((it) -> SNodeOperations.isInstanceOf(it, CONCEPTS.ChildStep$O4)).ofType(SNode.class);
@@ -93,10 +89,6 @@ public final class ChildStep__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ ChildStep__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

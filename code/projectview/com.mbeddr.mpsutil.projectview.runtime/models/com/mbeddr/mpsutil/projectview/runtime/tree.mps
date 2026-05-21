@@ -8,7 +8,7 @@
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
@@ -391,15 +391,9 @@
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
@@ -1529,14 +1523,83 @@
       <node concept="3Tm6S6" id="12OxVjN0iFQ" role="1B3o_S" />
       <node concept="10P_77" id="12OxVjN0azP" role="1tU5fm" />
       <node concept="z59LJ" id="12OxVjN0u6r" role="lGtFl">
-        <node concept="TZ5HA" id="12OxVjN0u6s" role="TZ5H$">
-          <node concept="1dT_AC" id="12OxVjN0u6t" role="1dT_Ay">
-            <property role="1dT_AB" value="Use this flag to signal if this view has already been disposed." />
+        <node concept="1PaTwC" id="L0S2CpU6A4" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6A5" role="1PaTwD">
+            <property role="3oM_SC" value="Use" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6A6" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6A7" role="1PaTwD">
+            <property role="3oM_SC" value="flag" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6A8" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6A9" role="1PaTwD">
+            <property role="3oM_SC" value="signal" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Aa" role="1PaTwD">
+            <property role="3oM_SC" value="if" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ab" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ac" role="1PaTwD">
+            <property role="3oM_SC" value="view" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ad" role="1PaTwD">
+            <property role="3oM_SC" value="has" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ae" role="1PaTwD">
+            <property role="3oM_SC" value="already" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Af" role="1PaTwD">
+            <property role="3oM_SC" value="been" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ag" role="1PaTwD">
+            <property role="3oM_SC" value="disposed." />
           </node>
         </node>
-        <node concept="TZ5HA" id="12OxVjN0v3L" role="TZ5H$">
-          <node concept="1dT_AC" id="12OxVjN0v3M" role="1dT_Ay">
-            <property role="1dT_AB" value="We simply guard against repeated calls of the dispose method with the flag." />
+        <node concept="1PaTwC" id="L0S2CpU6Ah" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Ai" role="1PaTwD">
+            <property role="3oM_SC" value="We" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Aj" role="1PaTwD">
+            <property role="3oM_SC" value="simply" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ak" role="1PaTwD">
+            <property role="3oM_SC" value="guard" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Al" role="1PaTwD">
+            <property role="3oM_SC" value="against" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Am" role="1PaTwD">
+            <property role="3oM_SC" value="repeated" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6An" role="1PaTwD">
+            <property role="3oM_SC" value="calls" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ao" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ap" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Aq" role="1PaTwD">
+            <property role="3oM_SC" value="dispose" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ar" role="1PaTwD">
+            <property role="3oM_SC" value="method" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6As" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6At" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Au" role="1PaTwD">
+            <property role="3oM_SC" value="flag." />
           </node>
         </node>
       </node>
@@ -7071,9 +7134,60 @@
         <ref role="3uigEE" to="t335:~Update" resolve="Update" />
       </node>
       <node concept="P$JXv" id="4gq8yQBZ74p" role="lGtFl">
-        <node concept="TZ5HA" id="4gq8yQBZ74q" role="TZ5H$">
-          <node concept="1dT_AC" id="4gq8yQBZ74r" role="1dT_Ay">
-            <property role="1dT_AB" value="@return update code block with the given id, that runs supplied delegate with read access to project repository" />
+        <node concept="1PaTwC" id="L0S2CpU6Av" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Aw" role="1PaTwD">
+            <property role="3oM_SC" value="@return" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ax" role="1PaTwD">
+            <property role="3oM_SC" value="update" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ay" role="1PaTwD">
+            <property role="3oM_SC" value="code" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Az" role="1PaTwD">
+            <property role="3oM_SC" value="block" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6A$" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6A_" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AA" role="1PaTwD">
+            <property role="3oM_SC" value="given" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AB" role="1PaTwD">
+            <property role="3oM_SC" value="id," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AC" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AD" role="1PaTwD">
+            <property role="3oM_SC" value="runs" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AE" role="1PaTwD">
+            <property role="3oM_SC" value="supplied" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AF" role="1PaTwD">
+            <property role="3oM_SC" value="delegate" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AG" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AH" role="1PaTwD">
+            <property role="3oM_SC" value="read" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AI" role="1PaTwD">
+            <property role="3oM_SC" value="access" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AJ" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AK" role="1PaTwD">
+            <property role="3oM_SC" value="project" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6AL" role="1PaTwD">
+            <property role="3oM_SC" value="repository" />
           </node>
         </node>
       </node>

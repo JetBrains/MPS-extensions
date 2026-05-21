@@ -45,9 +45,9 @@
       <node id="3158011787691717504" at="39,53,40,74" concept="1" />
       <node id="3158011787691717506" at="40,74,41,140" concept="3" />
       <node id="3158011787691717516" at="41,140,42,38" concept="1" />
-      <node id="3158011787691717518" at="42,38,43,113" concept="1" />
-      <node id="3158011787691717523" at="43,113,44,109" concept="1" />
-      <node id="3158011787691717528" at="44,109,45,0" concept="5" />
+      <node id="3158011787691717518" at="42,38,43,147" concept="1" />
+      <node id="3158011787691717523" at="43,147,44,143" concept="1" />
+      <node id="3158011787691717528" at="44,143,45,0" concept="5" />
       <node id="3158011787691717508" at="47,69,48,49" concept="4" />
       <node id="3158011787691717499" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787691717499" at="22,0,25,0" concept="0" trace="SelectionBetweenWordsRight_Test#()V" />
@@ -85,9 +85,9 @@
       <node id="3158011787691723138" at="39,53,40,74" concept="1" />
       <node id="3158011787691723140" at="40,74,41,140" concept="3" />
       <node id="3158011787691723150" at="41,140,42,38" concept="1" />
-      <node id="3158011787691723152" at="42,38,43,116" concept="1" />
-      <node id="3158011787691723157" at="43,116,44,112" concept="1" />
-      <node id="3158011787691723162" at="44,112,45,0" concept="5" />
+      <node id="3158011787691723152" at="42,38,43,150" concept="1" />
+      <node id="3158011787691723157" at="43,150,44,146" concept="1" />
+      <node id="3158011787691723162" at="44,146,45,0" concept="5" />
       <node id="3158011787691723142" at="47,69,48,49" concept="4" />
       <node id="3158011787691723133" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787691723133" at="22,0,25,0" concept="0" trace="SelectionBetweenLinesRight_Test#()V" />
@@ -125,9 +125,9 @@
       <node id="3158011787691727442" at="39,53,40,74" concept="1" />
       <node id="3158011787691727444" at="40,74,41,140" concept="3" />
       <node id="3158011787691727454" at="41,140,42,38" concept="1" />
-      <node id="3158011787691727456" at="42,38,43,116" concept="1" />
-      <node id="3158011787691727461" at="43,116,44,112" concept="1" />
-      <node id="3158011787691727466" at="44,112,45,0" concept="5" />
+      <node id="3158011787691727456" at="42,38,43,150" concept="1" />
+      <node id="3158011787691727461" at="43,150,44,146" concept="1" />
+      <node id="3158011787691727466" at="44,146,45,0" concept="5" />
       <node id="3158011787691727446" at="47,69,48,49" concept="4" />
       <node id="3158011787691727437" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787691727437" at="22,0,25,0" concept="0" trace="SelectionFromEndRight_Test#()V" />
@@ -192,9 +192,9 @@
       <node id="3158011787691800311" at="39,53,40,73" concept="1" />
       <node id="3158011787691800313" at="40,73,41,140" concept="3" />
       <node id="3158011787691800323" at="41,140,42,38" concept="1" />
-      <node id="3158011787691800325" at="42,38,43,116" concept="1" />
-      <node id="3158011787691800330" at="43,116,44,112" concept="1" />
-      <node id="3158011787691800335" at="44,112,45,0" concept="5" />
+      <node id="3158011787691800325" at="42,38,43,150" concept="1" />
+      <node id="3158011787691800330" at="43,150,44,146" concept="1" />
+      <node id="3158011787691800335" at="44,146,45,0" concept="5" />
       <node id="3158011787691800315" at="47,69,48,49" concept="4" />
       <node id="3158011787691800306" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787691800306" at="22,0,25,0" concept="0" trace="SelectionBetweenLinesLeft_Test#()V" />
@@ -232,9 +232,9 @@
       <node id="3158011787691802083" at="39,53,40,77" concept="1" />
       <node id="3158011787691802085" at="40,77,41,140" concept="3" />
       <node id="3158011787691802095" at="41,140,42,38" concept="1" />
-      <node id="3158011787691802097" at="42,38,43,114" concept="1" />
-      <node id="3158011787691802102" at="43,114,44,110" concept="1" />
-      <node id="3158011787691802107" at="44,110,45,0" concept="5" />
+      <node id="3158011787691802097" at="42,38,43,148" concept="1" />
+      <node id="3158011787691802102" at="43,148,44,144" concept="1" />
+      <node id="3158011787691802107" at="44,144,45,0" concept="5" />
       <node id="3158011787691802087" at="47,69,48,49" concept="4" />
       <node id="3158011787691802078" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787691802078" at="22,0,25,0" concept="0" trace="SelectionBetweenWordsUp_Test#()V" />
@@ -272,9 +272,9 @@
       <node id="3158011787691803998" at="39,53,40,73" concept="1" />
       <node id="6193633844725029091" at="40,73,41,140" concept="3" />
       <node id="6193633844725029101" at="41,140,42,38" concept="1" />
-      <node id="6193633844725029103" at="42,38,43,115" concept="1" />
-      <node id="6193633844725029110" at="43,115,44,111" concept="1" />
-      <node id="3158011787691804022" at="44,111,45,0" concept="5" />
+      <node id="6193633844725029103" at="42,38,43,149" concept="1" />
+      <node id="6193633844725029110" at="43,149,44,145" concept="1" />
+      <node id="3158011787691804022" at="44,145,45,0" concept="5" />
       <node id="6193633844725029093" at="47,69,48,49" concept="4" />
       <node id="3158011787691803993" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787691803993" at="22,0,25,0" concept="0" trace="SelectionFromStartLeft_Test#()V" />
@@ -312,9 +312,9 @@
       <node id="3158011787691880465" at="39,53,40,73" concept="1" />
       <node id="3158011787691880467" at="40,73,41,140" concept="3" />
       <node id="3158011787691880477" at="41,140,42,38" concept="1" />
-      <node id="3158011787691880479" at="42,38,43,115" concept="1" />
-      <node id="3158011787691880484" at="43,115,44,111" concept="1" />
-      <node id="3158011787691880489" at="44,111,45,0" concept="5" />
+      <node id="3158011787691880479" at="42,38,43,149" concept="1" />
+      <node id="3158011787691880484" at="43,149,44,145" concept="1" />
+      <node id="3158011787691880489" at="44,145,45,0" concept="5" />
       <node id="3158011787691880469" at="47,69,48,49" concept="4" />
       <node id="3158011787691880460" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787691880460" at="22,0,25,0" concept="0" trace="SelectionToStartLeft_Test#()V" />
@@ -353,9 +353,9 @@
       <node id="3158011787692970397" at="40,73,41,140" concept="3" />
       <node id="3158011787692970407" at="41,140,42,38" concept="1" />
       <node id="6193633844718944751" at="42,38,43,0" concept="5" />
-      <node id="3158011787692970409" at="43,0,44,116" concept="1" />
-      <node id="3158011787692970414" at="44,116,45,112" concept="1" />
-      <node id="3158011787692970419" at="45,112,46,0" concept="5" />
+      <node id="3158011787692970409" at="43,0,44,150" concept="1" />
+      <node id="3158011787692970414" at="44,150,45,146" concept="1" />
+      <node id="3158011787692970419" at="45,146,46,0" concept="5" />
       <node id="3158011787692970399" at="48,69,49,49" concept="4" />
       <node id="3158011787692970390" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787692970390" at="22,0,25,0" concept="0" trace="SelectionBetweenLinesDown_Test#()V" />
@@ -393,9 +393,9 @@
       <node id="3158011787692972495" at="39,53,40,77" concept="1" />
       <node id="3158011787692972497" at="40,77,41,140" concept="3" />
       <node id="3158011787692972507" at="41,140,42,38" concept="1" />
-      <node id="3158011787692972509" at="42,38,43,116" concept="1" />
-      <node id="3158011787692972514" at="43,116,44,112" concept="1" />
-      <node id="3158011787692972519" at="44,112,45,0" concept="5" />
+      <node id="3158011787692972509" at="42,38,43,150" concept="1" />
+      <node id="3158011787692972514" at="43,150,44,146" concept="1" />
+      <node id="3158011787692972519" at="44,146,45,0" concept="5" />
       <node id="3158011787692972499" at="47,69,48,49" concept="4" />
       <node id="3158011787692972490" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787692972490" at="22,0,25,0" concept="0" trace="SelectionBetweenLinesUp_Test#()V" />
@@ -433,9 +433,9 @@
       <node id="3158011787692986647" at="39,53,40,73" concept="1" />
       <node id="3158011787692986649" at="40,73,41,140" concept="3" />
       <node id="3158011787692986659" at="41,140,42,38" concept="1" />
-      <node id="3158011787692986661" at="42,38,43,113" concept="1" />
-      <node id="3158011787692986666" at="43,113,44,109" concept="1" />
-      <node id="3158011787692986671" at="44,109,45,0" concept="5" />
+      <node id="3158011787692986661" at="42,38,43,147" concept="1" />
+      <node id="3158011787692986666" at="43,147,44,143" concept="1" />
+      <node id="3158011787692986671" at="44,143,45,0" concept="5" />
       <node id="3158011787692986651" at="47,69,48,49" concept="4" />
       <node id="3158011787692986642" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787692986642" at="22,0,25,0" concept="0" trace="SelectionBetweenWordsLeft_Test#()V" />
@@ -473,9 +473,9 @@
       <node id="3158011787692997417" at="39,53,40,73" concept="1" />
       <node id="3158011787692997419" at="40,73,41,140" concept="3" />
       <node id="3158011787692997429" at="41,140,42,38" concept="1" />
-      <node id="3158011787692997431" at="42,38,43,115" concept="1" />
-      <node id="3158011787692997436" at="43,115,44,111" concept="1" />
-      <node id="3158011787692997441" at="44,111,45,0" concept="5" />
+      <node id="3158011787692997431" at="42,38,43,149" concept="1" />
+      <node id="3158011787692997436" at="43,149,44,145" concept="1" />
+      <node id="3158011787692997441" at="44,145,45,0" concept="5" />
       <node id="3158011787692997421" at="47,69,48,49" concept="4" />
       <node id="3158011787692997412" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="3158011787692997412" at="22,0,25,0" concept="0" trace="SelectionBetweenWordsDown_Test#()V" />
@@ -752,9 +752,9 @@
       <node id="6193633844723855459" at="40,71,41,140" concept="3" />
       <node id="6193633844723855469" at="41,140,42,38" concept="1" />
       <node id="6193633844723855471" at="42,38,43,0" concept="5" />
-      <node id="6193633844723855472" at="43,0,44,114" concept="1" />
-      <node id="6193633844723855479" at="44,114,45,110" concept="1" />
-      <node id="6193633844723855455" at="45,110,46,0" concept="5" />
+      <node id="6193633844723855472" at="43,0,44,148" concept="1" />
+      <node id="6193633844723855479" at="44,148,45,144" concept="1" />
+      <node id="6193633844723855455" at="45,144,46,0" concept="5" />
       <node id="6193633844723855461" at="48,69,49,49" concept="4" />
       <node id="6193633844723830848" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
       <node id="6193633844723830848" at="22,0,25,0" concept="0" trace="SelectUp_Test#()V" />
@@ -793,16 +793,16 @@
       <node id="6193633844723859443" at="40,73,41,141" concept="3" />
       <node id="6193633844723859453" at="41,141,42,39" concept="1" />
       <node id="6193633844723859455" at="42,39,43,0" concept="5" />
-      <node id="6193633844723859456" at="43,0,44,116" concept="1" />
-      <node id="6193633844723859463" at="44,116,45,112" concept="1" />
-      <node id="6193633844723860092" at="45,112,46,0" concept="5" />
+      <node id="6193633844723859456" at="43,0,44,150" concept="1" />
+      <node id="6193633844723859463" at="44,150,45,146" concept="1" />
+      <node id="6193633844723860092" at="45,146,46,0" concept="5" />
       <node id="6193633844723860157" at="46,0,47,73" concept="1" />
       <node id="6193633844723860159" at="47,73,48,141" concept="3" />
       <node id="6193633844723860169" at="48,141,49,39" concept="1" />
       <node id="6193633844723860171" at="49,39,50,0" concept="5" />
-      <node id="6193633844723860172" at="50,0,51,116" concept="1" />
-      <node id="6193633844723860179" at="51,116,52,112" concept="1" />
-      <node id="6193633844723860124" at="52,112,53,0" concept="5" />
+      <node id="6193633844723860172" at="50,0,51,150" concept="1" />
+      <node id="6193633844723860179" at="51,150,52,146" concept="1" />
+      <node id="6193633844723860124" at="52,146,53,0" concept="5" />
       <node id="6193633844723859470" at="53,0,54,0" concept="5" />
       <node id="6193633844723859445" at="56,69,57,49" concept="4" />
       <node id="6193633844723860161" at="59,69,60,49" concept="4" />

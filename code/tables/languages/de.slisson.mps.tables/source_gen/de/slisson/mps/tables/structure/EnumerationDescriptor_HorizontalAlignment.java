@@ -20,7 +20,7 @@ public class EnumerationDescriptor_HorizontalAlignment extends EnumerationDescri
   private final EnumerationDescriptor.MemberDescriptor myMember_CENTER_0 = new EnumerationDescriptor.MemberDescriptor("CENTER", "CENTER", 0x3cd831ad0aaf4654L, "r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/9167550852342474629");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x3cd831ad0aaf464fL, 0x3cd831ad0aaf4650L, 0x3cd831ad0aaf4651L, 0x3cd831ad0aaf4654L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_LEFT_0, myMember_RIGHT_0, myMember_CENTER_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_LEFT_0, myMember_RIGHT_0, myMember_CENTER_0);
 
   @Nullable
   @Override

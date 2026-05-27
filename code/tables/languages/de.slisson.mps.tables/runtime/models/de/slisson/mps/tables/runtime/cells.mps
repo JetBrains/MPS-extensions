@@ -9527,6 +9527,186 @@
                       </node>
                     </node>
                     <node concept="3clFbH" id="2fUANpqcTo5" role="3cqZAp" />
+                    <node concept="3SKdUt" id="G_omcp5QXL" role="3cqZAp">
+                      <node concept="1PaTwC" id="G_omcp5QXM" role="1aUNEU">
+                        <node concept="3oM_SD" id="G_omcp5QXN" role="1PaTwD">
+                          <property role="3oM_SC" value="some" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp5Zyb" role="1PaTwD">
+                          <property role="3oM_SC" value="messages" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp61ZU" role="1PaTwD">
+                          <property role="3oM_SC" value="look" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp62MX" role="1PaTwD">
+                          <property role="3oM_SC" value="like" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp62MY" role="1PaTwD">
+                          <property role="3oM_SC" value="they" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp63hM" role="1PaTwD">
+                          <property role="3oM_SC" value="belong" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp63WZ" role="1PaTwD">
+                          <property role="3oM_SC" value="to" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp63X0" role="1PaTwD">
+                          <property role="3oM_SC" value="a" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp63Zb" role="1PaTwD">
+                          <property role="3oM_SC" value="cell" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp63Zc" role="1PaTwD">
+                          <property role="3oM_SC" value="but" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp641B" role="1PaTwD">
+                          <property role="3oM_SC" value="are" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp641C" role="1PaTwD">
+                          <property role="3oM_SC" value="actually" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp643N" role="1PaTwD">
+                          <property role="3oM_SC" value="drawn" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp646u" role="1PaTwD">
+                          <property role="3oM_SC" value="by" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp648T" role="1PaTwD">
+                          <property role="3oM_SC" value="some" />
+                        </node>
+                        <node concept="3oM_SD" id="G_omcp648U" role="1PaTwD">
+                          <property role="3oM_SC" value="ancestor" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="G_omcp6iCv" role="3cqZAp">
+                      <node concept="2OqwBi" id="G_omcp6nqj" role="3clFbG">
+                        <node concept="37vLTw" id="G_omcp6iCt" role="2Oq$k0">
+                          <ref role="3cqZAo" node="quM1lwgGf2" resolve="g" />
+                        </node>
+                        <node concept="liA8E" id="G_omcp6_c0" role="2OqNvi">
+                          <ref role="37wK5l" to="z60i:~Graphics.setClip(int,int,int,int)" resolve="setClip" />
+                          <node concept="2OqwBi" id="G_omcp6UPH" role="37wK5m">
+                            <node concept="37vLTw" id="G_omcp6L_h" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1oWwpQDTgkn" resolve="cell" />
+                            </node>
+                            <node concept="liA8E" id="G_omcp70zT" role="2OqNvi">
+                              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getX()" resolve="getX" />
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="G_omcp7urW" role="37wK5m">
+                            <node concept="37vLTw" id="G_omcp7p6n" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1oWwpQDTgkn" resolve="cell" />
+                            </node>
+                            <node concept="liA8E" id="G_omcp7y0V" role="2OqNvi">
+                              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getY()" resolve="getY" />
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="G_omcp7ZIX" role="37wK5m">
+                            <node concept="37vLTw" id="G_omcp7TM5" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1oWwpQDTgkn" resolve="cell" />
+                            </node>
+                            <node concept="liA8E" id="G_omcp8dCt" role="2OqNvi">
+                              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getWidth()" resolve="getWidth" />
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="G_omcp8xCs" role="37wK5m">
+                            <node concept="37vLTw" id="G_omcp8tNm" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1oWwpQDTgkn" resolve="cell" />
+                            </node>
+                            <node concept="liA8E" id="G_omcp8JGx" role="2OqNvi">
+                              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getHeight()" resolve="getHeight" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2Gpval" id="G_omcp991C" role="3cqZAp">
+                      <node concept="2GrKxI" id="G_omcp991E" role="2Gsz3X">
+                        <property role="TrG5h" value="ancestor" />
+                      </node>
+                      <node concept="2YIFZM" id="G_omcp9Lkt" role="2GsD0m">
+                        <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getParents(jetbrains.mps.openapi.editor.cells.EditorCell,boolean)" resolve="getParents" />
+                        <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
+                        <node concept="37vLTw" id="G_omcp9Z0W" role="37wK5m">
+                          <ref role="3cqZAo" node="1oWwpQDTgkn" resolve="cell" />
+                        </node>
+                        <node concept="3clFbT" id="G_omcpafK6" role="37wK5m" />
+                      </node>
+                      <node concept="3clFbS" id="G_omcp991I" role="2LFqv$">
+                        <node concept="3clFbJ" id="G_omcpass$" role="3cqZAp">
+                          <node concept="2ZW3vV" id="G_omcpaRIB" role="3clFbw">
+                            <node concept="3uibUv" id="G_omcpb5JI" role="2ZW6by">
+                              <ref role="3uigEE" node="1dAqnm8$zBn" resolve="TableEditor" />
+                            </node>
+                            <node concept="2GrUjf" id="G_omcpaElk" role="2ZW6bz">
+                              <ref role="2Gs0qQ" node="G_omcp991E" resolve="ancestor" />
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="G_omcpassA" role="3clFbx">
+                            <node concept="3zACq4" id="G_omcpbiWs" role="3cqZAp" />
+                          </node>
+                        </node>
+                        <node concept="2Gpval" id="G_omcpbF4A" role="3cqZAp">
+                          <node concept="2GrKxI" id="G_omcpbF4C" role="2Gsz3X">
+                            <property role="TrG5h" value="message" />
+                          </node>
+                          <node concept="2YIFZM" id="G_omcpcjjh" role="2GsD0m">
+                            <ref role="37wK5l" to="f4zo:~CellMessagesUtil.getMessages(jetbrains.mps.openapi.editor.cells.EditorCell,java.lang.Class)" resolve="getMessages" />
+                            <ref role="1Pybhc" to="f4zo:~CellMessagesUtil" resolve="CellMessagesUtil" />
+                            <node concept="2GrUjf" id="G_omcpcxc2" role="37wK5m">
+                              <ref role="2Gs0qQ" node="G_omcp991E" resolve="ancestor" />
+                            </node>
+                            <node concept="3VsKOn" id="G_omcpcVBv" role="37wK5m">
+                              <ref role="3VsUkX" to="exr9:~EditorMessage" resolve="EditorMessage" />
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="G_omcpbF4G" role="2LFqv$">
+                            <node concept="3clFbJ" id="G_omcpd9F7" role="3cqZAp">
+                              <node concept="1Wc70l" id="G_omcpe1et" role="3clFbw">
+                                <node concept="3fqX7Q" id="G_omcpeeRq" role="3uHU7w">
+                                  <node concept="2OqwBi" id="G_omcpezvZ" role="3fr31v">
+                                    <node concept="2GrUjf" id="G_omcpelBh" role="2Oq$k0">
+                                      <ref role="2Gs0qQ" node="G_omcpbF4C" resolve="message" />
+                                    </node>
+                                    <node concept="liA8E" id="G_omcpeN2E" role="2OqNvi">
+                                      <ref role="37wK5l" to="exr9:~EditorMessage.isBackground()" resolve="isBackground" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3y3z36" id="G_omcpdIZh" role="3uHU7B">
+                                  <node concept="2GrUjf" id="G_omcpdxSe" role="3uHU7B">
+                                    <ref role="2Gs0qQ" node="G_omcpbF4C" resolve="message" />
+                                  </node>
+                                  <node concept="10Nm6u" id="G_omcpdNTK" role="3uHU7w" />
+                                </node>
+                              </node>
+                              <node concept="3clFbS" id="G_omcpd9F9" role="3clFbx">
+                                <node concept="3clFbF" id="G_omcpf1qb" role="3cqZAp">
+                                  <node concept="2OqwBi" id="G_omcpfe_m" role="3clFbG">
+                                    <node concept="2GrUjf" id="G_omcpf1qa" role="2Oq$k0">
+                                      <ref role="2Gs0qQ" node="G_omcpbF4C" resolve="message" />
+                                    </node>
+                                    <node concept="liA8E" id="G_omcpfktg" role="2OqNvi">
+                                      <ref role="37wK5l" to="exr9:~EditorMessage.paint(java.awt.Graphics,jetbrains.mps.nodeEditor.EditorComponent,jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="paint" />
+                                      <node concept="37vLTw" id="G_omcpfyX$" role="37wK5m">
+                                        <ref role="3cqZAo" node="quM1lwgGf2" resolve="g" />
+                                      </node>
+                                      <node concept="1rXfSq" id="G_omcpfPs8" role="37wK5m">
+                                        <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditor()" resolve="getEditor" />
+                                      </node>
+                                      <node concept="2GrUjf" id="G_omcpggxe" role="37wK5m">
+                                        <ref role="2Gs0qQ" node="G_omcp991E" resolve="ancestor" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                   <node concept="22lmx$" id="7$DZq89TcO1" role="3clFbw">
                     <node concept="37vLTw" id="7$DZq89Tl_X" role="3uHU7w">

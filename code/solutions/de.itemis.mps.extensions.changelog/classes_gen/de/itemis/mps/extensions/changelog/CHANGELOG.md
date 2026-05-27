@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 -  *de.slisson.mps.richtext.customcell* Add new switch for CellModel_CustomFactory to deal with cases where the cell creation failed when a property attribute was attached
+- *de.slisson.mps.tables* Error markers were not painted on sticky headers in some cases.
 
 ## March 2026
 

@@ -18,6 +18,10 @@ import java.awt.Rectangle;
 import java.awt.Graphics;
 import jetbrains.mps.nodeEditor.EditorComponent;
 import jetbrains.mps.nodeEditor.cells.ParentSettings;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.openapi.editor.cells.CellTraversalUtil;
+import jetbrains.mps.nodeEditor.EditorMessage;
+import jetbrains.mps.openapi.editor.cells.CellMessagesUtil;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import de.itemis.mps.editor.celllayout.runtime.TopDownCellLayoutAdapter;
@@ -33,7 +37,6 @@ import java.util.Collections;
 import jetbrains.mps.nodeEditor.cells.EditorCellContextImpl;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.openapi.editor.cells.CellAction;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import de.slisson.mps.tables.runtime.gridmodel.Grid;
 import de.slisson.mps.tables.runtime.gridmodel.EditorCellGridLeaf;
 import com.intellij.util.ObjectUtils;
@@ -126,6 +129,18 @@ public class EditorCell_GridCell extends NoInsertOverride {
         cell.paint(g);
         TableUtils.paintBorders(g, TableUtils.getCellBounds(cell), getStyleValue(STYLE_BORDER_TOP_COLOR), getStyleValue(STYLE_BORDER_TOP_WIDTH), getStyleValue(STYLE_BORDER_LEFT_COLOR), getStyleValue(STYLE_BORDER_LEFT_WIDTH), getStyleValue(STYLE_BORDER_RIGHT_COLOR), getStyleValue(STYLE_BORDER_RIGHT_WIDTH), getStyleValue(STYLE_BORDER_BOTTOM_COLOR), getStyleValue(STYLE_BORDER_BOTTOM_WIDTH));
 
+        // some messages look like they belong to a cell but are actually drawn by some ancestor
+        g.setClip(cell.getX(), cell.getY(), cell.getWidth(), cell.getHeight());
+        for (EditorCell ancestor : ListSequence.fromList(CellTraversalUtil.getParents(cell, false))) {
+          if (ancestor instanceof TableEditor) {
+            break;
+          }
+          for (EditorMessage message : ListSequence.fromList(CellMessagesUtil.getMessages(ancestor, EditorMessage.class))) {
+            if (message != null && !(message.isBackground())) {
+              message.paint(g, getEditor(), ancestor);
+            }
+          }
+        }
       }
     }
 

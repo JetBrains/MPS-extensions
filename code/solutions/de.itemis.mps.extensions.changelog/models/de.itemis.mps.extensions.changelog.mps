@@ -84,22 +84,22 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="3133179214568824809" name="jetbrains.mps.lang.text.structure.NodeWrapperElement" flags="nn" index="tu5oc">
+      <concept id="3133179214568824809" name="jetbrains.mps.lang.text.structure.NodeWrapperElement" flags="ng" index="tu5oc">
         <child id="3133179214568824810" name="node" index="tu5of" />
       </concept>
       <concept id="1094247804558289146" name="jetbrains.mps.lang.text.structure.BulletLine" flags="ng" index="2DRihI" />
       <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ngI" index="2RT3b8">
         <property id="5106752179536586491" name="indentation" index="2RT3bR" />
       </concept>
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
         <property id="6328114375520539781" name="url" index="1X82VU" />
         <property id="6328114375520539777" name="italic" index="1X82VY" />
       </concept>
-      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="ng" index="1Pa9Pv">
         <child id="2535923850359210936" name="lines" index="1PaQFQ" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -313,6 +313,50 @@
           </node>
           <node concept="3oM_SD" id="1gkZC7ksSZB" role="1PaTwD">
             <property role="3oM_SC" value="attached" />
+          </node>
+        </node>
+        <node concept="2DRihI" id="G_omcpguXe" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="G_omcpgv2l" role="1PaTwD">
+            <node concept="37shsh" id="G_omcpgv2n" role="15Aodc">
+              <node concept="1dCxOk" id="G_omcpgv6L" role="37shsm">
+                <property role="1XweGW" value="7e450f4e-1ac3-41ef-a851-4598161bdb94" />
+                <property role="1XxBO9" value="de.slisson.mps.tables" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvfu" role="1PaTwD">
+            <property role="3oM_SC" value="Error" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvlX" role="1PaTwD">
+            <property role="3oM_SC" value="markers" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvzE" role="1PaTwD">
+            <property role="3oM_SC" value="were" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgv_P" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvC0" role="1PaTwD">
+            <property role="3oM_SC" value="painted" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvLp" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvLq" role="1PaTwD">
+            <property role="3oM_SC" value="sticky" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvN_" role="1PaTwD">
+            <property role="3oM_SC" value="headers" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvPK" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvPL" role="1PaTwD">
+            <property role="3oM_SC" value="some" />
+          </node>
+          <node concept="3oM_SD" id="G_omcpgvRW" role="1PaTwD">
+            <property role="3oM_SC" value="cases." />
           </node>
         </node>
       </node>

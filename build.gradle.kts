@@ -105,7 +105,7 @@ bundledDependencies {
         dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.40.0")
 
         // xbase lib appears to be an undeclared runtime dependency of elk.alg.layered since 0.11.0
-        dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.42.0")
+        dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.43.0")
 
         configuration {
             exclude(group = "com.google.guava")

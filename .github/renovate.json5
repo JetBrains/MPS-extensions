@@ -68,6 +68,14 @@
     },
 
     {
+      // xtext 2.43+ is compiled for Java 21, but MPS 2024.1 runs tests on the bundled JBR 17, so xbase.lib (a runtime
+      // dependency of the bundled ELK) must stay on the last Java-17 build. Later branches run on newer JBRs and can update.
+      "matchPackageNames": ["org.eclipse.xtext:org.eclipse.xtext.xbase.lib"],
+      "matchBaseBranches": ["maintenance/mps20241"],
+      "allowedVersions": "< 2.43.0"
+    },
+
+    {
       "matchPackageNames": ["com.miglayout*"],
       "groupName": "miglayout"
     },

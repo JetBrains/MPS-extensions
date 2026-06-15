@@ -16,6 +16,7 @@
     <import index="tegv" ref="r:b91d2412-f094-4e55-8db6-3c782d7edc40(com.mbeddr.mpsutil.intentions.structure)" />
     <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
     <import index="rl2y" ref="r:8dfc935f-f6d1-4e4d-bfff-80832f08c4eb(nl.f1re.testing.structure)" />
+    <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
   </imports>
   <registry>
     <language id="638c9345-2613-49dc-b2ae-8ceadef24141" name="de.itemis.mps.changelog">
@@ -233,6 +234,55 @@
         </node>
         <node concept="3oM_SD" id="1$KnWE8iTo8" role="1PaTwD">
           <property role="3oM_SC" value="month." />
+        </node>
+      </node>
+    </node>
+    <node concept="15bmVD" id="7WYWMBv164i" role="15bmVC">
+      <node concept="15ShDW" id="7WYWMBv164f" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgAC/June" />
+        <property role="15ShDw" value="2026" />
+      </node>
+      <node concept="15bAme" id="7WYWMBv164g" role="15bAlL">
+        <node concept="2DRihI" id="7WYWMBv164h" role="15bAlk">
+          <node concept="15Ami3" id="7WYWMBv164j" role="1PaTwD">
+            <node concept="37shsh" id="7WYWMBv164k" role="15Aodc">
+              <node concept="1dCxOk" id="7WYWMBv164p" role="37shsm">
+                <property role="1XweGW" value="e52a4835-844d-46a1-99f8-c06129db796f" />
+                <property role="1XxBO9" value="de.q60.mps.shadowmodels.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="15BRQy" id="7WYWMBv164v" role="1PaTwD">
+            <node concept="2tJFMh" id="7WYWMBv164x" role="15BRQ_">
+              <node concept="ZC_QK" id="7WYWMBv16c9" role="2tJFKM">
+                <ref role="2aWVGs" to="l6bp:6FW8YbU5vOS" resolve="SM_CommandHelper" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="7WYWMBv16DB" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="7WYWMBv16DC" role="1PaTwD">
+            <property role="3oM_SC" value="only" />
+          </node>
+          <node concept="3oM_SD" id="7WYWMBv16qT" role="1PaTwD">
+            <property role="3oM_SC" value="runs" />
+          </node>
+          <node concept="3oM_SD" id="7WYWMBv16qU" role="1PaTwD">
+            <property role="3oM_SC" value="commands" />
+          </node>
+          <node concept="3oM_SD" id="7WYWMBv16qV" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="7WYWMBv16qW" role="1PaTwD">
+            <property role="3oM_SC" value="fully" />
+          </node>
+          <node concept="3oM_SD" id="7WYWMBv16yi" role="1PaTwD">
+            <property role="3oM_SC" value="initialized" />
+          </node>
+          <node concept="3oM_SD" id="7WYWMBv16yh" role="1PaTwD">
+            <property role="3oM_SC" value="projects." />
+          </node>
         </node>
       </node>
     </node>

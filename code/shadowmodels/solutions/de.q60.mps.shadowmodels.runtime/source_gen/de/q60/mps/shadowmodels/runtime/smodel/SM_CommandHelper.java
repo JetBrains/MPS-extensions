@@ -15,6 +15,7 @@ import jetbrains.mps.ide.ThreadUtils;
 import com.intellij.openapi.application.ApplicationManager;
 import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.project.ProjectManager;
+import jetbrains.mps.ide.project.ProjectHelper;
 import com.intellij.serviceContainer.AlreadyDisposedException;
 
 public class SM_CommandHelper {
@@ -63,7 +64,11 @@ public class SM_CommandHelper {
   protected static Project getProject() {
     try {
       List<Project> projects = MPSCoreComponents.getInstance().getPlatform().findComponent(ProjectManager.class).getOpenedProjects();
-      return ListSequence.fromList(projects).first();
+      return ListSequence.fromList(projects).findFirst((it) -> {
+        com.intellij.openapi.project.Project ideaProject = ProjectHelper.toIdeaProject(it);
+        // We only want an initialized IDEA project
+        return ideaProject != null && ideaProject.isInitialized();
+      });
     } catch (AlreadyDisposedException e) {
       return null;
     }

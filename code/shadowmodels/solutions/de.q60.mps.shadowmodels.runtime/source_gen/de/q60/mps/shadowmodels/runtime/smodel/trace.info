@@ -2162,79 +2162,85 @@
   </root>
   <root nodeRef="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)/7709076119916772664">
     <file name="SM_CommandHelper.java">
-      <node id="7709076119916772664" at="21,0,22,0" concept="13" trace="LOG" />
-      <node id="7733416878255121596" at="24,48,25,37" concept="9" />
-      <node id="7733416878255121602" at="26,28,27,15" concept="10" />
-      <node id="7733416878255121606" at="28,7,29,19" concept="3" />
-      <node id="7733416878255121610" at="29,19,30,141" concept="9" />
-      <node id="7733416878255121620" at="30,141,31,43" concept="3" />
-      <node id="7733416878255121631" at="34,15,35,23" concept="3" />
-      <node id="9159469479411809842" at="37,37,38,32" concept="3" />
-      <node id="7733416878255097846" at="45,0,46,0" concept="13" trace="queue" />
-      <node id="7709076119916775577" at="47,78,48,41" concept="9" />
-      <node id="7733416878255099800" at="49,26,50,56" concept="3" />
-      <node id="7733416878255139144" at="51,33,52,22" concept="3" />
-      <node id="4105524263003895920" at="55,34,56,89" concept="3" />
-      <node id="4105524263003893907" at="57,14,58,146" concept="3" />
-      <node id="7733416878255032790" at="64,9,65,133" concept="9" />
-      <node id="5154699284428285401" at="65,133,66,53" concept="10" />
-      <node id="2191221697639120920" at="67,42,68,18" concept="10" />
-      <node id="4105524263003893779" at="57,12,59,7" concept="0" />
-      <node id="7733416878255121600" at="25,37,28,7" concept="7" />
-      <node id="9159469479411809842" at="36,34,39,13" concept="7" />
-      <node id="7733416878255129056" at="50,56,53,7" concept="7" />
-      <node id="4105524263003893366" at="54,12,59,7" concept="7" />
-      <node id="7709076119916775596" at="54,10,60,5" concept="0" />
-      <node id="2191221697639113132" at="63,41,69,5" concept="19" />
-      <node id="2333020870185153257" at="33,79,40,11" concept="19" />
-      <node id="7733416878255040799" at="63,0,71,0" concept="14" trace="getProject#()Ljetbrains/mps/project/Project;" />
-      <node id="7733416878255121627" at="32,69,41,9" concept="6" />
-      <node id="7733416878255121624" at="31,43,42,9" concept="3" />
-      <node id="7709076119916775583" at="48,41,60,5" concept="7" />
-      <node id="7709076119916776280" at="47,0,62,0" concept="14" trace="runInCommand#(Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;)V" />
-      <node id="7733416878255121594" at="24,0,44,0" concept="8" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-      <node id="7733416878255121587" at="23,0,45,0" concept="13" trace="timer" />
-      <scope id="7733416878255121601" at="26,28,27,15" />
-      <scope id="2333020870185153259" at="34,15,35,23" />
-      <scope id="9159469479411809842" at="37,37,38,32" />
-      <scope id="7733416878255129058" at="51,33,52,22" />
-      <scope id="4105524263003893368" at="55,34,56,89" />
-      <scope id="4105524263003893780" at="57,14,58,146" />
-      <scope id="2191221697639113936" at="67,42,68,18" />
-      <scope id="2191221697639113134" at="64,9,66,53">
-        <var name="projects" id="7733416878255032791" />
-      </scope>
-      <scope id="2191221697639113933" at="67,5,69,5">
+      <node id="7709076119916772664" at="22,0,23,0" concept="13" trace="LOG" />
+      <node id="7733416878255121596" at="25,48,26,37" concept="9" />
+      <node id="7733416878255121602" at="27,28,28,15" concept="10" />
+      <node id="7733416878255121606" at="29,7,30,19" concept="3" />
+      <node id="7733416878255121610" at="30,19,31,141" concept="9" />
+      <node id="7733416878255121620" at="31,141,32,43" concept="3" />
+      <node id="7733416878255121631" at="35,15,36,23" concept="3" />
+      <node id="9159469479411809842" at="38,37,39,32" concept="3" />
+      <node id="7733416878255097846" at="46,0,47,0" concept="13" trace="queue" />
+      <node id="7709076119916775577" at="48,78,49,41" concept="9" />
+      <node id="7733416878255099800" at="50,26,51,56" concept="3" />
+      <node id="7733416878255139144" at="52,33,53,22" concept="3" />
+      <node id="4105524263003895920" at="56,34,57,89" concept="3" />
+      <node id="4105524263003893907" at="58,14,59,146" concept="3" />
+      <node id="7733416878255032790" at="65,9,66,133" concept="9" />
+      <node id="9169033252533573406" at="67,64,68,91" concept="9" />
+      <node id="9169033252533685885" at="68,91,69,51" concept="11" />
+      <node id="9169033252533558918" at="69,51,70,66" concept="10" />
+      <node id="2191221697639120920" at="72,42,73,18" concept="10" />
+      <node id="4105524263003893779" at="58,12,60,7" concept="0" />
+      <node id="7733416878255121600" at="26,37,29,7" concept="7" />
+      <node id="9159469479411809842" at="37,34,40,13" concept="7" />
+      <node id="7733416878255129056" at="51,56,54,7" concept="7" />
+      <node id="4105524263003893366" at="55,12,60,7" concept="7" />
+      <node id="5154699284428285401" at="66,133,71,9" concept="10" />
+      <node id="7709076119916775596" at="55,10,61,5" concept="0" />
+      <node id="2333020870185153257" at="34,79,41,11" concept="19" />
+      <node id="7733416878255121627" at="33,69,42,9" concept="6" />
+      <node id="2191221697639113132" at="64,41,74,5" concept="19" />
+      <node id="7733416878255121624" at="32,43,43,9" concept="3" />
+      <node id="7709076119916775583" at="49,41,61,5" concept="7" />
+      <node id="7733416878255040799" at="64,0,76,0" concept="14" trace="getProject#()Ljetbrains/mps/project/Project;" />
+      <node id="7709076119916776280" at="48,0,63,0" concept="14" trace="runInCommand#(Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;)V" />
+      <node id="7733416878255121594" at="25,0,45,0" concept="8" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+      <node id="7733416878255121587" at="24,0,46,0" concept="13" trace="timer" />
+      <scope id="7733416878255121601" at="27,28,28,15" />
+      <scope id="2333020870185153259" at="35,15,36,23" />
+      <scope id="9159469479411809842" at="38,37,39,32" />
+      <scope id="7733416878255129058" at="52,33,53,22" />
+      <scope id="4105524263003893368" at="56,34,57,89" />
+      <scope id="4105524263003893780" at="58,14,59,146" />
+      <scope id="2191221697639113936" at="72,42,73,18" />
+      <scope id="2191221697639113933" at="72,5,74,5">
         <var name="e" id="2191221697639113934" />
       </scope>
-      <scope id="2333020870185153266" at="36,34,39,13" />
-      <scope id="2333020870185153260" at="36,11,40,11">
+      <scope id="2333020870185153266" at="37,34,40,13" />
+      <scope id="9169033252533557792" at="67,64,70,66">
+        <var name="ideaProject" id="9169033252533573407" />
+      </scope>
+      <scope id="2333020870185153260" at="37,11,41,11">
         <var name="ex" id="2333020870185153262" />
       </scope>
-      <scope id="7709076119916775584" at="49,26,53,7" />
-      <scope id="7709076119916775597" at="54,12,59,7" />
-      <scope id="7733416878255016457" at="63,41,69,5" />
-      <scope id="7733416878255121630" at="33,79,40,11" />
-      <scope id="7733416878255040799" at="63,0,71,0" />
-      <scope id="7733416878255121626" at="32,69,41,9" />
-      <scope id="7733416878255121627" at="32,69,41,9">
+      <scope id="7709076119916775584" at="50,26,54,7" />
+      <scope id="7709076119916775597" at="55,12,60,7" />
+      <scope id="2191221697639113134" at="65,9,71,9">
+        <var name="projects" id="7733416878255032791" />
+      </scope>
+      <scope id="7733416878255121630" at="34,79,41,11" />
+      <scope id="7733416878255121626" at="33,69,42,9" />
+      <scope id="7733416878255121627" at="33,69,42,9">
         <var name="r" id="7733416878255121628" />
       </scope>
-      <scope id="7709076119916775569" at="47,78,60,5">
+      <scope id="7733416878255016457" at="64,41,74,5" />
+      <scope id="7733416878255040799" at="64,0,76,0" />
+      <scope id="7709076119916775569" at="48,78,61,5">
         <var name="project" id="7709076119916775578" />
       </scope>
-      <scope id="7709076119916776280" at="47,0,62,0">
+      <scope id="7709076119916776280" at="48,0,63,0">
         <var name="runnable" id="7709076119916775564" />
       </scope>
-      <scope id="7733416878255121595" at="24,48,42,9">
+      <scope id="7733416878255121595" at="25,48,43,9">
         <var name="project" id="7733416878255121597" />
         <var name="queueCopy" id="7733416878255121611" />
       </scope>
-      <scope id="7733416878255121594" at="24,0,44,0">
+      <scope id="7733416878255121594" at="25,0,45,0">
         <var name="e" id="7733416878255121594" />
       </scope>
-      <unit id="7733416878255121594" at="23,49,44,3" name="de.q60.mps.shadowmodels.runtime.smodel.SM_CommandHelper$1" />
-      <unit id="7709076119916772664" at="20,0,72,0" name="de.q60.mps.shadowmodels.runtime.smodel.SM_CommandHelper" />
+      <unit id="7733416878255121594" at="24,49,45,3" name="de.q60.mps.shadowmodels.runtime.smodel.SM_CommandHelper$1" />
+      <unit id="7709076119916772664" at="21,0,77,0" name="de.q60.mps.shadowmodels.runtime.smodel.SM_CommandHelper" />
     </file>
   </root>
   <root nodeRef="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)/7898342489379425362">

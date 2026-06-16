@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## June 2026
+
+### Fixed
+
+- *de.q60.mps.shadowmodels.runtime* [SM_CommandHelper](http://127.0.0.1:63320/node?ref=r%3A97875f9c-321e-405e-a344-6d3deab2bdba%28de.q60.mps.shadowmodels.runtime.smodel%29%2F7709076119916772664) now only runs commands on fully initialized projects.
+
 ## May 2026
 
 ### Fixed

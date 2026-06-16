@@ -317,6 +317,12 @@ publishing {
             artifactId = "extensions"
 
             pom {
+                scm {
+                    url = "https://github.com/JetBrains/MPS-extensions"
+                    connection = "scm:git:git://github.com/JetBrains/MPS-extensions.git"
+                    developerConnection = "scm:git:ssh://git@github.com/JetBrains/MPS-extensions.git"
+                    tag = "HEAD"
+                }
                 licenses {
                     // official SPDX identifier
                     // see https://spdx.org/licenses/ for list

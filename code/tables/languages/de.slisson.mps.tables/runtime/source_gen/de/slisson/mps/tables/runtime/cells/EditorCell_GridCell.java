@@ -15,8 +15,11 @@ import jetbrains.mps.nodeEditor.AdditionalPainter;
 import jetbrains.mps.nodeEditor.AbstractAdditionalPainter;
 import java.awt.Point;
 import java.awt.Rectangle;
-import java.awt.Graphics;
+import org.jetbrains.annotations.Nullable;
+import com.intellij.ui.components.JBViewport;
 import jetbrains.mps.nodeEditor.EditorComponent;
+import javax.swing.SwingUtilities;
+import java.awt.Graphics;
 import jetbrains.mps.nodeEditor.cells.ParentSettings;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.openapi.editor.cells.CellTraversalUtil;
@@ -96,6 +99,14 @@ public class EditorCell_GridCell extends NoInsertOverride {
       return styleCheck && !(isVisibleInEditor(point)) && viewRect.getY() > cell.getY() && viewRect.getY() + cell.getHeight() - tolerance < myTable.getY() + myTable.getHeight();
     }
 
+    @Nullable
+    private JBViewport getViewport() {
+      EditorComponent editorComponent = (EditorComponent) getEditorComponent();
+      // EditorComponent.getViewport throws an AssertionException for headless components and EditorComponent.hasUI is package-private.
+      // Searching the viewport in the ancestors seems to be the cleanest workaround.
+      return (JBViewport) SwingUtilities.getAncestorOfClass(JBViewport.class, editorComponent);
+    }
+
     @Override
     public void paint(Graphics gr, EditorComponent comp) {
       if (myWrappedEditorCell.getParent() == null) {
@@ -103,8 +114,8 @@ public class EditorCell_GridCell extends NoInsertOverride {
       }
       EditorCell_GridCell cell = EditorCell_GridCell.this;
       Point point = new Point(getX(), getY());
-      EditorComponent editorComponent = (EditorComponent) getEditorComponent();
-      Rectangle viewRect = editorComponent.getViewport().getViewRect();
+      JBViewport viewport = getViewport();
+      Rectangle viewRect = (viewport != null ? viewport.getViewRect() : new Rectangle());
 
       boolean stickyX = shouldBeStickyX(point, viewRect, cell, false);
       boolean stickyY = shouldBeStickyY(point, viewRect, cell, false);

@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.q60.mps.shadowmodels.runtime* [SM_CommandHelper](http://127.0.0.1:63320/node?ref=r%3A97875f9c-321e-405e-a344-6d3deab2bdba%28de.q60.mps.shadowmodels.runtime.smodel%29%2F7709076119916772664) now only runs commands on fully initialized projects.
+- *de.slisson.mps.tables* AssertionException in EditorCell_GridCell.paint for headless components prevented screenshots
 
 ## May 2026
 

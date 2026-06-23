@@ -284,6 +284,41 @@
             <property role="3oM_SC" value="projects." />
           </node>
         </node>
+        <node concept="2DRihI" id="1wC2mc97oO5" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="15Ami3" id="1wC2mc97oSS" role="1PaTwD">
+            <node concept="37shsh" id="1wC2mc97oSU" role="15Aodc">
+              <node concept="1dCxOk" id="1wC2mc97oVa" role="37shsm">
+                <property role="1XweGW" value="7e450f4e-1ac3-41ef-a851-4598161bdb94" />
+                <property role="1XxBO9" value="de.slisson.mps.tables" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1wC2mc97pFC" role="1PaTwD">
+            <property role="3oM_SC" value="AssertionException" />
+          </node>
+          <node concept="3oM_SD" id="1wC2mc97pFD" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1wC2mc97pFE" role="1PaTwD">
+            <property role="3oM_SC" value="EditorCell_GridCell.paint" />
+          </node>
+          <node concept="3oM_SD" id="1wC2mc97pFF" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="1wC2mc97pFG" role="1PaTwD">
+            <property role="3oM_SC" value="headless" />
+          </node>
+          <node concept="3oM_SD" id="1wC2mc97pFH" role="1PaTwD">
+            <property role="3oM_SC" value="components" />
+          </node>
+          <node concept="3oM_SD" id="1wC2mc97pFI" role="1PaTwD">
+            <property role="3oM_SC" value="prevented" />
+          </node>
+          <node concept="3oM_SD" id="1wC2mc97pHT" role="1PaTwD">
+            <property role="3oM_SC" value="screenshots" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="1gkZC7ksSqH" role="15bmVC">

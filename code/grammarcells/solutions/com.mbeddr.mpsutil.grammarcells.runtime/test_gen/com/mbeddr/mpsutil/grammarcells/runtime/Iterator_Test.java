@@ -100,7 +100,7 @@ public class Iterator_Test {
       }) + "";
     }), " # "));
     counter++;
-    Assert.assertEquals(expectedRanges.length, actualRanges.length);
+    Assert.assertEquals(Integer.valueOf(expectedRanges.length), Integer.valueOf(actualRanges.length));
     {
       Iterator<InputCursor> actualRange_it = Sequence.fromArray(actualRanges).iterator();
       Iterator<String[]> expectedRange_it = Sequence.fromArray(expectedRanges).iterator();
@@ -110,7 +110,7 @@ public class Iterator_Test {
         actualRange_var = actualRange_it.next();
         expectedRange_var = expectedRange_it.next();
         List<IToken> actualValues = actualRange_var.getAll();
-        Assert.assertEquals(expectedRange_var.length, ListSequence.fromList(actualValues).count());
+        Assert.assertEquals(Integer.valueOf(expectedRange_var.length), Integer.valueOf(ListSequence.fromList(actualValues).count()));
         {
           Iterator<IToken> actual_it = ListSequence.fromList(actualValues).iterator();
           Iterator<String> expected_it = Sequence.fromArray(expectedRange_var).iterator();

@@ -85,7 +85,7 @@ public class EditorActionUtils {
     return null;
   }
   /**
-   * Should be executed inside write action as it reads and modifies a model, 
+   * Should be executed inside write action as it reads and modifies a model,
    * and ActionHandler may want to grap command, therefore, model read won't suffice.
    */
   public static void callInsertAction(@NotNull EditorCell cell) {
@@ -96,7 +96,7 @@ public class EditorActionUtils {
   }
 
   /**
-   * Should be executed inside write action, see {@link com.mbeddr.mpsutil.grammarcells.runtime.insertpopup.EditorActionUtils#callInsertAction(EditorCell) } for details
+   * Should be executed inside write action, see {@link com.mbeddr.mpsutil.grammarcells.runtime.insertpopup.EditorActionUtils#callInsertAction(EditorCell)} for details
    */
   public static void callInsertBeforeAction(@NotNull EditorCell cell) {
     if (cell.isErrorState() && APICellAdapter.validate(cell, true, true)) {
@@ -107,14 +107,14 @@ public class EditorActionUtils {
 
 
   /**
-   * Should be executed inside write action as it reads and modifies a model, 
+   * Should be executed inside write action as it reads and modifies a model,
    * and ActionHandler may want to grap command, therefore, model read won't suffice.
    */
   public static void callInsertPlaceholderAction(@NotNull EditorCell cell) {
     EditorActionUtils.callAction(cell, CellActionType.INSERT_PLACEHOLDER, true);
   }
   /**
-   * Should be executed inside write action, see {@link com.mbeddr.mpsutil.grammarcells.runtime.insertpopup.EditorActionUtils#callInsertPlaceholderAction(EditorCell) } for details
+   * Should be executed inside write action, see {@link com.mbeddr.mpsutil.grammarcells.runtime.insertpopup.EditorActionUtils#callInsertPlaceholderAction(EditorCell)} for details
    */
   public static void callInsertPlaceholderBeforeAction(@NotNull EditorCell cell) {
     EditorActionUtils.callAction(cell, CellActionType.INSERT_PLACEHOLDER_BEFORE, false);
@@ -208,7 +208,7 @@ public class EditorActionUtils {
     return true;
   }
   /**
-   * We can use this method to determine if we should redispatch insert event to the corresponding
+   * We can use this method to determine if we should redispatch insert event to the corresponding 
    * child collection below the cell returned from getPrevLeaf(cell) or we should go on and insert
    * prev. child into a collection containing cell itself
    * 

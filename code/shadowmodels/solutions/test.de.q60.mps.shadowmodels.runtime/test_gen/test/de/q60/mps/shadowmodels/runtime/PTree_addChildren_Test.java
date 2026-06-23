@@ -17,7 +17,7 @@ public class PTree_addChildren_Test {
   private IConcept[] concepts;
   @Test
   public void test_size() throws Exception {
-    Assert.assertEquals(3, Sequence.fromIterable(tree.getChildren(SM_PTree.ROOT_ID, "a")).count());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(Sequence.fromIterable(tree.getChildren(SM_PTree.ROOT_ID, "a")).count()));
   }
   @Test
   public void test_values() throws Exception {

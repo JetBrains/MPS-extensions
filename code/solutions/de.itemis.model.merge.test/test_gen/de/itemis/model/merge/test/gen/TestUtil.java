@@ -16,9 +16,9 @@ public class TestUtil {
 
   public static SModel makeTempModelFrom(SNode tSystem) {
     SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forDefaultModule());
-    Assert.assertEquals(0, Lists.newArrayList(model.getRootNodes()).size());
+    Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(Lists.newArrayList(model.getRootNodes()).size()));
     model.addRootNode(tSystem);
-    Assert.assertEquals(1, Lists.newArrayList(model.getRootNodes()).size());
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(Lists.newArrayList(model.getRootNodes()).size()));
     return model;
   }
 

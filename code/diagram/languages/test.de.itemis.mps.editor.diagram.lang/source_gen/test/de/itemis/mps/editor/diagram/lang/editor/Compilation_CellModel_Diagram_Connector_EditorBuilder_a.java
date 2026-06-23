@@ -643,7 +643,7 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
     return diagramCell.value;
   }
   private EditorCell createDiagramConnector_1() {
-    return createDiagramConnector_0(getEditorContext(), myNode);
+    return createDiagramConnector_0(getEditorContext(), getNode());
   }
   /*package*/ static class Inline_Builder_20e91b_a0a extends AbstractEditorBuilder {
     @NotNull

@@ -7,8 +7,8 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="3" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -87,6 +87,9 @@
       <concept id="1217413147516" name="jetbrains.mps.lang.plugin.structure.ActionParameter" flags="ngI" index="1NuADB">
         <child id="5538333046911298738" name="condition" index="1oa70y" />
       </concept>
+    </language>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
       <concept id="481983775135178851" name="jetbrains.mps.lang.plugin.standalone.structure.ApplicationPluginInitBlock" flags="in" index="2uRRBj" />
@@ -351,16 +354,10 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl">
       <concept id="3751132065236767083" name="jetbrains.mps.baseLanguage.lightweightdsl.structure.DependentTypeInstance" flags="ig" index="q3mfm">
@@ -387,7 +384,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1227264722563" name="jetbrains.mps.lang.smodel.structure.EqualsStructurallyExpression" flags="nn" index="2YFouu" />
@@ -1667,6 +1663,7 @@
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
+    <node concept="3Tm1VV" id="12YYiosxYeI" role="1B3o_S" />
     <node concept="2tJIrI" id="1S_MuZtNTQF" role="jymVt" />
     <node concept="2YIFZL" id="1S_MuZtNTGj" role="jymVt">
       <property role="TrG5h" value="forNodeIfExists" />
@@ -1739,7 +1736,6 @@
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
     </node>
-    <node concept="3Tm1VV" id="12YYiosxYeI" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="12YYiosIBcY">
     <property role="3GE5qa" value="copyPaste" />
@@ -3750,7 +3746,7 @@
                     <node concept="37vLTw" id="2CQc9DOucb_" role="2Oq$k0">
                       <ref role="3cqZAo" node="1vOmbRe_tj9" resolve="node" />
                     </node>
-                    <node concept="2qgKlT" id="2CQc9DOucbA" role="2OqNvi">
+                    <node concept="3zqWPK" id="WEZADybpVD" role="2OqNvi">
                       <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
                     </node>
                   </node>
@@ -4148,7 +4144,7 @@
                 <node concept="37vLTw" id="2CQc9DOu9SW" role="2Oq$k0">
                   <ref role="3cqZAo" node="12YYiosJIr_" resolve="node" />
                 </node>
-                <node concept="2qgKlT" id="2CQc9DOuauM" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybpVF" role="2OqNvi">
                   <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
                 </node>
               </node>
@@ -4326,14 +4322,95 @@
     </node>
     <node concept="3Tm1VV" id="12YYiosVWpN" role="1B3o_S" />
     <node concept="3UR2Jj" id="5LghDpmjaG2" role="lGtFl">
-      <node concept="TZ5HA" id="5LghDpmjaG3" role="TZ5H$">
-        <node concept="1dT_AC" id="5LghDpmjaG4" role="1dT_Ay">
-          <property role="1dT_AB" value="Storage holding the last copied table cells statically. The data is saved globally and will be lost on MPS exit." />
+      <node concept="1PaTwC" id="L0S2CpU6Q4" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Q5" role="1PaTwD">
+          <property role="3oM_SC" value="Storage" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Q6" role="1PaTwD">
+          <property role="3oM_SC" value="holding" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Q7" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Q8" role="1PaTwD">
+          <property role="3oM_SC" value="last" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Q9" role="1PaTwD">
+          <property role="3oM_SC" value="copied" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qa" role="1PaTwD">
+          <property role="3oM_SC" value="table" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qb" role="1PaTwD">
+          <property role="3oM_SC" value="cells" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qc" role="1PaTwD">
+          <property role="3oM_SC" value="statically." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qd" role="1PaTwD">
+          <property role="3oM_SC" value="The" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qe" role="1PaTwD">
+          <property role="3oM_SC" value="data" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qf" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qg" role="1PaTwD">
+          <property role="3oM_SC" value="saved" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qh" role="1PaTwD">
+          <property role="3oM_SC" value="globally" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qi" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qj" role="1PaTwD">
+          <property role="3oM_SC" value="will" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qk" role="1PaTwD">
+          <property role="3oM_SC" value="be" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ql" role="1PaTwD">
+          <property role="3oM_SC" value="lost" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qm" role="1PaTwD">
+          <property role="3oM_SC" value="on" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qn" role="1PaTwD">
+          <property role="3oM_SC" value="MPS" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qo" role="1PaTwD">
+          <property role="3oM_SC" value="exit." />
         </node>
       </node>
-      <node concept="TZ5HA" id="5LghDpmjaHY" role="TZ5H$">
-        <node concept="1dT_AC" id="5LghDpmjaHZ" role="1dT_Ay">
-          <property role="1dT_AB" value="The storage enables copying and pasting nodes between tables." />
+      <node concept="1PaTwC" id="L0S2CpU6Qp" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Qq" role="1PaTwD">
+          <property role="3oM_SC" value="The" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qr" role="1PaTwD">
+          <property role="3oM_SC" value="storage" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qs" role="1PaTwD">
+          <property role="3oM_SC" value="enables" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qt" role="1PaTwD">
+          <property role="3oM_SC" value="copying" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qu" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qv" role="1PaTwD">
+          <property role="3oM_SC" value="pasting" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qw" role="1PaTwD">
+          <property role="3oM_SC" value="nodes" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qx" role="1PaTwD">
+          <property role="3oM_SC" value="between" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Qy" role="1PaTwD">
+          <property role="3oM_SC" value="tables." />
         </node>
       </node>
     </node>

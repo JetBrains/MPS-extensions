@@ -48,7 +48,7 @@ public class ThemeSwitching_Test extends BaseTransformationTest {
       initTestNodes();
       runWithinCommand(() -> {
         JBColor color = JBColor.WHITE;
-        Assert.assertEquals(-1, color.getRGB());
+        Assert.assertEquals(Integer.valueOf(-1), Integer.valueOf(color.getRGB()));
 
         LafManager lafManager = LafManager.getInstance();
         UIManager.LookAndFeelInfo currentLookAndFeel = lafManager.getCurrentLookAndFeel();

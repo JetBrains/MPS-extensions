@@ -12,7 +12,7 @@
       <unit at="11,0,69,0" name="com.mbeddr.mpsutil.intentions.sandboxlang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,38,0" name="com.mbeddr.mpsutil.intentions.sandboxlang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,46,0" name="com.mbeddr.mpsutil.intentions.sandboxlang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="14,0,116,0" name="com.mbeddr.mpsutil.intentions.sandboxlang.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="1317247883695247581" at="31,56,37,44" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="1317247883695247581" at="13,0,14,0" concept="5" trace="DemoNodeWithIntentions" />
-      <node id="1317247883695247581" at="21,44,22,61" concept="0" />
+      <node id="1317247883695247581" at="15,0,16,0" concept="5" trace="DemoNodeWithIntentions" />
+      <node id="1317247883695247581" at="23,44,24,61" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1317247883695247581" at="16,0,17,0" concept="1" trace="myConceptDemoNodeWithIntentions" />
@@ -68,8 +68,8 @@
       <scope id="6237210071910106918" at="58,38,64,26" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6237210071910106918" at="17,0,18,0" concept="5" trace="Root" />
-      <node id="6237210071910106918" at="25,59,26,43" concept="0" />
+      <node id="6237210071910106918" at="19,0,20,0" concept="5" trace="Root" />
+      <node id="6237210071910106918" at="27,59,28,43" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6237210071910106918" at="20,0,21,0" concept="1" trace="myConceptRoot" />
@@ -103,8 +103,8 @@
       <scope id="6237210071910106919" at="44,47,50,35" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6237210071910106919" at="15,0,16,0" concept="5" trace="ReadOnlyChild" />
-      <node id="6237210071910106919" at="23,45,24,52" concept="0" />
+      <node id="6237210071910106919" at="17,0,18,0" concept="5" trace="ReadOnlyChild" />
+      <node id="6237210071910106919" at="25,45,26,52" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6237210071910106919" at="18,0,19,0" concept="1" trace="myConceptReadOnlyChild" />
@@ -136,8 +136,8 @@
       <scope id="6237210071910106922" at="24,39,30,27" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6237210071910106922" at="12,0,13,0" concept="5" trace="Child" />
-      <node id="6237210071910106922" at="20,116,21,44" concept="0" />
+      <node id="6237210071910106922" at="14,0,15,0" concept="5" trace="Child" />
+      <node id="6237210071910106922" at="22,116,23,44" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6237210071910106922" at="15,0,16,0" concept="1" trace="myConceptChild" />
@@ -168,8 +168,8 @@
       <scope id="6237210071910106923" at="38,40,43,28" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6237210071910106923" at="14,0,15,0" concept="5" trace="IChild" />
-      <node id="6237210071910106923" at="22,61,23,45" concept="0" />
+      <node id="6237210071910106923" at="16,0,17,0" concept="5" trace="IChild" />
+      <node id="6237210071910106923" at="24,61,25,45" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6237210071910106923" at="17,0,18,0" concept="1" trace="myConceptIChild" />
@@ -204,8 +204,8 @@
       <scope id="6237210071910112531" at="51,54,57,42" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6237210071910112531" at="16,0,17,0" concept="5" trace="ReadOnlyChildAllowed" />
-      <node id="6237210071910112531" at="24,52,25,59" concept="0" />
+      <node id="6237210071910112531" at="18,0,19,0" concept="5" trace="ReadOnlyChildAllowed" />
+      <node id="6237210071910112531" at="26,52,27,59" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6237210071910112531" at="19,0,20,0" concept="1" trace="myConceptReadOnlyChildAllowed" />

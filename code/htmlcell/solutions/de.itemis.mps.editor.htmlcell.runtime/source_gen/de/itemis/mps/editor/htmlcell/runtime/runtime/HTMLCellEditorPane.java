@@ -15,7 +15,7 @@ public class HTMLCellEditorPane extends JEditorPane {
   public HTMLCellEditorPane(String content) {
     JBHtmlEditorKit editorKit;
     // JBHTMLEditorKit is deprecated but for compatibility reasons let use this class. This should be replaced by HTMLEditorKitBuilder in the future
-    editorKit = new JBHtmlEditorKit(true);
+    editorKit = new JBHtmlEditorKit();
     this.setEditorKit(editorKit);
     this.setEditable(false);
     this.setOpaque(false);

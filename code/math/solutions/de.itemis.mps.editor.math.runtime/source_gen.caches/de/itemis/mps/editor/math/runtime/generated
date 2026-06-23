@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="6nghkswks3nnmsh30i3y3k09hbqshia">
+<product version="3" modelHash="476ogf3efwsvus6m65dc72ypsm0mxzs">
   <files names="AbstractMathSymbol.java:Dimension2DDouble.java:EditorCell_MathBase.java:EditorCell_MathEnd.java:ILayoutableSymbol.java:IMathSymbol.java:MathCellLayout.java:MathDrawUtil.java:MathEditorActions.java:MathLayoutableCell.java:MathLayoutableCellAdapter.java:MathUtil.java:OverreachingBracketsUtil.java" />
 </product>
 

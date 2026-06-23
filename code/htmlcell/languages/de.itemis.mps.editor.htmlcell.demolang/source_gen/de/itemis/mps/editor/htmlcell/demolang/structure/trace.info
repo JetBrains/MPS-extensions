@@ -12,7 +12,7 @@
       <unit at="11,0,30,0" name="de.itemis.mps.editor.htmlcell.demolang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,28,0" name="de.itemis.mps.editor.htmlcell.demolang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,36,0" name="de.itemis.mps.editor.htmlcell.demolang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,59,0" name="de.itemis.mps.editor.htmlcell.demolang.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="9175692738068469306" at="19,38,25,26" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="9175692738068469306" at="12,0,13,0" concept="5" trace="Root" />
-      <node id="9175692738068469306" at="15,116,16,43" concept="0" />
+      <node id="9175692738068469306" at="14,0,15,0" concept="5" trace="Root" />
+      <node id="9175692738068469306" at="17,116,18,43" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="9175692738068469306" at="16,0,17,0" concept="1" trace="myConceptRoot" />

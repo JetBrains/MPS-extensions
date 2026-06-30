@@ -237,6 +237,52 @@
         </node>
       </node>
     </node>
+    <node concept="15bmVD" id="1G9SdpwmZ3D" role="15bmVC">
+      <node concept="15ShDW" id="1G9SdpwmZ3A" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgAJ/July" />
+        <property role="15ShDw" value="2026" />
+      </node>
+      <node concept="15bAme" id="1G9SdpwmZ3B" role="15bAlL">
+        <node concept="2DRihI" id="1G9SdpwmZ3C" role="15bAlk">
+          <node concept="15Ami3" id="1G9Sdpwn4yX" role="1PaTwD">
+            <node concept="37shsh" id="1G9Sdpwn4yY" role="15Aodc">
+              <node concept="1dCxOk" id="1G9Sdpwn4Ly" role="37shsm">
+                <property role="1XweGW" value="1144260c-e9a5-49a2-9add-39a1a1a7077e" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.diagram.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="15Ami3" id="1G9Sdpwn4LB" role="1PaTwD">
+            <node concept="37shsh" id="1G9Sdpwn4LD" role="15Aodc">
+              <node concept="1dCxOk" id="1G9Sdpwn4LJ" role="37shsm">
+                <property role="1XweGW" value="b8eca104-6d07-43d6-9bd7-4c8692c82707" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.pagination.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="15Ami3" id="1G9Sdpwn4LO" role="1PaTwD">
+            <node concept="37shsh" id="1G9Sdpwn4LQ" role="15Aodc">
+              <node concept="1dCxOk" id="1G9Sdpwn4LW" role="37shsm">
+                <property role="1XweGW" value="1008a5ca-654c-4f3d-bc8c-6d9e8a72a38c" />
+                <property role="1XxBO9" value="de.q60.mps.explorer" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1G9Sdpwn588" role="1PaTwD">
+            <property role="3oM_SC" value="Fix" />
+          </node>
+          <node concept="3oM_SD" id="1G9Sdpwn50H" role="1PaTwD">
+            <property role="3oM_SC" value="deadlock" />
+          </node>
+          <node concept="3oM_SD" id="1G9Sdpwn50I" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="1G9Sdpwn50J" role="1PaTwD">
+            <property role="3oM_SC" value="navigation" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="15bmVD" id="7WYWMBv164i" role="15bmVC">
       <node concept="15ShDW" id="7WYWMBv164f" role="15bq2Y">
         <property role="15ShDY" value="Po4Z58IgAC/June" />

@@ -281,6 +281,37 @@
             <property role="3oM_SC" value="navigation" />
           </node>
         </node>
+        <node concept="2DRihI" id="61_dm_3cIiZ" role="15bAlk">
+          <node concept="15Ami3" id="61_dm_3cIp5" role="1PaTwD">
+            <node concept="37shsh" id="61_dm_3cIp6" role="15Aodc">
+              <node concept="1dCxOk" id="61_dm_3cIsb" role="37shsm">
+                <property role="1XweGW" value="b8eca104-6d07-43d6-9bd7-4c8692c82707" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.pagination.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="61_dm_3cIxg" role="1PaTwD">
+            <property role="3oM_SC" value="Fix" />
+          </node>
+          <node concept="3oM_SD" id="61_dm_3cIxh" role="1PaTwD">
+            <property role="3oM_SC" value="navigation" />
+          </node>
+          <node concept="3oM_SD" id="61_dm_3cIyi" role="1PaTwD">
+            <property role="3oM_SC" value="icons" />
+          </node>
+          <node concept="3oM_SD" id="61_dm_3cIzj" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="61_dm_3cI$k" role="1PaTwD">
+            <property role="3oM_SC" value="search" />
+          </node>
+          <node concept="3oM_SD" id="61_dm_3cI_l" role="1PaTwD">
+            <property role="3oM_SC" value="panel" />
+          </node>
+          <node concept="3oM_SD" id="61_dm_3cIBm" role="1PaTwD">
+            <property role="3oM_SC" value="layout" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="7WYWMBv164i" role="15bmVC">

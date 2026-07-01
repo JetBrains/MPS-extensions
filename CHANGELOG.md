@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime* *de.itemis.mps.editor.pagination.runtime* *de.q60.mps.explorer* Fix deadlock on navigation
+- *de.itemis.mps.editor.pagination.runtime* Fix navigation icons and search panel layout
 
 ## June 2026
 

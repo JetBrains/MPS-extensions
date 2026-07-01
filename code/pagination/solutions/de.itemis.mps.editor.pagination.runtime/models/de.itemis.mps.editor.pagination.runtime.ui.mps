@@ -306,8 +306,8 @@
       <node concept="3clFbS" id="5K4KrT2tECS" role="3clF47">
         <node concept="XkiVB" id="5K4KrT2vn4b" role="3cqZAp">
           <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
-          <node concept="10M0yZ" id="2mFBf1FOK3D" role="37wK5m">
-            <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.NextOccurence" resolve="NextOccurence" />
+          <node concept="10M0yZ" id="6vgUB_YuAkU" role="37wK5m">
+            <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.PreviousOccurence" resolve="PreviousOccurence" />
             <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="AllIcons.Actions" />
           </node>
           <node concept="Xl_RD" id="2mFBf1FOaJS" role="37wK5m">
@@ -643,8 +643,8 @@
       <node concept="3clFbS" id="5K4KrT2uIGK" role="3clF47">
         <node concept="XkiVB" id="5K4KrT2vbRO" role="3cqZAp">
           <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
-          <node concept="10M0yZ" id="2mFBf1FOKby" role="37wK5m">
-            <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.PreviousOccurence" resolve="PreviousOccurence" />
+          <node concept="10M0yZ" id="6vgUB_Yu_5b" role="37wK5m">
+            <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.NextOccurence" resolve="NextOccurence" />
             <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="AllIcons.Actions" />
           </node>
           <node concept="Xl_RD" id="2mFBf1FObrm" role="37wK5m">
@@ -1996,9 +1996,9 @@
               <node concept="1pGfFk" id="6nOR_0s5_jE" role="2ShVmc">
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(javax.swing.Icon)" resolve="JButton" />
-                <node concept="10M0yZ" id="5Du0AriKs0A" role="37wK5m">
-                  <ref role="3cqZAo" to="z2i8:~AllIcons$Chooser.Left" resolve="Left" />
-                  <ref role="1PxDUh" to="z2i8:~AllIcons$Chooser" resolve="AllIcons.Chooser" />
+                <node concept="10M0yZ" id="61_dm_386nL" role="37wK5m">
+                  <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.PreviousOccurence" resolve="PreviousOccurence" />
+                  <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="AllIcons.Actions" />
                 </node>
               </node>
             </node>
@@ -2147,9 +2147,9 @@
               <node concept="1pGfFk" id="5$hO0xBqq6y" role="2ShVmc">
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(javax.swing.Icon)" resolve="JButton" />
-                <node concept="10M0yZ" id="5Du0AriKAlD" role="37wK5m">
-                  <ref role="3cqZAo" to="z2i8:~AllIcons$Chooser.Right" resolve="Right" />
-                  <ref role="1PxDUh" to="z2i8:~AllIcons$Chooser" resolve="AllIcons.Chooser" />
+                <node concept="10M0yZ" id="61_dm_39cG_" role="37wK5m">
+                  <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.NextOccurence" resolve="NextOccurence" />
+                  <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="AllIcons.Actions" />
                 </node>
               </node>
             </node>

@@ -45,15 +45,15 @@
       <node id="2714435756832012285" at="72,0,73,73" concept="3" />
       <node id="1144675459999245783" at="73,73,74,21" concept="3" />
       <node id="27152588522592659" at="74,21,75,0" concept="11" />
-      <node id="4421291014780432636" at="75,0,76,53" concept="3" />
-      <node id="2714435756835151772" at="76,53,77,50" concept="3" />
+      <node id="4421291014780432636" at="75,0,76,66" concept="3" />
+      <node id="2714435756835151772" at="76,66,77,50" concept="3" />
       <node id="6511644751869919291" at="77,50,78,104" concept="3" />
       <node id="7346741327798097132" at="78,104,79,33" concept="3" />
       <node id="7346741327804015861" at="82,54,83,159" concept="3" />
       <node id="7346741327798097156" at="85,7,86,21" concept="3" />
       <node id="6418139678492958543" at="86,21,87,0" concept="11" />
-      <node id="4421291014780587107" at="87,0,88,50" concept="3" />
-      <node id="2714435756835105050" at="88,50,89,42" concept="3" />
+      <node id="4421291014780587107" at="87,0,88,58" concept="3" />
+      <node id="2714435756835105050" at="88,58,89,42" concept="3" />
       <node id="6511644751870027286" at="89,42,90,96" concept="3" />
       <node id="6511644751870015717" at="90,96,91,0" concept="11" />
       <node id="6418139678492959140" at="91,0,92,29" concept="3" />
@@ -100,6 +100,7 @@
       <node id="4421291014781207230" at="178,16,179,35" concept="3" />
       <node id="9168633032079602939" at="185,51,186,29" concept="9" />
       <node id="330987653135933087" at="190,28,191,28" concept="9" />
+      <node id="7480736788598714751" at="194,62,195,28" concept="9" />
       <node id="4421291014781127487" at="178,14,180,9" concept="0" />
       <node id="9168633032078915484" at="38,0,41,0" concept="7" trace="setMatchCase#(Z)V" />
       <node id="1144675459999540861" at="42,0,45,0" concept="7" trace="isMatchCase#()Z" />
@@ -110,6 +111,7 @@
       <node id="4421291014781906082" at="151,117,154,5" concept="6" />
       <node id="2714435756832164430" at="165,0,168,0" concept="7" trace="focusLost#(Ljava/awt/event/FocusEvent;)V" />
       <node id="9168633032079583338" at="185,0,188,0" concept="7" trace="getSearchOptionState#()Lde/itemis/mps/editor/pagination/runtime/ui/PaginationSearchPanel/SearchOptionState;" />
+      <node id="7480736788598684022" at="194,0,197,0" concept="7" trace="getPaginationSearchField#()Lde/itemis/mps/editor/pagination/runtime/ui/PaginationSearchField;" />
       <node id="7346741327798097145" at="81,0,85,0" concept="7" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
       <node id="6418139678492959153" at="94,0,98,0" concept="7" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
       <node id="1144675459999322622" at="119,0,123,0" concept="7" trace="itemStateChanged#(Ljava/awt/event/ItemEvent;)V" />
@@ -149,6 +151,7 @@
       <scope id="4421291014781127488" at="178,16,179,35" />
       <scope id="9168633032079583341" at="185,51,186,29" />
       <scope id="330987653135933067" at="190,28,191,28" />
+      <scope id="7480736788598684025" at="194,62,195,28" />
       <scope id="7346741327798147154" at="108,54,110,24" />
       <scope id="9168633032078915484" at="38,0,41,0">
         <var name="flag" id="9168633032078927531" />
@@ -166,6 +169,7 @@
         <var name="p1" id="2714435756832164434" />
       </scope>
       <scope id="9168633032079583338" at="185,0,188,0" />
+      <scope id="7480736788598684022" at="194,0,197,0" />
       <scope id="7346741327798097145" at="81,0,85,0">
         <var name="event" id="7346741327798097148" />
       </scope>
@@ -219,7 +223,7 @@
       <unit id="7346741327798147147" at="106,42,112,5" name="de.itemis.mps.editor.pagination.runtime.ui.PaginationSearchPanel$3" />
       <unit id="2714435756832164405" at="159,58,168,5" name="de.itemis.mps.editor.pagination.runtime.ui.PaginationSearchPanel$7" />
       <unit id="9168633032078719808" at="33,0,62,0" name="de.itemis.mps.editor.pagination.runtime.ui.PaginationSearchPanel$SearchOptionState" />
-      <unit id="1144675459999081448" at="22,0,194,0" name="de.itemis.mps.editor.pagination.runtime.ui.PaginationSearchPanel" />
+      <unit id="1144675459999081448" at="22,0,198,0" name="de.itemis.mps.editor.pagination.runtime.ui.PaginationSearchPanel" />
     </file>
   </root>
   <root nodeRef="r:4f2e39b1-e20e-479e-9e71-d33f8c6766e2(de.itemis.mps.editor.pagination.runtime.ui)/431717199091564605">
@@ -251,28 +255,44 @@
   </root>
   <root nodeRef="r:4f2e39b1-e20e-479e-9e71-d33f8c6766e2(de.itemis.mps.editor.pagination.runtime.ui)/4421291014788473560">
     <file name="PaginationSearchEditorCell.java">
-      <node id="4421291014788474262" at="15,91,16,160" concept="14" />
-      <node id="2714435756831701753" at="16,160,17,70" concept="3" />
-      <node id="4421291014788586835" at="18,75,19,52" concept="3" />
-      <node id="4421291014788905652" at="20,5,21,68" concept="3" />
-      <node id="4421291014788917052" at="21,68,22,75" concept="3" />
-      <node id="4421291014786805889" at="26,26,27,91" concept="10" />
-      <node id="4421291014787535553" at="27,91,28,14" concept="9" />
-      <node id="4421291014788579376" at="17,70,20,5" concept="5" />
-      <node id="4421291014783892036" at="25,0,30,0" concept="7" trace="getAscent#()I" />
-      <node id="4421291014788474247" at="15,0,24,0" concept="2" trace="PaginationSearchEditorCell#(Lde/itemis/mps/editor/pagination/runtime/pages/PagesUserObject;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-      <scope id="4421291014788579382" at="18,75,19,52" />
-      <scope id="4421291014783892041" at="26,26,28,14" />
-      <scope id="4421291014788579376" at="17,70,20,5">
+      <node id="4421291014788474262" at="16,91,17,160" concept="14" />
+      <node id="2714435756831701753" at="17,160,18,46" concept="3" />
+      <node id="4421291014788586835" at="19,75,20,52" concept="3" />
+      <node id="4421291014788905652" at="21,5,22,68" concept="3" />
+      <node id="4421291014788917052" at="22,68,23,75" concept="3" />
+      <node id="7480736788598802102" at="27,26,28,94" concept="8" />
+      <node id="7480736788598815991" at="28,94,29,65" concept="8" />
+      <node id="7480736788598884796" at="29,65,30,83" concept="8" />
+      <node id="3400762668650733734" at="32,26,33,24" concept="9" />
+      <node id="4459825420110737095" at="34,7,35,31" concept="9" />
+      <node id="4421291014787535553" at="36,5,37,51" concept="9" />
+      <node id="6946016726503410773" at="40,50,41,50" concept="9" />
+      <node id="4421291014788579376" at="18,46,21,5" concept="5" />
+      <node id="4459825420110706650" at="31,23,34,7" concept="6" />
+      <node id="6946016726503404026" at="40,0,43,0" concept="7" trace="getSearchPanel#()Lde/itemis/mps/editor/pagination/runtime/ui/PaginationSearchPanel;" />
+      <node id="7480736788599293659" at="30,83,36,5" concept="6" />
+      <node id="4421291014788474247" at="16,0,25,0" concept="2" trace="PaginationSearchEditorCell#(Lde/itemis/mps/editor/pagination/runtime/pages/PagesUserObject;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="4421291014783892036" at="26,0,39,0" concept="7" trace="getAscent#()I" />
+      <scope id="4421291014788579382" at="19,75,20,52" />
+      <scope id="4459825420110706652" at="32,26,33,24" />
+      <scope id="6946016726503404029" at="40,50,41,50" />
+      <scope id="4421291014788579376" at="18,46,21,5">
         <var name="keyListener" id="4421291014788579378" />
       </scope>
-      <scope id="4421291014783892036" at="25,0,30,0" />
-      <scope id="4421291014788474258" at="15,91,22,75" />
-      <scope id="4421291014788474247" at="15,0,24,0">
+      <scope id="6946016726503404026" at="40,0,43,0" />
+      <scope id="7480736788599293661" at="31,23,35,31" />
+      <scope id="4421291014788474258" at="16,91,23,75" />
+      <scope id="4421291014788474247" at="16,0,25,0">
         <var name="editorContext" id="4421291014788474251" />
         <var name="userObj" id="9168633032077911706" />
       </scope>
-      <unit id="4421291014788473560" at="14,0,31,0" name="de.itemis.mps.editor.pagination.runtime.ui.PaginationSearchEditorCell" />
+      <scope id="4421291014783892041" at="27,26,37,51">
+        <var name="baseline" id="7480736788598884797" />
+        <var name="paginationSearchField" id="7480736788598802103" />
+        <var name="searchTF" id="7480736788598815992" />
+      </scope>
+      <scope id="4421291014783892036" at="26,0,39,0" />
+      <unit id="4421291014788473560" at="15,0,44,0" name="de.itemis.mps.editor.pagination.runtime.ui.PaginationSearchEditorCell" />
     </file>
   </root>
   <root nodeRef="r:4f2e39b1-e20e-479e-9e71-d33f8c6766e2(de.itemis.mps.editor.pagination.runtime.ui)/6474093806815916492">
@@ -462,11 +482,11 @@
   </root>
   <root nodeRef="r:4f2e39b1-e20e-479e-9e71-d33f8c6766e2(de.itemis.mps.editor.pagination.runtime.ui)/6630637574299215593">
     <file name="PreviousPageJButton.java">
-      <node id="6630637574299676939" at="12,84,13,83" concept="14" />
+      <node id="6630637574299676939" at="12,84,13,87" concept="14" />
       <node id="6630637574299668974" at="17,97,18,66" concept="9" />
       <node id="6630637574299232821" at="12,0,15,0" concept="2" trace="PreviousPageJButton#(Lde/itemis/mps/editor/pagination/runtime/pages/PagesUserObject;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6630637574299667979" at="16,0,20,0" concept="7" trace="getActionListener#(Lde/itemis/mps/editor/pagination/runtime/pages/PagesUserObject;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/awt/event/ActionListener;" />
-      <scope id="6630637574299232824" at="12,84,13,83" />
+      <scope id="6630637574299232824" at="12,84,13,87" />
       <scope id="6630637574299667991" at="17,97,18,66" />
       <scope id="6630637574299232821" at="12,0,15,0">
         <var name="editorContext" id="6630637574299239298" />
@@ -481,11 +501,11 @@
   </root>
   <root nodeRef="r:4f2e39b1-e20e-479e-9e71-d33f8c6766e2(de.itemis.mps.editor.pagination.runtime.ui)/6630637574299511597">
     <file name="NextPageJButton.java">
-      <node id="6630637574299631092" at="12,80,13,83" concept="14" />
+      <node id="6630637574299631092" at="12,80,13,79" concept="14" />
       <node id="6630637574299641214" at="17,97,18,62" concept="9" />
       <node id="6630637574299511598" at="12,0,15,0" concept="2" trace="NextPageJButton#(Lde/itemis/mps/editor/pagination/runtime/pages/PagesUserObject;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6630637574299638891" at="16,0,20,0" concept="7" trace="getActionListener#(Lde/itemis/mps/editor/pagination/runtime/pages/PagesUserObject;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/awt/event/ActionListener;" />
-      <scope id="6630637574299511600" at="12,80,13,83" />
+      <scope id="6630637574299511600" at="12,80,13,79" />
       <scope id="6630637574299638903" at="17,97,18,62" />
       <scope id="6630637574299511598" at="12,0,15,0">
         <var name="editorContext" id="6630637574299511618" />

@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## July 2026
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram.runtime* *de.itemis.mps.editor.pagination.runtime* *de.q60.mps.explorer* Fix deadlock on navigation
+- *de.itemis.mps.editor.pagination.runtime* Fix navigation icons and search panel layout
+
 ## June 2026
 
 ### Fixed

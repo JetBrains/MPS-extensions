@@ -12,17 +12,10 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.module.SRepository;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.adapter.MetaAdapterByDeclaration;
-import org.jetbrains.mps.openapi.language.SReferenceLink;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.openapi.editor.EditorComponent;
-import org.jetbrains.annotations.Nullable;
-import jetbrains.mps.project.Project;
-import jetbrains.mps.openapi.navigation.NavigationSupport;
 import jetbrains.mps.internal.collections.runtime.NotNullWhereFilter;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import org.jetbrains.mps.openapi.language.SConceptFeature;
-import jetbrains.mps.openapi.editor.Editor;
 
 public class EditorCellUtil {
 
@@ -102,35 +95,6 @@ __switch__:
     return MetaAdapterByDeclaration.getContainmentLink(paginatedLinkDecl);
   }
 
-  public static SReferenceLink getReferenceLinkInRole(EditorCell refCell, SRepository repository) {
-    SNode refCellLinkDecl = check_eu2c9k_a0a0h(check_eu2c9k_a0a0a7(refCell.getSRole()), repository);
-    if (refCellLinkDecl == null) {
-      return null;
-    }
-    return MetaAdapterByDeclaration.getReferenceLink(refCellLinkDecl);
-  }
-
-  public static SNode getReferenceTargetInRole(EditorCell refCell, SRepository repository) {
-    SNode nodeForRefCell = refCell.getSNode();
-    if (nodeForRefCell == null) {
-      return null;
-    }
-
-    SReferenceLink refCellLink = getReferenceLinkInRole(refCell, repository);
-    if (refCellLink == null) {
-      return null;
-    }
-
-    return SLinkOperations.getTargetNode(SNodeOperations.getReference(nodeForRefCell, refCellLink));
-  }
-
-  public static EditorComponent openEditorComponentForNode(@Nullable SNode node, Project project) {
-    if (node != null && SNodeOperations.getModel(node) != null) {
-      return check_eu2c9k_a0a0a11(NavigationSupport.getInstance(project).openNode(project, node, true, true));
-    }
-    return null;
-  }
-
   public static Iterable<EditorCell> getNodesWithCell(Iterable<SNode> nodeSeq, final EditorComponent editorComponent) {
     return Sequence.fromIterable(nodeSeq).select((n) -> editorComponent.findNodeCell(n)).where(new NotNullWhereFilter());
   }
@@ -144,24 +108,6 @@ __switch__:
   private static SNodeReference check_eu2c9k_a0a1a5(SConceptFeature checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getSourceNode();
-    }
-    return null;
-  }
-  private static SNode check_eu2c9k_a0a0h(SNodeReference checkedDotOperand, SRepository repository) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.resolve(repository);
-    }
-    return null;
-  }
-  private static SNodeReference check_eu2c9k_a0a0a7(SConceptFeature checkedDotOperand) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.getSourceNode();
-    }
-    return null;
-  }
-  private static EditorComponent check_eu2c9k_a0a0a11(Editor checkedDotOperand) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.getCurrentEditorComponent();
     }
     return null;
   }

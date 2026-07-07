@@ -29,6 +29,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
+import jetbrains.mps.internal.collections.runtime.NotNullWhereFilter;
 import java.util.Objects;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import java.util.Iterator;
@@ -338,7 +339,7 @@ public class ModelSynchronizer {
     element.setRootCell(rootEditorCell);
     element.setAllowConnectionsToBox(accessor.allowConnectionsToBox());
     element.setScalingAllowed(accessor.allowScaling());
-    element.setNavigationTargets(Sequence.fromIterable(accessor.getNavigationTargets()).where((it) -> (it != null)).toList());
+    element.setNavigationTargets(Sequence.fromIterable(accessor.getNavigationTargets()).where(new NotNullWhereFilter()).toList());
 
     Bounds defaultBounds = myBoundsForNewBox;
     if (defaultBounds == null) {

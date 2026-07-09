@@ -13,6 +13,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ" />
       <concept id="1109279851642" name="jetbrains.mps.baseLanguage.structure.GenericDeclaration" flags="ng" index="16eOlS">
         <child id="1109279881614" name="typeVariableDeclaration" index="16eVyc" />
@@ -24,11 +25,18 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="1007995146067564697" name="de.slisson.mps.richtext.structure.RichTextColor" flags="ng" index="2_ksqB">
+        <property id="1007995146067580493" name="value" index="2_k0xN" />
+      </concept>
       <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
         <child id="2557074442922392302" name="words" index="19SJt6" />
       </concept>
       <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="4662924677674611402" name="italic" index="13xbI0" />
+        <property id="4662924677674611401" name="bold" index="13xbI3" />
         <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+        <child id="1007995146067960241" name="backgroundColor" index="2_jZYf" />
+        <child id="1007995146067960239" name="foregroundColor" index="2_jZYh" />
       </concept>
     </language>
     <language id="4e0df6bd-e265-4d63-9ca0-ca97e44cf841" name="de.slisson.mps.javadoc">
@@ -174,6 +182,37 @@
     </node>
     <node concept="16euLQ" id="4$G0AukZJRs" role="16eVyc">
       <property role="TrG5h" value="E" />
+    </node>
+  </node>
+  <node concept="312cEu" id="1TZk_N_byAP">
+    <property role="TrG5h" value="FormattedWords" />
+    <node concept="3Tm1VV" id="1TZk_N_byAQ" role="1B3o_S" />
+    <node concept="1saQ5G" id="1TZk_N_bEG_" role="lGtFl">
+      <node concept="19SGf9" id="1TZk_N_bEGA" role="1saQ5D">
+        <node concept="19SUe$" id="1TZk_N_bEGB" role="19SJt6">
+          <property role="19SUeA" value="Bold" />
+          <property role="13xbI3" value="true" />
+        </node>
+        <node concept="19SUe$" id="1TZk_N_c5mO" role="19SJt6">
+          <property role="19SUeA" value="Italic" />
+          <property role="13xbI0" value="true" />
+        </node>
+        <node concept="19SUe$" id="1TZk_N_bSgl" role="19SJt6">
+          <property role="19SUeA" value="ForegroundColored" />
+          <node concept="2_ksqB" id="1TZk_N_bUc_" role="2_jZYh">
+            <property role="2_k0xN" value="#0C29FF" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1TZk_N_bUc$" role="19SJt6">
+          <property role="19SUeA" value="BackgroundColored" />
+          <node concept="2_ksqB" id="1TZk_N_cgAH" role="2_jZYf">
+            <property role="2_k0xN" value="#FF0200" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1TZk_N_cgAG" role="19SJt6">
+          <property role="19SUeA" value="Normal" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

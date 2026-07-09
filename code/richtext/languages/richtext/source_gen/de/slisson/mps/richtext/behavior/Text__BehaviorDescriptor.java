@@ -20,14 +20,12 @@ import de.slisson.mps.hacks.editor.SavedCaretPosition;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SConcept;
-import org.jetbrains.mps.openapi.language.SProperty;
 
 public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e4e61L, "de.slisson.mps.richtext.structure.Text");
@@ -40,8 +38,9 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<String> asTextString_id3Q5enzfMT4l = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("asTextString").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4433012599261204757L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
   public static final SMethod<SNode> getSelectedWord_id5Zn2KFQUdoe = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getSelectedWord").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6906000695315977742L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2(SMethodBuilder.createJavaParameter(EditorContext.class, ""));
   public static final SMethod<Boolean> isEmpty_id2ZHlC004czC = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isEmpty").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3453511597019941096L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<Void> clearFormatting_id1TZk_N$HSuR = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("clearFormatting").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2197565702107793335L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(normalizeStructure_id4Lll81Ty9os, isNormalized_idIKrxbBHaGP, ensureNormalized_id3mI$71cQ6Aw, ensureNormalized_id1xf6IA5Se_N, getTextLines_id7T88Na6$wwy, asTextString_id3Q5enzfMT4l, getSelectedWord_id5Zn2KFQUdoe, isEmpty_id2ZHlC004czC);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(normalizeStructure_id4Lll81Ty9os, isNormalized_idIKrxbBHaGP, ensureNormalized_id3mI$71cQ6Aw, ensureNormalized_id1xf6IA5Se_N, getTextLines_id7T88Na6$wwy, asTextString_id3Q5enzfMT4l, getSelectedWord_id5Zn2KFQUdoe, isEmpty_id2ZHlC004czC, clearFormatting_id1TZk_N$HSuR);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.addNewChild(__thisNode__, LINKS.words$C8QZ, CONCEPTS.Word$5r);
@@ -57,17 +56,29 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
     List<SNode> newWords = new ArrayList<SNode>();
     for (SNode word : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.words$C8QZ))) {
       if (SNodeOperations.isInstanceOf(word, CONCEPTS.Word$5r) && SNodeOperations.isInstanceOf(ListSequence.fromList(newWords).last(), CONCEPTS.Word$5r)) {
-        // Merge two consecutive 'Word's
-        String leftText = SPropertyOperations.getString(SNodeOperations.cast(ListSequence.fromList(newWords).last(), CONCEPTS.Word$5r), PROPS.escapedValue$2Lqz);
-        String rightText = SPropertyOperations.getString(SNodeOperations.cast(word, CONCEPTS.Word$5r), PROPS.escapedValue$2Lqz);
-        if (leftText == null) {
-          leftText = "";
-        }
-        if (rightText == null) {
-          rightText = "";
-        }
-        SPropertyOperations.assign(SNodeOperations.cast(ListSequence.fromList(newWords).last(), CONCEPTS.Word$5r), PROPS.escapedValue$2Lqz, leftText + "" + rightText);
+        SNode leftWord = SNodeOperations.cast(ListSequence.fromList(newWords).last(), CONCEPTS.Word$5r);
+        SNode rightWord = SNodeOperations.as(word, CONCEPTS.Word$5r);
 
+        if ((boolean) Word__BehaviorDescriptor.canMergeWith_id1jhovyhpsBl.invoke(leftWord, rightWord)) {
+          String leftText = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(leftWord);
+          String rightText = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(rightWord);
+          if (leftText == null) {
+            leftText = "";
+          }
+          if (rightText == null) {
+            rightText = "";
+          }
+
+          String mergedText;
+          if (!(leftText.isEmpty()) && !(rightText.isEmpty())) {
+            mergedText = leftText + " " + rightText;
+          } else {
+            mergedText = leftText + rightText;
+          }
+          Word__BehaviorDescriptor.setText_id1JwC6U7zkKz.invoke(leftWord, mergedText);
+        } else {
+          ListSequence.fromList(newWords).addElement(word);
+        }
       } else {
         // Always a 'Word' between two embedded nodes
         if (!(SNodeOperations.isInstanceOf(word, CONCEPTS.Word$5r)) && !(SNodeOperations.isInstanceOf(ListSequence.fromList(newWords).last(), CONCEPTS.Word$5r))) {
@@ -102,16 +113,23 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
     if (!(SNodeOperations.isInstanceOf(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.words$C8QZ)).last(), CONCEPTS.Word$5r))) {
       return false;
     }
-    // A 'Word' between two embedded nodes and not two consecutive 'Word's
+    // A 'Word' between two embedded nodes and no mergeable consecutive 'Word's
     for (SNode word : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.words$C8QZ))) {
       if ((SNodeOperations.getNextSibling(word) == null)) {
         continue;
       }
-      if (!(SNodeOperations.isInstanceOf(word, CONCEPTS.Word$5r)) ^ SNodeOperations.isInstanceOf(SNodeOperations.getNextSibling(word), CONCEPTS.Word$5r)) {
+      boolean currentIsWord = SNodeOperations.isInstanceOf(word, CONCEPTS.Word$5r);
+      boolean nextIsWord = SNodeOperations.isInstanceOf(SNodeOperations.getNextSibling(word), CONCEPTS.Word$5r);
+      if (currentIsWord && nextIsWord) {
+        if ((boolean) Word__BehaviorDescriptor.canMergeWith_id1jhovyhpsBl.invoke((SNodeOperations.as(word, CONCEPTS.Word$5r)), SNodeOperations.as(SNodeOperations.getNextSibling(word), CONCEPTS.Word$5r))) {
+          return false;
+        }
+        continue;
+      }
+      if (!(currentIsWord) && !(nextIsWord)) {
         return false;
       }
     }
-
     return true;
   }
   /*package*/ static void ensureNormalized_id3mI$71cQ6Aw(@NotNull SNode __thisNode__) {
@@ -137,7 +155,7 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
         buffer.append(IWord__BehaviorDescriptor.toTextString_id3Q5enzfMT4t.invoke(word));
       }
     }
-    return trim_253g9j_a0c0u(buffer.toString());
+    return trim_253g9j_a0c0v(buffer.toString());
   }
   @Nullable
   /*package*/ static SNode getSelectedWord_id5Zn2KFQUdoe(@NotNull SAbstractConcept __thisConcept__, EditorContext editorContext) {
@@ -145,6 +163,12 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
   }
   /*package*/ static boolean isEmpty_id2ZHlC004czC(@NotNull SNode __thisNode__) {
     return isEmptyString(Text__BehaviorDescriptor.asTextString_id3Q5enzfMT4l.invoke(__thisNode__));
+  }
+  /*package*/ static void clearFormatting_id1TZk_N$HSuR(@NotNull SNode __thisNode__) {
+    for (SNode word : Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(__thisNode__, LINKS.words$C8QZ), CONCEPTS.Word$5r))) {
+      Word__BehaviorDescriptor.clearFormatting_idfallnbs7Ig.invoke(word);
+    }
+    Text__BehaviorDescriptor.ensureNormalized_id3mI$71cQ6Aw.invoke(__thisNode__);
   }
 
   /*package*/ Text__BehaviorDescriptor() {
@@ -179,6 +203,9 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
         return (T) ((String) asTextString_id3Q5enzfMT4l(node));
       case 7:
         return (T) ((Boolean) isEmpty_id2ZHlC004czC(node));
+      case 8:
+        clearFormatting_id1TZk_N$HSuR(node);
+        return null;
       default:
         throw new BHMethodNotFoundException(this, method);
     }
@@ -209,7 +236,7 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
   public SAbstractConcept getConcept() {
     return CONCEPT;
   }
-  public static String trim_253g9j_a0c0u(String str) {
+  public static String trim_253g9j_a0c0v(String str) {
     return (str == null ? null : str.trim());
   }
   private static boolean isEmptyString(String str) {
@@ -222,9 +249,5 @@ public final class Text__BehaviorDescriptor extends BaseBHDescriptor {
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept Word$5r = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word");
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty escapedValue$2Lqz = MetaAdapterFactory.getProperty(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, 0x237c8da86a9f2e0eL, "escapedValue");
   }
 }

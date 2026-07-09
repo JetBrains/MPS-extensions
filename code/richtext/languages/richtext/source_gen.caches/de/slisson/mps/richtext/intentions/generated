@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="1pvwmn5yr4k5bz6fntit87p1awclv3p">
-  <files names="IntentionsDescriptor.java:clearAllText_Intention.java" />
+<product version="3" modelHash="-8dd0bq96uqxi460cd54seut6upkovac">
+  <files names="IntentionsDescriptor.java:clearAllFormatting_Intention.java:clearAllText_Intention.java:clearFormatting_Intention.java:setBackgroundColor_Intention.java:setTextColor_Intention.java:toggleBold_Intention.java:toggleItalic_Intention.java" />
 </product>
 

@@ -30,6 +30,11 @@ import de.slisson.mps.richtext.behavior.Text__BehaviorDescriptor;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Label;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.cells.CellTraversalUtil;
+import java.awt.Color;
+import java.awt.Component;
+import com.intellij.ui.ColorPicker;
+import java.util.Collections;
+import com.intellij.ui.ColorPickerListener;
 import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 
@@ -166,6 +171,18 @@ public class RichtextUtil {
 
   public static void preventSelectionHandling() {
     _preventSelectionHandling = true;
+  }
+  /**
+   * Opens the IDE color picker dialog.
+   * 
+   * @param editorContext the active editor context
+   * @param title dialog title
+   * @param initialColor initially selected color, or null
+   * @return the selected color, or null if the dialog was cancelled
+   */
+  public static Color chooseColor(EditorContext editorContext, String title, Color initialColor) {
+    Component parentComponent = (Component) editorContext.getEditorComponent();
+    return ColorPicker.showDialog(parentComponent, title, initialColor, false, Collections.<ColorPickerListener>emptyList(), false);
   }
   private static <T> T as_5fjl1_a0a0a0a0a0c0b(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);

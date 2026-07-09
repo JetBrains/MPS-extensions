@@ -10,6 +10,7 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_IWord;
+  private ConceptPresentation props_RichTextColor;
   private ConceptPresentation props_Text;
   private ConceptPresentation props_Word;
 
@@ -24,6 +25,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_IWord = cpb.create();
         }
         return props_IWord;
+      case LanguageConceptSwitch.RichTextColor:
+        if (props_RichTextColor == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Hex color (#RRGGBB or #RRGGBBAA)");
+          cpb.rawPresentation("#");
+          props_RichTextColor = cpb.create();
+        }
+        return props_RichTextColor;
       case LanguageConceptSwitch.Text:
         if (props_Text == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

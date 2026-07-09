@@ -34,8 +34,14 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
       case 0:
         if (true) {
           // concept
-          intentions = new IntentionFactory[1];
+          intentions = new IntentionFactory[7];
           intentions[0] = new clearAllText_Intention();
+          intentions[1] = new toggleBold_Intention();
+          intentions[2] = new toggleItalic_Intention();
+          intentions[3] = new clearFormatting_Intention();
+          intentions[4] = new setBackgroundColor_Intention();
+          intentions[5] = new setTextColor_Intention();
+          intentions[6] = new clearAllFormatting_Intention();
         }
         break;
       default:
@@ -47,8 +53,14 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[1];
+    IntentionFactory[] rv = new IntentionFactory[7];
     rv[0] = new clearAllText_Intention();
+    rv[1] = new toggleBold_Intention();
+    rv[2] = new toggleItalic_Intention();
+    rv[3] = new clearFormatting_Intention();
+    rv[4] = new setBackgroundColor_Intention();
+    rv[5] = new setTextColor_Intention();
+    rv[6] = new clearAllFormatting_Intention();
     return Arrays.asList(rv);
   }
   private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL)).seal();

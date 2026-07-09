@@ -11,6 +11,11 @@ import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import de.slisson.mps.editor.multiline.cellProviders.MultilineCellProvider;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import de.slisson.mps.richtext.behavior.Word__BehaviorDescriptor;
+import java.awt.Color;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 /*package*/ class Word_EditorBuilder_a extends AbstractEditorBuilder {
@@ -47,6 +52,11 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
       editorCell.setCellId("property_escapedValue");
       editorCell.setBig(true);
       setCellContext(editorCell);
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.FONT_STYLE, _StyleParameter_QueryFunction_8g1p9d_a0a());
+      style.set(StyleAttributes.TEXT_COLOR, getStyleRegistry().getSimpleColor(_StyleParameter_QueryFunction_8g1p9d_a1a()));
+      style.set(StyleAttributes.TEXT_BACKGROUND_COLOR, getStyleRegistry().getSimpleColor(_StyleParameter_QueryFunction_8g1p9d_a2a()));
+      editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       if (attributeConcept != null) {
@@ -59,6 +69,15 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
   }
   private EditorCell createMultiline_1() {
     return createMultiline_0(getEditorContext(), myNode);
+  }
+  private int _StyleParameter_QueryFunction_8g1p9d_a0a() {
+    return (int) Word__BehaviorDescriptor.getFontStyle_idRX7zUCxkch.invoke(getNode());
+  }
+  private Color _StyleParameter_QueryFunction_8g1p9d_a1a() {
+    return Word__BehaviorDescriptor.getForegroundColor_idRX7zUCLTKj.invoke(getNode());
+  }
+  private Color _StyleParameter_QueryFunction_8g1p9d_a2a() {
+    return Word__BehaviorDescriptor.getBackgroundColor_idRX7zUCMp2r.invoke(getNode());
   }
 
   private static final class PROPS {

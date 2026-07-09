@@ -14,6 +14,7 @@ import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptIWord = createDescriptorForIWord();
+  /*package*/ final ConceptDescriptor myConceptRichTextColor = createDescriptorForRichTextColor();
   /*package*/ final ConceptDescriptor myConceptText = createDescriptorForText();
   /*package*/ final ConceptDescriptor myConceptWord = createDescriptorForWord();
   private final LanguageConceptSwitch myIndexSwitch;
@@ -30,7 +31,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptIWord, myConceptText, myConceptWord);
+    return Arrays.asList(myConceptIWord, myConceptRichTextColor, myConceptText, myConceptWord);
   }
 
   @Override
@@ -39,6 +40,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.IWord:
         return myConceptIWord;
+      case LanguageConceptSwitch.RichTextColor:
+        return myConceptRichTextColor;
       case LanguageConceptSwitch.Text:
         return myConceptText;
       case LanguageConceptSwitch.Word:
@@ -60,6 +63,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForRichTextColor() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.richtext", "RichTextColor", 0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0xdfd1e3ea8acd899L);
+    b.class_(false, false, false);
+    b.origin("r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)/1007995146067564697");
+    b.version(3);
+    b.property("value", 0xdfd1e3ea8ad164dL).type(PrimitiveTypeId.STRING).origin("1007995146067580493").done();
+    b.alias("#");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForText() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.richtext", "Text", 0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e4e61L);
     b.class_(false, false, false);
@@ -75,6 +87,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)/2557074442922438156");
     b.version(3);
     b.property("escapedValue", 0x237c8da86a9f2e0eL).type(PrimitiveTypeId.STRING).origin("2557074442922438158").done();
+    b.property("bold", 0x40b6094a0332b2c9L).type(PrimitiveTypeId.BOOLEAN).origin("4662924677674611401").done();
+    b.property("italic", 0x40b6094a0332b2caL).type(PrimitiveTypeId.BOOLEAN).origin("4662924677674611402").done();
+    b.aggregate("foregroundColor", 0xdfd1e3ea8b2e1afL).target(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0xdfd1e3ea8acd899L).optional(true).ordered(true).multiple(false).origin("1007995146067960239").done();
+    b.aggregate("backgroundColor", 0xdfd1e3ea8b2e1b1L).target(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0xdfd1e3ea8acd899L).optional(true).ordered(true).multiple(false).origin("1007995146067960241").done();
     return b.create();
   }
 }

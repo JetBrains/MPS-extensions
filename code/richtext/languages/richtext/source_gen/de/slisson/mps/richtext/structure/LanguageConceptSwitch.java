@@ -10,12 +10,14 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int IWord = 0;
-  public static final int Text = 1;
-  public static final int Word = 2;
+  public static final int RichTextColor = 1;
+  public static final int Text = 2;
+  public static final int Word = 3;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x92d2ea165a424fdfL, 0xa676c7604efe3504L);
     builder.put(0x237c8da86a9e7aecL, IWord);
+    builder.put(0xdfd1e3ea8acd899L, RichTextColor);
     builder.put(0x237c8da86a9e4e61L, Text);
     builder.put(0x237c8da86a9f2e0cL, Word);
     myIndex = builder.seal();

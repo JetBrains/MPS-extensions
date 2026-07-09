@@ -11,4 +11,7 @@ public class Word_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return new Word_EditorBuilder_a(editorContext, node).createCell();
   }
+  public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
+    return new Word_InspectorBuilder_a(editorContext, node).createCell();
+  }
 }

@@ -13,11 +13,11 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import java.util.List;
+import java.awt.Color;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import de.slisson.mps.editor.multiline.runtime.MultilineUtil;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import de.slisson.mps.richtext.runtime.selection.RichtextSelection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -25,11 +25,15 @@ import jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import de.slisson.mps.editor.multiline.cells.EditorCell_Word;
 import java.util.Collections;
+import java.awt.Font;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word");
@@ -52,8 +56,20 @@ public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
   public static final SMethod<Void> insertNodesAt_id4WdkpBdiPQf = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("insertNodesAt").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5696298824709660047L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
   public static final SMethod<String> toTextString_id3Q5enzfMT4t = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("toTextString").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4433012599261204765L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
   public static final SMethod<Iterable<String>> getTransformKeys_id7NYWYqYGfSm = new SMethodBuilder<Iterable<String>>(new SJavaCompoundTypeImpl((Class<Iterable<String>>) ((Class) Object.class))).name("getTransformKeys").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9006904477154868758L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<Integer> getFontStyle_idRX7zUCxkch = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFontStyle").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1007995146064970513L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<Color> getForegroundColor_idRX7zUCLTKj = new SMethodBuilder<Color>(new SJavaCompoundTypeImpl(Color.class)).name("getForegroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1007995146069318675L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<Color> getBackgroundColor_idRX7zUCMp2r = new SMethodBuilder<Color>(new SJavaCompoundTypeImpl(Color.class)).name("getBackgroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1007995146069446811L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<Boolean> canMergeWith_id1jhovyhpsBl = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("canMergeWith").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1500087871110236629L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  /*package*/ static final SMethod<Boolean> hasSameColor_id1jhovyhtkYX = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("hasSameColor").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1500087871111253949L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  /*package*/ static final SMethod<SNode> createStyledCopy_id1jhovyhBuRL = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("createStyledCopy").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1500087871113915889L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  /*package*/ static final SMethod<SNode> copyColor_id1jhovyhDPSi = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("copyColor").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1500087871114534418L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  public static final SMethod<SNode> splitSelection_id1jhovyhL2ZC = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("splitSelection").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1500087871116423144L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
+  public static final SMethod<SNode> getFormattingTarget_id6umUSh$Je0s = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getFormattingTarget").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7464412386271485980L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2(SMethodBuilder.createJavaParameter(EditorContext.class, ""));
+  public static final SMethod<Void> clearFormatting_idfallnbs7Ig = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("clearFormatting").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(273124554383063952L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<Boolean> isFormatted_idfallnbtjdl = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isFormatted").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(273124554383373141L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  /*package*/ static final SMethod<Void> normalizeSplitFragment_id1TZk_N$_ALv = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("normalizeSplitFragment").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(2197565702105623647L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getText_idehGfXvI_DB, setText_id1JwC6U7zkKz, getTextLength_id635SBilAXnW, isValidCursorPosition_id635SBilAXqa, splitWordAt_id13kKwkYCzXI, splitWordAt_id1yC42PmlXe, splitWordAtCaret_id7SG8rlRJ$G9, splitWordAtSelection_id1yC42PmnFR, getSelectedText_idlp3OKvgJt4, getSelection_idlp3OKvgCxD, getCaretPosition_id13kKwkYC$wf, insertTextAtCaret_id2dWzqxECJHs, insertTextAt_id4YWDi1U$WhW, replaceSelection_id2FluRPpNMcC, insertNodesAtCaret_id4WdkpBdiPPZ, insertNodesAt_id4WdkpBdiPQf, toTextString_id3Q5enzfMT4t, getTransformKeys_id7NYWYqYGfSm);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getText_idehGfXvI_DB, setText_id1JwC6U7zkKz, getTextLength_id635SBilAXnW, isValidCursorPosition_id635SBilAXqa, splitWordAt_id13kKwkYCzXI, splitWordAt_id1yC42PmlXe, splitWordAtCaret_id7SG8rlRJ$G9, splitWordAtSelection_id1yC42PmnFR, getSelectedText_idlp3OKvgJt4, getSelection_idlp3OKvgCxD, getCaretPosition_id13kKwkYC$wf, insertTextAtCaret_id2dWzqxECJHs, insertTextAt_id4YWDi1U$WhW, replaceSelection_id2FluRPpNMcC, insertNodesAtCaret_id4WdkpBdiPPZ, insertNodesAt_id4WdkpBdiPQf, toTextString_id3Q5enzfMT4t, getTransformKeys_id7NYWYqYGfSm, getFontStyle_idRX7zUCxkch, getForegroundColor_idRX7zUCLTKj, getBackgroundColor_idRX7zUCMp2r, canMergeWith_id1jhovyhpsBl, hasSameColor_id1jhovyhtkYX, createStyledCopy_id1jhovyhBuRL, copyColor_id1jhovyhDPSi, splitSelection_id1jhovyhL2ZC, getFormattingTarget_id6umUSh$Je0s, clearFormatting_idfallnbs7Ig, isFormatted_idfallnbtjdl, normalizeSplitFragment_id1TZk_N$_ALv);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.escapedValue$2Lqz, " ");
@@ -75,20 +91,14 @@ public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ static SNode splitWordAt_id13kKwkYCzXI(@NotNull SNode __thisNode__, int pos) {
     String s1 = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(__thisNode__).substring(0, pos);
     String s2 = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(__thisNode__).substring(pos);
-    SNode nextWord = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word"));
-    Word__BehaviorDescriptor.setText_id1JwC6U7zkKz.invoke(nextWord, s2);
-    Word__BehaviorDescriptor.setText_id1JwC6U7zkKz.invoke(__thisNode__, s1);
-    return SNodeOperations.insertNextSiblingChild(__thisNode__, nextWord);
-  }
-  /*package*/ static String splitWordAt_id1yC42PmlXe(@NotNull SNode __thisNode__, int pos, int length) {
-    String s1 = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(__thisNode__).substring(0, pos);
-    String s2 = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(__thisNode__).substring(pos + length);
-    String selectedText = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(__thisNode__).substring(pos, pos + length);
-    SNode nextWord = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word"));
+    SNode nextWord = Word__BehaviorDescriptor.createStyledCopy_id1jhovyhBuRL.invokeSpecial(__thisNode__);
     Word__BehaviorDescriptor.setText_id1JwC6U7zkKz.invoke(nextWord, s2);
     Word__BehaviorDescriptor.setText_id1JwC6U7zkKz.invoke(__thisNode__, s1);
     SNodeOperations.insertNextSiblingChild(__thisNode__, nextWord);
-    return selectedText;
+    return nextWord;
+  }
+  /*package*/ static String splitWordAt_id1yC42PmlXe(@NotNull SNode __thisNode__, int pos, int length) {
+    return Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(Word__BehaviorDescriptor.splitSelection_id1jhovyhL2ZC.invoke(__thisNode__, ((int) pos), ((int) length)));
   }
   /*package*/ static SNode splitWordAtCaret_id7SG8rlRJ$G9(@NotNull SNode __thisNode__, EditorContext editorContext) {
     return ((SNode) Word__BehaviorDescriptor.splitWordAt_id13kKwkYCzXI.invoke(__thisNode__, ((int) ((int) Word__BehaviorDescriptor.getCaretPosition_id13kKwkYC$wf.invoke(__thisNode__, editorContext)))));
@@ -160,6 +170,94 @@ public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ static Iterable<String> getTransformKeys_id7NYWYqYGfSm(@NotNull SAbstractConcept __thisConcept__) {
     return Collections.emptyList();
   }
+  /*package*/ static int getFontStyle_idRX7zUCxkch(@NotNull SNode __thisNode__) {
+    int style = Font.PLAIN;
+    if (SPropertyOperations.getBoolean(__thisNode__, PROPS.bold$w8i)) {
+      style |= Font.BOLD;
+    }
+
+    if (SPropertyOperations.getBoolean(__thisNode__, PROPS.italic$wnj)) {
+      style |= Font.ITALIC;
+    }
+    return style;
+  }
+  /*package*/ static Color getForegroundColor_idRX7zUCLTKj(@NotNull SNode __thisNode__) {
+    return (SLinkOperations.getTarget(__thisNode__, LINKS.foregroundColor$2HIb) == null ? null : RichTextColor__BehaviorDescriptor.toAwtColor_idRX7zUCFKaQ.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.foregroundColor$2HIb)));
+  }
+  /*package*/ static Color getBackgroundColor_idRX7zUCMp2r(@NotNull SNode __thisNode__) {
+    return (SLinkOperations.getTarget(__thisNode__, LINKS.backgroundColor$2N7y) == null ? null : RichTextColor__BehaviorDescriptor.toAwtColor_idRX7zUCFKaQ.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.backgroundColor$2N7y)));
+  }
+  /*package*/ static boolean canMergeWith_id1jhovyhpsBl(@NotNull SNode __thisNode__, SNode other) {
+    if (other == null) {
+      return false;
+    }
+    return SPropertyOperations.getBoolean(__thisNode__, PROPS.bold$w8i) == SPropertyOperations.getBoolean(other, PROPS.bold$w8i) && SPropertyOperations.getBoolean(__thisNode__, PROPS.italic$wnj) == SPropertyOperations.getBoolean(other, PROPS.italic$wnj) && ((boolean) Word__BehaviorDescriptor.hasSameColor_id1jhovyhtkYX.invokeSpecial(__thisNode__, SLinkOperations.getTarget(__thisNode__, LINKS.foregroundColor$2HIb), SLinkOperations.getTarget(other, LINKS.foregroundColor$2HIb))) && ((boolean) Word__BehaviorDescriptor.hasSameColor_id1jhovyhtkYX.invokeSpecial(__thisNode__, SLinkOperations.getTarget(__thisNode__, LINKS.backgroundColor$2N7y), SLinkOperations.getTarget(other, LINKS.backgroundColor$2N7y)));
+  }
+  /*package*/ static boolean hasSameColor_id1jhovyhtkYX(@NotNull SNode __thisNode__, SNode left, SNode right) {
+    if (left == null || right == null) {
+      return left == right;
+    }
+    return (boolean) RichTextColor__BehaviorDescriptor.hasSameValue_id1jhovyhs$Sk.invoke(left, right);
+  }
+  /*package*/ static SNode createStyledCopy_id1jhovyhBuRL(@NotNull SNode __thisNode__) {
+    SNode word = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word"));
+
+    SPropertyOperations.assign(word, PROPS.bold$w8i, SPropertyOperations.getBoolean(__thisNode__, PROPS.bold$w8i));
+    SPropertyOperations.assign(word, PROPS.italic$wnj, SPropertyOperations.getBoolean(__thisNode__, PROPS.italic$wnj));
+    SLinkOperations.setTarget(word, LINKS.foregroundColor$2HIb, Word__BehaviorDescriptor.copyColor_id1jhovyhDPSi.invokeSpecial(__thisNode__, SLinkOperations.getTarget(__thisNode__, LINKS.foregroundColor$2HIb)));
+    SLinkOperations.setTarget(word, LINKS.backgroundColor$2N7y, Word__BehaviorDescriptor.copyColor_id1jhovyhDPSi.invokeSpecial(__thisNode__, SLinkOperations.getTarget(__thisNode__, LINKS.backgroundColor$2N7y)));
+    return word;
+  }
+  /*package*/ static SNode copyColor_id1jhovyhDPSi(@NotNull SNode __thisNode__, SNode color) {
+    if (color == null) {
+      return null;
+    }
+    SNode copy = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0xdfd1e3ea8acd899L, "de.slisson.mps.richtext.structure.RichTextColor"));
+    SPropertyOperations.assign(copy, PROPS.value$4Gxx, SPropertyOperations.getString(color, PROPS.value$4Gxx));
+    return copy;
+  }
+  /*package*/ static SNode splitSelection_id1jhovyhL2ZC(@NotNull SNode __thisNode__, int pos, int length) {
+    if (length <= 0) {
+      return __thisNode__;
+    }
+    SNode selectedWord = __thisNode__;
+
+    if (pos > 0) {
+      selectedWord = Word__BehaviorDescriptor.splitWordAt_id13kKwkYCzXI.invoke(__thisNode__, ((int) pos));
+      Word__BehaviorDescriptor.normalizeSplitFragment_id1TZk_N$_ALv.invokeSpecial(__thisNode__, __thisNode__);
+      Word__BehaviorDescriptor.normalizeSplitFragment_id1TZk_N$_ALv.invokeSpecial(__thisNode__, selectedWord);
+    }
+
+    if (length < (int) Word__BehaviorDescriptor.getTextLength_id635SBilAXnW.invoke(selectedWord)) {
+      SNode rightWord = Word__BehaviorDescriptor.splitWordAt_id13kKwkYCzXI.invoke(selectedWord, ((int) length));
+      Word__BehaviorDescriptor.normalizeSplitFragment_id1TZk_N$_ALv.invokeSpecial(__thisNode__, selectedWord);
+      Word__BehaviorDescriptor.normalizeSplitFragment_id1TZk_N$_ALv.invokeSpecial(__thisNode__, rightWord);
+    }
+    return selectedWord;
+  }
+  /*package*/ static SNode getFormattingTarget_id6umUSh$Je0s(@NotNull SNode __thisNode__, EditorContext editorContext) {
+    Tuples._3<Integer, Integer, Integer> range = Word__BehaviorDescriptor.getSelection_idlp3OKvgCxD.invoke(__thisNode__, editorContext);
+    return Word__BehaviorDescriptor.splitSelection_id1jhovyhL2ZC.invoke(__thisNode__, ((int) (int) range._1()), ((int) ((int) range._2() - (int) range._1())));
+  }
+  /*package*/ static void clearFormatting_idfallnbs7Ig(@NotNull SNode __thisNode__) {
+    SPropertyOperations.assign(__thisNode__, PROPS.bold$w8i, false);
+    SPropertyOperations.assign(__thisNode__, PROPS.italic$wnj, false);
+    SLinkOperations.setTarget(__thisNode__, LINKS.foregroundColor$2HIb, null);
+    SLinkOperations.setTarget(__thisNode__, LINKS.backgroundColor$2N7y, null);
+  }
+  /*package*/ static boolean isFormatted_idfallnbtjdl(@NotNull SNode __thisNode__) {
+    return SPropertyOperations.getBoolean(__thisNode__, PROPS.bold$w8i) || SPropertyOperations.getBoolean(__thisNode__, PROPS.italic$wnj) || SLinkOperations.getTarget(__thisNode__, LINKS.foregroundColor$2HIb) != null || SLinkOperations.getTarget(__thisNode__, LINKS.backgroundColor$2N7y) != null;
+  }
+  /*package*/ static void normalizeSplitFragment_id1TZk_N$_ALv(@NotNull SNode __thisNode__, SNode word) {
+    if (word == null) {
+      return;
+    }
+    String text = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(word);
+    if (text == null) {
+      return;
+    }
+    Word__BehaviorDescriptor.setText_id1JwC6U7zkKz.invoke(word, ((text == null ? null : text.trim())));
+  }
 
   /*package*/ Word__BehaviorDescriptor() {
   }
@@ -216,6 +314,32 @@ public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
         return null;
       case 16:
         return (T) ((String) toTextString_id3Q5enzfMT4t(node));
+      case 18:
+        return (T) ((Integer) getFontStyle_idRX7zUCxkch(node));
+      case 19:
+        return (T) ((Color) getForegroundColor_idRX7zUCLTKj(node));
+      case 20:
+        return (T) ((Color) getBackgroundColor_idRX7zUCMp2r(node));
+      case 21:
+        return (T) ((Boolean) canMergeWith_id1jhovyhpsBl(node, (SNode) parameters[0]));
+      case 22:
+        return (T) ((Boolean) hasSameColor_id1jhovyhtkYX(node, (SNode) parameters[0], (SNode) parameters[1]));
+      case 23:
+        return (T) ((SNode) createStyledCopy_id1jhovyhBuRL(node));
+      case 24:
+        return (T) ((SNode) copyColor_id1jhovyhDPSi(node, (SNode) parameters[0]));
+      case 25:
+        return (T) ((SNode) splitSelection_id1jhovyhL2ZC(node, ((int) (Integer) parameters[0]), ((int) (Integer) parameters[1])));
+      case 26:
+        return (T) ((SNode) getFormattingTarget_id6umUSh$Je0s(node, (EditorContext) parameters[0]));
+      case 27:
+        clearFormatting_idfallnbs7Ig(node);
+        return null;
+      case 28:
+        return (T) ((Boolean) isFormatted_idfallnbtjdl(node));
+      case 29:
+        normalizeSplitFragment_id1TZk_N$_ALv(node, (SNode) parameters[0]);
+        return null;
       default:
         throw new BHMethodNotFoundException(this, method);
     }
@@ -261,10 +385,18 @@ public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
 
   private static final class PROPS {
     /*package*/ static final SProperty escapedValue$2Lqz = MetaAdapterFactory.getProperty(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, 0x237c8da86a9f2e0eL, "escapedValue");
+    /*package*/ static final SProperty bold$w8i = MetaAdapterFactory.getProperty(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, 0x40b6094a0332b2c9L, "bold");
+    /*package*/ static final SProperty italic$wnj = MetaAdapterFactory.getProperty(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, 0x40b6094a0332b2caL, "italic");
+    /*package*/ static final SProperty value$4Gxx = MetaAdapterFactory.getProperty(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0xdfd1e3ea8acd899L, 0xdfd1e3ea8ad164dL, "value");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept Text$bD = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e4e61L, "de.slisson.mps.richtext.structure.Text");
     /*package*/ static final SConcept Word$5r = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink foregroundColor$2HIb = MetaAdapterFactory.getContainmentLink(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, 0xdfd1e3ea8b2e1afL, "foregroundColor");
+    /*package*/ static final SContainmentLink backgroundColor$2N7y = MetaAdapterFactory.getContainmentLink(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, 0xdfd1e3ea8b2e1b1L, "backgroundColor");
   }
 }

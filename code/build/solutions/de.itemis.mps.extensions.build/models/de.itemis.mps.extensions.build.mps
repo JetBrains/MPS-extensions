@@ -19310,6 +19310,11 @@
             <ref role="3bR37D" node="4be$WTb1AQa" resolve="de.itemis.mps.editor.diagram.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6ZHjQgkBnWt" role="3bR37C">
+          <node concept="3bR9La" id="6ZHjQgkBnWu" role="1SiIV1">
+            <ref role="3bR37D" node="1yenN3vQXqG" resolve="test.de.slisson.mps.tables.lang" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2f7xPXzHwm6" role="2G$12L">
         <property role="BnDLt" value="true" />

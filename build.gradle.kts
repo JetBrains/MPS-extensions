@@ -19,7 +19,7 @@ plugins {
     id("de.itemis.mps.gradle.launcher") version "2.8.0.+"
     id("org.cyclonedx.bom") version "3.2.4"
 
-    id("com.specificlanguages.mps") version "2.0.1"
+    id("com.specificlanguages.mps") version "2.1.0"
 }
 
 // Detect if we are in a CI build

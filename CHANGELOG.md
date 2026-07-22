@@ -10,6 +10,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.editor.diagram.runtime* *de.itemis.mps.editor.pagination.runtime* *de.q60.mps.explorer* Fix deadlock on navigation
 - *de.itemis.mps.editor.pagination.runtime* Fix navigation icons and search panel layout
+- de.slisson.mps.tables.runtime Fix a bug that caused a delete action to be triggered on paste
 
 ## June 2026
 

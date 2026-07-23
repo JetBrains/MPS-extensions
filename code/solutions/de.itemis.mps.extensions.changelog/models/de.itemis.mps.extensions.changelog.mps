@@ -238,6 +238,64 @@
       </node>
     </node>
     <node concept="15bmVD" id="1G9SdpwmZ3D" role="15bmVC">
+      <node concept="15bAme" id="1TZk_N_78uE" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOE/added" />
+        <node concept="2DRihI" id="1TZk_N_78uF" role="15bAlk">
+          <node concept="15Ami3" id="1TZk_N_7cpY" role="1PaTwD">
+            <node concept="37shsh" id="1TZk_N_7cpZ" role="15Aodc">
+              <node concept="1dCxOk" id="1TZk_N_7etK" role="37shsm">
+                <property role="1XweGW" value="92d2ea16-5a42-4fdf-a676-c7604efe3504" />
+                <property role="1XxBO9" value="de.slisson.mps.richtext" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7obc" role="1PaTwD">
+            <property role="3oM_SC" value="Added" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjN" role="1PaTwD">
+            <property role="3oM_SC" value="word-level" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjO" role="1PaTwD">
+            <property role="3oM_SC" value="rich" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjP" role="1PaTwD">
+            <property role="3oM_SC" value="text" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjQ" role="1PaTwD">
+            <property role="3oM_SC" value="formatting" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjR" role="1PaTwD">
+            <property role="3oM_SC" value="including" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjS" role="1PaTwD">
+            <property role="3oM_SC" value="bold," />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjT" role="1PaTwD">
+            <property role="3oM_SC" value="italic," />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjU" role="1PaTwD">
+            <property role="3oM_SC" value="foreground" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjV" role="1PaTwD">
+            <property role="3oM_SC" value="color," />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjW" role="1PaTwD">
+            <property role="3oM_SC" value="background" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjX" role="1PaTwD">
+            <property role="3oM_SC" value="color," />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjY" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kjZ" role="1PaTwD">
+            <property role="3oM_SC" value="formatting" />
+          </node>
+          <node concept="3oM_SD" id="1TZk_N_7kk0" role="1PaTwD">
+            <property role="3oM_SC" value="intentions." />
+          </node>
+        </node>
+      </node>
       <node concept="15ShDW" id="1G9SdpwmZ3A" role="15bq2Y">
         <property role="15ShDY" value="Po4Z58IgAJ/July" />
         <property role="15ShDw" value="2026" />

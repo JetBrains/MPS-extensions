@@ -6,6 +6,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## July 2026
 
+### Added
+
+- *de.slisson.mps.richtext* Added word-level rich text formatting including bold, italic, foreground color, background color, and formatting intentions.
+
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime* *de.itemis.mps.editor.pagination.runtime* *de.q60.mps.explorer* Fix deadlock on navigation

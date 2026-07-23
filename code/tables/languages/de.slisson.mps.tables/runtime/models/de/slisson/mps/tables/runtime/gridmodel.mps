@@ -11069,7 +11069,7 @@
       <node concept="3clFbS" id="m_yL2MSw6f" role="3clF47">
         <node concept="3clFbF" id="m_yL2MSw6g" role="3cqZAp">
           <node concept="1rXfSq" id="m_yL2MSw6h" role="3clFbG">
-            <ref role="37wK5l" node="WOxe9PtRs5" resolve="setDeleteAction" />
+            <ref role="37wK5l" node="m_yL2MPzXT" resolve="setPasteAction" />
             <node concept="37vLTw" id="m_yL2MSw6i" role="37wK5m">
               <ref role="3cqZAo" node="m_yL2MSw6d" resolve="action" />
             </node>

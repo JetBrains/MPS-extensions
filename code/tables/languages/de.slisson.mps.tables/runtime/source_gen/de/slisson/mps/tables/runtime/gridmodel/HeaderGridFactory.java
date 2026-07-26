@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import java.util.List;
 import jetbrains.mps.util.IterableUtil;
+import de.slisson.mps.tables.runtime.cells.TableUtils;
 import de.slisson.mps.tables.runtime.cells.ChildsTracker;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Label;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -81,7 +82,7 @@ public class HeaderGridFactory {
     if (key == null) {
       key = StringHeaderReference.fromSNode(snode);
     }
-    EditorCell cell = myContext.getEditorComponent().getUpdater().getCurrentUpdateSession().updateChildNodeCell(snode);
+    EditorCell cell = TableUtils.createNodeCell(myContext, snode);
     ChildsTracker.getInstance().registerChild(cell);
     return createFromEditorCell(cell, key, insertAction, deleteAction, index, style);
   }

@@ -8,4 +8,7 @@ public class StructureCheckerException extends RuntimeException {
   public StructureCheckerException(String message) {
     super(message);
   }
+  public StructureCheckerException(String message, Throwable cause) {
+    super(message, cause);
+  }
 }

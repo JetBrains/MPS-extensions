@@ -134,26 +134,31 @@
   </root>
   <root nodeRef="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)/5842252078325009166">
     <file name="GroupByOperationUtil.java">
-      <node id="5842252078325182901" at="15,134,16,81" concept="7" />
+      <node id="5842252078325182901" at="15,285,16,110" concept="7" />
       <node id="5842252078325463498" at="17,49,18,36" concept="7" />
       <node id="7241660063665855500" at="19,59,20,87" concept="3" />
-      <node id="5842252078325463520" at="21,7,22,80" concept="3" />
-      <node id="7241660063665889117" at="23,7,24,17" concept="8" />
+      <node id="5842252078325463520" at="21,7,22,101" concept="3" />
+      <node id="3924669473467700944" at="23,7,24,99" concept="7" />
+      <node id="3924669473467709690" at="24,99,25,138" concept="3" />
+      <node id="3924669473467750906" at="25,138,26,18" concept="8" />
       <node id="5842252078325463505" at="18,36,21,7" concept="5" />
-      <node id="5842252078325315445" at="16,81,23,7" concept="3" />
-      <node id="5842252078325009257" at="15,0,26,0" concept="9" trace="apply#(Ljava/lang/Iterable;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)Ljava/util/Map;" />
+      <node id="5842252078325315445" at="16,110,23,7" concept="3" />
+      <node id="5842252078325009257" at="15,0,28,0" concept="9" trace="apply#(Ljava/lang/Iterable;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)Ljava/util/Map;" />
       <scope id="5842252078325463511" at="19,59,20,87" />
-      <scope id="5566040892498180240" at="17,49,22,80">
+      <scope id="5566040892498180240" at="17,49,22,101">
         <var name="key" id="5842252078325463499" />
       </scope>
-      <scope id="5842252078325009260" at="15,134,24,17">
+      <scope id="5842252078325009260" at="15,285,26,18">
         <var name="cache" id="5842252078325182902" />
+        <var name="result" id="3924669473467700947" />
       </scope>
-      <scope id="5842252078325009257" at="15,0,26,0">
+      <scope id="5842252078325009257" at="15,0,28,0">
+        <var name="aggregateFn" id="3924669473467679500" />
         <var name="keyExtract" id="5842252078325012446" />
         <var name="seq" id="5842252078325009331" />
+        <var name="valueExtract" id="3924669473467669290" />
       </scope>
-      <unit id="5842252078325009166" at="14,0,27,0" name="com.mbeddr.mpsutil.blutil.rt.operations.GroupByOperationUtil" />
+      <unit id="5842252078325009166" at="14,0,29,0" name="com.mbeddr.mpsutil.blutil.rt.operations.GroupByOperationUtil" />
     </file>
   </root>
   <root nodeRef="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)/7488777117048370764">

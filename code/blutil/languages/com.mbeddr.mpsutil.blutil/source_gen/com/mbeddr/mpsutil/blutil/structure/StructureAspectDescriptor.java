@@ -595,6 +595,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x1188372895aL);
     b.origin("63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)/5842252078326680676");
     b.version(3);
+    b.aggregate("valuesSelector", 0x36773a17a2a9b3e3L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("3924669473464366051").done();
+    b.aggregate("aggregateFn", 0x36773a17a2a9b3e4L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("3924669473464366052").done();
     b.alias("groupBy");
     return b.create();
   }

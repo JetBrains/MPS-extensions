@@ -10,7 +10,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <root>
     <file name="DataFlowAspectDescriptorImpl.java">
-      <unit at="15,0,72,0" name="com.mbeddr.mpsutil.blutil.dataFlow.DataFlowAspectDescriptorImpl" />
+      <unit at="15,0,74,0" name="com.mbeddr.mpsutil.blutil.dataFlow.DataFlowAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bed974e6-d268-4395-932a-5674ee845678(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.dataFlow)/1798411515022943569">
@@ -101,6 +101,21 @@
       </scope>
       <unit id="3622390367882293204" at="22,0,26,0" name="com.mbeddr.mpsutil.blutil.dataFlow.CSCase_DataFlow$LINKS" />
       <unit id="3622390367882293204" at="13,0,27,0" name="com.mbeddr.mpsutil.blutil.dataFlow.CSCase_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bed974e6-d268-4395-932a-5674ee845678(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.dataFlow)/3924669473470371899">
+    <file name="GroupByOperation_DataFlow.java">
+      <node id="3924669473470388037" at="13,60,14,113" concept="1" />
+      <node id="3924669473470390499" at="14,113,15,110" concept="1" />
+      <node id="3924669473470371899" at="19,0,20,0" concept="7" trace="valuesSelector$Hop" />
+      <node id="3924669473470371899" at="20,0,21,0" concept="7" trace="aggregateFn$HBq" />
+      <node id="3924669473470371899" at="13,0,17,0" concept="4" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="3924669473470371901" at="13,60,15,110" />
+      <scope id="3924669473470371899" at="13,0,17,0">
+        <var name="_context" id="3924669473470371899" />
+      </scope>
+      <unit id="3924669473470371899" at="18,0,22,0" name="com.mbeddr.mpsutil.blutil.dataFlow.GroupByOperation_DataFlow$LINKS" />
+      <unit id="3924669473470371899" at="12,0,23,0" name="com.mbeddr.mpsutil.blutil.dataFlow.GroupByOperation_DataFlow" />
     </file>
   </root>
   <root nodeRef="63e0e566-5131-447e-90e3-12ea330e1a00/r:bed974e6-d268-4395-932a-5674ee845678(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.dataFlow)/4749636953794219577">

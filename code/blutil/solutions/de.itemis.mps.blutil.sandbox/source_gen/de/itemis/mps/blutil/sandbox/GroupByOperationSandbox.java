@@ -11,28 +11,26 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple;
-import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
 public class GroupByOperationSandbox {
   public static void usage() {
     Iterable<String> numbers = ListSequence.fromListAndArray(new ArrayList<String>(), "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine");
-    Map<Integer, List<String>> byLength = GroupByOperationUtil.apply(numbers, (String elem) -> elem.length(), (String it) -> it, (List<String> it) -> it);
+    Map<Integer, List<String>> byLength = GroupByOperationUtil.apply(numbers, (String elem) -> elem.length(), (it) -> it, (it) -> it);
     System.out.println(MapSequence.fromMap(byLength).count());
-    Map<Boolean, List<String>> isVowel = GroupByOperationUtil.apply(numbers, (String it) -> StringUtils.substring(it, 0, 1).matches("[AEIOU]"), (it) -> it, (it) -> it);
+    Map<Boolean, List<String>> isVowel = GroupByOperationUtil.apply(numbers, (it) -> StringUtils.substring(it, 0, 1).matches("[AEIOU]"), (it) -> it, (it) -> it);
     System.out.println(MapSequence.fromMap(isVowel).get(true));
     Sequence.fromIterable(numbers).where((it) -> it.length() < 5);
   }
 
   public static void countFruits() {
     List<String> fruits = ListSequence.fromListAndArray(new ArrayList<String>(), "apple", "apple", "banana", "apple", "orange", "banana", "papaya");
-    Map<String, Integer> fruitsCount = GroupByOperationUtil.apply(fruits, (String fruitName) -> fruitName, (it) -> it, (List<String> fruitGroup) -> ListSequence.fromList(fruitGroup).count());
+    Map<String, Integer> fruitsCount = GroupByOperationUtil.apply(fruits, (fruitName) -> fruitName, (it) -> it, (fruitGroup) -> ListSequence.fromList(fruitGroup).count());
     MapSequence.fromMap(fruitsCount).visitAll((fruitAndCount) -> System.out.println(fruitAndCount.key() + ": " + fruitAndCount.value()));
   }
 
   public static void calculateFruitsCartPrice() {
     List<Tuples._3<String, Integer, Double>> cart = ListSequence.fromListAndArray(new ArrayList<Tuples._3<String, Integer, Double>>(), MultiTuple.<String,Integer,Double>from("apple", 10, 9.99), MultiTuple.<String,Integer,Double>from("banana", 20, 19.99), MultiTuple.<String,Integer,Double>from("orange", 10, 29.99), MultiTuple.<String,Integer,Double>from("papaya", 20, 9.99), MultiTuple.<String,Integer,Double>from("apple", 10, 9.99), MultiTuple.<String,Integer,Double>from("banana", 10, 19.99), MultiTuple.<String,Integer,Double>from("apple", 20, 9.99));
-    _FunctionTypes._return_P1_E0<? extends Double, ? super Tuples._3<String, Integer, Double>> multiplyQntByPrice = (item) -> (int) item._1() * (double) item._2();
-    Map<String, Double> totalPricesPerFruit = GroupByOperationUtil.apply(cart, (Tuples._3<String, Integer, Double> item) -> item._0(), multiplyQntByPrice, (List<Double> group) -> ListSequence.fromList(group).foldLeft(0.0, (s, it) -> s + it));
+    Map<String, Double> totalPricesPerFruit = GroupByOperationUtil.apply(cart, (item) -> item._0(), (item) -> (int) item._1() * (double) item._2(), (group) -> ListSequence.fromList(group).foldLeft(0.0, (s, it) -> s + it));
     MapSequence.fromMap(totalPricesPerFruit).visitAll((totalPriceAndFruit) -> System.out.println(totalPriceAndFruit.key() + ": " + String.format("%.2f", totalPriceAndFruit.value())));
     System.out.println("Total: " + String.format("%.2f", Sequence.fromIterable(MapSequence.fromMap(totalPricesPerFruit).values()).foldLeft(0.0, (s, it) -> s + it)));
   }

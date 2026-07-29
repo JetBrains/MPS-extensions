@@ -14,7 +14,7 @@ public class WithIndexOperationSandbox {
     Iterable<String> indexAsPrefix = WithIndexOperationUtil.selectWithIndex(numsAsStrings, (String it, Integer index) -> index + ": " + it);
     System.out.println(indexAsPrefix);
 
-    Iterable<String> onlyEvenIdx = WithIndexOperationUtil.whereWithIndex(numsAsStrings, (String it, Integer index) -> index % 2 == 0);
+    Iterable<String> onlyEvenIdx = WithIndexOperationUtil.whereWithIndex(numsAsStrings, (it, index) -> index % 2 == 0);
     System.out.println(onlyEvenIdx);
 
     WithIndexOperationUtil.forEachWithIndex(numsAsStrings, (String it, Integer index) -> System.out.println("index is " + index + " and value is " + it));

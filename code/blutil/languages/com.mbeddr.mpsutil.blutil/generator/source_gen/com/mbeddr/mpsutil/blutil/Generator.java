@@ -38,6 +38,8 @@ public class Generator extends TemplateModuleInterpreted2 {
   protected void fillReferencedGenerators(TemplateModuleBase.ReferencedGenerators referencedGenerators) {
     referencedGenerators.extended("5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)");
     referencedGenerators.extended("985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)");
+    referencedGenerators.employed("a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)");
+    referencedGenerators.employed("857d0a79-6f44-4f46-84ed-9c5b42632011(jetbrains.mps.baseLanguage.closures#1199623535494)");
     referencedGenerators.employed("2bdcefec-ba49-4b32-ab50-ebc7a41d5090(jetbrains.mps.lang.smodel#1139186730696)");
   }
 
@@ -57,6 +59,6 @@ public class Generator extends TemplateModuleInterpreted2 {
 
   @Override
   public Collection<TemplateMappingPriorityRule> getPriorities() {
-    return TemplateUtil.asCollection(TemplateUtil.createStrictlyBeforeRule(TemplateUtil.createRefExternal("3a6b9f2f-4402-4ed6-a7cd-12b272b244d5(com.mbeddr.mpsutil.blutil#4354378109086982937)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)", TemplateUtil.createRefLocal())), TemplateUtil.createStrictlyBeforeRule(TemplateUtil.createRefExternal("3a6b9f2f-4402-4ed6-a7cd-12b272b244d5(com.mbeddr.mpsutil.blutil#4354378109086982937)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)", TemplateUtil.createRefLocal())));
+    return TemplateUtil.asCollection(TemplateUtil.createStrictlyBeforeRule(TemplateUtil.createRefExternal("3a6b9f2f-4402-4ed6-a7cd-12b272b244d5(com.mbeddr.mpsutil.blutil#4354378109086982937)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)", TemplateUtil.createRefLocal())), TemplateUtil.createStrictlyBeforeRule(TemplateUtil.createRefExternal("3a6b9f2f-4402-4ed6-a7cd-12b272b244d5(com.mbeddr.mpsutil.blutil#4354378109086982937)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)", TemplateUtil.createRefLocal())), TemplateUtil.createStrictlyBeforeRule(TemplateUtil.createRefExternal("3a6b9f2f-4402-4ed6-a7cd-12b272b244d5(com.mbeddr.mpsutil.blutil#4354378109086982937)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("857d0a79-6f44-4f46-84ed-9c5b42632011(jetbrains.mps.baseLanguage.closures#1199623535494)", TemplateUtil.createRefLocal())), TemplateUtil.createStrictlyBeforeRule(TemplateUtil.createRefExternal("3a6b9f2f-4402-4ed6-a7cd-12b272b244d5(com.mbeddr.mpsutil.blutil#4354378109086982937)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)", TemplateUtil.createRefLocal())));
   }
 }

@@ -49,7 +49,7 @@ public class GridLayoutColumnSpan_Test extends BaseTransformationTest {
       EditorCell rootCell = getEditorComponent().getRootCell();
       Iterable<jetbrains.mps.openapi.editor.cells.EditorCell> allCells = CellTraversalUtil.iterateTree(rootCell, rootCell, true);
 
-      Map<String, List<EditorCell_Constant>> constantsByText = GroupByOperationUtil.apply(Sequence.fromIterable(allCells).ofType(EditorCell_Constant.class), (EditorCell_Constant it) -> it.getText(), (it) -> it, (it) -> it);
+      Map<String, List<EditorCell_Constant>> constantsByText = GroupByOperationUtil.apply(Sequence.fromIterable(allCells).ofType(EditorCell_Constant.class), (it) -> it.getText(), (it) -> it, (it) -> it);
       for (IMapping<String, List<EditorCell_Constant>> entry : MapSequence.fromMap(constantsByText)) {
         String text = entry.key();
         List<EditorCell_Constant> cells = entry.value();

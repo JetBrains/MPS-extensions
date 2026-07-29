@@ -33,41 +33,39 @@
   </root>
   <root nodeRef="r:073746fc-b67a-4687-b4c7-2f827e777a41(de.itemis.mps.blutil.sandbox)/5842252078326873018">
     <file name="GroupByOperationSandbox.java">
-      <node id="5842252078326888741" at="17,30,18,158" concept="1" />
-      <node id="5842252078329378374" at="18,158,19,154" concept="1" />
-      <node id="5842252078329382121" at="19,154,20,62" concept="0" />
-      <node id="5842252078331128188" at="20,62,21,168" concept="1" />
-      <node id="5842252078331132128" at="21,168,22,63" concept="0" />
-      <node id="5842252078331550172" at="22,63,23,66" concept="0" />
-      <node id="3924669473468070782" at="26,36,27,148" concept="1" />
-      <node id="3924669473468107827" at="27,148,28,191" concept="1" />
-      <node id="3924669473468112002" at="28,191,29,137" concept="0" />
-      <node id="3924669473468437954" at="32,49,33,555" concept="1" />
-      <node id="3924669473469848145" at="33,555,34,163" concept="1" />
-      <node id="3924669473468504095" at="34,163,35,242" concept="1" />
-      <node id="3924669473468519258" at="35,242,36,183" concept="0" />
-      <node id="3924669473468623724" at="36,183,37,165" concept="0" />
-      <node id="3924669473468055429" at="26,0,31,0" concept="4" trace="countFruits#()V" />
-      <node id="3924669473468384613" at="32,0,39,0" concept="4" trace="calculateFruitsCartPrice#()V" />
-      <node id="5842252078326888645" at="17,0,25,0" concept="4" trace="usage#()V" />
-      <scope id="3924669473468055432" at="26,36,29,137">
+      <node id="5842252078326888741" at="16,30,17,158" concept="1" />
+      <node id="5842252078329378374" at="17,158,18,134" concept="1" />
+      <node id="5842252078329382121" at="18,134,19,62" concept="0" />
+      <node id="5842252078331128188" at="19,62,20,161" concept="1" />
+      <node id="5842252078331132128" at="20,161,21,63" concept="0" />
+      <node id="5842252078331550172" at="21,63,22,66" concept="0" />
+      <node id="3924669473468070782" at="25,36,26,148" concept="1" />
+      <node id="3924669473468107827" at="26,148,27,171" concept="1" />
+      <node id="3924669473468112002" at="27,171,28,137" concept="0" />
+      <node id="3924669473468437954" at="31,49,32,555" concept="1" />
+      <node id="3924669473468504095" at="32,555,33,222" concept="1" />
+      <node id="3924669473468519258" at="33,222,34,183" concept="0" />
+      <node id="3924669473468623724" at="34,183,35,165" concept="0" />
+      <node id="3924669473468055429" at="25,0,30,0" concept="4" trace="countFruits#()V" />
+      <node id="3924669473468384613" at="31,0,37,0" concept="4" trace="calculateFruitsCartPrice#()V" />
+      <node id="5842252078326888645" at="16,0,24,0" concept="4" trace="usage#()V" />
+      <scope id="3924669473468055432" at="25,36,28,137">
         <var name="fruits" id="3924669473468070783" />
         <var name="fruitsCount" id="3924669473468107828" />
       </scope>
-      <scope id="3924669473468055429" at="26,0,31,0" />
-      <scope id="3924669473468384616" at="32,49,37,165">
+      <scope id="3924669473468384616" at="31,49,35,165">
         <var name="cart" id="3924669473468437955" />
-        <var name="multiplyQntByPrice" id="3924669473469848146" />
         <var name="totalPricesPerFruit" id="3924669473468504096" />
       </scope>
-      <scope id="5842252078326888648" at="17,30,23,66">
+      <scope id="3924669473468055429" at="25,0,30,0" />
+      <scope id="5842252078326888648" at="16,30,22,66">
         <var name="byLength" id="5842252078329378375" />
         <var name="isVowel" id="5842252078331128189" />
         <var name="numbers" id="5842252078326888744" />
       </scope>
-      <scope id="3924669473468384613" at="32,0,39,0" />
-      <scope id="5842252078326888645" at="17,0,25,0" />
-      <unit id="5842252078326873018" at="16,0,40,0" name="de.itemis.mps.blutil.sandbox.GroupByOperationSandbox" />
+      <scope id="3924669473468384613" at="31,0,37,0" />
+      <scope id="5842252078326888645" at="16,0,24,0" />
+      <unit id="5842252078326873018" at="15,0,38,0" name="de.itemis.mps.blutil.sandbox.GroupByOperationSandbox" />
     </file>
   </root>
   <root nodeRef="r:073746fc-b67a-4687-b4c7-2f827e777a41(de.itemis.mps.blutil.sandbox)/7488777117046389759">
@@ -130,8 +128,8 @@
       <node id="8919968723020523478" at="13,0,14,140" concept="1" />
       <node id="8919968723020525424" at="14,140,15,38" concept="0" />
       <node id="8919968723020526777" at="15,38,16,0" concept="3" />
-      <node id="8919968723020495971" at="16,0,17,134" concept="1" />
-      <node id="8919968723020497804" at="17,134,18,36" concept="0" />
+      <node id="8919968723020495971" at="16,0,17,119" concept="1" />
+      <node id="8919968723020497804" at="17,119,18,36" concept="0" />
       <node id="8919968723020529215" at="18,36,19,0" concept="3" />
       <node id="8919968723020529749" at="19,0,20,154" concept="0" />
       <node id="8919968723020466206" at="11,0,22,0" concept="4" trace="usages#()V" />

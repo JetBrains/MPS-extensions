@@ -11,7 +11,7 @@
   <uses module="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt+dp" />
   <uses module="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="rt+dp" />
   <uses module="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="dp" />
-  <uses module="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt+dp" />
+  <uses module="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
   <uses module="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt+dp" />
   <uses module="360a4e25-e902-4667-a0a6-0e971c4f3177(com.mbeddr.mpsutil.blutil.rt)" kind="rt+dp" />
   <uses module="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />

@@ -26482,6 +26482,12 @@
         <ref role="398BVh" node="6$6tsX_CF7d" resolve="mps.home" />
       </node>
     </node>
+    <node concept="13uUGR" id="jUaXCxhbCY" role="1l3spa">
+      <ref role="13uUGO" to="ffeo:6eCuTcwOnJO" resolve="IDEA" />
+      <node concept="398BVA" id="jUaXCxhbCZ" role="13uUGP">
+        <ref role="398BVh" node="6$6tsX_CF7d" resolve="mps.home" />
+      </node>
+    </node>
     <node concept="2sgV4H" id="6$6tsX_CIho" role="1l3spa">
       <ref role="1l3spb" node="2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
       <node concept="398BVA" id="2fo8bJECJBq" role="2JcizS">

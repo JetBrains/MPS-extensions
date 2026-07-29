@@ -7669,6 +7669,16 @@
               <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg8" resolve="jetbrains.mps.runtime" />
             </node>
           </node>
+          <node concept="1SiIV0" id="1dm__LLdDef" role="3bR37C">
+            <node concept="3bR9La" id="1dm__LLdDeg" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7YI57w6K08M" resolve="jetbrains.mps.baseLanguage.closures#1199623535494" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="1dm__LLdDeh" role="3bR37C">
+            <node concept="3bR9La" id="1dm__LLdDei" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7YI57w6K0dZ" resolve="jetbrains.mps.baseLanguage.tuples#1238919486295" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="2NyZxKpUPwf" role="1E1XAP">
           <ref role="1E0d5P" node="2NyZxKpUL5F" resolve="com.mbeddr.mpsutil.blutil.rt" />

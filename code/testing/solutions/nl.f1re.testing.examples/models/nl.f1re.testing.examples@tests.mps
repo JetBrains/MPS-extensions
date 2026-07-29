@@ -115,6 +115,7 @@
     <import index="t335" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.ui.update(MPS.IDEA/)" />
     <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" />
     <import index="cdna" ref="r:241d801e-1003-46f0-9785-1157a06b80af(nl.f1re.testing.examples.lang.editor)" />
+    <import index="anz7" ref="320a7d92-2f09-4a63-9adc-ee2fc4d9ea30/java:com.intellij.testFramework(MPS.IDEA.testFramework/)" />
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
@@ -3369,8 +3370,8 @@
         </node>
         <node concept="3clFbF" id="4GRmlJ02PWE" role="3cqZAp">
           <node concept="2YIFZM" id="4GRmlJ0462L" role="3clFbG">
-            <ref role="37wK5l" to="anz6:~ExtensionTestUtil.maskExtensions(com.intellij.openapi.extensions.ExtensionPointName,java.util.List,com.intellij.openapi.Disposable)" resolve="maskExtensions" />
-            <ref role="1Pybhc" to="anz6:~ExtensionTestUtil" resolve="ExtensionTestUtil" />
+            <ref role="37wK5l" to="anz7:~ExtensionTestUtil.maskExtensions(com.intellij.openapi.extensions.ExtensionPointName,java.util.List,com.intellij.openapi.Disposable)" resolve="maskExtensions" />
+            <ref role="1Pybhc" to="anz7:~ExtensionTestUtil" resolve="ExtensionTestUtil" />
             <node concept="10M0yZ" id="4GRmlJ0462M" role="37wK5m">
               <ref role="3cqZAo" to="1l1f:~GotoActionAliasMatcher.EP_NAME" resolve="EP_NAME" />
               <ref role="1PxDUh" to="1l1f:~GotoActionAliasMatcher" resolve="GotoActionAliasMatcher" />
@@ -3753,8 +3754,8 @@
                     <node concept="3clFbS" id="5Tz8vrepGqY" role="3clF47">
                       <node concept="3clFbF" id="6wYwmAsyG5G" role="3cqZAp">
                         <node concept="2YIFZM" id="5nwfWGQ3P7d" role="3clFbG">
-                          <ref role="37wK5l" to="anz6:~LeakHunter.checkLeak(java.lang.Object,java.lang.Class)" resolve="checkLeak" />
-                          <ref role="1Pybhc" to="anz6:~LeakHunter" resolve="LeakHunter" />
+                          <ref role="37wK5l" to="anz7:~LeakHunter.checkLeak(java.lang.Object,java.lang.Class)" resolve="checkLeak" />
+                          <ref role="1Pybhc" to="anz7:~LeakHunter" resolve="LeakHunter" />
                           <node concept="2OqwBi" id="5nwfWGQ3P7e" role="37wK5m">
                             <node concept="37vLTw" id="5nwfWGQ3P7f" role="2Oq$k0">
                               <ref role="3cqZAo" node="4k0nQshwBuv" resolve="leak" />
@@ -4198,8 +4199,8 @@
         </node>
         <node concept="3clFbF" id="4GRmlIZS0s5" role="3cqZAp">
           <node concept="2YIFZM" id="4GRmlIZS0sz" role="3clFbG">
-            <ref role="37wK5l" to="anz6:~PlatformTestUtil.assertDirectoriesEqual(com.intellij.openapi.vfs.VirtualFile,com.intellij.openapi.vfs.VirtualFile)" resolve="assertDirectoriesEqual" />
-            <ref role="1Pybhc" to="anz6:~PlatformTestUtil" resolve="PlatformTestUtil" />
+            <ref role="37wK5l" to="anz7:~PlatformTestUtil.assertDirectoriesEqual(com.intellij.openapi.vfs.VirtualFile,com.intellij.openapi.vfs.VirtualFile)" resolve="assertDirectoriesEqual" />
+            <ref role="1Pybhc" to="anz7:~PlatformTestUtil" resolve="PlatformTestUtil" />
             <node concept="2OqwBi" id="4GRmlIZTdZo" role="37wK5m">
               <node concept="37vLTw" id="4GRmlIZTavd" role="2Oq$k0">
                 <ref role="3cqZAo" node="2qPu2xqTGMl" resolve="file1" />
@@ -4309,8 +4310,8 @@
         </node>
         <node concept="3clFbF" id="4GRmlIZThND" role="3cqZAp">
           <node concept="2YIFZM" id="4GRmlIZThO8" role="3clFbG">
-            <ref role="37wK5l" to="anz6:~PlatformTestUtil.assertFilesEqual(com.intellij.openapi.vfs.VirtualFile,com.intellij.openapi.vfs.VirtualFile)" resolve="assertFilesEqual" />
-            <ref role="1Pybhc" to="anz6:~PlatformTestUtil" resolve="PlatformTestUtil" />
+            <ref role="37wK5l" to="anz7:~PlatformTestUtil.assertFilesEqual(com.intellij.openapi.vfs.VirtualFile,com.intellij.openapi.vfs.VirtualFile)" resolve="assertFilesEqual" />
+            <ref role="1Pybhc" to="anz7:~PlatformTestUtil" resolve="PlatformTestUtil" />
             <node concept="37vLTw" id="4GRmlIZTi8C" role="37wK5m">
               <ref role="3cqZAo" node="4GRmlIZThOL" resolve="file1" />
             </node>
@@ -4335,8 +4336,8 @@
       <node concept="3clFbS" id="4GRmlIZTl7Q" role="3clF47">
         <node concept="3clFbF" id="4GRmlIZTlcj" role="3cqZAp">
           <node concept="2YIFZM" id="4GRmlIZTlcN" role="3clFbG">
-            <ref role="37wK5l" to="anz6:~PlatformTestUtil.assertPathsEqual(java.lang.String,java.lang.String)" resolve="assertPathsEqual" />
-            <ref role="1Pybhc" to="anz6:~PlatformTestUtil" resolve="PlatformTestUtil" />
+            <ref role="37wK5l" to="anz7:~PlatformTestUtil.assertPathsEqual(java.lang.String,java.lang.String)" resolve="assertPathsEqual" />
+            <ref role="1Pybhc" to="anz7:~PlatformTestUtil" resolve="PlatformTestUtil" />
             <node concept="Xl_RD" id="4GRmlIZTldY" role="37wK5m">
               <property role="Xl_RC" value="folder1/file1" />
             </node>
@@ -4427,8 +4428,8 @@
                 <node concept="3clFbS" id="4GRmlJ00GEi" role="1bW5cS">
                   <node concept="3clFbF" id="4GRmlJ003VR" role="3cqZAp">
                     <node concept="2YIFZM" id="4GRmlJ003ZQ" role="3clFbG">
-                      <ref role="37wK5l" to="anz6:~PlatformTestUtil.expandAll(javax.swing.JTree)" resolve="expandAll" />
-                      <ref role="1Pybhc" to="anz6:~PlatformTestUtil" resolve="PlatformTestUtil" />
+                      <ref role="37wK5l" to="anz7:~PlatformTestUtil.expandAll(javax.swing.JTree)" resolve="expandAll" />
+                      <ref role="1Pybhc" to="anz7:~PlatformTestUtil" resolve="PlatformTestUtil" />
                       <node concept="37vLTw" id="4GRmlJ00koZ" role="37wK5m">
                         <ref role="3cqZAo" node="4GRmlJ00kmL" resolve="tree" />
                       </node>
@@ -4436,8 +4437,8 @@
                   </node>
                   <node concept="3clFbF" id="3LGAAejPnuy" role="3cqZAp">
                     <node concept="2YIFZM" id="3LGAAejPnHw" role="3clFbG">
-                      <ref role="37wK5l" to="anz6:~PlatformTestUtil.waitWhileBusy(javax.swing.JTree)" resolve="waitWhileBusy" />
-                      <ref role="1Pybhc" to="anz6:~PlatformTestUtil" resolve="PlatformTestUtil" />
+                      <ref role="37wK5l" to="anz7:~PlatformTestUtil.waitWhileBusy(javax.swing.JTree)" resolve="waitWhileBusy" />
+                      <ref role="1Pybhc" to="anz7:~PlatformTestUtil" resolve="PlatformTestUtil" />
                       <node concept="37vLTw" id="3LGAAejPnKd" role="37wK5m">
                         <ref role="3cqZAo" node="4GRmlJ00kmL" resolve="tree" />
                       </node>
@@ -4471,8 +4472,8 @@
       <node concept="3clFbS" id="4GRmlJ0199X" role="3clF47">
         <node concept="3vwNmj" id="4GRmlJ019lS" role="3cqZAp">
           <node concept="2YIFZM" id="4GRmlJ019kB" role="3vwVQn">
-            <ref role="37wK5l" to="anz6:~PlatformTestUtil.isAllUppercaseName(java.lang.String)" resolve="isAllUppercaseName" />
-            <ref role="1Pybhc" to="anz6:~PlatformTestUtil" resolve="PlatformTestUtil" />
+            <ref role="37wK5l" to="anz7:~PlatformTestUtil.isAllUppercaseName(java.lang.String)" resolve="isAllUppercaseName" />
+            <ref role="1Pybhc" to="anz7:~PlatformTestUtil" resolve="PlatformTestUtil" />
             <node concept="Xl_RD" id="4GRmlJ019mC" role="37wK5m">
               <property role="Xl_RC" value="HELLO" />
             </node>
@@ -4486,8 +4487,8 @@
       <node concept="3clFbS" id="4GRmlJ01DMh" role="3clF47">
         <node concept="3clFbF" id="4GRmlJ01EAP" role="3cqZAp">
           <node concept="2YIFZM" id="4GRmlJ01ESV" role="3clFbG">
-            <ref role="37wK5l" to="anz6:~PlatformTestUtil.withStdErrSuppressed(java.lang.Runnable)" resolve="withStdErrSuppressed" />
-            <ref role="1Pybhc" to="anz6:~PlatformTestUtil" resolve="PlatformTestUtil" />
+            <ref role="37wK5l" to="anz7:~PlatformTestUtil.withStdErrSuppressed(java.lang.Runnable)" resolve="withStdErrSuppressed" />
+            <ref role="1Pybhc" to="anz7:~PlatformTestUtil" resolve="PlatformTestUtil" />
             <node concept="1bVj0M" id="4GRmlJ01G8H" role="37wK5m">
               <node concept="3clFbS" id="4GRmlJ01G8K" role="1bW5cS">
                 <node concept="3clFbF" id="4GRmlJ01I9v" role="3cqZAp">
@@ -6454,8 +6455,8 @@
                   </node>
                   <node concept="3clFbF" id="4RDqXGCIdgh" role="3cqZAp">
                     <node concept="2YIFZM" id="4RDqXGCIdnn" role="3clFbG">
-                      <ref role="37wK5l" to="anz6:~PlatformTestUtil.dispatchAllInvocationEventsInIdeEventQueue()" resolve="dispatchAllInvocationEventsInIdeEventQueue" />
-                      <ref role="1Pybhc" to="anz6:~PlatformTestUtil" resolve="PlatformTestUtil" />
+                      <ref role="37wK5l" to="anz7:~PlatformTestUtil.dispatchAllInvocationEventsInIdeEventQueue()" resolve="dispatchAllInvocationEventsInIdeEventQueue" />
+                      <ref role="1Pybhc" to="anz7:~PlatformTestUtil" resolve="PlatformTestUtil" />
                     </node>
                   </node>
                 </node>

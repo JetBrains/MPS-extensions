@@ -7117,6 +7117,11 @@
               <ref role="3bR37D" to="ffeo:1ULLXZL0gZG" resolve="org.junit.junit5" />
             </node>
           </node>
+          <node concept="1SiIV0" id="6z7iTaTJC83" role="3bR37C">
+            <node concept="3bR9La" id="6z7iTaTJC84" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="3OVhQEUSbqO" role="3bR31x">
           <node concept="3LXTmp" id="3OVhQEUSbqP" role="3rtmxm">
@@ -13211,6 +13216,9 @@
         </node>
         <node concept="3LEDTy" id="3_sZyadwfvI" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+        </node>
+        <node concept="3LEDTy" id="6z7iTaTJCjP" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L4p" resolve="jetbrains.mps.lang.behavior" />
         </node>
       </node>
     </node>
@@ -24914,6 +24922,16 @@
             <ref role="3bR37D" node="3OVhQEUM97i" resolve="nl.f1re.testing.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6z7iTaTJCTX" role="3bR37C">
+          <node concept="3bR9La" id="6z7iTaTJCTY" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1uyFnK9vtIN" resolve="MPS.IDEA.testFramework" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6z7iTaTJCTZ" role="3bR37C">
+          <node concept="3bR9La" id="6z7iTaTJCU0" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="77YfcvOSSnB" role="3989C9">
@@ -25625,6 +25643,11 @@
         <node concept="1SiIV0" id="3UkPvdFivvr" role="3bR37C">
           <node concept="3bR9La" id="3UkPvdFivvs" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6z7iTaTJCW9" role="3bR37C">
+          <node concept="3bR9La" id="6z7iTaTJCWa" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1uyFnK9vtIN" resolve="MPS.IDEA.testFramework" />
           </node>
         </node>
       </node>

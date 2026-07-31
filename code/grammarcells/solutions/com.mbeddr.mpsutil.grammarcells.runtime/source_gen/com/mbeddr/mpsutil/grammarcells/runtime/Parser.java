@@ -191,7 +191,7 @@ public class Parser implements IRecycledNodes {
 
       myPrefilteredRules = ListSequence.fromList(myPrefilteredRules).sort((it) -> (SetSequence.fromSet(originalConcepts).contains(it.getOutputConcept()) ? -1 : 0), true).alsoSort((it) -> it.getPriority(), true).toList();
 
-      PNode tree = parse(new InputCursor(tokens), expectedConcept, null);
+      PNode tree = new ChartParser(this, tokens, myPrefilteredRules, myOriginalConcept).parse(expectedConcept);
       if (LOG.isDebugLevel()) {
         LOG.debug("parse tree (" + (System.currentTimeMillis() - myStartTime) + " ms): " + tree);
       }

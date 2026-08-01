@@ -9352,25 +9352,52 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3clFbF" id="41joaxK2OVY" role="3cqZAp">
-                        <node concept="2YIFZM" id="6B579NGiWvQ" role="3clFbG">
+                      <node concept="3clFbJ" id="4R3dM06q7cW" role="3cqZAp">
+                        <node concept="2YIFZM" id="4R3dM06q7cZ" role="3clFbw">
                           <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
-                          <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
-                          <node concept="1bVj0M" id="6B579NGiWvR" role="37wK5m">
-                            <node concept="3clFbS" id="6B579NGiWvS" role="1bW5cS">
-                              <node concept="3clFbJ" id="6B579NGiWvT" role="3cqZAp">
-                                <node concept="3clFbS" id="6B579NGiWvU" role="3clFbx">
-                                  <node concept="3clFbF" id="6B579NGiWvV" role="3cqZAp">
-                                    <node concept="1rXfSq" id="6B579NGiWvW" role="3clFbG">
-                                      <ref role="37wK5l" node="Ggg0Z6Y9u_" resolve="loadChildElements" />
-                                      <node concept="37vLTw" id="6B579NGiWvX" role="37wK5m">
-                                        <ref role="3cqZAo" node="Ggg0Z6YAxq" resolve="queryResult" />
+                          <ref role="37wK5l" to="3a50:~ThreadUtils.isInEDT()" resolve="isInEDT" />
+                        </node>
+                        <node concept="3clFbS" id="4R3dM06q7d0" role="3clFbx">
+                          <node concept="3clFbJ" id="4R3dM06q7d1" role="3cqZAp">
+                            <node concept="1rXfSq" id="4R3dM06q7d4" role="3clFbw">
+                              <ref role="37wK5l" node="Ggg0Z743sM" resolve="isInTree" />
+                            </node>
+                            <node concept="3clFbS" id="4R3dM06q7d5" role="3clFbx">
+                              <node concept="3clFbF" id="4R3dM06q7d6" role="3cqZAp">
+                                <node concept="1rXfSq" id="4R3dM06q7d8" role="3clFbG">
+                                  <ref role="37wK5l" node="Ggg0Z6Y9u_" resolve="loadChildElements" />
+                                  <node concept="37vLTw" id="4R3dM06q7d9" role="37wK5m">
+                                    <ref role="3cqZAo" node="Ggg0Z6YAxq" resolve="queryResult" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="9aQIb" id="4R3dM06q7da" role="9aQIa">
+                          <node concept="3clFbS" id="4R3dM06q7dc" role="9aQI4">
+                            <node concept="3clFbF" id="4R3dM06q7dd" role="3cqZAp">
+                              <node concept="2YIFZM" id="4R3dM06q7df" role="3clFbG">
+                                <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
+                                <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
+                                <node concept="1bVj0M" id="4R3dM06q7dg" role="37wK5m">
+                                  <node concept="3clFbS" id="4R3dM06q7di" role="1bW5cS">
+                                    <node concept="3clFbJ" id="4R3dM06q7dj" role="3cqZAp">
+                                      <node concept="1rXfSq" id="4R3dM06q7dm" role="3clFbw">
+                                        <ref role="37wK5l" node="Ggg0Z743sM" resolve="isInTree" />
+                                      </node>
+                                      <node concept="3clFbS" id="4R3dM06q7dn" role="3clFbx">
+                                        <node concept="3clFbF" id="4R3dM06q7do" role="3cqZAp">
+                                          <node concept="1rXfSq" id="4R3dM06q7dq" role="3clFbG">
+                                            <ref role="37wK5l" node="Ggg0Z6Y9u_" resolve="loadChildElements" />
+                                            <node concept="37vLTw" id="4R3dM06q7dr" role="37wK5m">
+                                              <ref role="3cqZAo" node="Ggg0Z6YAxq" resolve="queryResult" />
+                                            </node>
+                                          </node>
+                                        </node>
                                       </node>
                                     </node>
                                   </node>
-                                </node>
-                                <node concept="1rXfSq" id="6B579NGiWvY" role="3clFbw">
-                                  <ref role="37wK5l" node="Ggg0Z743sM" resolve="isInTree" />
                                 </node>
                               </node>
                             </node>

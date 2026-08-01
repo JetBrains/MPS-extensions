@@ -117,11 +117,17 @@ public class CustomTreeNode<E> extends MPSTreeNode implements ITreeNode {
     getTree().getUpdater().recordChildrenLoad(this, () -> {
       try {
         final List<ViewElement> queryResult = queryChildElements();
-        ThreadUtils.runInUIThreadAndWait(() -> {
+        if (ThreadUtils.isInEDT()) {
           if (isInTree()) {
             loadChildElements(queryResult);
           }
-        });
+        } else {
+          ThreadUtils.runInUIThreadAndWait(() -> {
+            if (isInTree()) {
+              loadChildElements(queryResult);
+            }
+          });
+        }
       } catch (Exception ex) {
         myInitialized = false;
         removeAllChildren();

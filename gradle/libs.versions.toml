@@ -1,3 +1,3 @@
 [libraries]
-mps = "com.jetbrains:mps:2026.1-RC1"
+mps = "com.jetbrains:mps:2026.1"
 jbr = "com.jetbrains.jdk:jbr_jcef:25.0.2-b329.117"

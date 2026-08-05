@@ -4,6 +4,30 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## July 2026
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram.runtime* *de.itemis.mps.editor.pagination.runtime* *de.q60.mps.explorer* Fix deadlock on navigation
+- *de.itemis.mps.editor.pagination.runtime* Fix navigation icons and search panel layout
+- *de.slisson.mps.tables.runtime* Fix a bug that caused a delete action to be triggered on paste
+- *de.slisson.mps.tables.runtime* Add a check to avoid pasting on table cells which are null
+- *de.slisson.mps.tables* Performance improvement. Tables were using a workaround that disabled the incremental editor update. Every change in a table forced a rebuild of the whole table. The workaround was removed and the related bugs fixed. For tables containing NodeAttributes it remains.
+
+## June 2026
+
+### Fixed
+
+- *de.q60.mps.shadowmodels.runtime* [SM_CommandHelper](http://127.0.0.1:63320/node?ref=r%3A97875f9c-321e-405e-a344-6d3deab2bdba%28de.q60.mps.shadowmodels.runtime.smodel%29%2F7709076119916772664) now only runs commands on fully initialized projects.
+- *de.slisson.mps.tables* AssertionException in EditorCell_GridCell.paint for headless components prevented screenshots
+
+## May 2026
+
+### Fixed
+
+-  *de.slisson.mps.richtext.customcell* Add new switch for CellModel_CustomFactory to deal with cases where the cell creation failed when a property attribute was attached
+- *de.slisson.mps.tables* Error markers were not painted on sticky headers in some cases.
+
 ## March 2026
 
 ### Added
@@ -14,6 +38,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
     - `seq.groupBy(keySelector)` allows given a sequence seq to group the elements of a sequence using the `keySelector` closure on each element 
     - `seq1.zip(seq2)` creates a sequence tuples where each element is a tuple from the element in the two sequences at that index
     - `seq.selectIdx({~it, int index => ...})` `seq.whereIdx({~it, int index => ...})` `seq.forEachIdx({~it, int index => ...})` are similar to `select` , `where` and `foreach` already present in the collections language, but the index of the current element is also an argument of the closure
+- *nl.f1re.testing* Add [EditorTestLifecycleMethods](http://127.0.0.1:63320/node?ref=r%3A8dfc935f-f6d1-4e4d-bfff-80832f08c4eb%28nl.f1re.testing.structure%29%2F2052872502397333186) attribute and associated intentions to extend an editor test with 'before/after test' methods.
 
 ### Fixed
 
@@ -45,37 +70,46 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
+- *nl.f1re.mps.aliascustomization* The alias of all concepts globally can now be customized through the extension point [AliasCustomization.](http://127.0.0.1:63320/node?ref=r%3Af0a80b34-9760-42b8-9ee6-d5b0d1582551%28de.slisson.mps.conditionalEditor.runtime.plugin%29%2F1679635547169731239) Please be aware that this feature is experimental. Use it with care!
+- *com.mbeddr.mpsutil.intentions* All intentions can now be customized through the extension point [IntentionCustomization](http://127.0.0.1:63320/node?ref=r%3A028362d1-b964-410a-a3d5-6096bcd4a2b6%28com.mbeddr.mpsutil.intentions.runtime.plugin%29%2F4784371196443178355) (child filter, description, is applicable block, execute method). Note that you can't customize intentions that are not enabled in the current context (node + editor context).
 - *de.itemis.mps.compare* 'assert node equals' and ':isEqualTo:' expression can now ignore attributes (annotations) when comparing nodes.
 - *com.dslfoundry.plaintextgen* Context assistant buttons were added for common operations.
 
-### Changed
-
-- *de.itemis.mps.compare* 'show diff' in assertions is now implemented using a transient property. Changing it will mark the node as changed but the property value is not written to disk and so will never be checked into version control.
-- *de.itemis.mps.compare* minor improvements to the editors of 'assert node equals' and 'show diff'.
-
 ### Fixed
 
+- *com.dslfoundry.langvis.plugin* The action *Visualize* *Language* *Structure* doesn't throw an  IllegalModelAccessError anymore.
 - Migrate all usages of deprecated getInstance() from [NavigationSupport](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.openapi.navigation%28MPS.Editor%2F%29%2F~NavigationSupport) to its replacement getInstance(Project mpsProject)
 - *com.dslfoundry.plaintextgen* and *com.dslfoundry.plaintextflow* The readability and dark theme support was improved.
 - *com.dslfoundry.plaintextgen* The generator can now deal with null words.
 - *com.dslfoundry.plaintextgen* The change to vertical and indent collection intention now preserve node attributes.
 - *com.dslfoundry.plaintextgen* Attributes of splitted words are moved to the line if possible.
 
+### Changed
+
+- *de.itemis.mps.compare* 'show diff' in assertions is now implemented using a transient property. Changing it will mark the node as changed but the property value is not written to disk and so will never be checked into version control.
+- *de.itemis.mps.compare* minor improvements to the editors of 'assert node equals' and 'show diff'.
+
 ## November 2025
 
 ### Added
 
 - *de.itemis.mps.editor.diagram.runtime* Add an experimental static flag to disable autolayout-on-init. Useful for batch autolayouting.
+- *com.mbeddr.mpsutil.grammarcells* All cells now support *show* *if* blocks (except optional cells), parent styles and style sheet items. Note that only certain styles can be applied (transitive styles and styles that make sense for wrapper cells).
 
 ### Fixed
 
 - *de.slisson.mps.tables* IllegalArgumentException thrown when copy-paste support is not defined for a table node (#1650).
 - *de.slisson.mps.tables* Textgen warning about duplicate unit name when an editor model contains multiple tables without an action map. 
+- *de.itemis.mps.editor.pagination* A NullPointerException was fixed for cases where the clicked node was null.
+- *de.itemis.mps.spellcheck* Custom dictionaries are not saved in the .mps/dictionaries/project.xml files anymore and pollute the file that is normally used for words saved manually by the user.
+- *de.itemis.mps.editor.celllayout* Reloading all classes do not lead to ClassCastExceptions anymore.
 
 ## October 2025
 
 ### Fixed
 
+- *de.itemis.mps.comparator* The freeze was fixed when opening the diff viewer and indexing was going on in the background.
+- *de.itemis.mps.editor.bool.runtime* Improve loading of checkbox images to work in scenarios where the node being edited is not part of a model (even if only temporarily).
 - *de.itemis.mps.extensions.build* Version number is now set correctly in the `build.properties` file inside the published artifact.
 
 ### Changed
@@ -92,6 +126,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.spellcheck* An exception coming from the WordsToDictionaryIntention was fixed.
+- *de.itemis.mps.linenumbers* Reloading classes no longer causes an exception to be thrown and line numbers to disappear.
 
 ## August 2025
 
@@ -123,6 +158,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *jetbrains.mps.lang.smodel.query* A NullPointerException was fixed in the query list typesystem checker.
 - *de.itemis.mps.comparator* Custom generation plans of generation options builders are not overwritten anymore.
 - *de.itemis.mps.compare* Assert node equals statements don't ignore node annotations anymore any the diff viewer now works with nodes that do not belong to a model.
+- *de.slisson.mps.tables.runtime* Table Actions Toolbar items now appear in the new UI toolbar.
 
 ### Added
 

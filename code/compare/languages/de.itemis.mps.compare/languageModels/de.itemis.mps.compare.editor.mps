@@ -2,7 +2,7 @@
 <model ref="r:17b09ba0-cbd7-488a-91a1-9ee54b7e6e87(de.itemis.mps.compare.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="62971cbe-fd2f-4135-b001-ee6cb7a74436" name="nl.f1re.mps.editor.swing" version="0" />
     <use id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool" version="0" />
@@ -467,13 +467,13 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="l2Vlx" id="i0MG184" role="2iSdaV" />
       <node concept="3F0ifn" id="6Vb09dguoDj" role="3EZMnx">
         <property role="3F0ifm" value="}" />
         <node concept="VechU" id="6Vb09dguoJq" role="3F10Kt">
           <property role="Vb096" value="fLwANPu/blue" />
         </node>
       </node>
-      <node concept="l2Vlx" id="i0MG184" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="3C6_kMLO7c$">

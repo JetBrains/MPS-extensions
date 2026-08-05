@@ -1,5 +1,9 @@
+[versions]
+# For published MPS releases adjust the version below and the dependency in [libraries]
+mps = "262.8665.36"
+
 [libraries]
-# For published releases adjust mpsMajor in build.gradle.kts and use this dependency:
-# mps = "com.jetbrains:mps:202x.y"
-mps = "com.jetbrains.mps:mps-prerelease:262.8665.36"
-jbr = "com.jetbrains.jdk:jbr_jcef:25.0.2-b329.117"
+# For published releases adjust the version in [versions] and use this dependency:
+# mps = { module = "com.jetbrains:mps", version.ref = "mps" }
+mps = { module = "com.jetbrains.mps:mps-prerelease", version.ref = "mps" }
+jbr = { module = "com.jetbrains.mps:mps-jbr", version.ref = "mps" }

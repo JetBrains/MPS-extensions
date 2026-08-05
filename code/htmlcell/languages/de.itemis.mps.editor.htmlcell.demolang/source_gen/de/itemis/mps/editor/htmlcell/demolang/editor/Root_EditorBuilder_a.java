@@ -33,10 +33,9 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
 import de.itemis.mps.editor.htmlcell.runtime.runtime.EditorCell_HTML;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.module.ReloadableModule;
-import jetbrains.mps.smodel.ModuleRepositoryFacade;
+import jetbrains.mps.smodel.language.LanguageRegistry;
+import java.util.stream.Stream;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
-import java.io.InputStream;
 import java.io.Reader;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
@@ -69,7 +68,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createCollection_1());
-    editorCell.addEditorCell(createHorizontalLineCell_1());
+    editorCell.addEditorCell(createHorizontalLineCell_0());
     editorCell.addEditorCell(createCollection_3());
     editorCell.addEditorCell(createHTML_0());
     editorCell.addEditorCell(createHTML_1());
@@ -1187,13 +1186,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createHorizontalLineCell_0(EditorContext editorContext, SNode node) {
-    HorizontalLineCell editorCell = new HorizontalLineCell(editorContext, node);
+  private EditorCell createHorizontalLineCell_0() {
+    HorizontalLineCell editorCell = new HorizontalLineCell(getEditorContext(), getNode());
     editorCell.setCellId("HorizontalLineCell_30aiet_b0");
     return editorCell;
-  }
-  private EditorCell createHorizontalLineCell_1() {
-    return createHorizontalLineCell_0(getEditorContext(), myNode);
   }
   private EditorCell createCollection_3() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
@@ -1265,22 +1261,19 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private String _QueryFunction_JComponent_30aiet_a1f0() {
-    // FIXME PLEASE DON'T USE module//
-    ReloadableModule module = ((ReloadableModule) ModuleRepositoryFacade.getInstance().getModule(PersistenceFacade.getInstance().createModuleReference("4f348220-8c30-49ab-b23f-98fdc5c19b18(de.itemis.mps.editor.htmlcell.demolang)")));
-    ClassLoader loader = module.getClassLoader();
-    InputStream inputStream = loader.getResourceAsStream("html_3.2_demo.html");
-    int bufferSize = 1024;
-    char[] buffer = new char[bufferSize];
-    StringBuilder out = new StringBuilder();
-    Reader in = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
-    try {
-      for (int numRead; (numRead = in.read(buffer, 0, buffer.length)) > 0;) {
-        out.append(buffer, 0, numRead);
+    final StringBuilder out = new StringBuilder();
+    LanguageRegistry.getInstance(getEditorContext().getRepository()).withModuleRuntime(Stream.of(PersistenceFacade.getInstance().createModuleReference("4f348220-8c30-49ab-b23f-98fdc5c19b18(de.itemis.mps.editor.htmlcell.demolang)")), (mr) -> {
+      try (Reader in = new InputStreamReader(mr.getOwnResource("html_3.2_demo.html"), StandardCharsets.UTF_8)) {
+        int bufferSize = 1024;
+        char[] buffer = new char[bufferSize];
+        for (int numRead; (numRead = in.read(buffer, 0, buffer.length)) > 0;) {
+          out.append(buffer, 0, numRead);
+        }
+      } catch (IOException ex) {
+        // ignore
       }
-    } catch (IOException io) {
-    }
+    });
     return out.toString();
-
   }
   private EditorCell createConstant_102() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "RIGHT CONTENT");

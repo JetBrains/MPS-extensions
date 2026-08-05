@@ -9,12 +9,10 @@ import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -22,12 +20,10 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class Dictionary__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x82194f31b6f94f39L, 0xbf3dbad4ce201c4eL, 0x2260a4eb2e3d3b68L, "de.itemis.mps.spellcheck.structure.Dictionary");
 
-  public static final SMethod<List<SNode>> getEntries_id29wDeGIfHAw = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getEntries").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2477161125053913504L).languageId(0xbf3dbad4ce201c4eL, 0x82194f31b6f94f39L).build2();
+  public static final SMethod<List<SNode>> getEntries_id29wDeGIfHAw = new SMethodBuilder<>((Class<List<SNode>>) ((Class) Object.class)).name("getEntries").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2477161125053913504L).languageId(0xbf3dbad4ce201c4eL, 0x82194f31b6f94f39L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getEntries_id29wDeGIfHAw);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getEntries_id29wDeGIfHAw);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<SNode> getEntries_id29wDeGIfHAw(@NotNull SNode __thisNode__) {
     return SLinkOperations.getChildren(__thisNode__, LINKS.entries$CkCI);
@@ -36,10 +32,6 @@ public final class Dictionary__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ Dictionary__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

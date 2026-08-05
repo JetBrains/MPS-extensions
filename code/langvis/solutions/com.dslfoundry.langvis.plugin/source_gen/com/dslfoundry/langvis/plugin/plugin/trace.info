@@ -14,7 +14,6 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
   <root>
@@ -111,34 +110,25 @@
   </root>
   <root nodeRef="r:d92c6c4c-23fa-4276-9826-db386386bf87(com.dslfoundry.langvis.plugin.plugin)/407973368249174595">
     <file name="LanguageVisualiserListener.java">
-      <node id="5389382045085371014" at="11,0,12,0" concept="11" trace="tool" />
-      <node id="407973368249280549" at="13,66,14,26" concept="2" />
-      <node id="8930101972852811872" at="17,59,18,26" concept="2" />
-      <node id="9173815997825438507" at="18,26,19,53" concept="2" />
-      <node id="86124574277556051" at="23,59,24,26" concept="2" />
-      <node id="86124574277547449" at="24,26,25,53" concept="2" />
-      <node id="86124574278147374" at="28,48,29,38" concept="2" />
-      <node id="407973368249277425" at="13,0,16,0" concept="6" trace="setTool#(Lcom/dslfoundry/langvis/plugin/plugin/LanguageVisualisation_Tool;)V" />
-      <node id="86124574278082921" at="28,0,31,0" concept="6" trace="setElements#(Ljava/util/Set;)V" />
-      <node id="8724000524114925416" at="16,22,20,7" concept="2" />
-      <node id="8724000524114941111" at="22,25,26,7" concept="2" />
-      <node id="8930101972852810671" at="16,0,22,0" concept="6" trace="view#()V" />
-      <node id="8634981577175011689" at="22,0,28,0" concept="6" trace="rebuild#()V" />
-      <scope id="407973368249277428" at="13,66,14,26" />
-      <scope id="86124574278082924" at="28,48,29,38" />
-      <scope id="8724000524114935451" at="17,59,19,53" />
-      <scope id="8724000524114951351" at="23,59,25,53" />
-      <scope id="407973368249277425" at="13,0,16,0">
+      <node id="5389382045085371014" at="10,0,11,0" concept="11" trace="tool" />
+      <node id="407973368249280549" at="12,66,13,26" concept="2" />
+      <node id="86124574277556051" at="15,25,16,24" concept="2" />
+      <node id="86124574277547449" at="16,24,17,50" concept="2" />
+      <node id="86124574278147374" at="19,48,20,38" concept="2" />
+      <node id="407973368249277425" at="12,0,15,0" concept="6" trace="setTool#(Lcom/dslfoundry/langvis/plugin/plugin/LanguageVisualisation_Tool;)V" />
+      <node id="86124574278082921" at="19,0,22,0" concept="6" trace="setElements#(Ljava/util/Set;)V" />
+      <node id="8634981577175011689" at="15,0,19,0" concept="6" trace="rebuild#()V" />
+      <scope id="407973368249277428" at="12,66,13,26" />
+      <scope id="86124574278082924" at="19,48,20,38" />
+      <scope id="8634981577175011692" at="15,25,17,50" />
+      <scope id="407973368249277425" at="12,0,15,0">
         <var name="visualiserTool" id="407973368249278017" />
       </scope>
-      <scope id="86124574278082921" at="28,0,31,0">
+      <scope id="86124574278082921" at="19,0,22,0">
         <var name="elements" id="86124574278110437" />
       </scope>
-      <scope id="8930101972852810674" at="16,22,20,7" />
-      <scope id="8634981577175011692" at="22,25,26,7" />
-      <scope id="8930101972852810671" at="16,0,22,0" />
-      <scope id="8634981577175011689" at="22,0,28,0" />
-      <unit id="407973368249174595" at="9,0,32,0" name="com.dslfoundry.langvis.plugin.plugin.LanguageVisualiserListener" />
+      <scope id="8634981577175011689" at="15,0,19,0" />
+      <unit id="407973368249174595" at="8,0,23,0" name="com.dslfoundry.langvis.plugin.plugin.LanguageVisualiserListener" />
     </file>
   </root>
   <root nodeRef="r:d92c6c4c-23fa-4276-9826-db386386bf87(com.dslfoundry.langvis.plugin.plugin)/5069184281393155759">
@@ -157,7 +147,7 @@
       <node id="5069184281393155776" at="35,22,36,21" concept="8" />
       <node id="5069184281393155759" at="38,5,39,16" concept="8" />
       <node id="5069184281393155762" at="42,96,43,155" concept="7" />
-      <node id="9173815997825217295" at="43,155,44,54" concept="2" />
+      <node id="9173815997825217295" at="43,155,44,53" concept="2" />
       <node id="5069184281393155759" at="29,95,32,5" concept="5" />
       <node id="5069184281393155776" at="34,56,37,7" concept="5" />
       <node id="5069184281393155759" at="24,0,28,0" concept="6" trace="isDumbAware#()Z" />
@@ -168,7 +158,7 @@
       <scope id="5069184281393155759" at="25,32,26,16" />
       <scope id="5069184281393155759" at="30,53,31,19" />
       <scope id="5069184281393155776" at="35,22,36,21" />
-      <scope id="5069184281393155759" at="42,96,44,54">
+      <scope id="5069184281393155759" at="42,96,44,53">
         <var name="content" id="5069184281393155763" />
       </scope>
       <scope id="5069184281393155759" at="18,26,22,29" />
@@ -486,7 +476,7 @@
       <node id="7730551403025870701" at="122,0,141,7" concept="5" />
       <node id="7730551403020483902" at="218,0,238,0" concept="6" trace="makeStereotypeList#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;Z)Ljava/lang/String;" />
       <node id="7730551403020483778" at="173,0,199,0" concept="6" trace="collectUp#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/Set;)V" />
-      <node id="7730551403022711066" at="99,0,159,5" concept="15" />
+      <node id="7730551403022711066" at="99,0,159,5" concept="14" />
       <node id="7730551403020483696" at="89,0,161,0" concept="6" trace="renderPlantUMLSource#(Ljava/util/Set;ZZZZZLjava/lang/String;)V" />
       <scope id="86124574272504200" at="47,34,48,75" />
       <scope id="230654785337860110" at="56,91,57,187" />
@@ -748,9 +738,9 @@
       <node id="8634981577171644648" at="34,5,35,29" concept="8" />
       <node id="2559051306521458047" at="17,60,20,7" concept="5" />
       <node id="2559051306521462936" at="21,24,24,7" concept="5" />
-      <node id="8634981577171644625" at="26,18,29,7" concept="16" />
+      <node id="8634981577171644625" at="26,18,29,7" concept="15" />
       <node id="2559051306521468439" at="30,27,33,7" concept="5" />
-      <node id="8634981577171644588" at="14,20,34,5" concept="15" />
+      <node id="8634981577171644588" at="14,20,34,5" concept="14" />
       <node id="86124574275756382" at="12,0,37,0" concept="12" trace="ExecuteCommand#([Ljava/lang/String;)Ljava/lang/String;" />
       <scope id="2559051306521458047" at="18,31,19,38" />
       <scope id="2559051306521462936" at="22,31,23,51" />
@@ -776,92 +766,100 @@
   </root>
   <root nodeRef="r:d92c6c4c-23fa-4276-9826-db386386bf87(com.dslfoundry.langvis.plugin.plugin)/86124574275830594">
     <file name="ImageViewer.java">
-      <node id="86124574275844949" at="14,0,15,0" concept="3" trace="unscaledImage" />
-      <node id="86124574276132385" at="15,0,16,0" concept="3" trace="currentZoom" />
-      <node id="86124574276165607" at="16,0,17,0" concept="3" trace="maxSize" />
-      <node id="86124574276177258" at="17,0,18,0" concept="3" trace="minSize" />
-      <node id="86124574276190558" at="18,0,19,0" concept="3" trace="highZoom" />
-      <node id="86124574275894942" at="20,24,21,29" concept="13" />
-      <node id="86124574276035195" at="24,109,25,84" concept="7" />
-      <node id="86124574276035205" at="25,84,26,85" concept="7" />
-      <node id="86124574276035215" at="26,85,27,77" concept="7" />
-      <node id="86124574276035221" at="27,77,28,20" concept="8" />
-      <node id="86124574276038192" at="32,9,33,56" concept="2" />
-      <node id="86124574276038205" at="34,30,35,107" concept="2" />
-      <node id="86124574276070483" at="35,107,36,15" concept="14" />
-      <node id="86124574276143843" at="37,5,38,29" concept="2" />
-      <node id="86124574276088567" at="40,47,41,45" concept="7" />
-      <node id="86124574276088575" at="41,45,42,47" concept="7" />
-      <node id="86124574276088583" at="42,47,43,72" concept="2" />
-      <node id="86124574276088597" at="43,72,44,47" concept="7" />
-      <node id="86124574276088607" at="44,47,45,49" concept="7" />
-      <node id="86124574276088619" at="46,29,47,25" concept="2" />
-      <node id="86124574276088630" at="49,30,50,26" concept="2" />
-      <node id="86124574276088639" at="51,5,52,0" concept="10" />
-      <node id="86124574276088640" at="52,0,53,22" concept="7" />
-      <node id="86124574276088643" at="53,22,54,91" concept="2" />
-      <node id="86124574276088670" at="54,91,55,0" concept="10" />
-      <node id="86124574276288069" at="55,0,56,40" concept="2" />
-      <node id="86124574276296702" at="56,40,57,17" concept="2" />
-      <node id="86124574276304369" at="57,17,58,14" concept="2" />
-      <node id="86124574276825785" at="60,60,61,45" concept="7" />
-      <node id="86124574276825794" at="61,45,62,47" concept="7" />
-      <node id="86124574276920621" at="62,47,63,86" concept="7" />
-      <node id="86124574276938358" at="63,86,64,25" concept="2" />
-      <node id="86124574276861988" at="64,25,65,19" concept="8" />
-      <node id="86124574275855994" at="20,0,23,0" concept="1" trace="ImageViewer#()V" />
-      <node id="86124574276088617" at="45,49,48,5" concept="5" />
-      <node id="86124574276088628" at="48,5,51,5" concept="5" />
-      <node id="86124574276035182" at="24,0,30,0" concept="6" trace="getZoom#(DDDDD)D" />
-      <node id="86124574276038190" at="31,57,37,5" concept="15" />
-      <node id="86124574276820447" at="60,0,67,0" concept="6" trace="zoomMax#(II)D" />
-      <node id="86124574276038183" at="31,0,40,0" concept="6" trace="loadImage#(Ljava/lang/String;)V" />
-      <node id="86124574276088547" at="40,0,60,0" concept="6" trace="refreshView#(D)V" />
-      <scope id="86124574275855998" at="20,24,21,29" />
-      <scope id="86124574276038191" at="32,9,33,56" />
-      <scope id="86124574276088618" at="46,29,47,25" />
-      <scope id="86124574276088629" at="49,30,50,26" />
-      <scope id="86124574276038204" at="34,30,36,15" />
-      <scope id="86124574275855994" at="20,0,23,0" />
-      <scope id="86124574276038201" at="34,5,37,5">
+      <node id="86124574275844949" at="16,0,17,0" concept="3" trace="unscaledImage" />
+      <node id="86124574276132385" at="17,0,18,0" concept="3" trace="currentZoom" />
+      <node id="86124574276165607" at="18,0,19,0" concept="3" trace="maxSize" />
+      <node id="86124574276177258" at="19,0,20,0" concept="3" trace="minSize" />
+      <node id="86124574276190558" at="20,0,21,0" concept="3" trace="highZoom" />
+      <node id="86124574275894942" at="22,24,23,29" concept="13" />
+      <node id="86124574276035195" at="26,109,27,84" concept="7" />
+      <node id="86124574276035205" at="27,84,28,85" concept="7" />
+      <node id="86124574276035215" at="28,85,29,77" concept="7" />
+      <node id="86124574276035221" at="29,77,30,20" concept="8" />
+      <node id="1492371760778650625" at="34,59,35,29" concept="9" />
+      <node id="86124574276038192" at="36,11,37,58" concept="2" />
+      <node id="86124574276038205" at="38,32,39,109" concept="2" />
+      <node id="1492371760777693047" at="39,109,40,15" concept="8" />
+      <node id="1492371760778664736" at="41,7,42,43" concept="9" />
+      <node id="1492371760777402709" at="42,43,43,77" concept="2" />
+      <node id="1492371760776783203" at="47,29,48,29" concept="2" />
+      <node id="86124574276088567" at="51,47,52,45" concept="7" />
+      <node id="86124574276088575" at="52,45,53,47" concept="7" />
+      <node id="86124574276088583" at="53,47,54,72" concept="2" />
+      <node id="86124574276088597" at="54,72,55,47" concept="7" />
+      <node id="86124574276088607" at="55,47,56,49" concept="7" />
+      <node id="86124574276088619" at="57,29,58,25" concept="2" />
+      <node id="86124574276088630" at="60,30,61,26" concept="2" />
+      <node id="86124574276088639" at="62,5,63,0" concept="10" />
+      <node id="86124574276088640" at="63,0,64,22" concept="7" />
+      <node id="86124574276088643" at="64,22,65,91" concept="2" />
+      <node id="86124574276088670" at="65,91,66,0" concept="10" />
+      <node id="86124574276288069" at="66,0,67,40" concept="2" />
+      <node id="86124574276296702" at="67,40,68,17" concept="2" />
+      <node id="86124574276304369" at="68,17,69,14" concept="2" />
+      <node id="86124574276825785" at="72,60,73,45" concept="7" />
+      <node id="86124574276825794" at="73,45,74,47" concept="7" />
+      <node id="86124574276920621" at="74,47,75,86" concept="7" />
+      <node id="86124574276938358" at="75,86,76,25" concept="2" />
+      <node id="86124574276861988" at="76,25,77,19" concept="8" />
+      <node id="86124574275855994" at="22,0,25,0" concept="1" trace="ImageViewer#()V" />
+      <node id="1492371760776772075" at="47,0,50,0" concept="6" trace="refreshView#()V" />
+      <node id="86124574276088617" at="56,49,59,5" concept="5" />
+      <node id="86124574276088628" at="59,5,62,5" concept="5" />
+      <node id="86124574276035182" at="26,0,32,0" concept="6" trace="getZoom#(DDDDD)D" />
+      <node id="86124574276038190" at="35,29,41,7" concept="14" />
+      <node id="86124574276820447" at="72,0,79,0" concept="6" trace="zoomMax#(II)D" />
+      <node id="1492371760777187789" at="33,40,44,7" concept="2" />
+      <node id="86124574276038183" at="33,0,46,0" concept="6" trace="reloadImage#(Ljava/lang/String;)V" />
+      <node id="86124574276088547" at="51,0,71,0" concept="6" trace="refreshView#(D)V" />
+      <scope id="86124574275855998" at="22,24,23,29" />
+      <scope id="86124574276038191" at="36,11,37,58" />
+      <scope id="1492371760776772078" at="47,29,48,29" />
+      <scope id="86124574276088618" at="57,29,58,25" />
+      <scope id="86124574276088629" at="60,30,61,26" />
+      <scope id="86124574276038204" at="38,32,40,15" />
+      <scope id="86124574275855994" at="22,0,25,0" />
+      <scope id="86124574276038201" at="38,7,41,7">
         <var name="ex" id="86124574276038202" />
       </scope>
-      <scope id="86124574276035194" at="24,109,28,20">
+      <scope id="1492371760776772075" at="47,0,50,0" />
+      <scope id="86124574276035194" at="26,109,30,20">
         <var name="clampedHorizontalScale" id="86124574276035196" />
         <var name="clampedVerticalScale" id="86124574276035206" />
         <var name="maxScale" id="86124574276035216" />
       </scope>
-      <scope id="86124574276820450" at="60,60,65,19">
+      <scope id="86124574276820450" at="72,60,77,19">
         <var name="height" id="86124574276825795" />
         <var name="maxZoom" id="86124574276920624" />
         <var name="width" id="86124574276825786" />
       </scope>
-      <scope id="86124574276035182" at="24,0,30,0">
+      <scope id="86124574276035182" at="26,0,32,0">
         <var name="desiredZoom" id="86124574276035191" />
         <var name="height" id="86124574276035185" />
         <var name="maxheight" id="86124574276035189" />
         <var name="maxwidth" id="86124574276035187" />
         <var name="width" id="86124574276035183" />
       </scope>
-      <scope id="86124574276038189" at="31,57,38,29" />
-      <scope id="86124574276820447" at="60,0,67,0">
+      <scope id="86124574276820447" at="72,0,79,0">
         <var name="clientHeight" id="86124574276845537" />
         <var name="clientWidth" id="86124574276840622" />
       </scope>
-      <scope id="86124574276038183" at="31,0,40,0">
+      <scope id="1492371760777288472" at="34,59,43,77" />
+      <scope id="86124574276038189" at="33,40,44,7" />
+      <scope id="86124574276038183" at="33,0,46,0">
         <var name="path" id="86124574276042295" />
       </scope>
-      <scope id="86124574276088566" at="40,47,58,14">
+      <scope id="86124574276088566" at="51,47,69,14">
         <var name="height" id="86124574276088576" />
         <var name="newheight" id="86124574276088608" />
         <var name="newwidth" id="86124574276088598" />
         <var name="scaledImage" id="86124574276088641" />
         <var name="width" id="86124574276088568" />
       </scope>
-      <scope id="86124574276088547" at="40,0,60,0">
+      <scope id="86124574276088547" at="51,0,71,0">
         <var name="desiredZoom" id="86124574276235486" />
       </scope>
-      <unit id="86124574275830594" at="13,0,68,0" name="com.dslfoundry.langvis.plugin.plugin.ImageViewer" />
+      <unit id="86124574275830594" at="15,0,80,0" name="com.dslfoundry.langvis.plugin.plugin.ImageViewer" />
     </file>
   </root>
   <root nodeRef="r:d92c6c4c-23fa-4276-9826-db386386bf87(com.dslfoundry.langvis.plugin.plugin)/8993668512652894249">
@@ -1116,60 +1114,49 @@
       <node id="8993668512654519057" at="98,25,99,98" concept="2" />
       <node id="86124574276369541" at="99,98,100,104" concept="2" />
       <node id="86124574278201431" at="102,55,103,63" concept="2" />
-      <node id="2669595826305505269" at="106,80,107,168" concept="7" />
-      <node id="2669595826305484489" at="107,168,108,85" concept="2" />
-      <node id="5082825406350040614" at="108,85,109,13" concept="8" />
-      <node id="5082825406349820597" at="110,5,111,0" concept="10" />
-      <node id="86124574278743619" at="111,0,112,51" concept="9" />
-      <node id="86124574278549505" at="112,51,113,65" concept="7" />
-      <node id="4590450006922481783" at="113,65,114,103" concept="7" />
-      <node id="86124574278556850" at="116,11,117,450" concept="2" />
-      <node id="86124574278671866" at="118,31,119,28" concept="2" />
-      <node id="86124574278669480" at="119,28,120,143" concept="2" />
-      <node id="86124574278544238" at="122,7,123,0" concept="10" />
-      <node id="86124574278745636" at="123,0,124,41" concept="9" />
-      <node id="8634981577171644543" at="124,41,125,140" concept="7" />
-      <node id="86124574275819786" at="125,140,126,58" concept="7" />
-      <node id="1216312259331564305" at="126,58,127,119" concept="2" />
-      <node id="86124574279116223" at="127,119,128,0" concept="10" />
-      <node id="86124574279117338" at="128,0,129,17" concept="9" />
-      <node id="86124574276546075" at="130,9,131,106" concept="2" />
-      <node id="86124574276557043" at="132,29,133,161" concept="2" />
-      <node id="86124574279117337" at="134,5,135,0" concept="10" />
-      <node id="1365497693575293953" at="137,36,138,53" concept="8" />
-      <node id="4590450006922612805" at="141,36,142,47" concept="8" />
-      <node id="4590450006922612805" at="143,5,144,16" concept="8" />
+      <node id="2669595826305505269" at="107,82,108,170" concept="7" />
+      <node id="2669595826305484489" at="108,170,109,87" concept="2" />
+      <node id="5082825406350040614" at="109,87,110,15" concept="8" />
+      <node id="5082825406349820597" at="111,7,112,0" concept="10" />
+      <node id="86124574278743619" at="112,0,113,53" concept="9" />
+      <node id="86124574278549505" at="113,53,114,67" concept="7" />
+      <node id="1492371760780020169" at="114,67,115,105" concept="7" />
+      <node id="86124574278556850" at="117,13,118,452" concept="2" />
+      <node id="86124574278671866" at="119,33,120,30" concept="2" />
+      <node id="86124574278669480" at="120,30,121,145" concept="2" />
+      <node id="86124574278544238" at="123,9,124,0" concept="10" />
+      <node id="86124574278745636" at="124,0,125,43" concept="9" />
+      <node id="8634981577171644543" at="125,43,126,142" concept="7" />
+      <node id="86124574275819786" at="126,142,127,60" concept="7" />
+      <node id="1216312259331564305" at="127,60,128,121" concept="2" />
+      <node id="1492371760779151851" at="128,121,129,52" concept="2" />
+      <node id="86124574276546075" at="132,30,133,106" concept="2" />
+      <node id="1365497693575293953" at="135,36,136,53" concept="8" />
       <node id="9172590890175779193" at="44,0,47,0" concept="1" trace="LanguageVisualisation_Tool#(Lcom/intellij/openapi/project/Project;)V" />
       <node id="86124574278199495" at="102,0,105,0" concept="6" trace="setContextElements#(Ljava/util/Set;)V" />
-      <node id="9172590890175779193" at="137,0,140,0" concept="6" trace="getComponent#()Ljavax/swing/JComponent;" />
-      <node id="4590450006922612805" at="140,78,143,5" concept="5" />
+      <node id="7566662395649967269" at="132,0,135,0" concept="6" trace="reloadImage#()V" />
+      <node id="9172590890175779193" at="135,0,138,0" concept="6" trace="getComponent#()Ljavax/swing/JComponent;" />
       <node id="9172590890175779193" at="81,0,85,0" concept="6" trace="isInitiallyAvailable#()Z" />
       <node id="8993668512654583792" at="90,0,94,0" concept="6" trace="zoomOneToOne#()V" />
       <node id="8993668512652838999" at="94,0,98,0" concept="6" trace="zoomIn#()V" />
       <node id="8993668512652818482" at="98,0,102,0" concept="6" trace="zoomOut#()V" />
       <node id="8993668512654560349" at="85,0,90,0" concept="6" trace="zoomMax#()V" />
-      <node id="5082825406349847668" at="105,57,110,5" concept="5" />
-      <node id="86124574276556830" at="129,17,134,5" concept="15" />
-      <node id="86124574278665291" at="115,72,121,7" concept="15" />
-      <node id="4590450006922612805" at="140,0,146,0" concept="12" trace="check_uw01zt_a5a5#(Ljetbrains/mps/project/MPSProject;)Lorg/jetbrains/mps/openapi/module/SRepository;" />
-      <node id="4590450006922594675" at="114,103,122,7" concept="2" />
-      <node id="86124574277281450" at="105,0,137,0" concept="6" trace="rebuildBasedOnCurrentContextAndSettings#()V" />
+      <node id="5082825406349847668" at="106,59,111,7" concept="5" />
+      <node id="86124574278665291" at="116,71,122,9" concept="14" />
+      <node id="1492371760780619407" at="115,105,123,9" concept="2" />
+      <node id="1492371760778936942" at="105,56,130,7" concept="2" />
+      <node id="86124574277281450" at="105,0,132,0" concept="6" trace="redrawBasedOnCurrentContextAndSettings#()V" />
       <node id="9172590890175779193" at="47,0,81,0" concept="6" trace="init#(Lcom/intellij/openapi/project/Project;)V" />
       <scope id="9172590890175779193" at="44,54,45,78" />
       <scope id="9172590890175779193" at="82,44,83,16" />
       <scope id="86124574278199498" at="102,55,103,63" />
-      <scope id="86124574278665292" at="116,11,117,450" />
-      <scope id="86124574276556831" at="130,9,131,106" />
-      <scope id="86124574276556827" at="132,29,133,161" />
-      <scope id="9172590890175779195" at="137,36,138,53" />
-      <scope id="4590450006922612805" at="141,36,142,47" />
+      <scope id="86124574278665292" at="117,13,118,452" />
+      <scope id="7566662395649967271" at="132,30,133,106" />
+      <scope id="9172590890175779195" at="135,36,136,53" />
       <scope id="8993668512654583794" at="90,30,92,104" />
       <scope id="8993668512652839001" at="94,24,96,104" />
       <scope id="8993668512652818484" at="98,25,100,104" />
-      <scope id="86124574278665288" at="118,31,120,143" />
-      <scope id="86124574276556826" at="132,5,134,5">
-        <var name="e" id="86124574276556828" />
-      </scope>
+      <scope id="86124574278665288" at="119,33,121,145" />
       <scope id="9172590890175779193" at="44,0,47,0">
         <var name="project" id="9172590890175779193" />
       </scope>
@@ -1180,29 +1167,28 @@
       <scope id="86124574278199495" at="102,0,105,0">
         <var name="elements" id="86124574278199504" />
       </scope>
-      <scope id="5082825406349847670" at="106,80,109,13">
+      <scope id="5082825406349847670" at="107,82,110,15">
         <var name="msg" id="2669595826305505272" />
       </scope>
-      <scope id="86124574278665287" at="118,7,121,7">
+      <scope id="86124574278665287" at="119,9,122,9">
         <var name="e" id="86124574278665289" />
       </scope>
-      <scope id="9172590890175779193" at="137,0,140,0" />
+      <scope id="7566662395649967269" at="132,0,135,0" />
+      <scope id="9172590890175779193" at="135,0,138,0" />
       <scope id="9172590890175779193" at="81,0,85,0" />
       <scope id="8993668512654583792" at="90,0,94,0" />
       <scope id="8993668512652838999" at="94,0,98,0" />
       <scope id="8993668512652818482" at="98,0,102,0" />
-      <scope id="4590450006922612805" at="140,78,144,16" />
       <scope id="8993668512654560349" at="85,0,90,0" />
-      <scope id="4590450006922594677" at="115,72,121,7" />
-      <scope id="4590450006922612805" at="140,0,146,0">
-        <var name="checkedDotOperand" id="4590450006922612805" />
-      </scope>
-      <scope id="86124574275580803" at="105,57,135,0">
+      <scope id="1492371760780619411" at="116,71,122,9" />
+      <scope id="1492371760778946895" at="106,59,129,52">
         <var name="commandarray" id="8634981577171644544" />
-        <var name="mpsProject" id="4590450006922481784" />
+        <var name="mpsProject" id="1492371760780020170" />
         <var name="r" id="86124574278549506" />
         <var name="result" id="86124574275819789" />
       </scope>
+      <scope id="86124574275580803" at="105,56,130,7" />
+      <scope id="86124574277281450" at="105,0,132,0" />
       <scope id="9172590890175779193" at="47,37,79,0">
         <var name="actionListener" id="407973368249268805" />
         <var name="diagramScroller" id="86124574271921948" />
@@ -1211,11 +1197,10 @@
         <var name="sl" id="86124574271774321" />
         <var name="toolbar" id="1315009641672127223" />
       </scope>
-      <scope id="86124574277281450" at="105,0,137,0" />
       <scope id="9172590890175779193" at="47,0,81,0">
         <var name="project" id="9172590890175779193" />
       </scope>
-      <unit id="9172590890175779193" at="29,0,147,0" name="com.dslfoundry.langvis.plugin.plugin.LanguageVisualisation_Tool" />
+      <unit id="9172590890175779193" at="29,0,139,0" name="com.dslfoundry.langvis.plugin.plugin.LanguageVisualisation_Tool" />
     </file>
     <file name="Plugin_ProjectPlugin.java">
       <node id="9172590890175779193" at="16,76,17,85" concept="2" />

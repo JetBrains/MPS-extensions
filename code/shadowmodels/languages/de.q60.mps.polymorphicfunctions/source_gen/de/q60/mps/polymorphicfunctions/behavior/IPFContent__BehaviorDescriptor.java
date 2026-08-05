@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -16,7 +15,6 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -25,13 +23,11 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class IPFContent__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0xbc963c22d41949b6L, 0x8543ea411eb9d3a1L, 0x17997d89c3ded52bL, "de.q60.mps.polymorphicfunctions.structure.IPFContent");
 
-  public static final SMethod<Iterable<SNode>> getContexts_id2Vy1$4MUwYY = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getContexts").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3378269547578134462L).languageId(0x8543ea411eb9d3a1L, 0xbc963c22d41949b6L).build2();
-  public static final SMethod<Iterable<SNode>> getPriorityGroups_id6EfR$DZOCR5 = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getPriorityGroups").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7678600301243436485L).languageId(0x8543ea411eb9d3a1L, 0xbc963c22d41949b6L).build2();
+  public static final SMethod<Iterable<SNode>> getContexts_id2Vy1$4MUwYY = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("getContexts").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3378269547578134462L).languageId(0x8543ea411eb9d3a1L, 0xbc963c22d41949b6L).build2();
+  public static final SMethod<Iterable<SNode>> getPriorityGroups_id6EfR$DZOCR5 = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("getPriorityGroups").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7678600301243436485L).languageId(0x8543ea411eb9d3a1L, 0xbc963c22d41949b6L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getContexts_id2Vy1$4MUwYY, getPriorityGroups_id6EfR$DZOCR5);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getContexts_id2Vy1$4MUwYY, getPriorityGroups_id6EfR$DZOCR5);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Iterable<SNode> getContexts_id2Vy1$4MUwYY(@NotNull SNode __thisNode__) {
     return Sequence.fromIterable(SLinkOperations.collect(SNodeOperations.getNodeAncestors(__thisNode__, CONCEPTS.ContextContainer$Yb, false), LINKS.contextDeclaration$Ry6l)).distinct();
@@ -43,10 +39,6 @@ public final class IPFContent__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IPFContent__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -40,8 +40,8 @@ public class SelectionBetweenLinesUp_Test extends BaseTransformationTest {
       invokeAction("jetbrains.mps.ide.editor.actions.SelectPrevious_Action");
       MultilineSelection selection = as_p4ikqh_a0a2a3g(getEditorComponent().getSelectionManager().getSelection(), MultilineSelection.class);
       Assert.assertNotNull(selection);
-      Assert.assertEquals(new CellAnnotation(10, 22, 10, false).getSelectionStart(), selection.getSelectionStart());
-      Assert.assertEquals(new CellAnnotation(10, 22, 10, false).getSelectionEnd(), selection.getSelectionEnd());
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(10, 22, 10, false).getSelectionStart()), Integer.valueOf(selection.getSelectionStart()));
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(10, 22, 10, false).getSelectionEnd()), Integer.valueOf(selection.getSelectionEnd()));
 
     }
     private static <T> T as_p4ikqh_a0a2a3g(Object o, Class<T> type) {

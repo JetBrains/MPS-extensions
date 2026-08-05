@@ -7,28 +7,24 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class IHeaderNode__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x136669758869bdfcL, "de.slisson.mps.tables.structure.IHeaderNode");
 
-  public static final SMethod<String> getReferenceText_id1dAqnm8qrVy = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getReferenceText").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1397920687865839330L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
-  public static final SMethod<String> getReferenceId_id1U60oYvWOtb = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getReferenceId").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2199447184392537931L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
-  public static final SMethod<Boolean> isColumnHeader_id74JgR$TrWSG = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isColumnHeader").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8155811638124989996L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
+  public static final SMethod<String> getReferenceText_id1dAqnm8qrVy = new SMethodBuilder<>(String.class).name("getReferenceText").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1397920687865839330L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
+  public static final SMethod<String> getReferenceId_id1U60oYvWOtb = new SMethodBuilder<>(String.class).name("getReferenceId").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2199447184392537931L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
+  public static final SMethod<Boolean> isColumnHeader_id74JgR$TrWSG = new SMethodBuilder<>(Boolean.TYPE).name("isColumnHeader").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8155811638124989996L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getReferenceText_id1dAqnm8qrVy, getReferenceId_id1U60oYvWOtb, isColumnHeader_id74JgR$TrWSG);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getReferenceText_id1dAqnm8qrVy, getReferenceId_id1U60oYvWOtb, isColumnHeader_id74JgR$TrWSG);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getReferenceId_id1U60oYvWOtb(@NotNull SNode __thisNode__) {
     return __thisNode__.getNodeId().toString();
@@ -49,10 +45,6 @@ public final class IHeaderNode__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IHeaderNode__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

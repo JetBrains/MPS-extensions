@@ -66,7 +66,7 @@ public class TestingMerger {
   }
 
   /*package*/ void resultModelSizeIs(int expectedSize) {
-    Assert.assertEquals("Expected size " + expectedSize + "got " + ListSequence.fromList(SModelOperations.roots(resultModel, null)).count(), expectedSize, ListSequence.fromList(SModelOperations.roots(resultModel, null)).count());
+    Assert.assertEquals("Expected size " + expectedSize + "got " + ListSequence.fromList(SModelOperations.roots(resultModel, null)).count(), Integer.valueOf(expectedSize), Integer.valueOf(ListSequence.fromList(SModelOperations.roots(resultModel, null)).count()));
   }
   /*package*/ void assertEquals(SNode... expectedNodes) {
     for (SNode expectedNode : expectedNodes) {

@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -17,7 +16,6 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -25,13 +23,11 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class SubstituteCell__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x468dcccb640df1e6L, "com.mbeddr.mpsutil.grammarcells.structure.SubstituteCell");
 
-  public static final SMethod<SNode> getWrappedCell_id3O7ZvCZLQjf = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getWrappedCell").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404262095L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
-  public static final SMethod<List<SConcept>> getDescriptionFunctionParameters_id2l$VAMESpmP = new SMethodBuilder<List<SConcept>>(new SJavaCompoundTypeImpl((Class<List<SConcept>>) ((Class) Object.class))).name("getDescriptionFunctionParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2694540627565188533L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<SNode> getWrappedCell_id3O7ZvCZLQjf = new SMethodBuilder<>(SNode.class).name("getWrappedCell").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404262095L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<List<SConcept>> getDescriptionFunctionParameters_id2l$VAMESpmP = new SMethodBuilder<>((Class<List<SConcept>>) ((Class) Object.class)).name("getDescriptionFunctionParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2694540627565188533L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWrappedCell_id3O7ZvCZLQjf, getDescriptionFunctionParameters_id2l$VAMESpmP);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWrappedCell_id3O7ZvCZLQjf, getDescriptionFunctionParameters_id2l$VAMESpmP);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getWrappedCell_id3O7ZvCZLQjf(@NotNull SNode __thisNode__) {
     return SLinkOperations.getTarget(__thisNode__, LINKS.wrapped$8HRz);
@@ -46,10 +42,6 @@ public final class SubstituteCell__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ SubstituteCell__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

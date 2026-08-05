@@ -20,7 +20,7 @@ public class EnumerationDescriptor_SomeEnumeration extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_secondMember_0 = new EnumerationDescriptor.MemberDescriptor("secondMember", "secondMember", 0x322b352f1c590683L, "r:5e14b5a3-3989-4ab3-a15a-50ea008667da(de.itemis.model.simple.demo.enums.structure)/3615041602350286467");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xbf491fd2a197456aL, 0x8354b3b225d4e871L, 0x322b352f1c58fd27L, 0x322b352f1c58fd28L, 0x322b352f1c590412L, 0x322b352f1c590683L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_default_0, myMember_firstMember_0, myMember_secondMember_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_default_0, myMember_firstMember_0, myMember_secondMember_0);
 
   @Nullable
   @Override

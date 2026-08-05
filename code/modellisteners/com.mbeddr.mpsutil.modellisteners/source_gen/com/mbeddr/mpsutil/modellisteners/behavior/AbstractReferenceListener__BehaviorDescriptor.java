@@ -9,7 +9,6 @@ import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.language.SConcept;
 import java.util.Arrays;
@@ -17,20 +16,17 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.structure.behavior.AbstractConceptDeclaration__BehaviorDescriptor;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class AbstractReferenceListener__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x309e000449764416L, 0xb947ec02ae4ecef2L, 0x54bc1de68bab96cbL, "com.mbeddr.mpsutil.modellisteners.structure.AbstractReferenceListener");
 
-  public static final SMethod<List<SNode>> getVisibleLinks_id5iW7uqbEWve = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getVisibleLinks").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6105788070830524366L).languageId(0xb947ec02ae4ecef2L, 0x309e000449764416L).build2();
-  public static final SMethod<List<SConcept>> getParameterConcepts_id2xELmDxyi2v = new SMethodBuilder<List<SConcept>>(new SJavaCompoundTypeImpl((Class<List<SConcept>>) ((Class) Object.class))).name("getParameterConcepts").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2912357169742028959L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
+  public static final SMethod<List<SNode>> getVisibleLinks_id5iW7uqbEWve = new SMethodBuilder<>((Class<List<SNode>>) ((Class) Object.class)).name("getVisibleLinks").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6105788070830524366L).languageId(0xb947ec02ae4ecef2L, 0x309e000449764416L).build2();
+  public static final SMethod<List<SConcept>> getParameterConcepts_id2xELmDxyi2v = new SMethodBuilder<>((Class<List<SConcept>>) ((Class) Object.class)).name("getParameterConcepts").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2912357169742028959L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getVisibleLinks_id5iW7uqbEWve, getParameterConcepts_id2xELmDxyi2v);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getVisibleLinks_id5iW7uqbEWve, getParameterConcepts_id2xELmDxyi2v);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<SNode> getVisibleLinks_id5iW7uqbEWve(@NotNull SNode __thisNode__) {
     return (List<SNode>) AbstractConceptDeclaration__BehaviorDescriptor.getReferenceLinkDeclarations_idhEwILL0.invoke(AbstractListener__BehaviorDescriptor.getParentConcept_id52ZF9D3cTKG.invoke(__thisNode__));
@@ -42,10 +38,6 @@ public final class AbstractReferenceListener__BehaviorDescriptor extends BaseBHD
   /*package*/ AbstractReferenceListener__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

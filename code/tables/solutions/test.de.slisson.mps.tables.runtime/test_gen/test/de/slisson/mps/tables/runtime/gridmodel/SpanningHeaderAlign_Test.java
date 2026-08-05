@@ -16,11 +16,11 @@ public class SpanningHeaderAlign_Test {
   private HeaderReference columnB;
   @Test
   public void test_sizeX() throws Exception {
-    Assert.assertEquals(3, main.getSizeX());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(main.getSizeX()));
   }
   @Test
   public void test_sizeY() throws Exception {
-    Assert.assertEquals(1, main.getSizeY());
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(main.getSizeY()));
   }
   @Test
   public void test_A1() throws Exception {

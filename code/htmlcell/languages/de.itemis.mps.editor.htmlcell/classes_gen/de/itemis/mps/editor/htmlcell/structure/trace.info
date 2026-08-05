@@ -13,7 +13,7 @@
       <unit at="11,0,40,0" name="de.itemis.mps.editor.htmlcell.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,30,0" name="de.itemis.mps.editor.htmlcell.structure.LanguageConceptSwitch" />
+      <unit at="12,0,38,0" name="de.itemis.mps.editor.htmlcell.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="16,0,78,0" name="de.itemis.mps.editor.htmlcell.structure.StructureAspectDescriptor" />
@@ -34,8 +34,8 @@
       <scope id="9175692738071681118" at="20,48,27,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="9175692738071681118" at="12,0,13,0" concept="6" trace="CellModel_HTML" />
-      <node id="9175692738071681118" at="16,116,17,53" concept="0" />
+      <node id="9175692738071681118" at="14,0,15,0" concept="6" trace="CellModel_HTML" />
+      <node id="9175692738071681118" at="18,116,19,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="9175692738071681118" at="17,0,18,0" concept="1" trace="myConceptCellModel_HTML" />
@@ -72,8 +72,8 @@
       <scope id="9175692738071695071" at="28,55,35,43" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="9175692738071695071" at="13,0,14,0" concept="6" trace="QueryFunction_Content" />
-      <node id="9175692738071695071" at="17,53,18,60" concept="0" />
+      <node id="9175692738071695071" at="15,0,16,0" concept="6" trace="QueryFunction_Content" />
+      <node id="9175692738071695071" at="19,53,20,60" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="9175692738071695071" at="18,0,19,0" concept="1" trace="myConceptQueryFunction_Content" />

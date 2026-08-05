@@ -55,6 +55,7 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
   }
   private static String getFileName_TextgenText(SNode node) {
     return SPropertyOperations.getString(node, PROPS.name$MnvL) + ((isNotEmptyString(SPropertyOperations.getString(node, PROPS.ext$2$7y)) ? SPropertyOperations.getString(node, PROPS.ext$2$7y) : ""));
+
   }
   private static String getFileExtension_TextgenText(SNode node) {
     return null;

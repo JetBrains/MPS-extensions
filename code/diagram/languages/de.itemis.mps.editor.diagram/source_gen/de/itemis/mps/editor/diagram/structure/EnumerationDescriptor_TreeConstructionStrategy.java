@@ -19,7 +19,7 @@ public class EnumerationDescriptor_TreeConstructionStrategy extends EnumerationD
   private final EnumerationDescriptor.MemberDescriptor myMember_MAXIMUM_SPANNING_TREE_0 = new EnumerationDescriptor.MemberDescriptor("MAXIMUM_SPANNING_TREE", "MAXIMUM_SPANNING_TREE", 0x32d28aa5f363ef0cL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892363284236");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f363ef09L, 0x32d28aa5f363ef0aL, 0x32d28aa5f363ef0cL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_MINIMUM_SPANNING_TREE_0, myMember_MAXIMUM_SPANNING_TREE_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_MINIMUM_SPANNING_TREE_0, myMember_MAXIMUM_SPANNING_TREE_0);
 
   @Nullable
   @Override

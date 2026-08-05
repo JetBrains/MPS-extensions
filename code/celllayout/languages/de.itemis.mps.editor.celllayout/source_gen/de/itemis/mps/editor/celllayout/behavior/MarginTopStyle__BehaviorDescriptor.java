@@ -8,13 +8,11 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import jetbrains.mps.smodel.builder.SNodeBuilder;
@@ -23,12 +21,10 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class MarginTopStyle__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x1919c723b60b4592L, 0x93189ce96d91da44L, 0x25de75efdcbf403dL, "de.itemis.mps.editor.celllayout.structure.MarginTopStyle");
 
-  public static final SMethod<SNode> getStyleAttributeDeclaration_id2nutuZsM_FC = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getStyleAttributeDeclaration").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2728748097294981864L).languageId(0x93189ce96d91da44L, 0x1919c723b60b4592L).build2();
+  public static final SMethod<SNode> getStyleAttributeDeclaration_id2nutuZsM_FC = new SMethodBuilder<>(SNode.class).name("getStyleAttributeDeclaration").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2728748097294981864L).languageId(0x93189ce96d91da44L, 0x1919c723b60b4592L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStyleAttributeDeclaration_id2nutuZsM_FC);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStyleAttributeDeclaration_id2nutuZsM_FC);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getStyleAttributeDeclaration_id2nutuZsM_FC(@NotNull SAbstractConcept __thisConcept__) {
     return SLinkOperations.getTarget(_quotation_createNode_qtotf_a0a0a(), LINKS.attributeDeclaration$Xjv0);
@@ -37,10 +33,6 @@ public final class MarginTopStyle__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ MarginTopStyle__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

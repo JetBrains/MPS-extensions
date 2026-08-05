@@ -20,7 +20,7 @@ public class EnumerationDescriptor_SplineRoutingMode extends EnumerationDescript
   private final EnumerationDescriptor.MemberDescriptor myMember_SLOPPY_0 = new EnumerationDescriptor.MemberDescriptor("SLOPPY", "SLOPPY", 0x32d28aa5f4573771L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379228017");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f457376aL, 0x32d28aa5f457376bL, 0x32d28aa5f457376eL, 0x32d28aa5f4573771L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_CONSERVATIVE_0, myMember_CONSERVATIVE_SOFT_0, myMember_SLOPPY_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_CONSERVATIVE_0, myMember_CONSERVATIVE_SOFT_0, myMember_SLOPPY_0);
 
   @Nullable
   @Override

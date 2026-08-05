@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -22,7 +21,6 @@ import jetbrains.mps.lang.structure.behavior.PropertyDeclaration__BehaviorDescri
 import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -33,24 +31,22 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class ConceptMergingPolicy__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x539e893908ef497cL, 0xa5fd25dd10137a55L, 0x1a8b8d3e42de4bf5L, "de.itemis.model.merge.structure.ConceptMergingPolicy");
 
-  public static final SMethod<Iterable<SNode>> allHierarchyProperties_id5zr7Q_1V6SF = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyProperties").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832175332907L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Iterable<SNode>> allHierarchyChildren_id5zr7Q_1WLCS = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832175770168L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Iterable<SNode>> allHierarchyReferences_id3PLTv5jznVy = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyReferences").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4427572733333569250L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Iterable<SNode>> allHierarchySingltonChildren_id5zr7Q_1WWCs = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchySingltonChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832175815196L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Iterable<SNode>> allHierarchySingletonRef_id1Av7ChmzWKA = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchySingletonRef").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1846227925981973542L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Iterable<SNode>> allHierarchyOptionalChildren_id5zr7Q_1XJwl = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyOptionalChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832176023573L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Iterable<SNode>> allHierarchyOptionalRef_id1Av7ChmzZ2C = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyOptionalRef").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1846227925981982888L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  public static final SMethod<Iterable<SNode>> allHierarchyMultiChildren_id5zr7Q_1XHDE = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyMultiChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832176015978L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  /*package*/ static final SMethod<Iterable<SNode>> allSuperConcepts_id5zr7Q_1WN6i = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allSuperConcepts").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(6402745832175776146L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  /*package*/ static final SMethod<Iterable<SNode>> allHierarchySingleton_id1Av7ChmzRIr = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchySingleton").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1846227925981952923L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  /*package*/ static final SMethod<Boolean> isReference_id1Av7ChmzSO3 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isReference").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1846227925981957379L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
-  /*package*/ static final SMethod<Iterable<SNode>> allHierarchyOptional_id1Av7ChmzXZT = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyOptional").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1846227925981978617L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
-  /*package*/ static final SMethod<Iterable<SNode>> allHierarchyLinkDeclarations_id5v01ES7q237 = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("allHierarchyLinkDeclarations").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(6323061221346517191L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SNode>> allHierarchyProperties_id5zr7Q_1V6SF = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchyProperties").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832175332907L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SNode>> allHierarchyChildren_id5zr7Q_1WLCS = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchyChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832175770168L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SNode>> allHierarchyReferences_id3PLTv5jznVy = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchyReferences").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4427572733333569250L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SNode>> allHierarchySingltonChildren_id5zr7Q_1WWCs = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchySingltonChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832175815196L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SNode>> allHierarchySingletonRef_id1Av7ChmzWKA = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchySingletonRef").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1846227925981973542L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SNode>> allHierarchyOptionalChildren_id5zr7Q_1XJwl = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchyOptionalChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832176023573L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SNode>> allHierarchyOptionalRef_id1Av7ChmzZ2C = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchyOptionalRef").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1846227925981982888L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  public static final SMethod<Iterable<SNode>> allHierarchyMultiChildren_id5zr7Q_1XHDE = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchyMultiChildren").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6402745832176015978L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  /*package*/ static final SMethod<Iterable<SNode>> allSuperConcepts_id5zr7Q_1WN6i = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allSuperConcepts").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(6402745832175776146L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  /*package*/ static final SMethod<Iterable<SNode>> allHierarchySingleton_id1Av7ChmzRIr = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchySingleton").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1846227925981952923L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  /*package*/ static final SMethod<Boolean> isReference_id1Av7ChmzSO3 = new SMethodBuilder<>(Boolean.TYPE).name("isReference").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1846227925981957379L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter(SNode.class, "it"));
+  /*package*/ static final SMethod<Iterable<SNode>> allHierarchyOptional_id1Av7ChmzXZT = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchyOptional").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(1846227925981978617L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
+  /*package*/ static final SMethod<Iterable<SNode>> allHierarchyLinkDeclarations_id5v01ES7q237 = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("allHierarchyLinkDeclarations").modifiers(0, AccessPrivileges.PRIVATE).concept(CONCEPT).baseMethodId(6323061221346517191L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(allHierarchyProperties_id5zr7Q_1V6SF, allHierarchyChildren_id5zr7Q_1WLCS, allHierarchyReferences_id3PLTv5jznVy, allHierarchySingltonChildren_id5zr7Q_1WWCs, allHierarchySingletonRef_id1Av7ChmzWKA, allHierarchyOptionalChildren_id5zr7Q_1XJwl, allHierarchyOptionalRef_id1Av7ChmzZ2C, allHierarchyMultiChildren_id5zr7Q_1XHDE, allSuperConcepts_id5zr7Q_1WN6i, allHierarchySingleton_id1Av7ChmzRIr, isReference_id1Av7ChmzSO3, allHierarchyOptional_id1Av7ChmzXZT, allHierarchyLinkDeclarations_id5v01ES7q237);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(allHierarchyProperties_id5zr7Q_1V6SF, allHierarchyChildren_id5zr7Q_1WLCS, allHierarchyReferences_id3PLTv5jznVy, allHierarchySingltonChildren_id5zr7Q_1WWCs, allHierarchySingletonRef_id1Av7ChmzWKA, allHierarchyOptionalChildren_id5zr7Q_1XJwl, allHierarchyOptionalRef_id1Av7ChmzZ2C, allHierarchyMultiChildren_id5zr7Q_1XHDE, allSuperConcepts_id5zr7Q_1WN6i, allHierarchySingleton_id1Av7ChmzRIr, isReference_id1Av7ChmzSO3, allHierarchyOptional_id1Av7ChmzXZT, allHierarchyLinkDeclarations_id5v01ES7q237);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Iterable<SNode> allHierarchyProperties_id5zr7Q_1V6SF(@NotNull SNode __thisNode__) {
     List<SNode> declarations = Sequence.fromIterable(ConceptMergingPolicy__BehaviorDescriptor.allSuperConcepts_id5zr7Q_1WN6i.invokeSpecial(__thisNode__)).translate((it) -> SLinkOperations.getChildren(it, LINKS.propertyDeclaration$YUgg)).toList();
@@ -100,10 +96,6 @@ public final class ConceptMergingPolicy__BehaviorDescriptor extends BaseBHDescri
   /*package*/ ConceptMergingPolicy__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

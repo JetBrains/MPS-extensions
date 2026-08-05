@@ -8,13 +8,11 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -22,12 +20,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class AbstractQueryListInlineEditorExpression__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x120e1c9d4e274478L, 0xb2afb2c3bd3850b0L, 0x4aacae31866ff153L, "com.mbeddr.mpsutil.editor.querylist.structure.AbstractQueryListInlineEditorExpression");
 
-  public static final SMethod<SNode> getOwningQueryList_id4EGFz671r3O = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getOwningQueryList").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5380867182542827764L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
+  public static final SMethod<SNode> getOwningQueryList_id4EGFz671r3O = new SMethodBuilder<>(SNode.class).name("getOwningQueryList").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5380867182542827764L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOwningQueryList_id4EGFz671r3O);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOwningQueryList_id4EGFz671r3O);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getOwningQueryList_id4EGFz671r3O(@NotNull SNode __thisNode__) {
     return SNodeOperations.cast(SNodeOperations.getParent(SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.QueryListInlineEditorComponent$wP, false, false)), CONCEPTS.CellModel_QueryList$Qz);
@@ -36,10 +32,6 @@ public final class AbstractQueryListInlineEditorExpression__BehaviorDescriptor e
   /*package*/ AbstractQueryListInlineEditorExpression__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

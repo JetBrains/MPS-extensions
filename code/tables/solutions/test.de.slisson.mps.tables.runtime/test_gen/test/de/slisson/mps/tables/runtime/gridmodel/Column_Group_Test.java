@@ -23,11 +23,11 @@ public class Column_Group_Test {
   private HeaderReference headerB;
   @Test
   public void test_sizeX() throws Exception {
-    Assert.assertEquals(2, gridMain.getSizeX());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(gridMain.getSizeX()));
   }
   @Test
   public void test_sizeY() throws Exception {
-    Assert.assertEquals(2, gridMain.getSizeY());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(gridMain.getSizeY()));
   }
   @Test
   public void test_elements_order() throws Exception {
@@ -38,11 +38,11 @@ public class Column_Group_Test {
   }
   @Test
   public void test_columnHeaderSizeX() throws Exception {
-    Assert.assertEquals(2, gridMain.getColumnHeaders().getSizeX());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(gridMain.getColumnHeaders().getSizeX()));
   }
   @Test
   public void test_columnHeaderSizeY() throws Exception {
-    Assert.assertEquals(2, gridMain.getColumnHeaders().getSizeY());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(gridMain.getColumnHeaders().getSizeY()));
   }
   @Test
   public void test_header_order() throws Exception {

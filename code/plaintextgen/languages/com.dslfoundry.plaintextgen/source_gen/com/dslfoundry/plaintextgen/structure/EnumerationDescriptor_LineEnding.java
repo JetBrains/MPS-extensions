@@ -21,7 +21,7 @@ public class EnumerationDescriptor_LineEnding extends EnumerationDescriptorBase 
   private final EnumerationDescriptor.MemberDescriptor myMember_LF_0 = new EnumerationDescriptor.MemberDescriptor("LF", "LF", 0x705a2e3e0ba1ef45L, "r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/9167550852342474568");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, 0x4a27aa4b40c21e6aL, 0x705a2e3e0ba1ef48L, 0x705a2e3e0ba1ef44L, 0x705a2e3e0ba1ef45L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_Native_0, myMember_CRLF_0, myMember_CR_0, myMember_LF_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_Native_0, myMember_CRLF_0, myMember_CR_0, myMember_LF_0);
 
   @Nullable
   @Override

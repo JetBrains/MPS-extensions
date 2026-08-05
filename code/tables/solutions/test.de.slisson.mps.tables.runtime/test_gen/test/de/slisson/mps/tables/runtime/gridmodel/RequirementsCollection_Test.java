@@ -13,11 +13,11 @@ public class RequirementsCollection_Test {
   private Grid main;
   @Test
   public void test_sizeX() throws Exception {
-    Assert.assertEquals(3, main.getSizeX());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(main.getSizeX()));
   }
   @Test
   public void test_sizeY() throws Exception {
-    Assert.assertEquals(4, main.getSizeY());
+    Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(main.getSizeY()));
   }
   @BeforeEach
   public void setUp() {

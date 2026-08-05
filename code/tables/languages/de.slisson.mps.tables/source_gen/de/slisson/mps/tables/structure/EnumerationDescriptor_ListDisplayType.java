@@ -21,7 +21,7 @@ public class EnumerationDescriptor_ListDisplayType extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_hcells_0 = new EnumerationDescriptor.MemberDescriptor("hcells", "horizontal cells", 0x348a598ce65185caL, "r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/9167550852342474619");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x348a598ce651855dL, 0x348a598ce65185cdL, 0x348a598ce65185d1L, 0x348a598ce651855eL, 0x348a598ce65185caL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_vlist_0, myMember_hlist_0, myMember_vcells_0, myMember_hcells_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_vlist_0, myMember_hlist_0, myMember_vcells_0, myMember_hcells_0);
 
   @Nullable
   @Override

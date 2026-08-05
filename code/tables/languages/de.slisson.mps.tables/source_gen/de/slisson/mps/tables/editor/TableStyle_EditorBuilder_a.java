@@ -98,7 +98,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createCollection_2());
     editorCell.addEditorCell(createCollection_3());
     if (nodeCondition_s9skes_a2b0()) {
-      editorCell.addEditorCell(createHorizontalLineCell_1());
+      editorCell.addEditorCell(createHorizontalLineCell_0());
     }
     if (nodeCondition_s9skes_a3b0()) {
       editorCell.addEditorCell(createRefNodeList_1());
@@ -290,16 +290,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     }
   }
-  private EditorCell createHorizontalLineCell_0(EditorContext editorContext, SNode node) {
-    HorizontalLineCell editorCell = new HorizontalLineCell(editorContext, node);
+  private EditorCell createHorizontalLineCell_0() {
+    HorizontalLineCell editorCell = new HorizontalLineCell(getEditorContext(), getNode());
     editorCell.setCellId("HorizontalLineCell_s9skes_c1a");
     Style style = new StyleImpl();
     style.set(StyleAttributes.getInstance().<Color>getAttribute("de.itemis.mps.editor.celllayout.styles", "_horizontal-line-color"), getStyleRegistry().getSimpleColor(MPSColors.lightGray));
     editorCell.getStyle().putAll(style);
     return editorCell;
-  }
-  private EditorCell createHorizontalLineCell_1() {
-    return createHorizontalLineCell_0(getEditorContext(), myNode);
   }
   private EditorCell createRefNodeList_1() {
     AbstractCellListHandler handler = new itemsListHandler_s9skes_d1a(myNode, getEditorContext());

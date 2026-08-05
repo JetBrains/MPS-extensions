@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -25,10 +24,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class CellModel_Multiline_Constant__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x31c91defa13141a1L, 0x9018102874f49a12L, 0x1e7f894ff1239cdbL, "de.slisson.mps.editor.multiline.structure.CellModel_Multiline_Constant");
 
-  public static final SMethod<String> getClosingText_idhKxUEwj = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getClosingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339738643L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
-  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<String> getClosingText_idhKxUEwj = new SMethodBuilder<>(String.class).name("getClosingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339738643L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<>(String.class).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getClosingText_idhKxUEwj, getOpeningText_idhKxU$w9);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getClosingText_idhKxUEwj, getOpeningText_idhKxU$w9);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.setTarget(__thisNode__, LINKS.contentProvider$tfNI, createQueryFunction_Content_csdqlt_a0a0a0());

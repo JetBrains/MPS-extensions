@@ -19,7 +19,7 @@ public class EnumerationDescriptor_RectPackingWhiteSpaceEliminationStrategy exte
   private final EnumerationDescriptor.MemberDescriptor myMember_TO_ASPECT_RATIO_0 = new EnumerationDescriptor.MemberDescriptor("TO_ASPECT_RATIO", "TO_ASPECT_RATIO", 0x6a0cd7629ce3537L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/477607467892487479");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x4ec11114a76f5400L, 0x6a0cd7629ce34eeL, 0x6a0cd7629ce3537L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_EQUAL_BETWEEN_STRUCTURES_0, myMember_TO_ASPECT_RATIO_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_EQUAL_BETWEEN_STRUCTURES_0, myMember_TO_ASPECT_RATIO_0);
 
   @Nullable
   @Override

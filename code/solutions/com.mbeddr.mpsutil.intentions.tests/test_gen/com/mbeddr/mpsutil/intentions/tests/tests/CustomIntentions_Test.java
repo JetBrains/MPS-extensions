@@ -19,9 +19,9 @@ import com.intellij.openapi.Disposable;
 import com.intellij.openapi.util.Disposer;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.testFramework.TestApplicationManager;
-import com.intellij.openapi.actionSystem.CompositeDataProvider;
 import com.intellij.testFramework.TestDataProvider;
 import jetbrains.mps.ide.project.ProjectHelper;
+import com.intellij.ide.impl.HeadlessDataManager;
 import com.intellij.openapi.actionSystem.DataContext;
 import com.intellij.ide.DataManager;
 import com.intellij.openapi.actionSystem.ActionGroup;
@@ -71,7 +71,8 @@ public class CustomIntentions_Test extends BaseTransformationTest {
         Disposable resetDataProvider = Disposer.newDisposable();
         if (ApplicationManager.getApplication().isUnitTestMode()) {
           // Set up data provider so that our custom action-as-intention is enabled during unit tests.
-          TestApplicationManager.getInstance().setDataProvider(CompositeDataProvider.compose(getEditorComponent(), TestDataProvider.withRules(ProjectHelper.toIdeaProject(myProject))), resetDataProvider);
+          TestApplicationManager.getInstance().setDataProvider(TestDataProvider.withRules(ProjectHelper.toIdeaProject(myProject)), resetDataProvider);
+          HeadlessDataManager.fallbackToProductionDataManager(resetDataProvider);
         }
         try {
           final DataContext dc = DataManager.getInstance().getDataContext(getEditorComponent());

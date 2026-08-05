@@ -26,7 +26,7 @@ public final class SPOrECompactionLayoutConfig__BehaviorDescriptor extends BaseB
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f363cac8L, "de.itemis.mps.editor.diagram.structure.SPOrECompactionLayoutConfig");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assignEnum(__thisNode__, PROPS.compactionStrategy$zIpf, SEnumOperations.getMemberForName(MetaAdapterFactory.getEnumeration(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f363d944L, "de.itemis.mps.editor.diagram.structure.SPOrECompactionStrategy"), SporeCompactionOptions.COMPACTION_COMPACTION_STRATEGY.getDefault().name()));

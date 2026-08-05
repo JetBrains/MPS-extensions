@@ -7,14 +7,12 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -22,15 +20,13 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class CellModel_QueryLink__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x120e1c9d4e274478L, 0xb2afb2c3bd3850b0L, 0xd19937109023e21L, "com.mbeddr.mpsutil.editor.querylist.structure.CellModel_QueryLink");
 
-  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
-  public static final SMethod<String> getClosingText_idhKxUEwj = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getClosingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339738643L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
-  public static final SMethod<Boolean> isCellIdInitialized_idhTuDsSD = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isCellIdInitialized").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1229948571177L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
-  public static final SMethod<SNode> getConceptForInlineComponent_id6TSlAOGJCRe = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getConceptForInlineComponent").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7960207368279461326L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
+  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<>(String.class).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<String> getClosingText_idhKxUEwj = new SMethodBuilder<>(String.class).name("getClosingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339738643L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<Boolean> isCellIdInitialized_idhTuDsSD = new SMethodBuilder<>(Boolean.TYPE).name("isCellIdInitialized").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1229948571177L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<SNode> getConceptForInlineComponent_id6TSlAOGJCRe = new SMethodBuilder<>(SNode.class).name("getConceptForInlineComponent").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7960207368279461326L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9, getClosingText_idhKxUEwj, isCellIdInitialized_idhTuDsSD, getConceptForInlineComponent_id6TSlAOGJCRe);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9, getClosingText_idhKxUEwj, isCellIdInitialized_idhTuDsSD, getConceptForInlineComponent_id6TSlAOGJCRe);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getOpeningText_idhKxU$w9(@NotNull SNode __thisNode__) {
     return "(%";
@@ -48,10 +44,6 @@ public final class CellModel_QueryLink__BehaviorDescriptor extends BaseBHDescrip
   /*package*/ CellModel_QueryLink__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

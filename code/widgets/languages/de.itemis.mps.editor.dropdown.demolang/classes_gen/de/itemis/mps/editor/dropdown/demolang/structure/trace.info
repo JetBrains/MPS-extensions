@@ -16,7 +16,7 @@
       <unit at="11,0,30,0" name="de.itemis.mps.editor.dropdown.demolang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,28,0" name="de.itemis.mps.editor.dropdown.demolang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,36,0" name="de.itemis.mps.editor.dropdown.demolang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="17,0,68,0" name="de.itemis.mps.editor.dropdown.demolang.structure.StructureAspectDescriptor" />
@@ -36,8 +36,8 @@
       <scope id="4141535073102526221" at="19,45,25,33" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="4141535073102526221" at="12,0,13,0" concept="7" trace="RootConcept" />
-      <node id="4141535073102526221" at="15,116,16,50" concept="1" />
+      <node id="4141535073102526221" at="14,0,15,0" concept="7" trace="RootConcept" />
+      <node id="4141535073102526221" at="17,116,18,50" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="4141535073102526221" at="18,0,19,0" concept="2" trace="myConceptRootConcept" />

@@ -19,7 +19,7 @@ public class EnumerationDescriptor_WidthApproximationStrategy extends Enumeratio
   private final EnumerationDescriptor.MemberDescriptor myMember_TARGET_WIDTH_0 = new EnumerationDescriptor.MemberDescriptor("TARGET_WIDTH", "TARGET_WIDTH", 0x6a0cd7629ce39dfL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/477607467892488671");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6a0cd7629ce34edL, 0x6a0cd7629ce39deL, 0x6a0cd7629ce39dfL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_GREEDY_0, myMember_TARGET_WIDTH_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_GREEDY_0, myMember_TARGET_WIDTH_0);
 
   @Nullable
   @Override

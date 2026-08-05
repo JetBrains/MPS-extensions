@@ -53,7 +53,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
   }
 
   /*package*/ EditorCell createCell() {
-    return createDiagramNode_1();
+    return _cell_factory_method_();
   }
 
   private EditorCell createDiagramNode_0(final EditorContext editorContext, final SNode node) {
@@ -130,8 +130,8 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
     return editorCell.value;
   }
-  private EditorCell createDiagramNode_1() {
-    return createDiagramNode_0(getEditorContext(), myNode);
+  private EditorCell _cell_factory_method_() {
+    return createDiagramNode_0(getEditorContext(), getNode());
   }
   private EditorCell createRefNode_0() {
     SingleRoleCellProvider provider = new contentSingleRoleHandler_2n2q1c_a0(myNode, LINKS.content$WdN3, getEditorContext());

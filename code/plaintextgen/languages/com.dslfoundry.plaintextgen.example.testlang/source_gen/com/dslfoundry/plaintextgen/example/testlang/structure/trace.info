@@ -12,7 +12,7 @@
       <unit at="11,0,46,0" name="com.dslfoundry.plaintextgen.example.testlang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,32,0" name="com.dslfoundry.plaintextgen.example.testlang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,40,0" name="com.dslfoundry.plaintextgen.example.testlang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,83,0" name="com.dslfoundry.plaintextgen.example.testlang.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="3661149507326584336" at="21,45,27,33" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="3661149507326584336" at="12,0,13,0" concept="5" trace="TestConcept" />
-      <node id="3661149507326584336" at="17,116,18,50" concept="0" />
+      <node id="3661149507326584336" at="14,0,15,0" concept="5" trace="TestConcept" />
+      <node id="3661149507326584336" at="19,116,20,50" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3661149507326584336" at="16,0,17,0" concept="1" trace="myConceptTestConcept" />
@@ -67,8 +67,8 @@
       <scope id="5316143009141253510" at="28,48,34,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5316143009141253510" at="13,0,14,0" concept="5" trace="TestSubConcept" />
-      <node id="5316143009141253510" at="18,50,19,53" concept="0" />
+      <node id="5316143009141253510" at="15,0,16,0" concept="5" trace="TestSubConcept" />
+      <node id="5316143009141253510" at="20,50,21,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5316143009141253510" at="17,0,18,0" concept="1" trace="myConceptTestSubConcept" />
@@ -102,8 +102,8 @@
       <scope id="5316143009141253513" at="35,51,41,39" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5316143009141253513" at="14,0,15,0" concept="5" trace="TestSubSubConcept" />
-      <node id="5316143009141253513" at="19,53,20,56" concept="0" />
+      <node id="5316143009141253513" at="16,0,17,0" concept="5" trace="TestSubSubConcept" />
+      <node id="5316143009141253513" at="21,53,22,56" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5316143009141253513" at="18,0,19,0" concept="1" trace="myConceptTestSubSubConcept" />

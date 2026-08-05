@@ -20,7 +20,7 @@ public class EnumerationDescriptor_SortingStrategy extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_ID_0 = new EnumerationDescriptor.MemberDescriptor("ID", "ID", 0x5193e20464df4d70L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/5878290447148731760");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x5193e20464df4d6eL, 0x5193e20464df4d6fL, 0x5193e20464df4d73L, 0x5193e20464df4d70L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NONE_0, myMember_POLAR_COORDINATE_0, myMember_ID_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NONE_0, myMember_POLAR_COORDINATE_0, myMember_ID_0);
 
   @Nullable
   @Override

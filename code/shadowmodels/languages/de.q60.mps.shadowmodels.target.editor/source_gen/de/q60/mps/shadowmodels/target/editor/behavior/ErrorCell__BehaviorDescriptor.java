@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import jetbrains.mps.openapi.editor.EditorContext;
 import java.util.List;
@@ -17,7 +16,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -25,12 +23,10 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class ErrorCell__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x9826ee01d0ba4048L, 0xa62261eda9424397L, 0x3a3e5701a2487485L, "de.q60.mps.shadowmodels.target.editor.structure.ErrorCell");
 
-  public static final SMethod<EditorCell> instantiate_id3CYlK6ygK9X = new SMethodBuilder<EditorCell>(new SJavaCompoundTypeImpl(EditorCell.class)).name("instantiate").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4196887567284765309L).languageId(0xa62261eda9424397L, 0x9826ee01d0ba4048L).build2(SMethodBuilder.createJavaParameter(EditorContext.class, ""));
+  public static final SMethod<EditorCell> instantiate_id3CYlK6ygK9X = new SMethodBuilder<>(EditorCell.class).name("instantiate").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4196887567284765309L).languageId(0xa62261eda9424397L, 0x9826ee01d0ba4048L).build2(SMethodBuilder.createJavaParameter(EditorContext.class, "editorContext"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(instantiate_id3CYlK6ygK9X);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(instantiate_id3CYlK6ygK9X);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static EditorCell instantiate_id3CYlK6ygK9X(@NotNull SNode __thisNode__, EditorContext editorContext) {
     EditorCell_Error result = new EditorCell_Error(editorContext, __thisNode__, SPropertyOperations.getString(__thisNode__, PROPS.text$O0pL));
@@ -41,10 +37,6 @@ public final class ErrorCell__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ ErrorCell__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

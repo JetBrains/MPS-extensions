@@ -6,6 +6,7 @@ import org.jetbrains.mps.openapi.model.SModel;
 import java.util.Objects;
 import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import org.jetbrains.mps.openapi.module.SModuleReference;
 
 public class ListenersAspect {
 
@@ -21,5 +22,9 @@ public class ListenersAspect {
 
   public static String getName(SModule module) {
     return module.getModuleName() + ".listeners";
+  }
+
+  public static String getName(SModuleReference moduleRef) {
+    return moduleRef.getModuleName() + ".listeners";
   }
 }

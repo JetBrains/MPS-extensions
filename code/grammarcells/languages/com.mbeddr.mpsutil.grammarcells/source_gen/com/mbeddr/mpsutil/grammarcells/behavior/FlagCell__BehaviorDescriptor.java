@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -19,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -28,15 +26,13 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class FlagCell__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x6630b0153285f979L, "com.mbeddr.mpsutil.grammarcells.structure.FlagCell");
 
-  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
-  public static final SMethod<Boolean> generatesDeleteAction_id6ASs6LmWHDF = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("generatesDeleteAction").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7617962380314729067L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
-  public static final SMethod<String> getFlagText_id6ASs6LmXZEr = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getFlagText").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7617962380315064987L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
-  public static final SMethod<List<SConcept>> getDescriptionFunctionParameters_id2l$VAMESpmP = new SMethodBuilder<List<SConcept>>(new SJavaCompoundTypeImpl((Class<List<SConcept>>) ((Class) Object.class))).name("getDescriptionFunctionParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2694540627565188533L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<>(String.class).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<Boolean> generatesDeleteAction_id6ASs6LmWHDF = new SMethodBuilder<>(Boolean.TYPE).name("generatesDeleteAction").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7617962380314729067L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<String> getFlagText_id6ASs6LmXZEr = new SMethodBuilder<>(String.class).name("getFlagText").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7617962380315064987L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<List<SConcept>> getDescriptionFunctionParameters_id2l$VAMESpmP = new SMethodBuilder<>((Class<List<SConcept>>) ((Class) Object.class)).name("getDescriptionFunctionParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2694540627565188533L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9, generatesDeleteAction_id6ASs6LmWHDF, getFlagText_id6ASs6LmXZEr, getDescriptionFunctionParameters_id2l$VAMESpmP);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9, generatesDeleteAction_id6ASs6LmWHDF, getFlagText_id6ASs6LmXZEr, getDescriptionFunctionParameters_id2l$VAMESpmP);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getOpeningText_idhKxU$w9(@NotNull SNode __thisNode__) {
     return "flag" + EditorCellModel__BehaviorDescriptor.getOpeningText_idhKxU$w9.invokeSuper(__thisNode__, CONCEPTS.FlagCell$sR);
@@ -57,10 +53,6 @@ public final class FlagCell__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ FlagCell__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

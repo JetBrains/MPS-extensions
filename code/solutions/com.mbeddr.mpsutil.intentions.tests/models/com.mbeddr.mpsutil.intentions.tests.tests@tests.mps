@@ -24,9 +24,9 @@
     <import index="9j2l" ref="r:acd2b506-390d-4e84-8c47-cd8fb8c9e0c0(com.mbeddr.mpsutil.intentions.behavior)" />
     <import index="ddhc" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide(MPS.IDEA/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
-    <import index="dd5l" ref="63b449db-0918-4a4a-a891-2c430ab133e4/java:org.junit.platform.commons.util(org.junit.junit5/)" />
+    <import index="dd5l" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.platform.commons.util(JUnit/)" />
     <import index="xcyp" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem.impl(MPS.IDEA/)" />
-    <import index="yqm7" ref="63b449db-0918-4a4a-a891-2c430ab133e4/java:org.junit.jupiter.api(org.junit.junit5/)" />
+    <import index="yqm7" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.jupiter.api(JUnit/)" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
     <import index="anz6" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.testFramework(MPS.IDEA/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
@@ -40,6 +40,7 @@
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="btn2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.impl(MPS.IDEA/)" />
+    <import index="anz7" ref="320a7d92-2f09-4a63-9adc-ee2fc4d9ea30/java:com.intellij.testFramework(MPS.IDEA.testFramework/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tegv" ref="r:b91d2412-f094-4e55-8db6-3c782d7edc40(com.mbeddr.mpsutil.intentions.structure)" implicit="true" />
@@ -1023,14 +1024,14 @@
                     <node concept="3clFbF" id="5qS63vU3ucQ" role="3cqZAp">
                       <node concept="2OqwBi" id="5qS63vU3_Y5" role="3clFbG">
                         <node concept="2YIFZM" id="5qS63vU3_kF" role="2Oq$k0">
-                          <ref role="37wK5l" to="anz6:~TestApplicationManager.getInstance()" resolve="getInstance" />
-                          <ref role="1Pybhc" to="anz6:~TestApplicationManager" resolve="TestApplicationManager" />
+                          <ref role="37wK5l" to="anz7:~TestApplicationManager.getInstance()" resolve="getInstance" />
+                          <ref role="1Pybhc" to="anz7:~TestApplicationManager" resolve="TestApplicationManager" />
                         </node>
                         <node concept="liA8E" id="5qS63vU3ACT" role="2OqNvi">
-                          <ref role="37wK5l" to="anz6:~TestApplicationManager.setDataProvider(com.intellij.openapi.actionSystem.DataProvider,com.intellij.openapi.Disposable)" resolve="setDataProvider" />
+                          <ref role="37wK5l" to="anz7:~TestApplicationManager.setDataProvider(com.intellij.openapi.actionSystem.DataProvider,com.intellij.openapi.Disposable)" resolve="setDataProvider" />
                           <node concept="2YIFZM" id="5qS63vU4muz" role="37wK5m">
-                            <ref role="37wK5l" to="anz6:~TestDataProvider.withRules(com.intellij.openapi.project.Project)" resolve="withRules" />
-                            <ref role="1Pybhc" to="anz6:~TestDataProvider" resolve="TestDataProvider" />
+                            <ref role="37wK5l" to="anz7:~TestDataProvider.withRules(com.intellij.openapi.project.Project)" resolve="withRules" />
+                            <ref role="1Pybhc" to="anz7:~TestDataProvider" resolve="TestDataProvider" />
                             <node concept="2YIFZM" id="5qS63vU4t_k" role="37wK5m">
                               <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
                               <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />

@@ -7117,6 +7117,11 @@
               <ref role="3bR37D" to="ffeo:1ULLXZL0gZG" resolve="org.junit.junit5" />
             </node>
           </node>
+          <node concept="1SiIV0" id="6z7iTaTJC83" role="3bR37C">
+            <node concept="3bR9La" id="6z7iTaTJC84" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="3OVhQEUSbqO" role="3bR31x">
           <node concept="3LXTmp" id="3OVhQEUSbqP" role="3rtmxm">
@@ -13212,6 +13217,9 @@
         <node concept="3LEDTy" id="3_sZyadwfvI" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
         </node>
+        <node concept="3LEDTy" id="6z7iTaTJCjP" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L4p" resolve="jetbrains.mps.lang.behavior" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="2OJNL7ElSUK" role="3989C9">
@@ -19005,6 +19013,11 @@
             <ref role="3bR37D" node="4be$WTb1AQa" resolve="de.itemis.mps.editor.diagram.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6ZHjQgkBnWt" role="3bR37C">
+          <node concept="3bR9La" id="6ZHjQgkBnWu" role="1SiIV1">
+            <ref role="3bR37D" node="1yenN3vQXqG" resolve="test.de.slisson.mps.tables.lang" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2f7xPXzHwm6" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -19160,6 +19173,95 @@
         <node concept="1SiIV0" id="2P8zLSglyLQ" role="3bR37C">
           <node concept="3bR9La" id="2P8zLSglyLR" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="1yenN3vQXqG" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.de.slisson.mps.tables.lang" />
+        <property role="3LESm3" value="ae148960-ac6e-4075-b5e1-ef26a4acb340" />
+        <node concept="398BVA" id="1yenN3vQXs5" role="3LF7KH">
+          <ref role="398BVh" node="5mH$9t6e_IG" resolve="tables.home" />
+          <node concept="2Ry0Ak" id="1yenN3vQXtR" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="1yenN3vQXvC" role="2Ry0An">
+              <property role="2Ry0Am" value="test.de.slisson.mps.tables.lang" />
+              <node concept="2Ry0Ak" id="1yenN3vQXwV" role="2Ry0An">
+                <property role="2Ry0Am" value="test.de.slisson.mps.tables.lang.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1yenN3vQX$W" role="3bR37C">
+          <node concept="3bR9La" id="1yenN3vQX$X" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="1yenN3vQX_j" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="1yenN3vQX_k" role="1HemKq">
+            <node concept="398BVA" id="1yenN3vQX$Y" role="3LXTmr">
+              <ref role="398BVh" node="5mH$9t6e_IG" resolve="tables.home" />
+              <node concept="2Ry0Ak" id="1yenN3vQX$Z" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="1yenN3vQX_0" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.slisson.mps.tables.lang" />
+                  <node concept="2Ry0Ak" id="1yenN3vQX_1" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="1yenN3vQX_l" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="1yenN3vQX_m" role="1TViLv">
+          <property role="TrG5h" value="test.de.slisson.mps.tables.lang.generator" />
+          <property role="3LESm3" value="5cdc8927-7248-48ee-9e0a-74ea2a6537b1" />
+          <node concept="1BupzO" id="1yenN3vQX_K" role="3bR31x">
+            <property role="3ZfqAx" value="generator/templates" />
+            <property role="1Hdu6h" value="true" />
+            <property role="1HemKv" value="true" />
+            <node concept="3LXTmp" id="1yenN3vQX_L" role="1HemKq">
+              <node concept="398BVA" id="1yenN3vQX_n" role="3LXTmr">
+                <ref role="398BVh" node="5mH$9t6e_IG" resolve="tables.home" />
+                <node concept="2Ry0Ak" id="1yenN3vQX_o" role="iGT6I">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="1yenN3vQX_p" role="2Ry0An">
+                    <property role="2Ry0Am" value="test.de.slisson.mps.tables.lang" />
+                    <node concept="2Ry0Ak" id="1yenN3vQX_q" role="2Ry0An">
+                      <property role="2Ry0Am" value="generator" />
+                      <node concept="2Ry0Ak" id="1yenN3vQX_r" role="2Ry0An">
+                        <property role="2Ry0Am" value="templates" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="1yenN3vQX_M" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="1yenN3vQY58" role="3bR31x">
+          <node concept="3LXTmp" id="1yenN3vQY59" role="3rtmxm">
+            <node concept="398BVA" id="1yenN3vQY5a" role="3LXTmr">
+              <ref role="398BVh" node="5mH$9t6e_IG" resolve="tables.home" />
+              <node concept="2Ry0Ak" id="1yenN3vQY5b" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="1yenN3vQY5c" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.slisson.mps.tables.lang" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="1yenN3vQY5e" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
           </node>
         </node>
       </node>
@@ -24914,6 +25016,16 @@
             <ref role="3bR37D" node="3OVhQEUM97i" resolve="nl.f1re.testing.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6z7iTaTJCTX" role="3bR37C">
+          <node concept="3bR9La" id="6z7iTaTJCTY" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1uyFnK9vtIN" resolve="MPS.IDEA.testFramework" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6z7iTaTJCTZ" role="3bR37C">
+          <node concept="3bR9La" id="6z7iTaTJCU0" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="77YfcvOSSnB" role="3989C9">
@@ -25625,6 +25737,11 @@
         <node concept="1SiIV0" id="3UkPvdFivvr" role="3bR37C">
           <node concept="3bR9La" id="3UkPvdFivvs" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6z7iTaTJCW9" role="3bR37C">
+          <node concept="3bR9La" id="6z7iTaTJCWa" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1uyFnK9vtIN" resolve="MPS.IDEA.testFramework" />
           </node>
         </node>
       </node>
@@ -26459,6 +26576,12 @@
         <ref role="398BVh" node="6$6tsX_CF7d" resolve="mps.home" />
       </node>
     </node>
+    <node concept="13uUGR" id="jUaXCxhbCY" role="1l3spa">
+      <ref role="13uUGO" to="ffeo:6eCuTcwOnJO" resolve="IDEA" />
+      <node concept="398BVA" id="jUaXCxhbCZ" role="13uUGP">
+        <ref role="398BVh" node="6$6tsX_CF7d" resolve="mps.home" />
+      </node>
+    </node>
     <node concept="2sgV4H" id="6$6tsX_CIho" role="1l3spa">
       <ref role="1l3spb" node="2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
       <node concept="398BVA" id="2fo8bJECJBq" role="2JcizS">
@@ -26513,6 +26636,9 @@
       </node>
       <node concept="L2wRC" id="5mH$9t6eE6L" role="39821P">
         <ref role="L2wRA" node="5mH$9t6eA1O" resolve="de.slisson.mps.tables.demolang" />
+      </node>
+      <node concept="L2wRC" id="1yenN3vRTPy" role="39821P">
+        <ref role="L2wRA" node="1yenN3vQXqG" resolve="test.de.slisson.mps.tables.lang" />
       </node>
       <node concept="L2wRC" id="7i5Cc6Lw5nc" role="39821P">
         <ref role="L2wRA" node="5mH$9t6eAsB" resolve="test.de.itemis.mps.editor.celllayout" />

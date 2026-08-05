@@ -23,6 +23,7 @@ import de.itemis.mps.structurecheck.runtime.TypeChecker;
 import de.itemis.mps.structurecheck.runtime.Message;
 import de.itemis.mps.editor.diagram.runtime.jgraph.EdgeDCell;
 import de.itemis.mps.editor.diagram.runtime.jgraph.JGraphUtil;
+import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -84,6 +85,12 @@ public class AddBox_Test extends BaseTransformationTest {
           public Iterable<mxCell> getSequence(mxCell thisElement) {
             return JGraphUtil.getChildCells(thisElement);
           }
+          @Nullable
+          @Override
+          public Message getMessage(mxCell thisElement) {
+            // Overridden just for being included in the stack trace
+            return super.getMessage(thisElement);
+          }
         });
         Message message = checker.getMessage(thisElement);
         if (message != null) {
@@ -120,6 +127,12 @@ public class AddBox_Test extends BaseTransformationTest {
           }) {
             public Iterable<mxCell> getSequence(mxCell thisElement) {
               return JGraphUtil.getChildCells(thisElement);
+            }
+            @Nullable
+            @Override
+            public Message getMessage(mxCell thisElement) {
+              // Overridden just for being included in the stack trace
+              return super.getMessage(thisElement);
             }
           });
           Message message = checker.getMessage(thisElement);

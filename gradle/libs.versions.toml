@@ -1,3 +1,6 @@
+[versions]
+mps = "2024.1.6"
+
 [libraries]
-mps = "com.jetbrains:mps:2024.1.6"
-jbr = "com.jetbrains.jdk:jbr_jcef:17.0.11-b1207.30"
+mps = { module = "com.jetbrains:mps", version.ref = "mps" }
+jbr = { module = "com.jetbrains.mps:mps-jbr", version.ref = "mps" }

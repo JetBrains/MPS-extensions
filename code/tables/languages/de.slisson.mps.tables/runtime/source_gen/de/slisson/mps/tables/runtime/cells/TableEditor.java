@@ -208,16 +208,18 @@ public class TableEditor extends AbstractTableEditor {
             nodeForGridCell = leaf.getEditorCell().getSNode();
           }
           wrapper = new EditorCell_GridCell(getContext(), nodeForGridCell, leaf.getEditorCell());
+          initGridCell(wrapper, x, y);
+          wrapper.setTable(this);
+          wrapper.setPosition(new GridPosition(x, y));
           EditorCell leafCell = leaf.getEditorCell();
           while (leafCell.getParent() instanceof EditorCell_GridCell) {
             ((EditorCell_GridCell) leafCell.getParent()).unwrap();
           }
           TableUtils.wrapCell(leaf.getEditorCell(), wrapper);
           leaf.setEditorCell(wrapper);
+        } else {
+          initGridCell(wrapper, x, y);
         }
-        wrapper.setTable(this);
-        wrapper.setPosition(new GridPosition(x, y));
-        wrapper.clearStyle();
         Style style = leaf.getStyle();
         if (style != null) {
           wrapper.getTableStyle().putAll(style);
@@ -228,18 +230,24 @@ public class TableEditor extends AbstractTableEditor {
     sortChildren();
   }
 
+  private void initGridCell(EditorCell_GridCell gridCell, int x, int y) {
+    gridCell.setTable(this);
+    gridCell.setPosition(new GridPosition(x, y));
+    gridCell.clearStyle();
+  }
+
   public List<PartialTableEditor> getDescendantPartialTables() {
     return (List) TableTraversalUtil.getDescendants(this, (EditorCell cell) -> cell instanceof PartialTableEditor);
   }
 
   private static void setAllIndentLayoutMaxWidth(EditorCell parent, Integer width) {
-    if (as_cj6dzx_a0a0a04(parent, EditorCell_Collection.class) != null) {
+    if (as_cj6dzx_a0a0a24(parent, EditorCell_Collection.class) != null) {
       Style style = parent.getStyle();
       if (!(style.isSpecified(StyleAttributes.MAX_WIDTH))) {
         style.set(StyleAttributes.MAX_WIDTH, width);
       }
     }
-    for (EditorCell child : Sequence.fromIterable(as_cj6dzx_a0a1a04(parent, jetbrains.mps.openapi.editor.cells.EditorCell_Collection.class))) {
+    for (EditorCell child : Sequence.fromIterable(as_cj6dzx_a0a1a24(parent, jetbrains.mps.openapi.editor.cells.EditorCell_Collection.class))) {
       setAllIndentLayoutMaxWidth(child, width);
     }
   }
@@ -320,10 +328,10 @@ public class TableEditor extends AbstractTableEditor {
   private static <T> T as_cj6dzx_a0a3a0a1a63(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_cj6dzx_a0a0a04(Object o, Class<T> type) {
+  private static <T> T as_cj6dzx_a0a0a24(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_cj6dzx_a0a1a04(Object o, Class<T> type) {
+  private static <T> T as_cj6dzx_a0a1a24(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

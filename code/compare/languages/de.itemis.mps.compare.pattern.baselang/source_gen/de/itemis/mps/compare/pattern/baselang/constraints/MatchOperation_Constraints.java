@@ -30,7 +30,7 @@ public class MatchOperation_Constraints extends BaseConstraintsDescriptor {
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -44,7 +44,7 @@ public class MatchOperation_Constraints extends BaseConstraintsDescriptor {
       return true;
     }
   }
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)", "6768392667014054265");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("r:a7657b1e-15ab-4470-b56d-68edc359f7a4(de.itemis.mps.compare.pattern.baselang.constraints)", "6768392667014054265");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept MatchOperation$tn = MetaAdapterFactory.getConcept(0x36590f48d68b4c16L, 0xbfbac769260bbac0L, 0x186d97e0b986cd07L, "de.itemis.mps.compare.pattern.baselang.structure.MatchOperation");

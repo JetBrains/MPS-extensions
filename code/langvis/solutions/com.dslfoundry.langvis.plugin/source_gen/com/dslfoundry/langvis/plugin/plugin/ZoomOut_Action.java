@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.plugins.projectplugins.ProjectPluginManager;
 
 public class ZoomOut_Action extends BaseAction {
-  private static final Icon ICON = IconContainer.ICON_a0_1;
+  private static final Icon ICON = IconContainer.ICON2;
 
   public ZoomOut_Action() {
     super("ZoomOut", "", ICON);

@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.plugins.projectplugins.ProjectPluginManager;
 
 public class Reload_Action extends BaseAction {
-  private static final Icon ICON = IconContainer.ICON_a0;
+  private static final Icon ICON = IconContainer.ICON0;
 
   public Reload_Action() {
     super("Reload", "", ICON);

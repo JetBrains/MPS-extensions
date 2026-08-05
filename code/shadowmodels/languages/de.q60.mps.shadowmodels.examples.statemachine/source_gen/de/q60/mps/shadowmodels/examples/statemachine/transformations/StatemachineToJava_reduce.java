@@ -55,7 +55,7 @@ public class StatemachineToJava_reduce extends PFModule {
     }
   }).invoke();
   private StatemachineToJava_reduce() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -82,7 +82,7 @@ public class StatemachineToJava_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce.toJava", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce.toJava", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(INode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -112,7 +112,7 @@ public class StatemachineToJava_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce.toJava/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce.toJava/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -139,7 +139,7 @@ public class StatemachineToJava_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce.statemachine2java", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce.statemachine2java", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -179,7 +179,7 @@ public class StatemachineToJava_reduce extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce.statemachine2java.reduce_1_Statemachine", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce.statemachine2java.reduce_1_Statemachine", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Statemachine$ba)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

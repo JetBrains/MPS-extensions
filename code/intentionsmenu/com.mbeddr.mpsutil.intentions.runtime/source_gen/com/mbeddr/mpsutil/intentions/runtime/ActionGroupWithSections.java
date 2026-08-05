@@ -6,6 +6,7 @@ import com.intellij.openapi.actionSystem.DefaultActionGroup;
 import org.jetbrains.annotations.NotNull;
 import java.util.List;
 import com.intellij.openapi.actionSystem.AnAction;
+import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.UpdateSession;
 import com.google.common.collect.TreeMultimap;
 import java.util.Comparator;
@@ -26,7 +27,8 @@ import jetbrains.mps.intentions.icons.Icons;
 
   @NotNull
   @Override
-  public List<AnAction> postProcessVisibleChildren(@NotNull List<? extends AnAction> visibleChildren, @NotNull final UpdateSession updateSession) {
+  public List<AnAction> postProcessVisibleChildren(@NotNull AnActionEvent e, @NotNull List<? extends AnAction> visibleChildren) {
+    final UpdateSession updateSession = e.getUpdateSession();
     TreeMultimap<String, AnAction> actionsBySection = TreeMultimap.create(Comparator.<String>naturalOrder(), Comparator.comparing((AnAction action) -> updateSession.presentation(action).getText()));
 
     for (AnAction action : ListSequence.fromList(visibleChildren)) {

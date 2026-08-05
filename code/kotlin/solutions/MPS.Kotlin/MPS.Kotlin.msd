@@ -2,17 +2,19 @@
 <solution name="MPS.Kotlin" uuid="47198eff-d292-4dcd-85af-227f983426b5" moduleVersion="0">
   <models>
     <modelRoot contentPath="${mps_home}/plugins/mps-kotlin/lib" type="java_classes">
+      <sourceRoot path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-2.1.0.jar" />
+      <sourceRoot path="${mps_home}/plugins/mps-kotlin/lib/kotlin-builtins.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${mps_home}/plugins/mps-kotlin/lib" type="java_classes">
+      <sourceRoot location="kotlin-stdlib-2.1.0.jar" />
       <sourceRoot location="kotlin-builtins.jar" />
-      <sourceRoot location="kotlin-stdlib-1.9.20.jar" />
-      <sourceRoot location="kotlin-stdlib-common-1.9.20.jar" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java" compile="ext" classes="provided" ext="no">
       <classes generated="true" />
+      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-2.1.0.jar" />
       <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-builtins.jar" />
-      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-1.9.20.jar" />
-      <library location="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-common-1.9.20.jar" />
     </facet>
   </facets>
   <dependencies>

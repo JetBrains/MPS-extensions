@@ -41,7 +41,7 @@ public class MultilineCellReference_Constraints extends BaseConstraintsDescripto
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -73,7 +73,7 @@ public class MultilineCellReference_Constraints extends BaseConstraintsDescripto
   private static boolean staticCanBeAnAncestor(SNode node, SNode childNode, SAbstractConcept childConcept, SNode parentNode, SContainmentLink link) {
     return (SNodeOperations.getNodeAncestor(parentNode, CONCEPTS.EditorTestCase$DN, true, false) != null);
   }
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("r:65a7103d-4b1f-4ac5-9176-aa61ee012b36(de.slisson.mps.editor.multiline.test.constraints)", "6193633844718726146");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("r:65a7103d-4b1f-4ac5-9176-aa61ee012b36(de.slisson.mps.editor.multiline.test.constraints)", "6193633844718726146");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept MultilineCellReference$NW = MetaAdapterFactory.getConcept(0xf2ccb7a482c4ebfL, 0xbf26faa5b895afe4L, 0x55f4352a9f4bd295L, "de.slisson.mps.editor.multiline.test.structure.MultilineCellReference");

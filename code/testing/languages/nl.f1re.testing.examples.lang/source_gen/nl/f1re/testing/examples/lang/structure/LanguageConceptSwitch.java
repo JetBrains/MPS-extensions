@@ -13,10 +13,11 @@ public final class LanguageConceptSwitch {
   public static final int CompletionStyling = 1;
   public static final int CompletionStylingExample = 2;
   public static final int ConditionalEditor = 3;
-  public static final int NodeWithToolTip = 4;
-  public static final int Readme = 5;
-  public static final int SlowEditor = 6;
-  public static final int VCSCustomization = 7;
+  public static final int LifecycleTesting = 4;
+  public static final int NodeWithToolTip = 5;
+  public static final int Readme = 6;
+  public static final int SlowEditor = 7;
+  public static final int VCSCustomization = 8;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L);
@@ -24,6 +25,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x5891a3928a6a1274L, CompletionStyling);
     builder.put(0x5891a3928a6a1268L, CompletionStylingExample);
     builder.put(0x1c4cfe74f5a5b0d0L, ConditionalEditor);
+    builder.put(0x448ed3c5ec0ad179L, LifecycleTesting);
     builder.put(0x2923b546f4940a87L, NodeWithToolTip);
     builder.put(0x2923b546f48ee03aL, Readme);
     builder.put(0x5e64d3931d4923d4L, SlowEditor);

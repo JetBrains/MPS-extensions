@@ -40,7 +40,7 @@ public class ShadowRepository extends PFModule {
     }
   }).invoke();
   private ShadowRepository() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -67,7 +67,7 @@ public class ShadowRepository extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Repository$db)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

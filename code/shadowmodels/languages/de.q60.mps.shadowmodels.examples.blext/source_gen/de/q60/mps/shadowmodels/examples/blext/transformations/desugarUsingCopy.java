@@ -57,7 +57,7 @@ public class desugarUsingCopy extends PFModule {
     }
   }).invoke();
   private desugarUsingCopy() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -84,7 +84,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.BaseConcept$gP)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -149,7 +149,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Null());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -190,7 +190,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.UntilStatement$XV)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -272,7 +272,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.VariableWithInferredType$dc)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -325,7 +325,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.varWithInferredType.lvd", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.varWithInferredType.lvd", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.VariableWithInferredType$dc)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -399,7 +399,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.VariableWithInferredType_Reference$H9)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -446,7 +446,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ClassConcept$bK)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -505,7 +505,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar&", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar&", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ClassConcept$bK)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -569,7 +569,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.NullAlternativeExpression$3A)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -631,7 +631,7 @@ public class desugarUsingCopy extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.naMethod", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.naMethod", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.NullAlternativeExpression$3A)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

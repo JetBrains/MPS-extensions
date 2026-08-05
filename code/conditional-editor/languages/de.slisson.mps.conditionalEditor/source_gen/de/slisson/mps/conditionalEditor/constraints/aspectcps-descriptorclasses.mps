@@ -1417,7 +1417,7 @@
                               <ref role="37wK5l" to="ze1i:~CheckingNodeContext.setBreakingNode(org.jetbrains.mps.openapi.model.SNodeReference)" resolve="setBreakingNode" />
                               <uo k="s:originTrace" v="n:1452226863087639364" />
                               <node concept="1dyn4i" id="5k" role="37wK5m">
-                                <property role="1dyqJU" value="canBeRootBreakingPoint" />
+                                <property role="1dyqJU" value="canBeAncestorBreakingPoint" />
                                 <uo k="s:originTrace" v="n:1452226863087639364" />
                                 <node concept="2ShNRf" id="5l" role="1dyrYi">
                                   <uo k="s:originTrace" v="n:1452226863087639364" />
@@ -1812,7 +1812,7 @@
                               <ref role="37wK5l" to="ze1i:~CheckingNodeContext.setBreakingNode(org.jetbrains.mps.openapi.model.SNodeReference)" resolve="setBreakingNode" />
                               <uo k="s:originTrace" v="n:6733065834258977625" />
                               <node concept="1dyn4i" id="70" role="37wK5m">
-                                <property role="1dyqJU" value="canBeRootBreakingPoint" />
+                                <property role="1dyqJU" value="canBeAncestorBreakingPoint" />
                                 <uo k="s:originTrace" v="n:6733065834258977625" />
                                 <node concept="2ShNRf" id="71" role="1dyrYi">
                                   <uo k="s:originTrace" v="n:6733065834258977625" />

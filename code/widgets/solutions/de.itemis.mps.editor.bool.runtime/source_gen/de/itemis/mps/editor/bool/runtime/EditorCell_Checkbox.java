@@ -25,10 +25,11 @@ public class EditorCell_Checkbox extends EditorCell_Basic {
   private ModelAccessor myModelAccessor;
   private boolean myIsChecked;
   private boolean myCommitInProgress = false;
-  private CheckboxImages myImages = new CheckboxImages();
+  private CheckboxImages myImages;
 
   protected EditorCell_Checkbox(EditorContext context, SNode node, ModelAccessor modelAccessor) {
     super(context, node);
+    myImages = new CheckboxImages(context.getRepository());
     myModelAccessor = modelAccessor;
     synchronizeViewWithModel();
     setSelectable(true);

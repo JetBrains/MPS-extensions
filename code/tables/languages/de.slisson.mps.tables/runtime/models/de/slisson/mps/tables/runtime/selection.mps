@@ -1562,14 +1562,29 @@
             <node concept="1QHqEO" id="12YYiosgSJk" role="3cqZAp">
               <node concept="1QHqEC" id="12YYiosgSJm" role="1QHqEI">
                 <node concept="3clFbS" id="12YYiosgSJo" role="1bW5cS">
-                  <node concept="3clFbF" id="12YYiorQOwq" role="3cqZAp">
-                    <node concept="2OqwBi" id="12YYiorQOwr" role="3clFbG">
-                      <node concept="37vLTw" id="12YYiorUzFj" role="2Oq$k0">
+                  <node concept="3clFbJ" id="1S_MuZtO8Ga" role="3cqZAp">
+                    <node concept="3clFbS" id="1S_MuZtO8Gc" role="3clFbx">
+                      <node concept="3clFbF" id="12YYiorQOwq" role="3cqZAp">
+                        <node concept="2OqwBi" id="12YYiorQOwr" role="3clFbG">
+                          <node concept="37vLTw" id="12YYiorUzFj" role="2Oq$k0">
+                            <ref role="3cqZAo" node="12YYiorUzFe" resolve="action" />
+                          </node>
+                          <node concept="liA8E" id="12YYiorQOww" role="2OqNvi">
+                            <ref role="37wK5l" to="f4zo:~CellAction.execute(jetbrains.mps.openapi.editor.EditorContext)" resolve="execute" />
+                            <node concept="37vLTw" id="12YYiosh0nw" role="37wK5m">
+                              <ref role="3cqZAo" node="12YYiosh0nr" resolve="context" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="1S_MuZtOaQc" role="3clFbw">
+                      <node concept="37vLTw" id="1S_MuZtO9Ef" role="2Oq$k0">
                         <ref role="3cqZAo" node="12YYiorUzFe" resolve="action" />
                       </node>
-                      <node concept="liA8E" id="12YYiorQOww" role="2OqNvi">
-                        <ref role="37wK5l" to="f4zo:~CellAction.execute(jetbrains.mps.openapi.editor.EditorContext)" resolve="execute" />
-                        <node concept="37vLTw" id="12YYiosh0nw" role="37wK5m">
+                      <node concept="liA8E" id="1S_MuZtOcl1" role="2OqNvi">
+                        <ref role="37wK5l" to="f4zo:~CellAction.canExecute(jetbrains.mps.openapi.editor.EditorContext)" resolve="canExecute" />
+                        <node concept="37vLTw" id="1S_MuZtOdGd" role="37wK5m">
                           <ref role="3cqZAo" node="12YYiosh0nr" resolve="context" />
                         </node>
                       </node>

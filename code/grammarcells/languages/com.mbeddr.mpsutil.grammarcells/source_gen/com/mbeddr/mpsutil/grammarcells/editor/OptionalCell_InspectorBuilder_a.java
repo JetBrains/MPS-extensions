@@ -12,9 +12,10 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.lang.editor.editor.Styles_StyleSheet.headerStyleClass;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
-import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.editor.editor.Styles_StyleSheet.propertyStyleClass;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -55,13 +56,29 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     editorCell.setCellId("Collection_40khh_0");
     editorCell.setBig(true);
     setCellContext(editorCell);
+    editorCell.addEditorCell(createComponent_0());
     editorCell.addEditorCell(createConstant_0());
+    editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createCollection_1());
     return editorCell;
   }
+  private EditorCell createComponent_0() {
+    EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "jetbrains.mps.lang.editor.editor._CellModel_Common");
+    return editorCell;
+  }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Optional Cell:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
     editorCell.setCellId("Constant_40khh_0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_1() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Optional Cell:");
+    editorCell.setCellId("Constant_40khh_1");
     Style style = new StyleImpl();
     new headerStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -75,7 +92,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     editorCell.addEditorCell(createCollection_2());
     editorCell.addEditorCell(createCollection_3());
     editorCell.addEditorCell(createCollection_4());
-    editorCell.addEditorCell(createComponent_0());
+    editorCell.addEditorCell(createComponent_1());
     return editorCell;
   }
   private EditorCell createCollection_2() {
@@ -84,14 +101,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     Style style = new StyleImpl();
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_1());
+    editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createRefNode_0());
     editorCell.addEditorCell(createReadOnlyModelAccessor_0());
     return editorCell;
   }
-  private EditorCell createConstant_1() {
+  private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "transformation text:");
-    editorCell.setCellId("Constant_40khh_1");
+    editorCell.setCellId("Constant_40khh_2");
     Style style = new StyleImpl();
     new propertyStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -99,14 +116,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new transformationTextSingleRoleHandler_40khh_b0b0(myNode, LINKS.transformationText$Uekg, getEditorContext());
+    SingleRoleCellProvider provider = new transformationTextSingleRoleHandler_40khh_b0d0(myNode, LINKS.transformationText$Uekg, getEditorContext());
     return provider.createCell();
   }
-  private static class transformationTextSingleRoleHandler_40khh_b0b0 extends SingleRoleCellProvider {
+  private static class transformationTextSingleRoleHandler_40khh_b0d0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public transformationTextSingleRoleHandler_40khh_b0b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public transformationTextSingleRoleHandler_40khh_b0d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -175,14 +192,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     Style style = new StyleImpl();
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_2());
+    editorCell.addEditorCell(createConstant_3());
     editorCell.addEditorCell(createRefNode_1());
     editorCell.addEditorCell(createReadOnlyModelAccessor_1());
     return editorCell;
   }
-  private EditorCell createConstant_2() {
+  private EditorCell createConstant_3() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "generate insert action:");
-    editorCell.setCellId("Constant_40khh_2");
+    editorCell.setCellId("Constant_40khh_3");
     Style style = new StyleImpl();
     new propertyStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -190,14 +207,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new generateInsertActionSingleRoleHandler_40khh_b1b0(myNode, LINKS.generateInsertAction$fKle, getEditorContext());
+    SingleRoleCellProvider provider = new generateInsertActionSingleRoleHandler_40khh_b1d0(myNode, LINKS.generateInsertAction$fKle, getEditorContext());
     return provider.createCell();
   }
-  private static class generateInsertActionSingleRoleHandler_40khh_b1b0 extends SingleRoleCellProvider {
+  private static class generateInsertActionSingleRoleHandler_40khh_b1d0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public generateInsertActionSingleRoleHandler_40khh_b1b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public generateInsertActionSingleRoleHandler_40khh_b1d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -266,13 +283,13 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     Style style = new StyleImpl();
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_3());
+    editorCell.addEditorCell(createConstant_4());
     editorCell.addEditorCell(createRefNode_2());
     return editorCell;
   }
-  private EditorCell createConstant_3() {
+  private EditorCell createConstant_4() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "postprocess:");
-    editorCell.setCellId("Constant_40khh_3");
+    editorCell.setCellId("Constant_40khh_4");
     Style style = new StyleImpl();
     new propertyStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -280,14 +297,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createRefNode_2() {
-    SingleRoleCellProvider provider = new postprocessSingleRoleHandler_40khh_b2b0(myNode, LINKS.postprocess$NEa, getEditorContext());
+    SingleRoleCellProvider provider = new postprocessSingleRoleHandler_40khh_b2d0(myNode, LINKS.postprocess$NEa, getEditorContext());
     return provider.createCell();
   }
-  private static class postprocessSingleRoleHandler_40khh_b2b0 extends SingleRoleCellProvider {
+  private static class postprocessSingleRoleHandler_40khh_b2d0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public postprocessSingleRoleHandler_40khh_b2b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public postprocessSingleRoleHandler_40khh_b2d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -334,7 +351,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
       return "<no postprocess>";
     }
   }
-  private EditorCell createComponent_0() {
+  private EditorCell createComponent_1() {
     EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "com.mbeddr.mpsutil.grammarcells.editor.DescriptionText");
     return editorCell;
   }

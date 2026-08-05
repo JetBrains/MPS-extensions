@@ -12,6 +12,8 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.lang.editor.editor.Styles_StyleSheet.headerStyleClass;
 
 /*package*/ class SubstituteCell_InspectorBuilder_a extends AbstractEditorBuilder {
@@ -38,13 +40,29 @@ import jetbrains.mps.lang.editor.editor.Styles_StyleSheet.headerStyleClass;
     editorCell.setCellId("Collection_xfb1fc_0");
     editorCell.setBig(true);
     setCellContext(editorCell);
+    editorCell.addEditorCell(createComponent_0());
     editorCell.addEditorCell(createConstant_0());
+    editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createCollection_1());
     return editorCell;
   }
+  private EditorCell createComponent_0() {
+    EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "jetbrains.mps.lang.editor.editor._CellModel_Common");
+    return editorCell;
+  }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Substitute cell:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
     editorCell.setCellId("Constant_xfb1fc_0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_1() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Substitute cell:");
+    editorCell.setCellId("Constant_xfb1fc_1");
     Style style = new StyleImpl();
     new headerStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -55,10 +73,10 @@ import jetbrains.mps.lang.editor.editor.Styles_StyleSheet.headerStyleClass;
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
     editorCell.setCellId("Collection_xfb1fc_1");
     editorCell.setGridLayout(true);
-    editorCell.addEditorCell(createComponent_0());
+    editorCell.addEditorCell(createComponent_1());
     return editorCell;
   }
-  private EditorCell createComponent_0() {
+  private EditorCell createComponent_1() {
     EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "com.mbeddr.mpsutil.grammarcells.editor.DescriptionText");
     return editorCell;
   }

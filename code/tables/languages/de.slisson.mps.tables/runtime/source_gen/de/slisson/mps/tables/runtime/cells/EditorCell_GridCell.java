@@ -15,10 +15,16 @@ import jetbrains.mps.nodeEditor.AdditionalPainter;
 import jetbrains.mps.nodeEditor.AbstractAdditionalPainter;
 import java.awt.Point;
 import java.awt.Rectangle;
-import java.awt.Graphics;
+import org.jetbrains.annotations.Nullable;
+import com.intellij.ui.components.JBViewport;
 import jetbrains.mps.nodeEditor.EditorComponent;
-import jetbrains.mps.openapi.editor.style.StyleRegistry;
+import javax.swing.SwingUtilities;
+import java.awt.Graphics;
 import jetbrains.mps.nodeEditor.cells.ParentSettings;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.openapi.editor.cells.CellTraversalUtil;
+import jetbrains.mps.nodeEditor.EditorMessage;
+import jetbrains.mps.openapi.editor.cells.CellMessagesUtil;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import de.itemis.mps.editor.celllayout.runtime.TopDownCellLayoutAdapter;
@@ -34,7 +40,6 @@ import java.util.Collections;
 import jetbrains.mps.nodeEditor.cells.EditorCellContextImpl;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.openapi.editor.cells.CellAction;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import de.slisson.mps.tables.runtime.gridmodel.Grid;
 import de.slisson.mps.tables.runtime.gridmodel.EditorCellGridLeaf;
 import com.intellij.util.ObjectUtils;
@@ -94,6 +99,14 @@ public class EditorCell_GridCell extends NoInsertOverride {
       return styleCheck && !(isVisibleInEditor(point)) && viewRect.getY() > cell.getY() && viewRect.getY() + cell.getHeight() - tolerance < myTable.getY() + myTable.getHeight();
     }
 
+    @Nullable
+    private JBViewport getViewport() {
+      EditorComponent editorComponent = (EditorComponent) getEditorComponent();
+      // EditorComponent.getViewport throws an AssertionException for headless components and EditorComponent.hasUI is package-private.
+      // Searching the viewport in the ancestors seems to be the cleanest workaround.
+      return (JBViewport) SwingUtilities.getAncestorOfClass(JBViewport.class, editorComponent);
+    }
+
     @Override
     public void paint(Graphics gr, EditorComponent comp) {
       if (myWrappedEditorCell.getParent() == null) {
@@ -101,8 +114,8 @@ public class EditorCell_GridCell extends NoInsertOverride {
       }
       EditorCell_GridCell cell = EditorCell_GridCell.this;
       Point point = new Point(getX(), getY());
-      EditorComponent editorComponent = (EditorComponent) getEditorComponent();
-      Rectangle viewRect = editorComponent.getViewport().getViewRect();
+      JBViewport viewport = getViewport();
+      Rectangle viewRect = (viewport != null ? viewport.getViewRect() : new Rectangle());
 
       boolean stickyX = shouldBeStickyX(point, viewRect, cell, false);
       boolean stickyY = shouldBeStickyY(point, viewRect, cell, false);
@@ -121,12 +134,24 @@ public class EditorCell_GridCell extends NoInsertOverride {
         }
         Graphics g = gr.create();
         g.translate(x, y);
-        g.setColor(StyleRegistry.getInstance().getEditorBackground());
+        g.setColor(comp.getStyleRegistry().getEditorBackground());
         g.fillRect(cell.getX(), cell.getY(), cell.getWidth(), cell.getHeight());
         fillBackground(g, new ParentSettings());
         cell.paint(g);
         TableUtils.paintBorders(g, TableUtils.getCellBounds(cell), getStyleValue(STYLE_BORDER_TOP_COLOR), getStyleValue(STYLE_BORDER_TOP_WIDTH), getStyleValue(STYLE_BORDER_LEFT_COLOR), getStyleValue(STYLE_BORDER_LEFT_WIDTH), getStyleValue(STYLE_BORDER_RIGHT_COLOR), getStyleValue(STYLE_BORDER_RIGHT_WIDTH), getStyleValue(STYLE_BORDER_BOTTOM_COLOR), getStyleValue(STYLE_BORDER_BOTTOM_WIDTH));
 
+        // some messages look like they belong to a cell but are actually drawn by some ancestor
+        g.setClip(cell.getX(), cell.getY(), cell.getWidth(), cell.getHeight());
+        for (EditorCell ancestor : ListSequence.fromList(CellTraversalUtil.getParents(cell, false))) {
+          if (ancestor instanceof TableEditor) {
+            break;
+          }
+          for (EditorMessage message : ListSequence.fromList(CellMessagesUtil.getMessages(ancestor, EditorMessage.class))) {
+            if (message != null && !(message.isBackground())) {
+              message.paint(g, getEditor(), ancestor);
+            }
+          }
+        }
       }
     }
 
@@ -484,9 +509,6 @@ public class EditorCell_GridCell extends NoInsertOverride {
         ListSequence.fromList(this.getTable().verticallyStickyCells).removeElement(this);
       }
       EditorComponent editorComponent = (EditorComponent) this.getEditorComponent();
-      if (this.containsCell((jetbrains.mps.nodeEditor.cells.EditorCell) myWrappedEditorCell)) {
-        this.removeCell(myWrappedEditorCell);
-      }
       editorComponent.removeAdditionalPainter(painter);
     }
   }

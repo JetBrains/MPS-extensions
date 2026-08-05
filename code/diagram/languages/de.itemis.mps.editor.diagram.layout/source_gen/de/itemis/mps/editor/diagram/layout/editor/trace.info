@@ -1168,53 +1168,57 @@
       <unit id="8963411245961932714" at="10,0,15,0" name="de.itemis.mps.editor.diagram.layout.editor.LayoutMap_Editor" />
     </file>
     <file name="LayoutMap_EditorBuilder_a.java">
-      <node id="8963411245961932714" at="19,89,20,19" concept="9" />
-      <node id="8963411245961932714" at="20,19,21,18" concept="1" />
-      <node id="8963411245961932714" at="26,26,27,18" concept="6" />
-      <node id="8963411245961932714" at="30,39,31,35" concept="6" />
-      <node id="8963411245961932714" at="34,97,35,0" concept="7" />
-      <node id="8963411245961932714" at="35,0,36,0" concept="7" />
-      <node id="8963411245961932714" at="36,0,37,47" concept="5" />
-      <node id="8963411245961932714" at="37,47,38,240" concept="5" />
-      <node id="8963411245961932714" at="38,240,39,28" concept="1" />
-      <node id="8963411245961932714" at="39,28,40,31" concept="1" />
-      <node id="8963411245961932714" at="40,31,41,22" concept="6" />
-      <node id="8963411245961932714" at="43,46,44,61" concept="6" />
-      <node id="7256306029309770990" at="46,41,47,100" concept="5" />
-      <node id="7256306029309770990" at="47,100,48,47" concept="1" />
-      <node id="7256306029309770990" at="48,47,49,34" concept="1" />
-      <node id="7256306029309770990" at="49,34,50,22" concept="6" />
-      <node id="8963411245961932714" at="16,0,18,0" concept="2" trace="myNode" />
-      <node id="8963411245961932714" at="30,0,33,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8963411245961932714" at="43,0,46,0" concept="4" trace="createCustomFactory_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8963411245961932714" at="19,0,23,0" concept="0" trace="LayoutMap_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="8963411245961932714" at="24,0,29,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="7256306029309770990" at="46,0,52,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8963411245961932714" at="34,0,43,0" concept="4" trace="createCustomFactory_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8963411245961932714" at="26,26,27,18" />
-      <scope id="8963411245961932714" at="30,39,31,35" />
-      <scope id="8963411245961932714" at="43,46,44,61" />
-      <scope id="8963411245961932714" at="19,89,21,18" />
-      <scope id="8963411245961932714" at="30,0,33,0" />
-      <scope id="8963411245961932714" at="43,0,46,0" />
-      <scope id="8963411245961932714" at="19,0,23,0">
+      <node id="8963411245961932714" at="20,89,21,19" concept="9" />
+      <node id="8963411245961932714" at="21,19,22,18" concept="1" />
+      <node id="8963411245961932714" at="27,26,28,18" concept="6" />
+      <node id="8963411245961932714" at="31,39,32,35" concept="6" />
+      <node id="8963411245961932714" at="35,97,36,0" concept="7" />
+      <node id="8963411245961932714" at="36,0,37,0" concept="7" />
+      <node id="8963411245961932714" at="37,0,38,47" concept="5" />
+      <node id="8963411245961932714" at="38,47,39,240" concept="5" />
+      <node id="8963411245961932714" at="39,240,40,72" concept="5" />
+      <node id="8963411245961932714" at="41,26,42,27" concept="1" />
+      <node id="8963411245961932714" at="42,27,43,30" concept="1" />
+      <node id="8963411245961932714" at="44,5,45,22" concept="6" />
+      <node id="8963411245961932714" at="47,46,48,61" concept="6" />
+      <node id="7256306029309770990" at="50,41,51,100" concept="5" />
+      <node id="7256306029309770990" at="51,100,52,47" concept="1" />
+      <node id="7256306029309770990" at="52,47,53,34" concept="1" />
+      <node id="7256306029309770990" at="53,34,54,22" concept="6" />
+      <node id="8963411245961932714" at="17,0,19,0" concept="2" trace="myNode" />
+      <node id="8963411245961932714" at="31,0,34,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8963411245961932714" at="47,0,50,0" concept="4" trace="createCustomFactory_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8963411245961932714" at="20,0,24,0" concept="0" trace="LayoutMap_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8963411245961932714" at="40,72,44,5" concept="3" />
+      <node id="8963411245961932714" at="25,0,30,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7256306029309770990" at="50,0,56,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8963411245961932714" at="35,0,47,0" concept="4" trace="createCustomFactory_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="8963411245961932714" at="27,26,28,18" />
+      <scope id="8963411245961932714" at="31,39,32,35" />
+      <scope id="8963411245961932714" at="47,46,48,61" />
+      <scope id="8963411245961932714" at="20,89,22,18" />
+      <scope id="8963411245961932714" at="41,26,43,30" />
+      <scope id="8963411245961932714" at="31,0,34,0" />
+      <scope id="8963411245961932714" at="47,0,50,0" />
+      <scope id="8963411245961932714" at="20,0,24,0">
         <var name="context" id="8963411245961932714" />
         <var name="node" id="8963411245961932714" />
       </scope>
-      <scope id="7256306029309770990" at="46,41,50,22">
+      <scope id="7256306029309770990" at="50,41,54,22">
         <var name="editorCell" id="7256306029309770990" />
       </scope>
-      <scope id="8963411245961932714" at="24,0,29,0" />
-      <scope id="7256306029309770990" at="46,0,52,0" />
-      <scope id="8963411245961932714" at="34,97,41,22">
+      <scope id="8963411245961932714" at="25,0,30,0" />
+      <scope id="7256306029309770990" at="50,0,56,0" />
+      <scope id="8963411245961932714" at="35,97,45,22">
+        <var name="bigCell" id="8963411245961932714" />
         <var name="cell" id="8963411245961932714" />
         <var name="editorCell" id="8963411245961932714" />
       </scope>
-      <scope id="8963411245961932714" at="34,0,43,0">
+      <scope id="8963411245961932714" at="35,0,47,0">
         <var name="editorContext" id="8963411245961932714" />
         <var name="node" id="8963411245961932714" />
       </scope>
-      <unit id="8963411245961932714" at="15,0,53,0" name="de.itemis.mps.editor.diagram.layout.editor.LayoutMap_EditorBuilder_a" />
+      <unit id="8963411245961932714" at="16,0,57,0" name="de.itemis.mps.editor.diagram.layout.editor.LayoutMap_EditorBuilder_a" />
     </file>
   </root>
 </debug-info>

@@ -63,7 +63,7 @@ public class PF_EditorCells extends PFModule {
     }
   }).invoke();
   private PF_EditorCells() {
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(CellExplorerRoot.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -97,7 +97,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -140,7 +140,7 @@ public class PF_EditorCells extends PFModule {
       }
     });
     addPriorityRule(new SimplePriorityRule("de.q60.mps.explorer.impl.pf/PF_EditorCells/buildTrace_4", "de.q60.mps.explorer.pf/TraceBuilders_generic/buildTrace_10"));
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(jetbrains.mps.nodeEditor.cells.EditorCell.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.detailView");
@@ -201,7 +201,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SNode.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.detailView");
@@ -235,7 +235,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(KeyMap.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -278,7 +278,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(KeyMap.ActionKey.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -308,7 +308,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(CompositeSubstituteInfo.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -344,7 +344,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SubstituteInfo.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -390,7 +390,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SubstituteAction.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -426,7 +426,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Constant.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -456,7 +456,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Property.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -487,7 +487,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Property.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -521,7 +521,7 @@ public class PF_EditorCells extends PFModule {
       }
     });
     addPriorityRule(new SimplePriorityRule("de.q60.mps.explorer.impl.pf/PF_EditorCells/toString_20", "de.q60.mps.explorer.impl.pf/PF_EditorCells/toString_19"));
-    myImplementations.put("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Collection.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -552,7 +552,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getStringInCollection", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getStringInCollection", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -582,7 +582,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getStringInCollection", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getStringInCollection", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Label.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -612,7 +612,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getStringInCollection", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getStringInCollection", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Collection.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -643,7 +643,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getProperty", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getProperty", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(Object.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -673,7 +673,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getProperty", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getProperty", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Property.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -703,7 +703,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getProperty", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getProperty", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(PropertyAccessor.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -733,7 +733,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getProperty", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getProperty", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SPropertyAccessor.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -763,7 +763,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Property.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -793,7 +793,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Constant.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -823,7 +823,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Collection.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -853,7 +853,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Error.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -883,7 +883,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -913,7 +913,7 @@ public class PF_EditorCells extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.explorer.impl.pf.PF_EditorCells.getIcon", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(EditorCell_Component.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

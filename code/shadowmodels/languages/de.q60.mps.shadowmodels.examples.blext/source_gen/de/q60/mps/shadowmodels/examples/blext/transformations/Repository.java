@@ -52,7 +52,7 @@ public class Repository extends PFModule {
     }
   }).invoke();
   private Repository() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -79,7 +79,7 @@ public class Repository extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository&", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository&", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Repository$db)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -162,7 +162,7 @@ public class Repository extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.Repository.outputModel", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.Repository.outputModel", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$2P)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -214,7 +214,7 @@ public class Repository extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.Repository.outputModelWithRewrite", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.Repository.outputModelWithRewrite", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$2P)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -283,7 +283,7 @@ public class Repository extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.Repository.outputModelWithCopy", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.Repository.outputModelWithCopy", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$2P)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -352,7 +352,7 @@ public class Repository extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.Repository.outputModelWithReductionRules", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.Repository.outputModelWithReductionRules", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$2P)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

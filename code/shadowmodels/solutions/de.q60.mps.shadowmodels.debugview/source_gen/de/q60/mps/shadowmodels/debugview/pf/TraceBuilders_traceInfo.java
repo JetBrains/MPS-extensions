@@ -30,7 +30,7 @@ public class TraceBuilders_traceInfo extends PFModule {
     }
   }).invoke();
   private TraceBuilders_traceInfo() {
-    myImplementations.put("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_traceInfo.getTraceInfo", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_traceInfo.getTraceInfo", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ChildSubgraphRef.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -60,7 +60,7 @@ public class TraceBuilders_traceInfo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_traceInfo.getTraceInfo", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_traceInfo.getTraceInfo", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(ForkCall.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -90,7 +90,7 @@ public class TraceBuilders_traceInfo extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_traceInfo.getTraceInfo", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_traceInfo.getTraceInfo", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(GoalCall.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

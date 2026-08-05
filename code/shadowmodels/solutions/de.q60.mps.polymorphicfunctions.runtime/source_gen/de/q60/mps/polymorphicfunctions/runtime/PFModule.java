@@ -18,6 +18,10 @@ public abstract class PFModule implements IImplementationProvider {
     return myImplementations.get(declarationId);
   }
 
+  protected void addImplementation(String declarationId, IFunctionImplementation implementation) {
+    myImplementations.put(declarationId, implementation);
+  }
+
   @Override
   public Iterable<IPriorityRule> getPriorityRules() {
     return myPriorityRules;

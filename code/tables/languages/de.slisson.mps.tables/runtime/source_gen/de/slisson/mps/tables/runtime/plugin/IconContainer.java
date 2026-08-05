@@ -6,8 +6,8 @@ import javax.swing.Icon;
 import jetbrains.mps.ide.icons.IconLoadingUtil;
 
 public class IconContainer {
-  protected static Icon ICON_a0 = IconLoadingUtil.loadIcon("insertRowAbove.svg", IconContainer.class);
-  protected static Icon ICON_a0_0 = IconLoadingUtil.loadIcon("insertRowBelow.svg", IconContainer.class);
-  protected static Icon ICON_a0_1 = IconLoadingUtil.loadIcon("insertColumnRight.svg", IconContainer.class);
-  protected static Icon ICON_a0_2 = IconLoadingUtil.loadIcon("insertColumnLeft.svg", IconContainer.class);
+  protected static Icon ICON0 = IconLoadingUtil.loadIcon("/icons/insertRowAbove.svg", IconContainer.class);
+  protected static Icon ICON1 = IconLoadingUtil.loadIcon("/icons/insertRowBelow.svg", IconContainer.class);
+  protected static Icon ICON2 = IconLoadingUtil.loadIcon("/icons/insertColumnRight.svg", IconContainer.class);
+  protected static Icon ICON3 = IconLoadingUtil.loadIcon("/icons/insertColumnLeft.svg", IconContainer.class);
 }

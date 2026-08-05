@@ -46,7 +46,7 @@ public class ImageLoadingTest_Test extends BaseTransformationTest {
     public void test_loadImage() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        Image image = ImageLoading.loadImage("${module}/icons/build.png", getAnnotatedNode("buildProject"));
+        Image image = ImageLoading.loadImage(myProject.getRepository(), "${module}/icons/build.png", getAnnotatedNode("buildProject"));
 
         Assert.assertNotNull(image);
       });
@@ -54,9 +54,9 @@ public class ImageLoadingTest_Test extends BaseTransformationTest {
     public void test_wrongPath() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        Assert.assertNull(ImageLoading.loadImage("${module}", getAnnotatedNode("buildProject")));
-        Assert.assertNull(ImageLoading.loadImage("${module}/", getAnnotatedNode("buildProject")));
-        Assert.assertNull(ImageLoading.loadImage("${module}/x", getAnnotatedNode("buildProject")));
+        Assert.assertNull(ImageLoading.loadImage(myProject.getRepository(), "${module}", getAnnotatedNode("buildProject")));
+        Assert.assertNull(ImageLoading.loadImage(myProject.getRepository(), "${module}/", getAnnotatedNode("buildProject")));
+        Assert.assertNull(ImageLoading.loadImage(myProject.getRepository(), "${module}/x", getAnnotatedNode("buildProject")));
       });
     }
 

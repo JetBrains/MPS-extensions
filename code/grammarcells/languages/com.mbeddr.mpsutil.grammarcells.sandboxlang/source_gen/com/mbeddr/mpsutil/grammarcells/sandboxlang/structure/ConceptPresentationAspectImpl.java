@@ -49,6 +49,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_StmtContainerParentWhitelisting;
   private ConceptPresentation props_StringLiteral;
   private ConceptPresentation props_StringType;
+  private ConceptPresentation props_TEST_AnnotationOnRootProperty_Annotation;
+  private ConceptPresentation props_TEST_AnnotationOnRootProperty_Property;
   private ConceptPresentation props_TEST_CellModelTraversal;
   private ConceptPresentation props_TEST_EnumWrapper;
   private ConceptPresentation props_TEST_FlagAndTooltip;
@@ -356,6 +358,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_StringType = cpb.create();
         }
         return props_StringType;
+      case LanguageConceptSwitch.TEST_AnnotationOnRootProperty_Annotation:
+        if (props_TEST_AnnotationOnRootProperty_Annotation == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TEST_AnnotationOnRootProperty_Annotation");
+          props_TEST_AnnotationOnRootProperty_Annotation = cpb.create();
+        }
+        return props_TEST_AnnotationOnRootProperty_Annotation;
+      case LanguageConceptSwitch.TEST_AnnotationOnRootProperty_Property:
+        if (props_TEST_AnnotationOnRootProperty_Property == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TEST_AnnotationOnRootProperty_Property");
+          props_TEST_AnnotationOnRootProperty_Property = cpb.create();
+        }
+        return props_TEST_AnnotationOnRootProperty_Property;
       case LanguageConceptSwitch.TEST_CellModelTraversal:
         if (props_TEST_CellModelTraversal == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

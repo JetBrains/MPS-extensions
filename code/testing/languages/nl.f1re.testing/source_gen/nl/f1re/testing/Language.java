@@ -10,6 +10,8 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.runtime.ILanguageAspect;
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import nl.f1re.testing.editor.EditorAspectDescriptorImpl;
+import jetbrains.mps.openapi.intentions.IntentionAspectDescriptor;
+import nl.f1re.testing.intentions.IntentionsDescriptor;
 import jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor;
 import nl.f1re.testing.typesystem.TypesystemDescriptor;
 import jetbrains.mps.smodel.runtime.StructureAspectDescriptor;
@@ -48,6 +50,9 @@ public class Language extends LanguageRuntime {
   protected <T extends ILanguageAspect> T createAspect(Class<T> aspectClass) {
     if (aspectClass == EditorAspectDescriptor.class) {
       return aspectClass.cast(new EditorAspectDescriptorImpl());
+    }
+    if (aspectClass == IntentionAspectDescriptor.class) {
+      return aspectClass.cast(new IntentionsDescriptor());
     }
     if (aspectClass == IHelginsDescriptor.class) {
       return aspectClass.cast(new TypesystemDescriptor());

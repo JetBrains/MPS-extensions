@@ -31,6 +31,9 @@ import java.util.LinkedHashSet;
 import jetbrains.mps.intentions.IntentionsManager;
 import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import com.mbeddr.mpsutil.intentions.runtime.plugin.IntentionCustomization;
+import com.mbeddr.mpsutil.intentions.runtime.plugin.IntentionCustomizationConfigHelper;
+import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.editor.runtime.cells.ReadOnlyUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
@@ -115,33 +118,48 @@ public class ActionIntentionMenuProducer extends IntentionMenuProducer {
       query.setEnabledOnly(true);
       final Collection<Pair<IntentionExecutable, SNode>> availableIntentions = TypecheckingFacade.getFromContext().computeWithSession(editor.getTypecheckingSession(), () -> IntentionsManager.getInstance().getAvailableIntentions(query, node, editorContext));
       for (Pair<IntentionExecutable, SNode> availableIntention : CollectionSequence.fromCollection(availableIntentions)) {
-        SNode intentionDeclaration = SNodeOperations.as(check_2xdrxv_a0a0a3a3a41(check_2xdrxv_a0a0a0d0d0o(check_2xdrxv_a0a0a0a3a3a41(check_2xdrxv_a0a0a0a0d0d0o(availableIntention))), editorContext), CONCEPTS.BaseIntentionDeclaration$Wx);
-        if (!(ReadOnlyUtil.isSelectionReadOnlyInEditor(editor)) || SPropertyOperations.getBoolean(new IAttributeDescriptor.NodeAttribute(CONCEPTS.ShowIntentionInReadOnlyCell$N0).get(intentionDeclaration), PROPS.flag$lrAD)) {
-          SetSequence.fromSet(result).addElement(availableIntention);
+        Pair<IntentionExecutable, SNode> intentionToAdd = availableIntention;
+        SNode intentionDeclaration = SNodeOperations.as(check_2xdrxv_a0a1a3a3a41(check_2xdrxv_a0a0b0d0d0o(check_2xdrxv_a0a0a1a3a3a41(check_2xdrxv_a0a0a0b0d0d0o(intentionToAdd))), editorContext), CONCEPTS.BaseIntentionDeclaration$Wx);
+        IntentionExecutable originalExecutable = intentionToAdd.o1;
+        final IntentionCustomization customization = IntentionCustomizationConfigHelper.getCustomization(SNodeOperations.getPointer(intentionDeclaration));
+
+        final boolean applicable;
+        if (customization != null) {
+          Tuples._2<IntentionExecutable, Boolean> customizationResult = IntentionCustomizationConfigHelper.getExecutable(originalExecutable, node, editorContext);
+          applicable = (boolean) customizationResult._1();
+          if (applicable) {
+            intentionToAdd.o1 = customizationResult._0();
+          }
+        } else {
+          applicable = true;
+        }
+
+        if (applicable && (!(ReadOnlyUtil.isSelectionReadOnlyInEditor(editor)) || SPropertyOperations.getBoolean(new IAttributeDescriptor.NodeAttribute(CONCEPTS.ShowIntentionInReadOnlyCell$N0).get(intentionDeclaration), PROPS.flag$lrAD))) {
+          SetSequence.fromSet(result).addElement(intentionToAdd);
         }
       }
     }
     return result;
   }
-  private static SNode check_2xdrxv_a0a0a3a3a41(SNodeReference checkedDotOperand, EditorContext editorContext) {
+  private static SNode check_2xdrxv_a0a1a3a3a41(SNodeReference checkedDotOperand, EditorContext editorContext) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.resolve(editorContext.getRepository());
     }
     return null;
   }
-  private static SNodeReference check_2xdrxv_a0a0a0d0d0o(IntentionDescriptor checkedDotOperand) {
+  private static SNodeReference check_2xdrxv_a0a0b0d0d0o(IntentionDescriptor checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getIntentionNodeReference();
     }
     return null;
   }
-  private static IntentionDescriptor check_2xdrxv_a0a0a0a3a3a41(IntentionExecutable checkedDotOperand) {
+  private static IntentionDescriptor check_2xdrxv_a0a0a1a3a3a41(IntentionExecutable checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getDescriptor();
     }
     return null;
   }
-  private static IntentionExecutable check_2xdrxv_a0a0a0a0d0d0o(Pair<IntentionExecutable, SNode> checkedDotOperand) {
+  private static IntentionExecutable check_2xdrxv_a0a0a0b0d0d0o(Pair<IntentionExecutable, SNode> checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.o1;
     }

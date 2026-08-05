@@ -9,8 +9,11 @@ import jetbrains.mps.project.Project;
 import jetbrains.mps.project.ProjectManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
+import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.vcs.diff.ui.StructDifferenceDialog;
 import jetbrains.mps.ide.project.ProjectHelper;
+import com.intellij.openapi.application.ApplicationManager;
 import org.jetbrains.annotations.Nullable;
 import javax.swing.JComponent;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -19,7 +22,6 @@ import javax.swing.JButton;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import org.jetbrains.annotations.NotNull;
 import javax.swing.Action;
-import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.tempmodel.TemporaryModels;
 import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
 import jetbrains.mps.extapi.module.TransientSModule;
@@ -30,72 +32,84 @@ public class DiffView {
 
   public static void showNonEditibleDiff(final SNode expected, final SNode actual, MPSNodeComparisonResult result, SNode input, final SRepository repo) {
     if ((boolean) IDiffable__BehaviorDescriptor.isDiffEnabled_id6Od11GY7tN$.invoke(input) && (expected != null) && (actual != null)) {
-      final Project project = ProjectManager.getInstance().getOpenedProjects().get(0);
-      final String leftCaption = "expected output (in root \"" + expected.toString() + "\" in model " + SModelOperations.getModelName(SNodeOperations.getModel(expected)) + ")";
-      final String rightCaption = "actual output (in root \"" + actual.toString() + "\" in generated model)";
+      Project project = ProjectManager.getInstance().getOpenedProjects().get(0);
+      String leftCaption = "expected output (in root \"" + expected.toString() + "\" in model " + SModelOperations.getModelName(SNodeOperations.getModel(expected)) + ")";
+      String rightCaption = "actual output (in root \"" + actual.toString() + "\" in generated model)";
+
+      final Wrappers._T<SNode> expectedCleaned = new Wrappers._T<SNode>();
+      final Wrappers._T<SNode> actualCleaned = new Wrappers._T<SNode>();
 
       repo.getModelAccess().runReadAction(() -> {
-        SNode expectedCleaned = cloneNode(expected);
-        SNode actualCleaned = cloneNode(actual);
-
-        StructDifferenceDialog dialog = new StructDifferenceDialog(ProjectHelper.toIdeaProject(project), expectedCleaned, actualCleaned, leftCaption, rightCaption) {
-          @Override
-          protected void dispose() {
-            super.dispose();
-            disposeTmpModel(SNodeOperations.getModel(expectedCleaned), repo);
-            disposeTmpModel(SNodeOperations.getModel(actualCleaned), repo);
-          }
-        };
-        dialog.setModal(false);
-        dialog.show();
+        expectedCleaned.value = cloneNode(expected);
+        actualCleaned.value = cloneNode(actual);
       });
+
+      final SModel expectedModel = SNodeOperations.getModel(expectedCleaned.value);
+      final SModel actualModel = SNodeOperations.getModel(actualCleaned.value);
+
+      final StructDifferenceDialog dialog = new StructDifferenceDialog(ProjectHelper.toIdeaProject(project), expectedCleaned.value, actualCleaned.value, leftCaption, rightCaption) {
+        @Override
+        protected void dispose() {
+          super.dispose();
+          disposeTmpModel(expectedModel, repo);
+          disposeTmpModel(actualModel, repo);
+        }
+      };
+      dialog.setModal(false);
+      ApplicationManager.getApplication().invokeLater(() -> dialog.show());
     }
   }
   public static void showDiffDialog(final SNode expected, final SNode actual, MPSNodeComparisonResult result, SNode input, final SRepository repo) {
 
     if ((boolean) IDiffable__BehaviorDescriptor.isDiffEnabled_id6Od11GY7tN$.invoke(input) && (expected != null) && (actual != null)) {
-      final Project project = ProjectManager.getInstance().getOpenedProjects().get(0);
-      final String leftCaption = "expected output (in root \"" + expected.toString() + "\" in model " + SModelOperations.getModelName(SNodeOperations.getModel(expected)) + ")";
-      final String rightCaption = "actual output (in root \"" + actual.toString() + "\" in generated model)";
+      Project project = ProjectManager.getInstance().getOpenedProjects().get(0);
+      String leftCaption = "expected output (in root \"" + expected.toString() + "\" in model " + SModelOperations.getModelName(SNodeOperations.getModel(expected)) + ")";
+      String rightCaption = "actual output (in root \"" + actual.toString() + "\" in generated model)";
 
+      final Wrappers._T<SNode> expectedCleaned = new Wrappers._T<SNode>();
+      final Wrappers._T<SNode> actualCleaned = new Wrappers._T<SNode>();
 
       repo.getModelAccess().runReadAction(() -> {
-        final SNode expectedCleaned = cloneNode(expected);
-        SNode actualCleaned = cloneNode(actual);
-
-        StructDifferenceDialog dialog = new StructDifferenceDialog(ProjectHelper.toIdeaProject(project), expectedCleaned, actualCleaned, leftCaption, rightCaption) {
-
-          @Nullable
-          @Override
-          protected JComponent createSouthPanel() {
-            return createButtonsPanel(ListSequence.fromListAndArray(new ArrayList<JButton>(), createJButtonForAction(getOKAction())));
-          }
-          @Override
-          protected void doOKAction() {
-            repo.getModelAccess().executeCommand(() -> {
-              SNode originalLabel = SNodeOperations.deleteNode(new IAttributeDescriptor.NodeAttribute(CONCEPTS.TestNodeAnnotation$27).get(expected));
-              SNode newOne = SNodeOperations.replaceWithAnother(expected, SNodeOperations.copyNode(expectedCleaned));
-              new IAttributeDescriptor.NodeAttribute(CONCEPTS.TestNodeAnnotation$27).set(newOne, originalLabel);
-            });
-            super.doOKAction();
-          }
-          @NotNull
-          @Override
-          protected Action[] createActions() {
-            return new Action[]{getOKAction()};
-          }
-
-          @Override
-          protected void dispose() {
-            super.dispose();
-            disposeTmpModel(SNodeOperations.getModel(expectedCleaned), repo);
-            disposeTmpModel(SNodeOperations.getModel(actualCleaned), repo);
-          }
-        };
-        dialog.setOKActionEnabled(true);
-        dialog.setModal(false);
-        dialog.show();
+        expectedCleaned.value = cloneNode(expected);
+        actualCleaned.value = cloneNode(actual);
       });
+
+      final SModel expectedModel = SNodeOperations.getModel(expectedCleaned.value);
+      final SModel actualModel = SNodeOperations.getModel(actualCleaned.value);
+
+      final StructDifferenceDialog dialog = new StructDifferenceDialog(ProjectHelper.toIdeaProject(project), expectedCleaned.value, actualCleaned.value, leftCaption, rightCaption) {
+
+        @Nullable
+        @Override
+        protected JComponent createSouthPanel() {
+          return createButtonsPanel(ListSequence.fromListAndArray(new ArrayList<JButton>(), createJButtonForAction(getOKAction())));
+        }
+        @Override
+        protected void doOKAction() {
+          repo.getModelAccess().executeCommand(() -> {
+            SNode originalLabel = SNodeOperations.deleteNode(new IAttributeDescriptor.NodeAttribute(CONCEPTS.TestNodeAnnotation$27).get(expected));
+            SNode newOne = SNodeOperations.replaceWithAnother(expected, SNodeOperations.copyNode(expectedCleaned.value));
+            new IAttributeDescriptor.NodeAttribute(CONCEPTS.TestNodeAnnotation$27).set(newOne, originalLabel);
+          });
+          super.doOKAction();
+        }
+        @NotNull
+        @Override
+        protected Action[] createActions() {
+          return new Action[]{getOKAction()};
+        }
+
+        @Override
+        protected void dispose() {
+          super.dispose();
+          disposeTmpModel(expectedModel, repo);
+          disposeTmpModel(actualModel, repo);
+        }
+      };
+      dialog.setOKActionEnabled(true);
+      dialog.setModal(false);
+
+      ApplicationManager.getApplication().invokeLater(() -> dialog.show());
     }
   }
 

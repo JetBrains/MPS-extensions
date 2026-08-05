@@ -12,7 +12,7 @@
       <unit at="11,0,94,0" name="de.itemis.mps.spellcheck.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="IconContainer.java">
-      <unit at="7,0,11,0" name="de.itemis.mps.spellcheck.structure.IconContainer" />
+      <unit at="8,0,13,0" name="de.itemis.mps.spellcheck.structure.IconContainer" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <unit at="10,0,44,0" name="de.itemis.mps.spellcheck.structure.LanguageConceptSwitch" />
@@ -60,8 +60,8 @@
       <node id="2477161125053807464" at="13,0,14,0" concept="1" trace="props_Dictionary" />
       <node id="2477161125053807464" at="36,39,37,76" concept="3" />
       <node id="2477161125053807464" at="37,76,38,35" concept="0" />
-      <node id="2477161125053807464" at="38,35,39,55" concept="0" />
-      <node id="2477161125053807464" at="39,55,40,42" concept="0" />
+      <node id="2477161125053807464" at="38,35,39,45" concept="0" />
+      <node id="2477161125053807464" at="39,45,40,42" concept="0" />
       <node id="2477161125053807464" at="41,9,42,32" concept="4" />
       <node id="2477161125053807464" at="35,44,41,9" concept="2" />
       <scope id="2477161125053807464" at="36,39,40,42">
@@ -200,8 +200,8 @@
       <node id="6620047724380183325" at="20,0,21,0" concept="1" trace="props_PredefinedDictionary" />
       <node id="6620047724380183325" at="83,49,84,76" concept="3" />
       <node id="6620047724380183325" at="84,76,85,35" concept="0" />
-      <node id="6620047724380183325" at="85,35,86,55" concept="0" />
-      <node id="6620047724380183325" at="86,55,87,52" concept="0" />
+      <node id="6620047724380183325" at="85,35,86,45" concept="0" />
+      <node id="6620047724380183325" at="86,45,87,52" concept="0" />
       <node id="6620047724380183325" at="88,9,89,42" concept="4" />
       <node id="6620047724380183325" at="82,54,88,9" concept="2" />
       <scope id="6620047724380183325" at="83,49,87,52">

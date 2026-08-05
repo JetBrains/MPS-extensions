@@ -10,6 +10,9 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.editor.diagram.runtime* *de.itemis.mps.editor.pagination.runtime* *de.q60.mps.explorer* Fix deadlock on navigation
 - *de.itemis.mps.editor.pagination.runtime* Fix navigation icons and search panel layout
+- *de.slisson.mps.tables.runtime* Fix a bug that caused a delete action to be triggered on paste
+- *de.slisson.mps.tables.runtime* Add a check to avoid pasting on table cells which are null
+- *de.slisson.mps.tables* Performance improvement. Tables were using a workaround that disabled the incremental editor update. Every change in a table forced a rebuild of the whole table. The workaround was removed and the related bugs fixed. For tables containing NodeAttributes it remains.
 
 ## June 2026
 

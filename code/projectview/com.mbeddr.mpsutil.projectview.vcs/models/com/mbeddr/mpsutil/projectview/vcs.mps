@@ -452,12 +452,9 @@
         <node concept="3clFbF" id="24ObHxTnqWh" role="3cqZAp">
           <node concept="2OqwBi" id="24ObHxTnrah" role="3clFbG">
             <node concept="2OqwBi" id="24ObHxTnr4J" role="2Oq$k0">
-              <node concept="2YIFZM" id="24ObHxTnWyd" role="2Oq$k0">
-                <ref role="37wK5l" to="9ti4:~Extensions.getArea(com.intellij.openapi.extensions.AreaInstance)" resolve="getArea" />
+              <node concept="2YIFZM" id="72Y5lcUQ6wy" role="2Oq$k0">
+                <ref role="37wK5l" to="9ti4:~Extensions.getRootArea()" resolve="getRootArea" />
                 <ref role="1Pybhc" to="9ti4:~Extensions" resolve="Extensions" />
-                <node concept="37vLTw" id="24ObHxTnWzZ" role="37wK5m">
-                  <ref role="3cqZAo" node="24ObHxTnWlu" resolve="myProject" />
-                </node>
               </node>
               <node concept="liA8E" id="24ObHxTnr6X" role="2OqNvi">
                 <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />
@@ -483,12 +480,9 @@
         <node concept="3clFbF" id="24ObHxTnrqD" role="3cqZAp">
           <node concept="2OqwBi" id="24ObHxTnrqE" role="3clFbG">
             <node concept="2OqwBi" id="24ObHxTnrqF" role="2Oq$k0">
-              <node concept="2YIFZM" id="24ObHxTnWAe" role="2Oq$k0">
-                <ref role="37wK5l" to="9ti4:~Extensions.getArea(com.intellij.openapi.extensions.AreaInstance)" resolve="getArea" />
+              <node concept="2YIFZM" id="72Y5lcUQ6R4" role="2Oq$k0">
+                <ref role="37wK5l" to="9ti4:~Extensions.getRootArea()" resolve="getRootArea" />
                 <ref role="1Pybhc" to="9ti4:~Extensions" resolve="Extensions" />
-                <node concept="37vLTw" id="24ObHxTnWBZ" role="37wK5m">
-                  <ref role="3cqZAo" node="24ObHxTnWlu" resolve="myProject" />
-                </node>
               </node>
               <node concept="liA8E" id="24ObHxTnrqH" role="2OqNvi">
                 <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />

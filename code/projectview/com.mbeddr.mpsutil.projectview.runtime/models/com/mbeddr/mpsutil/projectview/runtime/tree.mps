@@ -3946,7 +3946,7 @@
                           <ref role="37wK5l" to="rvbb:~BaseLogicalViewProjectPane.getProject()" resolve="getProject" />
                         </node>
                         <node concept="liA8E" id="4gq8yQBZ6PJ" role="2OqNvi">
-                          <ref role="37wK5l" to="1m72:~ComponentManager.getMessageBus()" resolve="getMessageBus" />
+                          <ref role="37wK5l" to="4nm9:~Project.getMessageBus()" resolve="getMessageBus" />
                         </node>
                       </node>
                       <node concept="liA8E" id="4gq8yQBZ6PK" role="2OqNvi">

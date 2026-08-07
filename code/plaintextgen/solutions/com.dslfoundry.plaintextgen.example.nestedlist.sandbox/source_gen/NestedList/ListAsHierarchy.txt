@@ -1,6 +1,9 @@
  * a
-   * a, aa
-   * a, ab
-   * a, ac
+   * aa
+     * aaa
+   * ab
+   * ac
  * b
+   * ba
+   * bb
  * c

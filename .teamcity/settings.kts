@@ -1,19 +1,19 @@
-import jetbrains.buildServer.configs.kotlin.*
+import jetbrains.buildServer.configs.kotlin.BuildStep
+import jetbrains.buildServer.configs.kotlin.BuildType
 import jetbrains.buildServer.configs.kotlin.buildFeatures.PullRequests
-import jetbrains.buildServer.configs.kotlin.buildFeatures.XmlReport
-import jetbrains.buildServer.configs.kotlin.buildFeatures.commitStatusPublisher
 import jetbrains.buildServer.configs.kotlin.buildFeatures.pullRequests
 import jetbrains.buildServer.configs.kotlin.buildFeatures.sshAgent
-import jetbrains.buildServer.configs.kotlin.buildFeatures.xmlReport
 import jetbrains.buildServer.configs.kotlin.buildSteps.gradle
 import jetbrains.buildServer.configs.kotlin.buildSteps.preliminaryMerge
 import jetbrains.buildServer.configs.kotlin.buildSteps.script
+import jetbrains.buildServer.configs.kotlin.project
 import jetbrains.buildServer.configs.kotlin.projectFeatures.UntrustedBuildsSettings
 import jetbrains.buildServer.configs.kotlin.projectFeatures.githubIssues
 import jetbrains.buildServer.configs.kotlin.projectFeatures.untrustedBuildsSettings
 import jetbrains.buildServer.configs.kotlin.triggers.schedule
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
 import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
+import jetbrains.buildServer.configs.kotlin.version
 
 /*
 The settings script is an entry point for defining a TeamCity
@@ -57,29 +57,6 @@ project {
             displayName = "GitHub"
             repositoryURL = "https://github.com/JetBrains/MPS-extensions"
             param("tokenId", "")
-        }
-    }
-}
-
-fun BuildFeatures.collectJUnitReports() {
-    xmlReport {
-        reportType = XmlReport.XmlReportType.JUNIT
-        rules = """
-                +:**/TEST-*.xml
-                +:**/TestResult.xml
-                -:**/TEST-junit-jupiter.xml
-                -:**/TEST-junit-vintage.xml
-            """.trimIndent()
-    }
-}
-
-fun BuildFeatures.publishCommitStatusToGitHub() {
-    commitStatusPublisher {
-        publisher = github {
-            githubUrl = "https://api.github.com"
-            authType = storedToken {
-                tokenId = "tc_token_id:CID_95b90d155fa2849389b4b3873c680dca:-1:1a222f48-4bdd-4b59-a694-8e1c718f2f3d"
-            }
         }
     }
 }

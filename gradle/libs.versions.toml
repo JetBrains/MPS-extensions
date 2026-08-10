@@ -1,6 +1,6 @@
 [versions]
 # For published MPS releases adjust the version below and the dependency in [libraries]
-mps = "262.8665.36"
+mps = "262.8665.73"
 
 [libraries]
 # For published releases adjust the version in [versions] and use this dependency:

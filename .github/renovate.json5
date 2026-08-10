@@ -43,9 +43,8 @@
     },
 
     {
-      // Disable JBR updates on maintenance branches
-      "matchPackageNames": ["com.jetbrains.jdk:*"],
-      "matchBaseBranches": ["!master"],
+      // Disable JBR updates, they are synced with MPS (release and prerelease)
+      "matchPackageNames": ["com.jetbrains.mps:mps-jbr"],
       "enabled": false
     },
 

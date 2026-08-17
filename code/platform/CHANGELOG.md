@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to the mbeddr platform will be documented in this file.
 
 The format is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). The project does _not_ follow
 Semantic Versioning and the changes are simply documented in reverse chronological order, grouped by calendar month.
@@ -17,7 +17,7 @@ Semantic Versioning and the changes are simply documented in reverse chronologic
 ## com.mbeddr.mpsutil.hyperlink
 
 - introduced HyperlinkHandler.isApplicable
-  
+
   This can be used for performance improvements by lazily checking if a target node exists.
 
 # November 2025
@@ -103,8 +103,8 @@ Semantic Versioning and the changes are simply documented in reverse chronologic
 
 ### Changed
 
-- Published SBOM contains dependencies only from runtime configurations. This covers bundled libraries and all runtime 
-  dependencies like used language libraries, JBR and MPS. The latter is however currently not yet included due to a restriction 
+- Published SBOM contains dependencies only from runtime configurations. This covers bundled libraries and all runtime
+  dependencies like used language libraries, JBR and MPS. The latter is however currently not yet included due to a restriction
   of the CycloneDX gradle plugin.
 
 # May 2025
@@ -253,8 +253,6 @@ Semantic Versioning and the changes are simply documented in reverse chronologic
 
 # September 2024
 
-* Breaking change: debugger and spawner were not maintained and were removed.
-
 ## com.mbeddr.mpsutil.interpreter
 
 ### Added
@@ -289,7 +287,7 @@ Semantic Versioning and the changes are simply documented in reverse chronologic
 
 ### Fixed
 
-- The handling of enumeration properties by the Ecore importer/exporter has been improved, esp. if and how default literals are persisted on MPS and EMF side. 
+- The handling of enumeration properties by the Ecore importer/exporter has been improved, esp. if and how default literals are persisted on MPS and EMF side.
 
 # August 2024
 
@@ -304,30 +302,17 @@ Semantic Versioning and the changes are simply documented in reverse chronologic
 - The tests build script (`com.mbeddr.platform.tests.ts.build`) is no longer part of the `com.mbeddr.platform` build
   solution.
 
-## com.mbeddr.rcp, com.mbeddr.allInOne
-
-### Removed
-
-- RCP, installer, and all-in-one distribution was removed.
-
 ## com.mbeddr.mpsutil.traceExplorer
 
 ### Added
 
-- Added trace explorer option to decorate nodes with values of evaluated counterparts, which are not part of the model. 
+- Added trace explorer option to decorate nodes with values of evaluated counterparts, which are not part of the model.
 
-### Changed 
+### Changed
 
 - Added method to interface ITraceRecord
 
 # July 2024
-
-## com.mbeddr.analyses
-
-### Removed
-
-- The complete com.mbeddr.analyses project (integration with static checkers for C) was removed as it was unmaintained
-  and apparently no longer used.
 
 ## com.mbeddr.mpsutil.comparator
 
@@ -568,13 +553,11 @@ The following languages/plugins were removed:
 
 # May 2023
 
-## mbeddr.core
+## Platform build
 
-Update mbeddr.core languages to MPS version 2022.2
-
-## build.gradle
-* use jbr 17 instead of jbr 11
-* download jbr with mps gradle plugin
+* Updated the platform languages to MPS version 2022.2.
+* Used JBR 17 instead of JBR 11.
+* Downloaded JBR with the MPS Gradle plugin.
 
 
 ## com.mbeddr.mpsutil
@@ -649,15 +632,9 @@ Update mbeddr.core languages to MPS version 2022.2
 
 * Fix issues with loading and unloading the language.
 
-## com.mbeddr.analyses
-
-* Fix exception + adjust fonts in analyses results tool
-
-### Fixed
-
 ## com.mbeddr.core.base
 
-### Fixed 
+### Fixed
 
 * Fix layout issues caused by missing style in CRHelperCell
 
@@ -699,7 +676,7 @@ Update mbeddr.core languages to MPS version 2022.2
 
 ### Fixed
 
-* Set caption of [CopySource action](http://127.0.0.1:63320/node?ref=c0488c1e-322f-4f38-92d4-5520a7ce96c1%2Fr%3Ae053bdde-b82f-4d5b-a735-e0af382d4ef2%28com.mbeddr.mpsutil.plantuml.pluginSolution%2Fcom.mbeddr.mpsutil.plantuml.pluginSolution.plugin%29%2F7754683290286257299) to 
+* Set caption of [CopySource action](http://127.0.0.1:63320/node?ref=c0488c1e-322f-4f38-92d4-5520a7ce96c1%2Fr%3Ae053bdde-b82f-4d5b-a735-e0af382d4ef2%28com.mbeddr.mpsutil.plantuml.pluginSolution%2Fcom.mbeddr.mpsutil.plantuml.pluginSolution.plugin%29%2F7754683290286257299) to
 "Copy sources to clipboard". It was previously set to "Zoom In".
 
 ## com.mbeddr.doc
@@ -713,7 +690,7 @@ Update mbeddr.core languages to MPS version 2022.2
   now also use correct generation paths inside the `doc_gen` folder.
 
 ### Fixed
-* Visualization of glossary term dependencies (com.mbeddr.doc.terms). 
+* Visualization of glossary term dependencies (com.mbeddr.doc.terms).
 * Doc aspect: Activate editor extensions for the tools' editor component (styles like margin and border from celllayout work now).
 
 ## com.mbeddr.core

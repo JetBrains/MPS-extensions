@@ -237,6 +237,78 @@
         </node>
       </node>
     </node>
+    <node concept="15bmVD" id="5$8py1vDzrN" role="15bmVC">
+      <node concept="15ShDW" id="5$8py1vDzrK" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgAR/August" />
+        <property role="15ShDw" value="2026" />
+      </node>
+      <node concept="15bAme" id="5$8py1vDzrL" role="15bAlL">
+        <node concept="2DRihI" id="5$8py1vDzrM" role="15bAlk">
+          <node concept="15Ami3" id="5$8py1vDzsi" role="1PaTwD">
+            <node concept="37shsh" id="5$8py1vDzsj" role="15Aodc">
+              <node concept="1dCxOk" id="5$8py1vDzsG" role="37shsm">
+                <property role="1XweGW" value="92d2ea16-5a42-4fdf-a676-c7604efe3504" />
+                <property role="1XxBO9" value="de.slisson.mps.richtext" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzBc" role="1PaTwD">
+            <property role="3oM_SC" value="Word" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzCx" role="1PaTwD">
+            <property role="3oM_SC" value="instances" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzCG" role="1PaTwD">
+            <property role="3oM_SC" value="were" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzCR" role="1PaTwD">
+            <property role="3oM_SC" value="initialized" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzD2" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzDd" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzDe" role="1PaTwD">
+            <property role="3oM_SC" value="single" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzDp" role="1PaTwD">
+            <property role="3oM_SC" value="space." />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzCm" role="1PaTwD">
+            <property role="3oM_SC" value="Restored" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzBx" role="1PaTwD">
+            <property role="3oM_SC" value="previous" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzEm" role="1PaTwD">
+            <property role="3oM_SC" value="behavior" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzET" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzEU" role="1PaTwD">
+            <property role="3oM_SC" value="initializing" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzFf" role="1PaTwD">
+            <property role="3oM_SC" value="them" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzFg" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzFr" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzFs" role="1PaTwD">
+            <property role="3oM_SC" value="empty" />
+          </node>
+          <node concept="3oM_SD" id="5$8py1vDzFB" role="1PaTwD">
+            <property role="3oM_SC" value="string." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="15bmVD" id="1G9SdpwmZ3D" role="15bmVC">
       <node concept="15ShDW" id="1G9SdpwmZ3A" role="15bq2Y">
         <property role="15ShDY" value="Po4Z58IgAJ/July" />

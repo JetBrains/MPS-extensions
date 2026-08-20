@@ -995,5 +995,29 @@
       </node>
     </node>
   </node>
+  <node concept="3_zdsH" id="3pRexuz1lwV">
+    <property role="3GE5qa" value="groupByOperation" />
+    <ref role="3_znuS" to="hba4:54jQkZ8WKL$" resolve="GroupByOperation" />
+    <node concept="3__wT9" id="3pRexuz1lwW" role="3_A6iZ">
+      <node concept="3clFbS" id="3pRexuz1lwX" role="2VODD2">
+        <node concept="3AgYrR" id="3pRexuz1pt5" role="3cqZAp">
+          <node concept="2OqwBi" id="3pRexuz1pDA" role="3Ah4Yx">
+            <node concept="3__QtB" id="3pRexuz1pty" role="2Oq$k0" />
+            <node concept="3TrEf2" id="3pRexuz1q0k" role="2OqNvi">
+              <ref role="3Tt5mk" to="hba4:3pRexuyErfz" resolve="valuesSelector" />
+            </node>
+          </node>
+        </node>
+        <node concept="3AgYrR" id="3pRexuz1q3z" role="3cqZAp">
+          <node concept="2OqwBi" id="3pRexuz1q3$" role="3Ah4Yx">
+            <node concept="3__QtB" id="3pRexuz1q3_" role="2Oq$k0" />
+            <node concept="3TrEf2" id="3pRexuz1q5s" role="2OqNvi">
+              <ref role="3Tt5mk" to="hba4:3pRexuyErf$" resolve="aggregateFn" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

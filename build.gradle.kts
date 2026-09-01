@@ -18,7 +18,7 @@ plugins {
     id("maven-publish")
     id("base")
     id("de.itemis.mps.gradle.launcher") version "2.8.0.+"
-    id("org.cyclonedx.bom") version "3.2.4"
+    id("org.cyclonedx.bom") version "3.4.1"
 
     id("com.specificlanguages.mps") version "2.1.0"
 }
@@ -85,7 +85,7 @@ bundledDependencies {
     create("diagram") {
         destinationDir = codeDir.dir("diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib")
 
-        val elkVersion = "0.11.0"
+        val elkVersion = "0.12.0"
 
         dependency("de.itemis.mps:jgraphx:1.0.0")
 
@@ -100,9 +100,9 @@ bundledDependencies {
         dependency("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
         dependency("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
         dependency("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-        dependency("org.eclipse.emf:org.eclipse.emf.common:2.45.0")
-        dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.42.0")
-        dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.40.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.common:2.46.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore:2.43.0")
+        dependency("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.41.0")
 
         // xbase lib appears to be an undeclared runtime dependency of elk.alg.layered since 0.11.0
         dependency("org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.43.0")
@@ -143,8 +143,8 @@ bundledDependencies {
     create("collections") {
         destinationDir = codeDir.dir("shadowmodels/solutions/de.q60.mps.collections.libs/lib")
 
-        dependency("org.apache.commons:commons-collections4:4.5.0")
-        dependency("com.google.guava:guava:33.6.0-jre")
+        dependency("org.apache.commons:commons-collections4:4.6.0")
+        dependency("com.google.guava:guava:33.7.1-jre")
         dependency("net.sf.trove4j:trove4j:3.0.3")
         dependency("io.vavr:vavr:1.0.1")
 

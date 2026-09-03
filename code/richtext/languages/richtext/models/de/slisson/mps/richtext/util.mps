@@ -2,6 +2,7 @@
 <model ref="r:ebe120ba-74f3-4913-8ba8-dc7299e610f9(de.slisson.mps.richtext.util)">
   <persistence version="9" />
   <languages>
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -20,6 +21,9 @@
     <import index="j8aq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.module(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" implicit="true" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
   </imports>
@@ -142,6 +146,7 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+        <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
       </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -181,6 +186,30 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
+      <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
+        <reference id="6832197706140518108" name="param" index="zr_51" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <property id="8465538089690881934" name="text" index="TUZQ4" />
+        <child id="6832197706140518123" name="parameter" index="zr_5Q" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -225,6 +254,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -1693,6 +1725,104 @@
       </node>
       <node concept="3cqZAl" id="6SMTLRtva_3" role="3clF45" />
       <node concept="3Tm1VV" id="6SMTLRtva_4" role="1B3o_S" />
+    </node>
+    <node concept="2YIFZL" id="fallnahR4x" role="jymVt">
+      <property role="TrG5h" value="chooseColor" />
+      <node concept="3clFbS" id="fallnahR4$" role="3clF47">
+        <node concept="3cpWs8" id="fallnar5rr" role="3cqZAp">
+          <node concept="3cpWsn" id="fallnar5rs" role="3cpWs9">
+            <property role="TrG5h" value="parentComponent" />
+            <node concept="3uibUv" id="fallnaq03k" role="1tU5fm">
+              <ref role="3uigEE" to="z60i:~Component" resolve="Component" />
+            </node>
+            <node concept="10QFUN" id="fallnar5rt" role="33vP2m">
+              <node concept="3uibUv" id="fallnar5ru" role="10QFUM">
+                <ref role="3uigEE" to="z60i:~Component" resolve="Component" />
+              </node>
+              <node concept="2OqwBi" id="fallnar5rv" role="10QFUP">
+                <node concept="37vLTw" id="fallnar5rw" role="2Oq$k0">
+                  <ref role="3cqZAo" node="fallnaihgP" resolve="editorContext" />
+                </node>
+                <node concept="liA8E" id="fallnar5rx" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="fallnai4UX" role="3cqZAp">
+          <node concept="2YIFZM" id="fallnaie_M" role="3cqZAk">
+            <ref role="37wK5l" to="lzb2:~ColorPicker.showDialog(java.awt.Component,java.lang.String,java.awt.Color,boolean,java.util.List,boolean)" resolve="showDialog" />
+            <ref role="1Pybhc" to="lzb2:~ColorPicker" resolve="ColorPicker" />
+            <node concept="37vLTw" id="fallnar5ry" role="37wK5m">
+              <ref role="3cqZAo" node="fallnar5rs" resolve="parentComponent" />
+            </node>
+            <node concept="37vLTw" id="fallnai_HR" role="37wK5m">
+              <ref role="3cqZAo" node="fallnaijzv" resolve="title" />
+            </node>
+            <node concept="37vLTw" id="fallnaiE_J" role="37wK5m">
+              <ref role="3cqZAo" node="fallnailOq" resolve="initialColor" />
+            </node>
+            <node concept="3clFbT" id="fallnajd$e" role="37wK5m" />
+            <node concept="2YIFZM" id="fallnaiT73" role="37wK5m">
+              <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+              <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+              <node concept="3uibUv" id="fallnajvW$" role="3PaCim">
+                <ref role="3uigEE" to="lzb2:~ColorPickerListener" resolve="ColorPickerListener" />
+              </node>
+            </node>
+            <node concept="3clFbT" id="fallnaj1Fz" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="fallnahJ9Q" role="1B3o_S" />
+      <node concept="3uibUv" id="fallnahZrk" role="3clF45">
+        <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+      </node>
+      <node concept="37vLTG" id="fallnaihgP" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <node concept="3uibUv" id="fallnaihgO" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="fallnaijzv" role="3clF46">
+        <property role="TrG5h" value="title" />
+        <node concept="17QB3L" id="fallnajQjP" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="fallnailOq" role="3clF46">
+        <property role="TrG5h" value="initialColor" />
+        <node concept="3uibUv" id="fallnaioXS" role="1tU5fm">
+          <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="fallnamHVB" role="lGtFl">
+        <node concept="TZ5HA" id="fallnamHVC" role="TZ5H$">
+          <node concept="1dT_AC" id="fallnamHVD" role="1dT_Ay">
+            <property role="1dT_AB" value="Opens the IDE color picker dialog." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="fallnamHVE" role="3nqlJM">
+          <property role="TUZQ4" value="the active editor context" />
+          <node concept="zr_55" id="fallnamHVG" role="zr_5Q">
+            <ref role="zr_51" node="fallnaihgP" resolve="editorContext" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="fallnamHVH" role="3nqlJM">
+          <property role="TUZQ4" value="dialog title" />
+          <node concept="zr_55" id="fallnamHVJ" role="zr_5Q">
+            <ref role="zr_51" node="fallnaijzv" resolve="title" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="fallnamHVK" role="3nqlJM">
+          <property role="TUZQ4" value="initially selected color, or null" />
+          <node concept="zr_55" id="fallnamHVM" role="zr_5Q">
+            <ref role="zr_51" node="fallnailOq" resolve="initialColor" />
+          </node>
+        </node>
+        <node concept="x79VA" id="fallnamHVN" role="3nqlJM">
+          <property role="x79VB" value="the selected color, or null if the dialog was cancelled" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="3mI$71cQbJx">

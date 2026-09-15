@@ -15115,9 +15115,6 @@
         <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-platform.jar" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.editor.multiline.runtime" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -15445,9 +15442,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.editor.multiline" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -15787,9 +15781,6 @@
         <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-platform.jar" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.editor.multiline.runtime" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -16134,9 +16125,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.editor.multiline.runtime" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.editor.multiline.test" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -16466,9 +16454,6 @@
         <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-core.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-platform.jar" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -16800,9 +16785,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.reflection.runtime" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -17127,9 +17109,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -17464,9 +17443,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext.customcell" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -17808,9 +17784,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext.test.runtime" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -18149,9 +18122,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext.test" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext.test.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -18215,9 +18185,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.mouselistener.runtime" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -18539,9 +18506,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -18881,9 +18845,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.mouselistener.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -19211,9 +19172,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -19528,9 +19486,6 @@
         <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -19850,9 +19805,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -20189,9 +20141,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.bool" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.bool.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -20520,9 +20469,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.mouselistener.runtime" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -20844,9 +20790,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -21186,9 +21129,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.mouselistener.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage-generator.jar" />
@@ -21523,9 +21463,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -21864,9 +21801,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.enumeration" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.enumeration.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -22192,9 +22126,6 @@
         <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -22515,9 +22446,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
         <pathelement path="${build.tmp}/java/out/nl.f1re.mps.editor.swing.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -22853,9 +22781,6 @@
         <pathelement path="${build.tmp}/java/out/nl.f1re.mps.editor.swing" />
         <pathelement path="${build.tmp}/java/out/nl.f1re.mps.editor.swing.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -23181,9 +23106,6 @@
         <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/lib.jar" />
@@ -23503,9 +23425,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
         <pathelement path="${build.tmp}/java/out/nl.f1re.mps.editor.swing.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -23825,9 +23744,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -24161,9 +24077,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.hacks.editor" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.reflection.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -24490,9 +24403,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.runtime" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/lib.jar" />
@@ -24809,9 +24719,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -25149,9 +25056,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -25489,9 +25393,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.runtime" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.symbols" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -25831,9 +25732,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.runtime" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.math.symbols" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -26165,9 +26063,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -26508,9 +26403,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.selection.runtime" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.hacks.editor" />
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -26848,9 +26740,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.selection.runtime" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.hacks.editor" />
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -27194,9 +27083,6 @@
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.tables" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.tables.runtime" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -27526,9 +27412,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -27850,9 +27733,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -28184,9 +28064,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.selection.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -28512,9 +28389,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -28838,9 +28712,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.conditionalEditor.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -29181,9 +29052,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.conditionalEditor.runtime" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.hacks.editor" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -29514,9 +29382,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -29836,9 +29701,6 @@
         <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -30179,9 +30041,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -30510,9 +30369,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.reflection" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.reflection.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -30595,9 +30451,6 @@
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/commons-primitives.jar" />
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-core.jar" />
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-swing.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -30986,9 +30839,6 @@
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/commons-primitives.jar" />
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-core.jar" />
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-swing.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -31344,9 +31194,6 @@
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.elk.alg.spore.jar" />
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.elk.alg.topdownpacking.jar" />
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.xtext.xbase.lib.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -31689,9 +31536,6 @@
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.elk.alg.spore.jar" />
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.elk.alg.topdownpacking.jar" />
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.xtext.xbase.lib.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -32054,9 +31898,6 @@
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.elk.alg.spore.jar" />
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.elk.alg.topdownpacking.jar" />
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.xtext.xbase.lib.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -32412,9 +32253,6 @@
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.elk.alg.spore.jar" />
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.elk.alg.topdownpacking.jar" />
         <fileset file="${extensions.code}/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib/org.eclipse.xtext.xbase.lib.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -32743,9 +32581,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -33068,9 +32903,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.hacks.editor" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -33388,9 +33220,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -33714,9 +33543,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -34036,9 +33862,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -34365,9 +34188,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -34707,9 +34527,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.runtime" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -35042,9 +34859,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -35374,9 +35188,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -35711,9 +35522,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
         <fileset file="${artifacts.mps}/plugins/mps-console/lib/mps-console.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -36041,9 +35849,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
         <fileset file="${artifacts.mps}/plugins/mps-console/lib/mps-console.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
@@ -36362,9 +36167,6 @@
         <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-test.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -36697,9 +36499,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-test.jar" />
         <pathelement path="${build.tmp}/java/out/nl.f1re.testing" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -37031,9 +36830,6 @@
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.intentions.runtime" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.reflection.runtime" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.jar" />
@@ -37371,9 +37167,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -37711,9 +37504,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.blutil" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage-generator.jar" />
@@ -38048,9 +37838,6 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -38382,9 +38169,6 @@
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.blutil.genutil" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.blutil.genutil.rt" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -38509,9 +38293,6 @@
         <fileset file="${extensions.code}/utils/solutions/de.itemis.mps.utils.serializer.xml/lib/lib/jaxen-1.1.6.jar" />
         <fileset file="${extensions.code}/utils/solutions/de.itemis.mps.utils.serializer.xml/lib/jdom2-2.0.6.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -38558,9 +38339,6 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -38884,9 +38662,6 @@
         <fileset file="${extensions.code}/utils/solutions/de.itemis.mps.utils.serializer.xml/lib/lib/jaxen-1.1.6.jar" />
         <fileset file="${extensions.code}/utils/solutions/de.itemis.mps.utils.serializer.xml/lib/jdom2-2.0.6.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.dataFlow.runtime.jar" />
@@ -39219,9 +38994,6 @@
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-core.jar" />
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-swing.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -39564,9 +39336,6 @@
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-core.jar" />
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-swing.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -39633,9 +39402,6 @@
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-core.jar" />
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-swing.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -39971,9 +39737,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.model.merge" />
         <pathelement path="${build.tmp}/java/out/de.itemis.model.merge.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -40030,9 +39793,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.model.merge" />
         <pathelement path="${build.tmp}/java/out/de.itemis.model.merge.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -40367,9 +40127,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.model.merge.baselang" />
         <pathelement path="${build.tmp}/java/out/de.itemis.model.merge.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -40414,9 +40171,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -40738,9 +40492,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -41078,9 +40829,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.modelmerger.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -41136,9 +40884,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -41477,9 +41222,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.jar" />
@@ -41812,9 +41554,6 @@
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.grammarcells.runtimelang" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext.customcell" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -42161,9 +41900,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.reflection.runtime" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext.customcell" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -42497,9 +42233,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.dataFlow.runtime.jar" />
@@ -42818,9 +42551,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -43147,9 +42877,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/nl.f1re.mps.editor.swing.runtime" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -43482,9 +43209,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.pagination.runtime" />
         <pathelement path="${build.tmp}/java/out/nl.f1re.mps.editor.swing.runtime" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -43813,9 +43537,6 @@
         <pathelement path="${build.tmp}/java/out/nl.f1re.mps.editor.swing.runtime" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -44147,9 +43868,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -44486,9 +44204,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -44814,9 +44529,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -45145,9 +44857,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -45474,9 +45183,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/com.dslfoundry.plaintextgen" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -45800,9 +45506,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/com.dslfoundry.plaintextgen" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -45851,9 +45554,6 @@
         <fileset file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/lib/trove4j.jar" />
         <fileset file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/lib/vavr.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -46219,9 +45919,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -46565,9 +46262,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -46905,9 +46599,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -47258,9 +46949,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -47596,9 +47284,6 @@
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
         <pathelement path="${build.tmp}/java/out/de.q60.mps.shadowmodels.transformation" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -47931,9 +47616,6 @@
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
         <pathelement path="${build.tmp}/java/out/de.q60.mps.shadowmodels.transformation" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -48003,9 +47685,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
@@ -48354,9 +48033,6 @@
         <fileset file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/lib/trove4j.jar" />
         <fileset file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/lib/vavr.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.IDEA}/lib/lib.jar" />
@@ -48674,9 +48350,6 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -49006,9 +48679,6 @@
         <pathelement path="${build.tmp}/java/out/de.q60.mps.incremental" />
         <pathelement path="${build.tmp}/java/out/de.q60.mps.incremental.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -49060,9 +48730,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.q60.mps.polymorphicfunctions.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -49389,9 +49056,6 @@
         <fileset file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/lib/guava.jar" />
         <fileset file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/lib/trove4j.jar" />
         <fileset file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/lib/vavr.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -49768,9 +49432,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -50096,9 +49757,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -50435,9 +50093,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.q60.mps.polymorphicfunctions.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -50509,9 +50164,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -50836,9 +50488,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -51162,9 +50811,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -51499,9 +51145,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <pathelement path="${build.tmp}/java/out/de.q60.mps.shadowmodels.util" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -51832,9 +51475,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -52176,9 +51816,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -52535,9 +52172,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -52886,9 +52520,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -53227,9 +52858,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -53582,9 +53210,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <pathelement path="${build.tmp}/java/out/de.q60.mps.polymorphicfunctions" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -53917,9 +53542,6 @@
         <pathelement path="${build.tmp}/java/out/de.q60.mps.polymorphicfunctions.runtime" />
         <pathelement path="${build.tmp}/java/out/de.q60.mps.virtualinterfaces" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -53988,9 +53610,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -54341,9 +53960,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -54696,9 +54312,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlin-logging-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -55040,9 +54653,6 @@
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-core-jvm.jar" />
         <fileset file="${extensions.code}/model-api/org.modelix.model.api/lib/kotlinx-serialization-json-jvm.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -55362,9 +54972,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -55688,9 +55295,6 @@
         <fileset file="${artifacts.mps}/lib/mps-test.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -56024,9 +55628,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -56367,9 +55968,6 @@
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.editor.querylist.runtime" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.hacks.editor" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -56701,9 +56299,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -57039,9 +56634,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -57379,9 +56971,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.intentions" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -57717,9 +57306,6 @@
         <fileset file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/lib/trove4j.jar" />
         <fileset file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/lib/vavr.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -58043,9 +57629,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -58367,9 +57950,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -58702,9 +58282,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.modellisteners.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -58750,9 +58327,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -59074,9 +58648,6 @@
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -59415,9 +58986,6 @@
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.projectview" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.projectview.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -59752,9 +59320,6 @@
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/commons-primitives.jar" />
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-core.jar" />
         <fileset file="${extensions.code}/apache-commons/solutions/org.apache.commons/lib/miglayout-swing.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/lib.jar" />
@@ -60071,9 +59636,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.projectview.runtime" />
         <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-ide.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -60395,9 +59957,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -60724,9 +60283,6 @@
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.statistics" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -60772,9 +60328,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.treenotation.styles" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -61093,9 +60646,6 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -61420,9 +60970,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.treenotation.styles" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -61760,9 +61307,6 @@
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.treenotation.runtime" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.treenotation.styles" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -62097,9 +61641,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.htmlcell.runtime" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -62436,9 +61977,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.htmlcell" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.htmlcell.runtime" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -62773,9 +62311,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.styles" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -63101,9 +62636,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -63441,9 +62973,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.changelog" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -63495,9 +63024,6 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-core.jar" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -63852,9 +63378,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext" />
         <pathelement path="${build.tmp}/java/out/nl.f1re.mps.editor.swing.runtime" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -64208,9 +63731,6 @@
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext" />
         <fileset file="${artifacts.mps}/lib/mps-test.jar" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -64553,9 +64073,6 @@
         <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -64886,9 +64403,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage-generator.jar" />
@@ -64941,9 +64455,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -65278,9 +64789,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern.baselang" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -65337,9 +64845,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern.generator.runtime" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -65677,9 +65182,6 @@
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern.generator.runtime" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.compare.pattern.runtime" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -65736,9 +65238,6 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-platform.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -66172,9 +65671,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-structureView-plugin/lib/modules/intellij.platform.structureView.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-testRunner-plugin/lib/modules/intellij.platform.testRunner.jar" />
-        <fileset file="${artifacts.IDEA}/plugins/platform-bookmarks-plugin/lib/modules/intellij.platform.bookmarks.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />

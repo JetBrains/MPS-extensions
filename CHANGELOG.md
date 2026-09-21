@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.linenumbers* The line numbers were painted outside their own column when another gutter component was placed left of them. They are now drawn relative to the position of their column, and a change of the column width triggers a relayout of the other columns.
+- *de.slisson.mps.tables.runtime* Row/column headers of a partial table defined by a header query returning a single value (string or node) were merged into one header spanning all instances of that partial table in the parent table, showing only one of the header texts and only one delete action. The identity of such a header is derived from its content again, as it was before July 2024.
 
 ## August 2026
 

@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## September 2026
+
+### Fixed
+
+- *de.slisson.mps.tables.runtime* Row/column headers of a partial table defined by a header query returning a single value (string or node) were merged into one header spanning all instances of that partial table in the parent table, showing only one of the header texts and only one delete action. The identity of such a header is derived from its content again, as it was before July 2024.
+
 ## August 2026
 
 ### Fixed

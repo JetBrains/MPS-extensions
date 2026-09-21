@@ -67,9 +67,12 @@ public class HeaderGridFactory {
   }
 
   public HeaderGrid createFromString(String text, @Nullable HeaderReference key, IHeaderNodeInsertAction insertAction, IHeaderNodeDeleteAction deleteAction, int index, Style style) {
-    if (key == null) {
-      key = new StringHeaderReference(text);
-    }
+    // The key passed by generated code identifies the header *declaration*, which is the same for every
+    // instance of a partial table. Headers with equal references are merged into one spanning header when
+    // partial tables are flattened into their parent table, so the identity of a single header has to be
+    // derived from its content: several rows showing different texts stay separate headers (each with its
+    // own insert/delete actions), rows showing the same text align.
+    key = new StringHeaderReference(text);
     EditorCell_Constant cell = new EditorCell_Constant(myContext, mySNode, text);
     return createFromEditorCell(cell, key, insertAction, deleteAction, index, style);
   }
@@ -79,9 +82,8 @@ public class HeaderGridFactory {
   }
 
   public HeaderGrid createFromSNode(SNode snode, @Nullable HeaderReference key, IHeaderNodeInsertAction insertAction, IHeaderNodeDeleteAction deleteAction, int index, Style style) {
-    if (key == null) {
-      key = StringHeaderReference.fromSNode(snode);
-    }
+    // see createFromString: the identity of a single header is its content, not its declaration
+    key = StringHeaderReference.fromSNode(snode);
     EditorCell cell = TableUtils.createNodeCell(myContext, snode);
     ChildsTracker.getInstance().registerChild(cell);
     return createFromEditorCell(cell, key, insertAction, deleteAction, index, style);

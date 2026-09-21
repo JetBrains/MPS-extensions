@@ -20,18 +20,24 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 0:
         return Collections.<ConceptEditor>singletonList(new NonTableAwareAnnotation_Editor());
       case 1:
-        return Collections.<ConceptEditor>singletonList(new SimpleTableWithHeadersDefinedByRow_Row_Editor());
+        return Collections.<ConceptEditor>singletonList(new PartialTableWithRowHeaderQuery_Cell_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new SimpleTableWithHeadersDefinedByRow_Table_Editor());
+        return Collections.<ConceptEditor>singletonList(new PartialTableWithRowHeaderQuery_Row_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new SimpleTableWithHeadersDefinedByTable_Row_Editor());
+        return Collections.<ConceptEditor>singletonList(new PartialTableWithRowHeaderQuery_Table_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new SimpleTableWithHeadersDefinedByTable_Table_Editor());
+        return Collections.<ConceptEditor>singletonList(new SimpleTableWithHeadersDefinedByRow_Row_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new SimpleTableWithoutHeaders_Row_Editor());
+        return Collections.<ConceptEditor>singletonList(new SimpleTableWithHeadersDefinedByRow_Table_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new SimpleTableWithoutHeaders_Table_Editor());
+        return Collections.<ConceptEditor>singletonList(new SimpleTableWithHeadersDefinedByTable_Row_Editor());
       case 7:
+        return Collections.<ConceptEditor>singletonList(new SimpleTableWithHeadersDefinedByTable_Table_Editor());
+      case 8:
+        return Collections.<ConceptEditor>singletonList(new SimpleTableWithoutHeaders_Row_Editor());
+      case 9:
+        return Collections.<ConceptEditor>singletonList(new SimpleTableWithoutHeaders_Table_Editor());
+      case 10:
         return Collections.<ConceptEditor>singletonList(new TableAwareAnnotation_Editor());
       default:
     }
@@ -40,5 +46,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
 
 
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235c2d424aL), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235c2172d5L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235c2172d4L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235bf53fc2L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235bf53fb0L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x15dd04937ebe303fL), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x15dd04937ebe2d09L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235c37ca1aL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235c2d424aL), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0xf9299ff655f4cd7L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x349e623fbbc26b7fL), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x526b2f86ff31c133L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235c2172d5L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235c2172d4L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235bf53fc2L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235bf53fb0L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x15dd04937ebe303fL), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x15dd04937ebe2d09L), MetaIdFactory.conceptId(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x767d97235c37ca1aL)).seal();
 }

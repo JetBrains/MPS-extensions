@@ -1819,7 +1819,7 @@
                   <ref role="3cqZAo" node="6HRhZeXHgJ1" resolve="ideaProject" />
                 </node>
                 <node concept="liA8E" id="6HRhZeXL6F6" role="2OqNvi">
-                  <ref role="37wK5l" to="1m72:~ComponentManager.getMessageBus()" resolve="getMessageBus" />
+                  <ref role="37wK5l" to="4nm9:~Project.getMessageBus()" resolve="getMessageBus" />
                 </node>
               </node>
               <node concept="liA8E" id="6HRhZeXL6F7" role="2OqNvi">

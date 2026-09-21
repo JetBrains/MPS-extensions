@@ -4,7 +4,7 @@
 
 This language adds support for non-structured, multi-line text editing cells. Nodes can be embedded inside the text.
 A checking rule enforces that the text is normalized: there has to be at least one child, it must start with a Word and
-a Word must always be between two embedded nodes and there are can't be two consecutive Words.
+a Word must always be between two embedded nodes and there can't be two consecutive Words.
 There is also the language `jetbrains.mps.lang.text` which is an official JetBrains language and works a bit differently.
 It is line-based and has built-in support for paragraphs, bullet points, urls and other features. The richtext language uses
 the multiline language to allow editing of multiline text with nodes that can be inserted between these text cells. The

@@ -9,7 +9,7 @@ layout that can't be achieved with the normal Editor cells.
 
 <img alt="example:math notation" src="../../img/math.png" />
 
-First you have to add some child cells. The need to have a name and a scale from 0 to 1. Next, some symbols can be added.
+First you have to add some child cells. They need to have a name and a scale from 0 to 1. Next, some symbols can be added.
 A symbol is a node that basically contains a paint method where you can draw anything within the bounds. The paint method
 uses a swing Graphics object to draw on.
 For more information about Swing,
@@ -40,8 +40,8 @@ symbol ArrowLeft {
 }
 ```
 
-After settings some variables and initializing the cell in the `init` method, the cells have to be placed in the
-`layout` method. The dimensions of the child cells should fit into the bounds of the math cells. The `paint`method
+After setting some variables and initializing the cell in the `init` method, the cells have to be placed in the
+`layout` method. The dimensions of the child cells should fit into the bounds of the math cells. The `paint` method
 can be used. The `getCenterY` method should specify the vertical center of the math cell.
 
 Example: generator for an editor of a fraction expression:
@@ -108,9 +108,9 @@ This language implements standard math cells that can be used in any editor:
   - **math.sqrt**: cell for root expressions 
 - **math.superscript**: cell for superscript text, also known as exponential expression in math: 2^3
 - **math.subscript**: cell for subscript text
-- **math.product**: cell for the math [sigma notation](https://mathmaine.com/2018/03/04/pi-notation/)
+- **math.product**: cell for the math [pi notation](https://mathmaine.com/2018/03/04/pi-notation/)
 - **math.subscripted-function**: cell for functions that have a subscripted text (e.g. logN)
-- **math.sum**: cell for the math [pi notation](https://mathmaine.com/2018/03/04/pi-notation/)
+- **math.sum**: cell for the math [sigma notation](https://mathmaine.com/2018/03/04/sigma-notation/)
 
 ## Java Math
 

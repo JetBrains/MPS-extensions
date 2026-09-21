@@ -3,13 +3,13 @@
 
 The node versioning extension gives support for storing different *states/versions* of a node inside of the model. It is **not** a replacement for version control systems like `git`.
 
-An example use case might be a model is used to describe an API and the users wants to detect changes between different releases of the API. This API has a version number that follows semVer associated with it. Now when users wants check what changes happened since the last release the information stored by this extension can be used to diff the current state against the last released one.
+An example use case might be a model is used to describe an API and the users want to detect changes between different releases of the API. This API has a version number that follows semVer associated with it. Now when users want to check what changes happened since the last release the information stored by this extension can be used to diff the current state against the last released one.
 
 The scope of this extension is to provide a way to store the versions of a node and do change detection. It does intentionally not provide ways how to semantically reason about a change as this is highly domain specific. It might be used in conjunction with the `nodecomparator` to do structural diffs between versions.
 
 State: *Incubating* 
 
-This extension is currently incubating and might under go substantial changes in the future. Currently it only supports storing of the version information and change detection. For future feature ideas see the [potential features](#potential-features) section.
+This extension is currently incubating and might undergo substantial changes in the future. Currently it only supports storing of the version information and change detection. For future feature ideas see the [potential features](#potential-features) section.
 
 ### What is a *Node* 
 When we speak of a node in this document we mean the node and **all** of its children but not of the referenced nodes. Sometimes this is also called *subtree*.

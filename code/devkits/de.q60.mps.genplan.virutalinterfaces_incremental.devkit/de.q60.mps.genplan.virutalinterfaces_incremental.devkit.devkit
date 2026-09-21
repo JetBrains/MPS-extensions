@@ -11,6 +11,7 @@
   <exported-language name="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <exported-language name="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
   <exported-language name="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
+  <exported-language name="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
   <extendedDevKits>
     <extendedDevKit>b83f902a-169f-41ec-b2ae-ee1414ffa45c(de.q60.mps.virtualinterfaces.devkit)</extendedDevKit>
   </extendedDevKits>

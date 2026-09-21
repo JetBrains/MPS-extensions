@@ -162,5 +162,40 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="3zwcHe0d_sQ">
+    <property role="EcuMT" value="1122128579365129431" />
+    <property role="TrG5h" value="PartialTableWithRowHeaderQuery_Cell" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="3zwcHe0d_sR" role="1TKVEl">
+      <property role="IQ2nx" value="816464467460419675" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3zwcHe0d_tw">
+    <property role="EcuMT" value="3791575962165078911" />
+    <property role="TrG5h" value="PartialTableWithRowHeaderQuery_Row" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3zwcHe0d_tx" role="1TKVEi">
+      <property role="IQ2ns" value="6730153060135134289" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cells" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3zwcHe0d_sQ" resolve="PartialTableWithRowHeaderQuery_Cell" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3zwcHe0d_uc">
+    <property role="EcuMT" value="5938892790471704883" />
+    <property role="TrG5h" value="PartialTableWithRowHeaderQuery_Table" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3zwcHe0d_ud" role="1TKVEi">
+      <property role="IQ2ns" value="7567745091195577583" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rows" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3zwcHe0d_tw" resolve="PartialTableWithRowHeaderQuery_Row" />
+    </node>
+  </node>
 </model>
 

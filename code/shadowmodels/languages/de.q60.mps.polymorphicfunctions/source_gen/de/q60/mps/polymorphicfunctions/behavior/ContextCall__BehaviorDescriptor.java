@@ -7,25 +7,21 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class ContextCall__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xbc963c22d41949b6L, 0x8543ea411eb9d3a1L, 0x2ee2064132efe19dL, "de.q60.mps.polymorphicfunctions.structure.ContextCall");
 
-  public static final SMethod<Boolean> isLegalAsStatement_idi26MfYG = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isLegalAsStatement").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1239211900844L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
+  public static final SMethod<Boolean> isLegalAsStatement_idi26MfYG = new SMethodBuilder<>(Boolean.TYPE).name("isLegalAsStatement").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1239211900844L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isLegalAsStatement_idi26MfYG);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isLegalAsStatement_idi26MfYG);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean isLegalAsStatement_idi26MfYG(@NotNull SNode __thisNode__) {
     return true;
@@ -34,10 +30,6 @@ public final class ContextCall__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ ContextCall__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

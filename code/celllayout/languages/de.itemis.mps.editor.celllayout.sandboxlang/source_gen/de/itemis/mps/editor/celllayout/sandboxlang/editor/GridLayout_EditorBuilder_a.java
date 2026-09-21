@@ -44,9 +44,9 @@ import jetbrains.mps.nodeEditor.MPSColors;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createHorizontalLineCell_1());
+    editorCell.addEditorCell(createHorizontalLineCell_0());
     editorCell.addEditorCell(createCollection_1());
-    editorCell.addEditorCell(createHorizontalLineCell_3());
+    editorCell.addEditorCell(createHorizontalLineCell_1());
     return editorCell;
   }
   private EditorCell createConstant_0() {
@@ -58,16 +58,13 @@ import jetbrains.mps.nodeEditor.MPSColors;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createHorizontalLineCell_0(EditorContext editorContext, SNode node) {
-    HorizontalLineCell editorCell = new HorizontalLineCell(editorContext, node);
+  private EditorCell createHorizontalLineCell_0() {
+    HorizontalLineCell editorCell = new HorizontalLineCell(getEditorContext(), getNode());
     editorCell.setCellId("HorizontalLineCell_uxx0e6_b0");
     Style style = new StyleImpl();
     new HeaderSeparatorStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
     return editorCell;
-  }
-  private EditorCell createHorizontalLineCell_1() {
-    return createHorizontalLineCell_0(getEditorContext(), myNode);
   }
   private EditorCell createCollection_1() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
@@ -380,12 +377,9 @@ import jetbrains.mps.nodeEditor.MPSColors;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createHorizontalLineCell_2(EditorContext editorContext, SNode node) {
-    HorizontalLineCell editorCell = new HorizontalLineCell(editorContext, node);
+  private EditorCell createHorizontalLineCell_1() {
+    HorizontalLineCell editorCell = new HorizontalLineCell(getEditorContext(), getNode());
     editorCell.setCellId("HorizontalLineCell_uxx0e6_d0");
     return editorCell;
-  }
-  private EditorCell createHorizontalLineCell_3() {
-    return createHorizontalLineCell_2(getEditorContext(), myNode);
   }
 }

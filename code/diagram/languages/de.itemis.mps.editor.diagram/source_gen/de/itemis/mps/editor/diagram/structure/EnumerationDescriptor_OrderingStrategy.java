@@ -21,7 +21,7 @@ public class EnumerationDescriptor_OrderingStrategy extends EnumerationDescripto
   private final EnumerationDescriptor.MemberDescriptor myMember_PREFER_NODES_0 = new EnumerationDescriptor.MemberDescriptor("PREFER_NODES", "PREFER_NODES", 0x32d28aa5f456012bL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379148587");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f456011eL, 0x32d28aa5f456011fL, 0x32d28aa5f4560122L, 0x32d28aa5f4560126L, 0x32d28aa5f456012bL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NONE_0, myMember_NODES_AND_EDGES_0, myMember_PREFER_EDGES_0, myMember_PREFER_NODES_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NONE_0, myMember_NODES_AND_EDGES_0, myMember_PREFER_EDGES_0, myMember_PREFER_NODES_0);
 
   @Nullable
   @Override

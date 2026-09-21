@@ -48,7 +48,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createRefNodeList_0());
-    editorCell.addEditorCell(createCompartment_1());
+    editorCell.addEditorCell(createCompartment_0());
     editorCell.addEditorCell(createRefNodeList_1());
     editorCell.addEditorCell(createRefNodeList_2());
     return editorCell;
@@ -127,13 +127,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     }
   }
-  private EditorCell createCompartment_0(EditorContext editorContext, SNode node) {
-    CompartmentCell editorCell = new CompartmentCell(editorContext, node);
+  private EditorCell createCompartment_0() {
+    CompartmentCell editorCell = new CompartmentCell(getEditorContext(), getNode());
     editorCell.setCellId("Compartment_xrgyfg_b0");
     return editorCell;
-  }
-  private EditorCell createCompartment_1() {
-    return createCompartment_0(getEditorContext(), myNode);
   }
   private EditorCell createRefNodeList_1() {
     AbstractCellListHandler handler = new instancesListHandler_xrgyfg_c0(myNode, getEditorContext());

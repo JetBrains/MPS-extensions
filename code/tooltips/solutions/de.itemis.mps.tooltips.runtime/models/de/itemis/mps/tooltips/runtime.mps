@@ -6,7 +6,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -282,7 +282,6 @@
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
@@ -290,16 +289,11 @@
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
       </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
-        <child id="2667874559098216723" name="text" index="3HnX3l" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI" />
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -4310,9 +4304,12 @@
     <node concept="3Tm1VV" id="6zKSYRPT1Tp" role="1B3o_S" />
     <node concept="3UR2Jj" id="6P69MwyuUOc" role="lGtFl">
       <node concept="TZ5HI" id="6P69MwyuUOd" role="3nqlJM">
-        <node concept="TZ5HA" id="6P69MwyuUOe" role="3HnX3l">
-          <node concept="1dT_AC" id="6P69MwyuUPF" role="1dT_Ay">
-            <property role="1dT_AB" value="Use jetbrains.mps.lang.editor.tooltips.runtime" />
+        <node concept="1PaTwC" id="L0S2CpU6Sv" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Sw" role="1PaTwD">
+            <property role="3oM_SC" value="Use" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Sx" role="1PaTwD">
+            <property role="3oM_SC" value="jetbrains.mps.lang.editor.tooltips.runtime" />
           </node>
         </node>
       </node>
@@ -4359,9 +4356,12 @@
     <node concept="3Tm1VV" id="6zKSYRPTHMG" role="1B3o_S" />
     <node concept="3UR2Jj" id="6P69MwyuWsh" role="lGtFl">
       <node concept="TZ5HI" id="6P69MwyuWsi" role="3nqlJM">
-        <node concept="TZ5HA" id="6P69MwyuWsj" role="3HnX3l">
-          <node concept="1dT_AC" id="6P69MwyuWtv" role="1dT_Ay">
-            <property role="1dT_AB" value="Use jetbrains.mps.lang.editor.tooltips.runtime" />
+        <node concept="1PaTwC" id="L0S2CpU6Sy" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Sz" role="1PaTwD">
+            <property role="3oM_SC" value="Use" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6S$" role="1PaTwD">
+            <property role="3oM_SC" value="jetbrains.mps.lang.editor.tooltips.runtime" />
           </node>
         </node>
       </node>
@@ -4542,26 +4542,168 @@
         </node>
       </node>
       <node concept="P$JXv" id="7PPhX9$YyYO" role="lGtFl">
-        <node concept="TZ5HA" id="7PPhX9$YyYP" role="TZ5H$">
-          <node concept="1dT_AC" id="7PPhX9$YyYQ" role="1dT_Ay">
-            <property role="1dT_AB" value="Registers cell for the given tooltip ID in the current context, if the ID doesn't have a registered cell yet." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="7PPhX9$YEh4" role="TZ5H$">
-          <node concept="1dT_AC" id="7PPhX9$YEh5" role="1dT_Ay">
-            <property role="1dT_AB" value="Thus, the first cell registered for the tooltip ID will be the resulting cell from the context." />
-          </node>
-        </node>
         <node concept="TUZQ0" id="7PPhX9$YyYR" role="3nqlJM">
-          <property role="TUZQ4" value="tooltip id identifying specific tooltip in the editor" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="7PPhX9$YyYT" role="zr_5Q">
             <ref role="zr_51" node="5P1DsEq0HXI" resolve="id" />
           </node>
+          <node concept="1PaTwC" id="L0S2CpU6Tc" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Td" role="1PaTwD">
+              <property role="3oM_SC" value="tooltip" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Te" role="1PaTwD">
+              <property role="3oM_SC" value="id" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tf" role="1PaTwD">
+              <property role="3oM_SC" value="identifying" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tg" role="1PaTwD">
+              <property role="3oM_SC" value="specific" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Th" role="1PaTwD">
+              <property role="3oM_SC" value="tooltip" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Ti" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tj" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tk" role="1PaTwD">
+              <property role="3oM_SC" value="editor" />
+            </node>
+          </node>
         </node>
         <node concept="TUZQ0" id="7PPhX9$YyYU" role="3nqlJM">
-          <property role="TUZQ4" value="rendered tooltip cell" />
+          <property role="TUZQ4" value="" />
           <node concept="zr_55" id="7PPhX9$YyYW" role="zr_5Q">
             <ref role="zr_51" node="5P1DsEq0HXK" resolve="cell" />
+          </node>
+          <node concept="1PaTwC" id="L0S2CpU6Tl" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6Tm" role="1PaTwD">
+              <property role="3oM_SC" value="rendered" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6Tn" role="1PaTwD">
+              <property role="3oM_SC" value="tooltip" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6To" role="1PaTwD">
+              <property role="3oM_SC" value="cell" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6S_" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6SA" role="1PaTwD">
+            <property role="3oM_SC" value="Registers" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SB" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SC" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SD" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SE" role="1PaTwD">
+            <property role="3oM_SC" value="given" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SF" role="1PaTwD">
+            <property role="3oM_SC" value="tooltip" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SG" role="1PaTwD">
+            <property role="3oM_SC" value="ID" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SH" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SI" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SJ" role="1PaTwD">
+            <property role="3oM_SC" value="current" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SK" role="1PaTwD">
+            <property role="3oM_SC" value="context," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SL" role="1PaTwD">
+            <property role="3oM_SC" value="if" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SM" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SN" role="1PaTwD">
+            <property role="3oM_SC" value="ID" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SO" role="1PaTwD">
+            <property role="3oM_SC" value="doesn't" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SP" role="1PaTwD">
+            <property role="3oM_SC" value="have" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SQ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SR" role="1PaTwD">
+            <property role="3oM_SC" value="registered" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SS" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6ST" role="1PaTwD">
+            <property role="3oM_SC" value="yet." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="L0S2CpU6SU" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6SV" role="1PaTwD">
+            <property role="3oM_SC" value="Thus," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SW" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SX" role="1PaTwD">
+            <property role="3oM_SC" value="first" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SY" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6SZ" role="1PaTwD">
+            <property role="3oM_SC" value="registered" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T0" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T1" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T2" role="1PaTwD">
+            <property role="3oM_SC" value="tooltip" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T3" role="1PaTwD">
+            <property role="3oM_SC" value="ID" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T4" role="1PaTwD">
+            <property role="3oM_SC" value="will" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T5" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T6" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T7" role="1PaTwD">
+            <property role="3oM_SC" value="resulting" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T8" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6T9" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ta" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Tb" role="1PaTwD">
+            <property role="3oM_SC" value="context." />
           </node>
         </node>
       </node>

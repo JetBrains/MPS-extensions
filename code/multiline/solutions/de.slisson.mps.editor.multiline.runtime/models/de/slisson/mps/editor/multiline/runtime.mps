@@ -4,7 +4,7 @@
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
   </languages>
   <imports>
     <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
@@ -146,14 +146,9 @@
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
-        <child id="2667874559098216723" name="text" index="3HnX3l" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -499,9 +494,30 @@
       </node>
       <node concept="P$JXv" id="1bakscM2e9C" role="lGtFl">
         <node concept="TZ5HI" id="1bakscM2e9D" role="3nqlJM">
-          <node concept="TZ5HA" id="1bakscM2e9E" role="3HnX3l">
-            <node concept="1dT_AC" id="1bakscM7xnn" role="1dT_Ay">
-              <property role="1dT_AB" value="escaping is not required anymore since MPS 3.2" />
+          <node concept="1PaTwC" id="L0S2CpU6x4" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6x5" role="1PaTwD">
+              <property role="3oM_SC" value="escaping" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6x6" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6x7" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6x8" role="1PaTwD">
+              <property role="3oM_SC" value="required" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6x9" role="1PaTwD">
+              <property role="3oM_SC" value="anymore" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xa" role="1PaTwD">
+              <property role="3oM_SC" value="since" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xb" role="1PaTwD">
+              <property role="3oM_SC" value="MPS" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xc" role="1PaTwD">
+              <property role="3oM_SC" value="3.2" />
             </node>
           </node>
         </node>
@@ -530,9 +546,30 @@
       <node concept="3Tm6S6" id="5LEeV$43pAd" role="1B3o_S" />
       <node concept="P$JXv" id="1bakscM7x$I" role="lGtFl">
         <node concept="TZ5HI" id="1bakscM7x$J" role="3nqlJM">
-          <node concept="TZ5HA" id="1bakscM7x$K" role="3HnX3l">
-            <node concept="1dT_AC" id="1bakscM7xEU" role="1dT_Ay">
-              <property role="1dT_AB" value="escaping is not required anymore since MPS 3.2" />
+          <node concept="1PaTwC" id="L0S2CpU6xd" role="1Vez_I">
+            <node concept="3oM_SD" id="L0S2CpU6xe" role="1PaTwD">
+              <property role="3oM_SC" value="escaping" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xf" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xg" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xh" role="1PaTwD">
+              <property role="3oM_SC" value="required" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xi" role="1PaTwD">
+              <property role="3oM_SC" value="anymore" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xj" role="1PaTwD">
+              <property role="3oM_SC" value="since" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xk" role="1PaTwD">
+              <property role="3oM_SC" value="MPS" />
+            </node>
+            <node concept="3oM_SD" id="L0S2CpU6xl" role="1PaTwD">
+              <property role="3oM_SC" value="3.2" />
             </node>
           </node>
         </node>

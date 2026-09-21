@@ -41,8 +41,8 @@ public class SelectionBetweenLinesDown_Test extends BaseTransformationTest {
       MultilineSelection selection = as_qa0mbq_a0a2a3g(getEditorComponent().getSelectionManager().getSelection(), MultilineSelection.class);
       Assert.assertNotNull(selection);
 
-      Assert.assertEquals(new CellAnnotation(33, 22, 33, false).getSelectionStart(), selection.getSelectionStart());
-      Assert.assertEquals(new CellAnnotation(33, 22, 33, false).getSelectionEnd(), selection.getSelectionEnd());
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(33, 22, 33, false).getSelectionStart()), Integer.valueOf(selection.getSelectionStart()));
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(33, 22, 33, false).getSelectionEnd()), Integer.valueOf(selection.getSelectionEnd()));
 
     }
     private static <T> T as_qa0mbq_a0a2a3g(Object o, Class<T> type) {

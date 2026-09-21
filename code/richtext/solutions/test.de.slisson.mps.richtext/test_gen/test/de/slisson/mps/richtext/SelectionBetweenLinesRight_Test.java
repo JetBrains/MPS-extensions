@@ -40,8 +40,8 @@ public class SelectionBetweenLinesRight_Test extends BaseTransformationTest {
       invokeAction("jetbrains.mps.ide.editor.actions.SelectRight_Action");
       MultilineSelection selection = as_882qu4_a0a2a3g(getEditorComponent().getSelectionManager().getSelection(), MultilineSelection.class);
       Assert.assertNotNull(selection);
-      Assert.assertEquals(new CellAnnotation(11, 10, 11, false).getSelectionStart(), selection.getSelectionStart());
-      Assert.assertEquals(new CellAnnotation(11, 10, 11, false).getSelectionEnd(), selection.getSelectionEnd());
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(11, 10, 11, false).getSelectionStart()), Integer.valueOf(selection.getSelectionStart()));
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(11, 10, 11, false).getSelectionEnd()), Integer.valueOf(selection.getSelectionEnd()));
 
     }
     private static <T> T as_882qu4_a0a2a3g(Object o, Class<T> type) {

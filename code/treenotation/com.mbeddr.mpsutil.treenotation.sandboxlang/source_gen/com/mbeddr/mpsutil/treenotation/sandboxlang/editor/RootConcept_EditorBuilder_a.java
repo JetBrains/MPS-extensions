@@ -112,7 +112,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_1() {
-    return createTreeCell_0(getEditorContext(), myNode);
+    return createTreeCell_0(getEditorContext(), getNode());
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "root 1");
@@ -167,7 +167,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_3() {
-    return createTreeCell_2(getEditorContext(), myNode);
+    return createTreeCell_2(getEditorContext(), getNode());
   }
   private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "child2");
@@ -259,7 +259,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_5() {
-    return createTreeCell_4(getEditorContext(), myNode);
+    return createTreeCell_4(getEditorContext(), getNode());
   }
   private EditorCell createConstant_9() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "root");
@@ -289,7 +289,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_7() {
-    return createTreeCell_6(getEditorContext(), myNode);
+    return createTreeCell_6(getEditorContext(), getNode());
   }
   private EditorCell createConstant_10() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "child1---------");
@@ -354,7 +354,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_9() {
-    return createTreeCell_8(getEditorContext(), myNode);
+    return createTreeCell_8(getEditorContext(), getNode());
   }
   private EditorCell createConstant_13() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "child2");
@@ -417,7 +417,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_11() {
-    return createTreeCell_10(getEditorContext(), myNode);
+    return createTreeCell_10(getEditorContext(), getNode());
   }
   private EditorCell createConstant_17() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "child2e");
@@ -503,7 +503,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_13() {
-    return createTreeCell_12(getEditorContext(), myNode);
+    return createTreeCell_12(getEditorContext(), getNode());
   }
   private EditorCell createConstant_23() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "root 2");
@@ -546,7 +546,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_15() {
-    return createTreeCell_14(getEditorContext(), myNode);
+    return createTreeCell_14(getEditorContext(), getNode());
   }
   private EditorCell createConstant_24() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "child1");
@@ -598,7 +598,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_17() {
-    return createTreeCell_16(getEditorContext(), myNode);
+    return createTreeCell_16(getEditorContext(), getNode());
   }
   private EditorCell createConstant_26() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "child1");
@@ -666,7 +666,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_19() {
-    return createTreeCell_18(getEditorContext(), myNode);
+    return createTreeCell_18(getEditorContext(), getNode());
   }
   private EditorCell createConstant_31() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "child2");
@@ -725,7 +725,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_21() {
-    return createTreeCell_20(getEditorContext(), myNode);
+    return createTreeCell_20(getEditorContext(), getNode());
   }
   private EditorCell createConstant_35() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "child3");
@@ -802,7 +802,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_23() {
-    return createTreeCell_22(getEditorContext(), myNode);
+    return createTreeCell_22(getEditorContext(), getNode());
   }
   private EditorCell createConstant_39() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "root 3");
@@ -861,7 +861,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_25() {
-    return createTreeCell_24(getEditorContext(), myNode);
+    return createTreeCell_24(getEditorContext(), getNode());
   }
   private EditorCell createCollection_13() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
@@ -1085,7 +1085,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_27() {
-    return createTreeCell_26(getEditorContext(), myNode);
+    return createTreeCell_26(getEditorContext(), getNode());
   }
   private EditorCell createConstant_64() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "root 4");

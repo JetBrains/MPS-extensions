@@ -102,7 +102,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createTreeCell_1() {
-    return createTreeCell_0(getEditorContext(), myNode);
+    return createTreeCell_0(getEditorContext(), getNode());
   }
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();

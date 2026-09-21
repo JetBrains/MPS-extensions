@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -17,7 +16,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.baseLanguage.behavior.DotExpression__BehaviorDescriptor;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -26,15 +24,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class ReflectionFieldAccess__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x654422bfe75f44dcL, 0x936d188890a746ceL, 0x7598281400c6a454L, "de.slisson.mps.reflection.structure.ReflectionFieldAccess");
 
-  public static final SMethod<Boolean> isLValue_idhEwIP$w = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isLValue").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1213877410080L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
-  public static final SMethod<SNode> getFieldClass_id7moa1g0YKmc = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getFieldClass").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8473566765278496140L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
-  public static final SMethod<SNode> getClassifier_id7moa1g0UD3u = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getClassifier").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8473566765277417694L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
-  public static final SMethod<SNode> getClassifierType_id7moa1g0UFAr = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getClassifierType").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8473566765277428123L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
+  public static final SMethod<Boolean> isLValue_idhEwIP$w = new SMethodBuilder<>(Boolean.TYPE).name("isLValue").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1213877410080L).languageId(0xa443f952ceaf5816L, 0xf3061a5392264cc5L).build2();
+  public static final SMethod<SNode> getFieldClass_id7moa1g0YKmc = new SMethodBuilder<>(SNode.class).name("getFieldClass").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8473566765278496140L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
+  public static final SMethod<SNode> getClassifier_id7moa1g0UD3u = new SMethodBuilder<>(SNode.class).name("getClassifier").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8473566765277417694L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
+  public static final SMethod<SNode> getClassifierType_id7moa1g0UFAr = new SMethodBuilder<>(SNode.class).name("getClassifierType").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8473566765277428123L).languageId(0x936d188890a746ceL, 0x654422bfe75f44dcL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isLValue_idhEwIP$w, getFieldClass_id7moa1g0YKmc, getClassifier_id7moa1g0UD3u, getClassifierType_id7moa1g0UFAr);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isLValue_idhEwIP$w, getFieldClass_id7moa1g0YKmc, getClassifier_id7moa1g0UD3u, getClassifierType_id7moa1g0UFAr);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean isLValue_idhEwIP$w(@NotNull SNode __thisNode__) {
     return true;
@@ -52,10 +48,6 @@ public final class ReflectionFieldAccess__BehaviorDescriptor extends BaseBHDescr
   /*package*/ ReflectionFieldAccess__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

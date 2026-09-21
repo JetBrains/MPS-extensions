@@ -1,6 +1,6 @@
- * aaa
- * ab
- * ac
- * ba
- * bb
+ * a, aa, aaa
+ * a, ab
+ * a, ac
+ * b, ba
+ * b, bb
  * c

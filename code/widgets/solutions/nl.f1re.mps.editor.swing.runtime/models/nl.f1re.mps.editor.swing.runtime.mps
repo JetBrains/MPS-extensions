@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
   </languages>
   <imports>
@@ -186,16 +186,10 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -203,6 +197,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -630,24 +632,240 @@
     </node>
     <node concept="2tJIrI" id="5vhcTL1WowE" role="jymVt" />
     <node concept="3UR2Jj" id="5vhcTL1HZB7" role="lGtFl">
-      <node concept="TZ5HA" id="5vhcTL1HZB8" role="TZ5H$">
-        <node concept="1dT_AC" id="5vhcTL1HZB9" role="1dT_Ay">
-          <property role="1dT_AB" value="This class fixes some issues with the original swing component implementation. It sets some sensible defaults for the styles, so that they look more" />
+      <node concept="1PaTwC" id="L0S2CpU6Ux" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Uy" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Uz" role="1PaTwD">
+          <property role="3oM_SC" value="class" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6U$" role="1PaTwD">
+          <property role="3oM_SC" value="fixes" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6U_" role="1PaTwD">
+          <property role="3oM_SC" value="some" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UA" role="1PaTwD">
+          <property role="3oM_SC" value="issues" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UB" role="1PaTwD">
+          <property role="3oM_SC" value="with" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UC" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UD" role="1PaTwD">
+          <property role="3oM_SC" value="original" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UE" role="1PaTwD">
+          <property role="3oM_SC" value="swing" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UF" role="1PaTwD">
+          <property role="3oM_SC" value="component" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UG" role="1PaTwD">
+          <property role="3oM_SC" value="implementation." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UH" role="1PaTwD">
+          <property role="3oM_SC" value="It" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UI" role="1PaTwD">
+          <property role="3oM_SC" value="sets" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UJ" role="1PaTwD">
+          <property role="3oM_SC" value="some" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UK" role="1PaTwD">
+          <property role="3oM_SC" value="sensible" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UL" role="1PaTwD">
+          <property role="3oM_SC" value="defaults" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UM" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UN" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UO" role="1PaTwD">
+          <property role="3oM_SC" value="styles," />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UP" role="1PaTwD">
+          <property role="3oM_SC" value="so" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UQ" role="1PaTwD">
+          <property role="3oM_SC" value="that" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UR" role="1PaTwD">
+          <property role="3oM_SC" value="they" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6US" role="1PaTwD">
+          <property role="3oM_SC" value="look" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UT" role="1PaTwD">
+          <property role="3oM_SC" value="more" />
         </node>
       </node>
-      <node concept="TZ5HA" id="5vhcTL1IkXQ" role="TZ5H$">
-        <node concept="1dT_AC" id="5vhcTL1IkXR" role="1dT_Ay">
-          <property role="1dT_AB" value="consistent with the other IntelliJ UI components and improves the ascent calculation. The original calculation is" />
+      <node concept="1PaTwC" id="L0S2CpU6UU" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6UV" role="1PaTwD">
+          <property role="3oM_SC" value="consistent" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UW" role="1PaTwD">
+          <property role="3oM_SC" value="with" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UX" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UY" role="1PaTwD">
+          <property role="3oM_SC" value="other" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6UZ" role="1PaTwD">
+          <property role="3oM_SC" value="IntelliJ" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V0" role="1PaTwD">
+          <property role="3oM_SC" value="UI" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V1" role="1PaTwD">
+          <property role="3oM_SC" value="components" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V2" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V3" role="1PaTwD">
+          <property role="3oM_SC" value="improves" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V4" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V5" role="1PaTwD">
+          <property role="3oM_SC" value="ascent" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V6" role="1PaTwD">
+          <property role="3oM_SC" value="calculation." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V7" role="1PaTwD">
+          <property role="3oM_SC" value="The" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V8" role="1PaTwD">
+          <property role="3oM_SC" value="original" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V9" role="1PaTwD">
+          <property role="3oM_SC" value="calculation" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Va" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
         </node>
       </node>
-      <node concept="TZ5HA" id="5vhcTL1Itw9" role="TZ5H$">
-        <node concept="1dT_AC" id="5vhcTL1Itwa" role="1dT_Ay">
-          <property role="1dT_AB" value="component font ascent + border top inset which is not generic but works well for buttons. This new implementation assumes that the baseline is calculated" />
+      <node concept="1PaTwC" id="L0S2CpU6Vb" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Vc" role="1PaTwD">
+          <property role="3oM_SC" value="component" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vd" role="1PaTwD">
+          <property role="3oM_SC" value="font" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ve" role="1PaTwD">
+          <property role="3oM_SC" value="ascent" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vf" role="1PaTwD">
+          <property role="3oM_SC" value="+" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vg" role="1PaTwD">
+          <property role="3oM_SC" value="border" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vh" role="1PaTwD">
+          <property role="3oM_SC" value="top" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vi" role="1PaTwD">
+          <property role="3oM_SC" value="inset" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vj" role="1PaTwD">
+          <property role="3oM_SC" value="which" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vk" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vl" role="1PaTwD">
+          <property role="3oM_SC" value="not" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vm" role="1PaTwD">
+          <property role="3oM_SC" value="generic" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vn" role="1PaTwD">
+          <property role="3oM_SC" value="but" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vo" role="1PaTwD">
+          <property role="3oM_SC" value="works" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vp" role="1PaTwD">
+          <property role="3oM_SC" value="well" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vq" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vr" role="1PaTwD">
+          <property role="3oM_SC" value="buttons." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vs" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vt" role="1PaTwD">
+          <property role="3oM_SC" value="new" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vu" role="1PaTwD">
+          <property role="3oM_SC" value="implementation" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vv" role="1PaTwD">
+          <property role="3oM_SC" value="assumes" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vw" role="1PaTwD">
+          <property role="3oM_SC" value="that" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vx" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vy" role="1PaTwD">
+          <property role="3oM_SC" value="baseline" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Vz" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6V$" role="1PaTwD">
+          <property role="3oM_SC" value="calculated" />
         </node>
       </node>
-      <node concept="TZ5HA" id="5vhcTL1I$Lw" role="TZ5H$">
-        <node concept="1dT_AC" id="5vhcTL1I$Lx" role="1dT_Ay">
-          <property role="1dT_AB" value="for the swing component which is done for most standard components." />
+      <node concept="1PaTwC" id="L0S2CpU6V_" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6VA" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VB" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VC" role="1PaTwD">
+          <property role="3oM_SC" value="swing" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VD" role="1PaTwD">
+          <property role="3oM_SC" value="component" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VE" role="1PaTwD">
+          <property role="3oM_SC" value="which" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VF" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VG" role="1PaTwD">
+          <property role="3oM_SC" value="done" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VH" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VI" role="1PaTwD">
+          <property role="3oM_SC" value="most" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VJ" role="1PaTwD">
+          <property role="3oM_SC" value="standard" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VK" role="1PaTwD">
+          <property role="3oM_SC" value="components." />
         </node>
       </node>
     </node>
@@ -963,9 +1181,69 @@
       <node concept="10P_77" id="5$re6_jUnD4" role="3clF45" />
     </node>
     <node concept="3UR2Jj" id="2j3rMbF1vzp" role="lGtFl">
-      <node concept="TZ5HA" id="2j3rMbF1vzq" role="TZ5H$">
-        <node concept="1dT_AC" id="2j3rMbF1vzr" role="1dT_Ay">
-          <property role="1dT_AB" value="This class serves the same purpose as JBFont but uses the default editor font instead of the standard font for labels." />
+      <node concept="1PaTwC" id="L0S2CpU6VL" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6VM" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VN" role="1PaTwD">
+          <property role="3oM_SC" value="class" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VO" role="1PaTwD">
+          <property role="3oM_SC" value="serves" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VP" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VQ" role="1PaTwD">
+          <property role="3oM_SC" value="same" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VR" role="1PaTwD">
+          <property role="3oM_SC" value="purpose" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VS" role="1PaTwD">
+          <property role="3oM_SC" value="as" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VT" role="1PaTwD">
+          <property role="3oM_SC" value="JBFont" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VU" role="1PaTwD">
+          <property role="3oM_SC" value="but" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VV" role="1PaTwD">
+          <property role="3oM_SC" value="uses" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VW" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VX" role="1PaTwD">
+          <property role="3oM_SC" value="default" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VY" role="1PaTwD">
+          <property role="3oM_SC" value="editor" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6VZ" role="1PaTwD">
+          <property role="3oM_SC" value="font" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6W0" role="1PaTwD">
+          <property role="3oM_SC" value="instead" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6W1" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6W2" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6W3" role="1PaTwD">
+          <property role="3oM_SC" value="standard" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6W4" role="1PaTwD">
+          <property role="3oM_SC" value="font" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6W5" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6W6" role="1PaTwD">
+          <property role="3oM_SC" value="labels." />
         </node>
       </node>
     </node>

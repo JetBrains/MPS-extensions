@@ -319,7 +319,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private boolean _StyleParameter_QueryFunction_j37yer_a0c0() {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(getNode(), LINKS.config$G6cD), PROPS.fixedGraphSize$i2Jn);

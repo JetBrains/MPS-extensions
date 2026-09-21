@@ -19,7 +19,7 @@ public class EnumerationDescriptor_ForceModelStrategy extends EnumerationDescrip
   private final EnumerationDescriptor.MemberDescriptor myMember_FRUCHTERMAN_REINGOLD_0 = new EnumerationDescriptor.MemberDescriptor("FRUCHTERMAN_REINGOLD", "FRUCHTERMAN_REINGOLD", 0x32d28aa5f3e51d5cL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892371750236");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f3e51d59L, 0x32d28aa5f3e51d5aL, 0x32d28aa5f3e51d5cL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_EADES_0, myMember_FRUCHTERMAN_REINGOLD_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_EADES_0, myMember_FRUCHTERMAN_REINGOLD_0);
 
   @Nullable
   @Override

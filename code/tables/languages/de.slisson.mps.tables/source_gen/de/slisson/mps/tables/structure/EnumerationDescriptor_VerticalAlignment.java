@@ -20,7 +20,7 @@ public class EnumerationDescriptor_VerticalAlignment extends EnumerationDescript
   private final EnumerationDescriptor.MemberDescriptor myMember_CENTER_0 = new EnumerationDescriptor.MemberDescriptor("CENTER", "CENTER", 0x3cd831ad0aaf4639L, "r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/9167550852342474624");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x3cd831ad0aaf4331L, 0x3cd831ad0aaf4417L, 0x3cd831ad0aaf4636L, 0x3cd831ad0aaf4639L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_TOP_0, myMember_BOTTOM_0, myMember_CENTER_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_TOP_0, myMember_BOTTOM_0, myMember_CENTER_0);
 
   @Nullable
   @Override

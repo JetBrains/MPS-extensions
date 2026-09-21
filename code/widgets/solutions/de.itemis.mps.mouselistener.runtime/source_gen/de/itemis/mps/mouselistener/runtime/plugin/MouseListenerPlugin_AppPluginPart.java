@@ -20,7 +20,7 @@ public class MouseListenerPlugin_AppPluginPart extends ApplicationPluginPart {
     }
     @Override
     public void uninstall(@NotNull EditorComponent component) {
-      check_pw8zna_a0a2a0a0(DelegatingMouseListener.getInstance((jetbrains.mps.nodeEditor.EditorComponent) component));
+      check_ll01fu_a0a2a0a0(DelegatingMouseListener.getInstance((jetbrains.mps.nodeEditor.EditorComponent) component));
     }
   };
   public MouseListenerPlugin_AppPluginPart() {
@@ -28,28 +28,28 @@ public class MouseListenerPlugin_AppPluginPart extends ApplicationPluginPart {
   @Override
   public void init() {
     EditorExtension extension = MouseListenerPlugin_AppPluginPart.this.myListener;
-    check_pw8zna_a1a0(getPlatform().findComponent(EditorExtensionRegistry.class), extension);
+    check_ll01fu_a1a2(getPlatform().findComponent(EditorExtensionRegistry.class), extension, this);
   }
   @Override
   public void dispose() {
     DelegatingMouseListener.uninstallAll();
     EditorExtension extension = MouseListenerPlugin_AppPluginPart.this.myListener;
     MouseListenerPlugin_AppPluginPart.this.myListener = null;
-    check_pw8zna_a3a0(getPlatform().findComponent(EditorExtensionRegistry.class), extension);
+    check_ll01fu_a3a3(getPlatform().findComponent(EditorExtensionRegistry.class), extension, this);
   }
-  private static void check_pw8zna_a0a2a0a0(DelegatingMouseListener checkedDotOperand) {
+  private static void check_ll01fu_a0a2a0a0(DelegatingMouseListener checkedDotOperand) {
     if (null != checkedDotOperand) {
       checkedDotOperand.uninstall();
     }
 
   }
-  private static void check_pw8zna_a1a0(EditorExtensionRegistry checkedDotOperand, EditorExtension extension) {
+  private static void check_ll01fu_a1a2(EditorExtensionRegistry checkedDotOperand, EditorExtension extension, MouseListenerPlugin_AppPluginPart checkedDotThisExpression) {
     if (null != checkedDotOperand) {
       checkedDotOperand.registerExtension(extension);
     }
 
   }
-  private static void check_pw8zna_a3a0(EditorExtensionRegistry checkedDotOperand, EditorExtension extension) {
+  private static void check_ll01fu_a3a3(EditorExtensionRegistry checkedDotOperand, EditorExtension extension, MouseListenerPlugin_AppPluginPart checkedDotThisExpression) {
     if (null != checkedDotOperand) {
       checkedDotOperand.unregisterExtension(extension);
     }

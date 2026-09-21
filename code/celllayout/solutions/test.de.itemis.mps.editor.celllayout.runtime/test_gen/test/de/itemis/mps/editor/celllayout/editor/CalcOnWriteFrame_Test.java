@@ -25,8 +25,8 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
   }
   @Test
   public void test_right1() throws Exception {
@@ -35,8 +35,8 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
   }
   @Test
   public void test_top1() throws Exception {
@@ -45,8 +45,8 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
   }
   @Test
   public void test_bottom1() throws Exception {
@@ -55,8 +55,8 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
   }
   @Test
   public void test_left2() throws Exception {
@@ -65,8 +65,8 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
   }
   @Test
   public void test_right2() throws Exception {
@@ -75,8 +75,8 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
   }
   @Test
   public void test_top2() throws Exception {
@@ -85,8 +85,8 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
   }
   @Test
   public void test_bottom2() throws Exception {
@@ -95,8 +95,8 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
   }
   @Test
   public void test_boxBounds() throws Exception {
@@ -110,12 +110,12 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
-    Assert.assertEquals(frame1a.getAscent(), frame2a.getAscent());
-    Assert.assertEquals(frame1a.getDescent(), frame2a.getDescent());
-    Assert.assertEquals(frame1b.getAscent(), frame2b.getAscent());
-    Assert.assertEquals(frame1b.getDescent(), frame2b.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
+    Assert.assertEquals(Integer.valueOf(frame1a.getAscent()), Integer.valueOf(frame2a.getAscent()));
+    Assert.assertEquals(Integer.valueOf(frame1a.getDescent()), Integer.valueOf(frame2a.getDescent()));
+    Assert.assertEquals(Integer.valueOf(frame1b.getAscent()), Integer.valueOf(frame2b.getAscent()));
+    Assert.assertEquals(Integer.valueOf(frame1b.getDescent()), Integer.valueOf(frame2b.getDescent()));
   }
   @Test
   public void test_boxBounds2() throws Exception {
@@ -133,12 +133,12 @@ public class CalcOnWriteFrame_Test {
     Assert.assertEquals(LayoutBoxExtensions.getBounds(box1), LayoutBoxExtensions.getBounds(box2));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1a), LayoutBoxExtensions.getBounds(frame2a));
     Assert.assertEquals(LayoutBoxExtensions.getBounds(frame1b), LayoutBoxExtensions.getBounds(frame2b));
-    Assert.assertEquals(box1.getAscent(), box2.getAscent());
-    Assert.assertEquals(box1.getDescent(), box2.getDescent());
-    Assert.assertEquals(frame1a.getAscent(), frame2a.getAscent());
-    Assert.assertEquals(frame1a.getDescent(), frame2a.getDescent());
-    Assert.assertEquals(frame1b.getAscent(), frame2b.getAscent());
-    Assert.assertEquals(frame1b.getDescent(), frame2b.getDescent());
+    Assert.assertEquals(Integer.valueOf(box1.getAscent()), Integer.valueOf(box2.getAscent()));
+    Assert.assertEquals(Integer.valueOf(box1.getDescent()), Integer.valueOf(box2.getDescent()));
+    Assert.assertEquals(Integer.valueOf(frame1a.getAscent()), Integer.valueOf(frame2a.getAscent()));
+    Assert.assertEquals(Integer.valueOf(frame1a.getDescent()), Integer.valueOf(frame2a.getDescent()));
+    Assert.assertEquals(Integer.valueOf(frame1b.getAscent()), Integer.valueOf(frame2b.getAscent()));
+    Assert.assertEquals(Integer.valueOf(frame1b.getDescent()), Integer.valueOf(frame2b.getDescent()));
   }
   @BeforeEach
   public void setUp() {

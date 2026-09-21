@@ -23,7 +23,7 @@ public final class SideTransformationSectionCell__BehaviorDescriptor extends Bas
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0xa574ce79496fb92L, "com.mbeddr.mpsutil.grammarcells.structure.SideTransformationSectionCell");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SNodeFactoryOperations.setNewChild(__thisNode__, LINKS.section$WUVw, null);

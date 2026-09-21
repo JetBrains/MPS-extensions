@@ -21,7 +21,7 @@ public class EnumerationDescriptor_BoxLayoutMode extends EnumerationDescriptorBa
   private final EnumerationDescriptor.MemberDescriptor myMember_GROUP_INC_0 = new EnumerationDescriptor.MemberDescriptor("GROUP_INC", "GROUP_INC", 0x5193e2046440e96eL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/5878290447138351470");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x5193e2046440e95eL, 0x5193e2046440e95fL, 0x5193e2046440e964L, 0x5193e2046440e968L, 0x5193e2046440e96eL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_SIMPLE_0, myMember_GROUP_DEC_0, myMember_GROUP_MIXED_0, myMember_GROUP_INC_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_SIMPLE_0, myMember_GROUP_DEC_0, myMember_GROUP_MIXED_0, myMember_GROUP_INC_0);
 
   @Nullable
   @Override

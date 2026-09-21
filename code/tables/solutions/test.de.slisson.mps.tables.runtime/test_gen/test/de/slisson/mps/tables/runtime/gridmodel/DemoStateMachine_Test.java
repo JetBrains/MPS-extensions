@@ -17,11 +17,11 @@ public class DemoStateMachine_Test {
   private int transitionSequence = 0;
   @Test
   public void test_sizeX() throws Exception {
-    Assert.assertEquals(5, main.getSizeX());
+    Assert.assertEquals(Integer.valueOf(5), Integer.valueOf(main.getSizeX()));
   }
   @Test
   public void test_sizeY() throws Exception {
-    Assert.assertEquals(16, main.getSizeY());
+    Assert.assertEquals(Integer.valueOf(16), Integer.valueOf(main.getSizeY()));
   }
   @BeforeEach
   public void setUp() {

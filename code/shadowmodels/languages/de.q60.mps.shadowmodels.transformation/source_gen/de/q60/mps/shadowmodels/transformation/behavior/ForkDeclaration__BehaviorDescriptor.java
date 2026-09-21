@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -15,22 +14,19 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class ForkDeclaration__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x94b64715a2634c36L, 0xa1388da14705ffa7L, 0x6589b7fbb0ed2719L, "de.q60.mps.shadowmodels.transformation.structure.ForkDeclaration");
 
-  public static final SMethod<String> getDefaultName_id2$QnGbu$Y2o = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getDefaultName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2969665195348320408L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<String> getForkId_id3RcjyAsx5Oy = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getForkId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4453020072189123874L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<String> getPresentation_idhEwIMiw = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1213877396640L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2();
-  public static final SMethod<String> getPresentation_id69Qfsw3IoJg = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234040272L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  public static final SMethod<String> getDefaultName_id2$QnGbu$Y2o = new SMethodBuilder<>(String.class).name("getDefaultName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2969665195348320408L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<String> getForkId_id3RcjyAsx5Oy = new SMethodBuilder<>(String.class).name("getForkId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4453020072189123874L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<String> getPresentation_idhEwIMiw = new SMethodBuilder<>(String.class).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1213877396640L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2();
+  public static final SMethod<String> getPresentation_id69Qfsw3IoJg = new SMethodBuilder<>(String.class).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234040272L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter(SNode.class, "reference"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDefaultName_id2$QnGbu$Y2o, getForkId_id3RcjyAsx5Oy, getPresentation_idhEwIMiw, getPresentation_id69Qfsw3IoJg);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getDefaultName_id2$QnGbu$Y2o, getForkId_id3RcjyAsx5Oy, getPresentation_idhEwIMiw, getPresentation_id69Qfsw3IoJg);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getDefaultName_id2$QnGbu$Y2o(@NotNull SNode __thisNode__) {
     return "fork" + SNodeOperations.getIndexInParent(__thisNode__);
@@ -48,10 +44,6 @@ public final class ForkDeclaration__BehaviorDescriptor extends BaseBHDescriptor 
   /*package*/ ForkDeclaration__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

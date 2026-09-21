@@ -41,6 +41,6 @@ public class Reload_Action extends BaseAction {
   @Override
   public void doExecute(@NotNull final AnActionEvent event, final Map<String, Object> _params) {
     LanguageVisualisation_Tool content = ProjectPluginManager.getInstance(event.getData(CommonDataKeys.PROJECT)).getTool(LanguageVisualisation_Tool.class);
-    content.rebuildBasedOnCurrentContextAndSettings();
+    content.redrawBasedOnCurrentContextAndSettings();
   }
 }

@@ -18,7 +18,7 @@ public class PTree_insertChildren_Test {
   private IConcept[] concepts;
   @Test
   public void test_size_before() throws Exception {
-    Assert.assertEquals(3, Sequence.fromIterable(tree1.getChildren(SM_PTree.ROOT_ID, "a")).count());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(Sequence.fromIterable(tree1.getChildren(SM_PTree.ROOT_ID, "a")).count()));
   }
   @Test
   public void test_values_before() throws Exception {
@@ -26,7 +26,7 @@ public class PTree_insertChildren_Test {
   }
   @Test
   public void test_size_after() throws Exception {
-    Assert.assertEquals(6, Sequence.fromIterable(tree2.getChildren(SM_PTree.ROOT_ID, "a")).count());
+    Assert.assertEquals(Integer.valueOf(6), Integer.valueOf(Sequence.fromIterable(tree2.getChildren(SM_PTree.ROOT_ID, "a")).count()));
   }
   @Test
   public void test_values_after() throws Exception {

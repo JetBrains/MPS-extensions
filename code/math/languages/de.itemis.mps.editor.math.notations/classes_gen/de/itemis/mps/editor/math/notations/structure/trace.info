@@ -13,7 +13,7 @@
       <unit at="11,0,188,0" name="de.itemis.mps.editor.math.notations.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,68,0" name="de.itemis.mps.editor.math.notations.structure.LanguageConceptSwitch" />
+      <unit at="12,0,76,0" name="de.itemis.mps.editor.math.notations.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="16,0,371,0" name="de.itemis.mps.editor.math.notations.structure.StructureAspectDescriptor" />
@@ -33,8 +33,8 @@
       <scope id="175930839491770539" at="177,43,183,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="175930839491770539" at="32,0,33,0" concept="6" trace="SumEditor" />
-      <node id="175930839491770539" at="55,64,56,47" concept="0" />
+      <node id="175930839491770539" at="34,0,35,0" concept="6" trace="SumEditor" />
+      <node id="175930839491770539" at="57,64,58,47" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="175930839491770539" at="37,0,38,0" concept="1" trace="myConceptSumEditor" />
@@ -69,8 +69,8 @@
       <scope id="2974925064252956766" at="39,45,45,33" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2974925064252956766" at="12,0,13,0" concept="6" trace="AboveEditor" />
-      <node id="2974925064252956766" at="35,116,36,50" concept="0" />
+      <node id="2974925064252956766" at="14,0,15,0" concept="6" trace="AboveEditor" />
+      <node id="2974925064252956766" at="37,116,38,50" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2974925064252956766" at="17,0,18,0" concept="1" trace="myConceptAboveEditor" />
@@ -107,8 +107,8 @@
       <scope id="3911888816471862941" at="114,60,120,48" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="3911888816471862941" at="23,0,24,0" concept="6" trace="OverreachingBracketsEditor" />
-      <node id="3911888816471862941" at="46,50,47,65" concept="0" />
+      <node id="3911888816471862941" at="25,0,26,0" concept="6" trace="OverreachingBracketsEditor" />
+      <node id="3911888816471862941" at="48,50,49,65" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3911888816471862941" at="28,0,29,0" concept="1" trace="myConceptOverreachingBracketsEditor" />
@@ -148,8 +148,8 @@
       <scope id="3911888816474744323" at="121,56,127,44" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="3911888816474744323" at="24,0,25,0" concept="6" trace="OverreachingLoopEditor" />
-      <node id="3911888816474744323" at="47,65,48,61" concept="0" />
+      <node id="3911888816474744323" at="26,0,27,0" concept="6" trace="OverreachingLoopEditor" />
+      <node id="3911888816474744323" at="49,65,50,61" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3911888816474744323" at="29,0,30,0" concept="1" trace="myConceptOverreachingLoopEditor" />
@@ -189,8 +189,8 @@
       <scope id="5098456557379806995" at="163,49,169,37" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5098456557379806995" at="30,0,31,0" concept="6" trace="SubscriptEditor" />
-      <node id="5098456557379806995" at="53,59,54,54" concept="0" />
+      <node id="5098456557379806995" at="32,0,33,0" concept="6" trace="SubscriptEditor" />
+      <node id="5098456557379806995" at="55,59,56,54" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5098456557379806995" at="35,0,36,0" concept="1" trace="myConceptSubscriptEditor" />
@@ -227,8 +227,8 @@
       <scope id="5098456557380306602" at="170,59,176,47" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5098456557380306602" at="31,0,32,0" concept="6" trace="SubscriptedFunctionEditor" />
-      <node id="5098456557380306602" at="54,54,55,64" concept="0" />
+      <node id="5098456557380306602" at="33,0,34,0" concept="6" trace="SubscriptedFunctionEditor" />
+      <node id="5098456557380306602" at="56,54,57,64" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5098456557380306602" at="36,0,37,0" concept="1" trace="myConceptSubscriptedFunctionEditor" />
@@ -266,8 +266,8 @@
       <scope id="5098456557385054779" at="79,60,85,48" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5098456557385054779" at="18,0,19,0" concept="6" trace="CustomSymbolIntegralEditor" />
-      <node id="5098456557385054779" at="41,58,42,65" concept="0" />
+      <node id="5098456557385054779" at="20,0,21,0" concept="6" trace="CustomSymbolIntegralEditor" />
+      <node id="5098456557385054779" at="43,58,44,65" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5098456557385054779" at="23,0,24,0" concept="1" trace="myConceptCustomSymbolIntegralEditor" />
@@ -308,8 +308,8 @@
       <scope id="8658283006837840915" at="46,43,52,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8658283006837840915" at="13,0,14,0" concept="6" trace="AbsEditor" />
-      <node id="8658283006837840915" at="36,50,37,48" concept="0" />
+      <node id="8658283006837840915" at="15,0,16,0" concept="6" trace="AbsEditor" />
+      <node id="8658283006837840915" at="38,50,39,48" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8658283006837840915" at="18,0,19,0" concept="1" trace="myConceptAbsEditor" />
@@ -344,8 +344,8 @@
       <scope id="8658283006837847844" at="72,53,78,41" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8658283006837847844" at="17,0,18,0" concept="6" trace="CurlyBracketsEditor" />
-      <node id="8658283006837847844" at="40,53,41,58" concept="0" />
+      <node id="8658283006837847844" at="19,0,20,0" concept="6" trace="CurlyBracketsEditor" />
+      <node id="8658283006837847844" at="42,53,43,58" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8658283006837847844" at="22,0,23,0" concept="1" trace="myConceptCurlyBracketsEditor" />
@@ -380,8 +380,8 @@
       <scope id="8658283006837848169" at="86,48,92,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8658283006837848169" at="19,0,20,0" concept="6" trace="DivisionEditor" />
-      <node id="8658283006837848169" at="42,65,43,53" concept="0" />
+      <node id="8658283006837848169" at="21,0,22,0" concept="6" trace="DivisionEditor" />
+      <node id="8658283006837848169" at="44,65,45,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8658283006837848169" at="24,0,25,0" concept="1" trace="myConceptDivisionEditor" />
@@ -418,8 +418,8 @@
       <scope id="8658283006837848494" at="93,48,99,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8658283006837848494" at="20,0,21,0" concept="6" trace="IntegralEditor" />
-      <node id="8658283006837848494" at="43,53,44,53" concept="0" />
+      <node id="8658283006837848494" at="22,0,23,0" concept="6" trace="IntegralEditor" />
+      <node id="8658283006837848494" at="45,53,46,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8658283006837848494" at="25,0,26,0" concept="1" trace="myConceptIntegralEditor" />
@@ -459,8 +459,8 @@
       <scope id="8658283006837848819" at="107,45,113,33" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8658283006837848819" at="22,0,23,0" concept="6" trace="NRootEditor" />
-      <node id="8658283006837848819" at="45,49,46,50" concept="0" />
+      <node id="8658283006837848819" at="24,0,25,0" concept="6" trace="NRootEditor" />
+      <node id="8658283006837848819" at="47,49,48,50" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8658283006837848819" at="27,0,28,0" concept="1" trace="myConceptNRootEditor" />
@@ -497,8 +497,8 @@
       <scope id="8658283006837849144" at="128,51,134,39" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8658283006837849144" at="25,0,26,0" concept="6" trace="ParenthesesEditor" />
-      <node id="8658283006837849144" at="48,61,49,56" concept="0" />
+      <node id="8658283006837849144" at="27,0,28,0" concept="6" trace="ParenthesesEditor" />
+      <node id="8658283006837849144" at="50,61,51,56" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8658283006837849144" at="30,0,31,0" concept="1" trace="myConceptParenthesesEditor" />
@@ -533,8 +533,8 @@
       <scope id="8658283006837849469" at="135,45,141,33" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8658283006837849469" at="26,0,27,0" concept="6" trace="PowerEditor" />
-      <node id="8658283006837849469" at="49,56,50,50" concept="0" />
+      <node id="8658283006837849469" at="28,0,29,0" concept="6" trace="PowerEditor" />
+      <node id="8658283006837849469" at="51,56,52,50" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8658283006837849469" at="31,0,32,0" concept="1" trace="myConceptPowerEditor" />
@@ -571,8 +571,8 @@
       <scope id="8658283006837849794" at="149,44,155,32" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8658283006837849794" at="28,0,29,0" concept="6" trace="SqrtEditor" />
-      <node id="8658283006837849794" at="51,52,52,49" concept="0" />
+      <node id="8658283006837849794" at="30,0,31,0" concept="6" trace="SqrtEditor" />
+      <node id="8658283006837849794" at="53,52,54,49" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8658283006837849794" at="33,0,34,0" concept="1" trace="myConceptSqrtEditor" />
@@ -608,8 +608,8 @@
       <scope id="8658283006837850119" at="156,54,162,42" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8658283006837850119" at="29,0,30,0" concept="6" trace="SquareBracketsEditor" />
-      <node id="8658283006837850119" at="52,49,53,59" concept="0" />
+      <node id="8658283006837850119" at="31,0,32,0" concept="6" trace="SquareBracketsEditor" />
+      <node id="8658283006837850119" at="54,49,55,59" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8658283006837850119" at="34,0,35,0" concept="1" trace="myConceptSquareBracketsEditor" />
@@ -644,8 +644,8 @@
       <scope id="9120555111506449355" at="100,44,106,32" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="9120555111506449355" at="21,0,22,0" concept="6" trace="LoopEditor" />
-      <node id="9120555111506449355" at="44,53,45,49" concept="0" />
+      <node id="9120555111506449355" at="23,0,24,0" concept="6" trace="LoopEditor" />
+      <node id="9120555111506449355" at="46,53,47,49" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="9120555111506449355" at="26,0,27,0" concept="1" trace="myConceptLoopEditor" />
@@ -685,8 +685,8 @@
       <scope id="9120555111528365065" at="59,52,64,40" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="9120555111528365065" at="15,0,16,0" concept="6" trace="AbstractLoopEditor" />
-      <node id="9120555111528365065" at="38,61,39,57" concept="0" />
+      <node id="9120555111528365065" at="17,0,18,0" concept="6" trace="AbstractLoopEditor" />
+      <node id="9120555111528365065" at="40,61,41,57" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="9120555111528365065" at="20,0,21,0" concept="1" trace="myConceptAbstractLoopEditor" />
@@ -724,8 +724,8 @@
       <scope id="9120555111532497725" at="142,47,148,35" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="9120555111532497725" at="27,0,28,0" concept="6" trace="ProductEditor" />
-      <node id="9120555111532497725" at="50,50,51,52" concept="0" />
+      <node id="9120555111532497725" at="29,0,30,0" concept="6" trace="ProductEditor" />
+      <node id="9120555111532497725" at="52,50,53,52" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="9120555111532497725" at="32,0,33,0" concept="1" trace="myConceptProductEditor" />
@@ -759,8 +759,8 @@
       <scope id="9120555111532910673" at="53,56,58,44" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="9120555111532910673" at="14,0,15,0" concept="6" trace="AbstractBracketsEditor" />
-      <node id="9120555111532910673" at="37,48,38,61" concept="0" />
+      <node id="9120555111532910673" at="16,0,17,0" concept="6" trace="AbstractBracketsEditor" />
+      <node id="9120555111532910673" at="39,48,40,61" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="9120555111532910673" at="19,0,20,0" concept="1" trace="myConceptAbstractBracketsEditor" />
@@ -795,8 +795,8 @@
       <scope id="9120555111532911681" at="65,48,71,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="9120555111532911681" at="16,0,17,0" concept="6" trace="BracketsEditor" />
-      <node id="9120555111532911681" at="39,57,40,53" concept="0" />
+      <node id="9120555111532911681" at="18,0,19,0" concept="6" trace="BracketsEditor" />
+      <node id="9120555111532911681" at="41,57,42,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="9120555111532911681" at="21,0,22,0" concept="1" trace="myConceptBracketsEditor" />

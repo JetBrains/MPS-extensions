@@ -19,7 +19,7 @@ public class EnumerationDescriptor_ReferenceKind extends EnumerationDescriptorBa
   private final EnumerationDescriptor.MemberDescriptor myMember_composition_0 = new EnumerationDescriptor.MemberDescriptor("composition", "composition", 0x495af083fcc4e326L, "r:43b0e924-5173-4445-8181-a3a123cc36df(de.itemis.mps.editor.diagram.demoentities.structure)/9167550852342474362");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x46b1f1f439554255L, 0xaf947acb92d5711aL, 0x495af083fcc4e324L, 0x495af083fcc4e325L, 0x495af083fcc4e326L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_aggregation_0, myMember_composition_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_aggregation_0, myMember_composition_0);
 
   @Nullable
   @Override

@@ -7,25 +7,21 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class CellModel_Shape__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6f0b61d2a63f3f4L, "de.itemis.mps.editor.diagram.structure.CellModel_Shape");
 
-  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<String> getOpeningText_idhKxU$w9 = new SMethodBuilder<>(String.class).name("getOpeningText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1220339714057L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getOpeningText_idhKxU$w9);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getOpeningText_idhKxU$w9(@NotNull SNode __thisNode__) {
     return "shape[";
@@ -34,10 +30,6 @@ public final class CellModel_Shape__BehaviorDescriptor extends BaseBHDescriptor 
   /*package*/ CellModel_Shape__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

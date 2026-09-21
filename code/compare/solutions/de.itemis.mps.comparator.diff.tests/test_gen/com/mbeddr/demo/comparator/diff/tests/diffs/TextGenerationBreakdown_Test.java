@@ -73,7 +73,7 @@ public class TextGenerationBreakdown_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         TestTextComparison comparison = new TestTextComparison();
         List<TextUnit> units = comparison.breakdownToUnits(TestBody.this.getInputModel(myProject), myProject, null, null);
-        Assert.assertEquals(3, ListSequence.fromList(units).count());
+        Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(ListSequence.fromList(units).count()));
         Assert.assertEquals("AB.java", ListSequence.fromList(units).getElement(0).getFileName());
         Assert.assertEquals("CD.java", ListSequence.fromList(units).getElement(1).getFileName());
         Assert.assertEquals("Z.java", ListSequence.fromList(units).getElement(2).getFileName());
@@ -101,7 +101,7 @@ public class TextGenerationBreakdown_Test extends BaseTransformationTest {
           }
         };
         List<TextUnit> units = comparison.breakdownToUnits(TestBody.this.getInputModel(myProject), myProject, comparator, null);
-        Assert.assertEquals(3, ListSequence.fromList(units).count());
+        Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(ListSequence.fromList(units).count()));
         Assert.assertEquals("Z.java", ListSequence.fromList(units).getElement(0).getFileName());
         Assert.assertEquals("CD.java", ListSequence.fromList(units).getElement(1).getFileName());
         Assert.assertEquals("AB.java", ListSequence.fromList(units).getElement(2).getFileName());
@@ -117,7 +117,7 @@ public class TextGenerationBreakdown_Test extends BaseTransformationTest {
           }
           return false;
         });
-        Assert.assertEquals(1, ListSequence.fromList(units).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(units).count()));
         Assert.assertEquals("AB.java", ListSequence.fromList(units).getElement(0).getFileName());
       });
     }
@@ -126,7 +126,7 @@ public class TextGenerationBreakdown_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         TestTextComparison comparison = new TestTextComparison();
         List<TextUnit> units = comparison.breakdownToUnits(TestBody.this.getInputModel(myProject), myProject, null, (node) -> false);
-        Assert.assertEquals(0, ListSequence.fromList(units).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(ListSequence.fromList(units).count()));
       });
     }
     public void test_breakDownUnitsDefault() throws Exception {
@@ -134,7 +134,7 @@ public class TextGenerationBreakdown_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         TestTextComparison comparison = new TestTextComparison();
         List<TextUnit> units = comparison.breakdownToUnits(TestBody.this.getInputModel(myProject), myProject, null, null);
-        Assert.assertEquals(3, ListSequence.fromList(units).count());
+        Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(ListSequence.fromList(units).count()));
       });
     }
 

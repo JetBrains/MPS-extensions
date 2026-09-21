@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -16,7 +15,6 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -26,12 +24,10 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class CellCreateOperationInlineEditor__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x374167b89ffca3fbL, "de.slisson.mps.tables.structure.CellCreateOperationInlineEditor");
 
-  public static final SMethod<SNode> getConceptDeclaration_id67EYkym$wx3 = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getConceptDeclaration").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7055725856388417603L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<SNode> getConceptDeclaration_id67EYkym$wx3 = new SMethodBuilder<>(SNode.class).name("getConceptDeclaration").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7055725856388417603L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getConceptDeclaration_id67EYkym$wx3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getConceptDeclaration_id67EYkym$wx3);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getConceptDeclaration_id67EYkym$wx3(@NotNull SNode __thisNode__) {
     SNode cellCreateExpression = SNodeOperations.cast(SNodeOperations.getParent(__thisNode__), CONCEPTS.CellCreateOperation$ep);
@@ -42,10 +38,6 @@ public final class CellCreateOperationInlineEditor__BehaviorDescriptor extends B
   /*package*/ CellCreateOperationInlineEditor__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

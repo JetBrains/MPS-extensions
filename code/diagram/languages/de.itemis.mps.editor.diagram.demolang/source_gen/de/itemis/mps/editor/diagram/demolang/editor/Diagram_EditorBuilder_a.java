@@ -445,7 +445,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private Color _StyleParameter_QueryFunction_xrgyfg_a0b0() {
     return new JBColor(new Color(240, 240, 240), JBColor.WHITE);

@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -18,7 +17,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import com.mbeddr.mpsutil.grammarcells.generatorutils.CellModelTraversalUtil;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -27,17 +25,15 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class ICellWrapper__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x3d07fdfa3fc75fbaL, "com.mbeddr.mpsutil.grammarcells.structure.ICellWrapper");
 
-  public static final SMethod<SAbstractConcept> getWrappedConcept_id3O7ZvCZLQaC = new SMethodBuilder<SAbstractConcept>(new SJavaCompoundTypeImpl((Class<SAbstractConcept>) ((Class) Object.class))).name("getWrappedConcept").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404261544L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
-  public static final SMethod<SNode> getWrappedConceptNode_id6B579NGrfdg = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getWrappedConceptNode").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7621529404701471568L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
-  public static final SMethod<SNode> getWrappedLink_id3O7ZvCZLQaM = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getWrappedLink").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404261554L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
-  public static final SMethod<SNode> getWrappedLeaf_id3O7ZvCZLQaV = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getWrappedLeaf").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404261563L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
-  public static final SMethod<SNode> getWrappedCell_id3O7ZvCZLQjf = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getWrappedCell").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404262095L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
-  public static final SMethod<List<SNode>> getChildren_id5OsvY4gZzTI = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getChildren").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6709378149504663150L).languageId(0xabe400ac26956e69L, 0xb4f35ed845af4efaL).build2();
+  public static final SMethod<SAbstractConcept> getWrappedConcept_id3O7ZvCZLQaC = new SMethodBuilder<>(SAbstractConcept.class).name("getWrappedConcept").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404261544L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<SNode> getWrappedConceptNode_id6B579NGrfdg = new SMethodBuilder<>(SNode.class).name("getWrappedConceptNode").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7621529404701471568L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<SNode> getWrappedLink_id3O7ZvCZLQaM = new SMethodBuilder<>(SNode.class).name("getWrappedLink").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404261554L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<SNode> getWrappedLeaf_id3O7ZvCZLQaV = new SMethodBuilder<>(SNode.class).name("getWrappedLeaf").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404261563L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<SNode> getWrappedCell_id3O7ZvCZLQjf = new SMethodBuilder<>(SNode.class).name("getWrappedCell").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4397762812404262095L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<List<SNode>> getChildren_id5OsvY4gZzTI = new SMethodBuilder<>((Class<List<SNode>>) ((Class) Object.class)).name("getChildren").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6709378149504663150L).languageId(0xabe400ac26956e69L, 0xb4f35ed845af4efaL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWrappedConcept_id3O7ZvCZLQaC, getWrappedConceptNode_id6B579NGrfdg, getWrappedLink_id3O7ZvCZLQaM, getWrappedLeaf_id3O7ZvCZLQaV, getWrappedCell_id3O7ZvCZLQjf, getChildren_id5OsvY4gZzTI);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getWrappedConcept_id3O7ZvCZLQaC, getWrappedConceptNode_id6B579NGrfdg, getWrappedLink_id3O7ZvCZLQaM, getWrappedLeaf_id3O7ZvCZLQaV, getWrappedCell_id3O7ZvCZLQjf, getChildren_id5OsvY4gZzTI);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SAbstractConcept getWrappedConcept_id3O7ZvCZLQaC(@NotNull SNode __thisNode__) {
     return SNodeOperations.asSConcept(ICellWrapper__BehaviorDescriptor.getWrappedConceptNode_id6B579NGrfdg.invoke(__thisNode__));
@@ -65,10 +61,6 @@ public final class ICellWrapper__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ ICellWrapper__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

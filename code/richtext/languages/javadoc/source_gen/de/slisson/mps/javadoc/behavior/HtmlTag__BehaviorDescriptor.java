@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -22,9 +21,9 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class HtmlTag__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x4e0df6bde2654d63L, 0x9ca0ca97e44cf841L, 0x4ac464ef5c6fd770L, "de.slisson.mps.javadoc.structure.HtmlTag");
 
-  public static final SMethod<String> getTagname_id2YgkUiABxIb = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTagname").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3427331283064069003L).languageId(0x9ca0ca97e44cf841L, 0x4e0df6bde2654d63L).build2();
+  public static final SMethod<String> getTagname_id2YgkUiABxIb = new SMethodBuilder<>(String.class).name("getTagname").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3427331283064069003L).languageId(0x9ca0ca97e44cf841L, 0x4e0df6bde2654d63L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTagname_id2YgkUiABxIb);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTagname_id2YgkUiABxIb);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.setNewChild(__thisNode__, LINKS.text$9d0D, null);

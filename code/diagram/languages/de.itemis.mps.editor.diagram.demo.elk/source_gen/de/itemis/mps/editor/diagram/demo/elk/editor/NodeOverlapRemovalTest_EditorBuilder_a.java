@@ -324,7 +324,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private double _StyleParameter_QueryFunction_udrn95_a0c0() {
     return Double.valueOf(SPropertyOperations.getString(SLinkOperations.getTarget(getNode(), LINKS.config$G6cD), PROPS.nodeSpacing$zhFj));

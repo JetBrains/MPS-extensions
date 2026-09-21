@@ -21,7 +21,7 @@ public final class ChangeSection__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x638c9345261349dcL, 0xb2ae8ceadef24141L, 0xd5813f14876767fL, "de.itemis.mps.changelog.structure.ChangeSection");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.addNewChild(__thisNode__, LINKS.changes$k0JZ, CONCEPTS.BulletLine$ef);

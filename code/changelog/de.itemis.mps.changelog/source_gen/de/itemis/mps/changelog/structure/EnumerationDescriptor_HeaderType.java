@@ -19,7 +19,7 @@ public class EnumerationDescriptor_HeaderType extends EnumerationDescriptorBase 
   private final EnumerationDescriptor.MemberDescriptor myMember_monthYear_0 = new EnumerationDescriptor.MemberDescriptor("monthYear", "month and year", 0xd5813f148b95de6L, "r:86cc19c0-126f-473b-92c6-29dba75c1e89(de.itemis.mps.changelog.structure)/961540447471754726");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x638c9345261349dcL, 0xb2ae8ceadef24141L, 0xd5813f148b95de4L, 0xd5813f148b95de5L, 0xd5813f148b95de6L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_versionDate_0, myMember_monthYear_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_versionDate_0, myMember_monthYear_0);
 
   @Nullable
   @Override

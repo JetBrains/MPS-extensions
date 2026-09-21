@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-bqj7ji38v2ywm8xf4hz2ujbvvotp2ti">
+<product version="3" modelHash="9b82scgj8tlpg0ipm4ulfzvr5pavxvt">
   <files names="ComputationModePreservingNonTypesystemChecker.java:DefaultQueryListConfig.java:DisableModelcheck_Action.java:EnableModelcheck_Action.java:ExtensionDescriptor.java:ProjectPlugin_ProjectPluginPart.java:QueryListChecker.java:QueryListConfig.java:Runtime_ApplicationPlugin.java:Runtime_ProjectPlugin.java" />
 </product>
 

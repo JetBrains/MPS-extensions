@@ -71,7 +71,7 @@ public class RefMergeExecutionTest_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         SModel result = TestingMergingRunner.mergedModel(getAnnotatedNode("me"));
 
-        Assert.assertEquals(4, ListSequence.fromList(SModelOperations.roots(result, null)).count());
+        Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(ListSequence.fromList(SModelOperations.roots(result, null)).count()));
         {
           final SNode expectedNode_d0a0b0f7 = getAnnotatedNode("data11");
           final SNode actualNode_d0a0b0f7 = ListSequence.fromList(SModelOperations.nodes(result, CONCEPTS.ConceptWithProperty$lL)).findFirst((it) -> SPropertyOperations.getString(it, PROPS.data$hkMD).equals(SPropertyOperations.getString(getAnnotatedNode("data11"), PROPS.data$hkMD)));
@@ -175,7 +175,7 @@ public class RefMergeExecutionTest_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         List<SNode> roots = TestingMergingRunner.rootsOfMergedModel(getAnnotatedNode("me2"));
 
-        Assert.assertEquals(4, ListSequence.fromList(roots).count());
+        Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(ListSequence.fromList(roots).count()));
 
         TestBody.this.assertSequenceContains(SNodeOperations.ofConcept(roots, CONCEPTS.ConceptWithProperty$lL), getAnnotatedNode("mergedDataL-R"), getAnnotatedNode("data500"));
         TestBody.this.assertSequenceContains(SNodeOperations.ofConcept(roots, CONCEPTS.ConceptWithRef$xQ), getAnnotatedNode("mergedRefL-R"), getAnnotatedNode("ref100"));
@@ -184,7 +184,7 @@ public class RefMergeExecutionTest_Test extends BaseTransformationTest {
 
     public void assertSequenceContains(Iterable<SNode> expected, SNode... observed) {
 
-      Assert.assertEquals(2, Sequence.fromIterable(expected).count());
+      Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(Sequence.fromIterable(expected).count()));
 
       for (SNode observedNode : observed) {
         this.assertHasNode(expected, observedNode);

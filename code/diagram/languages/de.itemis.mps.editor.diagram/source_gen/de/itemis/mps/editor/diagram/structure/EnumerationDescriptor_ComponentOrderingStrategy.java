@@ -21,7 +21,7 @@ public class EnumerationDescriptor_ComponentOrderingStrategy extends Enumeration
   private final EnumerationDescriptor.MemberDescriptor myMember_MODEL_ORDER_0 = new EnumerationDescriptor.MemberDescriptor("MODEL_ORDER", "MODEL_ORDER", 0x32d28aa5f4560648L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379149896");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f456063bL, 0x32d28aa5f456063cL, 0x32d28aa5f456063eL, 0x32d28aa5f4560643L, 0x32d28aa5f4560648L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NONE_0, myMember_INSIDE_PORT_SIDE_GROUPS_0, myMember_GROUP_MODEL_ORDER_0, myMember_MODEL_ORDER_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NONE_0, myMember_INSIDE_PORT_SIDE_GROUPS_0, myMember_GROUP_MODEL_ORDER_0, myMember_MODEL_ORDER_0);
 
   @Nullable
   @Override

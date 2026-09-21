@@ -13,20 +13,20 @@ public class PaginationPlugin_AppPluginPart extends ApplicationPluginPart {
   @Override
   public void init() {
     EditorExtension extension = PaginationPlugin_AppPluginPart.this.extension;
-    check_sc6i86_a1a0(getPlatform().findComponent(EditorExtensionRegistry.class), extension);
+    check_c0zg6y_a1a2(getPlatform().findComponent(EditorExtensionRegistry.class), extension, this);
   }
   @Override
   public void dispose() {
     EditorExtension extension = PaginationPlugin_AppPluginPart.this.extension;
-    check_sc6i86_a1a0_0(getPlatform().findComponent(EditorExtensionRegistry.class), extension);
+    check_c0zg6y_a1a3(getPlatform().findComponent(EditorExtensionRegistry.class), extension, this);
   }
-  private static void check_sc6i86_a1a0(EditorExtensionRegistry checkedDotOperand, EditorExtension extension) {
+  private static void check_c0zg6y_a1a2(EditorExtensionRegistry checkedDotOperand, EditorExtension extension, PaginationPlugin_AppPluginPart checkedDotThisExpression) {
     if (null != checkedDotOperand) {
       checkedDotOperand.registerExtension(extension);
     }
 
   }
-  private static void check_sc6i86_a1a0_0(EditorExtensionRegistry checkedDotOperand, EditorExtension extension) {
+  private static void check_c0zg6y_a1a3(EditorExtensionRegistry checkedDotOperand, EditorExtension extension, PaginationPlugin_AppPluginPart checkedDotThisExpression) {
     if (null != checkedDotOperand) {
       checkedDotOperand.unregisterExtension(extension);
     }

@@ -63,7 +63,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createRefNode_0());
     editorCell.addEditorCell(createConstant_2());
-    editorCell.addEditorCell(createMultiline_1());
+    editorCell.addEditorCell(createMultiline_0());
     editorCell.addEditorCell(createConstant_3());
     editorCell.addEditorCell(createProperty_0());
     return editorCell;
@@ -141,16 +141,16 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createMultiline_0(EditorContext editorContext, SNode node) {
+  private EditorCell createMultiline_0() {
     getCellFactory().pushCellContext();
     try {
       SProperty property = PROPS.text1$_tAJ;
-      getCellFactory().setPropertyInfo(new SPropertyInfo(node, property));
-      CellProviderWithRole provider = new MultilineCellProvider(node, property, editorContext);
+      getCellFactory().setPropertyInfo(new SPropertyInfo(getNode(), property));
+      CellProviderWithRole provider = new MultilineCellProvider(getNode(), property, getEditorContext());
       provider.setAllowsEmptyTarget(false);
       provider.setNoTargetText("<no text1>");
       EditorCell editorCell;
-      editorCell = provider.createEditorCell(editorContext);
+      editorCell = provider.createEditorCell(getEditorContext());
       setCellContext(editorCell);
 
       editorCell.setCellId("property_text1");
@@ -163,9 +163,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
     } finally {
       getCellFactory().popCellContext();
     }
-  }
-  private EditorCell createMultiline_1() {
-    return createMultiline_0(getEditorContext(), myNode);
   }
   private EditorCell createConstant_3() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");

@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -16,7 +15,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.module.SModuleReference;
 import jetbrains.mps.lang.modelapi.behavior.ModuleIdentity__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -24,12 +22,10 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class ModuleReference__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x638c9345261349dcL, 0xb2ae8ceadef24141L, 0xd5813f148c17772L, "de.itemis.mps.changelog.structure.ModuleReference");
 
-  public static final SMethod<String> getTextualRepresentation_idfB3l81it7u = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTextualRepresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(281208147594039774L).languageId(0x89b0b5959c3fa8c8L, 0xc7fb639fbe784307L).build2();
+  public static final SMethod<String> getTextualRepresentation_idfB3l81it7u = new SMethodBuilder<>(String.class).name("getTextualRepresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(281208147594039774L).languageId(0x89b0b5959c3fa8c8L, 0xc7fb639fbe784307L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTextualRepresentation_idfB3l81it7u);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTextualRepresentation_idfB3l81it7u);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getTextualRepresentation_idfB3l81it7u(@NotNull SNode __thisNode__) {
     SModuleReference moduleReference = ModuleIdentity__BehaviorDescriptor.toModuleReference_id1Bs_61$mqDd.invoke(SLinkOperations.getTarget(SLinkOperations.getTarget(__thisNode__, LINKS.expression$vGWx), LINKS.moduleId$APaR));
@@ -39,10 +35,6 @@ public final class ModuleReference__BehaviorDescriptor extends BaseBHDescriptor 
   /*package*/ ModuleReference__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -359,7 +359,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   /*package*/ static class Inline_Builder_q22qon_a2c0 extends AbstractEditorBuilder {
     @NotNull

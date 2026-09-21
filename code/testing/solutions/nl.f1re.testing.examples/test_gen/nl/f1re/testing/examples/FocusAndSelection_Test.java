@@ -40,8 +40,8 @@ public class FocusAndSelection_Test extends BaseTransformationTest {
       initEditorComponent("2964412296096142107", "2964412296096207356");
       EditorCellLabelSelection selection = as_vvz4qa_a0a1a3g(getEditorComponent().getSelectionManager().getSelection(), EditorCellLabelSelection.class);
       Assert.assertNotNull(selection);
-      Assert.assertEquals(0, selection.getSelectionStart());
-      Assert.assertEquals(0, selection.getSelectionEnd());
+      Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(selection.getSelectionStart()));
+      Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(selection.getSelectionEnd()));
       EditorCell mainMethodCell = getEditorComponent().findNodeCell(getAnnotatedNode("mainMethod"));
       new EditorCellTestHelper(mainMethodCell).focus();
       EditorCell voidCell = getEditorComponent().findNodeCell(getAnnotatedNode("void"));

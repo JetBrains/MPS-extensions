@@ -34,7 +34,7 @@ public final class ActionSection {
   }
 
   /**
-   * Update {@code presentation} section and text based on {@code originalText}.
+   * Update {@code presentation} section and text based on {@code originalText} .
    * 
    * @return the section parsed from originalText
    */

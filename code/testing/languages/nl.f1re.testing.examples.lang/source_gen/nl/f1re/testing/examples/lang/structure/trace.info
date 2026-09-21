@@ -12,7 +12,7 @@
       <unit at="11,0,94,0" name="nl.f1re.testing.examples.lang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,44,0" name="nl.f1re.testing.examples.lang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,52,0" name="nl.f1re.testing.examples.lang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,145,0" name="nl.f1re.testing.examples.lang.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="2039284509582930128" at="48,51,54,39" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2039284509582930128" at="15,0,16,0" concept="5" trace="ConditionalEditor" />
-      <node id="2039284509582930128" at="26,63,27,56" concept="0" />
+      <node id="2039284509582930128" at="17,0,18,0" concept="5" trace="ConditionalEditor" />
+      <node id="2039284509582930128" at="28,63,29,56" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2039284509582930128" at="19,0,20,0" concept="1" trace="myConceptConditionalEditor" />
@@ -65,8 +65,8 @@
       <scope id="2964412296095260730" at="69,40,75,28" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2964412296095260730" at="18,0,19,0" concept="5" trace="Readme" />
-      <node id="2964412296095260730" at="29,54,30,45" concept="0" />
+      <node id="2964412296095260730" at="20,0,21,0" concept="5" trace="Readme" />
+      <node id="2964412296095260730" at="31,54,32,45" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2964412296095260730" at="22,0,23,0" concept="1" trace="myConceptReadme" />
@@ -99,8 +99,8 @@
       <scope id="2964412296095599239" at="62,49,68,37" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2964412296095599239" at="17,0,18,0" concept="5" trace="NodeWithToolTip" />
-      <node id="2964412296095599239" at="28,55,29,54" concept="0" />
+      <node id="2964412296095599239" at="19,0,20,0" concept="5" trace="NodeWithToolTip" />
+      <node id="2964412296095599239" at="30,55,31,54" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2964412296095599239" at="21,0,22,0" concept="1" trace="myConceptNodeWithToolTip" />
@@ -132,8 +132,8 @@
       <scope id="4940118688294162809" at="55,50,61,38" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="4940118688294162809" at="16,0,17,0" concept="5" trace="LifecycleTesting" />
-      <node id="4940118688294162809" at="27,56,28,55" concept="0" />
+      <node id="4940118688294162809" at="18,0,19,0" concept="5" trace="LifecycleTesting" />
+      <node id="4940118688294162809" at="29,56,30,55" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="4940118688294162809" at="20,0,21,0" concept="1" trace="myConceptLifecycleTesting" />
@@ -165,8 +165,8 @@
       <scope id="5419898927158929859" at="27,46,33,34" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5419898927158929859" at="12,0,13,0" concept="5" trace="BrokenEditor" />
-      <node id="5419898927158929859" at="23,116,24,51" concept="0" />
+      <node id="5419898927158929859" at="14,0,15,0" concept="5" trace="BrokenEditor" />
+      <node id="5419898927158929859" at="25,116,26,51" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5419898927158929859" at="16,0,17,0" concept="1" trace="myConceptBrokenEditor" />
@@ -199,8 +199,8 @@
       <scope id="6382061996743463528" at="41,58,47,46" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6382061996743463528" at="14,0,15,0" concept="5" trace="CompletionStylingExample" />
-      <node id="6382061996743463528" at="25,56,26,63" concept="0" />
+      <node id="6382061996743463528" at="16,0,17,0" concept="5" trace="CompletionStylingExample" />
+      <node id="6382061996743463528" at="27,56,28,63" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6382061996743463528" at="18,0,19,0" concept="1" trace="myConceptCompletionStylingExample" />
@@ -233,8 +233,8 @@
       <scope id="6382061996743463540" at="34,51,40,39" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6382061996743463540" at="13,0,14,0" concept="5" trace="CompletionStyling" />
-      <node id="6382061996743463540" at="24,51,25,56" concept="0" />
+      <node id="6382061996743463540" at="15,0,16,0" concept="5" trace="CompletionStyling" />
+      <node id="6382061996743463540" at="26,51,27,56" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6382061996743463540" at="17,0,18,0" concept="1" trace="myConceptCompletionStyling" />
@@ -268,8 +268,8 @@
       <scope id="6382061996744046236" at="83,50,89,38" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6382061996744046236" at="20,0,21,0" concept="5" trace="VCSCustomization" />
-      <node id="6382061996744046236" at="31,49,32,55" concept="0" />
+      <node id="6382061996744046236" at="22,0,23,0" concept="5" trace="VCSCustomization" />
+      <node id="6382061996744046236" at="33,49,34,55" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6382061996744046236" at="24,0,25,0" concept="1" trace="myConceptVCSCustomization" />
@@ -301,8 +301,8 @@
       <scope id="6801793966041277396" at="76,44,82,32" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6801793966041277396" at="19,0,20,0" concept="5" trace="SlowEditor" />
-      <node id="6801793966041277396" at="30,45,31,49" concept="0" />
+      <node id="6801793966041277396" at="21,0,22,0" concept="5" trace="SlowEditor" />
+      <node id="6801793966041277396" at="32,45,33,49" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6801793966041277396" at="23,0,24,0" concept="1" trace="myConceptSlowEditor" />

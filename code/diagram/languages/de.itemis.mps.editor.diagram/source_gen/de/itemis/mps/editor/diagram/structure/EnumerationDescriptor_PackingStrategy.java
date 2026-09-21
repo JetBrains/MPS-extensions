@@ -20,7 +20,7 @@ public class EnumerationDescriptor_PackingStrategy extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_NONE_0 = new EnumerationDescriptor.MemberDescriptor("NONE", "NONE", 0x6a0cd7629ce06deL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/477607467892475614");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6a0cd7629ce0693L, 0x6a0cd7629ce0694L, 0x6a0cd7629ce06dbL, 0x6a0cd7629ce06deL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_COMPACTION_0, myMember_SIMPLE_0, myMember_NONE_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_COMPACTION_0, myMember_SIMPLE_0, myMember_NONE_0);
 
   @Nullable
   @Override

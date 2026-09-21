@@ -25,6 +25,7 @@
     <import index="6tp1" ref="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)" />
     <import index="wvnl" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.extensions(MPS.Editor/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" implicit="true" />
   </imports>
   <registry>
@@ -459,6 +460,15 @@
             </node>
             <node concept="liA8E" id="630t2b8bDbx" role="2OqNvi">
               <ref role="37wK5l" to="hceu:630t2b8aWl8" resolve="init" />
+              <node concept="2OqwBi" id="3bOfznyyXed" role="37wK5m">
+                <node concept="XUXob" id="4e238oULuBJ" role="2Oq$k0" />
+                <node concept="liA8E" id="3bOfznyyXs0" role="2OqNvi">
+                  <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                  <node concept="3VsKOn" id="3bOfznyzeDM" role="37wK5m">
+                    <ref role="3VsUkX" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

@@ -62,12 +62,12 @@ public class ModelMergerTestLang3_Test extends BaseTransformationTest {
         SModel modelOut = ModelMergingRunner.run(TestUtil.modelMergeFrom(myProject, new SNodePointer("r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)", "5475156782151734126")), ((SModel) modelL), ((SModel) modelR));
         Assert.assertNotNull(modelOut);
 
-        Assert.assertEquals(1, ListSequence.fromList(SModelOperations.roots(modelOut, null)).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(SModelOperations.roots(modelOut, null)).count()));
         SNode sysAfterImport = SNodeOperations.cast(ListSequence.fromList(SModelOperations.roots(modelOut, null)).first(), CONCEPTS.tSystem$ng);
 
         Assert.assertEquals(IdDestination, sysAfterImport.getNodeId());
         List<SNode> inports = SLinkOperations.getChildren(sysAfterImport, LINKS.inports$37Hm);
-        Assert.assertEquals(5, ListSequence.fromList(inports).count());
+        Assert.assertEquals(Integer.valueOf(5), Integer.valueOf(ListSequence.fromList(inports).count()));
         {
           List<SNode> nodesBefore = ListSequence.fromListAndArray(new ArrayList<SNode>(), getAnnotatedNode("merged"));
           List<SNode> nodesAfter = ListSequence.fromListAndArray(new ArrayList<SNode>(), sysAfterImport);

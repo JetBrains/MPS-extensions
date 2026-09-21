@@ -229,7 +229,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     return editorCell;
   }
   private EditorCell createCustomFactory_1() {
-    return createCustomFactory_0(getEditorContext(), myNode);
+    return createCustomFactory_0(getEditorContext(), getNode());
   }
   private EditorCell createRefNodeList_0() {
     AbstractCellListHandler handler = new optionalChildrenListHandler_4nc7xw_a1a0(myNode, getEditorContext());

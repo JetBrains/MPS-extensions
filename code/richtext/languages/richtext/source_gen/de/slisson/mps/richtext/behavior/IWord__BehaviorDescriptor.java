@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -15,20 +14,17 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.util.Collections;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class IWord__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e7aecL, "de.slisson.mps.richtext.structure.IWord");
 
-  public static final SMethod<String> toTextString_id3Q5enzfMT4t = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("toTextString").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4433012599261204765L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
-  public static final SMethod<Iterable<String>> getTransformKeys_id7NYWYqYGfSm = new SMethodBuilder<Iterable<String>>(new SJavaCompoundTypeImpl((Class<Iterable<String>>) ((Class) Object.class))).name("getTransformKeys").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9006904477154868758L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<String> toTextString_id3Q5enzfMT4t = new SMethodBuilder<>(String.class).name("toTextString").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4433012599261204765L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<Iterable<String>> getTransformKeys_id7NYWYqYGfSm = new SMethodBuilder<>((Class<Iterable<String>>) ((Class) Object.class)).name("getTransformKeys").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9006904477154868758L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toTextString_id3Q5enzfMT4t, getTransformKeys_id7NYWYqYGfSm);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toTextString_id3Q5enzfMT4t, getTransformKeys_id7NYWYqYGfSm);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String toTextString_id3Q5enzfMT4t(@NotNull SNode __thisNode__) {
     return null;
@@ -41,10 +37,6 @@ public final class IWord__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IWord__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

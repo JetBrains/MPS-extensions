@@ -53,10 +53,10 @@ public class ClearStoreLayoutInformation_Test extends BaseTransformationTest {
       repository.getModelAccess().executeCommandInEDT(() -> {
         diagramECell.setSNode(SLinkOperations.getTarget(SNodeOperations.as(diagramECell.getSNode(), CONCEPTS.DiagramReference$nl), LINKS.diagram$Vtl9));
         SNode node = diagramECell.getSNode();
-        Assert.assertEquals(6, ListSequence.fromList(SLinkOperations.getChildren(new IAttributeDescriptor.NodeAttribute(CONCEPTS.LayoutMap$4m).get(node), LINKS.entries$808Q)).count());
+        Assert.assertEquals(Integer.valueOf(6), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(new IAttributeDescriptor.NodeAttribute(CONCEPTS.LayoutMap$4m).get(node), LINKS.entries$808Q)).count()));
         DiagramActionsUtil.clearLayoutData(diagramECell.getGraph().getRootDCell());
 
-        Assert.assertEquals(0, ListSequence.fromList(SLinkOperations.getChildren(new IAttributeDescriptor.NodeAttribute(CONCEPTS.LayoutMap$4m).get(node), LINKS.entries$808Q)).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(new IAttributeDescriptor.NodeAttribute(CONCEPTS.LayoutMap$4m).get(node), LINKS.entries$808Q)).count()));
       });
     }
   }

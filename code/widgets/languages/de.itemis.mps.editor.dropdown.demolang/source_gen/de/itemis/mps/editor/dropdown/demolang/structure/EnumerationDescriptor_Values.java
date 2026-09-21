@@ -20,7 +20,7 @@ public class EnumerationDescriptor_Values extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_Value3_0 = new EnumerationDescriptor.MemberDescriptor("Value3", "Value3", 0x3979b034c918f718L, "r:6c9e1aa1-351b-46c1-a2fe-f9fea225bfe6(de.itemis.mps.editor.dropdown.demolang.structure)/9167550852342474673");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x6b5dd1913c2147c5L, 0xa7d3c6e1f7c7cbd0L, 0x3979b034c918f70fL, 0x3979b034c918f710L, 0x3979b034c918f711L, 0x3979b034c918f718L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_Value1_0, myMember_Value2_0, myMember_Value3_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_Value1_0, myMember_Value2_0, myMember_Value3_0);
 
   @Nullable
   @Override

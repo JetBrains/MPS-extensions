@@ -10,17 +10,23 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int NonTableAwareAnnotation = 0;
-  public static final int SimpleTableWithHeadersDefinedByRow_Row = 1;
-  public static final int SimpleTableWithHeadersDefinedByRow_Table = 2;
-  public static final int SimpleTableWithHeadersDefinedByTable_Row = 3;
-  public static final int SimpleTableWithHeadersDefinedByTable_Table = 4;
-  public static final int SimpleTableWithoutHeaders_Row = 5;
-  public static final int SimpleTableWithoutHeaders_Table = 6;
-  public static final int TableAwareAnnotation = 7;
+  public static final int PartialTableWithRowHeaderQuery_Cell = 1;
+  public static final int PartialTableWithRowHeaderQuery_Row = 2;
+  public static final int PartialTableWithRowHeaderQuery_Table = 3;
+  public static final int SimpleTableWithHeadersDefinedByRow_Row = 4;
+  public static final int SimpleTableWithHeadersDefinedByRow_Table = 5;
+  public static final int SimpleTableWithHeadersDefinedByTable_Row = 6;
+  public static final int SimpleTableWithHeadersDefinedByTable_Table = 7;
+  public static final int SimpleTableWithoutHeaders_Row = 8;
+  public static final int SimpleTableWithoutHeaders_Table = 9;
+  public static final int TableAwareAnnotation = 10;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L);
     builder.put(0x767d97235c2d424aL, NonTableAwareAnnotation);
+    builder.put(0xf9299ff655f4cd7L, PartialTableWithRowHeaderQuery_Cell);
+    builder.put(0x349e623fbbc26b7fL, PartialTableWithRowHeaderQuery_Row);
+    builder.put(0x526b2f86ff31c133L, PartialTableWithRowHeaderQuery_Table);
     builder.put(0x767d97235c2172d5L, SimpleTableWithHeadersDefinedByRow_Row);
     builder.put(0x767d97235c2172d4L, SimpleTableWithHeadersDefinedByRow_Table);
     builder.put(0x767d97235bf53fc2L, SimpleTableWithHeadersDefinedByTable_Row);

@@ -249,6 +249,85 @@
       <unit id="3263015289314261960" at="47,0,228,0" name="test.de.slisson.mps.tables.StateMachineCopyPaste_Test" />
     </file>
   </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/4098331544878542503">
+    <file name="PartialTable_RowHeaderQuery_Test.java">
+      <node id="4098331544878542503" at="33,45,34,60" concept="11" />
+      <node id="4098331544878542609" at="38,64,39,55" concept="2" />
+      <node id="4098331544878542720" at="42,79,43,70" concept="2" />
+      <node id="4098331544878542503" at="48,52,49,19" concept="11" />
+      <node id="4098331544878542503" at="53,36,54,46" concept="2" />
+      <node id="4098331544878542609" at="57,66,58,22" concept="2" />
+      <node id="4098331544878542614" at="59,30,60,105" concept="5" />
+      <node id="4098331544878542628" at="60,105,61,60" concept="2" />
+      <node id="4098331544878542636" at="61,60,62,116" concept="7" />
+      <node id="4098331544878542660" at="62,116,63,90" concept="7" />
+      <node id="4098331544878542678" at="63,90,64,149" concept="5" />
+      <node id="4098331544878542715" at="64,149,65,48" concept="2" />
+      <node id="4098331544878542720" at="68,81,69,22" concept="2" />
+      <node id="4098331544878542725" at="70,30,71,105" concept="5" />
+      <node id="4098331544878542739" at="71,105,72,60" concept="2" />
+      <node id="4098331544878542747" at="72,60,73,159" concept="5" />
+      <node id="4098331544878542784" at="73,159,74,46" concept="2" />
+      <node id="4098331544878542787" at="74,46,75,83" concept="5" />
+      <node id="4098331544878542799" at="75,83,76,43" concept="2" />
+      <node id="4098331544878542802" at="76,43,77,65" concept="2" />
+      <node id="4098331544878542814" at="77,65,78,298" concept="5" />
+      <node id="4098331544878542858" at="78,298,79,53" concept="2" />
+      <node id="4098331544878542511" at="83,94,84,117" concept="7" />
+      <node id="4098331544878542538" at="84,117,85,125" concept="5" />
+      <node id="4098331544878542553" at="85,125,86,134" concept="6" />
+      <node id="4098331544878542503" at="91,0,92,0" concept="9" trace="rows$O1FF" />
+      <node id="4098331544878542503" at="92,0,93,0" concept="9" trace="cells$ncIj" />
+      <node id="4098331544878542503" at="96,0,97,0" concept="9" trace="value$GgFc" />
+      <node id="4098331544878542503" at="30,0,32,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="4098331544878542503" at="33,0,36,0" concept="1" trace="PartialTable_RowHeaderQuery_Test#()V" />
+      <node id="4098331544878542503" at="48,0,51,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4098331544878542609" at="37,0,41,0" concept="4" trace="test_everyRowGetsItsOwnHeader#()V" />
+      <node id="4098331544878542720" at="41,0,45,0" concept="4" trace="test_deleteActionOfRowHeaderDeletesItsOwnRow#()V" />
+      <node id="4098331544878542503" at="52,0,56,0" concept="4" trace="initTestNodes#()V" />
+      <node id="4098331544878542504" at="83,0,88,0" concept="4" trace="rowHeaderCells#(Ljetbrains/mps/editor/runtime/HeadlessEditorComponent;)Ljava/util/List;" />
+      <node id="4098331544878542609" at="58,22,66,9" concept="2" />
+      <node id="4098331544878542609" at="57,0,68,0" concept="4" trace="test_everyRowGetsItsOwnHeader#()V" />
+      <node id="4098331544878542720" at="69,22,80,9" concept="2" />
+      <node id="4098331544878542720" at="68,0,82,0" concept="4" trace="test_deleteActionOfRowHeaderDeletesItsOwnRow#()V" />
+      <scope id="4098331544878542503" at="33,45,34,60" />
+      <scope id="4098331544878542609" at="38,64,39,55" />
+      <scope id="4098331544878542720" at="42,79,43,70" />
+      <scope id="4098331544878542503" at="48,52,49,19" />
+      <scope id="4098331544878542503" at="53,36,54,46" />
+      <scope id="4098331544878542503" at="33,0,36,0" />
+      <scope id="4098331544878542503" at="48,0,51,0">
+        <var name="owner" id="4098331544878542503" />
+      </scope>
+      <scope id="4098331544878542504" at="83,94,86,134">
+        <var name="constants" id="4098331544878542541" />
+      </scope>
+      <scope id="4098331544878542609" at="37,0,41,0" />
+      <scope id="4098331544878542720" at="41,0,45,0" />
+      <scope id="4098331544878542503" at="52,0,56,0" />
+      <scope id="4098331544878542504" at="83,0,88,0">
+        <var name="editorComponent" id="4098331544878542606" />
+      </scope>
+      <scope id="4098331544878542609" at="59,30,65,48">
+        <var name="editorComponent" id="4098331544878542617" />
+        <var name="headers" id="4098331544878542681" />
+      </scope>
+      <scope id="4098331544878542609" at="57,66,66,9" />
+      <scope id="4098331544878542720" at="70,30,79,53">
+        <var name="deleteAction" id="4098331544878542790" />
+        <var name="editorComponent" id="4098331544878542728" />
+        <var name="remainingRows" id="4098331544878542817" />
+        <var name="secondRowHeader" id="4098331544878542750" />
+      </scope>
+      <scope id="4098331544878542609" at="57,0,68,0" />
+      <scope id="4098331544878542720" at="68,81,80,9" />
+      <scope id="4098331544878542720" at="68,0,82,0" />
+      <unit id="4098331544878542503" at="95,0,98,0" name="test.de.slisson.mps.tables.PartialTable_RowHeaderQuery_Test$PROPS" />
+      <unit id="4098331544878542503" at="90,0,94,0" name="test.de.slisson.mps.tables.PartialTable_RowHeaderQuery_Test$LINKS" />
+      <unit id="4098331544878542503" at="46,0,89,0" name="test.de.slisson.mps.tables.PartialTable_RowHeaderQuery_Test$TestBody" />
+      <unit id="4098331544878542503" at="28,0,99,0" name="test.de.slisson.mps.tables.PartialTable_RowHeaderQuery_Test" />
+    </file>
+  </root>
   <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/4862272818337891093">
     <file name="Statemachine_InsertEvent_Test.java">
       <node id="4862272818337891093" at="25,42,26,60" concept="11" />

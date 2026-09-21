@@ -10,6 +10,9 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_NonTableAwareAnnotation;
+  private ConceptPresentation props_PartialTableWithRowHeaderQuery_Cell;
+  private ConceptPresentation props_PartialTableWithRowHeaderQuery_Row;
+  private ConceptPresentation props_PartialTableWithRowHeaderQuery_Table;
   private ConceptPresentation props_SimpleTableWithHeadersDefinedByRow_Row;
   private ConceptPresentation props_SimpleTableWithHeadersDefinedByRow_Table;
   private ConceptPresentation props_SimpleTableWithHeadersDefinedByTable_Row;
@@ -30,6 +33,27 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_NonTableAwareAnnotation = cpb.create();
         }
         return props_NonTableAwareAnnotation;
+      case LanguageConceptSwitch.PartialTableWithRowHeaderQuery_Cell:
+        if (props_PartialTableWithRowHeaderQuery_Cell == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PartialTableWithRowHeaderQuery_Cell");
+          props_PartialTableWithRowHeaderQuery_Cell = cpb.create();
+        }
+        return props_PartialTableWithRowHeaderQuery_Cell;
+      case LanguageConceptSwitch.PartialTableWithRowHeaderQuery_Row:
+        if (props_PartialTableWithRowHeaderQuery_Row == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PartialTableWithRowHeaderQuery_Row");
+          props_PartialTableWithRowHeaderQuery_Row = cpb.create();
+        }
+        return props_PartialTableWithRowHeaderQuery_Row;
+      case LanguageConceptSwitch.PartialTableWithRowHeaderQuery_Table:
+        if (props_PartialTableWithRowHeaderQuery_Table == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PartialTableWithRowHeaderQuery_Table");
+          props_PartialTableWithRowHeaderQuery_Table = cpb.create();
+        }
+        return props_PartialTableWithRowHeaderQuery_Table;
       case LanguageConceptSwitch.SimpleTableWithHeadersDefinedByRow_Row:
         if (props_SimpleTableWithHeadersDefinedByRow_Row == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

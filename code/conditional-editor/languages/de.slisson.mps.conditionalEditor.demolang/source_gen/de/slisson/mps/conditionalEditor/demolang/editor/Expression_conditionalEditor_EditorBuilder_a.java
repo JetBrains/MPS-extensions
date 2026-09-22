@@ -52,7 +52,7 @@ import jetbrains.mps.nodeEditor.MPSColors;
   }
   private EditorCell createAlternation_0() {
     boolean alternationCondition = true;
-    alternationCondition = nodeCondition_rm5034_a0a_0();
+    alternationCondition = nodeCondition_rm5034_a0a();
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = createCollection_0();
@@ -61,7 +61,7 @@ import jetbrains.mps.nodeEditor.MPSColors;
     }
     return editorCell;
   }
-  private boolean nodeCondition_rm5034_a0a_0() {
+  private boolean nodeCondition_rm5034_a0a() {
     return ExpressionTypeInfo.showTypeInfo;
   }
   private EditorCell createCollection_0() {

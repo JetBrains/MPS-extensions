@@ -110,7 +110,8 @@ public class LineNumberComponent extends AbstractLeftColumn {
     updater.dispose();
   }
 
-  public void updateWidth(String longestText) {
+  public boolean updateWidth(String longestText) {
+    int widthBefore = textWidth;
     if ((longestText == null || longestText.length() == 0)) {
       textWidth = 10;
     } else {
@@ -118,6 +119,7 @@ public class LineNumberComponent extends AbstractLeftColumn {
       FontMetrics fontMetrics = getEditorComponent().getFontMetrics(font);
       textWidth = textPaddingLeft + fontMetrics.stringWidth(longestText) + textPaddingRight;
     }
+    return textWidth != widthBefore;
   }
 
   @Override
@@ -128,7 +130,7 @@ public class LineNumberComponent extends AbstractLeftColumn {
     graphics.setFont(font);
     graphics.setColor(JBColor.LIGHT_GRAY);
     for (LayoutedLineNumber lineNumber : ListSequence.fromList(updater.getLayoutedLineNumbers())) {
-      lineNumber.draw(graphics);
+      lineNumber.draw(graphics, getX());
     }
   }
 

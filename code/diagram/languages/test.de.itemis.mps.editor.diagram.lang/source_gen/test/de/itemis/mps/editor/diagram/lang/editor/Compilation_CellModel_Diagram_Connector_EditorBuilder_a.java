@@ -344,7 +344,7 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
               public void run() {
                 final ContextVariables _variablesContext = ContextVariables.getCurrent();
                 final EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, parameterObject);
-                editorCell.setCellId("transformedGraphElement_c0_1" + "." + ((SNode) _variablesContext.getValue("parameterObject")));
+                editorCell.setCellId("transformedGraphElement_c0_0" + "." + ((SNode) _variablesContext.getValue("parameterObject")));
 
                 final EditorCell labelCell = DiagramUtil.getCellIfNotEmpty(new Inline_Builder_20e91b_a2a(editorContext, parameterObject).createCell());
                 final EditorCell startRoleCell = DiagramUtil.getCellIfNotEmpty(new Inline_Builder_20e91b_a0c0(editorContext, parameterObject).createCell());

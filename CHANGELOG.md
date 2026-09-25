@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## September 2026
+
+### Fixed
+
+- *de.itemis.mps.linenumbers* The line numbers were painted outside their own column when another gutter component was placed left of them. They are now drawn relative to the position of their column, and a change of the column width triggers a relayout of the other columns.
+
 ## August 2026
 
 ### Fixed

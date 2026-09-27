@@ -14,7 +14,7 @@ import java.util.*
 plugins {
     id("de.itemis.mps.gradle.common") version "1.30.0.+"
     id("com.github.breadmoirai.github-release") version "2.5.2"
-    id("maven-publish")
+    id("buildlogic.maven-publishing")
     id("base")
     id("de.itemis.mps.gradle.launcher") version "2.8.0.+"
     id("org.cyclonedx.bom") version "3.4.1"
@@ -316,12 +316,6 @@ publishing {
             artifactId = "extensions"
 
             pom {
-                scm {
-                    url = "https://github.com/JetBrains/MPS-extensions"
-                    connection = "scm:git:git://github.com/JetBrains/MPS-extensions.git"
-                    developerConnection = "scm:git:ssh://git@github.com/JetBrains/MPS-extensions.git"
-                    tag = "HEAD"
-                }
                 licenses {
                     // official SPDX identifier
                     // see https://spdx.org/licenses/ for list
@@ -331,10 +325,6 @@ publishing {
                         comments = "A business-friendly OSS license"
                         distribution = "repo"
                     }
-                }
-                organization {
-                    name = "JetBrains s.r.o"
-                    url = "https://www.jetbrains.com"
                 }
                 withXml {
                     val dependenciesNode = asNode().appendNode("dependencies")

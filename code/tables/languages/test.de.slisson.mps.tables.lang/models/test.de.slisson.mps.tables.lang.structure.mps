@@ -162,5 +162,97 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="3zwcHe0d_sQ">
+    <property role="EcuMT" value="1122128579365129431" />
+    <property role="TrG5h" value="PartialTableWithRowHeaderQuery_Cell" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3zwcHe0d_sR" role="1TKVEl">
+      <property role="IQ2nx" value="816464467460419675" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3zwcHe0d_tw">
+    <property role="EcuMT" value="3791575962165078911" />
+    <property role="TrG5h" value="PartialTableWithRowHeaderQuery_Row" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3zwcHe0d_tx" role="1TKVEi">
+      <property role="IQ2ns" value="6730153060135134289" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cells" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3zwcHe0d_sQ" resolve="PartialTableWithRowHeaderQuery_Cell" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3zwcHe0d_uc">
+    <property role="EcuMT" value="5938892790471704883" />
+    <property role="TrG5h" value="PartialTableWithRowHeaderQuery_Table" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3zwcHe0d_ud" role="1TKVEi">
+      <property role="IQ2ns" value="7567745091195577583" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rows" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3zwcHe0d_tw" resolve="PartialTableWithRowHeaderQuery_Row" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5EfXx8863ye">
+    <property role="EcuMT" value="8286769297015701157" />
+    <property role="TrG5h" value="TableWithColumnHeaderQuery_Column" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5EfXx8863yf" role="1TKVEl">
+      <property role="IQ2nx" value="158622845552541934" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5EfXx8863yg" role="1TKVEl">
+      <property role="IQ2nx" value="4199267967251542265" />
+      <property role="TrG5h" value="id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5EfXx8863yQ">
+    <property role="EcuMT" value="2945409542542825247" />
+    <property role="TrG5h" value="TableWithColumnHeaderQuery_Cell" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5EfXx8863yR" role="1TKVEl">
+      <property role="IQ2nx" value="6785575494867573158" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5EfXx886lG0">
+    <property role="EcuMT" value="7012592999008099316" />
+    <property role="TrG5h" value="TableWithColumnHeaderQuery_Row" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5EfXx886lG1" role="1TKVEi">
+      <property role="IQ2ns" value="1631206004356189053" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cells" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5EfXx8863yQ" resolve="TableWithColumnHeaderQuery_Cell" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5EfXx886TEp">
+    <property role="EcuMT" value="5866508648381780134" />
+    <property role="TrG5h" value="TableWithColumnHeaderQuery_Table" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5EfXx886TEq" role="1TKVEi">
+      <property role="IQ2ns" value="7407083206344416370" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="columns" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5EfXx8863ye" resolve="TableWithColumnHeaderQuery_Column" />
+    </node>
+    <node concept="1TJgyj" id="5EfXx886TEr" role="1TKVEi">
+      <property role="IQ2ns" value="8098874138708452959" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rows" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5EfXx886lG0" resolve="TableWithColumnHeaderQuery_Row" />
+    </node>
+  </node>
 </model>
 

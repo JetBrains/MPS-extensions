@@ -10,6 +10,9 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_NonTableAwareAnnotation;
+  private ConceptPresentation props_PartialTableWithRowHeaderQuery_Cell;
+  private ConceptPresentation props_PartialTableWithRowHeaderQuery_Row;
+  private ConceptPresentation props_PartialTableWithRowHeaderQuery_Table;
   private ConceptPresentation props_SimpleTableWithHeadersDefinedByRow_Row;
   private ConceptPresentation props_SimpleTableWithHeadersDefinedByRow_Table;
   private ConceptPresentation props_SimpleTableWithHeadersDefinedByTable_Row;
@@ -17,6 +20,10 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_SimpleTableWithoutHeaders_Row;
   private ConceptPresentation props_SimpleTableWithoutHeaders_Table;
   private ConceptPresentation props_TableAwareAnnotation;
+  private ConceptPresentation props_TableWithColumnHeaderQuery_Cell;
+  private ConceptPresentation props_TableWithColumnHeaderQuery_Column;
+  private ConceptPresentation props_TableWithColumnHeaderQuery_Row;
+  private ConceptPresentation props_TableWithColumnHeaderQuery_Table;
 
   @Override
   @Nullable
@@ -30,6 +37,27 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_NonTableAwareAnnotation = cpb.create();
         }
         return props_NonTableAwareAnnotation;
+      case LanguageConceptSwitch.PartialTableWithRowHeaderQuery_Cell:
+        if (props_PartialTableWithRowHeaderQuery_Cell == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PartialTableWithRowHeaderQuery_Cell");
+          props_PartialTableWithRowHeaderQuery_Cell = cpb.create();
+        }
+        return props_PartialTableWithRowHeaderQuery_Cell;
+      case LanguageConceptSwitch.PartialTableWithRowHeaderQuery_Row:
+        if (props_PartialTableWithRowHeaderQuery_Row == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PartialTableWithRowHeaderQuery_Row");
+          props_PartialTableWithRowHeaderQuery_Row = cpb.create();
+        }
+        return props_PartialTableWithRowHeaderQuery_Row;
+      case LanguageConceptSwitch.PartialTableWithRowHeaderQuery_Table:
+        if (props_PartialTableWithRowHeaderQuery_Table == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PartialTableWithRowHeaderQuery_Table");
+          props_PartialTableWithRowHeaderQuery_Table = cpb.create();
+        }
+        return props_PartialTableWithRowHeaderQuery_Table;
       case LanguageConceptSwitch.SimpleTableWithHeadersDefinedByRow_Row:
         if (props_SimpleTableWithHeadersDefinedByRow_Row == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -79,6 +107,34 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_TableAwareAnnotation = cpb.create();
         }
         return props_TableAwareAnnotation;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Cell:
+        if (props_TableWithColumnHeaderQuery_Cell == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TableWithColumnHeaderQuery_Cell");
+          props_TableWithColumnHeaderQuery_Cell = cpb.create();
+        }
+        return props_TableWithColumnHeaderQuery_Cell;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Column:
+        if (props_TableWithColumnHeaderQuery_Column == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TableWithColumnHeaderQuery_Column");
+          props_TableWithColumnHeaderQuery_Column = cpb.create();
+        }
+        return props_TableWithColumnHeaderQuery_Column;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Row:
+        if (props_TableWithColumnHeaderQuery_Row == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TableWithColumnHeaderQuery_Row");
+          props_TableWithColumnHeaderQuery_Row = cpb.create();
+        }
+        return props_TableWithColumnHeaderQuery_Row;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Table:
+        if (props_TableWithColumnHeaderQuery_Table == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TableWithColumnHeaderQuery_Table");
+          props_TableWithColumnHeaderQuery_Table = cpb.create();
+        }
+        return props_TableWithColumnHeaderQuery_Table;
     }
     return null;
   }

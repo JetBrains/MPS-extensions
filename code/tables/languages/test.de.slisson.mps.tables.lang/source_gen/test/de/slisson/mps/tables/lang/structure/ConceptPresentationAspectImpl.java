@@ -20,6 +20,10 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_SimpleTableWithoutHeaders_Row;
   private ConceptPresentation props_SimpleTableWithoutHeaders_Table;
   private ConceptPresentation props_TableAwareAnnotation;
+  private ConceptPresentation props_TableWithColumnHeaderQuery_Cell;
+  private ConceptPresentation props_TableWithColumnHeaderQuery_Column;
+  private ConceptPresentation props_TableWithColumnHeaderQuery_Row;
+  private ConceptPresentation props_TableWithColumnHeaderQuery_Table;
 
   @Override
   @Nullable
@@ -103,6 +107,34 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_TableAwareAnnotation = cpb.create();
         }
         return props_TableAwareAnnotation;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Cell:
+        if (props_TableWithColumnHeaderQuery_Cell == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TableWithColumnHeaderQuery_Cell");
+          props_TableWithColumnHeaderQuery_Cell = cpb.create();
+        }
+        return props_TableWithColumnHeaderQuery_Cell;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Column:
+        if (props_TableWithColumnHeaderQuery_Column == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TableWithColumnHeaderQuery_Column");
+          props_TableWithColumnHeaderQuery_Column = cpb.create();
+        }
+        return props_TableWithColumnHeaderQuery_Column;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Row:
+        if (props_TableWithColumnHeaderQuery_Row == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TableWithColumnHeaderQuery_Row");
+          props_TableWithColumnHeaderQuery_Row = cpb.create();
+        }
+        return props_TableWithColumnHeaderQuery_Row;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Table:
+        if (props_TableWithColumnHeaderQuery_Table == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TableWithColumnHeaderQuery_Table");
+          props_TableWithColumnHeaderQuery_Table = cpb.create();
+        }
+        return props_TableWithColumnHeaderQuery_Table;
     }
     return null;
   }

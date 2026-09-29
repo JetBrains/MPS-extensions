@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:b39b8de8-66fc-4e10-8421-55c092bbbed4(com.mbeddr.mpsutil.grammarcells.runtime@tests)/7617962380312652754">
+    <file name="Iterator_Test.java">
+      <node id="7617962380312652813" at="18,0,19,0" concept="3" trace="input" />
+      <node id="7617962380312695622" at="19,0,20,0" concept="3" trace="counter" />
+      <node id="7617962380312679953" at="21,45,22,181" concept="5" />
+      <node id="7617962380312680268" at="22,181,23,0" concept="7" />
+      <node id="7617962380313871563" at="23,0,24,42" concept="2" />
+      <node id="7617962380312689285" at="24,42,25,91" concept="2" />
+      <node id="7617962380313874644" at="25,91,26,42" concept="2" />
+      <node id="7617962380312698661" at="26,42,27,91" concept="2" />
+      <node id="7617962380313873581" at="27,91,28,42" concept="2" />
+      <node id="7617962380312819720" at="28,42,29,93" concept="2" />
+      <node id="7617962380312710280" at="29,93,30,43" concept="2" />
+      <node id="7617962380312705497" at="33,45,34,180" concept="5" />
+      <node id="7617962380312705516" at="34,180,35,0" concept="7" />
+      <node id="7617962380313867180" at="35,0,36,42" concept="2" />
+      <node id="7617962380312705535" at="36,42,37,91" concept="2" />
+      <node id="7617962380313858119" at="37,91,38,42" concept="2" />
+      <node id="7617962380313360017" at="38,42,39,91" concept="2" />
+      <node id="7617962380313864982" at="39,91,40,42" concept="2" />
+      <node id="7617962380313645285" at="40,42,41,93" concept="2" />
+      <node id="7617962380312708367" at="41,93,42,43" concept="2" />
+      <node id="7617962380312972413" at="45,44,46,160" concept="5" />
+      <node id="7617962380312972432" at="46,160,47,0" concept="7" />
+      <node id="7617962380313876649" at="47,0,48,42" concept="2" />
+      <node id="7617962380312972433" at="48,42,49,77" concept="2" />
+      <node id="7617962380313875759" at="49,77,50,42" concept="2" />
+      <node id="7617962380312979075" at="50,42,51,77" concept="2" />
+      <node id="7617962380313878526" at="51,77,52,42" concept="2" />
+      <node id="7617962380312979915" at="52,42,53,77" concept="2" />
+      <node id="7617962380312972469" at="53,77,54,43" concept="2" />
+      <node id="7617962380312721916" at="57,45,58,180" concept="5" />
+      <node id="7617962380312721935" at="58,180,59,0" concept="7" />
+      <node id="7617962380313888375" at="59,0,60,42" concept="2" />
+      <node id="7617962380312721936" at="60,42,61,91" concept="2" />
+      <node id="7617962380313879525" at="61,91,62,42" concept="2" />
+      <node id="7617962380312721954" at="62,42,63,91" concept="2" />
+      <node id="7617962380313881191" at="63,91,64,42" concept="2" />
+      <node id="7617962380312740109" at="64,42,65,93" concept="2" />
+      <node id="7617962380313882909" at="65,93,66,42" concept="2" />
+      <node id="7617962380313167533" at="66,42,67,91" concept="2" />
+      <node id="7617962380313884679" at="67,91,68,42" concept="2" />
+      <node id="7617962380313169084" at="68,42,69,93" concept="2" />
+      <node id="7617962380313886501" at="69,93,70,42" concept="2" />
+      <node id="7617962380313170684" at="70,42,71,93" concept="2" />
+      <node id="7617962380312721972" at="71,93,72,43" concept="2" />
+      <node id="7617962380312741268" at="75,45,76,179" concept="5" />
+      <node id="7617962380312741287" at="76,179,77,0" concept="7" />
+      <node id="7617962380313894114" at="77,0,78,42" concept="2" />
+      <node id="7617962380312741288" at="78,42,79,91" concept="2" />
+      <node id="7617962380313896116" at="79,91,80,42" concept="2" />
+      <node id="7617962380312741306" at="80,42,81,91" concept="2" />
+      <node id="7617962380313897171" at="81,91,82,42" concept="2" />
+      <node id="7617962380313284342" at="82,42,83,91" concept="2" />
+      <node id="7617962380312741342" at="83,91,84,43" concept="2" />
+      <node id="7617962380312652842" at="87,23,88,180" concept="2" />
+      <node id="7617962380312697839" at="88,180,89,16" concept="2" />
+      <node id="7617962380312787324" at="92,79,93,44" concept="2" />
+      <node id="7617962380312695035" at="93,44,94,160" concept="2" />
+      <node id="7617962380312932607" at="97,41,98,35" concept="6" />
+      <node id="7617962380312696955" at="101,16,102,14" concept="2" />
+      <node id="7617962380312693608" at="102,14,103,68" concept="2" />
+      <node id="7617962380312729907" at="104,5,105,89" concept="5" />
+      <node id="7617962380312730299" at="105,89,106,90" concept="5" />
+      <node id="7617962380312729907" at="106,90,107,34" concept="5" />
+      <node id="7617962380312730299" at="107,34,108,33" concept="5" />
+      <node id="7617962380312729907" at="109,70,110,48" concept="2" />
+      <node id="7617962380312730299" at="110,48,111,52" concept="2" />
+      <node id="7617962380312733695" at="111,52,112,61" concept="5" />
+      <node id="7617962380312733998" at="112,61,113,99" concept="2" />
+      <node id="7617962380312737565" at="114,9,115,86" concept="5" />
+      <node id="7617962380312737773" at="115,86,116,90" concept="5" />
+      <node id="7617962380312737565" at="116,90,117,28" concept="5" />
+      <node id="7617962380312737773" at="117,28,118,30" concept="5" />
+      <node id="7617962380312737565" at="119,64,120,42" concept="2" />
+      <node id="7617962380312737773" at="120,42,121,46" concept="2" />
+      <node id="7617962380312739306" at="121,46,122,73" concept="2" />
+      <node id="7617962380312931535" at="97,0,100,0" concept="4" trace="invoke#(Lcom/mbeddr/mpsutil/grammarcells/runtime/IToken;)Ljava/lang/String;" />
+      <node id="7617962380312652754" at="86,0,91,0" concept="4" trace="setUp#()V" />
+      <node id="7617962380312889320" at="95,127,100,14" concept="6" />
+      <node id="7617962380312737563" at="118,30,123,11" concept="8" />
+      <node id="7617962380312799717" at="94,160,101,16" concept="2" />
+      <node id="7617962380312737563" at="113,99,124,9" concept="0" />
+      <node id="7617962380312652757" at="20,0,32,0" concept="4" trace="test_R_x1x#()V" />
+      <node id="7617962380312705493" at="32,0,44,0" concept="4" trace="test_L_x1x#()V" />
+      <node id="7617962380312972409" at="44,0,56,0" concept="4" trace="test_L_xx#()V" />
+      <node id="7617962380312741264" at="74,0,86,0" concept="4" trace="test_L_xxx#()V" />
+      <node id="7617962380312729905" at="108,33,125,7" concept="8" />
+      <node id="7617962380312721912" at="56,0,74,0" concept="4" trace="test_R_xxx#()V" />
+      <node id="7617962380312729905" at="103,68,126,5" concept="0" />
+      <node id="7617962380312686455" at="92,0,128,0" concept="4" trace="compare#([Lcom/mbeddr/mpsutil/grammarcells/runtime/InputCursor;null)V" />
+      <scope id="7617962380312931536" at="97,41,98,35" />
+      <scope id="7617962380312652774" at="87,23,89,16" />
+      <scope id="7617962380312931535" at="97,0,100,0">
+        <var name="it" id="7617962380312931535" />
+      </scope>
+      <scope id="7617962380312737563" at="119,64,122,73" />
+      <scope id="7617962380312652754" at="86,0,91,0" />
+      <scope id="7617962380312888367" at="95,127,100,14" />
+      <scope id="7617962380312652760" at="21,45,30,43">
+        <var name="iterator" id="7617962380312679954" />
+      </scope>
+      <scope id="7617962380312705496" at="33,45,42,43">
+        <var name="iterator" id="7617962380312705498" />
+      </scope>
+      <scope id="7617962380312972412" at="45,44,54,43">
+        <var name="iterator" id="7617962380312972414" />
+      </scope>
+      <scope id="7617962380312741267" at="75,45,84,43">
+        <var name="iterator" id="7617962380312741269" />
+      </scope>
+      <scope id="7617962380312737563" at="114,9,123,11">
+        <var name="actual_it" id="7617962380312737565" />
+        <var name="actual_var" id="7617962380312737565" />
+        <var name="expected_it" id="7617962380312737773" />
+        <var name="expected_var" id="7617962380312737773" />
+      </scope>
+      <scope id="7617962380312652757" at="20,0,32,0" />
+      <scope id="7617962380312705493" at="32,0,44,0" />
+      <scope id="7617962380312972409" at="44,0,56,0" />
+      <scope id="7617962380312741264" at="74,0,86,0" />
+      <scope id="7617962380312721915" at="57,45,72,43">
+        <var name="iterator" id="7617962380312721917" />
+      </scope>
+      <scope id="7617962380312729905" at="109,70,124,9">
+        <var name="actualValues" id="7617962380312733696" />
+      </scope>
+      <scope id="7617962380312721912" at="56,0,74,0" />
+      <scope id="7617962380312729905" at="104,5,125,7">
+        <var name="actualRange_it" id="7617962380312729907" />
+        <var name="actualRange_var" id="7617962380312729907" />
+        <var name="expectedRange_it" id="7617962380312730299" />
+        <var name="expectedRange_var" id="7617962380312730299" />
+      </scope>
+      <scope id="7617962380312686459" at="92,79,126,5" />
+      <scope id="7617962380312686455" at="92,0,128,0">
+        <var name="actualRanges" id="7617962380312688495" />
+        <var name="expectedRanges" id="7617962380312688609" />
+      </scope>
+      <unit id="7617962380312931535" at="96,59,100,7" name="com.mbeddr.mpsutil.grammarcells.runtime.Iterator_Test$1" />
+      <unit id="7617962380312652754" at="17,0,129,0" name="com.mbeddr.mpsutil.grammarcells.runtime.Iterator_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:b39b8de8-66fc-4e10-8421-55c092bbbed4(com.mbeddr.mpsutil.grammarcells.runtime@tests)/7617962380312663566">
+    <file name="DummySymbol.java">
+      <node id="7617962380312664723" at="12,0,13,0" concept="3" trace="myFixedTokenNumber" />
+      <node id="7617962380312666730" at="13,0,14,0" concept="3" trace="myTokenNum" />
+      <node id="7617962380312670786" at="15,24,16,31" concept="2" />
+      <node id="7617962380312672907" at="19,39,20,30" concept="2" />
+      <node id="7617962380312673573" at="20,30,21,29" concept="2" />
+      <node id="7617962380312667938" at="25,29,26,22" concept="6" />
+      <node id="7617962380312666373" at="29,40,30,30" concept="6" />
+      <node id="7617962380312663621" at="33,42,34,17" concept="6" />
+      <node id="7617962380312663633" at="39,95,40,16" concept="6" />
+      <node id="7617962380312663642" at="43,36,44,16" concept="6" />
+      <node id="2111846799817411472" at="50,46,51,16" concept="6" />
+      <node id="4647785202377031915" at="53,66,54,16" concept="6" />
+      <node id="6225079998512036703" at="57,34,58,16" concept="6" />
+      <node id="7617962380312670263" at="15,0,18,0" concept="1" trace="DummySymbol#()V" />
+      <node id="7617962380312663643" at="46,0,49,0" concept="4" trace="write#(Lcom/mbeddr/mpsutil/grammarcells/runtime/IToken;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4647785202377031905" at="53,0,56,0" concept="4" trace="calcCurrentParseTree#(Lorg/jetbrains/mps/openapi/model/SNode;Lcom/mbeddr/mpsutil/grammarcells/runtime/Parser;)Lcom/mbeddr/mpsutil/grammarcells/runtime/PNode;" />
+      <node id="7617962380312672129" at="19,0,23,0" concept="1" trace="DummySymbol#(I)V" />
+      <node id="7617962380312663601" at="24,0,28,0" concept="4" trace="getNumTokens#()I" />
+      <node id="7617962380312663606" at="28,0,32,0" concept="4" trace="hasFixedTokenNumber#()Z" />
+      <node id="7617962380312663613" at="32,0,36,0" concept="4" trace="matches#(Lcom/mbeddr/mpsutil/grammarcells/runtime/IToken;)Z" />
+      <node id="7617962380312663634" at="42,0,46,0" concept="4" trace="read#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/mbeddr/mpsutil/grammarcells/runtime/IToken;" />
+      <node id="2111846799817410764" at="49,0,53,0" concept="4" trace="getOutputConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6225079998512036696" at="56,0,60,0" concept="4" trace="getLink#()Lorg/jetbrains/mps/openapi/language/SAbstractLink;" />
+      <node id="7617962380312663622" at="37,0,42,0" concept="4" trace="parse#(Lcom/mbeddr/mpsutil/grammarcells/runtime/InputCursor;Lcom/mbeddr/mpsutil/grammarcells/runtime/Parser;Lcom/mbeddr/mpsutil/grammarcells/runtime/SymbolInRule;)Lcom/mbeddr/mpsutil/grammarcells/runtime/PNode;" />
+      <scope id="7617962380312663651" at="47,51,47,51" />
+      <scope id="7617962380312670267" at="15,24,16,31" />
+      <scope id="7617962380312663605" at="25,29,26,22" />
+      <scope id="7617962380312663610" at="29,40,30,30" />
+      <scope id="7617962380312663619" at="33,42,34,17" />
+      <scope id="7617962380312663631" at="39,95,40,16" />
+      <scope id="7617962380312663640" at="43,36,44,16" />
+      <scope id="2111846799817410769" at="50,46,51,16" />
+      <scope id="4647785202377031913" at="53,66,54,16" />
+      <scope id="6225079998512036701" at="57,34,58,16" />
+      <scope id="7617962380312672133" at="19,39,21,29" />
+      <scope id="7617962380312670263" at="15,0,18,0" />
+      <scope id="7617962380312663643" at="46,0,49,0">
+        <var name="element" id="7617962380312663644" />
+        <var name="parent" id="7617962380312663646" />
+      </scope>
+      <scope id="4647785202377031905" at="53,0,56,0">
+        <var name="parent" id="4647785202377031909" />
+        <var name="parser" id="4647785202377031911" />
+      </scope>
+      <scope id="7617962380312672129" at="19,0,23,0">
+        <var name="tokenNumber" id="7617962380312672642" />
+      </scope>
+      <scope id="7617962380312663601" at="24,0,28,0" />
+      <scope id="7617962380312663606" at="28,0,32,0" />
+      <scope id="7617962380312663613" at="32,0,36,0">
+        <var name="element" id="7617962380312663614" />
+      </scope>
+      <scope id="7617962380312663634" at="42,0,46,0">
+        <var name="parent" id="7617962380312663638" />
+      </scope>
+      <scope id="2111846799817410764" at="49,0,53,0" />
+      <scope id="6225079998512036696" at="56,0,60,0" />
+      <scope id="7617962380312663622" at="37,0,42,0">
+        <var name="input" id="7617962380312663623" />
+        <var name="parser" id="7617962380312663625" />
+        <var name="symbolInParent" id="2111846799817350769" />
+      </scope>
+      <unit id="7617962380312663566" at="10,0,61,0" name="com.mbeddr.mpsutil.grammarcells.runtime.DummySymbol" />
+    </file>
+  </root>
+</debug-info>
+

@@ -46,7 +46,7 @@ The cell `enum_checkbox` can be seen as an extension of the boolean language for
 property that should be used for the states of the checkbox. A quickfix automatically adds the enumeration values to the
 possible states section (if not: press F5 in the editor). Then an icon and the next state have to be declared. Declare the 
 icons by using the `IconCollection` concept. To avoid hard-coded paths, use path variables to set the path to the icon
-e.g. `${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-ok-3.png`. Set the scale of 
+e.g. `${extensions.home}/code/extensions/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-ok-3.png`. Set the scale of 
 the individual icons. The overall scaling of the checkbox icons can be influenced by setting the property `scale with editor font size`
 in the inspector.
 

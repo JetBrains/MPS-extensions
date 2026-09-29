@@ -8,3 +8,6 @@ pluginManagement {
 }
 
 rootProject.name = "MPS-extensions"
+
+include(":extensions")
+project(":extensions").projectDir = file("code/extensions")

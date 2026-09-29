@@ -23,7 +23,6 @@ if (ciBuild) {
 }
 
 val antVersionProperties: Map<String, String> by extra(mapOf(
-    "build" to version.toString(),
     "major.version" to mpsMajor.substringBefore("."),
     "minor.version" to mpsMajor.substringAfter("."),
 ))

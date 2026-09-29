@@ -202,11 +202,11 @@ val tests by mpsBuilds.creating(TestBuild::class) {
 }
 
 val buildDate = Date().toString()
-val pluginVersion = version.toString()
+val antVersionProperties: Map<String, String> by extra
 
 tasks.withType<RunAnt>().configureEach {
     valueProperties.put("buildDate", buildDate)
-    valueProperties.put("pluginVersion", pluginVersion)
+    valueProperties.putAll(antVersionProperties)
 }
 
 // ___________________ utilities ___________________

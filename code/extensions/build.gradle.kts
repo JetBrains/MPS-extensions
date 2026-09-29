@@ -336,7 +336,16 @@ fun forEachBundledDependency(action: (ResolvedDependency) -> Unit) {
 // Use all plugins in MPS, it doesn't seem to make any real difference compared to using a subset of plugins.
 val usedPluginRoots = listOf(mpsDefaults.mpsHome.dir("plugins"))
 
+// Migration tasks scan the whole MPS project, including project-local packaging outputs.
+val packagingTasks = listOf(
+    tasks.zip,
+    tasks.cyclonedxDirectBom,
+    tasks.withType<GenerateMavenPom>(),
+    tasks.withType<GenerateModuleMetadata>()
+)
+
 tasks.register<MpsMigrate>("migrate") {
+    mustRunAfter(packagingTasks)
     dependsOn(provider { mpsBuilds.map(MpsBuild::generateTask) })
 
     javaLauncher = jbrToolchain.javaLauncher
@@ -355,6 +364,7 @@ tasks.register<MpsMigrate>("migrate") {
 
 tasks.register<Remigrate>("remigrate") {
     mustRunAfter("migrate")
+    mustRunAfter(packagingTasks)
     dependsOn(provider { mpsBuilds.map(MpsBuild::generateTask) })
 
     javaLauncher = jbrToolchain.javaLauncher

@@ -3400,7 +3400,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="2cqAxliDPnX" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+            <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
           </node>
         </node>
       </node>
@@ -3419,7 +3419,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="6odR5TGEZEA" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+            <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
           </node>
         </node>
       </node>
@@ -3448,7 +3448,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="6odR5TGEZFd" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
+            <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
           </node>
         </node>
       </node>
@@ -3491,7 +3491,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="6odR5TGEZGq" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
+            <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
           </node>
         </node>
       </node>
@@ -3568,7 +3568,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="6odR5TGEZJf" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
+            <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_lower_case" />
           </node>
         </node>
       </node>
@@ -3627,7 +3627,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="6odR5TGF0aU" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_only_one_file" />
+            <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_only_one_file" />
           </node>
         </node>
       </node>
@@ -3688,7 +3688,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="6odR5TGF0Ob" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+            <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
           </node>
         </node>
       </node>
@@ -3717,7 +3717,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="6odR5TGF0WC" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_without_spaces" />
+            <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_without_spaces" />
           </node>
         </node>
       </node>
@@ -3747,7 +3747,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="6odR5TGF6A7" role="3tpDZB">
-            <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_without_spaces" />
+            <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_without_spaces" />
           </node>
         </node>
       </node>
@@ -6535,7 +6535,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="4JQ6_GQXE7V" role="1tU5fm" />
       <node concept="Xl_RD" id="4JQ6_GQXE7W" role="33vP2m">
-        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/directoryCompare/mockResults/" />
+        <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/directoryCompare/mockResults/" />
       </node>
       <node concept="3Tm6S6" id="4JQ6_GQXE7U" role="1B3o_S" />
     </node>
@@ -9160,7 +9160,7 @@
               <node concept="liA8E" id="2cqAxleWQSK" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxleWQSL" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -9411,7 +9411,7 @@
               <node concept="liA8E" id="2qPu2xoSAqC" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xoSAqD" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -9623,7 +9623,7 @@
               <node concept="liA8E" id="2qPu2xoWBIN" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xoWBIO" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -9835,7 +9835,7 @@
               <node concept="liA8E" id="2cqAxliu853" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxliu854" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -10088,7 +10088,7 @@
               <node concept="liA8E" id="2cqAxlh5u7W" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlh5u7X" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -10356,7 +10356,7 @@
               <node concept="liA8E" id="2cqAxlh80Dh" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlh80Di" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -10622,7 +10622,7 @@
               <node concept="liA8E" id="2qPu2xnmDNy" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xnmDNz" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -10890,7 +10890,7 @@
               <node concept="liA8E" id="2qPu2xnmRlh" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xnmRli" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -11157,7 +11157,7 @@
               <node concept="liA8E" id="2cqAxlhaVe8" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlhaVe9" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -11441,7 +11441,7 @@
               <node concept="liA8E" id="2cqAxlhdhP2" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlhdhP3" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -11725,7 +11725,7 @@
               <node concept="liA8E" id="2cqAxlgRAfx" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlgRAfy" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -12008,7 +12008,7 @@
               <node concept="liA8E" id="2cqAxlgH4bh" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlgH4bi" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -12202,7 +12202,7 @@
               <node concept="liA8E" id="2cqAxlgPbA2" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2cqAxlgPbA3" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -12431,7 +12431,7 @@
                       <ref role="37wK5l" to="mqum:2cqAxlh4rk$" resolve="textualDiff" />
                       <node concept="1jxXqW" id="45YjfmMTS7n" role="37wK5m" />
                       <node concept="Xl_RD" id="2cqAxlejNzy" role="37wK5m">
-                        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                        <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                       </node>
                       <node concept="2OqwBi" id="2cqAxlejId$" role="37wK5m">
                         <node concept="2WthIp" id="2cqAxlejId_" role="2Oq$k0" />
@@ -12519,7 +12519,7 @@
                       <ref role="37wK5l" to="mqum:2cqAxlh4rk$" resolve="textualDiff" />
                       <node concept="1jxXqW" id="45YjfmMTWii" role="37wK5m" />
                       <node concept="Xl_RD" id="2cqAxlekZsC" role="37wK5m">
-                        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_wrong" />
+                        <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content_wrong" />
                       </node>
                       <node concept="2OqwBi" id="2cqAxlekZsD" role="37wK5m">
                         <node concept="2WthIp" id="2cqAxlekZsE" role="2Oq$k0" />
@@ -12650,7 +12650,7 @@
                       <ref role="37wK5l" to="mqum:2cqAxlh4rk$" resolve="textualDiff" />
                       <node concept="1jxXqW" id="45YjfmMZNof" role="37wK5m" />
                       <node concept="Xl_RD" id="2cqAxlgVkKP" role="37wK5m">
-                        <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                        <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                       </node>
                       <node concept="2OqwBi" id="2cqAxlgVo0z" role="37wK5m">
                         <node concept="1Xw6AR" id="2cqAxlgVo0$" role="2Oq$k0">
@@ -12917,7 +12917,7 @@
               <node concept="liA8E" id="2qPu2xok$h6" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xok$h7" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -13159,7 +13159,7 @@
               <node concept="liA8E" id="2qPu2xonlHy" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xonlHz" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -13401,7 +13401,7 @@
               <node concept="liA8E" id="2qPu2xoxIDB" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xoxIDC" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>
@@ -13643,7 +13643,7 @@
               <node concept="liA8E" id="2qPu2xo$mYU" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="2qPu2xo$mYV" role="37wK5m">
-                  <property role="Xl_RC" value="${extensions.home}/code/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
+                  <property role="Xl_RC" value="${extensions.home}/code/extensions/compare/solutions/de.itemis.mps.comparator.diff.tests/test_content" />
                 </node>
               </node>
             </node>

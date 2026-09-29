@@ -62,7 +62,7 @@
   </node>
   <node concept="3O3R_9" id="5Jv8_iJQPVz">
     <property role="TrG5h" value="Invented Words (file)" />
-    <property role="3O3R_O" value="${extensions.home}/code/spellcheck/solutions/de.itemis.mps.spellcheck.demo/dictionary/custom.dic" />
+    <property role="3O3R_O" value="${extensions.home}/code/extensions/spellcheck/solutions/de.itemis.mps.spellcheck.demo/dictionary/custom.dic" />
   </node>
 </model>
 

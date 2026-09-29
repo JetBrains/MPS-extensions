@@ -20,6 +20,10 @@ public final class LanguageConceptSwitch {
   public static final int SimpleTableWithoutHeaders_Row = 8;
   public static final int SimpleTableWithoutHeaders_Table = 9;
   public static final int TableAwareAnnotation = 10;
+  public static final int TableWithColumnHeaderQuery_Cell = 11;
+  public static final int TableWithColumnHeaderQuery_Column = 12;
+  public static final int TableWithColumnHeaderQuery_Row = 13;
+  public static final int TableWithColumnHeaderQuery_Table = 14;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L);
@@ -34,6 +38,10 @@ public final class LanguageConceptSwitch {
     builder.put(0x15dd04937ebe303fL, SimpleTableWithoutHeaders_Row);
     builder.put(0x15dd04937ebe2d09L, SimpleTableWithoutHeaders_Table);
     builder.put(0x767d97235c37ca1aL, TableAwareAnnotation);
+    builder.put(0x28e0325f9d4f971fL, TableWithColumnHeaderQuery_Cell);
+    builder.put(0x730084c53c3bfea5L, TableWithColumnHeaderQuery_Column);
+    builder.put(0x6151bc2da444dbf4L, TableWithColumnHeaderQuery_Row);
+    builder.put(0x516a06889a8d90a6L, TableWithColumnHeaderQuery_Table);
     myIndex = builder.seal();
   }
 

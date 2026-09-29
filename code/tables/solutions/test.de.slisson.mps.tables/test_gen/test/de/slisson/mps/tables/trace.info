@@ -587,6 +587,111 @@
       <unit id="5725797066168518486" at="25,0,80,0" name="test.de.slisson.mps.tables.Requirements_AddRequirement_Annotated_Test" />
     </file>
   </root>
+  <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/6525704942391528356">
+    <file name="Table_ColumnHeaderQueryList_Test.java">
+      <node id="6525704942391528356" at="33,45,34,60" concept="11" />
+      <node id="6525704942391528438" at="38,69,39,60" concept="2" />
+      <node id="6525704942391528564" at="42,95,43,86" concept="2" />
+      <node id="6525704942391528700" at="46,98,47,89" concept="2" />
+      <node id="6525704942391528356" at="52,52,53,19" concept="11" />
+      <node id="6525704942391528356" at="57,36,58,46" concept="2" />
+      <node id="6525704942391528438" at="61,71,62,22" concept="2" />
+      <node id="6525704942391528443" at="63,30,64,105" concept="5" />
+      <node id="6525704942391528457" at="64,105,65,60" concept="2" />
+      <node id="6525704942391528465" at="65,60,66,121" concept="7" />
+      <node id="6525704942391528489" at="66,121,67,116" concept="7" />
+      <node id="6525704942391528513" at="67,116,68,39" concept="7" />
+      <node id="6525704942391528522" at="68,39,69,152" concept="5" />
+      <node id="6525704942391528559" at="69,152,70,51" concept="2" />
+      <node id="6525704942391528564" at="73,97,74,22" concept="2" />
+      <node id="6525704942391528569" at="75,30,76,105" concept="5" />
+      <node id="6525704942391528583" at="76,105,77,60" concept="2" />
+      <node id="6525704942391528591" at="77,60,78,93" concept="5" />
+      <node id="6525704942391528605" at="78,93,79,71" concept="2" />
+      <node id="6525704942391528614" at="79,71,80,52" concept="7" />
+      <node id="6525704942391528628" at="80,52,81,112" concept="5" />
+      <node id="6525704942391528644" at="81,112,82,43" concept="2" />
+      <node id="6525704942391528647" at="82,43,83,65" concept="2" />
+      <node id="6525704942391528659" at="83,65,84,223" concept="5" />
+      <node id="6525704942391528695" at="84,223,85,60" concept="2" />
+      <node id="6525704942391528700" at="88,100,89,22" concept="2" />
+      <node id="6525704942391528705" at="90,30,91,105" concept="5" />
+      <node id="6525704942391528719" at="91,105,92,60" concept="2" />
+      <node id="6525704942391528727" at="92,60,93,93" concept="5" />
+      <node id="6525704942391528741" at="93,93,94,71" concept="2" />
+      <node id="6525704942391528750" at="94,71,95,58" concept="7" />
+      <node id="6525704942391528765" at="95,58,96,112" concept="5" />
+      <node id="6525704942391528781" at="96,112,97,43" concept="2" />
+      <node id="6525704942391528784" at="97,43,98,65" concept="2" />
+      <node id="6525704942391528796" at="98,65,99,223" concept="5" />
+      <node id="6525704942391528832" at="99,223,100,60" concept="2" />
+      <node id="6525704942391528364" at="104,97,105,118" concept="7" />
+      <node id="6525704942391528389" at="105,118,106,125" concept="5" />
+      <node id="6525704942391528404" at="106,125,107,100" concept="6" />
+      <node id="6525704942391528356" at="112,0,113,0" concept="9" trace="columns$K2LS" />
+      <node id="6525704942391528356" at="116,0,117,0" concept="9" trace="id$PoAp" />
+      <node id="6525704942391528356" at="30,0,32,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="6525704942391528356" at="33,0,36,0" concept="1" trace="Table_ColumnHeaderQueryList_Test#()V" />
+      <node id="6525704942391528356" at="52,0,55,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6525704942391528438" at="37,0,41,0" concept="4" trace="test_everyListItemGetsItsOwnHeader#()V" />
+      <node id="6525704942391528564" at="41,0,45,0" concept="4" trace="test_deleteActionOfAdjacentRepeatedHeaderDeletesItsOwnColumn#()V" />
+      <node id="6525704942391528700" at="45,0,49,0" concept="4" trace="test_deleteActionOfNonAdjacentRepeatedHeaderDeletesItsOwnColumn#()V" />
+      <node id="6525704942391528356" at="56,0,60,0" concept="4" trace="initTestNodes#()V" />
+      <node id="6525704942391528357" at="104,0,109,0" concept="4" trace="columnHeaderCells#(Ljetbrains/mps/editor/runtime/HeadlessEditorComponent;)Ljava/util/List;" />
+      <node id="6525704942391528438" at="62,22,71,9" concept="2" />
+      <node id="6525704942391528438" at="61,0,73,0" concept="4" trace="test_everyListItemGetsItsOwnHeader#()V" />
+      <node id="6525704942391528564" at="74,22,86,9" concept="2" />
+      <node id="6525704942391528700" at="89,22,101,9" concept="2" />
+      <node id="6525704942391528564" at="73,0,88,0" concept="4" trace="test_deleteActionOfAdjacentRepeatedHeaderDeletesItsOwnColumn#()V" />
+      <node id="6525704942391528700" at="88,0,103,0" concept="4" trace="test_deleteActionOfNonAdjacentRepeatedHeaderDeletesItsOwnColumn#()V" />
+      <scope id="6525704942391528356" at="33,45,34,60" />
+      <scope id="6525704942391528438" at="38,69,39,60" />
+      <scope id="6525704942391528564" at="42,95,43,86" />
+      <scope id="6525704942391528700" at="46,98,47,89" />
+      <scope id="6525704942391528356" at="52,52,53,19" />
+      <scope id="6525704942391528356" at="57,36,58,46" />
+      <scope id="6525704942391528356" at="33,0,36,0" />
+      <scope id="6525704942391528356" at="52,0,55,0">
+        <var name="owner" id="6525704942391528356" />
+      </scope>
+      <scope id="6525704942391528357" at="104,97,107,100">
+        <var name="constants" id="6525704942391528392" />
+      </scope>
+      <scope id="6525704942391528438" at="37,0,41,0" />
+      <scope id="6525704942391528564" at="41,0,45,0" />
+      <scope id="6525704942391528700" at="45,0,49,0" />
+      <scope id="6525704942391528356" at="56,0,60,0" />
+      <scope id="6525704942391528357" at="104,0,109,0">
+        <var name="editorComponent" id="6525704942391528435" />
+      </scope>
+      <scope id="6525704942391528438" at="63,30,70,51">
+        <var name="editorComponent" id="6525704942391528446" />
+        <var name="headers" id="6525704942391528525" />
+      </scope>
+      <scope id="6525704942391528438" at="61,71,71,9" />
+      <scope id="6525704942391528564" at="75,30,85,60">
+        <var name="deleteAction" id="6525704942391528631" />
+        <var name="editorComponent" id="6525704942391528572" />
+        <var name="headers" id="6525704942391528594" />
+        <var name="remainingColumns" id="6525704942391528662" />
+      </scope>
+      <scope id="6525704942391528700" at="90,30,100,60">
+        <var name="deleteAction" id="6525704942391528768" />
+        <var name="editorComponent" id="6525704942391528708" />
+        <var name="headers" id="6525704942391528730" />
+        <var name="remainingColumns" id="6525704942391528799" />
+      </scope>
+      <scope id="6525704942391528438" at="61,0,73,0" />
+      <scope id="6525704942391528564" at="73,97,86,9" />
+      <scope id="6525704942391528700" at="88,100,101,9" />
+      <scope id="6525704942391528564" at="73,0,88,0" />
+      <scope id="6525704942391528700" at="88,0,103,0" />
+      <unit id="6525704942391528356" at="111,0,114,0" name="test.de.slisson.mps.tables.Table_ColumnHeaderQueryList_Test$LINKS" />
+      <unit id="6525704942391528356" at="115,0,118,0" name="test.de.slisson.mps.tables.Table_ColumnHeaderQueryList_Test$PROPS" />
+      <unit id="6525704942391528356" at="50,0,110,0" name="test.de.slisson.mps.tables.Table_ColumnHeaderQueryList_Test$TestBody" />
+      <unit id="6525704942391528356" at="28,0,119,0" name="test.de.slisson.mps.tables.Table_ColumnHeaderQueryList_Test" />
+    </file>
+  </root>
   <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/6635941515398523548">
     <file name="TableAction_CopyPaste_whenUnsupported_Test.java">
       <node id="6635941515398523548" at="24,55,25,60" concept="11" />

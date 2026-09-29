@@ -14,6 +14,9 @@ import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptNonTableAwareAnnotation = createDescriptorForNonTableAwareAnnotation();
+  /*package*/ final ConceptDescriptor myConceptPartialTableWithRowHeaderQuery_Cell = createDescriptorForPartialTableWithRowHeaderQuery_Cell();
+  /*package*/ final ConceptDescriptor myConceptPartialTableWithRowHeaderQuery_Row = createDescriptorForPartialTableWithRowHeaderQuery_Row();
+  /*package*/ final ConceptDescriptor myConceptPartialTableWithRowHeaderQuery_Table = createDescriptorForPartialTableWithRowHeaderQuery_Table();
   /*package*/ final ConceptDescriptor myConceptSimpleTableWithHeadersDefinedByRow_Row = createDescriptorForSimpleTableWithHeadersDefinedByRow_Row();
   /*package*/ final ConceptDescriptor myConceptSimpleTableWithHeadersDefinedByRow_Table = createDescriptorForSimpleTableWithHeadersDefinedByRow_Table();
   /*package*/ final ConceptDescriptor myConceptSimpleTableWithHeadersDefinedByTable_Row = createDescriptorForSimpleTableWithHeadersDefinedByTable_Row();
@@ -21,6 +24,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptSimpleTableWithoutHeaders_Row = createDescriptorForSimpleTableWithoutHeaders_Row();
   /*package*/ final ConceptDescriptor myConceptSimpleTableWithoutHeaders_Table = createDescriptorForSimpleTableWithoutHeaders_Table();
   /*package*/ final ConceptDescriptor myConceptTableAwareAnnotation = createDescriptorForTableAwareAnnotation();
+  /*package*/ final ConceptDescriptor myConceptTableWithColumnHeaderQuery_Cell = createDescriptorForTableWithColumnHeaderQuery_Cell();
+  /*package*/ final ConceptDescriptor myConceptTableWithColumnHeaderQuery_Column = createDescriptorForTableWithColumnHeaderQuery_Column();
+  /*package*/ final ConceptDescriptor myConceptTableWithColumnHeaderQuery_Row = createDescriptorForTableWithColumnHeaderQuery_Row();
+  /*package*/ final ConceptDescriptor myConceptTableWithColumnHeaderQuery_Table = createDescriptorForTableWithColumnHeaderQuery_Table();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -36,7 +43,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptNonTableAwareAnnotation, myConceptSimpleTableWithHeadersDefinedByRow_Row, myConceptSimpleTableWithHeadersDefinedByRow_Table, myConceptSimpleTableWithHeadersDefinedByTable_Row, myConceptSimpleTableWithHeadersDefinedByTable_Table, myConceptSimpleTableWithoutHeaders_Row, myConceptSimpleTableWithoutHeaders_Table, myConceptTableAwareAnnotation);
+    return Arrays.asList(myConceptNonTableAwareAnnotation, myConceptPartialTableWithRowHeaderQuery_Cell, myConceptPartialTableWithRowHeaderQuery_Row, myConceptPartialTableWithRowHeaderQuery_Table, myConceptSimpleTableWithHeadersDefinedByRow_Row, myConceptSimpleTableWithHeadersDefinedByRow_Table, myConceptSimpleTableWithHeadersDefinedByTable_Row, myConceptSimpleTableWithHeadersDefinedByTable_Table, myConceptSimpleTableWithoutHeaders_Row, myConceptSimpleTableWithoutHeaders_Table, myConceptTableAwareAnnotation, myConceptTableWithColumnHeaderQuery_Cell, myConceptTableWithColumnHeaderQuery_Column, myConceptTableWithColumnHeaderQuery_Row, myConceptTableWithColumnHeaderQuery_Table);
   }
 
   @Override
@@ -45,6 +52,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.NonTableAwareAnnotation:
         return myConceptNonTableAwareAnnotation;
+      case LanguageConceptSwitch.PartialTableWithRowHeaderQuery_Cell:
+        return myConceptPartialTableWithRowHeaderQuery_Cell;
+      case LanguageConceptSwitch.PartialTableWithRowHeaderQuery_Row:
+        return myConceptPartialTableWithRowHeaderQuery_Row;
+      case LanguageConceptSwitch.PartialTableWithRowHeaderQuery_Table:
+        return myConceptPartialTableWithRowHeaderQuery_Table;
       case LanguageConceptSwitch.SimpleTableWithHeadersDefinedByRow_Row:
         return myConceptSimpleTableWithHeadersDefinedByRow_Row;
       case LanguageConceptSwitch.SimpleTableWithHeadersDefinedByRow_Table:
@@ -59,6 +72,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptSimpleTableWithoutHeaders_Table;
       case LanguageConceptSwitch.TableAwareAnnotation:
         return myConceptTableAwareAnnotation;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Cell:
+        return myConceptTableWithColumnHeaderQuery_Cell;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Column:
+        return myConceptTableWithColumnHeaderQuery_Column;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Row:
+        return myConceptTableWithColumnHeaderQuery_Row;
+      case LanguageConceptSwitch.TableWithColumnHeaderQuery_Table:
+        return myConceptTableWithColumnHeaderQuery_Table;
       default:
         return null;
     }
@@ -77,6 +98,30 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:c22a2a11-d9e5-4b5d-b52e-a1da1ba3ad31(test.de.slisson.mps.tables.lang.structure)/8538146646690447946");
     b.version(3);
     b.property("value", 0x767d97235c2d424dL).type(PrimitiveTypeId.STRING).origin("8538146646690447949").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPartialTableWithRowHeaderQuery_Cell() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("test.de.slisson.mps.tables.lang", "PartialTableWithRowHeaderQuery_Cell", 0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0xf9299ff655f4cd7L);
+    b.class_(false, false, false);
+    b.origin("r:c22a2a11-d9e5-4b5d-b52e-a1da1ba3ad31(test.de.slisson.mps.tables.lang.structure)/4098331544877684534");
+    b.version(3);
+    b.property("value", 0xb54aa1b7ab4f05bL).type(PrimitiveTypeId.STRING).origin("4098331544877684535").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPartialTableWithRowHeaderQuery_Row() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("test.de.slisson.mps.tables.lang", "PartialTableWithRowHeaderQuery_Row", 0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x349e623fbbc26b7fL);
+    b.class_(false, false, false);
+    b.origin("r:c22a2a11-d9e5-4b5d-b52e-a1da1ba3ad31(test.de.slisson.mps.tables.lang.structure)/4098331544877684576");
+    b.version(3);
+    b.aggregate("cells", 0x5d664e8ce15ce451L).target(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0xf9299ff655f4cd7L).optional(true).ordered(true).multiple(true).origin("4098331544877684577").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPartialTableWithRowHeaderQuery_Table() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("test.de.slisson.mps.tables.lang", "PartialTableWithRowHeaderQuery_Table", 0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x526b2f86ff31c133L);
+    b.class_(false, false, true);
+    b.origin("r:c22a2a11-d9e5-4b5d-b52e-a1da1ba3ad31(test.de.slisson.mps.tables.lang.structure)/4098331544877684620");
+    b.version(3);
+    b.aggregate("rows", 0x69060810976b24efL).target(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x349e623fbbc26b7fL).optional(true).ordered(true).multiple(true).origin("4098331544877684621").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSimpleTableWithHeadersDefinedByRow_Row() {
@@ -138,6 +183,40 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:c22a2a11-d9e5-4b5d-b52e-a1da1ba3ad31(test.de.slisson.mps.tables.lang.structure)/8538146646691138074");
     b.version(3);
     b.property("value", 0x767d97235c37ca1dL).type(PrimitiveTypeId.STRING).origin("8538146646691138077").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTableWithColumnHeaderQuery_Cell() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("test.de.slisson.mps.tables.lang", "TableWithColumnHeaderQuery_Cell", 0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x28e0325f9d4f971fL);
+    b.class_(false, false, false);
+    b.origin("r:c22a2a11-d9e5-4b5d-b52e-a1da1ba3ad31(test.de.slisson.mps.tables.lang.structure)/6525704942388787382");
+    b.version(3);
+    b.property("value", 0x5e2b34f6082d59a6L).type(PrimitiveTypeId.STRING).origin("6525704942388787383").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTableWithColumnHeaderQuery_Column() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("test.de.slisson.mps.tables.lang", "TableWithColumnHeaderQuery_Column", 0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x730084c53c3bfea5L);
+    b.class_(false, false, false);
+    b.origin("r:c22a2a11-d9e5-4b5d-b52e-a1da1ba3ad31(test.de.slisson.mps.tables.lang.structure)/6525704942388787342");
+    b.version(3);
+    b.property("name", 0x2338aa33a6bc0eeL).type(PrimitiveTypeId.STRING).origin("6525704942388787343").done();
+    b.property("id", 0x3a46cbf7b0b470f9L).type(PrimitiveTypeId.STRING).origin("6525704942388787344").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTableWithColumnHeaderQuery_Row() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("test.de.slisson.mps.tables.lang", "TableWithColumnHeaderQuery_Row", 0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x6151bc2da444dbf4L);
+    b.class_(false, false, false);
+    b.origin("r:c22a2a11-d9e5-4b5d-b52e-a1da1ba3ad31(test.de.slisson.mps.tables.lang.structure)/6525704942388861696");
+    b.version(3);
+    b.aggregate("cells", 0x16a33537ed228b7dL).target(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x28e0325f9d4f971fL).optional(true).ordered(true).multiple(true).origin("6525704942388861697").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTableWithColumnHeaderQuery_Table() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("test.de.slisson.mps.tables.lang", "TableWithColumnHeaderQuery_Table", 0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x516a06889a8d90a6L);
+    b.class_(false, false, true);
+    b.origin("r:c22a2a11-d9e5-4b5d-b52e-a1da1ba3ad31(test.de.slisson.mps.tables.lang.structure)/6525704942389009049");
+    b.version(3);
+    b.aggregate("columns", 0x66cb3eee87eb9c72L).target(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x730084c53c3bfea5L).optional(true).ordered(true).multiple(true).origin("6525704942389009050").done();
+    b.aggregate("rows", 0x7064fb1e9650a65fL).target(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L, 0x6151bc2da444dbf4L).optional(true).ordered(true).multiple(true).origin("6525704942389009051").done();
     return b.create();
   }
 }

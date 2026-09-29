@@ -10,17 +10,27 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int NonTableAwareAnnotation = 0;
-  public static final int SimpleTableWithHeadersDefinedByRow_Row = 1;
-  public static final int SimpleTableWithHeadersDefinedByRow_Table = 2;
-  public static final int SimpleTableWithHeadersDefinedByTable_Row = 3;
-  public static final int SimpleTableWithHeadersDefinedByTable_Table = 4;
-  public static final int SimpleTableWithoutHeaders_Row = 5;
-  public static final int SimpleTableWithoutHeaders_Table = 6;
-  public static final int TableAwareAnnotation = 7;
+  public static final int PartialTableWithRowHeaderQuery_Cell = 1;
+  public static final int PartialTableWithRowHeaderQuery_Row = 2;
+  public static final int PartialTableWithRowHeaderQuery_Table = 3;
+  public static final int SimpleTableWithHeadersDefinedByRow_Row = 4;
+  public static final int SimpleTableWithHeadersDefinedByRow_Table = 5;
+  public static final int SimpleTableWithHeadersDefinedByTable_Row = 6;
+  public static final int SimpleTableWithHeadersDefinedByTable_Table = 7;
+  public static final int SimpleTableWithoutHeaders_Row = 8;
+  public static final int SimpleTableWithoutHeaders_Table = 9;
+  public static final int TableAwareAnnotation = 10;
+  public static final int TableWithColumnHeaderQuery_Cell = 11;
+  public static final int TableWithColumnHeaderQuery_Column = 12;
+  public static final int TableWithColumnHeaderQuery_Row = 13;
+  public static final int TableWithColumnHeaderQuery_Table = 14;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xae148960ac6e4075L, 0xb5e1ef26a4acb340L);
     builder.put(0x767d97235c2d424aL, NonTableAwareAnnotation);
+    builder.put(0xf9299ff655f4cd7L, PartialTableWithRowHeaderQuery_Cell);
+    builder.put(0x349e623fbbc26b7fL, PartialTableWithRowHeaderQuery_Row);
+    builder.put(0x526b2f86ff31c133L, PartialTableWithRowHeaderQuery_Table);
     builder.put(0x767d97235c2172d5L, SimpleTableWithHeadersDefinedByRow_Row);
     builder.put(0x767d97235c2172d4L, SimpleTableWithHeadersDefinedByRow_Table);
     builder.put(0x767d97235bf53fc2L, SimpleTableWithHeadersDefinedByTable_Row);
@@ -28,6 +38,10 @@ public final class LanguageConceptSwitch {
     builder.put(0x15dd04937ebe303fL, SimpleTableWithoutHeaders_Row);
     builder.put(0x15dd04937ebe2d09L, SimpleTableWithoutHeaders_Table);
     builder.put(0x767d97235c37ca1aL, TableAwareAnnotation);
+    builder.put(0x28e0325f9d4f971fL, TableWithColumnHeaderQuery_Cell);
+    builder.put(0x730084c53c3bfea5L, TableWithColumnHeaderQuery_Column);
+    builder.put(0x6151bc2da444dbf4L, TableWithColumnHeaderQuery_Row);
+    builder.put(0x516a06889a8d90a6L, TableWithColumnHeaderQuery_Table);
     myIndex = builder.seal();
   }
 

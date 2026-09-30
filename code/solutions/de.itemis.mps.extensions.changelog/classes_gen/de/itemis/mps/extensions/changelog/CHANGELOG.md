@@ -8,6 +8,8 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
+- *de.slisson.mps.tables.runtime* Sticky headers of deleted rows stayed visible, because the painters of the sticky cells were never unregistered from the editor. Each table now has a single painter that is removed together with the table.
+- *de.slisson.mps.tables.runtime* Sticky headers now cover the full width (column headers) or height (row headers) of the table, so the content scrolled underneath no longer shows through between the headers. All cells inside the frozen rows/columns move with them, even if they don't have the sticky style.
 - *de.itemis.mps.linenumbers* The line numbers were painted outside their own column when another gutter component was placed left of them. They are now drawn relative to the position of their column, and a change of the column width triggers a relayout of the other columns.
 
 ## August 2026

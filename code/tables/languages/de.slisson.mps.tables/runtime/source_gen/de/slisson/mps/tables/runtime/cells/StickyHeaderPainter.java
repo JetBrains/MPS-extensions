@@ -9,8 +9,8 @@ import com.intellij.ui.components.JBViewport;
 import javax.swing.SwingUtilities;
 import java.awt.Rectangle;
 import java.awt.Color;
-import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.List;
 import jetbrains.mps.nodeEditor.AdditionalPainter;
 
 public class StickyHeaderPainter extends AbstractAdditionalPainter<TableEditor> {
@@ -49,8 +49,16 @@ public class StickyHeaderPainter extends AbstractAdditionalPainter<TableEditor> 
       return;
     }
 
-    // Every cell inside the frozen rows/columns moves with them, not only the ones with a sticky style. A header without the style would otherwise be hidden by the band.
-    List<EditorCell_GridCell> cells = myTable.getGridCells();
+    int tableX = myTable.getX();
+    int tableY = myTable.getY();
+    int tableWidth = myTable.getWidth();
+    int tableHeight = myTable.getHeight();
+    // This runs on every repaint of the editor (e.g. each caret blink), so return before looking at the grid in the common cases:
+    // the table is not visible, or the view starts above and left of it, so no header can be scrolled out of the view.
+    if (!(viewRect.intersects(tableX, tableY, tableWidth, tableHeight)) || (viewRect.x <= tableX && viewRect.y <= tableY)) {
+      return;
+    }
+
     // The sticky cells define the frozen columns (row headers) and the frozen rows (column headers).
     Rectangle hBand = null;
     Rectangle vBand = null;
@@ -64,30 +72,30 @@ public class StickyHeaderPainter extends AbstractAdditionalPainter<TableEditor> 
       }
     }
 
-    int tableX = myTable.getX();
-    int tableY = myTable.getY();
-    int tableWidth = myTable.getWidth();
-    int tableHeight = myTable.getHeight();
     int dx = (hBand == null ? 0 : computeShift(viewRect.x, hBand.x, hBand.x + hBand.width, tableX + tableWidth));
     int dy = (vBand == null ? 0 : computeShift(viewRect.y, vBand.y, vBand.y + vBand.height, tableY + tableHeight));
     if (dx == 0 && dy == 0) {
       return;
     }
 
+    // Every cell inside the frozen rows/columns moves with them, not only the ones with a sticky style. A header without the style would otherwise be hidden by the band.
+    List<EditorCell_GridCell> cells = myTable.getGridCells();
     Graphics g = graphics.create();
     try {
       // Each band is cleared over the full length of the table first. Otherwise the parts of the table that have no
       // sticky header (e.g. the row headers below the column headers) would still be visible between the headers.
       if (dx > 0) {
         // starts above the table to also cover the top border of the first row
+        int outerBorderTop = myTable.getOuterBorderTop();
         g.setColor(background);
-        g.fillRect(hBand.x + dx, tableY - myTable.getOuterBorderTop(), hBand.width, tableHeight + myTable.getOuterBorderTop());
+        g.fillRect(hBand.x + dx, tableY - outerBorderTop, hBand.width, tableHeight + outerBorderTop);
         paintCells(g, cells, hBand, vBand, dx, dy, true, false);
       }
       if (dy > 0) {
         // starts left of the table to also cover the left border of the first column
+        int outerBorderLeft = myTable.getOuterBorderLeft();
         g.setColor(background);
-        g.fillRect(tableX - myTable.getOuterBorderLeft(), vBand.y + dy, tableWidth + myTable.getOuterBorderLeft(), vBand.height);
+        g.fillRect(tableX - outerBorderLeft, vBand.y + dy, tableWidth + outerBorderLeft, vBand.height);
         paintCells(g, cells, hBand, vBand, dx, dy, false, true);
       }
       if (dx > 0 && dy > 0) {
@@ -95,7 +103,6 @@ public class StickyHeaderPainter extends AbstractAdditionalPainter<TableEditor> 
         g.fillRect(hBand.x + dx, vBand.y + dy, hBand.width, vBand.height);
         paintCells(g, cells, hBand, vBand, dx, dy, true, true);
       }
-
     } finally {
       g.dispose();
     }

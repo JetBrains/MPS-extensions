@@ -28,6 +28,7 @@
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
       </concept>
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
@@ -117,7 +118,6 @@
       <concept id="320030840061144153" name="jetbrains.mps.baseLanguage.structure.ShiftRightUnsignedExpression" flags="nn" index="1ZsPo3" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
@@ -420,7 +420,7 @@
               <node concept="35c_gC" id="7_uCKm_pmwY" role="2Oq$k0">
                 <ref role="35c_gD" to="y93e:7_uCKm_ncp6" resolve="EditorComponentReference" />
               </node>
-              <node concept="2qgKlT" id="7_uCKm_pmwZ" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpy8" role="2OqNvi">
                 <ref role="37wK5l" node="7_uCKm_oD5J" resolve="getInvalidComponentHashCode" />
               </node>
             </node>
@@ -463,9 +463,9 @@
             </node>
             <node concept="2OqwBi" id="7_uCKm_ppFt" role="33vP2m">
               <node concept="13iPFW" id="7_uCKm_pPYs" role="2Oq$k0" />
-              <node concept="2qgKlT" id="7_uCKm_ppFv" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpya" role="2OqNvi">
                 <ref role="37wK5l" node="7_uCKm_plXx" resolve="getEditorComponent" />
-                <node concept="37vLTw" id="7_uCKm_pQjZ" role="37wK5m">
+                <node concept="37vLTw" id="WEZADybpyc" role="37wK5m">
                   <ref role="3cqZAo" node="7_uCKm_pQ5m" resolve="project" />
                 </node>
               </node>
@@ -543,7 +543,7 @@
               <node concept="35c_gC" id="7_uCKm_oFDI" role="2Oq$k0">
                 <ref role="35c_gD" to="y93e:7_uCKm_ncp6" resolve="EditorComponentReference" />
               </node>
-              <node concept="2qgKlT" id="7_uCKm_oGu8" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpyd" role="2OqNvi">
                 <ref role="37wK5l" node="7_uCKm_oD5J" resolve="getInvalidComponentHashCode" />
               </node>
             </node>

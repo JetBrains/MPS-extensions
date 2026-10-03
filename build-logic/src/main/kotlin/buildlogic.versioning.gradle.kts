@@ -5,7 +5,7 @@ val ciBuild by extra(project.hasProperty("forceCI") ||
     project.hasProperty("teamcity") && !project.hasProperty("mpsHomeDir"))
 
 val mpsVersion = versionCatalogs.named("libs").findLibrary("mps").get().get().version!!
-val mpsMajor = mpsVersion.substring(0, 6)
+val mpsMajor = "2026.1"
 
 if (ciBuild) {
     val branch = GitBasedVersioning.getGitBranch()

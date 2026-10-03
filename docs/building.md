@@ -22,6 +22,8 @@ The above will also run tests. There are other tasks available, e.g. to run the 
 download the required dependencies so that the project can be opened in MPS (`setup`). Run `./gradlew tasks` to see
 available tasks.
 
+The MPS project is under `code/extensions`. Its checked-in build models are under `code/extensions/buildscripts`; generated Gradle output is under `code/extensions/build`. The `:extensions` Gradle project owns the extension build, tests, ZIP, publication, and SBOM tasks.
+
 The documentation is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and Python 3. It can be previewed by running:
 
 ```fish

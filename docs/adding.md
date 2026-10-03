@@ -16,14 +16,14 @@ This checklist explains what you have to do to add a new extension fully and pro
 ### Copy your extension into the repository and add to the MPS project
 
 We assume that you have developed the extension you want to add in its own MPS Project. If not, you should first isolate it and make sure that it can work by itself. If your extension has dependencies to one of the plugins in MPS Extensions, you could either get this dependency from a Maven repository or develop the extension in its entirety in a fork of MPS Extensions.
-If you want to develop your extension from scratch in a fork, you can just skip this section and add the (plugin) solution(s) and/or language(s) that comprise your extension directly to the MPS project that lives under the `code` folder.
+If you want to develop your extension from scratch in a fork, you can just skip this section and add the (plugin) solution(s) and/or language(s) that comprise your extension directly to the MPS project that lives under the `code/extensions` folder.
 
 Before you start, make sure that you have clean MPS models (without any classes_gen and source_gen folders).
 To copy or start your extension in the right place in the repository:
 
-- Create a subfolder with the name of your extension under the `code` directory: `code/<extension_name>`, e.g. `code/plaintextgen` for the already existing plaintextgen extension and copy the folders languages (if any) and solutions (if any) of your new extension to `code/<name>`. See section _Move the Files_ under [migration](migrating.md) for more detailed instructions.
-- Open the MPS project living under the `code` folder, add the languages and solutions of your extension to it, and group all the added solutions and/or languages in a virtual folder that has the name of your extension. See section _Adding the Files to the Project_ of [migration](migrating.md) for more detailed instructions.
-- In order to have proper license information in a custom version of MPS with the MPS Extensions included , add an `about.txt` file under the root of your extension's folder (similar like the plaintextgen has an `about.txt` under `code/plaintextgen/about.txt`). If your extension doesn't depend on any external software, you can indicate that in the `about.txt` (see the example of plaintextgen). If you are using third-party libraries or other software, the `about.txt` must attribute the licenses of this third-party software (an example of such attribution can be found in the [about.txt of MPS itself](https://github.com/JetBrains/MPS/blob/master/about.txt)).
+- Create a subfolder with the name of your extension under `code/extensions`: `code/extensions/<extension_name>`, e.g. `code/extensions/plaintextgen` for the already existing plaintextgen extension and copy the folders languages (if any) and solutions (if any) of your new extension to `code/extensions/<name>`. See section _Move the Files_ under [migration](migrating.md) for more detailed instructions.
+- Open the MPS project living under `code/extensions`, add the languages and solutions of your extension to it, and group all the added solutions and/or languages in a virtual folder that has the name of your extension. See section _Adding the Files to the Project_ of [migration](migrating.md) for more detailed instructions.
+- In order to have proper license information in a custom version of MPS with the MPS Extensions included , add an `about.txt` file under the root of your extension's folder (similar like the plaintextgen has an `about.txt` under `code/extensions/plaintextgen/about.txt`). If your extension doesn't depend on any external software, you can indicate that in the `about.txt` (see the example of plaintextgen). If you are using third-party libraries or other software, the `about.txt` must attribute the licenses of this third-party software (an example of such attribution can be found in the [about.txt of MPS itself](https://github.com/JetBrains/MPS/blob/master/about.txt)).
 
 ### Add to the build solution
 
@@ -37,4 +37,3 @@ Detailed instructions can be found in section _Adding it to the Build_ of [migra
 
 ### Make a pull request
 Please refer of section _Sending the Pull Request_ of [migrating](migrating.md) for detailed instructions, but skip the last part about the `migration` label.
-

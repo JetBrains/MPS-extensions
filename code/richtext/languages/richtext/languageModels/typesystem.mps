@@ -13,6 +13,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -24,9 +25,13 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -35,6 +40,7 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -95,6 +101,9 @@
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -207,6 +216,67 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="RX7zUCGt3Y">
+    <property role="TrG5h" value="check_Color" />
+    <node concept="3clFbS" id="RX7zUCGt3Z" role="18ibNy">
+      <node concept="3clFbJ" id="RX7zUCGt4h" role="3cqZAp">
+        <node concept="22lmx$" id="RX7zUCGvOQ" role="3clFbw">
+          <node concept="2OqwBi" id="RX7zUCGwuh" role="3uHU7w">
+            <node concept="2OqwBi" id="RX7zUCGvZ_" role="2Oq$k0">
+              <node concept="1YBJjd" id="RX7zUCGvPu" role="2Oq$k0">
+                <ref role="1YBMHb" node="RX7zUCGt41" resolve="color" />
+              </node>
+              <node concept="3TrcHB" id="RX7zUCGwde" role="2OqNvi">
+                <ref role="3TsBF5" to="87nw:RX7zUCFhpd" resolve="value" />
+              </node>
+            </node>
+            <node concept="17RlXB" id="RX7zUCGyg2" role="2OqNvi" />
+          </node>
+          <node concept="3clFbC" id="RX7zUCGv31" role="3uHU7B">
+            <node concept="2OqwBi" id="RX7zUCGter" role="3uHU7B">
+              <node concept="1YBJjd" id="RX7zUCGt4r" role="2Oq$k0">
+                <ref role="1YBMHb" node="RX7zUCGt41" resolve="color" />
+              </node>
+              <node concept="3TrcHB" id="RX7zUCGt_R" role="2OqNvi">
+                <ref role="3TsBF5" to="87nw:RX7zUCFhpd" resolve="value" />
+              </node>
+            </node>
+            <node concept="10Nm6u" id="RX7zUCGvOo" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="RX7zUCGt4j" role="3clFbx">
+          <node concept="3cpWs6" id="RX7zUCGyj7" role="3cqZAp" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="RX7zUCGyj8" role="3cqZAp" />
+      <node concept="3clFbJ" id="RX7zUCGyjl" role="3cqZAp">
+        <node concept="3clFbS" id="RX7zUCGyjn" role="3clFbx">
+          <node concept="2MkqsV" id="RX7zUCG_Yb" role="3cqZAp">
+            <node concept="Xl_RD" id="RX7zUCG_Yo" role="2MkJ7o">
+              <property role="Xl_RC" value="Expected a hexadecimal color in the format #RRGGBB or #RRGGBBAA." />
+            </node>
+            <node concept="1YBJjd" id="RX7zUCGA2l" role="1urrMF">
+              <ref role="1YBMHb" node="RX7zUCGt41" resolve="color" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="RX7zUCG_QB" role="3clFbw">
+          <node concept="2OqwBi" id="RX7zUCG_QE" role="3fr31v">
+            <node concept="1YBJjd" id="RX7zUCG_QF" role="2Oq$k0">
+              <ref role="1YBMHb" node="RX7zUCGt41" resolve="color" />
+            </node>
+            <node concept="2qgKlT" id="RX7zUCPaTp" role="2OqNvi">
+              <ref role="37wK5l" to="tbr6:RX7zUCOrfS" resolve="isValid" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="RX7zUCGt41" role="1YuTPh">
+      <property role="TrG5h" value="color" />
+      <ref role="1YaFvo" to="87nw:RX7zUCFdyp" resolve="RichTextColor" />
     </node>
   </node>
 </model>

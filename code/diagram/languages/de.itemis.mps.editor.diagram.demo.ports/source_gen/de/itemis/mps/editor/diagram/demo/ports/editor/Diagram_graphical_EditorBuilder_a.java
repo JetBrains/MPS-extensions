@@ -373,7 +373,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private Direction _StyleParameter_QueryFunction_lbjjfm_a0a0() {
     return Direction.LEFT;

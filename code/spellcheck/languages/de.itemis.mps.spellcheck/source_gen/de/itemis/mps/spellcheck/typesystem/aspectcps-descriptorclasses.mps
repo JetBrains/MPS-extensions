@@ -13,14 +13,17 @@
     <import index="2gg1" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.errors(MPS.Core/)" />
     <import index="zavc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.errors.messageTargets(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="5wk9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.spellchecker.util(MPS.IDEA/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="snbe" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util.io(MPS.IDEA/)" />
+    <import index="5wk9" ref="9979803b-18d3-440b-8a74-99cec41fc78e/java:com.intellij.spellchecker.util(jetbrains.mps.spellchecker.idea.stubs/)" />
     <import index="qurh" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.lang.typesystem.runtime(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="u78q" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typesystem.inference(MPS.Core/)" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
@@ -163,7 +166,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -494,9 +496,9 @@
                     <ref role="2Gs0qQ" node="1w" resolve="entry" />
                     <uo k="s:originTrace" v="n:801165755129692044" />
                   </node>
-                  <node concept="2qgKlT" id="1H" role="2OqNvi">
+                  <node concept="3zqWPK" id="1H" role="2OqNvi">
                     <ref role="37wK5l" to="v6og:29wDeGIfN0n" resolve="getWords" />
-                    <uo k="s:originTrace" v="n:801165755129692045" />
+                    <uo k="s:originTrace" v="n:1092965592457912413" />
                   </node>
                 </node>
               </node>
@@ -911,9 +913,9 @@
                 <ref role="3cqZAo" node="3u" resolve="predefinedDictionary" />
                 <uo k="s:originTrace" v="n:6620047724385270727" />
               </node>
-              <node concept="2qgKlT" id="3L" role="2OqNvi">
+              <node concept="3zqWPK" id="3L" role="2OqNvi">
                 <ref role="37wK5l" to="v6og:5Jv8_iJOIp2" resolve="getExpandedPath" />
-                <uo k="s:originTrace" v="n:6620047724385270728" />
+                <uo k="s:originTrace" v="n:1092965592457912415" />
               </node>
             </node>
           </node>

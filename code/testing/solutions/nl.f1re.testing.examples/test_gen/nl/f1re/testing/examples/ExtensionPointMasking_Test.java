@@ -22,6 +22,7 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import org.junit.Assert;
 import com.intellij.psi.codeStyle.WordPrefixMatcher;
+import com.intellij.psi.codeStyle.PlatformKeyboardLayoutConverter;
 import com.intellij.ide.util.gotoByName.GotoActionModel;
 import jetbrains.mps.ide.project.ProjectHelper;
 import de.slisson.mps.reflection.runtime.ReflectionUtil;
@@ -83,7 +84,7 @@ public class ExtensionPointMasking_Test extends BaseTransformationTest {
     }
 
     public MatchMode actionMatches(String pattern, AnAction action) {
-      WordPrefixMatcher matcher = new WordPrefixMatcher(pattern);
+      WordPrefixMatcher matcher = new WordPrefixMatcher(pattern, PlatformKeyboardLayoutConverter.INSTANCE);
       GotoActionModel model = new GotoActionModel(ProjectHelper.toIdeaProject(myProject), null, null);
       model.buildGroupMappings();
       return ((MatchMode) ReflectionUtil.callMethod(GotoActionModel.class, model, "actionMatches", new Class[]{String.class, Matcher.class, AnAction.class}, new Object[]{pattern, matcher, action}));

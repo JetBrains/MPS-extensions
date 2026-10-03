@@ -4299,27 +4299,24 @@
       <node id="9155712576883488057" at="23,50,24,36" concept="8" />
       <node id="9155712576883488057" at="26,68,27,102" concept="8" />
       <node id="9155712576883488057" at="29,27,30,17" concept="8" />
-      <node id="9155712576883488057" at="32,39,33,16" concept="8" />
-      <node id="9155712576883488300" at="35,62,36,69" concept="7" />
-      <node id="9155712576883488300" at="36,69,37,50" concept="3" />
-      <node id="9155712576883488300" at="37,50,38,26" concept="8" />
-      <node id="9155712576883488057" at="42,0,43,0" concept="11" trace="concept$Czlx" />
-      <node id="9155712576883488057" at="43,0,44,0" concept="11" trace="concept$OMgE" />
-      <node id="9155712576883488057" at="47,0,48,0" concept="11" trace="TConceptType$x0" />
-      <node id="9155712576883488057" at="48,0,49,0" concept="11" trace="SNodeType$hR" />
+      <node id="9155712576883488300" at="32,62,33,69" concept="7" />
+      <node id="9155712576883488300" at="33,69,34,50" concept="3" />
+      <node id="9155712576883488300" at="34,50,35,26" concept="8" />
+      <node id="9155712576883488057" at="39,0,40,0" concept="11" trace="concept$Czlx" />
+      <node id="9155712576883488057" at="40,0,41,0" concept="11" trace="concept$OMgE" />
+      <node id="9155712576883488057" at="44,0,45,0" concept="11" trace="TConceptType$x0" />
+      <node id="9155712576883488057" at="45,0,46,0" concept="11" trace="SNodeType$hR" />
       <node id="9155712576883488057" at="18,0,20,0" concept="1" trace="supertypesof_ConceptType_SNodeType_SubtypingRule#()V" />
       <node id="9155712576883488057" at="20,0,23,0" concept="6" trace="getSubOrSuperType#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9155712576883488057" at="23,0,26,0" concept="6" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="9155712576883488057" at="26,0,29,0" concept="6" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="9155712576883488057" at="29,0,32,0" concept="6" trace="isWeak#()Z" />
-      <node id="9155712576883488057" at="32,0,35,0" concept="6" trace="surelyKeepsConcept#()Z" />
-      <node id="9155712576883488300" at="35,0,40,0" concept="12" trace="createSNodeType_kca58u_a0a1#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="9155712576883488300" at="32,0,37,0" concept="12" trace="createSNodeType_kca58u_a0a1#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <scope id="9155712576883488057" at="18,61,18,61" />
       <scope id="9155712576883488058" at="20,121,21,99" />
       <scope id="9155712576883488057" at="23,50,24,36" />
       <scope id="9155712576883488057" at="26,68,27,102" />
       <scope id="9155712576883488057" at="29,27,30,17" />
-      <scope id="9155712576883488057" at="32,39,33,16" />
       <scope id="9155712576883488057" at="18,0,20,0" />
       <scope id="9155712576883488057" at="20,0,23,0">
         <var name="conceptType" id="9155712576883488057" />
@@ -4331,16 +4328,15 @@
         <var name="argument" id="9155712576883488057" />
       </scope>
       <scope id="9155712576883488057" at="29,0,32,0" />
-      <scope id="9155712576883488057" at="32,0,35,0" />
-      <scope id="9155712576883488300" at="35,62,38,26">
+      <scope id="9155712576883488300" at="32,62,35,26">
         <var name="n0" id="9155712576883488300" />
       </scope>
-      <scope id="9155712576883488300" at="35,0,40,0">
+      <scope id="9155712576883488300" at="32,0,37,0">
         <var name="p0" id="9155712576883488300" />
       </scope>
-      <unit id="9155712576883488057" at="41,0,45,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_ConceptType_SNodeType_SubtypingRule$LINKS" />
-      <unit id="9155712576883488057" at="46,0,50,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_ConceptType_SNodeType_SubtypingRule$CONCEPTS" />
-      <unit id="9155712576883488057" at="17,0,51,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_ConceptType_SNodeType_SubtypingRule" />
+      <unit id="9155712576883488057" at="38,0,42,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_ConceptType_SNodeType_SubtypingRule$LINKS" />
+      <unit id="9155712576883488057" at="43,0,47,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_ConceptType_SNodeType_SubtypingRule$CONCEPTS" />
+      <unit id="9155712576883488057" at="17,0,48,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_ConceptType_SNodeType_SubtypingRule" />
     </file>
   </root>
   <root nodeRef="r:fd3ba2d5-05a9-4b3b-93ad-a566c0e12538(de.q60.mps.shadowmodels.transformation.typesystem)/9155712576883490846">
@@ -4357,27 +4353,24 @@
       <node id="9155712576883490846" at="23,50,24,33" concept="8" />
       <node id="9155712576883490846" at="26,68,27,102" concept="8" />
       <node id="9155712576883490846" at="29,27,30,17" concept="8" />
-      <node id="9155712576883490846" at="32,39,33,16" concept="8" />
-      <node id="9155712576883490849" at="35,65,36,72" concept="7" />
-      <node id="9155712576883490849" at="36,72,37,50" concept="3" />
-      <node id="9155712576883490849" at="37,50,38,26" concept="8" />
-      <node id="9155712576883490846" at="42,0,43,0" concept="11" trace="concept$OMgE" />
-      <node id="9155712576883490846" at="43,0,44,0" concept="11" trace="concept$Czlx" />
-      <node id="9155712576883490846" at="47,0,48,0" concept="11" trace="SNodeType$hR" />
-      <node id="9155712576883490846" at="48,0,49,0" concept="11" trace="TConceptType$x0" />
+      <node id="9155712576883490849" at="32,65,33,72" concept="7" />
+      <node id="9155712576883490849" at="33,72,34,50" concept="3" />
+      <node id="9155712576883490849" at="34,50,35,26" concept="8" />
+      <node id="9155712576883490846" at="39,0,40,0" concept="11" trace="concept$OMgE" />
+      <node id="9155712576883490846" at="40,0,41,0" concept="11" trace="concept$Czlx" />
+      <node id="9155712576883490846" at="44,0,45,0" concept="11" trace="SNodeType$hR" />
+      <node id="9155712576883490846" at="45,0,46,0" concept="11" trace="TConceptType$x0" />
       <node id="9155712576883490846" at="18,0,20,0" concept="1" trace="supertypesof_SNodeType_ConceptType_SubtypingRule#()V" />
       <node id="9155712576883490846" at="20,0,23,0" concept="6" trace="getSubOrSuperType#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9155712576883490846" at="23,0,26,0" concept="6" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="9155712576883490846" at="26,0,29,0" concept="6" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="9155712576883490846" at="29,0,32,0" concept="6" trace="isWeak#()Z" />
-      <node id="9155712576883490846" at="32,0,35,0" concept="6" trace="surelyKeepsConcept#()Z" />
-      <node id="9155712576883490849" at="35,0,40,0" concept="12" trace="createTConceptType_33nd2m_a0a1#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="9155712576883490849" at="32,0,37,0" concept="12" trace="createTConceptType_33nd2m_a0a1#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <scope id="9155712576883490846" at="18,61,18,61" />
       <scope id="9155712576883490847" at="20,119,21,100" />
       <scope id="9155712576883490846" at="23,50,24,33" />
       <scope id="9155712576883490846" at="26,68,27,102" />
       <scope id="9155712576883490846" at="29,27,30,17" />
-      <scope id="9155712576883490846" at="32,39,33,16" />
       <scope id="9155712576883490846" at="18,0,20,0" />
       <scope id="9155712576883490846" at="20,0,23,0">
         <var name="sNodeType" id="9155712576883490846" />
@@ -4389,16 +4382,15 @@
         <var name="argument" id="9155712576883490846" />
       </scope>
       <scope id="9155712576883490846" at="29,0,32,0" />
-      <scope id="9155712576883490846" at="32,0,35,0" />
-      <scope id="9155712576883490849" at="35,65,38,26">
+      <scope id="9155712576883490849" at="32,65,35,26">
         <var name="n0" id="9155712576883490849" />
       </scope>
-      <scope id="9155712576883490849" at="35,0,40,0">
+      <scope id="9155712576883490849" at="32,0,37,0">
         <var name="p0" id="9155712576883490849" />
       </scope>
-      <unit id="9155712576883490846" at="41,0,45,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_SNodeType_ConceptType_SubtypingRule$LINKS" />
-      <unit id="9155712576883490846" at="46,0,50,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_SNodeType_ConceptType_SubtypingRule$CONCEPTS" />
-      <unit id="9155712576883490846" at="17,0,51,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_SNodeType_ConceptType_SubtypingRule" />
+      <unit id="9155712576883490846" at="38,0,42,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_SNodeType_ConceptType_SubtypingRule$LINKS" />
+      <unit id="9155712576883490846" at="43,0,47,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_SNodeType_ConceptType_SubtypingRule$CONCEPTS" />
+      <unit id="9155712576883490846" at="17,0,48,0" name="de.q60.mps.shadowmodels.transformation.typesystem.supertypesof_SNodeType_ConceptType_SubtypingRule" />
     </file>
   </root>
   <root nodeRef="r:fd3ba2d5-05a9-4b3b-93ad-a566c0e12538(de.q60.mps.shadowmodels.transformation.typesystem)/9170566427534637607">

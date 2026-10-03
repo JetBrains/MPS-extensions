@@ -91,7 +91,7 @@ public class MergedOrder_Test extends BaseTransformationTest {
         Assert.assertEquals("ID of existing inport (C) has changed.", inPortCIdAfterImport, inPortCIdBeforeImport);
 
         // All inports should have been merged into the source model
-        Assert.assertEquals("Size of merged inports list does not match expectation", ListSequence.fromList(SLinkOperations.getChildren(sysAfterImport, LINKS.inports$37Hm)).count(), ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("testDestination"), LINKS.inports$37Hm)).count());
+        Assert.assertEquals("Size of merged inports list does not match expectation", Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(sysAfterImport, LINKS.inports$37Hm)).count()), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("testDestination"), LINKS.inports$37Hm)).count()));
 
         // Check ordering of the merged elements after inserting a new before and after an existing item
         SNode inA = ListSequence.fromList(SLinkOperations.getChildren(sysAfterImport, LINKS.inports$37Hm)).findFirst((it) -> Objects.equals(SPropertyOperations.getString(it, PROPS.name$MnvL), "A"));
@@ -100,13 +100,13 @@ public class MergedOrder_Test extends BaseTransformationTest {
         SNode inD = ListSequence.fromList(SLinkOperations.getChildren(sysAfterImport, LINKS.inports$37Hm)).findFirst((it) -> Objects.equals(SPropertyOperations.getString(it, PROPS.name$MnvL), "D"));
         SNode inE = ListSequence.fromList(SLinkOperations.getChildren(sysAfterImport, LINKS.inports$37Hm)).findFirst((it) -> Objects.equals(SPropertyOperations.getString(it, PROPS.name$MnvL), "E"));
 
-        Assert.assertEquals("Inport A does not occur as first item in merged inport list", 0, SNodeOperations.getIndexInParent(inA));
-        Assert.assertEquals("Inport B does not occur as second item in merged inport list", 1, SNodeOperations.getIndexInParent(inB));
-        Assert.assertEquals("Inport C does not occur as third item in merged inport list", 2, SNodeOperations.getIndexInParent(inC));
-        Assert.assertEquals("Inport D does not occur as fourth item in merged inport list", 3, SNodeOperations.getIndexInParent(inD));
-        Assert.assertEquals("Inport E does not occur as fifth item in merged inport list", 4, SNodeOperations.getIndexInParent(inE));
+        Assert.assertEquals("Inport A does not occur as first item in merged inport list", Integer.valueOf(0), Integer.valueOf(SNodeOperations.getIndexInParent(inA)));
+        Assert.assertEquals("Inport B does not occur as second item in merged inport list", Integer.valueOf(1), Integer.valueOf(SNodeOperations.getIndexInParent(inB)));
+        Assert.assertEquals("Inport C does not occur as third item in merged inport list", Integer.valueOf(2), Integer.valueOf(SNodeOperations.getIndexInParent(inC)));
+        Assert.assertEquals("Inport D does not occur as fourth item in merged inport list", Integer.valueOf(3), Integer.valueOf(SNodeOperations.getIndexInParent(inD)));
+        Assert.assertEquals("Inport E does not occur as fifth item in merged inport list", Integer.valueOf(4), Integer.valueOf(SNodeOperations.getIndexInParent(inE)));
 
-        Assert.assertEquals(ListSequence.fromList(SLinkOperations.getChildren(sysAfterImport, LINKS.inports$37Hm)).count(), ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("testDestination"), LINKS.inports$37Hm)).count());
+        Assert.assertEquals(Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(sysAfterImport, LINKS.inports$37Hm)).count()), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("testDestination"), LINKS.inports$37Hm)).count()));
 
       });
     }

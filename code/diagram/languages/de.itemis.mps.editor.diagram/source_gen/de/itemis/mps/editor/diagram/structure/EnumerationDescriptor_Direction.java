@@ -22,7 +22,7 @@ public class EnumerationDescriptor_Direction extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_DOWN_0 = new EnumerationDescriptor.MemberDescriptor("DOWN", "DOWN", 0x69cd1fb81afb69feL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/9167550852342474386");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x69cd1fb81afb69b8L, 0x2a08865282da11fbL, 0x69cd1fb81afb69b9L, 0x69cd1fb81afb69edL, 0x69cd1fb81afb69f4L, 0x69cd1fb81afb69feL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_UNDEFINED_0, myMember_RIGHT_0, myMember_LEFT_0, myMember_UP_0, myMember_DOWN_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_UNDEFINED_0, myMember_RIGHT_0, myMember_LEFT_0, myMember_UP_0, myMember_DOWN_0);
 
   @Nullable
   @Override

@@ -22,6 +22,9 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
       <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
@@ -286,7 +289,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="7835263205327057228" name="jetbrains.mps.lang.smodel.structure.Node_GetChildrenAndChildAttributesOperation" flags="ng" index="Bykcj" />
       <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
@@ -1341,7 +1343,7 @@
       <node concept="2ElW$n" id="77A3HzrI7kj" role="2El2Yn">
         <node concept="2OqwBi" id="77A3HzrKduh" role="2EmT7a">
           <node concept="2EmZKS" id="77A3HzrKdr7" role="2Oq$k0" />
-          <node concept="2qgKlT" id="77A3HzrKdKd" role="2OqNvi">
+          <node concept="3zqWPK" id="WEZADybpVt" role="2OqNvi">
             <ref role="37wK5l" to="r23f:77A3HzrK1bb" resolve="isLeftAssociative" />
           </node>
         </node>
@@ -1368,7 +1370,7 @@
         </node>
         <node concept="2OqwBi" id="77A3HzrK14n" role="2EmURo">
           <node concept="2EmZKS" id="77A3HzrJY8m" role="2Oq$k0" />
-          <node concept="2qgKlT" id="77A3HzrKdpT" role="2OqNvi">
+          <node concept="3zqWPK" id="WEZADybpVv" role="2OqNvi">
             <ref role="37wK5l" to="r23f:77A3HzrK1aC" resolve="getPriority" />
           </node>
         </node>

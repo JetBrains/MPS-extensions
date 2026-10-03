@@ -57,15 +57,19 @@
   </root>
   <root nodeRef="r:46a0b328-d35b-4723-b795-005cdd95d53f(de.q60.mps.polymorphicfunctions.runtime.plugin)/7838109265520671048">
     <file name="ApplicationPlugin_AppPluginPart.java">
-      <node id="7838109265520671637" at="13,25,14,44" concept="2" />
-      <node id="2282736600844790312" at="14,44,15,57" concept="2" />
-      <node id="7838109265520671048" at="10,0,12,0" concept="1" trace="ApplicationPlugin_AppPluginPart#()V" />
-      <node id="7838109265520671048" at="12,0,17,0" concept="4" trace="dispose#()V" />
-      <scope id="7838109265520671048" at="10,44,10,44" />
-      <scope id="7838109265520671048" at="10,0,12,0" />
-      <scope id="7838109265520671050" at="13,25,15,57" />
-      <scope id="7838109265520671048" at="12,0,17,0" />
-      <unit id="7838109265520671048" at="9,0,18,0" name="de.q60.mps.polymorphicfunctions.runtime.plugin.ApplicationPlugin_AppPluginPart" />
+      <node id="9110072569959579573" at="14,22,15,92" concept="2" />
+      <node id="7838109265520671637" at="18,25,19,44" concept="2" />
+      <node id="2282736600844790312" at="19,44,20,57" concept="2" />
+      <node id="7838109265520671048" at="11,0,13,0" concept="1" trace="ApplicationPlugin_AppPluginPart#()V" />
+      <node id="7838109265520671048" at="13,0,17,0" concept="4" trace="init#()V" />
+      <node id="7838109265520671048" at="17,0,22,0" concept="4" trace="dispose#()V" />
+      <scope id="7838109265520671048" at="11,44,11,44" />
+      <scope id="9110072569959579404" at="14,22,15,92" />
+      <scope id="7838109265520671048" at="11,0,13,0" />
+      <scope id="7838109265520671050" at="18,25,20,57" />
+      <scope id="7838109265520671048" at="13,0,17,0" />
+      <scope id="7838109265520671048" at="17,0,22,0" />
+      <unit id="7838109265520671048" at="10,0,23,0" name="de.q60.mps.polymorphicfunctions.runtime.plugin.ApplicationPlugin_AppPluginPart" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
       <node id="7838109265520671048" at="23,66,24,53" concept="2" />

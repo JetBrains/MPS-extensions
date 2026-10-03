@@ -67,9 +67,9 @@ public class Pages_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         List<SNode> listOfNodes = ListSequence.fromListAndArray(new ArrayList<SNode>(), createIntegerConstant_yj9xdi_a0a0a0a0b0g8(), createIntegerConstant_yj9xdi_b0a0a0a0b0g8());
         Pages sutPages = new Pages(listOfNodes, 2);
-        Assert.assertEquals(1, sutPages.size());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(sutPages.size()));
         ListSequence.fromList(listOfNodes).addElement(createIntegerConstant_yj9xdi_a0a3a0a1a6i());
-        Assert.assertEquals(2, sutPages.size());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(sutPages.size()));
       });
     }
     public void test_numberOfPagesWhenPageSizeIsZero() throws Exception {
@@ -77,7 +77,7 @@ public class Pages_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         List<SNode> listOfNodes = ListSequence.fromListAndArray(new ArrayList<SNode>(), createIntegerConstant_yj9xdi_a0a0a0a0b0h8(), createIntegerConstant_yj9xdi_b0a0a0a0b0h8());
         Pages sutPages = new Pages(listOfNodes, 0);
-        Assert.assertEquals(0, sutPages.size());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(sutPages.size()));
       });
     }
 

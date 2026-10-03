@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import jetbrains.mps.openapi.editor.style.StyleAttribute;
 import java.util.List;
@@ -16,7 +15,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import jetbrains.mps.smodel.builder.SNodeBuilder;
@@ -25,13 +23,11 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class FullWidthRootStyle__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x1919c723b60b4592L, 0x93189ce96d91da44L, 0x6f05f4f4cf139226L, "de.itemis.mps.editor.celllayout.structure.FullWidthRootStyle");
 
-  public static final SMethod<SNode> getStyleAttributeDeclaration_id2nutuZsM_FC = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getStyleAttributeDeclaration").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2728748097294981864L).languageId(0x93189ce96d91da44L, 0x1919c723b60b4592L).build2();
-  public static final SMethod<StyleAttribute<Boolean>> getStyleAttribute_id3a0zHG4tjdX = new SMethodBuilder<StyleAttribute<Boolean>>(new SJavaCompoundTypeImpl(StyleAttribute.class)).name("getStyleAttribute").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3639065570239132541L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
+  public static final SMethod<SNode> getStyleAttributeDeclaration_id2nutuZsM_FC = new SMethodBuilder<>(SNode.class).name("getStyleAttributeDeclaration").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2728748097294981864L).languageId(0x93189ce96d91da44L, 0x1919c723b60b4592L).build2();
+  public static final SMethod<StyleAttribute<Boolean>> getStyleAttribute_id3a0zHG4tjdX = new SMethodBuilder<>((Class<StyleAttribute<Boolean>>) ((Class) Object.class)).name("getStyleAttribute").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3639065570239132541L).languageId(0xa83a7ff23bde13baL, 0x18bc659203a64e29L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStyleAttributeDeclaration_id2nutuZsM_FC, getStyleAttribute_id3a0zHG4tjdX);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStyleAttributeDeclaration_id2nutuZsM_FC, getStyleAttribute_id3a0zHG4tjdX);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getStyleAttributeDeclaration_id2nutuZsM_FC(@NotNull SAbstractConcept __thisConcept__) {
     return SLinkOperations.getTarget(_quotation_createNode_edctks_a0a0a(), LINKS.attributeDeclaration$Xjv0);
@@ -43,10 +39,6 @@ public final class FullWidthRootStyle__BehaviorDescriptor extends BaseBHDescript
   /*package*/ FullWidthRootStyle__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

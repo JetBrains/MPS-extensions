@@ -63,7 +63,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
     return editorCell;
   }
   private EditorCell createCollapsible_1() {
-    return createCollapsible_0(getEditorContext(), myNode);
+    return createCollapsible_0(getEditorContext(), getNode());
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "EXPANDED");

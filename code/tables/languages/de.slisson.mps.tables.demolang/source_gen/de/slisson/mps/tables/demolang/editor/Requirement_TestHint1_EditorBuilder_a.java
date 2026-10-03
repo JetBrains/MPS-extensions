@@ -113,7 +113,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     }
   }
   private EditorCell createPartialTable_1() {
-    return createPartialTable_0(getEditorContext(), myNode);
+    return createPartialTable_0(getEditorContext(), getNode());
   }
   public Grid createStaticHorizontal_yc2yzs_a0(final EditorContext editorContext, final SNode node) {
     Grid grid = new Grid();

@@ -28,14 +28,14 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
   }
 
   /*package*/ EditorCell createCell() {
-    return createMultiline_Constant_1();
+    return createMultiline_Constant_0();
   }
 
-  private EditorCell createMultiline_Constant_0(EditorContext editorContext, SNode node) {
+  private EditorCell createMultiline_Constant_0() {
     getCellFactory().pushCellContext();
 
     try {
-      EditorCell editorCell = EditorCell_Multiline.create(editorContext, new ConstantModelAccessor(_QueryFunction_JComponent_b5vi9g_a0()), node);
+      EditorCell editorCell = EditorCell_Multiline.create(getEditorContext(), new ConstantModelAccessor(_QueryFunction_JComponent_b5vi9g_a0()), getNode());
       setCellContext(editorCell);
 
       editorCell.setCellId("Multiline_Constant_b5vi9g_a");
@@ -48,9 +48,6 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
     } finally {
       getCellFactory().popCellContext();
     }
-  }
-  private EditorCell createMultiline_Constant_1() {
-    return createMultiline_Constant_0(getEditorContext(), myNode);
   }
   private String _QueryFunction_JComponent_b5vi9g_a0() {
     return "Multi-line\ntext";

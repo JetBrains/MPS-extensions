@@ -13,6 +13,9 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
@@ -153,7 +156,6 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -769,7 +771,7 @@
             <node concept="1YBJjd" id="2Vy1$4MWV1n" role="2Oq$k0">
               <ref role="1YBMHb" node="2Vy1$4MWxAI" resolve="n" />
             </node>
-            <node concept="2qgKlT" id="2Vy1$4MWVyY" role="2OqNvi">
+            <node concept="3zqWPK" id="WEZADybpSB" role="2OqNvi">
               <ref role="37wK5l" to="e9uj:2Vy1$4MWTf2" resolve="getMissingGroups" />
             </node>
           </node>
@@ -910,7 +912,7 @@
             <node concept="37vLTw" id="2Vy1$4MWSZe" role="2Oq$k0">
               <ref role="3cqZAo" node="2Vy1$4MWSX$" resolve="call" />
             </node>
-            <node concept="2qgKlT" id="2Vy1$4MWVF9" role="2OqNvi">
+            <node concept="3zqWPK" id="WEZADybpSD" role="2OqNvi">
               <ref role="37wK5l" to="e9uj:2Vy1$4MWTf2" resolve="getMissingGroups" />
             </node>
           </node>
@@ -930,7 +932,7 @@
                     </node>
                     <node concept="Q6c8r" id="2Vy1$4MWYmI" role="1m5AlR" />
                   </node>
-                  <node concept="2qgKlT" id="2Vy1$4MWZex" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybpSF" role="2OqNvi">
                     <ref role="37wK5l" to="e9uj:2Vy1$4MWTf2" resolve="getMissingGroups" />
                   </node>
                 </node>

@@ -67,7 +67,7 @@ public class PlatformTestUtilWithoutModelAccess_Test extends BaseTransformationT
           PlatformTestUtil.waitWhileBusy(tree);
         });
 
-        Assert.assertEquals(6, TestBody.this.getExpandedNodeCount(tree));
+        Assert.assertEquals(Integer.valueOf(6), Integer.valueOf(TestBody.this.getExpandedNodeCount(tree)));
       });
     }
     public void test_allUpperCase() throws Exception {

@@ -20,7 +20,7 @@ public final class ShowIntentionInReadOnlyCell__BehaviorDescriptor extends BaseB
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xb92f861d0184446dL, 0xb88b6dcf0e070241L, 0x3dbc5379fd641f5L, "com.mbeddr.mpsutil.intentions.structure.ShowIntentionInReadOnlyCell");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.flag$lrAD, true);

@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
@@ -15,7 +14,6 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -24,12 +22,10 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class NamedBackReferenceRegexp__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x416461831d742056L, "com.mbeddr.mpsutil.blutil.structure.NamedBackReferenceRegexp");
 
-  public static final SMethod<String> getString_idhMuDF1A = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getString").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1222432436326L).languageId(0xb09669cd7c8408c0L, 0xdaafa647f1f74b0bL).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
+  public static final SMethod<String> getString_idhMuDF1A = new SMethodBuilder<>(String.class).name("getString").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1222432436326L).languageId(0xb09669cd7c8408c0L, 0xdaafa647f1f74b0bL).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), "vars"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getString_idhMuDF1A);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getString_idhMuDF1A);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getString_idhMuDF1A(@NotNull SNode __thisNode__, List<SNode> vars) {
     return "\\k<" + SPropertyOperations.getString(SLinkOperations.getTarget(__thisNode__, LINKS.group$zFD2), PROPS.name$MnvL) + ">";
@@ -38,10 +34,6 @@ public final class NamedBackReferenceRegexp__BehaviorDescriptor extends BaseBHDe
   /*package*/ NamedBackReferenceRegexp__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

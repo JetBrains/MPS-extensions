@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.awt.Point;
 import com.dslfoundry.plaintextgen.plugin.CharacterMatrix;
@@ -17,7 +16,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
@@ -25,16 +23,14 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 public final class IFlowElement__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0xcf681fc9c7984f89L, 0xaf38ba3c0ac342d9L, 0x692d8403c84c5eaeL, "com.dslfoundry.plaintextflow.structure.IFlowElement");
 
-  public static final SMethod<String> prefix_id6$Hx0f8jWbu = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("prefix").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7578858899714851550L).languageId(0xaf38ba3c0ac342d9L, 0xcf681fc9c7984f89L).build2();
-  public static final SMethod<String> getAncestorPrefix_id6$Hx0f8lz7R = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getAncestorPrefix").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7578858899715273207L).languageId(0xaf38ba3c0ac342d9L, 0xcf681fc9c7984f89L).build2();
-  public static final SMethod<Integer> getWidth_id6gwxh6GcBOM = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
-  public static final SMethod<Integer> getEditorViewWidth_id2jBmyzyEzhY = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getEditorViewWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, ""));
-  public static final SMethod<Point> getPosition_id4GbnmmUaMp0 = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("getPosition").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""));
+  public static final SMethod<String> prefix_id6$Hx0f8jWbu = new SMethodBuilder<>(String.class).name("prefix").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7578858899714851550L).languageId(0xaf38ba3c0ac342d9L, 0xcf681fc9c7984f89L).build2();
+  public static final SMethod<String> getAncestorPrefix_id6$Hx0f8lz7R = new SMethodBuilder<>(String.class).name("getAncestorPrefix").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7578858899715273207L).languageId(0xaf38ba3c0ac342d9L, 0xcf681fc9c7984f89L).build2();
+  public static final SMethod<Integer> getWidth_id6gwxh6GcBOM = new SMethodBuilder<>(Integer.TYPE).name("getWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7214912913997462834L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
+  public static final SMethod<Integer> getEditorViewWidth_id2jBmyzyEzhY = new SMethodBuilder<>(Integer.TYPE).name("getEditorViewWidth").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2659193236633564286L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Boolean.TYPE, "isQueriedNode"));
+  public static final SMethod<Point> getPosition_id4GbnmmUaMp0 = new SMethodBuilder<>(Point.class).name("getPosition").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084882496L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, "row"), SMethodBuilder.createJavaParameter(Integer.TYPE, "column"), SMethodBuilder.createJavaParameter(CharacterMatrix.class, "output"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(prefix_id6$Hx0f8jWbu, getAncestorPrefix_id6$Hx0f8lz7R, getWidth_id6gwxh6GcBOM, getEditorViewWidth_id2jBmyzyEzhY, getPosition_id4GbnmmUaMp0);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(prefix_id6$Hx0f8jWbu, getAncestorPrefix_id6$Hx0f8lz7R, getWidth_id6gwxh6GcBOM, getEditorViewWidth_id2jBmyzyEzhY, getPosition_id4GbnmmUaMp0);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String prefix_id6$Hx0f8jWbu(@NotNull SNode __thisNode__) {
     return "";
@@ -62,10 +58,6 @@ public final class IFlowElement__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IFlowElement__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

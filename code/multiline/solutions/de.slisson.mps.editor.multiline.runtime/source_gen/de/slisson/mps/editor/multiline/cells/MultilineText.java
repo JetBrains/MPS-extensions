@@ -127,7 +127,7 @@ public class MultilineText {
 
   /**
    * Delete words from range [from, to], inclusive, where from and to are word numbers.
-   * {@code  deleteWords(2, 3)} will delete the third and fourth word.
+   *  {@code  deleteWords(2, 3)} will delete the third and fourth word.
    */
   public void deleteWords(int from, int to) {
     String[][] oldWords = myWords;

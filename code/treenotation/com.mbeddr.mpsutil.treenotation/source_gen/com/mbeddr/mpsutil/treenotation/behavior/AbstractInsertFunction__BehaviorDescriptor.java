@@ -9,26 +9,22 @@ import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.util.List;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class AbstractInsertFunction__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xc73b17af16a14490L, 0x80728a84937c5206L, 0x73da2e7c425a1f0cL, "com.mbeddr.mpsutil.treenotation.structure.AbstractInsertFunction");
 
-  public static final SMethod<List<SConcept>> getStandardParameters_id7fqbBL2oi0G = new SMethodBuilder<List<SConcept>>(new SJavaCompoundTypeImpl((Class<List<SConcept>>) ((Class) Object.class))).name("getStandardParameters").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(8348035970509119532L).languageId(0x80728a84937c5206L, 0xc73b17af16a14490L).build2();
+  public static final SMethod<List<SConcept>> getStandardParameters_id7fqbBL2oi0G = new SMethodBuilder<>((Class<List<SConcept>>) ((Class) Object.class)).name("getStandardParameters").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(8348035970509119532L).languageId(0x80728a84937c5206L, 0xc73b17af16a14490L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStandardParameters_id7fqbBL2oi0G);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStandardParameters_id7fqbBL2oi0G);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<SConcept> getStandardParameters_id7fqbBL2oi0G(@NotNull SNode __thisNode__) {
     List<SConcept> result = ListSequence.fromList(new ArrayList<SConcept>());
@@ -40,10 +36,6 @@ public final class AbstractInsertFunction__BehaviorDescriptor extends BaseBHDesc
   /*package*/ AbstractInsertFunction__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

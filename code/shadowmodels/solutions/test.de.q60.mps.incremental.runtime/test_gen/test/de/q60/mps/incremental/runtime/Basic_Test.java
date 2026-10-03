@@ -22,11 +22,11 @@ public class Basic_Test {
       return 10;
     };
     int result = engine.evaluate(1, f);
-    Assert.assertEquals(10, result);
-    Assert.assertEquals(evalCount.value, 1);
+    Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(1));
     result = engine.evaluate(1, f);
-    Assert.assertEquals(10, result);
-    Assert.assertEquals(evalCount.value, 1);
+    Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(1));
   }
   @Test
   public void test_invalidation() throws Exception {
@@ -38,17 +38,17 @@ public class Basic_Test {
       return 10;
     };
     int result = engine.evaluate(1, f);
-    Assert.assertEquals(10, result);
-    Assert.assertEquals(evalCount.value, 1);
+    Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(1));
     result = engine.evaluate(1, f);
-    Assert.assertEquals(10, result);
-    Assert.assertEquals(evalCount.value, 1);
+    Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(1));
 
     DependencyBroadcaster.INSTANCE.dependenciesChanged(Sequence.<DependencyKey>singleton(new SimpleDependencyKey("a")));
 
     result = engine.evaluate(1, f);
-    Assert.assertEquals(10, result);
-    Assert.assertEquals(evalCount.value, 2);
+    Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(2));
   }
   @Test
   public void test_trackableValue() throws Exception {
@@ -61,17 +61,17 @@ public class Basic_Test {
       return value.get() * 2;
     };
     int result = engine.evaluate(1, f);
-    Assert.assertEquals(20, result);
-    Assert.assertEquals(evalCount.value, 1);
+    Assert.assertEquals(Integer.valueOf(20), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(1));
     result = engine.evaluate(1, f);
-    Assert.assertEquals(20, result);
-    Assert.assertEquals(evalCount.value, 1);
+    Assert.assertEquals(Integer.valueOf(20), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(1));
 
     value.set(7);
 
     result = engine.evaluate(1, f);
-    Assert.assertEquals(14, result);
-    Assert.assertEquals(evalCount.value, 2);
+    Assert.assertEquals(Integer.valueOf(14), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(2));
   }
   @Test
   public void test_transitive() throws Exception {
@@ -90,24 +90,24 @@ public class Basic_Test {
       return engine.evaluate(1, f1) * value2.get() * 7;
     };
     int result = engine.evaluate(2, f2);
-    Assert.assertEquals(2 * 3 * 5 * 7, result);
-    Assert.assertEquals(evalCount1.value, 1);
-    Assert.assertEquals(evalCount2.value, 1);
+    Assert.assertEquals(Integer.valueOf(2 * 3 * 5 * 7), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount1.value), Integer.valueOf(1));
+    Assert.assertEquals(Integer.valueOf(evalCount2.value), Integer.valueOf(1));
     result = engine.evaluate(2, f2);
-    Assert.assertEquals(2 * 3 * 5 * 7, result);
-    Assert.assertEquals(evalCount1.value, 1);
-    Assert.assertEquals(evalCount2.value, 1);
+    Assert.assertEquals(Integer.valueOf(2 * 3 * 5 * 7), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount1.value), Integer.valueOf(1));
+    Assert.assertEquals(Integer.valueOf(evalCount2.value), Integer.valueOf(1));
 
     value1.set(11);
     result = engine.evaluate(2, f2);
-    Assert.assertEquals(11 * 3 * 5 * 7, result);
-    Assert.assertEquals(evalCount1.value, 2);
-    Assert.assertEquals(evalCount2.value, 2);
+    Assert.assertEquals(Integer.valueOf(11 * 3 * 5 * 7), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount1.value), Integer.valueOf(2));
+    Assert.assertEquals(Integer.valueOf(evalCount2.value), Integer.valueOf(2));
 
     value2.set(13);
     result = engine.evaluate(2, f2);
-    Assert.assertEquals(11 * 13 * 5 * 7, result);
-    Assert.assertEquals(evalCount1.value, 2);
-    Assert.assertEquals(evalCount2.value, 3);
+    Assert.assertEquals(Integer.valueOf(11 * 13 * 5 * 7), Integer.valueOf(result));
+    Assert.assertEquals(Integer.valueOf(evalCount1.value), Integer.valueOf(2));
+    Assert.assertEquals(Integer.valueOf(evalCount2.value), Integer.valueOf(3));
   }
 }

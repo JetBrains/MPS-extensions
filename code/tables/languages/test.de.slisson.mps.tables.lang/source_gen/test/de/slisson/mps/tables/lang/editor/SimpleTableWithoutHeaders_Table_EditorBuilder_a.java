@@ -115,7 +115,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
   }
   private EditorCell createTable_1() {
-    return createTable_0(getEditorContext(), myNode);
+    return createTable_0(getEditorContext(), getNode());
   }
   public Grid createChildsVertical_315fwh_a0(final EditorContext editorContext, final SNode node) {
     Grid grid = new Grid();

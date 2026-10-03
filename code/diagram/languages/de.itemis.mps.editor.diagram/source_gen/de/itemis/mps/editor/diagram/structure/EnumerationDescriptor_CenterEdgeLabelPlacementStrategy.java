@@ -23,7 +23,7 @@ public class EnumerationDescriptor_CenterEdgeLabelPlacementStrategy extends Enum
   private final EnumerationDescriptor.MemberDescriptor myMember_CENTER_LAYER_0 = new EnumerationDescriptor.MemberDescriptor("CENTER_LAYER", "CENTER_LAYER", 0x32d28aa5f4563ee7L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379164391");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f4563eccL, 0x32d28aa5f4563ecdL, 0x32d28aa5f4563ed1L, 0x32d28aa5f4563ed5L, 0x32d28aa5f4563edaL, 0x32d28aa5f4563ee0L, 0x32d28aa5f4563ee7L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_MEDIAN_LAYER_0, myMember_TAIL_LAYER_0, myMember_HEAD_LAYER_0, myMember_SPACE_EFFICIENT_LAYER_0, myMember_WIDEST_LAYER_0, myMember_CENTER_LAYER_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_MEDIAN_LAYER_0, myMember_TAIL_LAYER_0, myMember_HEAD_LAYER_0, myMember_SPACE_EFFICIENT_LAYER_0, myMember_WIDEST_LAYER_0, myMember_CENTER_LAYER_0);
 
   @Nullable
   @Override

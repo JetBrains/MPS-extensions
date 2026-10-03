@@ -33,7 +33,7 @@ public final class RectPackingLayoutConfig__BehaviorDescriptor extends BaseBHDes
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6a0cd7629cdf9f3L, "de.itemis.mps.editor.diagram.structure.RectPackingLayoutConfig");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.aspectRatio$Y5If, new BigDecimal(RectPackingOptions.ASPECT_RATIO.getDefault()).setScale(1, RoundingMode.HALF_UP).toString());

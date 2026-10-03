@@ -28,7 +28,7 @@ public final class TreeLayoutConfig__BehaviorDescriptor extends BaseBHDescriptor
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6a0cd762abaa534L, "de.itemis.mps.editor.diagram.structure.TreeLayoutConfig");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.aspectRatio$AK0M, new BigDecimal(MrTreeOptions.ASPECT_RATIO.getDefault()).setScale(1, RoundingMode.HALF_UP).toString());

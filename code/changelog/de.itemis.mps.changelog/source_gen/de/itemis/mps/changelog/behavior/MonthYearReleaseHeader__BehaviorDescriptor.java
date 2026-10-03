@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -27,9 +26,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class MonthYearReleaseHeader__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x638c9345261349dcL, 0xb2ae8ceadef24141L, 0xd5813f148b9098dL, "de.itemis.mps.changelog.structure.MonthYearReleaseHeader");
 
-  public static final SMethod<Boolean> isAfter_id6aVQm8Wg3U3 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isAfter").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7114519052302696067L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  public static final SMethod<Boolean> isAfter_id6aVQm8Wg3U3 = new SMethodBuilder<>(Boolean.TYPE).name("isAfter").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7114519052302696067L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2(SMethodBuilder.createJavaParameter(SNode.class, "header"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isAfter_id6aVQm8Wg3U3);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isAfter_id6aVQm8Wg3U3);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     int month = Calendar.getInstance().get(Calendar.MONTH);

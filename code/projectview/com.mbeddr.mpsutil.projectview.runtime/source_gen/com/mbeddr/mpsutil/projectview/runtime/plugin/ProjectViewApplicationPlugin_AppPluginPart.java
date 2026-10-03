@@ -10,10 +10,10 @@ public class ProjectViewApplicationPlugin_AppPluginPart extends ApplicationPlugi
   }
   @Override
   public void init() {
-    ProjectViewManager.getInstance().install();
+    ProjectViewManager.getInstance().install(getPlatform());
   }
   @Override
   public void dispose() {
-    ProjectViewManager.getInstance().dispose();
+    ProjectViewManager.getInstance().dispose(getPlatform());
   }
 }

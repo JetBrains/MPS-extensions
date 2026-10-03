@@ -8,33 +8,25 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class IInlineEditorContainer__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x120e1c9d4e274478L, 0xb2afb2c3bd3850b0L, 0xd19937109259764L, "com.mbeddr.mpsutil.editor.querylist.structure.IInlineEditorContainer");
 
-  public static final SMethod<SNode> getConceptForInlineComponent_id6TSlAOGJCRe = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getConceptForInlineComponent").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7960207368279461326L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
+  public static final SMethod<SNode> getConceptForInlineComponent_id6TSlAOGJCRe = new SMethodBuilder<>(SNode.class).name("getConceptForInlineComponent").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7960207368279461326L).languageId(0xb2afb2c3bd3850b0L, 0x120e1c9d4e274478L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getConceptForInlineComponent_id6TSlAOGJCRe);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getConceptForInlineComponent_id6TSlAOGJCRe);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ IInlineEditorContainer__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

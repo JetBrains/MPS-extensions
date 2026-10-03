@@ -13,7 +13,7 @@
       <unit at="11,0,63,0" name="nl.f1re.mps.editor.swing.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,36,0" name="nl.f1re.mps.editor.swing.structure.LanguageConceptSwitch" />
+      <unit at="12,0,44,0" name="nl.f1re.mps.editor.swing.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="16,0,121,0" name="nl.f1re.mps.editor.swing.structure.StructureAspectDescriptor" />
@@ -33,8 +33,8 @@
       <scope id="8659612544238797919" at="23,60,29,48" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8659612544238797919" at="12,0,13,0" concept="6" trace="CellModel_CustomJComponent" />
-      <node id="8659612544238797919" at="19,116,20,65" concept="0" />
+      <node id="8659612544238797919" at="14,0,15,0" concept="6" trace="CellModel_CustomJComponent" />
+      <node id="8659612544238797919" at="21,116,22,65" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8659612544238797919" at="17,0,18,0" concept="1" trace="myConceptCellModel_CustomJComponent" />
@@ -73,8 +73,8 @@
       <scope id="8659612544238937882" at="52,64,58,52" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8659612544238937882" at="16,0,17,0" concept="6" trace="StubCellModel_CustomJComponent" />
-      <node id="8659612544238937882" at="23,59,24,69" concept="0" />
+      <node id="8659612544238937882" at="18,0,19,0" concept="6" trace="StubCellModel_CustomJComponent" />
+      <node id="8659612544238937882" at="25,59,26,69" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8659612544238937882" at="21,0,22,0" concept="1" trace="myConceptStubCellModel_CustomJComponent" />
@@ -109,8 +109,8 @@
       <scope id="8659612544244102551" at="38,52,44,40" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8659612544244102551" at="14,0,15,0" concept="6" trace="QueryFunction_Font" />
-      <node id="8659612544244102551" at="21,73,22,57" concept="0" />
+      <node id="8659612544244102551" at="16,0,17,0" concept="6" trace="QueryFunction_Font" />
+      <node id="8659612544244102551" at="23,73,24,57" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8659612544244102551" at="19,0,20,0" concept="1" trace="myConceptQueryFunction_Font" />
@@ -146,8 +146,8 @@
       <scope id="8659612544244790000" at="45,54,51,42" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8659612544244790000" at="15,0,16,0" concept="6" trace="QueryFunction_String" />
-      <node id="8659612544244790000" at="22,57,23,59" concept="0" />
+      <node id="8659612544244790000" at="17,0,18,0" concept="6" trace="QueryFunction_String" />
+      <node id="8659612544244790000" at="24,57,25,59" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8659612544244790000" at="20,0,21,0" concept="1" trace="myConceptQueryFunction_String" />
@@ -184,8 +184,8 @@
       <scope id="8659612544247522174" at="30,68,37,56" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8659612544247522174" at="13,0,14,0" concept="6" trace="ConceptFunctionParameter_component" />
-      <node id="8659612544247522174" at="20,65,21,73" concept="0" />
+      <node id="8659612544247522174" at="15,0,16,0" concept="6" trace="ConceptFunctionParameter_component" />
+      <node id="8659612544247522174" at="22,65,23,73" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8659612544247522174" at="18,0,19,0" concept="1" trace="myConceptConceptFunctionParameter_component" />

@@ -4,8 +4,13 @@ import de.itemis.mps.gradle.GitBasedVersioning
 val ciBuild by extra(project.hasProperty("forceCI") ||
     project.hasProperty("teamcity") && !project.hasProperty("mpsHomeDir"))
 
-val mpsVersion = versionCatalogs.named("libs").findLibrary("mps").get().get().version!!
-val mpsMajor = mpsVersion.substring(0, 6)
+val mpsDependency = versionCatalogs.named("libs").findLibrary("mps").get().get()
+val mpsVersion = mpsDependency.version!!
+val mpsMajor = if (mpsDependency.module.name == "mps-prerelease") {
+    "9999.9"
+} else {
+    mpsVersion.substring(0, 6)
+}
 
 if (ciBuild) {
     val branch = GitBasedVersioning.getGitBranch()

@@ -12,6 +12,9 @@
     <import index="2blp" ref="r:e88dc790-0021-4611-bfae-9c7e81407bc2(com.dslfoundry.plaintextflow.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
@@ -174,7 +177,6 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -292,7 +294,7 @@
               <node concept="3clFbF" id="6$Hx0f8mwN2" role="3cqZAp">
                 <node concept="2OqwBi" id="6$Hx0f8mx0T" role="3clFbG">
                   <node concept="pncrf" id="6$Hx0f8mwN1" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="6$Hx0f8mxod" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybq3L" role="2OqNvi">
                     <ref role="37wK5l" to="2blp:6$Hx0f8lz7R" resolve="getAncestorPrefix" />
                   </node>
                 </node>
@@ -309,7 +311,7 @@
               <node concept="2OqwBi" id="3HMKjsymaGk" role="3clFbG">
                 <node concept="2OqwBi" id="3HMKjsyma9C" role="2Oq$k0">
                   <node concept="pncrf" id="3HMKjsyma9D" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="3HMKjsyma9E" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybq3N" role="2OqNvi">
                     <ref role="37wK5l" to="2blp:6$Hx0f8lz7R" resolve="getAncestorPrefix" />
                   </node>
                 </node>

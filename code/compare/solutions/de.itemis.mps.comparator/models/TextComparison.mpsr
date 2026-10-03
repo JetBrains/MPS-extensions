@@ -215,16 +215,10 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="acfc188d-d5d6-4598-b370-6f4a983f05b2" name="jetbrains.mps.baseLanguage.methodReferences">
       <concept id="7915009415671748557" name="jetbrains.mps.baseLanguage.methodReferences.structure.MethodReferenceTypeTargetExpression" flags="ng" index="2FaPjH">
@@ -2457,29 +2451,323 @@
     <node concept="2tJIrI" id="5kU1jh_ISjO" role="jymVt" />
     <node concept="3Tm1VV" id="1f1xsR60WN8" role="1B3o_S" />
     <node concept="3UR2Jj" id="6IWP88Iopca" role="lGtFl">
-      <node concept="TZ5HA" id="6IWP88Iopcb" role="TZ5H$">
-        <node concept="1dT_AC" id="6IWP88Iopcc" role="1dT_Ay">
-          <property role="1dT_AB" value="When comparing generated text files with existing files, we deal with different kind of contents: test files coming from real folders" />
+      <node concept="1PaTwC" id="L0S2CpU67p" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU67q" role="1PaTwD">
+          <property role="3oM_SC" value="When" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67r" role="1PaTwD">
+          <property role="3oM_SC" value="comparing" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67s" role="1PaTwD">
+          <property role="3oM_SC" value="generated" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67t" role="1PaTwD">
+          <property role="3oM_SC" value="text" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67u" role="1PaTwD">
+          <property role="3oM_SC" value="files" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67v" role="1PaTwD">
+          <property role="3oM_SC" value="with" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67w" role="1PaTwD">
+          <property role="3oM_SC" value="existing" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67x" role="1PaTwD">
+          <property role="3oM_SC" value="files," />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67y" role="1PaTwD">
+          <property role="3oM_SC" value="we" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67z" role="1PaTwD">
+          <property role="3oM_SC" value="deal" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67$" role="1PaTwD">
+          <property role="3oM_SC" value="with" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67_" role="1PaTwD">
+          <property role="3oM_SC" value="different" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67A" role="1PaTwD">
+          <property role="3oM_SC" value="kind" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67B" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67C" role="1PaTwD">
+          <property role="3oM_SC" value="contents:" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67D" role="1PaTwD">
+          <property role="3oM_SC" value="test" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67E" role="1PaTwD">
+          <property role="3oM_SC" value="files" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67F" role="1PaTwD">
+          <property role="3oM_SC" value="coming" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67G" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67H" role="1PaTwD">
+          <property role="3oM_SC" value="real" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67I" role="1PaTwD">
+          <property role="3oM_SC" value="folders" />
         </node>
       </node>
-      <node concept="TZ5HA" id="6IWP88IoFYj" role="TZ5H$">
-        <node concept="1dT_AC" id="6IWP88IoFYk" role="1dT_Ay">
-          <property role="1dT_AB" value="or packaged JARS on the CI and generated files from MPS that don't exist on disk. The easiest way to compare them is to read the reference" />
+      <node concept="1PaTwC" id="L0S2CpU67J" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU67K" role="1PaTwD">
+          <property role="3oM_SC" value="or" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67L" role="1PaTwD">
+          <property role="3oM_SC" value="packaged" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67M" role="1PaTwD">
+          <property role="3oM_SC" value="JARS" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67N" role="1PaTwD">
+          <property role="3oM_SC" value="on" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67O" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67P" role="1PaTwD">
+          <property role="3oM_SC" value="CI" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67Q" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67R" role="1PaTwD">
+          <property role="3oM_SC" value="generated" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67S" role="1PaTwD">
+          <property role="3oM_SC" value="files" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67T" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67U" role="1PaTwD">
+          <property role="3oM_SC" value="MPS" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67V" role="1PaTwD">
+          <property role="3oM_SC" value="that" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67W" role="1PaTwD">
+          <property role="3oM_SC" value="don't" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67X" role="1PaTwD">
+          <property role="3oM_SC" value="exist" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67Y" role="1PaTwD">
+          <property role="3oM_SC" value="on" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU67Z" role="1PaTwD">
+          <property role="3oM_SC" value="disk." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU680" role="1PaTwD">
+          <property role="3oM_SC" value="The" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU681" role="1PaTwD">
+          <property role="3oM_SC" value="easiest" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU682" role="1PaTwD">
+          <property role="3oM_SC" value="way" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU683" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU684" role="1PaTwD">
+          <property role="3oM_SC" value="compare" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU685" role="1PaTwD">
+          <property role="3oM_SC" value="them" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU686" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU687" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU688" role="1PaTwD">
+          <property role="3oM_SC" value="read" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU689" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68a" role="1PaTwD">
+          <property role="3oM_SC" value="reference" />
         </node>
       </node>
-      <node concept="TZ5HA" id="6IWP88IoWy8" role="TZ5H$">
-        <node concept="1dT_AC" id="6IWP88IoWy9" role="1dT_Ay">
-          <property role="1dT_AB" value=" folder through LocalFileSystem/VirtualFileManager as a virtual file. This is a class coming from the the Intellij platform. For the generated" />
+      <node concept="1PaTwC" id="L0S2CpU68b" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU68c" role="1PaTwD">
+          <property role="3oM_SC" value="" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68d" role="1PaTwD">
+          <property role="3oM_SC" value="folder" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68e" role="1PaTwD">
+          <property role="3oM_SC" value="through" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68f" role="1PaTwD">
+          <property role="3oM_SC" value="LocalFileSystem/VirtualFileManager" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68g" role="1PaTwD">
+          <property role="3oM_SC" value="as" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68h" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68i" role="1PaTwD">
+          <property role="3oM_SC" value="virtual" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68j" role="1PaTwD">
+          <property role="3oM_SC" value="file." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68k" role="1PaTwD">
+          <property role="3oM_SC" value="This" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68l" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68m" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68n" role="1PaTwD">
+          <property role="3oM_SC" value="class" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68o" role="1PaTwD">
+          <property role="3oM_SC" value="coming" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68p" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68q" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68r" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68s" role="1PaTwD">
+          <property role="3oM_SC" value="Intellij" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68t" role="1PaTwD">
+          <property role="3oM_SC" value="platform." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68u" role="1PaTwD">
+          <property role="3oM_SC" value="For" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68v" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68w" role="1PaTwD">
+          <property role="3oM_SC" value="generated" />
         </node>
       </node>
-      <node concept="TZ5HA" id="6IWP88Ipt3V" role="TZ5H$">
-        <node concept="1dT_AC" id="6IWP88Ipt3W" role="1dT_Ay">
-          <property role="1dT_AB" value="file, we create a virtual file system and add them through createPath. Those virtual files are easy to read and iterate over and can be displayed" />
+      <node concept="1PaTwC" id="L0S2CpU68x" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU68y" role="1PaTwD">
+          <property role="3oM_SC" value="file," />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68z" role="1PaTwD">
+          <property role="3oM_SC" value="we" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68$" role="1PaTwD">
+          <property role="3oM_SC" value="create" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68_" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68A" role="1PaTwD">
+          <property role="3oM_SC" value="virtual" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68B" role="1PaTwD">
+          <property role="3oM_SC" value="file" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68C" role="1PaTwD">
+          <property role="3oM_SC" value="system" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68D" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68E" role="1PaTwD">
+          <property role="3oM_SC" value="add" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68F" role="1PaTwD">
+          <property role="3oM_SC" value="them" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68G" role="1PaTwD">
+          <property role="3oM_SC" value="through" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68H" role="1PaTwD">
+          <property role="3oM_SC" value="createPath." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68I" role="1PaTwD">
+          <property role="3oM_SC" value="Those" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68J" role="1PaTwD">
+          <property role="3oM_SC" value="virtual" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68K" role="1PaTwD">
+          <property role="3oM_SC" value="files" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68L" role="1PaTwD">
+          <property role="3oM_SC" value="are" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68M" role="1PaTwD">
+          <property role="3oM_SC" value="easy" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68N" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68O" role="1PaTwD">
+          <property role="3oM_SC" value="read" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68P" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68Q" role="1PaTwD">
+          <property role="3oM_SC" value="iterate" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68R" role="1PaTwD">
+          <property role="3oM_SC" value="over" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68S" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68T" role="1PaTwD">
+          <property role="3oM_SC" value="can" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68U" role="1PaTwD">
+          <property role="3oM_SC" value="be" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68V" role="1PaTwD">
+          <property role="3oM_SC" value="displayed" />
         </node>
       </node>
-      <node concept="TZ5HA" id="6IWP88Ip$hv" role="TZ5H$">
-        <node concept="1dT_AC" id="6IWP88Ip$hw" role="1dT_Ay">
-          <property role="1dT_AB" value="by the diff tool of the Intellij platform." />
+      <node concept="1PaTwC" id="L0S2CpU68W" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU68X" role="1PaTwD">
+          <property role="3oM_SC" value="by" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68Y" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU68Z" role="1PaTwD">
+          <property role="3oM_SC" value="diff" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU690" role="1PaTwD">
+          <property role="3oM_SC" value="tool" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU691" role="1PaTwD">
+          <property role="3oM_SC" value="of" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU692" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU693" role="1PaTwD">
+          <property role="3oM_SC" value="Intellij" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU694" role="1PaTwD">
+          <property role="3oM_SC" value="platform." />
         </node>
       </node>
     </node>

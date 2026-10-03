@@ -41,15 +41,15 @@ public class SelectDown_Test extends BaseTransformationTest {
       MultilineSelection selection1 = as_xivxa1_a0a2a3g(getEditorComponent().getSelectionManager().getSelection(), MultilineSelection.class);
       Assert.assertNotNull(selection1);
 
-      Assert.assertEquals(new CellAnnotation(11, 0, 11, false).getSelectionStart(), selection1.getSelectionStart());
-      Assert.assertEquals(new CellAnnotation(11, 0, 11, false).getSelectionEnd(), selection1.getSelectionEnd());
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(11, 0, 11, false).getSelectionStart()), Integer.valueOf(selection1.getSelectionStart()));
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(11, 0, 11, false).getSelectionEnd()), Integer.valueOf(selection1.getSelectionEnd()));
 
       invokeAction("jetbrains.mps.ide.editor.actions.SelectDown_Action");
       MultilineSelection selection2 = as_xivxa1_a0a9a3g(getEditorComponent().getSelectionManager().getSelection(), MultilineSelection.class);
       Assert.assertNotNull(selection2);
 
-      Assert.assertEquals(new CellAnnotation(23, 0, 23, false).getSelectionStart(), selection2.getSelectionStart());
-      Assert.assertEquals(new CellAnnotation(23, 0, 23, false).getSelectionEnd(), selection2.getSelectionEnd());
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(23, 0, 23, false).getSelectionStart()), Integer.valueOf(selection2.getSelectionStart()));
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(23, 0, 23, false).getSelectionEnd()), Integer.valueOf(selection2.getSelectionEnd()));
 
 
     }

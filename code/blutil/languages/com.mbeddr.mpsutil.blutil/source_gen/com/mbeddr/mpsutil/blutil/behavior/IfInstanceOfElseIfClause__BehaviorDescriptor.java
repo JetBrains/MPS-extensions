@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -22,9 +21,9 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class IfInstanceOfElseIfClause__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x78fe39f732c38192L, "com.mbeddr.mpsutil.blutil.structure.IfInstanceOfElseIfClause");
 
-  public static final SMethod<SNode> getVariable_id7zYevsNzSGR = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getVariable").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8718469662520609591L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<SNode> getVariable_id7zYevsNzSGR = new SMethodBuilder<>(SNode.class).name("getVariable").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8718469662520609591L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getVariable_id7zYevsNzSGR);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getVariable_id7zYevsNzSGR);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.setNewChild(__thisNode__, LINKS.body$BcGx, null);

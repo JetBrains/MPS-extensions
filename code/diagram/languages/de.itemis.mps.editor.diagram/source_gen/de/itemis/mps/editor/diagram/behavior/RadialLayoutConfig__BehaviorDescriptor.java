@@ -22,7 +22,7 @@ public final class RadialLayoutConfig__BehaviorDescriptor extends BaseBHDescript
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x5193e20464df2cbfL, "de.itemis.mps.editor.diagram.structure.RadialLayoutConfig");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.additionalWedgeSpace$_kio, RadialOptions.ROTATION_COMPUTE_ADDITIONAL_WEDGE_SPACE.getDefault());

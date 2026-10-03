@@ -25,11 +25,11 @@ public class Column_AlignByRows_Test {
   private HeaderReference headerC;
   @Test
   public void test_sizeX() throws Exception {
-    Assert.assertEquals(3, gridMain.getSizeX());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(gridMain.getSizeX()));
   }
   @Test
   public void test_sizeY() throws Exception {
-    Assert.assertEquals(2, gridMain.getSizeY());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(gridMain.getSizeY()));
   }
   @Test
   public void test_elements_order() throws Exception {

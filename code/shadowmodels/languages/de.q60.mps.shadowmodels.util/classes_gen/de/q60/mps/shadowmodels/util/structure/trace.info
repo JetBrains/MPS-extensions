@@ -13,7 +13,7 @@
       <unit at="11,0,47,0" name="de.q60.mps.shadowmodels.util.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,32,0" name="de.q60.mps.shadowmodels.util.structure.LanguageConceptSwitch" />
+      <unit at="12,0,40,0" name="de.q60.mps.shadowmodels.util.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="16,0,94,0" name="de.q60.mps.shadowmodels.util.structure.StructureAspectDescriptor" />
@@ -34,8 +34,8 @@
       <scope id="1161622981231" at="28,63,35,51" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="1161622981231" at="13,0,14,0" concept="6" trace="ConceptFunctionParameter_cell" />
-      <node id="1161622981231" at="18,62,19,63" concept="0" />
+      <node id="1161622981231" at="15,0,16,0" concept="6" trace="ConceptFunctionParameter_cell" />
+      <node id="1161622981231" at="20,62,21,63" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1161622981231" at="18,0,19,0" concept="1" trace="myConceptConceptFunctionParameter_cell" />
@@ -71,8 +71,8 @@
       <scope id="1176749715029" at="36,52,42,40" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="1176749715029" at="14,0,15,0" concept="6" trace="QueryFunction_Cell" />
-      <node id="1176749715029" at="19,63,20,52" concept="0" />
+      <node id="1176749715029" at="16,0,17,0" concept="6" trace="QueryFunction_Cell" />
+      <node id="1176749715029" at="21,63,22,52" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1176749715029" at="19,0,20,0" concept="1" trace="myConceptQueryFunction_Cell" />
@@ -108,8 +108,8 @@
       <scope id="2490242408670732052" at="21,57,27,45" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2490242408670732052" at="12,0,13,0" concept="6" trace="CellModel_CustomFactory" />
-      <node id="2490242408670732052" at="17,116,18,62" concept="0" />
+      <node id="2490242408670732052" at="14,0,15,0" concept="6" trace="CellModel_CustomFactory" />
+      <node id="2490242408670732052" at="19,116,20,62" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2490242408670732052" at="17,0,18,0" concept="1" trace="myConceptCellModel_CustomFactory" />

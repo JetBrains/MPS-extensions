@@ -15,40 +15,42 @@
     <file name="PaginationPlugin_AppPluginPart.java">
       <node id="3430886973490472808" at="10,0,11,0" concept="2" trace="extension" />
       <node id="3430886973490869557" at="14,22,15,78" concept="5" />
-      <node id="3430886973490872588" at="15,78,16,93" concept="1" />
+      <node id="3430886973490872588" at="15,78,16,99" concept="1" />
       <node id="3430886973490927869" at="19,25,20,78" concept="5" />
-      <node id="3430886973490927875" at="20,78,21,95" concept="1" />
+      <node id="3430886973490927875" at="20,78,21,99" concept="1" />
       <node id="3430886973490878427" at="24,36,25,53" concept="1" />
       <node id="3430886973490878427" at="26,5,27,0" concept="8" />
       <node id="3430886973490927876" at="30,36,31,55" concept="1" />
       <node id="3430886973490927876" at="32,5,33,0" concept="8" />
       <node id="2290840014228296997" at="11,0,13,0" concept="0" trace="PaginationPlugin_AppPluginPart#()V" />
-      <node id="3430886973490878427" at="23,111,26,5" concept="3" />
-      <node id="3430886973490927876" at="29,113,32,5" concept="3" />
+      <node id="3430886973490878427" at="23,168,26,5" concept="3" />
+      <node id="3430886973490927876" at="29,168,32,5" concept="3" />
       <node id="2290840014228296997" at="13,0,18,0" concept="4" trace="init#()V" />
       <node id="2290840014228296997" at="18,0,23,0" concept="4" trace="dispose#()V" />
-      <node id="3430886973490878427" at="23,0,29,0" concept="9" trace="check_sc6i86_a1a0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
-      <node id="3430886973490927876" at="29,0,35,0" concept="9" trace="check_sc6i86_a1a0_0#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;)V" />
+      <node id="3430886973490878427" at="23,0,29,0" concept="9" trace="check_c0zg6y_a1a2#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;Lde/itemis/mps/editor/pagination/runtime/plugin/PaginationPlugin_AppPluginPart;)V" />
+      <node id="3430886973490927876" at="29,0,35,0" concept="9" trace="check_c0zg6y_a1a3#(Ljetbrains/mps/openapi/editor/extensions/EditorExtensionRegistry;Ljetbrains/mps/openapi/editor/extensions/EditorExtension;Lde/itemis/mps/editor/pagination/runtime/plugin/PaginationPlugin_AppPluginPart;)V" />
       <scope id="2290840014228296997" at="11,43,11,43" />
       <scope id="3430886973490878427" at="24,36,25,53" />
       <scope id="3430886973490927876" at="30,36,31,55" />
       <scope id="2290840014228296997" at="11,0,13,0" />
-      <scope id="2290840014228308459" at="14,22,16,93">
+      <scope id="2290840014228308459" at="14,22,16,99">
         <var name="extension" id="3430886973490869558" />
       </scope>
-      <scope id="2290840014228310937" at="19,25,21,95">
+      <scope id="2290840014228310937" at="19,25,21,99">
         <var name="extension" id="3430886973490927870" />
       </scope>
-      <scope id="3430886973490878427" at="23,111,27,0" />
-      <scope id="3430886973490927876" at="29,113,33,0" />
+      <scope id="3430886973490878427" at="23,168,27,0" />
+      <scope id="3430886973490927876" at="29,168,33,0" />
       <scope id="2290840014228296997" at="13,0,18,0" />
       <scope id="2290840014228296997" at="18,0,23,0" />
       <scope id="3430886973490878427" at="23,0,29,0">
         <var name="checkedDotOperand" id="3430886973490878427" />
+        <var name="checkedDotThisExpression" id="3430886973490878427" />
         <var name="extension" id="3430886973490879573" />
       </scope>
       <scope id="3430886973490927876" at="29,0,35,0">
         <var name="checkedDotOperand" id="3430886973490927876" />
+        <var name="checkedDotThisExpression" id="3430886973490927876" />
         <var name="extension" id="3430886973490927883" />
       </scope>
       <unit id="2290840014228296997" at="9,0,36,0" name="de.itemis.mps.editor.pagination.runtime.plugin.PaginationPlugin_AppPluginPart" />

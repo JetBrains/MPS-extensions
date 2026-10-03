@@ -238,10 +238,7 @@
           <node concept="37vLTI" id="7XmAYSGNz2l" role="3clFbG">
             <node concept="2ShNRf" id="7XmAYSGMEbz" role="37vLTx">
               <node concept="1pGfFk" id="7XmAYSGMEb$" role="2ShVmc">
-                <ref role="37wK5l" to="g1qu:~JBHtmlEditorKit.&lt;init&gt;(boolean)" resolve="JBHtmlEditorKit" />
-                <node concept="3clFbT" id="7XmAYSGMEb_" role="37wK5m">
-                  <property role="3clFbU" value="true" />
-                </node>
+                <ref role="37wK5l" to="g1qu:~JBHtmlEditorKit.&lt;init&gt;()" resolve="JBHtmlEditorKit" />
               </node>
             </node>
             <node concept="37vLTw" id="7XmAYSGRA_r" role="37vLTJ">

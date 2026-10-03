@@ -19,7 +19,7 @@ public class EnumerationDescriptor_PatternBuilderListKind extends EnumerationDes
   private final EnumerationDescriptor.MemberDescriptor myMember__1_0 = new EnumerationDescriptor.MemberDescriptor("_1", "CONTAINS_MEMBERS", 0x46334e08e1643823L, "r:5a244481-ee36-4984-a70c-5d4ba8e7e090(de.itemis.mps.compare.pattern.structure)/1286599818956595159");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x17566462d8374552L, 0x874c64e45c10778aL, 0x46334e08e1643821L, 0x46334e08e1643822L, 0x46334e08e1643823L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__0_0, myMember__1_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__0_0, myMember__1_0);
 
   @Nullable
   @Override

@@ -27,8 +27,8 @@ public class Grid_Flatten1Level_Test {
   }
   @Test
   public void test_is_2x2() throws Exception {
-    Assert.assertEquals(2, gMain.getSizeX());
-    Assert.assertEquals(2, gMain.getSizeY());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(gMain.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(gMain.getSizeY()));
   }
   @Test
   public void test_correct_order() throws Exception {

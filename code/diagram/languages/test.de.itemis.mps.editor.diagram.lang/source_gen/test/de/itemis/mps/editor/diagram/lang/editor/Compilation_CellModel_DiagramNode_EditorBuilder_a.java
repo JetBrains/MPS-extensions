@@ -64,7 +64,7 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
   }
 
   /*package*/ EditorCell createCell() {
-    return createDiagramNode_1();
+    return _cell_factory_method_();
   }
 
   private EditorCell createDiagramNode_0(final EditorContext editorContext, final SNode node) {
@@ -257,7 +257,7 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
               public void run() {
                 final ContextVariables _variablesContext = ContextVariables.getCurrent();
                 final EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, parameterObject);
-                editorCell.setCellId("transformedGraphElement_c0_1" + "." + ((SNode) _variablesContext.getValue("parameterObject")));
+                editorCell.setCellId("transformedGraphElement_c0_0" + "." + ((SNode) _variablesContext.getValue("parameterObject")));
 
                 final EditorCell labelCell = DiagramUtil.getCellIfNotEmpty(new Inline_Builder_xwkiw5_a2a(editorContext, parameterObject).createCell());
                 final EditorCell startRoleCell = DiagramUtil.getCellIfNotEmpty(new Inline_Builder_xwkiw5_a0c0(editorContext, parameterObject).createCell());
@@ -536,8 +536,8 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 
     return editorCell.value;
   }
-  private EditorCell createDiagramNode_1() {
-    return createDiagramNode_0(getEditorContext(), myNode);
+  private EditorCell _cell_factory_method_() {
+    return createDiagramNode_0(getEditorContext(), getNode());
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "my editor");
@@ -589,7 +589,7 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
       return editorCell.value;
     }
     private EditorCell createShape_1() {
-      return createShape_0(getEditorContext(), myNode);
+      return createShape_0(getEditorContext(), getNode());
     }
   }
   /*package*/ static class Inline_Builder_xwkiw5_a0b0 extends AbstractEditorBuilder {

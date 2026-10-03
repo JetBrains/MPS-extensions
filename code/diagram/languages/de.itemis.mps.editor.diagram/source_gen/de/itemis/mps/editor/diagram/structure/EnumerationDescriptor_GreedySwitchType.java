@@ -20,7 +20,7 @@ public class EnumerationDescriptor_GreedySwitchType extends EnumerationDescripto
   private final EnumerationDescriptor.MemberDescriptor myMember_OFF_0 = new EnumerationDescriptor.MemberDescriptor("OFF", "OFF", 0x32d28aa5f4567f54L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379180884");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f4567f4bL, 0x32d28aa5f4567f4cL, 0x32d28aa5f4567f4fL, 0x32d28aa5f4567f54L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_ONE_SIDED_0, myMember_TWO_SIDED_0, myMember_OFF_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_ONE_SIDED_0, myMember_TWO_SIDED_0, myMember_OFF_0);
 
   @Nullable
   @Override

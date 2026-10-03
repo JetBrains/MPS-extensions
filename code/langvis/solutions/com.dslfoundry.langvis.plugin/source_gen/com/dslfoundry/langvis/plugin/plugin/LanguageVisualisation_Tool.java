@@ -19,12 +19,12 @@ import javax.swing.JComponent;
 import com.intellij.openapi.actionSystem.ActionManager;
 import com.intellij.openapi.actionSystem.ActionPlaces;
 import javax.swing.JScrollPane;
+import com.intellij.util.concurrency.AppExecutorUtil;
 import java.io.File;
 import jetbrains.mps.baseLanguage.logging.rt.LogContext;
 import jetbrains.mps.project.MPSProject;
 import jetbrains.mps.ide.project.ProjectHelper;
 import java.io.IOException;
-import org.jetbrains.mps.openapi.module.SRepository;
 
 public class LanguageVisualisation_Tool extends GeneratedTool {
   private static final Icon ICON = IconContainer.ICON5;
@@ -102,45 +102,37 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
   public void setContextElements(Set<SNode> elements) {
     LanguageVisualisation_Tool.this.contextElements = elements;
   }
-  public void rebuildBasedOnCurrentContextAndSettings() {
-    if (!(new File(LanguageVisualisation_Tool.this.plantUmlJarPath).exists())) {
-      String msg = String.format("mps-langvis plugin: plantuml.jar needs to be installed in '%s', but was not found.", LanguageVisualisation_Tool.this.plantUmlJarPath);
-      LogContext.with(LanguageVisualisation_Tool.class, null, null, null).error(msg);
-      return;
-    }
-
-    // Make plantuml file based on current elements
-    final PlantUMLRenderer r = new PlantUMLRenderer(false, true);
-    MPSProject mpsProject = ProjectHelper.fromIdeaProject(LanguageVisualisation_Tool.this.ideaProject);
-    check_uw01zt_a5a5(mpsProject).getModelAccess().runReadAction(() -> {
-      try {
-        r.renderPlantUMLSource(LanguageVisualisation_Tool.this.contextElements, LanguageVisualisation_Tool.this.collectStructureDown.isSelected(), LanguageVisualisation_Tool.this.collectHierarchyUp.isSelected(), LanguageVisualisation_Tool.this.renderCardinalities.isSelected(), LanguageVisualisation_Tool.this.renderRoleNames.isSelected(), LanguageVisualisation_Tool.this.flattenNamespaces.isSelected(), LanguageVisualisation_Tool.this.pumlFilePath);
-      } catch (IOException e) {
-        e.printStackTrace();
-        LogContext.with(LanguageVisualisation_Tool.class, e, null, null).error("Visualizing language elements failed (rendering to PlantUML)");
+  public void redrawBasedOnCurrentContextAndSettings() {
+    AppExecutorUtil.getAppExecutorService().execute(() -> {
+      if (!(new File(LanguageVisualisation_Tool.this.plantUmlJarPath).exists())) {
+        String msg = String.format("mps-langvis plugin: plantuml.jar needs to be installed in '%s', but was not found.", LanguageVisualisation_Tool.this.plantUmlJarPath);
+        LogContext.with(LanguageVisualisation_Tool.class, null, null, null).error(msg);
+        return;
       }
+
+      // Make plantuml file based on current elements
+      final PlantUMLRenderer r = new PlantUMLRenderer(false, true);
+      MPSProject mpsProject = ProjectHelper.fromIdeaProject(LanguageVisualisation_Tool.this.ideaProject);
+      mpsProject.getRepository().getModelAccess().runReadAction(() -> {
+        try {
+          r.renderPlantUMLSource(LanguageVisualisation_Tool.this.contextElements, LanguageVisualisation_Tool.this.collectStructureDown.isSelected(), LanguageVisualisation_Tool.this.collectHierarchyUp.isSelected(), LanguageVisualisation_Tool.this.renderCardinalities.isSelected(), LanguageVisualisation_Tool.this.renderRoleNames.isSelected(), LanguageVisualisation_Tool.this.flattenNamespaces.isSelected(), LanguageVisualisation_Tool.this.pumlFilePath);
+        } catch (IOException e) {
+          e.printStackTrace();
+          LogContext.with(LanguageVisualisation_Tool.class, e, null, null).error("Visualizing language elements failed (rendering to PlantUML)");
+        }
+      });
+
+      // Make PNG file from plantuml source
+      String[] commandarray = {"java", "-jar", LanguageVisualisation_Tool.this.plantUmlJarPath, LanguageVisualisation_Tool.this.pumlFilePath};
+      String result = SysUtils.ExecuteCommand(commandarray);
+      LogContext.with(LanguageVisualisation_Tool.class, null, null, null).info("Command executed with result " + result);
+      LanguageVisualisation_Tool.this.reloadImage();
     });
-
-    // Make PNG file from plantuml source
-    String[] commandarray = {"java", "-jar", LanguageVisualisation_Tool.this.plantUmlJarPath, LanguageVisualisation_Tool.this.pumlFilePath};
-    String result = SysUtils.ExecuteCommand(commandarray);
-    LogContext.with(LanguageVisualisation_Tool.class, null, null, null).info("Command executed with result " + result);
-
-    // Reload PNG
-    try {
-      LanguageVisualisation_Tool.this.imageViewer.loadImage(LanguageVisualisation_Tool.this.pngImagePath);
-    } catch (IOException e) {
-      LogContext.with(LanguageVisualisation_Tool.class, e, null, null).error(String.format("Could not read '%s'", LanguageVisualisation_Tool.this.pumlFilePath));
-    }
-
+  }
+  private void reloadImage() {
+    LanguageVisualisation_Tool.this.imageViewer.reloadImage(LanguageVisualisation_Tool.this.pngImagePath);
   }
   public JComponent getComponent() {
     return LanguageVisualisation_Tool.this.mainPanel;
-  }
-  private static SRepository check_uw01zt_a5a5(MPSProject checkedDotOperand) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.getRepository();
-    }
-    return null;
   }
 }

@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import jetbrains.mps.project.Project;
 import java.util.List;
@@ -18,7 +17,6 @@ import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import de.itemis.mps.debug.runtime.DebugHelper;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -27,14 +25,12 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class CellReference__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf7e353e6c7a84110L, 0xa2631a2503e8b13cL, 0x795ea305a5414a96L, "de.itemis.mps.debug.structure.CellReference");
 
-  public static final SMethod<String> getText_id7_uCKm_hUKY = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getText").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771043183678L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
-  public static final SMethod<String> getTextWhenBroken_id7_uCKm_i1sQ = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTextWhenBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771043211062L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
-  public static final SMethod<Boolean> isBroken_id7_uCKm_i2tI = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771043215214L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, ""));
+  public static final SMethod<String> getText_id7_uCKm_hUKY = new SMethodBuilder<>(String.class).name("getText").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771043183678L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
+  public static final SMethod<String> getTextWhenBroken_id7_uCKm_i1sQ = new SMethodBuilder<>(String.class).name("getTextWhenBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771043211062L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
+  public static final SMethod<Boolean> isBroken_id7_uCKm_i2tI = new SMethodBuilder<>(Boolean.TYPE).name("isBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771043215214L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, "project"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getText_id7_uCKm_hUKY, getTextWhenBroken_id7_uCKm_i1sQ, isBroken_id7_uCKm_i2tI);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getText_id7_uCKm_hUKY, getTextWhenBroken_id7_uCKm_i1sQ, isBroken_id7_uCKm_i2tI);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getText_id7_uCKm_hUKY(@NotNull SNode __thisNode__) {
     int id = Objects.hash(SPropertyOperations.getInteger(__thisNode__, PROPS.componentHashCode$xCJo), SPropertyOperations.getString(__thisNode__, PROPS.cellID$cCwL));
@@ -53,10 +49,6 @@ public final class CellReference__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ CellReference__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

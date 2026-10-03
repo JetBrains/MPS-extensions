@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import de.itemis.model.merge.runtime.runtime.ContentHolder;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -16,7 +15,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import de.itemis.model.merge.runtime.runtime.SimpleActionContentHolder;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -24,12 +22,10 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class PropertyPolicy__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x539e893908ef497cL, 0xa5fd25dd10137a55L, 0x1a8b8d3e42e44628L, "de.itemis.model.merge.structure.PropertyPolicy");
 
-  public static final SMethod<ContentHolder> stuff_id3EHNiwz_w8A = new SMethodBuilder<ContentHolder>(new SJavaCompoundTypeImpl(ContentHolder.class)).name("stuff").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4228261197450183206L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter(SAbstractConcept.class, ""));
+  public static final SMethod<ContentHolder> stuff_id3EHNiwz_w8A = new SMethodBuilder<>(ContentHolder.class).name("stuff").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4228261197450183206L).languageId(0xa5fd25dd10137a55L, 0x539e893908ef497cL).build2(SMethodBuilder.createJavaParameter(SAbstractConcept.class, "inheritedFrom"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(stuff_id3EHNiwz_w8A);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(stuff_id3EHNiwz_w8A);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static ContentHolder stuff_id3EHNiwz_w8A(@NotNull SNode __thisNode__, SAbstractConcept inheritedFrom) {
     SNode action = SLinkOperations.getTarget(__thisNode__, LINKS.action$i__H);
@@ -39,10 +35,6 @@ public final class PropertyPolicy__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ PropertyPolicy__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -22,7 +22,7 @@ public class EditorCell_QueryList extends EditorCell_Collection {
     setSRole(new SContainmentLink() {
 
       /**
-       * Important for {@link jetbrains.mps.nodeEditor.ChildrenCollectionFinder }#isMultipleCollectionCell
+       * Important for {@link jetbrains.mps.nodeEditor.ChildrenCollectionFinder} #isMultipleCollectionCell
        * 
        * To consider querlists for INSERT actions
        */

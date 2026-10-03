@@ -6,13 +6,13 @@ import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.impl.query.QueryProviderBase;
 import jetbrains.mps.logging.Logger;
 import jetbrains.mps.generator.template.PropertyMacroContext;
+import de.itemis.mps.spellcheck.behavior.IPredefinedDictionary__BehaviorDescriptor;
 import de.itemis.mps.spellcheck.behavior.IDictionary__BehaviorDescriptor;
 import java.io.ByteArrayOutputStream;
 import java.util.zip.GZIPOutputStream;
 import java.io.IOException;
 import java.util.Base64;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import de.itemis.mps.spellcheck.behavior.IPredefinedDictionary__BehaviorDescriptor;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import java.util.Map;
 import jetbrains.mps.generator.impl.query.PropertyValueQuery;
@@ -32,7 +32,10 @@ public class QueriesGenerated extends QueryProviderBase {
     super(1);
   }
   public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
-    return "dictionary" + _context.createUniqueValidId(_context.getNode());
+    return (String) IPredefinedDictionary__BehaviorDescriptor.getExpandedPath_id5Jv8_iJOIp2.invoke(_context.getNode());
+  }
+  public static Object propertyMacro_GetValue_1_1(final PropertyMacroContext _context) {
+    return "predefinedDictionary" + _context.createUniqueValidId(_context.getNode());
   }
   public static Object propertyMacro_GetValue_2_0(final PropertyMacroContext _context) {
     String joined = String.join("\n", IDictionary__BehaviorDescriptor.getWords_id29wDeGIfjFX.invoke(_context.getNode()));
@@ -54,24 +57,21 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Object propertyMacro_GetValue_2_2(final PropertyMacroContext _context) {
     return "dictionaryClass" + _context.createUniqueValidId(_context.getNode());
   }
-  public static Object propertyMacro_GetValue_4_0(final PropertyMacroContext _context) {
-    return (String) IPredefinedDictionary__BehaviorDescriptor.getExpandedPath_id5Jv8_iJOIp2.invoke(_context.getNode());
+  public static Object propertyMacro_GetValue_3_0(final PropertyMacroContext _context) {
+    return "dictionary" + _context.createUniqueValidId(_context.getNode());
   }
-  public static Object propertyMacro_GetValue_4_1(final PropertyMacroContext _context) {
-    return "predefinedDictionary" + _context.createUniqueValidId(_context.getNode());
-  }
-  public static Object referenceMacro_GetReferent_1_0(final ReferenceMacroContext _context) {
+  public static Object referenceMacro_GetReferent_3_0(final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "generatedDictionary");
   }
   private final Map<String, PropertyValueQuery> pvqMethods = new HashMap<String, PropertyValueQuery>();
   {
     int i = 0;
-    pvqMethods.put("7476142209349896775", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "map_IDictionary"));
+    pvqMethods.put("7476142209350804179", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value"), ""));
+    pvqMethods.put("7476142209350780208", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "map_PredefinedDictionary"));
     pvqMethods.put("7476142209350214274", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value"), "data"));
     pvqMethods.put("7476142209349926671", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value"), ""));
     pvqMethods.put("7476142209349914276", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "map_IDictionaryClass"));
-    pvqMethods.put("7476142209350804179", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value"), ""));
-    pvqMethods.put("7476142209350780208", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "map_PredefinedDictionary"));
+    pvqMethods.put("7476142209349896775", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "map_IDictionary"));
   }
   @NotNull
   @Override
@@ -91,15 +91,15 @@ public class QueriesGenerated extends QueryProviderBase {
         case 0:
           return QueriesGenerated.propertyMacro_GetValue_1_0(ctx);
         case 1:
-          return QueriesGenerated.propertyMacro_GetValue_2_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_1(ctx);
         case 2:
-          return QueriesGenerated.propertyMacro_GetValue_2_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_0(ctx);
         case 3:
-          return QueriesGenerated.propertyMacro_GetValue_2_2(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_1(ctx);
         case 4:
-          return QueriesGenerated.propertyMacro_GetValue_4_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_2(ctx);
         case 5:
-          return QueriesGenerated.propertyMacro_GetValue_4_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -125,7 +125,7 @@ public class QueriesGenerated extends QueryProviderBase {
     public Object evaluate(@NotNull ReferenceMacroContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return QueriesGenerated.referenceMacro_GetReferent_1_0(ctx);
+          return QueriesGenerated.referenceMacro_GetReferent_3_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }

@@ -142,7 +142,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createCollapsible_1() {
-    return createCollapsible_0(getEditorContext(), myNode);
+    return createCollapsible_0(getEditorContext(), getNode());
   }
   private EditorCell createCollection_0() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
@@ -747,7 +747,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   /*package*/ static class Inline_Builder_s7zaad_a1b0a extends AbstractEditorBuilder {
     @NotNull
@@ -785,7 +785,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return editorCell.value;
     }
     private EditorCell createShape_1() {
-      return createShape_0(getEditorContext(), myNode);
+      return createShape_0(getEditorContext(), getNode());
     }
     private EditorCell createConstant_1() {
       EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Initial");
@@ -1274,7 +1274,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell.value;
   }
   private EditorCell createDiagram_3() {
-    return createDiagram_2(getEditorContext(), myNode);
+    return createDiagram_2(getEditorContext(), getNode());
   }
   private OrderWeighting _StyleParameter_QueryFunction_s7zaad_a0d0a() {
     return OrderWeighting.DESCENDANTS;

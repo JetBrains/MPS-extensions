@@ -55,14 +55,14 @@ public class SynchronizeChanges_Test extends BaseTransformationTest {
 
       final mxCell diagramDCell = diagramECell.getDCell(diagramECell.getGraph());
 
-      Assert.assertEquals(6, ListSequence.fromList(ExtensionMethods.getChildren(diagramDCell)).count());
+      Assert.assertEquals(Integer.valueOf(6), (Object) ListSequence.fromList(ExtensionMethods.getChildren(diagramDCell)).count());
       ExtensionMethods.executeWriteAndWait(getEditorComponent(), () -> {
         SNode diagram = SNodeOperations.as(SLinkOperations.getTarget(SNodeOperations.cast(diagramECell.getSNode(), CONCEPTS.DiagramReference$nl), LINKS.diagram$Vtl9), CONCEPTS.DiagramDontSynchronizeChanges$p_);
         ListSequence.fromList(SLinkOperations.getChildren(diagram, LINKS.elements$t3VA)).addElement(createBox_ffal8f_a0a1a0a0h0d6());
-        Assert.assertEquals(6, ListSequence.fromList(ExtensionMethods.getChildren(diagramDCell)).count());
+        Assert.assertEquals(Integer.valueOf(6), (Object) ListSequence.fromList(ExtensionMethods.getChildren(diagramDCell)).count());
         synchronizer.suspend(() -> DiagramActionsUtil.syncWithModel(diagramECell.getGraph()));
 
-        Assert.assertEquals(7, ListSequence.fromList(ExtensionMethods.getChildren(diagramDCell)).count());
+        Assert.assertEquals(Integer.valueOf(7), (Object) ListSequence.fromList(ExtensionMethods.getChildren(diagramDCell)).count());
 
       });
 

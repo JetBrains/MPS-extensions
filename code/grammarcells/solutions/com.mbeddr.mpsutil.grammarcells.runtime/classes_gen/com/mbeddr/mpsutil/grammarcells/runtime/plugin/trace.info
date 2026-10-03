@@ -211,93 +211,82 @@
   </root>
   <root nodeRef="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)/5301639852818710235">
     <file name="ApplicationPlugin_AppPluginPart.java">
-      <node id="5301639852818739695" at="29,0,30,0" concept="4" trace="deleteHandler" />
-      <node id="8206406812057024544" at="30,0,31,0" concept="4" trace="classLoaderManager" />
-      <node id="7657734638924826278" at="31,0,32,0" concept="4" trace="classesListener" />
-      <node id="4966760322458875853" at="32,0,33,0" concept="4" trace="myIsDisposed" />
-      <node id="7657734638924793140" at="36,22,37,0" concept="11" />
-      <node id="4397762812403518713" at="39,44,40,60" concept="8" />
-      <node id="5301639852818747202" at="40,60,41,61" concept="8" />
-      <node id="5301639852818748129" at="41,61,42,47" concept="3" />
-      <node id="2135267709615695616" at="42,47,43,42" concept="8" />
-      <node id="5301639852818749476" at="43,42,44,73" concept="3" />
-      <node id="7657734638924837792" at="46,6,47,0" concept="11" />
-      <node id="8206406812057016859" at="47,0,48,0" concept="11" />
-      <node id="8206406812057027245" at="48,0,49,160" concept="3" />
-      <node id="8206406812057086797" at="49,160,50,0" concept="11" />
-      <node id="1622138007862263897" at="54,102,55,35" concept="3" />
-      <node id="2312097807582147112" at="55,35,56,55" concept="3" />
-      <node id="8206406812057381921" at="56,55,57,0" concept="11" />
-      <node id="7657734638924843788" at="59,196,60,101" concept="3" />
-      <node id="8206406812057387280" at="60,101,61,18" concept="1" />
-      <node id="4966760322458879904" at="68,196,69,69" concept="3" />
-      <node id="4966760322458881373" at="69,69,70,55" concept="3" />
-      <node id="4966760322458881376" at="70,55,71,137" concept="3" />
-      <node id="4966760322458881383" at="71,137,72,58" concept="3" />
-      <node id="8206406812057390557" at="72,58,73,18" concept="1" />
-      <node id="8206406812057348274" at="75,9,76,0" concept="11" />
-      <node id="1622138007862770532" at="76,0,77,35" concept="3" />
-      <node id="2312097807582147830" at="77,35,78,55" concept="3" />
-      <node id="7657734638924796144" at="80,6,81,126" concept="3" />
-      <node id="7657734638924845605" at="81,126,82,0" concept="11" />
-      <node id="5301639852818711646" at="82,0,83,93" concept="3" />
-      <node id="5301639852818743549" at="87,63,88,49" concept="3" />
-      <node id="1622138007862263026" at="88,49,89,131" concept="3" />
-      <node id="2100918733316418515" at="89,131,90,52" concept="3" />
-      <node id="2100918733316421355" at="90,52,91,33" concept="3" />
-      <node id="5387699888072175595" at="91,33,92,46" concept="3" />
-      <node id="4966760322458882620" at="92,46,93,63" concept="3" />
-      <node id="5301639852818710235" at="33,0,35,0" concept="2" trace="ApplicationPlugin_AppPluginPart#()V" />
-      <node id="8206406812057187376" at="58,70,62,11" concept="6" />
-      <node id="8206406812057187372" at="57,0,63,9" concept="5" />
-      <node id="4397762812403511924" at="39,0,46,0" concept="7" trace="delete#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="8206406812057389299" at="67,70,74,11" concept="6" />
-      <node id="4966760322458882085" at="86,25,94,5" concept="6" />
-      <node id="5301639852818740397" at="37,0,46,6" concept="3" />
-      <node id="8206406812057389295" at="66,104,75,9" concept="5" />
-      <node id="5301639852818710235" at="85,0,96,0" concept="7" trace="dispose#()V" />
-      <node id="8929058149732124393" at="53,0,65,0" concept="7" trace="onLoaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
-      <node id="8929058149732124414" at="65,0,80,0" concept="7" trace="onUnloaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
-      <node id="7657734638924828635" at="50,0,80,6" concept="3" />
-      <node id="5301639852818710235" at="35,0,85,0" concept="7" trace="init#()V" />
-      <scope id="5301639852818710235" at="33,44,33,44" />
-      <scope id="5301639852818710235" at="33,0,35,0" />
-      <scope id="8206406812057187383" at="59,196,61,18" />
-      <scope id="8206406812057187375" at="58,70,62,11" />
-      <scope id="4397762812403511930" at="39,44,44,73">
+      <node id="5301639852818739695" at="27,0,28,0" concept="4" trace="deleteHandler" />
+      <node id="8206406812057024544" at="28,0,29,0" concept="4" trace="classLoaderManager" />
+      <node id="7657734638924826278" at="29,0,30,0" concept="4" trace="classesListener" />
+      <node id="4966760322458875853" at="30,0,31,0" concept="4" trace="myIsDisposed" />
+      <node id="7657734638924793140" at="34,22,35,0" concept="11" />
+      <node id="4397762812403518713" at="37,44,38,60" concept="8" />
+      <node id="5301639852818747202" at="38,60,39,61" concept="8" />
+      <node id="5301639852818748129" at="39,61,40,47" concept="3" />
+      <node id="2135267709615695616" at="40,47,41,42" concept="8" />
+      <node id="5301639852818749476" at="41,42,42,73" concept="3" />
+      <node id="7657734638924837792" at="44,6,45,0" concept="11" />
+      <node id="8206406812057016859" at="45,0,46,0" concept="11" />
+      <node id="8206406812057027245" at="46,0,47,116" concept="3" />
+      <node id="8206406812057086797" at="47,116,48,0" concept="11" />
+      <node id="1622138007862263897" at="52,102,53,35" concept="3" />
+      <node id="2312097807582147112" at="53,35,54,55" concept="3" />
+      <node id="8206406812057381921" at="54,55,55,0" concept="11" />
+      <node id="7657734638924843788" at="57,196,58,101" concept="3" />
+      <node id="8206406812057387280" at="58,101,59,18" concept="1" />
+      <node id="1622138007862770532" at="64,104,65,35" concept="3" />
+      <node id="2312097807582147830" at="65,35,66,55" concept="3" />
+      <node id="7657734638924796144" at="68,6,69,126" concept="3" />
+      <node id="4864464318165978814" at="69,126,70,0" concept="11" />
+      <node id="4864464318165975692" at="70,0,71,54" concept="3" />
+      <node id="7657734638924845605" at="71,54,72,0" concept="11" />
+      <node id="5301639852818711646" at="72,0,73,93" concept="3" />
+      <node id="5301639852818743549" at="77,63,78,49" concept="3" />
+      <node id="1622138007862263026" at="78,49,79,131" concept="3" />
+      <node id="2100918733316418515" at="79,131,80,52" concept="3" />
+      <node id="2100918733316421355" at="80,52,81,33" concept="3" />
+      <node id="5387699888072175595" at="81,33,82,46" concept="3" />
+      <node id="4966760322458882620" at="82,46,83,63" concept="3" />
+      <node id="5301639852818710235" at="31,0,33,0" concept="2" trace="ApplicationPlugin_AppPluginPart#()V" />
+      <node id="8206406812057187376" at="56,70,60,11" concept="6" />
+      <node id="8929058149732124414" at="63,0,68,0" concept="7" trace="onUnloaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="8206406812057187372" at="55,0,61,9" concept="5" />
+      <node id="4397762812403511924" at="37,0,44,0" concept="7" trace="delete#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4966760322458882085" at="76,25,84,5" concept="6" />
+      <node id="5301639852818740397" at="35,0,44,6" concept="3" />
+      <node id="5301639852818710235" at="75,0,86,0" concept="7" trace="dispose#()V" />
+      <node id="8929058149732124393" at="51,0,63,0" concept="7" trace="onLoaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="7657734638924828635" at="48,0,68,6" concept="3" />
+      <node id="5301639852818710235" at="33,0,75,0" concept="7" trace="init#()V" />
+      <scope id="5301639852818710235" at="31,44,31,44" />
+      <scope id="5301639852818710235" at="31,0,33,0" />
+      <scope id="8206406812057187383" at="57,196,59,18" />
+      <scope id="8929058149732124427" at="64,104,66,55" />
+      <scope id="8206406812057187375" at="56,70,60,11" />
+      <scope id="4397762812403511930" at="37,44,42,73">
         <var name="model" id="4397762812403518714" />
         <var name="parent" id="5301639852818747203" />
         <var name="parser" id="2135267709615695617" />
       </scope>
-      <scope id="8206406812057389306" at="68,196,73,18" />
-      <scope id="8206406812057187372" at="57,0,63,9">
-        <var name="module" id="8206406812057187373" />
-      </scope>
-      <scope id="4966760322458882086" at="87,63,93,63" />
-      <scope id="4397762812403511924" at="39,0,46,0">
-        <var name="annotation" id="4397762812403511925" />
-      </scope>
-      <scope id="8206406812057389298" at="67,70,74,11" />
-      <scope id="5301639852818737406" at="86,25,94,5" />
-      <scope id="8929058149732124406" at="54,102,63,9" />
-      <scope id="8206406812057389295" at="66,104,75,9">
-        <var name="module" id="8206406812057389296" />
-      </scope>
-      <scope id="5301639852818710235" at="85,0,96,0" />
-      <scope id="8929058149732124393" at="53,0,65,0">
-        <var name="modules" id="8929058149732124398" />
-        <var name="monitor" id="8929058149732124402" />
-      </scope>
-      <scope id="8929058149732124427" at="66,104,78,55" />
-      <scope id="8929058149732124414" at="65,0,80,0">
+      <scope id="8929058149732124414" at="63,0,68,0">
         <var name="modules" id="8929058149732124419" />
         <var name="monitor" id="8929058149732124423" />
       </scope>
-      <scope id="5301639852818710237" at="36,22,83,93" />
-      <scope id="5301639852818710235" at="35,0,85,0" />
-      <unit id="4397762812403511922" at="38,61,46,5" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ApplicationPlugin_AppPluginPart$1" />
-      <unit id="7657734638924822483" at="51,63,80,5" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ApplicationPlugin_AppPluginPart$2" />
-      <unit id="5301639852818710235" at="28,0,97,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ApplicationPlugin_AppPluginPart" />
+      <scope id="8206406812057187372" at="55,0,61,9">
+        <var name="module" id="8206406812057187373" />
+      </scope>
+      <scope id="4966760322458882086" at="77,63,83,63" />
+      <scope id="4397762812403511924" at="37,0,44,0">
+        <var name="annotation" id="4397762812403511925" />
+      </scope>
+      <scope id="5301639852818737406" at="76,25,84,5" />
+      <scope id="8929058149732124406" at="52,102,61,9" />
+      <scope id="5301639852818710235" at="75,0,86,0" />
+      <scope id="8929058149732124393" at="51,0,63,0">
+        <var name="modules" id="8929058149732124398" />
+        <var name="monitor" id="8929058149732124402" />
+      </scope>
+      <scope id="5301639852818710237" at="34,22,73,93" />
+      <scope id="5301639852818710235" at="33,0,75,0" />
+      <unit id="4397762812403511922" at="36,61,44,5" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ApplicationPlugin_AppPluginPart$1" />
+      <unit id="7657734638924822483" at="49,63,68,5" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ApplicationPlugin_AppPluginPart$2" />
+      <unit id="5301639852818710235" at="26,0,87,0" name="com.mbeddr.mpsutil.grammarcells.runtime.plugin.ApplicationPlugin_AppPluginPart" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
       <node id="5301639852818710235" at="39,68,40,53" concept="3" />

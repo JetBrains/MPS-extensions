@@ -32,22 +32,19 @@ import com.intellij.ui.JBColor;
   }
 
   /*package*/ EditorCell createCell() {
-    return createPriorityInfoCell_1();
+    return createPriorityInfoCell_0();
   }
 
-  private EditorCell createPriorityInfoCell_0(EditorContext editorContext, SNode node) {
+  private EditorCell createPriorityInfoCell_0() {
     EditorCell editorCell = null;
     editorCell = createAlternation_0();
     editorCell.setBig(true);
     setCellContext(editorCell);
     return editorCell;
   }
-  private EditorCell createPriorityInfoCell_1() {
-    return createPriorityInfoCell_0(getEditorContext(), myNode);
-  }
   private EditorCell createAlternation_0() {
     boolean alternationCondition = true;
-    alternationCondition = nodeCondition_5fkz51_a0a_0();
+    alternationCondition = nodeCondition_5fkz51_a0a();
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = createCollection_0();
@@ -56,7 +53,7 @@ import com.intellij.ui.JBColor;
     }
     return editorCell;
   }
-  private boolean nodeCondition_5fkz51_a0a_0() {
+  private boolean nodeCondition_5fkz51_a0a() {
     return false;
   }
   private EditorCell createCollection_0() {

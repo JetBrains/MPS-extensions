@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <uses language="l:7b3261eb-68d9-4fea-a99c-9ac789cea929:com.jetbrains.mpsext.richtext.styles" />
   <uses language="l:4e0df6bd-e265-4d63-9ca0-ca97e44cf841:de.slisson.mps.javadoc" />
   <uses language="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" />
   <uses language="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />

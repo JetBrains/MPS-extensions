@@ -4,12 +4,12 @@ package de.slisson.mps.richtext.editor;
 
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
+import de.slisson.mps.richtext.runtime.selection.ShiftSelector;
+import jetbrains.mps.nodeEditor.EditorComponent;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
 import de.itemis.mps.editor.celllayout.runtime.CellLayoutUtil;
 import de.slisson.mps.editor.multiline.cells.MultilineLayout;
-import de.slisson.mps.richtext.runtime.selection.ShiftSelector;
-import jetbrains.mps.nodeEditor.EditorComponent;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.openapi.editor.EditorContext;
 import de.slisson.mps.editor.multiline.cells.EditorCell_Multiline;
@@ -46,17 +46,17 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class TextCellModifier {
+  /**
+   * Wires up the editor behaviour of a Text like copy/paste of the whole text, the per-word actions, the wrapping layout, 
+   * shift selection and the line/text navigation actions. The per-word part lives in modifyWordList() so that other concepts that contain words
+   * can reuse it without repeating the Text-level actions.
+   * 
+   * @param cell the collection cell
+   */
   public static void modify(EditorCell cell) {
     cell.setAction(CellActionType.COPY, new CopyAction(cell));
     cell.setAction(CellActionType.PASTE, new PasteAction(cell));
-    for (EditorCell iwordCell : Sequence.fromIterable((EditorCell_Collection) cell)) {
-      modifyIWordCell(iwordCell);
-    }
-
-    // Replace the indent cell layout to apply some custom changes to the default behavior
-    // (where to wrap lines, no indentation after wrapping, ...)
-    CellLayoutUtil.setLayout(((EditorCell_Collection) cell), new MultilineLayout());
-
+    modifyWordList(cell);
     ShiftSelector.install((EditorComponent) cell.getEditorComponent());
 
     cell.setAction(CellActionType.SELECT_ALL, new SelectAllAction(cell));
@@ -66,6 +66,23 @@ public class TextCellModifier {
     cell.setAction(CellActionType.END, new EndOfLineAction(cell));
     cell.setAction(CellActionType.ROOT_HOME, new StartOfTextAction(cell));
     cell.setAction(CellActionType.ROOT_END, new EndOfTextAction(cell));
+  }
+
+  /**
+   * Wires up a list of word cells i.e the cell that renders a 'words' link. This is used by Text and by any concept that holds IWords in 
+   * its own link (for example a styled Span that wraps words) so that those words behave like words in a Text like per-word selection, 
+   * delete, paste and substitute actions. It deliberately contains nothing that applies to a whole Text (copy/paste of all text, Home/End, 
+   * select all, ...). Also, modify() installs those once on the Text cell so that they are found by walking up from the word cells.
+   * 
+   * @param cell the collection cell that holds one cell per IWord
+   */
+  public static void modifyWordList(EditorCell cell) {
+    for (EditorCell iwordCell : Sequence.fromIterable(((EditorCell_Collection) cell))) {
+      modifyIWordCell(iwordCell);
+    }
+    // Replace the indent cell layout to apply some custom changes to the default behavior
+    // (where to wrap lines, no indentation after wrapping, ...)
+    CellLayoutUtil.setLayout(((EditorCell_Collection) cell), new MultilineLayout());
   }
 
   public static void modifyIWordCell(final EditorCell cell) {
@@ -220,7 +237,7 @@ public class TextCellModifier {
     List<EditorCell> cells = ListSequence.fromList(new LinkedList<EditorCell>());
     ListSequence.fromList(cells).addElement(cell);
     if (cell instanceof EditorCell_Collection) {
-      for (EditorCell childCell : Sequence.fromIterable(as_n8knj7_a0a0a2a4(cell, EditorCell_Collection.class))) {
+      for (EditorCell childCell : Sequence.fromIterable(as_n8knj7_a0a0a2a6(cell, EditorCell_Collection.class))) {
         ListSequence.fromList(cells).addSequence(ListSequence.fromList(getDescendantsIncludingSelf(childCell)));
       }
     }
@@ -232,7 +249,7 @@ public class TextCellModifier {
   }
 
   public static EditorCell_Label getSelectedLabel(EditorContext context) {
-    EditorCellLabelSelection selection = as_n8knj7_a0a0a8(context.getSelectionManager().getSelection(), EditorCellLabelSelection.class);
+    EditorCellLabelSelection selection = as_n8knj7_a0a0a01(context.getSelectionManager().getSelection(), EditorCellLabelSelection.class);
     if (selection == null) {
       return null;
     }
@@ -311,8 +328,8 @@ public class TextCellModifier {
       {
         final SNode text = context.getSelectedNode();
         if (SNodeOperations.isInstanceOf(text, CONCEPTS.Text$bD)) {
-          EditorCell_Label firstLeaf = as_n8knj7_a0a0a1a0a4p(CellTraversalUtil.getFirstLeaf(myCell), EditorCell_Label.class);
-          EditorCell_Label lastLeaf = as_n8knj7_a0a1a1a0a4p(CellTraversalUtil.getLastLeaf(myCell), EditorCell_Label.class);
+          EditorCell_Label firstLeaf = as_n8knj7_a0a0a1a0a4r(CellTraversalUtil.getFirstLeaf(myCell), EditorCell_Label.class);
+          EditorCell_Label lastLeaf = as_n8knj7_a0a1a1a0a4r(CellTraversalUtil.getLastLeaf(myCell), EditorCell_Label.class);
           RichtextSelection richSelection = RichtextSelection.create(firstLeaf, 0, lastLeaf, lastLeaf.getText().length());
           richSelection.copySelectedNodes();
         }
@@ -323,10 +340,10 @@ public class TextCellModifier {
       return "Copy all the Text";
     }
 
-    private static <T> T as_n8knj7_a0a0a1a0a4p(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a0a1a0a4r(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
-    private static <T> T as_n8knj7_a0a1a1a0a4p(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a1a1a0a4r(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
   }
@@ -340,7 +357,7 @@ public class TextCellModifier {
       if (selected == null) {
         return false;
       }
-      EditorCell_Label firstLeaf = as_n8knj7_a0a2a1r(CellTraversalUtil.getFirstLeaf(myCell), EditorCell_Label.class);
+      EditorCell_Label firstLeaf = as_n8knj7_a0a2a1t(CellTraversalUtil.getFirstLeaf(myCell), EditorCell_Label.class);
       if (firstLeaf == null) {
         return false;
       }
@@ -350,7 +367,7 @@ public class TextCellModifier {
       return true;
     }
     public void execute(EditorContext context) {
-      EditorCell_Label firstLeaf = as_n8knj7_a0a0a2r(CellTraversalUtil.getFirstLeaf(myCell), EditorCell_Label.class);
+      EditorCell_Label firstLeaf = as_n8knj7_a0a0a2t(CellTraversalUtil.getFirstLeaf(myCell), EditorCell_Label.class);
       context.getSelectionManager().setSelection(firstLeaf, 0);
     }
     public boolean executeInCommand() {
@@ -359,10 +376,10 @@ public class TextCellModifier {
     public String getDescriptionText() {
       return "Select Beginning of Text";
     }
-    private static <T> T as_n8knj7_a0a2a1r(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a2a1t(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
-    private static <T> T as_n8knj7_a0a0a2r(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a0a2t(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
   }
@@ -419,13 +436,13 @@ public class TextCellModifier {
       if (selected == null) {
         return false;
       }
-      jetbrains.mps.nodeEditor.cells.EditorCell_Label homeCell = as_n8knj7_a0a2a4w(getHomeCell(selected, isRichtextDescendant), jetbrains.mps.nodeEditor.cells.EditorCell_Label.class);
+      jetbrains.mps.nodeEditor.cells.EditorCell_Label homeCell = as_n8knj7_a0a2a4y(getHomeCell(selected, isRichtextDescendant), jetbrains.mps.nodeEditor.cells.EditorCell_Label.class);
       return homeCell != null && homeCell.isSelectable();
     }
 
     public void execute(EditorContext context) {
       EditorCell_Label selected = getSelectedLabel(context);
-      jetbrains.mps.nodeEditor.cells.EditorCell_Label homeCell = as_n8knj7_a0a1a6w(getHomeCell(selected, isRichtextDescendant), jetbrains.mps.nodeEditor.cells.EditorCell_Label.class);
+      jetbrains.mps.nodeEditor.cells.EditorCell_Label homeCell = as_n8knj7_a0a1a6y(getHomeCell(selected, isRichtextDescendant), jetbrains.mps.nodeEditor.cells.EditorCell_Label.class);
       context.getSelectionManager().setSelection(homeCell, 0);
     }
     public boolean executeInCommand() {
@@ -434,10 +451,10 @@ public class TextCellModifier {
     public String getDescriptionText() {
       return "Select Start of Line";
     }
-    private static <T> T as_n8knj7_a0a2a4w(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a2a4y(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
-    private static <T> T as_n8knj7_a0a1a6w(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a1a6y(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
   }
@@ -455,12 +472,12 @@ public class TextCellModifier {
       if (selected == null) {
         return false;
       }
-      jetbrains.mps.nodeEditor.cells.EditorCell_Label endCellCell = as_n8knj7_a0a2a4z(getEndCell(selected, isRichtextDescendant), jetbrains.mps.nodeEditor.cells.EditorCell_Label.class);
+      jetbrains.mps.nodeEditor.cells.EditorCell_Label endCellCell = as_n8knj7_a0a2a4bb(getEndCell(selected, isRichtextDescendant), jetbrains.mps.nodeEditor.cells.EditorCell_Label.class);
       return endCellCell != null && endCellCell.isSelectable();
     }
     public void execute(EditorContext context) {
       EditorCell_Label selected = getSelectedLabel(context);
-      jetbrains.mps.nodeEditor.cells.EditorCell_Label endCell = as_n8knj7_a0a1a5z(getEndCell(selected, isRichtextDescendant), jetbrains.mps.nodeEditor.cells.EditorCell_Label.class);
+      jetbrains.mps.nodeEditor.cells.EditorCell_Label endCell = as_n8knj7_a0a1a5bb(getEndCell(selected, isRichtextDescendant), jetbrains.mps.nodeEditor.cells.EditorCell_Label.class);
       context.getSelectionManager().setSelection(endCell, endCell.getText().length());
     }
     public boolean executeInCommand() {
@@ -469,10 +486,10 @@ public class TextCellModifier {
     public String getDescriptionText() {
       return "Select End of Line";
     }
-    private static <T> T as_n8knj7_a0a2a4z(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a2a4bb(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
-    private static <T> T as_n8knj7_a0a1a5z(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a1a5bb(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
   }
@@ -485,7 +502,7 @@ public class TextCellModifier {
       return true;
     }
     public void execute(EditorContext context) {
-      EditorCell_Word selectedWord = as_n8knj7_a0a0a2bb(context.getSelectedCell(), EditorCell_Word.class);
+      EditorCell_Word selectedWord = as_n8knj7_a0a0a2db(context.getSelectedCell(), EditorCell_Word.class);
       selectedWord.deleteFollowingCharacter();
     }
     public boolean executeInCommand() {
@@ -494,7 +511,7 @@ public class TextCellModifier {
     public String getDescriptionText() {
       return "Delete to Word End";
     }
-    private static <T> T as_n8knj7_a0a0a2bb(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a0a2db(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
   }
@@ -509,7 +526,7 @@ public class TextCellModifier {
       if (selected == null) {
         return false;
       }
-      EditorCell_Label lastLeaf = as_n8knj7_a0a2a1eb(getEndCell(selected, isRichtextDescendant), EditorCell_Label.class);
+      EditorCell_Label lastLeaf = as_n8knj7_a0a2a1gb(getEndCell(selected, isRichtextDescendant), EditorCell_Label.class);
       if (lastLeaf == null) {
         return false;
       }
@@ -519,7 +536,7 @@ public class TextCellModifier {
       return true;
     }
     public void execute(EditorContext context) {
-      EditorCell_Word lastWord = as_n8knj7_a0a0a2eb(as_n8knj7_a0a0a0a2eb(CellTraversalUtil.getLastLeaf(myCell), EditorCell_Label.class), EditorCell_Word.class);
+      EditorCell_Word lastWord = as_n8knj7_a0a0a2gb(as_n8knj7_a0a0a0a2gb(CellTraversalUtil.getLastLeaf(myCell), EditorCell_Label.class), EditorCell_Word.class);
       int newCaretPosition = lastWord.getText().length();
       if (lastWord.isCaretPositionAllowed(newCaretPosition)) {
         lastWord.setCaretPosition(newCaretPosition);
@@ -532,13 +549,13 @@ public class TextCellModifier {
     public String getDescriptionText() {
       return "Select End of Text";
     }
-    private static <T> T as_n8knj7_a0a2a1eb(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a2a1gb(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
-    private static <T> T as_n8knj7_a0a0a2eb(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a0a2gb(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
-    private static <T> T as_n8knj7_a0a0a0a2eb(Object o, Class<T> type) {
+    private static <T> T as_n8knj7_a0a0a0a2gb(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
   }
@@ -615,7 +632,9 @@ public class TextCellModifier {
         EditorCell_Collection textCell = multilineCell.getParent();
         SNode textNode = SNodeOperations.as(textCell.getSNode(), CONCEPTS.Text$bD);
         if (textNode == null) {
-          textCell = null;
+          // the word is not a direct child of a Text: it sits inside a node that is itself in a Text (for example a styled span) so resolvee the enclosing Text instead
+          textNode = SNodeOperations.getNodeAncestor(((SNode) myWordCell.getSNode()), CONCEPTS.Text$bD, false, false);
+          textCell = (textNode == null ? null : (EditorCell_Collection) context.getEditorComponent().findNodeCell(textNode));
         }
         handler.handle(textNode, textCell, multilineCell, myWordCell);
       }
@@ -629,10 +648,10 @@ public class TextCellModifier {
       return (hasHandler() ? true : myDefaultAction.canExecute(context));
     }
   }
-  private static <T> T as_n8knj7_a0a0a2a4(Object o, Class<T> type) {
+  private static <T> T as_n8knj7_a0a0a2a6(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_n8knj7_a0a0a8(Object o, Class<T> type) {
+  private static <T> T as_n8knj7_a0a0a01(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 

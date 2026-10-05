@@ -6,6 +6,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
     <use id="4e0df6bd-e265-4d63-9ca0-ca97e44cf841" name="de.slisson.mps.javadoc" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="7b3261eb-68d9-4fea-a99c-9ac789cea929" name="com.jetbrains.mpsext.richtext.styles" version="0" />
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -13,6 +14,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ" />
       <concept id="1109279851642" name="jetbrains.mps.baseLanguage.structure.GenericDeclaration" flags="ng" index="16eOlS">
         <child id="1109279881614" name="typeVariableDeclaration" index="16eVyc" />
@@ -29,6 +31,23 @@
       </concept>
       <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
         <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
+    <language id="7b3261eb-68d9-4fea-a99c-9ac789cea929" name="com.jetbrains.mpsext.richtext.styles">
+      <concept id="6345989286613266886" name="com.jetbrains.mpsext.richtext.styles.structure.Span" flags="ng" index="1x5sD$">
+        <reference id="6345989286613266893" name="style" index="1x5sDJ" />
+        <child id="6345989286613266890" name="words" index="1x5sDC" />
+      </concept>
+      <concept id="6345989286613266397" name="com.jetbrains.mpsext.richtext.styles.structure.Style" flags="ng" index="1x5thZ">
+        <property id="3097356441983323918" name="foregroundLight" index="DOKD8" />
+        <property id="3097356441983323919" name="foregroundDark" index="DOKD9" />
+        <property id="3097356441983323916" name="italic" index="DOKDa" />
+        <property id="3097356441983323915" name="bold" index="DOKDd" />
+        <property id="3097356441983323920" name="backgroundLight" index="DOKDm" />
+        <property id="3097356441983323921" name="backgroundDark" index="DOKDn" />
+      </concept>
+      <concept id="6345989286613657307" name="com.jetbrains.mpsext.richtext.styles.structure.Stylesheet" flags="ng" index="1x6XPT">
+        <child id="4630602346745012041" name="styles" index="2_$aG5" />
       </concept>
     </language>
     <language id="4e0df6bd-e265-4d63-9ca0-ca97e44cf841" name="de.slisson.mps.javadoc">
@@ -174,6 +193,86 @@
     </node>
     <node concept="16euLQ" id="4$G0AukZJRs" role="16eVyc">
       <property role="TrG5h" value="E" />
+    </node>
+  </node>
+  <node concept="1x6XPT" id="413d4N_PHJ2">
+    <node concept="1x5thZ" id="413d4N_PHJ3" role="2_$aG5">
+      <property role="DOKD8" value="" />
+      <property role="DOKD9" value="" />
+      <property role="DOKDm" value="#FFF3A3" />
+      <property role="DOKDn" value="#6A5A00" />
+      <property role="TrG5h" value="Highlight" />
+      <property role="DOKDd" value="true" />
+    </node>
+    <node concept="1x5thZ" id="413d4N_PHJ4" role="2_$aG5">
+      <property role="DOKD8" value="#005CC5" />
+      <property role="DOKD9" value="#79B8FF" />
+      <property role="DOKDm" value="" />
+      <property role="DOKDn" value="" />
+      <property role="TrG5h" value="Changed" />
+    </node>
+    <node concept="1x5thZ" id="413d4N_PHJ5" role="2_$aG5">
+      <property role="DOKD8" value="" />
+      <property role="DOKD9" value="" />
+      <property role="DOKDm" value="" />
+      <property role="DOKDn" value="" />
+      <property role="TrG5h" value="simple_bold" />
+      <property role="DOKDd" value="true" />
+    </node>
+    <node concept="1x5thZ" id="413d4N_PHJ6" role="2_$aG5">
+      <property role="DOKD8" value="" />
+      <property role="DOKD9" value="" />
+      <property role="DOKDm" value="" />
+      <property role="DOKDn" value="" />
+      <property role="TrG5h" value="simple_italic" />
+      <property role="DOKDa" value="true" />
+    </node>
+  </node>
+  <node concept="312cEu" id="413d4N_PHJ7">
+    <property role="TrG5h" value="FormattedWords" />
+    <node concept="3Tm1VV" id="413d4N_PHJ8" role="1B3o_S" />
+    <node concept="1saQ5G" id="413d4N_PHJO" role="lGtFl">
+      <node concept="19SGf9" id="413d4N_PHJP" role="1saQ5D">
+        <node concept="19SUe$" id="413d4N_PHJQ" role="19SJt6">
+          <property role="19SUeA" value="" />
+        </node>
+        <node concept="1x5sD$" id="6sHtZysSMD" role="19SJt6">
+          <ref role="1x5sDJ" node="413d4N_PHJ4" resolve="Changed" />
+          <node concept="19SUe$" id="6sHtZysSMC" role="1x5sDC">
+            <property role="19SUeA" value="Demonstrates" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="6sHtZysSMG" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="1x5sD$" id="6sHtZysSN1" role="19SJt6">
+          <ref role="1x5sDJ" node="413d4N_PHJ3" resolve="Highlight" />
+          <node concept="19SUe$" id="6sHtZysSN0" role="1x5sDC">
+            <property role="19SUeA" value="reusable" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="6sHtZysSN4" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="1x5sD$" id="6sHtZysSNV" role="19SJt6">
+          <ref role="1x5sDJ" node="413d4N_PHJ5" resolve="simple_bold" />
+          <node concept="19SUe$" id="6sHtZysSNU" role="1x5sDC">
+            <property role="19SUeA" value="rich" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="6sHtZysSNY" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="1x5sD$" id="6sHtZysSO$" role="19SJt6">
+          <ref role="1x5sDJ" node="413d4N_PHJ6" resolve="simple_italic" />
+          <node concept="19SUe$" id="6sHtZysSOz" role="1x5sDC">
+            <property role="19SUeA" value="text" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="6sHtZysSOB" role="19SJt6">
+          <property role="19SUeA" value=" styles in documentation comments.&#10;Important information and changes can be highlighted consistently.&#10;This class serves as a simple sandbox example for styled documentation " />
+        </node>
+      </node>
     </node>
   </node>
 </model>

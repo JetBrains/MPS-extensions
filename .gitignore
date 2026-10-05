@@ -10,6 +10,7 @@ test_gen.caches/
 .gradle/
 
 /build/
+/build-logic/build/
 
 site
 .DS_Store

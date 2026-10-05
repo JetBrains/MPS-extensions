@@ -4,6 +4,16 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## October 2026
+
+### Added
+
+*com.jetbrains.mpsext.richtext.styles* New language that styles individual words of a richtext Text with reusable styles. A Style defines bold, italic and light/dark foreground and background colorsand a Stylesheet holds styles and a Span wraps words and references a Style. Intentions apply a style to the selected words and clear styles again. The language extends richtext without changing it.
+
+### Changed
+
+*com.jetbrains.mpsext.richtext.styles* TextCellModifier has a new method modifyWordList() with the per-word editor wiring of modify(). WordCellSubstituteInfo and the new-line handler no longer assume that the parent of a word is a Text so other concepts that contain words can reuse the wiring. The behavior of Text is unchanged.
+
 ## September 2026
 
 ### Fixed

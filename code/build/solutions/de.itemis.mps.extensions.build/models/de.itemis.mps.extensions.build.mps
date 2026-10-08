@@ -1900,6 +1900,85 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="3LS_1nWW13K" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.jetbrains.mpsext.richtext.styles" />
+        <property role="3LESm3" value="7b3261eb-68d9-4fea-a99c-9ac789cea929" />
+        <node concept="398BVA" id="3LS_1nWW2OX" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="3LS_1nWW2XH" role="iGT6I">
+            <property role="2Ry0Am" value="richtext" />
+            <node concept="2Ry0Ak" id="3LS_1nWW3f9" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="3LS_1nWW3x8" role="2Ry0An">
+                <property role="2Ry0Am" value="com.jetbrains.mpsext.richtext.styles" />
+                <node concept="2Ry0Ak" id="3LS_1nWW4Ay" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.jetbrains.mpsext.richtext.styles.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3LS_1nWW590" role="3bR37C">
+          <node concept="3bR9La" id="3LS_1nWW591" role="1SiIV1">
+            <ref role="3bR37D" node="64TsoMQT2qP" resolve="de.slisson.mps.hacks.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3LS_1nWW592" role="3bR37C">
+          <node concept="3bR9La" id="3LS_1nWW593" role="1SiIV1">
+            <ref role="3bR37D" node="1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="3LS_1nWW59f" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="3LS_1nWW59g" role="1HemKq">
+            <node concept="398BVA" id="3LS_1nWW594" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="3LS_1nWW595" role="iGT6I">
+                <property role="2Ry0Am" value="richtext" />
+                <node concept="2Ry0Ak" id="3LS_1nWW596" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="3LS_1nWW597" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.richtext.styles" />
+                    <node concept="2Ry0Ak" id="3LS_1nWW598" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3LS_1nWW59h" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3LS_1nWW59i" role="3bR37C">
+          <node concept="1Busua" id="3LS_1nWW59j" role="1SiIV1">
+            <ref role="1Busuk" node="1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="3LS_1nWW6a7" role="3bR31x">
+          <node concept="3LXTmp" id="3LS_1nWW6a8" role="3rtmxm">
+            <node concept="398BVA" id="3LS_1nWW6a9" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="3LS_1nWW6aa" role="iGT6I">
+                <property role="2Ry0Am" value="richtext" />
+                <node concept="2Ry0Ak" id="3LS_1nWW6ab" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="3LS_1nWW6ac" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.richtext.styles" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3LS_1nWW6ae" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="m$_wf" id="7szUFELHeHf" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.editor.widgets" />

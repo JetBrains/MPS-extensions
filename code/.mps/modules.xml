@@ -161,6 +161,7 @@
       <modulePath path="$PROJECT_DIR$/richtext/languages/de.slisson.richtext.customcell/de.slisson.richtext.customcell.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/javadoc/javadoc.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/richtext/richtext.mpl" folder="richtext" />
+	  <modulePath path="$PROJECT_DIR$/richtext/languages/com.jetbrains.mpsext.richtext.styles/com.jetbrains.mpsext.richtext.styles.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/solutions/de.slisson.mps.richtext.sandbox/de.slisson.mps.richtext.sandbox.msd" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/solutions/de.slisson.mps.richtext.test.runtime/de.slisson.mps.richtext.test.runtime.msd" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/solutions/test.de.slisson.mps.richtext/test.de.slisson.mps.richtext.msd" folder="richtext" />

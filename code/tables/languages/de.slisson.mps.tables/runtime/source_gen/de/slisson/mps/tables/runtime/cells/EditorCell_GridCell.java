@@ -11,20 +11,6 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import de.slisson.mps.tables.runtime.simplegrid.GridPosition;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
-import jetbrains.mps.nodeEditor.AdditionalPainter;
-import jetbrains.mps.nodeEditor.AbstractAdditionalPainter;
-import java.awt.Point;
-import java.awt.Rectangle;
-import org.jetbrains.annotations.Nullable;
-import com.intellij.ui.components.JBViewport;
-import jetbrains.mps.nodeEditor.EditorComponent;
-import javax.swing.SwingUtilities;
-import java.awt.Graphics;
-import jetbrains.mps.nodeEditor.cells.ParentSettings;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.openapi.editor.cells.CellTraversalUtil;
-import jetbrains.mps.nodeEditor.EditorMessage;
-import jetbrains.mps.openapi.editor.cells.CellMessagesUtil;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import de.itemis.mps.editor.celllayout.runtime.TopDownCellLayoutAdapter;
@@ -39,6 +25,12 @@ import java.util.Collection;
 import java.util.Collections;
 import jetbrains.mps.nodeEditor.cells.EditorCellContextImpl;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import java.awt.Graphics;
+import jetbrains.mps.nodeEditor.cells.ParentSettings;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.openapi.editor.cells.CellTraversalUtil;
+import jetbrains.mps.nodeEditor.EditorMessage;
+import jetbrains.mps.openapi.editor.cells.CellMessagesUtil;
 import jetbrains.mps.openapi.editor.cells.CellAction;
 import de.slisson.mps.tables.runtime.gridmodel.Grid;
 import de.slisson.mps.tables.runtime.gridmodel.EditorCellGridLeaf;
@@ -77,110 +69,6 @@ public class EditorCell_GridCell extends NoInsertOverride {
   private TableEditor myTable;
   private GridPosition myPosition;
   private Style myTableStyle = new StyleImpl();
-
-  private AdditionalPainter<Object> painter = new AbstractAdditionalPainter<Object>() {
-
-    @Override
-    public boolean paintsAbove() {
-      return true;
-    }
-
-    /*package*/ boolean shouldBeStickyX(Point point, Rectangle viewRect, EditorCell cell, boolean ignoreStyle) {
-      int tolerance = 1;
-
-      boolean styleCheck = (ignoreStyle ? true : isHorizontallyStickyCell());
-      return styleCheck && !(isVisibleInEditor(point)) && viewRect.getX() > cell.getX() && viewRect.getX() + cell.getWidth() - tolerance < myTable.getX() + myTable.getWidth();
-    }
-
-    /*package*/ boolean shouldBeStickyY(Point point, Rectangle viewRect, EditorCell cell, boolean ignoreStyle) {
-      int tolerance = 1;
-
-      boolean styleCheck = (ignoreStyle ? true : isVerticallyStickyCell());
-      return styleCheck && !(isVisibleInEditor(point)) && viewRect.getY() > cell.getY() && viewRect.getY() + cell.getHeight() - tolerance < myTable.getY() + myTable.getHeight();
-    }
-
-    @Nullable
-    private JBViewport getViewport() {
-      EditorComponent editorComponent = (EditorComponent) getEditorComponent();
-      // EditorComponent.getViewport throws an AssertionException for headless components and EditorComponent.hasUI is package-private.
-      // Searching the viewport in the ancestors seems to be the cleanest workaround.
-      return (JBViewport) SwingUtilities.getAncestorOfClass(JBViewport.class, editorComponent);
-    }
-
-    @Override
-    public void paint(Graphics gr, EditorComponent comp) {
-      if (myWrappedEditorCell.getParent() == null) {
-        return;
-      }
-      EditorCell_GridCell cell = EditorCell_GridCell.this;
-      Point point = new Point(getX(), getY());
-      JBViewport viewport = getViewport();
-      Rectangle viewRect = (viewport != null ? viewport.getViewRect() : new Rectangle());
-
-      boolean stickyX = shouldBeStickyX(point, viewRect, cell, false);
-      boolean stickyY = shouldBeStickyY(point, viewRect, cell, false);
-
-      if (stickyX || stickyY) {
-        int x;
-        int y;
-        if (stickyY) {
-          x = 0;
-          y = (int) viewRect.getY() - cell.getY() + cell.getTable().getVerticalStickyCellOffset(cell);
-        } else if (stickyX) {
-          x = (int) viewRect.getX() - cell.getX() + cell.getTable().getHorizonalStickyCellOffset(cell);
-          y = 0;
-        } else {
-          return;
-        }
-        Graphics g = gr.create();
-        g.translate(x, y);
-        g.setColor(comp.getStyleRegistry().getEditorBackground());
-        g.fillRect(cell.getX(), cell.getY(), cell.getWidth(), cell.getHeight());
-        fillBackground(g, new ParentSettings());
-        cell.paint(g);
-        TableUtils.paintBorders(g, TableUtils.getCellBounds(cell), getStyleValue(STYLE_BORDER_TOP_COLOR), getStyleValue(STYLE_BORDER_TOP_WIDTH), getStyleValue(STYLE_BORDER_LEFT_COLOR), getStyleValue(STYLE_BORDER_LEFT_WIDTH), getStyleValue(STYLE_BORDER_RIGHT_COLOR), getStyleValue(STYLE_BORDER_RIGHT_WIDTH), getStyleValue(STYLE_BORDER_BOTTOM_COLOR), getStyleValue(STYLE_BORDER_BOTTOM_WIDTH));
-
-        // some messages look like they belong to a cell but are actually drawn by some ancestor
-        g.setClip(cell.getX(), cell.getY(), cell.getWidth(), cell.getHeight());
-        for (EditorCell ancestor : ListSequence.fromList(CellTraversalUtil.getParents(cell, false))) {
-          if (ancestor instanceof TableEditor) {
-            break;
-          }
-          for (EditorMessage message : ListSequence.fromList(CellMessagesUtil.getMessages(ancestor, EditorMessage.class))) {
-            if (message != null && !(message.isBackground())) {
-              message.paint(g, getEditor(), ancestor);
-            }
-          }
-        }
-      }
-    }
-
-    @Override
-    public boolean paintsBackground() {
-      return false;
-    }
-
-    @Override
-    public void paintBackground(Graphics p1, EditorComponent p2) {
-    }
-
-    @Override
-    public Object getItem() {
-      return null;
-    }
-
-    @Override
-    public boolean isAbove(AdditionalPainter additionalPainter, EditorComponent editorComponent) {
-      return true;
-    }
-  };
-
-  public boolean isVisibleInEditor(Point point) {
-    EditorComponent editorComponent = (EditorComponent) getEditorComponent();
-    Rectangle viewRect = editorComponent.getViewport().getViewRect();
-
-    return editorComponent.isShowing() && point.getX() >= viewRect.getX() && point.getX() <= viewRect.getX() + viewRect.getWidth() && point.getY() >= viewRect.getY() && point.getY() <= viewRect.getY() + viewRect.getHeight();
-  }
 
   public EditorCell_GridCell(EditorContext context, SNode snode, EditorCell wrappedCell) {
     super(wrappedCell.getContext(), snode, new TopDownCellLayoutAdapter(new GridCellLayout()), null);
@@ -264,7 +152,7 @@ public class EditorCell_GridCell extends NoInsertOverride {
   }
 
   protected void fixCellContext(EditorCell cell) {
-    if (check_hp9uj0_a0a0pb(check_hp9uj0_a0a0a14(cell.getCellContext())) != cell.getSNode()) {
+    if (check_hp9uj0_a0a0lb(check_hp9uj0_a0a0a73(cell.getCellContext())) != cell.getSNode()) {
       final SNodeLocation.FromNode nodeLocation = new SNodeLocation.FromNode(cell.getSNode());
       if (cell.getCellContext() == null) {
         cell.setCellContext(new EditorCellContext() {
@@ -322,6 +210,31 @@ public class EditorCell_GridCell extends NoInsertOverride {
 
   public boolean isStickyCell() {
     return isHorizontallyStickyCell() || isVerticallyStickyCell();
+  }
+  public void paintSticky(Graphics graphics, int dx, int dy) {
+    // Paints this cell moved by (dx, dy). Used by the StickyHeaderPainter to keep headers visible while the table is scrolled.
+    Graphics g = graphics.create();
+    try {
+      g.translate(dx, dy);
+      fillBackground(g, new ParentSettings());
+      paint(g);
+      TableUtils.paintBorders(g, TableUtils.getCellBounds(this), getStyleValue(STYLE_BORDER_TOP_COLOR), getStyleValue(STYLE_BORDER_TOP_WIDTH), getStyleValue(STYLE_BORDER_LEFT_COLOR), getStyleValue(STYLE_BORDER_LEFT_WIDTH), getStyleValue(STYLE_BORDER_RIGHT_COLOR), getStyleValue(STYLE_BORDER_RIGHT_WIDTH), getStyleValue(STYLE_BORDER_BOTTOM_COLOR), getStyleValue(STYLE_BORDER_BOTTOM_WIDTH));
+
+      // some messages look like they belong to a cell but are actually drawn by some ancestor
+      g.clipRect(getX(), getY(), getWidth(), getHeight());
+      for (EditorCell ancestor : ListSequence.fromList(CellTraversalUtil.getParents(this, false))) {
+        if (ancestor instanceof TableEditor) {
+          break;
+        }
+        for (EditorMessage message : ListSequence.fromList(CellMessagesUtil.getMessages(ancestor, EditorMessage.class))) {
+          if (message != null && !(message.isBackground())) {
+            message.paint(g, getEditor(), ancestor);
+          }
+        }
+      }
+    } finally {
+      g.dispose();
+    }
   }
 
   public <T> T getStyleValue(StyleAttribute<T> attribute) {
@@ -443,10 +356,10 @@ public class EditorCell_GridCell extends NoInsertOverride {
   }
 
   public static EditorCell unwrapAll(EditorCell cell) {
-    for (EditorCell child : Sequence.fromIterable(as_hp9uj0_a0a0a88(cell, EditorCell_Collection.class))) {
+    for (EditorCell child : Sequence.fromIterable(as_hp9uj0_a0a0a58(cell, EditorCell_Collection.class))) {
       unwrapAll(child);
     }
-    EditorCell unwrapped = check_hp9uj0_a0b0kd(as_hp9uj0_a0a0b0kd(cell, EditorCell_GridCell.class));
+    EditorCell unwrapped = check_hp9uj0_a0b0hd(as_hp9uj0_a0a0b0hd(cell, EditorCell_GridCell.class));
     return (unwrapped == null ? cell : unwrapped);
   }
   @Override
@@ -485,32 +398,6 @@ public class EditorCell_GridCell extends NoInsertOverride {
   public void onAdd() {
     super.onAdd();
     syncStyles();
-    if (isStickyCell()) {
-      if (isHorizontallyStickyCell()) {
-        ListSequence.fromList(this.getTable().horizontallyStickyCells).addElement(this);
-      }
-      if (isVerticallyStickyCell()) {
-        ListSequence.fromList(this.getTable().verticallyStickyCells).addElement(this);
-      }
-      EditorComponent editorComponent = (EditorComponent) this.getEditorComponent();
-      editorComponent.addAdditionalPainter(painter);
-    }
-  }
-
-
-  @Override
-  public void onRemove() {
-    super.onRemove();
-    if (isHorizontallyStickyCell() || isVerticallyStickyCell()) {
-      if (isHorizontallyStickyCell()) {
-        ListSequence.fromList(this.getTable().horizontallyStickyCells).removeElement(this);
-      }
-      if (isVerticallyStickyCell()) {
-        ListSequence.fromList(this.getTable().verticallyStickyCells).removeElement(this);
-      }
-      EditorComponent editorComponent = (EditorComponent) this.getEditorComponent();
-      editorComponent.removeAdditionalPainter(painter);
-    }
   }
 
   @Override
@@ -534,11 +421,11 @@ public class EditorCell_GridCell extends NoInsertOverride {
     }
     for (int x = 0; x < grid.getSizeX(); x++) {
       for (int y = 0; y < grid.getSizeY(); y++) {
-        EditorCellGridLeaf leaf = as_hp9uj0_a0a0a0a1a99(grid.getElement(x, y), EditorCellGridLeaf.class);
+        EditorCellGridLeaf leaf = as_hp9uj0_a0a0a0a1a39(grid.getElement(x, y), EditorCellGridLeaf.class);
         if (leaf == null) {
           continue;
         }
-        EditorCell cell = as_hp9uj0_a0a2a0a1a99(grid.getElement(x, y), EditorCell.class);
+        EditorCell cell = as_hp9uj0_a0a2a0a1a39(grid.getElement(x, y), EditorCell.class);
         EditorCell unwrapped = unwrapAll((leaf.getEditorCell()));
         if (cell != unwrapped) {
           leaf.setEditorCell(unwrapped);
@@ -546,7 +433,6 @@ public class EditorCell_GridCell extends NoInsertOverride {
       }
     }
   }
-
 
   public int getBorderLeft() {
     return ObjectUtils.notNull(getStyleValue(STYLE_BORDER_LEFT_WIDTH), 0);
@@ -624,7 +510,7 @@ public class EditorCell_GridCell extends NoInsertOverride {
     }
     @Override
     public boolean canExecute(EditorContext context) {
-      return super.canExecute(context) && check_hp9uj0_a0a0a1bf(getParent(), this) != myWrappedEditorCell.getSNode();
+      return super.canExecute(context) && check_hp9uj0_a0a0a1ue(getParent(), this) != myWrappedEditorCell.getSNode();
     }
   }
 
@@ -637,40 +523,40 @@ public class EditorCell_GridCell extends NoInsertOverride {
     public void execute(EditorContext context) {
     }
   }
-  private static SNode check_hp9uj0_a0a0pb(SNodeLocation checkedDotOperand) {
+  private static SNode check_hp9uj0_a0a0lb(SNodeLocation checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getContextNode();
     }
     return null;
   }
-  private static SNodeLocation check_hp9uj0_a0a0a14(EditorCellContext checkedDotOperand) {
+  private static SNodeLocation check_hp9uj0_a0a0a73(EditorCellContext checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getNodeLocation();
     }
     return null;
   }
-  private static EditorCell check_hp9uj0_a0b0kd(EditorCell_GridCell checkedDotOperand) {
+  private static EditorCell check_hp9uj0_a0b0hd(EditorCell_GridCell checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.unwrap();
     }
     return null;
   }
-  private static SNode check_hp9uj0_a0a0a1bf(jetbrains.mps.nodeEditor.cells.EditorCell_Collection checkedDotOperand, DeleteAction checkedDotThisExpression) {
+  private static SNode check_hp9uj0_a0a0a1ue(jetbrains.mps.nodeEditor.cells.EditorCell_Collection checkedDotOperand, DeleteAction checkedDotThisExpression) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getSNode();
     }
     return null;
   }
-  private static <T> T as_hp9uj0_a0a0a88(Object o, Class<T> type) {
+  private static <T> T as_hp9uj0_a0a0a58(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_hp9uj0_a0a0b0kd(Object o, Class<T> type) {
+  private static <T> T as_hp9uj0_a0a0b0hd(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_hp9uj0_a0a0a0a1a99(Object o, Class<T> type) {
+  private static <T> T as_hp9uj0_a0a0a0a1a39(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_hp9uj0_a0a2a0a1a99(Object o, Class<T> type) {
+  private static <T> T as_hp9uj0_a0a2a0a1a39(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

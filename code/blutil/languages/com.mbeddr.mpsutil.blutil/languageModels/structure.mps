@@ -1152,6 +1152,18 @@
     <property role="R4oN_" value="identify groups of elements" />
     <property role="3GE5qa" value="groupByOperation" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+    <node concept="1TJgyj" id="3pRexuyErfz" role="1TKVEi">
+      <property role="IQ2ns" value="3924669473464366051" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="valuesSelector" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3pRexuyErf$" role="1TKVEi">
+      <property role="IQ2ns" value="3924669473464366052" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="aggregateFn" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="46RgPUMrFAF">
     <property role="R5$K7" value="false" />

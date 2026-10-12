@@ -45,13 +45,12 @@
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="btf5" ref="r:9b4a89e1-ec38-42c4-b1bd-96ab47ffcb3f(jetbrains.mps.vcs.diff.changes)" />
     <import index="cbc7" ref="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)" />
-    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
-    <import index="ddhc" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide(MPS.IDEA/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="hdhb" ref="r:07568eb8-30c0-4bb3-9dcb-50ee4b8de59a(jetbrains.mps.vcs.diff.ui.common)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -7049,51 +7048,25 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="3R8AnLCjiLd" role="3cqZAp">
-          <node concept="3cpWsn" id="3R8AnLCjiLe" role="3cpWs9">
-            <property role="TrG5h" value="dataContext" />
-            <node concept="3uibUv" id="3R8AnLCjdP$" role="1tU5fm">
-              <ref role="3uigEE" to="qkt:~DataContext" resolve="DataContext" />
-            </node>
-            <node concept="2OqwBi" id="3R8AnLCjiLf" role="33vP2m">
-              <node concept="2YIFZM" id="3R8AnLCjiLg" role="2Oq$k0">
-                <ref role="37wK5l" to="ddhc:~DataManager.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="ddhc:~DataManager" resolve="DataManager" />
-              </node>
-              <node concept="liA8E" id="3R8AnLCjiLh" role="2OqNvi">
-                <ref role="37wK5l" to="ddhc:~DataManager.getDataContext(java.awt.Component)" resolve="getDataContext" />
-                <node concept="10QFUN" id="3R8AnLCjiLi" role="37wK5m">
-                  <node concept="3uibUv" id="3R8AnLCjiLj" role="10QFUM">
-                    <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
-                  </node>
-                  <node concept="2OqwBi" id="3R8AnLCjiLk" role="10QFUP">
-                    <node concept="37vLTw" id="3R8AnLCjiLl" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5lTqPuSd93e" resolve="context" />
-                    </node>
-                    <node concept="liA8E" id="3R8AnLCjiLm" role="2OqNvi">
-                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="3R8AnLCkaQD" role="3cqZAp">
           <node concept="3cpWsn" id="3R8AnLCkaQE" role="3cpWs9">
             <property role="TrG5h" value="ideaProject" />
             <node concept="3uibUv" id="3R8AnLCk6A0" role="1tU5fm">
               <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
             </node>
-            <node concept="2OqwBi" id="3R8AnLCkaQF" role="33vP2m">
-              <node concept="37vLTw" id="3R8AnLCkaQG" role="2Oq$k0">
-                <ref role="3cqZAo" node="3R8AnLCjiLe" resolve="dataContext" />
-              </node>
-              <node concept="liA8E" id="3R8AnLCkaQH" role="2OqNvi">
-                <ref role="37wK5l" to="qkt:~DataContext.getData(com.intellij.openapi.actionSystem.DataKey)" resolve="getData" />
-                <node concept="10M0yZ" id="3R8AnLCkaQI" role="37wK5m">
-                  <ref role="3cqZAo" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
-                  <ref role="1PxDUh" to="qkt:~CommonDataKeys" resolve="CommonDataKeys" />
+            <node concept="2YIFZM" id="2N9zR9R4uC1" role="33vP2m">
+              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
+              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="2YIFZM" id="2N9zR9R4JyD" role="37wK5m">
+                <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
+                <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                <node concept="2OqwBi" id="2N9zR9R4Yfc" role="37wK5m">
+                  <node concept="37vLTw" id="2N9zR9R4SX3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5lTqPuSd93e" resolve="context" />
+                  </node>
+                  <node concept="liA8E" id="2N9zR9R5ahu" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                  </node>
                 </node>
               </node>
             </node>

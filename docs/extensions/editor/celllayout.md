@@ -60,7 +60,7 @@ installed recursively when any style property of the language is used.
 
 ### Grow and Push
 
-- **grow-x** is a flag that tells the layouter to grow the cell to the with of the parent.
+- **grow-x** is a flag that tells the layouter to grow the cell to the width of the parent.
 - **push-x** is a property that has the same effect as setting `grow-x` on the cell and all ancestor cells.
 - **grow-y** is a flag that tells the layouter to grow the cell to the height of the parent.
 - **push-y** is a property that has the same effect as setting `grow-y` on the cell and all ancestor cells.

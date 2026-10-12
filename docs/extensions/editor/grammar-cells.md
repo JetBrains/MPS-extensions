@@ -52,7 +52,7 @@ A cell that supports entering an optional text to add an optional containment li
 ## grammar.wrap
 
 A cell that lets you enter a child in a context where a parent is expected (e.g. enter the type of a 
- variable declaration to create the declaration itself). The editor cell of th child is wrapped and the instantiation of the
+ variable declaration to create the declaration itself). The editor cell of the child is wrapped and the instantiation of the
  child is triggered. It can be used for containment links of children with mandatory (1) or optional (0..1) cardinality.
 
 ### Supported properties (side transformations)

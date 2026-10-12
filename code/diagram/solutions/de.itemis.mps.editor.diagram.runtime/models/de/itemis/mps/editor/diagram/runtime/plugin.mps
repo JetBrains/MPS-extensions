@@ -1071,10 +1071,9 @@
         <node concept="3clFbF" id="3Y7loYI0ZsD" role="3cqZAp">
           <node concept="2OqwBi" id="3Y7loYI13ql" role="3clFbG">
             <node concept="2OqwBi" id="3Y7loYI0ZXo" role="2Oq$k0">
-              <node concept="2YIFZM" id="3Y7loYI0ZFY" role="2Oq$k0">
+              <node concept="2YIFZM" id="3P1_GQG9QkP" role="2Oq$k0">
+                <ref role="37wK5l" to="9ti4:~Extensions.getRootArea()" resolve="getRootArea" />
                 <ref role="1Pybhc" to="9ti4:~Extensions" resolve="Extensions" />
-                <ref role="37wK5l" to="9ti4:~Extensions.getArea(com.intellij.openapi.extensions.AreaInstance)" resolve="getArea" />
-                <node concept="10Nm6u" id="3Y7loYI0ZVo" role="37wK5m" />
               </node>
               <node concept="liA8E" id="3Y7loYI11r1" role="2OqNvi">
                 <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />
@@ -1102,10 +1101,9 @@
         <node concept="3clFbF" id="5K7KC_qurlJ" role="3cqZAp">
           <node concept="2OqwBi" id="5K7KC_qursP" role="3clFbG">
             <node concept="2OqwBi" id="5K7KC_qurlL" role="2Oq$k0">
-              <node concept="2YIFZM" id="5K7KC_qurlM" role="2Oq$k0">
+              <node concept="2YIFZM" id="3P1_GQGbFuN" role="2Oq$k0">
+                <ref role="37wK5l" to="9ti4:~Extensions.getRootArea()" resolve="getRootArea" />
                 <ref role="1Pybhc" to="9ti4:~Extensions" resolve="Extensions" />
-                <ref role="37wK5l" to="9ti4:~Extensions.getArea(com.intellij.openapi.extensions.AreaInstance)" resolve="getArea" />
-                <node concept="10Nm6u" id="5K7KC_qurlN" role="37wK5m" />
               </node>
               <node concept="liA8E" id="5K7KC_qurlO" role="2OqNvi">
                 <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />

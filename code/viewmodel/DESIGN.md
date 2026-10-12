@@ -295,7 +295,9 @@ viewmodel/TestResults/(project).writeComputed(item, "lastResult", c);
   (editor queries, cell actions, intentions, menus, …) the project is found at runtime through
   `editorContext.getRepository()` (`ViewModel.forRepository`, using `ProjectHelper.getProject`).
   Elsewhere the project has to be passed; a checking rule reports a missing project, and the editor
-  shows the `(…)` part only when the project is given or the context offers none.
+  shows the `(…)` part only when the project is given or the context offers none. Typing `(` after
+  the expression (a right side transform) adds an empty project expression, also where the context
+  offers one.
 * Generator: three rules in `main`. An expression with a project reduces to
   `ViewModels.named("<runtime name>").forProject(<project>)`. In editor code it reduces through the
   template `reduce_ViewModelExpression_inEditor`, whose context is an editor query function, so that

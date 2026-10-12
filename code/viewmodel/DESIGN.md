@@ -116,6 +116,10 @@ iets3 variability `EvalVarPointCache`, `SkelTreeCache`, `AbstractConfigHashing`;
 * **No view models for read-only models.** Writes for nodes of read-only models are rejected, reads
   return nothing.
 * **Map storage shaped as a hash array mapped trie (HAMT), mutated in place.**
+* **Named view models.** Each use case writes to a view model of its own name (e.g.
+  `"org.iets3.testResults"`), which is a map of its own. Keys of different use cases can't collide,
+  a use case can clear its data without touching others, and a lookup only walks the map of its
+  own use case. All view models live under the single root of the store.
 * Typesystem integration is out of scope.
 
 ### Why a HAMT mutated in place
@@ -157,7 +161,9 @@ Clients depend on the runtime solution only.
 ### Structure
 
 ```
-ViewModel                    root; one per store
+ViewModelStore               root; one per store
+  viewModels : ViewModel [0..n]
+ViewModel                    named (INamedConcept); one per use case, created by its first write
   root : HamtBranch [1]
 
 abstract HamtNode            slot : integer — position in the parent branch (0..15)
@@ -176,8 +182,8 @@ abstract Value
   MapValue    root : HamtBranch [1]   nested map, used for entries with more than one key
 ```
 
-Composite keys are nested maps: the interpreter result of a test item is stored at the path
-`[NodeKey(testItem), StringKey("ICanRunCheckManually.lastResult")]`. All data of one node are grouped
+Composite keys are nested maps: the interpreter result of a test item is stored in a view model of
+its own at the path `[NodeKey(testItem), StringKey("lastResult")]`. All data of one node are grouped
 under one entry, which is removed when the node is deleted.
 
 Keeping the Java object in a user object of a node *inside the view model* is fine: these nodes are
@@ -204,7 +210,12 @@ event the editor needs.
 ### Store lifecycle
 
 * One store per MPS instance: a long-term temporary model in a non-reloadable temporary module of the
-  shared repository, containing one `ViewModel` root. Data of a node are the same in every project.
+  shared repository, containing one `ViewModelStore` root. Data of a node are the same in every project.
+* A `ViewModel` child is added by the first write to that name and removed by `clear()`. A lookup
+  of a view model that doesn't exist yet must still depend on the store node, so that the reader is
+  updated when the view model is added. Iterating the children of a node does not record a read of
+  that node (and an empty child list records nothing), so the lookup reads the store node explicitly
+  (`getProperties()`, which fires a node read).
 * Created eagerly by an application plugin. It must exist before the first editor reads from it:
   a read that finds no store can't register a dependency, so a later write wouldn't update that
   editor (and a read can't create the store, because that needs write access).
@@ -216,27 +227,43 @@ event the editor needs.
 ### Java API (runtime solution)
 
 ```java
-ViewModels vm = ViewModels.getInstance();
+// a named view model; a lightweight handle that only holds the name
+ViewModel results = ViewModels.named("org.iets3.testResults");
 
-// reading — needs read access; reads from an editor are tracked as cell dependencies
-Object v = vm.get(node, "lastResult");
-Object v = vm.getPath(path);                          // list<ViewModelKey>
+// reading — needs read access but no project, e.g. in an editor;
+// reads from an editor are tracked as cell dependencies
+Object v = results.get(node, "lastResult");
+Object v = results.getPath(path);                     // list<ViewModelKey>
+
+// everything else through the view model bound to a project
+ProjectViewModel vm = results.forProject(project);
 
 // recording dependencies of a computation (inside one read action)
 Computed<T> c = vm.compute(() -> evaluate(node));    // c.getValue(), c.getDependencies()
 
 // writing — inside a command of the project; return false when rejected (read-only model, node gone)
-vm.write(project, node, "lastResult", value, dependencies);
-vm.writeComputed(project, node, "lastResult", c);
-vm.writePath(project, path, value, dependencies);    // value null removes
-vm.remove(project, node, "lastResult");
-vm.removeNode(project, node);                         // all data of the node
+vm.write(node, "lastResult", value, dependencies);
+vm.writeComputed(node, "lastResult", c);
+vm.writePath(path, value, dependencies);              // value null removes
+vm.remove(node, "lastResult");
+vm.removeNode(node);                                  // all data of the node in this view model
+vm.clear();                                           // all data of this view model
 
 // writing from any thread
-CompletableFuture<Boolean> f = vm.writeAsync(project, node, "lastResult", value, dependencies);
+CompletableFuture<Boolean> f = vm.writeAsync(node, "lastResult", value, dependencies);
 vm.writeComputedAsync(…); vm.writePathAsync(…); vm.removeAsync(…);
 try (ViewModelBatch b = vm.startBatch()) { … many writeAsync … }
+vm.drain();                                           // apply the queue now (inside a command)
 ```
+
+`ViewModel` and `ProjectViewModel` are lightweight handles (a name, plus the project) and can be
+created whenever needed; they stay valid when the store is recreated after a class reload. Batches and
+the write queue are shared by all view models: `startBatch` groups the asynchronous writes of every
+view model, and `drain` applies the queued writes of the project to all of them. `ViewModels` itself
+offers `named(name)` and the path-based primitives `getPath(viewModel, path)`,
+`writePath(project, viewModel, …)` / `writePathAsync(project, viewModel, …)` / `drain(project)`.
+Internally the name of the view model is the first key of each path, so the index of dependencies
+and the write queue treat all view models alike.
 
 Keys are the Java value objects `ViewModelStringKey` and `ViewModelNodeKey` (created with
 `ViewModelKey.forString/forNode/forNodeReference`), matching the key concepts. The overloads taking
@@ -273,8 +300,8 @@ to call from MPS code.
   computed. It registers the pending write in the reverse index immediately and starts listening to
   the models of its dependencies; a change of any of its dependencies before the queue is drained
   marks it stale, and stale writes are dropped.
-* `drain(project)` is public, so tests (and code that is already inside a command) can apply the
-  queue synchronously.
+* `drain()` is public, so tests (and code that is already inside a command) can apply the queue
+  synchronously.
 * Drain: one `executeUndoTransparentCommand` on the project's model access, scheduled on the EDT once
   per batch (outermost `startBatch`/`close` pair, or each `writeAsync` outside a batch). Writes to the
   same path in one drain: the last one wins. Writes whose key node is gone or in a read-only model are
@@ -283,7 +310,7 @@ to call from MPS code.
 ### Use in iets3 (follow-up in iets3.opensource)
 
 * `ICanStoreCheckResult.storeLastResult` / `getLastResult` / `deleteLastResult` / `hasExistingResult`
-  delegate to `ViewModels` (path `[NodeKey(this), StringKey(userObjectKey())]`).
+  delegate to a named view model (path `[NodeKey(this), StringKey(userObjectKey())]`).
 * `AbstractTestItem.executeTest` runs the evaluation inside `compute`, so the result depends on the
   test item, the function under test, the setup and everything else the interpreter read.
 * `RunManuallyUtil.rebuildAffectedEditors` and the `EditorComponentHacks` usage go away.

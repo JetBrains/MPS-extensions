@@ -133,10 +133,13 @@
                   <node concept="2OqwBi" id="6SvWaReUQL9" role="33vP2m">
                     <node concept="2YIFZM" id="6SvWaReUQLc" role="2Oq$k0">
                       <ref role="1Pybhc" to="u3te:6SvWaRelkyu" resolve="ViewModels" />
-                      <ref role="37wK5l" to="u3te:6SvWaRelk$h" resolve="getInstance" />
+                      <ref role="37wK5l" to="u3te:7a1gqzqPDH2" resolve="named" />
+                      <node concept="Xl_RD" id="7a1gqzqQaGL" role="37wK5m">
+                        <property role="Xl_RC" value="test" />
+                      </node>
                     </node>
                     <node concept="liA8E" id="6SvWaReUQLd" role="2OqNvi">
-                      <ref role="37wK5l" to="u3te:6SvWaRelkFS" resolve="get" />
+                      <ref role="37wK5l" to="u3te:7a1gqzqO8BK" resolve="get" />
                       <node concept="pncrf" id="6SvWaReUQLe" role="37wK5m" />
                       <node concept="Xl_RD" id="6SvWaReUQLf" role="37wK5m">
                         <property role="Xl_RC" value="result" />

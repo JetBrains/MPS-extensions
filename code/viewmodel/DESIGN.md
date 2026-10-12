@@ -1,9 +1,10 @@
 # View models — design
 
 Status: the first version is implemented (store, HAMT, sync/async writes, dependency tracking, the
-DSL) and covered by `ViewModelStoreTest`. Not done yet: build scripts, changelog, user documentation, and the
-use in iets3. The first version only covers what the interpreter-result use case (iets3 test items)
-needs; everything else is listed under *Later*.
+DSL), covered by `ViewModelStoreTest` and `ParenthesisAddsTheProject`, part of the build scripts
+(plugin `com.jetbrains.mpsext.viewmodel`) and used by iets3.opensource for the results of manually run
+checks. Not done yet: user documentation. The first version only covers what the interpreter-result
+use case (iets3 test items) needs; everything else is listed under *Later*.
 
 ## Problem
 

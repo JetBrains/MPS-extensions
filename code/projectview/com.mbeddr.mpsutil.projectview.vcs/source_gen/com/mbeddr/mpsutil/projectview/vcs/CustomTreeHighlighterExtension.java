@@ -25,11 +25,11 @@ public class CustomTreeHighlighterExtension extends TreeHighlighterExtension {
   }
 
   public void register() {
-    Extensions.getArea(myProject).getExtensionPoint(EP_NAME).registerExtension(this);
+    Extensions.getRootArea().getExtensionPoint(EP_NAME).registerExtension(this);
   }
 
   public void unregister() {
-    Extensions.getArea(myProject).getExtensionPoint(EP_NAME).unregisterExtension(this);
+    Extensions.getRootArea().getExtensionPoint(EP_NAME).unregisterExtension(this);
   }
 
 }

@@ -16,7 +16,7 @@ be done in other editors by using the `partial table` cell.
  for example, to set some additional cells, or add some dynamic row or column headers.
 - **disable left row end cells**: there's a special cell to the left of table rows that's used, for example, for inserting
  new table rows. This flag can disable this cell (default: *false*).
-- **disable right row end cells**: there's a special cell to the left of table rows that's used, for example, for inserting
+- **disable right row end cells**: there's a special cell to the right of table rows that's used, for example, for inserting
     new table rows. This flag can disable this cell (default: *false*).
 - **row UI actions (experimental)**: add actions to the MPS toolbar to add a new row above/below the current row or to delete the current row. These actions only work for simple tables that are based on rows (default: *false*).
 
@@ -38,7 +38,7 @@ A table cell query is the easiest way to create a full table.
 ### Supported parameters
 
 - **shared variables**: variables that can be accessed by the other parameters
-- **initialize**: a function that initialized the shared variables or other code
+- **initialize**: a function that initializes the shared variables or other code
 - **column count**: the number of columns to display
 - **row count**: the number of rows to display
 - **cell**: a function that creates the cell itself. Cells can be created automatically by providing a node or a string 
@@ -55,7 +55,7 @@ If you want to create a cell dynamically and want to use the normal editors for 
 
 ## Grid query
 
-The grid query is an even lower level form of declaration a table. It works by setting the cells directely in the grid
+The grid query is an even lower level form of declaring a table. It works by setting the cells directly in the grid
 object of type `ITableGrid`. There are various set methods that can be used to create the table such as `grid.setCell()`
  or `grid.setColumnHeader`. To support code completion, the substitution info must be set by calling `grid.setSubstituteInfo`
 for every cell by using its column and row index as a substitute info node as parameters. The substitute info node can

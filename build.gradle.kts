@@ -15,7 +15,8 @@ import java.util.*
 plugins {
     id("de.itemis.mps.gradle.common") version "1.30.0.+"
     id("com.github.breadmoirai.github-release") version "2.5.2"
-    id("maven-publish")
+    id("buildlogic.maven-publishing")
+    id("buildlogic.versioning")
     id("base")
     id("de.itemis.mps.gradle.launcher") version "2.8.0.+"
     id("org.cyclonedx.bom") version "3.4.1"
@@ -23,35 +24,11 @@ plugins {
     id("com.specificlanguages.mps") version "2.1.0"
 }
 
-// Detect if we are in a CI build
-val ciBuild = project.hasProperty("forceCI") ||
-    // On TeamCity we are in a CI build, except if mpsHomeDir is set (used on JetBrains TeamCity to test MPS-extensions
-    // against unreleased MPS versions)
-    project.hasProperty("teamcity") && !project.hasProperty("mpsHomeDir")
-
-// Dependency versions
-val mpsVersion = libs.mps.get().version!!
-
-// major version, e.g. '2021.1', '2021.2'
-val mpsMajor = "2026.1"
+val ciBuild: Boolean by extra
 
 if (ciBuild) {
-    val branch = GitBasedVersioning.getGitBranch()
-
-    val buildMajor = mpsMajor.split(".").first()
-    val buildMinor = mpsMajor.split(".").last()
-    val buildNumber = System.getenv("BUILD_NUMBER").toInt()
-
-    // GitBasedVersioning returns branch with '/' replaced by '-'
-    if (branch.startsWith("maintenance-mps")) {
-        version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.getGitShortCommitHash()}"
-    } else {
-        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + "-SNAPSHOT"
-    }
-
     println("##teamcity[buildNumber '${version}']")
 } else {
-    version = "$mpsVersion-SNAPSHOT"
     println("Local build detected, version will be $version")
 }
 
@@ -227,11 +204,11 @@ val tests by mpsBuilds.creating(TestBuild::class) {
 }
 
 val buildDate = Date().toString()
-val pluginVersion = version.toString()
+val antVersionProperties: Map<String, String> by extra
 
 tasks.withType<RunAnt>().configureEach {
     valueProperties.put("buildDate", buildDate)
-    valueProperties.put("pluginVersion", pluginVersion)
+    valueProperties.putAll(antVersionProperties)
 }
 
 // ___________________ utilities ___________________
@@ -317,12 +294,6 @@ publishing {
             artifactId = "extensions"
 
             pom {
-                scm {
-                    url = "https://github.com/JetBrains/MPS-extensions"
-                    connection = "scm:git:git://github.com/JetBrains/MPS-extensions.git"
-                    developerConnection = "scm:git:ssh://git@github.com/JetBrains/MPS-extensions.git"
-                    tag = "HEAD"
-                }
                 licenses {
                     // official SPDX identifier
                     // see https://spdx.org/licenses/ for list
@@ -332,10 +303,6 @@ publishing {
                         comments = "A business-friendly OSS license"
                         distribution = "repo"
                     }
-                }
-                organization {
-                    name = "JetBrains s.r.o"
-                    url = "https://www.jetbrains.com"
                 }
                 withXml {
                     val dependenciesNode = asNode().appendNode("dependencies")

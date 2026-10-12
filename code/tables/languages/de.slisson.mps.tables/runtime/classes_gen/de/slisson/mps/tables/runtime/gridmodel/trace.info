@@ -1320,116 +1320,127 @@
       <node id="1000503696473532188" at="34,20,35,42" concept="4" />
       <node id="1795495746019007642" at="38,63,39,80" concept="11" />
       <node id="8767719180170149930" at="42,197,43,119" concept="11" />
-      <node id="815083647527348269" at="47,25,48,85" concept="10" />
-      <node id="815083647527374101" at="48,85,49,40" concept="4" />
-      <node id="815083647527762313" at="50,24,51,51" concept="4" />
-      <node id="815083647527410741" at="52,7,53,116" concept="11" />
-      <node id="1397920687874851922" at="54,46,55,127" concept="11" />
-      <node id="1397920687874907201" at="56,41,57,117" concept="11" />
-      <node id="1397920687875328011" at="58,42,59,119" concept="11" />
-      <node id="1397920687874821599" at="60,40,61,102" concept="11" />
-      <node id="8767719180163738861" at="62,44,63,127" concept="11" />
-      <node id="1397920687874830925" at="64,12,65,112" concept="19" />
-      <node id="8271849212529642763" at="70,22,71,44" concept="4" />
-      <node id="1397920687875228261" at="72,5,73,81" concept="10" />
-      <node id="1397920687875301804" at="73,81,74,85" concept="11" />
-      <node id="8791219374197170636" at="77,92,78,64" concept="11" />
-      <node id="8271849212529582618" at="82,22,83,51" concept="4" />
-      <node id="1208663231981234507" at="84,5,85,66" concept="10" />
-      <node id="1208663231981235853" at="85,66,86,52" concept="4" />
-      <node id="1000503696473371459" at="86,52,87,85" concept="11" />
-      <node id="9059647362826880493" at="92,51,93,83" concept="4" />
-      <node id="9059647362826777882" at="94,14,95,64" concept="4" />
-      <node id="1000503696473242717" at="97,5,98,39" concept="10" />
-      <node id="8503993226529127896" at="98,39,99,68" concept="10" />
-      <node id="1000503696473137631" at="100,24,101,42" concept="4" />
-      <node id="6808914094428177455" at="101,42,102,29" concept="4" />
-      <node id="1000503696473108993" at="106,47,107,44" concept="4" />
-      <node id="1000503696473135427" at="111,47,112,40" concept="4" />
-      <node id="8503993226529183353" at="114,9,115,74" concept="4" />
-      <node id="8503993226529186866" at="115,74,116,87" concept="4" />
-      <node id="1000503696473489331" at="120,47,121,37" concept="4" />
-      <node id="8843513109885879356" at="123,9,124,98" concept="4" />
-      <node id="1000503696473266587" at="125,5,126,34" concept="4" />
-      <node id="1000503696473153009" at="126,34,127,16" concept="11" />
-      <node id="8271849212529953929" at="130,210,131,0" concept="13" />
-      <node id="1397920687874800574" at="131,0,132,71" concept="10" />
-      <node id="8767719180170040585" at="132,71,133,18" concept="10" />
-      <node id="8271849212530005598" at="134,35,135,33" concept="10" />
-      <node id="8271849212530046311" at="136,24,137,84" concept="4" />
-      <node id="8271849212530291547" at="138,14,139,62" concept="4" />
-      <node id="1397920687874800588" at="140,7,141,162" concept="4" />
-      <node id="8767719180170053013" at="141,162,142,14" concept="4" />
-      <node id="1397920687874800594" at="143,5,144,43" concept="11" />
-      <node id="1000503696473817852" at="147,76,148,41" concept="10" />
-      <node id="1000503696473828568" at="148,41,149,19" concept="10" />
-      <node id="1000503696473831068" at="151,31,152,41" concept="4" />
-      <node id="1000503696473989540" at="152,41,153,31" concept="4" />
-      <node id="1000503696473980015" at="154,14,155,41" concept="4" />
-      <node id="1000503696474000432" at="155,41,156,31" concept="4" />
-      <node id="1000503696474019698" at="158,5,159,18" concept="11" />
-      <node id="8843513109885858646" at="162,78,163,71" concept="10" />
-      <node id="8843513109885860334" at="164,48,165,69" concept="10" />
-      <node id="8843513109885861054" at="165,69,166,188" concept="4" />
-      <node id="8843513109885870655" at="167,5,168,18" concept="11" />
-      <node id="1397920687874827376" at="64,10,66,5" concept="0" />
-      <node id="9059647362826885902" at="94,12,96,7" concept="0" />
-      <node id="8271849212530284633" at="138,12,140,7" concept="0" />
+      <node id="6525704942392861425" at="46,227,47,104" concept="12" />
+      <node id="6525704942392861447" at="47,104,48,106" concept="12" />
+      <node id="6525704942392861469" at="48,106,49,108" concept="12" />
+      <node id="6525704942392861493" at="49,108,50,109" concept="12" />
+      <node id="6525704942392861516" at="50,109,51,83" concept="12" />
+      <node id="6525704942392861534" at="51,83,52,109" concept="12" />
+      <node id="6525704942392861557" at="52,109,53,102" concept="12" />
+      <node id="6525704942392861580" at="53,102,54,106" concept="11" />
+      <node id="6525704942392763839" at="57,25,58,85" concept="10" />
+      <node id="6525704942392763851" at="58,85,59,40" concept="4" />
+      <node id="6525704942392763868" at="60,24,61,51" concept="4" />
+      <node id="6525704942392763875" at="62,7,63,116" concept="11" />
+      <node id="6525704942392763898" at="64,46,65,127" concept="11" />
+      <node id="6525704942392763925" at="66,41,67,149" concept="11" />
+      <node id="6525704942392763958" at="68,42,69,151" concept="11" />
+      <node id="6525704942392763991" at="70,40,71,102" concept="11" />
+      <node id="6525704942392764012" at="72,44,73,127" concept="11" />
+      <node id="6525704942392764028" at="74,12,75,112" concept="19" />
+      <node id="4098331544884840112" at="79,182,80,84" concept="12" />
+      <node id="6525704942392953895" at="81,22,82,44" concept="4" />
+      <node id="1397920687875228261" at="83,5,84,81" concept="10" />
+      <node id="1397920687875301804" at="84,81,85,85" concept="11" />
+      <node id="8791219374197170636" at="88,92,89,64" concept="11" />
+      <node id="4098331544877667314" at="92,181,93,84" concept="12" />
+      <node id="6525704942393096309" at="94,22,95,51" concept="4" />
+      <node id="1208663231981234507" at="96,5,97,66" concept="10" />
+      <node id="1208663231981235853" at="97,66,98,52" concept="4" />
+      <node id="1000503696473371459" at="98,52,99,85" concept="11" />
+      <node id="9059647362826880493" at="104,51,105,83" concept="4" />
+      <node id="9059647362826777882" at="106,14,107,64" concept="4" />
+      <node id="1000503696473242717" at="109,5,110,39" concept="10" />
+      <node id="8503993226529127896" at="110,39,111,68" concept="10" />
+      <node id="1000503696473137631" at="112,24,113,42" concept="4" />
+      <node id="6808914094428177455" at="113,42,114,29" concept="4" />
+      <node id="1000503696473108993" at="118,47,119,44" concept="4" />
+      <node id="1000503696473135427" at="123,47,124,40" concept="4" />
+      <node id="8503993226529183353" at="126,9,127,74" concept="4" />
+      <node id="8503993226529186866" at="127,74,128,87" concept="4" />
+      <node id="1000503696473489331" at="132,47,133,37" concept="4" />
+      <node id="8843513109885879356" at="135,9,136,98" concept="4" />
+      <node id="1000503696473266587" at="137,5,138,34" concept="4" />
+      <node id="1000503696473153009" at="138,34,139,16" concept="11" />
+      <node id="8271849212529953929" at="142,210,143,0" concept="13" />
+      <node id="1397920687874800574" at="143,0,144,71" concept="10" />
+      <node id="8767719180170040585" at="144,71,145,18" concept="10" />
+      <node id="8271849212530005598" at="146,35,147,33" concept="10" />
+      <node id="8271849212530046311" at="148,24,149,84" concept="4" />
+      <node id="8271849212530291547" at="150,14,151,62" concept="4" />
+      <node id="1397920687874800588" at="152,7,153,233" concept="4" />
+      <node id="8767719180170053013" at="153,233,154,14" concept="4" />
+      <node id="1397920687874800594" at="155,5,156,43" concept="11" />
+      <node id="1000503696473817852" at="159,76,160,41" concept="10" />
+      <node id="1000503696473828568" at="160,41,161,19" concept="10" />
+      <node id="1000503696473831068" at="163,31,164,41" concept="4" />
+      <node id="1000503696473989540" at="164,41,165,31" concept="4" />
+      <node id="1000503696473980015" at="166,14,167,41" concept="4" />
+      <node id="1000503696474000432" at="167,41,168,31" concept="4" />
+      <node id="1000503696474019698" at="170,5,171,18" concept="11" />
+      <node id="8843513109885858646" at="174,78,175,71" concept="10" />
+      <node id="8843513109885860334" at="176,48,177,69" concept="10" />
+      <node id="8843513109885861054" at="177,69,178,188" concept="4" />
+      <node id="8843513109885870655" at="179,5,180,18" concept="11" />
+      <node id="6525704942392764025" at="74,10,76,5" concept="0" />
+      <node id="9059647362826885902" at="106,12,108,7" concept="0" />
+      <node id="8271849212530284633" at="150,12,152,7" concept="0" />
       <node id="1795495746018947062" at="38,0,41,0" concept="9" trace="createFromObject#(Ljava/lang/Object;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
       <node id="8767719180170113459" at="42,0,45,0" concept="9" trace="createFromObject#(Ljava/lang/Object;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILjetbrains/mps/openapi/editor/style/Style;Ljava/lang/String;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
-      <node id="815083647527750826" at="49,40,52,7" concept="8" />
-      <node id="8271849212529614476" at="69,182,72,5" concept="8" />
-      <node id="8791219374197137054" at="77,0,80,0" concept="9" trace="createFromSNode#(Lorg/jetbrains/mps/openapi/model/SNode;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;I)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
-      <node id="8271849212529521817" at="81,181,84,5" concept="8" />
-      <node id="1000503696473108140" at="106,0,109,0" concept="9" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-      <node id="1000503696473135421" at="111,0,114,0" concept="9" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-      <node id="1000503696473489325" at="120,0,123,0" concept="9" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-      <node id="1000503696473979321" at="154,12,157,7" concept="0" />
-      <node id="1000503696473142678" at="99,68,103,5" concept="8" />
-      <node id="8843513109885859517" at="163,71,167,5" concept="8" />
+      <node id="6525704942392763859" at="59,40,62,7" concept="8" />
+      <node id="6525704942392953886" at="80,84,83,5" concept="8" />
+      <node id="8791219374197137054" at="88,0,91,0" concept="9" trace="createFromSNode#(Lorg/jetbrains/mps/openapi/model/SNode;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;I)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
+      <node id="6525704942393096300" at="93,84,96,5" concept="8" />
+      <node id="1000503696473108140" at="118,0,121,0" concept="9" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1000503696473135421" at="123,0,126,0" concept="9" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1000503696473489325" at="132,0,135,0" concept="9" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1000503696473979321" at="166,12,169,7" concept="0" />
+      <node id="1000503696473142678" at="111,68,115,5" concept="8" />
+      <node id="8843513109885859517" at="175,71,179,5" concept="8" />
       <node id="1397920687874774956" at="32,0,37,0" concept="2" trace="HeaderGridFactory#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Z)V" />
-      <node id="9059647362826879601" at="91,22,96,7" concept="8" />
-      <node id="1000503696472654130" at="104,31,109,9" concept="4" />
-      <node id="1000503696472704640" at="109,9,114,9" concept="4" />
-      <node id="1000503696473489316" at="118,31,123,9" concept="4" />
-      <node id="8271849212530024249" at="135,33,140,7" concept="8" />
-      <node id="1397920687875221704" at="69,0,76,0" concept="9" trace="createFromString#(Ljava/lang/String;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILjetbrains/mps/openapi/editor/style/Style;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
-      <node id="9059647362826773708" at="90,214,97,5" concept="8" />
-      <node id="1000503696473830726" at="150,61,157,7" concept="8" />
-      <node id="1397920687874870028" at="81,0,89,0" concept="9" trace="createFromSNode#(Lorg/jetbrains/mps/openapi/model/SNode;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILjetbrains/mps/openapi/editor/style/Style;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
-      <node id="1000503696473475509" at="117,5,125,5" concept="8" />
-      <node id="8843513109885854536" at="162,0,170,0" concept="15" trace="descendantsOfSameNode#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/lang/Iterable;" />
-      <node id="1000503696473822596" at="149,19,158,5" concept="7" />
-      <node id="1397920687874800584" at="133,18,143,5" concept="7" />
-      <node id="1000503696473391933" at="103,5,117,5" concept="8" />
-      <node id="1397920687874810373" at="147,0,161,0" concept="9" trace="createFromHeaderGridList#(Ljava/util/List;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
-      <node id="1397920687874776980" at="130,0,146,0" concept="9" trace="createFromObjectList#(Ljava/util/List;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;Lde/slisson/mps/tables/runtime/style/ITableStyleFactory;Ljava/lang/String;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
-      <node id="1397920687874775961" at="46,227,66,5" concept="8" />
-      <node id="1397920687874775432" at="46,0,68,0" concept="9" trace="createFromObject#(Ljava/lang/Object;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILde/slisson/mps/tables/runtime/style/ITableStyleFactory;Ljava/lang/String;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
-      <node id="1397920687874883242" at="90,0,129,0" concept="9" trace="createFromEditorCell#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILjetbrains/mps/openapi/editor/style/Style;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
+      <node id="9059647362826879601" at="103,22,108,7" concept="8" />
+      <node id="1000503696472654130" at="116,31,121,9" concept="4" />
+      <node id="1000503696472704640" at="121,9,126,9" concept="4" />
+      <node id="1000503696473489316" at="130,31,135,9" concept="4" />
+      <node id="8271849212530024249" at="147,33,152,7" concept="8" />
+      <node id="9059647362826773708" at="102,214,109,5" concept="8" />
+      <node id="1000503696473830726" at="162,61,169,7" concept="8" />
+      <node id="1397920687875221704" at="79,0,87,0" concept="9" trace="createFromString#(Ljava/lang/String;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILjetbrains/mps/openapi/editor/style/Style;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
+      <node id="1000503696473475509" at="129,5,137,5" concept="8" />
+      <node id="8843513109885854536" at="174,0,182,0" concept="15" trace="descendantsOfSameNode#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/lang/Iterable;" />
+      <node id="1397920687874870028" at="92,0,101,0" concept="9" trace="createFromSNode#(Lorg/jetbrains/mps/openapi/model/SNode;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILjetbrains/mps/openapi/editor/style/Style;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
+      <node id="1000503696473822596" at="161,19,170,5" concept="7" />
+      <node id="1397920687874775432" at="46,0,56,0" concept="9" trace="createFromObject#(Ljava/lang/Object;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILde/slisson/mps/tables/runtime/style/ITableStyleFactory;Ljava/lang/String;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
+      <node id="1397920687874800584" at="145,18,155,5" concept="7" />
+      <node id="1000503696473391933" at="115,5,129,5" concept="8" />
+      <node id="1397920687874810373" at="159,0,173,0" concept="9" trace="createFromHeaderGridList#(Ljava/util/List;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
+      <node id="1397920687874776980" at="142,0,158,0" concept="9" trace="createFromObjectList#(Ljava/util/List;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;Lde/slisson/mps/tables/runtime/style/ITableStyleFactory;Ljava/lang/String;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
+      <node id="6525704942392763830" at="56,262,76,5" concept="8" />
+      <node id="6525704942392763797" at="56,0,78,0" concept="9" trace="createFromObjectImpl#(Ljava/lang/Object;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;ZLde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILde/slisson/mps/tables/runtime/style/ITableStyleFactory;Ljava/lang/String;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
+      <node id="1397920687874883242" at="102,0,141,0" concept="9" trace="createFromEditorCell#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lde/slisson/mps/tables/runtime/gridmodel/HeaderReference;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeInsertAction;Lde/slisson/mps/tables/runtime/gridmodel/IHeaderNodeDeleteAction;ILjetbrains/mps/openapi/editor/style/Style;)Lde/slisson/mps/tables/runtime/gridmodel/HeaderGrid;" />
       <scope id="1795495746018947066" at="38,63,39,80" />
       <scope id="8767719180170113470" at="42,197,43,119" />
-      <scope id="815083647527750829" at="50,24,51,51" />
-      <scope id="1397920687874826380" at="54,46,55,127" />
-      <scope id="1397920687874896481" at="56,41,57,117" />
-      <scope id="1397920687875311115" at="58,42,59,119" />
-      <scope id="1397920687874776680" at="60,40,61,102" />
-      <scope id="8767719180163734393" at="62,44,63,127" />
-      <scope id="1397920687874827377" at="64,12,65,112" />
-      <scope id="8271849212529614478" at="70,22,71,44" />
-      <scope id="8791219374197137058" at="77,92,78,64" />
-      <scope id="8271849212529521819" at="82,22,83,51" />
-      <scope id="9059647362826879603" at="92,51,93,83" />
-      <scope id="9059647362826885903" at="94,14,95,64" />
-      <scope id="1000503696473108146" at="106,47,107,44" />
-      <scope id="1000503696473135426" at="111,47,112,40" />
-      <scope id="1000503696473489330" at="120,47,121,37" />
-      <scope id="8271849212530024251" at="136,24,137,84" />
-      <scope id="8271849212530284634" at="138,14,139,62" />
-      <scope id="1000503696473142681" at="100,24,102,29" />
-      <scope id="1000503696473830727" at="151,31,153,31" />
-      <scope id="1000503696473979322" at="154,14,156,31" />
-      <scope id="8843513109885859519" at="164,48,166,188">
+      <scope id="6525704942392763867" at="60,24,61,51" />
+      <scope id="6525704942392763897" at="64,46,65,127" />
+      <scope id="6525704942392763924" at="66,41,67,149" />
+      <scope id="6525704942392763957" at="68,42,69,151" />
+      <scope id="6525704942392763990" at="70,40,71,102" />
+      <scope id="6525704942392764011" at="72,44,73,127" />
+      <scope id="6525704942392764027" at="74,12,75,112" />
+      <scope id="6525704942392953894" at="81,22,82,44" />
+      <scope id="8791219374197137058" at="88,92,89,64" />
+      <scope id="6525704942393096308" at="94,22,95,51" />
+      <scope id="9059647362826879603" at="104,51,105,83" />
+      <scope id="9059647362826885903" at="106,14,107,64" />
+      <scope id="1000503696473108146" at="118,47,119,44" />
+      <scope id="1000503696473135426" at="123,47,124,40" />
+      <scope id="1000503696473489330" at="132,47,133,37" />
+      <scope id="8271849212530024251" at="148,24,149,84" />
+      <scope id="8271849212530284634" at="150,14,151,62" />
+      <scope id="1000503696473142681" at="112,24,114,29" />
+      <scope id="1000503696473830727" at="163,31,165,31" />
+      <scope id="1000503696473979322" at="166,14,168,31" />
+      <scope id="8843513109885859519" at="176,48,178,188">
         <var name="children" id="8843513109885860337" />
       </scope>
       <scope id="1397920687874774960" at="32,90,35,42" />
@@ -1445,18 +1456,18 @@
         <var name="object" id="8767719180170113460" />
         <var name="style" id="8767719180170113466" />
       </scope>
-      <scope id="8791219374197137054" at="77,0,80,0">
+      <scope id="8791219374197137054" at="88,0,91,0">
         <var name="index" id="1000503696473495296" />
         <var name="key" id="8271849212529422335" />
         <var name="snode" id="8791219374197163184" />
       </scope>
-      <scope id="1000503696473108140" at="106,0,109,0">
+      <scope id="1000503696473108140" at="118,0,121,0">
         <var name="p0" id="1000503696473108144" />
       </scope>
-      <scope id="1000503696473135421" at="111,0,114,0">
+      <scope id="1000503696473135421" at="123,0,126,0">
         <var name="p0" id="1000503696473135424" />
       </scope>
-      <scope id="1000503696473489325" at="120,0,123,0">
+      <scope id="1000503696473489325" at="132,0,135,0">
         <var name="p0" id="1000503696473489328" />
       </scope>
       <scope id="1397920687874774956" at="32,0,37,0">
@@ -1464,21 +1475,23 @@
         <var name="forColumnHeaders" id="1000503696473531677" />
         <var name="snode" id="1397920687875251247" />
       </scope>
-      <scope id="1397920687875221708" at="69,182,74,85">
+      <scope id="9059647362826773710" at="103,22,108,7" />
+      <scope id="6525704942392763838" at="57,25,63,116">
+        <var name="nullCell" id="6525704942392763842" />
+      </scope>
+      <scope id="1397920687875221708" at="79,182,85,85">
         <var name="cell" id="1397920687875228262" />
       </scope>
-      <scope id="9059647362826773710" at="91,22,96,7" />
-      <scope id="1397920687874775962" at="47,25,53,116">
-        <var name="nullCell" id="815083647527348270" />
-      </scope>
-      <scope id="1397920687874870032" at="81,181,87,85">
-        <var name="cell" id="1208663231981234508" />
-      </scope>
-      <scope id="1000503696473475512" at="118,31,124,98" />
-      <scope id="8843513109885838544" at="162,78,168,18">
+      <scope id="1000503696473475512" at="130,31,136,98" />
+      <scope id="8843513109885838544" at="174,78,180,18">
         <var name="result" id="8843513109885858649" />
       </scope>
-      <scope id="1397920687875221704" at="69,0,76,0">
+      <scope id="1397920687874870032" at="92,181,99,85">
+        <var name="cell" id="1208663231981234508" />
+      </scope>
+      <scope id="1000503696473822602" at="162,61,169,7" />
+      <scope id="1397920687874775436" at="46,227,54,106" />
+      <scope id="1397920687875221704" at="79,0,87,0">
         <var name="deleteAction" id="1515263624311901896" />
         <var name="index" id="1000503696473673748" />
         <var name="insertAction" id="4032373061958733985" />
@@ -1486,8 +1499,13 @@
         <var name="style" id="1925286362825687735" />
         <var name="text" id="1397920687875221858" />
       </scope>
-      <scope id="1000503696473822602" at="150,61,157,7" />
-      <scope id="1397920687874870028" at="81,0,89,0">
+      <scope id="1397920687874800587" at="146,35,154,14">
+        <var name="currentKey" id="8271849212530005599" />
+      </scope>
+      <scope id="8843513109885854536" at="174,0,182,0">
+        <var name="cell" id="8843513109885852470" />
+      </scope>
+      <scope id="1397920687874870028" at="92,0,101,0">
         <var name="deleteAction" id="1515263624311791508" />
         <var name="index" id="1000503696473321364" />
         <var name="insertAction" id="4032373061958729596" />
@@ -1495,40 +1513,10 @@
         <var name="snode" id="1397920687874873638" />
         <var name="style" id="1925286362825654879" />
       </scope>
-      <scope id="1397920687874800587" at="134,35,142,14">
-        <var name="currentKey" id="8271849212530005599" />
-      </scope>
-      <scope id="8843513109885854536" at="162,0,170,0">
-        <var name="cell" id="8843513109885852470" />
-      </scope>
-      <scope id="1000503696473822596" at="149,19,158,5">
+      <scope id="1000503696473822596" at="161,19,170,5">
         <var name="g" id="1000503696473822598" />
       </scope>
-      <scope id="1397920687874800584" at="133,18,143,5">
-        <var name="object" id="1397920687874800586" />
-      </scope>
-      <scope id="1000503696473391936" at="104,31,116,87" />
-      <scope id="1397920687874810377" at="147,76,159,18">
-        <var name="offset" id="1000503696473828571" />
-        <var name="result" id="1000503696473817853" />
-      </scope>
-      <scope id="1397920687874776984" at="130,210,144,43">
-        <var name="grids" id="1397920687874800575" />
-        <var name="index" id="8767719180170040588" />
-      </scope>
-      <scope id="1397920687874810373" at="147,0,161,0">
-        <var name="headerGrids" id="1397920687874812408" />
-      </scope>
-      <scope id="1397920687874776980" at="130,0,146,0">
-        <var name="deleteAction" id="1515263624311844100" />
-        <var name="insertAction" id="4032373061958718194" />
-        <var name="key" id="3160705326886343325" />
-        <var name="name" id="4843673815480441426" />
-        <var name="objects" id="1397920687874777366" />
-        <var name="style" id="1925286362825726200" />
-      </scope>
-      <scope id="1397920687874775436" at="46,227,66,5" />
-      <scope id="1397920687874775432" at="46,0,68,0">
+      <scope id="1397920687874775432" at="46,0,56,0">
         <var name="deleteAction" id="1515263624311943914" />
         <var name="index" id="1000503696473552775" />
         <var name="insertAction" id="4032373061958744934" />
@@ -1537,11 +1525,45 @@
         <var name="object" id="1397920687874775777" />
         <var name="styleFactory" id="1925286362825748913" />
       </scope>
-      <scope id="1397920687874883246" at="90,214,127,16">
+      <scope id="1397920687874800584" at="145,18,155,5">
+        <var name="object" id="1397920687874800586" />
+      </scope>
+      <scope id="1000503696473391936" at="116,31,128,87" />
+      <scope id="1397920687874810377" at="159,76,171,18">
+        <var name="offset" id="1000503696473828571" />
+        <var name="result" id="1000503696473817853" />
+      </scope>
+      <scope id="1397920687874776984" at="142,210,156,43">
+        <var name="grids" id="1397920687874800575" />
+        <var name="index" id="8767719180170040588" />
+      </scope>
+      <scope id="1397920687874810373" at="159,0,173,0">
+        <var name="headerGrids" id="1397920687874812408" />
+      </scope>
+      <scope id="1397920687874776980" at="142,0,158,0">
+        <var name="deleteAction" id="1515263624311844100" />
+        <var name="insertAction" id="4032373061958718194" />
+        <var name="key" id="3160705326886343325" />
+        <var name="name" id="4843673815480441426" />
+        <var name="objects" id="1397920687874777366" />
+        <var name="style" id="1925286362825726200" />
+      </scope>
+      <scope id="6525704942392763829" at="56,262,76,5" />
+      <scope id="6525704942392763797" at="56,0,78,0">
+        <var name="deleteAction" id="6525704942392763817" />
+        <var name="deriveKeyFromContent" id="6525704942392763811" />
+        <var name="index" id="6525704942392763820" />
+        <var name="insertAction" id="6525704942392763814" />
+        <var name="key" id="6525704942392763807" />
+        <var name="name" id="6525704942392763826" />
+        <var name="object" id="6525704942392763803" />
+        <var name="styleFactory" id="6525704942392763823" />
+      </scope>
+      <scope id="1397920687874883246" at="102,214,139,16">
         <var name="grid" id="1000503696473242718" />
         <var name="header" id="8503993226529127897" />
       </scope>
-      <scope id="1397920687874883242" at="90,0,129,0">
+      <scope id="1397920687874883242" at="102,0,141,0">
         <var name="deleteAction" id="1515263624311832740" />
         <var name="editorCell" id="1397920687874883377" />
         <var name="index" id="1000503696472666387" />
@@ -1549,10 +1571,10 @@
         <var name="key" id="2285587715546394188" />
         <var name="style" id="1925286362825671327" />
       </scope>
-      <unit id="1000503696473108136" at="105,54,109,7" name="de.slisson.mps.tables.runtime.gridmodel.HeaderGridFactory$1" />
-      <unit id="1000503696473135419" at="110,61,114,7" name="de.slisson.mps.tables.runtime.gridmodel.HeaderGridFactory$2" />
-      <unit id="1000503696473489323" at="119,54,123,7" name="de.slisson.mps.tables.runtime.gridmodel.HeaderGridFactory$3" />
-      <unit id="1397920687874774767" at="26,0,171,0" name="de.slisson.mps.tables.runtime.gridmodel.HeaderGridFactory" />
+      <unit id="1000503696473108136" at="117,54,121,7" name="de.slisson.mps.tables.runtime.gridmodel.HeaderGridFactory$1" />
+      <unit id="1000503696473135419" at="122,61,126,7" name="de.slisson.mps.tables.runtime.gridmodel.HeaderGridFactory$2" />
+      <unit id="1000503696473489323" at="131,54,135,7" name="de.slisson.mps.tables.runtime.gridmodel.HeaderGridFactory$3" />
+      <unit id="1397920687874774767" at="26,0,183,0" name="de.slisson.mps.tables.runtime.gridmodel.HeaderGridFactory" />
     </file>
   </root>
   <root nodeRef="r:ea653f2d-c829-4182-b311-a544ef1f4c1f(de.slisson.mps.tables.runtime.gridmodel)/1515263624310812271">

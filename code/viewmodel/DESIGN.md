@@ -1,7 +1,7 @@
 # View models — design
 
-Status: the first version is implemented (store, HAMT, sync/async writes, dependency tracking) and
-covered by `ViewModelStoreTest`. Not done yet: build scripts, changelog, user documentation, and the
+Status: the first version is implemented (store, HAMT, sync/async writes, dependency tracking, the
+DSL) and covered by `ViewModelStoreTest`. Not done yet: build scripts, changelog, user documentation, and the
 use in iets3. The first version only covers what the interpreter-result use case (iets3 test items)
 needs; everything else is listed under *Later*.
 
@@ -151,12 +151,13 @@ stable across sessions — they are computed from strings, never from `identityH
 
 | Module | Kind | Content |
 |---|---|---|
-| `com.jetbrains.mpsext.viewmodel` | language | concepts of the storage (structure only) |
-| `com.jetbrains.mpsext.viewmodel.runtime` | solution | Java API, HAMT, dependency tracking, write queue, application plugin |
-| `test.com.jetbrains.mpsext.viewmodel.lang` | language | `TestItem`, whose editor shows the value stored for it under `"result"` |
+| `com.jetbrains.mpsext.viewmodel` | language + generator | the DSL: view model declarations and the `viewmodel/X/` expression |
+| `com.jetbrains.mpsext.viewmodel.storage` | language | concepts of the storage (structure only) |
+| `com.jetbrains.mpsext.viewmodel.runtime` | solution | Java API, HAMT, dependency tracking, write queue, application plugin; runtime of the DSL |
+| `test.com.jetbrains.mpsext.viewmodel.lang` | language | `TestItem`, whose editor shows the value stored for it under `"result"`; declares the view models `Results` and `Other` |
 | `test.com.jetbrains.mpsext.viewmodel` | solution | `ViewModelStoreTest` (`NodesTestCase`) |
 
-Clients depend on the runtime solution only.
+Clients use the DSL, or depend on the runtime solution and use the Java API directly.
 
 ### Structure
 
@@ -270,6 +271,43 @@ Keys are the Java value objects `ViewModelStringKey` and `ViewModelNodeKey` (cre
 `(node, key)` use the path `[forNode(node), forString(key)]` (`ViewModels.path(node, key)`). Methods
 with different signatures have different names, because overloads of the same arity are error-prone
 to call from MPS code.
+
+### DSL (language `com.jetbrains.mpsext.viewmodel`)
+
+The name of a view model is declared once, so code that uses it refers to the declaration instead of
+repeating a string:
+
+```
+view model TestResults                                   // root ViewModelDeclaration
+
+// in editor code: the project is taken from editorContext
+Object r = viewmodel/TestResults/.get(node, "lastResult");
+
+// elsewhere: the project is passed
+viewmodel/TestResults/(project).writeComputed(item, "lastResult", c);
+```
+
+* `ViewModelDeclaration` (root, `INamedConcept`). Its runtime name is the model name plus the
+  declaration name (`getRuntimeName()`), so view models of different models can't collide.
+* `ViewModelExpression` references a declaration and has an optional child `project`. Its type is
+  `ProjectViewModel`, so all methods of the Java API are available on it.
+* Project from the context: inside any concept function that offers the `editorContext` parameter
+  (editor queries, cell actions, intentions, menus, …) the project is found at runtime through
+  `editorContext.getRepository()` (`ViewModel.forRepository`, using `ProjectHelper.getProject`).
+  Elsewhere the project has to be passed; a checking rule reports a missing project, and the editor
+  shows the `(…)` part only when the project is given or the context offers none.
+* Generator: three rules in `main`. An expression with a project reduces to
+  `ViewModels.named("<runtime name>").forProject(<project>)`. In editor code it reduces through the
+  template `reduce_ViewModelExpression_inEditor`, whose context is an editor query function, so that
+  `editorContext` in the template is a real concept function parameter, to
+  `ViewModels.named("<runtime name>").forRepository(editorContext.getRepository())`. Declarations are
+  dropped.
+* The context can only be found in the input model: once the editor generator has turned the concept
+  function into Java, the expression has no concept function ancestor any more. So the mappings of
+  this generator run before or together with those of `jetbrains.mps.lang.editor`,
+  `jetbrains.mps.lang.intentions` and `jetbrains.mps.lang.actions` (priority rules in the generator
+  descriptor).
+* Tests (`NodesTestCase`) pass the test's `project` explicitly: `viewmodel/Results/(project)`.
 
 ### Dependency tracking and invalidation
 

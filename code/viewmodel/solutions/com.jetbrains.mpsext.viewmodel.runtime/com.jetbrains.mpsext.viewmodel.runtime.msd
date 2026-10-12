@@ -16,7 +16,7 @@
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
-    <dependency reexport="false">838cb66d-4e17-4e8d-bf4a-5b7e6122c705(com.jetbrains.mpsext.viewmodel)</dependency>
+    <dependency reexport="false">838cb66d-4e17-4e8d-bf4a-5b7e6122c705(com.jetbrains.mpsext.viewmodel.storage)</dependency>
   </dependencies>
   <languageVersions />
   <dependencyVersions>

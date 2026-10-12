@@ -242,6 +242,7 @@
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation/com.mbeddr.mpsutil.treenotation.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.utils.serializer.xml/de.itemis.mps.utils.serializer.xml.msd" folder="utils" />
+      <modulePath path="$PROJECT_DIR$/viewmodel/languages/com.jetbrains.mpsext.viewmodel.storage/com.jetbrains.mpsext.viewmodel.storage.mpl" folder="viewmodel" />
       <modulePath path="$PROJECT_DIR$/viewmodel/languages/com.jetbrains.mpsext.viewmodel/com.jetbrains.mpsext.viewmodel.mpl" folder="viewmodel" />
       <modulePath path="$PROJECT_DIR$/viewmodel/languages/test.com.jetbrains.mpsext.viewmodel.lang/test.com.jetbrains.mpsext.viewmodel.lang.mpl" folder="viewmodel" />
       <modulePath path="$PROJECT_DIR$/viewmodel/solutions/com.jetbrains.mpsext.viewmodel.runtime/com.jetbrains.mpsext.viewmodel.runtime.msd" folder="viewmodel" />

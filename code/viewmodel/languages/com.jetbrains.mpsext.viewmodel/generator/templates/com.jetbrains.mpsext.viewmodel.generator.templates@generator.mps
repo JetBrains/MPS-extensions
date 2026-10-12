@@ -225,6 +225,39 @@
     <node concept="aNPBN" id="55VuGTOlU1p" role="aQYdv">
       <ref role="aOQi4" to="j5gv:55VuGTNRcm_" resolve="ViewModelDeclaration" />
     </node>
+    <node concept="3aamgX" id="55VuGTOBbFT" role="3acgRq">
+      <ref role="30HIoZ" to="j5gv:55VuGTNRh4T" resolve="ViewModelExpression" />
+      <node concept="gft3U" id="55VuGTOBbFU" role="1lVwrX">
+        <node concept="2YIFZM" id="55VuGTOBbFW" role="gfFT$">
+          <ref role="1Pybhc" to="u3te:6SvWaRelkyu" resolve="ViewModels" />
+          <ref role="37wK5l" to="u3te:7a1gqzqPDH2" resolve="named" />
+          <node concept="Xl_RD" id="55VuGTOBbFX" role="37wK5m">
+            <property role="Xl_RC" value="name" />
+            <node concept="17Uvod" id="55VuGTOBbFY" role="lGtFl">
+              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+              <property role="2qtEX9" value="value" />
+              <node concept="3zFVjK" id="55VuGTOBbFZ" role="3zH0cK">
+                <node concept="3clFbS" id="55VuGTOBbG0" role="2VODD2">
+                  <node concept="3cpWs6" id="55VuGTOBbG1" role="3cqZAp">
+                    <node concept="2OqwBi" id="55VuGTOBbG2" role="3cqZAk">
+                      <node concept="2OqwBi" id="55VuGTOBbG3" role="2Oq$k0">
+                        <node concept="30H73N" id="55VuGTOBbG4" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="55VuGTOBbG5" role="2OqNvi">
+                          <ref role="3Tt5mk" to="j5gv:55VuGTNRh4U" resolve="viewModel" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="55VuGTOBbG6" role="2OqNvi">
+                        <ref role="37wK5l" to="qno0:55VuGTNRv56" resolve="getRuntimeName" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="55VuGTOlQet">
     <property role="TrG5h" value="reduce_ViewModelExpression_inEditor" />

@@ -289,17 +289,19 @@ viewmodel/TestResults/(project).writeComputed(item, "lastResult", c);
 
 * `ViewModelDeclaration` (root, `INamedConcept`). Its runtime name is the model name plus the
   declaration name (`getRuntimeName()`), so view models of different models can't collide.
-* `ViewModelExpression` references a declaration and has an optional child `project`. Its type is
-  `ProjectViewModel`, so all methods of the Java API are available on it.
+* `ViewModelExpression` references a declaration and has an optional child `project`. With a project
+  (given or taken from the context) its type is `ProjectViewModel`, so all methods of the Java API are
+  available on it. Without one it is the read-only `ViewModel` (`get`, `getPath`, `compute`), so
+  reading needs no project anywhere and a write without a project is a type error.
 * Project from the context: inside any concept function that offers the `editorContext` parameter
   (editor queries, cell actions, intentions, menus, …) the project is found at runtime through
   `editorContext.getRepository()` (`ViewModel.forRepository`, using `ProjectHelper.getProject`).
-  Elsewhere the project has to be passed; a checking rule reports a missing project, and the editor
-  shows the `(…)` part only when the project is given or the context offers none. Typing `(` after
-  the expression (a right side transform) adds an empty project expression, also where the context
-  offers one.
+  Elsewhere the project has to be passed for writing. The editor shows the `(…)` part only when a
+  project is given; typing `(` after the expression (a right side transform) adds an empty project
+  expression.
 * Generator: three rules in `main`. An expression with a project reduces to
-  `ViewModels.named("<runtime name>").forProject(<project>)`. In editor code it reduces through the
+  `ViewModels.named("<runtime name>").forProject(<project>)`, one without a project to
+  `ViewModels.named("<runtime name>")`. In editor code it reduces through the
   template `reduce_ViewModelExpression_inEditor`, whose context is an editor query function, so that
   `editorContext` in the template is a real concept function parameter, to
   `ViewModels.named("<runtime name>").forRepository(editorContext.getRepository())`. Declarations are
@@ -347,16 +349,25 @@ viewmodel/TestResults/(project).writeComputed(item, "lastResult", c);
   same path in one drain: the last one wins. Writes whose key node is gone or in a read-only model are
   dropped. The returned `Future` completes when the write was applied or dropped.
 
-### Use in iets3 (follow-up in iets3.opensource)
+### Use in iets3 (iets3.opensource, branch `feature/view-model`)
 
-* `ICanStoreCheckResult.storeLastResult` / `getLastResult` / `deleteLastResult` / `hasExistingResult`
-  delegate to a named view model (path `[NodeKey(this), StringKey(userObjectKey())]`).
-* `AbstractTestItem.executeTest` runs the evaluation inside `compute`, so the result depends on the
-  test item, the function under test, the setup and everything else the interpreter read.
-* `RunManuallyUtil.rebuildAffectedEditors` and the `EditorComponentHacks` usage go away.
-* `check_ICanRunCheckManually` no longer deletes the result after reporting it.
-* To check: the project and command context in which `runManually` and the headless
-  `NodeCheckOperation.perform` call `executeTest`.
+* `org.iets3.core.base` declares `view model CheckResults`. `ICanStoreCheckResult` stores results
+  there (path `[NodeKey(this), StringKey(userObjectKey())]`) for every implementor: test items, REPL
+  entries, solver results. `storeLastResultWithDependencies(result, deps)` is new; `storeLastResult`
+  passes no dependencies. Reads use the read-only `viewmodel/CheckResults/`.
+* The project is resolved from the node (`NodeProjects.find`: the open project containing the node's
+  module, otherwise the first open one). Inside a command the result is written at once, otherwise
+  with `writeAsync`. Without an open project (the headless interpreter runner) nothing is stored; the
+  callers there only use the returned result.
+* `AbstractTestItem.executeTest` runs setup and evaluation inside `compute` and stores the result with
+  the recorded dependencies; the `executeTestInternal` implementations no longer store. A
+  `VectorTestItem` computes each vector separately, so a change of one vector removes only that
+  vector's result (and the item's). A computation inside another one adds its dependencies to the
+  enclosing one (`ReadRecorder.start/stop`), because MPS only notifies the innermost read listener.
+* The editor refreshes (`RunManuallyUtil.rebuildAffectedEditors`, the `deleteStoredResult` intention's
+  `EditorComponentHacks` loop) are gone, and `check_ICanRunCheckManually` no longer deletes a result
+  after reporting it.
+* Results of nodes in read-only models (packaged libraries) aren't stored any more.
 
 ## Later
 

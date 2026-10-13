@@ -376,10 +376,10 @@
       <node concept="3VJUX4" id="MUKpduBfKz" role="3ZZHOD">
         <node concept="3clFbS" id="MUKpduBfK$" role="2VODD2">
           <node concept="3clFbF" id="6sHtZxJ9Po" role="3cqZAp">
-            <node concept="2YIFZM" id="6sHtZxJ9Sy" role="3clFbG">
-              <ref role="37wK5l" to="23h6:2af7$rttluc" resolve="modify" />
+            <node concept="2YIFZM" id="5_TQrZ9hqW3" role="3clFbG">
+              <ref role="37wK5l" to="23h6:6sHtZxAm_f" resolve="modifyWordList" />
               <ref role="1Pybhc" to="23h6:2af7$rtxPFl" resolve="TextCellModifier" />
-              <node concept="1Q80Hy" id="6sHtZxJ9S$" role="37wK5m" />
+              <node concept="1Q80Hy" id="5_TQrZ9hqW4" role="37wK5m" />
             </node>
           </node>
           <node concept="3cpWs6" id="MUKpduBJ$r" role="3cqZAp">

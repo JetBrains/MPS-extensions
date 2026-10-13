@@ -159,7 +159,7 @@
     <property role="TrG5h" value="ViewModelStore" />
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="root of a view model store; one named view model per use case" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7a1gqzqGiHd" role="1TKVEi">
       <property role="IQ2ns" value="8172924937841742625" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

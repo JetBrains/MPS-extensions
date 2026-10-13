@@ -38,7 +38,7 @@
     <property role="TrG5h" value="TestItem" />
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="shows the view model value stored for it under the key 'result'" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6SvWaReUFfR" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>

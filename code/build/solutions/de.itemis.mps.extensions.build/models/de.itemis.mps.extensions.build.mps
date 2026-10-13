@@ -18183,6 +18183,25 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="w2SqtTcWP" role="3bR31x">
+          <node concept="3LXTmp" id="w2SqtTcWQ" role="3rtmxm">
+            <node concept="3qWCbU" id="w2SqtTcWR" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="w2SqtTcWS" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="w2SqtTcWT" role="iGT6I">
+                <property role="2Ry0Am" value="viewmodel" />
+                <node concept="2Ry0Ak" id="w2SqtTcWU" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="w2SqtTcWV" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.viewmodel.storage" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="55VuGTPw6_n" role="2G$12L">
         <property role="TrG5h" value="com.jetbrains.mpsext.viewmodel" />
@@ -18298,6 +18317,25 @@
             <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
+        <node concept="3rtmxn" id="w2SqtTcWX" role="3bR31x">
+          <node concept="3LXTmp" id="w2SqtTcWY" role="3rtmxm">
+            <node concept="3qWCbU" id="w2SqtTcWZ" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="w2SqtTcX0" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="w2SqtTcX1" role="iGT6I">
+                <property role="2Ry0Am" value="viewmodel" />
+                <node concept="2Ry0Ak" id="w2SqtTcX2" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="w2SqtTcX3" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.viewmodel" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="55VuGTPw6_u" role="2G$12L">
         <property role="TrG5h" value="com.jetbrains.mpsext.viewmodel.runtime" />
@@ -18370,6 +18408,25 @@
             </node>
             <node concept="3qWCbU" id="55VuGTPzgYV" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="w2SqtTcW_" role="3bR31x">
+          <node concept="3LXTmp" id="w2SqtTcWA" role="3rtmxm">
+            <node concept="3qWCbU" id="w2SqtTcWB" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="w2SqtTcWC" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="w2SqtTcWD" role="iGT6I">
+                <property role="2Ry0Am" value="viewmodel" />
+                <node concept="2Ry0Ak" id="w2SqtTcWE" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="w2SqtTcWF" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.viewmodel.runtime" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -27027,6 +27084,25 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="w2SqtTcX5" role="3bR31x">
+          <node concept="3LXTmp" id="w2SqtTcX6" role="3rtmxm">
+            <node concept="3qWCbU" id="w2SqtTcX7" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="w2SqtTcX8" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="w2SqtTcX9" role="iGT6I">
+                <property role="2Ry0Am" value="viewmodel" />
+                <node concept="2Ry0Ak" id="w2SqtTcXa" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="w2SqtTcXb" role="2Ry0An">
+                    <property role="2Ry0Am" value="test.com.jetbrains.mpsext.viewmodel.lang" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="55VuGTP$hiD" role="2G$12L">
         <property role="TrG5h" value="test.com.jetbrains.mpsext.viewmodel" />
@@ -27105,6 +27181,25 @@
             </node>
             <node concept="3qWCbU" id="55VuGTP$hPI" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="w2SqtTcWH" role="3bR31x">
+          <node concept="3LXTmp" id="w2SqtTcWI" role="3rtmxm">
+            <node concept="3qWCbU" id="w2SqtTcWJ" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="w2SqtTcWK" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="w2SqtTcWL" role="iGT6I">
+                <property role="2Ry0Am" value="viewmodel" />
+                <node concept="2Ry0Ak" id="w2SqtTcWM" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="w2SqtTcWN" role="2Ry0An">
+                    <property role="2Ry0Am" value="test.com.jetbrains.mpsext.viewmodel" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

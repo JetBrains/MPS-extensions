@@ -317,6 +317,38 @@
       <unit id="2392588809326377997" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.SetOptionalNextToChild_Test" />
     </file>
   </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/2489246874090072059">
+    <file name="AnnotationOnRootProperty_Test.java">
+      <node id="2489246874090072059" at="20,42,21,60" concept="10" />
+      <node id="2489246874090072059" at="25,64,26,36" concept="2" />
+      <node id="2489246874090072059" at="31,52,32,19" concept="10" />
+      <node id="2489246874090072059" at="36,51,37,53" concept="2" />
+      <node id="2489246874091417873" at="37,53,38,0" concept="7" />
+      <node id="2489246874091430194" at="38,0,39,90" concept="6" />
+      <node id="2489246874091435082" at="39,90,40,544" concept="6" />
+      <node id="2489246874091436342" at="40,544,41,0" concept="7" />
+      <node id="2489246874095397243" at="41,0,42,97" concept="2" />
+      <node id="2489246874091429964" at="42,97,43,0" concept="7" />
+      <node id="2489246874091418028" at="43,0,44,0" concept="7" />
+      <node id="2489246874090072059" at="17,0,19,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="2489246874090072059" at="20,0,23,0" concept="1" trace="AnnotationOnRootProperty_Test#()V" />
+      <node id="2489246874090072059" at="31,0,34,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2489246874090072059" at="24,0,28,0" concept="4" trace="test_AnnotationOnRootProperty#()V" />
+      <node id="2489246874090072059" at="35,0,46,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2489246874090072059" at="20,42,21,60" />
+      <scope id="2489246874090072059" at="25,64,26,36" />
+      <scope id="2489246874090072059" at="31,52,32,19" />
+      <scope id="2489246874090072059" at="20,0,23,0" />
+      <scope id="2489246874090072059" at="31,0,34,0">
+        <var name="owner" id="2489246874090072059" />
+      </scope>
+      <scope id="2489246874090072059" at="24,0,28,0" />
+      <scope id="2489246874090072059" at="36,51,44,0" />
+      <scope id="2489246874090072059" at="35,0,46,0" />
+      <unit id="2489246874090072059" at="29,0,47,0" name="com.mbeddr.mpsutil.grammarcells.tests.AnnotationOnRootProperty_Test$TestBody" />
+      <unit id="2489246874090072059" at="15,0,48,0" name="com.mbeddr.mpsutil.grammarcells.tests.AnnotationOnRootProperty_Test" />
+    </file>
+  </root>
   <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/3651222753554827786">
     <file name="LayoutOfChildInOptional_Test.java">
       <node id="3651222753554827786" at="24,41,25,60" concept="10" />

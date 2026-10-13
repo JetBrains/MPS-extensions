@@ -5,6 +5,7 @@ package de.slisson.mps.tables.runtime.plugin;
 import jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin;
 import com.intellij.openapi.extensions.PluginId;
 import org.jetbrains.annotations.NotNull;
+import com.intellij.openapi.actionSystem.IdeActions;
 import java.util.List;
 import jetbrains.mps.plugins.part.ApplicationPluginPart;
 
@@ -30,8 +31,10 @@ public class Runtime_ApplicationPlugin extends BaseApplicationPlugin {
     // groups
     addGroup(new TableActions_ActionGroup(this));
   }
+  public void adjustInterfaceGroups() {
+  }
   public void adjustRegularGroups() {
-    insertGroupIntoAnother(TableActions_ActionGroup.ID, "MPSToolbarRunGroup", null);
+    insertGroupIntoAnother(TableActions_ActionGroup.ID, IdeActions.GROUP_MAIN_TOOLBAR_CENTER, null);
   }
   @Override
   public void fillCustomParts(List<ApplicationPluginPart> parts) {

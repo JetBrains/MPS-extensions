@@ -134,8 +134,9 @@ exploop:
                 return new Message("sequence size is " + ListSequence.fromList(actual).count() + " but " + totalMultipliers + " expected", currentExpected);
               }
               Object currentActual = ListSequence.fromList(actual).getElement(iAct);
-              if (!(currentExpected.doesMatch(currentActual))) {
-                return new Message("position " + iAct + " does not match element " + iExp + " (multiplier at " + (iMult + 1) + "/" + multiplier + ")", currentExpected);
+              Message mismatchMessage = currentExpected.getMessage(currentActual);
+              if (mismatchMessage != null || !(currentExpected.doesMatch(currentActual))) {
+                return new Message("position " + iAct + " does not match element " + iExp + " (multiplier: " + (iMult + 1) + "/" + multiplier + ")", currentExpected, mismatchMessage);
               }
               iAct++;
             }

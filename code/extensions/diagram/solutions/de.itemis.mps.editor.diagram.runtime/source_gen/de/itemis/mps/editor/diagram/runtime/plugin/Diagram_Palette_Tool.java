@@ -11,7 +11,7 @@ import de.itemis.mps.editor.diagram.runtime.jgraph.RootDiagramECell;
 import javax.swing.JComponent;
 
 public class Diagram_Palette_Tool extends GeneratedTool {
-  private static final Icon ICON = IconContainer.ICON_a0;
+  private static final Icon ICON = IconContainer.ICON0;
   private Palette myComponent;
   private Project myProject;
   public Diagram_Palette_Tool(Project project) {

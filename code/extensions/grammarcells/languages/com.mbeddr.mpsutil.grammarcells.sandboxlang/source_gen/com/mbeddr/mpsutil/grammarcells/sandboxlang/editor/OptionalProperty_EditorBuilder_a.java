@@ -10,10 +10,11 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
+import jetbrains.mps.baseLanguage.logging.rt.LogContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
 import jetbrains.mps.openapi.editor.style.Style;
@@ -68,6 +69,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private boolean nodeCondition_6y3vt7_a1a() {
+    if (!(((_FunctionTypes._return_P0_E0<Boolean>) () -> {
+      LogContext.with(OptionalProperty_EditorBuilder_a.class, null, null, null).debug("EditorContext" + getEditorContext());
+      LogContext.with(OptionalProperty_EditorBuilder_a.class, null, null, null).debug("Node:" + SNodeOperations.present(myNode));
+      return true;
+    }).invoke())) {
+      return false;
+    }
     return myNode.getProperty(PROPS.intProperty$EBD9) != null;
   }
   private EditorCell createCustomFactory_0(final EditorContext editorContext, final SNode node) {
@@ -99,6 +107,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
     if (!(new Object() {
       public boolean showWrapped() {
+        if (!(((_FunctionTypes._return_P0_E0<Boolean>) () -> {
+          LogContext.with(OptionalProperty_EditorBuilder_a.class, null, null, null).debug("EditorContext" + getEditorContext());
+          LogContext.with(OptionalProperty_EditorBuilder_a.class, null, null, null).debug("Node:" + SNodeOperations.present(myNode));
+          return true;
+        }).invoke())) {
+          return false;
+        }
         return myNode.getProperty(PROPS.intProperty$EBD9) != null;
       }
     }.showWrapped())) {
@@ -136,6 +151,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
     if (!(new Object() {
       public boolean showWrapped() {
+        if (!(((_FunctionTypes._return_P0_E0<Boolean>) () -> {
+          LogContext.with(OptionalProperty_EditorBuilder_a.class, null, null, null).debug("EditorContext" + getEditorContext());
+          LogContext.with(OptionalProperty_EditorBuilder_a.class, null, null, null).debug("Node:" + SNodeOperations.present(myNode));
+          return true;
+        }).invoke())) {
+          return false;
+        }
         return myNode.getProperty(PROPS.intProperty$EBD9) != null;
       }
     }.showWrapped())) {

@@ -16,18 +16,15 @@ public class DummyReferenceLink implements SReferenceLink {
     this.name = name;
   }
   @Deprecated
-  @Override
   public String getRoleName() {
     throw new UnsupportedOperationException();
   }
   @Deprecated
-  @Override
   public boolean isMultiple() {
     throw new UnsupportedOperationException();
   }
   @Deprecated
   @Nullable
-  @Override
   public SNode getDeclarationNode() {
     throw new UnsupportedOperationException();
   }

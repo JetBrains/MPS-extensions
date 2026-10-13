@@ -18,7 +18,8 @@ import jetbrains.mps.project.MPSProject;
 import jetbrains.mps.ide.actions.MPSCommonDataKeys;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.ide.datatransfer.CopyPasteUtil;
-import jetbrains.mps.console.tool.ConsoleTool;
+import jetbrains.mps.console.plugin.ConsoleTool_Tool;
+import jetbrains.mps.plugins.projectplugins.ProjectPluginManager;
 import jetbrains.mps.ide.project.ProjectHelper;
 import jetbrains.mps.console.tool.DialogConsoleTab;
 import jetbrains.mps.smodel.ModelImports;
@@ -87,7 +88,7 @@ public class CopyEditorCellReference_Action extends BaseAction {
   public void doExecute(@NotNull final AnActionEvent event, final Map<String, Object> _params) {
     SNode cellRef = createCellReference_dgyswz_a0a0a(event.getData(MPSEditorDataKeys.EDITOR_CELL).getCellId(), event.getData(MPSEditorDataKeys.EDITOR_COMPONENT).hashCode(), event.getData(MPSCommonDataKeys.NODE));
     CopyPasteUtil.copyNodeToClipboard(cellRef);
-    ConsoleTool ct = ProjectHelper.toIdeaProject(event.getData(MPSCommonDataKeys.MPS_PROJECT)).getComponent(ConsoleTool.class);
+    ConsoleTool_Tool ct = ProjectPluginManager.getInstance(ProjectHelper.toIdeaProject(event.getData(MPSCommonDataKeys.MPS_PROJECT))).getTool(ConsoleTool_Tool.class);
     DialogConsoleTab currentTab = ct.getCurrentEditableTab();
     if (currentTab != null) {
       ModelImports imports = new ModelImports(currentTab.getConsoleModel());

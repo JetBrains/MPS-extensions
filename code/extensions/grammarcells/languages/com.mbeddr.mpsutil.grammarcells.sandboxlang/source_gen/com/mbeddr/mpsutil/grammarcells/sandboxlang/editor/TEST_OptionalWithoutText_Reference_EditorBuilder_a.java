@@ -10,6 +10,9 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
 import com.mbeddr.mpsutil.grammarcells.runtime.SideTransformationHolderCell;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
+import jetbrains.mps.baseLanguage.logging.rt.LogContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import java.util.List;
 import jetbrains.mps.lang.editor.menus.MenuPart;
@@ -20,7 +23,6 @@ import java.util.ArrayList;
 import jetbrains.mps.lang.editor.menus.GroupMenuPart;
 import jetbrains.mps.lang.editor.menus.EditorMenuDescriptorBase;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.Arrays;
 import jetbrains.mps.lang.editor.menus.transformation.ReferenceMenuTransformationMenuPart;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -78,11 +80,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createSideTransformationSectionCell_0());
     if (nodeCondition_8ipq58_a2a0()) {
-      editorCell.addEditorCell(createRefCell_0());
+      editorCell.addEditorCell(createCustomFactory_1());
     }
     return editorCell;
   }
   private boolean nodeCondition_8ipq58_a2a0() {
+    if (!(((_FunctionTypes._return_P0_E0<Boolean>) () -> {
+      LogContext.with(TEST_OptionalWithoutText_Reference_EditorBuilder_a.class, null, null, null).debug("EditorContext" + getEditorContext());
+      LogContext.with(TEST_OptionalWithoutText_Reference_EditorBuilder_a.class, null, null, null).debug("Node:" + SNodeOperations.present(myNode));
+      return true;
+    }).invoke())) {
+      return false;
+    }
     return myNode.getReference(LINKS.refTarget$rUEg) != null;
   }
   private EditorCell createConstant_0() {
@@ -153,6 +162,30 @@ import org.jetbrains.mps.openapi.language.SConcept;
         return LINKS.refTarget$rUEg;
       }
     }
+  }
+  private EditorCell createCustomFactory_0(final EditorContext editorContext, final SNode node) {
+
+    if (!(new Object() {
+      public boolean showWrapped() {
+        if (!(((_FunctionTypes._return_P0_E0<Boolean>) () -> {
+          LogContext.with(TEST_OptionalWithoutText_Reference_EditorBuilder_a.class, null, null, null).debug("EditorContext" + getEditorContext());
+          LogContext.with(TEST_OptionalWithoutText_Reference_EditorBuilder_a.class, null, null, null).debug("Node:" + SNodeOperations.present(myNode));
+          return true;
+        }).invoke())) {
+          return false;
+        }
+        return myNode.getReference(LINKS.refTarget$rUEg) != null;
+      }
+    }.showWrapped())) {
+      return jetbrains.mps.nodeEditor.cells.EditorCell_Collection.createVertical(editorContext, node);
+    }
+
+    final EditorCell cell = createRefCell_0();
+    EditorCell editorCell = ((_FunctionTypes._return_P0_E0<EditorCell>) () -> cell).invoke();
+    return editorCell;
+  }
+  private EditorCell createCustomFactory_1() {
+    return createCustomFactory_0(getEditorContext(), myNode);
   }
   private EditorCell createRefCell_0() {
     final SReferenceLink referenceLink = LINKS.refTarget$rUEg;

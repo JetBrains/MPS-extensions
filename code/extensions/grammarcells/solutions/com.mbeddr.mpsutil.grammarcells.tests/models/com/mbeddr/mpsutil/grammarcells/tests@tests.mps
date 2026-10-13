@@ -25,6 +25,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -180,6 +181,10 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
+      <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
+        <property id="1341860900487648621" name="propertyId" index="P4ACc" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -250,6 +255,10 @@
         <property id="5465812603479727090" name="flagA" index="34AmLC" />
         <child id="5465812603479727085" name="childA" index="34AmLR" />
       </concept>
+      <concept id="2489246874088740455" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_AnnotationOnRootProperty_Property" flags="ng" index="3aL0aK">
+        <property id="2489246874088742184" name="propertyA" index="3aL0BZ" />
+      </concept>
+      <concept id="2489246874088738035" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_AnnotationOnRootProperty_Annotation" flags="ng" index="3aL1w$" />
       <concept id="1811135247170681488" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StmtContainerAncestor" flags="ng" index="1eV$HT" />
       <concept id="8622846647855906237" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_optionalInComponent" flags="ng" index="1hHfNE">
         <child id="8622846647855952043" name="optionalChildren" index="1hHr7W" />
@@ -4195,6 +4204,174 @@
         </node>
         <node concept="2cssZD" id="7NCbR4hezv9" role="2cssWm" />
       </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="2ab_dvCoYvV">
+    <property role="TrG5h" value="AnnotationOnRootProperty" />
+    <node concept="1qefOq" id="2ab_dvCoYJg" role="25YQCW">
+      <node concept="3aL0aK" id="2ab_dvCoYQ0" role="1qenE9">
+        <property role="3aL0BZ" value="abc" />
+        <node concept="3aL1w$" id="2ab_dvCu03O" role="lGtFl">
+          <property role="2qtEX9" value="propertyA" />
+          <property role="P4ACc" value="a257f68c-93a3-47b0-838b-6905dd9c20f6/2489246874088740455/2489246874088742184" />
+          <node concept="LIFWc" id="2ab_dvCHZBe" role="lGtFl">
+            <property role="LIFWa" value="0" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="0" />
+            <property role="p6zMs" value="0" />
+            <property role="LIFWd" value="Constant_p92ya0_a0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="2ab_dvCu74g" role="LjaKd">
+      <node concept="3clFbH" id="2ab_dvCu74h" role="3cqZAp" />
+      <node concept="3SKdUt" id="2ab_dvCua4M" role="3cqZAp">
+        <node concept="1PaTwC" id="2ab_dvCua4N" role="1aUNEU">
+          <node concept="3oM_SD" id="2ab_dvCuaHx" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCuaMT" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCuaP4" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCuaP_" role="1PaTwD">
+            <property role="3oM_SC" value="throwing" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCuaS0" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCuaUr" role="1PaTwD">
+            <property role="3oM_SC" value="following" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCuaWA" role="1PaTwD">
+            <property role="3oM_SC" value="exception" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCuaZ1" role="1PaTwD">
+            <property role="3oM_SC" value="while" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCub1s" role="1PaTwD">
+            <property role="3oM_SC" value="trying" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCub3R" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCub62" role="1PaTwD">
+            <property role="3oM_SC" value="create" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCub8t" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubaS" role="1PaTwD">
+            <property role="3oM_SC" value="cells:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3SKdUt" id="2ab_dvCubha" role="3cqZAp">
+        <node concept="1PaTwC" id="2ab_dvCubhb" role="1aUNEU">
+          <node concept="3oM_SD" id="2ab_dvCubvS" role="1PaTwD">
+            <property role="3oM_SC" value="java.lang.AssertionError:" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubvT" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;Not" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubvU" role="1PaTwD">
+            <property role="3oM_SC" value="big&quot;" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubvV" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubvW" role="1PaTwD">
+            <property role="3oM_SC" value="found." />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubvX" role="1PaTwD">
+            <property role="3oM_SC" value="Original" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubvY" role="1PaTwD">
+            <property role="3oM_SC" value="cell:" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubvZ" role="1PaTwD">
+            <property role="3oM_SC" value="Collection_p92ya0_a," />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw0" role="1PaTwD">
+            <property role="3oM_SC" value="node:" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw1" role="1PaTwD">
+            <property role="3oM_SC" value="(instance" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw2" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw3" role="1PaTwD">
+            <property role="3oM_SC" value="TEST_AnnotationOnRootProperty_Annotation)," />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw4" role="1PaTwD">
+            <property role="3oM_SC" value="concept:" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw5" role="1PaTwD">
+            <property role="3oM_SC" value="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_AnnotationOnRootProperty_Annotation." />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw6" role="1PaTwD">
+            <property role="3oM_SC" value="Found" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw7" role="1PaTwD">
+            <property role="3oM_SC" value="cell:" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw8" role="1PaTwD">
+            <property role="3oM_SC" value="property_propertyA," />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubw9" role="1PaTwD">
+            <property role="3oM_SC" value="node:" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubwa" role="1PaTwD">
+            <property role="3oM_SC" value="(instance" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubwb" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubwc" role="1PaTwD">
+            <property role="3oM_SC" value="TEST_AnnotationOnRootProperty_Property)," />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubwd" role="1PaTwD">
+            <property role="3oM_SC" value="concept:" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubwe" role="1PaTwD">
+            <property role="3oM_SC" value="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_AnnotationOnRootProperty_Property" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubwf" role="1PaTwD">
+            <property role="3oM_SC" value="&#9;at" />
+          </node>
+          <node concept="3oM_SD" id="2ab_dvCubwg" role="1PaTwD">
+            <property role="3oM_SC" value="jetbrains.mps.nodeEditor.EditorManager.getUnwrappedNodeBigCell(EditorManager.java:472)" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2ab_dvCub$Q" role="3cqZAp" />
+      <node concept="3vlDli" id="2ab_dvCHi_V" role="3cqZAp">
+        <node concept="Xl_RD" id="2ab_dvCHiFm" role="3tpDZB">
+          <property role="Xl_RC" value="$/ abc /" />
+        </node>
+        <node concept="2OqwBi" id="2ab_dvCHhq1" role="3tpDZA">
+          <node concept="2OqwBi" id="2ab_dvCHgVl" role="2Oq$k0">
+            <node concept="2OqwBi" id="2ab_dvCHfT9" role="2Oq$k0">
+              <node concept="369mXd" id="2ab_dvCHd_K" role="2Oq$k0" />
+              <node concept="liA8E" id="2ab_dvCHgGD" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2ab_dvCHhgA" role="2OqNvi">
+              <ref role="37wK5l" to="f4zo:~EditorCell.renderText()" resolve="renderText" />
+            </node>
+          </node>
+          <node concept="liA8E" id="2ab_dvCHhBT" role="2OqNvi">
+            <ref role="37wK5l" to="cj4x:~TextBuilder.getText()" resolve="getText" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2ab_dvCua1c" role="3cqZAp" />
+      <node concept="3clFbH" id="2ab_dvCu76G" role="3cqZAp" />
     </node>
   </node>
 </model>

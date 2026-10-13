@@ -26,9 +26,9 @@ import jetbrains.mps.ide.project.ProjectHelper;
 import jetbrains.mps.plugins.projectplugins.ProjectPluginManager;
 import de.itemis.mps.editor.diagram.runtime.plugin.Diagram_Viewer_Tool;
 import jetbrains.mps.nodeEditor.EditorComponent;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.openapi.editor.Editor;
-import jetbrains.mps.openapi.navigation.NavigationSupport;
+import jetbrains.mps.openapi.navigation.EditorNavigator;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.CellFinderUtil;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
@@ -174,25 +174,30 @@ public class DiagramActionsUtil {
     editorComponent.update();
   }
 
-  public static void openNode(MyGraph graph, final SNode target) {
+  public static void openNode(MyGraph graph, SNode target) {
+    openNode(graph, SNodeOperations.getPointer(target));
+  }
+
+  public static void openNode(MyGraph graph, final SNodeReference target) {
     final MyGraphComponent graphComponent = graph.getGraphComponent();
     RootDiagramECell diagramCell = graphComponent.getDiagramCell();
     EditorContext context = diagramCell.getContext();
     IOperationContext operationContext = context.getOperationContext();
     final Project project = operationContext.getProject();
     context.getRepository().getModelAccess().runWriteAction(() -> {
-      boolean wasMaximized = graphComponent.isMaxmimizedMode();
+      final boolean wasMaximized = graphComponent.isMaxmimizedMode();
       if (wasMaximized) {
         graphComponent.setMaximizedMode(false);
       }
-      Editor editor = NavigationSupport.getInstance(project).openNode(project, target, true, true);
-      if (editor != null && wasMaximized) {
-        EditorCell selectedCell = editor.getEditorContext().getSelectedCell();
-        RootDiagramECell rootDiagramCell = CellFinderUtil.findChildByConditionAndClass(selectedCell, (EditorCell c) -> true, RootDiagramECell.class, true, true);
-        if (rootDiagramCell != null) {
-          rootDiagramCell.getGraph().getGraphComponent().setMaximizedMode(true);
+      new EditorNavigator(project).shallFocus(true).shallSelect(true).onceEditorReady((node, editor) -> {
+        if (wasMaximized) {
+          EditorCell selectedCell = editor.getEditorContext().getSelectedCell();
+          RootDiagramECell rootDiagramCell = CellFinderUtil.findChildByConditionAndClass(selectedCell, (EditorCell c) -> true, RootDiagramECell.class, true, true);
+          if (rootDiagramCell != null) {
+            rootDiagramCell.getGraph().getGraphComponent().setMaximizedMode(true);
+          }
         }
-      }
+      }).open(target);
     });
   }
 

@@ -67,7 +67,7 @@
       <scope id="5810976794849278650" at="19,89,27,5" />
       <scope id="5810976794849278650" at="29,21,56,7" />
       <scope id="5810976794849278650" at="29,0,58,0" />
-      <unit id="5810976794849278650" at="30,133,56,5" name="de.q60.mps.shadowmodels.target.editor.transformations.Actions$1" />
+      <unit id="5810976794849278650" at="30,129,56,5" name="de.q60.mps.shadowmodels.target.editor.transformations.Actions$1" />
       <unit id="5810976794849278650" at="17,0,59,0" name="de.q60.mps.shadowmodels.target.editor.transformations.Actions" />
     </file>
   </root>

@@ -9,6 +9,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private ConceptPresentation props_EditorTestLifecycleMethods;
   private ConceptPresentation props_FileNodeEditorExpression;
 
   @Override
@@ -16,6 +17,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
+      case LanguageConceptSwitch.EditorTestLifecycleMethods:
+        if (props_EditorTestLifecycleMethods == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("EditorTestLifecycleMethods");
+          props_EditorTestLifecycleMethods = cpb.create();
+        }
+        return props_EditorTestLifecycleMethods;
       case LanguageConceptSwitch.FileNodeEditorExpression:
         if (props_FileNodeEditorExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

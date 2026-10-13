@@ -15,8 +15,8 @@ import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import de.slisson.mps.editor.multiline.runtime.MultilineUtil;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import de.slisson.mps.richtext.runtime.selection.RichtextSelection;
@@ -56,7 +56,6 @@ public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getText_idehGfXvI_DB, setText_id1JwC6U7zkKz, getTextLength_id635SBilAXnW, isValidCursorPosition_id635SBilAXqa, splitWordAt_id13kKwkYCzXI, splitWordAt_id1yC42PmlXe, splitWordAtCaret_id7SG8rlRJ$G9, splitWordAtSelection_id1yC42PmnFR, getSelectedText_idlp3OKvgJt4, getSelection_idlp3OKvgCxD, getCaretPosition_id13kKwkYC$wf, insertTextAtCaret_id2dWzqxECJHs, insertTextAt_id4YWDi1U$WhW, replaceSelection_id2FluRPpNMcC, insertNodesAtCaret_id4WdkpBdiPPZ, insertNodesAt_id4WdkpBdiPQf, toTextString_id3Q5enzfMT4t, getTransformKeys_id7NYWYqYGfSm);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
-    SPropertyOperations.assign(__thisNode__, PROPS.escapedValue$2Lqz, " ");
   }
 
   /*package*/ static String getText_idehGfXvI_DB(@NotNull SNode __thisNode__) {

@@ -51,7 +51,7 @@ public class ProjectPlugin_ProjectPluginPart extends ProjectPluginPart {
         boolean installedAnywhere = LayoutInterceptor.installWhereRequired(editorComponent);
         if (installedAnywhere) {
           CellLayoutUtil.invalidateAllCells(editorComponent.getRootCell());
-          editorComponent.relayout();
+          editorComponent.update();
         }
       }
       @Override

@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.plugins.projectplugins.ProjectPluginManager;
 
 public class ZoomMax_Action extends BaseAction {
-  private static final Icon ICON = IconContainer.ICON_a0_3;
+  private static final Icon ICON = IconContainer.ICON4;
 
   public ZoomMax_Action() {
     super("Maximize", "", ICON);

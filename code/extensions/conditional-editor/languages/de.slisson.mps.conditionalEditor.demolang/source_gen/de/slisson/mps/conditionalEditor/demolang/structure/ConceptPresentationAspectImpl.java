@@ -36,6 +36,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ExpressionWithInspector:
         if (props_ExpressionWithInspector == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("short description");
           cpb.rawPresentation("expressionWithInspector");
           props_ExpressionWithInspector = cpb.create();
         }

@@ -6,10 +6,10 @@ import javax.swing.Icon;
 import jetbrains.mps.ide.icons.IconLoadingUtil;
 
 public class IconContainer {
-  protected static Icon ICON_a0 = IconLoadingUtil.loadIcon("refresh.png", IconContainer.class);
-  protected static Icon ICON_a0_0 = IconLoadingUtil.loadIcon("zoomInIcon.png", IconContainer.class);
-  protected static Icon ICON_a0_1 = IconLoadingUtil.loadIcon("zoomOutIcon.png", IconContainer.class);
-  protected static Icon ICON_a0_2 = IconLoadingUtil.loadIcon("OnetoOne.png", IconContainer.class);
-  protected static Icon ICON_a0_3 = IconLoadingUtil.loadIcon("maximize.png", IconContainer.class);
-  protected static Icon ICON_a0_4 = IconLoadingUtil.loadIcon("TextIcon_1.png", IconContainer.class);
+  protected static Icon ICON0 = IconLoadingUtil.loadIcon("/icons/refresh.png", IconContainer.class);
+  protected static Icon ICON1 = IconLoadingUtil.loadIcon("/icons/zoomInIcon.png", IconContainer.class);
+  protected static Icon ICON2 = IconLoadingUtil.loadIcon("/icons/zoomOutIcon.png", IconContainer.class);
+  protected static Icon ICON3 = IconLoadingUtil.loadIcon("/icons/OnetoOne.png", IconContainer.class);
+  protected static Icon ICON4 = IconLoadingUtil.loadIcon("/icons/maximize.png", IconContainer.class);
+  protected static Icon ICON5 = IconLoadingUtil.loadIcon("TextIcon_1.png", IconContainer.class);
 }

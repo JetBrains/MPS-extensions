@@ -132,6 +132,12 @@ public class Activity_ReadSync_Test extends BaseTransformationTest {
             public Iterable<mxCell> getSequence(mxCell thisElement) {
               return ExtensionMethods.getChildren(thisElement);
             }
+            @Nullable
+            @Override
+            public Message getMessage(mxCell thisElement) {
+              // Overridden just for being included in the stack trace
+              return super.getMessage(thisElement);
+            }
           });
           Message message = checker.getMessage(thisElement);
           if (message != null) {
@@ -216,6 +222,12 @@ public class Activity_ReadSync_Test extends BaseTransformationTest {
           }) {
             public Iterable<mxCell> getSequence(mxCell thisElement) {
               return ExtensionMethods.getChildren(thisElement);
+            }
+            @Nullable
+            @Override
+            public Message getMessage(mxCell thisElement) {
+              // Overridden just for being included in the stack trace
+              return super.getMessage(thisElement);
             }
           });
           Message message = checker.getMessage(thisElement);

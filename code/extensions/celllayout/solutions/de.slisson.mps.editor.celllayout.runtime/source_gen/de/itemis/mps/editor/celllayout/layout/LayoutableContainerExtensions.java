@@ -9,6 +9,9 @@ public class LayoutableContainerExtensions {
   public LayoutableContainerExtensions() {
   }
   public static void adjustToChildren(final ILayoutableContainer _this) {
+    if (_this == null) {
+      return;
+    }
     LayoutableContainerExtensions.adjustToChildren(_this, _this.getChildren());
   }
   public static void adjustToChildren(final ILayoutableContainer _this, Iterable<ILayoutable> children) {

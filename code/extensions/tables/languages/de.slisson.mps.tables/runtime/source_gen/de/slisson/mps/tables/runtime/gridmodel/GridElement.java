@@ -228,7 +228,7 @@ public abstract class GridElement implements IGridElement {
 
   @Override
   public void setPasteAction(CellAction action) {
-    setDeleteAction(action, 0);
+    setPasteAction(action, 0);
   }
 
   @Override

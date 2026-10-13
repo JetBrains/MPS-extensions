@@ -19,7 +19,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.regex.Matcher;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import com.intellij.ui.ColorUtil;
-import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import com.intellij.ui.DarculaColors;
 import jetbrains.mps.ide.search.SearchConditions;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -83,7 +82,7 @@ public class PaginationSearchField extends SearchTextField {
         PaginationSearchField.this.getTextEditor().setBackground(myDefaultBackgroundColor);
         PaginationSearchResultManager.getInstance().changeSelection(myUserObj, firstResultNode, myContext);
       } else {
-        PaginationSearchField.this.getTextEditor().setBackground(ColorUtil.mix(StyleRegistry.getInstance().getEditorBackground(), DarculaColors.RED, 0.1));
+        PaginationSearchField.this.getTextEditor().setBackground(ColorUtil.mix(myContext.getEditorComponent().getStyleRegistry().getEditorBackground(), DarculaColors.RED, 0.1));
       }
     });
   }

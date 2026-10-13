@@ -8,12 +8,11 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.typesystem.inference.EquationInfo;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
-import jetbrains.mps.smodel.builder.SNodeBuilder;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
 
 public class typeof_SequenceChecker_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
@@ -21,9 +20,20 @@ public class typeof_SequenceChecker_InferenceRule extends AbstractInferenceRule_
   }
   public void applyRule(final SNode sequenceChecker, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     {
-      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(sequenceChecker, LINKS.sequence$Dj37);
-      EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "5886540270990824768", 0, null);
-      typeCheckingContext.createGreaterThanInequality((SNode) _quotation_createNode_lbeo3i_a0a0c0a0b(typeCheckingContext.typeOf(sequenceChecker, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "5886540270990824775", true)), (SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "5886540270990824990", true), false, true, _info_12389875345);
+      final SNode inputType = typeCheckingContext.typeOf(SLinkOperations.getTarget(sequenceChecker, LINKS.sequence$Dj37), "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "1455552078128703116", true);
+      typeCheckingContext.whenConcrete(inputType, () -> {
+        {
+          SNode coercedNode_3mviwj_a0a0 = TypecheckingFacade.getFromContext().coerceType(typeCheckingContext.getExpandedNode(inputType), CONCEPTS.SequenceType$_s);
+          if (coercedNode_3mviwj_a0a0 != null) {
+            {
+              SNode _nodeToCheck_1029348928467 = sequenceChecker;
+              EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "1455552078128704701", 0, null);
+              typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "1455552078128703367", true), (SNode) SLinkOperations.getTarget(coercedNode_3mviwj_a0a0, LINKS.elementType$KpjL), _info_12389875345);
+            }
+          } else {
+          }
+        }
+      }, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "1455552078128703100", false, false);
     }
   }
   public SAbstractConcept getApplicableConcept() {
@@ -35,23 +45,14 @@ public class typeof_SequenceChecker_InferenceRule extends AbstractInferenceRule_
   public boolean overrides() {
     return false;
   }
-  private static SNode _quotation_createNode_lbeo3i_a0a0c0a0b(Object parameter_1) {
-    SNode quotedNode_2 = null;
-    SNode quotedNode_3 = null;
-    SNodeBuilder nb = new SNodeBuilder(null, null).init(MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, "jetbrains.mps.baseLanguage.collections"), 0x10c260e9444L, "SequenceType"));
-    quotedNode_2 = nb.getResult();
-    quotedNode_3 = (SNode) parameter_1;
-    if (quotedNode_3 != null) {
-      quotedNode_2.addChild(MetaAdapterFactory.getContainmentLink(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x10c260e9444L, 0x10c260ee40eL, "elementType"), SNodeOperations.copyIfNecessary(quotedNode_3));
-    }
-    return quotedNode_2;
-  }
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink sequence$Dj37 = MetaAdapterFactory.getContainmentLink(0xc6cfed73685b4891L, 0x8bddb38a1dcb107aL, 0x546e31803579f54L, 0x546e31803579fabL, "sequence");
+    /*package*/ static final SContainmentLink elementType$KpjL = MetaAdapterFactory.getContainmentLink(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x10c260e9444L, 0x10c260ee40eL, "elementType");
   }
 
   private static final class CONCEPTS {
+    /*package*/ static final SConcept SequenceType$_s = MetaAdapterFactory.getConcept(0x8388864671ce4f1cL, 0x9c53c54016f6ad4fL, 0x10c260e9444L, "jetbrains.mps.baseLanguage.collections.structure.SequenceType");
     /*package*/ static final SConcept SequenceChecker$fY = MetaAdapterFactory.getConcept(0xc6cfed73685b4891L, 0x8bddb38a1dcb107aL, 0x546e31803579f54L, "de.itemis.mps.structurecheck.structure.SequenceChecker");
   }
 }

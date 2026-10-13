@@ -1065,7 +1065,7 @@
               <node concept="2ShNRf" id="55VuGTRj2jT" role="37wK5m">
                 <node concept="1pGfFk" id="55VuGTRj2jV" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="37wK5l" node="55VuGTRcwYx" />
+                  <ref role="37wK5l" node="55VuGTRcwYx" resolve="ViewModelsExplorerRenderer" />
                 </node>
               </node>
             </node>
@@ -1328,7 +1328,7 @@
                       <property role="Xl_RC" value="Reload the content of the view models" />
                     </node>
                     <node concept="10M0yZ" id="55VuGTRj2mF" role="37wK5m">
-                      <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="Actions" />
+                      <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="AllIcons.Actions" />
                       <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.Refresh" resolve="Refresh" />
                     </node>
                     <node concept="3clFb_" id="55VuGTRj2mG" role="jymVt">
@@ -1385,7 +1385,7 @@
                       <property role="Xl_RC" value="Remove the selected entry or view model" />
                     </node>
                     <node concept="10M0yZ" id="55VuGTRj2ne" role="37wK5m">
-                      <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="General" />
+                      <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
                       <ref role="3cqZAo" to="z2i8:~AllIcons$General.Remove" resolve="Remove" />
                     </node>
                     <node concept="3clFb_" id="55VuGTRj2nf" role="jymVt">
@@ -2587,7 +2587,7 @@
                 <ref role="3cqZAo" node="55VuGTR5ud0" resolve="store" />
               </node>
               <node concept="3Tsc0h" id="55VuGTR5udP" role="2OqNvi">
-                <ref role="3TtcxE" to="kjfb:7a1gqzqGiHd" />
+                <ref role="3TtcxE" to="kjfb:7a1gqzqGiHd" resolve="viewModels" />
               </node>
             </node>
             <node concept="2S7cBI" id="55VuGTR5udQ" role="2OqNvi">
@@ -2624,7 +2624,7 @@
                 <node concept="2ShNRf" id="55VuGTR5ueg" role="33vP2m">
                   <node concept="1pGfFk" id="55VuGTR5uei" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" node="55VuGTQbXqD" />
+                    <ref role="37wK5l" node="55VuGTQbXqD" resolve="ViewModelsExplorerItem" />
                     <node concept="3cpWs3" id="55VuGTR5uej" role="37wK5m">
                       <node concept="Xl_RD" id="55VuGTR5uem" role="3uHU7B">
                         <property role="Xl_RC" value="vm:" />
@@ -2647,7 +2647,7 @@
                       </node>
                     </node>
                     <node concept="10M0yZ" id="55VuGTR5uex" role="37wK5m">
-                      <ref role="1PxDUh" to="z2i8:~AllIcons$Nodes" resolve="Nodes" />
+                      <ref role="1PxDUh" to="z2i8:~AllIcons$Nodes" resolve="AllIcons.Nodes" />
                       <ref role="3cqZAo" to="z2i8:~AllIcons$Nodes.DataTables" resolve="DataTables" />
                     </node>
                   </node>
@@ -2754,7 +2754,7 @@
                       <ref role="2Gs0qQ" node="55VuGTR5udH" resolve="viewModel" />
                     </node>
                     <node concept="3TrEf2" id="55VuGTR5ufD" role="2OqNvi">
-                      <ref role="3Tt5mk" to="kjfb:6SvWaRdpWxo" />
+                      <ref role="3Tt5mk" to="kjfb:6SvWaRdpWxo" resolve="root" />
                     </node>
                   </node>
                 </node>
@@ -2967,7 +2967,7 @@
                       <ref role="2Gs0qQ" node="55VuGTR4dVH" resolve="entry" />
                     </node>
                     <node concept="3TrEf2" id="55VuGTR4dVV" role="2OqNvi">
-                      <ref role="3Tt5mk" to="kjfb:6SvWaRdpWxu" />
+                      <ref role="3Tt5mk" to="kjfb:6SvWaRdpWxu" resolve="key" />
                     </node>
                   </node>
                 </node>
@@ -3088,7 +3088,7 @@
                     <ref role="2Gs0qQ" node="55VuGTR4dVH" resolve="entry" />
                   </node>
                   <node concept="3TrEf2" id="55VuGTR4dXe" role="2OqNvi">
-                    <ref role="3Tt5mk" to="kjfb:6SvWaRdpWxv" />
+                    <ref role="3Tt5mk" to="kjfb:6SvWaRdpWxv" resolve="value" />
                   </node>
                 </node>
               </node>
@@ -3130,7 +3130,7 @@
                           </node>
                         </node>
                         <node concept="3TrEf2" id="55VuGTR4dXG" role="2OqNvi">
-                          <ref role="3Tt5mk" to="kjfb:6SvWaRdpWxC" />
+                          <ref role="3Tt5mk" to="kjfb:6SvWaRdpWxC" resolve="root" />
                         </node>
                       </node>
                     </node>
@@ -3432,7 +3432,7 @@
               <ref role="3cqZAo" node="55VuGTQXizn" resolve="branch" />
             </node>
             <node concept="3Tsc0h" id="55VuGTR0hun" role="2OqNvi">
-              <ref role="3TtcxE" to="kjfb:6SvWaRdpWxs" />
+              <ref role="3TtcxE" to="kjfb:6SvWaRdpWxs" resolve="items" />
             </node>
           </node>
           <node concept="3clFbS" id="55VuGTR0huo" role="2LFqv$">
@@ -3550,7 +3550,7 @@
               <node concept="2ShNRf" id="55VuGTR2ENu" role="3cqZAk">
                 <node concept="1pGfFk" id="55VuGTR2ENw" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="37wK5l" node="55VuGTQbXqD" />
+                  <ref role="37wK5l" node="55VuGTQbXqD" resolve="ViewModelsExplorerItem" />
                   <node concept="3cpWs3" id="55VuGTR2ENx" role="37wK5m">
                     <node concept="Xl_RD" id="55VuGTR2EN$" role="3uHU7B">
                       <property role="Xl_RC" value="s:" />
@@ -3573,7 +3573,7 @@
                     </node>
                   </node>
                   <node concept="10M0yZ" id="55VuGTR2ENJ" role="37wK5m">
-                    <ref role="1PxDUh" to="z2i8:~AllIcons$Nodes" resolve="Nodes" />
+                    <ref role="1PxDUh" to="z2i8:~AllIcons$Nodes" resolve="AllIcons.Nodes" />
                     <ref role="3cqZAo" to="z2i8:~AllIcons$Nodes.Property" resolve="Property" />
                   </node>
                 </node>
@@ -3670,7 +3670,7 @@
                 <node concept="2ShNRf" id="55VuGTR2fY4" role="37vLTx">
                   <node concept="1pGfFk" id="55VuGTR2fY6" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" node="55VuGTQbXqD" />
+                    <ref role="37wK5l" node="55VuGTQbXqD" resolve="ViewModelsExplorerItem" />
                     <node concept="3cpWs3" id="55VuGTR2fY7" role="37wK5m">
                       <node concept="37vLTw" id="55VuGTR2fYa" role="3uHU7B">
                         <ref role="3cqZAo" node="55VuGTQXizO" resolve="idPrefix" />
@@ -3688,7 +3688,7 @@
                       </node>
                     </node>
                     <node concept="10M0yZ" id="55VuGTR2fYh" role="37wK5m">
-                      <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="General" />
+                      <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
                       <ref role="3cqZAo" to="z2i8:~AllIcons$General.Warning" resolve="Warning" />
                     </node>
                   </node>
@@ -3721,7 +3721,7 @@
                   <node concept="2ShNRf" id="55VuGTR2fYA" role="37vLTx">
                     <node concept="1pGfFk" id="55VuGTR2fYC" role="2ShVmc">
                       <property role="373rjd" value="true" />
-                      <ref role="37wK5l" node="55VuGTQbXqD" />
+                      <ref role="37wK5l" node="55VuGTQbXqD" resolve="ViewModelsExplorerItem" />
                       <node concept="3cpWs3" id="55VuGTR2fYD" role="37wK5m">
                         <node concept="37vLTw" id="55VuGTR2fYG" role="3uHU7B">
                           <ref role="3cqZAo" node="55VuGTQXizO" resolve="idPrefix" />
@@ -3875,7 +3875,7 @@
             <node concept="2ShNRf" id="55VuGTR39HI" role="33vP2m">
               <node concept="1pGfFk" id="55VuGTR39HK" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" node="55VuGTQbXqD" />
+                <ref role="37wK5l" node="55VuGTQbXqD" resolve="ViewModelsExplorerItem" />
                 <node concept="Xl_RD" id="55VuGTR39HL" role="37wK5m">
                   <property role="Xl_RC" value="dependencies" />
                 </node>
@@ -3883,7 +3883,7 @@
                   <property role="Xl_RC" value="dependencies" />
                 </node>
                 <node concept="10M0yZ" id="55VuGTR39HN" role="37wK5m">
-                  <ref role="1PxDUh" to="z2i8:~AllIcons$Nodes" resolve="Nodes" />
+                  <ref role="1PxDUh" to="z2i8:~AllIcons$Nodes" resolve="AllIcons.Nodes" />
                   <ref role="3cqZAo" to="z2i8:~AllIcons$Nodes.Related" resolve="Related" />
                 </node>
               </node>
@@ -5216,7 +5216,7 @@
             <node concept="2ShNRf" id="55VuGTRl_bX" role="37vLTx">
               <node concept="1pGfFk" id="55VuGTRl_bZ" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" node="55VuGTQXixd" />
+                <ref role="37wK5l" node="55VuGTQXixd" resolve="ViewModelsExplorer" />
                 <node concept="2YIFZM" id="55VuGTRl_c0" role="37wK5m">
                   <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
                   <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project)" resolve="fromIdeaProject" />

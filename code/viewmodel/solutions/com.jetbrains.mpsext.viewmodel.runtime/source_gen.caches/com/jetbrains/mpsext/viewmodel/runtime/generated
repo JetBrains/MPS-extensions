@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="8l7y5uw1fpy2m0e7t1yrqiauwwz1oju">
-  <files names="ChangeTracker.java:Computed.java:Hamt.java:NodeDiff.java:PendingWrite.java:ProjectViewModel.java:ReadRecorder.java:ViewModel.java:ViewModelBatch.java:ViewModelIndex.java:ViewModelKey.java:ViewModelNodeKey.java:ViewModelStringKey.java:ViewModels.java" />
-</product>
-

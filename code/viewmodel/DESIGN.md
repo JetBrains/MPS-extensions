@@ -167,7 +167,7 @@ stable across sessions — they are computed from strings, never from `identityH
 | `com.jetbrains.mpsext.viewmodel` | language + generator | the DSL: view model declarations and the `viewmodel/X/` expression |
 | `com.jetbrains.mpsext.viewmodel.storage` | language | concepts of the storage (structure only) |
 | `com.jetbrains.mpsext.viewmodel.runtime` | solution | Java API, HAMT, dependency tracking, write queue, application plugin, *View Models* tool window; runtime of the DSL |
-| `test.com.jetbrains.mpsext.viewmodel.lang` | language | `TestItem`, whose editor shows the value stored for it under `"result"`; declares the view models `Results` and `Other` |
+| `test.com.jetbrains.mpsext.viewmodel.lang` | language | `TestItem`, whose editor shows the value stored for it in `Results`; declares the view models `Results` and `Other` |
 | `test.com.jetbrains.mpsext.viewmodel` | solution | `ViewModelStoreTest` (`NodesTestCase`) |
 
 Clients use the DSL, or depend on the runtime solution and use the Java API directly.
@@ -197,9 +197,11 @@ abstract Value
   MapValue    root : HamtBranch [1]   nested map, used for entries with more than one key
 ```
 
-Composite keys are nested maps: the interpreter result of a test item is stored in a view model of
-its own at the path `[NodeKey(testItem), StringKey("lastResult")]`. All data of one node are grouped
-under one entry, which is removed when the node is deleted.
+Each use case has a view model of its own, so a value is usually keyed by a node alone: the
+interpreter result of a test item is stored in the view model `CheckResults` at the path
+`[NodeKey(testItem)]`. Composite keys (paths of any length, of node and string keys) are nested maps;
+all data whose path starts with a node are grouped under one entry, which is removed when the node is
+deleted.
 
 Keeping the Java object in a user object of a node *inside the view model* is fine: these nodes are
 never copied or persisted, and a write always replaces the value node, which produces the change
@@ -247,9 +249,9 @@ ViewModel results = ViewModels.named("org.iets3.testResults");
 
 // reading — needs read access but no project, e.g. in an editor;
 // reads from an editor are tracked as cell dependencies
-Object v = results.get(node, "lastResult");
-Object v = results.getPath(path);                     // list<ViewModelKey>
-node<> n = results.getNode(node, "tree");             // a node value; null for other values
+Object v = results.get(node);
+node<> n = results.getNode(node);                     // a node value; null for other values
+Object v = results.getPath(path);                     // composite key: list<ViewModelKey>
 
 // everything else through the view model bound to a project
 ProjectViewModel vm = results.forProject(project);
@@ -258,15 +260,14 @@ ProjectViewModel vm = results.forProject(project);
 Computed<T> c = vm.compute(() -> evaluate(node));    // c.getValue(), c.getDependencies()
 
 // writing — inside a command of the project; return false when rejected (read-only model, node gone)
-vm.write(node, "lastResult", value, dependencies);    // a node as value is stored as a NodeValue
-vm.writeComputed(node, "lastResult", c);
+vm.write(node, value, dependencies);                  // a node as value is stored as a NodeValue
+vm.writeComputed(node, c);
 vm.writePath(path, value, dependencies);              // value null removes
-vm.remove(node, "lastResult");
-vm.removeNode(node);                                  // all data of the node in this view model
+vm.remove(node);                                      // all data of the node, composite keys included
 vm.clear();                                           // all data of this view model
 
 // writing from any thread
-CompletableFuture<Boolean> f = vm.writeAsync(node, "lastResult", value, dependencies);
+CompletableFuture<Boolean> f = vm.writeAsync(node, value, dependencies);
 vm.writeComputedAsync(…); vm.writePathAsync(…); vm.removeAsync(…);
 try (ViewModelBatch b = vm.startBatch()) { … many writeAsync … }
 vm.drain();                                           // apply the queue now (inside a command)
@@ -282,10 +283,11 @@ Internally the name of the view model is the first key of each path, so the inde
 and the write queue treat all view models alike.
 
 Keys are the Java value objects `ViewModelStringKey` and `ViewModelNodeKey` (created with
-`ViewModelKey.forString/forNode/forNodeReference`), matching the key concepts. The overloads taking
-`(node, key)` use the path `[forNode(node), forString(key)]` (`ViewModels.path(node, key)`). Methods
-with different signatures have different names, because overloads of the same arity are error-prone
-to call from MPS code.
+`ViewModelKey.forString/forNode/forNodeReference`), matching the key concepts. The methods taking a
+node use the path `[forNode(node)]` (`ViewModels.path(node)`, which is also the start of a composite
+key). There is no string key next to the node: the name of the view model already separates the data
+of different use cases. Methods with different signatures of the same arity have different names,
+because such overloads are error-prone to call from MPS code.
 
 ### DSL (language `com.jetbrains.mpsext.viewmodel`)
 
@@ -296,10 +298,10 @@ repeating a string:
 view model TestResults                                   // root ViewModelDeclaration
 
 // in editor code: the project is taken from editorContext
-Object r = viewmodel/TestResults/.get(node, "lastResult");
+Object r = viewmodel/TestResults/.get(node);
 
 // elsewhere: the project is passed
-viewmodel/TestResults/(project).writeComputed(item, "lastResult", c);
+viewmodel/TestResults/(project).writeComputed(item, c);
 ```
 
 * `ViewModelDeclaration` (root, `INamedConcept`). Its runtime name is the model name plus the
@@ -420,7 +422,7 @@ what is stored, mainly while developing a language that uses view models:
 ### Use in iets3 (iets3.opensource, branch `feature/view-model`)
 
 * `org.iets3.core.base` declares `view model CheckResults`. `ICanStoreCheckResult` stores results
-  there (path `[NodeKey(this), StringKey(userObjectKey())]`) for every implementor: test items, REPL
+  there, keyed by the node, for every implementor: test items, REPL
   entries, solver results. `storeLastResultWithDependencies(result, deps)` is new; `storeLastResult`
   passes no dependencies. Reads use the read-only `viewmodel/CheckResults/`.
 * The project is resolved from the node (`NodeProjects.find`: the open project containing the node's

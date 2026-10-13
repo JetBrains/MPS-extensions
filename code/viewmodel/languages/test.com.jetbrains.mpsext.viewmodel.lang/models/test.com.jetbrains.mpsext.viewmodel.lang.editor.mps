@@ -141,9 +141,6 @@
                     <node concept="liA8E" id="55VuGTOjZZk" role="2OqNvi">
                       <ref role="37wK5l" to="u3te:7a1gqzqOlkC" resolve="get" />
                       <node concept="pncrf" id="55VuGTOjZZl" role="37wK5m" />
-                      <node concept="Xl_RD" id="55VuGTOjZZm" role="37wK5m">
-                        <property role="Xl_RC" value="result" />
-                      </node>
                     </node>
                   </node>
                 </node>

@@ -45,7 +45,7 @@
     <property role="EcuMT" value="3218239165050878852" />
     <property role="TrG5h" value="TestItem" />
     <property role="19KtqR" value="true" />
-    <property role="R4oN_" value="shows the view model value stored for it under the key 'result'" />
+    <property role="R4oN_" value="shows the value stored for it in the view model Results" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6SvWaReUFfR" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />

@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -74,16 +74,10 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -91,6 +85,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -198,9 +200,36 @@
     <property role="TrG5h" value="ITreeLayoutType" />
     <node concept="3Tm1VV" id="7dj$mdORr5L" role="1B3o_S" />
     <node concept="3UR2Jj" id="7dj$mdOT44Q" role="lGtFl">
-      <node concept="TZ5HA" id="7dj$mdOT44R" role="TZ5H$">
-        <node concept="1dT_AC" id="7dj$mdOT44S" role="1dT_Ay">
-          <property role="1dT_AB" value="To fix circular dependency between this module and the runtime" />
+      <node concept="1PaTwC" id="L0S2CpU63U" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU63V" role="1PaTwD">
+          <property role="3oM_SC" value="To" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU63W" role="1PaTwD">
+          <property role="3oM_SC" value="fix" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU63X" role="1PaTwD">
+          <property role="3oM_SC" value="circular" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU63Y" role="1PaTwD">
+          <property role="3oM_SC" value="dependency" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU63Z" role="1PaTwD">
+          <property role="3oM_SC" value="between" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU640" role="1PaTwD">
+          <property role="3oM_SC" value="this" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU641" role="1PaTwD">
+          <property role="3oM_SC" value="module" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU642" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU643" role="1PaTwD">
+          <property role="3oM_SC" value="the" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU644" role="1PaTwD">
+          <property role="3oM_SC" value="runtime" />
         </node>
       </node>
     </node>

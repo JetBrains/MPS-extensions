@@ -20,6 +20,9 @@
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
@@ -495,7 +498,6 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -726,7 +728,7 @@
                     <ref role="3Tt5mk" to="7nxb:24zrZPPzLEr" resolve="endpoint" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="24zrZPPBd8q" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybpz_" role="2OqNvi">
                   <ref role="37wK5l" to="ekjq:24zrZPPB6$C" resolve="getBox" />
                 </node>
               </node>
@@ -743,7 +745,7 @@
                   <ref role="3Tt5mk" to="7nxb:24zrZPPzLEr" resolve="endpoint" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="24zrZPPBckk" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpzB" role="2OqNvi">
                 <ref role="37wK5l" to="ekjq:24zrZPPB6_c" resolve="getPortName" />
               </node>
             </node>
@@ -761,7 +763,7 @@
                   <ref role="3Tt5mk" to="7nxb:24zrZPPzLEr" resolve="endpoint" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="24zrZPPB9V6" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpzD" role="2OqNvi">
                 <ref role="37wK5l" to="ekjq:24zrZPPB6_c" resolve="getPortName" />
               </node>
             </node>
@@ -780,7 +782,7 @@
                   <ref role="3Tt5mk" to="7nxb:24zrZPPzLEr" resolve="endpoint" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="24zrZPPBdbM" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpzF" role="2OqNvi">
                 <ref role="37wK5l" to="ekjq:24zrZPPB6$C" resolve="getBox" />
               </node>
             </node>
@@ -803,7 +805,7 @@
                     <ref role="3Tt5mk" to="7nxb:24zrZPPzLEr" resolve="endpoint" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="24zrZPPBdhB" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybpzH" role="2OqNvi">
                   <ref role="37wK5l" to="ekjq:24zrZPPB6$C" resolve="getBox" />
                 </node>
               </node>
@@ -820,7 +822,7 @@
                   <ref role="3Tt5mk" to="7nxb:24zrZPPzLEr" resolve="endpoint" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="24zrZPPBdhI" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpzJ" role="2OqNvi">
                 <ref role="37wK5l" to="ekjq:24zrZPPB6_c" resolve="getPortName" />
               </node>
             </node>
@@ -838,7 +840,7 @@
                   <ref role="3Tt5mk" to="7nxb:24zrZPPzLEr" resolve="endpoint" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="24zrZPPBdhQ" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpzL" role="2OqNvi">
                 <ref role="37wK5l" to="ekjq:24zrZPPB6_c" resolve="getPortName" />
               </node>
             </node>
@@ -857,7 +859,7 @@
                   <ref role="3Tt5mk" to="7nxb:24zrZPPzLEr" resolve="endpoint" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="24zrZPPBdhZ" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpzN" role="2OqNvi">
                 <ref role="37wK5l" to="ekjq:24zrZPPB6$C" resolve="getBox" />
               </node>
             </node>
@@ -1141,13 +1143,13 @@
           </node>
           <node concept="2OqwBi" id="24zrZPP_oYu" role="2316E7">
             <node concept="15kUEO" id="24zrZPP_oS7" role="2Oq$k0" />
-            <node concept="2qgKlT" id="24zrZPP_pfK" role="2OqNvi">
+            <node concept="3zqWPK" id="WEZADybpzP" role="2OqNvi">
               <ref role="37wK5l" to="ekjq:24zrZPPzdZv" resolve="getPositionX" />
             </node>
           </node>
           <node concept="2OqwBi" id="24zrZPP_prx" role="2316E6">
             <node concept="15kUEO" id="24zrZPP_pko" role="2Oq$k0" />
-            <node concept="2qgKlT" id="24zrZPP_pUW" role="2OqNvi">
+            <node concept="3zqWPK" id="WEZADybpzR" role="2OqNvi">
               <ref role="37wK5l" to="ekjq:24zrZPPzzOs" resolve="getPositionY" />
             </node>
           </node>
@@ -1240,7 +1242,7 @@
                             <ref role="3Tt5mk" to="7nxb:24zrZPPBPo6" resolve="hint" />
                           </node>
                         </node>
-                        <node concept="2qgKlT" id="24zrZPPCMcP" role="2OqNvi">
+                        <node concept="3zqWPK" id="WEZADybpzT" role="2OqNvi">
                           <ref role="37wK5l" to="tpcb:59ZEGVRaGvv" resolve="getQualifiedName" />
                         </node>
                       </node>
@@ -5284,7 +5286,7 @@
                                   <node concept="37vLTw" id="5UUX0AoLSJb" role="2Oq$k0">
                                     <ref role="3cqZAo" node="4Jof1$wCncm" resolve="it" />
                                   </node>
-                                  <node concept="2qgKlT" id="5UUX0AoLSJc" role="2OqNvi">
+                                  <node concept="3zqWPK" id="WEZADybpzV" role="2OqNvi">
                                     <ref role="37wK5l" to="ekjq:24zrZPPB6_c" resolve="getPortName" />
                                   </node>
                                 </node>
@@ -5341,7 +5343,7 @@
                                   <node concept="37vLTw" id="5UUX0AoLSJz" role="2Oq$k0">
                                     <ref role="3cqZAo" node="4Jof1$wCnco" resolve="it" />
                                   </node>
-                                  <node concept="2qgKlT" id="5UUX0AoLSJ$" role="2OqNvi">
+                                  <node concept="3zqWPK" id="WEZADybpzX" role="2OqNvi">
                                     <ref role="37wK5l" to="ekjq:24zrZPPB6_c" resolve="getPortName" />
                                   </node>
                                 </node>

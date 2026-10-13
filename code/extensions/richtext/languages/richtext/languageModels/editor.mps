@@ -46,6 +46,9 @@
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
       <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
@@ -303,7 +306,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -1719,9 +1721,9 @@
                                 <node concept="1xIGOp" id="7$OwZg$nosd" role="1xVPHs" />
                               </node>
                             </node>
-                            <node concept="2qgKlT" id="7$OwZg$nvdg" role="2OqNvi">
+                            <node concept="3zqWPK" id="WEZADybq4O" role="2OqNvi">
                               <ref role="37wK5l" to="tbr6:1xf6IA5Se_N" resolve="ensureNormalized" />
-                              <node concept="37vLTw" id="7$OwZg$nviG" role="37wK5m">
+                              <node concept="37vLTw" id="WEZADybq4Q" role="37wK5m">
                                 <ref role="3cqZAo" node="4Q9g1gQQZMd" resolve="context" />
                               </node>
                             </node>

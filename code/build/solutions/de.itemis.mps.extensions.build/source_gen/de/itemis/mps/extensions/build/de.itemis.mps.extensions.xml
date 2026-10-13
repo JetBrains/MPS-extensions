@@ -15012,6 +15012,7 @@
     </echoxml>
     <jar destfile="${build.layout}/com.jetbrains.mpsext.viewmodel/languages/com.jetbrains.mpsext.viewmodel/com.jetbrains.mpsext.viewmodel.storage.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/com.jetbrains.mpsext.viewmodel.storage" />
+      <fileset dir="${extensions.code}/viewmodel/languages/com.jetbrains.mpsext.viewmodel.storage" includes="icons/**, resources/**" />
       <fileset dir="${extensions.code}/viewmodel/languages/com.jetbrains.mpsext.viewmodel.storage/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/com.jetbrains.mpsext.viewmodel.storage.jar" />
     </jar>
@@ -15114,6 +15115,7 @@
     </echoxml>
     <jar destfile="${build.layout}/com.jetbrains.mpsext.viewmodel/languages/com.jetbrains.mpsext.viewmodel/com.jetbrains.mpsext.viewmodel.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/com.jetbrains.mpsext.viewmodel" />
+      <fileset dir="${extensions.code}/viewmodel/languages/com.jetbrains.mpsext.viewmodel" includes="icons/**, resources/**" />
       <fileset dir="${extensions.code}/viewmodel/languages/com.jetbrains.mpsext.viewmodel/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/com.jetbrains.mpsext.viewmodel.jar1" />
     </jar>
@@ -15230,6 +15232,7 @@
     </echoxml>
     <jar destfile="${build.layout}/com.jetbrains.mpsext.viewmodel/languages/com.jetbrains.mpsext.viewmodel/com.jetbrains.mpsext.viewmodel.runtime.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/com.jetbrains.mpsext.viewmodel.runtime" />
+      <fileset dir="${extensions.code}/viewmodel/solutions/com.jetbrains.mpsext.viewmodel.runtime" includes="icons/**, resources/**" />
       <fileset dir="${extensions.code}/viewmodel/solutions/com.jetbrains.mpsext.viewmodel.runtime/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/com.jetbrains.mpsext.viewmodel.runtime.jar" />
     </jar>

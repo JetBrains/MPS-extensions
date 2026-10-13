@@ -27032,6 +27032,7 @@
         <property role="TrG5h" value="test.com.jetbrains.mpsext.viewmodel" />
         <property role="3LESm3" value="c02a035d-a6f2-43d4-bc23-8beccd5ca0e2" />
         <property role="BnDLt" value="true" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="55VuGTP$hiE" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="55VuGTP$hiF" role="iGT6I">

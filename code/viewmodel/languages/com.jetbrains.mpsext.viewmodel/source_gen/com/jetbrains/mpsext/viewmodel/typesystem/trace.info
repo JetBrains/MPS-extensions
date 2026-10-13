@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="com.jetbrains.mpsext.viewmodel.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:eaaadb29-83c8-45ef-97fe-92883a46aea5(com.jetbrains.mpsext.viewmodel.typesystem)/5871421566340365973">
+    <file name="TypesystemDescriptor.java">
+      <node id="5871421566340365973" at="10,5,11,91" concept="5" />
+      <node id="5871421566340365973" at="11,91,12,47" concept="2" />
+      <node id="5871421566340365973" at="9,33,13,5" concept="0" />
+      <scope id="5871421566340365973" at="10,5,12,47">
+        <var name="inferenceRule" id="5871421566340365973" />
+      </scope>
+    </file>
+    <file name="typeof_ViewModelExpression_InferenceRule.java">
+      <node id="5871421566345718832" at="22,117,23,84" concept="7" />
+      <node id="5871421566345718863" at="25,7,26,48" concept="5" />
+      <node id="5871421566345718863" at="26,48,27,209" concept="5" />
+      <node id="5871421566345718863" at="27,209,28,292" concept="2" />
+      <node id="5871421566345718879" at="31,7,32,48" concept="5" />
+      <node id="5871421566345718879" at="32,48,33,209" concept="5" />
+      <node id="5871421566345718879" at="33,209,34,293" concept="2" />
+      <node id="5871421566340366003" at="38,7,39,95" concept="5" />
+      <node id="5871421566340366003" at="39,95,40,209" concept="5" />
+      <node id="5871421566340366003" at="40,209,41,315" concept="2" />
+      <node id="5871421566340365973" at="45,50,46,43" concept="6" />
+      <node id="5871421566340365973" at="48,68,49,102" concept="6" />
+      <node id="5871421566340365973" at="51,30,52,17" concept="6" />
+      <node id="5871421566345718873" at="54,67,55,30" concept="5" />
+      <node id="5871421566345718873" at="55,30,56,225" concept="5" />
+      <node id="5871421566345718873" at="56,225,57,34" concept="2" />
+      <node id="5871421566345718873" at="57,34,58,247" concept="2" />
+      <node id="5871421566345718873" at="58,247,59,24" concept="6" />
+      <node id="5871421566345718889" at="61,68,62,30" concept="5" />
+      <node id="5871421566345718889" at="62,30,63,225" concept="5" />
+      <node id="5871421566345718889" at="63,225,64,34" concept="2" />
+      <node id="5871421566345718889" at="64,34,65,247" concept="2" />
+      <node id="5871421566345718889" at="65,247,66,24" concept="6" />
+      <node id="5871421566340366017" at="68,67,69,30" concept="5" />
+      <node id="5871421566340366017" at="69,30,70,225" concept="5" />
+      <node id="5871421566340366017" at="70,225,71,34" concept="2" />
+      <node id="5871421566340366017" at="71,34,72,232" concept="2" />
+      <node id="5871421566340366017" at="72,232,73,24" concept="6" />
+      <node id="5871421566340365973" at="77,0,78,0" concept="8" trace="project$W9rF" />
+      <node id="5871421566340365973" at="81,0,82,0" concept="8" trace="ViewModelExpression$q8" />
+      <node id="5871421566340365973" at="20,0,22,0" concept="1" trace="typeof_ViewModelExpression_InferenceRule#()V" />
+      <node id="5871421566340365973" at="45,0,48,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5871421566340365973" at="48,0,51,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="5871421566340365973" at="51,0,54,0" concept="4" trace="overrides#()Z" />
+      <node id="5871421566345718863" at="24,98,29,7" concept="0" />
+      <node id="5871421566345718879" at="30,12,35,7" concept="0" />
+      <node id="5871421566340366003" at="37,70,42,7" concept="0" />
+      <node id="5871421566345718876" at="30,10,36,5" concept="0" />
+      <node id="5871421566340365990" at="36,5,43,5" concept="3" />
+      <node id="5871421566345718873" at="54,0,61,0" concept="9" trace="_quotation_createNode_azbe4i_a1a0c0a0b0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5871421566345718889" at="61,0,68,0" concept="9" trace="_quotation_createNode_azbe4i_a1a0c0a0a1a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5871421566340366017" at="68,0,75,0" concept="9" trace="_quotation_createNode_azbe4i_a1a0c0a0c0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5871421566345718854" at="23,84,36,5" concept="3" />
+      <node id="5871421566340365973" at="22,0,45,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="5871421566340365973" at="20,53,20,53" />
+      <scope id="5871421566340365973" at="45,50,46,43" />
+      <scope id="5871421566340365973" at="48,68,49,102" />
+      <scope id="5871421566340365973" at="51,30,52,17" />
+      <scope id="5871421566340365973" at="20,0,22,0" />
+      <scope id="5871421566345718863" at="25,7,28,292">
+        <var name="_info_12389875345" id="5871421566345718863" />
+        <var name="_nodeToCheck_1029348928467" id="5871421566345718863" />
+      </scope>
+      <scope id="5871421566345718879" at="31,7,34,293">
+        <var name="_info_12389875345" id="5871421566345718879" />
+        <var name="_nodeToCheck_1029348928467" id="5871421566345718879" />
+      </scope>
+      <scope id="5871421566340366003" at="38,7,41,315">
+        <var name="_info_12389875345" id="5871421566340366003" />
+        <var name="_nodeToCheck_1029348928467" id="5871421566340366003" />
+      </scope>
+      <scope id="5871421566340365973" at="45,0,48,0" />
+      <scope id="5871421566340365973" at="48,0,51,0">
+        <var name="argument" id="5871421566340365973" />
+      </scope>
+      <scope id="5871421566340365973" at="51,0,54,0" />
+      <scope id="5871421566345718862" at="24,98,29,7" />
+      <scope id="5871421566345718878" at="30,12,35,7" />
+      <scope id="5871421566340366002" at="37,70,42,7" />
+      <scope id="5871421566345718873" at="54,67,59,24">
+        <var name="nb" id="5871421566345718873" />
+        <var name="quotedNode_1" id="5871421566345718873" />
+      </scope>
+      <scope id="5871421566345718889" at="61,68,66,24">
+        <var name="nb" id="5871421566345718889" />
+        <var name="quotedNode_1" id="5871421566345718889" />
+      </scope>
+      <scope id="5871421566340366017" at="68,67,73,24">
+        <var name="nb" id="5871421566340366017" />
+        <var name="quotedNode_1" id="5871421566340366017" />
+      </scope>
+      <scope id="5871421566345718873" at="54,0,61,0" />
+      <scope id="5871421566345718889" at="61,0,68,0" />
+      <scope id="5871421566340366017" at="68,0,75,0" />
+      <scope id="5871421566340365976" at="22,117,43,5" />
+      <scope id="5871421566340365973" at="22,0,45,0">
+        <var name="expr" id="5871421566340365973" />
+        <var name="status" id="5871421566340365973" />
+        <var name="typeCheckingContext" id="5871421566340365973" />
+      </scope>
+      <unit id="5871421566340365973" at="76,0,79,0" name="com.jetbrains.mpsext.viewmodel.typesystem.typeof_ViewModelExpression_InferenceRule$LINKS" />
+      <unit id="5871421566340365973" at="80,0,83,0" name="com.jetbrains.mpsext.viewmodel.typesystem.typeof_ViewModelExpression_InferenceRule$CONCEPTS" />
+      <unit id="5871421566340365973" at="19,0,84,0" name="com.jetbrains.mpsext.viewmodel.typesystem.typeof_ViewModelExpression_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
+

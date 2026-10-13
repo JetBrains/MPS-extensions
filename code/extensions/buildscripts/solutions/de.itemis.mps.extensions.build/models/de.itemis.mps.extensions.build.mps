@@ -247,7 +247,7 @@
   </registry>
   <node concept="1l3spW" id="2Xjt3l56m0V">
     <property role="TrG5h" value="de.itemis.mps.extensions" />
-    <property role="2DA0ip" value="../../../../build/generated/languages" />
+    <property role="2DA0ip" value="../../../build/generated/languages" />
     <node concept="m$_wf" id="4hvHh3QW$Eh" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.extensions.build" />
       <node concept="3_J27D" id="4hvHh3QW$Ei" role="m$_yQ">
@@ -290,7 +290,7 @@
         <node concept="398BVA" id="3vzyAKEJT3s" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3vzyAKEJT3x" role="iGT6I">
-            <property role="2Ry0Am" value="build" />
+            <property role="2Ry0Am" value="buildscripts" />
             <node concept="2Ry0Ak" id="3vzyAKEJT3y" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="1QLFoGOMPAy" role="2Ry0An">
@@ -315,7 +315,7 @@
             <node concept="398BVA" id="PE3B273Azo" role="3LXTmr">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="PE3B273Azp" role="iGT6I">
-                <property role="2Ry0Am" value="build" />
+                <property role="2Ry0Am" value="buildscripts" />
                 <node concept="2Ry0Ak" id="PE3B273Azq" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="7uETHq$M52l" role="2Ry0An">
@@ -334,7 +334,7 @@
             <node concept="398BVA" id="2eucapX07Dx" role="3LXTmr">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="2eucapX07Dy" role="iGT6I">
-                <property role="2Ry0Am" value="build" />
+                <property role="2Ry0Am" value="buildscripts" />
                 <node concept="2Ry0Ak" id="2eucapX07Dz" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="2eucapX07D$" role="2Ry0An">
@@ -18050,6 +18050,12 @@
             <property role="2Ry0Am" value=".." />
             <node concept="2Ry0Ak" id="42yR2aTbxQm" role="2Ry0An">
               <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="65OPvC7PkJ_" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="65OPvC7PkJD" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -18061,6 +18067,9 @@
         <ref role="398BVh" node="2fo8bJE$D4o" resolve="extensions.home" />
         <node concept="2Ry0Ak" id="2fo8bJE$D4v" role="iGT6I">
           <property role="2Ry0Am" value="code" />
+          <node concept="2Ry0Ak" id="65OPvC7PkJB" role="2Ry0An">
+            <property role="2Ry0Am" value="extensions" />
+          </node>
         </node>
       </node>
     </node>
@@ -18617,7 +18626,7 @@
     </node>
   </node>
   <node concept="1l3spW" id="6$6tsX_CERA">
-    <property role="2DA0ip" value="../../../../build/generated/tests" />
+    <property role="2DA0ip" value="../../../build/generated/tests" />
     <property role="turDy" value="build.xml" />
     <property role="TrG5h" value="tests" />
     <node concept="2_Ic$z" id="6$6tsX_CF79" role="3989C9">
@@ -26361,6 +26370,12 @@
             <property role="2Ry0Am" value=".." />
             <node concept="2Ry0Ak" id="2fo8bJEzAKn" role="2Ry0An">
               <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="65OPvC7PkJA" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="65OPvC7PkJE" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -26372,6 +26387,9 @@
         <ref role="398BVh" node="1QLFoGON23s" resolve="extensions.home" />
         <node concept="2Ry0Ak" id="27epzEomQ$Y" role="iGT6I">
           <property role="2Ry0Am" value="code" />
+          <node concept="2Ry0Ak" id="65OPvC7PkJC" role="2Ry0An">
+            <property role="2Ry0Am" value="extensions" />
+          </node>
         </node>
       </node>
     </node>
@@ -26509,7 +26527,7 @@
     <node concept="2sgV4H" id="6$6tsX_CIho" role="1l3spa">
       <ref role="1l3spb" node="2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
       <node concept="398BVA" id="2fo8bJECJBq" role="2JcizS">
-        <ref role="398BVh" node="1QLFoGON23s" resolve="extensions.home" />
+        <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
         <node concept="2Ry0Ak" id="2fo8bJECJDk" role="iGT6I">
           <property role="2Ry0Am" value="build" />
           <node concept="2Ry0Ak" id="_QB087ANwk" role="2Ry0An">

@@ -10,7 +10,7 @@ import jetbrains.mps.ide.project.ProjectHelper;
 import javax.swing.JComponent;
 
 public class ViewModelsTool_Tool extends GeneratedTool {
-  private static final Icon ICON = null;
+  private static final Icon ICON = IconContainer.ICON0;
   private ViewModelsExplorer explorer;
   public ViewModelsTool_Tool(Project project) {
     super(project, "View Models", null, ICON, ToolWindowAnchor.BOTTOM, false);

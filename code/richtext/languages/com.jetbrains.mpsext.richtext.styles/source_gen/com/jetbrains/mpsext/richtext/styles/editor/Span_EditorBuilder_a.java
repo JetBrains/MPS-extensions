@@ -54,7 +54,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 
     final EditorCell cell = createRefNodeList_0();
     EditorCell editorCell = ((_FunctionTypes._return_P0_E0<EditorCell>) () -> {
-      TextCellModifier.modify(cell);
+      TextCellModifier.modifyWordList(cell);
       return cell;
     }).invoke();
     EditorCell bigCell = BigCellUtil.findBigCell(editorCell, getNode());

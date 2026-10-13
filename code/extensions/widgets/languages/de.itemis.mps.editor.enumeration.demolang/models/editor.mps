@@ -67,18 +67,18 @@
     <property role="TrG5h" value="MyIcons" />
     <node concept="1Lo5v9" id="1kojPMTgynt" role="1Lo5vp">
       <property role="TrG5h" value="icona" />
-      <property role="1Lo5vd" value="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-ok-3.png" />
+      <property role="1Lo5vd" value="${extensions.home}/code/extensions/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-ok-3.png" />
       <property role="1Lo5ve" value="0.4" />
     </node>
     <node concept="1Lo5v9" id="1kojPMTgyn$" role="1Lo5vp">
       <property role="TrG5h" value="iconb" />
-      <property role="1Lo5vd" value="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-close.png" />
+      <property role="1Lo5vd" value="${extensions.home}/code/extensions/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-close.png" />
       <property role="1Lo5ve" value="0.4" />
     </node>
     <node concept="1Lo5v9" id="28ATBdUo1d8" role="1Lo5vp">
       <property role="TrG5h" value="iconc" />
       <property role="1Lo5ve" value="0.4" />
-      <property role="1Lo5vd" value="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/circle.png" />
+      <property role="1Lo5vd" value="${extensions.home}/code/extensions/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/circle.png" />
     </node>
   </node>
   <node concept="24kQdi" id="1QyV25GL5NV">

@@ -168,5 +168,18 @@
       <ref role="20lvS9" node="6SvWaRdpWxn" resolve="ViewModel" />
     </node>
   </node>
+  <node concept="1TIwiD" id="55VuGTRt9q4">
+    <property role="EcuMT" value="590253812510495348" />
+    <property role="TrG5h" value="NodeValue" />
+    <property role="R4oN_" value="holds a node; rewrites update it in place" />
+    <ref role="1TJDcQ" node="6SvWaRdpWx_" resolve="Value" />
+    <node concept="1TJgyj" id="55VuGTRt9q5" role="1TKVEi">
+      <property role="IQ2ns" value="3504865923132223083" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
 </model>
 

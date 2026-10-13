@@ -86,6 +86,18 @@ iets3 variability `EvalVarPointCache`, `SkelTreeCache`, `AbstractConfigHashing`;
 * MPS `DependencyRecorder` / `NodeReadEventsCaster`: records the nodes read by a computation. Used by
   the project view and `LanguageErrorsComponent` (with `SNodeChangeListener` invalidation).
 
+* Transient concept features (MPS 2023.2+, [MPS-35728](https://youtrack.jetbrains.com/issue/MPS-35728/Transient-concept-features)):
+  properties, references and children marked transient in the structure aspect are skipped by model
+  persistence (`ModelWriter9`, the binary `NodesWriter`); nothing else in MPS 2025.1 looks at the flag.
+  They suit per-node view state that the owning language declares itself (e.g. `hideTitle`,
+  `showValues`, which are persisted today): the data is on the node, editors track it like any other
+  feature, and it is not in the file or in VCS. They don't meet the requirements for computed results:
+  a change is an ordinary model change (write access in a command, undo entries, the model is marked
+  changed), they can't be set on nodes of read-only models, only the language that owns a concept can
+  declare them (no data for nodes of other languages), they are copied with the node, and nothing
+  invalidates them when the inputs change. Candidates to migrate to transient features rather than to
+  view models: the persisted UI flags listed under *Per-node or per-editor view state*.
+
 ## Requirements
 
 1. **Observable by editors.** Reads during the cell build register as cell dependencies; writes

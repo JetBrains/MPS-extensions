@@ -409,6 +409,9 @@ what is stored, mainly while developing a language that uses view models:
   (`ViewModels.getDependencies`, a copy of the index entry).
 * Double-click opens the node of a key or dependency. *Remove* deletes the selected entry, nested map
   or whole view model (a `writePath` with a null value in a command of the project).
+* *Show Store in Node Explorer* opens the `ViewModelStore` root, with the raw HAMT, in MPS's Node
+  Explorer. It runs the devkit plugin's `ShowNodeInExplorer` action by id, so there is no dependency on
+  that plugin; the button is disabled when the action isn't installed.
 * The tool window listens to the store model (`SNodeChangeListener`) and rebuilds the tree 300 ms after
   the last change, only while it is shown (otherwise when it is shown next), keeping the expanded
   rows and the selection. It reads the store through `ViewModels.getStore()` and doesn't register

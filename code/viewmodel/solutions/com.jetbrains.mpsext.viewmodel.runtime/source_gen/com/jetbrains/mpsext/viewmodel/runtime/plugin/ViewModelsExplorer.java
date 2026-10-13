@@ -51,6 +51,11 @@ import com.jetbrains.mpsext.viewmodel.runtime.ViewModelNodeKey;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import com.intellij.openapi.util.text.StringUtil;
 import jetbrains.mps.openapi.navigation.EditorNavigator;
+import jetbrains.mps.project.MPSProject;
+import com.intellij.openapi.actionSystem.DataContext;
+import com.intellij.openapi.actionSystem.impl.SimpleDataContext;
+import jetbrains.mps.ide.actions.MPSCommonDataKeys;
+import com.intellij.openapi.actionSystem.ex.ActionUtil;
 import org.jetbrains.mps.openapi.event.SPropertyChangeEvent;
 import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
 import org.jetbrains.mps.openapi.event.SNodeAddEvent;
@@ -62,6 +67,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class ViewModelsExplorer implements SNodeChangeListener {
   private static final int MAX_VALUE_LENGTH = 200;
   private static final int MAX_TOOLTIP_LENGTH = 4000;
+  private static final String SHOW_NODE_IN_EXPLORER = "jetbrains.mps.ide.devkit.actions.ShowNodeInExplorer_Action";
   private final Project project;
   private final DefaultTreeModel treeModel = new DefaultTreeModel(new DefaultMutableTreeNode());
   private final Tree tree = new Tree(treeModel);
@@ -127,6 +133,20 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
       @Override
       public void actionPerformed(AnActionEvent event) {
         explorer.removeSelected();
+      }
+    });
+    group.addAction(new AnAction("Show Store in Node Explorer", "Open the node that holds all view models in the Node Explorer", AllIcons.Actions.ShowAsTree) {
+      @Override
+      public void update(AnActionEvent event) {
+        event.getPresentation().setEnabled(explorer.canShowStoreInNodeExplorer());
+      }
+      @Override
+      public ActionUpdateThread getActionUpdateThread() {
+        return ActionUpdateThread.EDT;
+      }
+      @Override
+      public void actionPerformed(AnActionEvent event) {
+        explorer.showStoreInNodeExplorer();
       }
     });
     group.addSeparator();
@@ -418,6 +438,19 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
       return;
     }
     new EditorNavigator(project).shallFocus(true).selectIfChild().open(item.target);
+  }
+  public boolean canShowStoreInNodeExplorer() {
+    // the Node Explorer is part of MPS's devkit plugin, which may not be installed
+    return ActionManager.getInstance().getAction(SHOW_NODE_IN_EXPLORER) != null && ViewModels.getInstance().getStore() != null && this.project instanceof MPSProject;
+  }
+  public void showStoreInNodeExplorer() {
+    // runs MPS's "Show Node in Explorer" on the store root, which holds all view models
+    if (!(canShowStoreInNodeExplorer())) {
+      return;
+    }
+    AnAction show = ActionManager.getInstance().getAction(SHOW_NODE_IN_EXPLORER);
+    DataContext context = SimpleDataContext.getSimpleContext(MPSCommonDataKeys.NODE, ViewModels.getInstance().getStore(), SimpleDataContext.getSimpleContext(MPSCommonDataKeys.MPS_PROJECT, (MPSProject) this.project));
+    ActionUtil.invokeAction(show, context, "ViewModelsExplorer", null, null);
   }
 
   public void removeSelected() {

@@ -11,6 +11,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import de.slisson.mps.richtext.behavior.Word__BehaviorDescriptor;
 import com.jetbrains.mpsext.richtext.styles.behavior.Span__BehaviorDescriptor;
+import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -150,7 +151,43 @@ public class StyleSelectionUtils {
       Span__BehaviorDescriptor.unwrap_id6NYYseXUnKw.invoke(span);
     }
   }
-
+  /**
+   * Returns the whitespace in front of the first non-whitespace character of the text of the given Word. Whitespace is defined 
+   * by trim(both). Together with getTrailingWhitespace() the text splits into leading whitespace, trimmed text and trailing 
+   * whitespace and a text that consists of whitespace only counts completely as leading whitespace.
+   * 
+   * @param word the word to inspect, may be null
+   * @return the leading whitespace or an empty string if there is none or the node is not a Word
+   */
+  public static String getLeadingWhitespace(@Nullable SNode word) {
+    if (word == null || !(SNodeOperations.isInstanceOf(word, CONCEPTS.Word$5r))) {
+      return "";
+    }
+    String text = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(SNodeOperations.as(word, CONCEPTS.Word$5r));
+    String trimmed = ((text == null ? null : text.trim()));
+    if ((trimmed == null || trimmed.length() == 0)) {
+      return text;
+    }
+    return text.substring(0, text.indexOf(trimmed));
+  }
+  /**
+   * Returns the whitespace after the last non-whitespace character of the text of the given Word. 
+   * Whitespace is defined by trim(both). See getLeadingWhitespace() for how the text is split.
+   * 
+   * @param word the word to inspect, may be null
+   * @return the trailing whitespace, or an empty string if there is none or the last item is not a Word
+   */
+  public static String getTrailingWhitespace(SNode word) {
+    if (word == null || !(SNodeOperations.isInstanceOf(word, CONCEPTS.Word$5r))) {
+      return "";
+    }
+    String text = Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(SNodeOperations.as(word, CONCEPTS.Word$5r));
+    String trimmed = ((text == null ? null : text.trim()));
+    if ((trimmed == null || trimmed.length() == 0)) {
+      return "";
+    }
+    return text.substring(text.indexOf(trimmed) + trimmed.length());
+  }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept Span$ye = MetaAdapterFactory.getConcept(0x7b3261eb68d94feaL, 0xa99c9ac789cea929L, 0x58117ba23904b1c6L, "com.jetbrains.mpsext.richtext.styles.structure.Span");

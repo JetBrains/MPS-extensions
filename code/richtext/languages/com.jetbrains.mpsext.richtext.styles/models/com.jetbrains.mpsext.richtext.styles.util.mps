@@ -10,13 +10,6 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="gyv0" ref="r:3e994831-9e2b-4a2c-a757-02d48f0caeb5(de.slisson.mps.richtext.runtime.selection)" />
-    <import index="93vl" ref="r:ea46d830-b6c1-459f-bca3-d44c20d00c02(de.slisson.mps.editor.multiline.cells)" />
-    <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
-    <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="wtuq" ref="r:ebe120ba-74f3-4913-8ba8-dc7299e610f9(de.slisson.mps.richtext.util)" />
-    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="9q1q" ref="r:2f6efb01-f17e-4cd5-ba7b-1e402adc978a(com.jetbrains.mpsext.richtext.styles.structure)" implicit="true" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" implicit="true" />
@@ -73,6 +66,7 @@
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
+      <concept id="1225271546410" name="jetbrains.mps.baseLanguage.structure.TrimOperation" flags="nn" index="17S1cR" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -1425,7 +1419,289 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="6NYYseXWbAS" role="jymVt" />
+    <node concept="2YIFZL" id="5_TQrZb0Zy1" role="jymVt">
+      <property role="TrG5h" value="getLeadingWhitespace" />
+      <node concept="3clFbS" id="5_TQrZb0Zy3" role="3clF47">
+        <node concept="3clFbJ" id="5_TQrZb0Zy4" role="3cqZAp">
+          <node concept="22lmx$" id="5_TQrZb0Zy5" role="3clFbw">
+            <node concept="3fqX7Q" id="5_TQrZb0Zy6" role="3uHU7w">
+              <node concept="2OqwBi" id="5_TQrZb0Zy7" role="3fr31v">
+                <node concept="37vLTw" id="5_TQrZb0Zy8" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_TQrZb0ZyK" resolve="word" />
+                </node>
+                <node concept="1mIQ4w" id="5_TQrZb0Zy9" role="2OqNvi">
+                  <node concept="chp4Y" id="5_TQrZb0Zya" role="cj9EA">
+                    <ref role="cht4Q" to="87nw:2dWzqxEBMSc" resolve="Word" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="5_TQrZb0Zyb" role="3uHU7B">
+              <node concept="37vLTw" id="5_TQrZb0Zyc" role="3uHU7B">
+                <ref role="3cqZAo" node="5_TQrZb0ZyK" resolve="word" />
+              </node>
+              <node concept="10Nm6u" id="5_TQrZb0Zyd" role="3uHU7w" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="5_TQrZb0Zye" role="3clFbx">
+            <node concept="3cpWs6" id="5_TQrZb0Zyf" role="3cqZAp">
+              <node concept="Xl_RD" id="5_TQrZb0Zyg" role="3cqZAk">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5_TQrZb0Zyh" role="3cqZAp">
+          <node concept="3cpWsn" id="5_TQrZb0Zyi" role="3cpWs9">
+            <property role="TrG5h" value="text" />
+            <node concept="17QB3L" id="5_TQrZb0Zyj" role="1tU5fm" />
+            <node concept="2OqwBi" id="5_TQrZb0Zyk" role="33vP2m">
+              <node concept="1PxgMI" id="5_TQrZb0Zyl" role="2Oq$k0">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="5_TQrZb0Zym" role="3oSUPX">
+                  <ref role="cht4Q" to="87nw:2dWzqxEBMSc" resolve="Word" />
+                </node>
+                <node concept="37vLTw" id="5_TQrZb0Zyn" role="1m5AlR">
+                  <ref role="3cqZAo" node="5_TQrZb0ZyK" resolve="word" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="5_TQrZb0Zyo" role="2OqNvi">
+                <ref role="37wK5l" to="tbr6:ehGfXvI_DB" resolve="getText" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5_TQrZb0Zyp" role="3cqZAp">
+          <node concept="3cpWsn" id="5_TQrZb0Zyq" role="3cpWs9">
+            <property role="TrG5h" value="trimmed" />
+            <node concept="17QB3L" id="5_TQrZb0Zyr" role="1tU5fm" />
+            <node concept="2OqwBi" id="5_TQrZb0Zys" role="33vP2m">
+              <node concept="37vLTw" id="5_TQrZb0Zyt" role="2Oq$k0">
+                <ref role="3cqZAo" node="5_TQrZb0Zyi" resolve="text" />
+              </node>
+              <node concept="17S1cR" id="5_TQrZb0Zyu" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5_TQrZb0Zyv" role="3cqZAp">
+          <node concept="3clFbS" id="5_TQrZb0Zyw" role="3clFbx">
+            <node concept="3cpWs6" id="5_TQrZb0Zyx" role="3cqZAp">
+              <node concept="37vLTw" id="5_TQrZb0Zyy" role="3cqZAk">
+                <ref role="3cqZAo" node="5_TQrZb0Zyi" resolve="text" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5_TQrZb0Zyz" role="3clFbw">
+            <node concept="37vLTw" id="5_TQrZb0Zy$" role="2Oq$k0">
+              <ref role="3cqZAo" node="5_TQrZb0Zyq" resolve="trimmed" />
+            </node>
+            <node concept="17RlXB" id="5_TQrZb0Zy_" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5_TQrZb0ZyA" role="3cqZAp">
+          <node concept="2OqwBi" id="5_TQrZb0ZyB" role="3cqZAk">
+            <node concept="37vLTw" id="5_TQrZb0ZyC" role="2Oq$k0">
+              <ref role="3cqZAo" node="5_TQrZb0Zyi" resolve="text" />
+            </node>
+            <node concept="liA8E" id="5_TQrZb0ZyD" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
+              <node concept="3cmrfG" id="5_TQrZb0ZyE" role="37wK5m">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="5_TQrZb0ZyF" role="37wK5m">
+                <node concept="37vLTw" id="5_TQrZb0ZyG" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_TQrZb0Zyi" resolve="text" />
+                </node>
+                <node concept="liA8E" id="5_TQrZb0ZyH" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.indexOf(java.lang.String)" resolve="indexOf" />
+                  <node concept="37vLTw" id="5_TQrZb0ZyI" role="37wK5m">
+                    <ref role="3cqZAo" node="5_TQrZb0Zyq" resolve="trimmed" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="5_TQrZb0ZyJ" role="3clF45" />
+      <node concept="37vLTG" id="5_TQrZb0ZyK" role="3clF46">
+        <property role="TrG5h" value="word" />
+        <node concept="2AHcQZ" id="5_TQrZb0ZyL" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+        <node concept="3Tqbb2" id="5_TQrZb0ZyM" role="1tU5fm">
+          <ref role="ehGHo" to="87nw:2dWzqxEBBFG" resolve="IWord" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5_TQrZb0ZyN" role="1B3o_S" />
+      <node concept="P$JXv" id="5_TQrZb0ZyZ" role="lGtFl">
+        <node concept="TZ5HA" id="5_TQrZb0Zz0" role="TZ5H$">
+          <node concept="1dT_AC" id="5_TQrZb0Zz1" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the whitespace in front of the first non-whitespace character of the text of the given Word. Whitespace is defined " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5_TQrZb0Zz2" role="TZ5H$">
+          <node concept="1dT_AC" id="5_TQrZb0Zz3" role="1dT_Ay">
+            <property role="1dT_AB" value="by trim(both). Together with getTrailingWhitespace() the text splits into leading whitespace, trimmed text and trailing " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5_TQrZb0Zz4" role="TZ5H$">
+          <node concept="1dT_AC" id="5_TQrZb0Zz5" role="1dT_Ay">
+            <property role="1dT_AB" value="whitespace and a text that consists of whitespace only counts completely as leading whitespace." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="5_TQrZb0Zz6" role="3nqlJM">
+          <property role="TUZQ4" value="the word to inspect, may be null" />
+          <node concept="zr_55" id="5_TQrZb0Zz7" role="zr_5Q">
+            <ref role="zr_51" node="5_TQrZb0ZyK" resolve="word" />
+          </node>
+        </node>
+        <node concept="x79VA" id="5_TQrZb0Zz8" role="3nqlJM">
+          <property role="x79VB" value="the leading whitespace or an empty string if there is none or the node is not a Word" />
+        </node>
+      </node>
+    </node>
+    <node concept="2YIFZL" id="5_TQrZb14Nk" role="jymVt">
+      <property role="TrG5h" value="getTrailingWhitespace" />
+      <node concept="3clFbS" id="5_TQrZb14Nm" role="3clF47">
+        <node concept="3clFbJ" id="5_TQrZb14Nn" role="3cqZAp">
+          <node concept="22lmx$" id="5_TQrZb14No" role="3clFbw">
+            <node concept="3fqX7Q" id="5_TQrZb14Np" role="3uHU7w">
+              <node concept="2OqwBi" id="5_TQrZb14Nq" role="3fr31v">
+                <node concept="37vLTw" id="5_TQrZb14Nr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_TQrZb14O6" resolve="word" />
+                </node>
+                <node concept="1mIQ4w" id="5_TQrZb14Ns" role="2OqNvi">
+                  <node concept="chp4Y" id="5_TQrZb14Nt" role="cj9EA">
+                    <ref role="cht4Q" to="87nw:2dWzqxEBMSc" resolve="Word" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="5_TQrZb14Nu" role="3uHU7B">
+              <node concept="37vLTw" id="5_TQrZb14Nv" role="3uHU7B">
+                <ref role="3cqZAo" node="5_TQrZb14O6" resolve="word" />
+              </node>
+              <node concept="10Nm6u" id="5_TQrZb14Nw" role="3uHU7w" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="5_TQrZb14Nx" role="3clFbx">
+            <node concept="3cpWs6" id="5_TQrZb14Ny" role="3cqZAp">
+              <node concept="Xl_RD" id="5_TQrZb14Nz" role="3cqZAk">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5_TQrZb14N$" role="3cqZAp">
+          <node concept="3cpWsn" id="5_TQrZb14N_" role="3cpWs9">
+            <property role="TrG5h" value="text" />
+            <node concept="17QB3L" id="5_TQrZb14NA" role="1tU5fm" />
+            <node concept="2OqwBi" id="5_TQrZb14NB" role="33vP2m">
+              <node concept="1PxgMI" id="5_TQrZb14NC" role="2Oq$k0">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="5_TQrZb14ND" role="3oSUPX">
+                  <ref role="cht4Q" to="87nw:2dWzqxEBMSc" resolve="Word" />
+                </node>
+                <node concept="37vLTw" id="5_TQrZb14NE" role="1m5AlR">
+                  <ref role="3cqZAo" node="5_TQrZb14O6" resolve="word" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="5_TQrZb14NF" role="2OqNvi">
+                <ref role="37wK5l" to="tbr6:ehGfXvI_DB" resolve="getText" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5_TQrZb14NG" role="3cqZAp">
+          <node concept="3cpWsn" id="5_TQrZb14NH" role="3cpWs9">
+            <property role="TrG5h" value="trimmed" />
+            <node concept="17QB3L" id="5_TQrZb14NI" role="1tU5fm" />
+            <node concept="2OqwBi" id="5_TQrZb14NJ" role="33vP2m">
+              <node concept="37vLTw" id="5_TQrZb14NK" role="2Oq$k0">
+                <ref role="3cqZAo" node="5_TQrZb14N_" resolve="text" />
+              </node>
+              <node concept="17S1cR" id="5_TQrZb14NL" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5_TQrZb14NM" role="3cqZAp">
+          <node concept="3clFbS" id="5_TQrZb14NN" role="3clFbx">
+            <node concept="3cpWs6" id="5_TQrZb14NO" role="3cqZAp">
+              <node concept="Xl_RD" id="5_TQrZb47nk" role="3cqZAk">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5_TQrZb14NQ" role="3clFbw">
+            <node concept="37vLTw" id="5_TQrZb14NR" role="2Oq$k0">
+              <ref role="3cqZAo" node="5_TQrZb14NH" resolve="trimmed" />
+            </node>
+            <node concept="17RlXB" id="5_TQrZb14NS" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5_TQrZb14NT" role="3cqZAp">
+          <node concept="2OqwBi" id="5_TQrZb14NU" role="3cqZAk">
+            <node concept="37vLTw" id="5_TQrZb14NV" role="2Oq$k0">
+              <ref role="3cqZAo" node="5_TQrZb14N_" resolve="text" />
+            </node>
+            <node concept="liA8E" id="5_TQrZb14NW" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
+              <node concept="3cpWs3" id="5_TQrZb14NX" role="37wK5m">
+                <node concept="2OqwBi" id="5_TQrZb14NY" role="3uHU7w">
+                  <node concept="37vLTw" id="5_TQrZb14NZ" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5_TQrZb14NH" resolve="trimmed" />
+                  </node>
+                  <node concept="liA8E" id="5_TQrZb14O0" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="5_TQrZb14O1" role="3uHU7B">
+                  <node concept="37vLTw" id="5_TQrZb14O2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5_TQrZb14N_" resolve="text" />
+                  </node>
+                  <node concept="liA8E" id="5_TQrZb14O3" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.indexOf(java.lang.String)" resolve="indexOf" />
+                    <node concept="37vLTw" id="5_TQrZb14O4" role="37wK5m">
+                      <ref role="3cqZAo" node="5_TQrZb14NH" resolve="trimmed" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="5_TQrZb14O5" role="3clF45" />
+      <node concept="37vLTG" id="5_TQrZb14O6" role="3clF46">
+        <property role="TrG5h" value="word" />
+        <node concept="3Tqbb2" id="5_TQrZb14O7" role="1tU5fm">
+          <ref role="ehGHo" to="87nw:2dWzqxEBBFG" resolve="IWord" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5_TQrZb14O8" role="1B3o_S" />
+      <node concept="P$JXv" id="5_TQrZb14Oi" role="lGtFl">
+        <node concept="TZ5HA" id="5_TQrZb14Oj" role="TZ5H$">
+          <node concept="1dT_AC" id="5_TQrZb14Ok" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the whitespace after the last non-whitespace character of the text of the given Word. " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5_TQrZb14Ol" role="TZ5H$">
+          <node concept="1dT_AC" id="5_TQrZb14Om" role="1dT_Ay">
+            <property role="1dT_AB" value="Whitespace is defined by trim(both). See getLeadingWhitespace() for how the text is split." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="5_TQrZb14On" role="3nqlJM">
+          <property role="TUZQ4" value="the word to inspect, may be null" />
+          <node concept="zr_55" id="5_TQrZb14Oo" role="zr_5Q">
+            <ref role="zr_51" node="5_TQrZb14O6" resolve="word" />
+          </node>
+        </node>
+        <node concept="x79VA" id="5_TQrZb14Op" role="3nqlJM">
+          <property role="x79VB" value="the trailing whitespace, or an empty string if there is none or the last item is not a Word" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="413d4N_Lz5y" role="jymVt" />
     <node concept="3Tm1VV" id="413d4N_Lz1O" role="1B3o_S" />
   </node>

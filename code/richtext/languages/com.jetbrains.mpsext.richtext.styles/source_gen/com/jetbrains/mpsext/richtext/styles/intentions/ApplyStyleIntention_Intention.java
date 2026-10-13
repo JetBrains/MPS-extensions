@@ -22,9 +22,9 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.openapi.editor.selection.Selection;
 import de.slisson.mps.richtext.runtime.selection.RichtextSelection;
 import com.jetbrains.mpsext.richtext.styles.util.StyleSelectionUtils;
+import de.slisson.mps.richtext.behavior.Word__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import de.slisson.mps.richtext.behavior.Word__BehaviorDescriptor;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -98,12 +98,32 @@ public final class ApplyStyleIntention_Intention extends AbstractIntentionDescri
       if (ListSequence.fromList(selectedWords).isEmpty()) {
         return;
       }
-      this._additional_normalizeSelectedWords(selectedWords);
+      // remember what trim() in trimBoundaryWords is about to strip because replaceSelected deletes the whole original range
+      String leadingWhitespace = StyleSelectionUtils.getLeadingWhitespace(ListSequence.fromList(selectedWords).first());
+      String trailingWhitespace = StyleSelectionUtils.getTrailingWhitespace(ListSequence.fromList(selectedWords).last());
+      this._additional_trimBoundaryWords(selectedWords);
+      // whitespace-only selection so nothing to style
+      if (ListSequence.fromList(selectedWords).count() == 1 && SNodeOperations.isInstanceOf(ListSequence.fromList(selectedWords).first(), CONCEPTS.Word$5r) && isEmptyString(Word__BehaviorDescriptor.getText_idehGfXvI_DB.invoke(SNodeOperations.as(ListSequence.fromList(selectedWords).first(), CONCEPTS.Word$5r)))) {
+        return;
+      }
       SNode span = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7b3261eb68d94feaL, 0xa99c9ac789cea929L, 0x58117ba23904b1c6L, "com.jetbrains.mpsext.richtext.styles.structure.Span"));
       SLinkOperations.setTarget(span, LINKS.style$baKK, myParameter);
       ListSequence.fromList(SLinkOperations.getChildren(span, LINKS.words$ba3H)).clear();
       ListSequence.fromList(SLinkOperations.getChildren(span, LINKS.words$ba3H)).addSequence(ListSequence.fromList(selectedWords));
-      richtextSelection.replaceSelected(span);
+      List<SNode> replacement = new ArrayList<SNode>();
+      if (leadingWhitespace.length() > 0) {
+        SNode leadingWord = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word"));
+        Word__BehaviorDescriptor.setText_id1JwC6U7zkKz.invoke(leadingWord, leadingWhitespace);
+        ListSequence.fromList(replacement).addElement(leadingWord);
+      }
+      ListSequence.fromList(replacement).addElement(span);
+      if (trailingWhitespace.length() > 0) {
+        SNode after = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word"));
+        Word__BehaviorDescriptor.setText_id1JwC6U7zkKz.invoke(after, trailingWhitespace);
+        ListSequence.fromList(replacement).addElement(after);
+      }
+
+      richtextSelection.replaceSelected(replacement);
     }
 
     @Override
@@ -155,7 +175,13 @@ public final class ApplyStyleIntention_Intention extends AbstractIntentionDescri
     }
 
 
-    private void _additional_normalizeSelectedWords(List<SNode> selectedWords) {
+    /**
+     * Trims the text of the first and last selected Word in place so that a Span does not highlight surrounding whitespace. 
+     * The words are the copies returned by getSelectedWords() so the model is not modified.
+     * 
+     * @param selectedWords the copied selected words; the first and last Word are modified
+     */
+    private void _additional_trimBoundaryWords(List<SNode> selectedWords) {
       if (ListSequence.fromList(selectedWords).isEmpty()) {
         return;
       }
@@ -181,6 +207,9 @@ public final class ApplyStyleIntention_Intention extends AbstractIntentionDescri
     public Object getParameter() {
       return myParameter;
     }
+  }
+  private static boolean isEmptyString(String str) {
+    return str == null || str.isEmpty();
   }
   public static String trim_rnm84b_a1a0b0e0m9(String str) {
     return (str == null ? null : str.trim());

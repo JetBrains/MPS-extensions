@@ -2,8 +2,8 @@
 
 Status: the first version is implemented (store, HAMT, sync/async writes, dependency tracking, the
 DSL), covered by `ViewModelStoreTest` and `ParenthesisAddsTheProject`, part of the build scripts
-(plugin `com.jetbrains.mpsext.viewmodel`) and used by iets3.opensource for the results of manually run
-checks. Not done yet: user documentation. The first version only covers what the interpreter-result
+(plugin `com.jetbrains.mpsext.viewmodel`), has a *View Models* tool window, and is used by
+iets3.opensource for the results of manually run checks. Not done yet: user documentation. The first version only covers what the interpreter-result
 use case (iets3 test items) needs; everything else is listed under *Later*.
 
 ## Problem
@@ -154,7 +154,7 @@ stable across sessions — they are computed from strings, never from `identityH
 |---|---|---|
 | `com.jetbrains.mpsext.viewmodel` | language + generator | the DSL: view model declarations and the `viewmodel/X/` expression |
 | `com.jetbrains.mpsext.viewmodel.storage` | language | concepts of the storage (structure only) |
-| `com.jetbrains.mpsext.viewmodel.runtime` | solution | Java API, HAMT, dependency tracking, write queue, application plugin; runtime of the DSL |
+| `com.jetbrains.mpsext.viewmodel.runtime` | solution | Java API, HAMT, dependency tracking, write queue, application plugin, *View Models* tool window; runtime of the DSL |
 | `test.com.jetbrains.mpsext.viewmodel.lang` | language | `TestItem`, whose editor shows the value stored for it under `"result"`; declares the view models `Results` and `Other` |
 | `test.com.jetbrains.mpsext.viewmodel` | solution | `ViewModelStoreTest` (`NodesTestCase`) |
 
@@ -349,6 +349,23 @@ viewmodel/TestResults/(project).writeComputed(item, "lastResult", c);
   per batch (outermost `startBatch`/`close` pair, or each `writeAsync` outside a batch). Writes to the
   same path in one drain: the last one wins. Writes whose key node is gone or in a read-only model are
   dropped. The returned `Future` completes when the write was applied or dropped.
+
+### View Models tool window
+
+A tool window (bottom, "View Models"; `ViewModelsTool` in the runtime's plugin model) for inspecting
+what is stored, mainly while developing a language that uses view models:
+
+* A tree of every view model, its entries and nested maps, flattened from the HAMT (branches are not
+  shown). Node keys show the node's presentation, concept and model; string keys are quoted. A value
+  shows the first line of its `toString()` and its class; the tooltip shows the whole text.
+* A value with dependencies has a *dependencies* child listing the nodes it was computed from
+  (`ViewModels.getDependencies`, a copy of the index entry).
+* Double-click opens the node of a key or dependency. *Remove* deletes the selected entry, nested map
+  or whole view model (a `writePath` with a null value in a command of the project).
+* The tool window listens to the store model (`SNodeChangeListener`) and rebuilds the tree 300 ms after
+  the last change, only while it is shown (otherwise when it is shown next), keeping the expanded
+  rows and the selection. It reads the store through `ViewModels.getStore()` and doesn't register
+  editor dependencies.
 
 ### Use in iets3 (iets3.opensource, branch `feature/view-model`)
 

@@ -168,6 +168,14 @@ public final class ViewModelIndex {
     }
   }
 
+  public Set<SNodeReference> getDependencies(List<ViewModelKey> path) {
+    // a copy; empty when the path has no entry
+    synchronized (this) {
+      Set<SNodeReference> deps = MapSequence.fromMap(dependenciesOf).get(path);
+      return ((deps == null ? SetSequence.fromSet(new HashSet<SNodeReference>()) : SetSequence.fromSetWithValues(new HashSet<SNodeReference>(), deps)));
+    }
+  }
+
   public void clear() {
     synchronized (this) {
       MapSequence.fromMap(dependenciesOf).clear();

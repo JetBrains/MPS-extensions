@@ -27,6 +27,17 @@ public abstract class ViewModelKey {
     return new ViewModelNodeKey(target.getReference());
   }
 
+  public static ViewModelKey of(SNode keyNode) {
+    // the key a stored key node stands for
+    if (SNodeOperations.isInstanceOf(keyNode, CONCEPTS.StringKey$aF)) {
+      return forString(SPropertyOperations.getString(SNodeOperations.cast(keyNode, CONCEPTS.StringKey$aF), PROPS.value$sTSZ));
+    }
+    if (SNodeOperations.isInstanceOf(keyNode, CONCEPTS.NodeKey$9_)) {
+      return forNodeReference(ViewModelNodeKey.targetOf(SNodeOperations.cast(keyNode, CONCEPTS.NodeKey$9_)));
+    }
+    return null;
+  }
+
   public static int stableHash(SNode keyNode) {
     if (SNodeOperations.isInstanceOf(keyNode, CONCEPTS.StringKey$aF)) {
       return ViewModelStringKey.hashOf(SPropertyOperations.getString(SNodeOperations.cast(keyNode, CONCEPTS.StringKey$aF), PROPS.value$sTSZ));

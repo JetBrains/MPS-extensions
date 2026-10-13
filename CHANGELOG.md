@@ -8,7 +8,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
-- *com.jetbrains.mpsext.viewmodel* New: view models. A view model keeps data that belongs to nodes of persisted models, such as computed results, in memory instead of in the model. Editors that show it are updated when it changes, and an entry computed from other nodes is removed as soon as one of them changes. Declare a view model with `view model X` and use it with `viewmodel/X/` in editor code, where the project is taken from the editor context, or with `viewmodel/X/(project)` elsewhere. The Java API is in com.jetbrains.mpsext.viewmodel.runtime (`ViewModels.named(...)`).
+- *com.jetbrains.mpsext.viewmodel* New: view models. A view model keeps data that belongs to nodes of persisted models, such as computed results, in memory instead of in the model. Editors that show it are updated when it changes, and an entry computed from other nodes is removed as soon as one of them changes. Declare a view model with `view model X` and use it with `viewmodel/X/` in editor code, where the project is taken from the editor context, or with `viewmodel/X/(project)` elsewhere. The Java API is in com.jetbrains.mpsext.viewmodel.runtime (`ViewModels.named(...)`). The *View Models* tool window shows the content of all view models, the nodes each value was computed from, and removes entries on request.
 
 ## September 2026
 

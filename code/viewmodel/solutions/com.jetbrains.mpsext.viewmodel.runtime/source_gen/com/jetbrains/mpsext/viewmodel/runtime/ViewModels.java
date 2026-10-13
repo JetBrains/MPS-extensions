@@ -210,6 +210,15 @@ public final class ViewModels {
     }
     return objectOf(SLinkOperations.getTarget(entry, LINKS.value$QjaP));
   }
+  public SNode getStore() {
+    // for tools that show the stored data (the View Models tool window); the store must not be modified
+    // other than through the write methods
+    return store;
+  }
+  public Set<SNodeReference> getDependencies(String viewModel, List<ViewModelKey> path) {
+    // the nodes the value at the path was computed from
+    return index.getDependencies(qualify(viewModel, path));
+  }
 
   private SNode findEntry(List<ViewModelKey> path) {
     if (ListSequence.fromList(path).count() < 2) {

@@ -14,6 +14,7 @@ import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptTestItem = createDescriptorForTestItem();
+  /*package*/ final ConceptDescriptor myConceptTestTree = createDescriptorForTestTree();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -28,7 +29,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptTestItem);
+    return Arrays.asList(myConceptTestItem, myConceptTestTree);
   }
 
   @Override
@@ -37,6 +38,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.TestItem:
         return myConceptTestItem;
+      case LanguageConceptSwitch.TestTree:
+        return myConceptTestTree;
       default:
         return null;
     }
@@ -54,6 +57,17 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:21ee0faa-7644-494c-94ab-28674d9401b4(test.com.jetbrains.mpsext.viewmodel.lang.structure)/7935325697741599734");
     b.version(3);
     b.property("input", 0x39e05b8c02dc4cb2L).type(PrimitiveTypeId.STRING).origin("7935325697741599736").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTestTree() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("test.com.jetbrains.mpsext.viewmodel.lang", "TestTree", 0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:21ee0faa-7644-494c-94ab-28674d9401b4(test.com.jetbrains.mpsext.viewmodel.lang.structure)/5871421566393554577");
+    b.version(3);
+    b.property("label", 0x4d1a0d2e910043eaL).type(PrimitiveTypeId.STRING).origin("5871421566393554579").done();
+    b.associate("pointsTo", 0x50e44c3dabc9724L).target(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L).optional(true).origin("5871421566393554581").done();
+    b.aggregate("items", 0x4901e03b85761c22L).target(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L).optional(true).ordered(true).multiple(true).origin("5871421566393554580").done();
     return b.create();
   }
 }

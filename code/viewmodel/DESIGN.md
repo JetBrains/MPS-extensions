@@ -1,7 +1,7 @@
 # View models — design
 
 Status: the first version is implemented (store, HAMT, sync/async writes, dependency tracking, the
-DSL), covered by `ViewModelStoreTest` and `ParenthesisAddsTheProject`, part of the build scripts
+DSL, node values updated in place), covered by `ViewModelStoreTest` and `ParenthesisAddsTheProject`, part of the build scripts
 (plugin `com.jetbrains.mpsext.viewmodel`), has a *View Models* tool window, and is used by
 iets3.opensource for the results of manually run checks. Not done yet: user documentation. The first version only covers what the interpreter-result
 use case (iets3 test items) needs; everything else is listed under *Later*.
@@ -181,6 +181,7 @@ abstract Key
 
 abstract Value
   ObjectValue                         the Java object is kept as a user object of the value node
+  NodeValue   content : BaseConcept [1]  a copy of a node, updated in place by rewrites
   MapValue    root : HamtBranch [1]   nested map, used for entries with more than one key
 ```
 
@@ -236,6 +237,7 @@ ViewModel results = ViewModels.named("org.iets3.testResults");
 // reads from an editor are tracked as cell dependencies
 Object v = results.get(node, "lastResult");
 Object v = results.getPath(path);                     // list<ViewModelKey>
+node<> n = results.getNode(node, "tree");             // a node value; null for other values
 
 // everything else through the view model bound to a project
 ProjectViewModel vm = results.forProject(project);
@@ -244,7 +246,7 @@ ProjectViewModel vm = results.forProject(project);
 Computed<T> c = vm.compute(() -> evaluate(node));    // c.getValue(), c.getDependencies()
 
 // writing — inside a command of the project; return false when rejected (read-only model, node gone)
-vm.write(node, "lastResult", value, dependencies);
+vm.write(node, "lastResult", value, dependencies);    // a node as value is stored as a NodeValue
 vm.writeComputed(node, "lastResult", c);
 vm.writePath(path, value, dependencies);              // value null removes
 vm.remove(node, "lastResult");
@@ -350,6 +352,36 @@ viewmodel/TestResults/(project).writeComputed(item, "lastResult", c);
   same path in one drain: the last one wins. Writes whose key node is gone or in a read-only model are
   dropped. The returned `Future` completes when the write was applied or dropped.
 
+### Node values
+
+Writing a node (`write`, `writePath`, `writeComputed` and their async forms with an `SNode` as value)
+stores a `NodeValue`. Editors can show the stored node directly (e.g. with a node cell), and its own
+change events update exactly the cells that show a changed part. A rewrite changes the stored node in
+place instead of replacing it (`NodeDiff`), so an editor showing it only updates what changed, and
+nothing at all when the new node is equal to the stored one.
+
+* The stored node is a copy; the source node isn't changed or moved. Synchronous writes read the
+  source directly. `writeAsync` copies it at once, because it may change before the queue is drained,
+  so it needs read access.
+* `NodeDiff.update(target, source)` makes the stored node equal to the source:
+  * a node of another concept is replaced by a copy;
+  * properties are set only where they differ;
+  * the children of each containment link are aligned by key (concept plus `name`, if any): equal
+    prefixes and suffixes first, then a longest common subsequence of the rest, so inserting or
+    removing a child changes only that child. Matched children keep their order and are updated
+    recursively, unmatched stored children are removed, new ones are inserted as copies. Above
+    10^6 table cells the rest is matched by position;
+  * references are synchronized after the structure: a reference to a node inside the source tree
+    points to the corresponding stored node, any other reference to the same target as in the source.
+    A reference is only set when its target differs.
+* Children without a name and of the same concept are matched in order, so inserting one in front of
+  others updates all following ones (still in place, but more cells than necessary).
+* The store model uses the languages of the stored nodes (added on write).
+* `getNode` returns the stored node. It belongs to the view model: callers read and show it but don't
+  change it. Rewriting the node read from the view model is a no-op.
+* Stored nodes don't hold objects of module class loaders, so they survive class reloads, and they
+  can be persisted by a later `@view` model.
+
 ### View Models tool window
 
 A tool window (bottom, "View Models"; `ViewModelsTool` in the runtime's plugin model) for inspecting
@@ -358,6 +390,9 @@ what is stored, mainly while developing a language that uses view models:
 * A tree of every view model, its entries and nested maps, flattened from the HAMT (branches are not
   shown). Node keys show the node's presentation, concept and model; string keys are quoted. A value
   shows the first line of its `toString()` and its class; the tooltip shows the whole text.
+* A node value shows the stored node's presentation and concept; its properties, references (double-click
+  opens the target) and children are rows below it, identified by node id, so in-place updates keep
+  them expanded.
 * A value with dependencies has a *dependencies* child listing the nodes it was computed from
   (`ViewModels.getDependencies`, a copy of the index entry).
 * Double-click opens the node of a key or dependency. *Remove* deletes the selected entry, nested map
@@ -389,6 +424,7 @@ what is stored, mainly while developing a language that uses view models:
 
 ## Later
 
-Per-editor and per-root scopes; `@view` persisted models; more value concepts (string, node copies);
+Per-editor and per-root scopes; `@view` persisted models; more value concepts (string, references to nodes); a mode
+for editing stored nodes (the store has no undo);
 typesystem integration (errors derived from entries); memory bounds for large values; one link per
 HAMT slot to avoid sibling dependencies; migrating the other use cases listed above.

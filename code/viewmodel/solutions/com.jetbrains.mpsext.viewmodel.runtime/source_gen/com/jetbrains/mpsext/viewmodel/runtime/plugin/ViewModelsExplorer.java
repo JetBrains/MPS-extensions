@@ -42,17 +42,19 @@ import java.util.ArrayList;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelKey;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.jetbrains.mps.openapi.language.SProperty;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import org.jetbrains.mps.openapi.model.SReference;
+import jetbrains.mps.ide.icons.GlobalIconManager;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelStringKey;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelNodeKey;
 import org.jetbrains.mps.openapi.model.SNodeReference;
-import jetbrains.mps.ide.icons.GlobalIconManager;
 import com.intellij.openapi.util.text.StringUtil;
 import jetbrains.mps.openapi.navigation.EditorNavigator;
 import org.jetbrains.mps.openapi.event.SPropertyChangeEvent;
 import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
 import org.jetbrains.mps.openapi.event.SNodeAddEvent;
 import org.jetbrains.mps.openapi.event.SNodeRemoveEvent;
-import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -256,6 +258,13 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
         int nested = addEntries(child, viewModel, path, SLinkOperations.getTarget(SNodeOperations.cast(value, CONCEPTS.MapValue$rT), LINKS.root$g5g6));
         item.detail = join(item.detail, countText(nested));
         count += nested;
+      } else if (SNodeOperations.isInstanceOf(value, CONCEPTS.NodeValue$o7)) {
+        SNode content = SLinkOperations.getTarget(SNodeOperations.cast(value, CONCEPTS.NodeValue$o7), LINKS.content$1Rh$);
+        item.value = content.getPresentation();
+        item.detail = join(item.detail, content.getConcept().getName());
+        addNodeRows(child, content);
+        addDependencies(child, ViewModels.getInstance().getDependencies(viewModel, path));
+        count++;
       } else {
         Object object = value.getUserObject(ViewModels.OBJECT_KEY);
         String text = String.valueOf(object);
@@ -271,6 +280,29 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
       parent.add(child);
     }
     return count;
+  }
+  private void addNodeRows(DefaultMutableTreeNode parent, SNode node) {
+    // the properties, references and children of a stored node; rows are identified by node id, which rewrites keep
+    for (SProperty property : Sequence.fromIterable(node.getProperties())) {
+      ViewModelsExplorerItem item = new ViewModelsExplorerItem("p:" + property.getName(), property.getName(), AllIcons.Nodes.Property);
+      item.value = node.getProperty(property);
+      parent.add(new DefaultMutableTreeNode(item));
+    }
+    for (SReference reference : Sequence.fromIterable(node.getReferences())) {
+      SNode referenced = reference.getTargetNode();
+      ViewModelsExplorerItem item = new ViewModelsExplorerItem("r:" + reference.getLink().getName(), reference.getLink().getName(), AllIcons.Nodes.Related);
+      item.value = ((referenced == null ? String.valueOf(reference.getTargetNodeReference()) : referenced.getPresentation()));
+      item.target = reference.getTargetNodeReference();
+      parent.add(new DefaultMutableTreeNode(item));
+    }
+    for (SNode child : ListSequence.fromList(SNodeOperations.getChildren(node))) {
+      ViewModelsExplorerItem item = new ViewModelsExplorerItem("c:" + child.getNodeId(), child.getContainmentLink().getName(), GlobalIconManager.getInstance().getIconFor(child));
+      item.value = child.getPresentation();
+      item.detail = child.getConcept().getName();
+      DefaultMutableTreeNode childRow = new DefaultMutableTreeNode(item);
+      addNodeRows(childRow, child);
+      parent.add(childRow);
+    }
   }
 
   private static void collectEntries(SNode branch, List<SNode> entries) {
@@ -431,11 +463,13 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
     /*package*/ static final SContainmentLink key$BBxW = MetaAdapterFactory.getContainmentLink(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x1fb83b07c4deb6a6L, 0xa018715a723bc2aL, "key");
     /*package*/ static final SContainmentLink value$QjaP = MetaAdapterFactory.getContainmentLink(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x1fb83b07c4deb6a6L, 0x7cf7bb10f23c8070L, "value");
     /*package*/ static final SContainmentLink root$g5g6 = MetaAdapterFactory.getContainmentLink(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x222fe3c7a9c818c3L, 0x1682209d95df5892L, "root");
+    /*package*/ static final SContainmentLink content$1Rh$ = MetaAdapterFactory.getContainmentLink(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x83100b716021274L, 0x30a3c8fccdaaee6bL, "content");
     /*package*/ static final SContainmentLink items$J12l = MetaAdapterFactory.getContainmentLink(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x4dd6de49b75aae4L, 0x2153fbf9dd18360eL, "items");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept MapValue$rT = MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x222fe3c7a9c818c3L, "com.jetbrains.mpsext.viewmodel.storage.structure.MapValue");
+    /*package*/ static final SConcept NodeValue$o7 = MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x83100b716021274L, "com.jetbrains.mpsext.viewmodel.storage.structure.NodeValue");
     /*package*/ static final SConcept HamtBranch$E6 = MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x4dd6de49b75aae4L, "com.jetbrains.mpsext.viewmodel.storage.structure.HamtBranch");
     /*package*/ static final SConcept MapEntry$_u = MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x1fb83b07c4deb6a6L, "com.jetbrains.mpsext.viewmodel.storage.structure.MapEntry");
   }

@@ -37,6 +37,9 @@ public final class ProjectViewModel {
   public Object getPath(List<ViewModelKey> path) {
     return viewModel.getPath(path);
   }
+  public SNode getNode(SNode node, String key) {
+    return viewModel.getNode(node, key);
+  }
 
   public <T> Computed<T> compute(Supplier<T> computation) {
     return ViewModels.getInstance().compute(computation);

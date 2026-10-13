@@ -27,12 +27,21 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModel;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.model.SNodeChangeListener;
+import org.jetbrains.mps.openapi.event.SPropertyChangeEvent;
+import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
+import org.jetbrains.mps.openapi.event.SNodeAddEvent;
+import org.jetbrains.mps.openapi.event.SNodeRemoveEvent;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Label;
 import org.jetbrains.mps.openapi.language.SProperty;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SReferenceLink;
 
 @MPSLaunch
 public class ViewModelStoreTest_Test extends BaseTransformationTest {
@@ -94,6 +103,26 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
   @Test
   public void test_readOnlyFormWithoutProject() throws Throwable {
     new TestBody(this).test_readOnlyFormWithoutProject();
+  }
+  @Test
+  public void test_nodeValueIsStoredAsACopy() throws Throwable {
+    new TestBody(this).test_nodeValueIsStoredAsACopy();
+  }
+  @Test
+  public void test_rewriteUpdatesTheStoredNodeInPlace() throws Throwable {
+    new TestBody(this).test_rewriteUpdatesTheStoredNodeInPlace();
+  }
+  @Test
+  public void test_identicalRewriteChangesNothing() throws Throwable {
+    new TestBody(this).test_identicalRewriteChangesNothing();
+  }
+  @Test
+  public void test_valueOfAnotherKindReplacesTheNode() throws Throwable {
+    new TestBody(this).test_valueOfAnotherKindReplacesTheNode();
+  }
+  @Test
+  public void test_asyncNodeWriteStoresASnapshot() throws Throwable {
+    new TestBody(this).test_asyncNodeWriteStoresASnapshot();
   }
 
   /*package*/ static class TestBody extends BaseTestBody {
@@ -310,6 +339,128 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertEquals("v", readOnly.get(getAnnotatedNode("a"), "result"));
       });
     }
+    public void test_nodeValueIsStoredAsACopy() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ProjectViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        SNode source = TestBody.this.tree(item);
+        Assert.assertTrue(vm.write(item, "tree", source, null));
+        SNode stored = SNodeOperations.cast(vm.getNode(item, "tree"), CONCEPTS.TestTree$V5);
+        Assert.assertNotNull(stored);
+        Assert.assertFalse((stored == source));
+        Assert.assertNotNull(stored.getModel());
+        Assert.assertEquals("2", SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).last(), PROPS.label$IRFe));
+        // a reference within the tree points into the copy, a reference out of it stays
+        SNode first = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).first();
+        SNode pointedTo = SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).last(), LINKS.pointsTo$36gM);
+        Assert.assertSame(first, pointedTo);
+        SNode outside = SLinkOperations.getTarget(stored, LINKS.pointsTo$36gM);
+        Assert.assertSame(item, outside);
+      });
+    }
+    public void test_rewriteUpdatesTheStoredNodeInPlace() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ProjectViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        SNode source = TestBody.this.tree(item);
+        vm.write(item, "tree", source, null);
+        SNode stored = SNodeOperations.cast(vm.getNode(item, "tree"), CONCEPTS.TestTree$V5);
+        SNode x = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).first();
+        SNode y = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).last();
+        // a new first item, and a changed label of the last one
+        SNode w = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+        SPropertyOperations.assign(w, PROPS.name$MnvL, "w");
+        SNodeOperations.insertPrevSiblingChild(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first(), w);
+        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "3");
+        vm.write(item, "tree", source, null);
+        Assert.assertSame(stored, vm.getNode(item, "tree"));
+        List<SNode> items = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).toList();
+        Assert.assertEquals(3, ListSequence.fromList(items).count());
+        Assert.assertEquals("w", SPropertyOperations.getString(ListSequence.fromList(items).getElement(0), PROPS.name$MnvL));
+        Assert.assertSame(x, ListSequence.fromList(items).getElement(1));
+        Assert.assertSame(y, ListSequence.fromList(items).getElement(2));
+        Assert.assertEquals("3", SPropertyOperations.getString(y, PROPS.label$IRFe));
+        SNode pointedTo = SLinkOperations.getTarget(y, LINKS.pointsTo$36gM);
+        Assert.assertSame(x, pointedTo);
+        // removing an item removes only that item
+        SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first());
+        vm.write(item, "tree", source, null);
+        items = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).toList();
+        Assert.assertEquals(2, ListSequence.fromList(items).count());
+        Assert.assertSame(x, ListSequence.fromList(items).getElement(0));
+      });
+    }
+    public void test_identicalRewriteChangesNothing() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ProjectViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        vm.write(item, "tree", TestBody.this.tree(item), null);
+        SNode stored = vm.getNode(item, "tree");
+        final int[] events = new int[1];
+        SNodeChangeListener listener = new SNodeChangeListener() {
+          @Override
+          public void propertyChanged(SPropertyChangeEvent event) {
+            events[0]++;
+          }
+          @Override
+          public void referenceChanged(SReferenceChangeEvent event) {
+            events[0]++;
+          }
+          @Override
+          public void nodeAdded(SNodeAddEvent event) {
+            events[0]++;
+          }
+          @Override
+          public void nodeRemoved(SNodeRemoveEvent event) {
+            events[0]++;
+          }
+        };
+        stored.getModel().addChangeListener(listener);
+        // an equal tree built anew changes no node of the view model, so no editor is updated
+        vm.write(item, "tree", TestBody.this.tree(item), null);
+        stored.getModel().removeChangeListener(listener);
+        Assert.assertEquals(0, events[0]);
+        Assert.assertSame(stored, vm.getNode(item, "tree"));
+      });
+    }
+    public void test_valueOfAnotherKindReplacesTheNode() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ProjectViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        vm.write(item, "tree", TestBody.this.tree(item), null);
+        SNode other = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestItem"));
+        SPropertyOperations.assign(other, PROPS.name$MnvL, "other");
+        vm.write(item, "tree", other, null);
+        SNode stored = SNodeOperations.cast(vm.getNode(item, "tree"), CONCEPTS.TestItem$HE);
+        Assert.assertEquals("other", SPropertyOperations.getString(stored, PROPS.name$MnvL));
+        vm.write(item, "tree", "text", null);
+        Assert.assertNull(vm.getNode(item, "tree"));
+        Assert.assertEquals("text", vm.get(item, "tree"));
+      });
+    }
+    public void test_asyncNodeWriteStoresASnapshot() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ProjectViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        SNode source = TestBody.this.tree(item);
+        vm.writeAsync(item, "tree", source, null);
+        // a change after writeAsync isn't part of the written value
+        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first(), PROPS.label$IRFe, "changed");
+        vm.drain();
+        SNode stored = SNodeOperations.cast(vm.getNode(item, "tree"), CONCEPTS.TestTree$V5);
+        Assert.assertEquals("1", SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).first(), PROPS.label$IRFe));
+      });
+    }
 
     public String valueCellText(HeadlessEditorComponent editor) {
       String text = null;
@@ -320,9 +471,37 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
       }
       return text;
     }
+    public SNode tree(SNode outside) {
+      // root -> outside, with the items x (label 1) and y (label 2, -> x)
+      SNode root = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+      SPropertyOperations.assign(root, PROPS.name$MnvL, "root");
+      SLinkOperations.setTarget(root, LINKS.pointsTo$36gM, outside);
+      SNode x = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+      SPropertyOperations.assign(x, PROPS.name$MnvL, "x");
+      SPropertyOperations.assign(x, PROPS.label$IRFe, "1");
+      ListSequence.fromList(SLinkOperations.getChildren(root, LINKS.items$WHh4)).addElement(x);
+      SNode y = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+      SPropertyOperations.assign(y, PROPS.name$MnvL, "y");
+      SPropertyOperations.assign(y, PROPS.label$IRFe, "2");
+      SLinkOperations.setTarget(y, LINKS.pointsTo$36gM, x);
+      ListSequence.fromList(SLinkOperations.getChildren(root, LINKS.items$WHh4)).addElement(y);
+      return root;
+    }
   }
 
   private static final class PROPS {
     /*package*/ static final SProperty input$_sYF = MetaAdapterFactory.getProperty(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, 0x39e05b8c02dc4cb2L, "input");
+    /*package*/ static final SProperty label$IRFe = MetaAdapterFactory.getProperty(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x4d1a0d2e910043eaL, "label");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept TestTree$V5 = MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree");
+    /*package*/ static final SConcept TestItem$HE = MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestItem");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink items$WHh4 = MetaAdapterFactory.getContainmentLink(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x4901e03b85761c22L, "items");
+    /*package*/ static final SReferenceLink pointsTo$36gM = MetaAdapterFactory.getReferenceLink(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x50e44c3dabc9724L, "pointsTo");
   }
 }

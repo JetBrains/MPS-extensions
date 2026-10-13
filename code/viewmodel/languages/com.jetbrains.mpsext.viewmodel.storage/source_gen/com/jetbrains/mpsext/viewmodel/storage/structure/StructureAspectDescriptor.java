@@ -19,6 +19,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptMapEntry = createDescriptorForMapEntry();
   /*package*/ final ConceptDescriptor myConceptMapValue = createDescriptorForMapValue();
   /*package*/ final ConceptDescriptor myConceptNodeKey = createDescriptorForNodeKey();
+  /*package*/ final ConceptDescriptor myConceptNodeValue = createDescriptorForNodeValue();
   /*package*/ final ConceptDescriptor myConceptObjectValue = createDescriptorForObjectValue();
   /*package*/ final ConceptDescriptor myConceptStringKey = createDescriptorForStringKey();
   /*package*/ final ConceptDescriptor myConceptValue = createDescriptorForValue();
@@ -34,11 +35,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   @Override
   public void reportDependencies(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.Dependencies deps) {
     deps.extendedLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core");
+    deps.aggregatedLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core");
   }
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptHamtBranch, myConceptHamtNode, myConceptKey, myConceptMapEntry, myConceptMapValue, myConceptNodeKey, myConceptObjectValue, myConceptStringKey, myConceptValue, myConceptViewModel, myConceptViewModelStore);
+    return Arrays.asList(myConceptHamtBranch, myConceptHamtNode, myConceptKey, myConceptMapEntry, myConceptMapValue, myConceptNodeKey, myConceptNodeValue, myConceptObjectValue, myConceptStringKey, myConceptValue, myConceptViewModel, myConceptViewModelStore);
   }
 
   @Override
@@ -57,6 +59,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptMapValue;
       case LanguageConceptSwitch.NodeKey:
         return myConceptNodeKey;
+      case LanguageConceptSwitch.NodeValue:
+        return myConceptNodeValue;
       case LanguageConceptSwitch.ObjectValue:
         return myConceptObjectValue;
       case LanguageConceptSwitch.StringKey:
@@ -131,6 +135,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:9a110ddc-9a3f-43b7-bd29-355df8bb2c61(com.jetbrains.mpsext.viewmodel.storage.structure)/7935325697716242531");
     b.version(3);
     b.associate("target", 0x4b29f20d12445c63L).target(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL).optional(false).origin("7935325697716242532").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForNodeValue() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.jetbrains.mpsext.viewmodel.storage", "NodeValue", 0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x83100b716021274L);
+    b.class_(false, false, false);
+    // extends: com.jetbrains.mpsext.viewmodel.storage.structure.Value
+    b.super_(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x66926540d40a4efdL);
+    b.origin("r:9a110ddc-9a3f-43b7-bd29-355df8bb2c61(com.jetbrains.mpsext.viewmodel.storage.structure)/5871421566393554564");
+    b.version(3);
+    b.aggregate("content", 0x30a3c8fccdaaee6bL).target(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL).optional(false).ordered(true).multiple(false).origin("5871421566393554565").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForObjectValue() {

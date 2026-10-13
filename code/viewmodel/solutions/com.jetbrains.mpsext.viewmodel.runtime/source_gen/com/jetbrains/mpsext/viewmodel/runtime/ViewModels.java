@@ -27,6 +27,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.classloading.ModuleClassLoader;
 import java.util.function.Supplier;
+import org.jetbrains.mps.openapi.language.SLanguage;
+import jetbrains.mps.smodel.ModelImports;
 import org.jetbrains.mps.openapi.model.SModelReference;
 import java.util.concurrent.CompletableFuture;
 import com.intellij.openapi.application.ApplicationManager;
@@ -247,7 +249,14 @@ public final class ViewModels {
   }
 
   private static Object objectOf(SNode value) {
-    if (value == null || !(SNodeOperations.isInstanceOf(value, CONCEPTS.ObjectValue$c3))) {
+    if (value == null) {
+      return null;
+    }
+    if (SNodeOperations.isInstanceOf(value, CONCEPTS.NodeValue$o7)) {
+      // the stored copy, which belongs to the view model
+      return SLinkOperations.getTarget(SNodeOperations.cast(value, CONCEPTS.NodeValue$o7), LINKS.content$1Rh$);
+    }
+    if (!(SNodeOperations.isInstanceOf(value, CONCEPTS.ObjectValue$c3))) {
       return null;
     }
     Object object = value.getUserObject(OBJECT_KEY);
@@ -323,6 +332,9 @@ public final class ViewModels {
     }
     ViewModelKey lastKey = ListSequence.fromList(path).last();
     SNode existing = Hamt.get(branch, lastKey);
+    if (value instanceof SNode) {
+      return applyNode(project, path, branch, existing, (SNode) value, dependencies);
+    }
     if (existing != null && value.equals(objectOf(SLinkOperations.getTarget(existing, LINKS.value$QjaP))) && index.hasSameDependencies(path, dependencies)) {
       return true;
     }
@@ -343,6 +355,45 @@ public final class ViewModels {
     return true;
   }
 
+  private void importLanguages(Set<SLanguage> languages) {
+    // the store model uses the languages of the nodes stored in it
+    ModelImports imports = new ModelImports(model);
+    Set<SLanguage> used = SetSequence.fromSetWithValues(new HashSet<SLanguage>(), imports.getUsedLanguages());
+    for (SLanguage language : SetSequence.fromSet(languages)) {
+      if (!(SetSequence.fromSet(used).contains(language))) {
+        imports.addUsedLanguage(language);
+      }
+    }
+  }
+  private boolean applyNode(Project project, List<ViewModelKey> path, SNode branch, SNode existing, SNode source, Set<SNodeReference> dependencies) {
+    // A node is stored as a copy. A rewrite updates the stored copy in place (NodeDiff), so that an editor showing
+    // it only updates the cells that show what changed.
+    SRepository repository = project.getRepository();
+    NodeDiff diff = new NodeDiff();
+    if (existing != null && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(existing, LINKS.value$QjaP), CONCEPTS.NodeValue$o7)) {
+      SNode stored = SNodeOperations.cast(SLinkOperations.getTarget(existing, LINKS.value$QjaP), CONCEPTS.NodeValue$o7);
+      if (SLinkOperations.getTarget(stored, LINKS.content$1Rh$) != source) {
+        diff.update(SLinkOperations.getTarget(stored, LINKS.content$1Rh$), source);
+      }
+    } else {
+      SNode keyNode = null;
+      if (existing == null) {
+        keyNode = ListSequence.fromList(path).last().createNode(repository);
+        if (keyNode == null) {
+          return false;
+        }
+      } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(existing, LINKS.value$QjaP), CONCEPTS.MapValue$rT)) {
+        index.removeWithPrefix(path);
+      }
+      SNode stored = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x83100b716021274L, "com.jetbrains.mpsext.viewmodel.storage.structure.NodeValue"));
+      SLinkOperations.setTarget(stored, LINKS.content$1Rh$, diff.copy(source));
+      Hamt.put(branch, ListSequence.fromList(path).last(), keyNode, stored);
+    }
+    importLanguages(diff.getLanguages());
+    index.put(path, project, dependencies);
+    track(repository, path, dependencies);
+    return true;
+  }
   private static boolean isWritable(SRepository repository, List<ViewModelKey> path) {
     // no view models for read-only models
     for (ViewModelKey key : ListSequence.fromList(path)) {
@@ -510,7 +561,15 @@ public final class ViewModels {
     if (SetSequence.fromSet(deps).isNotEmpty() && !(project.getModelAccess().canRead())) {
       throw new IllegalStateException("writeAsync with dependencies has to be called inside the read action that computed the value");
     }
-    PendingWrite write = new PendingWrite(project, qualify(viewModel, path), value, deps);
+    Object queued = value;
+    if (value instanceof SNode) {
+      // the node may change before the write is applied, so a copy of it is queued
+      if (!(project.getModelAccess().canRead())) {
+        throw new IllegalStateException("writeAsync of a node has to be called with read access");
+      }
+      queued = SNodeOperations.copyNode(((SNode) value));
+    }
+    PendingWrite write = new PendingWrite(project, qualify(viewModel, path), queued, deps);
     if (SetSequence.fromSet(deps).isNotEmpty()) {
       // a change of a dependency before the write is applied has to be noticed
       track(project.getRepository(), ListSequence.fromList(new ArrayList<ViewModelKey>()), deps);
@@ -674,10 +733,12 @@ public final class ViewModels {
     /*package*/ static final SContainmentLink root$gJLj = MetaAdapterFactory.getContainmentLink(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x5295f127f3b6ce0bL, 0x418c6bcdc4e21821L, "root");
     /*package*/ static final SContainmentLink value$QjaP = MetaAdapterFactory.getContainmentLink(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x1fb83b07c4deb6a6L, 0x7cf7bb10f23c8070L, "value");
     /*package*/ static final SContainmentLink root$g5g6 = MetaAdapterFactory.getContainmentLink(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x222fe3c7a9c818c3L, 0x1682209d95df5892L, "root");
+    /*package*/ static final SContainmentLink content$1Rh$ = MetaAdapterFactory.getContainmentLink(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x83100b716021274L, 0x30a3c8fccdaaee6bL, "content");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept MapValue$rT = MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x222fe3c7a9c818c3L, "com.jetbrains.mpsext.viewmodel.storage.structure.MapValue");
+    /*package*/ static final SConcept NodeValue$o7 = MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x83100b716021274L, "com.jetbrains.mpsext.viewmodel.storage.structure.NodeValue");
     /*package*/ static final SConcept ObjectValue$c3 = MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x10b7ba6fe59a889aL, "com.jetbrains.mpsext.viewmodel.storage.structure.ObjectValue");
   }
 }

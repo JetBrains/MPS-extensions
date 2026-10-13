@@ -15,6 +15,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_MapEntry;
   private ConceptPresentation props_MapValue;
   private ConceptPresentation props_NodeKey;
+  private ConceptPresentation props_NodeValue;
   private ConceptPresentation props_ObjectValue;
   private ConceptPresentation props_StringKey;
   private ConceptPresentation props_Value;
@@ -69,6 +70,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_NodeKey = cpb.create();
         }
         return props_NodeKey;
+      case LanguageConceptSwitch.NodeValue:
+        if (props_NodeValue == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("holds a node; rewrites update it in place");
+          cpb.rawPresentation("NodeValue");
+          props_NodeValue = cpb.create();
+        }
+        return props_NodeValue;
       case LanguageConceptSwitch.ObjectValue:
         if (props_ObjectValue == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

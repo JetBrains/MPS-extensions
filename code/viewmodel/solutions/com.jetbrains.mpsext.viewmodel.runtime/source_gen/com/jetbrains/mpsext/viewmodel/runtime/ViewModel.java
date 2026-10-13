@@ -33,6 +33,12 @@ public final class ViewModel {
   public Object getPath(List<ViewModelKey> path) {
     return ViewModels.getInstance().getPath(name, path);
   }
+  public SNode getNode(SNode node, String key) {
+    // The node written for the key (a copy that rewrites update in place), or null when there is none or the
+    // value isn't a node. It belongs to the view model: read and show it, but don't change it.
+    Object value = get(node, key);
+    return ((value instanceof SNode ? (SNode) value : null));
+  }
 
   public <T> Computed<T> compute(Supplier<T> computation) {
     // records the nodes read by the computation; call it inside one read action

@@ -15,11 +15,12 @@ public final class LanguageConceptSwitch {
   public static final int MapEntry = 3;
   public static final int MapValue = 4;
   public static final int NodeKey = 5;
-  public static final int ObjectValue = 6;
-  public static final int StringKey = 7;
-  public static final int Value = 8;
-  public static final int ViewModel = 9;
-  public static final int ViewModelStore = 10;
+  public static final int NodeValue = 6;
+  public static final int ObjectValue = 7;
+  public static final int StringKey = 8;
+  public static final int Value = 9;
+  public static final int ViewModel = 10;
+  public static final int ViewModelStore = 11;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L);
@@ -29,6 +30,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x1fb83b07c4deb6a6L, MapEntry);
     builder.put(0x222fe3c7a9c818c3L, MapValue);
     builder.put(0x7a0912d37d26f982L, NodeKey);
+    builder.put(0x83100b716021274L, NodeValue);
     builder.put(0x10b7ba6fe59a889aL, ObjectValue);
     builder.put(0x96f1030d3383cedL, StringKey);
     builder.put(0x66926540d40a4efdL, Value);

@@ -10,6 +10,7 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_TestItem;
+  private ConceptPresentation props_TestTree;
 
   @Override
   @Nullable
@@ -24,6 +25,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_TestItem = cpb.create();
         }
         return props_TestItem;
+      case LanguageConceptSwitch.TestTree:
+        if (props_TestTree == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("a tree for testing node values");
+          cpb.presentationByName();
+          props_TestTree = cpb.create();
+        }
+        return props_TestTree;
     }
     return null;
   }

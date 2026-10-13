@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,30,0" name="de.itemis.model.simple.demo.enums.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="12,0,36,0" name="de.itemis.model.simple.demo.enums.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="18,0,69,0" name="de.itemis.model.simple.demo.enums.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:5e14b5a3-3989-4ab3-a15a-50ea008667da(de.itemis.model.simple.demo.enums.structure)/3615041602350284071">
+    <file name="EnumerationDescriptor_SomeEnumeration.java">
+      <node id="3615041602350284071" at="14,50,15,199" concept="9" />
+      <node id="3615041602350284072" at="18,0,19,0" concept="2" trace="myMember_default_0" />
+      <node id="3615041602350285842" at="19,0,20,0" concept="2" trace="myMember_firstMember_0" />
+      <node id="3615041602350286467" at="20,0,21,0" concept="2" trace="myMember_secondMember_0" />
+      <node id="3615041602350284071" at="22,0,23,0" concept="2" trace="myIndex" />
+      <node id="3615041602350284071" at="23,0,24,0" concept="2" trace="myMembers" />
+      <node id="3615041602350284071" at="27,62,28,30" concept="6" />
+      <node id="3615041602350284071" at="33,68,34,21" concept="6" />
+      <node id="3615041602350284071" at="40,29,41,18" concept="6" />
+      <node id="3615041602350284072" at="44,21,45,34" concept="6" />
+      <node id="3615041602350285842" at="46,25,47,38" concept="6" />
+      <node id="3615041602350286467" at="48,26,49,39" concept="6" />
+      <node id="3615041602350284071" at="50,5,51,16" concept="6" />
+      <node id="3615041602350284071" at="56,73,57,39" concept="5" />
+      <node id="3615041602350284071" at="58,22,59,18" concept="6" />
+      <node id="3615041602350284071" at="60,5,61,32" concept="6" />
+      <node id="3615041602350284071" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_SomeEnumeration#()V" />
+      <node id="3615041602350284071" at="39,88,42,5" concept="3" />
+      <node id="3615041602350284071" at="57,39,60,5" concept="3" />
+      <node id="3615041602350284071" at="25,0,30,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="3615041602350284071" at="31,0,36,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="3615041602350284071" at="42,5,50,5" concept="10" />
+      <node id="3615041602350284071" at="54,0,63,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="3615041602350284071" at="37,0,53,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="3615041602350284071" at="14,50,15,199" />
+      <scope id="3615041602350284071" at="27,62,28,30" />
+      <scope id="3615041602350284071" at="33,68,34,21" />
+      <scope id="3615041602350284071" at="40,29,41,18" />
+      <scope id="3615041602350284072" at="44,21,45,34" />
+      <scope id="3615041602350285842" at="46,25,47,38" />
+      <scope id="3615041602350286467" at="48,26,49,39" />
+      <scope id="3615041602350284071" at="58,22,59,18" />
+      <scope id="3615041602350284071" at="14,0,17,0" />
+      <scope id="3615041602350284071" at="25,0,30,0" />
+      <scope id="3615041602350284071" at="31,0,36,0" />
+      <scope id="3615041602350284071" at="56,73,61,32">
+        <var name="index" id="3615041602350284071" />
+      </scope>
+      <scope id="3615041602350284071" at="54,0,63,0">
+        <var name="idValue" id="3615041602350284071" />
+      </scope>
+      <scope id="3615041602350284071" at="39,88,51,16" />
+      <scope id="3615041602350284071" at="37,0,53,0">
+        <var name="memberName" id="3615041602350284071" />
+      </scope>
+      <unit id="3615041602350284071" at="12,0,64,0" name="de.itemis.model.simple.demo.enums.structure.EnumerationDescriptor_SomeEnumeration" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3615041602350284071" at="20,0,21,0" concept="2" trace="myEnumerationSomeEnumeration" />
+    </file>
+  </root>
+  <root nodeRef="r:5e14b5a3-3989-4ab3-a15a-50ea008667da(de.itemis.model.simple.demo.enums.structure)/3615041602350286780">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3615041602350286780" at="12,0,13,0" concept="2" trace="props_ConceptWithEnum" />
+      <node id="3615041602350286780" at="20,44,21,76" concept="5" />
+      <node id="3615041602350286780" at="21,76,22,49" concept="1" />
+      <node id="3615041602350286780" at="22,49,23,47" concept="1" />
+      <node id="3615041602350286780" at="24,9,25,37" concept="6" />
+      <node id="3615041602350286780" at="19,49,24,9" concept="3" />
+      <scope id="3615041602350286780" at="20,44,23,47">
+        <var name="cpb" id="3615041602350286780" />
+      </scope>
+      <scope id="3615041602350286780" at="19,49,25,37" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3615041602350286780" at="14,0,15,0" concept="7" trace="ConceptWithEnum" />
+      <node id="3615041602350286780" at="17,116,18,54" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3615041602350286780" at="19,0,20,0" concept="2" trace="myConceptConceptWithEnum" />
+      <node id="3615041602350286780" at="42,49,43,40" concept="6" />
+      <node id="3615041602350286780" at="58,73,59,183" concept="5" />
+      <node id="3615041602350286780" at="59,183,60,33" concept="1" />
+      <node id="3615041602350286780" at="60,33,61,120" concept="1" />
+      <node id="3615041602350286780" at="61,120,62,17" concept="1" />
+      <node id="3615041602350287509" at="62,17,63,175" concept="1" />
+      <node id="2790734712369415969" at="63,175,64,110" concept="1" />
+      <node id="2790734712391769965" at="64,110,65,121" concept="1" />
+      <node id="3615041602350286780" at="65,121,66,22" concept="6" />
+      <node id="3615041602350286780" at="58,0,68,0" concept="8" trace="createDescriptorForConceptWithEnum#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3615041602350286780" at="42,49,43,40" />
+      <scope id="3615041602350286780" at="58,73,66,22">
+        <var name="b" id="3615041602350286780" />
+      </scope>
+      <scope id="3615041602350286780" at="58,0,68,0" />
+    </file>
+  </root>
+</debug-info>
+

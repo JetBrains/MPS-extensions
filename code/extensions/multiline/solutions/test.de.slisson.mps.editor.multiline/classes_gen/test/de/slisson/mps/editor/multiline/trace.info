@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787691611936">
+    <file name="SelectionFromStartRight_Test.java">
+      <node id="3158011787691611936" at="19,41,20,60" concept="8" />
+      <node id="3158011787691611936" at="24,63,25,36" concept="1" />
+      <node id="3158011787691611936" at="30,52,31,19" concept="8" />
+      <node id="3158011787691611936" at="35,51,36,72" concept="1" />
+      <node id="3158011787691611941" at="36,72,37,74" concept="1" />
+      <node id="3158011787691696994" at="37,74,38,0" concept="5" />
+      <node id="3158011787691611936" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787691611936" at="19,0,22,0" concept="0" trace="SelectionFromStartRight_Test#()V" />
+      <node id="3158011787691611936" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787691611936" at="23,0,27,0" concept="2" trace="test_SelectionFromStartRight#()V" />
+      <node id="3158011787691611936" at="34,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787691611936" at="19,41,20,60" />
+      <scope id="3158011787691611936" at="24,63,25,36" />
+      <scope id="3158011787691611936" at="30,52,31,19" />
+      <scope id="3158011787691611936" at="19,0,22,0" />
+      <scope id="3158011787691611936" at="30,0,33,0">
+        <var name="owner" id="3158011787691611936" />
+      </scope>
+      <scope id="3158011787691611936" at="35,51,38,0" />
+      <scope id="3158011787691611936" at="23,0,27,0" />
+      <scope id="3158011787691611936" at="34,0,40,0" />
+      <unit id="3158011787691611936" at="28,0,41,0" name="test.de.slisson.mps.editor.multiline.SelectionFromStartRight_Test$TestBody" />
+      <unit id="3158011787691611936" at="14,0,42,0" name="test.de.slisson.mps.editor.multiline.SelectionFromStartRight_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787691717499">
+    <file name="SelectionBetweenWordsRight_Test.java">
+      <node id="3158011787691717499" at="22,44,23,60" concept="8" />
+      <node id="3158011787691717499" at="27,66,28,36" concept="1" />
+      <node id="3158011787691717499" at="33,52,34,19" concept="8" />
+      <node id="3158011787691717499" at="38,51,39,53" concept="1" />
+      <node id="3158011787691717504" at="39,53,40,74" concept="1" />
+      <node id="3158011787691717506" at="40,74,41,140" concept="3" />
+      <node id="3158011787691717516" at="41,140,42,38" concept="1" />
+      <node id="3158011787691717518" at="42,38,43,147" concept="1" />
+      <node id="3158011787691717523" at="43,147,44,143" concept="1" />
+      <node id="3158011787691717528" at="44,143,45,0" concept="5" />
+      <node id="3158011787691717508" at="47,69,48,49" concept="4" />
+      <node id="3158011787691717499" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787691717499" at="22,0,25,0" concept="0" trace="SelectionBetweenWordsRight_Test#()V" />
+      <node id="3158011787691717499" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787691717508" at="47,0,50,0" concept="7" trace="as_2y6rqp_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787691717499" at="26,0,30,0" concept="2" trace="test_SelectionBetweenWordsRight#()V" />
+      <node id="3158011787691717499" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787691717499" at="22,44,23,60" />
+      <scope id="3158011787691717499" at="27,66,28,36" />
+      <scope id="3158011787691717499" at="33,52,34,19" />
+      <scope id="3158011787691717508" at="47,69,48,49" />
+      <scope id="3158011787691717499" at="22,0,25,0" />
+      <scope id="3158011787691717499" at="33,0,36,0">
+        <var name="owner" id="3158011787691717499" />
+      </scope>
+      <scope id="3158011787691717508" at="47,0,50,0">
+        <var name="o" id="3158011787691717508" />
+        <var name="type" id="3158011787691717508" />
+      </scope>
+      <scope id="3158011787691717499" at="26,0,30,0" />
+      <scope id="3158011787691717499" at="38,51,45,0">
+        <var name="selection" id="3158011787691717507" />
+      </scope>
+      <scope id="3158011787691717499" at="37,0,47,0" />
+      <unit id="3158011787691717499" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenWordsRight_Test$TestBody" />
+      <unit id="3158011787691717499" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenWordsRight_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787691723133">
+    <file name="SelectionBetweenLinesRight_Test.java">
+      <node id="3158011787691723133" at="22,44,23,60" concept="8" />
+      <node id="3158011787691723133" at="27,66,28,36" concept="1" />
+      <node id="3158011787691723133" at="33,52,34,19" concept="8" />
+      <node id="3158011787691723133" at="38,51,39,53" concept="1" />
+      <node id="3158011787691723138" at="39,53,40,74" concept="1" />
+      <node id="3158011787691723140" at="40,74,41,140" concept="3" />
+      <node id="3158011787691723150" at="41,140,42,38" concept="1" />
+      <node id="3158011787691723152" at="42,38,43,150" concept="1" />
+      <node id="3158011787691723157" at="43,150,44,146" concept="1" />
+      <node id="3158011787691723162" at="44,146,45,0" concept="5" />
+      <node id="3158011787691723142" at="47,69,48,49" concept="4" />
+      <node id="3158011787691723133" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787691723133" at="22,0,25,0" concept="0" trace="SelectionBetweenLinesRight_Test#()V" />
+      <node id="3158011787691723133" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787691723142" at="47,0,50,0" concept="7" trace="as_882qu4_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787691723133" at="26,0,30,0" concept="2" trace="test_SelectionBetweenLinesRight#()V" />
+      <node id="3158011787691723133" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787691723133" at="22,44,23,60" />
+      <scope id="3158011787691723133" at="27,66,28,36" />
+      <scope id="3158011787691723133" at="33,52,34,19" />
+      <scope id="3158011787691723142" at="47,69,48,49" />
+      <scope id="3158011787691723133" at="22,0,25,0" />
+      <scope id="3158011787691723133" at="33,0,36,0">
+        <var name="owner" id="3158011787691723133" />
+      </scope>
+      <scope id="3158011787691723142" at="47,0,50,0">
+        <var name="o" id="3158011787691723142" />
+        <var name="type" id="3158011787691723142" />
+      </scope>
+      <scope id="3158011787691723133" at="26,0,30,0" />
+      <scope id="3158011787691723133" at="38,51,45,0">
+        <var name="selection" id="3158011787691723141" />
+      </scope>
+      <scope id="3158011787691723133" at="37,0,47,0" />
+      <unit id="3158011787691723133" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenLinesRight_Test$TestBody" />
+      <unit id="3158011787691723133" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenLinesRight_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787691727437">
+    <file name="SelectionFromEndRight_Test.java">
+      <node id="3158011787691727437" at="22,39,23,60" concept="8" />
+      <node id="3158011787691727437" at="27,61,28,36" concept="1" />
+      <node id="3158011787691727437" at="33,52,34,19" concept="8" />
+      <node id="3158011787691727437" at="38,51,39,53" concept="1" />
+      <node id="3158011787691727442" at="39,53,40,74" concept="1" />
+      <node id="3158011787691727444" at="40,74,41,140" concept="3" />
+      <node id="3158011787691727454" at="41,140,42,38" concept="1" />
+      <node id="3158011787691727456" at="42,38,43,150" concept="1" />
+      <node id="3158011787691727461" at="43,150,44,146" concept="1" />
+      <node id="3158011787691727466" at="44,146,45,0" concept="5" />
+      <node id="3158011787691727446" at="47,69,48,49" concept="4" />
+      <node id="3158011787691727437" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787691727437" at="22,0,25,0" concept="0" trace="SelectionFromEndRight_Test#()V" />
+      <node id="3158011787691727437" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787691727446" at="47,0,50,0" concept="7" trace="as_8p8aj1_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787691727437" at="26,0,30,0" concept="2" trace="test_SelectionFromEndRight#()V" />
+      <node id="3158011787691727437" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787691727437" at="22,39,23,60" />
+      <scope id="3158011787691727437" at="27,61,28,36" />
+      <scope id="3158011787691727437" at="33,52,34,19" />
+      <scope id="3158011787691727446" at="47,69,48,49" />
+      <scope id="3158011787691727437" at="22,0,25,0" />
+      <scope id="3158011787691727437" at="33,0,36,0">
+        <var name="owner" id="3158011787691727437" />
+      </scope>
+      <scope id="3158011787691727446" at="47,0,50,0">
+        <var name="o" id="3158011787691727446" />
+        <var name="type" id="3158011787691727446" />
+      </scope>
+      <scope id="3158011787691727437" at="26,0,30,0" />
+      <scope id="3158011787691727437" at="38,51,45,0">
+        <var name="selection" id="3158011787691727445" />
+      </scope>
+      <scope id="3158011787691727437" at="37,0,47,0" />
+      <unit id="3158011787691727437" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionFromEndRight_Test$TestBody" />
+      <unit id="3158011787691727437" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionFromEndRight_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787691731044">
+    <file name="SelectionToEndRight_Test.java">
+      <node id="3158011787691731044" at="19,37,20,60" concept="8" />
+      <node id="3158011787691731044" at="24,59,25,36" concept="1" />
+      <node id="3158011787691731044" at="30,52,31,19" concept="8" />
+      <node id="3158011787691731044" at="35,51,36,72" concept="1" />
+      <node id="3158011787691731049" at="36,72,37,74" concept="1" />
+      <node id="3158011787691731073" at="37,74,38,0" concept="5" />
+      <node id="3158011787691731044" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787691731044" at="19,0,22,0" concept="0" trace="SelectionToEndRight_Test#()V" />
+      <node id="3158011787691731044" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787691731044" at="23,0,27,0" concept="2" trace="test_SelectionToEndRight#()V" />
+      <node id="3158011787691731044" at="34,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787691731044" at="19,37,20,60" />
+      <scope id="3158011787691731044" at="24,59,25,36" />
+      <scope id="3158011787691731044" at="30,52,31,19" />
+      <scope id="3158011787691731044" at="19,0,22,0" />
+      <scope id="3158011787691731044" at="30,0,33,0">
+        <var name="owner" id="3158011787691731044" />
+      </scope>
+      <scope id="3158011787691731044" at="35,51,38,0" />
+      <scope id="3158011787691731044" at="23,0,27,0" />
+      <scope id="3158011787691731044" at="34,0,40,0" />
+      <unit id="3158011787691731044" at="28,0,41,0" name="test.de.slisson.mps.editor.multiline.SelectionToEndRight_Test$TestBody" />
+      <unit id="3158011787691731044" at="14,0,42,0" name="test.de.slisson.mps.editor.multiline.SelectionToEndRight_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787691800306">
+    <file name="SelectionBetweenLinesLeft_Test.java">
+      <node id="3158011787691800306" at="22,43,23,60" concept="8" />
+      <node id="3158011787691800306" at="27,65,28,36" concept="1" />
+      <node id="3158011787691800306" at="33,52,34,19" concept="8" />
+      <node id="3158011787691800306" at="38,51,39,53" concept="1" />
+      <node id="3158011787691800311" at="39,53,40,73" concept="1" />
+      <node id="3158011787691800313" at="40,73,41,140" concept="3" />
+      <node id="3158011787691800323" at="41,140,42,38" concept="1" />
+      <node id="3158011787691800325" at="42,38,43,150" concept="1" />
+      <node id="3158011787691800330" at="43,150,44,146" concept="1" />
+      <node id="3158011787691800335" at="44,146,45,0" concept="5" />
+      <node id="3158011787691800315" at="47,69,48,49" concept="4" />
+      <node id="3158011787691800306" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787691800306" at="22,0,25,0" concept="0" trace="SelectionBetweenLinesLeft_Test#()V" />
+      <node id="3158011787691800306" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787691800315" at="47,0,50,0" concept="7" trace="as_txbx0j_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787691800306" at="26,0,30,0" concept="2" trace="test_SelectionBetweenLinesLeft#()V" />
+      <node id="3158011787691800306" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787691800306" at="22,43,23,60" />
+      <scope id="3158011787691800306" at="27,65,28,36" />
+      <scope id="3158011787691800306" at="33,52,34,19" />
+      <scope id="3158011787691800315" at="47,69,48,49" />
+      <scope id="3158011787691800306" at="22,0,25,0" />
+      <scope id="3158011787691800306" at="33,0,36,0">
+        <var name="owner" id="3158011787691800306" />
+      </scope>
+      <scope id="3158011787691800315" at="47,0,50,0">
+        <var name="o" id="3158011787691800315" />
+        <var name="type" id="3158011787691800315" />
+      </scope>
+      <scope id="3158011787691800306" at="26,0,30,0" />
+      <scope id="3158011787691800306" at="38,51,45,0">
+        <var name="selection" id="3158011787691800314" />
+      </scope>
+      <scope id="3158011787691800306" at="37,0,47,0" />
+      <unit id="3158011787691800306" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenLinesLeft_Test$TestBody" />
+      <unit id="3158011787691800306" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenLinesLeft_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787691802078">
+    <file name="SelectionBetweenWordsUp_Test.java">
+      <node id="3158011787691802078" at="22,41,23,60" concept="8" />
+      <node id="3158011787691802078" at="27,63,28,36" concept="1" />
+      <node id="3158011787691802078" at="33,52,34,19" concept="8" />
+      <node id="3158011787691802078" at="38,51,39,53" concept="1" />
+      <node id="3158011787691802083" at="39,53,40,77" concept="1" />
+      <node id="3158011787691802085" at="40,77,41,140" concept="3" />
+      <node id="3158011787691802095" at="41,140,42,38" concept="1" />
+      <node id="3158011787691802097" at="42,38,43,148" concept="1" />
+      <node id="3158011787691802102" at="43,148,44,144" concept="1" />
+      <node id="3158011787691802107" at="44,144,45,0" concept="5" />
+      <node id="3158011787691802087" at="47,69,48,49" concept="4" />
+      <node id="3158011787691802078" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787691802078" at="22,0,25,0" concept="0" trace="SelectionBetweenWordsUp_Test#()V" />
+      <node id="3158011787691802078" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787691802087" at="47,0,50,0" concept="7" trace="as_r6ssn8_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787691802078" at="26,0,30,0" concept="2" trace="test_SelectionBetweenWordsUp#()V" />
+      <node id="3158011787691802078" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787691802078" at="22,41,23,60" />
+      <scope id="3158011787691802078" at="27,63,28,36" />
+      <scope id="3158011787691802078" at="33,52,34,19" />
+      <scope id="3158011787691802087" at="47,69,48,49" />
+      <scope id="3158011787691802078" at="22,0,25,0" />
+      <scope id="3158011787691802078" at="33,0,36,0">
+        <var name="owner" id="3158011787691802078" />
+      </scope>
+      <scope id="3158011787691802087" at="47,0,50,0">
+        <var name="o" id="3158011787691802087" />
+        <var name="type" id="3158011787691802087" />
+      </scope>
+      <scope id="3158011787691802078" at="26,0,30,0" />
+      <scope id="3158011787691802078" at="38,51,45,0">
+        <var name="selection" id="3158011787691802086" />
+      </scope>
+      <scope id="3158011787691802078" at="37,0,47,0" />
+      <unit id="3158011787691802078" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenWordsUp_Test$TestBody" />
+      <unit id="3158011787691802078" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenWordsUp_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787691803993">
+    <file name="SelectionFromStartLeft_Test.java">
+      <node id="3158011787691803993" at="22,40,23,60" concept="8" />
+      <node id="3158011787691803993" at="27,62,28,36" concept="1" />
+      <node id="3158011787691803993" at="33,52,34,19" concept="8" />
+      <node id="3158011787691803993" at="38,51,39,53" concept="1" />
+      <node id="3158011787691803998" at="39,53,40,73" concept="1" />
+      <node id="6193633844725029091" at="40,73,41,140" concept="3" />
+      <node id="6193633844725029101" at="41,140,42,38" concept="1" />
+      <node id="6193633844725029103" at="42,38,43,149" concept="1" />
+      <node id="6193633844725029110" at="43,149,44,145" concept="1" />
+      <node id="3158011787691804022" at="44,145,45,0" concept="5" />
+      <node id="6193633844725029093" at="47,69,48,49" concept="4" />
+      <node id="3158011787691803993" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787691803993" at="22,0,25,0" concept="0" trace="SelectionFromStartLeft_Test#()V" />
+      <node id="3158011787691803993" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844725029093" at="47,0,50,0" concept="7" trace="as_xpuo1r_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787691803993" at="26,0,30,0" concept="2" trace="test_SelectionFromStartLeft#()V" />
+      <node id="3158011787691803993" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787691803993" at="22,40,23,60" />
+      <scope id="3158011787691803993" at="27,62,28,36" />
+      <scope id="3158011787691803993" at="33,52,34,19" />
+      <scope id="6193633844725029093" at="47,69,48,49" />
+      <scope id="3158011787691803993" at="22,0,25,0" />
+      <scope id="3158011787691803993" at="33,0,36,0">
+        <var name="owner" id="3158011787691803993" />
+      </scope>
+      <scope id="6193633844725029093" at="47,0,50,0">
+        <var name="o" id="6193633844725029093" />
+        <var name="type" id="6193633844725029093" />
+      </scope>
+      <scope id="3158011787691803993" at="26,0,30,0" />
+      <scope id="3158011787691803993" at="38,51,45,0">
+        <var name="selection" id="6193633844725029092" />
+      </scope>
+      <scope id="3158011787691803993" at="37,0,47,0" />
+      <unit id="3158011787691803993" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionFromStartLeft_Test$TestBody" />
+      <unit id="3158011787691803993" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionFromStartLeft_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787691880460">
+    <file name="SelectionToStartLeft_Test.java">
+      <node id="3158011787691880460" at="22,38,23,60" concept="8" />
+      <node id="3158011787691880460" at="27,60,28,36" concept="1" />
+      <node id="3158011787691880460" at="33,52,34,19" concept="8" />
+      <node id="3158011787691880460" at="38,51,39,53" concept="1" />
+      <node id="3158011787691880465" at="39,53,40,73" concept="1" />
+      <node id="3158011787691880467" at="40,73,41,140" concept="3" />
+      <node id="3158011787691880477" at="41,140,42,38" concept="1" />
+      <node id="3158011787691880479" at="42,38,43,149" concept="1" />
+      <node id="3158011787691880484" at="43,149,44,145" concept="1" />
+      <node id="3158011787691880489" at="44,145,45,0" concept="5" />
+      <node id="3158011787691880469" at="47,69,48,49" concept="4" />
+      <node id="3158011787691880460" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787691880460" at="22,0,25,0" concept="0" trace="SelectionToStartLeft_Test#()V" />
+      <node id="3158011787691880460" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787691880469" at="47,0,50,0" concept="7" trace="as_sdccav_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787691880460" at="26,0,30,0" concept="2" trace="test_SelectionToStartLeft#()V" />
+      <node id="3158011787691880460" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787691880460" at="22,38,23,60" />
+      <scope id="3158011787691880460" at="27,60,28,36" />
+      <scope id="3158011787691880460" at="33,52,34,19" />
+      <scope id="3158011787691880469" at="47,69,48,49" />
+      <scope id="3158011787691880460" at="22,0,25,0" />
+      <scope id="3158011787691880460" at="33,0,36,0">
+        <var name="owner" id="3158011787691880460" />
+      </scope>
+      <scope id="3158011787691880469" at="47,0,50,0">
+        <var name="o" id="3158011787691880469" />
+        <var name="type" id="3158011787691880469" />
+      </scope>
+      <scope id="3158011787691880460" at="26,0,30,0" />
+      <scope id="3158011787691880460" at="38,51,45,0">
+        <var name="selection" id="3158011787691880468" />
+      </scope>
+      <scope id="3158011787691880460" at="37,0,47,0" />
+      <unit id="3158011787691880460" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionToStartLeft_Test$TestBody" />
+      <unit id="3158011787691880460" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionToStartLeft_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787692970390">
+    <file name="SelectionBetweenLinesDown_Test.java">
+      <node id="3158011787692970390" at="22,43,23,60" concept="8" />
+      <node id="3158011787692970390" at="27,65,28,36" concept="1" />
+      <node id="3158011787692970390" at="33,52,34,19" concept="8" />
+      <node id="3158011787692970390" at="38,51,39,53" concept="1" />
+      <node id="3158011787692970395" at="39,53,40,73" concept="1" />
+      <node id="3158011787692970397" at="40,73,41,140" concept="3" />
+      <node id="3158011787692970407" at="41,140,42,38" concept="1" />
+      <node id="6193633844718944751" at="42,38,43,0" concept="5" />
+      <node id="3158011787692970409" at="43,0,44,150" concept="1" />
+      <node id="3158011787692970414" at="44,150,45,146" concept="1" />
+      <node id="3158011787692970419" at="45,146,46,0" concept="5" />
+      <node id="3158011787692970399" at="48,69,49,49" concept="4" />
+      <node id="3158011787692970390" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787692970390" at="22,0,25,0" concept="0" trace="SelectionBetweenLinesDown_Test#()V" />
+      <node id="3158011787692970390" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787692970399" at="48,0,51,0" concept="7" trace="as_qa0mbq_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787692970390" at="26,0,30,0" concept="2" trace="test_SelectionBetweenLinesDown#()V" />
+      <node id="3158011787692970390" at="37,0,48,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787692970390" at="22,43,23,60" />
+      <scope id="3158011787692970390" at="27,65,28,36" />
+      <scope id="3158011787692970390" at="33,52,34,19" />
+      <scope id="3158011787692970399" at="48,69,49,49" />
+      <scope id="3158011787692970390" at="22,0,25,0" />
+      <scope id="3158011787692970390" at="33,0,36,0">
+        <var name="owner" id="3158011787692970390" />
+      </scope>
+      <scope id="3158011787692970399" at="48,0,51,0">
+        <var name="o" id="3158011787692970399" />
+        <var name="type" id="3158011787692970399" />
+      </scope>
+      <scope id="3158011787692970390" at="26,0,30,0" />
+      <scope id="3158011787692970390" at="38,51,46,0">
+        <var name="selection" id="3158011787692970398" />
+      </scope>
+      <scope id="3158011787692970390" at="37,0,48,0" />
+      <unit id="3158011787692970390" at="31,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenLinesDown_Test$TestBody" />
+      <unit id="3158011787692970390" at="17,0,53,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenLinesDown_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787692972490">
+    <file name="SelectionBetweenLinesUp_Test.java">
+      <node id="3158011787692972490" at="22,41,23,60" concept="8" />
+      <node id="3158011787692972490" at="27,63,28,36" concept="1" />
+      <node id="3158011787692972490" at="33,52,34,19" concept="8" />
+      <node id="3158011787692972490" at="38,51,39,53" concept="1" />
+      <node id="3158011787692972495" at="39,53,40,77" concept="1" />
+      <node id="3158011787692972497" at="40,77,41,140" concept="3" />
+      <node id="3158011787692972507" at="41,140,42,38" concept="1" />
+      <node id="3158011787692972509" at="42,38,43,150" concept="1" />
+      <node id="3158011787692972514" at="43,150,44,146" concept="1" />
+      <node id="3158011787692972519" at="44,146,45,0" concept="5" />
+      <node id="3158011787692972499" at="47,69,48,49" concept="4" />
+      <node id="3158011787692972490" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787692972490" at="22,0,25,0" concept="0" trace="SelectionBetweenLinesUp_Test#()V" />
+      <node id="3158011787692972490" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787692972499" at="47,0,50,0" concept="7" trace="as_p4ikqh_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787692972490" at="26,0,30,0" concept="2" trace="test_SelectionBetweenLinesUp#()V" />
+      <node id="3158011787692972490" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787692972490" at="22,41,23,60" />
+      <scope id="3158011787692972490" at="27,63,28,36" />
+      <scope id="3158011787692972490" at="33,52,34,19" />
+      <scope id="3158011787692972499" at="47,69,48,49" />
+      <scope id="3158011787692972490" at="22,0,25,0" />
+      <scope id="3158011787692972490" at="33,0,36,0">
+        <var name="owner" id="3158011787692972490" />
+      </scope>
+      <scope id="3158011787692972499" at="47,0,50,0">
+        <var name="o" id="3158011787692972499" />
+        <var name="type" id="3158011787692972499" />
+      </scope>
+      <scope id="3158011787692972490" at="26,0,30,0" />
+      <scope id="3158011787692972490" at="38,51,45,0">
+        <var name="selection" id="3158011787692972498" />
+      </scope>
+      <scope id="3158011787692972490" at="37,0,47,0" />
+      <unit id="3158011787692972490" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenLinesUp_Test$TestBody" />
+      <unit id="3158011787692972490" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenLinesUp_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787692986642">
+    <file name="SelectionBetweenWordsLeft_Test.java">
+      <node id="3158011787692986642" at="22,43,23,60" concept="8" />
+      <node id="3158011787692986642" at="27,65,28,36" concept="1" />
+      <node id="3158011787692986642" at="33,52,34,19" concept="8" />
+      <node id="3158011787692986642" at="38,51,39,53" concept="1" />
+      <node id="3158011787692986647" at="39,53,40,73" concept="1" />
+      <node id="3158011787692986649" at="40,73,41,140" concept="3" />
+      <node id="3158011787692986659" at="41,140,42,38" concept="1" />
+      <node id="3158011787692986661" at="42,38,43,147" concept="1" />
+      <node id="3158011787692986666" at="43,147,44,143" concept="1" />
+      <node id="3158011787692986671" at="44,143,45,0" concept="5" />
+      <node id="3158011787692986651" at="47,69,48,49" concept="4" />
+      <node id="3158011787692986642" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787692986642" at="22,0,25,0" concept="0" trace="SelectionBetweenWordsLeft_Test#()V" />
+      <node id="3158011787692986642" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787692986651" at="47,0,50,0" concept="7" trace="as_o0ziy6_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787692986642" at="26,0,30,0" concept="2" trace="test_SelectionBetweenWordsLeft#()V" />
+      <node id="3158011787692986642" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787692986642" at="22,43,23,60" />
+      <scope id="3158011787692986642" at="27,65,28,36" />
+      <scope id="3158011787692986642" at="33,52,34,19" />
+      <scope id="3158011787692986651" at="47,69,48,49" />
+      <scope id="3158011787692986642" at="22,0,25,0" />
+      <scope id="3158011787692986642" at="33,0,36,0">
+        <var name="owner" id="3158011787692986642" />
+      </scope>
+      <scope id="3158011787692986651" at="47,0,50,0">
+        <var name="o" id="3158011787692986651" />
+        <var name="type" id="3158011787692986651" />
+      </scope>
+      <scope id="3158011787692986642" at="26,0,30,0" />
+      <scope id="3158011787692986642" at="38,51,45,0">
+        <var name="selection" id="3158011787692986650" />
+      </scope>
+      <scope id="3158011787692986642" at="37,0,47,0" />
+      <unit id="3158011787692986642" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenWordsLeft_Test$TestBody" />
+      <unit id="3158011787692986642" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenWordsLeft_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/3158011787692997412">
+    <file name="SelectionBetweenWordsDown_Test.java">
+      <node id="3158011787692997412" at="22,43,23,60" concept="8" />
+      <node id="3158011787692997412" at="27,65,28,36" concept="1" />
+      <node id="3158011787692997412" at="33,52,34,19" concept="8" />
+      <node id="3158011787692997412" at="38,51,39,53" concept="1" />
+      <node id="3158011787692997417" at="39,53,40,73" concept="1" />
+      <node id="3158011787692997419" at="40,73,41,140" concept="3" />
+      <node id="3158011787692997429" at="41,140,42,38" concept="1" />
+      <node id="3158011787692997431" at="42,38,43,149" concept="1" />
+      <node id="3158011787692997436" at="43,149,44,145" concept="1" />
+      <node id="3158011787692997441" at="44,145,45,0" concept="5" />
+      <node id="3158011787692997421" at="47,69,48,49" concept="4" />
+      <node id="3158011787692997412" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3158011787692997412" at="22,0,25,0" concept="0" trace="SelectionBetweenWordsDown_Test#()V" />
+      <node id="3158011787692997412" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3158011787692997421" at="47,0,50,0" concept="7" trace="as_kdo89d_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="3158011787692997412" at="26,0,30,0" concept="2" trace="test_SelectionBetweenWordsDown#()V" />
+      <node id="3158011787692997412" at="37,0,47,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="3158011787692997412" at="22,43,23,60" />
+      <scope id="3158011787692997412" at="27,65,28,36" />
+      <scope id="3158011787692997412" at="33,52,34,19" />
+      <scope id="3158011787692997421" at="47,69,48,49" />
+      <scope id="3158011787692997412" at="22,0,25,0" />
+      <scope id="3158011787692997412" at="33,0,36,0">
+        <var name="owner" id="3158011787692997412" />
+      </scope>
+      <scope id="3158011787692997421" at="47,0,50,0">
+        <var name="o" id="3158011787692997421" />
+        <var name="type" id="3158011787692997421" />
+      </scope>
+      <scope id="3158011787692997412" at="26,0,30,0" />
+      <scope id="3158011787692997412" at="38,51,45,0">
+        <var name="selection" id="3158011787692997420" />
+      </scope>
+      <scope id="3158011787692997412" at="37,0,47,0" />
+      <unit id="3158011787692997412" at="31,0,51,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenWordsDown_Test$TestBody" />
+      <unit id="3158011787692997412" at="17,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectionBetweenWordsDown_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723290391">
+    <file name="LocalHomeToStart_Test.java">
+      <node id="6193633844723290391" at="19,34,20,60" concept="8" />
+      <node id="6193633844723290391" at="24,56,25,36" concept="1" />
+      <node id="6193633844723290391" at="30,52,31,19" concept="8" />
+      <node id="6193633844723290391" at="35,51,36,72" concept="1" />
+      <node id="6193633844723290397" at="36,72,37,72" concept="1" />
+      <node id="6193633844723290411" at="37,72,38,0" concept="5" />
+      <node id="6193633844723290426" at="38,0,39,0" concept="5" />
+      <node id="6193633844723290391" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723290391" at="19,0,22,0" concept="0" trace="LocalHomeToStart_Test#()V" />
+      <node id="6193633844723290391" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723290391" at="23,0,27,0" concept="2" trace="test_LocalHomeToStart#()V" />
+      <node id="6193633844723290391" at="34,0,41,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723290391" at="19,34,20,60" />
+      <scope id="6193633844723290391" at="24,56,25,36" />
+      <scope id="6193633844723290391" at="30,52,31,19" />
+      <scope id="6193633844723290391" at="19,0,22,0" />
+      <scope id="6193633844723290391" at="30,0,33,0">
+        <var name="owner" id="6193633844723290391" />
+      </scope>
+      <scope id="6193633844723290391" at="23,0,27,0" />
+      <scope id="6193633844723290391" at="35,51,39,0" />
+      <scope id="6193633844723290391" at="34,0,41,0" />
+      <unit id="6193633844723290391" at="28,0,42,0" name="test.de.slisson.mps.editor.multiline.LocalHomeToStart_Test$TestBody" />
+      <unit id="6193633844723290391" at="14,0,43,0" name="test.de.slisson.mps.editor.multiline.LocalHomeToStart_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723322512">
+    <file name="LocalHome_Test.java">
+      <node id="6193633844723322512" at="19,27,20,60" concept="8" />
+      <node id="6193633844723322512" at="24,49,25,36" concept="1" />
+      <node id="6193633844723322512" at="30,52,31,19" concept="8" />
+      <node id="6193633844723322512" at="35,51,36,72" concept="1" />
+      <node id="6193633844723322517" at="36,72,37,72" concept="1" />
+      <node id="6193633844723322512" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723322512" at="19,0,22,0" concept="0" trace="LocalHome_Test#()V" />
+      <node id="6193633844723322512" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723322512" at="23,0,27,0" concept="2" trace="test_LocalHome#()V" />
+      <node id="6193633844723322512" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723322512" at="19,27,20,60" />
+      <scope id="6193633844723322512" at="24,49,25,36" />
+      <scope id="6193633844723322512" at="30,52,31,19" />
+      <scope id="6193633844723322512" at="35,51,37,72" />
+      <scope id="6193633844723322512" at="19,0,22,0" />
+      <scope id="6193633844723322512" at="30,0,33,0">
+        <var name="owner" id="6193633844723322512" />
+      </scope>
+      <scope id="6193633844723322512" at="23,0,27,0" />
+      <scope id="6193633844723322512" at="34,0,39,0" />
+      <unit id="6193633844723322512" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.LocalHome_Test$TestBody" />
+      <unit id="6193633844723322512" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.LocalHome_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723333943">
+    <file name="LocalHomePreviousWord_Test.java">
+      <node id="6193633844723333943" at="19,39,20,60" concept="8" />
+      <node id="6193633844723333943" at="24,61,25,36" concept="1" />
+      <node id="6193633844723333943" at="30,52,31,19" concept="8" />
+      <node id="6193633844723333943" at="35,51,36,72" concept="1" />
+      <node id="6193633844723333948" at="36,72,37,72" concept="1" />
+      <node id="6193633844723333943" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723333943" at="19,0,22,0" concept="0" trace="LocalHomePreviousWord_Test#()V" />
+      <node id="6193633844723333943" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723333943" at="23,0,27,0" concept="2" trace="test_LocalHomePreviousWord#()V" />
+      <node id="6193633844723333943" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723333943" at="19,39,20,60" />
+      <scope id="6193633844723333943" at="24,61,25,36" />
+      <scope id="6193633844723333943" at="30,52,31,19" />
+      <scope id="6193633844723333943" at="35,51,37,72" />
+      <scope id="6193633844723333943" at="19,0,22,0" />
+      <scope id="6193633844723333943" at="30,0,33,0">
+        <var name="owner" id="6193633844723333943" />
+      </scope>
+      <scope id="6193633844723333943" at="23,0,27,0" />
+      <scope id="6193633844723333943" at="34,0,39,0" />
+      <unit id="6193633844723333943" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.LocalHomePreviousWord_Test$TestBody" />
+      <unit id="6193633844723333943" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.LocalHomePreviousWord_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723333957">
+    <file name="LocalEnd_Test.java">
+      <node id="6193633844723333957" at="19,26,20,60" concept="8" />
+      <node id="6193633844723333957" at="24,48,25,36" concept="1" />
+      <node id="6193633844723333957" at="30,52,31,19" concept="8" />
+      <node id="6193633844723333957" at="35,51,36,72" concept="1" />
+      <node id="6193633844723333962" at="36,72,37,71" concept="1" />
+      <node id="6193633844723333957" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723333957" at="19,0,22,0" concept="0" trace="LocalEnd_Test#()V" />
+      <node id="6193633844723333957" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723333957" at="23,0,27,0" concept="2" trace="test_LocalEnd#()V" />
+      <node id="6193633844723333957" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723333957" at="19,26,20,60" />
+      <scope id="6193633844723333957" at="24,48,25,36" />
+      <scope id="6193633844723333957" at="30,52,31,19" />
+      <scope id="6193633844723333957" at="35,51,37,71" />
+      <scope id="6193633844723333957" at="19,0,22,0" />
+      <scope id="6193633844723333957" at="30,0,33,0">
+        <var name="owner" id="6193633844723333957" />
+      </scope>
+      <scope id="6193633844723333957" at="23,0,27,0" />
+      <scope id="6193633844723333957" at="34,0,39,0" />
+      <unit id="6193633844723333957" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.LocalEnd_Test$TestBody" />
+      <unit id="6193633844723333957" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.LocalEnd_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723338787">
+    <file name="LocalEndNextWord_Test.java">
+      <node id="6193633844723338787" at="19,34,20,60" concept="8" />
+      <node id="6193633844723338787" at="24,56,25,36" concept="1" />
+      <node id="6193633844723338787" at="30,52,31,19" concept="8" />
+      <node id="6193633844723338787" at="35,51,36,72" concept="1" />
+      <node id="6193633844723338792" at="36,72,37,71" concept="1" />
+      <node id="6193633844723338787" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723338787" at="19,0,22,0" concept="0" trace="LocalEndNextWord_Test#()V" />
+      <node id="6193633844723338787" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723338787" at="23,0,27,0" concept="2" trace="test_LocalEndNextWord#()V" />
+      <node id="6193633844723338787" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723338787" at="19,34,20,60" />
+      <scope id="6193633844723338787" at="24,56,25,36" />
+      <scope id="6193633844723338787" at="30,52,31,19" />
+      <scope id="6193633844723338787" at="35,51,37,71" />
+      <scope id="6193633844723338787" at="19,0,22,0" />
+      <scope id="6193633844723338787" at="30,0,33,0">
+        <var name="owner" id="6193633844723338787" />
+      </scope>
+      <scope id="6193633844723338787" at="23,0,27,0" />
+      <scope id="6193633844723338787" at="34,0,39,0" />
+      <unit id="6193633844723338787" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.LocalEndNextWord_Test$TestBody" />
+      <unit id="6193633844723338787" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.LocalEndNextWord_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723341270">
+    <file name="LocalEndToEnd_Test.java">
+      <node id="6193633844723341270" at="19,31,20,60" concept="8" />
+      <node id="6193633844723341270" at="24,53,25,36" concept="1" />
+      <node id="6193633844723341270" at="30,52,31,19" concept="8" />
+      <node id="6193633844723341270" at="35,51,36,72" concept="1" />
+      <node id="6193633844723341275" at="36,72,37,71" concept="1" />
+      <node id="6193633844723341270" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723341270" at="19,0,22,0" concept="0" trace="LocalEndToEnd_Test#()V" />
+      <node id="6193633844723341270" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723341270" at="23,0,27,0" concept="2" trace="test_LocalEndToEnd#()V" />
+      <node id="6193633844723341270" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723341270" at="19,31,20,60" />
+      <scope id="6193633844723341270" at="24,53,25,36" />
+      <scope id="6193633844723341270" at="30,52,31,19" />
+      <scope id="6193633844723341270" at="35,51,37,71" />
+      <scope id="6193633844723341270" at="19,0,22,0" />
+      <scope id="6193633844723341270" at="30,0,33,0">
+        <var name="owner" id="6193633844723341270" />
+      </scope>
+      <scope id="6193633844723341270" at="23,0,27,0" />
+      <scope id="6193633844723341270" at="34,0,39,0" />
+      <unit id="6193633844723341270" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.LocalEndToEnd_Test$TestBody" />
+      <unit id="6193633844723341270" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.LocalEndToEnd_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723437832">
+    <file name="InsertText_Test.java">
+      <node id="6193633844723437832" at="19,28,20,60" concept="8" />
+      <node id="6193633844723437832" at="24,50,25,36" concept="1" />
+      <node id="6193633844723437832" at="30,52,31,19" concept="8" />
+      <node id="6193633844723437832" at="35,51,36,72" concept="1" />
+      <node id="6193633844723440886" at="36,72,37,22" concept="1" />
+      <node id="6193633844723437994" at="37,22,38,26" concept="1" />
+      <node id="6193633844723437832" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723437832" at="19,0,22,0" concept="0" trace="InsertText_Test#()V" />
+      <node id="6193633844723437832" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723437832" at="23,0,27,0" concept="2" trace="test_InsertText#()V" />
+      <node id="6193633844723437832" at="34,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723437832" at="19,28,20,60" />
+      <scope id="6193633844723437832" at="24,50,25,36" />
+      <scope id="6193633844723437832" at="30,52,31,19" />
+      <scope id="6193633844723437832" at="19,0,22,0" />
+      <scope id="6193633844723437832" at="30,0,33,0">
+        <var name="owner" id="6193633844723437832" />
+      </scope>
+      <scope id="6193633844723437832" at="35,51,38,26" />
+      <scope id="6193633844723437832" at="23,0,27,0" />
+      <scope id="6193633844723437832" at="34,0,40,0" />
+      <unit id="6193633844723437832" at="28,0,41,0" name="test.de.slisson.mps.editor.multiline.InsertText_Test$TestBody" />
+      <unit id="6193633844723437832" at="14,0,42,0" name="test.de.slisson.mps.editor.multiline.InsertText_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723448674">
+    <file name="InsertTextInBetween_Test.java">
+      <node id="6193633844723448674" at="19,37,20,60" concept="8" />
+      <node id="6193633844723448674" at="24,59,25,36" concept="1" />
+      <node id="6193633844723448674" at="30,52,31,19" concept="8" />
+      <node id="6193633844723448674" at="35,51,36,72" concept="1" />
+      <node id="6193633844723448679" at="36,72,37,22" concept="1" />
+      <node id="6193633844723448674" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723448674" at="19,0,22,0" concept="0" trace="InsertTextInBetween_Test#()V" />
+      <node id="6193633844723448674" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723448674" at="23,0,27,0" concept="2" trace="test_InsertTextInBetween#()V" />
+      <node id="6193633844723448674" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723448674" at="19,37,20,60" />
+      <scope id="6193633844723448674" at="24,59,25,36" />
+      <scope id="6193633844723448674" at="30,52,31,19" />
+      <scope id="6193633844723448674" at="35,51,37,22" />
+      <scope id="6193633844723448674" at="19,0,22,0" />
+      <scope id="6193633844723448674" at="30,0,33,0">
+        <var name="owner" id="6193633844723448674" />
+      </scope>
+      <scope id="6193633844723448674" at="23,0,27,0" />
+      <scope id="6193633844723448674" at="34,0,39,0" />
+      <unit id="6193633844723448674" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.InsertTextInBetween_Test$TestBody" />
+      <unit id="6193633844723448674" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.InsertTextInBetween_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723533060">
+    <file name="NewLineBefore_Test.java">
+      <node id="6193633844723533060" at="19,31,20,60" concept="8" />
+      <node id="6193633844723533060" at="24,53,25,36" concept="1" />
+      <node id="6193633844723533060" at="30,52,31,19" concept="8" />
+      <node id="6193633844723533060" at="35,51,36,72" concept="1" />
+      <node id="6193633844723533065" at="36,72,37,75" concept="1" />
+      <node id="6193633844723533067" at="37,75,38,26" concept="1" />
+      <node id="6193633844723533060" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723533060" at="19,0,22,0" concept="0" trace="NewLineBefore_Test#()V" />
+      <node id="6193633844723533060" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723533060" at="23,0,27,0" concept="2" trace="test_NewLineBefore#()V" />
+      <node id="6193633844723533060" at="34,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723533060" at="19,31,20,60" />
+      <scope id="6193633844723533060" at="24,53,25,36" />
+      <scope id="6193633844723533060" at="30,52,31,19" />
+      <scope id="6193633844723533060" at="19,0,22,0" />
+      <scope id="6193633844723533060" at="30,0,33,0">
+        <var name="owner" id="6193633844723533060" />
+      </scope>
+      <scope id="6193633844723533060" at="35,51,38,26" />
+      <scope id="6193633844723533060" at="23,0,27,0" />
+      <scope id="6193633844723533060" at="34,0,40,0" />
+      <unit id="6193633844723533060" at="28,0,41,0" name="test.de.slisson.mps.editor.multiline.NewLineBefore_Test$TestBody" />
+      <unit id="6193633844723533060" at="14,0,42,0" name="test.de.slisson.mps.editor.multiline.NewLineBefore_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723830848">
+    <file name="SelectUp_Test.java">
+      <node id="6193633844723830848" at="22,26,23,60" concept="8" />
+      <node id="6193633844723830848" at="27,48,28,36" concept="1" />
+      <node id="6193633844723830848" at="33,52,34,19" concept="8" />
+      <node id="6193633844723830848" at="38,51,39,53" concept="1" />
+      <node id="6193633844723830853" at="39,53,40,71" concept="1" />
+      <node id="6193633844723855459" at="40,71,41,140" concept="3" />
+      <node id="6193633844723855469" at="41,140,42,38" concept="1" />
+      <node id="6193633844723855471" at="42,38,43,0" concept="5" />
+      <node id="6193633844723855472" at="43,0,44,148" concept="1" />
+      <node id="6193633844723855479" at="44,148,45,144" concept="1" />
+      <node id="6193633844723855455" at="45,144,46,0" concept="5" />
+      <node id="6193633844723855461" at="48,69,49,49" concept="4" />
+      <node id="6193633844723830848" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723830848" at="22,0,25,0" concept="0" trace="SelectUp_Test#()V" />
+      <node id="6193633844723830848" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723855461" at="48,0,51,0" concept="7" trace="as_alx8ct_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6193633844723830848" at="26,0,30,0" concept="2" trace="test_SelectUp#()V" />
+      <node id="6193633844723830848" at="37,0,48,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723830848" at="22,26,23,60" />
+      <scope id="6193633844723830848" at="27,48,28,36" />
+      <scope id="6193633844723830848" at="33,52,34,19" />
+      <scope id="6193633844723855461" at="48,69,49,49" />
+      <scope id="6193633844723830848" at="22,0,25,0" />
+      <scope id="6193633844723830848" at="33,0,36,0">
+        <var name="owner" id="6193633844723830848" />
+      </scope>
+      <scope id="6193633844723855461" at="48,0,51,0">
+        <var name="o" id="6193633844723855461" />
+        <var name="type" id="6193633844723855461" />
+      </scope>
+      <scope id="6193633844723830848" at="26,0,30,0" />
+      <scope id="6193633844723830848" at="38,51,46,0">
+        <var name="selection" id="6193633844723855460" />
+      </scope>
+      <scope id="6193633844723830848" at="37,0,48,0" />
+      <unit id="6193633844723830848" at="31,0,52,0" name="test.de.slisson.mps.editor.multiline.SelectUp_Test$TestBody" />
+      <unit id="6193633844723830848" at="17,0,53,0" name="test.de.slisson.mps.editor.multiline.SelectUp_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723859435">
+    <file name="SelectDown_Test.java">
+      <node id="6193633844723859435" at="22,28,23,60" concept="8" />
+      <node id="6193633844723859435" at="27,50,28,36" concept="1" />
+      <node id="6193633844723859435" at="33,52,34,19" concept="8" />
+      <node id="6193633844723859435" at="38,51,39,53" concept="1" />
+      <node id="6193633844723859441" at="39,53,40,73" concept="1" />
+      <node id="6193633844723859443" at="40,73,41,141" concept="3" />
+      <node id="6193633844723859453" at="41,141,42,39" concept="1" />
+      <node id="6193633844723859455" at="42,39,43,0" concept="5" />
+      <node id="6193633844723859456" at="43,0,44,150" concept="1" />
+      <node id="6193633844723859463" at="44,150,45,146" concept="1" />
+      <node id="6193633844723860092" at="45,146,46,0" concept="5" />
+      <node id="6193633844723860157" at="46,0,47,73" concept="1" />
+      <node id="6193633844723860159" at="47,73,48,141" concept="3" />
+      <node id="6193633844723860169" at="48,141,49,39" concept="1" />
+      <node id="6193633844723860171" at="49,39,50,0" concept="5" />
+      <node id="6193633844723860172" at="50,0,51,150" concept="1" />
+      <node id="6193633844723860179" at="51,150,52,146" concept="1" />
+      <node id="6193633844723860124" at="52,146,53,0" concept="5" />
+      <node id="6193633844723859470" at="53,0,54,0" concept="5" />
+      <node id="6193633844723859445" at="56,69,57,49" concept="4" />
+      <node id="6193633844723860161" at="59,69,60,49" concept="4" />
+      <node id="6193633844723859435" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723859435" at="22,0,25,0" concept="0" trace="SelectDown_Test#()V" />
+      <node id="6193633844723859435" at="33,0,36,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723859445" at="56,0,59,0" concept="7" trace="as_xivxa1_a0a2a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6193633844723860161" at="59,0,62,0" concept="7" trace="as_xivxa1_a0a9a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6193633844723859435" at="26,0,30,0" concept="2" trace="test_SelectDown#()V" />
+      <node id="6193633844723859435" at="37,0,56,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723859435" at="22,28,23,60" />
+      <scope id="6193633844723859435" at="27,50,28,36" />
+      <scope id="6193633844723859435" at="33,52,34,19" />
+      <scope id="6193633844723859445" at="56,69,57,49" />
+      <scope id="6193633844723860161" at="59,69,60,49" />
+      <scope id="6193633844723859435" at="22,0,25,0" />
+      <scope id="6193633844723859435" at="33,0,36,0">
+        <var name="owner" id="6193633844723859435" />
+      </scope>
+      <scope id="6193633844723859445" at="56,0,59,0">
+        <var name="o" id="6193633844723859445" />
+        <var name="type" id="6193633844723859445" />
+      </scope>
+      <scope id="6193633844723860161" at="59,0,62,0">
+        <var name="o" id="6193633844723860161" />
+        <var name="type" id="6193633844723860161" />
+      </scope>
+      <scope id="6193633844723859435" at="26,0,30,0" />
+      <scope id="6193633844723859435" at="38,51,54,0">
+        <var name="selection1" id="6193633844723859444" />
+        <var name="selection2" id="6193633844723860160" />
+      </scope>
+      <scope id="6193633844723859435" at="37,0,56,0" />
+      <unit id="6193633844723859435" at="31,0,63,0" name="test.de.slisson.mps.editor.multiline.SelectDown_Test$TestBody" />
+      <unit id="6193633844723859435" at="17,0,64,0" name="test.de.slisson.mps.editor.multiline.SelectDown_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844723985224">
+    <file name="Delete_Test.java">
+      <node id="6193633844723985224" at="19,24,20,60" concept="8" />
+      <node id="6193633844723985224" at="24,46,25,36" concept="1" />
+      <node id="6193633844723985224" at="30,52,31,19" concept="8" />
+      <node id="6193633844723985224" at="35,51,36,72" concept="1" />
+      <node id="6193633844723999849" at="36,72,37,69" concept="1" />
+      <node id="6193633844723985224" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844723985224" at="19,0,22,0" concept="0" trace="Delete_Test#()V" />
+      <node id="6193633844723985224" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844723985224" at="23,0,27,0" concept="2" trace="test_Delete#()V" />
+      <node id="6193633844723985224" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844723985224" at="19,24,20,60" />
+      <scope id="6193633844723985224" at="24,46,25,36" />
+      <scope id="6193633844723985224" at="30,52,31,19" />
+      <scope id="6193633844723985224" at="35,51,37,69" />
+      <scope id="6193633844723985224" at="19,0,22,0" />
+      <scope id="6193633844723985224" at="30,0,33,0">
+        <var name="owner" id="6193633844723985224" />
+      </scope>
+      <scope id="6193633844723985224" at="23,0,27,0" />
+      <scope id="6193633844723985224" at="34,0,39,0" />
+      <unit id="6193633844723985224" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.Delete_Test$TestBody" />
+      <unit id="6193633844723985224" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.Delete_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844724012413">
+    <file name="Backspace_Test.java">
+      <node id="6193633844724012413" at="19,27,20,60" concept="8" />
+      <node id="6193633844724012413" at="24,49,25,36" concept="1" />
+      <node id="6193633844724012413" at="30,52,31,19" concept="8" />
+      <node id="6193633844724012413" at="35,51,36,72" concept="1" />
+      <node id="6193633844724012418" at="36,72,37,72" concept="1" />
+      <node id="6193633844724012413" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844724012413" at="19,0,22,0" concept="0" trace="Backspace_Test#()V" />
+      <node id="6193633844724012413" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844724012413" at="23,0,27,0" concept="2" trace="test_Backspace#()V" />
+      <node id="6193633844724012413" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844724012413" at="19,27,20,60" />
+      <scope id="6193633844724012413" at="24,49,25,36" />
+      <scope id="6193633844724012413" at="30,52,31,19" />
+      <scope id="6193633844724012413" at="35,51,37,72" />
+      <scope id="6193633844724012413" at="19,0,22,0" />
+      <scope id="6193633844724012413" at="30,0,33,0">
+        <var name="owner" id="6193633844724012413" />
+      </scope>
+      <scope id="6193633844724012413" at="23,0,27,0" />
+      <scope id="6193633844724012413" at="34,0,39,0" />
+      <unit id="6193633844724012413" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.Backspace_Test$TestBody" />
+      <unit id="6193633844724012413" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.Backspace_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844724016988">
+    <file name="DeleteWord_Test.java">
+      <node id="6193633844724016988" at="19,28,20,60" concept="8" />
+      <node id="6193633844724016988" at="24,50,25,36" concept="1" />
+      <node id="6193633844724016988" at="30,52,31,19" concept="8" />
+      <node id="6193633844724016988" at="35,51,36,72" concept="1" />
+      <node id="6193633844724016993" at="36,72,37,87" concept="1" />
+      <node id="6193633844724016988" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844724016988" at="19,0,22,0" concept="0" trace="DeleteWord_Test#()V" />
+      <node id="6193633844724016988" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844724016988" at="23,0,27,0" concept="2" trace="test_DeleteWord#()V" />
+      <node id="6193633844724016988" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844724016988" at="19,28,20,60" />
+      <scope id="6193633844724016988" at="24,50,25,36" />
+      <scope id="6193633844724016988" at="30,52,31,19" />
+      <scope id="6193633844724016988" at="35,51,37,87" />
+      <scope id="6193633844724016988" at="19,0,22,0" />
+      <scope id="6193633844724016988" at="30,0,33,0">
+        <var name="owner" id="6193633844724016988" />
+      </scope>
+      <scope id="6193633844724016988" at="23,0,27,0" />
+      <scope id="6193633844724016988" at="34,0,39,0" />
+      <unit id="6193633844724016988" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.DeleteWord_Test$TestBody" />
+      <unit id="6193633844724016988" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.DeleteWord_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:20dbc048-3981-4037-a644-9624057c7759(test.de.slisson.mps.editor.multiline@tests)/6193633844724027151">
+    <file name="DeleteWordAtStart_Test.java">
+      <node id="6193633844724027151" at="19,35,20,60" concept="8" />
+      <node id="6193633844724027151" at="24,57,25,36" concept="1" />
+      <node id="6193633844724027151" at="30,52,31,19" concept="8" />
+      <node id="6193633844724027151" at="35,51,36,72" concept="1" />
+      <node id="6193633844724027156" at="36,72,37,87" concept="1" />
+      <node id="6193633844724027151" at="16,0,18,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6193633844724027151" at="19,0,22,0" concept="0" trace="DeleteWordAtStart_Test#()V" />
+      <node id="6193633844724027151" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6193633844724027151" at="23,0,27,0" concept="2" trace="test_DeleteWordAtStart#()V" />
+      <node id="6193633844724027151" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6193633844724027151" at="19,35,20,60" />
+      <scope id="6193633844724027151" at="24,57,25,36" />
+      <scope id="6193633844724027151" at="30,52,31,19" />
+      <scope id="6193633844724027151" at="35,51,37,87" />
+      <scope id="6193633844724027151" at="19,0,22,0" />
+      <scope id="6193633844724027151" at="30,0,33,0">
+        <var name="owner" id="6193633844724027151" />
+      </scope>
+      <scope id="6193633844724027151" at="23,0,27,0" />
+      <scope id="6193633844724027151" at="34,0,39,0" />
+      <unit id="6193633844724027151" at="28,0,40,0" name="test.de.slisson.mps.editor.multiline.DeleteWordAtStart_Test$TestBody" />
+      <unit id="6193633844724027151" at="14,0,41,0" name="test.de.slisson.mps.editor.multiline.DeleteWordAtStart_Test" />
+    </file>
+  </root>
+</debug-info>
+

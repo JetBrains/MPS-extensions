@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,42,0" name="de.slisson.mps.tables.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:34e0c1ed-0f48-4111-b67d-94f31f8ffdf0(de.slisson.mps.tables.constraints)/3785936898438265903">
+    <file name="RGBAColorValue_Constraints.java">
+      <node id="3785936898438265903" at="18,88,19,51" concept="9" />
+      <node id="3785936898438266060" at="19,51,20,31" concept="2" />
+      <node id="3785936898438266060" at="24,54,25,61" concept="9" />
+      <node id="3785936898438266060" at="28,109,29,99" concept="5" />
+      <node id="3785936898438266060" at="30,53,31,162" concept="2" />
+      <node id="3785936898438266060" at="32,7,33,20" concept="6" />
+      <node id="1225459940630" at="35,85,36,135" concept="6" />
+      <node id="3785936898438265903" at="41,0,42,0" concept="7" trace="RGBAColorValue$PN" />
+      <node id="3785936898438265903" at="45,0,46,0" concept="7" trace="value$va7Y" />
+      <node id="3785936898438266060" at="24,0,27,0" concept="1" trace="Value_PD#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="3785936898438266060" at="29,99,32,7" concept="3" />
+      <node id="3785936898438266060" at="35,0,38,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="3785936898438265903" at="18,0,22,0" concept="1" trace="RGBAColorValue_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="3785936898438266060" at="27,0,35,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="3785936898438266060" at="24,54,25,61" />
+      <scope id="3785936898438266060" at="30,53,31,162" />
+      <scope id="3785936898438266063" at="35,85,36,135" />
+      <scope id="3785936898438265903" at="18,88,20,31" />
+      <scope id="3785936898438266060" at="24,0,27,0">
+        <var name="container" id="3785936898438266060" />
+      </scope>
+      <scope id="3785936898438266060" at="35,0,38,0">
+        <var name="node" id="3785936898438266060" />
+        <var name="propertyValue" id="3785936898438266060" />
+      </scope>
+      <scope id="3785936898438265903" at="18,0,22,0">
+        <var name="initContext" id="3785936898438265903" />
+      </scope>
+      <scope id="3785936898438266060" at="28,109,33,20">
+        <var name="result" id="3785936898438266060" />
+      </scope>
+      <scope id="3785936898438266060" at="27,0,35,0">
+        <var name="checkingNodeContext" id="3785936898438266060" />
+        <var name="node" id="3785936898438266060" />
+        <var name="propertyValue" id="3785936898438266060" />
+      </scope>
+      <unit id="3785936898438265903" at="40,0,43,0" name="de.slisson.mps.tables.constraints.RGBAColorValue_Constraints$CONCEPTS" />
+      <unit id="3785936898438265903" at="44,0,47,0" name="de.slisson.mps.tables.constraints.RGBAColorValue_Constraints$PROPS" />
+      <unit id="3785936898438266060" at="23,0,39,0" name="de.slisson.mps.tables.constraints.RGBAColorValue_Constraints$Value_PD" />
+      <unit id="3785936898438265903" at="17,0,48,0" name="de.slisson.mps.tables.constraints.RGBAColorValue_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:34e0c1ed-0f48-4111-b67d-94f31f8ffdf0(de.slisson.mps.tables.constraints)/3785936898441525209">
+    <file name="TableStyleItemQuery_Constraints.java">
+      <node id="3785936898441525209" at="11,93,12,56" concept="9" />
+      <node id="3785936898441525209" at="16,0,17,0" concept="7" trace="TableStyleItemQuery$_G" />
+      <node id="3785936898441525209" at="11,0,14,0" concept="1" trace="TableStyleItemQuery_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="3785936898441525209" at="11,93,12,56" />
+      <scope id="3785936898441525209" at="11,0,14,0">
+        <var name="initContext" id="3785936898441525209" />
+      </scope>
+      <unit id="3785936898441525209" at="15,0,18,0" name="de.slisson.mps.tables.constraints.TableStyleItemQuery_Constraints$CONCEPTS" />
+      <unit id="3785936898441525209" at="10,0,19,0" name="de.slisson.mps.tables.constraints.TableStyleItemQuery_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:34e0c1ed-0f48-4111-b67d-94f31f8ffdf0(de.slisson.mps.tables.constraints)/5220503293660940365">
+    <file name="HeaderReference_Constraints.java">
+      <node id="5220503293660940365" at="14,89,15,52" concept="9" />
+      <node id="5220503293660940417" at="15,52,16,26" concept="2" />
+      <node id="5220503293660940417" at="20,54,21,56" concept="9" />
+      <node id="5220503293660940365" at="26,0,27,0" concept="7" trace="HeaderReference$wg" />
+      <node id="5220503293660940365" at="30,0,31,0" concept="7" trace="header$x9jC" />
+      <node id="5220503293660940417" at="20,0,23,0" concept="1" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="5220503293660940365" at="14,0,18,0" concept="1" trace="HeaderReference_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="5220503293660940417" at="20,54,21,56" />
+      <scope id="5220503293660940365" at="14,89,16,26" />
+      <scope id="5220503293660940417" at="20,0,23,0">
+        <var name="container" id="5220503293660940417" />
+      </scope>
+      <scope id="5220503293660940365" at="14,0,18,0">
+        <var name="initContext" id="5220503293660940365" />
+      </scope>
+      <unit id="5220503293660940365" at="25,0,28,0" name="de.slisson.mps.tables.constraints.HeaderReference_Constraints$CONCEPTS" />
+      <unit id="5220503293660940365" at="29,0,32,0" name="de.slisson.mps.tables.constraints.HeaderReference_Constraints$LINKS" />
+      <unit id="5220503293660940417" at="19,0,24,0" name="de.slisson.mps.tables.constraints.HeaderReference_Constraints$RD1" />
+      <unit id="5220503293660940365" at="13,0,33,0" name="de.slisson.mps.tables.constraints.HeaderReference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:34e0c1ed-0f48-4111-b67d-94f31f8ffdf0(de.slisson.mps.tables.constraints)/5220503293666524680">
+    <file name="ChildCollection_Constraints.java">
+      <node id="5220503293666524680" at="29,89,30,52" concept="9" />
+      <node id="5220503293666524732" at="30,52,31,26" concept="2" />
+      <node id="5220503293666524732" at="35,54,36,64" concept="9" />
+      <node id="5220503293666524732" at="43,61,44,128" concept="6" />
+      <node id="6646476627295594344" at="47,78,48,139" concept="5" />
+      <node id="6646476627295594353" at="48,139,49,130" concept="5" />
+      <node id="6646476627295594359" at="49,130,50,140" concept="5" />
+      <node id="6646476627295594365" at="50,140,51,184" concept="6" />
+      <node id="5220503293666524680" at="58,0,59,0" concept="7" trace="ChildCollection$n8" />
+      <node id="5220503293666524680" at="59,0,60,0" concept="7" trace="BaseEditorComponent$49" />
+      <node id="5220503293666524680" at="63,0,64,0" concept="7" trace="linkDeclaration$JIBU" />
+      <node id="5220503293666524732" at="35,0,38,0" concept="1" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="5220503293666524680" at="29,0,33,0" concept="1" trace="ChildCollection_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="5220503293666524732" at="42,0,46,0" concept="4" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="5220503293666524732" at="46,0,53,0" concept="4" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="5220503293666524732" at="40,54,53,8" concept="6" />
+      <node id="5220503293666524732" at="38,0,55,0" concept="4" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="5220503293666524732" at="35,54,36,64" />
+      <scope id="5220503293666524732" at="43,61,44,128" />
+      <scope id="5220503293666524680" at="29,89,31,26" />
+      <scope id="5220503293666524732" at="35,0,38,0">
+        <var name="container" id="5220503293666524732" />
+      </scope>
+      <scope id="5220503293666524680" at="29,0,33,0">
+        <var name="initContext" id="5220503293666524680" />
+      </scope>
+      <scope id="5220503293666524732" at="42,0,46,0" />
+      <scope id="5220503293666524732" at="47,78,51,184">
+        <var name="editedConcept" id="6646476627295594354" />
+        <var name="editorComponent" id="6646476627295594345" />
+        <var name="links" id="6646476627295594360" />
+      </scope>
+      <scope id="5220503293666524732" at="46,0,53,0">
+        <var name="_context" id="5220503293666524732" />
+      </scope>
+      <scope id="5220503293666524732" at="40,54,53,8" />
+      <scope id="5220503293666524732" at="38,0,55,0" />
+      <unit id="5220503293666524680" at="62,0,65,0" name="de.slisson.mps.tables.constraints.ChildCollection_Constraints$LINKS" />
+      <unit id="5220503293666524680" at="57,0,61,0" name="de.slisson.mps.tables.constraints.ChildCollection_Constraints$CONCEPTS" />
+      <unit id="5220503293666524732" at="41,17,53,7" name="de.slisson.mps.tables.constraints.ChildCollection_Constraints$RD1$1" />
+      <unit id="5220503293666524732" at="34,0,56,0" name="de.slisson.mps.tables.constraints.ChildCollection_Constraints$RD1" />
+      <unit id="5220503293666524680" at="28,0,66,0" name="de.slisson.mps.tables.constraints.ChildCollection_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:34e0c1ed-0f48-4111-b67d-94f31f8ffdf0(de.slisson.mps.tables.constraints)/7946551912908771209">
+    <file name="SubstituteNodeFunction_LinkReference_Constraints.java">
+      <node id="7946551912908771209" at="28,110,29,73" concept="9" />
+      <node id="7946551912908771309" at="29,73,30,26" concept="2" />
+      <node id="7946551912908771309" at="34,54,35,53" concept="9" />
+      <node id="7946551912908771309" at="42,61,43,134" concept="6" />
+      <node id="6646476627295594918" at="46,78,47,24" concept="5" />
+      <node id="6646476627295594921" at="47,24,48,191" concept="5" />
+      <node id="6646476627295594932" at="49,25,50,183" concept="2" />
+      <node id="6646476627295594948" at="51,18,52,313" concept="2" />
+      <node id="6646476627295594967" at="53,11,54,154" concept="6" />
+      <node id="7946551912908771209" at="61,0,62,0" concept="7" trace="SubstituteNodeFunction_LinkReference$$M" />
+      <node id="7946551912908771209" at="62,0,63,0" concept="7" trace="AbstractComponent$YR" />
+      <node id="7946551912908771209" at="63,0,64,0" concept="7" trace="SubstituteNodeFunction$AT" />
+      <node id="7946551912908771209" at="67,0,68,0" concept="7" trace="link$Z8ix" />
+      <node id="7946551912908771209" at="68,0,69,0" concept="7" trace="conceptDeclaration$HJmJ" />
+      <node id="7946551912908771209" at="69,0,70,0" concept="7" trace="rolePath$4_uC" />
+      <node id="7946551912908771209" at="70,0,71,0" concept="7" trace="target$m40F" />
+      <node id="6646476627295594946" at="51,16,53,11" concept="0" />
+      <node id="7946551912908771309" at="34,0,37,0" concept="1" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="7946551912908771209" at="28,0,32,0" concept="1" trace="SubstituteNodeFunction_LinkReference_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="7946551912908771309" at="41,0,45,0" concept="4" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6646476627295594930" at="48,191,53,11" concept="3" />
+      <node id="7946551912908771309" at="45,0,56,0" concept="4" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="7946551912908771309" at="39,54,56,8" concept="6" />
+      <node id="7946551912908771309" at="37,0,58,0" concept="4" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="7946551912908771309" at="34,54,35,53" />
+      <scope id="7946551912908771309" at="42,61,43,134" />
+      <scope id="6646476627295594931" at="49,25,50,183" />
+      <scope id="6646476627295594947" at="51,18,52,313" />
+      <scope id="7946551912908771209" at="28,110,30,26" />
+      <scope id="7946551912908771309" at="34,0,37,0">
+        <var name="container" id="7946551912908771309" />
+      </scope>
+      <scope id="7946551912908771209" at="28,0,32,0">
+        <var name="initContext" id="7946551912908771209" />
+      </scope>
+      <scope id="7946551912908771309" at="41,0,45,0" />
+      <scope id="7946551912908771309" at="46,78,54,154">
+        <var name="concept" id="6646476627295594919" />
+        <var name="pos" id="6646476627295594922" />
+      </scope>
+      <scope id="7946551912908771309" at="45,0,56,0">
+        <var name="_context" id="7946551912908771309" />
+      </scope>
+      <scope id="7946551912908771309" at="39,54,56,8" />
+      <scope id="7946551912908771309" at="37,0,58,0" />
+      <unit id="7946551912908771209" at="60,0,65,0" name="de.slisson.mps.tables.constraints.SubstituteNodeFunction_LinkReference_Constraints$CONCEPTS" />
+      <unit id="7946551912908771209" at="66,0,72,0" name="de.slisson.mps.tables.constraints.SubstituteNodeFunction_LinkReference_Constraints$LINKS" />
+      <unit id="7946551912908771309" at="40,17,56,7" name="de.slisson.mps.tables.constraints.SubstituteNodeFunction_LinkReference_Constraints$RD1$1" />
+      <unit id="7946551912908771309" at="33,0,59,0" name="de.slisson.mps.tables.constraints.SubstituteNodeFunction_LinkReference_Constraints$RD1" />
+      <unit id="7946551912908771209" at="27,0,73,0" name="de.slisson.mps.tables.constraints.SubstituteNodeFunction_LinkReference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:34e0c1ed-0f48-4111-b67d-94f31f8ffdf0(de.slisson.mps.tables.constraints)/8843513109886151103">
+    <file name="SharedVariableReference_Constraints.java">
+      <node id="8843513109886151103" at="25,97,26,60" concept="9" />
+      <node id="8843513109886151104" at="26,60,27,26" concept="2" />
+      <node id="8843513109886151104" at="31,54,32,68" concept="9" />
+      <node id="8843513109886151104" at="39,61,40,134" concept="6" />
+      <node id="6646476627295595102" at="43,78,44,207" concept="6" />
+      <node id="8843513109886151103" at="51,0,52,0" concept="7" trace="SharedVariableReference$gT" />
+      <node id="8843513109886151103" at="52,0,53,0" concept="7" trace="TableCellQuery$qw" />
+      <node id="8843513109886151103" at="56,0,57,0" concept="7" trace="variableDeclaration$9VZK" />
+      <node id="8843513109886151103" at="57,0,58,0" concept="7" trace="sharedVariables$wDSD" />
+      <node id="8843513109886151104" at="31,0,34,0" concept="1" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="8843513109886151103" at="25,0,29,0" concept="1" trace="SharedVariableReference_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="8843513109886151104" at="38,0,42,0" concept="4" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8843513109886151104" at="42,0,46,0" concept="4" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="8843513109886151104" at="36,54,46,8" concept="6" />
+      <node id="8843513109886151104" at="34,0,48,0" concept="4" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="8843513109886151104" at="31,54,32,68" />
+      <scope id="8843513109886151104" at="39,61,40,134" />
+      <scope id="8843513109886151104" at="43,78,44,207" />
+      <scope id="8843513109886151103" at="25,97,27,26" />
+      <scope id="8843513109886151104" at="31,0,34,0">
+        <var name="container" id="8843513109886151104" />
+      </scope>
+      <scope id="8843513109886151103" at="25,0,29,0">
+        <var name="initContext" id="8843513109886151103" />
+      </scope>
+      <scope id="8843513109886151104" at="38,0,42,0" />
+      <scope id="8843513109886151104" at="42,0,46,0">
+        <var name="_context" id="8843513109886151104" />
+      </scope>
+      <scope id="8843513109886151104" at="36,54,46,8" />
+      <scope id="8843513109886151104" at="34,0,48,0" />
+      <unit id="8843513109886151103" at="50,0,54,0" name="de.slisson.mps.tables.constraints.SharedVariableReference_Constraints$CONCEPTS" />
+      <unit id="8843513109886151103" at="55,0,59,0" name="de.slisson.mps.tables.constraints.SharedVariableReference_Constraints$LINKS" />
+      <unit id="8843513109886151104" at="37,17,46,7" name="de.slisson.mps.tables.constraints.SharedVariableReference_Constraints$RD1$1" />
+      <unit id="8843513109886151104" at="30,0,49,0" name="de.slisson.mps.tables.constraints.SharedVariableReference_Constraints$RD1" />
+      <unit id="8843513109886151103" at="24,0,60,0" name="de.slisson.mps.tables.constraints.SharedVariableReference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

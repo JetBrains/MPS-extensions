@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:c7d5b9dd-a05f-4be2-bc73-f2e16994cc67/3751132065236767060:jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodInstance" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ExtensionDescriptor.java">
+      <unit at="8,0,13,0" name="de.slisson.mps.conditionalEditor.demolang.plugin.ExtensionDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:16e0e06f-9e0b-4c67-b1e0-b7bdb58a8945(de.slisson.mps.conditionalEditor.demolang.plugin)/1679635547171364807">
+    <file name="ChangeAliasNewAlias.java">
+      <node id="1679635547171364807" at="16,32,17,63" concept="6" />
+      <node id="1679635547171370018" at="24,32,25,17" concept="4" />
+      <node id="5889962371420819463" at="29,97,30,186" concept="2" />
+      <node id="1679635547171364807" at="36,0,37,0" concept="5" trace="ChangeAlias$CY" />
+      <node id="1679635547171364807" at="16,0,19,0" concept="1" trace="ChangeAliasNewAlias#()V" />
+      <node id="1679635547171369187" at="23,0,27,0" concept="3" trace="getPriority#()I" />
+      <node id="5889962371420851520" at="28,0,32,0" concept="3" trace="modifyMapping#(Ljava/util/Map;Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <node id="1679635547171368831" at="21,36,32,6" concept="4" />
+      <node id="1679635547171364813" at="21,0,34,0" concept="0" trace="get#()Lnl/f1re/mps/aliascustomization/plugin/IAliasCustomization;" />
+      <scope id="1679635547171364807" at="16,32,17,63" />
+      <scope id="1679635547171369191" at="24,32,25,17" />
+      <scope id="5889962371420851531" at="29,97,30,186" />
+      <scope id="1679635547171364807" at="16,0,19,0" />
+      <scope id="1679635547171369187" at="23,0,27,0" />
+      <scope id="5889962371420851520" at="28,0,32,0">
+        <var name="mappings" id="5889962371420851523" />
+        <var name="repository" id="5889962371420851527" />
+      </scope>
+      <scope id="1679635547171364817" at="21,36,32,6" />
+      <scope id="1679635547171364813" at="21,0,34,0" />
+      <unit id="1679635547171364807" at="35,0,38,0" name="de.slisson.mps.conditionalEditor.demolang.plugin.ChangeAliasNewAlias$CONCEPTS" />
+      <unit id="1679635547171369172" at="22,15,32,5" name="de.slisson.mps.conditionalEditor.demolang.plugin.ChangeAliasNewAlias$1" />
+      <unit id="1679635547171364807" at="15,0,39,0" name="de.slisson.mps.conditionalEditor.demolang.plugin.ChangeAliasNewAlias" />
+    </file>
+  </root>
+</debug-info>
+

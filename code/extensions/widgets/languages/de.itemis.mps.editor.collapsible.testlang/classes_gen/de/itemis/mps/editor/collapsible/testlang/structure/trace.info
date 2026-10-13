@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,62,0" name="de.itemis.mps.editor.collapsible.testlang.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="12,0,44,0" name="de.itemis.mps.editor.collapsible.testlang.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="14,0,101,0" name="de.itemis.mps.editor.collapsible.testlang.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:7e4984f5-9a8f-4f8b-a5ad-97797cae2191(de.itemis.mps.editor.collapsible.testlang.structure)/5303122274454864429">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5303122274454864429" at="12,0,13,0" concept="1" trace="props_CollapsibleDefault" />
+      <node id="5303122274454864429" at="24,47,25,76" concept="3" />
+      <node id="5303122274454864429" at="25,76,26,35" concept="0" />
+      <node id="5303122274454864429" at="26,35,27,50" concept="0" />
+      <node id="5303122274454864429" at="28,9,29,40" concept="4" />
+      <node id="5303122274454864429" at="23,52,28,9" concept="2" />
+      <scope id="5303122274454864429" at="24,47,27,50">
+        <var name="cpb" id="5303122274454864429" />
+      </scope>
+      <scope id="5303122274454864429" at="23,52,29,40" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5303122274454864429" at="14,0,15,0" concept="5" trace="CollapsibleDefault" />
+      <node id="5303122274454864429" at="21,116,22,57" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5303122274454864429" at="15,0,16,0" concept="1" trace="myConceptCollapsibleDefault" />
+      <node id="5303122274454864429" at="41,52,42,43" concept="4" />
+      <node id="5303122274454864429" at="61,76,62,194" concept="3" />
+      <node id="5303122274454864429" at="62,194,63,33" concept="0" />
+      <node id="5303122274454864429" at="63,33,64,71" concept="0" />
+      <node id="5303122274454864429" at="64,71,65,128" concept="0" />
+      <node id="5303122274454864429" at="65,128,66,17" concept="0" />
+      <node id="5303122274454864429" at="66,17,67,22" concept="4" />
+      <node id="5303122274454864429" at="61,0,69,0" concept="6" trace="createDescriptorForCollapsibleDefault#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5303122274454864429" at="41,52,42,43" />
+      <scope id="5303122274454864429" at="61,76,67,22">
+        <var name="b" id="5303122274454864429" />
+      </scope>
+      <scope id="5303122274454864429" at="61,0,69,0" />
+    </file>
+  </root>
+  <root nodeRef="r:7e4984f5-9a8f-4f8b-a5ad-97797cae2191(de.itemis.mps.editor.collapsible.testlang.structure)/6960125930951506790">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6960125930951506790" at="13,0,14,0" concept="1" trace="props_CollapsibleGrouped" />
+      <node id="6960125930951506790" at="31,47,32,76" concept="3" />
+      <node id="6960125930951506790" at="32,76,33,52" concept="0" />
+      <node id="6960125930951506790" at="33,52,34,50" concept="0" />
+      <node id="6960125930951506790" at="35,9,36,40" concept="4" />
+      <node id="6960125930951506790" at="30,52,35,9" concept="2" />
+      <scope id="6960125930951506790" at="31,47,34,50">
+        <var name="cpb" id="6960125930951506790" />
+      </scope>
+      <scope id="6960125930951506790" at="30,52,36,40" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6960125930951506790" at="15,0,16,0" concept="5" trace="CollapsibleGrouped" />
+      <node id="6960125930951506790" at="22,57,23,57" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6960125930951506790" at="16,0,17,0" concept="1" trace="myConceptCollapsibleGrouped" />
+      <node id="6960125930951506790" at="43,52,44,43" concept="4" />
+      <node id="6960125930951506790" at="69,76,70,194" concept="3" />
+      <node id="6960125930951506790" at="70,194,71,33" concept="0" />
+      <node id="6960125930951506790" at="71,33,72,128" concept="0" />
+      <node id="6960125930951506790" at="72,128,73,17" concept="0" />
+      <node id="6960125930951506790" at="73,17,74,22" concept="4" />
+      <node id="6960125930951506790" at="69,0,76,0" concept="6" trace="createDescriptorForCollapsibleGrouped#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6960125930951506790" at="43,52,44,43" />
+      <scope id="6960125930951506790" at="69,76,74,22">
+        <var name="b" id="6960125930951506790" />
+      </scope>
+      <scope id="6960125930951506790" at="69,0,76,0" />
+    </file>
+  </root>
+  <root nodeRef="r:7e4984f5-9a8f-4f8b-a5ad-97797cae2191(de.itemis.mps.editor.collapsible.testlang.structure)/6960125930951536464">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6960125930951536464" at="14,0,15,0" concept="1" trace="props_CollapsibleUngrouped" />
+      <node id="6960125930951536464" at="38,49,39,76" concept="3" />
+      <node id="6960125930951536464" at="39,76,40,54" concept="0" />
+      <node id="6960125930951536464" at="40,54,41,52" concept="0" />
+      <node id="6960125930951536464" at="42,9,43,42" concept="4" />
+      <node id="6960125930951536464" at="37,54,42,9" concept="2" />
+      <scope id="6960125930951536464" at="38,49,41,52">
+        <var name="cpb" id="6960125930951536464" />
+      </scope>
+      <scope id="6960125930951536464" at="37,54,43,42" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6960125930951536464" at="16,0,17,0" concept="5" trace="CollapsibleUngrouped" />
+      <node id="6960125930951536464" at="23,57,24,59" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6960125930951536464" at="17,0,18,0" concept="1" trace="myConceptCollapsibleUngrouped" />
+      <node id="6960125930951536464" at="45,54,46,45" concept="4" />
+      <node id="6960125930951536464" at="76,78,77,196" concept="3" />
+      <node id="6960125930951536464" at="77,196,78,33" concept="0" />
+      <node id="6960125930951536464" at="78,33,79,128" concept="0" />
+      <node id="6960125930951536464" at="79,128,80,17" concept="0" />
+      <node id="6960125930951536464" at="80,17,81,22" concept="4" />
+      <node id="6960125930951536464" at="76,0,83,0" concept="6" trace="createDescriptorForCollapsibleUngrouped#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6960125930951536464" at="45,54,46,45" />
+      <scope id="6960125930951536464" at="76,78,81,22">
+        <var name="b" id="6960125930951536464" />
+      </scope>
+      <scope id="6960125930951536464" at="76,0,83,0" />
+    </file>
+  </root>
+  <root nodeRef="r:7e4984f5-9a8f-4f8b-a5ad-97797cae2191(de.itemis.mps.editor.collapsible.testlang.structure)/8796578821620848758">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8796578821620848758" at="15,0,16,0" concept="1" trace="props_CollapsibleWithCallbackCollapsed" />
+      <node id="8796578821620848758" at="45,61,46,76" concept="3" />
+      <node id="8796578821620848758" at="46,76,47,35" concept="0" />
+      <node id="8796578821620848758" at="47,35,48,64" concept="0" />
+      <node id="8796578821620848758" at="49,9,50,54" concept="4" />
+      <node id="8796578821620848758" at="44,66,49,9" concept="2" />
+      <scope id="8796578821620848758" at="45,61,48,64">
+        <var name="cpb" id="8796578821620848758" />
+      </scope>
+      <scope id="8796578821620848758" at="44,66,50,54" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8796578821620848758" at="17,0,18,0" concept="5" trace="CollapsibleWithCallbackCollapsed" />
+      <node id="8796578821620848758" at="24,59,25,71" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8796578821620848758" at="18,0,19,0" concept="1" trace="myConceptCollapsibleWithCallbackCollapsed" />
+      <node id="8796578821620848758" at="47,66,48,57" concept="4" />
+      <node id="8796578821620848758" at="83,90,84,208" concept="3" />
+      <node id="8796578821620848758" at="84,208,85,33" concept="0" />
+      <node id="8796578821620848758" at="85,33,86,71" concept="0" />
+      <node id="8796578821620848758" at="86,71,87,128" concept="0" />
+      <node id="8796578821620848758" at="87,128,88,17" concept="0" />
+      <node id="8796578821620848758" at="88,17,89,22" concept="4" />
+      <node id="8796578821620848758" at="83,0,91,0" concept="6" trace="createDescriptorForCollapsibleWithCallbackCollapsed#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8796578821620848758" at="47,66,48,57" />
+      <scope id="8796578821620848758" at="83,90,89,22">
+        <var name="b" id="8796578821620848758" />
+      </scope>
+      <scope id="8796578821620848758" at="83,0,91,0" />
+    </file>
+  </root>
+  <root nodeRef="r:7e4984f5-9a8f-4f8b-a5ad-97797cae2191(de.itemis.mps.editor.collapsible.testlang.structure)/8796578821621466212">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="8796578821621466212" at="16,0,17,0" concept="1" trace="props_CollapsibleWithCallbackExpanded" />
+      <node id="8796578821621466212" at="52,60,53,76" concept="3" />
+      <node id="8796578821621466212" at="53,76,54,35" concept="0" />
+      <node id="8796578821621466212" at="54,35,55,63" concept="0" />
+      <node id="8796578821621466212" at="56,9,57,53" concept="4" />
+      <node id="8796578821621466212" at="51,65,56,9" concept="2" />
+      <scope id="8796578821621466212" at="52,60,55,63">
+        <var name="cpb" id="8796578821621466212" />
+      </scope>
+      <scope id="8796578821621466212" at="51,65,57,53" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="8796578821621466212" at="18,0,19,0" concept="5" trace="CollapsibleWithCallbackExpanded" />
+      <node id="8796578821621466212" at="25,71,26,70" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="8796578821621466212" at="19,0,20,0" concept="1" trace="myConceptCollapsibleWithCallbackExpanded" />
+      <node id="8796578821621466212" at="49,65,50,56" concept="4" />
+      <node id="8796578821621466212" at="91,89,92,207" concept="3" />
+      <node id="8796578821621466212" at="92,207,93,33" concept="0" />
+      <node id="8796578821621466212" at="93,33,94,71" concept="0" />
+      <node id="8796578821621466212" at="94,71,95,128" concept="0" />
+      <node id="8796578821621466212" at="95,128,96,17" concept="0" />
+      <node id="8796578821621520590" at="96,17,97,200" concept="0" />
+      <node id="8796578821621466212" at="97,200,98,22" concept="4" />
+      <node id="8796578821621466212" at="91,0,100,0" concept="6" trace="createDescriptorForCollapsibleWithCallbackExpanded#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8796578821621466212" at="49,65,50,56" />
+      <scope id="8796578821621466212" at="91,89,98,22">
+        <var name="b" id="8796578821621466212" />
+      </scope>
+      <scope id="8796578821621466212" at="91,0,100,0" />
+    </file>
+  </root>
+</debug-info>
+

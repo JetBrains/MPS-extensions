@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1160998861373:jetbrains.mps.baseLanguage.structure.AssertStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1178893518978:jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/1638602636558958259">
+    <file name="NoApplicableImplementationException.java">
+      <node id="8624973594652514818" at="7,0,8,0" concept="5" trace="functionId" />
+      <node id="1638602636558961662" at="8,62,9,19" concept="15" />
+      <node id="8624973594652514382" at="11,81,12,19" concept="15" />
+      <node id="8624973594652515083" at="12,19,13,33" concept="4" />
+      <node id="8624973594652522378" at="15,33,16,22" concept="10" />
+      <node id="1638602636558961656" at="8,0,11,0" concept="2" trace="NoApplicableImplementationException#(Ljava/lang/String;)V" />
+      <node id="8624973594652521227" at="15,0,18,0" concept="8" trace="getFunctionId#()Ljava/lang/String;" />
+      <node id="8624973594652514378" at="11,0,15,0" concept="2" trace="NoApplicableImplementationException#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="1638602636558961660" at="8,62,9,19" />
+      <scope id="8624973594652521231" at="15,33,16,22" />
+      <scope id="8624973594652514381" at="11,81,13,33" />
+      <scope id="1638602636558961656" at="8,0,11,0">
+        <var name="message" id="1638602636558961663" />
+      </scope>
+      <scope id="8624973594652521227" at="15,0,18,0" />
+      <scope id="8624973594652514378" at="11,0,15,0">
+        <var name="functionId" id="8624973594652514509" />
+        <var name="message" id="8624973594652514384" />
+      </scope>
+      <unit id="1638602636558958259" at="6,0,19,0" name="de.q60.mps.polymorphicfunctions.runtime.NoApplicableImplementationException" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/1660993416176401790">
+    <file name="IPriorityRule.java">
+      <node id="1660993416176401846" at="10,0,11,0" concept="8" trace="hasHigherPriority#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <scope id="1660993416176401846" at="10,0,11,0">
+        <var name="highPrio" id="1660993416176402034" />
+        <var name="lowPrio" id="1660993416176401902" />
+      </scope>
+      <unit id="1660993416176401790" at="6,0,12,0" name="de.q60.mps.polymorphicfunctions.runtime.IPriorityRule" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/1660993416176849555">
+    <file name="SimplePriorityRule.java">
+      <node id="1660993416176849724" at="7,0,8,0" concept="5" trace="myHighPrioId" />
+      <node id="1660993416176849848" at="8,0,9,0" concept="5" trace="myLowPrioId" />
+      <node id="1660993416176868056" at="10,66,11,30" concept="4" />
+      <node id="1660993416176868066" at="11,30,12,28" concept="4" />
+      <node id="1660993416176852478" at="16,103,17,88" concept="10" />
+      <node id="1660993416176868048" at="10,0,14,0" concept="2" trace="SimplePriorityRule#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="1660993416176849895" at="15,0,19,0" concept="8" trace="hasHigherPriority#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <scope id="1660993416176849903" at="16,103,17,88" />
+      <scope id="1660993416176868052" at="10,66,12,28" />
+      <scope id="1660993416176868048" at="10,0,14,0">
+        <var name="highPrioId" id="1660993416176868055" />
+        <var name="lowPrioId" id="1660993416176868065" />
+      </scope>
+      <scope id="1660993416176849895" at="15,0,19,0">
+        <var name="highPrio" id="1660993416176849896" />
+        <var name="lowPrio" id="1660993416176849898" />
+      </scope>
+      <unit id="1660993416176849555" at="6,0,20,0" name="de.q60.mps.polymorphicfunctions.runtime.SimplePriorityRule" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/1660993416177406830">
+    <file name="RecursionProtection.java">
+      <node id="4954941735295941316" at="15,46,16,66" concept="10" />
+      <node id="1660993416177542963" at="23,102,24,61" concept="9" />
+      <node id="1660993416177429685" at="24,61,25,74" concept="4" />
+      <node id="1660993416177464426" at="26,9,27,47" concept="10" />
+      <node id="1660993416177555782" at="28,15,29,79" concept="4" />
+      <node id="1660993416177592820" at="33,134,34,165" concept="10" />
+      <node id="1660993416177407492" at="38,0,39,0" concept="5" trace="impl" />
+      <node id="1660993416177407623" at="39,0,40,0" concept="5" trace="parameters" />
+      <node id="1660993416177407770" at="41,81,42,19" concept="4" />
+      <node id="1660993416177407780" at="42,19,43,31" concept="4" />
+      <node id="1660993416177408605" at="49,22,50,20" concept="10" />
+      <node id="1660993416177408611" at="52,57,53,21" concept="10" />
+      <node id="1660993416177408624" at="54,7,55,0" concept="12" />
+      <node id="1660993416177408625" at="55,0,56,39" concept="9" />
+      <node id="1660993416177408643" at="57,75,58,21" concept="10" />
+      <node id="1660993416177408662" at="60,99,61,21" concept="10" />
+      <node id="1660993416177408676" at="62,7,63,0" concept="12" />
+      <node id="1660993416177408677" at="63,0,64,18" concept="10" />
+      <node id="1660993416177408684" at="68,27,69,21" concept="9" />
+      <node id="1660993416177408697" at="69,21,70,79" concept="4" />
+      <node id="1660993416177408716" at="70,79,71,91" concept="4" />
+      <node id="1660993416177408730" at="71,91,72,20" concept="10" />
+      <node id="1660993416177457368" at="20,0,22,0" concept="2" trace="RecursionProtection#()V" />
+      <node id="1660993416177496838" at="33,0,36,0" concept="8" trace="filter#(Ljava/lang/Iterable;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Iterable;" />
+      <node id="1660993416177408603" at="48,37,51,7" concept="7" />
+      <node id="1660993416177408609" at="51,7,54,7" concept="7" />
+      <node id="1660993416177408641" at="56,39,59,7" concept="7" />
+      <node id="1660993416177408660" at="59,7,62,7" concept="7" />
+      <node id="4954941735295937039" at="14,0,18,0" concept="8" trace="initialValue#()Ljava/util/Set;" />
+      <node id="1660993416177407762" at="41,0,45,0" concept="2" trace="Evaluation#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)V" />
+      <node id="1660993416177449276" at="25,74,30,5" concept="18" />
+      <node id="1660993416177426338" at="13,0,19,0" concept="5" trace="myActiveEvaluations" />
+      <node id="1660993416177408679" at="67,0,74,0" concept="8" trace="hashCode#()I" />
+      <node id="1660993416177407011" at="23,0,32,0" concept="8" trace="evaluate#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Object;" />
+      <node id="1660993416177408599" at="47,0,66,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="1660993416177457372" at="20,32,20,32" />
+      <scope id="4954941735295937048" at="15,46,16,66" />
+      <scope id="1660993416177449278" at="26,9,27,47" />
+      <scope id="1660993416177449279" at="28,15,29,79" />
+      <scope id="1660993416177496842" at="33,134,34,165" />
+      <scope id="1660993416177408604" at="49,22,50,20" />
+      <scope id="1660993416177408610" at="52,57,53,21" />
+      <scope id="1660993416177408642" at="57,75,58,21" />
+      <scope id="1660993416177408661" at="60,99,61,21" />
+      <scope id="1660993416177457368" at="20,0,22,0" />
+      <scope id="1660993416177407766" at="41,81,43,31" />
+      <scope id="1660993416177496838" at="33,0,36,0">
+        <var name="implementations" id="1660993416177500358" />
+        <var name="parameters" id="1660993416177589144" />
+      </scope>
+      <scope id="4954941735295937039" at="14,0,18,0" />
+      <scope id="1660993416177407762" at="41,0,45,0">
+        <var name="impl1" id="1660993416177407769" />
+        <var name="parameters1" id="1660993416177407779" />
+      </scope>
+      <scope id="1660993416177408682" at="68,27,72,20">
+        <var name="result" id="1660993416177408685" />
+      </scope>
+      <scope id="1660993416177407015" at="23,102,30,5">
+        <var name="evaluation" id="1660993416177542964" />
+      </scope>
+      <scope id="1660993416177408679" at="67,0,74,0" />
+      <scope id="1660993416177407011" at="23,0,32,0">
+        <var name="context" id="3378269547579915678" />
+        <var name="impl" id="1660993416177407169" />
+        <var name="parameters" id="1660993416177407278" />
+      </scope>
+      <scope id="1660993416177408602" at="48,37,64,18">
+        <var name="that" id="1660993416177408626" />
+      </scope>
+      <scope id="1660993416177408599" at="47,0,66,0">
+        <var name="o" id="1660993416177408631" />
+      </scope>
+      <unit id="4954941735295932989" at="13,65,18,3" name="de.q60.mps.polymorphicfunctions.runtime.RecursionProtection$1" />
+      <unit id="1660993416177406919" at="37,0,75,0" name="de.q60.mps.polymorphicfunctions.runtime.RecursionProtection$Evaluation" />
+      <unit id="1660993416177406830" at="10,0,76,0" name="de.q60.mps.polymorphicfunctions.runtime.RecursionProtection" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/1660993416178108134">
+    <file name="IParameterType.java">
+      <node id="1660993416178108237" at="8,0,9,0" concept="8" trace="isMoreSpecificThan#(Lde/q60/mps/polymorphicfunctions/runtime/IParameterType;)Z" />
+      <scope id="1660993416178108237" at="8,0,9,0">
+        <var name="superType" id="1660993416178108488" />
+      </scope>
+      <unit id="1660993416178108134" at="6,0,11,0" name="de.q60.mps.polymorphicfunctions.runtime.IParameterType" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/1660993416178108831">
+    <file name="ParameterType_Classifier.java">
+      <node id="1660993416178109024" at="8,0,9,0" concept="5" trace="myClass" />
+      <node id="1660993416178109146" at="10,46,11,18" concept="4" />
+      <node id="1660993416178113769" at="16,59,17,19" concept="10" />
+      <node id="1660993416178118042" at="18,5,19,70" concept="9" />
+      <node id="1660993416178922000" at="20,32,21,19" concept="10" />
+      <node id="1660993416178122554" at="22,5,23,48" concept="10" />
+      <node id="92129128748623631" at="26,32,27,24" concept="10" />
+      <node id="1660993416178109138" at="10,0,13,0" concept="2" trace="ParameterType_Classifier#(Ljava/lang/Class;)V" />
+      <node id="1660993416178111062" at="15,63,18,5" concept="7" />
+      <node id="1660993416178915131" at="19,70,22,5" concept="7" />
+      <node id="92129128748623627" at="26,0,29,0" concept="8" trace="getClassifier#()Ljava/lang/Class;" />
+      <node id="1660993416178110322" at="14,0,25,0" concept="8" trace="isMoreSpecificThan#(Lde/q60/mps/polymorphicfunctions/runtime/IParameterType;)Z" />
+      <scope id="1660993416178109142" at="10,46,11,18" />
+      <scope id="1660993416178111064" at="16,59,17,19" />
+      <scope id="1660993416178915133" at="20,32,21,19" />
+      <scope id="92129128748623630" at="26,32,27,24" />
+      <scope id="1660993416178109138" at="10,0,13,0">
+        <var name="cls" id="1660993416178109145" />
+      </scope>
+      <scope id="92129128748623627" at="26,0,29,0" />
+      <scope id="1660993416178110328" at="15,63,23,48">
+        <var name="superClass" id="1660993416178118043" />
+      </scope>
+      <scope id="1660993416178110322" at="14,0,25,0">
+        <var name="superType" id="1660993416178110323" />
+      </scope>
+      <unit id="1660993416178108831" at="6,0,30,0" name="de.q60.mps.polymorphicfunctions.runtime.ParameterType_Classifier" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/1660993416178123140">
+    <file name="ParameterType_SNode.java">
+      <node id="1660993416178123142" at="14,0,15,0" concept="5" trace="myConcept" />
+      <node id="1660993416178123152" at="16,56,17,24" concept="4" />
+      <node id="92129128748656244" at="22,243,23,18" concept="10" />
+      <node id="1660993416178123172" at="25,54,26,19" concept="10" />
+      <node id="1660993416178123174" at="27,5,28,80" concept="9" />
+      <node id="1660993416178914119" at="29,120,30,19" concept="10" />
+      <node id="1660993416178123183" at="31,5,32,50" concept="10" />
+      <node id="1660993416178123140" at="36,0,37,0" concept="13" trace="BaseConcept$gP" />
+      <node id="1660993416178123148" at="16,0,19,0" concept="2" trace="ParameterType_SNode#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="92129128748617395" at="21,63,24,5" concept="7" />
+      <node id="1660993416178123165" at="24,5,27,5" concept="7" />
+      <node id="1660993416178910895" at="28,80,31,5" concept="7" />
+      <node id="1660993416178123159" at="20,0,34,0" concept="8" trace="isMoreSpecificThan#(Lde/q60/mps/polymorphicfunctions/runtime/IParameterType;)Z" />
+      <scope id="1660993416178123151" at="16,56,17,24" />
+      <scope id="92129128748617397" at="22,243,23,18" />
+      <scope id="1660993416178123171" at="25,54,26,19" />
+      <scope id="1660993416178910897" at="29,120,30,19" />
+      <scope id="1660993416178123148" at="16,0,19,0">
+        <var name="concept" id="1660993416178123156" />
+      </scope>
+      <scope id="1660993416178123164" at="21,63,32,50">
+        <var name="superConcept" id="1660993416178123175" />
+      </scope>
+      <scope id="1660993416178123159" at="20,0,34,0">
+        <var name="superType" id="1660993416178123160" />
+      </scope>
+      <unit id="1660993416178123140" at="35,0,38,0" name="de.q60.mps.polymorphicfunctions.runtime.ParameterType_SNode$CONCEPTS" />
+      <unit id="1660993416178123140" at="12,0,39,0" name="de.q60.mps.polymorphicfunctions.runtime.ParameterType_SNode" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/1660993416178154586">
+    <file name="ParameterType_Unsupported.java">
+      <node id="1660993416178156067" at="10,63,11,17" concept="10" />
+      <node id="1660993416178156751" at="7,0,9,0" concept="2" trace="ParameterType_Unsupported#()V" />
+      <node id="1660993416178154605" at="9,0,13,0" concept="8" trace="isMoreSpecificThan#(Lde/q60/mps/polymorphicfunctions/runtime/IParameterType;)Z" />
+      <scope id="1660993416178156755" at="7,38,7,38" />
+      <scope id="1660993416178154610" at="10,63,11,17" />
+      <scope id="1660993416178156751" at="7,0,9,0" />
+      <scope id="1660993416178154605" at="9,0,13,0">
+        <var name="superType" id="1660993416178154606" />
+      </scope>
+      <unit id="1660993416178154586" at="6,0,14,0" name="de.q60.mps.polymorphicfunctions.runtime.ParameterType_Unsupported" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/2282736600844562412">
+    <file name="ImplementationsFromPolyfunAspects.java">
+      <node id="2282736600844790667" at="9,0,10,0" concept="13" trace="INSTANCE" />
+      <node id="2282736600844615080" at="15,46,16,49" concept="10" />
+      <node id="2282736600844787971" at="11,0,13,0" concept="2" trace="ImplementationsFromPolyfunAspects#()V" />
+      <node id="2282736600844614773" at="14,0,18,0" concept="8" trace="getModelNames#()Ljava/lang/Iterable;" />
+      <scope id="2282736600844787975" at="11,47,11,47" />
+      <scope id="2282736600844614780" at="15,46,16,49" />
+      <scope id="2282736600844787971" at="11,0,13,0" />
+      <scope id="2282736600844614773" at="14,0,18,0" />
+      <unit id="2282736600844562412" at="7,0,19,0" name="de.q60.mps.polymorphicfunctions.runtime.ImplementationsFromPolyfunAspects" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3378269547579969834">
+    <file name="AbstractPFContext.java">
+      <node id="3378269547579972130" at="10,67,11,46" concept="10" />
+      <node id="3378269547579974353" at="14,78,15,47" concept="10" />
+      <node id="3378269547579977931" at="18,61,19,62" concept="17" />
+      <node id="4945153042290051780" at="23,39,24,66" concept="10" />
+      <node id="6420187251978293341" at="28,41,29,66" concept="10" />
+      <node id="3378269547579969970" at="9,0,13,0" concept="8" trace="callFunction#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Object;" />
+      <node id="3378269547579969982" at="13,0,17,0" concept="8" trace="callFunctions#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Iterable;" />
+      <node id="3378269547579969993" at="17,0,21,0" concept="8" trace="getContextParameters#(Ljava/lang/String;)Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;" />
+      <node id="4945153042290050067" at="22,0,26,0" concept="8" trace="getGroups#()Ljava/lang/Iterable;" />
+      <node id="6420187251978291231" at="27,0,31,0" concept="8" trace="getContexts#()Ljava/lang/Iterable;" />
+      <scope id="3378269547579969978" at="10,67,11,46" />
+      <scope id="3378269547579969991" at="14,78,15,47" />
+      <scope id="3378269547579969999" at="18,61,19,62" />
+      <scope id="4945153042290050072" at="23,39,24,66" />
+      <scope id="6420187251978291236" at="28,41,29,66" />
+      <scope id="3378269547579969970" at="9,0,13,0">
+        <var name="id" id="3378269547579969971" />
+        <var name="parameters" id="3378269547579969973" />
+      </scope>
+      <scope id="3378269547579969982" at="13,0,17,0">
+        <var name="id" id="3378269547579969983" />
+        <var name="parameters" id="3378269547579969985" />
+      </scope>
+      <scope id="3378269547579969993" at="17,0,21,0">
+        <var name="groupId" id="3378269547579969994" />
+      </scope>
+      <scope id="4945153042290050067" at="22,0,26,0" />
+      <scope id="6420187251978291231" at="27,0,31,0" />
+      <unit id="3378269547579969834" at="8,0,32,0" name="de.q60.mps.polymorphicfunctions.runtime.AbstractPFContext" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3378269547580070459">
+    <file name="GroupPFContext.java">
+      <node id="3378269547580071601" at="10,0,11,0" concept="5" trace="parentContext" />
+      <node id="3378269547580092368" at="11,0,12,0" concept="5" trace="groupId" />
+      <node id="3378269547580100195" at="13,85,14,39" concept="4" />
+      <node id="3378269547580100207" at="14,39,15,27" concept="4" />
+      <node id="3378269547580074582" at="19,87,20,63" concept="10" />
+      <node id="3378269547580078651" at="24,98,25,64" concept="10" />
+      <node id="3378269547580119476" at="29,63,30,57" concept="10" />
+      <node id="4945153042290055348" at="34,39,35,127" concept="10" />
+      <node id="6420187251978324531" at="39,41,40,39" concept="10" />
+      <node id="3378269547580100187" at="13,0,17,0" concept="2" trace="GroupPFContext#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Ljava/lang/String;)V" />
+      <node id="3378269547580070727" at="18,0,22,0" concept="8" trace="callFunction#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Object;" />
+      <node id="3378269547580070742" at="23,0,27,0" concept="8" trace="callFunctions#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Iterable;" />
+      <node id="3378269547580090856" at="28,0,32,0" concept="8" trace="getContextParameters#(Ljava/lang/String;)Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;" />
+      <node id="4945153042290055336" at="33,0,37,0" concept="8" trace="getGroups#()Ljava/lang/Iterable;" />
+      <node id="6420187251978321100" at="38,0,42,0" concept="8" trace="getContexts#()Ljava/lang/Iterable;" />
+      <scope id="3378269547580070738" at="19,87,20,63" />
+      <scope id="3378269547580070754" at="24,98,25,64" />
+      <scope id="3378269547580090869" at="29,63,30,57" />
+      <scope id="4945153042290055346" at="34,39,35,127" />
+      <scope id="6420187251978321110" at="39,41,40,39" />
+      <scope id="3378269547580100191" at="13,85,15,27" />
+      <scope id="3378269547580100187" at="13,0,17,0">
+        <var name="groupId" id="3378269547580100206" />
+        <var name="parentContext" id="3378269547580100194" />
+      </scope>
+      <scope id="3378269547580070727" at="18,0,22,0">
+        <var name="context" id="3378269547580070732" />
+        <var name="id" id="3378269547580070728" />
+        <var name="parameters" id="3378269547580070730" />
+      </scope>
+      <scope id="3378269547580070742" at="23,0,27,0">
+        <var name="context" id="3378269547580070747" />
+        <var name="id" id="3378269547580070743" />
+        <var name="parameters" id="3378269547580070745" />
+      </scope>
+      <scope id="3378269547580090856" at="28,0,32,0">
+        <var name="contextId" id="3378269547580090857" />
+      </scope>
+      <scope id="4945153042290055336" at="33,0,37,0" />
+      <scope id="6420187251978321100" at="38,0,42,0" />
+      <unit id="3378269547580070459" at="8,0,43,0" name="de.q60.mps.polymorphicfunctions.runtime.GroupPFContext" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3814377006351096843">
+    <file name="IImplementationProvider.java">
+      <node id="3814377006351097001" at="7,0,8,0" concept="8" trace="getImplementations#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Iterable;" />
+      <node id="1660993416176451744" at="8,0,9,0" concept="8" trace="getPriorityRules#()Ljava/lang/Iterable;" />
+      <scope id="3814377006351097001" at="7,0,8,0">
+        <var name="context" id="3814377006351973164" />
+        <var name="declarationId" id="3814377006351097612" />
+        <var name="parameters" id="3814377006355037016" />
+      </scope>
+      <scope id="1660993416176451744" at="8,0,9,0" />
+      <unit id="3814377006351096843" at="6,0,10,0" name="de.q60.mps.polymorphicfunctions.runtime.IImplementationProvider" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3814377006351097468">
+    <file name="IFunctionImplementation.java">
+      <node id="1660993416176402476" at="7,0,8,0" concept="8" trace="getId#()Ljava/lang/String;" />
+      <node id="3814377006351108420" at="8,0,9,0" concept="8" trace="isApplicable#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Z" />
+      <node id="3814377006351107339" at="9,0,10,0" concept="8" trace="execute#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Object;" />
+      <node id="1660993416178143927" at="10,0,11,0" concept="8" trace="getParameterTypes#()Ljava/lang/Iterable;" />
+      <node id="3378269547580530341" at="11,0,12,0" concept="8" trace="getContextIds#()Ljava/lang/Iterable;" />
+      <node id="7678600301243414412" at="12,0,13,0" concept="8" trace="getPriorityGroupIds#()Ljava/lang/Iterable;" />
+      <scope id="1660993416176402476" at="7,0,8,0" />
+      <scope id="3814377006351108420" at="8,0,9,0">
+        <var name="context" id="3814377006351972219" />
+        <var name="parameters" id="3814377006351109363" />
+      </scope>
+      <scope id="3814377006351107339" at="9,0,10,0">
+        <var name="context" id="3814377006351972765" />
+        <var name="parameters" id="3814377006351107972" />
+      </scope>
+      <scope id="1660993416178143927" at="10,0,11,0" />
+      <scope id="3378269547580530341" at="11,0,12,0" />
+      <scope id="7678600301243414412" at="12,0,13,0" />
+      <unit id="3814377006351097468" at="6,0,14,0" name="de.q60.mps.polymorphicfunctions.runtime.IFunctionImplementation" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3814377006351098145">
+    <file name="ParameterList.java">
+      <node id="469127051675371691" at="11,0,12,0" concept="13" trace="EMPTY" />
+      <node id="3814377006351098293" at="13,0,14,0" concept="5" trace="myParameterValues" />
+      <node id="8535300072464100967" at="14,0,15,0" concept="5" trace="_cachedHashCode" />
+      <node id="8535300072464109585" at="15,0,16,0" concept="5" trace="_hashCodeInitialized" />
+      <node id="1037808907367373338" at="17,58,18,78" concept="16" />
+      <node id="1037808907367371711" at="20,50,21,40" concept="4" />
+      <node id="3814377006351099296" at="24,21,25,36" concept="10" />
+      <node id="3814377006351103204" at="28,32,29,36" concept="10" />
+      <node id="6393752169611118130" at="32,40,33,49" concept="10" />
+      <node id="3814377006352643212" at="37,28,38,197" concept="10" />
+      <node id="1660993416177414532" at="43,20,44,18" concept="10" />
+      <node id="1660993416177414538" at="46,55,47,19" concept="10" />
+      <node id="1660993416177414551" at="48,5,49,0" concept="12" />
+      <node id="1660993416177414552" at="49,0,50,43" concept="9" />
+      <node id="1660993416177414571" at="51,70,52,19" concept="10" />
+      <node id="1660993416177414573" at="53,5,54,0" concept="12" />
+      <node id="1660993416177414574" at="54,0,55,16" concept="10" />
+      <node id="8535300072464122855" at="60,34,61,59" concept="4" />
+      <node id="8535300072464120178" at="61,59,62,34" concept="4" />
+      <node id="8535300072464131507" at="63,5,64,27" concept="10" />
+      <node id="1037808907367230519" at="17,0,20,0" concept="2" trace="ParameterList#(Ljava/lang/Iterable;)V" />
+      <node id="1037808907367356903" at="20,0,23,0" concept="2" trace="ParameterList#([Ljava/lang/Object;)V" />
+      <node id="3814377006351098480" at="24,0,27,0" concept="8" trace="size#()I" />
+      <node id="3814377006351102148" at="28,0,31,0" concept="8" trace="get#(I)Ljava/lang/Object;" />
+      <node id="6393752169611099690" at="32,0,35,0" concept="8" trace="asSequence#()Ljava/lang/Iterable;" />
+      <node id="1660993416177414530" at="42,35,45,5" concept="7" />
+      <node id="1660993416177414536" at="45,5,48,5" concept="7" />
+      <node id="1660993416177414566" at="50,43,53,5" concept="7" />
+      <node id="3814377006352641408" at="36,0,40,0" concept="8" trace="toString#()Ljava/lang/String;" />
+      <node id="8535300072464117470" at="59,25,63,5" concept="7" />
+      <node id="1660993416177414576" at="58,0,66,0" concept="8" trace="hashCode#()I" />
+      <node id="1660993416177414526" at="41,0,57,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="1037808907367230522" at="17,58,18,78" />
+      <scope id="1037808907367356906" at="20,50,21,40" />
+      <scope id="3814377006351098484" at="24,21,25,36" />
+      <scope id="3814377006351102152" at="28,32,29,36" />
+      <scope id="6393752169611099694" at="32,40,33,49" />
+      <scope id="3814377006352641412" at="37,28,38,197" />
+      <scope id="1660993416177414531" at="43,20,44,18" />
+      <scope id="1660993416177414537" at="46,55,47,19" />
+      <scope id="1660993416177414570" at="51,70,52,19" />
+      <scope id="8535300072464117472" at="60,34,62,34" />
+      <scope id="1037808907367230519" at="17,0,20,0">
+        <var name="parameterValues" id="1037808907367230527" />
+      </scope>
+      <scope id="1037808907367356903" at="20,0,23,0">
+        <var name="parameterValues" id="1037808907367356913" />
+      </scope>
+      <scope id="3814377006351098480" at="24,0,27,0" />
+      <scope id="3814377006351102148" at="28,0,31,0">
+        <var name="index" id="3814377006351102672" />
+      </scope>
+      <scope id="6393752169611099690" at="32,0,35,0" />
+      <scope id="3814377006352641408" at="36,0,40,0" />
+      <scope id="1660993416177414579" at="59,25,64,27" />
+      <scope id="1660993416177414576" at="58,0,66,0" />
+      <scope id="1660993416177414529" at="42,35,55,16">
+        <var name="that" id="1660993416177414553" />
+      </scope>
+      <scope id="1660993416177414526" at="41,0,57,0">
+        <var name="o" id="1660993416177414558" />
+      </scope>
+      <unit id="3814377006351098145" at="10,0,67,0" name="de.q60.mps.polymorphicfunctions.runtime.ParameterList" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3814377006351110159">
+    <file name="ImplementationsFromFunctionModule.java">
+      <node id="3814377006351378958" at="21,0,22,0" concept="5" trace="myModuleReference" />
+      <node id="4864464318170509799" at="22,0,23,0" concept="5" trace="myLanguageRegistry" />
+      <node id="4864464318170516356" at="23,0,24,0" concept="5" trace="myClassName" />
+      <node id="3538218268216517934" at="25,125,26,103" concept="9" />
+      <node id="3538218268216575248" at="26,103,27,84" concept="4" />
+      <node id="3538218268216604188" at="27,84,28,0" concept="12" />
+      <node id="3538218268216602621" at="28,0,29,30" concept="11" />
+      <node id="3538218268216582995" at="29,30,30,36" concept="0" />
+      <node id="3538218268216592567" at="30,36,31,0" concept="12" />
+      <node id="3538218268216531744" at="31,0,32,97" concept="9" />
+      <node id="3538218268216542299" at="32,97,33,0" concept="12" />
+      <node id="3538218268216523545" at="33,0,34,109" concept="9" />
+      <node id="3538218268216555567" at="34,109,35,96" concept="9" />
+      <node id="3538218268216491611" at="35,96,36,95" concept="10" />
+      <node id="3538218268216245338" at="39,140,40,42" concept="4" />
+      <node id="3538218268216245327" at="40,42,41,40" concept="4" />
+      <node id="3538218268216245342" at="41,40,42,28" concept="4" />
+      <node id="4864464318170626520" at="45,31,46,73" concept="9" />
+      <node id="3814377006351454415" at="48,11,49,51" concept="9" />
+      <node id="1660993416177876303" at="49,51,50,63" concept="9" />
+      <node id="4864464318170663579" at="50,63,51,59" concept="4" />
+      <node id="3814377006351526537" at="52,48,53,38" concept="17" />
+      <node id="3814377006351510578" at="55,7,56,28" concept="10" />
+      <node id="3814377006351533305" at="60,131,61,78" concept="10" />
+      <node id="1660993416176904577" at="65,53,66,42" concept="10" />
+      <node id="3814377006351110609" at="59,0,63,0" concept="8" trace="getImplementations#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Iterable;" />
+      <node id="1660993416176895722" at="64,0,68,0" concept="8" trace="getPriorityRules#()Ljava/lang/Iterable;" />
+      <node id="3538218268216245323" at="39,0,44,0" concept="2" trace="ImplementationsFromFunctionModule#(Ljetbrains/mps/smodel/language/LanguageRegistry;Lorg/jetbrains/mps/openapi/module/SModuleReference;Ljava/lang/String;)V" />
+      <node id="3814377006351477711" at="47,80,54,7" concept="18" />
+      <node id="4864464318170547595" at="46,73,55,7" concept="4" />
+      <node id="3538218268216484200" at="25,0,38,0" concept="14" trace="fromModuleNode#(Ljetbrains/mps/project/Project;Lorg/jetbrains/mps/openapi/model/SNodeReference;)Lde/q60/mps/polymorphicfunctions/runtime/ImplementationsFromFunctionModule;" />
+      <node id="3814377006351378380" at="45,0,58,0" concept="8" trace="getModule#()Lde/q60/mps/polymorphicfunctions/runtime/PFModule;" />
+      <scope id="3814377006351514082" at="52,48,53,38" />
+      <scope id="3814377006351110616" at="60,131,61,78" />
+      <scope id="1660993416176895727" at="65,53,66,42" />
+      <scope id="3814377006351514081" at="52,7,54,7">
+        <var name="e" id="3814377006351514083" />
+      </scope>
+      <scope id="3538218268216245326" at="39,140,42,28" />
+      <scope id="3814377006351477713" at="48,11,51,59">
+        <var name="cls" id="3814377006351454416" />
+        <var name="instanceField" id="1660993416177876304" />
+      </scope>
+      <scope id="3814377006351110609" at="59,0,63,0">
+        <var name="context" id="3814377006351974957" />
+        <var name="declarationId" id="3814377006351110610" />
+        <var name="parameters" id="3814377006355040331" />
+      </scope>
+      <scope id="1660993416176895722" at="64,0,68,0" />
+      <scope id="3538218268216245323" at="39,0,44,0">
+        <var name="className" id="3538218268216512786" />
+        <var name="languageRegistry" id="3538218268216245348" />
+        <var name="moduleReference" id="3538218268216245351" />
+      </scope>
+      <scope id="4864464318170581288" at="47,80,54,7" />
+      <scope id="3538218268216484203" at="25,125,36,95">
+        <var name="className" id="3538218268216555570" />
+        <var name="languageRegistry" id="3538218268216517935" />
+        <var name="moduleNode" id="3538218268216531747" />
+        <var name="moduleReference" id="3538218268216523546" />
+      </scope>
+      <scope id="3814377006351378384" at="45,31,56,28">
+        <var name="descriptor" id="4864464318170626521" />
+      </scope>
+      <scope id="3538218268216484200" at="25,0,38,0">
+        <var name="moduleNodePtr" id="3538218268216489659" />
+        <var name="mpsProject" id="3538218268216488827" />
+      </scope>
+      <scope id="3814377006351378380" at="45,0,58,0" />
+      <unit id="3814377006351110159" at="19,0,69,0" name="de.q60.mps.polymorphicfunctions.runtime.ImplementationsFromFunctionModule" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3814377006351110901">
+    <file name="PFModule.java">
+      <node id="3814377006351164912" at="12,0,13,0" concept="5" trace="myImplementations" />
+      <node id="1660993416176405811" at="14,0,15,0" concept="5" trace="myPriorityRules" />
+      <node id="3814377006351365997" at="17,131,18,48" concept="10" />
+      <node id="6210719698310700563" at="21,98,22,57" concept="4" />
+      <node id="1660993416176920345" at="26,53,27,27" concept="10" />
+      <node id="1660993416176935756" at="30,51,31,60" concept="4" />
+      <node id="6210719698310691695" at="21,0,24,0" concept="8" trace="addImplementation#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)V" />
+      <node id="1660993416176925800" at="30,0,33,0" concept="8" trace="addPriorityRule#(Lde/q60/mps/polymorphicfunctions/runtime/IPriorityRule;)V" />
+      <node id="3814377006351181890" at="16,0,20,0" concept="8" trace="getImplementations#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Iterable;" />
+      <node id="1660993416176919032" at="25,0,29,0" concept="8" trace="getPriorityRules#()Ljava/lang/Iterable;" />
+      <scope id="3814377006351181897" at="17,131,18,48" />
+      <scope id="6210719698310691698" at="21,98,22,57" />
+      <scope id="1660993416176919037" at="26,53,27,27" />
+      <scope id="1660993416176925804" at="30,51,31,60" />
+      <scope id="6210719698310691695" at="21,0,24,0">
+        <var name="declarationId" id="6210719698310694524" />
+        <var name="implementation" id="6210719698310696194" />
+      </scope>
+      <scope id="1660993416176925800" at="30,0,33,0">
+        <var name="rule" id="1660993416176933210" />
+      </scope>
+      <scope id="3814377006351181890" at="16,0,20,0">
+        <var name="context" id="3814377006351977733" />
+        <var name="declarationId" id="3814377006351181891" />
+        <var name="parameters" id="3814377006355043121" />
+      </scope>
+      <scope id="1660993416176919032" at="25,0,29,0" />
+      <unit id="3814377006351110901" at="11,0,34,0" name="de.q60.mps.polymorphicfunctions.runtime.PFModule" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3814377006351969770">
+    <file name="IPFContext.java">
+      <node id="4945153042279702022" at="7,0,8,0" concept="13" trace="CURRENT" />
+      <node id="3814377006351969934" at="9,0,10,0" concept="8" trace="callFunction#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Object;" />
+      <node id="6393752169610834435" at="10,0,11,0" concept="8" trace="callFunctions#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Iterable;" />
+      <node id="3378269547579970466" at="12,0,13,0" concept="8" trace="callFunction#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Object;" />
+      <node id="3378269547579970457" at="13,0,14,0" concept="8" trace="callFunctions#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Iterable;" />
+      <node id="3378269547579873811" at="15,0,16,0" concept="8" trace="getContextParameters#(Ljava/lang/String;)Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;" />
+      <node id="4945153042290047842" at="16,0,17,0" concept="8" trace="getGroups#()Ljava/lang/Iterable;" />
+      <node id="6420187251978288817" at="17,0,18,0" concept="8" trace="getContexts#()Ljava/lang/Iterable;" />
+      <scope id="3814377006351969934" at="9,0,10,0">
+        <var name="id" id="3814377006351970783" />
+        <var name="parameters" id="3814377006351971681" />
+      </scope>
+      <scope id="6393752169610834435" at="10,0,11,0">
+        <var name="id" id="6393752169610834436" />
+        <var name="parameters" id="6393752169610834438" />
+      </scope>
+      <scope id="3378269547579970466" at="12,0,13,0">
+        <var name="context" id="3378269547579970692" />
+        <var name="id" id="3378269547579970467" />
+        <var name="parameters" id="3378269547579970469" />
+      </scope>
+      <scope id="3378269547579970457" at="13,0,14,0">
+        <var name="context" id="3378269547579971084" />
+        <var name="id" id="3378269547579970458" />
+        <var name="parameters" id="3378269547579970460" />
+      </scope>
+      <scope id="3378269547579873811" at="15,0,16,0">
+        <var name="groupId" id="3378269547579874295" />
+      </scope>
+      <scope id="4945153042290047842" at="16,0,17,0" />
+      <scope id="6420187251978288817" at="17,0,18,0" />
+      <unit id="3814377006351969770" at="6,0,19,0" name="de.q60.mps.polymorphicfunctions.runtime.IPFContext" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3814377006352403778">
+    <file name="DefaultPFContext.java">
+      <node id="3814377006352404272" at="19,0,20,0" concept="5" trace="myImplementationProviders" />
+      <node id="1660993416177485946" at="20,0,21,0" concept="5" trace="myRecursionProtection" />
+      <node id="3814377006352406285" at="22,86,23,88" concept="4" />
+      <node id="4645130142492370349" at="26,75,27,78" concept="16" />
+      <node id="3378269547580027574" at="31,87,32,88" concept="10" />
+      <node id="3378269547580031639" at="36,98,37,88" concept="10" />
+      <node id="6393752169616169119" at="40,143,41,122" concept="9" />
+      <node id="6393752169616169128" at="42,86,43,164" concept="17" />
+      <node id="4945153042279730043" at="44,5,45,209" concept="10" />
+      <node id="6393752169616021542" at="48,155,49,116" concept="9" />
+      <node id="6393752169616021551" at="50,87,51,221" concept="17" />
+      <node id="6393752169616021568" at="52,5,53,132" concept="4" />
+      <node id="6393752169616021580" at="54,87,55,221" concept="17" />
+      <node id="5395534041252671434" at="59,43,60,22" concept="10" />
+      <node id="5395534041252674362" at="62,43,63,23" concept="10" />
+      <node id="5395534041252679674" at="64,9,65,56" concept="10" />
+      <node id="6393752169616065088" at="67,5,68,37" concept="10" />
+      <node id="4945153042290088788" at="71,147,72,115" concept="9" />
+      <node id="6420187251978203857" at="72,115,73,45" concept="9" />
+      <node id="3796107401551701728" at="73,45,74,128" concept="4" />
+      <node id="6420187251978198156" at="77,42,78,66" concept="10" />
+      <node id="3796107401551693888" at="81,7,82,104" concept="4" />
+      <node id="3814377006352434638" at="82,104,83,50" concept="10" />
+      <node id="4945153042290747325" at="87,52,88,19" concept="10" />
+      <node id="4945153042290715286" at="89,5,90,0" concept="12" />
+      <node id="3359783165115017046" at="90,0,91,184" concept="9" />
+      <node id="3359783165115034554" at="94,23,95,19" concept="3" />
+      <node id="4945153042290519705" at="96,9,97,59" concept="9" />
+      <node id="4945153042290523767" at="97,59,98,59" concept="9" />
+      <node id="4945153042290543465" at="99,35,100,19" concept="3" />
+      <node id="3359783165115081896" at="102,23,103,32" concept="4" />
+      <node id="3359783165115393965" at="105,23,106,32" concept="4" />
+      <node id="3359783165115020497" at="109,5,110,0" concept="12" />
+      <node id="3359783165115429196" at="110,0,111,122" concept="9" />
+      <node id="3359783165115505325" at="113,0,114,0" concept="5" trace="visited" />
+      <node id="3359783165115451157" at="115,75,116,35" concept="4" />
+      <node id="3359783165115516613" at="120,58,121,17" concept="10" />
+      <node id="3359783165115517753" at="122,9,123,54" concept="4" />
+      <node id="3359783165115528130" at="123,54,124,0" concept="12" />
+      <node id="3359783165115467416" at="124,0,125,66" concept="9" />
+      <node id="3359783165115477355" at="126,31,127,69" concept="4" />
+      <node id="3359783165115485935" at="128,16,129,37" concept="4" />
+      <node id="3359783165115567777" at="132,32,133,0" concept="12" />
+      <node id="4945153042290704918" at="134,62,135,110" concept="17" />
+      <node id="3359783165114708064" at="136,5,137,32" concept="10" />
+      <node id="1660993416178468731" at="140,115,141,154" concept="10" />
+      <node id="3378269547580631590" at="145,246,146,18" concept="10" />
+      <node id="4945153042290784790" at="148,246,149,19" concept="10" />
+      <node id="3378269547580652107" at="150,5,151,0" concept="12" />
+      <node id="1660993416178655064" at="151,0,152,39" concept="9" />
+      <node id="1660993416178656730" at="152,39,153,38" concept="9" />
+      <node id="1660993416178658076" at="153,38,154,0" concept="12" />
+      <node id="1660993416178609454" at="155,5,156,104" concept="9" />
+      <node id="1660993416178611880" at="156,104,157,102" concept="9" />
+      <node id="1660993416178609454" at="157,102,158,30" concept="9" />
+      <node id="1660993416178611880" at="158,30,159,29" concept="9" />
+      <node id="1660993416178609454" at="160,53,161,34" concept="4" />
+      <node id="1660993416178611880" at="161,34,162,32" concept="4" />
+      <node id="1660993416178666182" at="163,51,164,36" concept="4" />
+      <node id="1660993416178674759" at="166,51,167,35" concept="4" />
+      <node id="1660993416178676187" at="170,5,171,0" concept="12" />
+      <node id="1660993416178678991" at="171,0,172,54" concept="10" />
+      <node id="3359783165115485488" at="128,14,130,9" concept="1" />
+      <node id="3814377006352404750" at="22,0,25,0" concept="2" trace="DefaultPFContext#(Ljava/lang/Iterable;)V" />
+      <node id="4645130142492346928" at="26,0,29,0" concept="2" trace="DefaultPFContext#(Lde/q60/mps/polymorphicfunctions/runtime/IImplementationProvider;)V" />
+      <node id="6393752169616169126" at="41,122,44,5" concept="7" />
+      <node id="6393752169616021549" at="49,116,52,5" concept="7" />
+      <node id="6393752169616021578" at="53,132,56,5" concept="7" />
+      <node id="5395534041252670356" at="58,163,61,9" concept="7" />
+      <node id="5395534041252673238" at="61,9,64,9" concept="7" />
+      <node id="6420187251978198154" at="77,0,80,0" concept="8" trace="invoke#(Ljava/lang/String;)Ljava/lang/Boolean;" />
+      <node id="4945153042290725805" at="86,238,89,5" concept="7" />
+      <node id="3359783165115033204" at="93,71,96,9" concept="7" />
+      <node id="4945153042290538987" at="98,59,101,9" concept="7" />
+      <node id="3359783165115079886" at="101,9,104,9" concept="7" />
+      <node id="3359783165115393963" at="104,9,107,9" concept="7" />
+      <node id="3359783165115450458" at="114,79,117,9" concept="6" />
+      <node id="3359783165115507048" at="119,68,122,9" concept="7" />
+      <node id="4945153042290682582" at="133,0,136,5" concept="7" />
+      <node id="1660993416178431640" at="140,0,143,0" concept="8" trace="priorityFromRules#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <node id="3378269547580598526" at="144,103,147,5" concept="7" />
+      <node id="4945153042290784780" at="147,5,150,5" concept="7" />
+      <node id="1660993416178660887" at="162,32,165,9" concept="7" />
+      <node id="1660993416178668934" at="165,9,168,9" concept="7" />
+      <node id="3378269547579996380" at="30,0,34,0" concept="8" trace="callFunction#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Object;" />
+      <node id="3378269547579996394" at="35,0,39,0" concept="8" trace="callFunctions#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Iterable;" />
+      <node id="6420187251978198148" at="75,58,80,9" concept="10" />
+      <node id="3359783165115445822" at="114,0,119,0" concept="8" trace="collectHighestPrio#(Ljava/lang/Iterable;)V" />
+      <node id="3359783165115469116" at="125,66,130,9" concept="7" />
+      <node id="6393752169616169110" at="40,0,47,0" concept="8" trace="callFunctions#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;ZLde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Iterable;" />
+      <node id="3796107401551731964" at="74,128,81,7" concept="4" />
+      <node id="6393752169616021599" at="57,71,66,19" concept="4" />
+      <node id="1660993416178609452" at="159,29,169,7" concept="19" />
+      <node id="6393752169616021597" at="56,5,67,5" concept="7" />
+      <node id="3359783165115449756" at="119,0,132,0" concept="8" trace="collectHighestPrio#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)V" />
+      <node id="3814377006352416810" at="71,0,85,0" concept="8" trace="getApplicableImplementations#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/util/List;" />
+      <node id="3359783165115027030" at="92,69,108,7" concept="6" />
+      <node id="1660993416178609452" at="154,0,170,5" concept="1" />
+      <node id="3359783165115023329" at="91,184,109,5" concept="6" />
+      <node id="3359783165115438962" at="111,122,132,32" concept="4" />
+      <node id="6393752169615963932" at="48,0,70,0" concept="8" trace="getImplementationsToCall#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;ZLde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/util/List;" />
+      <node id="1660993416178362380" at="144,0,174,0" concept="8" trace="isMoreSpecific#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <node id="3359783165114392930" at="86,0,139,0" concept="8" trace="applyPriorities#(Ljava/util/List;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P2_E0;)Ljava/lang/Iterable;" />
+      <scope id="3814377006352404754" at="22,86,23,88" />
+      <scope id="4645130142492346934" at="26,75,27,78" />
+      <scope id="3378269547579996390" at="31,87,32,88" />
+      <scope id="3378269547579996405" at="36,98,37,88" />
+      <scope id="6393752169616169127" at="42,86,43,164" />
+      <scope id="6393752169616021550" at="50,87,51,221" />
+      <scope id="6393752169616021579" at="54,87,55,221" />
+      <scope id="5395534041252670358" at="59,43,60,22" />
+      <scope id="5395534041252673240" at="62,43,63,23" />
+      <scope id="6420187251978198155" at="77,42,78,66" />
+      <scope id="4945153042290725807" at="87,52,88,19" />
+      <scope id="3359783165115033206" at="94,23,95,19" />
+      <scope id="4945153042290538989" at="99,35,100,19" />
+      <scope id="3359783165115079888" at="102,23,103,32" />
+      <scope id="3359783165115393964" at="105,23,106,32" />
+      <scope id="3359783165115450461" at="115,75,116,35" />
+      <scope id="3359783165115507050" at="120,58,121,17" />
+      <scope id="3359783165115469118" at="126,31,127,69" />
+      <scope id="3359783165115485489" at="128,16,129,37" />
+      <scope id="4945153042290682584" at="134,62,135,110" />
+      <scope id="1660993416178431644" at="140,115,141,154" />
+      <scope id="3378269547580598528" at="145,246,146,18" />
+      <scope id="4945153042290784781" at="148,246,149,19" />
+      <scope id="1660993416178660889" at="163,51,164,36" />
+      <scope id="1660993416178668936" at="166,51,167,35" />
+      <scope id="3814377006352404750" at="22,0,25,0">
+        <var name="implementationProviders" id="3814377006352404825" />
+      </scope>
+      <scope id="4645130142492346928" at="26,0,29,0">
+        <var name="implementationProvider" id="4645130142492346929" />
+      </scope>
+      <scope id="6420187251978198154" at="77,0,80,0">
+        <var name="it" id="6420187251978198154" />
+      </scope>
+      <scope id="3359783165115445826" at="114,79,117,9" />
+      <scope id="3359783165115450458" at="114,79,117,9">
+        <var name="rule" id="3359783165115450459" />
+      </scope>
+      <scope id="1660993416178431640" at="140,0,143,0">
+        <var name="highPrio" id="1660993416178474951" />
+        <var name="lowPrio" id="1660993416178474953" />
+      </scope>
+      <scope id="3378269547579996380" at="30,0,34,0">
+        <var name="context" id="3378269547579996385" />
+        <var name="id" id="3378269547579996381" />
+        <var name="parameters" id="3378269547579996383" />
+      </scope>
+      <scope id="3378269547579996394" at="35,0,39,0">
+        <var name="context" id="3378269547579996399" />
+        <var name="id" id="3378269547579996395" />
+        <var name="parameters" id="3378269547579996397" />
+      </scope>
+      <scope id="6393752169616169118" at="40,143,45,209">
+        <var name="applicableImplementations" id="6393752169616169120" />
+      </scope>
+      <scope id="6420187251978198147" at="75,58,80,9" />
+      <scope id="3359783165115445822" at="114,0,119,0">
+        <var name="rules" id="3359783165115487054" />
+      </scope>
+      <scope id="6393752169616169110" at="40,0,47,0">
+        <var name="context" id="3378269547579931191" />
+        <var name="id" id="6393752169616169111" />
+        <var name="multiple" id="6393752169616227079" />
+        <var name="parameters" id="6393752169616169113" />
+      </scope>
+      <scope id="6393752169616021609" at="58,163,65,56" />
+      <scope id="1660993416178609452" at="160,53,168,9" />
+      <scope id="6393752169616021598" at="57,71,66,19" />
+      <scope id="3359783165115449759" at="119,68,130,9">
+        <var name="higher" id="3359783165115467417" />
+      </scope>
+      <scope id="3814377006352416814" at="71,147,83,50">
+        <var name="activeContexts" id="4945153042290088789" />
+        <var name="result" id="6420187251978203858" />
+      </scope>
+      <scope id="3359783165115449756" at="119,0,132,0">
+        <var name="rule" id="3359783165115449818" />
+      </scope>
+      <scope id="3814377006352416810" at="71,0,85,0">
+        <var name="context" id="4945153042290007408" />
+        <var name="id" id="3814377006352424098" />
+        <var name="parameters" id="3814377006352432740" />
+      </scope>
+      <scope id="3359783165115027033" at="93,71,107,9">
+        <var name="r1Higher" id="4945153042290519706" />
+        <var name="r2Higher" id="4945153042290523768" />
+      </scope>
+      <scope id="1660993416178609452" at="155,5,169,7">
+        <var name="high_it" id="1660993416178609454" />
+        <var name="high_var" id="1660993416178609454" />
+        <var name="low_it" id="1660993416178611880" />
+        <var name="low_var" id="1660993416178611880" />
+      </scope>
+      <scope id="3359783165115023335" at="92,69,108,7" />
+      <scope id="3359783165115027030" at="92,69,108,7">
+        <var name="r2" id="3359783165115027031" />
+      </scope>
+      <scope id="3359783165115023329" at="91,184,109,5">
+        <var name="r1" id="3359783165115023331" />
+      </scope>
+      <scope id="6393752169615963936" at="48,155,68,37">
+        <var name="applicableImplementations" id="6393752169616021543" />
+      </scope>
+      <scope id="6393752169615963932" at="48,0,70,0">
+        <var name="context" id="4945153042290231732" />
+        <var name="id" id="6393752169616034042" />
+        <var name="multiple" id="5395534041252382385" />
+        <var name="parameters" id="6393752169616034044" />
+      </scope>
+      <scope id="1660993416178362384" at="144,103,172,54">
+        <var name="highIsMoreSpecific" id="1660993416178655067" />
+        <var name="lowIsMoreSpecific" id="1660993416178656731" />
+      </scope>
+      <scope id="1660993416178362380" at="144,0,174,0">
+        <var name="highPrio" id="1660993416178400289" />
+        <var name="lowPrio" id="1660993416178408152" />
+      </scope>
+      <scope id="3359783165114392934" at="86,238,137,32">
+        <var name="highestPriorityRules" id="3359783165115429199" />
+        <var name="lowToHigh" id="3359783165115017049" />
+      </scope>
+      <scope id="3359783165114392930" at="86,0,139,0">
+        <var name="priorityFunction" id="1660993416178960511" />
+        <var name="rules" id="3359783165114436310" />
+      </scope>
+      <unit id="6420187251978198154" at="76,63,80,7" name="de.q60.mps.polymorphicfunctions.runtime.DefaultPFContext$1" />
+      <unit id="3359783165115445109" at="112,8,132,5" name="de.q60.mps.polymorphicfunctions.runtime.DefaultPFContext$2" />
+      <unit id="3814377006352403778" at="17,0,175,0" name="de.q60.mps.polymorphicfunctions.runtime.DefaultPFContext" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/4105524262999511590">
+    <file name="ImplementationsFromGlobalRepository.java">
+      <node id="4105524262999511590" at="24,0,25,0" concept="13" trace="LOG" />
+      <node id="2031504182166952670" at="26,0,27,0" concept="5" trace="deployListener" />
+      <node id="4105524262999558164" at="27,0,28,0" concept="5" trace="pfModules" />
+      <node id="2823921977455541981" at="28,0,29,0" concept="5" trace="classLoaders" />
+      <node id="8004542116435371649" at="29,0,30,0" concept="5" trace="invalidatable" />
+      <node id="4105524262999511704" at="31,48,32,98" concept="15" />
+      <node id="2031504182166952696" at="39,92,40,23" concept="4" />
+      <node id="2031504182166952708" at="42,90,43,23" concept="4" />
+      <node id="2031504182166952710" at="45,8,46,144" concept="9" />
+      <node id="2031504182166952719" at="46,144,47,53" concept="4" />
+      <node id="4105524262999995468" at="48,5,49,0" concept="12" />
+      <node id="2823921977455623261" at="51,75,52,28" concept="4" />
+      <node id="4727360490521686839" at="52,28,53,25" concept="4" />
+      <node id="4727360490521646234" at="55,5,56,0" concept="12" />
+      <node id="4105524262999570059" at="58,131,59,73" concept="4" />
+      <node id="2823921977455548185" at="59,73,60,200" concept="4" />
+      <node id="4105524262999584470" at="62,5,63,21" concept="10" />
+      <node id="981344519288646942" at="66,51,67,32" concept="10" />
+      <node id="2031504182166952724" at="71,29,72,63" concept="4" />
+      <node id="4105524262999585644" at="73,5,74,21" concept="4" />
+      <node id="2031504182166952730" at="78,33,79,144" concept="9" />
+      <node id="2031504182166952739" at="79,144,80,56" concept="4" />
+      <node id="8004542116435409477" at="81,5,82,28" concept="4" />
+      <node id="4105524262999511698" at="31,0,34,0" concept="2" trace="ImplementationsFromGlobalRepository#()V" />
+      <node id="2031504182166952686" at="39,0,42,0" concept="8" trace="onUnloaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="2031504182166952698" at="42,0,45,0" concept="8" trace="onLoaded#(Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="981344519288624087" at="66,0,69,0" concept="8" trace="super_getPFModules#()Ljava/lang/Iterable;" />
+      <node id="2031504182166952724" at="70,28,73,5" concept="7" />
+      <node id="4727360490521653786" at="50,31,54,7" concept="7" />
+      <node id="981344519288310021" at="57,28,61,9" concept="4" />
+      <node id="2031504182166952725" at="77,25,81,5" concept="7" />
+      <node id="4727360490521647820" at="49,0,55,5" concept="7" />
+      <node id="4105524262999563453" at="56,0,62,5" concept="7" />
+      <node id="4105524262999545710" at="70,0,76,0" concept="8" trace="invalidate#()V" />
+      <node id="4105524262999520158" at="77,0,84,0" concept="8" trace="dispose#()V" />
+      <node id="2031504182166952679" at="37,33,45,8" concept="4" />
+      <node id="2031504182166952674" at="36,57,48,5" concept="7" />
+      <node id="4105524262999554789" at="35,0,65,0" concept="8" trace="getPFModules#()Ljava/lang/Iterable;" />
+      <scope id="4105524262999511702" at="31,48,32,98" />
+      <scope id="2031504182166952695" at="39,92,40,23" />
+      <scope id="2031504182166952707" at="42,90,43,23" />
+      <scope id="981344519288624091" at="66,51,67,32" />
+      <scope id="2031504182166952724" at="71,29,72,63" />
+      <scope id="4727360490521653788" at="51,75,53,25" />
+      <scope id="981344519288310025" at="58,131,60,200" />
+      <scope id="2031504182166952729" at="78,33,80,56">
+        <var name="classLoaderManager" id="2031504182166952731" />
+      </scope>
+      <scope id="4105524262999511698" at="31,0,34,0" />
+      <scope id="2031504182166952686" at="39,0,42,0">
+        <var name="modules" id="2031504182166952689" />
+        <var name="p1" id="2031504182166952692" />
+      </scope>
+      <scope id="2031504182166952698" at="42,0,45,0">
+        <var name="modules" id="2031504182166952701" />
+        <var name="p1" id="2031504182166952704" />
+      </scope>
+      <scope id="981344519288624087" at="66,0,69,0" />
+      <scope id="4727360490521647822" at="50,31,54,7" />
+      <scope id="4105524262999563455" at="57,28,61,9" />
+      <scope id="4105524262999545714" at="70,28,74,21" />
+      <scope id="4105524262999520162" at="77,25,82,28" />
+      <scope id="4105524262999545710" at="70,0,76,0" />
+      <scope id="4105524262999520158" at="77,0,84,0" />
+      <scope id="2031504182166952678" at="37,33,47,53">
+        <var name="classLoaderManager" id="2031504182166952711" />
+      </scope>
+      <scope id="4105524262999554836" at="36,57,63,21" />
+      <scope id="4105524262999554789" at="35,0,65,0" />
+      <unit id="2031504182166952684" at="38,27,45,7" name="de.q60.mps.polymorphicfunctions.runtime.ImplementationsFromGlobalRepository$1" />
+      <unit id="4105524262999511590" at="23,0,85,0" name="de.q60.mps.polymorphicfunctions.runtime.ImplementationsFromGlobalRepository" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/4739596383734437420">
+    <file name="ContextPFContext.java">
+      <node id="4739596383734437422" at="10,0,11,0" concept="5" trace="parentContext" />
+      <node id="4739596383734437425" at="11,0,12,0" concept="5" trace="contextId" />
+      <node id="4739596383734437428" at="12,0,13,0" concept="5" trace="contextParameters" />
+      <node id="4739596383734437436" at="14,131,15,39" concept="4" />
+      <node id="4739596383734437442" at="15,39,16,31" concept="4" />
+      <node id="4739596383734437448" at="16,31,17,47" concept="4" />
+      <node id="4739596383734437476" at="21,87,22,63" concept="10" />
+      <node id="4739596383734437496" at="26,98,27,64" concept="10" />
+      <node id="4739596383734437514" at="32,43,33,36" concept="10" />
+      <node id="4739596383734437526" at="34,12,35,59" concept="10" />
+      <node id="4739596383734437538" at="40,39,41,37" concept="10" />
+      <node id="6420187251978307878" at="45,41,46,131" concept="10" />
+      <node id="4739596383734437524" at="34,10,36,5" concept="1" />
+      <node id="4739596383734437466" at="20,0,24,0" concept="8" trace="callFunction#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Object;" />
+      <node id="4739596383734437485" at="25,0,29,0" concept="8" trace="callFunctions#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;)Ljava/lang/Iterable;" />
+      <node id="4739596383734437532" at="39,0,43,0" concept="8" trace="getGroups#()Ljava/lang/Iterable;" />
+      <node id="6420187251978304282" at="44,0,48,0" concept="8" trace="getContexts#()Ljava/lang/Iterable;" />
+      <node id="4739596383734437432" at="14,0,19,0" concept="2" trace="ContextPFContext#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)V" />
+      <node id="4739596383734437512" at="31,63,36,5" concept="7" />
+      <node id="4739596383734437505" at="30,0,38,0" concept="8" trace="getContextParameters#(Ljava/lang/String;)Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;" />
+      <scope id="4739596383734437475" at="21,87,22,63" />
+      <scope id="4739596383734437495" at="26,98,27,64" />
+      <scope id="4739596383734437513" at="32,43,33,36" />
+      <scope id="4739596383734437525" at="34,12,35,59" />
+      <scope id="4739596383734437537" at="40,39,41,37" />
+      <scope id="6420187251978304292" at="45,41,46,131" />
+      <scope id="4739596383734437435" at="14,131,17,47" />
+      <scope id="4739596383734437466" at="20,0,24,0">
+        <var name="context" id="4739596383734437471" />
+        <var name="id" id="4739596383734437467" />
+        <var name="parameters" id="4739596383734437469" />
+      </scope>
+      <scope id="4739596383734437485" at="25,0,29,0">
+        <var name="context" id="4739596383734437490" />
+        <var name="id" id="4739596383734437486" />
+        <var name="parameters" id="4739596383734437488" />
+      </scope>
+      <scope id="4739596383734437532" at="39,0,43,0" />
+      <scope id="6420187251978304282" at="44,0,48,0" />
+      <scope id="4739596383734437432" at="14,0,19,0">
+        <var name="contextId" id="4739596383734437457" />
+        <var name="contextParameters" id="4739596383734437460" />
+        <var name="parentContext" id="4739596383734437454" />
+      </scope>
+      <scope id="4739596383734437511" at="31,63,36,5" />
+      <scope id="4739596383734437505" at="30,0,38,0">
+        <var name="contextId" id="4739596383734437506" />
+      </scope>
+      <unit id="4739596383734437420" at="8,0,49,0" name="de.q60.mps.polymorphicfunctions.runtime.ContextPFContext" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/5387699888071939277">
+    <file name="DescriptorCache.java">
+      <node id="5387699888071939277" at="23,0,24,0" concept="13" trace="LOG" />
+      <node id="5387699888072080212" at="25,0,26,0" concept="13" trace="INSTANCE" />
+      <node id="5387699888072090112" at="27,47,28,20" concept="10" />
+      <node id="5387699888071944777" at="31,0,32,0" concept="5" trace="loadedDescriptors" />
+      <node id="5387699888071952712" at="33,0,34,0" concept="5" trace="deployListener" />
+      <node id="9110072569959599034" at="34,0,35,0" concept="5" trace="languageRegistry" />
+      <node id="3538218268216777694" at="37,40,38,61" concept="17" />
+      <node id="9110072569959599038" at="39,5,40,45" concept="4" />
+      <node id="7660002689369311535" at="44,29,45,42" concept="4" />
+      <node id="5387699888072068341" at="46,5,47,51" concept="4" />
+      <node id="5387699888072157821" at="51,33,52,62" concept="4" />
+      <node id="9110072569959665934" at="52,62,53,28" concept="4" />
+      <node id="7838109265520673805" at="54,5,55,29" concept="4" />
+      <node id="9110072569959814902" at="55,29,56,28" concept="4" />
+      <node id="5387699888071946584" at="60,81,61,64" concept="9" />
+      <node id="5387699888072069508" at="66,86,67,25" concept="4" />
+      <node id="9110072569959729533" at="69,10,70,61" concept="4" />
+      <node id="5387699888071946633" at="72,5,73,22" concept="10" />
+      <node id="5387699888072101580" at="77,53,78,18" concept="10" />
+      <node id="9110072569959750795" at="79,5,80,62" concept="9" />
+      <node id="5387699888072101601" at="81,120,82,115" concept="10" />
+      <node id="5387699888072101609" at="83,5,84,63" concept="9" />
+      <node id="5387699888072101652" at="84,63,85,118" concept="4" />
+      <node id="5387699888072101658" at="85,118,86,22" concept="10" />
+      <node id="8179633958741733649" at="89,85,90,72" concept="9" />
+      <node id="3779852083333062267" at="90,72,91,77" concept="9" />
+      <node id="9110072569959832321" at="91,77,92,69" concept="9" />
+      <node id="7838109265520554135" at="94,11,95,49" concept="9" />
+      <node id="7838109265520554150" at="95,49,96,86" concept="9" />
+      <node id="7838109265520554157" at="97,36,98,107" concept="9" />
+      <node id="7660002689369117539" at="99,35,100,63" concept="4" />
+      <node id="9110072569960012189" at="101,11,102,29" concept="4" />
+      <node id="7838109265520554166" at="103,9,104,15" concept="10" />
+      <node id="9110072569960162614" at="105,42,106,28" concept="11" />
+      <node id="7838109265520554178" at="106,28,107,15" concept="10" />
+      <node id="3779852083333049148" at="109,33,110,60" concept="4" />
+      <node id="5202094150989898844" at="113,33,114,27" concept="4" />
+      <node id="9110072569960187422" at="117,7,118,20" concept="10" />
+      <node id="1638602636559062649" at="120,75,121,47" concept="10" />
+      <node id="5387699888072090135" at="27,0,30,0" concept="14" trace="getInstance#()Lde/q60/mps/polymorphicfunctions/runtime/DescriptorCache;" />
+      <node id="3538218268216758410" at="36,64,39,5" concept="7" />
+      <node id="7660002689369311535" at="43,28,46,5" concept="7" />
+      <node id="5387699888072101578" at="76,85,79,5" concept="7" />
+      <node id="5387699888072101599" at="80,62,83,5" concept="7" />
+      <node id="7660002689369117539" at="98,107,101,11" concept="7" />
+      <node id="3779852083333049148" at="108,40,111,9" concept="7" />
+      <node id="5202094150989898844" at="112,29,115,9" concept="7" />
+      <node id="1638602636559062649" at="120,0,123,0" concept="14" trace="as_8t64d5_a0a0a2a0a1a0d0v#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="5387699888072157134" at="50,25,54,5" concept="7" />
+      <node id="9110072569959685728" at="65,0,69,0" concept="8" trace="deploymentStateChanged#(Ljetbrains/mps/smodel/runtime/ModuleDeploymentChange;)V" />
+      <node id="9110072569959581885" at="36,0,42,0" concept="8" trace="init#(Ljetbrains/mps/smodel/language/LanguageRegistry;)V" />
+      <node id="5387699888072064332" at="43,0,49,0" concept="8" trace="invalidate#()V" />
+      <node id="5387699888072131349" at="63,63,69,10" concept="4" />
+      <node id="9110072569959986525" at="96,86,103,9" concept="7" />
+      <node id="5387699888072152658" at="50,0,58,0" concept="8" trace="dispose#()V" />
+      <node id="5387699888072126053" at="62,29,71,7" concept="7" />
+      <node id="5387699888072119031" at="61,64,72,5" concept="7" />
+      <node id="5387699888072101576" at="76,0,88,0" concept="8" trace="getDescriptor_#(Lorg/jetbrains/mps/openapi/module/SModule;Ljava/lang/String;)Lde/q60/mps/polymorphicfunctions/runtime/PFDescriptor;" />
+      <node id="5387699888071946550" at="59,0,75,0" concept="8" trace="getDescriptor#(Lorg/jetbrains/mps/openapi/module/SModule;Ljava/lang/String;)Lde/q60/mps/polymorphicfunctions/runtime/PFDescriptor;" />
+      <node id="7838109265520554133" at="93,67,116,7" concept="18" />
+      <node id="9110072569959858840" at="92,69,117,7" concept="4" />
+      <node id="7838109265520554125" at="89,0,120,0" concept="8" trace="getDescriptor__#(Lorg/jetbrains/mps/openapi/module/SModuleReference;Ljava/lang/String;)Lde/q60/mps/polymorphicfunctions/runtime/PFDescriptor;" />
+      <scope id="5387699888072082287" at="27,47,28,20" />
+      <scope id="3538218268216758412" at="37,40,38,61" />
+      <scope id="7660002689369311535" at="44,29,45,42" />
+      <scope id="9110072569959685736" at="66,86,67,25" />
+      <scope id="5387699888072101579" at="77,53,78,18" />
+      <scope id="5387699888072101600" at="81,120,82,115" />
+      <scope id="7660002689369117539" at="99,35,100,63" />
+      <scope id="3779852083333049148" at="109,33,110,60" />
+      <scope id="5202094150989898844" at="113,33,114,27" />
+      <scope id="1638602636559062649" at="120,75,121,47" />
+      <scope id="5387699888072157136" at="51,33,53,28" />
+      <scope id="7838109265520554177" at="105,42,107,15" />
+      <scope id="5387699888072090135" at="27,0,30,0" />
+      <scope id="7838109265520554176" at="105,7,108,7">
+        <var name="e" id="7838109265520554180" />
+      </scope>
+      <scope id="3779852083333037899" at="108,40,111,9" />
+      <scope id="5202094150989883499" at="112,29,115,9" />
+      <scope id="1638602636559062649" at="120,0,123,0">
+        <var name="o" id="1638602636559062649" />
+        <var name="type" id="1638602636559062649" />
+      </scope>
+      <scope id="9110072569959581886" at="36,64,40,45" />
+      <scope id="5387699888072064336" at="43,28,47,51" />
+      <scope id="9110072569959685728" at="65,0,69,0">
+        <var name="change" id="9110072569959685732" />
+      </scope>
+      <scope id="3779852083333037896" at="108,7,112,7">
+        <var name="e" id="3779852083333037897" />
+      </scope>
+      <scope id="5202094150989883498" at="112,7,116,7">
+        <var name="e" id="5202094150989883504" />
+      </scope>
+      <scope id="9110072569959986527" at="97,36,102,29">
+        <var name="descriptor" id="7838109265520554158" />
+      </scope>
+      <scope id="9110072569959581885" at="36,0,42,0">
+        <var name="languageRegistry" id="9110072569959590758" />
+      </scope>
+      <scope id="5387699888072064332" at="43,0,49,0" />
+      <scope id="5387699888072152662" at="50,25,56,28" />
+      <scope id="5387699888072126055" at="63,63,70,61" />
+      <scope id="5387699888072152658" at="50,0,58,0" />
+      <scope id="5387699888072119033" at="62,29,71,7" />
+      <scope id="5387699888072101577" at="76,85,86,22">
+        <var name="descriptor" id="5387699888072101610" />
+        <var name="mref" id="9110072569959750793" />
+      </scope>
+      <scope id="7838109265520554134" at="94,11,104,15">
+        <var name="cls" id="7838109265520554136" />
+        <var name="instanceField" id="7838109265520554151" />
+      </scope>
+      <scope id="5387699888072101576" at="76,0,88,0">
+        <var name="modelName" id="7838109265520575589" />
+        <var name="module" id="5387699888072101662" />
+      </scope>
+      <scope id="5387699888071946552" at="60,81,73,22">
+        <var name="descriptor" id="5387699888071946585" />
+      </scope>
+      <scope id="5387699888071946550" at="59,0,75,0">
+        <var name="modelName" id="7838109265520625644" />
+        <var name="module" id="5387699888071946635" />
+      </scope>
+      <scope id="9110072569959901012" at="93,67,116,7" />
+      <scope id="7838109265520554132" at="89,85,118,20">
+        <var name="className" id="3779852083333062268" />
+        <var name="modelFQName" id="8179633958741733650" />
+        <var name="rv" id="9110072569959832322" />
+      </scope>
+      <scope id="7838109265520554125" at="89,0,120,0">
+        <var name="modelName" id="7838109265520554128" />
+        <var name="module" id="7838109265520554126" />
+      </scope>
+      <unit id="5387699888072025096" at="64,29,69,9" name="de.q60.mps.polymorphicfunctions.runtime.DescriptorCache$1" />
+      <unit id="5387699888071939277" at="22,0,124,0" name="de.q60.mps.polymorphicfunctions.runtime.DescriptorCache" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/5680391965245403148">
+    <file name="ParameterType_Null.java">
+      <node id="5680391965245422891" at="11,50,12,19" concept="10" />
+      <node id="5680391965245423629" at="13,5,14,16" concept="10" />
+      <node id="5680391965245403151" at="7,0,9,0" concept="2" trace="ParameterType_Null#()V" />
+      <node id="5680391965245421540" at="10,63,13,5" concept="7" />
+      <node id="5680391965245403155" at="9,0,16,0" concept="8" trace="isMoreSpecificThan#(Lde/q60/mps/polymorphicfunctions/runtime/IParameterType;)Z" />
+      <scope id="5680391965245403154" at="7,31,7,31" />
+      <scope id="5680391965245421542" at="11,50,12,19" />
+      <scope id="5680391965245403151" at="7,0,9,0" />
+      <scope id="5680391965245403160" at="10,63,14,16" />
+      <scope id="5680391965245403155" at="9,0,16,0">
+        <var name="superType" id="5680391965245403156" />
+      </scope>
+      <unit id="5680391965245403148" at="6,0,17,0" name="de.q60.mps.polymorphicfunctions.runtime.ParameterType_Null" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/6393752169612033426">
+    <file name="PFDescriptor.java">
+      <node id="6393752169612033634" at="7,0,8,0" concept="8" trace="getModules#()Ljava/lang/Iterable;" />
+      <scope id="6393752169612033634" at="7,0,8,0" />
+      <unit id="6393752169612033426" at="6,0,9,0" name="de.q60.mps.polymorphicfunctions.runtime.PFDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/6393752169612206138">
+    <file name="ImplementationsFromModules.java">
+      <node id="6393752169612581039" at="13,0,14,0" concept="8" trace="getSModules#()Ljava/lang/Iterable;" />
+      <node id="6393752169612658083" at="14,0,15,0" concept="8" trace="getModelNames#()Ljava/lang/Iterable;" />
+      <node id="7838109265520679969" at="16,83,17,74" concept="10" />
+      <node id="6393752169612362629" at="20,44,21,250" concept="10" />
+      <node id="6393752169612206253" at="25,149,26,126" concept="10" />
+      <node id="6393752169612477895" at="30,53,31,90" concept="10" />
+      <node id="6393752169612206144" at="10,0,12,0" concept="2" trace="ImplementationsFromModules#()V" />
+      <node id="6393752169612206155" at="16,0,19,0" concept="8" trace="getDescriptor#(Ljetbrains/mps/module/ReloadableModule;Ljava/lang/String;)Lde/q60/mps/polymorphicfunctions/runtime/PFDescriptor;" />
+      <node id="6393752169612349675" at="20,0,23,0" concept="8" trace="getPFModules#()Ljava/lang/Iterable;" />
+      <node id="6393752169612206242" at="24,0,28,0" concept="8" trace="getImplementations#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Iterable;" />
+      <node id="6393752169612206262" at="29,0,33,0" concept="8" trace="getPriorityRules#()Ljava/lang/Iterable;" />
+      <scope id="6393752169612206147" at="10,39,10,39" />
+      <scope id="6393752169612581039" at="13,0,14,0" />
+      <scope id="6393752169612658083" at="14,0,15,0" />
+      <scope id="6393752169612206158" at="16,83,17,74" />
+      <scope id="6393752169612349679" at="20,44,21,250" />
+      <scope id="6393752169612206252" at="25,149,26,126" />
+      <scope id="6393752169612206266" at="30,53,31,90" />
+      <scope id="6393752169612206144" at="10,0,12,0" />
+      <scope id="6393752169612206155" at="16,0,19,0">
+        <var name="modelName" id="6393752169612272857" />
+        <var name="module" id="6393752169612266812" />
+      </scope>
+      <scope id="6393752169612349675" at="20,0,23,0" />
+      <scope id="6393752169612206242" at="24,0,28,0">
+        <var name="context" id="6393752169612206243" />
+        <var name="declarationId" id="6393752169612206245" />
+        <var name="parameters" id="6393752169612206247" />
+      </scope>
+      <scope id="6393752169612206262" at="29,0,33,0" />
+      <unit id="6393752169612206138" at="8,0,34,0" name="de.q60.mps.polymorphicfunctions.runtime.ImplementationsFromModules" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/7678600301243170018">
+    <file name="IPriorityGroup.java">
+      <node id="7678600301243172806" at="7,0,8,0" concept="8" trace="contains#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <scope id="7678600301243172806" at="7,0,8,0">
+        <var name="functionImpl" id="7678600301243173016" />
+      </scope>
+      <unit id="7678600301243170018" at="6,0,9,0" name="de.q60.mps.polymorphicfunctions.runtime.IPriorityGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/7678600301243173343">
+    <file name="SingleImplementationPriorityGroup.java">
+      <node id="7678600301243173574" at="8,0,9,0" concept="5" trace="implId" />
+      <node id="7678600301243177251" at="10,59,11,25" concept="4" />
+      <node id="7678600301243174180" at="15,65,16,56" concept="10" />
+      <node id="7678600301243177243" at="10,0,13,0" concept="2" trace="SingleImplementationPriorityGroup#(Ljava/lang/String;)V" />
+      <node id="7678600301243173715" at="14,0,18,0" concept="8" trace="contains#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <scope id="7678600301243177247" at="10,59,11,25" />
+      <scope id="7678600301243173721" at="15,65,16,56" />
+      <scope id="7678600301243177243" at="10,0,13,0">
+        <var name="implId" id="7678600301243177250" />
+      </scope>
+      <scope id="7678600301243173715" at="14,0,18,0">
+        <var name="functionImpl" id="7678600301243173716" />
+      </scope>
+      <unit id="7678600301243173343" at="7,0,19,0" name="de.q60.mps.polymorphicfunctions.runtime.SingleImplementationPriorityGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/7678600301243177812">
+    <file name="PriorityGroup.java">
+      <node id="7678600301243177941" at="8,0,9,0" concept="5" trace="groupId" />
+      <node id="7678600301243178297" at="10,40,11,27" concept="4" />
+      <node id="7678600301243257670" at="15,65,16,87" concept="10" />
+      <node id="7678600301243178289" at="10,0,13,0" concept="2" trace="PriorityGroup#(Ljava/lang/String;)V" />
+      <node id="7678600301243189723" at="14,0,18,0" concept="8" trace="contains#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <scope id="7678600301243178293" at="10,40,11,27" />
+      <scope id="7678600301243189729" at="15,65,16,87" />
+      <scope id="7678600301243178289" at="10,0,13,0">
+        <var name="groupId" id="7678600301243178296" />
+      </scope>
+      <scope id="7678600301243189723" at="14,0,18,0">
+        <var name="functionImpl" id="7678600301243189724" />
+      </scope>
+      <unit id="7678600301243177812" at="7,0,19,0" name="de.q60.mps.polymorphicfunctions.runtime.PriorityGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/7678600301243197972">
+    <file name="DefaultPriorityGroup.java">
+      <node id="7678600301243199667" at="7,0,8,0" concept="13" trace="INSTANCE" />
+      <node id="7678600301243200119" at="13,67,14,16" concept="10" />
+      <node id="7678600301243198401" at="9,0,11,0" concept="2" trace="DefaultPriorityGroup#()V" />
+      <node id="7678600301243198108" at="12,0,16,0" concept="8" trace="contains#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <scope id="7678600301243198405" at="9,34,9,34" />
+      <scope id="7678600301243198114" at="13,67,14,16" />
+      <scope id="7678600301243198401" at="9,0,11,0" />
+      <scope id="7678600301243198108" at="12,0,16,0">
+        <var name="functionImplId" id="7678600301243198109" />
+      </scope>
+      <unit id="7678600301243197972" at="6,0,17,0" name="de.q60.mps.polymorphicfunctions.runtime.DefaultPriorityGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/7678600301243200361">
+    <file name="GroupPriorityRule.java">
+      <node id="7678600301243200362" at="7,0,8,0" concept="5" trace="myHighPrioGroup" />
+      <node id="7678600301243200365" at="8,0,9,0" concept="5" trace="myLowPrioGroup" />
+      <node id="7678600301243200373" at="10,81,11,33" concept="4" />
+      <node id="7678600301243200377" at="11,33,12,31" concept="4" />
+      <node id="7678600301243209136" at="16,103,17,164" concept="10" />
+      <node id="7678600301245201097" at="17,164,18,0" concept="12" />
+      <node id="7678600301243200369" at="10,0,14,0" concept="2" trace="GroupPriorityRule#(Lde/q60/mps/polymorphicfunctions/runtime/IPriorityGroup;Lde/q60/mps/polymorphicfunctions/runtime/IPriorityGroup;)V" />
+      <node id="7678600301243200404" at="15,0,20,0" concept="8" trace="hasHigherPriority#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <scope id="7678600301243200372" at="10,81,12,31" />
+      <scope id="7678600301243200411" at="16,103,18,0" />
+      <scope id="7678600301243200369" at="10,0,14,0">
+        <var name="highPrioId" id="7678600301243200381" />
+        <var name="lowPrioId" id="7678600301243200383" />
+      </scope>
+      <scope id="7678600301243200404" at="15,0,20,0">
+        <var name="highPrio" id="7678600301243200405" />
+        <var name="lowPrio" id="7678600301243200407" />
+      </scope>
+      <unit id="7678600301243200361" at="6,0,21,0" name="de.q60.mps.polymorphicfunctions.runtime.GroupPriorityRule" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/7678600301243332907">
+    <file name="AnyGroup.java">
+      <node id="7678600301243335466" at="7,0,8,0" concept="13" trace="INSTANCE" />
+      <node id="7678600301243333450" at="12,65,13,16" concept="10" />
+      <node id="7678600301243335758" at="9,0,11,0" concept="2" trace="AnyGroup#()V" />
+      <node id="7678600301243333001" at="11,0,15,0" concept="8" trace="contains#(Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)Z" />
+      <scope id="7678600301243335762" at="9,22,9,22" />
+      <scope id="7678600301243333007" at="12,65,13,16" />
+      <scope id="7678600301243335758" at="9,0,11,0" />
+      <scope id="7678600301243333001" at="11,0,15,0">
+        <var name="functionImpl" id="7678600301243333002" />
+      </scope>
+      <unit id="7678600301243332907" at="6,0,16,0" name="de.q60.mps.polymorphicfunctions.runtime.AnyGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/8596472271730588913">
+    <file name="ParameterType_SConcept.java">
+      <node id="8596472271730588915" at="13,0,14,0" concept="5" trace="myConcept" />
+      <node id="8596472271730588925" at="15,59,16,24" concept="4" />
+      <node id="8596472271730588940" at="21,254,22,18" concept="10" />
+      <node id="8596472271730588968" at="24,57,25,19" concept="10" />
+      <node id="8596472271730588970" at="26,5,27,83" concept="9" />
+      <node id="8596472271730588981" at="28,120,29,19" concept="10" />
+      <node id="8596472271730588988" at="30,5,31,50" concept="10" />
+      <node id="8596472271730588913" at="35,0,36,0" concept="13" trace="BaseConcept$gP" />
+      <node id="8596472271730588921" at="15,0,18,0" concept="2" trace="ParameterType_SConcept#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="8596472271730588938" at="20,63,23,5" concept="7" />
+      <node id="8596472271730588961" at="23,5,26,5" concept="7" />
+      <node id="8596472271730588979" at="27,83,30,5" concept="7" />
+      <node id="8596472271730588932" at="19,0,33,0" concept="8" trace="isMoreSpecificThan#(Lde/q60/mps/polymorphicfunctions/runtime/IParameterType;)Z" />
+      <scope id="8596472271730588924" at="15,59,16,24" />
+      <scope id="8596472271730588939" at="21,254,22,18" />
+      <scope id="8596472271730588967" at="24,57,25,19" />
+      <scope id="8596472271730588980" at="28,120,29,19" />
+      <scope id="8596472271730588921" at="15,0,18,0">
+        <var name="concept" id="8596472271730588929" />
+      </scope>
+      <scope id="8596472271730588937" at="20,63,31,50">
+        <var name="superConcept" id="8596472271730588971" />
+      </scope>
+      <scope id="8596472271730588932" at="19,0,33,0">
+        <var name="superType" id="8596472271730588933" />
+      </scope>
+      <unit id="8596472271730588913" at="34,0,37,0" name="de.q60.mps.polymorphicfunctions.runtime.ParameterType_SConcept$CONCEPTS" />
+      <unit id="8596472271730588913" at="11,0,38,0" name="de.q60.mps.polymorphicfunctions.runtime.ParameterType_SConcept" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/8645954948521529702">
+    <file name="ContextValue.java">
+      <node id="3502377949046746264" at="12,0,13,0" concept="5" trace="defaultValue" />
+      <node id="8645954948521530090" at="13,0,14,0" concept="5" trace="value" />
+      <node id="3502377949046747645" at="18,39,19,37" concept="4" />
+      <node id="5534969758587957424" at="22,30,23,32" concept="9" />
+      <node id="5534969758587963035" at="24,24,25,56" concept="4" />
+      <node id="5534969758587967346" at="25,56,26,23" concept="4" />
+      <node id="5534969758587969513" at="27,5,28,17" concept="10" />
+      <node id="5534969758587970078" at="32,9,33,61" concept="4" />
+      <node id="8645954948521566337" at="33,61,34,14" concept="4" />
+      <node id="5534969758587980172" at="35,15,36,60" concept="4" />
+      <node id="5534969758587985273" at="46,9,47,61" concept="4" />
+      <node id="5294221306566470690" at="47,61,48,17" concept="4" />
+      <node id="5534969758587990253" at="49,15,50,60" concept="4" />
+      <node id="5534969758588001074" at="55,9,56,61" concept="4" />
+      <node id="3502377949046267719" at="56,61,57,24" concept="10" />
+      <node id="5534969758588008632" at="58,15,59,60" concept="4" />
+      <node id="5534969758588011795" at="63,23,64,31" concept="9" />
+      <node id="8645954948521531016" at="64,31,65,105" concept="10" />
+      <node id="5534969758588035349" at="68,37,69,22" concept="10" />
+      <node id="3502377949046750378" at="15,0,17,0" concept="2" trace="ContextValue#()V" />
+      <node id="3502377949046747637" at="18,0,21,0" concept="2" trace="ContextValue#(null)V" />
+      <node id="5534969758588017884" at="68,0,71,0" concept="8" trace="getAllValues#()Ljava/lang/Iterable;" />
+      <node id="5534969758587958404" at="23,32,27,5" concept="7" />
+      <node id="8645954948521530395" at="63,0,67,0" concept="8" trace="getValue#()null" />
+      <node id="8645954948521542944" at="31,47,37,5" concept="18" />
+      <node id="5294221306566470683" at="45,66,51,5" concept="18" />
+      <node id="3502377949046262756" at="54,85,60,5" concept="18" />
+      <node id="5534969758587948508" at="22,0,30,0" concept="8" trace="getStack#()Ljava/util/List;" />
+      <node id="8645954948521541518" at="31,0,39,0" concept="8" trace="runWith#(nullLjava/lang/Runnable;)V" />
+      <node id="3502377949046262742" at="54,0,62,0" concept="8" trace="computeWith#(nullLjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P0_E0;)null" />
+      <node id="5294221306566470669" at="44,0,53,0" concept="8" trace="runWith2#(nullLjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;)V" />
+      <scope id="3502377949046750382" at="15,25,15,25" />
+      <scope id="3502377949046747641" at="18,39,19,37" />
+      <scope id="8645954948521542946" at="35,15,36,60" />
+      <scope id="5294221306566470694" at="49,15,50,60" />
+      <scope id="3502377949046262767" at="58,15,59,60" />
+      <scope id="5534969758588017887" at="68,37,69,22" />
+      <scope id="3502377949046750378" at="15,0,17,0" />
+      <scope id="5534969758587958406" at="24,24,26,23" />
+      <scope id="8645954948521542945" at="32,9,34,14" />
+      <scope id="5294221306566470684" at="46,9,48,17" />
+      <scope id="3502377949046262757" at="55,9,57,24" />
+      <scope id="8645954948521530399" at="63,23,65,105">
+        <var name="stack" id="5534969758588011796" />
+      </scope>
+      <scope id="3502377949046747637" at="18,0,21,0">
+        <var name="defaultValue" id="3502377949046747644" />
+      </scope>
+      <scope id="5534969758588017884" at="68,0,71,0" />
+      <scope id="8645954948521530395" at="63,0,67,0" />
+      <scope id="5534969758587948512" at="22,30,28,17">
+        <var name="stack" id="5534969758587957425" />
+      </scope>
+      <scope id="8645954948521541522" at="31,47,37,5" />
+      <scope id="5294221306566470676" at="45,66,51,5" />
+      <scope id="3502377949046262749" at="54,85,60,5" />
+      <scope id="5534969758587948508" at="22,0,30,0" />
+      <scope id="8645954948521541518" at="31,0,39,0">
+        <var name="newValue" id="8645954948521542194" />
+        <var name="r" id="8645954948521542544" />
+      </scope>
+      <scope id="3502377949046262742" at="54,0,62,0">
+        <var name="newValue" id="3502377949046262743" />
+        <var name="r" id="3502377949046262745" />
+      </scope>
+      <scope id="5294221306566470669" at="44,0,53,0">
+        <var name="newValue" id="5294221306566470670" />
+        <var name="r" id="5294221306566470672" />
+      </scope>
+      <unit id="8645954948521529702" at="10,0,73,0" name="de.q60.mps.polymorphicfunctions.runtime.ContextValue" />
+    </file>
+  </root>
+  <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/9192345617661069204">
+    <file name="ImplementationsFromRepository.java">
+      <node id="9192345617661076457" at="11,0,12,0" concept="5" trace="repository" />
+      <node id="9192345617661080224" at="13,58,14,22" concept="4" />
+      <node id="9192345617661075351" at="17,54,18,56" concept="9" />
+      <node id="9192345617661075358" at="18,56,19,73" concept="10" />
+      <node id="9192345617661080216" at="13,0,16,0" concept="2" trace="ImplementationsFromRepository#(Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <node id="9192345617661075346" at="17,0,21,0" concept="8" trace="getSModules#()Ljava/lang/Iterable;" />
+      <scope id="9192345617661080220" at="13,58,14,22" />
+      <scope id="9192345617661075350" at="17,54,19,73">
+        <var name="modules" id="9192345617661075352" />
+      </scope>
+      <scope id="9192345617661080216" at="13,0,16,0">
+        <var name="repo" id="9192345617661080223" />
+      </scope>
+      <scope id="9192345617661075346" at="17,0,21,0" />
+      <unit id="9192345617661069204" at="10,0,22,0" name="de.q60.mps.polymorphicfunctions.runtime.ImplementationsFromRepository" />
+    </file>
+  </root>
+</debug-info>
+

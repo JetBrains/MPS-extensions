@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="15,0,36,0" name="de.q60.mps.polymorphicfunctions.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:bbc2e814-026d-4055-b55d-c6f6e6b3c2fe(de.q60.mps.polymorphicfunctions.constraints)/1700528364959542784">
+    <file name="PolymorphicFunctionImplementation_Constraints.java">
+      <node id="1700528364959542784" at="19,107,20,70" concept="6" />
+      <node id="1700528364959542907" at="20,70,21,26" concept="1" />
+      <node id="1700528364959542907" at="25,54,26,53" concept="6" />
+      <node id="1700528364959542907" at="29,114,30,18" concept="4" />
+      <node id="1700528364959542934" at="33,117,34,81" concept="1" />
+      <node id="1700528364959568224" at="35,138,36,246" concept="1" />
+      <node id="1700528364959542784" at="42,0,43,0" concept="5" trace="PolymorphicFunctionImplementation$vT" />
+      <node id="1700528364959542784" at="46,0,47,0" concept="5" trace="decl$8WDz" />
+      <node id="1700528364959542784" at="47,0,48,0" concept="5" trace="parameters$B1Zn" />
+      <node id="1700528364959542784" at="48,0,49,0" concept="5" trace="parameters$xTuP" />
+      <node id="1700528364959542907" at="25,0,28,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="1700528364959545981" at="34,81,37,7" concept="2" />
+      <node id="1700528364959542784" at="19,0,23,0" concept="0" trace="PolymorphicFunctionImplementation_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="1700528364959542907" at="28,0,32,0" concept="3" trace="validate#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1700528364959542907" at="32,0,39,0" concept="3" trace="onReferenceSet#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="1700528364959542907" at="25,54,26,53" />
+      <scope id="1700528364959542907" at="29,114,30,18" />
+      <scope id="1700528364959545983" at="35,138,36,246" />
+      <scope id="1700528364959542784" at="19,107,21,26" />
+      <scope id="1700528364959542907" at="25,0,28,0">
+        <var name="container" id="1700528364959542907" />
+      </scope>
+      <scope id="1700528364959542784" at="19,0,23,0">
+        <var name="initContext" id="1700528364959542784" />
+      </scope>
+      <scope id="1700528364959542907" at="28,0,32,0">
+        <var name="newReferentNode" id="1700528364959542907" />
+        <var name="oldReferentNode" id="1700528364959542907" />
+        <var name="referenceNode" id="1700528364959542907" />
+      </scope>
+      <scope id="1700528364959542914" at="33,117,37,7" />
+      <scope id="1700528364959542907" at="32,0,39,0">
+        <var name="newReferentNode" id="1700528364959542907" />
+        <var name="oldReferentNode" id="1700528364959542907" />
+        <var name="referenceNode" id="1700528364959542907" />
+      </scope>
+      <unit id="1700528364959542784" at="41,0,44,0" name="de.q60.mps.polymorphicfunctions.constraints.PolymorphicFunctionImplementation_Constraints$CONCEPTS" />
+      <unit id="1700528364959542784" at="45,0,50,0" name="de.q60.mps.polymorphicfunctions.constraints.PolymorphicFunctionImplementation_Constraints$LINKS" />
+      <unit id="1700528364959542907" at="24,0,40,0" name="de.q60.mps.polymorphicfunctions.constraints.PolymorphicFunctionImplementation_Constraints$RD1" />
+      <unit id="1700528364959542784" at="18,0,51,0" name="de.q60.mps.polymorphicfunctions.constraints.PolymorphicFunctionImplementation_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:bbc2e814-026d-4055-b55d-c6f6e6b3c2fe(de.q60.mps.polymorphicfunctions.constraints)/1700528364959781365">
+    <file name="PFParameterReference_Constraints.java">
+      <node id="1700528364959781365" at="25,94,26,57" concept="6" />
+      <node id="1700528364959781488" at="26,57,27,26" concept="1" />
+      <node id="1700528364959781488" at="31,54,32,53" concept="6" />
+      <node id="1700528364959781488" at="39,61,40,144" concept="4" />
+      <node id="1700528364959781693" at="43,78,44,212" concept="4" />
+      <node id="1700528364959781365" at="51,0,52,0" concept="5" trace="PFParameterReference$8N" />
+      <node id="1700528364959781365" at="52,0,53,0" concept="5" trace="PolymorphicFunctionImplementation$vT" />
+      <node id="1700528364959781365" at="56,0,57,0" concept="5" trace="decl$Qlzc" />
+      <node id="1700528364959781365" at="57,0,58,0" concept="5" trace="parameters$B1Zn" />
+      <node id="1700528364959781488" at="31,0,34,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="1700528364959781365" at="25,0,29,0" concept="0" trace="PFParameterReference_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="1700528364959781488" at="38,0,42,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1700528364959781488" at="42,0,46,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1700528364959781488" at="36,54,46,8" concept="4" />
+      <node id="1700528364959781488" at="34,0,48,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="1700528364959781488" at="31,54,32,53" />
+      <scope id="1700528364959781488" at="39,61,40,144" />
+      <scope id="1700528364959781488" at="43,78,44,212" />
+      <scope id="1700528364959781365" at="25,94,27,26" />
+      <scope id="1700528364959781488" at="31,0,34,0">
+        <var name="container" id="1700528364959781488" />
+      </scope>
+      <scope id="1700528364959781365" at="25,0,29,0">
+        <var name="initContext" id="1700528364959781365" />
+      </scope>
+      <scope id="1700528364959781488" at="38,0,42,0" />
+      <scope id="1700528364959781488" at="42,0,46,0">
+        <var name="_context" id="1700528364959781488" />
+      </scope>
+      <scope id="1700528364959781488" at="36,54,46,8" />
+      <scope id="1700528364959781488" at="34,0,48,0" />
+      <unit id="1700528364959781365" at="50,0,54,0" name="de.q60.mps.polymorphicfunctions.constraints.PFParameterReference_Constraints$CONCEPTS" />
+      <unit id="1700528364959781365" at="55,0,59,0" name="de.q60.mps.polymorphicfunctions.constraints.PFParameterReference_Constraints$LINKS" />
+      <unit id="1700528364959781488" at="37,17,46,7" name="de.q60.mps.polymorphicfunctions.constraints.PFParameterReference_Constraints$RD1$1" />
+      <unit id="1700528364959781488" at="30,0,49,0" name="de.q60.mps.polymorphicfunctions.constraints.PFParameterReference_Constraints$RD1" />
+      <unit id="1700528364959781365" at="24,0,60,0" name="de.q60.mps.polymorphicfunctions.constraints.PFParameterReference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:bbc2e814-026d-4055-b55d-c6f6e6b3c2fe(de.q60.mps.polymorphicfunctions.constraints)/3378269547578341371">
+    <file name="ContextParameterReference_Constraints.java">
+      <node id="3378269547578341371" at="27,99,28,62" concept="6" />
+      <node id="3378269547578341373" at="28,62,29,26" concept="1" />
+      <node id="3378269547578341373" at="33,54,34,53" concept="6" />
+      <node id="3378269547578341373" at="41,61,42,144" concept="4" />
+      <node id="3378269547578347784" at="45,78,46,259" concept="4" />
+      <node id="3378269547578341371" at="53,0,54,0" concept="5" trace="ContextParameterReference$z1" />
+      <node id="3378269547578341371" at="54,0,55,0" concept="5" trace="IPFContent$Ls" />
+      <node id="3378269547578341371" at="58,0,59,0" concept="5" trace="decl$hHuR" />
+      <node id="3378269547578341371" at="59,0,60,0" concept="5" trace="parameters$We0c" />
+      <node id="3378269547578341373" at="33,0,36,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="3378269547578341371" at="27,0,31,0" concept="0" trace="ContextParameterReference_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="3378269547578341373" at="40,0,44,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="3378269547578341373" at="44,0,48,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="3378269547578341373" at="38,54,48,8" concept="4" />
+      <node id="3378269547578341373" at="36,0,50,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="3378269547578341373" at="33,54,34,53" />
+      <scope id="3378269547578341373" at="41,61,42,144" />
+      <scope id="3378269547578341373" at="45,78,46,259" />
+      <scope id="3378269547578341371" at="27,99,29,26" />
+      <scope id="3378269547578341373" at="33,0,36,0">
+        <var name="container" id="3378269547578341373" />
+      </scope>
+      <scope id="3378269547578341371" at="27,0,31,0">
+        <var name="initContext" id="3378269547578341371" />
+      </scope>
+      <scope id="3378269547578341373" at="40,0,44,0" />
+      <scope id="3378269547578341373" at="44,0,48,0">
+        <var name="_context" id="3378269547578341373" />
+      </scope>
+      <scope id="3378269547578341373" at="38,54,48,8" />
+      <scope id="3378269547578341373" at="36,0,50,0" />
+      <unit id="3378269547578341371" at="52,0,56,0" name="de.q60.mps.polymorphicfunctions.constraints.ContextParameterReference_Constraints$CONCEPTS" />
+      <unit id="3378269547578341371" at="57,0,61,0" name="de.q60.mps.polymorphicfunctions.constraints.ContextParameterReference_Constraints$LINKS" />
+      <unit id="3378269547578341373" at="39,17,48,7" name="de.q60.mps.polymorphicfunctions.constraints.ContextParameterReference_Constraints$RD1$1" />
+      <unit id="3378269547578341373" at="32,0,51,0" name="de.q60.mps.polymorphicfunctions.constraints.ContextParameterReference_Constraints$RD1" />
+      <unit id="3378269547578341371" at="26,0,62,0" name="de.q60.mps.polymorphicfunctions.constraints.ContextParameterReference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

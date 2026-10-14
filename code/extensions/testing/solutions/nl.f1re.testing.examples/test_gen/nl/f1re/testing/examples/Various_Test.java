@@ -14,7 +14,9 @@ import nl.f1re.testing.runtime.PlatformTestHelper;
 import org.junit.Assert;
 import com.intellij.ide.PowerSaveMode;
 import com.intellij.diagnostic.MessagePool;
-import com.intellij.openapi.diagnostic.IdeaLoggingEvent;
+import com.intellij.diagnostic.LogMessage;
+import java.util.List;
+import com.intellij.openapi.diagnostic.Attachment;
 import com.intellij.openapi.application.ApplicationManager;
 import jetbrains.mps.ide.ThreadUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -79,7 +81,7 @@ public class Various_Test extends BaseTransformationTest {
     public void test_fatalError() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        MessagePool.getInstance().addIdeFatalMessage(new IdeaLoggingEvent("my error", new Throwable()));
+        MessagePool.getInstance().addIdeFatalMessage(new LogMessage(new Throwable(), "my error", List.<Attachment>of()));
         PlatformTestHelper platformTestHelper = new PlatformTestHelper(myProject);
         platformTestHelper.assertHasFatalError(null);
         platformTestHelper.assertHasFatalError("my error");

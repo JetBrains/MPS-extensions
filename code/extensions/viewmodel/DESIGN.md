@@ -287,10 +287,10 @@ ViewModel vm = ViewModels.named("org.iets3.testResults").forProject(project);
 
 `NamedViewModel` and `ProjectViewModel` are lightweight handles (a name, plus the project) and can be
 created whenever needed; they stay valid when the store is recreated after a class reload. Without a
-project, writes go through the project of the node (`clear` through the first open project) and
-`drain` applies the queued writes of all projects; with one, both go through that project. Batches and
-the write queue are shared by all view models: `startBatch` groups the asynchronous writes of every
-view model, and `drain` applies the queued writes to all of them. Code that uses view models only
+project, writes go through the project of the node (`clear` through the first open project); with
+one, through that project. Batches and the write queue are shared by all view models and projects:
+`startBatch` groups the asynchronous writes of every view model, and `drain` applies all queued
+writes. Code that uses view models only
 names the interface `ViewModel`, so how the project is found can change (e.g. to no project at all)
 without changing it. `ViewModels` itself
 offers `named(name)` and the path-based primitives `getPath(viewModel, path)`,
@@ -377,8 +377,13 @@ viewmodel/TestResults/(project).writeComputed(item, c);
   pending write in the reverse index immediately and starts listening to the models of its
   dependencies; a change of any of its dependencies before the queue is drained marks it stale, and
   stale writes are dropped.
-* A write inside a command drains the queue of the project first and is then applied, so that a write
-  queued before it can't overwrite it later.
+* A write inside a command drains the queue first and is then applied, so that a write queued before
+  it can't overwrite it later.
+* A drain applies the queued writes of all projects, each through the project it was queued for. A
+  command of any project can do that, because MPS runs the commands of all projects through one model
+  access and the editors of every project are updated when it ends. Draining only the writes of one
+  project missed writes queued through another one: a node that belongs to no project (e.g. in a
+  temporary model, as the nodes of a test are) is written through the first open project.
 * `drain()` is public, so tests (and code that is already inside a command) can apply the queue
   synchronously.
 * Drain: one `executeUndoTransparentCommand` on the project's model access, scheduled on the EDT once

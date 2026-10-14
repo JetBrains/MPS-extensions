@@ -17,7 +17,7 @@ plugins {
     id("de.itemis.mps.gradle.launcher")
     id("org.cyclonedx.bom") version "3.4.1"
 
-    id("com.specificlanguages.mps") version "2.1.0"
+    id("com.specificlanguages.mps") version "2.1.1"
 }
 
 val releaseRepository = "https://artifacts.itemis.cloud/repository/maven-mps-releases/"

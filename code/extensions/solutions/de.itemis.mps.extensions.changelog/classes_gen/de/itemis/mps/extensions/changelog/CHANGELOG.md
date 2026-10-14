@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## October 2026
+
+### Added
+
+- *com.jetbrains.mpsext.viewmodel* New: view models. A view model keeps data that belongs to nodes of persisted models, such as computed results, in memory instead of in the model. Editors that show it are updated when it changes, and an entry computed from other nodes is removed as soon as one of them changes. Declare a view model with `view model X` and use it with `viewmodel/X/`. `write` finds the project of the node and applies the value at once inside a command, otherwise later. In editor code the project of the editor is used, elsewhere one can be given with `viewmodel/X/(project)`. The Java API is in com.jetbrains.mpsext.viewmodel.runtime (`ViewModels.named(...)`). The *View Models* tool window shows the content of all view models, the nodes each value was computed from, and removes entries on request. Values can also be nodes: a rewrite updates the stored copy in place, so editors that show it only update what changed.
+
 ## September 2026
 
 ### Fixed

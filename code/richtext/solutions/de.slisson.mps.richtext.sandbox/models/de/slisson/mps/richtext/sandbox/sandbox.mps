@@ -34,17 +34,19 @@
       </concept>
     </language>
     <language id="7b3261eb-68d9-4fea-a99c-9ac789cea929" name="com.jetbrains.mpsext.richtext.styles">
+      <concept id="4107383424147473498" name="com.jetbrains.mpsext.richtext.styles.structure.ThemeColor" flags="ng" index="1pCLWG">
+        <property id="4107383424147959208" name="light" index="1pEJru" />
+        <property id="4107383424147959209" name="dark" index="1pEJrv" />
+      </concept>
       <concept id="6345989286613266886" name="com.jetbrains.mpsext.richtext.styles.structure.Span" flags="ng" index="1x5sD$">
         <reference id="6345989286613266893" name="style" index="1x5sDJ" />
         <child id="6345989286613266890" name="words" index="1x5sDC" />
       </concept>
       <concept id="6345989286613266397" name="com.jetbrains.mpsext.richtext.styles.structure.Style" flags="ng" index="1x5thZ">
-        <property id="3097356441983323918" name="foregroundLight" index="DOKD8" />
-        <property id="3097356441983323919" name="foregroundDark" index="DOKD9" />
         <property id="3097356441983323916" name="italic" index="DOKDa" />
         <property id="3097356441983323915" name="bold" index="DOKDd" />
-        <property id="3097356441983323920" name="backgroundLight" index="DOKDm" />
-        <property id="3097356441983323921" name="backgroundDark" index="DOKDn" />
+        <child id="4107383424147959215" name="background" index="1pEJrp" />
+        <child id="4107383424147959211" name="foreground" index="1pEJrt" />
       </concept>
       <concept id="6345989286613657307" name="com.jetbrains.mpsext.richtext.styles.structure.Stylesheet" flags="ng" index="1x6XPT">
         <child id="4630602346745012041" name="styles" index="2_$aG5" />
@@ -196,36 +198,52 @@
     </node>
   </node>
   <node concept="1x6XPT" id="413d4N_PHJ2">
-    <node concept="1x5thZ" id="413d4N_PHJ3" role="2_$aG5">
-      <property role="DOKD8" value="" />
-      <property role="DOKD9" value="" />
-      <property role="DOKDm" value="#FFF3A3" />
-      <property role="DOKDn" value="#6A5A00" />
+    <node concept="1x5thZ" id="3$0mRpwJ1S4" role="2_$aG5">
       <property role="TrG5h" value="Highlight" />
       <property role="DOKDd" value="true" />
+      <node concept="1pCLWG" id="3$0mRpwJ1S5" role="1pEJrt">
+        <property role="1pEJru" value="" />
+        <property role="1pEJrv" value="" />
+      </node>
+      <node concept="1pCLWG" id="3$0mRpwJ1S6" role="1pEJrp">
+        <property role="1pEJru" value="#FFF3A3" />
+        <property role="1pEJrv" value="#6A5A00" />
+      </node>
     </node>
-    <node concept="1x5thZ" id="413d4N_PHJ4" role="2_$aG5">
-      <property role="DOKD8" value="#005CC5" />
-      <property role="DOKD9" value="#79B8FF" />
-      <property role="DOKDm" value="" />
-      <property role="DOKDn" value="" />
+    <node concept="1x5thZ" id="3$0mRpwJ1S7" role="2_$aG5">
       <property role="TrG5h" value="Changed" />
+      <node concept="1pCLWG" id="3$0mRpwJ1S8" role="1pEJrt">
+        <property role="1pEJru" value="#005CC5" />
+        <property role="1pEJrv" value="#79B8FF" />
+      </node>
+      <node concept="1pCLWG" id="3$0mRpwJ1S9" role="1pEJrp">
+        <property role="1pEJru" value="" />
+        <property role="1pEJrv" value="" />
+      </node>
     </node>
-    <node concept="1x5thZ" id="413d4N_PHJ5" role="2_$aG5">
-      <property role="DOKD8" value="" />
-      <property role="DOKD9" value="" />
-      <property role="DOKDm" value="" />
-      <property role="DOKDn" value="" />
+    <node concept="1x5thZ" id="3$0mRpwJ1Sa" role="2_$aG5">
       <property role="TrG5h" value="simple_bold" />
       <property role="DOKDd" value="true" />
+      <node concept="1pCLWG" id="3$0mRpwJ1Sb" role="1pEJrt">
+        <property role="1pEJru" value="" />
+        <property role="1pEJrv" value="" />
+      </node>
+      <node concept="1pCLWG" id="3$0mRpwJ1Sc" role="1pEJrp">
+        <property role="1pEJru" value="" />
+        <property role="1pEJrv" value="" />
+      </node>
     </node>
-    <node concept="1x5thZ" id="413d4N_PHJ6" role="2_$aG5">
-      <property role="DOKD8" value="" />
-      <property role="DOKD9" value="" />
-      <property role="DOKDm" value="" />
-      <property role="DOKDn" value="" />
+    <node concept="1x5thZ" id="3$0mRpwJ1Sd" role="2_$aG5">
       <property role="TrG5h" value="simple_italic" />
       <property role="DOKDa" value="true" />
+      <node concept="1pCLWG" id="3$0mRpwJ1Se" role="1pEJrt">
+        <property role="1pEJru" value="" />
+        <property role="1pEJrv" value="" />
+      </node>
+      <node concept="1pCLWG" id="3$0mRpwJ1Sf" role="1pEJrp">
+        <property role="1pEJru" value="" />
+        <property role="1pEJrv" value="" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="413d4N_PHJ7">
@@ -237,7 +255,7 @@
           <property role="19SUeA" value="" />
         </node>
         <node concept="1x5sD$" id="6sHtZysSMD" role="19SJt6">
-          <ref role="1x5sDJ" node="413d4N_PHJ4" resolve="Changed" />
+          <ref role="1x5sDJ" node="3$0mRpwJ1S7" resolve="Changed" />
           <node concept="19SUe$" id="6sHtZysSMC" role="1x5sDC">
             <property role="19SUeA" value="Demonstrates" />
           </node>
@@ -246,7 +264,7 @@
           <property role="19SUeA" value=" " />
         </node>
         <node concept="1x5sD$" id="6sHtZysSN1" role="19SJt6">
-          <ref role="1x5sDJ" node="413d4N_PHJ3" resolve="Highlight" />
+          <ref role="1x5sDJ" node="3$0mRpwJ1S4" resolve="Highlight" />
           <node concept="19SUe$" id="6sHtZysSN0" role="1x5sDC">
             <property role="19SUeA" value="reusable" />
           </node>
@@ -255,7 +273,7 @@
           <property role="19SUeA" value=" " />
         </node>
         <node concept="1x5sD$" id="6sHtZysSNV" role="19SJt6">
-          <ref role="1x5sDJ" node="413d4N_PHJ5" resolve="simple_bold" />
+          <ref role="1x5sDJ" node="3$0mRpwJ1Sa" resolve="simple_bold" />
           <node concept="19SUe$" id="6sHtZysSNU" role="1x5sDC">
             <property role="19SUeA" value="rich" />
           </node>
@@ -264,7 +282,7 @@
           <property role="19SUeA" value=" " />
         </node>
         <node concept="1x5sD$" id="6sHtZysSO$" role="19SJt6">
-          <ref role="1x5sDJ" node="413d4N_PHJ6" resolve="simple_italic" />
+          <ref role="1x5sDJ" node="3$0mRpwJ1Sd" resolve="simple_italic" />
           <node concept="19SUe$" id="6sHtZysSOz" role="1x5sDC">
             <property role="19SUeA" value="text" />
           </node>

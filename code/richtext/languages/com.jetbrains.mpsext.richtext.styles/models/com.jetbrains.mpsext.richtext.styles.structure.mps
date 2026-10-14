@@ -61,28 +61,22 @@
       <property role="TrG5h" value="italic" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="2FW1ko3bKWe" role="1TKVEl">
-      <property role="IQ2nx" value="3097356441983323918" />
-      <property role="TrG5h" value="foregroundLight" />
-      <ref role="AX2Wp" node="5whuU8T1aZz" resolve="RichTextColor" />
-    </node>
-    <node concept="1TJgyi" id="2FW1ko3bKWf" role="1TKVEl">
-      <property role="IQ2nx" value="3097356441983323919" />
-      <property role="TrG5h" value="foregroundDark" />
-      <ref role="AX2Wp" node="5whuU8T1aZz" resolve="RichTextColor" />
-    </node>
-    <node concept="1TJgyi" id="2FW1ko3bKWg" role="1TKVEl">
-      <property role="IQ2nx" value="3097356441983323920" />
-      <property role="TrG5h" value="backgroundLight" />
-      <ref role="AX2Wp" node="5whuU8T1aZz" resolve="RichTextColor" />
-    </node>
-    <node concept="1TJgyi" id="2FW1ko3bKWh" role="1TKVEl">
-      <property role="IQ2nx" value="3097356441983323921" />
-      <property role="TrG5h" value="backgroundDark" />
-      <ref role="AX2Wp" node="5whuU8T1aZz" resolve="RichTextColor" />
-    </node>
     <node concept="PrWs8" id="5whuU8T3ZhI" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="3$0mRpwEEQF" role="1TKVEi">
+      <property role="IQ2ns" value="4107383424147959211" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="foreground" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3$0mRpwCOhq" resolve="ThemeColor" />
+    </node>
+    <node concept="1TJgyj" id="3$0mRpwEEQJ" role="1TKVEi">
+      <property role="IQ2ns" value="4107383424147959215" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="background" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3$0mRpwCOhq" resolve="ThemeColor" />
     </node>
   </node>
   <node concept="Az7Fb" id="5whuU8T1aZz">
@@ -122,6 +116,21 @@
       <property role="20kJfa" value="styles" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5whuU8T1aZt" resolve="Style" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3$0mRpwCOhq">
+    <property role="EcuMT" value="4107383424147473498" />
+    <property role="TrG5h" value="ThemeColor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3$0mRpwEEQC" role="1TKVEl">
+      <property role="IQ2nx" value="4107383424147959208" />
+      <property role="TrG5h" value="light" />
+      <ref role="AX2Wp" node="5whuU8T1aZz" resolve="RichTextColor" />
+    </node>
+    <node concept="1TJgyi" id="3$0mRpwEEQD" role="1TKVEl">
+      <property role="IQ2nx" value="4107383424147959209" />
+      <property role="TrG5h" value="dark" />
+      <ref role="AX2Wp" node="5whuU8T1aZz" resolve="RichTextColor" />
     </node>
   </node>
 </model>

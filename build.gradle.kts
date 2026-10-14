@@ -14,7 +14,7 @@ if (ciBuild) {
 }
 
 val releaseDependencies by configurations.dependencyScope("releaseDependencies")
-val releaseAssets by configurations.resolvable("releaseAssets") {
+val releaseAssetFiles by configurations.resolvable("releaseAssets") {
     extendsFrom(releaseDependencies)
 }
 dependencies {
@@ -52,8 +52,8 @@ githubRelease {
     targetCommitish = GitBasedVersioning.getGitCommitHash()
     body = releaseNotes
     prerelease = nightlyBuild
-    releaseAssets(rootProject.configurations.named("releaseAssets"))
+    releaseAssets(releaseAssetFiles)
     dryRun = false
 }
 
-tasks.named("githubRelease") { dependsOn(releaseAssets) }
+tasks.named("githubRelease") { dependsOn(releaseAssetFiles) }

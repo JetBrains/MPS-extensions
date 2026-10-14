@@ -38,7 +38,7 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
   }
   private EditorCell createAlternation_0() {
     boolean alternationCondition = true;
-    alternationCondition = nodeCondition_5fkz51_a0a();
+    alternationCondition = nodeCondition_5fkz51_a0a_0();
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = createNextEditor_0();
@@ -47,7 +47,7 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
     }
     return editorCell;
   }
-  private boolean nodeCondition_5fkz51_a0a() {
+  private boolean nodeCondition_5fkz51_a0a_0() {
     return false;
   }
   private EditorCell createNextEditor_0() {

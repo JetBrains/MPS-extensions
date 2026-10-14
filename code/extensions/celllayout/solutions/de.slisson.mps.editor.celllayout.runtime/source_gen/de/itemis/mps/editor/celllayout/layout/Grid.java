@@ -131,22 +131,18 @@ public class Grid {
     // compensate possible rounding error
     int roundingError = newWidth - getWidth();
     if (roundingError != 0) {
-      int bestIndex = 0;
-      int widthOfBest = myColumnWidths[0];
+      int bestIndex = -1;
+      int widthOfBest = 0;
       for (int i = 0; i < getSizeX(); i++) {
         if (weights[i] != 0.0f) {
-          if (roundingError < 0) {
-            if (myColumnWidths[i] > widthOfBest) {
-              bestIndex = i;
-              widthOfBest = myColumnWidths[i];
-            }
-          } else {
-            if (myColumnWidths[i] < widthOfBest) {
-              bestIndex = i;
-              widthOfBest = myColumnWidths[i];
-            }
+          if (bestIndex == -1 || ((roundingError < 0 ? myColumnWidths[i] > widthOfBest : myColumnWidths[i] < widthOfBest))) {
+            bestIndex = i;
+            widthOfBest = myColumnWidths[i];
           }
         }
+      }
+      if (bestIndex == -1) {
+        bestIndex = 0;
       }
       myColumnWidths[bestIndex] += roundingError;
     }

@@ -32,6 +32,10 @@ public class TopDownCellLayoutAdapter extends AbstractCellLayout implements Cell
   }
 
   protected ILayoutableContainer getLayoutable(EditorCell_Collection collection) {
+    IEditorCellBasedLayoutable sharedAdapter = LayoutableAdapters.getAdapter(collection);
+    if (sharedAdapter instanceof LayoutableCollectionAdapter && ((LayoutableCollectionAdapter) sharedAdapter).getLayouter().getClass() == myLayouter.getClass()) {
+      return (LayoutableCollectionAdapter) sharedAdapter;
+    }
     if (myAdapter == null || myAdapter.getEditorCell() != collection) {
       myAdapter = new LayoutableCollectionAdapter(collection, myLayouter);
     }

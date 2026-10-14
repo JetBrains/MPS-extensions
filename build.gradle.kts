@@ -15,12 +15,12 @@ if (ciBuild) {
     println("Local build detected, version will be $version")
 }
 
-val extensionsReleaseDependency by configurations.dependencyScope("extensionsReleaseDependency")
-val extensionsReleaseAssets by configurations.resolvable("extensionsReleaseAssets") {
-    extendsFrom(extensionsReleaseDependency)
+val releaseDependencies by configurations.dependencyScope("releaseDependencies")
+val releaseAssetFiles by configurations.resolvable("releaseAssets") {
+    extendsFrom(releaseDependencies)
 }
 dependencies {
-    extensionsReleaseDependency(project(path = ":extensions", configuration = "apiElements"))
+    releaseDependencies(project(path = ":extensions", configuration = "apiElements"))
 }
 
 val pythonEnvDir = layout.buildDirectory.dir("python-env")
@@ -66,8 +66,8 @@ githubRelease {
     targetCommitish = GitBasedVersioning.getGitCommitHash()
     body = releaseNotes
     prerelease = nightlyBuild
-    releaseAssets(extensionsReleaseAssets)
+    releaseAssets(releaseAssetFiles)
     dryRun = false
 }
 
-tasks.named("githubRelease") { dependsOn(extensionsReleaseAssets) }
+tasks.named("githubRelease") { dependsOn(releaseAssetFiles) }

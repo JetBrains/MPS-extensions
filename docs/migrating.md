@@ -61,12 +61,12 @@ Both modules above are located under the `code/languages/com.mbeddr.mpsutil/lang
 Steps to create a new extension:
 
 1. Create a folder in the MPS-extensions repository where we can place these files. 
-    - This folder should be placed under the existing `code` directory of the MPS-Extensions repository. 
+    - This folder should be placed under `code/extensions` in the MPS-Extensions repository. 
     - The naming convention is that it shall contain the last name of the *namespace*. In this case `jung`. 
-    - The resulting folders therefore should be: `code\jung` and also `code\jung\languages`.
-2. Copy all the files from the mbeddr repository `code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.jung` to the new `code/jung/languages` in the MPS-extensions repository.
+    - The resulting folders therefore should be: `code\extensions\jung` and also `code\extensions\jung\languages`.
+2. Copy all the files from the mbeddr repository `code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.jung` to the new `code/extensions/jung/languages` in the MPS-extensions repository.
 
-3. After copying, check if there is an existing `solutions` folder to the language you migrated such that you now have a `code/jung/languages/solutions` folder. If you do, move the files from `code/jung/languages/solutions` to the `code/jung/solutions` folder. This is because the structure in the MPS-extensions repository slightly differs from the one in mbeddr. 
+3. After copying, check if there is an existing `solutions` folder to the language you migrated such that you now have a `code/extensions/jung/languages/solutions` folder. If you do, move the files from `code/extensions/jung/languages/solutions` to the `code/extensions/jung/solutions` folder. This is because the structure in the MPS-extensions repository slightly differs from the one in mbeddr. 
 
 4. Remember: you are copying from the `mbeddr.core` folder and pasting them to the `MPS-Extensions` folder.
 
@@ -83,7 +83,7 @@ And then selecting the copied files:
 
 ![Select files](Migrating/img/add-files-2.png)
 
-The files end up in no folder in the project by default. They should be placed in a virtual folder of the project that matches the subfolder under the `code` folder. In this case `jung`:
+The files end up in no folder in the project by default. They should be placed in a virtual folder of the project that matches the subfolder under `code/extensions`. In this case `jung`:
 
 ![Select modules](Migrating/img/add-files-4.png)
 ![Place in virtual folder](Migrating/img/add-files-5.png)
@@ -165,4 +165,3 @@ If your project is using Grammar Cells today it is using them through the mbeddr
 If your build scripts show errors after changing the dependency a simple "reload modules from disk" intention should be able to fix them.
 
 If you only have a dependency to the mbeddr platform because you want to use Grammar Cells you are now able to drop that dependency. Replace the dependency on the mbeddr platform with a dependency on the correct version of MPS extensions. In this case you need to modify your MPS build scripts to no longer use the mbeddr platform as dependency but the MPS extensions. Afterwards, MPS will complain that it can't find the dependency on Grammar Cells language in the build. To fix this, invoke the intention *reload modules from disk' in the affected build script and the errors should go away.
-

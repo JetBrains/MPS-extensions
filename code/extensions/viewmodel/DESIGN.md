@@ -1,10 +1,8 @@
 # View models — design
 
-Status: the first version is implemented (store, HAMT, sync/async writes, dependency tracking, the
-DSL, node values updated in place), covered by `ViewModelStoreTest` and `ParenthesisAddsTheProject`, part of the build scripts
-(plugin `com.jetbrains.mpsext.viewmodel`), has a *View Models* tool window, and is used by
-iets3.opensource for the results of manually run checks. Not done yet: user documentation. The first version only covers what the interpreter-result
-use case (iets3 test items) needs; everything else is listed under *Later*.
+The design of the view models extension (experimental) and the reasons behind it. User documentation:
+`docs/extensions/utils/view-models.md`. The first version covers computed results shown in the editor, such as the
+results of manually run checks; everything else is listed under *Later*.
 
 ## Problem
 
@@ -28,8 +26,9 @@ and are removed when any of them changes.
 
 ## Use cases found
 
-Collected in October 2026 from the modules loaded in MPS: MPS-extensions, iets3.opensource,
-mbeddr.core platform (mpsutil) and MPS itself (MPS itself is out of scope, see *Decisions*).
+Collected in October 2026, before view models existed, from the modules loaded in MPS: MPS-extensions,
+iets3.opensource, mbeddr.core platform (mpsutil) and MPS itself (MPS itself is out of scope, see *Decisions*). The
+code described here is the state at that time.
 
 ### Computed results shown in the editor (first version: interpreter results)
 
@@ -162,7 +161,7 @@ For a later persisted `@view` model the HAMT also gives stable diffs: removals c
 the shape depends only on the set of keys, not on insertion order. That requires hashes that are
 stable across sessions — they are computed from strings, never from `identityHashCode`.
 
-## Design of the first version
+## Design
 
 ### Modules
 
@@ -331,8 +330,11 @@ viewmodel/TestResults/(project).writeComputed(item, c);
 * Project from the context: inside any concept function that offers the `editorContext` parameter
   (editor queries, cell actions, intentions, menus, …) the project is found at runtime through
   `editorContext.getRepository()` (`NamedViewModel.forRepository`, using `ProjectHelper.getProject`).
-  Elsewhere the project of the node is found. The editor shows the `(…)` part only when a project is
-  given; typing `(` after the expression (a right side transform) adds an empty project expression.
+  A repository that belongs to no project (e.g. a headless editor on the global repository, created by an
+  export or rendering tool) gives the view model without a project, which reads like any other and finds
+  the project of the node for writes. Elsewhere the project of the node is found. The editor shows the
+  `(…)` part only when a project is given; typing `(` after the expression (a right side transform) adds
+  an empty project expression.
 * Generator: three rules in `main`. An expression with a project reduces to
   `ViewModels.named("<runtime name>").forProject(<project>)`, one without a project to
   `ViewModels.named("<runtime name>")`. In editor code it reduces through the
@@ -355,6 +357,13 @@ viewmodel/TestResults/(project).writeComputed(item, c);
   other temporary models are (the copies `NodesTestCase` works on are a temporary model).
 * The store keeps a Java-side reverse index `SNodeReference → entries` and an `SNodeChangeListener`
   on every model that contains a dependency or a key node.
+* A computation inside another one adds its dependencies to the enclosing one (`ReadRecorder.start/stop`),
+  because MPS only notifies the innermost read listener.
+* A computation that lists the roots of a model (`SModel.getRootNodes`, which fires
+  `modelNodesReadAccess`) depends on the roots of that model: a dependency `ViewModels.rootsOf(model)`, a
+  node reference with the model and no node id. A root added to or removed from the model is a change of
+  it. Without it a computation that looks up roots (a scope, a lookup by name) would keep its result when
+  a matching root is added.
 * A change of a dependency node (property, reference, child added/removed) removes the dependent
   entries. Removing a node removes the entries keyed by any node of the removed subtree and the
   entries depending on it. A model that is replaced (reloaded from disk) invalidates all entries
@@ -365,7 +374,17 @@ viewmodel/TestResults/(project).writeComputed(item, c);
   drained, so its entries are removed in a later command; nothing displays them in the meantime.
 * Change events arrive while the change's command is running, so the removal happens in the same
   command and the editor update of that command includes it. Changes outside a command (rare, e.g.
-  migrations) enqueue the removal through the write queue, using the project of the entry's last write.
+  migrations) enqueue the removal through the write queue, using the project of the entry's last write:
+  MPS editors only record model events while a command runs, so a removal made directly would not
+  update them.
+* Closing a project is such a change. `Project.dispose` removes the project's modules in a write action
+  outside a command and only then marks the project disposed, so the removals of the entries keyed by
+  or depending on its models are queued for a project that is disposed by the time the queue is
+  drained. Queued removals are therefore applied even when their project is closed (they need none),
+  and the drain scheduled for a closed project runs in a command of another open project, or in a
+  write action when none is open (then there is no editor to update). Otherwise the entries would stay
+  in the store with nothing left to invalidate them, and show stale results when the project is
+  reopened.
 * An `ObjectValue` whose object was loaded by a disposed module class loader (after a class reload)
   reads as `null` (this replaces the `ClassCastException` handling in iets3). Class reloads rebuild
   the editors anyway, so no change event is needed.
@@ -389,7 +408,8 @@ viewmodel/TestResults/(project).writeComputed(item, c);
 * Drain: one `executeUndoTransparentCommand` on the project's model access, scheduled on the EDT once
   per batch (outermost `startBatch`/`close` pair, or each queued write outside a batch). Writes to the
   same path in one drain: the last one wins. Writes whose key node is gone or in a read-only model are
-  dropped. The returned `Future` completes when the write was applied or dropped.
+  dropped, as are writes of values (not removals) queued for a project that was closed in the meantime.
+  The returned `Future` completes when the write was applied or dropped.
 
 ### Node values
 
@@ -433,7 +453,8 @@ what is stored, mainly while developing a language that uses view models:
   opens the target) and children are rows below it, identified by node id, so in-place updates keep
   them expanded.
 * A value with dependencies has a *dependencies* child listing the nodes it was computed from
-  (`ViewModels.getDependencies`, a copy of the index entry).
+  (`ViewModels.getDependencies`, a copy of the index entry); a dependency on the roots of a model shows as
+  *roots of* and the model name.
 * Double-click opens the node of a key or dependency. *Remove* deletes the selected entry, nested map
   or whole view model (a `writePath` with a null value in a command of the project).
 * *Show View Model Entries* in the editor's *Language Debug* menu (group `ViewModelsDebug`, added to
@@ -450,25 +471,6 @@ what is stored, mainly while developing a language that uses view models:
   the last change, only while it is shown (otherwise when it is shown next), keeping the expanded
   rows and the selection. It reads the store through `ViewModels.getStore()` and doesn't register
   editor dependencies.
-
-### Use in iets3 (iets3.opensource, branch `feature/view-model`)
-
-* `org.iets3.core.base` declares `view model CheckResults`. `ICanStoreCheckResult` stores results
-  there, keyed by the node, for every implementor: test items, REPL
-  entries, solver results. `storeLastResultWithDependencies(result, deps)` is new; `storeLastResult`
-  passes no dependencies. Reads and writes use `viewmodel/CheckResults/` without a project.
-* The result is stored with `write`, which finds the project of the node and writes at once inside a
-  command, otherwise queues it. Without an open project (the headless interpreter runner)
-  nothing is stored; the callers there only use the returned result.
-* `AbstractTestItem.executeTest` runs setup and evaluation inside `compute` and stores the result with
-  the recorded dependencies; the `executeTestInternal` implementations no longer store. A
-  `VectorTestItem` computes each vector separately, so a change of one vector removes only that
-  vector's result (and the item's). A computation inside another one adds its dependencies to the
-  enclosing one (`ReadRecorder.start/stop`), because MPS only notifies the innermost read listener.
-* The editor refreshes (`RunManuallyUtil.rebuildAffectedEditors`, the `deleteStoredResult` intention's
-  `EditorComponentHacks` loop) are gone, and `check_ICanRunCheckManually` no longer deletes a result
-  after reporting it.
-* Results of nodes in read-only models (packaged libraries) aren't stored any more.
 
 ## Later
 

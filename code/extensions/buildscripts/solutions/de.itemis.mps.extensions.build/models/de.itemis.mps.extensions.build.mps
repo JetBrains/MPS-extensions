@@ -18047,6 +18047,11 @@
       <node concept="m$_yC" id="61KbhVU38BG" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
       </node>
+      <node concept="3_J27D" id="7UIkNvwAX7z" role="3s6cr7">
+        <node concept="3Mxwew" id="7UIkNvwAX7$" role="3MwsjC">
+          <property role="3MwjfP" value="Experimental. In-memory data for nodes of persisted models (e.g. results of checks) that editors observe like model content and that is removed when the nodes it was computed from change." />
+        </node>
+      </node>
     </node>
     <node concept="2G$12M" id="3sHcYAWpb8r" role="3989C9">
       <property role="TrG5h" value="group.nl.f1re.mps.aliascustomization" />

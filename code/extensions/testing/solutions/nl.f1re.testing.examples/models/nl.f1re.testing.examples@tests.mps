@@ -414,6 +414,7 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+        <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
         <child id="1212687122400" name="typeParameter" index="1pMfVU" />
@@ -5145,17 +5146,24 @@
               <ref role="1Pybhc" to="al1t:~MessagePool" resolve="MessagePool" />
             </node>
             <node concept="liA8E" id="4GRmlIZN2wy" role="2OqNvi">
-              <ref role="37wK5l" to="al1t:~MessagePool.addIdeFatalMessage(com.intellij.openapi.diagnostic.IdeaLoggingEvent)" resolve="addIdeFatalMessage" />
+              <ref role="37wK5l" to="al1t:~MessagePool.addErrorMessage(com.intellij.diagnostic.AbstractMessage)" resolve="addErrorMessage" />
               <node concept="2ShNRf" id="4GRmlIZN2xg" role="37wK5m">
-                <node concept="1pGfFk" id="4GRmlIZN7Z$" role="2ShVmc">
+                <node concept="1pGfFk" id="6WLIQmHYij8" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="37wK5l" to="uzhr:~IdeaLoggingEvent.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="IdeaLoggingEvent" />
-                  <node concept="Xl_RD" id="4GRmlIZN85J" role="37wK5m">
-                    <property role="Xl_RC" value="my error" />
-                  </node>
+                  <ref role="37wK5l" to="al1t:~LogMessage.&lt;init&gt;(java.lang.Throwable,java.lang.String,java.util.List)" resolve="LogMessage" />
                   <node concept="2ShNRf" id="4GRmlIZN8b_" role="37wK5m">
                     <node concept="1pGfFk" id="4GRmlIZN8b$" role="2ShVmc">
                       <ref role="37wK5l" to="wyt6:~Throwable.&lt;init&gt;()" resolve="Throwable" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4GRmlIZN85J" role="37wK5m">
+                    <property role="Xl_RC" value="my error" />
+                  </node>
+                  <node concept="2YIFZM" id="6WLIQmHYkoi" role="37wK5m">
+                    <ref role="37wK5l" to="33ny:~List.of()" resolve="of" />
+                    <ref role="1Pybhc" to="33ny:~List" resolve="List" />
+                    <node concept="3uibUv" id="6WLIQmHYnEh" role="3PaCim">
+                      <ref role="3uigEE" to="uzhr:~Attachment" resolve="Attachment" />
                     </node>
                   </node>
                 </node>

@@ -5146,7 +5146,7 @@
               <ref role="1Pybhc" to="al1t:~MessagePool" resolve="MessagePool" />
             </node>
             <node concept="liA8E" id="4GRmlIZN2wy" role="2OqNvi">
-              <ref role="37wK5l" to="al1t:~MessagePool.addIdeFatalMessage(com.intellij.diagnostic.AbstractMessage)" resolve="addIdeFatalMessage" />
+              <ref role="37wK5l" to="al1t:~MessagePool.addErrorMessage(com.intellij.diagnostic.AbstractMessage)" resolve="addErrorMessage" />
               <node concept="2ShNRf" id="4GRmlIZN2xg" role="37wK5m">
                 <node concept="1pGfFk" id="6WLIQmHYij8" role="2ShVmc">
                   <property role="373rjd" value="true" />

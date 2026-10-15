@@ -6370,7 +6370,7 @@
                           <property role="3oM_SC" value="so" />
                         </node>
                         <node concept="3oM_SD" id="6sHtZxT5UW" role="1PaTwD">
-                          <property role="3oM_SC" value="resolvee" />
+                          <property role="3oM_SC" value="resolve" />
                         </node>
                         <node concept="3oM_SD" id="6sHtZxT59L" role="1PaTwD">
                           <property role="3oM_SC" value="the" />

@@ -81,7 +81,7 @@ public class Various_Test extends BaseTransformationTest {
     public void test_fatalError() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        MessagePool.getInstance().addIdeFatalMessage(new LogMessage(new Throwable(), "my error", List.<Attachment>of()));
+        MessagePool.getInstance().addErrorMessage(new LogMessage(new Throwable(), "my error", List.<Attachment>of()));
         PlatformTestHelper platformTestHelper = new PlatformTestHelper(myProject);
         platformTestHelper.assertHasFatalError(null);
         platformTestHelper.assertHasFatalError("my error");

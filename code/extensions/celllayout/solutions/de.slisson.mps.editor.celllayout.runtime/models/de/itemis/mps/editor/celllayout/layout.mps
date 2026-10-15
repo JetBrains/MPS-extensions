@@ -1211,6 +1211,18 @@
       <node concept="10P_77" id="1QBKgmDV6Fu" role="3clF45" />
       <node concept="3Tm1VV" id="1QBKgmDV5SA" role="1B3o_S" />
       <node concept="3clFbS" id="1QBKgmDV5SB" role="3clF47" />
+      <node concept="P$JXv" id="6XkGsn_XMPO" role="lGtFl">
+        <node concept="TZ5HA" id="6XkGsn_XMPR" role="TZ5H$">
+          <node concept="1dT_AC" id="6XkGsn_XMPS" role="1dT_Ay">
+            <property role="1dT_AB" value="Whether lines must not be broken between the words inside this layoutable, at any depth. A line break before or after it is still allowed." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6XkGsn_XMPT" role="TZ5H$">
+          <node concept="1dT_AC" id="6XkGsn_XMPU" role="1dT_Ay">
+            <property role="1dT_AB" value="Editor cells return their INDENT_LAYOUT_NO_WRAP style. The MPS indent layout reads that style differently: there it only prevents a line break before the cell." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="3uJMZ8xBwaW" role="jymVt">
       <property role="TrG5h" value="getMaxWidth" />

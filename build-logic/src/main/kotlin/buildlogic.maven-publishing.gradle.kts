@@ -18,3 +18,32 @@ publishing {
         }
     }
 }
+
+val publishingRepository = if (version.toString().endsWith("-SNAPSHOT")) {
+    "https://artifacts.itemis.cloud/repository/maven-mps-snapshots/"
+} else {
+    "https://artifacts.itemis.cloud/repository/maven-mps-releases/"
+}
+
+publishing.repositories {
+    if (rootProject.hasProperty("artifacts.itemis.cloud.user") && rootProject.hasProperty("artifacts.itemis.cloud.pw")) {
+        maven {
+            name = "itemisCloud"
+            url = uri(publishingRepository)
+            credentials {
+                username = rootProject.findProperty("artifacts.itemis.cloud.user") as String?
+                password = rootProject.findProperty("artifacts.itemis.cloud.pw") as String?
+            }
+        }
+    }
+    if (rootProject.hasProperty("gpr.token")) {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/JetBrains/MPS-extensions")
+            credentials {
+                username = rootProject.findProperty("gpr.user") as String?
+                password = rootProject.findProperty("gpr.token") as String?
+            }
+        }
+    }
+}

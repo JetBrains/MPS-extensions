@@ -12,17 +12,13 @@ import java.util.*
 
 plugins {
     id("de.itemis.mps.gradle.common")
-    id("buildlogic.maven-publishing")
     id("buildlogic.versioning")
+    id("buildlogic.maven-publishing")
     id("de.itemis.mps.gradle.launcher")
     id("org.cyclonedx.bom") version "3.4.1"
 
     id("com.specificlanguages.mps") version "2.1.1"
 }
-
-val releaseRepository = "https://artifacts.itemis.cloud/repository/maven-mps-releases/"
-val snapshotRepository = "https://artifacts.itemis.cloud/repository/maven-mps-snapshots/"
-val publishingRepository = if (version.toString().endsWith("-SNAPSHOT")) snapshotRepository else releaseRepository
 
 group = "de.itemis.mps"
 
@@ -254,29 +250,6 @@ tasks.clean {
 }
 
 publishing {
-    repositories {
-        if (rootProject.hasProperty("artifacts.itemis.cloud.user") && rootProject.hasProperty("artifacts.itemis.cloud.pw")) {
-            maven {
-                name = "itemisCloud"
-                url = uri(publishingRepository)
-                credentials {
-                    username = rootProject.findProperty("artifacts.itemis.cloud.user") as String?
-                    password = rootProject.findProperty("artifacts.itemis.cloud.pw") as String?
-                }
-            }
-        }
-        if (rootProject.hasProperty("gpr.token")) {
-            maven {
-                name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/JetBrains/MPS-extensions")
-                credentials {
-                    username = rootProject.findProperty("gpr.user") as String?
-                    password = rootProject.findProperty("gpr.token") as String?
-                }
-            }
-        }
-    }
-
     publications {
         create<MavenPublication>("extensions") {
             from(components["mps"])

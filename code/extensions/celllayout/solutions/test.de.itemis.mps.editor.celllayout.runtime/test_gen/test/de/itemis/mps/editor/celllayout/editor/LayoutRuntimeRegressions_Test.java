@@ -117,15 +117,21 @@ public class LayoutRuntimeRegressions_Test {
     LayoutProbeLeaf normal = new LayoutProbeLeaf(70, 10);
     LayoutProbeContainer control = new LayoutProbeContainer(layout);
     control.add(normal);
+    normal.width = -1;
+    normal.height = -1;
     layout.layout(control, Size.limitedWidth(100));
     Assert.assertEquals("normal word control failed", 70, normal.width);
     Assert.assertEquals("normal word control failed", 10, normal.height);
-    LayoutProbeLeaf overX = new LayoutProbeLeaf(70, 10);
+    LayoutProbeLeaf overX = new LayoutProbeLeaf(150, 10);
     overX.overflowX = true;
     LayoutProbeContainer horizontal = new LayoutProbeContainer(layout);
     horizontal.add(overX);
+    overX.width = -1;
+    overX.height = -1;
     layout.layout(horizontal, Size.limitedWidth(100));
-    Assert.assertEquals("overflow-x word collapsed", 70, overX.width);
+    Assert.assertEquals("overflow-x word collapsed", 150, overX.width);
+    Assert.assertEquals("overflow-x word lost its line height", 10, overX.height);
+    Assert.assertEquals("overflow-x word measured without its height limit", Size.limitedHeight(10), overX.lastLimit);
   }
   @Test
   public void test_overflowYKeepsPreferredHeight() throws Exception {
@@ -133,13 +139,19 @@ public class LayoutRuntimeRegressions_Test {
     LayoutProbeLeaf normal = new LayoutProbeLeaf(70, 10);
     LayoutProbeContainer control = new LayoutProbeContainer(layout);
     control.add(normal);
+    normal.width = -1;
+    normal.height = -1;
     layout.layout(control, Size.limitedWidth(100));
     Assert.assertEquals("normal word control failed", 10, normal.height);
-    LayoutProbeLeaf overY = new LayoutProbeLeaf(70, 10);
+    LayoutProbeLeaf overY = new LayoutProbeLeaf(70, 30);
     overY.overflowY = true;
     LayoutProbeContainer vertical = new LayoutProbeContainer(layout);
     vertical.add(overY);
+    overY.width = -1;
+    overY.height = -1;
     layout.layout(vertical, Size.limitedWidth(100));
-    Assert.assertEquals("overflow-y word collapsed", 10, overY.height);
+    Assert.assertEquals("overflow-y word collapsed", 30, overY.height);
+    Assert.assertEquals("overflow-y word lost its width", 70, overY.width);
+    Assert.assertEquals("overflow-y word measured without its width limit", Size.limitedWidth(70), overY.lastLimit);
   }
 }

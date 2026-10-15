@@ -11,7 +11,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.editor.celllayout.runtime* Words with overflow-x or overflow-y in an indent layout got a width or height of zero in the overflow direction. They now keep their preferred size.
 - *de.itemis.mps.editor.celllayout.runtime* Shrinking a cell vertically after it was grown failed with an IllegalArgumentException, because the change of the top padding was limited by the left padding.
 - *de.itemis.mps.editor.celllayout.runtime* The selection of cells with a top-down layout could contain child cells that were already removed, because the layout used its own adapter that was never synchronized.
-- *de.itemis.mps.editor.celllayout.runtime* Layout work started while a layout watchdog was already active was skipped. It now runs within the active watchdog.
+- *de.itemis.mps.editor.celllayout.runtime* Collections with a top-down layout reported an ascent of 0 when it was queried while a layout was in progress. The ascent is now calculated in that case too.
 - *de.itemis.mps.editor.celllayout.runtime* Grid post-processing resized collections that the grid lays out as single elements and reset their padding. Only flattened collections are processed now.
 - *de.itemis.mps.editor.celllayout.runtime* Cells that inherit relayoutImpl from a superclass were not detected as overriding it. They now skip the top-down layout like cells that declare it themselves, for example diagram elements.
 - *de.itemis.mps.editor.celllayout.runtime* Cloning a box model shared the outer box of a frame between the clone and the original, and the padding and content boxes of the clone pointed at the wrong layers.

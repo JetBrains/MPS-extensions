@@ -24,6 +24,7 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
   public boolean overflowY;
   public boolean noWrap;
   public BoxModel box = new DefaultBoxModel();
+  public Size lastLimit;
   public LayoutProbeLeaf(int w, int h) {
     width = preferredWidth = w;
     height = preferredHeight = h;
@@ -83,6 +84,7 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
   }
   @NotNull
   public Size getPreferredSize(Size limit) {
+    lastLimit = limit;
     return new Size(preferredWidth, preferredHeight);
   }
   @NotNull

@@ -632,7 +632,7 @@ public class TextCellModifier {
         EditorCell_Collection textCell = multilineCell.getParent();
         SNode textNode = SNodeOperations.as(textCell.getSNode(), CONCEPTS.Text$bD);
         if (textNode == null) {
-          // the word is not a direct child of a Text: it sits inside a node that is itself in a Text (for example a styled span) so resolvee the enclosing Text instead
+          // the word is not a direct child of a Text: it sits inside a node that is itself in a Text (for example a styled span) so resolve the enclosing Text instead
           textNode = SNodeOperations.getNodeAncestor(((SNode) myWordCell.getSNode()), CONCEPTS.Text$bD, false, false);
           textCell = (textNode == null ? null : (EditorCell_Collection) context.getEditorComponent().findNodeCell(textNode));
         }

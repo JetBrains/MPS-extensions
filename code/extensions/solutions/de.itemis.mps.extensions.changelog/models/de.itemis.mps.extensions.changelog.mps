@@ -319,7 +319,7 @@
             <property role="3oM_SC" value="background" />
           </node>
           <node concept="3oM_SD" id="6sHtZytpn0" role="1PaTwD">
-            <property role="3oM_SC" value="colorsand" />
+            <property role="3oM_SC" value="colors," />
           </node>
           <node concept="3oM_SD" id="6sHtZytpnz" role="1PaTwD">
             <property role="3oM_SC" value="a" />
@@ -397,25 +397,25 @@
             <property role="3oM_SC" value="again." />
           </node>
           <node concept="3oM_SD" id="6sHtZytpeN" role="1PaTwD">
-            <property role="3oM_SC" value="The" />
+            <property role="3oM_SC" value="Existing" />
           </node>
           <node concept="3oM_SD" id="6sHtZytpeO" role="1PaTwD">
-            <property role="3oM_SC" value="language" />
-          </node>
-          <node concept="3oM_SD" id="6sHtZytpeP" role="1PaTwD">
-            <property role="3oM_SC" value="extends" />
-          </node>
-          <node concept="3oM_SD" id="6sHtZytpeQ" role="1PaTwD">
             <property role="3oM_SC" value="richtext" />
           </node>
+          <node concept="3oM_SD" id="6sHtZytpeP" role="1PaTwD">
+            <property role="3oM_SC" value="documents" />
+          </node>
+          <node concept="3oM_SD" id="6sHtZytpeQ" role="1PaTwD">
+            <property role="3oM_SC" value="keep" />
+          </node>
           <node concept="3oM_SD" id="6sHtZytpeR" role="1PaTwD">
-            <property role="3oM_SC" value="without" />
+            <property role="3oM_SC" value="working" />
           </node>
           <node concept="3oM_SD" id="6sHtZytpeS" role="1PaTwD">
-            <property role="3oM_SC" value="changing" />
+            <property role="3oM_SC" value="without" />
           </node>
           <node concept="3oM_SD" id="6sHtZytpeT" role="1PaTwD">
-            <property role="3oM_SC" value="it." />
+            <property role="3oM_SC" value="changes." />
           </node>
         </node>
       </node>
@@ -425,8 +425,8 @@
           <node concept="15Ami3" id="6sHtZytpSf" role="1PaTwD">
             <node concept="37shsh" id="6sHtZytpSh" role="15Aodc">
               <node concept="1dCxOk" id="6sHtZytq1M" role="37shsm">
-                <property role="1XweGW" value="7b3261eb-68d9-4fea-a99c-9ac789cea929" />
-                <property role="1XxBO9" value="com.jetbrains.mpsext.richtext.styles" />
+                <property role="1XweGW" value="92d2ea16-5a42-4fdf-a676-c7604efe3504" />
+                <property role="1XxBO9" value="de.slisson.mps.richtext" />
               </node>
             </node>
           </node>

@@ -884,7 +884,7 @@
           </node>
         </node>
         <node concept="x79VA" id="6NYYseXULGr" role="3nqlJM">
-          <property role="x79VB" value="true if Span is successfully removed, flase otherwise" />
+          <property role="x79VB" value="true if Span is successfully removed, false otherwise" />
         </node>
       </node>
     </node>
@@ -1058,7 +1058,7 @@
         </node>
         <node concept="TZ5HA" id="3$0mRpwGfiq" role="TZ5H$">
           <node concept="1dT_AC" id="3$0mRpwGfir" role="1dT_Ay">
-            <property role="1dT_AB" value="If only one value is configuredd then that value is used for both themes. If both values are configured the " />
+            <property role="1dT_AB" value="If only one value is configured then that value is used for both themes. If both values are configured the " />
           </node>
         </node>
         <node concept="TZ5HA" id="3$0mRpwGflH" role="TZ5H$">

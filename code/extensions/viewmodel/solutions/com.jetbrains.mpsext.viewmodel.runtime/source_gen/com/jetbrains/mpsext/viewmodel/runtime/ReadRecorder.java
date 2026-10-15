@@ -72,4 +72,12 @@ public final class ReadRecorder extends AbstractNodesReadListener {
   public void nodeUnclassifiedReadAccess(SNode node) {
     record(node);
   }
+  @Override
+  public void modelNodesReadAccess(SModel model) {
+    // the roots of the model were listed (SModel.getRootNodes), so a root added to it is a change
+    if (model == null || model == excludedModel) {
+      return;
+    }
+    SetSequence.fromSet(nodes).addElement(ViewModels.rootsOf(model.getReference()));
+  }
 }

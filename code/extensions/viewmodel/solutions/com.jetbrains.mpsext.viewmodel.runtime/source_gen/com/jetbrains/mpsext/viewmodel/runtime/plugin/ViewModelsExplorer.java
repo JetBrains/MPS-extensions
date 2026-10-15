@@ -55,6 +55,7 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.jetbrains.mps.openapi.model.SReference;
 import jetbrains.mps.ide.icons.GlobalIconManager;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelStringKey;
+import jetbrains.mps.ide.icons.IdeIcons;
 import com.intellij.openapi.util.text.StringUtil;
 import jetbrains.mps.openapi.navigation.EditorNavigator;
 import jetbrains.mps.project.MPSProject;
@@ -380,6 +381,12 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
   private ViewModelsExplorerItem nodeItem(String idPrefix, SNodeReference ref) {
     SNode target = ref.resolve(project.getRepository());
     ViewModelsExplorerItem item;
+    if (ViewModels.isRootsOf(ref)) {
+      // the value depends on which roots the model has
+      item = new ViewModelsExplorerItem(idPrefix + ref, "roots of " + ref.getModelReference().getName().getLongName(), IdeIcons.MODEL_ICON);
+      item.detail = "a root added or removed";
+      return item;
+    }
     if (target == null) {
       item = new ViewModelsExplorerItem(idPrefix + ref, ref.toString(), AllIcons.General.Warning);
       item.detail = "not found";

@@ -26,16 +26,21 @@ import com.jetbrains.mpsext.viewmodel.runtime.ViewModelBatch;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import com.jetbrains.mpsext.viewmodel.runtime.NamedViewModel;
+import org.jetbrains.mps.openapi.module.SRepository;
+import jetbrains.mps.project.ProjectRepository;
+import org.jetbrains.mps.openapi.model.SModel;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.project.ProjectBase;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.model.SNodeChangeListener;
 import org.jetbrains.mps.openapi.event.SPropertyChangeEvent;
 import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
 import org.jetbrains.mps.openapi.event.SNodeAddEvent;
 import org.jetbrains.mps.openapi.event.SNodeRemoveEvent;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Label;
 import java.util.Set;
@@ -108,6 +113,18 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
   @Test
   public void test_writeWithoutAProject() throws Throwable {
     new TestBody(this).test_writeWithoutAProject();
+  }
+  @Test
+  public void test_aRepositoryOfNoProjectGivesTheViewModelWithoutAProject() throws Throwable {
+    new TestBody(this).test_aRepositoryOfNoProjectGivesTheViewModelWithoutAProject();
+  }
+  @Test
+  public void test_aComputationOverTheRootsIsRemovedWhenARootIsAdded() throws Throwable {
+    new TestBody(this).test_aComputationOverTheRootsIsRemovedWhenARootIsAdded();
+  }
+  @Test
+  public void test_removalsOfAClosedProjectAreApplied() throws Throwable {
+    new TestBody(this).test_removalsOfAClosedProjectAreApplied();
   }
   @Test
   public void test_aNewInstanceTakesOverTheStore() throws Throwable {
@@ -384,6 +401,72 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertNull(results.get(item));
       });
     }
+    public void test_aRepositoryOfNoProjectGivesTheViewModelWithoutAProject() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        // e.g. a headless editor on the global repository: the editor form of viewmodel/X/ reads through it
+        NamedViewModel named = ViewModels.named(vm.getName());
+        SRepository global = item.getModel().getRepository();
+        Assert.assertFalse(global instanceof ProjectRepository);
+        ViewModel viewModel = named.forRepository(global);
+        Assert.assertSame(named, viewModel);
+        Assert.assertTrue(viewModel.write(item, "v", null).getNow(false));
+        Assert.assertEquals("v", viewModel.get(item));
+      });
+    }
+    public void test_aComputationOverTheRootsIsRemovedWhenARootIsAdded() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        final SNode item = getAnnotatedNode("a");
+        final SModel model = item.getModel();
+        Computed<Integer> computed = vm.compute(() -> {
+          int count = 0;
+          for (SNode root : Sequence.fromIterable(model.getRootNodes())) {
+            count++;
+          }
+          return count;
+        });
+        Assert.assertTrue(SetSequence.fromSet(computed.getDependencies()).contains(ViewModels.rootsOf(model.getReference())));
+        vm.writeComputed(item, computed);
+        Assert.assertNotNull(vm.get(item));
+        SNode added = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestItem"));
+        SPropertyOperations.assign(added, PROPS.name$MnvL, "added");
+        model.addRootNode(added);
+        Assert.assertNull(vm.get(item));
+        model.removeRootNode(added);
+      });
+    }
+    public void test_removalsOfAClosedProjectAreApplied() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        ProjectBase closing = new ProjectBase("closing", myProject.getPlatform()) {
+          @Override
+          public void save() {
+          }
+        };
+        // a value written through the project, which is applied by a drain of any project
+        List<ViewModelKey> path = ViewModels.path(item);
+        ViewModels.getInstance().writePathAsync(closing, vm.getName(), path, "v", null);
+        vm.drain();
+        Assert.assertEquals("v", vm.get(item));
+        // What closing a project does: it removes its models in a write action outside a command, so the removals
+        // of their entries are queued, and then the project is disposed before the queue is drained (here by the
+        // test's project; the scheduled drain of the closed project goes through another project, too).
+        CompletableFuture<Boolean> removal = ViewModels.getInstance().writePathAsync(closing, vm.getName(), path, null, null);
+        closing.dispose();
+        vm.drain();
+        Assert.assertTrue(removal.getNow(false));
+        Assert.assertNull(vm.get(item));
+      });
+    }
     public void test_aNewInstanceTakesOverTheStore() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
@@ -556,8 +639,8 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
 
   private static final class PROPS {
     /*package*/ static final SProperty input$_sYF = MetaAdapterFactory.getProperty(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, 0x39e05b8c02dc4cb2L, "input");
-    /*package*/ static final SProperty label$IRFe = MetaAdapterFactory.getProperty(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x4d1a0d2e910043eaL, "label");
     /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty label$IRFe = MetaAdapterFactory.getProperty(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x4d1a0d2e910043eaL, "label");
   }
 
   private static final class CONCEPTS {

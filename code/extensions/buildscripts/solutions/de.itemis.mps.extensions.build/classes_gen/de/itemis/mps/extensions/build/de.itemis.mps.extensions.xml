@@ -14916,6 +14916,7 @@
       <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>com.jetbrains.mpsext.viewmodel</id>
         <name>View Models</name>
+        <description>Experimental. In-memory data for nodes of persisted models (e.g. results of checks) that editors observe like model content and that is removed when the nodes it was computed from change.</description>
         <version>${version}</version>
         <vendor url="https://www.jetbrains.com/mps/">JetBrains</vendor>
         <depends>com.intellij.modules.mps</depends>

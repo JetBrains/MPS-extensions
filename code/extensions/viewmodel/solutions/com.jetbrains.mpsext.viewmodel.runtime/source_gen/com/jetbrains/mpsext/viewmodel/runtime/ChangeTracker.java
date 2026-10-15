@@ -38,6 +38,8 @@ public final class ChangeTracker implements SNodeChangeListener, SModelListener 
   public void nodeAdded(SNodeAddEvent event) {
     if (event.getParent() != null) {
       viewModels.nodeChanged(event.getParent().getReference());
+    } else {
+      viewModels.nodeChanged(ViewModels.rootsOf(event.getModel().getReference()));
     }
   }
 
@@ -45,6 +47,8 @@ public final class ChangeTracker implements SNodeChangeListener, SModelListener 
   public void nodeRemoved(SNodeRemoveEvent event) {
     if (event.getParent() != null) {
       viewModels.nodeChanged(event.getParent().getReference());
+    } else {
+      viewModels.nodeChanged(ViewModels.rootsOf(event.getModel().getReference()));
     }
     // the removed nodes are detached already, so their references are built from the model of the event
     SModelReference modelRef = event.getModel().getReference();

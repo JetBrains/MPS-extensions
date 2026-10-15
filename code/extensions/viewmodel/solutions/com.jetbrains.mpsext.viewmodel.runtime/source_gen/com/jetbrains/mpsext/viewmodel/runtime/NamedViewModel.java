@@ -91,11 +91,13 @@ public final class NamedViewModel implements ViewModel {
     return new ProjectViewModel(this, project);
   }
 
-  public ProjectViewModel forRepository(SRepository repository) {
-    // the view model bound to the project of a repository, e.g. editorContext.getRepository()
+  public ViewModel forRepository(SRepository repository) {
+    // The view model bound to the project of a repository, e.g. editorContext.getRepository(). A repository
+    // of no project (e.g. of a headless editor on the global repository, which only reads) gives this view
+    // model, whose writes find the project of the node.
     Project project = ProjectHelper.getProject(repository);
     if (project == null) {
-      throw new IllegalArgumentException("the repository doesn't belong to a project: " + repository);
+      return this;
     }
     return forProject(project);
   }

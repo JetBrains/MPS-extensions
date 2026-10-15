@@ -27,6 +27,8 @@ import jetbrains.mps.smodel.tempmodel.TemporaryModels;
 import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.model.SModelReference;
+import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.project.ProjectManager;
 import org.jetbrains.mps.openapi.module.SModule;
@@ -36,7 +38,6 @@ import java.util.function.Supplier;
 import java.util.concurrent.CompletableFuture;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.ModelImports;
-import org.jetbrains.mps.openapi.model.SModelReference;
 import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -206,6 +207,15 @@ public final class ViewModels {
     List<ViewModelKey> result = ListSequence.fromList(new ArrayList<ViewModelKey>());
     ListSequence.fromList(result).addElement(ViewModelKey.forNode(node));
     return result;
+  }
+  public static boolean isRootsOf(SNodeReference dependency) {
+    // whether the dependency is the roots of a model (rootsOf) rather than a node
+    return dependency.getNodeId() == null && dependency.getModelReference() != null;
+  }
+  public static SNodeReference rootsOf(SModelReference model) {
+    // The dependency of a computation on the roots of a model (it called SModel.getRootNodes): a reference
+    // to the model without a node, which a root added to or removed from the model changes.
+    return new SNodePointer(model, null);
   }
   public static Project findProject(List<ViewModelKey> path) {
     // The project to write through when the caller has none: the open project that contains the module of
@@ -748,56 +758,62 @@ public final class ViewModels {
     synchronized (scheduledProjects) {
       SetSequence.fromSet(scheduledProjects).removeElement(project);
     }
-    if (project.isDisposed()) {
-      drop(project);
+    final ViewModels viewModels = this;
+    // A project closed in the meantime can't run the command. The queue holds the removals of its entries
+    // (closing a project removes its models in a write action outside a command), so it is drained through
+    // another open project or, when none is open, in a write action: then there is no editor to update.
+    Project target = ((project.isDisposed() ? findProject(null) : project));
+    if (target == null) {
+      SModel storeModel = model;
+      final SRepository repository = ((storeModel == null ? null : storeModel.getRepository()));
+      if (repository == null) {
+        // no store, so nothing to remove
+        for (PendingWrite write : ListSequence.fromList(takePending())) {
+          write.getFuture().complete(false);
+        }
+        return;
+      }
+      repository.getModelAccess().runWriteAction(new Runnable() {
+        public void run() {
+          viewModels.drainQueue(repository);
+        }
+      });
       return;
     }
-    final ViewModels viewModels = this;
-    project.getModelAccess().executeUndoTransparentCommand(new Runnable() {
+    final Project commandProject = target;
+    commandProject.getModelAccess().executeUndoTransparentCommand(new Runnable() {
       public void run() {
-        viewModels.drain(project);
+        viewModels.drain(commandProject);
       }
     });
   }
 
-  private List<PendingWrite> takePending(Project project) {
-    // the queued writes of a project, or of all projects when it is null
+  private List<PendingWrite> takePending() {
+    // the queued writes of all projects
     List<PendingWrite> taken = ListSequence.fromList(new ArrayList<PendingWrite>());
     synchronized (pendingByDependency) {
-      for (PendingWrite write : ListSequence.fromList(pending)) {
-        if (project == null || write.getProject() == project) {
-          ListSequence.fromList(taken).addElement(write);
-        }
-      }
-      for (PendingWrite write : ListSequence.fromList(taken)) {
-        ListSequence.fromList(pending).removeElement(write);
-        for (SNodeReference dep : SetSequence.fromSet(write.getDependencies())) {
-          List<PendingWrite> writes = MapSequence.fromMap(pendingByDependency).get(dep);
-          if (writes != null) {
-            ListSequence.fromList(writes).removeElement(write);
-            if (ListSequence.fromList(writes).isEmpty()) {
-              MapSequence.fromMap(pendingByDependency).removeKey(dep);
-            }
-          }
-        }
-      }
+      ListSequence.fromList(taken).addSequence(ListSequence.fromList(pending));
+      ListSequence.fromList(pending).clear();
+      MapSequence.fromMap(pendingByDependency).clear();
     }
     return taken;
   }
 
-  private void drop(Project project) {
-    for (PendingWrite write : ListSequence.fromList(takePending(project))) {
-      write.getFuture().complete(false);
-    }
-  }
 
   public void drain(Project project) {
-    // The queued writes of all projects, in the order they were made, each applied through the project it was
-    // queued for; the last write to a path wins. Has to be called inside a command, which may be one of any
-    // project: MPS runs the commands of all projects through one model access, so the editors of every
-    // project are updated when it ends. The project only provides the repository.
-    for (PendingWrite write : ListSequence.fromList(takePending(null))) {
-      if (write.isStale() || write.getProject().isDisposed()) {
+    // The queued writes of all projects, in the order they were made; the last write to a path wins. Has to be
+    // called inside a command, which may be one of any project: MPS runs the commands of all projects through
+    // one model access, so the editors of every project are updated when it ends. The project only provides
+    // the repository.
+    drainQueue(project.getRepository());
+  }
+  private void drainQueue(SRepository repository) {
+    // Needs write access. Each write is applied through the project it was queued for. A removal is applied
+    // even when that project was closed in the meantime: it needs no project, and the entries would otherwise
+    // stay in the store with nothing left to invalidate them. Other writes of a closed project are dropped.
+    for (PendingWrite write : ListSequence.fromList(takePending())) {
+      boolean closed = write.getValue() != null && write.getProject().isDisposed();
+      if (write.isStale() || closed) {
         write.getFuture().complete(false);
         continue;
       }
@@ -807,7 +823,7 @@ public final class ViewModels {
         write.getFuture().completeExceptionally(ex);
       }
     }
-    removeDeletedKeys(project.getRepository());
+    removeDeletedKeys(repository);
   }
   public void drainAll() {
     // drain without a project at hand; has to be called inside a command

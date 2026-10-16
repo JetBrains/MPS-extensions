@@ -70,11 +70,11 @@ The language consists of four concepts:
 
 To use it, add the language to your model and create a `Stylesheet` with the styles you need. The stylesheet can be in the same model or in a model that you import. Then select some text inside a single word of a `Text` and press ++alt+enter++. These intentions are available:
 
-| Intention             | Description                                                                                            |
-| --------------------- | ------------------------------------------------------------------------------------------------------ |
-| Apply Style '*name*'  | wraps the selected text in a `Span` with this style, or changes the style if the text is already styled |
-| Clear Style           | removes the `Span` around the selected text and keeps the text                                         |
-| Clear All Styles      | removes all `Span`s from the `Text`                                                                    |
+| Intention             | Description                                                                                                                 |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Apply Style '*name*'  | wraps the selected text in a `Span` with this style, or changes the style when the selection consists of whole `Span`s only |
+| Clear Style           | removes the `Span` around the selected text and keeps the text                                                              |
+| Clear All Styles      | removes all `Span`s from the `Text`                                                                                         |
 
 One entry for each style is offered, taken from all stylesheets that are visible from the model. A `Span` can't be nested in another `Span`. Styles only change how the text looks in the editor, the text that is generated from a `Span` is just the text of its words.
 

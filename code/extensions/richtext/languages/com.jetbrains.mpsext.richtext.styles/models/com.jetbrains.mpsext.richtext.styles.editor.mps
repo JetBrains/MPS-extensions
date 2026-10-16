@@ -18,6 +18,9 @@
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <child id="1140524464360" name="cellLayout" index="2czzBx" />
+      </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
@@ -39,11 +42,15 @@
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ngI" index="2ZABuq">
+        <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
+      </concept>
       <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="1220974635399" name="jetbrains.mps.lang.editor.structure.QueryFunction_FontStyle" flags="in" index="17KAyr" />
       <concept id="1103016434866" name="jetbrains.mps.lang.editor.structure.CellModel_JComponent" flags="sg" stub="8104358048506731196" index="3gTLQM">
         <child id="1176475119347" name="componentProvider" index="3FoqZy" />
       </concept>
+      <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
@@ -322,6 +329,29 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="24kQdi" id="5t_c7s5Jm4x">
+    <ref role="1XX52x" to="9q1q:5whuU8T2Err" resolve="Stylesheet" />
+    <node concept="3EZMnI" id="5t_c7s5Jm7G" role="2wV5jI">
+      <node concept="3EZMnI" id="5t_c7s5Jme1" role="3EZMnx">
+        <node concept="VPM3Z" id="5t_c7s5Jme3" role="3F10Kt" />
+        <node concept="3F0ifn" id="5t_c7s5JmeK" role="3EZMnx">
+          <property role="3F0ifm" value="stylesheet" />
+        </node>
+        <node concept="3F0A7n" id="5t_c7s5Jmhl" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="5t_c7s5Jme6" role="2iSdaV" />
+      </node>
+      <node concept="3F2HdR" id="5t_c7s5Jtur" role="3EZMnx">
+        <ref role="1NtTu8" to="9q1q:413d4N_OTX9" resolve="styles" />
+        <node concept="2iRkQZ" id="5t_c7s5JtBS" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="5t_c7s5Jm7J" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="3p36aQ" id="5t_c7s5Po$n">
+    <ref role="aqKnT" to="9q1q:5whuU8T1b76" resolve="Span" />
   </node>
 </model>
 

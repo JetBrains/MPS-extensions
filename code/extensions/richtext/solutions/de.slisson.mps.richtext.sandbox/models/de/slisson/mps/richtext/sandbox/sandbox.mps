@@ -198,6 +198,7 @@
     </node>
   </node>
   <node concept="1x6XPT" id="413d4N_PHJ2">
+    <property role="TrG5h" value="stylesheet" />
     <node concept="1x5thZ" id="3$0mRpwJ1S4" role="2_$aG5">
       <property role="TrG5h" value="Highlight" />
       <property role="DOKDd" value="true" />

@@ -76,7 +76,7 @@ public final class Span__BehaviorDescriptor extends BaseBHDescriptor {
   }
   /*package*/ static boolean unwrap_id6NYYseXUnKw(@NotNull SNode __thisNode__) {
     SNode text = SNodeOperations.as(SNodeOperations.getParent(__thisNode__), CONCEPTS.Text$bD);
-    if (text == null) {
+    if (text == null && !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(__thisNode__), CONCEPTS.Span$ye))) {
       return false;
     }
 
@@ -91,7 +91,9 @@ public final class Span__BehaviorDescriptor extends BaseBHDescriptor {
     }
 
     SNodeOperations.deleteNode(__thisNode__);
-    Text__BehaviorDescriptor.ensureNormalized_id1xf6IA5Se_N.invoke(text, null);
+    if (text != null) {
+      Text__BehaviorDescriptor.ensureNormalized_id1xf6IA5Se_N.invoke(text, null);
+    }
     return true;
   }
 
@@ -156,5 +158,6 @@ public final class Span__BehaviorDescriptor extends BaseBHDescriptor {
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept Text$bD = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e4e61L, "de.slisson.mps.richtext.structure.Text");
+    /*package*/ static final SConcept Span$ye = MetaAdapterFactory.getConcept(0x7b3261eb68d94feaL, 0xa99c9ac789cea929L, 0x58117ba23904b1c6L, "com.jetbrains.mpsext.richtext.styles.structure.Span");
   }
 }

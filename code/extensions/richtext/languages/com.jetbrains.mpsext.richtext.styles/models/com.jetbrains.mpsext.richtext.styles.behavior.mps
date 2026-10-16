@@ -116,6 +116,12 @@
       </concept>
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -129,6 +135,7 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1214918975462" name="jetbrains.mps.baseLanguage.structure.PostfixDecrementExpression" flags="nn" index="3uO5VW" />
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -177,6 +184,9 @@
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
@@ -741,10 +751,27 @@
               <node concept="3clFbT" id="6NYYseXUpjk" role="3cqZAk" />
             </node>
           </node>
-          <node concept="3clFbC" id="6NYYseXUpam" role="3clFbw">
-            <node concept="10Nm6u" id="6NYYseXUpgR" role="3uHU7w" />
-            <node concept="37vLTw" id="6NYYseXUp0c" role="3uHU7B">
-              <ref role="3cqZAo" node="6NYYseXUnYU" resolve="text" />
+          <node concept="1Wc70l" id="4t9Jk3G3Z8L" role="3clFbw">
+            <node concept="3clFbC" id="6NYYseXUpam" role="3uHU7B">
+              <node concept="10Nm6u" id="6NYYseXUpgR" role="3uHU7w" />
+              <node concept="37vLTw" id="6NYYseXUp0c" role="3uHU7B">
+                <ref role="3cqZAo" node="6NYYseXUnYU" resolve="text" />
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="4t9Jk3G3Z8K" role="3uHU7w">
+              <node concept="1eOMI4" id="4t9Jk3G3Z8J" role="3fr31v">
+                <node concept="2OqwBi" id="4t9Jk3G3Z8F" role="1eOMHV">
+                  <node concept="2OqwBi" id="4t9Jk3G3Z8G" role="2Oq$k0">
+                    <node concept="13iPFW" id="4t9Jk3G3Z8H" role="2Oq$k0" />
+                    <node concept="1mfA1w" id="4t9Jk3G3Z8I" role="2OqNvi" />
+                  </node>
+                  <node concept="1mIQ4w" id="4t9Jk3G3Z8D" role="2OqNvi">
+                    <node concept="chp4Y" id="4t9Jk3G3Z8E" role="cj9EA">
+                      <ref role="cht4Q" to="9q1q:5whuU8T1b76" resolve="Span" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -845,14 +872,24 @@
             <node concept="3YRAZt" id="6NYYseXUKj4" role="2OqNvi" />
           </node>
         </node>
-        <node concept="3clFbF" id="413d4N_QMsY" role="3cqZAp">
-          <node concept="2OqwBi" id="413d4N_QMDA" role="3clFbG">
-            <node concept="37vLTw" id="413d4N_QMsW" role="2Oq$k0">
+        <node concept="3clFbJ" id="4t9Jk3G3Z8P" role="3cqZAp">
+          <node concept="3y3z36" id="4t9Jk3G3Z8M" role="3clFbw">
+            <node concept="37vLTw" id="4t9Jk3G3Z8N" role="3uHU7B">
               <ref role="3cqZAo" node="6NYYseXUnYU" resolve="text" />
             </node>
-            <node concept="2qgKlT" id="413d4N_QN2x" role="2OqNvi">
-              <ref role="37wK5l" to="tbr6:1xf6IA5Se_N" resolve="ensureNormalized" />
-              <node concept="10Nm6u" id="413d4N_QOas" role="37wK5m" />
+            <node concept="10Nm6u" id="4t9Jk3G3Z8O" role="3uHU7w" />
+          </node>
+          <node concept="3clFbS" id="4t9Jk3G3Z8Q" role="3clFbx">
+            <node concept="3clFbF" id="413d4N_QMsY" role="3cqZAp">
+              <node concept="2OqwBi" id="413d4N_QMDA" role="3clFbG">
+                <node concept="37vLTw" id="413d4N_QMsW" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6NYYseXUnYU" resolve="text" />
+                </node>
+                <node concept="2qgKlT" id="413d4N_QN2x" role="2OqNvi">
+                  <ref role="37wK5l" to="tbr6:1xf6IA5Se_N" resolve="ensureNormalized" />
+                  <node concept="10Nm6u" id="413d4N_QOas" role="37wK5m" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -875,12 +912,12 @@
         </node>
         <node concept="TZ5HA" id="6NYYseXUM12" role="TZ5H$">
           <node concept="1dT_AC" id="6NYYseXUM13" role="1dT_Ay">
-            <property role="1dT_AB" value="The contained IWords are moved to the Span's position in the parent Text after which the empty Span is" />
+            <property role="1dT_AB" value="The contained IWords are moved to the Span's position in the parent Text or parent Span after which the" />
           </node>
         </node>
         <node concept="TZ5HA" id="6NYYseXUM7_" role="TZ5H$">
           <node concept="1dT_AC" id="6NYYseXUM7A" role="1dT_Ay">
-            <property role="1dT_AB" value="removed." />
+            <property role="1dT_AB" value="empty Span is removed." />
           </node>
         </node>
         <node concept="x79VA" id="6NYYseXULGr" role="3nqlJM">

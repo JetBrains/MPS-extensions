@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:8ea28ce4-20f4-4cc1-9400-7ee7ffb85a2c(com.jetbrains.mpsext.richtext.styles.ui)/6345989286613394893">
+    <file name="RichTextColorEditor.java">
+      <node id="7853989419297173726" at="40,0,41,0" concept="9" trace="CHOOSE_COLOR_MESSAGE_KEY" />
+      <node id="7853989419303407941" at="41,0,42,0" concept="9" trace="CLEAR_COLOR_TEXT" />
+      <node id="7853989419297195365" at="43,0,44,0" concept="2" trace="nodeReference" />
+      <node id="7853989419297214530" at="44,0,45,0" concept="2" trace="repository" />
+      <node id="7853989419297232501" at="45,0,46,0" concept="2" trace="modelAccess" />
+      <node id="7853989419296706872" at="46,0,47,0" concept="2" trace="property" />
+      <node id="7853989419297249423" at="47,0,48,0" concept="2" trace="chooseColorText" />
+      <node id="7853989419303553756" at="48,0,49,0" concept="2" trace="previewColor" />
+      <node id="7853989419297263851" at="50,123,51,45" concept="1" />
+      <node id="7853989419297305680" at="51,45,52,34" concept="1" />
+      <node id="7853989419297337340" at="52,34,53,52" concept="1" />
+      <node id="7853989419297375450" at="53,52,54,51" concept="1" />
+      <node id="7853989419297417453" at="54,51,55,71" concept="1" />
+      <node id="7853989419297250565" at="55,71,56,0" concept="8" />
+      <node id="7853989419300746387" at="56,0,57,39" concept="5" />
+      <node id="7853989419296820145" at="57,39,58,27" concept="1" />
+      <node id="7853989419299903969" at="58,27,59,25" concept="1" />
+      <node id="7853989419299955604" at="59,25,60,25" concept="1" />
+      <node id="7853989419300009005" at="60,25,61,0" concept="8" />
+      <node id="7853989419296885139" at="61,0,62,36" concept="1" />
+      <node id="7853989419296898960" at="62,36,63,24" concept="1" />
+      <node id="7853989419297527263" at="63,24,64,27" concept="1" />
+      <node id="7853989419300033880" at="64,27,65,32" concept="1" />
+      <node id="7853989419296920852" at="65,32,66,21" concept="1" />
+      <node id="7853989419300078825" at="66,21,67,27" concept="1" />
+      <node id="7853989419300585142" at="67,27,68,85" concept="1" />
+      <node id="7853989419300092277" at="68,85,69,0" concept="8" />
+      <node id="7853989419297559724" at="69,0,70,62" concept="1" />
+      <node id="7853989419298234781" at="70,62,71,37" concept="1" />
+      <node id="7853989419298248050" at="71,37,72,44" concept="1" />
+      <node id="7853989419301052051" at="72,44,73,0" concept="8" />
+      <node id="7853989419302310234" at="73,0,74,93" concept="7" />
+      <node id="7853989419302181733" at="78,33,79,27" concept="1" />
+      <node id="7853989419302245496" at="84,33,85,27" concept="1" />
+      <node id="7853989419301198451" at="96,48,97,41" concept="5" />
+      <node id="7853989419301270303" at="97,41,98,58" concept="5" />
+      <node id="7853989419301387279" at="98,58,99,52" concept="1" />
+      <node id="7853989419301521101" at="99,52,100,53" concept="1" />
+      <node id="7853989419301872892" at="100,53,101,24" concept="1" />
+      <node id="7853989419301933676" at="101,24,102,64" concept="1" />
+      <node id="7853989419303424910" at="109,38,110,53" concept="5" />
+      <node id="7853989419303424919" at="111,25,112,15" concept="6" />
+      <node id="7853989419303424924" at="113,7,114,37" concept="1" />
+      <node id="7853989419303424930" at="115,7,116,24" concept="1" />
+      <node id="7853989419300421151" at="120,52,121,35" concept="1" />
+      <node id="7853989419303787225" at="121,35,122,59" concept="5" />
+      <node id="7853989419304019242" at="124,33,125,42" concept="1" />
+      <node id="7853989419304083210" at="125,42,126,59" concept="1" />
+      <node id="7853989419304198809" at="126,59,127,15" concept="6" />
+      <node id="7853989419304229941" at="128,7,129,79" concept="1" />
+      <node id="7853989419304365402" at="129,79,130,57" concept="1" />
+      <node id="7853989419303916781" at="131,15,132,27" concept="1" />
+      <node id="7853989419298032594" at="139,30,140,150" concept="5" />
+      <node id="7853989419298348095" at="141,32,142,13" concept="6" />
+      <node id="7853989419298350158" at="143,5,144,0" concept="8" />
+      <node id="7853989419298370306" at="144,0,145,71" concept="5" />
+      <node id="7853989419298468661" at="146,38,147,53" concept="5" />
+      <node id="7853989419298569687" at="148,25,149,15" concept="6" />
+      <node id="7853989419298589483" at="150,7,151,55" concept="5" />
+      <node id="7853989419299055343" at="152,48,153,15" concept="6" />
+      <node id="7853989419298733126" at="154,7,155,40" concept="1" />
+      <node id="7853989419298782711" at="156,7,157,33" concept="1" />
+      <node id="7853989419297668838" at="166,56,167,53" concept="5" />
+      <node id="7853989419297715855" at="167,53,168,64" concept="6" />
+      <node id="7853989419297785560" at="169,7,170,0" concept="8" />
+      <node id="7853989419297799204" at="170,0,171,47" concept="6" />
+      <node id="7853989419303665686" at="177,53,178,25" concept="1" />
+      <node id="7853989419303709847" at="178,25,179,14" concept="1" />
+      <node id="7853989419302144734" at="77,46,80,9" concept="3" />
+      <node id="7853989419302206892" at="83,47,86,9" concept="3" />
+      <node id="7853989419303424917" at="110,53,113,7" concept="3" />
+      <node id="7853989419298297748" at="140,150,143,5" concept="3" />
+      <node id="7853989419298517098" at="147,53,150,7" concept="3" />
+      <node id="7853989419298991887" at="151,55,154,7" concept="3" />
+      <node id="7853989419297596859" at="165,35,169,7" concept="5" />
+      <node id="7853989419297847223" at="177,0,181,0" concept="4" trace="updatePreview#(Ljava/awt/Color;)V" />
+      <node id="7853989419303943334" at="123,9,128,7" concept="3" />
+      <node id="7853989419301134501" at="76,0,82,0" concept="4" trace="mousePressed#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="7853989419301134513" at="82,0,88,0" concept="4" trace="mouseReleased#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="7853989419303424904" at="108,29,115,7" concept="1" />
+      <node id="7853989419301166754" at="96,0,104,0" concept="4" trace="showPopupMenu#(Ljava/awt/event/MouseEvent;)V" />
+      <node id="7853989419297579370" at="165,0,173,0" concept="4" trace="getCurrentColor#()Ljava/awt/Color;" />
+      <node id="7853989419303424936" at="108,0,118,0" concept="4" trace="clearColor#()V" />
+      <node id="7853989419303883228" at="122,59,133,5" concept="10" />
+      <node id="7853989419298426362" at="145,71,156,7" concept="1" />
+      <node id="7853989419301074424" at="74,93,88,7" concept="1" />
+      <node id="7853989419300093627" at="119,0,135,0" concept="4" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="7853989419297066413" at="139,0,159,0" concept="4" trace="chooseColor#()V" />
+      <node id="7853989419296722672" at="50,0,90,0" concept="0" trace="RichTextColorEditor#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SProperty;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="7853989419302144736" at="78,33,79,27" />
+      <scope id="7853989419302206894" at="84,33,85,27" />
+      <scope id="7853989419303424918" at="111,25,112,15" />
+      <scope id="7853989419303897277" at="131,15,132,27" />
+      <scope id="7853989419298297750" at="141,32,142,13" />
+      <scope id="7853989419298517100" at="148,25,149,15" />
+      <scope id="7853989419298991889" at="152,48,153,15" />
+      <scope id="7853989419297641540" at="166,56,168,64">
+        <var name="node" id="7853989419297668839" />
+      </scope>
+      <scope id="7853989419297847226" at="177,53,179,14" />
+      <scope id="7853989419301134508" at="77,46,80,9" />
+      <scope id="7853989419301134520" at="83,47,86,9" />
+      <scope id="7853989419303943336" at="124,33,127,15" />
+      <scope id="7853989419297847223" at="177,0,181,0">
+        <var name="color" id="7853989419303622708" />
+      </scope>
+      <scope id="7853989419303424909" at="109,38,114,37">
+        <var name="node" id="7853989419303424911" />
+      </scope>
+      <scope id="7853989419301134501" at="76,0,82,0">
+        <var name="e" id="7853989419301134505" />
+      </scope>
+      <scope id="7853989419301134513" at="82,0,88,0">
+        <var name="e" id="7853989419301134517" />
+      </scope>
+      <scope id="7853989419301166757" at="96,48,102,64">
+        <var name="clearItem" id="7853989419301270304" />
+        <var name="menu" id="7853989419301198452" />
+      </scope>
+      <scope id="7853989419297579373" at="165,35,171,47">
+        <var name="value" id="7853989419297596862" />
+      </scope>
+      <scope id="7853989419303883230" at="123,9,130,57" />
+      <scope id="7853989419301166754" at="96,0,104,0">
+        <var name="event" id="7853989419301176253" />
+      </scope>
+      <scope id="7853989419303424897" at="108,29,116,24" />
+      <scope id="7853989419297579370" at="165,0,173,0" />
+      <scope id="7853989419298442607" at="146,38,155,40">
+        <var name="currentValue" id="7853989419298589486" />
+        <var name="node" id="7853989419298468662" />
+      </scope>
+      <scope id="7853989419303424936" at="108,0,118,0" />
+      <scope id="7853989419300093638" at="120,52,133,5">
+        <var name="graphics2D" id="7853989419303787226" />
+      </scope>
+      <scope id="7853989419300093627" at="119,0,135,0">
+        <var name="graphics" id="7853989419300093631" />
+      </scope>
+      <scope id="7853989419297066416" at="139,30,157,33">
+        <var name="selectedColor" id="7853989419298032595" />
+        <var name="value" id="7853989419298370309" />
+      </scope>
+      <scope id="7853989419297066413" at="139,0,159,0" />
+      <scope id="7853989419296722675" at="50,123,88,7">
+        <var name="size" id="7853989419300746388" />
+      </scope>
+      <scope id="7853989419296722672" at="50,0,90,0">
+        <var name="colorProperty" id="7853989419296726535" />
+        <var name="editorContext" id="7853989419296727700" />
+        <var name="node" id="7853989419296726456" />
+      </scope>
+      <unit id="7853989419301130443" at="75,25,88,5" name="com.jetbrains.mpsext.richtext.styles.ui.RichTextColorEditor$1" />
+      <unit id="6345989286613394893" at="39,0,184,0" name="com.jetbrains.mpsext.richtext.styles.ui.RichTextColorEditor" />
+    </file>
+  </root>
+</debug-info>
+

@@ -15,14 +15,14 @@ import de.slisson.mps.richtext.behavior.Word__BehaviorDescriptor;
 import de.slisson.mps.richtext.util.RichtextUtil;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.openapi.editor.EditorContext;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import de.slisson.mps.richtext.behavior.Text__BehaviorDescriptor;
 import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class WordCellSubstituteInfo implements SubstituteInfo {
 
@@ -32,7 +32,7 @@ public class WordCellSubstituteInfo implements SubstituteInfo {
   public WordCellSubstituteInfo(EditorCell_Word wordCell) {
     myWordCell = wordCell;
     SNode node = SNodeOperations.cast(wordCell.getSNode(), CONCEPTS.Word$5r);
-    info = SubstituteUtil.forChild(wordCell.getContext(), SNodeOperations.cast(SNodeOperations.getParent(node), CONCEPTS.Text$bD), null, LINKS.words$C8QZ);
+    info = SubstituteUtil.forChild(wordCell.getContext(), SNodeOperations.getParent(node), null, SNodeOperations.getContainingLink(node));
   }
 
   public List<SubstituteAction> getMatchingActions(String pattern, boolean strict) {
@@ -150,11 +150,13 @@ public class WordCellSubstituteInfo implements SubstituteInfo {
     public SNode substitute(@Nullable EditorContext context, String pattern) {
       RichtextUtil._preventSelectionHandling = false;
       SNode wordNode = SNodeOperations.cast(myWordCell.getSNode(), CONCEPTS.Word$5r);
-      SNode textNode = SNodeOperations.cast(SNodeOperations.getParent(wordNode), CONCEPTS.Text$bD);
+      SNode parentNode = SNodeOperations.getParent(wordNode);
+      final SContainmentLink wordsLink = SNodeOperations.getContainingLink(wordNode);
 
       SNode newNode = myAction.substitute(context, pattern);
       if (!(SNodeOperations.isInstanceOf(newNode, CONCEPTS.IWord$8d))) {
-        newNode = ListSequence.fromList(SLinkOperations.getChildren(textNode, LINKS.words$C8QZ)).findLast((it) -> !(SNodeOperations.isInstanceOf(it, CONCEPTS.Word$5r)));
+        // The action did not return the inserted node. It is the last embedded (non-Word) child in the same link.
+        newNode = ListSequence.fromList(SNodeOperations.getChildren(parentNode)).findLast((it) -> Objects.equals(SNodeOperations.getContainingLink(it), wordsLink) && !(SNodeOperations.isInstanceOf(it, CONCEPTS.Word$5r)));
       }
 
       String s1 = getSurroundingText(wordNode, true);
@@ -184,11 +186,7 @@ public class WordCellSubstituteInfo implements SubstituteInfo {
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept Word$5r = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word");
-    /*package*/ static final SConcept Text$bD = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e4e61L, "de.slisson.mps.richtext.structure.Text");
     /*package*/ static final SInterfaceConcept IWord$8d = MetaAdapterFactory.getInterfaceConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e7aecL, "de.slisson.mps.richtext.structure.IWord");
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink words$C8QZ = MetaAdapterFactory.getContainmentLink(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e4e61L, 0x237c8da86a9e7aeeL, "words");
+    /*package*/ static final SConcept Text$bD = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e4e61L, "de.slisson.mps.richtext.structure.Text");
   }
 }

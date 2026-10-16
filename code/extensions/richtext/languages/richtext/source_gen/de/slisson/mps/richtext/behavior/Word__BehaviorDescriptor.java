@@ -24,11 +24,14 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import de.slisson.mps.editor.multiline.cells.EditorCell_Word;
+import java.util.Objects;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.util.Collections;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 import org.jetbrains.mps.openapi.language.SConcept;
 
 public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
@@ -148,8 +151,15 @@ public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
     Word__BehaviorDescriptor.splitWordAt_id13kKwkYCzXI.invoke(__thisNode__, ((int) pos));
     SNode lastInserted = __thisNode__;
     for (SNode node : ListSequence.fromList(nodes)) {
-      SNodeOperations.insertNextSiblingChild(lastInserted, node);
-      lastInserted = node;
+      if (Objects.equals(SNodeOperations.getConcept(node), SNodeOperations.getConcept(SNodeOperations.getParent(__thisNode__)))) {
+        for (SNode word : ListSequence.fromList(Sequence.fromIterable(SNodeOperations.ofConcept(SNodeOperations.getChildren(node), CONCEPTS.IWord$8d)).toList())) {
+          SNodeOperations.insertNextSiblingChild(lastInserted, word);
+          lastInserted = word;
+        }
+      } else {
+        SNodeOperations.insertNextSiblingChild(lastInserted, node);
+        lastInserted = node;
+      }
     }
     check_i37tv7_a3a51(SNodeOperations.as(SNodeOperations.getParent(__thisNode__), CONCEPTS.Text$bD));
   }
@@ -263,6 +273,7 @@ public final class Word__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   private static final class CONCEPTS {
+    /*package*/ static final SInterfaceConcept IWord$8d = MetaAdapterFactory.getInterfaceConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e7aecL, "de.slisson.mps.richtext.structure.IWord");
     /*package*/ static final SConcept Text$bD = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9e4e61L, "de.slisson.mps.richtext.structure.Text");
     /*package*/ static final SConcept Word$5r = MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word");
   }

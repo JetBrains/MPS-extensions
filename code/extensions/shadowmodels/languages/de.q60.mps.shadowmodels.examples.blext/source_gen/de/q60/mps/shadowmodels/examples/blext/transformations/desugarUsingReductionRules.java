@@ -69,7 +69,7 @@ public class desugarUsingReductionRules extends PFModule {
     }
   }).invoke();
   private desugarUsingReductionRules() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -96,7 +96,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(INode.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -126,7 +126,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -153,7 +153,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_UntilStatement", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_UntilStatement", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -193,7 +193,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_UntilStatement.reduce_1_UntilStatement", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_UntilStatement.reduce_1_UntilStatement", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.UntilStatement$XV)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -271,7 +271,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -298,7 +298,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_ErrorStatement", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_ErrorStatement", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -362,7 +362,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_ErrorStatement.reduce_0_ErrorStatement", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_ErrorStatement.reduce_0_ErrorStatement", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ErrorStatement$jb)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -400,7 +400,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_ErrorStatement.reduce_2_ErrorStatement", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_ErrorStatement.reduce_2_ErrorStatement", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ErrorStatement$jb)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -467,7 +467,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -494,7 +494,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_NullAlternative", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_NullAlternative", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -544,7 +544,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_NullAlternative.reduce_0_NullAlternativeExpression", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_NullAlternative.reduce_0_NullAlternativeExpression", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.NullAlternativeExpression$3A)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -602,7 +602,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_NullAlternative.weave_2_NullAlternativeExpression", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_NullAlternative.weave_2_NullAlternativeExpression", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.NullAlternativeExpression$3A)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1091,7 +1091,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.throwError", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.throwError", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ErrorStatement$jb)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1179,7 +1179,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava/mc", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.toJava/mc", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1206,7 +1206,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_varWithInferredType", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_varWithInferredType", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1256,7 +1256,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_varWithInferredType.reduce_0_VariableWithInferredType", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_varWithInferredType.reduce_0_VariableWithInferredType", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.VariableWithInferredType$dc)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -1338,7 +1338,7 @@ public class desugarUsingReductionRules extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_varWithInferredType.reduce_2_VariableWithInferredType_Reference", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingReductionRules.mc_varWithInferredType.reduce_2_VariableWithInferredType_Reference", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.VariableWithInferredType_Reference$H9)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

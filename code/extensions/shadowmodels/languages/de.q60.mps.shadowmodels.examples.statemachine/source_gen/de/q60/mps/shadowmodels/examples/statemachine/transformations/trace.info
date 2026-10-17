@@ -863,14 +863,14 @@
       <unit id="3384942920130556731" at="301,77,326,35" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$6$1$1$1$2$1$3" />
       <unit id="5810976794849318265" at="441,154,466,39" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7$1$1$1$4$1$1$1" />
       <unit id="5810976794850490683" at="473,154,498,39" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7$1$1$1$4$1$2$1" />
-      <unit id="3384942920130181088" at="62,133,88,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$1" />
-      <unit id="3384942920130181088" at="206,146,233,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$5" />
-      <unit id="3384942920130181088" at="176,137,205,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$4" />
+      <unit id="3384942920130181088" at="62,129,88,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$1" />
+      <unit id="3384942920130181088" at="206,142,233,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$5" />
+      <unit id="3384942920130181088" at="176,133,205,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$4" />
       <unit id="5810976794849318251" at="439,74,468,35" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7$1$1$1$4$1$1" />
       <unit id="5810976794850490682" at="471,74,500,35" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7$1$1$1$4$1$2" />
       <unit id="8127200012857951672" at="558,144,598,21" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$8$1$1$1" />
-      <unit id="3384942920130181088" at="134,132,175,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$3" />
-      <unit id="3384942920130181088" at="89,127,133,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$2" />
+      <unit id="3384942920130181088" at="134,128,175,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$3" />
+      <unit id="3384942920130181088" at="89,123,133,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$2" />
       <unit id="3384942920130556691" at="270,151,329,29" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$6$1$1$1$2$1" />
       <unit id="3384942920130481535" at="554,48,615,15" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$8$1$1" />
       <unit id="3384942920130554307" at="268,67,331,25" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$6$1$1$1$2" />
@@ -879,13 +879,13 @@
       <unit id="5810976794849321641" at="433,67,505,25" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7$1$1$1$4" />
       <unit id="3384942920130549504" at="256,141,349,19" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$6$1$1$1" />
       <unit id="3384942920130181171" at="254,48,351,15" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$6$1$1" />
-      <unit id="3384942920130181088" at="528,120,632,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$8" />
+      <unit id="3384942920130181088" at="528,116,632,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$8" />
       <unit id="3384942920130181088" at="249,19,354,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$6$1" />
       <unit id="3384942920130245716" at="394,141,508,19" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7$1$1$1" />
       <unit id="3384942920130245704" at="392,48,510,15" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7$1$1" />
       <unit id="3384942920130181088" at="387,19,513,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7$1" />
-      <unit id="3384942920130181088" at="234,121,368,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$6" />
-      <unit id="3384942920130181088" at="369,119,527,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7" />
+      <unit id="3384942920130181088" at="234,117,368,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$6" />
+      <unit id="3384942920130181088" at="369,115,527,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable$7" />
       <unit id="3384942920130181088" at="49,0,652,0" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable" />
     </file>
   </root>
@@ -1460,14 +1460,14 @@
       <unit id="5228830074593539767" at="379,87,391,51" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$4$1$5$1$1$1$2" />
       <unit id="5228830074594095019" at="443,0,458,0" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$CONCEPTS" />
       <unit id="5228830074592424680" at="324,167,348,39" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$4$1$4$1$1" />
-      <unit id="5228830074594095019" at="58,133,84,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$1" />
-      <unit id="5228830074594095019" at="115,131,141,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$3" />
+      <unit id="5228830074594095019" at="58,129,84,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$1" />
+      <unit id="5228830074594095019" at="115,127,141,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$3" />
       <unit id="5228830074593831211" at="322,376,350,35" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$4$1$4$1" />
-      <unit id="5228830074594095019" at="85,128,114,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$2" />
+      <unit id="5228830074594095019" at="85,124,114,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$2" />
       <unit id="5228830074593539762" at="363,169,394,45" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$4$1$5$1$1$1" />
       <unit id="5228830074592424678" at="320,72,352,31" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$4$1$4" />
       <unit id="5228830074593539761" at="361,82,396,41" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$4$1$5$1$1" />
-      <unit id="5228830074594095019" at="142,139,181,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$4" />
+      <unit id="5228830074594095019" at="142,135,181,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$4" />
       <unit id="5228830074592424689" at="357,157,399,35" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$4$1$5$1" />
       <unit id="5228830074592424688" at="355,67,401,31" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$4$1$5" />
       <unit id="5228830074592424648" at="229,153,277,29" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$3$1$1" />
@@ -1477,7 +1477,7 @@
       <unit id="5228830074592424670" at="284,59,406,21" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1$4" />
       <unit id="5228830074592416364" at="202,135,423,15" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1$1" />
       <unit id="5228830074590711760" at="197,19,426,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5$1" />
-      <unit id="5228830074590711760" at="182,161,440,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5" />
+      <unit id="5228830074590711760" at="182,157,440,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce$5" />
       <unit id="5228830074594095019" at="45,0,467,0" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava_reduce" />
     </file>
   </root>
@@ -3118,7 +3118,7 @@
       <unit id="1382135219952242129" at="844,151,866,29" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$8$1$1$1$2$1" />
       <unit id="5373338300158985526" at="232,171,256,43" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2$1$1$1$4$1$4$1$1" />
       <unit id="7335687028107144681" at="988,19,1013,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$10$1" />
-      <unit id="7335687028107144681" at="61,133,87,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$1" />
+      <unit id="7335687028107144681" at="61,129,87,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$1" />
       <unit id="1382135219952237077" at="405,61,431,25" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$3$1$1$1$2" />
       <unit id="1382135219952242114" at="842,61,868,25" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$8$1$1$1$2" />
       <unit id="5373338300159233609" at="230,78,258,39" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2$1$1$1$4$1$4$1" />
@@ -3155,29 +3155,29 @@
       <unit id="1382135219952240576" at="135,75,187,29" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2$1$1$1$3$1" />
       <unit id="7335687028107144681" at="906,19,958,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$9$1" />
       <unit id="838878224946226297" at="553,48,606,15" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$5$1$1" />
-      <unit id="7335687028107144681" at="973,124,1027,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$10" />
+      <unit id="7335687028107144681" at="973,120,1027,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$10" />
       <unit id="9170566427534702143" at="133,63,189,25" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2$1$1$1$3" />
       <unit id="7335687028107144681" at="381,19,439,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$3$1" />
       <unit id="7335687028107144681" at="818,19,876,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$8$1" />
       <unit id="838878224946225941" at="548,19,609,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$5$1" />
       <unit id="838878224946232990" at="646,139,712,19" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$6$1$1$1" />
       <unit id="838878224946232986" at="644,48,714,15" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$6$1$1" />
-      <unit id="7335687028107144681" at="732,129,802,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$7" />
-      <unit id="838878224946185673" at="454,126,529,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$4" />
-      <unit id="7335687028107144681" at="1028,129,1104,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$11" />
-      <unit id="7335687028107144681" at="1105,130,1181,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$12" />
+      <unit id="7335687028107144681" at="732,125,802,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$7" />
+      <unit id="838878224946185673" at="454,122,529,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$4" />
+      <unit id="7335687028107144681" at="1028,125,1104,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$11" />
+      <unit id="7335687028107144681" at="1105,126,1181,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$12" />
       <unit id="7335687028107144681" at="639,19,717,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$6$1" />
-      <unit id="7335687028107144681" at="891,129,972,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$9" />
-      <unit id="7335687028107144681" at="366,130,453,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$3" />
-      <unit id="7335687028107144681" at="803,135,890,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$8" />
-      <unit id="838878224946225941" at="530,126,623,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$5" />
-      <unit id="7335687028107144681" at="624,137,731,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$6" />
+      <unit id="7335687028107144681" at="891,125,972,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$9" />
+      <unit id="7335687028107144681" at="366,126,453,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$3" />
+      <unit id="7335687028107144681" at="803,131,890,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$8" />
+      <unit id="838878224946225941" at="530,122,623,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$5" />
+      <unit id="7335687028107144681" at="624,133,731,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$6" />
       <unit id="9170566427534702220" at="194,162,312,29" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2$1$1$1$4$1" />
       <unit id="9170566427534702205" at="192,63,314,25" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2$1$1$1$4" />
       <unit id="7335687028107290878" at="110,139,346,19" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2$1$1$1" />
       <unit id="7335687028107257783" at="108,48,348,15" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2$1$1" />
       <unit id="7335687028107211956" at="103,19,351,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2$1" />
-      <unit id="7335687028107211956" at="88,122,365,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2" />
+      <unit id="7335687028107211956" at="88,118,365,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava$2" />
       <unit id="7335687028107144681" at="48,0,1228,0" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava" />
     </file>
   </root>
@@ -3459,7 +3459,7 @@
       <unit id="9192345617659966418" at="233,0,239,0" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$CONCEPTS" />
       <unit id="9192345617660072764" at="122,73,134,35" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$2$1$1$1$1$1$2" />
       <unit id="9192345617660035310" at="196,66,208,25" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$3$1$1$1$2" />
-      <unit id="9192345617659966418" at="52,133,78,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$1" />
+      <unit id="9192345617659966418" at="52,129,78,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$1" />
       <unit id="9192345617660072761" at="110,152,137,29" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$2$1$1$1$1$1" />
       <unit id="9192345617659973410" at="184,132,211,19" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$3$1$1$1" />
       <unit id="9192345617660071862" at="108,64,139,25" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$2$1$1$1$1" />
@@ -3468,8 +3468,8 @@
       <unit id="9192345617659966418" at="177,19,216,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$3$1" />
       <unit id="9192345617660071849" at="102,48,144,15" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$2$1$1" />
       <unit id="9192345617660068455" at="94,19,147,9" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$2$1" />
-      <unit id="9192345617659966418" at="162,118,230,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$3" />
-      <unit id="9192345617660068455" at="79,113,161,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$2" />
+      <unit id="9192345617659966418" at="162,114,230,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$3" />
+      <unit id="9192345617660068455" at="79,109,161,5" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository$2" />
       <unit id="9192345617659966418" at="39,0,250,0" name="de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository" />
     </file>
   </root>

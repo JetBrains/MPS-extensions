@@ -10,7 +10,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="ConceptPresentationAspectImpl.java">
-      <unit at="11,0,53,0" name="de.slisson.mps.conditionalEditor.demolang.structure.ConceptPresentationAspectImpl" />
+      <unit at="11,0,54,0" name="de.slisson.mps.conditionalEditor.demolang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <unit at="10,0,34,0" name="de.slisson.mps.conditionalEditor.demolang.structure.LanguageConceptSwitch" />
@@ -88,14 +88,14 @@
   <root nodeRef="r:6c3a5ff5-b652-48a4-80a3-0e283d57df4d(de.slisson.mps.conditionalEditor.demolang.structure)/6733065834253110131">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="6733065834253110131" at="15,0,16,0" concept="1" trace="props_Interface" />
-      <node id="6733065834253110131" at="44,38,45,76" concept="3" />
-      <node id="6733065834253110131" at="45,76,46,41" concept="0" />
-      <node id="6733065834253110131" at="47,9,48,31" concept="4" />
-      <node id="6733065834253110131" at="43,43,47,9" concept="2" />
-      <scope id="6733065834253110131" at="44,38,46,41">
+      <node id="6733065834253110131" at="45,38,46,76" concept="3" />
+      <node id="6733065834253110131" at="46,76,47,41" concept="0" />
+      <node id="6733065834253110131" at="48,9,49,31" concept="4" />
+      <node id="6733065834253110131" at="44,43,48,9" concept="2" />
+      <scope id="6733065834253110131" at="45,38,47,41">
         <var name="cpb" id="6733065834253110131" />
       </scope>
-      <scope id="6733065834253110131" at="43,43,48,31" />
+      <scope id="6733065834253110131" at="44,43,49,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="6733065834253110131" at="15,0,16,0" concept="6" trace="Interface" />
@@ -124,14 +124,15 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="7172636034965390688" at="14,0,15,0" concept="1" trace="props_ExpressionWithInspector" />
       <node id="7172636034965390688" at="37,52,38,76" concept="3" />
-      <node id="7172636034965390688" at="38,76,39,57" concept="0" />
-      <node id="7172636034965390688" at="39,57,40,55" concept="0" />
-      <node id="7172636034965390688" at="41,9,42,45" concept="4" />
-      <node id="7172636034965390688" at="36,57,41,9" concept="2" />
-      <scope id="7172636034965390688" at="37,52,40,55">
+      <node id="7172636034965390688" at="38,76,39,45" concept="0" />
+      <node id="7172636034965390688" at="39,45,40,57" concept="0" />
+      <node id="7172636034965390688" at="40,57,41,55" concept="0" />
+      <node id="7172636034965390688" at="42,9,43,45" concept="4" />
+      <node id="7172636034965390688" at="36,57,42,9" concept="2" />
+      <scope id="7172636034965390688" at="37,52,41,55">
         <var name="cpb" id="7172636034965390688" />
       </scope>
-      <scope id="7172636034965390688" at="36,57,42,45" />
+      <scope id="7172636034965390688" at="36,57,43,45" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="7172636034965390688" at="14,0,15,0" concept="6" trace="ExpressionWithInspector" />
@@ -141,8 +142,8 @@
       <node id="7172636034965390688" at="17,0,18,0" concept="1" trace="myConceptExpressionWithInspector" />
       <node id="7172636034965390688" at="45,57,46,48" concept="4" />
       <node id="7172636034965390688" at="75,81,76,199" concept="3" />
-      <node id="7172636034965390688" at="76,199,77,34" concept="0" />
-      <node id="7172636034965390688" at="77,34,78,63" concept="5" />
+      <node id="7172636034965390688" at="76,199,77,33" concept="0" />
+      <node id="7172636034965390688" at="77,33,78,63" concept="5" />
       <node id="7172636034965390688" at="78,63,79,70" concept="0" />
       <node id="7172636034965390688" at="79,70,80,128" concept="0" />
       <node id="7172636034965390688" at="80,128,81,17" concept="0" />

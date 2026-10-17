@@ -14,8 +14,7 @@ import com.intellij.openapi.project.Project;
 import jetbrains.mps.ide.project.ProjectHelper;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.command.undo.UndoManager;
-import jetbrains.mps.ide.editor.MPSFileNodeEditor;
-import de.slisson.mps.reflection.runtime.ReflectionUtil;
+import nl.f1re.testing.runtime.EditorComponentTestHelper;
 
 @MPSLaunch
 public class Undo_Test extends BaseTransformationTest {
@@ -42,10 +41,7 @@ public class Undo_Test extends BaseTransformationTest {
       initEditorComponent("5419898927163096977", "5419898927163097048");
       typeString("Hi");
       final Project ideaProject = ProjectHelper.toIdeaProject(myProject);
-      ApplicationManager.getApplication().invokeAndWait(() -> UndoManager.getInstance(ideaProject).undo(((MPSFileNodeEditor) ReflectionUtil.readField(BaseEditorTestBody.class, as_aamnpi_a1a0a0a0a0a0d0d6(TestBody.this, BaseEditorTestBody.class), "myFileNodeEditor"))));
-    }
-    private static <T> T as_aamnpi_a1a0a0a0a0a0d0d6(Object o, Class<T> type) {
-      return (type.isInstance(o) ? (T) o : null);
+      ApplicationManager.getApplication().invokeAndWait(() -> UndoManager.getInstance(ideaProject).undo(new EditorComponentTestHelper(getEditorComponent()).getFileEditor()));
     }
   }
 }

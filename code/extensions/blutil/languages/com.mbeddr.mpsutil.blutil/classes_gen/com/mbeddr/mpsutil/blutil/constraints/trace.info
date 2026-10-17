@@ -814,7 +814,7 @@
       <node id="8718469662516816842" at="21,49,22,47" concept="12" />
       <node id="8718469662516816842" at="29,130,30,161" concept="6" />
       <node id="8718469662516816842" at="30,161,31,0" concept="9" />
-      <node id="8718469662516816842" at="32,55,33,70" concept="2" />
+      <node id="8718469662516816842" at="32,55,33,74" concept="2" />
       <node id="8718469662516816842" at="34,9,35,0" concept="9" />
       <node id="8718469662516816842" at="35,0,36,22" concept="7" />
       <node id="8718469662521730376" at="40,149,41,13" concept="8" />
@@ -824,7 +824,7 @@
       <node id="8718469662516829091" at="47,119,48,18" concept="7" />
       <node id="8718469662521732905" at="49,5,50,0" concept="9" />
       <node id="8718469662516823330" at="50,0,51,16" concept="7" />
-      <node id="8718469662516816842" at="53,0,54,0" concept="10" trace="canBeRootBreakingPoint" />
+      <node id="8718469662516816842" at="53,0,54,0" concept="10" trace="canBeAncestorBreakingPoint" />
       <node id="8718469662516816842" at="56,0,57,0" concept="10" trace="IfInstanceOfElseIfClause$H" />
       <node id="8718469662516816842" at="57,0,58,0" concept="10" trace="IfInstanceOfVarReference$VR" />
       <node id="8718469662516816842" at="58,0,59,0" concept="10" trace="IfInstanceOfVarReference$wJ" />
@@ -837,7 +837,7 @@
       <node id="8718469662516816842" at="40,0,53,0" concept="11" trace="staticCanBeAnAncestor#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
       <node id="8718469662516816842" at="25,0,40,0" concept="5" trace="calculateCanBeAncestorConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
       <scope id="8718469662516816842" at="21,49,22,47" />
-      <scope id="8718469662516816842" at="32,55,33,70" />
+      <scope id="8718469662516816842" at="32,55,33,74" />
       <scope id="8718469662516820526" at="42,119,43,19" />
       <scope id="8718469662516826096" at="47,119,48,18" />
       <scope id="8718469662516816842" at="21,0,24,0" />
@@ -908,7 +908,7 @@
       <node id="8718469662521704737" at="22,46,23,45" concept="12" />
       <node id="8718469662521704737" at="30,130,31,161" concept="6" />
       <node id="8718469662521704737" at="31,161,32,0" concept="9" />
-      <node id="8718469662521704737" at="33,55,34,70" concept="2" />
+      <node id="8718469662521704737" at="33,55,34,74" concept="2" />
       <node id="8718469662521704737" at="35,9,36,0" concept="9" />
       <node id="8718469662521704737" at="36,0,37,22" concept="7" />
       <node id="8718469662521708852" at="42,119,43,19" concept="7" />
@@ -916,7 +916,7 @@
       <node id="8718469662523102457" at="46,279,47,19" concept="7" />
       <node id="8718469662522990306" at="48,5,49,0" concept="9" />
       <node id="8718469662521709438" at="49,0,50,16" concept="7" />
-      <node id="8718469662521704737" at="52,0,53,0" concept="10" trace="canBeRootBreakingPoint" />
+      <node id="8718469662521704737" at="52,0,53,0" concept="10" trace="canBeAncestorBreakingPoint" />
       <node id="8718469662521704737" at="55,0,56,0" concept="10" trace="IfInstanceOfStatement$Pq" />
       <node id="8718469662521704737" at="56,0,57,0" concept="10" trace="IfInstanceOfVarReference$VR" />
       <node id="8718469662521704737" at="57,0,58,0" concept="10" trace="IfInstanceOfVarReference$wJ" />
@@ -931,7 +931,7 @@
       <node id="8718469662521704737" at="27,109,39,6" concept="7" />
       <node id="8718469662521704737" at="26,0,41,0" concept="5" trace="calculateCanBeAncestorConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
       <scope id="8718469662521704737" at="22,46,23,45" />
-      <scope id="8718469662521704737" at="33,55,34,70" />
+      <scope id="8718469662521704737" at="33,55,34,74" />
       <scope id="8718469662521705286" at="42,119,43,19" />
       <scope id="8718469662523088698" at="46,279,47,19" />
       <scope id="8718469662521704737" at="22,0,25,0" />

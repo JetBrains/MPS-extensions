@@ -50,7 +50,7 @@ import javax.swing.JTree;
 import javax.swing.Icon;
 import javax.swing.tree.TreeModel;
 import java.awt.event.MouseEvent;
-import jetbrains.mps.openapi.navigation.NavigationSupport;
+import jetbrains.mps.openapi.navigation.EditorNavigator;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 
@@ -295,7 +295,7 @@ public class TransformationTraceComponent extends SimpleToolWindowPanel {
           myProject.getRepository().getModelAccess().executeCommand(() -> {
             SNode target = selectedNode.getNavigationTarget();
             if (target != null) {
-              NavigationSupport.getInstance(myProject).openNode(myProject, target, true, true);
+              new EditorNavigator(myProject).shallFocus(true).shallSelect(true).open(target.getReference());
             }
           });
         }

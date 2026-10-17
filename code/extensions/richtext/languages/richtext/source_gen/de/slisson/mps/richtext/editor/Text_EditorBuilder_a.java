@@ -8,6 +8,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
+import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
@@ -50,8 +51,11 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
       TextCellModifier.modify(cell);
       return cell;
     }).invoke();
-    editorCell.setBig(true);
-    setCellContext(editorCell);
+    EditorCell bigCell = BigCellUtil.findBigCell(editorCell, getNode());
+    if (bigCell != null) {
+      bigCell.setBig(true);
+      setCellContext(bigCell);
+    }
     return editorCell;
   }
   private EditorCell createCustomFactory_1() {

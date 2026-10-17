@@ -14,7 +14,7 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 
 public class InsertTableRowBefore_Action extends BaseAction {
-  private static final Icon ICON = IconContainer.ICON_a0;
+  private static final Icon ICON = IconContainer.ICON0;
 
   public InsertTableRowBefore_Action() {
     super("Insert a New Row Before This Row", "", ICON);

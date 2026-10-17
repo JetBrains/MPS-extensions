@@ -11,8 +11,8 @@ import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.project.ProjectManager;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.project.MPSProject;
-import jetbrains.mps.project.structure.modules.ModuleDescriptor;
 import jetbrains.mps.project.AbstractModule;
+import jetbrains.mps.project.structure.modules.ModuleDescriptor;
 import jetbrains.mps.project.DevKit;
 import jetbrains.mps.project.SModuleOperations;
 import org.modelix.model.api.INode;
@@ -73,9 +73,9 @@ public class SModuleAsNode extends TreeElementAsNode<SModule> {
 
   private static TreeElementAsNode.IPropertyAccessor<SModule> moduleVersionAccessor = new ReadOnlyPropertyAccessor<SModule>() {
     public String get(SModule element) {
-      ModuleDescriptor moduleDescriptor = ((AbstractModule) element).getModuleDescriptor();
       if (element instanceof AbstractModule) {
-        return Integer.toString(check_jbj149_a0a0b0a0a0h(moduleDescriptor));
+        ModuleDescriptor moduleDescriptor = ((AbstractModule) element).getModuleDescriptor();
+        return Integer.toString(check_jbj149_a0b0a0a0a0h(moduleDescriptor));
       } else {
         return Integer.toString(0);
       }
@@ -376,7 +376,7 @@ public class SModuleAsNode extends TreeElementAsNode<SModule> {
       return result;
     }
   }
-  private static int check_jbj149_a0a0b0a0a0h(ModuleDescriptor checkedDotOperand) {
+  private static int check_jbj149_a0b0a0a0a0h(ModuleDescriptor checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModuleVersion();
     }

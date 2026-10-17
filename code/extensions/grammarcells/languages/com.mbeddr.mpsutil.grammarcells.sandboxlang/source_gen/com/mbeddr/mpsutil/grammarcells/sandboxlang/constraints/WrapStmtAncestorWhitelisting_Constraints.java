@@ -30,7 +30,7 @@ public class WrapStmtAncestorWhitelisting_Constraints extends BaseConstraintsDes
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -40,7 +40,7 @@ public class WrapStmtAncestorWhitelisting_Constraints extends BaseConstraintsDes
   private static boolean staticCanBeAnAncestor(SNode node, SNode childNode, SAbstractConcept childConcept, SNode parentNode, SContainmentLink link) {
     return SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(childConcept), CONCEPTS.BType$GR);
   }
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)", "7431304463732487583");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("r:916e3eb0-f4e8-4708-a417-7408e906a8c8(com.mbeddr.mpsutil.grammarcells.sandboxlang.constraints)", "7431304463732487583");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept WrapStmtAncestorWhitelisting$5F = MetaAdapterFactory.getConcept(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x67214c097a8cb54dL, "com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.WrapStmtAncestorWhitelisting");

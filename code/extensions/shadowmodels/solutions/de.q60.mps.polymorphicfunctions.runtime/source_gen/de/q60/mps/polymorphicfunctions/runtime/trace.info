@@ -500,15 +500,22 @@
       <node id="3814377006351164912" at="12,0,13,0" concept="4" trace="myImplementations" />
       <node id="1660993416176405811" at="14,0,15,0" concept="4" trace="myPriorityRules" />
       <node id="3814377006351365997" at="17,131,18,48" concept="9" />
-      <node id="1660993416176920345" at="22,53,23,27" concept="9" />
-      <node id="1660993416176935756" at="26,51,27,60" concept="3" />
-      <node id="1660993416176925800" at="26,0,29,0" concept="7" trace="addPriorityRule#(Lde/q60/mps/polymorphicfunctions/runtime/IPriorityRule;)V" />
+      <node id="6210719698310700563" at="21,98,22,57" concept="3" />
+      <node id="1660993416176920345" at="26,53,27,27" concept="9" />
+      <node id="1660993416176935756" at="30,51,31,60" concept="3" />
+      <node id="6210719698310691695" at="21,0,24,0" concept="7" trace="addImplementation#(Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/IFunctionImplementation;)V" />
+      <node id="1660993416176925800" at="30,0,33,0" concept="7" trace="addPriorityRule#(Lde/q60/mps/polymorphicfunctions/runtime/IPriorityRule;)V" />
       <node id="3814377006351181890" at="16,0,20,0" concept="7" trace="getImplementations#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Ljava/lang/String;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Iterable;" />
-      <node id="1660993416176919032" at="21,0,25,0" concept="7" trace="getPriorityRules#()Ljava/lang/Iterable;" />
+      <node id="1660993416176919032" at="25,0,29,0" concept="7" trace="getPriorityRules#()Ljava/lang/Iterable;" />
       <scope id="3814377006351181897" at="17,131,18,48" />
-      <scope id="1660993416176919037" at="22,53,23,27" />
-      <scope id="1660993416176925804" at="26,51,27,60" />
-      <scope id="1660993416176925800" at="26,0,29,0">
+      <scope id="6210719698310691698" at="21,98,22,57" />
+      <scope id="1660993416176919037" at="26,53,27,27" />
+      <scope id="1660993416176925804" at="30,51,31,60" />
+      <scope id="6210719698310691695" at="21,0,24,0">
+        <var name="declarationId" id="6210719698310694524" />
+        <var name="implementation" id="6210719698310696194" />
+      </scope>
+      <scope id="1660993416176925800" at="30,0,33,0">
         <var name="rule" id="1660993416176933210" />
       </scope>
       <scope id="3814377006351181890" at="16,0,20,0">
@@ -516,8 +523,8 @@
         <var name="declarationId" id="3814377006351181891" />
         <var name="parameters" id="3814377006355043121" />
       </scope>
-      <scope id="1660993416176919032" at="21,0,25,0" />
-      <unit id="3814377006351110901" at="11,0,30,0" name="de.q60.mps.polymorphicfunctions.runtime.PFModule" />
+      <scope id="1660993416176919032" at="25,0,29,0" />
+      <unit id="3814377006351110901" at="11,0,34,0" name="de.q60.mps.polymorphicfunctions.runtime.PFModule" />
     </file>
   </root>
   <root nodeRef="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)/3814377006351969770">

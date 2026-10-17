@@ -57,7 +57,10 @@ public class LineNumbersUpdater {
     ILineList updatedLines = computeLineNumbers();
     lines = (updatedLines == null ? Collections.<Line>emptyList() : Sequence.fromIterable(updatedLines.getLines()).toList());
     Line lastLine = ListSequence.fromList(lines).last();
-    lineNumberComponent.updateWidth((lastLine == null ? "" : String.valueOf(lastLine.getNumber())));
+    if (lineNumberComponent.updateWidth((lastLine == null ? "" : String.valueOf(lastLine.getNumber())))) {
+      // the highlighter positions the columns by their widths, so it has to lay them out again when ours changed
+      lineNumberComponent.getLeftEditorHighlighter().relayoutOnLeftColumnChange();
+    }
     layoutedLines = ListSequence.fromList(lines).select((it) -> {
       Point linePosition = getLinePosition(it);
       return new LayoutedLineNumber(it, linePosition.x, linePosition.y);

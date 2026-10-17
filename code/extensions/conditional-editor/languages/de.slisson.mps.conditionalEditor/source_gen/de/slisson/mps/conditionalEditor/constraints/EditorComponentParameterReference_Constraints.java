@@ -41,7 +41,7 @@ public class EditorComponentParameterReference_Constraints extends BaseConstrain
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -73,7 +73,7 @@ public class EditorComponentParameterReference_Constraints extends BaseConstrain
   private static boolean staticCanBeAnAncestor(SNode node, SNode childNode, SAbstractConcept childConcept, SNode parentNode, SContainmentLink link) {
     return (SNodeOperations.getNodeAncestor(parentNode, CONCEPTS.EditorComponentDeclarationWithParameters$jH, true, false) != null);
   }
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("r:cd6e0a2e-a649-41b3-a471-8f1dbb94ff2e(de.slisson.mps.conditionalEditor.constraints)", "6733065834258987670");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("r:cd6e0a2e-a649-41b3-a471-8f1dbb94ff2e(de.slisson.mps.conditionalEditor.constraints)", "6733065834258987670");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept EditorComponentParameterReference$yx = MetaAdapterFactory.getConcept(0xb8bb702e43ed4090L, 0xa902d180d3e5f292L, 0x5d70a7b3f453533fL, "de.slisson.mps.conditionalEditor.structure.EditorComponentParameterReference");

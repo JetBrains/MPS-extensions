@@ -59,7 +59,7 @@ public class StatemachineAsTable extends PFModule {
     }
   }).invoke();
   private StatemachineAsTable() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -86,7 +86,7 @@ public class StatemachineAsTable extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.tableOnCopy", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.tableOnCopy", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Statemachine$ba)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -131,7 +131,7 @@ public class StatemachineAsTable extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.copyStatemachine", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.copyStatemachine", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Statemachine$ba)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -173,7 +173,7 @@ public class StatemachineAsTable extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Statemachine$ba)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -203,7 +203,7 @@ public class StatemachineAsTable extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine/rewriter", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine/rewriter", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -231,7 +231,7 @@ public class StatemachineAsTable extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.table", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.table", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Statemachine$ba)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -366,7 +366,7 @@ public class StatemachineAsTable extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.row", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.row", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Statemachine$ba)), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.State$cB)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -525,7 +525,7 @@ public class StatemachineAsTable extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.cell", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.cell", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Statemachine$ba)), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.State$cB)), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Event$nK)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

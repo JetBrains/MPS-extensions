@@ -6,11 +6,17 @@ package de.itemis.mps.structurecheck.runtime;
 public class Message {
   private String myText;
   private IElementChecker mySource;
-
+  private Message myCause;
+  private StructureCheckerException myTrace;
 
   public Message(String text, IElementChecker source) {
+    this(text, source, null);
+  }
+  public Message(String text, IElementChecker source, Message cause) {
     mySource = source;
     myText = text;
+    myCause = cause;
+    myTrace = new StructureCheckerException(text, (cause == null ? null : cause.getTrace()));
   }
   public IElementChecker getSource() {
     return mySource;
@@ -20,5 +26,8 @@ public class Message {
   }
   public void report() {
     mySource.report(this);
+  }
+  public Throwable getTrace() {
+    return myTrace;
   }
 }

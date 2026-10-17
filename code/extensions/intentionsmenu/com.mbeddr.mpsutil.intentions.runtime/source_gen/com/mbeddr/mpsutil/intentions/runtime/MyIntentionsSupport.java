@@ -132,8 +132,13 @@ public class MyIntentionsSupport extends IntentionsSupport {
           return;
         }
         final boolean[] forceReturn = {false};
-        ApplicationManager.getApplication().invokeAndWait(() -> ((SRepository) ReflectionUtil.callMethod(EditorComponent.class, getEditor(), "getRepository", new Class[]{}, new Object[]{})).getModelAccess().runReadAction(() -> forceReturn[0] = ((Boolean) ReflectionUtil.callMethod(IntentionsSupport.class, getIntentionsSupport(), "isInconsistentEditor", new Class[]{}, new Object[]{})) || areIntentionsNotSupported()));
-        if (forceReturn[0]) {
+        ApplicationManager.getApplication().invokeAndWait(() -> {
+          if (myStopRequested) {
+            return;
+          }
+          ((SRepository) ReflectionUtil.callMethod(EditorComponent.class, getEditor(), "getRepository", new Class[]{}, new Object[]{})).getModelAccess().runReadAction(() -> forceReturn[0] = ((Boolean) ReflectionUtil.callMethod(IntentionsSupport.class, getIntentionsSupport(), "isInconsistentEditor", new Class[]{}, new Object[]{})) || areIntentionsNotSupported());
+        });
+        if (forceReturn[0] || myStopRequested) {
           return;
         }
         final Kind intentionKind = getModelAccess().computeReadAction(() -> {

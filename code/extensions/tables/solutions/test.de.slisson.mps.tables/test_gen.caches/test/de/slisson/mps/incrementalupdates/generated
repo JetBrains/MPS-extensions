@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="3hlr8h9azval14f8uxtz8mf377fliec">
+  <files names="DecisionTable_Nested_InsertColumn_Test.java:SimpleTableWithHeadersDefinedByRow_AddAnnotation_Test.java:SimpleTableWithHeadersDefinedByRow_AddTableAwareAnnotation_Test.java:SimpleTableWithHeadersDefinedByRow_RemoveAnnotation_Test.java:SimpleTableWithHeadersDefinedByRow_Test.java:SimpleTableWithHeadersDefinedByTable_Test.java:SimpleTableWithoutHeaders_AddAnnotation_Test.java:SimpleTableWithoutHeaders_AddTableAwareAnnotation_Test.java:SimpleTableWithoutHeaders_Test.java:Statemachine_InsertEvent_Test.java:Statemachine_InsertState_Test.java:Statemachine_InsertTransition_Test.java:TestUtils.java" />
+</product>
+

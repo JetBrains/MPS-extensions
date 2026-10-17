@@ -29,6 +29,7 @@ import jetbrains.mps.ide.actions.MPSActionPlaces;
 import com.intellij.openapi.actionSystem.impl.PresentationFactory;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.impl.Utils;
+import com.intellij.openapi.actionSystem.ActionUiKind;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import com.intellij.openapi.actionSystem.Separator;
 import org.junit.jupiter.api.Assertions;
@@ -81,7 +82,7 @@ public class CustomIntentions_Test extends BaseTransformationTest {
 
             final String place = MPSActionPlaces.MPS_EDITOR_INTENTIONS_POPUP;
             final PresentationFactory factory = new PresentationFactory();
-            Iterable<? extends AnAction> children = Utils.expandActionGroup(group, factory, dc, place);
+            Iterable<? extends AnAction> children = Utils.expandActionGroup(group, factory, dc, place, ActionUiKind.POPUP);
 
             actual.value = Sequence.fromIterable(children).select((AnAction it) -> {
               if (it instanceof Separator) {

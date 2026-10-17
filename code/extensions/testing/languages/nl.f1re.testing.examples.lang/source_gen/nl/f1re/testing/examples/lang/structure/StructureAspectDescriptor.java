@@ -17,6 +17,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptCompletionStyling = createDescriptorForCompletionStyling();
   /*package*/ final ConceptDescriptor myConceptCompletionStylingExample = createDescriptorForCompletionStylingExample();
   /*package*/ final ConceptDescriptor myConceptConditionalEditor = createDescriptorForConditionalEditor();
+  /*package*/ final ConceptDescriptor myConceptLifecycleTesting = createDescriptorForLifecycleTesting();
   /*package*/ final ConceptDescriptor myConceptNodeWithToolTip = createDescriptorForNodeWithToolTip();
   /*package*/ final ConceptDescriptor myConceptReadme = createDescriptorForReadme();
   /*package*/ final ConceptDescriptor myConceptSlowEditor = createDescriptorForSlowEditor();
@@ -36,7 +37,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBrokenEditor, myConceptCompletionStyling, myConceptCompletionStylingExample, myConceptConditionalEditor, myConceptNodeWithToolTip, myConceptReadme, myConceptSlowEditor, myConceptVCSCustomization);
+    return Arrays.asList(myConceptBrokenEditor, myConceptCompletionStyling, myConceptCompletionStylingExample, myConceptConditionalEditor, myConceptLifecycleTesting, myConceptNodeWithToolTip, myConceptReadme, myConceptSlowEditor, myConceptVCSCustomization);
   }
 
   @Override
@@ -51,6 +52,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptCompletionStylingExample;
       case LanguageConceptSwitch.ConditionalEditor:
         return myConceptConditionalEditor;
+      case LanguageConceptSwitch.LifecycleTesting:
+        return myConceptLifecycleTesting;
       case LanguageConceptSwitch.NodeWithToolTip:
         return myConceptNodeWithToolTip;
       case LanguageConceptSwitch.Readme:
@@ -98,6 +101,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("nl.f1re.testing.examples.lang", "ConditionalEditor", 0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x1c4cfe74f5a5b0d0L);
     b.class_(false, false, true);
     b.origin("r:b442f00b-6e9a-4c5a-b266-fc3101923e23(nl.f1re.testing.examples.lang.structure)/2039284509582930128");
+    b.version(3);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForLifecycleTesting() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("nl.f1re.testing.examples.lang", "LifecycleTesting", 0x87e083b3d1b34c3fL, 0x9d8cb24d74710f49L, 0x448ed3c5ec0ad179L);
+    b.class_(false, false, false);
+    b.origin("r:b442f00b-6e9a-4c5a-b266-fc3101923e23(nl.f1re.testing.examples.lang.structure)/4940118688294162809");
     b.version(3);
     return b.create();
   }

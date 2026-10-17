@@ -170,7 +170,11 @@ public class TableRangeSelection extends AbstractMultipleSelection {
     final CellAction action = table.getAction(type);
     if (action != null) {
       final EditorContext context = table.getContext();
-      context.getRepository().getModelAccess().executeCommand(() -> action.execute(context));
+      context.getRepository().getModelAccess().executeCommand(() -> {
+        if (action.canExecute(context)) {
+          action.execute(context);
+        }
+      });
     }
   }
   private static EditorCell check_tr8opa_a0a0a0c0t(EditorCellGridLeaf checkedDotOperand) {

@@ -45,7 +45,7 @@ We also provide the artefacts as a maven repository. Where you can fetch them du
 		 <dependency>
 		  <groupId>de.itemis.mps</groupId>
 		  <artifactId>extensions</artifactId>
-		  <version>2023.2</version>
+		  <version>VERSION</version>
 		  <type>zip</type>
 		</dependency>
 	</dependencies>
@@ -62,9 +62,11 @@ We also provide the artefacts as a maven repository. Where you can fetch them du
     }
 
     dependencies {
-        mpsExtensions "de.itemis.mps:extensions:2024.1.+"
+        mpsExtensions "de.itemis.mps:extensions:VERSION"
     }
 ```
+
+Replace `VERSION` with a published version. To find the latest published version for an MPS release, use the [latest version finder](https://nkoester.github.io/mps-libraries-latest-version-finder/). Each maintenance branch is built against the MPS version in its `gradle/libs.versions.toml`.
 
 ### Artefacts in GitHub Packages
 
@@ -75,7 +77,6 @@ used instead of the Nexus server.
 ## Versions
 
 The version number reflects the MPS version the extensions are compatible with. For instance `2021.3.X` is compatible with MPS 2021.3.2, `2021.1.X` is compatible with MPS 2021.1.4. We only maintain compatibility with the latest minor release for each major version. While, for example, a `2021.1.x` version of the extension might work with an on older version than MPS 2021.1.4 we only test it against the latest.
-
 
 A version in maintenance will not get actively new features and is only maintained with bugfixes. We are happy to accept pull request for versions in maintenance with bugfixes but active feature development only happens for the latest MPS version.
 

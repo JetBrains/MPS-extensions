@@ -417,14 +417,14 @@ public class StatemachineAsTable extends PFModule {
                       if (true) {
                         context.forChildRole("childCells").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            int i_a2a0j_0 = 0;
-                            for (SNode e_a2a0j_0 : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.events$gXF$))) {
-                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a2a0j_0)).withAdditionalIdPrefix("8" + "#" + i_a2a0j_0).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            int i_a2a0j = 0;
+                            for (SNode e_a2a0j : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.events$gXF$))) {
+                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a2a0j)).withAdditionalIdPrefix("8" + "#" + i_a2a0j).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
                                   context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.cell", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(0)))), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(1)))), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3384942920130544722"));
                                 }
                               });
-                              i_a2a0j_0++;
+                              i_a2a0j++;
                             }
                           }
                         });

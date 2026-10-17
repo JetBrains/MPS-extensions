@@ -501,7 +501,7 @@
                           <node concept="3clFbF" id="2hEgJWExc8_" role="3cqZAp">
                             <node concept="2OqwBi" id="2hEgJWExchV" role="3clFbG">
                               <node concept="liA8E" id="2hEgJWExe5w" role="2OqNvi">
-                                <ref role="37wK5l" to="exr9:~EditorComponent.relayout()" resolve="relayout" />
+                                <ref role="37wK5l" to="exr9:~EditorComponent.update()" resolve="update" />
                               </node>
                               <node concept="37vLTw" id="2hEgJWExc8z" role="2Oq$k0">
                                 <ref role="3cqZAo" node="DrREDhpexS" resolve="editorComponent" />

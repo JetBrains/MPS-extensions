@@ -22,9 +22,25 @@ See the [building](docs/building.md) page of the documentation.
 
 ## Documentation
 
-If you would like more information on the individual extensions, please see our [documentation](https://jetbrains.github.io/MPS-extensions). The documentation's source is located in this repository's `docs` folder if you would like to contribute to it. To preview the documentation, run the following command:
+If you want more information on the individual extensions, please see our [documentation](https://jetbrains.github.io/MPS-extensions). The documentation's source is in this repository's `docs` folder if you would like to contribute. To preview the documentation, run the following command:
 
 ```bash
 ./gradlew previewDocs # Mac and Linux
 gradlew.bat previewDocs # Windows
 ```
+
+## Creating a PR
+
+Please add your change to the changelog located at `de.itemis.mps.extensions.changelog`. To update it, rebuild the solution and run `./gradlew copyChangelog` or `gradlew.bat copyChangelog` to regenerate the `CHANGELOG.md` file. Commit the changes in the MPS model and in the text file.
+When you open a PR, the build on TeamCity needs to be approved by a colleague at itemis, and a PR review is necessary. If this doesn't happen, please ask in the Slack channel. Often, builds fail at the following step: Check for dirty files.
+If that happens, some migrations were not executed in the project. Run `./gradlew migrate remigrate` or `gradlew.bat migrate remigrate` on the command line to execute them and commit the changes. You can also copy the diff from the build log and apply it with `git apply` as a patch. You need to strip the line numbers, though: 
+- Mac: `pbpaste | sed 's/^.\{13\}//' | git apply`
+- Windows Powershell: `Get-Clipboard | ForEach-Object { $_ -replace '^.{13}', '' } | git apply`
+- Linux solution 1: `xclip -o | sed 's/^.\{13\}//' | git apply`
+- Linux solution 2: `xsel --clipboard --output | sed 's/^.\{13\}//' | git apply`
+
+Please select the correct target branch for the PR. The master branch builds against the MPS master and is most likely not the branch you want to contribute to. After the PR is merged, a bot will automatically open a PR to merge the changes into the next maintenance branch. You don't have to do anything at the last step.
+
+## Automatic Updating Of Dependencies
+
+The [Renovate](https://docs.renovatebot.com/) bot updates the dependencies automatically for the master branch or optionally other branches and creates PRs for those changes. The configuration can be found at [renovate.json5](https://github.com/JetBrains/MPS-extensions/blob/master/.github/renovate.json5). The documentation for the configuration can be found at https://docs.renovatebot.com/configuration-options/.

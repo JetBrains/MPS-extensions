@@ -30,6 +30,7 @@
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
       </concept>
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -92,7 +93,6 @@
       <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
         <child id="1140725362529" name="linkTarget" index="2oxUTC" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
@@ -183,7 +183,7 @@
             <node concept="BsUDl" id="5iW7uqbF3wQ" role="2Oq$k0">
               <ref role="37wK5l" node="52ZF9D3cTKG" resolve="getParentConcept" />
             </node>
-            <node concept="2qgKlT" id="5iW7uqbF33t" role="2OqNvi">
+            <node concept="3zqWPK" id="WEZADybpvC" role="2OqNvi">
               <ref role="37wK5l" to="tpcn:hEwILLp" resolve="getAggregationLinkDeclarations" />
             </node>
           </node>
@@ -373,7 +373,7 @@
                 <ref role="3Tt5mk" to="wlk:hDM2mAQ" resolve="concept" />
               </node>
             </node>
-            <node concept="2qgKlT" id="52ZF9D3aHEV" role="2OqNvi">
+            <node concept="3zqWPK" id="WEZADybpvE" role="2OqNvi">
               <ref role="37wK5l" to="tpcn:hEwILLp" resolve="getAggregationLinkDeclarations" />
             </node>
           </node>
@@ -398,7 +398,7 @@
             <node concept="BsUDl" id="5iW7uqbF4WG" role="2Oq$k0">
               <ref role="37wK5l" node="52ZF9D3cTKG" resolve="getParentConcept" />
             </node>
-            <node concept="2qgKlT" id="5iW7uqbF2rm" role="2OqNvi">
+            <node concept="3zqWPK" id="WEZADybpvG" role="2OqNvi">
               <ref role="37wK5l" to="tpcn:hEwILL0" resolve="getReferenceLinkDeclarations" />
             </node>
           </node>

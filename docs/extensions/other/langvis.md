@@ -20,7 +20,7 @@ The following installation instructions assume an `apt-get` package manager on L
 
 Runtime prerequisites:
 
-1. Install the latest [Oracle JDK](<www.oracle.com/technetwork/java/javase>).
+1. Install the latest [Oracle JDK](<https://www.oracle.com/technetwork/java/javase>).
 2. Download PlantUML jar file from the [plantuml website](http://plantuml.sourceforge.net/download.html) and store it into your home directory (`%HOME%` on Windows or `$HOME` on linux), for instance `/Users/mpsuser`.
 3. Install [GraphViz](http://www.graphviz.org/) to satisfy the PlantUML dependency (e.g. ```sudo apt-get install graphviz``` or ```choco install graphviz```)
 4. For Windows: make sure your ```JAVA_HOME``` environment variable points to your JDK (e.g. ```set JAVA_HOME="c:\Program Files\Java\jdk-11.0.5"```)

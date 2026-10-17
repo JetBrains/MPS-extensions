@@ -6,7 +6,7 @@
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -305,16 +305,10 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
       <concept id="1213999088275" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldDeclaration" flags="ig" index="2BZ0e9" />
@@ -2538,14 +2532,74 @@
       <ref role="3uigEE" to="dush:~FindUsagesParticipant" resolve="FindUsagesParticipant" />
     </node>
     <node concept="3UR2Jj" id="TC$M5wTRlS" role="lGtFl">
-      <node concept="TZ5HA" id="TC$M5wTRlT" role="TZ5H$">
-        <node concept="1dT_AC" id="TC$M5wTRlU" role="1dT_Ay">
-          <property role="1dT_AB" value="Disable find usages inside ShadowModel instances." />
+      <node concept="1PaTwC" id="L0S2CpU6JL" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6JM" role="1PaTwD">
+          <property role="3oM_SC" value="Disable" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JN" role="1PaTwD">
+          <property role="3oM_SC" value="find" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JO" role="1PaTwD">
+          <property role="3oM_SC" value="usages" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JP" role="1PaTwD">
+          <property role="3oM_SC" value="inside" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JQ" role="1PaTwD">
+          <property role="3oM_SC" value="ShadowModel" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JR" role="1PaTwD">
+          <property role="3oM_SC" value="instances." />
         </node>
       </node>
-      <node concept="TZ5HA" id="TC$M5wTRyg" role="TZ5H$">
-        <node concept="1dT_AC" id="TC$M5wTRyh" role="1dT_Ay">
-          <property role="1dT_AB" value="Avoid warning &quot;Fast usages search is not supported for model .... Usages search may be slow&quot;" />
+      <node concept="1PaTwC" id="L0S2CpU6JS" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6JT" role="1PaTwD">
+          <property role="3oM_SC" value="Avoid" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JU" role="1PaTwD">
+          <property role="3oM_SC" value="warning" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JV" role="1PaTwD">
+          <property role="3oM_SC" value="&quot;Fast" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JW" role="1PaTwD">
+          <property role="3oM_SC" value="usages" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JX" role="1PaTwD">
+          <property role="3oM_SC" value="search" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JY" role="1PaTwD">
+          <property role="3oM_SC" value="is" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6JZ" role="1PaTwD">
+          <property role="3oM_SC" value="not" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K0" role="1PaTwD">
+          <property role="3oM_SC" value="supported" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K1" role="1PaTwD">
+          <property role="3oM_SC" value="for" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K2" role="1PaTwD">
+          <property role="3oM_SC" value="model" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K3" role="1PaTwD">
+          <property role="3oM_SC" value="...." />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K4" role="1PaTwD">
+          <property role="3oM_SC" value="Usages" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K5" role="1PaTwD">
+          <property role="3oM_SC" value="search" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K6" role="1PaTwD">
+          <property role="3oM_SC" value="may" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K7" role="1PaTwD">
+          <property role="3oM_SC" value="be" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6K8" role="1PaTwD">
+          <property role="3oM_SC" value="slow&quot;" />
         </node>
       </node>
     </node>

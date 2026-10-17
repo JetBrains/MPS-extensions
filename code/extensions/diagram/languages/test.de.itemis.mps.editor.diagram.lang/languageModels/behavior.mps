@@ -29,6 +29,7 @@
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
       </concept>
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
@@ -131,7 +132,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
@@ -198,16 +198,16 @@
                   <ref role="3Tt5mk" to="7nxb:24zrZPPzcBR" resolve="positionX" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="24zrZPPzfMw" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpzl" role="2OqNvi">
                 <ref role="37wK5l" to="tpek:i1LP2xI" resolve="getCompileTimeConstantValue" />
-                <node concept="2OqwBi" id="24zrZPPzgDx" role="37wK5m">
-                  <node concept="2JrnkZ" id="24zrZPPzgAA" role="2Oq$k0">
-                    <node concept="2OqwBi" id="24zrZPPzfRe" role="2JrQYb">
-                      <node concept="13iPFW" id="24zrZPPzfOg" role="2Oq$k0" />
-                      <node concept="I4A8Y" id="24zrZPPzg7B" role="2OqNvi" />
+                <node concept="2OqwBi" id="WEZADybpzn" role="37wK5m">
+                  <node concept="2JrnkZ" id="WEZADybpzo" role="2Oq$k0">
+                    <node concept="2OqwBi" id="WEZADybpzp" role="2JrQYb">
+                      <node concept="13iPFW" id="WEZADybpzq" role="2Oq$k0" />
+                      <node concept="I4A8Y" id="WEZADybpzr" role="2OqNvi" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="24zrZPPzh3l" role="2OqNvi">
+                  <node concept="liA8E" id="WEZADybpzs" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
                   </node>
                 </node>
@@ -234,16 +234,16 @@
                   <ref role="3Tt5mk" to="7nxb:24zrZPPzdYV" resolve="positionY" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="24zrZPPzzOB" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpzt" role="2OqNvi">
                 <ref role="37wK5l" to="tpek:i1LP2xI" resolve="getCompileTimeConstantValue" />
-                <node concept="2OqwBi" id="24zrZPPzzOC" role="37wK5m">
-                  <node concept="2JrnkZ" id="24zrZPPzzOD" role="2Oq$k0">
-                    <node concept="2OqwBi" id="24zrZPPzzOE" role="2JrQYb">
-                      <node concept="13iPFW" id="24zrZPPzzOF" role="2Oq$k0" />
-                      <node concept="I4A8Y" id="24zrZPPzzOG" role="2OqNvi" />
+                <node concept="2OqwBi" id="WEZADybpzv" role="37wK5m">
+                  <node concept="2JrnkZ" id="WEZADybpzw" role="2Oq$k0">
+                    <node concept="2OqwBi" id="WEZADybpzx" role="2JrQYb">
+                      <node concept="13iPFW" id="WEZADybpzy" role="2Oq$k0" />
+                      <node concept="I4A8Y" id="WEZADybpzz" role="2OqNvi" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="24zrZPPzzOH" role="2OqNvi">
+                  <node concept="liA8E" id="WEZADybpz$" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
                   </node>
                 </node>

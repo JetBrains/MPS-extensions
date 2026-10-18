@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -17,7 +16,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -26,15 +24,13 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class MapMacro__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x94b64715a2634c36L, 0xa1388da14705ffa7L, 0x4a91eeb6ff633369L, "de.q60.mps.shadowmodels.transformation.structure.MapMacro");
 
-  public static final SMethod<SNode> getContextNodeTypeOwner_id1apE37RqhZP = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getContextNodeTypeOwner").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1340287296677158901L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<Boolean> providesTypeFor_idZW5KS9Rmvn = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("providesTypeFor").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1151820953762490327L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
-  public static final SMethod<String> getMatchingText_id69Qfsw3InJX = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getMatchingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234036221L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
-  public static final SMethod<String> getVisibleMatchingText_id69Qfsw3Ipre = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getVisibleMatchingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234043086L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  public static final SMethod<SNode> getContextNodeTypeOwner_id1apE37RqhZP = new SMethodBuilder<>(SNode.class).name("getContextNodeTypeOwner").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1340287296677158901L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<Boolean> providesTypeFor_idZW5KS9Rmvn = new SMethodBuilder<>(Boolean.TYPE).name("providesTypeFor").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1151820953762490327L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2(SMethodBuilder.createJavaParameter(SNode.class, "node"));
+  public static final SMethod<String> getMatchingText_id69Qfsw3InJX = new SMethodBuilder<>(String.class).name("getMatchingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234036221L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter(SNode.class, "reference"));
+  public static final SMethod<String> getVisibleMatchingText_id69Qfsw3Ipre = new SMethodBuilder<>(String.class).name("getVisibleMatchingText").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7094926192234043086L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2(SMethodBuilder.createJavaParameter(SNode.class, "reference"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getContextNodeTypeOwner_id1apE37RqhZP, providesTypeFor_idZW5KS9Rmvn, getMatchingText_id69Qfsw3InJX, getVisibleMatchingText_id69Qfsw3Ipre);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getContextNodeTypeOwner_id1apE37RqhZP, providesTypeFor_idZW5KS9Rmvn, getMatchingText_id69Qfsw3InJX, getVisibleMatchingText_id69Qfsw3Ipre);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getContextNodeTypeOwner_id1apE37RqhZP(@NotNull SNode __thisNode__) {
     return null;
@@ -52,10 +48,6 @@ public final class MapMacro__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ MapMacro__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:5e0e4782-02bb-4346-9890-12128ef7af24(modeltovisualize)/4447146095239181386">
+    <file name="TestClass.java">
+      <unit id="4447146095239181386" at="6,0,8,0" name="modeltovisualize.TestClass" />
+    </file>
+  </root>
+</debug-info>
+

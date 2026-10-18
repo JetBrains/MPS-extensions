@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="PolymorphicFunctionsDescriptor.java">
+      <unit at="14,0,38,0" name="de.q60.mps.polymorphicfunctions.sandboxlang.polyfun.PolymorphicFunctionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:b1ae882f-566e-4908-a028-2c87de98be1e(de.q60.mps.polymorphicfunctions.sandboxlang.polyfun)/2282736600844808321">
+    <file name="pf.java">
+      <node id="2282736600844808321" at="18,0,19,0" concept="6" trace="LOG" />
+      <node id="2282736600844808321" at="20,9,21,22" concept="5" />
+      <node id="2282736600844808321" at="23,31,24,62" concept="1" />
+      <node id="2282736600844808321" at="25,7,26,15" concept="7" />
+      <node id="2282736600844931533" at="31,0,32,0" concept="2" trace="myParameterTypes" />
+      <node id="2282736600844931533" at="32,0,33,0" concept="2" trace="contextIds" />
+      <node id="2282736600844931533" at="33,0,34,0" concept="2" trace="groupIds" />
+      <node id="2282736600844931533" at="35,29,36,77" concept="5" />
+      <node id="2282736600844931544" at="39,88,40,23" concept="5" />
+      <node id="2282736600844931533" at="41,9,42,20" concept="5" />
+      <node id="2282736600844931552" at="44,93,45,58" concept="5" />
+      <node id="2282736600844931533" at="48,59,49,32" concept="5" />
+      <node id="2282736600844931533" at="52,47,53,26" concept="5" />
+      <node id="2282736600844931533" at="56,53,57,24" concept="5" />
+      <node id="2282736600844808321" at="22,35,25,7" concept="3" />
+      <node id="2282736600844931544" at="38,99,41,9" concept="3" />
+      <node id="2282736600844931533" at="44,0,47,0" concept="4" trace="execute#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Ljava/lang/Object;" />
+      <node id="2282736600844931533" at="34,0,38,0" concept="4" trace="getId#()Ljava/lang/String;" />
+      <node id="2282736600844931533" at="47,0,51,0" concept="4" trace="getParameterTypes#()Ljava/lang/Iterable;" />
+      <node id="2282736600844931533" at="51,0,55,0" concept="4" trace="getContextIds#()Ljava/lang/Iterable;" />
+      <node id="2282736600844931533" at="55,0,59,0" concept="4" trace="getPriorityGroupIds#()Ljava/lang/Iterable;" />
+      <node id="2282736600844931533" at="38,0,44,0" concept="4" trace="isApplicable#(Lde/q60/mps/polymorphicfunctions/runtime/IPFContext;Lde/q60/mps/polymorphicfunctions/runtime/ParameterList;)Z" />
+      <node id="2282736600844808321" at="19,79,27,5" concept="8" />
+      <node id="2282736600844808321" at="19,0,29,0" concept="6" trace="INSTANCE" />
+      <node id="2282736600844931533" at="29,16,59,7" concept="1" />
+      <node id="2282736600844808321" at="29,0,61,0" concept="0" trace="pf#()V" />
+      <scope id="2282736600844808321" at="20,9,21,22" />
+      <scope id="2282736600844808321" at="23,31,24,62" />
+      <scope id="2282736600844931533" at="35,29,36,77" />
+      <scope id="2282736600844931544" at="39,88,40,23" />
+      <scope id="2282736600844931533" at="44,93,45,58" />
+      <scope id="2282736600844931533" at="48,59,49,32" />
+      <scope id="2282736600844931533" at="52,47,53,26" />
+      <scope id="2282736600844931533" at="56,53,57,24" />
+      <scope id="2282736600844931533" at="44,0,47,0">
+        <var name="_PFcontext" id="2282736600844931533" />
+        <var name="_PFparameters" id="2282736600844931533" />
+      </scope>
+      <scope id="2282736600844808321" at="22,35,26,15" />
+      <scope id="2282736600844931533" at="34,0,38,0" />
+      <scope id="2282736600844931533" at="38,99,42,20" />
+      <scope id="2282736600844931533" at="47,0,51,0" />
+      <scope id="2282736600844931533" at="51,0,55,0" />
+      <scope id="2282736600844931533" at="55,0,59,0" />
+      <scope id="2282736600844808321" at="22,5,27,5">
+        <var name="ex" id="2282736600844808321" />
+      </scope>
+      <scope id="2282736600844931533" at="38,0,44,0">
+        <var name="_PFcontext" id="2282736600844931533" />
+        <var name="_PFparameters" id="2282736600844931533" />
+      </scope>
+      <scope id="2282736600844808321" at="19,79,27,5" />
+      <scope id="2282736600844808321" at="29,16,59,7" />
+      <scope id="2282736600844808321" at="29,0,61,0" />
+      <unit id="2282736600844931533" at="30,87,59,5" name="de.q60.mps.polymorphicfunctions.sandboxlang.polyfun.pf$1" />
+      <unit id="2282736600844808321" at="17,0,62,0" name="de.q60.mps.polymorphicfunctions.sandboxlang.polyfun.pf" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeRef="r:a33c4073-060a-44ab-9859-9e963168fb14(de.q60.mps.polymorphicfunctions.sandbox.input)/1660993416175241143">
+    <file name="Math2.java">
+      <node id="1660993416175241145" at="11,0,12,0" concept="0" trace="PI" />
+      <node id="1660993416175241156" at="13,46,14,29" concept="2" />
+      <node id="1660993416175241150" at="13,0,16,0" concept="1" trace="circumference#(D)D" />
+      <scope id="1660993416175241155" at="13,46,14,29" />
+      <scope id="1660993416175241150" at="13,0,16,0">
+        <var name="radius" id="1660993416175241151" />
+      </scope>
+      <unit id="1660993416175241143" at="9,0,17,0" name="de.q60.mps.polymorphicfunctions.sandbox.input.Math2" />
+    </file>
+  </root>
+  <root nodeRef="r:a33c4073-060a-44ab-9859-9e963168fb14(de.q60.mps.polymorphicfunctions.sandbox.input)/3814377006350716569">
+    <file name="Math.java">
+      <node id="3814377006350716762" at="8,0,9,0" concept="0" trace="PI" />
+      <node id="3814377006350718115" at="10,46,11,29" concept="2" />
+      <node id="3814377006350716937" at="10,0,13,0" concept="1" trace="circumference#(D)D" />
+      <scope id="3814377006350716941" at="10,46,11,29" />
+      <scope id="3814377006350716937" at="10,0,13,0">
+        <var name="radius" id="3814377006350717795" />
+      </scope>
+      <unit id="3814377006350716569" at="6,0,14,0" name="de.q60.mps.polymorphicfunctions.sandbox.input.Math" />
+    </file>
+  </root>
+</debug-info>
+

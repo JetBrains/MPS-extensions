@@ -332,7 +332,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private CompactionStrategy _StyleParameter_QueryFunction_nx4qyp_a0c0() {
     return CompactionStrategy.valueOf(SPropertyOperations.getEnum(SLinkOperations.getTarget(getNode(), LINKS.config$G6cD), PROPS.compactionStrategy$zIpf).getName());

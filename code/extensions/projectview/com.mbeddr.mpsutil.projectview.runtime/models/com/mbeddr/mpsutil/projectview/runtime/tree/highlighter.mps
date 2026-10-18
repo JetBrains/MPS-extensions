@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
   </languages>
@@ -297,17 +297,11 @@
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -896,24 +890,99 @@
     <property role="1EXbeo" value="false" />
     <node concept="3Tm1VV" id="6B7erwvECTJ" role="1B3o_S" />
     <node concept="3UR2Jj" id="6B7erwvED31" role="lGtFl">
-      <node concept="TZ5HA" id="6B7erwvED3p" role="TZ5H$">
-        <node concept="1dT_AC" id="6B7erwvED3q" role="1dT_Ay">
-          <property role="1dT_AB" value="Control listeners that track changes to a model node." />
+      <node concept="1PaTwC" id="L0S2CpU6AM" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6AN" role="1PaTwD">
+          <property role="3oM_SC" value="Control" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AO" role="1PaTwD">
+          <property role="3oM_SC" value="listeners" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AP" role="1PaTwD">
+          <property role="3oM_SC" value="that" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AQ" role="1PaTwD">
+          <property role="3oM_SC" value="track" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AR" role="1PaTwD">
+          <property role="3oM_SC" value="changes" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AS" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AT" role="1PaTwD">
+          <property role="3oM_SC" value="a" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AU" role="1PaTwD">
+          <property role="3oM_SC" value="model" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AV" role="1PaTwD">
+          <property role="3oM_SC" value="node." />
         </node>
       </node>
-      <node concept="TZ5HA" id="6B7erwvED3r" role="TZ5H$">
-        <node concept="1dT_AC" id="6B7erwvED3s" role="1dT_Ay">
-          <property role="1dT_AB" value="Invoke {@link #startListening()}/{@link #stopListening()} to enable/disable listening," />
+      <node concept="1PaTwC" id="L0S2CpU6AW" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6AX" role="1PaTwD">
+          <property role="3oM_SC" value="Invoke" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AY" role="1PaTwD">
+          <property role="3oM_SC" value="{@link" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6AZ" role="1PaTwD">
+          <property role="3oM_SC" value="#startListening()}/{@link" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B0" role="1PaTwD">
+          <property role="3oM_SC" value="#stopListening()}" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B1" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B2" role="1PaTwD">
+          <property role="3oM_SC" value="enable/disable" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B3" role="1PaTwD">
+          <property role="3oM_SC" value="listening," />
         </node>
       </node>
-      <node concept="TZ5HA" id="6B7erwvED3t" role="TZ5H$">
-        <node concept="1dT_AC" id="6B7erwvED3u" role="1dT_Ay">
-          <property role="1dT_AB" value="and {@link #attach(jetbrains.mps.ide.ui.tree.smodel.SModelTreeNode)}/{@link #detach(jetbrains.mps.ide.ui.tree.smodel.SModelTreeNode)} to \" />
+      <node concept="1PaTwC" id="L0S2CpU6B4" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6B5" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B6" role="1PaTwD">
+          <property role="3oM_SC" value="{@link" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B7" role="1PaTwD">
+          <property role="3oM_SC" value="#attach(jetbrains.mps.ide.ui.tree.smodel.SModelTreeNode)}/{@link" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B8" role="1PaTwD">
+          <property role="3oM_SC" value="#detach(jetbrains.mps.ide.ui.tree.smodel.SModelTreeNode)}" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B9" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Ba" role="1PaTwD">
+          <property role="3oM_SC" value="\" />
         </node>
       </node>
-      <node concept="TZ5HA" id="6B7erwvED3v" role="TZ5H$">
-        <node concept="1dT_AC" id="6B7erwvED3w" role="1dT_Ay">
-          <property role="1dT_AB" value="include/exclude selected model tree node from update." />
+      <node concept="1PaTwC" id="L0S2CpU6Bb" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Bc" role="1PaTwD">
+          <property role="3oM_SC" value="include/exclude" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bd" role="1PaTwD">
+          <property role="3oM_SC" value="selected" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Be" role="1PaTwD">
+          <property role="3oM_SC" value="model" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bf" role="1PaTwD">
+          <property role="3oM_SC" value="tree" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bg" role="1PaTwD">
+          <property role="3oM_SC" value="node" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bh" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bi" role="1PaTwD">
+          <property role="3oM_SC" value="update." />
         </node>
       </node>
     </node>
@@ -980,14 +1049,104 @@
       </node>
       <node concept="3Tm6S6" id="6B7erwvECXx" role="1B3o_S" />
       <node concept="z59LJ" id="6B7erwvECXy" role="lGtFl">
-        <node concept="TZ5HA" id="6B7erwvED3x" role="TZ5H$">
-          <node concept="1dT_AC" id="6B7erwvED3y" role="1dT_Ay">
-            <property role="1dT_AB" value="There might be more than one tree node for the same model (e.g. one under language, another under @descriptor)," />
+        <node concept="1PaTwC" id="L0S2CpU6BW" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6BX" role="1PaTwD">
+            <property role="3oM_SC" value="There" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6BY" role="1PaTwD">
+            <property role="3oM_SC" value="might" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6BZ" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C0" role="1PaTwD">
+            <property role="3oM_SC" value="more" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C1" role="1PaTwD">
+            <property role="3oM_SC" value="than" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C2" role="1PaTwD">
+            <property role="3oM_SC" value="one" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C3" role="1PaTwD">
+            <property role="3oM_SC" value="tree" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C4" role="1PaTwD">
+            <property role="3oM_SC" value="node" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C5" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C6" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C7" role="1PaTwD">
+            <property role="3oM_SC" value="same" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C8" role="1PaTwD">
+            <property role="3oM_SC" value="model" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C9" role="1PaTwD">
+            <property role="3oM_SC" value="(e.g." />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ca" role="1PaTwD">
+            <property role="3oM_SC" value="one" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cb" role="1PaTwD">
+            <property role="3oM_SC" value="under" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cc" role="1PaTwD">
+            <property role="3oM_SC" value="language," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cd" role="1PaTwD">
+            <property role="3oM_SC" value="another" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ce" role="1PaTwD">
+            <property role="3oM_SC" value="under" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cf" role="1PaTwD">
+            <property role="3oM_SC" value="@descriptor)," />
           </node>
         </node>
-        <node concept="TZ5HA" id="6B7erwvED3z" role="TZ5H$">
-          <node concept="1dT_AC" id="6B7erwvED3$" role="1dT_Ay">
-            <property role="1dT_AB" value="we need to track all tree nodes to update them on model change" />
+        <node concept="1PaTwC" id="L0S2CpU6Cg" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Ch" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ci" role="1PaTwD">
+            <property role="3oM_SC" value="need" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cj" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ck" role="1PaTwD">
+            <property role="3oM_SC" value="track" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cl" role="1PaTwD">
+            <property role="3oM_SC" value="all" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cm" role="1PaTwD">
+            <property role="3oM_SC" value="tree" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cn" role="1PaTwD">
+            <property role="3oM_SC" value="nodes" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Co" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cp" role="1PaTwD">
+            <property role="3oM_SC" value="update" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cq" role="1PaTwD">
+            <property role="3oM_SC" value="them" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cr" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cs" role="1PaTwD">
+            <property role="3oM_SC" value="model" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Ct" role="1PaTwD">
+            <property role="3oM_SC" value="change" />
           </node>
         </node>
       </node>
@@ -5635,24 +5794,105 @@
     <property role="1EXbeo" value="true" />
     <node concept="3Tm1VV" id="6B7erwvEDjE" role="1B3o_S" />
     <node concept="3UR2Jj" id="6B7erwvEDlU" role="lGtFl">
-      <node concept="TZ5HA" id="6B7erwvEDm8" role="TZ5H$">
-        <node concept="1dT_AC" id="6B7erwvEDm9" role="1dT_Ay">
-          <property role="1dT_AB" value="Control listeners that track changes to module node." />
+      <node concept="1PaTwC" id="L0S2CpU6Bj" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Bk" role="1PaTwD">
+          <property role="3oM_SC" value="Control" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bl" role="1PaTwD">
+          <property role="3oM_SC" value="listeners" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bm" role="1PaTwD">
+          <property role="3oM_SC" value="that" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bn" role="1PaTwD">
+          <property role="3oM_SC" value="track" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bo" role="1PaTwD">
+          <property role="3oM_SC" value="changes" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bp" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bq" role="1PaTwD">
+          <property role="3oM_SC" value="module" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Br" role="1PaTwD">
+          <property role="3oM_SC" value="node." />
         </node>
       </node>
-      <node concept="TZ5HA" id="6B7erwvEDma" role="TZ5H$">
-        <node concept="1dT_AC" id="6B7erwvEDmb" role="1dT_Ay">
-          <property role="1dT_AB" value="Use {@link #startListening()}/{@link #startListening()} to turn change tracking on and off." />
+      <node concept="1PaTwC" id="L0S2CpU6Bs" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6Bt" role="1PaTwD">
+          <property role="3oM_SC" value="Use" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bu" role="1PaTwD">
+          <property role="3oM_SC" value="{@link" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bv" role="1PaTwD">
+          <property role="3oM_SC" value="#startListening()}/{@link" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bw" role="1PaTwD">
+          <property role="3oM_SC" value="#startListening()}" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bx" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6By" role="1PaTwD">
+          <property role="3oM_SC" value="turn" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6Bz" role="1PaTwD">
+          <property role="3oM_SC" value="change" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B$" role="1PaTwD">
+          <property role="3oM_SC" value="tracking" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6B_" role="1PaTwD">
+          <property role="3oM_SC" value="on" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BA" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BB" role="1PaTwD">
+          <property role="3oM_SC" value="off." />
         </node>
       </node>
-      <node concept="TZ5HA" id="6B7erwvEDmc" role="TZ5H$">
-        <node concept="1dT_AC" id="6B7erwvEDmd" role="1dT_Ay">
-          <property role="1dT_AB" value="Use {@link #attach(jetbrains.mps.ide.ui.tree.module.ProjectModuleTreeNode)} and {@link #detach(jetbrains.mps.ide.ui.tree.module.ProjectModuleTreeNode)}" />
+      <node concept="1PaTwC" id="L0S2CpU6BC" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6BD" role="1PaTwD">
+          <property role="3oM_SC" value="Use" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BE" role="1PaTwD">
+          <property role="3oM_SC" value="{@link" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BF" role="1PaTwD">
+          <property role="3oM_SC" value="#attach(jetbrains.mps.ide.ui.tree.module.ProjectModuleTreeNode)}" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BG" role="1PaTwD">
+          <property role="3oM_SC" value="and" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BH" role="1PaTwD">
+          <property role="3oM_SC" value="{@link" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BI" role="1PaTwD">
+          <property role="3oM_SC" value="#detach(jetbrains.mps.ide.ui.tree.module.ProjectModuleTreeNode)}" />
         </node>
       </node>
-      <node concept="TZ5HA" id="6B7erwvEDme" role="TZ5H$">
-        <node concept="1dT_AC" id="6B7erwvEDmf" role="1dT_Ay">
-          <property role="1dT_AB" value="to include/exclude given node from update." />
+      <node concept="1PaTwC" id="L0S2CpU6BJ" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6BK" role="1PaTwD">
+          <property role="3oM_SC" value="to" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BL" role="1PaTwD">
+          <property role="3oM_SC" value="include/exclude" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BM" role="1PaTwD">
+          <property role="3oM_SC" value="given" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BN" role="1PaTwD">
+          <property role="3oM_SC" value="node" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BO" role="1PaTwD">
+          <property role="3oM_SC" value="from" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BP" role="1PaTwD">
+          <property role="3oM_SC" value="update." />
         </node>
       </node>
     </node>
@@ -6997,9 +7237,54 @@
       <node concept="3Tm1VV" id="6B7erwvEDuj" role="1B3o_S" />
       <node concept="3cqZAl" id="6B7erwvEDuk" role="3clF45" />
       <node concept="P$JXv" id="6B7erwvEDul" role="lGtFl">
-        <node concept="TZ5HA" id="6B7erwvEDvb" role="TZ5H$">
-          <node concept="1dT_AC" id="6B7erwvEDvc" role="1dT_Ay">
-            <property role="1dT_AB" value="Highlighter knows which visitor(s) shall run in dumb mode, while outer code controls dumb mode awareness" />
+        <node concept="1PaTwC" id="L0S2CpU6Cu" role="1Vez_I">
+          <node concept="3oM_SD" id="L0S2CpU6Cv" role="1PaTwD">
+            <property role="3oM_SC" value="Highlighter" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cw" role="1PaTwD">
+            <property role="3oM_SC" value="knows" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cx" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cy" role="1PaTwD">
+            <property role="3oM_SC" value="visitor(s)" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6Cz" role="1PaTwD">
+            <property role="3oM_SC" value="shall" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C$" role="1PaTwD">
+            <property role="3oM_SC" value="run" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6C_" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6CA" role="1PaTwD">
+            <property role="3oM_SC" value="dumb" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6CB" role="1PaTwD">
+            <property role="3oM_SC" value="mode," />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6CC" role="1PaTwD">
+            <property role="3oM_SC" value="while" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6CD" role="1PaTwD">
+            <property role="3oM_SC" value="outer" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6CE" role="1PaTwD">
+            <property role="3oM_SC" value="code" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6CF" role="1PaTwD">
+            <property role="3oM_SC" value="controls" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6CG" role="1PaTwD">
+            <property role="3oM_SC" value="dumb" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6CH" role="1PaTwD">
+            <property role="3oM_SC" value="mode" />
+          </node>
+          <node concept="3oM_SD" id="L0S2CpU6CI" role="1PaTwD">
+            <property role="3oM_SC" value="awareness" />
           </node>
         </node>
       </node>
@@ -7761,9 +8046,21 @@
       <ref role="3uigEE" to="uhdf:5TgxKE1YVzm" resolve="ITreeVisitor" />
     </node>
     <node concept="3UR2Jj" id="6B7erwvEDxP" role="lGtFl">
-      <node concept="TZ5HA" id="6B7erwvEDy4" role="TZ5H$">
-        <node concept="1dT_AC" id="6B7erwvEDy5" role="1dT_Ay">
-          <property role="1dT_AB" value="Visitor that updates tree elements" />
+      <node concept="1PaTwC" id="L0S2CpU6BQ" role="1Vez_I">
+        <node concept="3oM_SD" id="L0S2CpU6BR" role="1PaTwD">
+          <property role="3oM_SC" value="Visitor" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BS" role="1PaTwD">
+          <property role="3oM_SC" value="that" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BT" role="1PaTwD">
+          <property role="3oM_SC" value="updates" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BU" role="1PaTwD">
+          <property role="3oM_SC" value="tree" />
+        </node>
+        <node concept="3oM_SD" id="L0S2CpU6BV" role="1PaTwD">
+          <property role="3oM_SC" value="elements" />
         </node>
       </node>
     </node>

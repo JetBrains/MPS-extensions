@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:cce02b3b-a1fa-41cc-912d-ed808c695c68(de.itemis.mps.blutil.test.baseLanguageExtensions@tests)/5661879608680845592">
+    <file name="ElvisOperation_Test.java">
+      <node id="5661879608680845592" at="23,32,24,60" concept="7" />
+      <node id="5661879608680851451" at="28,68,29,59" concept="1" />
+      <node id="5661879608680854335" at="32,67,33,58" concept="1" />
+      <node id="5661879608680857994" at="36,63,37,54" concept="1" />
+      <node id="5661879608680861350" at="40,62,41,53" concept="1" />
+      <node id="5661879608680845592" at="46,52,47,19" concept="7" />
+      <node id="5661879608680845592" at="51,36,52,25" concept="1" />
+      <node id="5661879608680851451" at="55,70,56,22" concept="1" />
+      <node id="578371460443702160" at="57,30,58,59" concept="3" />
+      <node id="7241660063660980787" at="58,59,59,98" concept="1" />
+      <node id="578371460443725232" at="59,98,60,135" concept="1" />
+      <node id="5661879608680854335" at="63,69,64,22" concept="1" />
+      <node id="578371460443731445" at="66,74,67,84" concept="1" />
+      <node id="578371460443732290" at="67,84,68,24" concept="4" />
+      <node id="7241660063660967199" at="69,10,70,77" concept="1" />
+      <node id="5661879608680857994" at="73,65,74,22" concept="1" />
+      <node id="5661879608680857994" at="74,22,75,128" concept="1" />
+      <node id="5661879608680861350" at="77,64,78,22" concept="1" />
+      <node id="5661879608680861350" at="78,22,79,95" concept="1" />
+      <node id="5661879608680845592" at="20,0,22,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="5661879608680845592" at="23,0,26,0" concept="0" trace="ElvisOperation_Test#()V" />
+      <node id="5661879608680845592" at="46,0,49,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5661879608680851451" at="27,0,31,0" concept="2" trace="test_rightHandSideIsEvaluatedOnce#()V" />
+      <node id="5661879608680854335" at="31,0,35,0" concept="2" trace="test_rightHandSideIsNotEvaluated#()V" />
+      <node id="5661879608680857994" at="35,0,39,0" concept="2" trace="test_rightHandSideIsReturned#()V" />
+      <node id="5661879608680861350" at="39,0,43,0" concept="2" trace="test_leftHandSideIsReturned#()V" />
+      <node id="5661879608680845592" at="50,0,54,0" concept="2" trace="initTestNodes#()V" />
+      <node id="578371460443731210" at="65,30,69,10" concept="3" />
+      <node id="5661879608680857994" at="73,0,77,0" concept="2" trace="test_rightHandSideIsReturned#()V" />
+      <node id="5661879608680861350" at="77,0,81,0" concept="2" trace="test_leftHandSideIsReturned#()V" />
+      <node id="5661879608680851451" at="56,22,61,9" concept="1" />
+      <node id="5661879608680854335" at="64,22,71,9" concept="1" />
+      <node id="5661879608680851451" at="55,0,63,0" concept="2" trace="test_rightHandSideIsEvaluatedOnce#()V" />
+      <node id="5661879608680854335" at="63,0,73,0" concept="2" trace="test_rightHandSideIsNotEvaluated#()V" />
+      <scope id="5661879608680845592" at="23,32,24,60" />
+      <scope id="5661879608680851451" at="28,68,29,59" />
+      <scope id="5661879608680854335" at="32,67,33,58" />
+      <scope id="5661879608680857994" at="36,63,37,54" />
+      <scope id="5661879608680861350" at="40,62,41,53" />
+      <scope id="5661879608680845592" at="46,52,47,19" />
+      <scope id="5661879608680845592" at="51,36,52,25" />
+      <scope id="578371460443731279" at="66,74,68,24" />
+      <scope id="5661879608680857994" at="73,65,75,128" />
+      <scope id="5661879608680861350" at="77,64,79,95" />
+      <scope id="5661879608680845592" at="23,0,26,0" />
+      <scope id="5661879608680845592" at="46,0,49,0">
+        <var name="owner" id="5661879608680845592" />
+      </scope>
+      <scope id="5661879608680851451" at="57,30,60,135">
+        <var name="counter" id="578371460443702163" />
+      </scope>
+      <scope id="5661879608680851451" at="27,0,31,0" />
+      <scope id="5661879608680854335" at="31,0,35,0" />
+      <scope id="5661879608680857994" at="35,0,39,0" />
+      <scope id="5661879608680861350" at="39,0,43,0" />
+      <scope id="5661879608680845592" at="50,0,54,0" />
+      <scope id="5661879608680857994" at="73,0,77,0" />
+      <scope id="5661879608680861350" at="77,0,81,0" />
+      <scope id="5661879608680854335" at="65,30,70,77">
+        <var name="rhs" id="578371460443731213" />
+      </scope>
+      <scope id="5661879608680851451" at="55,70,61,9" />
+      <scope id="5661879608680851451" at="55,0,63,0" />
+      <scope id="5661879608680854335" at="63,69,71,9" />
+      <scope id="5661879608680854335" at="63,0,73,0" />
+      <unit id="5661879608680845592" at="44,0,83,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.ElvisOperation_Test$TestBody" />
+      <unit id="5661879608680845592" at="18,0,84,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.ElvisOperation_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:cce02b3b-a1fa-41cc-912d-ed808c695c68(de.itemis.mps.blutil.test.baseLanguageExtensions@tests)/5661879608680911136">
+    <file name="GroupByOperation_Test.java">
+      <node id="5661879608680911136" at="27,34,28,60" concept="7" />
+      <node id="5661879608680918070" at="32,71,33,62" concept="1" />
+      <node id="5661879608680926724" at="36,85,37,76" concept="1" />
+      <node id="5661879608680911136" at="42,52,43,19" concept="7" />
+      <node id="5661879608680911136" at="47,36,48,25" concept="1" />
+      <node id="5661879608680918070" at="51,73,52,22" concept="1" />
+      <node id="5842252078325897794" at="53,30,54,122" concept="3" />
+      <node id="5842252078325934411" at="54,122,55,109" concept="3" />
+      <node id="1434092537085106654" at="55,109,56,423" concept="1" />
+      <node id="5661879608680926724" at="59,87,60,22" concept="1" />
+      <node id="5842252078326216932" at="61,30,62,119" concept="3" />
+      <node id="5842252078326216942" at="62,119,63,109" concept="3" />
+      <node id="1434092537085536150" at="63,109,64,280" concept="1" />
+      <node id="5661879608680911136" at="24,0,26,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="5661879608680911136" at="27,0,30,0" concept="0" trace="GroupByOperation_Test#()V" />
+      <node id="5661879608680911136" at="42,0,45,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5661879608680918070" at="31,0,35,0" concept="2" trace="test_singleEntryListForAllUniqueKeys#()V" />
+      <node id="5661879608680926724" at="35,0,39,0" concept="2" trace="test_collisionsInKeysProduceCombinedValueSequences#()V" />
+      <node id="5661879608680911136" at="46,0,50,0" concept="2" trace="initTestNodes#()V" />
+      <node id="5661879608680918070" at="52,22,57,9" concept="1" />
+      <node id="5661879608680926724" at="60,22,65,9" concept="1" />
+      <node id="5661879608680918070" at="51,0,59,0" concept="2" trace="test_singleEntryListForAllUniqueKeys#()V" />
+      <node id="5661879608680926724" at="59,0,67,0" concept="2" trace="test_collisionsInKeysProduceCombinedValueSequences#()V" />
+      <scope id="5661879608680911136" at="27,34,28,60" />
+      <scope id="5661879608680918070" at="32,71,33,62" />
+      <scope id="5661879608680926724" at="36,85,37,76" />
+      <scope id="5661879608680911136" at="42,52,43,19" />
+      <scope id="5661879608680911136" at="47,36,48,25" />
+      <scope id="5661879608680911136" at="27,0,30,0" />
+      <scope id="5661879608680911136" at="42,0,45,0">
+        <var name="owner" id="5661879608680911136" />
+      </scope>
+      <scope id="5661879608680918070" at="53,30,56,423">
+        <var name="actual" id="5842252078325934412" />
+        <var name="elements" id="5842252078325897795" />
+      </scope>
+      <scope id="5661879608680926724" at="61,30,64,280">
+        <var name="actual" id="5842252078326216943" />
+        <var name="elements" id="5842252078326216933" />
+      </scope>
+      <scope id="5661879608680918070" at="31,0,35,0" />
+      <scope id="5661879608680926724" at="35,0,39,0" />
+      <scope id="5661879608680911136" at="46,0,50,0" />
+      <scope id="5661879608680918070" at="51,73,57,9" />
+      <scope id="5661879608680926724" at="59,87,65,9" />
+      <scope id="5661879608680918070" at="51,0,59,0" />
+      <scope id="5661879608680926724" at="59,0,67,0" />
+      <unit id="5661879608680911136" at="40,0,69,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.GroupByOperation_Test$TestBody" />
+      <unit id="5661879608680911136" at="22,0,70,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.GroupByOperation_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:cce02b3b-a1fa-41cc-912d-ed808c695c68(de.itemis.mps.blutil.test.baseLanguageExtensions@tests)/5661879608681063868">
+    <file name="IntegerSequence_Test.java">
+      <node id="5661879608681063868" at="25,33,26,60" concept="7" />
+      <node id="5661879608681064380" at="30,51,31,42" concept="1" />
+      <node id="5661879608681064785" at="34,53,35,44" concept="1" />
+      <node id="5661879608681065078" at="38,66,39,57" concept="1" />
+      <node id="5661879608681063868" at="44,52,45,19" concept="7" />
+      <node id="5661879608681063868" at="49,36,50,25" concept="1" />
+      <node id="5661879608681064380" at="53,53,54,22" concept="1" />
+      <node id="5661879608681064380" at="54,22,55,180" concept="1" />
+      <node id="5661879608681064785" at="57,55,58,22" concept="1" />
+      <node id="571742531386381821" at="59,30,60,67" concept="3" />
+      <node id="571742531386474156" at="60,67,61,91" concept="1" />
+      <node id="571742531386474785" at="61,91,62,103" concept="1" />
+      <node id="5661879608681065078" at="65,68,66,22" concept="1" />
+      <node id="5661879608681065078" at="66,22,67,111" concept="1" />
+      <node id="5661879608681063868" at="22,0,24,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="5661879608681063868" at="25,0,28,0" concept="0" trace="IntegerSequence_Test#()V" />
+      <node id="5661879608681063868" at="44,0,47,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5661879608681064380" at="29,0,33,0" concept="2" trace="test_finiteRange#()V" />
+      <node id="5661879608681064785" at="33,0,37,0" concept="2" trace="test_infiniteRange#()V" />
+      <node id="5661879608681065078" at="37,0,41,0" concept="2" trace="test_emptySeqOnInvalidArguments#()V" />
+      <node id="5661879608681063868" at="48,0,52,0" concept="2" trace="initTestNodes#()V" />
+      <node id="5661879608681064380" at="53,0,57,0" concept="2" trace="test_finiteRange#()V" />
+      <node id="5661879608681065078" at="65,0,69,0" concept="2" trace="test_emptySeqOnInvalidArguments#()V" />
+      <node id="5661879608681064785" at="58,22,63,9" concept="1" />
+      <node id="5661879608681064785" at="57,0,65,0" concept="2" trace="test_infiniteRange#()V" />
+      <scope id="5661879608681063868" at="25,33,26,60" />
+      <scope id="5661879608681064380" at="30,51,31,42" />
+      <scope id="5661879608681064785" at="34,53,35,44" />
+      <scope id="5661879608681065078" at="38,66,39,57" />
+      <scope id="5661879608681063868" at="44,52,45,19" />
+      <scope id="5661879608681063868" at="49,36,50,25" />
+      <scope id="5661879608681064380" at="53,53,55,180" />
+      <scope id="5661879608681065078" at="65,68,67,111" />
+      <scope id="5661879608681063868" at="25,0,28,0" />
+      <scope id="5661879608681063868" at="44,0,47,0">
+        <var name="owner" id="5661879608681063868" />
+      </scope>
+      <scope id="5661879608681064785" at="59,30,62,103">
+        <var name="infiniteRange" id="571742531386381822" />
+      </scope>
+      <scope id="5661879608681064380" at="29,0,33,0" />
+      <scope id="5661879608681064785" at="33,0,37,0" />
+      <scope id="5661879608681065078" at="37,0,41,0" />
+      <scope id="5661879608681063868" at="48,0,52,0" />
+      <scope id="5661879608681064380" at="53,0,57,0" />
+      <scope id="5661879608681065078" at="65,0,69,0" />
+      <scope id="5661879608681064785" at="57,55,63,9" />
+      <scope id="5661879608681064785" at="57,0,65,0" />
+      <unit id="5661879608681063868" at="42,0,71,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.IntegerSequence_Test$TestBody" />
+      <unit id="5661879608681063868" at="20,0,72,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.IntegerSequence_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:cce02b3b-a1fa-41cc-912d-ed808c695c68(de.itemis.mps.blutil.test.baseLanguageExtensions@tests)/5661879608681115396">
+    <file name="WithIndexOperation_Test.java">
+      <node id="5661879608681115396" at="26,36,27,60" concept="7" />
+      <node id="5661879608681118914" at="31,55,32,46" concept="1" />
+      <node id="5661879608681122155" at="35,54,36,45" concept="1" />
+      <node id="5661879608681123609" at="39,56,40,47" concept="1" />
+      <node id="5661879608681115396" at="45,52,46,19" concept="7" />
+      <node id="5661879608681115396" at="50,36,51,25" concept="1" />
+      <node id="5661879608681118914" at="54,57,55,22" concept="1" />
+      <node id="8919968723019802333" at="56,30,57,114" concept="3" />
+      <node id="1434092537085670643" at="57,114,58,254" concept="1" />
+      <node id="5661879608681122155" at="61,56,62,22" concept="1" />
+      <node id="8919968723020406003" at="63,30,64,114" concept="3" />
+      <node id="1434092537085729302" at="64,114,65,222" concept="1" />
+      <node id="5661879608681123609" at="68,58,69,22" concept="1" />
+      <node id="8919968723020423565" at="70,30,71,114" concept="3" />
+      <node id="8919968723020426714" at="71,114,72,63" concept="3" />
+      <node id="8919968723020440532" at="72,63,73,112" concept="1" />
+      <node id="8919968723020445120" at="73,112,74,84" concept="1" />
+      <node id="5661879608681115396" at="23,0,25,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="5661879608681115396" at="26,0,29,0" concept="0" trace="WithIndexOperation_Test#()V" />
+      <node id="5661879608681115396" at="45,0,48,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5661879608681118914" at="30,0,34,0" concept="2" trace="test_selectWithIndex#()V" />
+      <node id="5661879608681122155" at="34,0,38,0" concept="2" trace="test_whereWithIndex#()V" />
+      <node id="5661879608681123609" at="38,0,42,0" concept="2" trace="test_forEachWithIndex#()V" />
+      <node id="5661879608681115396" at="49,0,53,0" concept="2" trace="initTestNodes#()V" />
+      <node id="5661879608681118914" at="55,22,59,9" concept="1" />
+      <node id="5661879608681122155" at="62,22,66,9" concept="1" />
+      <node id="5661879608681123609" at="69,22,75,9" concept="1" />
+      <node id="5661879608681118914" at="54,0,61,0" concept="2" trace="test_selectWithIndex#()V" />
+      <node id="5661879608681122155" at="61,0,68,0" concept="2" trace="test_whereWithIndex#()V" />
+      <node id="5661879608681123609" at="68,0,77,0" concept="2" trace="test_forEachWithIndex#()V" />
+      <scope id="5661879608681115396" at="26,36,27,60" />
+      <scope id="5661879608681118914" at="31,55,32,46" />
+      <scope id="5661879608681122155" at="35,54,36,45" />
+      <scope id="5661879608681123609" at="39,56,40,47" />
+      <scope id="5661879608681115396" at="45,52,46,19" />
+      <scope id="5661879608681115396" at="50,36,51,25" />
+      <scope id="5661879608681118914" at="56,30,58,254">
+        <var name="nums" id="8919968723019802334" />
+      </scope>
+      <scope id="5661879608681122155" at="63,30,65,222">
+        <var name="nums" id="8919968723020406004" />
+      </scope>
+      <scope id="5661879608681115396" at="26,0,29,0" />
+      <scope id="5661879608681115396" at="45,0,48,0">
+        <var name="owner" id="5661879608681115396" />
+      </scope>
+      <scope id="5661879608681118914" at="30,0,34,0" />
+      <scope id="5661879608681122155" at="34,0,38,0" />
+      <scope id="5661879608681123609" at="38,0,42,0" />
+      <scope id="5661879608681115396" at="49,0,53,0" />
+      <scope id="5661879608681123609" at="70,30,74,84">
+        <var name="accumulator" id="8919968723020426717" />
+        <var name="nums" id="8919968723020423566" />
+      </scope>
+      <scope id="5661879608681118914" at="54,57,59,9" />
+      <scope id="5661879608681122155" at="61,56,66,9" />
+      <scope id="5661879608681118914" at="54,0,61,0" />
+      <scope id="5661879608681122155" at="61,0,68,0" />
+      <scope id="5661879608681123609" at="68,58,75,9" />
+      <scope id="5661879608681123609" at="68,0,77,0" />
+      <unit id="5661879608681115396" at="43,0,79,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.WithIndexOperation_Test$TestBody" />
+      <unit id="5661879608681115396" at="21,0,80,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.WithIndexOperation_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:cce02b3b-a1fa-41cc-912d-ed808c695c68(de.itemis.mps.blutil.test.baseLanguageExtensions@tests)/5661879608681139752">
+    <file name="ZipOperation_Test.java">
+      <node id="5661879608681139752" at="26,30,27,60" concept="7" />
+      <node id="5661879608681145384" at="31,49,32,40" concept="1" />
+      <node id="5661879608681147661" at="35,59,36,50" concept="1" />
+      <node id="5661879608681152252" at="39,57,40,48" concept="1" />
+      <node id="5661879608681139752" at="45,52,46,19" concept="7" />
+      <node id="5661879608681139752" at="50,36,51,25" concept="1" />
+      <node id="5661879608681145384" at="54,51,55,22" concept="1" />
+      <node id="7488777117048486210" at="56,30,57,219" concept="3" />
+      <node id="1434092537085846422" at="57,219,58,275" concept="1" />
+      <node id="5661879608681147661" at="61,61,62,22" concept="1" />
+      <node id="7488777117048523432" at="63,30,64,217" concept="3" />
+      <node id="1434092537085851691" at="64,217,65,231" concept="1" />
+      <node id="7488777117048528538" at="65,231,66,0" concept="5" />
+      <node id="7488777117048527065" at="66,0,67,211" concept="3" />
+      <node id="1434092537085851852" at="67,211,68,231" concept="1" />
+      <node id="5661879608681152252" at="71,59,72,22" concept="1" />
+      <node id="7488777117048551479" at="73,30,74,194" concept="1" />
+      <node id="7488777117048551489" at="74,194,75,0" concept="5" />
+      <node id="7488777117048551525" at="75,0,76,177" concept="1" />
+      <node id="7488777117048577882" at="76,177,77,0" concept="5" />
+      <node id="7488777117048576956" at="77,0,78,156" concept="1" />
+      <node id="7488777117048582448" at="78,156,79,0" concept="5" />
+      <node id="7488777117048581320" at="79,0,80,135" concept="1" />
+      <node id="5661879608681139752" at="23,0,25,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="5661879608681139752" at="26,0,29,0" concept="0" trace="ZipOperation_Test#()V" />
+      <node id="5661879608681139752" at="45,0,48,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5661879608681145384" at="30,0,34,0" concept="2" trace="test_zip2Lists#()V" />
+      <node id="5661879608681147661" at="34,0,38,0" concept="2" trace="test_zip2ListsOneShorter#()V" />
+      <node id="5661879608681152252" at="38,0,42,0" concept="2" trace="test_zip2ListsOneEmpty#()V" />
+      <node id="5661879608681139752" at="49,0,53,0" concept="2" trace="initTestNodes#()V" />
+      <node id="5661879608681145384" at="55,22,59,9" concept="1" />
+      <node id="5661879608681145384" at="54,0,61,0" concept="2" trace="test_zip2Lists#()V" />
+      <node id="5661879608681147661" at="62,22,69,9" concept="1" />
+      <node id="5661879608681152252" at="72,22,81,9" concept="1" />
+      <node id="5661879608681147661" at="61,0,71,0" concept="2" trace="test_zip2ListsOneShorter#()V" />
+      <node id="5661879608681152252" at="71,0,83,0" concept="2" trace="test_zip2ListsOneEmpty#()V" />
+      <scope id="5661879608681139752" at="26,30,27,60" />
+      <scope id="5661879608681145384" at="31,49,32,40" />
+      <scope id="5661879608681147661" at="35,59,36,50" />
+      <scope id="5661879608681152252" at="39,57,40,48" />
+      <scope id="5661879608681139752" at="45,52,46,19" />
+      <scope id="5661879608681139752" at="50,36,51,25" />
+      <scope id="5661879608681145384" at="56,30,58,275">
+        <var name="actual" id="7488777117048486211" />
+      </scope>
+      <scope id="5661879608681139752" at="26,0,29,0" />
+      <scope id="5661879608681139752" at="45,0,48,0">
+        <var name="owner" id="5661879608681139752" />
+      </scope>
+      <scope id="5661879608681145384" at="30,0,34,0" />
+      <scope id="5661879608681147661" at="34,0,38,0" />
+      <scope id="5661879608681152252" at="38,0,42,0" />
+      <scope id="5661879608681139752" at="49,0,53,0" />
+      <scope id="5661879608681145384" at="54,51,59,9" />
+      <scope id="5661879608681147661" at="63,30,68,231">
+        <var name="actual1" id="7488777117048523433" />
+        <var name="actual2" id="7488777117048527066" />
+      </scope>
+      <scope id="5661879608681145384" at="54,0,61,0" />
+      <scope id="5661879608681152252" at="73,30,80,135" />
+      <scope id="5661879608681147661" at="61,61,69,9" />
+      <scope id="5661879608681147661" at="61,0,71,0" />
+      <scope id="5661879608681152252" at="71,59,81,9" />
+      <scope id="5661879608681152252" at="71,0,83,0" />
+      <unit id="5661879608681139752" at="43,0,85,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.ZipOperation_Test$TestBody" />
+      <unit id="5661879608681139752" at="21,0,86,0" name="de.itemis.mps.blutil.test.baseLanguageExtensions.ZipOperation_Test" />
+    </file>
+  </root>
+</debug-info>
+

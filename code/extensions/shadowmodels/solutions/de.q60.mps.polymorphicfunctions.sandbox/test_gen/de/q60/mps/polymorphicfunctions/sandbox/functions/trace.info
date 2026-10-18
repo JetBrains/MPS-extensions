@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:775db337-196b-4586-ac45-7d35b1989cd0(de.q60.mps.polymorphicfunctions.sandbox.functions@tests)/1660993416175242275">
+    <file name="TextGen_withAnnotation_Test.java">
+      <node id="1660993416175242275" at="30,40,31,60" concept="6" />
+      <node id="1660993416175242276" at="35,53,36,44" concept="1" />
+      <node id="1660993416175242275" at="41,52,42,19" concept="6" />
+      <node id="1660993416175242275" at="46,36,47,46" concept="1" />
+      <node id="1660993416175242276" at="50,55,51,22" concept="1" />
+      <node id="1660993416175242279" at="52,30,53,59" concept="3" />
+      <node id="1660993416175242285" at="53,59,54,324" concept="3" />
+      <node id="1660993416175242300" at="54,324,55,367" concept="3" />
+      <node id="1660993416175242319" at="55,367,56,0" concept="4" />
+      <node id="1660993416175242320" at="56,0,57,179" concept="3" />
+      <node id="1660993416175242324" at="57,179,58,44" concept="1" />
+      <node id="1660993416175242275" at="27,0,29,0" concept="5" trace="ourParametersCacheExtension" />
+      <node id="1660993416175242275" at="30,0,33,0" concept="0" trace="TextGen_withAnnotation_Test#()V" />
+      <node id="1660993416175242275" at="41,0,44,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1660993416175242276" at="34,0,38,0" concept="2" trace="test_textGenResult#()V" />
+      <node id="1660993416175242275" at="45,0,49,0" concept="2" trace="initTestNodes#()V" />
+      <node id="1660993416175242276" at="51,22,59,9" concept="1" />
+      <node id="1660993416175242276" at="50,0,61,0" concept="2" trace="test_textGenResult#()V" />
+      <scope id="1660993416175242275" at="30,40,31,60" />
+      <scope id="1660993416175242276" at="35,53,36,44" />
+      <scope id="1660993416175242275" at="41,52,42,19" />
+      <scope id="1660993416175242275" at="46,36,47,46" />
+      <scope id="1660993416175242275" at="30,0,33,0" />
+      <scope id="1660993416175242275" at="41,0,44,0">
+        <var name="owner" id="1660993416175242275" />
+      </scope>
+      <scope id="1660993416175242276" at="34,0,38,0" />
+      <scope id="1660993416175242275" at="45,0,49,0" />
+      <scope id="1660993416175242276" at="52,30,58,44">
+        <var name="context" id="1660993416175242286" />
+        <var name="expected" id="1660993416175242321" />
+        <var name="repository" id="1660993416175242280" />
+        <var name="text" id="1660993416175242301" />
+      </scope>
+      <scope id="1660993416175242276" at="50,55,59,9" />
+      <scope id="1660993416175242276" at="50,0,61,0" />
+      <unit id="1660993416175242275" at="39,0,63,0" name="de.q60.mps.polymorphicfunctions.sandbox.functions.TextGen_withAnnotation_Test$TestBody" />
+      <unit id="1660993416175242275" at="25,0,64,0" name="de.q60.mps.polymorphicfunctions.sandbox.functions.TextGen_withAnnotation_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:775db337-196b-4586-ac45-7d35b1989cd0(de.q60.mps.polymorphicfunctions.sandbox.functions@tests)/3814377006354522135">
+    <file name="TextGen_Test.java">
+      <node id="3814377006354522135" at="30,25,31,60" concept="6" />
+      <node id="3814377006354523236" at="35,53,36,44" concept="1" />
+      <node id="3814377006354522135" at="41,52,42,19" concept="6" />
+      <node id="3814377006354522135" at="46,36,47,46" concept="1" />
+      <node id="3814377006354523236" at="50,55,51,22" concept="1" />
+      <node id="3814377006354582155" at="52,30,53,59" concept="3" />
+      <node id="3814377006354598677" at="53,59,54,324" concept="3" />
+      <node id="3814377006354601957" at="54,324,55,367" concept="3" />
+      <node id="3814377006354523922" at="55,367,56,0" concept="4" />
+      <node id="3814377006354648033" at="56,0,57,163" concept="3" />
+      <node id="3814377006354637947" at="57,163,58,44" concept="1" />
+      <node id="3814377006354522135" at="27,0,29,0" concept="5" trace="ourParametersCacheExtension" />
+      <node id="3814377006354522135" at="30,0,33,0" concept="0" trace="TextGen_Test#()V" />
+      <node id="3814377006354522135" at="41,0,44,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3814377006354523236" at="34,0,38,0" concept="2" trace="test_textGenResult#()V" />
+      <node id="3814377006354522135" at="45,0,49,0" concept="2" trace="initTestNodes#()V" />
+      <node id="3814377006354523236" at="51,22,59,9" concept="1" />
+      <node id="3814377006354523236" at="50,0,61,0" concept="2" trace="test_textGenResult#()V" />
+      <scope id="3814377006354522135" at="30,25,31,60" />
+      <scope id="3814377006354523236" at="35,53,36,44" />
+      <scope id="3814377006354522135" at="41,52,42,19" />
+      <scope id="3814377006354522135" at="46,36,47,46" />
+      <scope id="3814377006354522135" at="30,0,33,0" />
+      <scope id="3814377006354522135" at="41,0,44,0">
+        <var name="owner" id="3814377006354522135" />
+      </scope>
+      <scope id="3814377006354523236" at="34,0,38,0" />
+      <scope id="3814377006354522135" at="45,0,49,0" />
+      <scope id="3814377006354523236" at="52,30,58,44">
+        <var name="context" id="3814377006354598678" />
+        <var name="expected" id="3814377006354648036" />
+        <var name="repository" id="3814377006354582156" />
+        <var name="text" id="3814377006354601958" />
+      </scope>
+      <scope id="3814377006354523236" at="50,55,59,9" />
+      <scope id="3814377006354523236" at="50,0,61,0" />
+      <unit id="3814377006354522135" at="39,0,63,0" name="de.q60.mps.polymorphicfunctions.sandbox.functions.TextGen_Test$TestBody" />
+      <unit id="3814377006354522135" at="25,0,64,0" name="de.q60.mps.polymorphicfunctions.sandbox.functions.TextGen_Test" />
+    </file>
+  </root>
+</debug-info>
+

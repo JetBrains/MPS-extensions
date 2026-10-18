@@ -7,14 +7,12 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
@@ -22,12 +20,10 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 public final class SingleInputRef__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x94b64715a2634c36L, 0xa1388da14705ffa7L, 0x4890893fd2fdbe39L, "de.q60.mps.shadowmodels.transformation.structure.SingleInputRef");
 
-  public static final SMethod<Boolean> resolveByName_id6TaAXKMHEHC = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("resolveByName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7947335862494604136L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<Boolean> resolveByName_id6TaAXKMHEHC = new SMethodBuilder<>(Boolean.TYPE).name("resolveByName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7947335862494604136L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(resolveByName_id6TaAXKMHEHC);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(resolveByName_id6TaAXKMHEHC);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean resolveByName_id6TaAXKMHEHC(@NotNull SNode __thisNode__) {
     return (boolean) ISingleInputRule__BehaviorDescriptor.resolveByName_id6TaAXKMHEDS.invoke(SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.ISingleInputRule$_b, false, false), __thisNode__);
@@ -36,10 +32,6 @@ public final class SingleInputRef__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ SingleInputRef__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

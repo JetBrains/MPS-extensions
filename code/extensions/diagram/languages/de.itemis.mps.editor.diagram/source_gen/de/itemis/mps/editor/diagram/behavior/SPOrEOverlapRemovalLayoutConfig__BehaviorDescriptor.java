@@ -26,7 +26,7 @@ public final class SPOrEOverlapRemovalLayoutConfig__BehaviorDescriptor extends B
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f3acb1ecL, "de.itemis.mps.editor.diagram.structure.SPOrEOverlapRemovalLayoutConfig");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.nodeSpacing$zhFj, SporeOverlapRemovalOptions.SPACING_NODE_NODE.getDefault().toString());

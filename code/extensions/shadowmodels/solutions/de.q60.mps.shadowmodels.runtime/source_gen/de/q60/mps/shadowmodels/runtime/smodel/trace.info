@@ -1430,51 +1430,39 @@
       <node id="5602393373671113610" at="30,22,31,24" concept="3" />
       <node id="4964591611895732461" at="34,52,35,36" concept="10" />
       <node id="4964591611895759249" at="38,64,39,46" concept="3" />
-      <node id="8260319868333507003" at="41,33,42,20" concept="11" />
-      <node id="8260319868333510543" at="44,35,45,20" concept="11" />
-      <node id="5602393373671113630" at="45,20,46,17" concept="10" />
-      <node id="5602393373671113654" at="54,26,55,46" concept="3" />
-      <node id="5602393373671113660" at="58,6,59,71" concept="10" />
-      <node id="5602393373671113671" at="62,30,63,17" concept="10" />
-      <node id="8260319868333517888" at="68,63,69,20" concept="11" />
-      <node id="5602393373671113688" at="69,20,70,46" concept="18" />
-      <node id="5602393373671113694" at="73,31,74,22" concept="10" />
-      <node id="8260319868333532569" at="76,34,77,20" concept="11" />
-      <node id="5602393373671113702" at="77,20,78,46" concept="18" />
-      <node id="5602393373671113712" at="80,101,81,38" concept="9" />
-      <node id="5602393373671113715" at="81,38,82,96" concept="10" />
-      <node id="5602393373671113622" at="41,0,44,0" concept="8" trace="updateTimestamp#()V" />
-      <node id="5602393373671113650" at="53,81,56,9" concept="7" />
-      <node id="5602393373671113675" at="65,0,68,0" concept="8" trace="save#()V" />
+      <node id="5602393373671113654" at="47,26,48,46" concept="3" />
+      <node id="5602393373671113660" at="51,6,52,71" concept="10" />
+      <node id="5602393373671113671" at="55,30,56,17" concept="10" />
+      <node id="5602393373671113694" at="62,31,63,22" concept="10" />
+      <node id="8260319868333532569" at="65,34,66,20" concept="11" />
+      <node id="5602393373671113702" at="66,20,67,46" concept="18" />
+      <node id="5602393373671113712" at="69,101,70,38" concept="9" />
+      <node id="5602393373671113715" at="70,38,71,96" concept="10" />
+      <node id="5602393373671113650" at="46,81,49,9" concept="7" />
+      <node id="5602393373671113675" at="58,0,61,0" concept="8" trace="save#()V" />
       <node id="4964591611895695854" at="33,0,37,0" concept="8" trace="getUserObject#(Lde/q60/mps/shadowmodels/runtime/util/UserObjectKey;)null" />
       <node id="4964591611895695867" at="37,0,41,0" concept="8" trace="putUserObject#(Lde/q60/mps/shadowmodels/runtime/util/UserObjectKey;null)V" />
-      <node id="5602393373671113627" at="44,0,48,0" concept="8" trace="needsReloading#()Z" />
-      <node id="5602393373671113668" at="61,0,65,0" concept="8" trace="isChanged#()Z" />
-      <node id="5602393373671113680" at="68,0,72,0" concept="8" trace="rename#(Ljava/lang/String;Z)V" />
-      <node id="5602393373671113691" at="72,0,76,0" concept="8" trace="isReadOnly#()Z" />
-      <node id="5602393373671113698" at="76,0,80,0" concept="8" trace="reloadFromSource#()V" />
-      <node id="5602393373671113705" at="80,0,84,0" concept="14" trace="createModelRef#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/module/SModuleReference;)Lorg/jetbrains/mps/openapi/model/SModelReference;" />
+      <node id="5602393373671113668" at="54,0,58,0" concept="8" trace="isChanged#()Z" />
+      <node id="5602393373671113691" at="61,0,65,0" concept="8" trace="isReadOnly#()Z" />
+      <node id="5602393373671113698" at="65,0,69,0" concept="8" trace="reloadFromSource#()V" />
+      <node id="5602393373671113705" at="69,0,73,0" concept="14" trace="createModelRef#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/module/SModuleReference;)Lorg/jetbrains/mps/openapi/model/SModelReference;" />
       <node id="5602393373671113597" at="28,0,33,0" concept="1" trace="SM_ShadowModel#(Lde/q60/mps/shadowmodels/runtime/smodel/SM_ShadowModule;Ljava/lang/String;)V" />
-      <node id="5602393373671113644" at="52,0,58,0" concept="8" trace="performUndoableAction#(Ljetbrains/mps/smodel/SNodeUndoableAction;)V" />
-      <node id="5602393373671113639" at="50,51,58,6" concept="9" />
-      <node id="5602393373671113634" at="48,0,61,0" concept="8" trace="createModel#()Ljetbrains/mps/smodel/ModelLoadResult;" />
-      <scope id="5602393373671113677" at="66,22,66,22" />
+      <node id="5602393373671113644" at="45,0,51,0" concept="8" trace="performUndoableAction#(Ljetbrains/mps/smodel/SNodeUndoableAction;)V" />
+      <node id="5602393373671113639" at="43,51,51,6" concept="9" />
+      <node id="5602393373671113634" at="41,0,54,0" concept="8" trace="createModel#()Ljetbrains/mps/smodel/ModelLoadResult;" />
+      <scope id="5602393373671113677" at="59,22,59,22" />
       <scope id="4964591611895695865" at="34,52,35,36" />
       <scope id="4964591611895695880" at="38,64,39,46" />
-      <scope id="5602393373671113624" at="41,33,42,20" />
-      <scope id="5602393373671113653" at="54,26,55,46" />
-      <scope id="5602393373671113670" at="62,30,63,17" />
-      <scope id="5602393373671113693" at="73,31,74,22" />
-      <scope id="5602393373671113629" at="44,35,46,17" />
-      <scope id="5602393373671113686" at="68,63,70,46" />
-      <scope id="5602393373671113700" at="76,34,78,46" />
-      <scope id="5602393373671113710" at="80,101,82,96">
+      <scope id="5602393373671113653" at="47,26,48,46" />
+      <scope id="5602393373671113670" at="55,30,56,17" />
+      <scope id="5602393373671113693" at="62,31,63,22" />
+      <scope id="5602393373671113700" at="65,34,67,46" />
+      <scope id="5602393373671113710" at="69,101,71,96">
         <var name="id" id="5602393373671113711" />
       </scope>
       <scope id="5602393373671113605" at="28,62,31,24" />
-      <scope id="5602393373671113622" at="41,0,44,0" />
-      <scope id="5602393373671113649" at="53,81,56,9" />
-      <scope id="5602393373671113675" at="65,0,68,0" />
+      <scope id="5602393373671113649" at="46,81,49,9" />
+      <scope id="5602393373671113675" at="58,0,61,0" />
       <scope id="4964591611895695854" at="33,0,37,0">
         <var name="key" id="4964591611895695855" />
       </scope>
@@ -1482,15 +1470,10 @@
         <var name="key" id="4964591611895695868" />
         <var name="value" id="4964591611895695871" />
       </scope>
-      <scope id="5602393373671113627" at="44,0,48,0" />
-      <scope id="5602393373671113668" at="61,0,65,0" />
-      <scope id="5602393373671113680" at="68,0,72,0">
-        <var name="changeFile" id="5602393373671113684" />
-        <var name="newModelName" id="5602393373671113682" />
-      </scope>
-      <scope id="5602393373671113691" at="72,0,76,0" />
-      <scope id="5602393373671113698" at="76,0,80,0" />
-      <scope id="5602393373671113705" at="80,0,84,0">
+      <scope id="5602393373671113668" at="54,0,58,0" />
+      <scope id="5602393373671113691" at="61,0,65,0" />
+      <scope id="5602393373671113698" at="65,0,69,0" />
+      <scope id="5602393373671113705" at="69,0,73,0">
         <var name="modelName" id="5602393373671113706" />
         <var name="moduleReference" id="5602393373671113708" />
       </scope>
@@ -1498,15 +1481,15 @@
         <var name="module" id="5602393373671113603" />
         <var name="name" id="5602393373671137699" />
       </scope>
-      <scope id="5602393373671113644" at="52,0,58,0">
+      <scope id="5602393373671113644" at="45,0,51,0">
         <var name="action" id="5602393373671113646" />
       </scope>
-      <scope id="5602393373671113637" at="50,51,59,71">
+      <scope id="5602393373671113637" at="43,51,52,71">
         <var name="smodel" id="5602393373671113638" />
       </scope>
-      <scope id="5602393373671113634" at="48,0,61,0" />
-      <unit id="5602393373671113643" at="51,24,58,5" name="de.q60.mps.shadowmodels.runtime.smodel.SM_ShadowModel$1" />
-      <unit id="5602393373671113586" at="23,0,85,0" name="de.q60.mps.shadowmodels.runtime.smodel.SM_ShadowModel" />
+      <scope id="5602393373671113634" at="41,0,54,0" />
+      <unit id="5602393373671113643" at="44,24,51,5" name="de.q60.mps.shadowmodels.runtime.smodel.SM_ShadowModel$1" />
+      <unit id="5602393373671113586" at="23,0,74,0" name="de.q60.mps.shadowmodels.runtime.smodel.SM_ShadowModel" />
     </file>
   </root>
   <root nodeRef="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)/5758595635447460642">

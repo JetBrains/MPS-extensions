@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="2m6qcm5c0o0jvfpi1v7mjqciu92052r">
+<product version="3" modelHash="-5mg4edmknwxyhqbwgohw3w32afr45nl">
   <files names="TypesystemDescriptor.java:check_TreeNodeElement_NonTypesystemRule.java:typeof_MPSProjectExpression_InferenceRule.java:typeof_ProjectViewReference_InferenceRule.java:typeof_ProjectView_InferenceRule.java:typeof_QueryElementReference_InferenceRule.java:typeof_TreeNodeElement_InferenceRule.java" />
 </product>
 

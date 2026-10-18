@@ -16,7 +16,7 @@
       <unit at="8,0,12,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.IconContainer" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,38,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,46,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,123,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.StructureAspectDescriptor" />
@@ -36,8 +36,8 @@
       <scope id="134774857084560974" at="45,45,51,33" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="134774857084560974" at="15,0,16,0" concept="6" trace="RootConcept" />
-      <node id="134774857084560974" at="23,61,24,49" concept="0" />
+      <node id="134774857084560974" at="17,0,18,0" concept="6" trace="RootConcept" />
+      <node id="134774857084560974" at="25,61,26,49" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="134774857084560974" at="19,0,20,0" concept="1" trace="myConceptRootConcept" />
@@ -72,8 +72,8 @@
       <scope id="134774857085152567" at="52,42,58,30" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="134774857085152567" at="16,0,17,0" concept="6" trace="TreeNode" />
-      <node id="134774857085152567" at="24,49,25,46" concept="0" />
+      <node id="134774857085152567" at="18,0,19,0" concept="6" trace="TreeNode" />
+      <node id="134774857085152567" at="26,49,27,46" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="134774857085152567" at="20,0,21,0" concept="1" trace="myConceptTreeNode" />
@@ -109,8 +109,8 @@
       <scope id="21263109420649510" at="31,49,37,37" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="21263109420649510" at="13,0,14,0" concept="6" trace="CompactTreeNode" />
-      <node id="21263109420649510" at="21,54,22,52" concept="0" />
+      <node id="21263109420649510" at="15,0,16,0" concept="6" trace="CompactTreeNode" />
+      <node id="21263109420649510" at="23,54,24,52" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="21263109420649510" at="17,0,18,0" concept="1" trace="myConceptCompactTreeNode" />
@@ -144,8 +144,8 @@
       <scope id="3301624890555901394" at="38,56,44,44" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="3301624890555901394" at="14,0,15,0" concept="6" trace="DisallowedChildConcept" />
-      <node id="3301624890555901394" at="22,52,23,61" concept="0" />
+      <node id="3301624890555901394" at="16,0,17,0" concept="6" trace="DisallowedChildConcept" />
+      <node id="3301624890555901394" at="24,52,25,61" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3301624890555901394" at="18,0,19,0" concept="1" trace="myConceptDisallowedChildConcept" />
@@ -179,8 +179,8 @@
       <scope id="8348035970508746634" at="24,49,30,37" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8348035970508746634" at="12,0,13,0" concept="6" trace="AnotherTreeNode" />
-      <node id="8348035970508746634" at="20,116,21,54" concept="0" />
+      <node id="8348035970508746634" at="14,0,15,0" concept="6" trace="AnotherTreeNode" />
+      <node id="8348035970508746634" at="22,116,23,54" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8348035970508746634" at="16,0,17,0" concept="1" trace="myConceptAnotherTreeNode" />
@@ -215,8 +215,8 @@
       <scope id="8348035970510806568" at="59,43,66,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8348035970510806568" at="17,0,18,0" concept="6" trace="TreeNode2" />
-      <node id="8348035970510806568" at="25,46,26,48" concept="0" />
+      <node id="8348035970510806568" at="19,0,20,0" concept="6" trace="TreeNode2" />
+      <node id="8348035970510806568" at="27,46,28,48" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8348035970510806568" at="21,0,22,0" concept="1" trace="myConceptTreeNode2" />

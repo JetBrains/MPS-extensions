@@ -29,9 +29,6 @@ public class supertypesof_SNodeType_ConceptType_SubtypingRule extends SubtypingR
   public boolean isWeak() {
     return false;
   }
-  public boolean surelyKeepsConcept() {
-    return true;
-  }
   private static SNode createTConceptType_33nd2m_a0a1(SNode p0) {
     SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.TConceptType$x0);
     n0.setReferenceTarget(LINKS.concept$Czlx, p0);

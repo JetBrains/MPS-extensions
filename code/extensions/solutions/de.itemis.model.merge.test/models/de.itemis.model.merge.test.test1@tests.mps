@@ -51,6 +51,9 @@
       </concept>
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
     </language>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -144,7 +147,6 @@
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
         <child id="3542851458883491298" name="languageId" index="2V$M_3" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
         <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
         <property id="3542851458883439832" name="languageId" index="2V$B1T" />
@@ -680,7 +682,7 @@
                 <node concept="3xONca" id="2QNuyuiODR0" role="2Oq$k0">
                   <ref role="3xOPvv" node="2QNuyuiODdr" resolve="modelmerge" />
                 </node>
-                <node concept="2qgKlT" id="2QNuyuiODdT" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybqbM" role="2OqNvi">
                   <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
                 </node>
               </node>
@@ -785,7 +787,7 @@
                 <node concept="3xONca" id="2QNuyuiO$b6" role="2Oq$k0">
                   <ref role="3xOPvv" node="2QNuyuiO37r" resolve="modelmerge2" />
                 </node>
-                <node concept="2qgKlT" id="2QNuyuiO$b7" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybqbO" role="2OqNvi">
                   <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
                 </node>
               </node>
@@ -890,7 +892,7 @@
                 <node concept="3xONca" id="2QNuyuiOGsS" role="2Oq$k0">
                   <ref role="3xOPvv" node="2QNuyuiOFTJ" resolve="modelmerge3" />
                 </node>
-                <node concept="2qgKlT" id="2QNuyuiOFUd" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybqbQ" role="2OqNvi">
                   <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
                 </node>
               </node>
@@ -1021,7 +1023,7 @@
                 <node concept="3xONca" id="3EHNiwz2jW9" role="2Oq$k0">
                   <ref role="3xOPvv" node="2QNuyuiOMUv" resolve="modelmerge4" />
                 </node>
-                <node concept="2qgKlT" id="2QNuyuiON2M" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybqbS" role="2OqNvi">
                   <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
                 </node>
               </node>
@@ -1140,7 +1142,7 @@
                 <node concept="3xONca" id="3EHNiwz2lu6" role="2Oq$k0">
                   <ref role="3xOPvv" node="3EHNiwz2j8Z" resolve="modelmerge5" />
                 </node>
-                <node concept="2qgKlT" id="3EHNiwz2k4p" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybqbU" role="2OqNvi">
                   <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
                 </node>
               </node>
@@ -2447,7 +2449,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="2qgKlT" id="1trrptaH4Lk" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybqbW" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:1VmHfRx_0K2" resolve="childLink" />
               </node>
             </node>
@@ -2463,7 +2465,7 @@
               <node concept="3xONca" id="1trrptaH5uK" role="2Oq$k0">
                 <ref role="3xOPvv" node="1trrptaGVeZ" resolve="modelmerge" />
               </node>
-              <node concept="2qgKlT" id="1trrptaH5uL" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybqbY" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
               </node>
             </node>
@@ -2570,7 +2572,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="2qgKlT" id="1trrptaHgIC" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybqc0" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:1VmHfRx_0K2" resolve="childLink" />
               </node>
             </node>
@@ -2586,7 +2588,7 @@
               <node concept="3xONca" id="1trrptaHtRd" role="2Oq$k0">
                 <ref role="3xOPvv" node="1trrptaGVi$" resolve="modelmerge2" />
               </node>
-              <node concept="2qgKlT" id="1trrptaHgII" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybqc2" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
               </node>
             </node>
@@ -2685,7 +2687,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="2qgKlT" id="1trrptaH$nP" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybqc4" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:1VmHfRx_0K2" resolve="childLink" />
               </node>
             </node>
@@ -2719,7 +2721,7 @@
                   <node concept="3xONca" id="1trrptaI4Yy" role="2Oq$k0">
                     <ref role="3xOPvv" node="1trrptaGViQ" resolve="modelmerge3" />
                   </node>
-                  <node concept="2qgKlT" id="1trrptaI4Yz" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybqc6" role="2OqNvi">
                     <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
                   </node>
                 </node>
@@ -2792,7 +2794,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="2qgKlT" id="1trrptaI2GZ" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybqc8" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:1VmHfRx_0K2" resolve="childLink" />
               </node>
             </node>
@@ -2818,7 +2820,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="2qgKlT" id="1trrptaI2Yg" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybqca" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:1VmHfRx_0K2" resolve="childLink" />
               </node>
             </node>
@@ -2852,7 +2854,7 @@
                   <node concept="3xONca" id="1trrptaIiEg" role="2Oq$k0">
                     <ref role="3xOPvv" node="1trrptaGVj5" resolve="modelmerge4" />
                   </node>
-                  <node concept="2qgKlT" id="1trrptaI5mI" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybqcc" role="2OqNvi">
                     <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
                   </node>
                 </node>
@@ -2940,7 +2942,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="2qgKlT" id="1trrptaIoxw" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybqce" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:1VmHfRx_0K2" resolve="childLink" />
               </node>
             </node>
@@ -2974,7 +2976,7 @@
                   <node concept="3xONca" id="1trrptaIp0s" role="2Oq$k0">
                     <ref role="3xOPvv" node="1trrptaGVjm" resolve="modelmerge5" />
                   </node>
-                  <node concept="2qgKlT" id="1trrptaIoxH" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybqcg" role="2OqNvi">
                     <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
                   </node>
                 </node>

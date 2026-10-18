@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeRef="r:4688a0e2-7291-4601-8f10-0797ec257a3c(de.q60.mps.shadowmodels.examples.input.entities.java)/4765275320000322700">
+    <file name="Adress.java">
+      <node id="4765275320000339622" at="7,0,8,0" concept="1" trace="street" />
+      <node id="4765275320000339582" at="8,29,9,18" concept="3" />
+      <node id="4765275320000339574" at="11,40,12,25" concept="0" />
+      <node id="4765275320000339597" at="14,0,15,0" concept="1" trace="city" />
+      <node id="4765275320000339583" at="15,27,16,16" concept="3" />
+      <node id="4765275320000339349" at="18,36,19,21" concept="0" />
+      <node id="4765275320000339575" at="8,0,11,0" concept="2" trace="getStreet#()Ljava/lang/String;" />
+      <node id="4765275320000339569" at="11,0,14,0" concept="2" trace="setStreet#(Ljava/lang/String;)V" />
+      <node id="4765275320000339596" at="15,0,18,0" concept="2" trace="getCity#()Ljava/lang/String;" />
+      <node id="4765275320000339590" at="18,0,21,0" concept="2" trace="setCity#(Ljava/lang/String;)V" />
+      <scope id="4765275320000339581" at="8,29,9,18" />
+      <scope id="4765275320000339573" at="11,40,12,25" />
+      <scope id="4765275320000339586" at="15,27,16,16" />
+      <scope id="4765275320000339352" at="18,36,19,21" />
+      <scope id="4765275320000339575" at="8,0,11,0" />
+      <scope id="4765275320000339569" at="11,0,14,0">
+        <var name="street" id="4765275320000339567" />
+      </scope>
+      <scope id="4765275320000339596" at="15,0,18,0" />
+      <scope id="4765275320000339590" at="18,0,21,0">
+        <var name="city" id="4765275320000339588" />
+      </scope>
+      <unit id="4765275320000322700" at="6,0,22,0" name="de.q60.mps.shadowmodels.examples.input.entities.java.Adress" />
+    </file>
+  </root>
+  <root nodeRef="r:4688a0e2-7291-4601-8f10-0797ec257a3c(de.q60.mps.shadowmodels.examples.input.entities.java)/4765275320000322702">
+    <file name="Person.java">
+      <node id="4765275320000339463" at="7,0,8,0" concept="1" trace="name" />
+      <node id="4765275320000339457" at="8,27,9,16" concept="3" />
+      <node id="4765275320000339549" at="11,36,12,21" concept="0" />
+      <node id="4765275320000339535" at="14,0,15,0" concept="1" trace="age" />
+      <node id="4765275320000339562" at="15,23,16,15" concept="3" />
+      <node id="4765275320000339554" at="18,31,19,19" concept="0" />
+      <node id="4765275320000339510" at="21,0,22,0" concept="1" trace="mother" />
+      <node id="4765275320000339513" at="22,29,23,18" concept="3" />
+      <node id="4765275320000339504" at="25,40,26,25" concept="0" />
+      <node id="4765275320000339532" at="28,0,29,0" concept="1" trace="father" />
+      <node id="4765275320000339518" at="29,29,30,18" concept="3" />
+      <node id="4765275320000339610" at="32,40,33,25" concept="0" />
+      <node id="4765275320000339600" at="35,0,36,0" concept="1" trace="adress" />
+      <node id="4765275320000339628" at="36,29,37,18" concept="3" />
+      <node id="4765275320000339619" at="39,40,40,25" concept="0" />
+      <node id="4765275320000339454" at="8,0,11,0" concept="2" trace="getName#()Ljava/lang/String;" />
+      <node id="4765275320000339456" at="11,0,14,0" concept="2" trace="setName#(Ljava/lang/String;)V" />
+      <node id="4765275320000339539" at="15,0,18,0" concept="2" trace="getAge#()I" />
+      <node id="4765275320000339565" at="18,0,21,0" concept="2" trace="setAge#(I)V" />
+      <node id="4765275320000339509" at="22,0,25,0" concept="2" trace="getMother#()Lde/q60/mps/shadowmodels/examples/input/entities/java/Person;" />
+      <node id="4765275320000339503" at="25,0,28,0" concept="2" trace="setMother#(Lde/q60/mps/shadowmodels/examples/input/entities/java/Person;)V" />
+      <node id="4765275320000339519" at="29,0,32,0" concept="2" trace="getFather#()Lde/q60/mps/shadowmodels/examples/input/entities/java/Person;" />
+      <node id="4765275320000339521" at="32,0,35,0" concept="2" trace="setFather#(Lde/q60/mps/shadowmodels/examples/input/entities/java/Person;)V" />
+      <node id="4765275320000339608" at="36,0,39,0" concept="2" trace="getAdress#()Lde/q60/mps/shadowmodels/examples/input/entities/java/Adress;" />
+      <node id="4765275320000339627" at="39,0,42,0" concept="2" trace="setAdress#(Lde/q60/mps/shadowmodels/examples/input/entities/java/Adress;)V" />
+      <scope id="4765275320000339452" at="8,27,9,16" />
+      <scope id="4765275320000339544" at="11,36,12,21" />
+      <scope id="4765275320000339561" at="15,23,16,15" />
+      <scope id="4765275320000339553" at="18,31,19,19" />
+      <scope id="4765275320000339516" at="22,29,23,18" />
+      <scope id="4765275320000339507" at="25,40,26,25" />
+      <scope id="4765275320000339517" at="29,29,30,18" />
+      <scope id="4765275320000339609" at="32,40,33,25" />
+      <scope id="4765275320000339606" at="36,29,37,18" />
+      <scope id="4765275320000339631" at="39,40,40,25" />
+      <scope id="4765275320000339454" at="8,0,11,0" />
+      <scope id="4765275320000339456" at="11,0,14,0">
+        <var name="name" id="4765275320000339546" />
+      </scope>
+      <scope id="4765275320000339539" at="15,0,18,0" />
+      <scope id="4765275320000339565" at="18,0,21,0">
+        <var name="age" id="4765275320000339563" />
+      </scope>
+      <scope id="4765275320000339509" at="22,0,25,0" />
+      <scope id="4765275320000339503" at="25,0,28,0">
+        <var name="mother" id="4765275320000339501" />
+      </scope>
+      <scope id="4765275320000339519" at="29,0,32,0" />
+      <scope id="4765275320000339521" at="32,0,35,0">
+        <var name="father" id="4765275320000339611" />
+      </scope>
+      <scope id="4765275320000339608" at="36,0,39,0" />
+      <scope id="4765275320000339627" at="39,0,42,0">
+        <var name="adress" id="4765275320000339633" />
+      </scope>
+      <unit id="4765275320000322702" at="6,0,43,0" name="de.q60.mps.shadowmodels.examples.input.entities.java.Person" />
+    </file>
+  </root>
+</debug-info>
+

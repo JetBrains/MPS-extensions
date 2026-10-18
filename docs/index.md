@@ -20,7 +20,7 @@ The MPS extensions aim to ease language development within MPS. They are maintai
 
 *How is the relationship between the mbeddr (platform) and this project?*
 
-In the past, the [mbeddr](https://github.com/mbeddr/mbeddr.core) project developed a set of extensions that where used to allow easier development of languages with MPS. These extensions where not C specific and were called [mbeddr platform](http://mbeddr.com/platform.html). This project gives these extensions a new home and also includes some new extensions, to make them more visible but also emphasise that these extensions are independent of mbeddr, and it's C implementation in MPS. Not all of the existing extenses fit here because some of these are experimental or have too specific use cases. See the [migration](Migrating) section of the documentation on what we still plan to migrate and how you could help.
+In the past, the [mbeddr](https://github.com/mbeddr/mbeddr.core) project developed a set of extensions that where used to allow easier development of languages with MPS. These extensions where not C specific and were called [mbeddr platform](http://mbeddr.com/platform.html). This project gives these extensions a new home and also includes some new extensions, to make them more visible but also emphasise that these extensions are independent of mbeddr, and it's C implementation in MPS. Not all of the existing extenses fit here because some of these are experimental or have too specific use cases. See the [migration](migrating.md) section of the documentation on what we still plan to migrate and how you could help.
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ We also provide the artefacts as a maven repository. Where you can fetch them du
 		 <dependency>
 		  <groupId>de.itemis.mps</groupId>
 		  <artifactId>extensions</artifactId>
-		  <version>2023.2</version>
+		  <version>VERSION</version>
 		  <type>zip</type>
 		</dependency>
 	</dependencies>
@@ -62,9 +62,11 @@ We also provide the artefacts as a maven repository. Where you can fetch them du
     }
 
     dependencies {
-        mpsExtensions "de.itemis.mps:extensions:2024.1.+"
+        mpsExtensions "de.itemis.mps:extensions:VERSION"
     }
 ```
+
+Replace `VERSION` with a published version. To find the latest published version for an MPS release, use the [latest version finder](https://nkoester.github.io/mps-libraries-latest-version-finder/). Each maintenance branch is built against the MPS version in its `gradle/libs.versions.toml`.
 
 ### Artefacts in GitHub Packages
 
@@ -75,7 +77,6 @@ used instead of the Nexus server.
 ## Versions
 
 The version number reflects the MPS version the extensions are compatible with. For instance `2021.3.X` is compatible with MPS 2021.3.2, `2021.1.X` is compatible with MPS 2021.1.4. We only maintain compatibility with the latest minor release for each major version. While, for example, a `2021.1.x` version of the extension might work with an on older version than MPS 2021.1.4 we only test it against the latest.
-
 
 A version in maintenance will not get actively new features and is only maintained with bugfixes. We are happy to accept pull request for versions in maintenance with bugfixes but active feature development only happens for the latest MPS version.
 

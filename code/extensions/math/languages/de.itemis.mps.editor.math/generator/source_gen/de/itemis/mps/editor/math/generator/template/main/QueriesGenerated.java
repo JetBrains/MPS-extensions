@@ -68,6 +68,9 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Object propertyMacro_GetValue_1_2(final PropertyMacroContext _context) {
     return (String) EditorCellModel__BehaviorDescriptor.getFactoryMethodName_idhHfE2BD.invoke(_context.getNode(), _context);
   }
+  public static Object propertyMacro_GetValue_1_3(final PropertyMacroContext _context) {
+    return (String) EditorCellModel__BehaviorDescriptor.getFactoryMethodName_idhHfE2BD.invoke(_context.getNode(), _context);
+  }
   public static Object propertyMacro_GetValue_3_0(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL);
   }
@@ -308,6 +311,7 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("8081971784004333142", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x102cb19a434L, 0x103245d193fL, "value"), "0.0"));
     pvqMethods.put("9120555111511813113", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "sharedVariable"));
     pvqMethods.put("1096649063311", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "_cell_factory_method_"));
+    pvqMethods.put("4156077588703431459", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "_cell_factory_method_"));
     pvqMethods.put("9120555111518565346", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "map_PredefinedMathSymbol"));
   }
   @NotNull
@@ -338,6 +342,8 @@ public class QueriesGenerated extends QueryProviderBase {
         case 5:
           return QueriesGenerated.propertyMacro_GetValue_1_2(ctx);
         case 6:
+          return QueriesGenerated.propertyMacro_GetValue_1_3(ctx);
+        case 7:
           return QueriesGenerated.propertyMacro_GetValue_3_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));

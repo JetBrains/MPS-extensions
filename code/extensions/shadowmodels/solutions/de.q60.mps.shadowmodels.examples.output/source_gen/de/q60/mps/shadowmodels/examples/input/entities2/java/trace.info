@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeRef="r:f3d8784c-0db3-404f-840e-9b52acf0be44(de.q60.mps.shadowmodels.examples.input.entities2.java)/4765275320000322704">
+    <file name="Car.java">
+      <node id="4765275320000339343" at="8,0,9,0" concept="1" trace="owner" />
+      <node id="4765275320000339346" at="9,28,10,17" concept="3" />
+      <node id="4765275320000339368" at="12,38,13,23" concept="0" />
+      <node id="4765275320000339347" at="9,0,12,0" concept="2" trace="getOwner#()Lde/q60/mps/shadowmodels/examples/input/entities/java/Person;" />
+      <node id="4765275320000339363" at="12,0,15,0" concept="2" trace="setOwner#(Lde/q60/mps/shadowmodels/examples/input/entities/java/Person;)V" />
+      <scope id="4765275320000339345" at="9,28,10,17" />
+      <scope id="4765275320000339367" at="12,38,13,23" />
+      <scope id="4765275320000339347" at="9,0,12,0" />
+      <scope id="4765275320000339363" at="12,0,15,0">
+        <var name="owner" id="4765275320000339369" />
+      </scope>
+      <unit id="4765275320000322704" at="7,0,16,0" name="de.q60.mps.shadowmodels.examples.input.entities2.java.Car" />
+    </file>
+  </root>
+</debug-info>
+

@@ -39,6 +39,11 @@ val providedMpsExtensions by configurations.creating {
     isCanBeResolved = true
 }
 
+val providedMpsLibraryPomDependencies by configurations.dependencyScope("providedMpsLibraryPomDependencies")
+val providedMpsLibraryPoms by configurations.resolvable("providedMpsLibraryPoms") {
+    extendsFrom(providedMpsLibraryPomDependencies)
+}
+
 configurations.named("mpsLibraries") {
     extendsFrom(providedMpsExtensions)
 }
@@ -47,11 +52,8 @@ dependencies {
     mps(libs.mps)
     jbr(libs.jbr)
 
-    if (project.hasProperty("mpsExtensionsZip")) {
-        add("providedMpsExtensions", files(project.property("mpsExtensionsZip")))
-    } else {
-        add("providedMpsExtensions", libs.mpsExtensions)
-    }
+    providedMpsExtensions(project(path = ":extensions", configuration = "apiElements"))
+    providedMpsLibraryPomDependencies(project(path = ":extensions", configuration = "providedDependenciesPom"))
 }
 
 providers.gradleProperty("mpsHomeDir").orNull?.let { mpsHomeDir ->
@@ -312,7 +314,7 @@ publishing {
                 }
 
                 // Add provided dependencies of MPS libraries (i.e. libraries bundled with MPS-extensions).
-                val pomsOfMpsLibraries = getPomsOfConfiguration(configurations["mpsLibraries"])
+                val pomsOfMpsLibraries = getPomsOfConfiguration(configurations["mpsLibraries"]) + providedMpsLibraryPoms.files
                 val providedDependenciesOfMpsLibraries = pomsOfMpsLibraries.flatMap { getProvidedDependenciesFromPom(it) }
 
                 providedDependenciesOfMpsLibraries.forEach {
@@ -403,4 +405,8 @@ tasks.register<Remigrate>("remigrate") {
     folderMacros.put("mbeddr.github.core.home", rootProject.layout.projectDirectory)
     pluginRoots.from(mpsHome.dir("plugins"))
     maxHeapSize = "4G"
+}
+
+tasks.withType<GenerateMavenPom>().configureEach {
+    inputs.files(providedMpsLibraryPoms)
 }

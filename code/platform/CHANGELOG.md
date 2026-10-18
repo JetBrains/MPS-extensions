@@ -9,6 +9,7 @@ Semantic Versioning and the changes are simply documented in reverse chronologic
 
 ## Changed
 
+- The mbeddr platform is now developed and published in [MPS-extensions](https://github.com/JetBrains/MPS-extensions), under `code/platform`. Report platform issues in [MPS-extensions issues](https://github.com/JetBrains/MPS-extensions/issues).
 - `com.mbeddr.mpsutil.review`: The `RemoveComments` intention is now also available on the commented node, not only inside a note.
 
 ## Fixed

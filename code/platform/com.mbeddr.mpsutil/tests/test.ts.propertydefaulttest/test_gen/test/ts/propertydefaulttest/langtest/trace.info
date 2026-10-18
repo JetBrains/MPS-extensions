@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:7ba1f43f-2f2e-4f54-8a86-f1c89e3e1b0f(test.ts.propertydefaulttest.langtest@tests)/1550432487217247435">
+    <file name="TestConstraints_Test.java">
+      <node id="1550432487217247435" at="25,33,26,60" concept="5" />
+      <node id="1550432487217254001" at="30,72,31,63" concept="1" />
+      <node id="1550432487217247658" at="34,73,35,64" concept="1" />
+      <node id="1550432487217247692" at="38,77,39,68" concept="1" />
+      <node id="1550432487217247435" at="44,52,45,19" concept="5" />
+      <node id="1550432487217247435" at="49,36,50,46" concept="1" />
+      <node id="1550432487217254001" at="53,74,54,22" concept="1" />
+      <node id="1550432487217254001" at="54,22,55,153" concept="1" />
+      <node id="1550432487217247658" at="57,75,58,22" concept="1" />
+      <node id="1550432487217247658" at="59,30,60,63" concept="3" />
+      <node id="1550432487217247658" at="60,63,61,161" concept="1" />
+      <node id="1550432487217247692" at="64,79,65,22" concept="1" />
+      <node id="1550432487217247692" at="66,30,67,63" concept="3" />
+      <node id="1550432487217247692" at="67,63,68,171" concept="1" />
+      <node id="1550432487217247435" at="22,0,24,0" concept="4" trace="ourParametersCacheExtension" />
+      <node id="1550432487217247435" at="25,0,28,0" concept="0" trace="TestConstraints_Test#()V" />
+      <node id="1550432487217247435" at="44,0,47,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1550432487217254001" at="29,0,33,0" concept="2" trace="test_NodeTypeCheck1550432487217254001#()V" />
+      <node id="1550432487217247658" at="33,0,37,0" concept="2" trace="test_NodeErrorCheck1550432487217247658#()V" />
+      <node id="1550432487217247692" at="37,0,41,0" concept="2" trace="test_ErrorMessagesCheck1550432487217247692#()V" />
+      <node id="1550432487217247435" at="48,0,52,0" concept="2" trace="initTestNodes#()V" />
+      <node id="1550432487217254001" at="53,0,57,0" concept="2" trace="test_NodeTypeCheck1550432487217254001#()V" />
+      <node id="1550432487217247658" at="58,22,62,9" concept="1" />
+      <node id="1550432487217247692" at="65,22,69,9" concept="1" />
+      <node id="1550432487217247658" at="57,0,64,0" concept="2" trace="test_NodeErrorCheck1550432487217247658#()V" />
+      <node id="1550432487217247692" at="64,0,71,0" concept="2" trace="test_ErrorMessagesCheck1550432487217247692#()V" />
+      <scope id="1550432487217247435" at="25,33,26,60" />
+      <scope id="1550432487217254001" at="30,72,31,63" />
+      <scope id="1550432487217247658" at="34,73,35,64" />
+      <scope id="1550432487217247692" at="38,77,39,68" />
+      <scope id="1550432487217247435" at="44,52,45,19" />
+      <scope id="1550432487217247435" at="49,36,50,46" />
+      <scope id="1550432487217254001" at="53,74,55,153" />
+      <scope id="1550432487217247658" at="59,30,61,161">
+        <var name="nodeToCheck" id="1550432487217247658" />
+      </scope>
+      <scope id="1550432487217247692" at="66,30,68,171">
+        <var name="nodeToCheck" id="1550432487217247692" />
+      </scope>
+      <scope id="1550432487217247435" at="25,0,28,0" />
+      <scope id="1550432487217247435" at="44,0,47,0">
+        <var name="owner" id="1550432487217247435" />
+      </scope>
+      <scope id="1550432487217254001" at="29,0,33,0" />
+      <scope id="1550432487217247658" at="33,0,37,0" />
+      <scope id="1550432487217247692" at="37,0,41,0" />
+      <scope id="1550432487217247435" at="48,0,52,0" />
+      <scope id="1550432487217254001" at="53,0,57,0" />
+      <scope id="1550432487217247658" at="57,75,62,9" />
+      <scope id="1550432487217247692" at="64,79,69,9" />
+      <scope id="1550432487217247658" at="57,0,64,0" />
+      <scope id="1550432487217247692" at="64,0,71,0" />
+      <unit id="1550432487217247435" at="42,0,73,0" name="test.ts.propertydefaulttest.langtest.TestConstraints_Test$TestBody" />
+      <unit id="1550432487217247435" at="20,0,74,0" name="test.ts.propertydefaulttest.langtest.TestConstraints_Test" />
+    </file>
+  </root>
+</debug-info>
+

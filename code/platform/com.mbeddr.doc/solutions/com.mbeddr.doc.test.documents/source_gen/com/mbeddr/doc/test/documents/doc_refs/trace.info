@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:260e0933-d20e-4f4f-88cb-1c3cbbf973a8(com.mbeddr.doc.test.documents.doc2_1)/2671071626003091888">
+    <file name="sub_document_2.html">
+      <unit id="2671071626003091888" at="1,0,30,7" name="com.mbeddr.doc.test.documents.doc_refs.sub_document_2" />
+    </file>
+  </root>
+  <root nodeRef="r:260e0933-d20e-4f4f-88cb-1c3cbbf973a8(com.mbeddr.doc.test.documents.doc2_1)/2671071626003093679">
+    <file name="sub_document_3.html">
+      <unit id="2671071626003093679" at="1,0,23,7" name="com.mbeddr.doc.test.documents.doc_refs.sub_document_3" />
+    </file>
+  </root>
+  <root nodeRef="r:260e0933-d20e-4f4f-88cb-1c3cbbf973a8(com.mbeddr.doc.test.documents.doc2_1)/5231743971201388055">
+    <file name="sub_document_forStableID.html">
+      <unit id="5231743971201388055" at="1,0,13,7" name="com.mbeddr.doc.test.documents.doc_refs.sub_document_forStableID" />
+    </file>
+  </root>
+  <root nodeRef="r:c20abc99-c3e1-4a29-9270-de587f318ef3(com.mbeddr.doc.test.documents.doc_refs)/2671071626003091836">
+    <file name="MainDoc.html">
+      <unit id="2671071626003091836" at="1,0,218,7" name="com.mbeddr.doc.test.documents.doc_refs.MainDoc" />
+    </file>
+  </root>
+</debug-info>
+

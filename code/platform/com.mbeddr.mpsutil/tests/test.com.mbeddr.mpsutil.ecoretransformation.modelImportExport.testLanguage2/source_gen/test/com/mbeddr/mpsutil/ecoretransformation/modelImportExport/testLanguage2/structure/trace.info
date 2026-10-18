@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,30,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage2.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,28,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage2.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="17,0,65,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage2.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:9f4fe936-9a84-4faf-afe9-9c15141d78dc(test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage2.structure)/1286599818956595603">
+    <file name="EnumerationDescriptor_simpleEnum.java">
+      <node id="1286599818956595603" at="14,45,15,236" concept="9" />
+      <node id="1286599818956595605" at="18,0,19,0" concept="2" trace="myMember_val1_0" />
+      <node id="1286599818956595606" at="19,0,20,0" concept="2" trace="myMember_val2_0" />
+      <node id="1286599818956595607" at="20,0,21,0" concept="2" trace="myMember_val3_0" />
+      <node id="1286599818956595603" at="22,0,23,0" concept="2" trace="myIndex" />
+      <node id="1286599818956595603" at="23,0,24,0" concept="2" trace="myMembers" />
+      <node id="1286599818956595603" at="27,62,28,27" concept="6" />
+      <node id="1286599818956595603" at="33,68,34,21" concept="6" />
+      <node id="1286599818956595603" at="40,29,41,18" concept="6" />
+      <node id="1286599818956595605" at="44,18,45,31" concept="6" />
+      <node id="1286599818956595606" at="46,18,47,31" concept="6" />
+      <node id="1286599818956595607" at="48,18,49,31" concept="6" />
+      <node id="1286599818956595603" at="50,5,51,16" concept="6" />
+      <node id="1286599818956595603" at="56,73,57,39" concept="5" />
+      <node id="1286599818956595603" at="58,22,59,18" concept="6" />
+      <node id="1286599818956595603" at="60,5,61,32" concept="6" />
+      <node id="1286599818956595603" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_simpleEnum#()V" />
+      <node id="1286599818956595603" at="39,88,42,5" concept="3" />
+      <node id="1286599818956595603" at="57,39,60,5" concept="3" />
+      <node id="1286599818956595603" at="25,0,30,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="1286599818956595603" at="31,0,36,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="1286599818956595603" at="42,5,50,5" concept="10" />
+      <node id="1286599818956595603" at="54,0,63,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="1286599818956595603" at="37,0,53,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="1286599818956595603" at="14,45,15,236" />
+      <scope id="1286599818956595603" at="27,62,28,27" />
+      <scope id="1286599818956595603" at="33,68,34,21" />
+      <scope id="1286599818956595603" at="40,29,41,18" />
+      <scope id="1286599818956595605" at="44,18,45,31" />
+      <scope id="1286599818956595606" at="46,18,47,31" />
+      <scope id="1286599818956595607" at="48,18,49,31" />
+      <scope id="1286599818956595603" at="58,22,59,18" />
+      <scope id="1286599818956595603" at="14,0,17,0" />
+      <scope id="1286599818956595603" at="25,0,30,0" />
+      <scope id="1286599818956595603" at="31,0,36,0" />
+      <scope id="1286599818956595603" at="56,73,61,32">
+        <var name="index" id="1286599818956595603" />
+      </scope>
+      <scope id="1286599818956595603" at="54,0,63,0">
+        <var name="idValue" id="1286599818956595603" />
+      </scope>
+      <scope id="1286599818956595603" at="39,88,51,16" />
+      <scope id="1286599818956595603" at="37,0,53,0">
+        <var name="memberName" id="1286599818956595603" />
+      </scope>
+      <unit id="1286599818956595603" at="12,0,64,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage2.structure.EnumerationDescriptor_simpleEnum" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1286599818956595603" at="19,0,20,0" concept="2" trace="myEnumerationsimpleEnum" />
+    </file>
+  </root>
+  <root nodeRef="r:9f4fe936-9a84-4faf-afe9-9c15141d78dc(test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage2.structure)/3289023490928248227">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3289023490928248227" at="12,0,13,0" concept="2" trace="props_testClass" />
+      <node id="3289023490928248227" at="20,38,21,76" concept="5" />
+      <node id="3289023490928248227" at="21,76,22,43" concept="1" />
+      <node id="3289023490928248227" at="22,43,23,41" concept="1" />
+      <node id="3289023490928248227" at="24,9,25,31" concept="6" />
+      <node id="3289023490928248227" at="19,43,24,9" concept="3" />
+      <scope id="3289023490928248227" at="20,38,23,41">
+        <var name="cpb" id="3289023490928248227" />
+      </scope>
+      <scope id="3289023490928248227" at="19,43,25,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3289023490928248227" at="12,0,13,0" concept="7" trace="testClass" />
+      <node id="3289023490928248227" at="15,116,16,48" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3289023490928248227" at="18,0,19,0" concept="2" trace="myConcepttestClass" />
+      <node id="3289023490928248227" at="40,43,41,34" concept="6" />
+      <node id="3289023490928248227" at="56,67,57,219" concept="5" />
+      <node id="3289023490928248227" at="57,219,58,33" concept="1" />
+      <node id="3289023490928248227" at="58,33,59,162" concept="1" />
+      <node id="3289023490928248227" at="59,162,60,17" concept="1" />
+      <node id="1286599818956595802" at="60,17,61,176" concept="1" />
+      <node id="3289023490928248227" at="61,176,62,22" concept="6" />
+      <node id="3289023490928248227" at="56,0,64,0" concept="8" trace="createDescriptorFortestClass#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3289023490928248227" at="40,43,41,34" />
+      <scope id="3289023490928248227" at="56,67,62,22">
+        <var name="b" id="3289023490928248227" />
+      </scope>
+      <scope id="3289023490928248227" at="56,0,64,0" />
+    </file>
+  </root>
+</debug-info>
+

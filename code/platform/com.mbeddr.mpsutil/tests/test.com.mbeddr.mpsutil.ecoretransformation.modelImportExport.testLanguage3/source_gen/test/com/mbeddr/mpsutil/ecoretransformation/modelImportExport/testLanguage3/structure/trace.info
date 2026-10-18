@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,46,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage3.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,32,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage3.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="15,0,82,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage3.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:623b1867-06d7-4ae0-8ba0-23b3df1d9ee6(test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage3.structure)/3289023490928248310">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3289023490928248310" at="12,0,13,0" concept="1" trace="props_testClass1" />
+      <node id="3289023490928248310" at="22,39,23,76" concept="3" />
+      <node id="3289023490928248310" at="23,76,24,44" concept="0" />
+      <node id="3289023490928248310" at="24,44,25,42" concept="0" />
+      <node id="3289023490928248310" at="26,9,27,32" concept="4" />
+      <node id="3289023490928248310" at="21,44,26,9" concept="2" />
+      <scope id="3289023490928248310" at="22,39,25,42">
+        <var name="cpb" id="3289023490928248310" />
+      </scope>
+      <scope id="3289023490928248310" at="21,44,27,32" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3289023490928248310" at="12,0,13,0" concept="5" trace="testClass1" />
+      <node id="3289023490928248310" at="17,115,18,49" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3289023490928248310" at="16,0,17,0" concept="1" trace="myConcepttestClass1" />
+      <node id="3289023490928248310" at="39,44,40,35" concept="4" />
+      <node id="3289023490928248310" at="55,68,56,219" concept="3" />
+      <node id="3289023490928248310" at="56,219,57,33" concept="0" />
+      <node id="3289023490928248310" at="57,33,58,162" concept="0" />
+      <node id="3289023490928248310" at="58,162,59,17" concept="0" />
+      <node id="3289023490928248311" at="59,17,60,112" concept="0" />
+      <node id="3289023490928248317" at="60,112,61,166" concept="0" />
+      <node id="3289023490928248310" at="61,166,62,22" concept="4" />
+      <node id="3289023490928248310" at="55,0,64,0" concept="6" trace="createDescriptorFortestClass1#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3289023490928248310" at="39,44,40,35" />
+      <scope id="3289023490928248310" at="55,68,62,22">
+        <var name="b" id="3289023490928248310" />
+      </scope>
+      <scope id="3289023490928248310" at="55,0,64,0" />
+    </file>
+  </root>
+  <root nodeRef="r:623b1867-06d7-4ae0-8ba0-23b3df1d9ee6(test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage3.structure)/3289023490928248312">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3289023490928248312" at="13,0,14,0" concept="1" trace="props_testRefClass1" />
+      <node id="3289023490928248312" at="29,42,30,76" concept="3" />
+      <node id="3289023490928248312" at="30,76,31,47" concept="0" />
+      <node id="3289023490928248312" at="31,47,32,45" concept="0" />
+      <node id="3289023490928248312" at="33,9,34,35" concept="4" />
+      <node id="3289023490928248312" at="28,47,33,9" concept="2" />
+      <scope id="3289023490928248312" at="29,42,32,45">
+        <var name="cpb" id="3289023490928248312" />
+      </scope>
+      <scope id="3289023490928248312" at="28,47,34,35" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3289023490928248312" at="13,0,14,0" concept="5" trace="testRefClass1" />
+      <node id="3289023490928248312" at="18,49,19,52" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3289023490928248312" at="17,0,18,0" concept="1" trace="myConcepttestRefClass1" />
+      <node id="3289023490928248312" at="41,47,42,38" concept="4" />
+      <node id="3289023490928248312" at="64,71,65,222" concept="3" />
+      <node id="3289023490928248312" at="65,222,66,33" concept="0" />
+      <node id="3289023490928248312" at="66,33,67,162" concept="0" />
+      <node id="3289023490928248312" at="67,162,68,17" concept="0" />
+      <node id="3289023490928248313" at="68,17,69,125" concept="0" />
+      <node id="3289023490928248312" at="69,125,70,22" concept="4" />
+      <node id="3289023490928248312" at="64,0,72,0" concept="6" trace="createDescriptorFortestRefClass1#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3289023490928248312" at="41,47,42,38" />
+      <scope id="3289023490928248312" at="64,71,70,22">
+        <var name="b" id="3289023490928248312" />
+      </scope>
+      <scope id="3289023490928248312" at="64,0,72,0" />
+    </file>
+  </root>
+  <root nodeRef="r:623b1867-06d7-4ae0-8ba0-23b3df1d9ee6(test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage3.structure)/3289023490928248314">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3289023490928248314" at="14,0,15,0" concept="1" trace="props_testRoot" />
+      <node id="3289023490928248314" at="36,37,37,76" concept="3" />
+      <node id="3289023490928248314" at="37,76,38,42" concept="0" />
+      <node id="3289023490928248314" at="38,42,39,40" concept="0" />
+      <node id="3289023490928248314" at="40,9,41,30" concept="4" />
+      <node id="3289023490928248314" at="35,42,40,9" concept="2" />
+      <scope id="3289023490928248314" at="36,37,39,40">
+        <var name="cpb" id="3289023490928248314" />
+      </scope>
+      <scope id="3289023490928248314" at="35,42,41,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3289023490928248314" at="14,0,15,0" concept="5" trace="testRoot" />
+      <node id="3289023490928248314" at="19,52,20,47" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3289023490928248314" at="18,0,19,0" concept="1" trace="myConcepttestRoot" />
+      <node id="3289023490928248314" at="43,42,44,33" concept="4" />
+      <node id="3289023490928248314" at="72,66,73,217" concept="3" />
+      <node id="3289023490928248314" at="73,217,74,33" concept="0" />
+      <node id="3289023490928248314" at="74,33,75,162" concept="0" />
+      <node id="3289023490928248314" at="75,162,76,17" concept="0" />
+      <node id="3289023490928248315" at="76,17,77,195" concept="0" />
+      <node id="3289023490928248316" at="77,195,78,195" concept="0" />
+      <node id="3289023490928248314" at="78,195,79,22" concept="4" />
+      <node id="3289023490928248314" at="72,0,81,0" concept="6" trace="createDescriptorFortestRoot#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3289023490928248314" at="43,42,44,33" />
+      <scope id="3289023490928248314" at="72,66,79,22">
+        <var name="b" id="3289023490928248314" />
+      </scope>
+      <scope id="3289023490928248314" at="72,0,81,0" />
+    </file>
+  </root>
+</debug-info>
+

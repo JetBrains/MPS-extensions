@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:c53335b0-80af-4f94-bce8-bcedc5826e64(com.mbeddr.doc.test.documents.doc1)/5075049671772234433">
+    <file name="myDocument.html">
+      <unit id="5075049671772234433" at="1,0,223,7" name="com.mbeddr.doc.test.documents.doc1.myDocument" />
+    </file>
+  </root>
+</debug-info>
+

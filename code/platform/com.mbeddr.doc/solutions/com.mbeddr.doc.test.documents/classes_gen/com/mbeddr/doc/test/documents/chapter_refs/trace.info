@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:11dd20da-fab8-4606-8637-3a10ba6860a3(com.mbeddr.doc.test.documents.chapter_refs)/3679565708309689120">
+    <file name="MainChapterDoc.html">
+      <unit id="3679565708309689120" at="1,0,222,7" name="com.mbeddr.doc.test.documents.chapter_refs.MainChapterDoc" />
+    </file>
+  </root>
+  <root nodeRef="r:11dd20da-fab8-4606-8637-3a10ba6860a3(com.mbeddr.doc.test.documents.chapter_refs)/3679565708309689236">
+    <file name="Chapter2.html">
+      <unit id="3679565708309689236" at="1,0,206,7" name="com.mbeddr.doc.test.documents.chapter_refs.Chapter2" />
+    </file>
+  </root>
+  <root nodeRef="r:11dd20da-fab8-4606-8637-3a10ba6860a3(com.mbeddr.doc.test.documents.chapter_refs)/3679565708309689335">
+    <file name="Chapter3.html">
+      <unit id="3679565708309689335" at="1,0,206,7" name="com.mbeddr.doc.test.documents.chapter_refs.Chapter3" />
+    </file>
+  </root>
+</debug-info>
+

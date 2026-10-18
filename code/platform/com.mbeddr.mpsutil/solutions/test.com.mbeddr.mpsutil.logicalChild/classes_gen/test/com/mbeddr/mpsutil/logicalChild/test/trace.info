@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1160998861373:jetbrains.mps.baseLanguage.structure.AssertStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:3fdeb51a-09b6-4d23-b70d-99f85e768e16(test.com.mbeddr.mpsutil.logicalChild.test@tests)/3203011576364871687">
+    <file name="ILogicalChildResolving_Test.java">
+      <node id="3203011576364871687" at="42,40,43,60" concept="12" />
+      <node id="3203011576365822602" at="47,57,48,48" concept="2" />
+      <node id="3203011576364871687" at="53,52,54,19" concept="12" />
+      <node id="3203011576364871687" at="58,36,59,25" concept="2" />
+      <node id="3203011576365822602" at="62,59,63,22" concept="2" />
+      <node id="3203011576365822605" at="64,30,65,78" concept="6" />
+      <node id="3203011576365822611" at="66,13,67,193" concept="6" />
+      <node id="3203011576365822617" at="67,193,68,99" concept="6" />
+      <node id="3203011576365822626" at="68,99,69,93" concept="6" />
+      <node id="3203011576365822633" at="69,93,70,0" concept="9" />
+      <node id="3203011576365822634" at="70,0,71,59" concept="0" />
+      <node id="3203011576365822640" at="71,59,72,72" concept="6" />
+      <node id="3832315107280360723" at="72,72,73,29" concept="8" />
+      <node id="7226730757876460996" at="74,71,75,70" concept="2" />
+      <node id="7226730757876618936" at="75,70,76,0" concept="9" />
+      <node id="7226730757876676189" at="76,0,77,77" concept="6" />
+      <node id="7226730757876689262" at="77,77,78,82" concept="6" />
+      <node id="7226730757876701098" at="78,82,79,0" concept="9" />
+      <node id="7226730757876865755" at="81,19,82,75" concept="2" />
+      <node id="7226730757876732087" at="83,42,84,44" concept="2" />
+      <node id="7226730757876739854" at="84,44,85,24" concept="13" />
+      <node id="7226730757876746899" at="87,15,88,39" concept="2" />
+      <node id="7226730757876754581" at="88,39,89,93" concept="6" />
+      <node id="7226730757876779812" at="89,93,90,48" concept="2" />
+      <node id="7226730757876786401" at="90,48,91,56" concept="2" />
+      <node id="7226730757876784221" at="91,56,92,0" concept="9" />
+      <node id="3203011576365822649" at="92,0,93,160" concept="6" />
+      <node id="3203011576365978827" at="93,160,94,98" concept="8" />
+      <node id="3203011576365822658" at="94,98,95,149" concept="2" />
+      <node id="3203011576365822669" at="95,149,96,0" concept="9" />
+      <node id="3203011576365982221" at="96,0,97,62" concept="8" />
+      <node id="3203011576365822670" at="97,62,98,195" concept="6" />
+      <node id="3203011576365822676" at="98,195,99,102" concept="2" />
+      <node id="3203011576365822686" at="99,102,100,160" concept="6" />
+      <node id="3203011576365822696" at="100,160,101,70" concept="2" />
+      <node id="3203011576365822701" at="101,70,102,0" concept="9" />
+      <node id="3203011576365822702" at="102,0,103,0" concept="9" />
+      <node id="3203011576365822703" at="103,0,104,161" concept="6" />
+      <node id="3203011576365987116" at="104,161,105,68" concept="8" />
+      <node id="3203011576365822712" at="105,68,106,151" concept="2" />
+      <node id="4859643981886233701" at="106,151,107,24" concept="7" />
+      <node id="7226730757876530909" at="108,13,109,69" concept="2" />
+      <node id="3203011576365829589" at="109,69,110,0" concept="9" />
+      <node id="3203011576365847816" at="110,0,111,159" concept="6" />
+      <node id="3203011576365991554" at="111,159,112,73" concept="8" />
+      <node id="3203011576365847825" at="112,73,113,149" concept="2" />
+      <node id="3203011576365846998" at="113,149,114,0" concept="9" />
+      <node id="3203011576365996287" at="116,42,117,38" concept="8" />
+      <node id="3203011576365822727" at="117,38,118,132" concept="2" />
+      <node id="3203011576365822689" at="124,102,125,97" concept="6" />
+      <node id="3203011576365822689" at="125,97,126,50" concept="2" />
+      <node id="3203011576365822689" at="126,50,127,28" concept="7" />
+      <node id="3203011576364871687" at="132,0,133,0" concept="10" trace="ILogicalChildOwner$nQ" />
+      <node id="3203011576364871687" at="133,0,134,0" concept="10" trace="NodeWithLogicalChildren$dd" />
+      <node id="3203011576364871687" at="134,0,135,0" concept="10" trace="RootNodeWithReferenceToLogicalOwner$eR" />
+      <node id="3203011576364871687" at="138,0,139,0" concept="10" trace="owner$AodB" />
+      <node id="3203011576364871687" at="39,0,41,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="3203011576364871687" at="42,0,45,0" concept="1" trace="ILogicalChildResolving_Test#()V" />
+      <node id="3203011576364871687" at="53,0,56,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3203011576365822602" at="46,0,50,0" concept="5" trace="test_externalWithCache#()V" />
+      <node id="3203011576364871687" at="57,0,61,0" concept="5" trace="initTestNodes#()V" />
+      <node id="3203011576365822725" at="115,19,119,11" concept="4" />
+      <node id="3203011576365822689" at="124,0,129,0" concept="11" trace="createRootNodeWithReferenceToLogicalOwner_hbxs7m_a0s0a0h0b0a0b0f6#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7226730757876721216" at="80,43,86,15" concept="14" />
+      <node id="7226730757876705058" at="79,0,87,15" concept="2" />
+      <node id="4859643981885880802" at="73,29,108,13" concept="2" />
+      <node id="3203011576365822609" at="65,78,120,9" concept="14" />
+      <node id="3203011576365822602" at="63,22,121,9" concept="2" />
+      <node id="3203011576365822602" at="62,0,123,0" concept="5" trace="test_externalWithCache#()V" />
+      <scope id="3203011576364871687" at="42,40,43,60" />
+      <scope id="3203011576365822602" at="47,57,48,48" />
+      <scope id="3203011576364871687" at="53,52,54,19" />
+      <scope id="3203011576364871687" at="58,36,59,25" />
+      <scope id="7226730757876721217" at="81,19,82,75" />
+      <scope id="7226730757876722537" at="83,42,85,24" />
+      <scope id="3203011576365822726" at="116,42,118,132" />
+      <scope id="3203011576364871687" at="42,0,45,0" />
+      <scope id="3203011576364871687" at="53,0,56,0">
+        <var name="owner" id="3203011576364871687" />
+      </scope>
+      <scope id="7226730757876722534" at="83,15,86,15">
+        <var name="e" id="7226730757876722535" />
+      </scope>
+      <scope id="3203011576365822689" at="124,102,127,28">
+        <var name="n0" id="3203011576365822689" />
+      </scope>
+      <scope id="3203011576365822602" at="46,0,50,0" />
+      <scope id="3203011576364871687" at="57,0,61,0" />
+      <scope id="3203011576365822724" at="115,19,119,11" />
+      <scope id="3203011576365822689" at="124,0,129,0">
+        <var name="p0" id="3203011576365822689" />
+      </scope>
+      <scope id="7226730757876713243" at="80,43,86,15" />
+      <scope id="4859643981885883480" at="74,71,107,24">
+        <var name="bufferPTR" id="3203011576365822671" />
+        <var name="executorService" id="7226730757876689263" />
+        <var name="logicalChildren" id="3203011576365822650" />
+        <var name="logicalChildren2" id="3203011576365822704" />
+        <var name="newChild" id="3203011576365822687" />
+        <var name="otherThreadFailed" id="7226730757876676190" />
+        <var name="terminatedInTime" id="7226730757876754584" />
+      </scope>
+      <scope id="3203011576365822610" at="66,13,114,0">
+        <var name="exampleModel" id="3203011576365822612" />
+        <var name="ilco" id="3203011576365822641" />
+        <var name="ilcos" id="3203011576365822627" />
+        <var name="logicalChildren3" id="3203011576365847817" />
+        <var name="modell" id="3203011576365822618" />
+      </scope>
+      <scope id="3203011576365822602" at="64,30,120,9">
+        <var name="bufferModel" id="3203011576365822606" />
+      </scope>
+      <scope id="3203011576365822602" at="62,59,121,9" />
+      <scope id="3203011576365822602" at="62,0,123,0" />
+      <unit id="3203011576364871687" at="137,0,140,0" name="test.com.mbeddr.mpsutil.logicalChild.test.ILogicalChildResolving_Test$LINKS" />
+      <unit id="3203011576364871687" at="131,0,136,0" name="test.com.mbeddr.mpsutil.logicalChild.test.ILogicalChildResolving_Test$CONCEPTS" />
+      <unit id="3203011576364871687" at="51,0,130,0" name="test.com.mbeddr.mpsutil.logicalChild.test.ILogicalChildResolving_Test$TestBody" />
+      <unit id="3203011576364871687" at="37,0,141,0" name="test.com.mbeddr.mpsutil.logicalChild.test.ILogicalChildResolving_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:3fdeb51a-09b6-4d23-b70d-99f85e768e16(test.com.mbeddr.mpsutil.logicalChild.test@tests)/8248814712466961864">
+    <file name="ILogicalChildResolvingMultipleThreads_Test.java">
+      <node id="8248814712466961864" at="40,55,41,60" concept="12" />
+      <node id="8248814712466962192" at="45,55,46,46" concept="2" />
+      <node id="8248814712466961864" at="51,52,52,19" concept="12" />
+      <node id="8248814712466961864" at="56,36,57,25" concept="2" />
+      <node id="8248814712466962192" at="60,57,61,22" concept="2" />
+      <node id="8248814712466962195" at="61,22,62,189" concept="6" />
+      <node id="8248814712466962201" at="62,189,63,63" concept="6" />
+      <node id="8248814712466962207" at="63,63,64,0" concept="9" />
+      <node id="8248814712466962208" at="64,0,65,86" concept="6" />
+      <node id="8248814712466962215" at="65,86,66,76" concept="6" />
+      <node id="8248814712466962218" at="66,76,67,0" concept="9" />
+      <node id="8248814712466962219" at="67,0,68,132" concept="2" />
+      <node id="8248814712466962230" at="68,132,69,0" concept="9" />
+      <node id="8248814712466962231" at="69,0,70,61" concept="0" />
+      <node id="8248814712466962237" at="70,61,71,74" concept="6" />
+      <node id="8248814712466962244" at="71,74,72,0" concept="9" />
+      <node id="8248814712466962245" at="72,0,73,29" concept="6" />
+      <node id="8248814712466962249" at="73,29,74,0" concept="9" />
+      <node id="8248814712466962250" at="74,0,75,84" concept="6" />
+      <node id="8248814712466962257" at="75,84,76,0" concept="9" />
+      <node id="8248814712466962258" at="76,0,77,68" concept="6" />
+      <node id="8248814712468654975" at="77,68,78,61" concept="6" />
+      <node id="8248814712468659696" at="78,61,79,0" concept="9" />
+      <node id="8248814712468583154" at="80,69,81,67" concept="6" />
+      <node id="8248814712469029111" at="82,13,83,53" concept="2" />
+      <node id="8248814712468412039" at="85,9,86,50" concept="2" />
+      <node id="8248814712467502081" at="89,73,90,72" concept="2" />
+      <node id="8248814712468462399" at="90,72,91,57" concept="2" />
+      <node id="8248814712468460938" at="91,57,92,0" concept="9" />
+      <node id="8248814712466962293" at="92,0,93,162" concept="6" />
+      <node id="8248814712466962308" at="93,162,94,104" concept="2" />
+      <node id="8248814712467632023" at="94,104,95,26" concept="6" />
+      <node id="8248814712467661543" at="96,42,97,30" concept="2" />
+      <node id="8248814712466962315" at="98,15,99,32" concept="2" />
+      <node id="8248814712467337293" at="99,32,100,26" concept="7" />
+      <node id="8248814712468449124" at="101,15,102,52" concept="2" />
+      <node id="8248814712466962285" at="103,33,104,47" concept="2" />
+      <node id="8248814712466962325" at="107,103,108,66" concept="2" />
+      <node id="8248814712466962339" at="109,11,110,60" concept="2" />
+      <node id="8248814712466962347" at="111,40,112,36" concept="2" />
+      <node id="8248814712466962355" at="113,7,114,80" concept="2" />
+      <node id="8248814712467245371" at="114,80,115,0" concept="9" />
+      <node id="8248814712467264445" at="116,34,117,39" concept="2" />
+      <node id="8248814712466961864" at="124,0,125,0" concept="10" trace="ILogicalChildOwner$nQ" />
+      <node id="8248814712466961864" at="37,0,39,0" concept="10" trace="ourParametersCacheExtension" />
+      <node id="8248814712466961864" at="40,0,43,0" concept="1" trace="ILogicalChildResolvingMultipleThreads_Test#()V" />
+      <node id="8248814712466961864" at="51,0,54,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8248814712467612193" at="95,26,98,15" concept="3" />
+      <node id="8248814712467248150" at="115,0,118,7" concept="3" />
+      <node id="8248814712466962192" at="44,0,48,0" concept="5" trace="test_multipleThreads#()V" />
+      <node id="8248814712466961864" at="55,0,59,0" concept="5" trace="initTestNodes#()V" />
+      <node id="8248814712469111142" at="81,67,85,9" concept="14" />
+      <node id="8248814712466962337" at="108,66,113,7" concept="14" />
+      <node id="8248814712467297475" at="88,15,101,15" concept="2" />
+      <node id="8248814712466962279" at="87,56,105,11" concept="14" />
+      <node id="8248814712466962297" at="86,50,106,11" concept="2" />
+      <node id="8248814712466962265" at="79,0,107,103" concept="6" />
+      <node id="8248814712466962192" at="60,0,120,0" concept="5" trace="test_multipleThreads#()V" />
+      <scope id="8248814712469114712" at="84,31,84,31" />
+      <scope id="8248814712466961864" at="40,55,41,60" />
+      <scope id="8248814712466962192" at="45,55,46,46" />
+      <scope id="8248814712466961864" at="51,52,52,19" />
+      <scope id="8248814712466961864" at="56,36,57,25" />
+      <scope id="8248814712469111144" at="82,13,83,53" />
+      <scope id="8248814712469114709" at="84,9,85,9">
+        <var name="e" id="8248814712469114710" />
+      </scope>
+      <scope id="8248814712467612199" at="96,42,97,30" />
+      <scope id="8248814712466962284" at="103,33,104,47" />
+      <scope id="8248814712466962338" at="109,11,110,60" />
+      <scope id="8248814712466962346" at="111,40,112,36" />
+      <scope id="8248814712467248156" at="116,34,117,39" />
+      <scope id="8248814712466962280" at="103,11,105,11">
+        <var name="e" id="8248814712466962281" />
+      </scope>
+      <scope id="8248814712466962345" at="111,7,113,7">
+        <var name="e" id="8248814712466962352" />
+      </scope>
+      <scope id="8248814712466961864" at="40,0,43,0" />
+      <scope id="8248814712466961864" at="51,0,54,0">
+        <var name="owner" id="8248814712466961864" />
+      </scope>
+      <scope id="8248814712467612193" at="95,26,98,15">
+        <var name="result" id="8248814712467612195" />
+      </scope>
+      <scope id="8248814712467248150" at="115,0,118,7">
+        <var name="number" id="8248814712467248152" />
+      </scope>
+      <scope id="8248814712466962192" at="44,0,48,0" />
+      <scope id="8248814712466961864" at="55,0,59,0" />
+      <scope id="8248814712467297478" at="89,73,100,26">
+        <var name="logicalChildren" id="8248814712466962294" />
+        <var name="sum" id="8248814712467632026" />
+      </scope>
+      <scope id="8248814712466962292" at="88,15,102,52" />
+      <scope id="8248814712466962299" at="87,56,105,11" />
+      <scope id="8248814712466962278" at="80,69,106,11">
+        <var name="threadName" id="8248814712468583157" />
+      </scope>
+      <scope id="8248814712466962192" at="60,57,118,7">
+        <var name="exampleModel" id="8248814712466962196" />
+        <var name="ilco" id="8248814712466962238" />
+        <var name="ilcos" id="8248814712466962216" />
+        <var name="latch" id="8248814712466962259" />
+        <var name="modell" id="8248814712466962209" />
+        <var name="repository" id="8248814712466962202" />
+        <var name="results" id="8248814712466962251" />
+        <var name="threadIndex" id="8248814712468654978" />
+        <var name="threadNumber" id="8248814712466962246" />
+        <var name="workers" id="8248814712466962266" />
+      </scope>
+      <scope id="8248814712466962192" at="60,0,120,0" />
+      <unit id="8248814712466961864" at="123,0,126,0" name="test.com.mbeddr.mpsutil.logicalChild.test.ILogicalChildResolvingMultipleThreads_Test$CONCEPTS" />
+      <unit id="8248814712466961864" at="49,0,122,0" name="test.com.mbeddr.mpsutil.logicalChild.test.ILogicalChildResolvingMultipleThreads_Test$TestBody" />
+      <unit id="8248814712466961864" at="35,0,127,0" name="test.com.mbeddr.mpsutil.logicalChild.test.ILogicalChildResolvingMultipleThreads_Test" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="4ajxsqx2krm8goywslzgh3spjdfzfud">
+  <files names="another_document_including_stuff.html:document_including_other.html:including_document_that_includes.html:leaf_document.html:main_document_including_other_docs.html" />
+</product>
+

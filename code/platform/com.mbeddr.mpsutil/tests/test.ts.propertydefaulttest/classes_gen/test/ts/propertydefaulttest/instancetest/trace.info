@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:3bfc2bd8-b74a-4b66-b482-ae854348e06b(test.ts.propertydefaulttest.instancetest@tests)/1550432487217262516">
+    <file name="TestDefaults_Test.java">
+      <node id="1550432487217262516" at="25,30,26,60" concept="5" />
+      <node id="1550432487217262526" at="30,52,31,43" concept="1" />
+      <node id="1550432487217265415" at="34,48,35,39" concept="1" />
+      <node id="1550432487217262516" at="40,52,41,19" concept="5" />
+      <node id="1550432487217262516" at="45,36,46,25" concept="1" />
+      <node id="1550432487217262526" at="49,54,50,22" concept="1" />
+      <node id="1550432487217262526" at="50,22,51,287" concept="1" />
+      <node id="1550432487217265415" at="53,50,54,22" concept="1" />
+      <node id="1550432487217265496" at="55,30,56,205" concept="3" />
+      <node id="1550432487217265470" at="56,205,57,61" concept="1" />
+      <node id="1550432487217268074" at="57,61,58,86" concept="1" />
+      <node id="1550432487217262516" at="65,0,66,0" concept="4" trace="int$gG_r" />
+      <node id="1550432487217262516" at="22,0,24,0" concept="4" trace="ourParametersCacheExtension" />
+      <node id="1550432487217262516" at="25,0,28,0" concept="0" trace="TestDefaults_Test#()V" />
+      <node id="1550432487217262516" at="40,0,43,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="1550432487217262526" at="29,0,33,0" concept="2" trace="test_defaultValue#()V" />
+      <node id="1550432487217265415" at="33,0,37,0" concept="2" trace="test_setValue#()V" />
+      <node id="1550432487217262516" at="44,0,48,0" concept="2" trace="initTestNodes#()V" />
+      <node id="1550432487217262526" at="49,0,53,0" concept="2" trace="test_defaultValue#()V" />
+      <node id="1550432487217265415" at="54,22,59,9" concept="1" />
+      <node id="1550432487217265415" at="53,0,61,0" concept="2" trace="test_setValue#()V" />
+      <scope id="1550432487217262516" at="25,30,26,60" />
+      <scope id="1550432487217262526" at="30,52,31,43" />
+      <scope id="1550432487217265415" at="34,48,35,39" />
+      <scope id="1550432487217262516" at="40,52,41,19" />
+      <scope id="1550432487217262516" at="45,36,46,25" />
+      <scope id="1550432487217262526" at="49,54,51,287" />
+      <scope id="1550432487217262516" at="25,0,28,0" />
+      <scope id="1550432487217262516" at="40,0,43,0">
+        <var name="owner" id="1550432487217262516" />
+      </scope>
+      <scope id="1550432487217265415" at="55,30,58,86">
+        <var name="node" id="1550432487217265497" />
+      </scope>
+      <scope id="1550432487217262526" at="29,0,33,0" />
+      <scope id="1550432487217265415" at="33,0,37,0" />
+      <scope id="1550432487217262516" at="44,0,48,0" />
+      <scope id="1550432487217262526" at="49,0,53,0" />
+      <scope id="1550432487217265415" at="53,50,59,9" />
+      <scope id="1550432487217265415" at="53,0,61,0" />
+      <unit id="1550432487217262516" at="64,0,67,0" name="test.ts.propertydefaulttest.instancetest.TestDefaults_Test$PROPS" />
+      <unit id="1550432487217262516" at="38,0,63,0" name="test.ts.propertydefaulttest.instancetest.TestDefaults_Test$TestBody" />
+      <unit id="1550432487217262516" at="20,0,68,0" name="test.ts.propertydefaulttest.instancetest.TestDefaults_Test" />
+    </file>
+  </root>
+</debug-info>
+

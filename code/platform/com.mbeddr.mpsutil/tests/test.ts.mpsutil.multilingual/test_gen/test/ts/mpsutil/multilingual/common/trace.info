@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:73029d2d-fd0e-47f4-8239-cc3744eeff3f(test.ts.mpsutil.multilingual.common@tests)/1368932279913285974">
+    <file name="KeyCreation_Test.java">
+      <node id="1368932279913285974" at="26,29,27,60" concept="7" />
+      <node id="7147596757067704959" at="31,52,32,43" concept="1" />
+      <node id="7147596757067710376" at="35,59,36,50" concept="1" />
+      <node id="7147596757067869288" at="39,60,40,51" concept="1" />
+      <node id="7147596757067870872" at="43,58,44,49" concept="1" />
+      <node id="7147596757067871444" at="47,60,48,51" concept="1" />
+      <node id="7147596757067872396" at="51,67,52,58" concept="1" />
+      <node id="7147596757067873326" at="55,58,56,49" concept="1" />
+      <node id="7147596757068062483" at="59,65,60,56" concept="1" />
+      <node id="7147596757067874879" at="63,60,64,51" concept="1" />
+      <node id="8653804354111075391" at="67,69,68,60" concept="1" />
+      <node id="8653804354111090037" at="71,66,72,57" concept="1" />
+      <node id="1368932279913285974" at="77,52,78,19" concept="7" />
+      <node id="1368932279913285974" at="82,36,83,25" concept="1" />
+      <node id="7147596757067704959" at="86,54,87,22" concept="1" />
+      <node id="7147596757067705317" at="88,30,89,71" concept="3" />
+      <node id="7147596757067705019" at="89,71,90,116" concept="1" />
+      <node id="7147596757067708652" at="90,116,91,125" concept="1" />
+      <node id="7147596757067710376" at="94,61,95,22" concept="1" />
+      <node id="7147596757067710379" at="96,30,97,71" concept="3" />
+      <node id="7147596757067710384" at="97,71,98,116" concept="1" />
+      <node id="7147596757067710389" at="98,116,99,125" concept="1" />
+      <node id="7147596757067869288" at="102,62,103,22" concept="1" />
+      <node id="7147596757067869291" at="104,30,105,74" concept="3" />
+      <node id="7147596757067869296" at="105,74,106,117" concept="1" />
+      <node id="7147596757067869303" at="106,117,107,125" concept="1" />
+      <node id="7147596757067870872" at="110,60,111,22" concept="1" />
+      <node id="7147596757067870875" at="112,30,113,74" concept="3" />
+      <node id="7147596757067870880" at="113,74,114,117" concept="1" />
+      <node id="7147596757067870887" at="114,117,115,125" concept="1" />
+      <node id="7147596757067871444" at="118,62,119,22" concept="1" />
+      <node id="7147596757067871447" at="120,30,121,74" concept="3" />
+      <node id="7147596757067871452" at="121,74,122,117" concept="1" />
+      <node id="7147596757067871459" at="122,117,123,125" concept="1" />
+      <node id="7147596757067872396" at="126,69,127,22" concept="1" />
+      <node id="7147596757067872399" at="128,30,129,74" concept="3" />
+      <node id="7147596757067872404" at="129,74,130,117" concept="1" />
+      <node id="7147596757067872411" at="130,117,131,125" concept="1" />
+      <node id="7147596757067873326" at="134,60,135,22" concept="1" />
+      <node id="7147596757067873329" at="136,30,137,67" concept="3" />
+      <node id="7147596757067873334" at="137,67,138,111" concept="1" />
+      <node id="7147596757067873341" at="138,111,139,118" concept="1" />
+      <node id="7147596757068062483" at="142,67,143,22" concept="1" />
+      <node id="7147596757068062486" at="144,30,145,67" concept="3" />
+      <node id="7147596757068062491" at="145,67,146,111" concept="1" />
+      <node id="7147596757068062498" at="146,111,147,118" concept="1" />
+      <node id="7147596757067874879" at="150,62,151,22" concept="1" />
+      <node id="7147596757067874882" at="152,30,153,68" concept="3" />
+      <node id="7147596757067874887" at="153,68,154,111" concept="1" />
+      <node id="7147596757067874894" at="154,111,155,119" concept="1" />
+      <node id="8653804354111075391" at="158,71,159,22" concept="1" />
+      <node id="8653804354111084078" at="160,30,161,86" concept="3" />
+      <node id="8653804354111083531" at="161,86,162,45" concept="1" />
+      <node id="8653804354111075639" at="162,45,163,86" concept="3" />
+      <node id="3384714854629247494" at="163,86,164,70" concept="1" />
+      <node id="8653804354111083605" at="164,70,165,0" concept="5" />
+      <node id="8653804354111090037" at="168,68,169,22" concept="1" />
+      <node id="8653804354111090040" at="170,30,171,86" concept="3" />
+      <node id="8653804354111090045" at="171,86,172,45" concept="1" />
+      <node id="8653804354111090047" at="172,45,173,83" concept="3" />
+      <node id="3384714854629249303" at="173,83,174,70" concept="1" />
+      <node id="1368932279913285974" at="181,0,182,0" concept="6" trace="name$MnvL" />
+      <node id="1368932279913285974" at="182,0,183,0" concept="6" trace="default$p9e4" />
+      <node id="1368932279913285974" at="23,0,25,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="1368932279913285974" at="26,0,29,0" concept="0" trace="KeyCreation_Test#()V" />
+      <node id="1368932279913285974" at="77,0,80,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7147596757067704959" at="30,0,34,0" concept="2" trace="test_CamelCaseKey#()V" />
+      <node id="7147596757067710376" at="34,0,38,0" concept="2" trace="test_CapitalCamelCaseKey#()V" />
+      <node id="7147596757067869288" at="38,0,42,0" concept="2" trace="test_LowercaseSpaceString#()V" />
+      <node id="7147596757067870872" at="42,0,46,0" concept="2" trace="test_CapitalSpaceString#()V" />
+      <node id="7147596757067871444" at="46,0,50,0" concept="2" trace="test_MixedCaseSpaceString#()V" />
+      <node id="7147596757067872396" at="50,0,54,0" concept="2" trace="test_CapitalMixedCaseSpaceString#()V" />
+      <node id="7147596757067873326" at="54,0,58,0" concept="2" trace="test_SpecialCharNoSpace#()V" />
+      <node id="7147596757068062483" at="58,0,62,0" concept="2" trace="test_CapitalSpecialCharNoSpace#()V" />
+      <node id="7147596757067874879" at="62,0,66,0" concept="2" trace="test_SpecialCharWithSpace#()V" />
+      <node id="8653804354111075391" at="66,0,70,0" concept="2" trace="test_findExistingKeyWithoutDefault#()V" />
+      <node id="8653804354111090037" at="70,0,74,0" concept="2" trace="test_findExistingKeyWithDefault#()V" />
+      <node id="1368932279913285974" at="81,0,85,0" concept="2" trace="initTestNodes#()V" />
+      <node id="7147596757067704959" at="87,22,92,9" concept="1" />
+      <node id="7147596757067710376" at="95,22,100,9" concept="1" />
+      <node id="7147596757067869288" at="103,22,108,9" concept="1" />
+      <node id="7147596757067870872" at="111,22,116,9" concept="1" />
+      <node id="7147596757067871444" at="119,22,124,9" concept="1" />
+      <node id="7147596757067872396" at="127,22,132,9" concept="1" />
+      <node id="7147596757067873326" at="135,22,140,9" concept="1" />
+      <node id="7147596757068062483" at="143,22,148,9" concept="1" />
+      <node id="7147596757067874879" at="151,22,156,9" concept="1" />
+      <node id="8653804354111090037" at="169,22,175,9" concept="1" />
+      <node id="8653804354111075391" at="159,22,166,9" concept="1" />
+      <node id="7147596757067704959" at="86,0,94,0" concept="2" trace="test_CamelCaseKey#()V" />
+      <node id="7147596757067710376" at="94,0,102,0" concept="2" trace="test_CapitalCamelCaseKey#()V" />
+      <node id="7147596757067869288" at="102,0,110,0" concept="2" trace="test_LowercaseSpaceString#()V" />
+      <node id="7147596757067870872" at="110,0,118,0" concept="2" trace="test_CapitalSpaceString#()V" />
+      <node id="7147596757067871444" at="118,0,126,0" concept="2" trace="test_MixedCaseSpaceString#()V" />
+      <node id="7147596757067872396" at="126,0,134,0" concept="2" trace="test_CapitalMixedCaseSpaceString#()V" />
+      <node id="7147596757067873326" at="134,0,142,0" concept="2" trace="test_SpecialCharNoSpace#()V" />
+      <node id="7147596757068062483" at="142,0,150,0" concept="2" trace="test_CapitalSpecialCharNoSpace#()V" />
+      <node id="7147596757067874879" at="150,0,158,0" concept="2" trace="test_SpecialCharWithSpace#()V" />
+      <node id="8653804354111090037" at="168,0,177,0" concept="2" trace="test_findExistingKeyWithDefault#()V" />
+      <node id="8653804354111075391" at="158,0,168,0" concept="2" trace="test_findExistingKeyWithoutDefault#()V" />
+      <scope id="1368932279913285974" at="26,29,27,60" />
+      <scope id="7147596757067704959" at="31,52,32,43" />
+      <scope id="7147596757067710376" at="35,59,36,50" />
+      <scope id="7147596757067869288" at="39,60,40,51" />
+      <scope id="7147596757067870872" at="43,58,44,49" />
+      <scope id="7147596757067871444" at="47,60,48,51" />
+      <scope id="7147596757067872396" at="51,67,52,58" />
+      <scope id="7147596757067873326" at="55,58,56,49" />
+      <scope id="7147596757068062483" at="59,65,60,56" />
+      <scope id="7147596757067874879" at="63,60,64,51" />
+      <scope id="8653804354111075391" at="67,69,68,60" />
+      <scope id="8653804354111090037" at="71,66,72,57" />
+      <scope id="1368932279913285974" at="77,52,78,19" />
+      <scope id="1368932279913285974" at="82,36,83,25" />
+      <scope id="1368932279913285974" at="26,0,29,0" />
+      <scope id="1368932279913285974" at="77,0,80,0">
+        <var name="owner" id="1368932279913285974" />
+      </scope>
+      <scope id="7147596757067704959" at="88,30,91,125">
+        <var name="key" id="7147596757067705318" />
+      </scope>
+      <scope id="7147596757067710376" at="96,30,99,125">
+        <var name="key" id="7147596757067710380" />
+      </scope>
+      <scope id="7147596757067869288" at="104,30,107,125">
+        <var name="key" id="7147596757067869292" />
+      </scope>
+      <scope id="7147596757067870872" at="112,30,115,125">
+        <var name="key" id="7147596757067870876" />
+      </scope>
+      <scope id="7147596757067871444" at="120,30,123,125">
+        <var name="key" id="7147596757067871448" />
+      </scope>
+      <scope id="7147596757067872396" at="128,30,131,125">
+        <var name="key" id="7147596757067872400" />
+      </scope>
+      <scope id="7147596757067873326" at="136,30,139,118">
+        <var name="key" id="7147596757067873330" />
+      </scope>
+      <scope id="7147596757068062483" at="144,30,147,118">
+        <var name="key" id="7147596757068062487" />
+      </scope>
+      <scope id="7147596757067874879" at="152,30,155,119">
+        <var name="key" id="7147596757067874883" />
+      </scope>
+      <scope id="7147596757067704959" at="30,0,34,0" />
+      <scope id="7147596757067710376" at="34,0,38,0" />
+      <scope id="7147596757067869288" at="38,0,42,0" />
+      <scope id="7147596757067870872" at="42,0,46,0" />
+      <scope id="7147596757067871444" at="46,0,50,0" />
+      <scope id="7147596757067872396" at="50,0,54,0" />
+      <scope id="7147596757067873326" at="54,0,58,0" />
+      <scope id="7147596757068062483" at="58,0,62,0" />
+      <scope id="7147596757067874879" at="62,0,66,0" />
+      <scope id="8653804354111075391" at="66,0,70,0" />
+      <scope id="8653804354111090037" at="70,0,74,0" />
+      <scope id="1368932279913285974" at="81,0,85,0" />
+      <scope id="8653804354111090037" at="170,30,174,70">
+        <var name="key" id="8653804354111090048" />
+        <var name="resourceBundle" id="8653804354111090041" />
+      </scope>
+      <scope id="8653804354111075391" at="160,30,165,0">
+        <var name="key" id="8653804354111075640" />
+        <var name="resourceBundle" id="8653804354111084079" />
+      </scope>
+      <scope id="7147596757067704959" at="86,54,92,9" />
+      <scope id="7147596757067710376" at="94,61,100,9" />
+      <scope id="7147596757067869288" at="102,62,108,9" />
+      <scope id="7147596757067870872" at="110,60,116,9" />
+      <scope id="7147596757067871444" at="118,62,124,9" />
+      <scope id="7147596757067872396" at="126,69,132,9" />
+      <scope id="7147596757067873326" at="134,60,140,9" />
+      <scope id="7147596757068062483" at="142,67,148,9" />
+      <scope id="7147596757067874879" at="150,62,156,9" />
+      <scope id="8653804354111090037" at="168,68,175,9" />
+      <scope id="7147596757067704959" at="86,0,94,0" />
+      <scope id="7147596757067710376" at="94,0,102,0" />
+      <scope id="7147596757067869288" at="102,0,110,0" />
+      <scope id="7147596757067870872" at="110,0,118,0" />
+      <scope id="7147596757067871444" at="118,0,126,0" />
+      <scope id="7147596757067872396" at="126,0,134,0" />
+      <scope id="7147596757067873326" at="134,0,142,0" />
+      <scope id="7147596757068062483" at="142,0,150,0" />
+      <scope id="7147596757067874879" at="150,0,158,0" />
+      <scope id="8653804354111075391" at="158,71,166,9" />
+      <scope id="8653804354111090037" at="168,0,177,0" />
+      <scope id="8653804354111075391" at="158,0,168,0" />
+      <unit id="1368932279913285974" at="180,0,184,0" name="test.ts.mpsutil.multilingual.common.KeyCreation_Test$PROPS" />
+      <unit id="1368932279913285974" at="75,0,179,0" name="test.ts.mpsutil.multilingual.common.KeyCreation_Test$TestBody" />
+      <unit id="1368932279913285974" at="21,0,185,0" name="test.ts.mpsutil.multilingual.common.KeyCreation_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:73029d2d-fd0e-47f4-8239-cc3744eeff3f(test.ts.mpsutil.multilingual.common@tests)/3114159206253988578">
+    <file name="LanguageSelection_Test.java">
+      <node id="3114159206253988578" at="29,35,30,60" concept="7" />
+      <node id="3114159206253988585" at="34,68,35,59" concept="1" />
+      <node id="3114159206254005773" at="38,61,39,52" concept="1" />
+      <node id="3114159206254007988" at="42,75,43,66" concept="1" />
+      <node id="3114159206254009979" at="46,59,47,50" concept="1" />
+      <node id="3114159206253988578" at="52,52,53,19" concept="7" />
+      <node id="3114159206253988578" at="57,36,58,25" concept="1" />
+      <node id="3114159206253988585" at="61,70,62,22" concept="1" />
+      <node id="3114159206253988585" at="62,22,63,482" concept="1" />
+      <node id="3114159206254005773" at="65,63,66,22" concept="1" />
+      <node id="3114159206254005773" at="66,22,67,472" concept="1" />
+      <node id="3114159206254007988" at="69,77,70,22" concept="1" />
+      <node id="3114159206254007988" at="70,22,71,477" concept="1" />
+      <node id="3114159206254009979" at="73,61,74,22" concept="1" />
+      <node id="3114159206254009979" at="74,22,75,152" concept="1" />
+      <node id="3114159206253988578" at="81,0,82,0" concept="6" trace="languages$oFFz" />
+      <node id="3114159206253988578" at="85,0,86,0" concept="6" trace="name$MnvL" />
+      <node id="3114159206253988578" at="26,0,28,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="3114159206253988578" at="29,0,32,0" concept="0" trace="LanguageSelection_Test#()V" />
+      <node id="3114159206253988578" at="52,0,55,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3114159206253988585" at="33,0,37,0" concept="2" trace="test_findSpecifiedLanguageCountry#()V" />
+      <node id="3114159206254005773" at="37,0,41,0" concept="2" trace="test_findSpecifiedLanguage#()V" />
+      <node id="3114159206254007988" at="41,0,45,0" concept="2" trace="test_findSpecifiedLanguageWithoutCountry#()V" />
+      <node id="3114159206254009979" at="45,0,49,0" concept="2" trace="test_findUnknownLanguage#()V" />
+      <node id="3114159206253988578" at="56,0,60,0" concept="2" trace="initTestNodes#()V" />
+      <node id="3114159206253988585" at="61,0,65,0" concept="2" trace="test_findSpecifiedLanguageCountry#()V" />
+      <node id="3114159206254005773" at="65,0,69,0" concept="2" trace="test_findSpecifiedLanguage#()V" />
+      <node id="3114159206254007988" at="69,0,73,0" concept="2" trace="test_findSpecifiedLanguageWithoutCountry#()V" />
+      <node id="3114159206254009979" at="73,0,77,0" concept="2" trace="test_findUnknownLanguage#()V" />
+      <scope id="3114159206253988578" at="29,35,30,60" />
+      <scope id="3114159206253988585" at="34,68,35,59" />
+      <scope id="3114159206254005773" at="38,61,39,52" />
+      <scope id="3114159206254007988" at="42,75,43,66" />
+      <scope id="3114159206254009979" at="46,59,47,50" />
+      <scope id="3114159206253988578" at="52,52,53,19" />
+      <scope id="3114159206253988578" at="57,36,58,25" />
+      <scope id="3114159206253988585" at="61,70,63,482" />
+      <scope id="3114159206254005773" at="65,63,67,472" />
+      <scope id="3114159206254007988" at="69,77,71,477" />
+      <scope id="3114159206254009979" at="73,61,75,152" />
+      <scope id="3114159206253988578" at="29,0,32,0" />
+      <scope id="3114159206253988578" at="52,0,55,0">
+        <var name="owner" id="3114159206253988578" />
+      </scope>
+      <scope id="3114159206253988585" at="33,0,37,0" />
+      <scope id="3114159206254005773" at="37,0,41,0" />
+      <scope id="3114159206254007988" at="41,0,45,0" />
+      <scope id="3114159206254009979" at="45,0,49,0" />
+      <scope id="3114159206253988578" at="56,0,60,0" />
+      <scope id="3114159206253988585" at="61,0,65,0" />
+      <scope id="3114159206254005773" at="65,0,69,0" />
+      <scope id="3114159206254007988" at="69,0,73,0" />
+      <scope id="3114159206254009979" at="73,0,77,0" />
+      <unit id="3114159206253988578" at="80,0,83,0" name="test.ts.mpsutil.multilingual.common.LanguageSelection_Test$LINKS" />
+      <unit id="3114159206253988578" at="84,0,87,0" name="test.ts.mpsutil.multilingual.common.LanguageSelection_Test$PROPS" />
+      <unit id="3114159206253988578" at="50,0,79,0" name="test.ts.mpsutil.multilingual.common.LanguageSelection_Test$TestBody" />
+      <unit id="3114159206253988578" at="24,0,88,0" name="test.ts.mpsutil.multilingual.common.LanguageSelection_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:73029d2d-fd0e-47f4-8239-cc3744eeff3f(test.ts.mpsutil.multilingual.common@tests)/4501452903635375172">
+    <file name="KeyReference_Test.java">
+      <node id="4501452903635375172" at="23,30,24,60" concept="7" />
+      <node id="4501452903635743951" at="28,94,29,85" concept="1" />
+      <node id="4501452903635375172" at="34,52,35,19" concept="7" />
+      <node id="4501452903635375172" at="39,36,40,46" concept="1" />
+      <node id="4501452903635743951" at="43,96,44,22" concept="1" />
+      <node id="4501452903635743951" at="45,30,46,63" concept="3" />
+      <node id="4501452903635743951" at="46,63,47,306" concept="1" />
+      <node id="4501452903635375172" at="20,0,22,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="4501452903635375172" at="23,0,26,0" concept="0" trace="KeyReference_Test#()V" />
+      <node id="4501452903635375172" at="34,0,37,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4501452903635743951" at="27,0,31,0" concept="2" trace="test_NodeResourceBundleOfReferencedCheck4501452903635743951#()V" />
+      <node id="4501452903635375172" at="38,0,42,0" concept="2" trace="initTestNodes#()V" />
+      <node id="4501452903635743951" at="44,22,48,9" concept="1" />
+      <node id="4501452903635743951" at="43,0,50,0" concept="2" trace="test_NodeResourceBundleOfReferencedCheck4501452903635743951#()V" />
+      <scope id="4501452903635375172" at="23,30,24,60" />
+      <scope id="4501452903635743951" at="28,94,29,85" />
+      <scope id="4501452903635375172" at="34,52,35,19" />
+      <scope id="4501452903635375172" at="39,36,40,46" />
+      <scope id="4501452903635743951" at="45,30,47,306">
+        <var name="nodeToCheck" id="4501452903635743951" />
+      </scope>
+      <scope id="4501452903635375172" at="23,0,26,0" />
+      <scope id="4501452903635375172" at="34,0,37,0">
+        <var name="owner" id="4501452903635375172" />
+      </scope>
+      <scope id="4501452903635743951" at="27,0,31,0" />
+      <scope id="4501452903635375172" at="38,0,42,0" />
+      <scope id="4501452903635743951" at="43,96,48,9" />
+      <scope id="4501452903635743951" at="43,0,50,0" />
+      <unit id="4501452903635375172" at="32,0,52,0" name="test.ts.mpsutil.multilingual.common.KeyReference_Test$TestBody" />
+      <unit id="4501452903635375172" at="18,0,53,0" name="test.ts.mpsutil.multilingual.common.KeyReference_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:73029d2d-fd0e-47f4-8239-cc3744eeff3f(test.ts.mpsutil.multilingual.common@tests)/7147596757064966648">
+    <file name="TestResourceBundleBundleClass.java">
+      <node id="7147596757064966648" at="10,42,11,49" concept="7" />
+      <node id="7147596757064966648" at="13,58,14,45" concept="4" />
+      <node id="7147596757064966648" at="10,0,13,0" concept="0" trace="TestResourceBundleBundleClass#()V" />
+      <node id="7147596757064966648" at="13,0,16,0" concept="2" trace="getResourceBundle#(Ljava/util/Locale;)Ljava/util/ResourceBundle;" />
+      <scope id="7147596757064966648" at="10,42,11,49" />
+      <scope id="7147596757064966648" at="13,58,14,45" />
+      <scope id="7147596757064966648" at="10,0,13,0" />
+      <scope id="7147596757064966648" at="13,0,16,0">
+        <var name="locale" id="7147596757064966648" />
+      </scope>
+      <unit id="7147596757064966648" at="9,0,17,0" name="test.ts.mpsutil.multilingual.common.TestResourceBundleBundleClass" />
+    </file>
+  </root>
+  <root nodeRef="r:73029d2d-fd0e-47f4-8239-cc3744eeff3f(test.ts.mpsutil.multilingual.common@tests)/9000125482641828031">
+    <file name="LocaleSelection_Test.java">
+      <node id="9000125482641828031" at="22,33,23,60" concept="7" />
+      <node id="9000125482641828050" at="27,60,28,51" concept="1" />
+      <node id="9000125482642244155" at="31,61,32,52" concept="1" />
+      <node id="9000125482641828031" at="37,52,38,19" concept="7" />
+      <node id="9000125482641828031" at="42,36,43,25" concept="1" />
+      <node id="9000125482641828050" at="46,62,47,22" concept="1" />
+      <node id="9000125482641837605" at="48,30,49,86" concept="1" />
+      <node id="9000125482642242806" at="49,86,50,86" concept="1" />
+      <node id="9000125482642244155" at="53,63,54,22" concept="1" />
+      <node id="9000125482642244155" at="54,22,55,113" concept="1" />
+      <node id="9000125482641828031" at="19,0,21,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="9000125482641828031" at="22,0,25,0" concept="0" trace="LocaleSelection_Test#()V" />
+      <node id="9000125482641828031" at="37,0,40,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="9000125482641828050" at="26,0,30,0" concept="2" trace="test_findLocaleExactMatch#()V" />
+      <node id="9000125482642244155" at="30,0,34,0" concept="2" trace="test_findLocaleOnlyCountry#()V" />
+      <node id="9000125482641828031" at="41,0,45,0" concept="2" trace="initTestNodes#()V" />
+      <node id="9000125482641828050" at="47,22,51,9" concept="1" />
+      <node id="9000125482642244155" at="53,0,57,0" concept="2" trace="test_findLocaleOnlyCountry#()V" />
+      <node id="9000125482641828050" at="46,0,53,0" concept="2" trace="test_findLocaleExactMatch#()V" />
+      <scope id="9000125482641828031" at="22,33,23,60" />
+      <scope id="9000125482641828050" at="27,60,28,51" />
+      <scope id="9000125482642244155" at="31,61,32,52" />
+      <scope id="9000125482641828031" at="37,52,38,19" />
+      <scope id="9000125482641828031" at="42,36,43,25" />
+      <scope id="9000125482641828050" at="48,30,50,86" />
+      <scope id="9000125482642244155" at="53,63,55,113" />
+      <scope id="9000125482641828031" at="22,0,25,0" />
+      <scope id="9000125482641828031" at="37,0,40,0">
+        <var name="owner" id="9000125482641828031" />
+      </scope>
+      <scope id="9000125482641828050" at="26,0,30,0" />
+      <scope id="9000125482642244155" at="30,0,34,0" />
+      <scope id="9000125482641828031" at="41,0,45,0" />
+      <scope id="9000125482642244155" at="53,0,57,0" />
+      <scope id="9000125482641828050" at="46,62,51,9" />
+      <scope id="9000125482641828050" at="46,0,53,0" />
+      <unit id="9000125482641828031" at="35,0,59,0" name="test.ts.mpsutil.multilingual.common.LocaleSelection_Test$TestBody" />
+      <unit id="9000125482641828031" at="17,0,60,0" name="test.ts.mpsutil.multilingual.common.LocaleSelection_Test" />
+    </file>
+  </root>
+</debug-info>
+

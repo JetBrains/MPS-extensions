@@ -19,6 +19,7 @@ val releaseAssetFiles by configurations.resolvable("releaseAssets") {
 }
 dependencies {
     releaseDependencies(project(path = ":extensions", configuration = "apiElements"))
+    releaseDependencies(project(path = ":platform", configuration = "githubReleaseArtifact"))
 }
 
 tasks.register<Exec>("pipInstall") {
@@ -57,3 +58,7 @@ githubRelease {
 }
 
 tasks.named("githubRelease") { dependsOn(releaseAssetFiles) }
+
+project(":platform").tasks.matching { it.name == "migrate" || it.name == "remigrate" }.configureEach {
+    mustRunAfter(":extensions:migrate", ":extensions:remigrate")
+}

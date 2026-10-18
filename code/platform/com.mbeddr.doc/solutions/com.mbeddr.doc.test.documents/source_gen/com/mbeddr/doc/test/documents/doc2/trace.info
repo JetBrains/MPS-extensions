@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:260e0933-d20e-4f4f-88cb-1c3cbbf973a8(com.mbeddr.doc.test.documents.doc2_1)/2671071626003091888">
+    <file name="sub_document_2.html">
+      <unit id="2671071626003091888" at="1,0,30,7" name="com.mbeddr.doc.test.documents.doc2.sub_document_2" />
+    </file>
+  </root>
+  <root nodeRef="r:260e0933-d20e-4f4f-88cb-1c3cbbf973a8(com.mbeddr.doc.test.documents.doc2_1)/2671071626003093679">
+    <file name="sub_document_3.html">
+      <unit id="2671071626003093679" at="1,0,23,7" name="com.mbeddr.doc.test.documents.doc2.sub_document_3" />
+    </file>
+  </root>
+  <root nodeRef="r:ec8f5bd7-b4be-44a4-b858-cf2a0b6fd7e1(com.mbeddr.doc.test.documents.doc2)/2671071626003091836">
+    <file name="main_document_including_other_docs.html">
+      <unit id="2671071626003091836" at="1,0,239,7" name="com.mbeddr.doc.test.documents.doc2.main_document_including_other_docs" />
+    </file>
+  </root>
+</debug-info>
+

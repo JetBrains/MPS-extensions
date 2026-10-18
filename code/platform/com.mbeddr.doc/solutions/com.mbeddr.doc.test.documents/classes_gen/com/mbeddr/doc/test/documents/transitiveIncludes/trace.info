@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:8e880dfd-9c5b-4299-bcbf-6f33a31204bd(com.mbeddr.doc.test.documents.transitiveIncludes)/2671071626003091836">
+    <file name="main_document_including_other_docs.html">
+      <unit id="2671071626003091836" at="1,0,210,7" name="com.mbeddr.doc.test.documents.transitiveIncludes.main_document_including_other_docs" />
+    </file>
+  </root>
+  <root nodeRef="r:8e880dfd-9c5b-4299-bcbf-6f33a31204bd(com.mbeddr.doc.test.documents.transitiveIncludes)/9143055680519053965">
+    <file name="document_including_other.html">
+      <unit id="9143055680519053965" at="1,0,224,7" name="com.mbeddr.doc.test.documents.transitiveIncludes.document_including_other" />
+    </file>
+  </root>
+  <root nodeRef="r:8e880dfd-9c5b-4299-bcbf-6f33a31204bd(com.mbeddr.doc.test.documents.transitiveIncludes)/9143055680519053982">
+    <file name="leaf_document.html">
+      <unit id="9143055680519053982" at="1,0,217,7" name="com.mbeddr.doc.test.documents.transitiveIncludes.leaf_document" />
+    </file>
+  </root>
+  <root nodeRef="r:8e880dfd-9c5b-4299-bcbf-6f33a31204bd(com.mbeddr.doc.test.documents.transitiveIncludes)/9143055680519054061">
+    <file name="another_document_including_stuff.html">
+      <unit id="9143055680519054061" at="1,0,221,7" name="com.mbeddr.doc.test.documents.transitiveIncludes.another_document_including_stuff" />
+    </file>
+  </root>
+  <root nodeRef="r:8e880dfd-9c5b-4299-bcbf-6f33a31204bd(com.mbeddr.doc.test.documents.transitiveIncludes)/9143055680519054117">
+    <file name="including_document_that_includes.html">
+      <unit id="9143055680519054117" at="1,0,228,7" name="com.mbeddr.doc.test.documents.transitiveIncludes.including_document_that_includes" />
+    </file>
+  </root>
+</debug-info>
+

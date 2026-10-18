@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -16,7 +15,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.behavior.ConceptFunction__BehaviorDescriptor;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -24,12 +22,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class ViewModelExpression__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xd0329e8a2ba94fd1L, 0x82a5fa43a426965dL, 0x3aaea0b82d0d341fL, "com.jetbrains.mpsext.viewmodel.structure.ViewModelExpression");
 
-  public static final SMethod<Boolean> isEditorContextAvailable_id55VuGTOgGLs = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isEditorContextAvailable").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5871421566339959900L).languageId(0x82a5fa43a426965dL, 0xd0329e8a2ba94fd1L).build2();
+  public static final SMethod<Boolean> isEditorContextAvailable_id55VuGTOgGLs = new SMethodBuilder<>(Boolean.TYPE).name("isEditorContextAvailable").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5871421566339959900L).languageId(0x82a5fa43a426965dL, 0xd0329e8a2ba94fd1L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isEditorContextAvailable_id55VuGTOgGLs);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isEditorContextAvailable_id55VuGTOgGLs);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean isEditorContextAvailable_id55VuGTOgGLs(@NotNull SNode __thisNode__) {
     // inside editor code (editor queries, actions, intentions, menus ...): every concept function that
@@ -45,10 +41,6 @@ public final class ViewModelExpression__BehaviorDescriptor extends BaseBHDescrip
   /*package*/ ViewModelExpression__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

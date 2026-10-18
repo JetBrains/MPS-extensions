@@ -39,6 +39,7 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="btn2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.impl(MPS.IDEA/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tegv" ref="r:b91d2412-f094-4e55-8db6-3c782d7edc40(com.mbeddr.mpsutil.intentions.structure)" implicit="true" />
@@ -87,6 +88,9 @@
         <child id="1203083461638" name="executeFunction" index="tncku" />
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
+    </language>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
@@ -306,7 +310,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7400021826774799413" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression" flags="ng" index="2tJFMh">
         <child id="7400021826774799510" name="ref" index="2tJFKM" />
       </concept>
@@ -721,7 +724,7 @@
                         <node concept="35c_gC" id="5gDLJkL8Lw2" role="2Oq$k0">
                           <ref role="35c_gD" to="tegv:54z9_KDO4Av" resolve="SectionAnnotation" />
                         </node>
-                        <node concept="2qgKlT" id="5gDLJkL8UeT" role="2OqNvi">
+                        <node concept="3zqWPK" id="WEZADybpNi" role="2OqNvi">
                           <ref role="37wK5l" to="9j2l:24lzbKWhznQ" resolve="getSeparator" />
                         </node>
                       </node>
@@ -1025,23 +1028,27 @@
                         </node>
                         <node concept="liA8E" id="5qS63vU3ACT" role="2OqNvi">
                           <ref role="37wK5l" to="anz6:~TestApplicationManager.setDataProvider(com.intellij.openapi.actionSystem.DataProvider,com.intellij.openapi.Disposable)" resolve="setDataProvider" />
-                          <node concept="2YIFZM" id="5qS63vU3FUJ" role="37wK5m">
-                            <ref role="37wK5l" to="qkt:~CompositeDataProvider.compose(com.intellij.openapi.actionSystem.DataProvider,com.intellij.openapi.actionSystem.DataProvider)" resolve="compose" />
-                            <ref role="1Pybhc" to="qkt:~CompositeDataProvider" resolve="CompositeDataProvider" />
-                            <node concept="369mXd" id="5qS63vU3GuJ" role="37wK5m" />
-                            <node concept="2YIFZM" id="5qS63vU4muz" role="37wK5m">
-                              <ref role="37wK5l" to="anz6:~TestDataProvider.withRules(com.intellij.openapi.project.Project)" resolve="withRules" />
-                              <ref role="1Pybhc" to="anz6:~TestDataProvider" resolve="TestDataProvider" />
-                              <node concept="2YIFZM" id="5qS63vU4t_k" role="37wK5m">
-                                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
-                                <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                                <node concept="1jxXqW" id="5qS63vU4u9C" role="37wK5m" />
-                              </node>
+                          <node concept="2YIFZM" id="5qS63vU4muz" role="37wK5m">
+                            <ref role="37wK5l" to="anz6:~TestDataProvider.withRules(com.intellij.openapi.project.Project)" resolve="withRules" />
+                            <ref role="1Pybhc" to="anz6:~TestDataProvider" resolve="TestDataProvider" />
+                            <node concept="2YIFZM" id="5qS63vU4t_k" role="37wK5m">
+                              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
+                              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                              <node concept="1jxXqW" id="5qS63vU4u9C" role="37wK5m" />
                             </node>
                           </node>
                           <node concept="37vLTw" id="5qS63vU4Ybk" role="37wK5m">
                             <ref role="3cqZAo" node="5qS63vU4RT0" resolve="resetDataProvider" />
                           </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="7zKH4CkhrcZ" role="3cqZAp">
+                      <node concept="2YIFZM" id="7zKH4Ckhsz2" role="3clFbG">
+                        <ref role="37wK5l" to="btn2:~HeadlessDataManager.fallbackToProductionDataManager(com.intellij.openapi.Disposable)" resolve="fallbackToProductionDataManager" />
+                        <ref role="1Pybhc" to="btn2:~HeadlessDataManager" resolve="HeadlessDataManager" />
+                        <node concept="37vLTw" id="7zKH4Ckht2_" role="37wK5m">
+                          <ref role="3cqZAo" node="5qS63vU4RT0" resolve="resetDataProvider" />
                         </node>
                       </node>
                     </node>

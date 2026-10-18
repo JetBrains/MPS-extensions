@@ -11,5 +11,5 @@ public class IconContainer {
   protected static Icon ICON2 = IconLoadingUtil.loadIcon("/icons/zoomOutIcon.png", IconContainer.class);
   protected static Icon ICON3 = IconLoadingUtil.loadIcon("/icons/OnetoOne.png", IconContainer.class);
   protected static Icon ICON4 = IconLoadingUtil.loadIcon("/icons/maximize.png", IconContainer.class);
-  protected static Icon ICON5 = IconLoadingUtil.loadIcon("TextIcon_1.png", IconContainer.class);
+  protected static Icon ICON5 = IconLoadingUtil.loadIcon((IconLoadingUtil.isNewUIActive() ? "TextIconNewUI_1.png" : "TextIcon_1.png"), IconContainer.class);
 }

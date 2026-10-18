@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -17,7 +16,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -26,20 +24,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class CellModel_Checkbox__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf89904fb948643a1L, 0x865e5ad0375a8a88L, 0x4402b446c3e2da67L, "de.itemis.mps.editor.bool.structure.CellModel_Checkbox");
 
-  public static final SMethod<String> getTrueIconDefaultPath_id4JS9aP7qJPf = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTrueIconDefaultPath").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673714974031L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
-  public static final SMethod<Double> getTrueIconDefaultScale_id4JS9aP7rOp1 = new SMethodBuilder<Double>(new SJavaCompoundTypeImpl(Double.TYPE)).name("getTrueIconDefaultScale").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673715254849L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
-  public static final SMethod<String> getFalseIconDefaultPath_id4JS9aP7rOuJ = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getFalseIconDefaultPath").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673715255215L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
-  public static final SMethod<Double> getFalseIconDefaultScale_id4JS9aP7rOwq = new SMethodBuilder<Double>(new SJavaCompoundTypeImpl(Double.TYPE)).name("getFalseIconDefaultScale").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673715255322L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
-  public static final SMethod<String> getTrueIconPath_id4JS9aP7qJW1 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTrueIconPath").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5474165673714974465L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
-  public static final SMethod<String> getFalseIconPath_id4JS9aP7scIS = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getFalseIconPath").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5474165673715354552L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
-  public static final SMethod<Double> getTrueIconScale_id4JS9aP7scN6 = new SMethodBuilder<Double>(new SJavaCompoundTypeImpl(Double.class)).name("getTrueIconScale").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5474165673715354822L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
-  public static final SMethod<Double> getFalseIconScale_id4JS9aP7scRN = new SMethodBuilder<Double>(new SJavaCompoundTypeImpl(Double.class)).name("getFalseIconScale").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5474165673715355123L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
-  public static final SMethod<SNode> findCheckboxDefaultIconNode_id4JS9aP7rKX_ = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("findCheckboxDefaultIconNode").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673715240805L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
+  public static final SMethod<String> getTrueIconDefaultPath_id4JS9aP7qJPf = new SMethodBuilder<>(String.class).name("getTrueIconDefaultPath").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673714974031L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
+  public static final SMethod<Double> getTrueIconDefaultScale_id4JS9aP7rOp1 = new SMethodBuilder<>(Double.TYPE).name("getTrueIconDefaultScale").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673715254849L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
+  public static final SMethod<String> getFalseIconDefaultPath_id4JS9aP7rOuJ = new SMethodBuilder<>(String.class).name("getFalseIconDefaultPath").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673715255215L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
+  public static final SMethod<Double> getFalseIconDefaultScale_id4JS9aP7rOwq = new SMethodBuilder<>(Double.TYPE).name("getFalseIconDefaultScale").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673715255322L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
+  public static final SMethod<String> getTrueIconPath_id4JS9aP7qJW1 = new SMethodBuilder<>(String.class).name("getTrueIconPath").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5474165673714974465L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
+  public static final SMethod<String> getFalseIconPath_id4JS9aP7scIS = new SMethodBuilder<>(String.class).name("getFalseIconPath").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5474165673715354552L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
+  public static final SMethod<Double> getTrueIconScale_id4JS9aP7scN6 = new SMethodBuilder<>(Double.class).name("getTrueIconScale").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5474165673715354822L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
+  public static final SMethod<Double> getFalseIconScale_id4JS9aP7scRN = new SMethodBuilder<>(Double.class).name("getFalseIconScale").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5474165673715355123L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
+  public static final SMethod<SNode> findCheckboxDefaultIconNode_id4JS9aP7rKX_ = new SMethodBuilder<>(SNode.class).name("findCheckboxDefaultIconNode").modifiers(0, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(5474165673715240805L).languageId(0x865e5ad0375a8a88L, 0xf89904fb948643a1L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTrueIconDefaultPath_id4JS9aP7qJPf, getTrueIconDefaultScale_id4JS9aP7rOp1, getFalseIconDefaultPath_id4JS9aP7rOuJ, getFalseIconDefaultScale_id4JS9aP7rOwq, getTrueIconPath_id4JS9aP7qJW1, getFalseIconPath_id4JS9aP7scIS, getTrueIconScale_id4JS9aP7scN6, getFalseIconScale_id4JS9aP7scRN, findCheckboxDefaultIconNode_id4JS9aP7rKX_);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTrueIconDefaultPath_id4JS9aP7qJPf, getTrueIconDefaultScale_id4JS9aP7rOp1, getFalseIconDefaultPath_id4JS9aP7rOuJ, getFalseIconDefaultScale_id4JS9aP7rOwq, getTrueIconPath_id4JS9aP7qJW1, getFalseIconPath_id4JS9aP7scIS, getTrueIconScale_id4JS9aP7scN6, getFalseIconScale_id4JS9aP7scRN, findCheckboxDefaultIconNode_id4JS9aP7rKX_);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getTrueIconDefaultPath_id4JS9aP7qJPf(@NotNull SNode __thisNode__) {
     return SPropertyOperations.getString(CellModel_Checkbox__BehaviorDescriptor.findCheckboxDefaultIconNode_id4JS9aP7rKX_.invoke(__thisNode__), PROPS.iconPathTrue$r3Ht);
@@ -100,10 +96,6 @@ public final class CellModel_Checkbox__BehaviorDescriptor extends BaseBHDescript
   /*package*/ CellModel_Checkbox__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

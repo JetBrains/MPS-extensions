@@ -38,7 +38,7 @@ public class Multiline_Text_PreferencesPage extends BasePrefsPage {
       if (editor instanceof MPSFileNodeEditor) {
         MPSFileNodeEditor mpsEditor = ((MPSFileNodeEditor) editor);
         if (!(mpsEditor.isDisposed())) {
-          check_6lh1s6_a0a1a0a1a0a(check_6lh1s6_a0a0b0a0b0a0(check_6lh1s6_a0a0a1a0a1a0a(mpsEditor)));
+          check_ck2tfn_a0a1a0a1a7(check_ck2tfn_a0a0b0a0b0h(check_ck2tfn_a0a0a1a0a1a7(mpsEditor)));
         }
       }
     }
@@ -67,19 +67,19 @@ public class Multiline_Text_PreferencesPage extends BasePrefsPage {
   public String getHelpTopic() {
     return "Text";
   }
-  private static void check_6lh1s6_a0a1a0a1a0a(EditorComponent checkedDotOperand) {
+  private static void check_ck2tfn_a0a1a0a1a7(EditorComponent checkedDotOperand) {
     if (null != checkedDotOperand) {
       checkedDotOperand.update();
     }
 
   }
-  private static EditorComponent check_6lh1s6_a0a0b0a0b0a0(Editor checkedDotOperand) {
+  private static EditorComponent check_ck2tfn_a0a0b0a0b0h(Editor checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getCurrentEditorComponent();
     }
     return null;
   }
-  private static Editor check_6lh1s6_a0a0a1a0a1a0a(MPSFileNodeEditor checkedDotOperand) {
+  private static Editor check_ck2tfn_a0a0a1a0a1a7(MPSFileNodeEditor checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getNodeEditor();
     }

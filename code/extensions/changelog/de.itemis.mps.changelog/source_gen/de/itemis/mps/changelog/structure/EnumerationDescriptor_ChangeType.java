@@ -23,7 +23,7 @@ public class EnumerationDescriptor_ChangeType extends EnumerationDescriptorBase 
   private final EnumerationDescriptor.MemberDescriptor myMember_security_0 = new EnumerationDescriptor.MemberDescriptor("security", "Security", 0xd5813f148757d3dL, "r:86cc19c0-126f-473b-92c6-29dba75c1e89(de.itemis.mps.changelog.structure)/961540447467306301");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x638c9345261349dcL, 0xb2ae8ceadef24141L, 0xd5813f148757d29L, 0xd5813f148757d2aL, 0xd5813f148757d2bL, 0xd5813f148757d2eL, 0xd5813f148757d32L, 0xd5813f148757d37L, 0xd5813f148757d3dL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_added_0, myMember_changed_0, myMember_deprecated_0, myMember_removed_0, myMember_fixed_0, myMember_security_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_added_0, myMember_changed_0, myMember_deprecated_0, myMember_removed_0, myMember_fixed_0, myMember_security_0);
 
   @Nullable
   @Override

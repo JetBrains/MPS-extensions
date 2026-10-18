@@ -609,8 +609,8 @@
       <node id="6525704942391528569" at="75,30,76,105" concept="7" />
       <node id="6525704942391528583" at="76,105,77,60" concept="2" />
       <node id="6525704942391528591" at="77,60,78,93" concept="7" />
-      <node id="6525704942391528605" at="78,93,79,71" concept="2" />
-      <node id="6525704942391528614" at="79,71,80,52" concept="9" />
+      <node id="6525704942391528605" at="78,93,79,105" concept="2" />
+      <node id="6525704942391528614" at="79,105,80,52" concept="9" />
       <node id="6525704942391528628" at="80,52,81,112" concept="7" />
       <node id="6525704942391528644" at="81,112,82,43" concept="2" />
       <node id="6525704942391528647" at="82,43,83,65" concept="2" />
@@ -620,8 +620,8 @@
       <node id="6525704942391528705" at="90,30,91,105" concept="7" />
       <node id="6525704942391528719" at="91,105,92,60" concept="2" />
       <node id="6525704942391528727" at="92,60,93,93" concept="7" />
-      <node id="6525704942391528741" at="93,93,94,71" concept="2" />
-      <node id="6525704942391528750" at="94,71,95,58" concept="9" />
+      <node id="6525704942391528741" at="93,93,94,105" concept="2" />
+      <node id="6525704942391528750" at="94,105,95,58" concept="9" />
       <node id="6525704942391528765" at="95,58,96,112" concept="7" />
       <node id="6525704942391528781" at="96,112,97,43" concept="2" />
       <node id="6525704942391528784" at="97,43,98,65" concept="2" />
@@ -696,18 +696,18 @@
   </root>
   <root nodeRef="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)/6525704942445631024">
     <file name="StickyHeaders_ComputeShift_Test.java">
-      <node id="6525704942445631036" at="11,75,12,79" concept="2" />
-      <node id="6525704942445631045" at="12,79,13,81" concept="2" />
-      <node id="6525704942445631061" at="16,56,17,81" concept="2" />
-      <node id="6525704942445631070" at="17,81,18,83" concept="2" />
-      <node id="6525704942445631086" at="21,74,22,83" concept="2" />
-      <node id="6525704942445631095" at="22,83,23,84" concept="2" />
+      <node id="6525704942445631036" at="11,75,12,113" concept="2" />
+      <node id="6525704942445631045" at="12,113,13,115" concept="2" />
+      <node id="6525704942445631061" at="16,56,17,115" concept="2" />
+      <node id="6525704942445631070" at="17,115,18,117" concept="2" />
+      <node id="6525704942445631086" at="21,74,22,117" concept="2" />
+      <node id="6525704942445631095" at="22,117,23,118" concept="2" />
       <node id="6525704942445631029" at="10,0,15,0" concept="6" trace="test_not_moved_while_headers_are_visible#()V" />
       <node id="6525704942445631054" at="15,0,20,0" concept="6" trace="test_follows_the_view#()V" />
       <node id="6525704942445631079" at="20,0,25,0" concept="6" trace="test_pushed_out_by_the_end_of_the_table#()V" />
-      <scope id="6525704942445631035" at="11,75,13,81" />
-      <scope id="6525704942445631060" at="16,56,18,83" />
-      <scope id="6525704942445631085" at="21,74,23,84" />
+      <scope id="6525704942445631035" at="11,75,13,115" />
+      <scope id="6525704942445631060" at="16,56,18,117" />
+      <scope id="6525704942445631085" at="21,74,23,118" />
       <scope id="6525704942445631029" at="10,0,15,0" />
       <scope id="6525704942445631054" at="15,0,20,0" />
       <scope id="6525704942445631079" at="20,0,25,0" />
@@ -744,15 +744,15 @@
       <node id="6525704942445736395" at="39,51,40,72" concept="2" />
       <node id="6525704942445746692" at="40,72,41,68" concept="9" />
       <node id="6525704942445738582" at="41,68,42,99" concept="7" />
-      <node id="6525704942445738592" at="42,99,43,70" concept="2" />
-      <node id="6525704942445746709" at="43,70,44,131" concept="2" />
+      <node id="6525704942445738592" at="42,99,43,104" concept="2" />
+      <node id="6525704942445746709" at="43,104,44,131" concept="2" />
       <node id="6525704942445738601" at="44,131,45,0" concept="10" />
       <node id="6525704942445736397" at="45,0,46,81" concept="2" />
       <node id="6525704942445746723" at="46,81,47,0" concept="10" />
       <node id="6525704942445746724" at="47,0,48,108" concept="9" />
       <node id="6525704942445746750" at="48,108,49,73" concept="2" />
-      <node id="6525704942445746758" at="49,73,50,70" concept="2" />
-      <node id="6525704942445746767" at="50,70,51,131" concept="2" />
+      <node id="6525704942445746758" at="49,73,50,104" concept="2" />
+      <node id="6525704942445746767" at="50,104,51,131" concept="2" />
       <node id="6525704942445746781" at="51,131,52,86" concept="2" />
       <node id="6525704942445736395" at="20,0,22,0" concept="11" trace="ourParametersCacheExtension" />
       <node id="6525704942445736395" at="23,0,26,0" concept="1" trace="StickyHeaders_DeleteRow_Test#()V" />
@@ -806,8 +806,8 @@
       <node id="6525704942445833296" at="72,0,73,106" concept="9" />
       <node id="6525704942445833320" at="73,106,74,25" concept="7" />
       <node id="6525704942445833386" at="77,54,78,25" concept="2" />
-      <node id="6525704942445833391" at="81,7,82,41" concept="2" />
-      <node id="6525704942450238051" at="82,41,83,0" concept="10" />
+      <node id="6525704942445833391" at="81,7,82,75" concept="2" />
+      <node id="6525704942450238051" at="82,75,83,0" concept="10" />
       <node id="6525704942450238052" at="83,0,84,119" concept="9" />
       <node id="6525704942450238079" at="84,119,85,30" concept="7" />
       <node id="6525704942450238086" at="85,30,86,32" concept="7" />
@@ -817,7 +817,7 @@
       <node id="6525704942450238289" at="99,45,100,47" concept="2" />
       <node id="6525704942450238296" at="100,47,101,0" concept="10" />
       <node id="6525704942445833396" at="101,0,102,42" concept="9" />
-      <node id="6525704942445833412" at="102,42,103,75" concept="2" />
+      <node id="6525704942445833412" at="102,42,103,109" concept="2" />
       <node id="6525704942445775569" at="26,0,28,0" concept="11" trace="ourParametersCacheExtension" />
       <node id="6525704942445775569" at="29,0,32,0" concept="1" trace="StickyHeaders_BandCoversTableWidth_Test#()V" />
       <node id="6525704942445775569" at="40,0,43,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
@@ -869,7 +869,7 @@
       <scope id="6525704942450238093" at="86,32,98,7">
         <var name="cell" id="6525704942450238097" />
       </scope>
-      <scope id="6525704942445775569" at="45,51,103,75">
+      <scope id="6525704942445775569" at="45,51,103,109">
         <var name="bottom" id="6525704942445787310" />
         <var name="g" id="6525704942445787364" />
         <var name="image" id="6525704942445787357" />
@@ -920,7 +920,7 @@
       <node id="6525704942456393181" at="72,0,73,116" concept="9" />
       <node id="6525704942456393210" at="73,116,74,25" concept="7" />
       <node id="6525704942456393300" at="77,54,78,25" concept="2" />
-      <node id="6525704942456393305" at="81,7,82,41" concept="2" />
+      <node id="6525704942456393305" at="81,7,82,75" concept="2" />
       <node id="6525704942456344572" at="26,0,28,0" concept="11" trace="ourParametersCacheExtension" />
       <node id="6525704942456344572" at="29,0,32,0" concept="1" trace="StickyHeaders_RowHeaderStripCoversTopBorder_Test#()V" />
       <node id="6525704942456344572" at="40,0,43,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
@@ -953,7 +953,7 @@
       <scope id="6525704942456393217" at="74,25,81,7">
         <var name="y" id="6525704942456393220" />
       </scope>
-      <scope id="6525704942456344572" at="45,51,82,41">
+      <scope id="6525704942456344572" at="45,51,82,75">
         <var name="g" id="6525704942456354944" />
         <var name="image" id="6525704942456354937" />
         <var name="left" id="6525704942456354897" />

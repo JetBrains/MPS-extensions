@@ -16,6 +16,9 @@
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
@@ -96,7 +99,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -145,7 +147,7 @@
               <node concept="3clFbF" id="7m$hACyVUF8" role="3cqZAp">
                 <node concept="2OqwBi" id="7m$hACyVUR_" role="3clFbG">
                   <node concept="pncrf" id="7m$hACyVUF6" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="5E451Quvmpy" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybpyf" role="2OqNvi">
                     <ref role="37wK5l" to="4xup:7_uCKm_hUKY" resolve="getText" />
                   </node>
                 </node>
@@ -160,14 +162,14 @@
             <node concept="3fqX7Q" id="7m$hACyVPsf" role="3clFbG">
               <node concept="2OqwBi" id="7m$hACyVPsh" role="3fr31v">
                 <node concept="pncrf" id="7m$hACyVPsi" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7m$hACyVPsj" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybpyh" role="2OqNvi">
                   <ref role="37wK5l" to="4xup:7_uCKm_i2tI" resolve="isBroken" />
-                  <node concept="2YIFZM" id="7_uCKm_i9WR" role="37wK5m">
+                  <node concept="2YIFZM" id="WEZADybpyj" role="37wK5m">
                     <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
                     <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                    <node concept="2OqwBi" id="7_uCKm_iaaL" role="37wK5m">
-                      <node concept="1Q80Hx" id="7_uCKm_i9ZY" role="2Oq$k0" />
-                      <node concept="liA8E" id="7_uCKm_iakP" role="2OqNvi">
+                    <node concept="2OqwBi" id="WEZADybpyk" role="37wK5m">
+                      <node concept="1Q80Hx" id="WEZADybpyl" role="2Oq$k0" />
+                      <node concept="liA8E" id="WEZADybpym" role="2OqNvi">
                         <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                       </node>
                     </node>
@@ -185,7 +187,7 @@
               <node concept="3clFbF" id="55XVrlFSRUL" role="3cqZAp">
                 <node concept="2OqwBi" id="55XVrlFSRUM" role="3clFbG">
                   <node concept="pncrf" id="55XVrlFSRUN" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="55XVrlFSRUO" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybpyn" role="2OqNvi">
                     <ref role="37wK5l" to="4xup:7_uCKm_i1sQ" resolve="getTextWhenBroken" />
                   </node>
                 </node>
@@ -239,14 +241,14 @@
                 <node concept="3clFbF" id="7_uCKm_pQFA" role="3cqZAp">
                   <node concept="2OqwBi" id="7_uCKm_pQRY" role="3clFbG">
                     <node concept="pncrf" id="7_uCKm_pQF_" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="7_uCKm_pR6u" role="2OqNvi">
+                    <node concept="3zqWPK" id="WEZADybpyp" role="2OqNvi">
                       <ref role="37wK5l" to="4xup:7_uCKm_pPxc" resolve="getEditedNode" />
-                      <node concept="2YIFZM" id="7_uCKm_pRgl" role="37wK5m">
+                      <node concept="2YIFZM" id="WEZADybpyr" role="37wK5m">
                         <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
                         <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                        <node concept="2OqwBi" id="7_uCKm_pRpW" role="37wK5m">
-                          <node concept="1Q80Hx" id="7_uCKm_pRjd" role="2Oq$k0" />
-                          <node concept="liA8E" id="7_uCKm_pRzT" role="2OqNvi">
+                        <node concept="2OqwBi" id="WEZADybpys" role="37wK5m">
+                          <node concept="1Q80Hx" id="WEZADybpyt" role="2Oq$k0" />
+                          <node concept="liA8E" id="WEZADybpyu" role="2OqNvi">
                             <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                           </node>
                         </node>
@@ -263,7 +265,7 @@
                 <node concept="3clFbF" id="7_uCKm_o229" role="3cqZAp">
                   <node concept="2OqwBi" id="7_uCKm_o22a" role="3clFbG">
                     <node concept="pncrf" id="7_uCKm_o22b" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="7_uCKm_o22c" role="2OqNvi">
+                    <node concept="3zqWPK" id="WEZADybpyv" role="2OqNvi">
                       <ref role="37wK5l" to="4xup:7_uCKm_o3kH" resolve="getText" />
                     </node>
                   </node>
@@ -278,14 +280,14 @@
               <node concept="3fqX7Q" id="7_uCKm_o22g" role="3clFbG">
                 <node concept="2OqwBi" id="7_uCKm_o22h" role="3fr31v">
                   <node concept="pncrf" id="7_uCKm_o22i" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="7_uCKm_o22j" role="2OqNvi">
+                  <node concept="3zqWPK" id="WEZADybpyx" role="2OqNvi">
                     <ref role="37wK5l" to="4xup:7_uCKm_o3li" resolve="isBroken" />
-                    <node concept="2YIFZM" id="7_uCKm_o22k" role="37wK5m">
+                    <node concept="2YIFZM" id="WEZADybpyz" role="37wK5m">
                       <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
                       <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                      <node concept="2OqwBi" id="7_uCKm_o22l" role="37wK5m">
-                        <node concept="1Q80Hx" id="7_uCKm_o22m" role="2Oq$k0" />
-                        <node concept="liA8E" id="7_uCKm_o22n" role="2OqNvi">
+                      <node concept="2OqwBi" id="WEZADybpy$" role="37wK5m">
+                        <node concept="1Q80Hx" id="WEZADybpy_" role="2Oq$k0" />
+                        <node concept="liA8E" id="WEZADybpyA" role="2OqNvi">
                           <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                         </node>
                       </node>
@@ -303,7 +305,7 @@
                 <node concept="3clFbF" id="7_uCKm_o22s" role="3cqZAp">
                   <node concept="2OqwBi" id="7_uCKm_o22t" role="3clFbG">
                     <node concept="pncrf" id="7_uCKm_o22u" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="7_uCKm_o22v" role="2OqNvi">
+                    <node concept="3zqWPK" id="WEZADybpyB" role="2OqNvi">
                       <ref role="37wK5l" to="4xup:7_uCKm_o3la" resolve="getTextWhenBroken" />
                     </node>
                   </node>

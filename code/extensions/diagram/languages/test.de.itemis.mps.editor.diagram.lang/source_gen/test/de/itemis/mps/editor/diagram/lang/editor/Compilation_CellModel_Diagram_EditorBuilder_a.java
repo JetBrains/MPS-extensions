@@ -954,7 +954,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   /*package*/ static class Inline_Builder_fenvva_a1a extends AbstractEditorBuilder {
     @NotNull
@@ -1000,7 +1000,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return editorCell.value;
     }
     private EditorCell createShape_1() {
-      return createShape_0(getEditorContext(), myNode);
+      return createShape_0(getEditorContext(), getNode());
     }
   }
   /*package*/ static class Inline_Builder_fenvva_a0b0 extends AbstractEditorBuilder {

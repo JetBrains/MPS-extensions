@@ -2,7 +2,7 @@
 <model ref="r:fa847d10-a670-48b8-aa0a-425906c34683(de.q60.mps.shadowmodels.runtime.mpslike)">
   <persistence version="9" />
   <languages>
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="da8e6b62-7ca3-4489-86bc-b70a501ca28f" name="de.q60.mps.incremental" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -208,16 +208,11 @@
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
-        <child id="2667874559098216723" name="text" index="3HnX3l" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI" />
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -226,6 +221,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="da8e6b62-7ca3-4489-86bc-b70a501ca28f" name="de.q60.mps.incremental">
@@ -5096,9 +5099,45 @@
         <node concept="2tJIrI" id="1Ym4FmdYKaT" role="jymVt" />
         <node concept="3UR2Jj" id="3c6J_2nBBeB" role="lGtFl">
           <node concept="TZ5HI" id="3c6J_2nBBeC" role="3nqlJM">
-            <node concept="TZ5HA" id="3c6J_2nBBeD" role="3HnX3l">
-              <node concept="1dT_AC" id="3c6J_2nBBRW" role="1dT_Ay">
-                <property role="1dT_AB" value=" Wrapper should be applied during IOutputNode resolution, instead of changing the ref." />
+            <node concept="1PaTwC" id="L0S2CpU6Jl" role="1Vez_I">
+              <node concept="3oM_SD" id="L0S2CpU6Jm" role="1PaTwD">
+                <property role="3oM_SC" value="" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jn" role="1PaTwD">
+                <property role="3oM_SC" value="Wrapper" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jo" role="1PaTwD">
+                <property role="3oM_SC" value="should" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jp" role="1PaTwD">
+                <property role="3oM_SC" value="be" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jq" role="1PaTwD">
+                <property role="3oM_SC" value="applied" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jr" role="1PaTwD">
+                <property role="3oM_SC" value="during" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Js" role="1PaTwD">
+                <property role="3oM_SC" value="IOutputNode" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jt" role="1PaTwD">
+                <property role="3oM_SC" value="resolution," />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Ju" role="1PaTwD">
+                <property role="3oM_SC" value="instead" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jv" role="1PaTwD">
+                <property role="3oM_SC" value="of" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jw" role="1PaTwD">
+                <property role="3oM_SC" value="changing" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jx" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6Jy" role="1PaTwD">
+                <property role="3oM_SC" value="ref." />
               </node>
             </node>
           </node>
@@ -6219,9 +6258,45 @@
         <node concept="2tJIrI" id="6TaAXKMqWHF" role="jymVt" />
         <node concept="3UR2Jj" id="3c6J_2nBDoh" role="lGtFl">
           <node concept="TZ5HI" id="3c6J_2nBDoi" role="3nqlJM">
-            <node concept="TZ5HA" id="3c6J_2nBDoj" role="3HnX3l">
-              <node concept="1dT_AC" id="3c6J_2nBEm7" role="1dT_Ay">
-                <property role="1dT_AB" value=" Wrapper should be applied during IOutputNode resolution, instead of changing the ref." />
+            <node concept="1PaTwC" id="L0S2CpU6Jz" role="1Vez_I">
+              <node concept="3oM_SD" id="L0S2CpU6J$" role="1PaTwD">
+                <property role="3oM_SC" value="" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6J_" role="1PaTwD">
+                <property role="3oM_SC" value="Wrapper" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JA" role="1PaTwD">
+                <property role="3oM_SC" value="should" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JB" role="1PaTwD">
+                <property role="3oM_SC" value="be" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JC" role="1PaTwD">
+                <property role="3oM_SC" value="applied" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JD" role="1PaTwD">
+                <property role="3oM_SC" value="during" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JE" role="1PaTwD">
+                <property role="3oM_SC" value="IOutputNode" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JF" role="1PaTwD">
+                <property role="3oM_SC" value="resolution," />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JG" role="1PaTwD">
+                <property role="3oM_SC" value="instead" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JH" role="1PaTwD">
+                <property role="3oM_SC" value="of" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JI" role="1PaTwD">
+                <property role="3oM_SC" value="changing" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JJ" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="L0S2CpU6JK" role="1PaTwD">
+                <property role="3oM_SC" value="ref." />
               </node>
             </node>
           </node>

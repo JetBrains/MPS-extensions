@@ -79,7 +79,7 @@ public class StickyHeaders_BandCoversTableWidth_Test extends BaseTransformationT
           }
         }
       }
-      Assert.assertEquals(0, notPainted);
+      Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(notPainted));
 
       // header cells without the sticky style ("ID") are inside the frozen rows too and must not be hidden by the band
       int unstyledHeaders = 0;
@@ -100,7 +100,7 @@ public class StickyHeaders_BandCoversTableWidth_Test extends BaseTransformationT
       Assert.assertTrue(unstyledHeaderInk > 0);
 
       // nothing is painted below the band
-      Assert.assertEquals(marker.getRGB(), image.getRGB(left, bottom + 5));
+      Assert.assertEquals(Integer.valueOf(marker.getRGB()), Integer.valueOf(image.getRGB(left, bottom + 5)));
     }
   }
 }

@@ -20,7 +20,7 @@ public class EnumerationDescriptor_CuttingStrategy extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_MANUAL_0 = new EnumerationDescriptor.MemberDescriptor("MANUAL", "MANUAL", 0x32d28aa5f4562603L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379158019");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f45625feL, 0x32d28aa5f45625ffL, 0x32d28aa5f4562600L, 0x32d28aa5f4562603L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_ARD_0, myMember_MSD_0, myMember_MANUAL_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_ARD_0, myMember_MSD_0, myMember_MANUAL_0);
 
   @Nullable
   @Override

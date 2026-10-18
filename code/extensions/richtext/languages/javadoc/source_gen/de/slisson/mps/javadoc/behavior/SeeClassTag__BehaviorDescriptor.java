@@ -7,26 +7,22 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.mps.openapi.model.SNode;
 import java.util.Collections;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
+import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class SeeClassTag__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x4e0df6bde2654d63L, 0x9ca0ca97e44cf841L, 0xbb06e12e7b4b785L, "de.slisson.mps.javadoc.structure.SeeClassTag");
 
-  public static final SMethod<Iterable<String>> getTransformKeys_id7NYWYqYGfSm = new SMethodBuilder<Iterable<String>>(new SJavaCompoundTypeImpl((Class<Iterable<String>>) ((Class) Object.class))).name("getTransformKeys").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9006904477154868758L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<Iterable<String>> getTransformKeys_id7NYWYqYGfSm = new SMethodBuilder<>((Class<Iterable<String>>) ((Class) Object.class)).name("getTransformKeys").modifiers(9, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9006904477154868758L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTransformKeys_id7NYWYqYGfSm);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getTransformKeys_id7NYWYqYGfSm);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Iterable<String> getTransformKeys_id7NYWYqYGfSm(@NotNull SAbstractConcept __thisConcept__) {
     return Collections.singletonList("@see");
@@ -35,10 +31,6 @@ public final class SeeClassTag__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ SeeClassTag__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

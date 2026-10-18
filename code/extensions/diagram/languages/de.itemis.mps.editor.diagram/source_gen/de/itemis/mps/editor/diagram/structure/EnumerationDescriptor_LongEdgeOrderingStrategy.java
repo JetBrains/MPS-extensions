@@ -20,7 +20,7 @@ public class EnumerationDescriptor_LongEdgeOrderingStrategy extends EnumerationD
   private final EnumerationDescriptor.MemberDescriptor myMember_EQUAL_0 = new EnumerationDescriptor.MemberDescriptor("EQUAL", "EQUAL", 0x32d28aa5f456bdf8L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379196920");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f456bdefL, 0x32d28aa5f456bdf0L, 0x32d28aa5f456bdf3L, 0x32d28aa5f456bdf8L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_DUMMY_NODE_OVER_0, myMember_DUMMY_NODE_UNDER_0, myMember_EQUAL_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_DUMMY_NODE_OVER_0, myMember_DUMMY_NODE_UNDER_0, myMember_EQUAL_0);
 
   @Nullable
   @Override

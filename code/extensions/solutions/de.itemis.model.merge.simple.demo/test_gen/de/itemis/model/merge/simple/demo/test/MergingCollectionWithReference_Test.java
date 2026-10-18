@@ -84,7 +84,7 @@ public class MergingCollectionWithReference_Test extends BaseTransformationTest 
 
         SModel result = merger.mergeModels();
 
-        Assert.assertEquals(3, ListSequence.fromList(SModelOperations.nodes(result, null)).count());
+        Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(ListSequence.fromList(SModelOperations.nodes(result, null)).count()));
         TestBody.this.assertNodesAreEquals(result, getAnnotatedNode("updateReference"), "Main");
       });
     }
@@ -99,11 +99,11 @@ public class MergingCollectionWithReference_Test extends BaseTransformationTest 
 
         List<SNode> mergedNodes = SModelOperations.nodes(result, CONCEPTS.ConceptWithCollectionOfRef$Dg);
 
-        Assert.assertEquals(1, ListSequence.fromList(mergedNodes).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(mergedNodes).count()));
 
         SNode mergedNode = ListSequence.fromList(mergedNodes).first();
 
-        Assert.assertEquals(1, ListSequence.fromList(SLinkOperations.getChildren(mergedNode, LINKS.collectionRef$MD15)).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(mergedNode, LINKS.collectionRef$MD15)).count()));
 
         SNode mergedRef = ListSequence.fromList(SLinkOperations.getChildren(mergedNode, LINKS.collectionRef$MD15)).first();
 
@@ -177,11 +177,11 @@ public class MergingCollectionWithReference_Test extends BaseTransformationTest 
     public void assertReferenceIsNull(List<SNode> mergedNodes, final SNode node) {
       List<SNode> mergedNodesMain = ListSequence.fromList(mergedNodes).where((it) -> SPropertyOperations.getString(it, PROPS.id$VzAA).trim() == SPropertyOperations.getString(node, PROPS.id$VzAA).trim()).toList();
 
-      Assert.assertEquals("Not exactly one Node named " + SPropertyOperations.getString(node, PROPS.id$VzAA).trim() + " was merged, but " + IterableUtils.join(ListSequence.fromList(mergedNodes).select((it) -> SPropertyOperations.getString(it, PROPS.id$VzAA).trim()), ","), 1, ListSequence.fromList(mergedNodesMain).count());
+      Assert.assertEquals("Not exactly one Node named " + SPropertyOperations.getString(node, PROPS.id$VzAA).trim() + " was merged, but " + IterableUtils.join(ListSequence.fromList(mergedNodes).select((it) -> SPropertyOperations.getString(it, PROPS.id$VzAA).trim()), ","), Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(mergedNodesMain).count()));
 
       SNode mergedNode = ListSequence.fromList(mergedNodesMain).first();
 
-      Assert.assertEquals("Not exactly one 'CollectionRef'", 1, ListSequence.fromList(SLinkOperations.getChildren(mergedNode, LINKS.collectionRef$MD15)).count());
+      Assert.assertEquals("Not exactly one 'CollectionRef'", Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(mergedNode, LINKS.collectionRef$MD15)).count()));
 
       SNode mergedRef = ListSequence.fromList(SLinkOperations.getChildren(mergedNode, LINKS.collectionRef$MD15)).first();
 

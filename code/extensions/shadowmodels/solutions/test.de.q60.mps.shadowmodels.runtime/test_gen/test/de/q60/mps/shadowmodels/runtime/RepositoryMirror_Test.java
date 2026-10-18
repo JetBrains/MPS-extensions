@@ -48,7 +48,7 @@ public class RepositoryMirror_Test {
     });
     System.out.println("sizes = " + sizes);
     System.out.println("size = " + size);
-    Assert.assertEquals(2, ListSequence.fromList(sizes).count());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(ListSequence.fromList(sizes).count()));
     Assert.assertTrue((int) ListSequence.fromList(sizes).getElement(0) == 0);
     Assert.assertTrue(ListSequence.fromList(sizes).getElement(1) > 0);
   }

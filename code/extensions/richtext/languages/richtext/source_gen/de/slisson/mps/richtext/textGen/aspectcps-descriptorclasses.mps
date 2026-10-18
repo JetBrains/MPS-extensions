@@ -7,15 +7,18 @@
   <languages />
   <imports>
     <import index="mb0i" ref="r:1a7d6571-b994-4c94-b318-fc0a54a71ead(de.slisson.mps.richtext.textGen)" />
+    <import index="ksn4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.lang.smodel(MPS.Core/)" />
     <import index="kpbf" ref="7124e466-fc92-4803-a656-d7a6b7eb3910/java:jetbrains.mps.text.impl(MPS.TextGen/)" />
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
     <import index="yfwt" ref="7124e466-fc92-4803-a656-d7a6b7eb3910/java:jetbrains.mps.text.rt(MPS.TextGen/)" />
-    <import index="tpcf" ref="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
@@ -149,7 +152,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
@@ -208,13 +210,13 @@
       <node concept="3Tm6S6" id="m" role="1B3o_S" />
       <node concept="2eloPW" id="n" role="1tU5fm">
         <property role="2ely0U" value="de.slisson.mps.richtext.structure.LanguageConceptSwitch" />
-        <ref role="3uigEE" to="tpcf:1OW7rNmnulT" resolve="LanguageConceptSwitch" />
+        <ref role="3uigEE" to="ksn4:~ConceptIndex" resolve="ConceptIndex" />
       </node>
       <node concept="2ShNRf" id="o" role="33vP2m">
         <node concept="xCZzO" id="p" role="2ShVmc">
           <property role="xCZzQ" value="de.slisson.mps.richtext.structure.LanguageConceptSwitch" />
           <node concept="3uibUv" id="q" role="xCZzL">
-            <ref role="3uigEE" to="tpcf:1OW7rNmnulT" resolve="LanguageConceptSwitch" />
+            <ref role="3uigEE" to="ksn4:~ConceptIndex" resolve="ConceptIndex" />
           </node>
         </node>
       </node>
@@ -255,7 +257,7 @@
               <ref role="3cqZAo" node="e" resolve="myIndex" />
             </node>
             <node concept="liA8E" id="G" role="2OqNvi">
-              <ref role="37wK5l" to="tpcf:1OW7rNmnuDr" resolve="index" />
+              <ref role="37wK5l" to="ksn4:~ConceptIndex.index(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="index" />
               <node concept="37vLTw" id="H" role="37wK5m">
                 <ref role="3cqZAo" node="w" resolve="concept" />
               </node>
@@ -477,9 +479,9 @@
                     <ref role="37wK5l" to="yfwt:~TextGenContext.getPrimaryInput()" resolve="getPrimaryInput" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="1G" role="2OqNvi">
+                <node concept="3zqWPK" id="1G" role="2OqNvi">
                   <ref role="37wK5l" to="tbr6:ehGfXvI_DB" resolve="getText" />
-                  <uo k="s:originTrace" v="n:257181264606026451" />
+                  <uo k="s:originTrace" v="n:1092965592457912763" />
                 </node>
               </node>
             </node>

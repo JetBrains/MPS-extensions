@@ -26,7 +26,7 @@ public class CaretTestExtensions {
     Assert.assertNotNull(selectedCell);
     Assert.assertNotNull(selection);
     Assert.assertEquals(labelText, selectedCell.getText());
-    Assert.assertEquals(position, selection.getSelectionStart());
+    Assert.assertEquals(Integer.valueOf(position), Integer.valueOf(selection.getSelectionStart()));
 
     if (prevText != null) {
       EditorCell prevLeaf = CellTraversalUtil.getPrevLeaf(selectedCell);

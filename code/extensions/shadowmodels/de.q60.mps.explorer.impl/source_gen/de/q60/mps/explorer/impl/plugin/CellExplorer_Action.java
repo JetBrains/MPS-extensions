@@ -80,13 +80,13 @@ public class CellExplorer_Action extends BaseAction {
       TreeNode tnodeToExpand = masterTree.find(new ITreeNodeFinder() {
         @Override
         public boolean matches(TreeNode tnode) {
-          EditorCell cell = as_fsqam2_a0a0a0a0a0a0d0d0f(check_x2xx4g_a0a0a0a0a0a0d0d0a(as_fsqam2_a0a0a0a0a0a0a0a3a3a5(check_x2xx4g_a0a0a0a0a0a0a0d0d0a(as_fsqam2_a0a0a0a0a0a0a0a0a0d0d0f(tnode, TNode.class)), ExplorerElement.class)), EditorCell.class);
+          EditorCell cell = as_fsqam2_a0a0a0a0a0a0d0d0f(check_fsqam2_a0a0a0a0a0a0d0d0f(as_fsqam2_a0a0a0a0a0a0a0a3a3a5(check_fsqam2_a0a0a0a0a0a0a0d0d0f(as_fsqam2_a0a0a0a0a0a0a0a0a0d0d0f(tnode, TNode.class)), ExplorerElement.class)), EditorCell.class);
           return Objects.equals(cell, event.getData(MPSEditorDataKeys.EDITOR_CELL));
         }
 
         @Override
         public boolean searchInside(TreeNode tnode) {
-          EditorCell cell = as_fsqam2_a0a0a2a0a0a0d0d0f(check_x2xx4g_a0a0a2a0a0a0d0d0a(as_fsqam2_a0a0a0a0c0a0a0a3a3a5(check_x2xx4g_a0a0a0a2a0a0a0d0d0a(as_fsqam2_a0a0a0a0a0a2a0a0a0d0d0f(tnode, TNode.class)), ExplorerElement.class)), EditorCell.class);
+          EditorCell cell = as_fsqam2_a0a0a2a0a0a0d0d0f(check_fsqam2_a0a0a2a0a0a0d0d0f(as_fsqam2_a0a0a0a0c0a0a0a3a3a5(check_fsqam2_a0a0a0a2a0a0a0d0d0f(as_fsqam2_a0a0a0a0a0a2a0a0a0d0d0f(tnode, TNode.class)), ExplorerElement.class)), EditorCell.class);
           return cell == null || SetSequence.fromSet(ancestors).contains(cell);
         }
       });
@@ -98,25 +98,25 @@ public class CellExplorer_Action extends BaseAction {
     }
     ProjectPluginManager.getInstance(event.getData(CommonDataKeys.PROJECT)).getTool(GenericExplorerTool_Tool.class).openTool(true);
   }
-  private static Object check_x2xx4g_a0a0a0a0a0a0d0d0a(ExplorerElement checkedDotOperand) {
+  private static Object check_fsqam2_a0a0a0a0a0a0d0d0f(ExplorerElement checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.owner;
     }
     return null;
   }
-  private static Object check_x2xx4g_a0a0a0a0a0a0a0d0d0a(TNode checkedDotOperand) {
+  private static Object check_fsqam2_a0a0a0a0a0a0a0d0d0f(TNode checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getUserObject();
     }
     return null;
   }
-  private static Object check_x2xx4g_a0a0a2a0a0a0d0d0a(ExplorerElement checkedDotOperand) {
+  private static Object check_fsqam2_a0a0a2a0a0a0d0d0f(ExplorerElement checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.owner;
     }
     return null;
   }
-  private static Object check_x2xx4g_a0a0a0a2a0a0a0d0d0a(TNode checkedDotOperand) {
+  private static Object check_fsqam2_a0a0a0a2a0a0a0d0d0f(TNode checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getUserObject();
     }

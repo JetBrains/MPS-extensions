@@ -15,7 +15,7 @@
       <unit at="8,0,12,0" name="de.itemis.mps.editor.pagination.demolang.structure.IconContainer" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,30,0" name="de.itemis.mps.editor.pagination.demolang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,38,0" name="de.itemis.mps.editor.pagination.demolang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,74,0" name="de.itemis.mps.editor.pagination.demolang.structure.StructureAspectDescriptor" />
@@ -36,8 +36,8 @@
       <scope id="2646108724982184770" at="27,38,34,26" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2646108724982184770" at="13,0,14,0" concept="5" trace="Test" />
-      <node id="2646108724982184770" at="17,48,18,43" concept="0" />
+      <node id="2646108724982184770" at="15,0,16,0" concept="5" trace="Test" />
+      <node id="2646108724982184770" at="19,48,20,43" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2646108724982184770" at="17,0,18,0" concept="1" trace="myConceptTest" />
@@ -72,8 +72,8 @@
       <scope id="2646108724982559786" at="20,43,26,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2646108724982559786" at="12,0,13,0" concept="5" trace="ChildTest" />
-      <node id="2646108724982559786" at="16,116,17,48" concept="0" />
+      <node id="2646108724982559786" at="14,0,15,0" concept="5" trace="ChildTest" />
+      <node id="2646108724982559786" at="18,116,19,48" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2646108724982559786" at="16,0,17,0" concept="1" trace="myConceptChildTest" />

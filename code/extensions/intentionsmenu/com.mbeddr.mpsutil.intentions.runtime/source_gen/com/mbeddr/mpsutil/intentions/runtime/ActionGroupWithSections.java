@@ -21,7 +21,7 @@ import com.intellij.openapi.actionSystem.Presentation;
 import jetbrains.mps.intentions.icons.Icons;
 
 /**
- * An action group that organizes its children into sections according to {@link com.mbeddr.mpsutil.intentions.runtime.ActionSection }
+ * An action group that organizes its children into sections according to {@link com.mbeddr.mpsutil.intentions.runtime.ActionSection} 
  */
 /*package*/ class ActionGroupWithSections extends DefaultActionGroup {
 

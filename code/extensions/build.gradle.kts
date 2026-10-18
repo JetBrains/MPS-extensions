@@ -27,11 +27,6 @@ dependencies {
     jbr(libs.jbr)
 }
 
-repositories {
-    maven { url = uri("https://artifacts.itemis.cloud/repository/maven-mps/") }
-    mavenCentral()
-}
-
 val skipResolveMps = project.hasProperty("mpsHomeDir")
 
 if (skipResolveMps) {
@@ -382,4 +377,11 @@ val copyChangelog by tasks.registering {
 
 tasks.build {
     dependsOn(copyChangelog)
+}
+
+configurations.consumable("providedDependenciesPom") {
+    val pom = tasks.named<GenerateMavenPom>("generatePomFileForExtensionsPublication")
+    outgoing.artifact(pom.map { it.destination }) {
+        builtBy(pom)
+    }
 }

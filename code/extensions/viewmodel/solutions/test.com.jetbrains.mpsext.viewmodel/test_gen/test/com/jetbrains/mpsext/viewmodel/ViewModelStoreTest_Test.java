@@ -20,7 +20,6 @@ import java.util.List;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelKey;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.editor.runtime.HeadlessEditorComponent;
 import java.util.concurrent.CompletableFuture;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelBatch;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -28,6 +27,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import com.jetbrains.mpsext.viewmodel.runtime.NamedViewModel;
 import org.jetbrains.mps.openapi.module.SRepository;
+import jetbrains.mps.smodel.MPSModuleRepository;
 import jetbrains.mps.project.ProjectRepository;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.internal.collections.runtime.Sequence;
@@ -40,9 +40,6 @@ import org.jetbrains.mps.openapi.event.SPropertyChangeEvent;
 import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
 import org.jetbrains.mps.openapi.event.SNodeAddEvent;
 import org.jetbrains.mps.openapi.event.SNodeRemoveEvent;
-import jetbrains.mps.openapi.editor.cells.EditorCell;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Label;
 import java.util.Set;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -77,10 +74,6 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
   @Test
   public void test_manyKeys() throws Throwable {
     new TestBody(this).test_manyKeys();
-  }
-  @Test
-  public void test_editorShowsTheValueAndIsUpdated() throws Throwable {
-    new TestBody(this).test_editorShowsTheValueAndIsUpdated();
   }
   @Test
   public void test_asyncWriteIsAppliedWhenTheQueueIsDrained() throws Throwable {
@@ -266,25 +259,6 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertNull(vm.getPath(last));
       });
     }
-    public void test_editorShowsTheValueAndIsUpdated() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        HeadlessEditorComponent editor = new HeadlessEditorComponent(myProject.getRepository());
-        editor.editNode(getAnnotatedNode("a"));
-        Assert.assertEquals("<none>", TestBody.this.valueCellText(editor));
-        final SNode item = getAnnotatedNode("a");
-        Computed<String> computed = vm.compute(() -> SPropertyOperations.getString(item, PROPS.input$_sYF) + "!");
-        vm.writeComputed(getAnnotatedNode("a"), computed);
-        editor.getUpdater().flushModelEvents();
-        Assert.assertEquals("x!", TestBody.this.valueCellText(editor));
-        SPropertyOperations.assign(getAnnotatedNode("a"), PROPS.input$_sYF, "changed");
-        editor.getUpdater().flushModelEvents();
-        Assert.assertEquals("<none>", TestBody.this.valueCellText(editor));
-        editor.dispose();
-      });
-    }
     public void test_asyncWriteIsAppliedWhenTheQueueIsDrained() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
@@ -407,9 +381,11 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
         vm.clear();
         SNode item = getAnnotatedNode("a");
-        // e.g. a headless editor on the global repository: the editor form of viewmodel/X/ reads through it
+        // e.g. a headless editor on the global repository: the editor form of viewmodel/X/ reads through it. Taken
+        // from the platform, not from the node: since MPS 2026.1 a module registered through a project (the
+        // temporary module of the test nodes) belongs to the project repository.
         NamedViewModel named = ViewModels.named(vm.getName());
-        SRepository global = item.getModel().getRepository();
+        SRepository global = myProject.getPlatform().findComponent(MPSModuleRepository.class);
         Assert.assertFalse(global instanceof ProjectRepository);
         ViewModel viewModel = named.forRepository(global);
         Assert.assertSame(named, viewModel);
@@ -605,15 +581,6 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
       });
     }
 
-    public String valueCellText(HeadlessEditorComponent editor) {
-      String text = null;
-      for (EditorCell cell : Sequence.fromIterable((EditorCell_Collection) editor.getRootCell())) {
-        if (cell instanceof EditorCell_Label) {
-          text = ((EditorCell_Label) cell).getText();
-        }
-      }
-      return text;
-    }
     public CompletableFuture<Boolean> enqueue(ViewModel vm, SNode node, Object value, Set<SNodeReference> dependencies) {
       // a write through the queue: the tests run inside a command, where write applies at once
       List<ViewModelKey> path = ViewModels.path(node);

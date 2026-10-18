@@ -85,22 +85,22 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="3133179214568824809" name="jetbrains.mps.lang.text.structure.NodeWrapperElement" flags="nn" index="tu5oc">
+      <concept id="3133179214568824809" name="jetbrains.mps.lang.text.structure.NodeWrapperElement" flags="ng" index="tu5oc">
         <child id="3133179214568824810" name="node" index="tu5of" />
       </concept>
       <concept id="1094247804558289146" name="jetbrains.mps.lang.text.structure.BulletLine" flags="ng" index="2DRihI" />
       <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ngI" index="2RT3b8">
         <property id="5106752179536586491" name="indentation" index="2RT3bR" />
       </concept>
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
         <property id="6328114375520539781" name="url" index="1X82VU" />
         <property id="6328114375520539777" name="italic" index="1X82VY" />
       </concept>
-      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="ng" index="1Pa9Pv">
         <child id="2535923850359210936" name="lines" index="1PaQFQ" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -4692,6 +4692,64 @@
           </node>
           <node concept="3oM_SD" id="7Ub7KQvMMhr" role="1PaTwD">
             <property role="3oM_SC" value="`version`." />
+          </node>
+        </node>
+      </node>
+      <node concept="15bAme" id="5MqMjndObm6" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOM/removed" />
+        <node concept="2DRihI" id="5MqMjndObm7" role="15bAlk">
+          <node concept="3oM_SD" id="5MqMjndObm8" role="1PaTwD">
+            <property role="3oM_SC" value="MPS.ThirdParty" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObm9" role="1PaTwD">
+            <property role="3oM_SC" value="has" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObma" role="1PaTwD">
+            <property role="3oM_SC" value="been" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObmb" role="1PaTwD">
+            <property role="3oM_SC" value="removed" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObmc" role="1PaTwD">
+            <property role="3oM_SC" value="completely." />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObmd" role="1PaTwD">
+            <property role="3oM_SC" value="MPS.IDEA" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObrP" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObrQ" role="1PaTwD">
+            <property role="3oM_SC" value="MPS.IDEA.Modules" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObrR" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObrS" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObrT" role="1PaTwD">
+            <property role="3oM_SC" value="used" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObrU" role="1PaTwD">
+            <property role="3oM_SC" value="instead." />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObrV" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="15bAme" id="5MqMjndObme" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOI/deprecated" />
+        <node concept="2DRihI" id="5MqMjndObmf" role="15bAlk">
+          <node concept="3oM_SD" id="5MqMjndObmg" role="1PaTwD">
+            <property role="3oM_SC" value="MPS.Kotlin" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObmh" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="5MqMjndObmi" role="1PaTwD">
+            <property role="3oM_SC" value="deprecated." />
           </node>
         </node>
       </node>

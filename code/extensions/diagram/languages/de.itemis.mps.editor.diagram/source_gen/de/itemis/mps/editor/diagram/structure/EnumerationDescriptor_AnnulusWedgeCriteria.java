@@ -19,7 +19,7 @@ public class EnumerationDescriptor_AnnulusWedgeCriteria extends EnumerationDescr
   private final EnumerationDescriptor.MemberDescriptor myMember_NODE_SIZE_0 = new EnumerationDescriptor.MemberDescriptor("NODE_SIZE", "NODE_SIZE", 0x5193e20464df3559L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/5878290447148725593");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x5193e20464df3555L, 0x5193e20464df3556L, 0x5193e20464df3559L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_LEAF_NUMBER_0, myMember_NODE_SIZE_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_LEAF_NUMBER_0, myMember_NODE_SIZE_0);
 
   @Nullable
   @Override

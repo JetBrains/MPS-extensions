@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.awt.Color;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -27,11 +26,11 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class Style__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x7b3261eb68d94feaL, 0xa99c9ac789cea929L, 0x58117ba23904afddL, "com.jetbrains.mpsext.richtext.styles.structure.Style");
 
-  public static final SMethod<Color> getForegroundColor_id2FW1ko3g92M = new SMethodBuilder<Color>(new SJavaCompoundTypeImpl(Color.class)).name("getForegroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3097356441984471218L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
-  public static final SMethod<Color> getBackgroundColor_id2FW1ko3kRTX = new SMethodBuilder<Color>(new SJavaCompoundTypeImpl(Color.class)).name("getBackgroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3097356441985711741L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
-  public static final SMethod<Integer> getFontStyle_id2FW1ko3gawB = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFontStyle").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3097356441984477223L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
+  public static final SMethod<Color> getForegroundColor_id2FW1ko3g92M = new SMethodBuilder<>(Color.class).name("getForegroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3097356441984471218L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
+  public static final SMethod<Color> getBackgroundColor_id2FW1ko3kRTX = new SMethodBuilder<>(Color.class).name("getBackgroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3097356441985711741L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
+  public static final SMethod<Integer> getFontStyle_id2FW1ko3gawB = new SMethodBuilder<>(Integer.TYPE).name("getFontStyle").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3097356441984477223L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getForegroundColor_id2FW1ko3g92M, getBackgroundColor_id2FW1ko3kRTX, getFontStyle_id2FW1ko3gawB);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getForegroundColor_id2FW1ko3g92M, getBackgroundColor_id2FW1ko3kRTX, getFontStyle_id2FW1ko3gawB);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.bold$M$uQ, false);

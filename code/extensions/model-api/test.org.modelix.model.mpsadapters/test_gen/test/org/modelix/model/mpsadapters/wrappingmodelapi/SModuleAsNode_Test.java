@@ -125,7 +125,7 @@ public class SModuleAsNode_Test extends BaseTransformationTest {
           while (it.hasNext()) {
             ListSequence.fromList(children).addElement(it.next());
           }
-          Assert.assertEquals(22, ListSequence.fromList(children).count());
+          Assert.assertEquals(Integer.valueOf(22), Integer.valueOf(ListSequence.fromList(children).count()));
 
           INode access = ListSequence.fromList(children).findFirst(new _FunctionTypes._return_P1_E0<Boolean, INode>() {
             public Boolean invoke(INode it) {
@@ -158,16 +158,16 @@ public class SModuleAsNode_Test extends BaseTransformationTest {
             ListSequence.fromList(children).addElement(it.next());
           }
 
-          Assert.assertEquals(5, ListSequence.fromList(children).where(new _FunctionTypes._return_P1_E0<Boolean, INode>() {
+          Assert.assertEquals(Integer.valueOf(5), Integer.valueOf(ListSequence.fromList(children).where(new _FunctionTypes._return_P1_E0<Boolean, INode>() {
             public Boolean invoke(INode it) {
               return Objects.equals(it.getPropertyValue("explicit"), "true");
             }
-          }).count());
-          Assert.assertEquals(3, ListSequence.fromList(children).where(new _FunctionTypes._return_P1_E0<Boolean, INode>() {
+          }).count()));
+          Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(ListSequence.fromList(children).where(new _FunctionTypes._return_P1_E0<Boolean, INode>() {
             public Boolean invoke(INode it) {
               return Objects.equals(it.getPropertyValue("explicit"), "false");
             }
-          }).count());
+          }).count()));
 
           INode jdk = ListSequence.fromList(children).findFirst(new _FunctionTypes._return_P1_E0<Boolean, INode>() {
             public Boolean invoke(INode it) {

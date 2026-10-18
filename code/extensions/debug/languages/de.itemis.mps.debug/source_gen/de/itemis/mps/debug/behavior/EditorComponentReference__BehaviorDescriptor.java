@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import jetbrains.mps.openapi.editor.EditorComponent;
 import jetbrains.mps.project.Project;
@@ -27,14 +26,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class EditorComponentReference__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf7e353e6c7a84110L, 0xa2631a2503e8b13cL, 0x795ea305a55cc646L, "de.itemis.mps.debug.structure.EditorComponentReference");
 
-  public static final SMethod<Integer> getInvalidComponentHashCode_id7_uCKm_oD5J = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getInvalidComponentHashCode").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771044946287L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
-  public static final SMethod<String> getText_id7_uCKm_o3kH = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getText").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771044791597L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
-  public static final SMethod<String> getTextWhenBroken_id7_uCKm_o3la = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTextWhenBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771044791626L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
-  public static final SMethod<EditorComponent> getEditorComponent_id7_uCKm_plXx = new SMethodBuilder<EditorComponent>(new SJavaCompoundTypeImpl(EditorComponent.class)).name("getEditorComponent").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771045130081L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, ""));
-  public static final SMethod<SNode> getEditedNode_id7_uCKm_pPxc = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getEditedNode").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771045259340L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, ""));
-  public static final SMethod<Boolean> isBroken_id7_uCKm_o3li = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771044791634L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, ""));
+  public static final SMethod<Integer> getInvalidComponentHashCode_id7_uCKm_oD5J = new SMethodBuilder<>(Integer.TYPE).name("getInvalidComponentHashCode").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771044946287L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
+  public static final SMethod<String> getText_id7_uCKm_o3kH = new SMethodBuilder<>(String.class).name("getText").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771044791597L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
+  public static final SMethod<String> getTextWhenBroken_id7_uCKm_o3la = new SMethodBuilder<>(String.class).name("getTextWhenBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771044791626L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2();
+  public static final SMethod<EditorComponent> getEditorComponent_id7_uCKm_plXx = new SMethodBuilder<>(EditorComponent.class).name("getEditorComponent").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771045130081L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, "project"));
+  public static final SMethod<SNode> getEditedNode_id7_uCKm_pPxc = new SMethodBuilder<>(SNode.class).name("getEditedNode").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771045259340L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, "project"));
+  public static final SMethod<Boolean> isBroken_id7_uCKm_o3li = new SMethodBuilder<>(Boolean.TYPE).name("isBroken").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8745606771044791634L).languageId(0xa2631a2503e8b13cL, 0xf7e353e6c7a84110L).build2(SMethodBuilder.createJavaParameter(Project.class, "project"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInvalidComponentHashCode_id7_uCKm_oD5J, getText_id7_uCKm_o3kH, getTextWhenBroken_id7_uCKm_o3la, getEditorComponent_id7_uCKm_plXx, getEditedNode_id7_uCKm_pPxc, isBroken_id7_uCKm_o3li);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInvalidComponentHashCode_id7_uCKm_oD5J, getText_id7_uCKm_o3kH, getTextWhenBroken_id7_uCKm_o3la, getEditorComponent_id7_uCKm_plXx, getEditedNode_id7_uCKm_pPxc, isBroken_id7_uCKm_o3li);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.componentHashCode$lsMc, (int) EditorComponentReference__BehaviorDescriptor.getInvalidComponentHashCode_id7_uCKm_oD5J.invoke(SNodeOperations.asSConcept(CONCEPTS.EditorComponentReference$uw)));

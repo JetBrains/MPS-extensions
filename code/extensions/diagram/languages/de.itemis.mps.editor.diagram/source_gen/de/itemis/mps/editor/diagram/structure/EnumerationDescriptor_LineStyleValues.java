@@ -19,7 +19,7 @@ public class EnumerationDescriptor_LineStyleValues extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_DASHED_0 = new EnumerationDescriptor.MemberDescriptor("DASHED", "DASHED", 0x60f9680c89017036L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/9167550852342474380");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x60f9680c89017034L, 0x60f9680c89017035L, 0x60f9680c89017036L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_SOLID_0, myMember_DASHED_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_SOLID_0, myMember_DASHED_0);
 
   @Nullable
   @Override

@@ -273,7 +273,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
     return diagramCell.value;
   }
   private EditorCell createDiagramConnector_1() {
-    return createDiagramConnector_0(getEditorContext(), myNode);
+    return createDiagramConnector_0(getEditorContext(), getNode());
   }
   private boolean _StyleParameter_QueryFunction_awgniv_a0a() {
     return SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(getNode()), CONCEPTS.BoxTest$UP) && SPropertyOperations.getBoolean(SNodeOperations.cast(SNodeOperations.getContainingRoot(getNode()), CONCEPTS.IBaseGraphTest$wA), PROPS.applyNodeStyles$p_L4);

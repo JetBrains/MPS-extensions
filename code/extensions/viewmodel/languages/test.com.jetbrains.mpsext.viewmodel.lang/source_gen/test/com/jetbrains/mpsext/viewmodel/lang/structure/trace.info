@@ -12,7 +12,7 @@
       <unit at="11,0,40,0" name="test.com.jetbrains.mpsext.viewmodel.lang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,30,0" name="test.com.jetbrains.mpsext.viewmodel.lang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,38,0" name="test.com.jetbrains.mpsext.viewmodel.lang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,74,0" name="test.com.jetbrains.mpsext.viewmodel.lang.structure.StructureAspectDescriptor" />
@@ -33,8 +33,8 @@
       <scope id="5871421566393554577" at="28,42,35,30" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5871421566393554577" at="13,0,14,0" concept="5" trace="TestTree" />
-      <node id="5871421566393554577" at="17,47,18,46" concept="0" />
+      <node id="5871421566393554577" at="15,0,16,0" concept="5" trace="TestTree" />
+      <node id="5871421566393554577" at="19,47,20,46" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5871421566393554577" at="17,0,18,0" concept="1" trace="myConceptTestTree" />
@@ -71,8 +71,8 @@
       <scope id="7935325697741599734" at="20,42,27,30" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7935325697741599734" at="12,0,13,0" concept="5" trace="TestItem" />
-      <node id="7935325697741599734" at="16,115,17,47" concept="0" />
+      <node id="7935325697741599734" at="14,0,15,0" concept="5" trace="TestItem" />
+      <node id="7935325697741599734" at="18,115,19,47" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7935325697741599734" at="16,0,17,0" concept="1" trace="myConceptTestItem" />

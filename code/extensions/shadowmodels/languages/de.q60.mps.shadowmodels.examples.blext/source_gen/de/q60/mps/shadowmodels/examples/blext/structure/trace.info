@@ -13,7 +13,7 @@
       <unit at="11,0,62,0" name="de.q60.mps.shadowmodels.examples.blext.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,36,0" name="de.q60.mps.shadowmodels.examples.blext.structure.LanguageConceptSwitch" />
+      <unit at="12,0,44,0" name="de.q60.mps.shadowmodels.examples.blext.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,121,0" name="de.q60.mps.shadowmodels.examples.blext.structure.StructureAspectDescriptor" />
@@ -33,8 +33,8 @@
       <scope id="7651629045960405901" at="23,48,29,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7651629045960405901" at="12,0,13,0" concept="6" trace="ErrorStatement" />
-      <node id="7651629045960405901" at="19,116,20,53" concept="0" />
+      <node id="7651629045960405901" at="14,0,15,0" concept="6" trace="ErrorStatement" />
+      <node id="7651629045960405901" at="21,116,22,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7651629045960405901" at="16,0,17,0" concept="1" trace="myConceptErrorStatement" />
@@ -71,8 +71,8 @@
       <scope id="7898342489378057150" at="30,59,36,47" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7898342489378057150" at="13,0,14,0" concept="6" trace="NullAlternativeExpression" />
-      <node id="7898342489378057150" at="20,53,21,64" concept="0" />
+      <node id="7898342489378057150" at="15,0,16,0" concept="6" trace="NullAlternativeExpression" />
+      <node id="7898342489378057150" at="22,53,23,64" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7898342489378057150" at="17,0,18,0" concept="1" trace="myConceptNullAlternativeExpression" />
@@ -108,8 +108,8 @@
       <scope id="7898342489379231356" at="37,48,43,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7898342489379231356" at="14,0,15,0" concept="6" trace="UntilStatement" />
-      <node id="7898342489379231356" at="21,64,22,53" concept="0" />
+      <node id="7898342489379231356" at="16,0,17,0" concept="6" trace="UntilStatement" />
+      <node id="7898342489379231356" at="23,64,24,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7898342489379231356" at="18,0,19,0" concept="1" trace="myConceptUntilStatement" />
@@ -146,8 +146,8 @@
       <scope id="8286906820977887342" at="44,58,50,46" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8286906820977887342" at="15,0,16,0" concept="6" trace="VariableWithInferredType" />
-      <node id="8286906820977887342" at="22,53,23,63" concept="0" />
+      <node id="8286906820977887342" at="17,0,18,0" concept="6" trace="VariableWithInferredType" />
+      <node id="8286906820977887342" at="24,53,25,63" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8286906820977887342" at="19,0,20,0" concept="1" trace="myConceptVariableWithInferredType" />
@@ -184,8 +184,8 @@
       <scope id="8286906820978307369" at="51,68,57,56" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8286906820978307369" at="16,0,17,0" concept="6" trace="VariableWithInferredType_Reference" />
-      <node id="8286906820978307369" at="23,63,24,73" concept="0" />
+      <node id="8286906820978307369" at="18,0,19,0" concept="6" trace="VariableWithInferredType_Reference" />
+      <node id="8286906820978307369" at="25,63,26,73" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8286906820978307369" at="20,0,21,0" concept="1" trace="myConceptVariableWithInferredType_Reference" />

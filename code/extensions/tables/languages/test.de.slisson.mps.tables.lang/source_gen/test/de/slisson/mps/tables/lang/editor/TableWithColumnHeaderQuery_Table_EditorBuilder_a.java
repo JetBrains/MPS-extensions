@@ -123,7 +123,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
 
   }
   private EditorCell createTable_1() {
-    return createTable_0(getEditorContext(), myNode);
+    return createTable_0(getEditorContext(), getNode());
   }
   public Grid createChildsVertical_h9d9bq_a0(final EditorContext editorContext, final SNode node) {
     Grid grid = new Grid();

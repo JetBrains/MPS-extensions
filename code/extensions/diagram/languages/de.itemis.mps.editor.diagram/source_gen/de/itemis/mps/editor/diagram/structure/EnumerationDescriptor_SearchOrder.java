@@ -19,7 +19,7 @@ public class EnumerationDescriptor_SearchOrder extends EnumerationDescriptorBase
   private final EnumerationDescriptor.MemberDescriptor myMember_BFS_0 = new EnumerationDescriptor.MemberDescriptor("BFS", "BFS", 0x6a0cd762abacd4bL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/477607467907992907");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6a0cd762abacd3dL, 0x6a0cd762abacd3eL, 0x6a0cd762abacd4bL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_DFS_0, myMember_BFS_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_DFS_0, myMember_BFS_0);
 
   @Nullable
   @Override

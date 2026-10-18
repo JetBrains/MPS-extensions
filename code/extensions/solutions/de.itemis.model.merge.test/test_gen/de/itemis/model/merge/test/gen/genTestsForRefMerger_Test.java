@@ -123,7 +123,7 @@ public class genTestsForRefMerger_Test extends BaseTransformationTest {
 
         SNode observed = SNodeOperations.cast(merged, CONCEPTS.OtherData$c7);
 
-        Assert.assertEquals(666, SPropertyOperations.getInteger(observed, PROPS.something$WMg9));
+        Assert.assertEquals(Integer.valueOf(666), Integer.valueOf(SPropertyOperations.getInteger(observed, PROPS.something$WMg9)));
       });
     }
 

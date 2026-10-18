@@ -22,11 +22,11 @@ public class Basic_UsingLangExt_Test {
         return 10;
       });
       int result = f.invoke(1);
-      Assert.assertEquals(10, result);
-      Assert.assertEquals(1, evalCount.value);
+      Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(evalCount.value));
       result = f.invoke(1);
-      Assert.assertEquals(10, result);
-      Assert.assertEquals(1, evalCount.value);
+      Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(evalCount.value));
     });
   }
   @Test
@@ -39,17 +39,17 @@ public class Basic_UsingLangExt_Test {
         return 10;
       });
       int result = f.invoke(1);
-      Assert.assertEquals(10, result);
-      Assert.assertEquals(1, evalCount.value);
+      Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(evalCount.value));
       result = f.invoke(1);
-      Assert.assertEquals(10, result);
-      Assert.assertEquals(1, evalCount.value);
+      Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(evalCount.value));
 
       DependencyBroadcaster.INSTANCE.dependenciesChanged(Sequence.<DependencyKey>singleton(new SimpleDependencyKey("a")));
 
       result = f.invoke(1);
-      Assert.assertEquals(10, result);
-      Assert.assertEquals(2, evalCount.value);
+      Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(evalCount.value));
     });
   }
   @Test
@@ -62,17 +62,17 @@ public class Basic_UsingLangExt_Test {
         return value.get() * 2;
       });
       int result = f.invoke(1);
-      Assert.assertEquals(20, result);
-      Assert.assertEquals(evalCount.value, 1);
+      Assert.assertEquals(Integer.valueOf(20), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(1));
       result = f.invoke(1);
-      Assert.assertEquals(20, result);
-      Assert.assertEquals(evalCount.value, 1);
+      Assert.assertEquals(Integer.valueOf(20), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(1));
 
       value.set(7);
 
       result = f.invoke(1);
-      Assert.assertEquals(14, result);
-      Assert.assertEquals(evalCount.value, 2);
+      Assert.assertEquals(Integer.valueOf(14), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(evalCount.value), Integer.valueOf(2));
     });
   }
   @Test
@@ -92,25 +92,25 @@ public class Basic_UsingLangExt_Test {
         return f1.invoke(1) * value2.get() * 7;
       });
       int result = f2.invoke(2);
-      Assert.assertEquals(2 * 3 * 5 * 7, result);
-      Assert.assertEquals(evalCount1.value, 1);
-      Assert.assertEquals(evalCount2.value, 1);
+      Assert.assertEquals(Integer.valueOf(2 * 3 * 5 * 7), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(evalCount1.value), Integer.valueOf(1));
+      Assert.assertEquals(Integer.valueOf(evalCount2.value), Integer.valueOf(1));
       result = f2.invoke(2);
-      Assert.assertEquals(2 * 3 * 5 * 7, result);
-      Assert.assertEquals(evalCount1.value, 1);
-      Assert.assertEquals(evalCount2.value, 1);
+      Assert.assertEquals(Integer.valueOf(2 * 3 * 5 * 7), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(evalCount1.value), Integer.valueOf(1));
+      Assert.assertEquals(Integer.valueOf(evalCount2.value), Integer.valueOf(1));
 
       value1.set(11);
       result = f2.invoke(2);
-      Assert.assertEquals(11 * 3 * 5 * 7, result);
-      Assert.assertEquals(evalCount1.value, 2);
-      Assert.assertEquals(evalCount2.value, 2);
+      Assert.assertEquals(Integer.valueOf(11 * 3 * 5 * 7), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(evalCount1.value), Integer.valueOf(2));
+      Assert.assertEquals(Integer.valueOf(evalCount2.value), Integer.valueOf(2));
 
       value2.set(13);
       result = f2.invoke(2);
-      Assert.assertEquals(11 * 13 * 5 * 7, result);
-      Assert.assertEquals(evalCount1.value, 2);
-      Assert.assertEquals(evalCount2.value, 3);
+      Assert.assertEquals(Integer.valueOf(11 * 13 * 5 * 7), Integer.valueOf(result));
+      Assert.assertEquals(Integer.valueOf(evalCount1.value), Integer.valueOf(2));
+      Assert.assertEquals(Integer.valueOf(evalCount2.value), Integer.valueOf(3));
     });
   }
 }

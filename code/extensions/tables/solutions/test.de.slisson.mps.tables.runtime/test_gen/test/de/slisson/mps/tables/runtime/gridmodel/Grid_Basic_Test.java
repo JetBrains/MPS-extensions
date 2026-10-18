@@ -14,8 +14,8 @@ public class Grid_Basic_Test {
   private Grid grid;
   @Test
   public void test_size() throws Exception {
-    Assert.assertEquals(1, grid.getSizeX());
-    Assert.assertEquals(1, grid.getSizeY());
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(grid.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(grid.getSizeY()));
   }
   @Test
   public void test_element_is_set() throws Exception {
@@ -33,20 +33,20 @@ public class Grid_Basic_Test {
   @Test
   public void test_auto_size() throws Exception {
     grid.setElement(1, 2, new GridLeaf("A"));
-    Assert.assertEquals(2, grid.getSizeX());
-    Assert.assertEquals(3, grid.getSizeY());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(grid.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(grid.getSizeY()));
   }
   @Test
   public void test_default_values_on_autoexpand() throws Exception {
-    Assert.assertEquals(1, grid.getSizeX());
-    Assert.assertEquals(1, grid.getSizeY());
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(grid.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(grid.getSizeY()));
     grid.setElement(1, 1, new GridLeaf("A"));
     Assert.assertNotNull(grid.getElement(0, 0));
     Assert.assertNotNull(grid.getElement(1, 1));
     Assert.assertNotNull(grid.getElement(1, 0));
     Assert.assertNotNull(grid.getElement(0, 1));
-    Assert.assertEquals(2, grid.getSizeX());
-    Assert.assertEquals(2, grid.getSizeY());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(grid.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(grid.getSizeY()));
   }
   @Test
   public void test_values_dont_move_on_autoexpand() throws Exception {

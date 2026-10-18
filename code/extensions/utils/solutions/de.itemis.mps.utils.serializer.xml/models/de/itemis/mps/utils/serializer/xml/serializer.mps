@@ -5,7 +5,7 @@
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="-1" />
+    <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
@@ -34,6 +34,9 @@
       <concept id="1238853782547" name="jetbrains.mps.baseLanguage.tuples.structure.IndexedTupleLiteral" flags="nn" index="1Ls8ON">
         <child id="1238853845806" name="component" index="1Lso8e" />
       </concept>
+    </language>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
@@ -231,7 +234,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
@@ -1813,7 +1815,7 @@
                     <node concept="37vLTw" id="6ADng3LaZO" role="2Oq$k0">
                       <ref role="3cqZAo" node="6ADng3LaCp" resolve="dataType" />
                     </node>
-                    <node concept="2qgKlT" id="2B_XTD7hpjU" role="2OqNvi">
+                    <node concept="3zqWPK" id="WEZADybqbs" role="2OqNvi">
                       <ref role="37wK5l" to="tpcn:hKtGkcn" resolve="isSimpleInteger" />
                     </node>
                   </node>
@@ -1822,7 +1824,7 @@
                       <node concept="37vLTw" id="6ADng3Lcce" role="2Oq$k0">
                         <ref role="3cqZAo" node="6ADng3LaCp" resolve="dataType" />
                       </node>
-                      <node concept="2qgKlT" id="2B_XTD7hpvU" role="2OqNvi">
+                      <node concept="3zqWPK" id="WEZADybqbu" role="2OqNvi">
                         <ref role="37wK5l" to="tpcn:hKtFG6a" resolve="isSimpleString" />
                       </node>
                     </node>
@@ -1842,7 +1844,7 @@
                       <node concept="37vLTw" id="6ADng3Ld2j" role="2Oq$k0">
                         <ref role="3cqZAo" node="6ADng3LaCp" resolve="dataType" />
                       </node>
-                      <node concept="2qgKlT" id="2B_XTD7hpFU" role="2OqNvi">
+                      <node concept="3zqWPK" id="WEZADybqbw" role="2OqNvi">
                         <ref role="37wK5l" to="tpcn:hKtGpIQ" resolve="isSimpleBoolean" />
                       </node>
                     </node>

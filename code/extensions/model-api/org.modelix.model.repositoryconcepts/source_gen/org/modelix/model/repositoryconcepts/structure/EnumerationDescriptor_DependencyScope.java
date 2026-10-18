@@ -25,7 +25,7 @@ public class EnumerationDescriptor_DependencyScope extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_UNSPECIFIED_0 = new EnumerationDescriptor.MemberDescriptor("UNSPECIFIED", "UNSPECIFIED", 0x751b3543f5112162L, "r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)/8438396892799377762");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x751b3543f508b014L, 0x751b3543f508b015L, 0x751b3543f508b01aL, 0x751b3543f508b01dL, 0x751b3543f508b025L, 0x751b3543f508b02aL, 0x751b3543f508b034L, 0x751b3543f508b03bL, 0x751b3543f5112162L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_DEFAULT_0, myMember_DESIGN_0, myMember_COMPILE_0, myMember_RUNTIME_0, myMember_PROVIDED_0, myMember_EXTENDS_0, myMember_GENERATES_INTO_0, myMember_UNSPECIFIED_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_DEFAULT_0, myMember_DESIGN_0, myMember_COMPILE_0, myMember_RUNTIME_0, myMember_PROVIDED_0, myMember_EXTENDS_0, myMember_GENERATES_INTO_0, myMember_UNSPECIFIED_0);
 
   @Nullable
   @Override

@@ -20,7 +20,7 @@ public class EnumerationDescriptor_TextAlignment extends EnumerationDescriptorBa
   private final EnumerationDescriptor.MemberDescriptor myMember_right_0 = new EnumerationDescriptor.MemberDescriptor("right", "◨", 0x24e75a28e2ace72cL, "r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/9167550852342474563");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x24e75a28e2ace727L, 0x24e75a28e2ace728L, 0x24e75a28e2ace729L, 0x24e75a28e2ace72cL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_left_0, myMember_center_0, myMember_right_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_left_0, myMember_center_0, myMember_right_0);
 
   @Nullable
   @Override

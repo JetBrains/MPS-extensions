@@ -12,7 +12,7 @@
       <unit at="11,0,61,0" name="com.dslfoundry.plaintextflow.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,36,0" name="com.dslfoundry.plaintextflow.structure.LanguageConceptSwitch" />
+      <unit at="12,0,44,0" name="com.dslfoundry.plaintextflow.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,109,0" name="com.dslfoundry.plaintextflow.structure.StructureAspectDescriptor" />
@@ -31,8 +31,8 @@
       <scope id="7578858899714629294" at="44,46,49,34" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7578858899714629294" at="15,0,16,0" concept="5" trace="IFlowElement" />
-      <node id="7578858899714629294" at="22,47,23,51" concept="0" />
+      <node id="7578858899714629294" at="17,0,18,0" concept="5" trace="IFlowElement" />
+      <node id="7578858899714629294" at="24,47,25,51" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7578858899714629294" at="19,0,20,0" concept="1" trace="myConceptIFlowElement" />
@@ -69,8 +69,8 @@
       <scope id="7578858899714629305" at="30,42,36,30" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7578858899714629305" at="13,0,14,0" concept="5" trace="FlowWord" />
-      <node id="7578858899714629305" at="20,43,21,47" concept="0" />
+      <node id="7578858899714629305" at="15,0,16,0" concept="5" trace="FlowWord" />
+      <node id="7578858899714629305" at="22,43,23,47" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7578858899714629305" at="17,0,18,0" concept="1" trace="myConceptFlowWord" />
@@ -104,8 +104,8 @@
       <scope id="7578858899714646328" at="23,38,29,26" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7578858899714646328" at="12,0,13,0" concept="5" trace="Flow" />
-      <node id="7578858899714646328" at="19,116,20,43" concept="0" />
+      <node id="7578858899714646328" at="14,0,15,0" concept="5" trace="Flow" />
+      <node id="7578858899714646328" at="21,116,22,43" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7578858899714646328" at="16,0,17,0" concept="1" trace="myConceptFlow" />
@@ -140,8 +140,8 @@
       <scope id="7578858899715484085" at="50,42,56,30" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7578858899715484085" at="16,0,17,0" concept="5" trace="SoftWrap" />
-      <node id="7578858899715484085" at="23,51,24,47" concept="0" />
+      <node id="7578858899715484085" at="18,0,19,0" concept="5" trace="SoftWrap" />
+      <node id="7578858899715484085" at="25,51,26,47" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7578858899715484085" at="20,0,21,0" concept="1" trace="myConceptSoftWrap" />
@@ -173,8 +173,8 @@
       <scope id="7578858899716022592" at="37,42,43,30" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7578858899716022592" at="14,0,15,0" concept="5" trace="HardWrap" />
-      <node id="7578858899716022592" at="21,47,22,47" concept="0" />
+      <node id="7578858899716022592" at="16,0,17,0" concept="5" trace="HardWrap" />
+      <node id="7578858899716022592" at="23,47,24,47" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7578858899716022592" at="18,0,19,0" concept="1" trace="myConceptHardWrap" />

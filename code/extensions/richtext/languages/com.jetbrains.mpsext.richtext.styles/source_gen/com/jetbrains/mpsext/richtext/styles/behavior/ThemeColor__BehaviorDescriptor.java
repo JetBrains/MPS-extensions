@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.awt.Color;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -25,9 +24,9 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class ThemeColor__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x7b3261eb68d94feaL, 0xa99c9ac789cea929L, 0x39005b7660a3445aL, "com.jetbrains.mpsext.richtext.styles.structure.ThemeColor");
 
-  public static final SMethod<Color> getColor_id3$0mRpwGbwn = new SMethodBuilder<Color>(new SJavaCompoundTypeImpl(Color.class)).name("getColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4107383424148355095L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
+  public static final SMethod<Color> getColor_id3$0mRpwGbwn = new SMethodBuilder<>(Color.class).name("getColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4107383424148355095L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getColor_id3$0mRpwGbwn);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getColor_id3$0mRpwGbwn);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.light$XIRI, "");

@@ -67,7 +67,7 @@ public class TextGenerationDiffRequest_Test extends BaseTransformationTest {
         SimpleDiffRequest diffRequest = comparison.createDiffRequestFromDifferentContents(ProjectHelper.toIdeaProject(myProject), new File("a/b/AB.java"), expectedOutput);
         List<DiffContent> contents = diffRequest.getContents();
 
-        Assert.assertEquals(2, ListSequence.fromList(contents).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(ListSequence.fromList(contents).count()));
         Assert.assertEquals(expectedOutput, ((DocumentContentBase) ListSequence.fromList(contents).getElement(0)).getDocument().getText());
         Assert.assertEquals(expectedOutput, ((DocumentContentBase) ListSequence.fromList(contents).getElement(1)).getDocument().getText());
       });
@@ -82,7 +82,7 @@ public class TextGenerationDiffRequest_Test extends BaseTransformationTest {
         SimpleDiffRequest diffRequest = comparison.createDiffRequestFromDifferentContents(ProjectHelper.toIdeaProject(myProject), new File("a/b/NotExisting.java"), expectedOutput);
         List<DiffContent> contents = diffRequest.getContents();
 
-        Assert.assertEquals(2, ListSequence.fromList(contents).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(ListSequence.fromList(contents).count()));
         DocumentContentBase base = (DocumentContentBase) ListSequence.fromList(contents).getElement(0);
         Assert.assertEquals(expectedOutput, base.getDocument().getText());
         Assert.assertEquals(EmptyContent.class, ListSequence.fromList(contents).getElement(1).getClass());

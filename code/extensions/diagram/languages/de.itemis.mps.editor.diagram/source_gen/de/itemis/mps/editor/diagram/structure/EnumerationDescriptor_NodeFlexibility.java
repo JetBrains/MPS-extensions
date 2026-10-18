@@ -21,7 +21,7 @@ public class EnumerationDescriptor_NodeFlexibility extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_NODE_SIZE_0 = new EnumerationDescriptor.MemberDescriptor("NODE_SIZE", "NODE_SIZE", 0x32d28aa5f456ecd4L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379208916");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f456ecc8L, 0x32d28aa5f456ecc9L, 0x32d28aa5f456eccbL, 0x32d28aa5f456eccfL, 0x32d28aa5f456ecd4L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NONE_0, myMember_PORT_POSITION_0, myMember_NODE_SIZE_WHERE_SPACE_PERMITS_0, myMember_NODE_SIZE_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NONE_0, myMember_PORT_POSITION_0, myMember_NODE_SIZE_WHERE_SPACE_PERMITS_0, myMember_NODE_SIZE_0);
 
   @Nullable
   @Override

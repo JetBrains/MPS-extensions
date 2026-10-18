@@ -7,25 +7,21 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class IActionGeneratingCell__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x6630b015328a6ef4L, "com.mbeddr.mpsutil.grammarcells.structure.IActionGeneratingCell");
 
-  public static final SMethod<Boolean> generatesDeleteAction_id6ASs6LmWHDF = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("generatesDeleteAction").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7617962380314729067L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
+  public static final SMethod<Boolean> generatesDeleteAction_id6ASs6LmWHDF = new SMethodBuilder<>(Boolean.TYPE).name("generatesDeleteAction").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7617962380314729067L).languageId(0x90dbfb19c107d049L, 0x9d69e71978c84286L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(generatesDeleteAction_id6ASs6LmWHDF);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(generatesDeleteAction_id6ASs6LmWHDF);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean generatesDeleteAction_id6ASs6LmWHDF(@NotNull SNode __thisNode__) {
     return false;
@@ -34,10 +30,6 @@ public final class IActionGeneratingCell__BehaviorDescriptor extends BaseBHDescr
   /*package*/ IActionGeneratingCell__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

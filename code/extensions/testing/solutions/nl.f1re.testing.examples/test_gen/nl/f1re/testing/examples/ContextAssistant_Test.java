@@ -38,7 +38,7 @@ public class ContextAssistant_Test extends BaseTransformationTest {
     public void testMethodImpl() throws Exception {
       initEditorComponent("2964412296095706218", "2964412296095706271");
       ContextAssistantManager manager = new EditorComponentTestHelper(getEditorComponent()).openContextAssistant();
-      Assert.assertEquals(1, manager.getActiveMenuItems().size());
+      Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(manager.getActiveMenuItems().size()));
     }
   }
 }

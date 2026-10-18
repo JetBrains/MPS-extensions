@@ -12,7 +12,7 @@
       <unit at="11,0,38,0" name="test.de.itemis.mps.compare.testlang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,30,0" name="test.de.itemis.mps.compare.testlang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,38,0" name="test.de.itemis.mps.compare.testlang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,70,0" name="test.de.itemis.mps.compare.testlang.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="5280816207851096114" at="20,54,26,42" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5280816207851096114" at="12,0,13,0" concept="5" trace="NodeWithBoolProperty" />
-      <node id="5280816207851096114" at="16,116,17,59" concept="0" />
+      <node id="5280816207851096114" at="14,0,15,0" concept="5" trace="NodeWithBoolProperty" />
+      <node id="5280816207851096114" at="18,116,19,59" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5280816207851096114" at="16,0,17,0" concept="1" trace="myConceptNodeWithBoolProperty" />
@@ -66,8 +66,8 @@
       <scope id="5280816207853714609" at="27,53,33,41" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5280816207853714609" at="13,0,14,0" concept="5" trace="NodeWithIntProperty" />
-      <node id="5280816207853714609" at="17,59,18,58" concept="0" />
+      <node id="5280816207853714609" at="15,0,16,0" concept="5" trace="NodeWithIntProperty" />
+      <node id="5280816207853714609" at="19,59,20,58" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5280816207853714609" at="17,0,18,0" concept="1" trace="myConceptNodeWithIntProperty" />

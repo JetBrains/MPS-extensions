@@ -313,10 +313,10 @@
       <node id="6347663582989268876" at="40,0,46,0" concept="1" trace="LoadNodeInShadowExplorer_Action#()V" />
       <node id="6347663582989285744" at="54,5,60,5" concept="0" />
       <node id="6347663582989295755" at="60,5,66,5" concept="0" />
-      <node id="4130484832571856063" at="129,0,135,0" concept="11" trace="check_rpql9i_a0a0a0a0a0a1a0a0h0a#(Lde/q60/mps/explorer/pf/ExplorerElement;)Ljava/lang/Object;" />
-      <node id="4130484832571856066" at="135,0,141,0" concept="11" trace="check_rpql9i_a0a0a0a0a0a0a1a0a0h0a#(Lde/q60/mps/explorer/TNode;)Ljava/lang/Object;" />
-      <node id="4130484832573650091" at="141,0,147,0" concept="11" trace="check_rpql9i_a0a0d0a0a0a1a0a0h0a#(Lde/q60/mps/explorer/pf/ExplorerElement;)Ljava/lang/Object;" />
-      <node id="4130484832573650094" at="147,0,153,0" concept="11" trace="check_rpql9i_a0a0a0d0a0a0a1a0a0h0a#(Lde/q60/mps/explorer/TNode;)Ljava/lang/Object;" />
+      <node id="4130484832571856063" at="129,0,135,0" concept="11" trace="check_3urqok_a0a0a0a0a0a1a0a0h0f#(Lde/q60/mps/explorer/pf/ExplorerElement;)Ljava/lang/Object;" />
+      <node id="4130484832571856066" at="135,0,141,0" concept="11" trace="check_3urqok_a0a0a0a0a0a0a1a0a0h0f#(Lde/q60/mps/explorer/TNode;)Ljava/lang/Object;" />
+      <node id="4130484832573650091" at="141,0,147,0" concept="11" trace="check_3urqok_a0a0d0a0a0a1a0a0h0f#(Lde/q60/mps/explorer/pf/ExplorerElement;)Ljava/lang/Object;" />
+      <node id="4130484832573650094" at="147,0,153,0" concept="11" trace="check_3urqok_a0a0a0d0a0a0a1a0a0h0f#(Lde/q60/mps/explorer/TNode;)Ljava/lang/Object;" />
       <node id="4130484832573645836" at="107,0,117,0" concept="5" trace="getONR#(Ljavax/swing/tree/TreeNode;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;" />
       <node id="4130484832571856106" at="96,0,107,0" concept="5" trace="searchInside#(Ljavax/swing/tree/TreeNode;)Z" />
       <node id="4130484832571856054" at="83,0,95,0" concept="5" trace="matches#(Ljavax/swing/tree/TreeNode;)Z" />

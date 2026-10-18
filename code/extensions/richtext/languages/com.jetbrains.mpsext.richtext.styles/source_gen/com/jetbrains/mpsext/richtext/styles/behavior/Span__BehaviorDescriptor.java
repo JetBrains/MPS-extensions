@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.awt.Color;
 import java.util.List;
@@ -33,13 +32,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class Span__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x7b3261eb68d94feaL, 0xa99c9ac789cea929L, 0x58117ba23904b1c6L, "com.jetbrains.mpsext.richtext.styles.structure.Span");
 
-  public static final SMethod<String> toTextString_id3Q5enzfMT4t = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("toTextString").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4433012599261204765L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
-  public static final SMethod<Color> getForegroundColor_id6NYYseXJd_E = new SMethodBuilder<Color>(new SJavaCompoundTypeImpl(Color.class)).name("getForegroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7853989419277932906L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
-  public static final SMethod<Color> getBackgroundColor_id6NYYseXJyUi = new SMethodBuilder<Color>(new SJavaCompoundTypeImpl(Color.class)).name("getBackgroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7853989419278020242L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
-  public static final SMethod<Integer> getFontStyle_id6NYYseXJ_1P = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getFontStyle").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7853989419278028917L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
-  public static final SMethod<Boolean> unwrap_id6NYYseXUnKw = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("unwrap").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7853989419280858144L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
+  public static final SMethod<String> toTextString_id3Q5enzfMT4t = new SMethodBuilder<>(String.class).name("toTextString").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4433012599261204765L).languageId(0xa676c7604efe3504L, 0x92d2ea165a424fdfL).build2();
+  public static final SMethod<Color> getForegroundColor_id6NYYseXJd_E = new SMethodBuilder<>(Color.class).name("getForegroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7853989419277932906L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
+  public static final SMethod<Color> getBackgroundColor_id6NYYseXJyUi = new SMethodBuilder<>(Color.class).name("getBackgroundColor").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7853989419278020242L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
+  public static final SMethod<Integer> getFontStyle_id6NYYseXJ_1P = new SMethodBuilder<>(Integer.TYPE).name("getFontStyle").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7853989419278028917L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
+  public static final SMethod<Boolean> unwrap_id6NYYseXUnKw = new SMethodBuilder<>(Boolean.TYPE).name("unwrap").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7853989419280858144L).languageId(0xa99c9ac789cea929L, 0x7b3261eb68d94feaL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toTextString_id3Q5enzfMT4t, getForegroundColor_id6NYYseXJd_E, getBackgroundColor_id6NYYseXJyUi, getFontStyle_id6NYYseXJ_1P, unwrap_id6NYYseXUnKw);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(toTextString_id3Q5enzfMT4t, getForegroundColor_id6NYYseXJd_E, getBackgroundColor_id6NYYseXJyUi, getFontStyle_id6NYYseXJ_1P, unwrap_id6NYYseXUnKw);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SNode word = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x92d2ea165a424fdfL, 0xa676c7604efe3504L, 0x237c8da86a9f2e0cL, "de.slisson.mps.richtext.structure.Word"));

@@ -15,8 +15,8 @@ public class Grid_Span_Test {
   private GridLeaf leafC;
   @Test
   public void test_size() throws Exception {
-    Assert.assertEquals(4, gridMain.getSizeX());
-    Assert.assertEquals(3, gridMain.getSizeY());
+    Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(gridMain.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(gridMain.getSizeY()));
   }
   @Test
   public void test_reject_overwrite_spanned_space() throws Exception {

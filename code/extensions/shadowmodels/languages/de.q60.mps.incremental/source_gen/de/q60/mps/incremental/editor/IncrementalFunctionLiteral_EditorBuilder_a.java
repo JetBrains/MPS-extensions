@@ -405,7 +405,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
       return editorCell;
     }
     private EditorCell createCustomFactory_1() {
-      return createCustomFactory_0(getEditorContext(), myNode);
+      return createCustomFactory_0(getEditorContext(), getNode());
     }
     private EditorCell createConstant_6() {
       EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");

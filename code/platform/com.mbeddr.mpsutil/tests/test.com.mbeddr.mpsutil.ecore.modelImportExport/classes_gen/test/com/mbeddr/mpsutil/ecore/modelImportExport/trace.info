@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:ed7c27e3-e64f-4a1a-8c95-0a20f1d49fb6(test.com.mbeddr.mpsutil.ecore.modelImportExport@tests)/8027586685395879567">
+    <file name="ExporterImporterBaseLineTest_Test.java">
+      <node id="8027586685395879567" at="23,46,24,60" concept="5" />
+      <node id="8027586685395879772" at="28,74,29,65" concept="1" />
+      <node id="3289023490928537316" at="32,74,33,65" concept="1" />
+      <node id="5471237293786469120" at="36,75,37,66" concept="1" />
+      <node id="3289023490928537796" at="40,74,41,65" concept="1" />
+      <node id="3289023490928538482" at="44,74,45,65" concept="1" />
+      <node id="3289023490928539593" at="48,74,49,65" concept="1" />
+      <node id="3289023490928540517" at="52,74,53,65" concept="1" />
+      <node id="8027586685395879567" at="58,52,59,19" concept="5" />
+      <node id="8027586685395879567" at="63,36,64,25" concept="1" />
+      <node id="8027586685395879772" at="67,76,68,22" concept="1" />
+      <node id="8027586685395879772" at="68,22,69,744" concept="1" />
+      <node id="3289023490928537316" at="71,76,72,22" concept="1" />
+      <node id="5471237293786518507" at="73,30,74,98" concept="3" />
+      <node id="5471237293786518680" at="74,98,75,97" concept="3" />
+      <node id="3289023490928537319" at="75,97,76,722" concept="1" />
+      <node id="5471237293786469120" at="79,77,80,22" concept="1" />
+      <node id="5471237293786518563" at="81,30,82,96" concept="3" />
+      <node id="5471237293786518737" at="82,96,83,89" concept="3" />
+      <node id="5471237293786469123" at="83,89,84,723" concept="1" />
+      <node id="3289023490928537796" at="87,76,88,22" concept="1" />
+      <node id="3289023490928537796" at="88,22,89,744" concept="1" />
+      <node id="3289023490928538482" at="91,76,92,22" concept="1" />
+      <node id="3289023490928538482" at="92,22,93,744" concept="1" />
+      <node id="3289023490928539593" at="95,76,96,22" concept="1" />
+      <node id="3289023490928539593" at="96,22,97,744" concept="1" />
+      <node id="3289023490928540517" at="99,76,100,22" concept="1" />
+      <node id="3289023490928540517" at="100,22,101,744" concept="1" />
+      <node id="8027586685395879567" at="20,0,22,0" concept="4" trace="ourParametersCacheExtension" />
+      <node id="8027586685395879567" at="23,0,26,0" concept="0" trace="ExporterImporterBaseLineTest_Test#()V" />
+      <node id="8027586685395879567" at="58,0,61,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8027586685395879772" at="27,0,31,0" concept="2" trace="test_testModelImporterExporterBaseLine1#()V" />
+      <node id="3289023490928537316" at="31,0,35,0" concept="2" trace="test_testModelImporterExporterBaseLine2#()V" />
+      <node id="5471237293786469120" at="35,0,39,0" concept="2" trace="test_testModelImporterExporterBaseLine2b#()V" />
+      <node id="3289023490928537796" at="39,0,43,0" concept="2" trace="test_testModelImporterExporterBaseLine3#()V" />
+      <node id="3289023490928538482" at="43,0,47,0" concept="2" trace="test_testModelImporterExporterBaseLine4#()V" />
+      <node id="3289023490928539593" at="47,0,51,0" concept="2" trace="test_testModelImporterExporterBaseLine5#()V" />
+      <node id="3289023490928540517" at="51,0,55,0" concept="2" trace="test_testModelImporterExporterBaseLine6#()V" />
+      <node id="8027586685395879567" at="62,0,66,0" concept="2" trace="initTestNodes#()V" />
+      <node id="8027586685395879772" at="67,0,71,0" concept="2" trace="test_testModelImporterExporterBaseLine1#()V" />
+      <node id="3289023490928537796" at="87,0,91,0" concept="2" trace="test_testModelImporterExporterBaseLine3#()V" />
+      <node id="3289023490928538482" at="91,0,95,0" concept="2" trace="test_testModelImporterExporterBaseLine4#()V" />
+      <node id="3289023490928539593" at="95,0,99,0" concept="2" trace="test_testModelImporterExporterBaseLine5#()V" />
+      <node id="3289023490928540517" at="99,0,103,0" concept="2" trace="test_testModelImporterExporterBaseLine6#()V" />
+      <node id="3289023490928537316" at="72,22,77,9" concept="1" />
+      <node id="5471237293786469120" at="80,22,85,9" concept="1" />
+      <node id="3289023490928537316" at="71,0,79,0" concept="2" trace="test_testModelImporterExporterBaseLine2#()V" />
+      <node id="5471237293786469120" at="79,0,87,0" concept="2" trace="test_testModelImporterExporterBaseLine2b#()V" />
+      <scope id="8027586685395879567" at="23,46,24,60" />
+      <scope id="8027586685395879772" at="28,74,29,65" />
+      <scope id="3289023490928537316" at="32,74,33,65" />
+      <scope id="5471237293786469120" at="36,75,37,66" />
+      <scope id="3289023490928537796" at="40,74,41,65" />
+      <scope id="3289023490928538482" at="44,74,45,65" />
+      <scope id="3289023490928539593" at="48,74,49,65" />
+      <scope id="3289023490928540517" at="52,74,53,65" />
+      <scope id="8027586685395879567" at="58,52,59,19" />
+      <scope id="8027586685395879567" at="63,36,64,25" />
+      <scope id="8027586685395879772" at="67,76,69,744" />
+      <scope id="3289023490928537796" at="87,76,89,744" />
+      <scope id="3289023490928538482" at="91,76,93,744" />
+      <scope id="3289023490928539593" at="95,76,97,744" />
+      <scope id="3289023490928540517" at="99,76,101,744" />
+      <scope id="8027586685395879567" at="23,0,26,0" />
+      <scope id="8027586685395879567" at="58,0,61,0">
+        <var name="owner" id="8027586685395879567" />
+      </scope>
+      <scope id="3289023490928537316" at="73,30,76,722" />
+      <scope id="5471237293786469120" at="81,30,84,723" />
+      <scope id="8027586685395879772" at="27,0,31,0" />
+      <scope id="3289023490928537316" at="31,0,35,0" />
+      <scope id="5471237293786469120" at="35,0,39,0" />
+      <scope id="3289023490928537796" at="39,0,43,0" />
+      <scope id="3289023490928538482" at="43,0,47,0" />
+      <scope id="3289023490928539593" at="47,0,51,0" />
+      <scope id="3289023490928540517" at="51,0,55,0" />
+      <scope id="8027586685395879567" at="62,0,66,0" />
+      <scope id="8027586685395879772" at="67,0,71,0" />
+      <scope id="3289023490928537796" at="87,0,91,0" />
+      <scope id="3289023490928538482" at="91,0,95,0" />
+      <scope id="3289023490928539593" at="95,0,99,0" />
+      <scope id="3289023490928540517" at="99,0,103,0" />
+      <scope id="3289023490928537316" at="71,76,77,9" />
+      <scope id="5471237293786469120" at="79,77,85,9" />
+      <scope id="3289023490928537316" at="71,0,79,0" />
+      <scope id="5471237293786469120" at="79,0,87,0" />
+      <unit id="8027586685395879567" at="56,0,105,0" name="test.com.mbeddr.mpsutil.ecore.modelImportExport.ExporterImporterBaseLineTest_Test$TestBody" />
+      <unit id="8027586685395879567" at="18,0,106,0" name="test.com.mbeddr.mpsutil.ecore.modelImportExport.ExporterImporterBaseLineTest_Test" />
+    </file>
+  </root>
+</debug-info>
+

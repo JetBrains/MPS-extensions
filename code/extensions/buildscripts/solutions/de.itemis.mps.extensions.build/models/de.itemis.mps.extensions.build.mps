@@ -25521,7 +25521,7 @@
         </node>
         <node concept="1SiIV0" id="5WSbPOdnlkS" role="3bR37C">
           <node concept="3bR9La" id="5WSbPOdnlkT" role="1SiIV1">
-            <ref role="3bR37D" node="2NTGYE$JTGY" />
+            <ref role="3bR37D" node="2NTGYE$JTGY" resolve="com.dslfoundry.plaintextgen" />
           </node>
         </node>
         <node concept="1BupzO" id="5WSbPOdnlkU" role="3bR31x">

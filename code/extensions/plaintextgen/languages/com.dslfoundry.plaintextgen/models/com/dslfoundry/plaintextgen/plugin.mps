@@ -639,7 +639,7 @@
                             <node concept="3clFbF" id="3xkJrZK5XMx" role="3cqZAp">
                               <node concept="2YIFZM" id="3xkJrZK6041" role="3clFbG">
                                 <ref role="37wK5l" to="fnpx:~Notifications$Bus.notify(com.intellij.notification.Notification)" resolve="notify" />
-                                <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Bus" />
+                                <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Notifications.Bus" />
                                 <node concept="37vLTw" id="3xkJrZK61Tj" role="37wK5m">
                                   <ref role="3cqZAo" node="3xkJrZK5SUz" resolve="notification" />
                                 </node>
@@ -984,7 +984,7 @@
                         <ref role="3cqZAo" node="3bf11hdNbyj" resolve="lineNode" />
                       </node>
                       <node concept="3TrEf2" id="6gwxh6Ge8KJ" role="2OqNvi">
-                        <ref role="3Tt5mk" to="myiq:4q7d2VGN$B3" />
+                        <ref role="3Tt5mk" to="myiq:4q7d2VGN$B3" resolve="newlineMarker" />
                       </node>
                     </node>
                     <node concept="zfrQC" id="6gwxh6Ge92l" role="2OqNvi" />
@@ -999,7 +999,7 @@
                             <ref role="3cqZAo" node="3bf11hdNbyj" resolve="lineNode" />
                           </node>
                           <node concept="3Tsc0h" id="3bf11hdOb7W" role="2OqNvi">
-                            <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" />
+                            <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
                           </node>
                         </node>
                         <node concept="2Kt2Hk" id="3bf11hdOeIF" role="2OqNvi" />
@@ -1117,7 +1117,7 @@
                                     <ref role="3cqZAo" node="3bf11hdNbyj" resolve="lineNode" />
                                   </node>
                                   <node concept="3Tsc0h" id="3bf11hdNoxg" role="2OqNvi">
-                                    <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" />
+                                    <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
                                   </node>
                                 </node>
                               </node>
@@ -1276,7 +1276,7 @@
                                   </node>
                                 </node>
                                 <node concept="3Tsc0h" id="6gwxh6GbX4y" role="2OqNvi">
-                                  <ref role="3TtcxE" to="myiq:6gwxh6GbQuo" />
+                                  <ref role="3TtcxE" to="myiq:6gwxh6GbQuo" resolve="lines" />
                                 </node>
                               </node>
                               <node concept="TSZUe" id="KbPw5FdoMM" role="2OqNvi">
@@ -1321,7 +1321,7 @@
                                       <ref role="3cqZAo" node="KbPw5Fd7SR" resolve="container" />
                                     </node>
                                     <node concept="3Tsc0h" id="2jBmyzyIN4m" role="2OqNvi">
-                                      <ref role="3TtcxE" to="myiq:6gwxh6GbQuo" />
+                                      <ref role="3TtcxE" to="myiq:6gwxh6GbQuo" resolve="lines" />
                                     </node>
                                   </node>
                                   <node concept="TSZUe" id="2jBmyzyIOB6" role="2OqNvi">
@@ -1394,7 +1394,7 @@
                         </node>
                       </node>
                       <node concept="3Tsc0h" id="6gwxh6GbXgW" role="2OqNvi">
-                        <ref role="3TtcxE" to="myiq:6gwxh6GbQuo" />
+                        <ref role="3TtcxE" to="myiq:6gwxh6GbQuo" resolve="lines" />
                       </node>
                     </node>
                     <node concept="TSZUe" id="KbPw5FdyFv" role="2OqNvi">
@@ -1562,7 +1562,7 @@
                         <ref role="3cqZAo" node="2u5C0BwBNVF" resolve="lineNode" />
                       </node>
                       <node concept="3TrEf2" id="2u5C0BwBNVO" role="2OqNvi">
-                        <ref role="3Tt5mk" to="myiq:4q7d2VGN$B3" />
+                        <ref role="3Tt5mk" to="myiq:4q7d2VGN$B3" resolve="newlineMarker" />
                       </node>
                     </node>
                     <node concept="zfrQC" id="2u5C0BwBNVP" role="2OqNvi" />
@@ -1577,7 +1577,7 @@
                             <ref role="3cqZAo" node="2u5C0BwBNVF" resolve="lineNode" />
                           </node>
                           <node concept="3Tsc0h" id="2u5C0BwBNVW" role="2OqNvi">
-                            <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" />
+                            <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
                           </node>
                         </node>
                         <node concept="2Kt2Hk" id="2u5C0BwBNVX" role="2OqNvi" />
@@ -1662,7 +1662,7 @@
                               <ref role="3cqZAo" node="2u5C0BwBNVF" resolve="lineNode" />
                             </node>
                             <node concept="3Tsc0h" id="2u5C0BwN4uE" role="2OqNvi">
-                              <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" />
+                              <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
                             </node>
                           </node>
                           <node concept="2Kehj3" id="2u5C0BwNmbL" role="2OqNvi" />
@@ -1712,7 +1712,7 @@
                                           <ref role="3cqZAo" node="2u5C0BwBNVF" resolve="lineNode" />
                                         </node>
                                         <node concept="3Tsc0h" id="2u5C0BwNej2" role="2OqNvi">
-                                          <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" />
+                                          <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
                                         </node>
                                       </node>
                                       <node concept="WFELt" id="2u5C0BwNFec" role="2OqNvi">
@@ -1734,7 +1734,7 @@
                                   <ref role="3cqZAo" node="2u5C0BwBNVF" resolve="lineNode" />
                                 </node>
                                 <node concept="3Tsc0h" id="2u5C0BwNpX9" role="2OqNvi">
-                                  <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" />
+                                  <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
                                 </node>
                               </node>
                               <node concept="WFELt" id="2u5C0BwOvuR" role="2OqNvi">
@@ -1760,7 +1760,7 @@
                                   <ref role="3cqZAo" node="2u5C0BwBNVF" resolve="lineNode" />
                                 </node>
                                 <node concept="3Tsc0h" id="2u5C0BwZOp2" role="2OqNvi">
-                                  <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" />
+                                  <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
                                 </node>
                               </node>
                               <node concept="2Kt5_m" id="2u5C0BwZUI4" role="2OqNvi" />
@@ -1789,7 +1789,7 @@
                         </node>
                       </node>
                       <node concept="3Tsc0h" id="2u5C0BwBNYb" role="2OqNvi">
-                        <ref role="3TtcxE" to="myiq:6gwxh6GbQuo" />
+                        <ref role="3TtcxE" to="myiq:6gwxh6GbQuo" resolve="lines" />
                       </node>
                     </node>
                     <node concept="TSZUe" id="2u5C0BwBNYc" role="2OqNvi">
@@ -2310,3 +2310,4 @@
     </node>
   </node>
 </model>
+

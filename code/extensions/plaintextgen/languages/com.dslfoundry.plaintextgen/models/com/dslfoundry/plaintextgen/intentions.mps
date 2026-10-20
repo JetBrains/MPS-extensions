@@ -1913,7 +1913,7 @@
           <node concept="3cpWsn" id="5WSbPOdoeTK" role="3cpWs9">
             <property role="TrG5h" value="source" />
             <node concept="3uibUv" id="5WSbPOdoeTM" role="1tU5fm">
-              <ref role="3uigEE" to="mhbf:~SNode" />
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
             </node>
             <node concept="2OqwBi" id="5WSbPOdoeWn" role="33vP2m">
               <node concept="2JrnkZ" id="5WSbPOdoeVE" role="2Oq$k0">

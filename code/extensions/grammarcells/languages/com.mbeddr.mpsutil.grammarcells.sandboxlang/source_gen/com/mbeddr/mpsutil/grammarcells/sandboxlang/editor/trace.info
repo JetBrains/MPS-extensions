@@ -412,8 +412,8 @@
       <unit at="21,0,48,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.GrammarCellsSubstituteMenu_WrapType" />
     </file>
     <file name="IncludeBeforeAfterTransformations.java">
-      <unit at="35,0,43,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a0_0" />
-      <unit at="43,0,51,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a1_0" />
+      <unit at="35,0,43,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a0_1" />
+      <unit at="43,0,51,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations$GenericMenuPart_a1_1" />
       <unit at="17,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.IncludeBeforeAfterTransformations" />
     </file>
     <file name="template_GrammarCellsSideTransformationsMenu.java">
@@ -9415,8 +9415,8 @@
         <var name="ctx" id="6709378149497429393" />
       </scope>
       <unit id="6709378149497429393" at="68,0,71,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0$CONCEPTS" />
-      <unit id="6709378149497429393" at="38,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0$GenericMenuPart_a0_1" />
-      <unit id="6709378149497429393" at="52,0,67,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0$GenericMenuPart_a1_1" />
+      <unit id="6709378149497429393" at="38,0,52,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0$GenericMenuPart_a0_0" />
+      <unit id="6709378149497429393" at="52,0,67,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0$GenericMenuPart_a1_0" />
       <unit id="6709378149497429393" at="20,0,72,0" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.editor.BracketsCell_SideTransformations_ParenthesesExpression_a0" />
     </file>
     <file name="GrammarActionsDescriptor.java">

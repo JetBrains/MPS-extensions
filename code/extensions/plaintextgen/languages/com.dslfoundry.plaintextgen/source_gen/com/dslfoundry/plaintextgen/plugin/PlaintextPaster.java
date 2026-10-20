@@ -135,14 +135,16 @@ public class PlaintextPaster {
       for (String line : text.split("\\r?\\n")) {
         SNode lineNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, "com.dslfoundry.plaintextgen.structure.Line"));
         SLinkOperations.setNewChild(lineNode, LINKS.newlineMarker$LMfW, null);
-        if (isEmptyString(line.trim())) {
+        if (isEmptyString(line.trim()) && !(line.contains("\t"))) {
           ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).removeElementAt(0);
         } else {
           // MPS text fields strip away the tabs, so we replace them by spaces.
           ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).clear();
           String[] parts = line.split("\t", -1);
           for (String x : parts) {
-            SPropertyOperations.assign(SLinkOperations.addNewChild(lineNode, LINKS.words$teE6, CONCEPTS.Word$dj), PROPS.name$MnvL, x);
+            if (shouldCreateWord(x)) {
+              SPropertyOperations.assign(SLinkOperations.addNewChild(lineNode, LINKS.words$teE6, CONCEPTS.Word$dj), PROPS.name$MnvL, x);
+            }
             SLinkOperations.addNewChild(lineNode, LINKS.words$teE6, CONCEPTS.Tab$tC);
           }
           if ((line != null && line.length() > 0)) {
@@ -153,6 +155,9 @@ public class PlaintextPaster {
       }
       SNodeOperations.replaceWithAnother(node, containers.firstElement());
     }
+  }
+  public static boolean shouldCreateWord(String part) {
+    return part != null && !(part.isEmpty());
   }
   private static boolean isEmptyString(String str) {
     return str == null || str.isEmpty();

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root nodeRef="r:b6692149-2550-4b5f-bdc1-76c30c697450(com.dslfoundry.plaintextgen.tests@tests)/6861286109001301801">
+    <file name="PlaintextPasterTests_Test.java">
+      <node id="6861286109001301801" at="20,38,21,60" concept="7" />
+      <node id="6861286109001301802" at="25,79,26,70" concept="1" />
+      <node id="6861286109001301801" at="31,52,32,19" concept="7" />
+      <node id="6861286109001301801" at="36,36,37,25" concept="1" />
+      <node id="6861286109001301802" at="40,81,41,22" concept="1" />
+      <node id="6861286109001363857" at="42,30,43,61" concept="5" />
+      <node id="6861286109001363866" at="43,61,44,26" concept="5" />
+      <node id="6861286109001363877" at="46,55,47,24" concept="1" />
+      <node id="6861286109001363894" at="50,29,51,85" concept="8" />
+      <node id="6861286109001403072" at="52,9,53,55" concept="5" />
+      <node id="6861286109001403081" at="53,55,54,33" concept="5" />
+      <node id="6861286109001403092" at="56,55,57,31" concept="1" />
+      <node id="6861286109001403109" at="60,36,61,100" concept="8" />
+      <node id="6861286109001301801" at="17,0,19,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="6861286109001301801" at="20,0,23,0" concept="0" trace="PlaintextPasterTests_Test#()V" />
+      <node id="6861286109001301801" at="31,0,34,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6861286109001363872" at="45,35,48,11" concept="3" />
+      <node id="6861286109001363884" at="49,9,52,9" concept="3" />
+      <node id="6861286109001403087" at="55,42,58,11" concept="3" />
+      <node id="6861286109001403099" at="59,9,62,9" concept="3" />
+      <node id="6861286109001301802" at="24,0,28,0" concept="4" trace="test_preservesTabSeparatorsWithoutEmptyWords#()V" />
+      <node id="6861286109001301801" at="35,0,39,0" concept="4" trace="initTestNodes#()V" />
+      <node id="6861286109001363869" at="44,26,49,9" concept="2" />
+      <node id="6861286109001403084" at="54,33,59,9" concept="2" />
+      <node id="6861286109001301802" at="41,22,63,9" concept="1" />
+      <node id="6861286109001301802" at="40,0,65,0" concept="4" trace="test_preservesTabSeparatorsWithoutEmptyWords#()V" />
+      <scope id="6861286109001301801" at="20,38,21,60" />
+      <scope id="6861286109001301802" at="25,79,26,70" />
+      <scope id="6861286109001301801" at="31,52,32,19" />
+      <scope id="6861286109001301801" at="36,36,37,25" />
+      <scope id="6861286109001363876" at="46,55,47,24" />
+      <scope id="6861286109001363889" at="50,29,51,85" />
+      <scope id="6861286109001403091" at="56,55,57,31" />
+      <scope id="6861286109001403104" at="60,36,61,100" />
+      <scope id="6861286109001301801" at="20,0,23,0" />
+      <scope id="6861286109001301801" at="31,0,34,0">
+        <var name="owner" id="6861286109001301801" />
+      </scope>
+      <scope id="6861286109001363871" at="45,35,48,11" />
+      <scope id="6861286109001403086" at="55,42,58,11" />
+      <scope id="6861286109001301802" at="24,0,28,0" />
+      <scope id="6861286109001301801" at="35,0,39,0" />
+      <scope id="6861286109001363869" at="44,26,49,9">
+        <var name="part" id="6861286109001363880" />
+      </scope>
+      <scope id="6861286109001403084" at="54,33,59,9">
+        <var name="part" id="6861286109001403095" />
+      </scope>
+      <scope id="6861286109001301802" at="42,30,62,9">
+        <var name="parts" id="6861286109001363856" />
+        <var name="tabOnlyParts" id="6861286109001403071" />
+        <var name="tabOnlyWordCount" id="6861286109001403080" />
+        <var name="wordCount" id="6861286109001363865" />
+      </scope>
+      <scope id="6861286109001301802" at="40,81,63,9" />
+      <scope id="6861286109001301802" at="40,0,65,0" />
+      <unit id="6861286109001301801" at="29,0,67,0" name="com.dslfoundry.plaintextgen.tests.PlaintextPasterTests_Test$TestBody" />
+      <unit id="6861286109001301801" at="15,0,68,0" name="com.dslfoundry.plaintextgen.tests.PlaintextPasterTests_Test" />
+    </file>
+  </root>
+</debug-info>
+

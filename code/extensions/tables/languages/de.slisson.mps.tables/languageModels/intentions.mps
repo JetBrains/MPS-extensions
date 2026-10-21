@@ -3,6 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="05f762a9-99f5-4971-a9ed-5a6481dc2be4" name="de.itemis.mps.selection.intentions" version="0" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <engage id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -13,8 +15,13 @@
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" implicit="true" />
     <import index="b8lf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.selection(MPS.Editor/)" implicit="true" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
+    <import index="bnk3" ref="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" implicit="true" />
+    <import index="d870" ref="r:07128e74-f1f2-4270-a3b2-527db0c9fcc5(de.slisson.mps.tables.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
+      <concept id="1194033889146" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1XNTG" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -70,6 +77,17 @@
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
+    <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
+      <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
+      <concept id="1192794782375" name="jetbrains.mps.lang.intentions.structure.DescriptionBlock" flags="in" index="2S6ZIM" />
+      <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
+      <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
+      <concept id="2522969319638091381" name="jetbrains.mps.lang.intentions.structure.BaseIntentionDeclaration" flags="ig" index="2ZfUlf">
+        <reference id="2522969319638198290" name="forConcept" index="2ZfgGC" />
+        <child id="2522969319638198291" name="executeFunction" index="2ZfgGD" />
+        <child id="2522969319638093993" name="descriptionFunction" index="2ZfVej" />
+      </concept>
+    </language>
     <language id="05f762a9-99f5-4971-a9ed-5a6481dc2be4" name="de.itemis.mps.selection.intentions">
       <concept id="6009478650970401999" name="de.itemis.mps.selection.intentions.structure.Description" flags="ig" index="71TwL" />
       <concept id="6009478650970402176" name="de.itemis.mps.selection.intentions.structure.Parameter_Selection" flags="ng" index="71T_Y" />
@@ -83,9 +101,15 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
+        <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -421,6 +445,49 @@
             <node concept="2YIFZM" id="1vOmbReLoG4" role="3uHU7B">
               <ref role="37wK5l" to="3bri:12YYiosQtsQ" resolve="isSupportedFlavorAvailableInClipboard" />
               <ref role="1Pybhc" to="3bri:12YYiosJ3v6" resolve="ClipboardTableUtils" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="4joKLPQQXiJ">
+    <property role="TrG5h" value="MigrateTableCellQueryToCrossTable" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="2ZfgGC" to="bnk3:1dAqnm8u_$D" resolve="TableCellQuery" />
+    <node concept="2S6ZIM" id="4joKLPQQXiO" role="2ZfVej">
+      <node concept="3clFbS" id="4joKLPQQXiQ" role="2VODD2">
+        <node concept="3clFbF" id="4joKLPQQXiR" role="3cqZAp">
+          <node concept="Xl_RD" id="4joKLPQQXiT" role="3clFbG">
+            <property role="Xl_RC" value="Migrate to Cross Table" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="4joKLPQQXiU" role="2ZfgGD">
+      <node concept="3clFbS" id="4joKLPQQXiW" role="2VODD2">
+        <node concept="3cpWs8" id="4joKLPQQXiX" role="3cqZAp">
+          <node concept="3cpWsn" id="4joKLPQQXj0" role="3cpWs9">
+            <property role="TrG5h" value="crossTable" />
+            <node concept="3Tqbb2" id="4joKLPQQXj2" role="1tU5fm">
+              <ref role="ehGHo" to="bnk3:4joKLPN6NJA" resolve="CrossTableQuery" />
+            </node>
+            <node concept="2OqwBi" id="4joKLPQQXj3" role="33vP2m">
+              <node concept="2Sf5sV" id="4joKLPQQXj6" role="2Oq$k0" />
+              <node concept="2qgKlT" id="4joKLPQQXj7" role="2OqNvi">
+                <ref role="37wK5l" to="d870:4joKLPQQGb3" resolve="migrateToCrossTable" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4joKLPQQXj8" role="3cqZAp">
+          <node concept="2OqwBi" id="4joKLPQQXja" role="3clFbG">
+            <node concept="1XNTG" id="4joKLPQQXjd" role="2Oq$k0" />
+            <node concept="liA8E" id="4joKLPQQXje" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.selectWRTFocusPolicy(org.jetbrains.mps.openapi.model.SNode)" resolve="selectWRTFocusPolicy" />
+              <node concept="37vLTw" id="4joKLPQQXjf" role="37wK5m">
+                <ref role="3cqZAo" node="4joKLPQQXj0" resolve="crossTable" />
+              </node>
             </node>
           </node>
         </node>

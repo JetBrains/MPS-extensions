@@ -21,7 +21,12 @@
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118933224" name="comment" index="YLQ7P" />
+      </concept>
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -471,12 +476,18 @@
       <property role="20kJfa" value="create" />
       <property role="IQ2ns" value="1397920687867792071" />
       <ref role="20lvS9" node="1dAqnm8xRRA" resolve="TableCellQueryCreate" />
+      <node concept="asaX9" id="4joKLPN6NZx" role="lGtFl">
+        <property role="YLQ7P" value="Ignored by the generator. Use 'substitute node'." />
+      </node>
     </node>
     <node concept="1TJgyj" id="3vPRuXS$0EO" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="substituteInfo" />
       <property role="IQ2ns" value="4032373061969775284" />
       <ref role="20lvS9" node="3vPRuXSzOLy" resolve="TableCellQueryGetSubstituteInfo" />
+      <node concept="asaX9" id="4joKLPN6NZy" role="lGtFl">
+        <property role="YLQ7P" value="Ignored by the generator. Use 'substitute node'." />
+      </node>
     </node>
     <node concept="1TJgyj" id="6T7OHMQcOr4" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -495,12 +506,18 @@
       <property role="20kJfa" value="columnHeader" />
       <property role="IQ2ns" value="934534792595028981" />
       <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+      <node concept="asaX9" id="4joKLPN6NZz" role="lGtFl">
+        <property role="YLQ7P" value="Ignored by the generator. Use 'column header' (columnHeaderQuery)." />
+      </node>
     </node>
     <node concept="1TJgyj" id="NS8B56RFJQ" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="rowHeader" />
       <property role="IQ2ns" value="934534792595028982" />
       <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+      <node concept="asaX9" id="4joKLPN6NZ$" role="lGtFl">
+        <property role="YLQ7P" value="Ignored by the generator. Use 'row header' (rowHeaderQuery)." />
+      </node>
     </node>
     <node concept="1TJgyj" id="1zEStST4VQp" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -532,6 +549,12 @@
     </node>
     <node concept="PrWs8" id="7CiSlGy4kkJ" role="PzmwI">
       <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+    <node concept="PrWs8" id="4joKLPN6NZw" role="PzmwI">
+      <ref role="PrY4T" node="4joKLPN6NF$" resolve="ISharedVariableScope" />
+    </node>
+    <node concept="asaX9" id="4joKLPN6NZ_" role="lGtFl">
+      <property role="YLQ7P" value="Use CrossTableQuery ('cross table'). The intention 'Migrate to Cross Table' converts an existing query." />
     </node>
   </node>
   <node concept="1TIwiD" id="1dAqnm8u_AK">
@@ -1309,6 +1332,207 @@
     <node concept="25R33" id="7WTFIQIcYu5" role="25R1y">
       <property role="TrG5h" value="CENTER" />
       <property role="3tVfz5" value="4384308856523540052" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6MpN">
+    <property role="EcuMT" value="7233620426490792338" />
+    <property role="TrG5h" value="QueryParameter_Row" />
+    <property role="34LRSv" value="row" />
+    <property role="R4oN_" value="the element of 'rows' this cell belongs to" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6MCP">
+    <property role="EcuMT" value="1811263008018433648" />
+    <property role="TrG5h" value="QueryParameter_Column" />
+    <property role="34LRSv" value="column" />
+    <property role="R4oN_" value="the element of 'columns' this cell belongs to" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6MGo">
+    <property role="EcuMT" value="7514368277008044747" />
+    <property role="TrG5h" value="QueryParameter_NewNode" />
+    <property role="34LRSv" value="newNode" />
+    <property role="R4oN_" value="the node to put into the cell (never null)" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6MJW">
+    <property role="EcuMT" value="3913069904342344478" />
+    <property role="TrG5h" value="QueryParameter_CellNode" />
+    <property role="34LRSv" value="cellNode" />
+    <property role="R4oN_" value="the node currently shown in the cell (never null)" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6MZ1">
+    <property role="EcuMT" value="6652002819890061003" />
+    <property role="TrG5h" value="CrossTable_Rows" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6N2B">
+    <property role="EcuMT" value="1024844736674389305" />
+    <property role="TrG5h" value="CrossTable_Columns" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6N6f">
+    <property role="EcuMT" value="5945161816402874918" />
+    <property role="TrG5h" value="CrossTable_Cell" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="1TJgyi" id="4joKLPN6N6g" role="1TKVEl">
+      <property role="IQ2nx" value="5438215047820167693" />
+      <property role="TrG5h" value="displayType" />
+      <ref role="AX2Wp" node="7WTFIQIcYtQ" resolve="ListDisplayType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6N9T">
+    <property role="EcuMT" value="5193149540852547914" />
+    <property role="TrG5h" value="CrossTable_ColumnHeader" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6Ndz">
+    <property role="EcuMT" value="6089921928193870912" />
+    <property role="TrG5h" value="CrossTable_RowHeader" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6Nhe">
+    <property role="EcuMT" value="4420646372035700151" />
+    <property role="TrG5h" value="CrossTable_CanInsert" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6NkU">
+    <property role="EcuMT" value="1537998047414249606" />
+    <property role="TrG5h" value="CrossTable_Insert" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6NoB">
+    <property role="EcuMT" value="503185305703688911" />
+    <property role="TrG5h" value="CrossTable_Delete" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6Nsl">
+    <property role="EcuMT" value="3958795957054143900" />
+    <property role="TrG5h" value="CrossTable_Replace" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="PlHQZ" id="4joKLPN6NF$">
+    <property role="EcuMT" value="7857072752169298334" />
+    <property role="TrG5h" value="ISharedVariableScope" />
+    <property role="3GE5qa" value="CellQuery" />
+  </node>
+  <node concept="1TIwiD" id="4joKLPN6NJA">
+    <property role="EcuMT" value="8030586177847144237" />
+    <property role="TrG5h" value="CrossTableQuery" />
+    <property role="34LRSv" value="cross table" />
+    <property role="R4oN_" value="table with one row per element of 'rows' and one column per element of 'columns'" />
+    <property role="3GE5qa" value="CrossTable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="t5JxF" id="4joKLPN6NJB" role="lGtFl">
+      <property role="t5JxN" value="A table whose rows and columns are given as sequences of objects (usually nodes). Each cell is computed from its row and column. Editing is done by the insert/delete/replace handlers; only insert is required, delete defaults to detaching the node and replace to delete + insert at the same position." />
+    </node>
+    <node concept="PrWs8" id="4joKLPN6NJC" role="PzmwI">
+      <ref role="PrY4T" node="1dAqnm8mI99" resolve="ITableNode" />
+    </node>
+    <node concept="PrWs8" id="4joKLPN6NJD" role="PzmwI">
+      <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
+    </node>
+    <node concept="PrWs8" id="4joKLPN6NJE" role="PzmwI">
+      <ref role="PrY4T" node="4joKLPN6NF$" resolve="ISharedVariableScope" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJF" role="1TKVEi">
+      <property role="IQ2ns" value="6732195338908405657" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="sharedVariables" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7EUu569gJ8p" resolve="SharedVariableDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJG" role="1TKVEi">
+      <property role="IQ2ns" value="80460864539762331" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="sharedInit" />
+      <ref role="20lvS9" node="7EUu569hDQh" resolve="TableCellQuerySharedInit" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJH" role="1TKVEi">
+      <property role="IQ2ns" value="7341053097591237160" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rows" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4joKLPN6MZ1" resolve="CrossTable_Rows" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJI" role="1TKVEi">
+      <property role="IQ2ns" value="8812967250371596361" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="columns" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4joKLPN6N2B" resolve="CrossTable_Columns" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJJ" role="1TKVEi">
+      <property role="IQ2ns" value="6145931880240554194" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cell" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4joKLPN6N6f" resolve="CrossTable_Cell" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJK" role="1TKVEi">
+      <property role="IQ2ns" value="4752142650312550735" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowHeader" />
+      <ref role="20lvS9" node="4joKLPN6Ndz" resolve="CrossTable_RowHeader" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJL" role="1TKVEi">
+      <property role="IQ2ns" value="1084329257708525545" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="columnHeader" />
+      <ref role="20lvS9" node="4joKLPN6N9T" resolve="CrossTable_ColumnHeader" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJM" role="1TKVEi">
+      <property role="IQ2ns" value="4565143762178656098" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="canInsert" />
+      <ref role="20lvS9" node="4joKLPN6Nhe" resolve="CrossTable_CanInsert" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJN" role="1TKVEi">
+      <property role="IQ2ns" value="7283037227864097190" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="insertNode" />
+      <ref role="20lvS9" node="4joKLPN6NkU" resolve="CrossTable_Insert" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJO" role="1TKVEi">
+      <property role="IQ2ns" value="2243803595317459474" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="deleteNode" />
+      <ref role="20lvS9" node="4joKLPN6NoB" resolve="CrossTable_Delete" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJP" role="1TKVEi">
+      <property role="IQ2ns" value="293988686052897650" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="replaceNode" />
+      <ref role="20lvS9" node="4joKLPN6Nsl" resolve="CrossTable_Replace" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJQ" role="1TKVEi">
+      <property role="IQ2ns" value="6580879894994772020" />
+      <property role="20kJfa" value="cellConcept" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJR" role="1TKVEi">
+      <property role="IQ2ns" value="6140952865467383964" />
+      <property role="20kJfa" value="menuConcept" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="4joKLPN6NJS" role="1TKVEi">
+      <property role="IQ2ns" value="2205525410592582926" />
+      <property role="20kJfa" value="menuLink" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
     </node>
   </node>
 </model>

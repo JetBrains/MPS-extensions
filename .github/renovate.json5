@@ -57,12 +57,6 @@
     },
 
     {
-      // Disable modelix model-api upgrades (until we get rid of the dependency)
-      "matchPackageNames": ["org.modelix:model-api"],
-      "enabled": false
-    },
-
-    {
       "matchPackageNames": ["org.eclipse*"],
       "groupName": "eclipse"
     },

@@ -126,30 +126,6 @@ bundledDependencies {
             exclude(module = "xml-apis")
         }
     }
-
-    create("modelApi") {
-        destinationDir = codeDir.dir("model-api/org.modelix.model.api/lib")
-        dependency("org.modelix:model-api:2.1.9")
-
-        configuration {
-            exclude(group = "log4j", module = "log4j")
-            exclude(group = "org.slf4j", module = "slf4j-api")
-            exclude(group = "org.jetbrains", module = "annotations")
-        }
-
-        resolveTask {
-            doLast {
-                val versionsFile = File(destinationDir, "versions.txt")
-                val resolvedArtifacts = configuration.get().resolvedConfiguration.resolvedArtifacts
-                versionsFile.writer().use {
-                    for (artifact in resolvedArtifacts) {
-                        it.appendLine(artifact.file.name + "\n")
-                    }
-                }
-            }
-        }
-    }
-
 }
 
 val languages by mpsBuilds.creating(MainBuild::class) {

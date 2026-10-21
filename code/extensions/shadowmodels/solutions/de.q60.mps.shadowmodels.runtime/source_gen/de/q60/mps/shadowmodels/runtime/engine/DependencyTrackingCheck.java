@@ -6,7 +6,7 @@ import java.util.Map;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterList;

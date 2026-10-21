@@ -9,14 +9,10 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import org.modelix.model.mpsadapters.mps.NodeToSNodeAdapter;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
 import de.q60.mps.shadowmodels.runtime.engine.DependencyTrackingNode;
-import org.modelix.model.mpsadapters.mps.SNodeToNodeAdapter;
 import org.jetbrains.mps.openapi.model.SModel;
-import org.modelix.model.mpsadapters.mps.SModelAsNode;
 import org.jetbrains.mps.openapi.module.SModule;
-import org.modelix.model.mpsadapters.mps.SModuleAsNode;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class ShadowModelsAPI {
@@ -46,7 +42,7 @@ public class ShadowModelsAPI {
     } else if (param instanceof SModule) {
       return DependencyTrackingNode.wrap(SModuleAsNode.wrap(((SModule) param)));
     } else if (param instanceof SNodeReference) {
-      return SM_ParameterConversion.fromMPS(((SNodeReference) param));
+      return ParameterConversion.fromMPS(((SNodeReference) param));
     } else if (param instanceof Iterable) {
       Iterable<Object> iterable = ((Iterable<Object>) param);
       return Sequence.fromIterable(iterable).select((it) -> convertParameter(it)).toList();

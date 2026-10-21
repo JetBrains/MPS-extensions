@@ -31,6 +31,7 @@
   <uses module="95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)" kind="rt+dp" />
   <uses module="18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)" kind="rt+dp" />
   <uses module="e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)" kind="rt+dp" />
+  <uses module="0bf7bc3b-b11d-42e4-b160-93d72af96397(de.q60.mps.shadowmodels.runtimelang)" kind="dp" />
   <uses module="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />
   <uses module="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
   <uses module="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" kind="rt" />
@@ -39,8 +40,5 @@
   <uses module="8e98f4e2-decf-4e97-bf80-9109e8b759ee(jetbrains.mps.lang.constraints.rules.runtime)" kind="dp" />
   <uses module="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="dp" />
   <uses module="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
-  <uses module="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" kind="rt+dp" />
-  <uses module="5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)" kind="rt+dp" />
-  <uses module="0a7577d1-d4e5-431d-98b1-fae38f9aee80(org.modelix.model.repositoryconcepts)" kind="dp" />
 </dependenciesRoot>
 

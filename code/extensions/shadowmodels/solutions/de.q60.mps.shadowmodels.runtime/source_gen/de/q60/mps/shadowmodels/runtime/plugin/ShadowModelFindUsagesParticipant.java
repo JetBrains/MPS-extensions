@@ -10,7 +10,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.util.Consumer;
 import org.jetbrains.mps.openapi.model.SReference;
 import jetbrains.mps.internal.collections.runtime.CollectionSequence;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ShadowModel;
+import de.q60.mps.shadowmodels.runtime.smodel.ShadowModel;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.model.SModelReference;
 import org.jetbrains.annotations.Nullable;
@@ -27,7 +27,7 @@ public class ShadowModelFindUsagesParticipant implements FindUsagesParticipant {
   @Override
   public void findUsages(Collection<SModel> scope, Set<SNode> nodes, Consumer<SReference> consumer, Consumer<SModel> processedConsumer) {
     for (SModel model : CollectionSequence.fromCollection(scope)) {
-      if (model instanceof SM_ShadowModel) {
+      if (model instanceof ShadowModel) {
         processedConsumer.consume(model);
       }
     }
@@ -35,7 +35,7 @@ public class ShadowModelFindUsagesParticipant implements FindUsagesParticipant {
   @Override
   public void findInstances(Collection<SModel> scope, Set<SAbstractConcept> concepts, Consumer<SNode> consumer, Consumer<SModel> processedConsumer) {
     for (SModel model : CollectionSequence.fromCollection(scope)) {
-      if (model instanceof SM_ShadowModel) {
+      if (model instanceof ShadowModel) {
         processedConsumer.consume(model);
       }
     }
@@ -43,7 +43,7 @@ public class ShadowModelFindUsagesParticipant implements FindUsagesParticipant {
   @Override
   public void findModelUsages(Collection<SModel> scope, Set<SModelReference> modelReferences, Consumer<SModel> consumer, Consumer<SModel> processedConsumer) {
     for (SModel model : CollectionSequence.fromCollection(scope)) {
-      if (model instanceof SM_ShadowModel) {
+      if (model instanceof ShadowModel) {
         processedConsumer.consume(model);
       }
     }
@@ -51,7 +51,7 @@ public class ShadowModelFindUsagesParticipant implements FindUsagesParticipant {
   @Override
   public void findUsages(Collection<SModel> scope, Set<SNode> nodes, Consumer<SReference> consumer, Consumer<SModel> processedConsumer, @Nullable ProgressMonitor monitor) {
     for (SModel model : CollectionSequence.fromCollection(scope)) {
-      if (model instanceof SM_ShadowModel) {
+      if (model instanceof ShadowModel) {
         processedConsumer.consume(model);
       }
     }
@@ -59,7 +59,7 @@ public class ShadowModelFindUsagesParticipant implements FindUsagesParticipant {
   @Override
   public void findInstances(Collection<SModel> scope, Set<SAbstractConcept> concepts, Consumer<SNode> consumer, Consumer<SModel> processedConsumer, @Nullable ProgressMonitor monitor) {
     for (SModel model : CollectionSequence.fromCollection(scope)) {
-      if (model instanceof SM_ShadowModel) {
+      if (model instanceof ShadowModel) {
         processedConsumer.consume(model);
       }
     }
@@ -67,7 +67,7 @@ public class ShadowModelFindUsagesParticipant implements FindUsagesParticipant {
   @Override
   public void findModelUsages(Collection<SModel> scope, Set<SModelReference> modelReferences, Consumer<SModel> consumer, Consumer<SModel> processedConsumer, @Nullable ProgressMonitor monitor) {
     for (SModel model : CollectionSequence.fromCollection(scope)) {
-      if (model instanceof SM_ShadowModel) {
+      if (model instanceof ShadowModel) {
         processedConsumer.consume(model);
       }
     }

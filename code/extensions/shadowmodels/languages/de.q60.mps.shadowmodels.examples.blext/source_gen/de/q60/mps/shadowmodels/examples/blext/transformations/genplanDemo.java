@@ -14,7 +14,7 @@ import de.q60.mps.polymorphicfunctions.runtime.IPFContext;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterType_Classifier;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import de.q60.mps.shadowmodels.runtime.engine.GoalCall;
 import de.q60.mps.shadowmodels.runtime.mpslike.MappingConfiguration;
 import de.q60.mps.shadowmodels.runtime.mpslike.MappingConfigurationId;

@@ -27,10 +27,10 @@ import de.q60.mps.shadowmodels.runtime.engine.CopyCall;
 import de.q60.mps.shadowmodels.runtime.engine.OutputNodeReferenceWithWeaving;
 import org.jetbrains.mps.openapi.model.SNode;
 import de.q60.mps.shadowmodels.runtime.concurrentrepo.RepositoryMirror;
-import org.modelix.model.mpsadapters.mps.SNodeToNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.SNodeToNodeAdapter;
 import de.q60.mps.explorer.pf.IExplorerContext;
 import jetbrains.mps.ide.icons.GlobalIconManager;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_SNodeAPI;
+import de.q60.mps.shadowmodels.runtime.smodel.SNodeAPI;
 
 public class TraceBuilders_traceback extends PFModule {
   private static final Logger LOG = Logger.getLogger(TraceBuilders_traceback.class);
@@ -375,7 +375,7 @@ public class TraceBuilders_traceback extends PFModule {
         final SNode snode = (originalNode != null ? originalNode : ((SNode) _PFparameters.get(0)));
         te.text = ((String) _PFcontext.callFunction("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new ParameterList(new Object[]{((SNode) _PFparameters.get(0))})));
         te.icon = (TraceBuilderUtil.isShadowNode(snode) ? TraceIcons.SHADOW_NODE_ICON : GlobalIconManager.getInstance().getIconFor(((SNode) _PFparameters.get(0))));
-        te.navigationTarget = () -> SM_SNodeAPI.tryGetUnwrappedNode(snode);
+        te.navigationTarget = () -> SNodeAPI.tryGetUnwrappedNode(snode);
 
         return te;
       }

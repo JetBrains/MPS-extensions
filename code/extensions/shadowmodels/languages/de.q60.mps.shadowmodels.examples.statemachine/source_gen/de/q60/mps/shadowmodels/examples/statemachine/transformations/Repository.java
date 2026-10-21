@@ -15,9 +15,9 @@ import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import de.q60.mps.shadowmodels.runtime.engine.ParameterType_INode;
-import org.modelix.model.mpsadapters.mps.SConceptAdapter;
-import org.modelix.model.api.INode;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GeneratedTransformationRule;
+import de.q60.mps.shadowmodels.runtime.smodel.SConceptAdapter;
+import de.q60.mps.shadowmodels.runtime.model.INode;
+import de.q60.mps.shadowmodels.runtime.smodel.GeneratedTransformationRule;
 import jetbrains.mps.smodel.SNodePointer;
 import de.q60.mps.shadowmodels.runtime.engine.ContainmentTargetRootNodes;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
@@ -25,7 +25,7 @@ import de.q60.mps.shadowmodels.runtime.engine.TransformationResult;
 import de.q60.mps.shadowmodels.runtime.engine.ContributionContext;
 import de.q60.mps.shadowmodels.runtime.engine.IBuilderContext;
 import de.q60.mps.shadowmodels.runtime.engine.BuilderContextParameter;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ParameterConversion;
+import de.q60.mps.shadowmodels.runtime.smodel.ParameterConversion;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -61,7 +61,7 @@ public class Repository extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return ListSequence.fromListAndArray(new ArrayList<SLanguage>(), MetaAdapterFactory.getLanguage(0xfdda8484fc574faaL, 0x9059032e2b8b648fL, "de.q60.mps.shadowmodels.repository"), MetaAdapterFactory.getLanguage(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, "org.modelix.model.repositoryconcepts"), MetaAdapterFactory.getLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core"), MetaAdapterFactory.getLanguage(0xebb56408a28744caL, 0xab2d1b6ee6850446L, "de.q60.mps.shadowmodels.examples.statemachine"));
+        return ListSequence.fromListAndArray(new ArrayList<SLanguage>(), MetaAdapterFactory.getLanguage(0xfdda8484fc574faaL, 0x9059032e2b8b648fL, "de.q60.mps.shadowmodels.repository"), MetaAdapterFactory.getLanguage(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, "de.q60.mps.shadowmodels.runtimelang"), MetaAdapterFactory.getLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core"), MetaAdapterFactory.getLanguage(0xebb56408a28744caL, 0xab2d1b6ee6850446L, "de.q60.mps.shadowmodels.examples.statemachine"));
       }
       @Override
       public Iterable<IParameterType> getParameterTypes() {
@@ -77,7 +77,7 @@ public class Repository extends PFModule {
       }
     });
     addImplementation("de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository&", new IFunctionImplementation() {
-      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Repository$db)));
+      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Repository$sN)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
       @Override
@@ -85,13 +85,13 @@ public class Repository extends PFModule {
         return "de.q60.mps.shadowmodels.examples.statemachine.transformations/Repository/Repository&_1";
       }
       public boolean isApplicable(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.Repository$db)))) {
+        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.Repository$sN)))) {
           return false;
         }
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "9192345617660068455")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "9192345617660068455")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             if (result.getFirstRootElement(0) == null) {
@@ -101,20 +101,20 @@ public class Repository extends PFModule {
               result.setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/9192345617660068455");
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
-                  context.withParameter(BuilderContextParameter.ID, "C6IRnema_0").createNode(new SConceptAdapter(CONCEPTS.Repository$db)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                  context.withParameter(BuilderContextParameter.ID, "C6IRnema_0").createNode(new SConceptAdapter(CONCEPTS.Repository$sN)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                     public void invoke(final IBuilderContext context) {
                       context.getResultElement().setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/9192345617660071855");
                       if (true) {
                         context.forChildRole("modules").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.withParameter(BuilderContextParameter.ID, "C6IRnema_1").createNode(new SConceptAdapter(CONCEPTS.Module$4i)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            context.withParameter(BuilderContextParameter.ID, "C6IRnema_1").createNode(new SConceptAdapter(CONCEPTS.Module$jU)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                               public void invoke(final IBuilderContext context) {
                                 context.getResultElement().setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/9192345617660072761");
                                 final IBuilderContext savedContext_wm5ned_a0a0a3 = context;
                                 context.getResultElement().setProperty("name", () -> {
                                   return savedContext_wm5ned_a0a0a3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString("examples.statemachines");
+                                      return ParameterConversion.asString("examples.statemachines");
                                     }
                                   });
                                 });
@@ -122,10 +122,10 @@ public class Repository extends PFModule {
                                   context.forChildRole("models").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
                                       int i_a1a0a0d = 0;
-                                      for (SNode e_a1a0a0d : Sequence.fromIterable(SLinkOperations.collectMany(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.modules$jBPn), LINKS.models$h3QT)).where((it) -> Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(it, LINKS.rootNodes$jxXY), CONCEPTS.Statemachine$ba)).isNotEmpty())) {
-                                        context.forContextValue(SM_ParameterConversion.fromMPS(e_a1a0a0d)).withAdditionalIdPrefix("C6IRnema_2" + "#" + i_a1a0a0d).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                                      for (SNode e_a1a0a0d : Sequence.fromIterable(SLinkOperations.collectMany(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.modules$uy4Z), LINKS.models$rY6x)).where((it) -> Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(it, LINKS.rootNodes$usdA), CONCEPTS.Statemachine$ba)).isNotEmpty())) {
+                                        context.forContextValue(ParameterConversion.fromMPS(e_a1a0a0d)).withAdditionalIdPrefix("C6IRnema_2" + "#" + i_a1a0a0d).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                           public void invoke(final IBuilderContext context) {
-                                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository.outputModel", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/9192345617660072786"));
+                                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository.outputModel", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/9192345617660072786"));
                                           }
                                         });
                                         i_a1a0a0d++;
@@ -160,7 +160,7 @@ public class Repository extends PFModule {
       }
     });
     addImplementation("de.q60.mps.shadowmodels.examples.statemachine.transformations.Repository.outputModel", new IFunctionImplementation() {
-      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$2P)));
+      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$it)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
       @Override
@@ -168,27 +168,27 @@ public class Repository extends PFModule {
         return "de.q60.mps.shadowmodels.examples.statemachine.transformations/Repository/outputModel_4";
       }
       public boolean isApplicable(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.Model$2P)))) {
+        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.Model$it)))) {
           return false;
         }
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "9192345617659972781")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "9192345617659972781")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
               result.setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/9192345617659972781");
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
-                  context.withParameter(BuilderContextParameter.ID, "3").createNode(new SConceptAdapter(CONCEPTS.Model$2P)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                  context.withParameter(BuilderContextParameter.ID, "3").createNode(new SConceptAdapter(CONCEPTS.Model$it)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                     public void invoke(final IBuilderContext context) {
                       context.getResultElement().setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/9192345617659973410");
                       final IBuilderContext savedContext_wm5ned_a0a5 = context;
                       context.getResultElement().setProperty("name", () -> {
                         return savedContext_wm5ned_a0a5.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL) + ".java");
+                            return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL) + ".java");
                           }
                         });
                       });
@@ -196,10 +196,10 @@ public class Repository extends PFModule {
                         context.forChildRole("rootNodes").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
                             int i_a1a0f = 0;
-                            for (SNode e_a1a0f : Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.rootNodes$jxXY), CONCEPTS.Statemachine$ba))) {
-                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a1a0f)).withAdditionalIdPrefix("4" + "#" + i_a1a0f).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            for (SNode e_a1a0f : Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.rootNodes$usdA), CONCEPTS.Statemachine$ba))) {
+                              context.forContextValue(ParameterConversion.fromMPS(e_a1a0f)).withAdditionalIdPrefix("4" + "#" + i_a1a0f).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
-                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava.sm2java", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/9192345617660035739"));
+                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineToJava.sm2java", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/9192345617660035739"));
                                 }
                               });
                               i_a1a0f++;
@@ -231,16 +231,16 @@ public class Repository extends PFModule {
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Repository$db = MetaAdapterFactory.getConcept(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c516L, "org.modelix.model.repositoryconcepts.structure.Repository");
-    /*package*/ static final SConcept Module$4i = MetaAdapterFactory.getConcept(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c50fL, "org.modelix.model.repositoryconcepts.structure.Module");
+    /*package*/ static final SConcept Repository$sN = MetaAdapterFactory.getConcept(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c516L, "de.q60.mps.shadowmodels.runtimelang.structure.Repository");
+    /*package*/ static final SConcept Module$jU = MetaAdapterFactory.getConcept(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c50fL, "de.q60.mps.shadowmodels.runtimelang.structure.Module");
     /*package*/ static final SConcept Statemachine$ba = MetaAdapterFactory.getConcept(0xebb56408a28744caL, 0xab2d1b6ee6850446L, 0x65cd987c65c407aaL, "de.q60.mps.shadowmodels.examples.statemachine.structure.Statemachine");
-    /*package*/ static final SConcept Model$2P = MetaAdapterFactory.getConcept(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c50cL, "org.modelix.model.repositoryconcepts.structure.Model");
+    /*package*/ static final SConcept Model$it = MetaAdapterFactory.getConcept(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c50cL, "de.q60.mps.shadowmodels.runtimelang.structure.Model");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink modules$jBPn = MetaAdapterFactory.getContainmentLink(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c516L, 0x69652614fd1c517L, "modules");
-    /*package*/ static final SContainmentLink models$h3QT = MetaAdapterFactory.getContainmentLink(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c50fL, 0x69652614fd1c512L, "models");
-    /*package*/ static final SContainmentLink rootNodes$jxXY = MetaAdapterFactory.getContainmentLink(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c50cL, 0x69652614fd1c514L, "rootNodes");
+    /*package*/ static final SContainmentLink modules$uy4Z = MetaAdapterFactory.getContainmentLink(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c516L, 0x69652614fd1c517L, "modules");
+    /*package*/ static final SContainmentLink models$rY6x = MetaAdapterFactory.getContainmentLink(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c50fL, 0x69652614fd1c512L, "models");
+    /*package*/ static final SContainmentLink rootNodes$usdA = MetaAdapterFactory.getContainmentLink(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c50cL, 0x69652614fd1c514L, "rootNodes");
   }
 
   private static final class PROPS {

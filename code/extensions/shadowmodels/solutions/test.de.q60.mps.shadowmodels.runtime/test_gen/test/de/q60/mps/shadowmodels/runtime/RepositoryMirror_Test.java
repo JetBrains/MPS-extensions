@@ -4,7 +4,7 @@ package test.de.q60.mps.shadowmodels.runtime;
 
 import org.jetbrains.mps.openapi.module.SRepository;
 import de.q60.mps.shadowmodels.runtime.concurrentrepo.RepositoryMirror;
-import org.modelix.model.api.IBranch;
+import de.q60.mps.shadowmodels.runtime.model.persistent.IBranch;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -12,11 +12,11 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.junit.Assert;
 import java.util.List;
 import java.util.ArrayList;
-import org.modelix.model.api.INode;
-import org.modelix.model.mpsadapters.mps.SNodeReferenceAdapter;
+import de.q60.mps.shadowmodels.runtime.model.INode;
+import de.q60.mps.shadowmodels.runtime.smodel.SNodeReferenceAdapter;
 import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.modelix.model.mpsadapters.mps.NodeToSNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.NodeToSNodeAdapter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.junit.jupiter.api.BeforeEach;
 import jetbrains.mps.ide.MPSCoreComponents;
@@ -34,7 +34,7 @@ public class RepositoryMirror_Test {
   private SNode repositoryNode;
   @Test
   public void test_modules() throws Exception {
-    int size = branch.computeRead(() -> ListSequence.fromList(SLinkOperations.getChildren(repositoryNode, LINKS.modules$jBPn)).count());
+    int size = branch.computeRead(() -> ListSequence.fromList(SLinkOperations.getChildren(repositoryNode, LINKS.modules$uy4Z)).count());
     System.out.println("size = " + size);
     Assert.assertTrue(size > 0);
   }
@@ -42,7 +42,7 @@ public class RepositoryMirror_Test {
   public void test_lazyLoading() throws Exception {
     final List<Integer> sizes = ListSequence.fromList(new ArrayList<Integer>());
     int size = branch.computeRead(() -> {
-      int s = ListSequence.fromList(SLinkOperations.getChildren(repositoryNode, LINKS.modules$jBPn)).count();
+      int s = ListSequence.fromList(SLinkOperations.getChildren(repositoryNode, LINKS.modules$uy4Z)).count();
       ListSequence.fromList(sizes).addElement(s);
       return s;
     });
@@ -64,7 +64,7 @@ public class RepositoryMirror_Test {
     repository = MPSCoreComponents.getInstance().getPlatform().findComponent(MPSModuleRepository.class);
     mirror = new RepositoryMirror(repository);
     branch = mirror.getBranch();
-    repositoryNode = SNodeOperations.cast(NodeToSNodeAdapter.wrap(mirror.getRepositoryNode(), repository), CONCEPTS.Repository$db);
+    repositoryNode = SNodeOperations.cast(NodeToSNodeAdapter.wrap(mirror.getRepositoryNode(), repository), CONCEPTS.Repository$sN);
   }
   @AfterEach
   public void tearDown() {
@@ -75,12 +75,12 @@ public class RepositoryMirror_Test {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink modules$jBPn = MetaAdapterFactory.getContainmentLink(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c516L, 0x69652614fd1c517L, "modules");
+    /*package*/ static final SContainmentLink modules$uy4Z = MetaAdapterFactory.getContainmentLink(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c516L, 0x69652614fd1c517L, "modules");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept InstanceMethodDeclaration$39 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b21dL, "jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration");
-    /*package*/ static final SConcept Repository$db = MetaAdapterFactory.getConcept(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c516L, "org.modelix.model.repositoryconcepts.structure.Repository");
+    /*package*/ static final SConcept Repository$sN = MetaAdapterFactory.getConcept(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c516L, "de.q60.mps.shadowmodels.runtimelang.structure.Repository");
   }
 
   private static final class PROPS {

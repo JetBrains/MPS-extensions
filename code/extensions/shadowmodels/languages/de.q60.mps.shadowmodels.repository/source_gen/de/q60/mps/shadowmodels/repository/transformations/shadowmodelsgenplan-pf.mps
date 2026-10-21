@@ -9,10 +9,9 @@
     <import index="jwvb" ref="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="r8po" ref="r:1d515eb3-4574-4003-95ad-9150a9c1623c(de.q60.mps.shadowmodels.transformation.polyfun)" />
-    <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
+    <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
-    <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
@@ -351,8 +350,8 @@
                 <node concept="PFCIn" id="U" role="2V$M_3">
                   <uo k="s:originTrace" v="n:9192345617660065997" />
                   <node concept="20RdaH" id="V" role="PFCIW">
-                    <property role="20Rdg5" value="0a7577d1-d4e5-431d-98b1-fae38f9aee80" />
-                    <property role="20Rdg7" value="org.modelix.model.repositoryconcepts" />
+                    <property role="20Rdg5" value="0bf7bc3b-b11d-42e4-b160-93d72af96397" />
+                    <property role="20Rdg7" value="de.q60.mps.shadowmodels.runtimelang" />
                     <uo k="s:originTrace" v="n:9192345617660065997" />
                   </node>
                 </node>
@@ -369,7 +368,7 @@
         <property role="TrG5h" value="i0" />
         <uo k="s:originTrace" v="n:9192345617660066986" />
         <node concept="3$_h64" id="Y" role="3khFNH">
-          <ref role="3$_h63" to="jh6v:qmkA5fOskm" resolve="Repository" />
+          <ref role="3$_h63" to="dj5d:qmkA5fOskm" resolve="Repository" />
           <uo k="s:originTrace" v="n:6951066303471254143" />
         </node>
       </node>
@@ -385,7 +384,7 @@
         <property role="TrG5h" value="i0" />
         <uo k="s:originTrace" v="n:9192345617660066986" />
         <node concept="3$_h64" id="11" role="3khFNH">
-          <ref role="3$_h63" to="jh6v:qmkA5fOskm" resolve="Repository" />
+          <ref role="3$_h63" to="dj5d:qmkA5fOskm" resolve="Repository" />
           <uo k="s:originTrace" v="n:6951066303471254143" />
         </node>
       </node>
@@ -401,7 +400,7 @@
         <property role="TrG5h" value="i0" />
         <uo k="s:originTrace" v="n:9192345617660066986" />
         <node concept="3$_h64" id="14" role="3khFNH">
-          <ref role="3$_h63" to="jh6v:qmkA5fOskm" resolve="Repository" />
+          <ref role="3$_h63" to="dj5d:qmkA5fOskm" resolve="Repository" />
           <uo k="s:originTrace" v="n:6951066303471254143" />
         </node>
       </node>
@@ -415,8 +414,9 @@
               <uo k="s:originTrace" v="n:9192345617660066986" />
               <node concept="1Y3b0j" id="18" role="YeSDq">
                 <property role="2bfB8j" value="true" />
-                <ref role="1Y3XeK" to="l6bp:6yk5G9LOul3" resolve="SM_GeneratedTransformationRule" />
-                <ref role="37wK5l" to="l6bp:6yk5G9LOun$" resolve="SM_GeneratedTransformationRule" />
+                <property role="TrG5h" value="eratedTransformationRule$anonymous" />
+                <ref role="1Y3XeK" to="l6bp:6yk5G9LOul3" resolve="GeneratedTransformationRule" />
+                <ref role="37wK5l" to="l6bp:6yk5G9LOun$" resolve="GeneratedTransformationRule" />
                 <uo k="s:originTrace" v="n:9192345617660066986" />
                 <node concept="2tJFMh" id="19" role="37wK5m">
                   <uo k="s:originTrace" v="n:9192345617660066986" />
@@ -539,9 +539,9 @@
                                                 <ref role="37wK5l" to="nv3w:4EhVFrZluVM" resolve="createNode" />
                                                 <node concept="2ShNRf" id="1Q" role="37wK5m">
                                                   <node concept="1pGfFk" id="1R" role="2ShVmc">
-                                                    <ref role="37wK5l" to="xxte:5gTrVpGjFod" resolve="SConceptAdapter" />
+                                                    <ref role="37wK5l" to="l6bp:5gTrVpGjFod" resolve="SConceptAdapter" />
                                                     <node concept="35c_gC" id="1S" role="37wK5m">
-                                                      <ref role="35c_gD" to="jh6v:qmkA5fOskm" resolve="Repository" />
+                                                      <ref role="35c_gD" to="dj5d:qmkA5fOskm" resolve="Repository" />
                                                     </node>
                                                   </node>
                                                 </node>

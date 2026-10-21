@@ -15,20 +15,20 @@ import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import de.q60.mps.shadowmodels.runtime.engine.ParameterType_INode;
-import org.modelix.model.mpsadapters.mps.SConceptAdapter;
-import org.modelix.model.api.INode;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GeneratedTransformationRule;
+import de.q60.mps.shadowmodels.runtime.smodel.SConceptAdapter;
+import de.q60.mps.shadowmodels.runtime.model.INode;
+import de.q60.mps.shadowmodels.runtime.smodel.GeneratedTransformationRule;
 import jetbrains.mps.smodel.SNodePointer;
 import de.q60.mps.shadowmodels.runtime.engine.ContainmentTargetRootNodes;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationResult;
 import de.q60.mps.shadowmodels.runtime.engine.RootBuilderContext;
 import de.q60.mps.shadowmodels.runtime.engine.IBuilderContext;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_CopySNodeToTransformationResult;
+import de.q60.mps.shadowmodels.runtime.smodel.CopySNodeToTransformationResult;
 import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.model.SNode;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ParameterConversion;
+import de.q60.mps.shadowmodels.runtime.smodel.ParameterConversion;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -69,7 +69,7 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return ListSequence.fromListAndArray(new ArrayList<SLanguage>(), MetaAdapterFactory.getLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core"), MetaAdapterFactory.getLanguage(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, "org.modelix.model.repositoryconcepts"), MetaAdapterFactory.getLanguage(0xbbb5f4e2794a4b91L, 0xbd27caf7d437ac9eL, "de.q60.mps.shadowmodels.examples.blext"), MetaAdapterFactory.getLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage"));
+        return ListSequence.fromListAndArray(new ArrayList<SLanguage>(), MetaAdapterFactory.getLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core"), MetaAdapterFactory.getLanguage(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, "de.q60.mps.shadowmodels.runtimelang"), MetaAdapterFactory.getLanguage(0xbbb5f4e2794a4b91L, 0xbd27caf7d437ac9eL, "de.q60.mps.shadowmodels.examples.blext"), MetaAdapterFactory.getLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage"));
       }
       @Override
       public Iterable<IParameterType> getParameterTypes() {
@@ -99,37 +99,37 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7898342489379241391")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7898342489379241391")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
               result.setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/7898342489379241391");
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
-                  final SM_CopySNodeToTransformationResult copyHandler_a0c = new SM_CopySNodeToTransformationResult(context);
+                  final CopySNodeToTransformationResult copyHandler_a0c = new CopySNodeToTransformationResult(context);
                   copyHandler_a0c.setIdPrefix("0");
                   copyHandler_a0c.setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/5195914917234185539");
-                  copyHandler_a0c.addPropertyHandler(new SM_CopySNodeToTransformationResult.PropertyHandler() {
+                  copyHandler_a0c.addPropertyHandler(new CopySNodeToTransformationResult.PropertyHandler() {
                     public String apply(final SProperty role, final String value, final IBuilderContext context) {
                       return value;
                     }
                   });
-                  copyHandler_a0c.addChildHandler(new SM_CopySNodeToTransformationResult.ChildHandler() {
+                  copyHandler_a0c.addChildHandler(new CopySNodeToTransformationResult.ChildHandler() {
                     public void apply(final SContainmentLink role, final SNode child, final IBuilderContext copyContext) {
                       IBuilderContext context = copyContext.forChildRole(role.getName());
-                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(child))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/5195914917234185799"));
+                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(child))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/5195914917234185799"));
                     }
                   });
-                  copyHandler_a0c.addReferenceHandler(new SM_CopySNodeToTransformationResult.ReferenceHandler() {
+                  copyHandler_a0c.addReferenceHandler(new CopySNodeToTransformationResult.ReferenceHandler() {
                     @Override
                     public boolean isApplicable(final SReferenceLink role, final SNode target, final IBuilderContext context) {
-                      return Objects.equals(SNodeOperations.getNodeAncestor(target, CONCEPTS.Model$2P, false, false), SNodeOperations.getNodeAncestor(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.Model$2P, false, false));
+                      return Objects.equals(SNodeOperations.getNodeAncestor(target, CONCEPTS.Model$it, false, false), SNodeOperations.getNodeAncestor(ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.Model$it, false, false));
                     }
                     public void apply(final SReferenceLink role, final SNode target, final IBuilderContext context) {
-                      context.getResultElement().setReferenceTarget(role.getName(), new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(target))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8613808558137617152")));
+                      context.getResultElement().setReferenceTarget(role.getName(), new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(target))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8613808558137617152")));
                     }
                   });
-                  copyHandler_a0c.copy(SM_ParameterConversion.toMPS(((INode) context.getContextValue())));
+                  copyHandler_a0c.copy(ParameterConversion.toMPS(((INode) context.getContextValue())));
                 }
               });
             });
@@ -164,7 +164,7 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "8286906820978337352")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "8286906820978337352")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -205,7 +205,7 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7898342489378223441")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7898342489378223441")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -230,7 +230,7 @@ public class desugarUsingCopy extends PFModule {
                                           if (true) {
                                             context.forChildRole("expression").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                               public void invoke(final IBuilderContext context) {
-                                                context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.condition$EaHf)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3359783165114032499"));
+                                                context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.condition$EaHf)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3359783165114032499"));
                                               }
                                             });
                                           }
@@ -247,7 +247,7 @@ public class desugarUsingCopy extends PFModule {
                       if (true) {
                         context.forChildRole("body").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.body$Ebbh)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3359783165114032676"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.body$Ebbh)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3359783165114032676"));
                           }
                         });
                       }
@@ -287,7 +287,7 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "8286906820977908448")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "8286906820977908448")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -300,7 +300,7 @@ public class desugarUsingCopy extends PFModule {
                       if (true) {
                         context.forChildRole("localVariableDeclaration").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.varWithInferredType.lvd", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8286906820978836465"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.varWithInferredType.lvd", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8286906820978836465"));
                           }
                         });
                       }
@@ -340,7 +340,7 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "8286906820978759523")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "8286906820978759523")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -354,18 +354,18 @@ public class desugarUsingCopy extends PFModule {
                       context.getResultElement().setProperty("name", () -> {
                         return savedContext_o3j4te_a0a1g.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
+                            return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
                           }
                         });
                       });
                       if (true) {
                         context.forChildRole("type").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            final SM_CopySNodeToTransformationResult copyHandler_a1a0b6 = new SM_CopySNodeToTransformationResult(context);
+                            final CopySNodeToTransformationResult copyHandler_a1a0b6 = new CopySNodeToTransformationResult(context);
                             copyHandler_a1a0b6.setIdPrefix("6");
                             copyHandler_a1a0b6.setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8286906820978828409");
                             copyHandler_a1a0b6.copy(((_FunctionTypes._return_P1_E0<SNode, IncrementalEngine>) (IncrementalEngine engine) -> {
-                              SNode expr = SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.initializer$2j2M);
+                              SNode expr = SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.initializer$2j2M);
                               return ShadowTypesystemUtil.getType(expr);
                             }).invoke(context.getEngine().getIncrementalEngine()));
                           }
@@ -374,7 +374,7 @@ public class desugarUsingCopy extends PFModule {
                       if (true) {
                         context.forChildRole("initializer").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.initializer$2j2M)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8286906820978828416"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.initializer$2j2M)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8286906820978828416"));
                           }
                         });
                       }
@@ -414,7 +414,7 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "8286906820978720471")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "8286906820978720471")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -424,7 +424,7 @@ public class desugarUsingCopy extends PFModule {
                   context.withParameter(BuilderContextParameter.ID, "7").createNode(new SConceptAdapter(CONCEPTS.VariableReference$TC)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                     public void invoke(final IBuilderContext context) {
                       context.getResultElement().setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8286906820978864913");
-                      context.getResultElement().setReferenceTarget("variableDeclaration", new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.varWithInferredType.lvd", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.var$sBf$)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8286906820978893586")));
+                      context.getResultElement().setReferenceTarget("variableDeclaration", new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.varWithInferredType.lvd", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.var$sBf$)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8286906820978893586")));
                     }
                   });
                 }
@@ -461,17 +461,17 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "1068767335606746715")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "1068767335606746715")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
               result.setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335606746715");
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
-                  final SM_CopySNodeToTransformationResult copyHandler_a0h = new SM_CopySNodeToTransformationResult(context);
+                  final CopySNodeToTransformationResult copyHandler_a0h = new CopySNodeToTransformationResult(context);
                   copyHandler_a0h.setIdPrefix("8");
                   copyHandler_a0h.setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/4453020072215517344");
-                  copyHandler_a0h.addPropertyHandler(new SM_CopySNodeToTransformationResult.PropertyHandler() {
+                  copyHandler_a0h.addPropertyHandler(new CopySNodeToTransformationResult.PropertyHandler() {
                     public boolean isApplicable(final SProperty role, final String value, final IBuilderContext context) {
                       return Objects.equals(role, PROPS.name$MnvL);
                     }
@@ -479,13 +479,13 @@ public class desugarUsingCopy extends PFModule {
                       return value + "_out";
                     }
                   });
-                  copyHandler_a0h.addChildHandler(new SM_CopySNodeToTransformationResult.ChildHandler() {
+                  copyHandler_a0h.addChildHandler(new CopySNodeToTransformationResult.ChildHandler() {
                     public void apply(final SContainmentLink role, final SNode child, final IBuilderContext copyContext) {
                       IBuilderContext context = copyContext.forChildRole(role.getName());
-                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(child))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/4453020072217544941"));
+                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(child))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/4453020072217544941"));
                     }
                   });
-                  copyHandler_a0h.copy(SM_ParameterConversion.toMPS(((INode) context.getInput(0))));
+                  copyHandler_a0h.copy(ParameterConversion.toMPS(((INode) context.getInput(0))));
                 }
               });
             });
@@ -520,7 +520,7 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "1068767335609575995")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "1068767335609575995")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             if (result.getFirstRootElement(0) == null) {
@@ -537,10 +537,10 @@ public class desugarUsingCopy extends PFModule {
                         context.forChildRole("member").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
                             int i_a0a0j = 0;
-                            for (SNode e_a0a0j : ListSequence.fromList(SNodeOperations.getNodeDescendants(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.NullAlternativeExpression$3A, false, new SAbstractConcept[]{}))) {
-                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a0a0j)).withAdditionalIdPrefix("UwYQbCY1_10" + "#" + i_a0a0j).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            for (SNode e_a0a0j : ListSequence.fromList(SNodeOperations.getNodeDescendants(ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.NullAlternativeExpression$3A, false, new SAbstractConcept[]{}))) {
+                              context.forContextValue(ParameterConversion.fromMPS(e_a0a0j)).withAdditionalIdPrefix("UwYQbCY1_10" + "#" + i_a0a0j).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
-                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.naMethod", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335609576007"));
+                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.naMethod", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335609576007"));
                                 }
                               });
                               i_a0a0j++;
@@ -584,7 +584,7 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "1068767335607534569")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "1068767335607534569")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -594,19 +594,19 @@ public class desugarUsingCopy extends PFModule {
                   context.withParameter(BuilderContextParameter.ID, "11").createNode(new SConceptAdapter(CONCEPTS.StaticMethodCall$Fg)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                     public void invoke(final IBuilderContext context) {
                       context.getResultElement().setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335607536167");
-                      context.getResultElement().setReferenceTarget("classConcept", new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SNodeOperations.getNodeAncestor(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335607865725")));
-                      context.getResultElement().setReferenceTarget("baseMethodDeclaration", new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.naMethod", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(0)))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335607537835")));
+                      context.getResultElement().setReferenceTarget("classConcept", new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SNodeOperations.getNodeAncestor(ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335607865725")));
+                      context.getResultElement().setReferenceTarget("baseMethodDeclaration", new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.naMethod", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(0)))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335607537835")));
                       if (true) {
                         context.forChildRole("actualArgument").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.possibleNull$C4Li)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335607540523"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.possibleNull$C4Li)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335607540523"));
                           }
                         });
                       }
                       if (true) {
                         context.forChildRole("actualArgument").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.valueIfNull$C5fk)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335607542489"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingCopy.desugar", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.valueIfNull$C5fk)))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/1068767335607542489"));
                           }
                         });
                       }
@@ -646,7 +646,7 @@ public class desugarUsingCopy extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "1068767335606803478")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "1068767335606803478")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -660,7 +660,7 @@ public class desugarUsingCopy extends PFModule {
                       context.getResultElement().setProperty("name", () -> {
                         return savedContext_o3j4te_a0a31.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString("na_" + IterableUtils.join(ListSequence.fromList(ListSequence.fromList(SNodeOperations.getNodeAncestors(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), null, true)).subtract(ListSequence.fromList(SNodeOperations.getNodeAncestors(SNodeOperations.getNodeAncestor(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false), null, true))).where((it) -> (SNodeOperations.getParent(it) != null)).select((it) -> "" + ((SNodeOperations.getIndexInParent(it) == -1 ? "0" : SNodeOperations.getIndexInParent(it)))).toList()).reversedList(), "_"));
+                            return ParameterConversion.asString("na_" + IterableUtils.join(ListSequence.fromList(ListSequence.fromList(SNodeOperations.getNodeAncestors(ParameterConversion.toMPS(((INode) context.getInput(0))), null, true)).subtract(ListSequence.fromList(SNodeOperations.getNodeAncestors(SNodeOperations.getNodeAncestor(ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false), null, true))).where((it) -> (SNodeOperations.getParent(it) != null)).select((it) -> "" + ((SNodeOperations.getIndexInParent(it) == -1 ? "0" : SNodeOperations.getIndexInParent(it)))).toList()).reversedList(), "_"));
                           }
                         });
                       });
@@ -687,7 +687,7 @@ public class desugarUsingCopy extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_o3j4te_a0a2a0n.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("T");
+                                          return ParameterConversion.asString("T");
                                         }
                                       });
                                     });
@@ -710,7 +710,7 @@ public class desugarUsingCopy extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_o3j4te_a0a3a0n.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("A");
+                                          return ParameterConversion.asString("A");
                                         }
                                       });
                                     });
@@ -745,7 +745,7 @@ public class desugarUsingCopy extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_o3j4te_a0a4a0n.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("B");
+                                          return ParameterConversion.asString("B");
                                         }
                                       });
                                     });
@@ -792,7 +792,7 @@ public class desugarUsingCopy extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_o3j4te_a0a6a0n.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("a");
+                                          return ParameterConversion.asString("a");
                                         }
                                       });
                                     });
@@ -827,7 +827,7 @@ public class desugarUsingCopy extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_o3j4te_a0a7a0n.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("b");
+                                          return ParameterConversion.asString("b");
                                         }
                                       });
                                     });
@@ -966,7 +966,7 @@ public class desugarUsingCopy extends PFModule {
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept BaseConcept$gP = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL, "jetbrains.mps.lang.core.structure.BaseConcept");
-    /*package*/ static final SConcept Model$2P = MetaAdapterFactory.getConcept(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c50cL, "org.modelix.model.repositoryconcepts.structure.Model");
+    /*package*/ static final SConcept Model$it = MetaAdapterFactory.getConcept(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c50cL, "de.q60.mps.shadowmodels.runtimelang.structure.Model");
     /*package*/ static final SConcept UntilStatement$XV = MetaAdapterFactory.getConcept(0xbbb5f4e2794a4b91L, 0xbd27caf7d437ac9eL, 0x6d9c8ca599d2d67cL, "de.q60.mps.shadowmodels.examples.blext.structure.UntilStatement");
     /*package*/ static final SConcept WhileStatement$Ay = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xfaa4bf0f2fL, "jetbrains.mps.baseLanguage.structure.WhileStatement");
     /*package*/ static final SConcept NotExpression$Pc = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xfbcf6bd10dL, "jetbrains.mps.baseLanguage.structure.NotExpression");

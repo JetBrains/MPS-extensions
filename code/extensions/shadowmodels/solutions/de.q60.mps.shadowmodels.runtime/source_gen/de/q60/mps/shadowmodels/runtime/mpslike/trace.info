@@ -79,7 +79,7 @@
       <node id="2276027232660597812" at="30,37,31,19" concept="10" />
       <node id="2276027232660599457" at="34,62,35,16" concept="10" />
       <node id="2276027232661536977" at="38,71,39,53" concept="10" />
-      <node id="2276027232662928339" at="42,0,43,0" concept="8" trace="getPropertyValue#(Lorg/modelix/model/api/INode;)Ljava/lang/String;" />
+      <node id="2276027232662928339" at="42,0,43,0" concept="8" trace="getPropertyValue#(Lde/q60/mps/shadowmodels/runtime/model/INode;)Ljava/lang/String;" />
       <node id="2276027232662909791" at="45,0,46,0" concept="4" trace="value" />
       <node id="2276027232662957201" at="47,34,48,25" concept="3" />
       <node id="2276027232662892646" at="51,65,52,33" concept="10" />
@@ -130,9 +130,9 @@
       <node id="2276027232673100876" at="203,25,204,83" concept="3" />
       <node id="2276027232673133706" at="204,83,205,123" concept="3" />
       <node id="2276027232673100890" at="205,123,206,24" concept="10" />
-      <node id="2276027232660596743" at="30,0,33,0" concept="8" trace="getInputConcept#()Lorg/modelix/model/api/IConcept;" />
-      <node id="2276027232660596751" at="34,0,37,0" concept="8" trace="isApplicable#(Lorg/modelix/model/api/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
-      <node id="2276027232661535887" at="38,0,41,0" concept="8" trace="apply#(Lde/q60/mps/shadowmodels/runtime/engine/ISubgraphStage;Lorg/modelix/model/api/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputWrapper;" />
+      <node id="2276027232660596743" at="30,0,33,0" concept="8" trace="getInputConcept#()Lde/q60/mps/shadowmodels/runtime/model/IConcept;" />
+      <node id="2276027232660596751" at="34,0,37,0" concept="8" trace="isApplicable#(Lde/q60/mps/shadowmodels/runtime/model/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
+      <node id="2276027232661535887" at="38,0,41,0" concept="8" trace="apply#(Lde/q60/mps/shadowmodels/runtime/engine/ISubgraphStage;Lde/q60/mps/shadowmodels/runtime/model/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputWrapper;" />
       <node id="2276027232661546936" at="47,0,50,0" concept="2" trace="Wrapper#(Ljava/lang/String;)V" />
       <node id="2276027232662726199" at="51,0,54,0" concept="8" trace="wrap#(Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;" />
       <node id="7580149848887195393" at="68,0,71,0" concept="8" trace="unwrap#()Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;" />
@@ -146,20 +146,20 @@
       <node id="2276027232673100808" at="185,11,188,11" concept="7" />
       <node id="2276027232673118784" at="190,43,193,11" concept="7" />
       <node id="2276027232673118793" at="193,11,196,11" concept="7" />
-      <node id="2276027232660596083" at="25,0,29,0" concept="2" trace="PropertyRule#(Lorg/modelix/model/api/IConcept;Ljava/lang/String;)V" />
+      <node id="2276027232660596083" at="25,0,29,0" concept="2" trace="PropertyRule#(Lde/q60/mps/shadowmodels/runtime/model/IConcept;Ljava/lang/String;)V" />
       <node id="8138422054230293743" at="63,0,67,0" concept="2" trace="OutputRef#(Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;)V" />
       <node id="8138422054221666049" at="72,0,76,0" concept="8" trace="getInputNodes#()Ljava/lang/Iterable;" />
       <node id="8138422054229702767" at="77,0,81,0" concept="8" trace="getOriginalContainmentTarget#()Lde/q60/mps/shadowmodels/runtime/engine/IUniqueContainmentTarget;" />
       <node id="789947561927837383" at="88,0,92,0" concept="8" trace="getScope#(Lde/q60/mps/shadowmodels/runtime/engine/ITransformationEngine;)Lde/q60/mps/shadowmodels/runtime/engine/IScope;" />
       <node id="2349629219673962016" at="93,0,97,0" concept="8" trace="resolve#(Lde/q60/mps/shadowmodels/runtime/engine/ITransformationEngine;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputNode;" />
       <node id="2349629219673973537" at="140,0,144,0" concept="8" trace="getOutputNodeReference#()Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;" />
-      <node id="2349629219673973545" at="144,0,148,0" concept="8" trace="getConcept#()Lorg/modelix/model/api/IConcept;" />
+      <node id="2349629219673973545" at="144,0,148,0" concept="8" trace="getConcept#()Lde/q60/mps/shadowmodels/runtime/model/IConcept;" />
       <node id="5353686510780107383" at="148,0,152,0" concept="8" trace="getContainment#()Lde/q60/mps/shadowmodels/runtime/engine/IContainment;" />
       <node id="2349629219673973567" at="152,0,156,0" concept="8" trace="getChildren#(Ljava/lang/String;)Ljava/lang/Iterable;" />
       <node id="2349629219673973576" at="156,0,160,0" concept="8" trace="getAllChildren#()Ljava/lang/Iterable;" />
-      <node id="2349629219673973583" at="160,0,164,0" concept="8" trace="addNewChild#(Ljava/lang/String;ILorg/modelix/model/api/IConcept;)V" />
+      <node id="2349629219673973583" at="160,0,164,0" concept="8" trace="addNewChild#(Ljava/lang/String;ILde/q60/mps/shadowmodels/runtime/model/IConcept;)V" />
       <node id="2349629219673973596" at="164,0,168,0" concept="8" trace="getReferenceTarget#(Ljava/lang/String;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;" />
-      <node id="2349629219673973606" at="168,0,172,0" concept="8" trace="setReferenceTarget#(Ljava/lang/String;Lorg/modelix/model/api/INode;)V" />
+      <node id="2349629219673973606" at="168,0,172,0" concept="8" trace="setReferenceTarget#(Ljava/lang/String;Lde/q60/mps/shadowmodels/runtime/model/INode;)V" />
       <node id="2349629219673973616" at="172,0,176,0" concept="8" trace="getPropertyValue#(Ljava/lang/String;)Ljava/lang/String;" />
       <node id="2349629219673973624" at="176,0,180,0" concept="8" trace="setPropertyValue#(Ljava/lang/String;Ljava/lang/String;)V" />
       <node id="2349629219665474885" at="82,0,87,0" concept="8" trace="getStageRef#()Lde/q60/mps/shadowmodels/runtime/engine/IStageReference;" />
@@ -373,10 +373,10 @@
       <node id="8936420111311775246" at="24,62,25,35" concept="10" />
       <node id="8138422054227648872" at="28,0,29,0" concept="8" trace="getTransformationId#()Ljava/lang/String;" />
       <node id="1655791047214468164" at="30,0,31,0" concept="8" trace="getTraceInfo#()Ljava/lang/String;" />
-      <node id="4767345882899039455" at="12,0,15,0" concept="2" trace="ReductionRule#(Lorg/modelix/model/api/IConcept;)V" />
-      <node id="4767345882899038325" at="16,0,19,0" concept="8" trace="getInputConcept#()Lorg/modelix/model/api/IConcept;" />
-      <node id="4767345882899038505" at="20,0,23,0" concept="8" trace="isApplicable#(Lorg/modelix/model/api/INode;)Z" />
-      <node id="8936420111311774201" at="24,0,27,0" concept="8" trace="isApplicable#(Lorg/modelix/model/api/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
+      <node id="4767345882899039455" at="12,0,15,0" concept="2" trace="ReductionRule#(Lde/q60/mps/shadowmodels/runtime/model/IConcept;)V" />
+      <node id="4767345882899038325" at="16,0,19,0" concept="8" trace="getInputConcept#()Lde/q60/mps/shadowmodels/runtime/model/IConcept;" />
+      <node id="4767345882899038505" at="20,0,23,0" concept="8" trace="isApplicable#(Lde/q60/mps/shadowmodels/runtime/model/INode;)Z" />
+      <node id="8936420111311774201" at="24,0,27,0" concept="8" trace="isApplicable#(Lde/q60/mps/shadowmodels/runtime/model/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
       <scope id="4767345882899039459" at="12,47,13,37" />
       <scope id="4767345882899038329" at="16,37,17,24" />
       <scope id="4767345882899038509" at="20,48,21,16" />
@@ -404,11 +404,11 @@
       <node id="7015042340258762581" at="18,37,19,24" concept="10" />
       <node id="7684939371986112539" at="22,48,23,16" concept="10" />
       <node id="8936420111311827292" at="26,62,27,35" concept="10" />
-      <node id="7684939371973610954" at="30,0,31,0" concept="8" trace="getWeaving#(Lde/q60/mps/shadowmodels/runtime/engine/ISubgraphStage;Lorg/modelix/model/api/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IWeaving;" />
-      <node id="7015042340258762562" at="14,0,17,0" concept="2" trace="WeavingRule#(Lorg/modelix/model/api/IConcept;)V" />
-      <node id="7015042340258762577" at="18,0,21,0" concept="8" trace="getInputConcept#()Lorg/modelix/model/api/IConcept;" />
-      <node id="7015042340258762584" at="22,0,25,0" concept="8" trace="isApplicable#(Lorg/modelix/model/api/INode;)Z" />
-      <node id="8936420111311826480" at="26,0,29,0" concept="8" trace="isApplicable#(Lorg/modelix/model/api/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
+      <node id="7684939371973610954" at="30,0,31,0" concept="8" trace="getWeaving#(Lde/q60/mps/shadowmodels/runtime/engine/ISubgraphStage;Lde/q60/mps/shadowmodels/runtime/model/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IWeaving;" />
+      <node id="7015042340258762562" at="14,0,17,0" concept="2" trace="WeavingRule#(Lde/q60/mps/shadowmodels/runtime/model/IConcept;)V" />
+      <node id="7015042340258762577" at="18,0,21,0" concept="8" trace="getInputConcept#()Lde/q60/mps/shadowmodels/runtime/model/IConcept;" />
+      <node id="7015042340258762584" at="22,0,25,0" concept="8" trace="isApplicable#(Lde/q60/mps/shadowmodels/runtime/model/INode;)Z" />
+      <node id="8936420111311826480" at="26,0,29,0" concept="8" trace="isApplicable#(Lde/q60/mps/shadowmodels/runtime/model/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
       <scope id="7015042340258762565" at="14,45,15,37" />
       <scope id="7015042340258762580" at="18,37,19,24" />
       <scope id="7015042340258762589" at="22,48,23,16" />
@@ -914,7 +914,7 @@
       <node id="7947335862489696711" at="31,37,32,19" concept="10" />
       <node id="7947335862489696722" at="35,62,36,16" concept="10" />
       <node id="7947335862489696733" at="39,71,40,46" concept="10" />
-      <node id="7947335862489696739" at="43,0,44,0" concept="8" trace="getTarget#(Lorg/modelix/model/api/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IReferenceTarget;" />
+      <node id="7947335862489696739" at="43,0,44,0" concept="8" trace="getTarget#(Lde/q60/mps/shadowmodels/runtime/model/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IReferenceTarget;" />
       <node id="7947335862489696747" at="46,0,47,0" concept="4" trace="target" />
       <node id="7947335862489696756" at="48,44,49,26" concept="3" />
       <node id="7947335862489696771" at="52,65,53,33" concept="10" />
@@ -969,9 +969,9 @@
       <node id="7947335862489697090" at="212,25,213,83" concept="3" />
       <node id="7947335862489697109" at="213,83,214,123" concept="3" />
       <node id="7947335862489697128" at="214,123,215,24" concept="10" />
-      <node id="7947335862489696707" at="31,0,34,0" concept="8" trace="getInputConcept#()Lorg/modelix/model/api/IConcept;" />
-      <node id="7947335862489696714" at="35,0,38,0" concept="8" trace="isApplicable#(Lorg/modelix/model/api/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
-      <node id="7947335862489696725" at="39,0,42,0" concept="8" trace="apply#(Lde/q60/mps/shadowmodels/runtime/engine/ISubgraphStage;Lorg/modelix/model/api/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputWrapper;" />
+      <node id="7947335862489696707" at="31,0,34,0" concept="8" trace="getInputConcept#()Lde/q60/mps/shadowmodels/runtime/model/IConcept;" />
+      <node id="7947335862489696714" at="35,0,38,0" concept="8" trace="isApplicable#(Lde/q60/mps/shadowmodels/runtime/model/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
+      <node id="7947335862489696725" at="39,0,42,0" concept="8" trace="apply#(Lde/q60/mps/shadowmodels/runtime/engine/ISubgraphStage;Lde/q60/mps/shadowmodels/runtime/model/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputWrapper;" />
       <node id="7947335862489696752" at="48,0,51,0" concept="2" trace="Wrapper#(Lde/q60/mps/shadowmodels/runtime/engine/IReferenceTarget;)V" />
       <node id="7947335862489696765" at="52,0,55,0" concept="8" trace="wrap#(Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;" />
       <node id="7947335862489696796" at="69,0,72,0" concept="8" trace="unwrap#()Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;" />
@@ -986,7 +986,7 @@
       <node id="7947335862489697035" at="194,11,197,11" concept="7" />
       <node id="7947335862489697057" at="199,43,202,11" concept="7" />
       <node id="7947335862489697066" at="202,11,205,11" concept="7" />
-      <node id="7947335862489696686" at="26,0,30,0" concept="2" trace="ReferenceRule#(Lorg/modelix/model/api/IConcept;Ljava/lang/String;)V" />
+      <node id="7947335862489696686" at="26,0,30,0" concept="2" trace="ReferenceRule#(Lde/q60/mps/shadowmodels/runtime/model/IConcept;Ljava/lang/String;)V" />
       <node id="7947335862489696783" at="64,0,68,0" concept="2" trace="OutputRef#(Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;)V" />
       <node id="7947335862489696805" at="73,0,77,0" concept="8" trace="getInputNodes#()Ljava/lang/Iterable;" />
       <node id="7947335862489696817" at="78,0,82,0" concept="8" trace="getOriginalContainmentTarget#()Lde/q60/mps/shadowmodels/runtime/engine/IUniqueContainmentTarget;" />
@@ -994,12 +994,12 @@
       <node id="7947335862489696851" at="94,0,98,0" concept="8" trace="resolve#(Lde/q60/mps/shadowmodels/runtime/engine/ITransformationEngine;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputNode;" />
       <node id="7947335862489696884" at="138,0,142,0" concept="2" trace="OutputNode#(Lde/q60/mps/shadowmodels/runtime/engine/IOutputNode;Lde/q60/mps/shadowmodels/runtime/engine/ITransformationEngine;)V" />
       <node id="7947335862489696897" at="143,0,147,0" concept="8" trace="getOutputNodeReference#()Lde/q60/mps/shadowmodels/runtime/engine/IOutputNodeReference;" />
-      <node id="7947335862489696904" at="147,0,151,0" concept="8" trace="getConcept#()Lorg/modelix/model/api/IConcept;" />
+      <node id="7947335862489696904" at="147,0,151,0" concept="8" trace="getConcept#()Lde/q60/mps/shadowmodels/runtime/model/IConcept;" />
       <node id="7947335862489696913" at="151,0,155,0" concept="8" trace="getContainment#()Lde/q60/mps/shadowmodels/runtime/engine/IContainment;" />
       <node id="7947335862489696922" at="155,0,159,0" concept="8" trace="getChildren#(Ljava/lang/String;)Ljava/lang/Iterable;" />
       <node id="7947335862489696935" at="159,0,163,0" concept="8" trace="getAllChildren#()Ljava/lang/Iterable;" />
-      <node id="7947335862489696945" at="163,0,167,0" concept="8" trace="addNewChild#(Ljava/lang/String;ILorg/modelix/model/api/IConcept;)V" />
-      <node id="7947335862489696976" at="177,0,181,0" concept="8" trace="setReferenceTarget#(Ljava/lang/String;Lorg/modelix/model/api/INode;)V" />
+      <node id="7947335862489696945" at="163,0,167,0" concept="8" trace="addNewChild#(Ljava/lang/String;ILde/q60/mps/shadowmodels/runtime/model/IConcept;)V" />
+      <node id="7947335862489696976" at="177,0,181,0" concept="8" trace="setReferenceTarget#(Ljava/lang/String;Lde/q60/mps/shadowmodels/runtime/model/INode;)V" />
       <node id="7947335862489696991" at="181,0,185,0" concept="8" trace="getPropertyValue#(Ljava/lang/String;)Ljava/lang/String;" />
       <node id="7947335862489697008" at="185,0,189,0" concept="8" trace="setPropertyValue#(Ljava/lang/String;Ljava/lang/String;)V" />
       <node id="7947335862489696827" at="83,0,88,0" concept="8" trace="getStageRef#()Lde/q60/mps/shadowmodels/runtime/engine/IStageReference;" />
@@ -1139,9 +1139,9 @@
   </root>
   <root nodeRef="r:fa847d10-a670-48b8-aa0a-425906c34683(de.q60.mps.shadowmodels.runtime.mpslike)/7947335862490136800">
     <file name="IOutputWrapperRule.java">
-      <node id="7947335862490365317" at="12,0,13,0" concept="8" trace="getInputConcept#()Lorg/modelix/model/api/IConcept;" />
-      <node id="7947335862490376467" at="13,0,14,0" concept="8" trace="isApplicable#(Lorg/modelix/model/api/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
-      <node id="7947335862490393271" at="14,0,15,0" concept="8" trace="apply#(Lde/q60/mps/shadowmodels/runtime/engine/ISubgraphStage;Lorg/modelix/model/api/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputWrapper;" />
+      <node id="7947335862490365317" at="12,0,13,0" concept="8" trace="getInputConcept#()Lde/q60/mps/shadowmodels/runtime/model/IConcept;" />
+      <node id="7947335862490376467" at="13,0,14,0" concept="8" trace="isApplicable#(Lde/q60/mps/shadowmodels/runtime/model/INode;Lde/q60/mps/shadowmodels/runtime/engine/IScope;)Z" />
+      <node id="7947335862490393271" at="14,0,15,0" concept="8" trace="apply#(Lde/q60/mps/shadowmodels/runtime/engine/ISubgraphStage;Lde/q60/mps/shadowmodels/runtime/model/INode;)Lde/q60/mps/shadowmodels/runtime/engine/IOutputWrapper;" />
       <scope id="7947335862490365317" at="12,0,13,0" />
       <scope id="7947335862490376467" at="13,0,14,0">
         <var name="inputNode" id="7947335862490376468" />

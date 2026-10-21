@@ -12,7 +12,7 @@ import de.q60.mps.polymorphicfunctions.runtime.DefaultPFContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import de.q60.mps.polymorphicfunctions.runtime.IImplementationProvider;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationsFromAspect;
+import de.q60.mps.shadowmodels.runtime.smodel.TransformationsFromAspect;
 import jetbrains.mps.module.ReloadableModule;
 import java.util.Set;
 import org.jetbrains.mps.openapi.language.SLanguage;
@@ -30,7 +30,7 @@ public class TransformationEngineForEditor extends STransformationEngine {
   public static TransformationEngine getUpdater(final EditorComponent editor) {
     TransformationEngineForEditor instance = MapSequence.fromMap(TransformationEngineForEditor.instances).get(editor);
     if (instance == null) {
-      instance = new TransformationEngineForEditor(editor, new DefaultPFContext(ListSequence.fromListAndArray(new ArrayList<IImplementationProvider>(), new SM_TransformationsFromAspect() {
+      instance = new TransformationEngineForEditor(editor, new DefaultPFContext(ListSequence.fromListAndArray(new ArrayList<IImplementationProvider>(), new TransformationsFromAspect() {
         @Override
         protected Iterable<ReloadableModule> getSModules() {
           Set<SLanguage> languages = SetSequence.fromSetWithValues(new HashSet<SLanguage>(), ((SModelDescriptorStub) editor.getEditorContext().getModel()).importedLanguageIds());

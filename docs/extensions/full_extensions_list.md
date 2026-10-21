@@ -55,7 +55,6 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 | Name                      | Description                                                                                            |
 |---------------------------|--------------------------------------------------------------------------------------------------------|
 | *de.q60.mps.shadowmodels* | a shadow model is a non-editable model derived from existing models by model-to-model transformations. |
-| *org.modelix.model*       | alternative model API with better support for persistent data structures                               |
 | *de.itemis.mps.changelog* | a language for creating changelogs and exporting them to markdown                                      |
 
 **Stubs**

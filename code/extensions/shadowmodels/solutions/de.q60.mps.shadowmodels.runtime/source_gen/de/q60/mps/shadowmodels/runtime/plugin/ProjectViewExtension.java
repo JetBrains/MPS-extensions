@@ -22,7 +22,7 @@ import jetbrains.mps.smodel.SObject;
 import java.util.Objects;
 import com.intellij.ide.projectView.PresentationData;
 import jetbrains.mps.ide.projectPane.logicalview.TopHierarchyProjectViewNode;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ShadowModule;
+import de.q60.mps.shadowmodels.runtime.smodel.ShadowModule;
 import java.util.Collection;
 import com.intellij.ide.util.treeView.AbstractTreeNode;
 import org.jetbrains.mps.openapi.module.SRepository;
@@ -123,14 +123,14 @@ public class ProjectViewExtension {
 
     @Override
     protected boolean containsSObject(SObject sObject) {
-      return sObject.testIfHasSModule((mod) -> mod instanceof SM_ShadowModule);
+      return sObject.testIfHasSModule((mod) -> mod instanceof ShadowModule);
     }
 
     @Override
     protected void fillChildren(final Collection<AbstractTreeNode<?>> collection) {
       SRepository repository = project.getRepository();
       Iterable<SModule> modules = repository.getModules();
-      Sequence.fromIterable(modules).ofType(SM_ShadowModule.class).select((it) -> new ShadowModuleProjectViewNode(getIdeaProject(), it, getSettings())).visitAll((it) -> collection.add(it));
+      Sequence.fromIterable(modules).ofType(ShadowModule.class).select((it) -> new ShadowModuleProjectViewNode(getIdeaProject(), it, getSettings())).visitAll((it) -> collection.add(it));
     }
 
     @Override
@@ -154,7 +154,7 @@ public class ProjectViewExtension {
         final Wrappers._T<List<AbstractTreeNode<?>>> newChildren = new Wrappers._T<List<AbstractTreeNode<?>>>(null);
         repository.getModelAccess().runReadAction(() -> {
           Iterable<SModule> modules = repository.getModules();
-          if (Sequence.fromIterable(modules).ofType(SM_ShadowModule.class).isNotEmpty()) {
+          if (Sequence.fromIterable(modules).ofType(ShadowModule.class).isNotEmpty()) {
             newChildren.value = ListSequence.fromListWithValues(new ArrayList<>(), children);
             ListSequence.fromList(newChildren.value).addElement(new ShadowRootProjectTreeNode(getIdeaProject(), "Shadow", settings));
           }

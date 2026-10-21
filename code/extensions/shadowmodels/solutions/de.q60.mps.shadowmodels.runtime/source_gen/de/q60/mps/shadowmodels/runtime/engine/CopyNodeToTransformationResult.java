@@ -5,13 +5,13 @@ package de.q60.mps.shadowmodels.runtime.engine;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import de.q60.mps.shadowmodels.runtime.util.IdShortener;
-import org.modelix.model.api.IProperty;
+import de.q60.mps.shadowmodels.runtime.model.IProperty;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import org.modelix.model.api.IChildLink;
+import de.q60.mps.shadowmodels.runtime.model.IChildLink;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import org.modelix.model.api.IReferenceLink;
+import de.q60.mps.shadowmodels.runtime.model.IReferenceLink;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
 public class CopyNodeToTransformationResult {

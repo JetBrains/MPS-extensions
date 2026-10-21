@@ -44,7 +44,5 @@
   <uses module="8e98f4e2-decf-4e97-bf80-9109e8b759ee(jetbrains.mps.lang.constraints.rules.runtime)" kind="dp" />
   <uses module="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="dp" />
   <uses module="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt+dp" />
-  <uses module="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" kind="rt+dp" />
-  <uses module="5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)" kind="rt" />
 </dependenciesRoot>
 

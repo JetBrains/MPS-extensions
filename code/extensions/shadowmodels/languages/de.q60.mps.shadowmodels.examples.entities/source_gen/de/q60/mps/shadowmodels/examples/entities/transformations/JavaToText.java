@@ -15,9 +15,9 @@ import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import de.q60.mps.shadowmodels.runtime.engine.ParameterType_INode;
-import org.modelix.model.mpsadapters.mps.SConceptAdapter;
-import org.modelix.model.api.INode;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GeneratedTransformationRule;
+import de.q60.mps.shadowmodels.runtime.smodel.SConceptAdapter;
+import de.q60.mps.shadowmodels.runtime.model.INode;
+import de.q60.mps.shadowmodels.runtime.smodel.GeneratedTransformationRule;
 import jetbrains.mps.smodel.SNodePointer;
 import de.q60.mps.shadowmodels.runtime.engine.ContainmentTargetRootNodes;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
@@ -25,7 +25,7 @@ import de.q60.mps.shadowmodels.runtime.engine.TransformationResult;
 import de.q60.mps.shadowmodels.runtime.engine.RootBuilderContext;
 import de.q60.mps.shadowmodels.runtime.engine.IBuilderContext;
 import de.q60.mps.shadowmodels.runtime.engine.BuilderContextParameter;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ParameterConversion;
+import de.q60.mps.shadowmodels.runtime.smodel.ParameterConversion;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterType_Null;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -92,7 +92,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "1038241485678219762")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "1038241485678219762")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -106,14 +106,14 @@ public class JavaToText extends PFModule {
                       context.getResultElement().setProperty("name", () -> {
                         return savedContext_asiv11_a0a2.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL) + ".java");
+                            return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL) + ".java");
                           }
                         });
                       });
                       if (true) {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678221871"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678221871"));
                           }
                         });
                       }
@@ -153,7 +153,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883580686582")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883580686582")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -194,7 +194,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "1038241485678141064")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "1038241485678141064")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -213,7 +213,7 @@ public class JavaToText extends PFModule {
                                 if (true) {
                                   context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
-                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.visibility$Yyua)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678142150"));
+                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.visibility$Yyua)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678142150"));
                                     }
                                   });
                                 }
@@ -227,7 +227,7 @@ public class JavaToText extends PFModule {
                                           context.getResultElement().setProperty("text", () -> {
                                             return savedContext_asiv11_a0b0a0a7.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(" class ");
+                                                return ParameterConversion.asString(" class ");
                                               }
                                             });
                                           });
@@ -246,7 +246,7 @@ public class JavaToText extends PFModule {
                                           context.getResultElement().setProperty("text", () -> {
                                             return savedContext_asiv11_a0c0a0a7.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
+                                                return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
                                               }
                                             });
                                           });
@@ -265,7 +265,7 @@ public class JavaToText extends PFModule {
                                           context.getResultElement().setProperty("text", () -> {
                                             return savedContext_asiv11_a0d0a0a7.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(" {");
+                                                return ParameterConversion.asString(" {");
                                               }
                                             });
                                           });
@@ -289,10 +289,10 @@ public class JavaToText extends PFModule {
                                   context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
                                       int i_a0a1a0h = 0;
-                                      for (SNode e_a0a1a0h : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.member$L_2d))) {
-                                        context.forContextValue(SM_ParameterConversion.fromMPS(e_a0a1a0h)).withAdditionalIdPrefix("7" + "#" + i_a0a1a0h).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                                      for (SNode e_a0a1a0h : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.member$L_2d))) {
+                                        context.forContextValue(ParameterConversion.fromMPS(e_a0a1a0h)).withAdditionalIdPrefix("7" + "#" + i_a0a1a0h).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                           public void invoke(final IBuilderContext context) {
-                                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678160076"));
+                                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678160076"));
                                           }
                                         });
                                         i_a0a1a0h++;
@@ -321,7 +321,7 @@ public class JavaToText extends PFModule {
                                           context.getResultElement().setProperty("text", () -> {
                                             return savedContext_asiv11_a0a0c0a7.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString("}");
+                                                return ParameterConversion.asString("}");
                                               }
                                             });
                                           });
@@ -371,7 +371,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "1038241485678165902")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "1038241485678165902")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -384,7 +384,7 @@ public class JavaToText extends PFModule {
                       if (true) {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.visibility$Yyua)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678167380"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.visibility$Yyua)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678167380"));
                           }
                         });
                       }
@@ -398,7 +398,7 @@ public class JavaToText extends PFModule {
                                 context.getResultElement().setProperty("text", () -> {
                                   return savedContext_asiv11_a0b0a9.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString(" ");
+                                      return ParameterConversion.asString(" ");
                                     }
                                   });
                                 });
@@ -410,7 +410,7 @@ public class JavaToText extends PFModule {
                       if (true) {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$a1UY)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678180450"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$a1UY)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1038241485678180450"));
                           }
                         });
                       }
@@ -424,7 +424,7 @@ public class JavaToText extends PFModule {
                                 context.getResultElement().setProperty("text", () -> {
                                   return savedContext_asiv11_a0d0a9.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString(" ");
+                                      return ParameterConversion.asString(" ");
                                     }
                                   });
                                 });
@@ -443,7 +443,7 @@ public class JavaToText extends PFModule {
                                 context.getResultElement().setProperty("text", () -> {
                                   return savedContext_asiv11_a0e0a9.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
+                                      return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
                                     }
                                   });
                                 });
@@ -462,7 +462,7 @@ public class JavaToText extends PFModule {
                                 context.getResultElement().setProperty("text", () -> {
                                   return savedContext_asiv11_a0f0a9.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString(";");
+                                      return ParameterConversion.asString(";");
                                     }
                                   });
                                 });
@@ -507,7 +507,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883580411303")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883580411303")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -526,7 +526,7 @@ public class JavaToText extends PFModule {
                                 if (true) {
                                   context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
-                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.visibility$Yyua)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883580411309"));
+                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.visibility$Yyua)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883580411309"));
                                     }
                                   });
                                 }
@@ -540,7 +540,7 @@ public class JavaToText extends PFModule {
                                           context.getResultElement().setProperty("text", () -> {
                                             return savedContext_asiv11_a0b0a0a01.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(" ");
+                                                return ParameterConversion.asString(" ");
                                               }
                                             });
                                           });
@@ -552,7 +552,7 @@ public class JavaToText extends PFModule {
                                 if (true) {
                                   context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
-                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.returnType$5xoi)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883580411314"));
+                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.returnType$5xoi)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883580411314"));
                                     }
                                   });
                                 }
@@ -566,7 +566,7 @@ public class JavaToText extends PFModule {
                                           context.getResultElement().setProperty("text", () -> {
                                             return savedContext_asiv11_a0d0a0a01.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(" ");
+                                                return ParameterConversion.asString(" ");
                                               }
                                             });
                                           });
@@ -585,7 +585,7 @@ public class JavaToText extends PFModule {
                                           context.getResultElement().setProperty("text", () -> {
                                             return savedContext_asiv11_a0e0a0a01.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
+                                                return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
                                               }
                                             });
                                           });
@@ -604,7 +604,7 @@ public class JavaToText extends PFModule {
                                           context.getResultElement().setProperty("text", () -> {
                                             return savedContext_asiv11_a0f0a0a01.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(" {");
+                                                return ParameterConversion.asString(" {");
                                               }
                                             });
                                           });
@@ -627,7 +627,7 @@ public class JavaToText extends PFModule {
                                 if (true) {
                                   context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
-                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.body$5xQk)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/6645574550437244011"));
+                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.body$5xQk)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/6645574550437244011"));
                                     }
                                   });
                                 }
@@ -652,7 +652,7 @@ public class JavaToText extends PFModule {
                                           context.getResultElement().setProperty("text", () -> {
                                             return savedContext_asiv11_a0a0c0a01.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString("}");
+                                                return ParameterConversion.asString("}");
                                               }
                                             });
                                           });
@@ -702,7 +702,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883580421457")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883580421457")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -716,10 +716,10 @@ public class JavaToText extends PFModule {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
                             int i_a0a0l = 0;
-                            for (SNode e_a0a0l : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.statement$53DE))) {
-                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a0a0l)).withAdditionalIdPrefix("25" + "#" + i_a0a0l).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            for (SNode e_a0a0l : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.statement$53DE))) {
+                              context.forContextValue(ParameterConversion.fromMPS(e_a0a0l)).withAdditionalIdPrefix("25" + "#" + i_a0a0l).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
-                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883580438439"));
+                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883580438439"));
                                 }
                               });
                               i_a0a0l++;
@@ -763,7 +763,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883580969657")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883580969657")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -777,7 +777,7 @@ public class JavaToText extends PFModule {
                       context.getResultElement().setProperty("text", () -> {
                         return savedContext_asiv11_a0a21.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SConceptOperations.conceptAlias(SNodeOperations.getConcept(SM_ParameterConversion.toMPS(((INode) context.getContextValue())))));
+                            return ParameterConversion.asString(SConceptOperations.conceptAlias(SNodeOperations.getConcept(ParameterConversion.toMPS(((INode) context.getContextValue())))));
                           }
                         });
                       });
@@ -817,7 +817,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581369383")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581369383")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -831,7 +831,7 @@ public class JavaToText extends PFModule {
                       context.getResultElement().setProperty("text", () -> {
                         return savedContext_asiv11_a0a31.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SConceptOperations.conceptAlias(SNodeOperations.getConcept(SM_ParameterConversion.toMPS(((INode) context.getContextValue())))));
+                            return ParameterConversion.asString(SConceptOperations.conceptAlias(SNodeOperations.getConcept(ParameterConversion.toMPS(((INode) context.getContextValue())))));
                           }
                         });
                       });
@@ -871,7 +871,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581012272")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581012272")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -884,7 +884,7 @@ public class JavaToText extends PFModule {
                       if (true) {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.expression$5L7M)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581015016"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.expression$5L7M)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581015016"));
                           }
                         });
                       }
@@ -898,7 +898,7 @@ public class JavaToText extends PFModule {
                                 context.getResultElement().setProperty("text", () -> {
                                   return savedContext_asiv11_a0b0a41.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString(";");
+                                      return ParameterConversion.asString(";");
                                     }
                                   });
                                 });
@@ -943,7 +943,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581051123")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581051123")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -956,7 +956,7 @@ public class JavaToText extends PFModule {
                       if (true) {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.lValue$splI)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581073787"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.lValue$splI)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581073787"));
                           }
                         });
                       }
@@ -970,7 +970,7 @@ public class JavaToText extends PFModule {
                                 context.getResultElement().setProperty("text", () -> {
                                   return savedContext_asiv11_a0b0a51.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString(" = ");
+                                      return ParameterConversion.asString(" = ");
                                     }
                                   });
                                 });
@@ -982,7 +982,7 @@ public class JavaToText extends PFModule {
                       if (true) {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.rValue$spNK)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581078096"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.rValue$spNK)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581078096"));
                           }
                         });
                       }
@@ -1022,7 +1022,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581112550")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581112550")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -1035,7 +1035,7 @@ public class JavaToText extends PFModule {
                       if (true) {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.operand$w6IR)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581112556"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.operand$w6IR)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581112556"));
                           }
                         });
                       }
@@ -1049,7 +1049,7 @@ public class JavaToText extends PFModule {
                                 context.getResultElement().setProperty("text", () -> {
                                   return savedContext_asiv11_a0b0a61.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString(".");
+                                      return ParameterConversion.asString(".");
                                     }
                                   });
                                 });
@@ -1061,7 +1061,7 @@ public class JavaToText extends PFModule {
                       if (true) {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.operation$gs9E)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581112565"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.operation$gs9E)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581112565"));
                           }
                         });
                       }
@@ -1101,7 +1101,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581154318")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581154318")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -1115,7 +1115,7 @@ public class JavaToText extends PFModule {
                       context.getResultElement().setProperty("text", () -> {
                         return savedContext_asiv11_a0a71.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SPropertyOperations.getString(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.variableDeclaration$N1XG), PROPS.name$MnvL));
+                            return ParameterConversion.asString(SPropertyOperations.getString(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.variableDeclaration$N1XG), PROPS.name$MnvL));
                           }
                         });
                       });
@@ -1155,7 +1155,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581199543")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581199543")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -1169,7 +1169,7 @@ public class JavaToText extends PFModule {
                       context.getResultElement().setProperty("text", () -> {
                         return savedContext_asiv11_a0a81.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString("this");
+                            return ParameterConversion.asString("this");
                           }
                         });
                       });
@@ -1209,7 +1209,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581236463")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581236463")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -1223,7 +1223,7 @@ public class JavaToText extends PFModule {
                       context.getResultElement().setProperty("text", () -> {
                         return savedContext_asiv11_a0a91.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SPropertyOperations.getString(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.fieldDeclaration$H7Ag), PROPS.name$MnvL));
+                            return ParameterConversion.asString(SPropertyOperations.getString(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.fieldDeclaration$H7Ag), PROPS.name$MnvL));
                           }
                         });
                       });
@@ -1263,7 +1263,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581281743")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581281743")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -1277,7 +1277,7 @@ public class JavaToText extends PFModule {
                       context.getResultElement().setProperty("text", () -> {
                         return savedContext_asiv11_a0a02.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SPropertyOperations.getString(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.classifier$cxMr), PROPS.name$MnvL));
+                            return ParameterConversion.asString(SPropertyOperations.getString(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.classifier$cxMr), PROPS.name$MnvL));
                           }
                         });
                       });
@@ -1317,7 +1317,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581324726")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "7475940883581324726")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -1337,7 +1337,7 @@ public class JavaToText extends PFModule {
                                 context.getResultElement().setProperty("text", () -> {
                                   return savedContext_asiv11_a0a0a12.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString("return ");
+                                      return ParameterConversion.asString("return ");
                                     }
                                   });
                                 });
@@ -1349,7 +1349,7 @@ public class JavaToText extends PFModule {
                       if (true) {
                         context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.expression$eJ92)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581329098"));
+                            context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.entities.transformations.JavaToText.javaToText", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.expression$eJ92)))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/7475940883581329098"));
                           }
                         });
                       }
@@ -1363,7 +1363,7 @@ public class JavaToText extends PFModule {
                                 context.getResultElement().setProperty("text", () -> {
                                   return savedContext_asiv11_a0c0a12.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString(";");
+                                      return ParameterConversion.asString(";");
                                     }
                                   });
                                 });
@@ -1408,7 +1408,7 @@ public class JavaToText extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "6645574550437149006")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "6645574550437149006")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -1422,7 +1422,7 @@ public class JavaToText extends PFModule {
                       context.getResultElement().setProperty("text", () -> {
                         return savedContext_asiv11_a0a32.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SConceptOperations.conceptAlias(SNodeOperations.getConcept(SM_ParameterConversion.toMPS(((INode) context.getContextValue())))));
+                            return ParameterConversion.asString(SConceptOperations.conceptAlias(SNodeOperations.getConcept(ParameterConversion.toMPS(((INode) context.getContextValue())))));
                           }
                         });
                       });

@@ -17,12 +17,12 @@ import de.q60.mps.explorer.pf.ExplorerElement;
 import de.q60.mps.polymorphicfunctions.runtime.ContextPFContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import de.q60.mps.shadowmodels.runtime.concurrentrepo.RepositoryMirror;
-import org.modelix.model.mpsadapters.mps.SNodeToNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.SNodeToNodeAdapter;
 import de.q60.mps.explorer.pf.IExplorerContext;
 import jetbrains.mps.ide.icons.GlobalIconManager;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_SNodeAPI;
+import de.q60.mps.shadowmodels.runtime.smodel.SNodeAPI;
 import de.q60.mps.shadowmodels.runtime.engine.IStageReference;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationTrace;
+import de.q60.mps.shadowmodels.runtime.smodel.TransformationTrace;
 import de.q60.mps.shadowmodels.runtime.engine.IScope;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -34,13 +34,13 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.model.SReference;
 import de.q60.mps.shadowmodels.runtime.engine.IOutputNodeReference;
 import de.q60.mps.shadowmodels.runtime.engine.IResultElement;
-import org.modelix.model.api.INode;
-import org.modelix.model.mpsadapters.mps.NodeToSNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.model.INode;
+import de.q60.mps.shadowmodels.runtime.smodel.NodeToSNodeAdapter;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationResult;
 import de.q60.mps.shadowmodels.runtime.engine.MappingLabelCall;
 import de.q60.mps.shadowmodels.runtime.concurrentrepo.MissingSNode;
 import de.q60.mps.incremental.runtime.DependencyKey;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GeneratedTransformationRule;
+import de.q60.mps.shadowmodels.runtime.smodel.GeneratedTransformationRule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import de.q60.mps.shadowmodels.transformation.behavior.ITransformationsNamespaceContent__BehaviorDescriptor;
 import de.q60.mps.shadowmodels.runtime.engine.ISubgraphRef;
@@ -63,7 +63,6 @@ import de.q60.mps.shadowmodels.runtime.engine.RewriteCall;
 import de.q60.mps.shadowmodels.runtime.engine.ForkCall;
 import de.q60.mps.shadowmodels.runtime.engine.DependencyTrackingNode;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import org.modelix.model.mpsadapters.mps.SNodeAPI;
 import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import de.q60.mps.polymorphicfunctions.runtime.GroupPriorityRule;
 import de.q60.mps.polymorphicfunctions.runtime.SingleImplementationPriorityGroup;
@@ -145,20 +144,20 @@ public class TraceBuilders_ShadowModels extends PFModule {
         final SNode snode = (originalNode != null ? originalNode : ((SNode) _PFparameters.get(0)));
         result.text = ((String) _PFcontext.callFunction("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new ParameterList(new Object[]{((SNode) _PFparameters.get(0))})));
         result.icon = (TraceBuilderUtil.isShadowNode(snode) ? TraceIcons.SHADOW_NODE_ICON : GlobalIconManager.getInstance().getIconFor(((SNode) _PFparameters.get(0))));
-        result.navigationTarget = () -> SM_SNodeAPI.tryGetUnwrappedNode(snode);
+        result.navigationTarget = () -> SNodeAPI.tryGetUnwrappedNode(snode);
 
-        IStageReference ownStage = SM_TransformationTrace.getSubgraphStage(((SNode) _PFparameters.get(0)));
-        IScope parentScope = SM_TransformationTrace.getScope(((SNode) _PFparameters.get(0)));
-        IStageReference ownInputStage = Sequence.fromIterable(SM_TransformationTrace.tryGetInputNodes(((SNode) _PFparameters.get(0)))).select((it) -> SM_TransformationTrace.getSubgraphStage(it)).first();
+        IStageReference ownStage = TransformationTrace.getSubgraphStage(((SNode) _PFparameters.get(0)));
+        IScope parentScope = TransformationTrace.getScope(((SNode) _PFparameters.get(0)));
+        IStageReference ownInputStage = Sequence.fromIterable(TransformationTrace.tryGetInputNodes(((SNode) _PFparameters.get(0)))).select((it) -> TransformationTrace.getSubgraphStage(it)).first();
         for (SContainmentLink link : CollectionSequence.fromCollection(((SNode) _PFparameters.get(0)).getConcept().getContainmentLinks())) {
           try {
             IStageReference prevChildStage = null;
             IScope prevScope = null;
             ExplorerElement teChildScope = null;
             for (SNode child : Sequence.fromIterable(((SNode) _PFparameters.get(0)).getChildren(link))) {
-              IStageReference childStage = SM_TransformationTrace.getSubgraphStage(child);
+              IStageReference childStage = TransformationTrace.getSubgraphStage(child);
               if (childStage == null || Objects.equals(childStage, ownStage)) {
-                IScope childScope = SM_TransformationTrace.getScope(child);
+                IScope childScope = TransformationTrace.getScope(child);
                 if (!(Objects.equals(childScope, parentScope))) {
                   if (!(Objects.equals(childScope, prevScope))) {
                     teChildScope = new ExplorerElement();
@@ -187,8 +186,8 @@ public class TraceBuilders_ShadowModels extends PFModule {
               prevChildStage = childStage;
 
               // Handle TransformationCallExpression
-              for (SNode childInput : Sequence.fromIterable(SM_TransformationTrace.tryGetInputNodes(child))) {
-                IStageReference childInputStage = SM_TransformationTrace.getSubgraphStage(childInput);
+              for (SNode childInput : Sequence.fromIterable(TransformationTrace.tryGetInputNodes(child))) {
+                IStageReference childInputStage = TransformationTrace.getSubgraphStage(childInput);
                 if (childInputStage != null && !(Objects.equals(ownInputStage, childInputStage))) {
                   result.addChild("   ↑ input node : ", childInput);
                   result.addChild("   ↑ input stage: ", childInputStage);
@@ -224,7 +223,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
 
         teDetails.addChild("Concept: ", ((SNode) _PFparameters.get(0)).getConcept());
 
-        final IOutputNodeReference outputNodeReference = SM_TransformationTrace.getOutputNodeReference(((SNode) _PFparameters.get(0)));
+        final IOutputNodeReference outputNodeReference = TransformationTrace.getOutputNodeReference(((SNode) _PFparameters.get(0)));
         teDetails.addLazyChild("Traceback: ", () -> {
           return new Object() {
             public ExplorerElement groupCall(final IPFContext _PFcontext) {
@@ -265,7 +264,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
         ExplorerElement te = new ExplorerElement();
         te.text = ((String) _PFcontext.callFunction("de.q60.mps.explorer.pf.TraceBuilders_base.toString", new ParameterList(new Object[]{((SReference) _PFparameters.get(0))})));
-        IResultElement resultElement = SM_TransformationTrace.getResultElement(((SReference) _PFparameters.get(0)).getSourceNode());
+        IResultElement resultElement = TransformationTrace.getResultElement(((SReference) _PFparameters.get(0)).getSourceNode());
         if (resultElement != null) {
           te.addChild("target: ", resultElement.getReferenceTarget(((SReference) _PFparameters.get(0)).getLink().getName()));
         }
@@ -453,7 +452,7 @@ public class TraceBuilders_ShadowModels extends PFModule {
       }
     });
     addImplementation("de.q60.mps.explorer.pf.TraceBuilders_base.buildTrace", new IFunctionImplementation() {
-      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(SM_GeneratedTransformationRule.class));
+      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_Classifier(GeneratedTransformationRule.class));
       private List<String> contextIds = ListSequence.fromListAndArray(new ArrayList<String>(), "de.q60.mps.shadowmodels.debugview.pf.TraceBuilders_ShadowModels.traceBuilderContext", "de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup");
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
       @Override
@@ -461,19 +460,19 @@ public class TraceBuilders_ShadowModels extends PFModule {
         return "de.q60.mps.shadowmodels.debugview.pf/TraceBuilders_ShadowModels/buildTrace_12";
       }
       public boolean isApplicable(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof SM_GeneratedTransformationRule)) {
+        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof GeneratedTransformationRule)) {
           return false;
         }
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
         ExplorerElement result = new ExplorerElement();
-        final SNode decl = SNodeOperations.cast(((SM_GeneratedTransformationRule) _PFparameters.get(0)).declaration.resolve(((IExplorerContext) _PFcontext.getContextParameters("de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup").get(0)).getRepository()), CONCEPTS.Transformation$Gz);
+        final SNode decl = SNodeOperations.cast(((GeneratedTransformationRule) _PFparameters.get(0)).declaration.resolve(((IExplorerContext) _PFcontext.getContextParameters("de.q60.mps.explorer.pf.TraceBuilders_base.explorerContextGroup").get(0)).getRepository()), CONCEPTS.Transformation$Gz);
         if ((decl != null)) {
           result.text = ITransformationsNamespaceContent__BehaviorDescriptor.getFullQualifiedName_id2$QnGbu$Y3I.invoke(decl);
           result.navigationTarget = () -> decl;
         } else {
-          result.text = ((SM_GeneratedTransformationRule) _PFparameters.get(0)).getClass().getName();
+          result.text = ((GeneratedTransformationRule) _PFparameters.get(0)).getClass().getName();
         }
         return result;
       }

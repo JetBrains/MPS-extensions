@@ -18,13 +18,11 @@
     <import index="ej6i" ref="r:6496ea12-c64c-456b-91b7-9e7f80ac2f9c(de.q60.mps.shadowmodels.target.editor.behavior)" />
     <import index="5hyg" ref="r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
-    <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
-    <import index="yb34" ref="r:530aea2f-dc0b-465c-91dd-a75239ac9e81(de.q60.mps.shadowmodels.examples.statemachine.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
-    <import index="hm90" ref="r:61d96d59-75af-4854-9d37-c81762926dfe(de.q60.mps.shadowmodels.transformation.behavior)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="yb34" ref="r:530aea2f-dc0b-465c-91dd-a75239ac9e81(de.q60.mps.shadowmodels.examples.statemachine.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
+    <import index="hm90" ref="r:61d96d59-75af-4854-9d37-c81762926dfe(de.q60.mps.shadowmodels.transformation.behavior)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -355,7 +353,7 @@
                       <property role="TrG5h" value="output" />
                       <node concept="A3Dl8" id="3CYlK6ygJ0n" role="1tU5fm">
                         <node concept="3uibUv" id="3CYlK6ygJ0o" role="A3Ik2">
-                          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
+                          <ref role="3uigEE" to="mjcn:5FHJmMAGaJQ" resolve="INode" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="3CYlK6ygJ0p" role="33vP2m">
@@ -403,8 +401,8 @@
                                     <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                                   </node>
                                   <node concept="2YIFZM" id="3CYlK6ygJ0x" role="2HTEbv">
-                                    <ref role="1Pybhc" to="xxte:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
-                                    <ref role="37wK5l" to="xxte:5gTrVpGyMwR" resolve="wrap" />
+                                    <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                                    <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
                                     <node concept="2OqwBi" id="3CYlK6ygJ0y" role="37wK5m">
                                       <node concept="pncrf" id="3CYlK6ygJ0z" role="2Oq$k0" />
                                       <node concept="3TrEf2" id="2VTIUrjn5vn" role="2OqNvi">
@@ -427,8 +425,8 @@
                         <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
                       </node>
                       <node concept="2YIFZM" id="2VTIUrjrLwU" role="33vP2m">
-                        <ref role="1Pybhc" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
-                        <ref role="37wK5l" to="xxte:75046mm7IDU" resolve="wrap" />
+                        <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+                        <ref role="37wK5l" to="l6bp:75046mm7IDU" resolve="wrap" />
                         <node concept="2OqwBi" id="2VTIUrjrLwV" role="37wK5m">
                           <node concept="37vLTw" id="2VTIUrjrLwW" role="2Oq$k0">
                             <ref role="3cqZAo" node="3CYlK6ygJ0m" resolve="output" />
@@ -449,8 +447,8 @@
                       <property role="TrG5h" value="anode" />
                       <node concept="3Tqbb2" id="3CYlK6yh1ZV" role="1tU5fm" />
                       <node concept="2YIFZM" id="3CYlK6ygXwE" role="33vP2m">
-                        <ref role="1Pybhc" to="xxte:kHIbzAYu9G" resolve="ANode" />
-                        <ref role="37wK5l" to="xxte:75046mlPk8L" resolve="wrap" />
+                        <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="ANode" />
+                        <ref role="37wK5l" to="l6bp:75046mlPk8L" resolve="wrap" />
                         <node concept="37vLTw" id="2VTIUrjrLx1" role="37wK5m">
                           <ref role="3cqZAo" node="2VTIUrjrLwT" resolve="snodeAdapter" />
                         </node>

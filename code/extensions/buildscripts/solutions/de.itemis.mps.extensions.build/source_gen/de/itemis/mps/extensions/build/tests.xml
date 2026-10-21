@@ -3042,8 +3042,6 @@
           <module ref="e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)" kind="cl" />
           <module ref="94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)" kind="cl" />
           <module ref="e55e6749-03cb-4ea7-9695-2322bab791c1(jetbrains.mps.lang.test.matcher)" kind="cl" />
-          <module ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" kind="cl" />
-          <module ref="5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)" kind="cl" />
         </dependencies>
         <uses>
           <language id="l:bbb5f4e2-794a-4b91-bd27-caf7d437ac9e:de.q60.mps.shadowmodels.examples.blext" />
@@ -3063,7 +3061,6 @@
           <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
           <language id="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" />
           <language id="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
-          <language id="l:0a7577d1-d4e5-431d-98b1-fae38f9aee80:org.modelix.model.repositoryconcepts" />
         </uses>
         <classpath>
           <entry path="." />
@@ -3119,9 +3116,6 @@
           <module ref="0bf7bc3b-b11d-42e4-b160-93d72af96397(de.q60.mps.shadowmodels.runtimelang)" kind="cl" />
           <module ref="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" kind="cl" />
           <module ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="cl" />
-          <module ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" kind="cl" />
-          <module ref="5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)" kind="cl" />
-          <module ref="0a7577d1-d4e5-431d-98b1-fae38f9aee80(org.modelix.model.repositoryconcepts)" kind="cl" />
         </dependencies>
         <uses>
           <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
@@ -4574,87 +4568,6 @@
       <zipfileset file="${extensions.code}/languages/de.itemis.model.merge.baselang/sandbox/de.itemis.model.merge.baselang.sandbox.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.itemis.model.merge.baselang-sandbox-models" prefix="module/models" />
     </jar>
-    <mkdir dir="${build.tmp}/default/test.org.modelix.model.mpsadapters.jar" />
-    <mkdir dir="${build.tmp}/default/test.org.modelix.model.mpsadapters.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/test.org.modelix.model.mpsadapters.jar/META-INF/module.xml">
-      <module namespace="test.org.modelix.model.mpsadapters" type="solution" uuid="133bdd06-b98b-47f5-8335-a48e447f9c41">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
-          <module ref="49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)" kind="rt" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="rt" />
-          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" kind="rt" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="rt" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
-          <module ref="ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)" kind="rt" />
-          <module ref="95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)" kind="rt" />
-          <module ref="18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)" kind="rt" />
-          <module ref="e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)" kind="rt" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />
-          <module ref="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" kind="rt" />
-          <module ref="6ef0db41-d3b2-47fe-82ac-d55a42cb6b13(jetbrains.mps.baseLanguage.unitTest.runtime)" kind="rt" />
-          <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" kind="rt" />
-          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" kind="rt" />
-          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
-          <module ref="e55e6749-03cb-4ea7-9695-2322bab791c1(jetbrains.mps.lang.test.matcher)" kind="rt" />
-          <module ref="707c4fde-f79a-44b5-b3d7-b5cef8844ccf(jetbrains.mps.lang.test.runtime)" kind="rt" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
-          <module ref="63b449db-0918-4a4a-a891-2c430ab133e4(org.junit.junit5)" kind="rt" />
-          <module ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" kind="rt" />
-          <module ref="5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)" kind="rt" />
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="cl" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="cl" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="cl" />
-          <module ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" kind="cl" />
-          <module ref="5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)" kind="cl" />
-        </dependencies>
-        <uses>
-          <language id="l:bc963c22-d419-49b6-8543-ea411eb9d3a1:de.q60.mps.polymorphicfunctions" />
-          <language id="l:96089812-effe-4a96-bb2e-75f8162046af:de.q60.mps.shadowmodels.gen.afterPF" />
-          <language id="l:6f76dbc8-9615-4a2e-8034-c27700f8983b:de.q60.mps.shadowmodels.gen.desugar" />
-          <language id="l:c6082896-edff-4380-997b-5b96de2fdc12:de.q60.mps.shadowmodels.gen.typesystem" />
-          <language id="l:94b64715-a263-4c36-a138-8da14705ffa7:de.q60.mps.shadowmodels.transformation" />
-          <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
-          <language id="l:774bf8a0-62e5-41e1-af63-f4812e60e48b:jetbrains.mps.baseLanguage.checkedDots" />
-          <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
-          <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
-          <language id="l:760a0a8c-eabb-4521-8bfd-65db761a9ba3:jetbrains.mps.baseLanguage.logging" />
-          <language id="l:a247e09e-2435-45ba-b8d2-07e93feba96a:jetbrains.mps.baseLanguage.tuples" />
-          <language id="l:f61473f9-130f-42f6-b98d-6c438812c2f6:jetbrains.mps.baseLanguage.unitTest" />
-          <language id="l:df345b11-b8c7-4213-ac66-48d2a9b75d88:jetbrains.mps.baseLanguageInternal" />
-          <language id="l:63650c59-16c8-498a-99c8-005c7ee9515d:jetbrains.mps.lang.access" />
-          <language id="l:aee9cad2-acd4-4608-aef2-0004f6a1cdbd:jetbrains.mps.lang.actions" />
-          <language id="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" />
-          <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
-          <language id="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" />
-          <language id="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" />
-        </uses>
-        <classpath>
-          <entry path="." />
-        </classpath>
-        <sources jar="test.org.modelix.model.mpsadapters-src.jar" descriptor="test.org.modelix.model.mpsadapters.msd" />
-      </module>
-    </echoxml>
-    <jar destfile="${build.layout}/test.org.modelix.model.mpsadapters.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/java/out/test.org.modelix.model.mpsadapters" />
-      <fileset dir="${extensions.code}/model-api/test.org.modelix.model.mpsadapters" includes="icons/**, resources/**" />
-      <fileset dir="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
-      <fileset dir="${build.tmp}/default/test.org.modelix.model.mpsadapters.jar" />
-    </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/model-api-test.org.modelix.model.mpsadapters-models">
-      <fileset dir="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/models" includes="**/*.mps, **/*.mpsr, **/.model" />
-    </copyModels>
-    <jar destfile="${build.layout}/test.org.modelix.model.mpsadapters-src.jar" duplicate="preserve">
-      <fileset dir="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/source_gen">
-        <exclude name="**/trace.info" />
-        <exclude name="**/exports" />
-        <exclude name="**/checkpoints" />
-        <exclude name="**/*.mps" />
-      </fileset>
-      <zipfileset file="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/test.org.modelix.model.mpsadapters.msd" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/model-api-test.org.modelix.model.mpsadapters-models" prefix="module/models" />
-    </jar>
     <mkdir dir="${build.tmp}/default/de.itemis.mps.editor.pagination.test.jar" />
     <mkdir dir="${build.tmp}/default/de.itemis.mps.editor.pagination.test.jar/META-INF" />
     <echoxml file="${build.tmp}/default/de.itemis.mps.editor.pagination.test.jar/META-INF/module.xml">
@@ -5640,7 +5553,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.kotlin.usage.test, java.compile.com.mbeddr.mpsutil.grammarcells.sandboxlang, java.compile.com.mbeddr.mpsutil.grammarcells.tests, java.compile.de.itemis.mps.structurecheck.runtime, java.compile.de.itemis.mps.structurecheck, java.compile.de.itemis.mps.structurecheck#380240910834170735, java.compile.test.de.slisson.mps.tables, java.compile.test.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables.demolang, java.compile.test.de.slisson.mps.tables.lang, java.compile.test.de.slisson.mps.tables.lang.generator, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang#4213334375079416143, java.compile.test.com.mbeddr.mpsutil.blutil.genutil, java.compile.test.com.mbeddr.mpsutil.blutil.doc, java.compile.test.ts.conceptswitch, java.compile.test.ex.match, java.compile.de.itemis.mps.blutil.sandbox, java.compile.de.itemis.mps.nodeversioning.test, java.compile.de.itemis.model.merge.diamond, java.compile.de.itemis.model.merge.simple.demo.annotated, java.compile.de.itemis.model.simple.demo.children, java.compile.de.itemis.model.simple.demo.collection, java.compile.de.itemis.model.simple.demo.collection.keeper, java.compile.de.itemis.model.simple.demo.collection.ref, java.compile.de.itemis.model.simple.demo.collection.ref.generator, java.compile.de.itemis.model.simple.demo.enums, java.compile.de.itemis.model.simple.demo.enums.generator, java.compile.de.itemis.model.simple.demo.property, java.compile.de.itemis.model.simple.demo.reference, java.compile.test.de.itemis.mps.modelmerger.testlanguage, java.compile.de.itemis.model.merge.baselang.sandbox, java.compile.de.itemis.model.merge.simple.demo, java.compile.de.itemis.model.merge.test, java.compile.de.itemis.mps.modelmerger.testhelper, java.compile.tests.de.itemis.mps.modelmerger, java.compile.de.itemis.model.merge.test.integration, java.compile.test.de.itemis.model.merge, java.compile.com.dslfoundry.plaintextgen.example.nestedlist, java.compile.com.dslfoundry.plaintextgen.example.nestedlist#7022720084780710580, java.compile.com.dslfoundry.plaintextgen.example.testlang, java.compile.com.dslfoundry.plaintextgen.example.testlang#3661149507326583883, java.compile.com.dslfoundry.plaintextgen.example.nestedlist.sandbox, java.compile.com.dslfoundry.plaintextgen.example.plaintextflow, java.compile.com.dslfoundry.plaintextgen.example.testlang.sandbox, java.compile.test.org.modelix.model.mpsadapters, java.compile.de.itemis.mps.editor.pagination.test, java.compile.test.de.q60.mps.shadowmodels.examples, java.compile.test.de.q60.mps.shadowmodels.runtime, java.compile.test.de.q60.mps.incremental.runtime, java.compile.de.itemis.mps.editor.collapsible.testlang, java.compile.de.itemis.mps.editor.enumeration.demolang, java.compile.de.itemis.mps.editor.dropdown.demolang, java.compile.de.itemis.mps.editor.bool.demolang, java.compile.nl.f1re.mps.editor.swing.demolang, java.compile.de.itemis.mps.editor.enumeration.sandbox, java.compile.de.itemis.mps.editor.dropdown.sandbox, java.compile.de.itemis.mps.editor.bool.sandbox, java.compile.de.itemis.mps.editor.collapsible.sandbox, java.compile.test.de.itemis.mps.editor.bool.runtime, java.compile.nl.f1re.mps.editor.swing.sandbox, java.compile.de.slisson.mps.javadoc, java.compile.de.slisson.mps.richtext.sandbox, java.compile.test.de.slisson.mps.richtext, java.compile.de.slisson.mps.editor.multiline.demolang, java.compile.de.slisson.mps.editor.multiline.sandbox, java.compile.test.de.slisson.mps.editor.multiline, java.compile.de.slisson.mps.conditionalEditor.demolang, java.compile.de.slisson.mps.conditionalEditor.sandbox, java.compile.de.itemis.mps.editor.math.demolang, java.compile.de.itemis.mps.editor.math.java, java.compile.de.itemis.mps.editor.math.java#9023431908320258336, java.compile.de.itemis.mps.editor.math.sandbox, java.compile.de.itemis.mps.editor.math.tests, java.compile.test.de.itemis.mps.editor.celllayout, java.compile.test.de.itemis.mps.editor.celllayout.lang, java.compile.de.itemis.mps.editor.celllayout.sandboxlang, java.compile.de.itemis.mps.editor.celllayout.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity, java.compile.test.de.itemis.mps.editor.diagram.lang, java.compile.test.de.itemis.mps.editor.diagram.solution, java.compile.de.itemis.mps.editor.diagram.demolang, java.compile.de.itemis.mps.editor.diagram.demolang#5806942359871451541, java.compile.de.itemis.mps.editor.diagram.demoentities, java.compile.de.itemis.mps.editor.diagram.demo.callgraph, java.compile.de.itemis.mps.editor.diagram.demo.elk, java.compile.de.itemis.mps.editor.diagram.demo.elk.generator, java.compile.de.itemis.mps.editor.diagram.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.ports, java.compile.de.itemis.mps.editor.diagram.demo.ports.generator, java.compile.de.itemis.mps.editor.diagram.demo.ports.sandbox, java.compile.de.itemis.mps.editor.diagram.demoentities.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.elk.sandbox, java.compile.com.mbeddr.mpsutil.intentions.tests, java.compile.de.itemis.mps.comparator.diff.tests, java.compile.test.de.itemis.mps.compare, java.compile.de.itemis.mps.compare.pattern.test, java.compile.test.de.itemis.mps.compare.testlang, java.compile.nl.f1re.mpsutil.hasher.tests, java.compile.nl.f1re.testing.examples.lang, java.compile.nl.f1re.testing.examples.lang.generator, java.compile.nl.f1re.testing.examples, java.compile.test.com.mbeddr.mpsutil.modellisteners, java.compile.test.nl.f1re.mps.aliascustomization.demolang, java.compile.test.nl.f1re.mps.aliascustomization, java.compile.de.itemis.mps.editor.htmlcell.demolang, java.compile.com.mbeddr.mpsutil.modellisteners.sandboxlang, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang, java.compile.de.itemis.mps.editor.pagination.demolang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang.generator, java.compile.com.mbeddr.mpsutil.treenotation.sandboxlang" />
+  <target name="compileJava" depends="java.compile.kotlin.usage.test, java.compile.com.mbeddr.mpsutil.grammarcells.sandboxlang, java.compile.com.mbeddr.mpsutil.grammarcells.tests, java.compile.de.itemis.mps.structurecheck.runtime, java.compile.de.itemis.mps.structurecheck, java.compile.de.itemis.mps.structurecheck#380240910834170735, java.compile.test.de.slisson.mps.tables, java.compile.test.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables.demolang, java.compile.test.de.slisson.mps.tables.lang, java.compile.test.de.slisson.mps.tables.lang.generator, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang#4213334375079416143, java.compile.test.com.mbeddr.mpsutil.blutil.genutil, java.compile.test.com.mbeddr.mpsutil.blutil.doc, java.compile.test.ts.conceptswitch, java.compile.test.ex.match, java.compile.de.itemis.mps.blutil.sandbox, java.compile.de.itemis.mps.nodeversioning.test, java.compile.de.itemis.model.merge.diamond, java.compile.de.itemis.model.merge.simple.demo.annotated, java.compile.de.itemis.model.simple.demo.children, java.compile.de.itemis.model.simple.demo.collection, java.compile.de.itemis.model.simple.demo.collection.keeper, java.compile.de.itemis.model.simple.demo.collection.ref, java.compile.de.itemis.model.simple.demo.collection.ref.generator, java.compile.de.itemis.model.simple.demo.enums, java.compile.de.itemis.model.simple.demo.enums.generator, java.compile.de.itemis.model.simple.demo.property, java.compile.de.itemis.model.simple.demo.reference, java.compile.test.de.itemis.mps.modelmerger.testlanguage, java.compile.de.itemis.model.merge.baselang.sandbox, java.compile.de.itemis.model.merge.simple.demo, java.compile.de.itemis.model.merge.test, java.compile.de.itemis.mps.modelmerger.testhelper, java.compile.tests.de.itemis.mps.modelmerger, java.compile.de.itemis.model.merge.test.integration, java.compile.test.de.itemis.model.merge, java.compile.com.dslfoundry.plaintextgen.example.nestedlist, java.compile.com.dslfoundry.plaintextgen.example.nestedlist#7022720084780710580, java.compile.com.dslfoundry.plaintextgen.example.testlang, java.compile.com.dslfoundry.plaintextgen.example.testlang#3661149507326583883, java.compile.com.dslfoundry.plaintextgen.example.nestedlist.sandbox, java.compile.com.dslfoundry.plaintextgen.example.plaintextflow, java.compile.com.dslfoundry.plaintextgen.example.testlang.sandbox, java.compile.de.itemis.mps.editor.pagination.test, java.compile.test.de.q60.mps.shadowmodels.examples, java.compile.test.de.q60.mps.shadowmodels.runtime, java.compile.test.de.q60.mps.incremental.runtime, java.compile.de.itemis.mps.editor.collapsible.testlang, java.compile.de.itemis.mps.editor.enumeration.demolang, java.compile.de.itemis.mps.editor.dropdown.demolang, java.compile.de.itemis.mps.editor.bool.demolang, java.compile.nl.f1re.mps.editor.swing.demolang, java.compile.de.itemis.mps.editor.enumeration.sandbox, java.compile.de.itemis.mps.editor.dropdown.sandbox, java.compile.de.itemis.mps.editor.bool.sandbox, java.compile.de.itemis.mps.editor.collapsible.sandbox, java.compile.test.de.itemis.mps.editor.bool.runtime, java.compile.nl.f1re.mps.editor.swing.sandbox, java.compile.de.slisson.mps.javadoc, java.compile.de.slisson.mps.richtext.sandbox, java.compile.test.de.slisson.mps.richtext, java.compile.de.slisson.mps.editor.multiline.demolang, java.compile.de.slisson.mps.editor.multiline.sandbox, java.compile.test.de.slisson.mps.editor.multiline, java.compile.de.slisson.mps.conditionalEditor.demolang, java.compile.de.slisson.mps.conditionalEditor.sandbox, java.compile.de.itemis.mps.editor.math.demolang, java.compile.de.itemis.mps.editor.math.java, java.compile.de.itemis.mps.editor.math.java#9023431908320258336, java.compile.de.itemis.mps.editor.math.sandbox, java.compile.de.itemis.mps.editor.math.tests, java.compile.test.de.itemis.mps.editor.celllayout, java.compile.test.de.itemis.mps.editor.celllayout.lang, java.compile.de.itemis.mps.editor.celllayout.sandboxlang, java.compile.de.itemis.mps.editor.celllayout.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity, java.compile.test.de.itemis.mps.editor.diagram.lang, java.compile.test.de.itemis.mps.editor.diagram.solution, java.compile.de.itemis.mps.editor.diagram.demolang, java.compile.de.itemis.mps.editor.diagram.demolang#5806942359871451541, java.compile.de.itemis.mps.editor.diagram.demoentities, java.compile.de.itemis.mps.editor.diagram.demo.callgraph, java.compile.de.itemis.mps.editor.diagram.demo.elk, java.compile.de.itemis.mps.editor.diagram.demo.elk.generator, java.compile.de.itemis.mps.editor.diagram.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.ports, java.compile.de.itemis.mps.editor.diagram.demo.ports.generator, java.compile.de.itemis.mps.editor.diagram.demo.ports.sandbox, java.compile.de.itemis.mps.editor.diagram.demoentities.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.elk.sandbox, java.compile.com.mbeddr.mpsutil.intentions.tests, java.compile.de.itemis.mps.comparator.diff.tests, java.compile.test.de.itemis.mps.compare, java.compile.de.itemis.mps.compare.pattern.test, java.compile.test.de.itemis.mps.compare.testlang, java.compile.nl.f1re.mpsutil.hasher.tests, java.compile.nl.f1re.testing.examples.lang, java.compile.nl.f1re.testing.examples.lang.generator, java.compile.nl.f1re.testing.examples, java.compile.test.com.mbeddr.mpsutil.modellisteners, java.compile.test.nl.f1re.mps.aliascustomization.demolang, java.compile.test.nl.f1re.mps.aliascustomization, java.compile.de.itemis.mps.editor.htmlcell.demolang, java.compile.com.mbeddr.mpsutil.modellisteners.sandboxlang, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang, java.compile.de.itemis.mps.editor.pagination.demolang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang.generator, java.compile.com.mbeddr.mpsutil.treenotation.sandboxlang" />
   
   <target name="processResources" />
   
@@ -5686,7 +5599,6 @@
       <plugin path="${artifacts.de.itemis.mps.extensions}/nl.f1re.mps.aliascustomization" id="nl.f1re.mps.aliascustomization" />
       <plugin path="${artifacts.de.itemis.mps.extensions}/nl.f1re.mpsutil.hasher" id="nl.f1re.mpsutil.hasher" />
       <plugin path="${artifacts.de.itemis.mps.extensions}/nl.f1re.testing" id="nl.f1re.testing" />
-      <plugin path="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api" id="org.modelix.model.api" />
       <plugin path="${artifacts.mps}/lib/mps-workbench.jar" id="com.intellij.modules.mps" />
       <plugin path="${artifacts.mps}/plugins/java" id="com.intellij.java" />
       <plugin path="${artifacts.mps}/plugins/mps-build" id="jetbrains.mps.build" />
@@ -5776,7 +5688,6 @@
         <module file="${tables.home}/solutions/test.de.slisson.mps.tables.runtime/test.de.slisson.mps.tables.runtime.msd" />
         <module file="${extensions.code}/blutil/tests/test.ts.match/match.msd" />
         <module file="${extensions.code}/alias-customization/languages/test.nl.f1re.mps.aliascustomization.demolang/test.nl.f1re.mps.aliascustomization.demolang.mpl" />
-        <module file="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/test.org.modelix.model.mpsadapters.msd" />
         <module file="${extensions.code}/blutil/tests/test.ts.conceptswitch/test.ts.conceptswitch.msd" />
       </chunk>
       <chunk>
@@ -9959,131 +9870,6 @@
     </javac2>
   </target>
   
-  <target name="java.compile.test.org.modelix.model.mpsadapters" depends="fetchDependencies">
-    <mkdir dir="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/test.org.modelix.model.mpsadapters" />
-    <javac2 destdir="${build.tmp}/java/out/test.org.modelix.model.mpsadapters" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="11" target="11">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/source_gen" />
-        <pathelement path="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/test_gen/" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-test.jar" />
-        <fileset file="${artifacts.mps}/lib/app.jar" />
-        <fileset file="${artifacts.mps}/lib/app-client.jar" />
-        <fileset file="${artifacts.mps}/lib/lib.jar" />
-        <fileset file="${artifacts.mps}/lib/lib-client.jar" />
-        <fileset file="${artifacts.mps}/lib/util.jar" />
-        <fileset file="${artifacts.mps}/lib/util_rt.jar" />
-        <fileset file="${artifacts.mps}/lib/util-8.jar" />
-        <fileset file="${artifacts.mps}/lib/forms_rt.jar" />
-        <fileset file="${artifacts.mps}/lib/java-frontback.jar" />
-        <fileset file="${artifacts.mps}/lib/jps-model.jar" />
-        <fileset file="${artifacts.mps}/lib/testFramework.jar" />
-        <fileset file="${artifacts.mps}/lib/stats.jar" />
-        <fileset file="${artifacts.mps}/lib/hamcrest.jar" />
-        <fileset file="${artifacts.mps}/lib/platform-loader.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.libraries.asm.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.libraries.fastutil.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.libraries.gson.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.libraries.kotlinx.collections.immutable.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.libraries.kotlinx.coroutines.core.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.libraries.miglayout.swing.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.libraries.netty.buffer.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.libraries.netty.codec.http.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.libraries.swingx.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.analysis.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.analysis.impl.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.builtInServer.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.builtInServer.impl.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.core.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.core.impl.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.core.ui.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.debugger.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.diff.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.diff.impl.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.ide.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.ide.core.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.ide.impl.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.lang.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.lang.core.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.lang.impl.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.locking.impl.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.projectFrame.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.projectModel.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.projectModel.impl.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.util.ex.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.util.ui.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.vcs.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.platform.vcs.core.jar" />
-        <fileset file="${artifacts.mps}/lib/intellij.xml.parser.jar" />
-        <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/de.q60.shadowmodels/languages/de.q60.shadowmodels/de.q60.mps.incremental.runtime.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/de.q60.shadowmodels/languages/de.q60.shadowmodels/de.q60.mps.polymorphicfunctions.runtime.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/de.q60.shadowmodels/languages/de.q60.shadowmodels/de.q60.mps.shadowmodels.genplan.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/de.q60.shadowmodels/languages/de.q60.shadowmodels/de.q60.mps.shadowmodels.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.matcher.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/languages/group.model-api/org.modelix.model.mpsadapters.jar" />
-        <fileset file="${artifacts.mps}/lib/ant/lib/ant.jar" />
-        <fileset file="${artifacts.mps}/lib/junit4.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/de.q60.mps.collections.libs/lib" includes="commons-collections4.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/de.q60.mps.collections.libs/lib" includes="guava.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/de.q60.mps.collections.libs/lib" includes="trove4j.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/de.q60.mps.collections.libs/lib" includes="vavr.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="apiguardian-api-1.1.2.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-jupiter-api-5.13.4.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-jupiter-engine-5.13.4.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-jupiter-migrationsupport-5.13.4.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-jupiter-params-5.13.4.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-platform-commons-1.13.4.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-platform-engine-1.13.4.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-platform-launcher-1.13.4.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-vintage-engine-5.13.4.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="opentest4j-1.3.0.jar" />
-        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-platform-reporting-1.13.4.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="model-api-jvm.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib-jdk8.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib-jdk7.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib-common.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-logging-jvm.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlinx-serialization-core-jvm.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlinx-serialization-json-jvm.jar" />
-        <path refid="path.jdk.classpath" />
-      </classpath>
-    </javac2>
-  </target>
-  
   <target name="java.compile.de.itemis.mps.editor.pagination.test" depends="fetchDependencies">
     <mkdir dir="${extensions.code}/pagination/solutions/de.itemis.mps.editor.pagination.test/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.itemis.mps.editor.pagination.test" />
@@ -10290,7 +10076,6 @@
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.matcher.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/languages/group.model-api/org.modelix.model.mpsadapters.jar" />
         <fileset file="${artifacts.mps}/lib/ant/lib/ant.jar" />
         <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="apiguardian-api-1.1.2.jar" />
@@ -10304,14 +10089,6 @@
         <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-vintage-engine-5.13.4.jar" />
         <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="opentest4j-1.3.0.jar" />
         <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-platform-reporting-1.13.4.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="model-api-jvm.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib-jdk8.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib-jdk7.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib-common.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-logging-jvm.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlinx-serialization-core-jvm.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlinx-serialization-json-jvm.jar" />
         <path refid="path.jdk.classpath" />
       </classpath>
     </javac2>
@@ -10411,8 +10188,6 @@
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.matcher.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/languages/group.model-api/org.modelix.model.mpsadapters.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/languages/group.model-api/org.modelix.model.repositoryconcepts.jar" />
         <fileset file="${artifacts.mps}/lib/ant/lib/ant.jar" />
         <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset dir="${artifacts.de.itemis.mps.extensions}/de.q60.mps.collections.libs/lib" includes="commons-collections4.jar" />
@@ -10430,14 +10205,6 @@
         <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-vintage-engine-5.13.4.jar" />
         <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="opentest4j-1.3.0.jar" />
         <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-platform-reporting-1.13.4.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="model-api-jvm.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib-jdk8.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib-jdk7.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-stdlib-common.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlin-logging-jvm.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlinx-serialization-core-jvm.jar" />
-        <fileset dir="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api/lib" includes="kotlinx-serialization-json-jvm.jar" />
         <path refid="path.jdk.classpath" />
       </classpath>
     </javac2>
@@ -16481,7 +16248,6 @@
       <pathelement location="${build.layout}/de.itemis.model.merge.baselang.sandbox.jar" />
       <pathelement location="${build.layout}/de.itemis.model.merge.test.integration.jar" />
       <pathelement location="${build.layout}/de.itemis.model.merge.baselang.sandbox.jar" />
-      <pathelement location="${build.layout}/test.org.modelix.model.mpsadapters.jar" />
       <pathelement location="${build.layout}/de.itemis.mps.editor.pagination.test.jar" />
       <pathelement location="${build.layout}/test.de.itemis.mps.compare.jar" />
       <pathelement location="${build.layout}/de.itemis.mps.compare.pattern.test.jar" />
@@ -16553,7 +16319,6 @@
       <plugin id="nl.f1re.mps.aliascustomization" path="${artifacts.de.itemis.mps.extensions}/nl.f1re.mps.aliascustomization" />
       <plugin id="nl.f1re.mpsutil.hasher" path="${artifacts.de.itemis.mps.extensions}/nl.f1re.mpsutil.hasher" />
       <plugin id="nl.f1re.testing" path="${artifacts.de.itemis.mps.extensions}/nl.f1re.testing" />
-      <plugin id="org.modelix.model.api" path="${artifacts.de.itemis.mps.extensions}/org.modelix.model.api" />
       <plugin id="com.intellij.modules.mps" path="${artifacts.mps}/lib/mps-workbench.jar" />
       <plugin id="com.intellij.java" path="${artifacts.mps}/plugins/java" />
       <plugin id="jetbrains.mps.build" path="${artifacts.mps}/plugins/mps-build" />
@@ -16666,7 +16431,6 @@
     <delete dir="${tables.home}/solutions/test.de.slisson.mps.tables.runtime/source_gen" />
     <delete dir="${extensions.code}/blutil/tests/test.ts.match/source_gen" />
     <delete dir="${extensions.code}/alias-customization/languages/test.nl.f1re.mps.aliascustomization.demolang/source_gen" />
-    <delete dir="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/source_gen" />
     <delete dir="${extensions.code}/blutil/tests/test.ts.conceptswitch/source_gen" />
     <delete dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.nestedlist.sandbox/source_gen" />
     <delete dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.testlang.sandbox/source_gen" />
@@ -16714,7 +16478,6 @@
     <delete dir="${extensions.code}/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test_gen" />
     <delete dir="${tables.home}/solutions/test.de.slisson.mps.tables.runtime/test_gen" />
     <delete dir="${extensions.code}/blutil/tests/test.ts.match/test_gen" />
-    <delete dir="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/test_gen" />
     <delete dir="${extensions.code}/blutil/tests/test.ts.conceptswitch/test_gen" />
     <delete dir="${grammarcells.home}/solutions/com.mbeddr.mpsutil.grammarcells.tests/test_gen" />
     <delete dir="${extensions.code}/solutions/com.mbeddr.mpsutil.intentions.tests/test_gen" />

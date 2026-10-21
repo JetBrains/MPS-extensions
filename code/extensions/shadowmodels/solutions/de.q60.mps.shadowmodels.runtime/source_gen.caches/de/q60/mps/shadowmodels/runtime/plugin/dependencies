@@ -33,7 +33,5 @@
   <uses module="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
   <uses module="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" kind="rt" />
   <uses module="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
-  <uses module="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" kind="dp" />
-  <uses module="5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)" kind="dp" />
 </dependenciesRoot>
 

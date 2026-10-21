@@ -372,12 +372,12 @@
       <node id="3087343341364511449" at="42,78,43,61" concept="2" />
       <node id="5810976794850392720" at="48,44,49,22" concept="8" />
       <node id="5810976794850392768" at="53,43,54,22" concept="8" />
-      <node id="8943184115486892026" at="58,53,59,89" concept="7" />
+      <node id="8943184115486892026" at="58,53,59,86" concept="7" />
       <node id="8943184115486892033" at="60,38,61,133" concept="7" />
       <node id="5810976794850450696" at="62,29,63,132" concept="7" />
       <node id="8943184115487384253" at="63,132,64,28" concept="8" />
       <node id="5810976794850470157" at="66,11,67,22" concept="8" />
-      <node id="5810976794850476986" at="71,47,72,89" concept="7" />
+      <node id="5810976794850476986" at="71,47,72,86" concept="7" />
       <node id="5810976794850476993" at="73,38,74,128" concept="7" />
       <node id="5810976794850480623" at="75,29,76,105" concept="2" />
       <node id="5810976794849296894" at="89,114,90,49" concept="7" />
@@ -404,8 +404,8 @@
       <node id="5810976794849296894" at="108,5,112,5" concept="11" />
       <node id="5810976794849296894" at="115,0,120,0" concept="6" trace="getDeclaredMethods#()Ljava/util/List;" />
       <node id="5810976794849296894" at="121,0,126,0" concept="6" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="5810976794850476991" at="72,89,78,11" concept="5" />
-      <node id="8943184115486892031" at="59,89,66,11" concept="5" />
+      <node id="5810976794850476991" at="72,86,78,11" concept="5" />
+      <node id="8943184115486892031" at="59,86,66,11" concept="5" />
       <node id="5810976794849296894" at="93,5,100,5" concept="11" />
       <node id="5810976794850390950" at="70,0,80,0" concept="6" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5810976794849296894" at="103,0,114,0" concept="6" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />

@@ -9,18 +9,17 @@ import org.jetbrains.mps.openapi.module.SRepository;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.smodel.MPSModuleRepository;
-import org.modelix.model.area.ContextArea;
-import org.modelix.model.mpsadapters.mps.MPSArea;
-import org.modelix.model.mpsadapters.mps.NodeToSNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.model.ContextArea;
+import de.q60.mps.shadowmodels.runtime.smodel.MPSArea;
+import de.q60.mps.shadowmodels.runtime.smodel.NodeToSNodeAdapter;
 import de.q60.mps.shadowmodels.runtime.engine.DependencyTrackingNode;
-import org.modelix.model.mpsadapters.mps.SNodeToNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.SNodeToNodeAdapter;
 import java.util.List;
 import jetbrains.mps.lang.test.matcher.NodeDifference;
 import jetbrains.mps.lang.test.matcher.NodesMatcher;
 import org.junit.Assert;
-import kotlin.Unit;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationsFromAspect;
+import de.q60.mps.shadowmodels.runtime.smodel.TransformationsFromAspect;
 import jetbrains.mps.module.ReloadableModule;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import de.q60.mps.polymorphicfunctions.runtime.DefaultPFContext;
@@ -37,7 +36,7 @@ import de.q60.mps.shadowmodels.runtime.engine.GoalCall;
 import de.q60.mps.shadowmodels.transformation.behavior.Goal__BehaviorDescriptor;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
 import de.q60.mps.shadowmodels.transformation.behavior.Transformation__BehaviorDescriptor;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.lang.smodel.ConceptSwitchIndex;
 import jetbrains.mps.lang.smodel.ConceptSwitchIndexBuilder;
@@ -52,25 +51,22 @@ public class TransformationTestUtil {
     if (repository == null) {
       repository = MPSCoreComponents.getInstance().getPlatform().findComponent(MPSModuleRepository.class);
     }
-    ContextArea.INSTANCE.withAdditionalContext(new MPSArea(repository), () -> {
-      executeTransformation(input, transformation, languages, (SNode outputWithTracking) -> {
-        SNode output = NodeToSNodeAdapter.wrap(DependencyTrackingNode.unwrap(SNodeToNodeAdapter.wrap(outputWithTracking)));
-        List<NodeDifference> diff = new NodesMatcher(output, expectedOutput).diff();
-        if (!(diff.isEmpty())) {
-          StringBuilder sb = new StringBuilder();
-          for (NodeDifference nd : diff) {
-            sb.append(nd.print());
-          }
-          Assert.fail(sb.toString());
+    ContextArea.CONTEXT_VALUE.runWith(new MPSArea(repository), () -> executeTransformation(input, transformation, languages, (SNode outputWithTracking) -> {
+      SNode output = NodeToSNodeAdapter.wrap(DependencyTrackingNode.unwrap(SNodeToNodeAdapter.wrap(outputWithTracking)));
+      List<NodeDifference> diff = new NodesMatcher(output, expectedOutput).diff();
+      if (!(diff.isEmpty())) {
+        StringBuilder sb = new StringBuilder();
+        for (NodeDifference nd : diff) {
+          sb.append(nd.print());
         }
-      }, shadowRepositoryMode);
-      return Unit.INSTANCE;
-    });
+        Assert.fail(sb.toString());
+      }
+    }, shadowRepositoryMode));
   }
 
   public static void executeTransformation(final SNode input, SNodeReference transformationPtr, final Iterable<SModuleReference> languages, final _FunctionTypes._void_P1_E0<? super SNode> callback, boolean shadowRepositoryMode) {
     final SRepository repository = SNodeOperations.getModel(input).getRepository();
-    SM_TransformationsFromAspect transformationsProvider = new SM_TransformationsFromAspect() {
+    TransformationsFromAspect transformationsProvider = new TransformationsFromAspect() {
       protected Iterable<ReloadableModule> getSModules() {
         return Sequence.fromIterable(languages).select((it) -> (ReloadableModule) it.resolve(repository));
       }
@@ -106,10 +102,7 @@ public class TransformationTestUtil {
       }
       INode output_ = Sequence.fromIterable(engine.executeInCurrentStage(call)).first();
       final SNode output = NodeToSNodeAdapter.wrap(output_);
-      ContextArea.INSTANCE.getCONTEXT_VALUE().computeWith(engine.getArea(), () -> engine.getArea().executeRead(() -> {
-        callback.invoke(output);
-        return Unit.INSTANCE;
-      }));
+      ContextArea.CONTEXT_VALUE.runWith(engine.getArea(), () -> engine.getArea().runRead(() -> callback.invoke(output)));
     } finally {
       engine.dispose();
     }

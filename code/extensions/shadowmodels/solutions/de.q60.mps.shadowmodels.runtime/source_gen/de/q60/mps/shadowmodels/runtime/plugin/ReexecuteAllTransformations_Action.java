@@ -7,12 +7,12 @@ import javax.swing.Icon;
 import jetbrains.mps.workbench.action.ActionAccess;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import java.util.Map;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_RepositoryModulesManager;
+import de.q60.mps.shadowmodels.runtime.smodel.RepositoryModulesManager;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.project.MPSProject;
 import jetbrains.mps.ide.actions.MPSCommonDataKeys;
 import de.q60.mps.logging.runtime.ShadowLogging;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationsFromGlobalRepository;
+import de.q60.mps.shadowmodels.runtime.smodel.TransformationsFromGlobalRepository;
 import de.q60.mps.polymorphicfunctions.runtime.DescriptorCache;
 import com.intellij.openapi.application.ApplicationManager;
 import jetbrains.mps.ide.projectPane.ProjectPane;
@@ -32,7 +32,7 @@ public class ReexecuteAllTransformations_Action extends BaseAction {
   }
   @Override
   public boolean isApplicable(AnActionEvent event, final Map<String, Object> _params) {
-    return SM_RepositoryModulesManager.isEnabled();
+    return RepositoryModulesManager.isEnabled();
   }
   @Override
   public void doUpdate(@NotNull AnActionEvent event, final Map<String, Object> _params) {
@@ -54,8 +54,8 @@ public class ReexecuteAllTransformations_Action extends BaseAction {
   @Override
   public void doExecute(@NotNull final AnActionEvent event, final Map<String, Object> _params) {
     ShadowLogging.clear();
-    SM_RepositoryModulesManager.getInstance().invalidateAll();
-    SM_TransformationsFromGlobalRepository.getInstance().invalidate();
+    RepositoryModulesManager.getInstance().invalidateAll();
+    TransformationsFromGlobalRepository.getInstance().invalidate();
     DescriptorCache.getInstance().invalidate();
     ApplicationManager.getApplication().invokeLater(() -> ProjectPane.getInstance(event.getData(MPSCommonDataKeys.MPS_PROJECT)).updateFromRoot(true));
   }

@@ -15,9 +15,9 @@ import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import de.q60.mps.shadowmodels.runtime.engine.ParameterType_INode;
-import org.modelix.model.mpsadapters.mps.SConceptAdapter;
-import org.modelix.model.api.INode;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GeneratedTransformationRule;
+import de.q60.mps.shadowmodels.runtime.smodel.SConceptAdapter;
+import de.q60.mps.shadowmodels.runtime.model.INode;
+import de.q60.mps.shadowmodels.runtime.smodel.GeneratedTransformationRule;
 import jetbrains.mps.smodel.SNodePointer;
 import de.q60.mps.shadowmodels.runtime.engine.ContainmentTargetRootNodes;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
@@ -52,7 +52,7 @@ public class ShadowRepository extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return ListSequence.fromListAndArray(new ArrayList<SLanguage>(), MetaAdapterFactory.getLanguage(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, "org.modelix.model.repositoryconcepts"));
+        return ListSequence.fromListAndArray(new ArrayList<SLanguage>(), MetaAdapterFactory.getLanguage(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, "de.q60.mps.shadowmodels.runtimelang"));
       }
       @Override
       public Iterable<IParameterType> getParameterTypes() {
@@ -68,7 +68,7 @@ public class ShadowRepository extends PFModule {
       }
     });
     addImplementation("de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository", new IFunctionImplementation() {
-      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Repository$db)));
+      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Repository$sN)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
       @Override
@@ -76,20 +76,20 @@ public class ShadowRepository extends PFModule {
         return "de.q60.mps.shadowmodels.repository.transformations/ShadowRepository/Repository_3";
       }
       public boolean isApplicable(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.Repository$db)))) {
+        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.Repository$sN)))) {
           return false;
         }
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)", "9192345617660066986")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)", "9192345617660066986")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
               result.setTraceInfo("r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)/9192345617660066986");
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
-                  context.withParameter(BuilderContextParameter.ID, "0").createNode(new SConceptAdapter(CONCEPTS.Repository$db)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                  context.withParameter(BuilderContextParameter.ID, "0").createNode(new SConceptAdapter(CONCEPTS.Repository$sN)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                     public void invoke(final IBuilderContext context) {
                       context.getResultElement().setTraceInfo("r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)/6951066303471256789");
                     }
@@ -116,6 +116,6 @@ public class ShadowRepository extends PFModule {
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Repository$db = MetaAdapterFactory.getConcept(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c516L, "org.modelix.model.repositoryconcepts.structure.Repository");
+    /*package*/ static final SConcept Repository$sN = MetaAdapterFactory.getConcept(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c516L, "de.q60.mps.shadowmodels.runtimelang.structure.Repository");
   }
 }

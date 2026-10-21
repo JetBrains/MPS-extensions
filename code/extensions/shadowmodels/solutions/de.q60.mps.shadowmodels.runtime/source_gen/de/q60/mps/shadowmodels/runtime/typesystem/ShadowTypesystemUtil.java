@@ -4,17 +4,17 @@ package de.q60.mps.shadowmodels.runtime.typesystem;
 
 import jetbrains.mps.logging.Logger;
 import org.jetbrains.mps.openapi.model.SNode;
-import org.modelix.model.mpsadapters.mps.NodeToSNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.NodeToSNodeAdapter;
 import de.q60.mps.shadowmodels.runtime.engine.DependencyTrackingNode;
-import org.modelix.model.mpsadapters.mps.SNodeToNodeAdapter;
-import org.modelix.model.mpsadapters.mps.EModelMode;
+import de.q60.mps.shadowmodels.runtime.smodel.SNodeToNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.EModelMode;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.typesystem.inference.TypeCheckerHelper;
 import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.smodel.MPSModuleRepository;
 import jetbrains.mps.newTypesystem.context.TargetTypecheckingContext;
-import org.modelix.model.mpsadapters.mps.ANode;
+import de.q60.mps.shadowmodels.runtime.smodel.ANode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ShadowTypesystemUtil {

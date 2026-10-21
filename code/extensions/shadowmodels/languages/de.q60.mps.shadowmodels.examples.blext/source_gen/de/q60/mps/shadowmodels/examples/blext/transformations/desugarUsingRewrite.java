@@ -15,13 +15,13 @@ import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import de.q60.mps.shadowmodels.runtime.engine.ParameterType_INode;
-import org.modelix.model.mpsadapters.mps.SConceptAdapter;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.smodel.SConceptAdapter;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import de.q60.mps.shadowmodels.runtime.engine.ForkCall;
 import de.q60.mps.shadowmodels.runtime.engine.RewriteCall;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ParameterConversion;
+import de.q60.mps.shadowmodels.runtime.smodel.ParameterConversion;
 import de.q60.mps.shadowmodels.runtime.engine.SimpleRewriter;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GeneratedTransformationRule;
+import de.q60.mps.shadowmodels.runtime.smodel.GeneratedTransformationRule;
 import jetbrains.mps.smodel.SNodePointer;
 import de.q60.mps.shadowmodels.runtime.engine.ContainmentTargetRootNodes;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
@@ -98,7 +98,7 @@ public class desugarUsingRewrite extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new ForkCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.classFork", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ((INode) _PFparameters.get(0)))), new RewriteCall(SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) _PFparameters.get(0)))), "3399411678333808516"), true, "de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.classFork/rewriter", "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3399411678333806922");
+        return new ForkCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.classFork", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ((INode) _PFparameters.get(0)))), new RewriteCall(ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) _PFparameters.get(0)))), "3399411678333808516"), true, "de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.classFork/rewriter", "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3399411678333806922");
       }
       @Override
       public Iterable<IParameterType> getParameterTypes() {
@@ -157,7 +157,7 @@ public class desugarUsingRewrite extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "3732365408172989904")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "3732365408172989904")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -182,7 +182,7 @@ public class desugarUsingRewrite extends PFModule {
                                           if (true) {
                                             context.forChildRole("expression").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                               public void invoke(final IBuilderContext context) {
-                                                context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.condition$EaHf)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757340"));
+                                                context.createNode(new RewriteCall(ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.condition$EaHf)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757340"));
                                               }
                                             });
                                           }
@@ -199,7 +199,7 @@ public class desugarUsingRewrite extends PFModule {
                       if (true) {
                         context.forChildRole("body").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.body$Ebbh)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757341"));
+                            context.createNode(new RewriteCall(ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.body$Ebbh)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757341"));
                           }
                         });
                       }
@@ -239,7 +239,7 @@ public class desugarUsingRewrite extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "3502377949028770483")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "3502377949028770483")) {
           @Override
           public void apply(final ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -248,7 +248,7 @@ public class desugarUsingRewrite extends PFModule {
                 final IReferenceTarget target = new Object() {
                   public IReferenceTarget computeTarget() {
                     final IBuilderContext context = new RootBuilderContext(call, null);
-                    Object target = FirstRootRefTarget.create(RewriteCall.create(SM_ParameterConversion.fromMPS(SNodeOperations.getNodeAncestor(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3335878384554624023"));
+                    Object target = FirstRootRefTarget.create(RewriteCall.create(ParameterConversion.fromMPS(SNodeOperations.getNodeAncestor(ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3335878384554624023"));
                     if (target instanceof IReferenceTarget) {
                       return ((IReferenceTarget) target);
                     } else if (target == null) {
@@ -259,7 +259,7 @@ public class desugarUsingRewrite extends PFModule {
                   }
                 }.computeTarget();
                 String targetRole = LINKS.member$L_2d.getName();
-                final TransformationCall content = new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.naMethod", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(0)))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8608661697988718101");
+                final TransformationCall content = new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.naMethod", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(0)))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8608661697988718101");
                 context.addWeaving(new Weaving(context.getParameter(BuilderContextParameter.SCOPE), target, targetRole, -1, (ISubgraphStage stage) -> stage.makeUnique(context.getParameter(BuilderContextParameter.SCOPE), content)));
               }
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
@@ -267,19 +267,19 @@ public class desugarUsingRewrite extends PFModule {
                   context.withParameter(BuilderContextParameter.ID, "3").createNode(new SConceptAdapter(CONCEPTS.StaticMethodCall$Fg)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                     public void invoke(final IBuilderContext context) {
                       context.getResultElement().setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3502377949029599768");
-                      context.getResultElement().setReferenceTarget("classConcept", FirstRootRefTarget.create(RewriteCall.create(SM_ParameterConversion.fromMPS(SNodeOperations.getNodeAncestor(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757342")));
-                      context.getResultElement().setReferenceTarget("baseMethodDeclaration", new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.naMethod", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(0)))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3502377949029599777")));
+                      context.getResultElement().setReferenceTarget("classConcept", FirstRootRefTarget.create(RewriteCall.create(ParameterConversion.fromMPS(SNodeOperations.getNodeAncestor(ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757342")));
+                      context.getResultElement().setReferenceTarget("baseMethodDeclaration", new FirstRootRefTarget(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.naMethod", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(0)))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/3502377949029599777")));
                       if (true) {
                         context.forChildRole("actualArgument").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.possibleNull$C4Li)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757343"));
+                            context.createNode(new RewriteCall(ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.possibleNull$C4Li)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757343"));
                           }
                         });
                       }
                       if (true) {
                         context.forChildRole("actualArgument").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.valueIfNull$C5fk)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757344"));
+                            context.createNode(new RewriteCall(ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.valueIfNull$C5fk)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/8529768024840757344"));
                           }
                         });
                       }
@@ -316,20 +316,20 @@ public class desugarUsingRewrite extends PFModule {
         if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.ErrorStatement$jb)))) {
           return false;
         }
-        if (!((SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) ((INode) _PFparameters.get(0)))), LINKS.condition$tzUD) == null))) {
+        if (!((SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) ((INode) _PFparameters.get(0)))), LINKS.condition$tzUD) == null))) {
           return false;
         }
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7651629045960487781")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7651629045960487781")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
               result.setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/7651629045960487781");
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
-                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.throwError", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/7651629045961660934"));
+                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.throwError", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/7651629045961660934"));
                 }
               });
             });
@@ -361,13 +361,13 @@ public class desugarUsingRewrite extends PFModule {
         if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.ErrorStatement$jb)))) {
           return false;
         }
-        if (!((SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) ((INode) _PFparameters.get(0)))), LINKS.condition$tzUD) != null))) {
+        if (!((SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) ((INode) _PFparameters.get(0)))), LINKS.condition$tzUD) != null))) {
           return false;
         }
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7651629045961700710")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7651629045961700710")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -380,7 +380,7 @@ public class desugarUsingRewrite extends PFModule {
                       if (true) {
                         context.forChildRole("condition").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.condition$tzUD)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/7651629045961765811"));
+                            context.createNode(new RewriteCall(ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.condition$tzUD)), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/7651629045961765811"));
                           }
                         });
                       }
@@ -393,7 +393,7 @@ public class desugarUsingRewrite extends PFModule {
                                 if (true) {
                                   context.forChildRole("statement").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
-                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.throwError", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/7651629045961700714"));
+                                      context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.throwError", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/7651629045961700714"));
                                     }
                                   });
                                 }
@@ -438,7 +438,7 @@ public class desugarUsingRewrite extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7651629045961603314")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "7651629045961603314")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -460,7 +460,7 @@ public class desugarUsingRewrite extends PFModule {
                                       context.withParameter(BuilderContextParameter.ID, "8").createNode(new SConceptAdapter(CONCEPTS.ClassCreator$ZG)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                         public void invoke(final IBuilderContext context) {
                                           context.getResultElement().setTraceInfo("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)/7651629045961604044");
-                                          context.getResultElement().setReferenceTarget("baseMethodDeclaration", new OutputNodeAsReferenceTarget(NodeAsOutputNodeReference.create(SM_ParameterConversion.fromMPS(new SNodePointer("6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)", "~RuntimeException.<init>(java.lang.String)")))));
+                                          context.getResultElement().setReferenceTarget("baseMethodDeclaration", new OutputNodeAsReferenceTarget(NodeAsOutputNodeReference.create(ParameterConversion.fromMPS(new SNodePointer("6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)", "~RuntimeException.<init>(java.lang.String)")))));
                                           if (true) {
                                             context.forChildRole("actualArgument").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                               public void invoke(final IBuilderContext context) {
@@ -471,7 +471,7 @@ public class desugarUsingRewrite extends PFModule {
                                                     context.getResultElement().setProperty("value", () -> {
                                                       return savedContext_xrv8dq_a0b0a0a0a41.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                                         public String invoke(final IBuilderContext context) {
-                                                          return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.message$2llf));
+                                                          return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.message$2llf));
                                                         }
                                                       });
                                                     });
@@ -526,7 +526,7 @@ public class desugarUsingRewrite extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "3502377949030015350")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)", "3502377949030015350")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -540,7 +540,7 @@ public class desugarUsingRewrite extends PFModule {
                       context.getResultElement().setProperty("name", () -> {
                         return savedContext_xrv8dq_a0a61.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString("na_" + IterableUtils.join(ListSequence.fromList(ListSequence.fromList(SNodeOperations.getNodeAncestors(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), null, true)).subtract(ListSequence.fromList(SNodeOperations.getNodeAncestors(SNodeOperations.getNodeAncestor(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false), null, true))).where((it) -> (SNodeOperations.getParent(it) != null)).select((it) -> "" + ((SNodeOperations.getIndexInParent(it) == -1 ? "0" : SNodeOperations.getIndexInParent(it)))).toList()).reversedList(), "_"));
+                            return ParameterConversion.asString("na_" + IterableUtils.join(ListSequence.fromList(ListSequence.fromList(SNodeOperations.getNodeAncestors(ParameterConversion.toMPS(((INode) context.getInput(0))), null, true)).subtract(ListSequence.fromList(SNodeOperations.getNodeAncestors(SNodeOperations.getNodeAncestor(ParameterConversion.toMPS(((INode) context.getInput(0))), CONCEPTS.ClassConcept$bK, false, false), null, true))).where((it) -> (SNodeOperations.getParent(it) != null)).select((it) -> "" + ((SNodeOperations.getIndexInParent(it) == -1 ? "0" : SNodeOperations.getIndexInParent(it)))).toList()).reversedList(), "_"));
                           }
                         });
                       });
@@ -567,7 +567,7 @@ public class desugarUsingRewrite extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_xrv8dq_a0a2a0q.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("T");
+                                          return ParameterConversion.asString("T");
                                         }
                                       });
                                     });
@@ -590,7 +590,7 @@ public class desugarUsingRewrite extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_xrv8dq_a0a3a0q.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("A");
+                                          return ParameterConversion.asString("A");
                                         }
                                       });
                                     });
@@ -625,7 +625,7 @@ public class desugarUsingRewrite extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_xrv8dq_a0a4a0q.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("B");
+                                          return ParameterConversion.asString("B");
                                         }
                                       });
                                     });
@@ -672,7 +672,7 @@ public class desugarUsingRewrite extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_xrv8dq_a0a6a0q.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("a");
+                                          return ParameterConversion.asString("a");
                                         }
                                       });
                                     });
@@ -707,7 +707,7 @@ public class desugarUsingRewrite extends PFModule {
                                     context.getResultElement().setProperty("name", () -> {
                                       return savedContext_xrv8dq_a0a7a0q.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                         public String invoke(final IBuilderContext context) {
-                                          return SM_ParameterConversion.asString("b");
+                                          return ParameterConversion.asString("b");
                                         }
                                       });
                                     });
@@ -752,7 +752,7 @@ public class desugarUsingRewrite extends PFModule {
                                                     context.getResultElement().setProperty("value", () -> {
                                                       return savedContext_xrv8dq_a0a0a0i0a61.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                                         public String invoke(final IBuilderContext context) {
-                                                          return SM_ParameterConversion.asString("true");
+                                                          return ParameterConversion.asString("true");
                                                         }
                                                       });
                                                     });
@@ -789,7 +789,7 @@ public class desugarUsingRewrite extends PFModule {
                                                                                   context.getResultElement().setProperty("value", () -> {
                                                                                     return savedContext_xrv8dq_a0a0a0a0b0a0i0a61.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                                                                       public String invoke(final IBuilderContext context) {
-                                                                                        return SM_ParameterConversion.asString("For");
+                                                                                        return ParameterConversion.asString("For");
                                                                                       }
                                                                                     });
                                                                                   });
@@ -808,7 +808,7 @@ public class desugarUsingRewrite extends PFModule {
                                                                                   context.getResultElement().setProperty("value", () -> {
                                                                                     return savedContext_xrv8dq_a0b0a0a0b0a0i0a61.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                                                                       public String invoke(final IBuilderContext context) {
-                                                                                        return SM_ParameterConversion.asString("testing");
+                                                                                        return ParameterConversion.asString("testing");
                                                                                       }
                                                                                     });
                                                                                   });
@@ -827,7 +827,7 @@ public class desugarUsingRewrite extends PFModule {
                                                                                   context.getResultElement().setProperty("value", () -> {
                                                                                     return savedContext_xrv8dq_a0c0a0a0b0a0i0a61.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                                                                       public String invoke(final IBuilderContext context) {
-                                                                                        return SM_ParameterConversion.asString("multi");
+                                                                                        return ParameterConversion.asString("multi");
                                                                                       }
                                                                                     });
                                                                                   });
@@ -846,7 +846,7 @@ public class desugarUsingRewrite extends PFModule {
                                                                                   context.getResultElement().setProperty("value", () -> {
                                                                                     return savedContext_xrv8dq_a0d0a0a0b0a0i0a61.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                                                                       public String invoke(final IBuilderContext context) {
-                                                                                        return SM_ParameterConversion.asString("stage");
+                                                                                        return ParameterConversion.asString("stage");
                                                                                       }
                                                                                     });
                                                                                   });
@@ -865,7 +865,7 @@ public class desugarUsingRewrite extends PFModule {
                                                                                   context.getResultElement().setProperty("value", () -> {
                                                                                     return savedContext_xrv8dq_a0e0a0a0b0a0i0a61.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                                                                       public String invoke(final IBuilderContext context) {
-                                                                                        return SM_ParameterConversion.asString("subgraphs");
+                                                                                        return ParameterConversion.asString("subgraphs");
                                                                                       }
                                                                                     });
                                                                                   });

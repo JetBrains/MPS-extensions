@@ -4,11 +4,11 @@ package de.q60.mps.shadowmodels.runtime.engine;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import org.modelix.model.api.IConcept;
+import de.q60.mps.shadowmodels.runtime.model.IConcept;
 import java.util.Objects;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import org.jetbrains.annotations.Nullable;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 
 public class OutputNodeWithWeaving implements IOutputNode {
   private IOutputNode node;

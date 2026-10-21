@@ -15,15 +15,15 @@ import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterType_Classifier;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import de.q60.mps.shadowmodels.runtime.engine.GoalCall;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import de.q60.mps.shadowmodels.runtime.mpslike.MappingConfiguration;
 import de.q60.mps.shadowmodels.runtime.mpslike.MappingConfigurationId;
 import de.q60.mps.shadowmodels.runtime.mpslike.ReductionRule;
-import org.modelix.model.mpsadapters.mps.SConceptAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.SConceptAdapter;
 import de.q60.mps.shadowmodels.runtime.engine.ParameterType_INode;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GeneratedTransformationRule;
+import de.q60.mps.shadowmodels.runtime.smodel.GeneratedTransformationRule;
 import jetbrains.mps.smodel.SNodePointer;
 import de.q60.mps.shadowmodels.runtime.engine.ContainmentTargetRootNodes;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
@@ -31,7 +31,7 @@ import de.q60.mps.shadowmodels.runtime.engine.TransformationResult;
 import de.q60.mps.shadowmodels.runtime.engine.RootBuilderContext;
 import de.q60.mps.shadowmodels.runtime.engine.IBuilderContext;
 import de.q60.mps.shadowmodels.runtime.engine.BuilderContextParameter;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ParameterConversion;
+import de.q60.mps.shadowmodels.runtime.smodel.ParameterConversion;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -68,7 +68,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return ListSequence.fromListAndArray(new ArrayList<SLanguage>(), MetaAdapterFactory.getLanguage(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, "org.modelix.model.repositoryconcepts"), MetaAdapterFactory.getLanguage(0xa7322769ef644daaL, 0xa2f4fd4228fb713eL, "de.q60.mps.shadowmodels.target.text"), MetaAdapterFactory.getLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core"), MetaAdapterFactory.getLanguage(0xca32b5facaea4f97L, 0x96866f60d4d677d4L, "de.q60.mps.shadowmodels.examples.entities"));
+        return ListSequence.fromListAndArray(new ArrayList<SLanguage>(), MetaAdapterFactory.getLanguage(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, "de.q60.mps.shadowmodels.runtimelang"), MetaAdapterFactory.getLanguage(0xa7322769ef644daaL, 0xa2f4fd4228fb713eL, "de.q60.mps.shadowmodels.target.text"), MetaAdapterFactory.getLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core"), MetaAdapterFactory.getLanguage(0xca32b5facaea4f97L, 0x96866f60d4d677d4L, "de.q60.mps.shadowmodels.examples.entities"));
       }
       @Override
       public Iterable<IParameterType> getParameterTypes() {
@@ -154,9 +154,9 @@ public class EntitiesToPlainText_reduce extends PFModule {
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
         MappingConfiguration mc = new MappingConfiguration(new MappingConfigurationId("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3"));
         mc.addInputLanguage("ca32b5fa-caea-4f97-9686-6f60d4d677d4");
-        mc.addInputLanguage("0a7577d1-d4e5-431d-98b1-fae38f9aee80");
+        mc.addInputLanguage("0bf7bc3b-b11d-42e4-b160-93d72af96397");
         mc.addOutputLanguage("a7322769-ef64-4daa-a2f4-fd4228fb713e");
-        mc.addReductionRule(new ReductionRule(SConceptAdapter.wrap(CONCEPTS.Model$2P)) {
+        mc.addReductionRule(new ReductionRule(SConceptAdapter.wrap(CONCEPTS.Model$it)) {
           @Override
           public String getTransformationId() {
             return "de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_0_Model";
@@ -222,7 +222,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
       }
     });
     addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToPlainText_reduce.mc3.reduce_0_Model", new IFunctionImplementation() {
-      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$2P)));
+      private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Model$it)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
       @Override
@@ -230,13 +230,13 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return "de.q60.mps.shadowmodels.examples.entities.transformations/EntitiesToPlainText_reduce/mc3.reduce_0_Model_9";
       }
       public boolean isApplicable(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.Model$2P)))) {
+        if (!(_PFparameters.get(0) == null || _PFparameters.get(0) instanceof INode && ((INode) _PFparameters.get(0)).getConcept().isSubConceptOf(SConceptAdapter.wrap(CONCEPTS.Model$it)))) {
           return false;
         }
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133700885")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133700885")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).forChildRole("0").run((final IBuilderContext context) -> {
@@ -248,7 +248,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                   context.getResultElement().setProperty("name", () -> {
                     return savedContext_a0a3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                       public String invoke(final IBuilderContext context) {
-                        return SM_ParameterConversion.asString("Entities.txt");
+                        return ParameterConversion.asString("Entities.txt");
                       }
                     });
                   });
@@ -256,10 +256,10 @@ public class EntitiesToPlainText_reduce extends PFModule {
                     context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                       public void invoke(final IBuilderContext context) {
                         int i_a1a0d = 0;
-                        for (SNode e_a1a0d : Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.rootNodes$jxXY), CONCEPTS.Entity$dF))) {
-                          context.forContextValue(SM_ParameterConversion.fromMPS(e_a1a0d)).withAdditionalIdPrefix("1" + "#" + i_a1a0d).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                        for (SNode e_a1a0d : Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.rootNodes$usdA), CONCEPTS.Entity$dF))) {
+                          context.forContextValue(ParameterConversion.fromMPS(e_a1a0d)).withAdditionalIdPrefix("1" + "#" + i_a1a0d).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                             public void invoke(final IBuilderContext context) {
-                              context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/3676835399133719188"));
+                              context.createNode(new RewriteCall(ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/3676835399133719188"));
                             }
                           });
                           i_a1a0d++;
@@ -301,7 +301,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133703729")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133703729")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).forChildRole("0").run((final IBuilderContext context) -> {
@@ -325,7 +325,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                                       context.getResultElement().setProperty("text", () -> {
                                         return savedContext_a0a0a0c3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                           public String invoke(final IBuilderContext context) {
-                                            return SM_ParameterConversion.asString("entity ");
+                                            return ParameterConversion.asString("entity ");
                                           }
                                         });
                                       });
@@ -344,7 +344,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                                       context.getResultElement().setProperty("text", () -> {
                                         return savedContext_a0b0a0c3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                           public String invoke(final IBuilderContext context) {
-                                            return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
+                                            return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
                                           }
                                         });
                                       });
@@ -363,7 +363,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                                       context.getResultElement().setProperty("text", () -> {
                                         return savedContext_a0c0a0c3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                           public String invoke(final IBuilderContext context) {
-                                            return SM_ParameterConversion.asString(" {");
+                                            return ParameterConversion.asString(" {");
                                           }
                                         });
                                       });
@@ -387,10 +387,10 @@ public class EntitiesToPlainText_reduce extends PFModule {
                               context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
                                   int i_a0a1a2d = 0;
-                                  for (SNode e_a0a1a2d : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.properties$n6K9))) {
-                                    context.forContextValue(SM_ParameterConversion.fromMPS(e_a0a1a2d)).withAdditionalIdPrefix("8" + "#" + i_a0a1a2d).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                                  for (SNode e_a0a1a2d : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.properties$n6K9))) {
+                                    context.forContextValue(ParameterConversion.fromMPS(e_a0a1a2d)).withAdditionalIdPrefix("8" + "#" + i_a0a1a2d).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                       public void invoke(final IBuilderContext context) {
-                                        context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/3676835399133718550"));
+                                        context.createNode(new RewriteCall(ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/3676835399133718550"));
                                       }
                                     });
                                     i_a0a1a2d++;
@@ -419,7 +419,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                                       context.getResultElement().setProperty("text", () -> {
                                         return savedContext_a0a0c0c3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                           public String invoke(final IBuilderContext context) {
-                                            return SM_ParameterConversion.asString("}");
+                                            return ParameterConversion.asString("}");
                                           }
                                         });
                                       });
@@ -467,7 +467,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133708850")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133708850")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).forChildRole("0").run((final IBuilderContext context) -> {
@@ -485,7 +485,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                             context.getResultElement().setProperty("text", () -> {
                               return savedContext_a0a0e3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                 public String invoke(final IBuilderContext context) {
-                                  return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
+                                  return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
                                 }
                               });
                             });
@@ -504,7 +504,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                             context.getResultElement().setProperty("text", () -> {
                               return savedContext_a0b0e3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                 public String invoke(final IBuilderContext context) {
-                                  return SM_ParameterConversion.asString(": ");
+                                  return ParameterConversion.asString(": ");
                                 }
                               });
                             });
@@ -516,7 +516,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                   if (true) {
                     context.forChildRole("content").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                       public void invoke(final IBuilderContext context) {
-                        context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$ndl4)), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/3676835399133717835"));
+                        context.createNode(new RewriteCall(ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$ndl4)), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/3676835399133717835"));
                       }
                     });
                   }
@@ -554,7 +554,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133715910")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133715910")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).forChildRole("0").run((final IBuilderContext context) -> {
@@ -566,7 +566,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                   context.getResultElement().setProperty("text", () -> {
                     return savedContext_a0g3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                       public String invoke(final IBuilderContext context) {
-                        return SM_ParameterConversion.asString(SPropertyOperations.getString(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.entity$n6j5), PROPS.name$MnvL));
+                        return ParameterConversion.asString(SPropertyOperations.getString(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.entity$n6j5), PROPS.name$MnvL));
                       }
                     });
                   });
@@ -604,7 +604,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133712577")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "3676835399133712577")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).forChildRole("0").run((final IBuilderContext context) -> {
@@ -616,7 +616,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
                   context.getResultElement().setProperty("text", () -> {
                     return savedContext_a0i3.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                       public String invoke(final IBuilderContext context) {
-                        return SM_ParameterConversion.asString(SConceptOperations.conceptAlias(SNodeOperations.getConcept(SM_ParameterConversion.toMPS(((INode) context.getContextValue())))));
+                        return ParameterConversion.asString(SConceptOperations.conceptAlias(SNodeOperations.getConcept(ParameterConversion.toMPS(((INode) context.getContextValue())))));
                       }
                     });
                   });
@@ -642,7 +642,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Model$2P = MetaAdapterFactory.getConcept(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c50cL, "org.modelix.model.repositoryconcepts.structure.Model");
+    /*package*/ static final SConcept Model$it = MetaAdapterFactory.getConcept(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c50cL, "de.q60.mps.shadowmodels.runtimelang.structure.Model");
     /*package*/ static final SConcept Entity$dF = MetaAdapterFactory.getConcept(0xca32b5facaea4f97L, 0x96866f60d4d677d4L, 0xe68932160e17dceL, "de.q60.mps.shadowmodels.examples.entities.structure.Entity");
     /*package*/ static final SConcept Property$ea = MetaAdapterFactory.getConcept(0xca32b5facaea4f97L, 0x96866f60d4d677d4L, 0xe68932160e17dcfL, "de.q60.mps.shadowmodels.examples.entities.structure.Property");
     /*package*/ static final SConcept EntityType$eD = MetaAdapterFactory.getConcept(0xca32b5facaea4f97L, 0x96866f60d4d677d4L, 0xe68932160e17dd0L, "de.q60.mps.shadowmodels.examples.entities.structure.EntityType");
@@ -654,7 +654,7 @@ public class EntitiesToPlainText_reduce extends PFModule {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink rootNodes$jxXY = MetaAdapterFactory.getContainmentLink(0xa7577d1d4e5431dL, 0x98b1fae38f9aee80L, 0x69652614fd1c50cL, 0x69652614fd1c514L, "rootNodes");
+    /*package*/ static final SContainmentLink rootNodes$usdA = MetaAdapterFactory.getContainmentLink(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L, 0x69652614fd1c50cL, 0x69652614fd1c514L, "rootNodes");
     /*package*/ static final SContainmentLink properties$n6K9 = MetaAdapterFactory.getContainmentLink(0xca32b5facaea4f97L, 0x96866f60d4d677d4L, 0xe68932160e17dceL, 0xe68932160e17dd6L, "properties");
     /*package*/ static final SContainmentLink type$ndl4 = MetaAdapterFactory.getContainmentLink(0xca32b5facaea4f97L, 0x96866f60d4d677d4L, 0xe68932160e17dcfL, 0xe68932160e17dddL, "type");
     /*package*/ static final SReferenceLink entity$n6j5 = MetaAdapterFactory.getReferenceLink(0xca32b5facaea4f97L, 0x96866f60d4d677d4L, 0xe68932160e17dd0L, 0xe68932160e17dd4L, "entity");

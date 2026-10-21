@@ -15,7 +15,28 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="15,0,31,0" name="de.q60.mps.shadowmodels.runtimelang.editor.EditorAspectDescriptorImpl" />
+      <unit at="16,0,48,0" name="de.q60.mps.shadowmodels.runtimelang.editor.EditorAspectDescriptorImpl" />
+    </file>
+    <file name="ModelReference_SubstituteMenu.java">
+      <unit at="61,0,64,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModelReference_SubstituteMenu$CONCEPTS" />
+      <unit at="65,0,68,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModelReference_SubstituteMenu$LINKS" />
+      <unit at="38,0,45,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModelReference_SubstituteMenu$SMP_ReferenceScope_6vjeqz_a" />
+      <unit at="45,0,60,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModelReference_SubstituteMenu$SMP_Subconcepts_6vjeqz_b" />
+      <unit at="25,0,69,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModelReference_SubstituteMenu" />
+    </file>
+    <file name="ModuleReference_SubstituteMenu.java">
+      <unit at="61,0,64,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModuleReference_SubstituteMenu$CONCEPTS" />
+      <unit at="65,0,68,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModuleReference_SubstituteMenu$LINKS" />
+      <unit at="38,0,45,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModuleReference_SubstituteMenu$SMP_ReferenceScope_rmjnho_a" />
+      <unit at="45,0,60,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModuleReference_SubstituteMenu$SMP_Subconcepts_rmjnho_b" />
+      <unit at="25,0,69,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ModuleReference_SubstituteMenu" />
+    </file>
+    <file name="ProjectModule_SubstituteMenu.java">
+      <unit at="61,0,64,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ProjectModule_SubstituteMenu$CONCEPTS" />
+      <unit at="65,0,68,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ProjectModule_SubstituteMenu$LINKS" />
+      <unit at="38,0,45,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ProjectModule_SubstituteMenu$SMP_ReferenceScope_rg7vuh_a" />
+      <unit at="45,0,60,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ProjectModule_SubstituteMenu$SMP_Subconcepts_rg7vuh_b" />
+      <unit at="25,0,69,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ProjectModule_SubstituteMenu" />
     </file>
   </root>
   <root nodeRef="r:cac4dbd2-18c0-4e2a-9dfb-18878a9838a1(de.q60.mps.shadowmodels.runtimelang.editor)/8529768024843144690">

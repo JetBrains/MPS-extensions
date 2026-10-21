@@ -198,123 +198,117 @@
   </root>
   <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/5464646418734022807">
     <file name="TransformationTestUtil.java">
-      <node id="5353686510791491100" at="50,194,51,81" concept="7" />
-      <node id="5353686510791516200" at="52,29,53,106" concept="3" />
-      <node id="3021319915539896379" at="56,93,57,123" concept="7" />
-      <node id="5464646418734023662" at="57,123,58,84" concept="7" />
-      <node id="5464646418734023679" at="59,32,60,49" concept="7" />
-      <node id="5464646418734023689" at="61,42,62,34" concept="3" />
-      <node id="5464646418734023696" at="63,11,64,37" concept="3" />
-      <node id="6951066303484740323" at="66,31,67,27" concept="8" />
-      <node id="5890381613102357052" at="71,229,72,83" concept="7" />
-      <node id="5890381613102357073" at="74,58,75,106" concept="8" />
-      <node id="5890381613102357088" at="77,6,78,124" concept="7" />
-      <node id="5890381613102357097" at="78,124,79,99" concept="7" />
-      <node id="3021319915539080390" at="80,9,81,95" concept="7" />
-      <node id="3021319915539101322" at="81,95,82,30" concept="7" />
-      <node id="5890381613102357104" at="82,30,83,78" concept="7" />
-      <node id="3021319915539244770" at="86,21,87,302" concept="3" />
-      <node id="5890381613102357104" at="88,11,89,16" concept="1" />
-      <node id="5744374191843953931" at="91,21,92,280" concept="3" />
-      <node id="5890381613102357104" at="93,11,94,16" concept="1" />
-      <node id="3021319915539169654" at="97,39,98,336" concept="3" />
-      <node id="7660002689368431637" at="99,20,100,270" concept="3" />
-      <node id="5890381613102357104" at="102,11,103,16" concept="1" />
-      <node id="3021319915539220226" at="104,16,105,122" concept="14" />
-      <node id="5890381613102357105" at="106,7,107,88" concept="7" />
-      <node id="5890381613102357126" at="107,88,108,60" concept="7" />
-      <node id="5890381613102434217" at="109,118,110,32" concept="3" />
-      <node id="6951066303484768582" at="110,32,111,29" concept="8" />
-      <node id="5890381613102357172" at="113,15,114,23" concept="3" />
-      <node id="5353686510791499890" at="119,36,120,47" concept="8" />
-      <node id="5353686510791499890" at="121,5,122,16" concept="8" />
-      <node id="5464646418734022807" at="124,0,125,0" concept="10" trace="conceptIndex" />
-      <node id="5464646418734022807" at="127,0,128,0" concept="10" trace="ForkDeclaration$Z8" />
-      <node id="5464646418734022807" at="128,0,129,0" concept="10" trace="Goal$Uo" />
-      <node id="5464646418734022807" at="129,0,130,0" concept="10" trace="Transformation$Gz" />
-      <node id="7660002689368410918" at="99,18,101,13" concept="0" />
-      <node id="5353686510791506066" at="51,81,54,5" concept="5" />
-      <node id="5464646418734023684" at="60,49,63,11" concept="4" />
-      <node id="5890381613102357068" at="74,0,77,0" concept="6" trace="getSModules#()Ljava/lang/Iterable;" />
-      <node id="5890381613102357104" at="85,15,88,11" concept="5" />
-      <node id="5890381613102357104" at="90,15,93,11" concept="5" />
-      <node id="5353686510791499890" at="118,75,121,5" concept="5" />
-      <node id="6951066303484758444" at="108,60,112,10" concept="3" />
-      <node id="5890381613102357061" at="72,83,77,6" concept="7" />
-      <node id="7660002689368402303" at="96,21,101,13" concept="5" />
-      <node id="5353686510791499890" at="118,0,124,0" concept="11" trace="check_mb7s3i_a0a0b#(Lorg/jetbrains/mps/openapi/model/SModel;)Lorg/jetbrains/mps/openapi/module/SRepository;" />
-      <node id="5464646418734023672" at="58,84,65,9" concept="5" />
-      <node id="5890381613102357104" at="95,15,102,11" concept="5" />
-      <node id="5890381613102482644" at="55,79,66,31" concept="3" />
-      <node id="6951066303484711844" at="54,5,68,7" concept="3" />
-      <node id="5464646418734045948" at="50,0,70,0" concept="11" trace="runTest#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNodeReference;Ljava/lang/Iterable;Z)V" />
-      <node id="5890381613102357104" at="83,78,106,7" concept="13" />
-      <node id="5890381613102357103" at="79,99,115,5" concept="15" />
-      <node id="5890381613102357050" at="71,0,117,0" concept="11" trace="executeTransformation#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNodeReference;Ljava/lang/Iterable;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P1_E0;Z)V" />
-      <scope id="5353686510791506068" at="52,29,53,106" />
-      <scope id="5464646418734023688" at="61,42,62,34" />
-      <scope id="5890381613102357072" at="74,58,75,106" />
-      <scope id="5890381613102357104" at="86,21,87,302" />
-      <scope id="5890381613102357104" at="91,21,92,280" />
-      <scope id="7660002689368402305" at="97,39,98,336" />
-      <scope id="7660002689368410919" at="99,20,100,270" />
-      <scope id="5890381613102357104" at="104,16,105,122" />
-      <scope id="5890381613102357171" at="113,15,114,23" />
-      <scope id="5353686510791499890" at="119,36,120,47" />
-      <scope id="1124663338153654836" at="109,118,111,29" />
-      <scope id="5464646418734023684" at="60,49,63,11">
+      <node id="5353686510791491100" at="49,194,50,81" concept="7" />
+      <node id="5353686510791516200" at="51,29,52,106" concept="3" />
+      <node id="3021319915539896379" at="54,156,55,121" concept="7" />
+      <node id="5464646418734023662" at="55,121,56,82" concept="7" />
+      <node id="5464646418734023679" at="57,30,58,47" concept="7" />
+      <node id="5464646418734023689" at="59,40,60,32" concept="3" />
+      <node id="5464646418734023696" at="61,9,62,35" concept="3" />
+      <node id="5890381613102357052" at="67,229,68,83" concept="7" />
+      <node id="5890381613102357073" at="70,58,71,106" concept="8" />
+      <node id="5890381613102357088" at="73,6,74,124" concept="7" />
+      <node id="5890381613102357097" at="74,124,75,99" concept="7" />
+      <node id="3021319915539080390" at="76,9,77,95" concept="7" />
+      <node id="3021319915539101322" at="77,95,78,30" concept="7" />
+      <node id="5890381613102357104" at="78,30,79,78" concept="7" />
+      <node id="3021319915539244770" at="82,21,83,302" concept="3" />
+      <node id="5890381613102357104" at="84,11,85,16" concept="1" />
+      <node id="5744374191843953931" at="87,21,88,280" concept="3" />
+      <node id="5890381613102357104" at="89,11,90,16" concept="1" />
+      <node id="3021319915539169654" at="93,39,94,336" concept="3" />
+      <node id="7660002689368431637" at="95,20,96,270" concept="3" />
+      <node id="5890381613102357104" at="98,11,99,16" concept="1" />
+      <node id="3021319915539220226" at="100,16,101,122" concept="14" />
+      <node id="5890381613102357105" at="102,7,103,88" concept="7" />
+      <node id="5890381613102357126" at="103,88,104,60" concept="7" />
+      <node id="6951066303484758444" at="104,60,105,121" concept="3" />
+      <node id="5890381613102357172" at="106,15,107,23" concept="3" />
+      <node id="5353686510791499890" at="112,36,113,47" concept="8" />
+      <node id="5353686510791499890" at="114,5,115,16" concept="8" />
+      <node id="5464646418734022807" at="117,0,118,0" concept="10" trace="conceptIndex" />
+      <node id="5464646418734022807" at="120,0,121,0" concept="10" trace="ForkDeclaration$Z8" />
+      <node id="5464646418734022807" at="121,0,122,0" concept="10" trace="Goal$Uo" />
+      <node id="5464646418734022807" at="122,0,123,0" concept="10" trace="Transformation$Gz" />
+      <node id="7660002689368410918" at="95,18,97,13" concept="0" />
+      <node id="5353686510791506066" at="50,81,53,5" concept="5" />
+      <node id="5464646418734023684" at="58,47,61,9" concept="4" />
+      <node id="5890381613102357068" at="70,0,73,0" concept="6" trace="getSModules#()Ljava/lang/Iterable;" />
+      <node id="5890381613102357104" at="81,15,84,11" concept="5" />
+      <node id="5890381613102357104" at="86,15,89,11" concept="5" />
+      <node id="5353686510791499890" at="111,75,114,5" concept="5" />
+      <node id="5890381613102357061" at="68,83,73,6" concept="7" />
+      <node id="7660002689368402303" at="92,21,97,13" concept="5" />
+      <node id="5353686510791499890" at="111,0,117,0" concept="11" trace="check_mb7s3i_a0a0b#(Lorg/jetbrains/mps/openapi/model/SModel;)Lorg/jetbrains/mps/openapi/module/SRepository;" />
+      <node id="5464646418734023672" at="56,82,63,7" concept="5" />
+      <node id="5890381613102357104" at="91,15,98,11" concept="5" />
+      <node id="6951066303484711844" at="53,5,64,30" concept="3" />
+      <node id="5464646418734045948" at="49,0,66,0" concept="11" trace="runTest#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNodeReference;Ljava/lang/Iterable;Z)V" />
+      <node id="5890381613102357104" at="79,78,102,7" concept="13" />
+      <node id="5890381613102357103" at="75,99,108,5" concept="15" />
+      <node id="5890381613102357050" at="67,0,110,0" concept="11" trace="executeTransformation#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNodeReference;Ljava/lang/Iterable;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P1_E0;Z)V" />
+      <scope id="5353686510791506068" at="51,29,52,106" />
+      <scope id="5464646418734023688" at="59,40,60,32" />
+      <scope id="5890381613102357072" at="70,58,71,106" />
+      <scope id="5890381613102357104" at="82,21,83,302" />
+      <scope id="5890381613102357104" at="87,21,88,280" />
+      <scope id="7660002689368402305" at="93,39,94,336" />
+      <scope id="7660002689368410919" at="95,20,96,270" />
+      <scope id="5890381613102357104" at="100,16,101,122" />
+      <scope id="5890381613102357171" at="106,15,107,23" />
+      <scope id="5353686510791499890" at="112,36,113,47" />
+      <scope id="5464646418734023684" at="58,47,61,9">
         <var name="nd" id="5464646418734023686" />
       </scope>
-      <scope id="5890381613102357068" at="74,0,77,0" />
-      <scope id="5890381613102357104" at="85,15,89,16" />
-      <scope id="5890381613102357104" at="90,15,94,16" />
-      <scope id="5353686510791499890" at="118,75,122,16" />
-      <scope id="5464646418734023678" at="59,32,64,37">
+      <scope id="5890381613102357068" at="70,0,73,0" />
+      <scope id="5890381613102357104" at="81,15,85,16" />
+      <scope id="5890381613102357104" at="86,15,90,16" />
+      <scope id="5353686510791499890" at="111,75,115,16" />
+      <scope id="5464646418734023678" at="57,30,62,35">
         <var name="sb" id="5464646418734023680" />
       </scope>
-      <scope id="5890381613102357104" at="96,21,101,13" />
-      <scope id="5353686510791499890" at="118,0,124,0">
+      <scope id="5890381613102357104" at="92,21,97,13" />
+      <scope id="5353686510791499890" at="111,0,117,0">
         <var name="checkedDotOperand" id="5353686510791499890" />
       </scope>
-      <scope id="5890381613102357104" at="95,15,103,16" />
-      <scope id="5890381613102514748" at="56,93,65,9">
+      <scope id="5890381613102357104" at="91,15,99,16" />
+      <scope id="5890381613102514748" at="54,156,63,7">
         <var name="diff" id="5464646418734023663" />
         <var name="output" id="3021319915539896380" />
       </scope>
-      <scope id="6951066303484728391" at="55,79,67,27" />
-      <scope id="5464646418734023498" at="50,194,68,7">
+      <scope id="5464646418734023498" at="49,194,64,30">
         <var name="repository" id="5353686510791491101" />
       </scope>
-      <scope id="5464646418734045948" at="50,0,70,0">
+      <scope id="5464646418734045948" at="49,0,66,0">
         <var name="expectedOutput" id="5464646418734032311" />
         <var name="input" id="5464646418734028198" />
         <var name="languages" id="5464646418734050223" />
         <var name="shadowRepositoryMode" id="124195438551902125" />
         <var name="transformation" id="5464646418734094150" />
       </scope>
-      <scope id="5890381613102357104" at="80,9,112,10">
+      <scope id="5890381613102357104" at="76,9,105,121">
         <var name="call" id="3021319915539101323" />
         <var name="cncpt" id="5890381613102357104" />
         <var name="output" id="5890381613102357127" />
         <var name="output_" id="5890381613102357106" />
         <var name="transformationDecl" id="3021319915539080391" />
       </scope>
-      <scope id="5890381613102357051" at="71,229,115,5">
+      <scope id="5890381613102357051" at="67,229,108,5">
         <var name="engine" id="5890381613102357098" />
         <var name="pfcontext" id="5890381613102357089" />
         <var name="repository" id="5890381613102357053" />
         <var name="transformationsProvider" id="5890381613102357062" />
       </scope>
-      <scope id="5890381613102357050" at="71,0,117,0">
+      <scope id="5890381613102357050" at="67,0,110,0">
         <var name="callback" id="5890381613102416065" />
         <var name="input" id="5890381613102357176" />
         <var name="languages" id="5890381613102357182" />
         <var name="shadowRepositoryMode" id="124195438551906847" />
         <var name="transformationPtr" id="5890381613102357180" />
       </scope>
-      <unit id="5890381613102357066" at="73,63,77,5" name="test.de.q60.mps.shadowmodels.examples.TransformationTestUtil$1" />
-      <unit id="5464646418734022807" at="126,0,131,0" name="test.de.q60.mps.shadowmodels.examples.TransformationTestUtil$CONCEPTS" />
-      <unit id="5464646418734022807" at="48,0,132,0" name="test.de.q60.mps.shadowmodels.examples.TransformationTestUtil" />
+      <unit id="5890381613102357066" at="69,60,73,5" name="test.de.q60.mps.shadowmodels.examples.TransformationTestUtil$1" />
+      <unit id="5464646418734022807" at="119,0,124,0" name="test.de.q60.mps.shadowmodels.examples.TransformationTestUtil$CONCEPTS" />
+      <unit id="5464646418734022807" at="47,0,125,0" name="test.de.q60.mps.shadowmodels.examples.TransformationTestUtil" />
     </file>
   </root>
   <root nodeRef="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)/5464646418734178928">

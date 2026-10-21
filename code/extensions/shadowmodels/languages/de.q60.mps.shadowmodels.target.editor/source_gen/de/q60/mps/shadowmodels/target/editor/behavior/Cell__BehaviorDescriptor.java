@@ -21,7 +21,7 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.openapi.editor.cells.CellAction;
 import jetbrains.mps.openapi.editor.EditorContext;
 import de.q60.mps.shadowmodels.runtime.engine.IResultElement;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationTrace;
+import de.q60.mps.shadowmodels.runtime.smodel.TransformationTrace;
 import de.q60.mps.shadowmodels.runtime.engine.IOperation;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import java.util.ArrayList;
@@ -56,7 +56,7 @@ public final class Cell__BehaviorDescriptor extends BaseBHDescriptor {
 
         @Override
         public boolean canExecute(EditorContext ec) {
-          IResultElement resultElement = SM_TransformationTrace.getResultElement(action);
+          IResultElement resultElement = TransformationTrace.getResultElement(action);
           if (resultElement != null) {
             IOperation op = resultElement.getOperation("de.q60.mps.shadowmodels.target.editor.transformations.Actions.isApplicable");
             if (op != null) {
@@ -69,7 +69,7 @@ public final class Cell__BehaviorDescriptor extends BaseBHDescriptor {
 
         @Override
         public void execute(EditorContext ec) {
-          IResultElement resultElement = SM_TransformationTrace.getResultElement(action);
+          IResultElement resultElement = TransformationTrace.getResultElement(action);
           if (resultElement != null) {
             IOperation op = resultElement.getOperation("de.q60.mps.shadowmodels.target.editor.transformations.Actions.execute");
             if (op != null) {

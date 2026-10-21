@@ -12,8 +12,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.ide.actions.MPSCommonDataKeys;
 import org.jetbrains.annotations.NotNull;
 import de.q60.mps.shadowmodels.runtime.engine.IOutputNodeReference;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationTrace;
-import org.modelix.model.mpsadapters.mps.NodeToSNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.TransformationTrace;
+import de.q60.mps.shadowmodels.runtime.smodel.NodeToSNodeAdapter;
 import de.q60.mps.shadowmodels.runtime.engine.OutputNodeReferenceAsNode;
 import de.q60.mps.explorer.TransformationTraceComponent;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
@@ -27,7 +27,7 @@ import jetbrains.mps.internal.collections.runtime.NotNullWhereFilter;
 import de.q60.mps.explorer.ITreeNodeFinder;
 import de.q60.mps.explorer.TNode;
 import de.q60.mps.explorer.pf.ExplorerElement;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import java.util.Objects;
 import javax.swing.tree.TreePath;
 import de.q60.mps.explorer.pf.TreeNodeExtensions;
@@ -68,27 +68,27 @@ public class LoadNodeInShadowExplorer_Action extends BaseAction {
   }
   @Override
   public void doExecute(@NotNull final AnActionEvent event, final Map<String, Object> _params) {
-    final IOutputNodeReference selectedNode = SM_TransformationTrace.getOutputNodeReference(event.getData(MPSCommonDataKeys.NODE));
+    final IOutputNodeReference selectedNode = TransformationTrace.getOutputNodeReference(event.getData(MPSCommonDataKeys.NODE));
     if (selectedNode == null) {
       return;
     }
-    final SNode selectedSNode = NodeToSNodeAdapter.wrap(OutputNodeReferenceAsNode.create(SM_TransformationTrace.getEngine(event.getData(MPSCommonDataKeys.NODE)), selectedNode));
+    final SNode selectedSNode = NodeToSNodeAdapter.wrap(OutputNodeReferenceAsNode.create(TransformationTrace.getEngine(event.getData(MPSCommonDataKeys.NODE)), selectedNode));
 
     TransformationTraceComponent comp = ShadowActionsUtil.loadShadowRepositoryExplorer(event.getData(CommonDataKeys.PROJECT));
     final TransformationTraceComponent.TreeComp tree = comp.getMasterTree();
     final Wrappers._T<TreeNode> found = new Wrappers._T<TreeNode>(null);
     comp.runRead(() -> {
-      final Set<IOutputNodeReference> ancestors = SetSequence.fromSetWithValues(new HashSet<IOutputNodeReference>(), ListSequence.fromList(SNodeOperations.getNodeAncestors(selectedSNode, null, false)).select((it) -> SM_TransformationTrace.getOutputNodeReference(it)).where(new NotNullWhereFilter()));
+      final Set<IOutputNodeReference> ancestors = SetSequence.fromSetWithValues(new HashSet<IOutputNodeReference>(), ListSequence.fromList(SNodeOperations.getNodeAncestors(selectedSNode, null, false)).select((it) -> TransformationTrace.getOutputNodeReference(it)).where(new NotNullWhereFilter()));
       found.value = tree.find(new ITreeNodeFinder() {
         @Override
         public boolean matches(TreeNode tnode) {
           Object owner = check_3urqok_a0a0a0a0a0a1a0a0h0f(as_3urqok_a0a0a0a0a0a0a1a0a0h0f(check_3urqok_a0a0a0a0a0a0a1a0a0h0f(as_3urqok_a0a0a0a0a0a0a0a0b0a0a7a5(tnode, TNode.class)), ExplorerElement.class));
           IOutputNodeReference onr = getONR(tnode);
           if (owner instanceof INode) {
-            onr = SM_TransformationTrace.getOutputNodeReference((INode) owner);
+            onr = TransformationTrace.getOutputNodeReference((INode) owner);
           }
           if (owner instanceof SNode) {
-            onr = SM_TransformationTrace.getOutputNodeReference((SNode) owner);
+            onr = TransformationTrace.getOutputNodeReference((SNode) owner);
           }
           return Objects.equals(onr, selectedNode);
         }
@@ -107,10 +107,10 @@ public class LoadNodeInShadowExplorer_Action extends BaseAction {
         public IOutputNodeReference getONR(TreeNode tnode) {
           Object owner = check_3urqok_a0a0d0a0a0a1a0a0h0f(as_3urqok_a0a0a0d0a0a0a1a0a0h0f(check_3urqok_a0a0a0d0a0a0a1a0a0h0f(as_3urqok_a0a0a0a0a3a0a0a0b0a0a7a5(tnode, TNode.class)), ExplorerElement.class));
           if (owner instanceof INode) {
-            return SM_TransformationTrace.getOutputNodeReference((INode) owner);
+            return TransformationTrace.getOutputNodeReference((INode) owner);
           }
           if (owner instanceof SNode) {
-            return SM_TransformationTrace.getOutputNodeReference((SNode) owner);
+            return TransformationTrace.getOutputNodeReference((SNode) owner);
           }
           return null;
         }

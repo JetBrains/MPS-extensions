@@ -5,11 +5,11 @@ package de.q60.mps.shadowmodels.runtime.engine;
 import de.q60.mps.shadowmodels.runtime.util.UserObjectContainer;
 import jetbrains.mps.logging.Logger;
 import de.q60.mps.incremental.util.ContextValue;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import de.q60.mps.incremental.runtime.IncrementalEngine;
 import de.q60.mps.polymorphicfunctions.runtime.IPFContext;
 import de.q60.mps.util.invalidation.Invalidatable;
-import org.modelix.model.area.IArea;
+import de.q60.mps.shadowmodels.runtime.model.IArea;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import de.q60.mps.logging.runtime.ShadowLogging;
 import java.util.Collections;
@@ -37,7 +37,7 @@ import java.util.HashMap;
 import java.util.ArrayList;
 import org.jetbrains.annotations.Nullable;
 import de.q60.mps.shadowmodels.runtime.mpslike.WeavingRule;
-import de.q60.mps.shadowmodels.runtime.model.SM_NodeUtil;
+import de.q60.mps.shadowmodels.runtime.model.NodeUtil;
 import de.q60.mps.shadowmodels.runtime.mpslike.IOutputWrapperRule;
 import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import de.q60.mps.incremental.runtime.DependencyCycleException;
@@ -521,7 +521,7 @@ tid:
         return it.getInputNodes();
       }
     });
-    for (INode inputNode : Sequence.fromIterable(inputRoots).translate((it) -> SM_NodeUtil.getDescendants(it, true))) {
+    for (INode inputNode : Sequence.fromIterable(inputRoots).translate((it) -> NodeUtil.getDescendants(it, true))) {
       // Prevent reapplying weaving rules on the same node multiple times
       if (stage.getStageReference().getSubstepNumber() > 0) {
         CopiedOutputNodeReference copiedInputNode = as_ghsvvp_a0a0a1a5a59(check_ghsvvp_a0a0a1a5a49(as_ghsvvp_a0a0a0a0b0f0rd(DependencyTrackingNode.unwrap(inputNode), OutputNodeReferenceAsNode.class)), CopiedOutputNodeReference.class);
@@ -553,7 +553,7 @@ tid:
     }
 
     final Iterable<INode> inputRoots = Sequence.fromIterable(new StageRootNodes(stage.getStageReference()).getNodes(this)).select((it) -> new OutputNodeReferenceAsNode(TransformationEngine.this, it));
-    for (INode node : ListSequence.fromList(stage.computeWithFrozenCheckDisabled(() -> Sequence.fromIterable(inputRoots).translate((it) -> SM_NodeUtil.getDescendants(it, true)).toList()))) {
+    for (INode node : ListSequence.fromList(stage.computeWithFrozenCheckDisabled(() -> Sequence.fromIterable(inputRoots).translate((it) -> NodeUtil.getDescendants(it, true)).toList()))) {
       IOutputNodeReference nodeRef = ((OutputNodeReferenceAsNode) node).getOutputNodeReference();
 
       for (IOutputWrapperRule rule : Sequence.fromIterable(rules)) {

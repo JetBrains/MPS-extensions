@@ -11,11 +11,43 @@ import org.jetbrains.annotations.Nullable;
 
 public final class LanguageConceptSwitch implements ConceptIndex {
   private final LanguageConceptIndex myIndex;
-  public static final int ErrorPlaceholder = 0;
+  public static final int DevKit = 0;
+  public static final int DevkitDependency = 1;
+  public static final int ErrorPlaceholder = 2;
+  public static final int JavaModuleFacet = 3;
+  public static final int Language = 4;
+  public static final int LanguageDependency = 5;
+  public static final int Model = 6;
+  public static final int ModelReference = 7;
+  public static final int Module = 8;
+  public static final int ModuleDependency = 9;
+  public static final int ModuleFacet = 10;
+  public static final int ModuleReference = 11;
+  public static final int Project = 12;
+  public static final int ProjectModule = 13;
+  public static final int Repository = 14;
+  public static final int SingleLanguageDependency = 15;
+  public static final int Solution = 16;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xbf7bc3bb11d42e4L, 0xb16093d72af96397L);
+    builder.put(0x65e0d25ff052e205L, DevKit);
+    builder.put(0x7c527144386aca16L, DevkitDependency);
     builder.put(0x765fd2d37142cde7L, ErrorPlaceholder);
+    builder.put(0x1e9fde9535299166L, JavaModuleFacet);
+    builder.put(0x65e0d25ff052e204L, Language);
+    builder.put(0x7c527144386aca0fL, LanguageDependency);
+    builder.put(0x69652614fd1c50cL, Model);
+    builder.put(0x58dbe6e4d4f332a3L, ModelReference);
+    builder.put(0x69652614fd1c50fL, Module);
+    builder.put(0x1e9fde953529916fL, ModuleDependency);
+    builder.put(0x1e9fde9535299163L, ModuleFacet);
+    builder.put(0x5040008087d5d3d4L, ModuleReference);
+    builder.put(0x37a0917d689de959L, Project);
+    builder.put(0x3a4fe9e427e83264L, ProjectModule);
+    builder.put(0x69652614fd1c516L, Repository);
+    builder.put(0x1e9fde953529917dL, SingleLanguageDependency);
+    builder.put(0x65e0d25ff052e203L, Solution);
     myIndex = builder.seal();
   }
 

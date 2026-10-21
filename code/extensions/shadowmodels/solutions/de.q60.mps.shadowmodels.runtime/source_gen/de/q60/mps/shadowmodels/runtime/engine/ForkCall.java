@@ -5,7 +5,7 @@ package de.q60.mps.shadowmodels.runtime.engine;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.annotations.Nullable;
 import java.util.Objects;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class ForkCall implements IContainmentTarget, ISubgraphCall {

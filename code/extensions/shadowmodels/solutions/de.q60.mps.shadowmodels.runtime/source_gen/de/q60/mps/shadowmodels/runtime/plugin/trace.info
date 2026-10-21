@@ -19,12 +19,12 @@
   <root nodeRef="r:3014a312-a1f1-41c3-9ecc-5491810305c3(de.q60.mps.shadowmodels.runtime.plugin)/1038241485677789842">
     <file name="ShadowModelFindUsagesParticipant.java">
       <node id="1038241485677892528" at="25,0,26,0" concept="11" trace="INSTANCE" />
-      <node id="1038241485677864198" at="30,44,31,41" concept="2" />
-      <node id="1038241485677878795" at="38,44,39,41" concept="2" />
-      <node id="1038241485677879832" at="46,44,47,41" concept="2" />
-      <node id="1038241485677880883" at="54,44,55,41" concept="2" />
-      <node id="1038241485677881951" at="62,44,63,41" concept="2" />
-      <node id="1038241485677883033" at="70,44,71,41" concept="2" />
+      <node id="1038241485677864198" at="30,41,31,41" concept="2" />
+      <node id="1038241485677878795" at="38,41,39,41" concept="2" />
+      <node id="1038241485677879832" at="46,41,47,41" concept="2" />
+      <node id="1038241485677880883" at="54,41,55,41" concept="2" />
+      <node id="1038241485677881951" at="62,41,63,41" concept="2" />
+      <node id="1038241485677883033" at="70,41,71,41" concept="2" />
       <node id="1038241485677872764" at="29,67,32,7" concept="5" />
       <node id="1038241485677878793" at="37,67,40,7" concept="5" />
       <node id="1038241485677879830" at="45,67,48,7" concept="5" />
@@ -43,12 +43,12 @@
       <node id="1038241485677852804" at="51,0,59,0" concept="6" trace="findUsages#(Ljava/util/Collection;Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/Consumer;Lorg/jetbrains/mps/openapi/util/Consumer;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
       <node id="1038241485677852833" at="59,0,67,0" concept="6" trace="findInstances#(Ljava/util/Collection;Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/Consumer;Lorg/jetbrains/mps/openapi/util/Consumer;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
       <node id="1038241485677852862" at="67,0,75,0" concept="6" trace="findModelUsages#(Ljava/util/Collection;Ljava/util/Set;Lorg/jetbrains/mps/openapi/util/Consumer;Lorg/jetbrains/mps/openapi/util/Consumer;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
-      <scope id="1038241485677872766" at="30,44,31,41" />
-      <scope id="1038241485677878794" at="38,44,39,41" />
-      <scope id="1038241485677879831" at="46,44,47,41" />
-      <scope id="1038241485677880882" at="54,44,55,41" />
-      <scope id="1038241485677881950" at="62,44,63,41" />
-      <scope id="1038241485677883032" at="70,44,71,41" />
+      <scope id="1038241485677872766" at="30,41,31,41" />
+      <scope id="1038241485677878794" at="38,41,39,41" />
+      <scope id="1038241485677879831" at="46,41,47,41" />
+      <scope id="1038241485677880882" at="54,41,55,41" />
+      <scope id="1038241485677881950" at="62,41,63,41" />
+      <scope id="1038241485677883032" at="70,41,71,41" />
       <scope id="1038241485677860903" at="29,67,32,7" />
       <scope id="1038241485677878792" at="37,67,40,7" />
       <scope id="1038241485677879829" at="45,67,48,7" />
@@ -155,17 +155,17 @@
       <node id="6266857247522445108" at="113,67,114,40" concept="2" />
       <node id="6266857247522793811" at="114,40,115,34" concept="2" />
       <node id="6266857247526046710" at="120,105,121,42" concept="13" />
-      <node id="6266857247529835217" at="125,56,126,79" concept="8" />
+      <node id="6266857247529835217" at="125,56,126,76" concept="8" />
       <node id="6266857247530899096" at="130,83,131,55" concept="7" />
       <node id="6266857247530954633" at="131,55,132,58" concept="7" />
-      <node id="6266857247531003792" at="132,58,133,189" concept="2" />
+      <node id="6266857247531003792" at="132,58,133,186" concept="2" />
       <node id="6266857247530420540" at="137,54,138,56" concept="8" />
       <node id="6266857247525378706" at="142,70,143,50" concept="2" />
       <node id="6266857247525668180" at="143,50,144,38" concept="2" />
       <node id="6266857247527270129" at="152,37,153,63" concept="7" />
       <node id="6266857247528014316" at="153,63,154,116" concept="7" />
       <node id="6266857247527319050" at="155,57,156,62" concept="7" />
-      <node id="6266857247546108546" at="157,90,158,93" concept="2" />
+      <node id="6266857247546108546" at="157,87,158,93" concept="2" />
       <node id="6266857247527802049" at="158,93,159,133" concept="2" />
       <node id="6266857247529353286" at="162,40,163,35" concept="8" />
       <node id="6266857247526502285" at="165,7,166,22" concept="8" />
@@ -203,11 +203,11 @@
       <scope id="6266857247521292458" at="102,56,103,81" />
       <scope id="6266857247523294160" at="107,60,108,106" />
       <scope id="6266857247519311563" at="120,105,121,42" />
-      <scope id="6266857247529560755" at="125,56,126,79" />
+      <scope id="6266857247529560755" at="125,56,126,76" />
       <scope id="6266857247530211159" at="137,54,138,56" />
       <scope id="6266857247546223037" at="162,40,163,35" />
       <scope id="6266857247525207677" at="142,70,144,38" />
-      <scope id="6266857247527691506" at="157,90,159,133" />
+      <scope id="6266857247527691506" at="157,87,159,133" />
       <scope id="1172612256836160782" at="45,27,48,67">
         <var name="mpsProject" id="5621451450897077302" />
       </scope>
@@ -239,7 +239,7 @@
         <var name="value" id="6266857247517230299" />
         <var name="viewSettings" id="6266857247517230302" />
       </scope>
-      <scope id="6266857247530746076" at="130,83,133,189">
+      <scope id="6266857247530746076" at="130,83,133,186">
         <var name="modules" id="6266857247530954634" />
         <var name="repository" id="6266857247530899099" />
       </scope>
@@ -351,16 +351,16 @@
       <node id="4680468775718487748" at="25,35,26,52" concept="2" />
       <node id="4680468775718487748" at="26,52,27,29" concept="2" />
       <node id="4680468775718487748" at="30,32,31,16" concept="8" />
-      <node id="8713912872396612576" at="34,87,35,51" concept="8" />
+      <node id="8713912872396612576" at="34,87,35,48" concept="8" />
       <node id="4680468775718487748" at="38,89,39,85" concept="2" />
       <node id="4680468775718487748" at="43,53,44,19" concept="8" />
       <node id="5890381613099977690" at="46,5,47,66" concept="7" />
       <node id="5890381613099977691" at="48,22,49,21" concept="8" />
       <node id="4680468775718487748" at="51,5,52,16" concept="8" />
       <node id="3039937905546157290" at="55,96,56,26" concept="2" />
-      <node id="4680468775718501111" at="56,26,57,62" concept="2" />
-      <node id="3732365408153935518" at="57,62,58,70" concept="2" />
-      <node id="3732365408153939875" at="58,70,59,47" concept="2" />
+      <node id="4680468775718501111" at="56,26,57,59" concept="2" />
+      <node id="3732365408153935518" at="57,59,58,67" concept="2" />
+      <node id="3732365408153939875" at="58,67,59,47" concept="2" />
       <node id="5890381613099886821" at="59,47,60,150" concept="2" />
       <node id="4680468775718487748" at="42,95,45,5" concept="5" />
       <node id="5890381613099977691" at="47,66,50,7" concept="5" />
@@ -372,7 +372,7 @@
       <node id="4680468775718487748" at="54,0,62,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
       <node id="4680468775718487748" at="41,0,54,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
       <scope id="4680468775718487748" at="30,32,31,16" />
-      <scope id="8713912872396611390" at="34,87,35,51" />
+      <scope id="8713912872396611390" at="34,87,35,48" />
       <scope id="4680468775718487748" at="38,89,39,85" />
       <scope id="4680468775718487748" at="43,53,44,19" />
       <scope id="5890381613099977691" at="48,22,49,21" />
@@ -571,13 +571,13 @@
   <root nodeRef="r:3014a312-a1f1-41c3-9ecc-5491810305c3(de.q60.mps.shadowmodels.runtime.plugin)/6353922595729096526">
     <file name="OptionalPlugin_ShadowRepository.java">
       <node id="6353922595729125649" at="11,0,12,0" concept="11" trace="INSTANCE" />
-      <node id="6353922595729375480" at="14,22,15,77" concept="7" />
-      <node id="6353922595729370576" at="15,77,16,54" concept="2" />
-      <node id="6353922595729376740" at="16,54,17,20" concept="2" />
-      <node id="6353922595729383601" at="21,25,22,85" concept="7" />
-      <node id="6353922595729384837" at="22,85,23,23" concept="2" />
-      <node id="6353922595729389546" at="23,23,24,50" concept="2" />
-      <node id="1965999259911473934" at="24,50,25,0" concept="10" />
+      <node id="6353922595729375480" at="14,22,15,71" concept="7" />
+      <node id="6353922595729370576" at="15,71,16,51" concept="2" />
+      <node id="6353922595729376740" at="16,51,17,20" concept="2" />
+      <node id="6353922595729383601" at="21,25,22,79" concept="7" />
+      <node id="6353922595729384837" at="22,79,23,23" concept="2" />
+      <node id="6353922595729389546" at="23,23,24,47" concept="2" />
+      <node id="1965999259911473934" at="24,47,25,0" concept="10" />
       <node id="1965999259911474660" at="25,0,26,26" concept="9" />
       <node id="1965999259911473385" at="26,26,27,26" concept="2" />
       <node id="3039937905547016730" at="27,26,28,45" concept="2" />
@@ -645,8 +645,8 @@
       <node id="6590526180832785700" at="37,65,38,47" concept="2" />
       <node id="6353922595729190832" at="38,47,39,62" concept="2" />
       <node id="1038241485677992122" at="39,62,40,162" concept="2" />
-      <node id="4105524262999528966" at="40,162,41,67" concept="2" />
-      <node id="1539248660071945780" at="41,67,42,58" concept="2" />
+      <node id="4105524262999528966" at="40,162,41,64" concept="2" />
+      <node id="1539248660071945780" at="41,64,42,58" concept="2" />
       <node id="1539248660071952825" at="42,58,43,55" concept="2" />
       <node id="1539248660071928316" at="43,55,44,39" concept="2" />
       <node id="1332234335944325937" at="44,39,45,30" concept="2" />
@@ -667,7 +667,7 @@
       <scope id="6590526180832785112" at="26,0,35,0" />
       <scope id="6590526180832785114" at="36,25,45,30" />
       <scope id="6590526180832785112" at="35,0,47,0" />
-      <unit id="3813522688329884156" at="18,63,22,3" name="de.q60.mps.shadowmodels.runtime.plugin.ApplicationPlugin_AppPluginPart$1" />
+      <unit id="3813522688329884156" at="18,60,22,3" name="de.q60.mps.shadowmodels.runtime.plugin.ApplicationPlugin_AppPluginPart$1" />
       <unit id="6590526180832785112" at="17,0,48,0" name="de.q60.mps.shadowmodels.runtime.plugin.ApplicationPlugin_AppPluginPart" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">

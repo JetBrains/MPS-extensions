@@ -15,15 +15,15 @@ import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterType_Classifier;
-import org.modelix.model.api.INode;
+import de.q60.mps.shadowmodels.runtime.model.INode;
 import de.q60.mps.shadowmodels.runtime.engine.GoalCall;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import de.q60.mps.shadowmodels.runtime.mpslike.MappingConfiguration;
 import de.q60.mps.shadowmodels.runtime.mpslike.MappingConfigurationId;
 import de.q60.mps.shadowmodels.runtime.mpslike.ReductionRule;
-import org.modelix.model.mpsadapters.mps.SConceptAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.SConceptAdapter;
 import de.q60.mps.shadowmodels.runtime.engine.ParameterType_INode;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GeneratedTransformationRule;
+import de.q60.mps.shadowmodels.runtime.smodel.GeneratedTransformationRule;
 import jetbrains.mps.smodel.SNodePointer;
 import de.q60.mps.shadowmodels.runtime.engine.ContainmentTargetRootNodes;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
@@ -32,7 +32,7 @@ import de.q60.mps.shadowmodels.runtime.engine.RootBuilderContext;
 import de.q60.mps.shadowmodels.runtime.engine.IBuilderContext;
 import de.q60.mps.shadowmodels.runtime.engine.BuilderContextParameter;
 import de.q60.mps.shadowmodels.runtime.engine.MappingLabelCall;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ParameterConversion;
+import de.q60.mps.shadowmodels.runtime.smodel.ParameterConversion;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -226,12 +226,12 @@ public class EntitiesToJava_reduce extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "5228830074594380776")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "5228830074594380776")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).forChildRole("0").run((final IBuilderContext context) -> {
               result.setTraceInfo("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/5228830074594380776");
-              context.withParameter(BuilderContextParameter.MAPPING_LABEL, new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.entityClass", ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(0))))))).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+              context.withParameter(BuilderContextParameter.MAPPING_LABEL, new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.entityClass", ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(0))))))).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
                   context.withParameter(BuilderContextParameter.ID, "0").createNode(new SConceptAdapter(CONCEPTS.ClassConcept$bK)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                     public void invoke(final IBuilderContext context) {
@@ -251,7 +251,7 @@ public class EntitiesToJava_reduce extends PFModule {
                       context.getResultElement().setProperty("name", () -> {
                         return savedContext_b0a1h.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), PROPS.name$MnvL));
+                            return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getInput(0))), PROPS.name$MnvL));
                           }
                         });
                       });
@@ -259,10 +259,10 @@ public class EntitiesToJava_reduce extends PFModule {
                         context.forChildRole("member").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
                             int i_a2a0b7 = 0;
-                            for (SNode e_a2a0b7 : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.properties$n6K9))) {
-                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a2a0b7)).withAdditionalIdPrefix("2" + "#" + i_a2a0b7).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            for (SNode e_a2a0b7 : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.properties$n6K9))) {
+                              context.forContextValue(ParameterConversion.fromMPS(e_a2a0b7)).withAdditionalIdPrefix("2" + "#" + i_a2a0b7).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
-                                  context.withParameter(BuilderContextParameter.MAPPING_LABEL, new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.field", ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue())))))).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                                  context.withParameter(BuilderContextParameter.MAPPING_LABEL, new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.field", ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue())))))).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
                                       context.withParameter(BuilderContextParameter.ID, "3").createNode(new SConceptAdapter(CONCEPTS.FieldDeclaration$ie)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                         public void invoke(final IBuilderContext context) {
@@ -282,14 +282,14 @@ public class EntitiesToJava_reduce extends PFModule {
                                           context.getResultElement().setProperty("name", () -> {
                                             return savedContext_b0a0c0a1h.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
+                                                return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
                                               }
                                             });
                                           });
                                           if (true) {
                                             context.forChildRole("type").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                               public void invoke(final IBuilderContext context) {
-                                                context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$ndl4)), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1109773557185316236"));
+                                                context.createNode(new RewriteCall(ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$ndl4)), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1109773557185316236"));
                                               }
                                             });
                                           }
@@ -308,8 +308,8 @@ public class EntitiesToJava_reduce extends PFModule {
                         context.forChildRole("member").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
                             int i_a3a0b7 = 0;
-                            for (SNode e_a3a0b7 : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.properties$n6K9))) {
-                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a3a0b7)).withAdditionalIdPrefix("5" + "#" + i_a3a0b7).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            for (SNode e_a3a0b7 : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.properties$n6K9))) {
+                              context.forContextValue(ParameterConversion.fromMPS(e_a3a0b7)).withAdditionalIdPrefix("5" + "#" + i_a3a0b7).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
                                   context.withParameter(BuilderContextParameter.ID, "6").createNode(new SConceptAdapter(CONCEPTS.InstanceMethodDeclaration$39)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
@@ -329,14 +329,14 @@ public class EntitiesToJava_reduce extends PFModule {
                                       context.getResultElement().setProperty("name", () -> {
                                         return savedContext_b0a3a0b7.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                           public String invoke(final IBuilderContext context) {
-                                            return SM_ParameterConversion.asString(NameUtil.getGetterName(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL)));
+                                            return ParameterConversion.asString(NameUtil.getGetterName(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL)));
                                           }
                                         });
                                       });
                                       if (true) {
                                         context.forChildRole("returnType").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                           public void invoke(final IBuilderContext context) {
-                                            context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$ndl4)), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1109773557185319197"));
+                                            context.createNode(new RewriteCall(ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$ndl4)), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1109773557185319197"));
                                           }
                                         });
                                       }
@@ -358,7 +358,7 @@ public class EntitiesToJava_reduce extends PFModule {
                                                                 context.withParameter(BuilderContextParameter.ID, "10").createNode(new SConceptAdapter(CONCEPTS.VariableReference$TC)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                                                   public void invoke(final IBuilderContext context) {
                                                                     context.getResultElement().setTraceInfo("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/5228830074594942336");
-                                                                    context.getResultElement().setReferenceTarget("variableDeclaration", new MappingLabelRefTarget(new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.field", ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue())))))));
+                                                                    context.getResultElement().setReferenceTarget("variableDeclaration", new MappingLabelRefTarget(new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.field", ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue())))))));
                                                                   }
                                                                 });
                                                               }
@@ -387,8 +387,8 @@ public class EntitiesToJava_reduce extends PFModule {
                         context.forChildRole("member").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
                             int i_a4a0b7 = 0;
-                            for (SNode e_a4a0b7 : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.properties$n6K9))) {
-                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a4a0b7)).withAdditionalIdPrefix("11" + "#" + i_a4a0b7).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            for (SNode e_a4a0b7 : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.properties$n6K9))) {
+                              context.forContextValue(ParameterConversion.fromMPS(e_a4a0b7)).withAdditionalIdPrefix("11" + "#" + i_a4a0b7).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
                                   context.withParameter(BuilderContextParameter.ID, "12").createNode(new SConceptAdapter(CONCEPTS.InstanceMethodDeclaration$39)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
@@ -408,7 +408,7 @@ public class EntitiesToJava_reduce extends PFModule {
                                       context.getResultElement().setProperty("name", () -> {
                                         return savedContext_b0a4a0b7.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                           public String invoke(final IBuilderContext context) {
-                                            return SM_ParameterConversion.asString(NameUtil.getSetterName(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL)));
+                                            return ParameterConversion.asString(NameUtil.getSetterName(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL)));
                                           }
                                         });
                                       });
@@ -426,7 +426,7 @@ public class EntitiesToJava_reduce extends PFModule {
                                       if (true) {
                                         context.forChildRole("parameter").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                           public void invoke(final IBuilderContext context) {
-                                            context.withParameter(BuilderContextParameter.MAPPING_LABEL, new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.setterParam", ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue())))))).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                                            context.withParameter(BuilderContextParameter.MAPPING_LABEL, new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.setterParam", ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue())))))).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                               public void invoke(final IBuilderContext context) {
                                                 context.withParameter(BuilderContextParameter.ID, "15").createNode(new SConceptAdapter(CONCEPTS.ParameterDeclaration$RG)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                                   public void invoke(final IBuilderContext context) {
@@ -435,14 +435,14 @@ public class EntitiesToJava_reduce extends PFModule {
                                                     context.getResultElement().setProperty("name", () -> {
                                                       return savedContext_a0a3a0e0a1h.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                                         public String invoke(final IBuilderContext context) {
-                                                          return SM_ParameterConversion.asString(SPropertyOperations.getString(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
+                                                          return ParameterConversion.asString(SPropertyOperations.getString(ParameterConversion.toMPS(((INode) context.getContextValue())), PROPS.name$MnvL));
                                                         }
                                                       });
                                                     });
                                                     if (true) {
                                                       context.forChildRole("type").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                                         public void invoke(final IBuilderContext context) {
-                                                          context.createNode(new RewriteCall(SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$ndl4)), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1109773557185320242"));
+                                                          context.createNode(new RewriteCall(ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getContextValue())), LINKS.type$ndl4)), "r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/1109773557185320242"));
                                                         }
                                                       });
                                                     }
@@ -494,7 +494,7 @@ public class EntitiesToJava_reduce extends PFModule {
                                                                                     context.withParameter(BuilderContextParameter.ID, "21").createNode(new SConceptAdapter(CONCEPTS.FieldReferenceOperation$fU)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                                                                       public void invoke(final IBuilderContext context) {
                                                                                         context.getResultElement().setTraceInfo("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/5228830074594945809");
-                                                                                        context.getResultElement().setReferenceTarget("fieldDeclaration", new MappingLabelRefTarget(new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.field", ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue())))))));
+                                                                                        context.getResultElement().setReferenceTarget("fieldDeclaration", new MappingLabelRefTarget(new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.field", ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue())))))));
                                                                                       }
                                                                                     });
                                                                                   }
@@ -511,7 +511,7 @@ public class EntitiesToJava_reduce extends PFModule {
                                                                           context.withParameter(BuilderContextParameter.ID, "22").createNode(new SConceptAdapter(CONCEPTS.VariableReference$TC)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                                                             public void invoke(final IBuilderContext context) {
                                                                               context.getResultElement().setTraceInfo("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/5228830074594945813");
-                                                                              context.getResultElement().setReferenceTarget("variableDeclaration", new MappingLabelRefTarget(new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.setterParam", ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue())))))));
+                                                                              context.getResultElement().setReferenceTarget("variableDeclaration", new MappingLabelRefTarget(new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.setterParam", ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue())))))));
                                                                             }
                                                                           });
                                                                         }
@@ -577,7 +577,7 @@ public class EntitiesToJava_reduce extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "5228830074594381358")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "5228830074594381358")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).forChildRole("0").run((final IBuilderContext context) -> {
@@ -619,7 +619,7 @@ public class EntitiesToJava_reduce extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "5228830074594381392")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "5228830074594381392")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).forChildRole("0").run((final IBuilderContext context) -> {
@@ -661,7 +661,7 @@ public class EntitiesToJava_reduce extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "5228830074594381439")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)", "5228830074594381439")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).forChildRole("0").run((final IBuilderContext context) -> {
@@ -669,7 +669,7 @@ public class EntitiesToJava_reduce extends PFModule {
               context.withParameter(BuilderContextParameter.ID, "25").createNode(new SConceptAdapter(CONCEPTS.ClassifierType$bL)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
                   context.getResultElement().setTraceInfo("r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)/5228830074594381454");
-                  context.getResultElement().setReferenceTarget("classifier", new MappingLabelRefTarget(new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.entityClass", ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SLinkOperations.getTarget(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.entity$n6j5))))));
+                  context.getResultElement().setReferenceTarget("classifier", new MappingLabelRefTarget(new MappingLabelCall("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava_reduce.entityClass", ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SLinkOperations.getTarget(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.entity$n6j5))))));
                 }
               });
             });

@@ -6,7 +6,7 @@ import jetbrains.mps.workbench.action.BaseAction;
 import javax.swing.Icon;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import java.util.Map;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_RepositoryModulesManager;
+import de.q60.mps.shadowmodels.runtime.smodel.RepositoryModulesManager;
 import org.jetbrains.annotations.NotNull;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.actionSystem.CommonDataKeys;
@@ -28,7 +28,7 @@ public class LoadShadowExplorer_Action extends BaseAction {
   }
   @Override
   public boolean isApplicable(AnActionEvent event, final Map<String, Object> _params) {
-    return SM_RepositoryModulesManager.isEnabled();
+    return RepositoryModulesManager.isEnabled();
   }
   @Override
   public void doUpdate(@NotNull AnActionEvent event, final Map<String, Object> _params) {

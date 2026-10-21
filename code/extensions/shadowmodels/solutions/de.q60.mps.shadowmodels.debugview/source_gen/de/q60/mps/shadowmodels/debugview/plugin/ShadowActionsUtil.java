@@ -5,10 +5,10 @@ package de.q60.mps.shadowmodels.debugview.plugin;
 import de.q60.mps.explorer.TransformationTraceComponent;
 import com.intellij.openapi.project.Project;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_RepositoryModulesManager;
+import de.q60.mps.shadowmodels.runtime.smodel.RepositoryModulesManager;
 import org.jetbrains.mps.openapi.model.SNode;
 import de.q60.mps.shadowmodels.runtime.engine.IOutputNodeReference;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationTrace;
+import de.q60.mps.shadowmodels.runtime.smodel.TransformationTrace;
 import de.q60.mps.shadowmodels.runtime.engine.ITransformationEngine;
 import de.q60.mps.shadowmodels.runtime.engine.ISubgraphRef;
 import de.q60.mps.shadowmodels.debugview.pf.ITraceBuilderContext;
@@ -20,19 +20,19 @@ import de.q60.mps.shadowmodels.debugview.pf.ForkExplorerRoot;
 public class ShadowActionsUtil {
   public static TransformationTraceComponent loadShadowRepositoryExplorer(final Project project) {
     final Wrappers._T<TransformationTraceComponent> comp = new Wrappers._T<TransformationTraceComponent>(null);
-    SM_RepositoryModulesManager.getInstance().runReadOnTransformationOutput(() -> {
-      SNode repository = SM_RepositoryModulesManager.getInstance().getRootTransformationOutput();
-      IOutputNodeReference outputNodeRef = SM_TransformationTrace.getOutputNodeReference(repository);
+    RepositoryModulesManager.getInstance().runReadOnTransformationOutput(() -> {
+      SNode repository = RepositoryModulesManager.getInstance().getRootTransformationOutput();
+      IOutputNodeReference outputNodeRef = TransformationTrace.getOutputNodeReference(repository);
 
-      final ITransformationEngine engine = SM_TransformationTrace.getEngine(repository);
+      final ITransformationEngine engine = TransformationTrace.getEngine(repository);
       ISubgraphRef subgraphRef = outputNodeRef.getStageRef().getSubgraphRef();
 
       ITraceBuilderContext context = new TraceBuilderContext(engine, project);
 
       comp.value = ProjectPluginManager.getInstance(project).getTool(GenericExplorerTool_Tool.class).addTab("Shadow Repository");
       comp.value.setReadAccess((final Runnable r) -> {
-        if (SM_RepositoryModulesManager.isEnabled()) {
-          SM_RepositoryModulesManager.getInstance().runReadOnTransformationOutput(() -> SM_RepositoryModulesManager.getInstance().runRead(() -> ProjectHelper.fromIdeaProject(project).getRepository().getModelAccess().runReadAction(() -> r.run())));
+        if (RepositoryModulesManager.isEnabled()) {
+          RepositoryModulesManager.getInstance().runReadOnTransformationOutput(() -> RepositoryModulesManager.getInstance().runRead(() -> ProjectHelper.fromIdeaProject(project).getRepository().getModelAccess().runReadAction(() -> r.run())));
         } else {
           ProjectHelper.fromIdeaProject(project).getRepository().getModelAccess().runReadAction(() -> r.run());
         }

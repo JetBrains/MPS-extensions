@@ -16,12 +16,12 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.util.Iterator;
 import de.q60.mps.logging.runtime.ShadowLogging;
 import java.util.Objects;
-import org.modelix.model.api.IConcept;
+import de.q60.mps.shadowmodels.runtime.model.IConcept;
 import org.jetbrains.annotations.Nullable;
 import de.q60.mps.shadowmodels.runtime.util.pmap.CustomPMap;
 import de.q60.mps.shadowmodels.runtime.util.pmap.SmallPMap;
-import org.modelix.model.api.INode;
-import org.modelix.model.api.IChildLink;
+import de.q60.mps.shadowmodels.runtime.model.INode;
+import de.q60.mps.shadowmodels.runtime.model.IChildLink;
 
 public class TransformationResult implements ITransformationResult {
   private int elementIdSequence = 0;
@@ -531,26 +531,12 @@ public class TransformationResult implements ITransformationResult {
     private RootRole(int index) {
       this.index = index;
     }
-    @NotNull
     @Override
-    public IConcept getTargetConcept() {
-      throw new UnsupportedOperationException();
-    }
-    @NotNull
-    @Override
-    public IConcept getConcept() {
-      throw new UnsupportedOperationException();
-    }
-    @Override
-    public String getSimpleName() {
+    public String getName() {
       throw new UnsupportedOperationException();
     }
     @Override
     public boolean isMultiple() {
-      throw new UnsupportedOperationException();
-    }
-    @Override
-    public boolean isOptional() {
       throw new UnsupportedOperationException();
     }
 
@@ -568,16 +554,6 @@ public class TransformationResult implements ITransformationResult {
     @Override
     public int hashCode() {
       return index;
-    }
-    @NotNull
-    @Override
-    public IConcept getChildConcept() {
-      throw new UnsupportedOperationException();
-    }
-    @NotNull
-    @Override
-    public String getUID() {
-      throw new UnsupportedOperationException();
     }
   }
 }

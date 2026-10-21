@@ -4,6 +4,16 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## October 2026
+
+### Removed
+
+- *de.q60.mps.shadowmodels.runtime* The modules org.modelix.model.api, org.modelix.model.mpsadapters and org.modelix.model.repositoryconcepts and the 'Modelix Model API' plugin were removed. Shadow models don't depend on modelix anymore. The used part of the model API (INode, IConcept, IArea, IBranch, ITree, ...) is now part of de.q60.mps.shadowmodels.runtime, the MPS adapters moved back to de.q60.mps.shadowmodels.runtime.smodel and the Repository, Module and Model concepts to de.q60.mps.shadowmodels.runtimelang.
+
+### Changed
+
+- *de.q60.mps.shadowmodels.runtime* The SM_ prefix was removed from all class names (e.g. SM_PBranch is now PBranch).
+
 ## September 2026
 
 ### Fixed
@@ -33,7 +43,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- *de.q60.mps.shadowmodels.runtime* [SM_CommandHelper](http://127.0.0.1:63320/node?ref=r%3A97875f9c-321e-405e-a344-6d3deab2bdba%28de.q60.mps.shadowmodels.runtime.smodel%29%2F7709076119916772664) now only runs commands on fully initialized projects.
+- *de.q60.mps.shadowmodels.runtime* [CommandHelper](http://127.0.0.1:63320/node?ref=r%3A97875f9c-321e-405e-a344-6d3deab2bdba%28de.q60.mps.shadowmodels.runtime.smodel%29%2F7709076119916772664) now only runs commands on fully initialized projects.
 - *de.slisson.mps.tables* AssertionException in EditorCell_GridCell.paint for headless components prevented screenshots
 
 ## May 2026

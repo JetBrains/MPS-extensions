@@ -3,6 +3,7 @@
   <uses language="l:bbb5f4e2-794a-4b91-bd27-caf7d437ac9e:de.q60.mps.shadowmodels.examples.blext" />
   <uses language="l:ca32b5fa-caea-4f97-9686-6f60d4d677d4:de.q60.mps.shadowmodels.examples.entities" />
   <uses language="l:ebb56408-a287-44ca-ab2d-1b6ee6850446:de.q60.mps.shadowmodels.examples.statemachine" />
+  <uses language="l:0bf7bc3b-b11d-42e4-b160-93d72af96397:de.q60.mps.shadowmodels.runtimelang" />
   <uses language="l:a7322769-ef64-4daa-a2f4-fd4228fb713e:de.q60.mps.shadowmodels.target.text" />
   <uses language="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
   <uses language="l:774bf8a0-62e5-41e1-af63-f4812e60e48b:jetbrains.mps.baseLanguage.checkedDots" />
@@ -15,7 +16,6 @@
   <uses language="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
   <uses language="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" />
   <uses language="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
-  <uses language="l:0a7577d1-d4e5-431d-98b1-fae38f9aee80:org.modelix.model.repositoryconcepts" />
   <uses module="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" kind="dp" />
   <uses module="847a3235-09f9-403c-b6a9-1c294a212e92(Ant)" kind="dp" />
   <uses module="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt+dp" />
@@ -51,7 +51,5 @@
   <uses module="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" kind="dp" />
   <uses module="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt+dp" />
   <uses module="63b449db-0918-4a4a-a891-2c430ab133e4(org.junit.junit5)" kind="rt+dp" />
-  <uses module="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" kind="dp" />
-  <uses module="5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)" kind="dp" />
 </dependenciesRoot>
 

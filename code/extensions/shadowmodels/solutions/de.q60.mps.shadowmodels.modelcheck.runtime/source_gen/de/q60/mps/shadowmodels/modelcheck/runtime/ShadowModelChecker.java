@@ -11,8 +11,8 @@ import java.util.Set;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GlobalModelListener;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_RepositoryModulesManager;
+import de.q60.mps.shadowmodels.runtime.smodel.GlobalModelListener;
+import de.q60.mps.shadowmodels.runtime.smodel.RepositoryModulesManager;
 import java.util.Map;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
@@ -22,9 +22,9 @@ import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.module.SModule;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ShadowModule;
+import de.q60.mps.shadowmodels.runtime.smodel.ShadowModule;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ShadowModel;
+import de.q60.mps.shadowmodels.runtime.smodel.ShadowModel;
 import jetbrains.mps.errors.item.NodeReportItem;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
@@ -36,11 +36,11 @@ import jetbrains.mps.typesystemEngine.checker.NonTypesystemChecker;
 import jetbrains.mps.checkers.ConstraintsChecker;
 import de.q60.mps.shadowmodels.repository.transformations.IMessageLifter;
 import de.q60.mps.shadowmodels.runtime.engine.IResultElement;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationTrace;
+import de.q60.mps.shadowmodels.runtime.smodel.TransformationTrace;
 import de.q60.mps.shadowmodels.runtime.engine.IOperation;
 import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import de.q60.mps.shadowmodels.runtime.concurrentrepo.RepositoryMirror;
-import org.modelix.model.mpsadapters.mps.SNodeToNodeAdapter;
+import de.q60.mps.shadowmodels.runtime.smodel.SNodeToNodeAdapter;
 import org.jetbrains.mps.openapi.model.SNodeChangeListener;
 import org.jetbrains.mps.openapi.model.SModel;
 import org.jetbrains.mps.openapi.event.SNodeAddEvent;
@@ -81,10 +81,10 @@ public class ShadowModelChecker {
     }
   });
   private Set<SNodeReference> cleanRoots = SetSequence.fromSet(new HashSet<SNodeReference>());
-  private SM_GlobalModelListener modelListener = new ModelListener();
+  private GlobalModelListener modelListener = new ModelListener();
 
   protected void runChecks() {
-    if (!(SM_RepositoryModulesManager.isEnabled())) {
+    if (!(RepositoryModulesManager.isEnabled())) {
       return;
     }
 
@@ -94,14 +94,14 @@ public class ShadowModelChecker {
     final Wrappers._T<Iterable<SNode>> shadowRoots = new Wrappers._T<Iterable<SNode>>(null);
     repository.getModelAccess().runReadAction(() -> {
       Iterable<SModule> allModules = repository.getModules();
-      Iterable<SM_ShadowModule> shadowModules = Sequence.fromIterable(allModules).ofType(SM_ShadowModule.class);
-      Iterable<SM_ShadowModel> shadowModels = Sequence.fromIterable(shadowModules).translate((it) -> it.getModels()).ofType(SM_ShadowModel.class);
+      Iterable<ShadowModule> shadowModules = Sequence.fromIterable(allModules).ofType(ShadowModule.class);
+      Iterable<ShadowModel> shadowModels = Sequence.fromIterable(shadowModules).translate((it) -> it.getModels()).ofType(ShadowModel.class);
       shadowRoots.value = Sequence.fromIterable(shadowModels).translate((it) -> it.getRootNodes()).toList();
     });
 
     final Wrappers._boolean anyChange = new Wrappers._boolean(false);
     for (final SNode root : Sequence.fromIterable(shadowRoots.value)) {
-      SM_RepositoryModulesManager.getInstance().runRead(() -> {
+      RepositoryModulesManager.getInstance().runRead(() -> {
         repository.getModelAccess().runReadAction(() -> {
           if (root.getModel() == null) {
             return;
@@ -133,7 +133,7 @@ public class ShadowModelChecker {
                 private SNode currentNode;
                 public void liftMessage(String message, SNode target) {
                   currentNode = target;
-                  IResultElement resultElement = SM_TransformationTrace.getResultElement(target);
+                  IResultElement resultElement = TransformationTrace.getResultElement(target);
                   if (resultElement != null) {
                     IOperation op = resultElement.getOperation(LIFT_OP_ID);
                     if (op != null) {
@@ -142,7 +142,7 @@ public class ShadowModelChecker {
                     }
                   } else {
                     SNode nodeInInputRepository = RepositoryMirror.getOriginalNode(SNodeToNodeAdapter.wrap(target), repository);
-                    if (nodeInInputRepository != null && !(nodeInInputRepository.getModel() instanceof SM_ShadowModel)) {
+                    if (nodeInInputRepository != null && !(nodeInInputRepository.getModel() instanceof ShadowModel)) {
                       ListSequence.fromList(messagesForRoot).addElement(new LiftedReportItem(item.getSeverity(), nodeInInputRepository.getReference(), shadowTarget.getReference(), "[LIFTED] " + message));
                       return;
                     }
@@ -151,7 +151,7 @@ public class ShadowModelChecker {
                   liftMessage(message);
                 }
                 public void liftMessage(String message) {
-                  for (SNode inputNode : Sequence.fromIterable(SM_TransformationTrace.tryGetInputNodes(currentNode))) {
+                  for (SNode inputNode : Sequence.fromIterable(TransformationTrace.tryGetInputNodes(currentNode))) {
                     liftMessage(message, inputNode);
                   }
                 }
@@ -203,29 +203,29 @@ public class ShadowModelChecker {
     SetSequence.fromSet(cleanRoots).removeElement(root.getReference());
   }
 
-  protected class ModelListener extends SM_GlobalModelListener implements SNodeChangeListener {
+  protected class ModelListener extends GlobalModelListener implements SNodeChangeListener {
     protected void addListener(SModel model) {
-      if (!(model instanceof SM_ShadowModel)) {
+      if (!(model instanceof ShadowModel)) {
         return;
       }
       model.addChangeListener(this);
     }
     protected void removeListener(SModel model) {
-      if (!(model instanceof SM_ShadowModel)) {
+      if (!(model instanceof ShadowModel)) {
         return;
       }
       model.removeChangeListener(this);
     }
     @Override
     public void start(SModule module) {
-      if (!(module instanceof SM_ShadowModule)) {
+      if (!(module instanceof ShadowModule)) {
         return;
       }
       super.start(module);
     }
     @Override
     public void stop(SModule module) {
-      if (!(module instanceof SM_ShadowModule)) {
+      if (!(module instanceof ShadowModule)) {
         return;
       }
       super.stop(module);

@@ -15,16 +15,16 @@ import de.q60.mps.polymorphicfunctions.runtime.ParameterList;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import de.q60.mps.shadowmodels.runtime.engine.ParameterType_INode;
-import org.modelix.model.mpsadapters.mps.SConceptAdapter;
-import org.modelix.model.api.INode;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_GeneratedTransformationRule;
+import de.q60.mps.shadowmodels.runtime.smodel.SConceptAdapter;
+import de.q60.mps.shadowmodels.runtime.model.INode;
+import de.q60.mps.shadowmodels.runtime.smodel.GeneratedTransformationRule;
 import jetbrains.mps.smodel.SNodePointer;
 import de.q60.mps.shadowmodels.runtime.engine.ContainmentTargetRootNodes;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationCall;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationResult;
 import de.q60.mps.shadowmodels.runtime.engine.RootBuilderContext;
 import de.q60.mps.shadowmodels.runtime.engine.IBuilderContext;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_ParameterConversion;
+import de.q60.mps.shadowmodels.runtime.smodel.ParameterConversion;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import de.q60.mps.shadowmodels.runtime.engine.TransformationEngine;
@@ -38,8 +38,8 @@ import de.q60.mps.shadowmodels.runtime.engine.OutputNodeAsReferenceTarget;
 import de.q60.mps.shadowmodels.runtime.engine.NodeAsOutputNodeReference;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import de.q60.mps.shadowmodels.runtime.engine.IOperation;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_TransformationTrace;
-import de.q60.mps.shadowmodels.runtime.smodel.SM_SNodeAPI;
+import de.q60.mps.shadowmodels.runtime.smodel.TransformationTrace;
+import de.q60.mps.shadowmodels.runtime.smodel.SNodeAPI;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import java.util.Objects;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -101,16 +101,16 @@ public class StatemachineAsTable extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3087343341365767828")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3087343341365767828")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
               result.setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3087343341365767828");
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
-                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.table", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SNodeOperations.cast(((_FunctionTypes._return_P0_E0<SNode>) () -> {
-                    Iterable<? extends Iterable<INode>> outputNodes = TransformationEngine.getInstance().executeCallExpression(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.copyStatemachine", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(0)))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3087343341365796529"));
-                    return SM_ParameterConversion.toMPS(Sequence.fromIterable(Sequence.fromIterable(outputNodes).first()).first());
+                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.table", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(SNodeOperations.cast(((_FunctionTypes._return_P0_E0<SNode>) () -> {
+                    Iterable<? extends Iterable<INode>> outputNodes = TransformationEngine.getInstance().executeCallExpression(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.copyStatemachine", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(0)))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3087343341365796529"));
+                    return ParameterConversion.toMPS(Sequence.fromIterable(Sequence.fromIterable(outputNodes).first()).first());
                   }).invoke(), CONCEPTS.Statemachine$ba)))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3087343341365768861"));
                 }
               });
@@ -146,14 +146,14 @@ public class StatemachineAsTable extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3087343341365790919")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3087343341365790919")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
               result.setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3087343341365790919");
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
-                  context.createNode(((ForkCall) _PFcontext.callFunction("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine", new ParameterList(new Object[]{SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(0))))}))).setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3087343341365794837"));
+                  context.createNode(((ForkCall) _PFcontext.callFunction("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine", new ParameterList(new Object[]{ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(0))))}))).setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3087343341365794837"));
                 }
               });
             });
@@ -188,7 +188,7 @@ public class StatemachineAsTable extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new ForkCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ((INode) _PFparameters.get(0)))), new RewriteCall(SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) _PFparameters.get(0)))), "3087343341365785716"), false, "de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine/rewriter", "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3087343341365784656");
+        return new ForkCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ((INode) _PFparameters.get(0)))), new RewriteCall(ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) _PFparameters.get(0)))), "3087343341365785716"), false, "de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.fork_copyStatemachine/rewriter", "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3087343341365784656");
       }
       @Override
       public Iterable<IParameterType> getParameterTypes() {
@@ -246,7 +246,7 @@ public class StatemachineAsTable extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3384942920130181135")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3384942920130181135")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -260,7 +260,7 @@ public class StatemachineAsTable extends PFModule {
                       context.getResultElement().setProperty("verticalGrid", () -> {
                         return savedContext_36hbpv_a0a7.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(true);
+                            return ParameterConversion.asString(true);
                           }
                         });
                       });
@@ -274,7 +274,7 @@ public class StatemachineAsTable extends PFModule {
                                 context.getResultElement().setProperty("drawBorder", () -> {
                                   return savedContext_36hbpv_a0b0a7.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                     public String invoke(final IBuilderContext context) {
-                                      return SM_ParameterConversion.asString(true);
+                                      return ParameterConversion.asString(true);
                                     }
                                   });
                                 });
@@ -288,7 +288,7 @@ public class StatemachineAsTable extends PFModule {
                                           context.getResultElement().setProperty("drawBorder", () -> {
                                             return savedContext_36hbpv_a0b0b0a7.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(true);
+                                                return ParameterConversion.asString(true);
                                               }
                                             });
                                           });
@@ -301,8 +301,8 @@ public class StatemachineAsTable extends PFModule {
                                   context.forChildRole("childCells").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                     public void invoke(final IBuilderContext context) {
                                       int i_a2a1a0h = 0;
-                                      for (SNode e_a2a1a0h : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.events$gXF$))) {
-                                        context.forContextValue(SM_ParameterConversion.fromMPS(e_a2a1a0h)).withAdditionalIdPrefix("3" + "#" + i_a2a1a0h).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                                      for (SNode e_a2a1a0h : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.events$gXF$))) {
+                                        context.forContextValue(ParameterConversion.fromMPS(e_a2a1a0h)).withAdditionalIdPrefix("3" + "#" + i_a2a1a0h).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                           public void invoke(final IBuilderContext context) {
                                             context.withParameter(BuilderContextParameter.ID, "4").createNode(new SConceptAdapter(CONCEPTS.NodeCell$X5)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                               public void invoke(final IBuilderContext context) {
@@ -311,11 +311,11 @@ public class StatemachineAsTable extends PFModule {
                                                 context.getResultElement().setProperty("drawBorder", () -> {
                                                   return savedContext_36hbpv_a0a2a1a0h.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                                     public String invoke(final IBuilderContext context) {
-                                                      return SM_ParameterConversion.asString(true);
+                                                      return ParameterConversion.asString(true);
                                                     }
                                                   });
                                                 });
-                                                context.getResultElement().setReferenceTarget("asReference", new OutputNodeAsReferenceTarget(NodeAsOutputNodeReference.create(SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))));
+                                                context.getResultElement().setReferenceTarget("asReference", new OutputNodeAsReferenceTarget(NodeAsOutputNodeReference.create(ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))));
                                               }
                                             });
                                           }
@@ -334,10 +334,10 @@ public class StatemachineAsTable extends PFModule {
                         context.forChildRole("childCells").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
                             int i_a2a0h = 0;
-                            for (SNode e_a2a0h : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.states$HuiR))) {
-                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a2a0h)).withAdditionalIdPrefix("5" + "#" + i_a2a0h).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            for (SNode e_a2a0h : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.states$HuiR))) {
+                              context.forContextValue(ParameterConversion.fromMPS(e_a2a0h)).withAdditionalIdPrefix("5" + "#" + i_a2a0h).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
-                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.row", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(0)))), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3384942920130551262"));
+                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.row", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(0)))), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3384942920130551262"));
                                 }
                               });
                               i_a2a0h++;
@@ -384,7 +384,7 @@ public class StatemachineAsTable extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3384942920130245473")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3384942920130245473")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
@@ -398,7 +398,7 @@ public class StatemachineAsTable extends PFModule {
                       context.getResultElement().setProperty("drawBorder", () -> {
                         return savedContext_36hbpv_a0a9.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                           public String invoke(final IBuilderContext context) {
-                            return SM_ParameterConversion.asString(true);
+                            return ParameterConversion.asString(true);
                           }
                         });
                       });
@@ -408,7 +408,7 @@ public class StatemachineAsTable extends PFModule {
                             context.withParameter(BuilderContextParameter.ID, "7").createNode(new SConceptAdapter(CONCEPTS.NodeCell$X5)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                               public void invoke(final IBuilderContext context) {
                                 context.getResultElement().setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3384942920130943618");
-                                context.getResultElement().setReferenceTarget("asReference", new OutputNodeAsReferenceTarget(NodeAsOutputNodeReference.create(SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(1)))))));
+                                context.getResultElement().setReferenceTarget("asReference", new OutputNodeAsReferenceTarget(NodeAsOutputNodeReference.create(ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(1)))))));
                               }
                             });
                           }
@@ -417,14 +417,14 @@ public class StatemachineAsTable extends PFModule {
                       if (true) {
                         context.forChildRole("childCells").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                           public void invoke(final IBuilderContext context) {
-                            int i_a2a0j = 0;
-                            for (SNode e_a2a0j : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.events$gXF$))) {
-                              context.forContextValue(SM_ParameterConversion.fromMPS(e_a2a0j)).withAdditionalIdPrefix("8" + "#" + i_a2a0j).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                            int i_a2a0j_0 = 0;
+                            for (SNode e_a2a0j_0 : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getInput(0))), LINKS.events$gXF$))) {
+                              context.forContextValue(ParameterConversion.fromMPS(e_a2a0j_0)).withAdditionalIdPrefix("8" + "#" + i_a2a0j_0).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                 public void invoke(final IBuilderContext context) {
-                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.cell", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(0)))), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getInput(1)))), SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3384942920130544722"));
+                                  context.createNode(new TransformationCall("de.q60.mps.shadowmodels.examples.statemachine.transformations.StatemachineAsTable.cell", new ParameterList(ListSequence.fromListAndArray(new ArrayList<Object>(), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(0)))), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getInput(1)))), ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))), "r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3384942920130544722"));
                                 }
                               });
-                              i_a2a0j++;
+                              i_a2a0j_0++;
                             }
                           }
                         });
@@ -445,7 +445,7 @@ public class StatemachineAsTable extends PFModule {
                                           context.getResultElement().setProperty("key", () -> {
                                             return savedContext_36hbpv_a0a0d0a9.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(CellActionType.INSERT);
+                                                return ParameterConversion.asString(CellActionType.INSERT);
                                               }
                                             });
                                           });
@@ -454,8 +454,8 @@ public class StatemachineAsTable extends PFModule {
                                             public Object invoke(final ParameterList _parameters) {
                                               return savedContext_36hbpv_b0a0d0a9.compute(new _FunctionTypes._return_P1_E0<Object, IBuilderContext>() {
                                                 public Object invoke(final IBuilderContext context) {
-                                                  SNode originalSM = Sequence.fromIterable(SNodeOperations.ofConcept(Sequence.fromIterable(SM_TransformationTrace.tryGetOriginalInputNodes(SM_ParameterConversion.toMPS(((INode) context.getInput(0))))).ofType(SNode.class), CONCEPTS.Statemachine$ba)).first();
-                                                  originalSM = SNodeOperations.cast(SM_SNodeAPI.tryGetUnwrappedNode(originalSM), CONCEPTS.Statemachine$ba);
+                                                  SNode originalSM = Sequence.fromIterable(SNodeOperations.ofConcept(Sequence.fromIterable(TransformationTrace.tryGetOriginalInputNodes(ParameterConversion.toMPS(((INode) context.getInput(0))))).ofType(SNode.class), CONCEPTS.Statemachine$ba)).first();
+                                                  originalSM = SNodeOperations.cast(SNodeAPI.tryGetUnwrappedNode(originalSM), CONCEPTS.Statemachine$ba);
                                                   SNodeFactoryOperations.addNewChild(originalSM, LINKS.states$HuiR, null);
                                                   return null;
                                                 }
@@ -477,7 +477,7 @@ public class StatemachineAsTable extends PFModule {
                                           context.getResultElement().setProperty("key", () -> {
                                             return savedContext_36hbpv_a0b0d0a9.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                                               public String invoke(final IBuilderContext context) {
-                                                return SM_ParameterConversion.asString(CellActionType.INSERT_BEFORE);
+                                                return ParameterConversion.asString(CellActionType.INSERT_BEFORE);
                                               }
                                             });
                                           });
@@ -486,8 +486,8 @@ public class StatemachineAsTable extends PFModule {
                                             public Object invoke(final ParameterList _parameters) {
                                               return savedContext_36hbpv_b0b0d0a9.compute(new _FunctionTypes._return_P1_E0<Object, IBuilderContext>() {
                                                 public Object invoke(final IBuilderContext context) {
-                                                  SNode originalSM = Sequence.fromIterable(SNodeOperations.ofConcept(Sequence.fromIterable(SM_TransformationTrace.tryGetOriginalInputNodes(SM_ParameterConversion.toMPS(((INode) context.getInput(0))))).ofType(SNode.class), CONCEPTS.Statemachine$ba)).first();
-                                                  originalSM = SNodeOperations.cast(SM_SNodeAPI.tryGetUnwrappedNode(originalSM), CONCEPTS.Statemachine$ba);
+                                                  SNode originalSM = Sequence.fromIterable(SNodeOperations.ofConcept(Sequence.fromIterable(TransformationTrace.tryGetOriginalInputNodes(ParameterConversion.toMPS(((INode) context.getInput(0))))).ofType(SNode.class), CONCEPTS.Statemachine$ba)).first();
+                                                  originalSM = SNodeOperations.cast(SNodeAPI.tryGetUnwrappedNode(originalSM), CONCEPTS.Statemachine$ba);
                                                   SNodeFactoryOperations.addNewChild(originalSM, LINKS.states$HuiR, null);
                                                   return null;
                                                 }
@@ -546,14 +546,14 @@ public class StatemachineAsTable extends PFModule {
         return true;
       }
       public Object execute(final IPFContext _PFcontext, final ParameterList _PFparameters) {
-        return new SM_GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3384942920130481318")) {
+        return new GeneratedTransformationRule(new SNodePointer("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)", "3384942920130481318")) {
           @Override
           public void apply(ContainmentTargetRootNodes<TransformationCall> call, final TransformationResult result) {
             new RootBuilderContext(call, result).run((final IBuilderContext context) -> {
               result.setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/3384942920130481318");
               context.forChildRole("0").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                 public void invoke(final IBuilderContext context) {
-                  boolean condition_36hbpv_a0l = ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(1))), LINKS.transitions$gYb3)).where((it) -> Objects.equals(SLinkOperations.getTarget(it, LINKS.event$WZ7A), SM_ParameterConversion.toMPS(((INode) context.getInput(2))))).isNotEmpty();
+                  boolean condition_36hbpv_a0l = ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getInput(1))), LINKS.transitions$gYb3)).where((it) -> Objects.equals(SLinkOperations.getTarget(it, LINKS.event$WZ7A), ParameterConversion.toMPS(((INode) context.getInput(2))))).isNotEmpty();
                   if (condition_36hbpv_a0l) {
                     context.withParameter(BuilderContextParameter.ID, "12").createNode(new SConceptAdapter(CONCEPTS.CollectionCell$b5)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                       public void invoke(final IBuilderContext context) {
@@ -562,7 +562,7 @@ public class StatemachineAsTable extends PFModule {
                         context.getResultElement().setProperty("drawBorder", () -> {
                           return savedContext_36hbpv_a0a0l.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                             public String invoke(final IBuilderContext context) {
-                              return SM_ParameterConversion.asString(true);
+                              return ParameterConversion.asString(true);
                             }
                           });
                         });
@@ -570,7 +570,7 @@ public class StatemachineAsTable extends PFModule {
                         context.getResultElement().setProperty("vertical", () -> {
                           return savedContext_36hbpv_b0a0l.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                             public String invoke(final IBuilderContext context) {
-                              return SM_ParameterConversion.asString(true);
+                              return ParameterConversion.asString(true);
                             }
                           });
                         });
@@ -578,13 +578,13 @@ public class StatemachineAsTable extends PFModule {
                           context.forChildRole("childCells").run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                             public void invoke(final IBuilderContext context) {
                               int i_a2a0a11 = 0;
-                              for (SNode e_a2a0a11 : ListSequence.fromList(SLinkOperations.getChildren(SM_ParameterConversion.toMPS(((INode) context.getInput(1))), LINKS.transitions$gYb3)).where((it) -> Objects.equals(SLinkOperations.getTarget(it, LINKS.event$WZ7A), SM_ParameterConversion.toMPS(((INode) context.getInput(2)))))) {
-                                context.forContextValue(SM_ParameterConversion.fromMPS(e_a2a0a11)).withAdditionalIdPrefix("13" + "#" + i_a2a0a11).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
+                              for (SNode e_a2a0a11 : ListSequence.fromList(SLinkOperations.getChildren(ParameterConversion.toMPS(((INode) context.getInput(1))), LINKS.transitions$gYb3)).where((it) -> Objects.equals(SLinkOperations.getTarget(it, LINKS.event$WZ7A), ParameterConversion.toMPS(((INode) context.getInput(2)))))) {
+                                context.forContextValue(ParameterConversion.fromMPS(e_a2a0a11)).withAdditionalIdPrefix("13" + "#" + i_a2a0a11).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                   public void invoke(final IBuilderContext context) {
                                     context.withParameter(BuilderContextParameter.ID, "14").createNode(new SConceptAdapter(CONCEPTS.NodeCell$X5)).run(new _FunctionTypes._void_P1_E0<IBuilderContext>() {
                                       public void invoke(final IBuilderContext context) {
                                         context.getResultElement().setTraceInfo("r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)/8127200012857614824");
-                                        context.getResultElement().setReferenceTarget("asReference", new OutputNodeAsReferenceTarget(NodeAsOutputNodeReference.create(SM_ParameterConversion.fromMPS(SM_ParameterConversion.toMPS(((INode) context.getContextValue()))))));
+                                        context.getResultElement().setReferenceTarget("asReference", new OutputNodeAsReferenceTarget(NodeAsOutputNodeReference.create(ParameterConversion.fromMPS(ParameterConversion.toMPS(((INode) context.getContextValue()))))));
                                       }
                                     });
                                   }
@@ -604,7 +604,7 @@ public class StatemachineAsTable extends PFModule {
                         context.getResultElement().setProperty("drawBorder", () -> {
                           return savedContext_36hbpv_a0a0l_0.compute(new _FunctionTypes._return_P1_E0<String, IBuilderContext>() {
                             public String invoke(final IBuilderContext context) {
-                              return SM_ParameterConversion.asString(true);
+                              return ParameterConversion.asString(true);
                             }
                           });
                         });

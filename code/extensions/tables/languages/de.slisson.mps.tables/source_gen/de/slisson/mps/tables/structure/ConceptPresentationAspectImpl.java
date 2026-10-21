@@ -38,6 +38,16 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ColumnBorderTopColorItem;
   private ConceptPresentation props_ColumnBorderTopWidthStyleItem;
   private ConceptPresentation props_ColumnShadeColor;
+  private ConceptPresentation props_CrossTableQuery;
+  private ConceptPresentation props_CrossTable_CanInsert;
+  private ConceptPresentation props_CrossTable_Cell;
+  private ConceptPresentation props_CrossTable_ColumnHeader;
+  private ConceptPresentation props_CrossTable_Columns;
+  private ConceptPresentation props_CrossTable_Delete;
+  private ConceptPresentation props_CrossTable_Insert;
+  private ConceptPresentation props_CrossTable_Replace;
+  private ConceptPresentation props_CrossTable_RowHeader;
+  private ConceptPresentation props_CrossTable_Rows;
   private ConceptPresentation props_EditorCellHeader;
   private ConceptPresentation props_FilterParameter_element;
   private ConceptPresentation props_GridPostprocessor;
@@ -54,6 +64,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_IGeneratesFactoryMethod;
   private ConceptPresentation props_IHeader;
   private ConceptPresentation props_IHeaderNode;
+  private ConceptPresentation props_ISharedVariableScope;
   private ConceptPresentation props_IStylable;
   private ConceptPresentation props_ITableNode;
   private ConceptPresentation props_IntegerTableStyleItem;
@@ -61,12 +72,16 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Parameter_Index;
   private ConceptPresentation props_Parameter_Style;
   private ConceptPresentation props_PartialTable;
+  private ConceptPresentation props_QueryParameter_CellNode;
+  private ConceptPresentation props_QueryParameter_Column;
   private ConceptPresentation props_QueryParameter_ColumnIndex;
   private ConceptPresentation props_QueryParameter_EditorContext;
   private ConceptPresentation props_QueryParameter_Grid;
   private ConceptPresentation props_QueryParameter_ListIndex;
+  private ConceptPresentation props_QueryParameter_NewNode;
   private ConceptPresentation props_QueryParameter_Node;
   private ConceptPresentation props_QueryParameter_QueryResult;
+  private ConceptPresentation props_QueryParameter_Row;
   private ConceptPresentation props_QueryParameter_RowIndex;
   private ConceptPresentation props_QueryParameter_SubstituteInfoFactory;
   private ConceptPresentation props_RGBAColorValue;
@@ -315,6 +330,77 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ColumnShadeColor = cpb.create();
         }
         return props_ColumnShadeColor;
+      case LanguageConceptSwitch.CrossTableQuery:
+        if (props_CrossTableQuery == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("table with one row per element of 'rows' and one column per element of 'columns'");
+          cpb.rawPresentation("cross table");
+          props_CrossTableQuery = cpb.create();
+        }
+        return props_CrossTableQuery;
+      case LanguageConceptSwitch.CrossTable_CanInsert:
+        if (props_CrossTable_CanInsert == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("CrossTable_CanInsert");
+          props_CrossTable_CanInsert = cpb.create();
+        }
+        return props_CrossTable_CanInsert;
+      case LanguageConceptSwitch.CrossTable_Cell:
+        if (props_CrossTable_Cell == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("CrossTable_Cell");
+          props_CrossTable_Cell = cpb.create();
+        }
+        return props_CrossTable_Cell;
+      case LanguageConceptSwitch.CrossTable_ColumnHeader:
+        if (props_CrossTable_ColumnHeader == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("CrossTable_ColumnHeader");
+          props_CrossTable_ColumnHeader = cpb.create();
+        }
+        return props_CrossTable_ColumnHeader;
+      case LanguageConceptSwitch.CrossTable_Columns:
+        if (props_CrossTable_Columns == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("CrossTable_Columns");
+          props_CrossTable_Columns = cpb.create();
+        }
+        return props_CrossTable_Columns;
+      case LanguageConceptSwitch.CrossTable_Delete:
+        if (props_CrossTable_Delete == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("CrossTable_Delete");
+          props_CrossTable_Delete = cpb.create();
+        }
+        return props_CrossTable_Delete;
+      case LanguageConceptSwitch.CrossTable_Insert:
+        if (props_CrossTable_Insert == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("CrossTable_Insert");
+          props_CrossTable_Insert = cpb.create();
+        }
+        return props_CrossTable_Insert;
+      case LanguageConceptSwitch.CrossTable_Replace:
+        if (props_CrossTable_Replace == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("CrossTable_Replace");
+          props_CrossTable_Replace = cpb.create();
+        }
+        return props_CrossTable_Replace;
+      case LanguageConceptSwitch.CrossTable_RowHeader:
+        if (props_CrossTable_RowHeader == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("CrossTable_RowHeader");
+          props_CrossTable_RowHeader = cpb.create();
+        }
+        return props_CrossTable_RowHeader;
+      case LanguageConceptSwitch.CrossTable_Rows:
+        if (props_CrossTable_Rows == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("CrossTable_Rows");
+          props_CrossTable_Rows = cpb.create();
+        }
+        return props_CrossTable_Rows;
       case LanguageConceptSwitch.EditorCellHeader:
         if (props_EditorCellHeader == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -426,6 +512,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_IHeaderNode = cpb.create();
         }
         return props_IHeaderNode;
+      case LanguageConceptSwitch.ISharedVariableScope:
+        if (props_ISharedVariableScope == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_ISharedVariableScope = cpb.create();
+        }
+        return props_ISharedVariableScope;
       case LanguageConceptSwitch.IStylable:
         if (props_IStylable == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -474,6 +566,22 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PartialTable = cpb.create();
         }
         return props_PartialTable;
+      case LanguageConceptSwitch.QueryParameter_CellNode:
+        if (props_QueryParameter_CellNode == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("the node currently shown in the cell (never null)");
+          cpb.rawPresentation("cellNode");
+          props_QueryParameter_CellNode = cpb.create();
+        }
+        return props_QueryParameter_CellNode;
+      case LanguageConceptSwitch.QueryParameter_Column:
+        if (props_QueryParameter_Column == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("the element of 'columns' this cell belongs to");
+          cpb.rawPresentation("column");
+          props_QueryParameter_Column = cpb.create();
+        }
+        return props_QueryParameter_Column;
       case LanguageConceptSwitch.QueryParameter_ColumnIndex:
         if (props_QueryParameter_ColumnIndex == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -506,6 +614,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_QueryParameter_ListIndex = cpb.create();
         }
         return props_QueryParameter_ListIndex;
+      case LanguageConceptSwitch.QueryParameter_NewNode:
+        if (props_QueryParameter_NewNode == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("the node to put into the cell (never null)");
+          cpb.rawPresentation("newNode");
+          props_QueryParameter_NewNode = cpb.create();
+        }
+        return props_QueryParameter_NewNode;
       case LanguageConceptSwitch.QueryParameter_Node:
         if (props_QueryParameter_Node == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -521,6 +637,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_QueryParameter_QueryResult = cpb.create();
         }
         return props_QueryParameter_QueryResult;
+      case LanguageConceptSwitch.QueryParameter_Row:
+        if (props_QueryParameter_Row == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("the element of 'rows' this cell belongs to");
+          cpb.rawPresentation("row");
+          props_QueryParameter_Row = cpb.create();
+        }
+        return props_QueryParameter_Row;
       case LanguageConceptSwitch.QueryParameter_RowIndex:
         if (props_QueryParameter_RowIndex == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -694,7 +818,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         return props_TableCell;
       case LanguageConceptSwitch.TableCellQuery:
         if (props_TableCellQuery == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x13666975887a5929L);
+          cpb.deprecated(true);
+          cpb.deprecateAggregation(0x1366697588878ac7L, "create");
+          cpb.deprecateAggregation(0x37f5ddef78900ab4L, "substituteInfo");
+          cpb.deprecateAggregation(0xcf8227146debbf5L, "columnHeader");
+          cpb.deprecateAggregation(0xcf8227146debbf6L, "rowHeader");
           cpb.rawPresentation("query");
           props_TableCellQuery = cpb.create();
         }

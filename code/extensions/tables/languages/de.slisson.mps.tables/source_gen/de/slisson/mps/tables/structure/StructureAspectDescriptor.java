@@ -47,6 +47,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptColumnBorderTopColorItem = createDescriptorForColumnBorderTopColorItem();
   /*package*/ final ConceptDescriptor myConceptColumnBorderTopWidthStyleItem = createDescriptorForColumnBorderTopWidthStyleItem();
   /*package*/ final ConceptDescriptor myConceptColumnShadeColor = createDescriptorForColumnShadeColor();
+  /*package*/ final ConceptDescriptor myConceptCrossTableQuery = createDescriptorForCrossTableQuery();
+  /*package*/ final ConceptDescriptor myConceptCrossTable_CanInsert = createDescriptorForCrossTable_CanInsert();
+  /*package*/ final ConceptDescriptor myConceptCrossTable_Cell = createDescriptorForCrossTable_Cell();
+  /*package*/ final ConceptDescriptor myConceptCrossTable_ColumnHeader = createDescriptorForCrossTable_ColumnHeader();
+  /*package*/ final ConceptDescriptor myConceptCrossTable_Columns = createDescriptorForCrossTable_Columns();
+  /*package*/ final ConceptDescriptor myConceptCrossTable_Delete = createDescriptorForCrossTable_Delete();
+  /*package*/ final ConceptDescriptor myConceptCrossTable_Insert = createDescriptorForCrossTable_Insert();
+  /*package*/ final ConceptDescriptor myConceptCrossTable_Replace = createDescriptorForCrossTable_Replace();
+  /*package*/ final ConceptDescriptor myConceptCrossTable_RowHeader = createDescriptorForCrossTable_RowHeader();
+  /*package*/ final ConceptDescriptor myConceptCrossTable_Rows = createDescriptorForCrossTable_Rows();
   /*package*/ final ConceptDescriptor myConceptEditorCellHeader = createDescriptorForEditorCellHeader();
   /*package*/ final ConceptDescriptor myConceptFilterParameter_element = createDescriptorForFilterParameter_element();
   /*package*/ final ConceptDescriptor myConceptGridPostprocessor = createDescriptorForGridPostprocessor();
@@ -63,6 +73,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptIGeneratesFactoryMethod = createDescriptorForIGeneratesFactoryMethod();
   /*package*/ final ConceptDescriptor myConceptIHeader = createDescriptorForIHeader();
   /*package*/ final ConceptDescriptor myConceptIHeaderNode = createDescriptorForIHeaderNode();
+  /*package*/ final ConceptDescriptor myConceptISharedVariableScope = createDescriptorForISharedVariableScope();
   /*package*/ final ConceptDescriptor myConceptIStylable = createDescriptorForIStylable();
   /*package*/ final ConceptDescriptor myConceptITableNode = createDescriptorForITableNode();
   /*package*/ final ConceptDescriptor myConceptIntegerTableStyleItem = createDescriptorForIntegerTableStyleItem();
@@ -70,12 +81,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptParameter_Index = createDescriptorForParameter_Index();
   /*package*/ final ConceptDescriptor myConceptParameter_Style = createDescriptorForParameter_Style();
   /*package*/ final ConceptDescriptor myConceptPartialTable = createDescriptorForPartialTable();
+  /*package*/ final ConceptDescriptor myConceptQueryParameter_CellNode = createDescriptorForQueryParameter_CellNode();
+  /*package*/ final ConceptDescriptor myConceptQueryParameter_Column = createDescriptorForQueryParameter_Column();
   /*package*/ final ConceptDescriptor myConceptQueryParameter_ColumnIndex = createDescriptorForQueryParameter_ColumnIndex();
   /*package*/ final ConceptDescriptor myConceptQueryParameter_EditorContext = createDescriptorForQueryParameter_EditorContext();
   /*package*/ final ConceptDescriptor myConceptQueryParameter_Grid = createDescriptorForQueryParameter_Grid();
   /*package*/ final ConceptDescriptor myConceptQueryParameter_ListIndex = createDescriptorForQueryParameter_ListIndex();
+  /*package*/ final ConceptDescriptor myConceptQueryParameter_NewNode = createDescriptorForQueryParameter_NewNode();
   /*package*/ final ConceptDescriptor myConceptQueryParameter_Node = createDescriptorForQueryParameter_Node();
   /*package*/ final ConceptDescriptor myConceptQueryParameter_QueryResult = createDescriptorForQueryParameter_QueryResult();
+  /*package*/ final ConceptDescriptor myConceptQueryParameter_Row = createDescriptorForQueryParameter_Row();
   /*package*/ final ConceptDescriptor myConceptQueryParameter_RowIndex = createDescriptorForQueryParameter_RowIndex();
   /*package*/ final ConceptDescriptor myConceptQueryParameter_SubstituteInfoFactory = createDescriptorForQueryParameter_SubstituteInfoFactory();
   /*package*/ final ConceptDescriptor myConceptRGBAColorValue = createDescriptorForRGBAColorValue();
@@ -138,7 +153,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBorderBottomColorItem, myConceptBorderBottomWidthStyleItem, myConceptBorderLeftColorItem, myConceptBorderLeftWidthStyleItem, myConceptBorderRightColorItem, myConceptBorderRightWidthStyleItem, myConceptBorderTopColorItem, myConceptBorderTopWidthStyleItem, myConceptCanCreate_Columns, myConceptCanCreate_Query, myConceptCanCreate_Rows, myConceptCellCreateOperation, myConceptCellCreateOperationInlineEditor, myConceptChildCollection, myConceptChildFactory, myConceptChildFilter, myConceptChildsHorizontal, myConceptChildsVertical, myConceptColorQuery, myConceptColorTableStyleItem, myConceptColumnBorderBottomColorItem, myConceptColumnBorderBottomWidthStyleItem, myConceptColumnBorderLeftColorItem, myConceptColumnBorderLeftWidthStyleItem, myConceptColumnBorderRightColorItem, myConceptColumnBorderRightWidthStyleItem, myConceptColumnBorderTopColorItem, myConceptColumnBorderTopWidthStyleItem, myConceptColumnShadeColor, myConceptEditorCellHeader, myConceptFilterParameter_element, myConceptGridPostprocessor, myConceptGridQuery, myConceptHeadQuery, myConceptHeaderCollection, myConceptHeaderGroup, myConceptHeaderQuery_Delete, myConceptHeaderQuery_InsertNew, myConceptHeaderReference, myConceptHeaderStyleQueryParameter_Index, myConceptHorizontalAlignmentStyleItem, myConceptIColorValue, myConceptIGeneratesFactoryMethod, myConceptIHeader, myConceptIHeaderNode, myConceptIStylable, myConceptITableNode, myConceptIntegerTableStyleItem, myConceptIntegerTableStyleItemQuery, myConceptParameter_Index, myConceptParameter_Style, myConceptPartialTable, myConceptQueryParameter_ColumnIndex, myConceptQueryParameter_EditorContext, myConceptQueryParameter_Grid, myConceptQueryParameter_ListIndex, myConceptQueryParameter_Node, myConceptQueryParameter_QueryResult, myConceptQueryParameter_RowIndex, myConceptQueryParameter_SubstituteInfoFactory, myConceptRGBAColorValue, myConceptRowBorderBottomColorItem, myConceptRowBorderBottomWidthStyleItem, myConceptRowBorderLeftColorItem, myConceptRowBorderLeftWidthStyleItem, myConceptRowBorderRightColorItem, myConceptRowBorderRightWidthStyleItem, myConceptRowBorderTopColorItem, myConceptRowBorderTopWidthStyleItem, myConceptRowShadeColor, myConceptShadeColor, myConceptSharedVariableDeclaration, myConceptSharedVariableReference, myConceptStaticHeader, myConceptStaticHorizontal, myConceptStaticVertical, myConceptSubstituteNodeFunction, myConceptSubstituteNodeFunction_CurrentNode, myConceptSubstituteNodeFunction_LinkReference, myConceptSubstituteNodeFunction_NewValue, myConceptTable, myConceptTableCell, myConceptTableCellQuery, myConceptTableCellQueryCanCreate, myConceptTableCellQueryColumnCount, myConceptTableCellQueryCreate, myConceptTableCellQueryGetCell, myConceptTableCellQueryGetColumnHeader, myConceptTableCellQueryGetRowHeader, myConceptTableCellQueryGetSubstituteInfo, myConceptTableCellQueryRowCount, myConceptTableCellQuerySharedInit, myConceptTableNodeCollection, myConceptTableNodeCondition, myConceptTableStyle, myConceptTableStyleItem, myConceptTableStyleItemQuery, myConceptThisNodeExpression, myConceptVerticalAlignmentStyleItem);
+    return Arrays.asList(myConceptBorderBottomColorItem, myConceptBorderBottomWidthStyleItem, myConceptBorderLeftColorItem, myConceptBorderLeftWidthStyleItem, myConceptBorderRightColorItem, myConceptBorderRightWidthStyleItem, myConceptBorderTopColorItem, myConceptBorderTopWidthStyleItem, myConceptCanCreate_Columns, myConceptCanCreate_Query, myConceptCanCreate_Rows, myConceptCellCreateOperation, myConceptCellCreateOperationInlineEditor, myConceptChildCollection, myConceptChildFactory, myConceptChildFilter, myConceptChildsHorizontal, myConceptChildsVertical, myConceptColorQuery, myConceptColorTableStyleItem, myConceptColumnBorderBottomColorItem, myConceptColumnBorderBottomWidthStyleItem, myConceptColumnBorderLeftColorItem, myConceptColumnBorderLeftWidthStyleItem, myConceptColumnBorderRightColorItem, myConceptColumnBorderRightWidthStyleItem, myConceptColumnBorderTopColorItem, myConceptColumnBorderTopWidthStyleItem, myConceptColumnShadeColor, myConceptCrossTableQuery, myConceptCrossTable_CanInsert, myConceptCrossTable_Cell, myConceptCrossTable_ColumnHeader, myConceptCrossTable_Columns, myConceptCrossTable_Delete, myConceptCrossTable_Insert, myConceptCrossTable_Replace, myConceptCrossTable_RowHeader, myConceptCrossTable_Rows, myConceptEditorCellHeader, myConceptFilterParameter_element, myConceptGridPostprocessor, myConceptGridQuery, myConceptHeadQuery, myConceptHeaderCollection, myConceptHeaderGroup, myConceptHeaderQuery_Delete, myConceptHeaderQuery_InsertNew, myConceptHeaderReference, myConceptHeaderStyleQueryParameter_Index, myConceptHorizontalAlignmentStyleItem, myConceptIColorValue, myConceptIGeneratesFactoryMethod, myConceptIHeader, myConceptIHeaderNode, myConceptISharedVariableScope, myConceptIStylable, myConceptITableNode, myConceptIntegerTableStyleItem, myConceptIntegerTableStyleItemQuery, myConceptParameter_Index, myConceptParameter_Style, myConceptPartialTable, myConceptQueryParameter_CellNode, myConceptQueryParameter_Column, myConceptQueryParameter_ColumnIndex, myConceptQueryParameter_EditorContext, myConceptQueryParameter_Grid, myConceptQueryParameter_ListIndex, myConceptQueryParameter_NewNode, myConceptQueryParameter_Node, myConceptQueryParameter_QueryResult, myConceptQueryParameter_Row, myConceptQueryParameter_RowIndex, myConceptQueryParameter_SubstituteInfoFactory, myConceptRGBAColorValue, myConceptRowBorderBottomColorItem, myConceptRowBorderBottomWidthStyleItem, myConceptRowBorderLeftColorItem, myConceptRowBorderLeftWidthStyleItem, myConceptRowBorderRightColorItem, myConceptRowBorderRightWidthStyleItem, myConceptRowBorderTopColorItem, myConceptRowBorderTopWidthStyleItem, myConceptRowShadeColor, myConceptShadeColor, myConceptSharedVariableDeclaration, myConceptSharedVariableReference, myConceptStaticHeader, myConceptStaticHorizontal, myConceptStaticVertical, myConceptSubstituteNodeFunction, myConceptSubstituteNodeFunction_CurrentNode, myConceptSubstituteNodeFunction_LinkReference, myConceptSubstituteNodeFunction_NewValue, myConceptTable, myConceptTableCell, myConceptTableCellQuery, myConceptTableCellQueryCanCreate, myConceptTableCellQueryColumnCount, myConceptTableCellQueryCreate, myConceptTableCellQueryGetCell, myConceptTableCellQueryGetColumnHeader, myConceptTableCellQueryGetRowHeader, myConceptTableCellQueryGetSubstituteInfo, myConceptTableCellQueryRowCount, myConceptTableCellQuerySharedInit, myConceptTableNodeCollection, myConceptTableNodeCondition, myConceptTableStyle, myConceptTableStyleItem, myConceptTableStyleItemQuery, myConceptThisNodeExpression, myConceptVerticalAlignmentStyleItem);
   }
 
   @Override
@@ -203,6 +218,26 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptColumnBorderTopWidthStyleItem;
       case LanguageConceptSwitch.ColumnShadeColor:
         return myConceptColumnShadeColor;
+      case LanguageConceptSwitch.CrossTableQuery:
+        return myConceptCrossTableQuery;
+      case LanguageConceptSwitch.CrossTable_CanInsert:
+        return myConceptCrossTable_CanInsert;
+      case LanguageConceptSwitch.CrossTable_Cell:
+        return myConceptCrossTable_Cell;
+      case LanguageConceptSwitch.CrossTable_ColumnHeader:
+        return myConceptCrossTable_ColumnHeader;
+      case LanguageConceptSwitch.CrossTable_Columns:
+        return myConceptCrossTable_Columns;
+      case LanguageConceptSwitch.CrossTable_Delete:
+        return myConceptCrossTable_Delete;
+      case LanguageConceptSwitch.CrossTable_Insert:
+        return myConceptCrossTable_Insert;
+      case LanguageConceptSwitch.CrossTable_Replace:
+        return myConceptCrossTable_Replace;
+      case LanguageConceptSwitch.CrossTable_RowHeader:
+        return myConceptCrossTable_RowHeader;
+      case LanguageConceptSwitch.CrossTable_Rows:
+        return myConceptCrossTable_Rows;
       case LanguageConceptSwitch.EditorCellHeader:
         return myConceptEditorCellHeader;
       case LanguageConceptSwitch.FilterParameter_element:
@@ -235,6 +270,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptIHeader;
       case LanguageConceptSwitch.IHeaderNode:
         return myConceptIHeaderNode;
+      case LanguageConceptSwitch.ISharedVariableScope:
+        return myConceptISharedVariableScope;
       case LanguageConceptSwitch.IStylable:
         return myConceptIStylable;
       case LanguageConceptSwitch.ITableNode:
@@ -249,6 +286,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptParameter_Style;
       case LanguageConceptSwitch.PartialTable:
         return myConceptPartialTable;
+      case LanguageConceptSwitch.QueryParameter_CellNode:
+        return myConceptQueryParameter_CellNode;
+      case LanguageConceptSwitch.QueryParameter_Column:
+        return myConceptQueryParameter_Column;
       case LanguageConceptSwitch.QueryParameter_ColumnIndex:
         return myConceptQueryParameter_ColumnIndex;
       case LanguageConceptSwitch.QueryParameter_EditorContext:
@@ -257,10 +298,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptQueryParameter_Grid;
       case LanguageConceptSwitch.QueryParameter_ListIndex:
         return myConceptQueryParameter_ListIndex;
+      case LanguageConceptSwitch.QueryParameter_NewNode:
+        return myConceptQueryParameter_NewNode;
       case LanguageConceptSwitch.QueryParameter_Node:
         return myConceptQueryParameter_Node;
       case LanguageConceptSwitch.QueryParameter_QueryResult:
         return myConceptQueryParameter_QueryResult;
+      case LanguageConceptSwitch.QueryParameter_Row:
+        return myConceptQueryParameter_Row;
       case LanguageConceptSwitch.QueryParameter_RowIndex:
         return myConceptQueryParameter_RowIndex;
       case LanguageConceptSwitch.QueryParameter_SubstituteInfoFactory:
@@ -679,6 +724,122 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("column-shade-color");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForCrossTableQuery() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTableQuery", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x6f725f94b4bdaf2dL);
+    b.class_(false, false, false);
+    b.parent(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x13666975885ae249L);
+    b.parent(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x4e9430da1e96d2dbL);
+    b.parent(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x6d09ee0a1f73a99eL);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801233894");
+    b.version(3);
+    b.associate("cellConcept", 0x5b53fb65c2ac6034L).target(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0x1103553c5ffL).optional(true).origin("4960929520801233910").done();
+    b.associate("menuConcept", 0x55390c185099c09cL).target(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0x1103553c5ffL).optional(true).origin("4960929520801233911").done();
+    b.associate("menuLink", 0x1e9b99acf177ed0eL).target(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0xf979bd086aL).optional(true).origin("4960929520801233912").done();
+    b.aggregate("sharedVariables", 0x5d6d8ffdf62d0f99L).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x7aba78518942f219L).optional(true).ordered(true).multiple(true).origin("4960929520801233899").done();
+    b.aggregate("sharedInit", 0x11ddabae1369e9bL).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x7aba785189469d91L).optional(true).ordered(true).multiple(false).origin("4960929520801233900").done();
+    b.aggregate("rows", 0x65e0a8e5cf34ea28L).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x5c50a95224719ecbL).optional(false).ordered(true).multiple(false).origin("4960929520801233901").done();
+    b.aggregate("columns", 0x7a4df305678cd049L).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0xe38fadbaf67dd39L).optional(false).ordered(true).multiple(false).origin("4960929520801233902").done();
+    b.aggregate("cell", 0x554abc7b877ca0d2L).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x5281752c56e8d226L).optional(false).ordered(true).multiple(false).origin("4960929520801233903").done();
+    b.aggregate("rowHeader", 0x41f3009001dce94fL).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x5483bfba57db8c40L).optional(true).ordered(true).multiple(false).origin("4960929520801233904").done();
+    b.aggregate("columnHeader", 0xf0c4fb7014797e9L).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x4811c5fe2fffc14aL).optional(true).ordered(true).multiple(false).origin("4960929520801233905").done();
+    b.aggregate("canInsert", 0x3f5aa610853fc762L).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x3d594a742acea5b7L).optional(true).ordered(true).multiple(false).origin("4960929520801233906").done();
+    b.aggregate("insertNode", 0x65128bc584c901a6L).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x15581113515ee886L).optional(true).ordered(true).multiple(false).origin("4960929520801233907").done();
+    b.aggregate("deleteNode", 0x1f23977b54a43a12L).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x6fbac5e9aaa2acfL).optional(true).ordered(true).multiple(false).origin("4960929520801233908").done();
+    b.aggregate("replaceNode", 0x4147527002ab372L).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x36f077f2c676fd9cL).optional(true).ordered(true).multiple(false).origin("4960929520801233909").done();
+    b.alias("cross table");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCrossTable_CanInsert() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTable_CanInsert", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x3d594a742acea5b7L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunction
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801231950");
+    b.version(3);
+    b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCrossTable_Cell() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTable_Cell", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x5281752c56e8d226L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunction
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801231247");
+    b.version(3);
+    b.property("displayType", 0x4b786bc5e9814a0dL).type(MetaIdFactory.dataTypeId(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x348a598ce651855dL)).origin("4960929520801231248").done();
+    b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCrossTable_ColumnHeader() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTable_ColumnHeader", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x4811c5fe2fffc14aL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunction
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801231481");
+    b.version(3);
+    b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCrossTable_Columns() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTable_Columns", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0xe38fadbaf67dd39L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunction
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801231015");
+    b.version(3);
+    b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCrossTable_Delete() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTable_Delete", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x6fbac5e9aaa2acfL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunction
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801232423");
+    b.version(3);
+    b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCrossTable_Insert() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTable_Insert", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x15581113515ee886L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunction
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801232186");
+    b.version(3);
+    b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCrossTable_Replace() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTable_Replace", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x36f077f2c676fd9cL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunction
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801232661");
+    b.version(3);
+    b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCrossTable_RowHeader() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTable_RowHeader", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x5483bfba57db8c40L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunction
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801231715");
+    b.version(3);
+    b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCrossTable_Rows() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "CrossTable_Rows", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x5c50a95224719ecbL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunction
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801230785");
+    b.version(3);
+    b.kind(ConceptKind.INTERFACE, StaticScope.GLOBAL);
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForEditorCellHeader() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "EditorCellHeader", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x59bc16f63fbda38cL);
     b.class_(false, false, false);
@@ -844,6 +1005,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForISharedVariableScope() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "ISharedVariableScope", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x6d09ee0a1f73a99eL);
+    b.interface_();
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801233636");
+    b.version(3);
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForIStylable() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "IStylable", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x4e9430da1e96d2dbL);
     b.interface_();
@@ -917,6 +1085,26 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("partial table");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForQueryParameter_CellNode() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "QueryParameter_CellNode", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x364e04587d98e31eL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x101c66e2c0bL);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801229820");
+    b.version(3);
+    b.alias("cellNode");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForQueryParameter_Column() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "QueryParameter_Column", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x1922e61bfbbe8670L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x101c66e2c0bL);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801229365");
+    b.version(3);
+    b.alias("column");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForQueryParameter_ColumnIndex() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "QueryParameter_ColumnIndex", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x13666975888410acL);
     b.class_(false, false, false);
@@ -957,6 +1145,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("listIndex");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForQueryParameter_NewNode() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "QueryParameter_NewNode", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x68486622968752cbL);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x101c66e2c0bL);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801229592");
+    b.version(3);
+    b.alias("newNode");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForQueryParameter_Node() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "QueryParameter_Node", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x13666975886c6039L);
     b.class_(false, false, false);
@@ -975,6 +1173,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/8796340803744838729");
     b.version(3);
     b.alias("queryResult");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForQueryParameter_Row() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.slisson.mps.tables", "QueryParameter_Row", 0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x6462fb73d8fe4992L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter
+    b.super_(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x101c66e2c0bL);
+    b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/4960929520801228403");
+    b.version(3);
+    b.alias("row");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForQueryParameter_RowIndex() {
@@ -1250,6 +1458,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.parent(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x13666975885ae249L);
     b.parent(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x4e9430da1e96d2dbL);
+    b.parent(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x6d09ee0a1f73a99eL);
     b.origin("r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)/1397920687866927401");
     b.version(3);
     b.aggregate("columnCount", 0x13666975887a5c0dL).target(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x13666975887a59c5L).optional(false).ordered(true).multiple(false).origin("1397920687866928141").done();

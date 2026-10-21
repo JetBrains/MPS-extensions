@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-d0jjtn8pj5wme3kj5on9q19tiws3tep">
-  <files names="IntentionsDescriptor.java:PasteCellsFromClipboardSpaceSeparated.java:PasteCellsFromClipboardTabSeparated.java:SelectionIntentionsDescriptor.java" />
+<product version="3" modelHash="b41rozh57p2e8ti726effraus5dsb2k">
+  <files names="IntentionsDescriptor.java:MigrateTableCellQueryToCrossTable_Intention.java:PasteCellsFromClipboardSpaceSeparated.java:PasteCellsFromClipboardTabSeparated.java:SelectionIntentionsDescriptor.java" />
 </product>
 

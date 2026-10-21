@@ -4,6 +4,20 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## October 2026
+
+### Added
+
+- *de.slisson.mps.tables* New table node 'cross table' (CrossTableQuery): rows and columns are sequences of objects (or a number of rows/columns), the cell query gets the typed 'row' and 'column', and editing is split into 'insert', 'delete' and 'replace' handlers of which only 'insert' is required.
+
+### Deprecated
+
+- *de.slisson.mps.tables* The cell 'query' (TableCellQuery) is deprecated in favor of 'cross table'. The intention 'Migrate to Cross Table' converts an existing query; its 'substitute node' function is copied into the three handlers.
+
+### Fixed
+
+- *de.slisson.mps.tables* Cell query: 'can create: columns' had no effect, and the column/row header queries were evaluated once per cell instead of once per column/row.
+
 ## September 2026
 
 ### Fixed

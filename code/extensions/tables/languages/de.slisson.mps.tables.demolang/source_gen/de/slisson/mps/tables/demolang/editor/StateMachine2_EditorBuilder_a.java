@@ -35,21 +35,8 @@ import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import de.slisson.mps.tables.runtime.gridmodel.HeaderNodeInsertAction;
 import de.slisson.mps.tables.runtime.gridmodel.HeaderNodeDeleteAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import de.slisson.mps.tables.runtime.gridmodel.GridAdapter;
-import de.slisson.mps.tables.runtime.cells.InCellListHandler;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
-import de.slisson.mps.tables.runtime.gridmodel.GridElementFactory;
-import de.slisson.mps.tables.runtime.gridmodel.IGridElement;
-import de.slisson.mps.tables.runtime.substitute.CellQuerySubstituteInfo;
-import de.slisson.mps.tables.runtime.cells.TableUtils;
-import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
-import jetbrains.mps.openapi.editor.cells.CellAction;
-import de.slisson.mps.tables.runtime.cells.EditorCell_GridCell;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
+import de.slisson.mps.tables.runtime.cells.CrossTableGridBuilder;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.ide.datatransfer.CopyPasteUtil;
-import jetbrains.mps.logging.Logger;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -220,7 +207,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
     List<Grid> children = new ArrayList<Grid>(1);
     if (true) {
-      children.add(createTableCellQuery_7zgzmw_a0a0(editorContext, node));
+      children.add(createCrossTableQuery_7zgzmw_a0a0(editorContext, node));
     }
     int maxHeight = grid.getRowHeadersSizeY();
     for (Grid child : ListSequence.fromList(children)) {
@@ -292,203 +279,48 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private boolean _StyleParameter_QueryFunction_7zgzmw_a0a0a0a() {
     return SPropertyOperations.getBoolean(getNode(), PROPS.stickyHeaders$sTXH);
   }
-  public Grid createTableCellQuery_7zgzmw_a0a0(final EditorContext editorContext, final SNode node) {
-    final Grid grid = new Grid();
-    final GridAdapter gridAdapter = new GridAdapter(grid, editorContext, node);
-
+  public Grid createCrossTableQuery_7zgzmw_a0a0(final EditorContext editorContext, final SNode node) {
     try {
       getCellFactory().pushCellContext();
       getCellFactory().addCellContextHints();
       getCellFactory().removeCellContextHints();
-      new Object() {
+      CrossTableGridBuilder builder = new CrossTableGridBuilder(editorContext, node, CONCEPTS.Transition2$C8, CONCEPTS.Transition2$C8, null) {
         {
         }
-        public int getSizeX() {
-          return ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.events$$xyz)).count();
+        protected Object getRows() {
+          return SLinkOperations.getChildren(node, LINKS.states$$x4x);
         }
-        public int getSizeY() {
-          return ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.states$$x4x)).count();
+        protected Object getColumns() {
+          return SLinkOperations.getChildren(node, LINKS.events$$xyz);
         }
-        public void loadElements() {
-          final int sizeX = getSizeX();
-          final int sizeY = getSizeY();
-
-          for (int xi = 0; xi < sizeX; xi++) {
-            for (int yi = 0; yi < sizeY; yi++) {
-              final int x = xi;
-              final int y = yi;
-              // (instance of SequenceType)
-              Object queryResult_ = queryCellsSafely(node, x, y);
-              if (queryResult_ instanceof Iterable) {
-                InCellListHandler listHandler = new InCellListHandler(node, (Iterable<SNode>) queryResult_, editorContext) {
-                  @NotNull
-                  @Override
-                  public SNode getNode() {
-                    return node;
-                  }
-                  public SNode createNode(int index) {
-                    return doSubstituteNode(node, x, y, index, editorContext, null, null);
-                  }
-                };
-                queryResult_ = listHandler.createCells(new CellLayout_Vertical());
-              }
-              grid.setElement(x, y, new GridElementFactory(editorContext, node, false, false, grid).create(queryResult_));
-
-              // set headers
-
-              IGridElement currentGridElement = grid.getElement(x, y);
-
-              // set substitute info
-              if (currentGridElement instanceof Grid && !(((Grid) currentGridElement).isEmpty())) {
-                Grid currentGrid = ((Grid) currentGridElement);
-                for (int indexX = 0; indexX < currentGrid.getSizeX(); indexX++) {
-                  for (int indexY = 0; indexY < currentGrid.getSizeY(); indexY++) {
-                    IGridElement listElement = currentGrid.getElement(indexX, indexY);
-                    final int index = Math.max(indexX, indexY);
-
-                    listElement.setSubstituteInfo(new CellQuerySubstituteInfo(editorContext, node, (queryResult_ instanceof SNode ? ((SNode) queryResult_) : SNodeOperations.cast(TableUtils.getSNode(listElement, CONCEPTS.Transition2$C8), CONCEPTS.Transition2$C8)), CONCEPTS.Transition2$C8, null) {
-                      public SNode substituteNode(SNode currentNode, SNode newValue) {
-                        return doSubstituteNode(node, x, y, index, editorContext, currentNode, newValue);
-                      }
-                    });
-
-                    if (canCreate(x, y, index)) {
-                      listElement.setInsertBeforeAction(new AbstractCellAction() {
-                        public void execute(EditorContext p0) {
-                          createNode(x, y, index);
-                        }
-                      });
-                    }
-                    if (canCreate(x, y, index + 1)) {
-                      listElement.setInsertAction(new AbstractCellAction() {
-                        public void execute(EditorContext p0) {
-                          createNode(x, y, index + 1);
-                        }
-                      });
-                    }
-                  }
-                }
-              } else {
-                final SNode nodeAtPosition = (queryResult_ instanceof SNode ? ((SNode) queryResult_) : SNodeOperations.cast(TableUtils.getSNode(currentGridElement, CONCEPTS.Transition2$C8), CONCEPTS.Transition2$C8));
-                gridAdapter.setSubstituteInfo(x, y, new CellQuerySubstituteInfo(editorContext, node, nodeAtPosition, CONCEPTS.Transition2$C8, null) {
-                  public SNode substituteNode(SNode currentNode, SNode newValue) {
-                    return doSubstituteNode(node, x, y, 0, editorContext, currentNode, newValue);
-                  }
-                });
-                if (canCreate(x, y, 0)) {
-                  currentGridElement = grid.getElement(x, y);
-
-                  CellAction insertAction = new AbstractCellAction() {
-                    public void execute(EditorContext p0) {
-                      createNode(x, y, 0);
-                    }
-                  };
-                  currentGridElement.setInsertBeforeAction(insertAction);
-                  currentGridElement.setInsertAction(insertAction);
-                  currentGridElement.setPasteAction(new AbstractCellAction() {
-                    public boolean isNested(EditorCell cell) {
-                      if (cell instanceof EditorCell_GridCell) {
-                        return false;
-                      }
-                      EditorCell_Collection parent = cell.getParent();
-                      if (parent == null) {
-                        return false;
-                      }
-                      Iterable<EditorCell> siblings = parent;
-                      if (Sequence.fromIterable(siblings).subtract(Sequence.fromIterable(Sequence.<EditorCell>singleton(cell))).isNotEmpty()) {
-                        return true;
-                      }
-                      return isNested(parent);
-                    }
-                    @Override
-                    public boolean canExecute(EditorContext context) {
-                      List<EditorCell> selectedCells = context.getEditorComponent().getSelectionManager().getSelection().getSelectedCells();
-                      if (ListSequence.fromList(selectedCells).count() != 1 || isNested(ListSequence.fromList(selectedCells).first())) {
-                        return false;
-                      }
-                      return super.canExecute(context);
-                    }
-                    public void execute(EditorContext ec) {
-                      List<SNode> nodesFromClipboard = CopyPasteUtil.getNodesFromClipboard();
-                      SNode nodeFromClipboard = (nodesFromClipboard.size() > 0 ? nodesFromClipboard.get(0) : null);
-                      if (nodeFromClipboard != null && SNodeOperations.isInstanceOf(nodeFromClipboard, CONCEPTS.Transition2$C8)) {
-                        if ((SNodeOperations.getParent(nodeFromClipboard) != null)) {
-                          nodeFromClipboard = SNodeOperations.copyNode(nodeFromClipboard);
-                        }
-                        doSubstituteNode(node, x, y, 0, editorContext, nodeAtPosition, nodeFromClipboard);
-                      }
-                    }
-                  });
-                }
-              }
-
-
-              // style
-              final Object queryResult = queryResult_;
-              grid.getElement(x, y).setStyle(new ITableStyleFactory() {
-                public Style createStyle(final int columnIndex, final int rowIndex) {
-                  Style style = new StyleImpl();
-                  final EditorCell editorCell = null;
-                  return style;
-                }
-              }.createStyle(x, y));
-            }
-          }
-        }
-        public boolean canCreate(int columnIndex, int rowIndex, int listIndex) {
-          return true;
-        }
-        public SNode createNode(int columnIndex, int rowIndex, int listIndex) {
-          return doSubstituteNode(node, columnIndex, rowIndex, listIndex, editorContext, null, null);
-        }
-
-        public Object queryCellsSafely(final SNode node, final int columnIndex, final int rowIndex) {
-          try {
-            return queryCells(node, columnIndex, rowIndex);
-          } catch (Exception ex) {
-            Logger.getLogger(getClass()).error("Failed to query cell [" + rowIndex + ", " + columnIndex + "]", ex);
-            return new EditorCell_Error(editorContext, node, "!exception! for [" + rowIndex + ", " + columnIndex + "]:" + ex.getMessage());
-          }
-        }
-
-        private Object queryCells(final SNode node, final int columnIndex, final int rowIndex) {
-          final SNode trigger = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.events$$xyz)).getElement(columnIndex);
-          Iterable<SNode> transitions = ListSequence.fromList(SLinkOperations.getChildren(ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.states$$x4x)).getElement(rowIndex), LINKS.transitions$Fst9)).where((it) -> SLinkOperations.getTarget(it, LINKS.trigger$FtED) == trigger);
+        protected Object getCell(Object row, final Object column, int rowIndex, int columnIndex) {
+          Iterable<SNode> transitions = ListSequence.fromList(SLinkOperations.getChildren(((SNode) row), LINKS.transitions$Fst9)).where((it) -> SLinkOperations.getTarget(it, LINKS.trigger$FtED) == ((SNode) column));
           return (Sequence.fromIterable(transitions).isEmpty() ? null : transitions);
         }
-
-        public SNode doSubstituteNode(SNode node, int columnIndex, int rowIndex, int listIndex, EditorContext editorContext, SNode currentNode, SNode newValue) {
-          currentNode = SNodeOperations.cast(currentNode, CONCEPTS.Transition2$C8);
-          newValue = SNodeOperations.cast(newValue, CONCEPTS.Transition2$C8);
-          if (rowIndex < ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.states$$x4x)).count() && columnIndex < ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.events$$xyz)).count()) {
-            SNode from = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.states$$x4x)).getElement(rowIndex);
-            SNode trigger = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.events$$xyz)).getElement(columnIndex);
-            SNode transition = null;
-            if (currentNode == null && newValue == null) {
-              transition = ListSequence.fromList(SLinkOperations.getChildren(from, LINKS.transitions$Fst9)).insertElement(listIndex, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x2d56439e634d4d25L, 0x9d30963e89ecda48L, 0x2c87cfd4120caca8L, "de.slisson.mps.tables.demolang.structure.Transition2")));
-            } else if (currentNode == null && newValue != null) {
-              transition = ListSequence.fromList(SLinkOperations.getChildren(from, LINKS.transitions$Fst9)).addElement(newValue);
-            } else if (currentNode != null && newValue == null) {
-              ListSequence.fromList(SLinkOperations.getChildren(from, LINKS.transitions$Fst9)).removeElement(currentNode);
-            } else {
-              transition = SNodeOperations.replaceWithAnother(currentNode, newValue);
-            }
-            if (transition != null) {
-              SLinkOperations.setTarget(transition, LINKS.trigger$FtED, trigger);
-            }
-            return transition;
-          } else {
-            return null;
-          }
+        protected boolean isEditable() {
+          return true;
         }
-      }.loadElements();
-
+        protected void insertNode(Object row, Object column, int rowIndex, int columnIndex, int listIndex, SNode newNode) {
+          ListSequence.fromList(SLinkOperations.getChildren(((SNode) row), LINKS.transitions$Fst9)).insertElement(Math.min(listIndex, ListSequence.fromList(SLinkOperations.getChildren(((SNode) row), LINKS.transitions$Fst9)).count()), newNode);
+          SLinkOperations.setTarget(newNode, LINKS.trigger$FtED, ((SNode) column));
+        }
+        protected boolean isInCellList() {
+          return true;
+        }
+        protected Style createCellStyle(final Object row, final Object column, final Object queryResult, int columnIndex, int rowIndex) {
+          return new ITableStyleFactory() {
+            public Style createStyle(final int columnIndex, final int rowIndex) {
+              Style style = new StyleImpl();
+              final EditorCell editorCell = null;
+              return style;
+            }
+          }.createStyle(columnIndex, rowIndex);
+        }
+      };
+      return builder.createGrid();
     } finally {
       getCellFactory().popCellContext();
     }
-
-
-    return grid;
   }
 
   private static final class LINKS {

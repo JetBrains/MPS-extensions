@@ -37,19 +37,8 @@ import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import de.slisson.mps.tables.runtime.gridmodel.HeaderNodeInsertAction;
 import de.slisson.mps.tables.runtime.gridmodel.HeaderNodeDeleteAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import de.slisson.mps.tables.runtime.gridmodel.GridAdapter;
-import de.slisson.mps.tables.runtime.gridmodel.GridElementFactory;
-import de.slisson.mps.tables.runtime.gridmodel.IGridElement;
-import de.slisson.mps.tables.runtime.substitute.CellQuerySubstituteInfo;
-import de.slisson.mps.tables.runtime.cells.TableUtils;
-import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
-import jetbrains.mps.openapi.editor.cells.CellAction;
-import de.slisson.mps.tables.runtime.cells.EditorCell_GridCell;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
-import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.ide.datatransfer.CopyPasteUtil;
-import jetbrains.mps.logging.Logger;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
+import de.slisson.mps.tables.runtime.cells.CrossTableGridBuilder;
+import java.util.logging.Logger;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -219,7 +208,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
     List<Grid> children = new ArrayList<Grid>(1);
     if (true) {
-      children.add(createTableCellQuery_h1ymql_a0a0(editorContext, node));
+      children.add(createCrossTableQuery_h1ymql_a0a0(editorContext, node));
     }
     int maxHeight = grid.getRowHeadersSizeY();
     for (Grid child : ListSequence.fromList(children)) {
@@ -294,171 +283,63 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private boolean _StyleParameter_QueryFunction_h1ymql_a0a0a0a() {
     return SPropertyOperations.getBoolean(getNode(), PROPS.stickyHeaders$sTXH);
   }
-  public Grid createTableCellQuery_h1ymql_a0a0(final EditorContext editorContext, final SNode node) {
-    final Grid grid = new Grid();
-    final GridAdapter gridAdapter = new GridAdapter(grid, editorContext, node);
-
+  public Grid createCrossTableQuery_h1ymql_a0a0(final EditorContext editorContext, final SNode node) {
     try {
       getCellFactory().pushCellContext();
       getCellFactory().addCellContextHints();
       getCellFactory().removeCellContextHints();
-      new Object() {
+      CrossTableGridBuilder builder = new CrossTableGridBuilder(editorContext, node, CONCEPTS.DecisionTableResult$Zk, CONCEPTS.Expression$mB, LINKS.result$qhbg) {
         {
         }
-        public int getSizeX() {
-          return ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.xExpressions$pTva)).count();
-        }
-        public int getSizeY() {
+        protected Object getRows() {
           return ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.yExpressions$pTXc)).count();
         }
-        public void loadElements() {
-          final int sizeX = getSizeX();
-          final int sizeY = getSizeY();
-
-          for (int xi = 0; xi < sizeX; xi++) {
-            for (int yi = 0; yi < sizeY; yi++) {
-              final int x = xi;
-              final int y = yi;
-              // (instance of SNodeType)
-              Object queryResult_ = queryCellsSafely(node, x, y);
-              grid.setElement(x, y, new GridElementFactory(editorContext, node, true, false, grid).create(queryResult_));
-
-              // set headers
-
-              IGridElement currentGridElement = grid.getElement(x, y);
-
-              // set substitute info
-              if (currentGridElement instanceof Grid && !(((Grid) currentGridElement).isEmpty())) {
-                Grid currentGrid = ((Grid) currentGridElement);
-                for (int indexX = 0; indexX < currentGrid.getSizeX(); indexX++) {
-                  for (int indexY = 0; indexY < currentGrid.getSizeY(); indexY++) {
-                    IGridElement listElement = currentGrid.getElement(indexX, indexY);
-                    final int index = Math.max(indexX, indexY);
-
-                    listElement.setSubstituteInfo(new CellQuerySubstituteInfo(editorContext, node, (queryResult_ instanceof SNode ? ((SNode) queryResult_) : SNodeOperations.cast(TableUtils.getSNode(listElement, CONCEPTS.DecisionTableResult$Zk), CONCEPTS.DecisionTableResult$Zk)), CONCEPTS.Expression$mB, LINKS.result$qhbg) {
-                      public SNode substituteNode(SNode currentNode, SNode newValue) {
-                        return doSubstituteNode(node, x, y, index, editorContext, currentNode, newValue);
-                      }
-                    });
-
-                    if (canCreate(x, y, index)) {
-                      listElement.setInsertBeforeAction(new AbstractCellAction() {
-                        public void execute(EditorContext p0) {
-                          createNode(x, y, index);
-                        }
-                      });
-                    }
-                    if (canCreate(x, y, index + 1)) {
-                      listElement.setInsertAction(new AbstractCellAction() {
-                        public void execute(EditorContext p0) {
-                          createNode(x, y, index + 1);
-                        }
-                      });
-                    }
-                  }
-                }
-              } else {
-                final SNode nodeAtPosition = (queryResult_ instanceof SNode ? ((SNode) queryResult_) : SNodeOperations.cast(TableUtils.getSNode(currentGridElement, CONCEPTS.DecisionTableResult$Zk), CONCEPTS.DecisionTableResult$Zk));
-                gridAdapter.setSubstituteInfo(x, y, new CellQuerySubstituteInfo(editorContext, node, nodeAtPosition, CONCEPTS.Expression$mB, LINKS.result$qhbg) {
-                  public SNode substituteNode(SNode currentNode, SNode newValue) {
-                    return doSubstituteNode(node, x, y, 0, editorContext, currentNode, newValue);
-                  }
-                });
-                if (canCreate(x, y, 0)) {
-                  currentGridElement = grid.getElement(x, y);
-
-                  CellAction insertAction = new AbstractCellAction() {
-                    public void execute(EditorContext p0) {
-                      createNode(x, y, 0);
-                    }
-                  };
-                  currentGridElement.setInsertBeforeAction(insertAction);
-                  currentGridElement.setInsertAction(insertAction);
-                  currentGridElement.setPasteAction(new AbstractCellAction() {
-                    public boolean isNested(EditorCell cell) {
-                      if (cell instanceof EditorCell_GridCell) {
-                        return false;
-                      }
-                      EditorCell_Collection parent = cell.getParent();
-                      if (parent == null) {
-                        return false;
-                      }
-                      Iterable<EditorCell> siblings = parent;
-                      if (Sequence.fromIterable(siblings).subtract(Sequence.fromIterable(Sequence.<EditorCell>singleton(cell))).isNotEmpty()) {
-                        return true;
-                      }
-                      return isNested(parent);
-                    }
-                    @Override
-                    public boolean canExecute(EditorContext context) {
-                      List<EditorCell> selectedCells = context.getEditorComponent().getSelectionManager().getSelection().getSelectedCells();
-                      if (ListSequence.fromList(selectedCells).count() != 1 || isNested(ListSequence.fromList(selectedCells).first())) {
-                        return false;
-                      }
-                      return super.canExecute(context);
-                    }
-                    public void execute(EditorContext ec) {
-                      List<SNode> nodesFromClipboard = CopyPasteUtil.getNodesFromClipboard();
-                      SNode nodeFromClipboard = (nodesFromClipboard.size() > 0 ? nodesFromClipboard.get(0) : null);
-                      if (nodeFromClipboard != null && SNodeOperations.isInstanceOf(nodeFromClipboard, CONCEPTS.Expression$mB)) {
-                        if ((SNodeOperations.getParent(nodeFromClipboard) != null)) {
-                          nodeFromClipboard = SNodeOperations.copyNode(nodeFromClipboard);
-                        }
-                        doSubstituteNode(node, x, y, 0, editorContext, nodeAtPosition, nodeFromClipboard);
-                      }
-                    }
-                  });
-                }
-              }
-
-
-              // style
-              final Object queryResult = queryResult_;
-              grid.getElement(x, y).setStyle(new ITableStyleFactory() {
-                public Style createStyle(final int columnIndex, final int rowIndex) {
-                  Style style = new StyleImpl();
-                  final EditorCell editorCell = null;
-                  style.set(StyleAttributes.getInstance().<Color>getAttribute("de.slisson.mps.tables", "shade-color"), MPSColors.cyan);
-                  return style;
-                }
-              }.createStyle(x, y));
-            }
-          }
+        protected Object getColumns() {
+          return ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.xExpressions$pTva)).count();
         }
-        public boolean canCreate(int columnIndex, int rowIndex, int listIndex) {
-          return true;
-        }
-        public SNode createNode(int columnIndex, int rowIndex, int listIndex) {
-          return doSubstituteNode(node, columnIndex, rowIndex, listIndex, editorContext, null, null);
-        }
-
-        public Object queryCellsSafely(final SNode node, final int columnIndex, final int rowIndex) {
-          try {
-            return queryCells(node, columnIndex, rowIndex);
-          } catch (Exception ex) {
-            Logger.getLogger(getClass()).error("Failed to query cell [" + rowIndex + ", " + columnIndex + "]", ex);
-            return new EditorCell_Error(editorContext, node, "!exception! for [" + rowIndex + ", " + columnIndex + "]:" + ex.getMessage());
-          }
-        }
-
-        private Object queryCells(final SNode node, final int columnIndex, final int rowIndex) {
+        protected Object getCell(Object row, Object column, int rowIndex, int columnIndex) {
           final SNode xExpr = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.xExpressions$pTva)).getElement(columnIndex);
           final SNode yExpr = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.yExpressions$pTXc)).getElement(rowIndex);
           return ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.results$q8h9)).findFirst((it) -> SLinkOperations.getTarget(it, LINKS.xExpression$qg0b) == xExpr && SLinkOperations.getTarget(it, LINKS.yExpression$qgud) == yExpr);
         }
-
-        public SNode doSubstituteNode(SNode node, int columnIndex, int rowIndex, int listIndex, EditorContext editorContext, SNode currentNode, SNode newValue) {
-          currentNode = SNodeOperations.cast(currentNode, CONCEPTS.DecisionTableResult$Zk);
-          newValue = SNodeOperations.cast(newValue, CONCEPTS.Expression$mB);
-          java.util.logging.Logger.getLogger("DecTab Substitute").info("DecTab Substitute " + columnIndex + " / " + rowIndex + " / " + listIndex + " / " + currentNode + " / " + newValue);
+        protected boolean isEditable() {
+          return true;
+        }
+        protected void insertNode(Object row, Object column, int rowIndex, int columnIndex, int listIndex, SNode newNode) {
+          SNode currentNode = null;
+          Logger.getLogger("DecTab Substitute").info("DecTab Substitute " + columnIndex + " / " + rowIndex + " / " + listIndex + " / " + currentNode + " / " + newNode);
           if (columnIndex >= ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.xExpressions$pTva)).count() || rowIndex >= ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.yExpressions$pTXc)).count()) {
-            return null;
+            return;
           }
 
           SNode xExpr = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.xExpressions$pTva)).getElement(columnIndex);
           SNode yExpr = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.yExpressions$pTXc)).getElement(rowIndex);
           SNode decTabResult = currentNode;
           if (currentNode == null) {
+            decTabResult = SLinkOperations.addNewChild(node, LINKS.results$q8h9, null);
+          }
+          if (newNode == null) {
+            SNodeOperations.deleteNode(decTabResult);
+            decTabResult = null;
+          } else {
+            SLinkOperations.setTarget(decTabResult, LINKS.result$qhbg, newNode);
+          }
+          SLinkOperations.setTarget(decTabResult, LINKS.xExpression$qg0b, xExpr);
+          SLinkOperations.setTarget(decTabResult, LINKS.yExpression$qgud, yExpr);
+          return;
+
+        }
+        protected void deleteNode(Object row, Object column, int rowIndex, int columnIndex, int listIndex, SNode cellNode) {
+          SNode newValue = null;
+          Logger.getLogger("DecTab Substitute").info("DecTab Substitute " + columnIndex + " / " + rowIndex + " / " + listIndex + " / " + cellNode + " / " + newValue);
+          if (columnIndex >= ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.xExpressions$pTva)).count() || rowIndex >= ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.yExpressions$pTXc)).count()) {
+            return;
+          }
+
+          SNode xExpr = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.xExpressions$pTva)).getElement(columnIndex);
+          SNode yExpr = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.yExpressions$pTXc)).getElement(rowIndex);
+          SNode decTabResult = cellNode;
+          if (cellNode == null) {
             decTabResult = SLinkOperations.addNewChild(node, LINKS.results$q8h9, null);
           }
           if (newValue == null) {
@@ -469,17 +350,50 @@ import org.jetbrains.mps.openapi.language.SConcept;
           }
           SLinkOperations.setTarget(decTabResult, LINKS.xExpression$qg0b, xExpr);
           SLinkOperations.setTarget(decTabResult, LINKS.yExpression$qgud, yExpr);
-          return decTabResult;
+          return;
 
         }
-      }.loadElements();
+        protected void replaceNode(Object row, Object column, int rowIndex, int columnIndex, int listIndex, SNode cellNode, SNode newNode) {
+          Logger.getLogger("DecTab Substitute").info("DecTab Substitute " + columnIndex + " / " + rowIndex + " / " + listIndex + " / " + cellNode + " / " + newNode);
+          if (columnIndex >= ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.xExpressions$pTva)).count() || rowIndex >= ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.yExpressions$pTXc)).count()) {
+            return;
+          }
 
+          SNode xExpr = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.xExpressions$pTva)).getElement(columnIndex);
+          SNode yExpr = ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.yExpressions$pTXc)).getElement(rowIndex);
+          SNode decTabResult = cellNode;
+          if (cellNode == null) {
+            decTabResult = SLinkOperations.addNewChild(node, LINKS.results$q8h9, null);
+          }
+          if (newNode == null) {
+            SNodeOperations.deleteNode(decTabResult);
+            decTabResult = null;
+          } else {
+            SLinkOperations.setTarget(decTabResult, LINKS.result$qhbg, newNode);
+          }
+          SLinkOperations.setTarget(decTabResult, LINKS.xExpression$qg0b, xExpr);
+          SLinkOperations.setTarget(decTabResult, LINKS.yExpression$qgud, yExpr);
+          return;
+
+        }
+        protected boolean isListAsCells() {
+          return true;
+        }
+        protected Style createCellStyle(final Object row, final Object column, final Object queryResult, int columnIndex, int rowIndex) {
+          return new ITableStyleFactory() {
+            public Style createStyle(final int columnIndex, final int rowIndex) {
+              Style style = new StyleImpl();
+              final EditorCell editorCell = null;
+              style.set(StyleAttributes.getInstance().<Color>getAttribute("de.slisson.mps.tables", "shade-color"), MPSColors.cyan);
+              return style;
+            }
+          }.createStyle(columnIndex, rowIndex);
+        }
+      };
+      return builder.createGrid();
     } finally {
       getCellFactory().popCellContext();
     }
-
-
-    return grid;
   }
 
   private static final class LINKS {

@@ -13,13 +13,15 @@ import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.scope.Scope;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
-import jetbrains.mps.scope.ListScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.scope.ListScope;
+import java.util.ArrayList;
+import de.slisson.mps.tables.behavior.ISharedVariableScope__BehaviorDescriptor;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class SharedVariableReference_Constraints extends BaseConstraintsDescriptor {
   /*package*/ SharedVariableReference_Constraints(ConstraintsDescriptorInitContext initContext) {
@@ -41,7 +43,8 @@ public class SharedVariableReference_Constraints extends BaseConstraintsDescript
         }
         @Override
         public Scope createScope(final ReferenceConstraintsContext _context) {
-          return ListScope.forResolvableElements(SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(_context.getContextNode(), CONCEPTS.TableCellQuery$qw, true, false), LINKS.sharedVariables$wDSD));
+          SNode container = SNodeOperations.getNodeAncestor(_context.getContextNode(), CONCEPTS.ISharedVariableScope$E6, true, false);
+          return ListScope.forResolvableElements(((container == null) ? new ArrayList<SNode>() : ISharedVariableScope__BehaviorDescriptor.getSharedVariables_id4joKLPN7faG.invoke(container)));
         }
       };
     }
@@ -49,11 +52,10 @@ public class SharedVariableReference_Constraints extends BaseConstraintsDescript
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept SharedVariableReference$gT = MetaAdapterFactory.getConcept(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x7aba785189446152L, "de.slisson.mps.tables.structure.SharedVariableReference");
-    /*package*/ static final SConcept TableCellQuery$qw = MetaAdapterFactory.getConcept(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x13666975887a5929L, "de.slisson.mps.tables.structure.TableCellQuery");
+    /*package*/ static final SInterfaceConcept ISharedVariableScope$E6 = MetaAdapterFactory.getInterfaceConcept(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x6d09ee0a1f73a99eL, "de.slisson.mps.tables.structure.ISharedVariableScope");
   }
 
   private static final class LINKS {
     /*package*/ static final SReferenceLink variableDeclaration$9VZK = MetaAdapterFactory.getReferenceLink(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x7aba785189446152L, 0x7aba785189446153L, "variableDeclaration");
-    /*package*/ static final SContainmentLink sharedVariables$wDSD = MetaAdapterFactory.getContainmentLink(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x13666975887a5929L, 0x7aba78518942f21aL, "sharedVariables");
   }
 }

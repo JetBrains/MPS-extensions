@@ -94,13 +94,14 @@ For a manual check, make the `lineEndings` template in
 ## Regression tests
 
 Open the `com.dslfoundry.plaintextgen.tests` solution in the extensions project.
-Its test models separate three concerns:
+Its test models separate four concerns:
 
 | Test model suffix | Test case | Coverage |
 | --- | --- | --- |
 | `lineEndings@tests` | `LineEndings` | Exact-byte fallback and override precedence |
 | `layouts@tests` | `Layouts` | Left/center/right alignment, odd-width centering, nested indentation, horizontal/vertical composition, tabs, blank lines, explicit spaces, empty templates, filenames, and UTF-8/ISO-8859-1/UTF-16LE encoding |
-| `generation@tests` | `Generator` | The example language's complex layout template, compared against an independent expected model |
+| `generation@tests` | `Generator`, `GeneratedText` | An independent model snapshot for the complex layout template; exact text for nested and empty property/loop macros, tabbed/mixed templates, and PlainTextFlow word/soft-wrap/hard-wrap/nested-flow reductions |
+| `pasting@tests` | `Pasting` | Structural indentation detection, dedents, blank lines, CRLF, tab expansion/preservation, and empty/null input |
 
 Make the solution, then run these test cases as MPS tests (individually or in a
 combined configuration). The solution is included in the repository's existing
@@ -118,8 +119,18 @@ For model-to-model generator regressions, use `de.itemis.mps.compare` and the
 existing `assert generated model ... equals ...` assertion, as demonstrated by
 `Generator`. The expected layout is a checked-in snapshot, not copied from the
 generator during the test. Its output filter selects `map_TestConcept` because
-the example language also has three independent macro templates; this case does
-not claim to cover those templates.
+the example language also has three independent macro templates.
+`GeneratedText` exercises those templates through the same comparator's
+`GeneratorFacade` and `TextComparison` APIs, comparing their final text with
+literal expectations. CRLF is normalized to LF only in these generator text
+expectations; the separate byte-level tests intentionally do not normalize it.
+
+The paste tests use the two-argument `PlaintextPaster` overloads, which take the
+text explicitly. The existing one-argument clipboard entry points delegate to
+these overloads without changing parsing behavior. This keeps automated tests
+independent of the user's clipboard. Tests check both structural indent groups
+and generated output, including an intermediate dedent that is not an existing
+indentation level.
 
 The general generator-testing facility delivered by
 [#1339](https://github.com/JetBrains/MPS-extensions/issues/1339) already supplies
@@ -129,10 +140,11 @@ The byte/charset helper supplements that facility for the encoding and exact
 newline concerns in [#490](https://github.com/JetBrains/MPS-extensions/issues/490);
 decoded text equality alone cannot establish either.
 
-This is initial coverage for [#182](https://github.com/JetBrains/MPS-extensions/issues/182)
-and [#188](https://github.com/JetBrains/MPS-extensions/issues/188), not a claim of
-complete coverage: clipboard indentation detection, the other macro templates
-and PlainTextFlow still need dedicated cases. The right-aligned indentation case
+This covers the alignment/indent-detection cases in
+[#182](https://github.com/JetBrains/MPS-extensions/issues/182) and adds executable
+generator tests for [#188](https://github.com/JetBrains/MPS-extensions/issues/188).
+It is not an exhaustive test of every editor action, clipboard integration, or
+possible language composition. The right-aligned indentation case
 explicitly preserves the existing extra padding: the group's width includes its
 indentation before alignment adds that indentation again. Changing that behavior
 is outside these regression tests.

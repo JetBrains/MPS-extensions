@@ -21,8 +21,13 @@
     <dependency reexport="false">49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)</dependency>
     <dependency reexport="false">90aa1f1b-f65c-4e9a-99b4-4030e09d0bb2(com.dslfoundry.plaintextgen.example.testlang)</dependency>
     <dependency reexport="false">f47b95d4-5e73-4c04-9204-18076950153b(de.itemis.mps.compare)</dependency>
+    <dependency reexport="false">215c4c45-ba99-49f5-9ab7-4b6901a63cfd(MPS.Generator)</dependency>
+    <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
+    <dependency reexport="false">cf681fc9-c798-4f89-af38-ba3c0ac342d9(com.dslfoundry.plaintextflow)</dependency>
+    <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:cf681fc9-c798-4f89-af38-ba3c0ac342d9:com.dslfoundry.plaintextflow" version="0" />
     <language slang="l:990507d3-3527-4c54-bfe9-0ca3c9c6247a:com.dslfoundry.plaintextgen" version="0" />
     <language slang="l:90aa1f1b-f65c-4e9a-99b4-4030e09d0bb2:com.dslfoundry.plaintextgen.example.testlang" version="0" />
     <language slang="l:f47b95d4-5e73-4c04-9204-18076950153b:de.itemis.mps.compare" version="0" />
@@ -44,8 +49,13 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
+    <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />
+    <module reference="215c4c45-ba99-49f5-9ab7-4b6901a63cfd(MPS.Generator)" version="0" />
+    <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+    <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="7124e466-fc92-4803-a656-d7a6b7eb3910(MPS.TextGen)" version="0" />
+    <module reference="cf681fc9-c798-4f89-af38-ba3c0ac342d9(com.dslfoundry.plaintextflow)" version="0" />
     <module reference="990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)" version="0" />
     <module reference="90aa1f1b-f65c-4e9a-99b4-4030e09d0bb2(com.dslfoundry.plaintextgen.example.testlang)" version="0" />
     <module reference="cbe231e9-6c54-40b7-ae76-17e8e1a0df9d(com.dslfoundry.plaintextgen.tests)" version="0" />

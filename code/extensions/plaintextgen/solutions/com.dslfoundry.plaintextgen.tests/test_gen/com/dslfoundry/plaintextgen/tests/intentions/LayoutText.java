@@ -7,6 +7,8 @@ import com.dslfoundry.plaintextgen.plugin.CharacterMatrix;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import com.dslfoundry.plaintextgen.behavior.ITextGenElement__BehaviorDescriptor;
+import org.jetbrains.mps.openapi.model.SModel;
+import org.jetbrains.mps.openapi.module.SRepository;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
@@ -27,10 +29,18 @@ public class LayoutText {
     return output;
   }
   public static String render(final SNode root) {
+    final SModel model = root.getModel();
+    if (model == null) {
+      throw new IllegalArgumentException("Layout root must belong to a model");
+    }
+    final SRepository repository = model.getRepository();
+    if (repository == null) {
+      throw new IllegalArgumentException("Layout model must belong to a repository");
+    }
     final String[] result = new String[1];
-    root.getModel().getRepository().getModelAccess().runReadAction(new Runnable() {
+    repository.getModelAccess().runReadAction(new Runnable() {
       public void run() {
-        result[0] = LayoutText.renderContent(root);
+        result[0] = renderContent(root);
       }
     });
     return result[0];

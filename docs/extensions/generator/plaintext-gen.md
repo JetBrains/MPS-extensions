@@ -68,28 +68,10 @@ during model-to-model generation, using the same configuration sources in
 interactive and headless builds. The resulting `TextgenText` carries the resolved
 query results through subsequent generation steps.
 
-### Checking line endings
-
-The `com.dslfoundry.plaintextgen.tests` solution contains the `LineEndings`
-test case in `com.dslfoundry.plaintextgen.tests.lineEndings@tests`.
-Run it as an MPS test. It checks exact output bytes, without newline
-normalization, for absent overrides, explicit `Inherit`, all four line-ending
-styles, precedence, and isolation between templates. The solution is also
-registered in the `tests` build script.
-
-For a manual check, make the `lineEndings` template in
-`com.dslfoundry.plaintextgen.tests.fixtures`. Inspect the generated
-`lineEndings.txt` with a hex viewer rather than an editor that normalizes newlines:
-
-1. Leave both overrides at `Inherit`. Changing `LineEnding` must still select
-   `0D` (CR), `0A` (LF), or `0D 0A` (CRLF) after both lines.
-2. Set `LineEnding` to `LF` and the settings override to `CR`. Both lines must end
-   in `0D`.
-3. Set the model/query override to `CRLF`. It must win over both other settings.
-4. Set the model/query override to `Inherit` again. The settings override must
-   take effect. Set both overrides to `Inherit` to restore the template fallback.
-5. Check `Native` as an explicit override; it uses the MPS buffer's platform
-   newline. Restore the fixture's original settings after experimenting.
+For example, with `LineEnding` set to `LF` and both overrides set to `Inherit`,
+generated files use LF. Setting the settings override to `CRLF` switches output
+to CRLF. A model/query override of `LF` takes priority over that settings value.
+Set the model/query override back to `Inherit` to use the settings value again.
 
 ## Regression tests
 

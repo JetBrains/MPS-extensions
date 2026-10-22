@@ -21312,6 +21312,11 @@
               </node>
             </node>
           </node>
+          <node concept="1SiIV0" id="5w9TnceVTky" role="3bR37C">
+            <node concept="3bR9La" id="5w9TnceVTkz" role="1SiIV1">
+              <ref role="3bR37D" node="T8sXq9o593" resolve="com.dslfoundry.plaintextgen.example.testlang" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="5py4VqXmLOg" role="3bR31x">
           <node concept="3LXTmp" id="5py4VqXmLOh" role="3rtmxm">
@@ -21355,6 +21360,11 @@
             <node concept="3qWCbU" id="7q24334ZKEK" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5w9TnceVTkw" role="3bR37C">
+          <node concept="3bR9La" id="5w9TnceVTkx" role="1SiIV1">
+            <ref role="3bR37D" node="2NTGYE$JTGY" resolve="com.dslfoundry.plaintextgen" />
           </node>
         </node>
       </node>

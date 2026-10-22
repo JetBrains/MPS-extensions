@@ -157,12 +157,23 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -1103,6 +1114,55 @@
       <property role="TrG5h" value="rightAlignedIndentationKeepsHistoricalPadding" />
       <node concept="3cqZAl" id="5w9TncdMI0W" role="3clF45" />
       <node concept="3clFbS" id="5w9TncdMI0X" role="3clF47">
+        <node concept="3SKdUt" id="3TyGOoj3zcC" role="3cqZAp">
+          <node concept="1PaTwC" id="3TyGOoj3zcE" role="1aUNEU">
+            <node concept="3oM_SD" id="3TyGOoj3zcF" role="1PaTwD">
+              <property role="3oM_SC" value="Pins" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcG" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcH" role="1PaTwD">
+              <property role="3oM_SC" value="extra" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcI" role="1PaTwD">
+              <property role="3oM_SC" value="padding" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcJ" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcK" role="1PaTwD">
+              <property role="3oM_SC" value="right-aligned" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcL" role="1PaTwD">
+              <property role="3oM_SC" value="indented" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcM" role="1PaTwD">
+              <property role="3oM_SC" value="text;" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcN" role="1PaTwD">
+              <property role="3oM_SC" value="update" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcO" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcP" role="1PaTwD">
+              <property role="3oM_SC" value="expectation" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcQ" role="1PaTwD">
+              <property role="3oM_SC" value="when" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcR" role="1PaTwD">
+              <property role="3oM_SC" value="https://github.com/JetBrains/MPS-extensions/issues/1941" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcS" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="3TyGOoj3zcT" role="1PaTwD">
+              <property role="3oM_SC" value="fixed." />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5w9TncdMI0Y" role="3cqZAp">
           <node concept="2YIFZM" id="5w9TncdMI0Z" role="3clFbG">
             <ref role="1Pybhc" node="5w9TncdMFVN" resolve="LayoutAssertions" />
